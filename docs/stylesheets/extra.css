@@ -1,0 +1,25 @@
+/* Automatically style all screenshots in screenshots/ folder */
+.md-typeset img[src*="images"] {
+    border-radius: 8px;            /* your rounded corners */
+    /* box-shadow: 0 6px 12px rgba(0,0,0,0.2);  your shadow */
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2); /* sharper and more focused */
+    /* max-width: 86.5%;      prevent overflow on small screens */
+    height: auto;     /* maintain aspect ratio */
+    /* display: block;
+    margin: 1.5rem auto; vertical spacing + center horizontally */
+}
+
+/* Screenshot styling for External Images*/
+.screenshot {
+  /* padding: 0.1rem; */
+  /* background-color: var(--md-default-fg-color--lightest); */
+  /* border-radius: 0.2rem; */
+  border-radius: 8px;
+  width: 100%;          /* explicitly smaller width */
+  /* max-width: 90%;      prevent overflow on small screens */
+  height: auto;     /* maintain aspect ratio */
+  margin: auto;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  /* box-shadow: 0 6px 12px rgba(0,0,0,0.2); */
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2); /* sharper and more focused */
+}

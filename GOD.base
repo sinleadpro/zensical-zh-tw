@@ -1,0 +1,25 @@
+summaries:
+  Unique: values.unique().length
+views:
+  - type: table
+    name: Table
+    filters:
+      and:
+        - file.folder.contains("docs")
+        - '!file.folder.startsWith("templates")'
+        - '!file.folder.startsWith("docs/assets")'
+        - '!file.folder.startsWith("docs/stylesheets")'
+    groupBy:
+      property: file.folder
+      direction: ASC
+    order:
+      - file.name
+      - file.mtime
+      - wp_url
+    sort:
+      - property: file.name
+        direction: ASC
+    summaries:
+      file.name: Filled
+    columnSize:
+      note.wp_url: 752

@@ -1,0 +1,290 @@
+{
+  "main": {
+    "id": "db0f76e5244ba32a",
+    "type": "split",
+    "children": [
+      {
+        "id": "68ddbd05a668cece",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "22d8163372030ce5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "366e9da93a8312d8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "0737bcc538351d97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "6a985f0b06ee7cb6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/品牌官網/get-started.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "get-started"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5f2449e16eb6824a",
+    "type": "split",
+    "children": [
+      {
+        "id": "956d4eee48db551a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54e462a14a5a6adb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "536fb88d16f7d477",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8624ad6756c044e3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 307.5
+  },
+  "right": {
+    "id": "973606ff262c9293",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf40cafdac49a724",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29655f1ed2139b13",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/payments/申請 CYBERBIZ PAYMENTS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 申請 CYBERBIZ PAYMENTS"
+            }
+          },
+          {
+            "id": "ef4268f610d1110b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4b4571c4620c17d1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/payments/Apply for CYBERBIZ PAYMENTS.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Apply for CYBERBIZ PAYMENTS"
+            }
+          },
+          {
+            "id": "165974d87f171017",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "docs/payments/申請 CYBERBIZ PAYMENTS.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          },
+          {
+            "id": "e137c9afd066bf49",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/品牌官網/get-started.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for get-started"
+            }
+          },
+          {
+            "id": "2b2d8722c4ab60a4",
+            "type": "leaf",
+            "state": {
+              "type": "smtcmp-chat-view",
+              "state": {},
+              "icon": "wand-sparkles",
+              "title": "Smart composer chat"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "diagram-zoom-drag:Picker mode": false,
+      "smart-composer:Open smart composer": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
+    }
+  },
+  "active": "6a985f0b06ee7cb6",
+  "lastOpenFiles": [
+    "docs/index.md",
+    "site/oldin/index.html",
+    "site/oldin",
+    "docs/oldin.md",
+    "site/oldindex/index.html",
+    "site/oldindex",
+    "docs/oldindex.md",
+    "site/品牌官網/商品/設定加價購群組/index.html",
+    "site/品牌官網/商品/設定加價購群組",
+    "site/品牌官網/商品/設定商品配送屬性（一般宅配）/index.html",
+    "site/品牌官網/商品/設定商品配送屬性（一般宅配）",
+    "site/品牌官網/第三方整合/Google Analytics ：串接教學-ent/index.html",
+    "site/品牌官網/第三方整合/Google Analytics ：串接教學-ent",
+    "docs/old-index.md",
+    "docs/index old.md",
+    "docs/指南中心/glossary.md",
+    "docs/指南中心/changelog.md",
+    "docs/門市/index.md",
+    "docs/資源中心/glossary.md",
+    "docs/資源中心/changelog.md",
+    "docs/資源/changelog.md",
+    "docs/資源/glossary.md",
+    "docs/學習資源/glossary.md",
+    "docs/學習資源/changelog.md",
+    "docs/部落格/glossary.md",
+    "docs/部落格/changelog.md",
+    "docs/功能報報/glossary.md",
+    "docs/功能報報/changelog.md",
+    "docs/最新消息/glossary.md",
+    "docs/最新消息/changelog.md",
+    "docs/更多資料/changelog.md",
+    "docs/更多資料/glossary.md",
+    "docs/了解更多/glossary.md",
+    "docs/了解更多/changelog.md",
+    "docs/更多資源/changelog.md",
+    "site/assets/images/ec-about-us-page-configure.zh-tw.png",
+    "docs/assets/images/ec-about-us-page-configure.zh-tw.png",
+    "site/assets/images/ec-enter-name-of-website.zh-tw.png",
+    "docs/assets/images/ec-enter-name-of-website.zh-tw.png",
+    "site/assets/images/favicon.png",
+    "site/assets/images/ec-unclaimed-parcel-handling.en.png",
+    "site/assets/images/ec-shipping-label-a4.png",
+    "site/assets/images/ec-print shipping label-ibon-2.png",
+    "site/assets/images/ec-print shipping label-ibon-1.png",
+    "site/assets/images/ec-print shipping label-familymart.png"
+  ]
+}

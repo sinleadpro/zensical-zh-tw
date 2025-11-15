@@ -1,0 +1,10 @@
+{
+  "alwaysUpdateLinks": true,
+  "vimMode": true,
+  "strictLineBreaks": true,
+  "showLineNumber": true,
+  "propertiesInDocument": "source",
+  "rightToLeft": false,
+  "showUnsupportedFiles": true,
+  "promptDelete": false
+}
