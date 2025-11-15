@@ -1,0 +1,12 @@
+/factory/
+.opencode/
+.smtcmp_json_db/
+*.tar.gz
+.smtcmp_vector_db.tar.gz
+.specstory/
+.obsidian/
+<<<<<<< HEAD
+.smtcmp_json_db/
+=======
+.smtcmp_json_db/
+>>>>>>> cf4f7be (fix: gitignore remove smtcmp db)
