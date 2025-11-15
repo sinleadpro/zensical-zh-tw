@@ -4,6 +4,9 @@
         <loc>http://127.0.0.1:8000/</loc>
       </url>
       <url>
+        <loc>http://127.0.0.1:8000/index%201/</loc>
+      </url>
+      <url>
         <loc>http://127.0.0.1:8000/%E5%93%81%E7%89%8C%E5%AE%98%E7%B6%B2/get-started/</loc>
       </url>
       <url>

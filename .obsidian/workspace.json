@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/index 1.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "index 1"
             }
           },
           {
@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -193,7 +193,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/品牌官網/get-started.md",
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -203,7 +203,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for get-started"
+              "title": "Backlinks for index"
             }
           },
           {
@@ -239,9 +239,13 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "6a985f0b06ee7cb6",
+  "active": "366e9da93a8312d8",
   "lastOpenFiles": [
+    "docs/index 1.md",
     "docs/index.md",
+    "site/index 1/index.html",
+    "site/index 1",
+    "docs/品牌官網/get-started.md",
     "site/oldin/index.html",
     "site/oldin",
     "docs/oldin.md",
@@ -252,8 +256,6 @@
     "site/品牌官網/商品/設定加價購群組",
     "site/品牌官網/商品/設定商品配送屬性（一般宅配）/index.html",
     "site/品牌官網/商品/設定商品配送屬性（一般宅配）",
-    "site/品牌官網/第三方整合/Google Analytics ：串接教學-ent/index.html",
-    "site/品牌官網/第三方整合/Google Analytics ：串接教學-ent",
     "docs/old-index.md",
     "docs/index old.md",
     "docs/指南中心/glossary.md",
@@ -274,8 +276,6 @@
     "docs/更多資料/changelog.md",
     "docs/更多資料/glossary.md",
     "docs/了解更多/glossary.md",
-    "docs/了解更多/changelog.md",
-    "docs/更多資源/changelog.md",
     "site/assets/images/ec-about-us-page-configure.zh-tw.png",
     "docs/assets/images/ec-about-us-page-configure.zh-tw.png",
     "site/assets/images/ec-enter-name-of-website.zh-tw.png",

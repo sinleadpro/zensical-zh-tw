@@ -56,115 +56,110 @@ search:
 </div>
 
 
-## 品牌官網
-<div class="grid cards borderless" markdown>
+<div class= "grid cards" markdown>
 
--   :material-numeric-1-circle: __新手上路__  
-
-	=== "快速上手"
-	   
-    === "從零開始"
-        [建立帳號](getting-started/registration/)  
-        [設定商店](getting-started/setup-store/)  
-        [完成第一筆訂單](getting-started/first-order/) 
-
-    === "他站搬遷"
-        [從蝦皮搬站](#)
-
--   :material-numeric-2-circle: __設定與管理__
-  
-    ---
-    [商品管理](docs/ec/product/index.md)  
-    [庫存管理](docs/inventory/)  
-    [物流設定](docs/shipping/)  
-    [付款方式](docs/payments/)  
-    [商店外觀設定](docs/store-appearance/)
-
-
--   :material-numeric-3-circle: __交易與營運__
-
-    --- 
-    [訂單管理](docs/orders/)  
-    [付款流程](docs/payments/)  
-    [退款與退貨](docs/refunds/)  
-    [客戶管理](docs/customers/)  
-    [營運報表](docs/reports/)
-
--   :material-numeric-4-circle: __串接與應用程式__
-
-    ---
-    [第三方服務整合](docs/integrations/)  
-    [API 使用指南](docs/api/)  
-    [自動化流程](docs/automation/)  
-    [應用程式擴展](docs/apps/)
-
--   :material-numeric-5-circle: __成長與拓展__
-
-    ---
-    [行銷工具](docs/mark)  
-    [跨境電商](docs/cross-border)
+- ____
+- ____
 
 </div>
 
-<!-- <div class="product-section full-width-bg" markdown style="
-  background-color: #f8fafc; /* light gray-blue */
-  width: 100vw;
-  position: relative;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  padding: 1rem 1rem;
-  border-radius: 0; /* ensures full bleed */
-">
-  <div class="product-section-text" markdown style="
-      flex: 1 1 400px; 
-      min-width: 300px;
-      margin-left: 5.5rem;  /* offset the text from the left */
-      margin-right: 5.5rem;
-  "> -->
+## 品牌官網
+=== ":lucide-store: 建立商店"
+
+	<div class= "grid cards" markdown>
+	
+	- [__新手上路__](品牌官網/get-started.md)
+	- [__搬家到 CYBERBIZ__](#)
+	
+	</div>
+
+=== ":lucide-package: 商品庫存"
+
+	<div class= "grid cards" markdown>
+	
+	- [__商品管理__]
+	- [__庫存管理__]
+	
+	</div>
+
+=== ":lucide-truck: 訂單物流"
+
+	<div class= "grid cards" markdown>
+	
+	- [__訂單流程__]
+	- [__物流設定__]
+	
+	</div>
+
+=== ":lucide-credit-card: 付款金流"
+
+	<div class= "grid cards" markdown>
+	
+	- [__付款方式__]
+	- [__款項對帳__]
+	
+	</div>
+
+=== ":lucide-trending-up: 行銷成長"
+
+	<div class= "grid cards" markdown>
+	
+	- [__行銷工具__]
+	- [__成長拓展__]
+	
+	</div>
+
+=== ":lucide-webhook: 串接、API 與自動化"
+
+	<div class= "grid cards" markdown>
+	
+	- [__第三方服務整合__]
+	- [__API 與自動化__]
+	
+	</div>
+
 
 ## 智慧倉儲
+=== "新手上路"
+	<div class= "grid cards" markdown>
+	
+	- __新手上路__
+	- ____
+	
+	</div>
 
-<div class= "grid cards" markdown>
+### 智能 POS
+=== "新手上路"
+	<div class= "grid cards" markdown>
+	
+	- __新手上路__
+	- ____
+	
+	</div>
 
-- __新手上路__
-- ____
-
-</div>
-
-## 智能 POS
-
-<div class= "grid cards" markdown>
-
-- __新手上路__
-- ____
-
-</div>
-
-## 門市助理
-
-<div class= "grid cards" markdown>
-
-- __新手上路__
-- ____
-
-</div>
+### 門市助理
+=== "新手上路"
+	<div class= "grid cards" markdown>
+	
+	- __新手上路__
+	- ____
+	
+	</div>
 
 
 ## CYBERBIZ 擴充功能
+=== "APP MARKET"
 
-<div class= "grid cards" markdown>
+=== "AUTOMATION"
 
-- __CYBERBIZ APP MARKET__
-- __CYBERBIZ AUTOMATION__
-- __CYBERBIZ TICKETS__
-- __CYBERBIZ NOW!__
-- __CYBERBIZ PAYMENTS__
-- __CYBERBIZ CHAT BOX__
-- __CYBERBIZ CHANNEL BRIDGE__
+=== "TICKETS"
 
-</div>
+=== "NOW!"
+
+=== "CHAT BOX"
+
+=== "CHANNEL BRIDGE"
+
 
 ## 最新消息
 
