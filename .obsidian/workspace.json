@@ -6,14 +6,28 @@
       {
         "id": "68ddbd05a668cece",
         "type": "tabs",
+        "dimension": 61.198738170347,
         "children": [
           {
             "id": "22d8163372030ce5",
             "type": "leaf",
             "state": {
+              "type": "bases",
+              "state": {
+                "file": "GOD.base",
+                "viewName": "Table"
+              },
+              "icon": "lucide-table",
+              "title": "GOD"
+            }
+          },
+          {
+            "id": "43d52887bfb4e8e2",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/品牌官網/index.md",
                 "mode": "source",
                 "source": true
               },
@@ -22,12 +36,12 @@
             }
           },
           {
-            "id": "366e9da93a8312d8",
+            "id": "ac15834cb0ff19c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/品牌官網/商品庫存/index.md",
                 "mode": "source",
                 "source": true
               },
@@ -36,35 +50,154 @@
             }
           },
           {
-            "id": "0737bcc538351d97",
+            "id": "203df5c8376d9d94",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index 1.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "index 1"
-            }
-          },
-          {
-            "id": "6a985f0b06ee7cb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/品牌官網/get-started.md",
+                "file": "docs/品牌官網/商品庫存/設定加價購群組.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "get-started"
+              "title": "設定加價購群組"
+            }
+          },
+          {
+            "id": "2d3257d34b3d49cd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/品牌官網/商品庫存/啟用留言區 reCAPTCHA.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "啟用留言區 reCAPTCHA"
+            }
+          },
+          {
+            "id": "9faf1509b439cb17",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/品牌官網/商品庫存/設定商品超商物流限制與排除選項.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定商品超商物流限制與排除選項"
+            }
+          },
+          {
+            "id": "465e8be777495c31",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/品牌官網/商品庫存/設定商品影片.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定商品影片"
+            }
+          },
+          {
+            "id": "a7ebcc8d2cbfd637",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/品牌官網/商品庫存/新增組合商品.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "新增組合商品"
+            }
+          },
+          {
+            "id": "222254f24bb81ac6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/品牌官網/index.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "7f93401f7e0e0659",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/品牌官網/商品庫存/啟用留言區 reCAPTCHA.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "啟用留言區 reCAPTCHA"
+            }
+          },
+          {
+            "id": "8d7b8a6794848262",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/品牌官網/付款金流/設定信用卡 3D 驗證門檻.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定信用卡 3D 驗證門檻"
+            }
+          },
+          {
+            "id": "8929be1ff4bad2d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/品牌官網/quickstart.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "quickstart"
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
+      },
+      {
+        "id": "7f7e9b2af8ab848b",
+        "type": "tabs",
+        "dimension": 38.801261829652994,
+        "children": [
+          {
+            "id": "0fbbc461f4651eb9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/品牌官網/商品庫存/使用商品評論.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "使用商品評論"
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -239,52 +372,53 @@
       "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "366e9da93a8312d8",
+  "active": "2d3257d34b3d49cd",
   "lastOpenFiles": [
-    "docs/index 1.md",
+    "site/assets/audios/設定留言區 reCAPTCHA 聽讀.mp3",
+    "site/assets/audios",
+    "docs/assets/audios/設定留言區 reCAPTCHA 聽讀.mp3",
+    "docs/assets/audios",
+    "docs/assets/新增資料夾",
+    "site/assets/images/ec-members-customer-feedback-enable-reCAPTCHA.png",
+    "docs/assets/images/ec-members-customer-feedback-enable-reCAPTCHA.png",
+    "site/assets/images/EC-會員-顧客回饋-reCAPTCHA 啟用.png",
+    "docs/assets/images/EC-會員-顧客回饋-reCAPTCHA 啟用.png",
+    "docs/品牌官網/商品庫存/設定加價購群組.md",
+    "docs/品牌官網/商品庫存/index.md",
+    "docs/品牌官網/index.md",
+    "templates/lucide-navigation.md",
     "docs/index.md",
-    "site/index 1/index.html",
-    "site/index 1",
-    "docs/品牌官網/get-started.md",
-    "site/oldin/index.html",
-    "site/oldin",
-    "docs/oldin.md",
-    "site/oldindex/index.html",
-    "site/oldindex",
-    "docs/oldindex.md",
-    "site/品牌官網/商品/設定加價購群組/index.html",
-    "site/品牌官網/商品/設定加價購群組",
-    "site/品牌官網/商品/設定商品配送屬性（一般宅配）/index.html",
-    "site/品牌官網/商品/設定商品配送屬性（一般宅配）",
-    "docs/old-index.md",
-    "docs/index old.md",
-    "docs/指南中心/glossary.md",
-    "docs/指南中心/changelog.md",
-    "docs/門市/index.md",
-    "docs/資源中心/glossary.md",
-    "docs/資源中心/changelog.md",
-    "docs/資源/changelog.md",
-    "docs/資源/glossary.md",
-    "docs/學習資源/glossary.md",
-    "docs/學習資源/changelog.md",
-    "docs/部落格/glossary.md",
-    "docs/部落格/changelog.md",
-    "docs/功能報報/glossary.md",
-    "docs/功能報報/changelog.md",
-    "docs/最新消息/glossary.md",
-    "docs/最新消息/changelog.md",
-    "docs/更多資料/changelog.md",
-    "docs/更多資料/glossary.md",
-    "docs/了解更多/glossary.md",
-    "site/assets/images/ec-about-us-page-configure.zh-tw.png",
-    "docs/assets/images/ec-about-us-page-configure.zh-tw.png",
-    "site/assets/images/ec-enter-name-of-website.zh-tw.png",
-    "docs/assets/images/ec-enter-name-of-website.zh-tw.png",
-    "site/assets/images/favicon.png",
-    "site/assets/images/ec-unclaimed-parcel-handling.en.png",
-    "site/assets/images/ec-shipping-label-a4.png",
-    "site/assets/images/ec-print shipping label-ibon-2.png",
-    "site/assets/images/ec-print shipping label-ibon-1.png",
-    "site/assets/images/ec-print shipping label-familymart.png"
+    "templates/lucide-user.md",
+    "docs/品牌官網/商品庫存/啟用留言區 reCAPTCHA.md",
+    "docs/品牌官網/商品庫存/設定商品影片.md",
+    "docs/品牌官網/商品庫存/設定商品排除搜尋.md",
+    "docs/品牌官網/商品庫存/設定任選折扣群組.md",
+    "site/assets/images/ec-import-from-excel-if-exclude-search.png",
+    "docs/assets/images/ec-import-from-excel-if-exclude-search.png",
+    "site/assets/images/ec-import-viaEC-Excel大量匯入商品-是否排除搜尋.png",
+    "docs/assets/images/ec-import-viaEC-Excel大量匯入商品-是否排除搜尋.png",
+    "site/assets/images/EC-Excel大量匯入商品-是否排除搜尋.png",
+    "docs/assets/images/EC-Excel大量匯入商品-是否排除搜尋.png",
+    "().md",
+    "templates/lucide-compass.md",
+    "docs/品牌官網/商品庫存/quickstart 1.md",
+    "商品排除搜尋.md",
+    "docs/品牌官網/商品庫存/quickstart.md",
+    "templates/lucide-calendar-check.md",
+    "docs/品牌官網/商品庫存/設定商品超商物流限制與排除選項.md",
+    "docs/品牌官網/商品庫存/新增組合商品.md",
+    "site/品牌官網/商品庫存/設定商品影片/index.html",
+    "site/品牌官網/商品庫存/index.html",
+    "site/javascripts/tablesort.js",
+    "site/javascripts",
+    "docs/javascripts/tablesort.js",
+    "docs/javascripts",
+    "templates/lucide-circle-percent.md",
+    "docs/品牌官網/付款金流/設定信用卡 3D 驗證門檻.md",
+    "templates/badge-features.md",
+    "templates/badge-plans.md",
+    "templates/lucide-rss.md",
+    "templates/lucide-history.md",
+    "templates/lucide-link-2.md"
   ]
 }

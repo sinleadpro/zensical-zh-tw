@@ -1,0 +1,1 @@
+:lucide-badge-percent:

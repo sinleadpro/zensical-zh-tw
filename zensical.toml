@@ -73,7 +73,10 @@ extra_css = ["stylesheets/extra.css"]
 #
 # Read more: https://zensical.org/docs/customization/#additional-javascript
 #extra_javascript = ["assets/javascript/extra.js"]
-
+extra_javascript = [
+    "https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js",
+    "javascripts/tablesort.js"
+]
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
 # ----------------------------------------------------------------------------
@@ -311,7 +314,7 @@ toggle.name = "Switch to light mode"
 #link = "https://github.com/user/repo"
 
 [project.extra.status]
-lock = "Available only for certain tiers"
+lock = "Available only for certain plans"
 
 [project.extra.consent]
 title = "Cookie consent"

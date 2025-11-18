@@ -8,25 +8,21 @@ search:
   exclude: true
 ---
 
-<div class="homepage-hero" style="
-    width: 100%;
+<div class="hero-wrapper" style="
     display: flex;
-    justify-content: flex-start;   /* align content to the left */
-    align-items: center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
     flex-wrap: wrap;
     margin-top: -2.2rem;
-    padding: 4rem;
-%%     background-image: url('assets/images/hero-grid-light.svg');
-    background-repeat: repeat;
-    background-size: auto;
-    background-position: top left; %%
-    text-align: left;              /* ensure text is left-aligned */
+    padding: 4rem 2rem;
 ">
 
-  <!-- Text + buttons -->
-  <div class="hero-text" style="
-      min-width: 300px;
-      max-width: 600px;           /* keeps readable line length */
+  <!-- LEFT: Hero -->
+  <div class="homepage-hero" style="
+      flex: 1 1 380px;
+      min-width: 360px;
+      max-width: 680px;
   ">
     <h1>
       輕鬆上手 
@@ -48,23 +44,36 @@ search:
         gap: 1rem;
         margin-top: 1rem;
     ">
-      <a href="品牌官網/get-started/" class="md-button md-button--primary">開始探索 ➜</a>
+      <a href="品牌官網/" class="md-button md-button--primary">開始探索 ➜</a>
       <a href="資源中心/changelog/" class="md-button">最新消息</a>
+    </div>
+  </div>
+
+  <!-- RIGHT: Zensical Callout -->
+  <div class="hero-callout" style="
+      flex: 1 1 320px;
+  ">
+    <div class="callout quote" style="
+        background-color: #f5f5f5;    /* light grey background */
+        border-radius: 12px;          /* rounded corners */
+        padding: 1.5rem;              /* inner spacing */
+    ">
+      <div class="callout-title" style="margin-bottom: 1rem; font-weight: bold;">
+        最新文件
+      </div>
+      <a href="#">新增：門市助理快速上手指南</a><br>   
+      <a href="#">更新：EC 商品上架流程</a><br>
+      <a href="#">新增：全新金物流設定說明</a><br>    
+      
     </div>
   </div>
 
 </div>
 
 
-<div class= "grid cards" markdown>
-
-- ____
-- ____
-
-</div>
 
 ## 品牌官網
-=== ":lucide-store: 建立商店"
+=== ":lucide-store: 商店設定"
 
 	<div class= "grid cards" markdown>
 	
@@ -100,6 +109,10 @@ search:
 	
 	</div>
 
+=== ":lucide-user: 會員管理"
+
+
+
 === ":lucide-trending-up: 行銷成長"
 
 	<div class= "grid cards" markdown>
@@ -109,7 +122,7 @@ search:
 	
 	</div>
 
-=== ":lucide-webhook: 串接、API 與自動化"
+=== ":lucide-webhook: 整合串接"
 
 	<div class= "grid cards" markdown>
 	
@@ -148,28 +161,43 @@ search:
 
 
 ## CYBERBIZ 擴充功能
-=== "APP MARKET"
 
-=== "AUTOMATION"
 
-=== "TICKETS"
+<div class="grid cards" markdown>
 
-=== "NOW!"
+- :lucide-layout-grid:  __APP MARKET__   
+  for content and structure
+- :lucide-cog: __AUTOMATION__   
+  for interactivity
+- :lucide-ticket: __TICKETS__  
+  for text running out of boxes
+- :lucide-zap: __NOW!__  
+  ... huh?
+- :lucide-credit-card: __PAYMENTS__  
+  ... huh?
+- :lucide-message-circle: __CHAT BOX__  
+  ... huh?
+- :lucide-link-2: __CHANNEL BRIDGE__  
+  ... huh?
 
-=== "CHAT BOX"
-
-=== "CHANNEL BRIDGE"
-
+</div>
 
 ## 最新消息
 
 <div class="grid cards" markdown>
 
-- :material-history: [__功能更新__](changelog/index.md)  
-  <small>我們不斷為 **CYBERBIZ** 帶來新功能與優化，請關注我們的功能更新紀錄。</small>
+-   :lucide-rss: __功能報報__
 
-- :material-rss: [__部落格__](blog/index.md)   
-  <small>了解最新動態與實用技巧，請持續關注我們的部落格。</small>
+    ---
+
+    了解最新動態與實用技巧，請持續關注我們的部落格。
+
+
+-   :lucide-history: __更新紀錄__
+
+    ---
+
+    我們不斷為 **CYBERBIZ** 帶來新功能與優化，請關注我們的功能更新紀錄。
 
 </div>
 
@@ -179,10 +207,10 @@ search:
 <div class="grid cards" markdown>
 
 - :material-headset: [__需要協助嗎？__](#)  
-  <small>透過後台的線上客服與我們聯繫。</small>
+  透過後台的線上客服與我們聯繫。
 
 - :material-video-outline: [__使用 Jam 回報問題__](tags/types/how-to/使用 Jam 回報問題.md)  
-  <small>使用 Jam 擷取螢幕或錄影，提供完整資訊給客服與研發團隊，加快問題排解。</small>  
+  使用 Jam 擷取螢幕或錄影，提供完整資訊給客服與研發團隊，加快問題排解。
 
 </div>
 

@@ -1,0 +1,1 @@
+:lucide-rotate-cw:

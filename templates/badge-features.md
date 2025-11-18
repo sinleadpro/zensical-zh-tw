@@ -1,0 +1,1 @@
+:lucide-toggle-right:{ title="適用功能" } | 

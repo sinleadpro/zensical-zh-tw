@@ -1,0 +1,1 @@
+:lucide-lock:{ title="適用方案" } | 
