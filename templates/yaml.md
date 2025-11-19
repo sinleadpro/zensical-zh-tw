@@ -17,5 +17,5 @@ sites: []
 status: new
 tags: []
 difficulty: ""
-notes: []
 wp_url: []
+notes: []

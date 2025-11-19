@@ -124,8 +124,6 @@ note:
 
 ![](../../assets/images/ec-members-customer-feedback-enable-reCAPTCHA.png)
 
----
-
 ## 常見問題
 ??? quote "一組 Google reCAPTCHA 帳號可以綁定多個網域嗎？"
     是的，一組 Google reCAPTCHA 帳號可以綁定多個網域。您可以使用同一組密鑰綁定商品評論與聯絡我們頁面。

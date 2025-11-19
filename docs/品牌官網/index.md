@@ -105,7 +105,7 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-receipt:{ .lg .middle } __訂單流程__
+	-   :lucide-workflow:{ .lg .middle } __訂單流程__
 	
 	    ---
 	
@@ -161,7 +161,7 @@ hide:
 	
 	    [:octicons-arrow-right-24: Reference](#)
 	
-	-   :material-format-font:{ .lg .middle } __Made to measure__
+	-   :lucide-receipt:{ .lg .middle } __電子發票__
 	
 	    ---
 	

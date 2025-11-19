@@ -11,7 +11,7 @@ notes:
 
 管理您的商品與庫存資料。  
 快速建立商品、管理分類與群組，並即時掌握庫存與補貨狀態。  
-[新手上路 :lucide-circle-arrow-right:](quickstart.md)
+[快速上手 :lucide-circle-arrow-right:](quickstart.md)
 
 ---
 
@@ -24,7 +24,7 @@ notes:
 	---
 	
 	[新增單一商品](新增單一商品.md)  
-	 [新增組合商品](新增組合商品.md)  
+	[新增組合商品](新增組合商品.md)  
 	[建立預購商品](設定多購物車.md#設定預購商品)  
 
 -   :lucide-import: __匯入商品__
@@ -41,11 +41,6 @@ notes:
 	[編輯商品描述與設定](編輯商品描述與設定.md)  
 	[上傳商品影片](設定商品影片.md)  
 
--   :lucide-rotate-cw: __更新商品__
-
-	---
-	
-	[批次修改商品資訊](批次修改商品資訊.md)  
 
 </div>
 
@@ -78,9 +73,16 @@ notes:
 	
 </div>
 
-### 通路設定
+### 上架通路
 
 <div class="grid cards cols-5" markdown>
+
+-   :lucide-package-check: __上架設定__
+
+	---
+
+	[設定上架跟下架時程](#)
+
 
 -   :lucide-truck: __配送物流__
 
@@ -102,13 +104,6 @@ notes:
 
 	[排除贈品不上傳至第三方平台](設定商品排除上傳至第三方平台.md)
 
--   :material-scale-balance: __Open Source, MIT__
-
-	---
-
-	Zensical is licensed under MIT and available on [GitHub]
-
-	[:octicons-arrow-right-24: License](#)
 
 </div>
 
@@ -130,21 +125,11 @@ notes:
 
     [設定預購商品](#)
 
--   :material-format-font:{ .lg .middle } __Made to measure__
+-   :lucide-rotate-cw: __更新商品__
 
-    ---
-
-    Change the colors, fonts, language, icons, logo and more with a few lines
-
-    [:octicons-arrow-right-24: Customization](#)
-
--   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
-
-    ---
-
-    Zensical is licensed under MIT and available on [GitHub]
-
-    [:octicons-arrow-right-24: License](#)
+	---
+	
+	[批次修改商品資訊](批次修改商品資訊.md)  
 
 </div>
 
@@ -158,11 +143,11 @@ notes:
     
 - 商品貨到通知
 
-### 行銷折扣
+### 折扣商品
 
 <div class="grid cards" markdown>
 
--    :lucide-circle-percent: __優惠價格__
+-    :lucide-circle-percent: __優惠價__
 
     ---
 
@@ -179,23 +164,6 @@ notes:
     [加價購群組多國語系設定](設定加價購群組的多國語系名稱.md
     )  
 
-
-
--   :material-format-font: __Made to measure__
-
-    ---
-
-    Change the colors, fonts, language, icons, logo and more with a few lines
-
-    [:octicons-arrow-right-24: Customization](#)
-
--   :material-scale-balance: __Open Source, MIT__
-
-    ---
-
-    Zensical is licensed under MIT and available on [GitHub]
-
-    [:octicons-arrow-right-24: License](#)
 
 </div>
 
