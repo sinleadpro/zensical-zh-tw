@@ -35,21 +35,89 @@
             }
           },
           {
-            "id": "db978cad79fb668d",
+            "id": "1252d7ef8ab8b6b3",
+            "type": "leaf",
+            "state": {
+              "type": "csv-view",
+              "state": {
+                "file": "reference/trans-glossary.csv"
+              },
+              "icon": "table",
+              "title": "trans-glossary"
+            }
+          },
+          {
+            "id": "1d91d78cc3d082fe",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/品牌官網/付款金流/電子發票：星益欣 (美麗科技) 2.md",
+                "file": "docs/品牌官網/商品庫存/電子票券指南.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "電子發票：星益欣 (美麗科技) 2"
+              "title": "電子票券指南"
             }
           },
           {
-            "id": "032fa53a6a38b6df",
+            "id": "448e86f0bad70218",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/品牌官網/商品庫存/購買電子票券.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "購買電子票券"
+            }
+          },
+          {
+            "id": "0864a3c8ea2ada40",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "reference/playbook/doc types.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "doc types"
+            }
+          },
+          {
+            "id": "df1db778fd0490d7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/品牌官網/商品庫存/電子票券指南.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "電子票券指南"
+            }
+          },
+          {
+            "id": "81b70d80f17995ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/品牌官網/付款金流/星益欣電子發票設定指南.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "星益欣電子發票設定指南"
+            }
+          },
+          {
+            "id": "10899fe8700fccc7",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -60,6 +128,116 @@
               },
               "icon": "lucide-file",
               "title": "index"
+            }
+          },
+          {
+            "id": "10b72beeb1d16d71",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/品牌官網/商品庫存/新增單一商品.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "新增單一商品"
+            }
+          },
+          {
+            "id": "db128d08da2f10ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/品牌官網/商品庫存/新增單一商品.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "新增單一商品"
+            }
+          },
+          {
+            "id": "6a838d662e4b9d60",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/品牌官網/商品庫存/電子票券指南-old.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "電子票券指南-old"
+            }
+          },
+          {
+            "id": "ec9bc01bb7d5de97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/品牌官網/商品庫存/設定電子票券門市權限.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "設定電子票券門市權限"
+            }
+          },
+          {
+            "id": "b684b0eb02abf0b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/品牌官網/get-started.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "get-started"
+            }
+          },
+          {
+            "id": "914892dd7cbd32f6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/品牌官網/商品庫存/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "f61ccea5b8eb89bd",
+            "type": "leaf",
+            "state": {
+              "type": "csv-view",
+              "state": {
+                "file": "reference/trans-glossary.csv"
+              },
+              "icon": "table",
+              "title": "trans-glossary"
+            }
+          },
+          {
+            "id": "032fa53a6a38b6df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/品牌官網/商品庫存/設定商品影片.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定商品影片"
             }
           },
           {
@@ -92,12 +270,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/品牌官網/付款金流/電子發票：星益欣 (美麗科技) 2.md",
+                "file": "docs/品牌官網/付款金流/星益欣電子發票設定指南.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "電子發票：星益欣 (美麗科技) 2"
+              "title": "星益欣電子發票設定指南"
             }
           },
           {
@@ -106,10 +284,10 @@
             "state": {
               "type": "csv-view",
               "state": {
-                "file": "reference/OBD Path Glossary.csv"
+                "file": "reference/trans-glossary.csv"
               },
               "icon": "table",
-              "title": "OBD Path Glossary"
+              "title": "trans-glossary"
             }
           },
           {
@@ -118,12 +296,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/品牌官網/付款金流/電子發票：星益欣 (美麗科技) 1.md",
+                "file": "docs/品牌官網/商品庫存/設定商品影片.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "電子發票：星益欣 (美麗科技) 1"
+              "title": "設定商品影片"
             }
           },
           {
@@ -197,7 +375,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -299,13 +477,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/payments/Apply for CYBERBIZ PAYMENTS.md",
+                "file": "docs/品牌官網/付款金流/星益欣電子發票設定指南.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Apply for CYBERBIZ PAYMENTS"
+              "title": "Outline of 星益欣電子發票設定指南"
             }
           },
           {
@@ -383,52 +561,52 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "db978cad79fb668d",
+  "active": "ee4de6e4fb7a4876",
   "lastOpenFiles": [
-    "templates/lucide-toggle-right.md",
-    "docs/品牌官網/付款金流/電子發票：星益欣 (美麗科技) 2.md",
-    "docs/品牌官網/付款金流/電子發票：星益欣 (美麗科技) 1.md",
-    "docs/assets/images/ec-e-invoices-wixtar.zh-tw.png",
-    "reference/OBD Path Glossary.csv",
-    "site/assets/images/ec-e-invoices-wixtar.zh-tw.png.png",
-    "docs/assets/images/ec-e-invoices-wixtar.zh-tw.png.png",
-    "site/assets/images/ec-e-invoices-wixtar.zh-tw.png",
+    "docs/品牌官網/商品庫存/電子票券指南.md",
+    "site/品牌官網/商品庫存/設定商品配送屬性（一般宅配）/index.html",
+    "site/品牌官網/商品庫存/設定商品配送屬性（一般宅配）",
+    "site/品牌官網/商品庫存/設定電子票券任選折扣/index.html",
+    "site/品牌官網/商品庫存/設定電子票券任選折扣",
+    "site/資源中心/glossary/index.html",
+    "site/資源中心/changelog/index.html",
+    "site/資源中心/glossary",
+    "site/資源中心/changelog",
+    "site/資源中心",
+    "site/品牌官網/商品庫存/電子票券對帳方法/index.html",
     "docs/品牌官網/商品庫存/index.md",
-    "docs/品牌官網/商品庫存/quickstart.md",
-    "site/品牌官網/付款金流/電子發票：星益欣 (美麗科技) 2/index.html",
-    "site/品牌官網/付款金流/電子發票：星益欣 (美麗科技) 2",
-    "docs/品牌官網/付款金流/電子發票：星益欣 (美麗科技).md",
+    "templates/lucide-baby.md",
+    "docs/品牌官網/商品庫存/新增單一商品.md",
+    "docs/品牌官網/商品庫存/電子票券指南-old.md",
+    "templates/lucide-rocket.md",
     "docs/品牌官網/index.md",
-    "docs/品牌官網/商品庫存/編輯商品描述與設定.md",
-    "templates/yaml.md",
-    "templates/interpunct.md",
+    "templates/lucide-compass.md",
+    "docs/品牌官網/商品庫存/設定電子票券門市權限.md",
+    "site/assets/images/ec-hero.png",
+    "docs/assets/images/ec-hero.png",
     "docs/品牌官網/get-started.md",
-    "site/品牌官網/get-started/index.html",
-    "site/品牌官網/get-started",
-    "docs/品牌官網/Untitled.md",
-    "site/品牌官網/Untitled/index.html",
-    "site/品牌官網/Untitled",
-    "docs/品牌官網/商品庫存/設定商品影片.md",
-    "docs/品牌官網/商品庫存/啟用留言區 reCAPTCHA.md",
-    "site/品牌官網/付款金流/電子發票：星益欣 (美麗科技) 1/index.html",
-    "site/品牌官網/付款金流/電子發票：星益欣 (美麗科技) 1",
-    "docs/資源中心/glossary.md",
-    "docs/品牌官網/商品庫存/使用商品評論.md",
-    "site/品牌官網/商品庫存/product-activ/index.html",
-    "templates/lucide-package-check.md",
-    "docs/品牌官網/商品庫存/設定加價購群組.md",
-    "docs/品牌官網/付款金流/設定信用卡 3D 驗證門檻.md",
-    "docs/品牌官網/商品庫存/新增組合商品.md",
-    "docs/品牌官網/商品庫存/設定商品超商物流限制與排除選項.md",
-    "docs/品牌官網/會員管理/index.md",
-    "site/assets/images/ec-members-customer-feedback-enable-reCAPTCHA.png",
-    "docs/assets/images/ec-members-customer-feedback-enable-reCAPTCHA.png",
-    "site/assets/images/EC-會員-顧客回饋-reCAPTCHA 啟用.png",
-    "docs/assets/images/EC-會員-顧客回饋-reCAPTCHA 啟用.png",
-    "templates/lucide-navigation.md",
+    "docs/門市助理/index.md",
+    "docs/智慧倉儲/index.md",
     "docs/index.md",
-    "templates/lucide-user.md",
-    "site/assets/images/ec-import-from-excel-if-exclude-search.png",
-    "docs/assets/images/ec-import-from-excel-if-exclude-search.png"
+    "docs/index 1.md",
+    "docs/品牌官網/商品庫存/購買電子票券.md",
+    "site/assets/images/ec-hero.png.png",
+    "docs/assets/images/ec-hero.png.png",
+    "site/assets/images/ec-hero-4.png.png",
+    "docs/assets/images/ec-hero-4.png.png",
+    "site/assets/images/modified-ec-hero-4.png.png",
+    "docs/assets/images/modified-ec-hero-4.png.png",
+    "reference/playbook/doc types.md",
+    "site/assets/images/ec-hero (2).png",
+    "docs/assets/images/ec-hero (2).png",
+    "templates/lucide-shield-check.md",
+    "docs/品牌官網/商品庫存/電子票券指南 1.md",
+    "docs/品牌官網/商品庫存/設定商品影片.md",
+    "includes/abbreviations.md",
+    "docs/品牌官網/付款金流/星益欣電子發票設定指南.md",
+    "includes/abbreviations.zh-tw.md",
+    "docs/智能 POS/index.md",
+    "docs/智能 POS/index 2.md",
+    "docs/品牌官網/get-started 1.md"
   ]
 }

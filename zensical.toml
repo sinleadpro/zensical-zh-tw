@@ -313,6 +313,26 @@ toggle.name = "Switch to light mode"
 #icon = "fontawesome/brands/github"
 #link = "https://github.com/user/repo"
 
+[[project.extra.social]]
+icon = "simple/youtube"
+link = "https://www.youtube.com/channel/UCTf4mKUL4k6-2skp1kxPDXg"
+name = "CYBERBIZ 官方 YouTube"
+
+[[project.extra.social]]
+icon = "simple/instagram"
+link = "https://www.instagram.com/cyberbiz.corp/"
+name = "CYBERBIZ 官方 Instagram"
+
+[[project.extra.social]]
+icon = "simple/facebook"
+link = "https://www.facebook.com/CYBERBIZCorporation/?locale=zh_TW" 
+name = "CYBERBIZ 官方 Facebook"
+
+[[project.extra.social]]
+icon = "simple/rss"
+link = "http://localhost:8000/feed_rss_created.xml"
+
+
 [project.extra.status]
 lock = "Available only for certain plans"
 

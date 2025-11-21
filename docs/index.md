@@ -73,16 +73,18 @@ search:
 
 
 ## 品牌官網
-=== ":lucide-store: 商店設定"
+
+=== "商店設定"
 
 	<div class= "grid cards" markdown>
 	
 	- [__新手上路__](品牌官網/get-started.md)
 	- [__搬家到 CYBERBIZ__](#)
+	- [__網站外觀__](#)
 	
 	</div>
 
-=== ":lucide-package: 商品庫存"
+=== "商品庫存"
 
 	<div class= "grid cards" markdown>
 	
@@ -91,7 +93,7 @@ search:
 	
 	</div>
 
-=== ":lucide-truck: 訂單物流"
+=== "訂單物流"
 
 	<div class= "grid cards" markdown>
 	
@@ -100,7 +102,7 @@ search:
 	
 	</div>
 
-=== ":lucide-credit-card: 付款金流"
+=== "付款金流"
 
 	<div class= "grid cards" markdown>
 	
@@ -109,11 +111,11 @@ search:
 	
 	</div>
 
-=== ":lucide-user: 會員管理"
+=== "會員管理"
 
 
 
-=== ":lucide-trending-up: 行銷成長"
+=== "行銷成長"
 
 	<div class= "grid cards" markdown>
 	
@@ -122,7 +124,7 @@ search:
 	
 	</div>
 
-=== ":lucide-webhook: 整合串接"
+=== "整合串接"
 
 	<div class= "grid cards" markdown>
 	

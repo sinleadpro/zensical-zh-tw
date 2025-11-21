@@ -1,5 +1,6 @@
 ---
 title: 詞彙表
+icon: lucide/book
 ---
 
 

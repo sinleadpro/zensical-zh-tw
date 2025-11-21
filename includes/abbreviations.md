@@ -1,0 +1,24 @@
+<!-- abbreviations -->
+*[3DS]: An authentication layer for online credit card payments.
+*[OTP]: One-Time Password (OTP). A temporary password generated for one-time use to verify a user’s identity. Usually delivered via SMS, email, or authenticator apps, the OTP must be entered by the user to complete a transaction or login.
+*[Regular Plans]: Boss, Advance, Master plans.
+*[PLUS Plans]: Boss PLUS, Advance PLUS, Master PLUS plans.
+*[Professional Plan]: Boss, a subscription plan for the CYBERBIZ e-commerce platform.
+*[Professional PLUS Plan]: Boss Plus, a subscription plan for the CYBERBIZ e-commerce platform.
+*[Advanced Plan]: Advance, a subscription plan for the CYBERBIZ e-commerce platform.
+*[Advanced PLUS Plan]: Advance Plus, a subscription plan for the CYBERBIZ e-commerce platform.
+*[Master Plan]: Master, a subscription plan for the CYBERBIZ e-commerce platform.
+*[Master PLUS Plan]: Master Plus, a subscription plan for the CYBERBIZ e-commerce platform.
+*[Enterprise Plan]: Enterprise, a subscription plan for the CYBERBIZ e-commerce platform.
+*[B2C]: Business to Consumer, a business model where companies sell products or services directly to consumers. In the B2C model, businesses conduct transactions directly with end consumers through online or offline channels.
+*[EC]: E-commerce.
+*[COD]: Cash on Delivery, payment for an order upon receipt rather than online beforehand. Common in logistics delivery services such as home delivery and express delivery.
+*[C2C]: Consumer to Consumer, a business model where transactions occur directly between consumers. In this model, the platform provides transaction and payment tools, but both buyers and sellers are individual consumers, not businesses (B2C) or businesses (B2B).
+*[EDM]: Electronic Direct Mail, a method by which merchants send marketing messages, event notifications, or promotional content to members or potential customers via email. Commonly used to increase brand exposure, encourage repeat purchases, and promote new products.
+*[WMS]: Warehouse Management System, used to manage, control, and optimize warehousing operations, covering inbound, outbound, inventory management, order picking, distribution, and report analysis processes. Through automation and data-driven operations, WMS improves warehousing efficiency, reduces error rates, and supports logistics and supply chain collaboration.
+*[POS]: Point of Sale.
+*[MBE]: Meta Business Extension
+*[GA]: Google Analytics, a website traffic analysis tool provided by Google, used to track and analyze user behavior and interactions on a website, helping merchants understand traffic sources, conversion rates, and marketing effectiveness.
+*[GMC]: Google Merchant Center
+*[SEO]: Search Engine Optimization, in an e-commerce system, SEO covers product page titles, descriptions, URL structures, image alt text, and keyword settings. Merchants can optimize these elements to improve product or content visibility in search results, thereby driving organic traffic and conversion rates.
+*[SKU]: Stock Keeping Unit, a unique code or number used to identify products, track inventory, manage product data, and analyze sales. Each SKU corresponds to a specific product or product variant (e.g., size, color, packaging specification).

@@ -14,9 +14,9 @@ hide:
 開始建立您的線上商店。  
 完成商店設定、上架商品、啟用金流與物流，一步步帶您啟動營運。  
 <br>
-[新手上路 :lucide-circle-arrow-right:](quickstart.md)
+[新手上路 :lucide-circle-arrow-right:](get-started.md)
 
-![](../assets/images/test.png) 
+![](../assets/images/ec-hero.png) 
 
 </div>
 
@@ -251,7 +251,7 @@ hide:
 	</div>
 
 
-=== "串接整合"
+=== "整合串接"
 
 	<div class="grid cards" markdown>
 	
