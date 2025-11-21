@@ -4,330 +4,39 @@
     "type": "split",
     "children": [
       {
-        "id": "68ddbd05a668cece",
+        "id": "24ac67bace06ab62",
         "type": "tabs",
         "children": [
           {
-            "id": "22d8163372030ce5",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "GOD.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "GOD"
-            }
-          },
-          {
-            "id": "1252d7ef8ab8b6b3",
-            "type": "leaf",
-            "state": {
-              "type": "csv-view",
-              "state": {
-                "file": "reference/trans-glossary.csv"
-              },
-              "icon": "table",
-              "title": "trans-glossary"
-            }
-          },
-          {
-            "id": "1d91d78cc3d082fe",
+            "id": "9cf21dda639b65b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/品牌官網/商品庫存/電子票券指南.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "電子票券指南"
-            }
-          },
-          {
-            "id": "448e86f0bad70218",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/品牌官網/商品庫存/購買電子票券.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "購買電子票券"
-            }
-          },
-          {
-            "id": "0864a3c8ea2ada40",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "reference/playbook/doc types.md",
+                "file": "docs/resources/glossary.md",
                 "mode": "source",
                 "source": false
-              },
-              "icon": "lucide-file",
-              "title": "doc types"
-            }
-          },
-          {
-            "id": "df1db778fd0490d7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/品牌官網/商品庫存/quickstart.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "quickstart"
-            }
-          },
-          {
-            "id": "81b70d80f17995ef",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/品牌官網/付款金流/星益欣電子發票設定指南.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "星益欣電子發票設定指南"
-            }
-          },
-          {
-            "id": "c5f8e1548e934837",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/品牌官網/商品庫存/新增電子票券.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "新增電子票券"
-            }
-          },
-          {
-            "id": "10899fe8700fccc7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/品牌官網/商品庫存/quickstart.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "quickstart"
-            }
-          },
-          {
-            "id": "10b72beeb1d16d71",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/品牌官網/商品庫存/新增單一商品.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "新增單一商品"
-            }
-          },
-          {
-            "id": "db128d08da2f10ec",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/品牌官網/商品庫存/新增單一商品.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "新增單一商品"
-            }
-          },
-          {
-            "id": "6a838d662e4b9d60",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/品牌官網/商品庫存/電子票券指南-old.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "電子票券指南-old"
-            }
-          },
-          {
-            "id": "ec9bc01bb7d5de97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/品牌官網/商品庫存/設定電子票券門市權限.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "設定電子票券門市權限"
-            }
-          },
-          {
-            "id": "b684b0eb02abf0b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/品牌官網/get-started.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "get-started"
-            }
-          },
-          {
-            "id": "914892dd7cbd32f6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/品牌官網/商品庫存/quickstart.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "quickstart"
-            }
-          },
-          {
-            "id": "032fa53a6a38b6df",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/品牌官網/商品庫存/設定商品影片.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定商品影片"
-            }
-          },
-          {
-            "id": "e7cf352e52bd4745",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/品牌官網/商品庫存/index.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "465e8be777495c31",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/品牌官網/商品庫存/設定商品影片.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定商品影片"
-            }
-          },
-          {
-            "id": "222254f24bb81ac6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/品牌官網/商品庫存/編輯商品描述與設定.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "編輯商品描述與設定"
-            }
-          },
-          {
-            "id": "817c875a2d11ddb4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/資源中心/glossary.md",
-                "mode": "source",
-                "source": true
               },
               "icon": "lucide-file",
               "title": "glossary"
             }
           },
           {
-            "id": "7f93401f7e0e0659",
+            "id": "d6ca5125064ffc25",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/品牌官網/商品庫存/啟用留言區 reCAPTCHA.md",
+                "file": "docs/ec/products/電子票券分票.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "啟用留言區 reCAPTCHA"
-            }
-          },
-          {
-            "id": "8d7b8a6794848262",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/品牌官網/付款金流/設定信用卡 3D 驗證門檻.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定信用卡 3D 驗證門檻"
-            }
-          },
-          {
-            "id": "8929be1ff4bad2d1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/品牌官網/quickstart.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "quickstart"
+              "title": "電子票券分票"
             }
           }
         ],
-        "currentTab": 16
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -429,13 +138,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/品牌官網/商品庫存/index.md",
+                "file": "docs/ec/products/電子票券分票.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of 電子票券分票"
             }
           },
           {
@@ -513,52 +222,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "e7cf352e52bd4745",
+  "active": "d6ca5125064ffc25",
   "lastOpenFiles": [
-    "docs/品牌官網/商品庫存/購買電子票券.md",
-    "docs/品牌官網/商品庫存/index.md",
-    "docs/品牌官網/商品庫存/quickstart.md",
-    "docs/品牌官網/商品庫存/product-activ-v2.md",
-    "docs/品牌官網/商品庫存/product-activ.md",
-    "site/品牌官網/商品庫存/後台搜尋商品/index.html",
-    "site/品牌官網/商品庫存/後台搜尋商品",
-    "site/品牌官網/商品庫存/設定加價購群組/index.html",
-    "site/品牌官網/商品庫存/設定加價購群組",
-    "site/品牌官網/商品庫存/設定多購物車/index.html",
-    "site/品牌官網/商品庫存/設定多購物車",
-    "site/品牌官網/商品庫存/product-activ/index.html",
-    "site/品牌官網/商品庫存/product-activ",
-    "site/品牌官網/商品庫存/新增組合商品/index.html",
-    "site/品牌官網/商品庫存/新增組合商品",
-    "docs/品牌官網/商品庫存/index.en.md",
-    "docs/品牌官網/付款金流/index.md",
-    "docs/品牌官網/行銷成長/index.md",
-    "docs/品牌官網/訂單物流/index.md",
-    "docs/品牌官網/商店設定/index.md",
-    "docs/品牌官網/會員管理/index.md",
-    "docs/品牌官網/index.md",
-    "docs/智慧倉儲/index.md",
-    "docs/資源中心/index.md",
-    "docs/智能 POS/index.md",
-    "docs/門市助理/index.md",
-    "docs/資源中心/glossary.md",
-    "docs/資源中心/changelog.md",
-    "docs/品牌官網/付款金流/星益欣電子發票設定指南.md",
-    "docs/品牌官網/商品庫存/設定商品影片.md",
-    "docs/品牌官網/get-started.md",
+    "site/ec/products/電子票券分票/index.html",
+    "site/ec/products/電子票券分票",
+    "site/ec/products/參考資源/商品可見性指南/index.html",
+    "site/ec/products/參考資源/商品可見性指南",
+    "site/ec/products/設定商品超商物流限制與排除選項/index.html",
+    "site/ec/products/設定商品超商物流限制與排除選項",
+    "site/ec/products/設定電子票券任選折扣/index.html",
+    "site/ec/products/設定電子票券任選折扣",
+    "site/ec/products/設定商品排除上傳至第三方平台/index.html",
+    "site/ec/products/設定商品排除上傳至第三方平台",
+    "site/index 1/index.html",
+    "docs/ec/products/index.md",
+    "docs/resources/changelog.md",
+    "docs/resources/glossary.md",
+    "docs/ec/index.md",
+    "docs/resources/index.md",
+    "docs/ec/products/參考資源/結帳優惠計算順序.md",
+    "docs/ec/products/參考資源/結帳優惠計算順序-rev.md",
+    "docs/ec/products/參考資源/商品詳細資訊設定.md",
+    "docs/ec/products/參考資源/商品可見性指南.md",
+    "docs/ec/products/參考資源/CKEditor 編輯器教學.md",
+    "docs/ec/products/參考資源/商品可見性.md",
+    "docs/ec/store/index.md",
+    "docs/ec/products/電子票券退款.md",
+    "docs/ec/products/電子票券指南.md",
+    "docs/ec/products/電子票券指南-old.md",
+    "docs/ec/products/電子票券對帳方法.md",
+    "docs/ec/products/電子票券分票.md",
+    "docs/ec/products/購買電子票券.md",
+    "docs/ec/products/認識商品管理介面.md",
+    "docs/ec/products/設定電子票券門市權限.md",
+    "docs/ec/products/設定電子票券任選折扣.md",
+    "docs/ec/products/設定秘密商品群組.md",
+    "docs/ec/products/設定條件分類群組.md",
+    "docs/ec/products/設定多購物車.md",
+    "docs/ec/products/設定單品限時折扣群組.md",
     "site/assets/images/ec-orders-hero.zh-tw.png",
     "docs/assets/images/ec-orders-hero.zh-tw.png",
     "site/assets/images/ec-marketing-hero.zh-tw.png",
     "docs/assets/images/ec-marketing-hero.zh-tw.png",
     "site/assets/images/ec-members-hero.zh-tw.png",
     "docs/assets/images/ec-members-hero.zh-tw.png",
-    "docs/品牌官網/整合串接/index.md",
     "site/assets/images/ec-customers-hero.zh-tw.png",
     "docs/assets/images/ec-customers-hero.zh-tw.png",
     "site/assets/images/ec-integrations-hero.zh-tw.png",
-    "docs/assets/images/ec-integrations-hero.zh-tw.png",
-    "docs/index.md",
-    "templates/lucide-landmark.md",
-    "templates/lucide-circle-plus.md"
+    "docs/assets/images/ec-integrations-hero.zh-tw.png"
   ]
 }

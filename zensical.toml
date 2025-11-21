@@ -45,17 +45,37 @@ copyright = """
 # can be defined using TOML syntax.
 #
 # Read more: https://zensical.org/docs/setup/navigation/
-# nav = [
-#    { "主頁" = "index.md" },
-#    { "品牌官網" = [
-#        { "品牌官網" = "ec/index.md" },
-#        { "新手上路" = "ec/get-started.md" }
-#    ]},
-#    { "智慧倉儲" = "wms/" },
-#    { "智能 POS" = "pos/" },
-#    { "門市助理" = "storepal/" },
-#    { "資源中心" = "resources/" }
-# ]
+ nav = [
+    { "主頁" = "index.md" },
+    { "品牌官網" = [
+        { "品牌官網" = "ec/index.md" },
+        { "新手上路" = "ec/get-started.md" },
+        { "商店設定" = "ec/store/index.md" },
+        { "商品庫存" = [
+            { "商品庫存" = "ec/products/index.md" },  
+            { "快速上手" = "ec/products/quickstart.md" },  
+            { "新增單一商品" = "ec/products/新增單一商品" },
+            { "電子票券" = [
+                    { "快速上手" = "ec/products/電子票券指南.md"},
+                    { "新增電子票券" = "ec/products/新增電子票券.md"},
+                    { "電子票券分票" = "ec/products/電子票券分票.md"}
+            ]},
+        ]},
+        { "訂單物流" = "ec/orders/index.md" },
+        { "付款金流" = "ec/payments/index.md" },
+        { "會員管理" = "ec/members/index.md" },
+        { "行銷成長" = "ec/marketing/index.md" },
+        { "整合串接" = "ec/integrations/index.md" },
+    ]},
+    { "智慧倉儲" = "wms/index.md" },
+    { "智能 POS" = "pos/index.md" },
+    { "門市助理" = "storepal/index.md" },
+    { "資源中心" = [
+        { "資源中心" = "resources/index.md" },
+        { "更新紀錄" = "resources/changelog.md" },
+        { "詞彙表" = "resources/glossary.md" }
+    ]}
+ ]
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
 # CSS files.
