@@ -26,7 +26,7 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-store:{ .lg .middle } __Set up in 5 minutes__
+	-   :lucide-store: __Set up in 5 minutes__
 	
 	    ---
 	
@@ -35,7 +35,7 @@ hide:
 	
 	    [:octicons-arrow-right-24: Getting started](#)
 	
-	-   :lucide-truck-electric:{ .lg .middle } __搬家到 CYBERBIZ__
+	-   :lucide-truck-electric: __搬家到 CYBERBIZ__
 	
 	    ---
 	
@@ -43,7 +43,7 @@ hide:
 	
 	    [:octicons-arrow-right-24: Reference](#)
 	
-	-   :lucide-palette:{ .lg .middle } __網站外觀__
+	-   :lucide-palette: __網站外觀__
 	
 	    ---
 	
@@ -51,7 +51,7 @@ hide:
 	
 	    [:octicons-arrow-right-24: Customization](#)
 	
-	-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+	-   :material-scale-balance: __Open Source, MIT__
 	
 	    ---
 	
@@ -64,8 +64,14 @@ hide:
 === "商品庫存"
 
 	<div class="grid cards" markdown>
-	
-	-   :lucide-package:{ .lg .middle } __商品管理__
+
+	-   :lucide-rocket: __開始使用__
+
+		---
+
+		[商品庫存快速上手](商品庫存/quickstart.md)
+
+	-   :lucide-package: __商品管理__
 	
 	    ---
 	
@@ -74,7 +80,7 @@ hide:
 	
 	    [:octicons-arrow-right-24: Getting started](#)
 	
-	-   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+	-   :fontawesome-brands-markdown: __It's just Markdown__
 	
 	    ---
 	
@@ -82,7 +88,7 @@ hide:
 	
 	    [:octicons-arrow-right-24: Reference](#)
 	
-	-   :lucide-ticket:{ .lg .middle } __電子票券__
+	-   :lucide-ticket: __電子票券__
 	
 	    ---
 	
@@ -90,7 +96,7 @@ hide:
 	
 	    [:octicons-arrow-right-24: Customization](#)
 	
-	-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+	-   :material-scale-balance: __Open Source, MIT__
 	
 	    ---
 	
@@ -105,7 +111,7 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-workflow:{ .lg .middle } __訂單流程__
+	-   :lucide-workflow: __訂單流程__
 	
 	    ---
 	
@@ -114,7 +120,7 @@ hide:
 	
 	    [:octicons-arrow-right-24: Getting started](#)
 	
-	-   :lucide-truck:{ .lg .middle } __物流設定__
+	-   :lucide-truck: __物流設定__
 	
 	    ---
 	
@@ -122,7 +128,7 @@ hide:
 	
 	    [:octicons-arrow-right-24: Reference](#)
 	
-	-   :material-format-font:{ .lg .middle } __Made to measure__
+	-   :material-format-font: __Made to measure__
 	
 	    ---
 	
@@ -130,7 +136,7 @@ hide:
 	
 	    [:octicons-arrow-right-24: Customization](#)
 	
-	-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+	-   :material-scale-balance: __Open Source, MIT__
 	
 	    ---
 	
@@ -144,7 +150,7 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-credit-card:{ .lg .middle } __付款方式__
+	-   :lucide-credit-card: __付款方式__
 	
 	    ---
 	
@@ -153,7 +159,7 @@ hide:
 	
 	    [:octicons-arrow-right-24: Getting started](#)
 	
-	-   :lucide-file-check:{ .lg .middle } __款項對帳__
+	-   :lucide-file-check: __款項對帳__
 	
 	    ---
 	
@@ -161,7 +167,7 @@ hide:
 	
 	    [:octicons-arrow-right-24: Reference](#)
 	
-	-   :lucide-receipt:{ .lg .middle } __電子發票__
+	-   :lucide-receipt: __電子發票__
 	
 	    ---
 	
@@ -169,7 +175,7 @@ hide:
 	
 	    [:octicons-arrow-right-24: Customization](#)
 	
-	-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+	-   :material-scale-balance: __Open Source, MIT__
 	
 	    ---
 	
@@ -183,7 +189,7 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :material-clock-fast:{ .lg .middle } __Set up in 5 minutes__
+	-   :material-clock-fast: __Set up in 5 minutes__
 	
 	    ---
 	
@@ -192,7 +198,7 @@ hide:
 	
 	    [:octicons-arrow-right-24: Getting started](#)
 	
-	-   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+	-   :fontawesome-brands-markdown: __It's just Markdown__
 	
 	    ---
 	
@@ -200,7 +206,7 @@ hide:
 	
 	    [:octicons-arrow-right-24: Reference](#)
 	
-	-   :material-format-font:{ .lg .middle } __Made to measure__
+	-   :material-format-font: __Made to measure__
 	
 	    ---
 	
@@ -208,7 +214,7 @@ hide:
 	
 	    [:octicons-arrow-right-24: Customization](#)
 	
-	-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+	-   :material-scale-balance: __Open Source, MIT__
 	
 	    ---
 	
@@ -223,7 +229,7 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-megaphone:{ .lg .middle } __行銷工具__
+	-   :lucide-megaphone: __行銷工具__
 	
 	    ---
 	
@@ -232,7 +238,7 @@ hide:
 	
 	    [:octicons-arrow-right-24: Getting started](#)
 	
-	-   :lucide-trending-up:{ .lg .middle } __成長拓展__
+	-   :lucide-trending-up: __成長拓展__
 	
 	    ---
 	
@@ -240,7 +246,7 @@ hide:
 	
 	    [:octicons-arrow-right-24: Customization](#)
 	
-	-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+	-   :material-scale-balance: __Open Source, MIT__
 	
 	    ---
 	
@@ -255,7 +261,7 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-layout-grid:{ .lg .middle } __APP MARKET__
+	-   :lucide-layout-grid: __APP MARKET__
 	
 	    ---
 	
@@ -264,7 +270,7 @@ hide:
 	
 	    [:octicons-arrow-right-24: Getting started](#)
 	
-	-   :lucide-webhook:{ .lg .middle } __第三方服務__
+	-   :lucide-webhook: __第三方服務__
 	
 	    ---
 	
@@ -272,7 +278,7 @@ hide:
 	
 	    [:octicons-arrow-right-24: Reference](#)
 	
-	-   :lucide-plug:{ .lg .middle } __API__
+	-   :lucide-plug: __API__
 	
 	    ---
 	
@@ -280,7 +286,7 @@ hide:
 	
 	    [:octicons-arrow-right-24: Customization](#)
 	
-	-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+	-   :material-scale-balance: __Open Source, MIT__
 	
 	    ---
 	

@@ -30,7 +30,7 @@ notes:
 
 	<div class="grid cards" markdown>
 
-	-   __:lucide-package-plus: 新增商品__
+	-   :lucide-package-plus: __新增商品__
 	
 		---
 
@@ -140,14 +140,14 @@ notes:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-bell:{ .lg .middle } __到貨通知__
+	-   :lucide-bell: __到貨通知__
 	
 	    ---
 	
 	    [設定商品到貨通知](設定商品到貨通知.md)  
 	    
 	
-	-   :lucide-calendar-check:{ .lg .middle } __預購商品__
+	-   :lucide-calendar-check: __預購商品__
 	
 	    ---
 	
@@ -203,7 +203,9 @@ notes:
 	    
 	- 不適用折扣群組（排除優惠）
 
-=== "電子票券"
+=== "電子票券 :lucide-lock:"
+
+	!!! note "電子票券功能僅適用 `PLUS` `企業` 方案用戶。"
 
 	<div class="grid cards" markdown>
 
@@ -247,14 +249,7 @@ notes:
 === "前台呈現"
 
 	<div class="grid cards" markdown>
-	
-	-   :lucide-thumbs-up: __商品評論__
-	
-		---
-	
-		[使用商品評論](使用商品評論.md)  
-		[啟用留言區 reCAPTCH](啟用留言區 reCAPTCHA.md)
-	
+
 	-   :lucide-package-search: __商品檢索__
 	
 		---
@@ -262,6 +257,13 @@ notes:
 		[前台商品篩選器](設定前台商品篩選器.md)  
 		[前台商品排列群組](設定前台商品排列群組.md)  
 		[商品排除搜尋](設定商品排除搜尋.md)  
+
+	-   :lucide-thumbs-up: __商品評論__
+	
+		---
+	
+		[使用商品評論](使用商品評論.md)  
+		[啟用留言區 reCAPTCH](啟用留言區 reCAPTCHA.md)
 	
 	-   :lucide-navigation: __導覽列__
 	

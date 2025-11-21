@@ -26,7 +26,7 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-home:{ .lg .middle } __倉庫管理__
+	-   :lucide-home: __倉庫管理__
 	    
 	    ---
 	    
@@ -34,7 +34,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 開始設定](#)
 	
-	-   :lucide-users:{ .lg .middle } __人員與權限__
+	-   :lucide-users: __人員與權限__
 	    
 	    ---
 	    
@@ -42,7 +42,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 參考指南](#)
 	
-	-   :lucide-palette:{ .lg .middle } __倉庫流程配置__
+	-   :lucide-palette: __倉庫流程配置__
 	    
 	    ---
 	    
@@ -56,7 +56,7 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-package:{ .lg .middle } __商品入庫__
+	-   :lucide-package: __商品入庫__
 	    
 	    ---
 	    
@@ -64,7 +64,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 開始入庫](#)
 	
-	-   :lucide-truck:{ .lg .middle } __出貨作業__
+	-   :lucide-truck: __出貨作業__
 	    
 	    ---
 	    
@@ -72,7 +72,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 出貨指南](#)
 	
-	-   :lucide-barcode:{ .lg .middle } __條碼掃描__
+	-   :lucide-barcode: __條碼掃描__
 	    
 	    ---
 	    
@@ -80,7 +80,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 掃描操作](#)
 	
-	-   :lucide-archive:{ .lg .middle } __庫存盤點__
+	-   :lucide-archive: __庫存盤點__
 	    
 	    ---
 	    
@@ -94,7 +94,7 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-workflow:{ .lg .middle } __訂單分配__
+	-   :lucide-workflow: __訂單分配__
 	    
 	    ---
 	    
@@ -102,7 +102,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 開始分配](#)
 	
-	-   :lucide-truck-electric:{ .lg .middle } __物流串接__
+	-   :lucide-truck-electric: __物流串接__
 	    
 	    ---
 	    
@@ -110,7 +110,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 參考指南](#)
 	
-	-   :lucide-receipt:{ .lg .middle } __出貨通知__
+	-   :lucide-receipt: __出貨通知__
 	    
 	    ---
 	    
@@ -118,7 +118,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 查看設定](#)
 	
-	-   :material-scale-balance:{ .lg .middle } __退貨處理__
+	-   :material-scale-balance: __退貨處理__
 	    
 	    ---
 	    
@@ -132,7 +132,7 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-bar-chart-2:{ .lg .middle } __庫存報表__
+	-   :lucide-bar-chart-2: __庫存報表__
 	    
 	    ---
 	    
@@ -140,7 +140,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 查看報表](#)
 	
-	-   :lucide-trending-up:{ .lg .middle } __出貨分析__
+	-   :lucide-trending-up: __出貨分析__
 	    
 	    ---
 	    
@@ -148,7 +148,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 查看分析](#)
 	
-	-   :lucide-clock:{ .lg .middle } __作業效率__
+	-   :lucide-clock: __作業效率__
 	    
 	    ---
 	    
@@ -162,7 +162,7 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-layout-grid:{ .lg .middle } __WMS App 市集__
+	-   :lucide-layout-grid: __WMS App 市集__
 	    
 	    ---
 	    
@@ -170,7 +170,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 參考指南](#)
 	
-	-   :lucide-webhook:{ .lg .middle } __第三方服務串接__
+	-   :lucide-webhook: __第三方服務串接__
 	    
 	    ---
 	    
@@ -178,7 +178,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 查看文件](#)
 	
-	-   :lucide-plug:{ .lg .middle } __API__
+	-   :lucide-plug: __API__
 	    
 	    ---
 	    
@@ -186,7 +186,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 查看指南](#)
 	
-	-   :material-scale-balance:{ .lg .middle } __系統權限__
+	-   :material-scale-balance: __系統權限__
 	    
 	    ---
 	    

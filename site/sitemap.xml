@@ -40,9 +40,6 @@
         <loc>http://127.0.0.1:8000/%E5%93%81%E7%89%8C%E5%AE%98%E7%B6%B2/%E5%95%86%E5%93%81%E5%BA%AB%E5%AD%98/</loc>
       </url>
       <url>
-        <loc>http://127.0.0.1:8000/%E5%93%81%E7%89%8C%E5%AE%98%E7%B6%B2/%E5%95%86%E5%93%81%E5%BA%AB%E5%AD%98/index.en/</loc>
-      </url>
-      <url>
         <loc>http://127.0.0.1:8000/%E5%93%81%E7%89%8C%E5%AE%98%E7%B6%B2/%E5%95%86%E5%93%81%E5%BA%AB%E5%AD%98/product-activ-v2/</loc>
       </url>
       <url>
@@ -233,6 +230,9 @@
       </url>
       <url>
         <loc>http://127.0.0.1:8000/%E6%99%BA%E8%83%BD%20POS/</loc>
+      </url>
+      <url>
+        <loc>http://127.0.0.1:8000/%E8%B3%87%E6%BA%90%E4%B8%AD%E5%BF%83/</loc>
       </url>
       <url>
         <loc>http://127.0.0.1:8000/%E8%B3%87%E6%BA%90%E4%B8%AD%E5%BF%83/changelog/</loc>

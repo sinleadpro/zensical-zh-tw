@@ -26,7 +26,7 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-store:{ .lg .middle } __門市設定__
+	-   :lucide-store: __門市設定__
 	    
 	    ---
 	    
@@ -34,7 +34,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 開始設定](#)
 	
-	-   :lucide-truck:{ .lg .middle } __庫存同步__
+	-   :lucide-truck: __庫存同步__
 	    
 	    ---
 	    
@@ -42,7 +42,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 參考指南](#)
 	
-	-   :lucide-palette:{ .lg .middle } __收銀介面__
+	-   :lucide-palette: __收銀介面__
 	    
 	    ---
 	    
@@ -50,7 +50,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 客製化設定](#)
 	
-	-   :material-scale-balance:{ .lg .middle } __權限管理__
+	-   :material-scale-balance: __權限管理__
 	    
 	    ---
 	    
@@ -64,7 +64,7 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-package:{ .lg .middle } __商品上架__
+	-   :lucide-package: __商品上架__
 	    
 	    ---
 	    
@@ -72,7 +72,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 開始上架](#)
 	
-	-   :lucide-barcode:{ .lg .middle } __條碼掃描__
+	-   :lucide-barcode: __條碼掃描__
 	    
 	    ---
 	    
@@ -80,7 +80,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 參考指南](#)
 	
-	-   :lucide-ticket:{ .lg .middle } __促銷與優惠券__
+	-   :lucide-ticket: __促銷與優惠券__
 	    
 	    ---
 	    
@@ -88,7 +88,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 設定優惠](#)
 	
-	-   :material-scale-balance:{ .lg .middle } __商品分析__
+	-   :material-scale-balance: __商品分析__
 	    
 	    ---
 	    
@@ -102,7 +102,7 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-workflow:{ .lg .middle } __訂單管理__
+	-   :lucide-workflow: __訂單管理__
 	    
 	    ---
 	    
@@ -110,7 +110,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 開始管理](#)
 	
-	-   :lucide-credit-card:{ .lg .middle } __收銀與付款__
+	-   :lucide-credit-card: __收銀與付款__
 	    
 	    ---
 	    
@@ -118,7 +118,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 參考指南](#)
 	
-	-   :lucide-receipt:{ .lg .middle } __電子發票__
+	-   :lucide-receipt: __電子發票__
 	    
 	    ---
 	    
@@ -126,7 +126,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 查看設定](#)
 	
-	-   :material-scale-balance:{ .lg .middle } __報表統計__
+	-   :material-scale-balance: __報表統計__
 	    
 	    ---
 	    
@@ -140,7 +140,7 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :material-clock-fast:{ .lg .middle } __會員註冊與登入__
+	-   :material-clock-fast: __會員註冊與登入__
 	    
 	    ---
 	    
@@ -148,7 +148,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 開始管理](#)
 	
-	-   :lucide-gift:{ .lg .middle } __會員優惠__
+	-   :lucide-gift: __會員優惠__
 	    
 	    ---
 	    
@@ -156,7 +156,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 設定優惠](#)
 	
-	-   :lucide-users:{ .lg .middle } __會員分群__
+	-   :lucide-users: __會員分群__
 	    
 	    ---
 	    
@@ -164,7 +164,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 查看指南](#)
 	
-	-   :material-scale-balance:{ .lg .middle } __會員報表__
+	-   :material-scale-balance: __會員報表__
 	    
 	    ---
 	    
@@ -178,7 +178,7 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-megaphone:{ .lg .middle } __行銷工具__
+	-   :lucide-megaphone: __行銷工具__
 	    
 	    ---
 	    
@@ -186,7 +186,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 開始使用](#)
 	
-	-   :lucide-trending-up:{ .lg .middle } __銷售成長分析__
+	-   :lucide-trending-up: __銷售成長分析__
 	    
 	    ---
 	    
@@ -194,7 +194,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 查看分析](#)
 	
-	-   :material-scale-balance:{ .lg .middle } __客戶回饋__
+	-   :material-scale-balance: __客戶回饋__
 	    
 	    ---
 	    
@@ -208,7 +208,7 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-layout-grid:{ .lg .middle } __POS App 市集__
+	-   :lucide-layout-grid: __POS App 市集__
 	    
 	    ---
 	    
@@ -216,7 +216,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 參考指南](#)
 	
-	-   :lucide-webhook:{ .lg .middle } __第三方服務整合__
+	-   :lucide-webhook: __第三方服務整合__
 	    
 	    ---
 	    
@@ -224,7 +224,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 查看文件](#)
 	
-	-   :lucide-plug:{ .lg .middle } __API__
+	-   :lucide-plug: __API__
 	    
 	    ---
 	    
@@ -232,7 +232,7 @@ hide:
 	    
 	    [:octicons-arrow-right-24: 查看指南](#)
 	
-	-   :material-scale-balance:{ .lg .middle } __系統權限__
+	-   :material-scale-balance: __系統權限__
 	    
 	    ---
 	    

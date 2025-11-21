@@ -26,7 +26,7 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-handshake:{ .lg .middle } __一對一導購__
+	-   :lucide-handshake: __一對一導購__
 	    
 	    ---
 	    使用門市助理協助顧客挑選商品、建立需求與推薦清單  
@@ -38,13 +38,13 @@ hide:
 	    快速查看適用活動並展示給顧客，提高成交率  
 	    [:octicons-arrow-right-24: 操作步驟](#)
 	
-	-   :lucide-heart-handshake:{ .lg .middle } __個人化推薦__
+	-   :lucide-heart-handshake: __個人化推薦__
 	    
 	    ---
 	    建立專屬推薦商品、套組與購物車分享  
 	    [:octicons-arrow-right-24: 了解更多](#)
 	
-	-   :lucide-phone-call:{ .lg .middle } __跨通路互動__
+	-   :lucide-phone-call: __跨通路互動__
 	    
 	    ---
 	    支援線上/線下互動：追蹤、收藏、購物行為同步  
@@ -56,19 +56,19 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-user:{ .lg .middle } __會員查詢__
+	-   :lucide-user: __會員查詢__
 	    
 	    ---
 	    快速查看會員資料、歷史訂單與偏好  
 	    [:octicons-arrow-right-24: 查詢方式](#)
 	
-	-   :lucide-tags:{ .lg .middle } __標籤管理__
+	-   :lucide-tags: __標籤管理__
 	    
 	    ---
 	    維護會員與商品的標籤分類，強化個人化推薦  
 	    [:octicons-arrow-right-24: 標籤指南](#)
 	
-	-   :lucide-users:{ .lg .middle } __會員經營工具__
+	-   :lucide-users: __會員經營工具__
 	    
 	    ---
 	    設定回訪提醒、追蹤清單與回購建議  
@@ -80,25 +80,25 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-store:{ .lg .middle } __門市設定__
+	-   :lucide-store: __門市設定__
 	    
 	    ---
 	    設定門市資訊、營業時間與門市權限  
 	    [:octicons-arrow-right-24: 參考設定](#)
 	
-	-   :lucide-user-cog:{ .lg .middle } __店員帳號與權限__
+	-   :lucide-user-cog: __店員帳號與權限__
 	    
 	    ---
 	    管理門市助理登入帳號與功能權限  
 	    [:octicons-arrow-right-24: 查看方式](#)
 	
-	-   :lucide-calendar-check:{ .lg .middle } __門市任務管理__
+	-   :lucide-calendar-check: __門市任務管理__
 	    
 	    ---
 	    建立與追蹤每日銷售任務、回訪任務與活動 KPI  
 	    [:octicons-arrow-right-24: 任務指南](#)
 	
-	-   :lucide-check-square:{ .lg .middle } __推薦追蹤__
+	-   :lucide-check-square: __推薦追蹤__
 	    
 	    ---
 	    查看已送出推薦的後續動向與轉換成果  
@@ -110,19 +110,19 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-bell:{ .lg .middle } __推播通知__
+	-   :lucide-bell: __推播通知__
 	    
 	    ---
 	    會員行為推播、任務提醒、活動通知  
 	    [:octicons-arrow-right-24: 設定方式](#)
 	
-	-   :lucide-mail:{ .lg .middle } __訊息中心__
+	-   :lucide-mail: __訊息中心__
 	    
 	    ---
 	    門市助理的所有訊息整合：系統、任務、顧客互動  
 	    [:octicons-arrow-right-24: 查看說明](#)
 	
-	-   :lucide-alarm-check:{ .lg .middle } __行為提醒__
+	-   :lucide-alarm-check: __行為提醒__
 	    
 	    ---
 	    顧客加入追蹤、收藏或回訪時自動提醒  
@@ -134,19 +134,19 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-bar-chart-2:{ .lg .middle } __導購績效__
+	-   :lucide-bar-chart-2: __導購績效__
 	    
 	    ---
 	    分析導購成交率、顧客回訪率與推薦轉換  
 	    [:octicons-arrow-right-24: 查看報表](#)
 	
-	-   :lucide-pie-chart:{ .lg .middle } __門市業績__
+	-   :lucide-pie-chart: __門市業績__
 	    
 	    ---
 	    查看門市銷售額、活動成效與店員分析  
 	    [:octicons-arrow-right-24: 閱讀分析](#)
 	
-	-   :lucide-activity:{ .lg .middle } __顧客行為洞察__
+	-   :lucide-activity: __顧客行為洞察__
 	    
 	    ---
 	    訂單、瀏覽、收藏、購物車、導購反饋  
@@ -158,19 +158,19 @@ hide:
 
 	<div class="grid cards" markdown>
 	
-	-   :lucide-link-2:{ .lg .middle } __POS / EC 串接__
+	-   :lucide-link-2: __POS / EC 串接__
 	    
 	    ---
 	    串接 CYBERBIZ POS 與 EC 後台同步會員資料  
 	    [:octicons-arrow-right-24: 查看串接](#)
 	
-	-   :lucide-plug:{ .lg .middle } __API 串接__
+	-   :lucide-plug: __API 串接__
 	    
 	    ---
 	    使用 API 將門市助理與第三方工具整合  
 	    [:octicons-arrow-right-24: API 文件](#)
 	
-	-   :lucide-shield-check:{ .lg .middle } __權限設定__
+	-   :lucide-shield-check: __權限設定__
 	    
 	    ---
 	    設定門市助理功能權限與資料存取控管  
