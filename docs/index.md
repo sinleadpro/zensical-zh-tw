@@ -50,21 +50,30 @@ search:
   </div>
 
   <!-- RIGHT: Zensical Callout -->
-  <div class="hero-callout" style="
-      flex: 1 1 320px;
-  ">
-    <div class="callout quote" style="
-        background-color: #f5f5f5;    /* light grey background */
-        border-radius: 12px;          /* rounded corners */
-        padding: 1.5rem;              /* inner spacing */
-    ">
+  <style>
+    [data-md-color-scheme="default"] {
+      --callout-bg: #f5f5f5 !important; /* Light mode */
+    }
+    [data-md-color-scheme="slate"] {
+      --callout-bg: #2a2a2a !important; /* Dark mode */
+    }
+  </style>
+
+
+  <!-- RIGHT: Zensical Callout -->
+  <div class="hero-callout" style="flex: 1 1 320px;">
+    <div class="callout quote"
+        style="
+          background-color: var(--callout-bg);
+          border-radius: 12px;
+          padding: 1.5rem;
+        ">
       <div class="callout-title" style="margin-bottom: 1rem; font-weight: bold;">
         最新文件
       </div>
-      <a href="#">新增：門市助理快速上手指南</a><br>   
+      <a href="#">新增：門市助理快速上手指南</a><br>
       <a href="#">更新：EC 商品上架流程</a><br>
-      <a href="#">新增：全新金物流設定說明</a><br>    
-      
+      <a href="#">新增：全新金物流設定說明</a><br>
     </div>
   </div>
 
@@ -84,7 +93,7 @@ search:
 	
 	</div>
 
-=== "商品庫存"
+=== "商品管理"
 
 	<div class= "grid cards" markdown>
 	
@@ -102,7 +111,7 @@ search:
 	
 	</div>
 
-=== "付款金流"
+=== "支付金流"
 
 	<div class= "grid cards" markdown>
 	

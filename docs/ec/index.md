@@ -61,7 +61,7 @@ hide:
 	
 	</div>
 
-=== "商品庫存"
+=== "商品管理"
 
 	<div class="grid cards" markdown>
 
@@ -146,7 +146,7 @@ hide:
 	
 	</div>
 
-=== "付款金流"
+=== "支付金流"
 
 	<div class="grid cards" markdown>
 	

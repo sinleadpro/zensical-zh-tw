@@ -1,4 +1,6 @@
 <!-- abbreviations -->
+*[指定組合商品]: 由商家預先設定好固定組合的商品，顧客購買時無法更換組合內的項目。
+*[任選組合商品]: 由商家設定可選範圍的商品組合，購買者可以自由選擇組合內的子商品及數量。
 *[3DS]: An authentication layer for online credit card payments.
 *[OTP]: One-Time Password (OTP). A temporary password generated for one-time use to verify a user’s identity. Usually delivered via SMS, email, or authenticator apps, the OTP must be entered by the user to complete a transaction or login.
 *[Regular Plans]: Boss, Advance, Master plans.

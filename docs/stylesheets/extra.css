@@ -28,4 +28,7 @@ a {
   text-decoration: none !important;
 }
 
-
+.latest-docs {
+    border-radius: 12px;
+    padding: 1.5rem;
+}

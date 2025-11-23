@@ -51,21 +51,40 @@ copyright = """
         { "品牌官網" = "ec/index.md" },
         { "新手上路" = "ec/get-started.md" },
         { "商店設定" = "ec/store/index.md" },
-        { "商品庫存" = [
+        { "商品管理" = [
             { "商品庫存" = "ec/products/index.md" },  
-            { "快速上手" = "ec/products/quickstart.md" },  
-            { "新增單一商品" = "ec/products/新增單一商品" },
+            { "商品管理介面" = "ec/products/get-started.md" },  
+            { "商品上架" = [
+                    { "建立單一商品" = "ec/products/新增單一商品.md"},
+                    { "建立大量商品" = "ec/products/新增大量商品.md"},
+                    { "電子票券分票" = "ec/products/電子票券分票.md"}
+            ]},
+            { "商品配送" = [
+                    { "建立單一商品" = "ec/products/新增單一商品.md"},
+                    { "建立大量商品" = "ec/products/新增大量商品.md"},
+                    { "電子票券分票" = "ec/products/電子票券分票.md"}
+            ]},
+            { "商品分類" = [
+                    { "建立單一商品" = "ec/products/新增單一商品.md"},
+                    { "建立大量商品" = "ec/products/新增大量商品.md"},
+                    { "電子票券分票" = "ec/products/電子票券分票.md"}
+            ]},
+            { "商品銷售" = [
+                    { "建立單一商品" = "ec/products/新增單一商品.md"},
+                    { "建立大量商品" = "ec/products/新增大量商品.md"},
+                    { "電子票券分票" = "ec/products/電子票券分票.md"}
+            ]},
             { "電子票券" = [
-                    { "快速上手" = "ec/products/電子票券指南.md"},
+                    { "電子票券指南" = "ec/products/電子票券指南.md"},
                     { "新增電子票券" = "ec/products/新增電子票券.md"},
                     { "電子票券分票" = "ec/products/電子票券分票.md"}
             ]},
         ]},
         { "訂單物流" = "ec/orders/index.md" },
-        { "付款金流" = "ec/payments/index.md" },
+        { "支付金流" = "ec/payments/index.md" },
         { "會員管理" = "ec/members/index.md" },
-        { "行銷成長" = "ec/marketing/index.md" },
-        { "整合串接" = "ec/integrations/index.md" },
+        { "行銷與成長" = "ec/marketing/index.md" },
+        { "整合與串接" = "ec/integrations/index.md" },
     ]},
     { "智慧倉儲" = "wms/index.md" },
     { "智能 POS" = "pos/index.md" },
