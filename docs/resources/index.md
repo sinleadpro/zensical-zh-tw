@@ -21,7 +21,7 @@ notes:
 <br>
 [快速上手 :lucide-circle-arrow-right:](quickstart.md)
 
-![](../../assets/images/ec-resources-hero.zh-tw.png)
+![](../../assets/images/resources-hero.png)
 
 </div>
 

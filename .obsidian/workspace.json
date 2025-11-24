@@ -69,7 +69,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/marketing/index.md",
+                "file": "docs/resources/index.md",
                 "mode": "source",
                 "source": true
               },
@@ -202,7 +202,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -388,10 +388,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee4de6e4fb7a4876",
+  "active": "34772f65f8d4f0dc",
   "lastOpenFiles": [
-    "docs/ec/index.md",
+    "site/ec/index.html",
+    "docs/resources/index.md",
+    "docs/ec/store/index.md",
+    "docs/index.md",
     "docs/ec/marketing/index.md",
+    "site/assets/images/resources-hero.png",
+    "docs/assets/images/resources-hero.png",
+    "docs/ec/index.md",
     "site/ec/products/設定商品標語與商品簡述/index.html",
     "site/ec/products/設定商品標語與商品簡述",
     "site/ec/products/設定不適用折扣群組/index.html",
@@ -410,7 +416,6 @@
     "docs/ec/charts/index.md",
     "docs/ec/profit-sharing/index.md",
     "docs/ec/products/設定商品到貨通知.md",
-    "docs/index.md",
     "docs/ec/products/get-started.md",
     "docs/ec/products/電子票券指南.md",
     "templates/lucide-paperclip.md",
@@ -420,20 +425,16 @@
     "docs/ec/products/新增單一商品.md",
     "docs/ec/integrations/index.md",
     "docs/ec/products/設定多購物車.md",
-    "docs/resources/index.md",
     "docs/ec/products/電子票券對帳方法.md",
     "docs/ec/products/電子票券指南-old.md",
     "docs/ec/products/電子票券分票.md",
     "docs/resources/changelog.md",
     "docs/ec/products/參考資源/結帳優惠計算順序.md",
-    "docs/ec/products/參考資源/結帳優惠計算順序-rev.md",
     "site/assets/images/ec-orders-hero.zh-tw.png",
     "docs/assets/images/ec-orders-hero.zh-tw.png",
     "site/assets/images/ec-marketing-hero.zh-tw.png",
     "docs/assets/images/ec-marketing-hero.zh-tw.png",
     "site/assets/images/ec-members-hero.zh-tw.png",
-    "docs/assets/images/ec-members-hero.zh-tw.png",
-    "site/assets/images/ec-customers-hero.zh-tw.png",
-    "docs/assets/images/ec-customers-hero.zh-tw.png"
+    "docs/assets/images/ec-members-hero.zh-tw.png"
   ]
 }
