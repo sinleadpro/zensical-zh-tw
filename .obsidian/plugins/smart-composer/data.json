@@ -1,5 +1,5 @@
 {
-  "version": 11,
+  "version": 12,
   "providers": [
     {
       "type": "openai",
@@ -51,32 +51,20 @@
     {
       "providerType": "anthropic",
       "providerId": "anthropic",
-      "id": "claude-sonnet-4.0",
-      "model": "claude-sonnet-4-0"
-    },
-    {
-      "providerType": "anthropic",
-      "providerId": "anthropic",
       "id": "claude-opus-4.1",
       "model": "claude-opus-4-1"
     },
     {
       "providerType": "anthropic",
       "providerId": "anthropic",
-      "id": "claude-3.7-sonnet",
-      "model": "claude-3-7-sonnet-latest"
+      "id": "claude-sonnet-4.5",
+      "model": "claude-sonnet-4-5"
     },
     {
       "providerType": "anthropic",
       "providerId": "anthropic",
-      "id": "claude-3.5-sonnet",
-      "model": "claude-3-5-sonnet-latest"
-    },
-    {
-      "providerType": "anthropic",
-      "providerId": "anthropic",
-      "id": "claude-3.5-haiku",
-      "model": "claude-3-5-haiku-latest"
+      "id": "claude-haiku-4.5",
+      "model": "claude-haiku-4-5"
     },
     {
       "providerType": "openai",
@@ -238,6 +226,30 @@
       "providerId": "morph",
       "id": "morph-v0",
       "model": "morph-v0"
+    },
+    {
+      "providerType": "anthropic",
+      "providerId": "anthropic",
+      "id": "claude-sonnet-4.0",
+      "model": "claude-sonnet-4-0"
+    },
+    {
+      "providerType": "anthropic",
+      "providerId": "anthropic",
+      "id": "claude-3.7-sonnet",
+      "model": "claude-3-7-sonnet-latest"
+    },
+    {
+      "providerType": "anthropic",
+      "providerId": "anthropic",
+      "id": "claude-3.5-sonnet",
+      "model": "claude-3-5-sonnet-latest"
+    },
+    {
+      "providerType": "anthropic",
+      "providerId": "anthropic",
+      "id": "claude-3.5-haiku",
+      "model": "claude-3-5-haiku-latest"
     }
   ],
   "embeddingModels": [

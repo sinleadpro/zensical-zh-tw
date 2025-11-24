@@ -83,8 +83,9 @@ copyright = """
         { "訂單物流" = "ec/orders/index.md" },
         { "支付金流" = "ec/payments/index.md" },
         { "會員管理" = "ec/members/index.md" },
-        { "行銷與成長" = "ec/marketing/index.md" },
-        { "整合與串接" = "ec/integrations/index.md" },
+        { "行銷推廣" = "ec/marketing/index.md" },
+        { "報表分析" = "ec/analytics/index.md" },
+        { "整合串接" = "ec/integrations/index.md" }
     ]},
     { "智慧倉儲" = "wms/index.md" },
     { "智能 POS" = "pos/index.md" },

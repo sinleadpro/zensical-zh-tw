@@ -1,5 +1,5 @@
 ---
-title: 行銷成長
+title: 行銷推廣
 description: 提升商店曝光與銷售，管理行銷活動、優惠策略與顧客互動。
 icon: lucide/badge-percent
 hide:
@@ -9,7 +9,7 @@ notes:
   - 行銷成長功能說明 link
 ---
 
-# 行銷成長
+# 行銷推廣
 
 <div class="grid" markdown>
 
@@ -28,136 +28,144 @@ notes:
 
 === "優惠活動"
 
-	<div class="grid cards" markdown>
+<div class="grid cards" markdown>
+
+-   :lucide-tag: __折扣與促銷__
 	
-	-   :lucide-tag: __折扣與促銷__
-	    
-	    ---
-	    <div class="grid" markdown>
-	    
-	    [設定單品折扣](設定單品折扣.md)  
-	    [設定分類或群組折扣](分類折扣設定.md)  
-	    [限時優惠活動](限時優惠活動.md)  
-	    
-	    </div>
+	---
 	
-	-   :lucide-circle-percent: __VIP / 會員優惠__
-	    
-	    ---
-	    <div class="grid" markdown>
-	    
-	    [設定 VIP 專屬價格](VIP專屬價格.md)  
-	    [會員專屬折扣群組](會員折扣群組.md)  
-	    
-	    </div>
+	[設定單品折扣](設定單品折扣.md)  
+	[設定分類或群組折扣](分類折扣設定.md)  
+	[限時優惠活動](限時優惠活動.md)  
 	
-	-   :lucide-circle-plus: __加價購與組合優惠__
-	    
-	    ---
-	    <div class="grid" markdown>
-	    
-	    [加價購群組設定](加價購群組.md)  
-	    [訂單加價購設定](訂單加價購.md)  
-	    
-	    </div>
+-   :lucide-circle-percent: __VIP / 會員優惠__
 	
-	</div>
+	---
+	
+	[設定 VIP 專屬價格](VIP專屬價格.md)  
+	[會員專屬折扣群組](會員折扣群組.md)  
+	
+
+-   :lucide-circle-plus: __加價購與組合優惠__
+	
+	---
+	
+	[加價購群組設定](加價購群組.md)  
+	[訂單加價購設定](訂單加價購.md)  
+	
+
+</div>
 
 === "廣告與推播"
 
-	<div class="grid cards" markdown>
+<div class="grid cards" markdown>
+
+-   :lucide-bell-ring: __訊息推播__
 	
-	-   :lucide-bell-ring: __訊息推播__
-	    
-	    ---
-	    <div class="grid" markdown>
-	    
-	    [會員訊息推播設定](會員訊息推播.md)  
-	    [行銷活動通知設定](行銷活動通知.md)  
-	    
-	    </div>
+	---
 	
-	-   :lucide-mail: __電子郵件行銷__
-	    
-	    ---
-	    <div class="grid" markdown>
-	    
-	    [設定電子報活動](電子報設定.md)  
-	    [會員分群電子郵件發送](會員分群電子郵件.md)  
-	    
-	    </div>
+	[會員訊息推播設定](會員訊息推播.md)  
+	[行銷活動通知設定](行銷活動通知.md)  
+
+
+-   :lucide-mail: __電子郵件行銷__
 	
-	-   :lucide-facebook: __社群與廣告串接__
-	    
-	    ---
-	    <div class="grid" markdown>
-	    
-	    [Facebook / Instagram 廣告設定](社群廣告設定.md)  
-	    [追蹤廣告成效與 ROI](廣告成效追蹤.md)  
-	    
-	    </div>
+	---
 	
-	</div>
+	[設定電子報活動](電子報設定.md)  
+	[會員分群電子郵件發送](會員分群電子郵件.md)  
+	
+
+-   :lucide-facebook: __社群與廣告串接__
+
+	---
+
+	
+	[Facebook / Instagram 廣告設定](社群廣告設定.md)  
+	[追蹤廣告成效與 ROI](廣告成效追蹤.md)  
+
+
+</div>
 
 === "成效分析"
 
-	<div class="grid cards" markdown>
+<div class="grid cards" markdown>
+
+-   :lucide-bar-chart: __銷售報表__
 	
-	-   :lucide-bar-chart: __銷售報表__
-	    
-	    ---
-	    <div class="grid" markdown>
-	    
-	    [查看行銷活動銷售報表](銷售報表.md)  
-	    [會員互動與回購分析](會員互動分析.md)  
-	    
-	    </div>
+	---
 	
-	-   :lucide-pie-chart: __流量分析__
-	    
-	    ---
-	    <div class="grid" markdown>
-	    
-	    [追蹤網站訪客來源](網站流量追蹤.md)  
-	    [分析購物行為與轉換率](購物行為分析.md)  
-	    
-	    </div>
+	[查看行銷活動銷售報表](銷售報表.md)  
+	[會員互動與回購分析](會員互動分析.md)  
+
+-   :lucide-pie-chart: __流量分析__
 	
-	-   :lucide-trending-up: __成長策略__
-	    
-	    ---
-	    <div class="grid" markdown>
-	    
-	    [設定自動行銷規則](自動行銷規則.md)  
-	    [分析銷售與會員成長趨勢](銷售會員成長分析.md)  
-	    
-	    </div>
+	---
 	
-	</div>
+	[追蹤網站訪客來源](網站流量追蹤.md)  
+	[分析購物行為與轉換率](購物行為分析.md)  
+
+-   :lucide-trending-up: __成長策略__
+	
+	---
+	
+	[設定自動行銷規則](自動行銷規則.md)  
+	[分析銷售與會員成長趨勢](銷售會員成長分析.md)  
+
+</div>
 
 === "系統與權限"
 
-	<div class="grid cards" markdown>
+<div class="grid cards" markdown>
+
+-   :lucide-key: __權限管理__
 	
-	-   :lucide-key: __權限管理__
-	    
-	    ---
-	    <div class="grid" markdown>
-	    
-	    [設定行銷人員權限](行銷人員權限.md)  
-	    [控制活動編輯與查看權限](活動編輯查看權限.md)  
-	    
-	    </div>
+	---
 	
-	-   :lucide-shield-check: __安全管理__
-	    
-	    ---
-	    <div class="grid" markdown>
-	    
-	    [啟用行銷活動審核流程](活動審核流程.md)  
-	    [活動資料備份與恢復](活動資料備份.md)  
-	    
-	    </div>
+	[設定行銷人員權限](行銷人員權限.md)  
+	[控制活動編輯與查看權限](活動編輯查看權限.md)  
+
+-   :lucide-shield-check: __安全管理__
 	
-	</div>
+	---
+		
+	[啟用行銷活動審核流程](活動審核流程.md)  
+	[活動資料備份與恢復](活動資料備份.md)  
+
+</div>
+
+=== "訊息推播"
+
+<div class="grid cards" markdown>
+
+-   :lucide-mail: __EDM / E-mail__
 	
+	---
+	
+	[EDM 發送設定](EDM發送設定.md)  
+	[Email 通知樣板管理](Email通知樣板管理.md)  
+	[轉貼連結預設資訊](轉貼連結預設資訊.md)  
+	[轉貼連結預設圖片 (OG IMAGE)](轉貼連結預設圖片.md)  
+
+-   :lucide-smartphone: __簡訊__
+	
+	---
+	
+	[簡訊發送設定](簡訊發送設定.md)  
+	[簡訊通知樣板管理](簡訊通知樣板管理.md)  
+	
+-   :lucide-cog: __CYBERBIZ AUTOMATION__
+	
+	---
+	
+	[AUTOMATION 功能介紹](AUTOMATION功能介紹.md)  
+	[AUTOMATION 發送教學 (簡訊/EDM)](AUTOMATION發送教學.md)  
+
+-   :lucide-settings: __SEO 設定__
+	
+	---
+	
+	[SEO 設定](SEO設定.md)  
+	[SEO 優化教學](SEO優化教學.md)  
+
+</div>

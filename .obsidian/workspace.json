@@ -64,12 +64,12 @@
             }
           },
           {
-            "id": "b6d2ee477ee40b41",
+            "id": "b1c1cb5d0b08489a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/index.md",
+                "file": "docs/ec/marketing/index.md",
                 "mode": "source",
                 "source": true
               },
@@ -202,7 +202,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -388,21 +388,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a68dac3d53f0892a",
+  "active": "ee4de6e4fb7a4876",
   "lastOpenFiles": [
-    "docs/ec/products/index.md",
-    "site/ec/index.html",
     "docs/ec/index.md",
+    "docs/ec/marketing/index.md",
+    "site/ec/products/設定商品標語與商品簡述/index.html",
+    "site/ec/products/設定商品標語與商品簡述",
+    "site/ec/products/設定不適用折扣群組/index.html",
+    "site/ec/products/設定不適用折扣群組",
+    "site/ec/products/核銷電子票券/index.html",
+    "site/ec/products/核銷電子票券",
+    "site/ec/products/設定前台商品篩選器/index.html",
+    "site/ec/products/設定前台商品篩選器",
+    "site/ec/products/參考資源/結帳優惠計算順序-rev/index.html",
+    "site/ec/products/參考資源/商品詳細資訊設定/index.html",
+    "docs/ec/analytics/index.md",
+    "docs/ec/products/index.md",
+    "templates/lucide-chart-column-increasing.md",
+    "site/assets/images/ec-analytics-hero.zh-tw.png",
+    "docs/assets/images/ec-analytics-hero.zh-tw.png",
+    "docs/ec/charts/index.md",
+    "docs/ec/profit-sharing/index.md",
+    "docs/ec/products/設定商品到貨通知.md",
     "docs/index.md",
-    "site/index.html",
-    "site/ec/products/get-started/index.html",
-    "site/wms/index.html",
-    "site/wms",
-    "site/storepal/index.html",
-    "site/storepal",
-    "site/resources/changelog/index.html",
-    "site/resources/glossary/index.html",
-    "site/resources/index.html",
     "docs/ec/products/get-started.md",
     "docs/ec/products/電子票券指南.md",
     "templates/lucide-paperclip.md",
@@ -419,12 +427,6 @@
     "docs/resources/changelog.md",
     "docs/ec/products/參考資源/結帳優惠計算順序.md",
     "docs/ec/products/參考資源/結帳優惠計算順序-rev.md",
-    "docs/ec/products/參考資源/商品詳細資訊設定.md",
-    "docs/ec/products/參考資源/商品可見性指南.md",
-    "docs/ec/products/參考資源/CKEditor 編輯器教學.md",
-    "docs/ec/products/參考資源/商品可見性.md",
-    "docs/ec/store/index.md",
-    "docs/ec/products/電子票券退款.md",
     "site/assets/images/ec-orders-hero.zh-tw.png",
     "docs/assets/images/ec-orders-hero.zh-tw.png",
     "site/assets/images/ec-marketing-hero.zh-tw.png",
@@ -432,8 +434,6 @@
     "site/assets/images/ec-members-hero.zh-tw.png",
     "docs/assets/images/ec-members-hero.zh-tw.png",
     "site/assets/images/ec-customers-hero.zh-tw.png",
-    "docs/assets/images/ec-customers-hero.zh-tw.png",
-    "site/assets/images/ec-integrations-hero.zh-tw.png",
-    "docs/assets/images/ec-integrations-hero.zh-tw.png"
+    "docs/assets/images/ec-customers-hero.zh-tw.png"
   ]
 }

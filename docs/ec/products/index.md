@@ -28,211 +28,211 @@ notes:
 
 === "商品上架"
 
-	<div class="grid cards" markdown>
+<div class="grid cards" markdown>
+
+- :lucide-package-plus: __新增商品__
+
+	---
 	
-	- :lucide-package-plus: __新增商品__
-	
-		---
-		
-		快速建立單一、組合或預購商品。  
-		[:octicons-arrow-right-24: 建立單一商品](新增單一商品.md)  
-		[:octicons-arrow-right-24: 建立組合商品](新增組合商品.md)  
-		[:octicons-arrow-right-24: 建立預購商品](設定多購物車.md#預購商品)
-	
-	- :lucide-import: __匯入商品__
-	
-		---
-		使用 Excel 或其他平台資料來源快速建立商品。  
-		[:octicons-arrow-right-24: Excel 大量匯入商品](#)  
-		[:octicons-arrow-right-24: 從蝦皮匯入商品](#)
-	
-	- :lucide-file-text: __商品內容__
-	
-		---
-		編輯商品標語、描述與影片資訊。  
-		[:octicons-arrow-right-24: 設定商品標語與簡述](設定商品標語與商品簡述.md)   
-		[:octicons-arrow-right-24: 編輯商品描述與設定](編輯商品描述與設定.md)    
-		[:octicons-arrow-right-24: 上傳商品影片 :lucide-lock:](設定商品影片.md)
-	
-	- :lucide-rotate-cw: __更新商品__
-	
-		---
-		批次修改商品屬性與內容。  
-		[:octicons-arrow-right-24: 批次修改商品資訊](批次修改商品資訊.md)
-	
-	- :lucide-package-check: __上架時程__
-	
-		---
-		設定商品上架與下架時間。  
-		[:octicons-arrow-right-24: 設定上架與下架時程](#)
-	
-	- :lucide-webhook: __同步第三方平台__
-	
-		---
-		排除或上傳特定商品至第三方平台。  
-		[:octicons-arrow-right-24: 排除贈品不上傳至第三方平台](設定商品排除上傳至第三方平台.md)
-	
-	- :lucide-bell: __到貨通知__
-	
-		---
-		提醒會員商品到貨並管理庫存通知。  
-		[:octicons-arrow-right-24: 設定商品到貨通知 :lucide-lock:](設定商品到貨通知.md)  
-	
-	- :lucide-package-search: __商品檢索__
-	
-		---
-		設定前台搜尋、篩選與商品排序規則。  
-		[:octicons-arrow-right-24: 前台商品篩選器](設定前台商品篩選器.md)  
-		[:octicons-arrow-right-24: 前台商品排列群組](設定前台商品排列群組.md)  
-		[:octicons-arrow-right-24: 排除商品搜尋](設定商品排除搜尋.md)
-	
-	</div>
+	快速建立單一、組合或預購商品。  
+	[建立單一商品](新增單一商品.md)  
+	[建立組合商品](新增組合商品.md)  
+	[建立預購商品](設定多購物車.md#預購商品)
+
+- :lucide-import: __匯入商品__
+
+	---
+	使用 Excel 或其他平台資料來源快速建立商品。  
+	[Excel 大量匯入商品](#)  
+	[從蝦皮匯入商品](#)
+
+- :lucide-file-text: __商品內容__
+
+	---
+	編輯商品標語、描述與影片資訊。  
+	[設定商品標語與簡述](設定商品標語與商品簡述.md)   
+	[編輯商品描述與設定](編輯商品描述與設定.md)    
+	[上傳商品影片 :lucide-lock:](設定商品影片.md)
+
+- :lucide-rotate-cw: __更新商品__
+
+	---
+	批次修改商品屬性與內容。  
+	[批次修改商品資訊](批次修改商品資訊.md)
+
+- :lucide-package-check: __上架時程__
+
+	---
+	設定商品上架與下架時間。  
+	[設定上架與下架時程](#)
+
+- :lucide-webhook: __同步第三方平台__
+
+	---
+	排除或上傳特定商品至第三方平台。  
+	[排除贈品不上傳至第三方平台](設定商品排除上傳至第三方平台.md)
+
+- :lucide-bell: __到貨通知__
+
+	---
+	提醒會員商品到貨並管理庫存通知。  
+	[設定商品到貨通知 :lucide-lock:](設定商品到貨通知.md)  
+
+- :lucide-package-search: __商品檢索__
+
+	---
+	設定前台搜尋、篩選與商品排序規則。  
+	[前台商品篩選器](設定前台商品篩選器.md)  
+	[前台商品排列群組](設定前台商品排列群組.md)  
+	[排除商品搜尋](設定商品排除搜尋.md)
+
+</div>
 
 === "商品配送"
 
-	<div class="grid cards" markdown>
-	
-	- :lucide-truck: __配送物流__
-	
-		---
-		管理宅配、貨到付款與物流條件。  
-		[:octicons-arrow-right-24: 綁定商品配送屬性](設定商品配送屬性.md)  
-		[:octicons-arrow-right-24: 一般宅配設定](#)  
-		[:octicons-arrow-right-24: 宅配貨到付款設定](#)
-	
-	- :lucide-store: __超商取貨__
-	
-		---
-		控制商品是否可寄送至超商，並設定物流限制。  
-		[:octicons-arrow-right-24: 超商物流限制設定](設定商品超商物流限制與排除選項.md)
-	
-	- :lucide-ban: __排除配送__
-	
-		---
-		限制特定配送方式，避免無法送達。  
-		[:octicons-arrow-right-24: 排除特定配送方式](設定商品超商物流限制與排除選項.md#排除選項)
-	
-	</div>
+<div class="grid cards" markdown>
+
+- :lucide-truck: __配送物流__
+
+	---
+	管理宅配、貨到付款與物流條件。  
+	[綁定商品配送屬性](設定商品配送屬性.md)  
+	[一般宅配設定](#)  
+	[宅配貨到付款設定](#)
+
+- :lucide-store: __超商取貨__
+
+	---
+	控制商品是否可寄送至超商，並設定物流限制。  
+	[超商物流限制設定](設定商品超商物流限制與排除選項.md)
+
+- :lucide-ban: __排除配送__
+
+	---
+	限制特定配送方式，避免無法送達。  
+	[排除特定配送方式](設定商品超商物流限制與排除選項.md#排除選項)
+
+</div>
 
 === "商品分類"
 
-	<div class="grid cards" markdown>
-	
-	- :lucide-group: __商品群組__
-	
-		---
-		建立、編輯與排序商品群組，快速分類商品。  
-		[:octicons-arrow-right-24: 篩選商品建立分類群組](篩選商品建立分類群組.md)  
-		[:octicons-arrow-right-24: 自訂分類群組設定](設定商品分類群組.md)  
-		[:octicons-arrow-right-24: 自動分類群組設定](設定條件分類群組.md)  
-		[:octicons-arrow-right-24: 設定秘密商品群組](設定秘密商品群組.md)  
-		[:octicons-arrow-right-24: 群組排序管理](#)
-	
-	- :lucide-tag: __商品標籤__
-	
-		---
-		建立標籤，方便前台搜尋與分類。  
-		[:octicons-arrow-right-24: 設定商品標籤](設定商品標籤.md)
-	
-	- :lucide-layers: __商品層級__
-	
-		---
-		設定多層級分類並綁定導覽列。  
-		[:octicons-arrow-right-24: 設定商品多層級分類](設定商品多層級分類.md)  
-		[:octicons-arrow-right-24: 綁定多層級分類至導覽列](#)
-	
-	- :lucide-navigation: __導覽列顯示__
-	
-		---
-		控制商品群組與層級在前台導覽列的顯示順序。  
-		[:octicons-arrow-right-24: 商品群組綁定導覽列](#)  
-		[:octicons-arrow-right-24: 商品層級綁定導覽列](#)
-	
-	</div>
+<div class="grid cards" markdown>
+
+- :lucide-group: __商品群組__
+
+	---
+	建立、編輯與排序商品群組，快速分類商品。  
+	[篩選商品建立分類群組](篩選商品建立分類群組.md)  
+	[自訂分類群組設定](設定商品分類群組.md)  
+	[自動分類群組設定](設定條件分類群組.md)  
+	[設定秘密商品群組](設定秘密商品群組.md)  
+	[群組排序管理](#)
+
+- :lucide-tag: __商品標籤__
+
+	---
+	建立標籤，方便前台搜尋與分類。  
+	[設定商品標籤](設定商品標籤.md)
+
+- :lucide-layers: __商品層級__
+
+	---
+	設定多層級分類並綁定導覽列。  
+	[設定商品多層級分類](設定商品多層級分類.md)  
+	[綁定多層級分類至導覽列](#)
+
+- :lucide-navigation: __導覽列顯示__
+
+	---
+	控制商品群組與層級在前台導覽列的顯示順序。  
+	[商品群組綁定導覽列](#)  
+	[商品層級綁定導覽列](#)
+
+</div>
 
 === "商品銷售"
 
-	<div class="grid cards" markdown>
-	
-	- :lucide-circle-percent: __優惠價__
-	
-		---
-		管理商品價格優惠與折扣規則。  
-		[:octicons-arrow-right-24: 設定 VIP 會員專屬價格](設定 VIP 專屬會員價格.md)  
-		[:octicons-arrow-right-24: 設定任選折扣群組](設定任選折扣群組.md)  
-		[:octicons-arrow-right-24: 設定單品限時折扣群組](設定單品限時折扣群組.md)  
-		[:octicons-arrow-right-24: 設定不適用折扣群組](設定不適用折扣群組.md)  
-	
-	- :lucide-circle-plus: __加價購__
-	
-		---
-		建立與管理加價購活動，提升訂單價值。  
-		[:octicons-arrow-right-24: 加價購群組設定](設定加價購群組.md)  
-		[:octicons-arrow-right-24: 加價購群組多國語系設定](設定加價購群組的多國語系名稱.md)  
-	
-	- :lucide-calendar-check: __預購商品__
-	
-		---
-		設定預購規則，包括開賣時間、出貨延遲與庫存管理。  
-		[:octicons-arrow-right-24: 設定預購商品](#)  
-	
-	
-	- :lucide-thumbs-up: __商品評論__
-	
-		---
-		啟用與管理商品評論，提升使用者互動。  
-		[:octicons-arrow-right-24: 使用商品評論 :lucide-lock:](使用商品評論.md)  
-		[:octicons-arrow-right-24: 啟用留言區 reCAPTCHA :lucide-lock:](啟用留言區 reCAPTCHA.md)  
-	
-	- :lucide-shopping-cart: __多購物車__
-	
-		---
-		管理單一商品的多購物車組合，提升購物彈性。  
-		[:octicons-arrow-right-24: 設定多購物車](設定多購物車.md)  
-	
-	</div>
+<div class="grid cards" markdown>
+
+- :lucide-circle-percent: __優惠價__
+
+	---
+	管理商品價格優惠與折扣規則。  
+	[設定 VIP 會員專屬價格](設定 VIP 專屬會員價格.md)  
+	[設定任選折扣群組](設定任選折扣群組.md)  
+	[設定單品限時折扣群組](設定單品限時折扣群組.md)  
+	[設定不適用折扣群組](設定不適用折扣群組.md)  
+
+- :lucide-circle-plus: __加價購__
+
+	---
+	建立與管理加價購活動，提升訂單價值。  
+	[加價購群組設定](設定加價購群組.md)  
+	[加價購群組多國語系設定](設定加價購群組的多國語系名稱.md)  
+
+- :lucide-calendar-check: __預購商品__
+
+	---
+	設定預購規則，包括開賣時間、出貨延遲與庫存管理。  
+	[設定預購商品](#)  
+
+
+- :lucide-thumbs-up: __商品評論__
+
+	---
+	啟用與管理商品評論，提升使用者互動。  
+	[使用商品評論 :lucide-lock:](使用商品評論.md)  
+	[啟用留言區 reCAPTCHA :lucide-lock:](啟用留言區 reCAPTCHA.md)  
+
+- :lucide-shopping-cart: __多購物車__
+
+	---
+	管理單一商品的多購物車組合，提升購物彈性。  
+	[設定多購物車](設定多購物車.md)  
+
+</div>
 
 === "電子票券 :lucide-lock:"
     > 僅適用 PLUS / 企業 方案用戶。  
 	
-	<div class="grid cards" markdown>
-	
-	- :lucide-rocket: __開始使用__
-	
-		---
-		快速了解電子票券的設定、銷售與核銷操作。  
-		[:octicons-arrow-right-24: 電子票券指南](電子票券指南.md)
-	
-	- :lucide-ticket-plus: __建立與設定票券__
-	
-		---
-		建立票種、設定內容、規則與優惠。  
-		[:octicons-arrow-right-24: 新增電子票券](新增電子票券.md)  
-		[:octicons-arrow-right-24: 設定電子票券內容與規則](新增電子票券.md#內容)  
-		[:octicons-arrow-right-24: 設定任選折扣](設定電子票券任選折扣.md)  
-		[:octicons-arrow-right-24: 分票設定](電子票券分票.md)
-	
-	- :lucide-shopping-cart: __管理銷售流程__
-	
-		---
-		管理前台購買流程與操作。  
-		[:octicons-arrow-right-24: 購買電子票券](購買電子票券.md)
-	
-	- :lucide-ticket-check: __核銷、退款與對帳__
-	
-		---
-		管理核銷流程、退款規範與對帳作業。  
-		[:octicons-arrow-right-24: 核銷電子票券](核銷電子票券.md)  
-		[:octicons-arrow-right-24: 電子票券退款](電子票券退款.md)  
-		[:octicons-arrow-right-24: 電子票券對帳方法](電子票券對帳方法.md)  
-		[:octicons-arrow-right-24: 票券分潤自動結案](票券分潤自動結案.md)
-	
-	- :lucide-key: __門市權限__
-	
-		---
-		管控店員操作範圍與核銷權限。  
-		[:octicons-arrow-right-24: 設定門市權限](設定電子票券門市權限.md)  
-		[:octicons-arrow-right-24: 設定店員操作權限](設定電子票券門市權限.md#設定電子票券門市店員操作權限)
-	
-	</div>
+<div class="grid cards" markdown>
+
+- :lucide-rocket: __開始使用__
+
+	---
+	快速了解電子票券的設定、銷售與核銷操作。  
+	[電子票券指南](電子票券指南.md)
+
+- :lucide-ticket-plus: __建立與設定票券__
+
+	---
+	建立票種、設定內容、規則與優惠。  
+	[新增電子票券](新增電子票券.md)  
+	[設定電子票券內容與規則](新增電子票券.md#內容)  
+	[設定任選折扣](設定電子票券任選折扣.md)  
+	[分票設定](電子票券分票.md)
+
+- :lucide-shopping-cart: __管理銷售流程__
+
+	---
+	管理前台購買流程與操作。  
+	[購買電子票券](購買電子票券.md)
+
+- :lucide-ticket-check: __核銷、退款與對帳__
+
+	---
+	管理核銷流程、退款規範與對帳作業。  
+	[核銷電子票券](核銷電子票券.md)  
+	[電子票券退款](電子票券退款.md)  
+	[電子票券對帳方法](電子票券對帳方法.md)  
+	[票券分潤自動結案](票券分潤自動結案.md)
+
+- :lucide-key: __門市權限__
+
+	---
+	管控店員操作範圍與核銷權限。  
+	[設定門市權限](設定電子票券門市權限.md)  
+	[設定店員操作權限](設定電子票券門市權限.md#設定電子票券門市店員操作權限)
+
+</div>
 

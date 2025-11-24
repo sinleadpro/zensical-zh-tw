@@ -46,6 +46,9 @@
         <loc>http://127.0.0.1:8000/ec/marketing/</loc>
       </url>
       <url>
+        <loc>http://127.0.0.1:8000/ec/analytics/</loc>
+      </url>
+      <url>
         <loc>http://127.0.0.1:8000/ec/integrations/</loc>
       </url>
       <url>
