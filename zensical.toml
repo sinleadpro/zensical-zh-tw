@@ -71,7 +71,7 @@ copyright = """
                     { "" = "ec/products/"}
             ]},
             { "商品銷售" = [
-                    { "使用商品評論" = "ec/products/使用商品評論.md"},
+                    { "商品評論指南" = "ec/products/商品評論指南.md"},
                     { "啟用留言區 reCAPTCHA" = "ec/products/啟用留言區 reCAPTCHA.md"},
                     { "" = "ec/products/"},
                     { "" = "ec/products/"}

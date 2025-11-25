@@ -159,7 +159,7 @@ notes:
 
 	---
 	啟用與管理商品評論，提升使用者互動。  
-	[使用商品評論 :lucide-lock:](使用商品評論.md)  
+	[使用商品評論 :lucide-lock:](商品評論指南.md)  
 	[啟用留言區 reCAPTCHA :lucide-lock:](啟用留言區 reCAPTCHA.md)  
 
 - :lucide-shopping-cart: __多購物車__
