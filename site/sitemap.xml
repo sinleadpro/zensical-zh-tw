@@ -28,10 +28,19 @@
         <loc>http://127.0.0.1:8000/ec/products/%E6%96%B0%E5%A2%9E%E7%B5%84%E5%90%88%E5%95%86%E5%93%81/</loc>
       </url>
       <url>
+        <loc>http://127.0.0.1:8000/ec/products/%E8%A8%AD%E5%AE%9A%E5%95%86%E5%93%81%E5%88%B0%E8%B2%A8%E9%80%9A%E7%9F%A5/</loc>
+      </url>
+      <url>
+        <loc>http://127.0.0.1:8000/ec/products/%E7%B7%A8%E8%BC%AF%E5%95%86%E5%93%81%E6%A8%99%E8%AA%9E%E8%88%87%E5%95%86%E5%93%81%E7%B0%A1%E8%BF%B0/</loc>
+      </url>
+      <url>
         <loc>http://127.0.0.1:8000/ec/products/%E5%95%86%E5%93%81%E8%A9%95%E8%AB%96%E6%8C%87%E5%8D%97/</loc>
       </url>
       <url>
         <loc>http://127.0.0.1:8000/ec/products/%E5%95%9F%E7%94%A8%E7%95%99%E8%A8%80%E5%8D%80%20reCAPTCHA/</loc>
+      </url>
+      <url>
+        <loc>http://127.0.0.1:8000/ec/products/%E8%A8%AD%E5%AE%9A%E5%A4%9A%E8%B3%BC%E7%89%A9%E8%BB%8A/</loc>
       </url>
       <url>
         <loc>http://127.0.0.1:8000/ec/products/%E9%9B%BB%E5%AD%90%E7%A5%A8%E5%88%B8%E6%8C%87%E5%8D%97/</loc>
@@ -67,7 +76,16 @@
         <loc>http://127.0.0.1:8000/ec/payments/</loc>
       </url>
       <url>
+        <loc>http://127.0.0.1:8000/ec/payments/%E7%94%B3%E8%AB%8B%20CYBERBIZ%20PAYMENTS/</loc>
+      </url>
+      <url>
+        <loc>http://127.0.0.1:8000/ec/payments/%E8%A8%AD%E5%AE%9A%20Apple%20Pay/</loc>
+      </url>
+      <url>
         <loc>http://127.0.0.1:8000/ec/payments/%E8%A8%AD%E5%AE%9A%E4%BF%A1%E7%94%A8%E5%8D%A1%203D%20%E9%A9%97%E8%AD%89%E9%96%80%E6%AA%BB/</loc>
+      </url>
+      <url>
+        <loc>http://127.0.0.1:8000/ec/payments/%E6%98%9F%E7%9B%8A%E6%AC%A3%E9%9B%BB%E5%AD%90%E7%99%BC%E7%A5%A8%E8%A8%AD%E5%AE%9A%E6%8C%87%E5%8D%97/</loc>
       </url>
       <url>
         <loc>http://127.0.0.1:8000/ec/members/</loc>

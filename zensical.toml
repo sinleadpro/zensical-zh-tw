@@ -58,7 +58,9 @@ copyright = """
                     { "新增單一商品" = "ec/products/新增單一商品.md"},
                     { "新增大量商品" = "ec/products/Excel 大量匯入商品.md"},
                     { "新增組合商品" = "ec/products/新增組合商品.md"},
-                    { "電子票券分票" = "ec/products/電子票券分票.md"}
+                    { "電子票券分票" = "ec/products/電子票券分票.md"},
+                    { "設定商品到貨通知" = "ec/products/設定商品到貨通知.md"},
+                    { "編輯商品標語與簡述" = "ec/products/編輯商品標語與商品簡述.md" }
             ]},
             { "商品配送" = [
                     { "" = "ec/products/"},
@@ -73,7 +75,7 @@ copyright = """
             { "商品銷售" = [
                     { "商品評論指南" = "ec/products/商品評論指南.md"},
                     { "啟用留言區 reCAPTCHA" = "ec/products/啟用留言區 reCAPTCHA.md"},
-                    { "" = "ec/products/"},
+                    { "設定多購物車" = "ec/products/設定多購物車.md"},
                     { "" = "ec/products/"}
             ]},
             { "電子票券" = [
@@ -91,7 +93,11 @@ copyright = """
         { "訂單物流" = "ec/orders/index.md" },
         { "支付金流" = [
             { "支付金流" = "ec/payments/index.md" },
-            { "設定信用卡 3D 驗證" = "ec/payments/設定信用卡 3D 驗證門檻.md" }
+            { "申請 CYBERBIZ PAYMENTS" = "ec/payments/申請 CYBERBIZ PAYMENTS.md" },
+            { "設定 Apple Pay" = "ec/payments/設定 Apple Pay.md" },
+            { "設定信用卡 3D 驗證" = "ec/payments/設定信用卡 3D 驗證門檻.md" },
+            { "星益欣電子發票設定指南" = "ec/payments/星益欣電子發票設定指南.md" }
+
         ]},
         { "會員管理" = "ec/members/index.md" },
         { "行銷推廣" = [
@@ -174,7 +180,7 @@ extra_javascript = [
 # Read more:
 # - https://zensical.org/docs/customization/#extending-the-theme
 #
-#custom_dir = "overrides"
+custom_dir = "overrides"
 
 # With the "favicon" option you can set your own image to use as the icon
 # browsers will use in the browser title bar or tab bar. The path provided
@@ -426,6 +432,28 @@ description = """
     make our documentation better.
 """
 
+[project.extra.analytics]
+provider = "google"
+property = "G-YD3J9MG2GM"
+
+[project.extra.analytics.feedback]
+title = "Was this page helpful?"
+
+[[project.extra.analytics.feedback.ratings]]
+icon = "material/emoticon-happy-outline"
+name = "This page was helpful"
+data = 1
+note = "Thanks for your feedback!"
+
+[[project.extra.analytics.feedback.ratings]]
+icon = "material/emoticon-sad-outline"
+name = "This page could be improved"
+data = 0
+note = """
+  Thanks for your feedback! Help us improve this page by
+  using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+"""
+
 # ----------------------------------------------------------------------------
 # The "Extension" section contains miscellaneous settings.
 # ----------------------------------------------------------------------------
@@ -472,3 +500,4 @@ custom_checkbox = true
 clickable_checkbox = true
 [project.markdown_extensions.pymdownx.tilde]
 [project.markdown_extensions.pymdownx.blocks.caption]
+

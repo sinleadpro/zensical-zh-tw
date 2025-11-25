@@ -73,7 +73,7 @@ note:
 1. 前往 [Google reCAPTCHA 管理控制台 :material-open-in-new:](https://www.google.com/recaptcha/admin/)，並登入您的 Google 帳號。
 2. 依序填寫註冊資訊。
 > **標籤**：依您的需求命名此 reCAPTCHA （例如：`您的商店名稱_reCAPTCHA`）。  
-> **reCAPTCHA 類型**：選擇「驗證問題」，並勾選「隱形 reCAPTCHA 標記[^隱形 reCAPTCHA]」。  
+> **reCAPTCHA 類型**：選擇「驗證問題」，並勾選「隱形 reCAPTCHA 標記」[^隱形 reCAPTCHA]。  
 > **網域**：輸入您的官網網址。  
 > **Google Cloud Platform**：依您的需求選擇專案。  
 	
