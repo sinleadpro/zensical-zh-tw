@@ -14,8 +14,8 @@ notes:
 <div class="grid" markdown>
 
 <br>
-<br>
-<big>__完整掌握訂單與物流流程__</big>  
+<big>__開始使用__</big>  
+完整掌握訂單與物流流程。  
 從訂單接收、出貨到配送追蹤，簡化流程並提高顧客滿意度。  
 <br>
 [快速上手 :lucide-circle-arrow-right:](quickstart.md)

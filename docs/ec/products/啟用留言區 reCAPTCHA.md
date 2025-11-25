@@ -37,44 +37,34 @@ note:
 :lucide-lock:{ title="適用方案" } | PLUS 企業  
 :lucide-toggle-right:{ title="適用功能" } | 拖拉版型 
 
-??? example "AI 摘要"
-	<audio controls>
-	  <source src="../../assets/audios/設定留言區 reCAPTCHA 聽讀.mp3" type="audio/mpeg">
-	  您的瀏覽器不支援音訊播放。
-	</audio>
-	    
-	![聽讀](../../assets/audios/設定留言區%20reCAPTCHA%20聽讀.mp3)
-
-
 啟用 Google reCAPTCHA 防止機器人訊息及垃圾留言，保護留言區，提升網站安全性及顧客互動品質。  
 
 ### 為什麼要用 reCAPTCHA
 - 防範垃圾留言：保護商品評論區與聯絡我們頁面免受機器人攻擊。  
 - 提升網站安全性：有效辨識非人類操作，減少濫用行為與詐欺風險。  
 - 維護互動品質：確保留言內容真實有效，改善顧客互動體驗。  
-更多資訊請參考 [Google 官方網站 :material-open-in-new:](https://cloud.google.com/security/products/recaptcha?hl=zh_tw)。
 
 !!! quote "什麼是 reCAPTCHA？"
 	reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與機器人，保護網站表單、留言區與交易流程免受自動化攻擊。它能有效防止垃圾訊息、刷單或惡意程式操作，並提升網站整體安全性。了解更多，請參考[官方網站 :material-open-in-new:](https://cloud.google.com/security/products/recaptcha?hl=zh_tw)。
 
 ## 使用須知
 
-=== "適用範圍"
+### 適用範圍
 
-	- [x] 商品頁面評論區。
-	- [x] 聯絡我們頁面。
-	
-	<div class="grid cards" markdown>
-	
-	- ![商品評論區建立 reCAPTCHA 安全驗證機制](https://www.cyberbiz.io/support/wp-content/uploads/商品評論00.png){ title="商品頁面評論區" }
-	- ![聯絡我們頁面建立 reCAPTCHA 安全驗證機制](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-聯絡我們-設定reCAPTCHA01.png){ title="聯絡我們頁面" }
-	
-	</div>
+- [x] 商品頁面評論區。
+- [x] 聯絡我們頁面。
 
-=== "費用"
-    - Google reCAPTCHA 提供免費用量配額，若超出免費用量，顧客將無法進行留言。
-    > 達到免費用量上限前，Google 會透過電子郵件通知商家。
-    - 更多資訊，請看[配額與限制 :material-open-in-new:](https://docs.cloud.google.com/recaptcha/quotas?hl=zh-tw)
+<div class="grid cards" markdown>
+
+- ![商品評論區建立 reCAPTCHA 安全驗證機制](https://www.cyberbiz.io/support/wp-content/uploads/商品評論00.png){ title="商品頁面評論區" }
+- ![聯絡我們頁面建立 reCAPTCHA 安全驗證機制](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-聯絡我們-設定reCAPTCHA01.png){ title="聯絡我們頁面" }
+
+</div>
+
+### 費用
+- Google reCAPTCHA 提供免費用量配額，若超出免費用量，顧客將無法進行留言。
+> 達到免費用量上限前，Google 會透過電子郵件通知商家。
+- 更多資訊，請看[配額與限制 :material-open-in-new:](https://docs.cloud.google.com/recaptcha/quotas?hl=zh-tw)
 
 ## 操作步驟
 

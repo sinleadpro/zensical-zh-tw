@@ -14,9 +14,9 @@ notes:
 <div class="grid" markdown>
 
 <br>
-<br>
-<big>__全面掌握會員資料與互動__</big>  
-設定會員資訊、等級與權益，追蹤會員行為，提升顧客忠誠度與回購率。  
+<big>__開始使用__</big>  
+全面掌握會員資料與互動。  
+設定會員資訊、等級與權益，追蹤行為，提升顧客忠誠度與回購率。  
 <br>
 [快速上手 :lucide-circle-arrow-right:](quickstart.md)
 

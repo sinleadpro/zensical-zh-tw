@@ -1,1 +1,1 @@
-1. In your CYBERBIZ admin, click **>**
+1. In your CYBERBIZ Admin, click **>**

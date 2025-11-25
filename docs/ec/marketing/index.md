@@ -15,7 +15,8 @@ notes:
 
 <br>
 <br>
-<big>__打造完整行銷與促銷策略__</big>  
+<big>__開始使用__</big>  
+打造完整行銷與促銷策略。  
 設定優惠活動、管理廣告投放，追蹤會員互動與銷售成效。  
 <br>
 [快速上手 :lucide-circle-arrow-right:](quickstart.md)
@@ -56,17 +57,41 @@ notes:
 
 </div>
 
-=== "廣告與推播"
+
+=== "分潤"
 
 <div class="grid cards" markdown>
 
--   :lucide-bell-ring: __訊息推播__
+-   :lucide-dollar-sign: __分潤功能說明__
 	
 	---
 	
-	[會員訊息推播設定](會員訊息推播.md)  
-	[行銷活動通知設定](行銷活動通知.md)  
+	[分潤功能說明](分潤功能說明.md)  
 
+-   :lucide-user-check: __推薦人分潤 - 員工推薦__
+	
+	---
+	
+	[推薦人分潤 - 員工推薦 (分派)](推薦人分潤-員工推薦.md)  
+	[推薦人分潤 (第三方列表)](推薦人分潤-第三方列表.md)  
+
+-   :lucide-user-plus: __推薦人分潤 - 顧客推薦__
+	
+	---
+	
+	[推薦人分潤 - 顧客推薦 (分派)](推薦人分潤-顧客推薦.md)  
+
+-   :lucide-user-cog: __註冊人分潤設定__
+	
+	---
+	
+	[註冊人分潤設定](註冊人分潤設定.md)  
+
+</div>
+
+=== "廣告與推播"
+
+<div class="grid cards" markdown>
 
 -   :lucide-mail: __電子郵件行銷__
 	

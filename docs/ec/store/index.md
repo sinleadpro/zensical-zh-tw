@@ -14,8 +14,8 @@ notes:
 <div class="grid" markdown>
 
 <br>
-<br>
-<big>__全面掌握商店設定與運營管理__</big>  
+<big>__開始使用__</big>  
+全面掌握商店設定與運營管理。  
 設定商店基本資訊、付款金流、物流與會員互動，打造完整開店流程。  
 <br>
 [快速上手 :lucide-circle-arrow-right:](quickstart.md)

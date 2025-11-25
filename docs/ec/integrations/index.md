@@ -14,8 +14,8 @@ notes:
 <div class="grid" markdown>
 
 <br>
-<br>
-<big>__連接第三方服務與自動化商店流程__</big>  
+<big>__開始使用__</big>  
+連接第三方服務與自動化商店流程。  
 透過 API 串接與平台整合，擴展商店功能並提升營運效率。  
 <br>
 [快速上手 :lucide-circle-arrow-right:](quickstart.md)

@@ -14,8 +14,8 @@ notes:
 <div class="grid" markdown>
 
 <br>
-<br>
-<big>__管理支付與收款流程__</big>  
+<big>__開始使用__</big>  
+管理支付與收款流程。  
 設定多元支付方式、掌握訂單付款狀態，提升結帳體驗與交易安全。  
 <br>
 [快速上手 :lucide-circle-arrow-right:](quickstart.md)
