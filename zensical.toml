@@ -60,7 +60,8 @@ copyright = """
                     { "新增組合商品" = "ec/products/新增組合商品.md"},
                     { "電子票券分票" = "ec/products/電子票券分票.md"},
                     { "設定商品到貨通知" = "ec/products/設定商品到貨通知.md"},
-                    { "編輯商品標語與簡述" = "ec/products/編輯商品標語與商品簡述.md" }
+                    { "編輯商品標語與簡述" = "ec/products/編輯商品標語與商品簡述.md" },
+                    { "批次修改商品資訊" = "ec/products/批次修改商品資訊.md" }
             ]},
             { "商品配送" = [
                     { "" = "ec/products/"},
@@ -162,8 +163,7 @@ extra_css = ["stylesheets/extra.css"]
 #extra_javascript = ["assets/javascript/extra.js"]
 extra_javascript = [
     "https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js",
-    "javascripts/tablesort.js",
-    "javascripts/feedback.js"
+    "javascripts/tablesort.js"
 ]
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
@@ -434,8 +434,8 @@ description = """
 """
 
 [project.extra.analytics]
-#provider = "google"
-#property = "G-YD3J9MG2GM"
+provider = "google"
+property = "G-YD3J9MG2GM"
 
 [project.extra.analytics.feedback]
 title = "內容有幫助?"

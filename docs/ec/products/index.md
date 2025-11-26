@@ -97,10 +97,10 @@ hide:
 		限制特定配送方式，避免無法送達。  
 		[超商物流限制設定](設定商品超商物流限制與排除選項.md)
 	
-	
 	</div>
 
 === "商品分類"
+
 	<div class="grid cards" markdown>
 	
 	- :lucide-group: __商品群組__
