@@ -45,8 +45,8 @@ search:
         gap: 1rem;
         margin-top: 1rem;
     ">
-      <a href="品牌官網/" class="md-button md-button--primary">開始探索 ➜</a>
-      <a href="資源中心/changelog/" class="md-button">最新消息</a>
+      <a href="ec/" class="md-button md-button--primary">開始探索 ➜</a>
+      <a href="resources/changelog/" class="md-button">最新消息</a>
     </div>
   </div>
 

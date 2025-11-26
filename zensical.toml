@@ -140,7 +140,7 @@ copyright = """
         { "資源中心" = "resources/index.md" },
         { "更新紀錄" = "resources/changelog.md" },
         { "詞彙表" = "resources/glossary.md" },
-        { "圖示慣例" = "resources/conventions.md" }
+        { "圖示說明" = "resources/conventions.md" }
     ]}
  ]
 # With the "extra_css" option you can add your own CSS styling to customize
