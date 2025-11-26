@@ -61,7 +61,8 @@ copyright = """
                     { "電子票券分票" = "ec/products/電子票券分票.md"},
                     { "設定商品到貨通知" = "ec/products/設定商品到貨通知.md"},
                     { "編輯商品標語與簡述" = "ec/products/編輯商品標語與商品簡述.md" },
-                    { "批次修改商品資訊" = "ec/products/批次修改商品資訊.md" }
+                    { "批次修改商品資訊" = "ec/products/批次修改商品資訊.md" },
+                    { "設定商品排除搜尋" = "ec/products/設定商品排除搜尋.md" }
             ]},
             { "商品配送" = [
                     { "" = "ec/products/"},

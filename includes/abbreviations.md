@@ -24,7 +24,7 @@
 *[WMS]: Warehouse Management System, used to manage, control, and optimize warehousing operations, covering inbound, outbound, inventory management, order picking, distribution, and report analysis processes. Through automation and data-driven operations, WMS improves warehousing efficiency, reduces error rates, and supports logistics and supply chain collaboration.
 *[POS]: Point of Sale.
 *[MBE]: Meta Business Extension
-*[GA]: Google Analytics, a website traffic analysis tool provided by Google, used to track and analyze user behavior and interactions on a website, helping merchants understand traffic sources, conversion rates, and marketing effectiveness.
+*[GA]: Google Analytics, a website traffic analysis tool provided by Google, used to track and analyze user behavior and interactions on a website.
 *[GMC]: Google Merchant Center
-*[SEO]: Search Engine Optimization, in an e-commerce system, SEO covers product page titles, descriptions, URL structures, image alt text, and keyword settings. Merchants can optimize these elements to improve product or content visibility in search results, thereby driving organic traffic and conversion rates.
+*[SEO]: Search Engine Optimization, in an e-commerce system, SEO covers product page titles, descriptions, URL structures, image alt text, and keyword settings. 
 *[SKU]: Stock Keeping Unit, a unique code or number used to identify products, track inventory, manage product data, and analyze sales. Each SKU corresponds to a specific product or product variant (e.g., size, color, packaging specification).

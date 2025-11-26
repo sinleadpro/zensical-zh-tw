@@ -9,10 +9,11 @@
 商店運作和處理交易所需的基本設定。
 > **預估時間：~1–2 小時**
 
+
 ??? abstract "金流設定" 
-	- [ ] [申請 CYBERBIZ PAYMENTS](payments/apply for CYBERBIZ PAYMENTS.zh-tw.md){ data-preview }  
-	- [ ] [設定信用卡 3D 驗證門檻](payments/set credit card 3D Secure threshold.zh-tw.md){ data-preview }
-	- [ ] [設定 Apple Pay](payments/set up Apple Pay.zh-tw.md){ data-preview }
+	- [ ] [申請 CYBERBIZ PAYMENTS](payments/申請 CYBERBIZ PAYMENTS){ data-preview }  
+	- [ ] [設定信用卡 3D 驗證門檻](payments/設定信用卡 3D 驗證門檻){ data-preview }
+	- [ ] [設定 Apple Pay](payments/設定 Apple Pay){ data-preview }
 
 ??? abstract "物流設定" 
 	- [處理超商寄件 (C2C)](app://obsidian.md/logistics/Process%20C2C%20Convenience%20Store%20Shipments.md){ data-preview }
