@@ -446,8 +446,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c7dcd778f8c9b3d",
+  "active": "ee4de6e4fb7a4876",
   "lastOpenFiles": [
+    "requirements.txt",
     "site/ec/products/設定商品配送屬性（宅配貨到付款）/index.html",
     "site/ec/products/設定商品配送屬性（宅配貨到付款）",
     "site/ec/products/電子票券指南-rev/index.html",
@@ -458,7 +459,6 @@
     "site/ec/products/參考資源/商品可見性指南",
     "site/ec/products/電子票券對帳方法/index.html",
     "site/ec/products/電子票券對帳方法",
-    "site/index.html",
     "docs/ec/products/電子票券優惠設定.md",
     "docs/ec/index.md",
     "docs/resources/index.md",
