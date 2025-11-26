@@ -4,6 +4,7 @@ hide:
   - feedback
   - navigation
   - toc
+  - feedback
 search:
   exclude: true
 ---

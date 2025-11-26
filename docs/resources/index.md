@@ -2,12 +2,12 @@
 title: 資源中心
 description: 提供操作指南、教學文件、FAQ、更新紀錄與詞彙表，幫助商家快速上手與問題排解。
 icon: lucide/book-open
+notes:
+  - 資源中心功能說明 link
 hide:
   - toc
   - path
   - feedback
-notes:
-  - 資源中心功能說明 link
 ---
 
 # 資源中心

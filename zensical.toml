@@ -162,7 +162,8 @@ extra_css = ["stylesheets/extra.css"]
 #extra_javascript = ["assets/javascript/extra.js"]
 extra_javascript = [
     "https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js",
-    "javascripts/tablesort.js"
+    "javascripts/tablesort.js",
+    "javascripts/feedback.js"
 ]
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
@@ -180,7 +181,7 @@ extra_javascript = [
 # Read more:
 # - https://zensical.org/docs/customization/#extending-the-theme
 #
-custom_dir = "overrides"
+#custom_dir = "overrides"
 
 # With the "favicon" option you can set your own image to use as the icon
 # browsers will use in the browser title bar or tab bar. The path provided
@@ -433,24 +434,24 @@ description = """
 """
 
 [project.extra.analytics]
-provider = "google"
-property = "G-YD3J9MG2GM"
+#provider = "google"
+#property = "G-YD3J9MG2GM"
 
 [project.extra.analytics.feedback]
-title = "Was this page helpful?"
+title = "內容有幫助?"
 
 [[project.extra.analytics.feedback.ratings]]
 icon = "material/emoticon-happy-outline"
-name = "This page was helpful"
+name = "有幫助"
 data = 1
-note = "Thanks for your feedback!"
+note = "感謝你的反饋!"
 
 [[project.extra.analytics.feedback.ratings]]
 icon = "material/emoticon-sad-outline"
-name = "This page could be improved"
+name = "可以改進"
 data = 0
 note = """
-  Thanks for your feedback! Help us improve this page by
+  感謝你的反饋! Help us improve this page by
   using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
 """
 

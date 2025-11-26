@@ -3,6 +3,7 @@ title:
 hide:
   - toc
   - path
+  - feedback
 ---
 
 # 門市助理

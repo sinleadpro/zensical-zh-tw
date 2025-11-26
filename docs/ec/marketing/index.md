@@ -14,7 +14,6 @@ notes:
 <div class="grid" markdown>
 
 <br>
-<br>
 <big>__開始使用__</big>  
 打造完整行銷與促銷策略。  
 設定優惠活動、管理廣告投放，追蹤會員互動與銷售成效。  
