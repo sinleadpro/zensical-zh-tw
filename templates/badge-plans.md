@@ -1,1 +1,1 @@
-:lucide-lock:{ title="適用方案" } | 
+[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 

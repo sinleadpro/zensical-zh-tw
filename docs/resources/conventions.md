@@ -3,7 +3,7 @@ icon: lucide/clipboard
 ---
 
 
-# 慣例
+# 圖示慣例
 
 本節說明本文件中使用的幾個慣例。
 
@@ -12,17 +12,14 @@ icon: lucide/clipboard
 
 ### :lucide-lock: 適用方案
 表示內容僅適用特定方案用戶。  
-:lucide-lock:{ title="適用方案" } | PLUS 企業
 
 ### :lucide-toggle-right: 適用功能
 表示內容僅適用開啟某些功能。  
-:lucide-toggle-right:{ title="適用功能" } | 拖拉版型
 
 ### :lucide-sparkles: 適用擴充
 表示內容適用特定的 CYBERBIZ 擴充功能。  
-:lucide-sparkles:{ title="適用擴充" } | CYBERBIZ PAYMENTS
 
 ### :lucide-layers: 適用產品
-表示內容適用 CYBERBIZ 相關的產品線。如 EC、POS、WM 等04。  
-:lucide-layers:{ title="適用產品" } | POS
+表示內容適用 CYBERBIZ 相關的產品線。如 EC、POS、WM 等。  
+
 

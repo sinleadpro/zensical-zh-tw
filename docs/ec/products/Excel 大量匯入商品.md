@@ -76,7 +76,7 @@ note:
 - 新增商品：下載的 Excel 範本，其 A、B 欄位為空值。上傳後將視為新增商品。
 - 更新既有商品：匯出的商品 Excel 表格，其 A、B 欄位會帶有系統數值。上傳後將視為更新既有商品。
 
-![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/大量匯入商品02.png)
+![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/大量匯入商品02.png){ .screenshot }
 
 ### 填寫商品欄位說明
 
@@ -146,11 +146,11 @@ note:
 
 完成 Excel 檔案編輯後，請上傳至 CYBERBIZ 後台。系統將依匯入結果顯示不同狀態：
 
-![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/大量匯入商品08.png){ .screenshot }
-
 - **失敗**：系統將提示失敗原因，請更正後重新上傳。
 - **成功**：請耐心等候系統完成匯入作業，避免重複上傳導致資訊混亂。完成後會收到通知信件。
 - **完成**：匯入已確認完成，您可以查看更新成果或再次進行其他內容的更新。
+
+![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/大量匯入商品08.png){ .screenshot }
 
 ## 常見問題
 

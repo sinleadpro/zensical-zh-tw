@@ -1,4 +1,5 @@
 <!-- abbreviations -->
+*[一般版]: 專業、高手、進階方案版本。
 *[分票]: 當同一票種購買多份時，系統預設會產生單一 QR Code（核銷碼），可供多次核銷。若消費者有分票或贈票 的需求，可將此單一 QR Code 拆分為多個獨立票券。每張分出的票券皆會生成新的 QR Code，並可被單獨使用或轉贈他人。
 *[註解程式碼]: 註解程式碼可使被註解符號包覆的部分程式碼不會被執行，因此可以暫時停用功能、方便測試或調整，同時保留原始程式碼便於日後快速恢復或修改。*
 *[指定組合商品]: 由商家預先設定好固定組合的商品，顧客購買時無法更換組合內的項目。
@@ -27,4 +28,4 @@
 *[GA]: Google Analytics, a website traffic analysis tool provided by Google, used to track and analyze user behavior and interactions on a website.
 *[GMC]: Google Merchant Center
 *[SEO]: Search Engine Optimization, in an e-commerce system, SEO covers product page titles, descriptions, URL structures, image alt text, and keyword settings. 
-*[SKU]: Stock Keeping Unit, a unique code or number used to identify products, track inventory, manage product data, and analyze sales. Each SKU corresponds to a specific product or product variant (e.g., size, color, packaging specification).
+*[SKU]: Stock Keeping Unit.

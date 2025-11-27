@@ -58,7 +58,6 @@ copyright = """
                     { "新增單一商品" = "ec/products/新增單一商品.md"},
                     { "新增大量商品" = "ec/products/Excel 大量匯入商品.md"},
                     { "新增組合商品" = "ec/products/新增組合商品.md"},
-                    { "電子票券分票" = "ec/products/電子票券分票.md"},
                     { "設定商品到貨通知" = "ec/products/設定商品到貨通知.md"},
                     { "編輯商品標語與簡述" = "ec/products/編輯商品標語與商品簡述.md" },
                     { "批次修改商品資訊" = "ec/products/批次修改商品資訊.md" },
@@ -70,9 +69,9 @@ copyright = """
                     { "" = "ec/products/"}
             ]},
             { "商品分類" = [
+                    { "設定商品分類群組" = "ec/products/設定商品分類群組.md" },
                     { "" = "ec/products/"},
-                    { "" = "ec/products/"},
-                    { "" = "ec/products/"}
+                    { "設定秘密商品群組" = "ec/products/設定秘密商品群組.md"}
             ]},
             { "商品銷售" = [
                     { "商品評論指南" = "ec/products/商品評論指南.md"},
@@ -141,8 +140,9 @@ copyright = """
     { "資源中心" = [
         { "資源中心" = "resources/index.md" },
         { "更新紀錄" = "resources/changelog.md" },
+        { "常見問題" = "resources/faq.md" },
         { "詞彙表" = "resources/glossary.md" },
-        { "圖示說明" = "resources/conventions.md" }
+        { "圖示慣例" = "resources/conventions.md" }
     ]}
  ]
 # With the "extra_css" option you can add your own CSS styling to customize

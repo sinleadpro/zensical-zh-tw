@@ -64,12 +64,12 @@
             }
           },
           {
-            "id": "8733b37f53d93563",
+            "id": "deda905a30f31479",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/resources/index.md",
+                "file": "docs/ec/products/index.md",
                 "mode": "source",
                 "source": true
               },
@@ -78,17 +78,129 @@
             }
           },
           {
-            "id": "38e08ffa0d05a85a",
+            "id": "0555399248e5a916",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/電子票券優惠設定.md",
+                "file": "docs/ec/products/Excel 大量匯入商品.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "電子票券優惠設定"
+              "title": "Excel 大量匯入商品"
+            }
+          },
+          {
+            "id": "48f1595eb38e2d62",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "484c471b592ea15b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/Excel 大量匯入商品.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Excel 大量匯入商品"
+            }
+          },
+          {
+            "id": "96b46ba1299bb44d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/新增單一商品.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "新增單一商品"
+            }
+          },
+          {
+            "id": "093b45c0fbe17a50",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/設定秘密商品群組.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "設定秘密商品群組"
+            }
+          },
+          {
+            "id": "b9a56a376414cde9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/Excel 大量匯入商品.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Excel 大量匯入商品"
+            }
+          },
+          {
+            "id": "7df02a108070e7df",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/電子票券分票.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "電子票券分票"
+            }
+          },
+          {
+            "id": "4d4eefdc83ddf4c5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "includes/abbreviations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "abbreviations"
+            }
+          },
+          {
+            "id": "c98c9b7aa893b287",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/設定商品分類群組.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "設定商品分類群組"
             }
           },
           {
@@ -97,7 +209,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/get-started.md",
+                "file": "docs/ec/products/get-started.md",
                 "mode": "source",
                 "source": true
               },
@@ -153,12 +265,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/新增單一商品.md",
+                "file": "docs/ec/products/新增電子票券.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "新增單一商品"
+              "title": "新增電子票券"
             }
           },
           {
@@ -195,12 +307,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/resources/glossary.md",
+                "file": "docs/ec/products/編輯商品標語與商品簡述.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "編輯商品標語與商品簡述"
+            }
+          },
+          {
+            "id": "50218dd48072f9e9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/payments/星益欣電子發票設定指南.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "星益欣電子發票設定指南"
+            }
+          },
+          {
+            "id": "13c4a948adf8dba0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/設定商品分類群組.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定商品分類群組"
+            }
+          },
+          {
+            "id": "51b27d6a193e5b30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/設定條件分類群組.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "glossary"
+              "title": "設定條件分類群組"
             }
           },
           {
@@ -302,7 +456,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -488,53 +642,52 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "85cc1a414c11521a",
+  "active": "48f1595eb38e2d62",
   "lastOpenFiles": [
-    "site/ec/analytics/index.html",
-    "site/ec/analytics",
-    "site/ec/store/index.html",
-    "site/ec/store",
-    "site/assets/images/ec-create-new-product-product-variants.zh-tw.png",
-    "docs/assets/images/ec-create-new-product-product-variants.zh-tw.png",
-    "ec-create-new-product-product-video.zh-tw.png",
-    "site/assets/images/ec-create-new-product-product-video.zh-tw.png",
-    "docs/assets/images/ec-create-new-product-product-video.zh-tw.png",
-    "site/assets/images/ec-create-new-product-product-image.zh-tw.png",
-    "docs/assets/images/ec-create-new-product-product-image.zh-tw.png",
-    "docs/ec/products/電子票券分票.md",
-    "docs/ec/products/設定商品排除搜尋.md",
-    "templates/lucide-cross.md",
-    "templates/lucide-check.md",
-    "templates/lucide-file-check.md",
-    "site/ec/products/電子票券分票/index.html",
-    "site/ec/products/電子票券分票",
+    "docs/ec/products/批次修改商品資訊.md",
+    "site/ec/products/批次修改商品資訊/index.html",
+    "site/ec/products/批次修改商品資訊",
+    "site/ec/products/購買電子票券/index.html",
+    "site/ec/products/購買電子票券",
     "site/ec/products/設定商品配送屬性（宅配貨到付款）/index.html",
     "site/ec/products/設定商品配送屬性（宅配貨到付款）",
-    "site/ec/products/商品評論指南/index.html",
-    "site/ec/products/商品評論指南",
-    "site/ec/products/票券分潤自動結案/index.html",
-    "docs/ec/products/新增單一商品.md",
-    "site/assets/images/ec-create-new-product-basic-settings.zh-tw.png",
-    "docs/assets/images/ec-create-new-product-basic-settings.zh-tw.png",
-    "site/assets/images/ec-新增商品-基本設定.png",
-    "docs/ec/products/商品評論指南.md",
-    "docs/ec/products/編輯商品描述與設定.md",
-    "includes/abbreviations.md",
+    "site/ec/products/設定商品到貨通知/index.html",
+    "site/ec/products/設定商品到貨通知",
+    "site/ec/products/設定電子票券門市權限/index.html",
+    "site/ec/products/設定電子票券門市權限",
+    "docs/ec/products/Excel 大量匯入商品.md",
+    "docs/ec/products/index.md",
+    "docs/resources/index.md",
+    "docs/resources/faq.md",
+    "docs/resources/conventions.md",
     "docs/resources/glossary.md",
-    "docs/ec/products/新增組合商品.md",
-    "README.md",
-    "templates/lucide-fire.md",
-    "docs/ec/products/設定多購物車.md",
+    "templates/lucide-shooping-bag.md",
+    "templates/lucide-folder.md",
+    "docs/pos/index.md",
+    "docs/ec/index.md",
+    "docs/index.md",
+    "docs/ec/products/新增單一商品.md",
+    "docs/ec/products/設定秘密商品群組.md",
+    "().md",
+    "docs/ec/products/電子票券分票.md",
+    "includes/abbreviations.md",
+    "docs/ec/products/設定商品分類群組.md",
+    "docs/ec/products/get-started.md",
+    "docs/ec/get-started.md",
+    "docs/ec/products/電子票券優惠設定.md",
+    "site/assets/images/wms-hero.png",
+    "site/assets/images/wms-hero-old.png",
+    "site/assets/images/test.png",
+    "site/assets/images/wms-hero-1.png",
+    "site/assets/images/storepal-hero.png",
+    "site/assets/images/pos-hero.png",
+    "site/assets/images/favicon.png",
+    "site/assets/images/resources-hero.png",
+    "site/assets/images/ec-template-editor-board_comments.liquid.zh-tw.png",
+    "site/assets/images/ec-unclaimed-parcel-handling.en.png",
+    "docs/ec/products/設定條件分類群組.md",
     "docs/ec/payments/星益欣電子發票設定指南.md",
     "docs/ec/payments/設定信用卡 3D 驗證門檻.md",
-    "docs/ec/payments/申請 CYBERBIZ PAYMENTS.md",
-    "docs/ec/get-started.md",
-    "docs/ec/products/get-started.md",
-    "docs/ec/products/index.md",
-    "docs/ec/products/批次修改商品資訊.md",
-    "templates/lucide-triangle-alert.md",
-    "docs/ec/store/index.md",
-    "docs/ec/products/電子票券優惠設定.md",
-    "docs/resources/index.md"
+    "templates/badge-products.md"
   ]
 }

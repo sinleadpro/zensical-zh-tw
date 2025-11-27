@@ -32,3 +32,35 @@ a {
     border-radius: 12px;
     padding: 1.5rem;
 }
+
+
+.md-grid {
+  max-width: 1440px; 
+}
+
+/* .md-sidebar {
+    border-left: 1px solid var(--md-default-fg-color--lightest);
+} */
+
+/* .md-grid {
+  max-width: 74%;
+  width: 74%;
+} */
+
+/* :root {
+  --md-nav-width: 320px;
+  --md-content-max-width: 960px;
+  --md-toc-width: 300px;
+} */
+
+/* @media (min-width: 76.25em) {
+  .md-main__inner {
+    gap: 0.7rem;
+  }
+} */
+
+/* .md-content {
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+} */
+
