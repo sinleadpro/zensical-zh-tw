@@ -190,6 +190,34 @@
             }
           },
           {
+            "id": "218e97f635b4ed37",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/設定商品分類群組.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定商品分類群組"
+            }
+          },
+          {
+            "id": "eb99a02a71b3123f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/設定條件分類群組.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定條件分類群組"
+            }
+          },
+          {
             "id": "6cff32b93f244933",
             "type": "leaf",
             "state": {
@@ -582,7 +610,7 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 14
       }
     ],
     "direction": "vertical"
@@ -768,12 +796,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "549ac933f38f880e",
+  "active": "eb99a02a71b3123f",
   "lastOpenFiles": [
+    "site/ec/products/批次修改商品資訊/index.html",
+    "site/ec/products/批次修改商品資訊",
+    "site/ec/products/設定商品配送屬性（一般宅配）/index.html",
+    "site/ec/products/設定商品配送屬性（一般宅配）",
+    "site/ec/products/編輯商品標語與商品簡述/index.html",
+    "site/ec/products/編輯商品標語與商品簡述",
+    "site/ec/products/設定商品排除搜尋/index.html",
+    "site/ec/products/設定商品排除搜尋",
+    "site/ec/products/product-activ-v2/index.html",
+    "site/ec/products/product-activ-v2",
+    "site/ec/products/電子票券指南/index.html",
+    "site/assets/images/ec-conditionalized-collection-add-new.zh-tw.png",
+    "docs/assets/images/ec-conditionalized-collection-add-new.zh-tw.png",
+    "site/assets/images/ec-.png",
+    "docs/assets/images/ec-.png",
+    "site/assets/images/ec-商品條件分類-新增商品分類.png",
+    "docs/assets/images/ec-商品條件分類-新增商品分類.png",
+    "docs/ec/products/設定商品分類群組.md",
+    "docs/ec/products/新增組合商品.md",
     "docs/resources/changelog.md",
     "templates/lucide-toggle-right.md",
     "templates/badge-features.md",
-    "docs/ec/products/新增組合商品.md",
     "docs/ec/products/編輯商品描述與設定.md",
     "docs/ec/products/設定多購物車.md",
     "docs/resources/index.md",
@@ -788,20 +834,8 @@
     "docs/assets/images/jam-capture-options.png",
     "site/assets/images/install-jam-extension.gif",
     "docs/assets/images/install-jam-extension.gif",
-    "site/assets/images/gif-install-jam-extension.gif",
-    "docs/assets/images/gif-install-jam-extension.gif",
     "docs/resources/faq.md",
     "docs/ec/index.md",
-    "site/resources/使用 Jam 回報問題/index.html",
-    "site/resources/使用 Jam 回報問題",
-    "site/ec/products/編輯商品標語與商品簡述/index.html",
-    "site/ec/products/編輯商品標語與商品簡述",
-    "site/ec/products/新增電子票券/index.html",
-    "site/ec/products/新增電子票券",
-    "site/ec/products/設定加價購群組的多國語系名稱/index.html",
-    "site/ec/products/設定加價購群組的多國語系名稱",
-    "site/ec/products/電子票券指南-rev/index.html",
-    "site/ec/products/電子票券指南-rev",
     "docs/ec/products/啟用留言區 reCAPTCHA.md",
     "docs/ec/products/Excel 大量匯入商品.md",
     "docs/ec/products/index 1.md",
@@ -809,12 +843,6 @@
     "templates/lucide-trending-up.md",
     "includes/abbreviations.md",
     "docs/ec/products/批次修改商品資訊.md",
-    "docs/resources/conventions.md",
-    "templates/lucide-shooping-bag.md",
-    "templates/lucide-folder.md",
-    "site/assets/images/wms-hero.png",
-    "site/assets/images/wms-hero-old.png",
-    "site/assets/images/test.png",
-    "site/assets/images/wms-hero-1.png"
+    "docs/resources/conventions.md"
   ]
 }
