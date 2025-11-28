@@ -38,6 +38,12 @@ a {
   max-width: 1440px; 
 }
 
+.md-content {
+  padding-left: 0.7rem;
+  padding-right: 0.7rem;
+}
+
+
 /* .md-sidebar {
     border-left: 1px solid var(--md-default-fg-color--lightest);
 } */
@@ -59,8 +65,4 @@ a {
   }
 } */
 
-/* .md-content {
-  padding-left: 0.7rem;
-  padding-right: 0.7rem;
-} */
 
