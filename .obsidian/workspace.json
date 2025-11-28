@@ -167,12 +167,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/設定多購物車.md",
+                "file": "docs/ec/products/編輯商品描述與設定.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定多購物車"
+              "title": "編輯商品描述與設定"
             }
           },
           {
@@ -756,6 +756,7 @@
   },
   "active": "d9b62eb86db96ae0",
   "lastOpenFiles": [
+    "docs/ec/products/設定多購物車.md",
     "docs/resources/index.md",
     "docs/ec/products/index.md",
     "docs/resources/glossary.md",
@@ -797,7 +798,6 @@
     "docs/ec/products/新增單一商品.md",
     "docs/ec/products/設定秘密商品群組.md",
     "().md",
-    "docs/ec/products/電子票券分票.md",
     "site/assets/images/wms-hero.png",
     "site/assets/images/wms-hero-old.png",
     "site/assets/images/test.png",
