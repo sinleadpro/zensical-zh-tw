@@ -3,9 +3,9 @@ title: 詞彙表
 icon: lucide/book
 ---
 
+[PDF :lucide-download:](#){ .md-button }
 
 ## 商品
-
 ### 組合品價差
 單一組合商品的售價與組合中各單品原價總和之間的差額。
 
