@@ -610,7 +610,7 @@
             }
           }
         ],
-        "currentTab": 14
+        "currentTab": 13
       }
     ],
     "direction": "vertical"
@@ -796,19 +796,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eb99a02a71b3123f",
+  "active": "218e97f635b4ed37",
   "lastOpenFiles": [
-    "site/assets/images/ec-conditionalized-collection-filtered-list.zh-tw.png",
-    "docs/assets/images/ec-conditionalized-collection-filtered-list.zh-tw.png",
-    "site/assets/images/ec-商品條件分類-篩選商品列表.png",
-    "docs/assets/images/ec-商品條件分類-篩選商品列表.png",
-    "site/assets/images/ec-conditionalized-collection-set-conditions.zh-tw.png",
-    "docs/assets/images/ec-conditionalized-collection-set-conditions.zh-tw.png",
-    "site/assets/images/ec-商品條件分類-設定商品篩選規則.png",
-    "docs/assets/images/ec-商品條件分類-設定商品篩選規則.png",
-    "site/assets/images/ec-conditionalized-collection-select.zh-tw.png",
-    "docs/assets/images/ec-conditionalized-collection-select.zh-tw.png",
-    "site/assets/images/ec-商品條件分類-選擇條件分類.png",
+    "site/assets/images/ec-customized-collection-remove-products.zh-tw.png",
+    "docs/assets/images/ec-customized-collection-remove-products.zh-tw.png",
+    "site/assets/images/ec-customized-collection-remove-products.zh-tw商品自訂分類-移出商品.png",
+    "docs/assets/images/ec-customized-collection-remove-products.zh-tw商品自訂分類-移出商品.png",
+    "site/assets/images/ec-商品自訂分類-移出商品.png",
+    "docs/assets/images/ec-商品自訂分類-移出商品.png",
+    "site/assets/images/ec-customized-collection-add-products.zh-tw.png",
+    "docs/assets/images/ec-customized-collection-add-products.zh-tw.png",
+    "site/assets/images/ec-商品自訂分類-加入商品.png",
+    "docs/assets/images/ec-商品自訂分類-加入商品.png",
+    "site/assets/images/ec-customized-collection-expand.zh-tw.png",
+    "docs/ec/products/設定條件分類群組.md",
     "site/ec/products/批次修改商品資訊/index.html",
     "site/ec/products/批次修改商品資訊",
     "site/ec/products/設定商品配送屬性（一般宅配）/index.html",
@@ -842,7 +843,6 @@
     "docs/ec/products/index-old.md",
     "templates/lucide-trending-up.md",
     "includes/abbreviations.md",
-    "docs/ec/products/批次修改商品資訊.md",
-    "docs/resources/conventions.md"
+    "docs/ec/products/批次修改商品資訊.md"
   ]
 }
