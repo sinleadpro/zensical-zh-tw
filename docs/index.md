@@ -360,7 +360,7 @@ search:
 - :material-headset: [__需要協助嗎？__](#)  
   透過後台的線上客服與我們聯繫。
 
-- :material-video-outline: [__使用 Jam 回報問題__](tags/types/how-to/使用 Jam 回報問題.md)  
+- :material-video-outline: [__使用 Jam 回報問題__](resources/使用 Jam 回報問題.md)  
   使用 Jam 擷取螢幕或錄影，提供完整資訊給客服與研發團隊，加快問題排解。
 
 </div>
