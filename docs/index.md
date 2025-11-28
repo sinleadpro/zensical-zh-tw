@@ -51,131 +51,131 @@ search:
   </div>
 
   <!-- RIGHT: Zensical Callout -->
-  <style>
-/* Light/Dark mode colors */
-[data-md-color-scheme="default"] {
-  --callout-bg: #ffffff;
-  --callout-hover: #f5f7fa;
-  --badge-color: #6674c4;
-  --text-color: #111;
-  --divider-color: #e6e8ee;
-  --border-color: #e6e8ee;
-}
-[data-md-color-scheme="slate"] {
-  --callout-bg: #1e1e1e;
-  --callout-hover: #2a2a2a;
-  --badge-color: #6674c4;
-  --text-color: #eee;
-  --divider-color: #333;
-  --border-color: #333;
-}
+	  <style>
+	/* Light/Dark mode colors */
+	[data-md-color-scheme="default"] {
+	  --callout-bg: #ffffff;
+	  --callout-hover: #f5f7fa;
+	  --badge-color: #6674c4;
+	  --text-color: #111;
+	  --divider-color: #e6e8ee;
+	  --border-color: #e6e8ee;
+	}
+	[data-md-color-scheme="slate"] {
+	  --callout-bg: #1e1e1e;
+	  --callout-hover: #2a2a2a;
+	  --badge-color: #6674c4;
+	  --text-color: #eee;
+	  --divider-color: #333;
+	  --border-color: #333;
+	}
+	
+	/* Container */
+	.hero-callout {
+	  background-color: var(--callout-bg);
+	  border-radius: 12px;
+	  padding: 1rem 1.5rem;
+	  border: 1px solid var(--border-color); /* light border */
+	  display: flex;
+	  flex-direction: column;
+	  gap: 1rem;
+	  flex: 1 1 380px;
+	  min-width: 360px;
+	  max-width: 680px;
+	}
+	
+	/* Tabs */
+	.tab-buttons {
+	  display: flex;
+	  gap: 0.5rem;
+	  border-bottom: 1px solid var(--divider-color); /* shared baseline */
+	  padding-bottom: 2px;
+	}
+	
+	.tab-btn {
+	  flex: 1 1 auto;
+	  background: transparent;
+	  border: none;
+	  font-weight: 600;
+	  cursor: pointer;
+	  padding: 0.5rem 1rem;
+	  color: var(--text-color);
+	  position: relative;
+	  transition: color 0.2s;
+	}
+	
+	.tab-btn:hover {
+	  color: var(--badge-color);
+	}
+	
+	.tab-btn::after {
+	  content: "";
+	  position: absolute;
+	  left: 0;
+	  bottom: -2px;
+	  width: 100%;
+	  height: 2px;
+	  background: transparent;
+	  transition: background 0.2s;
+	}
+	
+	.tab-btn.active {
+	  color: var(--badge-color);
+	  font-weight: 700;
+	}
+	
+	.tab-btn.active::after {
+	  background: var(--badge-color);
+	}
+	
+	/* Content list */
+	.tab-content {
+	  display: none;
+	  flex-direction: column;
+	  gap: 0.25rem;
+	}
+	
+	.tab-content a {
+	  display: flex;
+	  align-items: center;
+	  gap: 0.5rem;
+	  padding: 0.3rem 0.5rem;
+	  font-size: 0.8rem;
+	  line-height: 1.4;
+	  color: var(--text-color);
+	  text-decoration: none;
+	  border-radius: 6px;
+	  transition: background 0.15s;
+	}
+	
+	.tab-content a:hover {
+	  background-color: var(--callout-hover);
+	}
+	
+	/* Badge */
+	.badge {
+	  background-color: var(--badge-color);
+	  color: white;
+	  border-radius: 4px;
+	  font-size: 0.65rem;
+	  padding: 0.1rem 0.4rem;
+	  font-weight: 600;
+	  white-space: nowrap;
+	}
+	
+	/* Mobile */
+	@media (max-width: 640px) {
+	  .tab-buttons {
+	    flex-direction: column;
+	  }
+	  .tab-btn {
+	    width: 100%;
+	    text-align: center;
+	  }
+	}
+	</style>
 
-/* Container */
-.hero-callout {
-  background-color: var(--callout-bg);
-  border-radius: 12px;
-  padding: 1rem 1.5rem;
-  border: 1px solid var(--border-color); /* light border */
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
-  flex: 1 1 380px;
-  min-width: 360px;
-  max-width: 680px;
-}
-
-/* Tabs */
-.tab-buttons {
-  display: flex;
-  gap: 0.5rem;
-  border-bottom: 1px solid var(--divider-color); /* shared baseline */
-  padding-bottom: 2px;
-}
-
-.tab-btn {
-  flex: 1 1 auto;
-  background: transparent;
-  border: none;
-  font-weight: 600;
-  cursor: pointer;
-  padding: 0.5rem 1rem;
-  color: var(--text-color);
-  position: relative;
-  transition: color 0.2s;
-}
-
-.tab-btn:hover {
-  color: var(--badge-color);
-}
-
-.tab-btn::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 100%;
-  height: 2px;
-  background: transparent;
-  transition: background 0.2s;
-}
-
-.tab-btn.active {
-  color: var(--badge-color);
-  font-weight: 700;
-}
-
-.tab-btn.active::after {
-  background: var(--badge-color);
-}
-
-/* Content list */
-.tab-content {
-  display: none;
-  flex-direction: column;
-  gap: 0.25rem;
-}
-
-.tab-content a {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.3rem 0.5rem;
-  font-size: 0.8rem;
-  line-height: 1.4;
-  color: var(--text-color);
-  text-decoration: none;
-  border-radius: 6px;
-  transition: background 0.15s;
-}
-
-.tab-content a:hover {
-  background-color: var(--callout-hover);
-}
-
-/* Badge */
-.badge {
-  background-color: var(--badge-color);
-  color: white;
-  border-radius: 4px;
-  font-size: 0.65rem;
-  padding: 0.1rem 0.4rem;
-  font-weight: 600;
-  white-space: nowrap;
-}
-
-/* Mobile */
-@media (max-width: 640px) {
-  .tab-buttons {
-    flex-direction: column;
-  }
-  .tab-btn {
-    width: 100%;
-    text-align: center;
-  }
-}
-</style>
-
-<div class="hero-callout">
+ <div class="hero-callout">
 
   <!-- Tabs -->
   <div role="tablist" class="tab-buttons">
@@ -199,24 +199,24 @@ search:
     <a href="#"><span class="badge">指南</span>門市權限設定實務指南</a>
   </div>
 
-</div>
+ </div>
 
-<script>
-function openTab(evt, tabName) {
-  document.querySelectorAll('.tab-content')
-    .forEach(el => el.style.display = 'none');
-
-  document.querySelectorAll('.tab-btn')
-    .forEach(btn => {
-      btn.classList.remove('active');
-      btn.setAttribute('aria-selected', 'false');
-    });
-
-  document.getElementById(tabName).style.display = 'flex';
-  evt.currentTarget.classList.add('active');
-  evt.currentTarget.setAttribute('aria-selected', 'true');
-}
-</script>
+	<script>
+	function openTab(evt, tabName) {
+	  document.querySelectorAll('.tab-content')
+	    .forEach(el => el.style.display = 'none');
+	
+	  document.querySelectorAll('.tab-btn')
+	    .forEach(btn => {
+	      btn.classList.remove('active');
+	      btn.setAttribute('aria-selected', 'false');
+	    });
+	
+	  document.getElementById(tabName).style.display = 'flex';
+	  evt.currentTarget.classList.add('active');
+	  evt.currentTarget.setAttribute('aria-selected', 'true');
+	}
+	</script>
 
 </div>
 
