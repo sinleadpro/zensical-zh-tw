@@ -60,26 +60,59 @@ search:
     }
   </style>
 
+  <!-- Tab container -->
+ <div class="hero-callout" style="flex: 1 1 320px;">
+  <!-- Tab buttons -->
+  <div style="display: flex; gap: 1rem; margin-bottom: 1rem;">
+	<button class="tab-btn active" onclick="openTab(event, 'latest')">最新文件</button>
+	<button class="tab-btn" onclick="openTab(event, 'popular')">熱門文章</button>
+   </div>
 
-  <!-- RIGHT: Zensical Callout -->
-  <div class="hero-callout" style="flex: 1 1 320px;">
-    <div class="callout quote"
-        style="
-          background-color: var(--callout-bg);
-          border-radius: 12px;
-          padding: 1.5rem;
-        ">
-      <div class="callout-title" style="margin-bottom: 1rem; font-weight: bold;">
-        最新文件
-      </div>
-      <a href="#">新增：門市助理快速上手指南</a><br>
-      <a href="#">更新：EC 商品上架流程</a><br>
-      <a href="#">新增：全新金物流設定說明</a><br>
-    </div>
+  <!-- 最新文件 content -->
+  <div id="latest" class="tab-content" style="display: block; background-color: var(--callout-bg); border-radius: 12px; padding: 1.5rem;">
+    <a href="#">新增：門市助理快速上手指南</a><br>
+    <a href="#">更新：EC 商品上架流程</a><br>
+    <a href="#">新增：全新金物流設定說明</a><br>
   </div>
 
-</div>
+  <!-- 熱門文章 content -->
+  <div id="popular" class="tab-content" style="display: none; background-color: var(--callout-bg); border-radius: 12px; padding: 1.5rem;">
+    <a href="#">EC 付款流程 FAQ</a><br>
+    <a href="#">商品管理常見問題整理</a><br>
+    <a href="#">門市權限設定實務指南</a><br>
+	</div>
+   </div>
 
+	<script>
+	function openTab(evt, tabName) {
+	  // Hide all tab contents
+	  const contents = document.querySelectorAll('.tab-content');
+	  contents.forEach(c => c.style.display = 'none');
+	
+	  // Remove active class from all buttons
+	  const buttons = document.querySelectorAll('.tab-btn');
+	  buttons.forEach(b => b.classList.remove('active'));
+	
+	  // Show the selected tab
+	  document.getElementById(tabName).style.display = 'block';
+	  evt.currentTarget.classList.add('active');
+	}
+	</script>
+	
+	<style>
+	.tab-btn {
+	  background: none;
+	  border: none;
+	  font-weight: bold;
+	  cursor: pointer;
+	  padding: 0.5rem 1rem;
+	}
+	.tab-btn.active {
+	  border-bottom: 2px solid var(--color-primary);
+	}
+	</style>
+
+</div>
 
 
 ## 品牌官網

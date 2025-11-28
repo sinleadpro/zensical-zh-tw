@@ -106,6 +106,62 @@
             }
           },
           {
+            "id": "66b3735f90a461f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "4daa9f757482fc78",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "8b8f2c1be4a9a645",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/啟用留言區 reCAPTCHA.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "啟用留言區 reCAPTCHA"
+            }
+          },
+          {
+            "id": "e14628b05b259555",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "includes/abbreviations.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "abbreviations"
+            }
+          },
+          {
             "id": "484c471b592ea15b",
             "type": "leaf",
             "state": {
@@ -456,7 +512,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       }
     ],
     "direction": "vertical"
@@ -642,21 +698,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "48f1595eb38e2d62",
+  "active": "4daa9f757482fc78",
   "lastOpenFiles": [
-    "docs/ec/products/批次修改商品資訊.md",
-    "site/ec/products/批次修改商品資訊/index.html",
-    "site/ec/products/批次修改商品資訊",
-    "site/ec/products/購買電子票券/index.html",
-    "site/ec/products/購買電子票券",
-    "site/ec/products/設定商品配送屬性（宅配貨到付款）/index.html",
-    "site/ec/products/設定商品配送屬性（宅配貨到付款）",
-    "site/ec/products/設定商品到貨通知/index.html",
-    "site/ec/products/設定商品到貨通知",
-    "site/ec/products/設定電子票券門市權限/index.html",
-    "site/ec/products/設定電子票券門市權限",
-    "docs/ec/products/Excel 大量匯入商品.md",
+    "docs/ec/products/index-old.md",
+    "site/ec/products/index-old/index.html",
+    "site/ec/products/index-old",
+    "site/ec/products/index 1/index.html",
+    "site/ec/products/index 1",
     "docs/ec/products/index.md",
+    "docs/ec/index.md",
+    "templates/lucide-trending-up.md",
+    "docs/index.md",
+    "includes/abbreviations.md",
+    "site/ec/index.html",
+    "docs/ec/products/啟用留言區 reCAPTCHA.md",
+    "site/storepal/index.html",
+    "site/storepal",
+    "site/index 1/index.html",
+    "site/index 1",
+    "site/ec/store/index.html",
+    "docs/ec/products/批次修改商品資訊.md",
+    "docs/ec/products/Excel 大量匯入商品.md",
     "docs/resources/index.md",
     "docs/resources/faq.md",
     "docs/resources/conventions.md",
@@ -664,13 +726,10 @@
     "templates/lucide-shooping-bag.md",
     "templates/lucide-folder.md",
     "docs/pos/index.md",
-    "docs/ec/index.md",
-    "docs/index.md",
     "docs/ec/products/新增單一商品.md",
     "docs/ec/products/設定秘密商品群組.md",
     "().md",
     "docs/ec/products/電子票券分票.md",
-    "includes/abbreviations.md",
     "docs/ec/products/設定商品分類群組.md",
     "docs/ec/products/get-started.md",
     "docs/ec/get-started.md",
@@ -685,9 +744,6 @@
     "site/assets/images/resources-hero.png",
     "site/assets/images/ec-template-editor-board_comments.liquid.zh-tw.png",
     "site/assets/images/ec-unclaimed-parcel-handling.en.png",
-    "docs/ec/products/設定條件分類群組.md",
-    "docs/ec/payments/星益欣電子發票設定指南.md",
-    "docs/ec/payments/設定信用卡 3D 驗證門檻.md",
-    "templates/badge-products.md"
+    "docs/ec/products/設定條件分類群組.md"
   ]
 }

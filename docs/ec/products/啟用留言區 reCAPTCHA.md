@@ -39,6 +39,9 @@ note:
 
 啟用 Google reCAPTCHA 防止機器人訊息及垃圾留言，保護留言區，提升網站安全性及顧客互動品質。  
 
+![](../../assets/audios/設定留言區%20reCAPTCHA%20聽讀.mp3)
+![](../../assets/videos/e-ticket-reconciliation-computer.mp4)
+
 ### 為什麼要用 reCAPTCHA
 - 防範垃圾留言：保護商品評論區與聯絡我們頁面免受機器人攻擊。  
 - 提升網站安全性：有效辨識非人類操作，減少濫用行為與詐欺風險。  
