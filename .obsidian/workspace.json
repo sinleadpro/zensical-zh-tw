@@ -64,34 +64,6 @@
             }
           },
           {
-            "id": "deda905a30f31479",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/index.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "0555399248e5a916",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/Excel 大量匯入商品.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Excel 大量匯入商品"
-            }
-          },
-          {
             "id": "48f1595eb38e2d62",
             "type": "leaf",
             "state": {
@@ -126,6 +98,20 @@
               "type": "markdown",
               "state": {
                 "file": "docs/ec/products/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "b459d9036498a4ee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": true
               },
@@ -512,7 +498,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -698,27 +684,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4daa9f757482fc78",
+  "active": "b459d9036498a4ee",
   "lastOpenFiles": [
+    "docs/ec/products/index.md",
+    "docs/ec/products/啟用留言區 reCAPTCHA.md",
+    "docs/ec/products/Excel 大量匯入商品.md",
+    "docs/ec/index.md",
+    "docs/ec/products/index 1.md",
     "docs/ec/products/index-old.md",
     "site/ec/products/index-old/index.html",
     "site/ec/products/index-old",
     "site/ec/products/index 1/index.html",
     "site/ec/products/index 1",
-    "docs/ec/products/index.md",
-    "docs/ec/index.md",
     "templates/lucide-trending-up.md",
     "docs/index.md",
     "includes/abbreviations.md",
     "site/ec/index.html",
-    "docs/ec/products/啟用留言區 reCAPTCHA.md",
     "site/storepal/index.html",
     "site/storepal",
     "site/index 1/index.html",
     "site/index 1",
     "site/ec/store/index.html",
     "docs/ec/products/批次修改商品資訊.md",
-    "docs/ec/products/Excel 大量匯入商品.md",
     "docs/resources/index.md",
     "docs/resources/faq.md",
     "docs/resources/conventions.md",

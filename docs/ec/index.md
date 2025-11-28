@@ -23,14 +23,6 @@ hide:
 
 ---
 
-<div class="grid cards" markdown>
-
-- :lucide-message-circle-question-mark:{ .lg .middle } [__常見問題__](#常見問題) 快速解答常見疑問
-- :lucide-trending-up:{ .lg .middle } __熱門文章__ for interactivity
-- :fontawesome-brands-css3: __CSS__ for text running out of boxes
-
-</div>
-
 === "商店設定"
 
 	<div class="grid cards" markdown>
