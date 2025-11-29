@@ -134,20 +134,6 @@
             }
           },
           {
-            "id": "a8285b6f76e2d504",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/resources/index.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
             "id": "d9b62eb86db96ae0",
             "type": "leaf",
             "state": {
@@ -176,12 +162,12 @@
             }
           },
           {
-            "id": "4d080f4a27afaa9a",
+            "id": "56f86bc033f4a935",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/index.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": true
               },
@@ -190,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -376,12 +362,16 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "218e97f635b4ed37",
+  "active": "56f86bc033f4a935",
   "lastOpenFiles": [
-    "docs/ec/products/設定條件分類群組.md",
-    "docs/ec/products/設定商品分類群組.md",
-    "docs/ec/products/設定秘密商品群組.md",
+    "docs/ec/products/新增組合商品.md",
     "docs/ec/products/index.md",
+    "docs/ec/index.md",
+    "docs/ec/products/編輯商品描述與設定.md",
+    "docs/resources/index.md",
+    "docs/ec/products/設定商品分類群組.md",
+    "docs/ec/products/設定條件分類群組.md",
+    "docs/ec/products/設定秘密商品群組.md",
     "site/assets/images/ec-customized-collection-edit-meta-tag-setting.zh-tw.png",
     "docs/assets/images/ec-customized-collection-edit-meta-tag-setting.zh-tw.png",
     "site/assets/images/ec-customized-collection-edit-meta-tag-settings.zh-tw.png",
@@ -391,7 +381,6 @@
     "templates/lucide-check-square.md",
     "templates/lucide-search.md",
     "templates/lucide-package-search.md",
-    "docs/resources/index.md",
     "docs/resources/glossary.md",
     "docs/index.md",
     "templates/lucide-layout-dashboard.md",
@@ -412,7 +401,6 @@
     "site/assets/images/尚未確認的 314086.crdownload",
     "docs/assets/images/尚未確認的 314086.crdownload",
     "templates/path-images.md",
-    "docs/ec/index.md",
     "templates/grid-cards.md",
     "docs/resources/faq.md",
     "docs/resources/changelog.md",
@@ -420,7 +408,6 @@
     "includes/abbreviations.md",
     "docs/ec/products/Excel 大量匯入商品.md",
     "docs/ec/products/新增單一商品.md",
-    "docs/ec/products/電子票券分票.md",
     "site/ec/products/批次修改商品資訊/index.html",
     "site/ec/products/批次修改商品資訊"
   ]
