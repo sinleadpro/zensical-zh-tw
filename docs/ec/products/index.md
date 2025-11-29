@@ -27,11 +27,24 @@ hide:
 
 ---
 
+### 快速上手
+
+<div class="grid cards" markdown>
+
+- [__:lucide-layout-dashboard: 認識商品管理介面__](認識商品管理介面)   
+了解所有商品頁面功能。
+- [__:lucide-search: 檢索商品__](#)   
+使用關鍵字或篩選器快速定位商品。
+- [__:lucide-check-square: 選取大量商品__](#)   
+選取部分或所有商品進行批量操作。
+
+</div>
+
 ### 上架商品
 
 <div class="grid cards" markdown>
 
-- :lucide-package-plus: __新增商品 & 商品更新__
+- :lucide-package-plus: __新增商品 & 更新商品__
 
 	  ---
 	  [建立單一商品](新增單一商品.md)  
