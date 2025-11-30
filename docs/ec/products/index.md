@@ -36,7 +36,7 @@ hide:
 - [__:lucide-check-square: 選取大量商品__](#)   
 選取部分或所有商品進行批量操作。
 - [__:lucide-file-down: 匯出商品__](批次修改商品資訊#匯出商品 Excel 表格)  
-匯出既存商品的 Excel 檔案。
+匯出既存商品 Excel 檔案。
 - [__:lucide-eye-off: 隱藏商品__](#)   
 將特定商品從搜尋結果中排除。
 
