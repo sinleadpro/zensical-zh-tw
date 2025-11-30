@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/設定多購物車.md",
+                "file": "docs/ec/products/購買電子票券.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定多購物車"
+              "title": "購買電子票券"
             }
           },
           {
@@ -364,6 +364,7 @@
   },
   "active": "314ad300b70efb73",
   "lastOpenFiles": [
+    "docs/ec/products/設定多購物車.md",
     "docs/ec/products/啟用留言區 reCAPTCHA.md",
     "docs/ec/products/設定條件分類群組.md",
     "docs/ec/products/設定商品分類群組.md",
@@ -408,7 +409,6 @@
     "docs/assets/images/ec-customized-collection-listing-order.zh-tw.png",
     "docs/resources/使用 Jam 回報問題.md",
     "templates/grid-cards-break.md",
-    "site/assets/images/ec-customized-collection-listing-order.zh-tw.png",
-    "templates/path-images.md"
+    "site/assets/images/ec-customized-collection-listing-order.zh-tw.png"
   ]
 }
