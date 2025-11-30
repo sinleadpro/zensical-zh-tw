@@ -29,7 +29,7 @@ hide:
 
 ### 快速上手 :lucide-rocket:
 
-<div class="grid cards" markdown style="background: #f2f6fc">
+<div class="grid cards" markdown>
 
 - [__:lucide-search: 檢索商品__](#)   
 使用關鍵字或篩選器快速定位庫存商品。
@@ -95,13 +95,13 @@ hide:
 	  [自訂分類群組設定](設定商品分類群組.md)  
 	  [條件分類群組設定](設定條件分類群組.md)  
 	  [加價購設定](設定加價購群組.md)  
-	  [不適用折扣群組設定](設定不適用折扣群組.md)  
+	  [不適用折扣群組設定 :lucide-lock:](設定不適用折扣群組.md)  
 	  [單品限時折扣設定 :lucide-lock:](設定單品限時折扣群組.md)  
 
-- :lucide-navigation: __多層級分類與排序__
+- :lucide-navigation: __導覽列顯示__
 
 	  ---
-	  [商品多層級分類設定](設定多層級分類.md)  
+	  [商品多層級分類設定](設定商品多層級分類.md)  
 	  [群組排序管理](群組排序.md)  
 	  [群組篩選器](群組篩選器.md)
 

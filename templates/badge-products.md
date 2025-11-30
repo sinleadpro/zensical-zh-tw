@@ -1,1 +1,1 @@
-[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用產品) | 
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 

@@ -50,20 +50,6 @@
             }
           },
           {
-            "id": "cdac06b5cded01a0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/所有商品-新增商品(單筆新增、更新商品) 1.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "所有商品-新增商品(單筆新增、更新商品) 1"
-            }
-          },
-          {
             "id": "969dd54a8bc04b21",
             "type": "leaf",
             "state": {
@@ -78,31 +64,17 @@
             }
           },
           {
-            "id": "cc6621e018a303ec",
+            "id": "56d10122c553bbf6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/設定單品限時折扣群組.md",
+                "file": "docs/ec/products/設定商品多層級分類.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定單品限時折扣群組"
-            }
-          },
-          {
-            "id": "77a290a0428f86ab",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/編輯商品描述與設定.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "編輯商品描述與設定"
+              "title": "設定商品多層級分類"
             }
           },
           {
@@ -131,132 +103,6 @@
               },
               "icon": "lucide-file",
               "title": "編輯商品描述與設定"
-            }
-          },
-          {
-            "id": "68bfc029f890c94a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/設定條件分類群組.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定條件分類群組"
-            }
-          },
-          {
-            "id": "2d860f3de1afd242",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/設定商品分類群組.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定商品分類群組"
-            }
-          },
-          {
-            "id": "159871cccfd1e837",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/設定加價購群組.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定加價購群組"
-            }
-          },
-          {
-            "id": "aac4132ce9568ffd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/Excel 大量匯入商品.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "Excel 大量匯入商品"
-            }
-          },
-          {
-            "id": "ed22cd74da1085d6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/設定商品影片.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定商品影片"
-            }
-          },
-          {
-            "id": "5cfe7b89a0514c92",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/resources/glossary.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "glossary"
-            }
-          },
-          {
-            "id": "d9b62eb86db96ae0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/編輯商品描述與設定.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "編輯商品描述與設定"
-            }
-          },
-          {
-            "id": "549ac933f38f880e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/新增組合商品.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "新增組合商品"
-            }
-          },
-          {
-            "id": "ddb6cb9553a6a055",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/index.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "index"
             }
           }
         ],
@@ -446,52 +292,51 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "969dd54a8bc04b21",
+  "active": "56d10122c553bbf6",
   "lastOpenFiles": [
-    "docs/ec/products/設定單品限時折扣群組.md",
     "docs/ec/products/index.md",
-    "site/ec/products/編輯商品描述與設定/index.html",
-    "site/ec/products/編輯商品描述與設定",
-    "site/ec/products/電子票券指南-old/index.html",
-    "site/ec/products/電子票券指南-old",
-    "site/ec/products/設定加價購群組的多國語系名稱/index.html",
-    "site/ec/products/設定加價購群組的多國語系名稱",
-    "site/ec/products/購買電子票券/index.html",
-    "site/ec/products/購買電子票券",
-    "site/ec/products/設定秘密商品群組/index.html",
-    "site/ec/products/設定秘密商品群組",
+    "docs/ec/products/設定商品多層級分類.md",
+    "site/ec/products/設定商品多層級分類/index.html",
+    "site/ec/products/設定商品多層級分類",
+    "docs/ec/products/設定不適用折扣群組.md",
+    "site/ec/products/設定不適用折扣群組/index.html",
+    "site/ec/products/設定不適用折扣群組",
+    "site/ec/products/參考資源/結帳優惠計算順序-rev/index.html",
+    "site/ec/products/參考資源/結帳優惠計算順序/index.html",
+    "site/ec/products/參考資源/商品詳細資訊設定/index.html",
+    "site/ec/products/參考資源/商品可見性指南/index.html",
+    "site/ec/products/參考資源/商品可見性/index.html",
+    "site/ec/products/參考資源/CKEditor 編輯器教學/index.html",
+    "docs/ec/products/所有商品-新增商品(單筆新增、更新商品) 1.md",
+    "docs/ec/products/設定單品限時折扣群組.md",
+    "includes/abbreviations.md",
+    "templates/badge-products.md",
+    "docs/ec/products/編輯商品描述與設定.md",
+    "docs/ec/products/設定條件分類群組.md",
+    "docs/ec/products/設定商品分類群組.md",
     "docs/ec/products/設定加價購群組.md",
     "docs/ec/products/Excel 大量匯入商品.md",
-    "docs/ec/products/編輯商品描述與設定.md",
-    "docs/ec/products/設定商品分類群組.md",
-    "docs/ec/products/設定條件分類群組.md",
+    "docs/ec/products/設定商品影片.md",
+    "docs/resources/glossary.md",
+    "docs/ec/index.md",
+    "docs/ec/products/新增組合商品.md",
     "docs/ec/products/啟用留言區 reCAPTCHA.md",
     "docs/ec/products/設定商品標籤.md",
-    "docs/resources/glossary.md",
-    "includes/abbreviations.md",
     "docs/ec/products/新增單一商品.md",
     "templates/lucide-file-down.md",
-    "docs/ec/products/設定商品影片.md",
     "docs/resources/index.md",
     "docs/ec/products/設定商品排除搜尋.md",
     "docs/ec/products/排除商品上傳至第三方平台.md",
     "templates/lucide-eye-off.md",
     "templates/lucide-send.md",
-    "templates/lucide-file-video-camera.md",
-    "docs/resources/使用 Jam 回報問題.md",
     "docs/assets/images/ec-product-media-gallery.zh-tw.png",
     "site/assets/images/modified-ec-product-media-gallery.zh-tw (2).png",
     "docs/assets/images/modified-ec-product-media-gallery.zh-tw (2).png",
-    "docs/ec/index.md",
-    "docs/ec/products/新增組合商品.md",
-    "docs/index.md",
     "site/assets/images/modified-ec-product-media-gallery.zh-tw (1).png",
     "docs/assets/images/modified-ec-product-media-gallery.zh-tw (1).png",
     "site/assets/images/ec-product-media-gallery.zh-tw.png",
     "site/assets/images/ec-product-video-display.zh-tw.gif",
     "docs/assets/images/ec-product-video-display.zh-tw.gif",
-    "templates/badge-features.md",
-    "docs/ec/products/購買電子票券.md",
     "site/assets/images/ec-customized-collection-edit-meta-tag-setting.zh-tw.png",
     "docs/assets/images/ec-customized-collection-edit-meta-tag-setting.zh-tw.png"
   ]
