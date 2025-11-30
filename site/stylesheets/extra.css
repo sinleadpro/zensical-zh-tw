@@ -43,6 +43,14 @@ a {
   padding-right: 0.7rem;
 }
 
+.subtitle {
+  margin-top: -1em; /* pull it closer to H1 */
+  font-size: 1.3em;
+  font-weight: 445; /* slightly lighter than normal */
+  color: var(--md-typeset-secondary-text, #8c8c8c);
+  line-height: 1.2;
+}
+
 /* .md-sidebar {
     border-left: 1px solid var(--md-default-fg-color--lightest);
 } */

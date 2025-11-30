@@ -33,11 +33,11 @@ note:
 ---
 
 # 啟用留言區 reCAPTCHA
+啟用 Google reCAPTCHA 防止機器人訊息及垃圾留言，保護留言區，提升網站安全性及顧客互動品質。 
+{ .subtitle }
 
-:lucide-lock:{ title="適用方案" } | PLUS 企業  
-:lucide-toggle-right:{ title="適用功能" } | 拖拉版型 
-
-啟用 Google reCAPTCHA 防止機器人訊息及垃圾留言，保護留言區，提升網站安全性及顧客互動品質。  
+[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | PLUS 企業  
+[:lucide-toggle-right:{ title="適用方案" }](../../resources/conventions#適用功能) | 拖拉版型 
 
 ![](../../assets/audios/設定留言區%20reCAPTCHA%20聽讀.mp3)
 ![](../../assets/videos/e-ticket-reconciliation-computer.mp4)
