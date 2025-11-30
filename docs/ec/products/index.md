@@ -27,9 +27,9 @@ hide:
 
 ---
 
-### 快速上手
+### 快速上手 :lucide-rocket:
 
-<div class="grid cards" markdown>
+<div class="grid cards" markdown style=background:#f2f6fc>
 
 - [__:lucide-layout-dashboard: 認識商品管理介面__](認識商品管理介面)   
 了解所有商品頁面功能。
@@ -54,10 +54,10 @@ hide:
 - :lucide-file-text: __商品內容設定__
 
 	  ---
+	  [商品基本設定](新增單一商品#基本設定)  
 	  [設定商品標語與簡述](編輯商品標語與商品簡述.md)  
 	  [編輯商品描述與設定](編輯商品描述與設定.md)  
 	  [上傳商品影片 :lucide-lock:](設定商品影片.md)  
-	  [商品其他設定](商品其他設定.md)
 
 </div>
 
@@ -116,15 +116,15 @@ hide:
 	  [任選折扣群組設定](設定任選折扣群組.md)  
 	  [單品限時折扣群組](設定單品限時折扣群組.md)
 
-- :lucide-bell: __商品到貨通知__
-
-	  ---
-	  [商品貨到通知](設定商品到貨通知.md)
-
 - :lucide-shopping-cart: __多購物車設定__
 
 	  ---
 	  [多購物車設定](設定多購物車.md)
+
+- :lucide-bell: __商品到貨通知__
+
+	  ---
+	  [商品貨到通知](設定商品到貨通知.md)
 
 - :lucide-star: __管理商品評論與留言區__
 

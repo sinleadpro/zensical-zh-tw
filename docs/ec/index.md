@@ -23,7 +23,7 @@ hide:
 
 ---
 
-### 快速上手
+### 快速上手 :lucide-rocket:
 
 <div class="grid cards" markdown>
 
