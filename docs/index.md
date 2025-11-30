@@ -55,7 +55,8 @@ search:
 	/* Light/Dark mode colors */
 	[data-md-color-scheme="default"] {
 	  --callout-bg: #f2f6fc;
-	  --callout-hover: #f5f7fa;
+	  --callout-hover: #FAFBFC; 
+/*	  --callout-hover: #f5f7fa;  */
 	  --badge-color: #6674c4;
 	  --text-color: #111;
 	  --divider-color: #e6e8ee;
