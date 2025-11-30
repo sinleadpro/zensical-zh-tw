@@ -260,7 +260,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -446,10 +446,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "969dd54a8bc04b21",
+  "active": "cc6621e018a303ec",
   "lastOpenFiles": [
-    "docs/ec/products/設定單品限時折扣群組.md",
     "docs/ec/products/index.md",
+    "docs/ec/products/設定單品限時折扣群組.md",
     "site/ec/products/編輯商品描述與設定/index.html",
     "site/ec/products/編輯商品描述與設定",
     "site/ec/products/電子票券指南-old/index.html",
