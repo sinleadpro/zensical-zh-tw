@@ -29,14 +29,16 @@ hide:
 
 ### 快速上手 :lucide-rocket:
 
-<div class="grid cards" markdown style=background:#f2f6fc>
+<div class="grid cards" markdown style="background: #f2f6fc">
 
-- [__:lucide-layout-dashboard: 認識商品管理介面__](認識商品管理介面)   
-了解所有商品頁面功能。
 - [__:lucide-search: 檢索商品__](#)   
-使用關鍵字或篩選器快速定位商品。
+使用關鍵字或篩選器快速定位庫存商品。
 - [__:lucide-check-square: 選取大量商品__](#)   
 選取部分或所有商品進行批量操作。
+- [__:lucide-file-down: 匯出商品__](批次修改商品資訊#匯出商品 Excel 表格)  
+匯出既存商品的 Excel 檔案。
+- [__:lucide-eye-off: 隱藏商品__](#)   
+將特定商品從搜尋結果中排除。
 
 </div>
 
@@ -57,7 +59,7 @@ hide:
 	  [商品基本設定](新增單一商品#基本設定)  
 	  [設定商品標語與簡述](編輯商品標語與商品簡述.md)  
 	  [編輯商品描述與設定](編輯商品描述與設定.md)  
-	  [上傳商品影片 :lucide-lock:](設定商品影片.md)  
+	  [上傳商品影片 :lucide-lock:](設定商品影片)  
 
 </div>
 
@@ -74,11 +76,11 @@ hide:
 - :lucide-refresh-cw: __第三方平台同步__
 
 	  ---
-	  [排除贈品不上傳至第三方平台](設定商品排除上傳至第三方平台.md)
+	  [排除贈品不上傳至第三方平台 :lucide-lock:](排除商品上傳至第三方平台.md)
 
 </div>
 
-### 分類與群組
+### 分類與群組 :lucide-folder:
 
 <div class="grid cards" markdown>
 
@@ -87,14 +89,14 @@ hide:
 	  ---
 	  [商品標籤管理](設定商品標籤.md)
 
-- :lucide-layers: __商品群組__
+- :lucide-group: __商品群組__
 
 	  ---
 	  [自訂分類群組設定](設定商品分類群組.md)  
 	  [條件分類群組設定](設定條件分類群組.md)  
 	  [加價購設定](設定加價購群組.md)  
 	  [不適用折扣群組設定](設定不適用折扣群組.md)  
-	  [單品限時折扣設定](設定單品限時折扣群組.md)  
+	  [單品限時折扣設定 :lucide-lock:](設定單品限時折扣群組.md)  
 
 - :lucide-navigation: __多層級分類與排序__
 
@@ -105,7 +107,7 @@ hide:
 
 </div>
 
-### 銷售與通知
+### 銷售與通知 :lucide-badge-percent:
 
 <div class="grid cards" markdown>
 
@@ -148,7 +150,7 @@ hide:
 
 </div>
 
-### 電子票券
+### 電子票券 :lucide-ticket:
 [:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | PLUS 企業
 
 <div class="grid cards" markdown>
@@ -164,7 +166,7 @@ hide:
 </div>
 
 
-### 常見問題 (FAQ)
+### 常見問題 :lucide-message-circle-question-mark:
 
 === "商品上架"
 

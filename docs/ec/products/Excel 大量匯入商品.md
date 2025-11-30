@@ -51,7 +51,7 @@ note:
 	
 ### 圖床連結使用
 		
-透過「圖床」連結（[了解更多 :material-open-in-new:](https://zh.wikipedia.org/wiki/%E7%BD%91%E7%BB%9C%E7%9B%B8%E5%86%8C)）快速建立圖片時，請注意以下資訊：
+透過 *圖床* 連結（[了解更多 :material-open-in-new:](https://zh.wikipedia.org/wiki/%E7%BD%91%E7%BB%9C%E7%9B%B8%E5%86%8C)）快速建立圖片時，請注意以下資訊：
 
 - 圖片格式：僅支援 `jpg`, `jpeg`, `png`, `gif`, `webp` 等格式，且圖片大小最大不得超過 2MB。
 - 匯入失敗：若上傳過程中因圖片大小或格式不符導致匯入失敗，整個匯入作業將停止。已上傳成功的圖片不會消失，但失敗後的圖片需另行上傳。
