@@ -33,7 +33,7 @@ hide:
 
 - [__:lucide-search: 檢索商品__](get-started#後台搜尋商品)   
 使用關鍵字或篩選器快速定位庫存商品。
-- [__:lucide-check-square: 選取大量商品__](#)   
+- [__:lucide-check-square: 選取大量商品__](get-started#選取大量商品)   
 選取部分或所有商品進行批量操作。
 - [__:lucide-file-down: 匯出商品__](批次修改商品資訊#匯出商品 Excel 表格)  
 匯出既存商品 Excel 檔案。
