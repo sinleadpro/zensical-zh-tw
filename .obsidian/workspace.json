@@ -218,7 +218,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -291,12 +291,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/ec/products/設定多購物車.md",
+                "file": "docs/ec/products/get-started.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 設定多購物車"
+              "title": "Outgoing links from get-started"
             }
           },
           {
@@ -320,13 +320,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/ec/products/設定多購物車.md",
+                "file": "docs/ec/products/get-started.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 設定多購物車"
+              "title": "Outline of get-started"
             }
           },
           {
@@ -335,7 +335,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "docs/ec/products/設定多購物車.md"
+                "file": "docs/ec/products/get-started.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -404,8 +404,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a7718b1ef414ecf6",
+  "active": "b5aabd67f08d8c15",
   "lastOpenFiles": [
+    "docs/ec/products/設定多購物車.md",
     "docs/ec/products/get-started.md",
     "docs/ec/products/新增單一商品.md",
     "docs/ec/products/index.md",
@@ -449,7 +450,6 @@
     "Clippings/商品管理介面 1.md",
     "templates/lucide-ban.md",
     "docs/ec/products/設定電子票券門市權限.md",
-    "docs/ec/products/設定多購物車.md",
     "templates/lucide-upload.md"
   ]
 }
