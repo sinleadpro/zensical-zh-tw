@@ -64,17 +64,31 @@
             }
           },
           {
+            "id": "a3ee076219ab4296",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/設定 VIP 會員專屬價格.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定 VIP 會員專屬價格"
+            }
+          },
+          {
             "id": "56d10122c553bbf6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/設定商品多層級分類.md",
+                "file": "docs/ec/products/設定前台商品篩選器.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定商品多層級分類"
+              "title": "設定前台商品篩選器"
             }
           },
           {
@@ -179,12 +193,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/ec/products/設定商品到貨通知.md",
+                "file": "docs/ec/products/設定 VIP 會員專屬價格.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 設定商品到貨通知"
+              "title": "Outgoing links from 設定 VIP 會員專屬價格"
             }
           },
           {
@@ -223,7 +237,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "docs/ec/products/設定商品到貨通知.md"
+                "file": "docs/ec/products/設定 VIP 會員專屬價格.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -292,24 +306,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "56d10122c553bbf6",
+  "active": "a3ee076219ab4296",
   "lastOpenFiles": [
     "docs/ec/products/index.md",
-    "docs/ec/products/設定商品多層級分類.md",
-    "site/ec/products/設定商品多層級分類/index.html",
-    "site/ec/products/設定商品多層級分類",
-    "docs/ec/products/設定不適用折扣群組.md",
+    "docs/ec/products/設定 VIP 會員專屬價格.md",
+    "site/ec/products/所有商品-新增商品(單筆新增、更新商品)/index.html",
+    "site/ec/products/所有商品-新增商品(單筆新增、更新商品)",
+    "site/ec/products/設定 VIP 會員專屬價格.en/index.html",
+    "site/ec/products/設定 VIP 會員專屬價格.en",
+    "site/ec/products/設定前台商品群組排序/index.html",
+    "site/ec/products/設定前台商品群組排序",
     "site/ec/products/設定不適用折扣群組/index.html",
     "site/ec/products/設定不適用折扣群組",
-    "site/ec/products/參考資源/結帳優惠計算順序-rev/index.html",
-    "site/ec/products/參考資源/結帳優惠計算順序/index.html",
-    "site/ec/products/參考資源/商品詳細資訊設定/index.html",
-    "site/ec/products/參考資源/商品可見性指南/index.html",
-    "site/ec/products/參考資源/商品可見性/index.html",
-    "site/ec/products/參考資源/CKEditor 編輯器教學/index.html",
+    "site/ec/products/購買電子票券/index.html",
+    "site/ec/products/購買電子票券",
+    "docs/ec/products/設定前台商品篩選器.md",
+    "includes/abbreviations.md",
+    "docs/ec/products/商品評論指南.md",
+    "site/assets/images/ec-product-filter-frontend-filters.zh-tw.png",
+    "docs/assets/images/ec-product-filter-frontend-filters.zh-tw.png",
+    "site/assets/images/ec-product-filter-frontend-toggle.zh-tw.png",
+    "docs/assets/images/ec-product-filter-frontend-toggle.zh-tw.png",
+    "site/assets/images/ec-product-filter-frontend-element.zh-tw.png",
+    "docs/assets/images/ec-product-filter-frontend-element.zh-tw.png",
+    "docs/ec/products/設定商品多層級分類.md",
+    "templates/grid-hero.md",
+    "site/assets/images/ec-product-filter-frontend.zh-tw.png",
+    "docs/assets/images/ec-product-filter-frontend.zh-tw.png",
+    "docs/ec/products/設定前台商品群組排序.md",
+    "docs/ec/products/設定不適用折扣群組.md",
     "docs/ec/products/所有商品-新增商品(單筆新增、更新商品) 1.md",
     "docs/ec/products/設定單品限時折扣群組.md",
-    "includes/abbreviations.md",
     "templates/badge-products.md",
     "docs/ec/products/編輯商品描述與設定.md",
     "docs/ec/products/設定條件分類群組.md",
@@ -325,19 +352,7 @@
     "docs/ec/products/新增單一商品.md",
     "templates/lucide-file-down.md",
     "docs/resources/index.md",
-    "docs/ec/products/設定商品排除搜尋.md",
-    "docs/ec/products/排除商品上傳至第三方平台.md",
-    "templates/lucide-eye-off.md",
-    "templates/lucide-send.md",
     "docs/assets/images/ec-product-media-gallery.zh-tw.png",
-    "site/assets/images/modified-ec-product-media-gallery.zh-tw (2).png",
-    "docs/assets/images/modified-ec-product-media-gallery.zh-tw (2).png",
-    "site/assets/images/modified-ec-product-media-gallery.zh-tw (1).png",
-    "docs/assets/images/modified-ec-product-media-gallery.zh-tw (1).png",
-    "site/assets/images/ec-product-media-gallery.zh-tw.png",
-    "site/assets/images/ec-product-video-display.zh-tw.gif",
-    "docs/assets/images/ec-product-video-display.zh-tw.gif",
-    "site/assets/images/ec-customized-collection-edit-meta-tag-setting.zh-tw.png",
-    "docs/assets/images/ec-customized-collection-edit-meta-tag-setting.zh-tw.png"
+    "site/assets/images/modified-ec-product-media-gallery.zh-tw (2).png"
   ]
 }

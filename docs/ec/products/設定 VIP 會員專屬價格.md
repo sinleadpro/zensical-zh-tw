@@ -29,35 +29,28 @@ notes:
   - doc-previous 設定 VIP 會員群組 link
 ---
 
-# 設定 VIP 會員專屬價格 :material-lock-outline:
+# 設定 VIP 會員專屬價格
 為不同 VIP 會員群組設定專屬商品價格。
-{ .page-subtitle } 
+{ .subtitle } 
 
-[:material-tag-text:](){ .badge-icon title="適用版本" }[高手 | PLUS | 企業](){ .badge-text }
-[:material-arrow-left-circle:](){ .badge-icon title="相關操作"}[[設定 VIP 會員群組]]{ .badge-text }
+[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 / PLUS / 企業
 
----
+> 請先[設定顧客 VIP 群組](設定顧客 VIP 群組)，才能進行會員專屬價格設定。
 
-## 說明概述
-> 請先設定顧客 VIP 群組，才能進行會員專屬價格設定。
-
-=== ":material-information-outline: 使用須知"
-	 - [ ] 若發佈新的 VIP 規則，請務必重新設定會員專屬價格，以確保價格正確套用。
-
-=== ":material-lightbulb-outline:  使用情境"
+!!! tip "應用情境"
 	- 為不同 VIP 群組設定專屬的商品價格。
 	- 透過單筆、多筆編輯或 Excel 匯入方式，靈活管理 VIP 專屬價格。
 	- 開啟未登入顧客顯示 VIP 優惠提示，引導潛在 VIP 會員登入以查看專屬優惠。
 
----
+## 使用須知
+
+ - 若發佈新的 VIP 規則，請務必重新設定會員專屬價格，以確保價格正確套用。
 
 ## 操作流程
 ### 單筆設定會員專屬價格
-=== ":material-numeric-1-circle: 進入操作頁面"   
-	
-	  - [ ] 登入 CYBERBIZ 電商後台，前往「商品」→「所有商品」。
-	  - [ ] 選擇您要設定的商品，進入「商品資訊」分頁。	
-	  - [ ] 在「款式管理」區塊，點擊「編輯會員專屬價格」按鈕，進入「編輯會員專屬價格」頁面。
+1. 登入 CYBERBIZ 管理後台，前往 **商品 > 所有商品**。
+2. 選擇您要設定的商品，進入 **商品資訊** 分頁。	
+3. 在 **款式管理** 區塊，點擊 **編輯會員專屬價格** 按鈕，進入編輯頁面。
 
 	  <div class="grid cards two-columns" markdown>
 
