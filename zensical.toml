@@ -67,7 +67,9 @@ copyright = """
                     { "排除商品上傳至第三方平台" = "ec/products/排除商品上傳至第三方平台.md" }
             ]},
             { "商品配送" = [
-                    { "" = "ec/products/"},
+                    { "設定商品配送屬性（一般宅配）" = "ec/products/設定商品配送屬性（一般宅配）.md" },
+                    { "設定商品配送屬性（宅配貨到付款）" = "ec/products/設定商品配送屬性（宅配貨到付款）.md" },
+                    { "設定商品超商物流限制與排除選項" = "ec/products/設定商品超商物流限制與排除選項.md" },
                     { "" = "ec/products/"},
                     { "" = "ec/products/"}
             ]},
@@ -87,18 +89,20 @@ copyright = """
                     { "商品評論指南" = "ec/products/商品評論指南.md"},
                     { "啟用留言區 reCAPTCHA" = "ec/products/啟用留言區 reCAPTCHA.md"},
                     { "設定多購物車" = "ec/products/設定多購物車.md"},
-                    { "設定 VIP 會員專屬價格" = "ec/products/設定 VIP 會員專屬價格.md" }
+                    { "設定 VIP 會員專屬價格" = "ec/products/設定 VIP 會員專屬價格.md" },
+                    { "設定任選折扣群組" = "ec/products/設定任選折扣群組.md" }
             ]},
             { "電子票券" = [
-                    { "電子票券指南" = "ec/products/電子票券指南.md"},
-                    { "電子票券指南-rev" = "ec/products/電子票券指南-rev.md"},
-                    { "新增電子票券" = "ec/products/新增電子票券.md"},
-                    { "購買電子票券" = "ec/products/購買電子票券.md"},
-                    { "電子票券優惠" = "ec/products/電子票券優惠設定.md"},
-                    { "核銷電子票券" = "ec/products/核銷電子票券.md"},
-                    { "電子票券對帳" = "ec/products/電子票券對帳方法.md"},
-                    { "票券分潤自動結案" = "ec/products/票券分潤自動結案.md"},
-                    { "電子票券分票" = "ec/products/電子票券分票.md"}
+                    { "電子票券指南" = "ec/products/電子票券指南.md" },
+                    { "電子票券指南-rev" = "ec/products/電子票券指南-rev.md" },
+                    { "新增電子票券" = "ec/products/新增電子票券.md" },
+                    { "購買電子票券" = "ec/products/購買電子票券.md" },
+                    { "電子票券優惠" = "ec/products/電子票券優惠設定.md" },
+                    { "核銷電子票券" = "ec/products/核銷電子票券.md" },
+                    { "電子票券對帳" = "ec/products/電子票券對帳方法.md" },
+                    { "票券分潤自動結案" = "ec/products/票券分潤自動結案.md" },
+                    { "電子票券分票" = "ec/products/電子票券分票.md" },
+                    { "設定電子票券門市權限" = "ec/products/設定電子票券門市權限.md"}
             ]},
         ]},
         { "訂單物流" = "ec/orders/index.md" },

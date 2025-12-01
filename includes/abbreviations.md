@@ -7,6 +7,7 @@
 *[組合品價差]: 單一組合商品的售價與組合中各單品原價總和之間的差額。
 *[任選組合商品]: 由商家設定可選範圍的商品組合，購買者可以自由選擇組合內的子商品及數量。
 *[任選組合總數]: 任選組合商品中，顧客需選購的子商品總數。
+*[配送屬性]: 決定商品出貨與運費規則的屬性組合（如溫層、配送方式、出貨通路），影響是否訂單是否拆單與物流流程。
 *[3DS]: An authentication layer for online credit card payments.
 *[OTP]: One-Time Password (OTP). A temporary password generated for one-time use to verify a user’s identity. Usually delivered via SMS, email, or authenticator apps, the OTP must be entered by the user to complete a transaction or login.
 *[Regular Plans]: Boss, Advance, Master plans.
