@@ -204,7 +204,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -277,12 +277,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/ec/products/index.md",
+                "file": "docs/ec/products/設定商品配送屬性（宅配貨到付款）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from 設定商品配送屬性（宅配貨到付款）"
             }
           },
           {
@@ -306,13 +306,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/ec/products/index.md",
+                "file": "docs/ec/products/設定商品配送屬性（宅配貨到付款）.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of 設定商品配送屬性（宅配貨到付款）"
             }
           },
           {
@@ -321,7 +321,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "docs/ec/products/index.md"
+                "file": "docs/ec/products/設定商品配送屬性（宅配貨到付款）.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -390,34 +390,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "969dd54a8bc04b21",
+  "active": "2abb1ddb33f0f2b3",
   "lastOpenFiles": [
-    "templates/lucide-ban.md",
+    "site/ec/products/設定商品配送屬性（宅配貨到付款）/index.html",
+    "site/ec/products/設定商品配送屬性（宅配貨到付款）",
     "docs/ec/products/index.md",
+    "site/ec/products/設定商品排除搜尋/index.html",
+    "site/ec/products/設定商品排除搜尋",
+    "site/ec/products/新增電子票券/index.html",
+    "site/ec/products/新增電子票券",
+    "site/ec/products/商品評論指南/index.html",
+    "site/ec/products/商品評論指南",
+    "site/ec/products/設定商品分類群組/index.html",
+    "site/ec/products/設定商品分類群組",
+    "site/ec/products/設定不適用折扣群組/index.html",
+    "templates/lucide-ban.md",
     "docs/ec/products/設定商品超商物流限制與排除選項.md",
     "docs/ec/products/設定商品配送屬性（宅配貨到付款）.md",
     "docs/ec/products/設定商品配送屬性（一般宅配）.md",
     "site/assets/images/ec-conntect-logistics-temp-fees.zh-tw.png",
     "docs/assets/images/ec-conntect-logistics-temp-fees.zh-tw.png",
-    "site/assets/images/尚未確認的 872607.crdownload",
-    "docs/assets/images/尚未確認的 872607.crdownload",
     "site/assets/images/ec-conntect-logistics-settings.zh-tw.png",
     "docs/assets/images/ec-conntect-logistics-settings.zh-tw.png",
-    "site/assets/images/尚未確認的 433601.crdownload",
-    "docs/assets/images/尚未確認的 433601.crdownload",
     "site/assets/images/ec-conntect-logistics-edit.zh-tw.png",
     "docs/assets/images/ec-conntect-logistics-edit.zh-tw.png",
-    "site/assets/images/尚未確認的 318508.crdownload",
-    "docs/assets/images/尚未確認的 318508.crdownload",
-    "site/ec/products/get-started/index.html",
     "site/assets/images/ec-connect-logistics-t-cat.zh-tw.gif",
     "docs/assets/images/ec-connect-logistics-t-cat.zh-tw.gif",
-    "site/404.html",
     "docs/ec/products/設定前台商品篩選器.md",
     "docs/ec/products/設定任選折扣群組.md",
     "docs/ec/products/新增單一商品.md",
-    "site/assets/videos/ec-connect-logistics-t-cat.zh-tw.mp4",
-    "docs/assets/videos/ec-connect-logistics-t-cat.zh-tw.mp4",
     "includes/abbreviations.md",
     "docs/ec/products/設定電子票券門市權限.md",
     "docs/assets/images/ec-logistics-toggle.zh-tw.png",
@@ -436,7 +437,6 @@
     "docs/ec/products/編輯商品描述與設定.md",
     "docs/ec/products/設定條件分類群組.md",
     "docs/ec/products/設定商品分類群組.md",
-    "docs/ec/products/設定加價購群組.md",
-    "docs/ec/products/Excel 大量匯入商品.md"
+    "docs/ec/products/設定加價購群組.md"
   ]
 }
