@@ -120,20 +120,6 @@
             }
           },
           {
-            "id": "f8993d939f621d0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/設定電子票券門市權限.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定電子票券門市權限"
-            }
-          },
-          {
             "id": "2abb1ddb33f0f2b3",
             "type": "leaf",
             "state": {
@@ -204,7 +190,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -277,12 +263,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/ec/products/新增單一商品.md",
+                "file": "docs/ec/products/設定商品配送屬性（一般宅配）.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 新增單一商品"
+              "title": "Outgoing links from 設定商品配送屬性（一般宅配）"
             }
           },
           {
@@ -321,7 +307,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "docs/ec/products/新增單一商品.md"
+                "file": "docs/ec/products/設定商品配送屬性（一般宅配）.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -390,38 +376,40 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "39e5285d3ccff459",
+  "active": "1f775bcfe866186b",
   "lastOpenFiles": [
-    "site/ec/products/新增單一商品/index.html",
-    "site/ec/products/新增單一商品",
-    "docs/ec/products/index.md",
-    "docs/ec/products/設定任選折扣群組.md",
-    "templates/lucide-upload.md",
-    "site/ec/products/設定任選折扣群組/index.html",
-    "site/ec/products/設定任選折扣群組",
-    "docs/ec/products/設定電子票券門市權限.md",
-    "site/ec/products/設定電子票券門市權限/index.html",
-    "site/ec/products/設定電子票券門市權限",
-    "site/ec/products/index.html",
-    "site/pos/index.html",
-    "site/pos",
-    "site/ec/orders/Process C2C Convenience Store Shipments/index.html",
-    "site/ec/orders/Process C2C Convenience Store Shipments",
-    "includes/abbreviations.md",
-    "docs/ec/products/設定商品配送屬性（一般宅配）.md",
-    "docs/ec/products/設定商品超商物流限制與排除選項.md",
+    "site/index.html",
     "docs/ec/products/設定商品配送屬性（宅配貨到付款）.md",
+    "docs/ec/products/設定電子票券門市權限.md",
+    "docs/ec/products/設定商品配送屬性（一般宅配）.md",
+    "docs/assets/images/ec-logistics-toggle.zh-tw.png",
+    "site/assets/images/modified-ec-logistics-toggle.zh-tw.png",
+    "docs/assets/images/modified-ec-logistics-toggle.zh-tw.png",
+    "site/assets/images/ec-logistics-toggle.zh-tw.png",
+    "site/assets/images/ec-logistics-binding-dialog.zh-.tw.png",
+    "docs/assets/images/ec-logistics-binding-dialog.zh-.tw.png",
+    "site/wms/index.html",
+    "site/wms",
+    "site/storepal/index.html",
+    "site/storepal",
+    "site/ec/store/index.html",
+    "site/ec/store",
+    "site/ec/products/電子票券退款/index.html",
+    "site/ec/products/電子票券退款",
+    "site/ec/products/電子票券指南/index.html",
+    "site/ec/products/電子票券指南",
+    "ec-custom-logisitcs-settings.zh-tw.png",
+    "site/assets/images/ec-custom-logisitcs-settings.zh-tw.png",
+    "docs/assets/images/ec-custom-logisitcs-settings.zh-tw.png",
+    "docs/assets/images/ec-custom-logistics-add.zh-tw.png",
+    "docs/ec/products/設定任選折扣群組.md",
+    "docs/ec/products/設定多購物車.md",
+    "docs/ec/products/新增單一商品.md",
+    "docs/ec/products/index.md",
+    "templates/lucide-upload.md",
+    "includes/abbreviations.md",
+    "docs/ec/products/設定商品超商物流限制與排除選項.md",
     "docs/ec/products/設定 VIP 會員專屬價格.md",
-    "site/assets/images/ec-member-exclusive-price-display-member-login.zh-tw.png",
-    "docs/assets/images/ec-member-exclusive-price-display-member-login.zh-tw.png",
-    "site/assets/images/ec-member-exclusive-price-display-member-logout.zh-tw.png",
-    "docs/assets/images/ec-member-exclusive-price-display-member-logout.zh-tw.png",
-    "site/assets/images/ec-member-exclusive-price-display-off.zh-tw.png",
-    "docs/assets/images/ec-member-exclusive-price-display-off.zh-tw.png",
-    "site/assets/images/ec-import-member-exclusive-prices-email-success.zh-tw.png",
-    "docs/assets/images/ec-import-member-exclusive-prices-email-success.zh-tw.png",
-    "site/assets/images/ec-import-member-exclusive-prices.zh-tw.png",
-    "docs/assets/images/ec-import-member-exclusive-prices.zh-tw.png",
     "docs/ec/products/設定前台商品篩選器.md",
     "docs/ec/products/商品評論指南.md",
     "docs/ec/products/設定商品多層級分類.md",
@@ -435,8 +423,6 @@
     "docs/ec/products/設定條件分類群組.md",
     "docs/ec/products/設定商品分類群組.md",
     "docs/ec/products/設定加價購群組.md",
-    "docs/ec/products/Excel 大量匯入商品.md",
-    "docs/ec/products/設定商品影片.md",
-    "docs/resources/glossary.md"
+    "docs/ec/products/Excel 大量匯入商品.md"
   ]
 }
