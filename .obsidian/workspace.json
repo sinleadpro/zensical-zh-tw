@@ -64,6 +64,34 @@
             }
           },
           {
+            "id": "a7718b1ef414ecf6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/設定多購物車.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定多購物車"
+            }
+          },
+          {
+            "id": "ec2fa9af3615d8ef",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/新增單一商品.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "新增單一商品"
+            }
+          },
+          {
             "id": "969dd54a8bc04b21",
             "type": "leaf",
             "state": {
@@ -190,7 +218,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -263,12 +291,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/ec/products/get-started.md",
+                "file": "docs/ec/products/設定多購物車.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from get-started"
+              "title": "Outgoing links from 設定多購物車"
             }
           },
           {
@@ -292,13 +320,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/ec/products/get-started.md",
+                "file": "docs/ec/products/設定多購物車.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of get-started"
+              "title": "Outline of 設定多購物車"
             }
           },
           {
@@ -307,7 +335,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "docs/ec/products/get-started.md"
+                "file": "docs/ec/products/設定多購物車.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -376,32 +404,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b5aabd67f08d8c15",
+  "active": "a7718b1ef414ecf6",
   "lastOpenFiles": [
-    "docs/ec/products/index.md",
-    "site/ec/products/設定多購物車/index.html",
-    "site/ec/products/設定多購物車",
     "docs/ec/products/get-started.md",
+    "docs/ec/products/新增單一商品.md",
+    "docs/ec/products/index.md",
+    "site/ec/products/設定秘密商品群組/index.html",
+    "site/ec/products/設定秘密商品群組",
+    "site/index 1/index.html",
+    "site/index 1",
+    "site/ec/products/設定任選折扣群組/index.html",
+    "site/ec/products/設定任選折扣群組",
+    "site/ec/products/設定前台商品群組排序/index.html",
+    "site/ec/products/設定前台商品群組排序",
+    "site/ec/products/篩選商品建立分類群組/index.html",
+    "site/ec/products/篩選商品建立分類群組",
+    "site/assets/images/ec-all-products-add.zh-tw.png",
+    "docs/assets/images/ec-all-products-add.zh-tw.png",
+    "ec-all-products-add.zh-tw.png",
+    "ec-all-products-products-list.zh-tw.png",
+    "site/assets/images/ec-all-products-products-list.zh-tw.png",
+    "docs/assets/images/ec-all-products-products-list.zh-tw.png",
+    "ec-all-products-shortcuts.zh-tw.png",
+    "site/assets/images/ec-all-products-shortcuts.zh-tw.png",
+    "docs/assets/images/ec-all-products-shortcuts.zh-tw.png",
+    "templates/lucide-trash-2.md",
+    "site/assets/images/ec-all-products-overview.zh-tw.png",
     "templates/lucide-eye.md",
     "docs/ec/products/批次修改商品資訊.md",
-    "ec-products-batch-process.zh-tw.gif",
-    "site/assets/images/ec-products-batch-process.zh-tw.gif",
-    "docs/assets/images/ec-products-batch-process.zh-tw.gif",
-    "site/pos/index.html",
-    "site/pos",
-    "site/ec/products/設定商品到貨通知/index.html",
-    "site/ec/products/設定商品到貨通知",
-    "site/ec/index.html",
-    "ec-products-select-all-products.zh-tw.gif",
-    "site/assets/images/ec-products-select-all-products.zh-tw.gif",
-    "docs/assets/images/ec-products-select-all-products.zh-tw.gif",
-    "ec-products-select-all-results.zh-tw.gif",
-    "site/assets/images/ec-products-select-all-results.zh-tw.gif",
-    "docs/assets/images/ec-products-select-all-results.zh-tw.gif",
-    "site/assets/images/ec-products-select-whole-page.zh-tw.gif",
-    "site/ec/products/設定商品影片/index.html",
-    "site/ec/products/設定商品影片",
-    "site/ec/products/批次修改商品資訊/index.html",
     "templates/lucide-square.md",
     "docs/ec/products/設定商品排除搜尋.md",
     "docs/ec/products/商品管理介面說明.md",
@@ -409,7 +439,6 @@
     "docs/ec/products/商品管理 – 介面說明.md",
     "docs/ec/products/後台搜尋商品.md",
     "includes/abbreviations.md",
-    "docs/ec/products/新增單一商品.md",
     "docs/ec/products/設定前台商品篩選器.md",
     "docs/ec/products/設定任選折扣群組.md",
     "docs/ec/products/設定商品配送屬性（宅配貨到付款）.md",
@@ -421,7 +450,6 @@
     "templates/lucide-ban.md",
     "docs/ec/products/設定電子票券門市權限.md",
     "docs/ec/products/設定多購物車.md",
-    "templates/lucide-upload.md",
-    "docs/ec/products/設定 VIP 會員專屬價格.md"
+    "templates/lucide-upload.md"
   ]
 }
