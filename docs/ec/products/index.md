@@ -42,7 +42,7 @@ hide:
 
 </div>
 
-### 上架商品
+### 上架商品 :lucide-upload:
 
 <div class="grid cards" markdown>
 
@@ -63,7 +63,7 @@ hide:
 
 </div>
 
-### 批次操作
+### 批次操作 
 
 <div class="grid cards" markdown>
 
@@ -155,13 +155,21 @@ hide:
 
 <div class="grid cards" markdown>
 
-- :lucide-rocket: __電子票券開始使用__
+- :lucide-rocket: __開始使用__
 
 	  ---
 	  [電子票券指南](電子票券指南.md)  
 	  [電子票券設定](電子票券設定.md)  
-	  [票券優惠設定](電子票券優惠設定.md)  
-	  [門市權限功能](設定電子票券門市權限.md)
+
+- :lucide-circle-percent: __票券優惠__
+
+	---
+	[票券優惠設定](電子票券優惠設定.md)  
+
+- :lucide-key: __門市權限__
+
+	---
+	[門市權限功能](設定電子票券門市權限.md)
 
 </div>
 
