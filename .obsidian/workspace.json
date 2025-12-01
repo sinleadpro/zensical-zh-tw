@@ -64,31 +64,17 @@
             }
           },
           {
-            "id": "612059fcd3300eb6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/設定商品配送屬性（一般宅配）.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定商品配送屬性（一般宅配）"
-            }
-          },
-          {
             "id": "59b606a9818d12a5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/get-started.md",
+                "file": "docs/ec/products/商品管理介面說明.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "get-started"
+              "title": "商品管理介面說明"
             }
           },
           {
@@ -362,12 +348,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee4de6e4fb7a4876",
+  "active": "969dd54a8bc04b21",
   "lastOpenFiles": [
     "docs/ec/products/get-started.md",
-    "docs/ec/products/index.md",
-    "docs/ec/products/設定商品排除搜尋.md",
+    "docs/ec/products/商品管理介面說明.md",
     "docs/ec/products/設定商品配送屬性（一般宅配）.md",
+    "docs/ec/products/商品管理 – 介面說明.md",
+    "docs/ec/products/設定商品排除搜尋.md",
+    "docs/ec/products/index.md",
     "docs/ec/products/後台搜尋商品.md",
     "site/ec/products/get-started/index.html",
     "site/ec/products/設定商品超商物流限制與排除選項/index.html",
@@ -386,10 +374,8 @@
     "docs/assets/images/ec-products-filters.zh-tw.png",
     "site/assets/images/ec-products-search-bar.zh-tw.png",
     "docs/assets/images/ec-products-search-bar.zh-tw.png",
-    "docs/ec/products/商品管理介面說明.md",
     "docs/ec/products/新增單一商品.md",
     "docs/ec/products/設定前台商品篩選器.md",
-    "docs/ec/products/商品管理 – 介面說明.md",
     "docs/ec/products/設定任選折扣群組.md",
     "docs/ec/products/設定商品配送屬性（宅配貨到付款）.md",
     "docs/ec/products/商品管理介面.md",
