@@ -3,6 +3,7 @@
 *[分票]: 當同一票種購買多份時，系統預設會產生單一 QR Code（核銷碼），可供多次核銷。若消費者有分票或贈票 的需求，可將此單一 QR Code 拆分為多個獨立票券。每張分出的票券皆會生成新的 QR Code，並可被單獨使用或轉贈他人。
 *[註解程式碼]: 註解程式碼可使被註解符號包覆的部分程式碼不會被執行，因此可以暫時停用功能、方便測試或調整，同時保留原始程式碼便於日後快速恢復或修改。
 *[圖床]: 用於儲存、管理並提供圖片存取連結的外部服務，讓使用者可透過網址在網站、文件或系統中引用圖片，而不需將圖片檔案直接上傳至主系統。
+*[商品名稱]: 商品建立時的必要欄位之一，用來識別並展示商品的主要標題，會同步顯示於商品頁面、訂單明細、行銷活動與報表中。
 *[指定組合商品]: 由商家預先設定好固定組合的商品，顧客購買時無法更換組合內的項目。
 *[組合品價差]: 單一組合商品的售價與組合中各單品原價總和之間的差額。
 *[任選組合商品]: 由商家設定可選範圍的商品組合，購買者可以自由選擇組合內的子商品及數量。
@@ -30,4 +31,4 @@
 *[GA]: Google Analytics, a website traffic analysis tool provided by Google, used to track and analyze user behavior and interactions on a website.
 *[GMC]: Google Merchant Center
 *[SEO]: Search Engine Optimization, in an e-commerce system, SEO covers product page titles, descriptions, URL structures, image alt text, and keyword settings. 
-*[SKU]: Stock Keeping Unit.
+*[SKU]: Stock Keeping Unit. 存貨單位或庫存單位是用於識別產品的唯一代碼或編號，用於追蹤庫存、管理商品資料與銷售統計。

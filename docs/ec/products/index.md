@@ -19,7 +19,7 @@ hide:
 管理商品與庫存資料。  
 快速建立商品、管理分類與群組，並即時掌握庫存與補貨狀態。  
 <br>
-[認識商品管理介面 :lucide-circle-arrow-right:](get-started.md)  
+[認識商品管理介面 :lucide-circle-arrow-right:](商品管理快速上手#商品管理介面總覽)  
 
 ![](../../assets/images/ec-products-hero.zh-tw.png)
 
@@ -31,13 +31,13 @@ hide:
 
 <div class="grid cards" markdown>
 
-- [__:lucide-search: 檢索商品__](#)   
+- [__:lucide-search: 檢索商品__](get-started#後台搜尋商品)   
 使用關鍵字或篩選器快速定位庫存商品。
 - [__:lucide-check-square: 選取大量商品__](#)   
 選取部分或所有商品進行批量操作。
 - [__:lucide-file-down: 匯出商品__](批次修改商品資訊#匯出商品 Excel 表格)  
 匯出既存商品 Excel 檔案。
-- [__:lucide-eye-off: 隱藏商品__](#)   
+- [__:lucide-eye-off: 隱藏商品__](設定商品排除搜尋)   
 將特定商品從搜尋結果中排除。
 
 </div>
