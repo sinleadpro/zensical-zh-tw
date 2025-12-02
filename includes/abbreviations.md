@@ -1,6 +1,6 @@
 <!-- abbreviations -->
 *[一般版]: 專業、高手、進階方案版本。
-*[分票]: 當同一票種購買多份時，系統預設會產生單一 QR Code（核銷碼），可供多次核銷。若消費者有分票或贈票 的需求，可將此單一 QR Code 拆分為多個獨立票券。每張分出的票券皆會生成新的 QR Code，並可被單獨使用或轉贈他人。
+*[分票]: 當同一票種購買多份時，系統預設會產生單一 QR Code（核銷碼），可供多次核銷。若消費者有贈票的需求，可將此單一 QR Code 拆分為多個獨立票券。每張分出的票券皆會生成新的 QR Code，並可被單獨使用或轉贈他人。
 *[註解程式碼]: 註解程式碼可使被註解符號包覆的部分程式碼不會被執行，因此可以暫時停用功能、方便測試或調整，同時保留原始程式碼便於日後快速恢復或修改。
 *[圖床]: 用於儲存、管理並提供圖片存取連結的外部服務，讓使用者可透過網址在網站、文件或系統中引用圖片，而不需將圖片檔案直接上傳至主系統。
 *[商品名稱]: 商品建立時的必要欄位之一，用來識別並展示商品的主要標題，會同步顯示於商品頁面、訂單明細、行銷活動與報表中。
@@ -9,6 +9,8 @@
 *[任選組合商品]: 由商家設定可選範圍的商品組合，購買者可以自由選擇組合內的子商品及數量。
 *[任選組合總數]: 任選組合商品中，顧客需選購的子商品總數。
 *[配送屬性]: 決定商品出貨與運費規則的屬性組合（如溫層、配送方式、出貨通路），影響是否訂單是否拆單與物流流程。
+*[信用卡一次付清]: 顧客使用信用卡完成付款時，交易金額會於單一帳單週期內全額請款，不提供分期、延後付款或拆分扣款。
+*[分潤]: 商品或服務銷售後，平台或商家按照事先設定的比例，將收入分配給合作方或相關權益人。通常用於聯名商品、合作活動或第三方銷售通路，確保各方依約獲得收益。
 *[3DS]: An authentication layer for online credit card payments.
 *[OTP]: One-Time Password (OTP). A temporary password generated for one-time use to verify a user’s identity. Usually delivered via SMS, email, or authenticator apps, the OTP must be entered by the user to complete a transaction or login.
 *[Regular Plans]: Boss, Advance, Master plans.

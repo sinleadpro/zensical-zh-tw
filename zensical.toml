@@ -92,16 +92,8 @@ copyright = """
             ]},
             { "電子票券" = [
                     { "電子票券指南" = "ec/products/電子票券指南.md" },
-                    { "電子票券指南-new" = "ec/products/電子票券指南-new.md" },
-                    { "電子票券指南-rev" = "ec/products/電子票券指南-rev.md" },
-                    { "新增電子票券" = "ec/products/新增電子票券.md" },
-                    { "購買電子票券" = "ec/products/購買電子票券.md" },
                     { "電子票券優惠" = "ec/products/電子票券優惠設定.md" },
-                    { "核銷電子票券" = "ec/products/核銷電子票券.md" },
-                    { "電子票券對帳" = "ec/products/電子票券對帳方法.md" },
-                    { "票券分潤自動結案" = "ec/products/票券分潤自動結案.md" },
-                    { "電子票券分票" = "ec/products/電子票券分票.md" },
-                    { "設定電子票券門市權限" = "ec/products/設定電子票券門市權限.md"}
+                    { "電子票券門市權限" = "ec/products/設定電子票券門市權限.md"}
             ]},
         ]},
         { "訂單物流" = "ec/orders/index.md" },
