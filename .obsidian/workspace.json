@@ -302,7 +302,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -375,12 +375,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/ec/products/電子票券指南-new.md",
+                "file": "docs/ec/products/設定商品超商物流限制與排除選項.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 電子票券指南-new"
+              "title": "Outgoing links from 設定商品超商物流限制與排除選項"
             }
           },
           {
@@ -404,13 +404,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/ec/products/電子票券指南-new.md",
+                "file": "docs/ec/products/設定商品超商物流限制與排除選項.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of 電子票券指南-new"
+              "title": "Outline of 設定商品超商物流限制與排除選項"
             }
           },
           {
@@ -419,7 +419,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "docs/ec/products/電子票券指南-new.md"
+                "file": "docs/ec/products/設定商品超商物流限制與排除選項.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -488,12 +488,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "969dd54a8bc04b21",
+  "active": "45948928c2f6ada2",
   "lastOpenFiles": [
+    "docs/ec/products/電子票券指南-new.md",
     "docs/ec/products/新增單一商品.md",
     "docs/ec/products/設定商品超商物流限制與排除選項.md",
     "site/ec/integrations/index.html",
-    "docs/ec/products/電子票券指南-new.md",
     "site/storepal/index.html",
     "site/storepal",
     "site/resources/使用 Jam 回報問題/index.html",
