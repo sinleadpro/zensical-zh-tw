@@ -4,6 +4,7 @@ description: 輕鬆管理商品資訊、分類與庫存，提升上架效率。
 icon: lucide/package
 notes:
   - 蝦皮商品搬站 link
+  - add doc [[折扣類型指南]]
 hide:
   - toc
   - feedback
@@ -19,7 +20,7 @@ hide:
 管理商品與庫存資料。  
 快速建立商品、管理分類與群組，並即時掌握庫存與補貨狀態。  
 <br>
-[認識商品管理介面 :lucide-circle-arrow-right:](get-started#商品管理介面總覽)  
+[認識商品管理介面 :lucide-circle-arrow-right:](商品管理快速上手#商品管理介面總覽)  
 
 ![](../../assets/images/ec-products-hero.zh-tw.png)
 
@@ -31,13 +32,13 @@ hide:
 
 <div class="grid cards" markdown>
 
-- [__:lucide-search: 檢索商品__](get-started#後台搜尋商品)   
+- [__:lucide-search: 檢索商品__](商品管理快速上手.md#後台搜尋商品)   
 使用關鍵字或篩選條件快速定位庫存商品。
-- [__:lucide-check-square: 選取大量商品__](get-started#選取大量商品)   
+- [__:lucide-check-square: 選取大量商品__](商品管理快速上手.md#選取大量商品)   
 選取部分或所有商品進行批量操作。
 - [__:lucide-file-down: 匯出商品__](批次修改商品資訊#匯出商品 Excel 表格)  
 匯出商品 Excel 檔案。
-- [__:lucide-eye: 公開 / 隱藏商品__](get-started#快捷按鈕)   
+- [__:lucide-eye: 公開 / 隱藏商品__](商品管理快速上手.md#快捷按鈕)   
 控制商品的公開狀態。
 
 </div>
@@ -116,8 +117,9 @@ hide:
 	  ---
 	  [VIP 專屬價格設定](設定 VIP 會員專屬價格.md)  
 	  [任選折扣群組設定](設定任選折扣群組.md)  
-	  [單品限時折扣群組](設定單品限時折扣群組.md)
-
+	  [單品限時折扣群組](設定單品限時折扣群組.md)  
+	  [折扣類型指南](#)
+	  
 - :lucide-shopping-cart: __多購物車設定__
 
 	  ---

@@ -36,10 +36,8 @@ note:
 
 使用 Excel 範本一次新增或更新大量商品。
 { .subtitle }
-
-> 此文件為通用版說明，實際欄位請以您後台下載的 Excel 範本為主。
          
-??? tip "從別的電商網站搬遷商品？"
+!!! tip "從別的電商網站搬遷商品？"
     透過 CYBERBIZ Channel Bridge，您可以將其他電商平台（目前僅支援蝦皮）的商品快速匯入至 CYBERBIZ 官網。詳情請參考[相關說明](#)。 
 
 ## 使用須知
@@ -81,6 +79,7 @@ note:
 ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/大量匯入商品02.png){ .screenshot }
 
 ### 填寫商品欄位說明
+> 此為通用版說明，實際欄位請以您後台下載的 Excel 範本為主。
 
 請依據 Excel 範本中的欄位，填寫對應的商品資訊。完整商品資訊請參考[[商品詳細資訊設定]]。
 

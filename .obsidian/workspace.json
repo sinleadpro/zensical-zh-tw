@@ -22,20 +22,6 @@
             }
           },
           {
-            "id": "b1a480395bcb29fe",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/get-started.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "get-started"
-            }
-          },
-          {
             "id": "48b48e656180df9b",
             "type": "leaf",
             "state": {
@@ -50,20 +36,6 @@
             }
           },
           {
-            "id": "b5aabd67f08d8c15",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/get-started.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "get-started"
-            }
-          },
-          {
             "id": "a7718b1ef414ecf6",
             "type": "leaf",
             "state": {
@@ -75,6 +47,48 @@
               },
               "icon": "lucide-file",
               "title": "設定多購物車"
+            }
+          },
+          {
+            "id": "b1a480395bcb29fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/商品管理快速上手.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "商品管理快速上手"
+            }
+          },
+          {
+            "id": "0d6059f2a7ff6f07",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/Excel 大量匯入商品.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Excel 大量匯入商品"
+            }
+          },
+          {
+            "id": "983e87c9a328681c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/電子票券優惠設定.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "電子票券優惠設定"
             }
           },
           {
@@ -97,7 +111,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/index.md",
+                "file": "docs/ec/products/電子票券指南-new.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "電子票券指南-new"
+            }
+          },
+          {
+            "id": "1b79243529e6e88d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/resources/index.md",
                 "mode": "source",
                 "source": true
               },
@@ -125,12 +153,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/商品管理介面說明.md",
+                "file": "docs/ec/products/商品管理快速上手.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "商品管理介面說明"
+              "title": "商品管理快速上手"
             }
           },
           {
@@ -218,7 +246,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -291,12 +319,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/ec/products/get-started.md",
+                "file": "docs/ec/products/電子票券指南-new.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from get-started"
+              "title": "Outgoing links from 電子票券指南-new"
             }
           },
           {
@@ -320,13 +348,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/ec/products/get-started.md",
+                "file": "docs/ec/products/電子票券指南-new.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of get-started"
+              "title": "Outline of 電子票券指南-new"
             }
           },
           {
@@ -335,7 +363,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "docs/ec/products/get-started.md"
+                "file": "docs/ec/products/電子票券指南-new.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -381,7 +409,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -404,22 +432,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b5aabd67f08d8c15",
+  "active": "2b2d8722c4ab60a4",
   "lastOpenFiles": [
-    "docs/ec/products/設定多購物車.md",
-    "docs/ec/products/get-started.md",
-    "docs/ec/products/新增單一商品.md",
+    "site/ec/products/電子票券指南-new/index.html",
+    "site/ec/products/電子票券指南-new",
     "docs/ec/products/index.md",
-    "site/ec/products/設定秘密商品群組/index.html",
-    "site/ec/products/設定秘密商品群組",
+    "docs/ec/products/電子票券指南-new.md",
+    "docs/ec/products/商品管理快速上手.md",
+    "site/ec/products/新增單一商品/index.html",
+    "site/ec/products/新增單一商品",
+    "site/wms/index.html",
+    "site/wms",
     "site/index 1/index.html",
     "site/index 1",
-    "site/ec/products/設定任選折扣群組/index.html",
-    "site/ec/products/設定任選折扣群組",
-    "site/ec/products/設定前台商品群組排序/index.html",
-    "site/ec/products/設定前台商品群組排序",
-    "site/ec/products/篩選商品建立分類群組/index.html",
-    "site/ec/products/篩選商品建立分類群組",
+    "site/ec/products/設定加價購群組的多國語系名稱/index.html",
+    "site/ec/products/設定加價購群組的多國語系名稱",
+    "site/ec/products/設定電子票券門市權限/index.html",
+    "docs/resources/index.md",
+    "docs/ec/products/電子票券優惠設定.md",
+    "docs/ec/products/Excel 大量匯入商品.md",
+    "docs/ec/products/商品管理介面說明.md",
+    "docs/ec/products/新增單一商品.md",
+    "docs/ec/products/所有商品-新增商品(單筆新增、更新商品) 1.md",
+    "docs/ec/products/所有商品-新增商品(單筆新增、更新商品).md",
+    "docs/ec/products/設定多購物車.md",
     "site/assets/images/ec-all-products-add.zh-tw.png",
     "docs/assets/images/ec-all-products-add.zh-tw.png",
     "ec-all-products-add.zh-tw.png",
@@ -435,7 +471,6 @@
     "docs/ec/products/批次修改商品資訊.md",
     "templates/lucide-square.md",
     "docs/ec/products/設定商品排除搜尋.md",
-    "docs/ec/products/商品管理介面說明.md",
     "docs/ec/products/設定商品配送屬性（一般宅配）.md",
     "docs/ec/products/商品管理 – 介面說明.md",
     "docs/ec/products/後台搜尋商品.md",
@@ -444,12 +479,6 @@
     "docs/ec/products/設定任選折扣群組.md",
     "docs/ec/products/設定商品配送屬性（宅配貨到付款）.md",
     "docs/ec/products/商品管理介面.md",
-    "docs/ec/products/商品管理介面 1.md",
-    "docs/ec/products/設定商品超商物流限制與排除選項.md",
-    "Clippings/商品管理介面.md",
-    "Clippings/商品管理介面 1.md",
-    "templates/lucide-ban.md",
-    "docs/ec/products/設定電子票券門市權限.md",
-    "templates/lucide-upload.md"
+    "docs/ec/products/商品管理介面 1.md"
   ]
 }
