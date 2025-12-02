@@ -106,6 +106,9 @@
         <loc>http://127.0.0.1:8000/ec/products/%E9%9B%BB%E5%AD%90%E7%A5%A8%E5%88%B8%E6%8C%87%E5%8D%97/</loc>
       </url>
       <url>
+        <loc>http://127.0.0.1:8000/ec/products/%E9%9B%BB%E5%AD%90%E7%A5%A8%E5%88%B8%E6%8C%87%E5%8D%97-new/</loc>
+      </url>
+      <url>
         <loc>http://127.0.0.1:8000/ec/products/%E9%9B%BB%E5%AD%90%E7%A5%A8%E5%88%B8%E6%8C%87%E5%8D%97-rev/</loc>
       </url>
       <url>

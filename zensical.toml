@@ -92,6 +92,7 @@ copyright = """
             ]},
             { "電子票券" = [
                     { "電子票券指南" = "ec/products/電子票券指南.md" },
+                    { "電子票券指南-new" = "ec/products/電子票券指南-new.md" },
                     { "電子票券指南-rev" = "ec/products/電子票券指南-rev.md" },
                     { "新增電子票券" = "ec/products/新增電子票券.md" },
                     { "購買電子票券" = "ec/products/購買電子票券.md" },
