@@ -50,7 +50,9 @@ copyright = """
     { "品牌官網" = [
         { "品牌官網" = "ec/index.md" },
         { "新手上路" = "ec/get-started.md" },
-        { "商店設定" = "ec/store/index.md" },
+        { "報表分析" = "ec/analytics/index.md" },
+        { "訂單物流" = "ec/orders/index.md" },
+        { "會員管理" = "ec/members/index.md" },
         { "商品管理" = [
             { "商品管理" = "ec/products/index.md" },  
             { "快速上手" = "ec/products/商品管理快速上手.md" },  
@@ -96,16 +98,6 @@ copyright = """
                     { "電子票券門市權限" = "ec/products/設定電子票券門市權限.md"}
             ]},
         ]},
-        { "訂單物流" = "ec/orders/index.md" },
-        { "支付金流" = [
-            { "支付金流" = "ec/payments/index.md" },
-            { "申請 CYBERBIZ PAYMENTS" = "ec/payments/申請 CYBERBIZ PAYMENTS.md" },
-            { "設定 Apple Pay" = "ec/payments/設定 Apple Pay.md" },
-            { "設定信用卡 3D 驗證" = "ec/payments/設定信用卡 3D 驗證門檻.md" },
-            { "星益欣電子發票設定指南" = "ec/payments/星益欣電子發票設定指南.md" }
-
-        ]},
-        { "會員管理" = "ec/members/index.md" },
         { "行銷推廣" = [
             { "overview" = "ec/marketing/index.md" },  
             { "行銷工具" = [
@@ -124,7 +116,14 @@ copyright = """
                     { "" = "ec/marketing/"}
             ]},        
         ]},
-        { "報表分析" = "ec/analytics/index.md" },
+        { "支付金流" = [
+            { "支付金流" = "ec/payments/index.md" },
+            { "申請 CYBERBIZ PAYMENTS" = "ec/payments/申請 CYBERBIZ PAYMENTS.md" },
+            { "設定 Apple Pay" = "ec/payments/設定 Apple Pay.md" },
+            { "設定信用卡 3D 驗證" = "ec/payments/設定信用卡 3D 驗證門檻.md" },
+            { "星益欣電子發票設定指南" = "ec/payments/星益欣電子發票設定指南.md" }
+        ]},
+        { "商店設定" = "ec/store/index.md" },
         { "整合串接" = [
             { "overview" = "ec/integrations/index.md" },  
             { "APP MARKET" = [
