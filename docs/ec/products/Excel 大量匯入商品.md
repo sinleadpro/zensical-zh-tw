@@ -36,9 +36,6 @@ note:
 
 使用 Excel 範本一次新增或更新大量商品。
 { .subtitle }
-         
-!!! tip "從別的電商網站搬遷商品？"
-    透過 CYBERBIZ Channel Bridge，您可以將其他電商平台（目前僅支援蝦皮）的商品快速匯入至 CYBERBIZ 官網。詳情請參考[相關說明](#)。 
 
 ## 使用須知
 ### Excel 格式與內容限制

@@ -204,7 +204,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -390,8 +390,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "6c360d0ec13c8380",
+  "active": "0d6059f2a7ff6f07",
   "lastOpenFiles": [
+    "docs/ec/products/新增單一商品.md",
     "docs/ec/products/電子票券指南.md",
     "includes/abbreviations.md",
     "templates/yaml.md",
