@@ -51,9 +51,13 @@ a {
   line-height: 1.2;
 }
 
-/* .md-sidebar {
-    border-left: 1px solid var(--md-default-fg-color--lightest);
+/* .md-sidebar--secondary {
+    border-left: 3px solid var(--md-default-fg-color--lightest);
 } */
+
+.md-nav--secondary {
+    border-left: 3px solid var(--md-default-fg-color--lightest);
+}
 
 /* .md-grid {
   max-width: 74%;
