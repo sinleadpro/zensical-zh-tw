@@ -92,6 +92,20 @@
             }
           },
           {
+            "id": "6c360d0ec13c8380",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/新增單一商品.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "新增單一商品"
+            }
+          },
+          {
             "id": "a9cc32fc714cef43",
             "type": "leaf",
             "state": {
@@ -190,7 +204,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 6
       }
     ],
     "direction": "vertical"
@@ -376,10 +390,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c89ea3e245ecff9",
+  "active": "6c360d0ec13c8380",
   "lastOpenFiles": [
-    "templates/yaml.md",
     "docs/ec/products/電子票券指南.md",
+    "includes/abbreviations.md",
+    "templates/yaml.md",
     "site/ec/payments/設定 Apple Pay/index.html",
     "site/ec/payments/設定 Apple Pay",
     "site/ec/products/設定多購物車/index.html",
@@ -393,7 +408,6 @@
     "templates/material-numeric-5-circle-outline.md",
     "templates/material-numeric-4-circle-outline.md",
     "templates/material-numeric-3-circle-outline.md",
-    "includes/abbreviations.md",
     "templates/material-numeric-2-circle-outline.md",
     "templates/material-numeric-1-circle-outline.md",
     "docs/ec/products/index.md",
