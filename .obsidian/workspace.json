@@ -125,12 +125,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/Excel 大量匯入商品.md",
+                "file": "docs/resources/glossary.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "Excel 大量匯入商品"
+              "title": "glossary"
+            }
+          },
+          {
+            "id": "489190c1c4787d5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "43a21c133c8c7bc1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
             }
           },
           {
@@ -139,7 +167,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/index.md",
+                "file": "docs/ec/index.md",
                 "mode": "source",
                 "source": true
               },
@@ -232,7 +260,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 11
       }
     ],
     "direction": "vertical"
@@ -418,21 +446,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "f898e948aa00bea1",
+  "active": "a9cc32fc714cef43",
   "lastOpenFiles": [
-    "site/ec/products/編輯商品描述與設定/index.html",
-    "site/ec/products/編輯商品描述與設定",
-    "site/ec/products/設定前台商品篩選器/index.html",
-    "site/ec/products/設定前台商品篩選器",
-    "site/ec/products/排除商品上傳至第三方平台/index.html",
-    "site/ec/products/排除商品上傳至第三方平台",
-    "site/ec/products/Excel 大量匯入商品/index.html",
-    "site/ec/products/Excel 大量匯入商品",
-    "site/ec/products/設定秘密商品群組/index.html",
-    "site/ec/products/設定秘密商品群組",
-    "site/ec/products/設定任選折扣群組/index.html",
-    "docs/ec/products/新增單一商品.md",
+    "docs/ec/products/index.md",
+    "docs/index.md",
+    "docs/ec/index.md",
+    "templates/lucide-newspaper.md",
+    "templates/lucide-blocks.md",
+    "templates/lucide-warehouse.md",
+    "docs/ec/products/商品管理快速上手.md",
+    "site/storepal/index.html",
+    "site/storepal",
+    "site/ec/products/電子票券指南/index.html",
+    "site/ec/products/電子票券指南",
+    "site/ec/products/認識商品管理介面/index.html",
+    "site/ec/products/認識商品管理介面",
+    "site/ec/products/設定電子票券門市權限/index.html",
+    "site/ec/products/設定電子票券門市權限",
+    "site/ec/products/設定商品配送屬性（宅配貨到付款）/index.html",
+    "site/ec/products/設定商品配送屬性（宅配貨到付款）",
+    "docs/resources/glossary.md",
     "docs/ec/products/Excel 大量匯入商品.md",
+    "docs/ec/products/新增單一商品.md",
     "docs/ec/products/電子票券指南.md",
     "includes/abbreviations.md",
     "templates/yaml.md",
@@ -441,7 +476,6 @@
     "templates/material-numeric-3-circle-outline.md",
     "templates/material-numeric-2-circle-outline.md",
     "templates/material-numeric-1-circle-outline.md",
-    "docs/ec/products/index.md",
     "archive/票券分潤自動結案.md",
     "archive/核銷電子票券.md",
     "archive/購買電子票券.md",
@@ -450,12 +484,6 @@
     "archive/電子票券分票.md",
     "archive/新增電子票券.md",
     "docs/ec/products/電子票券指南-old.md",
-    "docs/ec/products/電子票券指南-rev.md",
-    "docs/ec/products/設定商品排除搜尋.md",
-    "docs/ec/products/新增電子票券.md",
-    "docs/ec/products/商品管理快速上手.md",
-    "docs/ec/products/電子票券優惠設定.md",
-    "docs/ec/get-started.md",
     "site/assets/images/ec-all-products-add.zh-tw.png",
     "docs/assets/images/ec-all-products-add.zh-tw.png",
     "ec-all-products-add.zh-tw.png",

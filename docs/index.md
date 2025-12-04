@@ -221,8 +221,9 @@ search:
 
 </div>
 
+---
 
-## 品牌官網
+## :lucide-shopping-bag: 品牌官網 
 
 === "商店設定"
 
@@ -283,8 +284,9 @@ search:
 	
 	</div>
 
+---
 
-## 智慧倉儲
+## :lucide-warehouse: 智慧倉儲
 === "新手上路"
 	<div class= "grid cards" markdown>
 	
@@ -293,7 +295,9 @@ search:
 	
 	</div>
 
-### 智能 POS
+---
+
+## :material-point-of-sale: 智能 POS
 === "新手上路"
 	<div class= "grid cards" markdown>
 	
@@ -301,19 +305,10 @@ search:
 	- ____
 	
 	</div>
-
-### 門市助理
-=== "新手上路"
-	<div class= "grid cards" markdown>
 	
-	- __新手上路__
-	- ____
-	
-	</div>
+---
 
-
-## CYBERBIZ 擴充功能
-
+## :lucide-blocks: CYBERBIZ 擴充功能
 
 <div class="grid cards" markdown>
 
@@ -331,34 +326,32 @@ search:
   ... huh?
 - :lucide-link-2: __CHANNEL BRIDGE__  
   ... huh?
+- __STORE PAL__  
+門市助理，OMO 整合
 
 </div>
 
-## 最新消息
+---
+
+## :lucide-newspaper: 最新消息
 
 <div class="grid cards" markdown>
 
--   :lucide-rss: __功能報報__
+-   :lucide-rss: [__功能報報__](#)  
+	了解最新動態與實用技巧，請持續關注我們的部落格。
 
-    ---
-
-    了解最新動態與實用技巧，請持續關注我們的部落格。
-
-
--   :lucide-history: __更新紀錄__
-
-    ---
-
-    我們不斷為 **CYBERBIZ** 帶來新功能與優化，請關注我們的功能更新紀錄。
+-   :lucide-history: [__更新紀錄__](#)  
+    關注我們的功能更新紀錄。
 
 </div>
 
+---
 
-## 聯絡我們
+## :lucide-headset: 聯絡我們
 
 <div class="grid cards" markdown>
 
-- :material-headset: [__需要協助嗎？__](#)  
+- :lucide-message-circle-question-mark: [__需要協助嗎？__](#)  
   透過後台的線上客服與我們聯繫。
 
 - :material-video-outline: [__使用 Jam 回報問題__](resources/使用 Jam 回報問題.md)  

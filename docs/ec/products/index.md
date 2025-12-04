@@ -28,12 +28,12 @@ hide:
 
 ---
 
-### 快速上手 :lucide-rocket:
+### | 快速上手
 
-<div class="grid cards" markdown>
+<div class="grid cards cards-bg" markdown>
 
 - [__:lucide-search: 檢索商品__](商品管理快速上手.md#後台搜尋商品)   
-使用關鍵字或篩選條件快速定位庫存商品。
+使用關鍵字或篩選條件快速定位庫存商品。  
 - [__:lucide-check-square: 選取大量商品__](商品管理快速上手.md#選取大量商品)   
 選取部分或所有商品進行批量操作。
 - [__:lucide-file-down: 匯出商品__](批次修改商品資訊#匯出商品 Excel 表格)  
@@ -43,7 +43,9 @@ hide:
 
 </div>
 
-### 上架商品 :lucide-upload:
+---
+
+### | 上架商品 
 
 <div class="grid cards" markdown>
 
@@ -64,6 +66,8 @@ hide:
 
 </div>
 
+---
+
 ### 批次操作 
 
 <div class="grid cards" markdown>
@@ -81,7 +85,9 @@ hide:
 
 </div>
 
-### 分類與群組 :lucide-folder:
+---
+
+### | 分類與群組
 
 <div class="grid cards" markdown>
 
@@ -108,7 +114,9 @@ hide:
 
 </div>
 
-### 銷售與通知 :lucide-badge-percent:
+---
+
+### | 銷售與通知
 
 <div class="grid cards" markdown>
 
@@ -138,7 +146,9 @@ hide:
 
 </div>
 
-### 配送物流
+---
+
+### | 配送物流
 
 <div class="grid cards" markdown>
 
@@ -156,7 +166,9 @@ hide:
 	
 </div>
 
-### 電子票券 :lucide-ticket:
+---
+
+### | 電子票券
 [:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | PLUS 企業
 
 <div class="grid cards" markdown>
@@ -180,8 +192,9 @@ hide:
 
 </div>
 
+---
 
-### 常見問題 :lucide-message-circle-question-mark:
+### | 常見問題
 
 === "商品上架"
 

@@ -28,12 +28,14 @@ a {
   text-decoration: none !important;
 }
 
+
+/* Home Page Latest Docs box styling */
 .latest-docs {
     border-radius: 12px;
     padding: 1.5rem;
 }
 
-
+/* Adjusting overall max width of the content area */
 .md-grid {
   max-width: 1440px; 
 }
@@ -55,9 +57,24 @@ a {
     border-left: 3px solid var(--md-default-fg-color--lightest);
 } */
 
+/* Adjusting border of secondary nav toc */
 .md-nav--secondary {
     border-left: 3px solid var(--md-default-fg-color--lightest);
 }
+
+/* Card background colors for light and dark mode */
+:root {
+  --card-bg: #f2f6fc;     /* light mode */
+}
+
+[data-md-color-scheme="slate"] {
+  --card-bg: #1e1e1e;     /* dark mode */
+}
+
+.cards-bg li {
+  background-color: var(--card-bg);
+}
+
 
 /* .md-grid {
   max-width: 74%;
