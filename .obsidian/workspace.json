@@ -103,6 +103,20 @@
               "icon": "lucide-file",
               "title": "新增單一商品-new"
             }
+          },
+          {
+            "id": "42bf57eab6851ca9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/商品管理快速上手.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "商品管理快速上手"
+            }
           }
         ],
         "currentTab": 6
@@ -326,12 +340,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee4de6e4fb7a4876",
+  "active": "8bf3145c0347b820",
   "lastOpenFiles": [
+    "docs/ec/products/商品管理快速上手.md",
+    "docs/ec/products/新增單一商品-new.md",
+    "ec-create-new-product.zh-tw.png",
+    "site/assets/images/ec-create-new-product.zh-tw.png",
+    "docs/assets/images/ec-create-new-product.zh-tw.png",
+    "ec-create-new-product.zh-tw.gif",
+    "site/assets/images/ec-create-new-product.zh-tw.gif",
+    "docs/assets/images/ec-create-new-product.zh-tw.gif",
     "docs/ec/products/index.md",
     "docs/resources/glossary.md",
     "docs/ec/index.md",
-    "docs/ec/products/新增單一商品-new.md",
     "site/ec/products/設定商品多層級分類/index.html",
     "site/ec/products/設定商品多層級分類",
     "site/ec/products/參考資源/結帳優惠計算順序/index.html",
@@ -345,7 +366,6 @@
     "docs/ec/products/新增單一商品.md",
     "templates/lucide-navigation.md",
     "docs/ec/products/Excel 大量匯入商品.md",
-    "docs/ec/products/商品管理快速上手.md",
     "docs/ec/products/設定多購物車.md",
     "docs/ec/products/product-activ.md",
     "templates/lucide-settings-2.md",
@@ -366,12 +386,6 @@
     "site/assets/images/ec-all-products-add.zh-tw.png",
     "docs/assets/images/ec-all-products-add.zh-tw.png",
     "ec-all-products-add.zh-tw.png",
-    "ec-all-products-products-list.zh-tw.png",
-    "site/assets/images/ec-all-products-products-list.zh-tw.png",
-    "docs/assets/images/ec-all-products-products-list.zh-tw.png",
-    "ec-all-products-shortcuts.zh-tw.png",
-    "site/assets/images/ec-all-products-shortcuts.zh-tw.png",
-    "docs/assets/images/ec-all-products-shortcuts.zh-tw.png",
-    "site/assets/images/ec-all-products-overview.zh-tw.png"
+    "ec-all-products-products-list.zh-tw.png"
   ]
 }

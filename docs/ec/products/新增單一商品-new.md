@@ -57,15 +57,18 @@ comments: ""
 建立並設定單一商品的基本資訊、圖片、影片與款式，完成上架流程。
 { .subtitle }
 
----
+![](../../assets/images/ec-create-new-product.zh-tw.png){ title="後台路徑： 商品 > 所有商品 > 新增商品" }
 
 ## 操作流程
 1. 登入 CYBERBIZ 管理後台，前往 `商品 > 所有商品 > 新增商品`。
-2. 依序填寫商品相關資訊：[基本設定](#基本設定)、[商品圖片](#商品圖片)、[商品影片](#商品影片)、[款式管理](#款式管理)。
+2. 依序填寫商品相關資訊：
+	- [基本設定](#基本設定)
+	- [商品圖片](#商品圖片)
+	- [商品影片](#商品影片)
+	- [款式管理](#款式管理)
 3. 點擊 **儲存**，商品將依上架狀態所設定的時間自動上架或延後上架。	 
 
 ### 基本設定
-![](../../assets/images/ec-create-new-product-basic-settings.zh-tw.png)
 
 | 欄位     | 功能說明         | 系統行為 / 備註                                         |
 | ------ | ------------ | ------------------------------------------------- |
@@ -80,39 +83,12 @@ comments: ""
 
 ### 商品圖片
 
-![](../../assets/images/ec-create-new-product-product-image.zh-tw.png)
-
-#### 圖片規格
 - 尺寸建議：1000 × 1000 像素 (px)。
 - 檔案大小：最大 10 MB，建議不超過 2 MB，以提升網站載入效能。
 - 平台兼容：可參考[設定 Google 購物廣告](#)，並提升廣告成效。
 
-#### 上傳方式
-
-=== ":material-file-upload-outline: 點選檔案"
-
-	1. 點擊 **上傳圖片** 按鈕。
-	2. 選取欲上傳的商品圖片檔案。
-	3. 點擊 **開啟**，圖片即上傳完成。
-
-	![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/所有商品-新增商品-單筆新增05.png){ .screemshot }
-
-=== ":material-drag: 拖曳檔案"
-
-	1. 將圖片直接拖曳至上傳區域。
-	2. 放開滑鼠，圖片會自動上傳。
-
-	![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/所有商品-新增商品-單筆新增06.png){ .screenshot }
-
 ### 商品影片
 [:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | PLUS 企業  [:lucide-toggle-right:{ title="適用功能" }](../../resources/conventions#適用功能) | 拖拉版型
-
-> 此為商品影片的基礎設定，更多商品影片相關功能，請參考如何[設定商品影片](設定商品影片)。
-
-![](../../assets/images/ec-create-new-product-product-video.zh-tw.png)
-
-#### 影片規格
-為確保影片能順利上傳、處理及於前台正常播放，請遵循以下技術規格：
 
 | 規格項目     | 限制 / 說明             |
 | -------- | ------------------- |
@@ -138,6 +114,8 @@ comments: ""
 	3. 在商品影片區塊點擊 **上傳** 按鈕，選擇本機影片檔案。
 	4. 確認影片正確後，點擊 **儲存**。
 	> 系統將處理影片上傳，請耐心等待完成。
+
+> 更多商品影片相關功能，請參考如何[設定商品影片](設定商品影片)。
 
 ### 款式管理
 ![](../../assets/images/ec-create-new-product-product-variants.zh-tw.png)

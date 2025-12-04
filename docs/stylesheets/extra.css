@@ -59,7 +59,7 @@ a {
 
 /* Adjusting border of secondary nav toc */
 .md-nav--secondary {
-    border-left: 3px solid var(--md-default-fg-color--lightest);
+    border-left: 2.5px solid var(--md-default-fg-color--lightest);
 }
 
 /* Card background colors for light and dark mode */
