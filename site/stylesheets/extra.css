@@ -76,6 +76,22 @@ a {
 }
 
 
+/* Global hover color for links
+.md-typeset a:hover {
+  color: #ff9d3f !important;
+} */
+
+
+/* extra.css */
+
+/* Make the button small and square */
+.md-typeset .md-button.btn-tag {
+  /* border-radius: 12px;       Makes it square (standard is 2rem) */
+  font-size: 0.6rem;        /* Reduces text size */
+  background-color: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lighter);
+}
+
 /* .md-grid {
   max-width: 74%;
   width: 74%;
