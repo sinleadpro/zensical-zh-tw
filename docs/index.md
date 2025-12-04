@@ -16,7 +16,7 @@ search:
     gap: 2rem;
     flex-wrap: wrap;
     margin-top: -2.2rem;
-    padding: 4rem 2rem;
+    padding: 4rem 0rem;
 ">
 
   <!-- LEFT: Hero -->

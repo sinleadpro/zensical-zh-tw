@@ -41,10 +41,18 @@ a {
 }
 
 .md-content {
-  padding-left: 0.7rem;
-  padding-right: 0.7rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
+
+.md-grid {
+  max-width: 80%;
+  width: 80%;
+}
+
+
+/* Subtitle styling */
 .subtitle {
   margin-top: -1em; /* pull it closer to H1 */
   font-size: 1.3em;
@@ -74,6 +82,18 @@ a {
 .cards-bg li {
   background-color: var(--card-bg);
 }
+
+/* Heading styles */
+.md-typeset h2 {
+  font-weight: 700;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  padding-bottom: 0.4rem;
+}
+
+.md-typeset h3 {
+  font-weight: 600;
+}
+
 
 
 /* Global hover color for links
@@ -115,11 +135,6 @@ a {
   background-color: var(--md-default-bg-color);
   border: 1px solid var(--md-default-fg-color--lighter);
 }
-
-/* .md-grid {
-  max-width: 74%;
-  width: 74%;
-} */
 
 /* :root {
   --md-nav-width: 320px;
