@@ -317,7 +317,7 @@ search:
 - :lucide-cog: __AUTOMATION__   
   for interactivity
 - :lucide-ticket: __TICKETS__  
-  for text running out of boxes
+電子票券
 - :lucide-zap: __NOW!__  
   ... huh?
 - :lucide-credit-card: __PAYMENTS__  
@@ -328,6 +328,8 @@ search:
   ... huh?
 - __STORE PAL__  
 門市助理，OMO 整合
+- __EXPRESS__  
+打通跨境商務的最後一哩。
 
 </div>
 

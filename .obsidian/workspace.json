@@ -146,121 +146,9 @@
               "icon": "lucide-file",
               "title": "index"
             }
-          },
-          {
-            "id": "43a21c133c8c7bc1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/index.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "a9cc32fc714cef43",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/index.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "1ef8c5b84de18d08",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/電子票券指南.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "電子票券指南"
-            }
-          },
-          {
-            "id": "2c89ea3e245ecff9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "includes/abbreviations.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "abbreviations"
-            }
-          },
-          {
-            "id": "a3ee076219ab4296",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/設定 VIP 會員專屬價格.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定 VIP 會員專屬價格"
-            }
-          },
-          {
-            "id": "56d10122c553bbf6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/設定前台商品篩選器.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定前台商品篩選器"
-            }
-          },
-          {
-            "id": "a47ac60a4387509b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "includes/abbreviations.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "abbreviations"
-            }
-          },
-          {
-            "id": "002631f6772f4b0a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/編輯商品描述與設定.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "編輯商品描述與設定"
-            }
           }
         ],
-        "currentTab": 11
+        "currentTab": 9
       }
     ],
     "direction": "vertical"
@@ -446,30 +334,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "a9cc32fc714cef43",
+  "active": "489190c1c4787d5a",
   "lastOpenFiles": [
     "docs/ec/products/index.md",
-    "docs/index.md",
+    "docs/ec/products/設定電子票券門市權限.md",
+    "docs/resources/index.md",
+    "docs/ec/analytics/index.md",
     "docs/ec/index.md",
+    "docs/ec/products/電子票券指南.md",
+    "includes/abbreviations.md",
+    "docs/ec/products/設定 VIP 會員專屬價格.md",
+    "docs/ec/products/設定前台商品篩選器.md",
+    "docs/ec/products/編輯商品描述與設定.md",
+    "docs/ec/products/商品管理快速上手.md",
+    "docs/index.md",
+    "site/ec/products/設定商品分類群組/index.html",
+    "site/ec/products/設定商品分類群組",
+    "site/ec/products/設定商品標籤/index.html",
+    "site/ec/products/設定商品標籤",
+    "site/ec/products/設定前台商品篩選器/index.html",
+    "site/ec/products/設定前台商品篩選器",
+    "site/ec/products/index.html",
+    "site/ec/products/product-activ/index.html",
+    "site/ec/products/product-activ",
+    "site/ec/products/設定任選折扣群組/index.html",
     "templates/lucide-newspaper.md",
     "templates/lucide-blocks.md",
     "templates/lucide-warehouse.md",
-    "docs/ec/products/商品管理快速上手.md",
-    "site/storepal/index.html",
-    "site/storepal",
-    "site/ec/products/電子票券指南/index.html",
-    "site/ec/products/電子票券指南",
-    "site/ec/products/認識商品管理介面/index.html",
-    "site/ec/products/認識商品管理介面",
-    "site/ec/products/設定電子票券門市權限/index.html",
-    "site/ec/products/設定電子票券門市權限",
-    "site/ec/products/設定商品配送屬性（宅配貨到付款）/index.html",
-    "site/ec/products/設定商品配送屬性（宅配貨到付款）",
     "docs/resources/glossary.md",
     "docs/ec/products/Excel 大量匯入商品.md",
     "docs/ec/products/新增單一商品.md",
-    "docs/ec/products/電子票券指南.md",
-    "includes/abbreviations.md",
     "templates/yaml.md",
     "templates/material-numeric-5-circle-outline.md",
     "templates/material-numeric-4-circle-outline.md",
@@ -478,12 +372,6 @@
     "templates/material-numeric-1-circle-outline.md",
     "archive/票券分潤自動結案.md",
     "archive/核銷電子票券.md",
-    "archive/購買電子票券.md",
-    "archive/電子票券對帳方法.md",
-    "archive/電子票券退款.md",
-    "archive/電子票券分票.md",
-    "archive/新增電子票券.md",
-    "docs/ec/products/電子票券指南-old.md",
     "site/assets/images/ec-all-products-add.zh-tw.png",
     "docs/assets/images/ec-all-products-add.zh-tw.png",
     "ec-all-products-add.zh-tw.png",

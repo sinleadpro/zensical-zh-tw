@@ -23,7 +23,7 @@ hide:
 
 ---
 
-### | 快速上手
+### 快速上手
 
 <div class="grid cards" markdown>
 
@@ -353,4 +353,4 @@ for text running out of boxes
 
 ---
 
-### | 常見問題
+### 常見問題

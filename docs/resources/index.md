@@ -61,6 +61,8 @@ hide:
 
 </div>
 
+---
+
 ## 常見問題
 
 <div class="grid cards" markdown>
@@ -84,6 +86,8 @@ hide:
 
 </div>
 
+---
+
 ## 教學資源
 
 <div class="grid cards" markdown>
@@ -105,6 +109,8 @@ hide:
 	[API 串接範例文件](API範例.md)  
 
 </div>
+
+---
 
 ## 工具與下載
 
@@ -136,6 +142,8 @@ hide:
 	
 </div>
 
+---
+
 ## 更新紀錄
 
 <div class="grid cards" markdown>
@@ -148,6 +156,8 @@ hide:
 	[功能上線與修正說明](功能修正紀錄.md)  
 
 </div>
+
+---
 
 ## 詞彙表
 
