@@ -81,6 +81,35 @@ a {
   color: #ff9d3f !important;
 } */
 
+/* Link hover underline – global */
+/* .md-content a:hover {
+  text-decoration: underline !important;
+} */
+
+
+/* Animated underline effect for links */
+.md-content a {
+  position: relative;
+  text-decoration: none;
+}
+
+.md-content a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background-color: currentColor;
+  transform: scaleX(0);
+  transition: transform 0.2s ease-in-out;
+  transform-origin: right;
+}
+
+.md-content a:hover::after {
+  transform: scaleX(1);
+  transform-origin: left;
+}
 
 /* extra.css */
 

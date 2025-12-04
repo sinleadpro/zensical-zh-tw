@@ -40,12 +40,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/新增單一商品.md",
+                "file": "docs/ec/products/新增單一商品-new.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "新增單一商品"
+              "title": "新增單一商品-new"
             }
           },
           {
@@ -91,21 +91,21 @@
             }
           },
           {
-            "id": "f0d97137e28424d4",
+            "id": "8bf3145c0347b820",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/index.md",
+                "file": "docs/ec/products/新增單一商品-new.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "新增單一商品-new"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 6
       },
       {
         "id": "ea951fb7d70bee14",
@@ -328,16 +328,26 @@
   },
   "active": "ee4de6e4fb7a4876",
   "lastOpenFiles": [
-    "templates/lucide-navigation.md",
+    "docs/ec/products/index.md",
+    "docs/resources/glossary.md",
+    "docs/ec/index.md",
+    "docs/ec/products/新增單一商品-new.md",
+    "site/ec/products/設定商品多層級分類/index.html",
+    "site/ec/products/設定商品多層級分類",
+    "site/ec/products/參考資源/結帳優惠計算順序/index.html",
+    "site/ec/products/參考資源/結帳優惠計算順序",
+    "site/ec/products/設定商品配送屬性（宅配貨到付款）/index.html",
+    "site/ec/products/設定商品配送屬性（宅配貨到付款）",
+    "site/ec/products/設定多購物車/index.html",
+    "site/ec/products/設定多購物車",
+    "site/ec/products/設定前台商品群組排序/index.html",
+    "site/ec/products/設定前台商品群組排序",
     "docs/ec/products/新增單一商品.md",
+    "templates/lucide-navigation.md",
     "docs/ec/products/Excel 大量匯入商品.md",
     "docs/ec/products/商品管理快速上手.md",
     "docs/ec/products/設定多購物車.md",
-    "GOD.base",
     "docs/ec/products/product-activ.md",
-    "docs/resources/glossary.md",
-    "docs/ec/index.md",
-    "docs/ec/products/index.md",
     "templates/lucide-settings-2.md",
     "docs/index.md",
     "docs/ec/products/設定電子票券門市權限.md",
@@ -348,22 +358,11 @@
     "docs/ec/products/設定 VIP 會員專屬價格.md",
     "docs/ec/products/設定前台商品篩選器.md",
     "docs/ec/products/編輯商品描述與設定.md",
-    "site/ec/products/設定商品分類群組/index.html",
-    "site/ec/products/設定商品分類群組",
-    "site/ec/products/設定商品標籤/index.html",
-    "site/ec/products/設定商品標籤",
-    "site/ec/products/設定前台商品篩選器/index.html",
-    "site/ec/products/設定前台商品篩選器",
-    "site/ec/products/index.html",
-    "site/ec/products/product-activ/index.html",
-    "site/ec/products/product-activ",
     "templates/lucide-newspaper.md",
     "templates/lucide-blocks.md",
     "templates/lucide-warehouse.md",
     "templates/yaml.md",
     "templates/material-numeric-5-circle-outline.md",
-    "templates/material-numeric-4-circle-outline.md",
-    "templates/material-numeric-3-circle-outline.md",
     "site/assets/images/ec-all-products-add.zh-tw.png",
     "docs/assets/images/ec-all-products-add.zh-tw.png",
     "ec-all-products-add.zh-tw.png",
