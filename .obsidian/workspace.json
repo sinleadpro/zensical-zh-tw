@@ -147,7 +147,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 8
       },
       {
         "id": "ea951fb7d70bee14",
@@ -367,22 +367,22 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4625d2ade489cdda",
+  "active": "0aabf5b3564fc505",
   "lastOpenFiles": [
+    "docs/ec/products/新增單一商品-new.md",
+    "site/ec/products/新增單一商品-new/index.html",
+    "site/ec/products/新增單一商品-new",
+    "site/ec/payments/電子發票：星益欣 (美麗科技)/index.html",
+    "site/ec/payments/星益欣電子發票設定指南/index.html",
+    "site/ec/payments/設定信用卡 3D 驗證門檻/index.html",
+    "site/ec/payments/AFTEE先享後付 金流說明/index.html",
+    "site/ec/payments/申請 CYBERBIZ PAYMENTS/index.html",
+    "site/ec/payments/設定 Apple Pay/index.html",
+    "site/ec/payments/電子發票：星益欣 (美麗科技)",
+    "site/ec/payments/星益欣電子發票設定指南",
     "docs/ec/products/設定商品影片.md",
     "docs/index.md",
-    "site/ec/products/排除商品上傳至第三方平台/index.html",
-    "site/ec/products/排除商品上傳至第三方平台",
-    "site/index 1/index.html",
-    "site/index 1",
-    "site/pos/index.html",
-    "site/pos",
-    "site/wms/index.html",
-    "site/wms",
-    "site/ec/products/設定單品限時折扣群組/index.html",
-    "site/ec/products/設定單品限時折扣群組",
     "docs/ec/index.md",
-    "docs/ec/products/新增單一商品-new.md",
     "docs/ec/products/商品管理快速上手.md",
     "includes/abbreviations.md",
     "ec-create-new-product.zh-tw.png",
