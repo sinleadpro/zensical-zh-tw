@@ -68,12 +68,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/新增單一商品-new.md",
+                "file": "docs/ec/products/Excel 大量匯入商品.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "新增單一商品-new"
+              "title": "Excel 大量匯入商品"
             }
           },
           {
@@ -411,8 +411,13 @@
   },
   "active": "6c360d0ec13c8380",
   "lastOpenFiles": [
-    "docs/ec/products/新增單一商品.md",
     "docs/ec/products/新增單一商品-new.md",
+    "docs/ec/products/Excel 大量匯入商品.md",
+    "docs/assets/images/ec-import-products-from-excel.zh-tw.png",
+    "docs/assets/images/ec-import-products-from-excel.png",
+    "site/assets/images/ec-import-products-from-excel.zh-tw.png",
+    "site/assets/images/ec-import-products-from-excel.png",
+    "docs/ec/products/新增單一商品.md",
     "docs/resources/glossary.md",
     "docs/ec/products/index.md",
     "docs/index.md",
@@ -437,7 +442,6 @@
     "site/assets/images/ec-create-new-product.zh-tw.gif",
     "docs/assets/images/ec-create-new-product.zh-tw.gif",
     "templates/lucide-navigation.md",
-    "docs/ec/products/Excel 大量匯入商品.md",
     "docs/ec/products/設定多購物車.md",
     "docs/ec/products/product-activ.md",
     "templates/lucide-settings-2.md",
@@ -451,10 +455,6 @@
     "templates/lucide-newspaper.md",
     "templates/lucide-blocks.md",
     "templates/lucide-warehouse.md",
-    "templates/yaml.md",
-    "site/assets/images/ec-all-products-add.zh-tw.png",
-    "docs/assets/images/ec-all-products-add.zh-tw.png",
-    "ec-all-products-add.zh-tw.png",
-    "ec-all-products-products-list.zh-tw.png"
+    "templates/yaml.md"
   ]
 }

@@ -37,7 +37,7 @@ note:
 使用 Excel 範本一次新增或更新大量商品。
 { .subtitle }
 
----
+![](../../assets/images/ec-import-products-from-excel.zh-tw.png){ title="Excel 大量匯入商品：商品 > Excel 大量匯入商品" .hero-page }
 
 ## 使用須知
 ### Excel 格式與內容限制
@@ -57,8 +57,6 @@ note:
 - Imgur 建議：建議可使用 Imgur 進行上傳。  
 
 !!! warning "CYBERBIZ 不針對任何外部網站功能進行教學說明，若要使用請店家依使用需求自行評估。"
-
----
 
 ## 操作流程
 
@@ -155,8 +153,6 @@ note:
 
 ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/大量匯入商品08.png){ .screenshot }
 
----
-
 ## 常見問題
 
 ??? quote "為什麼我上傳 Excel 後，商品沒有成功新增或更新？"
@@ -167,8 +163,6 @@ note:
 
 ??? quote "Excel 範本中的欄位與後台介面顯示的欄位不一致怎麼辦？"
     請以您後台下載的 Excel 範本欄位為主，此文件為通用版說明。若有疑問，請聯繫客服協助。
-
----
 
 ## 延伸閱讀
 
