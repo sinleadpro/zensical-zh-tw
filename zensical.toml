@@ -509,8 +509,8 @@ clickable_checkbox = true
 [project.markdown_extensions.pymdownx.blocks.caption]
 
 [project.markdown_extensions.zensical.extensions.preview]
-configurations = [
-    { targets.include = [
-        "resources/references/商品詳細資訊設定.md"
-    ]}
+[[project.markdown_extensions.zensical.extensions.preview.configurations]]
+targets.include = [
+    "resources/references/商品詳細資訊設定.md",
+    "resources/references/*"
 ]

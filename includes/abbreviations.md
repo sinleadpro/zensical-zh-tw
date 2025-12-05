@@ -10,6 +10,7 @@
 *[組合品價差]: 單一組合商品的售價與組合中各單品原價總和之間的差額。
 *[任選組合商品]: 由商家設定可選範圍的商品組合，購買者可以自由選擇組合內的子商品及數量。
 *[任選組合總數]: 任選組合商品中，顧客需選購的子商品總數。
+*[串倉]: 將電商平台（EC）與 倉儲管理系統（WMS）進行串接整合的運作模式。
 *[配送屬性]: 決定商品出貨與運費規則的屬性組合（如溫層、配送方式、出貨通路），影響是否訂單是否拆單與物流流程。
 *[信用卡一次付清]: 顧客使用信用卡完成付款時，交易金額會於單一帳單週期內全額請款，不提供分期、延後付款或拆分扣款。
 *[分潤]: 商品或服務銷售後，平台或商家按照事先設定的比例，將收入分配給合作方或相關權益人。通常用於聯名商品、合作活動或第三方銷售通路，確保各方依約獲得收益。
@@ -30,7 +31,7 @@
 *[C2C]: Consumer to Consumer, a business model where transactions occur directly between consumers. In this model, the platform provides transaction and payment tools, but both buyers and sellers are individual consumers, not businesses (B2C) or businesses (B2B).
 *[EDM]: Electronic Direct Mail, a method by which merchants send marketing messages, event notifications, or promotional content to members or potential customers via email. Commonly used to increase brand exposure, encourage repeat purchases, and promote new products.
 *[WMS]: Warehouse Management System, used to manage, control, and optimize warehousing operations, covering inbound, outbound, inventory management, order picking, distribution, and report analysis processes. Through automation and data-driven operations, WMS improves warehousing efficiency, reduces error rates, and supports logistics and supply chain collaboration.
-*[POS]: Point of Sale.
+*[POS]: Point of Sale，門市進行交易時所使用的銷售作業系統，用於完成商品結帳、付款、開立收據，並同步記錄銷售資料、庫存變化與營收資訊。
 *[MBE]: Meta Business Extension
 *[GA]: Google Analytics, a website traffic analysis tool provided by Google, used to track and analyze user behavior and interactions on a website.
 *[GMC]: Google Merchant Center

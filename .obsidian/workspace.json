@@ -77,34 +77,6 @@
             }
           },
           {
-            "id": "f898e948aa00bea1",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/resources/glossary.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "glossary"
-            }
-          },
-          {
-            "id": "8bf3145c0347b820",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/新增單一商品-new.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "新增單一商品-new"
-            }
-          },
-          {
             "id": "2bedb8baac4e5e84",
             "type": "leaf",
             "state": {
@@ -215,9 +187,23 @@
               "icon": "lucide-file",
               "title": "index"
             }
+          },
+          {
+            "id": "566a6de25ddb5fa5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "includes/abbreviations.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "abbreviations"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 13
       },
       {
         "id": "ea951fb7d70bee14",
@@ -437,35 +423,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee4de6e4fb7a4876",
+  "active": "566a6de25ddb5fa5",
   "lastOpenFiles": [
-    "site/ec/members/index.html",
-    "site/ec/members",
-    "site/ec/products/product-activ-v2/index.html",
-    "site/ec/products/product-activ-v2",
     "site/ec/orders/Process C2C Convenience Store Shipments/index.html",
-    "site/ec/orders/index.html",
     "site/ec/orders/Process C2C Convenience Store Shipments",
+    "site/ec/orders/index.html",
     "site/ec/orders",
-    "site/ec/products/index-old/index.html",
-    "site/ec/products/index-old",
-    "site/wms/index.html",
+    "site/ec/integrations/Google Analytics ：串接教學-ent/index.html",
+    "site/ec/integrations/Google Analytics ：串接教學/index.html",
+    "site/ec/integrations/Google Analytics ：串接教學-ent",
+    "site/ec/integrations/index.html",
+    "site/ec/integrations/Google Analytics ：串接教學",
+    "site/ec/integrations",
+    "site/ec/products/設定商品超商物流限制與排除選項/index.html",
+    "docs/ec/products/Excel 大量匯入商品.md",
+    "docs/ec/products/電子票券指南.md",
     "docs/resources/index.md",
+    "docs/resources/glossary.md",
+    "includes/abbreviations.md",
+    "docs/ec/products/新增單一商品-new.md",
     "docs/resources/references/商品詳細資訊設定.md",
     "docs/resources/references/商品詳細資訊.md",
     "docs/ec/products/參考資源/商品可見性指南.md",
-    "docs/resources/glossary.md",
-    "docs/ec/products/新增單一商品-new.md",
     "docs/ec/products/設定商品影片.md",
     "ec-product-video.zh-tw.png",
     "site/assets/images/ec-product-video.zh-tw.png",
     "docs/assets/images/ec-product-video.zh-tw.png",
-    "includes/abbreviations.md",
     "docs/ec/products/編輯商品標語與商品簡述.md",
     "templates/syntax-hero-page.md",
     "docs/ec/products/新增組合商品.md",
     "ec-create-new-product-combo.zh-tw.png",
-    "docs/ec/products/Excel 大量匯入商品.md",
     "site/assets/images/ec-create-new-product-combo.zh-tw.png",
     "docs/assets/images/ec-create-new-product-combo.zh-tw.png",
     "docs/assets/images/ec-import-products-from-excel.zh-tw.png",
@@ -483,7 +470,6 @@
     "templates/lucide-settings-2.md",
     "docs/ec/products/設定電子票券門市權限.md",
     "docs/ec/analytics/index.md",
-    "docs/ec/products/電子票券指南.md",
     "docs/ec/products/設定 VIP 會員專屬價格.md"
   ]
 }
