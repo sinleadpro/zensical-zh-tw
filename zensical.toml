@@ -141,7 +141,6 @@ copyright = """
     ]},
     { "智慧倉儲" = "wms/index.md" },
     { "智能 POS" = "pos/index.md" },
-    { "門市助理" = "storepal/index.md" },
     { "資源中心" = [
         { "資源中心總覽" = "resources/index.md" },
         { "更新紀錄" = "resources/changelog.md" },

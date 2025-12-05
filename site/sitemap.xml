@@ -151,9 +151,6 @@
         <loc>http://127.0.0.1:8000/pos/</loc>
       </url>
       <url>
-        <loc>http://127.0.0.1:8000/storepal/</loc>
-      </url>
-      <url>
         <loc>http://127.0.0.1:8000/resources/</loc>
       </url>
       <url>

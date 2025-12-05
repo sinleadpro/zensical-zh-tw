@@ -103,13 +103,14 @@ a {
 } */
 
 
-/* Animated underline effect for links */
-.md-content a {
+/* Apply underline effect to ALL non-button links (including data-preview) */
+.md-content a:not(.md-button):not(.md-button--primary) {
   position: relative;
   text-decoration: none;
 }
 
-.md-content a:not([data-preview])::after {
+/* Use ::before for underline to avoid conflict with preview icon */
+.md-content a:not(.md-button):not(.md-button--primary)::before {
   content: "";
   position: absolute;
   left: 0;
@@ -118,14 +119,17 @@ a {
   height: 1px;
   background-color: currentColor;
   transform: scaleX(0);
-  transition: transform .2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
   transform-origin: right;
+  pointer-events: none;
 }
 
-.md-content a:not([data-preview]):hover::after {
+/* Hover animation */
+.md-content a:not(.md-button):not(.md-button--primary):hover::before {
   transform: scaleX(1);
   transform-origin: left;
 }
+
 
 
 /* extra.css */

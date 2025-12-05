@@ -68,12 +68,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/新增單一商品.md",
+                "file": "docs/ec/products/新增單一商品-new.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "新增單一商品"
+              "title": "新增單一商品-new"
             }
           },
           {
@@ -133,6 +133,48 @@
             }
           },
           {
+            "id": "449d48c012ae3ed9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "5b077c0ccf142024",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "4589cd77e0c6eca3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/resources/glossary.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "glossary"
+            }
+          },
+          {
             "id": "5b777e0d51913844",
             "type": "leaf",
             "state": {
@@ -147,7 +189,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 4
       },
       {
         "id": "ea951fb7d70bee14",
@@ -213,7 +255,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "type mp4",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -367,21 +409,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0aabf5b3564fc505",
+  "active": "6c360d0ec13c8380",
   "lastOpenFiles": [
+    "docs/ec/products/新增單一商品.md",
     "docs/ec/products/新增單一商品-new.md",
+    "docs/resources/glossary.md",
+    "docs/ec/products/index.md",
+    "docs/index.md",
     "site/ec/products/新增單一商品-new/index.html",
     "site/ec/products/新增單一商品-new",
-    "site/ec/payments/電子發票：星益欣 (美麗科技)/index.html",
-    "site/ec/payments/星益欣電子發票設定指南/index.html",
-    "site/ec/payments/設定信用卡 3D 驗證門檻/index.html",
-    "site/ec/payments/AFTEE先享後付 金流說明/index.html",
-    "site/ec/payments/申請 CYBERBIZ PAYMENTS/index.html",
-    "site/ec/payments/設定 Apple Pay/index.html",
-    "site/ec/payments/電子發票：星益欣 (美麗科技)",
-    "site/ec/payments/星益欣電子發票設定指南",
+    "site/ec/store/index.html",
+    "site/ec/store",
+    "site/ec/products/參考資源/商品可見性指南/index.html",
+    "site/ec/products/參考資源/商品可見性指南",
+    "site/ec/products/設定商品分類群組/index.html",
+    "site/ec/products/設定商品分類群組",
+    "site/ec/products/商品評論指南/index.html",
+    "site/ec/products/商品評論指南",
     "docs/ec/products/設定商品影片.md",
-    "docs/index.md",
     "docs/ec/index.md",
     "docs/ec/products/商品管理快速上手.md",
     "includes/abbreviations.md",
@@ -391,9 +436,6 @@
     "ec-create-new-product.zh-tw.gif",
     "site/assets/images/ec-create-new-product.zh-tw.gif",
     "docs/assets/images/ec-create-new-product.zh-tw.gif",
-    "docs/ec/products/index.md",
-    "docs/resources/glossary.md",
-    "docs/ec/products/新增單一商品.md",
     "templates/lucide-navigation.md",
     "docs/ec/products/Excel 大量匯入商品.md",
     "docs/ec/products/設定多購物車.md",

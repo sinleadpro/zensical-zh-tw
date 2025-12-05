@@ -57,7 +57,7 @@ comments: ""
 建立並設定單一商品的基本資訊、圖片、影片與款式，完成上架流程。
 { .subtitle }
 
-![](../../assets/images/ec-create-new-product.zh-tw.png){ title="後台路徑： 商品 > 所有商品 > 新增商品" }
+![](../../assets/images/ec-create-new-product.zh-tw.png){ title="新增商品： 商品 > 所有商品 > 新增商品" }
 
 ## 操作流程
 1. 登入 CYBERBIZ 管理後台，前往 `商品 > 所有商品 > 新增商品`。
