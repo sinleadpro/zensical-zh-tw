@@ -203,7 +203,7 @@
             }
           }
         ],
-        "currentTab": 13
+        "currentTab": 7
       },
       {
         "id": "ea951fb7d70bee14",
@@ -423,24 +423,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "566a6de25ddb5fa5",
+  "active": "4625d2ade489cdda",
   "lastOpenFiles": [
-    "site/ec/orders/Process C2C Convenience Store Shipments/index.html",
-    "site/ec/orders/Process C2C Convenience Store Shipments",
-    "site/ec/orders/index.html",
-    "site/ec/orders",
-    "site/ec/integrations/Google Analytics ：串接教學-ent/index.html",
-    "site/ec/integrations/Google Analytics ：串接教學/index.html",
-    "site/ec/integrations/Google Analytics ：串接教學-ent",
-    "site/ec/integrations/index.html",
-    "site/ec/integrations/Google Analytics ：串接教學",
-    "site/ec/integrations",
-    "site/ec/products/設定商品超商物流限制與排除選項/index.html",
+    "site/ec/products/設定加價購群組的多國語系名稱/index.html",
+    "site/ec/products/設定加價購群組的多國語系名稱",
+    "site/ec/products/設定商品影片/index.html",
+    "site/ec/products/設定商品影片",
+    "site/ec/products/設定商品分類群組/index.html",
+    "site/ec/products/設定商品分類群組",
+    "site/ec/products/設定 VIP 會員專屬價格/index.html",
+    "site/ec/products/設定 VIP 會員專屬價格",
+    "site/wms/index.html",
+    "site/wms",
+    "site/ec/analytics/index.html",
+    "includes/abbreviations.md",
     "docs/ec/products/Excel 大量匯入商品.md",
     "docs/ec/products/電子票券指南.md",
     "docs/resources/index.md",
     "docs/resources/glossary.md",
-    "includes/abbreviations.md",
     "docs/ec/products/新增單一商品-new.md",
     "docs/resources/references/商品詳細資訊設定.md",
     "docs/resources/references/商品詳細資訊.md",
