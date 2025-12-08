@@ -26,6 +26,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "docs/ec/store/系統通知設定.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "系統通知設定"
+            }
+          },
+          {
+            "id": "51f585f6215fe23b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "docs/ec/products/商品管理快速上手.md",
                 "mode": "source",
                 "source": true
@@ -119,7 +133,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "ea951fb7d70bee14",
@@ -137,6 +151,34 @@
               },
               "icon": "globe-2",
               "title": "所有商品-新增商品(單筆新增、更新商品)"
+            }
+          },
+          {
+            "id": "ce93d4a52c03bdb3",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.cyberbiz.io/support/?p=7497/#mal",
+                "title": "商品管理-商品描述、設定",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "商品管理-商品描述、設定"
+            }
+          },
+          {
+            "id": "ddb78911ec5d2064",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.cyberbiz.io/support/?p=2025",
+                "title": "超商物流限制與排除設定",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "超商物流限制與排除設定"
             }
           },
           {
@@ -316,7 +358,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -339,22 +381,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2b2d8722c4ab60a4",
+  "active": "ee4de6e4fb7a4876",
   "lastOpenFiles": [
-    "site/ec/products/設定 VIP 會員專屬價格/index.html",
-    "site/ec/products/設定 VIP 會員專屬價格",
-    "site/ec/products/設定多購物車/index.html",
-    "site/ec/products/設定多購物車",
-    "site/ec/products/參考資源/商品可見性指南/index.html",
-    "site/ec/products/參考資源/結帳優惠計算順序-rev/index.html",
-    "site/ec/products/參考資源/結帳優惠計算順序/index.html",
-    "site/ec/products/參考資源/商品可見性/index.html",
-    "site/ec/products/參考資源/CKEditor 編輯器教學/index.html",
-    "site/ec/products/參考資源/商品可見性指南",
-    "site/ec/products/參考資源/結帳優惠計算順序-rev",
-    "docs/ec/products/新增單一商品.md",
-    "includes/abbreviations.md",
     "docs/ec/products/商品管理快速上手.md",
+    "includes/abbreviations.md",
+    "docs/ec/products/新增單一商品.md",
+    "site/ec/products/設定商品到貨通知/index.html",
+    "site/ec/products/設定商品到貨通知",
+    "site/ec/products/設定前台商品篩選器/index.html",
+    "site/ec/products/設定前台商品篩選器",
+    "site/ec/products/編輯商品描述與設定/index.html",
+    "site/ec/products/編輯商品描述與設定",
+    "site/ec/products/參考資源/商品可見性/index.html",
+    "site/ec/products/參考資源/商品可見性",
+    "site/ec/products/設定商品影片/index.html",
+    "site/ec/products/設定商品影片",
+    "docs/ec/store/系統通知設定.md",
+    "ec-merchant-notification-setting.zh-tw.png",
+    "site/assets/images/ec-merchant-notification-setting.zh-tw.png",
+    "docs/assets/images/ec-merchant-notification-setting.zh-tw.png",
     "docs/ec/products/index.md",
     "docs/ec/products/設定商品排除搜尋.md",
     "docs/resources/使用 Jam 回報問題.md",
@@ -379,13 +424,9 @@
     "docs/assets/images/ec-product-search-toggle.zh-tw.png",
     "docs/ec/payments/設定 Apple Pay.md",
     "docs/ec/payments/設定信用卡 3D 驗證門檻.md",
-    "ec-payments-3d-secure.zh-tw.png",
     "docs/ec/payments/申請 CYBERBIZ PAYMENTS.md",
-    "site/assets/images/ec-payments-3d-secure.zh-tw.png",
-    "docs/assets/images/ec-payments-3d-secure.zh-tw.png",
     "templates/badge-cyb-extensions.md",
     "docs/ec/products/商品評論指南.md",
-    "docs/ec/products/設定條件分類群組.md",
-    "docs/resources/glossary.md"
+    "docs/ec/products/設定條件分類群組.md"
   ]
 }

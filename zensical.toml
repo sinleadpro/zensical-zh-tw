@@ -61,8 +61,8 @@ copyright = """
                     { "新增大量商品" = "ec/products/Excel 大量匯入商品.md"},
                     { "新增組合商品" = "ec/products/新增組合商品.md"},
                     { "設定商品到貨通知" = "ec/products/設定商品到貨通知.md"},
-                    { "編輯商品標語與簡述" = "ec/products/編輯商品標語與商品簡述.md" },
                     { "編輯商品描述與設定" = "ec/products/編輯商品描述與設定.md" },
+                    { "編輯商品標語與簡述" = "ec/products/編輯商品標語與商品簡述.md" },
                     { "批次修改商品資訊" = "ec/products/批次修改商品資訊.md" },
                     { "設定商品影片" = "ec/products/設定商品影片.md" },
                     { "設定商品排除搜尋" = "ec/products/設定商品排除搜尋.md" },
@@ -123,7 +123,10 @@ copyright = """
             { "設定信用卡 3D 驗證" = "ec/payments/設定信用卡 3D 驗證門檻.md" },
             { "星益欣電子發票設定指南" = "ec/payments/星益欣電子發票設定指南.md" }
         ]},
-        { "商店設定" = "ec/store/index.md" },
+        { "商店設定" = [
+            { "商店設定" = "ec/store/index.md" },
+            { "系統通知設定" = "ec/store/系統通知設定.md" }
+        ]},
         { "整合串接" = [
             { "overview" = "ec/integrations/index.md" },  
             { "APP MARKET" = [
