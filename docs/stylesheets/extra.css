@@ -93,6 +93,8 @@ a {
 
 .md-typeset h3 {
   font-weight: 600;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  padding-bottom: 0.4rem;
 }
 
 
@@ -133,7 +135,7 @@ a {
 .hero-page {
     /* border-radius: 8px 8px 0 0 !important;       top-left, top-right, bottom-right, bottom-left */
     box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
-    width: 525px;        /*  explicitly smaller width */
+    width: 530px;        /*  explicitly smaller width */
     max-width: 100%;       /* prevent overflow on tiny screens */          
     height: auto;                      
     /* display: block;                     */
