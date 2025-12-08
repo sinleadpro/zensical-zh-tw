@@ -18,7 +18,7 @@
         <link rel="prev" href="../%E5%95%86%E5%93%81%E7%AE%A1%E7%90%86%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B/">
       
       
-        <link rel="next" href="../%E6%96%B0%E5%A2%9E%E5%96%AE%E4%B8%80%E5%95%86%E5%93%81-new/">
+        <link rel="next" href="../Excel%20%E5%A4%A7%E9%87%8F%E5%8C%AF%E5%85%A5%E5%95%86%E5%93%81/">
       
       
         
@@ -729,8 +729,6 @@
       
         
       
-        
-      
     
     
     
@@ -804,13 +802,6 @@
   </span>
   
   
-    
-  
-  
-    <span class="md-status md-status--doing"></span>
-  
-
-  
 
           <span class="md-nav__icon md-icon"></span>
         </label>
@@ -828,13 +819,6 @@
     
   </span>
   
-  
-    
-  
-  
-    <span class="md-status md-status--doing"></span>
-  
-
   
 
       </a>
@@ -942,34 +926,6 @@
   
 </nav>
       
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../%E6%96%B0%E5%A2%9E%E5%96%AE%E4%B8%80%E5%95%86%E5%93%81-new/" class="md-nav__link">
-        
-  
-  
-  <span class="md-ellipsis">
-    
-  
-    新增單一商品-new
-  
-
-    
-  </span>
-  
-  
-
-      </a>
     </li>
   
 
@@ -3953,15 +3909,20 @@
 
 <h1 id="新增單一商品">新增單一商品<a class="headerlink" href="#新增單一商品" title="Permanent link">&para;</a></h1>
 <p class="subtitle">建立並設定單一商品的基本資訊、圖片、影片與款式，完成上架流程。</p>
-<hr />
+<p><img alt="" class="hero-page" src="../../../assets/images/ec-create-new-product.zh-tw.png" title="新增商品： 商品 &gt; 所有商品 &gt; 新增商品" /></p>
 <h2 id="操作流程">操作流程<a class="headerlink" href="#操作流程" title="Permanent link">&para;</a></h2>
 <ol>
-<li>登入 CYBERBIZ 管理後台，前往 <code>商品 &gt; 所有商品 &gt; 新增商品</code>。</li>
-<li>依序填寫商品相關資訊：<a href="#基本設定">基本設定</a>、<a href="#商品圖片">商品圖片</a>、<a href="#商品影片">商品影片</a>、<a href="#款式管理">款式管理</a>。</li>
+<li>登入 CYBERBIZ 管理後台，前往 <strong>商品 &gt; 所有商品 &gt; 新增商品</strong>。</li>
+<li>依序填寫商品相關資訊：<ul>
+<li><a href="#基本設定">基本設定</a></li>
+<li><a href="#商品圖片">商品圖片</a></li>
+<li><a href="#商品影片">商品影片</a></li>
+<li><a href="#款式管理">款式管理</a></li>
+</ul>
+</li>
 <li>點擊 <strong>儲存</strong>，商品將依上架狀態所設定的時間自動上架或延後上架。    </li>
 </ol>
 <h3 id="基本設定">基本設定<a class="headerlink" href="#基本設定" title="Permanent link">&para;</a></h3>
-<p><img alt="" src="../../../assets/images/ec-create-new-product-basic-settings.zh-tw.png" /></p>
 <table>
 <thead>
 <tr>
@@ -3974,136 +3935,100 @@
 <tr>
 <td><abbr title="商品建立時的必要欄位之一，用來識別並展示商品的主要標題，會同步顯示於商品頁面、訂單明細、行銷活動與報表中。">商品名稱</abbr>（必填）</td>
 <td>設定商品名稱</td>
-<td>避免使用特殊符號（如 <code>\|</code> 或 <code>”</code>），不可使用 HTML。</td>
+<td>避免使用特殊符號（如 <code>|</code> 或 <code>”</code>），不可使用 HTML。</td>
 </tr>
 <tr>
 <td>商品網址</td>
 <td>設定商品頁面 URL</td>
-<td>建議使用英文網址，有助於 <abbr title="Search Engine Optimization, in an e-commerce system, SEO covers product page titles, descriptions, URL structures, image alt text, and keyword settings.">SEO</abbr> 與 <abbr title="Google Analytics, a website traffic analysis tool provided by Google, used to track and analyze user behavior and interactions on a website.">GA</abbr> 分析；若未設定，系統將自動套用 <code>商品名稱</code> 作為網址</td>
+<td>建議使用英文網址，有助於 <abbr title="Search Engine Optimization, 搜尋引擎最佳化。在電子商務系統中，SEO 涵蓋商品頁標題、頁面描述、URL 結構、圖片替代文字（alt text）與關鍵字設定，用於提升網站在搜尋引擎中的可見度與排名。">SEO</abbr> 與 <abbr title="Google Analytics, 由 Google 提供的網站流量分析工具，用於追蹤與分析使用者在網站上的行為與互動情況。">GA</abbr> 分析。<br>若未設定，系統將自動套用 <em><abbr title="商品建立時的必要欄位之一，用來識別並展示商品的主要標題，會同步顯示於商品頁面、訂單明細、行銷活動與報表中。">商品名稱</abbr></em> 作為網址</td>
 </tr>
 <tr>
 <td>商品標語</td>
-<td>顯示於「<abbr title="顧客於前台瀏覽單一商品詳細資訊的頁面，包含商品名稱、價格、圖片、規格、庫存狀態、配送方式與購買按鈕等內容，是完成購買決策與下單的主要介面。">商品頁面</abbr>」的簡短文字</td>
-<td>顯示於「<abbr title="顧客於前台瀏覽單一商品詳細資訊的頁面，包含商品名稱、價格、圖片、規格、庫存狀態、配送方式與購買按鈕等內容，是完成購買決策與下單的主要介面。">商品頁面</abbr>」，進階設定請參考<a href="../編輯商品標語與商品簡述">編輯商品標語與商品簡述</a>。</td>
+<td>顯示於 <em><abbr title="顧客於前台瀏覽單一商品詳細資訊的頁面，包含商品名稱、價格、圖片、規格、庫存狀態、配送方式與購買按鈕等內容，是完成購買決策與下單的主要介面。">商品頁面</abbr></em> 的簡短文字</td>
+<td>顯示於商品頁面。<a data-preview="data-preview" href="../編輯商品標語與商品簡述/">了解進階設定</a>。</td>
 </tr>
 <tr>
 <td>商品簡述</td>
-<td>簡短說明商品重點賣點</td>
-<td>建議以 1–3 句呈現，避免過長段落與冗餘格。進階設定請參考<a href="../編輯商品標語與商品簡述">編輯商品標語與商品簡述</a>。</td>
+<td>簡短說明商品賣點</td>
+<td>建議以 1–3 句呈現，避免過長段落與冗餘格。<a data-preview="data-preview" href="../編輯商品標語與商品簡述/">了解進階設定</a>。</td>
 </tr>
 <tr>
 <td>上架狀態</td>
 <td>設定商品上架及下架時間</td>
-<td>未填寫 → 商品永久上架<br>非上架時間 → 頁面顯示 404</td>
+<td>未填寫 → 商品永久上架<br>非上架時間 → 頁面顯示 404。</td>
 </tr>
 <tr>
 <td>商品搜尋功能</td>
 <td>設定商品是否可被站內搜尋</td>
-<td><code>ON</code>：可被搜尋<br><code>OFF</code>：無法被搜尋，但仍可透過「<abbr title="系統自動產生、可直接導向該商品前台頁面的唯一網址，用於推廣、分享或在其他系統中快速存取指定商品。">商品連結</abbr>」供部分顧客購買。了解<a data-preview="data-preview" href="../設定商品排除搜尋#適用範圍">商品排除搜尋效果</a></td>
+<td><em>ON</em>：可被搜尋<br><em>OFF</em>：無法被搜尋，但仍可透過 <em><abbr title="系統自動產生、可直接導向該商品前台頁面的唯一網址，用於推廣、分享或在其他系統中快速存取指定商品。">商品連結</abbr></em> 供部分顧客購買。<a href="../設定商品排除搜尋#適用範圍">了解更多</a>。</td>
 </tr>
 </tbody>
 </table>
 <blockquote>
-<p>更多商品相關資訊設定，請參考<a href="../">商品詳細資訊設定</a>。</p>
+<p>更多商品相關資訊設定，請參考<a data-preview="" href="../../../resources/references/商品詳細資訊設定/">商品詳細資訊設定</a>。</p>
 </blockquote>
 <h3 id="商品圖片">商品圖片<a class="headerlink" href="#商品圖片" title="Permanent link">&para;</a></h3>
-<p><img alt="" src="../../../assets/images/ec-create-new-product-product-image.zh-tw.png" /></p>
-<h4 id="圖片規格">圖片規格<a class="headerlink" href="#圖片規格" title="Permanent link">&para;</a></h4>
 <ul>
 <li>尺寸建議：1000 × 1000 像素 (px)。</li>
 <li>檔案大小：最大 10 MB，建議不超過 2 MB，以提升網站載入效能。</li>
 <li>平台兼容：可參考<a href="../">設定 Google 購物廣告</a>，並提升廣告成效。</li>
 </ul>
-<h4 id="上傳方式">上傳方式<a class="headerlink" href="#上傳方式" title="Permanent link">&para;</a></h4>
-<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="點選檔案" name="__tabbed_1" type="radio" /><input id="拖曳檔案" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="點選檔案"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m14 2 6 6v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2zm4 18V9h-5V4H6v16zm-6-8 4 4h-2.5v3h-3v-3H8z"/></svg></span> 點選檔案</label><label for="拖曳檔案"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7 19v-2h2v2zm4 0v-2h2v2zm4 0v-2h2v2zm-8-4v-2h2v2zm4 0v-2h2v2zm4 0v-2h2v2zm-8-4V9h2v2zm4 0V9h2v2zm4 0V9h2v2zM7 7V5h2v2zm4 0V5h2v2zm4 0V5h2v2z"/></svg></span> 拖曳檔案</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<ol>
-<li>點擊 <strong>上傳圖片</strong> 按鈕。</li>
-<li>選取欲上傳的商品圖片檔案。</li>
-<li>點擊 <strong>開啟</strong>，圖片即上傳完成。</li>
-</ol>
-<p><img alt="" class="screemshot" src="https://www.cyberbiz.io/helpcenter/wp-content/uploads/所有商品-新增商品-單筆新增05.png" /></p>
-</div>
-<div class="tabbed-block">
-<ol>
-<li>將圖片直接拖曳至上傳區域。</li>
-<li>放開滑鼠，圖片會自動上傳。</li>
-</ol>
-<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/helpcenter/wp-content/uploads/所有商品-新增商品-單筆新增06.png" /></p>
-</div>
-</div>
-</div>
-<h3 id="商品影片">商品影片 <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span><a class="headerlink" href="#商品影片" title="Permanent link">&para;</a></h3>
-<blockquote>
-<p>商品影片功能僅適用 <strong>PLUS/企業</strong> 方案用戶，以及 <strong>拖拉版型</strong> 網站。詳細設定參考<a href="../設定商品影片">設定商品影片</a>。</p>
-</blockquote>
-<p><img alt="" src="../../../assets/images/ec-create-new-product-product-video.zh-tw.png" /></p>
-<h4 id="影片規格">影片規格<a class="headerlink" href="#影片規格" title="Permanent link">&para;</a></h4>
-<p>為確保影片能順利上傳、處理及於前台正常播放，請遵循以下技術規格：</p>
+<h3 id="商品影片">商品影片<a class="headerlink" href="#商品影片" title="Permanent link">&para;</a></h3>
+<p><a href="../../../resources/conventions#適用方案"><span class="twemoji" title="適用方案"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span></a> | PLUS 企業  <a href="../../../resources/conventions#適用功能"><span class="twemoji" title="適用功能"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-toggle-right" viewBox="0 0 24 24"><circle cx="15" cy="12" r="3"/><rect width="20" height="14" x="2" y="5" rx="7"/></svg></span></a> | 拖拉版型</p>
 <table>
 <thead>
 <tr>
 <th>規格項目</th>
-<th>限制 / 說明</th>
+<th>說明</th>
+<th>備註</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><strong>解析度</strong></td>
 <td>最大支援 1280 × 1280 像素</td>
+<td></td>
 </tr>
 <tr>
 <td><strong>建議比例</strong></td>
-<td>9:16<sup id="fnref:商品影片比例"><a class="footnote-ref" href="#fn:商品影片比例">4</a></sup></td>
+<td>9:16</td>
+<td>此比例最佳化於 Facebook 廣告版位，提供更佳觀看體驗。</td>
 </tr>
 <tr>
 <td><strong>影片格式</strong></td>
 <td>僅支援 MP4 格式</td>
+<td></td>
 </tr>
 <tr>
 <td><strong>影片長度</strong></td>
 <td>最長 60 秒</td>
+<td></td>
 </tr>
 <tr>
 <td><strong>檔案大小</strong></td>
-<td>最大 30 MB<sup id="fnref:商品影片大小"><a class="footnote-ref" href="#fn:商品影片大小">5</a></sup></td>
+<td>最大 30 MB</td>
+<td>影片的載入速度會受使用者網路影響，建議在符合規格下盡量壓縮檔案。</td>
 </tr>
 <tr>
 <td><strong>音訊支援</strong></td>
-<td>不支援音訊輸出<sup id="fnref:商品影片音訊限制"><a class="footnote-ref" href="#fn:商品影片音訊限制">6</a></sup></td>
+<td>不支援音訊輸出</td>
+<td>上傳影片將以靜音模式播放。</td>
 </tr>
 </tbody>
 </table>
-<h4 id="上傳方式_1">上傳方式<a class="headerlink" href="#上傳方式_1" title="Permanent link">&para;</a></h4>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="新增商品時上傳影片" name="__tabbed_2" type="radio" /><input id="為既有商品新增影片" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="新增商品時上傳影片"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 19.3v-6.7l6-3.4V13c.7 0 1.4.1 2 .4V7.5c0-.4-.2-.7-.5-.9l-7.9-4.4c-.2-.1-.4-.2-.6-.2s-.4.1-.6.2L3.5 6.6c-.3.2-.5.5-.5.9v9c0 .4.2.7.5.9l7.9 4.4c.2.1.4.2.6.2s.4-.1.6-.2l.9-.5c-.3-.6-.4-1.3-.5-2M12 4.2l6 3.3-2 1.1-5.9-3.4zm-1 15.1-6-3.4V9.2l6 3.4zm1-8.5L6 7.5l2-1.2 6 3.5zm8 4.2v3h3v2h-3v3h-2v-3h-3v-2h3v-3z"/></svg></span> 新增商品時上傳影片</label><label for="為既有商品新增影片"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 19c0 .34.04.67.09 1H4a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h1l2 4h3L8 4h2l2 4h3l-2-4h2l2 4h3l-2-4h4v9.81c-.61-.35-1.28-.59-2-.72V10H5.76L4 6.47V18h9.09c-.05.33-.09.66-.09 1m7-1v-3h-2v3h-3v2h3v3h2v-3h3v-2z"/></svg></span> 為既有商品新增影片</label></div>
+<blockquote>
+<p>了解更多<a data-preview="data-preview" href="../設定商品影片/">商品影片相關功能跟設定</a>。</p>
+</blockquote>
+<h3 id="款式管理">款式管理<a class="headerlink" href="#款式管理" title="Permanent link">&para;</a></h3>
+<p>根據商品規格建立不同類型商品：</p>
+<ul>
+<li><a href="#單一款式商品">單一款式商品</a>：商品只有一種規格，如單一顏色跟尺寸。</li>
+<li><a href="#多款式商品">多款式商品</a>：商品有多種規格需要設定，如不同的顏色跟尺寸。</li>
+</ul>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="單一款式商品" name="__tabbed_1" type="radio" /><input id="多款式商品" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="單一款式商品">單一款式商品</label><label for="多款式商品">多款式商品</label></div>
 <div class="tabbed-content">
 <div class="tabbed-block">
-<ol>
-<li>登入 CYBERBIZ 管理後台，前往 <strong>商品 &gt; 新增商品</strong>。</li>
-<li>填寫<a href="../新增單一商品#基本設定">商品基本資訊</a>。</li>
-<li>在商品影片區塊點擊 <strong>上傳</strong> 按鈕，選擇本機影片檔案。</li>
-<li>確認影片與商品資訊無誤後，點擊 <strong>儲存</strong>。</li>
-<li>系統將處理影片上傳，請耐心等待完成。</li>
-</ol>
-</div>
-<div class="tabbed-block">
-<ol>
-<li>登入 CYBERBIZ 管理後台，前往 <strong>商品 &gt; 新增商品</strong>。</li>
-<li>在商品列表中，點擊欲編輯的商品名稱，進入商品編輯頁面。</li>
-<li>在商品影片區塊點擊 <strong>上傳</strong> 按鈕，選擇本機影片檔案。</li>
-<li>確認影片正確後，點擊 <strong>儲存</strong>。</li>
-<li>系統將處理影片上傳，請耐心等待完成。</li>
-</ol>
-</div>
-</div>
-</div>
-<h3 id="款式管理">款式管理<a class="headerlink" href="#款式管理" title="Permanent link">&para;</a></h3>
-<p><img alt="" src="../../../assets/images/ec-create-new-product-product-variants.zh-tw.png" /></p>
-<h4 id="單一款式商品">單一款式商品<a class="headerlink" href="#單一款式商品" title="Permanent link">&para;</a></h4>
-<p>適用於無多種顏色、尺寸等規格的商品。</p>
-<p><strong>價格與庫存設定</strong></p>
-<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/%E5%95%86%E5%93%81%E7%AE%A1%E7%90%86-%E4%B8%8A%E6%9E%B6%E5%95%86%E5%93%81%E5%96%AE%E7%AD%8606.png" /></p>
+<h4 id="價格與庫存設定">價格與庫存設定<a class="headerlink" href="#價格與庫存設定" title="Permanent link">&para;</a></h4>
 <table>
 <thead>
 <tr>
@@ -4124,9 +4049,9 @@
 <td></td>
 </tr>
 <tr>
-<td>成本價</td>
+<td>成本價 <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span></td>
 <td>供內部分析使用</td>
-<td><code>專業版</code> 與 <code>專業PLUS版</code> 不適用</td>
+<td><em>專業</em> 與 <em>專業PLUS</em> 版不適用</td>
 </tr>
 <tr>
 <td>紅利折抵</td>
@@ -4134,13 +4059,13 @@
 <td>需設定才能折抵</td>
 </tr>
 <tr>
-<td><abbr title="Stock Keeping Unit. 存貨單位或庫存單位是用於識別產品的唯一代碼或編號，用於追蹤庫存、管理商品資料與銷售統計。">SKU</abbr></td>
+<td>商品編號 (<abbr title="Stock Keeping Unit. 存貨單位或庫存單位是用於識別產品的唯一代碼或編號，用於追蹤庫存、管理商品資料與銷售統計。">SKU</abbr>)</td>
 <td>商品編號</td>
 <td><abbr title="將電商平台（EC）與 倉儲管理系統（WMS）進行串接整合的運作模式。">串倉</abbr>、<abbr title="Point of Sale，門市進行交易時所使用的銷售作業系統，用於完成商品結帳、付款、開立收據，並同步記錄銷售資料、庫存變化與營收資訊。">POS</abbr> 系統必填</td>
 </tr>
 </tbody>
 </table>
-<p><strong>庫存管理</strong></p>
+<h4 id="庫存管理">庫存管理<a class="headerlink" href="#庫存管理" title="Permanent link">&para;</a></h4>
 <p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/%E5%95%86%E5%93%81%E7%AE%A1%E7%90%86-%E4%B8%8A%E6%9E%B6%E5%95%86%E5%93%81%E5%96%AE%E7%AD%8607.png" /></p>
 <table>
 <thead>
@@ -4168,12 +4093,12 @@
 </tr>
 <tr>
 <td>庫存不足時</td>
-<td>設定為 <code>停止銷售</code> 或<code>繼續銷售</code></td>
-<td><code>停止銷售</code>：避免超賣，若仍想購買，可使用「聯絡店家」。<br><code>繼續銷售</code>：允許預購商品。</td>
+<td>設定為 <em>停止銷售</em> 或 <em>繼續銷售</em></td>
+<td><em>停止銷售</em>：避免超賣，若仍想購買，可使用 <em>聯絡店家</em>。<br> <em>繼續銷售</em>：允許預購商品。</td>
 </tr>
 </tbody>
 </table>
-<div class="grid cards">
+<div class="grid cards" markdown>
 <ul>
 <li><img alt="" src="https://www.cyberbiz.io/helpcenter/wp-content/uploads/%E6%89%80%E6%9C%89%E5%95%86%E5%93%81-%E6%96%B0%E5%A2%9E%E5%95%86%E5%93%81-%E5%96%AE%E7%AD%86%E6%96%B0%E5%A2%9E10.png" title="停止銷售" /></li>
 <li><img alt="" src="https://www.cyberbiz.io/helpcenter/wp-content/uploads/%E6%89%80%E6%9C%89%E5%95%86%E5%93%81-%E6%96%B0%E5%A2%9E%E5%95%86%E5%93%81-%E5%96%AE%E7%AD%86%E6%96%B0%E5%A2%9E11.png" title="預購商品" /></li>
@@ -4183,7 +4108,7 @@
 <p class="admonition-title">庫存不足時繼續銷售，即為預購商品</p>
 <p>若將商品「庫存不足時」設定為 <em>繼續銷售</em>，系統會將該商品視為 <em>預購商品</em>，即使庫存不足，顧客仍可下單，詳情請看<a href="../設定多購物車#預購商品">設定預購商品</a>。一般現貨商品，「庫存不足時」設定請使用 <em>停止銷售</em> 以避免超賣。  </p>
 </div>
-<p><strong>收貨與物流</strong></p>
+<h4 id="收貨與物流">收貨與物流<a class="headerlink" href="#收貨與物流" title="Permanent link">&para;</a></h4>
 <p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/%E5%95%86%E5%93%81%E7%AE%A1%E7%90%86-%E4%B8%8A%E6%9E%B6%E5%95%86%E5%93%81%E5%96%AE%E7%AD%8610.png" /></p>
 <table>
 <thead>
@@ -4244,7 +4169,8 @@
 </tbody>
 </table>
 </div>
-<h4 id="多款式商品">多款式商品<a class="headerlink" href="#多款式商品" title="Permanent link">&para;</a></h4>
+</div>
+<div class="tabbed-block">
 <p>適用於具有多種規格（如顏色、尺寸）的商品。</p>
 <ol>
 <li>
@@ -4260,7 +4186,9 @@
 <p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/%E5%95%86%E5%93%81%E7%AE%A1%E7%90%86-%E4%B8%8A%E6%9E%B6%E5%95%86%E5%93%81%E5%96%AE%E7%AD%8612.png" /></p>
 </li>
 </ol>
-<hr />
+</div>
+</div>
+</div>
 <h2 id="常見問題">常見問題<a class="headerlink" href="#常見問題" title="Permanent link">&para;</a></h2>
 <details class="quote">
 <summary>商品名稱可以使用特殊符號或 HTML 嗎？</summary>
@@ -4279,7 +4207,6 @@
 <summary>多款式商品設定時，每組款式項目有數量限制嗎？</summary>
 <p>多款式商品設定時，<strong>每組款式至少需有一個項目</strong>。例如，若設定「顏色」為款式，則至少需新增一個顏色選項。</p>
 </details>
-<hr />
 <h2 id="延伸閱讀">延伸閱讀<a class="headerlink" href="#延伸閱讀" title="Permanent link">&para;</a></h2>
 <ul>
 <li><a href="../Excel 大量匯入商品">新增大量商品</a></li>
@@ -4298,15 +4225,6 @@
 </li>
 <li id="fn:批次匯入注意">
 <p>批次匯入前，請先熟悉單一商品的欄位設定與規格要求，以確保批次資料正確。&#160;<a class="footnote-backref" href="#fnref:批次匯入注意" title="Jump back to footnote 3 in the text">&#8617;</a></p>
-</li>
-<li id="fn:商品影片比例">
-<p>此比例最佳化於 Facebook 廣告版位，提供更佳觀看體驗。&#160;<a class="footnote-backref" href="#fnref:商品影片比例" title="Jump back to footnote 4 in the text">&#8617;</a></p>
-</li>
-<li id="fn:商品影片大小">
-<p>影片於前台的載入速度會受使用者網路影響，建議在符合規格下盡量壓縮檔案。&#160;<a class="footnote-backref" href="#fnref:商品影片大小" title="Jump back to footnote 5 in the text">&#8617;</a></p>
-</li>
-<li id="fn:商品影片音訊限制">
-<p>所有上傳影片將以靜音模式播放。&#160;<a class="footnote-backref" href="#fnref:商品影片音訊限制" title="Jump back to footnote 6 in the text">&#8617;</a></p>
 </li>
 </ol>
 </div>
@@ -4423,13 +4341,13 @@
         
         
           
-          <a href="../%E6%96%B0%E5%A2%9E%E5%96%AE%E4%B8%80%E5%95%86%E5%93%81-new/" class="md-footer__link md-footer__link--next" aria-label="下一頁: 新增單一商品-new">
+          <a href="../Excel%20%E5%A4%A7%E9%87%8F%E5%8C%AF%E5%85%A5%E5%95%86%E5%93%81/" class="md-footer__link md-footer__link--next" aria-label="下一頁: 新增大量商品">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 下一頁
               </span>
               <div class="md-ellipsis">
-                新增單一商品-new
+                新增大量商品
               </div>
             </div>
             <div class="md-footer__button md-icon">
