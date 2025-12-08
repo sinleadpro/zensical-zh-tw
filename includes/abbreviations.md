@@ -14,7 +14,7 @@
 *[配送屬性]: 決定商品出貨與運費規則的屬性組合（如溫層、配送方式、出貨通路），影響是否訂單是否拆單與物流流程。
 *[信用卡一次付清]: 顧客使用信用卡完成付款時，交易金額會於單一帳單週期內全額請款，不提供分期、延後付款或拆分扣款。
 *[分潤]: 商品或服務銷售後，平台或商家按照事先設定的比例，將收入分配給合作方或相關權益人。通常用於聯名商品、合作活動或第三方銷售通路，確保各方依約獲得收益。
-*[3DS]: An authentication layer for online credit card payments.
+*[3DS]: 3D Secure，一種由國際信用卡組織制定的線上付款身分驗證機制，用於在刷卡交易時驗證持卡人身分，以降低信用卡盜刷與詐騙風險。
 *[OTP]: One-Time Password (OTP). A temporary password generated for one-time use to verify a user’s identity. Usually delivered via SMS, email, or authenticator apps, the OTP must be entered by the user to complete a transaction or login.
 *[Regular Plans]: Boss, Advance, Master plans.
 *[PLUS Plans]: Boss PLUS, Advance PLUS, Master PLUS plans.
@@ -33,7 +33,7 @@
 *[WMS]: Warehouse Management System, used to manage, control, and optimize warehousing operations, covering inbound, outbound, inventory management, order picking, distribution, and report analysis processes. Through automation and data-driven operations, WMS improves warehousing efficiency, reduces error rates, and supports logistics and supply chain collaboration.
 *[POS]: Point of Sale，門市進行交易時所使用的銷售作業系統，用於完成商品結帳、付款、開立收據，並同步記錄銷售資料、庫存變化與營收資訊。
 *[MBE]: Meta Business Extension
-*[GA]: Google Analytics, a website traffic analysis tool provided by Google, used to track and analyze user behavior and interactions on a website.
+*[GA]: Google Analytics, 由 Google 提供的網站流量分析工具，用於追蹤與分析使用者在網站上的行為與互動情況。
 *[GMC]: Google Merchant Center
-*[SEO]: Search Engine Optimization, in an e-commerce system, SEO covers product page titles, descriptions, URL structures, image alt text, and keyword settings. 
+*[SEO]: Search Engine Optimization, 搜尋引擎最佳化。在電子商務系統中，SEO 涵蓋商品頁標題、頁面描述、URL 結構、圖片替代文字（alt text）與關鍵字設定，用於提升網站在搜尋引擎中的可見度與排名。
 *[SKU]: Stock Keeping Unit. 存貨單位或庫存單位是用於識別產品的唯一代碼或編號，用於追蹤庫存、管理商品資料與銷售統計。

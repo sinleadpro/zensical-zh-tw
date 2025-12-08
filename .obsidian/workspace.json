@@ -49,6 +49,20 @@
             }
           },
           {
+            "id": "0a1e046651e32885",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "includes/abbreviations.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "abbreviations"
+            }
+          },
+          {
             "id": "79d7d8c38723c3a0",
             "type": "leaf",
             "state": {
@@ -133,49 +147,63 @@
             }
           },
           {
+            "id": "4f9f05b66f434ff8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/設定商品排除搜尋.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定商品排除搜尋"
+            }
+          },
+          {
+            "id": "136ac080184cf0b8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/resources/使用 Jam 回報問題.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "使用 Jam 回報問題"
+            }
+          },
+          {
+            "id": "e1a3eec54773d310",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "includes/abbreviations.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "abbreviations"
+            }
+          },
+          {
+            "id": "4a7ecc868b48d805",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/resources/conventions.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "conventions"
+            }
+          },
+          {
             "id": "449d48c012ae3ed9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/index.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "5b077c0ccf142024",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/index.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "4589cd77e0c6eca3",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/resources/glossary.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "glossary"
-            }
-          },
-          {
-            "id": "5b777e0d51913844",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -194,16 +222,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "includes/abbreviations.md",
+                "file": "docs/ec/products/設定商品標籤.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "abbreviations"
+              "title": "設定商品標籤"
+            }
+          },
+          {
+            "id": "2a04b5f2a3a3bb1d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/設定前台商品篩選器.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定前台商品篩選器"
+            }
+          },
+          {
+            "id": "3f79292d8cc44b8e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/啟用留言區 reCAPTCHA.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "啟用留言區 reCAPTCHA"
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       },
       {
         "id": "ea951fb7d70bee14",
@@ -237,7 +293,8 @@
               "title": "所有商品-新增商品(單筆新增、更新商品) - CYBERBIZ 一般版教學文件"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -423,53 +480,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "4625d2ade489cdda",
+  "active": "ee4de6e4fb7a4876",
   "lastOpenFiles": [
-    "site/ec/products/設定加價購群組的多國語系名稱/index.html",
-    "site/ec/products/設定加價購群組的多國語系名稱",
+    "docs/ec/products/新增單一商品-new.md",
+    "docs/ec/products/電子票券指南.md",
+    "docs/ec/products/設定商品排除搜尋.md",
+    "docs/resources/使用 Jam 回報問題.md",
+    "site/assets/images/ec-product-search-toggle.zh-tw.png",
+    "docs/assets/images/ec-product-search-toggle.zh-tw.png",
+    "docs/ec/products/設定商品影片.md",
     "site/ec/products/設定商品影片/index.html",
     "site/ec/products/設定商品影片",
-    "site/ec/products/設定商品分類群組/index.html",
-    "site/ec/products/設定商品分類群組",
-    "site/ec/products/設定 VIP 會員專屬價格/index.html",
-    "site/ec/products/設定 VIP 會員專屬價格",
-    "site/wms/index.html",
-    "site/wms",
-    "site/ec/analytics/index.html",
+    "site/resources/references/商品詳細資訊設定/index.html",
+    "site/resources/使用 Jam 回報問題/index.html",
+    "site/resources/glossary/index.html",
+    "site/resources/references/商品詳細資訊設定",
+    "site/resources/conventions/index.html",
+    "site/resources/faq/index.html",
+    "site/resources/changelog/index.html",
+    "site/resources/使用 Jam 回報問題",
     "includes/abbreviations.md",
-    "docs/ec/products/Excel 大量匯入商品.md",
-    "docs/ec/products/電子票券指南.md",
-    "docs/resources/index.md",
+    "docs/ec/payments/設定 Apple Pay.md",
+    "docs/ec/payments/設定信用卡 3D 驗證門檻.md",
+    "ec-payments-3d-secure.zh-tw.png",
+    "docs/ec/payments/申請 CYBERBIZ PAYMENTS.md",
+    "site/assets/images/ec-payments-3d-secure.zh-tw.png",
+    "docs/assets/images/ec-payments-3d-secure.zh-tw.png",
+    "ec-payments-apple-pay.zh-tw.png",
+    "site/assets/images/ec-payments-apple-pay.zh-tw.png",
+    "docs/assets/images/ec-payments-apple-pay.zh-tw.png",
+    "templates/badge-cyb-extensions.md",
+    "docs/resources/conventions.md",
+    "docs/ec/products/啟用留言區 reCAPTCHA.md",
+    "site/assets/images/ec-payments-cyb-payments.zh-tw.png",
+    "docs/assets/images/ec-payments-cyb-payments.zh-tw.png",
+    "docs/ec/products/商品評論指南.md",
+    "docs/ec/products/設定前台商品篩選器.md",
+    "docs/ec/products/設定商品標籤.md",
+    "docs/index.md",
+    "docs/ec/products/設定條件分類群組.md",
     "docs/resources/glossary.md",
-    "docs/ec/products/新增單一商品-new.md",
+    "docs/ec/products/設定商品分類群組.md",
+    "docs/ec/products/index.md",
+    "docs/ec/products/Excel 大量匯入商品.md",
+    "docs/resources/index.md",
     "docs/resources/references/商品詳細資訊設定.md",
     "docs/resources/references/商品詳細資訊.md",
     "docs/ec/products/參考資源/商品可見性指南.md",
-    "docs/ec/products/設定商品影片.md",
-    "ec-product-video.zh-tw.png",
-    "site/assets/images/ec-product-video.zh-tw.png",
-    "docs/assets/images/ec-product-video.zh-tw.png",
-    "docs/ec/products/編輯商品標語與商品簡述.md",
-    "templates/syntax-hero-page.md",
-    "docs/ec/products/新增組合商品.md",
-    "ec-create-new-product-combo.zh-tw.png",
-    "site/assets/images/ec-create-new-product-combo.zh-tw.png",
-    "docs/assets/images/ec-create-new-product-combo.zh-tw.png",
-    "docs/assets/images/ec-import-products-from-excel.zh-tw.png",
-    "docs/assets/images/ec-import-products-from-excel.png",
-    "site/assets/images/ec-import-products-from-excel.zh-tw.png",
-    "site/assets/images/ec-import-products-from-excel.png",
-    "docs/ec/products/新增單一商品.md",
-    "docs/ec/products/index.md",
-    "docs/index.md",
-    "docs/ec/index.md",
-    "docs/ec/products/商品管理快速上手.md",
-    "templates/lucide-navigation.md",
-    "docs/ec/products/設定多購物車.md",
-    "docs/ec/products/product-activ.md",
-    "templates/lucide-settings-2.md",
-    "docs/ec/products/設定電子票券門市權限.md",
-    "docs/ec/analytics/index.md",
-    "docs/ec/products/設定 VIP 會員專屬價格.md"
+    "docs/ec/products/編輯商品標語與商品簡述.md"
   ]
 }

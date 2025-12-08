@@ -35,8 +35,12 @@ notes:
 ---
 
 # 申請 CYBERBIZ PAYMENTS
-:lucide-lock:{ title="適用方案" } | PLUS  
-:lucide-sparkles:{ title="適用 CYBERBIZ 擴充功能" } | CYBERBIZ PAYMENTS
+開通 CYBERBIZ PAYMENTS 金流服務。
+{ .subtitle }
+
+[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | PLUS [:lucide-sparkles:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ PAYMENTS
+
+![](../../assets/images/ec-payments-cyb-payments.zh-tw.png){ .hero-page }
 
 
 CYBERBIZ PAYMENTS 申請流程包含兩個階段：  

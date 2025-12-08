@@ -25,7 +25,7 @@ prerequisites: []
 lang: zh-TW
 sites:
   - TW
-status: doing
+status: ""
 doc_next: "[[Excel 大量匯入商品]]"
 doc_previous: ""
 tags: []

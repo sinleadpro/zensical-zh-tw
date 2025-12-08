@@ -41,9 +41,13 @@ wp_url:
 ---
 
 # 設定 Apple Pay
-:lucide-sparkles:{ title="適用擴充功能" } | CYBERBIZ PAYMENTS
+啟用 Apple Pay 支付選項，為顧客提供快速、安全且便捷的支付方式。
+{ .subtitle }
 
-啟用 Apple Pay 為顧客提供快速、安全且便捷的支付方式，可提升結帳體驗並可能增加轉換率。
+[:lucide-sparkles:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ PAYMENTS
+
+![](../../assets/images/ec-payments-apple-pay.zh-tw.png){ .hero-page }
+
 
 ??? quote "為何使用 Apple Pay？"
     - **加速結帳**：省去消費者手動輸入信用卡資訊的時間，直接透過手機快速輕鬆付款。
