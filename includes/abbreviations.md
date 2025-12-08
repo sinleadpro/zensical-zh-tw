@@ -36,4 +36,4 @@
 *[GA]: Google Analytics, 由 Google 提供的網站流量分析工具，用於追蹤與分析使用者在網站上的行為與互動情況。
 *[GMC]: Google Merchant Center
 *[SEO]: Search Engine Optimization, 搜尋引擎最佳化。在電子商務系統中，SEO 涵蓋商品頁標題、頁面描述、URL 結構、圖片替代文字（alt text）與關鍵字設定，用於提升網站在搜尋引擎中的可見度與排名。
-*[SKU]: Stock Keeping Unit. 存貨單位或庫存單位是用於識別產品的唯一代碼或編號，用於追蹤庫存、管理商品資料與銷售統計。
+*[SKU]: Stock Keeping Unit，存貨單位或庫存單位是用於識別產品的唯一代碼或編號，用於追蹤庫存、管理商品資料與銷售統計。

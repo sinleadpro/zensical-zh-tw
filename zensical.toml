@@ -98,7 +98,7 @@ copyright = """
                     { "電子票券門市權限" = "ec/products/設定電子票券門市權限.md"}
             ]},
         ]},
-        { "行銷推廣" = [
+        { "行銷推播" = [
             { "overview" = "ec/marketing/index.md" },  
             { "行銷工具" = [
                     { "" = "ec/marketing/"},
@@ -110,9 +110,9 @@ copyright = """
                     { "" = "ec/marketing/"},
                     { "" = "ec/marketing/"}
             ]},
-            { "訊息推廣" = [
+            { "訊息推播" = [
                     { "" = "ec/marketing/"},
-                    { "" = "ec/marketing/"},
+                    { "庫存過低通知" = "ec/marketing/庫存過低通知.md"},
                     { "" = "ec/marketing/"}
             ]},        
         ]},

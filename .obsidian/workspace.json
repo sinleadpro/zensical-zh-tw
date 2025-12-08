@@ -49,6 +49,20 @@
             }
           },
           {
+            "id": "fc9864a457f2c46d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "includes/abbreviations.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "abbreviations"
+            }
+          },
+          {
             "id": "9efb033998cb78e1",
             "type": "leaf",
             "state": {
@@ -105,7 +119,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "ea951fb7d70bee14",
@@ -139,8 +153,7 @@
               "title": "所有商品-新增商品(單筆新增、更新商品) - CYBERBIZ 一般版教學文件"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -303,7 +316,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -326,31 +339,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "88a3a7e855b518a6",
+  "active": "2b2d8722c4ab60a4",
   "lastOpenFiles": [
-    "site/ec/products/商品管理快速上手/index.html",
-    "site/ec/products/商品管理快速上手",
-    "site/ec/products/設定不適用折扣群組/index.html",
-    "site/ec/products/設定不適用折扣群組",
-    "site/ec/products/設定秘密商品群組/index.html",
-    "site/ec/products/設定秘密商品群組",
-    "site/ec/products/設定加價購群組的多國語系名稱/index.html",
-    "site/ec/products/設定加價購群組的多國語系名稱",
-    "site/ec/products/設定任選折扣群組/index.html",
-    "site/ec/products/設定任選折扣群組",
-    "site/ec/products/設定前台商品篩選器/index.html",
+    "site/ec/products/設定 VIP 會員專屬價格/index.html",
+    "site/ec/products/設定 VIP 會員專屬價格",
+    "site/ec/products/設定多購物車/index.html",
+    "site/ec/products/設定多購物車",
+    "site/ec/products/參考資源/商品可見性指南/index.html",
+    "site/ec/products/參考資源/結帳優惠計算順序-rev/index.html",
+    "site/ec/products/參考資源/結帳優惠計算順序/index.html",
+    "site/ec/products/參考資源/商品可見性/index.html",
+    "site/ec/products/參考資源/CKEditor 編輯器教學/index.html",
+    "site/ec/products/參考資源/商品可見性指南",
+    "site/ec/products/參考資源/結帳優惠計算順序-rev",
     "docs/ec/products/新增單一商品.md",
+    "includes/abbreviations.md",
+    "docs/ec/products/商品管理快速上手.md",
     "docs/ec/products/index.md",
     "docs/ec/products/設定商品排除搜尋.md",
     "docs/resources/使用 Jam 回報問題.md",
-    "includes/abbreviations.md",
     "docs/resources/conventions.md",
     "docs/index.md",
     "docs/ec/products/設定商品標籤.md",
     "docs/ec/products/設定前台商品篩選器.md",
     "docs/ec/products/啟用留言區 reCAPTCHA.md",
     "docs/ec/products/設定多購物車.md",
-    "docs/ec/products/商品管理快速上手.md",
     "docs/resources/index.md",
     "ec-inventory-list.zh-tw.png",
     "site/assets/images/ec-inventory-list.zh-tw.png",
