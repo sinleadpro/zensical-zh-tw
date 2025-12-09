@@ -4,31 +4,29 @@ description: 使用 Excel 範本一次新增或更新大量商品，加速上架
 product:
   - EC
 module:
-  - 商品
+  - product
 activ: configure
 surfaces:
-  - 商品 > Excel 大量匯入商品
+  - backend
 devices:
   - desktop
   - mobile
 apis: []
 type: tutorial
 features:
-  - 大量匯入商品
+  - import product from excel
 tasks:
   - 新增商品
   - 大量匯入商品
   - 批次上架商品
   - 批次更新商品
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 企業
+tnb: trunk
+plans: []
 prerequisites: []
 lang: zh-TW
 sites:
   - TW
+  - US
 status: ""
 tags:
   - Excel
@@ -45,9 +43,6 @@ notes:
   - verify FAQ
   - update internal links
 comments: ""
-system:
-  - 後台
-doc_previous: 新增單一商品
 ---
 
 # Excel 大量匯入商品
