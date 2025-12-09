@@ -400,7 +400,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -423,8 +423,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "20aaff79c8744290",
+  "active": "2b2d8722c4ab60a4",
   "lastOpenFiles": [
+    "docs/ec/products/商品管理快速上手.md",
     "docs/ec/products/新增單一商品.md",
     "ec-multiple-variants-product-batch-edit.zh-tw.png",
     "site/assets/images/ec-multiple-variants-product-batch-edit.zh-tw.png",
@@ -440,7 +441,6 @@
     "site/ec/products/設定商品多層級分類",
     "site/ec/products/設定加價購群組/index.html",
     "site/ec/products/設定加價購群組",
-    "docs/ec/products/商品管理快速上手.md",
     "templates/lucide-flask-conical.md",
     "docs/ec/store/系統通知設定.md",
     "site/assets/images/ec-multiple-variants-product-complete.zh-tw.png",

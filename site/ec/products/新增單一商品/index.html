@@ -4102,16 +4102,16 @@
 <li><a href="#多款式商品">多款式商品</a>：商品有多種規格需要設定，如不同的顏色跟尺寸。</li>
 </ul>
 <details class="note">
-<summary>了解商品 <em><abbr title="由多個規格項目組合而成的具體販售單位，例如 紅色 + M 號即為一個商品款式。">款式</abbr></em>、<em><abbr title="商品特性的分類標籤，例如：顏色、尺寸、容量、材質。用來描述商品可被區分的屬性，幫助商家管理和顧客識別產品的不同版本跟屬性。">規格</abbr></em> 跟 <em><abbr title="特定規格下，顧客可選擇的具體屬性值或選項，例如顏色規格下面的紅色、藍色。">規格項目</abbr></em> </summary>
+<summary>了解商品款式、規格跟規格項目</summary>
 <ul>
 <li><abbr title="商品特性的分類標籤，例如：顏色、尺寸、容量、材質。用來描述商品可被區分的屬性，幫助商家管理和顧客識別產品的不同版本跟屬性。">規格</abbr> = 商品的分類方式（例如：顏色、尺寸）</li>
 <li><abbr title="特定規格下，顧客可選擇的具體屬性值或選項，例如顏色規格下面的紅色、藍色。">規格項目</abbr> = 特定分類下的選項內容（例如：顏色下的紅色、尺寸下的　M 號）</li>
-<li>商品款式 = 實際販售的規格組合（例如：紅色 + M 號）</li>
+<li><abbr title="由多個規格項目組合而成的具體販售單位，例如 紅色 + M 號即為一個商品款式。">款式</abbr> = 實際販售的規格組合（例如：紅色 + M 號）</li>
 </ul>
 <table>
 <thead>
 <tr>
-<th>顏色 \ 尺寸</th>
+<th>顏色 \ 尺寸規格</th>
 <th>S 號</th>
 <th>M 號</th>
 </tr>
@@ -4137,6 +4137,7 @@
 <li>點擊 <strong>建立單一款式商品</strong>，進入商品編輯頁面。</li>
 <li>依照需求設定以下相關欄位，完成後點擊 <strong>儲存</strong> 套用設定。</li>
 </ol>
+<h5 id="商品價格與編號">商品價格與編號<a class="headerlink" href="#商品價格與編號" title="Permanent link">&para;</a></h5>
 <table>
 <thead>
 <tr>
@@ -4171,6 +4172,18 @@
 <td>商品編號</td>
 <td><abbr title="將電商平台（EC）與 倉儲管理系統（WMS）進行串接整合的運作模式。">串倉</abbr>、<abbr title="Point of Sale，門市進行交易時所使用的銷售作業系統，用於完成商品結帳、付款、開立收據，並同步記錄銷售資料、庫存變化與營收資訊。">POS</abbr> 系統必填</td>
 </tr>
+</tbody>
+</table>
+<h5 id="庫存管理">庫存管理<a class="headerlink" href="#庫存管理" title="Permanent link">&para;</a></h5>
+<table>
+<thead>
+<tr>
+<th>欄位</th>
+<th>說明</th>
+<th>備註 / 版本差異</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>管理庫存</td>
 <td>開啟後可設定下列欄位</td>
@@ -4191,6 +4204,18 @@
 <td>商品庫存為 0 時，是否允許顧客購買。<br>停止銷售：庫存為 0 時顯示 <em>聯絡店家</em> 選項。<br>繼續銷售：庫存為 0 時顯示 <em>預購商品</em> 選項。</td>
 <td><em>停止銷售</em>：一般商品建議選項，選擇以避免商品超賣。<br> <em>繼續銷售</em>：預購商品選項，選擇以開放商品預購。<br>了解如何<a href="../設定多購物車#設定預購通路">設定預購通路</a>。</td>
 </tr>
+</tbody>
+</table>
+<h5 id="物流設定">物流設定<a class="headerlink" href="#物流設定" title="Permanent link">&para;</a></h5>
+<table>
+<thead>
+<tr>
+<th>欄位</th>
+<th>說明</th>
+<th>備註 / 版本差異</th>
+</tr>
+</thead>
+<tbody>
 <tr>
 <td>收貨地址</td>
 <td>設定是否需填寫地址</td>
@@ -4267,7 +4292,7 @@
 </div>
 </div>
 <h4 id="批次操作多款式商品">批次操作多款式商品<a class="headerlink" href="#批次操作多款式商品" title="Permanent link">&para;</a></h4>
-<p>透過批次操作選單，一次套用相同的商品資訊（如價格、庫存、圖片、材積與重量）至不同款式商品。</p>
+<p>透過批次操作選單，一次套用相同的商品資訊（如價格、庫存、圖片、材積與重量）至多個款式商品。</p>
 <ol>
 <li>選取欲批次設定的商品款式。</li>
 <li>點擊 <strong>Select</strong>，選擇批次操作選項（如價格、庫存等），進入編輯頁面。</li>
@@ -4281,7 +4306,7 @@
 </details>
 <details class="quote">
 <summary>多款式商品設定時，有規格項目的數量限制嗎？</summary>
-<p>每個款式至少需有 <em>一個</em> 項目。例如，若設定顏色規格，則至少需新增一種顏色選項。</p>
+<p>每個款式至少需有 <em>1</em> 個項目。例如，若設定顏色規格，則至少需新增一種顏色選項。</p>
 </details>
 <h2 id="延伸閱讀">延伸閱讀<a class="headerlink" href="#延伸閱讀" title="Permanent link">&para;</a></h2>
 <ul>
