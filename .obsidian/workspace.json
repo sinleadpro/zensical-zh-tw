@@ -49,20 +49,6 @@
             }
           },
           {
-            "id": "7c69d1b18e8e4117",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/index.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
             "id": "af1500b862e7a52b",
             "type": "leaf",
             "state": {
@@ -74,20 +60,6 @@
               },
               "icon": "lucide-file",
               "title": "Excel 大量匯入商品"
-            }
-          },
-          {
-            "id": "33cfa97cdb02f707",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/get-started.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "get-started"
             }
           },
           {
@@ -224,31 +196,17 @@
         "type": "tabs",
         "children": [
           {
-            "id": "20aaff79c8744290",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.cyberbiz.io/support/?p=1958",
-                "title": "所有商品-新增商品(單筆新增、更新商品)",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "所有商品-新增商品(單筆新增、更新商品)"
-            }
-          },
-          {
             "id": "ce93d4a52c03bdb3",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=7497/#mal",
-                "title": "商品管理-商品描述、設定",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=924",
+                "title": "商品上架：批次上架 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "商品管理-商品描述、設定"
+              "title": "商品上架：批次上架 - CYBERBIZ 一般版教學文件"
             }
           },
           {
@@ -257,12 +215,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=2025",
-                "title": "超商物流限制與排除設定",
+                "url": "https://www.cyberbiz.io/support/?p=1960",
+                "title": "EXCEL 大量匯入商品",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "超商物流限制與排除設定"
+              "title": "EXCEL 大量匯入商品"
             }
           },
           {
@@ -271,12 +229,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=894",
-                "title": "所有商品-新增商品(單筆新增、更新商品) - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/support/?p=33323",
+                "title": "EXCEL大量匯入商品(多筆新增、更新商品)",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "所有商品-新增商品(單筆新增、更新商品) - CYBERBIZ 一般版教學文件"
+              "title": "EXCEL大量匯入商品(多筆新增、更新商品)"
             }
           }
         ]
@@ -467,40 +425,42 @@
   },
   "active": "ee4de6e4fb7a4876",
   "lastOpenFiles": [
+    "site/assets/images/ec-product-excel-empty-inventory.zh-tw.png",
+    "site/assets/images/ec-product-excel-existing-inventory.zh-tw.png",
+    "docs/assets/images/ec-product-excel-existing-inventory.zh-tw.png",
+    "docs/assets/images/ec-product-excel-empty-inventory.zh-tw.png",
+    "ec-export-product.zh-tw.png",
+    "site/assets/images/ec-export-product.zh-tw.png",
+    "docs/assets/images/ec-export-product.zh-tw.png",
+    "ec-advance-mass-import.zh-tw.png",
+    "site/assets/images/ec-advance-mass-import.zh-tw.png",
+    "docs/assets/images/ec-advance-mass-import.zh-tw.png",
+    "docs/ec/products/Excel 大量匯入商品.md",
+    "docs/resources/references/商品詳細資訊設定.md",
+    "docs/ec/get-started.md",
     "docs/ec/products/商品管理快速上手.md",
-    "site/ec/products/設定商品配送屬性（宅配貨到付款）/index.html",
-    "site/ec/products/設定商品配送屬性（宅配貨到付款）",
-    "site/ec/payments/設定信用卡 3D 驗證門檻/index.html",
-    "site/ec/payments/設定信用卡 3D 驗證門檻",
-    "site/ec/products/設定電子票券門市權限/index.html",
-    "site/ec/products/設定電子票券門市權限",
-    "site/ec/products/設定前台商品篩選器/index.html",
-    "site/ec/products/設定前台商品篩選器",
-    "site/ec/products/後台搜尋商品/index.html",
-    "site/ec/products/後台搜尋商品",
+    "site/storepal/index.html",
+    "site/storepal",
+    "site/ec/get-started/index.html",
+    "site/ec/get-started",
+    "site/ec/products/新增組合商品/index.html",
+    "site/ec/products/新增組合商品",
+    "site/ec/products/設定加價購群組的多國語系名稱/index.html",
+    "site/ec/products/設定加價購群組的多國語系名稱",
+    "site/ec/products/product-activ/index.html",
+    "site/ec/products/product-activ",
+    "templates/lucide-globe.md",
+    "docs/ec/products/index.md",
     "templates/lucide-blend.md",
     "templates/lucide-funnel.md",
-    "docs/resources/references/商品詳細資訊設定.md",
-    "docs/ec/products/index.md",
-    "docs/ec/get-started.md",
     "docs/ec/index.md",
     "docs/index.md",
-    "docs/ec/products/Excel 大量匯入商品.md",
     "docs/ec/products/新增單一商品.md",
     "ec-multiple-variants-product-batch-edit.zh-tw.png",
-    "site/assets/images/ec-multiple-variants-product-batch-edit.zh-tw.png",
-    "docs/assets/images/ec-multiple-variants-product-batch-edit.zh-tw.png",
     "templates/lucide-flask-conical.md",
     "docs/ec/store/系統通知設定.md",
-    "site/assets/images/ec-multiple-variants-product-complete.zh-tw.png",
-    "site/assets/images/ec-multiple-variants-product-complete-frontend.zh-tw.png",
-    "docs/assets/images/ec-multiple-variants-product-complete.zh-tw.png",
-    "docs/assets/images/ec-multiple-variants-product-complete-frontend.zh-tw.png",
     "includes/abbreviations.md",
-    "site/assets/images/ec-create-multiple-variant-product-setting.zh-tw.png",
-    "docs/assets/images/ec-create-multiple-variant-product-setting.zh-tw.png",
     "docs/ec/products/編輯商品標語與商品簡述.md",
-    "ec-merchant-notification-setting.zh-tw.png",
     "docs/ec/products/設定商品排除搜尋.md",
     "docs/resources/使用 Jam 回報問題.md",
     "docs/resources/conventions.md",
@@ -510,7 +470,6 @@
     "docs/ec/products/設定多購物車.md",
     "docs/resources/index.md",
     "docs/ec/products/設定商品影片.md",
-    "docs/ec/products/電子票券指南.md",
-    "docs/ec/products/設定商品分類群組.md"
+    "docs/ec/products/電子票券指南.md"
   ]
 }
