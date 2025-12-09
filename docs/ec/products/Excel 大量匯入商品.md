@@ -29,14 +29,14 @@ prerequisites: []
 lang: zh-TW
 sites:
   - TW
-status: review
+status: ""
 tags:
   - Excel
   - 匯入
   - 商品
-difficulty: 中級
+difficulty: medium
 audiences:
-  - 電商商家
+  - merchant
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=924
   - https://www.cyberbiz.io/support/?p=1960
