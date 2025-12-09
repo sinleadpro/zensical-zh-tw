@@ -63,6 +63,20 @@
             }
           },
           {
+            "id": "dd74725397668d72",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "includes/abbreviations.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "abbreviations"
+            }
+          },
+          {
             "id": "39969e69e3c8acfa",
             "type": "leaf",
             "state": {
@@ -195,34 +209,6 @@
         "id": "ea951fb7d70bee14",
         "type": "tabs",
         "children": [
-          {
-            "id": "ce93d4a52c03bdb3",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=924",
-                "title": "商品上架：批次上架 - CYBERBIZ 一般版教學文件",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "商品上架：批次上架 - CYBERBIZ 一般版教學文件"
-            }
-          },
-          {
-            "id": "ddb78911ec5d2064",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.cyberbiz.io/support/?p=1960",
-                "title": "EXCEL 大量匯入商品",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "EXCEL 大量匯入商品"
-            }
-          },
           {
             "id": "8cce00984d69433c",
             "type": "leaf",
@@ -423,8 +409,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee4de6e4fb7a4876",
+  "active": "af1500b862e7a52b",
   "lastOpenFiles": [
+    "includes/abbreviations.md",
+    "docs/ec/products/Excel 大量匯入商品.md",
+    "templates/material-point-of-sale.md",
+    "ec-upload-product-excel.zh-tw.png",
+    "site/assets/images/ec-upload-product-excel.zh-tw.png",
+    "docs/assets/images/ec-upload-product-excel.zh-tw.png",
     "site/assets/images/ec-product-excel-empty-inventory.zh-tw.png",
     "site/assets/images/ec-product-excel-existing-inventory.zh-tw.png",
     "docs/assets/images/ec-product-excel-existing-inventory.zh-tw.png",
@@ -432,10 +424,6 @@
     "ec-export-product.zh-tw.png",
     "site/assets/images/ec-export-product.zh-tw.png",
     "docs/assets/images/ec-export-product.zh-tw.png",
-    "ec-advance-mass-import.zh-tw.png",
-    "site/assets/images/ec-advance-mass-import.zh-tw.png",
-    "docs/assets/images/ec-advance-mass-import.zh-tw.png",
-    "docs/ec/products/Excel 大量匯入商品.md",
     "docs/resources/references/商品詳細資訊設定.md",
     "docs/ec/get-started.md",
     "docs/ec/products/商品管理快速上手.md",
@@ -456,10 +444,8 @@
     "docs/ec/index.md",
     "docs/index.md",
     "docs/ec/products/新增單一商品.md",
-    "ec-multiple-variants-product-batch-edit.zh-tw.png",
     "templates/lucide-flask-conical.md",
     "docs/ec/store/系統通知設定.md",
-    "includes/abbreviations.md",
     "docs/ec/products/編輯商品標語與商品簡述.md",
     "docs/ec/products/設定商品排除搜尋.md",
     "docs/resources/使用 Jam 回報問題.md",

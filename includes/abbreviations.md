@@ -32,7 +32,7 @@
 *[Master PLUS Plan]: Master Plus, a subscription plan for the CYBERBIZ e-commerce platform.
 *[Enterprise Plan]: Enterprise, a subscription plan for the CYBERBIZ e-commerce platform.
 *[B2C]: Business to Consumer, a business model where companies sell products or services directly to consumers. In the B2C model, businesses conduct transactions directly with end consumers through online or offline channels.
-*[EC]: E-commerce.
+*[EC]: E-commerce，電子商務，透過網際網路進行商品或服務的展示、交易、付款與出貨等商業活動的整體系統與營運模式。
 *[COD]: Cash on Delivery, payment for an order upon receipt rather than online beforehand. Common in logistics delivery services such as home delivery and express delivery.
 *[C2C]: Consumer to Consumer, a business model where transactions occur directly between consumers. In this model, the platform provides transaction and payment tools, but both buyers and sellers are individual consumers, not businesses (B2C) or businesses (B2B).
 *[EDM]: Electronic Direct Mail, a method by which merchants send marketing messages, event notifications, or promotional content to members or potential customers via email. Commonly used to increase brand exposure, encourage repeat purchases, and promote new products.

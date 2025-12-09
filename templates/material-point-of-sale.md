@@ -1,0 +1,1 @@
+:material-point-of-sale:
