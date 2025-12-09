@@ -1,3 +1,7 @@
+---
+icon: lucide/rocket
+---
+
 # :lucide-baby: 新手上路  
 
 歡迎使用 CYBERBIZ PLUS 新手上路指南！  

@@ -49,6 +49,20 @@
             }
           },
           {
+            "id": "7c69d1b18e8e4117",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
             "id": "af1500b862e7a52b",
             "type": "leaf",
             "state": {
@@ -60,6 +74,34 @@
               },
               "icon": "lucide-file",
               "title": "Excel 大量匯入商品"
+            }
+          },
+          {
+            "id": "33cfa97cdb02f707",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/get-started.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "get-started"
+            }
+          },
+          {
+            "id": "39969e69e3c8acfa",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/resources/references/商品詳細資訊設定.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "商品詳細資訊設定"
             }
           },
           {
@@ -175,7 +217,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       },
       {
         "id": "ea951fb7d70bee14",
@@ -400,7 +442,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -423,24 +465,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2b2d8722c4ab60a4",
+  "active": "ee4de6e4fb7a4876",
   "lastOpenFiles": [
     "docs/ec/products/商品管理快速上手.md",
+    "site/ec/products/設定商品配送屬性（宅配貨到付款）/index.html",
+    "site/ec/products/設定商品配送屬性（宅配貨到付款）",
+    "site/ec/payments/設定信用卡 3D 驗證門檻/index.html",
+    "site/ec/payments/設定信用卡 3D 驗證門檻",
+    "site/ec/products/設定電子票券門市權限/index.html",
+    "site/ec/products/設定電子票券門市權限",
+    "site/ec/products/設定前台商品篩選器/index.html",
+    "site/ec/products/設定前台商品篩選器",
+    "site/ec/products/後台搜尋商品/index.html",
+    "site/ec/products/後台搜尋商品",
+    "templates/lucide-blend.md",
+    "templates/lucide-funnel.md",
+    "docs/resources/references/商品詳細資訊設定.md",
+    "docs/ec/products/index.md",
+    "docs/ec/get-started.md",
+    "docs/ec/index.md",
+    "docs/index.md",
+    "docs/ec/products/Excel 大量匯入商品.md",
     "docs/ec/products/新增單一商品.md",
     "ec-multiple-variants-product-batch-edit.zh-tw.png",
     "site/assets/images/ec-multiple-variants-product-batch-edit.zh-tw.png",
     "docs/assets/images/ec-multiple-variants-product-batch-edit.zh-tw.png",
-    "docs/ec/products/Excel 大量匯入商品.md",
-    "site/ec/products/設定商品超商物流限制與排除選項/index.html",
-    "site/ec/products/設定商品超商物流限制與排除選項",
-    "site/ec/products/設定 VIP 會員專屬價格/index.html",
-    "site/ec/products/設定 VIP 會員專屬價格",
-    "site/ec/products/設定商品排除搜尋/index.html",
-    "site/ec/products/設定商品排除搜尋",
-    "site/ec/products/設定商品多層級分類/index.html",
-    "site/ec/products/設定商品多層級分類",
-    "site/ec/products/設定加價購群組/index.html",
-    "site/ec/products/設定加價購群組",
     "templates/lucide-flask-conical.md",
     "docs/ec/store/系統通知設定.md",
     "site/assets/images/ec-multiple-variants-product-complete.zh-tw.png",
@@ -452,11 +501,9 @@
     "docs/assets/images/ec-create-multiple-variant-product-setting.zh-tw.png",
     "docs/ec/products/編輯商品標語與商品簡述.md",
     "ec-merchant-notification-setting.zh-tw.png",
-    "docs/ec/products/index.md",
     "docs/ec/products/設定商品排除搜尋.md",
     "docs/resources/使用 Jam 回報問題.md",
     "docs/resources/conventions.md",
-    "docs/index.md",
     "docs/ec/products/設定商品標籤.md",
     "docs/ec/products/設定前台商品篩選器.md",
     "docs/ec/products/啟用留言區 reCAPTCHA.md",
@@ -464,11 +511,6 @@
     "docs/resources/index.md",
     "docs/ec/products/設定商品影片.md",
     "docs/ec/products/電子票券指南.md",
-    "docs/ec/products/設定商品分類群組.md",
-    "archive/新增單一商品.md",
-    "docs/ec/payments/設定 Apple Pay.md",
-    "docs/ec/payments/設定信用卡 3D 驗證門檻.md",
-    "docs/ec/payments/申請 CYBERBIZ PAYMENTS.md",
-    "templates/badge-cyb-extensions.md"
+    "docs/ec/products/設定商品分類群組.md"
   ]
 }
