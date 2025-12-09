@@ -437,8 +437,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8cce00984d69433c",
+  "active": "af1500b862e7a52b",
   "lastOpenFiles": [
+    "site/ec/products/設定加價購群組/index.html",
+    "site/ec/products/設定加價購群組",
+    "site/ec/products/設定商品配送屬性（一般宅配）/index.html",
+    "site/ec/products/設定商品配送屬性（一般宅配）",
+    "site/pos/index.html",
+    "site/pos",
+    "site/resources/conventions/index.html",
+    "site/resources/conventions",
+    "site/ec/products/編輯商品標語與商品簡述/index.html",
+    "site/ec/products/編輯商品標語與商品簡述",
+    "site/ec/get-started/index.html",
     "docs/ec/products/Excel 大量匯入商品.md",
     "docs/ec/products/新增單一商品.md",
     "templates/yaml.md",
@@ -457,16 +468,6 @@
     "docs/resources/references/商品詳細資訊設定.md",
     "docs/ec/get-started.md",
     "docs/ec/products/商品管理快速上手.md",
-    "site/storepal/index.html",
-    "site/storepal",
-    "site/ec/get-started/index.html",
-    "site/ec/get-started",
-    "site/ec/products/新增組合商品/index.html",
-    "site/ec/products/新增組合商品",
-    "site/ec/products/設定加價購群組的多國語系名稱/index.html",
-    "site/ec/products/設定加價購群組的多國語系名稱",
-    "site/ec/products/product-activ/index.html",
-    "site/ec/products/product-activ",
     "templates/lucide-globe.md",
     "docs/ec/products/index.md",
     "templates/lucide-blend.md",
@@ -483,7 +484,6 @@
     "docs/ec/products/設定前台商品篩選器.md",
     "docs/ec/products/啟用留言區 reCAPTCHA.md",
     "docs/ec/products/設定多購物車.md",
-    "docs/resources/index.md",
-    "docs/ec/products/設定商品影片.md"
+    "docs/resources/index.md"
   ]
 }
