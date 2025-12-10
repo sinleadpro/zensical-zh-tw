@@ -339,7 +339,7 @@ search:
 
 <div class="grid cards" markdown>
 
--   :lucide-rss: [__功能報報__](#)  
+-   :lucide-megaphone: [__功能報報__](#)  
 	了解最新動態與實用技巧，請持續關注我們的部落格。
 
 -   :lucide-history: [__更新紀錄__](#)  
