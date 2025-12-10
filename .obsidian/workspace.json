@@ -77,6 +77,48 @@
             }
           },
           {
+            "id": "638171902c347e4b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/設定商品標籤.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定商品標籤"
+            }
+          },
+          {
+            "id": "173b047727ac37e2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "0a2a14bc69a79adf",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/排除商品上傳至第三方平台.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "排除商品上傳至第三方平台"
+            }
+          },
+          {
             "id": "a747741399c36656",
             "type": "leaf",
             "state": {
@@ -189,7 +231,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       },
       {
         "id": "ea951fb7d70bee14",
@@ -224,20 +266,6 @@
             }
           },
           {
-            "id": "ea72f173687dcef4",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=894",
-                "title": "所有商品-新增商品(單筆新增、更新商品) - CYBERBIZ 一般版教學文件",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "所有商品-新增商品(單筆新增、更新商品) - CYBERBIZ 一般版教學文件"
-            }
-          },
-          {
             "id": "5966163e457c587f",
             "type": "leaf",
             "state": {
@@ -266,7 +294,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -452,37 +480,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ee4de6e4fb7a4876",
+  "active": "173b047727ac37e2",
   "lastOpenFiles": [
-    "site/ec/products/啟用留言區 reCAPTCHA/index.html",
-    "site/ec/products/啟用留言區 reCAPTCHA",
+    "docs/ec/products/設定商品標籤.md",
+    "site/ec/payments/設定信用卡 3D 驗證門檻/index.html",
+    "site/ec/payments/設定信用卡 3D 驗證門檻",
     "site/ec/products/設定商品影片/index.html",
     "site/ec/products/設定商品影片",
-    "site/ec/products/設定不適用折扣群組/index.html",
-    "site/ec/products/設定不適用折扣群組",
-    "site/ec/products/電子票券優惠設定/index.html",
-    "site/ec/products/電子票券優惠設定",
     "site/ec/products/參考資源/結帳優惠計算順序/index.html",
-    "site/ec/products/參考資源/結帳優惠計算順序-rev/index.html",
-    "site/ec/products/參考資源/商品可見性指南/index.html",
-    "site/assets/images/ec-automated-advertising-system-campaign-management.zh-tw.png",
-    "site/assets/images/ec-automated-advertising-system-ad-funds.zh-tw.png",
-    "docs/assets/images/ec-automated-advertising-system-ad-funds.zh-tw.png",
-    "docs/assets/images/ec-automated-advertising-system-campaign-management.zh-tw.png",
-    "ec-automated-advertising-system-google-ads-settings.zh-tw.png",
-    "site/assets/images/ec-automated-advertising-system-google-ads-settings.zh-tw.png",
-    "docs/assets/images/ec-automated-advertising-system-google-ads-settings.zh-tw.png",
+    "site/ec/products/參考資源/結帳優惠計算順序",
+    "site/ec/orders/index.html",
+    "site/ec/products/index-old/index.html",
+    "site/ec/products/index-old",
+    "site/resources/conventions/index.html",
+    "docs/ec/products/排除商品上傳至第三方平台.md",
     "docs/ec/integrations/設定 Google 購物廣告.md",
     "docs/ec/integrations/設定自動化廣告.md",
+    "ec-charts-advertising-analysis.zh-tw.png",
+    "site/assets/images/ec-charts-advertising-analysis.zh-tw.png",
+    "docs/assets/images/ec-charts-advertising-analysis.zh-tw.png",
+    "ec-gmc-product-image-choice.zh-tw.png",
+    "site/assets/images/ec-gmc-product-image-choice.zh-tw.png",
+    "docs/assets/images/ec-gmc-product-image-choice.zh-tw.png",
+    "ec-google-ads.zh-tw.png",
+    "site/assets/images/ec-google-ads.zh-tw.png",
+    "docs/assets/images/ec-google-ads.zh-tw.png",
+    "ec-integrations-gmc.zh-tw.png",
     "docs/ec/products/新增單一商品.md",
     "docs/ec/products/設定商品影片.md",
     "docs/ec/products/設定多購物車.md",
     "docs/ec/products/編輯商品標語與商品簡述.md",
     "includes/abbreviations.md",
     "docs/resources/references/商品詳細資訊設定.md",
-    "site/assets/images/ec-automated-advertising-system.zh-tw.png",
-    "docs/assets/images/ec-automated-advertising-system.zh-tw.png",
-    "ec-automated-advertising-system.zh-tw.png",
     "docs/ec/products/index.md",
     "templates/yaml.md",
     "templates/lucide-asterisk.md",
@@ -497,8 +526,6 @@
     "docs/ec/get-started.md",
     "templates/lucide-globe.md",
     "templates/lucide-blend.md",
-    "templates/lucide-funnel.md",
-    "docs/ec/index.md",
-    "templates/lucide-flask-conical.md"
+    "templates/lucide-funnel.md"
   ]
 }
