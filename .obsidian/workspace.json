@@ -439,8 +439,10 @@
   },
   "active": "af1500b862e7a52b",
   "lastOpenFiles": [
-    "docs/ec/products/新增單一商品.md",
+    "templates/lucide-circle-x.md",
     "docs/ec/products/Excel 大量匯入商品.md",
+    "templates/lucide-circle-check.md",
+    "docs/ec/products/新增單一商品.md",
     "site/ec/products/新增組合商品/index.html",
     "site/ec/products/新增組合商品",
     "site/ec/products/設定商品影片/index.html",
@@ -482,7 +484,6 @@
     "docs/ec/products/設定商品標籤.md",
     "docs/ec/products/設定前台商品篩選器.md",
     "docs/ec/products/啟用留言區 reCAPTCHA.md",
-    "docs/ec/products/設定多購物車.md",
-    "docs/resources/index.md"
+    "docs/ec/products/設定多購物車.md"
   ]
 }
