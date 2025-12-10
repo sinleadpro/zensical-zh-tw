@@ -130,14 +130,14 @@ copyright = """
         { "整合串接" = [
             { "overview" = "ec/integrations/index.md" },  
             { "APP MARKET" = [
-                    { "" = "ec/integgrations/"},
-                    { "" = "ec/integgrations/"},
-                    { "" = "ec/integgrations/"}
+                    { "" = "ec/integrations/"},
+                    { "" = "ec/integrations/"},
+                    { "" = "ec/integrations/"}
             ]},
             { "第三方整合" = [
-                    { "" = "ec/integgrations/"},
-                    { "" = "ec/integgrations/"},
-                    { "" = "ec/integgrations/"}
+                    { "設定 Google 購物廣告" = "ec/integrations/設定 Google 購物廣告.md" },
+                    { "" = "ec/integrations/"},
+                    { "" = "ec/integrations/"}
             ]},
         ]},
     ]},
