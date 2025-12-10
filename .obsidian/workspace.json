@@ -245,42 +245,41 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       },
       {
         "id": "ea951fb7d70bee14",
         "type": "tabs",
         "children": [
           {
-            "id": "8cce00984d69433c",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.cyberbiz.io/support/?p=33323",
-                "title": "EXCEL大量匯入商品(多筆新增、更新商品)",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "EXCEL大量匯入商品(多筆新增、更新商品)"
-            }
-          },
-          {
             "id": "d5c02e7de0c0217c",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=1960",
-                "title": "EXCEL 大量匯入商品",
+                "url": "https://www.cyberbiz.io/support/?p=1958",
+                "title": "所有商品-新增商品(單筆新增、更新商品)",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "EXCEL 大量匯入商品"
+              "title": "所有商品-新增商品(單筆新增、更新商品)"
+            }
+          },
+          {
+            "id": "ea72f173687dcef4",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.cyberbiz.io/helpcenter/?p=894",
+                "title": "所有商品-新增商品(單筆新增、更新商品) - CYBERBIZ 一般版教學文件",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "所有商品-新增商品(單筆新增、更新商品) - CYBERBIZ 一般版教學文件"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -466,9 +465,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "00e0cf22459c3d06",
+  "active": "d5c02e7de0c0217c",
   "lastOpenFiles": [
+    "docs/ec/products/Excel 大量匯入商品.md",
     "docs/ec/products/設定商品影片.md",
+    "docs/ec/products/新增單一商品.md",
+    "ec-create-product-basic-settings.zh-tw.png",
+    "site/assets/images/ec-create-product-basic-settings.zh-tw.png",
+    "docs/assets/images/ec-create-product-basic-settings.zh-tw.png",
     "site/ec/products/設定秘密商品群組/index.html",
     "site/ec/products/設定秘密商品群組",
     "site/ec/products/設定商品多層級分類/index.html",
@@ -480,9 +484,7 @@
     "site/ec/products/設定前台商品群組排序/index.html",
     "site/ec/products/設定前台商品群組排序",
     "docs/ec/products/商品管理快速上手.md",
-    "docs/ec/products/新增單一商品.md",
     "docs/resources/glossary.md",
-    "docs/ec/products/Excel 大量匯入商品.md",
     "docs/index.md",
     "templates/lucide-megaphone.md",
     "docs/resources/references/商品詳細資訊設定.md",
@@ -498,9 +500,6 @@
     "site/assets/images/ec-product-excel-existing-inventory.zh-tw.png",
     "docs/assets/images/ec-product-excel-existing-inventory.zh-tw.png",
     "docs/assets/images/ec-product-excel-empty-inventory.zh-tw.png",
-    "ec-export-product.zh-tw.png",
-    "site/assets/images/ec-export-product.zh-tw.png",
-    "docs/assets/images/ec-export-product.zh-tw.png",
     "docs/ec/get-started.md",
     "templates/lucide-globe.md",
     "docs/ec/products/index.md",
@@ -512,7 +511,6 @@
     "docs/ec/products/編輯商品標語與商品簡述.md",
     "docs/ec/products/設定商品排除搜尋.md",
     "docs/resources/使用 Jam 回報問題.md",
-    "docs/resources/conventions.md",
-    "docs/ec/products/設定商品標籤.md"
+    "docs/resources/conventions.md"
   ]
 }
