@@ -33,29 +33,23 @@ note:
 串接 Google Merchant Center (GMC)、同步商品資料至 Google 搜尋與購物廣告。
 { .subtitle }
 
-[:material-arrow-right-circle:](){ .badge-icon title="相關操作" }[[自動化廣告系統]]{ .badge-text }
 
-## 說明概述
-### 什麼是 Google Merchant Center
-[[glossary/index#GMC|Google Merchant Center (GMC)]] 是 Google 提供給商家的商品資料上傳與管理平台，協助整合商品資訊至 Google 生態系統，如 Google 搜尋與 Google 購物廣告，以提升商品曝光、廣告成效與轉換效率，並支援自動化管理。
+## 什麼是 Google Merchant Center
 
-=== "使用情境"
+Google Merchant Center (GMC) 是 Google 提供的商品資料上傳與管理平台，可將商家商品資訊整合至 Google 生態系統（如 Google 搜尋與 Google 購物廣告），以提升商品曝光、廣告成效與轉換效率，並支援自動化管理。
 
-    - **提升商品曝光**：商品會顯示於 Google 搜尋結果的「購物」區塊，增加潛在顧客瀏覽量。
-    - **精準投放廣告**：搭配 Google Ads 投放商品廣告，鎖定目標受眾，提高轉換率。
-    - **自動化管理**：自動同步商品庫存、價格與圖片，減少手動維護時間。
-    - **數據追蹤與優化**：收集使用者互動與廣告成效數據，支援後續優化與分析。
+- 提升商品曝光：商品會出現在 Google 搜尋結果的「購物」區塊，增加潛在顧客瀏覽量。
+- 精準投放廣告：搭配 Google Ads 推廣商品，鎖定目標受眾，提高轉換率。
+- 自動化管理：自動同步商品庫存、價格與圖片，減少手動維護工作。
+- 數據追蹤與優化：收集使用者互動與廣告成效資料，支援後續分析與優化。
 
----
 
 ## 操作流程
 ### 設定商品資料同步方式
 
 串接 Google Merchant Center 前，請先於 CYBERBIZ 後台設定相關欄位，以確保商品資料能正確傳送至 GMC。
 
-=== ":material-numeric-1-circle: 進入設定頁面"
-
-    登入 CYBERBIZ 電商後台，前往「第三方整合」→「谷歌 Google 設定」→「Google Merchant Center」。
+1. 登入 CYBERBIZ 管理後台，前往 **第三方整合 > 谷歌 Google 設定 > Google Merchant Center**。
 
 === ":material-numeric-2-circle: 配置商品同步選項"
 
@@ -125,8 +119,8 @@ note:
 
 ### 申請 Google Merchant Center 帳號
 
-!!! tip "使用 CYBERBIZ 代管 GMC 帳號，避免廣告投放異常 `建議`" 
-    若您要投放 Google 自動化廣告，請直接在自動化廣告設定頁創建 [[CYBERBIZ 代管 GMC 帳號]] 並設定廣告，無須另外自行申請 GMC 帳號。如此可避免因人員操作 GMC 帳號造成權限變更或廣告投遞異常。
+!!! tip "最佳做法" 
+    若您要投放 Google 自動化廣告，請直接在自動化廣告設定頁創建 [CYBERBIZ 代管 GMC 帳號](設定自動化廣告#cyberbiz-代管)並設定廣告，無須另外自行申請 GMC 帳號。如此可避免因人員操作 GMC 帳號造成權限變更造成廣告投遞異常。
 
 === ":material-numeric-1-circle: 前往 GMC 登入頁面" 
 
@@ -246,15 +240,6 @@ note:
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC22-1024x486.png){ .screenshot }
 
----
-
-## 後續操作
-### 自動化廣告
-<div class="grid cards" markdown>
-- __[[自動化廣告系統]]__
-</div>
----
-
 ## 常見問題
 
 ??? quote "CYBERBIZ 代管 GMC 帳號與自行申請 GMC 帳號有何差異？"
@@ -265,8 +250,6 @@ note:
 
 ??? quote "Google 商品類別可以批次設定嗎？"
     目前 Google 商品類別需逐筆商品設定，無法批次套用。
-
----
 
 ## 延伸閱讀
 

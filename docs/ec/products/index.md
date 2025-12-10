@@ -155,6 +155,12 @@ hide:
 	  [啟用商品評論 :lucide-lock:](商品評論指南.md)  
 	  [啟用留言區 reCAPTCHA :lucide-lock:](啟用留言區 reCAPTCHA.md)  
 
+- :lucide-tag: __廣告管理__
+
+	---
+	[串接 Google 購物廣告](設定 Google 購物廣告)  
+	[自動化廣告](設定自動化廣告)
+	
 </div>
 
 ---

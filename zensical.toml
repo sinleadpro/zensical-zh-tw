@@ -136,7 +136,7 @@ copyright = """
             ]},
             { "第三方整合" = [
                     { "設定 Google 購物廣告" = "ec/integrations/設定 Google 購物廣告.md" },
-                    { "" = "ec/integrations/"},
+                    { "設定自動化廣告" = "ec/integrations/設定自動化廣告.md" },
                     { "" = "ec/integrations/"}
             ]},
         ]},
