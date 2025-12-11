@@ -82,7 +82,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/ec/products/index.md",
                 "mode": "source",
                 "source": true
               },
@@ -495,8 +495,8 @@
   },
   "active": "be2b7583ece9a6b7",
   "lastOpenFiles": [
-    "docs/ec/products/電子票券指南.md",
     "docs/index.md",
+    "docs/ec/products/電子票券指南.md",
     "docs/ec/products/index.md",
     "docs/ec/products/設定商品標籤.md",
     "docs/ec/index.md",
