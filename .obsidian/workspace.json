@@ -231,7 +231,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       },
       {
         "id": "ea951fb7d70bee14",
@@ -493,11 +493,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "373e004da346846e",
+  "active": "be2b7583ece9a6b7",
   "lastOpenFiles": [
+    "docs/ec/products/電子票券指南.md",
     "docs/index.md",
     "docs/ec/products/index.md",
-    "docs/ec/products/電子票券指南.md",
     "docs/ec/products/設定商品標籤.md",
     "docs/ec/index.md",
     "ec-remove-upload-to-third-party-platform-tag.zh-tw.png",

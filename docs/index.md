@@ -292,14 +292,6 @@ search:
 	
 	    [:octicons-arrow-right-24: Customization](#)
 	
-	-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
-	
-	    ---
-	
-	    Zensical is licensed under MIT and available on [GitHub]
-	
-	    [:octicons-arrow-right-24: License](#)
-	
 	</div>
 
 === "行銷成長"
