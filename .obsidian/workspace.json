@@ -54,44 +54,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/integrations/設定 Google 購物廣告.md",
+                "file": "docs/ec/products/新增組合商品.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定 Google 購物廣告"
+              "title": "新增組合商品"
             }
           },
           {
-            "id": "638171902c347e4b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/設定商品標籤.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定商品標籤"
-            }
-          },
-          {
-            "id": "be2b7583ece9a6b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/index.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "b8a019690e7d4d9d",
+            "id": "0ab698f556f122ce",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -105,17 +77,17 @@
             }
           },
           {
-            "id": "06d407aafbf6ccd8",
+            "id": "c807607d2183392b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/integrations/設定 Google 購物廣告.md",
+                "file": "docs/ec/products/設定商品標籤.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定 Google 購物廣告"
+              "title": "設定商品標籤"
             }
           },
           {
@@ -259,7 +231,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 3
       },
       {
         "id": "ea951fb7d70bee14",
@@ -271,12 +243,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=3521",
-                "title": "商品標籤管理設定",
+                "url": "https://www.cyberbiz.io/support/?p=37330",
+                "title": "組合商品",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "商品標籤管理設定"
+              "title": "組合商品"
             }
           },
           {
@@ -521,30 +493,33 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "06d407aafbf6ccd8",
+  "active": "ee4de6e4fb7a4876",
   "lastOpenFiles": [
-    "site/assets/images/ec-google-product-category.zh-tw.png",
-    "docs/assets/images/ec-google-product-category.zh-tw.png",
+    "site/assets/images/ec-combo-product-add.zh-tw.gif",
+    "docs/assets/images/ec-combo-product-add.zh-tw.gif",
     "docs/ec/products/新增單一商品.md",
-    "docs/ec/products/index.md",
-    "docs/index.md",
-    "docs/ec/products/電子票券指南.md",
+    "docs/ec/products/Excel 大量匯入商品.md",
+    "docs/ec/products/新增組合商品.md",
+    "site/assets/images/ec-combo-product-contents.zh-tw.png",
+    "docs/assets/images/ec-combo-product-contents.zh-tw.png",
+    "site/assets/images/ec-combo-product-image.zh-tw.png",
+    "docs/assets/images/ec-combo-product-image.zh-tw.png",
+    "ec-combo-product-basic-seeting.zh-tw.png",
+    "site/assets/images/ec-combo-product-basic-seeting.zh-tw.png",
+    "docs/assets/images/ec-combo-product-basic-seeting.zh-tw.png",
     "docs/ec/products/設定商品標籤.md",
+    "docs/ec/integrations/設定 Google 購物廣告.md",
+    "docs/index.md",
+    "docs/ec/products/編輯商品標語與商品簡述.md",
+    "site/assets/images/ec-gmc-connect-google-ads.zh-tw.png",
+    "docs/assets/images/ec-gmc-connect-google-ads.zh-tw.png",
+    "docs/ec/products/index.md",
+    "docs/ec/products/電子票券指南.md",
     "docs/ec/index.md",
-    "ec-remove-upload-to-third-party-platform-tag.zh-tw.png",
-    "site/assets/images/ec-remove-upload-to-third-party-platform-tag.zh-tw.png",
-    "docs/assets/images/ec-remove-upload-to-third-party-platform-tag.zh-tw.png",
-    "ec-product-tag-collection-delete.zh-tw.png",
-    "site/assets/images/ec-product-tag-collection-delete.zh-tw.png",
-    "docs/assets/images/ec-product-tag-collection-delete.zh-tw.png",
     "docs/ec/products/排除商品上傳至第三方平台.md",
     "templates/yaml.md",
-    "docs/ec/integrations/設定 Google 購物廣告.md",
     "docs/ec/products/商品管理快速上手.md",
     "docs/ec/integrations/設定自動化廣告.md",
-    "site/assets/images/ec-product-tag-sample.zh-tw.png",
-    "docs/assets/images/ec-product-tag-sample.zh-tw.png",
-    "ec-remove-product-from-tag-collection.zh-tw.png",
     "site/ec/payments/設定信用卡 3D 驗證門檻/index.html",
     "site/ec/payments/設定信用卡 3D 驗證門檻",
     "site/ec/products/設定商品影片/index.html",
@@ -557,17 +532,14 @@
     "site/resources/conventions/index.html",
     "docs/ec/products/設定商品影片.md",
     "docs/ec/products/設定多購物車.md",
-    "docs/ec/products/編輯商品標語與商品簡述.md",
     "includes/abbreviations.md",
     "docs/resources/references/商品詳細資訊設定.md",
     "templates/lucide-asterisk.md",
-    "docs/ec/products/Excel 大量匯入商品.md",
     "docs/resources/glossary.md",
     "templates/lucide-megaphone.md",
     "templates/lucide-circle-x.md",
     "templates/lucide-circle-check.md",
     "templates/material-point-of-sale.md",
-    "docs/ec/get-started.md",
-    "templates/lucide-globe.md"
+    "docs/ec/get-started.md"
   ]
 }

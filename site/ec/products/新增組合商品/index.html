@@ -4044,16 +4044,6 @@
 <p class="subtitle">建立 <em><abbr title="由商家預先設定好固定組合的商品，顧客購買時無法更換組合內的項目。">指定組合商品</abbr></em>  或 <em><abbr title="由商家設定可選範圍的商品組合，購買者可以自由選擇組合內的子商品及數量。">任選組合商品</abbr></em>，整合子商品定價、庫存與銷售規則。</p>
 <p><a href="../../../resources/conventions#適用方案"><span class="twemoji" title="適用方案"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span></a> | PLUS 企業  <a href="../../../resources/conventions#適用功能"><span class="twemoji" title="適用方案"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-toggle-right" viewBox="0 0 24 24"><circle cx="15" cy="12" r="3"/><rect width="20" height="14" x="2" y="5" rx="7"/></svg></span></a> | 拖拉版型</p>
 <p><img alt="" class="hero-page" src="../../../assets/images/ec-create-new-product-combo.zh-tw.png" title="新增組合商品：商品 &gt; 新增組合商品" /></p>
-<details class="tip">
-<summary>應用情境</summary>
-<ul>
-<li>提高銷售額：組合產品可以鼓勵顧客購買多個產品，從而提高銷售額。</li>
-<li>提高利潤：將多個產品組合在一起，可以創造出更高的價值，從而增加利潤。</li>
-<li>增加顧客忠誠度：組合產品可以提供更好的價值和體驗，從而增加顧客忠誠度，使他們更有可能回來購買。</li>
-<li>清理庫存：如果某些產品庫存積壓，零售商可以將它們與其他產品組合在一起，提供折扣，從而清理庫存。</li>
-<li>創造品牌形象：組合產品可以創造品牌形象，幫助零售商建立自己的品牌，增加品牌認知度。</li>
-</ul>
-</details>
 <h2 id="使用須知">使用須知<a class="headerlink" href="#使用須知" title="Permanent link">&para;</a></h2>
 <h3 id="適用行銷活動">適用行銷活動<a class="headerlink" href="#適用行銷活動" title="Permanent link">&para;</a></h3>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="適用" name="__tabbed_1" type="radio" /><input id="有條件適用" name="__tabbed_1" type="radio" /><input id="不適用" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="適用"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2m-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8z"/></svg></span> 適用</label><label for="有條件適用"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14h-2V9h2m0 9h-2v-2h2M1 21h22L12 2z"/></svg></span> 有條件適用</label><label for="不適用"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2c5.53 0 10 4.47 10 10s-4.47 10-10 10S2 17.53 2 12 6.47 2 12 2m3.59 5L12 10.59 8.41 7 7 8.41 10.59 12 7 15.59 8.41 17 12 13.41 15.59 17 17 15.59 13.41 12 17 8.41z"/></svg></span> 不適用</label></div>
@@ -4220,16 +4210,15 @@
 </div>
 </div>
 <h3 id="出貨說明">出貨說明<a class="headerlink" href="#出貨說明" title="Permanent link">&para;</a></h3>
-<p>組合商品訂單成立後，系統在產生超商/宅配託運單時，會產出以下四份檔案：</p>
+<p>組合商品訂單成立後，系統在產生超商/宅配託運單時，會產出以下四份檔案，所有檔案皆包含組合商品內所有子商品的詳細資訊：</p>
 <ul>
 <li>訂單明細</li>
 <li>出貨明細</li>
 <li>揀貨單</li>
 <li>託運單</li>
 </ul>
-<p>所有檔案皆包含組合商品內所有子商品的詳細資訊。</p>
 <h3 id="庫存管理">庫存管理<a class="headerlink" href="#庫存管理" title="Permanent link">&para;</a></h3>
-<p>組合商品是否可供購買（庫存是否足夠），取決於其子商品的庫存數量及設定。若其中任一子商品庫存不足，且該子商品設定為「庫存不足停止銷售」，則該組合商品將無法購買。</p>
+<p>組合商品是否可供購買（庫存是否足夠），取決於其子商品的庫存數量及設定。若其中任一子商品庫存不足，且該子商品庫存不足時設定為 <em>停止銷售</em>，則該組合商品將無法購買。了解<a href="../新增單一商品#庫存管理">庫存管理相關設定</a>。</p>
 <table>
 <thead>
 <tr>
@@ -4369,60 +4358,62 @@
 <li>登入 CYBERBIZ 管理後台，前往 <strong>商品 &gt; 組合商品</strong>。</li>
 <li>點選 <strong>新增組合商品</strong>。</li>
 </ol>
-<p><img alt="" src="../../../assets/images/ec-product-combo.png" /></p>
 <h3 id="編輯組合商品基本設定">編輯組合商品基本設定<a class="headerlink" href="#編輯組合商品基本設定" title="Permanent link">&para;</a></h3>
 <p>在編輯頁面中，依據需求設定組合商品的基本資訊。</p>
 <h4 id="基本設定">基本設定<a class="headerlink" href="#基本設定" title="Permanent link">&para;</a></h4>
-<p>請自行設定 <code>組合商品名稱</code> <code>商品網址</code> <code>商品標語</code> <code>商品簡述</code> <code>上架狀態</code> 等相關內容。</p>
-<blockquote>
-<p>建議在 <code>商品標語</code> 或 <code>商品簡述</code> 中說明組合商品內容物。可進一步<a href="../編輯商品標語與商品簡述">客製商品標語及商品簡述的文字風格</a>。</p>
+<p>請自行設定商品基本資訊，可參考<a href="../新增單一商品#基本設定">一般商品設定</a>：</p>
+<ul>
+<li>組合商品名稱 </li>
+<li><abbr title="商品頁面的專屬網址，用於前台存取商品頁面與搜尋引擎索引。">商品網址</abbr></li>
+<li><abbr title="顯示於商品頁面的簡短文字，用於快速傳達商品賣點或活動訊息，例如優惠訊息、功能亮點或品牌主張。">商品標語</abbr>：建議在此欄或商品簡述說明組合商品內容。</li>
+<li><abbr title="顯示於商品頁面的說明文字，用於快速介紹商品重點、功能或特色，協助顧客在短時間內理解商品內容與價值。">商品簡述</abbr>：建議在此欄或商品標語說明組合商品內容。</li>
+<li>上架狀態<blockquote>
+<p>組合商品的子商品上架狀態可為 <em>下架 或 *不公開</em>。若已停止販售請將商品從組合商品中移除。</p>
 </blockquote>
-<p><img alt="" src="../../../assets/images/ec-product-combo-basic.zh-tw.png" /></p>
+</li>
+</ul>
+<p><img alt="" src="../../../assets/images/ec-combo-product-basic-seeting.zh-tw.png" /></p>
 <h4 id="組合商品圖片">組合商品圖片<a class="headerlink" href="#組合商品圖片" title="Permanent link">&para;</a></h4>
 <p>建議自行製作包含組合商品內容物的圖片，以清晰呈現商品組合。</p>
-<p><img alt="" src="../../../assets/images/ec-product-combo-picture.zh-tw.png" /></p>
+<p><img alt="" src="../../../assets/images/ec-combo-product-image.zh-tw.png" /></p>
 <h3 id="設定組合商品內容">設定組合商品內容<a class="headerlink" href="#設定組合商品內容" title="Permanent link">&para;</a></h3>
-<p>設定組合商品包含的子商品，此處可設定為指定組合商品或任選組合商品。</p>
+<p>設定組合商品包含的子商品，可設定為以下兩種類型：</p>
 <ul>
 <li><a href="#指定組合商品"><abbr title="由商家預先設定好固定組合的商品，顧客購買時無法更換組合內的項目。">指定組合商品</abbr></a>：所有商品固定，消費者無法彈性選擇。 </li>
-<li><a href="#任選組合商品"><abbr title="由商家設定可選範圍的商品組合，購買者可以自由選擇組合內的子商品及數量。">任選組合商品</abbr></a>：顧客在預設的商品清單中，彈性選擇欲購買的商品組合。只要達到「<abbr title="任選組合商品中，顧客需選購的子商品總數。">任選組合總數</abbr>」的數量即可。</li>
+<li><a href="#任選組合商品"><abbr title="由商家設定可選範圍的商品組合，購買者可以自由選擇組合內的子商品及數量。">任選組合商品</abbr></a>：顧客在預設的商品清單中，彈性選擇欲購買的商品組合。只要達到 <em><abbr title="任選組合商品中，顧客需選購的子商品總數。">任選組合總數</abbr></em> 的數量即可。</li>
 </ul>
 <div class="admonition warning">
-<p class="admonition-title">商品一旦建立後，組合類型不可修改。</p>
+<p class="admonition-title">注意事項</p>
+<p>商品一旦建立後，組合類型不可修改。</p>
 </div>
-<h4 id="指定組合商品"><abbr title="由商家預先設定好固定組合的商品，顧客購買時無法更換組合內的項目。">指定組合商品</abbr><a class="headerlink" href="#指定組合商品" title="Permanent link">&para;</a></h4>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="指定組合商品" name="__tabbed_2" type="radio" /><input id="任選組合商品" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="指定組合商品"><abbr title="由商家預先設定好固定組合的商品，顧客購買時無法更換組合內的項目。">指定組合商品</abbr></label><label for="任選組合商品"><abbr title="由商家設定可選範圍的商品組合，購買者可以自由選擇組合內的子商品及數量。">任選組合商品</abbr></label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
 <ol>
 <li>選取 <strong><abbr title="由商家預先設定好固定組合的商品，顧客購買時無法更換組合內的項目。">指定組合商品</abbr></strong>。</li>
-<li>
-<p>在 <strong>組合商品內容</strong> 區塊，搜尋欲加入組合的商品。</p>
-<p><a class="screenshot" href="https://www.cyberbiz.io/support/wp-content/uploads/組合商品05.png"><img alt="搜尋商品" src="https://www.cyberbiz.io/support/wp-content/uploads/組合商品05.png" /></a></p>
-</li>
-<li>
-<p>商品會依照不同款式分別列出，勾選欲加入組合的商品。</p>
-</li>
-<li>
-<p>點選 <strong>將商品加入組合商品</strong>。</p>
-<p><a class="screenshot" href="https://www.cyberbiz.io/support/wp-content/uploads/組合商品06.png"><img alt="選擇商品款式" src="https://www.cyberbiz.io/support/wp-content/uploads/組合商品06.png" /></a></p>
-</li>
-<li>
-<p>編輯組合商品內容</p>
-<blockquote>
-<p><strong>指定購買數</strong>：此組合商品內容包含的子商品數量，例如：A 商品 × N 個。 <br />
-<strong>組合商品定價</strong>：組合商品的原始價格。  <br />
-<strong>組合商品售價</strong>：組合商品的實際銷售價格；若售價低於定價，前台將會顯示優惠價格的 UI。<br />
-<strong>紅利點數</strong>：此組合商品可折抵的紅利點數上限。</p>
-</blockquote>
-<p><a class="screenshot" href="https://www.cyberbiz.io/support/wp-content/uploads/組合商品07.png"><img alt="編輯組合商品內容" src="https://www.cyberbiz.io/support/wp-content/uploads/組合商品07.png" /></a></p>
+<li>在 <strong>組合商品內容</strong> 區塊，搜尋欲加入組合的商品。</li>
+<li>商品會依照不同款式分別列出，勾選欲加入組合的商品。</li>
+<li>點選 <strong>將商品加入組合商品</strong>。</li>
+<li>編輯組合商品內容<ul>
+<li><strong>指定購買數</strong>：此組合商品內容包含的子商品數量，例如：A 商品 × N 個。   </li>
+<li><strong>組合商品定價</strong>：組合商品的原始價格。    </li>
+<li><strong>組合商品售價</strong>：組合商品的實際銷售價格；若售價低於定價，前台將會顯示優惠價格的 UI。  </li>
+<li><strong>紅利點數</strong>：此組合商品可折抵的紅利點數上限。</li>
+</ul>
 </li>
 </ol>
-<h4 id="任選組合商品"><abbr title="由商家設定可選範圍的商品組合，購買者可以自由選擇組合內的子商品及數量。">任選組合商品</abbr><a class="headerlink" href="#任選組合商品" title="Permanent link">&para;</a></h4>
+<p><img alt="" src="../../../assets/images/ec-combo-product-add.zh-tw.gif" /></p>
+<div class="highlight"><pre><span></span><code>[![編輯組合商品內容](https://www.cyberbiz.io/support/wp-content/uploads/組合商品07.png)](https://www.cyberbiz.io/support/wp-content/uploads/組合商品07.png){ .screenshot }
+</code></pre></div>
+</div>
+<div class="tabbed-block">
 <ol>
 <li>選取「<abbr title="由商家設定可選範圍的商品組合，購買者可以自由選擇組合內的子商品及數量。">任選組合商品</abbr>」。</li>
 <li>
-<p>在「<abbr title="任選組合商品中，顧客需選購的子商品總數。">任選組合總數</abbr>」欄位中填入數值，決定消費者需選購子商品的總數。</p>
 <blockquote>
 <p>例如設定為 5，則顧客需選購 5 個子商品才得以將組合品加入購物車。</p>
 </blockquote>
+<p>在「<abbr title="任選組合商品中，顧客需選購的子商品總數。">任選組合總數</abbr>」欄位中填入數值，決定消費者需選購子商品的總數。</p>
 <p><a class="screenshot" href="https://www.cyberbiz.io/support/wp-content/uploads/組合商品10.png"><img alt="任選組合總數" src="https://www.cyberbiz.io/support/wp-content/uploads/組合商品10.png" /></a></p>
 </li>
 <li>
@@ -4434,32 +4425,38 @@
 </li>
 <li>
 <p>編輯組合商品內容</p>
-<blockquote>
-<p>組合商品定價：設定組合商品的原始價格。<br />
-組合商品售價：設定組合商品的實際銷售價格；若售價低於定價，前台將會顯示優惠價格的 UI。<br />
-紅利點數：設定此組合商品可折抵的紅利點數上限。</p>
-</blockquote>
-<p><a class="screenshot" href="https://www.cyberbiz.io/support/wp-content/uploads/組合商品12.png"><img alt="編輯組合商品內容" src="https://www.cyberbiz.io/support/wp-content/uploads/組合商品12.png" /></a></p>
-</li>
-<li>
-<p>設定完成畫面</p>
-<p>庫存數量計算方式請參考<a href="#stock">庫存管理</a>的商品組合C。</p>
-<p><img alt="設定完成畫面" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/組合商品08.png" /></p>
-<div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="前台結帳畫面" name="__tabbed_2" type="radio" /><input id="購物車畫面" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="前台結帳畫面">前台結帳畫面</label><label for="購物車畫面">購物車畫面</label></div>
-<div class="tabbed-content">
-<div class="tabbed-block">
-<p>消費者必須選購到後台設定的任選數量，才得以將組合商品加入購物車。</p>
-<p><img alt="前台結帳畫面1" src="https://www.cyberbiz.io/support/wp-content/uploads/組合商品13.png" /></p>
-<p>如果達到任選數量上限，會有 UI 提示消費者「已達上限」。</p>
-<p><img alt="前台結帳畫面2" src="https://www.cyberbiz.io/support/wp-content/uploads/組合商品14.png" /></p>
-</div>
-<div class="tabbed-block">
-<p><img alt="購物車畫面" src="https://www.cyberbiz.io/support/wp-content/uploads/組合商品15.png" /></p>
-</div>
-</div>
-</div>
 </li>
 </ol>
+</div>
+</div>
+</div>
+<blockquote>
+<p>組合商品定價：設定組合商品的原始價格。<br />
+  組合商品售價：設定組合商品的實際銷售價格；若售價低於定價，前台將會顯示優惠價格的 UI。<br />
+  紅利點數：設定此組合商品可折抵的紅利點數上限。</p>
+</blockquote>
+<div class="highlight"><pre><span></span><code>    [![編輯組合商品內容](https://www.cyberbiz.io/support/wp-content/uploads/組合商品12.png)](https://www.cyberbiz.io/support/wp-content/uploads/組合商品12.png){ .screenshot }
+
+4. 設定完成畫面
+
+    庫存數量計算方式請參考[庫存管理](#stock)的商品組合C。
+
+    ![設定完成畫面](https://www.cyberbiz.io/support/wp-content/uploads/組合商品08.png){ .screenshot }
+
+    === &quot;前台結帳畫面&quot;
+
+         消費者必須選購到後台設定的任選數量，才得以將組合商品加入購物車。
+
+         ![前台結帳畫面1](https://www.cyberbiz.io/support/wp-content/uploads/組合商品13.png)
+
+         如果達到任選數量上限，會有 UI 提示消費者「已達上限」。
+
+         ![前台結帳畫面2](https://www.cyberbiz.io/support/wp-content/uploads/組合商品14.png)
+
+    === &quot;購物車畫面&quot;
+
+        ![購物車畫面](https://www.cyberbiz.io/support/wp-content/uploads/組合商品15.png)
+</code></pre></div>
 <h2 id="常見問題">常見問題<a class="headerlink" href="#常見問題" title="Permanent link">&para;</a></h2>
 <details class="quote">
 <summary>組合商品可以修改組合類型嗎？</summary>

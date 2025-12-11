@@ -296,8 +296,8 @@
       "dimension": 1024
     }
   ],
-  "chatModelId": "gemini-2.5-pro",
-  "applyModelId": "gemini-2.5-pro",
+  "chatModelId": "gemini-2.5-flash",
+  "applyModelId": "gemini-2.5-flash",
   "embeddingModelId": "gemini/text-embedding-004",
   "systemPrompt": "",
   "ragOptions": {
