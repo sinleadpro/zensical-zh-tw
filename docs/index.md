@@ -225,6 +225,7 @@ search:
 
 ## :lucide-shopping-bag: 品牌官網 
 
+
 === "商店設定"
 
 	<div class= "grid cards" markdown>
@@ -264,7 +265,42 @@ search:
 
 === "會員管理"
 
-
+	<div class="grid cards" markdown>
+	
+	-   :material-clock-fast:{ .lg .middle } __快速上手__
+	
+	    ---
+	
+	    Install [`zensical`](#) with [`pip`](#) and get up
+	    and running in minutes
+	
+	    [:octicons-arrow-right-24: Getting started](#)
+	
+	-   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+	
+	    ---
+	
+	    Focus on your content and generate a responsive and searchable static site
+	
+	    [:octicons-arrow-right-24: Reference](#)
+	
+	-   :material-format-font:{ .lg .middle } __Made to measure__
+	
+	    ---
+	
+	    Change the colors, fonts, language, icons, logo and more with a few lines
+	
+	    [:octicons-arrow-right-24: Customization](#)
+	
+	-   :material-scale-balance:{ .lg .middle } __Open Source, MIT__
+	
+	    ---
+	
+	    Zensical is licensed under MIT and available on [GitHub]
+	
+	    [:octicons-arrow-right-24: License](#)
+	
+	</div>
 
 === "行銷成長"
 
@@ -287,24 +323,67 @@ search:
 ---
 
 ## :lucide-warehouse: 智慧倉儲
-=== "新手上路"
-	<div class= "grid cards" markdown>
-	
-	- __新手上路__
-	- ____
-	
-	</div>
 
----
+<div class="grid cards" markdown>
+
+-   :material-clock-fast:{ .lg .middle } __Set up in 5 minutes__
+
+    ---
+
+    Install [`zensical`](#) with [`pip`](#) and get up
+    and running in minutes
+
+    [:octicons-arrow-right-24: Getting started](#)
+
+-   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+
+    ---
+
+    Focus on your content and generate a responsive and searchable static site
+
+    [:octicons-arrow-right-24: Reference](#)
+
+-   :material-format-font:{ .lg .middle } __Made to measure__
+
+    ---
+
+    Change the colors, fonts, language, icons, logo and more with a few lines
+
+    [:octicons-arrow-right-24: Customization](#)
+
+</div>
+
 
 ## :material-point-of-sale: 智能 POS
-=== "新手上路"
-	<div class= "grid cards" markdown>
-	
-	- __新手上路__
-	- ____
-	
-	</div>
+
+<div class="grid cards" markdown>
+
+-   :material-clock-fast:{ .lg .middle } __Set up in 5 minutes__
+
+    ---
+
+    Install [`zensical`](#) with [`pip`](#) and get up
+    and running in minutes
+
+    [:octicons-arrow-right-24: Getting started](#)
+
+-   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+
+    ---
+
+    Focus on your content and generate a responsive and searchable static site
+
+    [:octicons-arrow-right-24: Reference](#)
+
+-   :material-format-font:{ .lg .middle } __Made to measure__
+
+    ---
+
+    Change the colors, fonts, language, icons, logo and more with a few lines
+
+    [:octicons-arrow-right-24: Customization](#)
+
+</div>
 	
 ---
 
@@ -313,28 +392,41 @@ search:
 <div class="grid cards" markdown>
 
 - [:lucide-layout-grid:  __APP MARKET__](){ .md-button .extension-tag }     
-  for content and structure
+<big>__擴充商店__</big>      
+擴充服務市集    
+
 - [:lucide-cog: __AUTOMATION__](){ .md-button .extension-tag }     
-  for interactivity
-- [:lucide-ticket: __TICKETS__](){ .md-button .extension-tag }    
-<big>__電子票券__</big>    
-[:lucide-arrow-right:](#)
+<big>__自動化功能__</big>      
+自動化行銷 精準分眾省荷包  
+
+- [:lucide-ticket: __TICKET__](){ .md-button .extension-tag }    
+<big>[__電子票券__](ec/products/電子票券指南)</big>    
+線上購票 線下體驗  
+
 - [:lucide-zap: __NOW!__](){ .md-button .extension-tag }    
-  ... huh?
+<big>__快速到貨__</big>    
+整合機車外送系統  
+
 - [:lucide-credit-card: __PAYMENTS__](){ .md-button .extension-tag }    
-  ... huh?
+<big>__金流支付__</big>  
+金物流一體的安全、多元支付  
+
 - [:lucide-message-circle: __CHAT BOX__](){ .md-button .extension-tag }    
-  ... huh?
+<big>__訊息通__</big>       
+全通路訊息一站整合  
+
 - [:lucide-link-2: __CHANNEL BRIDGE__](){ .md-button .extension-tag }  
 <big>__全通路管理助手__</big>     
 跨平台商品庫存整合    
-[:lucide-arrow-right:](#)
-- [__STORE PAL__](){ .md-button .extension-tag }    
+
+- [:lucide-shopping-cart: __STORE PAL__](){ .md-button .extension-tag }    
 <big>__門市助理__</big>    
-OMO 整合
-- [__EXPRESS__](){ .md-button .extension-tag }    
+OMO 整合  
+
+- [:lucide-arrow-right-from-line: __EXPRESS__](){ .md-button .extension-tag }    
+<big>__跨境通__</big>    
 打通跨境商務的最後一哩  
-[:lucide-arrow-right:](#)
+
 </div>
 
 ---
@@ -343,26 +435,13 @@ OMO 整合
 
 <div class="grid cards" markdown>
 
--   :lucide-megaphone: [__功能報報__](#)  
+-   :lucide-megaphone: <big>[__功能報報__](#)</big>  
 	了解最新動態與實用技巧，請持續關注我們的部落格。
 
--   :lucide-history: [__更新紀錄__](#)  
+-   :lucide-history: <big>[__更新紀錄__](#)</big>    
     關注我們的功能更新紀錄。
 
-</div>
-
----
-
-## :lucide-headset: 聯絡我們
-
-<div class="grid cards" markdown>
-
-- :lucide-message-circle-question-mark: [__需要協助嗎？__](#)  
+- :lucide-messages-square: <big>[__聯絡我們__](#) </big>  
   透過後台的線上客服與我們聯繫。
 
-- :material-video-outline: [__使用 Jam 回報問題__](resources/使用 Jam 回報問題.md)  
-  使用 Jam 擷取螢幕或錄影，提供完整資訊給客服與研發團隊，加快問題排解。
-
 </div>
-
-<br>
