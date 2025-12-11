@@ -252,17 +252,31 @@
         "type": "tabs",
         "children": [
           {
+            "id": "a11481a391ed1477",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.cyberbiz.io/support/?p=3521",
+                "title": "商品標籤管理設定",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "商品標籤管理設定"
+            }
+          },
+          {
             "id": "d5c02e7de0c0217c",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=1958",
-                "title": "所有商品-新增商品(單筆新增、更新商品)",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=8576",
+                "title": "商品標籤管理 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "所有商品-新增商品(單筆新增、更新商品)"
+              "title": "商品標籤管理 - CYBERBIZ 一般版教學文件"
             }
           },
           {
@@ -307,8 +321,7 @@
               "title": "Google購物廣告設定(GMC)"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -494,13 +507,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8900d2d4aa88e9cd",
+  "active": "ee4de6e4fb7a4876",
   "lastOpenFiles": [
+    "docs/ec/products/設定商品標籤.md",
     "ec-add-product-tag.zh-tw.png",
     "site/assets/images/ec-add-product-tag.zh-tw.png",
     "docs/assets/images/ec-add-product-tag.zh-tw.png",
     "docs/ec/products/index.md",
-    "docs/ec/products/設定商品標籤.md",
     "site/ec/payments/設定信用卡 3D 驗證門檻/index.html",
     "site/ec/payments/設定信用卡 3D 驗證門檻",
     "site/ec/products/設定商品影片/index.html",
@@ -521,7 +534,6 @@
     "site/assets/images/ec-gmc-product-image-choice.zh-tw.png",
     "docs/assets/images/ec-gmc-product-image-choice.zh-tw.png",
     "ec-google-ads.zh-tw.png",
-    "site/assets/images/ec-google-ads.zh-tw.png",
     "docs/ec/products/新增單一商品.md",
     "docs/ec/products/設定商品影片.md",
     "docs/ec/products/設定多購物車.md",
