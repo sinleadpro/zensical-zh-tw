@@ -312,26 +312,29 @@ search:
 
 <div class="grid cards" markdown>
 
-- :lucide-layout-grid:  __APP MARKET__   
+- [:lucide-layout-grid:  __APP MARKET__](){ .md-button .extension-tag }     
   for content and structure
-- :lucide-cog: __AUTOMATION__   
+- [:lucide-cog: __AUTOMATION__](){ .md-button .extension-tag }     
   for interactivity
-- :lucide-ticket: __TICKETS__  
-<big>電子票券</big>
-- :lucide-zap: __NOW!__  
+- [:lucide-ticket: __TICKETS__](){ .md-button .extension-tag }    
+<big>__電子票券__</big>    
+[:lucide-arrow-right:](#)
+- [:lucide-zap: __NOW!__](){ .md-button .extension-tag }    
   ... huh?
-- :lucide-credit-card: __PAYMENTS__  
+- [:lucide-credit-card: __PAYMENTS__](){ .md-button .extension-tag }    
   ... huh?
-- :lucide-message-circle: __CHAT BOX__  
+- [:lucide-message-circle: __CHAT BOX__](){ .md-button .extension-tag }    
   ... huh?
-- :lucide-link-2: __CHANNEL BRIDGE__  
-  ... huh?
-- __STORE PAL__  
-<big>門市助理</big>  
+- [:lucide-link-2: __CHANNEL BRIDGE__](){ .md-button .extension-tag }  
+<big>__全通路管理助手__</big>     
+跨平台商品庫存整合    
+[:lucide-arrow-right:](#)
+- [__STORE PAL__](){ .md-button .extension-tag }    
+<big>__門市助理__</big>    
 OMO 整合
-- __EXPRESS__  
-打通跨境商務的最後一哩。
-
+- [__EXPRESS__](){ .md-button .extension-tag }    
+打通跨境商務的最後一哩  
+[:lucide-arrow-right:](#)
 </div>
 
 ---

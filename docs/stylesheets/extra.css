@@ -153,6 +153,13 @@ a {
   border: 1px solid var(--md-default-fg-color--lighter);
 }
 
+.md-typeset .md-button.extension-tag {
+  /* border-radius: 12px;       Makes it square (standard is 2rem) */
+  font-size: 0.53rem;        /* Reduces text size */
+  margin-bottom: 0.5rem;    /* Adds space between tag and following text */
+}
+
+
 /* :root {
   --md-nav-width: 320px;
   --md-content-max-width: 960px;
