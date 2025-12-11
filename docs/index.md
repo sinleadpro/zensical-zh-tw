@@ -438,7 +438,7 @@ OMO 整合
 -   :lucide-megaphone: <big>[__功能報報__](#)</big>  
 	了解最新動態與實用技巧，請持續關注我們的部落格。
 
--   :lucide-history: <big>[__更新紀錄__](#)</big>    
+-   :lucide-history: <big>[__更新紀錄__](resources/changelog)</big>    
     關注我們的功能更新紀錄。
 
 - :lucide-messages-square: <big>[__聯絡我們__](#) </big>  

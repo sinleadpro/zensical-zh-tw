@@ -77,20 +77,6 @@
             }
           },
           {
-            "id": "173b047727ac37e2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/index.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
             "id": "be2b7583ece9a6b7",
             "type": "leaf",
             "state": {
@@ -245,7 +231,7 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 6
       },
       {
         "id": "ea951fb7d70bee14",
@@ -511,6 +497,7 @@
   "lastOpenFiles": [
     "docs/index.md",
     "docs/ec/products/index.md",
+    "docs/ec/products/電子票券指南.md",
     "docs/ec/products/設定商品標籤.md",
     "docs/ec/index.md",
     "ec-remove-upload-to-third-party-platform-tag.zh-tw.png",
@@ -553,7 +540,6 @@
     "templates/material-point-of-sale.md",
     "docs/ec/get-started.md",
     "templates/lucide-globe.md",
-    "templates/lucide-blend.md",
-    "templates/lucide-funnel.md"
+    "templates/lucide-blend.md"
   ]
 }
