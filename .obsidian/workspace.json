@@ -133,6 +133,20 @@
             }
           },
           {
+            "id": "1702aa4ad9d55f86",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/新增單一商品.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "新增單一商品"
+            }
+          },
+          {
             "id": "3fc9194a1560e3b7",
             "type": "leaf",
             "state": {
@@ -287,7 +301,7 @@
             }
           }
         ],
-        "currentTab": 8
+        "currentTab": 9
       },
       {
         "id": "ea951fb7d70bee14",
@@ -550,12 +564,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "730615c8867107f1",
+  "active": "1702aa4ad9d55f86",
   "lastOpenFiles": [
+    "docs/ec/products/商品管理快速上手.md",
     "docs/ec/products/index.md",
     "docs/index.md",
     "docs/ec/products/批次修改商品資訊.md",
-    "docs/ec/products/商品管理快速上手.md",
     "docs/ec/products/設定商品標籤.md",
     "docs/ec/products/新增單一商品.md",
     "docs/ec/products/新增組合商品.md",
