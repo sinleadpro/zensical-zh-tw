@@ -63,34 +63,6 @@
             }
           },
           {
-            "id": "789b8834ec126900",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/index.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "051ebb1f0e6ead2a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/resources/references/商品詳細資訊設定.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "商品詳細資訊設定"
-            }
-          },
-          {
             "id": "41c65486e0d9ef22",
             "type": "leaf",
             "state": {
@@ -105,17 +77,31 @@
             }
           },
           {
-            "id": "c807607d2183392b",
+            "id": "5140a1a042d67d91",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/設定商品標籤.md",
+                "file": "docs/ec/products/設定商品到貨通知.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定商品標籤"
+              "title": "設定商品到貨通知"
+            }
+          },
+          {
+            "id": "679daf65a6f223b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/新增單一商品.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "新增單一商品"
             }
           },
           {
@@ -301,7 +287,7 @@
             }
           }
         ],
-        "currentTab": 9
+        "currentTab": 6
       },
       {
         "id": "ea951fb7d70bee14",
@@ -313,12 +299,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=37330",
-                "title": "組合商品",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=5661",
+                "title": "商品貨到通知 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "組合商品"
+              "title": "商品貨到通知 - CYBERBIZ 一般版教學文件"
             }
           },
           {
@@ -327,12 +313,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=8576",
-                "title": "商品標籤管理 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/support/?p=18529",
+                "title": "商品貨到通知",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "商品標籤管理 - CYBERBIZ 一般版教學文件"
+              "title": "商品貨到通知"
             }
           },
           {
@@ -377,8 +363,7 @@
               "title": "Google購物廣告設定(GMC)"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "vertical"
@@ -541,7 +526,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -564,17 +549,28 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1702aa4ad9d55f86",
+  "active": "679daf65a6f223b6",
   "lastOpenFiles": [
-    "docs/ec/products/商品管理快速上手.md",
-    "docs/ec/products/index.md",
-    "docs/index.md",
-    "docs/ec/products/批次修改商品資訊.md",
-    "docs/ec/products/設定商品標籤.md",
+    "docs/ec/products/設定商品到貨通知.md",
     "docs/ec/products/新增單一商品.md",
-    "docs/ec/products/新增組合商品.md",
+    "site/ec/products/新增單一商品/index.html",
+    "site/ec/products/新增單一商品",
+    "docs/ec/products/商品管理快速上手.md",
+    "docs/ec/products/設定商品標籤.md",
+    "site/ec/products/設定商品到貨通知/index.html",
+    "site/ec/products/設定商品到貨通知",
     "docs/resources/glossary.md",
     "docs/resources/references/商品詳細資訊設定.md",
+    "docs/ec/products/新增組合商品.md",
+    "docs/index.md",
+    "site/ec/store/系統通知設定/index.html",
+    "site/ec/store/index.html",
+    "site/ec/store/系統通知設定",
+    "site/ec/store",
+    "site/ec/products/設定電子票券門市權限/index.html",
+    "site/ec/products/設定電子票券門市權限",
+    "docs/ec/products/index.md",
+    "docs/ec/products/批次修改商品資訊.md",
     "site/assets/images/ec-combo-product-add.zh-tw.gif",
     "docs/assets/images/ec-combo-product-add.zh-tw.gif",
     "docs/ec/products/Excel 大量匯入商品.md",
@@ -593,24 +589,12 @@
     "docs/ec/products/排除商品上傳至第三方平台.md",
     "templates/yaml.md",
     "docs/ec/integrations/設定自動化廣告.md",
-    "site/ec/payments/設定信用卡 3D 驗證門檻/index.html",
-    "site/ec/payments/設定信用卡 3D 驗證門檻",
-    "site/ec/products/設定商品影片/index.html",
-    "site/ec/products/設定商品影片",
-    "site/ec/products/參考資源/結帳優惠計算順序/index.html",
-    "site/ec/products/參考資源/結帳優惠計算順序",
-    "site/ec/orders/index.html",
-    "site/ec/products/index-old/index.html",
-    "site/ec/products/index-old",
-    "site/resources/conventions/index.html",
     "docs/ec/products/設定商品影片.md",
     "docs/ec/products/設定多購物車.md",
     "includes/abbreviations.md",
     "templates/lucide-asterisk.md",
     "templates/lucide-megaphone.md",
     "templates/lucide-circle-x.md",
-    "templates/lucide-circle-check.md",
-    "templates/material-point-of-sale.md",
-    "docs/ec/get-started.md"
+    "templates/lucide-circle-check.md"
   ]
 }

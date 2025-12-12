@@ -3979,47 +3979,17 @@
 <li>點擊 <strong>儲存</strong>，商品將依上架狀態所設定的時間自動上架或延後上架。    </li>
 </ol>
 <h3 id="基本設定">基本設定<a class="headerlink" href="#基本設定" title="Permanent link">&para;</a></h3>
-<table>
-<thead>
-<tr>
-<th>欄位</th>
-<th>功能說明</th>
-<th>系統行為 / 備註</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><abbr title="商品建立時的必要欄位之一，用來識別並展示商品的主要標題，會同步顯示於商品頁面、訂單明細、行銷活動與報表中。">商品名稱</abbr></td>
-<td>設定商品名稱</td>
-<td>避免使用特殊符號（如 <code>|</code> 或 <code>”</code>），不可使用 HTML。</td>
-</tr>
-<tr>
-<td><abbr title="商品頁面的專屬網址，用於前台存取商品頁面與搜尋引擎索引。">商品網址</abbr></td>
-<td>設定商品頁面 URL</td>
-<td>建議使用英文網址，有助於 <abbr title="Search Engine Optimization, 搜尋引擎最佳化。在電子商務系統中，SEO 涵蓋商品頁標題、頁面描述、URL 結構、圖片替代文字（alt text）與關鍵字設定，用於提升網站在搜尋引擎中的可見度與排名。">SEO</abbr> 與 <abbr title="Google Analytics, 由 Google 提供的網站流量分析工具，用於追蹤與分析使用者在網站上的行為與互動情況。">GA</abbr> 分析。<br>若未設定，系統將自動套用 <em><abbr title="商品建立時的必要欄位之一，用來識別並展示商品的主要標題，會同步顯示於商品頁面、訂單明細、行銷活動與報表中。">商品名稱</abbr></em> 作為網址</td>
-</tr>
-<tr>
-<td><abbr title="顯示於商品頁面的簡短文字，用於快速傳達商品賣點或活動訊息，例如優惠訊息、功能亮點或品牌主張。">商品標語</abbr></td>
-<td>顯示於 <em><abbr title="顧客於前台瀏覽單一商品詳細資訊的頁面，包含商品名稱、價格、圖片、規格、庫存狀態、配送方式與購買按鈕等內容，是完成購買決策與下單的主要介面。">商品頁面</abbr></em> 的簡短文字</td>
-<td>顯示於商品頁面。<a data-preview="data-preview" href="../編輯商品標語與商品簡述/">了解進階設定</a>。</td>
-</tr>
-<tr>
-<td><abbr title="顯示於商品頁面的說明文字，用於快速介紹商品重點、功能或特色，協助顧客在短時間內理解商品內容與價值。">商品簡述</abbr></td>
-<td>簡短說明商品賣點</td>
-<td>建議以 1–3 句呈現，避免過長段落與冗餘格。<a data-preview="data-preview" href="../編輯商品標語與商品簡述/">了解進階設定</a>。</td>
-</tr>
-<tr>
-<td>上架狀態</td>
-<td>設定商品上架及下架時間</td>
-<td>未填寫 → 商品永久上架<br>非上架時間 → 頁面顯示 404。</td>
-</tr>
-<tr>
-<td>商品搜尋功能</td>
-<td>設定商品是否可被站內搜尋</td>
-<td><em>ON</em>：可被搜尋<br><em>OFF</em>：無法被搜尋，但仍可透過 <em><abbr title="系統自動產生、可直接導向該商品前台頁面的唯一網址，用於推廣、分享或在其他系統中快速存取指定商品。">商品連結</abbr></em> 供部分顧客購買。<a href="../設定商品排除搜尋#適用範圍">了解更多</a>。</td>
-</tr>
-</tbody>
-</table>
+<ul>
+<li><abbr title="商品建立時的必要欄位之一，用來識別並展示商品的主要標題，會同步顯示於商品頁面、訂單明細、行銷活動與報表中。">商品名稱</abbr>：避免使用特殊符號（如 <code>|</code> 或 <code>”</code>），不可使用 HTML。</li>
+<li><abbr title="商品頁面的專屬網址，用於前台存取商品頁面與搜尋引擎索引。">商品網址</abbr>：建議使用英文網址，有助於 <abbr title="Search Engine Optimization, 搜尋引擎最佳化。在電子商務系統中，SEO 涵蓋商品頁標題、頁面描述、URL 結構、圖片替代文字（alt text）與關鍵字設定，用於提升網站在搜尋引擎中的可見度與排名。">SEO</abbr> 與 <abbr title="Google Analytics, 由 Google 提供的網站流量分析工具，用於追蹤與分析使用者在網站上的行為與互動情況。">GA</abbr> 分析。若未設定，系統將自動套用 <em><abbr title="商品建立時的必要欄位之一，用來識別並展示商品的主要標題，會同步顯示於商品頁面、訂單明細、行銷活動與報表中。">商品名稱</abbr></em> 作為網址。</li>
+<li><abbr title="顯示於商品頁面的簡短文字，用於快速傳達商品賣點或活動訊息，例如優惠訊息、功能亮點或品牌主張。">商品標語</abbr><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-asterisk" viewBox="0 0 24 24"><path d="M12 6v12M17.196 9 6.804 15M6.804 9l10.392 6"/></svg></span>：顯示於 <em><abbr title="顧客於前台瀏覽單一商品詳細資訊的頁面，包含商品名稱、價格、圖片、規格、庫存狀態、配送方式與購買按鈕等內容，是完成購買決策與下單的主要介面。">商品頁面</abbr></em> 的簡短文字。</li>
+<li><abbr title="顯示於商品頁面的說明文字，用於快速介紹商品重點、功能或特色，協助顧客在短時間內理解商品內容與價值。">商品簡述</abbr><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-asterisk" viewBox="0 0 24 24"><path d="M12 6v12M17.196 9 6.804 15M6.804 9l10.392 6"/></svg></span>：建議以 1–3 句呈現，避免過長段落與冗餘格。</li>
+<li>上架狀態：設定商品上架及下架時間，未填寫 → 商品永久上架；非上架時間 → 頁面顯示 404。</li>
+<li>商品搜尋功能： <code>ON</code> 可被搜尋；<code>OFF</code> 無法被搜尋，但仍可透過 <em><abbr title="系統自動產生、可直接導向該商品前台頁面的唯一網址，用於推廣、分享或在其他系統中快速存取指定商品。">商品連結</abbr></em> 供部分顧客購買。<a href="../設定商品排除搜尋#適用範圍">了解詳細效果</a>。</li>
+</ul>
+<blockquote>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-asterisk" viewBox="0 0 24 24"><path d="M12 6v12M17.196 9 6.804 15M6.804 9l10.392 6"/></svg></span> 進一步了解<a href="../編輯商品標語與商品簡述">客製化設定</a></p>
+</blockquote>
 <h3 id="商品圖片">商品圖片<a class="headerlink" href="#商品圖片" title="Permanent link">&para;</a></h3>
 <ul>
 <li>尺寸建議：1000 × 1000 像素 (px)。</li>
@@ -4028,47 +3998,14 @@
 </ul>
 <h3 id="商品影片">商品影片<a class="headerlink" href="#商品影片" title="Permanent link">&para;</a></h3>
 <p><a href="../../../resources/conventions#適用方案"><span class="twemoji" title="適用方案"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span></a> | PLUS 企業  <a href="../../../resources/conventions#適用功能"><span class="twemoji" title="適用功能"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-toggle-right" viewBox="0 0 24 24"><circle cx="15" cy="12" r="3"/><rect width="20" height="14" x="2" y="5" rx="7"/></svg></span></a> | 拖拉版型</p>
-<table>
-<thead>
-<tr>
-<th><abbr title="特定規格下，顧客可選擇的具體屬性值或選項，例如顏色規格下面的紅色、藍色。">規格項目</abbr></th>
-<th>說明</th>
-<th>備註</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><strong>解析度</strong></td>
-<td>最高支援 1280 × 1280 像素</td>
-<td></td>
-</tr>
-<tr>
-<td><strong>建議比例</strong></td>
-<td>9:16</td>
-<td>此比例最佳化於 Facebook 廣告版位，提供更佳觀看體驗。</td>
-</tr>
-<tr>
-<td><strong>影片格式</strong></td>
-<td>僅支援 MP4 格式</td>
-<td></td>
-</tr>
-<tr>
-<td><strong>影片長度</strong></td>
-<td>最長 60 秒</td>
-<td></td>
-</tr>
-<tr>
-<td><strong>檔案大小</strong></td>
-<td>最大 30 MB</td>
-<td>影片的載入速度會受使用者網路影響，建議在符合規格下盡量壓縮檔案。</td>
-</tr>
-<tr>
-<td><strong>音訊支援</strong></td>
-<td>不支援音訊輸出</td>
-<td>上傳影片將以靜音模式播放。</td>
-</tr>
-</tbody>
-</table>
+<ul>
+<li>解析度：最高支援 1280 × 1280 像素。</li>
+<li>建議比例：9:16，此比例最佳化於 Facebook 廣告版位。</li>
+<li>影片格式：僅支援 MP4 格式。</li>
+<li>影片長度：最長 60 秒。</li>
+<li>檔案大小：最大 30 MB，載入速度會受使用者網路影響，建議在符合規格下盡量壓縮檔案。</li>
+<li>音訊支援：目前不支援音訊輸出，上傳影片將以靜音模式播放。</li>
+</ul>
 <blockquote>
 <p>了解更多<a data-preview="data-preview" href="../設定商品影片/">商品影片相關功能跟設定</a>。</p>
 </blockquote>
@@ -4153,6 +4090,20 @@
 </tbody>
 </table>
 <h5 id="庫存管理">庫存管理<a class="headerlink" href="#庫存管理" title="Permanent link">&para;</a></h5>
+<ul>
+<li>管理庫存：開啟以設定庫存相關欄位。</li>
+<li>庫存量：可販售商品數量。</li>
+<li>安全庫存水位：</li>
+<li>庫存不足時：商品庫存為 0 時，是否允許顧客購買。</li>
+</ul>
+<div class="grid cards" markdown>
+<ul>
+<li><strong>設定預購商品</strong><br />
+  將商品設為預購商品。 </li>
+<li><a href="../設定商品到貨通知"><strong>商品到貨通知</strong></a><br />
+發送補貨通知給追蹤商品的會員</li>
+</ul>
+</div>
 <table>
 <thead>
 <tr>
