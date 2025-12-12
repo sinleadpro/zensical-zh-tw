@@ -91,20 +91,6 @@
             }
           },
           {
-            "id": "679daf65a6f223b6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/index.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
             "id": "891fb364d972f7f8",
             "type": "leaf",
             "state": {
@@ -301,7 +287,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 8
       },
       {
         "id": "ea951fb7d70bee14",
@@ -564,8 +550,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "679daf65a6f223b6",
+  "active": "1702aa4ad9d55f86",
   "lastOpenFiles": [
+    "site/ec/index.html",
+    "docs/index.md",
     "docs/ec/products/新增單一商品.md",
     "site/ec/products/設定商品影片/index.html",
     "site/ec/products/設定商品影片",
@@ -583,7 +571,6 @@
     "docs/resources/glossary.md",
     "docs/resources/references/商品詳細資訊設定.md",
     "docs/ec/products/新增組合商品.md",
-    "docs/index.md",
     "docs/ec/products/index.md",
     "docs/ec/products/批次修改商品資訊.md",
     "site/assets/images/ec-combo-product-add.zh-tw.gif",
