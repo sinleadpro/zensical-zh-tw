@@ -20,7 +20,7 @@ hide:
 管理商品與庫存資料。  
 快速建立商品、管理分類與群組，並即時掌握庫存與補貨狀態。  
 <br>
-[認識商品管理介面 :lucide-circle-arrow-right:](商品管理快速上手#商品管理介面總覽)  
+[了解基本操作 :lucide-circle-arrow-right:](商品管理快速上手#商品管理介面總覽)  
 
 ![](../../assets/images/ec-products-hero.zh-tw.png)
 

@@ -63,34 +63,6 @@
             }
           },
           {
-            "id": "46cbdf7925be3a6d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/批次修改商品資訊.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "批次修改商品資訊"
-            }
-          },
-          {
-            "id": "0eaef0aebf5c702b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/商品管理快速上手.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "商品管理快速上手"
-            }
-          },
-          {
             "id": "789b8834ec126900",
             "type": "leaf",
             "state": {
@@ -133,20 +105,6 @@
             }
           },
           {
-            "id": "0ab698f556f122ce",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/新增單一商品.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "新增單一商品"
-            }
-          },
-          {
             "id": "c807607d2183392b",
             "type": "leaf",
             "state": {
@@ -158,6 +116,34 @@
               },
               "icon": "lucide-file",
               "title": "設定商品標籤"
+            }
+          },
+          {
+            "id": "730615c8867107f1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/商品管理快速上手.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "商品管理快速上手"
+            }
+          },
+          {
+            "id": "3fc9194a1560e3b7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/批次修改商品資訊.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "批次修改商品資訊"
             }
           },
           {
@@ -377,7 +363,8 @@
               "title": "Google購物廣告設定(GMC)"
             }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -563,16 +550,19 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "41c65486e0d9ef22",
+  "active": "730615c8867107f1",
   "lastOpenFiles": [
-    "docs/resources/references/商品詳細資訊設定.md",
+    "docs/ec/products/index.md",
     "docs/index.md",
-    "docs/ec/products/商品管理快速上手.md",
     "docs/ec/products/批次修改商品資訊.md",
+    "docs/ec/products/商品管理快速上手.md",
+    "docs/ec/products/設定商品標籤.md",
+    "docs/ec/products/新增單一商品.md",
     "docs/ec/products/新增組合商品.md",
+    "docs/resources/glossary.md",
+    "docs/resources/references/商品詳細資訊設定.md",
     "site/assets/images/ec-combo-product-add.zh-tw.gif",
     "docs/assets/images/ec-combo-product-add.zh-tw.gif",
-    "docs/ec/products/新增單一商品.md",
     "docs/ec/products/Excel 大量匯入商品.md",
     "site/assets/images/ec-combo-product-contents.zh-tw.png",
     "docs/assets/images/ec-combo-product-contents.zh-tw.png",
@@ -581,11 +571,9 @@
     "ec-combo-product-basic-seeting.zh-tw.png",
     "site/assets/images/ec-combo-product-basic-seeting.zh-tw.png",
     "docs/assets/images/ec-combo-product-basic-seeting.zh-tw.png",
-    "docs/ec/products/設定商品標籤.md",
     "docs/ec/integrations/設定 Google 購物廣告.md",
     "docs/ec/products/編輯商品標語與商品簡述.md",
     "site/assets/images/ec-gmc-connect-google-ads.zh-tw.png",
-    "docs/ec/products/index.md",
     "docs/ec/products/電子票券指南.md",
     "docs/ec/index.md",
     "docs/ec/products/排除商品上傳至第三方平台.md",
@@ -605,7 +593,6 @@
     "docs/ec/products/設定多購物車.md",
     "includes/abbreviations.md",
     "templates/lucide-asterisk.md",
-    "docs/resources/glossary.md",
     "templates/lucide-megaphone.md",
     "templates/lucide-circle-x.md",
     "templates/lucide-circle-check.md",
