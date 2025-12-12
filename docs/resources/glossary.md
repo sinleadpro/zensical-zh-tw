@@ -1,6 +1,6 @@
 ---
 title: 詞彙表
-icon: lucide/book
+icon: lucide/book-marked
 ---
 
 [PDF :lucide-download:](#){ .md-button }
