@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 59.96074582924435,
+        "dimension": 56.79845708775313,
         "children": [
           {
             "id": "3e2d43890e417467",
@@ -19,48 +19,6 @@
               },
               "icon": "lucide-table",
               "title": "GOD"
-            }
-          },
-          {
-            "id": "88a3a7e855b518a6",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/store/系統通知設定.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "系統通知設定"
-            }
-          },
-          {
-            "id": "51f585f6215fe23b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/商品管理快速上手.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "商品管理快速上手"
-            }
-          },
-          {
-            "id": "41b740562c73121d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/新增組合商品.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "新增組合商品"
             }
           },
           {
@@ -78,59 +36,115 @@
             }
           },
           {
-            "id": "5140a1a042d67d91",
+            "id": "e33f7aa7937d58e5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/設定商品到貨通知.md",
+                "file": "docs/ec/products/新增組合商品.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定商品到貨通知"
+              "title": "新增組合商品"
             }
           },
           {
-            "id": "891fb364d972f7f8",
+            "id": "00b604233cdf2905",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/設定商品到貨通知.md",
+                "file": "includes/abbreviations.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定商品到貨通知"
+              "title": "abbreviations"
             }
           },
           {
-            "id": "f737c075db2591bf",
+            "id": "9a90b44576b26df5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/新增單一商品.md",
+                "file": "includes/abbreviations.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "新增單一商品"
+              "title": "abbreviations"
             }
           },
           {
-            "id": "258eed4e4c3f1eb0",
+            "id": "79dd281add3e413f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/商品管理快速上手.md",
+                "file": "includes/abbreviations.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "商品管理快速上手"
+              "title": "abbreviations"
+            }
+          },
+          {
+            "id": "c689bd201fe696ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "109de231235ed626",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/排除商品上傳至第三方平台.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "排除商品上傳至第三方平台"
+            }
+          },
+          {
+            "id": "7a0a786cba43c41f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "76433c3f08d3226a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/integrations/設定 Google 購物廣告.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定 Google 購物廣告"
             }
           },
           {
@@ -146,28 +160,14 @@
               "icon": "lucide-file",
               "title": "index"
             }
-          },
-          {
-            "id": "3a67896ce4e440c4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/設定商品超商物流限制與排除選項.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定商品超商物流限制與排除選項"
-            }
           }
         ],
-        "currentTab": 7
+        "currentTab": 2
       },
       {
         "id": "ea951fb7d70bee14",
         "type": "tabs",
-        "dimension": 40.03925417075565,
+        "dimension": 43.201542912246865,
         "children": [
           {
             "id": "a11481a391ed1477",
@@ -175,12 +175,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=5661",
-                "title": "商品貨到通知 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/support/?p=37330#stock",
+                "title": "組合商品",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "商品貨到通知 - CYBERBIZ 一般版教學文件"
+              "title": "組合商品"
             }
           },
           {
@@ -189,26 +189,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=18529",
-                "title": "商品貨到通知",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=8055",
+                "title": "組合商品 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "商品貨到通知"
-            }
-          },
-          {
-            "id": "16db70f6894a04f4",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.cyberbiz.io/support/?p=230/#pic",
-                "title": "Google購物廣告設定(GMC)",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Google購物廣告設定(GMC)"
+              "title": "組合商品 - CYBERBIZ 一般版教學文件"
             }
           },
           {
@@ -239,8 +225,7 @@
               "title": "Google購物廣告設定(GMC)"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -439,22 +424,41 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f737c075db2591bf",
+  "active": "ee4de6e4fb7a4876",
   "lastOpenFiles": [
-    "docs/ec/products/設定商品超商物流限制與排除選項.md",
-    "docs/ec/products/新增單一商品.md",
+    "includes/abbreviations.md",
+    "docs/ec/products/新增組合商品.md",
+    "docs/resources/glossary.md",
+    "docs/ec/store/系統通知設定.md",
     "docs/ec/products/商品管理快速上手.md",
     "docs/ec/products/index.md",
-    "docs/ec/products/批次修改商品資訊.md",
-    "docs/ec/products/電子票券指南.md",
+    "docs/ec/products/設定商品超商物流限制與排除選項.md",
     "docs/ec/products/排除商品上傳至第三方平台.md",
     "docs/ec/integrations/設定自動化廣告.md",
-    "includes/abbreviations.md",
-    "docs/ec/store/系統通知設定.md",
+    "docs/ec/products/設定商品到貨通知.md",
+    "docs/ec/products/新增單一商品.md",
+    "site/assets/images/ec-product-combo-optional-quantity.zh-tw.png",
+    "docs/assets/images/ec-product-combo-optional-quantity.zh-tw.png",
+    "site/assets/images/ec-product-combo-specified-quantity.zh-tw.png",
+    "docs/assets/images/ec-product-combo-specified-quantity.zh-tw.png",
+    "docs/ec/products/Excel 大量匯入商品.md",
+    "docs/assets/images/ec-product-restock-notification-template.zh-tw.gif",
+    "docs/assets/images/ec-product-restock-notification.zh-tw.gif",
+    "site/assets/images/ec-product-restock-notification-template.zh-tw.gif",
+    "site/assets/images/ec-inventory-stop-selling.zh-tw.png",
+    "docs/assets/images/ec-inventory-stop-selling.zh-tw.png",
+    "site/assets/images/ec-product-restock-notification.zh-tw.gif",
+    "templates/lucide-eye-off.md",
+    "docs/ec/integrations/設定 Google 購物廣告.md",
+    "factory/TS-FAQ f9e52cbba4154737ba7ad7df8a329daa.csv",
+    "factory/客服資料庫-new.csv",
+    "factory/客服資料庫-old.csv",
+    "factory",
+    "docs/ec/products/批次修改商品資訊.md",
+    "docs/ec/products/電子票券指南.md",
     "docs/ec/products/編輯商品標語與商品簡述.md",
     "docs/ec/products/設定商品影片.md",
     "docs/ec/products/設定商品排除搜尋.md",
-    "docs/ec/products/Excel 大量匯入商品.md",
     "site/ec/index.html",
     "docs/index.md",
     "site/ec/products/設定商品影片/index.html",
@@ -462,30 +466,10 @@
     "site/ec/products/編輯商品標語與商品簡述/index.html",
     "site/ec/products/編輯商品標語與商品簡述",
     "site/ec/products/index.html",
-    "docs/ec/products/設定商品到貨通知.md",
-    "site/ec/get-started/index.html",
-    "site/ec/get-started",
-    "site/ec/analytics/index.html",
-    "site/ec/analytics",
     "docs/ec/products/設定商品標籤.md",
-    "docs/resources/glossary.md",
     "docs/resources/references/商品詳細資訊設定.md",
-    "docs/ec/products/新增組合商品.md",
-    "site/assets/images/ec-combo-product-add.zh-tw.gif",
-    "docs/assets/images/ec-combo-product-add.zh-tw.gif",
-    "site/assets/images/ec-combo-product-contents.zh-tw.png",
-    "docs/assets/images/ec-combo-product-contents.zh-tw.png",
-    "site/assets/images/ec-combo-product-image.zh-tw.png",
-    "docs/assets/images/ec-combo-product-image.zh-tw.png",
-    "ec-combo-product-basic-seeting.zh-tw.png",
-    "site/assets/images/ec-combo-product-basic-seeting.zh-tw.png",
-    "docs/assets/images/ec-combo-product-basic-seeting.zh-tw.png",
-    "docs/ec/integrations/設定 Google 購物廣告.md",
-    "site/assets/images/ec-gmc-connect-google-ads.zh-tw.png",
     "docs/ec/index.md",
     "templates/yaml.md",
-    "docs/ec/products/設定多購物車.md",
-    "templates/lucide-asterisk.md",
-    "templates/lucide-megaphone.md"
+    "docs/ec/products/設定多購物車.md"
   ]
 }

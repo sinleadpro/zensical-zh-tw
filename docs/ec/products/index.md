@@ -28,7 +28,7 @@ hide:
 
 ---
 
-### 快速上手 :lucide-rocket:
+### 快速上手
 
 <div class="grid cards cards-bg" markdown>
 
@@ -43,14 +43,14 @@ hide:
 
 - :lucide-eye:{ .lg }      
 	__商品顯示控制__  
-    [設定商品公開狀態](商品管理快速上手.md#快捷按鈕)  
+    [快速設定商品公開狀態](商品管理快速上手.md#快捷按鈕)  
     [將商品從搜尋中排除](設定商品排除搜尋)
 
 </div>
 
 ---
 
-### 上架商品 :lucide-upload:
+### 上架商品
 
 <div class="grid cards" markdown>
 
@@ -88,7 +88,7 @@ hide:
 
 ---
 
-### 分類與群組 :lucide-folder:
+### 分類與群組
 
 <div class="grid cards" markdown>
 
@@ -120,7 +120,7 @@ hide:
 
 ---
 
-### 銷售與通知 :lucide-badge-percent:
+### 銷售與通知
 
 <div class="grid cards" markdown>
 
@@ -162,7 +162,7 @@ hide:
 
 ---
 
-### 配送物流 :lucide-truck:
+### 配送物流
 
 <div class="grid cards" markdown>
 
@@ -184,7 +184,7 @@ hide:
 
 ---
 
-### 電子票券 :lucide-ticket:
+### 電子票券
 [:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | PLUS 企業
 
 <div class="grid cards" markdown>
@@ -210,7 +210,7 @@ hide:
 
 ---
 
-### 常見問題 :lucide-message-circle-question-mark:
+### 常見問題
 
 === "資料與 Excel 匯入"
 

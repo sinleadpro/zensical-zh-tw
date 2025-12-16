@@ -104,7 +104,7 @@ comments: ""
 
 	![](../../assets/images/ec-product-excel-existing-inventory.zh-tw.png)
 
-### 商品 Excel 欄位說明
+### 填寫商品 Excel 欄位
 
 請依據 Excel 範本中的欄位及說明，填寫對應的商品資訊。以下為必填項目：
 
