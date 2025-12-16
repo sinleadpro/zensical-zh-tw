@@ -162,7 +162,7 @@
             }
           }
         ],
-        "currentTab": 10
+        "currentTab": 7
       },
       {
         "id": "ea951fb7d70bee14",
@@ -439,11 +439,12 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "3a67896ce4e440c4",
+  "active": "f737c075db2591bf",
   "lastOpenFiles": [
-    "docs/ec/products/index.md",
-    "docs/ec/products/商品管理快速上手.md",
+    "docs/ec/products/設定商品超商物流限制與排除選項.md",
     "docs/ec/products/新增單一商品.md",
+    "docs/ec/products/商品管理快速上手.md",
+    "docs/ec/products/index.md",
     "docs/ec/products/批次修改商品資訊.md",
     "docs/ec/products/電子票券指南.md",
     "docs/ec/products/排除商品上傳至第三方平台.md",
@@ -485,7 +486,6 @@
     "templates/yaml.md",
     "docs/ec/products/設定多購物車.md",
     "templates/lucide-asterisk.md",
-    "templates/lucide-megaphone.md",
-    "templates/lucide-circle-x.md"
+    "templates/lucide-megaphone.md"
   ]
 }
