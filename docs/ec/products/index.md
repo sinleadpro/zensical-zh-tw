@@ -32,20 +32,17 @@ hide:
 
 <div class="grid cards cards-bg" markdown>
 
-- :lucide-search: __搜尋與篩選商品__
+- :lucide-search:{ .lg }     
+	__搜尋與篩選商品__  
+    [檢索商品](商品管理快速上手.md#後台搜尋商品)
 
-    ---
-    [後台搜尋商品](商品管理快速上手.md#後台搜尋商品)
-
-- :lucide-check-square: __批次管理商品__
-
-    ---
+- :lucide-check-square:{ .lg }     
+	__批次管理商品__  
     [選取大量商品](商品管理快速上手.md#選取大量商品)  
     [匯出商品資料 Excel 表格](批次修改商品資訊#匯出商品-excel-表格)
 
-- :lucide-eye: __商品顯示控制__
-
-    ---
+- :lucide-eye:{ .lg }      
+	__商品顯示控制__  
     [設定商品公開狀態](商品管理快速上手.md#快捷按鈕)  
     [將商品從搜尋中排除](設定商品排除搜尋)
 
