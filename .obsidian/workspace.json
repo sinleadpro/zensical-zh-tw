@@ -424,10 +424,14 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ee4de6e4fb7a4876",
+  "active": "a11481a391ed1477",
   "lastOpenFiles": [
-    "includes/abbreviations.md",
     "docs/ec/products/新增組合商品.md",
+    "site/assets/images/ec-product-combo-optional-quantity-cart.zh-tw.png",
+    "docs/assets/images/ec-product-combo-optional-quantity-cart.zh-tw.png",
+    "site/assets/images/ec-product-combo-optional-quantity-frontend.zh-tw.png",
+    "docs/assets/images/ec-product-combo-optional-quantity-frontend.zh-tw.png",
+    "includes/abbreviations.md",
     "docs/resources/glossary.md",
     "docs/ec/store/系統通知設定.md",
     "docs/ec/products/商品管理快速上手.md",
@@ -444,10 +448,6 @@
     "docs/ec/products/Excel 大量匯入商品.md",
     "docs/assets/images/ec-product-restock-notification-template.zh-tw.gif",
     "docs/assets/images/ec-product-restock-notification.zh-tw.gif",
-    "site/assets/images/ec-product-restock-notification-template.zh-tw.gif",
-    "site/assets/images/ec-inventory-stop-selling.zh-tw.png",
-    "docs/assets/images/ec-inventory-stop-selling.zh-tw.png",
-    "site/assets/images/ec-product-restock-notification.zh-tw.gif",
     "templates/lucide-eye-off.md",
     "docs/ec/integrations/設定 Google 購物廣告.md",
     "factory/TS-FAQ f9e52cbba4154737ba7ad7df8a329daa.csv",

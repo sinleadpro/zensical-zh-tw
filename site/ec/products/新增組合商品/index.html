@@ -4079,12 +4079,16 @@
 <p>組合商品是將兩個或以上的商品組合成單一商品進行販售的商品類型。商家可設定固定內容的 <em><abbr title="由商家預先設定好固定組合的商品，顧客購買時無法更換組合內的項目。">指定組合商品</abbr></em>，或讓消費者自行選擇內容的 <em><abbr title="由商家設定可選範圍的商品組合，購買者可以自由選擇組合內的子商品及數量。">任選組合商品</abbr></em>。常見的應用情境如下：</p>
 <ul>
 <li>套裝優惠：將多個商品打包，以組合價格吸引購買。</li>
-<li>節慶或活動促銷：例如聖誕禮盒、周年慶組合。</li>
-<li>彈性任選組合：顧客可從預設清單中自由挑選商品。</li>
+<li>活動促銷：例如聖誕禮盒、周年慶組合。</li>
 <li>增加平均訂單價值：鼓勵一次購買多個商品，提高銷售額。</li>
-<li>特定行銷活動：如會員專屬組合、加購組合等。</li>
+<li>清理庫存：將銷售速度較慢的商品與熱銷商品組合販售，加速庫存周轉。</li>
 </ul>
 <h2 id="使用須知">使用須知<a class="headerlink" href="#使用須知" title="Permanent link">&para;</a></h2>
+<ul>
+<li>組合商品不支援設定商品標籤、商品類型、商品廠商、Google 產品類別、快速到貨及商品關聯群組。  </li>
+<li>暫不支援組合商品的批次新增或批次編輯。  </li>
+<li>組合商品不計入子商品重量，系統皆認定為 0 公斤，結帳頁判斷物流材積限制。</li>
+</ul>
 <h3 id="組合品適用行銷活動">組合品適用行銷活動<a class="headerlink" href="#組合品適用行銷活動" title="Permanent link">&para;</a></h3>
 <div class="tabbed-set tabbed-alternate" data-tabs="1:3"><input checked="checked" id="適用" name="__tabbed_1" type="radio" /><input id="有條件適用" name="__tabbed_1" type="radio" /><input id="不適用" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="適用"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2m-2 15-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8z"/></svg></span> 適用</label><label for="有條件適用"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 14h-2V9h2m0 9h-2v-2h2M1 21h22L12 2z"/></svg></span> 有條件適用</label><label for="不適用"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2c5.53 0 10 4.47 10 10s-4.47 10-10 10S2 17.53 2 12 6.47 2 12 2m3.59 5L12 10.59 8.41 7 7 8.41 10.59 12 7 15.59 8.41 17 12 13.41 15.59 17 17 15.59 13.41 12 17 8.41z"/></svg></span> 不適用</label></div>
 <div class="tabbed-content">
@@ -4347,7 +4351,7 @@
 <li>點選 <strong>新增組合商品</strong>。</li>
 </ol>
 <h3 id="編輯組合商品基本設定"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9 7h4a2 2 0 0 1 2 2v2a2 2 0 0 1-2 2h-2v2h4v2H9v-4a2 2 0 0 1 2-2h2V9H9zm3-5a10 10 0 0 1 10 10 10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2m0 2a8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8 8 8 0 0 0-8-8"/></svg></span> 編輯組合商品基本設定<a class="headerlink" href="#編輯組合商品基本設定" title="Permanent link">&para;</a></h3>
-<p>在編輯頁面中，依據需求設定組合商品的基本資訊。</p>
+<p>在編輯頁面中，設定組合商品的基本資訊。</p>
 <h4 id="基本設定">基本設定<a class="headerlink" href="#基本設定" title="Permanent link">&para;</a></h4>
 <p>請自行設定商品基本資訊，可參考<a href="../新增單一商品#基本設定">一般商品設定</a>。</p>
 <p><img alt="" src="../../../assets/images/ec-combo-product-basic-seeting.zh-tw.png" /></p>
@@ -4407,11 +4411,16 @@
 <p><img alt="" src="../../../assets/images/ec-product-combo-optional-quantity.zh-tw.png" /></p>
 <h4 id="前台結帳畫面">前台結帳畫面<a class="headerlink" href="#前台結帳畫面" title="Permanent link">&para;</a></h4>
 <p>消費者必須選購到後台設定的任選數量，才得以將組合商品加入購物車。</p>
-<p><img alt="前台結帳畫面1" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/組合商品13.png" /></p>
-<p>如果達到任選數量上限，會有 UI 提示消費者「已達上限」。</p>
-<p><img alt="前台結帳畫面2" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/組合商品14.png" /></p>
+<blockquote>
+<p>如果達到任選數量上限，會有 UI 提示消費者 <strong>已達上限</strong>。</p>
+</blockquote>
+<p><img alt="" src="../../../assets/images/ec-product-combo-optional-quantity-frontend.zh-tw.png" /></p>
 <h4 id="購物車畫面">購物車畫面<a class="headerlink" href="#購物車畫面" title="Permanent link">&para;</a></h4>
-<p><img alt="購物車畫面" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/組合商品15.png" /></p>
+<ul>
+<li>組合商品內的商品僅支援單一溫層、不支援以<a data-preview="data-preview" href="../設定多購物車/">通路觸發多購物車</a>。</li>
+<li>結帳頁判斷組合商品是否符合物流材積限制。</li>
+</ul>
+<p><img alt="" src="../../../assets/images/ec-product-combo-optional-quantity-cart.zh-tw.png" /></p>
 </div>
 </div>
 </div>
