@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 56.79845708775313,
+        "dimension": 51.88042430086789,
         "children": [
           {
             "id": "3e2d43890e417467",
@@ -27,26 +27,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/resources/glossary.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "glossary"
-            }
-          },
-          {
-            "id": "00b604233cdf2905",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "docs/ec/products/編輯商品描述與設定.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
               "title": "編輯商品描述與設定"
+            }
+          },
+          {
+            "id": "e3c79a10143165ff",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/編輯商品標語與商品簡述.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "編輯商品標語與商品簡述"
             }
           },
           {
@@ -55,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/編輯商品描述與設定.md",
+                "file": "docs/resources/references/文字編輯器使用教學.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "編輯商品描述與設定"
+              "title": "文字編輯器使用教學"
             }
           },
           {
@@ -92,17 +92,17 @@
             }
           },
           {
-            "id": "79dd281add3e413f",
+            "id": "735a2598a2e649b7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "includes/abbreviations.md",
+                "file": "docs/resources/使用 Jam 回報問題.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "abbreviations"
+              "title": "使用 Jam 回報問題"
             }
           },
           {
@@ -148,20 +148,6 @@
             }
           },
           {
-            "id": "7a0a786cba43c41f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/index.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
             "id": "76433c3f08d3226a",
             "type": "leaf",
             "state": {
@@ -174,28 +160,14 @@
               "icon": "lucide-file",
               "title": "設定 Google 購物廣告"
             }
-          },
-          {
-            "id": "29e8b4ad27909163",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/index.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       },
       {
         "id": "ea951fb7d70bee14",
         "type": "tabs",
-        "dimension": 43.201542912246865,
+        "dimension": 48.11957569913211,
         "children": [
           {
             "id": "5966163e457c587f",
@@ -203,12 +175,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=34930",
-                "title": "自動化廣告系統",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=7701",
+                "title": "商品管理-商品描述、設定 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "自動化廣告系統"
+              "title": "商品管理-商品描述、設定 - CYBERBIZ 一般版教學文件"
             }
           },
           {
@@ -217,12 +189,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=8055",
-                "title": "組合商品 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/support/?p=7497",
+                "title": "商品管理-商品描述、設定",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "組合商品 - CYBERBIZ 一般版教學文件"
+              "title": "商品管理-商品描述、設定"
             }
           },
           {
@@ -231,16 +203,15 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=230#ads",
-                "title": "Google購物廣告設定(GMC)",
+                "url": "https://www.cyberbiz.io/support/?p=37330#stock",
+                "title": "組合商品",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Google購物廣告設定(GMC)"
+              "title": "組合商品"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -308,7 +279,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 539.5
+    "width": 307.5
   },
   "right": {
     "id": "973606ff262c9293",
@@ -439,52 +410,53 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9a90b44576b26df5",
+  "active": "ee4de6e4fb7a4876",
   "lastOpenFiles": [
+    "site/assets/images/ec-use-jam-to-report-hero.zh-tw.png",
+    "docs/assets/images/ec-use-jam-to-report-hero.zh-tw.png",
     "includes/abbreviations.md",
-    "docs/ec/products/新增單一商品.md",
-    "docs/ec/products/index.md",
-    "site/assets/images/ec-product-description-and-settings.zh-tw.png",
-    "docs/assets/images/ec-product-description-and-settings.zh-tw.png",
-    "docs/ec/products/設定商品標籤.md",
-    "site/ec/products/設定商品標籤/index.html",
-    "site/ec/products/設定商品標籤",
-    "docs/ec/marketing/結帳優惠計算順序.md",
-    "site/ec/products/index.html",
-    "docs/ec/products/編輯商品描述與設定.md",
+    "site/ec/products/設定電子票券門市權限/index.html",
+    "site/ec/products/設定電子票券門市權限",
+    "site/ec/products/認識商品管理介面/index.html",
+    "site/ec/products/認識商品管理介面",
+    "site/index.html",
+    "site/ec/products/設定商品配送屬性（宅配貨到付款）/index.html",
+    "site/ec/products/設定商品配送屬性（宅配貨到付款）",
+    "site/storepal/index.html",
+    "site/storepal",
     "site/ec/store/系統通知設定/index.html",
-    "site/ec/store/index.html",
-    "site/ec/store/系統通知設定",
-    "site/ec/store",
-    "site/ec/products/設定條件分類群組/index.html",
-    "site/ec/products/設定條件分類群組",
-    "site/ec/products/電子票券指南/index.html",
-    "docs/ec/marketing/結帳優惠計算順序-rev.md",
-    "docs/ec/products/新增組合商品.md",
-    "site/assets/images/ec-product-combo-optional-quantity-cart.zh-tw.png",
-    "docs/assets/images/ec-product-combo-optional-quantity-cart.zh-tw.png",
-    "site/assets/images/ec-product-combo-optional-quantity-frontend.zh-tw.png",
-    "docs/assets/images/ec-product-combo-optional-quantity-frontend.zh-tw.png",
+    "site/assets/images/ec-remove-upload-to-third-party-platform-tag.zh-tw.png",
+    "site/assets/images/ec-remove-product-from-tag-collection.zh-tw.png",
+    "site/assets/images/ec-products-select-all-results.zh-tw.gif",
+    "site/assets/images/ec-products-select-all-products.zh-tw.gif",
+    "site/assets/images/ec-products-search-filter-combo.zh-tw.png",
+    "site/assets/images/ec-products-search-bar.zh-tw.png",
+    "site/assets/images/favicon.png",
+    "site/assets/images/ec-products-hero.zh-tw.png",
+    "site/assets/images/ec-products-hero.zh-tw-1.png",
+    "docs/ec/products/編輯商品描述與設定.md",
+    "docs/ec/products/編輯商品標語與商品簡述.md",
     "docs/resources/glossary.md",
+    "docs/ec/integrations/設定 Google 購物廣告.md",
+    "docs/ec/products/index.md",
+    "docs/ec/products/排除商品上傳至第三方平台.md",
+    "docs/ec/marketing/結帳優惠計算順序.md",
+    "docs/ec/products/新增組合商品.md",
+    "docs/resources/references/文字編輯器使用教學.md",
+    "docs/ec/products/設定商品排除搜尋.md",
+    "templates/yaml.md",
+    "docs/ec/products/新增單一商品.md",
+    "docs/ec/products/設定商品標籤.md",
+    "docs/ec/marketing/結帳優惠計算順序-rev.md",
     "docs/ec/store/系統通知設定.md",
     "docs/ec/products/商品管理快速上手.md",
     "docs/ec/products/設定商品超商物流限制與排除選項.md",
-    "docs/ec/products/排除商品上傳至第三方平台.md",
     "docs/ec/integrations/設定自動化廣告.md",
     "docs/ec/products/設定商品到貨通知.md",
-    "site/assets/images/ec-product-combo-optional-quantity.zh-tw.png",
-    "docs/assets/images/ec-product-combo-optional-quantity.zh-tw.png",
-    "site/assets/images/ec-product-combo-specified-quantity.zh-tw.png",
-    "docs/assets/images/ec-product-combo-specified-quantity.zh-tw.png",
     "docs/ec/products/Excel 大量匯入商品.md",
     "templates/lucide-eye-off.md",
-    "docs/ec/integrations/設定 Google 購物廣告.md",
     "docs/ec/products/批次修改商品資訊.md",
     "docs/ec/products/電子票券指南.md",
-    "docs/ec/products/編輯商品標語與商品簡述.md",
-    "docs/ec/products/設定商品影片.md",
-    "docs/ec/products/設定商品排除搜尋.md",
-    "docs/index.md",
-    "docs/resources/references/商品詳細資訊設定.md"
+    "docs/ec/products/設定商品影片.md"
   ]
 }
