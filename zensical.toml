@@ -99,7 +99,7 @@ copyright = """
         ]},
         { "行銷推播" = [
             { "overview" = "ec/marketing/index.md" },  
-            { "行銷工具" = [
+            { "行銷活動" = [
                     { "結帳優惠計算順序" = "ec/marketing/結帳優惠計算順序.md" },
                     { "結帳優惠計算順序-rev" = "ec/marketing/結帳優惠計算順序-rev.md" },
                     { "" = "ec/marketing/"}
