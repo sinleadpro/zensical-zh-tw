@@ -92,20 +92,6 @@
             }
           },
           {
-            "id": "735a2598a2e649b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/resources/使用 Jam 回報問題.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "使用 Jam 回報問題"
-            }
-          },
-          {
             "id": "c689bd201fe696ec",
             "type": "leaf",
             "state": {
@@ -162,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 1
       },
       {
         "id": "ea951fb7d70bee14",
@@ -410,8 +396,13 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ee4de6e4fb7a4876",
+  "active": "41c65486e0d9ef22",
   "lastOpenFiles": [
+    "docs/ec/products/編輯商品標語與商品簡述.md",
+    "docs/ec/products/新增單一商品.md",
+    "docs/ec/products/編輯商品描述與設定.md",
+    "docs/ec/products/index.md",
+    "docs/resources/使用 Jam 回報問題.md",
     "site/assets/images/ec-use-jam-to-report-hero.zh-tw.png",
     "docs/assets/images/ec-use-jam-to-report-hero.zh-tw.png",
     "includes/abbreviations.md",
@@ -433,19 +424,14 @@
     "site/assets/images/ec-products-search-bar.zh-tw.png",
     "site/assets/images/favicon.png",
     "site/assets/images/ec-products-hero.zh-tw.png",
-    "site/assets/images/ec-products-hero.zh-tw-1.png",
-    "docs/ec/products/編輯商品描述與設定.md",
-    "docs/ec/products/編輯商品標語與商品簡述.md",
     "docs/resources/glossary.md",
     "docs/ec/integrations/設定 Google 購物廣告.md",
-    "docs/ec/products/index.md",
     "docs/ec/products/排除商品上傳至第三方平台.md",
     "docs/ec/marketing/結帳優惠計算順序.md",
     "docs/ec/products/新增組合商品.md",
     "docs/resources/references/文字編輯器使用教學.md",
     "docs/ec/products/設定商品排除搜尋.md",
     "templates/yaml.md",
-    "docs/ec/products/新增單一商品.md",
     "docs/ec/products/設定商品標籤.md",
     "docs/ec/marketing/結帳優惠計算順序-rev.md",
     "docs/ec/store/系統通知設定.md",
