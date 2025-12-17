@@ -36,31 +36,17 @@
             }
           },
           {
-            "id": "e33f7aa7937d58e5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/新增組合商品.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "新增組合商品"
-            }
-          },
-          {
             "id": "00b604233cdf2905",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "includes/abbreviations.md",
+                "file": "docs/ec/products/編輯商品描述與設定.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "abbreviations"
+              "title": "編輯商品描述與設定"
             }
           },
           {
@@ -69,12 +55,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "includes/abbreviations.md",
+                "file": "docs/ec/marketing/結帳優惠計算順序.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "abbreviations"
+              "title": "結帳優惠計算順序"
             }
           },
           {
@@ -162,41 +148,13 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "ea951fb7d70bee14",
         "type": "tabs",
         "dimension": 43.201542912246865,
         "children": [
-          {
-            "id": "a11481a391ed1477",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.cyberbiz.io/support/?p=37330#stock",
-                "title": "組合商品",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "組合商品"
-            }
-          },
-          {
-            "id": "d5c02e7de0c0217c",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=8055",
-                "title": "組合商品 - CYBERBIZ 一般版教學文件",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "組合商品 - CYBERBIZ 一般版教學文件"
-            }
-          },
           {
             "id": "5966163e457c587f",
             "type": "leaf",
@@ -209,6 +167,20 @@
               },
               "icon": "globe-2",
               "title": "自動化廣告系統"
+            }
+          },
+          {
+            "id": "9d592301c67b1ee1",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.cyberbiz.io/helpcenter/?p=8055",
+                "title": "組合商品 - CYBERBIZ 一般版教學文件",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "組合商品 - CYBERBIZ 一般版教學文件"
             }
           },
           {
@@ -225,7 +197,8 @@
               "title": "Google購物廣告設定(GMC)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -424,14 +397,27 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "a11481a391ed1477",
+  "active": "9a90b44576b26df5",
   "lastOpenFiles": [
+    "includes/abbreviations.md",
+    "docs/ec/marketing/結帳優惠計算順序.md",
+    "site/pos/index.html",
+    "site/pos",
+    "site/storepal/index.html",
+    "site/storepal",
+    "site/ec/products/編輯商品描述與設定/index.html",
+    "site/ec/products/編輯商品描述與設定",
+    "site/ec/products/設定單品限時折扣群組/index.html",
+    "site/ec/products/設定單品限時折扣群組",
+    "site/ec/products/電子票券指南/index.html",
+    "site/ec/products/電子票券指南",
+    "docs/ec/marketing/結帳優惠計算順序-rev.md",
+    "docs/ec/products/編輯商品描述與設定.md",
     "docs/ec/products/新增組合商品.md",
     "site/assets/images/ec-product-combo-optional-quantity-cart.zh-tw.png",
     "docs/assets/images/ec-product-combo-optional-quantity-cart.zh-tw.png",
     "site/assets/images/ec-product-combo-optional-quantity-frontend.zh-tw.png",
     "docs/assets/images/ec-product-combo-optional-quantity-frontend.zh-tw.png",
-    "includes/abbreviations.md",
     "docs/resources/glossary.md",
     "docs/ec/store/系統通知設定.md",
     "docs/ec/products/商品管理快速上手.md",
@@ -450,26 +436,14 @@
     "docs/assets/images/ec-product-restock-notification.zh-tw.gif",
     "templates/lucide-eye-off.md",
     "docs/ec/integrations/設定 Google 購物廣告.md",
-    "factory/TS-FAQ f9e52cbba4154737ba7ad7df8a329daa.csv",
-    "factory/客服資料庫-new.csv",
-    "factory/客服資料庫-old.csv",
-    "factory",
     "docs/ec/products/批次修改商品資訊.md",
     "docs/ec/products/電子票券指南.md",
     "docs/ec/products/編輯商品標語與商品簡述.md",
     "docs/ec/products/設定商品影片.md",
     "docs/ec/products/設定商品排除搜尋.md",
-    "site/ec/index.html",
     "docs/index.md",
-    "site/ec/products/設定商品影片/index.html",
-    "site/ec/products/設定商品影片",
-    "site/ec/products/編輯商品標語與商品簡述/index.html",
-    "site/ec/products/編輯商品標語與商品簡述",
-    "site/ec/products/index.html",
     "docs/ec/products/設定商品標籤.md",
     "docs/resources/references/商品詳細資訊設定.md",
-    "docs/ec/index.md",
-    "templates/yaml.md",
-    "docs/ec/products/設定多購物車.md"
+    "docs/ec/index.md"
   ]
 }
