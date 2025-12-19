@@ -439,8 +439,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ee4de6e4fb7a4876",
+  "active": "6f44f245f9eec7b4",
   "lastOpenFiles": [
+    "includes/abbreviations.md",
+    "docs/ec/products/編輯商品描述與設定.md",
+    "docs/ec/products/編輯商品簡述與商品標語.md",
     "site/ec/products/編輯商品簡述與商品標語/index.html",
     "site/ec/products/編輯商品簡述與商品標語",
     "site/assets/javascripts/workers/search.1bfe1b73.min.js",
@@ -448,9 +451,7 @@
     "site/assets/stylesheets/classic/main.70d17ad7.min.css",
     "site/assets/stylesheets/modern/main.f1b6466b.min.css",
     "site/assets/javascripts/LICENSE",
-    "includes/abbreviations.md",
     "templates/yaml.md",
-    "docs/ec/products/編輯商品簡述與商品標語.md",
     "site/assets/images/ec-product-brief-n-slogan.zh-tw.png",
     "docs/assets/images/ec-product-brief-n-slogan.zh-tw.png",
     "site/assets/images/ec-product-description-brief-frontend.zh-tw.png",
@@ -467,10 +468,8 @@
     "site/ec/index.html",
     "site/ec/products/index.html",
     "site/ec/products/後台搜尋商品/index.html",
-    "site/ec/products/後台搜尋商品",
     "site/assets/images/ec-3d-secure-flowchart.png",
     "docs/ec/products/設定商品影片.md",
-    "docs/ec/products/編輯商品描述與設定.md",
     "docs/ec/products/新增單一商品.md",
     "docs/ec/products/快速上手商品管理.md",
     "docs/ec/products/設定商品分類群組.md",
