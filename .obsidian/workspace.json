@@ -22,59 +22,59 @@
             }
           },
           {
-            "id": "41c65486e0d9ef22",
+            "id": "a61b651c3458f8f2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/編輯商品描述與設定.md",
+                "file": "docs/ec/products/編輯商品簡述與商品標語.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "編輯商品描述與設定"
+              "title": "編輯商品簡述與商品標語"
             }
           },
           {
-            "id": "8b60d31381396eee",
+            "id": "99704a6f7f3446bb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/批次修改商品資訊.md",
+                "file": "docs/ec/products/商品評論指南.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "批次修改商品資訊"
+              "title": "商品評論指南"
             }
           },
           {
-            "id": "e3c79a10143165ff",
+            "id": "6f44f245f9eec7b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/編輯商品標語與商品簡述.md",
+                "file": "docs/ec/products/編輯商品簡述與商品標語.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "編輯商品標語與商品簡述"
+              "title": "編輯商品簡述與商品標語"
             }
           },
           {
-            "id": "882bcb2a3dd58e98",
+            "id": "217cb32926a1c0d3",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/設定商品標籤.md",
+                "file": "includes/abbreviations.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定商品標籤"
+              "title": "abbreviations"
             }
           },
           {
@@ -89,6 +89,20 @@
               },
               "icon": "lucide-file",
               "title": "index"
+            }
+          },
+          {
+            "id": "f2f854fe771505ab",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/快速上手商品管理.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "快速上手商品管理"
             }
           },
           {
@@ -162,7 +176,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "ea951fb7d70bee14",
@@ -425,52 +439,53 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9d592301c67b1ee1",
+  "active": "ee4de6e4fb7a4876",
   "lastOpenFiles": [
+    "site/ec/products/編輯商品簡述與商品標語/index.html",
+    "site/ec/products/編輯商品簡述與商品標語",
+    "site/assets/javascripts/workers/search.1bfe1b73.min.js",
+    "site/assets/javascripts/bundle.6008f134.min.js",
+    "site/assets/stylesheets/classic/main.70d17ad7.min.css",
+    "site/assets/stylesheets/modern/main.f1b6466b.min.css",
+    "site/assets/javascripts/LICENSE",
+    "includes/abbreviations.md",
+    "templates/yaml.md",
+    "docs/ec/products/編輯商品簡述與商品標語.md",
+    "site/assets/images/ec-product-brief-n-slogan.zh-tw.png",
+    "docs/assets/images/ec-product-brief-n-slogan.zh-tw.png",
+    "site/assets/images/ec-product-description-brief-frontend.zh-tw.png",
+    "docs/assets/images/ec-product-description-brief-frontend.zh-tw.png",
+    "site/assets/images/ec-generate-text-html-syntax.zh-tw.gif",
+    "docs/assets/images/ec-generate-text-html-syntax.zh-tw.gif",
+    "docs/ec/products/index.md",
+    "docs/ec/products/設定商品標籤.md",
+    "docs/ec/products/批次修改商品資訊.md",
+    "docs/ec/products/商品評論指南.md",
+    "site/assets/images/ec-product-review-management.zh-tw.png",
+    "docs/assets/images/ec-product-review-management.zh-tw.png",
+    "ec-product-review-management.zh-tw.png",
+    "site/ec/index.html",
+    "site/ec/products/index.html",
+    "site/ec/products/後台搜尋商品/index.html",
+    "site/ec/products/後台搜尋商品",
+    "site/assets/images/ec-3d-secure-flowchart.png",
+    "docs/ec/products/設定商品影片.md",
     "docs/ec/products/編輯商品描述與設定.md",
-    "site/resources/faq/index.html",
-    "site/resources/faq",
-    "site/wms/index.html",
-    "site/wms",
-    "site/resources/changelog/index.html",
-    "site/resources/changelog",
-    "site/ec/products/設定商品到貨通知/index.html",
-    "site/ec/products/設定商品到貨通知",
-    "site/ec/products/商品配送通路綁定/index.html",
-    "site/ec/products/商品配送通路綁定",
+    "docs/ec/products/新增單一商品.md",
+    "docs/ec/products/快速上手商品管理.md",
+    "docs/ec/products/設定商品分類群組.md",
     "docs/ec/products/商品配送通路綁定.md",
     "docs/ec/products/配送通路綁定.md",
     "docs/ec/products/商品上架管理：配送通路綁定.md",
-    "docs/ec/products/批次修改商品資訊.md",
-    "site/assets/images/wms-hero.png",
-    "site/assets/images/wms-hero-old.png",
-    "site/assets/images/wms-hero-1.png",
-    "site/assets/images/ec-variant-clickable-contact-merchant.zh-tw.gif",
-    "site/assets/images/test.png",
-    "site/assets/images/resources-hero.png",
-    "site/assets/images/pos-hero.png",
-    "site/assets/images/install-jam-extension.gif",
-    "site/assets/images/storepal-hero.png",
-    "site/assets/images/jam-capture-options.png",
-    "docs/ec/products/編輯商品標語與商品簡述.md",
     "docs/ec/products/設定多購物車.md",
     "docs/ec/marketing/結帳優惠計算順序.md",
-    "docs/ec/products/設定商品標籤.md",
     "docs/resources/references/文字編輯器使用教學.md",
-    "includes/abbreviations.md",
-    "docs/ec/products/新增單一商品.md",
-    "docs/ec/products/index.md",
     "docs/resources/使用 Jam 回報問題.md",
     "docs/resources/glossary.md",
     "docs/ec/integrations/設定 Google 購物廣告.md",
     "docs/ec/products/排除商品上傳至第三方平台.md",
     "docs/ec/products/新增組合商品.md",
     "docs/ec/products/設定商品排除搜尋.md",
-    "templates/yaml.md",
-    "docs/ec/marketing/結帳優惠計算順序-rev.md",
-    "docs/ec/store/系統通知設定.md",
-    "docs/ec/products/商品管理快速上手.md",
-    "docs/ec/products/設定商品超商物流限制與排除選項.md",
-    "docs/ec/integrations/設定自動化廣告.md"
+    "docs/ec/marketing/結帳優惠計算順序-rev.md"
   ]
 }
