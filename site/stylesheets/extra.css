@@ -37,8 +37,10 @@ a {
 
 /* Adjusting overall max width of the content area */
 .md-grid {
-  max-width: 1440px; 
-  gap: 0.5rem;
+  /* max-width: 1440px;  */
+  max-width: 1550px; 
+  /* gap: 0.5rem; */
+  gap: 1.7rem;
 }
 
 /* .md-content {
