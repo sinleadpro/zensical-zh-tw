@@ -1,14 +1,29 @@
 ---
-title: 常見問題（FAQ）
+title: 常見問題 FAQ
 description: 快速解答商家在使用本平台時最常遇到的問題，包含商品、訂單、金流、物流與系統設定。
-icon: lucide/circle-question-mark
+icon: lucide/life-buoy
 ---
 
-# 常見問題（FAQ）
+# 常見問題 FAQ
 
 本頁彙整商家最常遇到的問題與解答。  
 若問題無法排解，請聯絡客服支援或查看對應的功能文件。
 
+
+[聯絡客服](#){ .md-button .md-button--primary }
+
+---
+
+<div class="grid cards" markdown>
+
+- :lucide-shield:{ .lg }  
+__資安__  
+資訊安全相關問題。
+- :fontawesome-brands-js: __JavaScript__ for interactivity
+- :fontawesome-brands-css3: __CSS__ for text running out of boxes
+- :fontawesome-brands-internet-explorer: __Internet Explorer__ ... huh?
+
+</div>
 
 ## 商品管理
 

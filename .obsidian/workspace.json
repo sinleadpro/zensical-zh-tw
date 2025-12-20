@@ -64,6 +64,62 @@
             }
           },
           {
+            "id": "fc6c9ea2d43b17a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "8620ce40b4d919c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/quickstart.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "quickstart"
+            }
+          },
+          {
+            "id": "9b1ddc5234a61de8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "resources/references.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "references"
+            }
+          },
+          {
+            "id": "c69be96320fff845",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/quickstart.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "quickstart"
+            }
+          },
+          {
             "id": "217cb32926a1c0d3",
             "type": "leaf",
             "state": {
@@ -176,7 +232,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 6
       },
       {
         "id": "ea951fb7d70bee14",
@@ -439,18 +495,29 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6f44f245f9eec7b4",
+  "active": "9b1ddc5234a61de8",
   "lastOpenFiles": [
+    "docs/resources/faq.md",
+    "resources/references.md",
+    "resources",
+    "templates/library.md",
+    "templates/lucide-shield.md",
+    "site/resources/references/文字編輯器使用教學/index.html",
+    "site/resources/references/商品詳細資訊設定/index.html",
+    "site/resources/references/文字編輯器使用教學",
+    "site/resources/faq/index.html",
+    "site/resources/使用 Jam 回報問題/index.html",
+    "site/resources/references/商品詳細資訊設定",
+    "site/resources/changelog/index.html",
+    "site/resources/glossary/index.html",
+    "site/resources/conventions/index.html",
+    "templates/syntax-icon-lg.md",
+    "docs/ec/products/quickstart.md",
+    "templates/lucide-life-buoy.md",
+    "docs/ec/products/index.md",
+    "docs/ec/products/編輯商品簡述與商品標語.md",
     "includes/abbreviations.md",
     "docs/ec/products/編輯商品描述與設定.md",
-    "docs/ec/products/編輯商品簡述與商品標語.md",
-    "site/ec/products/編輯商品簡述與商品標語/index.html",
-    "site/ec/products/編輯商品簡述與商品標語",
-    "site/assets/javascripts/workers/search.1bfe1b73.min.js",
-    "site/assets/javascripts/bundle.6008f134.min.js",
-    "site/assets/stylesheets/classic/main.70d17ad7.min.css",
-    "site/assets/stylesheets/modern/main.f1b6466b.min.css",
-    "site/assets/javascripts/LICENSE",
     "templates/yaml.md",
     "site/assets/images/ec-product-brief-n-slogan.zh-tw.png",
     "docs/assets/images/ec-product-brief-n-slogan.zh-tw.png",
@@ -458,20 +525,15 @@
     "docs/assets/images/ec-product-description-brief-frontend.zh-tw.png",
     "site/assets/images/ec-generate-text-html-syntax.zh-tw.gif",
     "docs/assets/images/ec-generate-text-html-syntax.zh-tw.gif",
-    "docs/ec/products/index.md",
     "docs/ec/products/設定商品標籤.md",
     "docs/ec/products/批次修改商品資訊.md",
     "docs/ec/products/商品評論指南.md",
     "site/assets/images/ec-product-review-management.zh-tw.png",
     "docs/assets/images/ec-product-review-management.zh-tw.png",
     "ec-product-review-management.zh-tw.png",
-    "site/ec/index.html",
-    "site/ec/products/index.html",
-    "site/ec/products/後台搜尋商品/index.html",
     "site/assets/images/ec-3d-secure-flowchart.png",
     "docs/ec/products/設定商品影片.md",
     "docs/ec/products/新增單一商品.md",
-    "docs/ec/products/快速上手商品管理.md",
     "docs/ec/products/設定商品分類群組.md",
     "docs/ec/products/商品配送通路綁定.md",
     "docs/ec/products/配送通路綁定.md",
@@ -480,11 +542,6 @@
     "docs/ec/marketing/結帳優惠計算順序.md",
     "docs/resources/references/文字編輯器使用教學.md",
     "docs/resources/使用 Jam 回報問題.md",
-    "docs/resources/glossary.md",
-    "docs/ec/integrations/設定 Google 購物廣告.md",
-    "docs/ec/products/排除商品上傳至第三方平台.md",
-    "docs/ec/products/新增組合商品.md",
-    "docs/ec/products/設定商品排除搜尋.md",
-    "docs/ec/marketing/結帳優惠計算順序-rev.md"
+    "docs/resources/glossary.md"
   ]
 }

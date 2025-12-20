@@ -22,7 +22,7 @@
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/products/</loc>
       </url>
       <url>
-        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/products/%E5%BF%AB%E9%80%9F%E4%B8%8A%E6%89%8B%E5%95%86%E5%93%81%E7%AE%A1%E7%90%86/</loc>
+        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/products/quickstart/</loc>
       </url>
       <url>
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/products/%E6%96%B0%E5%A2%9E%E5%96%AE%E4%B8%80%E5%95%86%E5%93%81/</loc>
@@ -166,10 +166,10 @@
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/resources/</loc>
       </url>
       <url>
-        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/resources/changelog/</loc>
+        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/resources/faq/</loc>
       </url>
       <url>
-        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/resources/faq/</loc>
+        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/resources/changelog/</loc>
       </url>
       <url>
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/resources/glossary/</loc>

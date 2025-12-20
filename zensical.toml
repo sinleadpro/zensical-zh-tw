@@ -55,7 +55,7 @@ copyright = """
         { "會員管理" = "ec/members/index.md" },
         { "商品管理" = [
             { "商品管理" = "ec/products/index.md" },  
-            { "快速上手" = "ec/products/快速上手商品管理.md" },  
+            { "快速上手" = "ec/products/quickstart.md" },  
             { "商品上架" = [
                     { "新增單一商品" = "ec/products/新增單一商品.md"},
                     { "Excel 大量匯入商品" = "ec/products/Excel 大量匯入商品.md"},
@@ -144,9 +144,9 @@ copyright = """
     { "智慧倉儲" = "wms/index.md" },
     { "智能 POS" = "pos/index.md" },
     { "資源中心" = [
-        { "資源中心總覽" = "resources/index.md" },
-        { "更新紀錄" = "resources/changelog.md" },
+        { "總覽" = "resources/index.md" },
         { "常見問題" = "resources/faq.md" },
+        { "更新紀錄" = "resources/changelog.md" },
         { "詞彙表" = "resources/glossary.md" },
         { "圖示慣例" = "resources/conventions.md" },   
         { "參考資料" = "resources/references" }
@@ -315,7 +315,7 @@ features = [
     # When sections are enabled, top-level sections are rendered as groups in
     # the sidebar for viewports above 1220px, but remain as-is on mobile.
     # https://zensical.org/docs/setup/navigation/#navigation-sections
-    #"navigation.sections",
+    "navigation.sections",
 
     # When tabs are enabled, top-level sections are rendered in a menu layer
     # below the header for viewports above 1220px, but remain as-is on mobile.
