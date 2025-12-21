@@ -1,8 +1,31 @@
 ---
 title: 使用 Jam 回報操作問題
 description: 用 Jam 錄製畫面，提供連結給客服，協助排查問題。
-type: how-to
-tags:
+product:
+  - EC
+module: []
+activ: ""
+surfaces: []
+devices:
+  - desktop
+apis: []
+type: tutorial
+features: []
+tasks: []
+tnb: ""
+plans: []
+prerequisites: []
+lang: zh-TW
+sites: []
+status: new
+tags: 
+  - Jam
+  - 客服支援
+difficulty: ""
+audiences: []
+wp_url: []
+notes: []
+comments: ""
 ---
 
 # 使用 Jam 回報操作問題

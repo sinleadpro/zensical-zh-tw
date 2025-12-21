@@ -21,33 +21,49 @@ system:
   - 後台
 lang: zh-TW
 sites: 台灣
-status: review
+status: ""
 activ: configure
 listen: assets/audios/設定留言區 reCAPTCHA 聽讀.mp3
 tags:
   - 資安
   - Google
+  - reCAPTCHA
 note:
   - verify FAQ
   - update internal links
+devices:
+  - desktop
+  - mobile
+apis: []
+features: []
+tnb: ""
+prerequisites: []
+difficulty: ""
+audiences: []
+wp_url: []
+comments: ""
 ---
 
 # 啟用留言區 reCAPTCHA
+
 啟用 Google reCAPTCHA 防止機器人訊息及垃圾留言，保護留言區，提升網站安全性及顧客互動品質。 
 { .subtitle }
 
 [:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | PLUS 企業  [:lucide-toggle-right:{ title="適用方案" }](../../resources/conventions#適用功能) | 拖拉版型 
 
-![](../../assets/audios/設定留言區%20reCAPTCHA%20聽讀.mp3)
-![](../../assets/videos/e-ticket-reconciliation-computer.mp4)
+![](../../assets/images/ec-google-recaptcha.zh-tw.png){ .hero-page }
 
-### 為什麼要用 reCAPTCHA
-- 防範垃圾留言：保護商品評論區與聯絡我們頁面免受機器人攻擊。  
-- 提升網站安全性：有效辨識非人類操作，減少濫用行為與詐欺風險。  
-- 維護互動品質：確保留言內容真實有效，改善顧客互動體驗。  
+## 什麼是 reCAPTCHA？
 
-!!! quote "什麼是 reCAPTCHA？"
-	reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與機器人，保護網站表單、留言區與交易流程免受自動化攻擊。它能有效防止垃圾訊息、刷單或惡意程式操作，並提升網站整體安全性。了解更多，請參考[官方網站 :material-open-in-new:](https://cloud.google.com/security/products/recaptcha?hl=zh_tw)。
+reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動化程式，保護網站表單、留言區與交易流程免受機器人攻擊。
+
+使用 reCAPTCHA 可達成以下目的：
+
+- **防範垃圾留言**：降低商品評論區與聯絡表單遭自動化濫用的風險。  
+- **提升網站安全性**：辨識非人類操作，減少詐欺與惡意行為。  
+- **維護互動品質**：確保提交內容的真實性，改善整體使用體驗。
+
+更多資訊請參考 [reCAPTCHA 官方文件 :material-open-in-new:](https://cloud.google.com/security/products/recaptcha?hl=zh_tw)。
 
 ## 使用須知
 
@@ -56,13 +72,6 @@ note:
 - [x] 商品頁面評論區。
 - [x] 聯絡我們頁面。
 
-<div class="grid cards" markdown>
-
-- ![商品評論區建立 reCAPTCHA 安全驗證機制](https://www.cyberbiz.io/support/wp-content/uploads/商品評論00.png){ title="商品頁面評論區" }
-- ![聯絡我們頁面建立 reCAPTCHA 安全驗證機制](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-聯絡我們-設定reCAPTCHA01.png){ title="聯絡我們頁面" }
-
-</div>
-
 ### 費用
 - Google reCAPTCHA 提供免費用量配額，若超出免費用量，顧客將無法進行留言。
 > 達到免費用量上限前，Google 會透過電子郵件通知商家。
@@ -70,48 +79,47 @@ note:
 
 ## 操作步驟
 
-### 申請 Google reCAPTCHA 金鑰
+### 申請 reCAPTCHA 金鑰
 
 1. 前往 [Google reCAPTCHA 管理控制台 :material-open-in-new:](https://www.google.com/recaptcha/admin/)，並登入您的 Google 帳號。
-2. 依序填寫註冊資訊。
-> **標籤**：依您的需求命名此 reCAPTCHA （例如：`您的商店名稱_reCAPTCHA`）。  
-> **reCAPTCHA 類型**：選擇「驗證問題」，並勾選「隱形 reCAPTCHA 標記」[^隱形 reCAPTCHA]。  
-> **網域**：輸入您的官網網址。  
-> **Google Cloud Platform**：依您的需求選擇專案。  
-	
-	??? warning "網址填寫注意事項"
-		請勿填入網址前綴 `https://` 與後綴 `/...`。例如：若您的官網網址為 `https://_demo1234.cyberbiz.co_ /zh-TW`，請僅填入 `_demo1234.cyberbiz.co_`。
+2. 依序填寫註冊資訊：
+	- **標籤**：依您的需求命名此 reCAPTCHA （例如：`您的商店名稱_reCAPTCHA`）。  
+	- **reCAPTCHA 類型**：選擇「驗證問題」，並勾選「隱形 reCAPTCHA 標記」[^隱形 reCAPTCHA]。  
+	- **網域**：輸入您的官網網址。
+	> :lucide-triangle-alert: 請勿填入網址前綴 `https://` 與後綴 `/...`。  
+	> 例如：若您的官網網址為 `https://_demo1234.cyberbiz.co_ /zh-TW`，請僅填入 `_demo1234.cyberbiz.co_`。
 
-2. 點擊 **提交** 按鈕，取得 Google reCAPTCHA 的 **網站金鑰 (sitekey)** 與 **密鑰 (secretkey)**。
+	- **Google Cloud Platform**：依您的需求選擇專案。  
 
-3. 複製並妥善保存 **網站金鑰** 跟 **密鑰**，後續將用於綁定步驟。
+3. 點擊 **提交** 按鈕，取得 Google reCAPTCHA 的 **網站金鑰 (sitekey)** 與 **密鑰 (secretkey)**。
+
+4. 複製並妥善保存 **網站金鑰** 跟 **密鑰**，後續將用於綁定步驟。
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台網站外觀-管理商品評論-設定Google-reCAPTCHA03.png){ .screenshot }
 
 
-### 將 reCAPTCHA 金鑰綁定商品評論區
-:lucide-lock:{ title="適用方案" } | PLUS 企業
+### 綁定 reCAPTCHA 金鑰至商品評論區
+[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | PLUS 企業
 
-!!! note "方案限制"
-    商品評論功能僅供 **企業版**、**PLUS 版** 商家使用，若需啟用此功能，請聯絡客服開通。了解如何[商品評論指南](商品評論指南.md)。
+> 商品評論功能僅供 **企業**、**PLUS** 版商家使用，若需啟用此功能，請聯絡客服開通。了解如何[商品評論指南](商品評論指南.md)。
 
 1. 登入 CYBERBIZ 電商後台，前往 **網站外觀 > 管理商品評論**。
 2. 點擊 Google reCAPTCHA 開關 :material-toggle-switch:，以開啟功能（ON）。
-3. 貼上金鑰。
-> **reCAPTCHA sitekey**：將在申請過程中取得的 **網站金鑰** 填入此欄位。  
-> **reCAPTCHA secretkey**：將在申請過程中取得的 **密鑰** 填入此欄位。  
-4. 點擊「更新」套用變更。
+3. 貼上金鑰：
+	- **reCAPTCHA sitekey**：將在申請過程中取得的 **網站金鑰** 填入此欄位。  
+	- **reCAPTCHA secretkey**：將在申請過程中取得的 **密鑰** 填入此欄位。  
+4. 點擊 **更新** 套用變更。
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台網站外觀-管理商品評論-設定Google-reCAPTCHA04.png){ .screenshot }
 
 
-### 將 reCAPTCHA 金鑰綁定聯絡我們頁面
+### 綁定 reCAPTCHA 金鑰至聯絡我們頁面
 
 1. 登入 CYBERBIZ 電商後台，前往 **會員 > 顧客回饋 & 建議**。
 2. 點擊 **啟動機器人阻擋** 開關 :material-toggle-switch:，以開啟功能（ON）。
-3. 貼上金鑰
-> **sitekey** 將申請過程中取得的 **網站金鑰** 填入此欄位。  
-> **secret key** 將申請過程中取得的 **密鑰** 填入此欄位。
+3. 貼上金鑰：
+	- **sitekey** 將申請過程中取得的 **網站金鑰** 填入此欄位。  
+	- **secret key** 將申請過程中取得的 **密鑰** 填入此欄位。
 4. 點擊 **儲存所有設定** 套用變更。
 
 ![](../../assets/images/ec-members-customer-feedback-enable-reCAPTCHA.png)

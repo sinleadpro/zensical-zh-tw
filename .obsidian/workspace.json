@@ -78,6 +78,48 @@
             }
           },
           {
+            "id": "ee1c8a973adca3fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/resources/faq/使用 Jam 回報問題.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "使用 Jam 回報問題"
+            }
+          },
+          {
+            "id": "a442de39e0f73846",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/商品評論指南.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "商品評論指南"
+            }
+          },
+          {
+            "id": "b1ecf361ad744747",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/啟用留言區 reCAPTCHA.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "啟用留言區 reCAPTCHA"
+            }
+          },
+          {
             "id": "de5f5eb82bfb3a55",
             "type": "leaf",
             "state": {
@@ -176,7 +218,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       },
       {
         "id": "ea951fb7d70bee14",
@@ -438,23 +480,29 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "fc6c9ea2d43b17a7",
+  "active": "ee4de6e4fb7a4876",
   "lastOpenFiles": [
-    "docs/assets/images/~reate-new-product-hero-card-2.tmp",
     "docs/ec/products/編輯商品簡述與商品標語.md",
+    "docs/ec/products/啟用留言區 reCAPTCHA.md",
+    "site/assets/images/ec-google-recaptcha.zh-tw.png",
+    "docs/assets/images/ec-google-recaptcha.zh-tw.png",
+    "site/assets/images/ec-product-reviews-management.zh-tw.png",
+    "docs/assets/images/ec-product-reviews-management.zh-tw.png",
+    "docs/ec/products/商品評論指南.md",
+    "docs/resources/faq/使用 Jam 回報問題.md",
+    "site/ec/members/index.html",
+    "site/ec/members",
+    "site/ec/products/設定加價購群組的多國語系名稱/index.html",
+    "site/ec/products/設定加價購群組的多國語系名稱",
+    "site/ec/products/設定多購物車/index.html",
+    "site/ec/products/設定多購物車",
+    "site/ec/products/設定單品限時折扣群組/index.html",
+    "site/ec/products/設定單品限時折扣群組",
+    "site/ec/products/設定商品超商物流限制與排除選項/index.html",
+    "site/ec/products/設定商品超商物流限制與排除選項",
+    "docs/ec/products/index.md",
     "docs/ec/products/設定商品影片.md",
     "docs/ec/products/quickstart.md",
-    "site/ec/integrations/設定 Google 購物廣告/index.html",
-    "site/ec/integrations/設定 Google 購物廣告",
-    "site/ec/products/編輯商品簡述與商品標語/index.html",
-    "site/ec/products/編輯商品簡述與商品標語",
-    "site/wms/index.html",
-    "site/wms",
-    "site/ec/products/設定商品影片/index.html",
-    "site/ec/products/設定商品影片",
-    "site/ec/products/product-activ/index.html",
-    "site/ec/products/product-activ",
-    "docs/ec/products/index.md",
     "docs/resources/glossary.md",
     "docs/resources/faq/index.md",
     "docs/ec/products/設定商品到貨通知.md",
@@ -466,14 +514,9 @@
     "site/assets/images/wms-hero.png",
     "site/assets/images/wms-hero-old.png",
     "site/assets/images/resources-hero.png",
-    "site/assets/images/wms-hero-1.png",
-    "site/assets/images/test.png",
-    "site/assets/images/storepal-hero.png",
-    "site/assets/images/pos-hero.png",
     "templates/lucide-pencil.md",
     "docs/ec/products/新增組合商品.md",
     "docs/ec/marketing/index.md",
-    "docs/resources/faq/使用 Jam 回報問題.md",
     "docs/ec/store/index.md",
     "includes/abbreviations.md",
     "docs/ec/marketing/結帳優惠計算順序.md",
@@ -484,7 +527,6 @@
     "docs/resources/changelog.md",
     "docs/ec/payments/index.md",
     "docs/ec/orders/index.md",
-    "docs/ec/members/index.md",
-    "docs/ec/integrations/index.md"
+    "docs/ec/members/index.md"
   ]
 }
