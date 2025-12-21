@@ -9,7 +9,7 @@ tags:
 用 Jam 錄製畫面，提供連結給客服，協助排查問題。
 { .subtitle }
 
-![](../../assets/images/ec-use-jam-to-report-hero.zh-tw.png){ .hero-page }
+![](docs/assets/images/ec-use-jam-to-report-hero.zh-tw.png){ .hero-page }
 
 ## 使用須知
 
@@ -27,7 +27,7 @@ tags:
 3. 點擊 Chrome 右上角拼圖圖示，將 Jam 固定到工具列，方便快速開啟。（建議）
 4. 點擊 Jam 🍓 圖示，使用 Google 帳號登入或建立 Jam 帳號。
 
-![](../../assets/images/install-jam-extension.gif)
+![](docs/assets/images/install-jam-extension.gif)
 
 ### :material-numeric-2-circle-outline: 錄影並重現問題
 
@@ -42,7 +42,7 @@ tags:
 3. 重現操作問題，並可口述操作情境。  
 4. 錄影結束後，點擊 End Recording，Jam 會自動生成影片連結，方便提供給客服或研發團隊。
 
-![](../assets/images/jam-capture-options.png)
+![](docs/assets/images/jam-capture-options.png)
 
 ### :material-numeric-3-circle-outline: 分享影片給客服與研發
 

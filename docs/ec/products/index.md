@@ -30,7 +30,7 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :lucide-baby: __基礎操作__
+-   :lucide-circle-play: __基礎操作__
 
 	---
 	- [檢索商品](quickstart.md#後台搜尋商品)  

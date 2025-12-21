@@ -28,7 +28,7 @@ icon: lucide/circle-question-mark
   訂單處理與物流配送流程。
 
 - :lucide-life-buoy:{ .lg .middle }  
-  __客服與支援__  
+  [__客服與支援__](使用 Jam 回報問題)  
   平台使用相關的支援與說明。
 
 </div>

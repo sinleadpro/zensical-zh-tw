@@ -145,7 +145,13 @@ copyright = """
     { "智能 POS" = "pos/index.md" },
     { "資源中心" = [
         { "總覽" = "resources/index.md" },
-        { "常見問題" = "resources/faq.md" },
+        { "常見問題" = [
+            { "常見問題" = "resources/faq/index.md" },
+            { "資安隱私" = "" },
+            { "客服支援" = [
+                { "使用 Jam 回報問題" = "resources/faq/使用 Jam 回報問題.md" }
+            ]},
+        ]},
         { "更新紀錄" = "resources/changelog.md" },
         { "詞彙表" = "resources/glossary.md" },
         { "圖示慣例" = "resources/conventions.md" },   
