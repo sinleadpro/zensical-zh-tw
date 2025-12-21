@@ -25,7 +25,7 @@ plans:
 lang: zh-TW
 sites:
   - TW
-status: review
+status: ""
 doc_next: ""
 doc_previous: ""
 tags: []

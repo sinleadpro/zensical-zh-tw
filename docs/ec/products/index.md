@@ -43,7 +43,8 @@ hide:
 
 <div class="grid cards" markdown>
 
-- :lucide-package-plus: [__新增商品__](新增單一商品)  
+- ![](../../assets/images/create-new-product-hero-card-2.png)
+  :lucide-package-plus: [__新增商品__](新增單一商品)  
   建立新商品或更新既有商品資訊與設定。  
 
 - :lucide-pencil: [__編輯商品__](編輯商品描述與設定)  
