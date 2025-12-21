@@ -384,39 +384,39 @@ search:
 <div class="grid cards" markdown>
 
 - [:lucide-layout-grid:  __APP MARKET__](){ .md-button .extension-tag }     
-<big>__擴充商店__</big>      
+__擴充商店__        
 擴充服務市集    
 
 - [:lucide-cog: __AUTOMATION__](){ .md-button .extension-tag }     
-<big>__自動化功能__</big>      
+__自動化功能__      
 自動化行銷 精準分眾省荷包  
 
 - [:lucide-ticket: __TICKET__](){ .md-button .extension-tag }    
-<big>[__電子票券__](ec/products/電子票券指南)</big>    
+[__電子票券__](ec/products/電子票券指南)     
 線上購票 線下體驗  
 
 - [:lucide-zap: __NOW!__](){ .md-button .extension-tag }    
-<big>__快速到貨__</big>    
+__快速到貨__    
 整合機車外送系統  
 
 - [:lucide-credit-card: __PAYMENTS__](){ .md-button .extension-tag }    
-<big>__金流支付__</big>  
+__金流支付__   
 金物流一體的安全、多元支付  
 
 - [:lucide-message-circle: __CHAT BOX__](){ .md-button .extension-tag }    
-<big>__訊息通__</big>       
+__訊息通__         
 全通路訊息一站整合  
 
 - [:lucide-link-2: __CHANNEL BRIDGE__](){ .md-button .extension-tag }  
-<big>__全通路管理助手__</big>     
+__全通路管理助手__    
 跨平台商品庫存整合    
 
 - [:lucide-shopping-cart: __STORE PAL__](){ .md-button .extension-tag }    
-<big>__門市助理__</big>    
+__門市助理__     
 OMO 整合  
 
 - [:lucide-arrow-right-from-line: __EXPRESS__](){ .md-button .extension-tag }    
-<big>____</big>    
+____  
 打通跨境商務的最後一哩  
 
 </div>
@@ -427,13 +427,13 @@ OMO 整合
 
 <div class="grid cards" markdown>
 
--   :lucide-megaphone: <big>[__功能報報__](#)</big>  
+-   :lucide-megaphone: [__功能報報__](#)   
 	了解最新動態與實用技巧，請持續關注我們的部落格。
 
--   :lucide-history: <big>[__更新紀錄__](resources/changelog)</big>    
+-   :lucide-history: [__更新紀錄__](resources/changelog)     
     關注我們的功能更新紀錄。
 
-- :lucide-messages-square: <big>[__聯絡我們__](#) </big>  
+- :lucide-messages-square: [__聯絡我們__](#)   
   透過後台的線上客服與我們聯繫。
 
 </div>

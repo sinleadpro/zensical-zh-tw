@@ -69,7 +69,7 @@ toc_depth: 2
 ![](../../assets/images/ec-all-products-products-list.zh-tw.png)
 
 ### 快捷按鈕
-- :lucide-eye: 選擇是否公開商品：:lucide-eye-off: 未公開；:lucide-eye: 公開。
+- :lucide-eye: 設定商品是否公開：:lucide-eye-off: 未公開；:lucide-eye: 公開。
 - :lucide-external-link: 快速前往前台商品頁
 - :lucide-trash-2: 刪除商品
 
