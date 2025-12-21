@@ -1,6 +1,7 @@
 ---
 title: 商品管理
-description: 輕鬆管理商品資訊、分類與庫存，提升上架效率。`
+description: 輕鬆管理商品資訊、分類與庫存，提升上架效率。
+icon: lucide/package
 notes:
   - 蝦皮商品搬站 link
   - add doc [[折扣類型指南]]
@@ -19,7 +20,7 @@ hide:
 管理商品與庫存資料。  
 快速建立商品、管理分類與群組，並即時掌握庫存與補貨狀態。  
 <br>
-[了解基本操作 :lucide-circle-arrow-right:](商品管理快速上手#商品管理介面總覽)  
+[快速上手 :lucide-circle-arrow-right:](quickstart#商品管理介面總覽)  
 
 ![](../../assets/images/ec-products-hero.zh-tw.png)
 
@@ -27,6 +28,23 @@ hide:
 
 ---
 
+<div class="grid cards" markdown>
+
+-   :lucide-baby: __基礎操作__
+
+	---
+	- [檢索商品](quickstart.md#後台搜尋商品)  
+	- [選取大量商品](quickstart.md#選取大量商品)   
+	- [快速設定商品公開狀態](quickstart.md#快捷按鈕)    
+
+-   :lucide-flame: __熱門主題__
+	
+	---
+    - [將商品從搜尋中排除](設定商品排除搜尋)
+    - [匯出商品資料 Excel 表格](批次修改商品資訊#匯出商品-excel-表格)
+
+
+</div>
 ### 快速上手
 
 <div class="grid cards cards-bg" markdown>

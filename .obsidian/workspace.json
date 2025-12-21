@@ -97,12 +97,110 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "resources/references.md",
+                "file": "docs/resources/faq.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "references"
+              "title": "faq"
+            }
+          },
+          {
+            "id": "00a69bd1bbbad65b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/resources/glossary.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "glossary"
+            }
+          },
+          {
+            "id": "f35b5b894657b290",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/marketing/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "5b3e4a64ff494760",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/quickstart.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "quickstart"
+            }
+          },
+          {
+            "id": "a8947af0ce3fc893",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/resources/faq.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "faq"
+            }
+          },
+          {
+            "id": "35f38d26b9c16f5d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "2ca11854d8fb7558",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/resources/faq.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "faq"
+            }
+          },
+          {
+            "id": "1304d920184e0601",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "includes/abbreviations.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "abbreviations"
             }
           },
           {
@@ -232,7 +330,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 12
       },
       {
         "id": "ea951fb7d70bee14",
@@ -495,28 +593,42 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "9b1ddc5234a61de8",
+  "active": "2ca11854d8fb7558",
   "lastOpenFiles": [
+    "site/ec/products/排除商品上傳至第三方平台/index.html",
+    "site/ec/products/排除商品上傳至第三方平台",
+    "site/ec/products/設定單品限時折扣群組/index.html",
+    "site/ec/products/設定單品限時折扣群組",
+    "site/ec/products/設定任選折扣群組/index.html",
+    "site/ec/products/設定任選折扣群組",
+    "site/ec/get-started/index.html",
+    "site/ec/get-started",
+    "site/ec/products/product-activ-v2/index.html",
+    "site/ec/products/product-activ-v2",
+    "site/ec/products/電子票券指南/index.html",
+    "docs/ec/products/index.md",
+    "docs/ec/index.md",
     "docs/resources/faq.md",
+    "includes/abbreviations.md",
+    "docs/resources/使用 Jam 回報問題.md",
+    "docs/resources/changelog.md",
+    "docs/resources/glossary.md",
+    "docs/ec/products/quickstart.md",
+    "docs/ec/store/index.md",
+    "docs/ec/payments/index.md",
+    "docs/ec/orders/index.md",
+    "docs/ec/members/index.md",
+    "docs/ec/marketing/index.md",
+    "docs/ec/integrations/index.md",
+    "docs/ec/analytics/index.md",
+    "docs/resources/references/商品詳細資訊設定.md",
+    "docs/resources/references/文字編輯器使用教學.md",
     "resources/references.md",
-    "resources",
     "templates/library.md",
     "templates/lucide-shield.md",
-    "site/resources/references/文字編輯器使用教學/index.html",
-    "site/resources/references/商品詳細資訊設定/index.html",
-    "site/resources/references/文字編輯器使用教學",
-    "site/resources/faq/index.html",
-    "site/resources/使用 Jam 回報問題/index.html",
-    "site/resources/references/商品詳細資訊設定",
-    "site/resources/changelog/index.html",
-    "site/resources/glossary/index.html",
-    "site/resources/conventions/index.html",
     "templates/syntax-icon-lg.md",
-    "docs/ec/products/quickstart.md",
     "templates/lucide-life-buoy.md",
-    "docs/ec/products/index.md",
     "docs/ec/products/編輯商品簡述與商品標語.md",
-    "includes/abbreviations.md",
     "docs/ec/products/編輯商品描述與設定.md",
     "templates/yaml.md",
     "site/assets/images/ec-product-brief-n-slogan.zh-tw.png",
@@ -525,23 +637,9 @@
     "docs/assets/images/ec-product-description-brief-frontend.zh-tw.png",
     "site/assets/images/ec-generate-text-html-syntax.zh-tw.gif",
     "docs/assets/images/ec-generate-text-html-syntax.zh-tw.gif",
-    "docs/ec/products/設定商品標籤.md",
-    "docs/ec/products/批次修改商品資訊.md",
-    "docs/ec/products/商品評論指南.md",
     "site/assets/images/ec-product-review-management.zh-tw.png",
     "docs/assets/images/ec-product-review-management.zh-tw.png",
     "ec-product-review-management.zh-tw.png",
-    "site/assets/images/ec-3d-secure-flowchart.png",
-    "docs/ec/products/設定商品影片.md",
-    "docs/ec/products/新增單一商品.md",
-    "docs/ec/products/設定商品分類群組.md",
-    "docs/ec/products/商品配送通路綁定.md",
-    "docs/ec/products/配送通路綁定.md",
-    "docs/ec/products/商品上架管理：配送通路綁定.md",
-    "docs/ec/products/設定多購物車.md",
-    "docs/ec/marketing/結帳優惠計算順序.md",
-    "docs/resources/references/文字編輯器使用教學.md",
-    "docs/resources/使用 Jam 回報問題.md",
-    "docs/resources/glossary.md"
+    "site/assets/images/ec-3d-secure-flowchart.png"
   ]
 }

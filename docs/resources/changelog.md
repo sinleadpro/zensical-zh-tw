@@ -6,7 +6,7 @@ icon: lucide/history
 
 # 更新紀錄
 
-## Material for MkDocs
+## EC
 
 ### 9.7.0 <small>November 11, 2025</small> { id="9.7.0" }
 
@@ -134,3 +134,6 @@ invocations means much more idiomatic templating.
 
   [minijinja]: https://github.com/mitsuhiko/minijinja
 
+## POS
+
+## WMS

@@ -34,7 +34,6 @@ notes:
   - Overview 與操作流程互聯
   - Quickstart 上手指南
 toc_depth: 2
-icon: lucide/rocket
 ---
 # 快速上手商品管理
 掌握商品管理後台的基本操作，包括搜尋、篩選、批次操作。

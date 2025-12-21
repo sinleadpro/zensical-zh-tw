@@ -1,7 +1,7 @@
 ---
 title: 行銷推廣
 description: 提升商店曝光與銷售，管理行銷活動、優惠策略與顧客互動。
-icon: lucide/badge-percent
+icon:lucide/badge-percent
 hide:
   - toc
   - feedback

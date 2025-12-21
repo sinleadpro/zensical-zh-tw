@@ -23,20 +23,27 @@ hide:
 
 ---
 
-### 快速上手 :lucide-rocket:
-
 <div class="grid cards" markdown>
 
-- :fontawesome-brands-html5: __HTML__  
-for content and structure
-- :fontawesome-brands-js: __JavaScript__  
-for interactivity
-- :fontawesome-brands-css3: __CSS__  
-for text running out of boxes
-- :fontawesome-brands-internet-explorer: __Internet Explorer__  
-  ... huh?
+-   :lucide-rocket:{ .lg .middle } __快速上手__
+
+    ---
+
+    Install [`zensical`](#) with [`pip`](#) and get up
+    and running in minutes
+
+    [:octicons-arrow-right-24: Getting started](#)
+
+-   :lucide-truck:{ .lg .middle } __搬家到 CYBERBIZ__
+
+    ---
+
+    Focus on your content and generate a responsive and searchable static site
+
+    [:octicons-arrow-right-24: Reference](#)
 
 </div>
+
 
 === "商店設定"
 

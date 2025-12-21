@@ -1,7 +1,7 @@
 ---
 title: 常見問題 FAQ
 description: 快速解答商家在使用本平台時最常遇到的問題，包含商品、訂單、金流、物流與系統設定。
-icon: lucide/life-buoy
+icon: lucide/circle-question-mark
 ---
 
 # 常見問題 FAQ
@@ -9,21 +9,30 @@ icon: lucide/life-buoy
 本頁彙整商家最常遇到的問題與解答。  
 若問題無法排解，請聯絡客服支援或查看對應的功能文件。
 
-
 [聯絡客服](#){ .md-button .md-button--primary }
-
+ 
 ---
 
 <div class="grid cards" markdown>
 
-- :lucide-shield:{ .lg }  
-__資安__  
-資訊安全相關問題。
-- :fontawesome-brands-js: __JavaScript__ for interactivity
-- :fontawesome-brands-css3: __CSS__ for text running out of boxes
-- :fontawesome-brands-internet-explorer: __Internet Explorer__ ... huh?
+- :lucide-shield:{ .lg .middle }  
+  __資安與隱私__  
+ 平台的資料安全與隱私保護機制。
+ 
+- :lucide-credit-card:{ .lg .middle }  
+  __付款與帳務__  
+ 付款流程與帳務相關設定。
+ 
+- :lucide-truck:{ .lg .middle }  
+  __訂單與物流__  
+  訂單處理與物流配送流程。
+
+- :lucide-life-buoy:{ .lg .middle }  
+  __客服與支援__  
+  平台使用相關的支援與說明。
 
 </div>
+
 
 ## 商品管理
 
@@ -110,13 +119,3 @@ __資安__
 ??? quote "如何聯絡客服？"
 	請透過後台「聯絡支援」功能提交工單。
 
-
-## 找不到答案？
-
-如果您在此頁未找到需要的解答，建議：
-
-- 前往對應功能頁查看「情境式 FAQ」
-    
-- 使用站內搜尋
-    
-- 聯絡客服
