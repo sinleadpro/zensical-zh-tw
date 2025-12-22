@@ -111,12 +111,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/啟用留言區 reCAPTCHA.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "啟用留言區 reCAPTCHA"
+              "title": "index"
             }
           },
           {
@@ -480,10 +480,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ee4de6e4fb7a4876",
+  "active": "b1ecf361ad744747",
   "lastOpenFiles": [
-    "docs/ec/products/編輯商品簡述與商品標語.md",
+    "docs/ec/index.md",
     "docs/ec/products/啟用留言區 reCAPTCHA.md",
+    "docs/ec/products/編輯商品簡述與商品標語.md",
     "site/assets/images/ec-google-recaptcha.zh-tw.png",
     "docs/assets/images/ec-google-recaptcha.zh-tw.png",
     "site/assets/images/ec-product-reviews-management.zh-tw.png",
@@ -523,7 +524,6 @@
     "docs/ec/products/排除商品上傳至第三方平台.md",
     "docs/ec/integrations/設定 Google 購物廣告.md",
     "templates/lucide-circle-play.md",
-    "docs/ec/index.md",
     "docs/resources/changelog.md",
     "docs/ec/payments/index.md",
     "docs/ec/orders/index.md",
