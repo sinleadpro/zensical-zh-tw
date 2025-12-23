@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 23.836838750796684,
+        "dimension": 24.369085173501578,
         "children": [
           {
             "id": "3e2d43890e417467",
@@ -181,7 +181,7 @@
       {
         "id": "145b9f26bb568cb5",
         "type": "tabs",
-        "dimension": 27.533460803059274,
+        "dimension": 26.97160883280757,
         "children": [
           {
             "id": "50658d05582d8786",
@@ -230,7 +230,7 @@
       {
         "id": "0f41cb20a1d95388",
         "type": "tabs",
-        "dimension": 25.55768005098789,
+        "dimension": 25.55205047318612,
         "children": [
           {
             "id": "9d592301c67b1ee1",
@@ -251,7 +251,7 @@
       {
         "id": "ea951fb7d70bee14",
         "type": "tabs",
-        "dimension": 23.07202039515615,
+        "dimension": 23.107255520504733,
         "children": [
           {
             "id": "8b169f1b639a04c3",
@@ -482,6 +482,7 @@
   },
   "active": "ee4de6e4fb7a4876",
   "lastOpenFiles": [
+    "includes/abbreviations.md",
     "docs/ec/orders/一般退貨退款.md",
     "site/404.html",
     "site/ec/products/index-old/index.html",
@@ -498,7 +499,6 @@
     "docs/ec/orders/一般退貨退款  一般版.md",
     "docs/ec/orders/一般退貨退款 企業版.md",
     "docs/ec/orders/一般退貨退款 PLUS.md",
-    "includes/abbreviations.md",
     "docs/resources/faq/使用 Jam 回報問題.md",
     "docs/ec/products/商品評論指南.md",
     "docs/ec/products/啟用留言區 reCAPTCHA.md",
