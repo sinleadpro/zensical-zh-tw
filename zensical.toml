@@ -51,7 +51,10 @@ copyright = """
         { "品牌官網" = "ec/index.md" },
         { "新手上路" = "ec/get-started.md" },
         { "報表分析" = "ec/analytics/index.md" },
-        { "訂單物流" = "ec/orders/index.md" },
+        { "訂單物流" = [
+            { "orders" = "ec/orders/index.md" },
+            { "一般退貨退款" = "ec/orders/一般退貨退款.md" }
+        ]},
         { "會員管理" = "ec/members/index.md" },
         { "商品管理" = [
             { "商品管理" = "ec/products/index.md" },  
@@ -148,6 +151,9 @@ copyright = """
         { "常見問題" = [
             { "常見問題" = "resources/faq/index.md" },
             { "資安隱私" = "" },
+            { "付款帳務" = [
+                { "一般退貨退款" = "resources/faq/一般退貨退款.md" }
+            ]},
             { "客服支援" = [
                 { "使用 Jam 回報問題" = "resources/faq/使用 Jam 回報問題.md" }
             ]},

@@ -43,7 +43,7 @@ comments: ""
  - 錄影或截圖前，請移除或遮蔽所有敏感資料，以確保錄影或截圖中無包含敏感個資。
 
 ## 操作流程
-### :material-numeric-1-circle-outline: 安裝 Jam Chrome 擴充功能
+### 安裝 Jam Chrome 擴充功能
 
 1. 打開 [Chrome 線上應用程式商店 Jam 頁面](https://chromewebstore.google.com/detail/jam/iohjgamcilhbgmhbnllfolmkmmekfmci)。
 2. 點擊 **加到 Chrome > 新增擴充功能** 完成安裝。
@@ -52,7 +52,7 @@ comments: ""
 
 ![](../../assets/images/install-jam-extension.gif)
 
-### :material-numeric-2-circle-outline: 錄影並重現問題
+### 錄影並重現問題
 
 1. 點擊 Chrome 工具列右上角的 Jam 🍓 圖示。  
 2. 選擇以截圖或是錄影：
@@ -67,7 +67,7 @@ comments: ""
 
 ![](../../assets/images/jam-capture-options.png)
 
-### :material-numeric-3-circle-outline: 分享影片給客服與研發
+### 分享影片給客服與研發
 
 1. 點擊 **分享** 或 **複製連結**。  
 2. 將連結寄至 CYBERBIZ 客服信箱：[support@cyberbiz.io](mailto:support@cyberbiz.io)。
