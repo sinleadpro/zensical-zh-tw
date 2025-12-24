@@ -480,8 +480,11 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "6c2c34f505602941",
+  "active": "ee4de6e4fb7a4876",
   "lastOpenFiles": [
+    "site/index.html",
+    "site/ec/analytics/index.html",
+    "site/ec/analytics",
     "site/assets/images/ec-orders-returning.zh-tw.png",
     "docs/assets/images/ec-orders-returning.zh-tw.png",
     "docs/ec/get-started/文字編輯器使用教學.md",
@@ -493,8 +496,6 @@
     "site/ec/products/設定任選折扣群組",
     "site/ec/products/設定條件分類群組/index.html",
     "site/ec/products/設定條件分類群組",
-    "site/ec/products/設定商品超商物流限制與排除選項/index.html",
-    "site/ec/products/設定商品超商物流限制與排除選項",
     "docs/ec/orders/一般退貨退款.md",
     "includes/abbreviations.md",
     "site/assets/images/ec-return-policy-eligible-days.zh-tw.png",
@@ -521,7 +522,6 @@
     "docs/assets/images/ec-product-reviews-management.zh-tw.png",
     "docs/resources/faq/index.md",
     "docs/ec/products/設定商品多層級分類.md",
-    "create-new-product-hero-card-2.png",
     "templates/lucide-pencil.md",
     "docs/ec/products/新增組合商品.md",
     "docs/ec/marketing/index.md",
