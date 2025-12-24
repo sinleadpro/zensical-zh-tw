@@ -86,7 +86,7 @@ a {
   background-color: var(--card-bg);
 }
 
-/* Heading styles */
+Heading styles
 .md-typeset h2 {
   font-weight: 700;
   border-bottom: 1px solid var(--md-default-fg-color--lightest);

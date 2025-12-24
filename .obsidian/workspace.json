@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 24.369085173501578,
+        "dimension": 24.369085173501574,
         "children": [
           {
             "id": "3e2d43890e417467",
@@ -230,7 +230,7 @@
       {
         "id": "0f41cb20a1d95388",
         "type": "tabs",
-        "dimension": 25.55205047318612,
+        "dimension": 25.552050473186124,
         "children": [
           {
             "id": "9d592301c67b1ee1",
@@ -480,20 +480,23 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ee4de6e4fb7a4876",
+  "active": "6c2c34f505602941",
   "lastOpenFiles": [
-    "includes/abbreviations.md",
+    "site/assets/images/ec-orders-returning.zh-tw.png",
+    "docs/assets/images/ec-orders-returning.zh-tw.png",
+    "docs/ec/get-started/文字編輯器使用教學.md",
+    "site/ec/store/系統通知設定/index.html",
+    "site/ec/store/index.html",
+    "site/ec/store/系統通知設定",
+    "site/ec/store",
+    "site/ec/products/設定任選折扣群組/index.html",
+    "site/ec/products/設定任選折扣群組",
+    "site/ec/products/設定條件分類群組/index.html",
+    "site/ec/products/設定條件分類群組",
+    "site/ec/products/設定商品超商物流限制與排除選項/index.html",
+    "site/ec/products/設定商品超商物流限制與排除選項",
     "docs/ec/orders/一般退貨退款.md",
-    "site/404.html",
-    "site/ec/products/index-old/index.html",
-    "site/ec/products/index-old",
-    "site/ec/get-started/index.html",
-    "site/ec/get-started",
-    "site/ec/products/Excel 大量匯入商品/index.html",
-    "site/ec/products/Excel 大量匯入商品",
-    "site/ec/products/product-activ-v2/index.html",
-    "site/ec/products/product-activ-v2",
-    "site/ec/products/index.html",
+    "includes/abbreviations.md",
     "site/assets/images/ec-return-policy-eligible-days.zh-tw.png",
     "docs/assets/images/ec-return-policy-eligible-days.zh-tw.png",
     "docs/ec/orders/一般退貨退款  一般版.md",
@@ -519,13 +522,11 @@
     "docs/resources/faq/index.md",
     "docs/ec/products/設定商品多層級分類.md",
     "create-new-product-hero-card-2.png",
-    "site/assets/images/create-new-product-hero-card-2.png",
     "templates/lucide-pencil.md",
     "docs/ec/products/新增組合商品.md",
     "docs/ec/marketing/index.md",
     "docs/ec/store/index.md",
     "docs/ec/marketing/結帳優惠計算順序.md",
-    "docs/ec/products/排除商品上傳至第三方平台.md",
-    "docs/ec/integrations/設定 Google 購物廣告.md"
+    "docs/ec/products/排除商品上傳至第三方平台.md"
   ]
 }

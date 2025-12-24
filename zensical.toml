@@ -49,7 +49,9 @@ copyright = """
     { "主頁" = "index.md" },
     { "品牌官網" = [
         { "品牌官網" = "ec/index.md" },
-        { "新手上路" = "ec/get-started.md" },
+        { "開始使用" = [
+            { "文字編輯器使用教學" = "ec/get-started/文字編輯器使用教學.md" }
+        ]},
         { "報表分析" = "ec/analytics/index.md" },
         { "訂單物流" = [
             { "orders" = "ec/orders/index.md" },
