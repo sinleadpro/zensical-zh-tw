@@ -34,7 +34,7 @@ hide:
 
     [:octicons-arrow-right-24: Getting started](#)
 
--   :lucide-truck:{ .lg .middle } __搬家到 CYBERBIZ__
+-   :lucide-truck-electric:{ .lg .middle } __搬家到 CYBERBIZ__
 
     ---
 

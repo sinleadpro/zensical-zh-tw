@@ -4,6 +4,8 @@ last_modified: "2023-12-28"
 categories: [PLUS版適用,訂單>退貨退款]
 tags: [PLUS版專用]
 permalink: "https://www.cyberbiz.io/helpcenter/?p=5254"
+search:
+  exclude: true
 ---
 
 ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS版4.png)

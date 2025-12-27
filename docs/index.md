@@ -225,92 +225,21 @@ search:
 
 ## :lucide-shopping-bag: 品牌官網 
 
+<div class="grid cards" markdown>
 
-=== "商店設定"
+- :lucide-rocket:{ .lg }      
+  __新手上路__   
+  for content and structure
+- :lucide-store:{ .lg }  
+  __商店設定__  
+   for interactivity
+- :lucide-package:{ .lg }  
+  __商品管理__   
+  for text running out of boxes
+- __訂單物流__  
+   ... huh?
 
-	<div class= "grid cards" markdown>
-	
-	- [__新手上路__](品牌官網/get-started.md)
-	- [__搬家到 CYBERBIZ__](#)
-	- [__網站外觀__](#)
-	
-	</div>
-
-=== "商品管理"
-
-	<div class= "grid cards" markdown>
-	
-	- [__商品管理__]
-	- [__庫存管理__]
-	
-	</div>
-
-=== "訂單物流"
-
-	<div class= "grid cards" markdown>
-	
-	- [__訂單流程__]
-	- [__物流設定__]
-	
-	</div>
-
-=== "支付金流"
-
-	<div class= "grid cards" markdown>
-	
-	- [__付款方式__]
-	- [__款項對帳__]
-	
-	</div>
-
-=== "會員管理"
-
-	<div class="grid cards" markdown>
-	
-	-   :material-clock-fast:{ .lg .middle } __快速上手__
-	
-	    ---
-	
-	    Install [`zensical`](#) with [`pip`](#) and get up
-	    and running in minutes
-	
-	    [:octicons-arrow-right-24: Getting started](#)
-	
-	-   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
-	
-	    ---
-	
-	    Focus on your content and generate a responsive and searchable static site
-	
-	    [:octicons-arrow-right-24: Reference](#)
-	
-	-   :material-format-font:{ .lg .middle } __Made to measure__
-	
-	    ---
-	
-	    Change the colors, fonts, language, icons, logo and more with a few lines
-	
-	    [:octicons-arrow-right-24: Customization](#)
-	
-	</div>
-
-=== "行銷成長"
-
-	<div class= "grid cards" markdown>
-	
-	- [__行銷工具__]
-	- [__成長拓展__]
-	
-	</div>
-
-=== "整合串接"
-
-	<div class= "grid cards" markdown>
-	
-	- [__第三方服務整合__]
-	- [__API 與自動化__]
-	
-	</div>
+</div>
 
 ---
 

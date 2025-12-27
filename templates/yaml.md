@@ -1,4 +1,5 @@
 title: ""
+last_modified: ""
 description: ""
 product:
   - EC
@@ -24,3 +25,5 @@ audiences: []
 wp_url: []
 notes: []
 comments: ""
+search: 
+  exclude: ""

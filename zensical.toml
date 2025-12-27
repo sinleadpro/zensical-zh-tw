@@ -53,12 +53,13 @@ copyright = """
             { "文字編輯器使用教學" = "ec/get-started/文字編輯器使用教學.md" }
         ]},
         { "報表分析" = "ec/analytics/index.md" },
-        { "訂單物流" = [
+        { "訂單" = [
             { "orders" = "ec/orders/index.md" },
-            { "一般退貨退款" = "ec/orders/一般退貨退款.md" }
+            { "一般退貨退款" = "ec/orders/一般退貨退款.md" },
+            { "一般退貨退款-cli" = "ec/orders/一般退貨退款-cli.md" }
         ]},
-        { "會員管理" = "ec/members/index.md" },
-        { "商品管理" = [
+        { "會員" = "ec/members/index.md" },
+        { "商品" = [
             { "商品管理" = "ec/products/index.md" },  
             { "快速上手" = "ec/products/quickstart.md" },  
             { "商品上架" = [
@@ -103,7 +104,7 @@ copyright = """
                     { "電子票券門市權限" = "ec/products/設定電子票券門市權限.md"}
             ]},
         ]},
-        { "行銷推播" = [
+        { "行銷活動" = [
             { "overview" = "ec/marketing/index.md" },  
             { "行銷活動" = [
                     { "結帳優惠計算順序" = "ec/marketing/結帳優惠計算順序.md" },
@@ -121,7 +122,7 @@ copyright = """
                     { "" = "ec/marketing/"}
             ]},        
         ]},
-        { "支付金流" = [
+        { "金物流" = [
             { "支付金流" = "ec/payments/index.md" },
             { "申請 CYBERBIZ PAYMENTS" = "ec/payments/申請 CYBERBIZ PAYMENTS.md" },
             { "設定 Apple Pay" = "ec/payments/設定 Apple Pay.md" },

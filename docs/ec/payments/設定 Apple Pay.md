@@ -49,12 +49,13 @@ wp_url:
 ![](../../assets/images/ec-payments-apple-pay.zh-tw.png){ .hero-page }
 
 
-??? quote "為何使用 Apple Pay？"
-    - **加速結帳**：省去消費者手動輸入信用卡資訊的時間，直接透過手機快速輕鬆付款。
-    - **改善體驗**：提供更方便流暢的消費體驗，降低結帳成本，提升消費慾望，進而提高轉單率。
-    - **強化安全性**：透過 Apple 的 Touch ID/Face ID 身分驗證機制，確保交易安全有保障。
-    - **自動啟用**：當您開通 CYBERBIZ PAYMENTS 時，會預設開啟 Apple Pay，無需額外申請或等待。
-    - **費用實惠**：使用 CYBERBIZ PAYMENTS Apple Pay，費率與信用卡一次付清相同，無需額外負擔任何費用。
+## 為什麼使用 Apple Pay
+
+- **加速結帳**：省去消費者手動輸入信用卡資訊的時間，直接透過手機快速輕鬆付款。
+- **改善體驗**：提供更方便流暢的消費體驗，降低結帳成本，提升消費慾望，進而提高轉單率。
+- **強化安全性**：透過 Apple 的 Touch ID/Face ID 身分驗證機制，確保交易安全有保障。
+- **自動啟用**：當您開通 CYBERBIZ PAYMENTS 時，會預設開啟 Apple Pay，無需額外申請或等待。
+- **費用實惠**：使用 CYBERBIZ PAYMENTS Apple Pay，費率與信用卡一次付清相同，無需額外負擔任何費用。
 
 ## 前提條件
 
