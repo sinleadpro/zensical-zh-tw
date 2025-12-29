@@ -1,0 +1,1 @@
+:lucide-refresh-cw-off:

@@ -270,6 +270,17 @@ search:
 
 ![](../../assets/images/ec-return-policy-eligible-days.zh-tw.png)
 
+## 後續步驟
+
+<div class="grid cards" markdown>
+
+- :lucide-package-x:{ .lg }    
+  __部分退貨退款__  
+  for content and structure
+- :fontawesome-brands-js: __JavaScript__ for interactivity
+
+</div>
+
 ## 常見問題
 
 ??? quote "一筆訂單可以申請幾次退貨與退款？"

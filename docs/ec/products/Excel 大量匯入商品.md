@@ -1,6 +1,6 @@
 ---
 title: Excel 大量匯入商品
-description: 使用 Excel 範本一次新增或更新大量商品，加速上架並降低操作錯誤風險。
+description: 使用 Excel 範本一次新增或更新大量商品、批次上架多筆商品。
 product:
   - EC
 module:
@@ -47,7 +47,7 @@ comments: ""
 
 # Excel 大量匯入商品
 
-使用 Excel 範本一次新增或更新大量商品。
+使用 Excel 範本一次新增或更新大量商品、批次上架多筆商品。
 { .subtitle }
 
 ![](../../assets/images/ec-import-products-from-excel.zh-tw.png){ title="Excel 大量匯入商品：商品 > Excel 大量匯入商品" .hero-page }
@@ -148,5 +148,5 @@ comments: ""
 ## 延伸閱讀
 
 - [編輯商品簡述與商品標語](編輯商品簡述與商品標語.md)
-- [批次修改商品資訊](批次修改商品資訊)
+- [批次修改商品描述與配送設定](批次修改商品描述與配送設定.md)
 - [從蝦皮搬遷商品](#)

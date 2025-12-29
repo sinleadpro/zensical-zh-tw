@@ -34,7 +34,7 @@ hide:
 	
 	---
     - [將商品從搜尋中排除](設定商品排除搜尋)
-    - [匯出商品資料 Excel 表格](批次修改商品資訊#匯出商品-excel-表格)
+    - [匯出商品資料 Excel 表格](批次修改商品描述與配送設定.md#匯出商品-excel-表格)
 
 </div>
 
@@ -47,14 +47,14 @@ hide:
   :lucide-package-plus: [__新增商品__](新增單一商品)  
   建立新商品或更新既有商品資訊與設定。  
 
-- :lucide-pencil: [__編輯商品__](編輯商品描述與設定)  
+- :lucide-pencil: [__編輯商品__](編輯商品描述與商品設定.md)  
   設定商品標題、描述、規格與多媒體資源。  
 
-- :lucide-import: [__批次操作__](Excel 大量匯入商品)  
+- :lucide-import: [__批次上架__](Excel 大量匯入商品)  
    以 Excel 大量建立或修改商品資料。  
 
-- :lucide-refresh-cw: [__同步商品至第三方平台__](設定商品標籤#排除上傳至第三方平台標籤)  
-   設定商品是否同步至外部平台。  
+- :lucide-refresh-cw-off: [__排除商品上傳至第三方平台__](管理商品標籤.md#排除上傳至第三方平台標籤)  
+   設定商品是否同步至外部平台。 
 
 </div>
 
@@ -65,7 +65,7 @@ hide:
 - :lucide-group: [__商品群組__](設定商品分類群組)  
   設定條件或自訂分類管理商品集合。
 
-- :lucide-tag: [__商品標籤__](設定商品標籤)  
+- :lucide-tag: [__商品標籤__](管理商品標籤.md)  
    建立與管理商品標籤，以利搜尋與分組。  
 
 - :lucide-navigation: [__導覽列與前台顯示__](設定商品多層級分類)  
@@ -77,16 +77,19 @@ hide:
 
 <div class="grid cards" markdown>
 
+- :lucide-clock: [__預購商品__](設定結帳拆分多購物車#設定預購商品)  
+  建立預購通路並綁定商品，結帳時成立專屬購物車。
+
 - :lucide-circle-percent: [__優惠商品__](設定 VIP 會員專屬價格)  
    設定商品折扣、優惠與會員價格。  
 	  
-- :lucide-shopping-cart: [__多購物車結帳__](設定多購物車)  
-   管理不同銷售通路與購物流程。  
+- :lucide-shopping-cart: [__多購物車結帳__](設定結帳拆分多購物車.md)  
+   管理不同銷售通路與購物流程。
 
 - :lucide-bell: [__補貨通知__](設定商品到貨通知)  
-   設定缺貨商品的到貨提醒。  
+   缺貨商品已補貨的到貨提醒。  
 
-- :lucide-star: [__管理商品評論__](商品評論指南)  
+- :lucide-star: [__管理商品評論__](管理商品評論.md)  
    管理顧客評論與互動功能。  
 
 - :lucide-tag: [__商品廣告__](設定 Google 購物廣告)  
@@ -101,7 +104,7 @@ hide:
 - :lucide-settings-2: [__配送物流__](設定商品配送屬性（一般宅配）)  
    綁定商品適用物流。  
 
-- :lucide-ban: [__配送限制__](設定商品超商物流限制與排除選項)  
+- :lucide-ban: [__配送限制__](設定超商物流限制與排除選項.md)  
    限制商品適用之物流選項。  
 
 </div>
@@ -109,7 +112,7 @@ hide:
 ---
 
 ### 電子票券
-[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | PLUS 企業
+[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | PLUS / 企業
 
 <div class="grid cards" markdown>
 

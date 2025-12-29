@@ -99,6 +99,15 @@ a {
   padding-bottom: 0.4rem; */
 }
 
+/* Metadata styling for docs */
+.doc-badge {
+  margin-top: .5rem; /* space above */
+  margin-bottom: 1.25rem; /* space below */
+  font-size: .8rem; /* smaller text */
+  gap: 1.5rem; /* badge 之間間距 */
+  color: var(--md-default-fg-color--light); /* lighter color */
+}
+
 
 /* Global hover color for links
 .md-typeset a:hover {

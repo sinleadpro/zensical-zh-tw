@@ -27,3 +27,4 @@ notes: []
 comments: ""
 search: 
   exclude: ""
+icon: ""
