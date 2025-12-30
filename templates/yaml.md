@@ -1,4 +1,5 @@
 title: ""
+version: ""
 last_modified: ""
 description: ""
 product:
