@@ -33,7 +33,7 @@
             "format": 0,
             "mode": "normal",
             "style": "",
-            "text": " , adding missing properties but preserve existing ones with values. For properties missing values, fill in according to the content appropriately. Input the last-updated property with current timestamp date in the following format: yyyy-mm-dd.",
+            "text": " , adding missing properties but preserve existing ones with values. For properties missing values, fill in according to the content appropriately. Input the last-updated property with current date timestamp date in the following format: yyyy-mm-dd.",
             "type": "text",
             "version": 1
           }
@@ -49,6 +49,6 @@
     ]
   },
   "createdAt": 1763022321621,
-  "updatedAt": 1766966023110,
+  "updatedAt": 1767081629730,
   "schemaVersion": 1
 }

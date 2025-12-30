@@ -52,7 +52,7 @@ copyright = """
         { "開始使用" = [
             { "文字編輯器使用教學" = "ec/get-started/文字編輯器使用教學.md" }
         ]},
-        { "報表分析" = "ec/analytics/index.md" },
+        { "分析報表" = "ec/analytics/index.md" },
         { "訂單" = [
             { "orders" = "ec/orders/index.md" },
             { "一般退貨退款" = "ec/orders/一般退貨退款.md" },
@@ -64,7 +64,7 @@ copyright = """
             { "快速上手" = "ec/products/quickstart.md" },  
             { "商品上架" = [
                     { "新增單一商品" = "ec/products/新增單一商品.md"},
-                    { "商品排除搜尋" = "ec/products/設定商品排除搜尋.md" },
+                    { "設定商品搜尋可見性" = "ec/products/設定商品搜尋可見性.md" },
                     { "組合商品指南" = "ec/products/組合商品指南.md"},
                     { "商品到貨通知" = "ec/products/設定商品到貨通知.md"},
                     { "商品描述與商品設定" = "ec/products/編輯商品描述與商品設定.md" },
@@ -77,7 +77,7 @@ copyright = """
                     { "商品配送通路綁定" = "ec/products/商品配送通路綁定.md" },
                     { "設定商品配送屬性（一般宅配）" = "ec/products/設定商品配送屬性（一般宅配）.md" },
                     { "設定商品配送屬性（宅配貨到付款）" = "ec/products/設定商品配送屬性（宅配貨到付款）.md" },
-                    { "設定超商物流限制與排除選項" = "ec/products/設定超商物流限制與排除選項.md" }
+                    { "設定超商配送限制與物流排除" = "ec/products/設定超商配送限制與物流排除.md" }
             ]},
             { "商品分類" = [
                     { "商品分類群組" = "ec/products/設定商品分類群組.md" },
