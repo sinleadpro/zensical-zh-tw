@@ -50,7 +50,21 @@
             }
           },
           {
-            "id": "c33b42b9a511babe",
+            "id": "e8e1ba95ed4926b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/新增單一商品.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "新增單一商品"
+            }
+          },
+          {
+            "id": "2ac32d4460eaf286",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -61,34 +75,6 @@
               },
               "icon": "lucide-file",
               "title": "批次修改商品描述與配送設定"
-            }
-          },
-          {
-            "id": "78115e5a2da9f174",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/編輯商品描述與商品設定.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "編輯商品描述與商品設定"
-            }
-          },
-          {
-            "id": "440362f878846f97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/syntax-doc-badge.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "syntax-doc-badge"
             }
           },
           {
@@ -106,7 +92,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "145b9f26bb568cb5",
@@ -395,37 +381,37 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "c33b42b9a511babe",
+  "active": "2ac32d4460eaf286",
   "lastOpenFiles": [
-    "site/ec/products/批次修改商品描述與配送設定/index.html",
-    "site/ec/products/批次修改商品描述與配送設定",
-    "site/ec/store/系統通知設定/index.html",
-    "site/ec/store/系統通知設定",
-    "site/ec/store/index.html",
-    "site/ec/store",
-    "site/ec/marketing/結帳優惠計算順序-rev/index.html",
-    "site/ec/marketing/結帳優惠計算順序/index.html",
-    "site/ec/marketing/結帳優惠計算順序-rev",
-    "site/ec/marketing/結帳優惠計算順序",
-    "site/ec/marketing/index.html",
-    "templates/syntax-doc-badge.md",
-    "templates/yaml.md",
+    "docs/ec/products/新增單一商品.md",
+    "docs/ec/products/Excel 大量匯入商品.md",
+    "site/ec/products/編輯商品簡述與商品標語/index.html",
+    "site/ec/products/編輯商品簡述與商品標語",
+    "site/ec/products/新增組合商品/index.html",
+    "site/ec/products/新增組合商品",
+    "site/ec/products/quickstart/index.html",
+    "site/ec/products/quickstart",
+    "site/ec/products/設定商品排除搜尋/index.html",
+    "site/ec/products/設定商品排除搜尋",
+    "site/ec/products/設定商品影片/index.html",
+    "site/ec/products/設定商品影片",
     "docs/ec/products/批次修改商品描述與配送設定.md",
+    "docs/resources/conventions.md",
+    "templates/syntax-doc-badge.md",
+    "docs/ec/products/編輯商品描述與商品設定.md",
+    "templates/grid-cards-next-steps.md",
+    "templates/yaml.md",
     "site/assets/images/e-ticket-reconciliation-mobile.gif",
     "site/assets/images/e-ticket-redemption-computer.gif",
     "templates/sib-batch-select-set-products.md",
     "docs/ec/products/設定商品配送屬性.md",
     "docs/index.md",
     "includes/abbreviations.md",
-    "docs/ec/products/編輯商品描述與商品設定.md",
     "docs/ec/orders/一般退貨退款-cli.md",
     "docs/ec/products/index.md",
-    "docs/ec/products/新增單一商品.md",
-    "docs/ec/products/Excel 大量匯入商品.md",
     "docs/ec/products/管理商品標籤.md",
     "docs/ec/products/電子票券指南.md",
     "docs/ec/products/設定結帳拆分多購物車.md",
-    "docs/resources/conventions.md",
     "docs/ec/products/設定電子票券門市權限.md",
     "docs/ec/orders/一般退貨退款  一般版.md",
     "docs/ec/products/電子票券優惠設定.md",
@@ -440,7 +426,6 @@
     "docs/assets/images/ec-product-edit-page-shortcuts.zh-tw.png",
     "docs/ec/products/管理商品評論.md",
     "docs/ec/products/設定商品到貨通知.md",
-    "templates/syntax-button-tag.md",
     "site/assets/images/ec-product-volume-weight-setting.zh-tw.png",
     "docs/assets/images/ec-product-volume-weight-setting.zh-tw.png"
   ]

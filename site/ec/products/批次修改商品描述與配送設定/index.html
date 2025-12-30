@@ -4735,13 +4735,12 @@
 </div>
 </div>
 <h2 id="編輯-excel-檔案">編輯 Excel 檔案<a class="headerlink" href="#編輯-excel-檔案" title="Permanent link">&para;</a></h2>
-<p>開啟下載的匯出商品 Excel 檔案，在對應欄位輸入或修改商品描述跟配送設定。</p>
+<p>開啟下載的匯出商品 Excel 檔案，在對應欄位輸入或修改商品描述跟配送設定。後台實際設定與操作流程，請參閱<a href="../編輯商品描述與商品設定">編輯商品描述與商品設定</a>。</p>
 <h3 id="商品描述">商品描述<a class="headerlink" href="#商品描述" title="Permanent link">&para;</a></h3>
 <ul>
-<li>商品描述頁面包含「商品介紹」、「規格說明」、「運送方式」三個區塊。請分別在 Excel 表格的「商品介紹」、「規格說明」、「運送方式」欄位中輸入對應文字。</li>
-<li>可至管理後台，查看商品描述的設定頁面，前往 <strong>商品 &gt; 所有商品 &gt; 點擊特定商品 &gt; 點擊「商品描述」頁籤</strong>。</li>
+<li>商品描述頁面包含「商品介紹」、「規格說明」、「運送方式」三個區塊。請分別在 Excel 表格的「商品介紹」、「規格說明」、「運送方式」欄位中輸入對應內容。</li>
+<li>若需確認欄位內容在後台的呈現方式，請前往 <strong>商品 &gt; 所有商品 &gt; 點擊特定商品 &gt;「商品描述」頁籤</strong>。</li>
 </ul>
-<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料7.png" />  </p>
 <h3 id="商品通路">商品通路<a class="headerlink" href="#商品通路" title="Permanent link">&para;</a></h3>
 <ul>
 <li>請輸入商品的出貨通路名稱。若輸入商店原先沒有的通路，系統將視為 <strong>新增通路</strong>。<blockquote>
@@ -4763,15 +4762,15 @@
 <li>留空表示 <strong>適用全部配送方式</strong>。</li>
 </ul>
 <h2 id="上傳-excel-檔案">上傳 Excel 檔案<a class="headerlink" href="#上傳-excel-檔案" title="Permanent link">&para;</a></h2>
-<div class="admonition info">
-<p class="admonition-title">更新商品與新增商品差異</p>
-<p>上傳的商品 Excel 檔案中 <code>商品 id</code> 及 <code>商品款式 id</code> 欄位必須帶有系統數值，才能更新既有商品。若這些欄位為空，系統將會新增商品。了解<a href="../Excel 大量匯入商品#區分新增與更新商品">新增與更新商品差異</a>。</p>
-</div>
 <ol>
 <li>登入 CYBERBIZ 管理後台，前往 <strong>商品 &gt; Excel 大量匯入商品</strong>。</li>
 <li>上傳已編輯完成的 Excel 檔案。</li>
 </ol>
 <p><img alt="" src="../../../assets/images/ec-upload-product-excel.zh-tw.png" /></p>
+<div class="admonition info">
+<p class="admonition-title">商品更新與新增規則說明</p>
+<p>上傳的 Excel 檔案中，<code>商品 id</code> 與 <code>商品款式 id</code> 欄位必須填入系統既有數值，才能 <em>更新既有商品</em>。若欄位為空，系統將自動 <em>新增新商品</em>。如需詳細差異說明與操作範例，請參閱<a href="../Excel 大量匯入商品#區分新增與更新商品">新增與更新商品差異</a>。</p>
+</div>
 <h2 id="等待匯入排程通知">等待匯入排程通知<a class="headerlink" href="#等待匯入排程通知" title="Permanent link">&para;</a></h2>
 <div class="tabbed-set tabbed-alternate" data-tabs="2:2"><input checked="checked" id="資料匯入處理中" name="__tabbed_2" type="radio" /><input id="商品資料匯入成功" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="資料匯入處理中"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 2.03v2.02c4.39.54 7.5 4.53 6.96 8.92-.46 3.64-3.32 6.53-6.96 6.96v2c5.5-.55 9.5-5.43 8.95-10.93-.45-4.75-4.22-8.5-8.95-8.97m-2 .03c-1.95.19-3.81.94-5.33 2.2L7.1 5.74c1.12-.9 2.47-1.48 3.9-1.68zM4.26 5.67A9.9 9.9 0 0 0 2.05 11h2c.19-1.42.75-2.77 1.64-3.9zM15.5 8.5l-4.88 4.88-2.12-2.12-1.06 1.06 3.18 3.18 5.94-5.94zM2.06 13c.2 1.96.97 3.81 2.21 5.33l1.42-1.43A8 8 0 0 1 4.06 13zm5.04 5.37-1.43 1.37A10 10 0 0 0 11 22v-2a8 8 0 0 1-3.9-1.63"/></svg></span> 資料匯入處理中</label><label for="商品資料匯入成功"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2m0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8m4.59-12.42L10 14.17l-2.59-2.58L6 13l4 4 8-8z"/></svg></span> 商品資料匯入成功</label></div>
 <div class="tabbed-content">
