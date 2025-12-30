@@ -69,12 +69,54 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/組合商品操作指南.md",
+                "file": "docs/ec/products/組合商品指南.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "組合商品操作指南"
+              "title": "組合商品指南"
+            }
+          },
+          {
+            "id": "0e011b1c4e74c246",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/設定商品搜尋可見性.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定商品搜尋可見性"
+            }
+          },
+          {
+            "id": "678f83bb19201812",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/新增單一商品.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "新增單一商品"
+            }
+          },
+          {
+            "id": "2af9cc607f5b6e39",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/編輯商品簡述與商品標語.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "編輯商品簡述與商品標語"
             }
           },
           {
@@ -106,7 +148,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       },
       {
         "id": "145b9f26bb568cb5",
@@ -395,32 +437,42 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "2ac32d4460eaf286",
+  "active": "0e011b1c4e74c246",
   "lastOpenFiles": [
-    "site/ec/products/組合商品操作指南/index.html",
-    "site/ec/products/組合商品操作指南",
-    "site/ec/products/product-activ/index.html",
-    "site/ec/products/product-activ",
     "site/ec/products/index-old/index.html",
-    "site/ec/products/index-old",
-    "site/ec/products/index 1/index.html",
-    "site/ec/products/index 1",
-    "site/ec/products/組合商品/index.html",
-    "site/ec/products/組合商品",
-    "docs/ec/integrations/設定 Google 購物廣告.md",
+    "site/ec/products/設定商品搜尋可見性/index.html",
+    "site/ec/products/設定商品搜尋可見性",
+    "docs/ec/products/組合商品指南.md",
+    "site/assets/images/ec-product-combo-basic-setting-frontend.zh-tw.png",
+    "docs/assets/images/ec-product-combo-basic-setting-frontend.zh-tw.png",
     "docs/ec/products/新增單一商品.md",
-    "docs/ec/products/組合商品操作指南.md",
+    "site/ec/marketing/結帳優惠計算順序/index.html",
+    "site/ec/marketing/結帳優惠計算順序",
+    "site/ec/products/Excel 大量匯入商品/index.html",
+    "site/ec/products/Excel 大量匯入商品",
+    "site/ec/integrations/設定自動化廣告/index.html",
+    "site/ec/integrations/設定自動化廣告",
+    "site/ec/integrations/Google Analytics ：串接教學/index.html",
+    "site/ec/integrations/Google Analytics ：串接教學",
+    "site/assets/images/jam-capture-options.png",
+    "site/assets/images/install-jam-extension.gif",
+    "site/assets/images/ec-variant-clickable-contact-merchant.zh-tw.gif",
+    "site/assets/images/ec-use-jam-to-report-hero.zh-tw.png",
+    "site/assets/images/ec-upload-product-excel.zh-tw.png",
+    "site/assets/images/ec-unclaimed-parcel-handling.en.png",
+    "site/assets/images/ec-template-editor-board_comments.liquid.zh-tw.png",
+    "site/assets/images/ec-store-hero.zh-tw.png",
+    "docs/ec/products/設定結帳拆分多購物車.md",
+    "docs/ec/products/編輯商品簡述與商品標語.md",
+    "docs/ec/integrations/設定 Google 購物廣告.md",
     "includes/abbreviations.md",
     "templates/syntax-doc-badge.md",
-    "site/ec/products/設定前台商品群組排序/index.html",
     "docs/ec/products/Excel 大量匯入商品.md",
     "docs/ec/products/批次修改商品描述與配送設定.md",
     "docs/resources/conventions.md",
     "docs/ec/products/編輯商品描述與商品設定.md",
     "templates/grid-cards-next-steps.md",
     "templates/yaml.md",
-    "site/assets/images/e-ticket-reconciliation-mobile.gif",
-    "site/assets/images/e-ticket-redemption-computer.gif",
     "templates/sib-batch-select-set-products.md",
     "docs/ec/products/設定商品配送屬性.md",
     "docs/index.md",
@@ -428,20 +480,10 @@
     "docs/ec/products/index.md",
     "docs/ec/products/管理商品標籤.md",
     "docs/ec/products/電子票券指南.md",
-    "docs/ec/products/設定結帳拆分多購物車.md",
     "docs/ec/products/設定電子票券門市權限.md",
     "docs/ec/orders/一般退貨退款  一般版.md",
     "docs/ec/products/電子票券優惠設定.md",
     "docs/ec/products/啟用留言區 reCAPTCHA.md",
-    "templates/lucide-refresh-cw-off.md",
-    "site/assets/images/ec-product-description-frontend.zh-tw.png",
-    "docs/assets/images/ec-product-description-frontend.zh-tw.png",
-    "site/assets/images/ec-edit-product-hero.zh-tw.png",
-    "docs/assets/images/ec-edit-product-hero.zh-tw.png",
-    "templates/lucide-copy.md",
-    "site/assets/images/ec-product-edit-page-shortcuts.zh-tw.png",
-    "docs/assets/images/ec-product-edit-page-shortcuts.zh-tw.png",
-    "site/assets/images/ec-product-volume-weight-setting.zh-tw.png",
-    "docs/assets/images/ec-product-volume-weight-setting.zh-tw.png"
+    "templates/lucide-refresh-cw-off.md"
   ]
 }
