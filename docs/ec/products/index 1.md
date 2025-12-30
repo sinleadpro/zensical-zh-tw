@@ -34,7 +34,7 @@ hide:
 
 	  ---
 	  [建立單一商品](archive/新增單一商品.md)  
-	  [建立組合商品 :lucide-lock:](新增組合商品.md)  
+	  [建立組合商品 :lucide-lock:](組合商品操作指南.md)  
 	  [建立預購商品](設定結帳拆分多購物車.md#預購商品)  
 
 - :lucide-file-text: __設定商品內容__
