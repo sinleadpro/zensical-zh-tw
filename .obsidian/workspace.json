@@ -409,8 +409,10 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ee4de6e4fb7a4876",
+  "active": "5fe4119e60d4a8b4",
   "lastOpenFiles": [
+    "docs/ec/products/組合商品指南.md",
+    "docs/ec/products/設定超商配送限制與物流排除.md",
     "site/ec/products/index.html",
     "site/ec/index.html",
     "site/ec/products/設定 VIP 會員專屬價格/index.html",
@@ -421,7 +423,6 @@
     "site/ec/products/編輯商品簡述與商品標語",
     "site/ec/products/編輯商品描述與商品設定/index.html",
     "site/ec/products/編輯商品描述與商品設定",
-    "site/ec/products/組合商品指南/index.html",
     "site/assets/images/ec-product-variants-volumn-weight.zh-tw.png",
     "docs/assets/images/ec-product-variants-volumn-weight.zh-tw.png",
     "site/assets/images/ec-product-brief-n-slogan.zh-tw.png",
@@ -439,7 +440,6 @@
     "site/assets/images/ec-payments-hero.zh-tw.png",
     "site/assets/images/ec-payments.zh-tw.png",
     "templates/yaml.md",
-    "docs/ec/products/組合商品指南.md",
     "docs/ec/products/設定結帳拆分多購物車.md",
     "includes/abbreviations.md",
     "templates/syntax-doc-badge.md",
