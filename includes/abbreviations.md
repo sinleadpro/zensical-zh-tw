@@ -39,10 +39,10 @@
 *[Master Plan]: Master, a subscription plan for the CYBERBIZ e-commerce platform.
 *[Master PLUS Plan]: Master Plus, a subscription plan for the CYBERBIZ e-commerce platform.
 *[Enterprise Plan]: Enterprise, a subscription plan for the CYBERBIZ e-commerce platform.
-*[B2C]: Business to Consumer, a business model where companies sell products or services directly to consumers. In the B2C model, businesses conduct transactions directly with end consumers through online or offline channels.
+*[B2C]: 商家（Business）直接將商品或服務銷售給最終消費者（Consumer）的商業模式。
 *[EC]: E-commerce，電子商務，透過網際網路進行商品或服務的展示、交易、付款與出貨等商業活動的整體系統與營運模式。
 *[COD]: Cash on Delivery, payment for an order upon receipt rather than online beforehand. Common in logistics delivery services such as home delivery and express delivery.
-*[C2C]: Consumer to Consumer, a business model where transactions occur directly between consumers. In this model, the platform provides transaction and payment tools, but both buyers and sellers are individual consumers, not businesses (B2C) or businesses (B2B).
+*[C2C]: 消費者（Consumer）之間進行商品或服務交易的商業模式，通常透過第三方平台作為媒介，完成買賣行為。
 *[EDM]: Electronic Direct Mail, a method by which merchants send marketing messages, event notifications, or promotional content to members or potential customers via email. Commonly used to increase brand exposure, encourage repeat purchases, and promote new products.
 *[WMS]: Warehouse Management System, used to manage, control, and optimize warehousing operations, covering inbound, outbound, inventory management, order picking, distribution, and report analysis processes. Through automation and data-driven operations, WMS improves warehousing efficiency, reduces error rates, and supports logistics and supply chain collaboration.
 *[POS]: Point of Sale，門市進行交易時所使用的銷售作業系統，用於完成商品結帳、付款、開立收據，並同步記錄銷售資料、庫存變化與營收資訊。
