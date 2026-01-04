@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 29.33753943217666,
+        "dimension": 32.413249211356465,
         "children": [
           {
             "id": "3e2d43890e417467",
@@ -22,17 +22,73 @@
             }
           },
           {
-            "id": "a61b651c3458f8f2",
+            "id": "5fe4119e60d4a8b4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/編輯商品簡述與商品標語.md",
+                "file": "docs/ec/products/設定配送溫層跟物流（一般宅配）.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "編輯商品簡述與商品標語"
+              "title": "設定配送溫層跟物流（一般宅配）"
+            }
+          },
+          {
+            "id": "90c21cceecd429d1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/建立商品自訂分類群組.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "建立商品自訂分類群組"
+            }
+          },
+          {
+            "id": "91d2869afe29793b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/設定結帳拆分多購物車.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定結帳拆分多購物車"
+            }
+          },
+          {
+            "id": "70b3336a63e34d96",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "includes/abbreviations.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "abbreviations"
+            }
+          },
+          {
+            "id": "6f398579ec2e0616",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/新增單一商品.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "新增單一商品"
             }
           },
           {
@@ -64,40 +120,24 @@
             }
           },
           {
-            "id": "00943a18d3f27853",
+            "id": "4b92b331d748ceae",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "csv-lite-view",
               "state": {
-                "file": "docs/resources/conventions.md",
-                "mode": "source",
-                "source": true
+                "file": "reference/trans-glossary.csv"
               },
-              "icon": "lucide-file",
-              "title": "conventions"
-            }
-          },
-          {
-            "id": "5fe4119e60d4a8b4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/設定超商配送限制與物流排除.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定超商配送限制與物流排除"
+              "icon": "table",
+              "title": "trans-glossary"
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       },
       {
         "id": "145b9f26bb568cb5",
         "type": "tabs",
-        "dimension": 24.684542586750787,
+        "dimension": 22.160883280757098,
         "children": [
           {
             "id": "50658d05582d8786",
@@ -146,7 +186,7 @@
       {
         "id": "0f41cb20a1d95388",
         "type": "tabs",
-        "dimension": 24.9211356466877,
+        "dimension": 24.369085173501578,
         "children": [
           {
             "id": "9d592301c67b1ee1",
@@ -154,12 +194,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=5254",
-                "title": "PLUS用戶 - 一般退貨退款 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=2221",
+                "title": "商品上架管理：配送物流/溫層綁定（一般宅配） - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "PLUS用戶 - 一般退貨退款 - CYBERBIZ 一般版教學文件"
+              "title": "商品上架管理：配送物流/溫層綁定（一般宅配） - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -175,12 +215,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=5813",
-                "title": "逆物流(收取退貨)",
+                "url": "https://www.cyberbiz.io/support/?p=2107",
+                "title": "商品上架管理：配送物流/溫層綁定（一般宅配）",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "逆物流(收取退貨)"
+              "title": "商品上架管理：配送物流/溫層綁定（一般宅配）"
             }
           }
         ]
@@ -381,53 +421,53 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "5fe4119e60d4a8b4",
+  "active": "ee4de6e4fb7a4876",
   "lastOpenFiles": [
-    "docs/ec/products/編輯商品描述與商品設定.md",
-    "docs/ec/products/設定超商配送限制與物流排除.md",
-    "docs/resources/conventions.md",
-    "docs/ec/products/編輯商品簡述與商品標語.md",
-    "docs/ec/products/新增單一商品.md",
-    "docs/ec/products/設定商品搜尋可見性.md",
+    "site/ec/products/index-old/index.html",
+    "site/ec/products/index-old",
+    "site/ec/products/product-activ/index.html",
+    "site/ec/products/product-activ",
+    "site/ec/analytics/index.html",
+    "site/ec/analytics",
+    "site/ec/products/電子票券指南/index.html",
+    "site/ec/products/電子票券指南",
+    "site/index 1/index.html",
+    "site/index 1",
+    "site/ec/products/設定電子票券門市權限/index.html",
+    "docs/ec/products/建立商品自訂分類群組.md",
+    "site/assets/images/ec-product-customized-collections-interface.zh-tw.png",
+    "docs/assets/images/ec-product-customized-collections-interface.zh-tw.png",
+    "docs/ec/products/設定配送溫層跟物流（一般宅配）.md",
+    "docs/ec/products/設定結帳拆分多購物車.md",
+    "docs/index.md",
+    "docs/assets/images/ec-product-temp-logistics-settings.zh-tw.png",
+    "site/assets/images/ec-custom-logistics-settings-hero.zh-tw.png",
+    "docs/assets/images/ec-custom-logistics-settings-hero.zh-tw.png",
+    "docs/ec/products/商品上架管理：配送通路綁定 一般版.md",
+    "docs/ec/products/商品上架管理：配送物流_溫層綁定（一般宅配）企業.md",
+    "site/assets/images/ec-product-custom-logistics-settings.zh-tw.png",
+    "docs/assets/images/ec-product-custom-logistics-settings.zh-tw.png",
+    "docs/ec/products/設定配送溫層跟物流（宅配貨到付款）.md",
+    "site/assets/images/ec-product-temp-logistics-settings.zh-tw.png",
     "includes/abbreviations.md",
+    "docs/resources/conventions.md",
+    "docs/ec/products/新增單一商品.md",
+    "docs/ec/products/配送通路設定.md",
+    "docs/ec/products/出貨通路設定.md",
+    "docs/ec/products/設定超商配送限制與物流排除.md",
+    "site/assets/images/product-grid-imge.png",
+    "docs/assets/images/product-grid-imge.png",
+    "docs/ec/products/編輯商品簡述與商品標語.md",
+    "docs/ec/products/編輯商品描述與商品設定.md",
+    "docs/ec/products/設定商品搜尋可見性.md",
     "docs/ec/products/組合商品指南.md",
-    "site/ec/products/index.html",
-    "site/ec/index.html",
-    "site/ec/products/設定 VIP 會員專屬價格/index.html",
-    "site/ec/products/設定 VIP 會員專屬價格",
-    "site/ec/products/設定 VIP 會員專屬價格.en/index.html",
-    "site/ec/products/設定 VIP 會員專屬價格.en",
-    "site/ec/products/編輯商品簡述與商品標語/index.html",
-    "site/ec/products/編輯商品簡述與商品標語",
-    "site/ec/products/編輯商品描述與商品設定/index.html",
-    "site/ec/products/編輯商品描述與商品設定",
-    "site/assets/images/ec-product-variants-volumn-weight.zh-tw.png",
-    "docs/assets/images/ec-product-variants-volumn-weight.zh-tw.png",
-    "site/assets/images/ec-product-brief-n-slogan.zh-tw.png",
-    "site/assets/images/ec-products-hero.zh-tw-1.png",
-    "site/assets/images/ec-products-batch-process.zh-tw.gif",
-    "site/assets/images/ec-products-filters.zh-tw.png",
     "docs/ec/integrations/設定 Google 購物廣告.md",
     "docs/ec/products/設定商品影片.md",
-    "site/assets/images/ec-product-combo-picture.zh-tw.png",
-    "site/assets/images/ec-payments-apple-pay.zh-tw.png",
-    "site/assets/images/ec-payments-hero.zh-tw.png",
-    "site/assets/images/ec-payments.zh-tw.png",
     "templates/yaml.md",
-    "docs/ec/products/設定結帳拆分多購物車.md",
     "templates/syntax-doc-badge.md",
     "docs/ec/products/Excel 大量匯入商品.md",
     "docs/ec/products/批次修改商品描述與配送設定.md",
     "templates/grid-cards-next-steps.md",
-    "templates/sib-batch-select-set-products.md",
-    "docs/ec/products/設定商品配送屬性.md",
-    "docs/index.md",
-    "docs/ec/orders/一般退貨退款-cli.md",
-    "docs/ec/products/index.md",
-    "docs/ec/products/管理商品標籤.md",
-    "docs/ec/products/電子票券指南.md",
-    "docs/ec/products/設定電子票券門市權限.md",
-    "docs/ec/orders/一般退貨退款  一般版.md",
-    "docs/ec/products/電子票券優惠設定.md"
+    "templates/sib-batch-select-set-products.md"
   ]
 }

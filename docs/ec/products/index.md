@@ -62,7 +62,7 @@ hide:
 
 <div class="grid cards" markdown>
 
-- :lucide-group: [__商品群組__](設定商品分類群組)  
+- :lucide-group: [__商品群組__](建立商品自訂分類群組.md)  
   設定條件或自訂分類管理商品集合。
 
 - :lucide-tag: [__商品標籤__](管理商品標籤.md)  
@@ -101,7 +101,7 @@ hide:
 
 <div class="grid cards" markdown>
 
-- :lucide-settings-2: [__配送物流__](設定商品配送屬性（一般宅配）)  
+- :lucide-settings-2: [__配送物流__](設定配送溫層跟物流（一般宅配）.md)  
    綁定商品適用物流。  
 
 - :lucide-ban: [__配送限制__](設定超商配送限制與物流排除.md)  

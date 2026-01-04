@@ -233,11 +233,13 @@ search:
 - :lucide-store:{ .lg }  
   __商店設定__  
    for interactivity
-- :lucide-package:{ .lg }  
+- :lucide-package:{ .lg }      
   __商品管理__   
   for text running out of boxes
 - __訂單物流__  
    ... huh?
+- __會員__  
+  memebership
 
 </div>
 
