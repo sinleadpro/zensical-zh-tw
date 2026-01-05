@@ -6,19 +6,19 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="設定並綁定宅配貨到付款商品的配送物流、溫層與出貨通路。">
+        <meta name="description" content="設定並綁定宅配貨到付款商品的配送物流與溫層。">
       
       
         <meta name="author" content="Jason W. Ke">
       
       
-        <link rel="canonical" href="https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/products/%E8%A8%AD%E5%AE%9A%E9%85%8D%E9%80%81%E6%BA%AB%E5%B1%A4%E8%B7%9F%E7%89%A9%E6%B5%81%EF%BC%88%E4%B8%80%E8%88%AC%E5%AE%85%E9%85%8D%EF%BC%89/">
+        <link rel="canonical" href="https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/products/%E8%A8%AD%E5%AE%9A%E5%95%86%E5%93%81%E9%85%8D%E9%80%81%E6%BA%AB%E5%B1%A4%E8%B7%9F%E7%89%A9%E6%B5%81%EF%BC%88%E4%B8%80%E8%88%AC%E5%AE%85%E9%85%8D%EF%BC%89/">
       
       
         <link rel="prev" href="../%E9%85%8D%E9%80%81%E9%80%9A%E8%B7%AF%E8%A8%AD%E5%AE%9A/">
       
       
-        <link rel="next" href="../%E8%A8%AD%E5%AE%9A%E9%85%8D%E9%80%81%E6%BA%AB%E5%B1%A4%E8%B7%9F%E7%89%A9%E6%B5%81%EF%BC%88%E5%AE%85%E9%85%8D%E8%B2%A8%E5%88%B0%E4%BB%98%E6%AC%BE%EF%BC%89/">
+        <link rel="next" href="../設定商品配送溫層跟物流（宅配貨到付款）.md">
       
       
         
@@ -29,7 +29,7 @@
     
     
       
-        <title>設定配送溫層跟物流（一般宅配） - CYBERBIZ DOCS</title>
+        <title>設定商品配送溫層跟物流（一般宅配） - CYBERBIZ DOCS</title>
       
     
     
@@ -126,7 +126,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#設定配送溫層跟物流一般宅配" class="md-skip">
+        <a href="#設定商品配送溫層跟物流一般宅配" class="md-skip">
           跳轉到
         </a>
       
@@ -160,7 +160,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              設定配送溫層跟物流（一般宅配）
+              設定商品配送溫層跟物流（一般宅配）
             
           </span>
         </div>
@@ -1625,7 +1625,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../%E8%A8%AD%E5%AE%9A%E9%85%8D%E9%80%81%E6%BA%AB%E5%B1%A4%E8%B7%9F%E7%89%A9%E6%B5%81%EF%BC%88%E5%AE%85%E9%85%8D%E8%B2%A8%E5%88%B0%E4%BB%98%E6%AC%BE%EF%BC%89/" class="md-nav__link">
+      <a href="../設定商品配送溫層跟物流（宅配貨到付款）.md" class="md-nav__link">
         
   
   
@@ -1638,13 +1638,6 @@
     
   </span>
   
-  
-    
-  
-  
-    <span class="md-status md-status--review"></span>
-  
-
   
 
       </a>
@@ -4828,8 +4821,8 @@
                 
                   
 
-<h1 id="設定配送溫層跟物流一般宅配">設定配送溫層跟物流（一般宅配）<a class="headerlink" href="#設定配送溫層跟物流一般宅配" title="Permanent link">&para;</a></h1>
-<p class="subtitle">設定並綁定宅配貨到付款商品的配送物流、溫層與出貨通路。</p>
+<h1 id="設定商品配送溫層跟物流一般宅配">設定商品配送溫層跟物流（一般宅配）<a class="headerlink" href="#設定商品配送溫層跟物流一般宅配" title="Permanent link">&para;</a></h1>
+<p class="subtitle">設定並綁定宅配貨到付款商品的配送物流與溫層。</p>
 <p><img alt="" class="hero-page" src="../../../assets/images/ec-product-temp-logistics-settings.zh-tw.png" /></p>
 <h2 id="配送條件綁定說明">配送條件綁定說明<a class="headerlink" href="#配送條件綁定說明" title="Permanent link">&para;</a></h2>
 <p>商品配送條件綁定，指的是將商品明確設定為「可使用」或「僅能使用」特定的配送物流、配送溫層或出貨通路。
@@ -4881,8 +4874,8 @@
 </li>
 </ol>
 <div class="admonition warning">
-<p class="admonition-title">新增物流不會自動套用至特定物流商品</p>
-<p>商品若設定為「僅限特定物流」，新增物流後需手動補綁。否則該物流不會出現在結帳配送選項中。<a href="#商品綁定後新增配送物流">瞭解更多</a>。</p>
+<p class="admonition-title">新增物流不會自動套用至限定物流商品</p>
+<p>若商品已設定為「僅限特定物流」，後續新增的物流方式 <em>不會自動綁定</em> 至該商品。請手動將商品與新增物流進行綁定，否則該物流方式將 <em>不會顯示於結帳頁的配送選項</em>。<a href="#商品綁定後新增配送物流">瞭解更多</a>。</p>
 </div>
 <p><img alt="" src="../../../assets/images/ec-product-custom-logistics-settings.zh-tw.png" /></p>
 <h2 id="設定商品配送溫層">設定商品配送溫層<a class="headerlink" href="#設定商品配送溫層" title="Permanent link">&para;</a></h2>
@@ -5171,7 +5164,7 @@
         
         
           
-          <a href="../%E8%A8%AD%E5%AE%9A%E9%85%8D%E9%80%81%E6%BA%AB%E5%B1%A4%E8%B7%9F%E7%89%A9%E6%B5%81%EF%BC%88%E5%AE%85%E9%85%8D%E8%B2%A8%E5%88%B0%E4%BB%98%E6%AC%BE%EF%BC%89/" class="md-footer__link md-footer__link--next" aria-label="下一頁: 配送溫層跟物流設定（宅配貨到付款）">
+          <a href="../設定商品配送溫層跟物流（宅配貨到付款）.md" class="md-footer__link md-footer__link--next" aria-label="下一頁: 配送溫層跟物流設定（宅配貨到付款）">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 下一頁

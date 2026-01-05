@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/設定配送溫層跟物流（一般宅配）.md",
+                "file": "docs/ec/products/設定商品配送溫層跟物流（一般宅配）.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定配送溫層跟物流（一般宅配）"
+              "title": "設定商品配送溫層跟物流（一般宅配）"
             }
           },
           {
@@ -130,6 +130,20 @@
               "icon": "table",
               "title": "trans-glossary"
             }
+          },
+          {
+            "id": "1d61ee6e3532c6c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/yaml.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "yaml"
+            }
           }
         ],
         "currentTab": 1
@@ -186,7 +200,7 @@
       {
         "id": "0f41cb20a1d95388",
         "type": "tabs",
-        "dimension": 24.369085173501578,
+        "dimension": 24.369085173501574,
         "children": [
           {
             "id": "9d592301c67b1ee1",
@@ -423,21 +437,22 @@
   },
   "active": "ee4de6e4fb7a4876",
   "lastOpenFiles": [
-    "site/ec/products/index-old/index.html",
-    "site/ec/products/index-old",
-    "site/ec/products/product-activ/index.html",
-    "site/ec/products/product-activ",
-    "site/ec/analytics/index.html",
-    "site/ec/analytics",
-    "site/ec/products/電子票券指南/index.html",
-    "site/ec/products/電子票券指南",
-    "site/index 1/index.html",
-    "site/index 1",
-    "site/ec/products/設定電子票券門市權限/index.html",
+    "site/ec/payments/index.html",
+    "site/ec/get-started/index.html",
+    "site/ec/products/index.html",
+    "site/ec/products/設定超商配送限制與物流排除/index.html",
+    "site/ec/products/設定超商配送限制與物流排除",
+    "site/ec/products/設定結帳拆分多購物車/index.html",
+    "site/ec/products/設定結帳拆分多購物車",
+    "site/ec/products/設定單品限時折扣群組/index.html",
+    "site/ec/products/設定單品限時折扣群組",
+    "site/ec/products/設定加價購群組/index.html",
+    "site/ec/products/設定加價購群組",
+    "templates/yaml.md",
+    "docs/ec/products/設定商品配送溫層跟物流（一般宅配）.md",
     "docs/ec/products/建立商品自訂分類群組.md",
     "site/assets/images/ec-product-customized-collections-interface.zh-tw.png",
     "docs/assets/images/ec-product-customized-collections-interface.zh-tw.png",
-    "docs/ec/products/設定配送溫層跟物流（一般宅配）.md",
     "docs/ec/products/設定結帳拆分多購物車.md",
     "docs/index.md",
     "docs/assets/images/ec-product-temp-logistics-settings.zh-tw.png",
@@ -463,7 +478,6 @@
     "docs/ec/products/組合商品指南.md",
     "docs/ec/integrations/設定 Google 購物廣告.md",
     "docs/ec/products/設定商品影片.md",
-    "templates/yaml.md",
     "templates/syntax-doc-badge.md",
     "docs/ec/products/Excel 大量匯入商品.md",
     "docs/ec/products/批次修改商品描述與配送設定.md",
