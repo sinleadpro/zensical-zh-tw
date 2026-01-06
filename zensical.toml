@@ -74,10 +74,9 @@ copyright = """
                     { "批次修改商品描述與配送設定" = "ec/products/批次修改商品描述與配送設定.md" },
             ]},
             { "商品配送" = [
-                    { "出貨通路設定" = "ec/products/出貨通路設定.md" },
+                    { "出貨通路設定" = "ec/products/設定商品出貨通路.md" },
                     { "配送通路設定" = "ec/products/配送通路設定.md" },
-                    { "配送溫層跟物流設定（一般宅配）" = "ec/products/設定商品配送溫層跟物流（一般宅配）.md" },
-                    { "配送溫層跟物流設定（宅配貨到付款）" = "ec/products/設定商品配送溫層跟物流（宅配貨到付款）.md" },
+                    { "配送溫層、物流跟通路設定" = "ec/products/設定商品配送條件（物流、溫層與出貨通路）.md" },
                     { "設定超商配送限制與物流排除" = "ec/products/設定超商配送限制與物流排除.md" }
             ]},
             { "商品分類" = [
@@ -499,7 +498,7 @@ auto_append = ["includes/abbreviations.md"]
 [project.markdown_extensions.md_in_html]
 [project.markdown_extensions.toc]
 permalink = true
-toc_depth = 2
+toc_depth = 3
 [project.markdown_extensions.toc.slugify]
 function = "pymdownx.slugs.slugify"
 kwds = { case = "lower" }

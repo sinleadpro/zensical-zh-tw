@@ -101,7 +101,7 @@ hide:
 
 <div class="grid cards" markdown>
 
-- :lucide-settings-2: [__配送物流__](設定商品配送溫層跟物流（一般宅配）.md)  
+- :lucide-settings-2: [__配送物流__](設定商品配送條件（物流、溫層與出貨通路）.md)  
    綁定商品適用物流。  
 
 - :lucide-ban: [__配送限制__](設定超商配送限制與物流排除.md)  
