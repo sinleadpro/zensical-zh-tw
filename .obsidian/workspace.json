@@ -141,8 +141,8 @@
               "state": {
                 "file": "reference/trans-glossary.csv"
               },
-              "icon": "table",
-              "title": "trans-glossary"
+              "icon": "lucide-ghost",
+              "title": "csv-lite-view"
             }
           },
           {
@@ -310,15 +310,15 @@
             "state": {
               "type": "notebook-navigator",
               "state": {},
-              "icon": "notebook",
-              "title": "Notebook Navigator"
+              "icon": "lucide-ghost",
+              "title": "notebook-navigator"
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 307.5
+    "width": 215.5
   },
   "right": {
     "id": "973606ff262c9293",
@@ -378,7 +378,7 @@
             "state": {
               "type": "footnotes",
               "state": {
-                "file": "docs/ec/products/index.md"
+                "file": "docs/ec/products/設定商品配送條件（物流、溫層與出貨通路）.md"
               },
               "icon": "lucide-file-signature",
               "title": "Footnotes"
@@ -390,7 +390,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/ec/products/批次修改商品描述與配送設定.md",
+                "file": "docs/ec/products/設定商品配送條件（物流、溫層與出貨通路）.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -400,7 +400,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 批次修改商品描述與配送設定"
+              "title": "Backlinks for 設定商品配送條件（物流、溫層與出貨通路）"
             }
           },
           {
@@ -414,7 +414,7 @@
             }
           },
           {
-            "id": "ee4de6e4fb7a4876",
+            "id": "bc5e7ee3a9f5fb45",
             "type": "leaf",
             "state": {
               "type": "git-view",
@@ -444,15 +444,14 @@
       "pdf-plus:PDF++: Toggle auto-copy": false,
       "pdf-plus:PDF++: Toggle auto-focus": false,
       "pdf-plus:PDF++: Toggle auto-paste": false,
-      "obsidian-git:Open Git source control": false,
-      "notebook-navigator:Notebook Navigator": false,
-      "omnisearch:Omnisearch": false
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "99066094cbcc314c",
   "lastOpenFiles": [
-    "docs/ec/products/設定商品出貨通路.md",
+    "create-new-product-hero-card-2.png",
     "docs/ec/products/設定商品配送條件（物流、溫層與出貨通路）.md",
+    "docs/ec/products/設定商品出貨通路.md",
     "includes/abbreviations.md",
     "docs/ec/products/設定商品配送溫層跟物流（宅配貨到付款）.md",
     "site/ec/products/編輯商品簡述與商品標語/index.html",
