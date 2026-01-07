@@ -165,7 +165,7 @@
       {
         "id": "145b9f26bb568cb5",
         "type": "tabs",
-        "dimension": 15.772870662460567,
+        "dimension": 19.479495268138802,
         "children": [
           {
             "id": "50658d05582d8786",
@@ -214,7 +214,7 @@
       {
         "id": "0f41cb20a1d95388",
         "type": "tabs",
-        "dimension": 22.71293375394322,
+        "dimension": 19.952681388012618,
         "children": [
           {
             "id": "9d592301c67b1ee1",
@@ -235,7 +235,7 @@
       {
         "id": "ea951fb7d70bee14",
         "type": "tabs",
-        "dimension": 21.056782334384856,
+        "dimension": 20.110410094637224,
         "children": [
           {
             "id": "af5a39eba69ac1cd",
@@ -449,7 +449,7 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "ee4de6e4fb7a4876",
+  "active": "99066094cbcc314c",
   "lastOpenFiles": [
     "docs/ec/products/設定商品出貨通路.md",
     "docs/ec/products/設定商品配送條件（物流、溫層與出貨通路）.md",
