@@ -41,6 +41,8 @@ hide:
 
 ### 上架商品
 
+設定商品建立與更新流程，包含新增、編輯與批次上架功能。
+
 <div class="grid cards" markdown>
 
 - ![](../../assets/images/create-new-product-hero-card-2.png)
@@ -60,6 +62,8 @@ hide:
 
 ### 分類商品
 
+設定商品分類與群組，以利管理與前台呈現。
+
 <div class="grid cards" markdown>
 
 - :lucide-group: [__商品群組__](建立商品自訂分類群組.md)  
@@ -75,43 +79,66 @@ hide:
 
 ### 銷售商品
 
+設定商品銷售與價格管理，包括預購、優惠、購物流程及評論。
+
 <div class="grid cards" markdown>
 
-- :lucide-clock: [__預購商品__](設定結帳拆分多購物車#設定預購商品)  
+- :lucide-clock:{ .lg }   
+  [__預購商品__](設定結帳拆分多購物車#設定預購商品)  
   建立預購通路並綁定商品，結帳時成立專屬購物車。
 
-- :lucide-circle-percent: [__優惠商品__](設定 VIP 會員專屬價格)  
+- :lucide-circle-percent:{ .lg }  
+  [__優惠商品__](設定 VIP 會員專屬價格)  
    設定商品折扣、優惠與會員價格。  
 	  
-- :lucide-shopping-cart: [__多購物車結帳__](設定結帳拆分多購物車.md)  
+- :lucide-shopping-cart:{ .lg }  
+  [__多購物車結帳__](設定結帳拆分多購物車.md)  
    管理不同銷售通路與購物流程。
 
-- :lucide-bell: [__補貨通知__](設定商品到貨通知)  
+- :lucide-bell:{ .lg }   
+  [__補貨通知__](設定商品到貨通知)  
    缺貨商品已補貨的到貨提醒。  
 
-- :lucide-star: [__管理商品評論__](管理商品評論.md)  
+- :lucide-star:{ .lg }  
+  [__管理商品評論__](管理商品評論.md)  
    管理顧客評論與互動功能。  
 
-- :lucide-tag: [__商品廣告__](設定 Google 購物廣告)  
+- :lucide-tag:{ .lg }   
+  [__商品廣告__](設定 Google 購物廣告)  
    設定商品廣告串接與投放管理。
 	
 </div>
 
 ### 配送商品
 
+設定商品的出貨與配送相關條件，包含通路、溫層、物流與配送限制。
+
 <div class="grid cards" markdown>
 
-- :lucide-settings-2: [__配送物流__](設定商品配送條件（物流、溫層與出貨通路）.md)  
-   綁定商品適用物流。  
+- :lucide-route:{ .lg }     
+  [__商品通路設定__](設定商品配送條件（物流、溫層與出貨通路）#設定商品通路（出貨通路）)   
+  指定商品的出貨通路（如門市、倉庫或供應商）。
 
-- :lucide-ban: [__配送限制__](設定超商配送限制與物流排除.md)  
-   限制商品適用之物流選項。  
+- :lucide-thermometer:{ .lg }   
+  [__商品溫層設定__](設定商品配送條件（物流、溫層與出貨通路）#設定商品配送方式)  
+   設定商品的配送溫層（如常溫、冷藏、冷凍）。
+
+- :lucide-truck:{ .lg }   
+  [__商品物流設定__](設定商品配送條件（物流、溫層與出貨通路）#設定商品配送方式)    
+   指定商品可使用的物流方式。  
+
+- :lucide-ban:{ .lg }  
+  [__超商配送限制__](設定超商配送限制與物流排除.md)  
+  設定材積與重量，自動排除不符合超商物流的商品。
 
 </div>
 
 ---
 
 ### 電子票券
+
+設定電子票券的使用與優惠管理，並管理門市存取權限。
+
 [:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | PLUS / 企業
 
 <div class="grid cards" markdown>
