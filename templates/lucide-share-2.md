@@ -1,0 +1,1 @@
+:lucide-share-2:
