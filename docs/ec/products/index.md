@@ -70,7 +70,7 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-group:{ .lg }   
-  [__商品群組__](建立商品自訂分類群組.md)  
+  [__商品群組__](建立與管理商品自訂分類群組.md)  
   設定條件或自訂分類管理商品集合。
 
 - :lucide-tag:{ .lg }   

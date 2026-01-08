@@ -22,34 +22,6 @@
             }
           },
           {
-            "id": "99066094cbcc314c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/設定商品到貨通知.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定商品到貨通知"
-            }
-          },
-          {
-            "id": "10a1c2d828da7bed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/設定超商配送限制與物流排除.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定超商配送限制與物流排除"
-            }
-          },
-          {
             "id": "65f1bd0316c14322",
             "type": "leaf",
             "state": {
@@ -69,12 +41,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/組合商品指南.md",
+                "file": "docs/ec/products/設定秘密商品群組.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "組合商品指南"
+              "title": "設定秘密商品群組"
+            }
+          },
+          {
+            "id": "6681eba22359617a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/建立與管理商品自訂分類群組.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "建立與管理商品自訂分類群組"
+            }
+          },
+          {
+            "id": "baf88a8e09af69f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/yaml.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "yaml"
             }
           },
           {
@@ -132,7 +132,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 2
       },
       {
         "id": "145b9f26bb568cb5",
@@ -419,53 +419,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "8ddbd838d1bf77e5",
+  "active": "13747140aaf41e92",
   "lastOpenFiles": [
-    "site/index.html",
-    "site/ec/products/product-activ/index.html",
-    "site/ec/products/product-activ",
-    "site/ec/products/認識商品管理介面/index.html",
-    "site/ec/products/認識商品管理介面",
+    "docs/ec/products/建立與管理商品自訂分類群組.md",
+    "docs/ec/products/設定秘密商品群組.md",
+    "docs/ec/products/設定商品條件分類群組.md",
+    "site/ec/index.html",
+    "site/ec/integrations/設定 Google 購物廣告/index.html",
+    "site/ec/integrations/設定 Google 購物廣告",
+    "site/ec/analytics/index.html",
+    "site/ec/analytics",
+    "site/ec/products/index-old/index.html",
+    "site/ec/products/index-old",
+    "site/ec/products/商品上架管理：配送通路綁定 一般版/index.html",
+    "site/ec/products/商品上架管理：配送通路綁定 一般版",
     "site/ec/products/設定結帳拆分多購物車/index.html",
-    "site/ec/products/設定結帳拆分多購物車",
-    "site/ec/products/管理商品標籤/index.html",
-    "site/ec/products/管理商品標籤",
-    "site/index 1/index.html",
-    "site/index 1",
-    "docs/ec/products/references/商品可見性指南.md",
-    "docs/ec/products/新增單一商品.md",
-    "docs/ec/products/組合商品指南.md",
-    "新增.md",
-    "docs/ec/products/index.md",
-    "組合.md",
-    "docs/ec/products/設定超商配送限制與物流排除.md",
-    "docs/ec/products/設定商品到貨通知.md",
-    "includes/abbreviations.md",
-    "templates/yaml.md",
     "docs/ec/products/設定商品配送條件（物流、溫層與出貨通路）.md",
-    "site/assets/images/ec-product-distribution-channel-create-new.zh-tw.png",
-    "docs/assets/images/ec-product-distribution-channel-create-new.zh-tw.png",
+    "templates/lucide-menu.md",
+    "site/assets/images/ec-conditionalized-collection-seo-setting.zh-tw.png",
+    "docs/assets/images/ec-conditionalized-collection-seo-setting.zh-tw.png",
+    "site/assets/images/ec-conditionalized-collections-frontend.zh-tw.png",
+    "docs/assets/images/ec-conditionalized-collections-frontend.zh-tw.png",
+    "templates/lucide-grip-vertical.md",
+    "docs/ec/products/index.md",
+    "docs/ec/products/設定商品到貨通知.md",
+    "site/assets/images/ec-conditionalized-collection-order-product.zh-tw.png",
+    "docs/assets/images/ec-conditionalized-collection-order-product.zh-tw.png",
+    "templates/yaml.md",
+    "docs/ec/products/新增單一商品.md",
+    "site/assets/images/wms-hero.png",
+    "site/assets/images/ec-products-filters.zh-tw.png",
+    "site/assets/images/ec-advance-mass-import.zh-tw.png",
+    "site/assets/images/ec-about-us-page-configure.zh-tw.png",
+    "docs/ec/products/新增與設定組合商品.md",
+    "docs/ec/products/設定超商配送限制與物流排除.md",
+    "docs/ec/products/設定商品搜尋可見性.md",
+    "docs/ec/products/references/商品可見性指南.md",
+    "新增.md",
+    "組合.md",
+    "includes/abbreviations.md",
     "docs/ec/products/設定結帳拆分多購物車.md",
-    "docs/ec/products/建立商品自訂分類群組.md",
     "templates/syntax-icon-lg.md",
     "templates/lucide-thermometer.md",
     "templates/lucide-route.md",
     "archive/設定商品配送溫層跟物流（宅配貨到付款）.md",
-    "create-new-product-hero-card-2.png",
     "docs/ec/products/設定商品出貨通路.md",
     "docs/ec/products/配送通路設定.md",
     "docs/ec/products/設定商品配送屬性.md",
-    "site/assets/images/wms-hero.png",
-    "site/assets/images/wms-hero-old.png",
-    "site/assets/images/wms-hero-1.png",
-    "site/assets/images/storepal-hero.png",
-    "site/assets/images/test.png",
-    "site/assets/images/resources-hero.png",
-    "site/assets/images/product-grid-imge.png",
-    "docs/index.md",
-    "docs/ec/products/商品上架管理：配送通路綁定 一般版.md",
-    "docs/ec/products/商品上架管理：配送物流_溫層綁定（一般宅配）企業.md",
-    "docs/resources/conventions.md",
-    "docs/ec/products/編輯商品簡述與商品標語.md"
+    "docs/index.md"
   ]
 }

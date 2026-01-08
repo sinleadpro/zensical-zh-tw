@@ -6,7 +6,9 @@ product:
   - EC
 module: []
 activ: ""
+paths: []
 surfaces: []
+ends: []
 devices:
   - desktop
   - mobile
