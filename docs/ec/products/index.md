@@ -45,17 +45,20 @@ hide:
 
 <div class="grid cards" markdown>
 
-- ![](../../assets/images/create-new-product-hero-card-2.png)
-  :lucide-package-plus: [__新增商品__](新增單一商品)  
+- :lucide-package-plus:{ .lg }  
+   [__新增商品__](新增單一商品)  
   建立新商品或更新既有商品資訊與設定。  
 
-- :lucide-pencil: [__編輯商品__](編輯商品描述與商品設定.md)  
+- :lucide-pencil:{ .lg }  
+  [__編輯商品__](編輯商品描述與商品設定.md)  
   設定商品標題、描述、規格與多媒體資源。  
 
-- :lucide-import: [__批次上架__](Excel 大量匯入商品)  
+- :lucide-import:{ .lg }   
+  [__批次上架__](Excel 大量匯入商品)  
    以 Excel 大量建立或修改商品資料。  
 
-- :lucide-refresh-cw-off: [__排除商品上傳至第三方平台__](管理商品標籤.md#排除上傳至第三方平台標籤)  
+- :lucide-refresh-cw-off:{ .lg }   
+  [__排除商品上傳至第三方平台__](管理商品標籤.md#排除上傳至第三方平台標籤)  
    設定商品是否同步至外部平台。 
 
 </div>
@@ -66,13 +69,16 @@ hide:
 
 <div class="grid cards" markdown>
 
-- :lucide-group: [__商品群組__](建立商品自訂分類群組.md)  
+- :lucide-group:{ .lg }   
+  [__商品群組__](建立商品自訂分類群組.md)  
   設定條件或自訂分類管理商品集合。
 
-- :lucide-tag: [__商品標籤__](管理商品標籤.md)  
+- :lucide-tag:{ .lg }   
+  [__商品標籤__](管理商品標籤.md)  
    建立與管理商品標籤，以利搜尋與分組。  
 
-- :lucide-navigation: [__導覽列與前台顯示__](設定商品多層級分類)  
+- :lucide-navigation:{ .lg }   
+  [__導覽列與前台顯示__](設定商品多層級分類)  
    管理前台分類排序與篩選功能。  
 
 </div>
@@ -143,13 +149,16 @@ hide:
 
 <div class="grid cards" markdown>
 
-- :lucide-compass: [__票券指南__](電子票券指南)  
+- :lucide-compass:{ .lg }   
+  [__票券指南__](電子票券指南)  
   電子票券的整體設定與操作流程。
 
-- :lucide-circle-percent: [__票券優惠__](電子票券優惠設定)  
+- :lucide-circle-percent:{ .lg }   
+  [__票券優惠__](電子票券優惠設定)  
   設定與管理電子票券優惠活動。
 
-- :lucide-key: [__門市權限__](設定電子票券門市權限)  
+- :lucide-key:{ .lg }   
+  [__門市權限__](設定電子票券門市權限)  
    門市存取及使用電子票券的權限。
 
 </div>

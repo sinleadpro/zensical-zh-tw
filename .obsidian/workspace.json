@@ -64,6 +64,48 @@
             }
           },
           {
+            "id": "13747140aaf41e92",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/組合商品指南.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "組合商品指南"
+            }
+          },
+          {
+            "id": "8f2d7a132cd8efdd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/新增單一商品.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "新增單一商品"
+            }
+          },
+          {
+            "id": "8ddbd838d1bf77e5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/設定商品搜尋可見性.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定商品搜尋可見性"
+            }
+          },
+          {
             "id": "70b3336a63e34d96",
             "type": "leaf",
             "state": {
@@ -88,23 +130,9 @@
               "icon": "table",
               "title": "trans-glossary"
             }
-          },
-          {
-            "id": "1d61ee6e3532c6c0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/yaml.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "yaml"
-            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 6
       },
       {
         "id": "145b9f26bb568cb5",
@@ -391,31 +419,37 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc5e7ee3a9f5fb45",
+  "active": "8ddbd838d1bf77e5",
   "lastOpenFiles": [
-    "docs/ec/products/設定商品配送條件（物流、溫層與出貨通路）.md",
+    "site/index.html",
+    "site/ec/products/product-activ/index.html",
+    "site/ec/products/product-activ",
+    "site/ec/products/認識商品管理介面/index.html",
+    "site/ec/products/認識商品管理介面",
+    "site/ec/products/設定結帳拆分多購物車/index.html",
+    "site/ec/products/設定結帳拆分多購物車",
+    "site/ec/products/管理商品標籤/index.html",
+    "site/ec/products/管理商品標籤",
+    "site/index 1/index.html",
+    "site/index 1",
+    "docs/ec/products/references/商品可見性指南.md",
+    "docs/ec/products/新增單一商品.md",
     "docs/ec/products/組合商品指南.md",
+    "新增.md",
+    "docs/ec/products/index.md",
+    "組合.md",
+    "docs/ec/products/設定超商配送限制與物流排除.md",
+    "docs/ec/products/設定商品到貨通知.md",
+    "includes/abbreviations.md",
+    "templates/yaml.md",
+    "docs/ec/products/設定商品配送條件（物流、溫層與出貨通路）.md",
     "site/assets/images/ec-product-distribution-channel-create-new.zh-tw.png",
     "docs/assets/images/ec-product-distribution-channel-create-new.zh-tw.png",
-    "docs/ec/products/index.md",
-    "docs/ec/products/設定超商配送限制與物流排除.md",
-    "reference/trans-glossary.csv",
-    "docs/ec/products/新增單一商品.md",
     "docs/ec/products/設定結帳拆分多購物車.md",
     "docs/ec/products/建立商品自訂分類群組.md",
-    "includes/abbreviations.md",
     "templates/syntax-icon-lg.md",
     "templates/lucide-thermometer.md",
     "templates/lucide-route.md",
-    "site/ec/products/product-activ/index.html",
-    "site/ec/products/product-activ",
-    "site/ec/products/index-old/index.html",
-    "site/ec/products/index-old",
-    "site/ec/index.html",
-    "site/ec/products/設定任選折扣群組/index.html",
-    "site/ec/products/設定任選折扣群組",
-    "site/ec/products/設定加價購群組的多國語系名稱/index.html",
-    "site/ec/products/設定加價購群組的多國語系名稱",
     "archive/設定商品配送溫層跟物流（宅配貨到付款）.md",
     "create-new-product-hero-card-2.png",
     "docs/ec/products/設定商品出貨通路.md",
@@ -428,15 +462,10 @@
     "site/assets/images/test.png",
     "site/assets/images/resources-hero.png",
     "site/assets/images/product-grid-imge.png",
-    "templates/yaml.md",
     "docs/index.md",
     "docs/ec/products/商品上架管理：配送通路綁定 一般版.md",
     "docs/ec/products/商品上架管理：配送物流_溫層綁定（一般宅配）企業.md",
     "docs/resources/conventions.md",
-    "docs/ec/products/編輯商品簡述與商品標語.md",
-    "docs/ec/products/編輯商品描述與商品設定.md",
-    "docs/ec/products/設定商品搜尋可見性.md",
-    "docs/ec/integrations/設定 Google 購物廣告.md",
-    "docs/ec/products/設定商品影片.md"
+    "docs/ec/products/編輯商品簡述與商品標語.md"
   ]
 }
