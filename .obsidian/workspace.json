@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/marketing/設定訂單加價購.md",
+                "file": "docs/ec/marketing/設定單品限時折扣群組.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定訂單加價購"
+              "title": "設定單品限時折扣群組"
             }
           },
           {
@@ -61,6 +61,20 @@
               },
               "icon": "lucide-file",
               "title": "設定單品限時折扣群組"
+            }
+          },
+          {
+            "id": "6e46e380c83e59c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/doc-layout.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "doc-layout"
             }
           },
           {
@@ -242,7 +256,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "145b9f26bb568cb5",
@@ -529,8 +543,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc5e7ee3a9f5fb45",
+  "active": "441ce020e58a4c28",
   "lastOpenFiles": [
+    "templates/doc-layout.md",
+    "docs/ec/products/建立與管理商品自訂分類群組.md",
+    "docs/ec/marketing/設定單品限時折扣群組.md",
+    "docs/ec/marketing/設定訂單加價購.md",
+    "docs/ec/products/index.md",
+    "docs/ec/marketing/index.md",
     "site/ec/products/認識商品管理介面/index.html",
     "site/ec/products/認識商品管理介面",
     "site/ec/products/設定任選折扣群組/index.html",
@@ -541,10 +561,8 @@
     "site/ec/products/Excel 大量匯入商品",
     "site/ec/products/電子票券優惠設定/index.html",
     "site/ec/products/電子票券優惠設定",
-    "site/ec/products/設定結帳拆分多購物車/index.html",
     "archive/設定加價購群組的多國語系名稱.md",
     "docs/ec/products/管理商品標籤.md",
-    "docs/ec/marketing/設定訂單加價購.md",
     "site/assets/images/ec-product-settings-tag.zh-tw.png",
     "docs/assets/images/ec-product-settings-tag.zh-tw.png",
     "docs/ec/marketing/設定商品加價購.md",
@@ -559,7 +577,6 @@
     "includes/abbreviations.md",
     "docs/ec/marketing/設定加價購群組.md",
     "docs/ec/products/新增單一商品.md",
-    "docs/ec/products/建立與管理商品自訂分類群組.md",
     "docs/ec/products/編輯商品描述與商品設定.md",
     "docs/ec/marketing/結帳優惠計算順序.md",
     "templates/yaml.md",
@@ -571,11 +588,8 @@
     "archive/配送通路設定.md",
     "docs/ec/products/設定商品條件分類群組.md",
     "docs/ec/products/設定商品搜尋可見性.md",
-    "docs/ec/products/index.md",
-    "docs/ec/marketing/index.md",
     "docs/ec/products/設定秘密商品群組.md",
     "templates/lucide-share-2.md",
-    "docs/ec/products/設定商品配送條件（物流、溫層與出貨通路）.md",
-    "templates/lucide-menu.md"
+    "docs/ec/products/設定商品配送條件（物流、溫層與出貨通路）.md"
   ]
 }
