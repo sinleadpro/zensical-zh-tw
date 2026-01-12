@@ -36,49 +36,75 @@
             }
           },
           {
-            "id": "13747140aaf41e92",
+            "id": "441ce020e58a4c28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/設定秘密商品群組.md",
+                "file": "docs/ec/marketing/設定訂單加價購.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定秘密商品群組"
+              "title": "設定訂單加價購"
             }
           },
           {
-            "id": "45b4c593b65bda78",
+            "id": "1549582e5f3c002a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/設定商品搜尋可見性.md",
+                "file": "includes/abbreviations.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定商品搜尋可見性"
+              "title": "abbreviations"
             }
           },
           {
-            "id": "6681eba22359617a",
+            "id": "1755fd48363e614a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/設定商品條件分類群組.md",
+                "file": "docs/ec/products/管理商品標籤.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定商品條件分類群組"
+              "title": "管理商品標籤"
             }
           },
           {
-            "id": "02982cc710bd4aaa",
+            "id": "1878d00220df9a85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/編輯商品描述與商品設定.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "編輯商品描述與商品設定"
+            }
+          },
+          {
+            "id": "a0df36f112f3fc5a",
+            "type": "leaf",
+            "state": {
+              "type": "csv-lite-view",
+              "state": {
+                "file": "reference/trans-glossary.csv"
+              },
+              "icon": "table",
+              "title": "trans-glossary"
+            }
+          },
+          {
+            "id": "af6b7c52fd31638e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -92,7 +118,35 @@
             }
           },
           {
-            "id": "baf88a8e09af69f7",
+            "id": "9d4eb1d8a528f399",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/建立與管理商品自訂分類群組.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "建立與管理商品自訂分類群組"
+            }
+          },
+          {
+            "id": "43028c6c40e3b704",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/marketing/設定商品加價購.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定商品加價購"
+            }
+          },
+          {
+            "id": "be6d79c227c33a29",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -103,6 +157,34 @@
               },
               "icon": "lucide-file",
               "title": "yaml"
+            }
+          },
+          {
+            "id": "f3524b15be36582f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/marketing/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "c91018cc2a516e23",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/products/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
             }
           },
           {
@@ -117,20 +199,6 @@
               },
               "icon": "lucide-file",
               "title": "新增單一商品"
-            }
-          },
-          {
-            "id": "70b3336a63e34d96",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "includes/abbreviations.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "abbreviations"
             }
           },
           {
@@ -208,12 +276,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=2221",
-                "title": "商品上架管理：配送物流/溫層綁定（一般宅配） - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=11186",
+                "title": "多國語系-訂單加價購群組 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "商品上架管理：配送物流/溫層綁定（一般宅配） - CYBERBIZ 一般版教學文件"
+              "title": "多國語系-訂單加價購群組 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -229,12 +297,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=2107",
-                "title": "商品上架管理：配送物流/溫層綁定（一般宅配）",
+                "url": "https://www.cyberbiz.io/support/?p=7367",
+                "title": "多國語系-訂單加價購群組",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "商品上架管理：配送物流/溫層綁定（一般宅配）"
+              "title": "多國語系-訂單加價購群組"
             }
           }
         ]
@@ -433,53 +501,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "13747140aaf41e92",
+  "active": "bc5e7ee3a9f5fb45",
   "lastOpenFiles": [
-    "templates/lucide-share-2.md",
-    "docs/ec/products/設定秘密商品群組.md",
-    "docs/ec/products/設定商品搜尋可見性.md",
-    "site/assets/images/ec-product-search-exclude-frontend.zh-tw.png",
-    "docs/assets/images/ec-product-search-exclude-frontend.zh-tw.png",
-    "site/assets/images/ec-customized-collection-secret.zh-tw.png",
-    "docs/assets/images/ec-customized-collection-secret.zh-tw.png",
-    "docs/ec/products/設定商品條件分類群組.md",
-    "docs/ec/products/建立與管理商品自訂分類群組.md",
-    "includes/abbreviations.md",
-    "site/ec/index.html",
-    "site/ec/integrations/設定 Google 購物廣告/index.html",
-    "site/ec/integrations/設定 Google 購物廣告",
-    "site/ec/analytics/index.html",
-    "site/ec/analytics",
-    "site/ec/products/index-old/index.html",
-    "site/ec/products/index-old",
-    "site/ec/products/商品上架管理：配送通路綁定 一般版/index.html",
-    "site/ec/products/商品上架管理：配送通路綁定 一般版",
+    "site/assets/images/ec-marketing-pwp-by-order-hero.zh-tw.png",
+    "docs/assets/images/ec-marketing-pwp-by-order-hero.zh-tw.png",
+    "docs/ec/marketing/設定訂單加價購.md",
+    "docs/ec/marketing/設定商品加價購.md",
+    "docs/ec/marketing/設定加價購群組.md",
+    "site/ec/marketing/設定訂單加價購/index.html",
+    "site/ec/marketing/設定訂單加價購",
+    "site/ec/marketing/Untitled/index.html",
+    "site/ec/marketing/Untitled",
+    "site/ec/products/設定商品配送條件（物流、溫層與出貨通路）/index.html",
+    "site/ec/products/設定商品配送條件（物流、溫層與出貨通路）",
+    "site/pos/index.html",
+    "site/pos",
     "site/ec/products/設定結帳拆分多購物車/index.html",
+    "site/ec/products/設定結帳拆分多購物車",
+    "includes/abbreviations.md",
+    "docs/ec/products/新增單一商品.md",
+    "site/assets/images/ec-pwp-collection-name-multilang-forntend.en-us.png",
+    "docs/assets/images/ec-pwp-collection-name-multilang-forntend.en-us.png",
+    "site/assets/images/ec-pwp-collection-name-multilang-forntend.zh-tw.png",
+    "docs/assets/images/ec-pwp-collection-name-multilang-forntend.zh-tw.png",
+    "site/assets/images/ec-pwp-collection-name-multilang.gif",
+    "docs/assets/images/ec-pwp-collection-name-multilang.gif",
+    "site/assets/images/ec-product-pwp-by-product-add-product-to-collection.zh-tw.png",
+    "docs/assets/images/ec-product-pwp-by-product-add-product-to-collection.zh-tw.png",
+    "site/assets/images/ec-product-pwp-by-product-collection-setting.zh-tw.png",
+    "docs/ec/products/建立與管理商品自訂分類群組.md",
+    "docs/ec/products/管理商品標籤.md",
+    "docs/ec/products/編輯商品描述與商品設定.md",
+    "docs/ec/marketing/結帳優惠計算順序.md",
+    "templates/yaml.md",
+    "archive/設定商品配送屬性.md",
+    "archive/設定商品出貨通路.md",
+    "docs/ec/products/設定商品多層級分類.md",
+    "archive/商品上架管理：配送通路綁定 一般版.md",
+    "docs/ec/products/啟用留言區 reCAPTCHA.md",
+    "archive/配送通路設定.md",
+    "docs/ec/products/設定商品條件分類群組.md",
+    "docs/ec/products/設定商品搜尋可見性.md",
+    "docs/ec/products/index.md",
+    "docs/ec/marketing/index.md",
+    "docs/ec/products/設定秘密商品群組.md",
+    "templates/lucide-share-2.md",
     "docs/ec/products/設定商品配送條件（物流、溫層與出貨通路）.md",
     "templates/lucide-menu.md",
-    "site/assets/images/ec-conditionalized-collection-seo-setting.zh-tw.png",
-    "docs/assets/images/ec-conditionalized-collection-seo-setting.zh-tw.png",
-    "site/assets/images/ec-conditionalized-collections-frontend.zh-tw.png",
-    "docs/assets/images/ec-conditionalized-collections-frontend.zh-tw.png",
-    "templates/lucide-grip-vertical.md",
-    "docs/ec/products/index.md",
-    "docs/ec/products/設定商品到貨通知.md",
-    "site/assets/images/ec-conditionalized-collection-order-product.zh-tw.png",
-    "docs/assets/images/ec-conditionalized-collection-order-product.zh-tw.png",
-    "templates/yaml.md",
-    "docs/ec/products/新增單一商品.md",
-    "docs/ec/products/新增與設定組合商品.md",
-    "docs/ec/products/設定超商配送限制與物流排除.md",
-    "docs/ec/products/references/商品可見性指南.md",
-    "新增.md",
-    "組合.md",
-    "docs/ec/products/設定結帳拆分多購物車.md",
-    "templates/syntax-icon-lg.md",
-    "templates/lucide-thermometer.md",
-    "templates/lucide-route.md",
-    "archive/設定商品配送溫層跟物流（宅配貨到付款）.md",
-    "docs/ec/products/設定商品出貨通路.md",
-    "docs/ec/products/配送通路設定.md",
-    "docs/ec/products/設定商品配送屬性.md"
+    "templates/lucide-grip-vertical.md"
   ]
 }

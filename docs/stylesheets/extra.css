@@ -75,7 +75,9 @@ a {
 
 /* Card background colors for light and dark mode */
 :root {
-  --card-bg: #f2f6fc;     /* light mode */
+  /* --card-bg: #f2f6fc;     light mode */
+  --card-bg: #FAF9F5; /* light mode
+  /* --card-bg: #F2F2F2; light mode */
 }
 
 [data-md-color-scheme="slate"] {
@@ -105,7 +107,8 @@ a {
   margin-bottom: 1.25rem; /* space below */
   font-size: .8rem; /* smaller text */
   gap: 1.5rem; /* badge 之間間距 */
-  color: var(--md-default-fg-color--light); /* lighter color */
+  color: inherit; 
+  /* color: var(--md-default-fg-color--light); lighter color */
 }
 
 

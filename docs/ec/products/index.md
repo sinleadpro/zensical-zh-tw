@@ -21,7 +21,7 @@ hide:
 
 ### 開始使用
 
-<div class="grid cards" markdown>
+<div class="grid cards cards-bg" markdown>
 
 -   :lucide-circle-play: __基礎操作__
 
@@ -43,7 +43,7 @@ hide:
 
 設定商品建立與更新流程，包含新增、編輯與批次上架功能。
 
-<div class="grid cards" markdown>
+<div class="grid cards cards-bg" markdown>
 
 - :lucide-package-plus:{ .lg }  
    [__新增商品__](新增單一商品)  
@@ -67,7 +67,7 @@ hide:
 
 設定商品分類與群組，以利管理與前台呈現。
 
-<div class="grid cards" markdown>
+<div class="grid cards cards-bg" markdown>
 
 - :lucide-group:{ .lg }   
   [__商品群組__](建立與管理商品自訂分類群組.md)  
@@ -87,7 +87,7 @@ hide:
 
 設定商品銷售與價格管理，包括預購、優惠、購物流程及評論。
 
-<div class="grid cards" markdown>
+<div class="grid cards cards-bg" markdown>
 
 - :lucide-clock:{ .lg }   
   [__預購商品__](設定結帳拆分多購物車#設定預購商品)  
@@ -119,7 +119,7 @@ hide:
 
 設定商品的出貨與配送相關條件，包含通路、溫層、物流與配送限制。
 
-<div class="grid cards" markdown>
+<div class="grid cards cards-bg" markdown>
 
 - :lucide-route:{ .lg }     
   [__商品通路設定__](設定商品配送條件（物流、溫層與出貨通路）#設定商品通路（出貨通路）)   
@@ -147,7 +147,7 @@ hide:
 
 [:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | PLUS / 企業
 
-<div class="grid cards" markdown>
+<div class="grid cards cards-bg" markdown>
 
 - :lucide-compass:{ .lg }   
   [__票券指南__](電子票券指南)  

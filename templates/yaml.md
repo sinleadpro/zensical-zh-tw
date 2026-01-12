@@ -4,7 +4,7 @@ last_modified: ""
 description: ""
 product:
   - EC
-module: []
+modules: []
 activ: ""
 paths: []
 surfaces: []
@@ -14,8 +14,8 @@ devices:
   - mobile
 apis: []
 type: tutorial
+intents []
 features: []
-tasks: []
 tnb: ""
 plans: []
 prerequisites: []

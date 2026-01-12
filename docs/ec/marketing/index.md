@@ -1,26 +1,27 @@
 ---
 title: 行銷推廣
 description: 提升商店曝光與銷售，管理行銷活動、優惠策略與顧客互動。
-icon:lucide/badge-percent
+icon: lucide/badge-percent
 hide:
-  - toc
   - feedback
 notes:
-  - 行銷成長功能說明 link
+  - 蝦皮商品搬站 link
+  - add doc [[折扣類型指南]]
 ---
 
 # 行銷推廣
 
-<div class="grid" markdown>
 
-<br>
-<big>__開始使用__</big>  
-打造完整行銷與促銷策略。  
-設定優惠活動、管理廣告投放，追蹤會員互動與銷售成效。  
-<br>
-[快速上手 :lucide-circle-arrow-right:](quickstart.md)
+## 加價購
 
-![](../../assets/images/ec-marketing-hero.zh-tw.png)
+<div class="grid cards" markdown>
+
+- :lucide-package-plus:{ .lg }   
+  [__商品加價購__](設定商品加價購)     
+  以商品為條件，設定可搭配購買的加價商品，提升單筆商品銷售金額。
+- :lucide-receipt:{ .lg }     
+  [__訂單加價購__](設定訂單加價購)  
+  依訂單金額或條件，於結帳流程中提供加價商品，促進整體訂單轉換。
 
 </div>
 
