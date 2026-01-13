@@ -35,3 +35,11 @@ views:
     sort: []
     summaries:
       file.name: Filled
+  - type: table
+    name: Marketing
+    filters:
+      and:
+        - modules.contains("marketing")
+    order:
+      - file.name
+      - wp_url

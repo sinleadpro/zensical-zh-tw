@@ -1,0 +1,90 @@
+---
+title: "EXCEL 批次修改商品描述/溫層/配送方式/通路"
+last_modified: ""
+categories: [商品>商品上架/管理]
+tags: []
+permalink: "https://www.cyberbiz.io/support/?p=44199"
+id: "44199"
+---
+
+![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
+
+[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+
+**功能說明：**  
+
+* 上傳 excel表格，批次修改商品描述/溫層/配送方式/通路
+
+**操作目錄：**
+
+* 批次修改商品描述/溫層/配送方式/通路
+
+## 📌 批次修改商品描述/溫層/配送方式/通路
+
+
+批次修改商品內容(溫層/配送物流/出貨通路)，步驟如下：  
+
+* 步驟一：【匯出商品 Excel 表格】
+* 步驟二：【開啟 Excel 檔案，在對應欄位輸入商品描述、通路、溫層、配送方式】
+* 步驟三：【至「 Excel 大量匯入商品」頁面，上傳檔案匯入商品】
+* 步驟四：【匯入的檔案將進入排程】
+
+**📍 步驟一：【匯出商品 Excel 表格】**  
+後台路徑 :「商品」→「所有商品」  
+
+
+1. 勾選欲修改內容的商品品項。
+
+
+2. 點選匯出商品。
+[![設定畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料1.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料1.png)  
+如果要匯出所有商品，點開「已選取__個商品」欄位，選擇「選取所有商品」，右邊選單點擊「匯出所有商品」即可。  
+[![設定畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料2.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料2.png)  
+
+
+3. 檔案將自動下載到電腦。
+
+**📍 步驟二：【開啟 Excel 檔案，在對應欄位輸入商品描述、通路、溫層、配送方式】**  
+下方截圖中有將部分欄位隱藏，請依實際檔案找到上述欄位。
+
+1. 商品描述：商品描述頁面中有「商品介紹」、「規格說明」、「運送方式」三個區塊，欲批次新增內容，請分別於表格中三個欄位：「商品介紹」、「規格說明」、「運送方式」輸入文字。  
+
+以下為後台商品描述的設定頁面，商家可至後台查看。  
+後台路徑 :「商品」→「所有商品」→ 點擊特定商品 → 點擊「商品描述」頁籤  
+[![設定畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料7.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料7.png)
+
+2. 商品通路：請輸入出貨的通路，若輸入商店原先沒有的通路則會視為**新增通路。**  
+**請注意！** 通路新增之後將**無法刪除** 。  
+留空表示**適用全通路** 。
+
+
+
+3. 商品溫層：請輸入常溫/冷藏/冷凍三種溫層 留空表示留空表示**預設為常溫** 。  
+可複選多溫層，輸入時請用**英文逗號** 分隔，例如：常溫,冷藏,冷凍。
+
+
+
+4. 商品運送名稱：請輸入配送物流名稱  
+請勿輸入後台未設定的物流名稱。  
+可複選多物流配送，輸入時請用**英文逗號** 分隔，例如：黑貓,宅配通。  
+留空表示**適用全部配送方式** 。  
+
+**請注意！商品 id、商品款式 id 欄位需帶有系統數值** ，上傳 excel 檔案後才會更新既有商品。  
+若商品 id、商品款式 id 欄位為空，上傳 excel 檔案後將會新增商品。
+[![設定畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料3.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料3.png)  
+
+**📍 步驟三：【至「 Excel 大量匯入商品」頁面，上傳檔案匯入商品】**  
+後台路徑 :「商品」→「 Excel 大量匯入商品」  
+
+[![設定畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料4.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料4.png)  
+
+**📍 步驟四：【匯入的檔案將進入排程】**  
+若輸入格式無誤，將會收到 「資料匯入處理中」EMAIL 通知。  
+[![設定畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料5.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料5.png)  
+而當完成匯入作業後，會再收到「商品 資料匯入成功」EMAIL 通知，表示批次修改商品內容已完成。  
+[![設定畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料6.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料6.png)
+
+* * *
+
+
+
