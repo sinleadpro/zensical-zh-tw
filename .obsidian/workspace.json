@@ -54,12 +54,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/設定商品多層級分類.md",
+                "file": "docs/ec/marketing/商品多層級分類滿額折扣.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定商品多層級分類"
+              "title": "商品多層級分類滿額折扣"
+            }
+          },
+          {
+            "id": "e5ef560421746876",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "archive/wordpress/wp-reg-20260106/商品多層級分類設定.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "商品多層級分類設定"
             }
           },
           {
@@ -207,12 +221,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=8058",
-                "title": "行銷活動 : 商品排除指定優惠 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=9204",
+                "title": "商品多層級分類設定 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "行銷活動 : 商品排除指定優惠 - CYBERBIZ 一般版教學文件"
+              "title": "商品多層級分類設定 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -228,12 +242,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=3623",
-                "title": "行銷活動 : 商品排除指定優惠",
+                "url": "https://www.cyberbiz.io/support/?p=43450",
+                "title": "商品多層級分類設定",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "行銷活動 : 商品排除指定優惠"
+              "title": "商品多層級分類設定"
             }
           }
         ]
@@ -434,29 +448,35 @@
   },
   "active": "bc5e7ee3a9f5fb45",
   "lastOpenFiles": [
-    "reference/trans-glossary.csv",
-    "docs/ec/products/設定商品多層級分類.md",
-    "site/assets/images/ec-product-multi-level-product-cateogry-hero.zh-tw.png",
-    "docs/assets/images/ec-product-multi-level-product-cateogry-hero.zh-tw.png",
+    "docs/ec/marketing/商品多層級分類滿額折扣 ent.md",
     "docs/ec/marketing/商品多層級分類滿額折扣.md",
-    "site/ec/marketing/商品多層級分類滿額折扣/index.html",
-    "site/ec/marketing/商品多層級分類滿額折扣",
     "site/ec/marketing/Untitled/index.html",
     "site/ec/marketing/Untitled",
+    "docs/ec/marketing/Untitled",
+    "site/ec/marketing/商品多層級分類滿額折扣 ent/index.html",
+    "site/ec/marketing/商品多層級分類滿額折扣 ent",
+    "archive/wordpress/wp-ent-20260106/商品多層級分類滿額折扣.md",
+    "archive/wordpress/wp-ent-20260106/商品多層級分類滿額折扣 1.md",
+    "site/ec/marketing/商品多層級分類滿額折扣 1/index.html",
+    "site/ec/marketing/商品多層級分類滿額折扣 1",
+    "archive/wordpress/wp-reg-20260106/商品多層級分類滿額折扣.md",
+    "docs/ec/products/設定商品多層級分類.md",
+    "archive/wordpress/wp-reg-20260106/商品多層級分類設定.md",
+    "site/assets/images/ec-multi-level-product-category-collection.zh-tw.png",
+    "docs/assets/images/ec-multi-level-product-category-collection.zh-tw.png",
+    "site/assets/images/ec-multi-level-product-cateogry-three-layers.zh-tw.png",
+    "docs/assets/images/ec-multi-level-product-cateogry-three-layers.zh-tw.png",
+    "site/assets/images/ec-multi-level-product-two-layers.zh-tw.png",
+    "docs/assets/images/ec-multi-level-product-two-layers.zh-tw.png",
+    "site/assets/images/ec-multi-level-product-cateogry-collection.zh-tw.png",
+    "docs/assets/images/ec-multi-level-product-cateogry-collection.zh-tw.png",
+    "site/assets/images/ec-product-multi-level-product-cateogories-add-category.zh-tw.png.sb-9661448d-E1aPsR",
+    "reference/trans-glossary.csv",
+    "site/assets/images/ec-product-multi-level-product-cateogories-add-category.zh-tw.png",
+    "docs/assets/images/ec-product-multi-level-product-cateogories-add-category.zh-tw.png",
+    "site/ec/marketing/商品多層級分類滿額折扣/index.html",
     "docs/ec/marketing/設定商品排除指定優惠.md",
-    "site/ec/products/設定秘密商品群組/index.html",
-    "site/ec/products/設定秘密商品群組",
-    "site/ec/products/設定商品自訂分類群組/index.html",
-    "site/ec/products/設定商品自訂分類群組",
-    "site/ec/products/設定電子票券門市權限/index.html",
-    "site/ec/products/設定電子票券門市權限",
-    "docs/assets/images/ec-marketing-product-not-applicable-to-select-promotion-setting.zh-tw.png",
-    "site/assets/images/ec-marketing-product-not-applicable-to-select-promotion-setting.zh-tw.png",
-    "site/assets/images/ec-product-not-applicable-to-select-promotion-frontend.zh-tw.png",
-    "docs/assets/images/ec-product-not-applicable-to-select-promotion-frontend.zh-tw.png",
     "docs/ec/products/設定商品自訂分類群組.md",
-    "site/assets/images/ec-marketing-product-not-applicable-to-select-promotion.zh-tw.png",
-    "docs/assets/images/ec-marketing-product-not-applicable-to-select-promotion.zh-tw.png",
     "templates/yaml.md",
     "docs/ec/marketing/設定訂單加價購.md",
     "docs/ec/marketing/設定商品加價購.md",
@@ -471,14 +491,6 @@
     "archive/wordpress/wp-reg-20260106/顧客可留言頁面建立 reCAPTCHA 安全驗證機制.md",
     "archive/wordpress/wp-reg-20260106/預設版型：色票設定.md",
     "archive/wordpress/wp-reg-20260106/順豐海外物流開通設定.md",
-    "archive/wordpress/wp-reg-20260106/順豐宅配 _ 操作出貨.md",
-    "archive/wordpress/wp-reg-20260106/頁面崁入 GOOGLE 表單.md",
-    "archive/wordpress/wp-reg-20260106/電子發票：星益欣 (美麗科技).md",
-    "archive/wordpress/wp-reg-20260106/電子發票 _ 綠界.md",
-    "archive/wordpress/wp-reg-20260106/電商達人教戰影片操作教學.md",
-    "archive/wordpress/wp-reg-20260106/電商倉儲 - 部分串倉-混單.md",
-    "archive/wordpress/wp-reg-20260106/電商倉儲 - 部分串倉-拆單.md",
-    "site/assets/images/ec-marketing-flash-sale-porduct-excel-import.zh-tw.png",
-    "docs/assets/images/ec-marketing-flash-sale-porduct-excel-import.zh-tw.png"
+    "archive/wordpress/wp-reg-20260106/順豐宅配 _ 操作出貨.md"
   ]
 }

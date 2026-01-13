@@ -6,7 +6,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="建立商品分類架構">
+        <meta name="description" content="建立多層級商品分類（最多三層），整理群組、支援行銷活動與導覽列設定。">
       
       
         <meta name="author" content="Jason W. Ke">
@@ -1582,13 +1582,6 @@
   </span>
   
   
-    
-  
-  
-    <span class="md-status md-status--review"></span>
-  
-
-  
 
           <span class="md-nav__icon md-icon"></span>
         </label>
@@ -1608,13 +1601,6 @@
     
   </span>
   
-  
-    
-  
-  
-    <span class="md-status md-status--review"></span>
-  
-
   
 
       </a>
@@ -1644,13 +1630,41 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="商品多層級分類說明">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#分類層級說明" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        分類層級說明
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#分類的資料夾概念" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        分類的資料夾概念
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#使用須知" class="md-nav__link">
+  <a href="#什麼情況需要商品多層級分類" class="md-nav__link">
     <span class="md-ellipsis">
       
-        使用須知
+        什麼情況需要商品多層級分類
       
     </span>
   </a>
@@ -1658,15 +1672,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#操作流程" class="md-nav__link">
+  <a href="#設定商品多層級架構" class="md-nav__link">
     <span class="md-ellipsis">
       
-        操作流程
+        設定商品多層級架構
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="操作流程">
+    <nav class="md-nav" aria-label="設定商品多層級架構">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -4425,13 +4439,41 @@
     </span>
   </a>
   
+    <nav class="md-nav" aria-label="商品多層級分類說明">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#分類層級說明" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        分類層級說明
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#分類的資料夾概念" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        分類的資料夾概念
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
       
         <li class="md-nav__item">
-  <a href="#使用須知" class="md-nav__link">
+  <a href="#什麼情況需要商品多層級分類" class="md-nav__link">
     <span class="md-ellipsis">
       
-        使用須知
+        什麼情況需要商品多層級分類
       
     </span>
   </a>
@@ -4439,15 +4481,15 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#操作流程" class="md-nav__link">
+  <a href="#設定商品多層級架構" class="md-nav__link">
     <span class="md-ellipsis">
       
-        操作流程
+        設定商品多層級架構
       
     </span>
   </a>
   
-    <nav class="md-nav" aria-label="操作流程">
+    <nav class="md-nav" aria-label="設定商品多層級架構">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
@@ -4603,113 +4645,175 @@
 <p class="doc-badge"><a href="../../../resources/conventions#適用方案"><span class="twemoji" title="適用方案"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span></a> | PLUS 企業  <a href="../../../resources/conventions#適用功能"><span class="twemoji" title="適用功能"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-toggle-right" viewBox="0 0 24 24"><circle cx="15" cy="12" r="3"/><rect width="20" height="14" x="2" y="5" rx="7"/></svg></span></a> |  拖拉版型</p>
 <p><img alt="" class="hero-page" src="../../../assets/images/ec-product-multi-level-product-cateogry-hero.zh-tw.png" /></p>
 <h2 id="商品多層級分類說明">商品多層級分類說明<a class="headerlink" href="#商品多層級分類說明" title="Permanent link">&para;</a></h2>
-<p>商品多層級分類能協助商家建立清晰、可調整的商品分類架構。透過整理既有群組，網站將呈現 <strong>樹狀結構</strong>，方便會員瀏覽，也利於商家設定導覽列與行銷活動。</p>
-<blockquote>
-<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-flame" viewBox="0 0 24 24"><path d="M12 3q1 4 4 6.5t3 5.5a1 1 0 0 1-14 0 5 5 0 0 1 1-3 1 1 0 0 0 5 0c0-2-1.5-3-1.5-5q0-2 2.5-4"/></svg></span> 若需快速建立簡單導覽列，可直接在<a href="../設定網站選單與導覽列">導覽列綁定商品群組</a>，省略多層級分類設定。</p>
-</blockquote>
-<h2 id="使用須知">使用須知<a class="headerlink" href="#使用須知" title="Permanent link">&para;</a></h2>
+<p>商品多層級分類用於整理不同來源的 <strong>商品分類群組</strong>（包含自訂分類、條件分類與商品類型），可視為「<strong>商品群組的資料夾結構</strong>」，協助商家建立清楚、可調整的商品分類架構。</p>
+<p>完成設定後，前台將以 <strong>樹狀結構</strong> 呈現分類階層，讓會員能依分類逐層瀏覽商品，同時也讓商家能在不同分類層級套用 <strong>導覽列設定</strong> 與 <strong>行銷活動規則</strong>。</p>
+<h3 id="分類層級說明">分類層級說明<a class="headerlink" href="#分類層級說明" title="Permanent link">&para;</a></h3>
+<p>商品多層級分類最多可建立 <strong>三層結構</strong>（由上而下）：</p>
 <ul>
-<li>商品多層級分類功能支援兩種分類層級架構，商家可依需求建立<a href="#雙層結構">雙層結構</a>或 <a href="#三層結構">三層結構</a>。</li>
-<li>設定多層級分類不會改變群組內的商品名單。</li>
+<li><strong>頂層（大類別）</strong>：最上層的分類資料夾，用於概括整理全館商品類型。</li>
+<li><strong>中層（中類別）</strong>：建立於大類別之下，用於進一步細分商品分類邏輯。</li>
+<li>
+<p><strong>底層（小類別）</strong>：實際對應商品分類群組，其來源可為：</p>
+<ul>
+<li>商品自訂分類</li>
+<li>商品條件分類</li>
+<li>商品設定頁中的商品類型</li>
 </ul>
-<div class="admonition tip">
-<p class="admonition-title">應用情境</p>
+</li>
+</ul>
+<h3 id="分類的資料夾概念">分類的資料夾概念<a class="headerlink" href="#分類的資料夾概念" title="Permanent link">&para;</a></h3>
+<p>商品多層級分類僅作為 <strong>分類結構管理用途</strong>，每一層分類皆可視為資料夾：</p>
 <ul>
-<li>群組資料夾：將分散的群組集中管理，形成更直觀的分類邏輯。  </li>
-<li>清晰導覽：提供會員更易理解的商店導覽階層。  </li>
-<li>行銷規劃：在不同分類層級上綁定行銷活動，提高操作彈性。</li>
+<li>調整分類層級或排序，不會影響群組內的商品名單</li>
+<li>商品是否顯示，仍以對應的商品群組設定為準</li>
+</ul>
+<div class="admonition quote">
+<p class="admonition-title">詞彙提示</p>
+<ul>
+<li><strong>小類別</strong>：實際對應商品群組  </li>
+<li><strong>分類</strong>：僅用於建立資料夾結構，不代表商品清單本身</li>
 </ul>
 </div>
-<h2 id="操作流程">操作流程<a class="headerlink" href="#操作流程" title="Permanent link">&para;</a></h2>
+<h2 id="什麼情況需要商品多層級分類">什麼情況需要商品多層級分類<a class="headerlink" href="#什麼情況需要商品多層級分類" title="Permanent link">&para;</a></h2>
+<p>建議在以下情況使用商品多層級分類功能：</p>
+<ul>
+<li>商品數量較多，單一分類難以清楚整理</li>
+<li>同一商品需要出現在不同分類位置（例如依用途或族群分類）</li>
+<li>需要依分類層級設定導覽列、分類頁或行銷活動</li>
+</ul>
+<h2 id="設定商品多層級架構">設定商品多層級架構<a class="headerlink" href="#設定商品多層級架構" title="Permanent link">&para;</a></h2>
 <h3 id="雙層結構">雙層結構<a class="headerlink" href="#雙層結構" title="Permanent link">&para;</a></h3>
-<p>適用於商家產品種類明確，只需建立一層資料夾就可整理全館商品。</p>
+<h4 id="示意圖">示意圖<a class="headerlink" href="#示意圖" title="Permanent link">&para;</a></h4>
+<pre class="mermaid"><code>flowchart TD
+    %% Layer labels
+    L1[大類別]:::layer --&gt; L2[小類別]:::layer
+
+    %% Top-level categories (大類別)
+    A[食品] --&gt; A1[乾拌麵]
+    A --&gt; A2[料理包]
+
+    B[寵物] --&gt; B1[罐頭]
+    B --&gt; B2[零食]
+
+    C[生活用品] --&gt; C1[洗手乳]
+    C --&gt; C2[鍋具]
+
+    %% Styling for layer labels
+    classDef layer fill:#f2f2f2,stroke:#ccc,stroke-width:1px,font-weight:bold;
+</code></pre>
+<h4 id="操作步驟">操作步驟<a class="headerlink" href="#操作步驟" title="Permanent link">&para;</a></h4>
 <ol>
 <li>登入 CYBERBIZ 管理後台，前往 <strong>商品 &gt; 商品多層級分類</strong>。</li>
 <li>
 <p>點選 <strong>新增類別</strong>，於新增分類頁面輸入 <strong>類別標題</strong>、<strong>類別連結</strong>。</p>
-<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/商品多層級分類01.png" /></p>
+<p><img alt="" src="../../../assets/images/ec-product-multi-level-product-cateogories-add-category.zh-tw.png" /></p>
 </li>
 <li>
 <p>在大類別下，點選 <strong>新增</strong>。</p>
 <ul>
 <li>新增類別選項：選擇 <strong>小類別</strong>，輸入 <strong>類別標題</strong>、<strong>類別連結</strong>。</li>
 <li>群組類型可選擇「商品自訂分類」、「商品條件分類」、「商品類型」，點選後往下選擇指定群組。<blockquote>
-<p>小類別即為分類群組。分類設定請參考 <a href="../設定商品自訂分類群組/">設定自訂分類群組</a>、<a href="../設定商品條件分類群組/">設定商品條件分類群組</a>、<a href="../">商品類型</a>。</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg></span> 小類別即為商品分類群組。相關設定請參閱 <a href="../設定商品自訂分類群組/">設定自訂分類群組</a>、<a href="../設定商品條件分類群組/">設定商品條件分類群組</a>、<a href="../編輯商品描述與商品設定#進階設定">商品類型</a>。</p>
 </blockquote>
 </li>
 </ul>
-<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/商品多層級分類06.png" /></p>
+<p><img alt="" src="../../../assets/images/ec-multi-level-product-cateogry-collection.zh-tw.png" /></p>
 </li>
 <li>
 <p>設定完成畫面</p>
-<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/商品多層級分類11.png" /></p>
-<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/商品多層級分類12.png" /></p>
+<p><img alt="" src="../../../assets/images/ec-multi-level-product-two-layers.zh-tw.png" /></p>
+</li>
+<li>
+<p>點擊 <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-grip-vertical" viewBox="0 0 24 24"><circle cx="9" cy="12" r="1"/><circle cx="9" cy="5" r="1"/><circle cx="9" cy="19" r="1"/><circle cx="15" cy="12" r="1"/><circle cx="15" cy="5" r="1"/><circle cx="15" cy="19" r="1"/></svg></span> 可用拖拉的方式，變更分類排序或將中分類移動到其他大分類下。</p>
+<blockquote>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-triangle-alert" viewBox="0 0 24 24"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3M12 9v4M12 17h.01"/></svg></span> 小分類無法移動到其他中分類下，請在中分類下直接新增小分類即可。</p>
+</blockquote>
 </li>
 </ol>
 <h3 id="三層結構">三層結構<a class="headerlink" href="#三層結構" title="Permanent link">&para;</a></h3>
-<p>適用於商家產品複雜多樣，需要在一層資料夾內再創建資料夾進行細分。</p>
-<ul>
-<li>底層（小類別）：來源可包含自訂分類、條件分類，或商品設定頁中的商品類型。  </li>
-<li>中類別：可建立於大類別之下。  </li>
-<li>大類別：最上層分類。  </li>
-</ul>
-<div class="admonition note">
-<p class="admonition-title">設定多層級分類不會改變群組內的商品名單。</p>
-</div>
+<h4 id="示意圖_1">示意圖<a class="headerlink" href="#示意圖_1" title="Permanent link">&para;</a></h4>
+<pre class="mermaid"><code>flowchart TD
+    %% Layer labels
+    L1[大類別]:::layer --&gt; L2[中類別]:::layer --&gt; L3[小類別]:::layer
+
+    %% 大類別
+    男裝["男裝"] --&gt; 男裝_上衣["上衣"] --&gt; 男裝_上衣_Tshirt["男裝T恤"]
+    男裝_上衣 --&gt; 男裝_上衣_Shirt["男裝襯衫"]
+    男裝 --&gt; 男裝_長褲["長褲"] --&gt; 男裝_長褲_Jeans["男裝牛仔褲"]
+    男裝_長褲 --&gt; 男裝_長褲_Suit["男裝西裝褲"]
+    男裝 --&gt; 男裝_短褲["短褲"] --&gt; 男裝_短褲_Casual["男裝休閒褲"]
+
+    %% Styling for layer labels
+    classDef layer fill:#f2f2f2,stroke:#ccc,stroke-width:1px,font-weight:bold;</code></pre>
+<h4 id="操作步驟_1">操作步驟<a class="headerlink" href="#操作步驟_1" title="Permanent link">&para;</a></h4>
 <ol>
 <li>登入 CYBERBIZ 管理後台，前往 <strong>商品 &gt; 商品多層級分類</strong>。</li>
 <li>
 <p>點選 <strong>新增類別</strong>，於新增分類頁面輸入 <strong>類別標題</strong>、<strong>類別連結</strong>。</p>
-<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/商品多層級分類01.png" /></p>
+<p><img alt="" src="../../../assets/images/ec-product-multi-level-product-cateogories-add-category.zh-tw.png" /></p>
 </li>
 <li>
 <p>在大類別下，點選 <strong>新增</strong>。</p>
 <ul>
 <li>「新增類別選項」：選擇 <strong>類別</strong>，輸入「類別標題」、「類別連結」。</li>
 </ul>
-<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/商品多層級分類02.png" /></p>
+<p><img alt="" src="../../../assets/images/ec-multi-level-product-category-collection.zh-tw.png" /></p>
 </li>
 <li>
 <p>在中類別下，點選「新增」。</p>
 <ul>
 <li>新增類別選項：選擇 <strong>小類別</strong>，輸入 <strong>類別標題</strong>、<strong>類別連結</strong>。</li>
 <li>群組類型可選擇「商品自訂分類」、「商品條件分類」、「商品類型」，點選後往下選擇指定群組。<blockquote>
-<p>小類別即為分類群組。分類設定請參考 <a href="../設定商品自訂分類群組/">設定自訂分類群組</a>、<a href="../設定商品條件分類群組/">設定商品條件分類群組</a>、<a href="../">商品類型</a>。</p>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-info" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4M12 8h.01"/></svg></span> 小類別即為商品分類群組。相關設定請參閱 <a href="../設定商品自訂分類群組/">設定自訂分類群組</a>、<a href="../設定商品條件分類群組/">設定商品條件分類群組</a>、<a href="../編輯商品描述與商品設定#進階設定">商品類型</a>。</p>
 </blockquote>
 </li>
 </ul>
-<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/商品多層級分類09.png" /></p>
+<p><img alt="" src="../../../assets/images/ec-multi-level-product-cateogry-collection.zh-tw.png" /></p>
 </li>
 <li>
 <p>設定完成畫面</p>
-<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/商品多層級分類10.png" /></p>
-<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/商品多層級分類13.jpeg" /></p>
+<p><img alt="" src="../../../assets/images/ec-multi-level-product-cateogry-three-layers.zh-tw.png" /></p>
+</li>
+<li>
+<p>點擊 <span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-grip-vertical" viewBox="0 0 24 24"><circle cx="9" cy="12" r="1"/><circle cx="9" cy="5" r="1"/><circle cx="9" cy="19" r="1"/><circle cx="15" cy="12" r="1"/><circle cx="15" cy="5" r="1"/><circle cx="15" cy="19" r="1"/></svg></span> 可用拖拉的方式，變更分類排序或將中分類移動到其他大分類下。</p>
+<blockquote>
+<p><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-triangle-alert" viewBox="0 0 24 24"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3M12 9v4M12 17h.01"/></svg></span> 小分類無法移動到其他中分類下，請在中分類下直接新增小分類即可。</p>
+</blockquote>
 </li>
 </ol>
-<div class="admonition info">
-<p class="admonition-title">分類移動說明</p>
-<p>想讓中分類移動到其他大分類下，可藉由拖拉的方式，移動到其他分類下。  </p>
-<blockquote>
-<p>注意：小分類無法移動到其他中分類下，請在中分類下直接新增小分類即可。</p>
-</blockquote>
-<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/商品多層級分類08.png" /></p>
-</div>
 <h2 id="後續步驟">後續步驟<a class="headerlink" href="#後續步驟" title="Permanent link">&para;</a></h2>
 <div class="grid cards">
 <ul>
 <li><span class="twemoji lg"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-layers" viewBox="0 0 24 24"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"/><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"/><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"/></svg></span> <br />
 <a href="../設定商品多層級分類滿額折扣/"><strong>多層級分類滿額折扣</strong></a>   <br />
-  設定分類層級滿額折扣，系統自動套用至符合條件的商品。</li>
-<li><a href="../"><strong>選單/導覽列設定</strong></a> <br />
-   將多層級分類綁定至導覽列，改善購物體驗。</li>
-<li><a href="https://www.cyberbiz.io/support/?p=11224"><strong><abbr title="Point of Sale，門市進行交易時所使用的銷售作業系統，用於完成商品結帳、付款、開立收據，並同步記錄銷售資料、庫存變化與營收資訊。">POS</abbr> 前台選單設定</strong></a><br />
-管理商品並建立 <abbr title="Point of Sale，門市進行交易時所使用的銷售作業系統，用於完成商品結帳、付款、開立收據，並同步記錄銷售資料、庫存變化與營收資訊。">POS</abbr> 選單。</li>
+  設定分類層級滿額折扣，自動套用至符合條件的商品。</li>
+<li><span class="twemoji lg"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg></span><br />
+<a href="../"><strong>選單/導覽列設定</strong></a> <br />
+  將多層級分類綁定導覽列，提升購物流程與體驗。</li>
+<li><span class="twemoji lg"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 5c-.6 0-1 .5-1 1.1V16c0 .6.4 1 1 1.1.6 0 1-.5 1-1.1V6.1c0-.6-.4-1.1-1-1.1m-3.6-3H4.6C3.7 2 3 2.7 3 3.6v13.8c0 .9.7 1.6 1.6 1.6H6v2c0 .6.4 1 1 1h6c.6 0 1-.4 1-1v-2h2.4c.9 0 1.6-.7 1.6-1.6V3.6c0-.9-.7-1.6-1.6-1.6M5 8h3v2H5zm7 3v2H9v-2zm-3-1V8h3v2zm3 4v2H9v-2zm-7-3h3v2H5zm0 5v-2h3v2zm3 5H7v-2h1zm5 0h-3v-2h3zm3-5h-3v-2h3zm0-3h-3v-2h3zm0-3h-3V8h3zm0-4H5V4h11z"/></svg></span><br />
+<a href="https://www.cyberbiz.io/support/?p=11224"><strong><abbr title="Point of Sale，門市進行交易時所使用的銷售作業系統，用於完成商品結帳、付款、開立收據，並同步記錄銷售資料、庫存變化與營收資訊。">POS</abbr> 前台選單設定</strong></a><br />
+  管理商品並建立 <abbr title="Point of Sale，門市進行交易時所使用的銷售作業系統，用於完成商品結帳、付款、開立收據，並同步記錄銷售資料、庫存變化與營收資訊。">POS</abbr> 前台選單，方便門市展示與操作。管理商品並建立 <abbr title="Point of Sale，門市進行交易時所使用的銷售作業系統，用於完成商品結帳、付款、開立收據，並同步記錄銷售資料、庫存變化與營收資訊。">POS</abbr> 選單。</li>
 </ul>
 </div>
 <h2 id="常見問題">常見問題<a class="headerlink" href="#常見問題" title="Permanent link">&para;</a></h2>
 <details class="quote">
 <summary>商品多層級分類會影響商品名單嗎？</summary>
 <p>不會。商品多層級分類僅用於整理分類群組，不會影響群組內的商品名單。</p>
+</details>
+<details class="quote">
+<summary>什麼情況不適合使用三層分類？</summary>
+<ul>
+<li>商品種類單一或數量不多，單層或雙層分類即可滿足管理需求。  </li>
+<li>商店不需要在分類層級綁定導覽列或行銷活動。  </li>
+<li>避免增加不必要的管理複雜度，降低維護成本。</li>
+</ul>
+</details>
+<details class="quote">
+<summary>中類別和小類別的差別是什麼？</summary>
+<ul>
+<li><strong>中類別</strong>：位於大類別之下，用於進一步細分分類邏輯，主要作為資料夾結構管理。  </li>
+<li><strong>小類別</strong>：實際對應商品群組，來源可為自訂分類、條件分類或商品類型，商品清單與銷售管理依此群組執行。</li>
+</ul>
 </details>
 <!-- abbreviations -->
 
@@ -4721,6 +4825,62 @@
       
       
         <span class="md-tag">商品群組</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">多層級分類</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">網站設定</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">行銷活動</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">導覽列</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">POS</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">自訂分類</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">條件分類</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">商品類型</span>
       
     
   </nav>
