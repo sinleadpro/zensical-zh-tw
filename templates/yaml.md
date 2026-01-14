@@ -14,7 +14,7 @@ devices:
   - mobile
 apis: []
 type: tutorial
-intents []
+intents: []
 features: []
 tnb: ""
 plans: []
