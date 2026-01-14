@@ -131,6 +131,10 @@ copyright = """
             { "設定信用卡 3D 驗證" = "ec/payments/設定信用卡 3D 驗證門檻.md" },
             { "星益欣電子發票設定指南" = "ec/payments/星益欣電子發票設定指南.md" }
         ]},
+        { "網站外觀" = [
+            { "overview" = "ec/website-appearance/index.md" },
+            { "全站商品列表群組排序" = "ec/website-appearance/設定前台商品群組排序.md" }
+        ]},
         { "商店設定" = [
             { "商店設定" = "ec/store/index.md" },
             { "系統通知設定" = "ec/store/系統通知設定.md" }
