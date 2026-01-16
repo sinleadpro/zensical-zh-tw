@@ -73,10 +73,10 @@ notes:
 
 ### 刪除會員價格
 
-1. 點擊該群組欄位旁 **移除**。
+1. 點擊該群組欄位中的 **移除**。
 2. 點擊 **刪除** 確認移除。
 
-![](../../assets/images/ec-remove-member-exclusive-price-variants.zh-tw.gif)
+![](../../assets/images/ec-remove-member-exclusive-price-variants.zh-tw.png)
 	
 ## 多筆設定會員專屬價格
 
@@ -90,7 +90,7 @@ notes:
 ### 編輯與刪除會員價格
 
 - 點擊 **新增會員價格**，選擇 VIP 群組並編輯價格。
-- 若要刪除群組價格，點擊欄位旁 **移除**。
+- 若要刪除群組價格，點擊欄位中的 **移除**。
 
 > 每個款式可設定不同價格，未設定則使用商品售價。
 

@@ -405,8 +405,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc5e7ee3a9f5fb45",
+  "active": "be7b688fb42f3e82",
   "lastOpenFiles": [
+    "site/assets/images/ec-remove-member-exclusive-price-variants.zh-tw.png",
+    "docs/assets/images/ec-remove-member-exclusive-price-variants.zh-tw.png",
     "site/storepal/index.html",
     "site/ec/products/設定 VIP 會員專屬價格/index.html",
     "site/ec/products/設定 VIP 會員專屬價格",
@@ -421,7 +423,6 @@
     "site/assets/images/ec-remove-member-exclusive-price-variants.zh-tw.gif",
     "docs/assets/images/ec-remove-member-exclusive-price-variants.zh-tw.gif",
     "site/assets/images/ec-edit-member-exclusive-price-variants.zh-tw.gif",
-    "docs/assets/images/ec-edit-member-exclusive-price-variants.zh-tw.gif",
     "site/assets/images/ec-edit-member-exclusive-price-setting.zh-tw.mov",
     "docs/assets/images/ec-edit-member-exclusive-price-setting.zh-tw.mov",
     "site/assets/stylesheets/modern/main.dfcb43b2.min.css",
@@ -430,7 +431,6 @@
     "docs/ec/members/設定 VIP 群組.md",
     "docs/ec/products/設定前台商品篩選器.md",
     "docs/ec/products/新增單一商品.md",
-    "site/assets/images/ec-product-edit-product-filter-hero.zh-tw.png.sb-9661448d-RzRKKC",
     "docs/ec/products/設定 VIP 會員專屬價格.md",
     "新增單一.md",
     "docs/ec/marketing/設定商品多層級分類滿額折扣.md",
