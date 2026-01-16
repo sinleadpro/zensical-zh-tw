@@ -9,7 +9,7 @@ id: "41646"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/北美站.png)](https://www.cyberbiz.io/support/?page_id=32080)
+![](https://www.cyberbiz.io/support/wp-content/uploads/北美站.png)
 
 **功能說明：**  
 
@@ -35,13 +35,13 @@ id: "41646"
 
 
 1. 勾選需要修改貨態的訂單，並下拉選擇操作「貨態停滯過久，改為已收貨」。  
-[![訂單列表操作](https://www.cyberbiz.io/support/wp-content/uploads/訂單-FBA部分出貨訂單貨態修改01.png)](https://www.cyberbiz.io/support/wp-content/uploads/訂單-FBA部分出貨訂單貨態修改01.png)
+![訂單列表操作](https://www.cyberbiz.io/support/wp-content/uploads/訂單-FBA部分出貨訂單貨態修改01.png)
 
 
 
 2. 點擊勾選「我已詳閱…貨態」，並按下確認，才可修改貨態為【已收貨】。  
 *若商家於彈窗內點擊「取消」或「關閉彈窗」則不得進行修改。  
-[![訂單列表操作](https://www.cyberbiz.io/support/wp-content/uploads/訂單-FBA部分出貨訂單貨態修改02.png)](https://www.cyberbiz.io/support/wp-content/uploads/訂單-FBA部分出貨訂單貨態修改02.png)
+![訂單列表操作](https://www.cyberbiz.io/support/wp-content/uploads/訂單-FBA部分出貨訂單貨態修改02.png)
 
 
 

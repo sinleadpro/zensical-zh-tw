@@ -36,7 +36,7 @@ id: "8118"
 3. 管理門市 
 * 「管理門市」是給合作品牌的總公司的特殊權限 
 * 權限差別  
-[![權限差別](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-門市權限功能01.png)](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-門市權限功能01.png)  
+![權限差別](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-門市權限功能01.png)  
 *詳情請見 範例 1
 * 商家可以決定是否將門市標記為「管理門市」 
 4. 若電子票券商品與門市取消綁定，針對已售出的電子票券，商家可以選擇是否讓消費者仍可在原門市核銷。   
@@ -75,13 +75,13 @@ id: "8118"
 * 後台兩個地方可以做綁定 
 1. 票券商品編輯頁，可以選擇門市綁定至該票券。  
 後台路徑 :  「商品」→「電子票券列表」→ 點選票券 → 分頁「綁定門市」  
-[![綁定門市](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-門市權限功能02.png)](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-門市權限功能02.png)
+![綁定門市](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-門市權限功能02.png)
 
 
 
 2. 門市編輯頁，可以選擇票券綁定至該門市。  
 後台路徑 :  「金物流」→「所有門市」→ 點選門市 按「編輯」→ 分頁「綁定票券」  
-[![綁定票券](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-門市權限功能03.png)](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-門市權限功能03.png)
+![綁定票券](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-門市權限功能03.png)
 
 * * *
 
@@ -93,7 +93,7 @@ id: "8118"
 
 
 * 在門市編輯頁，可以標記該間門市是否為管理門市。  
-[![管理門市](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-門市權限功能04.png)](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-門市權限功能04.png)
+![管理門市](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-門市權限功能04.png)
 
 
 
@@ -111,7 +111,7 @@ id: "8118"
 
 * 是：已售出的票券，仍可在原門市核銷
 * 否：已售出的票券，無法在原門市核銷
-[![管理門市](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-門市權限功能05.png)](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-門市權限功能05.png)
+![管理門市](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-門市權限功能05.png)
 
 
 
@@ -122,12 +122,12 @@ id: "8118"
 
 
 * 票券商品頁會顯示可以核銷的門市  
-[![前台](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-門市權限功能06.png)](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-門市權限功能06.png)
+![前台](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-門市權限功能06.png)
 
 
 
 * 會員登入後，可從電子票券訂單查詢中，查看可核銷門市  
-[![訂單查詢](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-門市權限功能07.png)](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-門市權限功能07.png)
+![訂單查詢](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-門市權限功能07.png)
 
 
 

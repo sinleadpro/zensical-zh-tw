@@ -9,9 +9,9 @@ id: "763"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/日本站.png)]()
+![](https://www.cyberbiz.io/support/wp-content/uploads/日本站.png)
 
 **功能說明：**  
 
@@ -40,15 +40,15 @@ id: "763"
 * 【基本設定】 : 種類 : 金額/百分比。 (折扣金額/折扣%數)  
 單筆消費滿元可使用 : 限定金額 - 消費達 XX元可使用 / 不限金額。  
 使用次數 : 設定顧客可以使用此優惠券次數。  
-[![LINE-OA-綁定會員送優惠券-基本設定](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-綁定會員送優惠券01.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-綁定會員送優惠券01.png)
+![LINE-OA-綁定會員送優惠券-基本設定](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-綁定會員送優惠券01.png)
 
 * 【進階設定】:  
 有效期限 : 限定天數 / 不限期限 (限定此優惠券有效使用天數)  
 優惠券綁定商品標籤 : 綁定商品標籤，碰到此商品標籤的商品才可使用此優惠券。  
 與其他行銷活動併用限制 : 優惠券與指定活動以外併用 / 如遇指定活動不得使用此優惠券。  
-[![LINE-OA-綁定會員送優惠券-進階設定](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-綁定會員送優惠券02.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-綁定會員送優惠券02.png)  
+![LINE-OA-綁定會員送優惠券-進階設定](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-綁定會員送優惠券02.png)  
 優惠券說明 :  
-[![LINE-OA-綁定會員送優惠券-優惠券](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-綁定會員送優惠券03.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-綁定會員送優惠券03.png)
+![LINE-OA-綁定會員送優惠券-優惠券](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-綁定會員送優惠券03.png)
 
 
 

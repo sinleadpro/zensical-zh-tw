@@ -9,7 +9,7 @@ id: "35608"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **功能說明：**  
 
@@ -45,7 +45,7 @@ id: "35608"
 
 
 後台路徑 :  「第三方整合」→「谷歌 Google 設定」→「Google 整合」
-[![串接GA4](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA400.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA400.png)
+![串接GA4](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA400.png)
 
 * * *
 
@@ -63,13 +63,13 @@ id: "35608"
 
 1. 進入GA後台，點選左下角「管理」→「Google Analytics(分析)4 設定輔助程式」→「開始使用」   
 
-[![串接GA4](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA401.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA401.png)
+![串接GA4](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA401.png)
 
 
 
 
 2. 點選「建立並繼續」。   
-[![建立GA4](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA402.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA402.png)
+![建立GA4](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA402.png)
 
 
 
@@ -81,49 +81,49 @@ id: "35608"
 
 代碼
 
-[![設定代碼](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA403.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA403.png)
+![設定代碼](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA403.png)
 
 代碼
 
-[![設定代碼2](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA404.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA404.png)
+![設定代碼2](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA404.png)
 
 
 
 4. 點選「前往 GA4資源」  
-[![前往ga4](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA405.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA405.png)
+![前往ga4](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA405.png)
 
 
 
 
 5. 進入 GA4 帳號，點選「資料串流」。  
 *確認代碼是否是 GA4，而非U (GA3)。  
-[![點擊資料串接](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA406.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA406.png)
+![點擊資料串接](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA406.png)
 
 
 
 
 6. 查看資料串流是否有串接到您的官網，若沒有則選擇右上角「新增串流」→「網站」。   
 若已有設定至您的官網請點選資料並跳至 步驟9。  
-[![資料串接](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA407.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA407.png)
+![資料串接](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA407.png)
 
 
 
 
 7. 點選「是」。  
-[![通知](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA408.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA408.png)
+![通知](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA408.png)
 
 
 
 
 8. 設定資料串流   
 填上官網連結，可以是 **cyberbiz.co** 或 **後續自行購買的網域** ，並點選「建立串流」。  
-[![建立串流](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA409.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA409.png)
+![建立串流](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA409.png)
 
 
 
 
 9. 點擊複製「評估 ID」。  
-[![複製評估id](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA410.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA410.png)
+![複製評估id](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA410.png)
 
 
 
@@ -132,7 +132,7 @@ id: "35608"
 後台路徑 : 「第三方整合」→「谷歌 Google 設定」→「Google 整合」  
 
 *若您有原本的 GA3 建議您可先同時追蹤數據。(可支援多組編號)   
-[![貼到cyb後台](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA411.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA411.png)
+![貼到cyb後台](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA411.png)
 
 
 
@@ -146,13 +146,13 @@ id: "35608"
 
 
 1. 我們直接到商店前台，隨意點擊某隻商品「加入購物車」按鈕。  
-[![加入購物車](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA412.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA412.png)
+![加入購物車](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA412.png)
 
 
 
 
 2. 並到 GA4 「報表」→「即時」查看事件，即可看到數據的變化。  
-[![加入購物車](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA413.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA413.png)
+![加入購物車](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA413.png)
 
 
 

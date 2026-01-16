@@ -72,17 +72,17 @@ HINET
 2. 設定完成後請至 [HiNet 網站](https://domain.hinet.net/#/)進行設定。   
 後台路徑 :「我的網域」→「轉址服務 - 設定轉址」  
 
-[![hinet01](https://www.cyberbiz.io/support/wp-content/uploads/fb網域驗證－HiNet01.png)](https://www.cyberbiz.io/support/wp-content/uploads/fb網域驗證－HiNet01.png)
+![hinet01](https://www.cyberbiz.io/support/wp-content/uploads/fb網域驗證－HiNet01.png)
 
 
 
 3. 複製下方說明的 A記錄 IP位置。  
-[![hinet02](https://www.cyberbiz.io/support/wp-content/uploads/fb網域驗證－HiNet02.png)](https://www.cyberbiz.io/support/wp-content/uploads/fb網域驗證－HiNet02.png)
+![hinet02](https://www.cyberbiz.io/support/wp-content/uploads/fb網域驗證－HiNet02.png)
 
 
 
 4. 點選「我的網域」→「更新DNS記錄」。  
-[![hinet03](https://www.cyberbiz.io/support/wp-content/uploads/fb網域驗證－HiNet03.png)](https://www.cyberbiz.io/support/wp-content/uploads/fb網域驗證－HiNet03.png)
+![hinet03](https://www.cyberbiz.io/support/wp-content/uploads/fb網域驗證－HiNet03.png)
 
 
 
@@ -96,11 +96,11 @@ HINET
 【紀錄類型】: TXT  
 【IP/主機名稱】: 貼上於 企業管理平台 複製的 TXT (前後請加上 “” 符號)
 
-[![hinet04](https://www.cyberbiz.io/support/wp-content/uploads/fb網域驗證－HiNet04.png)](https://www.cyberbiz.io/support/wp-content/uploads/fb網域驗證－HiNet04.png)  
+![hinet04](https://www.cyberbiz.io/support/wp-content/uploads/fb網域驗證－HiNet04.png)  
 
 
 
-6. 完成網域設定後，需等待2-3日，回到您企業管理平台，確認網域設定變成 「已驗證」 [![hinet](https://www.cyberbiz.io/support/wp-content/uploads/2021/06/fb網域驗證10.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/06/fb網域驗證10.png)
+6. 完成網域設定後，需等待2-3日，回到您企業管理平台，確認網域設定變成 「已驗證」 ![hinet](https://www.cyberbiz.io/support/wp-content/uploads/2021/06/fb網域驗證10.png)
 
 * * *
 

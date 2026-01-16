@@ -24,15 +24,15 @@ id: "5735"
 
 1. 進入後台可選擇兩種方式新增通路  
 後台路徑一 :「通路」→「新增」  
-[![路徑一](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作通路01.png)](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作通路01.png)  
+![路徑一](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作通路01.png)  
 後台路徑二 :「通路」→「列表」→右上角「新增通路」  
-[![路徑二](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作通路02.png)](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作通路02.png)
+![路徑二](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作通路02.png)
 
 
 
 2. 輸入通路名稱、選取通路類別  
 建議通路名稱可依宅配、超商取貨通路，或是其他您配合平台的通路進行設定，例如：酷朋、團購、誠品生活、東森-黑貓、東森-全家...等。  
-[![通路名稱](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作通路03.png)](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作通路03.png)
+![通路名稱](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作通路03.png)
 
 
 
@@ -51,12 +51,12 @@ id: "5735"
 
 
 1. 點擊要設定的通路名稱，進入編輯頁面。  
-[![通路列表](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作通路04.png)](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作通路04.png)
+![通路列表](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作通路04.png)
 
 
 
 2. 點擊新增規則。  
-[![新增規則](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作通路05.png)](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作通路05.png)
+![新增規則](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作通路05.png)
 
 
 
@@ -76,10 +76,10 @@ id: "5735"
 * **天數：** 出貨時以「數值 」計算可出貨商品。如：設定 50 天、商品良品效期 100 天，此通路會出貨距到期日大於 ( 50 ) 天的商品。
 * 同效期：若該通路同一批出貨需為同效期商品，則需勾選。
 * 完成後點選【儲存】。
-[![新增規則內容](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作通路06.png)](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作通路06.png)
+![新增規則內容](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作通路06.png)
 
 
 
 4. 完成後規則將會顯示於通路資訊：  
-[![通路資訊](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作通路07.png)](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作通路07.png)
+![通路資訊](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作通路07.png)
 

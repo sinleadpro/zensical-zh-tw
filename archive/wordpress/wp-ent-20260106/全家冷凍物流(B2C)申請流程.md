@@ -8,7 +8,7 @@ id: "21320"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **功能說明：**  
 
 44. 全家冷凍(B2C)申請辦法。
@@ -42,14 +42,14 @@ id: "21320"
 
 
 2. 經客服確認後，CYBERBIZ 將在商家後台開啟「全家冷凍物流申請頁面」並以 email 提醒。
-[![全家冷凍\(B2C\)申請流程](https://www.cyberbiz.io/support/wp-content/uploads/全家冷凍B2C申請流程01.png)](https://www.cyberbiz.io/support/wp-content/uploads/全家冷凍B2C申請流程01.png) ✅ 申請流程
+![全家冷凍\(B2C\)申請流程](https://www.cyberbiz.io/support/wp-content/uploads/全家冷凍B2C申請流程01.png) ✅ 申請流程
 
 1. 請於後台「全家冷凍物流申請頁面」送出申請表，場勘申請流程約 3~4 週(不含假日)。  
 後台路徑 : 「金物流」→「超商物流」→ 點擊「全家超商冷凍」  
 
 
 * **請注意！** 若填寫有誤，會導致後續調整時間較長，恐將影響申請進度或後續出貨流程，請送出前務必確認資料無誤。
-[![全家冷凍\(B2C\)申請流程](https://www.cyberbiz.io/support/wp-content/uploads/全家冷凍B2C申請流程02.png)](https://www.cyberbiz.io/support/wp-content/uploads/全家冷凍B2C申請流程02.png)
+![全家冷凍\(B2C\)申請流程](https://www.cyberbiz.io/support/wp-content/uploads/全家冷凍B2C申請流程02.png)
 
 2. CYBERBIZ 收到全家場勘結果，若場勘成功系統將自動為您進行開通流程。
 
@@ -63,14 +63,14 @@ id: "21320"
 2. 請依通知內容登入後台，前往啟用「全家超商冷凍」服務。  
 後台路徑 : 「金物流」→「超商物流」→ 點擊「全家超商冷凍」
 
-[![全家冷凍\(B2C\)申請流程](https://www.cyberbiz.io/support/wp-content/uploads/全家冷凍B2C申請流程03.png)](https://www.cyberbiz.io/support/wp-content/uploads/全家冷凍B2C申請流程03.png)
+![全家冷凍\(B2C\)申請流程](https://www.cyberbiz.io/support/wp-content/uploads/全家冷凍B2C申請流程03.png)
 
 3. 依序輸入以下資訊，完成後點擊「儲存」，即可啟用。 
 * 輸入運費。
 * 輸入免運門檻。
 * 依需求開啟「貨到不付款」、「貨到付款」，請至少開啟一個，方可使用此物流。
 * 依需求輸入金流門檻。
-[![全家冷凍\(B2C\)申請流程](https://www.cyberbiz.io/support/wp-content/uploads/全家冷凍B2C申請流程04.png)](https://www.cyberbiz.io/support/wp-content/uploads/全家冷凍B2C申請流程04.png)  
+![全家冷凍\(B2C\)申請流程](https://www.cyberbiz.io/support/wp-content/uploads/全家冷凍B2C申請流程04.png)  
 
 📌 出貨及物流配送須知  
 ✅ 出貨操作
@@ -79,8 +79,8 @@ id: "21320"
 * 司機當場會填寫取貨明細表並點收包裹。[(取貨明細下載連結)](https://www.cyberbiz.co/support/wp-content/uploads/2021/01/%E5%86%B7%E5%87%8DEC%E5%8F%96%E8%B2%A8%E6%98%8E%E7%B4%B0%E8%A1%A8S105.xlsx)。
 *請在全台司機收貨前完成填寫，且貨運溫度由司機填寫。  
 *建議您取貨明細請務必保留至少兩個月做未來點交異常佐證，若遺失則無法保障您的權益。   
-[![全家冷鏈申請流程及使用文件05](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/全家冷鏈申請流程及使用文件05.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/全家冷鏈申請流程及使用文件05.png)
-[![全家冷鏈申請流程及使用文件06](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/全家冷鏈申請流程及使用文件06.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/全家冷鏈申請流程及使用文件06.png)  
+![全家冷鏈申請流程及使用文件05](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/全家冷鏈申請流程及使用文件05.png)
+![全家冷鏈申請流程及使用文件06](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/全家冷鏈申請流程及使用文件06.png)  
 ✅ 貨物包裹 包裹材積大小的限制：  
 
 * s60: 費用: $145，單邊最長邊 ≤ 45cm，最大材數 0.3 材（8,000立方公分），總重量不得超過 5 kg。
@@ -104,8 +104,8 @@ id: "21320"
 *如遇舊曆年，天然災害或物流運送高峰時期，不可抗力之因素時期，則雙方另議。  
 *配送到店時間為收貨後的5-7個工作日   
 
-[![全家冷鏈申請流程及使用文件07](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/全家冷鏈申請流程及使用文件07.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/全家冷鏈申請流程及使用文件07.png)
-[![全家冷鏈申請流程及使用文件08](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/全家冷鏈申請流程及使用文件08.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/全家冷鏈申請流程及使用文件08.png)  
+![全家冷鏈申請流程及使用文件07](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/全家冷鏈申請流程及使用文件07.png)
+![全家冷鏈申請流程及使用文件08](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/全家冷鏈申請流程及使用文件08.png)  
 ✅ 常見問題
 
 1. 商品超過 出貨日+7日 沒有送到店 :  

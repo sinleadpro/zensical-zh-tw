@@ -8,7 +8,7 @@ id: "11171"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **功能說明：**  
 
 * 實體門市使用CYBERBIZ POS、掃碼槍並串接完成POS LINEPAY功能後，消費者付款時可使用手機顯示 LINEPAY條碼，商店掃碼完成結帳。
@@ -57,7 +57,7 @@ id: "11171"
 
 
 3. 提供以上資料完整，送出LINEPAY審核後約10天會收到補件或退件通知，若未收到可主動向 CYBERBIZ 客服詢問。
-[![LINEPAY](https://www.cyberbiz.io/support/wp-content/uploads/2021/04/LINE-PAY商店客服中心.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/04/LINE-PAY商店客服中心.png)  
+![LINEPAY](https://www.cyberbiz.io/support/wp-content/uploads/2021/04/LINE-PAY商店客服中心.png)  
 
 4. 商店收到LINE審核通過通知後，請主動與CYBERBIZ聯繫。
 
@@ -74,21 +74,21 @@ id: "11171"
 
 1. 填寫LINEPAY Channel ID及 LINEPAY Channel Secret。 
 * 若您同時申請 EC 與 POS 的 LINE Pay，請注意兩者的金鑰不可共用，請依對應系統分別填寫。
-[![LINEPAY](https://www.cyberbiz.co/support/wp-content/uploads/2021/01/pos-linepay掃碼支付01.png)](https://www.cyberbiz.co/support/wp-content/uploads/2021/01/pos-linepay掃碼支付01.png)  
+![LINEPAY](https://www.cyberbiz.co/support/wp-content/uploads/2021/01/pos-linepay掃碼支付01.png)  
 
 
 2. 至POS商店，點擊付款方式，將LINEPAY功能開啟。  
-[![LINEPAY](https://www.cyberbiz.co/support/wp-content/uploads/2021/01/pos-linepay掃碼支付02.png)](https://www.cyberbiz.co/support/wp-content/uploads/2021/01/pos-linepay掃碼支付02.png)  
+![LINEPAY](https://www.cyberbiz.co/support/wp-content/uploads/2021/01/pos-linepay掃碼支付02.png)  
 📌 CYBERBIZ POS前台 LINEPAY 結帳操作說明
 
-1. LINEPAY 結帳：請點選其他付款方式。 [![LINEPAY](https://www.cyberbiz.io/support/wp-content/uploads/pos-linepay掃碼支付03.png)](https://www.cyberbiz.io/support/wp-content/uploads/pos-linepay掃碼支付03.png)  
+1. LINEPAY 結帳：請點選其他付款方式。 ![LINEPAY](https://www.cyberbiz.io/support/wp-content/uploads/pos-linepay掃碼支付03.png)  
 
 2. 點選LINEPAY。  
-[![LINEPAY](https://www.cyberbiz.io/support/wp-content/uploads/pos-linepay掃碼支付04.png)](https://www.cyberbiz.io/support/wp-content/uploads/pos-linepay掃碼支付04.png)  
+![LINEPAY](https://www.cyberbiz.io/support/wp-content/uploads/pos-linepay掃碼支付04.png)  
 
-3. 結帳畫面上會出現「掃描支付條碼」的視窗，請掃描消費者的LINEPAY條碼，按「確認」，即完成結帳。 [![LINEPAY](https://www.cyberbiz.io/support/wp-content/uploads/pos-linepay掃碼支付06.png)](https://www.cyberbiz.io/support/wp-content/uploads/pos-linepay掃碼支付06.png)  
+3. 結帳畫面上會出現「掃描支付條碼」的視窗，請掃描消費者的LINEPAY條碼，按「確認」，即完成結帳。 ![LINEPAY](https://www.cyberbiz.io/support/wp-content/uploads/pos-linepay掃碼支付06.png)  
 
-4. 若掃碼視窗關閉，點選「收款」即會跳出「掃描支付條碼」的視窗，可繼續完成結帳。 [![LINEPAY](https://www.cyberbiz.io/support/wp-content/uploads/pos-linepay掃碼支付05.png)](https://www.cyberbiz.io/support/wp-content/uploads/pos-linepay掃碼支付05.png)  
+4. 若掃碼視窗關閉，點選「收款」即會跳出「掃描支付條碼」的視窗，可繼續完成結帳。 ![LINEPAY](https://www.cyberbiz.io/support/wp-content/uploads/pos-linepay掃碼支付05.png)  
 
 * * *
 
@@ -115,5 +115,5 @@ Q : 何時撥款? A : 登入LINEPAY商家後台 > 管理基本資訊 > 管理商
 Q : LINEPAY合作通路是什麼? 有什麼作用? A :
 LINE用戶可透過定位或搜尋附近有支援LINEPAY收款的合作商店，欲增加曝光管道請登入LINEPAY商家後台 > 管理基本資訊 ＞ 商店資料 ＞
 商店資料登記中，填寫商店資料內容，並上傳1:1的商店代表圖片或LOGO圖檔。
-[![LINEPAY](https://www.cyberbiz.io/support/wp-content/uploads/2021/04/LINE-PAY合作通路.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/04/LINE-PAY合作通路.png)  
+![LINEPAY](https://www.cyberbiz.io/support/wp-content/uploads/2021/04/LINE-PAY合作通路.png)  
 

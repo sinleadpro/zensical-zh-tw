@@ -50,24 +50,24 @@ id: "120"
 
 
 1. 需先確認訂單付款狀態符合該筆訂單選用的配送方式。  
-[![超商店到店出貨-C2C01](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C01.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C01.png)
+![超商店到店出貨-C2C01](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C01.png)
 
 
 
 
 2. 如需批次處理較多訂單，可於右上方「顯示」中選擇訂單列表中欲顯示的訂單筆數，後續再進行訂單出貨操作。  
-[![超商店到店出貨-C2C02](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C02.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C02.png)  
+![超商店到店出貨-C2C02](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C02.png)  
 
 新版訂單列表操作頁面
 
-[![新版訂單-超商店到店出貨（C2C）](https://www.cyberbiz.io/support/wp-content/uploads/新版訂單-超商店到店出貨（C2C）2.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版訂單-超商店到店出貨（C2C）2.png) *勾選相同配送方式的訂單後，點選右上方「選擇操作」→「下載店到店託運單並更改為”已出貨”」  
+![新版訂單-超商店到店出貨（C2C）](https://www.cyberbiz.io/support/wp-content/uploads/新版訂單-超商店到店出貨（C2C）2.png) *勾選相同配送方式的訂單後，點選右上方「選擇操作」→「下載店到店託運單並更改為”已出貨”」  
 請留意，批次勾選時請盡量以20筆為上限，以免因數量過多導致超商端取號失敗  
-[![超商店到店出貨-C2C03](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C03.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C03.png)  
+![超商店到店出貨-C2C03](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C03.png)  
 
 點擊後，系統將向超商物流中心索取配送單號，並產生托運單壓縮檔  
 索取單號歷時約30秒完成(依訂單數量多寡而訂)，若超出等候時間，請重新整理，並選擇
 [補印托運單](https://www.cyberbiz.io/helpcenter/?p=3430) 即可。  
-[![超商店到店出貨-C2C04](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C04.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C04.png)
+![超商店到店出貨-C2C04](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C04.png)
 
 
 
@@ -79,7 +79,7 @@ id: "120"
 
 *配送狀態一旦為「已出貨」，則無法修改收貨資訊以及任何訂單狀態。   
 *壓縮檔若無法下載請檢查，瀏覽器是否阻擋彈跳視窗。  
-[![超商店到店出貨-C2C05](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C05.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C05.png)
+![超商店到店出貨-C2C05](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C05.png)
 
 
 
@@ -89,7 +89,7 @@ id: "120"
 【出貨明細】：內容僅包含訂單內商品數量、配送地址，不含訂單金額。  
 【訂單明細】：內容為完整的訂單商品內容、金額與配送方式。  
 【揀貨單】：提供給出貨人員進行訂單撿貨比對用。  
-[![超商店到店出貨-C2C06](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C06.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C06.png)
+![超商店到店出貨-C2C06](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C06.png)
 
 
 
@@ -98,7 +98,7 @@ id: "120"
 * 請使用 A4 紙或是市面上所販售的A4尺寸標籤貼紙列印託運單   
 * 一頁最多容納４筆託運單，以2X2格式呈現，不支援變更為長條連續型標籤機格式(需自行以外部程式轉換)   
 * 印表機種類建議使用雷射印表機，較不影響標籤判讀   
-[![超商店到店出貨-C2C07](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C07.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C07.png)
+![超商店到店出貨-C2C07](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C07.png)
 
 6. 至超商門市寄件後，訂單明細頁內，狀態會顯示為「已出貨(配送中)」。
 
@@ -114,13 +114,13 @@ id: "120"
 *請留意 
 * 超取訂單若需部分出貨，則第二次出貨之訂單將不再能使用超商配送，需自行以其他貨運改以宅配進行配送。 
 * 而貨到付款訂單則是將於第一次寄出時收取整筆訂單全額款項。
-[![超商店到店出貨-C2C08](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C08.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C08.png)
+![超商店到店出貨-C2C08](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C08.png)
 
 
 
 
 2. 商品勾選後將出現出貨方式選擇欄位，請選擇「店到店託運單」並按下「確認出貨」。   
-[![超商店到店出貨-C2C09](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C09.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C09.png)
+![超商店到店出貨-C2C09](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C09.png)
 
 
 
@@ -135,8 +135,8 @@ id: "120"
 ## 📌 7-11使用 ibon超商列印託運單操作流程
 
 
-[![超商店到店出貨-C2C10](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C10.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C010.png)
-[![超商店到店出貨-C2C11](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C11.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C011.png)  
+![超商店到店出貨-C2C10](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C10.png)
+![超商店到店出貨-C2C11](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C11.png)  
 (以上資料取自綠界官網)
 
 * * *
@@ -149,6 +149,6 @@ id: "120"
 請注意 : Step 7  
 ·貨到付款：超商有代收費用，就要輸入訂單金額。  
 ·貨到不付款：純取貨，超商無代收費用，訂單金額就輸入 0。
-[![超商店到店出貨-C2C12](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C12.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C012.png)  
+![超商店到店出貨-C2C12](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商店到店出貨-C2C12.png)  
 (以上資料取自綠界官網)
 

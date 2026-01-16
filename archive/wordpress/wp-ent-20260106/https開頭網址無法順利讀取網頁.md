@@ -30,7 +30,7 @@ id: "29144"
 
 * 以上動作，即可取得轉移網域的授權。
 
-[![https開頭網址無法順利讀取](https://www.cyberbiz.io/support/wp-content/uploads/https開頭網址無法順利讀取1.png)](https://www.cyberbiz.io/support/wp-content/uploads/https開頭網址無法順利讀取1.png)  
+![https開頭網址無法順利讀取](https://www.cyberbiz.io/support/wp-content/uploads/https開頭網址無法順利讀取1.png)  
 網域移轉（以Gandi為例）
 
 * 將網域移轉到Gandi
@@ -48,5 +48,5 @@ id: "29144"
 
 * 附上Gandi教學文件[「如何將域名轉入Gandi」](https://docs.gandi.net/zh-hant/domain_names/transfer/description.html)。
 
-[![https開頭網址無法順利讀取](https://www.cyberbiz.io/support/wp-content/uploads/https開頭網址無法順利讀取2.png)](https://www.cyberbiz.io/support/wp-content/uploads/https開頭網址無法順利讀取2.png)  
+![https開頭網址無法順利讀取](https://www.cyberbiz.io/support/wp-content/uploads/https開頭網址無法順利讀取2.png)  
 

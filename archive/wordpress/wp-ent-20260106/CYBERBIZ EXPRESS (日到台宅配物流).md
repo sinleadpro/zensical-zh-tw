@@ -69,17 +69,17 @@ CYBERBIZ EXPRESS 為一站式日本跨境直送台灣的物流服務，專為日
 
 1. 請向 CYBERBIZ 開店顧問團隊申請開通，開通完成後您可於後台開始設定。  
 後台路徑 :  「APP MARKET」→「我的擴充服務」→「CYBERBIZ EXPRESS」  
-[![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-開始設定01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-開始設定01.png)
+![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-開始設定01.png)
 
 2. 請先同意 CYBERBIZ EXPRESS 跨境運送服務契約。  
-[![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-同意運送服務契約01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-同意運送服務契約01.png)
+![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-同意運送服務契約01.png)
 
 3. 完成基本設定。 
 * 選擇託運單列印方式。
 * 填寫日本出貨地址。 
 * 若未填寫日本出貨地址，將無法下載報關發票與提單清單，請務必確實填寫。
 * **建議以中文填寫** ，以利台灣海關審核。(英文亦可，但建議以中文為主)
-[![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-完成基本設定01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-完成基本設定01.png)
+![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-完成基本設定01.png)
 
 📌 跨境商品設定  
 欲使用CYBEBIZ EXPRESS 服務，跨境商品須填寫以下資訊，以利後續報關：
@@ -95,13 +95,13 @@ CYBERBIZ EXPRESS 為一站式日本跨境直送台灣的物流服務，專為日
 
 * 單筆編輯商品欄位資訊  
 後台路徑 :  「商品」→「所有商品」→ 點擊指定商品  
-[![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-日到台站台報關用商品欄位01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-日到台站台報關用商品欄位01.png)
+![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-日到台站台報關用商品欄位01.png)
 
 * 批次編輯商品欄位資訊  
 後台路徑 :  「商品」→「所有商品」  
 
 [匯出商品Excel表格](https://www.cyberbiz.io/support/?p=44199#step1)後，於表格內找到報關用對應欄位，輸入資訊後[上傳檔案](https://www.cyberbiz.io/support/?p=44199#step3)，即可批次編輯。  
-[![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-日到台站台匯出商品表格報關用欄位01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-日到台站台匯出商品表格報關用欄位01.png)
+![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-日到台站台匯出商品表格報關用欄位01.png)
 
 📌 訂單出貨操作  
 後台路徑 :  「訂單」→「所有訂單」  
@@ -121,7 +121,7 @@ CYBERBIZ EXPRESS 為一站式日本跨境直送台灣的物流服務，專為日
 
 
 * 批次勾選時，請確保每筆訂單皆適用日到台宅配出貨，若有訂單不符合配送方式或訂單狀態，將不會出現「建立託運單」選項。
-[![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-建立託運單01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-建立託運單01.png)
+![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-建立託運單01.png)
 
 2. 點選「建立」後，系統會自動下載壓縮檔，請解壓縮後開啟資料夾。資料夾內含以下 PDF 檔案： 
 * 託運單
@@ -130,11 +130,11 @@ CYBERBIZ EXPRESS 為一站式日本跨境直送台灣的物流服務，專為日
 * 出貨明細
 
 若批次建立託運單，則每個 PDF 檔案內含所有訂單的對應明細，並依訂單編號由小到大排序。
-[![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/下載-CYBERBIZEXPRESS-託運文件檔案.png)](https://www.cyberbiz.io/support/wp-content/uploads/下載-CYBERBIZEXPRESS-託運文件檔案.png)
+![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/下載-CYBERBIZEXPRESS-託運文件檔案.png)
 
 3. 建立託運單後，請下載並列印提單清單與報關發票。 
 * 為方便報關行報關，提單清單中的商品金額，會採固定匯率自動轉換為台幣(日幣：台幣=5：1)。
-[![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-下載報關文件01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-下載報關文件01.png)
+![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-下載報關文件01.png)
 
 4. 通知物流商前往收件前，請將當天出貨訂單對應的提單清單與報關發票檔案，以 E-mail 寄送至`manifest_express@cyberbiz.io`。 
 * 信件主旨：【跨境通-`商家/公司/購物官網名稱`】`YYYY/MM/DD` 出貨資料
@@ -150,24 +150,24 @@ CYBERBIZ EXPRESS 為一站式日本跨境直送台灣的物流服務，專為日
 * 付款狀態為「已收到款項」
 * 配送狀態為「已出貨」
 * 退貨狀態為「不需退貨」
-[![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-加印託運單01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-加印託運單01.png) 📌 追蹤託運單配送狀態  
+![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-加印託運單01.png) 📌 追蹤託運單配送狀態  
 
 1. 商家可於後台「正物流單號」頁籤，點擊託運單號。  
 後台路徑 :  「APP MARKET」→「我的擴充服務」→「CYBERBIZ EXPRESS」  
-[![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-查看託運單配送狀態01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-查看託運單配送狀態01.png)  
+![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-查看託運單配送狀態01.png)  
 
 消費者可於前台「訂單明細」頁，點擊託運單號。  
 後台路徑 :  「訂單查詢」→「訂單明細」  
-[![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-訂單查詢-訂單明細-查看託運單號01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-訂單查詢-訂單明細-查看託運單號01.png)
+![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-訂單查詢-訂單明細-查看託運單號01.png)
 
 2. 進入 CYBERBIZ EXPRESS 貨態查詢頁面，輸入託運單號查詢。 
 * 單次可查詢至多10筆託運單。
 * 系統支援中/英/日語言。
-[![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-查看託運單配送狀態02.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-查看託運單配送狀態02.png)
+![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-查看託運單配送狀態02.png)
 
 📌 查看託運單運費  
 後台路徑 :  「APP MARKET」→「我的擴充服務」→「CYBERBIZ EXPRESS」  
 
 您可於「正物流單號」頁籤，查看每筆託運單預定收取運費與實際收取運費。  
-[![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-查看託運單運費01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-查看託運單運費01.png)  
+![日到台宅配物流](https://www.cyberbiz.io/support/wp-content/uploads/EC-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-查看託運單運費01.png)  
 

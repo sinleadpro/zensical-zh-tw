@@ -33,10 +33,10 @@ id: "12371"
 官網可留言頁面：
 
 * 商品詳情頁中的商品評論區  
-[![商品評論區建立 reCAPTCHA 安全驗證機制](https://www.cyberbiz.io/support/wp-content/uploads/商品評論00.png)](https://www.cyberbiz.io/support/wp-content/uploads/商品評論00.png)
+![商品評論區建立 reCAPTCHA 安全驗證機制](https://www.cyberbiz.io/support/wp-content/uploads/商品評論00.png)
 
 * 聯絡我們頁面  
-[![商品評論區建立 reCAPTCHA 安全驗證機制](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-聯絡我們-設定reCAPTCHA01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-聯絡我們-設定reCAPTCHA01.png)
+![商品評論區建立 reCAPTCHA 安全驗證機制](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-聯絡我們-設定reCAPTCHA01.png)
 
 商家若想保護以上頁面免受機器人惡意攻擊，請依下方設定 Google reCAPTCHA。
 
@@ -52,10 +52,10 @@ id: "12371"
 * 範例網址：`https://_demo1234.cyberbiz.co_ /zh-TW`
 * 請填入：` _demo1234.cyberbiz.co_`
 * 「Google Cloud Platform」：依需求選擇專案。
-[![商品評論區建立 reCAPTCHA 安全驗證機制](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台網站外觀-管理商品評論-設定Google-reCAPTCHA02.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台網站外觀-管理商品評論-設定Google-reCAPTCHA02.png)
+![商品評論區建立 reCAPTCHA 安全驗證機制](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台網站外觀-管理商品評論-設定Google-reCAPTCHA02.png)
 
 2. 點擊「提交」，取得 Google reCAPTCHA 金鑰。  
-[![商品評論區建立 reCAPTCHA 安全驗證機制](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台網站外觀-管理商品評論-設定Google-reCAPTCHA03.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台網站外觀-管理商品評論-設定Google-reCAPTCHA03.png)
+![商品評論區建立 reCAPTCHA 安全驗證機制](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台網站外觀-管理商品評論-設定Google-reCAPTCHA03.png)
 
 3. 請繼續將 Google reCAPTCHA 金鑰綁定官網。
 
@@ -68,7 +68,7 @@ id: "12371"
 2. 「reCAPTCHA sitekey」：將 Google reCAPTCHA「網站金鑰」填入。
 3. 「reCAPTCHA secretkey」：將 Google reCAPTCHA「密鑰」填入。
 
-[![商品評論區建立 reCAPTCHA 安全驗證機制](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台網站外觀-管理商品評論-設定Google-reCAPTCHA04.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台網站外觀-管理商品評論-設定Google-reCAPTCHA04.png)
+![商品評論區建立 reCAPTCHA 安全驗證機制](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台網站外觀-管理商品評論-設定Google-reCAPTCHA04.png)
 
 * 商品評論功能供企業版、PLUS 版商家使用，如有使用需求，請洽客服開通此功能。詳細設定可參考 [商品評論功能](https://www.cyberbiz.io/helpcenter/?p=7894)。
 
@@ -81,7 +81,7 @@ id: "12371"
 2. 「sitekey」：將 Google reCAPTCHA「網站金鑰」填入。
 3. 「secret key」：將 Google reCAPTCHA「密鑰」填入。
 
-[![可留言頁面建立 reCAPTCHA 安全驗證機制](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-會員-顧客回饋建議-設定reCAPTCHA01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-會員-顧客回饋建議-設定reCAPTCHA01.png)
+![可留言頁面建立 reCAPTCHA 安全驗證機制](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-會員-顧客回饋建議-設定reCAPTCHA01.png)
 
 * * *
 
@@ -90,5 +90,5 @@ id: "12371"
 * 一組 Google reCAPTCHA 帳號可綁定多個網域，**您可使用同一組密鑰綁定商品評論與聯絡我們頁面** 。
 * Google reCAPTCHA 有免費用量配額，達到免費用量上限前，Google 會透過電子郵件通知商家。若超出免費用量，顧客將無法進行留言，請自行向 Google 升級方案。詳情請洽 [reCAPTCHA-配額與限制](https://cloud.google.com/recaptcha/quotas?hl=zh-tw)。
 * 請確保金鑰填寫正確，否則留言功能無法使用。如有錯誤訊息，請檢查金鑰是否填寫無誤。  
-[![可留言頁面建立 reCAPTCHA 安全驗證機制](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-聯絡我們-設定reCAPTCHA02.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-聯絡我們-設定reCAPTCHA02.png)
+![可留言頁面建立 reCAPTCHA 安全驗證機制](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-聯絡我們-設定reCAPTCHA02.png)
 

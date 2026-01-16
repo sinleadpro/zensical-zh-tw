@@ -9,7 +9,7 @@ id: "1755"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **功能說明：**  
 
@@ -85,17 +85,17 @@ id: "1755"
 1. 確認滿足以上使用前提後，可於後台看到「廣告活動設定」分頁，點擊「立即串接」。  
 
 * 安裝步驟與 Meta Ads App 說明可參考 [如何安裝 Meta Ads App](https://www.cyberbiz.io/support/?p=47992)。  
-[![Meta 廣告活動設定](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App01.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App01.png)
+![Meta 廣告活動設定](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App01.png)
 
 2. 進入 Meta Ads App 頁面，點擊側邊欄「廣告活動」，可查看已建立的廣告活動。  
-[![Meta 廣告活動設定](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App09.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App09.png)
+![Meta 廣告活動設定](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App09.png)
 
 3. 如需創建廣告，點擊「創建廣告活動」，於「活動目標設定」區塊選擇「流量」或「銷售量」。  
-[![Meta 廣告活動設定](https://www.cyberbiz.io/support/wp-content/uploads/Meta-廣告活動設定05.png)](https://www.cyberbiz.io/support/wp-content/uploads/Meta-廣告活動設定05.png)
+![Meta 廣告活動設定](https://www.cyberbiz.io/support/wp-content/uploads/Meta-廣告活動設定05.png)
 
 4. 於「活動內容設定」區塊設定「廣告活動名稱」、「每日預算」、「開始時間」、「結束時間」。
 * 預算設定可參考 [設定 Meta 廣告的單日預算](https://www.cyberbiz.io/support/?p=2166)。
-[![Meta 廣告活動設定](https://www.cyberbiz.io/support/wp-content/uploads/Meta-廣告活動設定05.png)](https://www.cyberbiz.io/support/wp-content/uploads/Meta-廣告活動設定05.png)
+![Meta 廣告活動設定](https://www.cyberbiz.io/support/wp-content/uploads/Meta-廣告活動設定05.png)
 
 * 請接續下方「廣告創意設定」，建立廣告活動下的廣告群。
 
@@ -110,7 +110,7 @@ id: "1755"
 
 
 1. 在廣告活動下開始設定廣告。於「廣告名稱」欄位輸入名稱。  
-[![Meta 廣告活動設定](https://www.cyberbiz.io/support/wp-content/uploads/Meta-廣告活動設定10.png)](https://www.cyberbiz.io/support/wp-content/uploads/Meta-廣告活動設定10.png)
+![Meta 廣告活動設定](https://www.cyberbiz.io/support/wp-content/uploads/Meta-廣告活動設定10.png)
 
 
 
@@ -119,7 +119,7 @@ id: "1755"
 
 
 * **「目錄型」**  
-[![Meta 廣告活動設定](https://www.cyberbiz.io/support/wp-content/uploads/Meta-廣告活動設定04.png)](https://www.cyberbiz.io/support/wp-content/uploads/Meta-廣告活動設定04.png)
+![Meta 廣告活動設定](https://www.cyberbiz.io/support/wp-content/uploads/Meta-廣告活動設定04.png)
 
 * **請注意！** 根據 Meta 的規定，唯有 pixel 已經搜集到的商品資訊，會被應用在 ASC 目錄型廣告中，因此需要確保 pixel 連結正確且站內有一定流量！
 
@@ -128,7 +128,7 @@ id: "1755"
 
 
 * **「圖片型」**  
-[![Meta 廣告活動設定](https://www.cyberbiz.io/support/wp-content/uploads/Meta-廣告活動設定08.png)](https://www.cyberbiz.io/support/wp-content/uploads/Meta-廣告活動設定08.png) [![Meta 廣告活動設定](https://www.cyberbiz.io/support/wp-content/uploads/Meta-廣告活動設定09.png)](https://www.cyberbiz.io/support/wp-content/uploads/Meta-廣告活動設定09.png)
+![Meta 廣告活動設定](https://www.cyberbiz.io/support/wp-content/uploads/Meta-廣告活動設定08.png) ![Meta 廣告活動設定](https://www.cyberbiz.io/support/wp-content/uploads/Meta-廣告活動設定09.png)
 
 3. 繼續完成下方欄位。 
 * 輸入「主要文字」、「標題」、「描述」等資訊。
@@ -149,7 +149,7 @@ id: "1755"
 4. 設定後點擊「儲存」，即完成廣告的設定。  
 
 * 商家可在一個廣告活動下設定至多20個廣告，控制每個廣告的狀態、新增廣告、刪除。  
-[![Meta 廣告活動設定](https://www.cyberbiz.io/support/wp-content/uploads/Meta-廣告活動設定11.png)](https://www.cyberbiz.io/support/wp-content/uploads/Meta-廣告活動設定11.png)  
+![Meta 廣告活動設定](https://www.cyberbiz.io/support/wp-content/uploads/Meta-廣告活動設定11.png)  
 
 * 後續可在廣告活動的列表頁關注廣告成效。 
 

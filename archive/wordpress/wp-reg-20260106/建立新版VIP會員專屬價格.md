@@ -44,19 +44,19 @@ id: "5794"
 後台路徑 :  
 「商品」→「所有商品」→ 選擇您要設定的商品 →「商品資訊」→「款式管理」  
 
-[![會員專屬價格設定01](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定01.png)](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定01.png)
+![會員專屬價格設定01](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定01.png)
 
 
 
 2. 編輯會員專屬價格頁面   
 
-[![會員專屬價格設定02](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定02.png)](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定02.png)
+![會員專屬價格設定02](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定02.png)
 
 
 
 3. 點選下拉選單可以選擇 VIP 群組名稱。   
 
-[![會員專屬價格設定03](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定03.png)](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定03.png)
+![會員專屬價格設定03](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定03.png)
 
 
 
@@ -66,14 +66,14 @@ id: "5794"
 * 設定多個 VIP 會員的商品價格，請點擊「新增會員價格」，選取VIP群組，再點編輯價格，即可設定。
 * 可以編輯該 VIP 群組所屬的商品價格，每個款式可設定不同的價格，若不設定會預設會帶入商品售價。  
 
-[![會員專屬價格設定04](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定04.png)](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定04.png)
+![會員專屬價格設定04](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定04.png)
 
 
 
 5. 刪除會員專屬價格欄位  
 可刪除該商品對於原屬 VIP 群組的會員專屬價格。  
 
-[![會員專屬價格設定05](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定05.png)](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定05.png)
+![會員專屬價格設定05](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定05.png)
 
 
 
@@ -88,14 +88,14 @@ id: "5794"
 **後台路徑 :**  
 「商品」→「所有商品」→ 選擇您要設定的商品 →「商品資訊」→「款式管理」中編輯會員專屬價格  
 
-[![會員專屬價格設定06](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定06.png)](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定06.png)
+![會員專屬價格設定06](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定06.png)
 
 
 
 
 2. 點選下拉選單可以選擇 VIP 群組名稱。  
 
-[![會員專屬價格設定07](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定07.png)](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定07.png)
+![會員專屬價格設定07](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定07.png)
 
 
 
@@ -104,7 +104,7 @@ id: "5794"
 * 可以編輯該 VIP 群組所屬的商品價格，每個款式可設定不同的價格，若不設定會預設會帶入商品售價。
 * 刪除會員專屬價格欄位。  
 
-[![會員專屬價格設定08](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定08.png)](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定08.png)
+![會員專屬價格設定08](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定08.png)
 
 
 
@@ -117,21 +117,21 @@ id: "5794"
 1. **後台路徑 :**   
 「商品」→「所有商品」→點選欲新增專屬價格的商品→選擇「匯出會員專屬價格」  
 
-[![會員專屬價格設定09](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定09.png)](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定09.png)
+![會員專屬價格設定09](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定09.png)
 
 
 
 
 2. 可至您的信箱收信並下載 Excel 檔。  
 
-[![會員專屬價格設定10](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定10.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定10.png)
+![會員專屬價格設定10](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定10.png)
 
 
 
 
 3. 開啟 Excel 檔後，可設置您選擇商品的專屬價格，並記得存檔   
 
-[![會員專屬價格設定11](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定11.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定11.png)
+![會員專屬價格設定11](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定11.png)
 
 
 
@@ -140,8 +140,8 @@ id: "5794"
 
 按下確認，成功上傳後系統會自動發送信件至您的信箱。  
 
-[![會員專屬價格設定12](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定12.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定12.png)  
-[![會員專屬價格設定13](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定13.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定13.png)
+![會員專屬價格設定12](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定12.png)  
+![會員專屬價格設定13](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定13.png)
 
 
 
@@ -158,12 +158,12 @@ id: "5794"
 若未開啟功能，則未登入的消費者在前台商品頁則不會看到標籤提醒。  
 【商品 VIP標籤連結】 : 可連結至商品註冊/登入網址，引導客戶做登入。  
 
-[![會員專屬價格設定14](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定14.png)](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定14.png)
+![會員專屬價格設定14](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定14.png)
 
 
 
 
-2. 已登入的會員，若該會員屬於的 VIP 有設定商品的會員專屬價格，則商品頁的商品售價則會顯示設定的會員專屬價格，及該會員所屬的VIP群組名稱。  [![文件名](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定15-300x242.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定) | [![文件名](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定16-300x248.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定16-300x248.png) | [![文件名](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定17-300x252.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定17-300x252.png)  
+2. 已登入的會員，若該會員屬於的 VIP 有設定商品的會員專屬價格，則商品頁的商品售價則會顯示設定的會員專屬價格，及該會員所屬的VIP群組名稱。  ![文件名](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定15-300x242.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定) | [![文件名](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定16-300x248.png) | ![文件名](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/會員專屬價格設定17-300x252.png)  
 ---|---|---  
 
 

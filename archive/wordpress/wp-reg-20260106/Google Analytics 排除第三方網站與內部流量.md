@@ -33,17 +33,17 @@ id: "6791"
 
 
 1. 進入 GA4 點進您後台的資料串流。  
-[![點進串流頁](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學11.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學11.png)
+![點進串流頁](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學11.png)
 
 
 
 2. 點選進行代碼設定。  
-[![進行代碼設定](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除02.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除02.png)
+![進行代碼設定](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除02.png)
 
 
 
 3. 在設定點開「全部顯示」。  
-[![全部顯示](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除03.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除03.png)
+![全部顯示](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除03.png)
 
 
 
@@ -51,7 +51,7 @@ id: "6791"
 
 📍定義內部流程  
 📍列出不適用的參照連結網址  
-[![設定](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除04.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除04.png)
+![設定](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除04.png)
 
 
 
@@ -75,31 +75,31 @@ id: "6791"
 
 
 1. 點進「定義內部流量」，並點選「建立」。  
-[![定義內部流量](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除05.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除05.png)
+![定義內部流量](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除05.png)
 
 
 
 2. 設定「規則名稱」、「IP 位址」，可同時新增多個 IP位址。  
-[![進行IP設定](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除06.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除06.png)
+![進行IP設定](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除06.png)
 
 
 
 3. 定義好內部流量後，還需要透過 資料篩選器 排除內部流量。  
 
 後台路徑 : 「管理」→「資源設定」→「資料收集和修改」→「資料篩選器」→ 預設好的 Internal Traffic  
-[![設定篩選器](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除07.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除07.png)
+![設定篩選器](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除07.png)
 
 
 
 4. 確認以下資訊後按下「儲存」  
 【篩選器作業】: 排除  
 【篩選器狀態】: 有效  
-[![編輯篩選器](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除08.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除08.png)
+![編輯篩選器](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除08.png)
 
 
 
 5. 點選「啟用篩選器」，排除內部流量設定即完成。   
-[![確認啟用篩選器](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除09.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除09.png)
+![確認啟用篩選器](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除09.png)
 
 
 
@@ -119,7 +119,7 @@ id: "6791"
 判斷為新的參照來源，並計算為一個工作階段，導致轉換來源分析不準確。
 
 
-[![定義內部流量](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除10.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除10.png) 分類 | 第三方 | 連結  
+![定義內部流量](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-第三方金物流-流量排除10.png) 分類 | 第三方 | 連結  
 ---|---|---  
 金流 | CYBERBIZPAY | cyberbizpay.com  
 金流 | 綠界 | pay.ecpay.com.tw、payment.ecpay.com.tw  

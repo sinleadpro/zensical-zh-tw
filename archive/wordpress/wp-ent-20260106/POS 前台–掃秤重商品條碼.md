@@ -9,7 +9,7 @@ id: "47792"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **功能說明：**  
 
@@ -47,7 +47,7 @@ POS 前台路徑 :  「其他選單」→「磅秤設定」
 
 
 3. 輸入完成，可開始使用。
-[![掃秤重商品條碼](https://www.cyberbiz.io/support/wp-content/uploads/掃秤重商品條碼01.png)](https://www.cyberbiz.io/support/wp-content/uploads/掃秤重商品條碼01.png)  
+![掃秤重商品條碼](https://www.cyberbiz.io/support/wp-content/uploads/掃秤重商品條碼01.png)  
 
 * * *
 
@@ -76,7 +76,7 @@ POS 前台路徑 :  「其他選單」→「磅秤設定」
 
 
 5. 使用秤重商品條碼結帳，不會更動商品庫存。
-[![掃秤重商品條碼](https://www.cyberbiz.io/support/wp-content/uploads/掃秤重商品條碼02.png)](https://www.cyberbiz.io/support/wp-content/uploads/掃秤重商品條碼02.png)  
+![掃秤重商品條碼](https://www.cyberbiz.io/support/wp-content/uploads/掃秤重商品條碼02.png)  
 
 * * *
 

@@ -9,7 +9,7 @@ id: "35549"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **功能說明：**  
 
@@ -49,7 +49,7 @@ PLUS 版商家如有選擇紅利商城功能，方可使用 EC 紅利商城與 P
 
 
 1. 進入後台並點選「新增紅利商城」。  
-[![新增紅利商城](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台01.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台01.png)
+![新增紅利商城](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台01.png)
 
 
 
@@ -58,7 +58,7 @@ PLUS 版商家如有選擇紅利商城功能，方可使用 EC 紅利商城與 P
 
 * 透過下拉選單選要設置的POS店。(不會顯示已選擇過的POS店)
 * 設定活動時間。(可隨時調整活動時間)
-[![基本設定](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台02.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台02.png)
+![基本設定](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台02.png)
 
 
 
@@ -71,26 +71,26 @@ PLUS 版商家如有選擇紅利商城功能，方可使用 EC 紅利商城與 P
 * 【加入商品】  
 選擇想要加入商城的商品並點擊「加入商城」
 
-[![選擇商品](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台03.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台03.png)
+![選擇商品](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台03.png)
 
 
 
 
 4. 設定商品紅利點數  
 預設紅利點數與商品價格一致。  
-[![設定紅利點數](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台04.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台04.png)
+![設定紅利點數](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台04.png)
 
 
 
 
 5. 編輯商品、商品移出商城。  
-[![編輯商品/移出商城](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台05.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台05.png)
+![編輯商品/移出商城](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台05.png)
 
 
 
 
 6. 調整商品排序。  
-[![排序](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台06.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台06.png)
+![排序](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台06.png)
 
 
 
@@ -107,7 +107,7 @@ PLUS 版商家如有選擇紅利商城功能，方可使用 EC 紅利商城與 P
 1. 進入任何的POS紅利商城，上方可選擇「刪除商城」或「複製」，  
 【刪除商城】: 即會刪除該商城。  
 【複製】: 進入步驟2設定。  
-[![複製/刪除](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台07.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台07.png)
+![複製/刪除](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台07.png)
 
 
 
@@ -116,13 +116,13 @@ PLUS 版商家如有選擇紅利商城功能，方可使用 EC 紅利商城與 P
 
 * 透過下拉選單選要設置的POS店。(不會顯示已選擇過的POS店)
 * 設定活動時間。(可隨時調整活動時間)
-[![基本設定](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台08.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台08.png)
+![基本設定](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台08.png)
 
 
 
 
 3. 儲存後即可進行商品設定。  
-[![設定商品](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台09.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台09.png)
+![設定商品](https://www.cyberbiz.io/support/wp-content/uploads/POS紅利商城-後台09.png)
 
 
 

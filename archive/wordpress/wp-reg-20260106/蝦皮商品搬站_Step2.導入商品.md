@@ -50,11 +50,11 @@ id: "5923"
 * 系統會將 A 商品建立於 EC，僅包含款式 2 與 3。
 
 [註二]：建立官網商品時，若蝦皮商品 SKU 與 EC 後台現有商品 SKU 相同，系統會顯示錯誤訊息，**請進行手動更正** 。  
-[![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-匯入前注意事項01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-匯入前注意事項01.png)  
+![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-匯入前注意事項01.png)  
 您可選擇：
 
 * 於商品列表頁找到 SKU 重複商品，手動輸入 SKU 與款式資訊。  
-[![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-匯入前注意事項02.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-匯入前注意事項02.png)
+![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-匯入前注意事項02.png)
 
 * 刪除 EC 上的 SKU 重複商品，至蝦皮後台找到原商品，重新輸入「商品選項貨號」，再次匯入。
 
@@ -71,7 +71,7 @@ SKU教學](https://www.cyberbiz.io/support/?p=3296)。
 
 
 1. 於「商品管理」頁籤，點擊「匯入蝦皮商品」。   
-[![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-匯入蝦皮商品01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-匯入蝦皮商品01.png)
+![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-匯入蝦皮商品01.png)
 
 2. 匯入所需時間依商店商品數量而略有不同。 
 * 系統僅匯入以下狀態的蝦皮商品： 
@@ -79,13 +79,13 @@ SKU教學](https://www.cyberbiz.io/support/?p=3296)。
 * 審核中
 * 未上架
 若商品狀態為「違規/刪除」、「尚未刊登」，則不會納入匯入範圍。  
-[![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-匯入蝦皮商品03.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-匯入蝦皮商品03.png)
+![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-匯入蝦皮商品03.png)
 
 3. 匯入成功後，每筆商品會顯示以下欄位： 
 * 蝦皮商品 ID 與 SKU ID (商品選項貨號)。(若您未於蝦皮後台填寫商品選項貨號，商品匯入EC 時，SKU ID 欄位則留空) 
 * 「售價」、「庫存」、「銷售狀態」：商品於蝦皮平台上的售價、庫存、銷售狀態。
 * 「關聯狀態」：是否已與官網商品完成關聯。
-[![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-匯入蝦皮商品02.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-匯入蝦皮商品02.png)
+![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-匯入蝦皮商品02.png)
 
 * * *
 
@@ -94,12 +94,12 @@ SKU教學](https://www.cyberbiz.io/support/?p=3296)。
 
 
 1. 匯入蝦皮商品後，可依需求選擇想新增至官網的商品。  
-[![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-建立官網商品01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-建立官網商品01.png)
+![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-建立官網商品01.png)
 
 2. 勾選想上傳至官網的商品，也可指定特定款式，選擇完成後點擊「建立商品」。 
 * 您可以選擇將蝦皮商品的類別，自動同步至官網的自訂分類。
 * 套用規則與後續操作建議可參考 套用類別快速整理商品 。
-[![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-建立官網商品02.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-建立官網商品02.png)
+![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-建立官網商品02.png)
 
 3. 系統將依序完成以下動作： 
 * 自動在官網建立商品。
@@ -107,7 +107,7 @@ SKU教學](https://www.cyberbiz.io/support/?p=3296)。
 * 蝦皮商品列表中，原商品「關聯狀態」欄位顯示為「已關聯」。
 * 蝦皮商品列表中，新增連結按鈕，可前往官網商品明細頁，確認商品資訊、編輯。
 * 商品於官網的上架狀態預設為**「已上架、不公開」** 。
-[![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-建立官網商品03.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-建立官網商品03.png)
+![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-建立官網商品03.png)
 
 * * *
 
@@ -115,7 +115,7 @@ SKU教學](https://www.cyberbiz.io/support/?p=3296)。
 
 
 為加速商品搬站流程，您可選擇將蝦皮商品的**後台「類別」** ，自動套用至官網的「自訂分類」。  
-[![文件名](https://www.cyberbiz.io/support/wp-content/uploads/蝦皮-後台-我的商品-商品詳情-商品後台類別01.png)](https://www.cyberbiz.io/support/wp-content/uploads/蝦皮-後台-我的商品-商品詳情-商品後台類別01.png)  
+![文件名](https://www.cyberbiz.io/support/wp-content/uploads/蝦皮-後台-我的商品-商品詳情-商品後台類別01.png)  
 
 系統將依以下規則進行分類對應與同步：
 
@@ -152,14 +152,14 @@ SKU教學](https://www.cyberbiz.io/support/?p=3296)。
 
 官網商品明細頁對應欄位位置：  
 
-* 商品資訊： [![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-對應欄位01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-對應欄位01.png)   
-[![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-對應欄位02.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-對應欄位02.png)
+* 商品資訊： ![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-對應欄位01.png)   
+![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-對應欄位02.png)
 
 * 款式管理：   
-[![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-對應欄位03.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-對應欄位03.png)
+![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-對應欄位03.png)
 
 * 商品資訊：   
-[![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-對應欄位04.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-對應欄位04.png)
+![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-對應欄位04.png)
 
 * * *
 
@@ -188,10 +188,10 @@ SKU教學](https://www.cyberbiz.io/support/?p=3296)。
 請注意，**此功能僅新增未曾匯入的商品，已匯入的商品將不會重複匯入或更新欄位資訊。**
 
 
-[![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-管理蝦皮商品01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-管理蝦皮商品01.png)
+![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-管理蝦皮商品01.png)
 
 * **查看操作紀錄** ：點選「操作紀錄」頁籤，可查看商品執行紀錄。
-[![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-管理蝦皮商品02.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-管理蝦皮商品02.png)
+![蝦皮搬站](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-管理蝦皮商品02.png)
 
 * * *
 

@@ -46,7 +46,7 @@ id: "4825"
 * 待入庫／貨物送達
 * 開始盤點／送出盤點結果
 
-[![POS調倉作業](https://www.cyberbiz.io/support/wp-content/uploads/POS調倉作業1.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS調倉作業1.png)  
+![POS調倉作業](https://www.cyberbiz.io/support/wp-content/uploads/POS調倉作業1.png)  
 申請調倉單
 
 16. 新增調倉單（POS店向EC官網申請調倉單為例）
@@ -55,11 +55,11 @@ id: "4825"
 1. 在POS店庫存管理中，點擊調倉單並新增
 2. 選擇來源店家（此例即官網）
 3. 確認可供應量後，輸入調倉數量並新增調倉單
-[![POS調倉作業](https://www.cyberbiz.io/support/wp-content/uploads/POS調倉作業2.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS調倉作業2.png)  
+![POS調倉作業](https://www.cyberbiz.io/support/wp-content/uploads/POS調倉作業2.png)  
 
 17. 新增後，即可看到待他方確認列表有此調倉單
 
-[![POS調倉作業](https://www.cyberbiz.io/support/wp-content/uploads/POS調倉作業3.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS調倉作業3.png)  
+![POS調倉作業](https://www.cyberbiz.io/support/wp-content/uploads/POS調倉作業3.png)  
 確認調倉單
 
 18. 被調貨單位，確認調倉單（本例POS向EC調貨，因此EC將收到調貨申請）
@@ -67,12 +67,12 @@ id: "4825"
 
 1. 至待我方確認列表
 2. 進入調倉單並同意調倉
-[![POS調倉作業](https://www.cyberbiz.io/support/wp-content/uploads/POS調倉作業4.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS調倉作業4.png)  
+![POS調倉作業](https://www.cyberbiz.io/support/wp-content/uploads/POS調倉作業4.png)  
 
 19. 調貨申請單位，看到調貨申請轉為「已確認」
 
 
 1. 在已確認列表看到調倉需求被確認
 2. 進到進倉單，會看到待確認進倉單，此時回歸到[POS出倉/進倉作業](https://www.cyberbiz.io/support/?p=4623)。
-[![POS調倉作業](https://www.cyberbiz.io/support/wp-content/uploads/POS調倉作業5.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS調倉作業5.png)  
+![POS調倉作業](https://www.cyberbiz.io/support/wp-content/uploads/POS調倉作業5.png)  
 

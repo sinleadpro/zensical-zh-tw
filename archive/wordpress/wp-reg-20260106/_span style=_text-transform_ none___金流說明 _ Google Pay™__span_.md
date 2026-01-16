@@ -42,19 +42,19 @@ id: "3900"
 2. 可至後台設定 Google Pay 。  
 後台路徑 : 「金物流」→「結帳頁 & 金物流設定」→「CYBERBIZ PAYMENTS」→ 點選右上編輯圖示 →「Google Pay」  
 
-[![google pay](https://www.cyberbiz.io/support/wp-content/uploads/google-pay01.png)](https://www.cyberbiz.io/support/wp-content/uploads/google-pay01.png)
+![google pay](https://www.cyberbiz.io/support/wp-content/uploads/google-pay01.png)
 
 * 可選擇開啟或關閉 Google Pay：「ON」/「OFF」。
 * 金流門檻設定 : 可設定「訂單最大金額」/「訂單最小金額」，限制使用 Google Pay的訂單金額區間。  
 **請注意！金流門檻設定僅限高手版、高手 PLUS版使用。**  
 
-[![google pay](https://www.cyberbiz.io/support/wp-content/uploads/google-pay02.png)](https://www.cyberbiz.io/support/wp-content/uploads/google-pay02.png)
+![google pay](https://www.cyberbiz.io/support/wp-content/uploads/google-pay02.png)
 
 3. Google Pay 支援「真實信用卡」和 「虛擬信用卡」。  
 
 * 「虛擬信用卡」是 Google提供的資安服務，在 Google錢包綁定「真實信用卡」後，Google會生成「虛擬信用卡」供刷卡，防止「真實信用卡」資訊遭外洩盜刷。詳情請看 [Google Pay 幫助](https://support.google.com/googlepay/answer/7644068)。
 * 消費者帳號中的「真實信用卡」與「虛擬信用卡」同時存在時，會優先選用「虛擬信用卡」。
-* 選用「真實信用卡」進行付款時，會根據您的信用卡設定：是否勾選「國外信用卡收款功能」、以及於「使用3D驗證訂單金額的門檻」輸入的金額，進行付款流程。詳情請看 [信用卡3D驗證門檻設定](https://www.cyberbiz.io/helpcenter/?p=6844)。 [![google pay](https://www.cyberbiz.io/support/wp-content/uploads/google-pay03.png)](https://www.cyberbiz.io/support/wp-content/uploads/google-pay03.png)
+* 選用「真實信用卡」進行付款時，會根據您的信用卡設定：是否勾選「國外信用卡收款功能」、以及於「使用3D驗證訂單金額的門檻」輸入的金額，進行付款流程。詳情請看 [信用卡3D驗證門檻設定](https://www.cyberbiz.io/helpcenter/?p=6844)。 ![google pay](https://www.cyberbiz.io/support/wp-content/uploads/google-pay03.png)
 * 請確保與您的金流服務商合作，為 Google Pay 保存的實體卡交易觸發基於風險的 3D-S 驗證。
 * [ Google Pay APIs Acceptable Use Policy](https://payments.developers.google.com/terms/aup)
 * [Google Pay API Terms of Service defines](https://payments.developers.google.com/terms/sellertos)

@@ -72,7 +72,7 @@ LINE亦會引導商家報名直播後台教學課程
 
 
 2. 請填入CYBERBIZ提供之「SHOP_ID」以及「AUTHKEY」
-[![後臺畫面](https://www.cyberbiz.io/support/wp-content/uploads/LINE直播申請開通流程與設定02.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE直播申請開通流程與設定02.png)
+![後臺畫面](https://www.cyberbiz.io/support/wp-content/uploads/LINE直播申請開通流程與設定02.png)
 
 
 
@@ -86,7 +86,7 @@ LINE亦會引導商家報名直播後台教學課程
 
 商品必須符合以下三個條件才會成功出現在產品目錄  
 
-[![公開](https://www.cyberbiz.io/support/wp-content/uploads/LINE直播申請開通流程與設定03-1.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE直播申請開通流程與設定03-1.png)
+![公開](https://www.cyberbiz.io/support/wp-content/uploads/LINE直播申請開通流程與設定03-1.png)
 
 1. 公開狀態。(如上圖)  
 
@@ -119,12 +119,12 @@ LINE 則是固定於每日 5:00AM 同步產品目錄資訊到直播後台。
 
 
 * Product ID 就是後台點開商品頁面的網址最後的數字(如圖範例)  
-[![後臺畫面id](https://www.cyberbiz.io/support/wp-content/uploads/LINE直播申請開通流程與設定03.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE直播申請開通流程與設定03.png)
+![後臺畫面id](https://www.cyberbiz.io/support/wp-content/uploads/LINE直播申請開通流程與設定03.png)
 
 
 
 * 匯出商品列表，將原本預設隱藏的A欄-商品id取消隱藏(如圖範例)。商品 id 即是 Product ID  
-[![後臺畫面id](https://www.cyberbiz.io/support/wp-content/uploads/LINE直播申請開通流程與設定04.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE直播申請開通流程與設定04.png)
+![後臺畫面id](https://www.cyberbiz.io/support/wp-content/uploads/LINE直播申請開通流程與設定04.png)
 
 
 

@@ -8,7 +8,7 @@ id: "3036"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **功能說明：**  
 
 * 提供兩種日常帳務處理功能：小結以及關帳。協助商家更有效地管理日常營運的帳務工作。
@@ -40,24 +40,24 @@ id: "3036"
 * POS 前台路徑 :  「其他功能」→「小結關帳」  
 
 1. 點擊「新增小結/關帳」，進入小結/關帳盤點資訊頁。  
-[![POS前台零用金關帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業01.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業01.png)
+![POS前台零用金關帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業01.png)
 
 2. 在「營收清點」和 「訂單統計」部分可以查看本次小結期間的營業額數據以及訂單統計資訊。  
-[![POS前台零用金關帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業02.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業02.png)
+![POS前台零用金關帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業02.png)
 
 3. 在「現金」部分，可察看錢櫃上期留存備用金與本期現金總額，商家可輸入錢櫃實際金額，查看錢櫃是否有差額，並可記錄差額原因。  
-[![POS前台零用金關帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業07.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業07.png)
+![POS前台零用金關帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業07.png)
 
 4. 在「現金匯出」部分，商家若要將錢櫃內的現金匯出或是進行結存入庫，可在「現金取出金額」欄位輸入本次結存入庫的金額，確認錢櫃留存金額。  
-[![POS前台零用金關帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業08.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業08.png)
+![POS前台零用金關帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業08.png)
 
 5. 完成以上操作後，點選右下角「完成小結」。 
 * **於確認彈窗中關閉「小結完成並關帳」，點擊「完成小結」，完成本次小結** 。
 * 於確認彈窗中開啟「小結完成並關帳」，點擊「完成小結」，此次小結後即會自動關帳。
-[![POS前台零用金關帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業11.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業11.png)
+![POS前台零用金關帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業11.png)
 
 6. 後續可以在小結關帳紀錄列表上，查看小結紀錄內容。  
-[![POS前台零用金關帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業03.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業03.png)
+![POS前台零用金關帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業03.png)
 
 
 
@@ -83,13 +83,13 @@ id: "3036"
 1. 操作步驟與小結相同，點擊「新增小結/關帳」，進入小結/關帳盤點資訊頁。
 2. 確認清點資訊，點擊右下角「完成小結」。
 3. **於確認彈窗中開啟「小結完成並關帳」，點擊「完成小結」，此次小結後即會自動關帳。**  
-[![POS前台零用金關帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業06.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業06.png)
+![POS前台零用金關帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業06.png)
 
 4. 若今日已完成關帳，系統會提示使用者今日已有關帳紀錄，商家仍可點擊「確認」，再次關帳。  
-[![POS前台零用金關帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業09.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業09.png)
+![POS前台零用金關帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業09.png)
 
 5. 後續可以在小結關帳紀錄列表上，查看關帳紀錄內容。  
-[![POS前台零用金關帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業05.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業05.png)
+![POS前台零用金關帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業05.png)
 
 * * *
 
@@ -98,5 +98,5 @@ id: "3036"
 
 
 1. 商家可設定小結明細中「錢櫃應有金額」欄位的金額。  
-[![POS前台零用金關帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業10.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業10.png)
+![POS前台零用金關帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-小結關帳作業10.png)
 

@@ -37,7 +37,7 @@ id: "28244"
 * 消費人數
 * 平均客單價
 * 人均消費額
-[![POS營收分析](https://www.cyberbiz.io/support/wp-content/uploads/POS營收分析1.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS營收分析1.png)  
+![POS營收分析](https://www.cyberbiz.io/support/wp-content/uploads/POS營收分析1.png)  
 週數時段比較器
 
 * 使用目的：將所選擇POS店營業指標加總，與個別POS店作比較。
@@ -51,7 +51,7 @@ id: "28244"
 * 消費人數
 * 平均客單價
 * 人均消費額
-[![POS營收分析](https://www.cyberbiz.io/support/wp-content/uploads/POS營收分析2.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS營收分析2.png)  
+![POS營收分析](https://www.cyberbiz.io/support/wp-content/uploads/POS營收分析2.png)  
 各分店比較器
 
 * 使用目的：將所選擇POS店營業指標加總，與個別POS店或不同區域商店作比較。
@@ -65,5 +65,5 @@ id: "28244"
 * 消費人數
 * 平均客單價
 * 人均消費額
-[![POS營收分析](https://www.cyberbiz.io/support/wp-content/uploads/POS營收分析3.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS營收分析3.png)  
+![POS營收分析](https://www.cyberbiz.io/support/wp-content/uploads/POS營收分析3.png)  
 

@@ -57,15 +57,15 @@ id: "7324"
 
 文字
 
-[![文字訊息](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-傳送訊息設定01.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-傳送訊息設定01.png)
+![文字訊息](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-傳送訊息設定01.png)
 
 圖片
 
-[![圖片訊息](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-傳送訊息設定02.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-傳送訊息設定02.png)
+![圖片訊息](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-傳送訊息設定02.png)
 
 
 
 
 4. 發送後，顧客即可收到 LINE 推播訊息。(圖片訊息範例)  
-[![推播畫面](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-傳送訊息設定03.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-傳送訊息設定03.png)
+![推播畫面](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-傳送訊息設定03.png)
 

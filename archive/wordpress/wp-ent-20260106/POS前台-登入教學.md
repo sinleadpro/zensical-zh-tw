@@ -8,7 +8,7 @@ id: "2915"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **功能說明：**  
 
 * 如何登入POS系統前台（門市人員結帳頁面）。
@@ -34,7 +34,7 @@ https://xxxx.cyberbiz.co/admin 或
 https://xxxx.cyberbiz.co/user/sign_in帳號密碼填寫
 
 2. 點擊登入。 
-[![登入畫面](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-登入教學01-1.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-登入教學01-1.png)  
+![登入畫面](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-登入教學01-1.png)  
 
 * * *
 
@@ -42,20 +42,20 @@ https://xxxx.cyberbiz.co/user/sign_in帳號密碼填寫
 📌 登入前台畫面說明
 
 4. 登入預設畫面  
-[![登入畫面](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-登入教學02.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-登入教學02.png)
+![登入畫面](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-登入教學02.png)
 
 
 
 5. 功能介紹  
 
 【員工切換】 後續使用若欲更換使用者，亦可點擊員工切換  
-[![員工切換](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-登入教學03.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-登入教學03.png)  
+![員工切換](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-登入教學03.png)  
 
 【POS 公告】【設定】
 
 1. 查看POS公告，有新訊息將顯示紅色數字，訊息分為「公告」及「通知（系統通知）」
 2. 可查看網路連線狀態、系統到期日、員工登出及全螢幕。
-[![公告/設定](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-登入教學04.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-登入教學04.png)
+![公告/設定](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-登入教學04.png)
 
 
 

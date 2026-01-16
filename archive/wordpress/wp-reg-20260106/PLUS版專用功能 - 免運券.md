@@ -33,7 +33,7 @@ id: "7960"
 後台路徑 :「行銷活動」→「優惠碼」  
 
 
-1. 點擊「新增優惠碼」。 [![免2](https://www.cyberbiz.io/support/wp-content/uploads/免運券02.png)](https://www.cyberbiz.io/support/wp-content/uploads/免運券02.png)
+1. 點擊「新增優惠碼」。 ![免2](https://www.cyberbiz.io/support/wp-content/uploads/免運券02.png)
 
 
 2. 設定免運優惠碼。  
@@ -43,7 +43,7 @@ id: "7960"
 
 * 優惠碼名稱 : 自行設定。
 * 優惠碼開始/結束時間 : 自行設定指定時間、不限時間。 
-[![基本設定](https://www.cyberbiz.io/support/wp-content/uploads/免運券03.png)](https://www.cyberbiz.io/support/wp-content/uploads/免運券03.png)  
+![基本設定](https://www.cyberbiz.io/support/wp-content/uploads/免運券03.png)  
 
 
 【優惠內容設定】
@@ -58,7 +58,7 @@ id: "7960"
 ．商品為複選，可點選多筆商品。  
 *購物車含有指定的購物車商品，則整台皆可適用該免運券 
 * 綁定物流：僅有指定物流選項可以適用免運。 
-[![優惠內容設定](https://www.cyberbiz.io/support/wp-content/uploads/免運券04.png)](https://www.cyberbiz.io/support/wp-content/uploads/免運券04.png)  
+![優惠內容設定](https://www.cyberbiz.io/support/wp-content/uploads/免運券04.png)  
 
 
 
@@ -72,5 +72,5 @@ id: "7960"
 1. 未使用免運券，原運費100元
 2. 選擇或輸入免運券代碼
 3. 使用免運券後，皆更新為（優惠券免運）
-[![免運券](https://www.cyberbiz.io/support/wp-content/uploads/免運券05.png)](https://www.cyberbiz.io/support/wp-content/uploads/免運券05.png)  
+![免運券](https://www.cyberbiz.io/support/wp-content/uploads/免運券05.png)  
 

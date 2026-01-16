@@ -8,7 +8,7 @@ id: "5362"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **看了此文件，您可以：**  
 
 * **設定商品資訊同步開關，** 依需求決定是否同步名稱、圖片與價格。
@@ -51,7 +51,7 @@ id: "5362"
 * 商品名稱
 * 商品圖片
 * 商品價格
-[![文件名](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-開啟商品資訊同步01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-開啟商品資訊同步01.png)
+![文件名](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-開啟商品資訊同步01.png)
 
 
 
@@ -59,7 +59,7 @@ id: "5362"
 後台路徑 :  「商品」→「所有商品」→ 點擊指定商品 → 「商品資訊」頁籤
 
 * 下表列出與蝦皮同步之欄位
-[![文件名](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-設定商品資訊頁籤01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-設定商品資訊頁籤01.png)
+![文件名](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-設定商品資訊頁籤01.png)
 
 
 
@@ -67,14 +67,14 @@ id: "5362"
 後台路徑 :  「商品」→「所有商品」→ 點擊指定商品 →「通路設定」頁籤
 
 * 下表列出蝦皮專屬必填欄位
-[![文件名](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-設定商品通路頁籤01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-設定商品通路頁籤01.png)
+![文件名](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-設定商品通路頁籤01.png)
 
 5. 將商品資訊更新到蝦皮  
 後台路徑 :  「商品」→「所有商品」
 
 * 勾選指定商品，選擇「更新商品資訊到蝦皮」，資訊即會同步。
 * **更新商品資訊到蝦皮前，請先確認官網欄位內容符合[蝦皮規範](https://www.cyberbiz.io/support/?p=51554#d)**，否則可能導致同步失敗。
-[![文件名](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-將商品資訊更新到蝦皮01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-將商品資訊更新到蝦皮01.png)
+![文件名](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-將商品資訊更新到蝦皮01.png)
 
 📌 條件檢查  
 請確認以下設定皆已正確完成，資訊同步機制才能正常運作：  

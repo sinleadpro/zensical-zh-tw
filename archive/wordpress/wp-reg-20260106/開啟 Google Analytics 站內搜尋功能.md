@@ -30,13 +30,13 @@ id: "12099"
 後台路徑 :  「設定」→「資源設定」→「資料收集和修改」→「資料串流」→ 選擇串流 →「事件」→「加強型評估」→ 點擊⚙️  
 
 1. 進入 Google Analytics 後台，點擊「加強型評估」⚙️，開啟「站內搜尋」欄位。   
-[![開啟 Google Analytics 站內搜尋功能](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學11-1024x486.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學11-1024x486.png)  
-[![開啟 Google Analytics 站內搜尋功能](https://www.cyberbiz.io/support/wp-content/uploads/Snipaste_2025-04-22_11-23-45.png)](https://www.cyberbiz.io/support/wp-content/uploads/Snipaste_2025-04-22_11-23-45.png)
+![開啟 Google Analytics 站內搜尋功能](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學11-1024x486.png)  
+![開啟 Google Analytics 站內搜尋功能](https://www.cyberbiz.io/support/wp-content/uploads/Snipaste_2025-04-22_11-23-45.png)
 
 
 
 2. 點擊「顯示進階設定」，於「搜尋字詞查詢參數」欄位輸入「q,s,search,query,keyword」。  
-[![開啟 Google Analytics 站內搜尋功能](https://www.cyberbiz.io/support/wp-content/uploads/站內搜尋追蹤1.png)](https://www.cyberbiz.io/support/wp-content/uploads/站內搜尋追蹤1.png)
+![開啟 Google Analytics 站內搜尋功能](https://www.cyberbiz.io/support/wp-content/uploads/站內搜尋追蹤1.png)
 
 ## 如何查看追蹤成果
 
@@ -44,8 +44,8 @@ id: "12099"
 
 1. 於「事件計數」區塊，點擊「view_search_results」，可即時查看使用者在官網搜尋時所留下的關鍵字紀錄與搜尋次數等資訊，有助於您了解站內搜尋使用情形。 
 * 此欄位顯示的是官網使用者的即時搜尋行為。若短時間內沒有使用者進行關鍵字搜尋，則該欄位可能不會顯示資料。您可嘗試自行在官網進行搜尋，以測試 GA4 是否已成功串接並正確紀錄站內搜尋事件。  
-[![站內搜尋追蹤](https://www.cyberbiz.io/support/wp-content/uploads/站內搜尋追蹤2.png)](https://www.cyberbiz.io/support/wp-content/uploads/站內搜尋追蹤2.png)  
+![站內搜尋追蹤](https://www.cyberbiz.io/support/wp-content/uploads/站內搜尋追蹤2.png)  
 
 2. 點擊「search_term」，可瀏覽使用者曾查詢的關鍵字紀錄。
-[![站內搜尋追蹤](https://www.cyberbiz.io/support/wp-content/uploads/站內搜尋追蹤4-1.png)](https://www.cyberbiz.io/support/wp-content/uploads/站內搜尋追蹤4-1.png)  
+![站內搜尋追蹤](https://www.cyberbiz.io/support/wp-content/uploads/站內搜尋追蹤4-1.png)  
 

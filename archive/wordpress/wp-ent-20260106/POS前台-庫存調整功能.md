@@ -8,7 +8,7 @@ id: "3025"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **功能說明：**  
 
 * POS前台庫存調整，為POS店的庫存調整機制，主要分為：盤盈、盤虧、銷貨、退貨四種。
@@ -35,11 +35,11 @@ id: "3025"
 * 點擊小箭頭，可下載盤點Excel範例
 * 修改Excel表單內容（僅需填寫：產品SKU、數量）
 * 匯入調整好的檔案
-[![POS前台盤點作業](https://www.cyberbiz.io/support/wp-content/uploads/POS前台盤點作業.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台盤點作業.png)  
+![POS前台盤點作業](https://www.cyberbiz.io/support/wp-content/uploads/POS前台盤點作業.png)  
 
 30. 盤點結果通知：
 
-[![POS前台盤點作業](https://www.cyberbiz.io/support/wp-content/uploads/POS前台盤點作業2.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台盤點作業2.png)  
+![POS前台盤點作業](https://www.cyberbiz.io/support/wp-content/uploads/POS前台盤點作業2.png)  
 規則&注意事項  
 1\. 此為前台簡易功能，供少量庫存調整用，若需大量請至後台以excel匯入調整。  
 2.內容僅能輸入”sku”關鍵字或直接以Barcode機掃描條碼搜尋  

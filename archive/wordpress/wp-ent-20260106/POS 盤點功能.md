@@ -9,7 +9,7 @@ id: "39410"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **功能說明：**  
 
@@ -38,7 +38,7 @@ id: "39410"
 
 後台路徑 :  「庫存」→「庫存盤點」  
 
-[![點擊盤點庫存](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能01.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能01.png)
+![點擊盤點庫存](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能01.png)
 
 * * *
 
@@ -53,7 +53,7 @@ id: "39410"
 
 
 1. 點擊「新增盤點單」  
-[![新增盤點單](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能02.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能02.png)
+![新增盤點單](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能02.png)
 
 
 
@@ -64,11 +64,11 @@ id: "39410"
 
 全部盤點
 
-[![全部盤點](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能03.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能03.png)
+![全部盤點](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能03.png)
 
 部分盤點
 
-[![部分盤點](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能04.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能04.png)
+![部分盤點](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能04.png)
 
 
 
@@ -99,28 +99,28 @@ id: "39410"
 * 符合：盤點後的結果與庫存量完全相符。
 * 不符合：盤點後的結果不符庫存數量。
 * 已校正：盤點後結果不符合，但已將庫存數量更新為盤點結果。
-[![盤點狀態](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能05.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能05.png)
+![盤點狀態](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能05.png)
 
 1. 點擊「開始盤點」  
-[![開始盤點](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能06.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能06.png)
+![開始盤點](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能06.png)
 
 
 
 2. 刷商品條碼或手動清點商品數量再輸入。  
 盤點中須暫停可點選右上角「暫停盤點」，完成則點選「完成盤點」。  
-[![暫停/完成盤點](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能07.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能07.png)
+![暫停/完成盤點](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能07.png)
 
 
 
 * 暫停中的盤點單  
 會紀錄上次盤點的數量，點選[開始盤點]即可繼續進行。  
-[![暫停中](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能08.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能08.png)
+![暫停中](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能08.png)
 
 
 
 * 不符合的盤點單  
 會顯示目前庫存量與盤點量，以及兩者相差的盤差量；也可點選上方切換查看盤虧、盤盈、數量相等的商品。  
-[![不符合](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能09.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能09.png)  
+![不符合](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能09.png)  
 
 針對結果不符合之盤點單，可以進行複盤或校正的動作。  
 
@@ -129,7 +129,7 @@ id: "39410"
 
 點選[開始複盤]，開始複盤後一樣可點選[暫停複盤]或[完成複盤]。  
 注意：僅可針對盤點結果不符合的商品進行複盤。  
-[![複盤](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能10.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能10.png)  
+![複盤](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能10.png)  
 
 
 情境二：校正
@@ -137,15 +137,15 @@ id: "39410"
 點選「庫存校正」，系統會將庫存數量更新為盤點後的結果。  
 
 ·注意：校正後將無法回復。  
-[![校正](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能11.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能11.png)  
+![校正](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能11.png)  
 ·校正後的盤點單一樣會顯示原庫存量、盤點量與盤差量。  
-[![校正](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能12.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能12.png)  
+![校正](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能12.png)  
 
 
 
 * 符合的盤點單  
 盤差量皆為 0，無法做其他動作。  
-[![符合的盤點單](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能13.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能13.png)
+![符合的盤點單](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能13.png)
 
 
 
@@ -162,35 +162,35 @@ id: "39410"
 
 後台路徑 : 「POS 功能」→「POS 盤點單」  
 
-[![點擊盤點庫存](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能14.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能14.png)
+![點擊盤點庫存](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能14.png)
 
 * 【搜尋特定盤點單】 :   
 點擊進階搜尋，可選擇時間、分店、盤點類型 ( 全部/部分盤點 )、盤點狀態，或輸入盤點單號進行搜尋。  
 盤點狀態同前台POS機操作的盤點狀態  
-[![搜尋盤點單](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能15.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能15.png)
+![搜尋盤點單](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能15.png)
 
 
 
 * 【盤點單資訊】 :   
 點擊盤點單號，可查看各盤點單資訊與商品。  
-[![盤點單資訊](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能16.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能16.png)
+![盤點單資訊](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能16.png)
 
 
 
 * 【盤點資訊頁】 :   
 *注意：建單人員為建立盤點單時選擇的人員，操作者為後續操作當下登入POS機的帳號。  
-[![盤點資訊頁](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能17.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能17.png)
+![盤點資訊頁](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能17.png)
 
 
 
 * 【盤點商品頁】 : 
 1. 可查看各商品的系統庫存、盤點數量、差異數量。盤虧會以紅色顯示、盤盈以綠色顯示。  
-[![盤點商品頁](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能19.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能19.png)
+![盤點商品頁](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能19.png)
 
 
 
 2. 點擊進階搜尋，可選擇盤點結果 ( 盤虧/盤盈 )、供應商、商品類別，或輸入商品名稱/SKU 來搜尋。  
-[![盤點商品頁2](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能20.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能20.png)
+![盤點商品頁2](https://www.cyberbiz.io/support/wp-content/uploads/POS-盤點功能20.png)
 
 
 

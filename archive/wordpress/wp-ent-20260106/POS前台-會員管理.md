@@ -25,7 +25,7 @@ id: "27954"
 
 1. 點擊會員
 2. 選擇會員註冊（「手機」或「信箱」必填；其他非必填）  
-[![POS前台會員管理](https://www.cyberbiz.io/support/wp-content/uploads/POS前台會員管理1.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台會員管理1.png)  
+![POS前台會員管理](https://www.cyberbiz.io/support/wp-content/uploads/POS前台會員管理1.png)  
 
 3. 會員將收到以下簡訊： 
 
@@ -34,7 +34,7 @@ id: "27954"
 
 請先開啟以下簡訊通知，發送簡訊將會收取簡訊費用。  
 後台路徑 :  「訊息推播」→「簡訊通知樣版」→「POS相關」→ 開啟「POS顧客帳號啟用通知」  
-[![POS前台會員管理](https://www.cyberbiz.io/support/wp-content/uploads/POS前台會員管理06.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台會員管理06.png)  
+![POS前台會員管理](https://www.cyberbiz.io/support/wp-content/uploads/POS前台會員管理06.png)  
 
 會員查詢
 
@@ -43,7 +43,7 @@ id: "27954"
 
 1. 選擇會員查詢
 2. 填入欲查詢會員姓名、手機或Email（需填寫「完整正確」資訊才能搜尋 如：0912345678、0912@gmail.com）
-[![POS前台會員管理](https://www.cyberbiz.io/support/wp-content/uploads/POS前台會員管理2.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台會員管理2.png)  
+![POS前台會員管理](https://www.cyberbiz.io/support/wp-content/uploads/POS前台會員管理2.png)  
 
 3. 搜尋後，可查看/編輯會員資訊。
 
@@ -52,10 +52,10 @@ id: "27954"
 
 
 * 修改會員資料
-[![POS前台會員管理](https://www.cyberbiz.io/support/wp-content/uploads/POS前台會員管理4.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台會員管理4.png)  
+![POS前台會員管理](https://www.cyberbiz.io/support/wp-content/uploads/POS前台會員管理4.png)  
 
 * 如果消費者在現場表示沒有收到帳號啟用簡訊，點選 i 按鈕後，有QR code 可以讓消費者掃碼後進行帳號啟用。
-[![POS前台會員管理](https://www.cyberbiz.io/support/wp-content/uploads/POS前台會員管理05.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台會員管理05.png) 分潤方案
+![POS前台會員管理](https://www.cyberbiz.io/support/wp-content/uploads/POS前台會員管理05.png) 分潤方案
 
 * 查詢顧客推薦分潤
 
@@ -63,5 +63,5 @@ id: "27954"
 1. 選擇分潤方案
 2. 填寫「完整正確」資訊以利搜尋
 3. 點擊名稱進入消費者方案
-[![POS前台會員管理](https://www.cyberbiz.io/support/wp-content/uploads/POS前台會員管理3.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台會員管理3.png)  
+![POS前台會員管理](https://www.cyberbiz.io/support/wp-content/uploads/POS前台會員管理3.png)  
 

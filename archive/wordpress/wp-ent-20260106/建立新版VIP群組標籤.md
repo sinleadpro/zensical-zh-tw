@@ -9,11 +9,11 @@ id: "32733"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/北美站.png)](https://www.cyberbiz.io/support/?page_id=9206)
+![](https://www.cyberbiz.io/support/wp-content/uploads/北美站.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/日本站.png)](https://www.cyberbiz.io/support/?page_id=33456)
+![](https://www.cyberbiz.io/support/wp-content/uploads/日本站.png)
 
 **功能說明：**  
 
@@ -84,24 +84,24 @@ id: "32733"
 
 * 全館VIP : 「一般會員、銀卡、金卡」三個等級。
 * VIP群組 : 綁定「VIP」顧客標籤，群組包含一個會員層級。
-[![vip標籤01](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤01old.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤01old.png)  
+![vip標籤01](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤01old.png)  
 
 【優化前 : 案例說明 】  
 某會員在 2022/1/1 生效新版VIP版本成為一般會員，此會員過去有兩筆有效訂單。  
 (分別為 2020/12/5、2021/12/1)  
-[![vip標籤03](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤03.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤03.png)  
+![vip標籤03](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤03.png)  
 
 【優化前 : 訂單累積金額計算方式】  
 商家加了顧客標籤，無論是否與 VIP群組 有關，皆會觸發 新版 VIP 計算。  
 (系統查看前一筆有效訂單發生於 2021/12/1 09:00:40，並從 2020/12/1 09:00:40 起算至 2021/12/1
 09:00:40。)  
-[![vip標籤04](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤04.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤04.png)  
+![vip標籤04](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤04.png)  
 
 【優化前 : 加減標籤後的新效期】  
 以加標籤當天 2022/4/1 09:00:53 作為起始日，用前一筆有效訂單 2021/12/1 09:00:40 往後加 365天，  
 等於 2022/12/01 23:59:59 為新效期截止日，對消費者實際會員效期不變，僅有前台顯示效期看起來會不滿365天。  
 (等級 : 一般會員 → 銀卡會員)  
-[![vip標籤05](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤05.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤05.png)  
+![vip標籤05](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤05.png)  
 
 
 
@@ -143,23 +143,23 @@ id: "32733"
 * 全館VIP : 僅有「一般會員」一個等級。
 * VIP群組 : 綁定「VIP」顧客標籤，群組包含兩個會員層級。
 
-[![vip標籤01](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤01.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤01.png) [![vip標籤02](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤02.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤02.png)
+![vip標籤01](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤01.png) ![vip標籤02](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤02.png)
 
 
 【優化後 : 案例說明 】  
 某會員在 2022/1/1 生效 新版VIP版本成為一般會員，過去有一筆有效訂單。  
-[![vip標籤06](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤06.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤06.png)  
+![vip標籤06](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤06.png)  
 
 【優化後 : 訂單累積金額計算方式】  
 商家加了 VIP 群組綁定的 VIP 顧客標籤，觸發新版 VIP 計算。  
 因綁定VIP群組標籤視為有效訂單。  
 (系統以當下時間看過去 365天，從2021/4/1 09:00:53 起算至 2022/4/1 09:00:53 。)  
-[![vip標籤07](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤07.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤07.png)  
+![vip標籤07](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤07.png)  
 
 【優化後 : 加減標籤後的新效期起始日】  
 以加標籤當天2022/4/1 09:00:53作為起始日，往後加365天，等於2023/4/1
 23:59:59為效期截止日，對消費者來說是完整的365天效期。  
-[![vip標籤08](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤08.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤08.png)  
+![vip標籤08](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤08.png)  
 
 
 
@@ -173,22 +173,22 @@ id: "32733"
 * 全館VIP : 僅有「一般會員」一個等級。
 * VIP群組 : 綁定「VIP」顧客標籤，群組包含兩個會員層級。
 
-[![vip標籤01](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤01.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤01.png) [![vip標籤02](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤02.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤02.png)
+![vip標籤01](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤01.png) ![vip標籤02](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤02.png)
 
 
 【優化後 : 案例說明 】  
 某會員原本是一般會員，在2022/4/1商家加了「VIP」顧客標籤，升等銀卡會員。  
-[![vip標籤09](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤09.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤09.png)  
+![vip標籤09](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤09.png)  
 
 【優化後 : 訂單累積金額計算方式】  
 商家於 2022/4/10 09:00:53 減「VIP」顧客標籤，因此系統會回推前一筆「有效訂單」計算 VIP 門檻。  
 (故從2022/4/5 09:00:40回推至2021/4/5 09:00:40。)  
-[![vip標籤10](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤10.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤10.png)  
+![vip標籤10](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤10.png)  
 
 【優化後 : 加減標籤後的新效期起始日】  
 系統會回推前一筆「有效訂單」或「加標籤」事件計算 VIP 門檻，2022/4/5 09:00:40 作為新效期起始日，往後加365天，等於2023/4/5
 23:59:59為效期截止日。  
-[![vip標籤11](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤11.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤11.png)  
+![vip標籤11](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤11.png)  
 
 
 
@@ -211,26 +211,26 @@ id: "32733"
 
 【條件設定】  
 假設會員效期 30 天，有設定全館VIP及VIP群組，群組內僅有一個VIP等級，門檻為累積消費滿 100 元。  
-[![vip標籤12](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤12.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤12.png)  
+![vip標籤12](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤12.png)  
 
 【流程時間序】  
 
 
 * 2022/04/01 幫會員加VIP標籤並下一筆$50元有效訂單，未達VIP等級門檻故等級不變。
 * 2022/04/30 再下一筆$50元有效訂單，因消費累積達$100故升等為VIP，效期到2022/5/30。 
-[![vip標籤13](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤13.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤13.png)
+![vip標籤13](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤13.png)
 
 * 2022/5/1 優化功能上線。
 * 2022/5/20 減掉VIP標籤，便不屬於VIP群組會員，成為全館VIP會員，新效期為2022/4/30-2022/5/30。 
-[![vip標籤14](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤14.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤14.png)  
+![vip標籤14](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤14.png)  
 
 
 * 2022/5/20 再接著加上VIP標籤，以新邏輯計算，往前回推30天效期，從2022/4/20起算至2022/5/20僅累積消費$50元，依然是全館VIP會員。  
-[![vip標籤15](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤15.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤15.png)
+![vip標籤15](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤15.png)
 
 * 因等級不變，全館VIP會員效期維持 2022/4/30-2022/5/30。  
 
-[![vip標籤16](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤16.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤16.png)
+![vip標籤16](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤16.png)
 
 
 
@@ -244,11 +244,11 @@ id: "32733"
 假設會員效期 30 天，2022/4/1 有一筆有效訂單，等級不變。  
 2022/4/15 加標籤後，系統查看前一筆有效訂單發生於2022/4/1，往前回推30天效期假設有符合升等，便以加標籤當天2022/4/15
 為升等後新效期起始日，以一筆有效訂單加30天效期2022/5/1為截止日，但消費者在前台看起來效期不滿完整30天。  
-[![vip標籤17](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤17.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤17.png)  
+![vip標籤17](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤17.png)  
 
 【優化上線後】  
 前台更改顯示，升等後新效期起始日改為2022/4/1，截止日照樣是2022/5/1，使消費者在前台看起來效期有滿完整30天，不影響到總效期天數。  
-[![vip標籤18](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤18.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤18.png)
+![vip標籤18](https://www.cyberbiz.io/support/wp-content/uploads/新版-VIP-群組標籤18.png)
 
 
 

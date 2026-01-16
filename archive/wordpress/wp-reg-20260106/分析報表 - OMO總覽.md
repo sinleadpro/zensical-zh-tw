@@ -47,7 +47,7 @@ id: "7800"
 3. 亦可選擇比較的時間區間，可以選擇前一年、前一時段(周期)、前一個月和自訂區間。
 4. 可以搜尋、選取篩選POS商店。
 5. 選擇的篩選條件會應用到當前頁面的所有圖表。
-[![OMO總覽01](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽01.png)](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽01.png) 【資料名詞解釋】
+![OMO總覽01](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽01.png) 【資料名詞解釋】
 
 1. 營收：營業額加總 
 2. 訂單數：訂單數量 
@@ -64,22 +64,22 @@ id: "7800"
 📍 總覽
 
 * 【營收】：指定時間的EC、POS營業額，以及和比較區間比較。  
-[![OMO總覽02](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽02.png)](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽02.png)
+![OMO總覽02](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽02.png)
 
 
 
 * 【訂單數】：指定時間的EC、POS訂單數量，以及和比較區間比較。  
-[![OMO總覽03](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽03.png)](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽03.png)
+![OMO總覽03](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽03.png)
 
 
 
 * 【註冊會員數】：指定時間的註冊會員數量，以及和比較區間比較。  
-[![OMO總覽04](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽04.png)](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽04.png)
+![OMO總覽04](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽04.png)
 
 
 
 * 【平均訂單金額】：指定時間的總營業額/總訂單數，以及和比較區間比較。  
-[![OMO總覽05](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽05.png)](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽05.png)
+![OMO總覽05](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽05.png)
 
 
 
@@ -94,39 +94,39 @@ id: "7800"
 📍 營收分析
 
 * 【營收】：指定時間的EC、POS營業額，以及和比較區間比較。  
-[![OMO總覽06](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽06.png)](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽06.png)
+![OMO總覽06](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽06.png)
 
 
 
 * 【營收趨勢圖】：指定時間的EC、POS營業額趨勢圖。  
-[![OMO總覽07](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽07.png)](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽07.png)
+![OMO總覽07](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽07.png)
 
 
 
 * 【EC / POS營收熱點圖】：了解EC/POS營收高峰，顏色越深代表該時段訂單營收月高，可作為行銷操作時段參考。  
-[![OMO總覽08](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽08.png)](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽08.png)
+![OMO總覽08](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽08.png)
 
 * * *
 
 📍 訂單分析
 
 * 【訂單數】：指定時間的EC、POS訂單數量，以及和比較區間比較。  
-[![OMO總覽09](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽09.png)](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽09.png)
+![OMO總覽09](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽09.png)
 
 
 
 * 【平均訂單金額】：指定時間的總營業額/總訂單數，以及和比較區間比較。  
-[![OMO總覽10](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽10.png)](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽10.png)
+![OMO總覽10](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽10.png)
 
 
 
 * 【EC/POS訂單數趨勢】：指定時間區間，EC/POS訂單數趨勢圖。  
-[![OMO總覽11](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽11.png)](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽11.png)
+![OMO總覽11](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽11.png)
 
 
 
 * 【EC/POS平均訂單金額趨勢】：指定時間區間，EC/POS平均訂單金額趨勢趨勢圖。  
-[![OMO總覽12](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽12.png)](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽12.png)
+![OMO總覽12](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽12.png)
 
 
 
@@ -141,7 +141,7 @@ id: "7800"
 📍 會員分析
 
 * 【註冊會員】：指定時間的註冊會員數量，以及和比較區間比較。  
-[![OMO總覽13](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽13.png)](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽13.png)
+![OMO總覽13](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽13.png)
 
 
 
@@ -156,7 +156,7 @@ id: "7800"
 2. 【平均消費金額 - 全部會員】: 指定時間，全部會員之平均消費金額。
 3. 【平均消費金額 - EC註冊會員】: 指定時間，EC註冊會員之平均消費金額。
 4. 【平均消費金額 - POS註冊會員】:指定時間，POS註冊會員之平均消費金額。
-[![OMO總覽14](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽14.png)](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽14.png)  
+![OMO總覽14](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽14.png)  
 
 5. 【EC平均消費金額 - 全部會員】:指定時間，全部會員之EC平均消費金額。
 6. 【EC平均消費金額 - EC註冊會員】:指定時間，EC註冊會員之EC平均消費金額。
@@ -166,11 +166,11 @@ id: "7800"
 10. 【POS平均消費金額 - POS註冊會員】:指定時間，POS註冊會員之POS平均消費金額。
 11. 【EC平均消費金額長條圖】:指定時間，各註冊來源會員於EC之平均消費金額比較。
 12. 【POS平均消費金額長條圖】:指定時間，各註冊來源會員於POS之平均消費金額比較。
-[![OMO總覽15](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽15.png)](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽15.png)  
+![OMO總覽15](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽15.png)  
 
 13. 【EC註冊會員購買狀況】:指定時間，有消費EC註冊會員於EC/POS購買狀況。
 14. 【POS註冊會員購買狀況】:指定時間，有消費POS註冊會員於EC/POS購買狀況。
-[![OMO總覽16](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽16.png)](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽16.png)
+![OMO總覽16](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽16.png)
 
 
 
@@ -178,7 +178,7 @@ id: "7800"
 1. 回購率
 2. EC首購會員回購狀況
 3. POS首購會員回購狀況 
-[![OMO總覽17](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽17.png)](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽17.png)
+![OMO總覽17](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽17.png)
 
 
 
@@ -192,9 +192,9 @@ id: "7800"
 * POS商品銷售金額TOP 10：指定時間的POS商店銷售金額TOP 10商品。
 
 
-[![OMO總覽18](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽18.png)](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽18.png)
+![OMO總覽18](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽18.png)
 
-[![OMO總覽19](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽19.png)](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽19.png)
+![OMO總覽19](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽19.png)
 
 
 
@@ -205,12 +205,12 @@ id: "7800"
 4. EC銷售金額 
 5. POS銷售金額 
 6. 總銷售金額 
-[![OMO總覽20](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽20.png)](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽20.png)
+![OMO總覽20](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽20.png)
 
 * * *
 
 📍 營收分析
 
 * 【紅利使用數】：指定時間於EC/POS的紅利使用數。  
-[![OMO總覽21](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽21.png)](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽21.png)
+![OMO總覽21](https://www.cyberbiz.io/support/wp-content/uploads/圖表報表-OMO總覽21.png)
 

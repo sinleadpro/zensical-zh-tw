@@ -8,7 +8,7 @@ id: "9139"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **功能說明：**  
 
 * 同時使用 EC 及電商倉儲的商家，若有訂單有退貨需求，請依版本於 EC 後台或於倉儲後台操作。
@@ -56,12 +56,12 @@ id: "9139"
 * 「派車退貨」：系統自動派車取件並自動建立退貨單。  
 **(高手版已開通 CYBERBIZ 金流商家無此按鈕，請於 EC 後台提出派車申請。)**  
 
-[![退貨派車](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作退貨01.png)](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作退貨01.png)  
+![退貨派車](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作退貨01.png)  
 
 * **「不派車退貨」**
 1. 點選後，會提醒是否進行退貨流程，點選「確認」。
 2. 「退貨單狀態」即會顯示：「等待收取」。
-[![不派車退貨](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作退貨02.png)](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作退貨02.png)
+![不派車退貨](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作退貨02.png)
 
 
 
@@ -70,7 +70,7 @@ id: "9139"
 2. 下方需填寫買家取件地址，非超商門市或超商地址。
 3. 「退貨單狀態」即會顯示：「等待收取」。
 4. 倉儲驗收退貨完畢後，「退貨單狀態」即會顯示：「已驗收/部分驗收」。
-[![派車退貨](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作退貨03.png)](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作退貨03.png)
+![派車退貨](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作退貨03.png)
 
 2. 高手版有開通 CYBERBIZ PAYMENTS 商家，請根據訂單的付款方式，**回到 EC 後台** 完成退款。 
 * 使用信用卡、Apple Pay、LINEPay 等虛擬支付：系統會自動於 EC 後台退款。
@@ -89,8 +89,8 @@ id: "9139"
 * 當退貨內容跟訂單內容無直接關連時。
 * 當退貨內容跟訂單有關聯，但退貨內容需調整時。此時請於「訂單編號」欄位填寫對應之訂單編號。
 * **手動退貨單僅供退貨退款作業用，無派車功能，請務必注意！**
-[![手動建立退貨單](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作退貨07.png)](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作退貨07.png)
-[![手動建立退貨單](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作退貨08.png)](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作退貨08.png)
+![手動建立退貨單](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作退貨07.png)
+![手動建立退貨單](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作退貨08.png)
 
 * * *
 

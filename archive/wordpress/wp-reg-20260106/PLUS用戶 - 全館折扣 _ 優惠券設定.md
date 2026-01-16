@@ -41,7 +41,7 @@ id: "5686"
 開啟優惠券選項  
 搜尋優惠券  
 新增優惠券  
-[![全館折扣優惠券設定PLUS01](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS01.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS01.png)
+![全館折扣優惠券設定PLUS01](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS01.png)
 
 
 
@@ -69,13 +69,13 @@ id: "5686"
 ．如遇指定活動不得使用此優惠券 : 若訂單中商品同時享有勾選的指定活動，則無法使用此優惠券。
 
 * 【使用起始/結束時間】:起始時間不輸入表示活動立即生效 / 終止時間不輸入表示不會結束。
-[![全館折扣優惠券設定PLUS02](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS02-2.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS02-2.png)
-[![全館折扣優惠券設定PLUS02](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS02-1.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS02-1.png)
+![全館折扣優惠券設定PLUS02](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS02-2.png)
+![全館折扣優惠券設定PLUS02](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS02-1.png)
 
 
 
 3. 設定完成畫面  
-[![全館折扣優惠券設定PLUS03](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS03.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS03.png)
+![全館折扣優惠券設定PLUS03](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS03.png)
 
 
 
@@ -88,7 +88,7 @@ id: "5686"
 
 
 1. 先點選下載範例。  
-[![全館折扣優惠券設定PLUS04](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS04.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS04.png)
+![全館折扣優惠券設定PLUS04](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS04.png)
 
 
 
@@ -117,12 +117,12 @@ id: "5686"
 ．如遇指定活動不得使用此優惠券 : 若訂單中商品同時享有勾選的指定活動，則無法使用此優惠券。
 
 * 【使用起始/結束時間】:起始時間不輸入表示活動立即生效 / 終止時間不輸入表示不會結束。
-[![全館折扣優惠券設定PLUS05](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS05.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS05.png)
+![全館折扣優惠券設定PLUS05](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS05.png)
 
 
 
 3. 設定完成畫面  
-[![全館折扣優惠券設定PLUS06](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS06.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS06.png)
+![全館折扣優惠券設定PLUS06](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS06.png)
 
 
 
@@ -132,7 +132,7 @@ id: "5686"
 ## 📌 刪除優惠券
 
 * 刪除優惠券。  
-[![全館折扣優惠券設定PLUS07](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS07.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS07.png)
+![全館折扣優惠券設定PLUS07](https://www.cyberbiz.io/helpcenter/wp-content/uploads/全館折扣優惠券設定PLUS07.png)
 
 
 

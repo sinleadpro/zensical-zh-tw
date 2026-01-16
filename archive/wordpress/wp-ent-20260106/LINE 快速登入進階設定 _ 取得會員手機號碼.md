@@ -9,7 +9,7 @@ id: "35740"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **功能說明：**  
 
@@ -59,20 +59,20 @@ id: "35740"
 
 
 1. 進入您的 [LINE Provider 首頁](https://developers.line.biz/en/)，確認您的 Provider 已為 LINE Certified Provider。  
-[![確認provider是否有綠勾](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入取得會員手機號碼01.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入取得會員手機號碼01.png)
+![確認provider是否有綠勾](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入取得會員手機號碼01.png)
 
 
 
 2. 點選您與 在CYBERBIZ 後台串接的LINE Login Channel。  
-[![點選login](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入取得會員手機號碼02.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入取得會員手機號碼02.png)
+![點選login](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入取得會員手機號碼02.png)
 
 
 
 3. 進入 Basic Settings 頁籤，移至「Permissions」設定位置，確認 Permissions 包含「OC_PHONE_NUMBER」  
 
-[![basic](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入取得會員手機號碼03.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入取得會員手機號碼03.png)
+![basic](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入取得會員手機號碼03.png)
 
-[![確認 oc_phone_number](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入取得會員手機號碼04.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入取得會員手機號碼04.png)
+![確認 oc_phone_number](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入取得會員手機號碼04.png)
 
 
 
@@ -88,12 +88,12 @@ id: "35740"
 *一般的 LINE快速登入僅會抓取會員 Email，使用該功能後，會先進行[手機]比對，再比對[Email] 
 
 
-[![已註冊會員](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入取得會員手機號碼05.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入取得會員手機號碼05.png)  
+![已註冊會員](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入取得會員手機號碼05.png)  
 
 
 手機號碼沒有在 EC 官網註冊過會員  
 *一般的 LINE快速登入僅會抓取會員 Email，使用該功能後，會先進行[手機]比對，再比對[Email] 
 
 
-[![未註冊會員](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入取得會員手機號碼06.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入取得會員手機號碼06.png)
+![未註冊會員](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入取得會員手機號碼06.png)
 

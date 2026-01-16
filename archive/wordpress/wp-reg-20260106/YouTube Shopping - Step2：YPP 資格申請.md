@@ -26,7 +26,7 @@ id: "10555"
 ## 📌 YouTube Shopping 完整設定步驟
 
 
-[![同步商品影片至Meta](https://www.cyberbiz.io/support/wp-content/uploads/YouTube-Shopping設定說明02.png)](https://www.cyberbiz.io/support/wp-content/uploads/YouTube-Shopping設定說明02.png)
+![同步商品影片至Meta](https://www.cyberbiz.io/support/wp-content/uploads/YouTube-Shopping設定說明02.png)
 
 1. GMC 及 GA4 帳號申請及綁定後台，請看 [YouTube Shopping – Step1：GMC 與 GA4 帳號綁定後台](https://www.cyberbiz.io/helpcenter/?p=10552)。
 2. 請接著此文件繼續設定 YPP 資格。
@@ -39,15 +39,15 @@ id: "10555"
 
 
 1. 於 YouTube 登入帳號，點擊右上角頭像，進入 YouTube 工作室。  
-[![YPP資格申請](https://www.cyberbiz.io/support/wp-content/uploads/YPP資格申請01.png)](https://www.cyberbiz.io/support/wp-content/uploads/YPP資格申請01.png)
+![YPP資格申請](https://www.cyberbiz.io/support/wp-content/uploads/YPP資格申請01.png)
 
 
 
 2. 點選左側選單「營利」。  
-[![YPP資格申請](https://www.cyberbiz.io/support/wp-content/uploads/YPP資格申請02.png)](https://www.cyberbiz.io/support/wp-content/uploads/YPP資格申請02.png)
+![YPP資格申請](https://www.cyberbiz.io/support/wp-content/uploads/YPP資格申請02.png)
 
 3. 若畫面中有**綠星星** ，表示尚未擁有 YPP 資格，可依下方說明進行 YPP 申請。  
-[![YPP資格申請](https://www.cyberbiz.io/support/wp-content/uploads/YPP資格申請03.png)](https://www.cyberbiz.io/support/wp-content/uploads/YPP資格申請03.png)
+![YPP資格申請](https://www.cyberbiz.io/support/wp-content/uploads/YPP資格申請03.png)
 
 * * *
 
@@ -65,11 +65,11 @@ id: "10555"
 
 
 1. 商家於 YouTube 登入帳號，至後台「總覽」頁，右上「收取款項」點選「開始使用」。  
-[![YPP資格申請](https://www.cyberbiz.io/support/wp-content/uploads/YPP資格申請04.png)](https://www.cyberbiz.io/support/wp-content/uploads/YPP資格申請04.png)
+![YPP資格申請](https://www.cyberbiz.io/support/wp-content/uploads/YPP資格申請04.png)
 
 2. 填寫「顧客個人資訊」，提交後畫面將導回 YouTube 後台。  
 請確認「步驟2 註冊 AdSence for YouTube」為「處理中」。  
-[![YPP資格申請](https://www.cyberbiz.io/support/wp-content/uploads/YPP資格申請05.png)](https://www.cyberbiz.io/support/wp-content/uploads/YPP資格申請05.png)
+![YPP資格申請](https://www.cyberbiz.io/support/wp-content/uploads/YPP資格申請05.png)
 
 3. 步驟完成，可進行下一步 [YouTube Shopping - Step3：申請 YouTube Shopping](https://www.cyberbiz.io/helpcenter/?p=10556)。
 

@@ -35,7 +35,7 @@ id: "2524"
 
 
 * 請留意，使用 ezShip 功能務必將會員註冊「電子郵件」設為必填。  
-[![EZSHIP超取申請0](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請11.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請11.png)
+![EZSHIP超取申請0](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請11.png)
 
 
 
@@ -48,23 +48,23 @@ id: "2524"
 1. 進入 [ezShip 後台](https://www.ezship.com.tw/sender/sender_register_account.jsp)，進行設定。 
 * 帳號所填寫的 Mail 以及手機後續將會進行驗證，請務必填寫正確，以免無法完成申請。 
 * 名稱後續將會顯示在託運單寄件人欄位，建議填寫為公司名稱。 
-[![EZSHIP超取申請02](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請02.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請02.png)
+![EZSHIP超取申請02](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請02.png)
 
 
 
 2. 進行信箱以及手機之驗證，驗證完成後帳號亦完成申請。  
-[![EZSHIP超取申請03](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請03.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請03.png)
+![EZSHIP超取申請03](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請03.png)
 
 
 
 
 3. 進入 ezShip 後台後選擇「我的便利配」，點選「購物網站串接」→「網站串接申請」。  
-[![EZSHIP超取申請04](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請04.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請04.png)
+![EZSHIP超取申請04](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請04.png)
 
 
 
 4. 於購物網站的網址欄位中填入您的官網網址，送出後需等待 ezShip 審核後通知。  
-[![EZSHIP超取申請05](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請05.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請05.png)
+![EZSHIP超取申請05](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請05.png)
 
 
 
@@ -75,12 +75,12 @@ id: "2524"
 
 
 1. 會員帳號審核完成後，若需使用超商貨到付款功能請至「我的便利配」點選「商務會員」→ 「申請/續約」進行合約簽屬以及使用費付款。  
-[![EZSHIP超取申請06](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請06.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請06.png)
+![EZSHIP超取申請06](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請06.png)
 
 
 
 2. 請依照用戶身分，選擇「個人用戶」或「法人用戶」來進行申請。  
-[![EZSHIP超取申請07](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請07.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請07.png)
+![EZSHIP超取申請07](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請07.png)
 
 
 
@@ -94,7 +94,7 @@ id: "2524"
 
 * 如有任何問題，請於週一至週五（ 上午 9：00～12：00 / 下午 13：00～18：00 ）致電 ezShip 客服 (02) 2700-3727 ，進行確認。
 
-[![EZSHIP超取申請08](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請08.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請08.png)
+![EZSHIP超取申請08](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請08.png)
 
 
 
@@ -118,7 +118,7 @@ id: "2524"
 * 「貨到付款」：請依照您的需求開啟是否需要貨到付款。  
 **請注意！欲使用貨到付款功能需要另行向 ezShip 申請商務會員，並額外支付年費。** 若未有此服務資格則訂單無法順利建立！
 
-[![EZSHIP超取申請12](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請12.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請12.png)
+![EZSHIP超取申請12](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EZSHIP超取申請12.png)
 
 
 

@@ -8,7 +8,7 @@ id: "11341"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **功能說明：**  
 
 10. 本文將教您快速將 粉絲專頁、目錄、廣告帳號、像素(Pixel)等相關資產連結至商家後台，並將後台商品列表同步至 Facebook 目錄。
@@ -30,20 +30,20 @@ id: "11341"
 
 頁面下方有一區塊為 Facebook 新版商業擴充套件 ，點選「開始設定」即可啟動流程。  
 
-[![創立官方帳號1](https://www.cyberbiz.io/support/wp-content/uploads/fb商業擴充套件初步設定1.png)](https://www.cyberbiz.io/support/wp-content/uploads/fb商業擴充套件初步設定1.png)
+![創立官方帳號1](https://www.cyberbiz.io/support/wp-content/uploads/fb商業擴充套件初步設定1.png)
 
 1. 瀏覽器若沒有登入過，系統會要求您登入您的 Facebook 帳號  
 
 * 請注意登入的 Facebook 帳號，將影響後續流程可以設定項目，請確保**此設定帳號擁有 Facebook 商家資產管理組合相關資產的設定權限** 。
 
-[![創立官方帳號1](https://www.cyberbiz.io/support/wp-content/uploads/2021/04/fb彈窗1-1024x687.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/04/fb彈窗1-1024x687.png)  
+![創立官方帳號1](https://www.cyberbiz.io/support/wp-content/uploads/2021/04/fb彈窗1-1024x687.png)  
 
 
 2. 同意授權 Cyberbiz 相關權限  
 
 * 這邊主要是要徵求您的同意，讓我們可以協助您快速將 EC 的資料與 Facebook 的資料做連結，並不會影響到您目前 Facebook 商家資產管理組合的操作。
 
-[![創立官方帳號1](https://www.cyberbiz.io/support/wp-content/uploads/2021/06/fb商業擴充套件初步設定2.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/06/fb商業擴充套件初步設定2.png)  
+![創立官方帳號1](https://www.cyberbiz.io/support/wp-content/uploads/2021/06/fb商業擴充套件初步設定2.png)  
 
 
 3. 連結企業管理平台的資產  
@@ -62,22 +62,22 @@ id: "11341"
 
 * 資產連結確認都沒問題後，就按繼續即可。
 
-[![創立官方帳號1](https://www.cyberbiz.io/support/wp-content/uploads/fb商業擴充套件初步設定5.png)](https://www.cyberbiz.io/support/wp-content/uploads/fb商業擴充套件初步設定5.png)
-[![創立官方帳號1](https://www.cyberbiz.io/support/wp-content/uploads/fb商業擴充套件初步設定6.png)](https://www.cyberbiz.io/support/wp-content/uploads/fb商業擴充套件初步設定6.png)
-[![創立官方帳號1](https://www.cyberbiz.io/support/wp-content/uploads/fb商業擴充套件初步設定7.png)](https://www.cyberbiz.io/support/wp-content/uploads/fb商業擴充套件初步設定7.png)
+![創立官方帳號1](https://www.cyberbiz.io/support/wp-content/uploads/fb商業擴充套件初步設定5.png)
+![創立官方帳號1](https://www.cyberbiz.io/support/wp-content/uploads/fb商業擴充套件初步設定6.png)
+![創立官方帳號1](https://www.cyberbiz.io/support/wp-content/uploads/fb商業擴充套件初步設定7.png)
 
 4. 告知 CYBERBIZ 將獲得的權限  
 
 * 雖然 UI 上顯示必填二字，但不用理會，這是 Facebook UI 呈現的問題，只管點選下一步就對了！
 
 
-[![創立官方帳號1](https://www.cyberbiz.io/support/wp-content/uploads/2021/04/fb彈窗4-1024x853.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/04/fb彈窗4-1024x853.png)
+![創立官方帳號1](https://www.cyberbiz.io/support/wp-content/uploads/2021/04/fb彈窗4-1024x853.png)
 
 5. 完成連結  
 等候 Facebook 連結完成後，即會出現設定完成的畫面，點選完成後，會再將您導回 CYBERBIZ 的後台設定頁。  
 
-[![創立官方帳號1](https://www.cyberbiz.io/support/wp-content/uploads/2021/04/fb彈窗5-806x1024.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/04/fb彈窗5-806x1024.png)
-[![創立官方帳號1](https://www.cyberbiz.io/support/wp-content/uploads/2021/04/fb彈窗5-1-814x1024.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/04/fb彈窗5-1-814x1024.png)
+![創立官方帳號1](https://www.cyberbiz.io/support/wp-content/uploads/2021/04/fb彈窗5-806x1024.png)
+![創立官方帳號1](https://www.cyberbiz.io/support/wp-content/uploads/2021/04/fb彈窗5-1-814x1024.png)
 
 6. 確認連結  
 
@@ -86,7 +86,7 @@ id: "11341"
 
 * **請注意！** 要編輯或是取消連結，都需要登入**最初設定的 Facebook 帳號** ，才能夠進到以上提到的設定流程。
 
-[![創立官方帳號1](https://www.cyberbiz.io/support/wp-content/uploads/2021/06/fb商業擴充套件初步設定4.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/06/fb商業擴充套件初步設定4.png)  
+![創立官方帳號1](https://www.cyberbiz.io/support/wp-content/uploads/2021/06/fb商業擴充套件初步設定4.png)  
 
 
 * * *

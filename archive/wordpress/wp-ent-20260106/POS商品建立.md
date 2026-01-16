@@ -8,7 +8,7 @@ id: "5138"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **功能說明：**  
 
 * 將建置於EC網站之商品，複製到POS店中，於POS店創建商品後，後續可再為產品添加庫存。
@@ -34,14 +34,14 @@ id: "5138"
 2. 選擇「複製商品至POS商店」。
 3. 選取要複製到的POS店並評估是否開啟「連帶複製商品所有圖片」。
 註：POS商品是否擁有商品圖片，將影響POS前台操作畫面中，是否擁有圖片可參考，建議開啟使用。
-[![POS商品建立](https://www.cyberbiz.io/support/wp-content/uploads/POS商品建立1.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS商品建立1.png)  
+![POS商品建立](https://www.cyberbiz.io/support/wp-content/uploads/POS商品建立1.png)  
 
 7. 選擇門市（可複選）後，複製商品將排程後加入所有商品列表。
-[![POS商品建立](https://www.cyberbiz.io/support/wp-content/uploads/POS商品建立2.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS商品建立2.png)  
+![POS商品建立](https://www.cyberbiz.io/support/wp-content/uploads/POS商品建立2.png)  
 📌 POS獨賣商家如何建立商品 後台路徑 :「商品」→「所有商品」  
 
 POS 獨賣商家可選擇在建立商品時，同步勾選該商品要套用販售的 POS 門市。
-[![POS商品建立](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-POS獨賣商家建立商品時同步POS商店01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-POS獨賣商家建立商品時同步POS商店01.png)  
+![POS商品建立](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-POS獨賣商家建立商品時同步POS商店01.png)  
 
 * **已建立的商品恕不支援此設定。** 請以原有 複製商品至 POS 商店 方式，新增至 POS 商店。
 * 此功能僅限 POS 獨賣商家使用，若您同時使用 EC 與 POS 系統，為求系統資料完整性，請以原有 複製商品至 POS 商店 方式，新增至 POS 商店。

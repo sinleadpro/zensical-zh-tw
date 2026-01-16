@@ -56,21 +56,21 @@ id: "7884"
 
 
 1. 進入頁面點選右上角「新增首購禮」。  
-[![新增首購禮](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮01.png)](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮01.png)
+![新增首購禮](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮01.png)
 
 
 
 2. 基本設定 
 * 首購禮名稱 : 自訂名稱。(不會顯示於前台)
 * 活動開始/結束時間 : 可設定 限定活動期限/不限期限。
-(建立活動後即不可再更改活動開始時間與結束時間，還請商家留意。)  [![基本設定](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮02.png)](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮02.png)
+(建立活動後即不可再更改活動開始時間與結束時間，還請商家留意。)  ![基本設定](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮02.png)
 
 
 
 3. 贈送對象設定  
 
 * 可選擇 所有會員/會員標籤/指定註冊區間，進行贈送。
-[![首購禮贈送對象](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮03.png)](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮03.png)
+![首購禮贈送對象](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮03.png)
 
 
 
@@ -79,7 +79,7 @@ id: "7884"
 * 首購禮頻率 : 每個帳號限領一次 / 1 天 / 7 天 / 30 天 / 90 天
 * 活動規則 : 消費門檻 - 最低消費門檻 / 商品標籤 - 商品標籤 (可設多個標籤) 。
 * 贈送內容 : 商品/紅利點數/優惠券/現金折價。
-[![活動規則](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮04.png)](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮04.png)
+![活動規則](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮04.png)
 
 
 
@@ -94,7 +94,7 @@ id: "7884"
 * 贈送商品 不能新增 POS 商品。
 * 若群組內的商品都被送完，就不會送出⾸購禮，不會⾃動將活動做關閉，商家需留意款式庫存。
 * 在活動【期間】與【頻率】內第一次於站內購物，結帳頁面當下即會顯示首購禮，商家可自行評估是否要跟商品一併寄送或是拆單寄送(拆單寄送，需透過商家自行配合的物流進行出貨)。
-[![商品](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮05.png)](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮05.png) [![商品結帳頁](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮06.png)](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮06.png)
+![商品](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮05.png) ![商品結帳頁](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮06.png)
 
 
 
@@ -110,7 +110,7 @@ id: "7884"
 * 紅利是結案當下檢查這位會員的這筆訂單是否符合所有首購禮的條件，以及是否已贈送過，若未贈送過就會全部立即贈送(僅檢查贈送項目為紅利/優惠券)。
 * 訂單結案時，檢查「訂單成立時間」是否在首購禮活動走期內。
 * 若首購禮頻率為 「每個帳號限領一次」，在訂單結案時就會檢查該會員在「首購禮活動起始日~訂單結案日期間」是否收過首購禮，沒有收過就發送。
-[![紅利點數](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮07.png)](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮07.png) [![紅利點數結帳頁](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮08.png)](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮08.png)
+![紅利點數](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮07.png) ![紅利點數結帳頁](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮08.png)
 
 
 
@@ -132,14 +132,14 @@ id: "7884"
 * 紅利及優惠券是結案當下檢查這位會員的這筆訂單是否符合所有首購禮的條件，以及是否已贈送過，若未贈送過就會全部立即贈送(僅檢查贈送項目為紅利/優惠券)。
 * 訂單結案時，檢查「訂單成立時間」是否在首購禮活動走期內。
 * 若首購禮頻率為「每個帳號限領一次」，在訂單結案時就會檢查該會員在「首購禮活動起始日~訂單結案日期間」是否收過首購禮，沒有收過就發送。
-[![優惠券](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮09.png)](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮09.png) [![優惠券結帳頁](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮10.png)](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮10.png)
+![優惠券](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮09.png) ![優惠券結帳頁](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮10.png)
 
 
 
 4. **現金折價**
 * 現金折扣種類 : 現金-折扣 / 百分比- %數(設定 88 則為 88 折)。
 * 符合首購禮條件即會在結帳頁顯示首購禮現金折扣。
-[![現金折價](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮11.png)](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮11.png) [![現金折價結帳頁](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮12.png)](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮12.png)
+![現金折價](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮11.png) ![現金折價結帳頁](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-期間限定首購禮12.png)
 
 
 

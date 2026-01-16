@@ -29,7 +29,7 @@ id: "6178"
 
 ## 📌 流程說明
 
-[![超取退貨便-C2B-操作說明-01](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-01.png)](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-01.png)
+![超取退貨便-C2B-操作說明-01](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-01.png)
 
 1. 消費者向商家申請退貨
 2. 商家於後台訂單列表發送簡訊
@@ -53,22 +53,22 @@ id: "6178"
 * 消費者負擔
 
 後台路徑 :「金物流」→「超商物流」  
-[![超取退貨便-C2B-操作說明-02](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-02.png)](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-02.png)  
+![超取退貨便-C2B-操作說明-02](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-02.png)  
 
 
 📍【商家負擔】
 
 -商家於後台產出退貨便代碼時，系統會自動扣在 CYBER 幣明細上。  
 -如果超過 14 天 沒有使用退貨便代碼的話，系統會自動返還點數。  
-[![超取退貨便-C2B-操作說明-03](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-03.png)](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-03.png)
-[![超取退貨便-C2B-操作說明-04](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-04.png)](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-04.png)  
+![超取退貨便-C2B-操作說明-03](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-03.png)
+![超取退貨便-C2B-操作說明-04](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-04.png)  
 
 
 
 📍【消費者負擔】(建議商家在購物說明有關退貨的 policy 加入提醒)
 
 -消費者臨櫃遞交退貨包裹時，一併繳交運費給店員。  
-[![超取退貨便-C2B-操作說明-05](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-05.png)](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-05.png)
+![超取退貨便-C2B-操作說明-05](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-05.png)
 
 
 
@@ -85,15 +85,15 @@ id: "6178"
 新版訂單列表操作步驟  
 
 * 於訂單列表中，點擊指定訂單，點擊「更多操作」，選擇「超商退貨便代碼並將貨態改為退貨中」。  
-[![超取退貨便-C2B-操作說明-06](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明11.png)](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明11.png)
+![超取退貨便-C2B-操作說明-06](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明11.png)
 
 
 
 * 選擇是否將退貨便代碼寄送簡訊或 Email 給消費者，點擊「確認」。  
-[![超取退貨便-C2B-操作說明-06](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明12.png)](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明12.png)  
+![超取退貨便-C2B-操作說明-06](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明12.png)  
 
 * 可在訂單備註中查看退貨便代碼。  
-[![超取退貨便-C2B-操作說明-06](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明13.png)](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明13.png)  
+![超取退貨便-C2B-操作說明-06](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明13.png)  
 
 
 
@@ -105,24 +105,24 @@ id: "6178"
 
 Email
 
-[![超取退貨便-C2B-操作說明-06](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-06.png)](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-06.png)
+![超取退貨便-C2B-操作說明-06](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-06.png)
 
 簡訊
 
-[![超取退貨便-C2B-操作說明-07](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-07.png)](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-07.png)
+![超取退貨便-C2B-操作說明-07](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-07.png)
 
 
 
 
 4. 前台消費者訂單頁面畫面也會顯示退貨便代碼  
-[![超取退貨便-C2B-操作說明-08](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-08.png)](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-08.png)
+![超取退貨便-C2B-操作說明-08](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-08.png)
 
 
 
 
 5. 請消費者至 7-11 ibon 操作列印托運單。  
 (截至7-11資料畫面)  
-[![超取退貨便-C2B-操作說明-09](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-09.png)](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-09.png)
+![超取退貨便-C2B-操作說明-09](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-09.png)
 
 
 
@@ -130,7 +130,7 @@ Email
 6. 超商送貨到總倉，系統通知商家取退件   
 退貨便跟逾期未取是合併廠退  
 通知信 title: CYBERBIZ 7-11 超商退貨便到貨通知  
-[![超取退貨便-C2B-操作說明-10](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-10.png)](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-10.png)
+![超取退貨便-C2B-操作說明-10](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-10.png)
 
 
 

@@ -61,7 +61,7 @@ id: "718"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/GOOGLE購物廣告設定GMC02-1.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC02-1024x490.png)](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC02.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC02-1024x490.png)
 
 系統將於每天凌晨1：30更新動態饋給，商家也可依需求點選「手動更新目錄」。
 
@@ -83,14 +83,14 @@ id: "718"
 **後台路徑：「商品」→「所有商品」→「設定」→「Google產品類型」**
 
 1. 點選想要設定的商品，進入「設定」分頁。
-[![](https://www.cyberbiz.io/support/wp-content/uploads/GOOGLE購物廣告設定GMC22-1024x428.png)](https://www.cyberbiz.io/support/wp-content/uploads/GOOGLE購物廣告設定GMC22.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/GOOGLE購物廣告設定GMC22-1024x428.png)
 
 2. 點開 Google產品類別，選擇適用的產品類別。
-[![](https://www.cyberbiz.io/support/wp-content/uploads/GOOGLE購物廣告設定GMC23.png)](https://www.cyberbiz.io/support/wp-content/uploads/GOOGLE購物廣告設定GMC23.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/GOOGLE購物廣告設定GMC23.png)
 
 3. 更新完後，可下載 Google Merchant Center 「產品動態饋給連結」查看。
 * **後台路徑：「第三方整合」→「谷歌 Google 設定」→「Google Merchant Center」**
-[![](https://www.cyberbiz.io/support/wp-content/uploads/GOOGLE購物廣告設定GMC25-1024x686.png)](https://www.cyberbiz.io/support/wp-content/uploads/GOOGLE購物廣告設定GMC25.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/GOOGLE購物廣告設定GMC25-1024x686.png)
 
 * * *
 
@@ -98,13 +98,13 @@ id: "718"
 
 1. 進入 [Google Merchant Center](https://merchants.google.com/mc/overview?a=687050556)，點擊「立即開始」。
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC01-1024x490.png)](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC01.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC01-1024x490.png)
 
 2. 請依序設定以下資訊。
-[![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC05-1024x504.png)](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC05.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC05-1024x504.png)
 
 * 新增商家地址
-[![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC03-1024x504.png)](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC03.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC03-1024x504.png)
 
 * 確認貴商家的網路商店
 1. 輸入網路商店網址。
@@ -113,37 +113,37 @@ id: "718"
 4. 複製「系統為網路商店產生的HTML標記」。
 5. 至 CYBERBIZ 後台：**「網站外觀」→「套版主題管理」→ 選擇操作「CSS/HTML編輯器」→「theme.liquid」** 。
 6. 將HTML標記貼至</head>上方。
-[![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC06-1-1024x696.png)](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC06-1.png) [![](https://www.cyberbiz.io/support/wp-content/uploads/GOOGLE購物廣告設定GMC09-1-1024x508.png)](https://www.cyberbiz.io/support/wp-content/uploads/GOOGLE購物廣告設定GMC09-1.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC06-1-1024x696.png) ![](https://www.cyberbiz.io/support/wp-content/uploads/GOOGLE購物廣告設定GMC09-1-1024x508.png)
 
 * 新增詳細資料來說明產品運送方式
 1. 依步驟輸入商家配送資訊。
-[![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC07-1024x486.png)](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC07.png) [![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC08-1024x486.png)](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC08.png) [![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC09-1-1024x485.png)](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC09-1.png) [![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC10-1024x486.png)](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC10.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC07-1024x486.png) ![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC08-1024x486.png) ![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC09-1-1024x485.png) ![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC10-1024x486.png)
 
 * 新增退貨政策
 1. 依步驟輸入商家退貨政策。
-[![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC11-1024x504.png)](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC11.png) [![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC12-1024x504.png)](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC12.png) [![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC13-1024x504.png)](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC13.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC11-1024x504.png) ![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC12-1024x504.png) ![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC13-1024x504.png)
 
 * 新增產品
 1. 選取國家/地區。
 2. 至 CYBERBIZ 後台：**「第三方整合」→「谷歌 Google 設定」→「Google Merchant Center」** ，複製「產品動態饋給連結」。
 3. 回到 GMC 後台，選擇「透過檔案新增產品」。
 4. 將「產品動態饋給連結」貼至「請輸入檔案連結」。
-[![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC14-1024x504.png)](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC14.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC14-1024x504.png)
 
 👇 請複製以下連結
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC16-1024x490.png)](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC16.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC16-1024x490.png)
 
 👇 貼至「請輸入檔案連結」欄位
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC15-1024x504.png)](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC15.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC15-1024x504.png)
 
 * 若您有多國功能，則 Product Feed 的商品 Link 會帶有 /zh-TW
 * 若要手動更新商品目錄，請點擊「更新目錄」按鈕。
 * 一個小時僅能更新一次，重整畫面後可於按鈕上看到剩餘多久時間可更新目錄。
 3. 待資料上傳後，可於產品頁查看完成畫面。
 * 上傳所需時間依產品數量而有所不同，請稍待片刻。
-[![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC17-1024x486.png)](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC17.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC17-1024x486.png)
 
 ### 哪些商品不會上傳至 Google 商品資料（Product Feed）
 
@@ -165,17 +165,17 @@ id: "718"
 ## Google Merchant Center 串接 Google Ads 帳戶
 
 1. 點選**「設定」→「應用和服務」** 。
-[![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC18-1024x486.png)](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC18.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC18-1024x486.png)
 
 2. 於「Google 服務」，點擊「新增服務」。
-[![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC19-1024x486.png)](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC19.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC19-1024x486.png)
 
 3. 選擇「Google Ads」。
-[![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC20-1024x486.png)](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC20.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC20-1024x486.png)
 
 4. 選擇要關聯的 Google Ads 帳戶。
-[![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC21-1024x486.png)](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC21.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC21-1024x486.png)
 
 5. 確認串接資訊正確後，點選「關聯」。
-[![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC22-1024x486.png)](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC22.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/串接GMC22-1024x486.png)
 

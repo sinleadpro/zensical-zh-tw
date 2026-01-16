@@ -9,7 +9,7 @@ id: "31866"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **功能說明：**  
 
@@ -37,24 +37,24 @@ id: "31866"
 
 
 1. 於 POS前台 左側選單點擊「電⼦票券」  
-[![pos前台畫面](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券01.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券01.png)
+![pos前台畫面](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券01.png)
 
 
 
 2. 可於票券訂單 「進階搜尋」搜尋票券，搜尋後點選「核銷票券」，進行核銷動作。  
-[![pos電子票券](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券02.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券02.png)
+![pos電子票券](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券02.png)
 
 
 
 3. 使⽤掃碼槍掃描QR code 或是 ⼿動key⼊，按下 確認送出。  
 
-[![核銷電子票券](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券03.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券03.png)
+![核銷電子票券](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券03.png)
 
 
 
 4. 確認核銷數量並按確認即可進行核銷。  
 
-[![核銷電子票券2](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券04.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券04.png)
+![核銷電子票券2](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券04.png)
 
 
 
@@ -71,11 +71,11 @@ id: "31866"
 
 票券訂單
 
-[![票券訂單畫面](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券05.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券05.png)
+![票券訂單畫面](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券05.png)
 
 核銷紀錄
 
-[![核銷紀錄畫面](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券06.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券06.png)
+![核銷紀錄畫面](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券06.png)
 
 
 
@@ -85,11 +85,11 @@ id: "31866"
 
 已核銷
 
-[![已核銷](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券07.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券07.png)
+![已核銷](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券07.png)
 
 未核銷
 
-[![未核銷](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券08.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券08.png)
+![未核銷](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券08.png)
 
 
 

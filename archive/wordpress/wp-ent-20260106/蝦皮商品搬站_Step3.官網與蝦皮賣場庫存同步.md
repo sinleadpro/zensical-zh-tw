@@ -8,7 +8,7 @@ id: "51142"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **看了此文件，您可以：**  
 
 * **了解蝦皮與官網商品的庫存同步原理，** 掌握同步條件與觸發時機。
@@ -60,7 +60,7 @@ id: "51142"
 
 * 您可於商品列表頁查看「關聯平台」欄位，若該商品已建立關聯，蝦皮圖示將會亮起。
 * 後台路徑 : 「商品」→「所有商品」
-[![商品關聯畫面示意](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-蝦皮商品關聯開啟01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-蝦皮商品關聯開啟01.png)
+![商品關聯畫面示意](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-蝦皮商品關聯開啟01.png)
 
 * * *
 
@@ -79,10 +79,10 @@ id: "51142"
 3. 點擊「建立關聯」，將官網商品關聯至蝦皮商品。  
 
 * 若官網商品與蝦皮商品的 SKU 碼不同，會導致該商品關聯建立失敗，請檢查後重新建立關聯。  
-[![商品關聯畫面示意](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-建立商品關聯01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-建立商品關聯01.png)
+![商品關聯畫面示意](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-建立商品關聯01.png)
 
 * 您亦可選擇依款式開啟關聯，當官網商品 SKU 碼無對應蝦皮商品，可於彈窗手動關聯蝦皮商品。  
-[![商品關聯畫面示意](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-手動綁定蝦皮商品關聯01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-手動綁定蝦皮商品關聯01.png)
+![商品關聯畫面示意](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-手動綁定蝦皮商品關聯01.png)
 
 4. 關聯完成時，「關聯平台」一欄蝦皮圖示即會亮起。
 
@@ -95,7 +95,7 @@ id: "51142"
 
 * 您若想關閉全站庫存同步，無須修改官網商品的關聯狀態，僅關閉「商品庫存」開關，官網即會停止庫存同步。
 * 你可依需求重新開啟開關，恢復同步。
-[![商品關聯畫面示意](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-開啟庫存同步01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-開啟庫存同步01.png)
+![商品關聯畫面示意](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-開啟庫存同步01.png)
 
 * * *
 
@@ -127,7 +127,7 @@ id: "51142"
 
 * **批次關閉/開啟關聯狀態**  
 您可選取多個商品，點擊「解除關聯」/「建立關聯」，即可批次關閉/開啟該商品的庫存同步功能。  
-[![商品關聯畫面示意](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-批次建立商品關聯01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-批次建立商品關聯01.png)  
+![商品關聯畫面示意](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-批次建立商品關聯01.png)  
 若選取的商品包含以下商品，則「解除關聯」/「建立關聯」按鈕不會出現。**請確認僅勾選官網商品，避免無法操作** 。
 
 * POS商品
@@ -138,9 +138,9 @@ id: "51142"
 
 * **依款式關閉/開啟關聯狀態**  
 您可於商品列表頁和商品明細頁，點擊商品款式對應的蝦皮圖示，選擇該款式是否開啟關聯。  
-[![商品關聯畫面示意](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-依款式建立商品關聯01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-依款式建立商品關聯01.png)  
+![商品關聯畫面示意](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-依款式建立商品關聯01.png)  
 開啟關聯時，您可於彈窗中檢視該款式預設關聯的蝦皮商品，並可依需求更換關聯。  
-[![商品關聯畫面示意](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-依款式建立商品關聯02.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-依款式建立商品關聯02.png)
+![商品關聯畫面示意](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-依款式建立商品關聯02.png)
 
 * * *
 
@@ -148,7 +148,7 @@ id: "51142"
 後台路徑 : 「商品」→「所有商品」  
 
 當您需要快速找到特定來源或關聯狀態的商品時，可使用商品篩選器。  
-[![商品關聯畫面示意](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-商品篩選器篩選庫存同步商品01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-商品篩選器篩選庫存同步商品01.png)  
+![商品關聯畫面示意](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-商品篩選器篩選庫存同步商品01.png)  
 下表列出篩選器欄位與對應篩選能力：  欄位 | 選項 | 篩選結果  
 ---|---|---  
 建立來源 | EC 官網 | 於官網後台手動建立的商品  
@@ -174,7 +174,7 @@ id: "51142"
 * 與之關聯的官網蝦皮匯入商品也會同步刪除。 
 * 後台路徑 : 「APP MARKET」→「我的擴充服務」→「CYBERBIZ CHANNEL BRIDGE」→「蝦皮商品」→「前往設定」→「商品管理」
 * 若需重新匯入，可點擊「同步蝦皮商品」。
-[![商品關聯畫面示意](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-同步蝦皮商品01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-同步蝦皮商品01.png)
+![商品關聯畫面示意](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-同步蝦皮商品01.png)
 
 * 蝦皮後台的商品則不受影響。
 您也可於蝦皮後台刪除商品：

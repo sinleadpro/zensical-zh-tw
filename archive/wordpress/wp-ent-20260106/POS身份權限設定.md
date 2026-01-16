@@ -8,7 +8,7 @@ id: "3168"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **功能說明：**  
 
 * 定義所有操作者的權限範圍。
@@ -31,7 +31,7 @@ id: "3168"
 3. 選擇欲調整權限身份
 4. 勾選欲開放權限
 5. 設定員工權限可進行更新、取消編輯及刪除
-[![POS身份權限設定](https://www.cyberbiz.io/support/wp-content/uploads/POS身份權限設定1.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS身份權限設定1.png)
+![POS身份權限設定](https://www.cyberbiz.io/support/wp-content/uploads/POS身份權限設定1.png)
 
 
 
@@ -78,7 +78,7 @@ POS後台
 1. 選擇身份
 2. 勾選欲加入身份員工
 3. 將員工加入身份
-[![POS身份權限設定](https://www.cyberbiz.io/support/wp-content/uploads/POS身份權限設定2.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS身份權限設定2.png)
+![POS身份權限設定](https://www.cyberbiz.io/support/wp-content/uploads/POS身份權限設定2.png)
 
 
 功能說明&規則  

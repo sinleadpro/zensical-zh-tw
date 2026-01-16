@@ -9,7 +9,7 @@ id: "35268"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **簡易說明：**  
 
@@ -37,7 +37,7 @@ id: "35268"
 
 
 1. 結帳人員，進行結帳時可點選商品「店長改價」功能。  
-[![結帳頁-店長改價](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價01.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價01.png)
+![結帳頁-店長改價](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價01.png)
 
 
 
@@ -47,11 +47,11 @@ id: "35268"
 
 金額
 
-[![店長改價-金額/](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價02.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價02.png)
+![店長改價-金額/](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價02.png)
 
 百分比
 
-[![店長改價-百分比](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價03.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價03.png)
+![店長改價-百分比](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價03.png)
 
 
 
@@ -59,13 +59,13 @@ id: "35268"
 3. 設定「改價備註」，並按下「確認」。   
 *此備註可於後台「訂單」→「訂單報表匯出」→「店長改價備註」查看。   
 *系統會自動記錄最新五筆的改價備註，供店員快速選取。  
-[![改價備註](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價04.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價04.png)
+![改價備註](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價04.png)
 
 
 
 
 4. 設定改價完即可進行後續操作。  
-[![完成畫面](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價05.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價05.png)
+![完成畫面](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價05.png)
 
 
 
@@ -80,12 +80,12 @@ id: "35268"
 
 1. 權限管理  
 點選「設定身分權限」，選擇要開啟功能的員工。  
-[![新增權限](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價06.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價06.png)
+![新增權限](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價06.png)
 
 
 
 2. 開啟「店長改價」功能。  
-[![新增權限](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價07.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價07.png)
+![新增權限](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價07.png)
 
 
 

@@ -39,7 +39,7 @@ id: "5861"
 如 : https://_www.rayray123.com_ /customer/auth/line?line_action=line_login)  
 *底線位置請更改為您的網址。  
 *若您的網址有 zh-TW 不需要填寫上去。  
-[![方法A](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-官方帳號-綁定-官網會員01.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-官方帳號-綁定-官網會員01.png)
+![方法A](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-官方帳號-綁定-官網會員01.png)
 
 
 
@@ -48,7 +48,7 @@ id: "5861"
 如 : https://_www.rayray123.com_ /customer/auth/line?line_action=line_login)  
 *底線位置請更改為您的網址。  
 *若您的網址有 zh-TW 不需要填寫上去。  
-[![方法B](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-官方帳號-綁定-官網會員02.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-官方帳號-綁定-官網會員02.png)
+![方法B](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-官方帳號-綁定-官網會員02.png)
 
 
 

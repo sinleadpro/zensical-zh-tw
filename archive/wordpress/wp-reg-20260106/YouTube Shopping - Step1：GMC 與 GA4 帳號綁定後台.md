@@ -23,7 +23,7 @@ id: "10552"
 ## 📌 YouTube Shopping 完整設定步驟
 
 
-[![同步商品影片至Meta](https://www.cyberbiz.io/support/wp-content/uploads/YouTube-Shopping設定說明02.png)](https://www.cyberbiz.io/support/wp-content/uploads/YouTube-Shopping設定說明02.png)
+![同步商品影片至Meta](https://www.cyberbiz.io/support/wp-content/uploads/YouTube-Shopping設定說明02.png)
 
 1. 建立 GMC 帳號並綁定 CYBERBIZ 後台，可參考 [ Google購物廣告設定(GMC)](https://www.cyberbiz.io/helpcenter/?p=718)。  
 建立 GA4 帳號並綁定 CYBERBIZ 後台，可參考 [Google Analytics

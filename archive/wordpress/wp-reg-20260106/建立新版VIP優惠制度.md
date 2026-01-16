@@ -79,7 +79,7 @@ VIP優惠與指定行銷活動一齊使用。
 * 任選折扣
 * 商品多層級分類折扣(商品進階分類折扣)
 * 全館折扣
-[![VIP優惠設定](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠01.png)](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠01.png)
+![VIP優惠設定](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠01.png)
 
 * * *
 
@@ -98,7 +98,7 @@ VIP優惠與指定行銷活動一齊使用。
 * 任選折扣
 * 商品多層級分類折扣(商品進階分類折扣)
 * 全館折扣
-[![VIP優惠設定](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠02.png)](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠02.png)
+![VIP優惠設定](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠02.png)
 
 * * *
 
@@ -106,7 +106,7 @@ VIP優惠與指定行銷活動一齊使用。
 
 1. 開啟後，依需求輸入消費門檻、贈送紅利數量、有效期限。該 VIP 層級會員下單後，可得額外紅利點數。 
 * 您若於 「行銷活動」→「全館折扣-紅利&優惠券」 設定紅利點數贈送規則，消費者下單後，將同時獲得**全館紅利點數** 與 **VIP 紅利點數** ，請謹慎規劃紅利倍數發放政策。
-[![VIP優惠設定](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠03.png)](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠03.png)
+![VIP優惠設定](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠03.png)
 
 * * *
 
@@ -146,7 +146,7 @@ VIP優惠與指定行銷活動一齊使用。
 * 系統設定每月提前 5 天發送該月生日禮，則 VIP1 5 月生日禮的發送時間點為 4/26。
 * 系統已於 4/26 發送當月生日禮，當時顧客 A 尚未升等，因此無法收到 VIP1 對應的生日禮。
 
-[![VIP優惠設定](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠04.png)](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠04.png)
+![VIP優惠設定](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠04.png)
 
 * * *
 
@@ -191,7 +191,7 @@ VIP優惠與指定行銷活動一齊使用。
 * 若開啟會員日「訂單免運費」，則會員日當天優惠設定「訂單免運費」不會生效。
 * 若開啟會員日「紅利」，則會員日當天優惠設定「紅利倍數設定」不會生效。
 
-[![VIP優惠設定](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠05.png)](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠05.png)
+![VIP優惠設定](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠05.png)
 
 * * *
 
@@ -211,7 +211,7 @@ VIP優惠與指定行銷活動一齊使用。
 
 在會員效期內各層級的升等禮只能被送一次。  
 從舊版 VIP 套用到新版 VIP 版本，不會觸發送出升等禮。  
-[![VIP優惠設定](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠06.png)](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠06.png)
+![VIP優惠設定](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠06.png)
 
 * * *
 

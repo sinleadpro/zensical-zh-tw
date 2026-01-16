@@ -26,7 +26,7 @@ id: "18247"
 
 1. 製作 [Google 表單](https://www.google.com.tw/intl/zh-TW/forms/about/)、傳送並複製崁入 Html  
 
-[![頁面崁入-google-表單01.png](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/頁面崁入-google-表單01.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/頁面崁入-google-表單01.png)
+![頁面崁入-google-表單01.png](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/頁面崁入-google-表單01.png)
 
 2. 進入後台  
 後台路徑(新版) :  
@@ -34,14 +34,14 @@ id: "18247"
 後台路徑(舊版) :  
 「部落格&首頁」→「其他頁面管理(文章/分類)」→選擇您要加入 google 表單的頁面並點選綠色編輯按鈕  
 
-[![頁面崁入-google-表單02.png](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/頁面崁入-google-表單02.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/頁面崁入-google-表單02.png)  
+![頁面崁入-google-表單02.png](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/頁面崁入-google-表單02.png)  
 
 3. 點選「原始碼」將剛剛複製的程式碼貼上空白處，並儲存設定  
 ***更改width為 100%，可以讓手機版及電腦版同時完整顯示**  
 
-[![頁面崁入-google-表單03](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/頁面崁入-google-表單03.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/頁面崁入-google-表單03.png)  
+![頁面崁入-google-表單03](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/頁面崁入-google-表單03.png)  
 
 4. 設定完成，可以在頁面上直接填寫 google 表單   
 
-[![頁面崁入-google-表單04](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/頁面崁入-google-表單04.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/頁面崁入-google-表單04.png)  
+![頁面崁入-google-表單04](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/頁面崁入-google-表單04.png)  
 

@@ -9,7 +9,7 @@ id: "44556"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **功能說明：**  
 
@@ -30,7 +30,7 @@ id: "44556"
 
 **請注意！** 請針對您於後台「新版商業擴充套件」所設定的資產進行分享。  
 後台路徑 :  「第三方整合」→「臉書 Facebook 設定（廣告/註冊登入）」  
-[![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ01.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ01.png)  
+![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ01.png)  
 
 * 分享粉絲專頁權限
 * 分享像素權限
@@ -38,32 +38,32 @@ id: "44556"
 **【分享粉絲專頁權限】**  
 
 1. 進入 [企業管理平台設定](https://business.facebook.com/business/loginpage/?next=https%3A%2F%2Fbusiness.facebook.com%2Fsettings) 後，在左側的「帳號」中選擇「粉絲專頁」，然後點擊「指派合作夥伴」。  
-[![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ02.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ02.png)
+![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ02.png)
 
 
 
 2. 輸入 **CYBERBIZ 企業管理平台編號 481801283092517** ，並勾選部分管理權限中的「廣告」、「洞察報告」，點擊「繼續」。  
-[![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ03.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ03.png)
+![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ03.png)
 
 
 **【分享像素權限】**  
 
 1. 至左側的「資料來源」中，在「像素」或「資料集」找到欲分享的像素，點擊「指派合作夥伴」。  
-[![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ04.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ04.png)
+![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ04.png)
 
 
 
 2. 輸入 **CYBERBIZ 企業管理平台編號 481801283092517** ，並勾選部分管理權限中的「查看像素」，點擊「繼續」。  
-[![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ05.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ05.png)
+![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ05.png)
 
 
 
 3. 勾選 「as an agency for my business」。  
-[![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ06.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ06.png)
+![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ06.png)
 
 
 如果在分享的過程中，出現這樣的錯誤內容：**「已建立合作夥伴企業管理平台關係」**  
-[![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ11.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ11.png)  
+![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ11.png)  
 則分享步驟會改為：
 
 1. 前往 [企業管理平台設定](https://business.facebook.com/business/loginpage/?next=https%3A%2F%2Fbusiness.facebook.com%2Fsettings) 。
@@ -73,23 +73,23 @@ id: "44556"
 
 
 3. 找到 Cyberbiz1 這個 BM （如下圖）。  
-[![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ12.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ12.png)
+![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ12.png)
 
 4. 點擊「分享資產」。  
-[![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ13.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ13.png)
+![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ13.png)
 
 5. 在「資料集」或是「像素」中找到於「新版商業擴充套件」所設定的像素 ，並選擇分享「使用事件資料集」權限，最後點擊「指派資產」完成動作。  
-[![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ14.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ14.png)
+![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ14.png)
 
 **【分享目錄權限】**  
 
 1. 在左側的「資料來源」中選擇「目錄」，然後點擊「指派合作夥伴」。  
-[![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ07.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ07.png)
+![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ07.png)
 
 
 
 2. 輸入 **CYBERBIZ 企業管理平台編號 481801283092517** ，並勾選開放部分管理權限中的「建立廣告」，點擊「繼續」。  
-[![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ08.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ08.png)
+![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ08.png)
 
 
 

@@ -8,7 +8,7 @@ id: "24278"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **功能說明：**
 
 * 設定快速到貨頁面的導覽列顏色，能夠讓消費者清楚區分他在選購的是「快速到貨商品」或「一般商品」，減少消費者的混淆。
@@ -22,20 +22,20 @@ id: "24278"
 
 1. **後台路徑 :** 「網站外觀」→「套版主題管理」→「網站設定」  
 
-[![CYBERBIZ-NOW設定首頁入口專區顏色01](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/CYBERBIZ-NOW設定首頁入口專區顏色01-1.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/CYBERBIZ-NOW設定首頁入口專區顏色01-1.png)  
+![CYBERBIZ-NOW設定首頁入口專區顏色01](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/CYBERBIZ-NOW設定首頁入口專區顏色01-1.png)  
 
 
 2. 點選上面頁面選單選擇「快速到貨」→「快速到貨設定」  
 
-[![CYBERBIZ-NOW設定首頁入口專區顏色02](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/CYBERBIZ-NOW設定首頁入口專區顏色02.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/CYBERBIZ-NOW設定首頁入口專區顏色02.png)
+![CYBERBIZ-NOW設定首頁入口專區顏色02](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/CYBERBIZ-NOW設定首頁入口專區顏色02.png)
 
 3. 可設定導覽列顏色(Logo 背景)、右上Icon的線條顏色(圖示)  
 
-[![CYBERBIZ-NOW設定首頁入口專區顏色03](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/CYBERBIZ-NOW設定首頁入口專區顏色03.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/CYBERBIZ-NOW設定首頁入口專區顏色03.png)
+![CYBERBIZ-NOW設定首頁入口專區顏色03](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/CYBERBIZ-NOW設定首頁入口專區顏色03.png)
 
 4. 此外，當你專區都建置好，即可打勾「顯示快速到貨按鈕」，就會在全站的導覽列由上顯示明顯入口按鈕。  
 
-[![CYBERBIZ-NOW設定首頁入口專區顏色04](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/CYBERBIZ-NOW設定首頁入口專區顏色04.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/CYBERBIZ-NOW設定首頁入口專區顏色04.png)
+![CYBERBIZ-NOW設定首頁入口專區顏色04](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/CYBERBIZ-NOW設定首頁入口專區顏色04.png)
 
 * * *
 

@@ -9,7 +9,7 @@ id: "33323"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/北美站.png)](https://www.cyberbiz.io/support/?page_id=32080)
+![](https://www.cyberbiz.io/support/wp-content/uploads/北美站.png)
 
 **功能說明：**  
 
@@ -41,39 +41,39 @@ id: "33323"
 
 * 新增商品可透過**下載Excel範例** or **商品列表匯出既有商品** 的方式新增
 
-[![大量匯入商品SKU](https://www.cyberbiz.io/support/wp-content/uploads/下載EXCEL.jpg)](https://www.cyberbiz.io/support/wp-content/uploads/下載EXCEL.jpg)  
+![大量匯入商品SKU](https://www.cyberbiz.io/support/wp-content/uploads/下載EXCEL.jpg)  
 
-[![大量匯入商品SKU](https://www.cyberbiz.io/support/wp-content/uploads/匯出商品-1.jpg)](https://www.cyberbiz.io/support/wp-content/uploads/匯出商品-1.jpg)  
+![大量匯入商品SKU](https://www.cyberbiz.io/support/wp-content/uploads/匯出商品-1.jpg)  
 
 ## 「更新商品」
 
 * 更新商品僅可透過在**商品列表匯出既有商品** 的方式更新
-[![大量匯入商品SKU](https://www.cyberbiz.io/support/wp-content/uploads/-1-e1663309079169.jpg)](https://www.cyberbiz.io/support/wp-content/uploads/-1-e1663309079169.jpg)  
+![大量匯入商品SKU](https://www.cyberbiz.io/support/wp-content/uploads/-1-e1663309079169.jpg)  
 
 ## 「新增商品」與「更新既有商品」操作差異
 
 1. 「新增商品」：下載Excel範例，解開隱藏的A、B欄位後為空值，將編輯後的Excel上傳後，為新增商品的動作。
 2. 「更新既有商品」：匯出商品的Excel表格，隱藏的A、B欄位將帶有系統數值，再將更新後的Excel上傳將會取代原有的商品內容。
-[![操作差異](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品02.png)](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品02.png)  
+![操作差異](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品02.png)  
 
 ##  「Excel範例欄位」細項說明
 
 * Excel檔案內欄位皆由[數字]+功能組成，以利於對照網站後台設定
 * 以下圖表皆由[數字]代表欄位功能，說明需填寫的細項
-[![大量匯入商品]( https://www.cyberbiz.io/support/wp-content/uploads/EXCEL大量匯入商品多筆新增、更新商品04.png)](https://www.cyberbiz.io/support/wp-content/uploads/EXCEL大量匯入商品多筆新增、更新商品04.png)  
+![大量匯入商品]( https://www.cyberbiz.io/support/wp-content/uploads/EXCEL大量匯入商品多筆新增、更新商品04.png)  
 
 * [11]商品類型，填寫此欄位可以在設定Google Merchant Center後，增加透過Google購物SEO而被搜尋到的機會
-[![大量匯入商品](https://www.cyberbiz.io/support/wp-content/uploads/EXCEL大量匯入商品多筆新增、更新商品05.png)](https://www.cyberbiz.io/support/wp-content/uploads/EXCEL大量匯入商品多筆新增、更新商品05.png)  
+![大量匯入商品](https://www.cyberbiz.io/support/wp-content/uploads/EXCEL大量匯入商品多筆新增、更新商品05.png)  
 
 * [17]商品運送名稱，物流名稱相關細節，請參考[【北美站物流設定】](https://www.cyberbiz.io/support/?p=31066#a)
 [
-](https://www.cyberbiz.io/support/?p=31066#a)[![](https://www.cyberbiz.io/support/wp-content/uploads/EXCEL大量匯入商品多筆新增、更新商品06.png)](https://www.cyberbiz.io/support/wp-content/uploads/EXCEL大量匯入商品多筆新增、更新商品06.png)  
-[![大量匯入商品](https://www.cyberbiz.io/support/wp-content/uploads/EXCEL大量匯入商品多筆新增、更新商品07.png)](https://www.cyberbiz.io/support/wp-content/uploads/EXCEL大量匯入商品多筆新增、更新商品07.png)  
-[![大量匯入商品](https://www.cyberbiz.io/support/wp-content/uploads/EXCEL大量匯入商品多筆新增、更新商品08.png)](https://www.cyberbiz.io/support/wp-content/uploads/EXCEL大量匯入商品多筆新增、更新商品08.png)  
-[![大量匯入商品](https://www.cyberbiz.io/support/wp-content/uploads/EXCEL大量匯入商品多筆新增、更新商品09-1.png)](https://www.cyberbiz.io/support/wp-content/uploads/EXCEL大量匯入商品多筆新增、更新商品09-1.png)  
+](https://www.cyberbiz.io/support/?p=31066#a)![](https://www.cyberbiz.io/support/wp-content/uploads/EXCEL大量匯入商品多筆新增、更新商品06.png)  
+![大量匯入商品](https://www.cyberbiz.io/support/wp-content/uploads/EXCEL大量匯入商品多筆新增、更新商品07.png)  
+![大量匯入商品](https://www.cyberbiz.io/support/wp-content/uploads/EXCEL大量匯入商品多筆新增、更新商品08.png)  
+![大量匯入商品](https://www.cyberbiz.io/support/wp-content/uploads/EXCEL大量匯入商品多筆新增、更新商品09-1.png)  
 
 * 更新完所有項目後，選擇及上傳檔案位置
-[![大量匯入商品](https://www.cyberbiz.io/support/wp-content/uploads/EXCEL大量匯入商品-選擇語系.png)](https://www.cyberbiz.io/support/wp-content/uploads/EXCEL大量匯入商品-選擇語系.png)  
+![大量匯入商品](https://www.cyberbiz.io/support/wp-content/uploads/EXCEL大量匯入商品-選擇語系.png)  
 
 ## 「匯入excel」相關提醒
 
@@ -81,5 +81,5 @@ id: "33323"
 1. 失敗：系統將提示失敗原因，請更正後重新上傳。
 2. 成功：請稍待完成信件，未完成重複上傳將導致資訊混亂，請務必耐心等候。
 3. 完成：匯入已確認完成，可查看更新成果或再次更新其他內容。
-[![商品大量補填SKU](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學6.png)](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學6.png)  
+![商品大量補填SKU](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學6.png)  
 

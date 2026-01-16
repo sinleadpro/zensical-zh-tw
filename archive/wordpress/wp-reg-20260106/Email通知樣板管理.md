@@ -46,7 +46,7 @@ id: "2061"
 * **短網址功能 :** 自動將 Email 中的連結更改為短網址，避免字數太多。  
 未啟用短網址功能 / 已啟用短網址功能
 
-[![email頁面介紹](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EMAIL-通知樣板管理01-plus.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EMAIL-通知樣板管理01-plus.png)
+![email頁面介紹](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EMAIL-通知樣板管理01-plus.png)
 
 
 
@@ -56,10 +56,10 @@ id: "2061"
 *參數部分會帶資料，盡量不要更動，如果改壞樣板，可能會造成信件無法發送。( 如 : {{shop_name}} )  
 *請勿使用emoji或是其他特殊符號  
 *若有使用多國語系，商家須自行決定各語言版型是否要開關。(各語系需個別設定)  
-[![信件內容介紹](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EMAIL-通知樣板管理02.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EMAIL-通知樣板管理02.png)
+![信件內容介紹](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EMAIL-通知樣板管理02.png)
 
 * 可使用預覽按鈕，預覽所做的更動，若出現錯誤訊息，可依照錯誤訊息進行更動。  
-[![預覽畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EMAIL-通知樣板管理03.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EMAIL-通知樣板管理03.png)
+![預覽畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/EMAIL-通知樣板管理03.png)
 
 * * *
 

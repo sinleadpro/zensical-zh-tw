@@ -37,11 +37,11 @@ id: "6738"
 1. 上傳網站 Logo 與填寫網站名  
 上傳網站Logo後台路徑 :  
 「網站外觀」→「套版主題管理」→「網站設定」→「導覽列」→「網站 Logo」  
-[![LOGO上傳](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程02.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程02.png)  
+![LOGO上傳](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程02.png)  
 填寫網站名 後台路徑 :  
 「管理中心」→「一般設定」→「網站名」  
 網站名預設為您網址中的英文字串，請修改為您的品牌名稱或公司名稱，以供消費者辨識。  
-[![LOGO上傳](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程02-1.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程02-1.png)  
+![LOGO上傳](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程02-1.png)  
 
 
 
@@ -57,7 +57,7 @@ id: "6738"
 3. 設定聯絡資訊與關於我們  
 關於我們 後台路徑 : 「網站外觀」→「自訂頁面管理」  
 聯絡資訊 後台路徑 : 「網站外觀」→「套版主題管理」→「網站設定」→「頁腳」  
-[![關於我們/聯絡資訊](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程03.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程03.png)
+![關於我們/聯絡資訊](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程03.png)
 
 
 
@@ -90,7 +90,7 @@ id: "6738"
 ## 📌 審核流程
 
 
-[![審核流程](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程01-1.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程01-1.png)
+![審核流程](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程01-1.png)
 
 * 【審核中】：風控單位將會針對您的網站建置與公司資料進行審核，需約 5~15 天工作天後會回覆您申請結果
 * 【未通過】：若審核未通過，您會收到後台彈窗公告與 email 通知。請您依照指示修正，修正後重新送出。   

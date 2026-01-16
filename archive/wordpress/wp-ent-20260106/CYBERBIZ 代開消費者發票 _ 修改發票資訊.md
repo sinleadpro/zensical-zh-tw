@@ -8,7 +8,7 @@ id: "5769"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **看了此文件，您可以：**  
 
 * **了解 CYBERBIZ 代開發票服務的適用對象與運作方式，** 協助您理解此服務內容。

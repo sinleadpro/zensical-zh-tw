@@ -26,5 +26,5 @@ id: "28727"
 2. 在CNAME點擊編輯
 3. 將Proxy關閉
 4. 點擊儲存
-[![CloudFlare注意事項](https://www.cyberbiz.io/support/wp-content/uploads/CloudFlare注意事項1.png)](https://www.cyberbiz.io/support/wp-content/uploads/CloudFlare注意事項1.png)  
+![CloudFlare注意事項](https://www.cyberbiz.io/support/wp-content/uploads/CloudFlare注意事項1.png)  
 

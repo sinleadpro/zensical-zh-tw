@@ -9,7 +9,7 @@ id: "44199"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **功能說明：**  
 
@@ -37,9 +37,9 @@ id: "44199"
 
 
 2. 點選匯出商品。
-[![設定畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料1.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料1.png)  
+![設定畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料1.png)  
 如果要匯出所有商品，點開「已選取__個商品」欄位，選擇「選取所有商品」，右邊選單點擊「匯出所有商品」即可。  
-[![設定畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料2.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料2.png)  
+![設定畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料2.png)  
 
 
 3. 檔案將自動下載到電腦。
@@ -51,7 +51,7 @@ id: "44199"
 
 以下為後台商品描述的設定頁面，商家可至後台查看。  
 後台路徑 :「商品」→「所有商品」→ 點擊特定商品 → 點擊「商品描述」頁籤  
-[![設定畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料7.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料7.png)
+![設定畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料7.png)
 
 2. 商品通路：請輸入出貨的通路，若輸入商店原先沒有的通路則會視為**新增通路。**  
 **請注意！** 通路新增之後將**無法刪除** 。  
@@ -71,18 +71,18 @@ id: "44199"
 
 **請注意！商品 id、商品款式 id 欄位需帶有系統數值** ，上傳 excel 檔案後才會更新既有商品。  
 若商品 id、商品款式 id 欄位為空，上傳 excel 檔案後將會新增商品。
-[![設定畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料3.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料3.png)  
+![設定畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料3.png)  
 
 **📍 步驟三：【至「 Excel 大量匯入商品」頁面，上傳檔案匯入商品】**  
 後台路徑 :「商品」→「 Excel 大量匯入商品」  
 
-[![設定畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料4.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料4.png)  
+![設定畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料4.png)  
 
 **📍 步驟四：【匯入的檔案將進入排程】**  
 若輸入格式無誤，將會收到 「資料匯入處理中」EMAIL 通知。  
-[![設定畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料5.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料5.png)  
+![設定畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料5.png)  
 而當完成匯入作業後，會再收到「商品 資料匯入成功」EMAIL 通知，表示批次修改商品內容已完成。  
-[![設定畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料6.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料6.png)
+![設定畫面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料6.png)
 
 * * *
 

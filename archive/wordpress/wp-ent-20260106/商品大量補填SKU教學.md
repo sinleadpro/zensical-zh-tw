@@ -31,31 +31,31 @@ id: "3296"
 3. Select點擊展開
 4. 匯出商品
 5. 商品列表將發送至系統登入信箱
-[![商品大量補填SKU](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學1.png)](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學1.png)
+![商品大量補填SKU](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學1.png)
 
 * 至信箱下載附件
-[![商品大量補填SKU](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學2.png)](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學2.png)  
+![商品大量補填SKU](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學2.png)  
 
 * 認識「新增商品」與覆蓋「既有商品」差異
 1. 自Excel大量匯入下載空白表格，欄位A、B欄尚未有商品、款式ID，此時填寫商品資訊匯入，會「新增商品」。
 2. 自商品列表匯出「既有商品」，將有商品、款式ID，此時更改內容後匯入，不會新增，而是取代原商品資訊。
-[![商品大量補填SKU](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學3.png)](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學3.png)  
+![商品大量補填SKU](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學3.png)  
 
 * 至[29]商品款式SKU碼，更改Excel內容，可透過(空格)篩選，查看是否有遺漏未填。
-[![商品大量補填SKU](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學4.png)](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學4.png)  
+![商品大量補填SKU](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學4.png)  
 自EC後台匯出商品及填入SKU
 
 * 後台路徑 :「商品」→「Excel大量匯入商品」  
 
 
 * 匯入更新檔案並上傳。
-[![商品大量補填SKU](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學5.png)](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學5.png)  
+![商品大量補填SKU](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學5.png)  
 
 * 匯入後，將以信件通知更新狀態。
 1. 失敗：系統將提示失敗原因，請更正後重新上傳。
 2. 成功：請稍待完成信件，未完成重複上傳將導致資訊混亂，請務必耐心等候。
 3. 完成：匯入已確認完成，可查看更新成果或再次更新其他內容。
-[![商品大量補填SKU](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學6.png)](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學6.png)  
+![商品大量補填SKU](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學6.png)  
 
 * 更新完後，可通知客服申請POS開通。
 功能說明&規則  

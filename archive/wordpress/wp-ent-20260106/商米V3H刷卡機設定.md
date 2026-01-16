@@ -8,7 +8,7 @@ id: "51450"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **功能說明：**  
 
 * 以平板、商米刷卡發票機兩項無線設備，實現移動式POS店點
@@ -72,7 +72,7 @@ pdf檔 ☝️ **登入**
 
 1. 開啟MyPay APP
 2. 輸入商店資料登入
-[![商米P2-PRO刷卡機設定01](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/商米P2-PRO刷卡機設定01.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/商米P2-PRO刷卡機設定01.png) ☝️ **結帳**
+![商米P2-PRO刷卡機設定01](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/商米P2-PRO刷卡機設定01.png) ☝️ **結帳**
 
 1. 結帳時，選取MyPay支付方式
 2. 按下付款按鈕，系統會自動喚起MyPay刷卡機，可使用感應、刷條碼方式信用卡支付

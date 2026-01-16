@@ -8,7 +8,7 @@ id: "51378"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **功能說明：**  
 
 * 串接 iPASS MONEY 一卡通，消費者於結帳時可選用 iPASS MONEY 一卡通進行支付。
@@ -55,14 +55,14 @@ id: "51378"
 
 * 填入時請勿帶有空格，以免無法順利啟用。
 * 金流門檻設定恕不支援專業版、進階版。 
-[![審核申請](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-金物流-金流設定-啟用一卡通01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-金物流-金流設定-啟用一卡通01.png) [![審核申請2](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-金物流-金流設定-啟用一卡通02.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-金物流-金流設定-啟用一卡通02.png)
+![審核申請](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-金物流-金流設定-啟用一卡通01.png) ![審核申請2](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-金物流-金流設定-啟用一卡通02.png)
 
 
 
 3. 若您的站台有使用串接宅配貨到不付款物流/自訂物流，請將此付款方式，依需求綁定至指定物流。  
 後台路徑 : 「金物流」→「自訂物流」  
 
-[![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/綠界金流串接16.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/綠界金流串接16.png)
+![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/綠界金流串接16.png)
 
 
 

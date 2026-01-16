@@ -9,7 +9,7 @@ id: "39940"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **功能說明：**  
 
@@ -25,17 +25,17 @@ id: "39940"
 
 1. 公告分為三種類型，商家後台系統更新、倉庫作業和 BUG修復。  
 點擊公告標題可查看詳細內容。  
-[![公告列表](https://www.cyberbiz.io/support/wp-content/uploads/WMS-商家後台操作手冊-公告01.png)](https://www.cyberbiz.io/support/wp-content/uploads/WMS-商家後台操作手冊-公告01.png) [![公告列表2](https://www.cyberbiz.io/support/wp-content/uploads/WMS-商家後台操作手冊-公告02.png)](https://www.cyberbiz.io/support/wp-content/uploads/WMS-商家後台操作手冊-公告02.png)
+![公告列表](https://www.cyberbiz.io/support/wp-content/uploads/WMS-商家後台操作手冊-公告01.png) ![公告列表2](https://www.cyberbiz.io/support/wp-content/uploads/WMS-商家後台操作手冊-公告02.png)
 
 
 
 2. 也可自行選擇欲查看的公告類型。  
-[![搜尋公告類型](https://www.cyberbiz.io/support/wp-content/uploads/WMS-商家後台操作手冊-公告03.png)](https://www.cyberbiz.io/support/wp-content/uploads/WMS-商家後台操作手冊-公告03.png)
+![搜尋公告類型](https://www.cyberbiz.io/support/wp-content/uploads/WMS-商家後台操作手冊-公告03.png)
 
 
 
 3. 公告首次出現時將蓋板 5 秒。  
-[![公告樣式](https://www.cyberbiz.io/support/wp-content/uploads/WMS-商家後台操作手冊-公告04.png)](https://www.cyberbiz.io/support/wp-content/uploads/WMS-商家後台操作手冊-公告04.png)
+![公告樣式](https://www.cyberbiz.io/support/wp-content/uploads/WMS-商家後台操作手冊-公告04.png)
 
 
 

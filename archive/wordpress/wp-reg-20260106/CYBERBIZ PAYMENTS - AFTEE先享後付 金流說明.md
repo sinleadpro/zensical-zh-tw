@@ -31,33 +31,33 @@ id: "6847"
 1.至後台開啟 AFTEE  
 **後台路徑:** 「金流設定」→「CYBERBIZ PAYMENTS」→「AFTEE」  
 
-[![AFTEE1](https://www.cyberbiz.io/support/wp-content/uploads/AFTEE先享後付金流說明01.png)](https://www.cyberbiz.io/support/wp-content/uploads/AFTEE先享後付金流說明01.png) 2.填寫申請資料  
+![AFTEE1](https://www.cyberbiz.io/support/wp-content/uploads/AFTEE先享後付金流說明01.png) 2.填寫申請資料  
 點擊「申請開通」，並會跳出『AFTEE 啟用申請』彈窗，彈窗中的資料是為了讓 AFTEE 端進行審核，請確實填寫。  
-[![AFTEE](https://www.cyberbiz.io/support/wp-content/uploads/AFTEE先享後付金流說明02.png)](https://www.cyberbiz.io/support/wp-content/uploads/AFTEE先享後付金流說明02.png)  
+![AFTEE](https://www.cyberbiz.io/support/wp-content/uploads/AFTEE先享後付金流說明02.png)  
 AFTEE 那邊有成功接受到 API 送的申請資料後，即會馬上開通  
 通過審核之信件示意圖。  
-[![AFTEE](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明03.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明03.png) 3.啟用 後支付 (超商付款/ATM)。  
-[![AFTEE](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明04.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明04.png) 4.前台結帳頁示意圖。  
-[![AFTEE](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明05.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明05.png)
+![AFTEE](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明03.png) 3.啟用 後支付 (超商付款/ATM)。  
+![AFTEE](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明04.png) 4.前台結帳頁示意圖。  
+![AFTEE](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明05.png)
 
 * * *
 
 ## 付款步驟說明
 
 1.在結帳頁選擇後支付的付款方式，並前往結帳。  
-[![AFTEE](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明06.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明06.png) 2.點選“使用後支付付款”按鈕  
-[![AFTEE](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明06.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明06.png) 3.填寫有註冊 AFTEE先享後付
+![AFTEE](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明06.png) 2.點選“使用後支付付款”按鈕  
+![AFTEE](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明06.png) 3.填寫有註冊 AFTEE先享後付
 的手機號碼，並收取驗證碼，完成後支付付款流程。  
 [](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明07.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明07.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明07.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明07.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明08.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明08.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明09.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明09.png) 4.訂單完成付款：  
+![](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明08.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明09.png) 4.訂單完成付款：  
 顧客選擇Aftee 先享後付 支付審核通過的話，後台即會顯示“已收到款項”可進行後續出貨處理。  
 若顧客Aftee先享後付 支付審核未通過的話，可依指示重新操作，或是請顧客直接與 AFTEE先享後付
 聯繫，[詳情請洽AFTEE官方網站。](https://aftee.tw/)  
-[![AFTEE](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明10.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明10.png)
+![AFTEE](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/AFTEE先享後付金流說明10.png)
 
 ## 其他備註
 

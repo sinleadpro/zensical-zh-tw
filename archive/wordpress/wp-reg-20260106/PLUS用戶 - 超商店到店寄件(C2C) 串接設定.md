@@ -19,7 +19,7 @@ id: "5058"
 
 
 1. 超商設定，【7-11】、【全家】、【萊爾富】  
-[![超商店到店寄件C2C-設定01](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定01.png)](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定01.png)
+![超商店到店寄件C2C-設定01](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定01.png)
 
 
 
@@ -28,18 +28,18 @@ id: "5058"
 
 711
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定02.png)](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定02.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定02.png)
 
 全家
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定03.png)](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定03.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定03.png)
 
 萊爾富
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定04.png)](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定04.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定04.png)
 
 
 
 3. 前台範例(萊爾富為例子)  
-[![超商店到店寄件C2C-設定05](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定05.png)](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定05.png)
+![超商店到店寄件C2C-設定05](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定05.png)
 

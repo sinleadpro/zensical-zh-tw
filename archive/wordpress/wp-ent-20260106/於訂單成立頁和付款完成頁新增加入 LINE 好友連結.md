@@ -9,7 +9,7 @@ id: "30333"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **功能說明：**  
 
@@ -40,7 +40,7 @@ id: "30333"
 2. 開通完成後，可至 CSS/HTML 編輯器中搜尋**order_done_extra_content.liquid** 。  
 
 後台路徑 : 「網站外觀」→「套版主題管理」→「選擇操作」→「CSS/HTML編輯器」  
-[![推播設定](https://www.cyberbiz.io/support/wp-content/uploads/LINE加入好友推播-訂單成立付款完成頁05.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE加入好友推播-訂單成立付款完成頁05.png)
+![推播設定](https://www.cyberbiz.io/support/wp-content/uploads/LINE加入好友推播-訂單成立付款完成頁05.png)
 
 
 
@@ -58,10 +58,10 @@ id: "30333"
 
 
 
-[![程式碼](https://www.cyberbiz.io/support/wp-content/uploads/LINE加入好友推播-訂單成立付款完成頁02.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE加入好友推播-訂單成立付款完成頁02.png)  
+![程式碼](https://www.cyberbiz.io/support/wp-content/uploads/LINE加入好友推播-訂單成立付款完成頁02.png)  
 
 
 
 4. 此為 CYBERBIZ 提供的範例，並非完成步驟 3 即可變成此畫面，請商家依需求設計畫面，恕 CYBERBIZ 不提供 HTML/CSS 語法教學與代碼撰寫。  
-[![前台畫面](https://www.cyberbiz.io/support/wp-content/uploads/LINE加入好友推播-訂單成立付款完成頁03.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE加入好友推播-訂單成立付款完成頁03.png)  
+![前台畫面](https://www.cyberbiz.io/support/wp-content/uploads/LINE加入好友推播-訂單成立付款完成頁03.png)  
 

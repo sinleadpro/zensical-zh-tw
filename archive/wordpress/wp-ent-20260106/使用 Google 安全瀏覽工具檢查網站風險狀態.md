@@ -8,7 +8,7 @@ id: "24812"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **看了此文件，您可以：**  
 
 * 使用 Google 安全瀏覽工具查詢網站是否存在安全性風險。
@@ -28,27 +28,27 @@ id: "24812"
 
 
 1. 前往 [Google 檢查網站狀態工具](https://transparencyreport.google.com/safe-browsing/search?hl=zh-TW)，輸入欲查詢網站。  
-[![Google-檢查網站狀態](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/Google-檢查網站狀態1.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/Google-檢查網站狀態1.png)
+![Google-檢查網站狀態](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/Google-檢查網站狀態1.png)
 
 2. 查詢結果可能顯示以下情況： 
 * ✅ 「未找到任何不安全的內容」：代表 Google 尚未偵測到此網址有安全疑慮
 * ⚠️ 「這是不安全的網站」：會顯示簡短說明，可能為誘導性內容、散播惡意軟體、或其他違規情形。  
-[![Google-檢查網站狀態](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/Google-檢查網站狀態2.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/Google-檢查網站狀態2.png)  
+![Google-檢查網站狀態](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/Google-檢查網站狀態2.png)  
 不安全網站開啟後會顯示警示畫面，此範例網站被 Google判定「企圖誘騙訪客提供個人資訊或下載軟體」，可能遭人檢舉網站內容，經Google審核後將網站封鎖。  
-[![Google-檢查網站狀態](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/Google-檢查網站狀態3.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/Google-檢查網站狀態3.png)
+![Google-檢查網站狀態](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/Google-檢查網站狀態3.png)
 
 * * *
 
 📌 如何申請 Google 安全性審核並解除網站警示
 
 1. 若您的網站被判定為不安全，可先參閱 [申請審查](https://developers.google.com/web/fundamentals/security/hacked/request_review)，查看各安全問題的解決方案。  
-[![Google-檢查網站狀態](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/Google-檢查網站狀態4.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/Google-檢查網站狀態4.png)
+![Google-檢查網站狀態](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/Google-檢查網站狀態4.png)
 
 
 
 2. 多數解決方案會引導至 [Google Search Console](https://search.google.com/search-console)，請於側邊欄點選「安全性與人工判決處罰」→「安全性問題」。 
 * 若尚未將網站加入 Google Search Console，請先 [完成網站驗證](https://www.cyberbiz.io/support/?p=15362) 後才能操作後續動作。
-[![Google-檢查網站狀態](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/Google-檢查網站狀態6.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/Google-檢查網站狀態6.png)
+![Google-檢查網站狀態](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/Google-檢查網站狀態6.png)
 
 3. 檢視警示內容，並依照建議修正網站問題。
 

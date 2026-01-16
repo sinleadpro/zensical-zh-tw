@@ -9,7 +9,7 @@ id: "1960"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **功能說明：**  
 
@@ -48,7 +48,7 @@ id: "1960"
 
 
 * 兩種下載 Excel 檔案的方式，進行編輯。  
-[![下載檔案](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品01.png)](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品01.png)
+![下載檔案](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品01.png)
 
 
 
@@ -63,7 +63,7 @@ id: "1960"
 * 下載Excel範例，解開隱藏的A、B欄位將發現為空值，此時更新後的Excel上傳後，為「新增商品」。
 * 匯出商品的Excel表格，以新增商品隱藏的A、B欄位將帶有系統數值，更新後的Excel上傳後，為「更新既有商品」。
 * 若欲修改商品資訊，詳情請看 [批次修改商品描述/溫層/配送方式/通路](https://www.cyberbiz.io/support/?p=44199)。
-[![操作差異](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品02.png)](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品02.png)  
+![操作差異](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品02.png)  
 
 * * *
 
@@ -72,7 +72,7 @@ id: "1960"
 ## 📌 欄位說明
 
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品03.png)](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品03.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品03.png)
 
 * C【商品名稱】: 填寫商品名稱，請勿使用特殊符號，如: | 和 ” “等符號，會導致您商品無法儲存。(必填)
 * D【商品隸屬商店】: 官網名稱或POS商店名稱。 
@@ -91,7 +91,7 @@ id: "1960"
 * M【商品自訂群組】: 多個群組請用 ; 區隔。(選填)
 * N【商品任選折扣群組】: (選填)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品04.png)](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品04.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品04.png)
 
 * O【商品類型】: (選填)
 * P【商品廠商】: (選填)
@@ -106,7 +106,7 @@ id: "1960"
 2. 更新時 : 留空表示維持原配送方式。
 * W【商品款式選項/內容】: (選填)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品05.png)](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品05.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品05.png)
 
 * AC【商品款式售價】: 實際售價(必填)
 * AD【商品款式定價】: 建議售價(選填)
@@ -117,7 +117,7 @@ id: "1960"
 * AI【商品款式收貨地址是否需要填寫】: 是/否。(選填)
 * AJ【商品款式管理庫存】: 使用POS功能請填是。(選填)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品06.png)](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品06.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品06.png)
 
 * AK【商品款式庫存量】: 留空表示無限，使用POS功能、FBA庫存同步功能請忽略此欄位。(選填)
 * AL【商品款式安全庫存水位】: (選填)
@@ -129,7 +129,7 @@ id: "1960"
 * AR【SEO 設定網頁描述】請至 [SEO 優化教學](https://www.cyberbiz.io/support/?p=16944#product) 查看操作。
 * AS【SEO 網頁設定關鍵字】請至 [SEO 優化教學](https://www.cyberbiz.io/support/?p=16944#product) 查看操作。
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品07.png)](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品07.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品07.png)
 
 * AT【商品圖片】: 圖片尺寸需小於10MB，支援 jpg, jpeg, png, gif, webp。(選填)(商品主圖)
 * BC【規格說明】: (選填)
@@ -146,5 +146,5 @@ id: "1960"
 1. 【失敗】：系統將提示失敗原因，請更正後重新上傳。
 2. 【成功】：請稍待完成信件，未完成重複上傳將導致資訊混亂，請務必耐心等候。
 3. 【完成】：匯入已確認完成，可查看更新成果或再次更新其他內容。
-[![](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品08.png)](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品08.png)  
+![](https://www.cyberbiz.io/support/wp-content/uploads/大量匯入商品08.png)  
 

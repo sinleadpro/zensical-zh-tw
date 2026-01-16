@@ -9,7 +9,7 @@ id: "165"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **功能說明：**  
 
@@ -36,48 +36,48 @@ id: "165"
 
 
 
-1. 登入[Google Analytics 後台](https://analytics.google.com/analytics/web/)，點擊「開始評估」。 [![建立ga](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學01.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學01.png)
+1. 登入[Google Analytics 後台](https://analytics.google.com/analytics/web/)，點擊「開始評估」。 ![建立ga](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學01.png)
 
 
 2. 進入設定流程「1 建立帳戶」。依需求輸入帳戶名稱，點擊「繼續」。  
-[![建立ga](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學02.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學02.png)
+![建立ga](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學02.png)
 
 
 
 3. 進入設定流程「2 建立資源」。依需求輸入屬性名稱，點擊「下一步」。  
-[![建立ga](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學03.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學03.png)
+![建立ga](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學03.png)
 
 
 
 4. 進入設定流程「3 商家詳細資料」，依需求選擇產業類別與商家規模，點擊「下一步」。  
-[![建立ga](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學04.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學04.png)
+![建立ga](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學04.png)
 
 
 
 5. 進入設定流程「4 業務目標」，依需求選擇業務目標，點擊「建立」。  
-[![建立ga](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學05.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學05.png)
+![建立ga](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學05.png)
 
 
 
 6. 於「服務條款合約」勾選同意。  
-[![建立ga](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學06.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學06.png)
+![建立ga](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學06.png)
 
 
 
 7. 進入設定流程「5 資料收集」，選擇「網站」。  
-[![建立ga](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學07.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學07.png)
+![建立ga](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學07.png)
 
 
 
 8. 輸入官網網址，依需求輸入網站名稱。  
-[![建立ga](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學08.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學08.png)
+![建立ga](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學08.png)
 
 * 此處可開啟加強型評估，以獲得更完整的網站流量分析。加強型評估說明可參考 [Google Analytics：進階資料分析設定](https://www.cyberbiz.io/support/?p=36980)。
 * 設定完成後會進入「選擇 Google 代碼設定方式」頁面，點擊「確認」即可。  
-[![建立ga](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學09.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學09.png)
+![建立ga](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學09.png)
 
 9. 於「網站串流詳情」頁面，請複製「評估 ID」，並前往官網後台，將 GA4 帳號串連至官網。  
-[![建立ga](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學10.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學10.png)
+![建立ga](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學10.png)
 
 * * *
 
@@ -87,18 +87,18 @@ id: "165"
 後台路徑 : 「第三方整合」→「谷歌 Google 設定」→「Google 整合」  
 
 1. 於「Google Analytics 4 」區域點選「前往設定」。  
-[![評估id](https://www.cyberbiz.io/support/wp-content/uploads/Screenshot-2023-10-05-at-12.30.12-PM.png)](https://www.cyberbiz.io/support/wp-content/uploads/Screenshot-2023-10-05-at-12.30.12-PM.png)
+![評估id](https://www.cyberbiz.io/support/wp-content/uploads/Screenshot-2023-10-05-at-12.30.12-PM.png)
 
 2. 於頁面中點擊「前往設定」。  
-[![評估id](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接申請教學10.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接申請教學10.png)
+![評估id](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接申請教學10.png)
 
 
 
 3. 將 Google「評估ID」貼至「GA4 tracking ID」欄位。  
-[![評估id](https://www.cyberbiz.io/support/wp-content/uploads/Screenshot-2023-10-05-at-12.12.21-PM.png)](https://www.cyberbiz.io/support/wp-content/uploads/Screenshot-2023-10-05-at-12.12.21-PM.png)
+![評估id](https://www.cyberbiz.io/support/wp-content/uploads/Screenshot-2023-10-05-at-12.12.21-PM.png)
 
 * 若已關閉 GA4 視窗，可於側邊欄點擊「管理」→「資料收集與修改」→「資料串流」，點擊串流可查看「評估 ID」。  
-[![複製資料串流](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學11.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學11.png)
+![複製資料串流](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics-：串接教學11.png)
 
 
 
@@ -107,13 +107,13 @@ id: "165"
 
 
 1. 我們直接到商店前台，隨意點擊某隻商品「加入購物車」按鈕。  
-[![加入購物車](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA412.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA412.png)
+![加入購物車](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA412.png)
 
 
 
 
 2. 到 GA4 後台，於側邊欄點擊「報表」→「即時總覽」→「事件計數」，若已有數據顯示，表示已成功串接。  
-[![加入購物車](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA413.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA413.png)
+![加入購物車](https://www.cyberbiz.io/support/wp-content/uploads/Google-Analytics通用-GA-轉至-GA413.png)
 
 
 

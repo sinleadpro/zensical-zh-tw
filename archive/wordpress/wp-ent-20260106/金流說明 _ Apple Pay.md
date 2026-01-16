@@ -9,9 +9,9 @@ id: "40622"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/北美站.png)](https://www.cyberbiz.io/support/?page_id=32080)
+![](https://www.cyberbiz.io/support/wp-content/uploads/北美站.png)
 
 **Apple Pay 優勢**  
 
@@ -53,5 +53,5 @@ id: "40622"
 
 「金物流」→「結帳頁 & 金物流設定」→「CYBERBIZ PAYMENTS」→「Apple Pay」  
 
-[![apple pay](https://www.cyberbiz.io/support/wp-content/uploads/金流說明-Apple-Pay01.png)](https://www.cyberbiz.io/support/wp-content/uploads/金流說明-Apple-Pay01.png) [![apple pay2](https://www.cyberbiz.io/support/wp-content/uploads/金流說明-Apple-Pay02.png)](https://www.cyberbiz.io/support/wp-content/uploads/金流說明-Apple-Pay02.png)
+![apple pay](https://www.cyberbiz.io/support/wp-content/uploads/金流說明-Apple-Pay01.png) ![apple pay2](https://www.cyberbiz.io/support/wp-content/uploads/金流說明-Apple-Pay02.png)
 

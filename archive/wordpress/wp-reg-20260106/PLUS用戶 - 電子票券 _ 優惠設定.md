@@ -35,13 +35,13 @@ id: "5812"
 
 
 1. 進入「電子票券任選折扣」，點擊右上方「新增票券折扣」。  
-[![電子票券任選折扣後台畫面](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-優惠設定01.png)](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-優惠設定01.png)
+![電子票券任選折扣後台畫面](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-優惠設定01.png)
 
 
 
 2. 輸入基本設定  
 *票券折扣名稱，不能與一般商品的任選折扣群組名稱重複。   
-[![電子票券折扣基本設定](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-優惠設定02.png)](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-優惠設定02.png)
+![電子票券折扣基本設定](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-優惠設定02.png)
 
 
 
@@ -60,23 +60,23 @@ id: "5812"
 * 若要設定「任選2件每件折10元」，則商品件數填2、折扣金額填10
 * 可設定多層級折扣 E.g. 任選2件每件折10元 + 任選3件每件折15元
 
-[![電子票券折扣計價設定](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-優惠設定03.png)](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-優惠設定03.png)
+![電子票券折扣計價設定](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-優惠設定03.png)
 
 
 
 4. 點擊「儲存」。此時任選折扣群組及建立完成，再來要將票券加入群組。  
-[![電子票券折扣描述](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-優惠設定04.png)](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-優惠設定04.png)
+![電子票券折扣描述](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-優惠設定04.png)
 
 
 
 5. 設定完折扣後重新點擊您剛剛設定的票券折扣，點選「選擇票券」，將要加入任選折扣群組的票券，點擊「加入折扣」。  
 *一個票券商品只能被加入一個群組   
-[![電子票券折扣加入電子票券](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-優惠設定05.png)](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-優惠設定05.png)
+![電子票券折扣加入電子票券](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-優惠設定05.png)
 
 
 
 6. 最下方的「已選取的票券」會出現加入群組的票券，即可完成設定。  
-[![電子票券-優惠設定06](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-優惠設定06.png)](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-優惠設定06.png)
+![電子票券-優惠設定06](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-優惠設定06.png)
 
 
 
@@ -92,7 +92,7 @@ id: "5812"
 
 ⚠️此票券使用/優惠期間至XXXX年XX月XX日止。逾使用/優惠期間後，本券僅能兌換售價為OOO元（含）以下之品項，若點購超過OOO元品項，於兌換時需要另外補足差額後方能使用。商品數量依現場實際供應為主。
 
-[![電子票券-優惠設定07](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-優惠設定07.png)](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-優惠設定07.png)  
+![電子票券-優惠設定07](https://www.cyberbiz.io/support/wp-content/uploads/電子票券-優惠設定07.png)  
 
 * * *
 

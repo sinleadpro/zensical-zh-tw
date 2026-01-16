@@ -29,8 +29,8 @@ id: "5733"
 
 後台路徑 : 「商品」→「單一品項」  
 
-[![商品](https://www.cyberbiz.io/support/wp-content/uploads/倉儲_商品01.png)](https://www.cyberbiz.io/support/wp-content/uploads/倉儲_商品01.png)  
-點選「新增商品」。 [![商品](https://www.cyberbiz.io/support/wp-content/uploads/倉儲_商品02.png)](https://www.cyberbiz.io/support/wp-content/uploads/倉儲_商品02.png)
+![商品](https://www.cyberbiz.io/support/wp-content/uploads/倉儲_商品01.png)  
+點選「新增商品」。 ![商品](https://www.cyberbiz.io/support/wp-content/uploads/倉儲_商品02.png)
 
 1. 「*品名」：請輸入商品名(盡量與EC平台的商品名稱一致，方便管理)。
 
@@ -74,12 +74,12 @@ id: "5733"
 * 【商品庫存列表】
 
 **【商品資訊】**  
-[![商品](https://www.cyberbiz.io/support/wp-content/uploads/倉儲_商品03.png)](https://www.cyberbiz.io/support/wp-content/uploads/倉儲_商品03.png)
+![商品](https://www.cyberbiz.io/support/wp-content/uploads/倉儲_商品03.png)
 
 1. 「商品尺寸」：單品 | 盒 | 箱，若已知商品尺寸可協助建檔。
 
 **【商品庫存列表】**  
-[![商品](https://www.cyberbiz.io/support/wp-content/uploads/倉儲_商品04.png)](https://www.cyberbiz.io/support/wp-content/uploads/倉儲_商品04.png)
+![商品](https://www.cyberbiz.io/support/wp-content/uploads/倉儲_商品04.png)
 
 1. 「批號」：如有需要依照製造批次控管才需要建檔。
 2. 「可用出貨量」：總商品庫存量扣除瑕疵以及預備出貨的量。
@@ -95,11 +95,11 @@ id: "5733"
 後台路徑 : 「商品來源廠商」→「列表」  
 
 可依據商品所屬的廠商分類，新增廠商資料。  
-[![商品](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品15.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品15.png)  
+![商品](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品15.png)  
 後台路徑 : 「商品」→「單一品項」  
 
 可選擇要設定廠商的商品，點擊「商品庫存列表」，設定「來源廠商」。  
-[![商品](https://www.cyberbiz.io/support/wp-content/uploads/倉儲_商品06.png)](https://www.cyberbiz.io/support/wp-content/uploads/倉儲_商品06.png)  
+![商品](https://www.cyberbiz.io/support/wp-content/uploads/倉儲_商品06.png)  
 設定完記得點選「儲存」按鈕，完成更新。  
 
 * * *
@@ -109,12 +109,12 @@ id: "5733"
 
 後台路徑 : 「商品」→「加工商品」  
 
-[![商品](https://www.cyberbiz.io/support/wp-content/uploads/倉儲_商品05.png)](https://www.cyberbiz.io/support/wp-content/uploads/倉儲_商品05.png)  
+![商品](https://www.cyberbiz.io/support/wp-content/uploads/倉儲_商品05.png)  
 若要推出新年福袋等的組合商品，請在此新增組合商品。例：美白超級組合包(AA001)=美白洗面乳(A001)+美白化粧水(B001)+美白乳夜(C001)+美白防曬乳（D001）。  
 
 **請注意！加工項目需求及手工費用，請先洽詢業務進行報價，倉庫會協助建立加工項及報價。**  
 
-[![商品](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品08.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品08.png)  
+![商品](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品08.png)  
 點選「新增加工商品」，輸入相關資訊：
 
 1. 「名稱」：請輸入組合商品名。
@@ -134,17 +134,17 @@ id: "5733"
 
 1. 點選「下載範本」，下載excel範例檔。
 
-[![商品](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品11.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品11.png)  
+![商品](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品11.png)  
 
 2. 完成excel編輯後，上傳檔案。  
 
 
 * 範例檔案  
-[![商品](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品12.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品12.png)  
+![商品](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品12.png)  
 
 
 
-3. 點選匯入後，會顯示目前匯入進度，請勿在完成前離開此頁面，否則無法得知匯入結果。 [![商品](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品10.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品10.png)  
+3. 點選匯入後，會顯示目前匯入進度，請勿在完成前離開此頁面，否則無法得知匯入結果。 ![商品](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品10.png)  
 
 * * *
 
@@ -156,17 +156,17 @@ id: "5733"
 
 1. 點選「下載範本」，下載 excel 範例檔。
 
-[![商品](https://www.cyberbiz.co/support/wp-content/uploads/峰潮新增商品01.png)](https://www.cyberbiz.co/support/wp-content/uploads/峰潮新增商品01.png)  
+![商品](https://www.cyberbiz.co/support/wp-content/uploads/峰潮新增商品01.png)  
 
 2. 完成excel編輯後，上傳檔案。  
 
 
 * 範例檔案  
-[![商品](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品13.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品13.png)  
+![商品](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品13.png)  
 
 
 
-3. 點選匯入後，會顯示目前匯入進度，請勿在完成前離開此頁面，否則無法得知匯入結果。 [![商品](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品10.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品10.png)  
+3. 點選匯入後，會顯示目前匯入進度，請勿在完成前離開此頁面，否則無法得知匯入結果。 ![商品](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品10.png)  
 
 * * *
 
@@ -179,7 +179,7 @@ id: "5733"
 
 * 「商品資訊總表」：匯出商品主檔資訊。商家可匯出總表後，修改總表內容後再匯入檔案，如此便可更新商品資訊。
 * 「商品庫存總表」：商品在倉庫裡的總庫存量，同時可看到商品的預備出貨量。
-[![商品](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品14.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品14.png)  
+![商品](https://www.cyberbiz.co/support/wp-content/uploads/2020/08/峰潮新增商品14.png)  
 
 * * *
 
@@ -189,9 +189,9 @@ id: "5733"
 後台路徑 : 「商品」→「季別群組」  
 
 可搜尋並新增季別群組，將同季別或同屬性的商品批次加入群組。季別群組的資訊會顯示在「庫齡報表」的資訊中，幫助商家進行庫存管理。
-[![商品](https://www.cyberbiz.io/support/wp-content/uploads/峰潮新增商品20.png)](https://www.cyberbiz.io/support/wp-content/uploads/峰潮新增商品20.png)  
-[![商品](https://www.cyberbiz.io/support/wp-content/uploads/峰潮新增商品21.png)](https://www.cyberbiz.io/support/wp-content/uploads/峰潮新增商品21.png)  
-可刪除與編輯商品季別群組，也可移除季別群組中之商品。 [![商品](https://www.cyberbiz.io/support/wp-content/uploads/峰潮新增商品22.png)](https://www.cyberbiz.io/support/wp-content/uploads/峰潮新增商品22.png)  
+![商品](https://www.cyberbiz.io/support/wp-content/uploads/峰潮新增商品20.png)  
+![商品](https://www.cyberbiz.io/support/wp-content/uploads/峰潮新增商品21.png)  
+可刪除與編輯商品季別群組，也可移除季別群組中之商品。 ![商品](https://www.cyberbiz.io/support/wp-content/uploads/峰潮新增商品22.png)  
 
 * * *
 

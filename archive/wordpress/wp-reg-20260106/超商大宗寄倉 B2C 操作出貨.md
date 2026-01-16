@@ -57,7 +57,7 @@ B.店到店 C2C : 將商品包裝後就近至超商門市寄送
 
 * 若勾選不同配送方式的訂單，則會無法下載託運單，所以若無出現下載的按鈕，請檢查勾選訂單是否包含多種配送方式。
 
-[![超商大宗寄倉-B2C-操作出貨01](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商大宗寄倉-B2C-操作出貨01.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商大宗寄倉-B2C-操作出貨01.png)
+![超商大宗寄倉-B2C-操作出貨01](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商大宗寄倉-B2C-操作出貨01.png)
 
 
 
@@ -78,7 +78,7 @@ B.店到店 C2C : 將商品包裝後就近至超商門市寄送
 * 當訂單顯示為「已出貨」時，託運文件(壓縮檔)亦下載完成。
 * 若無法下載託運文件，請檢查是否瀏覽器阻擋彈跳視窗或廣告。
 
-[![黑貓宅配操作出貨03](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商大宗寄倉-B2C-操作出貨02.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商大宗寄倉-B2C-操作出貨02.png)
+![黑貓宅配操作出貨03](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商大宗寄倉-B2C-操作出貨02.png)
 
 
 
@@ -88,7 +88,7 @@ B.店到店 C2C : 將商品包裝後就近至超商門市寄送
 【出貨明細】  
 【訂單明細】  
 【揀貨訂單】  
-[![超商大宗寄倉-B2C-操作出貨03](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商大宗寄倉-B2C-操作出貨03.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商大宗寄倉-B2C-操作出貨03.png)
+![超商大宗寄倉-B2C-操作出貨03](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商大宗寄倉-B2C-操作出貨03.png)
 
 
 
@@ -119,7 +119,7 @@ B.店到店 C2C : 將商品包裝後就近至超商門市寄送
 * 一頁最多容納 6筆託運單，請選擇 2x3格式的貼紙列印託運單。
 * 印表機種類建議使用雷射印表機，較不影響標籤判讀。
 
-[![超商大宗寄倉-B2C-操作出貨04](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商大宗寄倉-B2C-操作出貨04.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商大宗寄倉-B2C-操作出貨04.png)
+![超商大宗寄倉-B2C-操作出貨04](https://www.cyberbiz.io/helpcenter/wp-content/uploads/超商大宗寄倉-B2C-操作出貨04.png)
 
 
 
@@ -200,13 +200,13 @@ B.店到店 C2C : 將商品包裝後就近至超商門市寄送
 * 使用情境 : 當托運單損壞、無法辨識或遺失時，可至後台補印該托運單 注意事項 : 
 1. 補印托運單只限於「已出貨」列印過托運單的訂單。
 2. 補印托運單不會產生新的托運單號，因此不會重複計算運費
-[![超商大宗寄倉-B2C-操作出貨06](https://www.cyberbiz.io/support/wp-content/uploads/超商大宗寄倉-B2C-操作出貨06.png)](https://www.cyberbiz.io/support/wp-content/uploads/超商大宗寄倉-B2C-操作出貨06.png)
+![超商大宗寄倉-B2C-操作出貨06](https://www.cyberbiz.io/support/wp-content/uploads/超商大宗寄倉-B2C-操作出貨06.png)
 
 
 
 新版訂單列表操作頁面
 
-[![新版-訂單列表-補印託運單-動態圖解](https://www.cyberbiz.io/support/wp-content/uploads/新版-訂單列表-補印託運單-動態圖解.gif)](https://www.cyberbiz.io/support/wp-content/uploads/新版-訂單列表-補印託運單-動態圖解.gif)
+![新版-訂單列表-補印託運單-動態圖解](https://www.cyberbiz.io/support/wp-content/uploads/新版-訂單列表-補印託運單-動態圖解.gif)
 
 
 

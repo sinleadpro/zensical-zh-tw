@@ -49,7 +49,7 @@ id: "5064"
 
 ## B2C【7-11大智通】申請流程
 
-[![B2C物流申請流程01](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程01.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程01.png)  
+![B2C物流申請流程01](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程01.png)  
 
 
 
@@ -58,7 +58,7 @@ id: "5064"
 47. **後台路徑 :** 「金流設定」→「SEVEN 超商取貨付款」  
 
 
-[![B2C物流申請流程03](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/B2C物流申請流程03.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/B2C物流申請流程03.png)  
+![B2C物流申請流程03](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/B2C物流申請流程03.png)  
 
 
 1. 填寫表格並按確認，所有欄位皆必填。  
@@ -68,7 +68,7 @@ id: "5064"
 
 請注意：全必填且建檔資料存檔後，隔日即會進行申請流程，後續若有需要更改資料，請告知CYBERBIZ客服人員
 
-[![B2C物流申請流程04](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程04.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程04.png)  
+![B2C物流申請流程04](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程04.png)  
 
 
 2. 下載「統一數網的測標PDF」，  
@@ -80,7 +80,7 @@ id: "5064"
 (ps. 如您需要購買電腦標籤貼紙來列印託運單，可參考購物連結： <https://goo.gl/XZk3Xn>)  
 
 
-[![B2C物流申請流程05](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程05.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程05.png)
+![B2C物流申請流程05](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程05.png)
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/fountain-pen.png)
 
@@ -90,7 +90,7 @@ id: "5064"
 
 ## B2C【全家日翊】申請流程
 
-[![B2C物流申請流程06](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程06.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程06.png)  
+![B2C物流申請流程06](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程06.png)  
 
 
 
@@ -99,7 +99,7 @@ id: "5064"
 48. **後台路徑 :** 「金流設定」→「全家超商取貨付款」  
 
 
-[![B2C物流申請流程07](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程07.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程07.png)  
+![B2C物流申請流程07](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程07.png)  
 
 
 1. 請填寫下方資料表格並按確認，再進行全家日翊文化的測標檢驗。  
@@ -109,7 +109,7 @@ id: "5064"
 
 請注意：全必填且建檔資料存檔後，隔日即會進行申請流程，後續若有需要更改資料，請告知 CYBERBIZ 客服人員
 
-[![B2C物流申請流程08](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程08.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程08.png)  
+![B2C物流申請流程08](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程08.png)  
 
 
 2. 下載「日翊文化的測標PDF」  
@@ -120,7 +120,7 @@ id: "5064"
 收件人：日翊文化行銷股份有限公司 電子商務部 吳專員收  
 信件括弧說明是(測試標籤，並註明為順立智慧(692)的子廠商 (廠商代號) 廠商名稱 )。  
 
-[![](https://www.cyberbiz.co/support/wp-content/uploads/2020/03/全家B2C03.jpg)](https://www.cyberbiz.co/support/wp-content/uploads/2020/03/全家B2C03.jpg)
+![](https://www.cyberbiz.co/support/wp-content/uploads/2020/03/全家B2C03.jpg)
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/fountain-pen.png)
 
@@ -130,7 +130,7 @@ id: "5064"
 
 ## B2C【萊爾富】申請流程
 
-[![B2C物流申請流程09](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程09.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程09.png)  
+![B2C物流申請流程09](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程09.png)  
 
 
 
@@ -139,7 +139,7 @@ id: "5064"
 49. **後台路徑 :** 「金流設定」→「萊爾富超商取貨付款」  
 
 
-[![B2C物流申請流程10](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程10.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程10.png)  
+![B2C物流申請流程10](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程10.png)  
 
 
 1. 請填寫下方資料表格並按確認，再進行萊爾富的測標檢驗。  
@@ -149,7 +149,7 @@ id: "5064"
 
 請注意：全必填且建檔資料存檔後，隔日即會進行申請流程，後續若有需要更改資料，請告知CYBERBIZ客服人員
 
-[![B2C物流申請流程11](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程11.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程11.png)  
+![B2C物流申請流程11](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程11.png)  
 
 
 2. 下載「萊爾富的測標PDF」  
@@ -162,7 +162,7 @@ id: "5064"
 (ps. 如您需要購買電腦標籤貼紙來列印託運單，可參考購物連結： [ https://bit.ly/3irkWiI](https://bit.ly/3irkWiI))  
 
 
-[![](https://www.cyberbiz.co/support/wp-content/uploads/2020/03/萊爾富B2C02.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/03/萊爾富B2C02.png)
+![](https://www.cyberbiz.co/support/wp-content/uploads/2020/03/萊爾富B2C02.png)
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/fountain-pen.png)
 
@@ -185,5 +185,5 @@ id: "5064"
 
 
 
-[![B2C物流申請流程12](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程12.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程12.png)
+![B2C物流申請流程12](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程12.png)
 

@@ -46,18 +46,18 @@ CKEditor 介紹
 **後台路徑 :** 「商品」→「所有商品」→「商品管理」→「商品描述」  
 
 以「商品介紹」為例，「規格說明」、「運送方式」設定方式皆相同。  
-[![CKEITOR-文字編輯器01](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/CKEITOR-文字編輯器01-1.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/CKEITOR-文字編輯器01-1.png)  
+![CKEITOR-文字編輯器01](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/CKEITOR-文字編輯器01-1.png)  
 **【文字】**  
 
 
 * 在CKEditor 中編輯的文字，可直接視為前台頁面顯示的預覽圖。
 * 若使用其他文字軟體匯入 CKEditor (如: Office)，格式須符合CKEditor 制定格式。  
 
-[![CKEITOR-文字編輯器02](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/CKEITOR-文字編輯器02.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/CKEITOR-文字編輯器02.png)
+![CKEITOR-文字編輯器02](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/CKEITOR-文字編輯器02.png)
 
 * 進階設定教學：  
 如有需求可參考 [錨點教學影片](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/錨點設定.mp4)。  
-[![CKEITOR-文字編輯器03](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/CKEITOR-文字編輯器03.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/CKEITOR-文字編輯器03.png)
+![CKEITOR-文字編輯器03](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/CKEITOR-文字編輯器03.png)
 
 **【圖片上傳】**  
 
@@ -89,13 +89,13 @@ CKEditor 介紹
 
 
 2. 前台畫面顯示  
-[![CKEITOR-文字編輯器07](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/CKEITOR-文字編輯器07.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/CKEITOR-文字編輯器07.png)
+![CKEITOR-文字編輯器07](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/CKEITOR-文字編輯器07.png)
 
 
 **常見問題- 圖片之間有空白格**  
 原因 : 若逐一上傳並在照片之間按下 ENTER鍵，則網頁顯示會多一行空白格。  
 
-[![CKEITOR-文字編輯器09](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/CKEITOR-文字編輯器09.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/CKEITOR-文字編輯器09.png)
+![CKEITOR-文字編輯器09](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/CKEITOR-文字編輯器09.png)
 
 **解決方案**  
 
@@ -106,23 +106,23 @@ CKEditor 介紹
 A : 兩張圖片寬度皆為 300 px ，則無法透過程式碼將空白格刪除，圖片之間必有空白。  
 B : 兩張圖片寬度皆為 1000 px ，若圖片之間按下 ENTER 後，可利用程式碼來將空白格刪除。  
 
-[![CKEITOR-文字編輯器10](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/CKEITOR-文字編輯器10.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/CKEITOR-文字編輯器10.png)
+![CKEITOR-文字編輯器10](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/CKEITOR-文字編輯器10.png)
 
 3. 設定完成。  
-[![CKEITOR-文字編輯器08](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/CKEITOR-文字編輯器08.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/CKEITOR-文字編輯器08.png)
+![CKEITOR-文字編輯器08](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/CKEITOR-文字編輯器08.png)
 
 **【影片上傳】**  
 
 
 1. 影片相關設定 請至 [影片自動播放+特定播放時間](https://www.cyberbiz.io/support/?p=19650)設定教學   
 
-[![CKEITOR-文字編輯器11](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/CKEITOR-文字編輯器11.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/CKEITOR-文字編輯器11.png)
+![CKEITOR-文字編輯器11](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/CKEITOR-文字編輯器11.png)
 
 
 
 2. 前台畫面顯示  
 
-[![CKEITOR-文字編輯器12](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/CKEITOR-文字編輯器12.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/CKEITOR-文字編輯器12.png)
+![CKEITOR-文字編輯器12](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/CKEITOR-文字編輯器12.png)
 
 * * *
 

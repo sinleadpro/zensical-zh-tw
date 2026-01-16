@@ -9,7 +9,7 @@ id: "46379"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **看了此文件，您可以：**  
 
@@ -69,7 +69,7 @@ id: "46379"
 
 
 * 在星益欣電子發票有效期限內，若再需第 4 台 POS 子機，後台購買時，商家無須額外收費，此時結帳金額為 0 。  
-[![POS美麗科技](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技08.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技08.png)
+![POS美麗科技](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技08.png)
 
 
 
@@ -92,7 +92,7 @@ id: "46379"
 
 1. 「發票設定」：選擇「星益欣(美麗科技)」。  
 「發票機設定」：依需求選擇發票機。  
-[![POS美麗科技](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技01.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技01.png)
+![POS美麗科技](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技01.png)
 
 
 
@@ -105,12 +105,12 @@ id: "46379"
 
 
 1. 進行「帳號驗證」，請輸入下方「統一編號」。  
-[![POS美麗科技](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技02.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技02.png)
+![POS美麗科技](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技02.png)
 
 
 
 2. 進入「選擇 POS 子機」頁面，商家可依照營運需求選擇需要購買的 POS 子機。  
-[![POS美麗科技](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技03.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技03.png)
+![POS美麗科技](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技03.png)
 
 
 
@@ -127,29 +127,29 @@ id: "46379"
 
 * **請注意！僅限使用信用卡付款。**
 
-[![POS美麗科技](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技04.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技04.png)
+![POS美麗科技](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技04.png)
 
 
 
-4. 付款後，系統會發信通知商家，並呈現聯絡資訊。 [![POS美麗科技](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技05.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技05.png)
+4. 付款後，系統會發信通知商家，並呈現聯絡資訊。 ![POS美麗科技](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技05.png)
 
 
 5. 可於下方列表查看已完成購買的 POS 子機。 
 * 系統會先預填好 「門市代碼」、「POS 機碼」、「POS 機序號(PID)」、「產品名稱(PNAME)」。
-[![POS美麗科技](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技06.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技06.png)
+![POS美麗科技](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技06.png)
 
 
 
 6. 待星益欣完成 POS 子機開通後，於星益欣後台串接電子發票資訊並啟用。  
 
 * 商家可進入「星益欣加值中心後台」→「營業人資訊」→ 點選欲設定發票功能的「門市代碼」和「POS機編碼」→ 點選「下載」。  
-[![POS美麗科技](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-美麗科技07.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-美麗科技07.png)
+![POS美麗科技](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-美麗科技07.png)
 
 * 商家可利用「門市代碼」、「POS 機碼」查找此 POS 子機對應的「認證碼(RID)」跟「AES KEY」 資訊。  
-[![POS美麗科技](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技07.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技07.png)
+![POS美麗科技](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技07.png)
 
 * 在下載文件中請複製「認證碼(RID)」、「AES KEY」，貼回 CYBERBIZ 後台即可。  
-[![POS美麗科技](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-美麗科技08.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-美麗科技08.png)
+![POS美麗科技](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-美麗科技08.png)
 
 * 串接成功後，POS子機的狀態會從「申請中」變成「啟用中」。  
 

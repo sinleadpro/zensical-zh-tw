@@ -56,7 +56,7 @@ B : 顧客申請退貨退款
 
 
 
-[![退貨中](https://www.cyberbiz.io/helpcenter/wp-content/uploads/一般退貨退款00PLUS-1.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/一般退貨退款00PLUS-1.png)
+![退貨中](https://www.cyberbiz.io/helpcenter/wp-content/uploads/一般退貨退款00PLUS-1.png)
 
 * * *
 
@@ -76,13 +76,13 @@ B : 顧客申請退貨退款
 *此狀態選擇後，將會同步顯示於顧客前台訂單狀態。  
 
 若商家需派車取回商品，則可至後台操作逆物流將商品取回。 [逆物流教學文件](https://www.cyberbiz.io/support/?p=5813)
-[![退貨中](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款01.png)](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款01.png)
+![退貨中](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款01.png)
 
 
 
 2. 點選「退貨審查」  
 *退貨審查狀態為商家已收到顧客寄回的商品，檢查商品是否完整。  
-[![退貨審查](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款02.png)](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款02.png)
+![退貨審查](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款02.png)
 
 
 
@@ -90,7 +90,7 @@ B : 顧客申請退貨退款
 
 * 收到退貨商品 → 勾選訂單 → 已退貨 → 直接退款消費者
 * 收到退貨商品 → 勾選訂單 → 拒絕退貨 → 不退款給消費者
-(*一旦勾選拒絕退貨就無法再進行退貨退款作業。)  [![已退貨/拒絕退貨](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款03.png)](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款03.png)
+(*一旦勾選拒絕退貨就無法再進行退貨退款作業。)  ![已退貨/拒絕退貨](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款03.png)
 
 ### 二、需【人工退款】訂單：
 
@@ -108,13 +108,13 @@ B : 顧客申請退貨退款
 *此狀態選擇後，將會同步顯示於顧客前台訂單狀態。  
 
 若商家需派車取回商品，則可至後台操作逆物流將商品取回。 [逆物流教學文件](https://www.cyberbiz.io/support/?p=5813)
-[![退貨中](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款01.png)](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款01.png)
+![退貨中](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款01.png)
 
 
 
 2. 點選「退貨審查」  
 *退貨審查狀態為商家已收到顧客寄回的商品，檢查商品是否完整。  
-[![退貨審查](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款02.png)](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款02.png)
+![退貨審查](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款02.png)
 
 
 
@@ -122,13 +122,13 @@ B : 顧客申請退貨退款
 
 * 收到退貨商品 → 勾選訂單 → 已退貨 
 * 收到退貨商品 → 勾選訂單 → 拒絕退貨 → 不退款給消費者
-(*一旦勾選拒絕退貨就無法再進行退貨退款作業) [![已退貨/拒絕退貨](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款04.png)](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款04.png)
+(*一旦勾選拒絕退貨就無法再進行退貨退款作業) ![已退貨/拒絕退貨](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款04.png)
 
 
 
 4. 操作已退貨後，會跳出「人工退款資料」，依照顧客提供的退款資料填寫。  
 送出後 CYBERBIZ 將於 7-10 個工作天退款至顧客指定帳戶。  
-[![退款資訊](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款05.png)](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款05.png)
+![退款資訊](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款05.png)
 
 
 
@@ -137,11 +137,11 @@ B : 顧客申請退貨退款
 
 **商家訂單後台：** 將顯示退款資訊以及訂單備註
 
-[![商家訂單後台](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款06.png)](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款06.png)
+![商家訂單後台](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款06.png)
 
 **顧客前台：** 會員資料中同樣顯示退款資訊
 
-[![顧客前台](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款07.png)](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款07.png)
+![顧客前台](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款07.png)
 
 * * *
 
@@ -161,12 +161,12 @@ B : 顧客申請退貨退款
 
 1. 選擇想要退貨的訂單，點選「可退貨」。  
 列表中訂單會呈現「可退貨」的狀態，點選欲退貨的訂單編號，進入訂單明細。  
-[![訂單明細](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款08.png)](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款08.png)
+![訂單明細](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款08.png)
 
 
 
 2. 點選「申請退貨」  
-[![申請退貨](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款09.png)](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款09.png)
+![申請退貨](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款09.png)
 
 
 
@@ -176,15 +176,15 @@ B : 顧客申請退貨退款
 * 訂單的支付方式若不支援自動退刷，須輸入顧客退款資料，由 CYBERBIZ 進行人工退款。   
 (如：貨到付款、虛擬ATM)
 
-[![商家訂單後台](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款10.png)](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款10.png)
+![商家訂單後台](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款10.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款11.png)](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款11.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款11.png)
 
 
 
 4. 顧客於前台申請完成後，商家需進行退款操作。  
 *顧客申請完成後，訂單退貨狀態將變更至【退貨申請】  
-[![顧客前台](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款12.png)](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款12.png)
+![顧客前台](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款12.png)
 
 
 
@@ -196,13 +196,13 @@ B : 顧客申請退貨退款
 *此狀態選擇後，將會同步顯示於顧客前台訂單狀態。  
 
 若商家需派車取回商品，則可至後台操作逆物流將商品取回。 [逆物流教學文件](https://www.cyberbiz.io/support/?p=5813)
-[![訂單明細](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款01.png)](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款01.png)
+![訂單明細](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款01.png)
 
 
 
 2. 點選「退貨審查」  
 *退貨審查狀態為商家已收到顧客寄回的商品，檢查商品是否完整。  
-[![已退貨/拒絕退貨](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款02.png)](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款02.png)
+![已退貨/拒絕退貨](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款02.png)
 
 
 
@@ -212,7 +212,7 @@ B : 顧客申請退貨退款
 1. 訂單的支付方式可自動退刷將自動退款。
 2. 訂單的支付方式若不支援自動退刷，由 CYBERBIZ 進行人工退款流程。
 2. 收到退貨商品 → 勾選訂單 → 拒絕退貨 → 不退款給消費者
-(*一旦勾選拒絕退貨就無法再進行退貨退款作業)  [![已退貨/拒絕退貨](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款03.png)](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款03.png)  
+(*一旦勾選拒絕退貨就無法再進行退貨退款作業)  ![已退貨/拒絕退貨](https://www.cyberbiz.io/support/wp-content/uploads/一般退貨退款03.png)  
 
 
 
@@ -222,7 +222,7 @@ B : 顧客申請退貨退款
 
 
 
-[![退貨中](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款14.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款14.png)
+![退貨中](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款14.png)
 
 * * *
 
@@ -234,43 +234,43 @@ B : 顧客申請退貨退款
 **【顧客端】**
 
 1. 顧客點選「申請退貨」。  
-[![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款15.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款15.png)
+![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款15.png)
 
 
 
 2. 進入退貨申請頁面。  
-[![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款16.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款16.png)
+![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款16.png)
 
 
 
 3. 填寫退貨、退款資料，按下「確認」。  
-[![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款17.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款17.png)
+![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款17.png)
 
 
 **【商家端】**
 
 1. 訂單狀態轉為「退貨申請」。  
-[![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款18.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款18.png)
+![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款18.png)
 
 
 
 2. 勾選訂單後，將狀態改為「退貨中」。   
-[![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款19.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款19.png)
+![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款19.png)
 
 
 
 3. 勾選訂單後，將狀態改為「退貨審查」。  
-[![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款20.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款20.png)
+![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款20.png)
 
 
 
 4. 勾選訂單後，將狀態改為「已退貨」。  
-[![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款21.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款21.png)
+![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款21.png)
 
 
 
 5. 此時訂單付款狀態會是「待退款」。商家匯款給顧客完成退款之後，自行將狀態改為「已退款」。  
-[![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款22.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款22.png)
+![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款22.png)
 
 
 
@@ -279,27 +279,27 @@ B : 顧客申請退貨退款
 
 
 1. 勾選訂單後，將狀態改為「退貨中」。  
-[![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款23.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款23.png)
+![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款23.png)
 
 
 
 2. 勾選訂單後，將狀態改為「退貨審查」。  
-[![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款24.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款24.png)
+![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款24.png)
 
 
 
 3. 勾選訂單後，將狀態改為「已退貨」。  
-[![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款25.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款25.png)
+![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款25.png)
 
 
 
 4. 填寫顧客銀行資訊。  
-[![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款26.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款26.png)
+![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款26.png)
 
 
 
 5. 此時訂單付款狀態會是「待退款」。商家匯款給顧客完成退款之後，自行將狀態改為「已退款」。  
-[![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款27.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款27.png)
+![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS一般退貨退款27.png)
 
 
 

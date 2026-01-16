@@ -1,1 +1,1 @@
-{ data-preview }
+{ data-preview }  

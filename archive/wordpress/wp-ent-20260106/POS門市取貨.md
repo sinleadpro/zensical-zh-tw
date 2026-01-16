@@ -26,12 +26,12 @@ _Step2._ [  建立POS門市取貨資訊](https://www.cyberbiz.co/support/?p=1045
 [ ![](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/門市取貨_Base-1024x307.png)  
 ](https://www.cyberbiz.co/support/?p=10454) _Step3._ [
 門市取貨出貨流程](https://www.cyberbiz.co/support/?p=10522)  
-[![](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/門市取貨_Orders_Label-1024x543.png)](https://www.cyberbiz.co/support/?p=10522)  
+![](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/門市取貨_Orders_Label-1024x543.png)  
 _Step4._ [  POS門市到貨與取貨](https://www.cyberbiz.co/support/?p=10488)  
-[![](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/門市取貨_POS-1024x446.png)](https://www.cyberbiz.co/support/?p=10488)  
+![](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/門市取貨_POS-1024x446.png)  
 _Step5._ [
 POS店員應得處理費用分潤機制設定與報表下載(非必要)](https://www.cyberbiz.co/support/?p=10507)  
-[![](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/門市取貨_sharing_setting-1024x482.png)](https://www.cyberbiz.co/support/?p=10507)  
+![](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/門市取貨_sharing_setting-1024x482.png)  
 
-POS門市取貨如何操作? [![](https://www.cyberbiz.io/support/wp-content/uploads/POS門市取貨.png)](https://www.cyberbiz.co/support/?p=10507)  
+POS門市取貨如何操作? ![](https://www.cyberbiz.io/support/wp-content/uploads/POS門市取貨.png)  
 

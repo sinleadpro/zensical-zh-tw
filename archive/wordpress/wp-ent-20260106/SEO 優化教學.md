@@ -8,7 +8,7 @@ id: "16944"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **功能說明：**  
 
 * 加強您網頁在搜尋引擎上的排名。
@@ -53,60 +53,60 @@ id: "16944"
 1. 進入後台「商品」→「所有商品」→ 欲設定商品 →「商品描述」  
 (商品介紹、規格說明、運送方式皆可設定)  
 右鍵點擊圖片會出現【影像屬性】。  
-[![SEO-設定教學01](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學01.png)](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學01.png)
+![SEO-設定教學01](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學01.png)
 
 
 
 2. 設定影像屬性 
 * 【替代文字】alt 文字是 Google 判斷圖片內容的資訊之一，也可以讓無法看到圖片的使用者理解圖片。
 * 【標題之圖片】圖片周圍的文字，可作為搜尋引擎判斷圖片內容的來源。
-[![SEO-設定教學02](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學02.png)](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學02.png)
+![SEO-設定教學02](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學02.png)
 
 * * *
 
 
 📌 商品頁 SEO 設定  
 
-示意圖 :  [![SEO-設定教學03](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學03.png)](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學03.png)  
+示意圖 :  ![SEO-設定教學03](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學03.png)  
 操作方法 :
 
 1. 後台點進欲編輯的商品，選擇「設定」，並往下滑找到「SEO設定」。  
-[![SEO-設定教學04](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學04.png)](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學04.png)
+![SEO-設定教學04](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學04.png)
 
 
 
 2. 編輯 SEO。  
 *長度不能超過225個字元。  
-[![SEO-設定教學05](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學05.png)](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學05.png)
+![SEO-設定教學05](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學05.png)
 
 * * *
 
 
 📌 商品群組 SEO 設定  
 
-示意圖 :  [![SEO-設定教學06](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學06.png)](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學06.png)  
+示意圖 :  ![SEO-設定教學06](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學06.png)  
 操作方法 :
 
 1. 進入後台 「商品」→「商品自訂分類」→ 選擇想要編輯的群組 → 點選編輯群組。  
-[![SEO-設定教學07](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學07.png)](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學07.png)
+![SEO-設定教學07](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學07.png)
 
 
 
 2. 進入頁面點選「Meta Tag 設定」並完成設定。  
-[![SEO-設定教學08](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學08.png)](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學08.png)
+![SEO-設定教學08](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學08.png)
 
 * * *
 
 
 📌 官網 SEO 設定  
 
-網站簡述 :  [![SEO-設定教學09](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學09.png)](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學09.png)  
+網站簡述 :  ![SEO-設定教學09](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學09.png)  
 
 操作方法 :
 
 1. 設定網站名。  
 後台路徑 : 「管理中心」→「一般設定」→「網站名」  
-[![SEO-設定教學10](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學10.png)](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學10.png)
+![SEO-設定教學10](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學10.png)
 
 
 
@@ -120,16 +120,16 @@ id: "16944"
 
 後台路徑 : 「網站外觀」→「套版主題管理」→「網站設定」→「公司品牌」  
 
-[![SEO-設定教學11](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學11.png)](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學11.png) [![SEO-設定教學12](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學12.png)](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學12.png)  
+![SEO-設定教學11](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學11.png) ![SEO-設定教學12](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學12.png)  
 
 📍拖拉版型  
 
 後台路徑 :  「網站外觀」→「套版主題管理」→「網站設定」→「全站設定」  
 
-[![SEO-設定教學13](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學13.png)](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學13.png)  
+![SEO-設定教學13](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學13.png)  
 
 【網站標題】: 若不需要額外標題可留空。  
 【網站簡述】: 請依照商家需求自行撰寫。  
 【網站關鍵字】:此設定不會顯示在頁面上，但可使您的商品更容易被搜尋引擎搜尋到。  
-[![SEO-設定教學14](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學14.png)](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學14.png)
+![SEO-設定教學14](https://www.cyberbiz.io/support/wp-content/uploads/SEO-設定教學14.png)
 

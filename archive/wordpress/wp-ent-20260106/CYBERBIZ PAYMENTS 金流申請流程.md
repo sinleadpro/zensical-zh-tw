@@ -9,7 +9,7 @@ id: "34623"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **簡易說明：**  
 
@@ -38,7 +38,7 @@ id: "34623"
 ## 📌 審查流程
 
 
-[![審查流程](https://www.cyberbiz.io/support/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程04.png)](https://www.cyberbiz.io/support/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程04.png)
+![審查流程](https://www.cyberbiz.io/support/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程04.png)
 
 1. 【等待合約簽署中】：  
 送出申請後，我們確認您的合約已簽署完成，才會開始審核。有關合約簽署進度，請洽您的業務。
@@ -66,11 +66,11 @@ id: "34623"
 1. 上傳網站 Logo 與填寫網站名  
 上傳網站Logo後台路徑 :  
 「網站外觀」→「套版主題管理」→「網站設定」→「導覽列」→「網站 Logo」  
-[![LOGO上傳](https://www.cyberbiz.io/support/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程02.png)](https://www.cyberbiz.io/support/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程02.png)  
+![LOGO上傳](https://www.cyberbiz.io/support/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程02.png)  
 填寫網站名 後台路徑 :  
 「管理中心」→「一般設定」→「網站名」  
 網站名預設為您網址中的英文字串，請修改為您的品牌名稱或公司名稱，以供消費者辨識。  
-[![LOGO上傳](https://www.cyberbiz.io/support/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程02-1.png)](https://www.cyberbiz.io/support/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程02-1.png)  
+![LOGO上傳](https://www.cyberbiz.io/support/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程02-1.png)  
 
 
 
@@ -86,7 +86,7 @@ id: "34623"
 3. 設定聯絡資訊與關於我們  
 關於我們 後台路徑 : 「網站外觀」→「自訂頁面管理」  
 聯絡資訊 後台路徑 : 「網站外觀」→「套版主題管理」→「網站設定」→「頁腳」  
-[![關於我們/聯絡資訊](https://www.cyberbiz.io/support/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程03.png)](https://www.cyberbiz.io/support/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程03.png)
+![關於我們/聯絡資訊](https://www.cyberbiz.io/support/wp-content/uploads/CYBPAYMENTS信用卡金流申請流程03.png)
 
 
 

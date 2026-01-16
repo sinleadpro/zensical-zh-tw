@@ -9,7 +9,7 @@ id: "44090"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **功能說明：**  
 
@@ -45,17 +45,17 @@ id: "44090"
 **【介面說明】**
 
 * 可於頁面查看方案使用期限、商店註冊時間。  
-[![方案](https://www.cyberbiz.io/support/wp-content/uploads/方案01.png)](https://www.cyberbiz.io/support/wp-content/uploads/方案01.png)  
+![方案](https://www.cyberbiz.io/support/wp-content/uploads/方案01.png)  
 
 **【續購】**
 
 * 點選「續購」，完成流程並填寫方案結帳資訊，即可延長使用期限。
 * 續購前需要同意合約和上傳變更登記，待 Cyberbiz 法務審核後(約3~5個工作天)才可進行購買。  
-[![方案](https://www.cyberbiz.io/support/wp-content/uploads/方案03.png)](https://www.cyberbiz.io/support/wp-content/uploads/方案03.png) [![方案](https://www.cyberbiz.io/helpcenter/wp-content/uploads/方案04.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/方案04.png)
+![方案](https://www.cyberbiz.io/support/wp-content/uploads/方案03.png) ![方案](https://www.cyberbiz.io/helpcenter/wp-content/uploads/方案04.png)
 
 * 付款方式：可選擇虛擬 ATM 轉帳或信用卡付款。
 * 選擇信用卡付款，可於「付款設定」頁綁定信用卡付款，亦可輸入信用卡號結帳。
-[![方案](https://www.cyberbiz.io/support/wp-content/uploads/方案02.png)](https://www.cyberbiz.io/support/wp-content/uploads/方案02.png)  
+![方案](https://www.cyberbiz.io/support/wp-content/uploads/方案02.png)  
 
 * * *
 
@@ -73,10 +73,10 @@ id: "44090"
 
 **【使用 Cyberbiz 網域】**  
 Cyberbiz 網域包含「SSL 安全性憑證」，無須自行購買。  
-[![方案](https://www.cyberbiz.io/helpcenter/wp-content/uploads/方案5.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/方案5.png)  
+![方案](https://www.cyberbiz.io/helpcenter/wp-content/uploads/方案5.png)  
 **【使用自有網域】**  
 SSL 安全性憑證隨方案時間贈送。  
-[![方案](https://www.cyberbiz.io/helpcenter/wp-content/uploads/方案7.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/方案7.png)  
+![方案](https://www.cyberbiz.io/helpcenter/wp-content/uploads/方案7.png)  
 
 * * *
 

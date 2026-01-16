@@ -57,13 +57,13 @@ id: "8214"
 (開通後無法進行修改)
 
 3. 確認閱讀同意 LINEX 物流串接服務條款。
-[![linex開通設定](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定01.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定01.png)
+![linex開通設定](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定01.png)
 
 
 
 2. 設定基本資料   
 請設定常用寄件人，並確定使用【英文】填寫，建立託運單時將會自動帶入資料，如果需要調整，可於建立時直接修改。  
-[![linex開通設定基本資料](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定02.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定02.png)
+![linex開通設定基本資料](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定02.png)
 
 
 
@@ -81,7 +81,7 @@ id: "8214"
 1. 【物流名稱】 : 名稱不得重複。
 2. 【運送地區】 : 支援到城市的階層，「鄉鎮區」無法做細部設定。 
 3. 【付款方式】 :  非自訂貨到付款 : 款項進行線上收款，如您有串接其他金流，則可於此處選擇此種付款方式。
-[![宅配運費設定](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定03.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定03.png)
+![宅配運費設定](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定03.png)
 
 
 
@@ -96,7 +96,7 @@ id: "8214"
 訂單重量低與起始重量設定時，此物流將不會顯示於前台。  
 若非特殊需求，建議設定起始重量設定為 0 元。  
 
-[![金額/重量運費設定](https://www.cyberbiz.io/support/wp-content/uploads/物流運費設定04.png)](https://www.cyberbiz.io/support/wp-content/uploads/物流運費設定04.png)
+![金額/重量運費設定](https://www.cyberbiz.io/support/wp-content/uploads/物流運費設定04.png)
 
 
 
@@ -111,14 +111,14 @@ id: "8214"
 
 
 1. 選擇訂單，並點選「選擇操作」按下「建立LINEX託運單」。  
-[![訂單出貨教學](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定04.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定04.png)
+![訂單出貨教學](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定04.png)
 
 
 
 2. 設定託運單資料 
 1. 📍基本資料設定  
 需檢查是否所有資料皆為英文，否則會無法正確建立託運單。  
-[![基本資料設定](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定05.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定05.png)
+![基本資料設定](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定05.png)
 
 
 
@@ -135,7 +135,7 @@ tray。
 a.未完稅交貨（DDU Delivered Duty Unpaid）：由消費者負擔清關的稅費與手續費  
 b.完稅後交貨（DDP Delivered Duty Paid ）：由商家負擔清關的稅費與手續費。
 
-[![商品資訊/商品內容/稅費資訊](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定06.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定06.png)  
+![商品資訊/商品內容/稅費資訊](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定06.png)  
 
 
 5. 📍取件預約 : (僅運送方式選擇「取件預約」的商家有該欄位) 
@@ -143,37 +143,37 @@ b.完稅後交貨（DDP Delivered Duty Paid ）：由商家負擔清關的稅費
 2. 取件時間 : 可選擇12:00 – 16:00。 
 3. 取件資料 : 依照取件人資料填寫。(英文)
 4. 取件備註 : 為必填不能為空值。
-[![取件預約功能](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定07.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定07.png)
+![取件預約功能](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定07.png)
 
 
 
 6. 📍報關方法 
 1. 簡易報關 (樣品)：（大宗報關）離岸價格 ≤ 新台幣 5 萬時申請此報關方式。
 簡易報關 (銷售)：離岸價格 ≤ 新台幣 5 萬且需申報外銷貨物零稅率請選擇此報關方式。 正式報關：離岸價格>新台幣 5 萬時申請此報關方式。
-[![報關方法](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定08.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定08.png)
+![報關方法](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定08.png)
 
 
 
 3. 確認資料無誤後劃至上方點選「試算運費」，確認無誤後點選「建立託運單」。  
-[![試算報表](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定09.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定09.png)
+![試算報表](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定09.png)
 
 
 
 4. 託運單明細  
 點選建立託運單，確認資料後，按下「下載託運單」  
-[![建立託運單](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定10.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定10.png)
+![建立託運單](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定10.png)
 
 
 
 5. 下載託運單且配送狀態更改為「已出貨」。  
-[![下載託運單](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定11.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定11.png)
+![下載託運單](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定11.png)
 
 
 
 6. 託運文件檔案 x 4  
 *LINEX_waybill : 需貼至包裹表面。  
 *orders_printed_details : 需貼至包裹表面。  
-[![託運單檔案](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定12.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定12.png)
+![託運單檔案](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定12.png)
 
 
 

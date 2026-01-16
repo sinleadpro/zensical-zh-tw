@@ -36,5 +36,5 @@ POS商品分析 後台路徑 :「POS功能」→「POS商品分析」
 * 商品銷售量
 * 購物人次
 * 期間營業額佔比
-[![POS營收分析](https://www.cyberbiz.io/support/wp-content/uploads/POS商品分析1.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS商品分析1.png)  
+![POS營收分析](https://www.cyberbiz.io/support/wp-content/uploads/POS商品分析1.png)  
 

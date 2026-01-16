@@ -27,5 +27,5 @@ id: "23628"
 2. 評估是否開啟結帳後立即結案訂單  
 3. 若非立即結案，設定結帳後自動結案天數  
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/POS訂單自動結案設定.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/POS訂單自動結案設定.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/POS訂單自動結案設定.png)
 

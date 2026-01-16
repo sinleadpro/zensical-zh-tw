@@ -40,18 +40,18 @@ LINE APP 路徑 : 「設定」→「 LINE Labs」。 [(點擊查看 LINE
 
 
 2. 開啟「自動產生 LIFF 網址」開關，點選「儲存設定」後，頁面下方自動產生全站 LIFF 網址。  
-[![LINE整合](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入-LIFF會員自動登入01.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入-LIFF會員自動登入01.png)
+![LINE整合](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入-LIFF會員自動登入01.png)
 
 
 
 3. 系統自動產生下方連結，可點擊藍色ICON複製連結。  
-[![產生連結](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入-LIFF會員自動登入02.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入-LIFF會員自動登入02.png)
+![產生連結](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入-LIFF會員自動登入02.png)
 
 
 
 4. LINE Developers 後台會自動產生 LIFF 相關設定。  
 *請商家不要隨意調整此畫面。  
-[![developer畫面](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入-LIFF會員自動登入03.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入-LIFF會員自動登入03.png)
+![developer畫面](https://www.cyberbiz.io/support/wp-content/uploads/LINE-快速登入-LIFF會員自動登入03.png)
 
 
 
@@ -59,7 +59,7 @@ LINE APP 路徑 : 「設定」→「 LINE Labs」。 [(點擊查看 LINE
 * 依據LINE 政策，僅有具備 LINE Certified Provider 資格商家，才可蒐集用戶的手機號碼資訊。
 * 如需申請 LINE Certified Provider ，可參考 [LINE Certified Provider申請說明文件](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ商家_LINE-Certified-Provider申請說明文件0718.pdf)。
 * LINE 僅開放「公司」申請，商行、商號、農場、個人、財團法人無法申請，敬請留意。
-[![developer畫面](https://www.cyberbiz.io/support/wp-content/uploads/LINE-Provider後台-Login-LIFF-LINE-Certified-Provider商家取得手機號碼01.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-Provider後台-Login-LIFF-LINE-Certified-Provider商家取得手機號碼01.png)
+![developer畫面](https://www.cyberbiz.io/support/wp-content/uploads/LINE-Provider後台-Login-LIFF-LINE-Certified-Provider商家取得手機號碼01.png)
 
 
 

@@ -9,7 +9,7 @@ id: "228"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 
 **看完此文件，您可以：**  
@@ -55,7 +55,7 @@ Google Tag Manager（GTM） 是 Google
 
 
 1. 登入 [Google Tag Manager](https://tagmanager.google.com)，點擊「建立帳戶」。
-[![Google Tag Manager 教學](https://www.cyberbiz.io/support/wp-content/uploads/Google-Tag-Manager-教學01.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Tag-Manager-教學01.png)
+![Google Tag Manager 教學](https://www.cyberbiz.io/support/wp-content/uploads/Google-Tag-Manager-教學01.png)
 
 2. 於「帳戶設定」輸入帳戶名稱，選擇國家/地區。  
 
@@ -66,16 +66,16 @@ Google Tag Manager（GTM） 是 Google
 
 * 容器是指實際要裝載追蹤標籤（Tag）的地方，通常對應到一個網站或應用程式。容器內可以設定所有想要安裝的追蹤工具。
 * 商家可使用對應的官網網址或平台名稱來命名容器。
-[![Google Tag Manager 教學](https://www.cyberbiz.io/support/wp-content/uploads/Google-Tag-Manager-教學02.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Tag-Manager-教學02.png)
+![Google Tag Manager 教學](https://www.cyberbiz.io/support/wp-content/uploads/Google-Tag-Manager-教學02.png)
 
 3. 同意服務條款，點選「是」。
-[![Google Tag Manager 教學](https://www.cyberbiz.io/support/wp-content/uploads/Google-Tag-Manager-教學03.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Tag-Manager-教學03.png)
+![Google Tag Manager 教學](https://www.cyberbiz.io/support/wp-content/uploads/Google-Tag-Manager-教學03.png)
 
 4. 取得程式碼資訊，請找到 GTM 代碼並複製。
-[![Google Tag Manager 教學](https://www.cyberbiz.io/support/wp-content/uploads/Google-Tag-Manager-教學04.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Tag-Manager-教學04.png)
+![Google Tag Manager 教學](https://www.cyberbiz.io/support/wp-content/uploads/Google-Tag-Manager-教學04.png)
 
 5. 進入官網後台，找到「Google Tag Manager」區域，將 GTM 代碼貼至「追蹤編號含GTM」欄位。  
 後台路徑 :  「第三方整合」→「谷歌Google設定」  
 
-[![Google Tag Manager 教學](https://www.cyberbiz.io/support/wp-content/uploads/Google-Tag-Manager-教學05.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-Tag-Manager-教學05.png)
+![Google Tag Manager 教學](https://www.cyberbiz.io/support/wp-content/uploads/Google-Tag-Manager-教學05.png)
 

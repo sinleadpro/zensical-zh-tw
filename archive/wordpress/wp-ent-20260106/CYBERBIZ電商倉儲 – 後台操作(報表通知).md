@@ -9,7 +9,7 @@ id: "48336"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **看了此文件，您可以：**  
 
@@ -37,7 +37,7 @@ id: "48336"
 
 * 列表會顯示每個報表的名稱、類型、目前的訂閱狀態等資訊。
 * 點擊操作✏️，即可編輯設定。
-[![WMS報表通知列表01](https://www.cyberbiz.io/support/wp-content/uploads/WMS-後台-設定-報表通知設定-介面列表01.png)](https://www.cyberbiz.io/support/wp-content/uploads/WMS-後台-設定-報表通知設定-介面列表01.png)
+![WMS報表通知列表01](https://www.cyberbiz.io/support/wp-content/uploads/WMS-後台-設定-報表通知設定-介面列表01.png)
 
 * * *
 
@@ -61,7 +61,7 @@ id: "48336"
 
 3. **「啟用通知」** ：控制是否開啟此報表的通知。 
 * **預設為開啟狀態** ，關閉後將停止發送此報表的通知。
-[![WMS一般報表通知設定02](https://www.cyberbiz.io/support/wp-content/uploads/WMS-後台-設定-報表通知設定-一般報表設定01.png)](https://www.cyberbiz.io/support/wp-content/uploads/WMS-後台-設定-報表通知設定-一般報表設定01.png)  
+![WMS一般報表通知設定02](https://www.cyberbiz.io/support/wp-content/uploads/WMS-後台-設定-報表通知設定-一般報表設定01.png)  
 
 * * *
 
@@ -97,7 +97,7 @@ id: "48336"
 * 請於「資料日期範圍」欄位設定範圍。 
 * 選擇「當月」：設定數值X日~Y日，即代表涵蓋當月X日~Y日資料。
 * 選擇「跨月份」：設定數值X日~Y日，，即代表涵蓋當月X日~隔月Y日資料。
-[![WMS進階報表通知設定03](https://www.cyberbiz.io/support/wp-content/uploads/WMS-後台-設定-報表通知設定-進階報表設定01.png)](https://www.cyberbiz.io/support/wp-content/uploads/WMS-後台-設定-報表通知設定-進階報表設定01.png)
+![WMS進階報表通知設定03](https://www.cyberbiz.io/support/wp-content/uploads/WMS-後台-設定-報表通知設定-進階報表設定01.png)
 
 * * *
 

@@ -49,10 +49,10 @@ id: "11972"
 
 
 1. 點擊「前往串接」。  
-[![如何安裝 Meta App](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App01.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App01.png)  
+![如何安裝 Meta App](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App01.png)  
 
 * 進入 Meta Ads 說明頁面，點擊「安裝應用程式」。  
-[![如何安裝 Meta App](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App04.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App04.png)  
+![如何安裝 Meta App](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App04.png)  
 
 * 若商家尚未串接 Meta 商業擴充套件，點擊後會自動跳轉至 Meta 商業擴充套件串接頁。
 * 若商家已串接 Meta 商業擴充套件，尚未建立 Meta 廣告帳號，點擊後會自動跳轉至 Meta 廣告帳號設定頁。
@@ -60,11 +60,11 @@ id: "11972"
 
 
 * 點擊後自動導向確認頁面，同意相關隱私條款後，點擊「確認安裝」。  
-[![如何安裝 Meta App](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App05.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App05.png)  
+![如何安裝 Meta App](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App05.png)  
 
 * 安裝完成，後續可透過 EC 後台前往 Meta Ads App。  
 後台路徑 :  「第三方整合」→「Facebook整合(廣告/註冊登入)」→「廣告活動設定」  
-[![如何安裝 Meta App](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App06.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App06.png)  
+![如何安裝 Meta App](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App06.png)  
 
 * * *
 
@@ -76,14 +76,14 @@ id: "11972"
 * 點擊「創建廣告活動」，即可新增廣告活動。
 * 可於此處關注廣告成效。
 
-[![如何安裝 Meta App](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App09.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App09.png)  
+![如何安裝 Meta App](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App09.png)  
 
 **目錄商品組合列表頁**
 
 * 點擊「創建目錄商品組合」，即可新增目錄商品組合。
 * 可於此處檢視已建立的目錄商品組合。
 
-[![如何安裝 Meta App](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App10.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App10.png)  
+![如何安裝 Meta App](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App10.png)  
 
 * * *
 
@@ -100,12 +100,12 @@ id: "11972"
 
 
 * 若安裝 Meta Ads App 時，出現以下 Error Code 訊息，請重新安裝 Meta App，若仍無法解決，請通知 CYBERBIZ 客服人員。  
-[![如何安裝 Meta App](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App11.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App11.png)
+![如何安裝 Meta App](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App11.png)
 
 
 
 * 若安裝 Meta Ads App 時，出現以下錯誤訊息，請通知 CYBERBIZ 客服人員。  
-[![如何安裝 Meta App](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App08.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App08.png)  
+![如何安裝 Meta App](https://www.cyberbiz.io/support/wp-content/uploads/如何安裝-Meta-App08.png)  
 
 * 如遇廣告創建失敗，可參考 [Meta 廣告 – 【特殊情境】廣告創建失敗](https://www.cyberbiz.io/helpcenter/?p=10681)。
 

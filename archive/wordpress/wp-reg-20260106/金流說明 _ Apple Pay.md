@@ -51,5 +51,5 @@ Pay 優勢**
 
 「金物流」→「結帳頁 & 金物流設定」→「CYBERBIZ PAYMENTS」→「Apple Pay」  
 
-[![apple pay](https://www.cyberbiz.io/support/wp-content/uploads/金流說明-Apple-Pay01.png)](https://www.cyberbiz.io/support/wp-content/uploads/金流說明-Apple-Pay01.png) [![apple pay2](https://www.cyberbiz.io/support/wp-content/uploads/金流說明-Apple-Pay02.png)](https://www.cyberbiz.io/support/wp-content/uploads/金流說明-Apple-Pay02.png)
+![apple pay](https://www.cyberbiz.io/support/wp-content/uploads/金流說明-Apple-Pay01.png) ![apple pay2](https://www.cyberbiz.io/support/wp-content/uploads/金流說明-Apple-Pay02.png)
 

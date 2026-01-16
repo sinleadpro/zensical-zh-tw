@@ -42,19 +42,19 @@ id: "6911"
 
 ## 📌 退貨流程
 
-[![退貨流程](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款02.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款02.png)  
+![退貨流程](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款02.png)  
 
 * * *
 
 ## 📌 退款流程
 
-[![退款流程](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款03.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款03.png)  
+![退款流程](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款03.png)  
 
 * * *
 
 ## 📌 訂單退款形式說明
 
-[![總表圖片](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款01.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款01.png)  
+![總表圖片](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款01.png)  
 
 * * *
 
@@ -71,12 +71,12 @@ id: "6911"
 * 此狀態選擇後，將會同步顯示於顧客前台訂單狀態。
 * 若商家需於後台派車取回商品，則可至後台操作逆物流將商品取回亦可自行使用其他物流取回退貨。
 * 後台逆物流操作說明 : [逆物流](https://www.cyberbiz.io/helpcenter/?p=5333)
-[![退貨中](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款04.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款04.png)  
+![退貨中](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款04.png)  
 
 新版訂單列表操作頁面
 
-[![新版訂單-退貨退款04](https://www.cyberbiz.io/support/wp-content/uploads/新版訂單-退貨退款_15.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版訂單-退貨退款_15.png) 📍【前台顧客頁面】  
-[![顧客頁面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款05.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款05.png)
+![新版訂單-退貨退款04](https://www.cyberbiz.io/support/wp-content/uploads/新版訂單-退貨退款_15.png) 📍【前台顧客頁面】  
+![顧客頁面](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款05.png)
 
 
 
@@ -84,37 +84,37 @@ id: "6911"
 
 * 退貨審查狀態為商家已收到顧客寄回的商品，檢查商品是否完整。
 * 若商家使用逆物流收取退貨商品，待退貨商品簽收後，訂單退貨狀態將自動更改為「退貨審查」。
-[![退貨審查](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款06.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款06.png)
+![退貨審查](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款06.png)
 
 
 
 新版訂單列表操作頁面
 
-[![新版訂單-CYBERBIZ-PAYMENTS-退貨退款06](https://www.cyberbiz.io/support/wp-content/uploads/新版訂單-CYBERBIZ-PAYMENTS-退貨退款06.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版訂單-CYBERBIZ-PAYMENTS-退貨退款06.png)
+![新版訂單-CYBERBIZ-PAYMENTS-退貨退款06](https://www.cyberbiz.io/support/wp-content/uploads/新版訂單-CYBERBIZ-PAYMENTS-退貨退款06.png)
 
 3. 依照收到的商品，商家自行評估是否退款給顧客。  
 
 * 收到退貨商品 → 勾選訂單 → 已退貨 → 直接退款顧客
 * 收到退貨商品 → 勾選訂單 → 拒絕退貨 → 不退款給顧客
-*請留意！一旦勾選拒絕退貨就無法再進行退貨作業，若後續還需進行退款，請自行操作人工退款 (如：轉帳)。  [![已退貨](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款07.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款07.png)
+*請留意！一旦勾選拒絕退貨就無法再進行退貨作業，若後續還需進行退款，請自行操作人工退款 (如：轉帳)。  ![已退貨](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款07.png)
 
 
 4. 點選「已退貨」後，系統將會跳出人工退款資訊填寫欄位。  
 
 * 此欄位僅供紀錄使用，後續退款作業需商家自行轉帳，並非自動退款。 
 * 若無退款資訊，還於銀行帳號欄位中隨意填寫8-14長度數字並選擇任一銀行即可送出。
-[![已退貨](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款08.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款08.png)  
+![已退貨](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款08.png)  
 
 新版訂單列表操作頁面
 
-[![新版訂單-CYBERBIZ-PAYMENTS-退貨退款08](https://www.cyberbiz.io/support/wp-content/uploads/新版訂單-CYBERBIZ-PAYMENTS-退貨退款08.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版訂單-CYBERBIZ-PAYMENTS-退貨退款08.png) 📍【人工退款資訊填寫欄位】  
-[![人工退款資訊填寫欄位](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款09.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款09.png)  
+![新版訂單-CYBERBIZ-PAYMENTS-退貨退款08](https://www.cyberbiz.io/support/wp-content/uploads/新版訂單-CYBERBIZ-PAYMENTS-退貨退款08.png) 📍【人工退款資訊填寫欄位】  
+![人工退款資訊填寫欄位](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款09.png)  
 📍【訂單備註】  
-[![訂單備註](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款10.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款10.png)
+![訂單備註](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款10.png)
 
 新版訂單列表操作頁面
 
-[![新版訂單-部分退貨退款10](https://www.cyberbiz.io/support/wp-content/uploads/新版訂單-CYBERBIZ-PAYMENTS-退貨退款10.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版訂單-CYBERBIZ-PAYMENTS-退貨退款10.png)
+![新版訂單-部分退貨退款10](https://www.cyberbiz.io/support/wp-content/uploads/新版訂單-CYBERBIZ-PAYMENTS-退貨退款10.png)
 
 
 

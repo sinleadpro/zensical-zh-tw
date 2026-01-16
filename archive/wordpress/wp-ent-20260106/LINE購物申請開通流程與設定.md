@@ -9,7 +9,7 @@ id: "36752"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **功能說明：**  
 
@@ -61,7 +61,7 @@ id: "36752"
 【設定提醒】 :  
 
 商品必須符合以下三個條件才會成功出現在產品目錄  
-[![公開](https://www.cyberbiz.io/support/wp-content/uploads/LINE直播申請開通流程與設定03-1.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE直播申請開通流程與設定03-1.png)
+![公開](https://www.cyberbiz.io/support/wp-content/uploads/LINE直播申請開通流程與設定03-1.png)
 
 1. 公開狀態。(如上圖)  
 
@@ -77,7 +77,7 @@ id: "36752"
 * 商家點選「手動更新目錄」  
 請至後台「第三方整合」→「LINE 購物設定」→「LINE購物 整合」開啟設定
 
-[![更新目錄](https://www.cyberbiz.io/support/wp-content/uploads/LINE購物申請開通流程與設定01.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE購物申請開通流程與設定01.png)
+![更新目錄](https://www.cyberbiz.io/support/wp-content/uploads/LINE購物申請開通流程與設定01.png)
 
 2. CYBERBIZ 後台產品目錄固定於每日 4:45AM 及 4:45PM 兩個時段自動更新；  
 LINE 則是固定於每日 5:00AM 同步產品目錄資訊到直播後台。
@@ -97,12 +97,12 @@ LINE 則是固定於每日 5:00AM 同步產品目錄資訊到直播後台。
 
 
 * Product ID 就是後台點開商品頁面的網址最後的數字(如圖範例)  
-[![後臺畫面id](https://www.cyberbiz.io/support/wp-content/uploads/LINE直播申請開通流程與設定03.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE直播申請開通流程與設定03.png)
+![後臺畫面id](https://www.cyberbiz.io/support/wp-content/uploads/LINE直播申請開通流程與設定03.png)
 
 
 
 * 匯出商品列表，將原本預設隱藏的A欄-商品id取消隱藏(如圖範例)。商品 id 即是 Product ID  
-[![後臺畫面id](https://www.cyberbiz.io/support/wp-content/uploads/LINE直播申請開通流程與設定04.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE直播申請開通流程與設定04.png)
+![後臺畫面id](https://www.cyberbiz.io/support/wp-content/uploads/LINE直播申請開通流程與設定04.png)
 
 
 

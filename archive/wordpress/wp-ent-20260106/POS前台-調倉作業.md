@@ -32,14 +32,14 @@ id: "3006"
 3. 選擇來源店家（欲調度店家）
 4. 新增調倉品項並調整數量
 5. 新增調倉並確認
-[![POS前台調倉作業](https://www.cyberbiz.io/support/wp-content/uploads/POS前台調倉作業1.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台調倉作業1.png)  
+![POS前台調倉作業](https://www.cyberbiz.io/support/wp-content/uploads/POS前台調倉作業1.png)  
 同意調倉需求
 
 25. B門市確認A門市所建立調倉單
 1. 選擇調商單列表
 2. 查看待我方確認
 3. 進入調倉單
-[![POS前台調倉作業](https://www.cyberbiz.io/support/wp-content/uploads/POS前台調倉作業2.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台調倉作業2.png)  
+![POS前台調倉作業](https://www.cyberbiz.io/support/wp-content/uploads/POS前台調倉作業2.png)  
 
 26. B門市同意A所提的調倉單，B門市將自動產出「出倉單」
 1. 確認調倉需求後，同意調倉
@@ -47,20 +47,20 @@ id: "3006"
 3. 收到通知提醒
 * A店向B店提調倉需求，B店出現調倉單通知 
 * B同意調倉後自動成立B店出倉單通知
-[![POS前台調倉作業](https://www.cyberbiz.io/support/wp-content/uploads/POS前台調倉作業3.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台調倉作業3.png)  
+![POS前台調倉作業](https://www.cyberbiz.io/support/wp-content/uploads/POS前台調倉作業3.png)  
 回歸出/進倉作業
 
 27. B門市調倉同意後，B門市可在出倉單列表，查看到待A門市確認的出倉單
 1. 選擇出倉單列表
 2. 查看待確認
 3. 可看見出倉單待A門市確認，且顯示對應調倉單連結
-[![POS前台調倉作業](https://www.cyberbiz.io/support/wp-content/uploads/POS前台調倉作業4.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台調倉作業4.png)  
+![POS前台調倉作業](https://www.cyberbiz.io/support/wp-content/uploads/POS前台調倉作業4.png)  
 
 28. A門市進倉單列表，可確認B門市出倉單
 1. 選擇進倉單列表
 2. 查看待確認
 3. 進行出倉作業（後續比照[出/進倉作業](https://www.cyberbiz.io/support/?p=2962#b)）
-[![POS前台調倉作業](https://www.cyberbiz.io/support/wp-content/uploads/POS前台調倉作業5.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台調倉作業5.png)  
+![POS前台調倉作業](https://www.cyberbiz.io/support/wp-content/uploads/POS前台調倉作業5.png)  
 規則&注意事項  
 1\. 此功能僅限於POS店與POS店、POS店與官網進行調倉，對於非系統內之第三方(如供應商、批貨廠商等)不在此限。  
 2.新建調倉單者為需要庫存(進倉)者，被調倉者為扣庫存(出倉)者。  

@@ -9,9 +9,9 @@ id: "728"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/日本站.png)]()
+![](https://www.cyberbiz.io/support/wp-content/uploads/日本站.png)
 
 **功能說明：**  
 
@@ -37,7 +37,7 @@ id: "728"
 
 
 2. 進入 CYBERBIZ 後台 ，可設定及開關相關功能。   
-後台路徑 :「訊息推播」→「LINE OA 通知樣板」 [![訊息提醒樣版功能01](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-訊息提醒樣板功能01.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-訊息提醒樣板功能01.png)
+後台路徑 :「訊息推播」→「LINE OA 通知樣板」 ![訊息提醒樣版功能01](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-訊息提醒樣板功能01.png)
 
 
 
@@ -49,12 +49,12 @@ id: "728"
 * 文字訊息 : 公版內容，可自行新增刪減內容。
 *若需更改內文，請注意 {{ }} 中的內容，不要自行更動。(為自動抓取 CYBERBIZ 設定資料)  
 *支援所有【訂單事件】&【物流事件】  
-[![訊息提醒樣版功能02](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-訊息提醒樣板功能02.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-訊息提醒樣板功能02.png)  
+![訊息提醒樣版功能02](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-訊息提醒樣板功能02.png)  
 
 
 【純文字】 : 設定方法同上
 
-[![訊息提醒樣版功能02](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-訊息提醒樣板功能03.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-訊息提醒樣板功能03.png)
+![訊息提醒樣版功能02](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-訊息提醒樣板功能03.png)
 
 ## 📌 支援訊息類別
 

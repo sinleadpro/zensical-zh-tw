@@ -8,7 +8,7 @@ id: "23782"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **功能說明：**  
 
 * EDM可用於執行「電子報行銷」（Email direct Marketing）。
@@ -34,7 +34,7 @@ id: "23782"
 * 上傳EDM中顯示LOGO（尺寸：448×167px；若要更新logo，直接再次上傳即可）
 * 新增EDM並編輯EDM內容
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM1.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM1.png) 編輯EDM
+![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM1.png) 編輯EDM
 
 * 編輯EDM標題（建議字數不超過25字，避免字數過多，手機上無法呈現完整標題，且不可使用emoji符號）
 * 上傳EDM顯示圖片，欲預先瀏覽可先行儲存上傳（尺寸寬度560px；高度不限）
@@ -42,7 +42,7 @@ id: "23782"
 * 可填入文字訊息（不可使用emoji及特殊符號、支援html、css語法）
 需注意：圖片至多3張，所有圖片大小合計不得超過2MB  
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM2.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM2.png) 選擇發送對象 後台位置:編輯EDM標題>點擊EDM選擇發送對象  
+![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM2.png) 選擇發送對象 後台位置:編輯EDM標題>點擊EDM選擇發送對象  
 
 
 * 選擇 EDM 發送方式，建議優先寄給管理員測試，確認內容再發送給客戶（管理員有算在EDM數）。
@@ -55,10 +55,10 @@ id: "23782"
 * 透過EXCEL匯入 請不要留任何空格，避免空格後的資料皆無法成功上傳。
 * 依據群組發送給顧客 : 將自動排除"不願接受電子報"的消費者。
 * EDM發送僅能發送已在系統會員當中的顧客，非系統會員無法發送。
-[![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM3.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM3.png) EDM紀錄 後台位置:發送EDM>EDM紀錄  
+![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM3.png) EDM紀錄 後台位置:發送EDM>EDM紀錄  
 
 
 * 篩選發送日期區間
 * 查看EDM紀錄訊息通常「信件開啟率」、 「連結點擊數」為效益指標
-*「信件開啟數量」以及「連結點擊數」 CYBERBIZ 並非即時更新，更新時間為每日凌晨 1:30。 [![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM4.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM4.png)
+*「信件開啟數量」以及「連結點擊數」 CYBERBIZ 並非即時更新，更新時間為每日凌晨 1:30。 ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM4.png)
 

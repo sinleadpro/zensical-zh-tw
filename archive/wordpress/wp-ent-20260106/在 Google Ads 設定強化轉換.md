@@ -9,7 +9,7 @@ id: "39654"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **看完此文件，您可以：**  
 
@@ -42,7 +42,7 @@ id: "39654"
 後台路徑 :  「目標」→「設定」→「強化轉換」  
 
 1. 進入 [Google Ads後台](https://ads.google.com/intl/zh-TW_tw/home/)，找到「強化轉換」區塊，點擊「啟用強化轉換」，選擇「Google代碼」，點擊「儲存」。  
-[![購買事件](https://www.cyberbiz.io/support/wp-content/uploads/GOOGLE-ADWORDS-強化轉換追蹤設定03.png)](https://www.cyberbiz.io/support/wp-content/uploads/GOOGLE-ADWORDS-強化轉換追蹤設定03.png)
+![購買事件](https://www.cyberbiz.io/support/wp-content/uploads/GOOGLE-ADWORDS-強化轉換追蹤設定03.png)
 
 
 

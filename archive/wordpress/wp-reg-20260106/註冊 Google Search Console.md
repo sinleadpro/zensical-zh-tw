@@ -30,34 +30,34 @@ id: "3375"
 
 1. 進入 [Google Search Console](https://search.google.com/search-console/about
 )，點選立即開始。  
-[![gsc1](https://www.cyberbiz.io/support/wp-content/uploads/Google-search-console註冊01.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-search-console註冊01.png)
+![gsc1](https://www.cyberbiz.io/support/wp-content/uploads/Google-search-console註冊01.png)
 
 
 
 2. 點選右邊「網址前置字元」，輸入官網網址。  
-[![gsc2](https://www.cyberbiz.io/support/wp-content/uploads/Google-search-console註冊02.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-search-console註冊02.png)
+![gsc2](https://www.cyberbiz.io/support/wp-content/uploads/Google-search-console註冊02.png)
 
 
 
 3. 驗證方式選擇「HTML 標記」，複製欄位中的程式碼，貼至 CYBERBIZ 後台。  
-[![gsc3](https://www.cyberbiz.io/support/wp-content/uploads/Google-search-console註冊03.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-search-console註冊03.png)
+![gsc3](https://www.cyberbiz.io/support/wp-content/uploads/Google-search-console註冊03.png)
 
 
 
 4. 將步驟3的代碼貼至 `< /head >`前面。  
 後台路徑 :「網站外觀」→「套版主題管理」→選擇操作「CSS/HTML編輯器」→「theme.liquid」  
-[![gsc4](https://www.cyberbiz.io/support/wp-content/uploads/Google-search-console註冊04.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-search-console註冊04.png)
+![gsc4](https://www.cyberbiz.io/support/wp-content/uploads/Google-search-console註冊04.png)
 
 
 
 5. 回到 Google Search Console 後台，點選「驗證」。驗證完成後會出現「已驗證擁有權」彈窗。  
 點擊「前往資源」，即可完成設定。  
-[![gsc5](https://www.cyberbiz.io/support/wp-content/uploads/Google-search-console註冊05.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-search-console註冊05.png)
+![gsc5](https://www.cyberbiz.io/support/wp-content/uploads/Google-search-console註冊05.png)
 
 
 
 6. 可回到 Google Search Console 後台，查看相關數據。   
-[![gsc6](https://www.cyberbiz.io/support/wp-content/uploads/Google-search-console註冊06.png)](https://www.cyberbiz.io/support/wp-content/uploads/Google-search-console註冊06.png)
+![gsc6](https://www.cyberbiz.io/support/wp-content/uploads/Google-search-console註冊06.png)
 
 
 

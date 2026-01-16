@@ -45,7 +45,7 @@ id: "4412"
 28. 新增EDM並編輯EDM內容
 
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM1.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM1.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM1.png)
 
 ## 編輯EDM
 
@@ -55,7 +55,7 @@ id: "4412"
 32. 可填入文字訊息（不可使用emoji及特殊符號、支援html、css語法）
 需注意：圖片至多3張，所有圖片大小合計不得超過2MB  
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM2.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM2.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM2.png)
 
 ## 選擇發送對象
 
@@ -74,7 +74,7 @@ id: "4412"
 38. 依據群組發送給顧客 : 將自動排除"不願接受電子報"的消費者。
 39. EDM發送僅能發送已在系統會員當中的顧客，非系統會員無法發送。
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM3.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM3.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM3.png)
 
 ## EDM紀錄
 
@@ -85,5 +85,5 @@ id: "4412"
 41. 查看EDM紀錄訊息通常「信件開啟率」、 「連結點擊數」為效益指標
 *【信件開啟數、連結點擊數為高手版提供，專業/進階版不適用】   
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM4.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM4.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/發送EDM4.png)
 

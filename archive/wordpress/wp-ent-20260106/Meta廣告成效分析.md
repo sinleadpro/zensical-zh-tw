@@ -9,7 +9,7 @@ id: "48371"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **看了此文件，您可以：**  
 
@@ -54,7 +54,7 @@ id: "48371"
 **ROAS（廣告投資報酬率）** | 每花費 1 元廣告費可帶來多少營收，可用來快速衡量廣告投資的回報效益。  
 * 每項指標下方皆會顯示「與上個週期相比」的變化百分比，幫助評估成效趨勢。
 * 您可切換時間範圍，對照分析不同週期的表現。
-[![meta成效分析](https://www.cyberbiz.io/support/wp-content/uploads/Meta廣告成效分析01.png)](https://www.cyberbiz.io/support/wp-content/uploads/Meta廣告成效分析01.png)  
+![meta成效分析](https://www.cyberbiz.io/support/wp-content/uploads/Meta廣告成效分析01.png)  
 透過這些關鍵指標，您可以針對營收成長、廣告花費或回報進行觀察與行動：  使用情境 | 說明內容  
 ---|---  
 **廣告總體檢視** | 可一眼掌握關鍵指標是否成長，並快速回顧與上期相比是否有明顯變動。  
@@ -67,13 +67,13 @@ id: "48371"
 ## 📌 如何透過 AI 獲得廣告洞察
 
 1. 點擊「AI分析」按鈕，進入「AI Insights」頁面。  
-[![meta成效分析](https://www.cyberbiz.io/support/wp-content/uploads/Meta廣告成效分析02.png)](https://www.cyberbiz.io/support/wp-content/uploads/Meta廣告成效分析02.png)
+![meta成效分析](https://www.cyberbiz.io/support/wp-content/uploads/Meta廣告成效分析02.png)
 
 2. 選擇想要分析的時間區段，即可開始與 AI 對話。  
-[![meta成效分析](https://www.cyberbiz.io/support/wp-content/uploads/Meta廣告成效分析03.png)](https://www.cyberbiz.io/support/wp-content/uploads/Meta廣告成效分析03.png)
+![meta成效分析](https://www.cyberbiz.io/support/wp-content/uploads/Meta廣告成效分析03.png)
 
 3. 系統會自動向 Meta 抓取該時間區段的廣告數據，並運用 AI 模型協助解析成效趨勢。若不確定要問什麼，也可選用系統推薦的「熱門問題」。  
-[![meta成效分析](https://www.cyberbiz.io/support/wp-content/uploads/Meta廣告成效分析04.png)](https://www.cyberbiz.io/support/wp-content/uploads/Meta廣告成效分析04.png)
+![meta成效分析](https://www.cyberbiz.io/support/wp-content/uploads/Meta廣告成效分析04.png)
 
 * * *
 

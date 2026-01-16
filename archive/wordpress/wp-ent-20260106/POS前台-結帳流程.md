@@ -32,7 +32,7 @@ POS結帳介面說明 會員登入、註冊或訪客結帳（非會員結帳）
 
 3. 「會員登入」或「會員快速註冊」
 4. 訪客結帳
-[![POS前台結帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程1.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程1.png)  
+![POS前台結帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程1.png)  
 
 6. 情境補充說明：
 1. 客戶非會員，願意加入會員：詢問手機號碼，選擇「會員快速註冊」。
@@ -40,11 +40,11 @@ POS結帳介面說明 會員登入、註冊或訪客結帳（非會員結帳）
 3. 客戶非會員，不願意加入會員：選擇「訪客結帳」。
 7. 請注意，選擇會員快速註冊，系統將自動發送「POS顧客帳號啟用通知」，因此商家可提醒顧客進行「完整會員註冊」，始可使用會員註冊有提供的「優惠券」，若註冊提供的「紅利點數」，則可在非完整註冊狀況下，現場使用折抵。
 
-[![POS前台結帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程2.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程2.png)  
+![POS前台結帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程2.png)  
 登入會員後切換會員 「登入會員」後，可點擊「切換會員」，更改會員資訊，訂單將自動轉換會員並享有相應權益。  
-[![拖拉版型](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-結帳-切換會員01.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-結帳-切換會員01.png)  
+![拖拉版型](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-結帳-切換會員01.png)  
 訪客結帳時登入會員 訪客結帳模式下，可點擊「登入會員」，轉換為會員結帳，訂單將自動轉換為會員訂單並享有相應權益。  
-[![拖拉版型](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-結帳-訪客登入會員01.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-結帳-訪客登入會員01.png)  
+![拖拉版型](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-結帳-訪客登入會員01.png)  
 會員登入畫面
 
 1. 顯示登入者名稱
@@ -54,7 +54,7 @@ POS結帳介面說明 會員登入、註冊或訪客結帳（非會員結帳）
 5. 掃描SKU或填入條碼後，可導入商品
 6. 可人工調整數量
 7. 按下「小計」，將計算訂單總額、優惠後結帳金額。
-[![POS前台結帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程3.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程3.png)  
+![POS前台結帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程3.png)  
 結帳頁面
 
 1. 可展開查看折扣、進行店長改價。
@@ -75,7 +75,7 @@ POS結帳介面說明 會員登入、註冊或訪客結帳（非會員結帳）
 7. 若有使用[分潤設定：推薦人分潤](https://www.cyberbiz.io/support/?p=1755)可填入推薦代碼。
 8. 可切換結帳人，亦連動結帳人分潤設定。
 9. 此欄位在小計後，將依訂單優惠計算，並明列細項資訊。
-[![POS前台結帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程4.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程4.png)  
+![POS前台結帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程4.png)  
 結帳時如何套用行銷活動
 
 1. 點擊「加價購」
@@ -84,7 +84,7 @@ POS結帳介面說明 會員登入、註冊或訪客結帳（非會員結帳）
 4. 未達滿額贈/滿件贈條件，將提示相關訊息
 5. 若符合條件，贈品將直接加入購物車
 6. 若贈品已無庫存，會跳出提示彈窗，且贈品將不會出現在購物車中
-[![POS前台結帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程5.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程5.png)  
+![POS前台結帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程5.png)  
 進行結帳
 
 1. 點擊進行結帳（收款）
@@ -105,7 +105,7 @@ POS結帳介面說明 會員登入、註冊或訪客結帳（非會員結帳）
 * 其他發票種類（手機載具、自然人憑證、捐贈社福團體）  
 須配合盟立發票機，輸入對應的代碼，若消費者提供條碼可用Barcode機掃描取得
 
-[![POS前台結帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程6.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程6.png)  
+![POS前台結帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程6.png)  
 認單時間&開立發票
 
 * 認單時間與電子發票 
@@ -116,12 +116,12 @@ POS結帳介面說明 會員登入、註冊或訪客結帳（非會員結帳）
 3. 可透過下箭頭按鈕，單獨列印明細
 4. 若消費者結帳後欲查詢訂單，可依據持有發票掃碼槍掃描，直接查詢到該筆訂單
 * 收款前，在選擇發票形式後如需改變，可點選【取消】回到前一頁再點回結帳頁即可重新選擇
-[![POS前台結帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程7.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程7.png)  
+![POS前台結帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程7.png)  
 
 8. 自行開立發票（手開發票）
 1. 不論有串接發票或無串接，選擇自行開立
 2. 輸入發票號碼（可後續補填，補填可參考訂單相關教學）
-[![POS前台結帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程8.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程8.png)  
+![POS前台結帳](https://www.cyberbiz.io/support/wp-content/uploads/POS前台結帳流程8.png)  
 規則&注意事項  
 1.結帳前需要先進行會員註冊/登入  
 2.訂單結帳完若有設定自動開發票，將可連動發票機列印發票。 _Step 1  _點擊「結帳」按鈕  

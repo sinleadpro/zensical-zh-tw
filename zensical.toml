@@ -58,7 +58,9 @@ copyright = """
             { "一般退貨退款" = "ec/orders/一般退貨退款.md" },
             { "一般退貨退款-cli" = "ec/orders/一般退貨退款-cli.md" }
         ]},
-        { "會員" = "ec/members/index.md" },
+        { "會員" = [
+            { "VIP 設定" = "ec/members/設定 VIP 群組.md" }
+        ]},
         { "商品" = [
             { "商品管理" = "ec/products/index.md" },  
             { "快速上手" = "ec/products/quickstart.md" },  
@@ -83,15 +85,13 @@ copyright = """
                     { "秘密商品群組" = "ec/products/設定秘密商品群組.md" },
                     { "商品標籤管理" = "ec/products/管理商品標籤.md" },
                     { "商品多層級分類" = "ec/products/設定商品多層級分類.md" },
-                    { "前台商品群組排序" = "ec/products/設定前台商品群組排序.md" },
-                    { "前台商品篩選器" = "ec/products/設定前台商品篩選器.md" }
+                    { "商品篩選器" = "ec/products/設定前台商品篩選器.md" }
             ]},
             { "商品銷售" = [
                     { "管理商品評論" = "ec/products/管理商品評論.md"},
                     { "啟用留言區 reCAPTCHA" = "ec/products/啟用留言區 reCAPTCHA.md"},
                     { "設定結帳拆分多購物車" = "ec/products/設定結帳拆分多購物車.md"},
-                    { "設定 VIP 會員專屬價格" = "ec/products/設定 VIP 會員專屬價格.md" },
-                    { "設定任選折扣群組" = "ec/products/設定任選折扣群組.md" }
+                    { "設定會員專屬價格" = "ec/products/設定 VIP 會員專屬價格.md" }
             ]},
             { "電子票券" = [
                     { "電子票券設定" = "ec/products/電子票券指南.md" },
@@ -106,6 +106,7 @@ copyright = """
             { "商品加價購" = "ec/marketing/設定商品加價購.md" },
             { "訂單加價購" = "ec/marketing/設定訂單加價購.md" },
             { "單品限時折扣群組" = "ec/marketing/設定單品限時折扣群組.md" },
+            { "任選折扣" = "ec/marketing/設定任選折扣群組.md" },
             { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" },
             { "商品多層級分類滿額折扣" = "ec/marketing/設定商品多層級分類滿額折扣.md" },
             { "行銷活動" = [

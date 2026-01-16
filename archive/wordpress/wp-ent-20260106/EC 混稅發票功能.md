@@ -9,7 +9,7 @@ id: "37151"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **功能說明：**  
 
@@ -33,9 +33,9 @@ id: "37151"
 1. 開通此功能後發票明細的折扣明細會被整合成應稅折扣、免稅折扣，範例如圖。  
 
 
-[![開通前](https://www.cyberbiz.io/support/wp-content/uploads/EC-混稅發票功能01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-混稅發票功能01.png)
+![開通前](https://www.cyberbiz.io/support/wp-content/uploads/EC-混稅發票功能01.png)
 
-[![空通後](https://www.cyberbiz.io/support/wp-content/uploads/EC-混稅發票功能02.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-混稅發票功能02.png)
+![空通後](https://www.cyberbiz.io/support/wp-content/uploads/EC-混稅發票功能02.png)
 
 
 
@@ -61,13 +61,13 @@ id: "37151"
 
 
 1. 請至 EC 後台右下角客服視窗，向 客服申請開通功能。  
-[![開通申請](https://www.cyberbiz.io/support/wp-content/uploads/EC-混稅發票功能03.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-混稅發票功能03.png)
+![開通申請](https://www.cyberbiz.io/support/wp-content/uploads/EC-混稅發票功能03.png)
 
 
 
 2. 開通完成後，請至「商品」→「所有商品」→選擇要設定的商品 →「設定」。  
 *也可至 「Excel 大量匯入商品」匯入商品設定，透過【商品稅別】欄位。   
-[![設定稅別](https://www.cyberbiz.io/support/wp-content/uploads/EC-混稅發票功能04.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-混稅發票功能04.png)
+![設定稅別](https://www.cyberbiz.io/support/wp-content/uploads/EC-混稅發票功能04.png)
 
 
 

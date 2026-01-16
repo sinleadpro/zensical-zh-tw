@@ -38,12 +38,12 @@ id: "5773"
 
 
 1. 可點選「新增篩選條件」，選擇您可篩選的內容，並按下「套用」。  
-[![會員篩選器](https://www.cyberbiz.io/support/wp-content/uploads/會員-會員篩選器01.png)](https://www.cyberbiz.io/support/wp-content/uploads/會員-會員篩選器01.png)
+![會員篩選器](https://www.cyberbiz.io/support/wp-content/uploads/會員-會員篩選器01.png)
 
 
 
 2. 按下「套用」後，您可查看下方的會員。  
-[![會員篩選器2](https://www.cyberbiz.io/support/wp-content/uploads/會員-會員篩選器02.png)](https://www.cyberbiz.io/support/wp-content/uploads/會員-會員篩選器02.png)
+![會員篩選器2](https://www.cyberbiz.io/support/wp-content/uploads/會員-會員篩選器02.png)
 
 
 

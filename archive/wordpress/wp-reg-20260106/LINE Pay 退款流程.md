@@ -23,7 +23,7 @@ id: "2175"
 
 * 請在訂單成立 60天 內完成退款，若訂單成立超過 60天，商家便無法於 LINEPAY 後台進行線上退款，需自行與客戶聯繫進行退款，且須自行支付手續費。
 * 詳情請見 LINE Pay - 一般服務條款 - 5. 交易取消 。  
-[![LINE-Pay退款流程01](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINE-Pay退款流程01.jpg)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINE-Pay退款流程01.jpg)
+![LINE-Pay退款流程01](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINE-Pay退款流程01.jpg)
 
 
 
@@ -34,12 +34,12 @@ id: "2175"
 
 
 1. 選擇欲取消的訂單。  
-[![LINE-Pay退款流程02](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINE-Pay退款流程02.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINE-Pay退款流程02.png)
+![LINE-Pay退款流程02](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINE-Pay退款流程02.png)
 
 
 
 2. 進入訂單頁面選擇右上角「取消訂單」按鈕。  
-[![LINE-Pay退款流程03](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINE-Pay退款流程03.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINE-Pay退款流程03.png)
+![LINE-Pay退款流程03](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINE-Pay退款流程03.png)
 
 
 
@@ -49,7 +49,7 @@ id: "2175"
 * 選擇是否將顧客設為警示帳號
 *按下取消此訂單後，訂單狀態會變更為已取消，並無法再做變更。  
 *系統將自動歸還該訂單中使用的紅利及優惠券。   
-[![LINE-Pay退款流程04](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINE-Pay退款流程04.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINE-Pay退款流程04.png)
+![LINE-Pay退款流程04](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINE-Pay退款流程04.png)
 
 
 
@@ -65,14 +65,14 @@ id: "2175"
 1. 整筆退款 :   
 直接勾選「取消選擇」的取消，則會整筆退款。  
 ＊請注意！一旦按下取消按鈕，該訂單之狀態會變更為已取消，且此狀態將無法再做變更。  
-[![LINE-Pay退款流程05](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINE-Pay退款流程05.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINE-Pay退款流程05.png)
+![LINE-Pay退款流程05](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINE-Pay退款流程05.png)
 
 
 
 2. 部分退款 :   
 點進該筆交易，點下[部分取消]>輸入欲取消的金額，提交後即可部分退款。  
 ＊請注意！一旦按下取消按鈕，該訂單之狀態會變更為已取消，且此狀態將無法再做變更。  
-[![LINE-Pay退款流程06](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINE-Pay退款流程06.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINE-Pay退款流程06.png)
+![LINE-Pay退款流程06](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINE-Pay退款流程06.png)
 
 
 

@@ -63,20 +63,20 @@ CYBERBIZ 會將您所提供的資料，
 
 * 【審核通知信件】  
 此信件代表 LINE Pay 已收到申請資料，但尚在進行審核，而審核的決定權在 LINE Pay 手上，如果順利開通了會再以信件通知  
-[![審核申請](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINEPAY申請01.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINEPAY申請01.png)
+![審核申請](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINEPAY申請01.png)
 
 
 
 * 【補件通知 】(若需補件才須經此步驟)  
 如需要補件，LINE Pay 將會寄送此信件，而 CYBERBIZ
 將會同時寄送補件通知您，還請依照信件指示補充所需資料，補件完成後，將會重新審核，審核時間為6-8週。
-[![審核申請](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINEPAY申請02.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINEPAY申請02.png)
+![審核申請](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINEPAY申請02.png)
 
 
 
 * 【帳號已開通 】  
 您的 LINE Pay 帳號已經審核通過，將可進行後續串接設置。 串接專用Channel ID、Channel Secret 將由 CYBERBIZ
-提供給您。 [![審核申請](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINEPAY申請03.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINEPAY申請03.png)
+提供給您。 ![審核申請](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINEPAY申請03.png)
 
 ## 三、於 CYBERBIZ 系統後台填寫金鑰
 
@@ -85,7 +85,7 @@ CYBERBIZ 會將您所提供的資料，
 1. CYBERBIZ 金鑰通知信件  
 此封信件中將會提供貴司串接專用的Channel ID、Channel Secret ，接收到此信件後即代表申請已完成，請於 CYBERBIZ
 後台填入代碼即可完成串接。  
-[![審核申請](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINEPAY申請04.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINEPAY申請04.png)
+![審核申請](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINEPAY申請04.png)
 
 
 
@@ -95,9 +95,9 @@ CYBERBIZ 會將您所提供的資料，
 
 * 請特別留意填入時請勿帶有空格，以免無法順利啟用。
 * 若您同時申請 EC 與 POS 的 LINE Pay，請注意兩者的金鑰不可共用，請依對應系統分別填寫。
-[![審核申請](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINEPAY申請05.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINEPAY申請05.png)  
+![審核申請](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINEPAY申請05.png)  
 *金流門檻設定 專業版(PLUS)、進階版(PLUS) 皆不適用此功能。  
-[![審核申請2](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINEPAY申請05-1.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINEPAY申請05-1.png)
+![審核申請2](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINEPAY申請05-1.png)
 
 
 
@@ -105,9 +105,9 @@ CYBERBIZ 會將您所提供的資料，
 請設置完後至「金物流」→「 宅配運費設定」中的付款方式中  
 將新增的付款方式勾起，如此才是完成完整設置。  
 
-[![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/綠界金流串接15.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/綠界金流串接15.png)
+![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/綠界金流串接15.png)
 
-[![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/綠界金流串接16.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/綠界金流串接16.png)
+![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/綠界金流串接16.png)
 
 
 
@@ -116,7 +116,7 @@ CYBERBIZ 會將您所提供的資料，
 ## 📌LINEPAY訂單編號對照
 
 於LINEPAY後台中查看訂單號碼欄位，以範例所示 21678N、R1為隨機編號，中間數字則是該筆訂單於CYBERBIZ後台訂單編號。  
-[![linepay訂單對照](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINEPAY申請06.png)](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINEPAY申請06.png)  
+![linepay訂單對照](https://www.cyberbiz.io/helpcenter/wp-content/uploads/LINEPAY申請06.png)  
 
 * * *
 

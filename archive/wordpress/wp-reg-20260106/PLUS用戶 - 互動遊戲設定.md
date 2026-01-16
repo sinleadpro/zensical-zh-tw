@@ -53,7 +53,7 @@ id: "5804"
 * 進行中：表示遊戲正在進行中，且遊戲類型/會員遊戲頻率/遊戲開始時間/獎項皆不能更改。
 * 已結束：表示遊戲時間結束或是獎項已抽完。 
 * 暫停中：遊戲暫停開放，可點擊「繼續遊戲」來啟動遊戲。
-[![互動遊戲設定01](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定01.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定01.png)
+![互動遊戲設定01](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定01.png)
 
 
 
@@ -75,7 +75,7 @@ id: "5804"
 【遊戲時間】: 開始時間 / 結束時間。  
 【遊戲彈窗樣式】: 彈窗背景顏色 / 彈窗文字顏色。[(查看範例)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定04.png)  
 【UTM服務】: 啟用UTM服務。(請勿使用短網址)  
-[![互動遊戲設定03](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定03.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定03.png)
+![互動遊戲設定03](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定03.png)
 
 
 
@@ -83,29 +83,29 @@ id: "5804"
 【輪盤抽獎】  
 
 1. 預設版型  
-[![互動遊戲設定05](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定05.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定05.png)
+![互動遊戲設定05](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定05.png)
 
 2. 自訂版型   
 
-[![互動遊戲設定06](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定06.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定06.png)
+![互動遊戲設定06](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定06.png)
 
-[![互動遊戲設定07](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定07.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定07.png)
+![互動遊戲設定07](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定07.png)
 
 
 【紅包抽獎】  
 
 1. 預設版型  
-[![互動遊戲設定08](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定08.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定08.png)
+![互動遊戲設定08](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定08.png)
 
 2. 自訂版型   
 
-[![互動遊戲設定09](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定09.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定09.png)
+![互動遊戲設定09](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定09.png)
 
-[![互動遊戲設定10](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定10.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定10.png)
+![互動遊戲設定10](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定10.png)
 
 
 
-[![互動遊戲設定11](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定11.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定11.png)
+![互動遊戲設定11](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定11.png)
 
 
 
@@ -118,7 +118,7 @@ id: "5804"
 
 
 1. 設定獎項，點選「新增獎項」  
-[![互動遊戲設定12](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定12.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定12.png)
+![互動遊戲設定12](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定12.png)
 
 
 
@@ -132,17 +132,17 @@ id: "5804"
 * 【種類】: 未中獎/紅利/優惠券/免運券。
 * 【中獎機率】: 此欄位填數字即可。(全部獎項的中獎機率相加必須為100%)
 * 【獎項連結】: 可設定每個獎項的連結。 
-[![互動遊戲設定13](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定13.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定13.png)  
+![互動遊戲設定13](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定13.png)  
 
 📍﹝未中獎﹞  
-[![互動遊戲設定14](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定14.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定14.png)  
+![互動遊戲設定14](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定14.png)  
 
 📍﹝紅利﹞  
 
 * 【紅利名稱】: 此獎項歸戶後，會員的前後台皆可看到紅利獎項名稱。 
 * 【贈送紅利】: 贈送 __ 點紅利給會員。 
 * 【有效期限】: 紅利點數的有效期限。 
-[![互動遊戲設定15](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定15.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定15.png)  
+![互動遊戲設定15](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定15.png)  
 
 📍﹝優惠券﹞  
 
@@ -154,7 +154,7 @@ id: "5804"
 * 【最低消費門檻】: 設定使用此優惠券的訂單門檻。 
 * 【綁訂商品標籤】: 綁定特定標籤，則此優惠券僅有指定標籤商品才可使用。 
 * 【與其他行銷活動併用限制】: 請看圖中範例。 
-[![互動遊戲設定16](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定16.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定16.png)  
+![互動遊戲設定16](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定16.png)  
 
 📍﹝免運券﹞  
 
@@ -166,17 +166,17 @@ id: "5804"
 * 【綁定商品或商品標籤】: 
 1. 商品標籤 : 選擇購買哪些商品標籤時適用此免運券。
 2. 商品 : 選擇購買哪些商品時適此該免運券。
-[![互動遊戲設定16](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定16-1.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定16-1.png)  
+![互動遊戲設定16](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定16-1.png)  
 
 📍﹝設定範例﹞  
 設定完成後無法修改僅能檢視。  
-[![互動遊戲設定17](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定17.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定17.png)  
+![互動遊戲設定17](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定17.png)  
 
 📍﹝轉盤遊戲獎項數量顯示差異﹞  
 設定轉盤遊戲時，若獎項設定為奇數個，則前台轉盤會新增「開始」選項，作為轉盤起始點。  
-[![互動遊戲設定17](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-互動遊戲-輪盤遊戲-獎項數量奇數01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-互動遊戲-輪盤遊戲-獎項數量奇數01.png)  
+![互動遊戲設定17](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-互動遊戲-輪盤遊戲-獎項數量奇數01.png)  
 若獎項為偶數個，則前台轉盤不會有「開始」選項，僅顯示原有獎項。  
-[![互動遊戲設定17](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-互動遊戲-輪盤遊戲-獎項數量偶數01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-互動遊戲-輪盤遊戲-獎項數量偶數01.png)
+![互動遊戲設定17](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-互動遊戲-輪盤遊戲-獎項數量偶數01.png)
 
 
 
@@ -191,18 +191,18 @@ id: "5804"
 
 
 1. 當遊戲內容都設定好並儲存後，頁面最上方會有一個 iframe 語法 按鈕，點擊此按鈕。  
-[![互動遊戲設定18](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定18.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定18.png)
+![互動遊戲設定18](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定18.png)
 
 
 
 2. 複製iframe語法到想顯示的地方貼上，  
 此處以「自訂頁面管理」為範例。  
 ＊可以安裝遊戲的地方：只要可以編寫原始碼的地方都可以安裝例如：商品頁編輯器/群組頁編輯器/部落格管理(文章/分類)/自訂頁面管理/一頁式商店….. 等。  
-[![互動遊戲設定19](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定19.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定19.png)
+![互動遊戲設定19](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定19.png)
 
-[![互動遊戲設定20](https://www.cyberbiz.io/support/wp-content/uploads/紅包.gif)](https://www.cyberbiz.io/support/wp-content/uploads/紅包.gif)
+![互動遊戲設定20](https://www.cyberbiz.io/support/wp-content/uploads/紅包.gif)
 
-[![互動遊戲設定21](https://www.cyberbiz.io/support/wp-content/uploads/輪盤.gif)](https://www.cyberbiz.io/support/wp-content/uploads/輪盤.gif)
+![互動遊戲設定21](https://www.cyberbiz.io/support/wp-content/uploads/輪盤.gif)
 
 
 
@@ -212,28 +212,28 @@ id: "5804"
 
 
 1. 點選左側「彈窗廣告」。  
-[![拖拉版型-彈跳廣告](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定22.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定22.png)
+![拖拉版型-彈跳廣告](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定22.png)
 
 
 
 2. 點選「新增區塊」，選擇「互動遊戲」。  
-[![互動遊戲](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定23.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定23.png)
+![互動遊戲](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定23.png)
 
 
 
 3. 新增完互動遊戲後，請點選「互動遊戲」的文字進行編輯。  
-[![互動遊戲編輯](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定24.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定24.png)
+![互動遊戲編輯](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定24.png)
 
 
 
 4. 選擇彈跳廣告想要呈現哪一個遊戲。  
 *若下拉選單沒有選項，請至「互動遊戲」查看是否遊戲活動時間已結束。  
-[![互動遊戲選擇](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定25.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定25.png)
+![互動遊戲選擇](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定25.png)
 
 
 
 5. 設定完成後可至商店前台查看「彈窗廣告」。  
-[![彈跳廣告畫面](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定26.png)](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定26.png)
+![彈跳廣告畫面](https://www.cyberbiz.io/support/wp-content/uploads/互動遊戲設定26.png)
 
 
 

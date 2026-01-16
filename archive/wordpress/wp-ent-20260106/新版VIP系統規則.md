@@ -43,16 +43,16 @@ VIP其他說明：
 
 1\. 預覽規則：列表中的預覽規則讓商家方便製作VIP規則素材。  
 
-[![新版VIP設定01](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/新版VIP設定01.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/新版VIP設定01.png)  
+![新版VIP設定01](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/新版VIP設定01.png)  
 
 2\. 會員等級說明：可讓店家選擇其他頁面的文章，在前台會員中心顯示該群組的VIP優惠內容。  
 — 該欄位非必填，若沒設定，前台會員頁就不會出現會員等級說明的按鈕。  
 
-[![新版VIP設定02](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/新版VIP設定02.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/新版VIP設定02.png)  
+![新版VIP設定02](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/新版VIP設定02.png)  
 
 可至 「部落格 & 頁面」→「其他頁面管理(文章/分類)」，新增VIP說明頁面即可連結至【會員等級說明連結】  
 
-[![新版VIP設定03](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/新版VIP設定03.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/新版VIP設定03.png)  
+![新版VIP設定03](https://www.cyberbiz.io/support/wp-content/uploads/2021/11/新版VIP設定03.png)  
 
 3\. 其他通路有效訂單：  
 位置：「會員」→「 所有會員」→ 選擇會員 →「其他通路有效訂單」  

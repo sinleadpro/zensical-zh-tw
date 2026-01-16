@@ -9,7 +9,7 @@ id: "2175"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **功能說明：**  
 
@@ -50,12 +50,12 @@ id: "2175"
 
 
 1. 點擊「Facebook 新版商業擴充套件」的「編輯資產」，開啟設定頁面。  
-[![同步商品影片至Meta](https://www.cyberbiz.io/support/wp-content/uploads/同步商品影片至Meta01.png)](https://www.cyberbiz.io/support/wp-content/uploads/同步商品影片至Meta01.png)
+![同步商品影片至Meta](https://www.cyberbiz.io/support/wp-content/uploads/同步商品影片至Meta01.png)
 
 2. 於頁面中選擇欲同步的商品目錄。  
 
 建議點選「建立新資產」建立一個新的目錄，如果是用舊的目錄的話，因為商品資料可能都已經在 Meta 建立過了，容易導致錯誤無法更新資料。  
-[![同步商品影片至Meta](https://www.cyberbiz.io/support/wp-content/uploads/同步商品影片至Meta02.png)](https://www.cyberbiz.io/support/wp-content/uploads/同步商品影片至Meta02.png)
+![同步商品影片至Meta](https://www.cyberbiz.io/support/wp-content/uploads/同步商品影片至Meta02.png)
 
 3. 完成彈窗中的其他設定並點擊「完成」。
 
@@ -64,12 +64,12 @@ id: "2175"
 
 
 5. 前往 Meta 的企業管理平台後台，在 「資料來源」→「目錄」中選擇剛剛於新版擴充套件設定流程中綁定的目錄，點擊「在商務管理工具中開啟」。  
-[![同步商品影片至Meta](https://www.cyberbiz.io/support/wp-content/uploads/同步商品影片至Meta03.png)](https://www.cyberbiz.io/support/wp-content/uploads/同步商品影片至Meta03.png)
+![同步商品影片至Meta](https://www.cyberbiz.io/support/wp-content/uploads/同步商品影片至Meta03.png)
 
 6. 在「目錄」→「資料來源」中可以看到選定的目錄已自動同步更新 EC 上的商品資料。  
 
 每次完成串接就會自動新增一份新的目錄資料來源，但由於資料來源是同一個，因此可能導致商品重複而新增失敗，要記得先把舊的資料來源刪掉，這樣新的資料來源就可以順利更新了。  
-[![同步商品影片至Meta](https://www.cyberbiz.io/support/wp-content/uploads/同步商品影片至Meta04.png)](https://www.cyberbiz.io/support/wp-content/uploads/同步商品影片至Meta04.png)
+![同步商品影片至Meta](https://www.cyberbiz.io/support/wp-content/uploads/同步商品影片至Meta04.png)
 
 7. 完成以上後，就算順利同步商品了，要注意的是目錄在沒有投放廣告前是看不到影片資料的，您如希望在商務管理中心看到影片資料，可以嘗試建立廣告，並在審核階段時即暫停廣告，這樣 Meta 仍然會幫您載入商品影片至商務管理中心。
 

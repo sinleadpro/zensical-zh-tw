@@ -8,8 +8,8 @@ id: "25964"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/日本站.png)]() **功能說明：**  
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/日本站.png) **功能說明：**  
 
 * 透過後台發送 LINE推播訊息給 LINE快速登入會員 或 LINE會員綁定官網會員
 * 可發送文字訊息或是圖片訊息。
@@ -49,11 +49,11 @@ id: "25964"
 *顧客標籤為必填。   
 *文字/圖文訊息，一次僅能選擇一種訊息模式。   
 
-文字 [![文字訊息](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-傳送訊息設定01.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-傳送訊息設定01.png) 圖片 [![圖片訊息](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-傳送訊息設定02.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-傳送訊息設定02.png)
+文字 ![文字訊息](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-傳送訊息設定01.png) 圖片 ![圖片訊息](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-傳送訊息設定02.png)
 
 
 
 
 4. 發送後，顧客即可收到 LINE 推播訊息。(圖片訊息範例)  
-[![推播畫面](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-傳送訊息設定03.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-傳送訊息設定03.png)
+![推播畫面](https://www.cyberbiz.io/support/wp-content/uploads/LINE-OA-傳送訊息設定03.png)
 

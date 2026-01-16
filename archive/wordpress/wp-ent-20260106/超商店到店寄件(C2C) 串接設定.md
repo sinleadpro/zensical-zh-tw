@@ -8,7 +8,7 @@ id: "5958"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **功能說明：**  
 
 * 串接超商 C2C 物流。
@@ -27,12 +27,12 @@ id: "5958"
 * 若需免運設定請點選開啟。
 * 依需求開啟「貨到付款」、「取貨不付款」。
 
-[![超商店到店寄件C2C-設定04](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定04.png)](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定04.png)  
-[![超商店到店寄件C2C-設定06](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定06.png)](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定06.png)  
-[![超商店到店寄件C2C-設定07](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定07.png)](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定07.png)
+![超商店到店寄件C2C-設定04](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定04.png)  
+![超商店到店寄件C2C-設定06](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定06.png)  
+![超商店到店寄件C2C-設定07](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定07.png)
 
 
 
 3. 前台範例(萊爾富為例子)  
-[![超商店到店寄件C2C-設定05](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定05.png)](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定05.png)
+![超商店到店寄件C2C-設定05](https://www.cyberbiz.io/support/wp-content/uploads/超商店到店寄件C2C-設定05.png)
 

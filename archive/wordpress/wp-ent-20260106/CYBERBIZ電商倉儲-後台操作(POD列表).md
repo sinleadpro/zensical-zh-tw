@@ -9,7 +9,7 @@ id: "39973"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **功能說明：**  
 
@@ -28,14 +28,14 @@ id: "39973"
 * 分為 POD 篩選和篩選結果列表兩個區域，可根據時間、回單狀態進行篩選。  
 ● 注意：時間區間最多 30 天，也可不限制時間  
 ● 回單狀態：分為已完成和未完成  
-[![篩選](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作POD列表01.png)](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作POD列表01.png)
+![篩選](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作POD列表01.png)
 
 
 
 
 * 結果列表：  
 點擊訂單編號可進入該張訂單資訊頁。  
-[![結果列表](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作POD列表02.png)](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作POD列表02.png)
+![結果列表](https://www.cyberbiz.io/support/wp-content/uploads/CYBERBIZ電商倉儲-後台操作POD列表02.png)
 
 
 

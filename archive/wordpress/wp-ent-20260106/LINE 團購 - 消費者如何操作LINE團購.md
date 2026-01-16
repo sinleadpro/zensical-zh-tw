@@ -23,12 +23,12 @@ id: "29461"
 團購機器人選單
 
 1. 消費者輸入「團購」，呼叫團購機器人選單，點選「團購列表」。  
-[![LINE團購-消費者如何操作LINE團購01](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購01.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購01.png)
+![LINE團購-消費者如何操作LINE團購01](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購01.png)
 
 
 
 2. 點選欲購買的商品或「顯示更多商品」，開始瀏覽商品。  
-[![LINE團購-消費者如何操作LINE團購02](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購02.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購02.png)
+![LINE團購-消費者如何操作LINE團購02](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購02.png)
 
 
 
@@ -36,7 +36,7 @@ id: "29461"
 ．點選「加入購物車」後繼續選購其他商品。  
 ．點選「加入並結帳」前往結帳頁。  
 ．點選商品「搜尋」按鈕，查看商品詳情頁。  
-[![LINE團購-消費者如何操作LINE團購03](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購03.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購03.png)
+![LINE團購-消費者如何操作LINE團購03](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購03.png)
 
 
 
@@ -44,7 +44,7 @@ id: "29461"
 ．可返回上一頁瀏覽商品。  
 ．可修改購物清單。  
 ．滑至頁面最下方前往前帳。  
-[![LINE團購-消費者如何操作LINE團購04](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購04.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購04.png) [![LINE團購-
+![LINE團購-消費者如何操作LINE團購04](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購04.png) [![LINE團購-
 消費者如何操作LINE團購05](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購05.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購05.png)
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/fountain-pen.png)
@@ -55,13 +55,13 @@ id: "29461"
 
 
 5. 付款完成、訂單完成後，跳轉至加入好友頁，引導消費者加入品牌LINE官方帳號。  
-[![LINE團購-消費者如何操作LINE團購06](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購06.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購06.png)
+![LINE團購-消費者如何操作LINE團購06](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購06.png)
 
 
 
 * * *
 
-自動回覆 📲輸入特定文字喚出功能 選單 [![消費者如何操作LINE團購01](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購01.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購01.png) 團購
-[![消費者如何操作LINE團購07](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購08.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購07.png) 加入好友
-[![消費者如何操作LINE團購08](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購08.png)](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購09=8.png)
+自動回覆 📲輸入特定文字喚出功能 選單 ![消費者如何操作LINE團購01](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購01.png) 團購
+![消費者如何操作LINE團購07](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購08.png) 加入好友
+![消費者如何操作LINE團購08](https://www.cyberbiz.io/support/wp-content/uploads/LINE團購-消費者如何操作LINE團購08.png)
 

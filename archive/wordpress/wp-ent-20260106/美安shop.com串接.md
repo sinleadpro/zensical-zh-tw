@@ -9,7 +9,7 @@ id: "647"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **功能說明：**  
 
@@ -44,7 +44,7 @@ id: "647"
 
 1. 店家須先向美安夥伴商店部門聯繫、完成簽約。
 2. 收到美安發送的「美安台灣TW.SHOP.COM IT連接說明」的EMAIL再進行以下串接設定。  
-[![美安shop.com串接01](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接01.png)](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接01.png)
+![美安shop.com串接01](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接01.png)
 
 3. 提供以下貴公司基本資料給美安。 
 * 統編 
@@ -66,7 +66,7 @@ id: "647"
 
 5. 將OFFER_ID與Advertiser_id填入後台  
 後台路徑 :「第三方整合」→「美安 shop.com 設定」  
-[![美安shop.com串接02](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接02.png)](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接02.png)
+![美安shop.com串接02](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接02.png)
 
 6. 檢查您的商品資訊是否符合美安規範  
 串接美安您的商品需填入以下資訊，缺一不可，以避免後續設定有誤。  
@@ -79,7 +79,7 @@ id: "647"
 * 售價 
 * 定價
 * 產品編號 商品群組
-[![美安shop.com串接03](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接03.png)](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接03.png)
+![美安shop.com串接03](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接03.png)
 
 
 
@@ -88,7 +88,7 @@ id: "647"
 * 主機IP：請至 CYBERBIZ 後臺客服詢問 。
 * 產品資料XML表
 後台路徑 :「第三方整合」→「美安 shop.com設定」  
-[![美安shop.com串接04](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接04.png)](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接04.png)
+![美安shop.com串接04](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接04.png)
 
 
 
@@ -112,7 +112,7 @@ id: "647"
 後台路徑 :「第三方整合」→「美安 shop.com 設定」  
 篩選出對應的時間並匯出訂單，將報表資料回傳給美安。  
 *報表中應該包含RID、Click ID等資訊。  
-[![美安shop.com串接05](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接05.png)](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接05.png)  
+![美安shop.com串接05](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接05.png)  
 
 
 【取消測試訂單】
@@ -122,17 +122,17 @@ id: "647"
 後台路徑 : 「訂單」→「美安訂單」  
 
 
-1. 進入美安訂單並找到兩筆測試訂單 [![美安shop.com串接06](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接06.png)](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接06.png)
+1. 進入美安訂單並找到兩筆測試訂單 ![美安shop.com串接06](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接06.png)
 2. 點擊取消訂單  
-[![美安shop.com串接07](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接07.png)](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接07.png)
+![美安shop.com串接07](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接07.png)
 
 3. 取消美安訂單  
 維持系統自動帶入的訂單金額。不管是否完成付款，美安在訂單成立時即認單抽成，  
 因此取消訂單時，還是要輸入訂單金額(不含運費) ，而不是輸入0
-[![美安shop.com串接08](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接08.png)](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接08.png)
+![美安shop.com串接08](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接08.png)
 
 4. 回傳訂單取消紀錄給美安。  
-[![美安shop.com串接05](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接05.png)](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接05.png)
+![美安shop.com串接05](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接05.png)
 
 5. 美安確認記錄正確後，表示串接完成。  
 後續上線程序請洽美安。
@@ -147,7 +147,7 @@ id: "647"
 
 
 Q : 我收到美安發送的通知信，需要我提供交易成立和取消紀錄的主機IP，我該如何回覆？  
-[![美安shop.com串接](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接10.png)](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接10.png)
+![美安shop.com串接](https://www.cyberbiz.io/support/wp-content/uploads/美安shop.com串接10.png)
 
 A : 請回答IP為：「52.194.101.168」
 

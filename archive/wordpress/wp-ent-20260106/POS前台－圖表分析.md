@@ -25,13 +25,13 @@ POS前台－圖表分析介面說明
 
 * **POS前台路徑 :** 「其他功能」→「圖表分析」  
 
-[![POS前台圖表分析](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/POS前台圖表分析1.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/POS前台圖表分析1.png)
+![POS前台圖表分析](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/POS前台圖表分析1.png)
 
 
 
 * 查看昨日與當月營收、訂單數、平均客單價訊息。   
 
-[![POS前台圖表分析](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/POS前台圖表分析2.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/POS前台圖表分析2.png)
+![POS前台圖表分析](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/POS前台圖表分析2.png)
 
 
 
@@ -51,5 +51,5 @@ POS前台－圖表分析介面說明
 3. 查看每日資訊明細：  
 註：本圖表無下載檔，如需儲存請 _複製儲存格並直接貼於Excel表_ 上即可
 
-[![POS前台圖表分析](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/POS前台圖表分析3.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/POS前台圖表分析3.png)  
+![POS前台圖表分析](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/POS前台圖表分析3.png)  
 

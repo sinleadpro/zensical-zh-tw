@@ -8,7 +8,7 @@ id: "10522"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **功能說明：**  
 
 * 介紹POS門市取貨的出貨流程。
@@ -33,21 +33,21 @@ id: "10522"
 1. 於訂單列表頁查看訂單  
 
 * 當消費者選擇門市取貨下單，可在訂單列表頁查看訂單。  
-[![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-1-1024x427.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-1-1024x427.png)  
+![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-1-1024x427.png)  
 
 
 * 點選「任何配送方式」的篩選器，篩選門市取貨或POS商店取貨的訂單。  
 **請注意！** 此功能為POS門市取貨一部分，**需先開通POS門市取貨** 才可使用。  
-[![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-2.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-2.png)  
+![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-2.png)  
 
 
 2. 單筆/批次訂單下載到店條碼  
 
 * 勾選單筆或多筆相同配送方式的訂單，點擊右上方的「選擇操作」選單，點選「下載到店條碼並改為已出貨」。  
-[![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-3-1024x308.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-3-1024x308.png)  
+![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-3-1024x308.png)  
 
 * 訂單狀態變更為「已出貨」時，即扣EC庫存，且POS前台的右上角鈴鐺會通知 POS 門市店員。  
-[![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-22.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-22.png)  
+![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-22.png)  
 
 3. 將到店條碼單貼在包裹外箱上  
 
@@ -61,7 +61,7 @@ id: "10522"
 
 
 * **請注意！** 到店條碼只支援全部出貨，**不支援部分出貨** 。
-[![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-8.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-8.png)  
+![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-8.png)  
 
 4. 當訂單變更為「已出貨」和「已到店」時，發送 Email 及簡訊通知消費者。  
 
@@ -86,33 +86,33 @@ id: "10522"
 6. 訂單變成逾期未取
 
 📍 取消訂單 當訂單的付款狀態是「等待付款/ 已付款」、配送狀態是「未出貨」，可進到訂單頁做取消訂單；消費者也可在前台按取消訂單。  
-[![POS門市取貨：出貨流程](https://www.cyberbiz.io/support/wp-content/uploads/2021/03/Snipaste_2021-03-29_11-57-46.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/03/Snipaste_2021-03-29_11-57-46.png)  
-[![POS門市取貨：出貨流程](https://www.cyberbiz.io/support/wp-content/uploads/2021/03/Snipaste_2021-03-29_11-59-26.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/03/Snipaste_2021-03-29_11-59-26.png)  
+![POS門市取貨：出貨流程](https://www.cyberbiz.io/support/wp-content/uploads/2021/03/Snipaste_2021-03-29_11-57-46.png)  
+![POS門市取貨：出貨流程](https://www.cyberbiz.io/support/wp-content/uploads/2021/03/Snipaste_2021-03-29_11-59-26.png)  
 
 
 📍 訂單要補印到店條碼單
 當訂單狀態為「已出貨」，但到店條碼單沒有下載下來，或是需要補印到店條碼單，可以勾選訂單，點選右上方的「選擇操作」，點選「補印到店條碼單」。  
-[![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-4-1024x368.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-4-1024x368.png)  
+![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-4-1024x368.png)  
 
 
 📍 包裹到店前要取消訂單
 
 1. 當訂單狀態為「準備出貨」或 「已出貨」時要取消訂單，請勾選訂單，點擊右上方的「選擇操作」，點選「退回總倉」。  
-[![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-5-1024x370.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-5-1024x370.png)  
+![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-5-1024x370.png)  
 
 
 2. 訂單即變更為「已退貨」狀態，且跳出彈窗告知系統已成功建立進倉單。  
-[![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-6-1024x271.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-6-1024x271.png)  
+![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-6-1024x271.png)  
 
 因商品庫存回補，是退回總倉(EC)，所以會在EC庫存管理的進倉單列表，來源店家選擇「第三方」，「待入庫」的頁籤中，看到此筆進倉單。  
 後台路徑 : 「POS 功能」→「全通路庫存管理」→「進倉單」→「列表」  
 
-[![POS門市取貨：出貨流程](https://www.cyberbiz.io/support/wp-content/uploads/POS門市取貨_出貨流程01.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS門市取貨_出貨流程01.png)  
+![POS門市取貨：出貨流程](https://www.cyberbiz.io/support/wp-content/uploads/POS門市取貨_出貨流程01.png)  
 
 
 3. 點擊進倉單，點選貨物送達後開始盤點即完成入庫。  
-[![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-13-1024x430.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-13-1024x430.png)  
-[![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-14-1024x285.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-14-1024x285.png)  
+![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-13-1024x430.png)  
+![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-14-1024x285.png)  
 
 
 4. 若一筆訂單有三支商品(SKU)，但其中一件商品(SKU)在訂單取消前就已被刪除(在後台沒有資料)。
@@ -125,13 +125,13 @@ id: "10522"
 
 
 * 若已被刪除的商品，不需要回補，那就不用做任何操作喔！
-[![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-10.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-10.png)  
-[![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-9-1024x265.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-9-1024x265.png)  
+![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-10.png)  
+![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-9-1024x265.png)  
 
 
 
 📍 包裹已到店，但要進行退貨(顧客尚未取貨) 這時EC可選擇此商品庫存是要「入門市庫存」或「退回總倉」。
-[![POS門市取貨：出貨流程](https://www.cyberbiz.io/support/wp-content/uploads/門市取貨出貨流程01.png)](https://www.cyberbiz.io/support/wp-content/uploads/門市取貨出貨流程01.png)  
+![POS門市取貨：出貨流程](https://www.cyberbiz.io/support/wp-content/uploads/門市取貨出貨流程01.png)  
 **【方式一】：包裹到店後，由店員按申請退貨，且選擇操作選「退回總倉」**
 
 * 此時訂單變更為「退貨中」，接著店員將包裹退回總倉後，再由EC端到後台將訂單變更為『退貨審查』，若選擇『退回總倉』訂單狀態即變更為「已退貨」，再進行退款程序。
@@ -151,7 +151,7 @@ id: "10522"
 **【情境一】：消費者取貨當下在門市拆開包裹並要求退貨**
 
 * 門市人員於POS前台按「申請退貨」，訂單狀態即變更「退貨中」，門市人員將包裹退回總倉，待EC端將訂單改為『退貨審查』，再選擇「退回總倉」或「拒絕退貨」。
-[![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-21-1024x428.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-21-1024x428.png)  
+![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-21-1024x428.png)  
 **【情境二】：消費者取貨回家拆開包裹後欲退貨**
 
 * 消費者於EC前台申請退貨，再由EC端操作人員進行後續退貨流程。
@@ -167,7 +167,7 @@ id: "10522"
 
 
 * 訂單狀態變更為「已退貨」後該筆訂單之手續費將予以退回。
-[![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-20-1024x332.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-20-1024x332.png)  
+![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-20-1024x332.png)  
 
 📍 訂單變成逾期未取 **請注意！店家需要先啟用「POS 商店取貨訂單逾期設定」。**  
 後台路徑 : 「結帳頁&物流設定」→「訂單相關設定」→「POS 商店取貨訂單逾期設定」  
@@ -180,7 +180,7 @@ id: "10522"
 
 
 * 若選擇「取貨」則同 [POS 前台操作取貨流程](https://www.cyberbiz.co/support/?p=10488)。
-[![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-15.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-15.png)
+![POS門市取貨：出貨流程](https://www.cyberbiz.co/support/wp-content/uploads/2020/12/image-15.png)
 
 * * *
 

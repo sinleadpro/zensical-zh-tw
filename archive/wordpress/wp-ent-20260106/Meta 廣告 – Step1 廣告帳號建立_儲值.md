@@ -8,7 +8,7 @@ id: "17882"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **功能說明：**  
 
 * 此文件說明如何建立廣告帳號，並且分享廣告帳號權限到自己的企業管理平台
@@ -35,7 +35,7 @@ id: "17882"
 
 並點選開始使用  
 
-[![facebook-廣告儲值功能01](https://www.cyberbiz.io/support/wp-content/uploads/facebook-廣告儲值功能01-1.png)](https://www.cyberbiz.io/support/wp-content/uploads/facebook-廣告儲值功能01-1.png)  
+![facebook-廣告儲值功能01](https://www.cyberbiz.io/support/wp-content/uploads/facebook-廣告儲值功能01-1.png)  
 
 
 
@@ -43,7 +43,7 @@ id: "17882"
 （彈窗中的輸入欄可以填入您的企業管理平台編號，以分享廣告帳號的操作權限）  
 （下方有教學如何查詢企業管理平台編號）  
 
-[![facebook-廣告儲值功能02](https://www.cyberbiz.io/support/wp-content/uploads/facebook-廣告儲值功能02.png)](https://www.cyberbiz.io/support/wp-content/uploads/facebook-廣告儲值功能02.png)
+![facebook-廣告儲值功能02](https://www.cyberbiz.io/support/wp-content/uploads/facebook-廣告儲值功能02.png)
 
 
 
@@ -55,33 +55,33 @@ id: "17882"
 1. 進入您的 [企業管理平台設定](https://business.facebook.com/settings/) 查看您上方連結網址，可找到企業管理平台編號，則可於後台彈跳視窗內輸入企業管理平台編號，以分享廣告帳號的操作權限。  
 
 *如果您尚未有企業管理平台，可以透過 [CYBERBIZ 教學文件操作 ](https://www.cyberbiz.io/support/?p=11341)快速建立； 或是參考 [Facebook 官方文件](https://www.facebook.com/business/help/1710077379203657?id=180505742745347)建立。   
-[![facebook-廣告儲值功能03](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/facebook-廣告儲值功能03.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/facebook-廣告儲值功能03.png)
+![facebook-廣告儲值功能03](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/facebook-廣告儲值功能03.png)
 
 
 
 2. 一個帳號隨時都可以分享給 N 個企業管理平台，  
 *若刪除企業管理平台廣告帳號後，只要再次分享權限給其他您指定的企業管理平台，即可恢復設定。   
 
-[![facebook-廣告儲值功能04](https://www.cyberbiz.io/support/wp-content/uploads/facebook-廣告儲值功能04.png)](https://www.cyberbiz.io/support/wp-content/uploads/facebook-廣告儲值功能04.png)
+![facebook-廣告儲值功能04](https://www.cyberbiz.io/support/wp-content/uploads/facebook-廣告儲值功能04.png)
 
 
 
 3. 權限分享完成後，可至您的企業管理平台後台查看該廣告帳號，並且指派操作/管理權限給您企業管理平台中的人員。  
 CYBERBIZ 建立的廣告帳號名稱 = CYBERBIZ註冊網域名稱_儲值  
 
-[![facebook-廣告儲值功能05](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/facebook-廣告儲值功能05.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/facebook-廣告儲值功能05.png)
+![facebook-廣告儲值功能05](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/facebook-廣告儲值功能05.png)
 
 
 
 4. 尚未儲值完成前，沒辦法設定操作廣告的權限，僅能開放查看成效，要儲值完成後，才能設定操作廣告權限。   
 
-[![facebook-廣告儲值功能06](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/facebook-廣告儲值功能06.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/facebook-廣告儲值功能06.png)
+![facebook-廣告儲值功能06](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/facebook-廣告儲值功能06.png)
 
 
 
 5. 儲值完成後，就可以設定。   
 
-[![facebook-廣告儲值功能07](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/facebook-廣告儲值功能07.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/facebook-廣告儲值功能07.png)
+![facebook-廣告儲值功能07](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/facebook-廣告儲值功能07.png)
 
 
 
@@ -93,13 +93,13 @@ CYBERBIZ 建立的廣告帳號名稱 = CYBERBIZ註冊網域名稱_儲值
 1. 分享完管理權限後，需自行將像素連結至新創建的廣告帳號，才可讓像素繼續追蹤您消費者的行為。  
 請至「企業管理平台」→「像素」→點選欲綁訂的像素→選擇「連結的資產」→點選「新增資產」。  
 
-[![facebook-廣告儲值功能08](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/facebook-廣告儲值功能08.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/facebook-廣告儲值功能08.png)
+![facebook-廣告儲值功能08](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/facebook-廣告儲值功能08.png)
 
 
 
 2. 選擇「商店名_儲值」後新增即可將像素串接至新的廣告帳號中，綁定像素後即可。   
 
-[![facebook-廣告儲值功能09](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/facebook-廣告儲值功能09.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/facebook-廣告儲值功能09.png)
+![facebook-廣告儲值功能09](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/facebook-廣告儲值功能09.png)
 
 
 
@@ -117,7 +117,7 @@ CYBERBIZ 建立的廣告帳號名稱 = CYBERBIZ註冊網域名稱_儲值
 
 * 企業版： 4 %
 * 一般版： 5 %
-[![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ09.png)](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ09.png)
+![如何分享資產給 CYBERBIZ](https://www.cyberbiz.io/support/wp-content/uploads/如何分享資產給-CYBERBIZ09.png)
 
 * * *
 

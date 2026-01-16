@@ -34,7 +34,7 @@ POS門市向WMS總倉調貨
 6. 確認新增調倉
 當WMS有庫存，即會開始準備發貨提供給門市。  
 PS：若此調倉需求有誤，無法自行刪除，需向WMS窗口聯繫確認尚未作業，委由WMS進行作業終止。
-[![向POS總倉調貨](https://www.cyberbiz.io/support/wp-content/uploads/向POS總倉調貨1.png)](https://www.cyberbiz.io/support/wp-content/uploads/向POS總倉調貨1.png)  
+![向POS總倉調貨](https://www.cyberbiz.io/support/wp-content/uploads/向POS總倉調貨1.png)  
 查看及調整WMS庫存配置
 
 7. 如何確認WMS庫存
@@ -47,12 +47,12 @@ PS：若此調倉需求有誤，無法自行刪除，需向WMS窗口聯繫確認
 CYBERBIZ-G = EC總倉  
 CYBERBIZ-POS = POS總倉
 
-[![向POS總倉調貨](https://www.cyberbiz.io/support/wp-content/uploads/向POS總倉調貨2.png)](https://www.cyberbiz.io/support/wp-content/uploads/向POS總倉調貨2.png)  
+![向POS總倉調貨](https://www.cyberbiz.io/support/wp-content/uploads/向POS總倉調貨2.png)  
 
 8. 當庫存不足，需進行倉儲內轉調（以WMS內的EC倉轉POS倉為例）
 
 
 1. 選擇來源（G倉）、目的倉庫（POS倉）
 2. 新增調倉貨物、新增調倉單
-[![向POS總倉調貨](https://www.cyberbiz.io/support/wp-content/uploads/向POS總倉調貨3.png)](https://www.cyberbiz.io/support/wp-content/uploads/向POS總倉調貨3.png)  
+![向POS總倉調貨](https://www.cyberbiz.io/support/wp-content/uploads/向POS總倉調貨3.png)  
 

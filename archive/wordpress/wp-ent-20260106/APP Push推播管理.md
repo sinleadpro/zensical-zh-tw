@@ -30,11 +30,11 @@ id: "23345"
 2、推播內容  
 3、推播圖片（提醒：需使用直接連結Direct Link，通常為檔名結尾 例：https://xxx.com/file.png）並可選擇預定送出時間  
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/設定推播內容與發送對象.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/設定推播內容與發送對象.png) Excek匯入發送對象 可先下載Excel匯入範本，編輯好檔案後上傳並發送  
+![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/設定推播內容與發送對象.png) Excek匯入發送對象 可先下載Excel匯入範本，編輯好檔案後上傳並發送  
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/Excek匯入發送對象.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/Excek匯入發送對象.png) 常見問題與成果演示
+![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/Excek匯入發送對象.png) 常見問題與成果演示
 提醒：消費需登入過，才會收到推播訊息，未登入不會顯現！因無法抓取到顧客個人資料如信箱、電話  
 建議先行測試指定傳送給自己測試，確認顧客呈現畫面後再行群發  
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/常見問題與成果演示.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/常見問題與成果演示.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/常見問題與成果演示.png)
 

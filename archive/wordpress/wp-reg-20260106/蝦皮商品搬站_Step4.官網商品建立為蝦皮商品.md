@@ -40,18 +40,18 @@ id: "12688"
 後台路徑： 「商品」→ 「所有商品」 → 點擊商品 →「更多操作」→「建立商品到蝦皮」
 
 * 您可選取多個商品，批量編輯資訊後建立商品。  
-[![文件名](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-建立蝦皮商品01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-建立蝦皮商品01.png)
+![文件名](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-建立蝦皮商品01.png)
 
 * 商品篩選器設定以下參數，可方便篩選出能建立到蝦皮的商品列表。 
 * 「商店類別」為「EC」
 * 「建立來源」為「EC官網」
 * 「未關聯平台」為「蝦皮商店」
-[![文件名](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-使用商品篩選器篩出可建立為蝦皮商品的列表01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-使用商品篩選器篩出可建立為蝦皮商品的列表01.png)
+![文件名](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-使用商品篩選器篩出可建立為蝦皮商品的列表01.png)
 
 2. 進入商品資訊頁面，您可依需求編輯商品欄位，調整為符合蝦皮的欄位填寫規則。  
 
 * 於此處修改的任何內容，僅會影響蝦皮商品的資訊，不會影響官網商品資訊。
-[![文件名](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-建立蝦皮商品前編輯欄位01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-建立蝦皮商品前編輯欄位01.png)
+![文件名](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-建立蝦皮商品前編輯欄位01.png)
 
 3. 填寫完成，點擊「確認」，系統即會排程建立商品。 
 * 若資訊填寫不完整，系統會跳出紅字提醒，請調整內容後再送出。
@@ -59,12 +59,12 @@ id: "12688"
 
 4. 可於「操作紀錄」頁籤查看建立結果與失敗原因。 
 * 系統會同步將操作結果發信至操作者的帳戶信箱。
-[![文件名](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-管理蝦皮商品02.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-管理蝦皮商品02.png)
+![文件名](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-蝦皮商品-管理蝦皮商品02.png)
 
 5. 建立蝦皮商品後，蝦皮商品與官網商品會自動建立關聯。 
 * 可進一步開啟 [商品庫存](https://www.cyberbiz.io/helpcenter/?p=12648#d) 同步開關。
 * 可進一步開啟 [商品資訊](https://www.cyberbiz.io/helpcenter/?p=12690#b) 同步開關。
-[![文件名](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-依款式建立商品關聯01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-依款式建立商品關聯01.png)
+![文件名](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-依款式建立商品關聯01.png)
 
 📌 欄位填寫規則  
 欄位名稱 | 填寫規則 | 自動填入官網資訊 | 可否編輯  
@@ -144,7 +144,7 @@ id: "12688"
 **較長備貨(選填)** | 可設定為較長備貨，並可設定預計出貨天數 | ✖ | ✔  
 * 註一：此處帶入「商品介紹」資訊  
 後台路徑： 「商品」→ 「所有商品」 → 點擊商品 →「商品描述」→「商品介紹」  
-[![文件名](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-商品介紹區塊01.png)](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-商品介紹區塊01.png)
+![文件名](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-所有商品-商品介紹區塊01.png)
 
 * 系統只帶入純文字與圖片格式資訊
 

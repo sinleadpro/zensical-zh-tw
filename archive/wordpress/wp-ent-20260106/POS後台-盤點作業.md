@@ -42,7 +42,7 @@ POS庫存後台路徑 :「POS功能」→「所有POS商店」→POS店
 * 銷貨（以其他方式銷售商品；讓庫存減少）
 * 退貨（庫存補回；讓庫存增加）
 
-[![POS盤點](https://www.cyberbiz.io/support/wp-content/uploads/POS盤點作業1.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS盤點作業1.png)  
+![POS盤點](https://www.cyberbiz.io/support/wp-content/uploads/POS盤點作業1.png)  
 
 21. 少量、批量盤點作業
 
@@ -56,12 +56,12 @@ POS庫存後台路徑 :「POS功能」→「所有POS商店」→POS店
 4. 庫存匯入調整（下載Excel編修）
 * 填寫SKU碼
 * 填寫實際數量
-[![POS盤點](https://www.cyberbiz.io/support/wp-content/uploads/POS盤點作業2-1.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS盤點作業2-1.png)  
+![POS盤點](https://www.cyberbiz.io/support/wp-content/uploads/POS盤點作業2-1.png)  
 
 22. 庫存調整成功通知
 1. 點擊通知小鈴鐺
 2. 查看庫存調整成功通知
-[![POS盤點](https://www.cyberbiz.io/support/wp-content/uploads/POS盤點作業5.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS盤點作業5.png)  
+![POS盤點](https://www.cyberbiz.io/support/wp-content/uploads/POS盤點作業5.png)  
 庫存調整報表
 
 23. 如何調閱庫存調整紀錄，查看庫存異常原因
@@ -78,7 +78,7 @@ POS庫存後台路徑 :「POS功能」→「所有POS商店」→POS店
 * 備註
 * 回報人
 * 回報時間
-[![POS盤點](https://www.cyberbiz.io/support/wp-content/uploads/POS盤點作業3.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS盤點作業3.png)  
+![POS盤點](https://www.cyberbiz.io/support/wp-content/uploads/POS盤點作業3.png)  
 庫存盤點清單
 
 5. 如何進行現有庫存盤點
@@ -95,5 +95,5 @@ POS庫存後台路徑 :「POS功能」→「所有POS商店」→POS店
 * 商品數量
 * 成本
 * 售價
-[![POS盤點](https://www.cyberbiz.io/support/wp-content/uploads/POS盤點作業4.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS盤點作業4.png)  
+![POS盤點](https://www.cyberbiz.io/support/wp-content/uploads/POS盤點作業4.png)  
 

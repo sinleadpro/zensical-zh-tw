@@ -25,11 +25,11 @@ id: "24441"
 
 1. 至後台點選「POS」→「續約與加購方案」→ 「POS列表」
 2. 選擇「續約」或「加購子機」
-[![續約與加購方案](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/續約與加購方案1.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/續約與加購方案1.png)  
+![續約與加購方案](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/續約與加購方案1.png)  
 
 * POS續約，商家「無需當下付款」，CYBERBIZ會以「企業版對帳單」形式進行收款
 * 第二台以上子機，將依首台子機到期日，計算剩餘月份以計算年費
-[![續約與加購方案](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/續約與加購方案2.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/續約與加購方案2.png)  
+![續約與加購方案](https://www.cyberbiz.io/support/wp-content/uploads/2021/12/續約與加購方案2.png)  
 子機常見疑問：
 
 1. 各子機功能相同，套用同一間店的行銷活動、庫存、圖表分析

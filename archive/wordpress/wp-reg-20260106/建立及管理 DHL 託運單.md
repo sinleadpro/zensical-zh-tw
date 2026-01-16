@@ -85,7 +85,7 @@ id: "1769"
 **  
 ＊可建立 DHL 託運單的條件：已收到款項，且準備出貨 or 已出貨，且不需退貨。  
 
-[![DHL-託運單-00](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-00.png)](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-00.png)  
+![DHL-託運單-00](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-00.png)  
 **
 
 2. 填寫收件人與寄件人資料。
@@ -101,7 +101,7 @@ id: "1769"
 3. 寄件人地址：DHL 目前只支援台灣出口的貨件，請填寫**台灣地址** 。
 4. 寄件人的公司名稱：此為出口報關的公司，請填寫在**國貿局登記的出進口廠商英文公司名** ，審核通過後若需更改，請聯繫客服。
 
-[![DHL-託運單-01](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-01.png)](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-01.png)  
+![DHL-託運單-01](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-01.png)  
 
 **
 
@@ -122,7 +122,7 @@ id: "1769"
 · **貨件申報價值** 建議輸入含運費的訂單總價值。若運送過程發生任何意外，您將能獲得所有賠償。  
 · **保險費用（未稅）** ：新台幣400元 或者 2% 申報總價值，取其高者。  
 
-[![DHL-託運單-02](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-02.png)](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-02.png)  
+![DHL-託運單-02](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-02.png)  
 
 **
 
@@ -133,7 +133,7 @@ id: "1769"
 * 若該訂單的商品分成許多包裝，可新增包裹。
 * 包裹資訊及包裹備註欄為皆為必填，包裹備註若無可寫N/A。
 
-[![DHL-託運單-03](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-03.png)](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-03.png)  
+![DHL-託運單-03](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-03.png)  
 
 **
 
@@ -153,7 +153,7 @@ id: "1769"
 * 可預約7天內的取件，取件時間為周一至周五10：00至17：00，欲當日取件，需於14：00前預約
 * **取件人** ：DHL 司機要向您取貨時，須連繫的對象，請填寫可聯繫的人員姓名及電話。
 
-[![DHL-託運單-04-1](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-04-1.png)](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-04-1.png)  
+![DHL-託運單-04-1](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-04-1.png)  
 
 **
 
@@ -165,7 +165,7 @@ id: "1769"
 * 請參考 [DHL 運輸費用說明](https://docs.google.com/spreadsheets/d/1sNWNmiE23DXg9mvtTuLs7o0GO0apycaOFIa-Ya35Eaw/edit?usp=sharing)。
 * 點擊【建立託運單】，即可看到託運單明細，下拉選擇下載託運單
 
-[![DHL-託運單-06-1](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-06-1.png)](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-06-1.png)  
+![DHL-託運單-06-1](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-06-1.png)  
 
 
 **
@@ -178,7 +178,7 @@ id: "1769"
 * **Picking_list：揀貨單，** 無須附在包裹上。
 * **Fulfillment_details：託運單明細，** 無須附在包裹上。
 
-[![DHL-託運單-10](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-10.png)](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-10.png)  
+![DHL-託運單-10](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-10.png)  
 
 **
 
@@ -190,14 +190,14 @@ id: "1769"
 * 已收貨：消費者收到貨之後，系統會自動更新狀態為已收貨，此訂單即會進入對帳單。
 * 運送異常：若 DHL 中途運送有任何異常狀況，狀態會更改為運送異常。CYBERBIZ 會主動與您聯繫，協助您溝通與處理問題。
 
-[![DHL-物流-07](https://www.cyberbiz.io/support/wp-content/uploads/DHL-物流-07.png)](https://www.cyberbiz.io/support/wp-content/uploads/DHL-物流-07.png)  
+![DHL-物流-07](https://www.cyberbiz.io/support/wp-content/uploads/DHL-物流-07.png)  
 
 **
 
 10. 追蹤貨物狀態
 **  
 若運送過程中有出現【運送異常】，運送異常解決後，狀態會直到消費者收貨才會變成【已收貨】，建議可透過該筆訂單下方的狀態追蹤包裹貨態。  
-[![DHL-託運單-13](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-13.png)](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-13.png)  
+![DHL-託運單-13](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-13.png)  
 
 **
 
@@ -205,7 +205,7 @@ id: "1769"
 **  
 生成託運單後，消費者可在訂單頁面看到出貨通知  
 
-[![DHL-託運單-09](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-09.png)](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-09.png)  
+![DHL-託運單-09](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-09.png)  
 
 管理 DHL 託運單  
 
@@ -221,7 +221,7 @@ id: "1769"
 3. 使用 DDP 服務，產生的代墊進口稅金。
 4. 使用 DDP 服務，但沒產生代墊進口稅金，將退還 DDP 額外服務手續費。
 
-[![DHL-託運單-07](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-07.png)](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-07.png)  
+![DHL-託運單-07](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-07.png)  
 
 
 

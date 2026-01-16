@@ -8,7 +8,7 @@ id: "27199"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 **功能說明：**  
 
 * 認識POS後台介面，以利快速查找所需功能。
@@ -29,7 +29,7 @@ id: "27199"
 5. 進入POS商店
 1. 查看功能列表。（可參考圖例各功能項目說明）
 2. 填寫POS商家資訊，本資訊主要於內部辨識作使用。
-[![POS後台介面說明](https://www.cyberbiz.io/support/wp-content/uploads/POS後台介面說明基本設定1.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS後台介面說明基本設定1.png)  
+![POS後台介面說明](https://www.cyberbiz.io/support/wp-content/uploads/POS後台介面說明基本設定1.png)  
 📌 結帳相關設定 後台路徑 :「POS功能」→「所有POS商店」→ 下滑至「POS商店列表」→ 點選POS店名  
 
 
@@ -50,7 +50,7 @@ id: "27199"
 * 設定消費者是否「需成為會員」，才可進行「結帳」。  
 （一般建議開啟，待門市習慣邀約消費者加入會員後再關閉）
 
-[![POS後台介面說明](https://www.cyberbiz.io/support/wp-content/uploads/POS後台介面說明基本設定2.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS後台介面說明基本設定2.png)  
+![POS後台介面說明](https://www.cyberbiz.io/support/wp-content/uploads/POS後台介面說明基本設定2.png)  
 [![POS後台介面說明](https://www.cyberbiz.io/support/wp-content/uploads/POS後台介面說明基本設定2-1.png
 
 )](https://www.cyberbiz.io/support/wp-content/uploads/POS後台介面說明基本設定2-1.png
@@ -73,13 +73,13 @@ id: "27199"
 3. 訂單IP來源通知  
 同店不同IP情境使用。（商家可依自家使用經驗作評估）
 
-[![POS後台介面說明](https://www.cyberbiz.io/support/wp-content/uploads/POS後台介面說明基本設定3.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS後台介面說明基本設定3.png)  
+![POS後台介面說明](https://www.cyberbiz.io/support/wp-content/uploads/POS後台介面說明基本設定3.png)  
 📌 庫存不足提醒通知設定 後台路徑 :「POS功能」→「所有POS商店」→ 下滑至「POS商店列表」→ 點選POS店名  
 
 當商品或贈品庫存不足時，您可以設定是否在 POS 前台顯示提醒，協助門市人員即時掌握庫存狀況。  
 
 共有3種提醒形式供您選擇：  
-[![POS後台介面說明](https://www.cyberbiz.io/support/wp-content/uploads/POS-後台-POS功能-所有POS商店-庫存不足提醒通知01.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-後台-POS功能-所有POS商店-庫存不足提醒通知01.png)  
+![POS後台介面說明](https://www.cyberbiz.io/support/wp-content/uploads/POS-後台-POS功能-所有POS商店-庫存不足提醒通知01.png)  
 提醒形式 | 顯示方式說明 | 適用情境  
 ---|---|---  
 **蓋板彈窗  
@@ -92,7 +92,7 @@ id: "27199"
 提醒形式 | 商品庫存不足 | 贈品庫存不足  
 ---|---|---  
 **蓋板彈窗  
-（預設）** | [![POS後台介面說明](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-結帳頁-庫存不足蓋板彈窗01.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-結帳頁-庫存不足蓋板彈窗01.png) | [![POS後台介面說明](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-結帳頁-庫存不足蓋板彈窗02.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-結帳頁-庫存不足蓋板彈窗02.png)  
-**限時提示** | [![POS後台介面說明](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-結帳頁-庫存不足限時提醒01.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-結帳頁-庫存不足限時提醒01.png) | [![POS後台介面說明](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-結帳頁-庫存不足限時提醒02.png)](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-結帳頁-庫存不足限時提醒02.png)  
+（預設）** | ![POS後台介面說明](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-結帳頁-庫存不足蓋板彈窗01.png) | ![POS後台介面說明](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-結帳頁-庫存不足蓋板彈窗02.png)  
+**限時提示** | ![POS後台介面說明](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-結帳頁-庫存不足限時提醒01.png) | ![POS後台介面說明](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-結帳頁-庫存不足限時提醒02.png)  
 **不提醒** | 無 | 無
 

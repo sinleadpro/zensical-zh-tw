@@ -25,7 +25,7 @@ id: "7975"
 
 
 1. 可依據商品所屬的廠商分類，新增廠商資料。  
-[![新增商家](https://www.cyberbiz.io/support/wp-content/uploads/WMS商家後台操作手冊-商品來源廠商01.png)](https://www.cyberbiz.io/support/wp-content/uploads/WMS商家後台操作手冊-商品來源廠商01.png)
+![新增商家](https://www.cyberbiz.io/support/wp-content/uploads/WMS商家後台操作手冊-商品來源廠商01.png)
 
 
 
@@ -33,12 +33,12 @@ id: "7975"
 
 後台路徑 : 「商品」→「單一品項」→「點擊商品名稱」  
 
-[![編輯來源廠商](https://www.cyberbiz.io/support/wp-content/uploads/WMS商家後台操作手冊-商品來源廠商02.png)](https://www.cyberbiz.io/support/wp-content/uploads/WMS商家後台操作手冊-商品來源廠商02.png)
+![編輯來源廠商](https://www.cyberbiz.io/support/wp-content/uploads/WMS商家後台操作手冊-商品來源廠商02.png)
 
 
 
 3. 選擇來源廠商，完成後點擊【儲存】。  
-[![更新商品](https://www.cyberbiz.io/support/wp-content/uploads/WMS商家後台操作手冊-商品來源廠商03.png)](https://www.cyberbiz.io/support/wp-content/uploads/WMS商家後台操作手冊-商品來源廠商03.png)
+![更新商品](https://www.cyberbiz.io/support/wp-content/uploads/WMS商家後台操作手冊-商品來源廠商03.png)
 
 
 
@@ -53,7 +53,7 @@ id: "7975"
 
 
 * 設定完記得點選【更新商品來源廠商】，完成更新。  
-[![編輯廠商資料](https://www.cyberbiz.io/support/wp-content/uploads/WMS商家後台操作手冊-商品來源廠商04.png)](https://www.cyberbiz.io/support/wp-content/uploads/WMS商家後台操作手冊-商品來源廠商04.png)
+![編輯廠商資料](https://www.cyberbiz.io/support/wp-content/uploads/WMS商家後台操作手冊-商品來源廠商04.png)
 
 
 

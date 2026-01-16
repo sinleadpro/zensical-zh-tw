@@ -9,7 +9,7 @@ id: "1"
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)](https://www.cyberbiz.io/support/?page_id=2490)
+![](https://www.cyberbiz.io/support/wp-content/uploads/台灣站.png)
 
 **功能說明：**  
 
@@ -32,16 +32,16 @@ id: "1"
 
 
 
-1. 進入 [GoDaddy 後台](https://tw.godaddy.com/) ，登入您自己購買自有網域的帳號。 [![登入godaddy](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-Godaddy01.png)](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-Godaddy01.png)
+1. 進入 [GoDaddy 後台](https://tw.godaddy.com/) ，登入您自己購買自有網域的帳號。 ![登入godaddy](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-Godaddy01.png)
 
 
 2. 點選下方網域的「DNS」文字。  
-[![dns畫面](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-Godaddy02.png)](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-Godaddy02.png)
+![dns畫面](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-Godaddy02.png)
 
 
 
 3. 分頁 「DNS 記錄」，並查看下方 CNAME 自有網域的設定，點選編輯。  
-[![dns管理](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-Godaddy03.png)](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-Godaddy03.png)
+![dns管理](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-Godaddy03.png)
 
 
 
@@ -50,7 +50,7 @@ id: "1"
 【名稱】: www  
 【內容值】: 您在 CYBERBIZ 的網域(例 : xxx.cyberbiz.co. )  
 【TTL】: 1天  
-[![cname設定](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-Godaddy04.png)](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-Godaddy04.png)
+![cname設定](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-Godaddy04.png)
 
 
 
@@ -65,21 +65,21 @@ id: "1"
 
 
 
-1. 選擇分頁「轉址」，並點選「網域」→「新增轉址」。 [![轉址](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-Godaddy05.png)](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-Godaddy05.png)
+1. 選擇分頁「轉址」，並點選「網域」→「新增轉址」。 ![轉址](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-Godaddy05.png)
 
 
 2. 填入您的網域並按下儲存  
 【輸入網址】: 填入您新增的網域(例 : www.網域名稱.com)  
-[![轉址網域](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-Godaddy06.png)](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-Godaddy06.png)
+![轉址網域](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-Godaddy06.png)
 
 
 
 3. 完成設定畫面。  
-[![設定網域](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-Godaddy07.png)](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-Godaddy07.png)
+![設定網域](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-Godaddy07.png)
 
 
 
 4. 最後，進入 CYBERBIZ 後台，新增設定完的 www 網域(例 : www.網域名稱.com)，並點選「總是將顧客重新導向到這裡」。  
 後台路徑 : 「管理中心」→「網域管理」  
-[![完成設定](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-HiNet12.png)](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-HiNet12.png)
+![完成設定](https://www.cyberbiz.io/support/wp-content/uploads/網域設定-HiNet12.png)
 

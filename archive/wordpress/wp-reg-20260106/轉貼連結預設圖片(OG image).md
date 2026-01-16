@@ -43,16 +43,16 @@ id: "3843"
 以Line 為範例  
 
 
-[![轉貼連接預設圖片OGIMAGE01](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE01.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE01.png)
+![轉貼連接預設圖片OGIMAGE01](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE01.png)
 
 **後台路徑 :** 「商品」→「所有商品」  
 
 
-[![轉貼連接預設圖片OGIMAGE02](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE02.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE02.png)  
+![轉貼連接預設圖片OGIMAGE02](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE02.png)  
 
 1. 首張商品圖片會自動設定為轉貼連接的圖片   
 
-[![轉貼連接預設圖片OGIMAGE03](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE03.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE03.png)
+![轉貼連接預設圖片OGIMAGE03](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE03.png)
 
 
 
@@ -60,23 +60,23 @@ id: "3843"
 以Line 為範例  
 
 
-[![轉貼連接預設圖片OGIMAGE04](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE04.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE04.png)
+![轉貼連接預設圖片OGIMAGE04](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE04.png)
 
 1. 進入後台→「商品群組(分類/促銷)」→「自訂群組」→點選群組的「編輯」，以水果群組為例。   
 
-[![轉貼連接預設圖片OGIMAGE05](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE05.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE05.png)
+![轉貼連接預設圖片OGIMAGE05](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE05.png)
 
 
 
 2. 點選圖片按鈕，上傳您的圖片，按下確定。   
 
-[![轉貼連接預設圖片OGIMAGE06](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE06.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE06.png)
+![轉貼連接預設圖片OGIMAGE06](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE06.png)
 
 
 
 3. 確定上傳照片後按下儲存，會同時出現在群組頁的畫面以及更新商品群組連結的圖片。   
 
-[![轉貼連接預設圖片OGIMAGE07](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE07.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE07.png)
+![轉貼連接預設圖片OGIMAGE07](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE07.png)
 
 
 
@@ -84,11 +84,11 @@ id: "3843"
 以Line 為範例  
 
 
-[![轉貼連接預設圖片OGIMAGE08](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE08.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE08.png)
+![轉貼連接預設圖片OGIMAGE08](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE08.png)
 
 * 進入後台→「部落格&頁面」→「部落格管理(文章/分類)」→選擇您的部落格主題和文章，並可選擇圖片，此設定會同時影響前台部落格主題封面以及轉貼部落格文章連結的圖片。   
 
-[![轉貼連接預設圖片OGIMAGE09](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE09.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE09.png)
+![轉貼連接預設圖片OGIMAGE09](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE09.png)
 
 
 
@@ -96,12 +96,12 @@ id: "3843"
 以Line 為範例  
 
 
-[![轉貼連接預設圖片OGIMAGE10](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE10.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE10.png)
+![轉貼連接預設圖片OGIMAGE10](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE10.png)
 
 * 進入後台→「外觀設置(網站外觀設定)」→「細部設定(首頁設定)」→「轉貼連結預設圖片(OG image)」→更新圖片  
 此設定會將其他上述設定未提及的頁面連結圖片，都顯示為此張圖片。  
 
-[![轉貼連接預設圖片OGIMAGE11](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE11.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE11.png)
+![轉貼連接預設圖片OGIMAGE11](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE11.png)
 
 
 
@@ -116,9 +116,9 @@ id: "3843"
 
 
 
-[![轉貼連接預設圖片OGIMAGE12](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE12.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE12.png)
+![轉貼連接預設圖片OGIMAGE12](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE12.png)
 
-[![轉貼連接預設圖片OGIMAGE13](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE13.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE13.png)
+![轉貼連接預設圖片OGIMAGE13](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE13.png)
 
 解決方案
 
@@ -131,20 +131,20 @@ id: "3843"
 1. 先將新的圖片更新至您的網頁上，並開啟 [Facebook 偵錯工具](https://developers.facebook.com/tools/debug/
 )，貼入連結後點選右方的「偵錯」  
 
-[![轉貼連接預設圖片OGIMAGE14](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE14.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE14.png)
+![轉貼連接預設圖片OGIMAGE14](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE14.png)
 
 2. 此時，還是會顯示該頁面舊的資訊及圖片，請按下『再次抓取』的按鈕，讓 Facebook 重新抓取強制更新  
 
-[![轉貼連接預設圖片OGIMAGE15](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE15.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE15.png)
+![轉貼連接預設圖片OGIMAGE15](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE15.png)
 
 3. 更新後會顯示新的資訊、圖片  
 
-[![轉貼連接預設圖片OGIMAGE16](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE16.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE16.png)
+![轉貼連接預設圖片OGIMAGE16](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE16.png)
 
 4. 更新完後再至 Facebook 重新發布一次連結，即可看到新的資訊、圖示。  
 
 
-[![轉貼連接預設圖片OGIMAGE17](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE17.png)](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE17.png)
+![轉貼連接預設圖片OGIMAGE17](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/轉貼連接預設圖片OGIMAGE17.png)
 
 
 

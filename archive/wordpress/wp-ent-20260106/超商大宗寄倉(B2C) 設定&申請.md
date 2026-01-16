@@ -57,7 +57,7 @@ id: "1921"
 1. 請填寫下方資料表格並按「送出申請」。 
 * **請注意！** 欄位皆為必填，建檔資料存檔後，即會馬上進行申請流程，後續若有需要更改資料，請告知 CYBERBIZ 客服人員。
 * 退貨方式僅能設定一種，若選擇「其他」則需文字填寫「其他退貨方式」。
-[![B2C物流申請流程04](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程04.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程04.png)  
+![B2C物流申請流程04](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程04.png)  
 
 
 2. 建檔成功請點擊「下載標籤」進行驗標。  
@@ -71,7 +71,7 @@ id: "1921"
 * 收件人：大智通文化行銷 EC 驗收組收
 * 掛號附註：測試標籤，順立智慧(829)的子廠商(廠商代號+廠商名稱) 
 * 如您需要購買電腦標籤貼紙來列印託運單，可參考購物連結： [ https://goo.gl/XZk3Xn](https://goo.gl/XZk3Xn)
-[![](https://www.cyberbiz.io/support/wp-content/uploads/B2C物流申請流程05.png)](https://www.cyberbiz.io/support/wp-content/uploads/B2C物流申請流程05.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/B2C物流申請流程05.png)
 
 4. 掛號寄出測標後，大約需要 2~3 週工作天(不含假日)，測標結果將會寄通知信告知。
 
@@ -81,7 +81,7 @@ id: "1921"
 * 您可以參考 [物流費用總覽](https://docs.google.com/spreadsheets/d/1YBWaHV9WSIX4ttETU8NPFQQhTl4h_C49/edit#gid=2117590168
 ) 填寫 7-ELEVEN 超商的「運費」費用，點擊「確認」儲存後即可直接使用。
 
-[![B2C物流申請流程08](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程08.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程08.png)  
+![B2C物流申請流程08](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程08.png)  
 
 全家日翊
 
@@ -95,7 +95,7 @@ id: "1921"
 1. 請填寫下方資料表格並按「送出申請」。 
 * **請注意！** 欄位皆為必填，建檔資料存檔後，即會馬上進行申請流程，後續若有需要更改資料，請告知 CYBERBIZ 客服人員。
 * 退貨方式僅能設定一種，若選擇「其他」則需文字填寫「其他退貨方式」。
-[![B2C物流申請流程07](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程07.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程07.png)  
+![B2C物流申請流程07](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程07.png)  
 
 
 2. 建檔成功請點擊「下載標籤」進行驗標。  
@@ -109,7 +109,7 @@ id: "1921"
 * 收件人：日翊文化行銷股份有限公司 電子商務部 吳專員收
 * 掛號附註：測試標籤，順立智慧(692)的子廠商(廠商代號+廠商名稱) 
 * 如您需要購買電腦標籤貼紙來列印託運單，可參考購物連結： [ https://goo.gl/XZk3Xn](https://goo.gl/XZk3Xn)
-[![](https://www.cyberbiz.co/support/wp-content/uploads/2020/03/全家B2C03.jpg)](https://www.cyberbiz.co/support/wp-content/uploads/2020/03/全家B2C03.jpg)
+![](https://www.cyberbiz.co/support/wp-content/uploads/2020/03/全家B2C03.jpg)
 
 4. 掛號寄出測標後，大約需要 7~10 個工作天(不含假日)，測標結果將會寄通知信告知。
 
@@ -119,7 +119,7 @@ id: "1921"
 * 您可以參考 [物流費用總覽](https://docs.google.com/spreadsheets/d/1YBWaHV9WSIX4ttETU8NPFQQhTl4h_C49/edit#gid=2117590168
 ) 填寫全家超商的「運費」費用，點擊「確認」儲存後即可直接使用。
 
-[![B2C物流申請流程08](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程08.png)](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程08.png)  
+![B2C物流申請流程08](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/B2C物流申請流程08.png)  
 
 萊爾富
 
@@ -133,7 +133,7 @@ id: "1921"
 1. 請填寫下方資料表格並按「送出申請」。 
 * **請注意！** 欄位皆為必填，建檔資料存檔後，即會馬上進行申請流程，後續若有需要更改資料，請告知 CYBERBIZ 客服人員。
 * 退貨方式僅能設定一種，若選擇「其他」則需文字填寫「其他退貨方式」。
-[![B2C物流申請流程11](https://www.cyberbiz.io/support/wp-content/uploads/B2C物流申請流程13.png)](https://www.cyberbiz.io/support/wp-content/uploads/B2C物流申請流程13.png)  
+![B2C物流申請流程11](https://www.cyberbiz.io/support/wp-content/uploads/B2C物流申請流程13.png)  
 
 2. 建檔成功請點擊「下載標籤」進行驗標。  
 
@@ -146,7 +146,7 @@ id: "1921"
 * 收件人：萊爾富物流中心 – EC 服務課
 * 掛號附註：測試標籤，順立智慧(025)的子廠商(廠商代號+廠商名稱) 
 * 如您需要購買電腦標籤貼紙來列印託運單，可參考購物連結： [ https://goo.gl/XZk3Xn](https://goo.gl/XZk3Xn)
-[![](https://www.cyberbiz.co/support/wp-content/uploads/2020/03/萊爾富B2C02.png)](https://www.cyberbiz.co/support/wp-content/uploads/2020/03/萊爾富B2C02.png)
+![](https://www.cyberbiz.co/support/wp-content/uploads/2020/03/萊爾富B2C02.png)
 
 4. 掛號寄出測標後，大約需要 7~10 個工作天(不含假日)，測標結果將會寄通知信告知。
 
@@ -156,7 +156,7 @@ id: "1921"
 * 您可以參考 [物流費用總覽](https://docs.google.com/spreadsheets/d/1YBWaHV9WSIX4ttETU8NPFQQhTl4h_C49/edit#gid=2117590168
 ) 填寫萊爾富超商的「運費」費用，點擊「確認」儲存後即可直接使用。
 
-[![](https://www.cyberbiz.io/support/wp-content/uploads/新版萊爾富B2C04.png)](https://www.cyberbiz.io/support/wp-content/uploads/新版萊爾富B2C04.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/新版萊爾富B2C04.png)
 
 * * *
 
