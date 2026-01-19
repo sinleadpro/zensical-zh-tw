@@ -1,0 +1,5441 @@
+
+<!doctype html>
+<html lang="zh-TW" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+        <meta name="description" content="建立、販售、核銷與管理電子票券商品的完整操作手冊。">
+      
+      
+        <meta name="author" content="Jason W. Ke">
+      
+      
+        <link rel="canonical" href="https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/e-voucher/%E8%A8%AD%E5%AE%9A%E9%9B%BB%E5%AD%90%E7%A5%A8%E5%88%B8/">
+      
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="zensical-0.0.16">
+    
+    
+      
+        <title>設定電子票券 - CYBERBIZ DOCS</title>
+      
+    
+    
+      
+        
+      
+      <link rel="stylesheet" href="../../../assets/stylesheets/modern/main.dfcb43b2.min.css">
+      
+        
+          
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/modern/palette.dfe2e883.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,300i,400,400i,500,500i,700,700i%7CJetBrains+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Inter";--md-code-font:"JetBrains Mono"}</style>
+      
+    
+    
+      <link rel="stylesheet" href="../../../stylesheets/extra.css">
+    
+    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,t)=>(e<<5)-e+t.charCodeAt(0)),0),__md_get=(e,t=localStorage,a=__md_scope)=>JSON.parse(t.getItem(a.pathname+"."+e)),__md_set=(e,t,a=localStorage,_=__md_scope)=>{try{a.setItem(_.pathname+"."+e,JSON.stringify(t))}catch(e){}},document.documentElement.setAttribute("data-platform",navigator.platform)</script>
+    
+      
+  
+
+
+  
+  
+
+<script id="__analytics">function __md_analytics(){function e(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],e("js",new Date),e("config","G-YD3J9MG2GM"),document.addEventListener("DOMContentLoaded",(function(){document.forms.search&&document.forms.search.query.addEventListener("blur",(function(){this.value&&e("event","search",{search_term:this.value})}));document$.subscribe((function(){var t=document.forms.feedback;if(void 0!==t)for(var a of t.querySelectorAll("[type=submit]"))a.addEventListener("click",(function(a){a.preventDefault();var n=document.location.pathname,d=this.getAttribute("data-md-value");e("event","feedback",{page:n,data:d}),t.firstElementChild.disabled=!0;var r=t.querySelector(".md-feedback__note [data-md-value='"+d+"']");r&&(r.hidden=!1)})),t.hidden=!1})),location$.subscribe((function(t){e("config","G-YD3J9MG2GM",{page_path:t.pathname})}))}));var t=document.createElement("script");t.async=!0,t.src="https://www.googletagmanager.com/gtag/js?id=G-YD3J9MG2GM",document.getElementById("__analytics").insertAdjacentElement("afterEnd",t)}</script>
+  
+    <script>if("undefined"!=typeof __md_analytics){var consent=__md_get("__consent");consent&&consent.analytics&&__md_analytics()}</script>
+  
+
+    
+    
+  </head>
+  
+  
+    
+    
+      
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#設定電子票券" class="md-skip">
+          跳轉到
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="頁首">
+    <a href="../../.." title="CYBERBIZ DOCS" class="md-header__button md-logo" aria-label="CYBERBIZ DOCS" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-menu" viewBox="0 0 24 24"><path d="M4 5h16M4 12h16M4 19h16"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            CYBERBIZ DOCS
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              設定電子票券
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+        <form class="md-header__option" data-md-component="palette">
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="default" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_0">
+    
+      <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_1" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.93 4.93l1.41 1.41M17.66 17.66l1.41 1.41M2 12h2M20 12h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"/></svg>
+      </label>
+    
+  
+    
+    
+    
+    <input class="md-option" data-md-color-media="none" data-md-color-scheme="slate" data-md-color-primary="indigo" data-md-color-accent="indigo"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_1">
+    
+      <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_0" hidden>
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-moon" viewBox="0 0 24 24"><path d="M20.985 12.486a9 9 0 1 1-9.473-9.472c.405-.022.617.46.402.803a6 6 0 0 0 8.268 8.268c.344-.215.825-.004.803.401"/></svg>
+      </label>
+    
+  
+</form>
+      
+    
+    
+      <script>var palette=__md_get("__palette");if(palette&&palette.color){if("(prefers-color-scheme)"===palette.color.media){var media=matchMedia("(prefers-color-scheme: light)"),input=document.querySelector(media.matches?"[data-md-color-media='(prefers-color-scheme: light)']":"[data-md-color-media='(prefers-color-scheme: dark)']");palette.color.media=input.getAttribute("data-md-color-media"),palette.color.scheme=input.getAttribute("data-md-color-scheme"),palette.color.primary=input.getAttribute("data-md-color-primary"),palette.color.accent=input.getAttribute("data-md-color-accent")}for(var[key,value]of Object.entries(palette.color))document.body.setAttribute("data-md-color-"+key,value)}</script>
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-search" viewBox="0 0 24 24"><path d="m21 21-4.34-4.34"/><circle cx="11" cy="11" r="8"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog" aria-label="搜尋">
+  <button type="button" class="md-search__button">
+    搜尋
+  </button>
+</div>
+      
+    
+    <div class="md-header__source">
+      
+    </div>
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+            
+<nav class="md-tabs" aria-label="標籤" data-md-component="tabs">
+  <div class="md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        
+  
+  主頁
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../" class="md-tabs__link">
+          
+  
+  品牌官網
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../wms/" class="md-tabs__link">
+        
+  
+  智慧倉儲
+
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../pos/" class="md-tabs__link">
+          
+  
+  智能 POS
+
+        </a>
+      </li>
+    
+  
+
+      
+        
+  
+  
+  
+  
+    
+    
+      <li class="md-tabs__item">
+        <a href="../../../resources/" class="md-tabs__link">
+          
+  
+  資源中心
+
+        </a>
+      </li>
+    
+  
+
+      
+    </ul>
+  </div>
+</nav>
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="導覽列" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../../.." title="CYBERBIZ DOCS" class="md-nav__button md-logo" aria-label="CYBERBIZ DOCS" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+
+    </a>
+    CYBERBIZ DOCS
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    主頁
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    品牌官網
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    品牌官網
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_2" id="__nav_2_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    開始使用
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    開始使用
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../get-started/%E6%96%87%E5%AD%97%E7%B7%A8%E8%BC%AF%E5%99%A8%E4%BD%BF%E7%94%A8%E6%95%99%E5%AD%B8/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    文字編輯器使用教學
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--new"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../analytics/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-chart-column-increasing" viewBox="0 0 24 24"><path d="M13 17V9M18 17V5M3 3v16a2 2 0 0 0 2 2h16M8 17v-3"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    分析報表
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../orders/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-receipt" viewBox="0 0 24 24"><path d="M4 2v20l2-1 2 1 2-1 2 1 2-1 2 1 2-1 2 1V2l-2 1-2-1-2 1-2-1-2 1-2-1-2 1Z"/><path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8M12 17.5v-11"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    訂單
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_4" id="__nav_2_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    訂單
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../orders/%E4%B8%80%E8%88%AC%E9%80%80%E8%B2%A8%E9%80%80%E6%AC%BE/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    一般退貨退款
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--new"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../orders/%E4%B8%80%E8%88%AC%E9%80%80%E8%B2%A8%E9%80%80%E6%AC%BE-cli/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    一般退貨退款-cli
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--new"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_5" id="__nav_2_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    會員
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    會員
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../members/%E8%A8%AD%E5%AE%9A%20VIP%20%E7%BE%A4%E7%B5%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    VIP 設定
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../products/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-package" viewBox="0 0 24 24"><path d="M11 21.73a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73zM12 22V12"/><path d="M3.29 7 12 12l8.71-5M7.5 4.27l9 5.15"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    商品
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_6" id="__nav_2_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    商品
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/quickstart/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    快速上手
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6_3" id="__nav_2_6_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    商品上架
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_6_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    商品上架
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/%E6%96%B0%E5%A2%9E%E5%96%AE%E4%B8%80%E5%95%86%E5%93%81/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    新增單一商品
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--published"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/%E6%96%B0%E5%A2%9E%E8%88%87%E8%A8%AD%E5%AE%9A%E7%B5%84%E5%90%88%E5%95%86%E5%93%81/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    組合商品
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/%E8%A8%AD%E5%AE%9A%E5%95%86%E5%93%81%E5%88%B0%E8%B2%A8%E9%80%9A%E7%9F%A5/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    商品到貨通知
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/%E7%B7%A8%E8%BC%AF%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%E8%88%87%E5%95%86%E5%93%81%E8%A8%AD%E5%AE%9A/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    商品描述與商品設定
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/%E7%B7%A8%E8%BC%AF%E5%95%86%E5%93%81%E7%B0%A1%E8%BF%B0%E8%88%87%E5%95%86%E5%93%81%E6%A8%99%E8%AA%9E/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    商品簡述與商品標語
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/%E8%A8%AD%E5%AE%9A%E5%95%86%E5%93%81%E5%BD%B1%E7%89%87/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    設定商品影片
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/Excel%20%E5%A4%A7%E9%87%8F%E5%8C%AF%E5%85%A5%E5%95%86%E5%93%81/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Excel 大量匯入商品
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/%E6%89%B9%E6%AC%A1%E4%BF%AE%E6%94%B9%E5%95%86%E5%93%81%E6%8F%8F%E8%BF%B0%E8%88%87%E9%85%8D%E9%80%81%E8%A8%AD%E5%AE%9A/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    批次修改商品描述與配送設定
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/%E8%A8%AD%E5%AE%9A%E5%95%86%E5%93%81%E6%90%9C%E5%B0%8B%E5%8F%AF%E8%A6%8B%E6%80%A7/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    商品搜尋可見性
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6_4" id="__nav_2_6_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    商品配送
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_6_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    商品配送
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/%E8%A8%AD%E5%AE%9A%E5%95%86%E5%93%81%E9%85%8D%E9%80%81%E6%A2%9D%E4%BB%B6%EF%BC%88%E7%89%A9%E6%B5%81%E3%80%81%E6%BA%AB%E5%B1%A4%E8%88%87%E5%87%BA%E8%B2%A8%E9%80%9A%E8%B7%AF%EF%BC%89/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    配送溫層、物流跟通路設定
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/%E8%A8%AD%E5%AE%9A%E8%B6%85%E5%95%86%E9%85%8D%E9%80%81%E9%99%90%E5%88%B6%E8%88%87%E7%89%A9%E6%B5%81%E6%8E%92%E9%99%A4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    超商配送限制與物流排除
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6_5" id="__nav_2_6_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    商品分類
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_6_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    商品分類
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/%E8%A8%AD%E5%AE%9A%E5%95%86%E5%93%81%E8%87%AA%E8%A8%82%E5%88%86%E9%A1%9E%E7%BE%A4%E7%B5%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    商品自訂分類
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/%E8%A8%AD%E5%AE%9A%E5%95%86%E5%93%81%E6%A2%9D%E4%BB%B6%E5%88%86%E9%A1%9E%E7%BE%A4%E7%B5%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    商品條件分類
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/%E8%A8%AD%E5%AE%9A%E7%A7%98%E5%AF%86%E5%95%86%E5%93%81%E7%BE%A4%E7%B5%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    秘密商品群組
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/%E7%AE%A1%E7%90%86%E5%95%86%E5%93%81%E6%A8%99%E7%B1%A4/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    商品標籤管理
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/%E8%A8%AD%E5%AE%9A%E5%95%86%E5%93%81%E5%A4%9A%E5%B1%A4%E7%B4%9A%E5%88%86%E9%A1%9E/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    商品多層級分類
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/%E8%A8%AD%E5%AE%9A%E5%89%8D%E5%8F%B0%E5%95%86%E5%93%81%E7%AF%A9%E9%81%B8%E5%99%A8/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    商品篩選器
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_6_6" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_6_6" id="__nav_2_6_6_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    商品銷售
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_6_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_6_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    商品銷售
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/%E7%AE%A1%E7%90%86%E5%95%86%E5%93%81%E8%A9%95%E8%AB%96/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    管理商品評論
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/%E5%95%9F%E7%94%A8%E7%95%99%E8%A8%80%E5%8D%80%20reCAPTCHA/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    啟用留言區 reCAPTCHA
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/%E8%A8%AD%E5%AE%9A%E7%B5%90%E5%B8%B3%E6%8B%86%E5%88%86%E5%A4%9A%E8%B3%BC%E7%89%A9%E8%BB%8A/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    設定結帳拆分多購物車
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../products/%E8%A8%AD%E5%AE%9A%20VIP%20%E6%9C%83%E5%93%A1%E5%B0%88%E5%B1%AC%E5%83%B9%E6%A0%BC/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    設定 VIP 會員專屬價格
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../none" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    參考資源
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-ticket" viewBox="0 0 24 24"><path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2ZM13 5v2M13 17v2M13 11v2"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    電子票券
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_7" id="__nav_2_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    電子票券
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E9%9B%BB%E5%AD%90%E7%A5%A8%E5%88%B8%E6%8C%87%E5%8D%97/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    電子票券設定
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--published"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E9%9B%BB%E5%AD%90%E7%A5%A8%E5%88%B8%E5%84%AA%E6%83%A0%E8%A8%AD%E5%AE%9A/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    電子票券優惠
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--review"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../%E8%A8%AD%E5%AE%9A%E9%9B%BB%E5%AD%90%E7%A5%A8%E5%88%B8%E9%96%80%E5%B8%82%E6%AC%8A%E9%99%90/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    電子票券門市權限
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--review"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_8" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../marketing/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-badge-percent" viewBox="0 0 24 24"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76M15 9l-6 6M9 9h.01M15 15h.01"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    行銷活動
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_8" id="__nav_2_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    行銷活動
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/%E8%A8%AD%E5%AE%9A%E5%95%86%E5%93%81%E5%8A%A0%E5%83%B9%E8%B3%BC/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    商品加價購
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/%E8%A8%AD%E5%AE%9A%E8%A8%82%E5%96%AE%E5%8A%A0%E5%83%B9%E8%B3%BC/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    訂單加價購
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/%E8%A8%AD%E5%AE%9A%E5%96%AE%E5%93%81%E9%99%90%E6%99%82%E6%8A%98%E6%89%A3%E7%BE%A4%E7%B5%84/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    單品限時折扣群組
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/%E8%A8%AD%E5%AE%9A%E4%BB%BB%E9%81%B8%E6%8A%98%E6%89%A3%E7%BE%A4%E7%B5%84/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    任選折扣
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/%E8%A8%AD%E5%AE%9A%E5%95%86%E5%93%81%E6%8E%92%E9%99%A4%E6%8C%87%E5%AE%9A%E5%84%AA%E6%83%A0/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    商品排除指定優惠
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/%E8%A8%AD%E5%AE%9A%E5%95%86%E5%93%81%E5%A4%9A%E5%B1%A4%E7%B4%9A%E5%88%86%E9%A1%9E%E6%BB%BF%E9%A1%8D%E6%8A%98%E6%89%A3/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    商品多層級分類滿額折扣
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_8_8" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_8_8" id="__nav_2_8_8_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    行銷活動
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_8_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_8_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    行銷活動
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/%E7%B5%90%E5%B8%B3%E5%84%AA%E6%83%A0%E8%A8%88%E7%AE%97%E9%A0%86%E5%BA%8F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    結帳優惠計算順序
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--review"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/%E7%B5%90%E5%B8%B3%E5%84%AA%E6%83%A0%E8%A8%88%E7%AE%97%E9%A0%86%E5%BA%8F-rev/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    結帳優惠計算順序-rev
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--review"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_8_9" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_8_9" id="__nav_2_8_9_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    分潤
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_8_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_8_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    分潤
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_8_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_8_10" id="__nav_2_8_10_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    訊息推播
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_8_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_8_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    訊息推播
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/庫存過低通知.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    庫存過低通知
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../marketing/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_9" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../payments/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-credit-card" viewBox="0 0 24 24"><rect width="20" height="14" x="2" y="5" rx="2"/><path d="M2 10h20"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    金物流
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_9" id="__nav_2_9_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    金物流
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../payments/%E7%94%B3%E8%AB%8B%20CYBERBIZ%20PAYMENTS/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    申請 CYBERBIZ PAYMENTS
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--new"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../payments/%E8%A8%AD%E5%AE%9A%20Apple%20Pay/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    設定 Apple Pay
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--new"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../payments/%E8%A8%AD%E5%AE%9A%E4%BF%A1%E7%94%A8%E5%8D%A1%203D%20%E9%A9%97%E8%AD%89%E9%96%80%E6%AA%BB/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    設定信用卡 3D 驗證
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--updated"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../payments/%E6%98%9F%E7%9B%8A%E6%AC%A3%E9%9B%BB%E5%AD%90%E7%99%BC%E7%A5%A8%E8%A8%AD%E5%AE%9A%E6%8C%87%E5%8D%97/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    星益欣電子發票設定指南
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--review"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_10" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../website-appearance/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-store" viewBox="0 0 24 24"><path d="M15 21v-5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v5M17.774 10.31a1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.451 0 1.12 1.12 0 0 0-1.548 0 2.5 2.5 0 0 1-3.452 0 1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.77-3.248l2.889-4.184A2 2 0 0 1 7 2h10a2 2 0 0 1 1.653.873l2.895 4.192a2.5 2.5 0 0 1-3.774 3.244"/><path d="M4 10.95V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8.05"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    網站外觀
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_10" id="__nav_2_10_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    網站外觀
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../website-appearance/%E8%A8%AD%E5%AE%9A%E5%89%8D%E5%8F%B0%E5%95%86%E5%93%81%E7%BE%A4%E7%B5%84%E6%8E%92%E5%BA%8F/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    全站商品列表群組排序
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--review"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_11" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../store/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-store" viewBox="0 0 24 24"><path d="M15 21v-5a1 1 0 0 0-1-1h-4a1 1 0 0 0-1 1v5M17.774 10.31a1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.451 0 1.12 1.12 0 0 0-1.548 0 2.5 2.5 0 0 1-3.452 0 1.12 1.12 0 0 0-1.549 0 2.5 2.5 0 0 1-3.77-3.248l2.889-4.184A2 2 0 0 1 7 2h10a2 2 0 0 1 1.653.873l2.895 4.192a2.5 2.5 0 0 1-3.774 3.244"/><path d="M4 10.95V19a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8.05"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    商店設定
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_11" id="__nav_2_11_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_11">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    商店設定
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../store/%E7%B3%BB%E7%B5%B1%E9%80%9A%E7%9F%A5%E8%A8%AD%E5%AE%9A/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    系統通知設定
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_12" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../app-market/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    APP MARKET
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_12" id="__nav_2_12_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_12_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_12">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    APP MARKET
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_12_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_12_2" id="__nav_2_12_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chat Box
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_12_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_12_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Chat Box
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../app-market/chatbox/quickstart.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    快速上手
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_13" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../integrations/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-webhook" viewBox="0 0 24 24"><path d="M18 16.98h-5.99c-1.1 0-1.95.94-2.48 1.9A4 4 0 0 1 2 17c.01-.7.2-1.4.57-2"/><path d="m6 17 3.13-5.78c.53-.97.1-2.18-.5-3.1a4 4 0 1 1 6.89-4.06"/><path d="m12 6 3.13 5.73C15.66 12.7 16.9 13 18 13a4 4 0 0 1 0 8"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    整合串接
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_13" id="__nav_2_13_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_13">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    整合串接
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_13_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_13_2" id="__nav_2_13_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    APP MARKET
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_13_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_13_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    APP MARKET
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../integrations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../integrations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../integrations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_13_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_2_13_3" id="__nav_2_13_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    第三方整合
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_2_13_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_13_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    第三方整合
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../integrations/%E8%A8%AD%E5%AE%9A%20Google%20%E8%B3%BC%E7%89%A9%E5%BB%A3%E5%91%8A/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    設定 Google 購物廣告
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../integrations/%E8%A8%AD%E5%AE%9A%E8%87%AA%E5%8B%95%E5%8C%96%E5%BB%A3%E5%91%8A/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    設定自動化廣告
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../integrations/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../wms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    智慧倉儲
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../pos/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    智能 POS
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    智能 POS
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pos/get-started.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    開始使用
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_4_3" id="__nav_4_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    商品
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_4_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    商品
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../pos/products/商品標籤列印教學.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    商品標籤列印
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../resources/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-open" viewBox="0 0 24 24"><path d="M12 7v14M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    資源中心
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    資源中心
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+          
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../../resources/faq/" class="md-nav__link ">
+              
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-question-mark" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3M12 17h.01"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    常見問題
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    常見問題
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    資安隱私
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_3" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_3" id="__nav_5_2_3_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    付款帳務
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    付款帳務
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../resources/faq/一般退貨退款.md" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    一般退貨退款
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+    
+    
+    
+      
+      
+        
+      
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2_4" >
+        
+          
+          <label class="md-nav__link" for="__nav_5_2_4" id="__nav_5_2_4_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    客服支援
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_5_2_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    客服支援
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../resources/faq/%E4%BD%BF%E7%94%A8%20Jam%20%E5%9B%9E%E5%A0%B1%E5%95%8F%E9%A1%8C/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    使用 Jam 回報問題
+  
+
+    
+  </span>
+  
+  
+    
+  
+  
+    <span class="md-status md-status--new"></span>
+  
+
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../resources/changelog/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-history" viewBox="0 0 24 24"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8"/><path d="M3 3v5h5M12 7v5l4 2"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    更新紀錄
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../resources/glossary/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-book-marked" viewBox="0 0 24 24"><path d="M10 2v8l3-3 3 3V2"/><path d="M4 19.5v-15A2.5 2.5 0 0 1 6.5 2H19a1 1 0 0 1 1 1v18a1 1 0 0 1-1 1H6.5a1 1 0 0 1 0-5H20"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    詞彙表
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../resources/conventions/" class="md-nav__link">
+        
+  
+  
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-clipboard" viewBox="0 0 24 24"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/></svg>
+  
+  <span class="md-ellipsis">
+    
+  
+    圖示慣例
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../resources/references" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    參考資料
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+<nav class="md-nav md-nav--secondary" aria-label="目錄">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      目錄
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#使用須知" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        使用須知
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#新增電子票券" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        新增電子票券
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#購買電子票券顧客流程" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        購買電子票券（顧客流程）
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="購買電子票券（顧客流程）">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#查看電子票券" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        查看電子票券
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#核銷電子票券" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        核銷電子票券
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#建立電子票券門市店員帳號" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        建立電子票券門市店員帳號
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#電子票券退款" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        電子票券退款
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#電子票券分票" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        電子票券分票
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="電子票券分票">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#查看分票後的票券" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        查看分票後的票券
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#核銷分票後的核銷碼" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        核銷分票後的核銷碼
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#電子票券對帳" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        電子票券對帳
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="電子票券對帳">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#對帳規則" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        對帳規則
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#對帳單位置" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        對帳單位置
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#票券分潤與自動結案設定" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        票券分潤與自動結案設定
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#延伸閱讀" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        延伸閱讀
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+                
+
+
+
+  
+
+
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+<h1 id="設定電子票券">設定電子票券<a class="headerlink" href="#設定電子票券" title="Permanent link">&para;</a></h1>
+<p class="subtitle">建立、販售、核銷與管理電子票券商品，涵蓋從建檔、銷售、顧客使用到對帳與分潤設定的完整流程。</p>
+<p class="doc-badge"><a href="../../../resources/conventions#適用方案"><span class="twemoji" title="適用方案"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-lock" viewBox="0 0 24 24"><rect width="18" height="11" x="3" y="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg></span></a> | PLUS / 企業 ｜ 
+<a href="../../../resources/conventions#適用功能"><span class="twemoji" title="適用功能"><svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-toggle-right" viewBox="0 0 24 24"><circle cx="15" cy="12" r="3"/><rect width="20" height="14" x="2" y="5" rx="7"/></svg></span></a> | 新版物流</p>
+<div class="admonition tip">
+<p class="admonition-title">應用場景</p>
+<ul>
+<li>活動門票（展覽、演唱會、活動入場）</li>
+<li>商品兌換（實體商品 / 贈品）</li>
+<li>服務體驗（課程、體驗活動、預約兌換）</li>
+<li>聯名或推廣票券</li>
+</ul>
+</div>
+<hr />
+<h2 id="使用須知">使用須知<a class="headerlink" href="#使用須知" title="Permanent link">&para;</a></h2>
+<ul>
+<li>可加入 <em>限購群組</em>，限制每位消費者可購買張數  </li>
+<li>僅支援 <a href="../電子票券優惠設定/"><em>電子票券任選折扣</em></a>  與 <em><abbr title="商品或服務銷售後，平台或商家按照事先設定的比例，將收入分配給合作方或相關權益人。通常用於聯名商品、合作活動或第三方銷售通路，確保各方依約獲得收益。">分潤</abbr></em>，不可與其他優惠併用  </li>
+<li>付款方式僅支援 <em><abbr title="顧客使用信用卡完成付款時，交易金額會於單一帳單週期內全額請款，不提供分期、延後付款或拆分扣款。">信用卡一次付清</abbr></em></li>
+</ul>
+<div class="admonition quote">
+<p class="admonition-title">票券發行人</p>
+<p>票券發行人為順立智慧股份有限公司，票券面額為實際售價（含優惠），已存入發行人於永豐銀行開立之「信託專戶」，專款專用，保障履約安全。</p>
+</div>
+<h2 id="新增電子票券">新增電子票券<a class="headerlink" href="#新增電子票券" title="Permanent link">&para;</a></h2>
+<p>建立電子票券商品。</p>
+<ol>
+<li>登入 CYBERBIZ 管理後台，前往 <strong>商品 &gt; 電子票券列表 &gt; 新增票券</strong>，進入 <strong>新增票券</strong> 頁面。</li>
+<li>
+<p>依序填寫相關資訊：基本設定、票券圖片、款式管理。 </p>
+<p><img alt="" src="../../../assets/images/ec-e-ticket-type.zh-tw.png" /></p>
+</li>
+<li>
+<p>點擊 <strong>儲存</strong>，套用變更。</p>
+<blockquote>
+<p>電子票券商品將無法像一般商品一樣編輯款式規格（顏色、尺寸）。系統會自動預設一組名為 <em>票種名稱</em> 的款式規格。  </p>
+</blockquote>
+<div class="admonition example">
+<p class="admonition-title">票種範例</p>
+<ul>
+<li>活動票券：如 <em>早鳥票</em>、<em>團體票</em> 等，以區分不同票種。</li>
+<li>商品兌換券：如 <em>灌籃高手兌換組</em>、<em>七龍珠兌換組</em> 等，以分類不同的商品兌換模組。</li>
+</ul>
+</div>
+</li>
+<li>
+<p>新增的電子票券會出現在 <strong>電子票券列表</strong> 頁面。</p>
+</li>
+</ol>
+<h2 id="購買電子票券顧客流程">購買電子票券（顧客流程）<a class="headerlink" href="#購買電子票券顧客流程" title="Permanent link">&para;</a></h2>
+<ol>
+<li>
+<p>顧客於前台選擇電子票券。</p>
+<blockquote>
+<p>電子票券商品頁面會顯示票券注意事項，提醒顧客使用辦法。</p>
+</blockquote>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/2021/12/電子票券設定05.png" /></p>
+</li>
+<li>
+<p>若購物車同時包含一般商品，系統將要求拆分結帳。</p>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/2021/12/電子票券設定06.png" /></p>
+</li>
+<li>
+<p>勾選 <strong>同意電子票券條款</strong>。</p>
+<blockquote>
+<p>消費者需勾選 <em>同意電子票券條款</em> 選項，才能進行結帳。（購物車內的 <strong>配送時段</strong> 可忽略）。</p>
+</blockquote>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/2021/12/電子票券設定07.png" /></p>
+</li>
+<li>
+<p>完成結帳。</p>
+</li>
+</ol>
+<h3 id="查看電子票券">查看電子票券<a class="headerlink" href="#查看電子票券" title="Permanent link">&para;</a></h3>
+<p>顧客完成付款後，可在以下兩個地方查看電子票券 QR Code（核銷碼）。</p>
+<ul>
+<li>我的帳戶：我的帳戶 &gt; 電子票券訂單查詢</li>
+<li>Email：系統寄送 QR Code 至會員信箱</li>
+</ul>
+<div class="tabbed-set tabbed-alternate" data-tabs="1:2"><input checked="checked" id="電子票券訂單查詢" name="__tabbed_1" type="radio" /><input id="電子票券確認信" name="__tabbed_1" type="radio" /><div class="tabbed-labels"><label for="電子票券訂單查詢">電子票券訂單查詢</label><label for="電子票券確認信">電子票券確認信</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li>網頁前台點選 <strong>我的帳戶 &gt; 電子票券訂單查詢</strong>。    </li>
+<li>點擊 <strong>顯示票券 QR code</strong>，即可獲得 QR Code。</li>
+</ol>
+<div class="grid cards" markdown>
+<ul>
+<li><img alt="" src="https://www.cyberbiz.io/support/wp-content/uploads/2021/12/電子票券設定08.png" /></li>
+<li><img alt="" src="https://www.cyberbiz.io/support/wp-content/uploads/2021/12/電子票券設定09.png" /></li>
+</ul>
+</div>
+</div>
+<div class="tabbed-block">
+<div class="admonition note">
+<p class="admonition-title">需設定會員電子郵件</p>
+<p>為確保電子票券能成功寄送至會員信箱，請先確認 <em>顧客註冊設定</em> 中的「電子郵件」已設為必填。若會員未提供 Email，系統將無法寄送 QR Code。</p>
+</div>
+<ol>
+<li>登入 CYBERBIZ 後台，前往 <strong>管理中心 &gt; 顧客註冊設定</strong>。  </li>
+<li><strong>電子郵件</strong>：請勾選「必填」。若會員未填寫 Email，系統將無法寄送 QR Code。</li>
+</ol>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/電子票券設定39.png" /></p>
+<p><img alt="" src="https://www.cyberbiz.io/support/wp-content/uploads/2021/12/電子票券設定10.png" title="信箱畫面範例" /></p>
+</div>
+</div>
+</div>
+<h2 id="核銷電子票券">核銷電子票券<a class="headerlink" href="#核銷電子票券" title="Permanent link">&para;</a></h2>
+<p>提供多種核銷電子票券的方式，包括電腦輸入、手機掃碼、後台查詢。</p>
+<blockquote>
+<p>電子票券分票的核銷請看如何<a href="#核銷分票後的核銷碼">核銷分票後的核銷碼</a>。</p>
+</blockquote>
+<div class="tabbed-set tabbed-alternate" data-tabs="2:4"><input checked="checked" id="電腦輸入-qr-code" name="__tabbed_2" type="radio" /><input id="手機掃-qr-code" name="__tabbed_2" type="radio" /><input id="後台票券核銷列表" name="__tabbed_2" type="radio" /><input id="後台核銷票券頁手動核銷" name="__tabbed_2" type="radio" /><div class="tabbed-labels"><label for="電腦輸入-qr-code">電腦輸入 QR Code</label><label for="手機掃-qr-code">手機掃 QR Code</label><label for="後台票券核銷列表">後台「票券核銷列表」</label><label for="後台核銷票券頁手動核銷">後台「核銷票券頁」手動核銷</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<ol>
+<li>登入 CYBERBIZ 管理後台，前往 <strong>商品 &gt; 核銷票券頁</strong>。</li>
+<li>將游標放在核銷碼欄位，使用掃碼槍掃描 QR Code，或手動輸入核銷碼。</li>
+<li>輸入 <strong>核銷數量</strong>，點擊 <strong>確認核銷</strong>。</li>
+<li>彈窗跳出，再次確認票券名稱、數量，確認無誤後點擊 <strong>確認核銷</strong>。</li>
+<li>核銷成功。</li>
+</ol>
+<p><img alt="" src="../../../assets/images/e-ticket-redemption-computer.gif" /></p>
+</div>
+<div class="tabbed-block">
+<ol>
+<li>開啟手機相機，掃描 QR Code。</li>
+<li>使用瀏覽器開啟網頁。</li>
+<li>若尚未登入，將跳轉至登入頁面。</li>
+<li>登入後，會跳轉至「核銷票券頁」，並自動帶入核銷碼。</li>
+<li>輸入 <strong>核銷數量</strong>，點擊 <strong>確認核銷</strong>。</li>
+<li>彈窗跳出，再次確認票券名稱、數量，確認無誤後點擊 <strong>確認核銷</strong>。</li>
+<li>核銷成功。</li>
+</ol>
+<p><img alt="" src="../../../assets/images/e-ticket-reconciliation-mobile.gif" /></p>
+</div>
+<div class="tabbed-block">
+<p>若消費者忘記攜帶 QR Code 或因突發狀況無法出示，可透過姓名或電話查詢核銷碼。</p>
+<ol>
+<li>在 CYBERBIZ 管理後台，前往 <strong>商品 &gt; 票券核銷列表</strong>。</li>
+<li>在「選擇欲搜尋類別」中，可使用以下欄位篩選票券：<blockquote>
+<p>票券名稱<br />
+核銷碼<br />
+訂單收件人姓名<br />
+訂單收件人電話<br />
+訂單編號  </p>
+</blockquote>
+</li>
+<li>篩選出票券後，點擊 <strong>前往核銷</strong>，進入 <strong>核銷票券頁</strong>，核銷碼將自動帶入。</li>
+<li>輸入 <strong>核銷數量</strong>，點擊 <strong>確認核銷</strong>。</li>
+<li>彈窗跳出，再次確認票券名稱、數量，確認無誤後點擊「確認核銷」。</li>
+<li>核銷成功。</li>
+</ol>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/電子票券設定12.png" /></p>
+<p><img alt="" src="../../../assets/images/ec-e-ticket-redemption-list.gif" /></p>
+</div>
+<div class="tabbed-block">
+<ol>
+<li>登入 CYBERBIZ 管理後台，前往 <strong>商品 &gt; 核銷票券頁</strong>。</li>
+<li>手動輸入核銷碼，點選 <strong>查看票券</strong>，輸入 <strong>核銷數量</strong>，點擊 <strong>確認核銷</strong>。</li>
+<li>核銷成功。</li>
+</ol>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/電子票券設定40.png" /></p>
+</div>
+</div>
+</div>
+<h2 id="建立電子票券門市店員帳號">建立電子票券門市店員帳號<a class="headerlink" href="#建立電子票券門市店員帳號" title="Permanent link">&para;</a></h2>
+<p>電子票券門市店員可以設定只有 <em>票券核銷列表</em> 與 <em>核銷票券頁</em> 這兩個頁面的權限。</p>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/%E9%9B%BB%E5%AD%90%E7%A5%A8%E5%88%B8%E8%A8%AD%E5%AE%9A13.png" /></p>
+<ol>
+<li>登入 CYBERBIZ 管理後台，前往 <strong>管理中心 &gt; 網站權限 &gt; 管理者列表</strong>。</li>
+<li>
+<p>點擊 <strong>新增門市管理者</strong>。</p>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/%E9%9B%BB%E5%AD%90%E7%A5%A8%E5%88%B8%E8%A8%AD%E5%AE%9A14.png" /></p>
+</li>
+<li>
+<p>在 <strong>門市</strong> 類型中選擇 <strong>電子票券門市</strong>。</p>
+<blockquote>
+<p>電子票券門市店員的權限為系統預設，無法自行修改。<br />
+嘗試變更權限並儲存時，系統將顯示提示：「門市用戶的權限無法修改」。</p>
+</blockquote>
+</li>
+<li>輸入門市店員的使用者資訊。<blockquote>
+<p><em>門市店員</em> 與 <em>電子票券門市店員</em> 為不同角色，請分別建立帳號（需使用不同帳號與密碼）。</p>
+</blockquote>
+</li>
+<li>
+<p>點擊 <strong>新增</strong> 完成設定。</p>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/2021/12/%E9%9B%BB%E5%AD%90%E7%A5%A8%E5%88%B8%E8%A8%AD%E5%AE%9A15.png" /></p>
+</li>
+</ol>
+<blockquote>
+<p>更多電子票券門市權限相關設定，請看<a href="../設定電子票券門市權限/">設定電子票券門市權限</a></p>
+</blockquote>
+<h2 id="電子票券退款">電子票券退款<a class="headerlink" href="#電子票券退款" title="Permanent link">&para;</a></h2>
+<div class="admonition note">
+<p class="admonition-title">使用須知</p>
+<ul>
+<li>電子票券退款需以一個電子票券代碼為單位進行，且一張訂單只能進行一次退票。<blockquote>
+<p>假設一個電子票券代碼中，內含十個可核銷之電子票券數量，現已兌換三個，另有七個尚未兌換。則必須將尚未兌換的七個數量一次全部退票，不得分割為特定數量退票。</p>
+</blockquote>
+</li>
+<li>票券若退款，票券手續費會<a href="#對帳規則">按比例</a>退回。</li>
+</ul>
+</div>
+<ol>
+<li>
+<p>顧客通知退票。</p>
+<blockquote>
+<p>若顧客欲退票，請引導其前往 <strong>電子票券訂單查詢</strong> 的 <strong>詢問紀錄</strong> 通知商家退票。</p>
+</blockquote>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/2021/12/電子票券設定16.png" /></p>
+</li>
+<li>
+<p>商家確認退貨訊息。</p>
+<blockquote>
+<p>商家可在訂單列表頁收到消費者的退貨訊息。</p>
+</blockquote>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/電子票券設定17.png" /></p>
+</li>
+<li>
+<p>確認退款情境。</p>
+<blockquote>
+<p>退款前需確認訂單內的票券種類與核銷狀態，<a href="#訂單內僅含一種票券">單一種類票券</a>與<a href="#訂單內含多種票券">多種票券種類</a>有不同的退貨流程。</p>
+</blockquote>
+<div class="grid cards" markdown>
+<ul>
+<li><img alt="" src="https://www.cyberbiz.io/support/wp-content/uploads/2021/12/電子票券設定18.png" title="一種票券種類" /></li>
+<li><img alt="" src="https://www.cyberbiz.io/support/wp-content/uploads/2021/12/電子票券設定19.png" title="多種票券種類" /></li>
+</ul>
+</div>
+</li>
+</ol>
+<h4 id="訂單內僅含一種票券">訂單內僅含一種票券<a class="headerlink" href="#訂單內僅含一種票券" title="Permanent link">&para;</a></h4>
+<div class="tabbed-set tabbed-alternate" data-tabs="3:2"><input checked="checked" id="票券尚未核銷" name="__tabbed_3" type="radio" /><input id="票券已核銷" name="__tabbed_3" type="radio" /><div class="tabbed-labels"><label for="票券尚未核銷">票券尚未核銷</label><label for="票券已核銷">票券已核銷</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>若此票券尚未核銷，可直接走取消訂單流程。</p>
+<ol>
+<li>在訂單列表中，找到並點擊欲取消的訂單，進入訂單明細頁面。</li>
+<li>
+<p>點擊 <strong>取消訂單</strong>，確認相關資訊無誤，點擊 <strong>取消此訂單</strong>。</p>
+<div class="grid cards" markdown>
+<ul>
+<li><img alt="" src="https://www.cyberbiz.io/support/wp-content/uploads/2021/12/電子票券設定20.png" title="取消訂單" /></li>
+<li><img alt="" src="https://www.cyberbiz.io/support/wp-content/uploads/2021/12/電子票券設定21.png" title="取消此訂單" /></li>
+</ul>
+</div>
+</li>
+<li>
+<p>確認完成畫面</p>
+</li>
+</ol>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/2021/12/電子票券設定22.png" /></p>
+</div>
+<div class="tabbed-block">
+<p>若此票券已核銷過，須走部分退款流程。（消費者當日付款，隔日才能操作部分退款）</p>
+<ol>
+<li>
+<p>在 CYBERBIZ 管理後台，前往 <strong>訂單 &gt; 所有訂單</strong>，在訂單列表中勾選該訂單，點擊 <strong>更多操作</strong>，選擇 <strong>退貨中</strong>。</p>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/2021/12/電子票券設定23.png" /></p>
+</li>
+<li>
+<p>勾選該訂單，點擊 <strong>更多操作</strong>，選擇 <strong>退貨審查</strong>。</p>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/2021/12/電子票券設定24.png" /></p>
+</li>
+<li>
+<p>進入訂單頁，在部分退款選取票券商品，點擊 <strong>確認退款</strong>。</p>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/2021/12/電子票券設定25.png" /></p>
+</li>
+<li>
+<p>再次確認退款資訊，點擊 <strong>確認退款</strong>。</p>
+</li>
+</ol>
+</div>
+</div>
+</div>
+<h4 id="訂單內含多種票券">訂單內含多種票券<a class="headerlink" href="#訂單內含多種票券" title="Permanent link">&para;</a></h4>
+<div class="tabbed-set tabbed-alternate" data-tabs="4:2"><input checked="checked" id="票券皆尚未核銷" name="__tabbed_4" type="radio" /><input id="部分票券已核銷" name="__tabbed_4" type="radio" /><div class="tabbed-labels"><label for="票券皆尚未核銷">票券皆尚未核銷</label><label for="部分票券已核銷">部分票券已核銷</label></div>
+<div class="tabbed-content">
+<div class="tabbed-block">
+<p>若訂單內的票券皆尚未核銷，且消費者想要全部退款，則可以走<a href="#票券尚未核銷">取消訂單流程</a>。</p>
+</div>
+<div class="tabbed-block">
+<p>若訂單內已有核銷過的票券，或者消費者想要退某幾種特定票券，則須走部分退款流程。</p>
+<ol>
+<li>
+<p>在 CYBERBIZ 後台，前往 <strong>訂單 &gt; 所有訂單</strong>，在訂單列表中勾選該訂單，點擊 <strong>退貨中</strong>。</p>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/2021/12/電子票券設定27.png" /></p>
+</li>
+<li>
+<p>勾選此訂單，點擊 <strong>退貨審查</strong>。</p>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/2021/12/電子票券設定28.png" /></p>
+</li>
+<li>
+<p>進入訂單頁，在部分退款選取欲退票的票券商品，點擊 <strong>確認退款</strong>。</p>
+<blockquote>
+<p>若消費者只想退「Cyber 音樂祭 - 單日票」，則只需勾選該項目即可。</p>
+</blockquote>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/2021/12/電子票券設定29.png" /></p>
+</li>
+<li>
+<p>點擊 <strong>確認</strong>，完成退款。</p>
+<blockquote>
+<p>「Cyber 音樂祭 - 單日票」剩餘3張全數退款，QR Code 作廢。「皮卡丘體驗券 - 早鳥體驗」沒有退款，則可繼續照常使用。</p>
+</blockquote>
+</li>
+</ol>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/2021/12/電子票券設定30.png" /></p>
+</div>
+</div>
+</div>
+<h2 id="電子票券分票">電子票券分票<a class="headerlink" href="#電子票券分票" title="Permanent link">&para;</a></h2>
+<p>將同一張可多次核銷的票券拆分為多張獨立 QR Code（<abbr title="當同一票種購買多份時，系統預設會產生單一 QR Code（核銷碼），可供多次核銷。若消費者有贈票的需求，可將此單一 QR Code 拆分為多個獨立票券。每張分出的票券皆會生成新的 QR Code，並可被單獨使用或轉贈他人。">分票</abbr>），供他人使用。</p>
+<div class="admonition note">
+<p class="admonition-title">使用須知</p>
+<ul>
+<li>分票操作不可回復（一個 QR Code 可以拆分為多個，但多個 QR Code 無法合併成一個）。</li>
+<li>分票後，原核銷碼即無法再使用。</li>
+<li>電子票券為不記名制，只要持有核銷碼，任何人皆可使用，請自行妥善保管。</li>
+<li>若需<a href="../電子票券退款">退款</a>，僅能由原購票人申請。請顧客勿隨意分票給他人，避免造成後續紛爭。</li>
+</ul>
+</div>
+<ol>
+<li>
+<p>登入前台會員，點選 <strong>我的帳戶 &gt; 電子票券訂單查詢</strong>，按下 <strong><abbr title="當同一票種購買多份時，系統預設會產生單一 QR Code（核銷碼），可供多次核銷。若消費者有贈票的需求，可將此單一 QR Code 拆分為多個獨立票券。每張分出的票券皆會生成新的 QR Code，並可被單獨使用或轉贈他人。">分票</abbr></strong> 按鈕。</p>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/電子票券設定33.png" /></p>
+</li>
+<li>
+<p>確認提示資訊，點擊 <strong>確認分票</strong>。</p>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/電子票券設定34.png" /></p>
+</li>
+<li>
+<p>分票後，QR Code 會被拆分成多個（可左右滑動查看其他 QR Code）。</p>
+<blockquote>
+<p>分票前的核銷碼為 10 碼，分票後的核銷碼為 25 碼。</p>
+</blockquote>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/電子票券設定35.png" /></p>
+</li>
+</ol>
+<h3 id="查看分票後的票券">查看分票後的票券<a class="headerlink" href="#查看分票後的票券" title="Permanent link">&para;</a></h3>
+<ol>
+<li>登入 CYBERBIZ 管理後台，前往 <strong>商品 &gt; 票券核銷列表</strong>。<blockquote>
+<p>已分票的票券，核銷碼欄位會顯示 <strong>查看</strong> 按鈕。</p>
+</blockquote>
+</li>
+<li>點擊 <strong>查看</strong> 後，會跳出彈窗顯示該票券所有核銷碼與其核銷狀態。</li>
+</ol>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/電子票券設定36.png" /></p>
+<h3 id="核銷分票後的核銷碼">核銷分票後的核銷碼<a class="headerlink" href="#核銷分票後的核銷碼" title="Permanent link">&para;</a></h3>
+<p>分票後，票券核銷列表頁將不會有該票券的 <strong>前往核銷</strong> 按鈕，請至 <strong>核銷票券頁</strong> 輸入核銷碼，進行核銷。</p>
+<ol>
+<li>登入 CYBERBIZ 管理後台，前往 <strong>商品 &gt; 核銷票券頁</strong>。</li>
+<li>輸入核銷碼進行核銷。（票後的核銷碼為 25 碼，核銷數量將預設為 1 且不可編輯）。</li>
+<li>點擊「查看票券」後，點擊 <strong>確認核銷</strong>。</li>
+</ol>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/電子票券設定37.png" /></p>
+<h2 id="電子票券對帳">電子票券對帳<a class="headerlink" href="#電子票券對帳" title="Permanent link">&para;</a></h2>
+<p>電子票券的代收款項撥款時機、手續費退回規則，以及對帳單的查看位置。</p>
+<h3 id="對帳規則">對帳規則<a class="headerlink" href="#對帳規則" title="Permanent link">&para;</a></h3>
+<ul>
+<li>
+<p>代收款項撥款時機，電子票券的代收款項會在 <strong>核銷時</strong> 撥款。</p>
+<blockquote>
+<p>某訂單在 10/5 成立且收到款項，訂單內含一種票券，數量 5 張，每張 200 元，訂單總金額為 1000 元。消費者在 10/22 核銷兩張票券，面額 400 元。則 10 月下半帳期會撥款兩張已核銷的票券，共 400 元。</p>
+</blockquote>
+</li>
+<li>
+<p>票券若退款，票券手續費會 <strong>按比例</strong> 退回。</p>
+<blockquote>
+<p>某訂單內含一種票券，數量 5 張，已核銷 2 張，剩下 3 張要退款，則會退回剩下 3 張的手續費。</p>
+</blockquote>
+</li>
+</ul>
+<h3 id="對帳單位置">對帳單位置<a class="headerlink" href="#對帳單位置" title="Permanent link">&para;</a></h3>
+<p>電子票券對帳單提供位置可參考附圖。</p>
+<p><img alt="" class="screenshot" src="https://www.cyberbiz.io/support/wp-content/uploads/電子票券設定31.png" /></p>
+<h2 id="票券分潤與自動結案設定">票券分潤與自動結案設定<a class="headerlink" href="#票券分潤與自動結案設定" title="Permanent link">&para;</a></h2>
+<p>設定電子票券訂單自動結案並計算分潤。</p>
+<div class="admonition note">
+<p class="admonition-title">使用須知</p>
+<ul>
+<li>即使票券尚未核銷，訂單仍會自動結案並計算分潤。</li>
+<li>訂單已結案後再進行退貨/取消訂單處理，不影響已成立的分潤。</li>
+<li>票券可搭配推薦人分潤，訂單結案時即計算分潤。</li>
+</ul>
+</div>
+<ol>
+<li>登入 CYBERBIZ 管理後台，前往 <strong>金物流 &gt; 結帳頁&amp;金物流設定 &gt; 訂單相關設定 &gt; 訂單自動結案設定</strong>。</li>
+<li>啟用 <strong>開啟票券訂單自動結案</strong> 功能，開啟（ON）或關閉（OFF）。</li>
+<li>設定票券訂單 <strong>當顧客付款後 N 天訂單自動結案</strong>，讓票券訂單可以自動計算分潤。</li>
+</ol>
+<p><img alt="" src="../../../assets/images/ec-orders-auto-closing-e-ticket.png.zh-tw.png" /></p>
+<h2 id="延伸閱讀">延伸閱讀<a class="headerlink" href="#延伸閱讀" title="Permanent link">&para;</a></h2>
+<ul>
+<li><a href="../電子票券優惠設定/">電子票券優惠設定</a></li>
+<li><a href="../設定電子票券門市權限/">設定電子票券門市權限</a></li>
+<li><a href="https://www.cyberbiz.io/blog/%e9%9b%bb%e5%ad%90%e7%a5%a8%e5%88%b8/">為什麼電子票券是門好生意</a></li>
+</ul>
+<!-- abbreviations -->
+
+
+  <nav class="md-tags" >
+    
+      
+      
+      
+      
+        <span class="md-tag">電子票券</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">QR Code</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">核銷</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">分票</span>
+      
+    
+      
+      
+      
+      
+        <span class="md-tag">對帳</span>
+      
+    
+  </nav>
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+  
+
+
+
+  <form class="md-feedback" name="feedback" hidden>
+    <fieldset>
+      <legend class="md-feedback__title">
+        內容有幫助?
+      </legend>
+      <div class="md-feedback__inner">
+        <div class="md-feedback__list">
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="有幫助" data-md-value="1">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m7 0c0 .8-.7 1.5-1.5 1.5S14 10.3 14 9.5 14.7 8 15.5 8s1.5.7 1.5 1.5m-5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81"/></svg>
+            </button>
+          
+            <button class="md-feedback__icon md-icon" type="submit" title="可以改進" data-md-value="0">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 12a8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8 8 8 0 0 0 8-8m2 0a10 10 0 0 1-10 10A10 10 0 0 1 2 12 10 10 0 0 1 12 2a10 10 0 0 1 10 10m-6.5-4c.8 0 1.5.7 1.5 1.5s-.7 1.5-1.5 1.5-1.5-.7-1.5-1.5.7-1.5 1.5-1.5M10 9.5c0 .8-.7 1.5-1.5 1.5S7 10.3 7 9.5 7.7 8 8.5 8s1.5.7 1.5 1.5m2 4.5c1.75 0 3.29.72 4.19 1.81l-1.42 1.42C14.32 16.5 13.25 16 12 16s-2.32.5-2.77 1.23l-1.42-1.42C8.71 14.72 10.25 14 12 14"/></svg>
+            </button>
+          
+        </div>
+        <div class="md-feedback__note">
+          
+            <div data-md-value="1" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+              感謝你的反饋!
+            </div>
+          
+            <div data-md-value="0" hidden>
+              
+              
+                
+              
+              
+              
+                
+                
+              
+                感謝你的反饋! Help us improve this page by
+  using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+
+            </div>
+          
+        </div>
+      </div>
+    </fieldset>
+  </form>
+
+
+                
+              </article>
+            </div>
+          
+          
+  <script>var tabs=__md_get("__tabs");if(Array.isArray(tabs))e:for(var set of document.querySelectorAll(".tabbed-set")){var labels=set.querySelector(".tabbed-labels");for(var tab of tabs)for(var label of labels.getElementsByTagName("label"))if(label.innerText.trim()===tab){var input=document.getElementById(label.htmlFor);input.checked=!0;continue e}}</script>
+
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+          <button type="button" class="md-top md-icon" data-md-component="top" hidden>
+  
+  <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-up" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="m16 12-4-4-4 4M12 16V8"/></svg>
+  回到頂端
+</button>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+          Copyright &copy; 2025 CYBERBIZ
+    <a href="#__consent">Change cookie settings</a>
+
+    </div>
+  
+  
+    Made with
+    <a href="https://zensical.org/" target="_blank" rel="noopener">
+      Zensical
+    </a>
+  
+</div>
+      
+        
+<div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://www.youtube.com/channel/UCTf4mKUL4k6-2skp1kxPDXg" target="_blank" rel="noopener" title="CYBERBIZ 官方 YouTube" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23.498 6.186a3.02 3.02 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.02 3.02 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.02 3.02 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.02 3.02 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814M9.545 15.568V8.432L15.818 12z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.instagram.com/cyberbiz.corp/" target="_blank" rel="noopener" title="CYBERBIZ 官方 Instagram" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M7.03.084c-1.277.06-2.149.264-2.91.563a5.9 5.9 0 0 0-2.124 1.388 5.9 5.9 0 0 0-1.38 2.127C.321 4.926.12 5.8.064 7.076s-.069 1.688-.063 4.947.021 3.667.083 4.947c.061 1.277.264 2.149.563 2.911.308.789.72 1.457 1.388 2.123a5.9 5.9 0 0 0 2.129 1.38c.763.295 1.636.496 2.913.552 1.278.056 1.689.069 4.947.063s3.668-.021 4.947-.082c1.28-.06 2.147-.265 2.91-.563a5.9 5.9 0 0 0 2.123-1.388 5.9 5.9 0 0 0 1.38-2.129c.295-.763.496-1.636.551-2.912.056-1.28.07-1.69.063-4.948-.006-3.258-.02-3.667-.081-4.947-.06-1.28-.264-2.148-.564-2.911a5.9 5.9 0 0 0-1.387-2.123 5.86 5.86 0 0 0-2.128-1.38C19.074.322 18.202.12 16.924.066 15.647.009 15.236-.006 11.977 0S8.31.021 7.03.084m.14 21.693c-1.17-.05-1.805-.245-2.228-.408a3.7 3.7 0 0 1-1.382-.895 3.7 3.7 0 0 1-.9-1.378c-.165-.423-.363-1.058-.417-2.228-.06-1.264-.072-1.644-.08-4.848-.006-3.204.006-3.583.061-4.848.05-1.169.246-1.805.408-2.228.216-.561.477-.96.895-1.382a3.7 3.7 0 0 1 1.379-.9c.423-.165 1.057-.361 2.227-.417 1.265-.06 1.644-.072 4.848-.08 3.203-.006 3.583.006 4.85.062 1.168.05 1.804.244 2.227.408.56.216.96.475 1.382.895s.681.817.9 1.378c.165.422.362 1.056.417 2.227.06 1.265.074 1.645.08 4.848.005 3.203-.006 3.583-.061 4.848-.051 1.17-.245 1.805-.408 2.23-.216.56-.477.96-.896 1.38a3.7 3.7 0 0 1-1.378.9c-.422.165-1.058.362-2.226.418-1.266.06-1.645.072-4.85.079s-3.582-.006-4.848-.06m9.783-16.192a1.44 1.44 0 1 0 1.437-1.442 1.44 1.44 0 0 0-1.437 1.442M5.839 12.012a6.161 6.161 0 1 0 12.323-.024 6.162 6.162 0 0 0-12.323.024M8 12.008A4 4 0 1 1 12.008 16 4 4 0 0 1 8 12.008"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.facebook.com/CYBERBIZCorporation/?locale=zh_TW" target="_blank" rel="noopener" title="CYBERBIZ 官方 Facebook" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a9 9 0 0 1 1.141.195v3.325a9 9 0 0 0-.653-.036 27 27 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.7 1.7 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647"/></svg>
+    </a>
+  
+    
+    
+    
+    
+      
+      
+    
+    <a href="http://localhost:8000/feed_rss_created.xml" target="_blank" rel="noopener" title="localhost:8000" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24zM3.291 17.415a3.3 3.3 0 0 1 3.293 3.295A3.303 3.303 0 0 1 3.283 24C1.47 24 0 22.526 0 20.71s1.475-3.294 3.291-3.295M15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727 0 15.909 7.184 15.909 15.91"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+      <div class="md-consent" data-md-component="consent" id="__consent" hidden>
+        <div class="md-consent__overlay"></div>
+        <aside class="md-consent__inner">
+          <form class="md-consent__form md-grid md-typeset" name="consent">
+            
+
+
+  
+
+
+<h4>Cookie consent</h4>
+<p>    We use cookies to recognize your repeated visits and preferences, as well
+    as to measure the effectiveness of our documentation and whether users
+    find what they're searching for. With your consent, you're helping us to
+    make our documentation better.
+</p>
+<input class="md-toggle" type="checkbox" id="__settings" >
+<div class="md-consent__settings">
+  <ul class="task-list">
+    
+    
+      
+        
+  
+  
+    
+    
+  
+  <li class="task-list-item">
+    <label class="task-list-control">
+      <input type="checkbox" name="analytics" checked>
+      <span class="task-list-indicator"></span>
+      Google Analytics
+    </label>
+  </li>
+
+      
+    
+    
+      
+    
+    
+  </ul>
+</div>
+<div class="md-consent__controls">
+  
+    
+      <button class="md-button md-button--primary">同意</button>
+    
+    
+    
+  
+    
+    
+    
+      <label class="md-button" for="__settings">管理設定</label>
+    
+  
+</div>
+          </form>
+        </aside>
+      </div>
+      <script>var consent=__md_get("__consent");if(consent)for(var input of document.forms.consent.elements)input.name&&(input.checked=consent[input.name]||!1);else"file:"!==location.protocol&&setTimeout((function(){document.querySelector("[data-md-component=consent]").hidden=!1}),250);var form=document.forms.consent;for(var action of["submit","reset"])form.addEventListener(action,(function(e){if(e.preventDefault(),"reset"===e.type)for(var n of document.forms.consent.elements)n.name&&(n.checked=!1);__md_set("__consent",Object.fromEntries(Array.from(new FormData(form).keys()).map((function(e){return[e,!0]})))),location.hash="",location.reload()}))</script>
+    
+    
+      
+      
+      
+      <script id="__config" type="application/json">{"annotate":null,"base":"../../..","features":["announce.dismiss","content.code.annotate","content.code.copy","content.code.select","content.footnote.tooltips","content.tabs.link","content.tooltips","navigation.footer","navigation.indexes","navigation.instant","navigation.instant.prefetch","navigation.path","navigation.sections","navigation.tabs","navigation.top","navigation.tracking","search.highlight"],"search":"../../../assets/javascripts/workers/search.e2d2d235.min.js","tags":null,"translations":{"clipboard.copied":"已複製","clipboard.copy":"複製","search.result.more.one":"此頁尚有 1 個符合的項目","search.result.more.other":"此頁尚有 # 個符合的項目","search.result.none":"沒有符合的項目","search.result.one":"找到 1 個符合的項目","search.result.other":"找到 # 個符合的項目","search.result.placeholder":"打字進行搜尋","search.result.term.missing":"缺少字詞","select.version":"選擇版本"},"version":null}</script>
+    
+    
+      <script src="../../../assets/javascripts/bundle.8ffeb9c9.min.js"></script>
+      
+        <script src="https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js"></script>
+      
+        <script src="../../../javascripts/tablesort.js"></script>
+      
+    
+  </body>
+</html>

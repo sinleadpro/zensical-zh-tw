@@ -1,27 +1,21 @@
 ---
 title:
 hide:
-  - toc
   - path
   - feedback
 ---
 
 # 品牌官網
 
-<div class="grid" markdown>
- 
-<br>  
-<big>__開始使用__</big>    
-開始建立您的線上商店。  
-完成商店設定、上架商品、啟用金流與物流，一步步帶您啟動營運。  
-<br>
-[新手上路 :lucide-circle-arrow-right:](get-started.md)
+## 官網設定
 
-![](../assets/images/ec-hero.png) 
 
-</div>
 
----
+## 行銷工具
+
+## 行銷導流
+
+## 數據分析
 
 <div class="grid cards" markdown>
 
@@ -359,6 +353,22 @@ hide:
 	</div>
 
 ---
+
+## 會員經營
+
+**VIP 制度** 是用於區分顧客貢獻度並提供差異化獎勵的核心工具，其結構主要由「VIP 群組」與「VIP 會員層級」組成。
+
+<div class="grid cards" markdown>
+
+- :lucide-crown:{ .lg }   
+  [__VIP群組__](設定 VIP 群組.md)     
+  匯入編輯過的商品 Excel 檔案，同步更新多筆商品的商品描述與配送相關設定。
+
+- :lucide-badge-dollar-sign:{ .lg }     
+  [__VIP 會員專屬價__](設定 VIP 會員專屬價格.md)  
+  設定商品的配送物流條件，限制特定物流方式於結帳流程中的顯示與使用。
+
+</div>
 
 ### 常見問題 :lucide-message-circle-question-mark:
 

@@ -22,7 +22,21 @@
             }
           },
           {
-            "id": "be7b688fb42f3e82",
+            "id": "0fbeed071a568aee",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "be6d79c227c33a29",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -36,59 +50,31 @@
             }
           },
           {
-            "id": "0f10b9073fba51fa",
+            "id": "66dfcab6bd3dc69b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/新增單一商品.md",
+                "file": "docs/ec/e-voucher/設定電子票券.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "新增單一商品"
+              "title": "設定電子票券"
             }
           },
           {
-            "id": "824310de72bb056e",
+            "id": "90ea347aef0f5d8f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/members/設定 VIP 群組.md",
+                "file": "docs/ec/e-voucher/設定電子票券.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定 VIP 群組"
-            }
-          },
-          {
-            "id": "dbe27c9997372b1d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/marketing/設定商品多層級分類滿額折扣.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定商品多層級分類滿額折扣"
-            }
-          },
-          {
-            "id": "be6d79c227c33a29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/yaml.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "yaml"
+              "title": "設定電子票券"
             }
           },
           {
@@ -118,7 +104,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       },
       {
         "id": "145b9f26bb568cb5",
@@ -276,7 +262,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 343.5
+    "width": 374.5
   },
   "right": {
     "id": "973606ff262c9293",
@@ -405,53 +391,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "be7b688fb42f3e82",
+  "active": "bc5e7ee3a9f5fb45",
   "lastOpenFiles": [
+    "site/ec/e-voucher/設定電子票券/index.html",
+    "site/ec/e-voucher/設定電子票券",
+    "docs/ec/e-voucher/index.md",
+    "docs/ec/e-voucher/設定電子票券.md",
+    "docs/ec/products/設定商品自訂分類群組.md",
+    "docs/ec/e-voucher/設定電子票券門市權限.md",
+    "site/ec/e-voucher/index.html",
+    "site/ec/e-voucher/Untitled/index.html",
+    "site/ec/e-voucher/Untitled",
+    "site/ec/products/篩選商品建立分類群組/index.html",
+    "site/ec/products/篩選商品建立分類群組",
+    "site/ec/products/編輯商品描述與商品設定/index.html",
+    "site/ec/products/編輯商品描述與商品設定",
+    "site/ec/products/product-activ-v2/index.html",
+    "site/ec/products/product-activ-v2",
+    "docs/ec/members/設定 VIP 群組.md",
+    "docs/ec/products/設定 VIP 會員專屬價格.md",
+    "site/assets/images/ec-members-vip-settings-hero.zh-tw.png",
+    "docs/assets/images/ec-members-vip-settings-hero.zh-tw.png",
+    "site/assets/images/ec-member-exclusive-price-label-setting.zh-tw.gif",
+    "docs/assets/images/ec-member-exclusive-price-label-setting.zh-tw.gif",
+    "templates/yaml.md",
+    "docs/ec/marketing/設定商品多層級分類滿額折扣.md",
+    "docs/ec/index.md",
+    "docs/ec/app-market/chatbox/overview.md",
+    "docs/ec/app-market/index.md",
+    "site/assets/images/ec-vip-exclusive-price-frontend-enabled-login.zh-tw.png",
+    "docs/assets/images/ec-vip-exclusive-price-frontend-enabled-login.zh-tw.png",
+    "site/assets/images/ec-vip-exclusive-price-frontend-enable-not-login.zh-tw.png",
+    "docs/assets/images/ec-vip-exclusive-price-frontend-enable-not-login.zh-tw.png",
+    "docs/ec/products/index.md",
+    "docs/index.md",
+    "docs/ec/products/新增單一商品.md",
+    "docs/ec/products/設定前台商品篩選器.md",
+    "docs/ec/products/設定商品多層級分類.md",
     "site/assets/images/ec-remove-member-exclusive-price-variants.zh-tw.png",
     "docs/assets/images/ec-remove-member-exclusive-price-variants.zh-tw.png",
-    "site/storepal/index.html",
-    "site/ec/products/設定 VIP 會員專屬價格/index.html",
-    "site/ec/products/設定 VIP 會員專屬價格",
-    "site/ec/products/設定會員專屬價格/index.html",
-    "site/ec/products/設定會員專屬價格",
-    "site/assets/images/ec-export-member-exlucisve-prices-column.zh-tw.png",
-    "docs/assets/images/ec-export-member-exlucisve-prices-column.zh-tw.png",
-    "site/assets/images/ec-export-member-exclusive-prices.zh-tw.gif",
-    "docs/assets/images/ec-export-member-exclusive-prices.zh-tw.gif",
-    "site/assets/images/ec-batch-edit-member-exclusive-price.zh-tw.gif",
-    "docs/assets/images/ec-batch-edit-member-exclusive-price.zh-tw.gif",
-    "site/assets/images/ec-remove-member-exclusive-price-variants.zh-tw.gif",
-    "docs/assets/images/ec-remove-member-exclusive-price-variants.zh-tw.gif",
-    "site/assets/images/ec-edit-member-exclusive-price-variants.zh-tw.gif",
-    "site/assets/images/ec-edit-member-exclusive-price-setting.zh-tw.mov",
-    "docs/assets/images/ec-edit-member-exclusive-price-setting.zh-tw.mov",
-    "site/assets/stylesheets/modern/main.dfcb43b2.min.css",
-    "site/assets/javascripts/bundle.8ffeb9c9.min.js",
-    "site/assets/stylesheets/classic/main.e1e97660.min.css",
-    "docs/ec/members/設定 VIP 群組.md",
-    "docs/ec/products/設定前台商品篩選器.md",
-    "docs/ec/products/新增單一商品.md",
-    "docs/ec/products/設定 VIP 會員專屬價格.md",
     "新增單一.md",
-    "docs/ec/marketing/設定商品多層級分類滿額折扣.md",
     "商品篩選.md",
     "docs/ec/website-appearance/設定前台商品群組排序.md",
     "docs/ec/products/設定 VIP 會員專屬價格.en.md",
-    "docs/ec/products/設定商品自訂分類群組.md",
     "templates/syntax-data-preview.md",
     "docs/ec/products/設定商品條件分類群組.md",
     "docs/ec/marketing/設定任選折扣群組.md",
-    "templates/yaml.md",
     "archive/wordpress/wp-reg-20260106/群組篩選器.md",
-    "templates/lucide-move.md",
-    "docs/ec/website-appearance/index.md",
-    "docs/ec/products/index.md",
-    "docs/ec/products/設定商品多層級分類.md",
-    "docs/ec/marketing/index.md",
-    "docs/ec/marketing/商品多層級分類滿額折扣 ent.md",
-    "archive/wordpress/wp-reg-20260106/商品多層級分類設定.md",
-    "archive/wordpress/wp-ent-20260106/商品多層級分類滿額折扣.md",
-    "archive/wordpress/wp-ent-20260106/商品多層級分類滿額折扣 1.md",
-    "archive/wordpress/wp-reg-20260106/商品多層級分類滿額折扣.md"
+    "templates/lucide-move.md"
   ]
 }

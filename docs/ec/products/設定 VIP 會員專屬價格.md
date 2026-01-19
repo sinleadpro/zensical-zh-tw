@@ -1,32 +1,52 @@
 ---
 title: 設定 VIP 會員專屬價格
+version: ""
+last_modified: 2026-01-19
 description: 為不同 VIP 會員群組設定專屬商品價格，管理會員優惠更靈活。
 product:
   - EC
-module:
+modules:
   - product
+  - member
 activ: ""
+paths:
+  - EC/Products/設定 VIP 會員專屬價格
 surfaces:
+ends:
   - backend
-devices: []
+  - frontend
+devices:
+  - desktop
+  - mobile
 apis: []
 type: tutorial
-features: []
-tasks: []
+intents:
+  - configure
+features: 
+  - member-exclusive-price
 tnb: branch
 plans:
   - 高手
   - PLUS
   - 企業
+prerequisites:
+  - 設定 VIP 群組
 lang: zh-TW
 sites:
   - TW
-status: doing
-doc_next: ""
+status: 
 tags: []
 difficulty: ""
+audiences:
+  - merchant
+  - customer
+wp_url: []
 notes:
   - doc-previous 設定 VIP 會員群組 link
+comments: ""
+search:
+  exclude: ""
+icon: lucide/lock
 ---
 
 # 設定 VIP 會員專屬價格
@@ -41,20 +61,14 @@ notes:
 
 ## VIP 會員專屬價格說明
 
+**會員專屬價格** 能針對不同等級 VIP 會員設定差異化售價，提升高價值會員專屬感並刺激消費。
 
-!!! tip "應用情境"
-	- 為不同 VIP 群組設定專屬的商品價格。
-	- 透過單筆、多筆編輯或 Excel 匯入方式，靈活管理 VIP 專屬價格。
-	- 開啟未登入顧客顯示 VIP 優惠提示，引導潛在 VIP 會員登入以查看專屬優惠。
+### 前置條件
 
-## 前置條件
-
-- 已[設定 VIP 會員群組](設定顧客 VIP 群組)。
-- 若發佈新的 VIP 規則，請重新設定會員專屬價格，確保價格正確套用。
-
+- 已設定 VIP 群組。詳見 [如何設定 VIP 群組](設定 VIP 群組)。
+- 若新增 VIP 規則，請重新設定會員專屬價格以確保價格正確套用。
 
 ## 單筆設定會員專屬價格
-
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 所有商品**。
 2. 選擇商品，進入 **商品資訊** 頁籤。
@@ -120,52 +134,57 @@ notes:
 
 ![](../../assets/images/ec-import-member-exclusive-prices.zh-tw.png)
 
+## 會員專屬價格標籤
 
-## 未登入 VIP 標籤顯示  
-
-此功能旨在提醒未登入的 VIP 顧客，登入後可享有更優惠的價格。
-
-1. 登入 CYBERBIZ 管理後台，前往 **網站外觀 > 套版主題管理 > 網站設定**。
-2. 切換至 **商品頁面** 頁籤，勾選 **會員專屬價格標籤**。
-3. 設定 **商品 VIP 標籤連結**，引導會員登入或註冊。
+**會員專屬價格標籤** 搭配 **商品 VIP 標籤連結** 使用，用於提示未登入訪客登入會員以享受 VIP 專屬價格，提升註冊與轉換率。
 
 
-4. 登入 CYBERBIZ 管理後台，前往 **網站外觀 > 套版主題管理 > 網站設定**。
-5. 切換至 **商品頁面** 頁籤，找到 **基本設定** 區塊。
-6. 勾選 **會員專屬價格標籤** 以啟用功能。若未開啟，未登入的消費者在前台商品頁將不會看到標籤提醒。
-7. 在 **商品 VIP 標籤連結** 欄位，可設定連結至商品註冊/登入網址，引導客戶進行登入。
+### 功能定義與目的
 
-![會員專屬價格設定14.png](https://www.cyberbiz.io/support/wp-content/uploads/會員專屬價格設定14.png){ .screenshot }
+- **顯示提示標籤**：商品頁面顯示提示文字（例如：登入看 VIP 價），提醒顧客登入享專屬優惠。
+        
+- **引導會員登入**：標籤可設定為點擊連結，引導訪客前往 **註冊或登入頁面**。
+        
+- **提升轉換率**：利用價格差異心理效應，提高訪客註冊與登入意願。
 
-       
-## 已登入會員顯示
+### 操作步驟
 
-已登入的會員，若其所屬的 VIP 群組有設定商品的會員專屬價格，則商品頁的商品售價將會顯示設定的會員專屬價格，並同時顯示該會員所屬的 VIP 群組名稱。
+1. 登入 CYBERBIZ 管理後台，前往 **網站外觀 > 套版主題管理 > 網站設定**。    
+2. 選擇 **商品頁面 > 基本設定**。
+3. 設定以下欄位：
+    
+    - **會員專屬價格標籤**：前台標籤文字。        
+    - **商品 VIP 標籤連結**：登入/註冊頁面網址。
+ 
+
+![](../../assets/images/ec-member-exclusive-price-label-setting.zh-tw.gif)
+
+### 前台顯示說明
+
+若會員所屬 VIP 群組已設定專屬價格，前台商品頁將顯示會員專屬價格與 VIP 群組名稱。
 
 === "未開啟功能"
+
+	未登入顧客不顯示標籤。
+	
 	![](../../assets/images/ec-member-exclusive-price-display-off.zh-tw.png)
 
 === "開啟功能 會員未登入"
-	商品頁面顯示登入/註冊會員連結
+	顯示登入/註冊連結。
 
-	![](../../assets/images/ec-member-exclusive-price-display-member-logout.zh-tw.png)
+	![](../../assets/images/ec-vip-exclusive-price-frontend-enable-not-login.zh-tw.png)
 
 === "開啟功能 會員已登入"
-	商品頁面顯示會員等級
+	顯示會員等級與專屬價格。
 
-	![](../../assets/images/ec-member-exclusive-price-display-member-login.zh-tw.png)
+	![](../../assets/images/ec-vip-exclusive-price-frontend-enabled-login.zh-tw.png)
 
 ## 常見問題
 ??? quote "設定會員專屬價格後，前台會如何顯示？"
-    === ":material-alert-circle-outline: 原因"
-        當會員登入後，若其所屬的 VIP 群組有設定專屬價格，前台商品頁會直接顯示該專屬價格。若未登入，則會顯示原價，並可選擇開啟「未登入 VIP 標籤顯示」功能，提示顧客登入以查看優惠。
-    === ":material-lightbulb-on-outline: 解決方法"
-        - **已登入會員：** 系統自動顯示 VIP 專屬價格。
-        - **未登入會員：** 建議開啟「未登入 VIP 標籤顯示」功能，並設定登入/註冊連結，引導顧客登入。
+	會員登入後，若其 VIP 群組已設定專屬價格，前台會直接顯示。未登入則顯示原價，可選擇開啟「未登入 VIP 標籤顯示」提示登入。
+	
+	- **已登入會員：** 系統自動顯示專屬價格。  
+	- **未登入會員：** 建議開啟標籤提示並設定登入/註冊連結。
 
 ??? quote "如果一個商品有多個 VIP 群組的專屬價格，系統會如何判斷？"
-    === ":material-alert-circle-outline: 原因"
-        通常系統會根據會員所屬的最高等級 VIP 群組，或依據內部設定的優先順序來顯示價格。
-    === ":material-lightbulb-on-outline: 解決方法"
-        請參考 CYBERBIZ 官方文件或聯繫客服，確認多個 VIP 群組價格的優先級判斷邏輯。
-
+	系統依會員最高等級或內部設定優先順序顯示價格。詳情請參閱 [如何設定 VIP 群組](../members/設定 VIP 群組) 確認多群組價格優先順序。

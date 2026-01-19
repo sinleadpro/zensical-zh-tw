@@ -252,32 +252,32 @@
       "model": "claude-3-5-haiku-latest"
     },
     {
-      "providerId": "ollama",
       "providerType": "ollama",
+      "providerId": "ollama",
       "id": "llama3.1",
       "model": "llama3.1:8b",
       "promptLevel": 1,
       "enable": true
     },
     {
-      "providerId": "ollama",
       "providerType": "ollama",
+      "providerId": "ollama",
       "id": "llama 3 tw",
       "model": "cwchang/llama-3-taiwan-8b-instruct-128k:q5_k",
       "promptLevel": 1,
       "enable": true
     },
     {
-      "providerId": "ollama",
       "providerType": "ollama",
+      "providerId": "ollama",
       "id": "gemma3n:e2b",
       "model": "gemma3n:e2b",
       "promptLevel": 1,
       "enable": true
     },
     {
-      "providerId": "ollama",
       "providerType": "ollama",
+      "providerId": "ollama",
       "id": "gemma3n:e4b",
       "model": "gemma3n:e4b",
       "promptLevel": 1,
