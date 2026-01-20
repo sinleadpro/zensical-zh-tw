@@ -97,10 +97,10 @@ copyright = """
             ]},
         ]},
         { "電子票券" = [
-            { "overview" = "ec/e-voucher/index.md" },
-            { "電子票券設定" = "ec/e-voucher/電子票券指南.md" },
-            { "電子票券優惠" = "ec/e-voucher/電子票券優惠設定.md" },
-            { "電子票券門市權限" = "ec/e-voucher/設定電子票券門市權限.md"}
+            { "overview" = "ec/e-ticket/index.md" },
+            { "電子票券指南" = "ec/e-ticket/電子票券設定指南.md" },
+            { "電子票券優惠" = "ec/e-ticket/設定電子票券優惠.md" },
+            { "門市店員帳號與權限" = "ec/e-ticket/設定電子票券門市權限.md"}
         ]},
         { "行銷活動" = [
             { "overview" = "ec/marketing/index.md" },  

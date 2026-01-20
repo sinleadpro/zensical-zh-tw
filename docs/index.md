@@ -323,7 +323,7 @@ __自動化功能__
 自動化行銷 精準分眾省荷包  
 
 - [:lucide-ticket: __TICKET__](){ .md-button .extension-tag }    
-[__電子票券__](設定電子票券.md)     
+[__電子票券__](電子票券設定指南.md)     
 線上購票 線下體驗  
 
 - [:lucide-zap: __NOW!__](){ .md-button .extension-tag }    
