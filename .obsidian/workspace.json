@@ -50,20 +50,6 @@
             }
           },
           {
-            "id": "9837de33651ff97c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/e-ticket/電子票券設定指南.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "電子票券設定指南"
-            }
-          },
-          {
             "id": "8f0ff5684fc974fa",
             "type": "leaf",
             "state": {
@@ -78,12 +64,26 @@
             }
           },
           {
+            "id": "8cbb23c52bdeb783",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/e-ticket/電子票券設定指南.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "電子票券設定指南"
+            }
+          },
+          {
             "id": "f5a73544c06d0bc2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "temp/核銷電子票券.md",
+                "file": "temp/ec/電子票券/核銷電子票券.md",
                 "mode": "source",
                 "source": true
               },
@@ -146,7 +146,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       },
       {
         "id": "145b9f26bb568cb5",
@@ -208,12 +208,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=5812",
-                "title": "PLUS用戶 - 電子票券 : 優惠設定 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=8118",
+                "title": "PLUS版功能 - 電子票券 : 門市權限功能 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "PLUS用戶 - 電子票券 : 優惠設定 - CYBERBIZ 一般版教學文件"
+              "title": "PLUS版功能 - 電子票券 : 門市權限功能 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -229,12 +229,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=27477",
-                "title": "電子票券-優惠設定",
+                "url": "https://www.cyberbiz.io/support/?p=40429",
+                "title": "電子票券 : 門市權限功能",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "電子票券-優惠設定"
+              "title": "電子票券 : 門市權限功能"
             }
           }
         ]
@@ -304,7 +304,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 374.5
+    "width": 202.5
   },
   "right": {
     "id": "973606ff262c9293",
@@ -435,36 +435,39 @@
   },
   "active": "bc5e7ee3a9f5fb45",
   "lastOpenFiles": [
-    "docs/ec/e-ticket/電子票券設定指南.md",
-    "docs/ec/e-ticket/設定電子票券門市權限.md",
-    "temp/核銷電子票券.md",
-    "docs/ec/e-ticket/設定電子票券優惠.md",
-    "site/assets/images/ec-e-ticket-discount-hero.zh-tw.png",
-    "docs/assets/images/ec-e-ticket-discount-hero.zh-tw.png",
+    "site/assets/images/ec-所有門市-電子票券管理門市.png",
+    "docs/assets/images/ec-所有門市-電子票券管理門市.png",
+    "site/assets/images/ec-所有門市-加入綁定.gif",
+    "docs/assets/images/ec-所有門市-加入綁定.gif",
+    "site/assets/images/ec-電子票券-加入綁定.gif",
+    "docs/assets/images/ec-電子票券-加入綁定.gif",
+    "site/pos/index.html",
+    "site/pos",
+    "site/ec/products/認識商品管理介面/index.html",
+    "site/ec/products/認識商品管理介面",
+    "site/ec/products/管理商品標籤/index.html",
+    "site/ec/products/管理商品標籤",
     "site/ec/products/index 1/index.html",
     "site/ec/products/index 1",
-    "site/ec/products/設定商品條件分類群組/index.html",
-    "site/ec/products/設定商品條件分類群組",
-    "site/resources/index.html",
-    "site/ec/products/設定商品到貨通知/index.html",
-    "site/ec/products/設定商品到貨通知",
-    "site/index.html",
-    "site/ec/products/product-activ-v2/index.html",
-    "site/ec/products/product-activ-v2",
-    "site/assets/images/ec-e-ticket-split-button.zh-tw.png",
-    "docs/assets/images/ec-e-ticket-split-button.zh-tw.png",
-    "site/assets/images/ec-e-ticket-split-check.zh-tw.png",
-    "docs/assets/images/ec-e-ticket-split-check.zh-tw.png",
-    "site/assets/images/ec-e-ticket-multiple-kinds-redemped-partial-returen.zh-tw.png",
-    "docs/assets/images/ec-e-ticket-multiple-kinds-redemped-partial-returen.zh-tw.png",
-    "site/assets/images/ec-e-ticket-redemped-partial-return.zh-tw.gif",
-    "docs/assets/images/ec-e-ticket-redemped-partial-return.zh-tw.gif",
-    "temp/電子票券分票.md",
-    "temp/電子票券對帳.md",
-    "temp/電子票券退票.md",
-    "temp/顧客購買電子票券.md",
+    "site/ec/products/新增單一商品/index.html",
+    "site/ec/products/新增單一商品",
+    "docs/ec/e-ticket/電子票券設定指南.md",
+    "docs/ec/e-ticket/設定電子票券門市權限.md",
+    "docs/ec/e-ticket/設定電子票券優惠.md",
     "docs/ec/e-ticket/index.md",
-    "temp/設定電子票券.md",
+    "site/assets/images/ec-電子票券-綁定門市.png",
+    "docs/assets/images/ec-電子票券-綁定門市.png",
+    "temp/ec/電子票券/核銷電子票券.md",
+    "site/assets/images/ec-電子票券-加入折扣.png",
+    "docs/assets/images/ec-電子票券-加入折扣.png",
+    "site/assets/images/ec-電子票券-選擇票券.png",
+    "temp/ec/電子票券/sidebar tree.md",
+    "temp/ec/電子票券/電子票券分潤與結帳.md",
+    "temp/ec/電子票券/電子票券分票.md",
+    "temp/ec/電子票券/電子票券對帳.md",
+    "temp/ec/電子票券/電子票券退票.md",
+    "temp/ec/電子票券/顧客購買電子票券.md",
+    "temp/ec/電子票券/設定電子票券.md",
     "docs/ec/products/設定 VIP 會員專屬價格.md",
     "docs/ec/index.md",
     "docs/ec/products/設定商品自訂分類群組.md",
@@ -477,8 +480,6 @@
     "docs/index.md",
     "docs/ec/products/新增單一商品.md",
     "docs/ec/products/設定前台商品篩選器.md",
-    "docs/ec/products/設定商品多層級分類.md",
-    "新增單一.md",
-    "商品篩選.md"
+    "docs/ec/products/設定商品多層級分類.md"
   ]
 }

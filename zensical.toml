@@ -100,7 +100,7 @@ copyright = """
             { "overview" = "ec/e-ticket/index.md" },
             { "電子票券指南" = "ec/e-ticket/電子票券設定指南.md" },
             { "電子票券優惠" = "ec/e-ticket/設定電子票券優惠.md" },
-            { "門市店員帳號與權限" = "ec/e-ticket/設定電子票券門市權限.md"}
+            { "門市帳號與權限" = "ec/e-ticket/設定電子票券門市權限.md"}
         ]},
         { "行銷活動" = [
             { "overview" = "ec/marketing/index.md" },  
