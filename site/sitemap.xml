@@ -133,22 +133,28 @@
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/marketing/%E7%B5%90%E5%B8%B3%E5%84%AA%E6%83%A0%E8%A8%88%E7%AE%97%E9%A0%86%E5%BA%8F-rev/</loc>
       </url>
       <url>
-        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/payments/</loc>
+        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/payments-and-logistics/</loc>
       </url>
       <url>
-        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/payments/%E7%94%B3%E8%AB%8B%20CYBERBIZ%20PAYMENTS/</loc>
+        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/payments-and-logistics/%E7%94%B3%E8%AB%8B%20CYBERBIZ%20PAYMENTS/</loc>
       </url>
       <url>
-        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/payments/%E8%A8%AD%E5%AE%9A%20Apple%20Pay/</loc>
+        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/payments-and-logistics/%E7%94%B3%E8%AB%8B%20CYBERBIZ%20PAYMENTS%20old/</loc>
       </url>
       <url>
-        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/payments/%E8%A8%AD%E5%AE%9A%E4%BF%A1%E7%94%A8%E5%8D%A1%203D%20%E9%A9%97%E8%AD%89%E9%96%80%E6%AA%BB/</loc>
+        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/payments-and-logistics/%E8%A8%AD%E5%AE%9A%20Apple%20Pay/</loc>
       </url>
       <url>
-        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/payments/%E6%98%9F%E7%9B%8A%E6%AC%A3%E9%9B%BB%E5%AD%90%E7%99%BC%E7%A5%A8%E8%A8%AD%E5%AE%9A%E6%8C%87%E5%8D%97/</loc>
+        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/payments-and-logistics/%E8%A8%AD%E5%AE%9A%E4%BF%A1%E7%94%A8%E5%8D%A1%203D%20%E9%A9%97%E8%AD%89%E9%96%80%E6%AA%BB/</loc>
+      </url>
+      <url>
+        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/payments-and-logistics/%E6%98%9F%E7%9B%8A%E6%AC%A3%E9%9B%BB%E5%AD%90%E7%99%BC%E7%A5%A8%E8%A8%AD%E5%AE%9A%E6%8C%87%E5%8D%97/</loc>
       </url>
       <url>
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/website-appearance/</loc>
+      </url>
+      <url>
+        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/website-appearance/%E8%A8%AD%E5%AE%9A%E5%89%8D%E5%8F%B0%E9%81%B8%E5%96%AE/</loc>
       </url>
       <url>
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/website-appearance/%E8%A8%AD%E5%AE%9A%E5%89%8D%E5%8F%B0%E5%95%86%E5%93%81%E7%BE%A4%E7%B5%84%E6%8E%92%E5%BA%8F/</loc>
@@ -161,6 +167,12 @@
       </url>
       <url>
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/app-market/</loc>
+      </url>
+      <url>
+        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/app-market/cyberbiz-extensions/</loc>
+      </url>
+      <url>
+        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/app-market/cyberbiz-extensions/chat-box/</loc>
       </url>
       <url>
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/integrations/</loc>

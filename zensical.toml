@@ -127,14 +127,16 @@ copyright = """
             ]},        
         ]},
         { "金物流" = [
-            { "支付金流" = "ec/payments/index.md" },
-            { "申請 CYBERBIZ PAYMENTS" = "ec/payments/申請 CYBERBIZ PAYMENTS.md" },
-            { "設定 Apple Pay" = "ec/payments/設定 Apple Pay.md" },
-            { "設定信用卡 3D 驗證" = "ec/payments/設定信用卡 3D 驗證門檻.md" },
-            { "星益欣電子發票設定指南" = "ec/payments/星益欣電子發票設定指南.md" }
+            { "overview" = "ec/payments-and-logistics/index.md" },
+            { "申請 CYBERBIZ PAYMENTS" = "ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS.md" },
+            { "申請 CYBERBIZ PAYMENTS" = "ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS old.md" },
+            { "設定 Apple Pay" = "ec/payments-and-logistics/設定 Apple Pay.md" },
+            { "設定信用卡 3D 驗證" = "ec/payments-and-logistics/設定信用卡 3D 驗證門檻.md" },
+            { "星益欣電子發票設定指南" = "ec/payments-and-logistics/星益欣電子發票設定指南.md" }
         ]},
         { "網站外觀" = [
             { "overview" = "ec/website-appearance/index.md" },
+            { "選單設定" = "ec/website-appearance/設定前台選單.md" },
             { "全站商品列表群組排序" = "ec/website-appearance/設定前台商品群組排序.md" }
         ]},
         { "商店設定" = [
@@ -143,8 +145,11 @@ copyright = """
         ]},
         { "APP MARKET" = [
             { "overview" = "ec/app-market/index.md" },
-            { "Chat Box" = [
-                { "快速上手" = "ec/app-market/chatbox/quickstart.md" },
+            { "CYBERBIZ 擴充服務" = [
+                { "overview" = "ec/app-market/cyberbiz-extensions/index.md" },
+                { "Chat Box" = [
+                    { "overview" = "ec/app-market/cyberbiz-extensions/chat-box/index.md" },
+                ]},
             ]},
         ]},
         { "整合串接" = [
