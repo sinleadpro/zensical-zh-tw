@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 22.296544035674472,
+        "dimension": 32.32998885172798,
         "children": [
           {
             "id": "3e2d43890e417467",
@@ -55,21 +55,21 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/payments-and-logistics/設定信用卡 3D 驗證門檻.md",
+                "file": "docs/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定信用卡 3D 驗證門檻"
+              "title": "申請 CYBERBIZ PAYMENTS"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "145b9f26bb568cb5",
         "type": "tabs",
-        "dimension": 28.539576365663322,
+        "dimension": 22.296544035674472,
         "children": [
           {
             "id": "50658d05582d8786",
@@ -118,7 +118,7 @@
       {
         "id": "0f41cb20a1d95388",
         "type": "tabs",
-        "dimension": 26.08695652173913,
+        "dimension": 22.296544035674472,
         "children": [
           {
             "id": "9d592301c67b1ee1",
@@ -149,7 +149,7 @@
               "state": {
                 "url": "https://www.cyberbiz.io/support/?p=5450",
                 "title": "信用卡 3D驗證門檻設定",
-                "mode": "reader"
+                "mode": "webview"
               },
               "icon": "globe-2",
               "title": "信用卡 3D驗證門檻設定"
@@ -351,10 +351,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc5e7ee3a9f5fb45",
+  "active": "69a33fe0e530c67a",
   "lastOpenFiles": [
+    "docs/assets/images/ec-網站外觀-頁腳.gif",
     "docs/ec/payments-and-logistics/設定信用卡 3D 驗證門檻.md",
     "docs/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS.md",
+    "site/assets/images/ec-網站外觀-頁腳.gif.zip",
+    "docs/assets/images/ec-網站外觀-頁腳.gif.zip",
     "docs/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS old.md",
     "temp/ec/e-ticket/顧客購買電子票券.md",
     "temp/ec/e-ticket/電子票券退票.md",
@@ -372,7 +375,6 @@
     "resources/scripts",
     "resources/未命名檔案夾",
     "site/assets/images/ec-網站外觀-頁腳.gif",
-    "docs/assets/images/ec-網站外觀-頁腳.gif",
     "archive/wordpress-annotated/wp-combined-ent-annotated-20260122.md",
     "archive/wordpress-annotated/wp-combined-reg-annotated-20260122.md",
     "site/assets/images/ec-網站外觀-自訂頁面-關於我們.gif",
@@ -389,14 +391,11 @@
     "reference/trans-glossary.csv",
     "site/assets/images/ec-網站外觀-logo.png",
     "docs/assets/images/ec-網站外觀-logo.png",
-    "reference/tolgee-exported.csv",
     "docs/ec/app-market/cyberbiz-extensions/index.md",
     "docs/ec/app-market/index.md",
     "docs/ec/app-market/cyberbiz-extensions/chat-box/index.md",
-    "site/ec/payments-and-logistics/電子發票：星益欣 (美麗科技)/index.html",
     "docs/ec/payments-and-logistics/Untitled 1.md",
     "docs/ec/payments-and-logistics/PLUS用戶 - CYBERBIZ PAYMENTS 金流申請流程-PLUS.md",
-    "docs/ec/payments-and-logistics/CYBERBIZ PAYMENTS 金流申請流程-企業版.md",
     "site/assets/images/ec-會員電子票券訂單查詢-顯示可核銷門市.png",
     "docs/assets/images/ec-會員電子票券訂單查詢-顯示可核銷門市.png"
   ]
