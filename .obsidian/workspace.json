@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 40.457413249211356,
+        "dimension": 22.296544035674472,
         "children": [
           {
             "id": "3e2d43890e417467",
@@ -41,12 +41,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS.md",
+                "file": "docs/ec/payments-and-logistics/設定信用卡 3D 驗證門檻.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "申請 CYBERBIZ PAYMENTS"
+              "title": "設定信用卡 3D 驗證門檻"
             }
           },
           {
@@ -62,158 +62,6 @@
               "icon": "lucide-file",
               "title": "設定信用卡 3D 驗證門檻"
             }
-          },
-          {
-            "id": "edeacca5fb1273bb",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "includes/abbreviations.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "abbreviations"
-            }
-          },
-          {
-            "id": "b9f90a8acdd37c51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/payments-and-logistics/設定信用卡 3D 驗證門檻.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定信用卡 3D 驗證門檻"
-            }
-          },
-          {
-            "id": "3f55e70a9bdb204b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/payments-and-logistics/index.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "8f0ff5684fc974fa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/管理商品標籤.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "管理商品標籤"
-            }
-          },
-          {
-            "id": "25212284ce4822b7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/website-appearance/設定前台商品群組排序.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定前台商品群組排序"
-            }
-          },
-          {
-            "id": "8cbb23c52bdeb783",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/e-ticket/電子票券設定指南.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "電子票券設定指南"
-            }
-          },
-          {
-            "id": "f5a73544c06d0bc2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "temp/ec/電子票券/核銷電子票券.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "核銷電子票券"
-            }
-          },
-          {
-            "id": "66dfcab6bd3dc69b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/e-ticket/電子票券設定指南.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "電子票券設定指南"
-            }
-          },
-          {
-            "id": "90ea347aef0f5d8f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/e-ticket/電子票券設定指南.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "電子票券設定指南"
-            }
-          },
-          {
-            "id": "e5ef560421746876",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/設定商品自訂分類群組.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定商品自訂分類群組"
-            }
-          },
-          {
-            "id": "4b92b331d748ceae",
-            "type": "leaf",
-            "state": {
-              "type": "csv-lite-view",
-              "state": {
-                "file": "reference/trans-glossary.csv"
-              },
-              "icon": "table",
-              "title": "trans-glossary"
-            }
           }
         ],
         "currentTab": 2
@@ -221,7 +69,7 @@
       {
         "id": "145b9f26bb568cb5",
         "type": "tabs",
-        "dimension": 19.479495268138802,
+        "dimension": 28.539576365663322,
         "children": [
           {
             "id": "50658d05582d8786",
@@ -270,7 +118,7 @@
       {
         "id": "0f41cb20a1d95388",
         "type": "tabs",
-        "dimension": 19.952681388012618,
+        "dimension": 26.08695652173913,
         "children": [
           {
             "id": "9d592301c67b1ee1",
@@ -278,12 +126,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=6174",
-                "title": "PLUS用戶 - CYBERBIZ PAYMENTS 金流申請流程 - CYBERBIZ 一般版教學文件",
-                "mode": "webview"
+                "url": "https://www.cyberbiz.io/helpcenter/?p=6844",
+                "title": "信用卡 3D驗證門檻設定 - CYBERBIZ 一般版教學文件",
+                "mode": "reader"
               },
               "icon": "globe-2",
-              "title": "PLUS用戶 - CYBERBIZ PAYMENTS 金流申請流程 - CYBERBIZ 一般版教學文件"
+              "title": "信用卡 3D驗證門檻設定 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -291,7 +139,7 @@
       {
         "id": "ea951fb7d70bee14",
         "type": "tabs",
-        "dimension": 20.110410094637224,
+        "dimension": 23.076923076923077,
         "children": [
           {
             "id": "af5a39eba69ac1cd",
@@ -299,12 +147,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=34623",
-                "title": "CYBERBIZ PAYMENTS 金流申請流程",
-                "mode": "webview"
+                "url": "https://www.cyberbiz.io/support/?p=5450",
+                "title": "信用卡 3D驗證門檻設定",
+                "mode": "reader"
               },
               "icon": "globe-2",
-              "title": "CYBERBIZ PAYMENTS 金流申請流程"
+              "title": "信用卡 3D驗證門檻設定"
             }
           }
         ]
@@ -374,7 +222,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 200
   },
   "right": {
     "id": "973606ff262c9293",
@@ -505,51 +353,51 @@
   },
   "active": "bc5e7ee3a9f5fb45",
   "lastOpenFiles": [
-    "reference/tolgee-exported.csv",
     "docs/ec/payments-and-logistics/設定信用卡 3D 驗證門檻.md",
     "docs/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS.md",
+    "docs/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS old.md",
+    "temp/ec/e-ticket/顧客購買電子票券.md",
+    "temp/ec/e-ticket/電子票券退票.md",
+    "temp/ec/e-ticket/電子票券對帳.md",
+    "temp/ec/e-ticket/電子票券分票.md",
+    "temp/ec/e-ticket/電子票券分潤與結帳.md",
+    "temp/ec/e-ticket/設定電子票券.md",
+    "temp/ec/e-ticket/核銷電子票券.md",
+    "temp/ec/e-ticket/sidebar tree.md",
+    "temp/ec/e-ticket",
+    "resources/scripts/mov2gif-command.rtf",
+    "resources/scripts/ocr_md_update.py",
+    "resources/scripts/image-embed-fix.py",
+    "resources/scripts/combin-md.py",
+    "resources/scripts",
+    "resources/未命名檔案夾",
+    "site/assets/images/ec-網站外觀-頁腳.gif",
+    "docs/assets/images/ec-網站外觀-頁腳.gif",
+    "archive/wordpress-annotated/wp-combined-ent-annotated-20260122.md",
+    "archive/wordpress-annotated/wp-combined-reg-annotated-20260122.md",
+    "site/assets/images/ec-網站外觀-自訂頁面-關於我們.gif",
+    "docs/assets/images/ec-網站外觀-自訂頁面-關於我們.gif",
+    "site/assets/images/ec-管理中心-網站名稱.png",
+    "docs/assets/images/ec-管理中心-網站名稱.png",
     "includes/abbreviations.md",
+    "docs/ec/payments-and-logistics/index.md",
+    "docs/ec/products/管理商品標籤.md",
+    "docs/ec/website-appearance/設定前台商品群組排序.md",
+    "docs/ec/e-ticket/電子票券設定指南.md",
+    "temp/ec/電子票券/核銷電子票券.md",
+    "docs/ec/products/設定商品自訂分類群組.md",
+    "reference/trans-glossary.csv",
+    "site/assets/images/ec-網站外觀-logo.png",
+    "docs/assets/images/ec-網站外觀-logo.png",
+    "reference/tolgee-exported.csv",
     "docs/ec/app-market/cyberbiz-extensions/index.md",
     "docs/ec/app-market/index.md",
     "docs/ec/app-market/cyberbiz-extensions/chat-box/index.md",
     "site/ec/payments-and-logistics/電子發票：星益欣 (美麗科技)/index.html",
-    "site/ec/payments-and-logistics/電子發票：星益欣 (美麗科技)",
-    "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS old/index.html",
-    "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS old",
-    "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS/index.html",
-    "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS",
-    "site/ec/products/product-activ/index.html",
-    "site/ec/products/product-activ",
-    "site/ec/products/管理商品評論/index.html",
-    "site/ec/products/管理商品評論",
-    "docs/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS old.md",
-    "docs/ec/payments-and-logistics/index.md",
-    "docs/ec/products/設定商品自訂分類群組.md",
     "docs/ec/payments-and-logistics/Untitled 1.md",
     "docs/ec/payments-and-logistics/PLUS用戶 - CYBERBIZ PAYMENTS 金流申請流程-PLUS.md",
     "docs/ec/payments-and-logistics/CYBERBIZ PAYMENTS 金流申請流程-企業版.md",
-    "docs/ec/payments-and-logistics/CYBERBIZ PAYMENTS 金流申請流程-一般版.md",
-    "docs/ec/payments-and-logistics/PLUS用戶 - CYBERBIZ PAYMENTS 金流申請流程.md",
-    "docs/ec/payments-and-logistics/CYBERBIZ PAYMENTS 金流申請流程.md",
-    "archive/wordpress/wp-reg-20260106/金流說明 _ Google Pay™__span_.md",
-    "docs/ec/website-appearance/設定前台商品群組排序.md",
-    "docs/ec/website-appearance/設定前台選單.md",
-    "docs/ec/products/設定商品群組前台排序.md",
-    "docs/ec/products/群組排序.md",
-    "docs/ec/products/管理商品標籤.md",
-    "archive/wordpress/wp-ent-20260106/群組排序拷貝.md",
-    "archive/wordpress/wp-ent-20260106/黑貓查詢紀錄.md",
-    "archive/wordpress/wp-ent-20260106/黑貓快速到店：操作出貨.md",
-    "archive/wordpress/wp-ent-20260106/黑貓快速到店：付款設定.md",
     "site/assets/images/ec-會員電子票券訂單查詢-顯示可核銷門市.png",
-    "docs/assets/images/ec-會員電子票券訂單查詢-顯示可核銷門市.png",
-    "site/assets/images/ec-電子票券-可核銷門市資訊.png",
-    "docs/assets/images/ec-電子票券-可核銷門市資訊.png",
-    "site/assets/images/ec-電子票券-取消綁定.png",
-    "docs/assets/images/ec-電子票券-取消綁定.png",
-    "site/assets/images/ec-products-filters.zh-tw.png",
-    "site/assets/images/ec-advance-mass-import.zh-tw.png",
-    "site/assets/images/ec-about-us-page-configure.zh-tw.png",
-    "site/assets/images/ec-所有門市-電子票券管理門市.png"
+    "docs/assets/images/ec-會員電子票券訂單查詢-顯示可核銷門市.png"
   ]
 }
