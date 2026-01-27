@@ -113,7 +113,7 @@ id: "2553"
 ## 如何取得 PayPal Client ID 與 Secret
 
 !!! tip "CYBERBIZ PAYMENTS 自動退款"
-	開通 CYBERBIZ PAYMENTS 商家，可以在 PayPal 金流設定頁面中輸入 PayPal `Client ID` 與 `Secret` 啟用自動退款功能。
+	開通 CYBERBIZ PAYMENTS 商家，可以在 PayPal 金流設定頁面中輸入 PayPal `Client ID` 與 `Secret` 來啟用自動退款功能。
 
 ### 步驟
 
@@ -125,12 +125,13 @@ id: "2553"
     ![點選 App&Credentials](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay%E9%87%91%E6%B5%81%E7%94%B3%E8%AB%8B11.png)
     
 4. 將右上角切換由 Sandbox → Live。
-    
 5. 點選您的 App（如尚未創建 → Create App）
-    
 6. 複製 Client ID 與 Secret，並填入 CYBERBIZ 後台：  
-    **路徑**：「金物流」→「結帳頁 & 金物流設定」→「PayPal」  
-    ![PayPal8](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay%E9%87%91%E6%B5%81%E7%94%B3%E8%AB%8B08-1.png)
+	- 登入 CYBERBIZ 管理後台，前往 **金物流 > 金流設定**。
+	- 在 PayPal 區塊點擊編輯按鈕 :material-file-document-edit-outline:，進入編輯頁面。
+	- 輸入 `Client ID` 與 `Secret`。
+      
+    ![](../../assets/images/ec-金物流-paypal-clientid-secret.png)
 
 ## 後續步驟
 

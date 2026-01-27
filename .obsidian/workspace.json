@@ -78,7 +78,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "145b9f26bb568cb5",
@@ -365,11 +365,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c07e4be158d5efcc",
+  "active": "af2cdd6a5b7367ee",
   "lastOpenFiles": [
+    "site/assets/images/ec-金物流-paypal-clientid-secret.png",
+    "docs/assets/images/ec-金物流-paypal-clientid-secret.png",
+    "docs/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS.md",
     "docs/ec/payments-and-logistics/設定 Apple Pay.md",
     "docs/ec/payments-and-logistics/設定 LINE Pay.md",
-    "docs/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS.md",
     "docs/ec/payments-and-logistics/設定 PayPal.md",
     "site/assets/images/ec-金物流-paypal.png",
     "docs/assets/images/ec-金物流-paypal.png",
@@ -395,7 +397,6 @@
     "site/assets/images/ec-訂單-line-pay-編號.png",
     "docs/assets/images/ec-訂單-line-pay-編號.png",
     "site/assets/images/ec-金物流-宅配物流-line-pay-check.gif",
-    "docs/assets/images/ec-金物流-宅配物流-line-pay-check.gif",
     "docs/ec/payments-and-logistics/設定 AFTEE.md",
     "docs/ec/payments-and-logistics/AFTEE先享後付 金流說明.md",
     "docs/ec/e-ticket/index.md",
