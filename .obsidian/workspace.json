@@ -34,9 +34,51 @@
               "icon": "lucide-file",
               "title": "設定 PayPal"
             }
+          },
+          {
+            "id": "c07e4be158d5efcc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "申請 CYBERBIZ PAYMENTS"
+            }
+          },
+          {
+            "id": "e4f680e3bb636f85",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/payments-and-logistics/設定 Apple Pay.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定 Apple Pay"
+            }
+          },
+          {
+            "id": "91dab6b88a0b3906",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/payments-and-logistics/設定 LINE Pay.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定 LINE Pay"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "145b9f26bb568cb5",
@@ -323,11 +365,14 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc5e7ee3a9f5fb45",
+  "active": "c07e4be158d5efcc",
   "lastOpenFiles": [
+    "docs/ec/payments-and-logistics/設定 Apple Pay.md",
+    "docs/ec/payments-and-logistics/設定 LINE Pay.md",
+    "docs/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS.md",
+    "docs/ec/payments-and-logistics/設定 PayPal.md",
     "site/assets/images/ec-金物流-paypal.png",
     "docs/assets/images/ec-金物流-paypal.png",
-    "docs/ec/payments-and-logistics/設定 PayPal.md",
     "site/ec/payments-and-logistics/設定 PayPal/index.html",
     "site/ec/payments-and-logistics/設定 PayPal",
     "site/resources/conventions/index.html",
@@ -346,18 +391,14 @@
     "site/assets/images/ec-金物流-街口支付.png",
     "docs/assets/images/ec-金物流-街口支付.png",
     "docs/ec/payments-and-logistics/電子發票：星益欣 (美麗科技).md",
-    "docs/ec/payments-and-logistics/設定 LINE Pay.md",
     "docs/ec/payments-and-logistics/index.md",
     "site/assets/images/ec-訂單-line-pay-編號.png",
     "docs/assets/images/ec-訂單-line-pay-編號.png",
     "site/assets/images/ec-金物流-宅配物流-line-pay-check.gif",
     "docs/assets/images/ec-金物流-宅配物流-line-pay-check.gif",
-    "site/assets/images/ec-金物流-line-pay-金流門檻.png",
     "docs/ec/payments-and-logistics/設定 AFTEE.md",
     "docs/ec/payments-and-logistics/AFTEE先享後付 金流說明.md",
-    "docs/ec/payments-and-logistics/設定 Apple Pay.md",
     "docs/ec/e-ticket/index.md",
-    "docs/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS.md",
     "abbre.md",
     "docs/ec/payments-and-logistics/PLUS用戶 - CYBERBIZ PAYMENTS 金流申請流程-PLUS.md",
     "docs/ec/payments-and-logistics/CYBERBIZ PAYMENTS 金流申請流程-一般版.md",

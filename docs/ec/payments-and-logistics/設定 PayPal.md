@@ -10,7 +10,20 @@ id: "2553"
 
 # 設定 PayPal
 
+串接 PayPal 金流，讓海外信用卡消費者於結帳時可使用 PayPal 支付。
+{ .subtitle }
+
 ![](../../assets/images/ec-金物流-paypal.png){ .hero-page }
+
+## PayPal 說明
+
+### 注意事項
+
+- PayPal 台灣商家僅能用於跨境交易，台灣境內無法使用。
+- 若遇收款或金流問題，請聯絡 PayPal 客服或參考官方常見問答：
+    
+    - [PayPal 常見問答](https://www.paypal.com/tw/smarthelp/home)
+    - [PayPal 客服中心](https://www.paypal.com/tw/smarthelp/contact-us)
 
 **功能說明：**  
 
@@ -97,46 +110,38 @@ id: "2553"
 
 
 
-## 📌 如何找到 client ID 與 secret？
+## 如何取得 PayPal Client ID 與 Secret
 
+!!! tip "CYBERBIZ PAYMENTS 自動退款"
+	開通 CYBERBIZ PAYMENTS 商家，可以在 PayPal 金流設定頁面中輸入 PayPal `Client ID` 與 `Secret` 啟用自動退款功能。
 
+### 步驟
 
-系統需要您提供您的 PayPal client ID 與 secret，才能幫您執行退款。  
-適用 : PLUS版、一般版(CYBERBIZ PAYMENTS)  
-您可以透過以下步驟找到您的 PayPal client ID 與 secret：
+1. 登入 PayPal 帳號。
+2. 點擊右上角「開發人員」 → 進入 [Developer Dashboard](https://developer.paypal.com/developer/applications)  
+    ![點選開發人員](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay%E9%87%91%E6%B5%81%E7%94%B3%E8%AB%8B09.png)
+    
+3. 點選「App & Credentials」。  
+    ![點選 App&Credentials](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay%E9%87%91%E6%B5%81%E7%94%B3%E8%AB%8B11.png)
+    
+4. 將右上角切換由 Sandbox → Live。
+    
+5. 點選您的 App（如尚未創建 → Create App）
+    
+6. 複製 Client ID 與 Secret，並填入 CYBERBIZ 後台：  
+    **路徑**：「金物流」→「結帳頁 & 金物流設定」→「PayPal」  
+    ![PayPal8](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay%E9%87%91%E6%B5%81%E7%94%B3%E8%AB%8B08-1.png)
 
+## 後續步驟
 
+<div class="grid cards" markdown>
 
+- :lucide-banknote-arrow-down:{ .lg }   
+  [__退貨退款__](一般退貨退款)     
+  退貨退款操作。
 
-1. 進入您的 PayPal 帳號。
-2. 點擊右上方「開發人員」  
-![點選開發人員](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay金流申請09.png)
+- :lucide-circle-question-mark:{ .lg }   
+  [__PayPal 官方 FAQ__](https://www.paypal.com/tw/cshelp/personal)  
+  PayPal 官方彙整的常見問題。
 
-
-
-3. 點擊「Developer Dashboard」  
-![點選DD](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay金流申請10.png)
-
-
-
-4. 點擊「App & Credentials」  
-![點選 App&Credentials](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay金流申請11.png)
-
-
-
-5. 將右上角的開關由「Sandbox」轉為「Live」，  
-點擊您的 App 後，即可看到 client ID 與 secret（若您還沒創建 app，須先點擊「Create App」創建一個 app）。  
-![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay金流申請12.png)
-
-
-
-6. 進入 CYBERBIZ 後台填寫 【Client ID】 和 【Secret】  
-後台路徑 : 「金物流」→「結帳頁 & 金物流設定」→「金流設定」→「PayPal」  
-![PayPal8](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay金流申請08.png)
-
-[適用 : PLUS版、一般版(CYBERBIZ PAYMENTS)]
-
-![PayPal8](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay金流申請08-1.png)
-
-
-
+</div>
