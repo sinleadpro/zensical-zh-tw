@@ -1,43 +1,53 @@
 ---
 title: 設定 Apple Pay
+version: ""
+last_modified: 2026-01-26
 description: 透過 CYBERBIZ PAYMENTS 啟用並設定 Apple Pay 為支付選項，提供快速安全的交易。
 product:
   - EC
-module:
-  - Payments
+modules:
+  - payments-and-logistics
 activ: configure
+paths: []
 surfaces:
   - backend
-  - frontend
+ends: []
 devices:
+  - desktop
   - mobile
 apis: []
 type: tutorial
+intents:
+  - payment-method-setup
+  - checkout-experience
 features:
   - Apple Pay
   - Payment Gateway
   - CYBERBIZ PAYMENTS
-tasks:
-  - Payment Method Configuration
-  - Set Threshold
+tnb: trunk
 plans: []
+prerequisites:
+  - 已開通 CYBERBIZ PAYMENTS
 lang: zh-TW
 sites:
   - TW
   - global
-status: new
+status: 
 tags:
   - Apple Pay
   - Payments
   - CYBERBIZ PAYMENTS
 difficulty: beginner
-notes:
-  - 啟用 CYBERBIZ PAYMENTS 後，Apple Pay 會自動開啟。
-  - 僅適用於使用 Safari 瀏覽器的 Apple 裝置。
-  - Apple Pay 僅支援一次付清（無分期）。
-  - add Global 北美站請參考：[北美站金流設定](https://www.cyberbiz.io/support/?p=30595)
+audiences:
+  - merchants
 wp_url:
   - https://www.cyberbiz.io/support/?p=40622
+notes:
+  - refactor, add Global 北美站請參考：[北美站金流設定](https://www.cyberbiz.io/support/?p=30595)
+comments: ""
+search:
+  exclude: ""
+icon: ""
 ---
 
 # 設定 Apple Pay
@@ -45,57 +55,74 @@ wp_url:
 { .subtitle }
 
 [:lucide-sparkles:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ PAYMENTS
+{ .doc-badge }
 
 ![](../../assets/images/ec-payments-apple-pay.zh-tw.png){ .hero-page }
 
-
 ## 為什麼使用 Apple Pay
 
-- **加速結帳**：省去消費者手動輸入信用卡資訊的時間，直接透過手機快速輕鬆付款。
-- **改善體驗**：提供更方便流暢的消費體驗，降低結帳成本，提升消費慾望，進而提高轉單率。
-- **強化安全性**：透過 Apple 的 Touch ID/Face ID 身分驗證機制，確保交易安全有保障。
-- **自動啟用**：當您開通 CYBERBIZ PAYMENTS 時，會預設開啟 Apple Pay，無需額外申請或等待。
-- **費用實惠**：使用 CYBERBIZ PAYMENTS Apple Pay，費率與信用卡一次付清相同，無需額外負擔任何費用。
+- **加速結帳**：消費者無需手動輸入信用卡資訊，直接透過手機付款。
+- **改善體驗**：降低結帳摩擦，提高轉換率。
+- **強化安全性**：透過 Touch ID / Face ID 驗證交易。 
+- **自動啟用**：開通 CYBERBIZ PAYMENTS 後自動啟用 Apple Pay。
+- **費用透明**：費率與信用卡一次付清相同，無額外手續費。
 
-## 前提條件
 
-- [x] 已[開通 **CYBERBIZ PAYMENTS**](申請%20CYBERBIZ%20PAYMENTS%20old.md){ data-preview }
+## 前置條件
+
+- [x] 已 [開通 **CYBERBIZ PAYMENTS**](申請 CYBERBIZ PAYMENTS)
 
 ## 使用須知
-### 裝置限制
-- **必要條件：** Apple 裝置 + Safari 瀏覽器
+
+### 裝置與瀏覽器限制
+
+- **必要條件**：Apple 裝置 + Safari 瀏覽器
+    
 - 不符合條件的裝置不會顯示 Apple Pay 選項
 - 支援裝置清單：[Apple 官方文件 :lucide-external-link:](https://support.apple.com/zh-utw/102896)
-
+    
 ### 付款限制
-- **支援：** 一次付清
-- **不支援：** 分期付款（需使用信用卡分期）
 
+- **支援**：一次付清
+- **不支援**：分期付款（需使用信用卡分期）
+    
 ### 費用
-- 費率同信用卡一次付清
-- 無額外手續費
-- 無年費
+
+- 與信用卡一次付清相同
+- 無額外手續費或年費
 
 ### 退款
-- 退款流程同信用卡
 
-## 操作流程
+- 流程與信用卡相同
 
-Apple Pay 通常會隨 CYBERBIZ PAYMENTS 自動啟用。您可以在後台設定其可用性及交易門檻。
+## 操作步驟
 
-1.  登入 CYBERBIZ 後台，前往 **金物流 > 金流設定**。
-2.  在 CYBERBIZ PAYMENTS 區塊中，點擊 **:material-file-document-edit-outline: 編輯** 進入設定頁面。
+Apple Pay 通常隨 CYBERBIZ PAYMENTS 自動啟用，可在後台調整可用性與交易門檻。
 
-	![](https://www.cyberbiz.io/support/wp-content/uploads/%E9%87%91%E6%B5%81%E8%AA%AA%E6%98%8E-Apple-Pay01.png){ .screenshot }
+1. 登入 CYBERBIZ 後台，前往 **金物流 > 金流設定**。
+2. 在 CYBERBIZ PAYMENTS 區塊，點擊 **:material-file-document-edit-outline: 編輯** 進入編輯頁面。 
+3. 在 Apple Pay 設定區塊：
+    
+    - **切換開啟/關閉** Apple Pay 
+    - **設定金流門檻**：定義訂單最大/最小金額   
+    
+4. 儲存設定
 
-3.  在 Apple Pay 設定區塊，您可以：
-> 切換 **開啟/關閉 Apple Pay** 以啟用或停用此支付方式。  
-> 設定 **金流門檻**：定義使用 Apple Pay 的訂單最大/最小金額。
+![](../../assets/images/ec-金物流-設定 Apple Pay.gif)
 
-	![](https://www.cyberbiz.io/support/wp-content/uploads/%E9%87%91%E6%B5%81%E8%AA%AA%E6%98%8E-Apple-Pay02.png){ .screenshot }
+## 後續步驟
 
-4.  儲存您的設定。
+<div class="grid cards" markdown>
 
+- :lucide-shield-check:{ .lg }   
+  [__設定 3D 驗證門檻__](設定信用卡 3D 驗證門檻)     
+  設定交易金額門檻，設定哪些信用卡交易需要進行額外身份驗證機制，以提升交易安全。
+
+- :lucide-ban:{ .lg }     
+  [__物流限制與排除選項__](設定超商配送限制與物流排除.md)  
+  設定商品的配送物流條件，限制特定物流方式於結帳流程中的顯示與使用。
+
+</div>
 
 
 ## 常見問題
@@ -122,9 +149,3 @@ Apple Pay 通常會隨 CYBERBIZ PAYMENTS 自動啟用。您可以在後台設定
 
 ??? quote "Apple Pay 退款要多久？"
 	退款流程與時間同信用卡，通常 7-14 個工作天。
-
-## 延伸閱讀
-
-- [申請 CYBERBIZ PAYMENTS](申請 CYBERBIZ PAYMENTS)
-
-

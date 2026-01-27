@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 32.32998885172798,
+        "dimension": 29.76588628762542,
         "children": [
           {
             "id": "3e2d43890e417467",
@@ -22,49 +22,21 @@
             }
           },
           {
-            "id": "1aa1466115b26aab",
+            "id": "af2cdd6a5b7367ee",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/e-ticket/index.md",
+                "file": "docs/ec/payments-and-logistics/設定 PayPal.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "be6d79c227c33a29",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/payments-and-logistics/設定信用卡 3D 驗證門檻.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定信用卡 3D 驗證門檻"
-            }
-          },
-          {
-            "id": "69a33fe0e530c67a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "申請 CYBERBIZ PAYMENTS"
+              "title": "設定 PayPal"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       },
       {
         "id": "145b9f26bb568cb5",
@@ -126,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=6844",
-                "title": "信用卡 3D驗證門檻設定 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=2553",
+                "title": "金流申請：PAYPAL - CYBERBIZ 一般版教學文件",
                 "mode": "reader"
               },
               "icon": "globe-2",
-              "title": "信用卡 3D驗證門檻設定 - CYBERBIZ 一般版教學文件"
+              "title": "金流申請：PAYPAL - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -139,7 +111,7 @@
       {
         "id": "ea951fb7d70bee14",
         "type": "tabs",
-        "dimension": 23.076923076923077,
+        "dimension": 25.64102564102564,
         "children": [
           {
             "id": "af5a39eba69ac1cd",
@@ -147,12 +119,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=5450",
-                "title": "信用卡 3D驗證門檻設定",
-                "mode": "webview"
+                "url": "https://www.cyberbiz.io/support/?p=35119",
+                "title": "金流申請：PAYPAL",
+                "mode": "reader"
               },
               "icon": "globe-2",
-              "title": "信用卡 3D驗證門檻設定"
+              "title": "金流申請：PAYPAL"
             }
           }
         ]
@@ -351,13 +323,45 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "69a33fe0e530c67a",
+  "active": "bc5e7ee3a9f5fb45",
   "lastOpenFiles": [
-    "docs/assets/images/ec-網站外觀-頁腳.gif",
+    "site/assets/images/ec-金物流-paypal.png",
+    "docs/assets/images/ec-金物流-paypal.png",
+    "docs/ec/payments-and-logistics/設定 PayPal.md",
+    "site/ec/payments-and-logistics/設定 PayPal/index.html",
+    "site/ec/payments-and-logistics/設定 PayPal",
+    "site/resources/conventions/index.html",
+    "site/resources/conventions",
+    "site/ec/products/篩選商品建立分類群組/index.html",
+    "site/ec/products/篩選商品建立分類群組",
+    "site/resources/references/商品詳細資訊設定/index.html",
+    "site/resources/references/商品詳細資訊設定",
+    "site/resources/references",
+    "site/ec/marketing/設定商品加價購/index.html",
+    "docs/ec/payments-and-logistics/設定街口支付.md",
+    "includes/abbreviations.md",
     "docs/ec/payments-and-logistics/設定信用卡 3D 驗證門檻.md",
+    "site/assets/images/ec-金物流-街口支付-storeid.png",
+    "docs/assets/images/ec-金物流-街口支付-storeid.png",
+    "site/assets/images/ec-金物流-街口支付.png",
+    "docs/assets/images/ec-金物流-街口支付.png",
+    "docs/ec/payments-and-logistics/電子發票：星益欣 (美麗科技).md",
+    "docs/ec/payments-and-logistics/設定 LINE Pay.md",
+    "docs/ec/payments-and-logistics/index.md",
+    "site/assets/images/ec-訂單-line-pay-編號.png",
+    "docs/assets/images/ec-訂單-line-pay-編號.png",
+    "site/assets/images/ec-金物流-宅配物流-line-pay-check.gif",
+    "docs/assets/images/ec-金物流-宅配物流-line-pay-check.gif",
+    "site/assets/images/ec-金物流-line-pay-金流門檻.png",
+    "docs/ec/payments-and-logistics/設定 AFTEE.md",
+    "docs/ec/payments-and-logistics/AFTEE先享後付 金流說明.md",
+    "docs/ec/payments-and-logistics/設定 Apple Pay.md",
+    "docs/ec/e-ticket/index.md",
     "docs/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS.md",
-    "site/assets/images/ec-網站外觀-頁腳.gif.zip",
-    "docs/assets/images/ec-網站外觀-頁腳.gif.zip",
+    "abbre.md",
+    "docs/ec/payments-and-logistics/PLUS用戶 - CYBERBIZ PAYMENTS 金流申請流程-PLUS.md",
+    "docs/ec/payments-and-logistics/CYBERBIZ PAYMENTS 金流申請流程-一般版.md",
+    "docs/ec/payments-and-logistics/CYBERBIZ PAYMENTS 金流申請流程-企業版.md",
     "docs/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS old.md",
     "temp/ec/e-ticket/顧客購買電子票券.md",
     "temp/ec/e-ticket/電子票券退票.md",
@@ -366,37 +370,6 @@
     "temp/ec/e-ticket/電子票券分潤與結帳.md",
     "temp/ec/e-ticket/設定電子票券.md",
     "temp/ec/e-ticket/核銷電子票券.md",
-    "temp/ec/e-ticket/sidebar tree.md",
-    "temp/ec/e-ticket",
-    "resources/scripts/mov2gif-command.rtf",
-    "resources/scripts/ocr_md_update.py",
-    "resources/scripts/image-embed-fix.py",
-    "resources/scripts/combin-md.py",
-    "resources/scripts",
-    "resources/未命名檔案夾",
-    "site/assets/images/ec-網站外觀-頁腳.gif",
-    "archive/wordpress-annotated/wp-combined-ent-annotated-20260122.md",
-    "archive/wordpress-annotated/wp-combined-reg-annotated-20260122.md",
-    "site/assets/images/ec-網站外觀-自訂頁面-關於我們.gif",
-    "docs/assets/images/ec-網站外觀-自訂頁面-關於我們.gif",
-    "site/assets/images/ec-管理中心-網站名稱.png",
-    "docs/assets/images/ec-管理中心-網站名稱.png",
-    "includes/abbreviations.md",
-    "docs/ec/payments-and-logistics/index.md",
-    "docs/ec/products/管理商品標籤.md",
-    "docs/ec/website-appearance/設定前台商品群組排序.md",
-    "docs/ec/e-ticket/電子票券設定指南.md",
-    "temp/ec/電子票券/核銷電子票券.md",
-    "docs/ec/products/設定商品自訂分類群組.md",
-    "reference/trans-glossary.csv",
-    "site/assets/images/ec-網站外觀-logo.png",
-    "docs/assets/images/ec-網站外觀-logo.png",
-    "docs/ec/app-market/cyberbiz-extensions/index.md",
-    "docs/ec/app-market/index.md",
-    "docs/ec/app-market/cyberbiz-extensions/chat-box/index.md",
-    "docs/ec/payments-and-logistics/Untitled 1.md",
-    "docs/ec/payments-and-logistics/PLUS用戶 - CYBERBIZ PAYMENTS 金流申請流程-PLUS.md",
-    "site/assets/images/ec-會員電子票券訂單查詢-顯示可核銷門市.png",
-    "docs/assets/images/ec-會員電子票券訂單查詢-顯示可核銷門市.png"
+    "temp/ec/e-ticket/sidebar tree.md"
   ]
 }
