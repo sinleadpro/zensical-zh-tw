@@ -1,6 +1,6 @@
 ---
 title: 設定 LINE Pay
-description: 串接 LINE Pay 付款，消費者於結帳時可選用 LINE Pay 進行支付。
+description: 串接 LINE Pay 付款，顧客於結帳時可選用 LINE Pay 進行支付。
 last_modified: 2026-01-27
 categories:
   - TW台灣站
@@ -62,7 +62,7 @@ icon: lucide/lock
 
 # 設定 LINE Pay
 
-串接 LINE Pay 付款，消費者於結帳時可選用 LINE Pay 進行支付。
+串接 LINE Pay 付款，顧客於結帳時可選用 LINE Pay 進行支付。
 { .subtitle }
 
 [:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 專業PLUS / 進階PLUS / 高手PLUS / 企業
@@ -72,7 +72,7 @@ icon: lucide/lock
 
 ## LINE Pay 說明
 
-- 消費者可於結帳頁選擇 LINE Pay 付款。
+- 顧客可於結帳頁選擇 LINE Pay 付款。
 - 提升結帳效率，增加訂單完成率。
 - LINE Pay 退款與訂單查詢透過官方後台操作。
 
@@ -211,4 +211,10 @@ icon: lucide/lock
   [__LINE Pay 官方 FAQ__](https://pay.line.me/portal/tw/customer/faq?categoryId=account)  
   LINE Pay 官方彙整的常見問題。
 
+- :lucide-log-in:{ .lg }   
+  [__LINE 快速登入__]()  
+  啟用 LINE 快速登入。
+
 </div>
+
+

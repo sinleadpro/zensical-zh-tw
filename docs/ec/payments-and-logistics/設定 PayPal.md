@@ -1,137 +1,148 @@
 ---
-title: 金流申請：PAYPAL
-last_modified: ""
-categories:
-  - 網站設定>金物流設定
-tags: []
+title: 設定 PayPal
+version: ""
+last_modified: 2026-01-28
+description: 串接 PayPal 金流，讓海外信用卡顧客於結帳時可使用 PayPal 支付。
+product:
+  - EC
+modules:
+  - 網站設定
+  - 金物流設定
+activ: ""
+paths: []
+surfaces: []
+ends: []
+devices:
+  - desktop
+  - mobile
+apis:
+  - PayPal
+type: tutorial
+intents:
+  - 啟用 PayPal 金流
+  - 串接 PayPal 至 CYBERBIZ 後台
+  - 設定 PayPal 自動退款
+features:
+  - PayPal 金流
+  - 海外信用卡支付
+  - 多國貨幣交易
+  - 自動退款
+tnb: ""
+plans: []
+prerequisites:
+  - PayPal 商業帳號
+  - PayPal Client ID
+  - PayPal Secret
+lang: zh-TW
+sites: []
+status:
+tags:
+  - PayPal
+  - 金流設定
+  - CYBERBIZ PAYMENTS
+  - 海外信用卡
+difficulty: easy
+audiences:
+  - CYBERBIZ 商家
+  - 電商管理者
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=2553
+  - https://www.cyberbiz.io/support/?p=35119
+notes: []
+comments: ""
+search:
+  exclude: ""
+icon: ""
 permalink: https://www.cyberbiz.io/helpcenter/?p=2553
 id: "2553"
 ---
 
 # 設定 PayPal
 
-串接 PayPal 金流，讓海外信用卡消費者於結帳時可使用 PayPal 支付。
+串接 PayPal 金流，讓海外信用卡顧客於結帳時可使用 PayPal 支付。
 { .subtitle }
+
+[:lucide-toggle-right:{ title="適用功能" }](../../resources/conventions#適用功能) | CYBERBIZ PAYMENTS
+{ .doc-badge }
 
 ![](../../assets/images/ec-金物流-paypal.png){ .hero-page }
 
+
 ## PayPal 說明
 
-### 注意事項
+PayPal 是全球知名的線上支付平台，可讓消費者使用信用卡、金融卡或 PayPal 餘額完成付款。透過 PayPal，商家可以安全、快速地收款，並支援多國貨幣交易。
 
-- PayPal 台灣商家僅能用於跨境交易，台灣境內無法使用。
-- 若遇收款或金流問題，請聯絡 PayPal 客服或參考官方常見問答：
+
+### 適用情境
+
+- 適合跨境或海外客戶的商家
+- 希望提供安全支付方式，並整合至 CYBERBIZ 後台訂單管理
+
+
+### 使用須知 
+
+- **法規限制**：台灣商家僅能進行跨境交易，無法於台灣境內互轉。持國外信用卡的顧客可使用 PayPal 付款。 
+- **自動退款**：系統支援付款後 **180 天內** 自動退款，超過期限需商家手動退款。 
+- **手續費**：費率依消費者發卡國家（國內或國際交易）而異，詳細金額請參考 PayPal 對帳單。 
+- **金流門檻**：可設定 PayPal 使用金額上限與下限，避免小額訂單手續費成本過高。
+
+## 操作步驟
+
+### 步驟一：申請 PayPal 帳號
+
+!!! info "請使用可正常收信的電子郵件註冊，此郵件將作為後續串接 CYBERBIZ 後台的 PayPal 帳號。"
+
+#### 操作步驟
+
+1. 前往 [PayPal 官方網站 :lucide-external-link:](https://www.paypal.com/tw/webapps/mpp/home?locale.x=zh_TW)，申請 **商業帳號（Business account）**。
+2. 依照 PayPal 指示完成帳號註冊與身分驗證流程。
+3. 確認可成功登入 PayPal 後台，並完成基本帳號設定。
+
+### 步驟二：取得 PayPal Client ID 與 Secret
+
+> **提示**：已開通 CYBERBIZ PAYMENTS 的商家，可透過 Client ID 與 Secret 啟用 **自動退款功能**。
+
+#### 操作說明
+
+1. 登入 PayPal 商業帳號後，前往 [**PayPal 開發者後台（Developer Dashboard）** :lucide-external-link:](https://developer.paypal.com/home/)。  
+2. 在開發者後台中，進入 **Apps & Credentials** 相關頁面。
+3. 確認目前環境為 **Live（正式環境）**，而非 Sandbox（測試環境）。
+4. 建立或選取既有的 App，即可取得：
     
-    - [PayPal 常見問答](https://www.paypal.com/tw/smarthelp/home)
-    - [PayPal 客服中心](https://www.paypal.com/tw/smarthelp/contact-us)
+    - **Client ID**
+    - **Secret**
 
-**功能說明：**  
+![](../../assets/images/ec-金物流-paypal-clientid-secret-paypal-backend.png)
 
-* 串接 PayPal 付款，持海外信用卡消費者於結帳時可選用 PayPal 進行支付。
-
-**操作目錄：**
-
-* PayPal 申請流程
-* 如何找到 client ID 與 secret？
-
-注意事項:  
-
-1. 法規限制， PayPal 台灣商家僅能在跨境進行交易，不能於台灣境內使用，若您是台灣的賣家申請 PayPal 金流，只有國外信用卡可以使用信用卡付款。
-2. 若有收款或是其他金流問題請洽 PayPal 客服，或參考相關常見問答。 
-* 點我前往 [PayPal 常見問答](https://www.paypal.com/tw/smarthelp/home)
-* 點我前往 [PayPal 客服中心](https://www.paypal.com/tw/smarthelp/contact-us)
+> 以上畫面僅為操作位置示意，實際畫面請以 PayPal 後台顯示為準。
 
 
+### 步驟三：CYBERBIZ 後台設定
 
-## 📌 PayPal 申請流程
+1. **進入設定頁面** 
 
-
-
-1. 若您沒有申請過 PayPal 金流服務，請先至 PayPal 官網註冊申請，點我前往 [PayPal 註冊頁面](https://www.paypal.com/tw/webapps/mpp/account-selection)。  
-請點選使用 PayPal 接受交易款項。 ![PayPal1](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay金流申請01.png)
-
-
-
-2. 此電子郵件地址為後續串接 CYBERBIZ 後台時所使用，請填寫常用的電子郵件。  
-![PayPal2](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay金流申請02.png)
-
-
-
-3. 密碼長度須超過8碼，且須含有英文大小寫以及數字。  
-![PayPal3](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay金流申請03.png)
-
-
-
-4. 填寫相關資料。  
-![PayPal4](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay金流申請04.png)
-
-
-
-5. 請依照公司狀態點選。  
-![PayPal5](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay金流申請05.png)
-
-
-
-6. 於產品或服務關鍵字輸入文字後即可出現相關選項，例如:服飾。  
-![PayPal6](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay金流申請06.png)
-
-
-
-7. 負責人相關資料填寫後提交即可完成申請，提交後須等待 PayPal 審核通過後才可進行後續串接。  
-![PayPal7](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay金流申請07.png)
-
-
-
-8. 收到 PayPal 審核通過後，  
-請至 「CYBERBIZ 後台」→「 金物流」→「結帳頁&金物流設定」→找到 PayPal 的選項，  
-將選項開啟後， 填入稍早申請所填寫的電子郵件至【Pay Pal帳號】，請特別留意填入時請勿帶有空格，以免無法順利啟用。  
-*設定畫面分為 是否使用CYBERBIZ PAYMENTS。   
-![PayPal8](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay金流申請08.png)
-
-[適用 : PLUS版、一般版(CYBERBIZ PAYMENTS)]
-
-![PayPal8](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay金流申請08-1.png)
-
-[適用 : 一般版(未使用CYBERBIZ PAYMENTS)]
-
-![PayPal8](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay金流申請08-2.png)
-
-
-
-9. 請特別留意，若是新增了金流選項，  
-請設置完後至「金物流」→「 宅配運費設定」中的付款方式中  
-將新增的付款方式勾起，如此才是完成完整設置。  
-
-![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/綠界金流串接15.png)
-
-![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/綠界金流串接16.png)
-
-* * *
-
-
-
-## 如何取得 PayPal Client ID 與 Secret
-
-!!! tip "CYBERBIZ PAYMENTS 自動退款"
-	開通 CYBERBIZ PAYMENTS 商家，可以在 PayPal 金流設定頁面中輸入 PayPal `Client ID` 與 `Secret` 來啟用自動退款功能。
-
-### 步驟
-
-1. 登入 PayPal 帳號。
-2. 點擊右上角「開發人員」 → 進入 [Developer Dashboard](https://developer.paypal.com/developer/applications)  
-    ![點選開發人員](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay%E9%87%91%E6%B5%81%E7%94%B3%E8%AB%8B09.png)
-    
-3. 點選「App & Credentials」。  
-    ![點選 App&Credentials](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PayPay%E9%87%91%E6%B5%81%E7%94%B3%E8%AB%8B11.png)
-    
-4. 將右上角切換由 Sandbox → Live。
-5. 點選您的 App（如尚未創建 → Create App）
-6. 複製 Client ID 與 Secret，並填入 CYBERBIZ 後台：  
 	- 登入 CYBERBIZ 管理後台，前往 **金物流 > 金流設定**。
-	- 在 PayPal 區塊點擊編輯按鈕 :material-file-document-edit-outline:，進入編輯頁面。
-	- 輸入 `Client ID` 與 `Secret`。
-      
-    ![](../../assets/images/ec-金物流-paypal-clientid-secret.png)
+	- 在 PayPal 區塊，點擊 編輯按鈕 :material-file-document-edit-outline: 進入編輯頁面。
+    
+2. **填寫 PayPal 串接資料**
+    
+    - **PayPal 帳號**：輸入 PayPal 商業帳號的註冊電子郵件
+    - **Client ID**：貼上於 PayPal 開發者後台取得的 Client ID    
+    - **Secret**：貼上於 PayPal 開發者後台取得的 Secret
+        
+    
+    > :lucide-triangle-alert: 請確認貼上內容 **未包含任何空格或換行字元**，否則可能導致串接失敗。
+    
+2. **啟用金流服務**：將 PayPal 金流選項切換為 **啟用（ON）**，並點擊 **確認儲存**。
+    
+3. **綁定物流方式**  
+	- 前往 **金物流 > 宅配物流**
+	- 編輯相關物流方式，勾選新增的 PayPal 付款選項，確保前台可使用
+
+	!!! warning "若未將新增金流選項綁定至物流，前台將無法顯示該付款方式。"
+
+	![](../../assets/images/ec-金物流-宅配物流-line-pay-check.gif)
+
 
 ## 後續步驟
 
@@ -146,3 +157,4 @@ id: "2553"
   PayPal 官方彙整的常見問題。
 
 </div>
+

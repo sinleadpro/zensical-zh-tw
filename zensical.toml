@@ -135,6 +135,7 @@ copyright = """
             { "設定 LINE Pay" = "ec/payments-and-logistics/設定 LINE Pay.md" },
             { "設定街口支付" = "ec/payments-and-logistics/設定街口支付.md" },
             { "設定 PayPal" = "ec/payments-and-logistics/設定 PayPal.md" },
+            { "超商店到店 C2C 串接" = "ec/payments-and-logistics/設定超商店到店 C2C 物流串接.md" },
             { "星益欣電子發票設定指南" = "ec/payments-and-logistics/星益欣電子發票設定指南.md" }
         ]},
         { "網站外觀" = [
