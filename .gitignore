@@ -10,3 +10,7 @@
 =======
 .smtcmp_json_db/
 >>>>>>> cf4f7be (fix: gitignore remove smtcmp db)
+
+
+# Ann's files
+.cursorindexingignore
