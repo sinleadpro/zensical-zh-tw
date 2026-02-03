@@ -59,7 +59,13 @@ copyright = """
             { "一般退貨退款-cli" = "ec/orders/一般退貨退款-cli.md" }
         ]},
         { "會員" = [
-            { "VIP 設定" = "ec/members/設定 VIP 群組.md" }
+            { "VIP 設定" = "ec/members/設定 VIP 群組.md" },
+            { "VIP設定" = [
+                    {"VIP制度運作機制" = "ec/members/VIP制度運作機制.md"},
+                    {"設計VIP專屬優惠" = "ec/members/設計VIP專屬優惠.md"},
+                    {"設計VIP群組標籤" = "ec/members/設定VIP群組標籤.md"},
+            ]},
+
         ]},
         { "商品" = [
             { "商品管理" = "ec/products/index.md" },  
@@ -124,7 +130,17 @@ copyright = """
                     { "" = "ec/marketing/"},
                     { "庫存過低通知" = "ec/marketing/庫存過低通知.md"},
                     { "" = "ec/marketing/"}
-            ]},        
+            ]},
+            {"任選折扣" = "ec/marketing/設定任選折扣.md"},
+            {"紅配綠多組合優惠" = "ec/marketing/設定紅配綠多組合優惠.md"},
+            {"滿額贈滿件贈"= "ec/marketing/設定滿額贈與滿件贈.md"},
+            {"互動遊戲" = "ec/marketing/設定互動遊戲.md"},
+            {"指定商品送優惠券" = "ec/marketing/設定指定商品送優惠券.md"},
+            {"指定商品送紅利" = "ec/marketing/設定指定商品送紅利.md"},
+            {"指定金流送紅利" = "ec/marketing/設定指定金流送紅利.md"},
+            {"指定商品送活動序號" = "ec/marketing/設定指定商品送活動序號.md"},
+            {"紅利商城" = "ec/marketing/設定紅利商城.md"}
+        
         ]},
         { "金物流" = [
             { "overview" = "ec/payments-and-logistics/index.md" },
@@ -136,7 +152,10 @@ copyright = """
             { "設定街口支付" = "ec/payments-and-logistics/設定街口支付.md" },
             { "設定 PayPal" = "ec/payments-and-logistics/設定 PayPal.md" },
             { "超商店到店 C2C 串接" = "ec/payments-and-logistics/設定超商店到店 C2C 物流串接.md" },
-            { "星益欣電子發票設定指南" = "ec/payments-and-logistics/星益欣電子發票設定指南.md" }
+            { "星益欣電子發票設定指南" = "ec/payments-and-logistics/星益欣電子發票設定指南.md" },
+            {"串接全家超商B2C冷凍物流" = "ec/payments-and-logistics/串接全家超商B2C冷凍物流.md"},
+            {"設定門市取貨服務"= "ec/payments-and-logistics/設定門市取貨服務.md"},
+            {"設定CYBERBIZ NOW快速到貨服務" = "ec/payments-and-logistics/設定CYBERBIZ NOW快速到貨服務.md"}
         ]},
         { "網站外觀" = [
             { "overview" = "ec/website-appearance/index.md" },
