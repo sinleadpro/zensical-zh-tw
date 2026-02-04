@@ -168,8 +168,6 @@ flowchart LR
 
 ![](../../assets/images/ec-網站外觀-logo.png)
 
-> 更多相關設定，請參閱 [如何設定選單與導覽列](../website-appearance/設定選單與導覽列)
-
 ### 設定網站名稱
 
 1. 登入 CYBEBIZ 管理後台，前往 **管理中心 > 一般設定 > 網站名**
