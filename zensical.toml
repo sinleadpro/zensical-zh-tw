@@ -149,7 +149,7 @@ copyright = """
         ]},
         { "網站外觀" = [
             { "overview" = "ec/website-appearance/index.md" },
-            { "拖拉版型網站設定" = "ec/website-appearance/拖拉版型網站設定.md" },
+            { "拖拉版型設定" = "ec/website-appearance/拖拉版型網站設定.md" },
             { "選單與導覽列" = "ec/website-appearance/設定選單與導覽列.md "},
             { "全站商品列表群組排序" = "ec/website-appearance/設定前台商品群組排序.md" }
         ]},

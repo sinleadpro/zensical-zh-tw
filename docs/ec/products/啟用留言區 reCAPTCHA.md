@@ -61,7 +61,7 @@ icon: ""
 
 ![](../../assets/images/ec-google-recaptcha.zh-tw.png){ .hero-page }
 
-## 什麼是 reCAPTCHA？
+## 什麼是 reCAPTCHA
 
 reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動化程式操作，保護網站表單、留言區與交易流程免受機器人攻擊。
 
