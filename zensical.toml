@@ -144,8 +144,7 @@ copyright = """
             { "設定 PayPal" = "ec/payments-and-logistics/設定 PayPal.md" },
             { "超商店到店 C2C 串接" = "ec/payments-and-logistics/設定超商店到店 C2C 物流串接.md" },
             { "超商大宗寄倉 B2C" = "ec/payments-and-logistics/設定超商大宗寄倉 B2C.md" },
-            { "全家冷凍物流 B2C 設定" = "ec/payments-and-logistics/設定全家冷凍物流 B2C.md" },
-            { "星益欣電子發票設定指南" = "ec/payments-and-logistics/星益欣電子發票設定指南.md" }
+            { "全家冷凍物流 B2C 設定" = "ec/payments-and-logistics/設定全家冷凍物流 B2C.md" }
         ]},
         { "網站外觀" = [
             { "overview" = "ec/website-appearance/index.md" },
@@ -178,6 +177,12 @@ copyright = """
                     { "設定自動化廣告" = "ec/integrations/設定自動化廣告.md" },
                     { "" = "ec/integrations/"}
             ]},
+        ]},
+        { "管理中心" = [
+            { "overview" = "ec/admin/index.md" },
+            { "網站基本資訊" = "ec/admin/設定網站基本資訊.md" },
+            { "安全性設定" = "ec/admin/設定網站安全性.md" },
+            { "星益欣電子發票" = "ec/admin/星益欣電子發票設定指南.md" }
         ]},
     ]},
     { "智慧倉儲" = "wms/index.md" },

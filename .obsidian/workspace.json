@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 35.275080906148865,
+        "dimension": 31.06796116504854,
         "children": [
           {
             "id": "b9db1f74b10488f8",
@@ -14,68 +14,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/website-appearance/拖拉版型網站設定.md",
+                "file": "docs/ec/admin/設定網站安全性.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "拖拉版型網站設定"
+              "title": "設定網站安全性"
             }
           },
           {
-            "id": "edf3f89ea90f1be7",
+            "id": "56a807709a2a2075",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/website-appearance/設定前台商品群組排序.md",
+                "file": "includes/abbreviations.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定前台商品群組排序"
-            }
-          },
-          {
-            "id": "114fed2f052809aa",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/啟用留言區 reCAPTCHA.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "啟用留言區 reCAPTCHA"
-            }
-          },
-          {
-            "id": "d8b5db1279f2bf9a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "申請 CYBERBIZ PAYMENTS"
-            }
-          },
-          {
-            "id": "ed312846520248dd",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/website-appearance/設定選單與導覽列.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定選單與導覽列"
+              "title": "abbreviations"
             }
           }
         ]
@@ -83,7 +41,7 @@
       {
         "id": "145b9f26bb568cb5",
         "type": "tabs",
-        "dimension": 21.57497303128371,
+        "dimension": 24.70334412081985,
         "children": [
           {
             "id": "50658d05582d8786",
@@ -91,12 +49,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=120",
-                "title": "操作出貨 : 超商店到店(C2C) - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=3214",
+                "title": "管理中心 : 安全性設定 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "操作出貨 : 超商店到店(C2C) - CYBERBIZ 一般版教學文件"
+              "title": "管理中心 : 安全性設定 - CYBERBIZ 一般版教學文件"
             }
           },
           {
@@ -140,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=9153",
-                "title": "拖拉版型 : 功能介紹 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/support/?p=14334",
+                "title": "管理中心 : 安全性設定",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "拖拉版型 : 功能介紹 - CYBERBIZ 一般版教學文件"
+              "title": "管理中心 : 安全性設定"
             }
           }
         ]
@@ -153,7 +111,7 @@
       {
         "id": "ea951fb7d70bee14",
         "type": "tabs",
-        "dimension": 21.57497303128371,
+        "dimension": 22.653721682847898,
         "children": [
           {
             "id": "af5a39eba69ac1cd",
@@ -161,12 +119,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=39903",
-                "title": "拖拉版型 : 功能介紹",
+                "url": "https://www.cyberbiz.io/support/?p=472",
+                "title": "管理中心 : 安全性設定",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "拖拉版型 : 功能介紹"
+              "title": "管理中心 : 安全性設定"
             }
           }
         ]
@@ -365,24 +323,41 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b9db1f74b10488f8",
+  "active": "bc5e7ee3a9f5fb45",
   "lastOpenFiles": [
-    "site/assets/images/ec-網站外觀-拖拉版型-搜尋頁.png",
-    "docs/assets/images/ec-網站外觀-拖拉版型-搜尋頁.png",
-    "site/assets/images/ec-網站外觀-拖拉版型-快速到貨頁面-快速到貨設定.gif",
-    "docs/assets/images/ec-網站外觀-拖拉版型-快速到貨頁面-快速到貨設定.gif",
-    "docs/ec/website-appearance/設定前台商品群組排序.md",
-    "docs/ec/website-appearance/設定前台選單.md",
-    "docs/ec/website-appearance/拖拉版型網站設定.md",
-    "site/assets/images/ec-網站外觀-拖拉版型-快速到貨頁面-快速到貨設定.png",
-    "docs/assets/images/ec-網站外觀-拖拉版型-快速到貨頁面-快速到貨設定.png",
-    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
-    "docs/assets/images/ec-網站外觀-拖拉版型-404頁.png",
-    "site/assets/images/ec-網站外觀-拖拉版型-客服頁面.png",
-    "docs/assets/images/ec-網站外觀-拖拉版型-客服頁面.png",
-    "site/assets/images/ec-網站外觀-拖拉版型-部落格文章頁-部落格文章設定.gif",
-    "docs/ec/products/啟用留言區 reCAPTCHA.md",
+    "site/assets/images/ec-管理中心-安全性設定-白名單.png",
+    "docs/assets/images/ec-管理中心-安全性設定-白名單.png",
+    "site/assets/images/ec-管理中心-安全性設定-會員個資部分隱碼.png",
+    "docs/assets/images/ec-管理中心-安全性設定-會員個資部分隱碼.png",
+    "site/assets/images/ec-管理中心-安全性設定-會員密碼規則.png",
+    "docs/assets/images/ec-管理中心-安全性設定-會員密碼規則.png",
+    "site/assets/images/ec-管理中心-安全性設定-網站密碼.gif",
+    "docs/assets/images/ec-管理中心-安全性設定-網站密碼.gif",
+    "site/assets/images/ec-管理中心-安全性設定-會員安全-網站密碼.png",
+    "docs/assets/images/ec-管理中心-安全性設定-會員安全-網站密碼.png",
+    "includes/abbreviations.md",
+    "docs/ec/admin/設定網站安全性.md",
+    "docs/ec/admin/設定網站基本資訊.md",
+    "site/ec/products/設定商品到貨通知/index.html",
+    "site/ec/products/設定商品到貨通知",
+    "site/ec/products/後台搜尋商品/index.html",
+    "site/ec/products/後台搜尋商品",
+    "site/ec/website-appearance/拖拉版型網站設定/index.html",
+    "site/ec/website-appearance/拖拉版型網站設定",
+    "site/ec/marketing/設定加價購群組/index.html",
+    "site/ec/marketing/設定加價購群組",
+    "site/ec/products/啟用留言區 reCAPTCHA/index.html",
+    "site/ec/products/啟用留言區 reCAPTCHA",
+    "site/assets/images/ec-管理中心-安全性設定.png",
+    "docs/ec/website-appearance/設定選單與導覽列.md",
     "docs/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS.md",
+    "docs/ec/admin/星益欣電子發票設定指南.md",
+    "docs/ec/website-appearance/設定前台商品群組排序.md",
+    "docs/ec/website-appearance/拖拉版型網站設定.md",
+    "docs/ec/website-appearance/設定轉貼連結預設圖片.md",
+    "docs/ec/website-appearance/設定前台選單.md",
+    "docs/ec/products/啟用留言區 reCAPTCHA.md",
+    "docs/ec/admin/index.md",
     "docs/ec/products/管理商品評論.md",
     "templates/lucide-panel-left-open.md",
     "templates/lucide-panel-left.md",
@@ -390,28 +365,11 @@
     "templates/lucide-redo-2.md",
     "templates/lucide-undo-2.md",
     "templates/lucide-chevron-down.md",
-    "site/ec/products/設定商品到貨通知/index.html",
-    "site/ec/products/設定商品到貨通知",
-    "site/resources/changelog/index.html",
-    "site/resources/changelog",
-    "site/wms/index.html",
-    "site/wms",
-    "site/en/ec/e-ticket/電子票券退票/index.html",
-    "site/en/ec/e-ticket/電子票券退票",
-    "site/resources/conventions/index.html",
-    "site/resources/conventions",
-    "docs/ec/website-appearance/設定轉貼連結預設圖片.md",
-    "docs/ec/website-appearance/設定選單與導覽列.md",
     "docs/zh-tw/ec/website-appearance/托拉版型功能設定.md",
     "docs/ec/app-market/cyberbiz-extensions/chat-box/index.md",
     "docs/ec/products/references/商品可見性指南.md",
     "docs/ec/products/references/商品可見性.md",
     "docs/ec/products/references/CKEditor 編輯器教學.md",
-    "docs/ec/app-market/cyberbiz-extensions/index.md",
-    "docs/ec/website-appearance/index.md",
-    "docs/ec/store/系統通知設定.md",
-    "docs/ec/store/index.md",
-    "docs/ec/products/認識商品管理介面.md",
-    "docs/ec/products/設定超商配送限制與物流排除.md"
+    "docs/ec/app-market/cyberbiz-extensions/index.md"
   ]
 }
