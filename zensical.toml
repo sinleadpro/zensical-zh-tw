@@ -56,8 +56,8 @@ copyright = """
         { "分析報表" = "ec/analytics/index.md" },
         { "訂單" = [
             { "orders" = "ec/orders/index.md" },
-            { "一般退貨退款" = "ec/orders/一般退貨退款.md" },
-            { "一般退貨退款-cli" = "ec/orders/一般退貨退款-cli.md" },
+            { "訂單出貨流程" = "ec/orders/訂單出貨流程.md" },
+            { "訂單自動結案" = "ec/orders/設定訂單自動結案.md" },
             { "超商店到店 C2C 出貨" = "ec/orders/操作超商店到店 C2C 出貨.md" },
             { "全家冷凍店到店 C2C" = "ec/orders/操作全家冷凍店到店 C2C 出貨.md" },
             { "超商退貨便" = "ec/orders/操作超商退貨便 C2B.md" },
@@ -189,6 +189,10 @@ copyright = """
     { "智能 POS" = [
         { "智能 POS" = "pos/index.md" },
         { "開始使用" = "pos/get-started.md" },
+        { "訂單" = [
+            { "overview" = "pos/orders/index.md" },
+            { "訂單自動結案" = "pos/orders/設定 POS 訂單自動結案.md" } 
+        ]},
         { "商品" = [
             { "商品標籤列印" = "pos/products/商品標籤列印教學.md" }
         ]},

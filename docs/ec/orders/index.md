@@ -3,26 +3,61 @@ title: 訂單物流
 description: 管理訂單流程與物流配送，提升出貨效率與顧客滿意度。
 icon: lucide/receipt
 hide:
-  - toc
   - feedback
 notes:
   - 訂單物流功能說明 link
 ---
 
-# 訂單物流
+# 訂單
 
-<div class="grid" markdown>
+![](../../assets/images/ec-orders-hero.zh-tw.png){ .hero-page }
 
-<br>
-<big>__開始使用__</big>  
-完整掌握訂單與物流流程。  
-從訂單接收、出貨到配送追蹤，簡化流程並提高顧客滿意度。  
-<br>
-[快速上手 :lucide-circle-arrow-right:](quickstart.md)
 
-![](../../assets/images/ec-orders-hero.zh-tw.png)
+## 訂單管理
+
+
+<div class="grid cards" markdown>
+
+-   :lucide-file-clock:{ .lg .middle } __自動結案__
+
+    ---
+
+    - [__官網一般訂單__](設定訂單自動結案)   
+    - [__電子票券訂單__](../e-ticket/電子票券設定指南#票券分潤與自動結案設定) 
+    - [__POS 門市訂單__](../../pos/orders/設定 POS 訂單自動結案)  
+
+-   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+
+    ---
+
+    Focus on your content and generate a responsive and searchable static site
+
+    [:octicons-arrow-right-24: Reference](#)
 
 </div>
+
+
+### 自動結案
+
+<div class="grid cards" markdown>
+
+- :lucide-file-check:{ .lg }   
+  [__官網訂單自動結案__](設定訂單自動結案)     
+  讓符合條件的一般商品訂單自動轉為已結案狀態。
+
+- :lucide-ticket-check:{ .lg }     
+  [__票券訂單自動結案__](../e-ticket/電子票券設定指南#票券分潤與自動結案設定)  
+  設定電子票券訂單自動結案。
+
+- :lucide-file-clock:{ .lg }   
+  [__POS 訂單自動結案__](../pos/orders/設定 POS 訂單自動結案)     
+  設定 POS 訂單自動結案。
+
+</div>
+
+
+## 訂單出貨
+
 
 ---
 

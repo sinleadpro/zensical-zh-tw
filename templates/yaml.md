@@ -1,6 +1,7 @@
-title: ""
+---
+title: "{{title}}"
 version: ""
-last_modified: ""
+last_modified: "{{date}}"
 description: ""
 product:
   - EC
@@ -28,6 +29,17 @@ audiences: []
 wp_url: []
 notes: []
 comments: ""
-search: 
+search:
   exclude: ""
 icon: ""
+---
+
+# {{title}}
+
+{ .hero-page }
+
+{ .subtitle }
+
+## 後續操作
+
+## 常見問題

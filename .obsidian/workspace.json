@@ -14,6 +14,48 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "docs/ec/orders/訂單出貨流程.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "訂單出貨流程"
+            }
+          },
+          {
+            "id": "720b2441cc7e3b03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/orders/index.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "index"
+            }
+          },
+          {
+            "id": "a44027e3a35c5848",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/pos/orders/設定 POS 訂單自動結案.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定 POS 訂單自動結案"
+            }
+          },
+          {
+            "id": "8b37056f7c3422d2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "docs/ec/admin/設定網站安全性.md",
                 "mode": "source",
                 "source": true
@@ -36,12 +78,13 @@
               "title": "abbreviations"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "145b9f26bb568cb5",
         "type": "tabs",
-        "dimension": 24.70334412081985,
+        "dimension": 24.703344120819846,
         "children": [
           {
             "id": "50658d05582d8786",
@@ -50,11 +93,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.cyberbiz.io/helpcenter/?p=3214",
-                "title": "管理中心 : 安全性設定 - CYBERBIZ 一般版教學文件",
-                "mode": "webview"
+                "title": "cyberbiz.io/helpcenter/?p=3214",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "管理中心 : 安全性設定 - CYBERBIZ 一般版教學文件"
+              "title": "cyberbiz.io/helpcenter/?p=3214"
             }
           },
           {
@@ -98,12 +141,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=14334",
-                "title": "管理中心 : 安全性設定",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=49",
+                "title": "訂單自動結案設定 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "管理中心 : 安全性設定"
+              "title": "訂單自動結案設定 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -119,12 +162,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=472",
-                "title": "管理中心 : 安全性設定",
+                "url": "https://www.cyberbiz.io/support/?p=4606",
+                "title": "訂單自動結案設定",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "管理中心 : 安全性設定"
+              "title": "訂單自動結案設定"
             }
           }
         ]
@@ -194,7 +237,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 287.5
   },
   "right": {
     "id": "973606ff262c9293",
@@ -325,30 +368,37 @@
   },
   "active": "bc5e7ee3a9f5fb45",
   "lastOpenFiles": [
-    "site/assets/images/ec-管理中心-安全性設定-白名單.png",
-    "docs/assets/images/ec-管理中心-安全性設定-白名單.png",
-    "site/assets/images/ec-管理中心-安全性設定-會員個資部分隱碼.png",
-    "docs/assets/images/ec-管理中心-安全性設定-會員個資部分隱碼.png",
-    "site/assets/images/ec-管理中心-安全性設定-會員密碼規則.png",
-    "docs/assets/images/ec-管理中心-安全性設定-會員密碼規則.png",
-    "site/assets/images/ec-管理中心-安全性設定-網站密碼.gif",
-    "docs/assets/images/ec-管理中心-安全性設定-網站密碼.gif",
-    "site/assets/images/ec-管理中心-安全性設定-會員安全-網站密碼.png",
-    "docs/assets/images/ec-管理中心-安全性設定-會員安全-網站密碼.png",
-    "includes/abbreviations.md",
+    "docs/ec/orders/訂單出貨流程.md",
+    "site/resources/glossary/index.html",
+    "site/resources/glossary",
+    "site/ec/products/設定結帳拆分多購物車/index.html",
+    "site/ec/products/設定結帳拆分多購物車",
+    "site/ec/products/設定商品影片/index.html",
+    "site/ec/products/設定商品影片",
+    "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS/index.html",
+    "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS",
+    "site/ec/analytics/index.html",
+    "site/ec/analytics",
+    "docs/ec/orders/設定訂單自動結案.md",
+    "docs/ec/orders/一般退貨退款.md",
+    "docs/ec/orders/一般退貨退款-cli.md",
+    "docs/ec/orders/index.md",
+    "site/assets/images/ec-訂單-所有訂單-舊版訂單列表-已結案.png",
+    "docs/assets/images/ec-訂單-所有訂單-舊版訂單列表-已結案.png",
+    "site/assets/images/ec-訂單-所有訂單-訂單列表-已結案.png",
+    "docs/assets/images/ec-訂單-所有訂單-訂單列表-已結案.png",
+    "site/assets/images/ec-金物流-結帳頁-訂單自動結案-已出貨訂單自動結案.png",
+    "docs/assets/images/ec-金物流-結帳頁-訂單自動結案-已出貨訂單自動結案.png",
+    "site/assets/images/ec-金物流-結帳頁-訂單自動結案-已收貨訂單自動結案.png",
+    "docs/assets/images/ec-金物流-結帳頁-訂單自動結案-已收貨訂單自動結案.png",
+    "docs/pos/orders/設定 POS 訂單自動結案.md",
+    "docs/pos/orders/index.md",
     "docs/ec/admin/設定網站安全性.md",
+    "templates/yaml.md",
+    "site/assets/images/ec-金物流-結帳頁-訂單自動結案.png",
+    "docs/assets/images/ec-金物流-結帳頁-訂單自動結案.png",
     "docs/ec/admin/設定網站基本資訊.md",
-    "site/ec/products/設定商品到貨通知/index.html",
-    "site/ec/products/設定商品到貨通知",
-    "site/ec/products/後台搜尋商品/index.html",
-    "site/ec/products/後台搜尋商品",
-    "site/ec/website-appearance/拖拉版型網站設定/index.html",
-    "site/ec/website-appearance/拖拉版型網站設定",
-    "site/ec/marketing/設定加價購群組/index.html",
-    "site/ec/marketing/設定加價購群組",
-    "site/ec/products/啟用留言區 reCAPTCHA/index.html",
-    "site/ec/products/啟用留言區 reCAPTCHA",
-    "site/assets/images/ec-管理中心-安全性設定.png",
+    "includes/abbreviations.md",
     "docs/ec/website-appearance/設定選單與導覽列.md",
     "docs/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS.md",
     "docs/ec/admin/星益欣電子發票設定指南.md",
@@ -362,14 +412,6 @@
     "templates/lucide-panel-left-open.md",
     "templates/lucide-panel-left.md",
     "templates/lucide-arrow-left-from-line.md",
-    "templates/lucide-redo-2.md",
-    "templates/lucide-undo-2.md",
-    "templates/lucide-chevron-down.md",
-    "docs/zh-tw/ec/website-appearance/托拉版型功能設定.md",
-    "docs/ec/app-market/cyberbiz-extensions/chat-box/index.md",
-    "docs/ec/products/references/商品可見性指南.md",
-    "docs/ec/products/references/商品可見性.md",
-    "docs/ec/products/references/CKEditor 編輯器教學.md",
-    "docs/ec/app-market/cyberbiz-extensions/index.md"
+    "templates/lucide-redo-2.md"
   ]
 }
