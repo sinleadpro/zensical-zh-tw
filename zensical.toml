@@ -58,11 +58,17 @@ copyright = """
             { "orders" = "ec/orders/index.md" },
             { "訂單出貨流程" = "ec/orders/訂單出貨流程.md" },
             { "訂單自動結案" = "ec/orders/設定訂單自動結案.md" },
+            { "顧客付款連結" = "ec/orders/提供顧客付款連結.md" },
+            { "未付款提醒" = "ec/orders/設定未付款提醒.md" },
             { "超商店到店 C2C 出貨" = "ec/orders/操作超商店到店 C2C 出貨.md" },
             { "全家冷凍店到店 C2C" = "ec/orders/操作全家冷凍店到店 C2C 出貨.md" },
             { "超商退貨便" = "ec/orders/操作超商退貨便 C2B.md" },
             { "黑貓快速到店付款設定" = "ec/orders/設定黑貓快速到店付款方式.md" },
-            { "熱感列印托運單" = "ec/orders/熱感列印超商托運單.md" } 
+            { "熱感列印托運單" = "ec/orders/熱感列印超商托運單.md" }, 
+            { "參考資料" = [
+                { "訂單列表欄位參考表" = "ec/orders/references/訂單列表欄位參考表.md" },
+                { "訂單搜尋規範" = "ec/orders/references/訂單搜尋欄位規範.md" }
+            ]},
         ]},
         { "會員" = [
             { "overview" = "ec/members/index.md" },
@@ -165,14 +171,13 @@ copyright = """
                 ]},
             ]},
         ]},
-        { "整合串接" = [
+        { "第三方整合" = [
             { "overview" = "ec/integrations/index.md" },  
-            { "APP MARKET" = [
-                    { "" = "ec/integrations/"},
-                    { "" = "ec/integrations/"},
+            { "LINE" = [
+                    { "串接 Messaging API" = "ec/integrations/串接 LINE OA Messaging API.md" },
                     { "" = "ec/integrations/"}
             ]},
-            { "第三方整合" = [
+            { "Google" = [
                     { "設定 Google 購物廣告" = "ec/integrations/設定 Google 購物廣告.md" },
                     { "設定自動化廣告" = "ec/integrations/設定自動化廣告.md" },
                     { "" = "ec/integrations/"}
@@ -212,7 +217,10 @@ copyright = """
         { "更新紀錄" = "resources/changelog.md" },
         { "詞彙表" = "resources/glossary.md" },
         { "圖示慣例" = "resources/conventions.md" },   
-        { "參考資料" = "resources/references" }
+        { "參考資料" = [
+            { "overview" = "resources/index.md" },
+            { "CYBER 幣" = "resources/references/認識 CYBER 幣.md" }
+        ]},
     ]}
  ]
 # With the "extra_css" option you can add your own CSS styling to customize

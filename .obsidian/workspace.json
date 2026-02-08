@@ -14,16 +14,16 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/orders/訂單出貨流程.md",
+                "file": "docs/ec/orders/設定未付款提醒.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "訂單出貨流程"
+              "title": "設定未付款提醒"
             }
           },
           {
-            "id": "720b2441cc7e3b03",
+            "id": "59cf673e0b6231a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -34,20 +34,6 @@
               },
               "icon": "lucide-file",
               "title": "index"
-            }
-          },
-          {
-            "id": "a44027e3a35c5848",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/pos/orders/設定 POS 訂單自動結案.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定 POS 訂單自動結案"
             }
           },
           {
@@ -78,28 +64,13 @@
               "title": "abbreviations"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "145b9f26bb568cb5",
         "type": "tabs",
         "dimension": 24.703344120819846,
         "children": [
-          {
-            "id": "50658d05582d8786",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=3214",
-                "title": "cyberbiz.io/helpcenter/?p=3214",
-                "mode": "error"
-              },
-              "icon": "globe-2",
-              "title": "cyberbiz.io/helpcenter/?p=3214"
-            }
-          },
           {
             "id": "12e2159ff224b777",
             "type": "leaf",
@@ -141,12 +112,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=49",
-                "title": "訂單自動結案設定 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=158",
+                "title": "未付款提醒 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "訂單自動結案設定 - CYBERBIZ 一般版教學文件"
+              "title": "未付款提醒 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -162,12 +133,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=4606",
-                "title": "訂單自動結案設定",
+                "url": "https://www.cyberbiz.io/support/?p=2321",
+                "title": "未付款提醒",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "訂單自動結案設定"
+              "title": "未付款提醒"
             }
           }
         ]
@@ -368,50 +339,51 @@
   },
   "active": "bc5e7ee3a9f5fb45",
   "lastOpenFiles": [
-    "docs/ec/orders/訂單出貨流程.md",
-    "site/resources/glossary/index.html",
-    "site/resources/glossary",
-    "site/ec/products/設定結帳拆分多購物車/index.html",
-    "site/ec/products/設定結帳拆分多購物車",
+    "reference/tolgee-exported.csv",
+    "docs/ec/orders/設定未付款提醒.md",
+    "site/ec/products/編輯商品描述與商品設定/index.html",
+    "site/ec/products/編輯商品描述與商品設定",
+    "site/en/ec/e-ticket/核銷電子票券/index.html",
+    "site/en/ec/e-ticket/核銷電子票券",
+    "site/ec/products/新增單一商品/index.html",
+    "site/ec/products/新增單一商品",
     "site/ec/products/設定商品影片/index.html",
     "site/ec/products/設定商品影片",
-    "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS/index.html",
-    "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS",
-    "site/ec/analytics/index.html",
-    "site/ec/analytics",
-    "docs/ec/orders/設定訂單自動結案.md",
-    "docs/ec/orders/一般退貨退款.md",
-    "docs/ec/orders/一般退貨退款-cli.md",
+    "site/ec/payments-and-logistics/設定全家冷凍物流 B2C/index.html",
+    "site/ec/payments-and-logistics/設定全家冷凍物流 B2C",
+    "docs/ec/integrations/google/Google Analytics ：串接教學-ent.md",
+    "docs/ec/integrations/google/Google Analytics ：串接教學.md",
+    "docs/ec/integrations/line/串接 LINE OA Messaging API.md",
+    "docs/ec/integrations/google/設定 Google 購物廣告.md",
+    "docs/ec/orders/訂單出貨流程.md",
     "docs/ec/orders/index.md",
-    "site/assets/images/ec-訂單-所有訂單-舊版訂單列表-已結案.png",
-    "docs/assets/images/ec-訂單-所有訂單-舊版訂單列表-已結案.png",
-    "site/assets/images/ec-訂單-所有訂單-訂單列表-已結案.png",
-    "docs/assets/images/ec-訂單-所有訂單-訂單列表-已結案.png",
-    "site/assets/images/ec-金物流-結帳頁-訂單自動結案-已出貨訂單自動結案.png",
-    "docs/assets/images/ec-金物流-結帳頁-訂單自動結案-已出貨訂單自動結案.png",
-    "site/assets/images/ec-金物流-結帳頁-訂單自動結案-已收貨訂單自動結案.png",
-    "docs/assets/images/ec-金物流-結帳頁-訂單自動結案-已收貨訂單自動結案.png",
-    "docs/pos/orders/設定 POS 訂單自動結案.md",
-    "docs/pos/orders/index.md",
-    "docs/ec/admin/設定網站安全性.md",
     "templates/yaml.md",
-    "site/assets/images/ec-金物流-結帳頁-訂單自動結案.png",
-    "docs/assets/images/ec-金物流-結帳頁-訂單自動結案.png",
-    "docs/ec/admin/設定網站基本資訊.md",
-    "includes/abbreviations.md",
-    "docs/ec/website-appearance/設定選單與導覽列.md",
-    "docs/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS.md",
-    "docs/ec/admin/星益欣電子發票設定指南.md",
-    "docs/ec/website-appearance/設定前台商品群組排序.md",
-    "docs/ec/website-appearance/拖拉版型網站設定.md",
-    "docs/ec/website-appearance/設定轉貼連結預設圖片.md",
-    "docs/ec/website-appearance/設定前台選單.md",
-    "docs/ec/products/啟用留言區 reCAPTCHA.md",
-    "docs/ec/admin/index.md",
-    "docs/ec/products/管理商品評論.md",
-    "templates/lucide-panel-left-open.md",
-    "templates/lucide-panel-left.md",
-    "templates/lucide-arrow-left-from-line.md",
-    "templates/lucide-redo-2.md"
+    "docs/ec/orders/提供顧客付款連結.md",
+    "docs/ec/orders/設定訂單自動結案.md",
+    "site/assets/images/ec-訊息推播-LINE OA 樣板-顧客訂單未付款提醒信.gif",
+    "docs/assets/images/ec-訊息推播-LINE OA 樣板-顧客訂單未付款提醒信.gif",
+    "site/assets/images/ec-訊息推播-email 樣板-顧客訂單未付款提醒信.gif",
+    "docs/assets/images/ec-訊息推播-email 樣板-顧客訂單未付款提醒信.gif",
+    "site/assets/images/ec-訊息推播-簡訊樣板-顧客訂單未付款通知.gif",
+    "docs/assets/images/ec-訊息推播-簡訊樣板-顧客訂單未付款通知.gif",
+    "site/assets/images/ec-訊息推播-顧客訂單未付款提醒信.gif",
+    "docs/assets/images/ec-訊息推播-顧客訂單未付款提醒信.gif",
+    "site/assets/images/ec-訊息推播-顧客訂單未付款通知信.gif",
+    "docs/assets/images/ec-訊息推播-顧客訂單未付款通知信.gif",
+    "templates/syntax-navigation.md",
+    "templates/lucide-bell-ring.md",
+    "docs/ec/admin/設定網站安全性.md",
+    "docs/pos/orders/設定 POS 訂單自動結案.md",
+    "templates/lucide-link.md",
+    "docs/ec/orders/references/訂單搜尋欄位規範.md",
+    "docs/ec/orders/references/訂單列表欄位參考表.md",
+    "templates/lucide-plus.md",
+    "templates/lucide-ticket-plus.md",
+    "templates/lucide-book-open-text.md",
+    "templates/lucide-book-open.md",
+    "docs/ec/orders/操作全家冷凍店到店 C2C 出貨.md",
+    "docs/resources/references/認識 CYBER 幣.md",
+    "docs/ec/orders/操作超商店到店 C2C 出貨.md",
+    "includes/abbreviations.md"
   ]
 }

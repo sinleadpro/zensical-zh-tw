@@ -22,7 +22,7 @@ plans: []
 prerequisites: []
 lang: en-US
 sites: []
-status: new
+status:
 tags: []
 difficulty: ""
 audiences: []
@@ -36,9 +36,11 @@ icon: ""
 
 # {{title}}
 
+{ .subtitle }
+
 { .hero-page }
 
-{ .subtitle }
+
 
 ## 後續操作
 

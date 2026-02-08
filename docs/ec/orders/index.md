@@ -15,16 +15,31 @@ notes:
 
 ## 訂單管理
 
+<div class="grid cards" markdown>
+	
+
+	    
+</div>
+
 
 <div class="grid cards" markdown>
+
+-   :lucide-list: __訂單列表__
+
+	---
+	
+	- [查看所有訂單](查看訂單.md)  
+	- [依狀態篩選訂單](訂單篩選.md)  
+	- [批次更新訂單狀態](批次更新訂單.md)  
+
 
 -   :lucide-file-clock:{ .lg .middle } __自動結案__
 
     ---
 
-    - [__官網一般訂單__](設定訂單自動結案)   
-    - [__電子票券訂單__](../e-ticket/電子票券設定指南#票券分潤與自動結案設定) 
-    - [__POS 門市訂單__](../../pos/orders/設定 POS 訂單自動結案)  
+    - [官網一般訂單](設定訂單自動結案)   
+    - [電子票券訂單](../e-ticket/電子票券設定指南#票券分潤與自動結案設定) 
+    - [POS 門市訂單](../../pos/orders/設定 POS 訂單自動結案)  
 
 -   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
 
@@ -33,6 +48,9 @@ notes:
     Focus on your content and generate a responsive and searchable static site
 
     [:octicons-arrow-right-24: Reference](#)
+
+-   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+
 
 </div>
 
@@ -56,8 +74,79 @@ notes:
 </div>
 
 
+## 訂單付款
+
+
+<div class="grid cards" markdown>
+
+-   :lucide-bell-ring:{ .lg .middle } __未付款處理__
+
+    ---
+
+    - [__付款連結__](提供顧客付款連結.md){ data-preview }     
+    - [__未付款提醒__](設定未付款提醒.md){ data-preview }  
+
+-   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+
+    ---
+
+    Focus on your content and generate a responsive and searchable static site
+
+    [:octicons-arrow-right-24: Reference](#)
+
+-   :material-format-font:{ .lg .middle } __Made to measure__
+
+    ---
+
+    Change the colors, fonts, language, icons, logo and more with a few lines
+
+    [:octicons-arrow-right-24: Customization](#)
+
+
+</div>
+
+<div class="grid cards" markdown>
+
+- :lucide-link:{ .lg }   
+  [__付款連結__](提供顧客付款連結.md){ data-preview }       
+  主動提供未付款訂單的顧客，專屬付款連結。
+
+- :lucide-bell:{ .lg }     
+  [__未付款提醒__](設定未付款提醒.md){ data-preview }    
+  設定以天數為間隔的付款提醒通知。
+
+</div>
+
 ## 訂單出貨
 
+
+
+<div class="grid cards" markdown>
+
+-   :lucide-truck:{ .lg .middle } __宅配物流__
+
+    ---
+
+    - [黑貓]()
+    - [宅配通]()
+    - [新竹物流]()
+    - [順豐宅配]()
+
+-   :lucide-store:{ .lg .middle } __超商取貨訂單__
+
+    ---
+
+    - [店到店 C2C]()
+    - [大宗寄倉 B2C]()
+    - [全家冷凍店到店 C2C](操作全家冷凍店到店 C2C 出貨.md){ data-preview }  
+
+-   :lucide-hand:{ .lg .middle } __自訂物流__
+
+    ---
+
+    - [大量匯入託運單號](操作自訂物流出貨#大量匯入自訂物流託運單號)
+
+</div>
 
 ---
 
