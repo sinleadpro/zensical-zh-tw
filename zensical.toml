@@ -173,14 +173,15 @@ copyright = """
         ]},
         { "第三方整合" = [
             { "overview" = "ec/integrations/index.md" },  
-            { "LINE" = [
-                    { "串接 Messaging API" = "ec/integrations/串接 LINE OA Messaging API.md" },
-                    { "" = "ec/integrations/"}
+          { "Google" = [
+                    { "設定 Google 購物廣告" = "ec/integrations/google/設定 Google 購物廣告.md" },
+                    { "設定自動化廣告" = "ec/integrations/google/設定自動化廣告.md" },
+                    { "" = "ec/integrations/google/"}
             ]},
-            { "Google" = [
-                    { "設定 Google 購物廣告" = "ec/integrations/設定 Google 購物廣告.md" },
-                    { "設定自動化廣告" = "ec/integrations/設定自動化廣告.md" },
-                    { "" = "ec/integrations/"}
+            { "LINE" = [
+                    { "串接 Messaging API" = "ec/integrations/line/串接 LINE OA Messaging API.md" },
+                    { "LINE OA 訊息樣板" = "ec/integrations/line/設定 LINE OA 訊息樣板.md" },
+                    { "" = "ec/integrations/line/"}
             ]},
         ]},
         { "管理中心" = [
