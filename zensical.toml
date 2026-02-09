@@ -116,10 +116,12 @@ copyright = """
             {"滿額贈滿件贈"= "ec/marketing/設定滿額贈與滿件贈.md"},
             { "訂單加價購" = "ec/marketing/設定訂單加價購.md" },
             { "商品加價購" = "ec/marketing/設定商品加價購.md" },
+            {"期間限定首購禮" = "ec/marketing/設定期間限定首購禮.md"},
             {"互動遊戲" = "ec/marketing/設定互動遊戲.md"},
             {"指定商品送優惠券" = "ec/marketing/設定指定商品送優惠券.md"},
             {"指定商品送紅利" = "ec/marketing/設定指定商品送紅利.md"},
             {"指定金流送紅利" = "ec/marketing/設定指定金流送紅利.md"},
+            {"指定物流送紅利" = "ec/marketing/設定指定物流送紅利.md"},
             {"指定商品送活動序號" = "ec/marketing/設定指定商品送活動序號.md"},
             {"紅利商城" = "ec/marketing/設定紅利商城.md"},
             { "商品多層級分類滿額折扣" = "ec/marketing/設定商品多層級分類滿額折扣.md" },
@@ -130,19 +132,20 @@ copyright = """
                     { "結帳優惠計算順序-rev" = "ec/marketing/結帳優惠計算順序-rev.md" },
                     { "" = "ec/marketing/"}
             ]},
-            { "分潤" = [
-                    { "" = "ec/marketing/"},
-                    { "" = "ec/marketing/"},
-                    { "" = "ec/marketing/"}
-            ]},
+            
             { "訊息推播" = [
                     { "" = "ec/marketing/"},
                     { "庫存過低通知" = "ec/marketing/庫存過低通知.md"},
                     { "" = "ec/marketing/"}
             ]},
-
-
-        
+        ]},
+        { "分潤" = [
+                    { "了解分潤功能" = "ec/profit-sharing/了解分潤功能.md"},
+                    { "設定推薦人分潤方案" = "ec/profit-sharing/設定推薦人分潤方案.md"},
+                    { "設定註冊人分潤方案" = "ec/profit-sharing/設定註冊人分潤方案.md"},
+                    { "匯出分潤報表" = "ec/profit-sharing/匯出分潤報表.md"},
+                    { "查詢分潤夥伴與代碼資訊" = "ec/profit-sharing/查詢分潤夥伴與代碼資訊.md"},
+                    { "推薦碼連結的應用" = "ec/profit-sharing/推薦碼連結的應用.md"},
         ]},
         { "金物流" = [
             { "overview" = "ec/payments-and-logistics/index.md" },
@@ -155,8 +158,19 @@ copyright = """
             { "設定 PayPal" = "ec/payments-and-logistics/設定 PayPal.md" },
             {"串接全家超商B2C冷凍物流" = "ec/payments-and-logistics/串接全家超商B2C冷凍物流.md"},
             { "超商店到店 C2C 串接" = "ec/payments-and-logistics/設定超商店到店 C2C 物流串接.md" },
-            {"設定門市取貨服務"= "ec/payments-and-logistics/設定門市取貨服務.md"},
-            {"設定CYBERBIZ NOW快速到貨服務" = "ec/payments-and-logistics/設定CYBERBIZ NOW快速到貨服務.md"},
+            {"設定門市取貨服務"= "ec/payments-and-logistics/CYBERBIZNOW/設定門市取貨服務.md"},
+            { "CYBERBIZ NOW" = [
+                    { "overview" = "ec/payments-and-logistics/CYBERBIZNOW/index.md" },
+                    {"開啟快速到貨服務" = "ec/payments-and-logistics/CYBERBIZNOW/開啟CYBERBIZ NOW快速到貨服務.md"},
+                    {"複製商品到快速到貨門市"= "ec/payments-and-logistics/CYBERBIZNOW/複製商品到快速到貨門市.md"},
+                    {"設定快速到貨前台入口與專區"= "ec/payments-and-logistics/CYBERBIZNOW/設定快速到貨前台入口與專區.md"},
+                    {"快速到貨訂單接單準備"= "ec/payments-and-logistics/CYBERBIZNOW/快速到貨訂單接單準備.md"},
+                    {"快速到貨出貨與配送"= "ec/payments-and-logistics/CYBERBIZNOW/快速到貨出貨與配送.md"},
+                    {"缺貨訂單部分出貨或取消流程"= "ec/payments-and-logistics/CYBERBIZNOW/缺貨訂單部分出貨或取消流程.md"},
+                    {"快速到貨配送異常規範"= "ec/payments-and-logistics/CYBERBIZNOW/快速到貨配送異常規範.md"},
+                    {"運費計算與對帳規範"= "ec/payments-and-logistics/CYBERBIZNOW/運費計算與對帳規範.md"},
+                    {"消費者購買流程"= "ec/payments-and-logistics/CYBERBIZNOW/消費者購買流程.md"},
+            ]},
             { "星益欣電子發票設定指南" = "ec/payments-and-logistics/星益欣電子發票設定指南.md" },
         ]},
         { "網站外觀" = [
@@ -166,7 +180,8 @@ copyright = """
         ]},
         { "商店設定" = [
             { "商店設定" = "ec/store/index.md" },
-            { "系統通知設定" = "ec/store/系統通知設定.md" }
+            { "系統通知設定" = "ec/store/系統通知設定.md" },
+            { "設定多國語言與多幣別" = "ec/website-management/設定多國語言與多幣別.md" },
         ]},
         { "APP MARKET" = [
             { "overview" = "ec/app-market/index.md" },
