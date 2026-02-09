@@ -8,3 +8,6 @@
 .smtcmp_json_db/
 *.DS_Store
 .obsidian/workspace.json
+
+# Ann's files
+.cursorindexingignore

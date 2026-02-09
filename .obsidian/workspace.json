@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 31.06796116504854,
+        "dimension": 33.11036789297659,
         "children": [
           {
             "id": "b9db1f74b10488f8",
@@ -23,6 +23,20 @@
             }
           },
           {
+            "id": "08b07851d496ceed",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/integrations/line/串接 LINE OA Messaging API.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "串接 LINE OA Messaging API"
+            }
+          },
+          {
             "id": "91b3c1decc715390",
             "type": "leaf",
             "state": {
@@ -35,55 +49,14 @@
               "icon": "lucide-file",
               "title": "abbreviations"
             }
-          },
-          {
-            "id": "59cf673e0b6231a2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/orders/index.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "index"
-            }
-          },
-          {
-            "id": "8b37056f7c3422d2",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/admin/設定網站安全性.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定網站安全性"
-            }
-          },
-          {
-            "id": "56a807709a2a2075",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "includes/abbreviations.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "abbreviations"
-            }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "145b9f26bb568cb5",
         "type": "tabs",
-        "dimension": 24.703344120819846,
+        "dimension": 22.296544035674472,
         "children": [
           {
             "id": "12e2159ff224b777",
@@ -118,7 +91,7 @@
       {
         "id": "0f41cb20a1d95388",
         "type": "tabs",
-        "dimension": 21.57497303128371,
+        "dimension": 22.296544035674472,
         "children": [
           {
             "id": "9d592301c67b1ee1",
@@ -139,7 +112,7 @@
       {
         "id": "ea951fb7d70bee14",
         "type": "tabs",
-        "dimension": 22.653721682847898,
+        "dimension": 22.296544035674472,
         "children": [
           {
             "id": "af5a39eba69ac1cd",
@@ -351,19 +324,24 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "9d592301c67b1ee1",
+  "active": "08b07851d496ceed",
   "lastOpenFiles": [
+    "includes/abbreviations.md",
+    "docs/ec/admin/設定網站安全性.md",
+    "docs/ec/orders/index.md",
+    "docs/ec/integrations/line/串接 LINE OA Messaging API.md",
+    "docs/ec/orders/訂單出貨流程.md",
+    "docs/ec/website-appearance/index.md",
+    "site/ec/marketing/商品多層級分類滿額折扣 ent/index.html",
+    "site/ec/marketing/商品多層級分類滿額折扣 ent",
+    "site/index 1/index.html",
+    "site/index 1",
     "site/ec/payments-and-logistics/設定門市取貨服務/index.html",
     "site/ec/payments-and-logistics/設定門市取貨服務",
-    "site/ec/payments-and-logistics/設定CYBERBIZ NOW快速到貨服務/index.html",
-    "site/ec/payments-and-logistics/設定CYBERBIZ NOW快速到貨服務",
-    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流/index.html",
-    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流",
-    "site/ec/orders/一般退貨退款  一般版/index.html",
-    "site/ec/orders/一般退貨退款  一般版",
-    "site/ec/members/設計VIP專屬優惠/index.html",
-    "site/ec/members/設計VIP專屬優惠",
-    "site/ec/members/設定VIP群組標籤/index.html",
+    "site/ec/products/product-activ-v2/index.html",
+    "site/ec/products/product-activ-v2",
+    "site/ec/products/設定結帳拆分多購物車/index.html",
+    "site/ec/products/設定結帳拆分多購物車",
     "site/assets/images/EC-後台-金物流-超商物流-全家冷凍B2C-設定運費01.png",
     "site/assets/images/EC-後台-金物流-超商物流-全家冷凍B2C-畫面總覽01.png",
     "site/assets/images/EC-後台-金物流-超商物流-全家冷凍B2C-填寫場勘資訊01.png",
@@ -389,15 +367,10 @@
     "docs/ec/marketing/設定指定商品送優惠券.md",
     "docs/ec/marketing/設定任選折扣.md",
     "docs/ec/marketing/設定互動遊戲.md",
-    "docs/ec/orders/訂單出貨流程.md",
-    "includes/abbreviations.md",
     "templates/syntax-navigation.md",
     "templates/path-admin.md",
     "templates/lucide-undo-2.md",
     "templates/lucide-redo-2.md",
-    "templates/lucide-plus.md",
-    "templates/lucide-panel-left.md",
-    "templates/lucide-panel-left-open.md",
-    "templates/lucide-link.md"
+    "templates/lucide-plus.md"
   ]
 }

@@ -71,6 +71,7 @@ copyright = """
             ]},
         ]},
         { "會員" = [
+            { "會員管理" = "ec/members/index.md" },
             { "VIP設定" = [
                     {"VIP制度運作機制" = "ec/members/VIP制度運作機制.md"},
                     { "VIP 設定" = "ec/members/設定 VIP 群組.md" },
@@ -165,13 +166,13 @@ copyright = """
             { "設定 LINE Pay" = "ec/payments-and-logistics/設定 LINE Pay.md" },
             { "設定街口支付" = "ec/payments-and-logistics/設定街口支付.md" },
             { "設定 PayPal" = "ec/payments-and-logistics/設定 PayPal.md" },
-            {"串接全家超商B2C冷凍物流" = "ec/payments-and-logistics/串接全家超商B2C冷凍物流.md"},
+            { "串接全家超商B2C冷凍物流" = "ec/payments-and-logistics/串接全家超商B2C冷凍物流.md" },
             { "超商店到店 C2C 串接" = "ec/payments-and-logistics/設定超商店到店 C2C 物流串接.md" },
             { "超商大宗寄倉 B2C" = "ec/payments-and-logistics/設定超商大宗寄倉 B2C.md" },
-            { "全家冷凍物流 B2C 設定" = "ec/payments-and-logistics/設定全家冷凍物流 B2C.md" }
-            {"設定門市取貨服務"= "ec/payments-and-logistics/設定門市取貨服務.md"},
-            {"設定CYBERBIZ NOW快速到貨服務" = "ec/payments-and-logistics/設定CYBERBIZ NOW快速到貨服務.md"},
-            { "星益欣電子發票設定指南" = "ec/payments-and-logistics/星益欣電子發票設定指南.md" },
+            { "全家冷凍物流 B2C 設定" = "ec/payments-and-logistics/設定全家冷凍物流 B2C.md" },
+            { "設定門市取貨服務"= "ec/payments-and-logistics/設定門市取貨服務.md" },
+            { "設定CYBERBIZ NOW快速到貨服務" = "ec/payments-and-logistics/設定CYBERBIZ NOW快速到貨服務.md" },
+            { "星益欣電子發票設定指南" = "ec/payments-and-logistics/星益欣電子發票設定指南.md" }
         ]},
         { "網站外觀" = [
             { "overview" = "ec/website-appearance/index.md" },
