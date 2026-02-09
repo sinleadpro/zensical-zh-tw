@@ -107,11 +107,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.cyberbiz.io/helpcenter/?p=5333",
-                "title": "逆物流(收取退貨) - CYBERBIZ 一般版教學文件",
-                "mode": "webview"
+                "title": "cyberbiz.io/helpcenter/?p=5333",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "逆物流(收取退貨) - CYBERBIZ 一般版教學文件"
+              "title": "cyberbiz.io/helpcenter/?p=5333"
             }
           },
           {
@@ -142,11 +142,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.cyberbiz.io/helpcenter/?p=5855",
-                "title": "PLUS用戶 - LINE OA 建立/MESSAGING API 串接設定 - CYBERBIZ 一般版教學文件",
-                "mode": "webview"
+                "title": "cyberbiz.io/helpcenter/?p=5855",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "PLUS用戶 - LINE OA 建立/MESSAGING API 串接設定 - CYBERBIZ 一般版教學文件"
+              "title": "cyberbiz.io/helpcenter/?p=5855"
             }
           }
         ]
@@ -163,11 +163,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.cyberbiz.io/support/?p=706",
-                "title": "LINE OA 建立/Messaging API 串接設定",
-                "mode": "webview"
+                "title": "cyberbiz.io/support/?p=706",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "LINE OA 建立/Messaging API 串接設定"
+              "title": "cyberbiz.io/support/?p=706"
             }
           }
         ]
@@ -368,6 +368,7 @@
   },
   "active": "83d8ef9d8c6e9f87",
   "lastOpenFiles": [
+    "vup y",
     "docs/ec/integrations/line/設定 LINE OA 訊息樣板.md",
     "includes/abbreviations.md",
     "docs/ec/integrations/line/串接 LINE OA Messaging API.md",
@@ -412,7 +413,6 @@
     "templates/lucide-plus.md",
     "templates/lucide-ticket-plus.md",
     "templates/lucide-book-open-text.md",
-    "templates/lucide-book-open.md",
-    "docs/ec/orders/操作全家冷凍店到店 C2C 出貨.md"
+    "templates/lucide-book-open.md"
   ]
 }
