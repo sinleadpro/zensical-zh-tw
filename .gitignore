@@ -5,7 +5,6 @@
 .smtcmp_vector_db.tar.gz
 .specstory/
 .obsidian/
-<<<<<<< HEAD
 .smtcmp_json_db/
 *.DS_Store
 .obsidian/workspace.json
