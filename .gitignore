@@ -7,6 +7,7 @@
 .obsidian/
 <<<<<<< HEAD
 .smtcmp_json_db/
+*.DS_Store
 =======
 .smtcmp_json_db/
 >>>>>>> cf4f7be (fix: gitignore remove smtcmp db)
