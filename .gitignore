@@ -1,13 +1,24 @@
-/factory/
-.opencode/
-.smtcmp_json_db/
-*.tar.gz
-.smtcmp_vector_db.tar.gz
-.specstory/
+# Ignore the generated output
+site/
+dist/
+build/
+
+# Also ignore the obsidian workspace file we discussed earlier
 .obsidian/
-.smtcmp_json_db/
-*.DS_Store
 .obsidian/workspace.json
+.smtcmp_json_db/
+.smtcmp_vector_db.tar.gz
+
+# Files 
+/factory/
+.specstory/
+*.tar.gz
+
+# AI Agent
+.opencode/
+
+# macOS specific
+*.DS_Store
 
 # Ann's files
 .cursorindexingignore
