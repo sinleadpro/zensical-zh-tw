@@ -12,11 +12,16 @@ notes:
 
 ![](../../assets/images/ec-orders-hero.zh-tw.png){ .hero-page }
 
+## 開始使用
+
+- [訂單介面教學](訂單管理介面說明.md){ data-preview }  
+- [訂單出貨流程](訂單出貨流程.md){ data-preview }  
+
+
 
 ## 訂單管理
 
 <div class="grid cards" markdown>
-	
 
 	    
 </div>
@@ -76,7 +81,6 @@ notes:
 
 ## 訂單付款
 
-
 <div class="grid cards" markdown>
 
 -   :lucide-bell-ring:{ .lg .middle } __未付款處理__
@@ -119,8 +123,6 @@ notes:
 
 ## 訂單出貨
 
-
-
 <div class="grid cards" markdown>
 
 -   :lucide-truck:{ .lg .middle } __宅配物流__
@@ -132,7 +134,7 @@ notes:
     - [新竹物流]()
     - [順豐宅配]()
 
--   :lucide-store:{ .lg .middle } __超商取貨訂單__
+-   :lucide-store:{ .lg .middle } __超商取貨__
 
     ---
 

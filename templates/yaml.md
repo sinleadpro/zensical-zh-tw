@@ -38,10 +38,26 @@ icon: ""
 
 { .subtitle }
 
+{ .doc-badge }
+
 { .hero-page }
 
 
 
 ## 後續操作
 
+<div class="grid cards" markdown>
+
+- :lucide-import:{ .lg }   
+  [____]()     
+  。
+
+- :lucide-ban:{ .lg }     
+  [____]()  
+  。
+
+</div>
+
 ## 常見問題
+
+??? quote ""

@@ -304,7 +304,7 @@ graph LR
 - 貨到付款訂單，消費者於收到第一筆包裹時須支付 **整筆訂單全額**。
 
 
-## 後續步驟
+## 相關操作
 
 <div class="grid cards" markdown>
 

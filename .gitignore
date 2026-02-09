@@ -1,4 +1,4 @@
-# Ignore the generated output
+# Zensical uild Output
 site/
 dist/
 build/
@@ -17,8 +17,13 @@ build/
 # AI Agent
 .opencode/
 
-# macOS specific
+# OS Generated FIles
 *.DS_Store
+Thumbs.db
+
+# Ptyhon
+.venv/
+env/
 
 # Ann's files
 .cursorindexingignore

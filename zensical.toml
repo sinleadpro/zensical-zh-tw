@@ -56,11 +56,13 @@ copyright = """
         { "分析報表" = "ec/analytics/index.md" },
         { "訂單" = [
             { "orders" = "ec/orders/index.md" },
+            { "訂單管理介面" = "ec/orders/訂單管理介面說明.md" },
             { "訂單出貨流程" = "ec/orders/訂單出貨流程.md" },
             { "訂單自動結案" = "ec/orders/設定訂單自動結案.md" },
             { "顧客付款連結" = "ec/orders/提供顧客付款連結.md" },
             { "未付款提醒" = "ec/orders/設定未付款提醒.md" },
-            { "超商店到店 C2C 出貨" = "ec/orders/操作超商店到店 C2C 出貨.md" },
+            { "超商出貨店到店 C2C" = "ec/orders/操作超商店到店 C2C 出貨.md" },
+            { "超商出貨大宗寄倉 B2C" = "ec/orders/操作超商大宗寄倉 B2C 出貨.md" },
             { "全家冷凍店到店 C2C" = "ec/orders/操作全家冷凍店到店 C2C 出貨.md" },
             { "超商退貨便" = "ec/orders/操作超商退貨便 C2B.md" },
             { "黑貓快速到店付款設定" = "ec/orders/設定黑貓快速到店付款方式.md" },
@@ -78,7 +80,6 @@ copyright = """
                     {"設計VIP專屬優惠" = "ec/members/設計VIP專屬優惠.md"},
                     {"設計VIP群組標籤" = "ec/members/設定VIP群組標籤.md"},
             ]},
-
         ]},
         { "商品" = [
             { "商品管理" = "ec/products/index.md" },  
@@ -137,7 +138,6 @@ copyright = """
             {"紅利商城" = "ec/marketing/設定紅利商城.md"},
             { "商品多層級分類滿額折扣" = "ec/marketing/設定商品多層級分類滿額折扣.md" },
             { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" },
-
             { "行銷活動" = [
                     { "結帳優惠計算順序" = "ec/marketing/結帳優惠計算順序.md" },
                     { "結帳優惠計算順序-rev" = "ec/marketing/結帳優惠計算順序-rev.md" },
@@ -201,7 +201,7 @@ copyright = """
                     { "" = "ec/integrations/google/"}
             ]},
             { "LINE" = [
-                    { "串接 Messaging API" = "ec/integrations/line/串接 LINE OA Messaging API.md" },
+                    { "串接 Messaging API" = "ec/integrations/line/串接 LINE Messaging API.md" },
                     { "LINE OA 訊息樣板" = "ec/integrations/line/設定 LINE OA 訊息樣板.md" },
                     { "" = "ec/integrations/line/"}
             ]},
