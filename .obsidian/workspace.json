@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 33.11036789297659,
+        "dimension": 35.199999999999996,
         "children": [
           {
             "id": "b9db1f74b10488f8",
@@ -51,17 +51,31 @@
             }
           },
           {
+            "id": "aff5509fd8c80875",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/orders/references/訂單列表操作功能.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "訂單列表操作功能"
+            }
+          },
+          {
             "id": "2cda6e234b428b4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/orders/訂單管理介面說明.md",
+                "file": "docs/ec/orders/出貨狀態物流提示文字說明.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "訂單管理介面說明"
+              "title": "出貨狀態物流提示文字說明"
             }
           }
         ],
@@ -70,7 +84,7 @@
       {
         "id": "145b9f26bb568cb5",
         "type": "tabs",
-        "dimension": 22.296544035674472,
+        "dimension": 23.466666666666665,
         "children": [
           {
             "id": "12e2159ff224b777",
@@ -105,7 +119,7 @@
       {
         "id": "0f41cb20a1d95388",
         "type": "tabs",
-        "dimension": 22.296544035674472,
+        "dimension": 17.77777777777778,
         "children": [
           {
             "id": "9d592301c67b1ee1",
@@ -113,12 +127,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=5855",
-                "title": "cyberbiz.io/helpcenter/?p=5855",
-                "mode": "error"
+                "url": "https://www.cyberbiz.io/helpcenter/?p=34",
+                "title": "訂單頁面 - CYBERBIZ 一般版教學文件",
+                "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "cyberbiz.io/helpcenter/?p=5855"
+              "title": "訂單頁面 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -126,7 +140,7 @@
       {
         "id": "ea951fb7d70bee14",
         "type": "tabs",
-        "dimension": 22.296544035674472,
+        "dimension": 23.555555555555554,
         "children": [
           {
             "id": "af5a39eba69ac1cd",
@@ -134,12 +148,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=24829",
-                "title": "單筆/批次訂單出貨流程",
+                "url": "https://www.cyberbiz.io/support/?p=624",
+                "title": "訂單 : 訂單頁面",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "單筆/批次訂單出貨流程"
+              "title": "訂單 : 訂單頁面"
             }
           }
         ]
@@ -339,36 +353,42 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc5e7ee3a9f5fb45",
+  "active": "59fecf3fa8555b73",
   "lastOpenFiles": [
+    "site/assets/images/ec-訂單列表-更多操作.png",
+    "docs/assets/images/ec-訂單列表-更多操作.png",
+    "docs/ec/orders/references/訂單列表操作功能.md",
+    "site/ec/orders/references/訂單列表操作功能/index.html",
+    "site/ec/orders/references/訂單列表操作功能",
+    "site/ec/orders/references/Untitled/index.html",
+    "site/ec/orders/references/Untitled",
+    "docs/ec/orders/出貨狀態物流提示文字說明.md",
+    "docs/ec/orders/訂單管理介面說明.md",
+    "docs/ec/orders/references/訂單篩選條件欄位定義.md",
+    "docs/ec/orders/references/訂單列表欄位參考表.md",
+    "docs/ec/orders/references/訂單搜尋欄位規範.md",
+    "site/ec/members/設定VIP群組標籤/index.html",
+    "site/ec/members/設定VIP群組標籤",
+    "site/ec/products/設定結帳拆分多購物車/index.html",
+    "site/ec/products/設定結帳拆分多購物車",
+    "site/ec/analytics/index.html",
+    "site/ec/analytics",
+    "site/assets/images/ec-訂單列表-搜尋.png",
+    "docs/assets/images/ec-訂單列表-搜尋.png",
+    "site/assets/images/ec-訂單列表-商品詳情預覽.gif",
+    "docs/assets/images/ec-訂單列表-商品詳情預覽.gif",
+    "site/assets/images/ec-訂單明細頁-部分退款.png",
+    "docs/assets/images/ec-訂單明細頁-部分退款.png",
+    "site/assets/images/ec-訂單明細頁-訂單操作紀錄.png",
+    "docs/assets/images/ec-訂單明細頁-訂單操作紀錄.png",
+    "site/assets/images/ec-訂單明細頁-訂單對話與未結案訂單.png",
+    "docs/ec/orders/訂單出貨流程.md",
     "docs/ec/orders/index.md",
     "includes/abbreviations.md",
     "docs/ec/orders/設定黑貓快速到店付款方式.md",
     "docs/ec/orders/操作超商店到店 C2C 出貨.md",
-    "docs/ec/orders/訂單出貨流程.md",
-    "docs/ec/orders/訂單管理介面說明.md",
     "templates/lucide-zap.md",
-    "site/assets/images/ec-訂單明細範例.png",
-    "docs/assets/images/ec-訂單明細範例.png",
-    "site/assets/images/ec-揀貨單範例.png",
-    "docs/assets/images/ec-揀貨單範例.png",
-    "site/assets/images/ec-出貨明細範例.png",
-    "docs/assets/images/ec-出貨明細範例.png",
-    "site/assets/images/ec-托運單-b2c-範例.png",
-    "docs/assets/images/ec-托運單-b2c-範例.png",
-    "site/assets/images/托運單-b2c-範例.png",
-    "docs/assets/images/托運單-b2c-範例.png",
     "docs/ec/orders/操作超商大宗寄倉 B2C 出貨.md",
-    "site/ec/website-appearance/拖拉版型網站設定/index.html",
-    "site/ec/website-appearance/拖拉版型網站設定",
-    "site/ec/admin/index.html",
-    "site/ec/marketing/設定加價購群組/index.html",
-    "site/ec/marketing/設定加價購群組",
-    "site/ec/products/啟用留言區 reCAPTCHA/index.html",
-    "site/ec/products/啟用留言區 reCAPTCHA",
-    "site/ec/marketing/設定任選折扣群組/index.html",
-    "site/ec/marketing/設定任選折扣群組",
-    "site/storepal/index.html",
     "docs/ec/integrations/line/串接 LINE Messaging API.md",
     "docs/ec/integrations/line/綁定 LINE 帳號與官網會員.md",
     "templates/yaml.md",
@@ -380,12 +400,6 @@
     "docs/ec/payments-and-logistics/串接全家超商B2C冷凍物流.md",
     "docs/ec/members/設計VIP專屬優惠.md",
     "docs/ec/members/設定VIP群組標籤.md",
-    "docs/ec/members/VIP制度運作機制.md",
-    "docs/ec/marketing/設定紅配綠多組合優惠.md",
-    "docs/ec/marketing/設定紅利商城.md",
-    "docs/ec/marketing/設定滿額贈與滿件贈.md",
-    "docs/ec/marketing/設定指定金流送紅利.md",
-    "docs/ec/marketing/設定指定商品送紅利.md",
-    "docs/ec/marketing/設定指定商品送活動序號.md"
+    "docs/ec/members/VIP制度運作機制.md"
   ]
 }
