@@ -1,7 +1,7 @@
 ---
-title: ""
+title: "{{title}}"
 version: ""
-last_modified: ""
+last_modified: "{{date}}"
 description: ""
 product:
   - EC
@@ -15,38 +15,50 @@ devices:
   - mobile
 apis: []
 type: tutorial
-intents []
+intents: []
 features: []
 tnb: ""
 plans: []
 prerequisites: []
 lang: en-US
 sites: []
-status: new
+status:
 tags: []
 difficulty: ""
 audiences: []
 wp_url: []
 notes: []
 comments: ""
-search: 
+search:
   exclude: ""
 icon: ""
 ---
 
 
-# Title
+# {{title}}
 
-subtitle
 { .subtitle }
 
-[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 
+{ .doc-badge }
+
+{ .hero-page }
 
 
-## Overview
 
-## Steps
+## 後續操作
 
-## Next Steps
+<div class="grid cards" markdown>
 
-## FAQ
+- :lucide-import:{ .lg }   
+  [____]()     
+  。
+
+- :lucide-ban:{ .lg }     
+  [____]()  
+  。
+
+</div>
+
+## 常見問題
+
+??? quote ""

@@ -71,7 +71,8 @@ copyright = """
             { "參考資料" = [
                 { "訂單列表欄位參考表" = "ec/orders/references/訂單列表欄位參考表.md" },
                 { "訂單搜尋規範" = "ec/orders/references/訂單搜尋欄位規範.md" },
-                { "篩選欄位定義" = "ec/orders/references/訂單篩選條件欄位定義.md" }
+                { "篩選欄位定義" = "ec/orders/references/訂單篩選條件欄位定義.md" },
+                { "訂單列表操作選項" = "ec/orders/references/訂單列表操作功能說明.md" }
             ]},
         ]},
         { "會員" = [
@@ -85,7 +86,9 @@ copyright = """
         ]},
         { "商品" = [
             { "商品管理" = "ec/products/index.md" },  
-            { "快速上手" = "ec/products/quickstart.md" },  
+            { "快速上手" = [
+                { "商品管理介面" = "ec/products/商品管理介面說明.md" }
+            ]},  
             { "商品上架" = [
                     { "新增單一商品" = "ec/products/新增單一商品.md"},
                     { "組合商品" = "ec/products/新增與設定組合商品.md"},
@@ -182,10 +185,6 @@ copyright = """
             { "選單與導覽列" = "ec/website-appearance/設定選單與導覽列.md "},
             { "全站商品列表群組排序" = "ec/website-appearance/設定前台商品群組排序.md" }
         ]},
-        { "商店設定" = [
-            { "商店設定" = "ec/store/index.md" },
-            { "系統通知設定" = "ec/store/系統通知設定.md" }
-        ]},
         { "APP MARKET" = [
             { "overview" = "ec/app-market/index.md" },
             { "CYBERBIZ 擴充服務" = [
@@ -210,6 +209,7 @@ copyright = """
         ]},
         { "管理中心" = [
             { "overview" = "ec/admin/index.md" },
+            { "系統通知設定" = "ec/admin/系統通知設定.md" },
             { "網站基本資訊" = "ec/admin/設定網站基本資訊.md" },
             { "安全性設定" = "ec/admin/設定網站安全性.md" },
             { "星益欣電子發票" = "ec/admin/星益欣電子發票設定指南.md" }
