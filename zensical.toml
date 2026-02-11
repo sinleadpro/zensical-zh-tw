@@ -46,7 +46,7 @@ copyright = """
 #
 # Read more: https://zensical.org/docs/setup/navigation/
 
- nav = [
+ nav = [ 
     { "主頁" = "index.md" },
     { "品牌官網" = [
         { "品牌官網" = "ec/index.md" },
@@ -119,6 +119,10 @@ copyright = """
                     { "設定 VIP 會員專屬價格" = "ec/products/設定 VIP 會員專屬價格.md" }
             ]},
             { "參考資源" = [
+                { "商品列表欄位參考表" = "ec/products/references/商品列表欄位參考表.md" },
+                { "商品搜尋欄位規範" = "ec/products/references/商品搜尋欄位規範.md" },
+                { "篩選欄位定義" = "ec/products/references/篩選欄位定義.md" },
+                { "商品列表操作選項" = "ec/products/references/商品列表操作功能說明.md" }
             ]},
         ]},
         { "電子票券" = [
@@ -130,17 +134,17 @@ copyright = """
         { "行銷活動" = [
             { "overview" = "ec/marketing/index.md" },  
             { "單品限時折扣群組" = "ec/marketing/設定單品限時折扣群組.md" },
-            {"任選折扣" = "ec/marketing/設定任選折扣.md"},
-            {"紅配綠多組合優惠" = "ec/marketing/設定紅配綠多組合優惠.md"},
-            {"滿額贈滿件贈"= "ec/marketing/設定滿額贈與滿件贈.md"},
+            { "任選折扣" = "ec/marketing/設定任選折扣.md"},
+            { "紅配綠多組合優惠" = "ec/marketing/設定紅配綠多組合優惠.md"},
+            { "滿額贈滿件贈"= "ec/marketing/設定滿額贈與滿件贈.md" },
             { "訂單加價購" = "ec/marketing/設定訂單加價購.md" },
             { "商品加價購" = "ec/marketing/設定商品加價購.md" },
-            {"互動遊戲" = "ec/marketing/設定互動遊戲.md"},
-            {"指定商品送優惠券" = "ec/marketing/設定指定商品送優惠券.md"},
-            {"指定商品送紅利" = "ec/marketing/設定指定商品送紅利.md"},
-            {"指定金流送紅利" = "ec/marketing/設定指定金流送紅利.md"},
-            {"指定商品送活動序號" = "ec/marketing/設定指定商品送活動序號.md"},
-            {"紅利商城" = "ec/marketing/設定紅利商城.md"},
+            { "互動遊戲" = "ec/marketing/設定互動遊戲.md" },
+            { "指定商品送優惠券" = "ec/marketing/設定指定商品送優惠券.md" },
+            { "指定商品送紅利" = "ec/marketing/設定指定商品送紅利.md" },
+            { "指定金流送紅利" = "ec/marketing/設定指定金流送紅利.md" },
+            { "指定商品送活動序號" = "ec/marketing/設定指定商品送活動序號.md" },
+            { "紅利商城" = "ec/marketing/設定紅利商城.md" },
             { "商品多層級分類滿額折扣" = "ec/marketing/設定商品多層級分類滿額折扣.md" },
             { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" },
             { "行銷活動" = [
@@ -148,19 +152,14 @@ copyright = """
                     { "結帳優惠計算順序-rev" = "ec/marketing/結帳優惠計算順序-rev.md" },
                     { "" = "ec/marketing/"}
             ]},
-            { "分潤" = [
-                    { "" = "ec/marketing/"},
-                    { "" = "ec/marketing/"},
-                    { "" = "ec/marketing/"}
-            ]},
-            { "訊息推播" = [
-                    { "" = "ec/marketing/"},
-                    { "庫存過低通知" = "ec/marketing/庫存過低通知.md"},
-                    { "" = "ec/marketing/"}
-            ]},
-
-
-        
+        ]},  
+        { "分潤" = [
+            { "overview" = "ec/profit-sharing/index.md" }
+        ]},
+        { "訊息推播" = [
+            { "overview" = "ec/notifications/index.md" },
+            { "Email 樣板管理" = "ec/notifications/管理與自定義 Email 通知樣板.md" },
+            { "庫存過低通知" = "ec/notifications/庫存過低通知.md" }
         ]},
         { "金物流" = [
             { "overview" = "ec/payments-and-logistics/index.md" },
@@ -208,11 +207,11 @@ copyright = """
             ]},
         ]},
         { "管理中心" = [
-            { "overview" = "ec/admin/index.md" },
-            { "系統通知設定" = "ec/admin/系統通知設定.md" },
-            { "網站基本資訊" = "ec/admin/設定網站基本資訊.md" },
-            { "安全性設定" = "ec/admin/設定網站安全性.md" },
-            { "星益欣電子發票" = "ec/admin/星益欣電子發票設定指南.md" }
+            { "overview" = "ec/website-management/index.md" },
+            { "系統通知設定" = "ec/website-management/系統通知設定.md" },
+            { "網站基本資訊" = "ec/website-management/設定網站基本資訊.md" },
+            { "安全性設定" = "ec/website-management/設定網站安全性.md" },
+            { "星益欣電子發票" = "ec/website-management/星益欣電子發票設定指南.md" }
         ]},
     ]},
     { "智慧倉儲" = "wms/index.md" },

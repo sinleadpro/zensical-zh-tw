@@ -17,8 +17,6 @@ notes:
 - [訂單介面教學](訂單管理介面說明.md){ data-preview }  
 - [訂單出貨流程](訂單出貨流程.md){ data-preview }  
 
-
-
 ## 訂單管理
 
 <div class="grid cards" markdown>
@@ -122,6 +120,11 @@ notes:
 </div>
 
 ## 訂單出貨
+
+
+
+
+### 不同物流出貨方式
 
 <div class="grid cards" markdown>
 

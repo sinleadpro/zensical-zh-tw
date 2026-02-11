@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 35.199999999999996,
+        "dimension": 30.786773090079816,
         "children": [
           {
             "id": "b9db1f74b10488f8",
@@ -51,54 +51,26 @@
             }
           },
           {
-            "id": "0316d292c73d4883",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "templates/yaml.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "yaml"
-            }
-          },
-          {
-            "id": "aff5509fd8c80875",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/orders/references/訂單列表操作功能說明.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "訂單列表操作功能說明"
-            }
-          },
-          {
             "id": "2cda6e234b428b4a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/orders/出貨狀態物流提示文字說明.md",
+                "file": "docs/ec/notifications/管理與自定義 Email 通知樣板.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "出貨狀態物流提示文字說明"
+              "title": "管理與自定義 Email 通知樣板"
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "145b9f26bb568cb5",
         "type": "tabs",
-        "dimension": 23.466666666666665,
+        "dimension": 22.80501710376283,
         "children": [
           {
             "id": "12e2159ff224b777",
@@ -133,7 +105,7 @@
       {
         "id": "0f41cb20a1d95388",
         "type": "tabs",
-        "dimension": 17.77777777777778,
+        "dimension": 23.603192702394526,
         "children": [
           {
             "id": "9d592301c67b1ee1",
@@ -141,12 +113,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=34",
-                "title": "訂單頁面 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=2061",
+                "title": "Email通知樣板管理 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "訂單頁面 - CYBERBIZ 一般版教學文件"
+              "title": "Email通知樣板管理 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -154,7 +126,7 @@
       {
         "id": "ea951fb7d70bee14",
         "type": "tabs",
-        "dimension": 23.555555555555554,
+        "dimension": 22.80501710376283,
         "children": [
           {
             "id": "af5a39eba69ac1cd",
@@ -162,12 +134,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=624",
-                "title": "訂單 : 訂單頁面",
+                "url": "https://www.cyberbiz.io/support/?p=7709",
+                "title": "Email通知樣板管理",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "訂單 : 訂單頁面"
+              "title": "Email通知樣板管理"
             }
           }
         ]
@@ -367,53 +339,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "59fecf3fa8555b73",
+  "active": "2cda6e234b428b4a",
   "lastOpenFiles": [
+    "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS/index.html",
+    "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS",
+    "site/ec/products/設定 VIP 會員專屬價格/index.html",
+    "site/ec/products/設定 VIP 會員專屬價格",
+    "site/ec/marketing/設定互動遊戲/index.html",
+    "site/ec/marketing/設定互動遊戲",
+    "site/ec/orders/設定訂單自動結案/index.html",
+    "site/ec/orders/設定訂單自動結案",
+    "site/ec/marketing/設定指定商品送優惠券/index.html",
+    "site/ec/marketing/設定指定商品送優惠券",
+    "site/ec/marketing/結帳優惠計算順序-rev/index.html",
+    "site/assets/images/ec-訊息推播-email 樣板設定-新增通知收件者.png",
+    "docs/assets/images/ec-訊息推播-email 樣板設定-新增通知收件者.png",
+    "site/assets/images/ec-訊息推播-email 樣板設定-短網址與功能開關.png",
+    "docs/assets/images/ec-訊息推播-email 樣板設定-短網址與功能開關.png",
+    "site/assets/images/ec-訊息推播-email 樣板編輯.gif",
+    "docs/assets/images/ec-訊息推播-email 樣板編輯.gif",
+    "site/assets/images/ec-訊息推播-email 通知樣板.png",
+    "docs/assets/images/ec-訊息推播-email 通知樣板.png",
+    "docs/ec/integrations/line/設定 LINE OA 訊息樣板.md",
+    "docs/ec/notifications/管理與自定義 Email 通知樣板.md",
+    "docs/ec/orders/設定訂單自動結案.md",
+    "docs/ec/orders/出貨狀態物流提示文字說明.md",
+    "site/assets/images/ec-訂單-出貨狀態物流提示文字.png",
+    "docs/assets/images/ec-訂單-出貨狀態物流提示文字.png",
+    "docs/ec/notifications/index.md",
+    "docs/ec/orders/index.md",
+    "docs/ec/profit-sharing/index.md",
     "templates/yaml.md",
     "docs/ec/orders/references/訂單列表操作功能說明.md",
-    "templates/doc-layout.md",
+    "docs/ec/products/設定商品配送條件（物流、溫層與出貨通路）.md",
+    "templates/tutorial-layout.md",
+    "templates/explanation-layout.md",
     "docs/ec/orders/訂單管理介面說明.md",
-    "site/ec/products/編輯商品簡述與商品標語/index.html",
-    "site/ec/products/編輯商品簡述與商品標語",
-    "site/ec/products/product-activ-v2/index.html",
-    "site/ec/products/product-activ-v2",
-    "site/ec/products/設定商品配送條件（物流、溫層與出貨通路）/index.html",
-    "site/ec/products/設定商品配送條件（物流、溫層與出貨通路）",
-    "site/ec/products/index-old/index.html",
-    "site/ec/products/index-old",
-    "site/ec/products/設定商品到貨通知/index.html",
-    "site/ec/products/設定商品到貨通知",
     "docs/ec/orders/references/訂單列表欄位參考表.md",
     "docs/ec/products/get-started/商品管理介面說明.md",
-    "docs/ec/admin/系統通知設定.md",
-    "site/assets/images/ec-訂單列表-更多操作.png",
-    "docs/assets/images/ec-訂單列表-更多操作.png",
-    "docs/ec/orders/出貨狀態物流提示文字說明.md",
+    "docs/ec/website-management/系統通知設定.md",
     "docs/ec/orders/references/訂單篩選條件欄位定義.md",
     "docs/ec/orders/references/訂單搜尋欄位規範.md",
-    "site/assets/images/ec-訂單列表-搜尋.png",
-    "docs/assets/images/ec-訂單列表-搜尋.png",
-    "site/assets/images/ec-訂單列表-商品詳情預覽.gif",
-    "docs/assets/images/ec-訂單列表-商品詳情預覽.gif",
-    "site/assets/images/ec-訂單明細頁-部分退款.png",
-    "docs/assets/images/ec-訂單明細頁-部分退款.png",
-    "site/assets/images/ec-訂單明細頁-訂單操作紀錄.png",
-    "docs/assets/images/ec-訂單明細頁-訂單操作紀錄.png",
     "docs/ec/orders/訂單出貨流程.md",
-    "docs/ec/orders/index.md",
     "includes/abbreviations.md",
     "docs/ec/orders/設定黑貓快速到店付款方式.md",
     "docs/ec/orders/操作超商店到店 C2C 出貨.md",
     "templates/lucide-zap.md",
     "docs/ec/orders/操作超商大宗寄倉 B2C 出貨.md",
-    "docs/ec/integrations/line/串接 LINE Messaging API.md",
-    "docs/ec/integrations/line/綁定 LINE 帳號與官網會員.md",
-    "docs/ec/integrations/index.md",
-    "docs/ec/admin/設定網站安全性.md",
-    "docs/ec/website-appearance/index.md",
-    "docs/ec/payments-and-logistics/設定門市取貨服務.md",
-    "docs/ec/payments-and-logistics/設定CYBERBIZ NOW快速到貨服務.md",
-    "docs/ec/payments-and-logistics/串接全家超商B2C冷凍物流.md",
-    "docs/ec/members/設計VIP專屬優惠.md"
+    "docs/ec/integrations/line/串接 LINE Messaging API.md"
   ]
 }
