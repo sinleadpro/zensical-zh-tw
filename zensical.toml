@@ -158,7 +158,9 @@ copyright = """
         ]},
         { "訊息推播" = [
             { "overview" = "ec/notifications/index.md" },
-            { "Email 樣板管理" = "ec/notifications/管理與自定義 Email 通知樣板.md" },
+            { "Email 樣板管理" = "ec/notifications/設定與管理 Email 通知樣板.md" },
+            { "簡訊樣板管理" = "ec/notifications/設定與管理簡訊通知樣板.md" },
+            { "LINE OA 樣板管理" = "ec/notifications/設定與管理 LINE OA 通知樣板.md" },
             { "庫存過低通知" = "ec/notifications/庫存過低通知.md" }
         ]},
         { "金物流" = [
@@ -195,14 +197,14 @@ copyright = """
         ]},
         { "第三方整合" = [
             { "overview" = "ec/integrations/index.md" },  
-          { "Google" = [
+            { "Google" = [
                     { "設定 Google 購物廣告" = "ec/integrations/google/設定 Google 購物廣告.md" },
                     { "設定自動化廣告" = "ec/integrations/google/設定自動化廣告.md" },
                     { "" = "ec/integrations/google/"}
             ]},
             { "LINE" = [
                     { "串接 Messaging API" = "ec/integrations/line/串接 LINE Messaging API.md" },
-                    { "LINE OA 訊息樣板" = "ec/integrations/line/設定 LINE OA 訊息樣板.md" },
+                    { "LINE OA 會員綁定" = "ec/integrations/line/綁定 LINE 官方帳號與官網會員.md" },
                     { "" = "ec/integrations/line/"}
             ]},
         ]},

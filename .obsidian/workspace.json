@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 30.786773090079816,
+        "dimension": 24.204809930178435,
         "children": [
           {
             "id": "b9db1f74b10488f8",
@@ -42,12 +42,40 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/orders/訂單管理介面說明.md",
+                "file": "docs/ec/notifications/設定與管理 LINE OA 通知樣板.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "訂單管理介面說明"
+              "title": "設定與管理 LINE OA 通知樣板"
+            }
+          },
+          {
+            "id": "ab718d7b6ab7259f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/integrations/line/綁定 LINE 官方帳號與官網會員.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "綁定 LINE 官方帳號與官網會員"
+            }
+          },
+          {
+            "id": "1339e2c070a5b4de",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/orders/references/訂單篩選條件欄位定義.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "訂單篩選條件欄位定義"
             }
           },
           {
@@ -56,12 +84,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/notifications/管理與自定義 Email 通知樣板.md",
+                "file": "docs/ec/integrations/line/綁定 LINE 官方帳號與官網會員.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "管理與自定義 Email 通知樣板"
+              "title": "綁定 LINE 官方帳號與官網會員"
+            }
+          },
+          {
+            "id": "8e32e4af7d3c7dd2",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/integrations/line/串接 LINE Messaging API.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "串接 LINE Messaging API"
             }
           }
         ],
@@ -70,7 +112,7 @@
       {
         "id": "145b9f26bb568cb5",
         "type": "tabs",
-        "dimension": 22.80501710376283,
+        "dimension": 25.290923196276182,
         "children": [
           {
             "id": "12e2159ff224b777",
@@ -79,11 +121,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.cyberbiz.io/helpcenter/?p=5333",
-                "title": "cyberbiz.io/helpcenter/?p=5333",
-                "mode": "error"
+                "title": "逆物流(收取退貨) - CYBERBIZ 一般版教學文件",
+                "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "cyberbiz.io/helpcenter/?p=5333"
+              "title": "逆物流(收取退貨) - CYBERBIZ 一般版教學文件"
             }
           },
           {
@@ -105,7 +147,7 @@
       {
         "id": "0f41cb20a1d95388",
         "type": "tabs",
-        "dimension": 23.603192702394526,
+        "dimension": 25.989138867339022,
         "children": [
           {
             "id": "9d592301c67b1ee1",
@@ -113,12 +155,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=2061",
-                "title": "Email通知樣板管理 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=8156",
+                "title": "PLUS版功能 - LINE OA訊息提醒樣板設定 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Email通知樣板管理 - CYBERBIZ 一般版教學文件"
+              "title": "PLUS版功能 - LINE OA訊息提醒樣板設定 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -126,7 +168,7 @@
       {
         "id": "ea951fb7d70bee14",
         "type": "tabs",
-        "dimension": 22.80501710376283,
+        "dimension": 24.51512800620636,
         "children": [
           {
             "id": "af5a39eba69ac1cd",
@@ -134,12 +176,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=7709",
-                "title": "Email通知樣板管理",
+                "url": "https://www.cyberbiz.io/support/?p=728",
+                "title": "LINE OA訊息提醒樣板設定",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Email通知樣板管理"
+              "title": "LINE OA訊息提醒樣板設定"
             }
           }
         ]
@@ -339,33 +381,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2cda6e234b428b4a",
+  "active": "bc5e7ee3a9f5fb45",
   "lastOpenFiles": [
-    "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS/index.html",
-    "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS",
-    "site/ec/products/設定 VIP 會員專屬價格/index.html",
-    "site/ec/products/設定 VIP 會員專屬價格",
-    "site/ec/marketing/設定互動遊戲/index.html",
-    "site/ec/marketing/設定互動遊戲",
-    "site/ec/orders/設定訂單自動結案/index.html",
-    "site/ec/orders/設定訂單自動結案",
-    "site/ec/marketing/設定指定商品送優惠券/index.html",
-    "site/ec/marketing/設定指定商品送優惠券",
-    "site/ec/marketing/結帳優惠計算順序-rev/index.html",
-    "site/assets/images/ec-訊息推播-email 樣板設定-新增通知收件者.png",
-    "docs/assets/images/ec-訊息推播-email 樣板設定-新增通知收件者.png",
-    "site/assets/images/ec-訊息推播-email 樣板設定-短網址與功能開關.png",
-    "docs/assets/images/ec-訊息推播-email 樣板設定-短網址與功能開關.png",
-    "site/assets/images/ec-訊息推播-email 樣板編輯.gif",
-    "docs/assets/images/ec-訊息推播-email 樣板編輯.gif",
-    "site/assets/images/ec-訊息推播-email 通知樣板.png",
-    "docs/assets/images/ec-訊息推播-email 通知樣板.png",
-    "docs/ec/integrations/line/設定 LINE OA 訊息樣板.md",
-    "docs/ec/notifications/管理與自定義 Email 通知樣板.md",
-    "docs/ec/orders/設定訂單自動結案.md",
+    "docs/ec/notifications/設定與管理 LINE OA 通知樣板.md",
+    "docs/ec/integrations/line/綁定 LINE 官方帳號與官網會員.md",
+    "docs/ec/integrations/line/串接 LINE Messaging API.md",
+    "docs/ec/notifications/設定與管理簡訊通知樣板.md",
+    "docs/ec/notifications/設定與管理 Email 通知樣板.md",
+    "docs/ec/integrations/index.md",
+    "docs/ec/integrations/line/綁定 LINE 帳號與官網會員.md",
+    "site/ec/products/設定商品自訂分類群組/index.html",
+    "site/ec/products/設定商品自訂分類群組",
+    "site/ec/products/批次修改商品描述與配送設定/index.html",
+    "site/ec/products/批次修改商品描述與配送設定",
+    "site/ec/payments-and-logistics/設定CYBERBIZ NOW快速到貨服務/index.html",
+    "site/ec/payments-and-logistics/設定CYBERBIZ NOW快速到貨服務",
+    "site/ec/products/product-activ-v2/index.html",
+    "site/ec/products/product-activ-v2",
+    "site/ec/orders/操作全家冷凍店到店 C2C 出貨/index.html",
+    "site/ec/orders/操作全家冷凍店到店 C2C 出貨",
+    "docs/ec/orders/references/訂單篩選條件欄位定義.md",
+    "docs/assets/images/wms-hero.png",
+    "docs/assets/images/wms-hero-old.png",
+    "docs/assets/images/wms-hero-1.png",
+    "docs/assets/images/test.png",
+    "docs/assets/images/storepal-hero.png",
+    "docs/assets/images/resources-hero.png",
+    "docs/assets/images/product-grid-imge.png",
+    "docs/assets/images/product-filter-reorder.zh-tw.gif",
+    "docs/assets/images/product-filter-frontend-public-toggle.gif",
+    "docs/assets/images/product-basic-setting-frontend.zh-tw.png",
+    "docs/ec/notifications/設定 LINE OA 訊息樣板.md",
+    "docs/ec/orders/訂單管理介面說明.md",
+    "docs/ec/orders/訂單出貨流程.md",
+    "docs/ec/website-management/設定網站基本資訊.md",
+    "includes/abbreviations.md",
     "docs/ec/orders/出貨狀態物流提示文字說明.md",
-    "site/assets/images/ec-訂單-出貨狀態物流提示文字.png",
-    "docs/assets/images/ec-訂單-出貨狀態物流提示文字.png",
+    "templates/lucide-message-square-text.md",
+    "docs/ec/orders/設定訂單自動結案.md",
     "docs/ec/notifications/index.md",
     "docs/ec/orders/index.md",
     "docs/ec/profit-sharing/index.md",
@@ -374,18 +427,7 @@
     "docs/ec/products/設定商品配送條件（物流、溫層與出貨通路）.md",
     "templates/tutorial-layout.md",
     "templates/explanation-layout.md",
-    "docs/ec/orders/訂單管理介面說明.md",
     "docs/ec/orders/references/訂單列表欄位參考表.md",
-    "docs/ec/products/get-started/商品管理介面說明.md",
-    "docs/ec/website-management/系統通知設定.md",
-    "docs/ec/orders/references/訂單篩選條件欄位定義.md",
-    "docs/ec/orders/references/訂單搜尋欄位規範.md",
-    "docs/ec/orders/訂單出貨流程.md",
-    "includes/abbreviations.md",
-    "docs/ec/orders/設定黑貓快速到店付款方式.md",
-    "docs/ec/orders/操作超商店到店 C2C 出貨.md",
-    "templates/lucide-zap.md",
-    "docs/ec/orders/操作超商大宗寄倉 B2C 出貨.md",
-    "docs/ec/integrations/line/串接 LINE Messaging API.md"
+    "docs/ec/products/get-started/商品管理介面說明.md"
   ]
 }

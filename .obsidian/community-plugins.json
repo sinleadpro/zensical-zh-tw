@@ -6,5 +6,6 @@
   "csv-lite",
   "obsidian-git",
   "notebook-navigator",
-  "omnisearch"
+  "omnisearch",
+  "obsidian-relative-line-numbers"
 ]
