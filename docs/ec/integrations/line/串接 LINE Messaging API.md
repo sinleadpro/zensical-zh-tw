@@ -81,7 +81,7 @@ id: 串接 LINE Messaging API
 將 LINE 官方帳號（OA）與 CYBERBIZ 系統整合，可實現自動化顧客溝通，包含發送訂單狀態通知、精準分眾推播，以及提供 LINE 內的商品關鍵字搜尋功能。
 
 !!! info "什麼是 Messaging API？"
- Messaging API 是 LINE 開放給開發者的技術介面。透過此串接，CYBERBIZ 系統得依據特定事件（如：顧客下單、待付款提醒）**自動** 發送個人化訊息，無需人工操作。
+	 Messaging API 是 LINE 開放給開發者的技術介面。透過此串接，CYBERBIZ 系統得依據特定事件（如：顧客下單、待付款提醒）**自動** 發送個人化訊息，無需人工操作。
 
 ## 前置準備與限制
 
@@ -96,11 +96,9 @@ id: 串接 LINE Messaging API
 ## 步驟一：建立與設定 LINE 官方帳號
 
 1. **建立 LINE 官方帳號** 前往 [LINE Official Account Manager](https://manager.line.biz/) 建立帳號。
-
 > **注意：**「國家/地區」務必選擇 **台灣**。
-1. **啟用 Messaging API** 在管理後台點選欲設定的帳號，進入後點擊右上角 **設定 > Messaging API > 啟用 Messaging API**。
-2. **配置服務提供者 (Provider)** 選擇既有的 Provider 或建立新項目。
-
+2. **啟用 Messaging API** 在管理後台點選欲設定的帳號，進入後點擊右上角 **設定 > Messaging API > 啟用 Messaging API**。
+3. **配置服務提供者 (Provider)** 選擇既有的 Provider 或建立新項目。
 > :lucide-triangle-alert:  LINE Messaging API channel 與 Provider 綁定後便無法修改，請務必確認連動到正確的 Provider。
 
     !!! info "什麼是服務提供者 (Provider)？" 
@@ -201,18 +199,14 @@ id: 串接 LINE Messaging API
 ## 常見問題
 
 ??? quote "為什麼點擊「Verify」驗證 Webhook 時顯示錯誤"
-
- 請檢查 Webhook 網址是否包含 `https` 以及開頭是否有空格。** LINE 強制要求 Webhook 必須使用加密的 `https` 協定。此外，請確認 **Use webhook** 開關已切換至 **On**，且 Webhook URL 結尾路徑完整（如：`/line_chat_bots/send_event`）。
+	請檢查 **Webhook 網址是否包含 `https` 以及開頭是否有空格。** LINE 強制要求 Webhook 必須使用加密的 `https` 協定。此外，請確認 **Use webhook** 開關已切換至 **On**，且 Webhook URL 結尾路徑完整（如：`/line_chat_bots/send_event`）。
 
 ??? quote "完成串接後，為什麼訂單通知還是沒有發出"
-
- 主因通常為「會員尚未完成 LINE 綁定」。** Messaging API 必須依賴消費者的 `UID` 才能指定發送對象。若顧客僅是追蹤 OA 但未進行官網會員綁定，系統將無法獲取 UID。建議在購物官網顯眼處設置「LINE 快速登入」以提高綁定率。
+	主因通常為 **「會員尚未完成 LINE 綁定」。** Messaging API 必須依賴消費者的 `UID` 才能指定發送對象。若顧客僅是追蹤 OA 但未進行官網會員綁定，系統將無法獲取 UID。建議在購物官網顯眼處設置「LINE 快速登入」以提高綁定率。
 
 ??? quote "LINE 回應設定中的「聊天模式」與「Webhook」可以同時並存嗎"
-
- 若要由 CYBERBIZ 發送自動通知，必須設為「聊天機器人 (Webhook)」模式。** 一旦開啟此模式，LINE 官方的一般對話功能將受限。若需同時使用人工客服聊天與自動通知，建議搭配 **Webhook Relay (轉拋)** 功能將訊息導流至客服平台（如 Omnichat）。
+	若要由 CYBERBIZ 發送自動通知，必須設為 **「聊天機器人 (Webhook)」模式。** 一旦開啟此模式，LINE 官方的一般對話功能將受限。若需同時使用人工客服聊天與自動通知，建議搭配 **Webhook Relay (轉拋)** 功能將訊息導流至客服平台（如 Omnichat）。
 
 ??? quote "更換 LINE 官方帳號時，需要重新設定嗎"
-
- 是的，金鑰具有唯一性。** Channel ID、Secret 與 Token 皆綁定於單一 LINE Channel。若更換帳號，必須在 CYBERBIZ 後台重新回填新的憑證，並更新 Webhook URL 以確保數據導向正確。
+	是的，**金鑰具有唯一性。** Channel ID、Secret 與 Token 皆綁定於單一 LINE Channel。若更換帳號，必須在 CYBERBIZ 後台重新回填新的憑證，並更新 Webhook URL 以確保數據導向正確。
 

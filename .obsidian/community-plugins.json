@@ -7,5 +7,6 @@
   "obsidian-git",
   "notebook-navigator",
   "omnisearch",
-  "obsidian-relative-line-numbers"
+  "obsidian-relative-line-numbers",
+  "obsidian-linter"
 ]

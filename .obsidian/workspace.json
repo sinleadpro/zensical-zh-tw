@@ -37,31 +37,17 @@
             }
           },
           {
-            "id": "59fecf3fa8555b73",
+            "id": "5019ab554400c2fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/notifications/設定與管理 LINE OA 通知樣板.md",
+                "file": "docs/ec/integrations/line/設定 LINE 快速登入.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定與管理 LINE OA 通知樣板"
-            }
-          },
-          {
-            "id": "ab718d7b6ab7259f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/integrations/line/綁定 LINE 官方帳號與官網會員.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "綁定 LINE 官方帳號與官網會員"
+              "title": "設定 LINE 快速登入"
             }
           },
           {
@@ -93,21 +79,21 @@
             }
           },
           {
-            "id": "8e32e4af7d3c7dd2",
+            "id": "e2e6e894e8e821bc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/integrations/line/串接 LINE Messaging API.md",
+                "file": "docs/ec/integrations/line/設定 LINE 快速登入.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "串接 LINE Messaging API"
+              "title": "設定 LINE 快速登入"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       },
       {
         "id": "145b9f26bb568cb5",
@@ -155,12 +141,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=8156",
-                "title": "PLUS版功能 - LINE OA訊息提醒樣板設定 - CYBERBIZ 一般版教學文件",
-                "mode": "webview"
+                "url": "https://www.cyberbiz.io/helpcenter/?p=5861",
+                "title": "PLUS用戶 - LINE OA 官方帳號 綁定 官網會員 - CYBERBIZ 一般版教學文件",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "PLUS版功能 - LINE OA訊息提醒樣板設定 - CYBERBIZ 一般版教學文件"
+              "title": "PLUS用戶 - LINE OA 官方帳號 綁定 官網會員 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -176,12 +162,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=728",
-                "title": "LINE OA訊息提醒樣板設定",
+                "url": "https://www.cyberbiz.io/support/?p=32679",
+                "title": "LINE OA 官方帳號 綁定 官網會員",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "LINE OA訊息提醒樣板設定"
+              "title": "LINE OA 官方帳號 綁定 官網會員"
             }
           }
         ]
@@ -251,8 +237,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5,
-    "collapsed": true
+    "width": 287.5
   },
   "right": {
     "id": "973606ff262c9293",
@@ -383,37 +368,38 @@
   },
   "active": "bc5e7ee3a9f5fb45",
   "lastOpenFiles": [
-    "docs/ec/notifications/設定與管理 LINE OA 通知樣板.md",
+    "docs/ec/integrations/line/設定 LINE 快速登入.md",
+    "site/assets/images/ec-第三方整合-line liff 會員綁定.gif",
+    "docs/assets/images/ec-第三方整合-line liff 會員綁定.gif",
+    "docs/ec/orders/訂單出貨流程.md",
     "docs/ec/integrations/line/綁定 LINE 官方帳號與官網會員.md",
     "docs/ec/integrations/line/串接 LINE Messaging API.md",
+    "docs/ec/orders/references/訂單篩選條件欄位定義.md",
+    "site/ec/marketing/設定指定商品送優惠券/index.html",
+    "site/ec/marketing/設定指定商品送優惠券",
+    "site/en/ec/e-ticket/設定電子票券/index.html",
+    "site/en/ec/e-ticket/設定電子票券",
+    "site/resources/index.html",
+    "site/en/ec/e-ticket/核銷電子票券/index.html",
+    "site/en/ec/e-ticket/核銷電子票券",
+    "site/ec/website-management/系統通知設定/index.html",
+    "site/ec/website-management/系統通知設定",
+    "site/ec/website-appearance/index.html",
+    "docs/ec/notifications/設定與管理 LINE OA 通知樣板.md",
+    "site/assets/images/ec-第三方整合-line 註冊登入-liff 網址.png",
+    "docs/assets/images/ec-第三方整合-line 註冊登入-liff 網址.png",
+    "site/assets/images/ec-第三方整合-line oa 會員綁定-加入好友訊息.png",
+    "docs/assets/images/ec-第三方整合-line oa 會員綁定-加入好友訊息.png",
+    "site/assets/images/ec-第三方整合-line oa-圖文連結.png",
+    "docs/assets/images/ec-第三方整合-line oa-圖文連結.png",
     "docs/ec/notifications/設定與管理簡訊通知樣板.md",
     "docs/ec/notifications/設定與管理 Email 通知樣板.md",
     "docs/ec/integrations/index.md",
     "docs/ec/integrations/line/綁定 LINE 帳號與官網會員.md",
-    "site/ec/products/設定商品自訂分類群組/index.html",
-    "site/ec/products/設定商品自訂分類群組",
-    "site/ec/products/批次修改商品描述與配送設定/index.html",
-    "site/ec/products/批次修改商品描述與配送設定",
-    "site/ec/payments-and-logistics/設定CYBERBIZ NOW快速到貨服務/index.html",
-    "site/ec/payments-and-logistics/設定CYBERBIZ NOW快速到貨服務",
-    "site/ec/products/product-activ-v2/index.html",
-    "site/ec/products/product-activ-v2",
-    "site/ec/orders/操作全家冷凍店到店 C2C 出貨/index.html",
-    "site/ec/orders/操作全家冷凍店到店 C2C 出貨",
-    "docs/ec/orders/references/訂單篩選條件欄位定義.md",
     "docs/assets/images/wms-hero.png",
     "docs/assets/images/wms-hero-old.png",
-    "docs/assets/images/wms-hero-1.png",
-    "docs/assets/images/test.png",
-    "docs/assets/images/storepal-hero.png",
-    "docs/assets/images/resources-hero.png",
-    "docs/assets/images/product-grid-imge.png",
-    "docs/assets/images/product-filter-reorder.zh-tw.gif",
-    "docs/assets/images/product-filter-frontend-public-toggle.gif",
-    "docs/assets/images/product-basic-setting-frontend.zh-tw.png",
     "docs/ec/notifications/設定 LINE OA 訊息樣板.md",
     "docs/ec/orders/訂單管理介面說明.md",
-    "docs/ec/orders/訂單出貨流程.md",
     "docs/ec/website-management/設定網站基本資訊.md",
     "includes/abbreviations.md",
     "docs/ec/orders/出貨狀態物流提示文字說明.md",
@@ -426,8 +412,6 @@
     "docs/ec/orders/references/訂單列表操作功能說明.md",
     "docs/ec/products/設定商品配送條件（物流、溫層與出貨通路）.md",
     "templates/tutorial-layout.md",
-    "templates/explanation-layout.md",
-    "docs/ec/orders/references/訂單列表欄位參考表.md",
-    "docs/ec/products/get-started/商品管理介面說明.md"
+    "templates/explanation-layout.md"
   ]
 }

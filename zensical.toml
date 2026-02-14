@@ -204,6 +204,7 @@ copyright = """
             ]},
             { "LINE" = [
                     { "串接 Messaging API" = "ec/integrations/line/串接 LINE Messaging API.md" },
+                    { "LINE 快速登入" = "ec/integrations/line/設定 LINE 快速登入.md" },
                     { "LINE OA 會員綁定" = "ec/integrations/line/綁定 LINE 官方帳號與官網會員.md" },
                     { "" = "ec/integrations/line/"}
             ]},
