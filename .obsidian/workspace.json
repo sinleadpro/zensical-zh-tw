@@ -51,17 +51,17 @@
             }
           },
           {
-            "id": "d1bc4d1404278f9c",
+            "id": "244373e7a7579383",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/notifications/發送 LINE 加入好友邀請.md",
+                "file": "docs/ec/website-appearance/拖拉版型網站設定.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "發送 LINE 加入好友邀請"
+              "title": "拖拉版型網站設定"
             }
           },
           {
@@ -352,20 +352,32 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc5e7ee3a9f5fb45",
+  "active": "1bb773f69eb50a7e",
   "lastOpenFiles": [
+    "site/assets/images/ec-網站外觀-頁腳-line.gif",
+    "docs/assets/images/ec-網站外觀-頁腳-line.gif",
+    "site/assets/images/ec-網站外觀-輪播素材-前台畫面.gif",
+    "docs/assets/images/ec-網站外觀-輪播素材-前台畫面.gif",
+    "site/assets/images/ec-網站外觀-輪播素材-新增.gif",
+    "docs/assets/images/ec-網站外觀-輪播素材-新增.gif",
+    "site/assets/images/ec-網站外觀-輪播素材.gif",
+    "docs/assets/images/ec-網站外觀-輪播素材.gif",
+    "docs/ec/website-appearance/拖拉版型網站設定.md",
     "docs/ec/notifications/發送 LINE 加入好友邀請.md",
     "docs/ec/integrations/line/設定拖拉版型網站的 LINE 加入好友工具.md",
+    "site/assets/images/ec-網站外觀-彈窗廣告-line 加入好友.gif",
+    "docs/assets/images/ec-網站外觀-彈窗廣告-line 加入好友.gif",
+    "site/assets/images/ec-網站外觀-彈窗廣告-圖片連結.png",
+    "site/assets/images/input.mov",
+    "docs/assets/images/input.mov",
+    "site/assets/images/ec-網站外觀-彈窗廣告-圖片.mov",
+    "docs/assets/images/ec-網站外觀-彈窗廣告-圖片.mov",
     "site/ec/products/設定商品影片/index.html",
     "site/ec/products/設定商品影片",
     "site/ec/marketing/設定紅配綠多組合優惠/index.html",
     "site/ec/marketing/設定紅配綠多組合優惠",
     "site/ec/products/設定 VIP 會員專屬價格/index.html",
     "site/ec/products/設定 VIP 會員專屬價格",
-    "site/ec/integrations/line/串接 LINE Messaging API/index.html",
-    "site/ec/integrations/line/串接 LINE Messaging API",
-    "site/ec/marketing/設定訂單加價購/index.html",
-    "site/ec/marketing/設定訂單加價購",
     "includes/snippets/get line oa link.md",
     "docs/ec/integrations/line/LINE 官方帳號增加好友指南.md",
     "docs/ec/integrations/line/設定 LINE 圖文選單.md",
@@ -376,17 +388,7 @@
     "docs/ec/orders/訂單出貨流程.md",
     "includes/abbreviations.md",
     "templates/tutorial-layout.md",
-    "site/assets/images/ec-第三方整合-line-官方加入好友工具.png",
-    "docs/assets/images/ec-第三方整合-line-官方加入好友工具.png",
-    "site/assets/images/pos-紅利折抵.png",
-    "docs/assets/images/pos-紅利折抵.png",
-    "site/assets/images/pos-結帳.png",
-    "docs/assets/images/pos-結帳.png",
-    "site/assets/images/pos-line oa-會員卡.png",
-    "docs/assets/images/pos-line oa-會員卡.png",
     "docs/ec/integrations/line/綁定 LINE 官方帳號與官網會員.md",
-    "site/assets/images/ec-訊息推播-line oa 加入好友邀請-簡訊.png",
-    "site/assets/images/ec-訊息推播-line oa 加入好友邀請-email.png",
     "設定.md",
     "docs/ec/integrations/line/設定 LINE 綁定會員贈送優惠券.md",
     "docs/ec/integrations/line/設定 LIFF 自動登入與會員綁定.md",
@@ -397,7 +399,6 @@
     "docs/ec/notifications/設定與管理 LINE OA 通知樣板.md",
     "docs/ec/notifications/設定與管理簡訊通知樣板.md",
     "docs/ec/notifications/設定與管理 Email 通知樣板.md",
-    "docs/ec/integrations/line/綁定 LINE 帳號與官網會員.md",
-    "docs/ec/notifications/設定 LINE OA 訊息樣板.md"
+    "docs/ec/integrations/line/綁定 LINE 帳號與官網會員.md"
   ]
 }
