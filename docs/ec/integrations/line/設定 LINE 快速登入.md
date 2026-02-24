@@ -1,11 +1,12 @@
 ---
 title: 設定 LINE 快速登入
 version: ""
-last_modified: 2026-02-14
-description: ""
+last_modified: 2026-02-16
+description: 啟用 LINE 快速登入，簡化會員註冊流程，整合官方帳號好友追蹤，並支援會員資料同步與 LIFF 一鍵登入。
 product:
   - EC
-modules: []
+modules:
+  - 第三方整合
 activ: ""
 paths: []
 surfaces: []
@@ -13,20 +14,48 @@ ends: []
 devices:
   - desktop
   - mobile
-apis: []
+apis:
+  - LINE Login API
 type: tutorial
-intents: []
-features: []
-tnb: ""
+intents:
+  - enable LINE quick login
+  - simplify customer registration
+  - integrate LINE account
+  - capture customer email via LINE
+  - increase LINE OA exposure
+features:
+  - LINE Quick Login
+  - OpenID Connect
+  - Callback URL configuration
+  - Channel ID/Secret management
+  - Link LINE Official Account for friend add
+  - Member phone number synchronization
+  - LIFF one-click login
+tnb: trunk
 plans: []
-prerequisites: []
-lang: en-US
+prerequisites:
+  - LINE account (for Developers)
+  - Customer LINE account with bound Email
+  - Consistent Provider for LINE Login and Messaging API Channels
+lang: zh-TW
 sites: []
 status:
-tags: []
-difficulty: ""
-audiences: []
-wp_url: []
+tags:
+  - LINE
+  - 快速登入
+  - 帳號整合
+  - 會員
+  - OAuth
+  - OIDC
+  - API
+  - 第三方整合
+difficulty: medium
+audiences:
+  - 商家
+  - 管理員
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=865
+  - https://www.cyberbiz.io/support/?p=675
 notes: []
 comments: ""
 search:
@@ -37,11 +66,10 @@ icon: ""
 
 # 設定 LINE 快速登入
 
+啟用 LINE 快速登入，簡化會員註冊流程，整合官方帳號好友追蹤，並支援會員資料同步與 LIFF 一鍵登入。
 { .subtitle }
 
-{ .doc-badge }
-
-{ .hero-page }
+![](../../../assets/images/ec-第三方整合-line 註冊登入.png){ .hero-page }
 
 ## 什麼是 LINE 快速登入
 
@@ -51,81 +79,92 @@ icon: ""
 
 ## 設定前置注意事項
 
-- **Email 綁定**：顧客的 LINE 帳號**必須先綁定 Email**，才可以使用 LINE 快速登入功能。
+- **Email 綁定**：顧客的 LINE 帳號 **必須先綁定 Email**，才可以使用 LINE 快速登入功能。
 
-- **Provider 一致性**：若您已有 LINE 官方帳號（Messaging API），請務必確保 **LINE Login Channel** 與 **Messaging API** 處於**同一個 Provider（服務提供者）**之下。
+- **Provider 一致性**：若您已有 LINE 官方帳號（Messaging API），請務必確保 **LINE Login Channel** 與 **Messaging API Channel** 處於 **同一個 Provider（服務提供者）** 之下。[瞭解 Provider 及 Channel :lucide-external-link:](https://tw.linebiz.com/manual/line-official-account/line-porvider-and-channel-intro/)。
 
 - **Hinet 信箱限制**：若消費者使用 Hinet 信箱註冊，可能會因為 Hinet 阻擋訊息而導致無法重新設定密碼。
 
 
 ## LINE Developers 後台設定步驟
 
+!!! info "需要先有 LINE 帳戶，瞭解 [如何建立 LINE 官方帳號 :lucide-external-link:](https://help2.line.me/official_account_tw/web/pc?contentId=20013137&lang=zh-Hant)"
+
 1. **建立 Login Channel**：登入 [LINE Developers :lucide-external-link:](https://developers.line.biz/)，選擇正確的 Provider 後，點擊「**Create a LINE Login channel**」。
 
 2. **填寫基本資訊**：
 
-    - **Region** 選擇「Taiwan」。
+	- **Region** 選擇「Taiwan」(台灣站) / 「Japan」（日本站）。
 
-    - **App types** 勾選「Web app」。
+	- **App types** 勾選「Web app」。
 
-    - 填寫商店名稱（Channel name）、商店簡述（Channel description）、Email 及網站隱私政策/服務條款網址。
+	- 填寫商店名稱（Channel name）、商店簡述（Channel description）、Email 及網站隱私政策/服務條款網址。
 
+	![](../../../assets/images/ec-第三方整合-line login channel.gif)
+	
 3. **申請 OpenID Connect**：
 
-    - 在「Basic settings」分頁最下方找到「OpenID Connect」，點擊「Apply」。
+	- 在「Basic settings」分頁最下方找到「OpenID Connect」，點擊「Apply」。
 
-    - 勾選內容並依照需求上傳商家 Logo 後提交（Submit），這步是**確保能抓取顧客 Email** 的關鍵。
+	- 勾選內容並依照需求上傳商家 Logo 後提交（Submit），這步是 **確保能抓取顧客 Email** 的關鍵。
+
+	![](../../../assets/images/ec-第三方整合-line login channel-openid connect.gif)
 
 4. **設定 Callback URL（關鍵步驟）**：
 
-    - 切換至「LINE Login」頁籤，在 **Callback URL** 欄位輸入：`https://你的商店網址/customer/auth/line/callback`。
+	- 切換至「LINE Login」頁籤，在 **Callback URL** 欄位輸入：`https://你的商店網址/customer/auth/line/callback`。
 
-    - **提示**：若您有自有網域，請務必將 CYBERBIZ 網域及自有網域都填入，跨境用戶則填寫一般網域即可，不需加上 `zh-TW`。
+	- **提示**：若您有自有網域，請務必將 CYBERBIZ 網域及自有網域都填入，跨境用戶則填寫一般網域即可，不需加上 `zh-TW`。
 
+	![](../../../assets/images/ec-第三方整合-line login channel-callback url.png)
+	
 5. **正式發布**：將 Channel 狀態從「Developing」轉為「**Published**」。
+
+	![](../../../assets/images/ec-第三方整合-line login channel-publish.png)
 
 ## CYBERBIZ 後台串接步驟
 
 1. **取得金鑰**：在 LINE Developers 的「Basic settings」頁籤複製 **Channel ID** 與 **Channel Secret**。
 
-2. **回填後台**：前往 CYBERBIZ 後台「**第三方整合**」>「**LINE 註冊登入**」。
+2. **回填後台**：前往 CYBERBIZ 後台 **第三方整合 > LINE 註冊登入**。
 
 3. **啟用功能**：貼上 ID 與密鑰，並開啟「**啟用 LINE 登入**」開關後儲存，前台即可看到登入按鈕。
 
+![](../../../assets/images/ec-第三方整合-line login channel-channel id and secret-copy and paste.gif)
+
 ## 進階與增值功能
 
-- **導引加入好友**：在 LINE Developers 的「Basic settings」>「Linked LINE Official Account」中選擇同 Provider 下的官方帳號。設定後，顧客在快速登入時介面會出現「加入好友」的選項。
+### 導引加入好友
 
-- **取得手機號碼（企業版/PLUS專用）**：
+- 在 LINE Developers 的 **Basic settings > Linked LINE Official Account** 中選擇同 Provider 下的官方帳號。
 
-    - **條件**：Provider 需認證為 **LINE Certified Provider**，且官方帳號需為藍盾或綠盾。
+	![](../../../assets/images/ec-第三方整合-line login-add friend.png)
 
-    - **設定**：在 LINE 後台的 Permissions 需包含「OC_PHONE_NUMBER」權限，系統會先進行手機比對再比對 Email，協助商家更新會員手機資訊。
+- 設定後，顧客在快速登入時介面會出現「加入好友」的選項。
 
-- **自動產生 LIFF 網址**：開啟後可生成 LIFF 連結，消費者在 LINE App 內點擊可實現**自動登入、同時綁定好友與會員**。
-
-## 常見問題排除 (FAQ)
-
-- **出現 400 Bad Request**：通常是 **Callback URL** 填寫錯誤或不完整，請重新檢查網址格式。
-
-- **iOS 無法直接跳轉**：建議消費者使用 **Safari 瀏覽器**，若出現「要在 LINE 中打開嗎？」的彈窗請選擇「打開」；或點擊畫面下方的「使用 LINE 應用程式登入」。
-
-- **帳號綁定邏輯**：當 Facebook 與 LINE 使用同一組 Email 時，系統會自動相互綁定；若 Email 不同，則無法合併帳號。
+	![](../../../assets/images/ec-第三方整合-line login-加入好友前台.png)
 
 ## 後續操作
 
 <div class="grid cards" markdown>
 
-- :lucide-import:{ .lg }   
-  [____]()     
-  。
+- :lucide-phone:{ .lg }   
+  [__同步會員手機號碼__](設定 LINE 快速登入時取得會員手機號碼.md){ data-preview }       
+  申請 LINE 認證權限後，系統將以手機號碼作為優先識別碼，確保會員資料庫的精確度與唯一性。
 
-- :lucide-ban:{ .lg }     
-  [____]()  
-  。
+- :lucide-link:{ .lg }     
+  [__配置 LIFF 一鍵登入__](設定 LIFF 自動登入與會員綁定.md){ data-preview }    
+  啟用 LIFF 轉址技術，讓顧客在 LINE 內點擊連結即可自動登入，並同步完成好友追蹤與帳號綁定。
 
 </div>
 
 ## 常見問題
 
-??? quote ""
+??? quote "出現 400 Bad Request 錯誤畫面"
+	這通常與 **Callback URL（回呼網址）** 的配置錯誤有關。請檢查 LINE Developers 後台設定，確保填寫的 URL 與系統提供之路徑完全一致，且包含正確的 `https://` 協定與結尾格式。任何微小的字元差異（如多餘的空格或斜線）都會導致 API 驗證失敗並回傳 400 錯誤。
+
+??? quote "顧客反應在 iOS 裝置上無法自動跳轉至 LINE App"
+	這是由於 iOS 瀏覽器的隱私防範機制所致。建議引導消費者優先使用 **Safari 瀏覽器** 進行操作。當系統彈出「要在 LINE 中打開嗎？」的詢問對話框時，請務必點選「打開」。若自動跳轉失效，用戶亦可手動點擊頁面下方的「使用 LINE 應用程式登入」按鈕來強制啟動授權。
+
+??? quote "系統如何處理不同社群帳號間的綁定邏輯"
+	系統主要以 **Email** 作為唯一識別碼。當用戶的 Facebook 與 LINE 帳號使用同一組 Email 註冊時，系統將自動將兩者歸納為同一個會員身分並進行綁定。若兩者 Email 不同，系統則會將其視為獨立的會員帳號，且目前不支援跨 Email 的帳號合併作業。

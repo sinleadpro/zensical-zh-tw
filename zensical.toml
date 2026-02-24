@@ -7,7 +7,6 @@
 # ============================================================================
 
 [project]
-
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
@@ -161,6 +160,7 @@ copyright = """
             { "Email 樣板管理" = "ec/notifications/設定與管理 Email 通知樣板.md" },
             { "簡訊樣板管理" = "ec/notifications/設定與管理簡訊通知樣板.md" },
             { "LINE OA 樣板管理" = "ec/notifications/設定與管理 LINE OA 通知樣板.md" },
+            { "LINE 加入好友邀請" = "ec/notifications/發送 LINE 加入好友邀請.md" },
             { "庫存過低通知" = "ec/notifications/庫存過低通知.md" }
         ]},
         { "金物流" = [
@@ -177,8 +177,7 @@ copyright = """
             { "超商大宗寄倉 B2C" = "ec/payments-and-logistics/設定超商大宗寄倉 B2C.md" },
             { "全家冷凍物流 B2C 設定" = "ec/payments-and-logistics/設定全家冷凍物流 B2C.md" },
             { "設定門市取貨服務"= "ec/payments-and-logistics/設定門市取貨服務.md" },
-            { "設定CYBERBIZ NOW快速到貨服務" = "ec/payments-and-logistics/設定CYBERBIZ NOW快速到貨服務.md" },
-            { "星益欣電子發票設定指南" = "ec/payments-and-logistics/星益欣電子發票設定指南.md" }
+            { "設定CYBERBIZ NOW快速到貨服務" = "ec/payments-and-logistics/設定CYBERBIZ NOW快速到貨服務.md" }
         ]},
         { "網站外觀" = [
             { "overview" = "ec/website-appearance/index.md" },
@@ -203,9 +202,15 @@ copyright = """
                     { "" = "ec/integrations/google/"}
             ]},
             { "LINE" = [
+                    { "overview" = "ec/integrations/line/index.md" },
                     { "串接 Messaging API" = "ec/integrations/line/串接 LINE Messaging API.md" },
                     { "LINE 快速登入" = "ec/integrations/line/設定 LINE 快速登入.md" },
-                    { "LINE OA 會員綁定" = "ec/integrations/line/綁定 LINE 官方帳號與官網會員.md" },
+                    { "獲取會員手機號碼" = "ec/integrations/line/設定 LINE 快速登入時取得會員手機號碼.md" },
+                    { "LIFF 自動登入" = "ec/integrations/line/設定 LIFF 自動登入與會員綁定.md" },
+                    { "LINE 會員綁定" = "ec/integrations/line/綁定 LINE 官方帳號與官網會員.md" },
+                    { "LINE 綁定會員送優惠券" = "ec/integrations/line/設定 LINE 綁定會員贈送優惠券.md" },
+                    { "LINE 加入好友工具（拖拉版型）" = "ec/integrations/line/設定拖拉版型網站的 LINE 加入好友工具.md" },
+                    { "LINE 圖文選單" = "ec/integrations/line/設定 LINE 圖文選單.md" },
                     { "" = "ec/integrations/line/"}
             ]},
         ]},
@@ -227,6 +232,12 @@ copyright = """
         ]},
         { "商品" = [
             { "商品標籤列印" = "pos/products/商品標籤列印教學.md" }
+        ]},
+        { "第三方整合" = [
+            { "LINE" = [
+                { "overview" = "pos/integrations/line/index.md" },
+                { "LINE 會員條碼設定" = "pos/integrations/line/設定與使用 LINE 顯示會員條碼（串接 POS 結帳）.md" }
+            ]},
         ]},
     ]},
     { "資源中心" = [
@@ -571,9 +582,9 @@ note = """
 # ----------------------------------------------------------------------------
 # The "Extension" section contains miscellaneous settings.
 # ----------------------------------------------------------------------------
-
 [project.markdown_extensions.abbr]
 [project.markdown_extensions.pymdownx.snippets]
+#base_path = ["includes/snippets"]
 auto_append = ["includes/abbreviations.md"]
 [project.markdown_extensions.admonition]
 [project.markdown_extensions.attr_list]
@@ -584,8 +595,8 @@ auto_append = ["includes/abbreviations.md"]
 permalink = true
 toc_depth = 3
 [project.markdown_extensions.toc.slugify]
-function = "pymdownx.slugs.slugify"
-kwds = { case = "lower" }
+object = "pymdownx.slugs.slugify"
+kwds = { case = "lower", unicode = true }
 [project.markdown_extensions.pymdownx.tabbed]
 alternate_style = true
 [project.markdown_extensions.pymdownx.tabbed.slugify]
@@ -618,6 +629,18 @@ clickable_checkbox = true
 
 [project.markdown_extensions.zensical.extensions.preview]
 [[project.markdown_extensions.zensical.extensions.preview.configurations]]
+#sources.include = ["**/*.md"]
+#sources.exclude = []
+#targets.include = ["ec/*", "pos/**"]
+#targets.exclude = []
 targets.include = [
     "resources/references/*"
 ]
+
+[project.plugins.autorefs]
+# Optional: Set how link titles are generated
+# options: "auto" (default), "true", "false", or "external"
+link_titles = "auto"
+
+# Optional: Prevent stripping of HTML tags from titles
+strip_title_tags = false

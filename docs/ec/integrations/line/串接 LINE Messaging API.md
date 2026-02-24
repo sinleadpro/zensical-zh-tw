@@ -61,9 +61,8 @@ notes: []
 comments: ""
 search:
   exclude: ""
-icon: ""
+icon: lucide/lock
 aliases: []
-id: 串接 LINE Messaging API
 ---
 
 # 串接 LINE Messaging API
@@ -102,7 +101,7 @@ id: 串接 LINE Messaging API
 > :lucide-triangle-alert:  LINE Messaging API channel 與 Provider 綁定後便無法修改，請務必確認連動到正確的 Provider。
 
     !!! info "什麼是服務提供者 (Provider)？" 
-     Provider 代表提供服務的品牌主體。若要確保「LINE 登入」與「Messaging API」的資料互通（例如同步會員 UID），兩者必須設定在 **同一個 Provider** 下。詳情參閱 [LINE 官方文件說明 :lucide-external-link:](https://tw.linebiz.com/manual/line-official-account/line-porvider-and-channel-intro/)。
+		Provider 代表提供服務的品牌主體。若要確保「LINE 登入」與「Messaging API」的資料互通（例如同步會員 UID），兩者必須設定在 **同一個 Provider** 下。詳情參閱 [LINE 官方文件說明 :lucide-external-link:](https://tw.linebiz.com/manual/line-official-account/line-porvider-and-channel-intro/)。
 
 4. **基本資料填寫：** 視需求填入官網的「隱私權政策」與「服務條款」網址。
 
@@ -118,7 +117,7 @@ id: 串接 LINE Messaging API
 
     - **Messaging API 頁籤：** 滑至頁面底部，於「Channel access token」欄位點擊 **Issue** 並複製產生的金鑰。
 
- ![](../../../assets/images/ec-第三方整合-line-channel-credentials-get.gif)
+	![](../../../assets/images/ec-第三方整合-line-channel-credentials-get.gif)
  
 3. **回填至 CYBERBIZ 管理後台** 開啟 CYBERBIZ 後台，前往 **第三方整合 > LINE OA 設定**。
 
@@ -176,11 +175,11 @@ id: 串接 LINE Messaging API
 
 - **支援分類：**
 
-  - **訂單類：** 訂單成立、付款成功、取消訂單。
+	- **訂單類：** 訂單成立、付款成功、取消訂單。
 
-  - **物流類：** 已出貨、到店提醒、簽收成功。
+	- **物流類：** 已出貨、到店提醒、簽收成功。
 
-  - **顧客類：** 註冊成功、生日禮、紅利點數異動。
+	- **顧客類：** 註冊成功、生日禮、紅利點數異動。
 
 - **前提條件：** 消費者須先完成 **LINE 帳號綁定**，系統方能識別 UID 並發送個人化通知。
 

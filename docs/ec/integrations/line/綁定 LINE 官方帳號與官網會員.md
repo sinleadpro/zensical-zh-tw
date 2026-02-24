@@ -64,11 +64,12 @@ audiences:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5861
   - https://www.cyberbiz.io/support/?p=32679
-notes: []
+notes:
+  - verify faq 如何確認已綁定
 comments: ""
 search:
   exclude: ""
-icon: ""
+icon: lucide/lock
 ---
 
 
@@ -80,7 +81,7 @@ icon: ""
 [:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 專業PLUS / 進階PLUS / 高手PLUS / 企業
 { .doc-badge }
 
-{ .hero-page }
+![](../../../assets/images/ec-第三方整合-line 註冊登入.png){ .hero-page }
 
 ## 什麼是 LINE 官方帳號與官網會員綁定
 
@@ -112,7 +113,7 @@ icon: ""
 
 - **效果**：尚未綁定的顧客點擊後會先進行綁定動作，已綁定的顧客則直接進入登入狀態的指定頁面。
 
-> :lucide-info: **參考資料**：有關圖文選單的詳細製作規格，請參閱 [LINE 官方說明文件 :lucide-external-link:](https://tw.linebiz.com/manual/line-official-account/oa-manager-richmenu/)。
+> :lucide-info: 詳細設定流程，請參閱 [LINE 圖文選單設定](設定 LINE 圖文選單.md){ data-preview }  或查看 [LINE 官方說明文件 :lucide-external-link:](https://tw.linebiz.com/manual/line-official-account/oa-manager-richmenu/)。
 
 ![](../../../assets/images/ec-第三方整合-line oa-圖文連結.png)
 
@@ -130,13 +131,15 @@ icon: ""
 
 ---
 
-### 使用 LINE LIFF 自動綁定 (推薦方式)
+### 使用 LIFF 自動綁定 (推薦方式)
 
 - **功能特色**：開啟後，消費者點選網址會自動套用 LINE 帳戶資訊。若顧客非好友或非會員，點選連結可 **同時加入好友、註冊官網會員並完成綁定**。
 
 - **操作路徑**：後台 **第三方整合 > LINE 註冊登入 > 開啟 自動產生 LIFF 網址**。
 
 - **應用**：商家可複製系統產生的 LIFF 網址，製作成 QR Code 供消費者掃描。
+
+>:lucide-info: 詳細操作說明，請參閱 [如何設定 LIFF](設定 LIFF 自動登入與會員綁定.md){ data-preview }。  
 
 ![](../../../assets/images/ec-第三方整合-line 註冊登入-liff 網址.png)
 
@@ -154,11 +157,28 @@ icon: ""
 
 ## 綁定後的進階功能與好處
 
+<div class="grid cards" markdown>
+
+- :lucide-bell-ring:{ .lg }  
+  [__自動發送提醒樣板__](../../notifications/設定與管理 LINE OA 通知樣板.md){ data-preview }  
+  自動回覆訂單確認、貨物發送、到店提醒及未付款提醒等訊息。
+
+- :lucide-ticket-percent:{ .lg }  
+  [__綁定送優惠券__](設定 LINE 綁定會員贈送優惠券.md){ data-preview }  
+  設定「LINE @ 綁定贈送優惠券功能」來增加顧客綁定意願。
+
+- :lucide-scan-barcode:{ .lg }  
+  [__顯示會員條碼 (OMO 應用)__](設定 LINE 圖文選單#omo-實體門市應用)    
+  顧客可於 LINE 選單調出會員條碼，供實體門市 POS 機掃描進行紅利或優惠券折抵。
+
+</div>
+
+
 - **自動發送提醒樣板**：可自動回覆訂單確認、貨物發送、到店提醒及未付款提醒等訊息。
 
-- **綁定送優惠券**：可設定「LINE @ 綁定贈送優惠券功能」來增加顧客綁定意願。
+- [**綁定送優惠券**](設定 LINE 綁定會員贈送優惠券.md){ data-preview }  ：可設定「LINE @ 綁定贈送優惠券功能」來增加顧客綁定意願。
 
-- **顯示會員條碼 (OMO 應用)**：綁定後，顧客可於 LINE 選單調出會員條碼，供實體門市 POS 機掃描進行紅利或優惠券折抵。
+- [**顯示會員條碼 (OMO 應用)**](設定 LINE 圖文選單#omo-實體門市應用)：綁定後，顧客可於 LINE 選單調出會員條碼，供實體門市 POS 機掃描進行紅利或優惠券折抵。
 
 - **受眾串接與推播**：商家可在後台篩選「已完成 LINE 綁定」的會員，將受眾上傳至 LINE OA 後台進行精準行銷訊息發送。
 
@@ -169,20 +189,6 @@ icon: ""
 - **單一綁定規則**：顧客的 LINE 帳號必須先在 LINE App 中 **綁定 Email**，才可順利執行 LINE 快速登入與綁定。
 
 - **連結正確性**：若網址帶有 `/customer/auth/line?line_action` 參數，則每次點選皆會跳出綁定畫面；若不希望重複跳轉，僅需針對「首次綁定」的功能進行設定即可。
-
-## 後續操作
-
-<div class="grid cards" markdown>
-
-- :simple-line:{ .lg }  
-  [__LINE OA 通知樣板設定__](../../notifications/設定與管理 LINE OA 通知樣板.md){ data-preview }  
-  管理與自訂 LINE 官方通知訊息樣式。
-
-- :lucide-ban:{ .lg }
-  [____]()  
-  。
-
-</div>
 
 ## 常見問題
 

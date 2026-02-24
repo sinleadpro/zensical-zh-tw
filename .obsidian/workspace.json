@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 24.204809930178435,
+        "dimension": 34.19182948490231,
         "children": [
           {
             "id": "b9db1f74b10488f8",
@@ -37,59 +37,45 @@
             }
           },
           {
-            "id": "5019ab554400c2fc",
+            "id": "992f7806e93bd22c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/integrations/line/設定 LINE 快速登入.md",
+                "file": "includes/snippets/get line oa link.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定 LINE 快速登入"
+              "title": "get line oa link"
             }
           },
           {
-            "id": "1339e2c070a5b4de",
+            "id": "d1bc4d1404278f9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/orders/references/訂單篩選條件欄位定義.md",
+                "file": "docs/ec/notifications/發送 LINE 加入好友邀請.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "訂單篩選條件欄位定義"
+              "title": "發送 LINE 加入好友邀請"
             }
           },
           {
-            "id": "2cda6e234b428b4a",
+            "id": "1bb773f69eb50a7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/integrations/line/綁定 LINE 官方帳號與官網會員.md",
+                "file": "docs/ec/integrations/line/設定拖拉版型網站的 LINE 加入好友工具.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "綁定 LINE 官方帳號與官網會員"
-            }
-          },
-          {
-            "id": "e2e6e894e8e821bc",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/integrations/line/設定 LINE 快速登入.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定 LINE 快速登入"
+              "title": "設定拖拉版型網站的 LINE 加入好友工具"
             }
           }
         ],
@@ -98,7 +84,7 @@
       {
         "id": "145b9f26bb568cb5",
         "type": "tabs",
-        "dimension": 25.290923196276182,
+        "dimension": 20.248667850799293,
         "children": [
           {
             "id": "12e2159ff224b777",
@@ -133,20 +119,20 @@
       {
         "id": "0f41cb20a1d95388",
         "type": "tabs",
-        "dimension": 25.989138867339022,
+        "dimension": 22.912966252220247,
         "children": [
           {
-            "id": "9d592301c67b1ee1",
+            "id": "07ebbe6f1ba43e31",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=5861",
-                "title": "PLUS用戶 - LINE OA 官方帳號 綁定 官網會員 - CYBERBIZ 一般版教學文件",
-                "mode": "error"
+                "url": "https://www.cyberbiz.io/helpcenter/?p=7435",
+                "title": "LINE OA 增加好友工具應用(拖拉版型) - CYBERBIZ 一般版教學文件",
+                "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "PLUS用戶 - LINE OA 官方帳號 綁定 官網會員 - CYBERBIZ 一般版教學文件"
+              "title": "LINE OA 增加好友工具應用(拖拉版型) - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -154,7 +140,7 @@
       {
         "id": "ea951fb7d70bee14",
         "type": "tabs",
-        "dimension": 24.51512800620636,
+        "dimension": 22.64653641207816,
         "children": [
           {
             "id": "af5a39eba69ac1cd",
@@ -162,12 +148,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=32679",
-                "title": "LINE OA 官方帳號 綁定 官網會員",
+                "url": "https://www.cyberbiz.io/support/?p=38439",
+                "title": "LINE OA 增加好友工具應用(拖拉版型)",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "LINE OA 官方帳號 綁定 官網會員"
+              "title": "LINE OA 增加好友工具應用(拖拉版型)"
             }
           }
         ]
@@ -368,50 +354,50 @@
   },
   "active": "bc5e7ee3a9f5fb45",
   "lastOpenFiles": [
+    "docs/ec/notifications/發送 LINE 加入好友邀請.md",
+    "docs/ec/integrations/line/設定拖拉版型網站的 LINE 加入好友工具.md",
+    "site/ec/products/設定商品影片/index.html",
+    "site/ec/products/設定商品影片",
+    "site/ec/marketing/設定紅配綠多組合優惠/index.html",
+    "site/ec/marketing/設定紅配綠多組合優惠",
+    "site/ec/products/設定 VIP 會員專屬價格/index.html",
+    "site/ec/products/設定 VIP 會員專屬價格",
+    "site/ec/integrations/line/串接 LINE Messaging API/index.html",
+    "site/ec/integrations/line/串接 LINE Messaging API",
+    "site/ec/marketing/設定訂單加價購/index.html",
+    "site/ec/marketing/設定訂單加價購",
+    "includes/snippets/get line oa link.md",
+    "docs/ec/integrations/line/LINE 官方帳號增加好友指南.md",
+    "docs/ec/integrations/line/設定 LINE 圖文選單.md",
+    "docs/pos/integrations/line/設定與使用 LINE 顯示會員條碼（串接 POS 結帳）.md",
     "docs/ec/integrations/line/設定 LINE 快速登入.md",
-    "site/assets/images/ec-第三方整合-line liff 會員綁定.gif",
-    "docs/assets/images/ec-第三方整合-line liff 會員綁定.gif",
-    "docs/ec/orders/訂單出貨流程.md",
-    "docs/ec/integrations/line/綁定 LINE 官方帳號與官網會員.md",
+    "docs/ec/integrations/line/index.md",
     "docs/ec/integrations/line/串接 LINE Messaging API.md",
+    "docs/ec/orders/訂單出貨流程.md",
+    "includes/abbreviations.md",
+    "templates/tutorial-layout.md",
+    "site/assets/images/ec-第三方整合-line-官方加入好友工具.png",
+    "docs/assets/images/ec-第三方整合-line-官方加入好友工具.png",
+    "site/assets/images/pos-紅利折抵.png",
+    "docs/assets/images/pos-紅利折抵.png",
+    "site/assets/images/pos-結帳.png",
+    "docs/assets/images/pos-結帳.png",
+    "site/assets/images/pos-line oa-會員卡.png",
+    "docs/assets/images/pos-line oa-會員卡.png",
+    "docs/ec/integrations/line/綁定 LINE 官方帳號與官網會員.md",
+    "site/assets/images/ec-訊息推播-line oa 加入好友邀請-簡訊.png",
+    "site/assets/images/ec-訊息推播-line oa 加入好友邀請-email.png",
+    "設定.md",
+    "docs/ec/integrations/line/設定 LINE 綁定會員贈送優惠券.md",
+    "docs/ec/integrations/line/設定 LIFF 自動登入與會員綁定.md",
+    "docs/ec/integrations/index.md",
+    "docs/ec/integrations/line/設定 LINE 快速登入時取得會員手機號碼.md",
     "docs/ec/orders/references/訂單篩選條件欄位定義.md",
-    "site/ec/marketing/設定指定商品送優惠券/index.html",
-    "site/ec/marketing/設定指定商品送優惠券",
-    "site/en/ec/e-ticket/設定電子票券/index.html",
-    "site/en/ec/e-ticket/設定電子票券",
-    "site/resources/index.html",
-    "site/en/ec/e-ticket/核銷電子票券/index.html",
-    "site/en/ec/e-ticket/核銷電子票券",
-    "site/ec/website-management/系統通知設定/index.html",
-    "site/ec/website-management/系統通知設定",
-    "site/ec/website-appearance/index.html",
+    "templates/syntax-audio.md",
     "docs/ec/notifications/設定與管理 LINE OA 通知樣板.md",
-    "site/assets/images/ec-第三方整合-line 註冊登入-liff 網址.png",
-    "docs/assets/images/ec-第三方整合-line 註冊登入-liff 網址.png",
-    "site/assets/images/ec-第三方整合-line oa 會員綁定-加入好友訊息.png",
-    "docs/assets/images/ec-第三方整合-line oa 會員綁定-加入好友訊息.png",
-    "site/assets/images/ec-第三方整合-line oa-圖文連結.png",
-    "docs/assets/images/ec-第三方整合-line oa-圖文連結.png",
     "docs/ec/notifications/設定與管理簡訊通知樣板.md",
     "docs/ec/notifications/設定與管理 Email 通知樣板.md",
-    "docs/ec/integrations/index.md",
     "docs/ec/integrations/line/綁定 LINE 帳號與官網會員.md",
-    "docs/assets/images/wms-hero.png",
-    "docs/assets/images/wms-hero-old.png",
-    "docs/ec/notifications/設定 LINE OA 訊息樣板.md",
-    "docs/ec/orders/訂單管理介面說明.md",
-    "docs/ec/website-management/設定網站基本資訊.md",
-    "includes/abbreviations.md",
-    "docs/ec/orders/出貨狀態物流提示文字說明.md",
-    "templates/lucide-message-square-text.md",
-    "docs/ec/orders/設定訂單自動結案.md",
-    "docs/ec/notifications/index.md",
-    "docs/ec/orders/index.md",
-    "docs/ec/profit-sharing/index.md",
-    "templates/yaml.md",
-    "docs/ec/orders/references/訂單列表操作功能說明.md",
-    "docs/ec/products/設定商品配送條件（物流、溫層與出貨通路）.md",
-    "templates/tutorial-layout.md",
-    "templates/explanation-layout.md"
+    "docs/ec/notifications/設定 LINE OA 訊息樣板.md"
   ]
 }
