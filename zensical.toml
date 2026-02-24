@@ -55,15 +55,21 @@ copyright = """
         { "分析報表" = "ec/analytics/index.md" },
         { "訂單" = [
             { "orders" = "ec/orders/index.md" },
-            { "一般退貨退款" = "ec/orders/一般退貨退款.md" },
-            { "一般退貨退款-cli" = "ec/orders/一般退貨退款-cli.md" }
+            { "開啟會員退貨申請功能" = "ec/orders/開啟會員退貨申請功能.md"},
+            { "訂單退貨流程" = "ec/orders/訂單退貨流程.md"},
+            { "訂單退款流程" = "ec/orders/訂單退款流程.md"},
+            { "綠界後台查詢教學" = "ec/orders/綠界後台查詢教學.md"},
         ]},
         { "會員" = [
-            { "VIP設定" = [
-                    {"VIP制度運作機制" = "ec/members/VIP制度運作機制.md"},
-                    { "VIP 設定" = "ec/members/設定 VIP 群組.md" },
-                    {"設計VIP專屬優惠" = "ec/members/設計VIP專屬優惠.md"},
-                    {"設計VIP群組標籤" = "ec/members/設定VIP群組標籤.md"},
+            { "批次匯入與編輯會員" = "ec/members/批次匯入與編輯會員.md"},
+            { "管理會員檔案" = "ec/members/管理會員檔案.md"},
+            { "官網會員客服問答系統" = "ec/members/官網會員客服問答系統.md"},
+            { "新版VIP設定" = [
+                    {"VIP功能運作指南" = "ec/members/VIP功能運作指南.md"},
+                    {"建立全館VIP制度" = "ec/members/建立全館VIP制度.md"},
+                    {"建立特殊VIP群組" = "ec/members/建立特殊VIP群組.md"},
+                    {"設定VIP專屬優惠" = "ec/members/設定VIP專屬優惠.md"},
+                    
             ]},
 
         ]},
@@ -118,6 +124,7 @@ copyright = """
             { "商品加價購" = "ec/marketing/設定商品加價購.md" },
             {"期間限定首購禮" = "ec/marketing/設定期間限定首購禮.md"},
             {"互動遊戲" = "ec/marketing/設定互動遊戲.md"},
+            {"一頁式商店" = "ec/marketing/設定一頁式商店.md"},
             {"指定商品送優惠券" = "ec/marketing/設定指定商品送優惠券.md"},
             {"指定商品送紅利" = "ec/marketing/設定指定商品送紅利.md"},
             {"指定金流送紅利" = "ec/marketing/設定指定金流送紅利.md"},
@@ -159,6 +166,8 @@ copyright = """
             {"串接全家超商B2C冷凍物流" = "ec/payments-and-logistics/串接全家超商B2C冷凍物流.md"},
             { "超商店到店 C2C 串接" = "ec/payments-and-logistics/設定超商店到店 C2C 物流串接.md" },
             {"設定門市取貨服務"= "ec/payments-and-logistics/CYBERBIZNOW/設定門市取貨服務.md"},
+            { "串接ezShip超商取貨(C2C)" = "ec/payments-and-logistics/串接ezShip超商取貨(C2C).md"},
+            { "申請綠界金流與超商取貨付款" = "ec/payments-and-logistics/申請綠界金流與超商取貨付款.md"},
             { "CYBERBIZ NOW" = [
                     { "overview" = "ec/payments-and-logistics/CYBERBIZNOW/index.md" },
                     {"開啟快速到貨服務" = "ec/payments-and-logistics/CYBERBIZNOW/開啟CYBERBIZ NOW快速到貨服務.md"},
@@ -182,6 +191,8 @@ copyright = """
             { "商店設定" = "ec/store/index.md" },
             { "系統通知設定" = "ec/store/系統通知設定.md" },
             { "設定多國語言與多幣別" = "ec/website-management/設定多國語言與多幣別.md" },
+            { "設定顧客註冊流程與欄位" = "ec/website-management/設定顧客註冊流程與欄位.md" },
+            { "為特定網域信箱套用指定會員標籤" = "ec/website-management/為特定網域信箱套用指定會員標籤.md" },
         ]},
         { "APP MARKET" = [
             { "overview" = "ec/app-market/index.md" },
