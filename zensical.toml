@@ -181,6 +181,7 @@ copyright = """
         ]},
         { "網站外觀" = [
             { "overview" = "ec/website-appearance/index.md" },
+            { "恢復樣板版本" = "ec/website-appearance/使用樣板編輯器恢復網頁代碼.md" },
             { "拖拉版型設定" = "ec/website-appearance/拖拉版型網站設定.md" },
             { "選單與導覽列" = "ec/website-appearance/設定選單與導覽列.md "},
             { "全站商品列表群組排序" = "ec/website-appearance/設定前台商品群組排序.md" }
@@ -209,7 +210,9 @@ copyright = """
                     { "LIFF 自動登入" = "ec/integrations/line/設定 LIFF 自動登入與會員綁定.md" },
                     { "LINE 會員綁定" = "ec/integrations/line/綁定 LINE 官方帳號與官網會員.md" },
                     { "LINE 綁定會員送優惠券" = "ec/integrations/line/設定 LINE 綁定會員贈送優惠券.md" },
-                    { "LINE 加入好友工具（拖拉版型）" = "ec/integrations/line/設定拖拉版型網站的 LINE 加入好友工具.md" },
+                    { "LINE 加入好友工具" = "ec/integrations/line/LINE 官方帳號增加好友指南.md"},
+                    { "官網顯示 LINE 加入好友連結" = "ec/integrations/line/在官網新增 LINE 加入好友入口.md" },
+                    { "訂單頁顯示 LINE 加入好友連結" = "ec/integrations/line/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md" },
                     { "LINE 圖文選單" = "ec/integrations/line/設定 LINE 圖文選單.md" },
                     { "" = "ec/integrations/line/"}
             ]},

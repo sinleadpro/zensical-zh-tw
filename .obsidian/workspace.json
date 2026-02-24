@@ -6,85 +6,28 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 34.19182948490231,
+        "dimension": 32.97777777777778,
         "children": [
-          {
-            "id": "b9db1f74b10488f8",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/orders/訂單出貨流程.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "訂單出貨流程"
-            }
-          },
-          {
-            "id": "20af0495c9ce808e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "includes/abbreviations.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "abbreviations"
-            }
-          },
-          {
-            "id": "992f7806e93bd22c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "includes/snippets/get line oa link.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "get line oa link"
-            }
-          },
-          {
-            "id": "244373e7a7579383",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/website-appearance/拖拉版型網站設定.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "拖拉版型網站設定"
-            }
-          },
           {
             "id": "1bb773f69eb50a7e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/integrations/line/設定拖拉版型網站的 LINE 加入好友工具.md",
+                "file": "docs/ec/website-appearance/樣版編輯器操作全攻略.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定拖拉版型網站的 LINE 加入好友工具"
+              "title": "樣版編輯器操作全攻略"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       },
       {
         "id": "145b9f26bb568cb5",
         "type": "tabs",
-        "dimension": 20.248667850799293,
+        "dimension": 20.08888888888889,
         "children": [
           {
             "id": "12e2159ff224b777",
@@ -119,7 +62,7 @@
       {
         "id": "0f41cb20a1d95388",
         "type": "tabs",
-        "dimension": 22.912966252220247,
+        "dimension": 25.066666666666666,
         "children": [
           {
             "id": "07ebbe6f1ba43e31",
@@ -127,12 +70,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=7435",
-                "title": "LINE OA 增加好友工具應用(拖拉版型) - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=3474",
+                "title": "恢復樣版編輯器 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "LINE OA 增加好友工具應用(拖拉版型) - CYBERBIZ 一般版教學文件"
+              "title": "恢復樣版編輯器 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -140,7 +83,7 @@
       {
         "id": "ea951fb7d70bee14",
         "type": "tabs",
-        "dimension": 22.64653641207816,
+        "dimension": 21.866666666666667,
         "children": [
           {
             "id": "af5a39eba69ac1cd",
@@ -148,12 +91,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=38439",
-                "title": "LINE OA 增加好友工具應用(拖拉版型)",
+                "url": "https://www.cyberbiz.io/support/?p=16146",
+                "title": "恢復樣版編輯器",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "LINE OA 增加好友工具應用(拖拉版型)"
+              "title": "恢復樣版編輯器"
             }
           }
         ]
@@ -352,41 +295,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1bb773f69eb50a7e",
+  "active": "bc5e7ee3a9f5fb45",
   "lastOpenFiles": [
-    "site/assets/images/ec-網站外觀-頁腳-line.gif",
-    "docs/assets/images/ec-網站外觀-頁腳-line.gif",
-    "site/assets/images/ec-網站外觀-輪播素材-前台畫面.gif",
-    "docs/assets/images/ec-網站外觀-輪播素材-前台畫面.gif",
-    "site/assets/images/ec-網站外觀-輪播素材-新增.gif",
-    "docs/assets/images/ec-網站外觀-輪播素材-新增.gif",
-    "site/assets/images/ec-網站外觀-輪播素材.gif",
-    "docs/assets/images/ec-網站外觀-輪播素材.gif",
+    "site/ec/website-appearance/樣版編輯器操作全攻略/index.html",
+    "site/ec/website-appearance/樣版編輯器操作全攻略",
+    "site/ec/website-appearance/Untitled/index.html",
+    "site/ec/website-appearance/Untitled",
+    "docs/ec/website-appearance/使用樣板編輯器恢復網頁代碼.md",
+    "docs/ec/website-appearance/樣版編輯器操作全攻略.md",
+    "site/assets/images/ec-網站外觀-樣板編輯器-查看之前版本操作.gif",
+    "docs/assets/images/ec-網站外觀-樣板編輯器-查看之前版本操作.gif",
+    "site/assets/images/ec-網站外觀-樣板編輯器-查看之前版本.png",
+    "docs/assets/images/ec-網站外觀-樣板編輯器-查看之前版本.png",
+    "docs/ec/integrations/line/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md",
+    "docs/ec/integrations/line/LINE 官方帳號增加好友指南.md",
+    "site/assets/images/ec-網站外觀-樣板編輯器-order-done-extra-content-liquid.gif",
+    "docs/assets/images/ec-網站外觀-樣板編輯器-order-done-extra-content-liquid.gif",
+    "site/assets/images/ec-網站外觀-order-done-extra-content-liquid.png",
+    "docs/assets/images/ec-網站外觀-order-done-extra-content-liquid.png",
+    "includes/snippets/get line oa link.md",
+    "includes/abbreviations.md",
+    "docs/ec/orders/訂單出貨流程.md",
+    "site/assets/images/ec-網站外觀-訂單頁顯示 line 加入好友-前台.png",
+    "docs/assets/images/ec-網站外觀-訂單頁顯示 line 加入好友-前台.png",
+    "site/ec/integrations/line/設定 LINE 快速登入/index.html",
+    "site/ec/integrations/line/設定 LINE 快速登入",
+    "site/ec/integrations/line/LINE 官方帳號增加好友指南/index.html",
+    "site/ec/integrations/line/LINE 官方帳號增加好友指南",
+    "site/ec/orders/references/訂單列表欄位參考表/index.html",
+    "site/ec/orders/references/訂單列表欄位參考表",
+    "site/ec/e-ticket/設定電子票券門市權限/index.html",
+    "docs/ec/integrations/line/在官網新增 LINE 加入好友入口.md",
     "docs/ec/website-appearance/拖拉版型網站設定.md",
     "docs/ec/notifications/發送 LINE 加入好友邀請.md",
-    "docs/ec/integrations/line/設定拖拉版型網站的 LINE 加入好友工具.md",
-    "site/assets/images/ec-網站外觀-彈窗廣告-line 加入好友.gif",
-    "docs/assets/images/ec-網站外觀-彈窗廣告-line 加入好友.gif",
-    "site/assets/images/ec-網站外觀-彈窗廣告-圖片連結.png",
-    "site/assets/images/input.mov",
-    "docs/assets/images/input.mov",
-    "site/assets/images/ec-網站外觀-彈窗廣告-圖片.mov",
-    "docs/assets/images/ec-網站外觀-彈窗廣告-圖片.mov",
-    "site/ec/products/設定商品影片/index.html",
-    "site/ec/products/設定商品影片",
-    "site/ec/marketing/設定紅配綠多組合優惠/index.html",
-    "site/ec/marketing/設定紅配綠多組合優惠",
-    "site/ec/products/設定 VIP 會員專屬價格/index.html",
-    "site/ec/products/設定 VIP 會員專屬價格",
-    "includes/snippets/get line oa link.md",
-    "docs/ec/integrations/line/LINE 官方帳號增加好友指南.md",
     "docs/ec/integrations/line/設定 LINE 圖文選單.md",
     "docs/pos/integrations/line/設定與使用 LINE 顯示會員條碼（串接 POS 結帳）.md",
     "docs/ec/integrations/line/設定 LINE 快速登入.md",
     "docs/ec/integrations/line/index.md",
     "docs/ec/integrations/line/串接 LINE Messaging API.md",
-    "docs/ec/orders/訂單出貨流程.md",
-    "includes/abbreviations.md",
     "templates/tutorial-layout.md",
     "docs/ec/integrations/line/綁定 LINE 官方帳號與官網會員.md",
     "設定.md",
@@ -396,9 +342,6 @@
     "docs/ec/integrations/line/設定 LINE 快速登入時取得會員手機號碼.md",
     "docs/ec/orders/references/訂單篩選條件欄位定義.md",
     "templates/syntax-audio.md",
-    "docs/ec/notifications/設定與管理 LINE OA 通知樣板.md",
-    "docs/ec/notifications/設定與管理簡訊通知樣板.md",
-    "docs/ec/notifications/設定與管理 Email 通知樣板.md",
-    "docs/ec/integrations/line/綁定 LINE 帳號與官網會員.md"
+    "docs/ec/notifications/設定與管理 LINE OA 通知樣板.md"
   ]
 }
