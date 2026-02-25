@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 32.97777777777778,
+        "dimension": 46.666666666666664,
         "children": [
           {
             "id": "1bb773f69eb50a7e",
@@ -14,26 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/sales/透過關鍵字排除搜尋結果中的特定商品.md",
+                "file": "docs/ec/products/sales/在搜尋結果中排除特定關鍵字商品.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "透過關鍵字排除搜尋結果中的特定商品"
-            }
-          },
-          {
-            "id": "675e8c203372472f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/organization/設定秘密商品群組.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定秘密商品群組"
+              "title": "在搜尋結果中排除特定關鍵字商品"
             }
           },
           {
@@ -65,12 +51,12 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       },
       {
         "id": "145b9f26bb568cb5",
         "type": "tabs",
-        "dimension": 20.08888888888889,
+        "dimension": 17.77777777777778,
         "children": [
           {
             "id": "12e2159ff224b777",
@@ -105,7 +91,7 @@
       {
         "id": "0f41cb20a1d95388",
         "type": "tabs",
-        "dimension": 23.288888888888888,
+        "dimension": 17.77777777777778,
         "children": [
           {
             "id": "07ebbe6f1ba43e31",
@@ -126,7 +112,7 @@
       {
         "id": "ea951fb7d70bee14",
         "type": "tabs",
-        "dimension": 23.644444444444446,
+        "dimension": 17.77777777777778,
         "children": [
           {
             "id": "af5a39eba69ac1cd",
@@ -209,7 +195,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 287.5,
+    "collapsed": true
   },
   "right": {
     "id": "973606ff262c9293",
@@ -315,7 +302,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -338,30 +325,40 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "54e462a14a5a6adb",
+  "active": "1e22328f6f9122a7",
   "lastOpenFiles": [
-    "site/ec/notifications/設定與管理 LINE OA 通知樣板/index.html",
-    "site/ec/notifications/設定與管理 LINE OA 通知樣板",
-    "site/en/ec/e-ticket/設定電子票券/index.html",
-    "site/en/ec/e-ticket/設定電子票券",
-    "site/ec/orders/訂單出貨流程/index.html",
-    "site/ec/orders/訂單出貨流程",
-    "site/ec/app-market/cyberbiz-extensions/index.html",
-    "site/ec/marketing/設定紅利商城/index.html",
-    "site/ec/marketing/設定紅利商城",
-    "site/ec/members/管理會員檔案/index.html",
-    "site/ec/members/管理會員檔案",
+    "site/ec/products/index 1/index.html",
+    "site/ec/products/index 1",
+    "site/ec/payments-and-logistics/設定門市取貨服務/index.html",
+    "site/ec/payments-and-logistics/設定門市取貨服務",
+    "site/ec/products/設定商品多層級分類/index.html",
+    "site/ec/products/設定商品多層級分類",
+    "site/ec/products/Excel 大量匯入商品/index.html",
+    "site/ec/products/Excel 大量匯入商品",
+    "site/ec/products/編輯商品簡述與商品標語/index.html",
+    "site/ec/products/編輯商品簡述與商品標語",
+    "site/resources/glossary/index.html",
+    "docs/ec/products/sales/在搜尋結果中排除特定關鍵字商品.md",
+    "docs/ec/website-appearance/樣板編輯器操作全攻略.md",
+    "templates/tutorial-layout.md",
+    "site/assets/images/ec-商品-商品名稱-秘密群組關鍵字.png",
+    "docs/assets/images/ec-商品-商品名稱-秘密群組關鍵字.png",
+    "docs/ec/website-appearance/使用樣板編輯器恢復網頁代碼.md",
+    "docs/ec/payments-and-logistics/設定 PayPal.md",
+    "docs/assets/images/ec-網站外觀-樣板編輯器-search-liquid.png",
+    "site/assets/images/ec-網站外觀-樣板編輯器-search-liquid.png",
+    "docs/ec/products/organization/設定秘密商品群組.md",
+    "docs/ec/products/organization/設定商品自訂分類群組.md",
+    "site/assets/images/ec-商品-秘密群組-關閉商品搜尋功能.gif",
+    "docs/assets/images/ec-商品-秘密群組-關閉商品搜尋功能.gif",
+    "site/assets/images/ec-商品-秘密群組-關閉商品搜尋.gif",
+    "docs/assets/images/ec-商品-秘密群組-關閉商品搜尋.gif",
+    "docs/ec/website-management/index.md",
+    "docs/ec/website-appearance/index.md",
+    "docs/ec/profit-sharing/index.md",
+    "docs/ec/members/index.md",
     "site/assets/images/綠界-後台-查詢交易明細01.png",
     "site/assets/images/EZSHIP-後台-申請超取-購物網站串接01.png",
-    "site/assets/images/EC-會員-VIP設定-畫面總覽01.png",
-    "site/assets/images/EC-後台-行銷活動-一頁式商店-新版-設定頁面外觀01.gif",
-    "site/assets/images/EC-後台-會員-VIP設定-畫面總覽01 (2).png",
-    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
-    "site/assets/images/ec-網站外觀-樣板編輯器操作.gif",
-    "site/assets/images/EC-後台-管理中心-網域信箱標籤設定-畫面總覽01.png",
-    "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
-    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
-    "docs/ec/products/organization/設定秘密商品群組.md",
     "docs/ec/website-management/設定顧客註冊流程與欄位.md",
     "docs/ec/website-management/設定多國語言與多幣別.md",
     "docs/ec/website-management/為特定網域信箱套用指定會員標籤.md",
@@ -375,16 +372,6 @@
     "docs/ec/payments-and-logistics/串接ezShip超商取貨(C2C).md",
     "docs/ec/payments-and-logistics/CYBERBIZNOW/開啟CYBERBIZ NOW快速到貨服務.md",
     "docs/ec/payments-and-logistics/CYBERBIZNOW/運費計算與對帳規範.md",
-    "docs/ec/payments-and-logistics/CYBERBIZNOW/設定快速到貨前台入口與專區.md",
-    "docs/ec/payments-and-logistics/CYBERBIZNOW/複製商品到快速到貨門市.md",
-    "docs/ec/payments-and-logistics/CYBERBIZNOW/缺貨訂單部分出貨或取消流程.md",
-    "docs/ec/payments-and-logistics/CYBERBIZNOW/消費者購買流程.md",
-    "docs/ec/payments-and-logistics/CYBERBIZNOW/快速到貨配送異常規範.md",
-    "docs/ec/payments-and-logistics/CYBERBIZNOW/快速到貨訂單接單準備.md",
-    "docs/ec/payments-and-logistics/CYBERBIZNOW/快速到貨出貨與配送.md",
-    "docs/ec/payments-and-logistics/CYBERBIZNOW/index.md",
-    "docs/ec/orders/開啟會員退貨申請功能.md",
-    "docs/ec/orders/訂單退貨流程.md",
-    "docs/ec/orders/訂單退款流程.md"
+    "docs/ec/payments-and-logistics/CYBERBIZNOW/設定快速到貨前台入口與專區.md"
   ]
 }

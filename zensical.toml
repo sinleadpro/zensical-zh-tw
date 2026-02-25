@@ -61,6 +61,7 @@ copyright = """
             { "綠界後台查詢教學" = "ec/orders/綠界後台查詢教學.md"}
         ]},
         { "會員" = [
+            { "overview" = "ec/members/index.md"},
             { "批次匯入與編輯會員" = "ec/members/批次匯入與編輯會員.md"},
             { "管理會員檔案" = "ec/members/管理會員檔案.md"},
             { "官網會員客服問答系統" = "ec/members/官網會員客服問答系統.md"},
@@ -77,10 +78,11 @@ copyright = """
                 { "商品管理介面" = "ec/products/商品管理介面說明.md" }
             ]},  
             { "分類與標籤" = [
+                { "商品自訂分類" = "ec/products/organization/設定商品自訂分類群組.md" },
                 { "秘密商品群組" = "ec/products/organization/設定秘密商品群組.md" }
             ]},
             { "銷售與互動" = [
-                { "搜尋結果排除特定商品" = "ec/products/sales/透過關鍵字排除搜尋結果中的特定商品.md" }
+                { "搜尋結果排除特定商品" = "ec/products/sales/在搜尋結果中排除特定關鍵字商品.md" }
             ]},
             { "商品上架" = [
                 { "新增單一商品" = "ec/products/新增單一商品.md"},
@@ -98,7 +100,6 @@ copyright = """
                 { "超商配送限制與物流排除" = "ec/products/設定超商配送限制與物流排除.md" }
             ]},
             { "商品分類" = [
-                { "商品自訂分類" = "ec/products/設定商品自訂分類群組.md" },
                 { "商品條件分類" = "ec/products/設定商品條件分類群組.md" },
                 { "秘密商品群組" = "ec/products/設定秘密商品群組.md" },
                 { "商品標籤管理" = "ec/products/管理商品標籤.md" },
@@ -149,6 +150,7 @@ copyright = """
             ]},
         ]},  
         { "分潤" = [
+            { "overview" = "ec/profit-sharing/index.md"},
             { "了解分潤功能" = "ec/profit-sharing/了解分潤功能.md"},
             { "設定推薦人分潤方案" = "ec/profit-sharing/設定推薦人分潤方案.md"},
             { "設定註冊人分潤方案" = "ec/profit-sharing/設定註冊人分潤方案.md"},
