@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/website-appearance/樣板編輯器操作全攻略.md",
+                "file": "docs/ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "樣板編輯器操作全攻略"
+              "title": "設定網頁鎖右鍵保護圖文版權"
             }
           },
           {
@@ -212,12 +212,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/ec/website-appearance/樣板編輯器操作全攻略.md",
+                "file": "docs/ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 樣板編輯器操作全攻略"
+              "title": "Outgoing links from 設定網頁鎖右鍵保護圖文版權"
             }
           },
           {
@@ -327,18 +327,21 @@
   },
   "active": "1e22328f6f9122a7",
   "lastOpenFiles": [
-    "site/ec/products/index 1/index.html",
-    "site/ec/products/index 1",
+    "site/ec/website-appearance/設定網頁鎖右鍵保護圖文版權/index.html",
+    "site/ec/website-appearance/設定網頁鎖右鍵保護圖文版權",
+    "site/ec/payments-and-logistics/CYBERBIZNOW/複製商品到快速到貨門市/index.html",
+    "site/ec/payments-and-logistics/CYBERBIZNOW/複製商品到快速到貨門市",
+    "site/ec/integrations/google/設定自動化廣告/index.html",
+    "site/ec/integrations/google/設定自動化廣告",
     "site/ec/payments-and-logistics/設定門市取貨服務/index.html",
     "site/ec/payments-and-logistics/設定門市取貨服務",
-    "site/ec/products/設定商品多層級分類/index.html",
-    "site/ec/products/設定商品多層級分類",
-    "site/ec/products/Excel 大量匯入商品/index.html",
-    "site/ec/products/Excel 大量匯入商品",
-    "site/ec/products/編輯商品簡述與商品標語/index.html",
-    "site/ec/products/編輯商品簡述與商品標語",
-    "site/resources/glossary/index.html",
+    "site/ec/products/設定結帳拆分多購物車/index.html",
+    "site/ec/products/設定結帳拆分多購物車",
+    "site/ec/integrations/line/設定 LIFF 自動登入與會員綁定/index.html",
+    "docs/ec/products/creation/編輯商品簡述與商品標語.md",
+    "docs/ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md",
     "docs/ec/products/sales/在搜尋結果中排除特定關鍵字商品.md",
+    "docs/ec/products/透過關鍵字排除搜尋結果中的特定商品.md",
     "docs/ec/website-appearance/樣板編輯器操作全攻略.md",
     "templates/tutorial-layout.md",
     "site/assets/images/ec-商品-商品名稱-秘密群組關鍵字.png",
@@ -369,9 +372,6 @@
     "docs/ec/profit-sharing/匯出分潤報表.md",
     "docs/ec/profit-sharing/了解分潤功能.md",
     "docs/ec/payments-and-logistics/申請綠界金流與超商取貨付款.md",
-    "docs/ec/payments-and-logistics/串接ezShip超商取貨(C2C).md",
-    "docs/ec/payments-and-logistics/CYBERBIZNOW/開啟CYBERBIZ NOW快速到貨服務.md",
-    "docs/ec/payments-and-logistics/CYBERBIZNOW/運費計算與對帳規範.md",
-    "docs/ec/payments-and-logistics/CYBERBIZNOW/設定快速到貨前台入口與專區.md"
+    "docs/ec/payments-and-logistics/串接ezShip超商取貨(C2C).md"
   ]
 }

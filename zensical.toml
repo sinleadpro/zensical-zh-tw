@@ -76,20 +76,23 @@ copyright = """
             { "商品管理" = "ec/products/index.md" },  
             { "快速上手" = [
                 { "商品管理介面" = "ec/products/商品管理介面說明.md" }
+            ]},
+            { "建立與設定" = [
+                { "商品簡述與標語" = "ec/products/creation/編輯商品簡述與商品標語.md" },
+                { "商品描述與商品設定" = "ec/products/creation/編輯商品描述與商品設定.md" }
             ]},  
             { "分類與標籤" = [
                 { "商品自訂分類" = "ec/products/organization/設定商品自訂分類群組.md" },
                 { "秘密商品群組" = "ec/products/organization/設定秘密商品群組.md" }
             ]},
             { "銷售與互動" = [
-                { "搜尋結果排除特定商品" = "ec/products/sales/在搜尋結果中排除特定關鍵字商品.md" }
+                { "搜尋結果排除特定商品" = "ec/products/sales/透過關鍵字排除搜尋結果中的特定商品.md" }
             ]},
             { "商品上架" = [
                 { "新增單一商品" = "ec/products/新增單一商品.md"},
                 { "組合商品" = "ec/products/新增與設定組合商品.md"},
                 { "商品到貨通知" = "ec/products/設定商品到貨通知.md"},
                 { "商品描述與商品設定" = "ec/products/編輯商品描述與商品設定.md" },
-                { "商品簡述與商品標語" = "ec/products/編輯商品簡述與商品標語.md" },
                 { "設定商品影片" = "ec/products/設定商品影片.md" },
                 { "Excel 大量匯入商品" = "ec/products/Excel 大量匯入商品.md"},
                 { "批次修改商品描述與配送設定" = "ec/products/批次修改商品描述與配送設定.md" },
@@ -203,7 +206,8 @@ copyright = """
             { "恢復樣板版本" = "ec/website-appearance/使用樣板編輯器恢復網頁代碼.md" },
             { "拖拉版型設定" = "ec/website-appearance/拖拉版型網站設定.md" },
             { "選單與導覽列" = "ec/website-appearance/設定選單與導覽列.md "},
-            { "全站商品列表群組排序" = "ec/website-appearance/設定前台商品群組排序.md" }
+            { "全站商品列表群組排序" = "ec/website-appearance/設定前台商品群組排序.md" },
+            { "網頁鎖右鍵設定" = "ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md"}
         ]},
         { "商店設定" = [
             { "商店設定" = "ec/store/index.md" },
