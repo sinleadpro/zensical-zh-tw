@@ -64,9 +64,6 @@ id: "5958"
 啟用超商店到店（C2C）物流服務，讓顧客可於結帳時選擇指定超商門市取貨。
 { .subtitle }
 
-[:lucide-toggle-right:{ title="適用功能" }](../../resources/conventions#適用功能) | CYBERBIZ PAYMENTS
-{ .doc-badge }
-
 ![](../../assets/images/ec-金物流-超商物流.png){ .hero-page }
 
 
@@ -113,10 +110,11 @@ CYBERBIZ 目前支援以下超商店到店物流：
     - **免運設定**：設定是否提供超商免運優惠。
     -  **取貨不付款***：消費者取貨時不需付款（需先完成線上支付）。
 
-	!!! info "貨到付款（COD）限制"
+	!!! info "CYBERBIZ PAYMENTS 專屬功能：COD 貨到付款"
 	    - 僅限 **已開通 CYBERBIZ PAYMENTS** 的商家可使用貨到付款功能。
 	    - 若尚未開通，前台僅會顯示「取貨不付款」選項。
-
+	    - [開通 CYBERBIZ PAYMENTS](申請 CYBERBIZ PAYMENTS) 以使用此功能。
+    
 ![](../../assets/images/ec-金物流-超商物流-設定.png)
 
 ### 前台如何顯示超商取貨選項

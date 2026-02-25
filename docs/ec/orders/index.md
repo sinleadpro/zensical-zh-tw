@@ -3,24 +3,153 @@ title: 訂單物流
 description: 管理訂單流程與物流配送，提升出貨效率與顧客滿意度。
 icon: lucide/receipt
 hide:
-  - toc
   - feedback
 notes:
   - 訂單物流功能說明 link
 ---
 
-# 訂單物流
+# 訂單
 
-<div class="grid" markdown>
+![](../../assets/images/ec-orders-hero.zh-tw.png){ .hero-page }
 
-<br>
-<big>__開始使用__</big>  
-完整掌握訂單與物流流程。  
-從訂單接收、出貨到配送追蹤，簡化流程並提高顧客滿意度。  
-<br>
-[快速上手 :lucide-circle-arrow-right:](quickstart.md)
+## 開始使用
 
-![](../../assets/images/ec-orders-hero.zh-tw.png)
+- [訂單介面教學](訂單管理介面說明.md){ data-preview }  
+- [訂單出貨流程](訂單出貨流程.md){ data-preview }  
+
+## 訂單管理
+
+<div class="grid cards" markdown>
+
+	    
+</div>
+
+
+<div class="grid cards" markdown>
+
+-   :lucide-list: __訂單列表__
+
+	---
+	
+	- [查看所有訂單](查看訂單.md)  
+	- [依狀態篩選訂單](訂單篩選.md)  
+	- [批次更新訂單狀態](批次更新訂單.md)  
+
+
+-   :lucide-file-clock:{ .lg .middle } __自動結案__
+
+    ---
+
+    - [官網一般訂單](設定訂單自動結案)   
+    - [電子票券訂單](../e-ticket/電子票券設定指南#票券分潤與自動結案設定) 
+    - [POS 門市訂單](../../pos/orders/設定 POS 訂單自動結案)  
+
+-   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+
+    ---
+
+    Focus on your content and generate a responsive and searchable static site
+
+    [:octicons-arrow-right-24: Reference](#)
+
+-   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+
+
+</div>
+
+
+### 自動結案
+
+<div class="grid cards" markdown>
+
+- :lucide-file-check:{ .lg }   
+  [__官網訂單自動結案__](設定訂單自動結案)     
+  讓符合條件的一般商品訂單自動轉為已結案狀態。
+
+- :lucide-ticket-check:{ .lg }     
+  [__票券訂單自動結案__](../e-ticket/電子票券設定指南#票券分潤與自動結案設定)  
+  設定電子票券訂單自動結案。
+
+- :lucide-file-clock:{ .lg }   
+  [__POS 訂單自動結案__](../pos/orders/設定 POS 訂單自動結案)     
+  設定 POS 訂單自動結案。
+
+</div>
+
+
+## 訂單付款
+
+<div class="grid cards" markdown>
+
+-   :lucide-bell-ring:{ .lg .middle } __未付款處理__
+
+    ---
+
+    - [__付款連結__](提供顧客付款連結.md){ data-preview }     
+    - [__未付款提醒__](設定未付款提醒.md){ data-preview }  
+
+-   :fontawesome-brands-markdown:{ .lg .middle } __It's just Markdown__
+
+    ---
+
+    Focus on your content and generate a responsive and searchable static site
+
+    [:octicons-arrow-right-24: Reference](#)
+
+-   :material-format-font:{ .lg .middle } __Made to measure__
+
+    ---
+
+    Change the colors, fonts, language, icons, logo and more with a few lines
+
+    [:octicons-arrow-right-24: Customization](#)
+
+
+</div>
+
+<div class="grid cards" markdown>
+
+- :lucide-link:{ .lg }   
+  [__付款連結__](提供顧客付款連結.md){ data-preview }       
+  主動提供未付款訂單的顧客，專屬付款連結。
+
+- :lucide-bell:{ .lg }     
+  [__未付款提醒__](設定未付款提醒.md){ data-preview }    
+  設定以天數為間隔的付款提醒通知。
+
+</div>
+
+## 訂單出貨
+
+
+
+
+### 不同物流出貨方式
+
+<div class="grid cards" markdown>
+
+-   :lucide-truck:{ .lg .middle } __宅配物流__
+
+    ---
+
+    - [黑貓]()
+    - [宅配通]()
+    - [新竹物流]()
+    - [順豐宅配]()
+
+-   :lucide-store:{ .lg .middle } __超商取貨__
+
+    ---
+
+    - [店到店 C2C]()
+    - [大宗寄倉 B2C]()
+    - [全家冷凍店到店 C2C](操作全家冷凍店到店 C2C 出貨.md){ data-preview }  
+
+-   :lucide-hand:{ .lg .middle } __自訂物流__
+
+    ---
+
+    - [大量匯入託運單號](操作自訂物流出貨#大量匯入自訂物流託運單號)
 
 </div>
 

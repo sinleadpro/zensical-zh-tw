@@ -1,6 +1,7 @@
-title: ""
+---
+title: "{{title}}"
 version: ""
-last_modified: ""
+last_modified: "{{date}}"
 description: ""
 product:
   - EC
@@ -21,13 +22,15 @@ plans: []
 prerequisites: []
 lang: en-US
 sites: []
-status: new
+status:
 tags: []
 difficulty: ""
 audiences: []
 wp_url: []
 notes: []
 comments: ""
-search: 
+search:
   exclude: ""
 icon: ""
+---
+

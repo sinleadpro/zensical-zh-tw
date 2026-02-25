@@ -1,7 +1,12 @@
 <!-- abbreviations -->
 *[一般版]: 專業、高手、進階方案版本。
-*[PLUS 版]: 專業PLUS、進階PLUS、高手PLUS 方案版本。
+*[PLUS版]: 專業PLUS版、進階PLUS版、高手PLUS版方案。
+*[CYBER 幣]: CYBERBIZ 系統內用於支付 金物流相關服務費用及特定系統功能的虛擬計費點數。
+*[LIFF]: LINE Front-end Framework，是一個在 LINE APP 內運行網頁應用的框架。
+*[LINE OA]: LINE 官方帳號。企業或品牌在 LINE 平台上開設的專屬帳號，用於與顧客進行互動、發送行銷訊息及提供客戶服務。
+*[UID]: 唯一識別碼 / Unique Identifier。在特定系統、資料庫或網路架構中，分配給單一實體（如使用者、裝置、訂單或檔案）的唯一字串或數字，用於確保該實體能被精確識別，而不產生歧義。
 *[分票]: 當同一票種購買多份時，系統預設會產生單一 QR Code（核銷碼），可供多次核銷。若消費者有贈票的需求，可將此單一 QR Code 拆分為多個獨立票券。每張分出的票券皆會生成新的 QR Code，並可被單獨使用或轉贈他人。
+*[上收服務]: 物流商根據訂單出貨需求，指派司機前往商家指定的地點（通常為公司或倉庫地址）收取包裹的服務。
 *[註解程式碼]: 註解程式碼可使被註解符號包覆的部分程式碼不會被執行，因此可以暫時停用功能、方便測試或調整，同時保留原始程式碼便於日後快速恢復或修改。
 *[商品連結]: 系統自動產生、可直接導向該商品前台頁面的唯一網址，用於推廣、分享或在其他系統中快速存取指定商品。
 *[圖床]: 用於儲存、管理並提供圖片存取連結的外部服務，讓使用者可透過網址在網站、文件或系統中引用圖片，而不需將圖片檔案直接上傳至主系統。
@@ -46,6 +51,7 @@
 *[Master PLUS Plan]: Master Plus, a subscription plan for the CYBERBIZ e-commerce platform.
 *[Enterprise Plan]: Enterprise, a subscription plan for the CYBERBIZ e-commerce platform.
 *[B2C]: 商家（Business）直接將商品或服務銷售給最終消費者（Consumer）的商業模式。
+*[大宗寄倉 (B2C)]: 賣家（企業方）不透過超商門市櫃台寄件，而是將整批包裹自行雇車或交由貨運，直接載往超商之 **物流中心 (DC)** 進行交寄的物流模式。
 *[EC]: E-commerce，電子商務，透過網際網路進行商品或服務的展示、交易、付款與出貨等商業活動的整體系統與營運模式。
 *[COD]: Cash on Delivery, payment for an order upon receipt rather than online beforehand. Common in logistics delivery services such as home delivery and express delivery.
 *[C2C]: 消費者（Consumer）之間進行商品或服務交易的商業模式，通常透過第三方平台作為媒介，完成買賣行為。

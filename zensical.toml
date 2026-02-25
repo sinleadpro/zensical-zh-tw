@@ -7,7 +7,6 @@
 # ============================================================================
 
 [project]
-
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
@@ -45,7 +44,8 @@ copyright = """
 # can be defined using TOML syntax.
 #
 # Read more: https://zensical.org/docs/setup/navigation/
- nav = [
+
+ nav = [ 
     { "主頁" = "index.md" },
     { "品牌官網" = [
         { "品牌官網" = "ec/index.md" },
@@ -71,11 +71,18 @@ copyright = """
                     {"設定VIP專屬優惠" = "ec/members/設定VIP專屬優惠.md"},
                     
             ]},
-
         ]},
         { "商品" = [
             { "商品管理" = "ec/products/index.md" },  
-            { "快速上手" = "ec/products/quickstart.md" },  
+            { "快速上手" = [
+                { "商品管理介面" = "ec/products/商品管理介面說明.md" }
+            ]},  
+            { "分類與標籤" = [
+                { "秘密商品群組" = "ec/products/organization/設定秘密商品群組.md" },
+            ]},
+            { "銷售與互動" = [
+                { "搜尋結果排除特定商品" = "ec/products/sales/透過關鍵字排除搜尋結果中的特定商品.md" }
+            ]},
             { "商品上架" = [
                     { "新增單一商品" = "ec/products/新增單一商品.md"},
                     { "組合商品" = "ec/products/新增與設定組合商品.md"},
@@ -106,6 +113,10 @@ copyright = """
                     { "設定 VIP 會員專屬價格" = "ec/products/設定 VIP 會員專屬價格.md" }
             ]},
             { "參考資源" = [
+                { "商品列表欄位參考表" = "ec/products/references/商品列表欄位參考表.md" },
+                { "商品搜尋欄位規範" = "ec/products/references/商品搜尋欄位規範.md" },
+                { "篩選欄位定義" = "ec/products/references/篩選欄位定義.md" },
+                { "商品列表操作選項" = "ec/products/references/商品列表操作功能說明.md" }
             ]},
         ]},
         { "電子票券" = [
@@ -117,9 +128,9 @@ copyright = """
         { "行銷活動" = [
             { "overview" = "ec/marketing/index.md" },  
             { "單品限時折扣群組" = "ec/marketing/設定單品限時折扣群組.md" },
-            {"任選折扣" = "ec/marketing/設定任選折扣.md"},
-            {"紅配綠多組合優惠" = "ec/marketing/設定紅配綠多組合優惠.md"},
-            {"滿額贈滿件贈"= "ec/marketing/設定滿額贈與滿件贈.md"},
+            { "任選折扣" = "ec/marketing/設定任選折扣.md"},
+            { "紅配綠多組合優惠" = "ec/marketing/設定紅配綠多組合優惠.md"},
+            { "滿額贈滿件贈"= "ec/marketing/設定滿額贈與滿件贈.md" },
             { "訂單加價購" = "ec/marketing/設定訂單加價購.md" },
             { "商品加價購" = "ec/marketing/設定商品加價購.md" },
             {"期間限定首購禮" = "ec/marketing/設定期間限定首購禮.md"},
@@ -133,12 +144,22 @@ copyright = """
             {"紅利商城" = "ec/marketing/設定紅利商城.md"},
             { "商品多層級分類滿額折扣" = "ec/marketing/設定商品多層級分類滿額折扣.md" },
             { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" },
-
             { "行銷活動" = [
                     { "結帳優惠計算順序" = "ec/marketing/結帳優惠計算順序.md" },
                     { "結帳優惠計算順序-rev" = "ec/marketing/結帳優惠計算順序-rev.md" },
                     { "" = "ec/marketing/"}
             ]},
+        ]},  
+        { "分潤" = [
+            { "overview" = "ec/profit-sharing/index.md" }
+        ]},
+        { "訊息推播" = [
+            { "overview" = "ec/notifications/index.md" },
+            { "Email 樣板管理" = "ec/notifications/設定與管理 Email 通知樣板.md" },
+            { "簡訊樣板管理" = "ec/notifications/設定與管理簡訊通知樣板.md" },
+            { "LINE OA 樣板管理" = "ec/notifications/設定與管理 LINE OA 通知樣板.md" },
+            { "LINE 加入好友邀請" = "ec/notifications/發送 LINE 加入好友邀請.md" },
+            { "庫存過低通知" = "ec/notifications/庫存過低通知.md" }
             
             { "訊息推播" = [
                     { "" = "ec/marketing/"},
@@ -163,8 +184,12 @@ copyright = """
             { "設定 LINE Pay" = "ec/payments-and-logistics/設定 LINE Pay.md" },
             { "設定街口支付" = "ec/payments-and-logistics/設定街口支付.md" },
             { "設定 PayPal" = "ec/payments-and-logistics/設定 PayPal.md" },
-            {"串接全家超商B2C冷凍物流" = "ec/payments-and-logistics/串接全家超商B2C冷凍物流.md"},
+            { "串接全家超商B2C冷凍物流" = "ec/payments-and-logistics/串接全家超商B2C冷凍物流.md" },
             { "超商店到店 C2C 串接" = "ec/payments-and-logistics/設定超商店到店 C2C 物流串接.md" },
+            { "超商大宗寄倉 B2C" = "ec/payments-and-logistics/設定超商大宗寄倉 B2C.md" },
+            { "全家冷凍物流 B2C 設定" = "ec/payments-and-logistics/設定全家冷凍物流 B2C.md" },
+            { "設定門市取貨服務"= "ec/payments-and-logistics/設定門市取貨服務.md" },
+            { "設定CYBERBIZ NOW快速到貨服務" = "ec/payments-and-logistics/設定CYBERBIZ NOW快速到貨服務.md" }
             {"設定門市取貨服務"= "ec/payments-and-logistics/CYBERBIZNOW/設定門市取貨服務.md"},
             { "串接ezShip超商取貨(C2C)" = "ec/payments-and-logistics/串接ezShip超商取貨(C2C).md"},
             { "申請綠界金流與超商取貨付款" = "ec/payments-and-logistics/申請綠界金流與超商取貨付款.md"},
@@ -184,7 +209,10 @@ copyright = """
         ]},
         { "網站外觀" = [
             { "overview" = "ec/website-appearance/index.md" },
-            { "選單設定" = "ec/website-appearance/設定前台選單.md" },
+            { "樣板編輯器" = "ec/website-appearance/樣板編輯器操作全攻略.md" },
+            { "恢復樣板版本" = "ec/website-appearance/使用樣板編輯器恢復網頁代碼.md" },
+            { "拖拉版型設定" = "ec/website-appearance/拖拉版型網站設定.md" },
+            { "選單與導覽列" = "ec/website-appearance/設定選單與導覽列.md "},
             { "全站商品列表群組排序" = "ec/website-appearance/設定前台商品群組排序.md" }
         ]},
         { "商店設定" = [
@@ -203,26 +231,52 @@ copyright = """
                 ]},
             ]},
         ]},
-        { "整合串接" = [
+        { "第三方整合" = [
             { "overview" = "ec/integrations/index.md" },  
-            { "APP MARKET" = [
-                    { "" = "ec/integrations/"},
-                    { "" = "ec/integrations/"},
-                    { "" = "ec/integrations/"}
+            { "Google" = [
+                    { "設定 Google 購物廣告" = "ec/integrations/google/設定 Google 購物廣告.md" },
+                    { "設定自動化廣告" = "ec/integrations/google/設定自動化廣告.md" },
+                    { "" = "ec/integrations/google/"}
             ]},
-            { "第三方整合" = [
-                    { "設定 Google 購物廣告" = "ec/integrations/設定 Google 購物廣告.md" },
-                    { "設定自動化廣告" = "ec/integrations/設定自動化廣告.md" },
-                    { "" = "ec/integrations/"}
+            { "LINE" = [
+                    { "overview" = "ec/integrations/line/index.md" },
+                    { "串接 Messaging API" = "ec/integrations/line/串接 LINE Messaging API.md" },
+                    { "LINE 快速登入" = "ec/integrations/line/設定 LINE 快速登入.md" },
+                    { "獲取會員手機號碼" = "ec/integrations/line/設定 LINE 快速登入時取得會員手機號碼.md" },
+                    { "LIFF 自動登入" = "ec/integrations/line/設定 LIFF 自動登入與會員綁定.md" },
+                    { "LINE 會員綁定" = "ec/integrations/line/綁定 LINE 官方帳號與官網會員.md" },
+                    { "LINE 綁定會員送優惠券" = "ec/integrations/line/設定 LINE 綁定會員贈送優惠券.md" },
+                    { "LINE 加入好友工具" = "ec/integrations/line/LINE 官方帳號增加好友指南.md"},
+                    { "官網顯示 LINE 加入好友連結" = "ec/integrations/line/在官網新增 LINE 加入好友入口.md" },
+                    { "訂單頁顯示 LINE 加入好友連結" = "ec/integrations/line/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md" },
+                    { "LINE 圖文選單" = "ec/integrations/line/設定 LINE 圖文選單.md" },
+                    { "" = "ec/integrations/line/"}
             ]},
+        ]},
+        { "管理中心" = [
+            { "overview" = "ec/website-management/index.md" },
+            { "系統通知設定" = "ec/website-management/系統通知設定.md" },
+            { "網站基本資訊" = "ec/website-management/設定網站基本資訊.md" },
+            { "安全性設定" = "ec/website-management/設定網站安全性.md" },
+            { "星益欣電子發票" = "ec/website-management/星益欣電子發票設定指南.md" }
         ]},
     ]},
     { "智慧倉儲" = "wms/index.md" },
     { "智能 POS" = [
         { "智能 POS" = "pos/index.md" },
         { "開始使用" = "pos/get-started.md" },
+        { "訂單" = [
+            { "overview" = "pos/orders/index.md" },
+            { "訂單自動結案" = "pos/orders/設定 POS 訂單自動結案.md" } 
+        ]},
         { "商品" = [
             { "商品標籤列印" = "pos/products/商品標籤列印教學.md" }
+        ]},
+        { "第三方整合" = [
+            { "LINE" = [
+                { "overview" = "pos/integrations/line/index.md" },
+                { "LINE 會員條碼設定" = "pos/integrations/line/設定與使用 LINE 顯示會員條碼（串接 POS 結帳）.md" }
+            ]},
         ]},
     ]},
     { "資源中心" = [
@@ -240,7 +294,10 @@ copyright = """
         { "更新紀錄" = "resources/changelog.md" },
         { "詞彙表" = "resources/glossary.md" },
         { "圖示慣例" = "resources/conventions.md" },   
-        { "參考資料" = "resources/references" }
+        { "參考資料" = [
+            { "overview" = "resources/index.md" },
+            { "CYBER 幣" = "resources/references/認識 CYBER 幣.md" }
+        ]},
     ]}
  ]
 # With the "extra_css" option you can add your own CSS styling to customize
@@ -406,7 +463,7 @@ features = [
     # When sections are enabled, top-level sections are rendered as groups in
     # the sidebar for viewports above 1220px, but remain as-is on mobile.
     # https://zensical.org/docs/setup/navigation/#navigation-sections
-    "navigation.sections",
+    # "navigation.sections",
 
     # When tabs are enabled, top-level sections are rendered in a menu layer
     # below the header for viewports above 1220px, but remain as-is on mobile.
@@ -500,6 +557,13 @@ toggle.name = "Switch to light mode"
 #icon = "fontawesome/brands/github"
 #link = "https://github.com/user/repo"
 
+[project.extra]
+alternate = [
+  { name = "English", link = "/en/", lang = "en" },
+  { name = "日本語", link = "/ja/", lang = "ja" },
+  { name = "繁體中文", link = "/zh-TW/", lang = "zh-TW" }
+]
+
 [[project.extra.social]]
 icon = "simple/youtube"
 link = "https://www.youtube.com/channel/UCTf4mKUL4k6-2skp1kxPDXg"
@@ -557,9 +621,9 @@ note = """
 # ----------------------------------------------------------------------------
 # The "Extension" section contains miscellaneous settings.
 # ----------------------------------------------------------------------------
-
 [project.markdown_extensions.abbr]
 [project.markdown_extensions.pymdownx.snippets]
+#base_path = ["includes/snippets"]
 auto_append = ["includes/abbreviations.md"]
 [project.markdown_extensions.admonition]
 [project.markdown_extensions.attr_list]
@@ -570,8 +634,8 @@ auto_append = ["includes/abbreviations.md"]
 permalink = true
 toc_depth = 3
 [project.markdown_extensions.toc.slugify]
-function = "pymdownx.slugs.slugify"
-kwds = { case = "lower" }
+object = "pymdownx.slugs.slugify"
+kwds = { case = "lower", unicode = true }
 [project.markdown_extensions.pymdownx.tabbed]
 alternate_style = true
 [project.markdown_extensions.pymdownx.tabbed.slugify]
@@ -604,6 +668,18 @@ clickable_checkbox = true
 
 [project.markdown_extensions.zensical.extensions.preview]
 [[project.markdown_extensions.zensical.extensions.preview.configurations]]
+#sources.include = ["**/*.md"]
+#sources.exclude = []
+#targets.include = ["ec/*", "pos/**"]
+#targets.exclude = []
 targets.include = [
     "resources/references/*"
 ]
+
+[project.plugins.autorefs]
+# Optional: Set how link titles are generated
+# options: "auto" (default), "true", "false", or "external"
+link_titles = "auto"
+
+# Optional: Prevent stripping of HTML tags from titles
+strip_title_tags = false

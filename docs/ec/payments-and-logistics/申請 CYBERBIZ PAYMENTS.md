@@ -33,7 +33,7 @@ prerequisites:
 lang: zh-TW
 sites:
   - TW
-status: 
+status:
 tags:
   - Payments
   - Application
@@ -41,9 +41,9 @@ difficulty: medium
 audiences:
   - merchants
 wp_url:
-  - [[archive/wordpress/wp-reg-20260106/PLUS用戶 - CYBERBIZ PAYMENTS 金流申請流程|PLUS用戶 - CYBERBIZ PAYMENTS 金流申請流程]]
-  - "https://www.cyberbiz.io/support/?p=34623"
-  - "https://www.cyberbiz.io/helpcenter/?p=6738"
+  - - - archive/wordpress/wp-reg-20260106/PLUS用戶 - CYBERBIZ PAYMENTS 金流申請流程|PLUS用戶 - CYBERBIZ PAYMENTS 金流申請流程
+  - https://www.cyberbiz.io/support/?p=34623
+  - https://www.cyberbiz.io/helpcenter/?p=6738
 notes:
   - 補充審核所需的一般時長。
 comments: ""

@@ -1,28 +1,24 @@
 ---
-title: 整合串接
+title: 整合串接第三方平台服務
 description: 串接第三方平台、API 與服務，提升商店功能與自動化能力。
 icon: lucide/webhook
 hide:
-  - toc
   - feedback
 notes:
   - 整合串接功能說明 link
 ---
 
-# 整合串接
+# 整合串接第三方服務
 
-<div class="grid" markdown>
+![](../../assets/images/ec-integrations-hero.zh-tw.png){ .hero-page }
 
-<br>
-<big>__開始使用__</big>  
-連接第三方服務與自動化商店流程。  
-透過 API 串接與平台整合，擴展商店功能並提升營運效率。  
-<br>
-[快速上手 :lucide-circle-arrow-right:](quickstart.md)
 
-![](../../assets/images/ec-integrations-hero.zh-tw.png)
 
-</div>
+## Facebook
+
+## Google
+
+## LINE
 
 ---
 
