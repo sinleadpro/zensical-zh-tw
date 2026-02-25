@@ -25,5 +25,19 @@ Thumbs.db
 .venv/
 env/
 
+# Syncthing
+
+## Safety marker - DO NOT DELETE. 
+## If this is missing, Syncthing stops to prevent data loss.
+.stfolder
+
+## Trash Can / Versioning folder. 
+## Safe to ignore if you don't want to sync deleted files to other devices.
+.stversions
+
+## The ignore file itself.
+## Adding this prevents the ignore rules from syncing to other devices.
+.stignore
+
 # Ann's files
 .cursorindexingignore
