@@ -34,9 +34,6 @@ search:
 icon: ""
 ---
 
-
-# {{title}}
-
 { .subtitle }
 
 { .doc-badge }

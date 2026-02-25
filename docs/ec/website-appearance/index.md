@@ -1,3 +1,3 @@
 ---
-icon: lucide/store
+icon: lucide/palette
 ---
