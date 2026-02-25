@@ -55,32 +55,21 @@ copyright = """
         { "分析報表" = "ec/analytics/index.md" },
         { "訂單" = [
             { "orders" = "ec/orders/index.md" },
-            { "訂單管理介面" = "ec/orders/訂單管理介面說明.md" },
-            { "訂單出貨流程" = "ec/orders/訂單出貨流程.md" },
-            { "物流提示文字" = "ec/orders/出貨狀態物流提示文字說明.md" },
-            { "訂單自動結案" = "ec/orders/設定訂單自動結案.md" },
-            { "顧客付款連結" = "ec/orders/提供顧客付款連結.md" },
-            { "未付款提醒" = "ec/orders/設定未付款提醒.md" },
-            { "超商出貨店到店 C2C" = "ec/orders/操作超商店到店 C2C 出貨.md" },
-            { "超商出貨大宗寄倉 B2C" = "ec/orders/操作超商大宗寄倉 B2C 出貨.md" },
-            { "全家冷凍店到店 C2C" = "ec/orders/操作全家冷凍店到店 C2C 出貨.md" },
-            { "超商退貨便" = "ec/orders/操作超商退貨便 C2B.md" },
-            { "黑貓快速到店付款設定" = "ec/orders/設定黑貓快速到店付款方式.md" },
-            { "熱感列印托運單" = "ec/orders/熱感列印超商托運單.md" }, 
-            { "參考資料" = [
-                { "訂單列表欄位參考表" = "ec/orders/references/訂單列表欄位參考表.md" },
-                { "訂單搜尋規範" = "ec/orders/references/訂單搜尋欄位規範.md" },
-                { "篩選欄位定義" = "ec/orders/references/訂單篩選條件欄位定義.md" },
-                { "訂單列表操作選項" = "ec/orders/references/訂單列表操作功能說明.md" }
-            ]},
+            { "開啟會員退貨申請功能" = "ec/orders/開啟會員退貨申請功能.md"},
+            { "訂單退貨流程" = "ec/orders/訂單退貨流程.md"},
+            { "訂單退款流程" = "ec/orders/訂單退款流程.md"},
+            { "綠界後台查詢教學" = "ec/orders/綠界後台查詢教學.md"},
         ]},
         { "會員" = [
-            { "會員管理" = "ec/members/index.md" },
-            { "VIP設定" = [
-                    {"VIP制度運作機制" = "ec/members/VIP制度運作機制.md"},
-                    { "VIP 設定" = "ec/members/設定 VIP 群組.md" },
-                    {"設計VIP專屬優惠" = "ec/members/設計VIP專屬優惠.md"},
-                    {"設計VIP群組標籤" = "ec/members/設定VIP群組標籤.md"},
+            { "批次匯入與編輯會員" = "ec/members/批次匯入與編輯會員.md"},
+            { "管理會員檔案" = "ec/members/管理會員檔案.md"},
+            { "官網會員客服問答系統" = "ec/members/官網會員客服問答系統.md"},
+            { "新版VIP設定" = [
+                    {"VIP功能運作指南" = "ec/members/VIP功能運作指南.md"},
+                    {"建立全館VIP制度" = "ec/members/建立全館VIP制度.md"},
+                    {"建立特殊VIP群組" = "ec/members/建立特殊VIP群組.md"},
+                    {"設定VIP專屬優惠" = "ec/members/設定VIP專屬優惠.md"},
+                    
             ]},
         ]},
         { "商品" = [
@@ -144,12 +133,15 @@ copyright = """
             { "滿額贈滿件贈"= "ec/marketing/設定滿額贈與滿件贈.md" },
             { "訂單加價購" = "ec/marketing/設定訂單加價購.md" },
             { "商品加價購" = "ec/marketing/設定商品加價購.md" },
-            { "互動遊戲" = "ec/marketing/設定互動遊戲.md" },
-            { "指定商品送優惠券" = "ec/marketing/設定指定商品送優惠券.md" },
-            { "指定商品送紅利" = "ec/marketing/設定指定商品送紅利.md" },
-            { "指定金流送紅利" = "ec/marketing/設定指定金流送紅利.md" },
-            { "指定商品送活動序號" = "ec/marketing/設定指定商品送活動序號.md" },
-            { "紅利商城" = "ec/marketing/設定紅利商城.md" },
+            {"期間限定首購禮" = "ec/marketing/設定期間限定首購禮.md"},
+            {"互動遊戲" = "ec/marketing/設定互動遊戲.md"},
+            {"一頁式商店" = "ec/marketing/設定一頁式商店.md"},
+            {"指定商品送優惠券" = "ec/marketing/設定指定商品送優惠券.md"},
+            {"指定商品送紅利" = "ec/marketing/設定指定商品送紅利.md"},
+            {"指定金流送紅利" = "ec/marketing/設定指定金流送紅利.md"},
+            {"指定物流送紅利" = "ec/marketing/設定指定物流送紅利.md"},
+            {"指定商品送活動序號" = "ec/marketing/設定指定商品送活動序號.md"},
+            {"紅利商城" = "ec/marketing/設定紅利商城.md"},
             { "商品多層級分類滿額折扣" = "ec/marketing/設定商品多層級分類滿額折扣.md" },
             { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" },
             { "行銷活動" = [
@@ -168,6 +160,20 @@ copyright = """
             { "LINE OA 樣板管理" = "ec/notifications/設定與管理 LINE OA 通知樣板.md" },
             { "LINE 加入好友邀請" = "ec/notifications/發送 LINE 加入好友邀請.md" },
             { "庫存過低通知" = "ec/notifications/庫存過低通知.md" }
+            
+            { "訊息推播" = [
+                    { "" = "ec/marketing/"},
+                    { "庫存過低通知" = "ec/marketing/庫存過低通知.md"},
+                    { "" = "ec/marketing/"}
+            ]},
+        ]},
+        { "分潤" = [
+                    { "了解分潤功能" = "ec/profit-sharing/了解分潤功能.md"},
+                    { "設定推薦人分潤方案" = "ec/profit-sharing/設定推薦人分潤方案.md"},
+                    { "設定註冊人分潤方案" = "ec/profit-sharing/設定註冊人分潤方案.md"},
+                    { "匯出分潤報表" = "ec/profit-sharing/匯出分潤報表.md"},
+                    { "查詢分潤夥伴與代碼資訊" = "ec/profit-sharing/查詢分潤夥伴與代碼資訊.md"},
+                    { "推薦碼連結的應用" = "ec/profit-sharing/推薦碼連結的應用.md"},
         ]},
         { "金物流" = [
             { "overview" = "ec/payments-and-logistics/index.md" },
@@ -184,6 +190,22 @@ copyright = """
             { "全家冷凍物流 B2C 設定" = "ec/payments-and-logistics/設定全家冷凍物流 B2C.md" },
             { "設定門市取貨服務"= "ec/payments-and-logistics/設定門市取貨服務.md" },
             { "設定CYBERBIZ NOW快速到貨服務" = "ec/payments-and-logistics/設定CYBERBIZ NOW快速到貨服務.md" }
+            {"設定門市取貨服務"= "ec/payments-and-logistics/CYBERBIZNOW/設定門市取貨服務.md"},
+            { "串接ezShip超商取貨(C2C)" = "ec/payments-and-logistics/串接ezShip超商取貨(C2C).md"},
+            { "申請綠界金流與超商取貨付款" = "ec/payments-and-logistics/申請綠界金流與超商取貨付款.md"},
+            { "CYBERBIZ NOW" = [
+                    { "overview" = "ec/payments-and-logistics/CYBERBIZNOW/index.md" },
+                    {"開啟快速到貨服務" = "ec/payments-and-logistics/CYBERBIZNOW/開啟CYBERBIZ NOW快速到貨服務.md"},
+                    {"複製商品到快速到貨門市"= "ec/payments-and-logistics/CYBERBIZNOW/複製商品到快速到貨門市.md"},
+                    {"設定快速到貨前台入口與專區"= "ec/payments-and-logistics/CYBERBIZNOW/設定快速到貨前台入口與專區.md"},
+                    {"快速到貨訂單接單準備"= "ec/payments-and-logistics/CYBERBIZNOW/快速到貨訂單接單準備.md"},
+                    {"快速到貨出貨與配送"= "ec/payments-and-logistics/CYBERBIZNOW/快速到貨出貨與配送.md"},
+                    {"缺貨訂單部分出貨或取消流程"= "ec/payments-and-logistics/CYBERBIZNOW/缺貨訂單部分出貨或取消流程.md"},
+                    {"快速到貨配送異常規範"= "ec/payments-and-logistics/CYBERBIZNOW/快速到貨配送異常規範.md"},
+                    {"運費計算與對帳規範"= "ec/payments-and-logistics/CYBERBIZNOW/運費計算與對帳規範.md"},
+                    {"消費者購買流程"= "ec/payments-and-logistics/CYBERBIZNOW/消費者購買流程.md"},
+            ]},
+            { "星益欣電子發票設定指南" = "ec/payments-and-logistics/星益欣電子發票設定指南.md" },
         ]},
         { "網站外觀" = [
             { "overview" = "ec/website-appearance/index.md" },
@@ -192,6 +214,13 @@ copyright = """
             { "拖拉版型設定" = "ec/website-appearance/拖拉版型網站設定.md" },
             { "選單與導覽列" = "ec/website-appearance/設定選單與導覽列.md "},
             { "全站商品列表群組排序" = "ec/website-appearance/設定前台商品群組排序.md" }
+        ]},
+        { "商店設定" = [
+            { "商店設定" = "ec/store/index.md" },
+            { "系統通知設定" = "ec/store/系統通知設定.md" },
+            { "設定多國語言與多幣別" = "ec/website-management/設定多國語言與多幣別.md" },
+            { "設定顧客註冊流程與欄位" = "ec/website-management/設定顧客註冊流程與欄位.md" },
+            { "為特定網域信箱套用指定會員標籤" = "ec/website-management/為特定網域信箱套用指定會員標籤.md" },
         ]},
         { "APP MARKET" = [
             { "overview" = "ec/app-market/index.md" },
