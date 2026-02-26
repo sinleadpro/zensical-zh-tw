@@ -86,7 +86,7 @@ copyright = """
                 { "秘密商品群組" = "ec/products/organization/設定秘密商品群組.md" }
             ]},
             { "銷售與互動" = [
-                { "搜尋結果排除特定商品" = "ec/products/sales/透過關鍵字排除搜尋結果中的特定商品.md" }
+                { "搜尋結果排除特定商品" = "ec/products/sales/在搜尋結果中排除特定關鍵字商品.md" }
             ]},
             { "商品上架" = [
                 { "新增單一商品" = "ec/products/新增單一商品.md"},
@@ -147,10 +147,6 @@ copyright = """
             { "紅利商城" = "ec/marketing/設定紅利商城.md"},
             { "商品多層級分類滿額折扣" = "ec/marketing/設定商品多層級分類滿額折扣.md" },
             { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" },
-            { "行銷活動" = [
-                { "結帳優惠計算順序" = "ec/marketing/結帳優惠計算順序.md" },
-                { "結帳優惠計算順序-rev" = "ec/marketing/結帳優惠計算順序-rev.md" }
-            ]},
         ]},  
         { "分潤" = [
             { "overview" = "ec/profit-sharing/index.md"},
@@ -677,3 +673,4 @@ targets.include = [
 
 # Optional: Prevent stripping of HTML tags from titles
 #strip_title_tags = false
+

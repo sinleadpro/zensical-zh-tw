@@ -6,22 +6,8 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 46.666666666666664,
+        "dimension": 41.13475177304964,
         "children": [
-          {
-            "id": "1bb773f69eb50a7e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/products/sales/在搜尋結果中排除特定關鍵字商品.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "在搜尋結果中排除特定關鍵字商品"
-            }
-          },
           {
             "id": "1e22328f6f9122a7",
             "type": "leaf",
@@ -37,7 +23,7 @@
             }
           },
           {
-            "id": "8f3fa9e5690a7160",
+            "id": "d711c35cac76f8ac",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -50,82 +36,82 @@
               "title": "使用樣板編輯器恢復網頁代碼"
             }
           }
+        ]
+      },
+      {
+        "id": "d9e38851fccdb10c",
+        "type": "tabs",
+        "dimension": 23.404255319148938,
+        "children": [
+          {
+            "id": "002e7cc5017e036f",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.google.com/",
+                "title": "Google",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Google"
+            }
+          },
+          {
+            "id": "44d5ec0d46933f61",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.google.com/",
+                "title": "Google",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Google"
+            }
+          }
         ],
         "currentTab": 1
       },
       {
-        "id": "145b9f26bb568cb5",
+        "id": "74dd1daaeb40eac4",
         "type": "tabs",
-        "dimension": 17.77777777777778,
+        "dimension": 17.73049645390071,
         "children": [
           {
-            "id": "12e2159ff224b777",
+            "id": "eea1d6126d665e64",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=5333",
-                "title": "逆物流(收取退貨) - CYBERBIZ 一般版教學文件",
+                "url": "https://www.google.com/",
+                "title": "Google",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "逆物流(收取退貨) - CYBERBIZ 一般版教學文件"
-            }
-          },
-          {
-            "id": "769d4aaaf85984eb",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=10497",
-                "title": "商家自行驗收退貨 - CYBERBIZ 一般版教學文件",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "商家自行驗收退貨 - CYBERBIZ 一般版教學文件"
+              "title": "Google"
             }
           }
         ]
       },
       {
-        "id": "0f41cb20a1d95388",
+        "id": "2c57acc736defe7a",
         "type": "tabs",
-        "dimension": 17.77777777777778,
+        "dimension": 17.73049645390071,
         "children": [
           {
-            "id": "07ebbe6f1ba43e31",
+            "id": "b85f0764f4b4a7ce",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=3579",
-                "title": "樣版編輯器 / 特殊語法教學 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.google.com/",
+                "title": "Google",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "樣版編輯器 / 特殊語法教學 - CYBERBIZ 一般版教學文件"
-            }
-          }
-        ]
-      },
-      {
-        "id": "ea951fb7d70bee14",
-        "type": "tabs",
-        "dimension": 17.77777777777778,
-        "children": [
-          {
-            "id": "af5a39eba69ac1cd",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.cyberbiz.io/support/?p=17612",
-                "title": "樣版編輯器 / 特殊語法教學",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "樣版編輯器 / 特殊語法教學"
+              "title": "Google"
             }
           }
         ]
@@ -302,7 +288,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -325,43 +311,45 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1e22328f6f9122a7",
+  "active": "bc5e7ee3a9f5fb45",
   "lastOpenFiles": [
-    "site/ec/website-appearance/設定網頁鎖右鍵保護圖文版權/index.html",
-    "site/ec/website-appearance/設定網頁鎖右鍵保護圖文版權",
-    "site/ec/payments-and-logistics/CYBERBIZNOW/複製商品到快速到貨門市/index.html",
-    "site/ec/payments-and-logistics/CYBERBIZNOW/複製商品到快速到貨門市",
-    "site/ec/integrations/google/設定自動化廣告/index.html",
-    "site/ec/integrations/google/設定自動化廣告",
-    "site/ec/payments-and-logistics/設定門市取貨服務/index.html",
-    "site/ec/payments-and-logistics/設定門市取貨服務",
-    "site/ec/products/設定結帳拆分多購物車/index.html",
-    "site/ec/products/設定結帳拆分多購物車",
-    "site/ec/integrations/line/設定 LIFF 自動登入與會員綁定/index.html",
-    "docs/ec/products/creation/編輯商品簡述與商品標語.md",
-    "docs/ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md",
-    "docs/ec/products/sales/在搜尋結果中排除特定關鍵字商品.md",
-    "docs/ec/products/透過關鍵字排除搜尋結果中的特定商品.md",
-    "docs/ec/website-appearance/樣板編輯器操作全攻略.md",
-    "templates/tutorial-layout.md",
-    "site/assets/images/ec-商品-商品名稱-秘密群組關鍵字.png",
-    "docs/assets/images/ec-商品-商品名稱-秘密群組關鍵字.png",
     "docs/ec/website-appearance/使用樣板編輯器恢復網頁代碼.md",
+    "docs/ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md",
+    "site/ec/profit-sharing/匯出分潤報表/index.html",
+    "site/ec/profit-sharing/匯出分潤報表",
+    "site/ec/payments-and-logistics/CYBERBIZNOW/缺貨訂單部分出貨或取消流程/index.html",
+    "site/ec/payments-and-logistics/CYBERBIZNOW/缺貨訂單部分出貨或取消流程",
+    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款/index.html",
+    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款",
+    "site/ec/products/設定商品影片/index.html",
+    "site/ec/products/設定商品影片",
+    "site/ec/marketing/設定任選折扣/index.html",
+    "site/ec/marketing/設定任選折扣",
+    "docs/ec/products/sales/在搜尋結果中排除特定關鍵字商品.md",
+    "docs/ec/website-appearance/設定選單與導覽列.md",
+    "docs/ec/website-appearance/樣板編輯器操作全攻略.md",
+    "site/assets/images/ec-網站外觀-樣板編輯器-theme-liquid.png",
+    "docs/assets/images/ec-網站外觀-樣板編輯器-theme-liquid.png",
+    "site/assets/images/ec-訂單-所有訂單.png",
+    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
+    "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
+    "site/assets/images/ec-about-us-page-configure.zh-tw.png",
+    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
+    "site/assets/images/EC-後台-管理中心-網域信箱標籤設定-畫面總覽01.png",
+    "site/assets/images/ec-products-filters.zh-tw.png",
+    "site/assets/images/ec-advance-mass-import.zh-tw.png",
+    "docs/ec/marketing/結帳優惠計算順序-rev.md",
+    "docs/ec/marketing/結帳優惠計算順序.md",
+    "docs/ec/products/creation/編輯商品簡述與商品標語.md",
+    "docs/ec/products/透過關鍵字排除搜尋結果中的特定商品.md",
+    "templates/tutorial-layout.md",
     "docs/ec/payments-and-logistics/設定 PayPal.md",
-    "docs/assets/images/ec-網站外觀-樣板編輯器-search-liquid.png",
-    "site/assets/images/ec-網站外觀-樣板編輯器-search-liquid.png",
     "docs/ec/products/organization/設定秘密商品群組.md",
     "docs/ec/products/organization/設定商品自訂分類群組.md",
-    "site/assets/images/ec-商品-秘密群組-關閉商品搜尋功能.gif",
-    "docs/assets/images/ec-商品-秘密群組-關閉商品搜尋功能.gif",
-    "site/assets/images/ec-商品-秘密群組-關閉商品搜尋.gif",
-    "docs/assets/images/ec-商品-秘密群組-關閉商品搜尋.gif",
     "docs/ec/website-management/index.md",
     "docs/ec/website-appearance/index.md",
     "docs/ec/profit-sharing/index.md",
     "docs/ec/members/index.md",
-    "site/assets/images/綠界-後台-查詢交易明細01.png",
-    "site/assets/images/EZSHIP-後台-申請超取-購物網站串接01.png",
     "docs/ec/website-management/設定顧客註冊流程與欄位.md",
     "docs/ec/website-management/設定多國語言與多幣別.md",
     "docs/ec/website-management/為特定網域信箱套用指定會員標籤.md",
@@ -369,9 +357,6 @@
     "docs/ec/profit-sharing/設定推薦人分潤方案.md",
     "docs/ec/profit-sharing/查詢分潤夥伴與代碼資訊.md",
     "docs/ec/profit-sharing/推薦碼連結的應用.md",
-    "docs/ec/profit-sharing/匯出分潤報表.md",
-    "docs/ec/profit-sharing/了解分潤功能.md",
-    "docs/ec/payments-and-logistics/申請綠界金流與超商取貨付款.md",
-    "docs/ec/payments-and-logistics/串接ezShip超商取貨(C2C).md"
+    "docs/ec/profit-sharing/匯出分潤報表.md"
   ]
 }
