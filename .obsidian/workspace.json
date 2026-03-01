@@ -6,42 +6,57 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 41.13475177304964,
+        "dimension": 37.71073646850044,
         "children": [
           {
-            "id": "1e22328f6f9122a7",
+            "id": "2208f1ec06f7c6d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md",
+                "file": "docs/ec/products/organization/設定商品自訂分類群組.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定網頁鎖右鍵保護圖文版權"
+              "title": "設定商品自訂分類群組"
             }
           },
           {
-            "id": "d711c35cac76f8ac",
+            "id": "17aaa41c246da844",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/website-appearance/使用樣板編輯器恢復網頁代碼.md",
+                "file": "docs/ec/products/index.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "使用樣板編輯器恢復網頁代碼"
+              "title": "index"
+            }
+          },
+          {
+            "id": "7311d20690685318",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/website-appearance/設定轉貼連結縮圖 (OG Image).md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定轉貼連結縮圖 (OG Image)"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       },
       {
         "id": "d9e38851fccdb10c",
         "type": "tabs",
-        "dimension": 23.404255319148938,
+        "dimension": 17.74622892635315,
         "children": [
           {
             "id": "002e7cc5017e036f",
@@ -64,11 +79,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.google.com/",
-                "title": "Google",
-                "mode": "webview"
+                "title": "google.com",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "Google"
+              "title": "google.com"
             }
           }
         ],
@@ -77,7 +92,7 @@
       {
         "id": "74dd1daaeb40eac4",
         "type": "tabs",
-        "dimension": 17.73049645390071,
+        "dimension": 21.827861579414375,
         "children": [
           {
             "id": "eea1d6126d665e64",
@@ -85,12 +100,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.google.com/",
-                "title": "Google",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=3843",
+                "title": "轉貼連結預設圖片(OG image) - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Google"
+              "title": "轉貼連結預設圖片(OG image) - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,7 +113,7 @@
       {
         "id": "2c57acc736defe7a",
         "type": "tabs",
-        "dimension": 17.73049645390071,
+        "dimension": 22.71517302573203,
         "children": [
           {
             "id": "b85f0764f4b4a7ce",
@@ -106,12 +121,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.google.com/",
-                "title": "Google",
+                "url": "https://www.cyberbiz.io/support/?p=19718",
+                "title": "轉貼連結預設圖片(OG image)",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Google"
+              "title": "轉貼連結預設圖片(OG image)"
             }
           }
         ]
@@ -288,7 +303,7 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -311,52 +326,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "bc5e7ee3a9f5fb45",
+  "active": "17aaa41c246da844",
   "lastOpenFiles": [
-    "docs/ec/website-appearance/使用樣板編輯器恢復網頁代碼.md",
+    "site/ec/website-appearance/index.html",
+    "site/ec/integrations/line/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結/index.html",
+    "site/ec/integrations/line/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結",
+    "site/ec/website-appearance/設定前台語系與文字自定義/index.html",
+    "site/ec/website-appearance/設定前台語系與文字自定義",
+    "site/resources/index.html",
+    "site/ec/payments-and-logistics/AFTEE先享後付 金流說明/index.html",
+    "site/ec/payments-and-logistics/AFTEE先享後付 金流說明",
+    "site/ec/payments-and-logistics/設定 PayPal/index.html",
+    "site/ec/payments-and-logistics/設定 PayPal",
+    "site/ec/website-appearance/設定選單與導覽列/index.html",
+    "docs/ec/website-appearance/設定轉貼連結縮圖 (OG Image).md",
+    "docs/ec/products/organization/設定商品自訂分類群組.md",
+    "site/assets/images/ec-商品-商品編輯頁-商品圖片-第一張.gif",
+    "docs/assets/images/ec-商品-商品編輯頁-商品圖片-第一張.gif",
+    "templates/lucide-square-pen.md",
+    "site/assets/images/ec-商品-商品編輯頁-商品圖片.png",
+    "docs/assets/images/ec-商品-商品編輯頁-商品圖片.png",
+    "docs/ec/products/index.md",
+    "site/assets/images/ec-網站外觀-og-image.png",
+    "docs/assets/images/ec-網站外觀-og-image.png",
+    "includes/abbreviations.md",
+    "docs/ec/website-appearance/設定前台語系與文字自定義.md",
+    "templates/lucide-folder-tree.md",
     "docs/ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md",
-    "site/ec/profit-sharing/匯出分潤報表/index.html",
-    "site/ec/profit-sharing/匯出分潤報表",
-    "site/ec/payments-and-logistics/CYBERBIZNOW/缺貨訂單部分出貨或取消流程/index.html",
-    "site/ec/payments-and-logistics/CYBERBIZNOW/缺貨訂單部分出貨或取消流程",
-    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款/index.html",
-    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款",
-    "site/ec/products/設定商品影片/index.html",
-    "site/ec/products/設定商品影片",
-    "site/ec/marketing/設定任選折扣/index.html",
-    "site/ec/marketing/設定任選折扣",
-    "docs/ec/products/sales/在搜尋結果中排除特定關鍵字商品.md",
-    "docs/ec/website-appearance/設定選單與導覽列.md",
+    "docs/ec/products/organization/設定秘密商品群組.md",
+    "docs/ec/products/sales/設定搜尋結果中排除特定關鍵字商品.md",
+    "docs/ec/products/organization/設定商品多層級分類.md",
+    "site/assets/images/ec-商品-商品自訂分類-meta-tag.png",
+    "docs/assets/images/ec-商品-商品自訂分類-meta-tag.png",
+    "site/assets/images/ec-商品-商品自訂分類-前台置頂橫幅設定.gif",
+    "docs/assets/images/ec-商品-商品自訂分類-前台置頂橫幅設定.gif",
+    "docs/ec/products/get-started/商品管理介面說明.md",
+    "docs/ec/products/creation/編輯商品簡述與商品標語.md",
+    "bases/products moc.md",
+    "templates/tutorial-layout.md",
+    "docs/ec/products/references/CKEditor 編輯器教學.md",
     "docs/ec/website-appearance/樣板編輯器操作全攻略.md",
-    "site/assets/images/ec-網站外觀-樣板編輯器-theme-liquid.png",
-    "docs/assets/images/ec-網站外觀-樣板編輯器-theme-liquid.png",
-    "site/assets/images/ec-訂單-所有訂單.png",
-    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
-    "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
-    "site/assets/images/ec-about-us-page-configure.zh-tw.png",
-    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
-    "site/assets/images/EC-後台-管理中心-網域信箱標籤設定-畫面總覽01.png",
-    "site/assets/images/ec-products-filters.zh-tw.png",
-    "site/assets/images/ec-advance-mass-import.zh-tw.png",
+    "docs/ec/website-appearance/使用樣板編輯器恢復網頁代碼.md",
+    "templates/yaml.md",
+    "docs/ec/website-appearance/設定選單與導覽列.md",
     "docs/ec/marketing/結帳優惠計算順序-rev.md",
     "docs/ec/marketing/結帳優惠計算順序.md",
-    "docs/ec/products/creation/編輯商品簡述與商品標語.md",
     "docs/ec/products/透過關鍵字排除搜尋結果中的特定商品.md",
-    "templates/tutorial-layout.md",
     "docs/ec/payments-and-logistics/設定 PayPal.md",
-    "docs/ec/products/organization/設定秘密商品群組.md",
-    "docs/ec/products/organization/設定商品自訂分類群組.md",
-    "docs/ec/website-management/index.md",
-    "docs/ec/website-appearance/index.md",
-    "docs/ec/profit-sharing/index.md",
-    "docs/ec/members/index.md",
-    "docs/ec/website-management/設定顧客註冊流程與欄位.md",
-    "docs/ec/website-management/設定多國語言與多幣別.md",
-    "docs/ec/website-management/為特定網域信箱套用指定會員標籤.md",
-    "docs/ec/profit-sharing/設定註冊人分潤方案.md",
-    "docs/ec/profit-sharing/設定推薦人分潤方案.md",
-    "docs/ec/profit-sharing/查詢分潤夥伴與代碼資訊.md",
-    "docs/ec/profit-sharing/推薦碼連結的應用.md",
-    "docs/ec/profit-sharing/匯出分潤報表.md"
+    "docs/ec/website-management/index.md"
   ]
 }
