@@ -19,6 +19,51 @@ hide:
 
 ---
 
+
+[:lucide-package-plus:](新增單一商品){ .md-button title="新增第一個商品" }
+[:lucide-import:](#){ .md-button title="Excel 大量匯入"}
+
+
+
+---
+
+
+## :lucide-rocket: 快速上手
+
+掌握基礎介面與單一商品上架。
+
+介面導覽、建立商品流程
+
+
+## :lucide-settings-2: 基礎配置
+
+設定商品的核心規格與配送方式。
+
+組合商品、物流溫層設定
+
+## :lucide-layout-dashboard: 營運管理
+
+組織你的目錄，讓顧客更容易找到商品。
+
+多層級分類、搜尋篩選器
+
+## :lucide-zap: 批量與效率
+
+利用大量化工具，節省維運時間。
+
+Excel 匯入、批次編輯
+
+## :lucide-trending-up: 進階銷售
+
+運用進階策略，提升客單價與轉化率。
+
+VIP 價格、**搜尋可見性排除**
+
+## :lucide-book: 參考資源 
+
+## :lucide-message-circle-question-mark: 常見問題 
+
+
 ### 開始使用
 
 <div class="grid cards" markdown>
@@ -78,7 +123,7 @@ hide:
    建立與管理商品標籤，以利搜尋與分組。  
 
 - :lucide-navigation:{ .lg }   
-  [__導覽列與前台顯示__](設定商品多層級分類)  
+  [__導覽列與前台顯示__](設定商品多層級分類.md)  
    管理前台分類排序與篩選功能。  
 
 </div>

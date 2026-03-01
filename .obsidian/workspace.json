@@ -6,126 +6,127 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 46.666666666666664,
+        "dimension": 37.71073646850044,
         "children": [
           {
-            "id": "1bb773f69eb50a7e",
+            "id": "2208f1ec06f7c6d7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/sales/在搜尋結果中排除特定關鍵字商品.md",
+                "file": "docs/ec/products/organization/設定商品自訂分類群組.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "在搜尋結果中排除特定關鍵字商品"
+              "title": "設定商品自訂分類群組"
             }
           },
           {
-            "id": "1e22328f6f9122a7",
+            "id": "17aaa41c246da844",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/website-appearance/樣板編輯器操作全攻略.md",
+                "file": "docs/ec/products/index.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "樣板編輯器操作全攻略"
+              "title": "index"
             }
           },
           {
-            "id": "8f3fa9e5690a7160",
+            "id": "7311d20690685318",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/website-appearance/使用樣板編輯器恢復網頁代碼.md",
+                "file": "docs/ec/website-appearance/設定轉貼連結縮圖 (OG Image).md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "使用樣板編輯器恢復網頁代碼"
+              "title": "設定轉貼連結縮圖 (OG Image)"
             }
           }
         ],
         "currentTab": 1
       },
       {
-        "id": "145b9f26bb568cb5",
+        "id": "d9e38851fccdb10c",
         "type": "tabs",
-        "dimension": 17.77777777777778,
+        "dimension": 17.74622892635315,
         "children": [
           {
-            "id": "12e2159ff224b777",
+            "id": "002e7cc5017e036f",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=5333",
-                "title": "逆物流(收取退貨) - CYBERBIZ 一般版教學文件",
+                "url": "https://www.google.com/",
+                "title": "Google",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "逆物流(收取退貨) - CYBERBIZ 一般版教學文件"
+              "title": "Google"
             }
           },
           {
-            "id": "769d4aaaf85984eb",
+            "id": "44d5ec0d46933f61",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=10497",
-                "title": "商家自行驗收退貨 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.google.com/",
+                "title": "google.com",
+                "mode": "error"
+              },
+              "icon": "globe-2",
+              "title": "google.com"
+            }
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "74dd1daaeb40eac4",
+        "type": "tabs",
+        "dimension": 21.827861579414375,
+        "children": [
+          {
+            "id": "eea1d6126d665e64",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.cyberbiz.io/helpcenter/?p=3843",
+                "title": "轉貼連結預設圖片(OG image) - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "商家自行驗收退貨 - CYBERBIZ 一般版教學文件"
+              "title": "轉貼連結預設圖片(OG image) - CYBERBIZ 一般版教學文件"
             }
           }
         ]
       },
       {
-        "id": "0f41cb20a1d95388",
+        "id": "2c57acc736defe7a",
         "type": "tabs",
-        "dimension": 17.77777777777778,
+        "dimension": 22.71517302573203,
         "children": [
           {
-            "id": "07ebbe6f1ba43e31",
+            "id": "b85f0764f4b4a7ce",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=3579",
-                "title": "樣版編輯器 / 特殊語法教學 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/support/?p=19718",
+                "title": "轉貼連結預設圖片(OG image)",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "樣版編輯器 / 特殊語法教學 - CYBERBIZ 一般版教學文件"
-            }
-          }
-        ]
-      },
-      {
-        "id": "ea951fb7d70bee14",
-        "type": "tabs",
-        "dimension": 17.77777777777778,
-        "children": [
-          {
-            "id": "af5a39eba69ac1cd",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.cyberbiz.io/support/?p=17612",
-                "title": "樣版編輯器 / 特殊語法教學",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "樣版編輯器 / 特殊語法教學"
+              "title": "轉貼連結預設圖片(OG image)"
             }
           }
         ]
@@ -212,12 +213,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/ec/website-appearance/樣板編輯器操作全攻略.md",
+                "file": "docs/ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 樣板編輯器操作全攻略"
+              "title": "Outgoing links from 設定網頁鎖右鍵保護圖文版權"
             }
           },
           {
@@ -325,53 +326,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "1e22328f6f9122a7",
+  "active": "17aaa41c246da844",
   "lastOpenFiles": [
-    "site/ec/products/index 1/index.html",
-    "site/ec/products/index 1",
-    "site/ec/payments-and-logistics/設定門市取貨服務/index.html",
-    "site/ec/payments-and-logistics/設定門市取貨服務",
-    "site/ec/products/設定商品多層級分類/index.html",
-    "site/ec/products/設定商品多層級分類",
-    "site/ec/products/Excel 大量匯入商品/index.html",
-    "site/ec/products/Excel 大量匯入商品",
-    "site/ec/products/編輯商品簡述與商品標語/index.html",
-    "site/ec/products/編輯商品簡述與商品標語",
-    "site/resources/glossary/index.html",
-    "docs/ec/products/sales/在搜尋結果中排除特定關鍵字商品.md",
-    "docs/ec/website-appearance/樣板編輯器操作全攻略.md",
-    "templates/tutorial-layout.md",
-    "site/assets/images/ec-商品-商品名稱-秘密群組關鍵字.png",
-    "docs/assets/images/ec-商品-商品名稱-秘密群組關鍵字.png",
-    "docs/ec/website-appearance/使用樣板編輯器恢復網頁代碼.md",
-    "docs/ec/payments-and-logistics/設定 PayPal.md",
-    "docs/assets/images/ec-網站外觀-樣板編輯器-search-liquid.png",
-    "site/assets/images/ec-網站外觀-樣板編輯器-search-liquid.png",
-    "docs/ec/products/organization/設定秘密商品群組.md",
+    "site/ec/website-appearance/index.html",
+    "site/ec/integrations/line/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結/index.html",
+    "site/ec/integrations/line/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結",
+    "site/ec/website-appearance/設定前台語系與文字自定義/index.html",
+    "site/ec/website-appearance/設定前台語系與文字自定義",
+    "site/resources/index.html",
+    "site/ec/payments-and-logistics/AFTEE先享後付 金流說明/index.html",
+    "site/ec/payments-and-logistics/AFTEE先享後付 金流說明",
+    "site/ec/payments-and-logistics/設定 PayPal/index.html",
+    "site/ec/payments-and-logistics/設定 PayPal",
+    "site/ec/website-appearance/設定選單與導覽列/index.html",
+    "docs/ec/website-appearance/設定轉貼連結縮圖 (OG Image).md",
     "docs/ec/products/organization/設定商品自訂分類群組.md",
-    "site/assets/images/ec-商品-秘密群組-關閉商品搜尋功能.gif",
-    "docs/assets/images/ec-商品-秘密群組-關閉商品搜尋功能.gif",
-    "site/assets/images/ec-商品-秘密群組-關閉商品搜尋.gif",
-    "docs/assets/images/ec-商品-秘密群組-關閉商品搜尋.gif",
-    "docs/ec/website-management/index.md",
-    "docs/ec/website-appearance/index.md",
-    "docs/ec/profit-sharing/index.md",
-    "docs/ec/members/index.md",
-    "site/assets/images/綠界-後台-查詢交易明細01.png",
-    "site/assets/images/EZSHIP-後台-申請超取-購物網站串接01.png",
-    "docs/ec/website-management/設定顧客註冊流程與欄位.md",
-    "docs/ec/website-management/設定多國語言與多幣別.md",
-    "docs/ec/website-management/為特定網域信箱套用指定會員標籤.md",
-    "docs/ec/profit-sharing/設定註冊人分潤方案.md",
-    "docs/ec/profit-sharing/設定推薦人分潤方案.md",
-    "docs/ec/profit-sharing/查詢分潤夥伴與代碼資訊.md",
-    "docs/ec/profit-sharing/推薦碼連結的應用.md",
-    "docs/ec/profit-sharing/匯出分潤報表.md",
-    "docs/ec/profit-sharing/了解分潤功能.md",
-    "docs/ec/payments-and-logistics/申請綠界金流與超商取貨付款.md",
-    "docs/ec/payments-and-logistics/串接ezShip超商取貨(C2C).md",
-    "docs/ec/payments-and-logistics/CYBERBIZNOW/開啟CYBERBIZ NOW快速到貨服務.md",
-    "docs/ec/payments-and-logistics/CYBERBIZNOW/運費計算與對帳規範.md",
-    "docs/ec/payments-and-logistics/CYBERBIZNOW/設定快速到貨前台入口與專區.md"
+    "site/assets/images/ec-商品-商品編輯頁-商品圖片-第一張.gif",
+    "docs/assets/images/ec-商品-商品編輯頁-商品圖片-第一張.gif",
+    "templates/lucide-square-pen.md",
+    "site/assets/images/ec-商品-商品編輯頁-商品圖片.png",
+    "docs/assets/images/ec-商品-商品編輯頁-商品圖片.png",
+    "docs/ec/products/index.md",
+    "site/assets/images/ec-網站外觀-og-image.png",
+    "docs/assets/images/ec-網站外觀-og-image.png",
+    "includes/abbreviations.md",
+    "docs/ec/website-appearance/設定前台語系與文字自定義.md",
+    "templates/lucide-folder-tree.md",
+    "docs/ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md",
+    "docs/ec/products/organization/設定秘密商品群組.md",
+    "docs/ec/products/sales/設定搜尋結果中排除特定關鍵字商品.md",
+    "docs/ec/products/organization/設定商品多層級分類.md",
+    "site/assets/images/ec-商品-商品自訂分類-meta-tag.png",
+    "docs/assets/images/ec-商品-商品自訂分類-meta-tag.png",
+    "site/assets/images/ec-商品-商品自訂分類-前台置頂橫幅設定.gif",
+    "docs/assets/images/ec-商品-商品自訂分類-前台置頂橫幅設定.gif",
+    "docs/ec/products/get-started/商品管理介面說明.md",
+    "docs/ec/products/creation/編輯商品簡述與商品標語.md",
+    "bases/products moc.md",
+    "templates/tutorial-layout.md",
+    "docs/ec/products/references/CKEditor 編輯器教學.md",
+    "docs/ec/website-appearance/樣板編輯器操作全攻略.md",
+    "docs/ec/website-appearance/使用樣板編輯器恢復網頁代碼.md",
+    "templates/yaml.md",
+    "docs/ec/website-appearance/設定選單與導覽列.md",
+    "docs/ec/marketing/結帳優惠計算順序-rev.md",
+    "docs/ec/marketing/結帳優惠計算順序.md",
+    "docs/ec/products/透過關鍵字排除搜尋結果中的特定商品.md",
+    "docs/ec/payments-and-logistics/設定 PayPal.md",
+    "docs/ec/website-management/index.md"
   ]
 }

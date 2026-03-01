@@ -20,7 +20,7 @@ features: []
 tnb: ""
 plans: []
 prerequisites: []
-lang: en-US
+lang: zh-TW
 sites: []
 status:
 tags: []
