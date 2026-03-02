@@ -60,7 +60,7 @@ icon: lucide/lock
 設定及操作 7-11 超商退貨便 (C2B)
 { .subtitle }
 
-[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手PLUS / 企業
 { .doc-badge }
 
 ![](../../assets/images/ec-金物流-超商物流-退貨便.png){ .hero-page }

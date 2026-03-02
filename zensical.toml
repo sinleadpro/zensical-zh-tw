@@ -210,6 +210,7 @@ copyright = """
             { "恢復樣板版本" = "ec/website-appearance/使用樣板編輯器恢復網頁代碼.md" },
             { "拖拉版型設定" = "ec/website-appearance/拖拉版型網站設定.md" },
             { "選單與導覽列" = "ec/website-appearance/設定選單與導覽列.md "},
+            { "自訂頁面管理" = "ec/website-appearance/設定與管理自訂頁面.md" },
             { "關閉圖片放大預覽" = "ec/website-appearance/關閉商品圖片放大預覽功能.md" },
             { "選單滑鼠移入自動展開" = "ec/website-appearance/設定導覽選單滑鼠移入自動展開.md" },
             { "轉貼連結縮圖 (OG Image)" = "ec/website-appearance/設定轉貼連結縮圖 (OG Image).md" },

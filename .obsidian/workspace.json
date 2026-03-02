@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 37.71073646850044,
+        "dimension": 42.32475598935226,
         "children": [
           {
             "id": "997a4538ff276cf0",
@@ -23,20 +23,35 @@
             }
           },
           {
-            "id": "b3f372febf6d1f72",
+            "id": "9f646d08b9c07532",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/website-appearance/設定導覽選單滑鼠移入自動展開.md",
+                "file": "docs/ec/products/編輯商品描述與商品設定.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定導覽選單滑鼠移入自動展開"
+              "title": "編輯商品描述與商品設定"
+            }
+          },
+          {
+            "id": "05593899fe30b591",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/payments-and-logistics/設定 Apple Pay.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定 Apple Pay"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       },
       {
         "id": "d9e38851fccdb10c",
@@ -77,7 +92,7 @@
       {
         "id": "74dd1daaeb40eac4",
         "type": "tabs",
-        "dimension": 21.827861579414375,
+        "dimension": 19.60958296362023,
         "children": [
           {
             "id": "eea1d6126d665e64",
@@ -85,12 +100,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=3838",
-                "title": "一頁式商店影片設定(自動播放/播放開始時間) - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=12570",
+                "title": "自訂頁面管理 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "一頁式商店影片設定(自動播放/播放開始時間) - CYBERBIZ 一般版教學文件"
+              "title": "自訂頁面管理 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,7 +113,7 @@
       {
         "id": "2c57acc736defe7a",
         "type": "tabs",
-        "dimension": 22.71517302573203,
+        "dimension": 20.319432120674357,
         "children": [
           {
             "id": "b85f0764f4b4a7ce",
@@ -106,12 +121,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=19650",
-                "title": "一頁式商店影片設定(自動播放/播放開始時間)",
+                "url": "https://www.cyberbiz.io/support/?p=40485",
+                "title": "自訂頁面管理",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "一頁式商店影片設定(自動播放/播放開始時間)"
+              "title": "自訂頁面管理"
             }
           }
         ]
@@ -146,7 +161,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "適用擴充",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -177,7 +192,8 @@
               "title": "notebook-navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -288,7 +304,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -311,53 +327,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "997a4538ff276cf0",
+  "active": "bc5e7ee3a9f5fb45",
   "lastOpenFiles": [
+    "templates/badge-plans.md",
+    "docs/ec/payments-and-logistics/設定 Apple Pay.md",
+    "docs/ec/payments-and-logistics/設定信用卡 3D 驗證門檻.md",
+    "templates/badge-cyb-extensions.md",
+    "docs/resources/conventions.md",
+    "templates/bade-cyb-extensions-payments.zh-tw.md",
+    "docs/ec/e-ticket/電子票券設定指南.md",
+    "docs/ec/integrations/line/在官網新增 LINE 加入好友入口.md",
+    "docs/ec/integrations/line/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md",
+    "docs/ec/payments-and-logistics/設定 PayPal.md",
+    "docs/ec/payments-and-logistics/設定全家冷凍物流 B2C.md",
+    "docs/ec/payments-and-logistics/設定超商大宗寄倉 B2C.md",
+    "docs/ec/orders/出貨狀態物流提示文字說明.md",
+    "docs/ec/notifications/設定與管理 Email 通知樣板.md",
+    "docs/ec/website-appearance/拖拉版型網站設定.md",
+    "docs/ec/website-appearance/設定前台語系與文字自定義.md",
+    "docs/ec/website-management/設定多國語言與多幣別.md",
+    "docs/ec/products/啟用留言區 reCAPTCHA.md",
+    "docs/ec/products/新增與設定組合商品.md",
+    "docs/ec/products/設定前台商品篩選器.md",
+    "docs/ec/products/設定商品影片.md",
+    "docs/ec/products/新增單一商品.md",
+    "docs/ec/products/編輯商品描述與商品設定.md",
+    "docs/ec/products/篩選商品建立分類群組.md",
+    "docs/ec/products/管理商品評論.md",
+    "docs/ec/products/管理商品標籤.md",
+    "site/assets/images/ec-行銷活動-一頁式商店-影片設定.gif",
+    "docs/assets/images/ec-行銷活動-一頁式商店-影片設定.gif",
+    "site/assets/images/ec-行銷活動-一頁式商店-影片設定.png",
+    "docs/assets/images/ec-行銷活動-一頁式商店-影片設定.png",
+    "site/ec/website-appearance/拖拉版型網站設定/index.html",
+    "site/ec/website-appearance/拖拉版型網站設定",
+    "site/ec/profit-sharing/設定註冊人分潤方案/index.html",
+    "site/ec/profit-sharing/設定註冊人分潤方案",
+    "site/ec/e-ticket/電子票券設定指南/index.html",
+    "site/ec/e-ticket/電子票券設定指南",
+    "site/ec/marketing/設定指定商品送優惠券/index.html",
+    "site/ec/marketing/設定指定商品送優惠券",
+    "site/ec/integrations/line/串接 LINE Messaging API/index.html",
+    "site/ec/integrations/line/串接 LINE Messaging API",
     "site/assets/images/ec-行銷活動-一頁式商店-youtube影片-自動播放-設定-舊版.gif",
     "docs/assets/images/ec-行銷活動-一頁式商店-youtube影片-自動播放-設定-舊版.gif",
     "site/assets/images/ec-行銷活動-一頁式商店-youtube影片-自動播放-舊版-設定.gif",
     "docs/assets/images/ec-行銷活動-一頁式商店-youtube影片-自動播放-舊版-設定.gif",
     "site/assets/images/ec-行銷活動-一頁式商店-youtube影片-自動播放加起始秒數-舊版.png",
-    "docs/assets/images/ec-行銷活動-一頁式商店-youtube影片-自動播放加起始秒數-舊版.png",
-    "site/assets/images/ec-行銷活動-一頁式商店-youtube影片-自動播放-設定.gif",
-    "docs/assets/images/ec-行銷活動-一頁式商店-youtube影片-自動播放-設定.gif",
-    "site/assets/images/ec-行銷活動-一頁式商店-插入影片-舊版.png",
-    "docs/assets/images/ec-行銷活動-一頁式商店-插入影片-舊版.png",
-    "site/ec/integrations/line/設定 LINE 圖文選單/index.html",
-    "site/ec/integrations/line/設定 LINE 圖文選單",
-    "site/ec/website-management/系統通知設定/index.html",
-    "site/ec/website-management/系統通知設定",
-    "site/ec/index.html",
-    "site/ec/marketing/設定紅配綠多組合優惠/index.html",
-    "site/ec/marketing/設定紅配綠多組合優惠",
-    "site/ec/website-management/為特定網域信箱套用指定會員標籤/index.html",
-    "site/ec/website-management/為特定網域信箱套用指定會員標籤",
-    "site/ec/website-management/設定網站安全性/index.html",
-    "docs/ec/website-appearance/設定導覽選單滑鼠移入自動展開.md",
-    "docs/ec/marketing/設定一頁式商店 YouTube 影片自動播放與起始秒數.md",
-    "docs/ec/website-appearance/設定前台語系與文字自定義.md",
-    "docs/ec/website-appearance/樣板編輯器操作全攻略.md",
-    "templates/sib-template-version-recover.md",
-    "docs/ec/website-appearance/關閉商品圖片放大預覽功能.md",
-    "docs/ec/website-appearance/使用樣板編輯器恢復網頁代碼.md",
-    "templates/sib-template-edit-backup-warn.md",
-    "docs/ec/website-appearance/設定轉貼連結縮圖 (OG Image).md",
-    "site/assets/images/ec-網站外觀-樣板編輯器-選單自動展開-前台.png",
-    "docs/ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md",
-    "docs/ec/products/organization/設定商品自訂分類群組.md",
-    "docs/ec/products/index.md",
-    "templates/lucide-square-pen.md",
-    "includes/abbreviations.md",
-    "templates/lucide-folder-tree.md",
-    "docs/ec/products/organization/設定秘密商品群組.md",
-    "docs/ec/products/sales/設定搜尋結果中排除特定關鍵字商品.md",
-    "docs/ec/products/organization/設定商品多層級分類.md",
-    "docs/ec/products/get-started/商品管理介面說明.md",
-    "docs/ec/products/creation/編輯商品簡述與商品標語.md",
-    "bases/products moc.md",
-    "templates/tutorial-layout.md",
-    "docs/ec/products/references/CKEditor 編輯器教學.md",
-    "templates/yaml.md",
-    "docs/ec/website-appearance/設定選單與導覽列.md"
+    "docs/assets/images/ec-行銷活動-一頁式商店-youtube影片-自動播放加起始秒數-舊版.png"
   ]
 }

@@ -63,7 +63,7 @@ icon: ""
 管理與編輯系統自動發送的 Email 通知樣板，包括內容自訂、啟用控制、收件者設定與多國語系配置。
 { .subtitle }
 
-[:lucide-toggle-right:{ title="適用功能" }](../../resources/conventions#適用功能) | 多國語系
+[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能) | 多國語系
 { .doc-badge }
 
 ![](../../assets/images/ec-訊息推播-email 通知樣板.png){ .hero-page }

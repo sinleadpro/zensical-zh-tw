@@ -62,7 +62,7 @@ id: "2553"
 串接 PayPal 金流，讓海外信用卡顧客於結帳時可使用 PayPal 支付。
 { .subtitle }
 
-[:lucide-toggle-right:{ title="適用功能" }](../../resources/conventions#適用功能) | CYBERBIZ PAYMENTS
+[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能) | CYBERBIZ PAYMENTS
 { .doc-badge }
 
 ![](../../assets/images/ec-金物流-paypal.png){ .hero-page }

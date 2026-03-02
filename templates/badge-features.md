@@ -1,1 +1,1 @@
-[:lucide-toggle-right:{ title="適用功能" }](../../resources/conventions#適用功能) | 
+[:lucide-grid-2x2-plus:{ title="適用功能" }](../../resources/conventions#適用功能) | 

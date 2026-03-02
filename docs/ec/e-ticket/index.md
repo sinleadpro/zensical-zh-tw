@@ -6,7 +6,7 @@ icon: lucide/ticket
 
 # 電子票券
 
-[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | PLUS / 企業
 { .doc-badge }
 
 ## 電子票券說明

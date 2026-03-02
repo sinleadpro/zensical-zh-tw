@@ -190,7 +190,7 @@ VIP 價格、**搜尋可見性排除**
 
 設定電子票券的使用與優惠管理，並管理門市存取權限。
 
-[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | PLUS / 企業
 
 <div class="grid cards" markdown>
 

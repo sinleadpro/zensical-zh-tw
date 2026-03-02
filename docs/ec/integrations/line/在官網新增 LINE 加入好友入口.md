@@ -42,7 +42,7 @@ icon: ""
 在拖拉版型網站中新增 LINE 官方帳號加入好友入口，透過彈窗、輪播、頁腳或導覽列引導訪客加入好友。
 { .subtitle }
 
-[:lucide-toggle-right:{ title="適用功能" }](../../resources/conventions#適用功能) | 拖拉版型
+[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能) | 拖拉版型
 { .doc-badge }
 
 ![](../../../assets/images/ec-第三方整合-line-官方加入好友工具.png){ .hero-page }

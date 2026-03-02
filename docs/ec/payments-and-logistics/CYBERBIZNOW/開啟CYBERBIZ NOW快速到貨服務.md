@@ -62,7 +62,7 @@ icon: lucide/lock
 完成門市快速到貨 (CYBERBIZ NOW) 服務設定，包含啟用功能、接單時間、運費規則與外送資訊管理。
 { .subtitle }
 
-[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有PLUS / 企業
 { .doc-badge }
 
 ![](../../../assets/images/EC-後台-金物流-所有門市-快速到貨畫面總覽01.png){ .hero-page }
