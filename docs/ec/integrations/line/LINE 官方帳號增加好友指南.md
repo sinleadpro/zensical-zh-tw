@@ -51,9 +51,11 @@ icon: ""
 
 1. 登入 [**LINE Official Account Manager** :lucide-external-link:](https://manager.line.biz/)。
 
-2. 路徑：選擇帳號 > 「主頁」 > 「增加好友人數」 > 「加入好友指南」 > 「建立網址」。
+2. 路徑：選擇帳號 >  **主頁 > 增加好友人數 > 加入好友指南 > 建立網址**。
 
 3. 點選 **複製** 即可獲得該連結。
+
+![](../../../assets/images/ec-第三方整合-line-oa-加入好友-網址.png)
 
 ## 主動出擊：簡訊與 Email 好友邀請（企業版專用）
 

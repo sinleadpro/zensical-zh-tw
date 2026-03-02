@@ -6,20 +6,20 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 42.32475598935226,
+        "dimension": 39.48535936113576,
         "children": [
           {
-            "id": "997a4538ff276cf0",
+            "id": "32cf102a01aa934e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/website-appearance/設定與管理自訂頁面.md",
+                "file": "docs/ec/website-appearance/設置網站客服視窗.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定與管理自訂頁面"
+              "title": "設置網站客服視窗"
             }
           }
         ]
@@ -63,7 +63,7 @@
       {
         "id": "74dd1daaeb40eac4",
         "type": "tabs",
-        "dimension": 19.60958296362023,
+        "dimension": 21.56166814551908,
         "children": [
           {
             "id": "eea1d6126d665e64",
@@ -71,12 +71,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=12570",
-                "title": "自訂頁面管理 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=3461",
+                "title": "客服視窗設定(非免費功能) - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "自訂頁面管理 - CYBERBIZ 一般版教學文件"
+              "title": "客服視窗設定(非免費功能) - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -84,7 +84,7 @@
       {
         "id": "2c57acc736defe7a",
         "type": "tabs",
-        "dimension": 20.319432120674357,
+        "dimension": 21.206743566992014,
         "children": [
           {
             "id": "b85f0764f4b4a7ce",
@@ -92,12 +92,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=40485",
-                "title": "自訂頁面管理",
+                "url": "https://www.cyberbiz.io/support/?p=16750",
+                "title": "客服視窗設定",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "自訂頁面管理"
+              "title": "客服視窗設定"
             }
           }
         ]
@@ -299,8 +299,31 @@
   },
   "active": "bc5e7ee3a9f5fb45",
   "lastOpenFiles": [
-    "templates/tutorial-layout.md",
+    "docs/ec/integrations/line/LINE 官方帳號增加好友指南.md",
+    "docs/ec/integrations/line/設定 LINE 圖文選單.md",
+    "site/assets/images/ec-第三方整合-line-oa-加入好友-網址.png",
+    "docs/assets/images/ec-第三方整合-line-oa-加入好友-網址.png",
+    "docs/ec/website-appearance/設置網站客服視窗.md",
+    "docs/ec/website-appearance/調整首頁跑馬燈（輪播圖）的轉場停留時間.md",
+    "site/ec/marketing/設定指定商品送紅利/index.html",
+    "site/ec/marketing/設定指定商品送紅利",
+    "site/ec/products/後台搜尋商品/index.html",
+    "site/ec/products/後台搜尋商品",
+    "site/ec/marketing/商品多層級分類滿額折扣 ent/index.html",
+    "site/ec/marketing/商品多層級分類滿額折扣 ent",
+    "site/ec/products/get-started/商品管理介面說明/index.html",
+    "site/ec/products/get-started/商品管理介面說明",
+    "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS/index.html",
+    "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS",
+    "docs/ec/website-appearance/樣板編輯器操作全攻略.md",
     "docs/ec/website-appearance/設定與管理自訂頁面.md",
+    "docs/ec/marketing/設定一頁式商店 YouTube 影片自動播放與起始秒數.md",
+    "docs/ec/products/sales/設定搜尋結果中排除特定關鍵字商品.md",
+    "templates/badge-features.md",
+    "site/assets/images/ec-網站外觀-樣板編輯器-main-slider-liquid.png",
+    "docs/assets/images/ec-網站外觀-樣板編輯器-main-slider-liquid.png",
+    "templates/badge-cyb-extensions.md",
+    "templates/tutorial-layout.md",
     "site/assets/images/ec-網站外觀-自訂頁面-新增區塊.png",
     "docs/assets/images/ec-網站外觀-自訂頁面-新增區塊.png",
     "site/assets/images/ec-網站外觀-自訂頁面-基本設定.png",
@@ -309,12 +332,10 @@
     "docs/assets/images/ec-網站外觀-自訂頁面管理.png",
     "docs/ec/payments-and-logistics/串接全家超商B2C冷凍物流.md",
     "docs/resources/conventions.md",
-    "docs/ec/marketing/設定一頁式商店 YouTube 影片自動播放與起始秒數.md",
     "docs/ec/payments-and-logistics/設定 Apple Pay.md",
     "docs/ec/products/編輯商品描述與商品設定.md",
     "templates/badge-plans.md",
     "docs/ec/payments-and-logistics/設定信用卡 3D 驗證門檻.md",
-    "templates/badge-cyb-extensions.md",
     "templates/bade-cyb-extensions-payments.zh-tw.md",
     "docs/ec/e-ticket/電子票券設定指南.md",
     "docs/ec/integrations/line/在官網新增 LINE 加入好友入口.md",
@@ -323,27 +344,6 @@
     "docs/ec/payments-and-logistics/設定全家冷凍物流 B2C.md",
     "docs/ec/payments-and-logistics/設定超商大宗寄倉 B2C.md",
     "docs/ec/orders/出貨狀態物流提示文字說明.md",
-    "docs/ec/notifications/設定與管理 Email 通知樣板.md",
-    "docs/ec/website-appearance/拖拉版型網站設定.md",
-    "docs/ec/website-appearance/設定前台語系與文字自定義.md",
-    "docs/ec/website-management/設定多國語言與多幣別.md",
-    "docs/ec/products/啟用留言區 reCAPTCHA.md",
-    "docs/ec/products/新增與設定組合商品.md",
-    "docs/ec/products/設定前台商品篩選器.md",
-    "docs/ec/products/設定商品影片.md",
-    "site/assets/images/ec-行銷活動-一頁式商店-影片設定.gif",
-    "docs/assets/images/ec-行銷活動-一頁式商店-影片設定.gif",
-    "site/assets/images/ec-行銷活動-一頁式商店-影片設定.png",
-    "docs/assets/images/ec-行銷活動-一頁式商店-影片設定.png",
-    "site/ec/website-appearance/拖拉版型網站設定/index.html",
-    "site/ec/website-appearance/拖拉版型網站設定",
-    "site/ec/profit-sharing/設定註冊人分潤方案/index.html",
-    "site/ec/profit-sharing/設定註冊人分潤方案",
-    "site/ec/e-ticket/電子票券設定指南/index.html",
-    "site/ec/e-ticket/電子票券設定指南",
-    "site/ec/marketing/設定指定商品送優惠券/index.html",
-    "site/ec/marketing/設定指定商品送優惠券",
-    "site/ec/integrations/line/串接 LINE Messaging API/index.html",
-    "site/ec/integrations/line/串接 LINE Messaging API"
+    "docs/ec/notifications/設定與管理 Email 通知樣板.md"
   ]
 }

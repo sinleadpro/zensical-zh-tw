@@ -211,9 +211,11 @@ icon: lucide/lock
 	- 避免重複跳轉流程： 帶有`line_action=line_login` 參數的網址會持續觸發驗證流程。建議僅在「首次綁定」或「登入/註冊」按鈕使用此網址；其餘一般導購按鈕建議使用普通連結。
 	- LINE OA 訊息計費規範： 啟用自動化通知功能前，請務必評估營運成本。LINE 官方帳號的訊息發送（包含：手動群發、自動化訂單通知、物流更新）均計入付費額度。相關計費標準請參閱官方 [加購訊息價目表 :lucide-external-link:](https://tw.linebiz.com/service/account-solutions/line-official-account/)。
 
+!!! note "更多會員綁定方法，請參閱 [LINE 會員綁定](綁定 LINE 官方帳號與官網會員#商家後台設定方法)。"
+
 ![](../../../assets/images/ec-第三方整合-line-圖文選單-會員綁定.png)
 
-> :lucide-info: 更多會員綁定方法，請參閱 [LINE 會員綁定](綁定 LINE 官方帳號與官網會員#商家後台設定方法)。
+
 
 ## 如何確認圖文選單已成功顯示
 
