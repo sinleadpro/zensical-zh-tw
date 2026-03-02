@@ -17,6 +17,7 @@ apis: []
 type: tutorial
 intents: []
 features: []
+extensions: []
 tnb: ""
 plans: []
 prerequisites: []
