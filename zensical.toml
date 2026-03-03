@@ -203,6 +203,7 @@ copyright = """
                 { "運費計算與對帳規範"= "ec/payments-and-logistics/CYBERBIZNOW/運費計算與對帳規範.md"},
                 { "消費者購買流程"= "ec/payments-and-logistics/CYBERBIZNOW/消費者購買流程.md"}
             ]},
+            { "查詢宅配託運單紀錄" = "ec/payments-and-logistics/查詢宅配託運單紀錄.md"},
         ]},
         { "網站外觀" = [
             { "overview" = "ec/website-appearance/index.md" },
@@ -220,19 +221,19 @@ copyright = """
             { "網頁鎖右鍵" = "ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md"},
             { "前台語系與文字" = "ec/website-appearance/設定前台語系與文字自定義.md" }
         ]},
-        { "商店設定" = [
-            { "商店設定" = "ec/store/index.md" },
-            { "系統通知設定" = "ec/store/系統通知設定.md" },
-            { "設定多國語言與多幣別" = "ec/website-management/設定多國語言與多幣別.md" },
-            { "設定顧客註冊流程與欄位" = "ec/website-management/設定顧客註冊流程與欄位.md" },
-            { "為特定網域信箱套用指定會員標籤" = "ec/website-management/為特定網域信箱套用指定會員標籤.md" },
-        ]},
         { "APP MARKET" = [
             { "overview" = "ec/app-market/index.md" },
             { "CYBERBIZ 擴充服務" = [
                 { "overview" = "ec/app-market/cyberbiz-extensions/index.md" },
                 { "Chat Box" = [
                     { "overview" = "ec/app-market/cyberbiz-extensions/chat-box/index.md" },
+                ]},
+                { "全通路庫存管理" = [
+                    { "Step 1 安裝啟用" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step1.安裝啟用.md" },
+                    { "Step 2 導入商品與建立關聯" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step2.導入商品與建立關聯.md" },
+                    { "Step 3 庫存同步" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step3.官網與蝦皮商品庫存同步.md" },
+                    { "Step 4 官網商品建立為蝦皮商品" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step4.官網商品建立為蝦皮商品.md" },
+                    { "Step 5 資訊同步" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step5.官網與蝦皮商品資訊同步.md" },
                 ]},
             ]},
         ]},
@@ -262,8 +263,13 @@ copyright = """
             { "overview" = "ec/website-management/index.md" },
             { "系統通知設定" = "ec/website-management/系統通知設定.md" },
             { "網站基本資訊" = "ec/website-management/設定網站基本資訊.md" },
+            { "設定多國語言與多幣別" = "ec/website-management/設定多國語言與多幣別.md" },
+            { "續購與自動續約" = "ec/website-management/續購與自動續約.md" },
+            { "設定顧客註冊流程與欄位" = "ec/website-management/設定顧客註冊流程與欄位.md" },
+            { "網域管理" = "ec/website-management/網域管理.md" },
             { "安全性設定" = "ec/website-management/設定網站安全性.md" },
-            { "星益欣電子發票" = "ec/website-management/星益欣電子發票設定指南.md" }
+            { "星益欣電子發票" = "ec/website-management/星益欣電子發票設定指南.md" },
+            { "為特定網域信箱套用指定會員標籤" = "ec/website-management/為特定網域信箱套用指定會員標籤.md" },
         ]},
     ]},
     { "智慧倉儲" = "wms/index.md" },
