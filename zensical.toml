@@ -188,7 +188,6 @@ copyright = """
             { "全家冷凍物流 B2C 設定" = "ec/payments-and-logistics/設定全家冷凍物流 B2C.md" },
             { "設定門市取貨服務"= "ec/payments-and-logistics/設定門市取貨服務.md" },
             { "設定CYBERBIZ NOW快速到貨服務" = "ec/payments-and-logistics/設定CYBERBIZ NOW快速到貨服務.md" },
-            { "設定門市取貨服務"= "ec/payments-and-logistics/CYBERBIZNOW/設定門市取貨服務.md"},
             { "串接ezShip超商取貨(C2C)" = "ec/payments-and-logistics/串接ezShip超商取貨(C2C).md"},
             { "申請綠界金流與超商取貨付款" = "ec/payments-and-logistics/申請綠界金流與超商取貨付款.md"},
             { "CYBERBIZ NOW" = [
