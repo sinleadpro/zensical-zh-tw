@@ -1,15 +1,14 @@
 ---
 title: 操作超商店到店 C2C 出貨
 version: ""
-last_modified: 2026-01-30
+last_modified: 2024-05-23
 description: 包裝商品並透過超商店到店（C2C）寄件至消費者指定門市，包括完整操作流程與注意事項。
 product:
   - EC
 modules:
   - 訂單管理
   - 物流管理
-activ:
-  - CYBERBIZ PAYMENTS
+activ: CYBERBIZ PAYMENTS
 paths:
   - 訂單 > 所有訂單
   - 管理中心 > 儲值中心
@@ -42,6 +41,9 @@ features:
   - FamiPort列印
 tnb: trunk
 plans:
+  - 一般版
+  - PLUS版
+  - 企業版
 prerequisites:
   - 開通CYBERBIZ PAYMENTS (貨到付款)
   - 一般版商家需儲值CYBER幣
@@ -49,7 +51,7 @@ prerequisites:
 lang: zh-TW
 sites:
   - CYBERBIZ 管理後台
-status:
+status: ""
 tags:
   - 超商店到店
   - C2C
@@ -62,7 +64,7 @@ tags:
   - 萊爾富
 difficulty: medium
 audiences:
-  - merchant
+  - 商家
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=120
   - https://www.cyberbiz.io/helpcenter/?p=6856

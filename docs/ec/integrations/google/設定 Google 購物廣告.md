@@ -1,33 +1,69 @@
 ---
 title: 設定 Google 購物廣告
+version: ""
+last_modified: 2024-05-23
 description: 串接 Google Merchant Center、同步商品資料至 Google 搜尋與購物廣告。
-module:
-  - 第三方整合
-tasks:
-  - Google Merchant Center
-type: quest
 product:
   - EC
+modules:
+  - 第三方整合
+  - Google 相關設定
+activ: configure
+paths:
+  - 第三方整合 > 谷歌 Google 設定 > Google Merchant Center
+  - 商品 > 所有商品 > 設定
+surfaces:
+  - 後台
+ends:
+  - 成功同步商品資料至 GMC
+  - 完成 GMC 與 Google Ads 連結
+devices:
+  - desktop
+  - mobile
+apis: []
+type: tutorial
+intents:
+  - 串接 Google Merchant Center
+  - 同步商品資料至 Google 搜尋
+  - 投放 Google 購物廣告
+features:
+  - 商品動態饋給 (Product Feed)
+  - Google 產品類別設定
+  - GMC 與 Google Ads 帳戶關聯
+tnb: ""
 plans:
   - 專業 PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
-surfaces:
-  - 第三方整合 > 谷歌 Google 設定 > Google Merchant Center
-  - 商品 > 所有商品 > 設定
-system:
-  - 後台
+prerequisites:
+  - 擁有 Google 帳戶
+  - 商品圖片符合 Google 規範
 lang: zh-TW
-sites: 台灣
+sites:
+  - 台灣
 status: ""
-activ: configure
 tags:
   - Google
-note:
+  - GMC
+  - 購物廣告
+difficulty: medium
+audiences:
+  - 商家
+wp_url: []
+notes:
   - verify FAQ
   - update internal links
+comments: ""
+search:
+  exclude: ""
+icon: ""
+tasks:
+  - Google Merchant Center
+system:
+  - 後台
 ---
+
 
 # 設定 Google 購物廣告
 串接 Google Merchant Center (GMC)、同步商品資料至 Google 搜尋與購物廣告。

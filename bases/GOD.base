@@ -18,14 +18,16 @@ views:
     order:
       - file.name
       - file.mtime
-      - wp_url
+      - features
+      - intents
     sort:
       - property: file.name
         direction: ASC
     summaries:
       file.name: Filled
     columnSize:
-      note.wp_url: 752
+      file.name: 216
+      file.mtime: 197
   - type: cards
     name: Products
     filters:
