@@ -214,6 +214,7 @@ copyright = """
             { "自訂頁面管理" = "ec/website-appearance/設定與管理自訂頁面.md" },
             { "首頁跑馬燈轉場時間" = "ec/website-appearance/調整首頁跑馬燈（輪播圖）的轉場停留時間.md" },
             { "網站客服視窗" = "ec/website-appearance/設置網站客服視窗.md" },
+            { "網站標題與 SEO" = "ec/website-appearance/設定網站標題與 SEO.md" },
             { "關閉圖片放大預覽" = "ec/website-appearance/關閉商品圖片放大預覽功能.md" },
             { "選單滑鼠移入自動展開" = "ec/website-appearance/設定導覽選單滑鼠移入自動展開.md" },
             { "轉貼連結縮圖 (OG Image)" = "ec/website-appearance/設定轉貼連結縮圖 (OG Image).md" },
@@ -239,6 +240,9 @@ copyright = """
         ]},
         { "第三方整合" = [
             { "overview" = "ec/integrations/index.md" },  
+            { "FB/Meta" = [
+                { "overview" = "ec/integrations/fb-meta/index.md" }
+            ]},
             { "Google" = [
                 { "設定 Google 購物廣告" = "ec/integrations/google/設定 Google 購物廣告.md" },
                 { "設定自動化廣告" = "ec/integrations/google/設定自動化廣告.md" },
