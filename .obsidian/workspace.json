@@ -6,69 +6,34 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 37.71073646850044,
+        "dimension": 48.57904085257549,
         "children": [
           {
-            "id": "997a4538ff276cf0",
+            "id": "32cf102a01aa934e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/marketing/設定一頁式商店影片自動播放與指定時間.md",
+                "file": "docs/ec/website-appearance/設置網站客服視窗.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定一頁式商店影片自動播放與指定時間"
+              "title": "設置網站客服視窗"
             }
           },
           {
-            "id": "b3f372febf6d1f72",
+            "id": "732b583e4f1020d4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/website-appearance/設定導覽選單滑鼠移入自動展開.md",
+                "file": "docs/ec/integrations/google/設定 Google 購物廣告.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定導覽選單滑鼠移入自動展開"
-            }
-          }
-        ]
-      },
-      {
-        "id": "d9e38851fccdb10c",
-        "type": "tabs",
-        "dimension": 17.74622892635315,
-        "children": [
-          {
-            "id": "002e7cc5017e036f",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.google.com/",
-                "title": "Google",
-                "mode": "webview"
-              },
-              "icon": "globe-2",
-              "title": "Google"
-            }
-          },
-          {
-            "id": "44d5ec0d46933f61",
-            "type": "leaf",
-            "state": {
-              "type": "webviewer",
-              "state": {
-                "url": "https://www.google.com/",
-                "title": "google.com",
-                "mode": "error"
-              },
-              "icon": "globe-2",
-              "title": "google.com"
+              "title": "設定 Google 購物廣告"
             }
           }
         ],
@@ -77,7 +42,7 @@
       {
         "id": "74dd1daaeb40eac4",
         "type": "tabs",
-        "dimension": 21.827861579414375,
+        "dimension": 25.57726465364121,
         "children": [
           {
             "id": "eea1d6126d665e64",
@@ -85,12 +50,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=3838",
-                "title": "一頁式商店影片設定(自動播放/播放開始時間) - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=3461",
+                "title": "客服視窗設定(非免費功能) - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "一頁式商店影片設定(自動播放/播放開始時間) - CYBERBIZ 一般版教學文件"
+              "title": "客服視窗設定(非免費功能) - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,7 +63,7 @@
       {
         "id": "2c57acc736defe7a",
         "type": "tabs",
-        "dimension": 22.71517302573203,
+        "dimension": 25.843694493783303,
         "children": [
           {
             "id": "b85f0764f4b4a7ce",
@@ -106,12 +71,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=19650",
-                "title": "一頁式商店影片設定(自動播放/播放開始時間)",
+                "url": "https://www.cyberbiz.io/support/?p=16750",
+                "title": "客服視窗設定",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "一頁式商店影片設定(自動播放/播放開始時間)"
+              "title": "客服視窗設定"
             }
           }
         ]
@@ -288,7 +253,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -311,52 +276,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "997a4538ff276cf0",
+  "active": "bc5e7ee3a9f5fb45",
   "lastOpenFiles": [
-    "docs/ec/website-appearance/設定導覽選單滑鼠移入自動展開.md",
-    "docs/ec/marketing/設定一頁式商店影片自動播放與指定時間.md",
-    "docs/ec/website-appearance/設定前台語系與文字自定義.md",
-    "docs/ec/website-appearance/樣板編輯器操作全攻略.md",
-    "site/ec/integrations/index.html",
-    "site/ec/payments-and-logistics/設定全家冷凍物流 B2C/index.html",
-    "site/ec/payments-and-logistics/設定全家冷凍物流 B2C",
+    "site/ec/payments-and-logistics/設定超商大宗寄倉 B2C/index.html",
+    "site/ec/payments-and-logistics/設定超商大宗寄倉 B2C",
     "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS/index.html",
     "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS",
-    "site/ec/payments-and-logistics/設定超商店到店 C2C 物流串接/index.html",
-    "site/ec/payments-and-logistics/設定超商店到店 C2C 物流串接",
-    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流/index.html",
-    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流",
-    "site/ec/products/設定前台商品篩選器/index.html",
-    "templates/sib-template-version-recover.md",
-    "docs/ec/website-appearance/關閉商品圖片放大預覽功能.md",
-    "docs/ec/website-appearance/使用樣板編輯器恢復網頁代碼.md",
-    "templates/sib-template-edit-backup-warn.md",
-    "docs/ec/website-appearance/設定轉貼連結縮圖 (OG Image).md",
-    "site/assets/images/ec-網站外觀-樣板編輯器-選單自動展開-前台.png",
-    "docs/assets/images/ec-網站外觀-樣板編輯器-選單自動展開-前台.png",
-    "site/assets/images/ec-網站外觀-樣板編輯器-main_nav-liquid.png",
-    "docs/assets/images/ec-網站外觀-樣板編輯器-main_nav-liquid.png",
-    "docs/ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md",
-    "site/assets/images/ec-網站外觀-樣板編輯器-product-liquid.png",
-    "docs/assets/images/ec-網站外觀-樣板編輯器-product-liquid.png",
-    "docs/ec/products/organization/設定商品自訂分類群組.md",
-    "site/assets/images/ec-網站外觀-樣板編輯器-字典檔.png",
-    "docs/assets/images/ec-網站外觀-樣板編輯器-字典檔.png",
-    "site/assets/images/ec-網站外觀-前台語系文字設定-商品名稱.gif",
-    "docs/assets/images/ec-網站外觀-前台語系文字設定-商品名稱.gif",
-    "docs/ec/products/index.md",
-    "templates/lucide-square-pen.md",
-    "includes/abbreviations.md",
-    "templates/lucide-folder-tree.md",
-    "docs/ec/products/organization/設定秘密商品群組.md",
-    "docs/ec/products/sales/設定搜尋結果中排除特定關鍵字商品.md",
-    "docs/ec/products/organization/設定商品多層級分類.md",
-    "docs/ec/products/get-started/商品管理介面說明.md",
-    "docs/ec/products/creation/編輯商品簡述與商品標語.md",
-    "bases/products moc.md",
-    "templates/tutorial-layout.md",
-    "docs/ec/products/references/CKEditor 編輯器教學.md",
-    "templates/yaml.md",
-    "docs/ec/website-appearance/設定選單與導覽列.md"
+    "site/ec/products/後台搜尋商品/index.html",
+    "site/ec/products/後台搜尋商品",
+    "site/ec/products/index.html",
+    "site/resources/changelog/index.html",
+    "site/resources/changelog",
+    "site/ec/payments-and-logistics/設定 AFTEE/index.html",
+    "site/ec/payments-and-logistics/設定 AFTEE",
+    "site/assets/images/GANDI-後台-域名-新增CNAME03.png",
+    "site/assets/images/EC-後台-商品-所有商品-將商品資訊更新到蝦皮01.png",
+    "site/assets/images/台灣大哥大-後台-轉址設定-新增CNAME01.png",
+    "site/assets/images/HiNet-後台-網域資訊-設定轉址02.png",
+    "site/assets/images/EC-後台-APPMARKET-蝦皮商品-授權商店05.png",
+    "site/assets/images/HiNet-後台-網域資訊-設定轉址03.png",
+    "site/assets/images/遠振-後台-ManageDNS-新增CNAME01.png",
+    "site/assets/images/EC-後台-APPMARKET-蝦皮商品-手動修改SKU01.png",
+    "site/assets/images/EC-後台-商品-所有商品-建立商品關聯01.png",
+    "site/assets/images/GANDI-後台-域名-新增CNAME02.png",
+    "docs/ec/website-management/續購與自動續約.md",
+    "docs/ec/website-management/網域管理.md",
+    "docs/ec/payments-and-logistics/查詢宅配託運單紀錄.md",
+    "docs/ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step5.官網與蝦皮商品資訊同步.md",
+    "docs/ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step4.官網商品建立為蝦皮商品.md",
+    "docs/ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step3.官網與蝦皮商品庫存同步.md",
+    "docs/ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step2.導入商品與建立關聯.md",
+    "docs/ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step1.安裝啟用.md",
+    "docs/ec/integrations/google/設定自動化廣告.md",
+    "docs/ec/integrations/google/Google Analytics ：串接教學.md",
+    "docs/ec/marketing/設定商品多層級分類滿額折扣.md",
+    "docs/ec/marketing/設定加價購群組.md",
+    "docs/ec/website-management/星益欣電子發票設定指南.md",
+    "docs/ec/members/設定 VIP 群組.md",
+    "docs/ec/payments-and-logistics/AFTEE先享後付 金流說明.md",
+    "docs/ec/orders/操作超商店到店 C2C 出貨.md",
+    "docs/ec/products/批次修改商品描述與配送設定.md",
+    "docs/ec/products/後台搜尋商品.md",
+    "docs/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）.md",
+    "docs/ec/products/設定商品搜尋可見性.md",
+    "docs/ec/products/設定商品影片.md",
+    "docs/ec/products/認識商品管理介面.md",
+    "docs/ec/products/設定超商配送限制與物流排除.md",
+    "docs/ec/products/新增單一商品.md",
+    "設定商品超商物流限制與排除選項.md"
   ]
 }

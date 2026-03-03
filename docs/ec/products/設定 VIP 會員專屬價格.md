@@ -54,7 +54,7 @@ icon: lucide/lock
 為不同 VIP 會員群組設定專屬商品價格，管理會員優惠更靈活。
 { .subtitle } 
 
-[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 / PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 / PLUS / 企業
 { .doc-badge }
 
 ![](../../assets/images/ec-product-edit-vip-exclusive-price-hero.zh-tw.png){ .hero-page }

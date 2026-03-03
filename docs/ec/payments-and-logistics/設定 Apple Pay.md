@@ -54,7 +54,7 @@ icon: ""
 啟用 Apple Pay 支付選項，為顧客提供快速、安全且便捷的支付方式。
 { .subtitle }
 
-[:lucide-sparkles:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ PAYMENTS
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ PAYMENTS
 { .doc-badge }
 
 ![](../../assets/images/ec-payments-apple-pay.zh-tw.png){ .hero-page }

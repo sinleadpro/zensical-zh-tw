@@ -67,7 +67,7 @@ icon: lucide/lock
 透過簡訊或 Email 向未綁定會員發送 LINE 官方帳號加入好友邀請，以提升好友數並促進會員綁定與行銷轉換。
 { .subtitle }
 
-[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 企業
 { .doc-badge }
 
 ![](../../assets/images/ec-訊息推播-line oa 加入好友邀請.png){ .hero-page }

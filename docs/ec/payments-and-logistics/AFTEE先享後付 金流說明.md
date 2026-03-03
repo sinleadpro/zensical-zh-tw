@@ -1,9 +1,56 @@
 ---
 title: "AFTEE先享後付 金流說明"
-last_modified: "2024-02-29"
-categories: [網站設定>金物流設定]
+version: ""
+last_modified: "2024-05-23"
+description: "提供 AFTEE 先享後付金流的申請流程、消費者付款步驟及後台設定說明。"
+product:
+  - EC
+modules:
+  - 金流設定
+activ: ""
+paths:
+  - 金流設定 > CYBERBIZ PAYMENTS > AFTEE
+surfaces:
+  - backend
+  - frontend
+ends:
+  - 完成 AFTEE 申請開通
+  - 消費者使用先享後付完成結帳
+devices:
+  - desktop
+  - mobile
+apis: []
+type: tutorial
+intents:
+  - 申請開通 AFTEE 金流
+  - 了解先享後付付款流程
+  - 確認金流手續費與對帳資訊
+features:
+  - 先享後付
+  - 手機驗證支付
+  - 無卡分期
+  - 超商/ATM 付款
+tnb: ""
+plans: []
+prerequisites:
+  - 需完成 AFTEE 端審核
+lang: zh-TW
+sites:
+  - TW
+status: ""
 tags: []
-permalink: "https://www.cyberbiz.io/support/?p=5525"
+difficulty: easy
+audiences:
+  - 商家
+wp_url:
+  - "https://www.cyberbiz.io/support/?p=5525"
+notes:
+  - 訂單超過 90 天未出貨會自動取消
+  - 預購商品不受 90 天出貨限制
+comments: ""
+search:
+  exclude: ""
+icon: ""
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)

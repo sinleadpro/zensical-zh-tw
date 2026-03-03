@@ -47,8 +47,8 @@ icon: ""
 透過編輯 Liquid 樣版檔案，在結帳完成後的關鍵轉換點嵌入 LINE 導流元件，以提升會員回流率。
 { .subtitle }
 
-[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手PLUS / 企業  
-[:lucide-toggle-right:{ title="適用功能" }](../../resources/conventions#適用功能) | 拖拉版型
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手PLUS / 企業  
+[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能) | 拖拉版型
 { .doc-badge }
 
 ![](../../../assets/images/ec-網站外觀-order-done-extra-content-liquid.png){ .hero-page }

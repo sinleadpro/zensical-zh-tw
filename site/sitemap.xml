@@ -67,6 +67,9 @@
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/products/organization/%E8%A8%AD%E5%AE%9A%E5%95%86%E5%93%81%E5%A4%9A%E5%B1%A4%E7%B4%9A%E5%88%86%E9%A1%9E/</loc>
       </url>
       <url>
+        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/products/shipping/%E8%A8%AD%E5%AE%9A%E5%95%86%E5%93%81%E9%85%8D%E9%80%81%E6%A2%9D%E4%BB%B6%EF%BC%88%E7%89%A9%E6%B5%81%E3%80%81%E6%BA%AB%E5%B1%A4%E8%88%87%E5%87%BA%E8%B2%A8%E9%80%9A%E8%B7%AF%EF%BC%89/</loc>
+      </url>
+      <url>
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/products/sales/%E8%A8%AD%E5%AE%9A%E6%90%9C%E5%B0%8B%E7%B5%90%E6%9E%9C%E4%B8%AD%E6%8E%92%E9%99%A4%E7%89%B9%E5%AE%9A%E9%97%9C%E9%8D%B5%E5%AD%97%E5%95%86%E5%93%81/</loc>
       </url>
       <url>
@@ -92,9 +95,6 @@
       </url>
       <url>
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/products/%E8%A8%AD%E5%AE%9A%E5%95%86%E5%93%81%E6%90%9C%E5%B0%8B%E5%8F%AF%E8%A6%8B%E6%80%A7/</loc>
-      </url>
-      <url>
-        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/products/%E8%A8%AD%E5%AE%9A%E5%95%86%E5%93%81%E9%85%8D%E9%80%81%E6%A2%9D%E4%BB%B6%EF%BC%88%E7%89%A9%E6%B5%81%E3%80%81%E6%BA%AB%E5%B1%A4%E8%88%87%E5%87%BA%E8%B2%A8%E9%80%9A%E8%B7%AF%EF%BC%89/</loc>
       </url>
       <url>
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/products/%E8%A8%AD%E5%AE%9A%E8%B6%85%E5%95%86%E9%85%8D%E9%80%81%E9%99%90%E5%88%B6%E8%88%87%E7%89%A9%E6%B5%81%E6%8E%92%E9%99%A4/</loc>
@@ -163,7 +163,7 @@
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/marketing/%E8%A8%AD%E5%AE%9A%E4%B8%80%E9%A0%81%E5%BC%8F%E5%95%86%E5%BA%97/</loc>
       </url>
       <url>
-        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/marketing/%E8%A8%AD%E5%AE%9A%E4%B8%80%E9%A0%81%E5%BC%8F%E5%95%86%E5%BA%97%E5%BD%B1%E7%89%87%E8%87%AA%E5%8B%95%E6%92%AD%E6%94%BE%E8%88%87%E6%8C%87%E5%AE%9A%E6%99%82%E9%96%93/</loc>
+        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/marketing/%E8%A8%AD%E5%AE%9A%E4%B8%80%E9%A0%81%E5%BC%8F%E5%95%86%E5%BA%97%20YouTube%20%E5%BD%B1%E7%89%87%E8%87%AA%E5%8B%95%E6%92%AD%E6%94%BE%E8%88%87%E8%B5%B7%E5%A7%8B%E7%A7%92%E6%95%B8/</loc>
       </url>
       <url>
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/marketing/%E8%A8%AD%E5%AE%9A%E6%8C%87%E5%AE%9A%E5%95%86%E5%93%81%E9%80%81%E5%84%AA%E6%83%A0%E5%88%B8/</loc>
@@ -317,6 +317,15 @@
       </url>
       <url>
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/website-appearance/%E8%A8%AD%E5%AE%9A%E9%81%B8%E5%96%AE%E8%88%87%E5%B0%8E%E8%A6%BD%E5%88%97/</loc>
+      </url>
+      <url>
+        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/website-appearance/%E8%A8%AD%E5%AE%9A%E8%88%87%E7%AE%A1%E7%90%86%E8%87%AA%E8%A8%82%E9%A0%81%E9%9D%A2/</loc>
+      </url>
+      <url>
+        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/website-appearance/%E8%AA%BF%E6%95%B4%E9%A6%96%E9%A0%81%E8%B7%91%E9%A6%AC%E7%87%88%EF%BC%88%E8%BC%AA%E6%92%AD%E5%9C%96%EF%BC%89%E7%9A%84%E8%BD%89%E5%A0%B4%E5%81%9C%E7%95%99%E6%99%82%E9%96%93/</loc>
+      </url>
+      <url>
+        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/website-appearance/%E8%A8%AD%E7%BD%AE%E7%B6%B2%E7%AB%99%E5%AE%A2%E6%9C%8D%E8%A6%96%E7%AA%97/</loc>
       </url>
       <url>
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/website-appearance/%E9%97%9C%E9%96%89%E5%95%86%E5%93%81%E5%9C%96%E7%89%87%E6%94%BE%E5%A4%A7%E9%A0%90%E8%A6%BD%E5%8A%9F%E8%83%BD/</loc>

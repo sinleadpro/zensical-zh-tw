@@ -1,10 +1,60 @@
 ---
 title: "Google Analytics ：串接教學"
-last_modified: "2025-04-21"
-categories: [第三方平台整合>Google相關設定]
+version: ""
+last_modified: "2024-05-23"
+description: "指導商家建立 Google Analytics 4 (GA4) 帳號、取得評估 ID 並於 CYBERBIZ 後台完成串接設定。"
+product:
+  - EC
+modules:
+  - 第三方平台整合
+  - Google 相關設定
+activ: ""
+paths:
+  - 第三方整合 > 谷歌 Google 設定 > Google 整合
+surfaces:
+  - Google Analytics 後台
+  - CYBERBIZ 管理後台
+ends:
+  - 成功於 GA4 即時報表看見數據
+devices:
+  - desktop
+  - mobile
+apis: []
+type: tutorial
+intents:
+  - 建立 GA 帳號
+  - 將 GA4 帳號串連至官網
+  - 查看 GA4 是否安裝成功
+features:
+  - GA4 串接
+  - 加強型評估
+  - 即時總覽
+tnb: ""
+plans:
+  - 一般版
+  - PLUS 版
+prerequisites:
+  - 擁有 Google 帳號
+lang: zh-TW
+sites: []
+status: ""
 tags: []
+difficulty: easy
+audiences:
+  - 商家
+wp_url:
+  - "https://www.cyberbiz.io/helpcenter/?p=678"
+notes:
+  - 通用 GA 已於 2023 年 7 月 1 日停止更新
+  - 版型過舊可能不支援 GA4
+comments: ""
+search:
+  exclude: ""
+icon: ""
+categories: [第三方平台整合>Google相關設定]
 permalink: "https://www.cyberbiz.io/helpcenter/?p=678"
 ---
+
 
 ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/一般版3.png)
 ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/PLUS版3.png)

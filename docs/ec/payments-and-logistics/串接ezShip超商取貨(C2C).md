@@ -56,7 +56,7 @@ icon: lucide/lock
 透過 ezShip 便利配串接，商家可以一次開啟全家、萊爾富、OK 三大超商的取貨功能，提供消費者更多元的配送選擇。
 { .subtitle }
 
-[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 專業 / 進階 / 高手
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 專業 / 進階 / 高手
 { .doc-badge }
 
 ![](../../assets/images/EC-後台-金物流-超商物流-EZSHIP超取01.png){ .hero-page }
