@@ -21,7 +21,7 @@ modules:
 sites:
   - TW
 audiences:
-  - 商家
+  - merchant
 difficulty: "advanced"
 tnb: trunk
 plans: 

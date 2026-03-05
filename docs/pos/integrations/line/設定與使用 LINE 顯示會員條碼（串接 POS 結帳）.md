@@ -61,11 +61,12 @@ search:
 icon: ""
 ---
 
-
 # 設定與使用 LINE 顯示會員條碼（串接 POS 結帳）
 
 啟用並設定 LINE 官方帳號會員條碼，讓門市人員可透過 POS 掃描條碼快速識別會員並套用紅利與優惠券折抵。
 { .subtitle }
+
+![](../../../assets/images/pos-第三方整合-line-顯示會員條碼-hero.png){ .hero-page }
 
 ## LINE 顯示會員條碼說明
 

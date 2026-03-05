@@ -282,9 +282,11 @@ copyright = """
     { "智能 POS" = [
         { "智能 POS" = "pos/index.md" },
         { "開始使用" = "pos/get-started.md" },
+        { "店長改價操作" = "pos/frontend/使用「店長改價」在 POS 前台調整單品價格.md"},
         { "訂單" = [
             { "overview" = "pos/orders/index.md" },
-            { "訂單自動結案" = "pos/orders/設定 POS 訂單自動結案.md" } 
+            { "訂單自動結案" = "pos/orders/設定 POS 訂單自動結案.md" },
+            { "修改店長改價顯示名稱" = "pos/orders/修改訂單明細頁「店長改價」的顯示名稱.md" }
         ]},
         { "商品" = [
             { "商品標籤列印" = "pos/products/商品標籤列印教學.md" }

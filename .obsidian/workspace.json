@@ -9,35 +9,49 @@
         "dimension": 47.91111111111111,
         "children": [
           {
-            "id": "16995ee5e272cd76",
+            "id": "5f1d334560ec7db5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/website-appearance/修改結帳流程為優先填寫收件人資訊.md",
+                "file": "docs/pos/orders/修改訂單明細頁「店長改價」的顯示名稱.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "修改結帳流程為優先填寫收件人資訊"
+              "title": "修改訂單明細頁「店長改價」的顯示名稱"
             }
           },
           {
-            "id": "3caeb6e502029b6a",
+            "id": "f624d3c015a3c3c6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/integrations/line/在官網新增 LINE 加入好友入口.md",
+                "file": "docs/ec/website-appearance/樣板編輯器操作全攻略.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "在官網新增 LINE 加入好友入口"
+              "title": "樣板編輯器操作全攻略"
             }
           },
           {
-            "id": "b28fb529781c4f3a",
+            "id": "6a63b9d9c7d2b465",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "templates/sib-template-version-recover.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "sib-template-version-recover"
+            }
+          },
+          {
+            "id": "e21848484f371a72",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -65,6 +79,20 @@
             }
           },
           {
+            "id": "3bfab33a2f3adf54",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/website-appearance/關閉商品圖片放大預覽功能.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "關閉商品圖片放大預覽功能"
+            }
+          },
+          {
             "id": "ead381354ded62b9",
             "type": "leaf",
             "state": {
@@ -79,7 +107,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       },
       {
         "id": "74dd1daaeb40eac4",
@@ -188,7 +216,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 287.5,
+    "collapsed": true
   },
   "right": {
     "id": "973606ff262c9293",
@@ -204,12 +233,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/ec/integrations/line/在官網新增 LINE 加入好友入口.md",
+                "file": "docs/ec/website-appearance/關閉商品圖片放大預覽功能.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": false
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from 在官網新增 LINE 加入好友入口"
+              "title": "Outgoing links from 關閉商品圖片放大預覽功能"
             }
           },
           {
@@ -218,7 +247,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/ec/integrations/line/在官網新增 LINE 加入好友入口.md",
+                "file": "docs/ec/website-appearance/關閉商品圖片放大預覽功能.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -228,7 +257,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for 在官網新增 LINE 加入好友入口"
+              "title": "Backlinks for 關閉商品圖片放大預覽功能"
             }
           },
           {
@@ -317,53 +346,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "3caeb6e502029b6a",
+  "active": "3bfab33a2f3adf54",
   "lastOpenFiles": [
-    "reference/frontmatter-skill-reference.md",
-    "docs/ec/integrations/line/在官網新增 LINE 加入好友入口.md",
-    "templates/yaml-plans-all.md",
-    "docs/ec/integrations/line/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md",
-    "docs/ec/products/sales/設定搜尋結果中排除特定關鍵字商品.md",
     "templates/yaml-plans-trunk.md",
-    "docs/ec/website-appearance/使用樣板編輯器恢復網頁代碼.md",
     "docs/ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md",
-    "docs/ec/website-appearance/設定前台語系與文字自定義.md",
-    "docs/ec/website-appearance/設定轉貼連結縮圖 (OG Image).md",
-    "docs/ec/website-appearance/關閉商品圖片放大預覽功能.md",
-    "templates/yaml.md",
+    "reference/frontmatter-skill-reference.md",
     "docs/ec/website-appearance/調整首頁跑馬燈（輪播圖）的轉場停留時間.md",
-    "docs/ec/website-appearance/設置網站客服視窗.md",
-    "docs/ec/website-appearance/設定網站標題與 SEO.md",
-    "docs/ec/website-appearance/設定導覽選單滑鼠移入自動展開.md",
+    "templates/sib-template-version-recover.md",
     "docs/ec/website-appearance/設定與修改客服中心資訊.md",
-    "docs/ec/website-appearance/修改結帳流程為優先填寫收件人資訊.md",
-    "docs/ec/marketing/設定一頁式商店 YouTube 影片自動播放與起始秒數.md",
-    "docs/ec/website-appearance/設定與管理自訂頁面.md",
-    "includes/abbreviations.md",
-    "templates/tutorial-layout.md",
-    "site/ec/products/index.html",
-    "site/ec/payments-and-logistics/index.html",
-    "site/wms/index.html",
-    "site/wms",
-    "site/ec/payments-and-logistics/設定全家冷凍物流 B2C/index.html",
-    "site/ec/payments-and-logistics/設定全家冷凍物流 B2C",
-    "site/ec/products/設定商品條件分類群組/index.html",
-    "site/ec/products/設定商品條件分類群組",
-    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款/index.html",
-    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款",
     "docs/ec/website-appearance/樣板編輯器操作全攻略.md",
-    "site/assets/images/ec-about-us-page-configure.zh-tw.png",
-    "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
-    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
-    "site/assets/images/EC-後台-商品-所有商品-將商品資訊更新到蝦皮01.png",
-    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
-    "site/assets/images/ec-訂單-所有訂單.png",
-    "site/assets/images/ec-advance-mass-import.zh-tw.png",
-    "site/assets/images/ec-products-filters.zh-tw.png",
-    "site/assets/images/ec-第三方整合-line login channel-openid connect.gif",
-    "site/assets/images/EC-後台-管理中心-網域信箱標籤設定-畫面總覽01.png",
+    "docs/pos/orders/修改訂單明細頁「店長改價」的顯示名稱.md",
+    "docs/pos/frontend/使用「店長改價」在 POS 前台調整單品價格.md",
+    "docs/ec/integrations/line/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md",
+    "docs/pos/integrations/line/設定與使用 LINE 顯示會員條碼（串接 POS 結帳）.md",
+    "site/assets/images/pos-第三方整合-line-顯示會員條碼-hero.png",
+    "docs/assets/images/pos-第三方整合-line-顯示會員條碼-hero.png",
+    "site/assets/images/pos-權限管理-店長改價-開關.png",
+    "docs/assets/images/pos-權限管理-店長改價-開關.png",
+    "site/ec/website-appearance/設置網站客服視窗/index.html",
+    "site/ec/website-appearance/設置網站客服視窗",
+    "site/resources/index.html",
+    "site/ec/products/設定超商配送限制與物流排除/index.html",
+    "site/ec/products/設定超商配送限制與物流排除",
+    "site/ec/website-appearance/設定選單與導覽列/index.html",
+    "site/ec/website-appearance/設定選單與導覽列",
+    "site/ec/products/設定結帳拆分多購物車/index.html",
+    "site/ec/products/設定結帳拆分多購物車",
+    "site/ec/products/編輯商品描述與商品設定/index.html",
+    "docs/pos/orders/設定 POS 訂單自動結案.md",
+    "templates/tutorial-layout.md",
+    "site/assets/images/pos-店長改假-名稱修改-前台.png",
+    "docs/assets/images/pos-店長改假-名稱修改-前台.png",
+    "site/assets/images/ec-網站外觀-樣板編輯器-customers-order-liquid.png",
+    "docs/assets/images/ec-網站外觀-樣板編輯器-customers-order-liquid.png",
+    "docs/ec/website-appearance/修改結帳流程為優先填寫收件人資訊.md",
+    "site/assets/images/ec-網站外觀-樣板編輯器-js-main-js.png",
+    "docs/assets/images/ec-網站外觀-樣板編輯器-js-main-js.png",
     "docs/ec/website-appearance/在自訂頁面中嵌入 Google 表單.md",
-    "templates/callout-warnin-template-editing.md",
-    "docs/ec/e-ticket/設定電子票券優惠.md"
+    "docs/ec/integrations/line/在官網新增 LINE 加入好友入口.md",
+    "README.md",
+    "docs/ec/products/sales/設定搜尋結果中排除特定關鍵字商品.md",
+    "docs/ec/website-appearance/設定網站標題與 SEO.md",
+    "docs/ec/website-appearance/關閉商品圖片放大預覽功能.md",
+    "archive/wordpress-annotated/wp-reg-annotated-20260106/商品貨到通知.md",
+    "archive/wordpress-annotated/wp-ent-annotated-20260106/商品貨到通知.md",
+    "archive/wordpress-annotated/wp-combined-reg-annotated-20260122.md",
+    "archive/wordpress-annotated/wp-combined-ent-annotated-20260122.md",
+    "docs/ec/products/設定商品影片.md",
+    "docs/ec/products/設定前台商品篩選器.md"
   ]
 }
