@@ -1,27 +1,33 @@
 ---
-title: 設定網站標題與 SEO
+title: "設定網站標題與 SEO"
+description: "設定網站標題、簡述與關鍵字，以優化搜尋引擎 (SEO) 排名並提升社群分享時的品牌辨識度。"
+last_modified: 2026-03-05 12:01
+lang: "zh-TW"
+type: "tutorial"
+status: ""
 version: ""
-last_modified: 2026-03-03
-description: 設定網站標題、簡述與關鍵字，以優化搜尋引擎 (SEO) 排名並提升社群分享時的品牌辨識度。
-product:
+author: Jase
+reviewers: []
+notes: []
+products:
   - EC
 modules:
   - 網站外觀
-  - SEO
-activ: ""
-paths:
-  - 管理中心 > 一般設定 > 網站名
-  - 網站外觀 > 套版主題管理 > 網站設定 > 全站設定
-surfaces:
-  - backend
-ends:
-  - 完成網站標題與 SEO 資訊設定
-  - 優化搜尋引擎結果頁顯示
-devices:
-  - desktop
-  - mobile
-apis: []
-type: tutorial
+sites:
+  - TW
+audiences:
+  - 商家
+difficulty: advanced
+tnb: trunk
+plans:
+  - 專業
+  - 進階
+  - 高手
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions: []
 intents:
   - 設定網站標題與簡述
   - 進行 SEO 基礎優化
@@ -31,27 +37,30 @@ features:
   - 網站簡述
   - 網站關鍵字
   - 搜尋引擎優化 (SEO)
-tnb: ""
-plans:
-  - 一般版型
-  - 拖拉版型
 prerequisites:
   - 已設定網站基本名稱
-lang: zh-TW
-sites:
-  - TW
-status: ""
+related:
+  - "[[設定轉貼連結縮圖 (OG Image)]]"
 tags:
   - SEO
   - 網站標題
   - 搜尋引擎
-difficulty: ""
-audiences:
-  - 商家
+acoiv: "configure"
+apis: []
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths:
+  - 管理中心 > 一般設定 > 網站名
+  - 網站外觀 > 套版主題管理 > 網站設定 > 全站設定
+layouts:
+  - 一般版型
+  - 拖拉版型
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3572
   - https://www.cyberbiz.io/support/?p=16627
-notes: []
+permalink: ""
 comments: ""
 search:
   exclude: ""
@@ -63,16 +72,16 @@ icon: ""
 
 ![](../../../assets/images/ec-網站外觀-網站標題seo-hero.png){ .hero-page }
 
-## 網站標題說明
+## 網站標題與 SEO 說明
 
-### 欄位定義與建議
+### 網站標題與網站簡述有什麼差異
 
 - **網站標題 (Title)**：網頁的核心名稱。應包含「品牌名」與「核心關鍵字」。
 - **網站簡述 (Description)**：網頁內容的摘要。建議以吸引點擊的文案為主，包含主要服務項目。
 
 ---
 
-### 顯示位置說明
+### 網站標題會顯示在哪裡
 
 這兩項設定主要會出現在以下三個地方：
 
@@ -90,7 +99,7 @@ icon: ""
     
 - **顯示內容：** 標題（藍色大字）與 簡述（下方灰色小字）。
 	
-- **作用：** 這是消費者對品牌的第一印象，直接影響點擊率 (CTR)。
+- **作用：** 此區塊會直接影響搜尋結果點擊率（CTR）。
 
 ![](../../../assets/images/ec-網站外觀-網站標題與簡述-google搜尋顯示.png)
 
@@ -121,7 +130,7 @@ icon: ""
 
 ### 預設版型（一般版型）
 
-預設版型僅能設定「網站標題」，且需透過程式碼編輯器修改。前台標題預設會顯示「網站名 | 歡迎光臨」。
+預設版型僅能設定「網站標題」，且需透過程式碼編輯器修改。
 
 - **設定步驟**：
     1. 登入 CYBERBIZ 管理後台，前往 **網站外觀 > 套版主題管理**。

@@ -1,6 +1,6 @@
 <!-- abbreviations -->
 *[一般版]: 專業、高手、進階方案版本。
-*[PLUS版]: 專業PLUS版、進階PLUS版、高手PLUS版方案。
+*[PLUS 版]: 專業PLUS版、進階PLUS版、高手PLUS版方案。
 *[CYBER 幣]: CYBERBIZ 系統內用於支付 金物流相關服務費用及特定系統功能的虛擬計費點數。
 *[LIFF]: LINE Front-end Framework，是一個在 LINE APP 內運行網頁應用的框架。
 *[LINE OA]: LINE 官方帳號。企業或品牌在 LINE 平台上開設的專屬帳號，用於與顧客進行互動、發送行銷訊息及提供客戶服務。

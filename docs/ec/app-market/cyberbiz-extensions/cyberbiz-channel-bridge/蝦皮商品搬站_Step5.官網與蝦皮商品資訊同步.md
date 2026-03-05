@@ -46,7 +46,7 @@ notes: []
 comments: ""
 search: 
   exclude: ""
-icon: "lucide/lock"
+icon: ""
 ---
 
 # Step 5 官網與蝦皮商品資訊同步

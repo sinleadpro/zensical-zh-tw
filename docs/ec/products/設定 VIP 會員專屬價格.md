@@ -46,7 +46,7 @@ notes:
 comments: ""
 search:
   exclude: ""
-icon: lucide/lock
+icon: 
 ---
 
 # 設定 VIP 會員專屬價格

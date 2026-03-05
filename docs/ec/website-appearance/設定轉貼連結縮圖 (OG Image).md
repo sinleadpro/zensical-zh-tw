@@ -1,24 +1,46 @@
 ---
 title: 設定轉貼連結縮圖 (OG Image)
-version: ""
-last_modified: 2026-02-28
 description: 於商品、分類、文章或全站設定中指定 Open Graph（OG）分享圖片，控制社群平台轉貼連結時顯示的縮圖與預覽資訊。
-product:
+created: 2025-03-03
+last_modified: 2026-03-05 12:15
+lang: zh-TW
+type: tutorial
+status: ""
+version: ""
+author: Jase
+reviewers: []
+notes:
+  - verify 一般版型 og image 設定路徑
+  - inform 商品自訂分類群組圖片上傳 編輯器 URL 遺失問題
+  - verify faq test weight
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules:
   - 網站外觀
   - 商品
-activ: ""
-paths: []
-surfaces: []
-ends: []
-devices:
-  - desktop
-  - mobile
-apis: []
-type: tutorial
+sites: []
+audiences:
+  - merchant
+difficulty: Beginner
+tnb: trunk
+plans:
+  - 專業
+  - 進階
+  - 高手
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions: []
 intents:
-  - 設定
+  - 設定社群分享縮圖
+  - 自訂商品轉貼圖片 
+  - 解決 Facebook 縮圖不更新問題
+  - 優化 LINE 分享預覽
+  - 更新全站 OG Image 
+  - 修正部落格文章分享圖 
 features:
   - OG Image
   - 商品圖片
@@ -26,12 +48,8 @@ features:
   - 商品群組縮圖
   - 全站縮圖
   - 社群分享快取解決方案
-tnb: ""
-plans: []
 prerequisites: []
-lang: zh-TW
-sites: []
-status: ""
+related: []
 tags:
   - OG Image
   - 社群分享
@@ -39,21 +57,24 @@ tags:
   - Facebook
   - LINE
   - 快取更新
-difficulty: basic
-audiences:
-  - 商家
+acoiv: ""
+apis: []
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths: []
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3843
   - https://www.cyberbiz.io/support/?p=19718
-notes:
-  - verify 一般版型 og image 設定路徑
-  - inform 商品自訂分類群組圖片上傳 編輯器 URL 遺失問題
-  - verify faq test weight
-comments: ""
+permalink: ""
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: ""
 ---
+<!-- ... existing content ... -->
 
 於商品、分類、文章或全站設定中指定 Open Graph（OG）分享圖片，控制社群平台轉貼連結時顯示的縮圖與預覽資訊。
 { .subtitle }

@@ -1,39 +1,51 @@
 ---
 title: "{{title}}"
+description: "" 
+created: "{{date}} {{time}}"
+last_modified: 
+lang: ""
+type: tutorial
+status: ""
 version: ""
-last_modified: "{{date}}"
-description: ""
-product:
+author: Jase
+reviewers: []
+notes: []
+ga_views: 
+feedback:
+products:
   - EC
 modules: []
-activ: ""
-paths: []
-surfaces: []
-ends: []
-devices:
-  - desktop
-  - mobile
-apis: []
-type: tutorial
+sites:
+  - TW
+audiences: 
+  - 商家
+difficulty: ""
+tnb: ""
+plans: 
+cyb_extensions: [] 
 intents: []
 features: []
-extensions: []
-tnb: ""
-plans: []
 prerequisites: []
-lang: zh-TW
-sites: []
-status:
+related: []
 tags: []
-difficulty: ""
-audiences: []
+acoiv: ""
+apis: []
+devices: 
+  - desktop 
+  - mobile
+ui_components: []
+paths: []
+layouts: []
 wp_url: []
-notes: []
+permalink: ""
 comments: ""
 search:
   exclude: ""
 icon: ""
 ---
+
+# {{title}}
+
 
 { .subtitle }
 

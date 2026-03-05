@@ -33,7 +33,7 @@
             "format": 0,
             "mode": "normal",
             "style": "",
-            "text": " , adding missing properties but preserve existing ones with values. For properties missing values, fill in according to the content appropriately. Input the last-updated property with today's date in the following format: yyyy-mm-dd. intents and features should be in zh-tw. Don't add # comment",
+            "text": " , adding missing properties but preserve existing ones with values. For properties missing values, fill in according to the content appropriately. intents and features should be in zh-tw. Don't add # comment",
             "type": "text",
             "version": 1
           }
@@ -49,6 +49,6 @@
     ]
   },
   "createdAt": 1763022321621,
-  "updatedAt": 1772508848936,
+  "updatedAt": 1772681995918,
   "schemaVersion": 1
 }

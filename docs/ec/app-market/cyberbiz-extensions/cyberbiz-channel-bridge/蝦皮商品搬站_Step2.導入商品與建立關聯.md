@@ -44,7 +44,7 @@ notes:
 comments: ""
 search: 
   exclude: ""
-icon: "lucide/lock"
+icon: ""
 ---
 
 # Step 2 導入商品與建立關聯

@@ -57,7 +57,7 @@ notes:
 comments:
 search:
   exclude: ""
-icon: lucide/lock
+icon: 
 ---
 
 # 設定 LINE Pay
