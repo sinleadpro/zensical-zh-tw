@@ -1,26 +1,34 @@
 ---
 title: 在自訂頁面中嵌入 Google 表單
-version: ""
-last_modified: 2024-05-23
 description: 將 Google 表單嵌入 CYBERBIZ 自訂頁面，並針對手機版進行響應式寬度與高度優化。
-product:
+created: 2024-05-23
+last_modified: 2026-03-05 14:51
+lang: zh-TW
+permalink: ""
+type: tutorial
+status: ""
+version: ""
+author: Jase
+reviewers: []
+notes: []
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules:
   - 網站外觀
-  - 自訂頁面
-activ: configure
-paths:
-  - 網站外觀 > 自訂頁面管理
-surfaces:
-  - backend
-  - frontend
-ends:
-  - 成功在自訂頁面嵌入並顯示 Google 表單
-devices:
-  - desktop
-  - mobile
-apis: []
-type: tutorial
+sites:
+  - TW
+tnb: trunk
+plans:
+  - 專業
+  - 進階
+  - 高手
+  - 企業
+cyb_extensions: []
+audiences:
+  - merchant
+difficulty: beginner
 intents:
   - 嵌入 Google 表單至自訂頁面
   - 優化表單行動版顯示比例
@@ -30,35 +38,28 @@ features:
   - 自訂頁面
   - 自訂 HTML 區塊
   - Google 表單嵌入
-tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業 PLUS
-  - 進階 PLUS
-  - 高手 PLUS
-  - 企業
 prerequisites:
   - 已製作完成的 Google 表單
-lang: zh-TW
-sites:
-  - TW
-status: ""
+related: []
 tags:
-  - Google 表單
+  - Google表單
   - 嵌入代碼
   - 響應式設計
-difficulty: easy
-audiences:
-  - 商家
+acoiv: configure
+apis: []
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths:
+  - 網站外觀 > 自訂頁面管理
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3688
   - https://www.cyberbiz.io/support/?p=18247
-notes: []
-comments: ""
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: ""
 ---
 

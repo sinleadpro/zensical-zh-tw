@@ -23,7 +23,7 @@ modules:
 sites: []
 audiences:
   - merchant
-difficulty: Beginner
+difficulty: beginner
 tnb: trunk
 plans:
   - 專業

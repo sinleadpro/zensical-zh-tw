@@ -325,6 +325,9 @@
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/website-appearance/%E5%9C%A8%E8%87%AA%E8%A8%82%E9%A0%81%E9%9D%A2%E4%B8%AD%E5%B5%8C%E5%85%A5%20Google%20%E8%A1%A8%E5%96%AE/</loc>
       </url>
       <url>
+        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/website-appearance/%E8%A8%AD%E5%AE%9A%E8%88%87%E4%BF%AE%E6%94%B9%E5%AE%A2%E6%9C%8D%E4%B8%AD%E5%BF%83%E8%B3%87%E8%A8%8A/</loc>
+      </url>
+      <url>
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/ec/website-appearance/%E4%BF%AE%E6%94%B9%E7%B5%90%E5%B8%B3%E6%B5%81%E7%A8%8B%E7%82%BA%E5%84%AA%E5%85%88%E5%A1%AB%E5%AF%AB%E6%94%B6%E4%BB%B6%E4%BA%BA%E8%B3%87%E8%A8%8A/</loc>
       </url>
       <url>
@@ -457,10 +460,16 @@
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/pos/</loc>
       </url>
       <url>
+        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/pos/frontend/%E4%BD%BF%E7%94%A8%E3%80%8C%E5%BA%97%E9%95%B7%E6%94%B9%E5%83%B9%E3%80%8D%E5%9C%A8%20POS%20%E5%89%8D%E5%8F%B0%E8%AA%BF%E6%95%B4%E5%96%AE%E5%93%81%E5%83%B9%E6%A0%BC/</loc>
+      </url>
+      <url>
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/pos/orders/</loc>
       </url>
       <url>
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/pos/orders/%E8%A8%AD%E5%AE%9A%20POS%20%E8%A8%82%E5%96%AE%E8%87%AA%E5%8B%95%E7%B5%90%E6%A1%88/</loc>
+      </url>
+      <url>
+        <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/pos/orders/%E4%BF%AE%E6%94%B9%E8%A8%82%E5%96%AE%E6%98%8E%E7%B4%B0%E9%A0%81%E3%80%8C%E5%BA%97%E9%95%B7%E6%94%B9%E5%83%B9%E3%80%8D%E7%9A%84%E9%A1%AF%E7%A4%BA%E5%90%8D%E7%A8%B1/</loc>
       </url>
       <url>
         <loc>https://zensical-zh-tw.plain-dawn-91f2.workers.dev/pos/integrations/line/%E8%A8%AD%E5%AE%9A%E8%88%87%E4%BD%BF%E7%94%A8%20LINE%20%E9%A1%AF%E7%A4%BA%E6%9C%83%E5%93%A1%E6%A2%9D%E7%A2%BC%EF%BC%88%E4%B8%B2%E6%8E%A5%20POS%20%E7%B5%90%E5%B8%B3%EF%BC%89/</loc>

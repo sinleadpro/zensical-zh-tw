@@ -1,7 +1,7 @@
 ---
-title: "設定 POS 訂單自動結案"
+title: 設定 POS 訂單自動結案
 version: ""
-last_modified: "2026-02-07"
+last_modified: 2026-02-07
 description: ""
 product:
   - EC
@@ -53,8 +53,5 @@ icon: ""
 
     2. **特定天數後結案：** 若未開啟「立即結案」，可自訂 N 天後由系統自動執行。
 
-
-
-## 後續操作
 
 ## 常見問題

@@ -1,6 +1,6 @@
 # CYB DOC (zh-TW)
 
-Documentation site for the CYB platform. 
+Documentation site for the CYB patform. 
 
 ## Information Architecture
 

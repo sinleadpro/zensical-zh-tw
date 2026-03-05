@@ -30,7 +30,7 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - 商家
+  - merchant
 difficulty: beginner
 intents:
   - 在官網新增 LINE 加入好友入口
@@ -49,7 +49,7 @@ tags:
   - LINE
   - 加入好友
   - 導流
-  - 拖拉版型
+  - draggable
 acoiv: configure
 apis: []
 devices:
@@ -64,7 +64,7 @@ paths:
   - 網站外觀 > 套版主題管理 > 網站設定
   - 網站外觀 > 選單/導覽列設定
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7435
   - https://www.cyberbiz.io/support/?p=38439

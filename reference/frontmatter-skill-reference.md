@@ -4,7 +4,7 @@ created: 2026-03-05 10:50
 last-modified: 2026-03-05 11:45
 type:
 tags:
-last_modified: 2026-03-05 14:15
+last_modified: 2026-03-05 14:56
 ---
 
 ## Frontmatter Schema
@@ -12,8 +12,8 @@ last_modified: 2026-03-05 14:15
 ```yaml
 title: { type: String, required: true, desc: "H1 Title / SEO Title" }
 description: { type: String, max_length: 160, desc: "Meta description for Zensical social card" }
-created: { type: Date, format: "YYYY-MM-DD" }
-last_modified: { type: Date, format: "YYYY-MM-DD" }
+created: { type: Date, format: "YYYY-MM-DD HH:mm" }
+last_modified: { type: Date, format: "YYYY-MM-DD HH:mm" }
 lang: { type: String, enum: ["zh-TW", "en-US", "ja-JP"] }
 type: { type: String, enum: ["tutorial", "guide", "reference", "concept"] }
 status: { type: String, enum: ["new", "update", "deprecated"] }
@@ -26,7 +26,7 @@ feedback: { type: Integer, default: 0, desc: "Net feedback score (Up minus Down)
 products: { type: Array, enum: ["EC", "POS", "WMS"] }
 modules: { type: Array, desc: "Matching CYB admin console leftsidebar menu" }
 sites: { type: Array, enum: ["TW", "JP", "US"] }
-audiences: { type: Array, enum: ["商家", "開發人員", "店員", "店長"] }
+audiences: { type: Array, enum: ["merchant", "engineer", "clerk"] }
 difficulty: { type: String, enum: ["beginner", "intermediate", "advanced"] }
 tnb: { type: String, enum: ["trunk", "branch"] }
 plans: { type: Array, enum: ["專業", "進階", "高手", "專業 PLUS", "進階 PLUS", "高手 PLUS", "企業"] }
@@ -41,7 +41,7 @@ apis: { type: Array, desc: "List of API endpoints" }
 devices: { type: Array, enum: ["desktop", "mobile", "tablet"] }
 ui_components: { type: Array, desc: "UI elements mentioned" }
 paths: { type: Array, desc: "admin console navigation routes mentioned" }
-layouts: { type: Array, enum: ["一般版型", "拖拉版型"] }
+layouts: { type: Array, enum: ["classic", "draggable"] }
 wp_url: { type: Array, desc: WordPress docs urls } 
 permalink: { type: String, desc: "Slug for Zensical URL" }
 comments: { type: Boolean, default: false }
@@ -58,8 +58,8 @@ icon: { type: String, desc: "Lucide icon (e.g., lucide/braces)" }
 | --------------- | -------- | ------------ | -------------------------------------------- |
 | `title`         | String   | ✅            | **文件標題**：SEO 與 H1 的主要來源。                     |
 | `description`   | String   | ✅            | **內容摘要**：用於 Zensical Social Cards，建議 160 字內。 |
-| `created`       | Date/Time| ✅.           | **建立日期**：文件最初產生的時間。由核心模板於建立時填入，後續**不應更改**。|
-| `last_modified` | Date     | ✅            | **最後更新**：格式必須為 `YYYY-MM-DD`。                 |
+| `created`       | Date/Time| ✅           | **建立日期**：文件最初產生的時間。由核心模板於建立時填入，後續**不應更改**。|
+| `last_modified` | Date     | ✅            | **最後更新**：格式必須為 `YYYY-MM-DD HH:mm`。                 |
 | `lang`          | Enum     | ✅            | **語系**：`zh-TW`, `en-US`, `ja-JP`。            |
 | `permalink`     | String   | ✅            | **固定連結**：Zensical 產出的 URL Slug。              |
 
@@ -96,7 +96,7 @@ icon: { type: String, desc: "Lucide icon (e.g., lucide/braces)" }
 
 |**Key**|**Type**|**Description**|
 |---|---|---|
-|`audiences`|Array|目標對象：`商家` (merchant), `開發人員` (engineer)。|
+|`audiences`|Array|目標對象：`merchant` (商家), `engineer` (開發人員), `clerk`(店員)。|
 |`difficulty`|Enum|難易度：`beginner`, `intermediate`, `advanced`。|
 |`intents`|Array|**搜尋意圖**：使用者想解決什麼問題？(例如：如何退貨)。|
 |`features`|Array|**功能特性**：文中提到的特定系統功能。|
@@ -118,7 +118,7 @@ icon: { type: String, desc: "Lucide icon (e.g., lucide/braces)" }
 |`devices`|Array|適用設備：`desktop`, `mobile`, `tablet`。|
 |`ui_components`|Array|文中提到的介面元素名稱。|
 |`paths`|Array|**後台路徑**：文中提到的後台介面操作路徑。|
-|`layouts`|Enum|頁面佈局：`classic`, `drag-and-drop`。|
+|`layouts`|Enum|頁面佈局：`classic` (一般版型), `draggable`（拖拉版型）。|
 
 ### 8. 外部整合與系統 (Zensical / WP)
 

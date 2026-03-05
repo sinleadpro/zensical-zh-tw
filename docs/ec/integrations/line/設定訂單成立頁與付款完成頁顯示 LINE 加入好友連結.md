@@ -2,7 +2,7 @@
 title: 設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結
 description: 透過編輯 Liquid 樣板檔案，在結帳完成後的關鍵轉換點嵌入 LINE 導流元件，以提升會員回流率。
 created: 2026-02-24
-last_modified: 2026-02-24
+last_modified: 2026-03-05 20:15
 lang: zh-TW
 permalink: ""
 type: tutorial
@@ -26,7 +26,7 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - 開發下元
+  - engineer
 difficulty: advanced
 intents:
   - 設定訂單成立頁顯示 LINE 加入好友連結
@@ -53,7 +53,7 @@ ui_components: []
 paths:
   - 網站外觀 > 套版主題管理 > 選擇操作 > CSS/HTML編輯器
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10871
   - https://www.cyberbiz.io/support/?p=30333
@@ -68,7 +68,7 @@ icon: ""
 透過編輯 Liquid 樣版檔案，在結帳完成後的關鍵轉換點嵌入 LINE 導流元件，以提升會員回流率。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手PLUS / 企業  
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 PLUS / 企業  
 [:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能) | 拖拉版型
 { .doc-badge }
 
