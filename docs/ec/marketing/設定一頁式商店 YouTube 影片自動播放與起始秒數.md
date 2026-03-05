@@ -1,20 +1,38 @@
 ---
-title: 設定一頁式商店 YouTube 影片自動播放與起始秒數
+title: "設定一頁式商店 YouTube 影片自動播放與起始秒數"
+description: "調整 YouTube 影片網址參數，在一頁式商店中設定自動播放、循環播放與指定播放起始秒數。"
+created: "2024-05-23 11:30"
+last_modified: 2026-03-05 11:51
+lang: "zh-TW"
+type: "tutorial"
+status: ""
 version: ""
-last_modified: 2026-03-01
-description: 調整 YouTube 影片網址參數，在一頁式商店中設定自動播放、循環播放與指定播放起始秒數。
-product:
+author: Jase
+reviewers: []
+notes:
+  - verify youtube embed url 限制 autoloop 是不是只能從頭開始，CYB 支援程度。
+ga_views: 
+feedback:
+products:
   - EC
-modules: []
-activ: ""
-paths: []
-surfaces: []
-ends: []
-devices:
-  - desktop
-  - mobile
-apis: []
-type: tutorial
+modules:
+  - 行銷活動
+  - 一頁式商店
+sites:
+  - TW
+audiences:
+  - 商家
+difficulty: "advanced"
+tnb: trunk
+plans: 
+  - 專業
+  - 進階
+  - 高手
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions: []
 intents:
   - 設定 YouTube 影片自動播放
   - 設定 YouTube 影片開始秒數
@@ -23,13 +41,9 @@ features:
   - 自動播放
   - 循環播放
   - 指定播放時間
-tnb: ""
-plans: []
 prerequisites:
   - 登入 CYBERBIZ 管理後台
-lang: zh-TW
-sites: []
-status:
+related: []
 tags:
   - YouTube
   - 影片
@@ -37,15 +51,19 @@ tags:
   - 一頁式商店
   - 循環播放
   - 起始秒數
-  - 靜音
-  - CYBERBIZ
-difficulty: advanced
-audiences: []
+acoiv: "configure"
+apis: []
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths:
+  - 行銷活動 > 一頁式商店頁面
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3838
   - https://www.cyberbiz.io/support/?p=19650
-notes: 
-  - verify youtube embed url 限制 autoloop 是不是只能從頭開始，CYB 支援程度。
+permalink: ""
 comments: ""
 search:
   exclude: ""

@@ -1,44 +1,65 @@
 ---
 title: 設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結
-version: ""
+description: 透過編輯 Liquid 樣板檔案，在結帳完成後的關鍵轉換點嵌入 LINE 導流元件，以提升會員回流率。
+created: 2026-02-24
 last_modified: 2026-02-24
-description: 透過編輯 Liquid 樣版檔案，在結帳完成後的關鍵轉換點嵌入 LINE 導流元件，以提升會員回流率。
-product:
+lang: zh-TW
+permalink: ""
+type: tutorial
+status: ""
+version: ""
+author: Jase
+reviewers: []
+notes:
+  - code block can be improved with code annotation.
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules:
-  - 拖拉版型
-activ: ""
-paths: []
-surfaces: []
-ends: []
+  - 網站外觀
+sites:
+  - TW
+tnb: branch
+plans:
+  - 高手 PLUS
+  - 企業
+cyb_extensions: []
+audiences:
+  - 開發下元
+difficulty: advanced
+intents:
+  - 設定訂單成立頁顯示 LINE 加入好友連結
+  - 設定付款完成頁顯示 LINE 加入好友連結
+features:
+  - Liquid 樣板編輯
+  - LINE 導流元件
+  - 訂單完成頁客製化
+prerequisites:
+  - 客服申請開通
+related:
+  - docs/ec/website-appearance/使用樣板編輯器恢復網頁代碼.md
+tags:
+  - LINE
+  - 訂單完成
+  - 轉換率
+  - 導流
+acoiv: configure
+apis: []
 devices:
   - desktop
   - mobile
-apis: []
-type: tutorial
-intents: []
-features: []
-tnb: ""
-plans:
-  - 高手PLUS
-  - 企業
-prerequisites:
-  - 客服申請開通
-lang: zh-TW
-sites: []
-status: ""
-tags: []
-difficulty: 進階
-audiences:
-  - engineer
+ui_components: []
+paths:
+  - 網站外觀 > 套版主題管理 > 選擇操作 > CSS/HTML編輯器
+layouts:
+  - 拖拉版型
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10871
   - https://www.cyberbiz.io/support/?p=30333
-notes:
-  - code block can be improved with code annotation.
-comments: ""
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: ""
 ---
 

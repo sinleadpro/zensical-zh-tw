@@ -1,39 +1,76 @@
 ---
 title: 在官網新增 LINE 加入好友入口
-version: ""
-last_modified: 2026-02-24
 description: 在拖拉版型網站中新增 LINE 官方帳號加入好友入口，透過彈窗、輪播、頁腳或導覽列引導訪客加入好友。
-product:
+created: 2026-02-24
+last_modified: 2026-02-24
+lang: zh-TW
+permalink: ""
+type: tutorial
+status: ""
+version: ""
+author: Jase
+reviewers: []
+notes: []
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules:
+  - 網站外觀
+sites:
+  - TW
+tnb: trunk
+plans:
+  - 專業
+  - 進階
+  - 高手
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions: []
+audiences:
+  - 商家
+difficulty: beginner
+intents:
+  - 在官網新增 LINE 加入好友入口
+  - 提升品牌與 LINE 官方帳號會員黏著度
+features:
+  - 彈窗廣告
+  - 輪播素材 (Banner)
+  - 頁腳 ICON 設定
+  - 選單導覽列設定
+prerequisites:
+  - 取得 LINE 官方帳號加入好友連結與素材
+related:
+  - docs/ec/website-appearance/拖拉版型網站設定.md
+  - docs/ec/website-appearance/設定選單與導覽列.md
+tags:
+  - LINE
+  - 加入好友
+  - 導流
   - 拖拉版型
-activ: ""
-paths: []
-surfaces: []
-ends: []
+acoiv: configure
+apis: []
 devices:
   - desktop
   - mobile
-apis: []
-type: tutorial
-intents: []
-features: []
-tnb: ""
-plans: []
-prerequisites: []
-lang: zh-TW
-sites: []
-status: ""
-tags: []
-difficulty: ""
-audiences: []
+ui_components:
+  - 彈窗
+  - 輪播
+  - 頁腳
+  - 導覽列
+paths:
+  - 網站外觀 > 套版主題管理 > 網站設定
+  - 網站外觀 > 選單/導覽列設定
+layouts:
+  - 拖拉版型
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7435
   - https://www.cyberbiz.io/support/?p=38439
-notes: []
-comments: ""
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: ""
 ---
 

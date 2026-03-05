@@ -47,7 +47,7 @@ notes: []
 comments: ""
 search: 
   exclude: ""
-icon: "lucide/lock"
+icon: ""
 ---
 
 # Step 3 官網與蝦皮商店庫存同步

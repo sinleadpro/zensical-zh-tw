@@ -60,7 +60,7 @@ notes: []
 comments: ""
 search:
   exclude: ""
-icon: lucide/lock
+icon: 
 ---
 
 # 設定超商大宗寄倉 B2C

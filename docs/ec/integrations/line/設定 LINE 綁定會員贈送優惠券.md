@@ -70,7 +70,7 @@ notes:
 comments: ""
 search:
   exclude: ""
-icon: lucide/lock
+icon: 
 ---
 
 

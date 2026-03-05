@@ -43,7 +43,7 @@ notes: []
 comments: ""
 search: 
   exclude: ""
-icon: "lucide/lock"
+icon: ""
 ---
 
 # Step 1 安裝與授權商店
