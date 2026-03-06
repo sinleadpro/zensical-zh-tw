@@ -35,7 +35,7 @@ features:
 tnb: ""
 plans:
   - 專業PLUS
-  - 進階PLUS
+  - 進階 PLUS
   - 高手PLUS
   - 企業
 prerequisites: []
@@ -72,7 +72,7 @@ icon: ""
 設定與管理 LINE 官方帳號（LINE Official Account）的自動化通知樣板，包含前置條件、樣板設定流程、支援情境與計費規則。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 專業PLUS / 進階PLUS / 高手PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手PLUS / 企業
 { .doc-badge }
 
 ![](../../assets/images/ec-訊息推播-line oa 樣板.png){ .hero-page }

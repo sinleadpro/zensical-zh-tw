@@ -32,7 +32,7 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階PLUS
+  - 進階 PLUS
   - 高手PLUS
   - 企業
 prerequisites:
@@ -65,7 +65,7 @@ icon:
 串接 LINE Pay 付款，顧客於結帳時可選用 LINE Pay 進行支付。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 專業PLUS / 進階PLUS / 高手PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 專業 PLUS / 進階 PLUS / 高手PLUS / 企業
 { .doc-badge }
 
 ![](../../assets/images/ec-金物流-line-pay.png){ .hero-page }
@@ -175,7 +175,7 @@ icon:
 
 2. **設定金流門檻**：設定訂單最大/最小金額。
     
-    !!! info  "專業PLUS 與 進階PLUS 方案不支援 LINE Pay 金流門檻設定。"  
+    !!! info  "專業 PLUS與 進階 PLUS 方案不支援 LINE Pay 金流門檻設定。"  
 
 	![](../../assets/images/ec-金物流-line-pay-金流門檻.png)
 

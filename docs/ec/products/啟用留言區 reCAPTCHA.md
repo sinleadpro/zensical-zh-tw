@@ -12,7 +12,7 @@ product:
   - EC
 plans:
   - 專業PLUS
-  - 進階PLUS
+  - 進階 PLUS
   - 高手PLUS
   - 企業
 surfaces:

@@ -36,11 +36,11 @@ plans:
 cyb_extensions: []
 intents:
   - 設定社群分享縮圖
-  - 自訂商品轉貼圖片 
+  - 自訂商品轉貼圖片
   - 解決 Facebook 縮圖不更新問題
   - 優化 LINE 分享預覽
-  - 更新全站 OG Image 
-  - 修正部落格文章分享圖 
+  - 更新全站 OG Image
+  - 修正部落格文章分享圖
 features:
   - OG Image
   - 商品圖片
@@ -129,6 +129,7 @@ icon: ""
 	-->
 	
 	- **拖拉版型**：登入 CYBERBIZ 管理後台，前往 **網站外觀 > 套版主題管理 > 網站設定 > 全站設定 >「圖示設定」中的「轉貼分享圖片 OG image**。
+	- 
 - **功能**：若分享的頁面不屬於上述商品、群組或文章（例如首頁、分頁），則會顯示此處設定的通用縮圖。
 
 ![](../../../assets/images/ec-網站外觀-全站設定-og-image.png)
@@ -140,7 +141,7 @@ icon: ""
 ### 手動更新 Facebook 連結資訊步驟
 
 1. 確保網頁上的新圖片已更新完成。
-2. 開啟 **[Facebook 分享偵錯工具](https://developers.facebook.com/tools/debug/)**，貼入欲更新的連結後點選「偵錯」。
+2. 開啟 **[Facebook 分享偵錯工具 :lucide-external-link:](https://developers.facebook.com/tools/debug/)**，貼入欲更新的連結後點選「偵錯」。
 3. 若畫面仍顯示舊資訊，請點擊 **「再次抓取」** 按鈕，強制 Facebook 重新讀取網頁資料。
 4. 更新成功後，再次於 Facebook 發布連結即可看到正確的縮圖與資訊。
 
