@@ -58,7 +58,12 @@ copyright = """
             { "開啟會員退貨申請功能" = "ec/orders/開啟會員退貨申請功能.md"},
             { "訂單退貨流程" = "ec/orders/訂單退貨流程.md"},
             { "訂單退款流程" = "ec/orders/訂單退款流程.md"},
-            { "綠界後台查詢教學" = "ec/orders/綠界後台查詢教學.md"}
+            { "第三方支付訂單人工退款" = "ec/orders/第三方支付訂單人工退款.md"},
+            { "綠界後台查詢教學" = "ec/orders/綠界後台查詢教學.md"},
+            { "跨境電商" = [
+                {"跨境電商退貨流程" = "ec/orders/跨境電商退貨流程.md"},
+                {"跨境電商退款流程" = "ec/orders/跨境電商退款流程.md"},
+            ]},
         ]},
         { "會員" = [
             { "overview" = "ec/members/index.md"},
@@ -69,7 +74,7 @@ copyright = """
                 {"VIP功能運作指南" = "ec/members/VIP功能運作指南.md"},
                 {"建立全館VIP制度" = "ec/members/建立全館VIP制度.md"},
                 {"建立特殊VIP群組" = "ec/members/建立特殊VIP群組.md"},
-                {"設定VIP專屬優惠" = "ec/members/設定VIP專屬優惠.md"}
+                {"設定VIP專屬優惠" = "ec/members/設定VIP專屬優惠.md"},
             ]},
         ]},
         { "商品" = [
@@ -182,14 +187,15 @@ copyright = """
             { "設定 LINE Pay" = "ec/payments-and-logistics/設定 LINE Pay.md" },
             { "設定街口支付" = "ec/payments-and-logistics/設定街口支付.md" },
             { "設定 PayPal" = "ec/payments-and-logistics/設定 PayPal.md" },
-            { "串接全家超商B2C冷凍物流" = "ec/payments-and-logistics/串接全家超商B2C冷凍物流.md" },
-            { "超商店到店 C2C 串接" = "ec/payments-and-logistics/設定超商店到店 C2C 物流串接.md" },
+            { "宅配貨到付款（黑貓/宅配通/新竹物流）" = "ec/payments-and-logistics/宅配貨到付款（黑貓宅配通新竹物流）.md" },
+            { "宅配貨到不付款（黑貓/宅配通/新竹物流）" = "ec/payments-and-logistics/宅配貨到不付款（黑貓宅配通新竹物流）.md" },
             { "超商大宗寄倉 B2C" = "ec/payments-and-logistics/設定超商大宗寄倉 B2C.md" },
+            { "超商店到店 C2C 串接" = "ec/payments-and-logistics/設定超商店到店 C2C 物流串接.md" },
+            { "串接全家超商B2C冷凍物流" = "ec/payments-and-logistics/串接全家超商B2C冷凍物流.md" },
             { "全家冷凍物流 B2C 設定" = "ec/payments-and-logistics/設定全家冷凍物流 B2C.md" },
+            { "全家 C2C 冷凍店到店物流" = "ec/payments-and-logistics/全家 C2C 冷凍店到店物流.md" },
             { "設定門市取貨服務"= "ec/payments-and-logistics/設定門市取貨服務.md" },
             { "設定CYBERBIZ NOW快速到貨服務" = "ec/payments-and-logistics/設定CYBERBIZ NOW快速到貨服務.md" },
-            { "串接ezShip超商取貨(C2C)" = "ec/payments-and-logistics/串接ezShip超商取貨(C2C).md"},
-            { "申請綠界金流與超商取貨付款" = "ec/payments-and-logistics/申請綠界金流與超商取貨付款.md"},
             { "CYBERBIZ NOW" = [
                 { "overview" = "ec/payments-and-logistics/CYBERBIZNOW/index.md" },
                 { "開啟快速到貨服務" = "ec/payments-and-logistics/CYBERBIZNOW/開啟CYBERBIZ NOW快速到貨服務.md"},
@@ -200,9 +206,23 @@ copyright = """
                 { "缺貨訂單部分出貨或取消流程"= "ec/payments-and-logistics/CYBERBIZNOW/缺貨訂單部分出貨或取消流程.md"},
                 { "快速到貨配送異常規範"= "ec/payments-and-logistics/CYBERBIZNOW/快速到貨配送異常規範.md"},
                 { "運費計算與對帳規範"= "ec/payments-and-logistics/CYBERBIZNOW/運費計算與對帳規範.md"},
-                { "消費者購買流程"= "ec/payments-and-logistics/CYBERBIZNOW/消費者購買流程.md"}
+                { "消費者購買流程"= "ec/payments-and-logistics/CYBERBIZNOW/消費者購買流程.md"},
             ]},
+            { "宅配逆物流（黑貓/宅配通/新竹物流）" = "ec/payments-and-logistics/宅配逆物流（黑貓宅配通新竹物流）.md"},
             { "查詢宅配託運單紀錄" = "ec/payments-and-logistics/查詢宅配託運單紀錄.md"},
+            { "串接ezShip超商取貨(C2C)" = "ec/payments-and-logistics/串接ezShip超商取貨(C2C).md"},
+            { "申請綠界金流與超商取貨付款" = "ec/payments-and-logistics/申請綠界金流與超商取貨付款.md"},
+            { "跨境電商" = [
+                {"北美站金流服務" = "ec/payments-and-logistics/北美站金流服務.md"},
+                {"日本站金流服務" = "ec/payments-and-logistics/日本站金流服務.md"},
+                {"東南亞站金流服務" = "ec/payments-and-logistics/東南亞站金流服務.md"},
+                {"澳洲落地版金流服務" = "ec/payments-and-logistics/澳洲落地版金流服務.md"},
+                {"DHL 跨境物流" = "ec/payments-and-logistics/DHL 跨境物流.md"},
+                {"LINEX 跨境物流" = "ec/payments-and-logistics/LINEX 跨境物流.md"},
+                {"順豐海外物流" = "ec/payments-and-logistics/順豐海外物流.md"},
+                {"Amazon FBA 跨境物流" = "ec/payments-and-logistics/Amazon FBA 跨境物流.md"},
+                {"CYBERBIZ EXPRESS 日到台宅配" = "ec/payments-and-logistics/CYBERBIZ EXPRESS 日到台跨境宅配.md"},
+            ]},
         ]},
         { "網站外觀" = [
             { "overview" = "ec/website-appearance/index.md" },
