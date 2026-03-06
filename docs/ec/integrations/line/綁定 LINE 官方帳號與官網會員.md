@@ -69,7 +69,7 @@ notes:
 comments: ""
 search:
   exclude: ""
-icon: 
+icon:
 ---
 
 
@@ -78,7 +78,7 @@ icon:
 透過 LINE Official Account、LINE Login 與 LIFF，完成官網會員與 LINE 帳號的綁定流程，以支援自動化通知與精準行銷應用。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 專業PLUS / 進階PLUS / 高手PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手PLUS / 企業
 { .doc-badge }
 
 ![](../../../assets/images/ec-第三方整合-line 註冊登入.png){ .hero-page }
@@ -113,7 +113,7 @@ icon:
 
 - **效果**：尚未綁定的顧客點擊後會先進行綁定動作，已綁定的顧客則直接進入登入狀態的指定頁面。
 
-> :lucide-info: 詳細設定流程，請參閱 [LINE 圖文選單設定](設定 LINE 圖文選單.md){ data-preview }  或查看 [LINE 官方說明文件 :lucide-external-link:](https://tw.linebiz.com/manual/line-official-account/oa-manager-richmenu/)。
+!!! info "詳細設定流程，請參閱 [LINE 圖文選單設定](設定 LINE 圖文選單.md){ data-preview }  或查看 [LINE 官方說明文件 :lucide-external-link:](https://tw.linebiz.com/manual/line-official-account/oa-manager-richmenu/)。"
 
 ![](../../../assets/images/ec-第三方整合-line oa-圖文連結.png)
 
@@ -125,7 +125,7 @@ icon:
 
 - **設定內容**：在訊息中加入上述的綁定連結。這對於首次加入官方帳號的會員最有效。
 
-> :lucide-info: **參考資料**：有關加入好友訊息的詳細製作規格，請參閱 [LINE 官方說明文件 :lucide-external-link:](https://tw.linebiz.com/manual/line-official-account/20200514welcomemessage/)。
+!!! info "LINE 加入好友訊息的詳細製作規格，請參閱 [LINE 官方說明文件 :lucide-external-link:](https://tw.linebiz.com/manual/line-official-account/20200514welcomemessage/)。"
 
 ![](../../../assets/images/ec-第三方整合-line oa 會員綁定-加入好友訊息.png)
 
@@ -139,7 +139,7 @@ icon:
 
 - **應用**：商家可複製系統產生的 LIFF 網址，製作成 QR Code 供消費者掃描。
 
->:lucide-info: 詳細操作說明，請參閱 [如何設定 LIFF](設定 LIFF 自動登入與會員綁定.md){ data-preview }。  
+!!! info "詳細操作說明，請參閱 [如何設定 LIFF](設定 LIFF 自動登入與會員綁定.md){ data-preview }。"  
 
 ![](../../../assets/images/ec-第三方整合-line 註冊登入-liff 網址.png)
 
@@ -171,16 +171,11 @@ icon:
   [__顯示會員條碼 (OMO 應用)__](設定 LINE 圖文選單#omo-實體門市應用)    
   顧客可於 LINE 選單調出會員條碼，供實體門市 POS 機掃描進行紅利或優惠券折抵。
 
+- :lucide-user-round:{ .lg }  
+  [__受眾串接與推播__]()  
+  商家可在後台篩選「已完成 LINE 綁定」的會員，將受眾上傳至 LINE OA 後台進行精準行銷訊息發送。
+
 </div>
-
-
-- **自動發送提醒樣板**：可自動回覆訂單確認、貨物發送、到店提醒及未付款提醒等訊息。
-
-- [**綁定送優惠券**](設定 LINE 綁定會員贈送優惠券.md){ data-preview }  ：可設定「LINE @ 綁定贈送優惠券功能」來增加顧客綁定意願。
-
-- [**顯示會員條碼 (OMO 應用)**](設定 LINE 圖文選單#omo-實體門市應用)：綁定後，顧客可於 LINE 選單調出會員條碼，供實體門市 POS 機掃描進行紅利或優惠券折抵。
-
-- **受眾串接與推播**：商家可在後台篩選「已完成 LINE 綁定」的會員，將受眾上傳至 LINE OA 後台進行精準行銷訊息發送。
 
 ## 重要注意事項
 

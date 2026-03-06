@@ -1,9 +1,10 @@
 <!-- abbreviations -->
 *[一般版]: 專業、高手、進階方案版本。
-*[PLUS 版]: 專業PLUS版、進階PLUS版、高手PLUS版方案。
+*[PLUS 版]: 專業版、進階 PLUS版、高手PLUS版方案。
 *[CYBER 幣]: CYBERBIZ 系統內用於支付 金物流相關服務費用及特定系統功能的虛擬計費點數。
 *[LIFF]: LINE Front-end Framework，是一個在 LINE APP 內運行網頁應用的框架。
 *[LINE OA]: LINE 官方帳號。企業或品牌在 LINE 平台上開設的專屬帳號，用於與顧客進行互動、發送行銷訊息及提供客戶服務。
+*[LAP]: LINE Ads Platform，LINE 提供的成效型廣告投放平台。
 *[OG image]: Open Graph Image，是當一個網頁連結被分享到社交媒體平台（如 Facebook、Ｘ、LinkedIn、Line、Slack）時，該平台自動抓取並顯示的代表性圖片。它的目的是吸引用戶注意並提高點擊率。
 *[CTR]: Click-Through Rate，中文稱為「點擊率」。 指看到您的網頁連結（在 Google 搜尋結果、廣告或社群貼文中）的人當中，實際「點擊」進入網站的比例。
 *[SERP]: Search Engine Results Page，中文全稱為「搜尋引擎結果頁」。 這是使用者在 Google、Bing 或其他搜尋引擎輸入特定關鍵字（如「根本Original」）並按下搜尋後，所看到的**結果清單畫面**。

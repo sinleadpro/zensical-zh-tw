@@ -166,7 +166,8 @@ graph LR
 
 ## 搭配 LIFF 應用
 
-> :lucide-lock: 此功能僅適用 PLUS版 / 企業版 方案用戶。
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | PLUS / 企業
+{ .doc-badge }
 
 若商家具備 LINE Certified Provider 資格，還可以透過 **LIFF** 功能進一步蒐集手機資訊：
 
