@@ -1,69 +1,78 @@
 ---
 title: 設定與管理 LINE OA 通知樣板
-version: ""
-last_modified: 2026-02-13
 description: 設定與管理 LINE 官方帳號（LINE Official Account）的自動化通知樣板，包含前置條件、樣板設定流程、支援情境與計費規則。
-product:
+created: 
+last_modified: 2026-02-13
+lang: zh-TW
+permalink: 
+type: tutorial
+status: 
+version: 
+author: Jase
+reviewers: []
+notes:
+  - verify the inclusion of 日本台灣站 table
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules:
   - notifications
-activ: ""
-paths: []
-surfaces: []
-ends: []
+sites:
+  - TW
+audiences:
+  - admin
+difficulty: intermediate
+tnb: branch
+plans:
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions: []
+intents:
+  - 設定 LINE OA 通知樣板
+  - 管理 LINE OA 訊息
+  - 自訂 LINE OA 提醒
+  - LINE OA 自動化通知
+features:
+  - LINE OA 通知
+  - Flex Message 樣板
+  - 純文字樣板
+  - 訂單通知
+  - 物流更新通知
+  - 到店通知
+  - 定期訂單通知
+  - 未付款提醒
+  - 行銷通知
+prerequisites: []
+related: []
+tags:
+  - LINE OA 通知樣板
+  - LINE OA 樣板管理
+  - LINE OA 設定
+  - LINE OA 訊息推播
+  - LINE OA 自動化
+  - LINE 物流通知
+  - LINE 訂單通知
+  - LINE 定期訂單
+acoiv: 
+apis:
+  - LINE Messaging API
 devices:
   - desktop
   - mobile
-apis:
-  - LINE Messaging API
-type: tutorial
-intents:
-  - LINE OA notification template setup
-  - manage LINE OA messages
-  - customize LINE OA alerts
-  - LINE OA automation
-features:
-  - LINE OA notifications
-  - Flex Message template
-  - Plain text template
-  - Order notifications
-  - Shipping updates
-  - Arrival notifications
-  - Recurring order notifications
-  - Unpaid order reminders
-  - Marketing notifications
-tnb: ""
-plans:
-  - 專業PLUS
-  - 進階 PLUS
-  - 高手PLUS
-  - 企業
-prerequisites: []
-lang: zh-TW
-sites: []
-status:
-tags:
-  - LINE OA
-  - 通知
-  - 樣板
-  - 設定
-  - 訊息推播
-  - 自動化
-  - 物流通知
-  - 訂單通知
-difficulty: medium
-audiences:
-  - merchant
-  - 管理員
+ui_components: []
+paths: []
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8156
   - https://www.cyberbiz.io/support/?p=728
-notes:
-  - verify the inclusion of 日本台灣站 table
-comments: ""
+comments: false
 search:
-  exclude: ""
-icon: ""
+  exclude: false
+icon: 
+hide: 
 ---
 
 

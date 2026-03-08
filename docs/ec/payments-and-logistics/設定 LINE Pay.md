@@ -1,63 +1,68 @@
 ---
 title: 設定 LINE Pay
 description: 串接 LINE Pay 付款，顧客於結帳時可選用 LINE Pay 進行支付。
-last_modified: 2026-01-27
-categories:
-  - TW台灣站
-  - 常見問題
-  - 網站設定>金物流設定
-product:
+created: 2026-01-27 00:00
+last_modified: 2026-03-08 23:50
+lang: zh-TW
+type: tutorial
+status:
+version:
+author:
+reviewers: []
+notes: []
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules:
-  - payments-and-logistics
-activ: configure
-paths: []
-surfaces:
-  - backend
-  - frontend
-ends: []
-devices:
-  - desktop
-  - mobile
-apis: []
-type: tutorial
-intents:
-  - payment-method-setup
-  - integration
-features:
-  - LINE Pay
-  - Payment Gateway
-tnb: ""
+  - payments-and-logisitcs
+sites:
+  - TW
+audiences:
+  - admin
+difficulty: intermediate
+tnb: branch
 plans:
   - 進階
   - 高手
-  - 專業PLUS
+  - 專業 PLUS
   - 進階 PLUS
-  - 高手PLUS
+  - 高手 PLUS
   - 企業
+cyb_extensions: []
+intents:
+  - 如何設定 LINE Pay
+  - 如何串接 LINE Pay
+  - LINE Pay 付款設定
+features:
+  - LINE Pay
+  - 金流串接
 prerequisites:
   - 以公司名義申請
   - 準備必要申請文件
-lang: zh-TW
-sites:
-  - TW
-status:
+related: []
 tags:
   - LINE Pay
   - 金流
   - 付款設定
-difficulty: medium
-audiences:
-  - merchants
+acoiv: configure
+apis: []
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths:
+  - 金物流 > 金流設定
+layouts: []
 wp_url:
-  - "https://www.cyberbiz.io/helpcenter/?p=2127"
-  - "https://www.cyberbiz.io/support/?p=35122"
-notes:
-  - update next step 一般退貨退款 link
-comments:
+  - https://www.cyberbiz.io/helpcenter/?p=2127
+  - https://www.cyberbiz.io/support/?p=35122
+permalink:
+comments: false
 search:
-  exclude: ""
-icon: 
+  exclude: false
+icon:
+hide: []
 ---
 
 # 設定 LINE Pay

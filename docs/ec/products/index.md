@@ -20,7 +20,7 @@ hide:
 ---
 
 
-[:lucide-package-plus:](新增單一商品){ .md-button title="新增第一個商品" }
+[:lucide-package-plus:](docs/ec/products/creation/新增單一商品.md){ .md-button title="新增第一個商品" }
 [:lucide-import:](#){ .md-button title="Excel 大量匯入"}
 
 
@@ -91,7 +91,7 @@ VIP 價格、**搜尋可見性排除**
 <div class="grid cards" markdown>
 
 - :lucide-package-plus:{ .lg }  
-   [__新增商品__](新增單一商品)  
+   [__新增商品__](docs/ec/products/creation/新增單一商品.md)  
   建立新商品或更新既有商品資訊與設定。  
 
 - :lucide-pencil:{ .lg }  
@@ -135,7 +135,7 @@ VIP 價格、**搜尋可見性排除**
 <div class="grid cards" markdown>
 
 - :lucide-clock:{ .lg }   
-  [__預購商品__](設定結帳拆分多購物車#設定預購商品)  
+  [__預購商品__](設定結帳拆分多購物車.md#設定預購商品)  
   建立預購通路並綁定商品，結帳時成立專屬購物車。
 
 - :lucide-circle-percent:{ .lg }  
@@ -147,7 +147,7 @@ VIP 價格、**搜尋可見性排除**
    管理不同銷售通路與購物流程。
 
 - :lucide-bell:{ .lg }   
-  [__補貨通知__](設定商品到貨通知)  
+  [__補貨通知__](設定商品到貨通知.md)  
    缺貨商品已補貨的到貨提醒。  
 
 - :lucide-star:{ .lg }  

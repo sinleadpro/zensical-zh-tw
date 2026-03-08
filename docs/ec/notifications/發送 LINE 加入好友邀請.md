@@ -1,44 +1,47 @@
 ---
 title: 發送 LINE 加入好友邀請
-version: ""
-last_modified: 2026-02-22
 description: 透過簡訊或 Email 向未綁定會員發送 LINE 官方帳號加入好友邀請，以提升好友數並促進會員綁定與行銷轉換。
-product:
+created: 2026-02-22 00:00
+last_modified: 2026-03-08 23:45
+lang: zh-TW
+type: tutorial
+status:
+version:
+author:
+reviewers: []
+notes: []
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules:
-  - notifications
-  - line-integration
-  - marketing
-activ: ""
-paths: []
-surfaces: []
-ends: []
-devices:
-  - desktop
-  - mobile
-apis:
-  - LINE Messaging API
-type: tutorial
-intents:
-  - send LINE friend invitation
-  - increase LINE OA friends
-  - LINE marketing via SMS/Email
-  - customer engagement
-features:
-  - SMS invitation
-  - Email invitation
-  - LINE OA link acquisition
-  - character count check
-  - short URL support
-  - coupon integration
-tnb: ""
+  - 訊息推播
+  - LINE
+sites:
+  - TW
+audiences:
+  - admin
+difficulty: intermediate
+tnb: branch
 plans:
-  - 企業版
+  - 企業
+cyb_extensions: []
+intents:
+  - 如何發送 LINE 加入好友邀請
+  - 如何增加 LINE 官方帳號好友數
+  - 透過簡訊或 Email 進行 LINE 行銷
+  - 提升會員互動率
+features:
+  - 簡訊邀請功能
+  - Email 邀請功能
+  - 取得 LINE OA 好友連結
+  - 簡訊字數自動統計
+  - 支援第三方縮網址
+  - 優惠券功能整合
 prerequisites:
-  - LINE Official Account
-lang: zh-TW
-sites: []
-status:
+  - LINE 官方帳號
+related:
+  - ../integrations/line/設定 LINE 綁定會員贈送優惠券.md
 tags:
   - LINE
   - LINE OA
@@ -48,17 +51,23 @@ tags:
   - Email
   - 行銷
   - CRM
-difficulty: medium
-audiences:
-  - merchant
-  - 管理員
+acoiv: operation
+apis:
+  - LINE Messaging API
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths: []
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=739
-notes: []
-comments: ""
+permalink:
+comments: false
 search:
-  exclude: ""
-icon: 
+  exclude: false
+icon:
+hide: []
 ---
 
 

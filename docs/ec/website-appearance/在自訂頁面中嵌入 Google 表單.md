@@ -27,7 +27,7 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - merchant
+  - admin
 difficulty: beginner
 intents:
   - 嵌入 Google 表單至自訂頁面
@@ -61,6 +61,7 @@ comments: false
 search:
   exclude: false
 icon: ""
+hide: 
 ---
 
 將 Google 表單嵌入 CYBERBIZ 自訂頁面，並針對手機版進行響應式寬度與高度優化。

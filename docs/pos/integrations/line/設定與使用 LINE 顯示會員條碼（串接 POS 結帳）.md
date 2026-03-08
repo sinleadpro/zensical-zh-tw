@@ -1,64 +1,74 @@
 ---
 title: 設定與使用 LINE 顯示會員條碼（串接 POS 結帳）
-version: ""
-last_modified: 2026-02-23
 description: 啟用並設定 LINE 官方帳號會員條碼，讓門市人員可透過 POS 掃描條碼快速識別會員並套用紅利與優惠券折抵。
-product:
+created: 
+last_modified: 2026-02-23
+lang: zh-TW
+permalink: 
+type: tutorial
+status: 
+version: 
+author: Jase
+reviewers: []
+notes: []
+ga_views: 0
+feedback: 0
+products:
   - POS
 modules:
   - pos-integration
   - line-integration
   - membership
-activ: ""
-paths: []
-surfaces: []
-ends: []
+sites:
+  - TW
+audiences:
+  - admin
+difficulty: intermediate
+tnb: trunk
+plans: []
+cyb_extensions: []
+intents:
+  - 顯示 LINE 會員條碼
+  - 整合 LINE 與 POS
+  - 優化線下結帳體驗
+  - 會員紅利折抵
+  - 門市優惠券折抵
+features:
+  - LINE 會員條碼顯示
+  - POS 掃描會員登入
+  - 紅利點數扣抵
+  - 優惠券扣抵
+  - LINE 圖文選單整合
+prerequisites:
+  - CYBERBIZ POS 系統
+  - LINE Messaging API 串接
+  - LINE 圖文選單設定
+  - LINE OA 會員綁定（建議）
+related: []
+tags:
+  - LINE 會員條碼
+  - POS 結帳
+  - LINE 整合
+  - OMO 會員
+  - 紅利點數
+  - 優惠券折抵
+  - 門市結帳
+  - 會員條碼
+acoiv: 
+apis: []
 devices:
   - desktop
   - mobile
-apis: []
-type: tutorial
-intents:
-  - display LINE member barcode
-  - integrate LINE with POS
-  - enhance offline checkout experience
-  - member points redemption
-  - coupon redemption at POS
-features:
-  - LINE member barcode display
-  - POS scanning for member login
-  - loyalty points deduction
-  - coupon deduction
-  - LINE rich menu integration
-prerequisites:
-  - CYBERBIZ POS system
-  - LINE Messaging API integration
-  - LINE rich menu setup
-  - LINE OA member binding (recommended)
-lang: zh-TW
-sites: []
-status:
-tags:
-  - LINE
-  - 會員條碼
-  - POS
-  - 結帳
-  - OMO
-  - 整合
-  - 紅利點數
-  - 優惠券
-  - 線下門市
-difficulty: medium
-audiences:
-  - 商家
-  - clerk
+ui_components: []
+paths: []
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=748
-notes: []
-comments: ""
+comments: false
 search:
-  exclude: ""
-icon: ""
+  exclude: false
+icon: 
+hide: 
 ---
 
 # 設定與使用 LINE 顯示會員條碼（串接 POS 結帳）

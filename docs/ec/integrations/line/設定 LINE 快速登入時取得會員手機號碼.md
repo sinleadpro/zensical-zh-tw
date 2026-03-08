@@ -1,46 +1,57 @@
 ---
 title: 設定 LINE 快速登入時取得會員手機號碼
-version: ""
-last_modified: 2026-02-16
 description: 串接 LINE 認證權限，在快速登入流程中自動取得並驗證會員手機號碼，以提升帳號比對精準度與資料完整性。
-product:
+created: 2026-02-16 00:00
+last_modified: 2026-03-08 12:00
+lang: zh-TW
+permalink: ""
+type: tutorial
+status: ""
+version: ""
+author: ""
+reviewers: []
+notes:
+  - verify oc_phone_number 功能的版本差異
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules:
   - line-integration
-activ: ""
-paths: []
-surfaces: []
-ends: []
-devices:
-  - desktop
-  - mobile
-apis:
-  - LINE Login API
-  - LINE LIFF
-type: tutorial
-intents:
-  - acquire LINE user phone number
-  - update member data via LINE Login
-  - enable phone number matching for LINE Login
-  - configure LINE LIFF for phone scope
-features:
-  - LINE Quick Login with phone number
-  - LINE Certified Provider requirement
-  - LINE OA verified account requirement
-  - phone number priority matching
-  - LIFF phone scope integration
-  - non-retroactive data acquisition
-  - SMS verification integration
-  - masked phone number display
+sites: []
+audiences:
+  - 商家
+  - 管理員
+difficulty: medium
 tnb: trunk
 plans:
+  - 專業
+  - 進階
+  - 高手
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions: []
+intents:
+  - 取得 LINE 用戶手機號碼
+  - 透過 LINE Login 更新會員資料
+  - 啟用手機號碼比對功能
+  - 設定 LINE LIFF phone scope
+features:
+  - LINE 快速登入取得手機號碼
+  - LINE Certified Provider 需求
+  - LINE OA 認證帳號需求
+  - 手機號碼優先比對
+  - LIFF phone scope 整合
+  - 非追溯性資料取得
+  - SMS 驗證整合
+  - 隱碼手機號碼顯示
 prerequisites:
   - 完成 LINE 快速登入串接
   - LINE Provider 認證 (LINE Certified Provider)
   - LINE 官方帳號認證 (藍色盾牌或綠色盾牌)
-lang: zh-TW
-sites: []
-status:
+related: []
 tags:
   - LINE
   - 快速登入
@@ -50,19 +61,24 @@ tags:
   - LIFF
   - LINE OA
   - 認證
-difficulty: medium
-audiences:
-  - 商家
-  - 管理員
+acoiv: ""
+apis:
+  - LINE Login API
+  - LINE LIFF
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths: []
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6674
   - https://www.cyberbiz.io/support/?p=35740
-notes:
-  - verify oc_phone_number 功能的版本差異
-comments: ""
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: ""
+hide: []
 ---
 
 

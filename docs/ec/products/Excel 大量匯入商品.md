@@ -1,48 +1,69 @@
 ---
 title: Excel 大量匯入商品
 description: 使用 Excel 範本一次新增或更新大量商品、批次上架多筆商品。
-product:
-  - EC
-module:
-  - product
-activ: configure
-surfaces:
-  - backend
-devices:
-  - desktop
-  - mobile
-apis: []
-type: tutorial
-features:
-  - import product from excel
-tasks:
-  - 新增商品
-  - 大量匯入商品
-  - 批次上架商品
-  - 批次更新商品
-tnb: trunk
-plans: []
-prerequisites: []
+created: 2026-01-08 00:00
+last_modified: 2026-03-08 23:50
 lang: zh-TW
+type: tutorial
+status:
+version:
+author:
+reviewers: []
+notes:
+  - verify FAQ
+  - update internal links
+ga_views: 0
+feedback: 0
+products:
+  - EC
+modules:
+  - 商品
 sites:
   - TW
-  - US
-status: ""
+audiences:
+  - admin
+difficulty: intermediate
+tnb: trunk
+plans:
+  - 專業
+  - 進階
+  - 高手
+  - 企業
+cyb_extensions: []
+intents:
+  - 如何使用 Excel 大量匯入商品
+  - 批次上架商品
+  - 批次更新商品
+features:
+  - Excel 匯入商品
+  - 大量新增商品
+  - 批次上架
+prerequisites: []
+related: []
 tags:
   - Excel
   - 匯入
   - 商品
-difficulty: intermediate
-audiences:
-  - merchant
+acoiv: configure
+apis: []
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths:
+  - 商品 > Excel 大量匯入商品
+  - 商品 > 所有商品
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=924
   - https://www.cyberbiz.io/support/?p=1960
   - https://www.cyberbiz.io/support/?p=33323
-notes:
-  - verify FAQ
-  - update internal links
-comments: ""
+permalink:
+comments: false
+search:
+  exclude: false
+icon:
+hide: []
 ---
 
 # Excel 大量匯入商品

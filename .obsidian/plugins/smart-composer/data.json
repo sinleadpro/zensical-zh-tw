@@ -421,7 +421,7 @@
       "dimension": 1024
     }
   ],
-  "chatModelId": "gemini-3-flash-preview",
+  "chatModelId": "gemini-2.5-pro",
   "applyModelId": "gemini-3-flash-preview",
   "embeddingModelId": "gemini/text-embedding-004",
   "systemPrompt": "",

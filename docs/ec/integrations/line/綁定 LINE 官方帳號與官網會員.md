@@ -1,49 +1,56 @@
 ---
 title: 綁定 LINE 官方帳號與官網會員
-version: ""
-last_modified: 2026-02-15
 description: 透過 LINE Official Account、LINE Login 與 LIFF，完成官網會員與 LINE 帳號的綁定流程，以支援自動化通知與精準行銷應用。
-product:
+created: 2026-02-15 00:00
+last_modified: 2026-03-08 12:00
+lang: zh-TW
+permalink: ""
+type: tutorial
+status: ""
+version: ""
+author: ""
+reviewers: []
+notes:
+  - verify faq 如何確認已綁定
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules:
   - line-integration
-activ: ""
-paths: []
-surfaces: []
-ends: []
-devices:
-  - desktop
-  - mobile
-apis:
-  - LINE Messaging API
-  - LINE Login API
-type: tutorial
-intents:
-  - LINE OA binding
-  - member data integration
-  - automated notifications
-  - LINE Login setup
-  - LIFF implementation
-  - LINE marketing
-features:
-  - LINE OA member binding
-  - LINE Login
-  - LIFF auto-binding
-  - rich menu setup
-  - welcome message configuration
-  - automated LINE notifications
-  - coupon offers
-  - member barcode display
-  - audience segmentation
-tnb: ""
-plans: []
-prerequisites:
-  - LINE Messaging API setup
-  - LINE Login setup
-  - enable LINE Quick Login
-lang: zh-TW
 sites: []
-status:
+audiences:
+  - admin
+difficulty: medium
+tnb: branch
+plans: 
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions: []
+intents:
+  - LINE OA 綁定
+  - 會員資料整合
+  - 自動化通知
+  - LINE Login 設定
+  - LIFF 實作
+  - LINE 行銷
+features:
+  - LINE OA 會員綁定
+  - LINE Login
+  - LIFF 自動綁定
+  - 圖文選單設定
+  - 歡迎訊息設定
+  - 自動化 LINE 通知
+  - 優惠券發送
+  - 會員條碼顯示
+  - 受眾分群
+prerequisites:
+  - 完成 LINE Messaging API 串接
+  - 完成 LINE Login 設定
+  - 啟用 LINE 快速登入
+related: []
 tags:
   - LINE
   - LINE OA
@@ -57,19 +64,24 @@ tags:
   - 行銷
   - OMO
   - 整合
-difficulty: medium
-audiences:
-  - merchants
-  - administrators
+acoiv: ""
+apis:
+  - LINE Messaging API
+  - LINE Login API
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths: []
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5861
   - https://www.cyberbiz.io/support/?p=32679
-notes:
-  - verify faq 如何確認已綁定
-comments: ""
+comments: false
 search:
-  exclude: ""
-icon:
+  exclude: false
+icon: ""
+hide: []
 ---
 
 

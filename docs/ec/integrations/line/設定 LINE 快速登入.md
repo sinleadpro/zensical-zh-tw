@@ -1,45 +1,55 @@
 ---
 title: 設定 LINE 快速登入
-version: ""
-last_modified: 2026-02-16
 description: 啟用 LINE 快速登入，簡化會員註冊流程，整合官方帳號好友追蹤，並支援會員資料同步與 LIFF 一鍵登入。
-product:
+created: 2026-02-16 00:00
+last_modified: 2026-03-08 12:00
+lang: zh-TW
+permalink: ""
+type: tutorial
+status: ""
+version: ""
+author: ""
+reviewers: []
+notes: []
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules:
   - 第三方整合
-activ: ""
-paths: []
-surfaces: []
-ends: []
-devices:
-  - desktop
-  - mobile
-apis:
-  - LINE Login API
-type: tutorial
-intents:
-  - enable LINE quick login
-  - simplify customer registration
-  - integrate LINE account
-  - capture customer email via LINE
-  - increase LINE OA exposure
-features:
-  - LINE Quick Login
-  - OpenID Connect
-  - Callback URL configuration
-  - Channel ID/Secret management
-  - Link LINE Official Account for friend add
-  - Member phone number synchronization
-  - LIFF one-click login
-tnb: trunk
-plans: []
-prerequisites:
-  - LINE account (for Developers)
-  - Customer LINE account with bound Email
-  - Consistent Provider for LINE Login and Messaging API Channels
-lang: zh-TW
 sites: []
-status:
+audiences:
+  - admin
+difficulty: medium
+tnb: trunk
+plans:
+  - 專業
+  - 進階
+  - 高手
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions: []
+intents:
+  - 啟用 LINE 快速登入
+  - 簡化顧客註冊流程
+  - 整合 LINE 帳號
+  - 透過 LINE 取得顧客 Email
+  - 增加 LINE OA 曝光
+features:
+  - LINE 快速登入
+  - OpenID Connect
+  - Callback URL 設定
+  - Channel ID/Secret 管理
+  - 串接 LINE 官方帳號加入好友
+  - 會員手機號碼同步
+  - LIFF 一鍵登入
+prerequisites:
+  - LINE 帳號（開發者用）
+  - 顧客 LINE 帳號已綁定 Email
+  - LINE Login 與 Messaging API Channel 使用相同的 Provider
+related: []
 tags:
   - LINE
   - 快速登入
@@ -49,18 +59,23 @@ tags:
   - OIDC
   - API
   - 第三方整合
-difficulty: medium
-audiences:
-  - 商家
-  - 管理員
+acoiv: ""
+apis:
+  - LINE Login API
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths: []
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=865
   - https://www.cyberbiz.io/support/?p=675
-notes: []
-comments: ""
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: ""
+hide: []
 ---
 
 

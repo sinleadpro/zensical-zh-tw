@@ -1,37 +1,69 @@
 ---
 title: LINE 官方帳號增加好友指南
-version: ""
+description: 透過多種工具與版位引導顧客加入 LINE 官方帳號，增加品牌與會員的黏著度。
+created: 
 last_modified: 2026-02-22
-description: ""
-product:
+lang: zh-TW
+permalink: 
+type: guide
+status: 
+version: 
+author: Jase
+reviewers: []
+notes: []
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules: []
-activ: ""
-paths: []
-surfaces: []
-ends: []
+sites:
+  - TW
+audiences:
+  - admin
+difficulty: intermediate
+tnb: trunk
+plans: []
+cyb_extensions: []
+intents:
+  - 增加 LINE 好友
+  - 邀請顧客加入 LINE
+  - 設定加入好友連結
+  - 使用 LIFF 一鍵登入
+  - 門市導流加入好友
+features:
+  - 加入好友工具
+  - 簡訊好友邀請
+  - Email 好友邀請
+  - 官網版位設定
+  - 訂單頁好友邀請
+  - 綁定送優惠券
+  - LIFF 應用
+  - 門市 QR Code
+prerequisites: []
+related: []
+tags:
+  - LINE 官方帳號
+  - 增加好友
+  - LINE OA
+  - 好友邀請
+  - LIFF
+  - LINE 綁定
+  - 會員整合
+  - OMO
+acoiv: 
+apis: []
 devices:
   - desktop
   - mobile
-apis: []
-type: guide
-intents: []
-features: []
-tnb: ""
-plans: []
-prerequisites: []
-lang: en-US
-sites: []
-status:
-tags: []
-difficulty: ""
-audiences: []
+ui_components: []
+paths: []
+layouts: []
 wp_url: []
-notes: []
-comments: ""
+comments: false
 search:
-  exclude: ""
-icon: ""
+  exclude: false
+icon: 
+hide: 
 ---
 
 

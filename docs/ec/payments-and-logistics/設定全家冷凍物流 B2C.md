@@ -1,20 +1,34 @@
 ---
 title: 設定全家冷凍物流 B2C
-version: ""
-last_modified: 2026-02-02
 description: 申請、設定與操作全家冷凍物流 B2C 服務。
-product:
-  - EC
-modules: []
-activ: ""
-paths: []
-surfaces: []
-ends: []
-devices:
-  - desktop
-  - mobile
-apis: []
+created: 
+last_modified: 2026-02-02
+lang: zh-TW
+permalink: 
 type: tutorial
+status: 
+version: 
+author: Jase
+reviewers: []
+notes: []
+ga_views: 0
+feedback: 0
+products:
+  - EC
+modules:
+  - payments-and-logisitcs
+sites:
+  - TW
+audiences:
+  - admin
+difficulty: intermediate
+tnb: branch
+plans:
+  - 高手
+  - 高手 PLUS
+  - 企業
+cyb_extensions: 
+  - PAYMENTS
 intents:
   - 申請全家冷凍 B2C 物流服務
   - 設定全家冷凍 B2C 物流功能
@@ -23,40 +37,38 @@ intents:
   - 處理全家冷凍物流異常情境
 features:
   - 全家冷凍物流 B2C
-tnb: ""
-plans:
-  - 高手
-  - 高手PLUS
-  - 企業
+  - 物流設定
+  - 出貨操作
+  - 包裹規格
 prerequisites:
   - 聯繫客服申請開通物流功能
   - 符合適用版本（高手版需搭配 CYBERBIZ PAYMENTS）
   - 需進行場勘評估
-lang: zh-TW
-sites: []
-status: new
+related: []
 tags:
   - 全家冷凍物流
-  - B2C
-  - 物流
-  - 金物流
-  - 超商
-  - 冷凍宅配
-  - 出貨
-  - 網站設定
-  - CYBERBIZ PAYMENTS
-difficulty: ""
-audiences:
-  - 商家
-  - 電商經營者
+  - B2C 物流
+  - 冷凍物流
+  - 超商物流
+  - 全家配送
+  - 物流設定
+  - 冷凍包裹
+acoiv: 
+apis: []
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths: []
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5068
   - https://www.cyberbiz.io/support/?p=21320#a
-notes: []
-comments: ""
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: 
+hide: 
 ---
 
 # 設定全家冷凍物流 B2C

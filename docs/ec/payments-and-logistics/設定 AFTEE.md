@@ -1,57 +1,70 @@
 ---
 title: 設定 AFTEE
-version: ""
-last_modified: 2026-01-26
 description: 透過 AFTEE 先享後付提供顧客快速便利的付款方式，提升轉換率與營收。
-product:
+created: 2026-01-26 00:00
+last_modified: 2026-03-08 23:50
+lang: zh-TW
+type: tutorial
+status:
+version:
+author:
+reviewers: []
+notes: []
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules:
-  - payments-and-logistics
-activ: configure
-paths: []
-surfaces:
-  - backend
-  - frontend
-ends: []
-devices:
-  - desktop
-  - mobile
-apis: []
-type: tutorial
+  - payments-and-logisitcs
+sites:
+  - TW
+audiences:
+  - admin
+difficulty: beginner
+tnb: trunk
+plans:
+  - 專業
+  - 進階
+  - 高手
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions: 
+  - PAYMENTS
 intents:
-  - payment-method-setup
-  - checkout-experience
+  - 如何設定 AFTEE
+  - 如何設定先享後付
+  - AFTEE 付款設定
 features:
   - AFTEE
   - 先享後付
-  - Payment Gateway
-tasks:
-  - 金流服務啟用
-  - 前台付款流程
-tnb: trunk
-plans: []
+  - 金流串接
 prerequisites:
   - 已申請並開通 AFTEE 先享後付
-lang: zh-TW
-sites:
-  - TW
-status:
+related: []
 tags:
   - AFTEE
   - 先享後付
   - 金流
-difficulty: beginner
-audiences:
-  - merchants
+acoiv: configure
+apis: []
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths:
+  - 金物流 > 金流設定
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6847
   - https://www.cyberbiz.io/support/?p=5525
-notes:
-  - 顧客付款問題請洽 [AFTEE 官方網站](https://aftee.tw/)
-comments: ""
+permalink:
+comments: false
 search:
-  exclude: ""
-icon: ""
+  exclude: false
+icon:
+hide: []
 ---
 
 # 設定 AFTEE

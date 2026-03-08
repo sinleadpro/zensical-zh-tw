@@ -1,52 +1,54 @@
 ---
 title: 設定 LIFF 自動登入與會員綁定
-version: ""
-last_modified: 2026-02-17
 description: 使用 LIFF 實現會員自動登入，並同步完成官方帳號好友加入與會員帳號綁定。
-product:
+created: 
+last_modified: 2026-03-08 12:00
+lang: zh-TW
+type: tutorial
+status:
+version:
+author:
+reviewers: []
+notes:
+  - LIFF (LINE Front-end Framework) will be rebranded and integrated into the LINE MINI App.
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules:
   - line-integration
-activ: ""
-paths: []
-surfaces: []
-ends: []
-devices:
-  - desktop
-  - mobile
-apis:
-  - LINE Front-end Framework (LIFF)
-  - LINE Login API
-type: tutorial
-intents:
-  - LIFF auto-login setup
-  - member binding with LINE OA
-  - reduce login friction
-  - synchronize friend add and registration
-  - generate LIFF URLs
-features:
-  - LIFF auto-login
-  - LINE user identity access
-  - LINE OA friend binding
-  - member account registration
-  - full-site LIFF URL
-  - specific page LIFF URL
-  - LIFF phone number acquisition
-  - LINE Developers integration
-  - rich menu integration
-  - QR Code application
-tnb: ""
+sites: []
+audiences:
+  - merchant
+difficulty: medium
+tnb: branch
 plans:
-  - 專業PLUS
+  - 專業 PLUS
   - 進階 PLUS
-  - 高手PLUS
+  - 高手 PLUS
   - 企業
+cyb_extensions: []
+intents:
+  - 設定 LIFF 自動登入
+  - 會員帳號與 LINE 官方帳號綁定
+  - 降低登入阻力（優化使用者體驗）
+  - 同步好友加好友與會員註冊流程
+  - 產製 LIFF 連結 (URLs)
+features:
+  - LIFF 自動登入功能
+  - 獲取 LINE 使用者識別資訊
+  - LINE 官方帳號好友連動綁定
+  - 會員帳號註冊系統
+  - 全站型 LIFF 連結
+  - 特定頁面專用 LIFF 連結
+  - 透過 LIFF 獲取用戶手機號碼 (需權限)
+  - LINE Developers 開發者後台整合
+  - 圖文選單 (Rich Menu) 整合運用
+  - QR Code 掃碼應用場景
 prerequisites:
   - 已完成 LINE 快速登入設定
   - 已完成 LINE OA 與 LINE Login Channel 連動
-lang: zh-TW
-sites: []
-status:
+related: []
 tags:
   - LIFF
   - LINE
@@ -56,19 +58,25 @@ tags:
   - 第三方整合
   - 登入優化
   - OMO
-difficulty: medium
-audiences:
-  - 商家
-  - 管理員
+acoiv:
+apis:
+  - LINE Front-end Framework (LIFF)
+  - LINE Login API
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths: []
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7388
   - https://www.cyberbiz.io/support/?p=41333
-notes:
-  - LIFF (LINE Front-end Framework) will be rebranded and integrated into the LINE MINI App.
-comments: ""
+permalink:
+comments: false
 search:
-  exclude: ""
-icon: 
+  exclude: false
+icon:
+hide: []
 ---
 
 

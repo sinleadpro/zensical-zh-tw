@@ -1,55 +1,66 @@
 ---
 title: 申請 CYBERBIZ PAYMENTS
-version: ""
-last_modified: 2026-01-26
 description: 設定網站、提交商店資訊，並啟用 CYBERBIZ PAYMENTS。
-product:
+created: 2026-01-26 00:00
+last_modified: 2026-03-08 23:50
+lang: zh-TW
+type: tutorial
+status:
+version:
+author:
+reviewers: []
+notes:
+  - 補充審核所需的一般時長。
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules:
-  - payments-and-logistics
-activ: activate
-paths: []
-surfaces:
-  - backend
-ends:
-  - backend
-  - frontend
-devices:
-  - desktop
-  - mobile
-apis: []
-type: tutorial
+  - 金物流
+sites:
+  - TW
+audiences:
+  - admin
+difficulty: intermediate
+tnb: branch
+plans:
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions:
+  - PAYMENTS
 intents:
-  - apply for CYBEBIZ PAYMENTS
+  - 如何申請 CYBERBIZ PAYMENTS
+  - 申請金流服務
 features:
   - CYBERBIZ PAYMENTS
-tnb: ""
-plans:
-  - PLUS
 prerequisites:
   - 可正常瀏覽的前台網站
   - 可辨識的品牌或公司名稱
   - 至少一項已上架的商品或服務
-lang: zh-TW
-sites:
-  - TW
-status:
+related: []
 tags:
   - Payments
-  - Application
-difficulty: medium
-audiences:
-  - merchants
+  - 申請
+acoiv: activate
+apis: []
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths:
+  - 金物流 > 金流設定
+layouts: []
 wp_url:
-  - - - archive/wordpress/wp-reg-20260106/PLUS用戶 - CYBERBIZ PAYMENTS 金流申請流程|PLUS用戶 - CYBERBIZ PAYMENTS 金流申請流程
   - https://www.cyberbiz.io/support/?p=34623
   - https://www.cyberbiz.io/helpcenter/?p=6738
-notes:
-  - 補充審核所需的一般時長。
-comments: ""
+permalink:
+comments: false
 search:
-  exclude: ""
-icon: ""
+  exclude: false
+icon:
+hide: []
 ---
 
 # 申請 CYBERBIZ PAYMENTS
@@ -186,7 +197,7 @@ flowchart LR
 - **明確售價**：方便使用者了解價格。
 - **商品介紹或服務說明**：提供詳細描述，展現特色與價值。
 
-!!! note "詳細設定步驟，請參閱 [上架單一商品](../products/新增單一商品)"
+!!! note "詳細設定步驟，請參閱 [上架單一商品](docs/ec/products/creation/新增單一商品.md)"
 
 ### 設定「關於我們」頁面
 

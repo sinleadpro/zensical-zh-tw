@@ -1,53 +1,61 @@
 ---
 title: 設定 Apple Pay
-version: ""
-last_modified: 2026-01-26
 description: 透過 CYBERBIZ PAYMENTS 啟用並設定 Apple Pay 為支付選項，提供快速安全的交易。
-product:
+created: 2026-01-26 00:00
+last_modified: 2026-03-08 23:50
+lang: zh-TW
+type: tutorial
+status:
+version:
+author:
+reviewers: []
+notes: []
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules:
-  - payments-and-logistics
-activ: configure
-paths: []
-surfaces:
-  - backend
-ends: []
-devices:
-  - desktop
-  - mobile
-apis: []
-type: tutorial
-intents:
-  - payment-method-setup
-  - checkout-experience
-features:
-  - Apple Pay
-  - Payment Gateway
-  - CYBERBIZ PAYMENTS
-tnb: trunk
-plans: []
-prerequisites:
-  - 已開通 CYBERBIZ PAYMENTS
-lang: zh-TW
+  - payments-and-logisitcs
 sites:
   - TW
-  - global
-status: 
+audiences:
+  - admin
+difficulty: beginner
+tnb: trunk
+plans: []
+cyb_extensions:
+  - PAYMENTS
+intents:
+  - 如何設定 Apple Pay
+  - Apple Pay 付款設定
+features:
+  - Apple Pay
+  - CYBERBIZ PAYMENTS
+  - 金流串接
+prerequisites:
+  - 已開通 CYBERBIZ PAYMENTS
+related: []
 tags:
   - Apple Pay
   - Payments
   - CYBERBIZ PAYMENTS
-difficulty: beginner
-audiences:
-  - merchants
+acoiv: configure
+apis: []
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths:
+  - 金物流 > 金流設定
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=40622
-notes:
-  - refactor, add Global 北美站請參考：[北美站金流設定](https://www.cyberbiz.io/support/?p=30595)
-comments: ""
+permalink:
+comments: false
 search:
-  exclude: ""
-icon: ""
+  exclude: false
+icon:
+hide: []
 ---
 
 # 設定 Apple Pay
