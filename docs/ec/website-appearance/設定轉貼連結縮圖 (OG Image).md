@@ -72,7 +72,7 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: ""
+icon: lucide/image-plus
 hide:
 ---
 

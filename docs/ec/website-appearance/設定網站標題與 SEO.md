@@ -64,7 +64,7 @@ permalink: ""
 comments: ""
 search:
   exclude: ""
-icon: ""
+icon: lucide/search-code
 hide: 
 ---
 

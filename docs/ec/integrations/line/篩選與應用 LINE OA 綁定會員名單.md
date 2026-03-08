@@ -58,7 +58,8 @@ wp_url: []
 comments: false
 search:
   exclude: false
-icon: ""
+icon: lucide/users-round
+hide: 
 ---
 
 # 篩選與應用 LINE OA 綁定會員名單

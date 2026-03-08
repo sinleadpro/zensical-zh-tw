@@ -77,7 +77,7 @@ wp_url:
 comments: false
 search:
   exclude: false
-icon: ""
+icon: lucide/phone-forwarded
 hide: []
 ---
 
