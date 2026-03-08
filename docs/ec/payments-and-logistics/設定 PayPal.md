@@ -1,23 +1,38 @@
 ---
 title: 設定 PayPal
-version: ""
-last_modified: 2026-01-28
 description: 串接 PayPal 金流，讓海外信用卡顧客於結帳時可使用 PayPal 支付。
-product:
+created: 
+last_modified: 2026-01-28
+lang: zh-TW
+permalink: 
+type: tutorial
+status: 
+version: 
+author: Jase
+reviewers: []
+notes: []
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules:
-  - 網站設定
-  - 金物流設定
-activ: ""
-paths: []
-surfaces: []
-ends: []
-devices:
-  - desktop
-  - mobile
-apis:
-  - PayPal
-type: tutorial
+  - payments-and-logisitcs
+sites:
+  - TW
+audiences:
+  - admin
+difficulty: beginner
+tnb: trunk
+plans:
+  - 專業
+  - 進階
+  - 高手
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions:
+  - PAYMENTS
 intents:
   - 啟用 PayPal 金流
   - 串接 PayPal 至 CYBERBIZ 後台
@@ -27,34 +42,34 @@ features:
   - 海外信用卡支付
   - 多國貨幣交易
   - 自動退款
-tnb: ""
-plans: []
 prerequisites:
   - PayPal 商業帳號
   - PayPal Client ID
   - PayPal Secret
-lang: zh-TW
-sites: []
-status:
+related: []
 tags:
-  - PayPal
-  - 金流設定
-  - CYBERBIZ PAYMENTS
+  - PayPal 金流
+  - PayPal 串接
   - 海外信用卡
-difficulty: easy
-audiences:
-  - CYBERBIZ 商家
-  - 電商管理者
+  - 金流設定
+  - 跨境支付
+acoiv: 
+apis:
+  - PayPal
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths: []
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2553
   - https://www.cyberbiz.io/support/?p=35119
-notes: []
-comments: ""
+comments: false
 search:
-  exclude: ""
-icon: ""
-permalink: https://www.cyberbiz.io/helpcenter/?p=2553
-id: "2553"
+  exclude: false
+icon: 
+hide: 
 ---
 
 # 設定 PayPal

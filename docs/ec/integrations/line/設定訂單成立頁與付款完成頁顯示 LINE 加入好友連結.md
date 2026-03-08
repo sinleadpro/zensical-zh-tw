@@ -26,7 +26,7 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - engineer
+  - developer
 difficulty: advanced
 intents:
   - 設定訂單成立頁顯示 LINE 加入好友連結
@@ -61,6 +61,7 @@ comments: false
 search:
   exclude: false
 icon: ""
+hide:
 ---
 
 # 設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結

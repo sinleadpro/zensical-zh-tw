@@ -1,49 +1,52 @@
 ---
 title: 設定 LINE 圖文選單
-version: ""
-last_modified: 2026-02-22
 description: 建立與設定 LINE 圖文選單，讓顧客可透過官方帳號快速導覽商品、會員中心與導購頁面。
-product:
+created: 
+last_modified: 2026-03-08 14:30
+lang: zh-TW
+type: tutorial
+status: 
+version: 
+author: 
+reviewers: []
+notes: []
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules:
   - line-integration
-activ: ""
-paths: []
-surfaces: []
-ends: []
-devices:
-  - desktop
-  - mobile
-apis:
-  - LINE Messaging API
-type: tutorial
-intents:
-  - LINE rich menu setup
-  - configure LINE OA menu
-  - guide customer actions with rich menu
-  - promote products via LINE
-  - integrate LINE OA with e-commerce
-features:
-  - rich menu configuration
-  - customizable menu layouts
-  - external link integration
-  - keyword search integration
-  - member account binding
-  - member barcode display (OMO)
-  - automated notifications (implied by member binding section)
-tnb: ""
-plans:
-  - 專業PLUS
-  - 進階 PLUS
-  - 高手PLUS
-  - 企業
-prerequisites:
-  - LINE OA API support
-  - LINE Messaging API setup
-  - no short URLs for rich menu links
-lang: zh-TW
 sites: []
-status:
+audiences:
+  - merchant
+  - 管理員
+difficulty: medium
+tnb: branch
+plans:
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions: []
+intents:
+  - 設定 LINE 圖文選單
+  - 配置 LINE 官方帳號選單
+  - 透過圖文選單引導顧客行動
+  - 經由 LINE 推廣產品
+  - 整合 LINE 官方帳號與電子商務
+features:
+  - 圖文選單配置
+  - 客製化選單版面
+  - 外部連結整合
+  - 關鍵字搜尋整合
+  - 會員帳號綁定
+  - 會員條碼顯示 (OMO)
+  - 自動化訊息通知
+prerequisites:
+  - LINE 官方帳號 API 支援
+  - LINE Messaging API 設定
+  - 圖文選單連結禁用短網址
+related: []
 tags:
   - LINE
   - 圖文選單
@@ -53,18 +56,24 @@ tags:
   - 導購
   - 會員
   - OMO
-difficulty: medium
-audiences:
-  - merchant
-  - 管理員
+acoiv: 
+apis:
+  - LINE Messaging API
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths: []
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5858
   - https://www.cyberbiz.io/support/?p=855
-notes: []
-comments: ""
+permalink: 
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: 
+hide: []
 ---
 
 

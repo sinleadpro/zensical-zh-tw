@@ -30,7 +30,7 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - merchant
+  - admin
 difficulty: beginner
 intents:
   - 在官網新增 LINE 加入好友入口
@@ -49,7 +49,6 @@ tags:
   - LINE
   - 加入好友
   - 導流
-  - draggable
 acoiv: configure
 apis: []
 devices:
@@ -72,6 +71,7 @@ comments: false
 search:
   exclude: false
 icon: ""
+hide: 
 ---
 
 # 在官網新增 LINE 加入好友入口

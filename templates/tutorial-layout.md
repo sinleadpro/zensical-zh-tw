@@ -42,6 +42,7 @@ comments: ""
 search:
   exclude: ""
 icon: ""
+hide:
 ---
 
 # {{title}}

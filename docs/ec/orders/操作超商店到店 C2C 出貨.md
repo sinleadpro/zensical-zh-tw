@@ -1,32 +1,43 @@
 ---
 title: 操作超商店到店 C2C 出貨
-version: ""
-last_modified: 2024-05-23
 description: 包裝商品並透過超商店到店（C2C）寄件至消費者指定門市，包括完整操作流程與注意事項。
-product:
+created: 
+last_modified: 2024-05-23
+lang: zh-TW
+permalink: 
+type: tutorial
+status: 
+version: 
+author: Jase
+reviewers: []
+notes:
+  - add 儲值 CYBER 幣 doc link
+  - add 熱感列印 doc link
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules:
   - 訂單管理
   - 物流管理
-activ: CYBERBIZ PAYMENTS
-paths:
-  - 訂單 > 所有訂單
-  - 管理中心 > 儲值中心
-  - 訂單 > 訂單報表匯出
-surfaces:
-  - CYBERBIZ 管理後台
-  - 超商多媒體機台 (ibon/FamiPort)
-ends:
-  - 完成超商店到店C2C寄件
-  - 包裹成功配送至消費者指定門市
-devices:
-  - desktop
-  - mobile
-apis: []
-type: tutorial
+sites:
+  - TW
+audiences:
+  - admin
+difficulty: intermediate
+tnb: trunk
+plans:
+  - 專業
+  - 進階
+  - 高手
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions: []
 intents:
-  - 出貨
-  - 寄件
+  - 超商店到店出貨
+  - 超商寄件
   - 列印託運單
   - 處理物流異常
   - 了解超商寄件規範
@@ -39,43 +50,40 @@ features:
   - 熱感列印
   - ibon列印
   - FamiPort列印
-tnb: trunk
-plans:
-  - 一般版
-  - PLUS版
-  - 企業版
 prerequisites:
   - 開通CYBERBIZ PAYMENTS (貨到付款)
   - 一般版商家需儲值CYBER幣
   - 正確設定寄件人資訊
-lang: zh-TW
-sites:
-  - CYBERBIZ 管理後台
-status: ""
+related: []
 tags:
   - 超商店到店
-  - C2C
-  - 出貨
-  - 寄件
-  - 物流
+  - C2C 出貨
+  - 超商寄件
+  - 物流出貨
   - 託運單
-  - 7-11
-  - 全家
+  - 7-11 店到店
+  - 全家店到店
   - 萊爾富
-difficulty: medium
-audiences:
-  - 商家
+acoiv: 
+apis: []
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths:
+  - 訂單 > 所有訂單
+  - 管理中心 > 儲值中心
+  - 訂單 > 訂單報表匯出
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=120
   - https://www.cyberbiz.io/helpcenter/?p=6856
   - https://www.cyberbiz.io/support/?p=980
-notes:
-  - add 儲值 CYBER 幣 doc link
-  - add 熱感列印 doc link
-comments: ""
+comments: false
 search:
-  exclude: ""
-icon: ""
+  exclude: false
+icon: 
+hide: 
 ---
 
 

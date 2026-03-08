@@ -1,10 +1,9 @@
----
 title: frontmatter
 created: 2026-03-05 10:50
 last-modified: 2026-03-05 11:45
 type:
 tags:
-last_modified: 2026-03-05 14:56
+last_modified: 2026-03-08 15:50
 ---
 
 ## Frontmatter Schema
@@ -26,7 +25,7 @@ feedback: { type: Integer, default: 0, desc: "Net feedback score (Up minus Down)
 products: { type: Array, enum: ["EC", "POS", "WMS"] }
 modules: { type: Array, desc: "Matching CYB admin console leftsidebar menu" }
 sites: { type: Array, enum: ["TW", "JP", "US"] }
-audiences: { type: Array, enum: ["merchant", "engineer", "clerk"] }
+audiences: { type: Array, enum: ["admin", "developer", "clerk"] }
 difficulty: { type: String, enum: ["beginner", "intermediate", "advanced"] }
 tnb: { type: String, enum: ["trunk", "branch"] }
 plans: { type: Array, enum: ["專業", "進階", "高手", "專業 PLUS", "進階 PLUS", "高手 PLUS", "企業"] }
@@ -48,6 +47,8 @@ comments: { type: Boolean, default: false }
 search:
   exclude: { type: Boolean, default: false }
 icon: { type: String, desc: "Lucide icon (e.g., lucide/braces)" }
+hide: { type: Array, enum: ["navigation", "toc", "feedback"] desc: "Visual elements to hide on the page"
+
 ```
 
 ## Field Specification & Taxonomy
@@ -58,7 +59,7 @@ icon: { type: String, desc: "Lucide icon (e.g., lucide/braces)" }
 | --------------- | -------- | ------------ | -------------------------------------------- |
 | `title`         | String   | ✅            | **文件標題**：SEO 與 H1 的主要來源。                     |
 | `description`   | String   | ✅            | **內容摘要**：用於 Zensical Social Cards，建議 160 字內。 |
-| `created`       | Date/Time| ✅           | **建立日期**：文件最初產生的時間。由核心模板於建立時填入，後續**不應更改**。|
+| `created`       | Date/Time| ✅.           | **建立日期**：文件最初產生的時間。由核心模板於建立時填入，後續**不應更改**。|
 | `last_modified` | Date     | ✅            | **最後更新**：格式必須為 `YYYY-MM-DD HH:mm`。                 |
 | `lang`          | Enum     | ✅            | **語系**：`zh-TW`, `en-US`, `ja-JP`。            |
 | `permalink`     | String   | ✅            | **固定連結**：Zensical 產出的 URL Slug。              |
@@ -88,7 +89,7 @@ icon: { type: String, desc: "Lucide icon (e.g., lucide/braces)" }
 |`products`|Array|產品線：`EC`, `POS`, `WMS`。|
 |`modules`|Array|功能模組：須對照 **CYB 後台左側選單** 名稱。|
 |`sites`|Array|適用站點：`TW`, `JP`, `US`。|
-|`tnb`|Enum|`trunk` (全方案適用) 或 `branch` (特定方案)。|
+|`tnb`|Enum|`Trunk` (全方案適用) 或 `Branch` (特定方案)。|
 |`plans`|Array|**方案限制**：`專業`, `進階`, `高手`, `專業 PLUS`, `進階 PLUS`, `高手 PLUS`, `企業`。|
 |`cyb_extensions`|Array|**官方外掛**：`APP MARKET`, `AUTOMATION`, `CHANNEL BRIDGE`, `CHAT BOX`, `EXPRESS`, `NOW!`, `STORE PAL`, `TICKET`。|
 
@@ -96,7 +97,7 @@ icon: { type: String, desc: "Lucide icon (e.g., lucide/braces)" }
 
 |**Key**|**Type**|**Description**|
 |---|---|---|
-|`audiences`|Array|目標對象：`merchant` (商家), `engineer` (開發人員), `clerk`(店員)。|
+|`audiences`|Array|目標對象：`admin` (商家/管理員), `developer` (開發人員), `clerk`(店員)。|
 |`difficulty`|Enum|難易度：`beginner`, `intermediate`, `advanced`。|
 |`intents`|Array|**搜尋意圖**：使用者想解決什麼問題？(例如：如何退貨)。|
 |`features`|Array|**功能特性**：文中提到的特定系統功能。|
@@ -128,3 +129,5 @@ icon: { type: String, desc: "Lucide icon (e.g., lucide/braces)" }
 |`comments`|Boolean|`false`|是否開啟頁面評論功能。|
 |`search.exclude`|Boolean|`false`|是否從搜尋結果中排除此頁。|
 |`icon`|String|-|**Lucide 圖示**：格式如 `lucide/braces` 或 `lucide/book`。|
+|hide|Array|-|隱藏頁面元素：可選擇 `navigation` (左側選單) 或 `toc` (右側大綱) `feedback（回饋工具）`。|
+

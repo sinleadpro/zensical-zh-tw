@@ -1,20 +1,31 @@
 ---
 title: 操作超商退貨便 C2B
-version: ""
-last_modified: 2026-02-02
 description: 設定及操作 7-11 超商退貨便 (C2B)
-product:
+created: 
+last_modified: 2026-02-02
+lang: zh-TW
+permalink: 
+type: tutorial
+status: 
+version: 
+author: Jase
+reviewers: []
+notes: []
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules: []
-activ: ""
-paths: []
-surfaces: []
-ends: []
-devices:
-  - desktop
-  - mobile
-apis: []
-type: tutorial
+sites:
+  - TW
+audiences:
+  - admin
+difficulty: intermediate
+tnb: branch
+plans:
+  - 高手 PLUS
+  - 企業
+cyb_extensions: []
 intents:
   - 申請超商退貨便服務
   - 設定超商退貨便運費
@@ -24,35 +35,35 @@ intents:
 features:
   - 7-11 超商退貨便 C2B
   - ibon 機台操作
-tnb: branch
-plans:
-  - 高手PLUS
-  - 企業
+  - 退貨便代碼
+  - 退貨運費設定
 prerequisites:
   - 使用高手PLUS / 企業版
   - 已申請開通「超商大宗寄倉 (B2C)」服務
-lang: zh-TW
-sites: []
-status:
+related: []
 tags:
   - 超商退貨便
-  - C2B
-  - 7-11
-  - 退貨
-  - 金物流
-  - 訂單
-  - 網站設定
-difficulty: ""
-audiences:
-  - merchant
+  - C2B 退貨
+  - 7-11 退貨
+  - 超商退貨
+  - 退貨便操作
+  - ibon 退貨
+acoiv: 
+apis: []
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths: []
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6178
   - https://www.cyberbiz.io/support/?p=34661
-notes: []
-comments: ""
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: 
+hide: 
 ---
 
 # 操作超商退貨便 C2B
@@ -60,7 +71,7 @@ icon:
 設定及操作 7-11 超商退貨便 (C2B)
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 PLUS / 企業
 { .doc-badge }
 
 ![](../../assets/images/ec-金物流-超商物流-退貨便.png){ .hero-page }

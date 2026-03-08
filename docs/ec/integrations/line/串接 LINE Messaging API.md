@@ -1,47 +1,51 @@
 ---
 title: 串接 LINE Messaging API
-version: ""
-last_modified: 2026-02-09
 description: 整合 LINE OA 與 CYBERBIZ 系統，實現自動化訂單通知、精準分眾行銷與即時商品關鍵字搜尋功能。
-product:
+created: 2026-02-09 00:00
+last_modified: 2026-03-07 23:42
+lang: zh-TW
+type: tutorial
+status:
+version:
+author:
+reviewers: []
+notes: []
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules: []
-activ: ""
-paths: []
-surfaces: []
-ends: []
-devices:
-  - desktop
-  - mobile
-apis:
-  - LINE Messaging API
-type: tutorial
-intents:
-  - automated customer communication
-  - order status notifications
-  - segmented push notifications
-  - LINE product keyword search
-features:
-  - Automated customer communication
-  - Order status notifications
-  - Segmented push notifications
-  - LINE product keyword search
-  - Webhook Relay
-  - Automated notification templates
+sites: []
+audiences:
+  - merchant
+difficulty: intermediate
 tnb: branch
 plans:
-  - 專業PLUS
+  - 專業 PLUS
   - 進階 PLUS
-  - 高手PLUS
+  - 高手 PLUS
   - 企業
+cyb_extensions: []
+intents:
+  - 如何串接 LINE Messaging API
+  - 如何設定 LINE 自動通知
+  - 如何在 LINE 搜尋商品
+  - 如何整合 LINE 官方帳號
+features:
+  - 自動化顧客溝通
+  - 訂單狀態通知
+  - 精準分眾推播
+  - LINE 商品關鍵字搜尋
+  - Webhook 轉拋
+  - 自動化通知樣板
 prerequisites:
   - 建立 LINE 官方帳號
   - 啟用 Messaging API
   - 配置服務提供者 (Provider)
   - 取得頻道憑證 (Channel Credentials)
-lang: zh-TW
-sites: []
-status: ""
+related:
+  - ../../notifications/設定與管理 LINE OA 通知樣板.md
+  - 綁定 LINE 帳號與官網會員.md
 tags:
   - LINE
   - Messaging API
@@ -49,20 +53,24 @@ tags:
   - 官方帳號
   - 聊天機器人
   - Webhook
-difficulty: intermediate
-audiences:
-  - merchant
-  - 品牌主
-  - sale
+acoiv: integration
+apis:
+  - LINE Messaging API
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths: []
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=706
   - https://www.cyberbiz.io/helpcenter/?p=5855
-notes: []
-comments: ""
+permalink:
+comments: false
 search:
-  exclude: ""
-icon: 
-aliases: []
+  exclude: false
+icon:
+hide: []
 ---
 
 # 串接 LINE Messaging API
@@ -189,9 +197,13 @@ aliases: []
 
 <div class="grid cards" markdown>
 
-- :lucide-layout-template:{ .lg }
-  [**LINE OA 訊息樣板設定**](綁定 LINE 帳號與官網會員)  
-  。
+- :lucide-layout-template:{ .lg }  
+  [**LINE OA 訊息樣板設定**](../../notifications/設定與管理 LINE OA 通知樣板.md){ data-preview }    
+  設定訂單、物流與顧客類自動通知樣板。
+
+- :lucide-link-2:{ .lg }  
+  [**綁定 LINE 帳號與官網會員**](綁定 LINE 官方帳號與官網會員.md){ data-preview }    
+  了解如何讓會員完成 LINE 綁定以接收通知。
 
 </div>
 

@@ -1,20 +1,37 @@
 ---
 title: 操作全家冷凍店到店 C2C 出貨
-version: 
-last_modified: 2026-02-02
 description: 操作全家冷凍店到店 C2C 出貨，包括設定流程、訂單出貨、包裝規範、寄件時效及異常處理。
-product:
+created: 
+last_modified: 2026-02-02
+lang: zh-TW
+permalink: 
+type: tutorial
+status: 
+version: 
+author: Jase
+reviewers: []
+notes:
+  - 企業版超商取貨付款方式表格有誤，目前以 [https://docs.google.com/spreadsheets/d/1EnwSkTWX2o5wkjBkfUcvxmfdv9dDj2d5/edit?gid=385488738#gid=385488738](https://docs.google.com/spreadsheets/d/1EnwSkTWX2o5wkjBkfUcvxmfdv9dDj2d5/edit?gid=385488738#gid=385488738) 更全面 BY MOMO
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules: []
-activ: ""
-paths: []
-surfaces: []
-ends: []
-devices:
-  - desktop
-  - mobile
-apis: []
-type: tutorial
+sites:
+  - TW
+audiences:
+  - admin
+difficulty: intermediate
+tnb: trunk
+plans:
+  - 專業
+  - 進階
+  - 高手
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions: []
 intents:
   - 啟用冷凍店到店服務
   - 處理冷凍訂單出貨
@@ -22,36 +39,38 @@ intents:
   - 解決異常取貨狀況
 features:
   - 全家冷凍店到店 C2C 出貨服務
-tnb: ""
-plans: []
+  - 訂單出貨
+  - 包裝規範
+  - 寄件時效
+  - 異常處理
 prerequisites:
   - 於CYBERBIZ後台啟用全家冷凍店到店服務
   - 同意相關服務條款
   - 填寫寄件人資訊
-lang: zh-TW
-sites: []
-status: 
+related: []
 tags:
   - 全家冷凍店到店
-  - C2C
-  - 物流
-  - 出貨
-  - 超商
-  - 網站設定
-  - 金物流設定
-  - CYBERBIZ PAYMENTS
-difficulty: ""
-audiences:
-  - 商家
+  - C2C 出貨
+  - 冷凍物流
+  - 超商出貨
+  - 冷冻店到店
+  - 物流設定
+acoiv: 
+apis: []
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths: []
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8221
   - https://www.cyberbiz.io/support/?p=40721
-notes: []
-comments: 
-  - 企業版超商取貨付款方式表格有誤，目前以 [https://docs.google.com/spreadsheets/d/1EnwSkTWX2o5wkjBkfUcvxmfdv9dDj2d5/edit?gid=385488738#gid=385488738](https://docs.google.com/spreadsheets/d/1EnwSkTWX2o5wkjBkfUcvxmfdv9dDj2d5/edit?gid=385488738#gid=385488738) 更全面 BY MOMO
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: 
+hide: 
 ---
 
 # 操作全家冷凍店到店 C2C 出貨

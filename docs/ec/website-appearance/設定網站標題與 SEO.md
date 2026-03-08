@@ -16,7 +16,7 @@ modules:
 sites:
   - TW
 audiences:
-  - engineer
+  - developer
 difficulty: advanced
 tnb: trunk
 plans:
@@ -65,6 +65,7 @@ comments: ""
 search:
   exclude: ""
 icon: ""
+hide: 
 ---
 
 設定網站標題、簡述與關鍵字，以優化搜尋引擎 (SEO) 排名並提升社群分享時的品牌辨識度。

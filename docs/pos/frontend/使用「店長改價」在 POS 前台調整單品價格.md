@@ -20,11 +20,12 @@ modules:
   - 權限管理
 sites:
   - TW
-tnb: ""
+tnb: trunk
 plans: []
 cyb_extensions: []
 audiences:
-  - merchant
+  - admin
+  - clerk
 difficulty: beginner
 intents:
   - 在 POS 前台調整單品價格
@@ -58,6 +59,7 @@ comments: false
 search:
   exclude: false
 icon: ""
+hide:
 ---
 
 # 使用「店長改價」在 POS 前台調整單品價格

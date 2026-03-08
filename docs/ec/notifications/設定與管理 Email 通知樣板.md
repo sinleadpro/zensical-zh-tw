@@ -1,60 +1,76 @@
 ---
 title: 設定與管理 Email 通知樣板
-version: ""
-last_modified: 2026-02-13
 description: 管理與編輯系統自動發送的 Email 通知樣板，包括內容自訂、啟用控制、收件者設定與多國語系配置。
-product:
+created: 
+last_modified: 2026-02-13
+lang: zh-TW
+permalink: 
+type: tutorial
+status: 
+version: 
+author: Jase
+reviewers: []
+notes: []
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules:
   - notifications
-activ: ""
-paths: []
-surfaces: []
-ends: []
-devices:
-  - desktop
-  - mobile
-apis: []
-type: tutorial
+sites:
+  - TW
+audiences:
+  - admin
+difficulty: intermediate
+tnb: trunk
+plans: 
+  - 專業
+  - 進階
+  - 高手
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions: []
 intents:
-  - email template management
-  - customize email notifications
-  - configure merchant alerts
-  - multi-language email settings
+  - 管理 Email 樣板
+  - 自訂 Email 通知
+  - 設定商家提醒
+  - 多國語系 Email 設定
 features:
-  - Email notifications
-  - Email template customization
-  - Recipient settings
-  - Multi-language support
-  - Short URL feature
-  - Merchant notifications
-tnb: ""
-plans: []
+  - Email 通知
+  - Email 樣板自訂
+  - 收件者設定
+  - 多國語系支援
+  - 短網址功能
+  - 商家通知
 prerequisites: []
-lang: zh-TW
-sites: []
-status:
+related: []
 tags:
-  - Email
-  - 通知
-  - 樣板
-  - 設定
-  - 多國語系
+  - Email 通知樣板
+  - Email 樣板管理
+  - Email 設定
+  - Email 多國語系
   - 商家通知
   - 短網址
   - 通知管理
-difficulty: medium
-audiences:
-  - 商家
-  - 管理員
+  - Email 自動化
+acoiv: 
+apis: []
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths: []
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2061
   - https://www.cyberbiz.io/support/?p=7709
-notes: []
-comments: ""
+comments: false
 search:
-  exclude: ""
-icon: ""
+  exclude: false
+icon: 
+hide: 
 ---
 
 

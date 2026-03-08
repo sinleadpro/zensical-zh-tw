@@ -58,7 +58,17 @@ copyright = """
             { "開啟會員退貨申請功能" = "ec/orders/開啟會員退貨申請功能.md"},
             { "訂單退貨流程" = "ec/orders/訂單退貨流程.md"},
             { "訂單退款流程" = "ec/orders/訂單退款流程.md"},
-            { "綠界後台查詢教學" = "ec/orders/綠界後台查詢教學.md"}
+            { "綠界後台查詢教學" = "ec/orders/綠界後台查詢教學.md"},
+            { "訂單管理介面" = "ec/orders/訂單管理介面說明.md" },
+            { "出貨提示文字" = "ec/orders/出貨狀態物流提示文字說明.md" },
+            { "訂單未付款提醒" = "ec/orders/設定未付款提醒.md" },
+            { "提供付款連結" = "ec/orders/提供顧客付款連結.md" },
+            { "訂單自動結案" = "ec/orders/設定訂單自動結案.md" },
+            { "黑貓快速到店付款" = "ec/orders/設定黑貓快速到店付款方式.md" },
+            { "超商退貨便 C2B" = "ec/orders/操作超商退貨便 C2B.md" },
+            { "全家冷凍店到店 C2C" = "ec/orders/操作全家冷凍店到店 C2C 出貨.md" },
+            { "熱感列印超商托運單" = "ec/orders/熱感列印超商托運單.md" },
+            { "超商店到店 C2C" = "ec/orders/操作超商店到店 C2C 出貨.md" }
         ]},
         { "會員" = [
             { "overview" = "ec/members/index.md"},
@@ -69,7 +79,7 @@ copyright = """
                 {"VIP功能運作指南" = "ec/members/VIP功能運作指南.md"},
                 {"建立全館VIP制度" = "ec/members/建立全館VIP制度.md"},
                 {"建立特殊VIP群組" = "ec/members/建立特殊VIP群組.md"},
-                {"設定VIP專屬優惠" = "ec/members/設定VIP專屬優惠.md"}
+                {"設定 VIP 專屬優惠" = "ec/members/設定VIP專屬優惠.md"}
             ]},
         ]},
         { "商品" = [
@@ -78,6 +88,7 @@ copyright = """
                 { "商品管理介面" = "ec/products/商品管理介面說明.md" }
             ]},
             { "建立與設定" = [
+                { "新增單一商品" = "ec/products/creation/新增單一商品.md"},
                 { "商品簡述與標語" = "ec/products/creation/編輯商品簡述與商品標語.md" },
                 { "商品描述與商品設定" = "ec/products/creation/編輯商品描述與商品設定.md" }
             ]},  
@@ -94,14 +105,15 @@ copyright = """
                 { "批量上架" = "ec/products/batch-management/批量上架商品.md" } 
             ]},
             { "銷售與互動" = [
+                { "商品到貨通知" = "ec/products/sales/設定商品到貨通知.md"},
+                { "管理商品評論" = "ec/products/sales/管理商品評論.md"},
+                { "結帳拆分多購物車" = "ec/products/sales/設定結帳拆分多購物車.md"},
+                { "商品影片" = "ec/products/sales/設定商品影片.md" },
                 { "搜尋結果排除特定商品" = "ec/products/sales/設定搜尋結果中排除特定關鍵字商品.md" }
             ]},
             { "商品上架" = [
-                { "新增單一商品" = "ec/products/新增單一商品.md"},
                 { "組合商品" = "ec/products/新增與設定組合商品.md"},
-                { "商品到貨通知" = "ec/products/設定商品到貨通知.md"},
                 { "商品描述與商品設定" = "ec/products/編輯商品描述與商品設定.md" },
-                { "設定商品影片" = "ec/products/設定商品影片.md" },
                 { "Excel 大量匯入商品" = "ec/products/Excel 大量匯入商品.md"},
                 { "批次修改商品描述與配送設定" = "ec/products/批次修改商品描述與配送設定.md" },
                 { "商品搜尋可見性" = "ec/products/設定商品搜尋可見性.md" }
@@ -117,9 +129,7 @@ copyright = """
                 { "商品篩選器" = "ec/products/設定前台商品篩選器.md" }
             ]},
             { "商品銷售" = [
-                { "管理商品評論" = "ec/products/管理商品評論.md"},
-                { "啟用留言區 reCAPTCHA" = "ec/products/啟用留言區 reCAPTCHA.md"},
-                { "設定結帳拆分多購物車" = "ec/products/設定結帳拆分多購物車.md"},
+
                 { "設定 VIP 會員專屬價格" = "ec/products/設定 VIP 會員專屬價格.md" }
             ]},
             { "參考資源" = [
@@ -185,7 +195,7 @@ copyright = """
             { "串接全家超商B2C冷凍物流" = "ec/payments-and-logistics/串接全家超商B2C冷凍物流.md" },
             { "超商店到店 C2C 串接" = "ec/payments-and-logistics/設定超商店到店 C2C 物流串接.md" },
             { "超商大宗寄倉 B2C" = "ec/payments-and-logistics/設定超商大宗寄倉 B2C.md" },
-            { "全家冷凍物流 B2C 設定" = "ec/payments-and-logistics/設定全家冷凍物流 B2C.md" },
+            { "全家冷凍 B2C" = "ec/payments-and-logistics/設定全家冷凍物流 B2C.md" },
             { "設定門市取貨服務"= "ec/payments-and-logistics/設定門市取貨服務.md" },
             { "設定CYBERBIZ NOW快速到貨服務" = "ec/payments-and-logistics/設定CYBERBIZ NOW快速到貨服務.md" },
             { "串接ezShip超商取貨(C2C)" = "ec/payments-and-logistics/串接ezShip超商取貨(C2C).md"},
@@ -208,6 +218,7 @@ copyright = """
             { "overview" = "ec/website-appearance/index.md" },
             { "樣板編輯器" = "ec/website-appearance/樣板編輯器操作全攻略.md" },
             { "恢復樣板版本" = "ec/website-appearance/使用樣板編輯器恢復網頁代碼.md" },
+            { "留言區 reCAPTCHA" = "ec/website-appearance/啟用留言區 reCAPTCHA.md"},
             { "拖拉版型設定" = "ec/website-appearance/拖拉版型網站設定.md" },
             { "選單與導覽列" = "ec/website-appearance/設定選單與導覽列.md "},
             { "自訂頁面管理" = "ec/website-appearance/設定與管理自訂頁面.md" },
@@ -222,7 +233,8 @@ copyright = """
             { "轉貼連結縮圖 (OG Image)" = "ec/website-appearance/設定轉貼連結縮圖 (OG Image).md" },
             { "全站商品列表群組排序" = "ec/website-appearance/設定前台商品群組排序.md" },
             { "網頁鎖右鍵" = "ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md"},
-            { "前台語系與文字" = "ec/website-appearance/設定前台語系與文字自定義.md" }
+            { "前台語系與文字" = "ec/website-appearance/設定前台語系與文字自定義.md" },
+            { "商品群組排序" = "ec/website-appearance/設定前台商品群組排序.md" }
         ]},
         { "APP MARKET" = [
             { "overview" = "ec/app-market/index.md" },

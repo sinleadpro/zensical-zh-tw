@@ -1,20 +1,37 @@
 ---
 title: 設定超商大宗寄倉 B2C
-version: ""
-last_modified: 2026-02-02
 description: 申請、設定超商大宗寄倉 B2C 服務。
-product:
-  - EC
-modules: []
-activ: ""
-paths: []
-surfaces: []
-ends: []
-devices:
-  - desktop
-  - mobile
-apis: []
+created: 
+last_modified: 2026-02-02
+lang: zh-TW
+permalink: 
 type: tutorial
+status: 
+version: 
+author: Jase
+reviewers: []
+notes: []
+ga_views: 0
+feedback: 0
+products:
+  - EC
+modules:
+  - payments-and-logisitcs
+sites:
+  - TW
+audiences:
+  - admin
+difficulty: intermediate
+tnb: branch
+plans:
+  - 進階
+  - 高手
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions:
+  - PAYMENTS
 intents:
   - 申請超商大宗寄倉 B2C 服務
   - 進行測標與驗標
@@ -26,41 +43,33 @@ features:
   - 7-11 大智通
   - 全家 日翊
   - 萊爾富 物流
-tnb: ""
-plans:
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階 PLUS
-  - 高手PLUS
-  - 企業
 prerequisites:
   - 具備高手版或 PLUS 版以上系統版本
   - 準備雷射印表機及防水材質標籤
   - 登入 CYBERBIZ 管理後台
-lang: zh-TW
-sites: []
-status:
+related: []
 tags:
   - 超商大宗寄倉
-  - B2C
-  - 物流
-  - 金物流
-  - 7-11
-  - 全家
-  - 萊爾富
-  - 出貨
-  - 網站設定
-  - CYBERBIZ PAYMENTS
-difficulty: ""
-audiences:
-  - merchant
+  - B2C 物流
+  - 7-11 物流
+  - 全家物流
+  - 萊爾富物流
+  - 物流設定
+  - B2C 出貨
+acoiv: 
+apis: []
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths: []
+layouts: []
 wp_url: []
-notes: []
-comments: ""
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: 
+hide: 
 ---
 
 # 設定超商大宗寄倉 B2C

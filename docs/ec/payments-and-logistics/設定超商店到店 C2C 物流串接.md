@@ -1,28 +1,38 @@
 ---
 title: 設定超商店到店 C2C 物流串接
-version: ""
-last_modified: 2026-01-28
 description: 啟用超商店到店（C2C）物流服務，讓顧客可於結帳時選擇指定超商門市取貨。
-product:
+created: 
+last_modified: 2026-01-28
+lang: zh-TW
+permalink: 
+type: tutorial
+status: 
+version: 
+author: Jase
+reviewers: []
+notes: []
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules:
-  - 網站設定
-  - 金物流設定
-activ: ""
-paths:
-  - 金物流 > 超商物流
-surfaces: []
-ends:
-  - backend
-  - frontend
-devices:
-  - desktop
-  - mobile
-apis:
-  - 7-ELEVEN 交貨便
-  - 全家店到店
-  - 萊爾富超商取貨
-type: tutorial
+  - payments-and-logisitcs
+sites:
+  - TW
+audiences:
+  - admin
+difficulty: beginner
+tnb: trunk
+plans:
+  - 專業
+  - 進階
+  - 高手
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions:
+  - PAYMENTS
 intents:
   - 設定超商物流串接
   - 開啟超商免運
@@ -32,31 +42,37 @@ features:
   - 7-ELEVEN 交貨便
   - 全家店到店
   - 萊爾富超商取貨
-tnb: ""
-plans: []
 prerequisites: []
-lang: zh-TW
-sites: []
-status:
+related: []
 tags:
   - 超商物流
-  - C2C
-  - 金物流設定
-difficulty: easy
-audiences:
-  - CYBERBIZ 商家
-  - 電商管理者
+  - C2C 物流
+  - 超商取貨
+  - 物流串接
+  - 7-11 物流
+  - 全家物流
+  - 萊爾富物流
+acoiv: 
+apis:
+  - 7-ELEVEN 交貨便
+  - 全家店到店
+  - 萊爾富超商取貨
+devices:
+  - desktop
+  - mobile
+ui_components: []
+paths:
+  - 金物流 > 超商物流
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6850
   - https://www.cyberbiz.io/helpcenter/?p=5058
   - https://www.cyberbiz.io/support/?p=5958
-notes: []
-comments: ""
+comments: false
 search:
-  exclude: ""
-icon: ""
-permalink: https://www.cyberbiz.io/support/?p=5958
-id: "5958"
+  exclude: false
+icon: 
+hide: 
 ---
 
 # 設定超商店到店 C2C 物流串接
