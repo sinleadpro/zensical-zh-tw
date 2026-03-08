@@ -61,7 +61,7 @@ permalink:
 comments: false
 search:
   exclude: false
-icon:
+icon: simple/line
 hide: []
 ---
 
