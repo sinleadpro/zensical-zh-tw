@@ -42,12 +42,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/products/sales/設定商品到貨通知.md",
+                "file": "docs/ec/products/creation/編輯商品簡述與商品標語.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定商品到貨通知"
+              "title": "編輯商品簡述與商品標語"
+            }
+          },
+          {
+            "id": "b934fe78b0a37080",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/integrations/line/綁定 LINE 官方帳號與官網會員.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "綁定 LINE 官方帳號與官網會員"
             }
           },
           {
@@ -107,7 +121,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "74dd1daaeb40eac4",
@@ -345,44 +359,44 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "92edcc75716a79f0",
+  "active": "b934fe78b0a37080",
   "lastOpenFiles": [
-    "site/ec/products/Excel 大量匯入商品/index.html",
-    "site/ec/products/Excel 大量匯入商品",
-    "site/wms/index.html",
-    "site/wms",
-    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流/index.html",
-    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流",
-    "site/ec/products/新增與設定組合商品/index.html",
-    "site/ec/products/新增與設定組合商品",
-    "site/ec/get-started/文字編輯器使用教學/index.html",
-    "site/ec/get-started/文字編輯器使用教學",
-    "site/ec/get-started/index.html",
-    "docs/ec/products/creation/新增單一商品.md",
-    "templates/yaml-plans-trunk.md",
-    "docs/ec/products/sales/設定商品影片.md",
-    "docs/ec/website-appearance/啟用留言區 reCAPTCHA.md",
-    "docs/ec/products/sales/管理商品評論.md",
-    "docs/ec/products/sales/設定結帳拆分多購物車.md",
-    "docs/ec/products/設定超商配送限制與物流排除.md",
-    "docs/ec/products/Excel 大量匯入商品.md",
-    "docs/ec/products/creation/編輯商品簡述與商品標語.md",
-    "docs/ec/products/sales/設定商品到貨通知.md",
-    "docs/ec/products/批次修改商品描述與配送設定.md",
-    "docs/ec/products/管理商品標籤.md",
-    "docs/ec/products/編輯商品描述與商品設定.md",
-    "reference/frontmatter-skill-reference.md",
-    "docs/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）.md",
-    "docs/ec/products/新增與設定組合商品.md",
-    "docs/ec/products/設定商品條件分類群組.md",
-    "templates/yaml-plans-all.md",
-    "docs/ec/products/organization/設定秘密商品群組.md",
-    "docs/ec/marketing/設定商品加價購.md",
-    "docs/ec/marketing/設定訂單加價購.md",
-    "docs/ec/marketing/設定單品限時折扣群組.md",
-    "docs/ec/marketing/設定商品排除指定優惠.md",
-    "docs/ec/products/organization/設定商品多層級分類.md",
-    "docs/ec/marketing/設定商品多層級分類滿額折扣.md",
+    "site/index.html",
+    "site/ec/products/quickstart/index.html",
+    "site/ec/products/quickstart",
+    "site/ec/products/排除商品上傳至第三方平台/index.html",
+    "site/ec/products/排除商品上傳至第三方平台",
+    "site/ec/payments-and-logistics/設定 LINE Pay/index.html",
+    "site/ec/payments-and-logistics/設定 LINE Pay",
+    "site/ec/products/index-old/index.html",
+    "site/ec/products/index-old",
+    "site/resources/glossary/index.html",
+    "site/resources/glossary",
+    "docs/ec/integrations/line/設定 LIFF 自動登入與會員綁定.md",
+    "docs/ec/integrations/line/設定 LINE 圖文選單.md",
+    "docs/ec/integrations/line/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md",
+    "docs/ec/integrations/line/在官網新增 LINE 加入好友入口.md",
+    "docs/ec/integrations/line/LINE 官方帳號增加好友指南.md",
+    "docs/ec/integrations/line/設定 LINE OA 受眾串接.md",
+    "docs/ec/integrations/line/設定 LINE 綁定會員贈送優惠券.md",
+    "docs/ec/integrations/line/篩選與應用 LINE OA 綁定會員名單.md",
+    "docs/ec/integrations/line/設定 LINE 快速登入時取得會員手機號碼.md",
+    "docs/ec/integrations/line/設定 LINE 快速登入.md",
+    "docs/ec/integrations/line/串接 LINE Messaging API.md",
+    "docs/ec/website-appearance/樣板編輯器操作全攻略.md",
+    "docs/ec/website-appearance/設定前台語系與文字自定義.md",
+    "docs/ec/website-appearance/設定前台商品群組排序.md",
+    "docs/ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md",
+    "docs/ec/website-appearance/設定轉貼連結縮圖 (OG Image).md",
+    "docs/ec/website-appearance/設定導覽選單滑鼠移入自動展開.md",
+    "docs/ec/website-appearance/關閉商品圖片放大預覽功能.md",
+    "docs/ec/website-appearance/設定網站標題與 SEO.md",
+    "docs/ec/website-appearance/設置網站客服視窗.md",
+    "docs/ec/website-appearance/調整首頁跑馬燈（輪播圖）的轉場停留時間.md",
+    "docs/ec/website-appearance/修改結帳流程為優先填寫收件人資訊.md",
+    "docs/ec/website-appearance/設定與修改客服中心資訊.md",
+    "docs/ec/website-appearance/在自訂頁面中嵌入 Google 表單.md",
+    "docs/ec/website-appearance/設定與管理自訂頁面.md",
     "site/assets/images/ec-第三方整合-line-綁定會員送優惠券.png",
     "site/assets/images/HiNet-後台-網域資訊-設定轉址01.png",
     "site/assets/images/ec-order-return-refused.zh-tw.png",

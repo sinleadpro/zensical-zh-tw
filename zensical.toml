@@ -93,9 +93,12 @@ copyright = """
                 { "商品描述與商品設定" = "ec/products/creation/編輯商品描述與商品設定.md" }
             ]},  
             { "分類與標籤" = [
-                { "商品自訂分類" = "ec/products/organization/設定商品自訂分類群組.md" },
-                { "秘密商品群組" = "ec/products/organization/設定秘密商品群組.md" },
-                { "商品多層級分類" = "ec/products/organization/設定商品多層級分類.md" }
+                { "商品自訂分類" = "ec/products/categorization/設定商品自訂分類群組.md" },
+                { "秘密商品群組" = "ec/products/categorization/設定秘密商品群組.md" },
+                { "商品條件分類" = "ec/products/categorization/設定商品條件分類群組.md" },
+                { "商品多層級分類" = "ec/products/categorization/設定商品多層級分類.md" },
+                { "商品篩選器" = "ec/products/categorization/設定前台商品篩選器.md" },
+                { "商品標籤管理" = "ec/products/categorization/管理商品標籤.md" }
             ]},
             { "物流與配送" = [
                 { "配送溫層、物流跟通路設定" = "ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）.md" },
@@ -105,6 +108,7 @@ copyright = """
                 { "批量上架" = "ec/products/batch-management/批量上架商品.md" } 
             ]},
             { "銷售與互動" = [
+                { "VIP 會員專屬價格" = "ec/products/sales/設定 VIP 會員專屬價格.md" },
                 { "商品到貨通知" = "ec/products/sales/設定商品到貨通知.md"},
                 { "管理商品評論" = "ec/products/sales/管理商品評論.md"},
                 { "結帳拆分多購物車" = "ec/products/sales/設定結帳拆分多購物車.md"},
@@ -121,16 +125,6 @@ copyright = """
             { "商品配送" = [
                 { "配送溫層、物流跟通路設定" = "ec/products/設定商品配送條件（物流、溫層與出貨通路）.md" },
                 { "超商配送限制與物流排除" = "ec/products/設定超商配送限制與物流排除.md" }
-            ]},
-            { "商品分類" = [
-                { "商品條件分類" = "ec/products/設定商品條件分類群組.md" },
-                { "秘密商品群組" = "ec/products/設定秘密商品群組.md" },
-                { "商品標籤管理" = "ec/products/管理商品標籤.md" },
-                { "商品篩選器" = "ec/products/設定前台商品篩選器.md" }
-            ]},
-            { "商品銷售" = [
-
-                { "設定 VIP 會員專屬價格" = "ec/products/設定 VIP 會員專屬價格.md" }
             ]},
             { "參考資源" = [
                 { "商品列表欄位參考表" = "ec/products/references/商品列表欄位參考表.md" },
@@ -234,7 +228,6 @@ copyright = """
             { "全站商品列表群組排序" = "ec/website-appearance/設定前台商品群組排序.md" },
             { "網頁鎖右鍵" = "ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md"},
             { "前台語系與文字" = "ec/website-appearance/設定前台語系與文字自定義.md" },
-            { "商品群組排序" = "ec/website-appearance/設定前台商品群組排序.md" }
         ]},
         { "APP MARKET" = [
             { "overview" = "ec/app-market/index.md" },
@@ -269,12 +262,12 @@ copyright = """
                 { "獲取會員手機號碼" = "ec/integrations/line/設定 LINE 快速登入時取得會員手機號碼.md" },
                 { "LIFF 自動登入" = "ec/integrations/line/設定 LIFF 自動登入與會員綁定.md" },
                 { "LINE 會員綁定" = "ec/integrations/line/綁定 LINE 官方帳號與官網會員.md" },
-                { "篩選 LINE 綁定會員名單" = "ec/integrations/line/篩選與應用 LINE OA 綁定會員名單.md" },
-                { "LINE 綁定會員送優惠券" = "ec/integrations/line/設定 LINE 綁定會員贈送優惠券.md" },
+                { "篩選綁定會員名單" = "ec/integrations/line/篩選與應用 LINE OA 綁定會員名單.md" },
+                { "綁定會員送優惠券" = "ec/integrations/line/設定 LINE 綁定會員贈送優惠券.md" },
                 { "LINE 受眾串接" = "ec/integrations/line/設定 LINE OA 受眾串接.md"},
                 { "LINE 加入好友工具" = "ec/integrations/line/LINE 官方帳號增加好友指南.md"},
-                { "官網顯示 LINE 加入好友連結" = "ec/integrations/line/在官網新增 LINE 加入好友入口.md" },
-                { "訂單頁顯示 LINE 加入好友連結" = "ec/integrations/line/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md" },
+                { "官網加入好友連結" = "ec/integrations/line/在官網新增 LINE 加入好友入口.md" },
+                { "訂單頁加入好友連結" = "ec/integrations/line/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md" },
                 { "LINE 圖文選單" = "ec/integrations/line/設定 LINE 圖文選單.md" },
                 { "" = "ec/integrations/line/"}
             ]},

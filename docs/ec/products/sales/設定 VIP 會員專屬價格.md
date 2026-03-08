@@ -1,52 +1,77 @@
 ---
 title: 設定 VIP 會員專屬價格
-version: ""
-last_modified: 2026-01-19
-description: 為不同 VIP 會員群組設定專屬商品價格，管理會員優惠更靈活。
-product:
+description: 為不同等級的 VIP 會員設定差異化商品售價，並透過前台標籤引導訪客登入以提升轉換率。
+created: 2026-03-08 17:45
+last_modified: 2026-01-19 00:00
+lang: zh-TW
+type: tutorial
+status: 
+version: 
+author: Jase
+reviewers: []
+notes:
+  - doc-previous 設定 VIP 會員群組 link
+ga_views: 0
+feedback: 0
+products:
   - EC
 modules:
-  - product
-  - member
-activ: ""
-paths:
-  - EC/Products/設定 VIP 會員專屬價格
-surfaces:
-ends:
-  - backend
-  - frontend
-devices:
-  - desktop
-  - mobile
-apis: []
-type: tutorial
-intents:
-  - configure
-features: 
-  - member-exclusive-price
+  - products
+  - members
+sites:
+  - TW
 tnb: branch
 plans:
   - 高手
-  - PLUS
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
   - 企業
+cyb_extensions: []
+audiences:
+  - admin
+difficulty: intermediate
+intents:
+  - 設定會員等級價
+  - 批次修改 VIP 價格
+  - 顯示登入看 VIP 價標籤
+features:
+  - 會員專屬價格
+  - 批次操作
+  - Excel 匯入/匯出
+  - 商品 VIP 標籤連結
 prerequisites:
   - 設定 VIP 群組
-lang: zh-TW
-sites:
-  - TW
-status: 
-tags: []
-difficulty: ""
-audiences:
-  - merchant
-  - customer
+related:
+  - 管理商品標籤
+  - 新增單一商品
+tags:
+  - VIP 價格
+  - 會員行銷
+  - 專屬優惠
+  - 轉換優化
+acoiv: configure
+apis: []
+devices:
+  - desktop
+  - mobile
+ui_components:
+  - 款式管理
+  - 操作選單
+  - 網站設定
+paths:
+  - 商品 > 所有商品 > 編輯會員專屬價格
+  - 網站外觀 > 套版主題管理 > 網站設定
+layouts:
 wp_url: []
-notes:
-  - doc-previous 設定 VIP 會員群組 link
-comments: ""
+permalink: 
+  - https://www.cyberbiz.io/helpcenter/?p=5794
+  - https://www.cyberbiz.io/support/?p=10289
+comments: false
 search:
-  exclude: ""
-icon: 
+  exclude: false
+icon: lucide/gem
+hide: []
 ---
 
 # 設定 VIP 會員專屬價格
@@ -54,10 +79,10 @@ icon:
 為不同 VIP 會員群組設定專屬商品價格，管理會員優惠更靈活。
 { .subtitle } 
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 / PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](conventions.md#適用方案) | 高手 / PLUS / 企業
 { .doc-badge }
 
-![](../../assets/images/ec-product-edit-vip-exclusive-price-hero.zh-tw.png){ .hero-page }
+![](docs/assets/images/ec-product-edit-vip-exclusive-price-hero.zh-tw.png){ .hero-page }
 
 ## VIP 會員專屬價格說明
 
@@ -76,21 +101,21 @@ icon:
 4. 從下拉選單選擇 VIP 群組。
 5. 點擊 **新增會員價格**，新增對應群組欄位，設定專屬價格。
 
-![](../../assets/images/ec-edit-member-exclusive-price-setting.zh-tw.gif)
+![](docs/assets/images/ec-edit-member-exclusive-price-setting.zh-tw.gif)
 
 ### 編輯會員價格
 
 - 點擊「編輯價格」輸入專屬價格。  
 - 每個款式可設定不同價格，未設定時系統預設使用商品售價。
 
-![](../../assets/images/ec-edit-member-exclusive-price-variants.zh-tw.gif)
+![](docs/assets/images/ec-edit-member-exclusive-price-variants.zh-tw.gif)
 
 ### 刪除會員價格
 
 1. 點擊該群組欄位中的 **移除**。
 2. 點擊 **刪除** 確認移除。
 
-![](../../assets/images/ec-remove-member-exclusive-price-variants.zh-tw.png)
+![](docs/assets/images/ec-remove-member-exclusive-price-variants.zh-tw.png)
 	
 ## 多筆設定會員專屬價格
 
@@ -99,7 +124,7 @@ icon:
 3. 點擊上方「操作選單」，選擇 **編輯會員專屬價格**。
 4. 從下拉選單選擇 VIP 群組。
 
-![](../../assets/images/ec-batch-edit-member-exclusive-price.zh-tw.gif)
+![](docs/assets/images/ec-batch-edit-member-exclusive-price.zh-tw.gif)
 
 ### 編輯與刪除會員價格
 
@@ -116,14 +141,14 @@ icon:
 2. 勾選欲編輯的商品。
 3. 點擊上方「操作選單」，選擇 **匯出會員專屬價格**。
 
-![](../../assets/images/ec-export-member-exclusive-prices.zh-tw.gif)
+![](docs/assets/images/ec-export-member-exclusive-prices.zh-tw.gif)
 
 ### 步驟二：編輯 Excel 檔案
 
 1. 系統將 Excel 檔案寄至信箱，下載後開啟。
 2. 在對應欄位設定商品專屬價格，儲存檔案。
 
-![](../../assets/images/ec-export-member-exlucisve-prices-column.zh-tw.png)
+![](docs/assets/images/ec-export-member-exlucisve-prices-column.zh-tw.png)
 
 ### 步驟三：匯入 Excel 檔案
 
@@ -132,7 +157,7 @@ icon:
 3. 上傳 Excel 檔案，點擊 **確認**。
 4. 系統成功匯入後，會寄送通知信至信箱。
 
-![](../../assets/images/ec-import-member-exclusive-prices.zh-tw.png)
+![](docs/assets/images/ec-import-member-exclusive-prices.zh-tw.png)
 
 ## 會員專屬價格標籤
 
@@ -157,7 +182,7 @@ icon:
     - **商品 VIP 標籤連結**：登入/註冊頁面網址。
  
 
-![](../../assets/images/ec-member-exclusive-price-label-setting.zh-tw.gif)
+![](docs/assets/images/ec-member-exclusive-price-label-setting.zh-tw.gif)
 
 ### 前台顯示說明
 

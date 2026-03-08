@@ -57,7 +57,8 @@ wp_url: []
 comments: false
 search:
   exclude: false
-icon: ""
+icon: lucide/split
+hide:
 ---
 
 # 設定 LINE OA 受眾串接
