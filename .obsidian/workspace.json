@@ -42,6 +42,20 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "docs/ec/products/creation/編輯商品簡述與商品標語.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "編輯商品簡述與商品標語"
+            }
+          },
+          {
+            "id": "b934fe78b0a37080",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "docs/ec/products/creation/編輯商品描述與商品設定.md",
                 "mode": "source",
                 "source": true
@@ -107,7 +121,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
         "id": "74dd1daaeb40eac4",
@@ -345,11 +359,17 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "92edcc75716a79f0",
+  "active": "b934fe78b0a37080",
   "lastOpenFiles": [
+    "docs/ec/products/creation/編輯商品簡述與商品標語.md",
+    "docs/ec/products/creation/新增單一商品.md",
+    "docs/ec/products/categorization/管理商品標籤.md",
+    "docs/ec/products/categorization/設定前台商品篩選器.md",
+    "docs/ec/products/categorization/設定商品條件分類群組.md",
+    "docs/ec/products/categorization/設定秘密商品群組.md",
+    "docs/ec/products/creation/編輯商品描述與商品設定.md",
     "site/ec/products/creation/編輯商品描述與商品設定/index.html",
     "site/ec/products/creation/編輯商品描述與商品設定",
-    "docs/ec/products/creation/編輯商品簡述與商品標語.md",
     "docs/ec/products/sales/設定 VIP 會員專屬價格.md",
     "docs/ec/products/sales/設定搜尋結果中排除特定關鍵字商品.md",
     "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款/index.html",
@@ -360,15 +380,9 @@
     "site/ec/payments-and-logistics/查詢宅配託運單紀錄",
     "site/ec/products/批次修改商品描述與配送設定/index.html",
     "site/ec/products/批次修改商品描述與配送設定",
-    "site/ec/products/Excel 大量匯入商品/index.html",
     "docs/ec/products/categorization/設定商品多層級分類.md",
-    "docs/ec/products/categorization/設定商品條件分類群組.md",
-    "docs/ec/products/categorization/管理商品標籤.md",
-    "docs/ec/products/categorization/設定秘密商品群組.md",
     "docs/ec/products/categorization/設定商品自訂分類群組.md",
-    "docs/ec/products/categorization/設定前台商品篩選器.md",
     "docs/ec/products/sales/設定商品到貨通知.md",
-    "docs/ec/products/creation/新增單一商品.md",
     "templates/yaml-plans-trunk.md",
     "docs/ec/products/sales/設定商品影片.md",
     "docs/ec/website-appearance/啟用留言區 reCAPTCHA.md",
@@ -377,7 +391,6 @@
     "docs/ec/products/設定超商配送限制與物流排除.md",
     "docs/ec/products/Excel 大量匯入商品.md",
     "docs/ec/products/批次修改商品描述與配送設定.md",
-    "docs/ec/products/creation/編輯商品描述與商品設定.md",
     "reference/frontmatter-skill-reference.md",
     "docs/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）.md",
     "docs/ec/products/新增與設定組合商品.md",
