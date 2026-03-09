@@ -231,6 +231,9 @@ copyright = """
         ]},
         { "APP MARKET" = [
             { "overview" = "ec/app-market/index.md" },
+            { "AUTOMATION" = [
+              { "自動化行銷" = "ec/app-market/automation/使用 AUTOMATION 建立自動化推播流程.md" }
+            ]},
             { "CYBERBIZ 擴充服務" = [
                 { "overview" = "ec/app-market/cyberbiz-extensions/index.md" },
                 { "Chat Box" = [

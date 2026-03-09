@@ -18,7 +18,7 @@ modules: []
 sites:
   - TW
 audiences: 
-  - merchant
+  - admin
 difficulty: ""
 tnb: ""
 plans: 

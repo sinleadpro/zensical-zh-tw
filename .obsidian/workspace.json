@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 47.91418355184744,
+        "dimension": 34.68414779499404,
         "children": [
           {
             "id": "b215f5bf832eb05e",
@@ -126,7 +126,7 @@
       {
         "id": "74dd1daaeb40eac4",
         "type": "tabs",
-        "dimension": 26.579261025029798,
+        "dimension": 31.108462455303933,
         "children": [
           {
             "id": "eea1d6126d665e64",
@@ -134,12 +134,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=5631",
-                "title": "PLUS用戶 - LINE OA 受眾串接 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=7955",
+                "title": "AUTOMATION 發送教學(簡訊/EDM/LINE OA) - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "PLUS用戶 - LINE OA 受眾串接 - CYBERBIZ 一般版教學文件"
+              "title": "AUTOMATION 發送教學(簡訊/EDM/LINE OA) - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -147,7 +147,7 @@
       {
         "id": "2c57acc736defe7a",
         "type": "tabs",
-        "dimension": 25.50655542312277,
+        "dimension": 34.207389749702024,
         "children": [
           {
             "id": "b85f0764f4b4a7ce",
@@ -155,12 +155,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=28387",
-                "title": "LINE OA 受眾串接",
+                "url": "https://www.cyberbiz.io/support/?p=25964",
+                "title": "AUTOMATION 發送教學(簡訊/EDM/LINE OA)",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "LINE OA 受眾串接"
+              "title": "AUTOMATION 發送教學(簡訊/EDM/LINE OA)"
             }
           }
         ]
@@ -359,21 +359,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "54e462a14a5a6adb",
+  "active": "b85f0764f4b4a7ce",
   "lastOpenFiles": [
+    "site/ec/payments-and-logistics/串接ezShip超商取貨(C2C)/index.html",
+    "site/ec/payments-and-logistics/串接ezShip超商取貨(C2C)",
     "site/index.html",
-    "site/ec/products/quickstart/index.html",
-    "site/ec/products/quickstart",
-    "site/storepal/index.html",
-    "site/storepal",
-    "site/resources/conventions/index.html",
-    "site/resources/conventions",
-    "site/ec/products/設定 VIP 會員專屬價格.en/index.html",
-    "site/ec/products/設定 VIP 會員專屬價格.en",
-    "site/ec/integrations/index.html",
-    "site/resources/changelog/index.html",
-    "docs/pos/frontend/使用「店長改價」在 POS 前台調整單品價格.md",
+    "site/ec/analytics/index.html",
+    "site/ec/analytics",
+    "site/ec/payments-and-logistics/AFTEE先享後付 金流說明/index.html",
+    "site/ec/payments-and-logistics/AFTEE先享後付 金流說明",
+    "site/ec/products/index.html",
+    "site/ec/payments-and-logistics/查詢宅配託運單紀錄/index.html",
+    "site/ec/payments-and-logistics/查詢宅配託運單紀錄",
+    "site/ec/payments-and-logistics/設定 Apple Pay/index.html",
+    "docs/ec/app-market/automation/使用 AUTOMATION 建立自動化推播流程.md",
     "docs/ec/integrations/line/設定與發送 LINE OA 分眾訊息推播.md",
+    "site/assets/images/ec-訊息推播-lineoa訊息-操作.gif",
+    "docs/assets/images/ec-訊息推播-lineoa訊息-操作.gif",
+    "site/assets/images/ec-訊息推播-lineoa訊息-設定畫面.png",
+    "docs/assets/images/ec-訊息推播-lineoa訊息-設定畫面.png",
+    "site/assets/images/ec-訊息推播-lineoa訊息-設定完成.png",
+    "docs/assets/images/ec-訊息推播-lineoa訊息-設定完成.png",
+    "site/assets/images/ec-訊息推播-lineoa-訊息.png",
+    "docs/assets/images/ec-訊息推播-lineoa-訊息.png",
+    "docs/pos/frontend/使用「店長改價」在 POS 前台調整單品價格.md",
     "docs/pos/orders/設定 POS 訂單自動結案.md",
     "docs/pos/orders/修改訂單明細頁「店長改價」的顯示名稱.md",
     "docs/ec/website-management/星益欣電子發票設定指南.md",
@@ -396,16 +405,7 @@
     "docs/ec/integrations/line/設定 LINE 圖文選單.md",
     "docs/ec/integrations/line/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md",
     "docs/ec/integrations/line/在官網新增 LINE 加入好友入口.md",
-    "docs/ec/integrations/line/LINE 官方帳號增加好友指南.md",
     "site/assets/images/ec-第三方整合-line-綁定會員送優惠券.png",
-    "site/assets/images/HiNet-後台-網域資訊-設定轉址01.png",
-    "site/assets/images/ec-order-return-refused.zh-tw.png",
-    "site/assets/images/ec-網站外觀-頁腳-設定.png",
-    "site/assets/images/ec-所有訂單-明細預覽.png",
-    "site/assets/images/ec-edit-member-exclusive-price-variants.zh-tw.gif",
-    "site/assets/images/ec-會員-line受眾-更新至line後台.png",
-    "site/assets/images/EC-後台-訂單-所有訂單-訂單顯示待退款待部分退款01.png",
-    "site/assets/images/EC-後台-APPMARKET-蝦皮商品-授權商店06.png",
-    "site/assets/images/ec-e-ticket-contract-agreement.zh-tw.png"
+    "site/assets/images/HiNet-後台-網域資訊-設定轉址01.png"
   ]
 }
