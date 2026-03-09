@@ -68,7 +68,7 @@ wp_url:
 comments: false
 search:
   exclude: false
-icon: 
+icon: simple/paypal
 hide: 
 ---
 

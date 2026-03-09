@@ -224,13 +224,16 @@ copyright = """
             { "網站標題與 SEO" = "ec/website-appearance/設定網站標題與 SEO.md" },
             { "關閉圖片放大預覽" = "ec/website-appearance/關閉商品圖片放大預覽功能.md" },
             { "選單滑鼠移入自動展開" = "ec/website-appearance/設定導覽選單滑鼠移入自動展開.md" },
-            { "轉貼連結縮圖 (OG Image)" = "ec/website-appearance/設定轉貼連結縮圖 (OG Image).md" },
+            { "轉貼連結縮圖" = "ec/website-appearance/設定轉貼連結縮圖 (OG Image).md" },
             { "全站商品列表群組排序" = "ec/website-appearance/設定前台商品群組排序.md" },
             { "網頁鎖右鍵" = "ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md"},
             { "前台語系與文字" = "ec/website-appearance/設定前台語系與文字自定義.md" },
         ]},
         { "APP MARKET" = [
             { "overview" = "ec/app-market/index.md" },
+            { "AUTOMATION" = [
+              { "自動化行銷" = "ec/app-market/automation/使用 AUTOMATION 建立自動化推播流程.md" }
+            ]},
             { "CYBERBIZ 擴充服務" = [
                 { "overview" = "ec/app-market/cyberbiz-extensions/index.md" },
                 { "Chat Box" = [
@@ -265,6 +268,7 @@ copyright = """
                 { "篩選綁定會員名單" = "ec/integrations/line/篩選與應用 LINE OA 綁定會員名單.md" },
                 { "綁定會員送優惠券" = "ec/integrations/line/設定 LINE 綁定會員贈送優惠券.md" },
                 { "LINE 受眾串接" = "ec/integrations/line/設定 LINE OA 受眾串接.md"},
+                { "分眾訊息推播" = "ec/integrations/line/設定與發送 LINE OA 分眾訊息推播.md" },
                 { "LINE 加入好友工具" = "ec/integrations/line/LINE 官方帳號增加好友指南.md"},
                 { "官網加入好友連結" = "ec/integrations/line/在官網新增 LINE 加入好友入口.md" },
                 { "訂單頁加入好友連結" = "ec/integrations/line/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md" },
