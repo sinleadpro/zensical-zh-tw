@@ -53,7 +53,9 @@ paths:
   - 會員 > 所有會員
   - 會員 > 會員分群
 layouts: []
-wp_url: []
+wp_url: 
+  - https://www.cyberbiz.io/helpcenter/?p=5631
+  - https://www.cyberbiz.io/support/?p=28387
 comments: false
 search:
   exclude: false

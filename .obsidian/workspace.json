@@ -155,7 +155,7 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=25964",
+                "url": "https://www.cyberbiz.io/support/?p=38837",
                 "title": "AUTOMATION 發送教學(簡訊/EDM/LINE OA)",
                 "mode": "webview"
               },
@@ -230,7 +230,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 287.5,
+    "collapsed": true
   },
   "right": {
     "id": "973606ff262c9293",
@@ -361,27 +362,29 @@
   },
   "active": "b85f0764f4b4a7ce",
   "lastOpenFiles": [
-    "site/ec/payments-and-logistics/串接ezShip超商取貨(C2C)/index.html",
-    "site/ec/payments-and-logistics/串接ezShip超商取貨(C2C)",
-    "site/index.html",
-    "site/ec/analytics/index.html",
-    "site/ec/analytics",
-    "site/ec/payments-and-logistics/AFTEE先享後付 金流說明/index.html",
-    "site/ec/payments-and-logistics/AFTEE先享後付 金流說明",
-    "site/ec/products/index.html",
-    "site/ec/payments-and-logistics/查詢宅配託運單紀錄/index.html",
-    "site/ec/payments-and-logistics/查詢宅配託運單紀錄",
-    "site/ec/payments-and-logistics/設定 Apple Pay/index.html",
+    "site/ec/marketing/設定與發送 EDM",
+    "docs/ec/marketing/設定與發送 EDM",
+    "site/assets/images/ec-app-market-automation-簡訊-簡訊內容.png",
+    "docs/assets/images/ec-app-market-automation-簡訊-簡訊內容.png",
+    "site/assets/images/ec-app-market-automation-簡訊-會員篩選.png",
+    "docs/assets/images/ec-app-market-automation-簡訊-會員篩選.png",
+    "site/assets/images/ec-app-market-automation-簡訊-排程觸發.png",
+    "docs/assets/images/ec-app-market-automation-簡訊-排程觸發.png",
+    "site/assets/images/ec-automation-簡訊-會員篩選.png",
+    "docs/assets/images/ec-automation-簡訊-會員篩選.png",
+    "site/assets/images/ec-automation-簡訊-排程觸發.png",
+    "docs/assets/images/ec-automation-簡訊-排程觸發.png",
+    "site/ec/payments-and-logistics/設定 AFTEE/index.html",
+    "site/ec/payments-and-logistics/設定 AFTEE",
+    "site/ec/payments-and-logistics/設定街口支付/index.html",
+    "site/ec/payments-and-logistics/設定街口支付",
+    "site/ec/products/篩選商品建立分類群組/index.html",
+    "site/ec/products/篩選商品建立分類群組",
+    "site/ec/payments-and-logistics/設定全家冷凍物流 B2C/index.html",
+    "site/ec/payments-and-logistics/設定全家冷凍物流 B2C",
+    "site/ec/products/設定超商配送限制與物流排除/index.html",
     "docs/ec/app-market/automation/使用 AUTOMATION 建立自動化推播流程.md",
     "docs/ec/integrations/line/設定與發送 LINE OA 分眾訊息推播.md",
-    "site/assets/images/ec-訊息推播-lineoa訊息-操作.gif",
-    "docs/assets/images/ec-訊息推播-lineoa訊息-操作.gif",
-    "site/assets/images/ec-訊息推播-lineoa訊息-設定畫面.png",
-    "docs/assets/images/ec-訊息推播-lineoa訊息-設定畫面.png",
-    "site/assets/images/ec-訊息推播-lineoa訊息-設定完成.png",
-    "docs/assets/images/ec-訊息推播-lineoa訊息-設定完成.png",
-    "site/assets/images/ec-訊息推播-lineoa-訊息.png",
-    "docs/assets/images/ec-訊息推播-lineoa-訊息.png",
     "docs/pos/frontend/使用「店長改價」在 POS 前台調整單品價格.md",
     "docs/pos/orders/設定 POS 訂單自動結案.md",
     "docs/pos/orders/修改訂單明細頁「店長改價」的顯示名稱.md",
@@ -404,8 +407,6 @@
     "docs/ec/integrations/line/設定 LIFF 自動登入與會員綁定.md",
     "docs/ec/integrations/line/設定 LINE 圖文選單.md",
     "docs/ec/integrations/line/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md",
-    "docs/ec/integrations/line/在官網新增 LINE 加入好友入口.md",
-    "site/assets/images/ec-第三方整合-line-綁定會員送優惠券.png",
-    "site/assets/images/HiNet-後台-網域資訊-設定轉址01.png"
+    "docs/ec/integrations/line/在官網新增 LINE 加入好友入口.md"
   ]
 }

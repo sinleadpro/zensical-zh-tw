@@ -18,7 +18,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - merchant
+  - admin
 difficulty: ""
 tnb: branch
 plans:
@@ -48,8 +48,6 @@ search:
   exclude: ""
 icon: lucide/zap
 hide:
-aliases: []
-id: 使用 AUTOMATION 建立自動化推播流程
 ---
 
 # 使用 AUTOMATION 建立自動化推播流程
@@ -61,7 +59,9 @@ id: 使用 AUTOMATION 建立自動化推播流程
 [:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | AUTOMATION
 { .doc-badge }
 
-{ .hero-page }
+![](../../../assets/images/ec-app-market-我的擴充服務-automation.png){ .hero-page }
+
+## AUTOMATION 自動化推播說明
 
 **CYBERBIZ AUTOMATION** 是專為商家設計的自動化流程工具，能簡化行銷與營運設定，提高經營效率。
 
@@ -69,22 +69,44 @@ id: 使用 AUTOMATION 建立自動化推播流程
 
 ## 前置作業：自訂會員篩選分群
 
-在建立自動化流程前，需先定義受眾對象。系統僅會推播給**勾選訂閱電子報/商家優惠**的會員。
-1.  **後台路徑**：「會員」→「所有會員」。
+!!! warning "提升訊息觸及精準度"
+    自動化行銷（AUTOMATION）僅會推播訊息予「已勾選訂閱電子報」之會員。為使預覽人數更貼近實際發送狀況，建議商家在設定「會員分群」時，優先篩選出「願意接收優惠通知」(是否訂閱商家優惠) 的名單。需注意，最終觸及人數仍可能因消費者即時取消訂閱而有些微變動。
+
+在建立自動化流程前，需先定義受眾對象。系統僅會推播給 **勾選訂閱電子報/商家優惠** 的會員。
+
+1.  **後台路徑**：「會員」>「所有會員」。
 2.  **設定條件**：點選「新增篩選條件」或使用「範本」（如：忠誠、沉睡或購物車未結帳會員）。
+
+    ![](../../../assets/images/ec-會員-所有會員-會員分群範本.png)
+
 3.  **儲存分群**：確認名單後點擊「儲存」，設定分群名稱與描述。若篩選內容包含 LINE 登入或綁定，可勾選同步上傳受眾至 LINE 後台。
 
+    ![](../../../assets/images/ec-會員-所有會員-automation會員分群.gif)
+
 ## AUTOMATION 操作流程 (簡訊/EDM/LINE OA)
-進入設定介面的路徑為：「**APP MARKET**」→「**我的擴充服務**」→「**CYBERBIZ AUTOMATION**」。
+
+進入設定介面的路徑為：登入 CYBERBIZ 管理後台，前往 **APP MARKET > 我的擴充服務 > CYBERBIZ AUTOMATION**」。
 
 ### 簡訊發送設定
 
 *   **建立流程**：點擊「建立流程」，選擇預設分眾流程（如：發送簡訊給 VIP 或沉睡客戶）。
 *   **內容編輯**：
     *   **排程觸發**：可設定為「一次」或「週期」（如：每週發送一次）。
+        
+        ![](../../../assets/images/ec-automation-簡訊-排程觸發.png)
+        
     *   **會員篩選**：選擇預先設定好的會員分群。
-    *   **簡訊內容**：輸入文字，連結務必使用 **CYBERBIZ 站內網址**以利追蹤成效，並點擊「預覽簡訊」確認字數（上限 70 字）。
-*   **重複發送設定**：可選擇「允許」、「不允許」或「指定天數內不重複」發送給相同對象。
+
+        ![](../../../assets/images/ec-app-market-automation-簡訊-會員篩選.png)
+    
+    *   **簡訊內容**：輸入文字，連結務必使用 **CYBERBIZ 站內網址** 以利追蹤成效，並點擊「預覽簡訊」確認字數（上限 70 字）。
+    
+        ![](../../../assets/images/ec-app-market-automation-簡訊-簡訊內容.png)
+    
+    *   **重複發送設定**：可選擇「允許」、「不允許」或「指定天數內不重複」發送給相同對象。
+
+
+---
 
 ### EDM 發送設定
 
@@ -93,6 +115,8 @@ id: 使用 AUTOMATION 建立自動化推播流程
     1.  選擇 EDM 預設模板（如：發送 EDM 給 VIP 或自訂分群）。
     2.  設定排程與會員篩選。
     3.  **EDM 發送元件**：挑選已編輯好的 EDM 樣板，並完成重複發送設定。
+
+---
 
 ### LINE OA 訊息發送設定
 

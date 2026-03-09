@@ -97,7 +97,7 @@ copyright = """
                 { "秘密商品群組" = "ec/products/categorization/設定秘密商品群組.md" },
                 { "商品條件分類" = "ec/products/categorization/設定商品條件分類群組.md" },
                 { "商品多層級分類" = "ec/products/categorization/設定商品多層級分類.md" },
-                { "商品篩選器" = "ec/products/categorization/設定前台商品篩選器.md" },
+                { "前台商品篩選器" = "ec/products/categorization/設定前台商品篩選器.md" },
                 { "商品標籤管理" = "ec/products/categorization/管理商品標籤.md" }
             ]},
             { "物流與配送" = [

@@ -59,15 +59,15 @@ ui_components: []
 paths:
   - 訊息推播 > LINE OA 發送訊息
 layouts: []
-wp_url: []
+wp_url: 
+  - https://www.cyberbiz.io/helpcenter/?p=7324
+  - https://www.cyberbiz.io/support/?p=25964
 permalink:
+comments: false
 search:
   exclude: false
 icon: lucide/message-square-share
 hide: []
-aliases: []
-id: 設定與發送 LINE OA 分眾訊息推播
-comments: false
 ---
 
 # 設定與發送 LINE OA 分眾訊息推播
@@ -113,9 +113,6 @@ comments: false
 - :lucide-zap:{ .lg }   
   [__進階自動化推播__](../../app-market/automation/使用 AUTOMATION 建立自動化推播流程.md){ data-preview }  
 設定自動發送訊息給「VIP 會員」、「潛在忠誠顧客」、「沉睡客戶」或針對「未結帳購物車」進行提醒。
-- :lucide-ban:{ .lg }     
-  [____]()  
-  。
 
 </div>
 
