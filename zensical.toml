@@ -265,6 +265,7 @@ copyright = """
                 { "篩選綁定會員名單" = "ec/integrations/line/篩選與應用 LINE OA 綁定會員名單.md" },
                 { "綁定會員送優惠券" = "ec/integrations/line/設定 LINE 綁定會員贈送優惠券.md" },
                 { "LINE 受眾串接" = "ec/integrations/line/設定 LINE OA 受眾串接.md"},
+                { "分眾訊息推播" = "ec/integrations/line/設定與發送 LINE OA 分眾訊息推播.md" },
                 { "LINE 加入好友工具" = "ec/integrations/line/LINE 官方帳號增加好友指南.md"},
                 { "官網加入好友連結" = "ec/integrations/line/在官網新增 LINE 加入好友入口.md" },
                 { "訂單頁加入好友連結" = "ec/integrations/line/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md" },
