@@ -54,12 +54,13 @@ paths:
   - 會員 > 所有會員
 layouts:
   - drag-and-drop
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=721
 comments: false
 search:
   exclude: false
 icon: lucide/users-round
-hide: 
+hide:
 ---
 
 # 篩選與應用 LINE OA 綁定會員名單

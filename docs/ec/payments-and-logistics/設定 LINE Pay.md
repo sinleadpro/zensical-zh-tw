@@ -70,7 +70,7 @@ hide: []
 串接 LINE Pay 付款，顧客於結帳時可選用 LINE Pay 進行支付。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 專業 PLUS / 進階 PLUS / 高手PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
 ![](../../assets/images/ec-金物流-line-pay.png){ .hero-page }

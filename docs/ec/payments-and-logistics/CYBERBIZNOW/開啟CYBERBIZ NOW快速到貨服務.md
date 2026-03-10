@@ -31,7 +31,7 @@ tnb: branch
 plans:
   - 專業PLUS
   - 進階 PLUS
-  - 高手PLUS
+  - 高手 PLUS
   - 企業
 prerequisites:
   - 需完成門市建立且地址填寫正確

@@ -29,7 +29,7 @@ tasks:
 tnb: branch
 plans:
   - 高手
-  - 高手PLUS
+  - 高手 PLUS
   - 企業
 prerequisites:
   - 需具備冷凍儲存設備 (-12℃ 以下)
@@ -59,7 +59,7 @@ icon:
 全家冷凍大宗寄倉 (B2C) 物流申請流程、出貨規範與配送須知完整說明。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 / 高手PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 / 高手 PLUS / 企業
 { .doc-badge }
 
 ![](../../assets/images/EC-後台-金物流-超商物流-全家冷凍B2C-畫面總覽01.png){ .hero-page }

@@ -5,8 +5,8 @@ created: 2026-03-08 17:45
 last_modified: 2026-01-19 00:00
 lang: zh-TW
 type: tutorial
-status: 
-version: 
+status:
+version:
 author: Jase
 reviewers: []
 notes:
@@ -63,8 +63,10 @@ paths:
   - 商品 > 所有商品 > 編輯會員專屬價格
   - 網站外觀 > 套版主題管理 > 網站設定
 layouts:
-wp_url: []
-permalink: 
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=5794
+  - https://www.cyberbiz.io/support/?p=10289
+permalink:
   - https://www.cyberbiz.io/helpcenter/?p=5794
   - https://www.cyberbiz.io/support/?p=10289
 comments: false

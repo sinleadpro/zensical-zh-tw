@@ -38,7 +38,7 @@ features:
   - 退貨便代碼
   - 退貨運費設定
 prerequisites:
-  - 使用高手PLUS / 企業版
+  - 使用高手 PLUS / 企業版
   - 已申請開通「超商大宗寄倉 (B2C)」服務
 related: []
 tags:

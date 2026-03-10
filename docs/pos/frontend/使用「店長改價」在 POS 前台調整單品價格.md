@@ -54,7 +54,8 @@ paths:
   - POS 功能 > POS 權限管理
   - POS 前台 > 結帳頁面
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=35268
 comments: false
 search:
   exclude: false

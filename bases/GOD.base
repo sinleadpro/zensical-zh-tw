@@ -18,8 +18,7 @@ views:
     order:
       - file.name
       - file.mtime
-      - features
-      - intents
+      - wp_url
     sort:
       - property: file.name
         direction: ASC
