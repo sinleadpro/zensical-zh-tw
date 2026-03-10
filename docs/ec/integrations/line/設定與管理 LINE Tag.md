@@ -81,19 +81,33 @@ hide:
 
 1.  **進入後台**：登入 [LINE OA Manager :lucide-external-link:](https://manager.line.biz/)，選擇欲設定的官方帳號。
 2.  **尋找代碼**：於左側選單點擊 **資料管理 > 追蹤(LINE Tag)**，複製頁面中的 **Tag ID**。
-3.  **填入系統**：前往 CYBERBIZ 後台「**第三方整合**」>「**LINE Tag 設定**」，點擊「**新增Tag ID**」。
+
+    !!! tip "使用 ++ctrl+f++ 可快速定位 tagID 所在位置。"
+
+    ![](../../../assets/images/ec-第三方整合-linetag-tagid複製.png)
+
+
+3.  **填入系統**：前往 CYBERBIZ 後台 **第三方整合 > LINE Tag 設定**，點擊 **新增Tag ID**。
 4.  **設定類型**：類型選擇 **`account`**，並貼上剛才複製的 Tag ID。
+
+    ![](../../../assets/images/ec-第三方整合-linetag-tagid貼上.png)
+
+---
 
 ### 用於「廣告投放」轉換追蹤 (LINE Ad Manager)
 
-1.  **進入後台**：登入 LINE Ad Manager，點選欲設定的廣告帳號名稱。
-2.  **尋找代碼**：於左側選單選擇「**追蹤(LINE Tag)**」，複製其 **Tag ID**。
-3.  **填入系統**：前往 CYBERBIZ 後台「**第三方整合**」>「**LINE Tag 設定**」，點擊「**新增Tag ID**」。
+1.  **進入後台**：登入 [LINE Ad Manager :lucide-external-link:](https://admanager.line.biz/)，點選欲設定的廣告帳號名稱。
+2.  **尋找代碼**：於左側選單選擇 **追蹤(LINE Tag)** ，複製其 **Tag ID**。
+
+
+    !!! tip "使用 ++ctrl+f++ 可快速定位 tagID 所在位置。"
+    
+3.  **填入系統**：前往 CYBERBIZ 後台 **第三方整合 > LINE Tag 設定**，點擊 **新增Tag ID**。
 4.  **設定類型**：類型選擇 **`lap`**，並貼上 Tag ID。
 
 ---
 
-## CYBERBIZ 支援追蹤的事件一覽
+## CYBERBIZ 支援追蹤事件一覽
 
 系統已自動為以下行為埋設追蹤碼，無須額外撰寫程式：
 
