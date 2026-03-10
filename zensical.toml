@@ -274,7 +274,7 @@ copyright = """
                 { "官網加入好友連結" = "ec/integrations/line/在官網新增 LINE 加入好友入口.md" },
                 { "訂單頁加入好友連結" = "ec/integrations/line/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md" },
                 { "LINE 圖文選單" = "ec/integrations/line/設定 LINE 圖文選單.md" },
-                { "" = "ec/integrations/line/"}
+                { "LINE Tag 追蹤" = "ec/integrations/line/設定與管理 LINE Tag.md" }
             ]},
         ]},
         { "管理中心" = [
