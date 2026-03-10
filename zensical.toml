@@ -79,7 +79,7 @@ copyright = """
                 {"VIP功能運作指南" = "ec/members/VIP功能運作指南.md"},
                 {"建立全館VIP制度" = "ec/members/建立全館VIP制度.md"},
                 {"建立特殊VIP群組" = "ec/members/建立特殊VIP群組.md"},
-                {"設定 VIP 專屬優惠" = "ec/members/設定VIP專屬優惠.md"}
+                {"設定 VIP 專屬優惠" = "ec/members/設定 VIP 專屬優惠.md"}
             ]},
         ]},
         { "商品" = [
@@ -159,6 +159,7 @@ copyright = """
             { "紅利商城" = "ec/marketing/設定紅利商城.md"},
             { "商品多層級分類滿額折扣" = "ec/marketing/設定商品多層級分類滿額折扣.md" },
             { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" },
+            { "發送 EDM" = "ec/marketing/設定與發送 EDM 電子報.md" }
         ]},  
         { "分潤" = [
             { "overview" = "ec/profit-sharing/index.md"},
