@@ -3,7 +3,7 @@ title: "{{title}}"
 description: "" 
 created: "{{date}} {{time}}"
 last_modified: 
-lang: ""
+lang: zh-TW
 type: tutorial
 status: ""
 version: ""
