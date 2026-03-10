@@ -296,6 +296,10 @@ copyright = """
             { "安全性設定" = "ec/website-management/設定網站安全性.md" },
             { "星益欣電子發票" = "ec/website-management/星益欣電子發票設定指南.md" },
             { "為特定網域信箱套用指定會員標籤" = "ec/website-management/為特定網域信箱套用指定會員標籤.md" },
+            { "參考資源" = [
+                { "解決 HTTPS 根網址無法順利讀取問題" = "ec/website-management/解決 HTTPS 根網址無法順利讀取問題.md" },
+                { "解決 Cloudflare SSL 衝突問題" = "ec/website-management/解決 Cloudflare SSL 衝突問題.md" },
+            ]},
         ]},
     ]},
     { "智慧倉儲" = "wms/index.md" },
