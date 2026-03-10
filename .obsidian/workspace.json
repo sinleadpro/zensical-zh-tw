@@ -148,12 +148,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=4412",
-                "title": "EDM設定 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=4769",
+                "title": "LINE Tag 設定 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "EDM設定 - CYBERBIZ 一般版教學文件"
+              "title": "LINE Tag 設定 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -169,12 +169,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=23782",
-                "title": "EDM設定",
+                "url": "https://www.cyberbiz.io/support/?p=28602",
+                "title": "LINE Tag 設定",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "EDM設定"
+              "title": "LINE Tag 設定"
             }
           }
         ]
@@ -373,30 +373,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b85f0764f4b4a7ce",
+  "active": "eea1d6126d665e64",
   "lastOpenFiles": [
-    "site/ec/website-appearance/設定網站標題與 SEO/index.html",
-    "site/ec/website-appearance/設定網站標題與 SEO",
-    "site/ec/orders/操作超商店到店 C2C 出貨/index.html",
-    "site/ec/orders/操作超商店到店 C2C 出貨",
-    "site/ec/products/sales/管理商品評論/index.html",
-    "site/ec/products/sales/管理商品評論",
-    "site/ec/marketing/設定商品多層級分類滿額折扣/index.html",
-    "site/ec/marketing/設定商品多層級分類滿額折扣",
-    "site/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）/index.html",
-    "site/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）",
-    "site/ec/products/shipping",
-    "site/assets/images/ec-訂單-所有訂單.png",
+    "site/ec/integrations/line/設定與管理 LINE Tag",
+    "docs/ec/integrations/line/設定與管理 LINE Tag",
+    "site/ec/payments-and-logistics/設定門市取貨服務/index.html",
+    "site/ec/payments-and-logistics/設定門市取貨服務",
+    "site/ec/products/index.html",
+    "site/ec/products/設定 VIP 會員專屬價格.en/index.html",
+    "site/ec/products/設定 VIP 會員專屬價格.en",
+    "site/ec/products/認識商品管理介面/index.html",
+    "site/ec/products/認識商品管理介面",
+    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流/index.html",
+    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流",
+    "site/assets/images/EC-後台-訂單-門市訂單-送貨狀態顯示託運單編號01.png",
+    "site/assets/images/ec-remove-member-exclusive-price-variants.zh-tw.gif",
+    "site/assets/images/GANDI-後台-域名-新增CNAME01.png",
+    "site/assets/images/ec-vip-exclusive-price-frontend-enabled-login.zh-tw.png",
+    "site/assets/images/ec-網站外觀-樣板-order-done-extra-content-liquid-訂單成立頁-付款完成頁.png",
+    "site/assets/images/ec-訊息推播-email 樣板-顧客訂單未付款提醒信.gif",
+    "site/assets/images/ec-customized-collection-remove-products.zh-tw.png",
+    "site/assets/images/GANDI-後台-域名-設定轉址01.png",
+    "site/assets/images/ec-商品-秘密群組-關閉商品搜尋功能.gif",
+    "site/assets/images/ec-product-reviews-management.zh-tw.png",
     "docs/ec/marketing/設定與發送 EDM 電子報.md",
-    "site/assets/images/ec-app-market-automation-查看流程紀錄.gif",
-    "docs/assets/images/ec-app-market-automation-查看流程紀錄.gif",
-    "site/assets/images/ec-app-market-automation-成效追蹤.gif",
-    "docs/assets/images/ec-app-market-automation-成效追蹤.gif",
-    "site/assets/images/ec-app-market-automation-lineoa-開始流程.png",
-    "docs/assets/images/ec-app-market-automation-lineoa-開始流程.png",
-    "site/assets/images/ec-app-market-automation-lineoa-lineoa內容.png",
-    "docs/assets/images/ec-app-market-automation-lineoa-lineoa內容.png",
-    "site/assets/images/ec-app-market-automation-EDM-EDM內容.png",
     "docs/ec/app-market/automation/1773107947-BPCW.md",
     "docs/ec/app-market/automation/使用 AUTOMATION 建立自動化推播流程.md",
     "docs/ec/integrations/line/設定與發送 LINE OA 分眾訊息推播.md",
