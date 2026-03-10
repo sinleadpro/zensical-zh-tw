@@ -43,7 +43,7 @@ tnb: ""
 plans:
   - 專業PLUS
   - 進階 PLUS
-  - 高手PLUS
+  - 高手 PLUS
   - 企業
 prerequisites:
   - 串接 Messaging API
@@ -64,7 +64,9 @@ difficulty: medium
 audiences:
   - merchabt
   - 管理員
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=7783
+  - https://www.cyberbiz.io/support/?p=763
 notes:
   - 若顧客在訂單中使用優惠券後退貨，該券會退回嗎?
 comments: ""
@@ -80,7 +82,7 @@ hide:
 設定 LINE 官方帳號綁定會員後自動發送優惠券，以提升會員綁定率與行銷效果。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
 ![](../../../assets/images/ec-第三方整合-line-綁定會員送優惠券.png){ .hero-page }

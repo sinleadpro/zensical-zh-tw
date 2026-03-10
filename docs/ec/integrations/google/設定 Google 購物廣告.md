@@ -50,7 +50,9 @@ tags:
 difficulty: medium
 audiences:
   - 商家
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=718
+  - https://www.cyberbiz.io/support/?p=230
 notes:
   - verify FAQ
   - update internal links

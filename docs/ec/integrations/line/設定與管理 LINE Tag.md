@@ -82,15 +82,14 @@ hide:
 1.  **進入後台**：登入 [LINE OA Manager :lucide-external-link:](https://manager.line.biz/)，選擇欲設定的官方帳號。
 2.  **尋找代碼**：於左側選單點擊 **資料管理 > 追蹤(LINE Tag)**，複製頁面中的 **Tag ID**。
 
-    !!! tip "使用 ++ctrl+f++ 可快速定位 tagID 所在位置。"
-
     ![](../../../assets/images/ec-第三方整合-linetag-tagid複製.png)
 
+    !!! tip "使用 ++ctrl+f++ 可快速定位 tagID 所在位置。"
 
 3.  **填入系統**：前往 CYBERBIZ 後台 **第三方整合 > LINE Tag 設定**，點擊 **新增Tag ID**。
 4.  **設定類型**：類型選擇 **`account`**，並貼上剛才複製的 Tag ID。
 
-    ![](../../../assets/images/ec-第三方整合-linetag-tagid貼上.png)
+    ![](../../../assets/images/ec-第三方整合-linetag-新增tagid-account.png)
 
 ---
 
@@ -100,10 +99,14 @@ hide:
 2.  **尋找代碼**：於左側選單選擇 **追蹤(LINE Tag)** ，複製其 **Tag ID**。
 
 
-    !!! tip "使用 ++ctrl+f++ 可快速定位 tagID 所在位置。"
+    ![](../../../assets/images/ec-第三方整合-lineadmanager-tagid畫面.gif)
     
+    !!! tip "使用 ++ctrl+f++ 可快速定位 tagID 所在位置。"
+
 3.  **填入系統**：前往 CYBERBIZ 後台 **第三方整合 > LINE Tag 設定**，點擊 **新增Tag ID**。
 4.  **設定類型**：類型選擇 **`lap`**，並貼上 Tag ID。
+
+    ![](../../../assets/images/ec-第三方整合-linetag-新增tagid-lap.png)
 
 ---
 
@@ -122,23 +125,30 @@ hide:
 ---
 
 ## 如何檢查設定是否成功
+
 *   **方法一（手動檢查）**：到官網執行特定動作（如註冊、加入購物車），之後刷新 LINE 的 Tag 管理頁面，檢查該事件名稱是否出現於狀態列表中。
-*   **方法二（工具檢查）**：下載 Chrome 擴充功能「**LINE Tag Helper**」進行即時偵測。
+*   **方法二（工具檢查）**：下載 Chrome 擴充功能「[**LINE Tag Helper** :lucide-external-link:](https://chromewebstore.google.com/detail/line-tag-helper/jgnholagndjghcjedffhinifilbjmklg?hl=zh-TW)」進行即時偵測。
 
 ---
 
 ## LINE Tag 的進階應用
-1.  **建立受眾**：收集到的訪客數據可在 LINE 後台打包成「**網站流量受眾**」，用於廣告精準投放或再行銷。
-2.  **轉換分析**：在 LINE OA Manager 的分析功能中，透過「群發訊息 - 自訂轉換」，分析特定訊息帶來的實際轉換表現。
+
+### 建立受眾
+
+收集到的訪客數據可在 LINE 後台打包成「**網站流量受眾**」，用於廣告精準投放或再行銷。
+
+### 轉換分析
+
+在 LINE OA Manager 的分析功能中，透過「群發訊息 - 自訂轉換」，分析特定訊息帶來的實際轉換表現。
 
 
 ## 後續操作
 
 <div class="grid cards" markdown>
 
-- :lucide-import:{ .lg }   
-  [____]()     
-  。
+- :lucide-split:{ .lg }   
+  [__受眾串接__](設定 LINE OA 受眾串接.md){ data-preview }  
+  篩選官網會員同步至 LINE 建立受眾，以進行精準推播或廣告投放。
 
 - :lucide-ban:{ .lg }     
   [____]()  

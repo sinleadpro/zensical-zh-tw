@@ -1,13 +1,13 @@
 ---
 title: LINE 官方帳號增加好友指南
 description: 透過多種工具與版位引導顧客加入 LINE 官方帳號，增加品牌與會員的黏著度。
-created: 
+created:
 last_modified: 2026-02-22
 lang: zh-TW
-permalink: 
+permalink:
 type: guide
-status: 
-version: 
+status:
+version:
 author: Jase
 reviewers: []
 notes: []
@@ -50,7 +50,7 @@ tags:
   - LINE 綁定
   - 會員整合
   - OMO
-acoiv: 
+acoiv:
 apis: []
 devices:
   - desktop
@@ -58,12 +58,14 @@ devices:
 ui_components: []
 paths: []
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=7435
+  - https://www.cyberbiz.io/support/?p=38439
 comments: false
 search:
   exclude: false
 icon: lucide/user-plus
-hide: 
+hide:
 ---
 
 

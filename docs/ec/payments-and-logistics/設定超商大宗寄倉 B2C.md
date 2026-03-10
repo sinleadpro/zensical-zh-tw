@@ -2,7 +2,7 @@
 title: 設定超商大宗寄倉 B2C
 description: 申請、設定超商大宗寄倉 B2C 服務。
 created: 
-last_modified: 2026-02-02
+last_modified: 2026-03-10 21:36
 lang: zh-TW
 permalink: 
 type: tutorial
@@ -64,7 +64,10 @@ devices:
 ui_components: []
 paths: []
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=6852
+  - https://www.cyberbiz.io/helpcenter/?p=5064
+  - https://www.cyberbiz.io/support/?p=1921
 comments: false
 search:
   exclude: false
@@ -77,7 +80,7 @@ hide:
 申請、設定超商大宗寄倉 B2C 服務。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 專業 PLUS / 進階 PLUS / 高手PLUS / 企業  
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業  
 [:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能) | CYBERBIZ PAYMENTS
 { .doc-badge }
 
@@ -138,9 +141,9 @@ hide:
 
 ### 包裹限制
 
-• **尺寸限制**：三邊總和 ≤ 105cm，最長邊 ≤ 45cm。**全家 B2C** 規格較寬，三邊總和可達 ≤ 120cm，最長邊 ≤ 50cm。
+- **尺寸限制**：三邊總和 ≤ 105cm，最長邊 ≤ 45cm。**全家 B2C** 規格較寬，三邊總和可達 ≤ 120cm，最長邊 ≤ 50cm。
 
-• **重量限制**：7-11 B2C 上限為 **10kg**；全家與萊爾富 B2C 上限為 **10kg**。若商品超過重量，系統將於結帳頁自動隱藏超商選項。
+- **重量限制**：7-11 B2C 上限為 **10kg**；全家與萊爾富 B2C 上限為 **10kg**。若商品超過重量，系統將於結帳頁自動隱藏超商選項。
 
 ### 出貨作業須知
 
@@ -221,7 +224,7 @@ hide:
 ??? quote "可以一次申請多家超商 B2C 嗎？"
 	可以，但 **每一家都需要各自測標與驗標**。也就是說：
 
-	- 7-11、全家、萊爾富 → 三家三套測標流程。
+	- 7-11、全家、萊爾富 > 三家三套測標流程。
 	- 驗標時程互不影響，開通時間可能不同步。
 
 ??? quote "驗標通過後，為什麼後台還不能用？"
@@ -238,7 +241,7 @@ hide:
 ??? quote "包裹寄到物流中心後，多久會上架到門市？"
 	一般情況下：
 
-	- 物流中心當天驗收成功 → 隔天（N+1）到門市。
+	- 物流中心當天驗收成功 > 隔天（N+1）到門市。
 	- 若遇尖峰（雙 11、節慶）可能延至 N+2。
 
 	實際時效仍依各物流中心當日作業量為準。
