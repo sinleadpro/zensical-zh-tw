@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 64.47602131438721,
+        "dimension": 45.91474245115453,
         "children": [
           {
             "id": "b215f5bf832eb05e",
@@ -209,7 +209,7 @@
       {
         "id": "74dd1daaeb40eac4",
         "type": "tabs",
-        "dimension": 17.761989342806395,
+        "dimension": 25.133214920071044,
         "children": [
           {
             "id": "eea1d6126d665e64",
@@ -230,7 +230,7 @@
       {
         "id": "2c57acc736defe7a",
         "type": "tabs",
-        "dimension": 17.761989342806395,
+        "dimension": 28.95204262877442,
         "children": [
           {
             "id": "b85f0764f4b4a7ce",
@@ -446,6 +446,17 @@
   },
   "active": "98427a1b64734bd6",
   "lastOpenFiles": [
+    "site/assets/images/ec-第三方整合-line團購機器人-linedevelopers-copynpast-liffid-liffurl.gif",
+    "docs/assets/images/ec-第三方整合-line團購機器人-linedevelopers-copynpast-liffid-liffurl.gif",
+    "site/assets/images/ec-第三方整合-linedevelopers-liffapp-basic-settings-linkedoa.png",
+    "docs/assets/images/ec-第三方整合-linedevelopers-liffapp-basic-settings-linkedoa.png",
+    "site/assets/images/ec-第三方整合-linedevelopersconsole-channel-liffapp-basic-settings.png",
+    "docs/assets/images/ec-第三方整合-linedevelopersconsole-channel-liffapp-basic-settings.png",
+    "site/assets/images/ec-第三方整合-linedevelopersconsole-channel-openid.png",
+    "docs/assets/images/ec-第三方整合-linedevelopersconsole-channel-openid.png",
+    "site/assets/images/ec-第三方整合-linedevelopersconsole-建立linelogin-channel.gif",
+    "docs/assets/images/ec-第三方整合-linedevelopersconsole-建立linelogin-channel.gif",
+    "site/assets/images/ec-第三方整合-line團購機器人-官方帳號設定.png",
     "site/ec/marketing/設定指定商品送優惠券/index.html",
     "site/ec/marketing/設定指定商品送優惠券",
     "site/ec/website-management/網域管理/index.html",
@@ -456,18 +467,7 @@
     "site/ec/marketing/設定紅配綠多組合優惠",
     "site/ec/payments-and-logistics/CYBERBIZNOW/快速到貨配送異常規範/index.html",
     "site/ec/payments-and-logistics/CYBERBIZNOW/快速到貨配送異常規範",
-    "site/ec/notifications/index.html",
     "docs/ec/integrations/line/設定 LINE 團購機器人.md",
-    "site/assets/images/ec-第三方整合-line團購機器人設定.png",
-    "docs/assets/images/ec-第三方整合-line團購機器人設定.png",
-    "site/assets/images/ec-第三方整合-line團購設定.png",
-    "docs/assets/images/ec-第三方整合-line團購設定.png",
-    "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
-    "site/assets/images/ec-訂單-所有訂單.png",
-    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
-    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
-    "site/assets/images/ec-about-us-page-configure.zh-tw.png",
-    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
     "docs/ec/products/creation/新增單一商品.md",
     "docs/ec/integrations/google/設定 Google 購物廣告.md",
     "docs/ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md",
