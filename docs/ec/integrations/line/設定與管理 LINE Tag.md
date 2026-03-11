@@ -1,8 +1,8 @@
 ---
-title: "設定與管理 LINE Tag"
-description: "" 
-created: "2026-03-10 15:13"
-last_modified: 
+title: 設定與管理 LINE Tag
+description: ""
+created: 2026-03-10 15:13
+last_modified:
 lang: zh-TW
 type: tutorial
 status: ""
@@ -10,25 +10,25 @@ version: ""
 author: Jase
 reviewers: []
 notes: []
-ga_views: 
+ga_views:
 feedback:
 products:
   - EC
 modules:
-  - integrations
-  - marketing
+  - 第三方整合
+  - 行銷活動
 sites:
   - TW
-audiences: 
-  - developer 
+audiences:
+  - developer
 difficulty: advanced
 tnb: trunk
-plans: 
+plans:
   - 專業
   - 進階
   - 高手
   - 企業
-cyb_extensions: [] 
+cyb_extensions: []
 intents: []
 features: []
 prerequisites: 建立 LINE 官方帳號
@@ -36,13 +36,13 @@ related: []
 tags: []
 acoiv: ""
 apis: []
-devices: 
-  - desktop 
+devices:
+  - desktop
   - mobile
 ui_components: []
 paths: []
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4769
   - https://www.cyberbiz.io/support/?p=28602
 permalink: ""

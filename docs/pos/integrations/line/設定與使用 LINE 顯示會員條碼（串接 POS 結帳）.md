@@ -16,9 +16,8 @@ feedback: 0
 products:
   - POS
 modules:
-  - pos-integration
-  - line-integration
-  - membership
+  - 第三方整合
+  - 會員
 sites:
   - TW
 audiences:

@@ -17,6 +17,7 @@ views:
       direction: ASC
     order:
       - file.name
+      - modules
       - wp_url
       - tags
       - features
@@ -29,8 +30,10 @@ views:
     summaries:
       file.name: Filled
       tags: Empty
+      modules: Empty
     columnSize:
       file.name: 216
+      note.modules: 196
       note.wp_url: 146
       note.tags: 308
   - type: cards

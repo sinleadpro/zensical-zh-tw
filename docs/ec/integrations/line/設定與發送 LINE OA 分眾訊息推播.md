@@ -15,8 +15,8 @@ feedback: 0
 products:
   - EC
 modules:
-  - integrations
-  - notifications
+  - 第三方整合
+  - 訊息推播
 sites:
   - TW
 audiences:

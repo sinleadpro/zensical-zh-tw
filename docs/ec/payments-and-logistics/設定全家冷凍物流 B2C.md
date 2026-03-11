@@ -16,7 +16,7 @@ feedback: 0
 products:
   - EC
 modules:
-  - payments-and-logisitcs
+  - 金物流
 sites:
   - TW
 audiences:

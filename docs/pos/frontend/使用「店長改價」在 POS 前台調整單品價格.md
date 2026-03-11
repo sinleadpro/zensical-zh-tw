@@ -17,7 +17,6 @@ products:
   - POS
 modules:
   - POS 前台
-  - 權限管理
 sites:
   - TW
 tnb: trunk

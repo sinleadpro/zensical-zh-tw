@@ -1,12 +1,12 @@
 ---
 title: 串接全家超商 B2C 冷凍物流
-version: "1.1.2"
+version: 1.1.2
 last_modified: 2026-01-27
 description: 全家冷凍大宗寄倉 (B2C) 物流申請流程、後台設定與出貨規範完整指南。
 product:
   - EC
 modules:
-  - shipping
+  - 金物流
 activ: configure
 paths:
   - 金物流 > 超商物流
@@ -51,7 +51,7 @@ notes:
 comments: ""
 search:
   exclude: ""
-icon: 
+icon:
 ---
 
 # 串接全家超商 B2C 冷凍物流

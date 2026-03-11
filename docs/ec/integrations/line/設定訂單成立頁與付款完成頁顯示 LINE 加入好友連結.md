@@ -18,6 +18,7 @@ products:
   - EC
 modules:
   - 網站外觀
+  - 第三方整合
 sites:
   - TW
 tnb: branch

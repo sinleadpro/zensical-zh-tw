@@ -18,8 +18,8 @@ feedback: 0
 products:
   - EC
 modules:
-  - 訂單管理
-  - 物流管理
+  - 訂單
+  - 金物流
 sites:
   - TW
 audiences:

@@ -1,30 +1,29 @@
 ---
-title: "設定一頁式商店 YouTube 影片自動播放與起始秒數"
-description: "調整 YouTube 影片網址參數，在一頁式商店中設定自動播放、循環播放與指定播放起始秒數。"
-created: "2024-05-23 11:30"
+title: 設定一頁式商店 YouTube 影片自動播放與起始秒數
+description: 調整 YouTube 影片網址參數，在一頁式商店中設定自動播放、循環播放與指定播放起始秒數。
+created: 2024-05-23 11:30
 last_modified: 2026-03-05 11:51
-lang: "zh-TW"
-type: "tutorial"
+lang: zh-TW
+type: tutorial
 status: ""
 version: ""
 author: Jase
 reviewers: []
 notes:
   - verify youtube embed url 限制 autoloop 是不是只能從頭開始，CYB 支援程度。
-ga_views: 
+ga_views:
 feedback:
 products:
   - EC
 modules:
   - 行銷活動
-  - 一頁式商店
 sites:
   - TW
 audiences:
   - merchant
-difficulty: "advanced"
+difficulty: advanced
 tnb: trunk
-plans: 
+plans:
   - 專業
   - 進階
   - 高手
@@ -51,7 +50,7 @@ tags:
   - 一頁式商店
   - 循環播放
   - 起始秒數
-acoiv: "configure"
+acoiv: configure
 apis: []
 devices:
   - desktop
