@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 64.47602131438721,
+        "dimension": 45.91474245115453,
         "children": [
           {
             "id": "b215f5bf832eb05e",
@@ -209,7 +209,7 @@
       {
         "id": "74dd1daaeb40eac4",
         "type": "tabs",
-        "dimension": 17.761989342806395,
+        "dimension": 25.133214920071044,
         "children": [
           {
             "id": "eea1d6126d665e64",
@@ -230,7 +230,7 @@
       {
         "id": "2c57acc736defe7a",
         "type": "tabs",
-        "dimension": 17.761989342806395,
+        "dimension": 28.95204262877442,
         "children": [
           {
             "id": "b85f0764f4b4a7ce",
@@ -446,12 +446,32 @@
   },
   "active": "98427a1b64734bd6",
   "lastOpenFiles": [
+    "site/assets/images/ec-第三方整合-line團購機器人-linedevelopers-copynpast-liffid-liffurl.gif",
+    "docs/assets/images/ec-第三方整合-line團購機器人-linedevelopers-copynpast-liffid-liffurl.gif",
+    "site/assets/images/ec-第三方整合-linedevelopers-liffapp-basic-settings-linkedoa.png",
+    "docs/assets/images/ec-第三方整合-linedevelopers-liffapp-basic-settings-linkedoa.png",
+    "site/assets/images/ec-第三方整合-linedevelopersconsole-channel-liffapp-basic-settings.png",
+    "docs/assets/images/ec-第三方整合-linedevelopersconsole-channel-liffapp-basic-settings.png",
+    "site/assets/images/ec-第三方整合-linedevelopersconsole-channel-openid.png",
+    "docs/assets/images/ec-第三方整合-linedevelopersconsole-channel-openid.png",
+    "site/assets/images/ec-第三方整合-linedevelopersconsole-建立linelogin-channel.gif",
+    "docs/assets/images/ec-第三方整合-linedevelopersconsole-建立linelogin-channel.gif",
+    "site/assets/images/ec-第三方整合-line團購機器人-官方帳號設定.png",
+    "site/ec/marketing/設定指定商品送優惠券/index.html",
+    "site/ec/marketing/設定指定商品送優惠券",
+    "site/ec/website-management/網域管理/index.html",
+    "site/ec/website-management/網域管理",
+    "site/ec/orders/設定訂單自動結案/index.html",
+    "site/ec/orders/設定訂單自動結案",
+    "site/ec/marketing/設定紅配綠多組合優惠/index.html",
+    "site/ec/marketing/設定紅配綠多組合優惠",
+    "site/ec/payments-and-logistics/CYBERBIZNOW/快速到貨配送異常規範/index.html",
+    "site/ec/payments-and-logistics/CYBERBIZNOW/快速到貨配送異常規範",
+    "docs/ec/integrations/line/設定 LINE 團購機器人.md",
     "docs/ec/products/creation/新增單一商品.md",
     "docs/ec/integrations/google/設定 Google 購物廣告.md",
-    "bases/GOD.base",
     "docs/ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md",
     "docs/ec/integrations/google/設定自動化廣告.md",
-    "bases/new.csv",
     "docs/ec/website-appearance/使用樣板編輯器恢復網頁代碼.md",
     "docs/ec/orders/訂單出貨流程.md",
     "docs/ec/products/排除商品上傳至第三方平台.md",
@@ -471,26 +491,6 @@
     "docs/ec/integrations/line/篩選與應用 LINE OA 綁定會員名單.md",
     "docs/ec/integrations/line/綁定 LINE 官方帳號與官網會員.md",
     "docs/ec/integrations/line/串接 LINE Messaging API.md",
-    "docs/ec/integrations/line/LINE 官方帳號增加好友指南.md",
-    "docs/ec/integrations/google/Google Analytics ：串接教學.md",
-    "docs/ec/marketing/設定商品多層級分類滿額折扣.md",
-    "site/ec/orders/熱感列印超商托運單/index.html",
-    "site/ec/orders/熱感列印超商托運單",
-    "site/ec/website-appearance/設定導覽選單滑鼠移入自動展開/index.html",
-    "site/ec/website-appearance/設定導覽選單滑鼠移入自動展開",
-    "site/ec/products/creation/編輯商品描述與商品設定/index.html",
-    "site/ec/products/creation/編輯商品描述與商品設定",
-    "site/ec/products/sales/設定商品到貨通知/index.html",
-    "site/ec/products/sales/設定商品到貨通知",
-    "site/assets/images/ec-第三方整合-linetag-新增tagid-account.png",
-    "docs/assets/images/ec-第三方整合-linetag-新增tagid-account.png",
-    "site/assets/images/ec-第三方整合-linetag-新增tagid-lap.png",
-    "docs/assets/images/ec-第三方整合-linetag-新增tagid-lap.png",
-    "site/assets/images/ec-第三方整合-lineadmanager-tagid畫面.gif",
-    "docs/assets/images/ec-第三方整合-lineadmanager-tagid畫面.gif",
-    "site/assets/images/ec-第三方整合-lineadmanager-tagid尋找.gif",
-    "docs/assets/images/ec-第三方整合-lineadmanager-tagid尋找.gif",
-    "site/assets/images/ec-第三方整合-linetag-tagid貼上.png",
-    "docs/assets/images/ec-第三方整合-linetag-tagid貼上.png"
+    "docs/ec/integrations/line/LINE 官方帳號增加好友指南.md"
   ]
 }
