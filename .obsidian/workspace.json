@@ -190,17 +190,17 @@
             }
           },
           {
-            "id": "95650b8c018bb28e",
+            "id": "6ec5420a12afb2db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md",
+                "file": "docs/ec/integrations/google/設定 Google 購物廣告.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定網頁鎖右鍵保護圖文版權"
+              "title": "設定 Google 購物廣告"
             }
           }
         ],
@@ -446,8 +446,12 @@
   },
   "active": "98427a1b64734bd6",
   "lastOpenFiles": [
-    "docs/ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md",
+    "docs/ec/products/creation/新增單一商品.md",
+    "docs/ec/integrations/google/設定 Google 購物廣告.md",
     "bases/GOD.base",
+    "docs/ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md",
+    "docs/ec/integrations/google/設定自動化廣告.md",
+    "bases/new.csv",
     "docs/ec/website-appearance/使用樣板編輯器恢復網頁代碼.md",
     "docs/ec/orders/訂單出貨流程.md",
     "docs/ec/products/排除商品上傳至第三方平台.md",
@@ -468,11 +472,8 @@
     "docs/ec/integrations/line/綁定 LINE 官方帳號與官網會員.md",
     "docs/ec/integrations/line/串接 LINE Messaging API.md",
     "docs/ec/integrations/line/LINE 官方帳號增加好友指南.md",
-    "docs/ec/integrations/google/設定自動化廣告.md",
     "docs/ec/integrations/google/Google Analytics ：串接教學.md",
     "docs/ec/marketing/設定商品多層級分類滿額折扣.md",
-    "docs/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS.md",
-    "docs/ec/get-started/文字編輯器使用教學.md",
     "site/ec/orders/熱感列印超商托運單/index.html",
     "site/ec/orders/熱感列印超商托運單",
     "site/ec/website-appearance/設定導覽選單滑鼠移入自動展開/index.html",
@@ -481,7 +482,6 @@
     "site/ec/products/creation/編輯商品描述與商品設定",
     "site/ec/products/sales/設定商品到貨通知/index.html",
     "site/ec/products/sales/設定商品到貨通知",
-    "site/ec/products/categorization/設定秘密商品群組/index.html",
     "site/assets/images/ec-第三方整合-linetag-新增tagid-account.png",
     "docs/assets/images/ec-第三方整合-linetag-新增tagid-account.png",
     "site/assets/images/ec-第三方整合-linetag-新增tagid-lap.png",

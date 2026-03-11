@@ -1,8 +1,8 @@
 ---
 title: 設定與發送 EDM 電子報
 description: 建立 EDM 內容、選擇發送對象並發送電子報給會員。
-created: "2026-03-10 00:28"
-last_modified: "2026-03-10 01:45"
+created: 2026-03-10 00:28
+last_modified: 2026-03-10 01:45
 lang: zh-TW
 type: tutorial
 status: ""
@@ -10,20 +10,20 @@ version: ""
 author: Jase
 reviewers: []
 notes: []
-ga_views: 
+ga_views:
 feedback:
 products:
   - EC
 modules:
-  - marketing
-  - notifications
+  - 行銷活動
+  - 訊息推播
 sites:
   - TW
-audiences: 
+audiences:
   - admin
 difficulty: ""
 tnb: trunk
-plans: 
+plans:
   - 專業
   - 進階
   - 高手
@@ -31,7 +31,7 @@ plans:
   - 進階 PLUS
   - 高手 PLUS
   - 企業
-cyb_extensions: [] 
+cyb_extensions: []
 intents:
   - 如何發送 EDM
   - EDM 費用計算
@@ -48,16 +48,16 @@ tags:
   - 電子郵件
 acoiv: ""
 apis: []
-devices: 
-  - desktop 
+devices:
+  - desktop
   - mobile
 ui_components: []
 paths: []
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4412
   - https://www.cyberbiz.io/support/?p=23782
-permalink: 
+permalink:
 comments: ""
 search:
   exclude: ""

@@ -17,8 +17,8 @@ feedback: 0
 products:
   - EC
 modules:
-  - integrations
-  - members
+  - 第三方整合
+  - 會員
 sites:
   - TW
 tnb: branch
@@ -44,7 +44,7 @@ features:
 prerequisites: []
 related: []
 tags:
-  - LINE_綁定 
+  - LINE_綁定
   - 會員篩選
   - 分眾行銷
   - 受眾打包

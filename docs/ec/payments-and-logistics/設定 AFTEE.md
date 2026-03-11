@@ -15,7 +15,7 @@ feedback: 0
 products:
   - EC
 modules:
-  - payments-and-logisitcs
+  - 金物流
 sites:
   - TW
 audiences:
@@ -30,7 +30,7 @@ plans:
   - 進階 PLUS
   - 高手 PLUS
   - 企業
-cyb_extensions: 
+cyb_extensions:
   - PAYMENTS
 intents:
   - 如何設定 AFTEE

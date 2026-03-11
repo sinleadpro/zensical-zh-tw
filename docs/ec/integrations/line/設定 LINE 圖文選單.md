@@ -15,7 +15,7 @@ feedback: 0
 products:
   - EC
 modules:
-  - line-integration
+  - 第三方整合
 sites: []
 audiences:
   - merchant

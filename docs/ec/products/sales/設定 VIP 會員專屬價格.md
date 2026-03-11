@@ -16,8 +16,8 @@ feedback: 0
 products:
   - EC
 modules:
-  - products
-  - members
+  - 商品
+  - 會員
 sites:
   - TW
 tnb: branch

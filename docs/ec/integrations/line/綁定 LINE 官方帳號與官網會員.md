@@ -17,13 +17,13 @@ feedback: 0
 products:
   - EC
 modules:
-  - line-integration
+  - 第三方整合
 sites: []
 audiences:
   - admin
 difficulty: medium
 tnb: branch
-plans: 
+plans:
   - 專業 PLUS
   - 進階 PLUS
   - 高手 PLUS

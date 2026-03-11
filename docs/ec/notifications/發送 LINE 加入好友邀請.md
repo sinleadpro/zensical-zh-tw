@@ -16,7 +16,6 @@ products:
   - EC
 modules:
   - 訊息推播
-  - LINE
 sites:
   - TW
 audiences:

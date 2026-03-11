@@ -1,7 +1,7 @@
 ---
 title: 設定 LIFF 自動登入與會員綁定
 description: 使用 LIFF 實現會員自動登入，並同步完成官方帳號好友加入與會員帳號綁定。
-created: 
+created:
 last_modified: 2026-03-08 12:00
 lang: zh-TW
 type: tutorial
@@ -16,7 +16,7 @@ feedback: 0
 products:
   - EC
 modules:
-  - line-integration
+  - 第三方整合
 sites: []
 audiences:
   - merchant
