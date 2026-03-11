@@ -31,7 +31,7 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階PLUS
+  - 進階 PLUS
   - 高手PLUS
   - 企業
 prerequisites:
@@ -68,7 +68,7 @@ icon:
 申請、設定超商大宗寄倉 B2C 服務。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 專業PLUS / 進階PLUS / 高手PLUS / 企業  
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 專業 PLUS / 進階 PLUS / 高手PLUS / 企業  
 [:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能) | CYBERBIZ PAYMENTS
 { .doc-badge }
 

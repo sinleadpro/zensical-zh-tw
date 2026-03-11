@@ -38,7 +38,7 @@ features:
 tnb: ""
 plans:
   - 專業PLUS
-  - 進階PLUS
+  - 進階 PLUS
   - 高手PLUS
   - 企業
 prerequisites:
@@ -77,7 +77,7 @@ icon:
 使用 LIFF 實現會員自動登入，並同步完成官方帳號好友加入與會員帳號綁定。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 專業PLUS / 進階PLUS / 高手PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手PLUS / 企業
 { .doc-badge }
 
 ![](../../../assets/images/ec-第三方整合-line liff-產生網址.png){ .hero-page }
