@@ -53,8 +53,9 @@ paths:
   - 金物流 > 金流設定
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/support/?p=34623
+  - https://www.cyberbiz.io/helpcenter/?p=6174
   - https://www.cyberbiz.io/helpcenter/?p=6738
+  - https://www.cyberbiz.io/support/?p=34623
 permalink:
 comments: false
 search:

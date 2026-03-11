@@ -2,7 +2,7 @@
 title: 設定 LINE OA 受眾串接
 description: 將篩選出的會員 UID 同步至 LINE OA 建立受眾，用於訊息推播與 LAP 廣告投放。
 created: 2026-03-06 11:46
-last_modified: 2026-03-06 15:19
+last_modified: 2026-03-11 10:13
 lang: zh-TW
 permalink: ""
 type: tutorial
@@ -40,9 +40,17 @@ features:
   - 會員分群
   - LINE Messaging API
 prerequisites:
-  - "[[串接 LINE Messaging API]]"
+  - 串接 LINE Messaging API
 related: []
-tags: []
+tags:
+  - LINE_OA
+  - 受眾同步
+  - UID_打包
+  - 精準行銷
+  - LAP
+  - Messaging_API
+  - 會員分群
+  - 廣告投放
 acoiv: configure
 apis: []
 devices:
@@ -53,7 +61,7 @@ paths:
   - 會員 > 所有會員
   - 會員 > 會員分群
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5631
   - https://www.cyberbiz.io/support/?p=28387
 comments: false

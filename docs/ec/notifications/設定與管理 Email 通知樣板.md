@@ -1,13 +1,13 @@
 ---
 title: 設定與管理 Email 通知樣板
 description: 管理與編輯系統自動發送的 Email 通知樣板，包括內容自訂、啟用控制、收件者設定與多國語系配置。
-created: 
+created:
 last_modified: 2026-02-13
 lang: zh-TW
-permalink: 
+permalink:
 type: tutorial
-status: 
-version: 
+status:
+version:
 author: Jase
 reviewers: []
 notes: []
@@ -23,7 +23,7 @@ audiences:
   - admin
 difficulty: intermediate
 tnb: trunk
-plans: 
+plans:
   - 專業
   - 進階
   - 高手
@@ -47,15 +47,15 @@ features:
 prerequisites: []
 related: []
 tags:
-  - Email 通知樣板
-  - Email 樣板管理
-  - Email 設定
-  - Email 多國語系
+  - Email_通知樣板
+  - Email_樣板管理
+  - Email_設定
+  - Email_多國語系
   - 商家通知
   - 短網址
   - 通知管理
-  - Email 自動化
-acoiv: 
+  - Email_自動化
+acoiv:
 apis: []
 devices:
   - desktop
@@ -70,7 +70,7 @@ comments: false
 search:
   exclude: false
 icon: lucide/mail
-hide: 
+hide:
 ---
 
 

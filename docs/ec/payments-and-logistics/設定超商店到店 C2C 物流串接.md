@@ -1,13 +1,13 @@
 ---
 title: 設定超商店到店 C2C 物流串接
 description: 啟用超商店到店（C2C）物流服務，讓顧客可於結帳時選擇指定超商門市取貨。
-created: 
+created:
 last_modified: 2026-01-28
 lang: zh-TW
-permalink: 
+permalink:
 type: tutorial
-status: 
-version: 
+status:
+version:
 author: Jase
 reviewers: []
 notes: []
@@ -46,13 +46,13 @@ prerequisites: []
 related: []
 tags:
   - 超商物流
-  - C2C 物流
+  - C2C
   - 超商取貨
   - 物流串接
-  - 7-11 物流
-  - 全家物流
-  - 萊爾富物流
-acoiv: 
+  - 7-11
+  - 全家
+  - 萊爾富
+acoiv:
 apis:
   - 7-ELEVEN 交貨便
   - 全家店到店
@@ -71,8 +71,8 @@ wp_url:
 comments: false
 search:
   exclude: false
-icon: lucide/store 
-hide: 
+icon: lucide/store
+hide:
 ---
 
 # 設定超商店到店 C2C 物流串接

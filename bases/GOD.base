@@ -17,16 +17,22 @@ views:
       direction: ASC
     order:
       - file.name
-      - file.mtime
       - wp_url
+      - tags
+      - features
+      - prerequisites
     sort:
+      - property: tags
+        direction: ASC
       - property: file.name
         direction: ASC
     summaries:
       file.name: Filled
+      tags: Empty
     columnSize:
       file.name: 216
-      file.mtime: 197
+      note.wp_url: 146
+      note.tags: 308
   - type: cards
     name: Products
     filters:

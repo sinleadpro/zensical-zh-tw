@@ -1,13 +1,13 @@
 ---
 title: 設定 LINE 圖文選單
 description: 建立與設定 LINE 圖文選單，讓顧客可透過官方帳號快速導覽商品、會員中心與導購頁面。
-created: 
+created:
 last_modified: 2026-03-08 14:30
 lang: zh-TW
 type: tutorial
-status: 
-version: 
-author: 
+status:
+version:
+author:
 reviewers: []
 notes: []
 ga_views: 0
@@ -50,13 +50,13 @@ related: []
 tags:
   - LINE
   - 圖文選單
-  - LINE OA
   - 整合
   - 行銷
   - 導購
   - 會員
   - OMO
-acoiv: 
+  - LINE_OA
+acoiv:
 apis:
   - LINE Messaging API
 devices:
@@ -68,7 +68,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5858
   - https://www.cyberbiz.io/support/?p=855
-permalink: 
+permalink:
 comments: false
 search:
   exclude: false

@@ -1,13 +1,13 @@
 ---
 title: 設定與管理 LINE OA 通知樣板
 description: 設定與管理 LINE 官方帳號（LINE Official Account）的自動化通知樣板，包含前置條件、樣板設定流程、支援情境與計費規則。
-created: 
+created:
 last_modified: 2026-02-13
 lang: zh-TW
-permalink: 
+permalink:
 type: tutorial
-status: 
-version: 
+status:
+version:
 author: Jase
 reviewers: []
 notes:
@@ -48,15 +48,14 @@ features:
 prerequisites: []
 related: []
 tags:
-  - LINE OA 通知樣板
-  - LINE OA 樣板管理
-  - LINE OA 設定
-  - LINE OA 訊息推播
-  - LINE OA 自動化
-  - LINE 物流通知
-  - LINE 訂單通知
-  - LINE 定期訂單
-acoiv: 
+  - 訊息推播
+  - LINE_OA
+  - 訂單通知
+  - 定期訂單
+  - 物流通知
+  - 自動化
+  - 樣板管理
+acoiv:
 apis:
   - LINE Messaging API
 devices:
@@ -72,7 +71,7 @@ comments: false
 search:
   exclude: false
 icon: lucide/message-circle-more
-hide: 
+hide:
 ---
 
 

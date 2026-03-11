@@ -36,9 +36,9 @@ prerequisites:
   - 已開通 CYBERBIZ PAYMENTS
 related: []
 tags:
-  - Apple Pay
+  - Apple_Pay
   - Payments
-  - CYBERBIZ PAYMENTS
+  - CYBERBIZ_PAYMENTS
 acoiv: configure
 apis: []
 devices:

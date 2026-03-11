@@ -1,13 +1,13 @@
 ---
 title: 設定超商大宗寄倉 B2C
 description: 申請、設定超商大宗寄倉 B2C 服務。
-created: 
+created:
 last_modified: 2026-03-10 21:36
 lang: zh-TW
-permalink: 
+permalink:
 type: tutorial
-status: 
-version: 
+status:
+version:
 author: Jase
 reviewers: []
 notes: []
@@ -50,13 +50,13 @@ prerequisites:
 related: []
 tags:
   - 超商大宗寄倉
-  - B2C 物流
-  - 7-11 物流
+  - B2C
   - 全家物流
   - 萊爾富物流
   - 物流設定
-  - B2C 出貨
-acoiv: 
+  - 出貨
+  - 7-11
+acoiv:
 apis: []
 devices:
   - desktop
@@ -72,7 +72,7 @@ comments: false
 search:
   exclude: false
 icon: lucide/warehouse
-hide: 
+hide:
 ---
 
 # 設定超商大宗寄倉 B2C

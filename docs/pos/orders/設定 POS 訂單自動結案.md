@@ -26,7 +26,8 @@ status: new
 tags: []
 difficulty: ""
 audiences: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=23628
 notes: []
 comments: ""
 search:
