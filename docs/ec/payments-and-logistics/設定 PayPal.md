@@ -1,13 +1,13 @@
 ---
 title: 設定 PayPal
 description: 串接 PayPal 金流，讓海外信用卡顧客於結帳時可使用 PayPal 支付。
-created: 
+created:
 last_modified: 2026-01-28
 lang: zh-TW
-permalink: 
+permalink:
 type: tutorial
-status: 
-version: 
+status:
+version:
 author: Jase
 reviewers: []
 notes: []
@@ -48,12 +48,10 @@ prerequisites:
   - PayPal Secret
 related: []
 tags:
-  - PayPal 金流
-  - PayPal 串接
-  - 海外信用卡
+  - PayPal
   - 金流設定
   - 跨境支付
-acoiv: 
+acoiv:
 apis:
   - PayPal
 devices:
@@ -69,7 +67,7 @@ comments: false
 search:
   exclude: false
 icon: simple/paypal
-hide: 
+hide:
 ---
 
 # 設定 PayPal

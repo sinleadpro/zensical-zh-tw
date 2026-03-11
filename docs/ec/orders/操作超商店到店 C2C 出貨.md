@@ -1,13 +1,13 @@
 ---
 title: 操作超商店到店 C2C 出貨
 description: 包裝商品並透過超商店到店（C2C）寄件至消費者指定門市，包括完整操作流程與注意事項。
-created: 
+created:
 last_modified: 2024-05-23
 lang: zh-TW
-permalink: 
+permalink:
 type: tutorial
-status: 
-version: 
+status:
+version:
 author: Jase
 reviewers: []
 notes:
@@ -57,14 +57,14 @@ prerequisites:
 related: []
 tags:
   - 超商店到店
-  - C2C 出貨
+  - C2C
   - 超商寄件
   - 物流出貨
   - 託運單
-  - 7-11 店到店
+  - 7-11_店到店
   - 全家店到店
   - 萊爾富
-acoiv: 
+acoiv:
 apis: []
 devices:
   - desktop
@@ -83,7 +83,7 @@ comments: false
 search:
   exclude: false
 icon: lucide/store
-hide: 
+hide:
 ---
 
 

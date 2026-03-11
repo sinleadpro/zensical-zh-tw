@@ -42,12 +42,11 @@ features:
 prerequisites: []
 related: []
 tags:
-  - LINE 官方帳號
   - 增加好友
-  - LINE OA
+  - LINE_OA
   - 好友邀請
   - LIFF
-  - LINE 綁定
+  - LINE_綁定
   - 會員整合
   - OMO
 acoiv:

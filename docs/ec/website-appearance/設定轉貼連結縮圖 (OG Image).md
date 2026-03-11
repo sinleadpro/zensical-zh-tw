@@ -51,7 +51,7 @@ features:
 prerequisites: []
 related: []
 tags:
-  - OG Image
+  - OG_Image
   - 社群分享
   - 縮圖設定
   - Facebook

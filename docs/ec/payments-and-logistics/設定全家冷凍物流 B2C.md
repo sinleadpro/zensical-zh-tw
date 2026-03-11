@@ -1,13 +1,13 @@
 ---
 title: 設定全家冷凍物流 B2C
 description: 申請、設定與操作全家冷凍物流 B2C 服務。
-created: 
+created:
 last_modified: 2026-02-02
 lang: zh-TW
-permalink: 
+permalink:
 type: tutorial
-status: 
-version: 
+status:
+version:
 author: Jase
 reviewers: []
 notes: []
@@ -27,7 +27,7 @@ plans:
   - 高手
   - 高手 PLUS
   - 企業
-cyb_extensions: 
+cyb_extensions:
   - PAYMENTS
 intents:
   - 申請全家冷凍 B2C 物流服務
@@ -47,13 +47,13 @@ prerequisites:
 related: []
 tags:
   - 全家冷凍物流
-  - B2C 物流
   - 冷凍物流
   - 超商物流
   - 全家配送
   - 物流設定
   - 冷凍包裹
-acoiv: 
+  - B2C
+acoiv:
 apis: []
 devices:
   - desktop
@@ -68,7 +68,7 @@ comments: false
 search:
   exclude: false
 icon: lucide/snowflake
-hide: 
+hide:
 ---
 
 # 設定全家冷凍物流 B2C

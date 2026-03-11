@@ -55,11 +55,11 @@ tags:
   - LINE
   - 優惠券
   - 會員綁定
-  - LINE OA
   - 行銷
   - CRM
   - 第三方整合
   - OMO
+  - LINE_OA
 difficulty: medium
 audiences:
   - merchabt
@@ -73,7 +73,7 @@ comments: ""
 search:
   exclude: ""
 icon: lucide/ticket-plus
-hide: 
+hide:
 ---
 
 

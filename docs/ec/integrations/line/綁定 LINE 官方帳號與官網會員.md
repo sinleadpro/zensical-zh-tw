@@ -53,7 +53,7 @@ prerequisites:
 related: []
 tags:
   - LINE
-  - LINE OA
+  - LINE_OA
   - 綁定
   - 會員
   - 官方帳號

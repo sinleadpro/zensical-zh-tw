@@ -43,7 +43,14 @@ features:
   - LINE OA 同步
 prerequisites: []
 related: []
-tags: []
+tags:
+  - LINE_綁定 
+  - 會員篩選
+  - 分眾行銷
+  - 受眾打包
+  - LINE_OA_串接
+  - 名單匯出
+  - 會員標籤
 acoiv: operate
 apis: []
 devices:

@@ -42,7 +42,7 @@ prerequisites:
   - 準備必要申請文件
 related: []
 tags:
-  - LINE Pay
+  - LINE_Pay
   - 金流
   - 付款設定
 acoiv: configure

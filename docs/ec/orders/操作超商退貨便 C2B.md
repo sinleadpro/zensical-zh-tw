@@ -1,13 +1,13 @@
 ---
 title: 操作超商退貨便 C2B
 description: 設定及操作 7-11 超商退貨便 (C2B)
-created: 
+created:
 last_modified: 2026-02-02
 lang: zh-TW
-permalink: 
+permalink:
 type: tutorial
-status: 
-version: 
+status:
+version:
 author: Jase
 reviewers: []
 notes: []
@@ -42,13 +42,13 @@ prerequisites:
   - 已申請開通「超商大宗寄倉 (B2C)」服務
 related: []
 tags:
-  - 超商退貨便
-  - C2B 退貨
-  - 7-11 退貨
   - 超商退貨
-  - 退貨便操作
-  - ibon 退貨
-acoiv: 
+  - 7-11
+  - C2B
+  - 退貨
+  - ibon
+  - 退貨便
+acoiv:
 apis: []
 devices:
   - desktop
@@ -63,7 +63,7 @@ comments: false
 search:
   exclude: false
 icon: lucide/corner-down-left
-hide: 
+hide:
 ---
 
 # 操作超商退貨便 C2B

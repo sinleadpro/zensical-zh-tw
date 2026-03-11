@@ -48,14 +48,14 @@ related:
   - 綁定 LINE 帳號與官網會員.md
 tags:
   - LINE
-  - Messaging API
+  - Messaging_API
   - CYBERBIZ
   - 官方帳號
   - 聊天機器人
   - Webhook
 acoiv: integration
 apis:
-  - LINE Messaging API
+  - LINE_Messaging_API
 devices:
   - desktop
   - mobile

@@ -45,11 +45,10 @@ prerequisites:
 related:
   - 使用 AUTOMATION 建立自動化推播流程
 tags:
-  - LINE
-  - OA
   - 分眾訊息
   - 訊息推播
-  - LINE Messaging API
+  - LINE_Messaging_API
+  - LINE_OA
 acoiv: operation
 apis: []
 devices:
@@ -59,7 +58,7 @@ ui_components: []
 paths:
   - 訊息推播 > LINE OA 發送訊息
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7324
   - https://www.cyberbiz.io/support/?p=25964
 permalink:

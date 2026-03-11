@@ -44,13 +44,13 @@ related:
   - ../integrations/line/設定 LINE 綁定會員贈送優惠券.md
 tags:
   - LINE
-  - LINE OA
   - 好友邀請
   - 訊息推播
   - 簡訊
   - Email
   - 行銷
   - CRM
+  - LINE_OA
 acoiv: operation
 apis:
   - LINE Messaging API

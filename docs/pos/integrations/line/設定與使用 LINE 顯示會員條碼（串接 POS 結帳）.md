@@ -1,13 +1,13 @@
 ---
 title: 設定與使用 LINE 顯示會員條碼（串接 POS 結帳）
 description: 啟用並設定 LINE 官方帳號會員條碼，讓門市人員可透過 POS 掃描條碼快速識別會員並套用紅利與優惠券折抵。
-created: 
+created:
 last_modified: 2026-02-23
 lang: zh-TW
-permalink: 
+permalink:
 type: tutorial
-status: 
-version: 
+status:
+version:
 author: Jase
 reviewers: []
 notes: []
@@ -46,15 +46,14 @@ prerequisites:
   - LINE OA 會員綁定（建議）
 related: []
 tags:
-  - LINE 會員條碼
-  - POS 結帳
-  - LINE 整合
-  - OMO 會員
   - 紅利點數
   - 優惠券折抵
   - 門市結帳
   - 會員條碼
-acoiv: 
+  - LINE
+  - OMO
+  - POS
+acoiv:
 apis: []
 devices:
   - desktop
@@ -68,7 +67,7 @@ comments: false
 search:
   exclude: false
 icon: lucide/barcode
-hide: 
+hide:
 ---
 
 # 設定與使用 LINE 顯示會員條碼（串接 POS 結帳）
