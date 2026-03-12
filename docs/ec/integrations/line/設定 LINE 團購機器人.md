@@ -1,20 +1,23 @@
 ---
 title: 設定 LINE 團購機器人
-description: ""
+description: 建立並設定 LINE 團購機器人，完成 Messaging API、Webhook 與 LIFF 串接，讓使用者可在 LINE 群組內進行團購購物。
 created: 2026-03-11 17:27
-last_modified:
+last_modified: 2026-03-12 09:45
 lang: zh-TW
 type: tutorial
-status: ""
-version: ""
+status:
+version:
 author: Jase
 reviewers: []
-notes: []
-ga_views:
-feedback:
+notes:
+  - wp 上有影片之後看要不要搬
+ga_views: 0
+feedback: 0
 products:
   - EC
-modules: []
+modules:
+  - 第三方整合
+  - 行銷活動
 sites:
   - TW
 audiences:
@@ -24,12 +27,29 @@ tnb: branch
 plans:
   - 企業
 cyb_extensions: []
-intents: []
-features: []
+intents:
+  - 設定_LINE_團購機器人
+  - LINE_Messaging_API_串接
+  - LINE_團購功能設定
+  - LIFF_設定
+  - Webhook_設定
+features:
+  - LINE_團購機器人
+  - Messaging_API
+  - Webhook
+  - LIFF
+  - LINE_Provider
 prerequisites: []
-related: []
-tags: []
-acoiv: ""
+related:
+  - 團購商品設定
+  - 團購群組設定
+tags:
+  - LINE_OA
+  - LINE_團購
+  - LIFF
+  - Messaging_API
+  - Webhook
+acoiv:
 apis: []
 devices:
   - desktop
@@ -38,24 +58,24 @@ ui_components: []
 paths: []
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/support/?p=29174
-permalink: ""
-comments: ""
+  - https://www.cyberbiz.io/support/?p=29174&page=2
+permalink:
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/bot
-hide:
+hide: []
 ---
 
 # 設定 LINE 團購機器人
 
-
+建立並設定 LINE 團購機器人，完成 Messaging API、Webhook 與 LIFF 串接，讓使用者可在 LINE 群組內進行團購購物。
 { .subtitle }
 
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 企業
 { .doc-badge }
 
-{ .hero-page }
+![](../../../assets/images/ec-第三方整合-line團購機器人設定.png){ .hero-page }
 
 ## 什麼是 LINE 團購機器人
 
@@ -63,7 +83,7 @@ hide:
 
 以下是 **LINE 團購機器人設定** 的詳細教學：
 
-## 功能說明與限制
+## 使用情境與限制
 
 *   **功能目的**：協助商家在 LINE 群組內進行團購活動，並引導成員加入品牌官方帳號好友。
 *   **適用環境**：僅限於 **LINE 群組** 或 **多人聊天室**。由於匿名性限制，不支援 LINE 社群 (OpenChat)。
@@ -97,7 +117,14 @@ hide:
             OA2 -.- N2
     ```
 
+## 前置需求
 
+在開始設定前，請確保您具備以下條件：
+
+- [x] 一個 LINE Provider
+- [x] 一個品牌 LINE 官方帳號
+- [x] 一個團購機器人 LINE 官方帳號
+- [x] CYBERBIZ 後台管理權限
 ---
 
 ## 機器人專用 Messaging API 設定
