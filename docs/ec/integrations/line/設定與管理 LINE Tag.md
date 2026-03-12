@@ -83,11 +83,9 @@ comments: false
 
 LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，可用於追蹤：
 
-• LINE OA 訊息推播轉換
-• LINE LAP 廣告成效
-• 網站流量受眾建立
-
-**LINE Tag** 是用於 LINE LAP（成效型廣告）或 LINE OA（官方帳號）的追蹤代碼，功能類似於 Facebook Pixel，可用於追蹤廣告或訊息推播後的轉換成效。
+- LINE OA 訊息推播轉換
+- LINE LAP 廣告成效
+- 網站流量受眾建立
 
 以下為 LINE Tag 的詳細設定教學與應用說明：
 

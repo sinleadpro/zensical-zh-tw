@@ -276,7 +276,10 @@ copyright = """
                 { "訂單頁加入好友連結" = "ec/integrations/line/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md" },
                 { "LINE 圖文選單" = "ec/integrations/line/設定 LINE 圖文選單.md" },
                 { "LINE Tag 追蹤" = "ec/integrations/line/設定與管理 LINE Tag.md" },
-                { "LINE 團購機器人" = "ec/integrations/line/設定 LINE 團購機器人.md" }
+                { "LINE 團購機器人" = "ec/integrations/line/設定 LINE 團購機器人.md" },
+                { "LINE 團購商品" = "ec/integrations/line/設定 LINE 團購商品.md" },
+                { "LINE 團購群組" = "ec/integrations/line/設定 LINE 團購群組.md" },
+                { "LINE 團購購物流程" = "ec/integrations/line/使用 LINE 團購進行購物.md" }
             ]},
         ]},
         { "管理中心" = [
