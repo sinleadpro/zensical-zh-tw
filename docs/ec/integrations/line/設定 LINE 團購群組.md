@@ -9,7 +9,8 @@ status:
 version:
 author: Jase
 reviewers: []
-notes: []
+notes: 
+  - WP 上有影片之後看要不要搬
 ga_views: 0
 feedback: 0
 products:
@@ -23,9 +24,6 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 專業
-  - 進階
-  - 高手
   - 企業
 cyb_extensions: []
 intents:
@@ -66,9 +64,10 @@ hide: []
 
 # 設定 LINE 團購群組
 
-
+設定 LINE 團購群組的分潤方案、商品分類與活動時間，讓團購主可在指定的 LINE 群組中進行團購活動。
 { .subtitle }
 
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 企業
 { .doc-badge }
 
 ![](../../../assets/images/ec-第三方整合-line團購群組.png){ .hero-page }
@@ -129,19 +128,6 @@ hide: []
 
 *  **分潤查詢**：若團購主需查看下單情形，商家可提供「[分潤報表下載連結](../../profit-sharing/匯出分潤報表.md){ data-preview }」供其查閱。
 
-## 後續操作
-
-<div class="grid cards" markdown>
-
-- :lucide-import:{ .lg }   
-  [____]()     
-  。
-
-- :lucide-ban:{ .lg }     
-  [____]()  
-  。
-
-</div>
 
 ## 常見問題
 

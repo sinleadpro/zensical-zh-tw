@@ -18,16 +18,14 @@ products:
   - EC
 modules:
   - 第三方整合
+  - 商品
 sites:
   - TW
 audiences:
   - admin
 difficulty: intermediate
-tnb: trunk
+tnb: branch
 plans:
-  - 專業
-  - 進階
-  - 高手
   - 企業
 cyb_extensions: []
 intents:
@@ -69,6 +67,9 @@ hide: []
 
 設定 LINE 團購商品分類，從官網公開商品建立團購清單並設定團購價。
 { .subtitle }
+
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 企業
+{ .doc-badge }
 
 ![](../../../assets/images/ec-第三方整合-line團購商品.png){ .hero-page }
 
@@ -120,7 +121,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-users:{ .lg }     
-  [__團購群組設定__](){ data-preview }  
+  [__團購群組設定__](設定 LINE 團購群組.md){ data-preview }  
   將機器人加入群組，並設定分潤方案與活動時間。
 
 </div>
