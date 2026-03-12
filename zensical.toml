@@ -277,7 +277,8 @@ copyright = """
                 { "LINE 圖文選單" = "ec/integrations/line/設定 LINE 圖文選單.md" },
                 { "LINE Tag 追蹤" = "ec/integrations/line/設定與管理 LINE Tag.md" },
                 { "LINE 團購機器人" = "ec/integrations/line/設定 LINE 團購機器人.md" },
-                { "LINE 團購商品" = "ec/integrations/line/設定 LINE 團購商品.md" }
+                { "LINE 團購商品" = "ec/integrations/line/設定 LINE 團購商品.md" },
+                { "LINE 團購群組" = "ec/integrations/line/設定 LINE 團購群組.md" }
             ]},
         ]},
         { "管理中心" = [

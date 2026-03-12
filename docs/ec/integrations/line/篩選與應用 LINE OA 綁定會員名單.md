@@ -66,7 +66,7 @@ wp_url:
 comments: false
 search:
   exclude: false
-icon: lucide/users-round
+icon: lucide/user-check
 hide:
 ---
 

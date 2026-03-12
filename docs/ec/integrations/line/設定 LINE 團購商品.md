@@ -1,59 +1,74 @@
 ---
 title: "設定 LINE 團購商品"
-description: "" 
+description: 設定 LINE 團購商品分類，從官網公開商品建立團購清單並設定團購價。
 created: "2026-03-12 10:29"
-last_modified: 
+last_modified: "2026-03-12 09:50"
 lang: zh-TW
 type: tutorial
-status: ""
-version: ""
+status:
+version:
 author: Jase
 reviewers: []
 notes:
   - wp 上有影片看要不要搬
   - add cl how to filter products
-ga_views: 
-feedback:
+ga_views: 0
+feedback: 0
 products:
   - EC
-modules: []
+modules:
+  - 第三方整合
 sites:
   - TW
-audiences: 
+audiences:
   - admin
-difficulty: ""
-tnb: ""
-plans: 
-cyb_extensions: [] 
-intents: []
-features: []
-prerequisites: []
-related: []
-tags: []
-acoiv: ""
+difficulty: intermediate
+tnb: trunk
+plans:
+  - 專業
+  - 進階
+  - 高手
+  - 企業
+cyb_extensions: []
+intents:
+  - 設定_LINE_團購商品
+  - LINE_團購商品管理
+  - 團購價設定
+features:
+  - LINE_團購
+  - 團購商品分類
+  - 團購價
+prerequisites:
+  - 設定 LINE 團購機器人
+related:
+  - 團購群組設定
+tags:
+  - LINE_OA
+  - LINE_團購
+  - 團購商品
+  - 團購價
+acoiv:
 apis: []
-devices: 
-  - desktop 
+devices:
+  - desktop
   - mobile
 ui_components: []
 paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=29174&page=3
-permalink: ""
-comments: ""
+permalink:
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/shopping-bag
-hide:
+hide: []
 ---
 
 # 設定 LINE 團購商品
 
-
+設定 LINE 團購商品分類，從官網公開商品建立團購清單並設定團購價。
 { .subtitle }
-
-{ .doc-badge }
 
 ![](../../../assets/images/ec-第三方整合-line團購商品.png){ .hero-page }
 
@@ -61,9 +76,8 @@ hide:
 
 **「LINE 團購商品設定」** 功能讓商家可以從官網公開商品中挑選品項，建立專屬的團購商品清單並設定獨立的「團購價」。
 
-以下為團購商品設定的詳細說明與操作教學：
+## 建立團購商品分類並設定團購價
 
-## 新增團購商品分類
 
 1.  **進入路徑：** 登入 CYBERBIZ 管理後台，前往 **第三方整合 > LINE 團購設定**。
 2.  **新增分類：** 點擊「**新增團購商品分類**」按鈕。
