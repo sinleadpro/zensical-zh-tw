@@ -251,14 +251,14 @@ copyright = """
             ]},
         ]},
         { "第三方整合" = [
-            { "overview" = "ec/integrations/index.md" },  
-            { "FB/Meta" = [
-                { "overview" = "ec/integrations/fb-meta/index.md" }
+            {"overview" = "ec/integrations/index.md"},  
+            {"FB/Meta" = [
+                { "overview" = "ec/integrations/fb-meta/index.md"}
             ]},
-            { "Google" = [
-                { "設定 Google 購物廣告" = "ec/integrations/google/設定 Google 購物廣告.md" },
-                { "設定自動化廣告" = "ec/integrations/google/設定自動化廣告.md" },
-                { "" = "ec/integrations/google/"}
+            {"Google" = [
+                {"設定 Google 購物廣告" = "ec/integrations/google/設定 Google 購物廣告.md"},
+                {"設定自動化廣告" = "ec/integrations/google/設定自動化廣告.md"},
+                {"" = "ec/integrations/google/"}
             ]},
             { "LINE" = [
                 {"overview" = "ec/integrations/line/index.md"},
@@ -283,6 +283,8 @@ copyright = """
                     {"LINE 團購群組" = "ec/integrations/line/group-buy/設定 LINE 團購群組.md"},
                     {"LINE 團購購物流程" = "ec/integrations/line/group-buy/使用 LINE 團購進行購物.md"}
                 ]},
+                {"LINE 直播" = "ec/integrations/line/申請與設定 LINE 直播功能.md"},
+                {"LINE 購物導購" = "ec/integrations/line/申請與設定 LINE 購物導購.md"}
             ]},
     ]},
         { "管理中心" = [
@@ -296,6 +298,7 @@ copyright = """
             { "安全性設定" = "ec/website-management/設定網站安全性.md" },
             { "星益欣電子發票" = "ec/website-management/星益欣電子發票設定指南.md" },
             { "為特定網域信箱套用指定會員標籤" = "ec/website-management/為特定網域信箱套用指定會員標籤.md" },
+            {"管理員與權限" = "ec/website-management/新增網站管理員並設定權限.md"}
         ]},
     ]},
     { "智慧倉儲" = "wms/index.md" },

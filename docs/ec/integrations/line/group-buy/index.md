@@ -64,7 +64,7 @@ LINE 團購功能的運作方式，以及商家如何在 LINE 群組中建立團
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 企業
 { .doc-badge }
 
-{ .hero-page }
+![](../../../../assets/images/ec-第三方整合-line團購功能總覽-hero.png){ .hero-page }
 
 ## LINE 團購說明
 

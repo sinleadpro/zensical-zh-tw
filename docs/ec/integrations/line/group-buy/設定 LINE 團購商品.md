@@ -59,7 +59,7 @@ permalink:
 comments: false
 search:
   exclude: false
-icon: lucide/shopping-bag
+icon: lucide/boxes
 hide: []
 ---
 
