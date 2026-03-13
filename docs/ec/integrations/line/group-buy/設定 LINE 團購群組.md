@@ -58,7 +58,7 @@ permalink:
 comments: false
 search:
   exclude: false
-icon: lucide/users-round
+icon: lucide/messages-square
 hide: []
 ---
 
@@ -70,7 +70,7 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 企業
 { .doc-badge }
 
-![](../../../assets/images/ec-第三方整合-line團購群組.png){ .hero-page }
+![](../../../../assets/images/ec-第三方整合-line團購群組.png){ .hero-page }
 
 ## LINE 團購群組說明
 
@@ -83,7 +83,7 @@ hide: []
 在編輯群組內容前，商家必須先依序完成以下三項設定：
 
 - [x] [**LINE 團購機器人設定**](設定 LINE 團購機器人.md){ data-preview }：建立專屬機器人並完成 Messaging API 與 LIFF 串接。
-- [x] [**推薦分潤代碼設定**](../../profit-sharing/設定推薦人分潤方案.md){ data-preview }：於分潤系統中設定好「推薦人分潤」方案。
+- [x] [**推薦分潤代碼設定**](../../../profit-sharing/設定推薦人分潤方案.md){ data-preview }：於分潤系統中設定好「推薦人分潤」方案。
 - [x] [**團購商品分類設定**](設定 LINE 團購商品.md){ data-preview }：選取欲販售的商品並設定團購價。
 
 ## 新增 LINE 團購群組
@@ -93,7 +93,7 @@ hide: []
 3.  機器人加入群組後，系統會自動在後台「群組列表」中 **自動新增** 該群組名稱及群組 ID（機器人狀態顯示 `已加入`）。
 4.  請注意，**一個 LINE 群組一次只能存在一支機器人**。
 
-![](../../../assets/images/ec-第三方整合-line團購群組-機器人已加入.png)
+![](../../../../assets/images/ec-第三方整合-line團購群組-機器人已加入.png)
 
 ## 編輯群組活動內容
 
@@ -103,7 +103,7 @@ hide: []
 4.  **設定時間**：設定活動的起始時間。若未修改預設的「指定開始時間」，則活動將從點選「儲存」的那一刻開始計算。
     *   *註：若活動尚未開始，可隨時更新時間；活動開始後則無法變更，僅能提前結束。*
 
-![](../../../assets/images/ec-第三方整合-line團購群組-編輯頁.png)
+![](../../../../assets/images/ec-第三方整合-line團購群組-編輯頁.png)
 
 ## 結束團購活動的情況
 
@@ -114,19 +114,19 @@ hide: []
 -  **時間到期**：到達原本設定的「指定結束時間」。
 -  **機器人退群**：當團購機器人被移出該 LINE 群組時，活動也會終止。
 
-![](../../../assets/images/ec-第三方整合-line團購群組-結束團購活動.png)
+![](../../../../assets/images/ec-第三方整合-line團購群組-結束團購活動.png)
 
 ## 訂單查看與紀錄管理
 
 *  **查看訂單**：商家可前往「**訂單**」>「**所有訂單**」，展開篩選器並選擇「**LINE 團購**」來查看專屬訂單。
 
-    ![](../../../assets/images/ec-訂單-所有訂單-篩選line團購訂單.gif)
+    ![](../../../../assets/images/ec-訂單-所有訂單-篩選line團購訂單.gif)
 
 *  **歷史紀錄**：活動結束後，該筆資料會移至編輯頁面中的「團購歷史紀錄」，方便商家隨時回顧群組過往的活動表現。
 
-    ![](../../../assets/images/ec-第三方整合-line團購群組-編輯頁-團購歷史紀錄.png)
+    ![](../../../../assets/images/ec-第三方整合-line團購群組-編輯頁-團購歷史紀錄.png)
 
-*  **分潤查詢**：若團購主需查看下單情形，商家可提供「[分潤報表下載連結](../../profit-sharing/匯出分潤報表.md){ data-preview }」供其查閱。
+*  **分潤查詢**：若團購主需查看下單情形，商家可提供 [分潤報表下載連結](../../../profit-sharing/查詢分潤夥伴與代碼資訊.md#任務三提供第三方推薦人外部查詢連結){ data-preview } 供其查閱。
 
 
 ## 常見問題
