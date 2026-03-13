@@ -217,12 +217,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=7458",
-                "title": "PLUS用戶 - LINE直播申請開通流程與設定 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=7462",
+                "title": "PLUS用戶 - LINE購物申請開通流程與設定 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "PLUS用戶 - LINE直播申請開通流程與設定 - CYBERBIZ 一般版教學文件"
+              "title": "PLUS用戶 - LINE購物申請開通流程與設定 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -238,12 +238,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=32529",
-                "title": "LINE直播申請開通流程與設定",
+                "url": "https://www.cyberbiz.io/support/?p=36752",
+                "title": "LINE購物申請開通流程與設定",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "LINE直播申請開通流程與設定"
+              "title": "LINE購物申請開通流程與設定"
             }
           }
         ]
@@ -444,8 +444,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70ccdcc682095e33",
+  "active": "eea1d6126d665e64",
   "lastOpenFiles": [
+    "site/assets/images/ec-第三方整合-line購物設定-lineoa導購.png",
+    "docs/assets/images/ec-第三方整合-line購物設定-lineoa導購.png",
     "site/assets/images/ec-第三方整合-line直播-hero.png",
     "docs/assets/images/ec-第三方整合-line直播-hero.png",
     "site/assets/images/ec-訂單-lineoa訂單.png",
@@ -455,8 +457,6 @@
     "site/assets/images/ec-商品-商品編輯頁-商品標籤.png",
     "docs/assets/images/ec-商品-商品編輯頁-商品標籤.png",
     "site/assets/images/ec-商品-所有商品-篩選已公開已上架商品.png",
-    "docs/assets/images/ec-商品-所有商品-篩選已公開已上架商品.png",
-    "site/assets/images/ec-第三方整合-line購物設定-line購物整合.png",
     "site/ec/website-management/設定網站基本資訊/index.html",
     "site/ec/website-management/設定網站基本資訊",
     "site/ec/website-appearance/樣板編輯器操作全攻略/index.html",
