@@ -1,57 +1,65 @@
 ---
 title: "申請與設定 LINE 購物導購"
-description: "" 
+description: 申請 LINE 購物導購並完成後台串接設定，將 LINE 購物流量導入官網下單。
 created: "2026-03-13 10:46"
-last_modified: 
+last_modified: "2026-03-13 10:50"
 lang: zh-TW
 type: tutorial
-status: ""
+status: 
 version: ""
 author: Jase
 reviewers: []
 notes: []
-ga_views: 
-feedback:
+ga_views: 0
+feedback: 0
 products:
   - EC
-modules: []
+modules:
+  - 第三方整合
 sites:
   - TW
-audiences: 
+audiences:
   - admin
-difficulty: ""
+difficulty: intermediate
 tnb: branch
-plans: 
+plans:
   - 專業 PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
-cyb_extensions: [] 
-intents: []
-features: []
+cyb_extensions: []
+intents:
+  - 申請_LINE_購物導購
+  - 設定_LINE_購物導購
+features:
+  - LINE_購物
 prerequisites: []
-related: []
-tags: []
-acoiv: ""
+related:
+  - 匯出訂單報表
+tags:
+  - LINE_購物
+  - 購物導購
+acoiv: activate
 apis: []
-devices: 
-  - desktop 
+devices:
+  - desktop
   - mobile
 ui_components: []
-paths: []
+paths: 
+  - 第三方整合 > LINE 購物設定
 layouts: []
 wp_url: []
 permalink: ""
-comments: ""
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/shopping-bag
-hide:
+hide: []
 ---
 
 # 申請與設定 LINE 購物導購
 
-
+申請 LINE 購物導購並完成後台串接設定，將 LINE 購物流量導入官網下單。
 { .subtitle }
 
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
@@ -111,24 +119,25 @@ hide:
 ## 訂單查看與管理
 
 *   **訂單歸類**：透過 LINE 購物導購完成的訂單，可於 [**「訂單」>「LINE 購物訂單」**](group-buy/設定 LINE 團購群組.md#訂單查看與紀錄管理){ data-preview } 中查看。
-*   **導購來源追蹤**：商家也可在匯出的訂單報表中查看「導購來源」欄位，確認訂單是否來自 LINE 購物。
-
-
-## 後續操作
-
-<div class="grid cards" markdown>
-
-- :lucide-import:{ .lg }   
-  [____]()     
-  。
-
-- :lucide-ban:{ .lg }     
-  [____]()  
-  。
-
-</div>
+*   **導購來源追蹤**：商家也可在匯出的訂單報表中[查看「導購來源」欄位](../../orders/匯出訂單報表.md#步驟一選擇報表欄位){ data-preview }，確認訂單是否來自 LINE 購物。
 
 ## 常見問題
 
-??? quote ""
+??? quote "為什麼訂單已經成立了，卻沒有出現在「LINE 購物訂單」中？"
+    這通常有以下幾種可能：
 
+    1. **消費者路徑中斷**：消費者雖然是從 LINE 購物進入官網，但在下單前曾切換瀏覽器、開啟無痕模式，或點擊了其他廣告來源（如 FB/Google 廣告），導致追蹤代碼（Cookie）被覆蓋。
+    2. **Cookie 過期**：LINE 購物的追蹤期效通常有其時限（視 LINE 規範而定），若消費者點擊後過久才下單，則不會歸類為導購訂單。
+    3. **手動輸入網址**：消費者在 LINE 購物看到商品後，自行重新開啟瀏覽器輸入網址進入官網，此行為無法追蹤。
+
+??? quote "為什麼我修改了商品價格，LINE 購物平台卻還是舊的？"
+    LINE 購物並非即時同步，系統會依照固定排程更新：
+
+    * **自動同步**：每日 5:00 AM 更新。若您在 10:00 AM 修改價格，最快要到隔日清晨才會更新。
+    * **手動同步**：您可以至「LINE 購物設定」點擊「手動更新目錄」來強制更新（每小時限一次）。
+
+??? quote "如果消費者取消訂單或退貨，LINE POINTS 點數會收回嗎？"
+    會。當商家在 CYBERBIZ 後台將訂單狀態更新為「已取消」或「退貨完成」時，系統會同步資訊給 LINE，LINE 將不會發放（或扣回）該筆訂單對應的點數。
+
+??? quote "為什麼特定的商品一直沒有出現在 LINE 購物的目錄中？"
+    請檢查該商品是否誤標了 「贈品」 或 「排除product feed」 標籤。這類標籤會觸發過濾機制，使商品不進入同步清單。
