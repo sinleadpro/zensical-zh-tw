@@ -48,7 +48,9 @@ ui_components: []
 paths: 
   - 第三方整合 > LINE 購物設定
 layouts: []
-wp_url: []
+wp_url: 
+  - https://www.cyberbiz.io/helpcenter/?p=7462
+  - https://www.cyberbiz.io/support/?p=36752
 permalink: ""
 comments: false
 search:

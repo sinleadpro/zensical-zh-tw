@@ -307,7 +307,10 @@ copyright = """
             { "安全性設定" = "ec/website-management/設定網站安全性.md" },
             { "星益欣電子發票" = "ec/website-management/星益欣電子發票設定指南.md" },
             { "為特定網域信箱套用指定會員標籤" = "ec/website-management/為特定網域信箱套用指定會員標籤.md" },
-            {"管理員與權限" = "ec/website-management/新增網站管理員並設定權限.md"}
+            {"管理員與權限" = "ec/website-management/新增網站管理員並設定權限.md"},
+            {"參考資料" = [
+                {"權限與選單對應表" = "ec/website-management/references/管理者權限與後台選單對應表.md"}
+            ]},
         ]},
     ]},
     { "智慧倉儲" = "wms/index.md" },
