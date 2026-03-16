@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 33.12611012433393,
+        "dimension": 33.214920071047956,
         "children": [
           {
             "id": "b215f5bf832eb05e",
@@ -62,20 +62,6 @@
               },
               "icon": "lucide-file",
               "title": "設定與發送 LINE OA 分眾訊息推播"
-            }
-          },
-          {
-            "id": "3b36808275fb1cba",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/marketing/設定與發送 EDM 電子報.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定與發送 EDM 電子報"
             }
           },
           {
@@ -204,12 +190,12 @@
             }
           }
         ],
-        "currentTab": 12
+        "currentTab": 11
       },
       {
         "id": "74dd1daaeb40eac4",
         "type": "tabs",
-        "dimension": 34.19182948490231,
+        "dimension": 34.10301953818828,
         "children": [
           {
             "id": "eea1d6126d665e64",
@@ -238,12 +224,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=25244",
-                "title": "訂單報表匯出",
+                "url": "https://www.cyberbiz.io/support/?p=6794",
+                "title": "如何匯出每筆定期訂單的子訂單報表",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "訂單報表匯出"
+              "title": "如何匯出每筆定期訂單的子訂單報表"
             }
           }
         ]
@@ -444,30 +430,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70ccdcc682095e33",
+  "active": "98427a1b64734bd6",
   "lastOpenFiles": [
-    "site/ec/orders/匯出定期定額子訂單預測報表/index.html",
-    "site/ec/orders/匯出定期定額子訂單預測報表",
+    "site/assets/images/ec-訂單-定期定額訂單-子訂單報表.png",
+    "docs/assets/images/ec-訂單-定期定額訂單-子訂單報表.png",
+    "site/assets/images/ec-訂單-定期定額訂單-匯出定期訂單.png",
+    "docs/assets/images/ec-訂單-定期定額訂單-匯出定期訂單.png",
+    "site/assets/images/ec-訂單-定期定額訂單.png",
+    "docs/assets/images/ec-訂單-定期定額訂單.png",
+    "site/ec/integrations/line/group-buy/index.html",
+    "site/ec/profit-sharing/匯出分潤報表/index.html",
+    "site/ec/profit-sharing/匯出分潤報表",
+    "site/ec/payments-and-logistics/CYBERBIZNOW/快速到貨訂單接單準備/index.html",
+    "site/ec/payments-and-logistics/CYBERBIZNOW/快速到貨訂單接單準備",
+    "site/ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step1.安裝啟用/index.html",
+    "site/ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step1.安裝啟用",
+    "site/ec/integrations/line/group-buy/設定 LINE 團購商品/index.html",
+    "site/ec/integrations/line/group-buy/設定 LINE 團購商品",
+    "site/ec/orders/設定未付款提醒/index.html",
+    "site/assets/images/ec-金物流-AFTEE.png",
+    "site/assets/images/ec-金物流-超商物流-超商退貨便-設定.gif",
+    "site/assets/images/ec-訊息推播-LINE OA 樣板-顧客訂單未付款提醒信.gif",
+    "site/assets/images/ec-金物流-aftee-前台顯示.png",
+    "site/assets/images/ec-所有門市-加入綁定.gif",
+    "docs/ec/notifications/設定與發送 EDM 電子報.md",
     "docs/ec/orders/匯出定期定額子訂單預測報表.md",
-    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流/index.html",
-    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流",
-    "site/ec/payments-and-logistics/查詢宅配託運單紀錄/index.html",
-    "site/ec/payments-and-logistics/查詢宅配託運單紀錄",
-    "site/ec/website-appearance/index.html",
-    "site/ec/website-appearance/修改結帳流程為優先填寫收件人資訊/index.html",
-    "site/ec/website-appearance/修改結帳流程為優先填寫收件人資訊",
-    "site/ec/integrations/line/設定 LINE 快速登入時取得會員手機號碼/index.html",
-    "site/ec/integrations/line/設定 LINE 快速登入時取得會員手機號碼",
-    "site/assets/images/ec-訂單-訂單報表匯出-時間區間.png",
-    "docs/assets/images/ec-訂單-訂單報表匯出-時間區間.png",
-    "site/assets/images/ec-訂單-訂單報表匯出-同筆訂單欄位重複顯示-勾選.png",
-    "site/assets/images/ec-訂單-訂單報表匯出-同筆訂單欄位重複顯示-未勾選.png",
-    "docs/assets/images/ec-訂單-訂單報表匯出-同筆訂單欄位重複顯示-勾選.png",
-    "docs/assets/images/ec-訂單-訂單報表匯出-同筆訂單欄位重複顯示-未勾選.png",
-    "site/assets/images/ec-訂單-訂單報表匯出-收信email.png",
-    "docs/assets/images/ec-訂單-訂單報表匯出-收信email.png",
-    "site/assets/images/EC-後台-行銷活動-一頁式商店-新增一頁式商店02.png",
-    "site/assets/images/ec-第三方整合-line團購商品-編輯價格.png",
     "docs/pos/orders/POS 報表列表與功能說明.md",
     "docs/ec/orders/references/訂單報表可用欄位.md",
     "docs/ec/orders/references/訂單各項折扣拆分.md",
@@ -490,7 +477,6 @@
     "docs/ec/integrations/line/group-buy/設定 LINE 團購商品.md",
     "docs/ec/integrations/line/group-buy/設定 LINE 團購機器人.md",
     "docs/ec/integrations/line/LINE 團購功能總覽.md",
-    "docs/ec/integrations/line/使用 LINE 團購進行購物.md",
-    "docs/ec/integrations/line/設定 LINE 團購群組.md"
+    "docs/ec/integrations/line/使用 LINE 團購進行購物.md"
   ]
 }
