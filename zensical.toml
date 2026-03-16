@@ -271,20 +271,23 @@ copyright = """
             ]},
             { "LINE" = [
                 {"overview" = "ec/integrations/line/index.md"},
-                {"串接 Messaging API" = "ec/integrations/line/串接 LINE Messaging API.md"},
-                { "LINE 快速登入" = "ec/integrations/line/設定 LINE 快速登入.md"},
-                {"獲取會員手機號碼" = "ec/integrations/line/設定 LINE 快速登入時取得會員手機號碼.md"},
-                {"LIFF 自動登入" = "ec/integrations/line/設定 LIFF 自動登入與會員綁定.md"},
-                {"LINE 會員綁定" = "ec/integrations/line/綁定 LINE 官方帳號與官網會員.md"},
-                {"篩選綁定會員名單" = "ec/integrations/line/篩選與應用 LINE OA 綁定會員名單.md"},
-                {"綁定會員送優惠券" = "ec/integrations/line/設定 LINE 綁定會員贈送優惠券.md"},
-                {"LINE 受眾串接" = "ec/integrations/line/設定 LINE OA 受眾串接.md"},
-                {"分眾訊息推播" = "ec/integrations/line/設定與發送 LINE OA 分眾訊息推播.md"},
-                {"LINE 加入好友工具" = "ec/integrations/line/LINE 官方帳號增加好友指南.md"},
-                {"官網加入好友連結" = "ec/integrations/line/在官網新增 LINE 加入好友入口.md"},
-                {"訂單頁加入好友連結" = "ec/integrations/line/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md"},
-                {"LINE 圖文選單" = "ec/integrations/line/設定 LINE 圖文選單.md"},
-                {"LINE Tag 追蹤" = "ec/integrations/line/設定與管理 LINE Tag.md"},
+                {"官方帳號串接" = [
+                    {"串接 Messaging API" = "ec/integrations/line/account-integration/串接 LINE Messaging API.md"},
+                    {"LINE 快速登入" = "ec/integrations/line/account-integration/設定 LINE 快速登入.md"},
+                    {"獲取會員手機號碼" = "ec/integrations/line/account-integration/設定 LINE 快速登入時取得會員手機號碼.md"},
+                    {"LIFF 自動登入" = "ec/integrations/line/account-integration/設定 LIFF 自動登入與會員綁定.md"},
+                    {"LINE 會員綁定" = "ec/integrations/line/account-integration/綁定 LINE 官方帳號與官網會員.md"},
+                    {"篩選綁定會員名單" = "ec/integrations/line/account-integration/篩選與應用 LINE OA 綁定會員名單.md"},
+                    {"綁定會員送優惠券" = "ec/integrations/line/account-integration/設定 LINE 綁定會員贈送優惠券.md"}
+                ]},
+                {"行銷與推播" = [
+                    {"LINE 受眾串接" = "ec/integrations/line/marketing/設定 LINE OA 受眾串接.md"},
+                    {"分眾訊息推播" = "ec/integrations/line/marketing/設定與發送 LINE OA 分眾訊息推播.md"},
+                    {"官網加入好友連結" = "ec/integrations/line/marketing/在官網新增 LINE 加入好友入口.md"},
+                    {"訂單頁加入好友連結" = "ec/integrations/line/marketing/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md"},
+                    {"LINE 圖文選單" = "ec/integrations/line/marketing/設定 LINE 圖文選單.md"},
+                    {"LINE Tag 追蹤" = "ec/integrations/line/marketing/設定與管理 LINE Tag.md"}
+                ]},
                 {"LINE 團購" = [
                     {"overview" = "ec/integrations/line/group-buy/index.md"},
                     {"LINE 團購機器人" = "ec/integrations/line/group-buy/設定 LINE 團購機器人.md"},
@@ -304,10 +307,15 @@ copyright = """
             { "續購與自動續約" = "ec/website-management/續購與自動續約.md" },
             { "設定顧客註冊流程與欄位" = "ec/website-management/設定顧客註冊流程與欄位.md" },
             { "網域管理" = "ec/website-management/網域管理.md" },
-            { "安全性設定" = "ec/website-management/設定網站安全性.md" },
+            {"安全性設定" = "ec/website-management/設定網站安全性.md"},
+            {"二階段驗證 (2FA)" = "ec/website-management/設定與管理二階段驗證.md"},
+            {"Authy 二階段驗證" = "ec/website-management/使用 Authy 啟用二階段驗證設定.md"},
             { "星益欣電子發票" = "ec/website-management/星益欣電子發票設定指南.md" },
             { "為特定網域信箱套用指定會員標籤" = "ec/website-management/為特定網域信箱套用指定會員標籤.md" },
-            {"管理員與權限" = "ec/website-management/新增網站管理員並設定權限.md"}
+            {"管理員與權限" = "ec/website-management/新增網站管理員並設定權限.md"},
+            {"參考資料" = [
+                {"權限與選單對應表" = "ec/website-management/references/管理者權限與後台選單對應表.md"}
+            ]},
         ]},
     ]},
     { "智慧倉儲" = "wms/index.md" },
