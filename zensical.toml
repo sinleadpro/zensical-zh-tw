@@ -64,11 +64,20 @@ copyright = """
             { "訂單未付款提醒" = "ec/orders/設定未付款提醒.md" },
             { "提供付款連結" = "ec/orders/提供顧客付款連結.md" },
             { "訂單自動結案" = "ec/orders/設定訂單自動結案.md" },
+            { "訂單報表匯出" = "ec/orders/匯出訂單報表.md"},
+            {"匯出定期預估報表"= "ec/orders/匯出定期定額子訂單預測報表.md"},
             { "黑貓快速到店付款" = "ec/orders/設定黑貓快速到店付款方式.md" },
             { "超商退貨便 C2B" = "ec/orders/操作超商退貨便 C2B.md" },
             { "全家冷凍店到店 C2C" = "ec/orders/操作全家冷凍店到店 C2C 出貨.md" },
             { "熱感列印超商托運單" = "ec/orders/熱感列印超商托運單.md" },
-            { "超商店到店 C2C" = "ec/orders/操作超商店到店 C2C 出貨.md" }
+            { "超商店到店 C2C" = "ec/orders/操作超商店到店 C2C 出貨.md" },
+            {"參考資料" = [
+                {"列表操作功能"="ec/orders/references/訂單列表操作功能說明.md"},
+                {"訂單列表欄位"="ec/orders/references/訂單列表欄位參考表.md"},
+                {"訂單搜尋欄位"="ec/orders/references/訂單搜尋欄位規範.md"},
+                {"訂單篩選欄位"="ec/orders/references/訂單篩選條件欄位定義.md"},
+                {"報表可用欄位"="ec/orders/references/訂單報表可用欄位.md"}
+            ]},
         ]},
         { "會員" = [
             { "overview" = "ec/members/index.md"},
@@ -309,7 +318,8 @@ copyright = """
         { "訂單" = [
             { "overview" = "pos/orders/index.md" },
             { "訂單自動結案" = "pos/orders/設定 POS 訂單自動結案.md" },
-            { "修改店長改價顯示名稱" = "pos/orders/修改訂單明細頁「店長改價」的顯示名稱.md" }
+            { "修改店長改價顯示名稱" = "pos/orders/修改訂單明細頁「店長改價」的顯示名稱.md" },
+            {"POS 報表列表"="pos/orders/POS 報表列表與功能說明.md"}
         ]},
         { "商品" = [
             { "商品標籤列印" = "pos/products/商品標籤列印教學.md" }

@@ -217,12 +217,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=7458",
-                "title": "PLUS用戶 - LINE直播申請開通流程與設定 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=1266",
+                "title": "訂單報表匯出 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "PLUS用戶 - LINE直播申請開通流程與設定 - CYBERBIZ 一般版教學文件"
+              "title": "訂單報表匯出 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -238,12 +238,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=32529",
-                "title": "LINE直播申請開通流程與設定",
+                "url": "https://www.cyberbiz.io/support/?p=25244",
+                "title": "訂單報表匯出",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "LINE直播申請開通流程與設定"
+              "title": "訂單報表匯出"
             }
           }
         ]
@@ -446,27 +446,35 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/assets/images/ec-第三方整合-line直播-hero.png",
-    "docs/assets/images/ec-第三方整合-line直播-hero.png",
-    "site/assets/images/ec-訂單-lineoa訂單.png",
-    "docs/assets/images/ec-訂單-lineoa訂單.png",
-    "site/assets/images/ec-商品-商品編輯頁-pid-slug.png",
-    "docs/assets/images/ec-商品-商品編輯頁-pid-slug.png",
-    "site/assets/images/ec-商品-商品編輯頁-商品標籤.png",
-    "docs/assets/images/ec-商品-商品編輯頁-商品標籤.png",
-    "site/assets/images/ec-商品-所有商品-篩選已公開已上架商品.png",
-    "docs/assets/images/ec-商品-所有商品-篩選已公開已上架商品.png",
-    "site/assets/images/ec-第三方整合-line購物設定-line購物整合.png",
-    "site/ec/website-management/設定網站基本資訊/index.html",
-    "site/ec/website-management/設定網站基本資訊",
-    "site/ec/website-appearance/樣板編輯器操作全攻略/index.html",
-    "site/ec/website-appearance/樣板編輯器操作全攻略",
-    "site/ec/products/creation/新增單一商品/index.html",
-    "site/ec/products/creation/新增單一商品",
-    "site/ec/integrations/line/申請與設定 LINE 購物導購/index.html",
-    "site/ec/integrations/line/申請與設定 LINE 購物導購",
-    "site/ec/website-management/index.html",
-    "site/ec/orders/出貨狀態物流提示文字說明/index.html",
+    "site/ec/orders/匯出定期定額子訂單預測報表/index.html",
+    "site/ec/orders/匯出定期定額子訂單預測報表",
+    "docs/ec/orders/匯出定期定額子訂單預測報表.md",
+    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流/index.html",
+    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流",
+    "site/ec/payments-and-logistics/查詢宅配託運單紀錄/index.html",
+    "site/ec/payments-and-logistics/查詢宅配託運單紀錄",
+    "site/ec/website-appearance/index.html",
+    "site/ec/website-appearance/修改結帳流程為優先填寫收件人資訊/index.html",
+    "site/ec/website-appearance/修改結帳流程為優先填寫收件人資訊",
+    "site/ec/integrations/line/設定 LINE 快速登入時取得會員手機號碼/index.html",
+    "site/ec/integrations/line/設定 LINE 快速登入時取得會員手機號碼",
+    "site/assets/images/ec-訂單-訂單報表匯出-時間區間.png",
+    "docs/assets/images/ec-訂單-訂單報表匯出-時間區間.png",
+    "site/assets/images/ec-訂單-訂單報表匯出-同筆訂單欄位重複顯示-勾選.png",
+    "site/assets/images/ec-訂單-訂單報表匯出-同筆訂單欄位重複顯示-未勾選.png",
+    "docs/assets/images/ec-訂單-訂單報表匯出-同筆訂單欄位重複顯示-勾選.png",
+    "docs/assets/images/ec-訂單-訂單報表匯出-同筆訂單欄位重複顯示-未勾選.png",
+    "site/assets/images/ec-訂單-訂單報表匯出-收信email.png",
+    "docs/assets/images/ec-訂單-訂單報表匯出-收信email.png",
+    "site/assets/images/EC-後台-行銷活動-一頁式商店-新增一頁式商店02.png",
+    "site/assets/images/ec-第三方整合-line團購商品-編輯價格.png",
+    "docs/pos/orders/POS 報表列表與功能說明.md",
+    "docs/ec/orders/references/訂單報表可用欄位.md",
+    "docs/ec/orders/references/訂單各項折扣拆分.md",
+    "docs/ec/orders/references/訂單報表導購來源.md",
+    "docs/ec/orders/references/訂單各項折扣拆分說明.md",
+    "docs/ec/orders/匯出訂單報表.md",
+    "docs/ec/integrations/line/匯出訂單報表.md",
     "docs/ec/website-management/新增網站管理員並設定權限.md",
     "docs/ec/profit-sharing/了解分潤功能.md",
     "docs/ec/marketing/設定滿額贈與滿件贈.md",
@@ -483,14 +491,6 @@
     "docs/ec/integrations/line/group-buy/設定 LINE 團購機器人.md",
     "docs/ec/integrations/line/LINE 團購功能總覽.md",
     "docs/ec/integrations/line/使用 LINE 團購進行購物.md",
-    "docs/ec/integrations/line/設定 LINE 團購群組.md",
-    "docs/ec/integrations/line/設定 LINE 團購商品.md",
-    "docs/ec/integrations/line/設定 LINE 團購機器人.md",
-    "docs/ec/products/creation/新增單一商品.md",
-    "docs/ec/integrations/google/設定 Google 購物廣告.md",
-    "docs/ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md",
-    "docs/ec/integrations/google/設定自動化廣告.md",
-    "docs/ec/website-appearance/使用樣板編輯器恢復網頁代碼.md",
-    "docs/ec/orders/訂單出貨流程.md"
+    "docs/ec/integrations/line/設定 LINE 團購群組.md"
   ]
 }
