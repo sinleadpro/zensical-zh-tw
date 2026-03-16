@@ -87,7 +87,7 @@ hide: []
 串接 LINE 認證權限，在快速登入流程中自動取得並驗證會員手機號碼，以提升帳號比對精準度與資料完整性。
 { .subtitle }
 
-![](../../../assets/images/ec-第三方整合-line login-oc-phone-number.png){ .hero-page }
+![](../../../../assets/images/ec-第三方整合-line login-oc-phone-number.png){ .hero-page }
 
 ## 什麼是 LINE 快速登入時取得會員手機號碼 
 
@@ -116,7 +116,7 @@ hide: []
 
 1. **確認 Provider 狀態**：在 Provider 首頁確認該項目旁是否有認證標章（綠色勾號）。
 
-	![](../../../assets/images/ec-第三方整合-line oa 認證盾牌.png)
+	![](../../../../assets/images/ec-第三方整合-line oa 認證盾牌.png)
 	
 2. **檢查權限設定**：
 
@@ -126,7 +126,7 @@ hide: []
 
 	- 確認權限清單中包含 **OC_PHONE_NUMBER**。
 
-	![](../../../assets/images/ec-第三方整合-line-login-permissions.png)
+	![](../../../../assets/images/ec-第三方整合-line-login-permissions.png)
 	
 ## 系統比對邏輯與情境
 
@@ -190,11 +190,11 @@ graph LR
 1. 前往 [LINE Developers 後台 :lucide-external-link:](https://developers.line.biz/) 。
 2. 進入對應的 Channel，切換至 **LIFF** 頁籤。
 
-	![](../../../assets/images/ec-第三方整合-line developer-liff tab.png)
+	![](../../../../assets/images/ec-第三方整合-line developer-liff tab.png)
 
 3. 在 **Scopes (權限範圍)** 區塊中，勾選 **phone** 選項。
 
-	![](../../../assets/images/ec-第三方整合-line login-liff-scope.png)
+	![](../../../../assets/images/ec-第三方整合-line login-liff-scope.png)
 
 4. **設定後的實際效果：**
 	

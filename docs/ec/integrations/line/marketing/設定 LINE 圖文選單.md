@@ -85,7 +85,7 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
-![](../../../assets/images/ec-第三方整合-line 圖文選單.png){ .hero-page }
+![](../../../../assets/images/ec-第三方整合-line 圖文選單.png){ .hero-page }
 
 
 ## 什麼是 LINE 圖文選單
@@ -130,7 +130,7 @@ hide: []
 
 > :lucide-info: 詳細設定流程，請參閱 [LINE 官方說明文件 :lucide-external-link:](https://tw.linebiz.com/manual/line-official-account/oa-manager-richmenu/)。
 
-![](../../../assets/images/ec-第三方整合-line-圖文選單設定.png)
+![](../../../../assets/images/ec-第三方整合-line-圖文選單設定.png)
 
 
 ## 設定圖文選單動作
@@ -140,7 +140,7 @@ hide: []
 - **連結網址：** 請輸入欲導流之目標頁面的完整連結（須包含 `https://`）。
 - **動作標籤：** 無障礙支援，在適用情況下將以語音朗讀此處說明文字；在不支援的裝置上只會顯示文字。
 
-![](../../../assets/images/ec-第三方整合-line-圖文選單-連結.png)
+![](../../../../assets/images/ec-第三方整合-line-圖文選單-連結.png)
 
 請依需求選擇以下對應連結：
 
@@ -192,7 +192,7 @@ hide: []
     
 - **前提條件**：需確認系統方案已啟用 **CYBERBIZ POS** 功能並已完成 [LINE 會員綁定設定](綁定 LINE 官方帳號與官網會員.md){ data-preview }  。
 
-![](../../../assets/images/ec-第三方整合-line-圖文選單-會員卡.png)
+![](../../../../assets/images/ec-第三方整合-line-圖文選單-會員卡.png)
 
 !!! note "延伸閱讀：門市端如何操作"
 	詳細的 POS 掃碼登入、紅利折抵及常見問題排除說明，請參閱 [如何設定與使用 LINE  會員條碼 (POS 串接)](../../../pos/integrations/line/設定與使用 LINE 顯示會員條碼（串接 POS 結帳）.md){ data-preview }  。
@@ -222,7 +222,7 @@ hide: []
 
 !!! note "更多會員綁定方法，請參閱 [LINE 會員綁定](綁定 LINE 官方帳號與官網會員#商家後台設定方法)。"
 
-![](../../../assets/images/ec-第三方整合-line-圖文選單-會員綁定.png)
+![](../../../../assets/images/ec-第三方整合-line-圖文選單-會員綁定.png)
 
 
 

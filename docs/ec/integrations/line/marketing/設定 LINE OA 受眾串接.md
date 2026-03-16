@@ -73,7 +73,7 @@ id: 設定 LINE OA 受眾串接
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
-![](../../../assets/images/ec-會員-所有會員-line受眾.png){ .hero-page }
+![](../../../../assets/images/ec-會員-所有會員-line受眾.png){ .hero-page }
 
 ## LINE 受眾串接說明
 
@@ -94,20 +94,20 @@ id: 設定 LINE OA 受眾串接
     - 「已完成 LINE 綁定」
     - 「已完成 LINE 登入或 LINE 綁定」
 
-	![](../../../assets/images/ec-會員-所有會員-會員篩選器-line受眾條件.png)
+	![](../../../../assets/images/ec-會員-所有會員-會員篩選器-line受眾條件.png)
 
 3. **套用與儲存**：設定完畢後點選 **套用**，確認名單無誤後點選右方區塊的 **儲存**。
 4. **輸入資訊**：輸入受眾的【名稱】與【描述】，並 **勾選下方欄位** 後按下「確認」。
 
-	![](../../../assets/images/ec-會員-所有會員-會員篩選器-line受眾分群建立.png)
+	![](../../../../assets/images/ec-會員-所有會員-會員篩選器-line受眾分群建立.png)
 
 5. **查看分群**：點選 **會員分群** 選單可查看所建立 LINE 受眾分群，點擊 **新增至 LINE 後台** 將受眾新增至 LINE 後台。
 
-	![](../../../assets/images/ec-會員-line受眾-新增至line後台.png)
+	![](../../../../assets/images/ec-會員-line受眾-新增至line後台.png)
 	
 6. **檢查結果**：進入 LINE OA 管理後台（主頁 > 資料管理 > 受眾）查看，成功串接的受眾名稱會顯示為「**(篩選條件名稱)_CYBERBIZ上傳**」。
 
-	![](../../../assets/images/ec-會員-會員群組-line受眾-line後台.png)
+	![](../../../../assets/images/ec-會員-會員群組-line受眾-line後台.png)
 
 ## 受眾管理（更新與刪除）
 
@@ -117,7 +117,7 @@ id: 設定 LINE OA 受眾串接
 
 !!! warning "由 CYBERBIZ 建立的受眾，**無法直接在 LINE 後台更新或刪除**，必須透過 CYBERBIZ 後台進行同步處理。"
 
-![](../../../assets/images/ec-會員-line受眾-更新至line後台.png)
+![](../../../../assets/images/ec-會員-line受眾-更新至line後台.png)
 
 ## 如何應用 LINE 受眾
 
@@ -125,7 +125,7 @@ id: 設定 LINE OA 受眾串接
 
 - 在 LINE OA 後台「群發訊息」時，傳送對象選擇「**篩選目標**」，點擊 編輯按鈕 :lucide-pencil: 可新增受眾。
 
-	![](../../../assets/images/ec-會員-會員分群-line受眾-line後台新增受眾.png)
+	![](../../../../assets/images/ec-會員-會員分群-line受眾-line後台新增受眾.png)
 
 - 新增受眾並選擇 CYBERBIZ 傳送的名稱，可設定為「包含」或「不包含」該受眾。
 
@@ -133,11 +133,11 @@ id: 設定 LINE OA 受眾串接
 
 - 在 [Ad Manager :lucide-external-link:](https://admanager.line.biz/home/) 點選「受眾」>「建立受眾」，選擇「**分享自 LINE 官方帳號的使用者識別碼 UID 受眾**」。
 
-	![](../../../assets/images/ec-會員-會員分群-line受眾-ad-manager-建立受眾.png)
+	![](../../../../assets/images/ec-會員-會員分群-line受眾-ad-manager-建立受眾.png)
 
 - 之後建立廣告群組時，即可選用此受眾包進行精準投放。
 
-	![](../../../assets/images/line-ad-manager-廣告群組-建立受眾.png)
+	![](../../../../assets/images/line-ad-manager-廣告群組-建立受眾.png)
 
 !!! info "瞭解 [什麼是 LINE 成效型廣告投放 (LAP) :lucide-external-link:](https://tw.linebiz.com/service/display-solutions/line-ads-platform/)。"
 

@@ -88,7 +88,7 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
-![](../../../assets/images/ec-第三方整合-line liff-產生網址.png){ .hero-page }
+![](../../../../assets/images/ec-第三方整合-line liff-產生網址.png){ .hero-page }
 
 ## 什麼是 LIFF
 
@@ -127,7 +127,7 @@ hide: []
 
 5. **複製網址：** 儲存後頁面下方會出現全站 LIFF 網址，點選藍色圖示 :lucide-files: 即可複製。
 
-	![](../../../assets/images/ec-第三方整合-liff-產生全站 liff 網址.png)
+	![](../../../../assets/images/ec-第三方整合-liff-產生全站 liff 網址.png)
 
 	??? note "LIFF 網址說明"
 
@@ -141,7 +141,7 @@ hide: []
 
 6. **LINE Developers 同步狀態：** 完成上述步驟後，LINE Developers 後台會自動同步產生對應的 LIFF 設定。
 
-	![](../../../assets/images/ec-第三方串接-line-liff app.png)
+	![](../../../../assets/images/ec-第三方串接-line-liff app.png)
     > :lucide-triangle-alert: 請 **統一使用 CYBERBIZ 後台生成** 的 LIFF 連結，請勿擅自更動 LINE Developers 後台中的專屬 LIFF 設定，以免導致跳轉機制失效。
 
 	!!! tip "想要在 LIFF 流程中一併取得會員手機號碼？"
@@ -171,7 +171,7 @@ hide: []
 
 4. **進入目標頁：** 以 **會員登入狀態** 進入指定目的頁面。
 
-![](../../../assets/images/ec-第三方整合-line-liff登入.gif)
+![](../../../../assets/images/ec-第三方整合-line-liff登入.gif)
 
 ## 應用情境範例
 

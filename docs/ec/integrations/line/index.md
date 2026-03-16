@@ -41,7 +41,7 @@ permalink: ""
 comments: ""
 search:
   exclude: ""
-icon: fontawesome/brands-line
+icon: simple/line
 hide:
 ---
 
@@ -54,7 +54,7 @@ hide:
 { .hero-page }
 
 
-在 CYBERBIZ 系統中，LINE 的應用涵蓋了從會員登入、自動化通知到行銷導購的全方位功能。以下為 LINE 各項應用的詳細說明與操作教學：
+- [!] 在 CYBERBIZ 系統中，LINE 的應用涵蓋了從會員登入、自動化通知到行銷導購的全方位功能。以下為 LINE 各項應用的詳細說明與操作教學：
 
 
 ## 開始使用
@@ -134,7 +134,7 @@ hide:
 
 - :lucide-code:{ .lg }     
   [__LINE Tag 設定__](設定與管理 LINE Tag.md){ data-preview }  
-  類似於 FB Pixel，可用於追蹤官網上的轉換事件（如完成註冊、加入購物車、下單），並打包「網站流量受眾」進行再行銷。
+  類似於 FB Pixel，可用於追蹤官網上的轉換事件（如完成註冊、加入購物車、下單），並打包「網站流量受眾」再行銷。
 
 - :lucide-ticket-plus:{ .lg }     
   [__綁定送優惠券__](設定與管理 LINE Tag.md){ data-preview }  
@@ -191,4 +191,3 @@ hide:
 
 - **Email 綁定：** 顧客的 LINE 帳號必須先在 LINE App 中綁定 Email，方可使用快速登入功能。
 
-## 常見問題

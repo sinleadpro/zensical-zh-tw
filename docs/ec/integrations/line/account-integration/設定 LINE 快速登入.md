@@ -84,7 +84,7 @@ hide: []
 啟用 LINE 快速登入，簡化會員註冊流程，整合官方帳號好友追蹤，並支援會員資料同步與 LIFF 一鍵登入。
 { .subtitle }
 
-![](../../../assets/images/ec-第三方整合-line 註冊登入.png){ .hero-page }
+![](../../../../assets/images/ec-第三方整合-line 註冊登入.png){ .hero-page }
 
 ## 什麼是 LINE 快速登入
 
@@ -115,7 +115,7 @@ hide: []
 
 	- 填寫商店名稱（Channel name）、商店簡述（Channel description）、Email 及網站隱私政策/服務條款網址。
 
-	![](../../../assets/images/ec-第三方整合-line login channel.gif)
+	![](../../../../assets/images/ec-第三方整合-line login channel.gif)
 	
 3. **申請 OpenID Connect**：
 
@@ -123,7 +123,7 @@ hide: []
 
 	- 勾選內容並依照需求上傳商家 Logo 後提交（Submit），這步是 **確保能抓取顧客 Email** 的關鍵。
 
-	![](../../../assets/images/ec-第三方整合-line login channel-openid connect.gif)
+	![](../../../../assets/images/ec-第三方整合-line login channel-openid connect.gif)
 
 4. **設定 Callback URL（關鍵步驟）**：
 
@@ -131,11 +131,11 @@ hide: []
 
 	- **提示**：若您有自有網域，請務必將 CYBERBIZ 網域及自有網域都填入，跨境用戶則填寫一般網域即可，不需加上 `zh-TW`。
 
-	![](../../../assets/images/ec-第三方整合-line login channel-callback url.png)
+	![](../../../../assets/images/ec-第三方整合-line login channel-callback url.png)
 	
 5. **正式發布**：將 Channel 狀態從「Developing」轉為「**Published**」。
 
-	![](../../../assets/images/ec-第三方整合-line login channel-publish.png)
+	![](../../../../assets/images/ec-第三方整合-line login channel-publish.png)
 
 ## CYBERBIZ 後台串接步驟
 
@@ -145,7 +145,7 @@ hide: []
 
 3. **啟用功能**：貼上 ID 與密鑰，並開啟「**啟用 LINE 登入**」開關後儲存，前台即可看到登入按鈕。
 
-![](../../../assets/images/ec-第三方整合-line login channel-channel id and secret-copy and paste.gif)
+![](../../../../assets/images/ec-第三方整合-line login channel-channel id and secret-copy and paste.gif)
 
 ## 進階與增值功能
 
@@ -153,11 +153,11 @@ hide: []
 
 - 在 LINE Developers 的 **Basic settings > Linked LINE Official Account** 中選擇同 Provider 下的官方帳號。
 
-	![](../../../assets/images/ec-第三方整合-line login-add friend.png)
+	![](../../../../assets/images/ec-第三方整合-line login-add friend.png)
 
 - 設定後，顧客在快速登入時介面會出現「加入好友」的選項。
 
-	![](../../../assets/images/ec-第三方整合-line login-加入好友前台.png)
+	![](../../../../assets/images/ec-第三方整合-line login-加入好友前台.png)
 
 ## 後續操作
 

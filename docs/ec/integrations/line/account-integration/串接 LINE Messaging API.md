@@ -82,7 +82,7 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
-![](../../../assets/images/ec-第三方整合-line oa.png){ .hero-page }
+![](../../../../assets/images/ec-第三方整合-line oa.png){ .hero-page }
 
 ## 串接 LINE OA Messaging API 說明
 
@@ -114,7 +114,7 @@ hide: []
 
 4. **基本資料填寫：** 視需求填入官網的「隱私權政策」與「服務條款」網址。
 
-![](../../../assets/images/ec-第三方整合-line-啟用 messaging api.gif)
+![](../../../../assets/images/ec-第三方整合-line-啟用 messaging api.gif)
  
 ## 步驟二：取得串接金鑰並回填至 CYBERBIZ
 
@@ -126,7 +126,7 @@ hide: []
 
     - **Messaging API 頁籤：** 滑至頁面底部，於「Channel access token」欄位點擊 **Issue** 並複製產生的金鑰。
 
-	![](../../../assets/images/ec-第三方整合-line-channel-credentials-get.gif)
+	![](../../../../assets/images/ec-第三方整合-line-channel-credentials-get.gif)
  
 3. **回填至 CYBERBIZ 管理後台** 開啟 CYBERBIZ 後台，前往 **第三方整合 > LINE OA 設定**。
 
@@ -154,7 +154,7 @@ hide: []
 
     - **自動回應訊息：** 建議設為 **「停用」**，改由系統（如 CYBERBIZ 或客服系統）統一發送訊息，避免產生重疊回覆。
 
-![](../../../assets/images/ec-第三方整合-line-webhook-copy-past-line-dev.gif)
+![](../../../../assets/images/ec-第三方整合-line-webhook-copy-past-line-dev.gif)
 
 ## 步驟四：進階功能應用（選擇性）
 
@@ -166,7 +166,7 @@ hide: []
 
 - **價值：** 縮短購物路徑，讓 LINE 官方帳號成為移動端的商品導購入口。
 
-![](../../../assets/images/ec-第三方整合-line-商品查詢自動回覆.png)
+![](../../../../assets/images/ec-第三方整合-line-商品查詢自動回覆.png)
 
 ### 第三方系統資料轉拋 (Webhook Relay)
 
@@ -176,7 +176,7 @@ hide: []
 
  	- **限制：** 最多可設定 **5 組** 轉拋網址。
 
-![](../../../assets/images/ec-第三方整合-line-webhook-replay.gif)
+![](../../../../assets/images/ec-第三方整合-line-webhook-replay.gif)
 
 ### 自動化通知樣板
 

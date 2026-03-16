@@ -82,7 +82,7 @@ hide:
 [:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能) | 拖拉版型
 { .doc-badge }
 
-![](../../../assets/images/ec-第三方整合-line-官方加入好友工具.png){ .hero-page }
+![](../../../../assets/images/ec-第三方整合-line-官方加入好友工具.png){ .hero-page }
 
 ## 拖拉版型加入好友工具說明
 
@@ -110,22 +110,22 @@ hide:
 - **設定步驟**：
     1. 新增一個圖片區塊。
 
-		![](../../../assets/images/ec-網站外觀-彈窗廣告-圖片.gif)
+		![](../../../../assets/images/ec-網站外觀-彈窗廣告-圖片.gif)
 
     2. **上傳圖片**：建議在電腦/平板/手機版圖片中上傳「加入好友行動條碼」圖片或貼上 URL 連結。
 
-		![](../../../assets/images/ec-網站外觀-彈窗廣告-圖片-line-oa-qrcode.gif)
+		![](../../../../assets/images/ec-網站外觀-彈窗廣告-圖片-line-oa-qrcode.gif)
 
     3. **縮圖設定**：商家可自行製作縮圖，並根據前台畫面調整縮圖大小。
     4. **圖片連結**：選擇外部連結，貼上從 LINE Official Account Manager [複製的「好友網址」](../../notifications/發送 LINE 加入好友邀請.md#get-line-oa-add-friend-link){ data-preview }。
 
-		![](../../../assets/images/ec-網站外觀-彈窗廣告-圖片連結.png)
+		![](../../../../assets/images/ec-網站外觀-彈窗廣告-圖片連結.png)
 
     5. **儲存設定**。
     
 - **完成設定畫面**：
 
-	![](../../../assets/images/ec-網站外觀-彈窗廣告-line 加入好友.gif)
+	![](../../../../assets/images/ec-網站外觀-彈窗廣告-line 加入好友.gif)
 
 ---
 
@@ -140,11 +140,11 @@ hide:
     3. **SEO 優化**：務必填寫「圖片替代文字」以優化搜尋引擎功能。
     4. **停留設定**：在「其他版面設定」中可 [調整素材停留秒數與邊距](../../website-appearance/拖拉版型網站設定#版面細節設定-其他版面設計)。
 
-	![](../../../assets/images/ec-網站外觀-輪播素材-新增.gif)
+	![](../../../../assets/images/ec-網站外觀-輪播素材-新增.gif)
 
 - **完成設定畫面**：
 
-	![](../../../assets/images/ec-網站外觀-輪播素材-前台畫面.gif)
+	![](../../../../assets/images/ec-網站外觀-輪播素材-前台畫面.gif)
 
 !!! note "更多輪播素材相關設定，請參閱 [輪播素材設定說明](../../website-appearance/拖拉版型網站設定#輪播素材)。"
 
@@ -159,7 +159,7 @@ hide:
     1. 點選「其他版面設計」。
     2. 找到 **「社群媒體設定」**，將 **LINE 開啟** 並貼上好友邀請連結。
 
-![](../../../assets/images/ec-網站外觀-頁腳-line.gif)
+![](../../../../assets/images/ec-網站外觀-頁腳-line.gif)
 
 ---
 
@@ -171,17 +171,17 @@ hide:
 - **設定步驟**：
     1. 先至 [LINE Official Account Manager :lucide-external-link:](https://manager.line.biz/) 複製 **「建立按鈕」** 的語法。
 
-		![](../../../assets/images/ec-第三方整合-line-oa-建立按鈕.gif)
+		![](../../../../assets/images/ec-第三方整合-line-oa-建立按鈕.gif)
 
     2. 在 CYBERBIZ 選單設定介面中點選欲設定的選單，進入編輯頁面，再點擊 **「新增連結」**。
     3. **新增選單項目**：貼上剛才複製的按鈕語法。
     4. **連結項目**：選擇 **「外部連結」**，並貼上 [LINE 好友邀請網址](../../notifications/發送 LINE 加入好友邀請.md#get-line-oa-add-friend-link){ data-preview }。
 
-		![](../../../assets/images/ec-網站外觀-選單導覽列-line-加入好友.gif)
+		![](../../../../assets/images/ec-網站外觀-選單導覽列-line-加入好友.gif)
 
     5. 儲存選單後，前台導覽列即可出現加入好友的圖片連結。
 
-		![](../../../assets/images/ec-網站外觀-選單導覽列-line-加入好友-前台.png)
+		![](../../../../assets/images/ec-網站外觀-選單導覽列-line-加入好友-前台.png)
 
 !!! note "更多選單與導覽列設定，請參閱 [選單/導覽列設定說明](../../website-appearance/設定選單與導覽列.md){ data-preview }  。"
 

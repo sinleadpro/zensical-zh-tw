@@ -74,7 +74,7 @@ hide:
 [:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能) | 拖拉版型
 { .doc-badge }
 
-![](../../../assets/images/ec-網站外觀-order-done-extra-content-liquid.png){ .hero-page }
+![](../../../../assets/images/ec-網站外觀-order-done-extra-content-liquid.png){ .hero-page }
 
 ## 訂單相關頁面顯示 LINE 加入好友連結說明
 
@@ -94,12 +94,12 @@ hide:
 2. **選擇操作：** 在目前使用的版型上點選「**選擇操作**」>「**CSS/HTML編輯器**」。
 3. **搜尋檔案：** 在編輯器搜尋欄中輸入檔案名稱：**`order_done_extra_content.liquid`**。
 
-	![](../../../assets/images/ec-網站外觀-樣板編輯器-order-done-extra-content-liquid.gif)
+	![](../../../../assets/images/ec-網站外觀-樣板編輯器-order-done-extra-content-liquid.gif)
 
 4. **編輯程式碼：** 編輯完成後，點擊 **儲存** 以套用變更。
 5. **前台畫面範例：**
 
-	![](../../../assets/images/ec-網站外觀-訂單頁顯示 line 加入好友-前台.png)
+	![](../../../../assets/images/ec-網站外觀-訂單頁顯示 line 加入好友-前台.png)
 
 ## 程式碼撰寫建議
 
@@ -117,7 +117,7 @@ hide:
     
     _(註：若不需區分頁面，則直接放置內容即可)_
 
-	![](../../../assets/images/ec-網站外觀-樣板-order-done-extra-content-liquid-訂單成立頁-付款完成頁.png)
+	![](../../../../assets/images/ec-網站外觀-樣板-order-done-extra-content-liquid-訂單成立頁-付款完成頁.png)
 
 - **恢復機制：** 若修改後發生異常，可參考[「恢復樣版編輯器」](../../website-appearance/使用樣板編輯器恢復網頁代碼.md){ data-preview }  功能將檔案回溯至先前版本。
 

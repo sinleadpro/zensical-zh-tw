@@ -78,7 +78,7 @@ hide: []
 [:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | AUTOMATION 
 { .doc-badge }
 
-![](../../../assets/images/ec-訊息推播-lineoa-訊息.png){ .hero-page }
+![](../../../../assets/images/ec-訊息推播-lineoa-訊息.png){ .hero-page }
 
 ## LINE OA 分眾訊息推播說明
 
@@ -103,7 +103,7 @@ hide: []
     *   **文字訊息**：支援換行與 **emoji**，不限制字元數。點擊送出後會立即排程發送。
     *   **圖片訊息**：上傳單張圖片（建議規格：**1MB 以內、1000x1000px**，支援 JPG/PNG/JPEG/GIF），並可設定圖片點擊後導轉的連結。
 
-![](../../../assets/images/ec-訊息推播-lineoa訊息-操作.gif)
+![](../../../../assets/images/ec-訊息推播-lineoa訊息-操作.gif)
 
 ## 後續操作
 

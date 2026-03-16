@@ -93,7 +93,7 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
-![](../../../assets/images/ec-第三方整合-line 註冊登入.png){ .hero-page }
+![](../../../../assets/images/ec-第三方整合-line 註冊登入.png){ .hero-page }
 
 ## 什麼是 LINE 官方帳號與官網會員綁定
 
@@ -127,7 +127,7 @@ hide: []
 
 !!! info "詳細設定流程，請參閱 [LINE 圖文選單設定](設定 LINE 圖文選單.md){ data-preview }  或查看 [LINE 官方說明文件 :lucide-external-link:](https://tw.linebiz.com/manual/line-official-account/oa-manager-richmenu/)。"
 
-![](../../../assets/images/ec-第三方整合-line oa-圖文連結.png)
+![](../../../../assets/images/ec-第三方整合-line oa-圖文連結.png)
 
 ---
 
@@ -139,7 +139,7 @@ hide: []
 
 !!! info "LINE 加入好友訊息的詳細製作規格，請參閱 [LINE 官方說明文件 :lucide-external-link:](https://tw.linebiz.com/manual/line-official-account/20200514welcomemessage/)。"
 
-![](../../../assets/images/ec-第三方整合-line oa 會員綁定-加入好友訊息.png)
+![](../../../../assets/images/ec-第三方整合-line oa 會員綁定-加入好友訊息.png)
 
 ---
 
@@ -153,7 +153,7 @@ hide: []
 
 !!! info "詳細操作說明，請參閱 [如何設定 LIFF](設定 LIFF 自動登入與會員綁定.md){ data-preview }。"  
 
-![](../../../assets/images/ec-第三方整合-line 註冊登入-liff 網址.png)
+![](../../../../assets/images/ec-第三方整合-line 註冊登入-liff 網址.png)
 
 ## 顧客端綁定流程
 
@@ -165,7 +165,7 @@ hide: []
 
 4. 最後跳轉至目的頁面，此時消費者已處於 **會員登入狀態** 且完成綁定。
 
-![](../../../assets/images/ec-第三方整合-line liff 會員綁定.gif)
+![](../../../../assets/images/ec-第三方整合-line liff 會員綁定.gif)
 
 ## 綁定後的進階功能與好處
 

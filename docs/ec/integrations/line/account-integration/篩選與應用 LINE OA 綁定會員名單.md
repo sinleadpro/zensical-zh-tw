@@ -78,7 +78,7 @@ hide:
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
-![](../../../assets/images/ec-會員-所有會員-篩選器-已完成line綁定.png){ .hero-page }
+![](../../../../assets/images/ec-會員-所有會員-篩選器-已完成line綁定.png){ .hero-page }
 
 
 ## 篩選 LINE 綁定會員說明
@@ -96,7 +96,7 @@ hide:
     - 依據需求選擇 **是**（找出已綁定者）或 **否**（找出尚未綁定者）。
 4. **套用篩選**：點選 **套用** 後，下方列表即會顯示符合該條件的會員名單。
 
-![](../../../assets/images/ec-會員-會員篩選器-已完成line綁定-操作.gif)
+![](../../../../assets/images/ec-會員-會員篩選器-已完成line綁定-操作.gif)
 
 ## 名單匯出與應用
 
@@ -105,7 +105,7 @@ hide:
     - 閱讀注意事項並勾選同意，點擊 **同意匯出資料**。
     - 系統會將該份名單的 **Excel 檔** 寄送至指定的信箱中。
 
-	![](../../../assets/images/ec-會員-所有會員-匯出.png)
+	![](../../../../assets/images/ec-會員-所有會員-匯出.png)
 
 2. **打包 LINE 受眾 (企業版 / PLUS 版 專用)**：
     - 若您篩選的是「已綁定」的會員，可以在儲存該分群時，選擇將此包受眾 [**同步上傳至 LINE OA 後台**](設定 LINE OA 受眾串接.md){ data-preview }  ，用於精準的訊息推播或廣告投放。
