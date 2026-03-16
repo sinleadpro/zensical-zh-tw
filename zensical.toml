@@ -168,8 +168,7 @@ copyright = """
             { "指定商品送活動序號" = "ec/marketing/設定指定商品送活動序號.md"},
             { "紅利商城" = "ec/marketing/設定紅利商城.md"},
             { "商品多層級分類滿額折扣" = "ec/marketing/設定商品多層級分類滿額折扣.md" },
-            { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" },
-            { "發送 EDM" = "ec/marketing/設定與發送 EDM 電子報.md" }
+            { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" }
         ]},  
         { "分潤" = [
             { "overview" = "ec/profit-sharing/index.md"},
@@ -186,6 +185,7 @@ copyright = """
             { "簡訊樣板管理" = "ec/notifications/設定與管理簡訊通知樣板.md" },
             { "LINE OA 樣板管理" = "ec/notifications/設定與管理 LINE OA 通知樣板.md" },
             { "LINE 加入好友邀請" = "ec/notifications/發送 LINE 加入好友邀請.md" },
+            {"發送 EDM" = "ec/notifications/設定與發送 EDM 電子報.md"},
             { "庫存過低通知" = "ec/notifications/庫存過低通知.md" }
         ]},
         { "金物流" = [
