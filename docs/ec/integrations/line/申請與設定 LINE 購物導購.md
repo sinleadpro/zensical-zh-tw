@@ -65,7 +65,7 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
-{ .hero-page }
+![](../../../assets/images/ec-第三方整合-line購物設定.png){ .hero-page }
 
 ## LINE 購物說明
 
@@ -98,7 +98,7 @@ hide: []
 4.  **填入參數**：CYBERBIZ 專員會協助將 LINE 提供之 **「SHOP_ID」** 與 **「AUTHKEY」** 填入系統中。
     *   **路徑**：「第三方整合」>「LINE購物設定」> 頁面上半區塊「LINE購物」。
 
-![](../../../assets/images/ec-第三方整合-line購物設定-line購物整合.png)
+![](../../../assets/images/ec-第三方整合-line購物設定-line購物.png)
 
 ## 商品串接邏輯與條件
 
