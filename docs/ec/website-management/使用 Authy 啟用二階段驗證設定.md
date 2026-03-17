@@ -87,7 +87,7 @@ hide: []
 
 ### 步驟一：下載與註冊
 
-1.  至[官網 :lucide-external-link:](https://authy.com/download/)或應用程式商店下載 **Authy App**。
+1.  至[官網 :lucide-external-link:](https://authy.com/download/) 或應用程式商店下載 **Authy App**。
 2.  **手機號碼註冊**：開啟 App 後，選擇國碼（台灣為 +886）並輸入您的手機號碼。
 3.  **驗證身分**：選擇透過簡訊（SMS）或電話（Phone Call）接收驗證碼，輸入後即可完成帳戶建立。
 

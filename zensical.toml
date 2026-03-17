@@ -269,6 +269,8 @@ copyright = """
                 {"Google 快速登入" = "ec/integrations/google/設定 Google 快速登入.md"},
                 {"設定 Google 購物廣告" = "ec/integrations/google/設定 Google 購物廣告.md"},
                 {"設定自動化廣告" = "ec/integrations/google/設定自動化廣告.md"},
+                {"Google Tag Manager" = "ec/integrations/google/建立 Google Tag Manager 並串接 CYBERBIZ.md"},
+                {"Tag Assistant 驗證" = "ec/integrations/google/使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝.md"},
                 {"" = "ec/integrations/google/"}
             ]},
             { "LINE" = [
@@ -697,7 +699,7 @@ permalink = true
 toc_depth = 3
 [project.markdown_extensions.toc.slugify]
 object = "pymdownx.slugs.slugify"
-kwds = { case = "lower", unicode = true }
+kwds = { unicode = true }
 [project.markdown_extensions.pymdownx.tabbed]
 alternate_style = true
 [project.markdown_extensions.pymdownx.tabbed.slugify]

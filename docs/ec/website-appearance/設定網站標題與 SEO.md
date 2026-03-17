@@ -71,7 +71,7 @@ hide:
 設定網站標題、簡述與關鍵字，以優化搜尋引擎 (SEO) 排名並提升社群分享時的品牌辨識度。
 { .subtitle }
 
-![](../../../assets/images/ec-網站外觀-網站標題seo-hero.png){ .hero-page }
+![](../../../assets/images/ec-網站外觀-網站設定-全站設定-網站標題seo.png){ .hero-page }
 
 ## 網站標題與 SEO 說明
 
