@@ -265,6 +265,8 @@ copyright = """
                 { "overview" = "ec/integrations/fb-meta/index.md"}
             ]},
             {"Google" = [
+                {"overview" = "ec/integrations/google/index.md"},
+                {"Google 快速登入" = "ec/integrations/google/設定 Google 快速登入.md"},
                 {"設定 Google 購物廣告" = "ec/integrations/google/設定 Google 購物廣告.md"},
                 {"設定自動化廣告" = "ec/integrations/google/設定自動化廣告.md"},
                 {"" = "ec/integrations/google/"}

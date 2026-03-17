@@ -28,12 +28,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/website-management/新增網站管理員並設定權限.md",
+                "file": "docs/ec/website-management/使用 Authy 啟用二階段驗證設定.md",
                 "mode": "preview",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "新增網站管理員並設定權限"
+              "title": "使用 Authy 啟用二階段驗證設定"
             }
           },
           {
@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=1209",
-                "title": "新增網站管理者及權限設定 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=4728",
+                "title": "Google 快速登入教學 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "新增網站管理者及權限設定 - CYBERBIZ 一般版教學文件"
+              "title": "Google 快速登入教學 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=2881",
-                "title": "新增網站管理者及權限設定",
+                "url": "https://www.cyberbiz.io/support/?p=30252",
+                "title": "Google 快速登入教學",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "新增網站管理者及權限設定"
+              "title": "Google 快速登入教學"
             }
           }
         ]
@@ -304,30 +304,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ea773ab1a7a3be6f",
+  "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/ec/payments-and-logistics/設定 PayPal/index.html",
-    "site/ec/payments-and-logistics/設定 PayPal",
-    "site/resources/changelog/index.html",
-    "site/resources/changelog",
-    "site/ec/website-appearance/設定前台語系與文字自定義/index.html",
-    "site/ec/website-appearance/設定前台語系與文字自定義",
-    "site/ec/orders/匯出訂單報表/index.html",
-    "site/ec/orders/匯出訂單報表",
-    "site/ec/index.html",
-    "site/ec/payments-and-logistics/設定 LINE Pay/index.html",
-    "site/ec/payments-and-logistics/設定 LINE Pay",
-    "site/assets/images/ec-出貨明細範例.png",
-    "site/assets/images/ec-products-filters.zh-tw.png",
-    "site/assets/images/EC-後台-分潤-註冊人分潤-畫面總覽01.png",
-    "site/assets/images/ec-商品-商品自訂分類-秘密群組.png",
-    "site/assets/images/ec-marketing-flash-sale-single-product-hero.zh-tw.png",
-    "site/assets/images/ec-product-settings-tag.zh-tw.png",
-    "site/assets/images/EC-後台-訂單-門市訂單-送貨狀態顯示託運單編號01.png",
-    "site/assets/images/ec-網站外觀-網站標題-瀏覽器分頁顯示.png",
-    "site/assets/images/ec-網站外觀-樣板編輯器-zh-tw-yml-修改.gif",
-    "site/assets/images/ec-網站外觀-頁腳-設定.png",
+    "site/assets/images/ec-第三方整合-google設定-google發布應用程式.png",
+    "docs/assets/images/ec-第三方整合-google設定-google發布應用程式.png",
+    "site/assets/images/ec-第三方整合-google設定-google應用程式id.png",
+    "docs/assets/images/ec-第三方整合-google設定-google應用程式id.png",
+    "site/assets/images/ec-第三方整合-google設定-oauth用戶端完成.png",
+    "docs/assets/images/ec-第三方整合-google設定-oauth用戶端完成.png",
+    "site/assets/images/ec-第三方整合-google設定-建立oauth用戶端id.gif",
+    "docs/assets/images/ec-第三方整合-google設定-建立oauth用戶端id.gif",
+    "site/assets/images/ec-第三方整合-google設定-oauth專案設定.png",
+    "docs/assets/images/ec-第三方整合-google設定-oauth專案設定.png",
+    "site/assets/images/ec-第三方整合-google設定-google登入.png",
+    "site/stylesheets/extra.css",
+    "site/stylesheets/extra-bk.css",
+    "site/stylesheets",
+    "site/assets/videos/ec-product-filter-frontend-adjust-order.zh-tw.mp4",
+    "site/assets/videos/ec-connect-logistics-t-cat.zh-tw.mp4",
+    "site/assets/videos/e-ticket-reconciliation-computer.mp4",
+    "site/assets/videos",
+    "site/ec/payments-and-logistics/設定 Apple Pay/index.html",
+    "site/ec/payments-and-logistics/設定 Apple Pay",
+    "site/ec/products/排除商品上傳至第三方平台/index.html",
+    "docs/ec/integrations/google/index.md",
     "docs/ec/website-management/使用 Authy 啟用二階段驗證設定.md",
+    "docs/ec/integrations/google/設定 Google 快速登入.md",
+    "docs/ec/integrations/google/Google 快速登入教學\nGoogle 快速登入教學\n設定 Google 快速登入（Google OAuth 串接）.md",
+    "docs/ec/website-management/新增網站管理員並設定權限.md",
     "docs/ec/website-management/設定與管理二階段驗證.md",
     "docs/ec/website-management/設定與管理二階段驗證 (2FA).md",
     "docs/ec/integrations/line/marketing/設定與管理 LINE Tag.md",
@@ -347,10 +351,6 @@
     "docs/ec/marketing/設定商品多層級分類滿額折扣.md",
     "docs/ec/website-management/references/管理者權限與後台選單對應表.md",
     "docs/ec/website-management/references/管理者權限與後台選單對照表.md",
-    "docs/ec/orders/匯出訂單報表.md",
-    "docs/ec/orders/references/訂單報表可用欄位.md",
-    "docs/ec/e-ticket/電子票券設定指南.md",
-    "docs/ec/marketing/設定指定商品送紅利.md",
-    "docs/ec/notifications/發送 LINE 加入好友邀請.md"
+    "docs/ec/orders/匯出訂單報表.md"
   ]
 }
