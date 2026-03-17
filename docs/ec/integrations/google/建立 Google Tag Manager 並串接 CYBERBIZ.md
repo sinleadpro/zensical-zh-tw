@@ -1,8 +1,8 @@
 ---
 title: "建立 Google Tag Manager 並串接 CYBERBIZ"
-description: "" 
+description: "建立 Google Tag Manager 帳戶與容器，並將 GTM 程式碼正確安裝至 CYBERBIZ 官網。"
 created: "2026-03-17 16:31"
-last_modified: 
+last_modified: "2026-03-17 14:40"
 lang: zh-TW
 type: tutorial
 status: ""
@@ -10,49 +10,67 @@ version: ""
 author: Jase
 reviewers: []
 notes: []
-ga_views: 
-feedback:
+ga_views: 0
+feedback: 0
 products:
   - EC
-modules: []
+modules:
+  - 第三方整合
 sites:
   - TW
-audiences: 
+audiences:
   - admin
-difficulty: ""
-tnb: ""
-plans: 
-cyb_extensions: [] 
-intents: []
-features: []
+difficulty: intermediate
+tnb: trunk
+plans:
+  - 專業
+  - 進階
+  - 高手
+  - 專業 PLUS 
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions: []
+intents:
+  - Google Tag Manager
+  - GTM 串接
+  - 追蹤代碼安裝
+features:
+  - GTM
+  - 容器
+  - 標籤管理
 prerequisites: []
-related: []
-tags: []
-acoiv: ""
+related:
+  - "[[使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝]]"
+tags:
+  - Google Tag Manager
+  - GTM
+  - 追蹤代碼
+  - 標籤管理
+acoiv: configure
 apis: []
-devices: 
-  - desktop 
+devices:
+  - desktop
   - mobile
 ui_components: []
-paths: []
+paths:
+  - 第三方整合 > 谷歌 Google 設定
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=689
   - https://www.cyberbiz.io/support/?p=228
 permalink: ""
-comments: ""
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/code
-hide:
+hide: []
 ---
 
 # 建立 Google Tag Manager 並串接 CYBERBIZ
 
-
+建立 Google Tag Manager 帳戶與容器，並將 GTM 程式碼正確安裝至 CYBERBIZ 官網。
 { .subtitle }
-
-{ .doc-badge }
 
 ![](../../../assets/images/ec-第三方整合-google設定-gtm.png){ .hero-page }
 
@@ -108,21 +126,24 @@ hide:
 | **版本 (Version)** | 容器設定的歷史存檔。每次發佈都會產生紀錄，以便錯誤時還原。 | **「存檔點」**：隨時可以搭時光機回頭。 |
 
 
-## 後續操作
-
-<div class="grid cards" markdown>
-
-- :lucide-import:{ .lg }   
-  [____]()     
-  。
-
-- :lucide-ban:{ .lg }     
-  [____]()  
-  。
-
-</div>
-
 ## 常見問題
 
-??? quote ""
+??? quote "GTM 容器 ID 要在哪裡取得？"
+
+    當您建立 GTM 容器後，系統會彈出安裝代碼視窗，您可以找到「GTM-XXXXXX」格式的容器 ID。另外，每次進入 GTM 後台時，容器 ID 也會顯示在介面頂端。
+
+??? quote "哪些工具不建議透過 GTM 設定？"
+
+    以下三個工具建議直接使用 CYBERBIZ 後台串接，避免代碼衝突或重複計算：
+    
+    * Google Analytics (GA4)
+    * Google Ads 轉換追蹤
+    * Meta Pixel (臉書像素)
+
+??? quote "如何驗證 GTM 是否正確安裝？"
+
+    您可以[使用 **Google Tag Assistant** 來驗證](使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝.md){ data-preview }：
+    
+    * **Chrome 擴充功能**：快速查看代碼是否成功載入
+    * **網頁版工具**：完整紀錄操作行為，驗證特定標籤是否正確觸發
 

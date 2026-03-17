@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=689",
-                "title": "Google Tag Manager 教學 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=741",
+                "title": "使用Google Tag Assistant檢測網站追蹤代碼 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Google Tag Manager 教學 - CYBERBIZ 一般版教學文件"
+              "title": "使用Google Tag Assistant檢測網站追蹤代碼 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=228",
-                "title": "Google Tag Manager 教學",
+                "url": "https://www.cyberbiz.io/support/?p=234",
+                "title": "使用Google Tag Assistant檢測網站追蹤代碼",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Google Tag Manager 教學"
+              "title": "使用Google Tag Assistant檢測網站追蹤代碼"
             }
           }
         ]
@@ -306,17 +306,17 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/ec/payments-and-logistics/CYBERBIZNOW/複製商品到快速到貨門市/index.html",
-    "site/ec/payments-and-logistics/CYBERBIZNOW/複製商品到快速到貨門市",
-    "site/ec/website-appearance/設定前台商品群組排序/index.html",
-    "site/ec/website-appearance/設定前台商品群組排序",
-    "site/ec/analytics/index.html",
-    "site/ec/analytics",
-    "site/ec/marketing/設定滿額贈與滿件贈/index.html",
-    "site/ec/marketing/設定滿額贈與滿件贈",
-    "site/ec/notifications/設定與管理 LINE OA 通知樣板/index.html",
-    "site/ec/notifications/設定與管理 LINE OA 通知樣板",
-    "site/ec/marketing/設定一頁式商店/index.html",
+    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款/index.html",
+    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款",
+    "site/ec/payments-and-logistics/串接ezShip超商取貨(C2C)/index.html",
+    "site/ec/payments-and-logistics/串接ezShip超商取貨(C2C)",
+    "site/ec/payments-and-logistics/index.html",
+    "site/ec/payments-and-logistics/AFTEE先享後付 金流說明/index.html",
+    "site/ec/payments-and-logistics/AFTEE先享後付 金流說明",
+    "site/ec/payments-and-logistics/查詢宅配託運單紀錄/index.html",
+    "site/ec/payments-and-logistics/查詢宅配託運單紀錄",
+    "site/ec/payments-and-logistics/設定 Apple Pay/index.html",
+    "site/ec/payments-and-logistics/設定 Apple Pay",
     "site/assets/images/EC-後台-會員-VIP設定-畫面總覽01.png",
     "site/assets/images/ec-網站外觀-拖拉版型-全域設定.png",
     "site/assets/images/ec-product-tag-sample.zh-tw.png",
