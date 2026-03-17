@@ -1,6 +1,6 @@
 ---
 title: "設定 Google 快速登入"
-description: "學習如何在 CYBERBIZ 後台設定 Google 快速登入功能，讓消費者能使用 Google 帳戶一鍵註冊或登入會員。"
+description: "設定 Google 快速登入功能，讓消費者能使用 Google 帳戶一鍵註冊或登入會員。"
 created: "2026-03-17 12:26"
 last_modified: "2026-03-17 14:35"
 lang: zh-TW
@@ -15,7 +15,7 @@ feedback: 0
 products:
   - EC
 modules:
-  - 會員
+  - 第三方整合
 sites:
   - TW
 audiences:
@@ -70,9 +70,8 @@ hide: []
 
 # 設定 Google 快速登入
 
+設定 Google 快速登入功能，讓消費者能使用 Google 帳戶一鍵註冊或登入會員。
 { .subtitle }
-
-{ .doc-badge }
 
 ![](../../../assets/images/ec-第三方整合-google設定-google登入.png){ .hero-page }
 
