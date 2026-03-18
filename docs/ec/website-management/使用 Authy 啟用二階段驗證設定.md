@@ -66,12 +66,10 @@ icon: lucide/shield-ellipsis
 hide: []
 ---
 
-# 使用 Authy 啟用二階段驗證設定
-
 使用 Authy App 設定 CYBERBIZ 帳號的二階段驗證 (2FA)，提升帳號安全性。
 { .subtitle }
 
-{ .hero-page }
+![](../../assets/images/ec-管理中心-安全性設定-二階段驗證-hero.png){ .hero-page }
 
 ## 為什麼推薦使用 Authy
 
@@ -114,6 +112,8 @@ hide: []
 1.  進入帳戶設定，找到「**Authenticator Backups**」並開啟。
 2.  **設定備份密碼**：這組密碼將用於加密您的備份資料。
 3.  **重要警告**：備份密碼 **不會** 儲存在 Authy 伺服器，若遺失將無法取回或重設，請務必妥善紀錄保存。
+
+![](../../assets/images/ec-管理中心-安全性設定-二階段驗證-authy-backup.png)
 
 ---
 

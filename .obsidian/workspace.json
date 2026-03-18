@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=741",
-                "title": "使用Google Tag Assistant檢測網站追蹤代碼 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=12109",
+                "title": "在 Google 建立我的商家檔案 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "使用Google Tag Assistant檢測網站追蹤代碼 - CYBERBIZ 一般版教學文件"
+              "title": "在 Google 建立我的商家檔案 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=234",
-                "title": "使用Google Tag Assistant檢測網站追蹤代碼",
+                "url": "https://www.cyberbiz.io/support/?p=24764",
+                "title": "在 Google 建立我的商家檔案",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "使用Google Tag Assistant檢測網站追蹤代碼"
+              "title": "在 Google 建立我的商家檔案"
             }
           }
         ]
@@ -304,30 +304,33 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70ccdcc682095e33",
+  "active": "eea1d6126d665e64",
   "lastOpenFiles": [
-    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款/index.html",
-    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款",
-    "site/ec/payments-and-logistics/串接ezShip超商取貨(C2C)/index.html",
-    "site/ec/payments-and-logistics/串接ezShip超商取貨(C2C)",
-    "site/ec/payments-and-logistics/index.html",
-    "site/ec/payments-and-logistics/AFTEE先享後付 金流說明/index.html",
-    "site/ec/payments-and-logistics/AFTEE先享後付 金流說明",
-    "site/ec/payments-and-logistics/查詢宅配託運單紀錄/index.html",
-    "site/ec/payments-and-logistics/查詢宅配託運單紀錄",
-    "site/ec/payments-and-logistics/設定 Apple Pay/index.html",
-    "site/ec/payments-and-logistics/設定 Apple Pay",
-    "site/assets/images/EC-後台-會員-VIP設定-畫面總覽01.png",
-    "site/assets/images/ec-網站外觀-拖拉版型-全域設定.png",
-    "site/assets/images/ec-product-tag-sample.zh-tw.png",
-    "site/assets/images/ec-網站外觀-訂單頁顯示 line 加入好友-前台.png",
-    "site/assets/images/EC-後台-會員-所有會員-查看會員其他通路訂單-企業版01.png",
+    "site/ec/marketing/SEO 設定與優化指南/index.html",
+    "site/ec/marketing/SEO 設定與優化指南",
+    "docs/ec/marketing/SEO 設定與優化指南.md",
+    "site/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）/index.html",
+    "site/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）",
+    "site/ec/products/shipping",
+    "site/resources/index.html",
+    "site/ec/products/sales/設定商品到貨通知/index.html",
+    "site/ec/products/sales/設定商品到貨通知",
+    "site/ec/products/sales/設定搜尋結果中排除特定關鍵字商品/index.html",
+    "site/ec/products/sales/設定搜尋結果中排除特定關鍵字商品",
+    "site/resources/changelog/index.html",
+    "site/assets/images/ec-第三方整合-google商家檔案-前台.png",
+    "docs/assets/images/ec-第三方整合-google商家檔案-前台.png",
     "site/assets/images/EC-後台-管理中心-顧客註冊設定-企業版-註冊欄位設定01.png",
-    "site/assets/images/ec-all-products-add.zh-tw.png",
+    "site/assets/images/ec-conntect-logistics-edit.zh-tw.png",
+    "site/assets/images/ec-網站外觀-樣板編輯器-main-slider-liquid.png",
+    "site/assets/images/ec-edit-member-exclusive-price-setting.zh-tw.gif",
+    "site/assets/images/ec-行銷活動-一頁式商店-youtube影片-自動播放加起始秒數-舊版.png",
+    "site/assets/images/ec-add-product-tag.zh-tw.png",
+    "site/assets/images/捕夢網-後台-網域管理-新增CNAME01.png",
+    "site/assets/images/ec-商品-商品編輯頁-pid-slug.png",
+    "docs/ec/marketing/設定與優化 SEO.md",
+    "docs/ec/integrations/google/建立與驗證 Google 商家檔案.md",
     "docs/ec/integrations/google/使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝.md",
-    "site/assets/images/ec-第三方整合-google設定-gtm欄位.png",
-    "docs/assets/images/ec-第三方整合-google設定-gtm欄位.png",
-    "site/assets/images/ec-第三方整合-google設定-建立gtm.gif",
     "docs/ec/integrations/google/建立 Google Tag Manager 並串接 CYBERBIZ.md",
     "docs/ec/integrations/google/index.md",
     "docs/ec/website-management/使用 Authy 啟用二階段驗證設定.md",
@@ -348,9 +351,6 @@
     "docs/ec/integrations/line/account-integration/綁定 LINE 官方帳號與官網會員.md",
     "docs/ec/integrations/line/account-integration/設定 LIFF 自動登入與會員綁定.md",
     "docs/ec/integrations/line/account-integration/設定 LINE 快速登入時取得會員手機號碼.md",
-    "docs/ec/integrations/line/account-integration/設定 LINE 快速登入.md",
-    "docs/ec/integrations/line/account-integration/串接 LINE Messaging API.md",
-    "docs/ec/marketing/設定商品多層級分類滿額折扣.md",
-    "docs/ec/website-management/references/管理者權限與後台選單對應表.md"
+    "docs/ec/integrations/line/account-integration/設定 LINE 快速登入.md"
   ]
 }

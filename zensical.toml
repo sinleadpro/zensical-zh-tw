@@ -168,7 +168,8 @@ copyright = """
             { "指定商品送活動序號" = "ec/marketing/設定指定商品送活動序號.md"},
             { "紅利商城" = "ec/marketing/設定紅利商城.md"},
             { "商品多層級分類滿額折扣" = "ec/marketing/設定商品多層級分類滿額折扣.md" },
-            { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" }
+            { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" },
+            {"SEO 優化" = "ec/marketing/SEO 設定與優化指南.md"}
         ]},  
         { "分潤" = [
             { "overview" = "ec/profit-sharing/index.md"},
@@ -271,6 +272,7 @@ copyright = """
                 {"設定自動化廣告" = "ec/integrations/google/設定自動化廣告.md"},
                 {"Google Tag Manager" = "ec/integrations/google/建立 Google Tag Manager 並串接 CYBERBIZ.md"},
                 {"Tag Assistant 驗證" = "ec/integrations/google/使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝.md"},
+                {"Google 商家檔案" = "ec/integrations/google/建立與驗證 Google 商家檔案.md"},
                 {"" = "ec/integrations/google/"}
             ]},
             { "LINE" = [
