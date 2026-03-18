@@ -1,6 +1,6 @@
 ---
 title: "設定 Google 快速登入"
-description: "學習如何在 CYBERBIZ 後台設定 Google 快速登入功能，讓消費者能使用 Google 帳戶一鍵註冊或登入會員。"
+description: "設定 Google 快速登入功能，讓消費者能使用 Google 帳戶一鍵註冊或登入會員。"
 created: "2026-03-17 12:26"
 last_modified: "2026-03-17 14:35"
 lang: zh-TW
@@ -15,7 +15,7 @@ feedback: 0
 products:
   - EC
 modules:
-  - 會員
+  - 第三方整合
 sites:
   - TW
 audiences:
@@ -68,11 +68,8 @@ icon: lucide/log-in
 hide: []
 ---
 
-# 設定 Google 快速登入
-
+設定 Google 快速登入功能，讓消費者能使用 Google 帳戶一鍵註冊或登入會員。
 { .subtitle }
-
-{ .doc-badge }
 
 ![](../../../assets/images/ec-第三方整合-google設定-google登入.png){ .hero-page }
 
@@ -105,8 +102,6 @@ hide: []
 
     ![](../../../assets/images/ec-第三方整合-google設定-oauth用戶端完成.png)
 
----
-
 ## CYBERBIZ 後台串接設定
 
 取得金鑰後，需回到官網後台完成最後的開啟動作。
@@ -126,27 +121,17 @@ hide: []
 
 完成設定，顧客即可於官網前台以 Google 帳戶註冊/登入網站。
 
-![]()
+![](../../../assets/images/ec-第三方整合-google設定-快速登入-前台畫面.png)
 
 ## 重要注意事項與系統邏輯
 
 *   **帳號合併機制**：若消費者使用 Google、LINE 或 Facebook 快速登入時輸入 **同一個電子郵件信箱**，系統會將其視為同一位會員，並在後台會員明細頁註明帳號類型。
 *   **會員註記**：透過此方式註冊的會員，在後台「帳號類型」欄位會顯示為「**Google 快速登入**」。
+
+    ![](../../../assets/images/ec-會員-所有會員-會員明細.png)
+
 *   **重新導向錯誤排除**：若消費者登入時出現錯誤，請檢查 Google 後台的「已授權的重新導向 URL」是否完整填入商店網址且格式正確。
 
-## 後續操作
-
-<div class="grid cards" markdown>
-
-- :lucide-import:{ .lg }   
-  [____]()     
-  。
-
-- :lucide-ban:{ .lg }     
-  [____]()  
-  。
-
-</div>
 
 ## 常見問題
 

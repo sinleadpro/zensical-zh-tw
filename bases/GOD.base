@@ -3,6 +3,7 @@ summaries:
   Filled: values.filter(!value.isType("null")).length
 formulas:
   hero_image: if(file.embeds[0].containsAny("jpg","gif","webp","jpeg","avif","png"),file.embeds[0])
+  hero: file.embeds.filter(value.containsAny("png", "jpg", "svg", "webp", "jpeg"))
 views:
   - type: table
     name: Table
@@ -66,3 +67,14 @@ views:
     order:
       - file.name
       - wp_url
+  - type: cards
+    name: Card
+    filters:
+      and:
+        - file.path.startsWith("docs/")
+        - file.ext == "md"
+        - file.name != "index"
+    image: formula.hero
+    cardSize: 160
+    imageAspectRatio: 1
+    imageFit: contain

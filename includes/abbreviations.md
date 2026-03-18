@@ -10,6 +10,7 @@
 *[SERP]: Search Engine Results Page，中文全稱為「搜尋引擎結果頁」。 這是使用者在 Google、Bing 或其他搜尋引擎輸入特定關鍵字（如「根本Original」）並按下搜尋後，所看到的**結果清單畫面**。
 *[UID]: 唯一識別碼 / Unique Identifier。在特定系統、資料庫或網路架構中，分配給單一實體（如使用者、裝置、訂單或檔案）的唯一字串或數字，用於確保該實體能被精確識別，而不產生歧義。
 *[2FA]: Two-Factor Authentication，一種安全驗證機制。除了輸入傳統的「帳號密碼（第一層）」外，使用者還必須提供「第二層」驗證資訊（通常為手機動態碼），以確保即使密碼遭竊，他人也無法輕易登入。
+*[GTM]: Google Tag Manager，一套免費的標籤管理系統，讓您只需透過一組容器代碼，即可在不更動網站原始碼的情況下，快速部署與更新各類行銷追蹤標籤。
 *[分票]: 當同一票種購買多份時，系統預設會產生單一 QR Code（核銷碼），可供多次核銷。若消費者有贈票的需求，可將此單一 QR Code 拆分為多個獨立票券。每張分出的票券皆會生成新的 QR Code，並可被單獨使用或轉贈他人。
 *[上收服務]: 物流商根據訂單出貨需求，指派司機前往商家指定的地點（通常為公司或倉庫地址）收取包裹的服務。
 *[註解程式碼]: 註解程式碼可使被註解符號包覆的部分程式碼不會被執行，因此可以暫時停用功能、方便測試或調整，同時保留原始程式碼便於日後快速恢復或修改。
@@ -65,7 +66,8 @@
 *[WMS]: Warehouse Management System, used to manage, control, and optimize warehousing operations, covering inbound, outbound, inventory management, order picking, distribution, and report analysis processes. Through automation and data-driven operations, WMS improves warehousing efficiency, reduces error rates, and supports logistics and supply chain collaboration.
 *[POS]: Point of Sale，門市進行交易時所使用的銷售作業系統，用於完成商品結帳、付款、開立收據，並同步記錄銷售資料、庫存變化與營收資訊。
 *[MBE]: Meta Business Extension
-*[GA]: Google Analytics, 由 Google 提供的網站流量分析工具，用於追蹤與分析使用者在網站上的行為與互動情況。
+*[GA]: Google Analytics，由 Google 提供的網站流量分析工具，用於追蹤與分析使用者在網站上的行為與互動情況。
+*[GA4]: Google Analytics 4，Google Analytics 的最新版本。以事件為基礎的分析模型，可追蹤使用者與網站的互動行為，並提供更強大的跨平台分析能力與隱私保護功能。
 *[GMC]: Google Merchant Center，Google 提供的商品資料管理平台，用於儲存、驗證並提交電商商品資料，讓商品能顯示於 Google 生態系的各項服務中（如 Google Shopping、搜尋結果、YouTube 與 Google Ads）。
 *[SEO]: Search Engine Optimization, 搜尋引擎最佳化。在電子商務系統中，SEO 涵蓋商品頁標題、頁面描述、URL 結構、圖片替代文字（alt text）與關鍵字設定，用於提升網站在搜尋引擎中的可見度與排名。
 *[SKU]: Stock Keeping Unit，存貨單位或庫存單位是用於識別產品的唯一代碼或編號，用於追蹤庫存、管理商品資料與銷售統計。

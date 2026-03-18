@@ -71,7 +71,7 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
-![](../../../assets/images/ec-第三方整合-line直播-hero.png){ .hero-page }
+![](../../../assets/images/ec-第三方整合-line購物設定-lineoa導購-hero.png){ .hero-page }
 
 ## LINE 直播說明
 

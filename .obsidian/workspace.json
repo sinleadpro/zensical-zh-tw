@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 33.214920071047956,
+        "dimension": 36.50088809946714,
         "children": [
           {
             "id": "b215f5bf832eb05e",
@@ -43,9 +43,9 @@
               "type": "bases",
               "state": {
                 "file": "bases/GOD.base",
-                "viewName": "Table"
+                "viewName": "Card"
               },
-              "icon": "lucide-table",
+              "icon": "lucide-layout-grid",
               "title": "GOD"
             }
           },
@@ -64,12 +64,12 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       },
       {
         "id": "74dd1daaeb40eac4",
         "type": "tabs",
-        "dimension": 34.10301953818828,
+        "dimension": 30.905861456483123,
         "children": [
           {
             "id": "eea1d6126d665e64",
@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=4728",
-                "title": "Google 快速登入教學 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=3512",
+                "title": "SEO 優化教學 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Google 快速登入教學 - CYBERBIZ 一般版教學文件"
+              "title": "SEO 優化教學 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -90,7 +90,7 @@
       {
         "id": "2c57acc736defe7a",
         "type": "tabs",
-        "dimension": 32.682060390763766,
+        "dimension": 32.59325044404973,
         "children": [
           {
             "id": "70ccdcc682095e33",
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=30252",
-                "title": "Google 快速登入教學",
+                "url": "https://www.cyberbiz.io/support/?p=16944",
+                "title": "SEO 優化教學",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Google 快速登入教學"
+              "title": "SEO 優化教學"
             }
           }
         ]
@@ -304,29 +304,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70ccdcc682095e33",
+  "active": "98427a1b64734bd6",
   "lastOpenFiles": [
-    "site/assets/images/ec-第三方整合-google設定-google發布應用程式.png",
-    "docs/assets/images/ec-第三方整合-google設定-google發布應用程式.png",
-    "site/assets/images/ec-第三方整合-google設定-google應用程式id.png",
-    "docs/assets/images/ec-第三方整合-google設定-google應用程式id.png",
-    "site/assets/images/ec-第三方整合-google設定-oauth用戶端完成.png",
-    "docs/assets/images/ec-第三方整合-google設定-oauth用戶端完成.png",
-    "site/assets/images/ec-第三方整合-google設定-建立oauth用戶端id.gif",
-    "docs/assets/images/ec-第三方整合-google設定-建立oauth用戶端id.gif",
-    "site/assets/images/ec-第三方整合-google設定-oauth專案設定.png",
-    "docs/assets/images/ec-第三方整合-google設定-oauth專案設定.png",
-    "site/assets/images/ec-第三方整合-google設定-google登入.png",
-    "site/stylesheets/extra.css",
-    "site/stylesheets/extra-bk.css",
-    "site/stylesheets",
-    "site/assets/videos/ec-product-filter-frontend-adjust-order.zh-tw.mp4",
-    "site/assets/videos/ec-connect-logistics-t-cat.zh-tw.mp4",
-    "site/assets/videos/e-ticket-reconciliation-computer.mp4",
-    "site/assets/videos",
-    "site/ec/payments-and-logistics/設定 Apple Pay/index.html",
-    "site/ec/payments-and-logistics/設定 Apple Pay",
-    "site/ec/products/排除商品上傳至第三方平台/index.html",
+    "site/assets/images/ec-商品-自訂分類-群組編輯頁-metatag設定.gif",
+    "docs/assets/images/ec-商品-自訂分類-群組編輯頁-metatag設定.gif",
+    "site/storepal/index.html",
+    "site/storepal",
+    "site/ec/members/官網會員客服問答系統/index.html",
+    "site/ec/members/官網會員客服問答系統",
+    "site/ec/members/index.html",
+    "site/ec/integrations/line/group-buy/使用 LINE 團購進行購物/index.html",
+    "site/ec/integrations/line/group-buy/使用 LINE 團購進行購物",
+    "site/ec/orders/references/訂單列表操作功能說明/index.html",
+    "site/ec/orders/references/訂單列表操作功能說明",
+    "site/ec/integrations/google/建立 Google Tag Manager 並串接 CYBERBIZ/index.html",
+    "site/assets/images/ec-商品-商品編輯頁-設定-seo設定.gif",
+    "docs/assets/images/ec-商品-商品編輯頁-設定-seo設定.gif",
+    "site/assets/images/ec-商品-商品編輯頁-商品描述-圖片影像屬性.png",
+    "docs/assets/images/ec-商品-商品編輯頁-商品描述-圖片影像屬性.png",
+    "site/assets/images/ec-商品-商品編輯頁-商品描述-影響屬性編輯.gif",
+    "docs/assets/images/ec-商品-商品編輯頁-商品描述-影響屬性編輯.gif",
+    "site/assets/images/ec-商品-所有商品-商品編輯頁-商品描述-圖片影像屬性.png",
+    "docs/assets/images/ec-商品-所有商品-商品編輯頁-商品描述-圖片影像屬性.png",
+    "docs/ec/payments-and-logistics/AFTEE先享後付 金流說明.md",
+    "docs/ec/app-market/automation/1773107947-BPCW.md",
+    "archive/wordpress-annotated/wp-ent-annotated-20260106/_span style=_text-transform_ none___金流說明 _ Google Pay™__span_.md",
+    "Untitled.md",
+    "docs/ec/marketing/SEO 設定與優化指南.md",
+    "site/assets/images/ec-第三方整合-google商家檔案-前台.png",
+    "docs/ec/marketing/設定與優化 SEO.md",
+    "docs/ec/integrations/google/建立與驗證 Google 商家檔案.md",
+    "docs/ec/integrations/google/使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝.md",
+    "docs/ec/integrations/google/建立 Google Tag Manager 並串接 CYBERBIZ.md",
     "docs/ec/integrations/google/index.md",
     "docs/ec/website-management/使用 Authy 啟用二階段驗證設定.md",
     "docs/ec/integrations/google/設定 Google 快速登入.md",
@@ -342,15 +351,6 @@
     "docs/ec/integrations/line/marketing/設定與發送 LINE OA 分眾訊息推播.md",
     "docs/ec/integrations/line/marketing/設定 LINE OA 受眾串接.md",
     "docs/ec/integrations/line/account-integration/設定 LINE 綁定會員贈送優惠券.md",
-    "docs/ec/integrations/line/account-integration/篩選與應用 LINE OA 綁定會員名單.md",
-    "docs/ec/integrations/line/account-integration/綁定 LINE 官方帳號與官網會員.md",
-    "docs/ec/integrations/line/account-integration/設定 LIFF 自動登入與會員綁定.md",
-    "docs/ec/integrations/line/account-integration/設定 LINE 快速登入時取得會員手機號碼.md",
-    "docs/ec/integrations/line/account-integration/設定 LINE 快速登入.md",
-    "docs/ec/integrations/line/account-integration/串接 LINE Messaging API.md",
-    "docs/ec/marketing/設定商品多層級分類滿額折扣.md",
-    "docs/ec/website-management/references/管理者權限與後台選單對應表.md",
-    "docs/ec/website-management/references/管理者權限與後台選單對照表.md",
-    "docs/ec/orders/匯出訂單報表.md"
+    "docs/ec/integrations/line/account-integration/篩選與應用 LINE OA 綁定會員名單.md"
   ]
 }

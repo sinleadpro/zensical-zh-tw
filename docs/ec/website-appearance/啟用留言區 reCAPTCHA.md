@@ -78,7 +78,7 @@ hide: []
 [:lucide-bolt:{ title="適用功能" }](conventions.md#適用功能) | 拖拉版型
 { .doc-badge }
 
-![](docs/assets/images/ec-google-recaptcha.zh-tw.png){ .hero-page }
+![](../../../assets/images/ec-google-recaptcha.zh-tw.png){ .hero-page }
 
 ## 什麼是 reCAPTCHA
 
