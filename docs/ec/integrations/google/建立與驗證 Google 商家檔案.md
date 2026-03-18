@@ -99,7 +99,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-search:{ .lg }   
-  [__SEO 優化__]()     
+  [__SEO 優化__](../../marketing/SEO 設定與優化指南.md){ data-preview }     
   建立完成後，可與官網的 SEO 設定結合，進一步提升品牌在搜尋引擎上的自然排名。
 
 </div>
