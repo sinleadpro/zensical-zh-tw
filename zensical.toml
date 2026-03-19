@@ -222,6 +222,7 @@ copyright = """
         ]},
         { "網站外觀" = [
             { "overview" = "ec/website-appearance/index.md" },
+            {"文字編輯器教學" = "ec/website-appearance/使用文字編輯器編輯內容.md"},
             { "樣板編輯器" = "ec/website-appearance/樣板編輯器操作全攻略.md" },
             { "恢復樣板版本" = "ec/website-appearance/使用樣板編輯器恢復網頁代碼.md" },
             { "留言區 reCAPTCHA" = "ec/website-appearance/啟用留言區 reCAPTCHA.md"},
