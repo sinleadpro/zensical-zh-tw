@@ -240,6 +240,7 @@ copyright = """
             { "全站商品列表群組排序" = "ec/website-appearance/設定前台商品群組排序.md" },
             { "網頁鎖右鍵" = "ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md"},
             { "前台語系與文字" = "ec/website-appearance/設定前台語系與文字自定義.md" },
+            {"部落格管理" = "ec/website-appearance/部落格管理與文章發佈指南.md"}
         ]},
         { "APP MARKET" = [
             { "overview" = "ec/app-market/index.md" },

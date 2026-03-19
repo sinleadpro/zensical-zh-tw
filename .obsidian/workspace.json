@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=3512",
-                "title": "SEO 優化教學 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=631",
+                "title": "部落格管理 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "SEO 優化教學 - CYBERBIZ 一般版教學文件"
+              "title": "部落格管理 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=16944",
-                "title": "SEO 優化教學",
+                "url": "https://www.cyberbiz.io/support/?p=1510",
+                "title": "部落格管理",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "SEO 優化教學"
+              "title": "部落格管理"
             }
           }
         ]
@@ -304,34 +304,35 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "98427a1b64734bd6",
+  "active": "eea1d6126d665e64",
   "lastOpenFiles": [
-    "site/assets/images/ec-商品-自訂分類-群組編輯頁-metatag設定.gif",
-    "docs/assets/images/ec-商品-自訂分類-群組編輯頁-metatag設定.gif",
-    "site/storepal/index.html",
-    "site/storepal",
-    "site/ec/members/官網會員客服問答系統/index.html",
-    "site/ec/members/官網會員客服問答系統",
-    "site/ec/members/index.html",
-    "site/ec/integrations/line/group-buy/使用 LINE 團購進行購物/index.html",
-    "site/ec/integrations/line/group-buy/使用 LINE 團購進行購物",
-    "site/ec/orders/references/訂單列表操作功能說明/index.html",
-    "site/ec/orders/references/訂單列表操作功能說明",
-    "site/ec/integrations/google/建立 Google Tag Manager 並串接 CYBERBIZ/index.html",
-    "site/assets/images/ec-商品-商品編輯頁-設定-seo設定.gif",
-    "docs/assets/images/ec-商品-商品編輯頁-設定-seo設定.gif",
-    "site/assets/images/ec-商品-商品編輯頁-商品描述-圖片影像屬性.png",
-    "docs/assets/images/ec-商品-商品編輯頁-商品描述-圖片影像屬性.png",
-    "site/assets/images/ec-商品-商品編輯頁-商品描述-影響屬性編輯.gif",
-    "docs/assets/images/ec-商品-商品編輯頁-商品描述-影響屬性編輯.gif",
-    "site/assets/images/ec-商品-所有商品-商品編輯頁-商品描述-圖片影像屬性.png",
-    "docs/assets/images/ec-商品-所有商品-商品編輯頁-商品描述-圖片影像屬性.png",
+    "bases/GOD.base",
+    "site/ec/integrations/line/group-buy/設定 LINE 團購群組/index.html",
+    "site/ec/integrations/line/group-buy/設定 LINE 團購群組",
+    "site/ec/products/sales/管理商品評論/index.html",
+    "site/ec/products/sales/管理商品評論",
+    "site/ec/integrations/line/account-integration/設定 LINE 快速登入/index.html",
+    "site/ec/integrations/line/account-integration/設定 LINE 快速登入",
+    "site/resources/changelog/index.html",
+    "site/resources/changelog",
+    "site/ec/orders/references/訂單列表欄位參考表/index.html",
+    "site/ec/orders/references/訂單列表欄位參考表",
+    "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
+    "site/assets/images/ec-訂單-所有訂單.png",
+    "site/assets/images/ec-訂單-訂單報表匯出-篩選項目.png",
+    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
+    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
+    "site/assets/images/GANDI-後台-域名-新增CNAME03.png",
+    "site/assets/images/ec-about-us-page-configure.zh-tw.png",
+    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
+    "site/assets/images/EC-後台-商品-所有商品-將商品資訊更新到蝦皮01.png",
+    "site/assets/images/EC-後台-管理中心-網域信箱標籤設定-畫面總覽01.png",
+    "docs/ec/website-appearance/部落格管理與文章發佈指南.md",
     "docs/ec/payments-and-logistics/AFTEE先享後付 金流說明.md",
     "docs/ec/app-market/automation/1773107947-BPCW.md",
     "archive/wordpress-annotated/wp-ent-annotated-20260106/_span style=_text-transform_ none___金流說明 _ Google Pay™__span_.md",
     "Untitled.md",
     "docs/ec/marketing/SEO 設定與優化指南.md",
-    "site/assets/images/ec-第三方整合-google商家檔案-前台.png",
     "docs/ec/marketing/設定與優化 SEO.md",
     "docs/ec/integrations/google/建立與驗證 Google 商家檔案.md",
     "docs/ec/integrations/google/使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝.md",
@@ -350,7 +351,6 @@
     "docs/ec/integrations/line/marketing/LINE 官方帳號增加好友指南.md",
     "docs/ec/integrations/line/marketing/設定與發送 LINE OA 分眾訊息推播.md",
     "docs/ec/integrations/line/marketing/設定 LINE OA 受眾串接.md",
-    "docs/ec/integrations/line/account-integration/設定 LINE 綁定會員贈送優惠券.md",
-    "docs/ec/integrations/line/account-integration/篩選與應用 LINE OA 綁定會員名單.md"
+    "docs/ec/integrations/line/account-integration/設定 LINE 綁定會員贈送優惠券.md"
   ]
 }
