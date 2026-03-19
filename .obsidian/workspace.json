@@ -69,7 +69,7 @@
       {
         "id": "74dd1daaeb40eac4",
         "type": "tabs",
-        "dimension": 30.905861456483123,
+        "dimension": 29.484902309058615,
         "children": [
           {
             "id": "eea1d6126d665e64",
@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=3938",
-                "title": "文字編輯器使用教學 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=631",
+                "title": "部落格管理 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "文字編輯器使用教學 - CYBERBIZ 一般版教學文件"
+              "title": "部落格管理 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -90,7 +90,7 @@
       {
         "id": "2c57acc736defe7a",
         "type": "tabs",
-        "dimension": 32.59325044404973,
+        "dimension": 34.01420959147424,
         "children": [
           {
             "id": "70ccdcc682095e33",
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=21070",
-                "title": "文字編輯器使用教學",
+                "url": "https://www.cyberbiz.io/support/?p=1510",
+                "title": "部落格管理",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "文字編輯器使用教學"
+              "title": "部落格管理"
             }
           }
         ]
@@ -304,29 +304,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eea1d6126d665e64",
+  "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/ec/marketing/SEO 設定與優化指南.md~",
-    "docs/ec/marketing/SEO 設定與優化指南.md~",
-    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
+    "site/ec/website-appearance/調整首頁跑馬燈輪播圖的轉場停留時間/index.html",
+    "site/ec/website-appearance/調整首頁跑馬燈輪播圖的轉場停留時間",
+    "docs/ec/website-appearance/調整首頁跑馬燈輪播圖的轉場停留時間.md",
+    "site/ec/website-appearance/設定轉貼連結縮圖 OG Image/index.html",
+    "site/ec/website-appearance/設定轉貼連結縮圖 OG Image",
+    "docs/ec/website-appearance/設定轉貼連結縮圖 OG Image.md",
+    "site/assets/images/ec-網站外觀-部落格管理-部落格文章頁設定-拖拉版型.png",
+    "docs/assets/images/ec-網站外觀-部落格管理-部落格文章頁設定-拖拉版型.png",
+    "site/assets/images/ec-網站外觀-部落格管理-部落格文章頁-前台.png",
+    "docs/assets/images/ec-網站外觀-部落格管理-部落格文章頁-前台.png",
+    "site/assets/images/ec-網站外觀-部落格管理-部落格頁-前台.png",
+    "docs/assets/images/ec-網站外觀-部落格管理-部落格頁-前台.png",
+    "site/assets/images/ec-網站外觀-部落格管理-部落格文章頁設定-一般版型.png",
+    "docs/assets/images/ec-網站外觀-部落格管理-部落格文章頁設定-一般版型.png",
+    "site/assets/images/ec-網站外觀-部落格管理-部落格頁設定-一般版型 copy.png",
+    "docs/assets/images/ec-網站外觀-部落格管理-部落格頁設定-一般版型 copy.png",
     "site/stylesheets/extra.css",
     "site/stylesheets/extra-bk.css",
     "site/stylesheets",
-    "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
     "site/assets/videos/ec-product-filter-frontend-adjust-order.zh-tw.mp4",
     "site/assets/videos/ec-connect-logistics-t-cat.zh-tw.mp4",
     "site/assets/videos/e-ticket-reconciliation-computer.mp4",
     "site/assets/videos",
-    "site/assets/images/GANDI-後台-域名-新增CNAME03.png",
-    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
-    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
-    "site/assets/images/ec-訂單-訂單報表匯出-篩選項目.png",
-    "site/assets/images/ec-訂單-所有訂單.png",
-    "site/assets/images/EC-後台-管理中心-網域信箱標籤設定-畫面總覽01.png",
-    "site/assets/images/ec-about-us-page-configure.zh-tw.png",
-    "site/assets/images/ec-第三方整合-line login channel-openid connect.gif",
-    "site/ec/website-appearance/部落格管理與文章發佈指南/index.html",
-    "site/ec/website-appearance/部落格管理與文章發佈指南",
     "docs/ec/website-appearance/使用文字編輯器編輯內容.md",
     "docs/ec/website-appearance/部落格管理與文章發佈指南.md",
     "docs/ec/payments-and-logistics/AFTEE先享後付 金流說明.md",
@@ -349,8 +351,6 @@
     "docs/ec/integrations/line/marketing/設定 LINE 圖文選單.md",
     "docs/ec/integrations/line/marketing/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md",
     "docs/ec/integrations/line/marketing/在官網新增 LINE 加入好友入口.md",
-    "docs/ec/integrations/line/marketing/LINE 官方帳號增加好友指南.md",
-    "docs/ec/integrations/line/marketing/設定與發送 LINE OA 分眾訊息推播.md",
-    "docs/ec/integrations/line/marketing/設定 LINE OA 受眾串接.md"
+    "docs/ec/integrations/line/marketing/LINE 官方帳號增加好友指南.md"
   ]
 }
