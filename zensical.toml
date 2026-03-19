@@ -222,6 +222,7 @@ copyright = """
         ]},
         { "網站外觀" = [
             { "overview" = "ec/website-appearance/index.md" },
+            {"文字編輯器教學" = "ec/website-appearance/使用文字編輯器編輯內容.md"},
             { "樣板編輯器" = "ec/website-appearance/樣板編輯器操作全攻略.md" },
             { "恢復樣板版本" = "ec/website-appearance/使用樣板編輯器恢復網頁代碼.md" },
             { "留言區 reCAPTCHA" = "ec/website-appearance/啟用留言區 reCAPTCHA.md"},
@@ -231,15 +232,16 @@ copyright = """
             { "嵌入 Google 表單" = "ec/website-appearance/在自訂頁面中嵌入 Google 表單.md" },
             { "客服中心資訊調整" = "ec/website-appearance/設定與修改客服中心資訊.md"},
             { "優先填寫收件人設定" = "ec/website-appearance/修改結帳流程為優先填寫收件人資訊.md" },
-            { "首頁跑馬燈轉場時間" = "ec/website-appearance/調整首頁跑馬燈（輪播圖）的轉場停留時間.md" },
+            { "首頁跑馬燈轉場時間" = "ec/website-appearance/調整首頁跑馬燈輪播圖的轉場停留時間.md" },
             { "網站客服視窗" = "ec/website-appearance/設置網站客服視窗.md" },
             { "網站標題與 SEO" = "ec/website-appearance/設定網站標題與 SEO.md" },
             { "關閉圖片放大預覽" = "ec/website-appearance/關閉商品圖片放大預覽功能.md" },
             { "選單滑鼠移入自動展開" = "ec/website-appearance/設定導覽選單滑鼠移入自動展開.md" },
-            { "轉貼連結縮圖" = "ec/website-appearance/設定轉貼連結縮圖 (OG Image).md" },
+            { "轉貼連結縮圖" = "ec/website-appearance/設定轉貼連結縮圖 OG Image.md" },
             { "全站商品列表群組排序" = "ec/website-appearance/設定前台商品群組排序.md" },
             { "網頁鎖右鍵" = "ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md"},
             { "前台語系與文字" = "ec/website-appearance/設定前台語系與文字自定義.md" },
+            {"部落格管理" = "ec/website-appearance/部落格管理與文章發佈指南.md"}
         ]},
         { "APP MARKET" = [
             { "overview" = "ec/app-market/index.md" },

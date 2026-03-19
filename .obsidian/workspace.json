@@ -69,7 +69,7 @@
       {
         "id": "74dd1daaeb40eac4",
         "type": "tabs",
-        "dimension": 30.905861456483123,
+        "dimension": 29.484902309058615,
         "children": [
           {
             "id": "eea1d6126d665e64",
@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=3512",
-                "title": "SEO 優化教學 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=631",
+                "title": "部落格管理 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "SEO 優化教學 - CYBERBIZ 一般版教學文件"
+              "title": "部落格管理 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -90,7 +90,7 @@
       {
         "id": "2c57acc736defe7a",
         "type": "tabs",
-        "dimension": 32.59325044404973,
+        "dimension": 34.01420959147424,
         "children": [
           {
             "id": "70ccdcc682095e33",
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=16944",
-                "title": "SEO 優化教學",
+                "url": "https://www.cyberbiz.io/support/?p=1510",
+                "title": "部落格管理",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "SEO 優化教學"
+              "title": "部落格管理"
             }
           }
         ]
@@ -304,34 +304,38 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "98427a1b64734bd6",
+  "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/assets/images/ec-商品-自訂分類-群組編輯頁-metatag設定.gif",
-    "docs/assets/images/ec-商品-自訂分類-群組編輯頁-metatag設定.gif",
-    "site/storepal/index.html",
-    "site/storepal",
-    "site/ec/members/官網會員客服問答系統/index.html",
-    "site/ec/members/官網會員客服問答系統",
+    "site/assets/images/ec-網站外觀-部落格管理-文章編輯頁-文章標題簡述關鍵字.png",
+    "docs/assets/images/ec-網站外觀-部落格管理-文章編輯頁-文章標題簡述關鍵字.png",
+    "site/assets/images/ec-網站外觀-部落格管理-部落格metatags設定.png",
+    "docs/assets/images/ec-網站外觀-部落格管理-部落格metatags設定.png",
+    "docs/ec/website-appearance/部落格管理與文章發佈指南.md~",
+    "site/ec/payments-and-logistics/設定 AFTEE/index.html",
+    "site/ec/payments-and-logistics/設定 AFTEE",
+    "site/ec/payments-and-logistics/設定門市取貨服務/index.html",
+    "site/ec/payments-and-logistics/設定門市取貨服務",
+    "site/ec/profit-sharing/推薦碼連結的應用/index.html",
+    "site/ec/profit-sharing/推薦碼連結的應用",
     "site/ec/members/index.html",
-    "site/ec/integrations/line/group-buy/使用 LINE 團購進行購物/index.html",
-    "site/ec/integrations/line/group-buy/使用 LINE 團購進行購物",
-    "site/ec/orders/references/訂單列表操作功能說明/index.html",
-    "site/ec/orders/references/訂單列表操作功能說明",
-    "site/ec/integrations/google/建立 Google Tag Manager 並串接 CYBERBIZ/index.html",
-    "site/assets/images/ec-商品-商品編輯頁-設定-seo設定.gif",
-    "docs/assets/images/ec-商品-商品編輯頁-設定-seo設定.gif",
-    "site/assets/images/ec-商品-商品編輯頁-商品描述-圖片影像屬性.png",
-    "docs/assets/images/ec-商品-商品編輯頁-商品描述-圖片影像屬性.png",
-    "site/assets/images/ec-商品-商品編輯頁-商品描述-影響屬性編輯.gif",
-    "docs/assets/images/ec-商品-商品編輯頁-商品描述-影響屬性編輯.gif",
-    "site/assets/images/ec-商品-所有商品-商品編輯頁-商品描述-圖片影像屬性.png",
-    "docs/assets/images/ec-商品-所有商品-商品編輯頁-商品描述-圖片影像屬性.png",
+    "site/ec/analytics/index.html",
+    "site/ec/analytics",
+    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
+    "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
+    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
+    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
+    "site/assets/images/ec-訂單-訂單報表匯出-篩選項目.png",
+    "site/assets/images/EC-後台-商品-所有商品-將商品資訊更新到蝦皮01.png",
+    "site/assets/images/ec-about-us-page-configure.zh-tw.png",
+    "docs/ec/website-appearance/調整首頁跑馬燈輪播圖的轉場停留時間.md",
+    "docs/ec/website-appearance/設定轉貼連結縮圖 OG Image.md",
+    "docs/ec/website-appearance/使用文字編輯器編輯內容.md",
+    "docs/ec/website-appearance/部落格管理與文章發佈指南.md",
     "docs/ec/payments-and-logistics/AFTEE先享後付 金流說明.md",
     "docs/ec/app-market/automation/1773107947-BPCW.md",
     "archive/wordpress-annotated/wp-ent-annotated-20260106/_span style=_text-transform_ none___金流說明 _ Google Pay™__span_.md",
     "Untitled.md",
     "docs/ec/marketing/SEO 設定與優化指南.md",
-    "site/assets/images/ec-第三方整合-google商家檔案-前台.png",
     "docs/ec/marketing/設定與優化 SEO.md",
     "docs/ec/integrations/google/建立與驗證 Google 商家檔案.md",
     "docs/ec/integrations/google/使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝.md",
@@ -347,10 +351,6 @@
     "docs/ec/integrations/line/marketing/設定 LINE 圖文選單.md",
     "docs/ec/integrations/line/marketing/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md",
     "docs/ec/integrations/line/marketing/在官網新增 LINE 加入好友入口.md",
-    "docs/ec/integrations/line/marketing/LINE 官方帳號增加好友指南.md",
-    "docs/ec/integrations/line/marketing/設定與發送 LINE OA 分眾訊息推播.md",
-    "docs/ec/integrations/line/marketing/設定 LINE OA 受眾串接.md",
-    "docs/ec/integrations/line/account-integration/設定 LINE 綁定會員贈送優惠券.md",
-    "docs/ec/integrations/line/account-integration/篩選與應用 LINE OA 綁定會員名單.md"
+    "docs/ec/integrations/line/marketing/LINE 官方帳號增加好友指南.md"
   ]
 }
