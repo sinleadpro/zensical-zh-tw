@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=3375",
-                "title": "註冊 Google Search Console - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=678",
+                "title": "Google Analytics ：串接教學 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "註冊 Google Search Console - CYBERBIZ 一般版教學文件"
+              "title": "Google Analytics ：串接教學 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=15362",
-                "title": "註冊 Google Search Console",
+                "url": "https://www.cyberbiz.io/support/?p=165",
+                "title": "Google Analytics ：串接教學",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "註冊 Google Search Console"
+              "title": "Google Analytics ：串接教學"
             }
           }
         ]
@@ -304,31 +304,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70ccdcc682095e33",
+  "active": "eea1d6126d665e64",
   "lastOpenFiles": [
-    "2026-03-20.md",
-    "site/ec/payments-and-logistics/index.html",
-    "site/ec/payments-and-logistics/設定超商店到店 C2C 物流串接/index.html",
-    "site/ec/payments-and-logistics/設定超商店到店 C2C 物流串接",
-    "site/ec/payments-and-logistics/設定街口支付/index.html",
-    "site/ec/payments-and-logistics/設定街口支付",
-    "site/resources/glossary/index.html",
-    "site/resources/glossary",
-    "site/ec/products/Excel 大量匯入商品/index.html",
-    "site/ec/products/Excel 大量匯入商品",
-    "site/ec/integrations/index.html",
-    "site/assets/images/ec-商品-商品自訂分類-新增群組.png",
-    "site/assets/images/台灣大哥大-後台-轉址設定-新增CNAME01.png",
-    "site/assets/images/綠界-後台-申請超商物流01.png",
-    "site/assets/images/ec-第三方整合-line購物設定-lineoa導購-hero.png",
-    "site/assets/images/resources-hero.png",
-    "site/assets/images/ec-金物流-aftee 申請.gif",
-    "site/assets/images/ec-e-ticket-email-confirm.zh-tw.png",
-    "site/assets/images/EC-後台-會員-所有會員-代客下單02.png",
-    "site/assets/images/EC-後台-APPMARKET-蝦皮商品-建立官網商品02.png",
-    "site/assets/images/ec-第三方整合-line login channel-channel id and secret-copy and paste.gif",
-    "docs/ec/integrations/google/建立並串接 Google Analytics.md",
+    "site/ec/integrations/google/ga/設定 Google Analytics 進階追蹤與資料分析.md~",
+    "docs/ec/integrations/google/ga/設定 Google Analytics 進階追蹤與資料分析.md~",
+    "zensical.toml~",
+    "site/ec/integrations/google/ga/設定 Google Analytics 進階追蹤與資料分析/index.html",
+    "site/ec/integrations/google/ga/設定 Google Analytics 進階追蹤與資料分析",
+    "docs/ec/integrations/google/ga/設定 Google Analytics 進階追蹤與資料分析.md",
+    "site/ec/payments-and-logistics/CYBERBIZNOW/快速到貨訂單接單準備/index.html",
+    "site/ec/payments-and-logistics/CYBERBIZNOW/快速到貨訂單接單準備",
+    "site/resources/references/認識 CYBER 幣/index.html",
+    "site/resources/references/認識 CYBER 幣",
+    "site/ec/integrations/line/account-integration/設定 LIFF 自動登入與會員綁定/index.html",
+    "site/ec/integrations/line/account-integration/設定 LIFF 自動登入與會員綁定",
+    "site/assets/images/ec-marketing-flash-sale-single-product-collection-setting.zh-tw.png",
+    "site/assets/images/ec-推播訊息-發送edm-根據群組發送.png",
+    "site/assets/images/ec-hero-1.png",
+    "site/assets/images/ec-管理中心-網站名稱.png",
+    "site/assets/images/ec-訊息推播-line oa 樣板.png",
+    "site/assets/images/ec-商品-商品自訂分類-meta-tag.png",
+    "site/assets/images/EC-後台-網站外觀-選單導覽列-預設版型新增快速到貨專區連結01.png",
+    "site/assets/images/ec-products-batch-process.zh-tw.gif",
+    "site/assets/images/遠傳-後台-我的域名管理-新增CNAME06.png",
+    "site/assets/images/ec-gmc-connect-google-ads.zh-tw.png",
+    "docs/ec/integrations/google/ga/建立並串接 Google Analytics.md",
     "docs/ec/integrations/google/註冊並驗證 Google Search Console.md",
+    "2026-03-20.md",
+    "docs/ec/integrations/google/建立並串接 Google Analytics.md",
     "docs/ec/marketing/seo/設定 301 重定向網站轉址.md",
     "docs/ec/marketing/seo/SEO 設定與優化指南.md",
     "docs/ec/marketing/seo/將 Sitemap 提交至 Google Search Console.md",
@@ -348,9 +351,6 @@
     "docs/ec/integrations/google/使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝.md",
     "docs/ec/integrations/google/建立 Google Tag Manager 並串接 CYBERBIZ.md",
     "docs/ec/integrations/google/index.md",
-    "docs/ec/website-management/使用 Authy 啟用二階段驗證設定.md",
-    "docs/ec/integrations/google/設定 Google 快速登入.md",
-    "docs/ec/integrations/google/Google 快速登入教學\nGoogle 快速登入教學\n設定 Google 快速登入（Google OAuth 串接）.md",
-    "docs/ec/website-management/新增網站管理員並設定權限.md"
+    "docs/ec/website-management/使用 Authy 啟用二階段驗證設定.md"
   ]
 }

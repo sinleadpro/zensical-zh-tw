@@ -280,7 +280,10 @@ copyright = """
                 {"Tag Assistant 驗證" = "ec/integrations/google/使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝.md"},
                 {"Google 商家檔案" = "ec/integrations/google/建立與驗證 Google 商家檔案.md"},
                 {"GSC 驗證與設定" = "ec/integrations/google/註冊並驗證 Google Search Console.md"},
-                {"Google Analytics" = "ec/integrations/google/建立並串接 Google Analytics.md"},
+                {"Google Analytics" = [
+                    {"建立並串接" = "ec/integrations/google/ga/建立並串接 Google Analytics.md"},
+                    {"進階資料分析" = "ec/integrations/google/ga/設定 Google Analytics 4 進階追蹤與資料分析.md"}
+                ]},
                 {"" = "ec/integrations/google/"}
             ]},
             { "LINE" = [
