@@ -36,7 +36,9 @@ devices:
 ui_components: []
 paths: []
 layouts: []
-wp_url: []
+wp_url: 
+  - https://www.cyberbiz.io/helpcenter/?p=7099
+  - https://www.cyberbiz.io/support/?p=36980
 permalink: ""
 comments: ""
 search:

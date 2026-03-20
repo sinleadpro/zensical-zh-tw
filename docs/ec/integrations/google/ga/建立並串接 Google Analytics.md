@@ -54,7 +54,7 @@ hide:
 
 { .doc-badge }
 
-![](../../../assets/images/ec-第三方整合-google-ga4設定.png){ .hero-page }
+![](../../../../assets/images/ec-第三方整合-google-ga4設定.png){ .hero-page }
 
 
 ## 什麼是 Google Analytics
