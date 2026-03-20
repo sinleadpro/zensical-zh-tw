@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=631",
-                "title": "部落格管理 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=3375",
+                "title": "註冊 Google Search Console - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "部落格管理 - CYBERBIZ 一般版教學文件"
+              "title": "註冊 Google Search Console - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=1510",
-                "title": "部落格管理",
+                "url": "https://www.cyberbiz.io/support/?p=15362",
+                "title": "註冊 Google Search Console",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "部落格管理"
+              "title": "註冊 Google Search Console"
             }
           }
         ]
@@ -306,27 +306,34 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/assets/images/ec-網站外觀-部落格管理-文章編輯頁-文章標題簡述關鍵字.png",
-    "docs/assets/images/ec-網站外觀-部落格管理-文章編輯頁-文章標題簡述關鍵字.png",
-    "site/assets/images/ec-網站外觀-部落格管理-部落格metatags設定.png",
-    "docs/assets/images/ec-網站外觀-部落格管理-部落格metatags設定.png",
-    "docs/ec/website-appearance/部落格管理與文章發佈指南.md~",
-    "site/ec/payments-and-logistics/設定 AFTEE/index.html",
-    "site/ec/payments-and-logistics/設定 AFTEE",
-    "site/ec/payments-and-logistics/設定門市取貨服務/index.html",
-    "site/ec/payments-and-logistics/設定門市取貨服務",
-    "site/ec/profit-sharing/推薦碼連結的應用/index.html",
-    "site/ec/profit-sharing/推薦碼連結的應用",
-    "site/ec/members/index.html",
-    "site/ec/analytics/index.html",
-    "site/ec/analytics",
-    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
-    "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
-    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
-    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
-    "site/assets/images/ec-訂單-訂單報表匯出-篩選項目.png",
-    "site/assets/images/EC-後台-商品-所有商品-將商品資訊更新到蝦皮01.png",
-    "site/assets/images/ec-about-us-page-configure.zh-tw.png",
+    "2026-03-20.md",
+    "site/ec/payments-and-logistics/index.html",
+    "site/ec/payments-and-logistics/設定超商店到店 C2C 物流串接/index.html",
+    "site/ec/payments-and-logistics/設定超商店到店 C2C 物流串接",
+    "site/ec/payments-and-logistics/設定街口支付/index.html",
+    "site/ec/payments-and-logistics/設定街口支付",
+    "site/resources/glossary/index.html",
+    "site/resources/glossary",
+    "site/ec/products/Excel 大量匯入商品/index.html",
+    "site/ec/products/Excel 大量匯入商品",
+    "site/ec/integrations/index.html",
+    "site/assets/images/ec-商品-商品自訂分類-新增群組.png",
+    "site/assets/images/台灣大哥大-後台-轉址設定-新增CNAME01.png",
+    "site/assets/images/綠界-後台-申請超商物流01.png",
+    "site/assets/images/ec-第三方整合-line購物設定-lineoa導購-hero.png",
+    "site/assets/images/resources-hero.png",
+    "site/assets/images/ec-金物流-aftee 申請.gif",
+    "site/assets/images/ec-e-ticket-email-confirm.zh-tw.png",
+    "site/assets/images/EC-後台-會員-所有會員-代客下單02.png",
+    "site/assets/images/EC-後台-APPMARKET-蝦皮商品-建立官網商品02.png",
+    "site/assets/images/ec-第三方整合-line login channel-channel id and secret-copy and paste.gif",
+    "docs/ec/integrations/google/建立並串接 Google Analytics.md",
+    "docs/ec/integrations/google/註冊並驗證 Google Search Console.md",
+    "docs/ec/marketing/seo/設定 301 重定向網站轉址.md",
+    "docs/ec/marketing/seo/SEO 設定與優化指南.md",
+    "docs/ec/marketing/seo/將 Sitemap 提交至 Google Search Console.md",
+    "docs/ec/marketing/設定 301 重定向網站轉址.md",
+    "docs/ec/marketing/將 Sitemap 提交至 Google Search Console.md",
     "docs/ec/website-appearance/調整首頁跑馬燈輪播圖的轉場停留時間.md",
     "docs/ec/website-appearance/設定轉貼連結縮圖 OG Image.md",
     "docs/ec/website-appearance/使用文字編輯器編輯內容.md",
@@ -344,13 +351,6 @@
     "docs/ec/website-management/使用 Authy 啟用二階段驗證設定.md",
     "docs/ec/integrations/google/設定 Google 快速登入.md",
     "docs/ec/integrations/google/Google 快速登入教學\nGoogle 快速登入教學\n設定 Google 快速登入（Google OAuth 串接）.md",
-    "docs/ec/website-management/新增網站管理員並設定權限.md",
-    "docs/ec/website-management/設定與管理二階段驗證.md",
-    "docs/ec/website-management/設定與管理二階段驗證 (2FA).md",
-    "docs/ec/integrations/line/marketing/設定與管理 LINE Tag.md",
-    "docs/ec/integrations/line/marketing/設定 LINE 圖文選單.md",
-    "docs/ec/integrations/line/marketing/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md",
-    "docs/ec/integrations/line/marketing/在官網新增 LINE 加入好友入口.md",
-    "docs/ec/integrations/line/marketing/LINE 官方帳號增加好友指南.md"
+    "docs/ec/website-management/新增網站管理員並設定權限.md"
   ]
 }

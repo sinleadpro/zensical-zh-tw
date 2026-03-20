@@ -98,8 +98,8 @@ CYBERBIZ 系統提供的 SEO 優化範圍涵蓋了 **首頁、商品頁、商品
 包含整體網站的標題與全站關鍵字。
 
 
-1.  [**網站名**](../website-management/設定網站基本資訊.md#關於您的網站){ data-preview }：前往「管理中心」>「一般設定」設定網站名稱（中文字 15 字/英文字 30 字以內）。
-2.  **Meta Tag 設定**：
+- **網站名**：前往「管理中心」>「一般設定」[設定網站名稱](../website-management/設定網站基本資訊.md#關於您的網站){ data-preview }（中文字 15 字/英文字 30 字以內）。
+- **Meta Tag 設定**：包含 **標題**、**簡述** 跟 **關鍵字**。
     *   **一般版型**：前往「網站外觀」>「套版主題管理」>「網站設定」>「公司品牌」。瞭解[一般版型如何設定網站標題](../website-appearance/設定網站標題與 SEO.md#預設版型一般版型){ data-preview }。
 
         ![](../../assets/images/ec-網站外觀-套版主題-網站設定-網站簡述與關鍵字-一般版型.png)
@@ -111,13 +111,32 @@ CYBERBIZ 系統提供的 SEO 優化範圍涵蓋了 **首頁、商品頁、商品
 
 ## 部落格與其他自訂頁面 SEO
 
-*   **部落格**：可為部落格主題及單篇章 [設定 Meta Tag](../website-appearance/部落格管理與文章發佈指南.md#Meta-Tags){ data-preview }。
-*   **其他頁面**：如「關於我們」或自訂活動頁，可於「自訂頁面管理」中編輯網頁描述與標題。
+<div class="grid cards" markdown>
+
+- :lucide-newspaper:{ .lg }  
+  [__部落格__](../website-appearance/部落格管理與文章發佈指南.md#Meta-Tags){ data-preview }  
+  可為部落格主題及單篇章設定 Meta Tag。
+
+- :lucide-files:{ .lg }     
+  [__其他頁面__](../website-appearance/設定與管理自訂頁面.md#設定路徑與新增頁面){ data-preview }  
+  如「關於我們」或自訂活動頁，可於「自訂頁面管理」中編輯網頁描述與標題。
+
+</div>
 
 ## Sitemap 提交與轉址維護
 
-*   **Sitemap (網站地圖)**：系統會**自動產生 Sitemap**，您只需將網址（例如：`www.yourname.com/sitemap.xml`）提交至 **Google Search Console**，即可加快網頁收錄速度。
-*   **301 重定向**：當原本熱門的頁面網址失效或變更時，應設定 301 轉址將流量導向新網址，以防止 SEO 排名下滑。
+
+<div class="grid cards" markdown>
+
+- :lucide-map:{ .lg }   
+  [__Sitemap (網站地圖)__](將 Sitemap 提交至 Google Search Console.md){ data-preview }     
+  系統會自動產生 Sitemap，您只需將網址提交至 GSC，即可加快網頁收錄速度。
+
+- :lucide-arrow-right:{ .lg }     
+  [__301 重定向__](設定 301 重定向網站轉址.md){ data-preview }  
+  當原本熱門的頁面網址失效或變更時，應設定 301 轉址將流量導向新網址，以防止 SEO 排名下滑。
+
+</div>
 
 ## 重要注意事項
 
