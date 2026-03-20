@@ -151,6 +151,11 @@ copyright = """
         ]},
         { "行銷活動" = [
             { "overview" = "ec/marketing/index.md" },  
+            {"搜尋引擎最佳化" = [
+                {"SEO 優化" = "ec/marketing/seo/SEO 設定與優化指南.md"},
+                {"Sitemap 提交" = "ec/marketing/seo/將 Sitemap 提交至 Google Search Console.md"},
+                {"網站轉址" = "ec/marketing/seo/設定 301 重定向網站轉址.md"}
+            ]},
             { "單品限時折扣群組" = "ec/marketing/設定單品限時折扣群組.md" },
             { "任選折扣" = "ec/marketing/設定任選折扣.md"},
             { "紅配綠多組合優惠" = "ec/marketing/設定紅配綠多組合優惠.md"},
@@ -168,8 +173,7 @@ copyright = """
             { "指定商品送活動序號" = "ec/marketing/設定指定商品送活動序號.md"},
             { "紅利商城" = "ec/marketing/設定紅利商城.md"},
             { "商品多層級分類滿額折扣" = "ec/marketing/設定商品多層級分類滿額折扣.md" },
-            { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" },
-            {"SEO 優化" = "ec/marketing/SEO 設定與優化指南.md"}
+            { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" }
         ]},  
         { "分潤" = [
             { "overview" = "ec/profit-sharing/index.md"},
@@ -275,6 +279,11 @@ copyright = """
                 {"Google Tag Manager" = "ec/integrations/google/建立 Google Tag Manager 並串接 CYBERBIZ.md"},
                 {"Tag Assistant 驗證" = "ec/integrations/google/使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝.md"},
                 {"Google 商家檔案" = "ec/integrations/google/建立與驗證 Google 商家檔案.md"},
+                {"GSC 驗證與設定" = "ec/integrations/google/註冊並驗證 Google Search Console.md"},
+                {"Google Analytics" = [
+                    {"建立串接" = "ec/integrations/google/ga/建立並串接 Google Analytics.md"},
+                    {"進階設定" = "ec/integrations/google/ga/設定 Google Analytics 進階追蹤與資料分析.md"}
+                ]},
                 {"" = "ec/integrations/google/"}
             ]},
             { "LINE" = [

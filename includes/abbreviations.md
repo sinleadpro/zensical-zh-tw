@@ -68,6 +68,7 @@
 *[MBE]: Meta Business Extension
 *[GA]: Google Analytics，由 Google 提供的網站流量分析工具，用於追蹤與分析使用者在網站上的行為與互動情況。
 *[GA4]: Google Analytics 4，Google Analytics 的最新版本。以事件為基礎的分析模型，可追蹤使用者與網站的互動行為，並提供更強大的跨平台分析能力與隱私保護功能。
+*[GSC]: Google Search Console，Google 提供的免費網站管理工具。用於監測網站在 Google 搜尋中的表現、檢視索引狀態、診斷 SEO 問題並提交網站地圖。
 *[GMC]: Google Merchant Center，Google 提供的商品資料管理平台，用於儲存、驗證並提交電商商品資料，讓商品能顯示於 Google 生態系的各項服務中（如 Google Shopping、搜尋結果、YouTube 與 Google Ads）。
 *[SEO]: Search Engine Optimization, 搜尋引擎最佳化。在電子商務系統中，SEO 涵蓋商品頁標題、頁面描述、URL 結構、圖片替代文字（alt text）與關鍵字設定，用於提升網站在搜尋引擎中的可見度與排名。
 *[SKU]: Stock Keeping Unit，存貨單位或庫存單位是用於識別產品的唯一代碼或編號，用於追蹤庫存、管理商品資料與銷售統計。
