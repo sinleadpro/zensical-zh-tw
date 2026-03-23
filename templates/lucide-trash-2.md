@@ -1,0 +1,1 @@
+:lucide-trash-2:

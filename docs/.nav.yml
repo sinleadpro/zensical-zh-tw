@@ -1,0 +1,9 @@
+nav:
+  - EC: 品牌官網/
+  - POS: 智能 POS/
+  - WMS: 智慧倉儲/
+  - 門市助理: 門市助理/
+  - API 文件:
+      - POS API 文件: api/pos/
+      - WMS API 文件: api/wms/
+  - 資源中心: resources/

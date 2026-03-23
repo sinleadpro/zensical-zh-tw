@@ -1,0 +1,831 @@
+# ============================================================================
+#
+# The configuration produced by default is meant to highlight the features
+# that Zensical provides and to serve as a starting point for your own
+# projects.
+#
+# ============================================================================
+
+[project]
+# The site_name is shown in the page header and the browser window title
+#
+# Read more: https://zensical.org/docs/setup/basics/#site_name
+site_name = "CYBERBIZ DOCS"
+
+# The site_description is included in the HTML head and should contain a
+# meaningful description of the site content for use by search engines.
+#
+# Read more: https://zensical.org/docs/setup/basics/#site_description
+site_description = "A new project generated from the default template project."
+
+# The site_author attribute. This is used in the HTML head element.
+#
+# Read more: https://zensical.org/docs/setup/basics/#site_author
+site_author = "Jason W. Ke"
+
+# The site_url is the canonical URL for your site. When building online
+# documentation you should set this.
+# Read more: https://zensical.org/docs/setup/basics/#site_url
+site_url = "https://zensical-zh-tw.plain-dawn-91f2.workers.dev/"
+
+# The copyright notice appears in the page footer and can contain an HTML
+# fragment.
+#
+# Read more: https://zensical.org/docs/setup/basics/#copyright
+copyright = """
+    Copyright &copy; 2025 CYBERBIZ
+    <a href="#__consent">Change cookie settings</a>
+"""
+
+# Zensical supports both implicit navigation and explicitly defined navigation.
+# If you decide not to define a navigation here then Zensical will simply
+# derive the navigation structure from the directory structure of your
+# "docs_dir". The definition below demonstrates how a navigation structure
+# can be defined using TOML syntax.
+#
+# Read more: https://zensical.org/docs/setup/navigation/
+
+ nav = [ 
+    { "主頁" = "index.md" },
+    { "品牌官網" = [
+        { "品牌官網" = "ec/index.md" },
+        { "開始使用" = [
+            { "文字編輯器使用教學" = "ec/get-started/文字編輯器使用教學.md" }
+        ]},
+        { "分析報表" = "ec/analytics/index.md" },
+        { "訂單" = [
+            { "orders" = "ec/orders/index.md" },
+            { "開啟會員退貨申請功能" = "ec/orders/開啟會員退貨申請功能.md"},
+            { "訂單退貨流程" = "ec/orders/訂單退貨流程.md"},
+            { "訂單退款流程" = "ec/orders/訂單退款流程.md"},
+            { "綠界後台查詢教學" = "ec/orders/綠界後台查詢教學.md"},
+            { "訂單管理介面" = "ec/orders/訂單管理介面說明.md" },
+            { "出貨提示文字" = "ec/orders/出貨狀態物流提示文字說明.md" },
+            { "訂單未付款提醒" = "ec/orders/設定未付款提醒.md" },
+            { "提供付款連結" = "ec/orders/提供顧客付款連結.md" },
+            { "訂單自動結案" = "ec/orders/設定訂單自動結案.md" },
+            { "訂單報表匯出" = "ec/orders/匯出訂單報表.md"},
+            {"匯出定期預估報表"= "ec/orders/匯出定期定額子訂單預測報表.md"},
+            { "黑貓快速到店付款" = "ec/orders/設定黑貓快速到店付款方式.md" },
+            { "超商退貨便 C2B" = "ec/orders/操作超商退貨便 C2B.md" },
+            { "全家冷凍店到店 C2C" = "ec/orders/操作全家冷凍店到店 C2C 出貨.md" },
+            { "熱感列印超商托運單" = "ec/orders/熱感列印超商托運單.md" },
+            { "超商店到店 C2C" = "ec/orders/操作超商店到店 C2C 出貨.md" },
+            { "跨境電商" = [
+                {"跨境電商退貨流程" = "ec/orders/跨境電商退貨流程.md"},
+                {"跨境電商退款流程" = "ec/orders/跨境電商退款流程.md"},
+            ]},
+            {"參考資料" = [
+                {"列表操作功能"="ec/orders/references/訂單列表操作功能說明.md"},
+                {"訂單列表欄位"="ec/orders/references/訂單列表欄位參考表.md"},
+                {"訂單搜尋欄位"="ec/orders/references/訂單搜尋欄位規範.md"},
+                {"訂單篩選欄位"="ec/orders/references/訂單篩選條件欄位定義.md"},
+                {"報表可用欄位"="ec/orders/references/訂單報表可用欄位.md"}
+            ]},
+        ]},
+        { "會員" = [
+            { "overview" = "ec/members/index.md"},
+            { "批次匯入與編輯會員" = "ec/members/批次匯入與編輯會員.md"},
+            { "管理會員檔案" = "ec/members/管理會員檔案.md"},
+            { "官網會員客服問答系統" = "ec/members/官網會員客服問答系統.md"},
+            { "新版VIP設定" = [
+                {"VIP功能運作指南" = "ec/members/VIP功能運作指南.md"},
+                {"建立全館VIP制度" = "ec/members/建立全館VIP制度.md"},
+                {"建立特殊VIP群組" = "ec/members/建立特殊VIP群組.md"},
+                {"設定 VIP 專屬優惠" = "ec/members/設定 VIP 專屬優惠.md"}
+            ]},
+        ]},
+        { "商品" = [
+            { "商品管理" = "ec/products/index.md" },  
+            { "快速上手" = [
+                { "商品管理介面" = "ec/products/商品管理介面說明.md" },
+                { "快速上手商品管理" = "ec/products/快速上手商品管理.md" }
+            ]},
+            { "建立與設定" = [
+                { "新增單一商品" = "ec/products/creation/新增單一商品.md"},
+                { "商品簡述與標語" = "ec/products/creation/編輯商品簡述與商品標語.md" },
+                { "商品描述與商品設定" = "ec/products/creation/編輯商品描述與商品設定.md" }
+            ]},  
+            { "分類與標籤" = [
+                { "商品自訂分類" = "ec/products/categorization/設定商品自訂分類群組.md" },
+                { "秘密商品群組" = "ec/products/categorization/設定秘密商品群組.md" },
+                { "商品條件分類" = "ec/products/categorization/設定商品條件分類群組.md" },
+                { "商品多層級分類" = "ec/products/categorization/設定商品多層級分類.md" },
+                { "前台商品篩選器" = "ec/products/categorization/設定前台商品篩選器.md" },
+                { "商品標籤管理" = "ec/products/categorization/管理商品標籤.md" }
+            ]},
+            { "物流與配送" = [
+                { "配送溫層、物流跟通路設定" = "ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）.md" },
+                { "超商配送限制與物流排除" = "ec/products/shipping/設定超商配送限制與物流排除.md" }
+            ]},
+            { "批量管理" = [
+                { "批量上架" = "ec/products/batch-management/批量上架商品.md" } 
+            ]},
+            { "銷售與互動" = [
+                { "VIP 會員專屬價格" = "ec/products/sales/設定 VIP 會員專屬價格.md" },
+                { "商品到貨通知" = "ec/products/sales/設定商品到貨通知.md"},
+                { "管理商品評論" = "ec/products/sales/管理商品評論.md"},
+                { "結帳拆分多購物車" = "ec/products/sales/設定結帳拆分多購物車.md"},
+                { "商品影片" = "ec/products/sales/設定商品影片.md" },
+                { "搜尋結果排除特定商品" = "ec/products/sales/設定搜尋結果中排除特定關鍵字商品.md" }
+            ]},
+            { "商品上架" = [
+                { "組合商品" = "ec/products/新增與設定組合商品.md"},
+                { "商品描述與商品設定" = "ec/products/編輯商品描述與商品設定.md" },
+                { "Excel 大量匯入商品" = "ec/products/Excel 大量匯入商品.md"},
+                { "批次修改商品描述與配送設定" = "ec/products/批次修改商品描述與配送設定.md" },
+                { "商品搜尋可見性" = "ec/products/設定商品搜尋可見性.md" }
+            ]},
+            { "商品配送" = [
+                { "配送溫層、物流跟通路設定" = "ec/products/設定商品配送條件（物流、溫層與出貨通路）.md" },
+                { "超商配送限制與物流排除" = "ec/products/設定超商配送限制與物流排除.md" }
+            ]},
+            { "參考資源" = [
+                { "商品列表欄位參考表" = "ec/products/references/商品列表欄位參考表.md" },
+                { "商品搜尋欄位規範" = "ec/products/references/商品搜尋欄位規範.md" },
+                { "篩選欄位定義" = "ec/products/references/篩選欄位定義.md" },
+                { "商品列表操作選項" = "ec/products/references/商品列表操作功能說明.md" }
+            ]},
+        ]},
+        { "電子票券" = [
+            { "overview" = "ec/e-ticket/index.md" },
+            { "電子票券指南" = "ec/e-ticket/電子票券設定指南.md" },
+            { "電子票券優惠" = "ec/e-ticket/設定電子票券優惠.md" },
+            { "門市帳號與權限" = "ec/e-ticket/設定電子票券門市權限.md"}
+        ]},
+        { "行銷活動" = [
+            { "overview" = "ec/marketing/index.md" },  
+            {"搜尋引擎最佳化" = [
+                {"SEO 優化" = "ec/marketing/seo/SEO 設定與優化指南.md"},
+                {"Sitemap 提交" = "ec/marketing/seo/將 Sitemap 提交至 Google Search Console.md"},
+                {"網站轉址" = "ec/marketing/seo/設定 301 重定向網站轉址.md"}
+            ]},
+            { "單品限時折扣群組" = "ec/marketing/設定單品限時折扣群組.md" },
+            { "任選折扣" = "ec/marketing/設定任選折扣.md"},
+            { "紅配綠多組合優惠" = "ec/marketing/設定紅配綠多組合優惠.md"},
+            { "滿額贈滿件贈"= "ec/marketing/設定滿額贈與滿件贈.md" },
+            { "訂單加價購" = "ec/marketing/設定訂單加價購.md" },
+            { "商品加價購" = "ec/marketing/設定商品加價購.md" },
+            { "期間限定首購禮" = "ec/marketing/設定期間限定首購禮.md"},
+            { "互動遊戲" = "ec/marketing/設定互動遊戲.md"},
+            { "一頁式商店" = "ec/marketing/設定一頁式商店.md"},
+            { "一頁式影片自動播放" = "ec/marketing/設定一頁式商店 YouTube 影片自動播放與起始秒數.md" },
+            { "指定商品送優惠券" = "ec/marketing/設定指定商品送優惠券.md"},
+            { "指定商品送紅利" = "ec/marketing/設定指定商品送紅利.md"},
+            { "指定金流送紅利" = "ec/marketing/設定指定金流送紅利.md"},
+            { "指定物流送紅利" = "ec/marketing/設定指定物流送紅利.md"},
+            { "指定商品送活動序號" = "ec/marketing/設定指定商品送活動序號.md"},
+            { "紅利商城" = "ec/marketing/設定紅利商城.md"},
+            { "商品多層級分類滿額折扣" = "ec/marketing/設定商品多層級分類滿額折扣.md" },
+            { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" }
+        ]},  
+        { "分潤" = [
+            { "overview" = "ec/profit-sharing/index.md"},
+            { "了解分潤功能" = "ec/profit-sharing/了解分潤功能.md"},
+            { "設定推薦人分潤方案" = "ec/profit-sharing/設定推薦人分潤方案.md"},
+            { "設定註冊人分潤方案" = "ec/profit-sharing/設定註冊人分潤方案.md"},
+            { "匯出分潤報表" = "ec/profit-sharing/匯出分潤報表.md"},
+            { "查詢分潤夥伴與代碼資訊" = "ec/profit-sharing/查詢分潤夥伴與代碼資訊.md"},
+            { "推薦碼連結的應用" = "ec/profit-sharing/推薦碼連結的應用.md"},
+        ]},
+        { "訊息推播" = [
+            { "overview" = "ec/notifications/index.md" },
+            { "Email 樣板管理" = "ec/notifications/設定與管理 Email 通知樣板.md" },
+            { "簡訊樣板管理" = "ec/notifications/設定與管理簡訊通知樣板.md" },
+            { "LINE OA 樣板管理" = "ec/notifications/設定與管理 LINE OA 通知樣板.md" },
+            { "LINE 加入好友邀請" = "ec/notifications/發送 LINE 加入好友邀請.md" },
+            {"發送 EDM" = "ec/notifications/設定與發送 EDM 電子報.md"},
+            { "庫存過低通知" = "ec/notifications/庫存過低通知.md" }
+        ]},
+        { "金物流" = [
+            { "overview" = "ec/payments-and-logistics/index.md" },
+            { "申請 CYBERBIZ PAYMENTS" = "ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS.md" },
+            { "設定信用卡 3D 驗證" = "ec/payments-and-logistics/設定信用卡 3D 驗證門檻.md" },
+            { "設定 Apple Pay" = "ec/payments-and-logistics/設定 Apple Pay.md" },
+            { "設定 AFTEE" = "ec/payments-and-logistics/設定 AFTEE.md" },
+            { "設定 LINE Pay" = "ec/payments-and-logistics/設定 LINE Pay.md" },
+            { "設定 PayPal" = "ec/payments-and-logistics/設定 PayPal.md" },
+            { "設定街口支付" = "ec/payments-and-logistics/設定街口支付.md" },
+            { "設定 iPASS MONEY 一卡通" = "ec/payments-and-logistics/設定 iPASS MONEY 一卡通.md" },
+            { "宅配貨到付款（黑貓/宅配通/新竹物流）" = "ec/payments-and-logistics/宅配貨到付款（黑貓宅配通新竹物流）.md" },
+            { "宅配貨到不付款（黑貓/宅配通/新竹物流）" = "ec/payments-and-logistics/宅配貨到不付款（黑貓宅配通新竹物流）.md" },
+            { "串接全家超商B2C冷凍物流" = "ec/payments-and-logistics/串接全家超商B2C冷凍物流.md" },
+            { "超商大宗寄倉 B2C" = "ec/payments-and-logistics/設定超商大宗寄倉 B2C.md" },
+            { "全家冷凍 B2C" = "ec/payments-and-logistics/設定全家冷凍物流 B2C.md" },
+            { "超商店到店 C2C 串接" = "ec/payments-and-logistics/設定超商店到店 C2C 物流串接.md" },
+            { "設定門市取貨服務"= "ec/payments-and-logistics/設定門市取貨服務.md" },
+            { "設定CYBERBIZ NOW快速到貨服務" = "ec/payments-and-logistics/設定CYBERBIZ NOW快速到貨服務.md" },
+            { "CYBERBIZ NOW" = [
+                { "overview" = "ec/payments-and-logistics/CYBERBIZNOW/index.md" },
+                { "開啟快速到貨服務" = "ec/payments-and-logistics/CYBERBIZNOW/開啟CYBERBIZ NOW快速到貨服務.md"},
+                { "複製商品到快速到貨門市"= "ec/payments-and-logistics/CYBERBIZNOW/複製商品到快速到貨門市.md"},
+                { "設定快速到貨前台入口與專區"= "ec/payments-and-logistics/CYBERBIZNOW/設定快速到貨前台入口與專區.md"},
+                { "快速到貨訂單接單準備"= "ec/payments-and-logistics/CYBERBIZNOW/快速到貨訂單接單準備.md"},
+                { "快速到貨出貨與配送"= "ec/payments-and-logistics/CYBERBIZNOW/快速到貨出貨與配送.md"},
+                { "缺貨訂單部分出貨或取消流程"= "ec/payments-and-logistics/CYBERBIZNOW/缺貨訂單部分出貨或取消流程.md"},
+                { "快速到貨配送異常規範"= "ec/payments-and-logistics/CYBERBIZNOW/快速到貨配送異常規範.md"},
+                { "運費計算與對帳規範"= "ec/payments-and-logistics/CYBERBIZNOW/運費計算與對帳規範.md"},
+                { "消費者購買流程"= "ec/payments-and-logistics/CYBERBIZNOW/消費者購買流程.md"}
+            ]},
+            { "宅配逆物流（黑貓/宅配通/新竹物流）" = "ec/payments-and-logistics/宅配逆物流（黑貓宅配通新竹物流）.md"},
+            { "補印與加印託運單" = "ec/payments-and-logistics/補印與加印託運單.md"},
+            { "查詢宅配託運單紀錄" = "ec/payments-and-logistics/查詢宅配託運單紀錄.md"},
+            { "串接ezShip超商取貨(C2C)" = "ec/payments-and-logistics/串接ezShip超商取貨(C2C).md"},
+            { "申請綠界金流與超商取貨付款" = "ec/payments-and-logistics/申請綠界金流與超商取貨付款.md"},
+            { "跨境電商" = [
+                {"北美站金流服務" = "ec/payments-and-logistics/北美站金流服務.md"},
+                {"日本站金流服務" = "ec/payments-and-logistics/日本站金流服務.md"},
+                {"東南亞站金流服務" = "ec/payments-and-logistics/東南亞站金流服務.md"},
+                {"澳洲落地版金流服務" = "ec/payments-and-logistics/澳洲落地版金流服務.md"},
+                {"DHL 跨境物流" = "ec/payments-and-logistics/DHL 跨境物流.md"},
+                {"LINEX 跨境物流" = "ec/payments-and-logistics/LINEX 跨境物流.md"},
+                {"順豐海外物流" = "ec/payments-and-logistics/順豐海外物流.md"},
+                {"Amazon FBA 跨境物流" = "ec/payments-and-logistics/Amazon FBA 跨境物流.md"},
+                {"CYBERBIZ EXPRESS 日到台宅配" = "ec/payments-and-logistics/CYBERBIZ EXPRESS 日到台跨境宅配.md"},
+            ]},
+        ]},
+        { "網站外觀" = [
+            { "overview" = "ec/website-appearance/index.md" },
+            {"文字編輯器教學" = "ec/website-appearance/使用文字編輯器編輯內容.md"},
+            { "樣板編輯器" = "ec/website-appearance/樣板編輯器操作全攻略.md" },
+            { "恢復樣板版本" = "ec/website-appearance/使用樣板編輯器恢復網頁代碼.md" },
+            { "留言區 reCAPTCHA" = "ec/website-appearance/啟用留言區 reCAPTCHA.md"},
+            { "拖拉版型設定" = "ec/website-appearance/拖拉版型網站設定.md" },
+            { "選單與導覽列" = "ec/website-appearance/設定選單與導覽列.md "},
+            { "自訂頁面管理" = "ec/website-appearance/設定與管理自訂頁面.md" },
+            { "嵌入 Google 表單" = "ec/website-appearance/在自訂頁面中嵌入 Google 表單.md" },
+            { "客服中心資訊調整" = "ec/website-appearance/設定與修改客服中心資訊.md"},
+            { "優先填寫收件人設定" = "ec/website-appearance/修改結帳流程為優先填寫收件人資訊.md" },
+            { "首頁跑馬燈轉場時間" = "ec/website-appearance/調整首頁跑馬燈輪播圖的轉場停留時間.md" },
+            { "網站客服視窗" = "ec/website-appearance/設置網站客服視窗.md" },
+            { "網站標題與 SEO" = "ec/website-appearance/設定網站標題與 SEO.md" },
+            { "關閉圖片放大預覽" = "ec/website-appearance/關閉商品圖片放大預覽功能.md" },
+            { "選單滑鼠移入自動展開" = "ec/website-appearance/設定導覽選單滑鼠移入自動展開.md" },
+            { "轉貼連結縮圖" = "ec/website-appearance/設定轉貼連結縮圖 OG Image.md" },
+            { "全站商品列表群組排序" = "ec/website-appearance/設定前台商品群組排序.md" },
+            { "網頁鎖右鍵" = "ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md"},
+            { "前台語系與文字" = "ec/website-appearance/設定前台語系與文字自定義.md" },
+            {"部落格管理" = "ec/website-appearance/部落格管理與文章發佈指南.md"},
+            { "日本站：建立特定商取引法頁面" = "ec/website-appearance/日本站：建立特定商取引法頁面.md" },
+        ]},
+        { "APP MARKET" = [
+            { "overview" = "ec/app-market/index.md" },
+            { "AUTOMATION" = [
+              { "自動化行銷" = "ec/app-market/automation/使用 AUTOMATION 建立自動化推播流程.md" }
+            ]},
+            { "CYBERBIZ 擴充服務" = [
+                { "overview" = "ec/app-market/cyberbiz-extensions/index.md" },
+                { "Chat Box" = [
+                    { "overview" = "ec/app-market/cyberbiz-extensions/chat-box/index.md" },
+                ]},
+                { "全通路庫存管理" = [
+                    { "Step 1 安裝啟用" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step1.安裝啟用.md" },
+                    { "Step 2 導入商品與建立關聯" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step2.導入商品與建立關聯.md" },
+                    { "Step 3 庫存同步" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step3.官網與蝦皮商品庫存同步.md" },
+                    { "Step 4 官網商品建立為蝦皮商品" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step4.官網商品建立為蝦皮商品.md" },
+                    { "Step 5 資訊同步" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step5.官網與蝦皮商品資訊同步.md" },
+                ]},
+            ]},
+        ]},
+        { "第三方整合" = [
+            {"overview" = "ec/integrations/index.md"},  
+            {"FB/Meta" = [
+                { "overview" = "ec/integrations/fb-meta/index.md"}
+            ]},
+            {"Google" = [
+                {"overview" = "ec/integrations/google/index.md"},
+                {"Google 快速登入" = "ec/integrations/google/設定 Google 快速登入.md"},
+                {"設定 Google 購物廣告" = "ec/integrations/google/設定 Google 購物廣告.md"},
+                {"設定自動化廣告" = "ec/integrations/google/設定自動化廣告.md"},
+                {"Google Tag Manager" = "ec/integrations/google/建立 Google Tag Manager 並串接 CYBERBIZ.md"},
+                {"Tag Assistant 驗證" = "ec/integrations/google/使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝.md"},
+                {"Google 商家檔案" = "ec/integrations/google/建立與驗證 Google 商家檔案.md"},
+                {"GSC 驗證與設定" = "ec/integrations/google/註冊並驗證 Google Search Console.md"},
+                {"Google Analytics" = [
+                    {"建立串接" = "ec/integrations/google/ga/建立並串接 Google Analytics.md"},
+                    {"進階設定" = "ec/integrations/google/ga/設定 Google Analytics 進階追蹤與資料分析.md"}
+                ]},
+                {"" = "ec/integrations/google/"}
+            ]},
+            { "LINE" = [
+                {"overview" = "ec/integrations/line/index.md"},
+                {"官方帳號串接" = [
+                    {"串接 Messaging API" = "ec/integrations/line/account-integration/串接 LINE Messaging API.md"},
+                    {"LINE 快速登入" = "ec/integrations/line/account-integration/設定 LINE 快速登入.md"},
+                    {"獲取會員手機號碼" = "ec/integrations/line/account-integration/設定 LINE 快速登入時取得會員手機號碼.md"},
+                    {"LIFF 自動登入" = "ec/integrations/line/account-integration/設定 LIFF 自動登入與會員綁定.md"},
+                    {"LINE 會員綁定" = "ec/integrations/line/account-integration/綁定 LINE 官方帳號與官網會員.md"},
+                    {"篩選綁定會員名單" = "ec/integrations/line/account-integration/篩選與應用 LINE OA 綁定會員名單.md"},
+                    {"綁定會員送優惠券" = "ec/integrations/line/account-integration/設定 LINE 綁定會員贈送優惠券.md"}
+                ]},
+                {"行銷與推播" = [
+                    {"LINE 受眾串接" = "ec/integrations/line/marketing/設定 LINE OA 受眾串接.md"},
+                    {"分眾訊息推播" = "ec/integrations/line/marketing/設定與發送 LINE OA 分眾訊息推播.md"},
+                    {"官網加入好友連結" = "ec/integrations/line/marketing/在官網新增 LINE 加入好友入口.md"},
+                    {"訂單頁加入好友連結" = "ec/integrations/line/marketing/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md"},
+                    {"LINE 圖文選單" = "ec/integrations/line/marketing/設定 LINE 圖文選單.md"},
+                    {"LINE Tag 追蹤" = "ec/integrations/line/marketing/設定與管理 LINE Tag.md"}
+                ]},
+                {"LINE 團購" = [
+                    {"overview" = "ec/integrations/line/group-buy/index.md"},
+                    {"LINE 團購機器人" = "ec/integrations/line/group-buy/設定 LINE 團購機器人.md"},
+                    {"LINE 團購商品" = "ec/integrations/line/group-buy/設定 LINE 團購商品.md"},
+                    {"LINE 團購群組" = "ec/integrations/line/group-buy/設定 LINE 團購群組.md"},
+                    {"LINE 團購購物流程" = "ec/integrations/line/group-buy/使用 LINE 團購進行購物.md"}
+                ]},
+                {"LINE 直播" = "ec/integrations/line/申請與設定 LINE 直播功能.md"},
+                {"LINE 購物導購" = "ec/integrations/line/申請與設定 LINE 購物導購.md"}
+            ]},
+    ]},
+        { "管理中心" = [
+            { "overview" = "ec/website-management/index.md" },
+            { "系統通知設定" = "ec/website-management/系統通知設定.md" },
+            { "網站基本資訊" = "ec/website-management/設定網站基本資訊.md" },
+            { "設定多國語言與多幣別" = "ec/website-management/設定多國語言與多幣別.md" },
+            { "續購與自動續約" = "ec/website-management/續購與自動續約.md" },
+            { "設定顧客註冊流程與欄位" = "ec/website-management/設定顧客註冊流程與欄位.md" },
+            { "網域管理" = "ec/website-management/網域管理.md" },
+            {"安全性設定" = "ec/website-management/設定網站安全性.md"},
+            {"二階段驗證 (2FA)" = "ec/website-management/設定與管理二階段驗證.md"},
+            {"Authy 二階段驗證" = "ec/website-management/使用 Authy 啟用二階段驗證設定.md"},
+            { "星益欣電子發票" = "ec/website-management/星益欣電子發票設定指南.md" },
+            { "為特定網域信箱套用指定會員標籤" = "ec/website-management/為特定網域信箱套用指定會員標籤.md" },
+            {"管理員與權限" = "ec/website-management/新增網站管理員並設定權限.md"},
+            {"參考資料" = [
+                {"權限與選單對應表" = "ec/website-management/references/管理者權限與後台選單對應表.md"},
+                { "解決 HTTPS 根網址無法順利讀取問題" = "ec/website-management/解決 HTTPS 根網址無法順利讀取問題.md" },
+                { "解決 Cloudflare SSL 衝突問題" = "ec/website-management/解決 Cloudflare SSL 衝突問題.md" },
+            ]},
+        ]},
+    ]},
+    { "智慧倉儲" = [
+        { "智慧倉儲" = "wms/index.md"},
+        { "開始使用" = [
+            { "商家進倉作業規範" = "wms/商家進倉作業規範.md"},
+        ]},
+        { "官網串倉整合指南" = [
+            { "申請流程與開通" = "wms/申請流程與開通.md"},
+            { "啟用部分串倉與拆單" = "wms/啟用部分串倉與拆單.md"},
+            { "啟用部分串倉與混單" = "wms/啟用部分串倉與混單.md"},
+            { "官網與倉儲同步規則" = "wms/官網與倉儲同步規則.md"},
+            { "設定商品(現貨、限量、預購)" = "wms/設定商品(現貨、限量、預購).md"},
+            { "訂單出貨操作" = "wms/.md"},
+            { "手動確認收貨" = "wms/手動確認收貨.md"},
+            { "退貨與派車" = "wms/.md"},
+            { "商家自行驗收退貨" = "wms/商家自行驗收退貨.md"},
+            { "POS 系統串倉庫存轉調" = "wms/POS 系統串倉庫存轉調.md"},
+        ]},
+        {"divider" = "divider"},
+        { "公告" = "wms/公告.md"},
+        { "操作紀錄列表" = "wms/操作紀錄列表.md"},
+        { "商品" = [
+            { "單一品項" = "wms/單一品項.md"},
+            { "加工商品" = "wms/加工商品.md"},
+            { "季別群組" = "wms/季別群組.md"},
+        ]},
+        { "供應商" = "wms/供應商.md"},
+        { "通路" = "wms/通路.md"},
+        { "調倉單" = "wms/調倉單.md"},
+        { "進倉單" = "wms/進倉單.md"},
+        { "訂單" = [
+            { "列表" = "wms/列表.md"},
+            { "手動建單" = "wms/手動建單.md"},
+            { "缺貨商品" = "wms/.md"},
+        ]},
+        { "POD列表" = "wms/POD列表.md"},
+        { "退貨單" = "wms/退貨單.md"},
+        { "庫存紀錄" = "wms/庫存紀錄.md"},
+        { "設定" = [
+            { "商店設定" = "wms/.md"},
+            { "帳號管理" = "wms/.md"},
+            { "權限設定" = "wms/.md"},
+            { "報表通知設定" = "wms/報表通知設定.md"},
+        ]},
+        { "API" = "wms/.md"},
+
+    ]},
+    { "智能 POS" = [
+        { "智能 POS" = "pos/index.md" },
+        { "開始使用" = "pos/get-started.md" },
+        { "店長改價操作" = "pos/frontend/使用「店長改價」在 POS 前台調整單品價格.md"},
+        { "訂單" = [
+            { "overview" = "pos/orders/index.md" },
+            { "訂單自動結案" = "pos/orders/設定 POS 訂單自動結案.md" },
+            { "修改店長改價顯示名稱" = "pos/orders/修改訂單明細頁「店長改價」的顯示名稱.md" },
+            {"POS 報表列表"="pos/orders/POS 報表列表與功能說明.md"}
+        ]},
+        { "商品" = [
+            { "商品標籤列印" = "pos/products/商品標籤列印教學.md" }
+        ]},
+        { "第三方整合" = [
+            { "LINE" = [
+                { "overview" = "pos/integrations/line/index.md" },
+                { "LINE 會員條碼設定" = "pos/integrations/line/設定與使用 LINE 顯示會員條碼（串接 POS 結帳）.md" }
+            ]},
+        ]},
+    ]},
+    { "資源中心" = [
+        { "總覽" = "resources/index.md" },
+        { "常見問題" = [
+            { "常見問題" = "resources/faq/index.md" },
+            { "資安隱私" = "" },
+            { "付款帳務" = [
+                { "一般退貨退款" = "resources/faq/一般退貨退款.md" }
+            ]},
+            { "客服支援" = [
+                { "使用 Jam 回報問題" = "resources/faq/使用 Jam 回報問題.md" }
+            ]},
+        ]},
+        { "更新紀錄" = "resources/changelog.md" },
+        { "詞彙表" = "resources/glossary.md" },
+        { "圖示慣例" = "resources/conventions.md" },   
+        { "參考資料" = [
+            { "overview" = "resources/index.md" },
+            { "CYBER 幣" = "resources/references/認識 CYBER 幣.md" }
+        ]},
+    ]}
+ ]
+# With the "extra_css" option you can add your own CSS styling to customize
+# your Zensical project according to your needs. You can add any number of
+# CSS files.
+#
+# The path provided should be relative to the "docs_dir".
+#
+# Read more: https://zensical.org/docs/customization/#additional-css
+#
+extra_css = ["stylesheets/extra.css"]
+
+# With the `extra_javascript` option you can add your own JavaScript to your
+# project to customize the behavior according to your needs.
+#
+# The path provided should be relative to the "docs_dir".
+#
+# Read more: https://zensical.org/docs/customization/#additional-javascript
+#extra_javascript = ["assets/javascript/extra.js"]
+extra_javascript = [
+    "https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js",
+    "javascripts/tablesort.js"
+]
+# ----------------------------------------------------------------------------
+# Section for configuring theme options
+# ----------------------------------------------------------------------------
+[project.theme]
+
+# change this to "classic" to use the traditional Material for MkDocs look.
+#variant = "classic"
+
+# Zensical allows you to override specific blocks, partials, or whole
+# templates as well as to define your own templates. To do this, uncomment
+# the custom_dir setting below and set it to a directory in which you
+# keep your template overrides.
+#
+# Read more:
+# - https://zensical.org/docs/customization/#extending-the-theme
+#
+custom_dir = "overrides"
+
+# With the "favicon" option you can set your own image to use as the icon
+# browsers will use in the browser title bar or tab bar. The path provided
+# must be relative to the "docs_dir".
+#
+# Read more:
+# - https://zensical.org/docs/setup/logo-and-icons/#favicon
+# - https://developer.mozilla.org/en-US/docs/Glossary/Favicon
+#
+#favicon = "assets/images/favicon.png"
+
+# Zensical supports more than 60 different languages. This means that the
+# labels and tooltips that Zensical's templates produce are translated.
+# The "language" option allows you to set the language used. This language
+# is also indicated in the HTML head element to help with accessibility
+# and guide search engines and translation tools.
+#
+# The default language is "en" (English). It is possible to create
+# sites with multiple languages and configure a language selector. See
+# the documentation for details.
+#
+# Read more:
+# - https://zensical.org/docs/setup/language/
+#
+language = "zh-TW"
+
+# Zensical provides a number of feature toggles that change the behavior
+# of the documentation site.
+features = [
+    # Zensical includes an announcement bar. This feature allows users to
+    # dismiss it then they have read the announcement.
+    # https://zensical.org/docs/setup/header/#announcement-bar
+    "announce.dismiss",
+
+    # If you have a repository configured and turn feature this on, Zensical
+    # will generate an edit button for the page. This works for common
+    # repository hosting services.
+    # https://zensical.org/docs/setup/repository/#code-actions
+    #"content.action.edit",
+
+    # If you have a repository configured and turn feature this on, Zensical
+    # will generate a button that allows the user to view the Markdown
+    # code for the current page.
+    # https://zensical.org/docs/setup/repository/#code-actions
+    #"content.action.view",
+
+    # Code annotations allow you to add an icon with a tooltip to your
+    # code blocks to provide explanations at crucial points.
+    # https://zensical.org/docs/authoring/code-blocks/#code-annotations
+    "content.code.annotate",
+
+    # This feature turns on a button in code blocks that allow users to
+    # copy the content to their clipboard without first selecting it.
+    # https://zensical.org/docs/authoring/code-blocks/#code-copy-button
+    "content.code.copy",
+
+    # Code blocks can include a button to allow for the selection of line
+    # ranges by the user.
+    # https://zensical.org/docs/authoring/code-blocks/#code-selection-button
+    "content.code.select",
+
+    # Zensical can render footnotes as inline tooltips, so the user can read
+    # the footnote without leaving the context of the document.
+    # https://zensical.org/docs/authoring/footnotes/#footnote-tooltips
+    "content.footnote.tooltips",
+
+    # If you have many content tabs that have the same titles (e.g., "Python",
+    # "JavaScript", "Cobol"), this feature causes all of them to switch to
+    # at the same time when the user chooses their language in one.
+    # https://zensical.org/docs/authoring/content-tabs/#linked-content-tabs
+    "content.tabs.link",
+
+    # TODO: not sure I understand this one? Is there a demo of this in the docs?
+    # https://zensical.org/docs/authoring/tooltips/#improved-tooltips
+    "content.tooltips",
+
+    # With this feature enabled, Zensical will automatically hide parts
+    # of the header when the user scrolls past a certain point.
+    # https://zensical.org/docs/setup/header/#automatic-hiding
+    # "header.autohide",
+
+    # Turn on this feature to expand all collapsible sections in the
+    # navigation sidebar by default.
+    # https://zensical.org/docs/setup/navigation/#navigation-expansion
+    # "navigation.expand",
+
+    # This feature turns on navigation elements in the footer that allow the
+    # user to navigate to a next or previous page.
+    # https://zensical.org/docs/setup/footer/#navigation
+    "navigation.footer",
+
+    # When section index pages are enabled, documents can be directly attached
+    # to sections, which is particularly useful for providing overview pages.
+    # https://zensical.org/docs/setup/navigation/#section-index-pages
+    "navigation.indexes",
+
+    # When instant navigation is enabled, clicks on all internal links will be
+    # intercepted and dispatched via XHR without fully reloading the page.
+    # https://zensical.org/docs/setup/navigation/#instant-navigation
+    "navigation.instant",
+
+    # With instant prefetching, your site will start to fetch a page once the
+    # user hovers over a link. This will reduce the perceived loading time
+    # for the user.
+    # https://zensical.org/docs/setup/navigation/#instant-prefetching
+    "navigation.instant.prefetch",
+
+    # In order to provide a better user experience on slow connections when
+    # using instant navigation, a progress indicator can be enabled.
+    # https://zensical.org/docs/setup/navigation/#progress-indicator
+    #"navigation.instant.progress"
+
+    # When navigation paths are activated, a breadcrumb navigation is rendered
+    # above the title of each page
+    # https://zensical.org/docs/setup/navigation/#navigation-path
+    "navigation.path",
+
+    # When pruning is enabled, only the visible navigation items are included
+    # in the rendered HTML, reducing the size of the built site by 33% or more.
+    # https://zensical.org/docs/setup/navigation/#navigation-pruning
+    #"navigation.prune",
+
+    # When sections are enabled, top-level sections are rendered as groups in
+    # the sidebar for viewports above 1220px, but remain as-is on mobile.
+    # https://zensical.org/docs/setup/navigation/#navigation-sections
+    # "navigation.sections",
+
+    # When tabs are enabled, top-level sections are rendered in a menu layer
+    # below the header for viewports above 1220px, but remain as-is on mobile.
+    # https://zensical.org/docs/setup/navigation/#navigation-tabs
+    "navigation.tabs",
+
+    # When sticky tabs are enabled, navigation tabs will lock below the header
+    # and always remain visible when scrolling down.
+    # https://zensical.org/docs/setup/navigation/#sticky-navigation-tabs
+    #"navigation.tabs.sticky",
+
+    # A back-to-top button can be shown when the user, after scrolling down,
+    # starts to scroll up again.
+    # https://zensical.org/docs/setup/navigation/#back-to-top-button
+    "navigation.top",
+
+    # When anchor tracking is enabled, the URL in the address bar is
+    # automatically updated with the active anchor as highlighted in the table
+    # of contents.
+    # https://zensical.org/docs/setup/navigation/#anchor-tracking
+    "navigation.tracking",
+
+    # When search highlighting is enabled and a user clicks on a search result,
+    # Zensical will highlight all occurrences after following the link.
+    # https://zensical.org/docs/setup/search/#search-highlighting
+    "search.highlight",
+
+    # When anchor following for the table of contents is enabled, the sidebar
+    # is automatically scrolled so that the active anchor is always visible.
+    # https://zensical.org/docs/setup/navigation/#anchor-following
+    # "toc.follow"
+
+    # When navigation integration for the table of contents is enabled, it is
+    # always rendered as part of the navigation sidebar on the left.
+    # https://zensical.org/docs/setup/navigation/#navigation-integration
+    #"toc.integrate"
+]
+
+# ----------------------------------------------------------------------------
+# In the "palette" subsection you can configure options for the color scheme.
+# You can configure different color # schemes, e.g., to turn on dark mode,
+# that the user can switch between. Each color scheme can be further
+# customized.
+#
+# Read more:
+# - https://zensical.org/docs/setup/colors/
+# ----------------------------------------------------------------------------
+[[project.theme.palette]]
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+
+# ----------------------------------------------------------------------------
+# In the "font" subsection you can configure the fonts used. By default, fonts
+# are loaded from Google Fonts, giving you a wide range of choices from a set
+# of suitably licensed fonts. There are options for a normal text font and for
+# a monospaced font used in code blocks.
+# ----------------------------------------------------------------------------
+#[project.theme.font]
+#text = "Inter"
+#code = "Jetbrains Mono"
+
+# ----------------------------------------------------------------------------
+# You can configure your own logo to be shown in the header using the "logo"
+# option in the "icons" subsection. The logo can be a path to a file in your
+# "docs_dir" or it can be a path to an icon.
+#
+# Likewise, you can customize the logo used for the repository section of the
+# header. Zensical derives the default logo for this from the repository URL.
+# See below...
+#
+# There are other icons you can customize. See the documentation for details.
+#
+# Read more:
+# - https://zensical.org/docs/setup/logo-and-icons
+# - https://zensical.org/docs/authoring/icons-emojis/#search
+# ----------------------------------------------------------------------------
+#[project.theme.icon]
+#logo = "lucide/smile"
+#repo = "lucide/smile"
+
+# ----------------------------------------------------------------------------
+# The "extra" section contains miscellaneous settings.
+# ----------------------------------------------------------------------------
+#[[project.extra.social]]
+#icon = "fontawesome/brands/github"
+#link = "https://github.com/user/repo"
+
+[project.extra]
+alternate = [
+  { name = "English", link = "/en/", lang = "en" },
+  { name = "日本語", link = "/ja/", lang = "ja" },
+  { name = "繁體中文", link = "/zh-TW/", lang = "zh-TW" }
+]
+
+[[project.extra.social]]
+icon = "simple/youtube"
+link = "https://www.youtube.com/channel/UCTf4mKUL4k6-2skp1kxPDXg"
+name = "CYBERBIZ 官方 YouTube"
+
+[[project.extra.social]]
+icon = "simple/instagram"
+link = "https://www.instagram.com/cyberbiz.corp/"
+name = "CYBERBIZ 官方 Instagram"
+
+[[project.extra.social]]
+icon = "simple/facebook"
+link = "https://www.facebook.com/CYBERBIZCorporation/?locale=zh_TW" 
+name = "CYBERBIZ 官方 Facebook"
+
+[[project.extra.social]]
+icon = "simple/rss"
+link = "http://localhost:8000/feed_rss_created.xml"
+
+
+[project.extra.status]
+lock = "Available only for certain plans"
+
+[project.extra.consent]
+title = "Cookie consent"
+description = """
+    We use cookies to recognize your repeated visits and preferences, as well
+    as to measure the effectiveness of our documentation and whether users
+    find what they're searching for. With your consent, you're helping us to
+    make our documentation better.
+"""
+
+[project.extra.analytics]
+provider = "google"
+property = "G-YD3J9MG2GM"
+
+[project.extra.analytics.feedback]
+title = "內容有幫助?"
+
+[[project.extra.analytics.feedback.ratings]]
+icon = "material/emoticon-happy-outline"
+name = "有幫助"
+data = 1
+note = "感謝你的反饋!"
+
+[[project.extra.analytics.feedback.ratings]]
+icon = "material/emoticon-sad-outline"
+name = "可以改進"
+data = 0
+note = """
+  感謝你的反饋! Help us improve this page by
+  using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+"""
+
+# ----------------------------------------------------------------------------
+# The "Extension" section contains miscellaneous settings.
+# ----------------------------------------------------------------------------
+[project.markdown_extensions.abbr]
+[project.markdown_extensions.pymdownx.snippets]
+#base_path = ["includes/snippets"]
+auto_append = ["includes/abbreviations.md"]
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.def_list]
+[project.markdown_extensions.footnotes]
+[project.markdown_extensions.md_in_html]
+[project.markdown_extensions.toc]
+permalink = true
+toc_depth = 3
+[project.markdown_extensions.toc.slugify]
+object = "pymdownx.slugs.slugify"
+kwds = { unicode = true }
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+[project.markdown_extensions.pymdownx.tabbed.slugify]
+object = "pymdownx.slugs.slugify"
+kwds = { case = "lower" }
+[project.markdown_extensions.pymdownx.arithmatex]
+generic = true
+[project.markdown_extensions.pymdownx.betterem]
+smart_enable = "all"
+[project.markdown_extensions.pymdownx.caret]
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.emoji]
+emoji_generator = "zensical.extensions.emoji.to_svg"
+emoji_index = "zensical.extensions.emoji.twemoji"
+[project.markdown_extensions.pymdownx.highlight]
+[project.markdown_extensions.pymdownx.inlinehilite]
+[project.markdown_extensions.pymdownx.keys]
+[project.markdown_extensions.pymdownx.mark]
+[project.markdown_extensions.pymdownx.smartsymbols]
+[project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]
+#format = "pymdownx.superfences.fence_code_format"
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true
+clickable_checkbox = true
+[project.markdown_extensions.pymdownx.tilde]
+[project.markdown_extensions.pymdownx.blocks.caption]
+
+[project.markdown_extensions.zensical.extensions.preview]
+[[project.markdown_extensions.zensical.extensions.preview.configurations]]
+#sources.include = ["**/*.md"]
+#sources.exclude = []
+#targets.include = ["ec/*", "pos/**"]
+#targets.exclude = []
+targets.include = [
+    "resources/references/*"
+]
+
+[project.plugins.autorefs]
+# Optional: Set how link titles are generated
+# options: "auto" (default), "true", "false", or "external"
+#link_titles = "auto"
+
+# Optional: Prevent stripping of HTML tags from titles
+#strip_title_tags = false
+

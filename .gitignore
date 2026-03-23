@@ -1,0 +1,43 @@
+# Zensical uild Output
+site/
+dist/
+build/
+
+# Also ignore the obsidian workspace file we discussed earlier
+.obsidian/
+.obsidian/workspace.json
+.smtcmp_json_db/
+.smtcmp_vector_db.tar.gz
+
+# Files 
+/factory/
+.specstory/
+*.tar.gz
+
+# AI Agent
+.opencode/
+
+# OS Generated FIles
+*.DS_Store
+Thumbs.db
+
+# Ptyhon
+.venv/
+env/
+
+# Syncthing
+
+## Safety marker - DO NOT DELETE. 
+## If this is missing, Syncthing stops to prevent data loss.
+.stfolder
+
+## Trash Can / Versioning folder. 
+## Safe to ignore if you don't want to sync deleted files to other devices.
+.stversions
+
+## The ignore file itself.
+## Adding this prevents the ignore rules from syncing to other devices.
+.stignore
+
+# Ann's files
+.cursorindexingignore

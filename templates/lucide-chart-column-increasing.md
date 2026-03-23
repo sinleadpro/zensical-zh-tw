@@ -1,0 +1,1 @@
+:lucide-chart-column-increasing:

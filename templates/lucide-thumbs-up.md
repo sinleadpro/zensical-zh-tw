@@ -1,0 +1,1 @@
+:lucide-thumbs-up:
