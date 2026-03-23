@@ -1,0 +1,444 @@
+{
+  "version": 16,
+  "providers": [
+    {
+      "type": "anthropic-plan",
+      "id": "anthropic-plan"
+    },
+    {
+      "type": "openai-plan",
+      "id": "openai-plan"
+    },
+    {
+      "type": "gemini-plan",
+      "id": "gemini-plan"
+    },
+    {
+      "type": "anthropic",
+      "id": "anthropic"
+    },
+    {
+      "type": "openai",
+      "id": "openai"
+    },
+    {
+      "type": "gemini",
+      "id": "gemini",
+      "apiKey": "AIzaSyD4cg32gG9qU84kfkNvkqmoEGwfvyQzO-E"
+    },
+    {
+      "type": "xai",
+      "id": "xai"
+    },
+    {
+      "type": "deepseek",
+      "id": "deepseek"
+    },
+    {
+      "type": "mistral",
+      "id": "mistral"
+    },
+    {
+      "type": "perplexity",
+      "id": "perplexity"
+    },
+    {
+      "type": "openrouter",
+      "id": "openrouter"
+    },
+    {
+      "type": "ollama",
+      "id": "ollama"
+    },
+    {
+      "type": "lm-studio",
+      "id": "lm-studio"
+    },
+    {
+      "type": "openai-compatible",
+      "id": "morph",
+      "baseUrl": "https://api.morphllm.com/v1"
+    }
+  ],
+  "chatModels": [
+    {
+      "providerType": "anthropic-plan",
+      "providerId": "anthropic-plan",
+      "id": "claude-opus-4.5 (plan)",
+      "model": "claude-opus-4-5",
+      "thinking": {
+        "enabled": true,
+        "budget_tokens": 8192
+      }
+    },
+    {
+      "providerType": "anthropic-plan",
+      "providerId": "anthropic-plan",
+      "id": "claude-sonnet-4.5 (plan)",
+      "model": "claude-sonnet-4-5",
+      "thinking": {
+        "enabled": true,
+        "budget_tokens": 8192
+      }
+    },
+    {
+      "providerType": "openai-plan",
+      "providerId": "openai-plan",
+      "id": "gpt-5.2 (plan)",
+      "model": "gpt-5.2"
+    },
+    {
+      "providerType": "gemini-plan",
+      "providerId": "gemini-plan",
+      "id": "gemini-3-pro-preview (plan)",
+      "model": "gemini-3-pro-preview"
+    },
+    {
+      "providerType": "gemini-plan",
+      "providerId": "gemini-plan",
+      "id": "gemini-3-flash-preview (plan)",
+      "model": "gemini-3-flash-preview"
+    },
+    {
+      "providerType": "anthropic",
+      "providerId": "anthropic",
+      "id": "claude-opus-4.5",
+      "model": "claude-opus-4-5"
+    },
+    {
+      "providerType": "anthropic",
+      "providerId": "anthropic",
+      "id": "claude-sonnet-4.5",
+      "model": "claude-sonnet-4-5"
+    },
+    {
+      "providerType": "anthropic",
+      "providerId": "anthropic",
+      "id": "claude-haiku-4.5",
+      "model": "claude-haiku-4-5"
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "gpt-5.2",
+      "model": "gpt-5.2"
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "gpt-5-mini",
+      "model": "gpt-5-mini"
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "gpt-4.1-mini",
+      "model": "gpt-4.1-mini"
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "o4-mini",
+      "model": "o4-mini",
+      "reasoning": {
+        "enabled": true,
+        "reasoning_effort": "medium"
+      }
+    },
+    {
+      "providerType": "gemini",
+      "providerId": "gemini",
+      "id": "gemini-3-pro-preview",
+      "model": "gemini-3-pro-preview"
+    },
+    {
+      "providerType": "gemini",
+      "providerId": "gemini",
+      "id": "gemini-3-flash-preview",
+      "model": "gemini-3-flash-preview"
+    },
+    {
+      "providerType": "deepseek",
+      "providerId": "deepseek",
+      "id": "deepseek-chat",
+      "model": "deepseek-chat"
+    },
+    {
+      "providerType": "deepseek",
+      "providerId": "deepseek",
+      "id": "deepseek-reasoner",
+      "model": "deepseek-reasoner"
+    },
+    {
+      "providerType": "xai",
+      "providerId": "xai",
+      "id": "grok-4-1-fast",
+      "model": "grok-4-1-fast"
+    },
+    {
+      "providerType": "xai",
+      "providerId": "xai",
+      "id": "grok-4-1-fast-non-reasoning",
+      "model": "grok-4-1-fast-non-reasoning"
+    },
+    {
+      "providerType": "anthropic",
+      "providerId": "anthropic",
+      "id": "claude-opus-4.1",
+      "model": "claude-opus-4-1"
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "gpt-5.1",
+      "model": "gpt-5.1"
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "gpt-5-nano",
+      "model": "gpt-5-nano"
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "gpt-4o",
+      "model": "gpt-4o"
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "gpt-4o-mini",
+      "model": "gpt-4o-mini"
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "o3",
+      "model": "o3",
+      "reasoning": {
+        "enabled": true,
+        "reasoning_effort": "medium"
+      }
+    },
+    {
+      "providerType": "gemini",
+      "providerId": "gemini",
+      "id": "gemini-2.5-pro",
+      "model": "gemini-2.5-pro"
+    },
+    {
+      "providerType": "gemini",
+      "providerId": "gemini",
+      "id": "gemini-2.5-flash",
+      "model": "gemini-2.5-flash"
+    },
+    {
+      "providerType": "gemini",
+      "providerId": "gemini",
+      "id": "gemini-2.5-flash-lite",
+      "model": "gemini-2.5-flash-lite"
+    },
+    {
+      "providerType": "gemini",
+      "providerId": "gemini",
+      "id": "gemini-2.0-flash",
+      "model": "gemini-2.0-flash"
+    },
+    {
+      "providerType": "gemini",
+      "providerId": "gemini",
+      "id": "gemini-2.0-flash-lite",
+      "model": "gemini-2.0-flash-lite"
+    },
+    {
+      "providerType": "perplexity",
+      "providerId": "perplexity",
+      "id": "sonar",
+      "model": "sonar",
+      "web_search_options": {
+        "search_context_size": "low"
+      }
+    },
+    {
+      "providerType": "perplexity",
+      "providerId": "perplexity",
+      "id": "sonar-pro",
+      "model": "sonar",
+      "web_search_options": {
+        "search_context_size": "low"
+      }
+    },
+    {
+      "providerType": "perplexity",
+      "providerId": "perplexity",
+      "id": "sonar-deep-research",
+      "model": "sonar-deep-research",
+      "web_search_options": {
+        "search_context_size": "low"
+      }
+    },
+    {
+      "providerType": "perplexity",
+      "providerId": "perplexity",
+      "id": "sonar-reasoning",
+      "model": "sonar",
+      "web_search_options": {
+        "search_context_size": "low"
+      }
+    },
+    {
+      "providerType": "perplexity",
+      "providerId": "perplexity",
+      "id": "sonar-reasoning-pro",
+      "model": "sonar",
+      "web_search_options": {
+        "search_context_size": "low"
+      }
+    },
+    {
+      "providerType": "openai-compatible",
+      "providerId": "morph",
+      "id": "morph-v0",
+      "model": "morph-v0"
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "gpt-5",
+      "model": "gpt-5"
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "gpt-4.1",
+      "model": "gpt-4.1"
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "gpt-4.1-nano",
+      "model": "gpt-4.1-nano"
+    },
+    {
+      "providerType": "anthropic",
+      "providerId": "anthropic",
+      "id": "claude-sonnet-4.0",
+      "model": "claude-sonnet-4-0"
+    },
+    {
+      "providerType": "anthropic",
+      "providerId": "anthropic",
+      "id": "claude-3.7-sonnet",
+      "model": "claude-3-7-sonnet-latest"
+    },
+    {
+      "providerType": "anthropic",
+      "providerId": "anthropic",
+      "id": "claude-3.5-sonnet",
+      "model": "claude-3-5-sonnet-latest"
+    },
+    {
+      "providerType": "anthropic",
+      "providerId": "anthropic",
+      "id": "claude-3.5-haiku",
+      "model": "claude-3-5-haiku-latest"
+    },
+    {
+      "providerType": "ollama",
+      "providerId": "ollama",
+      "id": "llama3.1",
+      "model": "llama3.1:8b",
+      "promptLevel": 1,
+      "enable": true
+    },
+    {
+      "providerType": "ollama",
+      "providerId": "ollama",
+      "id": "llama 3 tw",
+      "model": "cwchang/llama-3-taiwan-8b-instruct-128k:q5_k",
+      "promptLevel": 1,
+      "enable": true
+    },
+    {
+      "providerType": "ollama",
+      "providerId": "ollama",
+      "id": "gemma3n:e2b",
+      "model": "gemma3n:e2b",
+      "promptLevel": 1,
+      "enable": true
+    },
+    {
+      "providerType": "ollama",
+      "providerId": "ollama",
+      "id": "gemma3n:e4b",
+      "model": "gemma3n:e4b",
+      "promptLevel": 1,
+      "enable": true
+    }
+  ],
+  "embeddingModels": [
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "openai/text-embedding-3-small",
+      "model": "text-embedding-3-small",
+      "dimension": 1536
+    },
+    {
+      "providerType": "openai",
+      "providerId": "openai",
+      "id": "openai/text-embedding-3-large",
+      "model": "text-embedding-3-large",
+      "dimension": 3072
+    },
+    {
+      "providerType": "gemini",
+      "providerId": "gemini",
+      "id": "gemini/text-embedding-004",
+      "model": "text-embedding-004",
+      "dimension": 768
+    },
+    {
+      "providerType": "ollama",
+      "providerId": "ollama",
+      "id": "ollama/nomic-embed-text",
+      "model": "nomic-embed-text",
+      "dimension": 768
+    },
+    {
+      "providerType": "ollama",
+      "providerId": "ollama",
+      "id": "ollama/mxbai-embed-large",
+      "model": "mxbai-embed-large",
+      "dimension": 1024
+    },
+    {
+      "providerType": "ollama",
+      "providerId": "ollama",
+      "id": "ollama/bge-m3",
+      "model": "bge-m3",
+      "dimension": 1024
+    }
+  ],
+  "chatModelId": "gemini-2.5-pro",
+  "applyModelId": "gemini-3-flash-preview",
+  "embeddingModelId": "gemini/text-embedding-004",
+  "systemPrompt": "",
+  "ragOptions": {
+    "chunkSize": 1000,
+    "thresholdTokens": 8192,
+    "minSimilarity": 0,
+    "limit": 10,
+    "excludePatterns": [],
+    "includePatterns": []
+  },
+  "mcp": {
+    "servers": []
+  },
+  "chatOptions": {
+    "includeCurrentFileContent": true,
+    "enableTools": true,
+    "maxAutoIterations": 1
+  }
+}

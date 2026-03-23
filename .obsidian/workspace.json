@@ -1,0 +1,356 @@
+{
+  "main": {
+    "id": "db0f76e5244ba32a",
+    "type": "split",
+    "children": [
+      {
+        "id": "24ac67bace06ab62",
+        "type": "tabs",
+        "dimension": 36.50088809946714,
+        "children": [
+          {
+            "id": "b215f5bf832eb05e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/integrations/line/設定 LINE OA 受眾串接.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定 LINE OA 受眾串接"
+            }
+          },
+          {
+            "id": "ea773ab1a7a3be6f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/website-management/使用 Authy 啟用二階段驗證設定.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "使用 Authy 啟用二階段驗證設定"
+            }
+          },
+          {
+            "id": "98427a1b64734bd6",
+            "type": "leaf",
+            "state": {
+              "type": "bases",
+              "state": {
+                "file": "bases/GOD.base",
+                "viewName": "Card"
+              },
+              "icon": "lucide-layout-grid",
+              "title": "GOD"
+            }
+          },
+          {
+            "id": "6ec5420a12afb2db",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/integrations/google/設定 Google 購物廣告.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定 Google 購物廣告"
+            }
+          }
+        ],
+        "currentTab": 2
+      },
+      {
+        "id": "74dd1daaeb40eac4",
+        "type": "tabs",
+        "dimension": 29.484902309058615,
+        "children": [
+          {
+            "id": "eea1d6126d665e64",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.cyberbiz.io/helpcenter/?p=678",
+                "title": "Google Analytics ：串接教學 - CYBERBIZ 一般版教學文件",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Google Analytics ：串接教學 - CYBERBIZ 一般版教學文件"
+            }
+          }
+        ]
+      },
+      {
+        "id": "2c57acc736defe7a",
+        "type": "tabs",
+        "dimension": 34.01420959147424,
+        "children": [
+          {
+            "id": "70ccdcc682095e33",
+            "type": "leaf",
+            "state": {
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.cyberbiz.io/support/?p=165",
+                "title": "Google Analytics ：串接教學",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "Google Analytics ：串接教學"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5f2449e16eb6824a",
+    "type": "split",
+    "children": [
+      {
+        "id": "956d4eee48db551a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "54e462a14a5a6adb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "536fb88d16f7d477",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:Email 通知樣板",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "8624ad6756c044e3",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          },
+          {
+            "id": "b8907fd718bfa751",
+            "type": "leaf",
+            "state": {
+              "type": "notebook-navigator",
+              "state": {},
+              "icon": "lucide-ghost",
+              "title": "notebook-navigator"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 287.5,
+    "collapsed": true
+  },
+  "right": {
+    "id": "973606ff262c9293",
+    "type": "split",
+    "children": [
+      {
+        "id": "cf40cafdac49a724",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "29655f1ed2139b13",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "docs/ec/integrations/line/設定 LINE OA 受眾串接.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from 設定 LINE OA 受眾串接"
+            }
+          },
+          {
+            "id": "e137c9afd066bf49",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "docs/ec/integrations/line/設定 LINE OA 受眾串接.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for 設定 LINE OA 受眾串接"
+            }
+          },
+          {
+            "id": "ef4268f610d1110b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "4b4571c4620c17d1",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "docs/ec/products/index.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of index"
+            }
+          },
+          {
+            "id": "165974d87f171017",
+            "type": "leaf",
+            "state": {
+              "type": "footnotes",
+              "state": {
+                "file": "docs/ec/products/設定商品配送條件（物流、溫層與出貨通路）.md"
+              },
+              "icon": "lucide-file-signature",
+              "title": "Footnotes"
+            }
+          },
+          {
+            "id": "2b2d8722c4ab60a4",
+            "type": "leaf",
+            "state": {
+              "type": "smtcmp-chat-view",
+              "state": {},
+              "icon": "wand-sparkles",
+              "title": "Smart composer chat"
+            }
+          },
+          {
+            "id": "bc5e7ee3a9f5fb45",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {},
+              "icon": "git-pull-request",
+              "title": "Source Control"
+            }
+          }
+        ],
+        "currentTab": 5
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "diagram-zoom-drag:Picker mode": false,
+      "smart-composer:Open smart composer": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "eea1d6126d665e64",
+  "lastOpenFiles": [
+    "site/ec/products/sales/設定商品影片/index.html",
+    "site/ec/products/sales/設定商品影片",
+    "site/ec/payments-and-logistics/CYBERBIZNOW/開啟CYBERBIZ NOW快速到貨服務/index.html",
+    "site/ec/payments-and-logistics/CYBERBIZNOW/開啟CYBERBIZ NOW快速到貨服務",
+    "site/ec/marketing/設定單品限時折扣群組/index.html",
+    "site/ec/marketing/設定單品限時折扣群組",
+    "site/ec/payments-and-logistics/index.html",
+    "site/ec/website-appearance/啟用留言區 reCAPTCHA/index.html",
+    "site/ec/website-appearance/啟用留言區 reCAPTCHA",
+    "site/ec/products/sales/設定結帳拆分多購物車/index.html",
+    "site/ec/products/sales/設定結帳拆分多購物車",
+    "docs/ec/integrations/google/ga/設定 Google Analytics 進階追蹤與資料分析.md",
+    "site/assets/images/ec-marketing-flash-sale-single-product-collection-setting.zh-tw.png",
+    "site/assets/images/ec-推播訊息-發送edm-根據群組發送.png",
+    "site/assets/images/ec-hero-1.png",
+    "site/assets/images/ec-管理中心-網站名稱.png",
+    "site/assets/images/ec-訊息推播-line oa 樣板.png",
+    "site/assets/images/ec-商品-商品自訂分類-meta-tag.png",
+    "site/assets/images/EC-後台-網站外觀-選單導覽列-預設版型新增快速到貨專區連結01.png",
+    "site/assets/images/ec-products-batch-process.zh-tw.gif",
+    "site/assets/images/遠傳-後台-我的域名管理-新增CNAME06.png",
+    "site/assets/images/ec-gmc-connect-google-ads.zh-tw.png",
+    "docs/ec/integrations/google/ga/建立並串接 Google Analytics.md",
+    "docs/ec/integrations/google/註冊並驗證 Google Search Console.md",
+    "2026-03-20.md",
+    "docs/ec/integrations/google/建立並串接 Google Analytics.md",
+    "docs/ec/marketing/seo/設定 301 重定向網站轉址.md",
+    "docs/ec/marketing/seo/SEO 設定與優化指南.md",
+    "docs/ec/marketing/seo/將 Sitemap 提交至 Google Search Console.md",
+    "docs/ec/marketing/設定 301 重定向網站轉址.md",
+    "docs/ec/marketing/將 Sitemap 提交至 Google Search Console.md",
+    "docs/ec/website-appearance/調整首頁跑馬燈輪播圖的轉場停留時間.md",
+    "docs/ec/website-appearance/設定轉貼連結縮圖 OG Image.md",
+    "docs/ec/website-appearance/使用文字編輯器編輯內容.md",
+    "docs/ec/website-appearance/部落格管理與文章發佈指南.md",
+    "docs/ec/payments-and-logistics/AFTEE先享後付 金流說明.md",
+    "docs/ec/app-market/automation/1773107947-BPCW.md",
+    "archive/wordpress-annotated/wp-ent-annotated-20260106/_span style=_text-transform_ none___金流說明 _ Google Pay™__span_.md",
+    "Untitled.md",
+    "docs/ec/marketing/SEO 設定與優化指南.md",
+    "docs/ec/marketing/設定與優化 SEO.md",
+    "docs/ec/integrations/google/建立與驗證 Google 商家檔案.md",
+    "docs/ec/integrations/google/使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝.md",
+    "docs/ec/integrations/google/建立 Google Tag Manager 並串接 CYBERBIZ.md",
+    "docs/ec/integrations/google/index.md",
+    "docs/ec/website-management/使用 Authy 啟用二階段驗證設定.md"
+  ]
+}

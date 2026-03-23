@@ -1,0 +1,18 @@
+{
+  "alwaysUpdateLinks": true,
+  "vimMode": true,
+  "strictLineBreaks": true,
+  "showLineNumber": true,
+  "propertiesInDocument": "source",
+  "rightToLeft": false,
+  "showUnsupportedFiles": true,
+  "promptDelete": false,
+  "livePreview": false,
+  "pdfExportSettings": {
+    "includeName": true,
+    "pageSize": "A4",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}
