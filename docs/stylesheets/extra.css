@@ -235,3 +235,28 @@ a {
     gap: 0.7rem;
   }
 } */
+
+/* 1. 鎖定包含 "divider" 字樣的導覽項目 */
+[aria-label="divider"], 
+.md-nav__link[href*="divider"],
+.md-nav__item--nested > .md-nav__link[href*="divider"] {
+    pointer-events: none;    /* 徹底禁用點擊，解決 404 問題 */
+    cursor: default;
+    padding: 0 !important;
+    margin: 15px 10px !important;
+    border-top: 1px solid #e0e0e0; /* 這是你的線 */
+    height: 1px;
+    font-size: 0;            /* 讓文字消失 */
+    display: block;
+}
+
+/* 2. 隱藏內部的文字標籤與圖標 */
+.md-nav__link[href*="divider"] span,
+.md-nav__link[href*="divider"] .md-icon {
+    display: none !important;
+}
+
+/* 3. 如果是手機版或抽屜選單裡的項目也要處理 */
+.md-nav__item label[for*="divider"] {
+    display: none;
+}
