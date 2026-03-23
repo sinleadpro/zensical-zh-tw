@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=678",
-                "title": "Google Analytics ：串接教學 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=467",
+                "title": "將網站地圖 SITEMAP 上傳至 GSC - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Google Analytics ：串接教學 - CYBERBIZ 一般版教學文件"
+              "title": "將網站地圖 SITEMAP 上傳至 GSC - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=165",
-                "title": "Google Analytics ：串接教學",
+                "url": "https://www.cyberbiz.io/support/?p=3807",
+                "title": "將網站地圖 SITEMAP 上傳至 GSC",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Google Analytics ：串接教學"
+              "title": "將網站地圖 SITEMAP 上傳至 GSC"
             }
           }
         ]
@@ -306,51 +306,51 @@
   },
   "active": "eea1d6126d665e64",
   "lastOpenFiles": [
-    "site/ec/products/sales/設定商品影片/index.html",
-    "site/ec/products/sales/設定商品影片",
-    "site/ec/payments-and-logistics/CYBERBIZNOW/開啟CYBERBIZ NOW快速到貨服務/index.html",
-    "site/ec/payments-and-logistics/CYBERBIZNOW/開啟CYBERBIZ NOW快速到貨服務",
-    "site/ec/marketing/設定單品限時折扣群組/index.html",
-    "site/ec/marketing/設定單品限時折扣群組",
-    "site/ec/payments-and-logistics/index.html",
-    "site/ec/website-appearance/啟用留言區 reCAPTCHA/index.html",
-    "site/ec/website-appearance/啟用留言區 reCAPTCHA",
-    "site/ec/products/sales/設定結帳拆分多購物車/index.html",
-    "site/ec/products/sales/設定結帳拆分多購物車",
+    "site/assets/images/ec-行銷活動-googlesearchconsole-提交sitemap.png",
+    "docs/assets/images/ec-行銷活動-googlesearchconsole-提交sitemap.png",
+    "site/assets/images/ec-行銷活動-seo-sitemap-url.png",
+    "docs/assets/images/ec-行銷活動-seo-sitemap-url.png",
+    "site/ec/marketing/seo/將 Sitemap 提交至 Google Search Console.md~",
+    "site/assets/images/ec-第三方整合-google-ga4-報表識別資訊.png",
+    "docs/assets/images/ec-第三方整合-google-ga4-報表識別資訊.png",
+    "site/assets/images/ec-第三方整合-google-ga4-資料保留.png",
+    "docs/assets/images/ec-第三方整合-google-ga4-資料保留.png",
+    "site/assets/images/ec-第三方整合-google-ga4-google信號啟用.png",
+    "docs/assets/images/ec-第三方整合-google-ga4-google信號啟用.png",
+    "site/assets/images/ec-第三方整合-ga4-設定加強型評估.png",
+    "bases/GOD.base",
+    "site/ec/website-appearance/設定選單與導覽列/index.html",
+    "site/ec/website-appearance/設定選單與導覽列",
+    "site/ec/products/sales/設定商品到貨通知/index.html",
+    "site/ec/products/sales/設定商品到貨通知",
+    "site/resources/glossary/index.html",
+    "site/resources/glossary",
+    "site/ec/website-management/設定與管理二階段驗證/index.html",
+    "site/ec/website-management/設定與管理二階段驗證",
+    "docs/ec/integrations/google/ga/設定 GA4 排除內部流量與第三方參照來源.md",
+    "quartz/tools/sparks.md",
+    "quartz/tools/obsidian.md",
+    "quartz/tools/ai.md",
+    "quartz/playbooks/traceability.md",
+    "quartz/playbooks/style guide.md",
+    "quartz/playbooks/quality assurance checklist.md",
+    "quartz/playbooks/production and publish sop.md",
+    "quartz/playbooks/infrastructure.md",
+    "quartz/playbooks/information architecture.md",
+    "quartz/playbooks/frontmatter.md",
+    "quartz/playbooks/doc production guide.md",
+    "quartz/playbooks/authoring.md",
+    "quartz/playbooks/agentic workflow.md",
+    "quartz/index.md",
+    "docs/ec/integrations/google/ga/test.md",
+    "docs/ec/integrations/google/ga/index.md",
     "docs/ec/integrations/google/ga/設定 Google Analytics 進階追蹤與資料分析.md",
-    "site/assets/images/ec-marketing-flash-sale-single-product-collection-setting.zh-tw.png",
-    "site/assets/images/ec-推播訊息-發送edm-根據群組發送.png",
-    "site/assets/images/ec-hero-1.png",
-    "site/assets/images/ec-管理中心-網站名稱.png",
-    "site/assets/images/ec-訊息推播-line oa 樣板.png",
-    "site/assets/images/ec-商品-商品自訂分類-meta-tag.png",
-    "site/assets/images/EC-後台-網站外觀-選單導覽列-預設版型新增快速到貨專區連結01.png",
-    "site/assets/images/ec-products-batch-process.zh-tw.gif",
-    "site/assets/images/遠傳-後台-我的域名管理-新增CNAME06.png",
-    "site/assets/images/ec-gmc-connect-google-ads.zh-tw.png",
     "docs/ec/integrations/google/ga/建立並串接 Google Analytics.md",
     "docs/ec/integrations/google/註冊並驗證 Google Search Console.md",
     "2026-03-20.md",
     "docs/ec/integrations/google/建立並串接 Google Analytics.md",
     "docs/ec/marketing/seo/設定 301 重定向網站轉址.md",
     "docs/ec/marketing/seo/SEO 設定與優化指南.md",
-    "docs/ec/marketing/seo/將 Sitemap 提交至 Google Search Console.md",
-    "docs/ec/marketing/設定 301 重定向網站轉址.md",
-    "docs/ec/marketing/將 Sitemap 提交至 Google Search Console.md",
-    "docs/ec/website-appearance/調整首頁跑馬燈輪播圖的轉場停留時間.md",
-    "docs/ec/website-appearance/設定轉貼連結縮圖 OG Image.md",
-    "docs/ec/website-appearance/使用文字編輯器編輯內容.md",
-    "docs/ec/website-appearance/部落格管理與文章發佈指南.md",
-    "docs/ec/payments-and-logistics/AFTEE先享後付 金流說明.md",
-    "docs/ec/app-market/automation/1773107947-BPCW.md",
-    "archive/wordpress-annotated/wp-ent-annotated-20260106/_span style=_text-transform_ none___金流說明 _ Google Pay™__span_.md",
-    "Untitled.md",
-    "docs/ec/marketing/SEO 設定與優化指南.md",
-    "docs/ec/marketing/設定與優化 SEO.md",
-    "docs/ec/integrations/google/建立與驗證 Google 商家檔案.md",
-    "docs/ec/integrations/google/使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝.md",
-    "docs/ec/integrations/google/建立 Google Tag Manager 並串接 CYBERBIZ.md",
-    "docs/ec/integrations/google/index.md",
-    "docs/ec/website-management/使用 Authy 啟用二階段驗證設定.md"
+    "docs/ec/marketing/seo/將 Sitemap 提交至 Google Search Console.md"
   ]
 }
