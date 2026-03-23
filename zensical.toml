@@ -281,6 +281,7 @@ copyright = """
                 {"Google 商家檔案" = "ec/integrations/google/建立與驗證 Google 商家檔案.md"},
                 {"GSC 驗證與設定" = "ec/integrations/google/註冊並驗證 Google Search Console.md"},
                 {"Google Analytics" = [
+                    {"overview" = "ec/integrations/google/ga/index.md"},
                     {"建立串接" = "ec/integrations/google/ga/建立並串接 Google Analytics.md"},
                     {"進階設定" = "ec/integrations/google/ga/設定 Google Analytics 進階追蹤與資料分析.md"}
                 ]},
