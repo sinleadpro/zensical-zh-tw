@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=678",
-                "title": "Google Analytics ：串接教學 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=7099",
+                "title": "Google Analytics 進階資料分析設定 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Google Analytics ：串接教學 - CYBERBIZ 一般版教學文件"
+              "title": "Google Analytics 進階資料分析設定 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=165",
-                "title": "Google Analytics ：串接教學",
+                "url": "https://www.cyberbiz.io/support/?p=36980",
+                "title": "Google Analytics 進階資料分析設定",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Google Analytics ：串接教學"
+              "title": "Google Analytics 進階資料分析設定"
             }
           }
         ]
@@ -304,28 +304,33 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2b2d8722c4ab60a4",
+  "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "docs/assets/images/frame02.png",
-    "docs/assets/images/frame04.png",
-    "docs/assets/images/frame03.png",
-    "docs/assets/images/frame01.png",
-    "docs/assets/images/ec-第三方整合-google-ga-建立帳戶.png",
-    "docs/assets/images/ec-第三方整合-google-ga-建立帳戶.gif",
-    "docs/assets/images/list.txt",
-    "docs/assets/images/ec-第三方整合-google-ga-即時報表.png",
-    "docs/assets/images/ec-第三方整合-google-ga-評估ID.png",
-    "docs/assets/images/ec-第三方整合-google-ga-資料串流.png",
-    "docs/assets/images/blur.png",
-    "site/assets/images/list.txt",
-    "site/assets/images/temp_frames",
-    "docs/assets/images/temp_frames",
-    "site/assets/images/temp.mp4",
-    "docs/assets/images/temp.mp4",
+    "site/assets/images/ec-第三方整合-google-ga4-報表識別資訊.png",
+    "docs/assets/images/ec-第三方整合-google-ga4-報表識別資訊.png",
+    "site/assets/images/ec-第三方整合-google-ga4-資料保留.png",
+    "docs/assets/images/ec-第三方整合-google-ga4-資料保留.png",
+    "site/assets/images/ec-第三方整合-google-ga4-google信號啟用.png",
+    "docs/assets/images/ec-第三方整合-google-ga4-google信號啟用.png",
+    "site/assets/images/ec-第三方整合-ga4-設定加強型評估.png",
+    "docs/assets/images/ec-第三方整合-ga4-設定加強型評估.png",
+    "site/assets/images/ec-第三整合-google-ga4-開啟加強型評估.gif",
+    "docs/assets/images/ec-第三整合-google-ga4-開啟加強型評估.gif",
+    "site/assets/images/ec-第三方整合-ga4-設定加強型評估.gif",
+    "bases/GOD.base",
+    "site/ec/website-appearance/設定選單與導覽列/index.html",
+    "site/ec/website-appearance/設定選單與導覽列",
+    "site/ec/products/sales/設定商品到貨通知/index.html",
+    "site/ec/products/sales/設定商品到貨通知",
+    "site/resources/glossary/index.html",
+    "site/resources/glossary",
+    "site/ec/website-management/設定與管理二階段驗證/index.html",
+    "site/ec/website-management/設定與管理二階段驗證",
+    "site/ec/orders/index.html",
+    "docs/ec/integrations/google/ga/設定 GA4 排除內部流量與第三方參照來源.md",
     "quartz/tools/sparks.md",
     "quartz/tools/obsidian.md",
     "quartz/tools/ai.md",
-    "quartz/tools",
     "quartz/playbooks/traceability.md",
     "quartz/playbooks/style guide.md",
     "quartz/playbooks/quality assurance checklist.md",
@@ -336,9 +341,6 @@
     "quartz/playbooks/doc production guide.md",
     "quartz/playbooks/authoring.md",
     "quartz/playbooks/agentic workflow.md",
-    "quartz/playbooks",
-    "quartz/bases/moc.base",
-    "quartz/bases",
     "quartz/index.md",
     "docs/ec/integrations/google/ga/test.md",
     "docs/ec/integrations/google/ga/index.md",
@@ -349,7 +351,6 @@
     "docs/ec/integrations/google/建立並串接 Google Analytics.md",
     "docs/ec/marketing/seo/設定 301 重定向網站轉址.md",
     "docs/ec/marketing/seo/SEO 設定與優化指南.md",
-    "docs/ec/marketing/seo/將 Sitemap 提交至 Google Search Console.md",
-    "docs/ec/marketing/設定 301 重定向網站轉址.md"
+    "docs/ec/marketing/seo/將 Sitemap 提交至 Google Search Console.md"
   ]
 }

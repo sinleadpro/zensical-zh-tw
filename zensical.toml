@@ -283,7 +283,8 @@ copyright = """
                 {"Google Analytics" = [
                     {"overview" = "ec/integrations/google/ga/index.md"},
                     {"建立串接" = "ec/integrations/google/ga/建立並串接 Google Analytics.md"},
-                    {"進階設定" = "ec/integrations/google/ga/設定 Google Analytics 進階追蹤與資料分析.md"}
+                    {"進階設定" = "ec/integrations/google/ga/設定 Google Analytics 進階追蹤與資料分析.md"},
+                    {"排除內部與參照流量" = "ec/integrations/google/ga/設定 GA4 排除內部流量與第三方參照來源.md"}
                 ]},
                 {"" = "ec/integrations/google/"}
             ]},
