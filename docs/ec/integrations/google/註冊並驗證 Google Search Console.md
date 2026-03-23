@@ -87,7 +87,7 @@ hide: []
 
 ## 操作前準備
 
-- [x] **帳號統一**：請確保登入 Google Search Console 的帳號與您的 Google Analytics (GA) 帳號為同一組，且具備該帳號管理員權限。
+- [x] **帳號統一**：請確保登入 Google Search Console 帳號與您的 Google Analytics (GA) 帳號為同一組，且具備該帳號管理員權限。
 - [x] **網域設定**：建議先將官網後台的主網域設定為「自有網域」，並開啟「總是導向」功能，以確保搜尋引擎收錄的一致性。
 
 ## 註冊與驗證步驟

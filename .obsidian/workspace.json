@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=7099",
-                "title": "Google Analytics 進階資料分析設定 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=467",
+                "title": "將網站地圖 SITEMAP 上傳至 GSC - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Google Analytics 進階資料分析設定 - CYBERBIZ 一般版教學文件"
+              "title": "將網站地圖 SITEMAP 上傳至 GSC - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=36980",
-                "title": "Google Analytics 進階資料分析設定",
+                "url": "https://www.cyberbiz.io/support/?p=3807",
+                "title": "將網站地圖 SITEMAP 上傳至 GSC",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Google Analytics 進階資料分析設定"
+              "title": "將網站地圖 SITEMAP 上傳至 GSC"
             }
           }
         ]
@@ -304,8 +304,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70ccdcc682095e33",
+  "active": "eea1d6126d665e64",
   "lastOpenFiles": [
+    "site/assets/images/ec-行銷活動-googlesearchconsole-提交sitemap.png",
+    "docs/assets/images/ec-行銷活動-googlesearchconsole-提交sitemap.png",
+    "site/assets/images/ec-行銷活動-seo-sitemap-url.png",
+    "docs/assets/images/ec-行銷活動-seo-sitemap-url.png",
+    "site/ec/marketing/seo/將 Sitemap 提交至 Google Search Console.md~",
     "site/assets/images/ec-第三方整合-google-ga4-報表識別資訊.png",
     "docs/assets/images/ec-第三方整合-google-ga4-報表識別資訊.png",
     "site/assets/images/ec-第三方整合-google-ga4-資料保留.png",
@@ -313,10 +318,6 @@
     "site/assets/images/ec-第三方整合-google-ga4-google信號啟用.png",
     "docs/assets/images/ec-第三方整合-google-ga4-google信號啟用.png",
     "site/assets/images/ec-第三方整合-ga4-設定加強型評估.png",
-    "docs/assets/images/ec-第三方整合-ga4-設定加強型評估.png",
-    "site/assets/images/ec-第三整合-google-ga4-開啟加強型評估.gif",
-    "docs/assets/images/ec-第三整合-google-ga4-開啟加強型評估.gif",
-    "site/assets/images/ec-第三方整合-ga4-設定加強型評估.gif",
     "bases/GOD.base",
     "site/ec/website-appearance/設定選單與導覽列/index.html",
     "site/ec/website-appearance/設定選單與導覽列",
@@ -326,7 +327,6 @@
     "site/resources/glossary",
     "site/ec/website-management/設定與管理二階段驗證/index.html",
     "site/ec/website-management/設定與管理二階段驗證",
-    "site/ec/orders/index.html",
     "docs/ec/integrations/google/ga/設定 GA4 排除內部流量與第三方參照來源.md",
     "quartz/tools/sparks.md",
     "quartz/tools/obsidian.md",
