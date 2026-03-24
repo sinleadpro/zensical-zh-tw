@@ -77,7 +77,7 @@ hide: []
 GA4 進階設定，包含加強型評估、Google 信號、資料保留期限調整及報表識別資訊設定，協助商家獲得更精確的流量數據與使用者輪廓。
 { .subtitle }
 
-{ .hero-page }
+![](../../../../assets/images/ec-第三方整合-google-ga-資料收集與修改.png){ .hero-page }
 
 ## Google Analytics 進階資料分析說明
 
