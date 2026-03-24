@@ -1,67 +1,82 @@
 ---
 title: "將 Sitemap 提交至 Google Search Console"
-description: "" 
+description: "將 CYBERBIZ 自動產生的 Sitemap 提交至 Google Search Console，加快網頁收錄速度並優化 SEO 表現。"
 created: "2026-03-20 13:43"
-last_modified: 
-lang: zh-TW
-type: tutorial
+last_modified: "2026-03-23 18:55"
+lang: "zh-TW"
+type: "tutorial"
 status: ""
 version: ""
-author: Jase
+author: "Jase"
 reviewers: []
 notes: []
-ga_views: 
-feedback:
+ga_views: 0
+feedback: 0
 products:
-  - EC
-modules: []
+  - "EC"
+modules:
+  - "行銷活動"
 sites:
-  - TW
-audiences: 
-  - admin
+  - "TW"
+audiences:
+  - "admin"
 difficulty: ""
-tnb: trunk
-plans: 
-  - 專業
-  - 進階
-  - 高手
-  - 專業 PLUS 
-  - 進階 PLUS
-  - 高手 PLUS
-  - 企業
-cyb_extensions: [] 
-intents: []
-features: []
-prerequisites: []
-related: []
-tags: []
-acoiv: ""
+tnb: "trunk"
+plans:
+  - "專業"
+  - "進階"
+  - "高手"
+  - "專業 PLUS"
+  - "進階 PLUS"
+  - "高手 PLUS"
+  - "企業"
+cyb_extensions: []
+intents:
+  - "提交_Sitemap"
+  - "Google_Search_Console"
+  - "加快網頁收錄"
+  - "SEO_優化"
+features:
+  - "Sitemap"
+  - "Google_Search_Console"
+  - "XML"
+prerequisites:
+  - "[[註冊並驗證 Google Search Console]]"
+  - "[[建立並串接 Google Analytics]]"
+related:
+  - "[[註冊並驗證 Google Search Console]]"
+  - "[[SEO 設定與優化指南]]"
+tags:
+  - "Sitemap"
+  - "SEO"
+  - "Google Search Console"
+  - "網站收錄"
+acoiv: "configure"
 apis: []
-devices: 
-  - desktop 
-  - mobile
+devices:
+  - "desktop"
+  - "mobile"
 ui_components: []
-paths: []
+paths:
+  - "行銷活動 > SEO"
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/helpcenter/?p=467
-  - https://www.cyberbiz.io/support/?p=3807
-permalink: ""
-comments: ""
+  - "https://www.cyberbiz.io/helpcenter/?p=467"
+  - "https://www.cyberbiz.io/support/?p=3807"
+permalink: "submit-sitemap-to-google-search-console"
+comments: false
 search:
-  exclude: ""
-icon: lucide/map
-hide:
+  exclude: false
+icon: "lucide/map"
+hide: []
 ---
 
 # 將 Sitemap 提交至 Google Search Console
 
-
+將 CYBERBIZ 自動產生的 Sitemap 提交至 Google Search Console，加快網頁收錄速度並優化 SEO 表現。
 { .subtitle }
 
-{ .doc-badge }
-
-{ .hero-page }
+![](../../../assets/images/ec-第三方整合-google-gsc-sitemap.png){ .hero-page }
 
 ## 什麼是 Sitemap
 

@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=467",
-                "title": "將網站地圖 SITEMAP 上傳至 GSC - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=3490",
+                "title": "網站轉址｜301重定向設定 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "將網站地圖 SITEMAP 上傳至 GSC - CYBERBIZ 一般版教學文件"
+              "title": "網站轉址｜301重定向設定 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=3807",
-                "title": "將網站地圖 SITEMAP 上傳至 GSC",
+                "url": "https://www.cyberbiz.io/support/?p=15390",
+                "title": "網站轉址｜301重定向設定",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "將網站地圖 SITEMAP 上傳至 GSC"
+              "title": "網站轉址｜301重定向設定"
             }
           }
         ]
@@ -304,20 +304,21 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eea1d6126d665e64",
+  "active": "70ccdcc682095e33",
   "lastOpenFiles": [
+    "site/assets/images/ec-第三方整合-google-gsc.png",
+    "docs/assets/images/ec-第三方整合-google-gsc.png",
+    "site/assets/images/ec-第三方整合-google-gsc-sitemap.png",
+    "docs/assets/images/ec-第三方整合-google-gsc-sitemap.png",
+    "site/assets/images/ec-第三方整合-google-ga-資料收集與修改.png",
+    "docs/assets/images/ec-第三方整合-google-ga-資料收集與修改.png",
+    "docs/ec/marketing/seo/設定 301 重定向網站轉址.md~",
     "site/assets/images/ec-行銷活動-googlesearchconsole-提交sitemap.png",
     "docs/assets/images/ec-行銷活動-googlesearchconsole-提交sitemap.png",
     "site/assets/images/ec-行銷活動-seo-sitemap-url.png",
     "docs/assets/images/ec-行銷活動-seo-sitemap-url.png",
     "site/ec/marketing/seo/將 Sitemap 提交至 Google Search Console.md~",
     "site/assets/images/ec-第三方整合-google-ga4-報表識別資訊.png",
-    "docs/assets/images/ec-第三方整合-google-ga4-報表識別資訊.png",
-    "site/assets/images/ec-第三方整合-google-ga4-資料保留.png",
-    "docs/assets/images/ec-第三方整合-google-ga4-資料保留.png",
-    "site/assets/images/ec-第三方整合-google-ga4-google信號啟用.png",
-    "docs/assets/images/ec-第三方整合-google-ga4-google信號啟用.png",
-    "site/assets/images/ec-第三方整合-ga4-設定加強型評估.png",
     "bases/GOD.base",
     "site/ec/website-appearance/設定選單與導覽列/index.html",
     "site/ec/website-appearance/設定選單與導覽列",
@@ -326,7 +327,6 @@
     "site/resources/glossary/index.html",
     "site/resources/glossary",
     "site/ec/website-management/設定與管理二階段驗證/index.html",
-    "site/ec/website-management/設定與管理二階段驗證",
     "docs/ec/integrations/google/ga/設定 GA4 排除內部流量與第三方參照來源.md",
     "quartz/tools/sparks.md",
     "quartz/tools/obsidian.md",
