@@ -45,16 +45,11 @@ icon: ""
 hide:
 ---
 
-# {{title}}
-
-
 { .subtitle }
 
 { .doc-badge }
 
 { .hero-page }
-
-
 
 ## 後續操作
 

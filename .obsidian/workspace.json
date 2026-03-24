@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=3490",
-                "title": "網站轉址｜301重定向設定 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=12105",
+                "title": "移除 Google 搜尋結果中的子目錄頁面 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "網站轉址｜301重定向設定 - CYBERBIZ 一般版教學文件"
+              "title": "移除 Google 搜尋結果中的子目錄頁面 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=15390",
-                "title": "網站轉址｜301重定向設定",
+                "url": "https://www.cyberbiz.io/support/?p=25441",
+                "title": "移除 Google 搜尋結果中的子目錄頁面",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "網站轉址｜301重定向設定"
+              "title": "移除 Google 搜尋結果中的子目錄頁面"
             }
           }
         ]
@@ -306,27 +306,31 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
+    "docs/ec/integrations/google/從 Google 搜尋結果移除特定網頁或子目錄.md",
+    "site/ec/integrations/google/\n從 Google 搜尋結果移除特定網頁或子目錄/index.html",
+    "site/ec/integrations/google/\n從 Google 搜尋結果移除特定網頁或子目錄",
+    "docs/ec/integrations/google/\n從 Google 搜尋結果移除特定網頁或子目錄.md",
+    "bases/GOD.base",
+    "site/ec/payments-and-logistics/CYBERBIZNOW/index.html",
+    "site/ec/members/建立特殊VIP群組/index.html",
+    "site/ec/members/建立特殊VIP群組",
+    "site/ec/marketing/設定指定商品送紅利/index.html",
+    "site/ec/marketing/設定指定商品送紅利",
+    "site/ec/products/creation/編輯商品簡述與商品標語/index.html",
+    "site/ec/products/creation/編輯商品簡述與商品標語",
+    "site/assets/images/ec-管理中心-網址轉址-excel範本.png",
+    "docs/assets/images/ec-管理中心-網址轉址-excel範本.png",
+    "site/assets/images/ec-管理中心-網站轉址-新增轉址網址.png",
+    "docs/assets/images/ec-管理中心-網站轉址-新增轉址網址.png",
+    "site/assets/images/ec-管理中心-網站轉址.png",
+    "docs/assets/images/ec-管理中心-網站轉址.png",
+    "docs/ec/website-management/seo/設定 301 重定向網站轉址.md",
+    "docs/ec/website-management/seo/將 Sitemap 提交至 Google Search Console.md",
+    "docs/ec/website-management/seo/SEO 設定與優化指南.md",
     "site/assets/images/ec-第三方整合-google-gsc.png",
     "docs/assets/images/ec-第三方整合-google-gsc.png",
     "site/assets/images/ec-第三方整合-google-gsc-sitemap.png",
     "docs/assets/images/ec-第三方整合-google-gsc-sitemap.png",
-    "site/assets/images/ec-第三方整合-google-ga-資料收集與修改.png",
-    "docs/assets/images/ec-第三方整合-google-ga-資料收集與修改.png",
-    "docs/ec/marketing/seo/設定 301 重定向網站轉址.md~",
-    "site/assets/images/ec-行銷活動-googlesearchconsole-提交sitemap.png",
-    "docs/assets/images/ec-行銷活動-googlesearchconsole-提交sitemap.png",
-    "site/assets/images/ec-行銷活動-seo-sitemap-url.png",
-    "docs/assets/images/ec-行銷活動-seo-sitemap-url.png",
-    "site/ec/marketing/seo/將 Sitemap 提交至 Google Search Console.md~",
-    "site/assets/images/ec-第三方整合-google-ga4-報表識別資訊.png",
-    "bases/GOD.base",
-    "site/ec/website-appearance/設定選單與導覽列/index.html",
-    "site/ec/website-appearance/設定選單與導覽列",
-    "site/ec/products/sales/設定商品到貨通知/index.html",
-    "site/ec/products/sales/設定商品到貨通知",
-    "site/resources/glossary/index.html",
-    "site/resources/glossary",
-    "site/ec/website-management/設定與管理二階段驗證/index.html",
     "docs/ec/integrations/google/ga/設定 GA4 排除內部流量與第三方參照來源.md",
     "quartz/tools/sparks.md",
     "quartz/tools/obsidian.md",
@@ -346,11 +350,6 @@
     "docs/ec/integrations/google/ga/index.md",
     "docs/ec/integrations/google/ga/設定 Google Analytics 進階追蹤與資料分析.md",
     "docs/ec/integrations/google/ga/建立並串接 Google Analytics.md",
-    "docs/ec/integrations/google/註冊並驗證 Google Search Console.md",
-    "2026-03-20.md",
-    "docs/ec/integrations/google/建立並串接 Google Analytics.md",
-    "docs/ec/marketing/seo/設定 301 重定向網站轉址.md",
-    "docs/ec/marketing/seo/SEO 設定與優化指南.md",
-    "docs/ec/marketing/seo/將 Sitemap 提交至 Google Search Console.md"
+    "docs/ec/integrations/google/註冊並驗證 Google Search Console.md"
   ]
 }

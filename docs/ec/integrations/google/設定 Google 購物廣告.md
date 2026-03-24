@@ -58,7 +58,7 @@ notes:
 comments: ""
 search:
   exclude: ""
-icon: ""
+icon: lucide/shopping-cart
 tasks:
   - Google Merchant Center
 system:
