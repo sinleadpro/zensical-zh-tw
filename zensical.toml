@@ -94,8 +94,7 @@ copyright = """
         { "商品" = [
             { "商品管理" = "ec/products/index.md" },  
             { "快速上手" = [
-                { "商品管理介面" = "ec/products/商品管理介面說明.md" },
-                { "快速上手商品管理" = "ec/products/快速上手商品管理.md" }
+                {"商品管理介面" = "ec/products/快速上手商品管理.md"}
             ]},
             { "建立與設定" = [
                 { "新增單一商品" = "ec/products/creation/新增單一商品.md"},
@@ -280,7 +279,8 @@ copyright = """
                     {"overview" = "ec/integrations/google/ga/index.md"},
                     {"建立串接" = "ec/integrations/google/ga/建立並串接 Google Analytics.md"},
                     {"進階設定" = "ec/integrations/google/ga/設定 Google Analytics 進階追蹤與資料分析.md"},
-                    {"排除內部與參照流量" = "ec/integrations/google/ga/設定 GA4 排除內部流量與第三方參照來源.md"}
+                    {"排除內部與參照流量" = "ec/integrations/google/ga/設定 GA4 排除內部流量與第三方參照來源.md"},
+                    {"站內追蹤搜尋" = "ec/integrations/google/ga/設定 GA4 站內搜尋追蹤.md"}
                 ]},
                 {"" = "ec/integrations/google/"}
             ]},
