@@ -15,7 +15,7 @@ feedback: 0
 products:
   - "EC"
 modules:
-  - "行銷活動"
+  - "管理中心"
 sites:
   - "TW"
 audiences:

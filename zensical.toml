@@ -151,11 +151,6 @@ copyright = """
         ]},
         { "行銷活動" = [
             { "overview" = "ec/marketing/index.md" },  
-            {"搜尋引擎最佳化" = [
-                {"SEO 優化" = "ec/marketing/seo/SEO 設定與優化指南.md"},
-                {"Sitemap 提交" = "ec/marketing/seo/將 Sitemap 提交至 Google Search Console.md"},
-                {"網站轉址" = "ec/marketing/seo/設定 301 重定向網站轉址.md"}
-            ]},
             { "單品限時折扣群組" = "ec/marketing/設定單品限時折扣群組.md" },
             { "任選折扣" = "ec/marketing/設定任選折扣.md"},
             { "紅配綠多組合優惠" = "ec/marketing/設定紅配綠多組合優惠.md"},
@@ -329,6 +324,11 @@ copyright = """
             {"安全性設定" = "ec/website-management/設定網站安全性.md"},
             {"二階段驗證 (2FA)" = "ec/website-management/設定與管理二階段驗證.md"},
             {"Authy 二階段驗證" = "ec/website-management/使用 Authy 啟用二階段驗證設定.md"},
+            {"搜尋引擎最佳化" = [
+                {"SEO 優化" = "ec/marketing/seo/SEO 設定與優化指南.md"},
+                {"Sitemap 提交" = "ec/marketing/seo/將 Sitemap 提交至 Google Search Console.md"},
+                {"網站轉址" = "ec/marketing/seo/設定 301 重定向網站轉址.md"}
+            ]},
             { "星益欣電子發票" = "ec/website-management/星益欣電子發票設定指南.md" },
             { "為特定網域信箱套用指定會員標籤" = "ec/website-management/為特定網域信箱套用指定會員標籤.md" },
             {"管理員與權限" = "ec/website-management/新增網站管理員並設定權限.md"},
