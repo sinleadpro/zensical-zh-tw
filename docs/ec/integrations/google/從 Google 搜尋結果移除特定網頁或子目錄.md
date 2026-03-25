@@ -2,16 +2,16 @@
 title: 從 Google 搜尋結果移除特定網頁或子目錄
 description: 透過 Google Search Console 移除網址工具，排除特定網頁或子目錄出現在 Google 搜尋結果中。
 created: 2026-03-24 17:04
-last_modified: 2026-03-24 17:30
+last_modified: 2026-03-25 14:00
 lang: zh-TW
 type: tutorial
 status: ""
-author: Jase
 version: ""
+author: Jase
 reviewers: []
 notes: []
-ga_views:
-feedback:
+ga_views: 0
+feedback: 0
 products:
   - EC
 modules:
@@ -35,12 +35,17 @@ intents:
   - 移除 Google 搜尋結果
   - 排除網頁索引
 features:
-  - Google Search Console
+  - Google_Search_Console
   - 移除網址工具
 prerequisites:
-  - 已完成 Google Search Console 驗證
+  - "[[註冊並驗證 Google Search Console]]"
 related:
-  - 註冊並驗證 Google Search Console
+  - "[[註冊並驗證 Google Search Console]]"
+tags:
+  - Google_Search_Console
+  - 移除網址
+  - 搜尋結果
+  - SEO
 acoiv: configure
 apis: []
 devices:
@@ -50,14 +55,17 @@ ui_components: []
 paths:
   - 第三方整合 > Google > 移除搜尋結果
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=12105
+  - https://www.cyberbiz.io/support/?p=25441
 permalink: ec/integrations/google/remove-search-results
-comments: ""
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/search-x
-hide:
+hide: []
 ---
+
 透過 Google Search Console 移除網址工具，排除特定網頁或子目錄出現在 Google 搜尋結果中。
 { .subtitle }
 

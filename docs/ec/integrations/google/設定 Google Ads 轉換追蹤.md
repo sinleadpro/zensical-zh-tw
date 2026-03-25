@@ -14,19 +14,29 @@ ga_views:
 feedback:
 products:
   - EC
-modules: []
+modules:
+  - 第三方整合
 sites:
   - TW
+  - US
 audiences:
   - admin
 difficulty: ""
-tnb: ""
+tnb: trunk
 plans:
+  - 專業
+  - 進階
+  - 高手
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 cyb_extensions: []
 intents: []
 features: []
 prerequisites: []
 related: []
+tags: []
 acoiv: ""
 apis: []
 devices:
@@ -48,9 +58,14 @@ hide:
 
 { .subtitle }
 
-{ .doc-badge }
-
 { .hero-page }
+
+
+## 什麼是 Google Ads
+
+Google Ads（原名 Google AdWords）是 Google 提供的線上廣告平台，商家可透過競價方式在 Google 搜尋結果、Google 合作網站及 YouTube 等管道投放廣告。Google Ads 提供多種廣告形式，包括搜尋廣告、多媒體廣告、購物廣告和影片廣告，商家可依據產品特性和行銷目標選擇適合的廣告類型。瞭解更多，請參考[官方指南 :lucide-external-link:](https://support.google.com/google-ads/answer/6146252)。"
+
+## 為什麼要設置 Google Ads 轉換追蹤
 
 在 Google Ads 建立轉換追蹤，能協助商家觀測廣告成效、了解客戶行為，並進一步優化廣告精準度。CYBERBIZ 提供與 Google 轉換代碼的串接功能，以下為詳細的設定步驟：
 
