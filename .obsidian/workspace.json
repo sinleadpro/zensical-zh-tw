@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 36.50088809946714,
+        "dimension": 35.228070175438596,
         "children": [
           {
             "id": "b215f5bf832eb05e",
@@ -37,6 +37,20 @@
             }
           },
           {
+            "id": "eea1d6126d665e64",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "docs/ec/integrations/google/ga/設定 GA4 站內搜尋追蹤.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "設定 GA4 站內搜尋追蹤"
+            }
+          },
+          {
             "id": "98427a1b64734bd6",
             "type": "leaf",
             "state": {
@@ -48,41 +62,27 @@
               "icon": "lucide-layout-grid",
               "title": "GOD"
             }
-          },
-          {
-            "id": "6ec5420a12afb2db",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/integrations/google/設定 Google 購物廣告.md",
-                "mode": "source",
-                "source": true
-              },
-              "icon": "lucide-file",
-              "title": "設定 Google 購物廣告"
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       },
       {
-        "id": "74dd1daaeb40eac4",
+        "id": "10f9d93c6521323e",
         "type": "tabs",
-        "dimension": 30.99467140319716,
+        "dimension": 31.929824561403507,
         "children": [
           {
-            "id": "eea1d6126d665e64",
+            "id": "2c27b3aecd22969c",
             "type": "leaf",
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=12099",
-                "title": "開啟 Google Analytics 站內搜尋功能 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=756",
+                "title": "如何在Google Ads建立轉換追蹤 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "開啟 Google Analytics 站內搜尋功能 - CYBERBIZ 一般版教學文件"
+              "title": "如何在Google Ads建立轉換追蹤 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -90,7 +90,7 @@
       {
         "id": "2c57acc736defe7a",
         "type": "tabs",
-        "dimension": 32.5044404973357,
+        "dimension": 32.8421052631579,
         "children": [
           {
             "id": "70ccdcc682095e33",
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=28483",
-                "title": "開啟 Google Analytics 站內搜尋功能",
+                "url": "https://www.cyberbiz.io/support/?p=232",
+                "title": "如何在Google Ads建立轉換追蹤",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "開啟 Google Analytics 站內搜尋功能"
+              "title": "如何在Google Ads建立轉換追蹤"
             }
           }
         ]
@@ -138,7 +138,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:Email 通知樣板",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -169,8 +169,7 @@
               "title": "notebook-navigator"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -285,7 +284,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -304,33 +304,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eea1d6126d665e64",
+  "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/ec/integrations/google/ga/設定 GA4 站內搜尋追蹤/index.html",
-    "site/ec/integrations/google/ga/設定 GA4 站內搜尋追蹤",
+    "docs/ec/website-management/使用 Authy 啟用二階段驗證設定.md",
     "docs/ec/integrations/google/ga/設定 GA4 站內搜尋追蹤.md",
-    "site/assets/images/ec-第三方整合-google-gsc移除網址.png",
-    "docs/assets/images/ec-第三方整合-google-gsc移除網址.png",
-    "site/ec/integrations/google/從 Google 搜尋結果移除特定網頁或子目錄.md~",
-    "site/assets/images/ec-第三方整合-google-gsc移除網址.gif",
-    "docs/assets/images/ec-第三方整合-google-gsc移除網址.gif",
-    "site/assets/images/ec-第三方整合-google-google搜尋子目錄.png",
-    "docs/assets/images/ec-第三方整合-google-google搜尋子目錄.png",
-    "zensical.toml~",
-    "site/ec/integrations/google/test/index.html",
-    "site/ec/integrations/google/test",
+    "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS/index.html",
+    "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS",
+    "site/ec/payments-and-logistics/串接ezShip超商取貨(C2C)/index.html",
+    "site/ec/payments-and-logistics/串接ezShip超商取貨(C2C)",
+    "site/ec/products/批次修改商品描述與配送設定/index.html",
+    "site/ec/products/批次修改商品描述與配送設定",
+    "site/ec/products/index.html",
+    "site/resources/changelog/index.html",
+    "site/resources/changelog",
+    "site/ec/analytics/index.html",
+    "docs/ec/integrations/google/設定 Google Ads 轉換追蹤.md",
+    "site/assets/images/ec-第三方整合-google-ga4-報表-search_term.png",
+    "docs/assets/images/ec-第三方整合-google-ga4-報表-search_term.png",
+    "site/assets/images/ec-第三方整合-google-ga4-報表-search_terms.png",
+    "docs/assets/images/ec-第三方整合-google-ga4-報表-search_terms.png",
+    "site/assets/images/ec-第三方整合-google-ga4-報表-view_search_results.png",
+    "docs/assets/images/ec-第三方整合-google-ga4-報表-view_search_results.png",
+    "site/assets/images/ec-第三方整合-google-ga4-加強型評估-開啟站內搜尋.gif",
+    "docs/assets/images/ec-第三方整合-google-ga4-加強型評估-開啟站內搜尋.gif",
+    "site/assets/images/ec-第三方整合-google-ga4-加強型評估-站內搜尋.png",
+    "docs/assets/images/ec-第三方整合-google-ga4-加強型評估-站內搜尋.png",
     "docs/ec/integrations/google/test.md",
     "docs/ec/integrations/google/從 Google 搜尋結果移除特定網頁或子目錄.md",
-    "site/ec/integrations/google/\n從 Google 搜尋結果移除特定網頁或子目錄/index.html",
-    "site/ec/integrations/google/\n從 Google 搜尋結果移除特定網頁或子目錄",
     "docs/ec/integrations/google/\n從 Google 搜尋結果移除特定網頁或子目錄.md",
-    "bases/GOD.base",
-    "site/ec/payments-and-logistics/CYBERBIZNOW/index.html",
-    "site/ec/members/建立特殊VIP群組/index.html",
-    "site/assets/images/ec-管理中心-網址轉址-excel範本.png",
-    "docs/assets/images/ec-管理中心-網址轉址-excel範本.png",
-    "site/assets/images/ec-管理中心-網站轉址-新增轉址網址.png",
-    "docs/assets/images/ec-管理中心-網站轉址-新增轉址網址.png",
     "docs/ec/website-management/seo/設定 301 重定向網站轉址.md",
     "docs/ec/website-management/seo/將 Sitemap 提交至 Google Search Console.md",
     "docs/ec/website-management/seo/SEO 設定與優化指南.md",
@@ -350,7 +351,6 @@
     "quartz/playbooks/agentic workflow.md",
     "quartz/index.md",
     "docs/ec/integrations/google/ga/test.md",
-    "docs/ec/integrations/google/ga/index.md",
-    "docs/ec/integrations/google/ga/設定 Google Analytics 進階追蹤與資料分析.md"
+    "docs/ec/integrations/google/ga/index.md"
   ]
 }
