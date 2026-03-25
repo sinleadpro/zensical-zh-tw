@@ -277,6 +277,7 @@ copyright = """
                 {"GSC 驗證與設定" = "ec/integrations/google/註冊並驗證 Google Search Console.md"},
                 {"Google Ads 追蹤轉換" = "ec/integrations/google/設定 Google Ads 轉換追蹤.md"},
                 {"Google Ads 強化轉換" = "ec/integrations/google/設定 Google Ads 強化轉換.md"},
+                {"UTM 流量追蹤" = "ec/integrations/google/使用 UTM 參數追蹤行銷流量與分析成效.md"},
                 {"Google Analytics" = [
                     {"overview" = "ec/integrations/google/ga/index.md"},
                     {"建立串接" = "ec/integrations/google/ga/建立並串接 Google Analytics.md"},
