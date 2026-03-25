@@ -98,8 +98,7 @@ copyright = """
         { "商品" = [
             { "商品管理" = "ec/products/index.md" },  
             { "快速上手" = [
-                { "商品管理介面" = "ec/products/商品管理介面說明.md" },
-                { "快速上手商品管理" = "ec/products/快速上手商品管理.md" }
+                {"商品管理介面" = "ec/products/快速上手商品管理.md"}
             ]},
             { "建立與設定" = [
                 { "新增單一商品" = "ec/products/creation/新增單一商品.md"},
@@ -155,11 +154,6 @@ copyright = """
         ]},
         { "行銷活動" = [
             { "overview" = "ec/marketing/index.md" },  
-            {"搜尋引擎最佳化" = [
-                {"SEO 優化" = "ec/marketing/seo/SEO 設定與優化指南.md"},
-                {"Sitemap 提交" = "ec/marketing/seo/將 Sitemap 提交至 Google Search Console.md"},
-                {"網站轉址" = "ec/marketing/seo/設定 301 重定向網站轉址.md"}
-            ]},
             { "單品限時折扣群組" = "ec/marketing/設定單品限時折扣群組.md" },
             { "任選折扣" = "ec/marketing/設定任選折扣.md"},
             { "紅配綠多組合優惠" = "ec/marketing/設定紅配綠多組合優惠.md"},
@@ -295,17 +289,22 @@ copyright = """
             {"Google" = [
                 {"overview" = "ec/integrations/google/index.md"},
                 {"Google 快速登入" = "ec/integrations/google/設定 Google 快速登入.md"},
-                {"設定 Google 購物廣告" = "ec/integrations/google/設定 Google 購物廣告.md"},
-                {"設定自動化廣告" = "ec/integrations/google/設定自動化廣告.md"},
+                {"Google 購物廣告" = "ec/integrations/google/設定 Google 購物廣告.md"},
+                {"自動化廣告" = "ec/integrations/google/設定自動化廣告.md"},
+                {"移除 Google 索引" = "ec/integrations/google/從 Google 搜尋結果移除特定網頁或子目錄.md"},
                 {"Google Tag Manager" = "ec/integrations/google/建立 Google Tag Manager 並串接 CYBERBIZ.md"},
                 {"Tag Assistant 驗證" = "ec/integrations/google/使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝.md"},
                 {"Google 商家檔案" = "ec/integrations/google/建立與驗證 Google 商家檔案.md"},
                 {"GSC 驗證與設定" = "ec/integrations/google/註冊並驗證 Google Search Console.md"},
+                {"Google Ads 追蹤轉換" = "ec/integrations/google/設定 Google Ads 轉換追蹤.md"},
+                {"Google Ads 強化轉換" = "ec/integrations/google/設定 Google Ads 強化轉換.md"},
+                {"UTM 流量追蹤" = "ec/integrations/google/使用 UTM 參數追蹤行銷流量與分析成效.md"},
                 {"Google Analytics" = [
                     {"overview" = "ec/integrations/google/ga/index.md"},
                     {"建立串接" = "ec/integrations/google/ga/建立並串接 Google Analytics.md"},
                     {"進階設定" = "ec/integrations/google/ga/設定 Google Analytics 進階追蹤與資料分析.md"},
-                    {"排除內部與參照流量" = "ec/integrations/google/ga/設定 GA4 排除內部流量與第三方參照來源.md"}
+                    {"排除內部與參照流量" = "ec/integrations/google/ga/設定 GA4 排除內部流量與第三方參照來源.md"},
+                    {"站內追蹤搜尋" = "ec/integrations/google/ga/設定 GA4 站內搜尋追蹤.md"}
                 ]},
                 {"" = "ec/integrations/google/"}
             ]},
@@ -350,6 +349,11 @@ copyright = """
             {"安全性設定" = "ec/website-management/設定網站安全性.md"},
             {"二階段驗證 (2FA)" = "ec/website-management/設定與管理二階段驗證.md"},
             {"Authy 二階段驗證" = "ec/website-management/使用 Authy 啟用二階段驗證設定.md"},
+            {"搜尋引擎最佳化" = [
+                {"SEO 優化" = "ec/website-management/seo/SEO 設定與優化指南.md"},
+                {"Sitemap 提交" = "ec/website-management/seo/將 Sitemap 提交至 Google Search Console.md"},
+                {"網站轉址" = "ec/website-management/seo/設定 301 重定向網站轉址.md"}
+            ]},
             { "星益欣電子發票" = "ec/website-management/星益欣電子發票設定指南.md" },
             { "為特定網域信箱套用指定會員標籤" = "ec/website-management/為特定網域信箱套用指定會員標籤.md" },
             {"管理員與權限" = "ec/website-management/新增網站管理員並設定權限.md"},
