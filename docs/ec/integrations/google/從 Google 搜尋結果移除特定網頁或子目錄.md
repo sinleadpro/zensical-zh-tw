@@ -73,9 +73,7 @@ hide: []
 
 ## Google 搜尋結果排除說明
 
-當您的品牌網站在 Google 搜尋結果中顯示出不希望曝光的子目錄頁面（例如活動舊頁、暫時不欲公開的內容，或是對 SEO 效益無幫助的結構頁面）時，可以透過 Google 官方提供的工具進行處理。
-
-!!! note "更多詳情說明，請參考 [Google 官方說明 :lucide-external-link:](https://support.google.com/webmasters/answer/9689846)。"
+當您的品牌網站在 Google 搜尋結果中顯示出不希望曝光的子目錄頁面（例如活動舊頁、暫時不欲公開的內容，或是對 SEO 效益無幫助的結構頁面）時，可以透過 Google 官方提供的工具進行處理。瞭解更多，請參考 [Google 官方說明 :lucide-external-link:](https://support.google.com/webmasters/answer/9689846)。
 
 ## 認識 Google 搜尋結果中的「子目錄」
 
