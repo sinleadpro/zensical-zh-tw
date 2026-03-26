@@ -1,5 +1,5 @@
 ---
-title: 設定 Google 購物廣告
+title: 設定 Google Merchant Center 並同步 CYBERBIZ 商品
 version: ""
 last_modified: 2026-03-11 12:18
 description: 串接 Google Merchant Center、同步商品資料至 Google 搜尋與購物廣告。
@@ -65,13 +65,63 @@ system:
   - 後台
 ---
 
-
-# 設定 Google 購物廣告
 串接 Google Merchant Center (GMC)、同步商品資料至 Google 搜尋與購物廣告。
 { .subtitle }
 
 ![](../../../assets/images/ec-integrations-gmc.zh-tw.png){ title="串接 GMC：第三方整合 > Google > Google Merchant Center" .hero-page }
 
+## 什麼是 Google Merchant Center
+
+**Google Merchant Center (GMC)** 是 Google 提供給商家的商品上架平台，能將您的商品資料同步到 Google 搜尋及 Google 購物廣告等服務，有效提升商品的曝光率與轉換機會。
+
+以下為設定 GMC 的詳細教學步驟：
+
+## 如何申請 Google Merchant Center (Google 端操作)
+
+1.  **進入 GMC**：前往 [Google Merchant Center](https://www.google.com/retail/solutions/merchant-center/) 並點擊「立即開始」。
+2.  **設定基本資訊**：依序輸入「商家地址」、「配送資訊」與「退貨政策」。
+3.  **確認網路商店所有權**：
+    *   輸入官網網址，選擇「新增 HTML 標記或檔案」>「新增 HTML 標記」。
+    *   複製系統產生的 HTML 標記。
+    *   **回到 CYBERBIZ 後台**：進入「網站外觀」>「套版主題管理」>「CSS/HTML 編輯器」>「`theme.liquid`」。
+    *   將該代碼貼在 `</head>` 標籤上方並儲存，再回到 GMC 點擊驗證。
+
+## 同步商品資料 (Product Feed 設定)
+
+1.  **複製饋給連結**：至 CYBERBIZ 後台「第三方整合」>「谷歌 Google 設定」>「Google Merchant Center」，複製「**產品動態饋給連結**」。
+2.  **上傳產品**：回到 GMC 後台，選擇「透過檔案新增產品」，將剛才複製的連結貼入「請輸入檔案連結」欄位。
+3.  **手動更新**：系統固定每日凌晨 1:30 更新，若有急需可點擊「手動更新目錄」（一小時限一次）。
+
+## 商品詳細設定建議
+
+*   **Google 商品類別**：建議至商品設定頁的「Google 產品類別」手動選擇正確類別，能讓廣告投放更精準。
+*   **依款式展開商品**：
+    *   **開啟 (ON)**：適合服飾、鞋款等需讓每個顏色或尺寸單獨曝光的商家。
+    *   **關閉 (OFF)**：適合電子產品或款式差異小的商家。
+*   **圖片規範**：請選擇 **無價格、無宣傳標語、無品牌浮水印** 的圖片，否則可能不符合 Google 規格。
+
+## 串接 Google Ads 帳戶
+
+1.  在 GMC 後台點選「設定」>「應用和服務」。
+2.  於「Google 服務」點擊「新增服務」並選擇「Google Ads」。
+3.  選擇欲關聯的帳戶並點擊「關聯」即可完成。
+
+## 哪些商品不會被上傳 (自動排除邏輯)
+
+系統會自動排除以下情況的商品，不會上傳至 GMC：
+
+1.  **不公開的商品**（眼睛圖示關閉）。
+2.  **已下架或達下架時間** 的商品。
+3.  **標籤設定為「贈品」** 或 **「排除product feed」** 的商品。
+
+**重要提醒**：若您是為了投放 **Google 自動化廣告**，可選擇由 CYBERBIZ 代管 GMC 帳號，請直接在自動化廣告設定頁創建，避免自行申請導致權限衝突或廣告異常。
+
+您是否需要我進一步說明，如何利用 **Google Ads 轉換追蹤** 來更精確地衡量這些購物廣告帶來的成效？
+
+
+
+
+---
 
 ## 串接 GMC 的好處
 
