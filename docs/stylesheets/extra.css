@@ -236,27 +236,42 @@ a {
   }
 } */
 
-/* 1. 鎖定包含 "divider" 字樣的導覽項目 */
-[aria-label="divider"], 
-.md-nav__link[href*="divider"],
-.md-nav__item--nested > .md-nav__link[href*="divider"] {
-    pointer-events: none;    /* 徹底禁用點擊，解決 404 問題 */
-    cursor: default;
-    padding: 0 !important;
-    margin: 15px 10px !important;
-    border-top: 1px solid #e0e0e0; /* 這是你的線 */
-    height: 1px;
-    font-size: 0;            /* 讓文字消失 */
-    display: block;
+/* sidebar divider line styling */
+/* 1. 針對包含 divider 的連結項目 */
+.md-nav__item .md-nav__link[href*="divider"] {
+  /* 強制禁用所有滑鼠事件 */
+  pointer-events: none !important; 
+  cursor: default !important;
+  
+  /* 移除所有預設的 hover 背景色 */
+  background-color: transparent !important;
+  
+  /* 佈局設定 */
+  display: flex;
+  align-items: center;
+  padding: 0 !important;
+  margin: 15px 10px !important;
+  height: 1px;
+  border: none; /* 移除可能的預設框線 */
 }
 
-/* 2. 隱藏內部的文字標籤與圖標 */
-.md-nav__link[href*="divider"] span,
-.md-nav__link[href*="divider"] .md-icon {
-    display: none !important;
+/* 2. 畫出分隔線 */
+.md-nav__item .md-nav__link[href*="divider"]::before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #e0e0e0; /* 你的線條顏色 */
 }
 
-/* 3. 如果是手機版或抽屜選單裡的項目也要處理 */
+/* 3. 徹底隱藏所有內部標籤，防止它們撐開點擊範圍 */
+.md-nav__item .md-nav__link[href*="divider"] span,
+.md-nav__item .md-nav__link[href*="divider"] .md-icon,
+.md-nav__item .md-nav__link[href*="divider"] .md-nav__icon {
+  display: none !important;
+}
+
+/* 4. 防止行動版/抽屜選單中的 Label 觸發展開行為 */
 .md-nav__item label[for*="divider"] {
-    display: none;
+  pointer-events: none !important;
+  display: none !important;
 }
