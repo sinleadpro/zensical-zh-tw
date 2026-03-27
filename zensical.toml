@@ -279,6 +279,7 @@ copyright = """
                 {"Google Ads 強化轉換" = "ec/integrations/google/設定 Google Ads 強化轉換.md"},
                 {"UTM 流量追蹤" = "ec/integrations/google/使用 UTM 參數追蹤行銷流量與分析成效.md"},
                 {"網站安全檢查與申訴" = "ec/integrations/google/使用 Google 安全瀏覽工具檢查並排除網站安全性風險.md"},
+                {"YouTube Shopping" = "ec/integrations/google/YouTube Shopping 設定指南.md"},
                 {"Google Analytics" = [
                     {"overview" = "ec/integrations/google/ga/index.md"},
                     {"建立串接" = "ec/integrations/google/ga/建立並串接 Google Analytics.md"},

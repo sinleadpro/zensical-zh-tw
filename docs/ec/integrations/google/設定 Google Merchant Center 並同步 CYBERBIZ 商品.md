@@ -26,7 +26,7 @@ plans:
   - 專業
   - 進階
   - 高手
-  - 專業 PLUS 
+  - 專業 PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -44,10 +44,6 @@ prerequisites:
 related:
   - "[[設定 Google Ads 轉換追蹤]]"
   - "[[設定 Google Analytics 進階追蹤與資料分析]]"
-tags:
-  - Google
-  - GMC
-  - 購物廣告
 acoiv: configure
 apis: []
 devices:
@@ -62,10 +58,10 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=718
   - https://www.cyberbiz.io/support/?p=230
 permalink: ""
-comments: false
 search:
   exclude: false
 icon: lucide/tags
+comments: false
 ---
 
 串接 Google Merchant Center (GMC)、同步商品資料至 Google 搜尋與購物廣告。
@@ -77,7 +73,7 @@ icon: lucide/tags
 
 **Google Merchant Center (GMC)** [:lucide-external-link:](https://www.google.com/retail/solutions/merchant-center/) 是 Google 提供的商品資料管理平台，可將商品資訊同步至 Google 搜尋結果中的購物區塊及 Google 購物廣告，藉此提升商品曝光與轉換成效。[了解更多 :lucide-external-link:](https://support.google.com/merchants/answer/12159157?hl=zh-Hant)
 
-!!! tip "為什麼要使用 GMC"
+!!! note "為什麼要使用 GMC"
     - **提升商品曝光**：商品會出現在 Google 搜尋結果的購物區塊，增加潛在顧客瀏覽量。
     - **精準投放廣告**：搭配 Google Ads 推廣商品，鎖定目標受眾，提高轉換率。
     - **自動化管理**：自動同步商品庫存、價格與圖片，減少手動維護工作。
@@ -123,8 +119,13 @@ icon: lucide/tags
 
     ![GMC 驗證成功](../../../assets/images/ec-gmc-p3-驗證網站成功.png)
 
-    !!! success "若您因故中斷申請設定流程，可以透過 GMC 後台的"
+    ??? success "如何確認商店驗證狀態？"
+        完成驗證後，您可以透過查看商家資訊確認商店已正確關聯。
+            
+        - **前往路徑**：登入 GMC 後台，前往 「設定」 > 「商家資訊」 > 「詳細資料」 > 「您的網路商店」。
+        - **預期結果**：確認該欄位顯示為 `已驗證` 與 `已聲明所有權`。[瞭解驗證與聲明 :lucide-external-link:](https://support.google.com/merchants/answer/11586344?sjid=11682918307320921706-NC#zippy=%2C%E9%A9%97%E8%AD%89%E5%92%8C%E8%81%B2%E6%98%8E%E6%98%AF%E4%BB%80%E9%BA%BC%E6%84%8F%E6%80%9D)
 
+        ![GMC 商店驗證狀態](../../../assets/images/ec-gmc-商家資訊-驗證狀態.png)
 ---
 
 ### 同步商品資料 (Product Feed 設定)
@@ -144,8 +145,11 @@ icon: lucide/tags
 
     ![GMC 產品動態饋給](../../../assets/images/ec-gmc-p4-新增產品-動態饋給.png)
 
-    ??? success "驗證商品同步狀態 :lucide-chevron-down:"
-        - 您可以至 GMC 後台 **「產品與商品」 > 「產品」 > 「所有產品」** 查看商品清單。
+    ??? success "如何驗證商品同步狀態？"
+        同步完成後，請依循以下步驟核對 Google 後台的商品資料：
+        
+        - **前往路徑**：進入 GMC 後台，前往「產品與商品」 > 「產品」 > 「所有產品」。
+        - **預期結果**：確認清單中已出現商店商品及其對應狀態。
         - **請注意**：初次上傳後，商品資訊可能需要數小時至 24 小時才會完全顯示在清單中。
 
         ![GMC 產品頁](../../../assets/images/ec-gmc-產品頁.png)
