@@ -269,6 +269,7 @@ copyright = """
                 {"overview" = "ec/integrations/google/index.md"},
                 {"Google 快速登入" = "ec/integrations/google/設定 Google 快速登入.md"},
                 {"Google Merchant Center (GMC)" = "ec/integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品.md"},
+                {"GMC 重要事件追蹤" = "ec/integrations/google/設定 GMC 重要事件來源追蹤與自動標記.md"},
                 {"自動化廣告" = "ec/integrations/google/設定自動化廣告.md"},
                 {"移除 Google 索引" = "ec/integrations/google/從 Google 搜尋結果移除特定網頁或子目錄.md"},
                 {"Google Tag Manager" = "ec/integrations/google/建立 Google Tag Manager 並串接 CYBERBIZ.md"},
@@ -720,7 +721,7 @@ permalink = true
 toc_depth = 3
 [project.markdown_extensions.toc.slugify]
 object = "pymdownx.slugs.slugify"
-kwds = { unicode = true }
+kwds = { case = "lower", unicode = true }
 [project.markdown_extensions.pymdownx.tabbed]
 alternate_style = true
 [project.markdown_extensions.pymdownx.tabbed.slugify]

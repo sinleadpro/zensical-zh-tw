@@ -1,8 +1,8 @@
 ---
 title: YouTube Shopping 設定指南
-description: ""
+description: 透過 YouTube Shopping 在影片、直播、短影音中植入商品資訊與連結，提升商品曝光與流量變現。
 created: 2026-03-27 10:49
-last_modified: 2026-03-27 17:10
+last_modified: 2026-03-30 12:35
 lang: zh-TW
 type: tutorial
 status: ""
@@ -10,11 +10,12 @@ author: Jase
 version: ""
 reviewers: []
 notes: []
-ga_views:
-feedback:
+ga_views: 0
+feedback: 0
 products:
   - EC
-modules: []
+modules:
+  - 第三方整合
 sites:
   - TW
 audiences:
@@ -27,17 +28,28 @@ plans:
   - 高手 PLUS
   - 企業
 cyb_extensions: []
-intents: []
-features: []
-prerequisites: []
-related: []
-acoiv: ""
+intents:
+  - 設定 YouTube Shopping
+  - 在 YouTube 銷售商品
+  - YouTube 直播購物
+features:
+  - YouTube Shopping
+  - Google Merchant Center
+  - 產品動態饋給
+  - YouTube 合作夥伴計畫
+prerequisites:
+  - "[[設定 Google Merchant Center 並同步 CYBERBIZ 商品]]"
+  - "[[建立並串接 Google Analytics]]"
+related:
+  - "[[設定 GMC 重要事件來源追蹤與自動標記]]"
+acoiv: integration
 apis: []
 devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
+paths:
+  - 第三方整合 > 谷歌 Google 設定 > Google Merchant Center
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10552
@@ -49,20 +61,20 @@ wp_url:
 permalink: ""
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/youtube
-hide:
+hide: []
 ---
 
+透過 YouTube Shopping 在影片、直播、短影音中植入商品資訊與連結，提升商品曝光與流量變現。
 { .subtitle }
-
-{ .doc-badge }
-
-{ .hero-page }
 
 ## 什麼是 YouTube Shopping
 
-**YouTube Shopping** 是一項強大的功能，允許商家在 YouTube 影片、直播及短影音中植入官網商品資訊與連結，藉此增加商品曝光並促進流量變現。[瞭解更多 :lucide-external-link:](https://support.google.com/youtube/answer/12257682?hl=zh-Hant)
+**YouTube Shopping** 可在 YouTube 影片、直播、短影音中植入官網商品資訊與連結。商家若有製作影片、經營 YouTube 頻道、在 YouTube 直播，可進一步設定以增加商品曝光、促進流量變現。[瞭解更多 :lucide-external-link:](https://support.google.com/youtube/answer/12257682?hl=zh-Hant)
+
+!!! warning "適用對象"
+    YouTube Shopping 為 **YouTube 合作夥伴計畫 (YPP)** 功能，適用於已有 YouTube 頻道並達到營利門檻（訂閱 1,000 人 + 觀看時數 4,000 小時）的創作者。
 
 ## YouTube Shopping 設定流程
 
@@ -136,26 +148,56 @@ graph LR
 
 當上述帳號與資格皆準備完成後，即可進行最後的連結步驟。
 
-1.  **連結 GMC 與 GA4**：進入 GA4 後台搜尋「GMC」，選取對應的 Merchant Center 帳號進行連結，並確認 GMC 內的「自動標記功能」已開啟。
+1.  **連結 GMC 與 GA4**：在 Merchant Center 設定中啟用自動標記，並將 [GA4 連結至 Merchant Center](設定%20GMC%20重要事件來源追蹤與自動標記.md#將-ga4-連結至-merchant-center){ data-preview }。
+2.  **連結 YouTube 頻道與官網**：進入 [YouTube Studio :lucide-external-link:](https://studio.youtube.com/) 的「營利」>「購物」分頁，點選「連結商店」，並選擇「其他商店」後指定您的 GMC 帳號。設定詳情，看參考[官方說明 :lucide-external-link:](https://support.google.com/youtube/answer/12258186?sjid=15941351074417695736-NC#)
 
-    ![GA4 管理畫面](../../../assets/images/yt-第三階段-GA4-管理-blurred.png){ .screenshot }
-
-2.  **連結 YouTube 頻道與官網**：進入 YouTube Studio 的「營利」→「購物」分頁，點選「連結商店」，並選擇「其他商店」後指定您的 GMC 帳號。
-
-    ![YouTube Studio 購物分頁](../../../assets/images/yt-第三階段-Youtube-購物-blurred.png){ .screenshot }
+    ![YouTube Studio 連結商店 GIF](../../../assets/images/yt-第三階段-連結Youtube商店.gif){ .screenshot }
 
 3.  **上傳產品動態饋給 (Product Feed)**：
-    *   從 CYBERBIZ 後台複製「**產品動態饋給連結**」（路徑：第三方整合 > 谷歌 Google 設定 > Google Merchant Center）。
-    *   至 GMC 後台的「產品」→「添加商品」→「透過文件添加商品」，貼入連結並完成語系與國家設定。
+    - **獲取連結**：登入 CYBERBIZ 管理後台，前往 第三方整合 > 谷歌 Google 設定 > Google Merchant Center，複製「產品動態饋給連結」。
 
-    ![GMC 產品動態饋給](../../../assets/images/ec-gmc-p4-新增產品-動態饋給.png){ .screenshot }
+        ![GMC CYB 產品動態饋給](../../../assets/images/ec-第三方整合-google-gmcproductfeed.png)
 
-    ![CYBERBIZ 產品動態饋給頁面](../../../assets/images/yt-第三階段-CYB-產品動態饋給.png){ .screenshot }
+    - **匯入 GMC**：進入 GMC 後台，依序點擊 產品 > 所有產品 > 加入產品 > 新增其他產品來源，並貼入剛才複製的連結。
 
-## **維護與成效追蹤**
+        ![GMC 新增產品來源](../../../assets/images/ec-gmc-新增產品來源.gif)
 
-*   **商品自動下架機制**：若動態饋給上的商品資訊**超過 30 天**未在 GMC 更新，將會從 YouTube 自動下架。建議商家**每 28 天**操作一次更新以維持狀態。
-*   **成效追蹤**：您可以在 GA4 的「探索」功能中，利用維度「工作階段手動字詞」來篩選開頭為 **「UC」** 的數據，即可查看來自 YouTube Shopping 的導購訂單與總收益。
+    - **啟用 YouTube 目的地**：在「行銷方式」設定中，務必勾選 YouTube 商店，並點擊儲存以確保商品能同步至 YouTube 平台。
+
+        ![GMC 產品行銷方式 YouTube 商店](../../../assets/images/ec-gmc-產品行銷方式-youtube商店.png)
+     
+    - **完成與手動更新**：點擊「繼續」完成設定。進入來源詳情頁面後，點擊「更新」可強制系統抓取最新商品資訊。
+
+        ![GMC 產品來源詳情](../../../assets/images/ec-gmc-來源詳情.png)
+
+        !!! warning "商品自動下架機制"
+            若動態饋給上的商品資訊 **超過 30 天** 未在 GMC 更新，將會從 YouTube 自動下架。建議商家 **每 28 天** 操作一次更新以維持狀態。
+
+## 追蹤 YouTube Shopping 成效
+
+透過 GA4 探索功能追蹤 YouTube Shopping 帶來的網站轉換成效。
+
+1.  **建立新報告**：在 GA4 後台左側選單點選「探索」，點選「空白」。
+
+2.  **加入總收益/工作階段指標**：點選「指標」>「收益」> 勾選「總收益」以及「工作階段」> 勾選「工作階段」，並點擊確認。
+
+    ![GA4 指標-工作階段與總收益](../../../../assets/images/ec-ga4-探索-指標-工作階段與總收益.gif)
+
+3.  **加入維度**：點選「維度」>「流量來源」> 勾選「工作階段手動字詞」> 「確認」。
+
+    ![GA4 維度-工作階段手動字詞](../../../../assets/images/ec-ga4-探索-維度-工作階段手動字詞.png)
+
+4.  **設定篩選條件**：
+    - 「列」加入「工作階段手動字詞」
+    - 「值」加入「工作階段」
+    - 「值」加入「總收益」
+    - 「篩選器」加入「工作階段手動字詞」，條件設定為「開頭為」「UC」
+
+    ![GA4 探索-篩選條件設定](../../../../assets/images/ec-ga4-探索-篩選條件設定.gif)
+
+6.  **設定期間**：點擊日期選單，可選擇時間區間查看指定時段資料。
+
+    ![GA4 探索-日期選單](../../../../assets/images/ec-ga4-探索-日期選單.gif)
 
 ## **直播小秘訣**
 
@@ -165,17 +207,35 @@ graph LR
 
 <div class="grid cards" markdown>
 
-- :lucide-import:{ .lg }
-  [____]()
-  。
+- :lucide-play:{ .lg }   
+  [__在影片內容中標記產品__:lucide-external-link:](https://support.google.com/youtube/answer/10191533)  
+  在上傳的 YouTube 影片中標記商品，讓觀眾可直接點擊購買。
 
-- :lucide-ban:{ .lg }
-  [____]()
-  。
+- :lucide-video:{ .lg }   
+  [__在直播中標記產品__:lucide-external-link:](https://support.google.com/youtube/answer/12299016)  
+  在 YouTube 直播時即時標記商品，即時推廣產品。
+
+- :lucide-megaphone:{ .lg }   
+  [__直播購物宣傳技巧__:lucide-external-link:](https://support.google.com/merchants/answer/12375318)  
+  透過 YouTube 直播購物功能宣傳產品的最佳實踐與技巧。
 
 </div>
 
 ## 常見問題
 
-??? quote ""
+??? quote "申請 YouTube Shopping 需要什麼資格？"
+
+    YouTube Shopping 為 **YouTube 合作夥伴計畫 (YPP)** 功能。商家需擁有 YouTube 頻道，並達到營利門檻（訂閱 1,000 人 + 觀看時數 4,000 小時，或 Shorts 觀看次數達 1,000 萬次）才能申請。
+
+??? quote "如何將 CYBERBIZ 商品同步到 YouTube？"
+
+    請依序執行以下步驟：
+
+    1. 在 CYBERBIZ 後台取得「產品動態饋給連結」（第三方整合 > 谷歌 Google 設定 > Google Merchant Center）。
+    2. 進入 GMC 後台，加入產品來源並貼入連結。
+    3. 在「行銷方式」中勾選 YouTube 商店並儲存。
+
+??? quote "商品為什麼會從 YouTube 自動下架？"
+
+    若動態饋給上的商品資訊 **超過 30 天** 未在 GMC 更新，將會從 YouTube 自動下架。建議商家 **每 28 天** 操作一次更新以維持狀態。
 

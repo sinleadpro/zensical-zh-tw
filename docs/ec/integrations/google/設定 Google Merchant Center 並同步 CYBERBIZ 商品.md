@@ -2,7 +2,7 @@
 title: 設定 Google Merchant Center 並同步 CYBERBIZ 商品
 description: 串接 Google Merchant Center、同步商品資料至 Google 搜尋與購物廣告。
 created: 2026-03-05 10:00
-last_modified: 2026-03-26 17:55
+last_modified: 2026-03-30 11:10
 lang: zh-TW
 type: tutorial
 status: ""
@@ -182,6 +182,8 @@ comments: false
 
 ![串接 Google Ads GIF](../../../assets/images/ec-gmc-p6-串接GoogleAds.gif){ .screenshot }
 
+---
+
 ## 商品詳細設定建議
 
 *   **Google 商品類別**：建議至商品設定頁的「Google 產品類別」手動選擇正確類別，能讓廣告投放更精準。詳細操作請參考[編輯商品描述與商品設定](../../products/creation/編輯商品描述與商品設定.md){ data-preview }。
@@ -199,13 +201,17 @@ comments: false
 
 <div class="grid cards" markdown>
 
+- :lucide-activity:{ .lg }   
+  [__重要事件來源追蹤與自動標記__](設定%20GMC%20重要事件來源追蹤與自動標記.md){ data-preview }     
+  追蹤特定來源的產品購買情形，並開啟自動標記功能以準確關聯廣告轉換。
+
 - :lucide-footprints:{ .lg }   
-  [__Google Ads 轉換追蹤__](設定 Google Ads 轉換追蹤.md){ data-preview }     
+  [__Google Ads 轉換追蹤__](設定%20Google%20Ads%20轉換追蹤.md){ data-preview }     
   設定 Google Ads 轉換追蹤代碼，回報廣告帶來的訂單成效，優化廣告投放效益。
 
 - :lucide-chart-column-increasing:{ .lg }   
-  [__Google Analytics 追蹤__](ga/設定 Google Analytics 進階追蹤與資料分析.md){ data-preview }     
-  整合 GA4 分析，追蹤使用者從 Google 搜尋到網站後的行為流量。
+  [__Google Analytics 追蹤__](設定%20GMC%20重要事件來源追蹤與自動標記.md#將-ga4-連結至-merchant-center){ data-preview }     
+  將 GA4 連結至 Merchant Center，查看來自 Google 搜尋與購物廣告的購買指標。
 
 </div>
 
