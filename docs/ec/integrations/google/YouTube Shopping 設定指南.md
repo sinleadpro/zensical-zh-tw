@@ -2,7 +2,7 @@
 title: YouTube Shopping 設定指南
 description: 透過 YouTube Shopping 在影片、直播、短影音中植入商品資訊與連結，提升商品曝光與流量變現。
 created: 2026-03-27 10:49
-last_modified: 2026-03-30 12:35
+last_modified: 2026-03-30 12:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -42,6 +42,12 @@ prerequisites:
   - "[[建立並串接 Google Analytics]]"
 related:
   - "[[設定 GMC 重要事件來源追蹤與自動標記]]"
+tags:
+  - YouTube_Shopping
+  - GMC
+  - 產品動態饋給
+  - YPP
+  - YouTube_直播
 acoiv: integration
 apis: []
 devices:

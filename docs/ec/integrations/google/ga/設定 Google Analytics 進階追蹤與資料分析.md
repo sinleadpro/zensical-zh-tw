@@ -2,7 +2,7 @@
 title: 設定 Google Analytics 進階追蹤與資料分析
 description: 加強型評估、Google 信號、資料保留期限調整及報表識別資訊設定，協助商家獲得更精確的流量數據與使用者輪廓。
 created: 2026-03-20 17:50
-last_modified: 2026-03-30 12:15
+last_modified: 2026-03-30 12:45
 lang: zh-TW
 type: tutorial
 status: ""
@@ -48,6 +48,13 @@ prerequisites:
 related:
   - "[[建立並串接 Google Analytics]]"
   - "[[設定 GA4 排除內部流量與第三方參照來源]]"
+tags:
+  - GA4
+  - Google_Analytics
+  - 加強型評估
+  - Google_信號
+  - 資料保留
+  - 流量分析
 acoiv: configure
 apis: []
 devices:

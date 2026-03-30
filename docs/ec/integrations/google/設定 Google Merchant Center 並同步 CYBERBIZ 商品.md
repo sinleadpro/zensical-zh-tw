@@ -2,7 +2,7 @@
 title: 設定 Google Merchant Center 並同步 CYBERBIZ 商品
 description: 串接 Google Merchant Center、同步商品資料至 Google 搜尋與購物廣告。
 created: 2026-03-05 10:00
-last_modified: 2026-03-30 11:10
+last_modified: 2026-03-30 12:45
 lang: zh-TW
 type: tutorial
 status: ""
@@ -44,6 +44,12 @@ prerequisites:
 related:
   - "[[設定 Google Ads 轉換追蹤]]"
   - "[[設定 Google Analytics 進階追蹤與資料分析]]"
+tags:
+  - Google_Merchant_Center
+  - GMC
+  - 產品動態饋給
+  - Product_Feed
+  - Google_購物廣告
 acoiv: configure
 apis: []
 devices:

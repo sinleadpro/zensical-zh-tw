@@ -2,7 +2,7 @@
 title: 設定 GMC 重要事件來源追蹤與自動標記
 description: 設定 Google Merchant Center 重要事件來源追蹤與自動標記功能，掌握產品購買指標。
 created: 2026-03-30 10:00
-last_modified: 2026-03-30 11:45
+last_modified: 2026-03-30 12:40
 lang: zh-TW
 type: guide
 status: ""
@@ -19,7 +19,7 @@ modules:
 sites:
   - TW
 audiences:
-  - 商家
+  - admin
 difficulty: medium
 tnb: trunk
 plans:
@@ -30,6 +30,7 @@ plans:
   - 進階 PLUS
   - 高手 PLUS
   - 企業
+cyb_extensions: []
 intents:
   - 設定重要事件來源追蹤
   - 開啟自動標記
@@ -37,11 +38,16 @@ features:
   - 重要事件來源追蹤
   - 自動標記
 prerequisites:
-  - 已完成 Google Merchant Center 帳號設定
-  - 已建立 GA4 資源
+  - "[[設定 Google Merchant Center 並同步 CYBERBIZ 商品]]"
+  - "[[建立並串接 Google Analytics]]"
 related:
   - "[[設定 Google Merchant Center 並同步 CYBERBIZ 商品]]"
   - "[[YouTube Shopping 設定指南]]"
+tags:
+  - GMC
+  - 自動標記
+  - 重要事件來源
+  - GA4
 acoiv: configure
 apis: []
 devices:
@@ -56,6 +62,7 @@ permalink: ""
 search:
   exclude: false
 icon: lucide/settings-2
+hide: []
 comments: false
 ---
 
