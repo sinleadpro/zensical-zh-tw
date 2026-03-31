@@ -720,7 +720,7 @@ auto_append = ["includes/abbreviations.md"]
 [project.markdown_extensions.md_in_html]
 [project.markdown_extensions.toc]
 permalink = true
-toc_depth = 3
+toc_depth = 4
 [project.markdown_extensions.toc.slugify]
 object = "pymdownx.slugs.slugify"
 kwds = { case = "lower", unicode = true }
