@@ -319,6 +319,7 @@ copyright = """
                 {"LINE 直播" = "ec/integrations/line/申請與設定 LINE 直播功能.md"},
                 {"LINE 購物導購" = "ec/integrations/line/申請與設定 LINE 購物導購.md"}
             ]},
+            {"美安串接" = "ec/integrations/串接美安通路.md"}
     ]},
         { "管理中心" = [
             { "overview" = "ec/website-management/index.md" },
