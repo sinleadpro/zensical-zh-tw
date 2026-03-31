@@ -375,9 +375,8 @@ copyright = """
             { "啟用部分串倉與混單" = "wms/啟用部分串倉與混單.md"},
             { "官網與倉儲同步規則" = "wms/官網與倉儲同步規則.md"},
             { "設定商品(現貨、限量、預購)" = "wms/設定商品(現貨、限量、預購).md"},
-            { "訂單出貨操作" = "wms/.md"},
             { "手動確認收貨" = "wms/手動確認收貨.md"},
-            { "退貨與派車" = "wms/.md"},
+            { "退貨與派車" = "wms/退貨與派車.md"},
             { "商家自行驗收退貨" = "wms/商家自行驗收退貨.md"},
             { "POS 系統串倉庫存轉調" = "wms/POS 系統串倉庫存轉調.md"},
         ]},
@@ -402,9 +401,9 @@ copyright = """
         { "退貨單" = "wms/退貨單.md"},
         { "庫存紀錄" = "wms/庫存紀錄.md"},
         { "設定" = [
-            { "商店設定" = "wms/.md"},
-            { "帳號管理" = "wms/.md"},
-            { "權限設定" = "wms/.md"},
+            { "商店設定" = "wms/商店設定.md"},
+            { "帳號管理" = "wms/帳號管理.md"},
+            { "權限設定" = "wms/權限設定.md"},
             { "報表通知設定" = "wms/報表通知設定.md"},
         ]},
         { "API" = "wms/.md"},
@@ -428,6 +427,29 @@ copyright = """
                 { "overview" = "pos/integrations/line/index.md" },
                 { "LINE 會員條碼設定" = "pos/integrations/line/設定與使用 LINE 顯示會員條碼（串接 POS 結帳）.md" }
             ]},
+        ]},
+        { "硬體安裝" = [
+            { "有線刷卡機" = "pos/hardware/有線刷卡機.md" },
+            { "商米無線刷卡機" = "pos/hardware/商米無線刷卡機.md" },
+            { "Posiflex 有線發票機" = "pos/hardware/Posiflex 有線發票機.md" },
+            { "EPSON 有線發票機" = "pos/hardware/EPSON 有線發票機.md" },
+            { "標籤印表機" = "pos/hardware/標籤印表機.md" },
+            { "客顯螢幕" = "pos/hardware/客顯螢幕.md" },
+            { "平板裝置使用說明" = "pos/hardware/平板裝置使用說明.md" },
+            { "網路連線異常與斷線提示" = "pos/hardware/網路連線異常與斷線提示.md" },
+        ]},
+        { "結帳" =[
+            { "列印商品標籤" = "pos/check/列印商品標籤.md" },
+            { "離線結帳模式" = "pos/check/離線結帳模式.md" },
+        ]},
+        { "其他功能" = [
+            { "秤重商品條碼" = "pos/others/秤重商品條碼.md" },
+            
+        ]},
+        { "LINE PAY 掃碼支付" = "pos/check/LINE PAY 掃碼支付.md" },
+        { "員工權限與帳號管理" = "pos/others/員工權限與帳號管理.md" },
+        { "參考資源" = [
+            { "人員權限欄位參考表" = "pos/reference/人員權限欄位參考表.md" },
         ]},
     ]},
     { "資源中心" = [
