@@ -1,51 +1,43 @@
 ---
-title: "POD 列表"
-version: "1.1.1"
-last_modified: "2026-03-19"
-description: "在電商倉儲（WMS）中利用 POD 列表追蹤「專車派車」訂單的派車狀態。"
-product:
-  - WMS
-module: "POD列表"
-activ: "Venture"
-paths: "POD 列表"
-surfaces: 
-  - "POD 列表頁面"
-  - "訂單篩選區塊"
-ends:
-  - backend
-devices:
-  - desktop
-type: tutorial
-features: 
-  - "POD 列表"
-  - "回單管理"
-  - "收貨證明"
-  - "訂單追蹤"
-tasks: 
-  - "查詢回單狀態"
-  - "追蹤大宗出貨憑證"
-  - "核對訂單交付進度"
-tnb: "trunk"
-plans: ""
-prerequisites: 
-  - "需已開通 CYBERBIZ 電商倉儲服務"
-  - "僅適用於支援 POD 簽單回傳之物流或配送模式"
+title: POD 列表
+description: 在電商倉儲（WMS）中利用 POD 列表追蹤「專車派車」訂單的派車狀態。
+created: 2026-03-19 00:00
+last_modified: 2026-03-25 12:08
 lang: zh-TW
-sites: "TW"
-status: ""
-tags: 
-  - "WMS"
-  - "收貨證明"
-  - "回單"
-  - "出貨管理"
-difficulty: ""
-audiences: ""
-wp_url: "https://www.cyberbiz.io/support/?p=39973"
-notes: ""
-comments: ""
-search: 
-  exclude: ""
-icon: "lucide/file-check"
+type: tutorial
+status:
+version: 1.1.1
+author: Ann
+reviewers: []
+notes: []
+ga_views: 0
+feedback: 0
+products: ["WMS"]
+modules: ["POD列表"]
+sites: ["TW"]
+audiences: []
+difficulty:
+tnb: trunk
+plans: []
+cyb_extensions: []
+intents: ["查詢回單狀態", "追蹤出貨派車憑證", "核對訂單交付進度"]
+features: ["POD 列表", "回單管理", "收貨證明", "訂單追蹤"]
+prerequisites: ["需已開通 CYBERBIZ 電商倉儲服務", "僅適用於開通專車派車配送模式"]
+related: []
+tags: ["WMS", "收貨證明", "回單", "出貨管理"]
+acoiv: venture
+apis: []
+devices: ["desktop"]
+ui_components: ["POD 列表頁面", "訂單篩選區塊"]
+paths: ["POD 列表"]
+layouts: []
+wp_url: ["https://www.cyberbiz.io/support/?p=39973"]
+permalink:
+comments: false
+search:
+  exclude: false
+icon: lucide/file-check
+hide: []
 ---
 
 # POD 列表
@@ -78,4 +70,3 @@ icon: "lucide/file-check"
 - **追蹤回單進度**：透過 **回單狀態** 欄位，快速識別訂單的派送狀態。
 - **查看訂單詳情**：點擊列表中的 **訂單編號**，系統將自動連結至該訂單的詳細資訊頁面，方便核對品項與收件人資訊。
 - **異常識別**：若貨態顯示已送達但 POD 狀態長期處於 **未完成**，請聯繫倉庫客服或物流商確認。
-

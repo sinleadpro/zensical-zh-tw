@@ -1,59 +1,43 @@
 ---
-title: "POS 系統串倉庫存轉調"
-version: "1.1.1"
-last_modified: "2026-03-20"
-description: "同時使用 EC、POS 與 WMS 服務時，執行門市調貨、查看 WMS 庫存配置以及在線上/線下倉別間進行庫存轉調。"
-product:
-  - EC
-  - POS
-  - WMS
-module: 
-  - (POS)庫存
-activ: "Integration"
-paths: 
-  - "POS 前台 > 庫存"
-  - "WMS 後台 > 商品 > 單一品項"
-surfaces: 
-  - "POS 前台"
-  - "WMS 管理後台"
-ends:
-  - backend
-  - pos
-devices:
-  - desktop
-  - tablet
-type: guide
-features: 
-  - "門市調貨"
-  - "倉別轉調"
-  - "庫存分配"
-  - "POS 集成"
-tasks: 
-  - "申請門市補貨"
-  - "查詢管道庫存"
-  - "執行線上線下庫存互調"
-tnb: "trunk"
-plans: ""
-prerequisites: 
-  - "需同時開通 CYBERBIZ EC、POS 與 WMS 三項服務"
-  - "需完成門市與總倉之關聯設定"
+title: POS 系統串倉庫存轉調
+description: 同時使用 EC、POS 與 WMS 服務時，執行門市調貨、查看 WMS 庫存配置以及在線上/線下倉別間進行庫存轉調。
+created: 2026-03-20 00:00
+last_modified: 2026-03-25 12:08
 lang: zh-TW
-sites: "TW"
-status: ""
-tags: 
-  - "POS 調貨"
-  - "WMS 庫存"
-  - "三合一"
-difficulty: ""
-audiences: ""
-wp_url: "https://www.cyberbiz.io/support/?p=28494"
-notes: 
-  - 確認版本限制
-  - 圖片介面過舊
-comments: ""
-search: 
-  exclude: ""
-icon: "lucide/store"
+type: guide
+status:
+version: 1.1.1
+author: Ann
+reviewers: []
+notes: ["確認版本限制", "圖片介面過舊"]
+ga_views: 0
+feedback: 0
+products: ["EC", "POS", "WMS"]
+modules: ["(POS)庫存"]
+sites: ["TW"]
+audiences: []
+difficulty:
+tnb: trunk
+plans: []
+cyb_extensions: []
+intents: ["申請門市補貨", "查詢管道庫存", "執行線上線下庫存互調"]
+features: ["門市調貨", "倉別轉調", "庫存分配", "POS 集成"]
+prerequisites: ["需同時開通 CYBERBIZ EC、POS 與 WMS 三項服務", "需完成門市與總倉之關聯設定"]
+related: []
+tags: ["POS 調貨", "WMS 庫存", "三合一"]
+acoiv: venture
+apis: []
+devices: ["desktop", "tablet"]
+ui_components: ["POS 前台", "WMS 管理後台"]
+paths: ["POS 前台 > 庫存", "WMS 後台 > 商品 > 單一品項"]
+layouts: []
+wp_url: ["https://www.cyberbiz.io/support/?p=28494"]
+permalink:
+comments: false
+search:
+  exclude: false
+icon: lucide/store
+hide: []
 ---
 
 # POS 系統串倉庫存轉調
@@ -103,7 +87,7 @@ icon: "lucide/store"
 若 POS 總倉庫存用罄，但 EC 總倉仍有餘裕，管理人員可執行「倉內轉調」，將官網庫存撥給門市使用。
 
 1. 進入 **WMS 管理後台**，前往 [調倉單](調倉單.md)，點擊 **新增調倉單**。
-2. **配置轉調路徑**：
+2. **轉調路徑配置**：
     - **來源倉庫**：選擇 **CYBERBIZ-G**。
     - **目的倉庫**：選擇 **CYBERBIZ-POS**。
 3. 點擊 **新增品項**，輸入欲轉調的品項與數量。
