@@ -69,7 +69,7 @@
       {
         "id": "10f9d93c6521323e",
         "type": "tabs",
-        "dimension": 31.929824561403507,
+        "dimension": 31.57894736842105,
         "children": [
           {
             "id": "2c27b3aecd22969c",
@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=850",
-                "title": "美安shop.com串接 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=776,https://www.cyberbiz.io/helpcenter/?p=4420",
+                "title": "Facebook登入教學 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "美安shop.com串接 - CYBERBIZ 一般版教學文件"
+              "title": "Facebook登入教學 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -90,7 +90,7 @@
       {
         "id": "2c57acc736defe7a",
         "type": "tabs",
-        "dimension": 32.8421052631579,
+        "dimension": 33.19298245614035,
         "children": [
           {
             "id": "70ccdcc682095e33",
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=6149#d",
-                "title": "YouTube Shopping – Step3：申請 YouTube Shopping",
+                "url": "https://www.cyberbiz.io/support/?p=507,https://www.cyberbiz.io/support/?p=26854",
+                "title": "Facebook 登入教學",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "YouTube Shopping – Step3：申請 YouTube Shopping"
+              "title": "Facebook 登入教學"
             }
           }
         ]
@@ -304,30 +304,32 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c27b3aecd22969c",
+  "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/ec/integrations/串接美安通路/index.html",
-    "site/ec/integrations/串接美安通路",
+    "site/assets/images/ec-第三方整合-fb快速登入開啟.png",
+    "docs/assets/images/ec-第三方整合-fb快速登入開啟.png",
+    "site/assets/images/ec-第三方整合-fb-自訂圖示-前台.png",
+    "docs/assets/images/ec-第三方整合-fb-自訂圖示-前台.png",
+    "site/assets/images/ec-第三方整合-fb-預設圖示-前台.png",
+    "docs/assets/images/ec-第三方整合-fb-預設圖示-前台.png",
+    "site/assets/images/ec-第三方整合-fb整合.png",
+    "docs/assets/images/ec-第三方整合-fb整合.png",
+    "site/assets/images/ec-第三方整合-fb快速登入-前台.png",
+    "docs/assets/images/ec-第三方整合-fb快速登入-前台.png",
+    "site/assets/images/ec-第三方整合-fb快速登入.png",
+    "site/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）/index.html",
+    "site/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）",
+    "site/ec/products/shipping",
+    "site/includes/abbreviations/index.html",
+    "site/includes/abbreviations",
+    "site/includes",
+    "site/ec/products/index.html",
+    "site/resources/index.html",
+    "site/resources/changelog/index.html",
+    "site/resources/changelog",
+    "docs/ec/integrations/meta/設定 Facebook 快速登入.md",
+    "docs/ec/integrations/meta/index.md",
     "docs/ec/integrations/串接美安通路.md",
-    "site/ec/integrations/google/YouTube Shopping 設定指南.md~",
-    "docs/ec/integrations/google/YouTube Shopping 設定指南.md~",
-    "site/assets/images/ec-ga4-探索-日期選單.gif",
-    "docs/assets/images/ec-ga4-探索-日期選單.gif",
-    "site/assets/images/ec-ga4-探索-日期選單.mov",
-    "docs/assets/images/ec-ga4-探索-日期選單.mov",
-    "site/assets/images/ec-ga4-探索-篩選條件設定.gif",
-    "docs/assets/images/ec-ga4-探索-篩選條件設定.gif",
-    "site/assets/images/ec-ga4-探索-維度-工作階段手動字詞.png",
-    "docs/assets/images/ec-ga4-探索-維度-工作階段手動字詞.png",
-    "site/assets/images/ec-ga4-探索-指標-工作階段與總收益.gif",
-    "docs/assets/images/ec-ga4-探索-指標-工作階段與總收益.gif",
-    "site/assets/images/ec-gmc-來源詳情.png",
-    "docs/assets/images/ec-gmc-來源詳情.png",
-    "site/assets/images/temp.mp4",
-    "site/assets/audios/設定留言區 reCAPTCHA 聽讀.mp3",
-    "site/assets/audios",
-    "site/javascripts/tablesort.js",
-    "site/javascripts/feedback.js",
     "docs/ec/integrations/google/設定 GMC 重要事件來源追蹤與自動標記.md",
     "docs/ec/integrations/google/GMC 重要事件來源追蹤與自動標記設定.md",
     "docops/manifest.md",
@@ -349,8 +351,6 @@
     "docs/ec/website-management/seo/SEO 設定與優化指南.md",
     "docs/ec/integrations/google/ga/設定 GA4 排除內部流量與第三方參照來源.md",
     "quartz/tools/sparks.md",
-    "quartz/tools/obsidian.md",
-    "quartz/tools/ai.md",
-    "quartz/playbooks/traceability.md"
+    "quartz/tools/obsidian.md"
   ]
 }

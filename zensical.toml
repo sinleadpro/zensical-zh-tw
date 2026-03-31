@@ -263,7 +263,8 @@ copyright = """
         { "第三方整合" = [
             {"overview" = "ec/integrations/index.md"},  
             {"FB/Meta" = [
-                { "overview" = "ec/integrations/fb-meta/index.md"}
+                { "overview" = "ec/integrations/meta/index.md"},
+                {"Facebook 快速登入" = "ec/integrations/meta/設定 Facebook 快速登入.md"}
             ]},
             {"Google" = [
                 {"overview" = "ec/integrations/google/index.md"},
@@ -319,7 +320,7 @@ copyright = """
                 {"LINE 直播" = "ec/integrations/line/申請與設定 LINE 直播功能.md"},
                 {"LINE 購物導購" = "ec/integrations/line/申請與設定 LINE 購物導購.md"}
             ]},
-            {"美安串接" = "ec/integrations/串接美安通路.md"}
+            {"美安 SHOP.COM" = "ec/integrations/串接美安通路.md"}
     ]},
         { "管理中心" = [
             { "overview" = "ec/website-management/index.md" },
