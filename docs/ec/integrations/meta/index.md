@@ -1,10 +1,10 @@
 ---
 title: index
 description: ""
-created: 2026-03-31 11:20
+created: 2026-04-07 23:47
 last_modified:
 lang: zh-TW
-type: guide
+type: tutorial
 status: ""
 author: Jase
 version: ""
@@ -40,7 +40,7 @@ permalink: ""
 comments: ""
 search:
   exclude: ""
-icon: simple/meta
+icon: simple/facebook
 hide:
 ---
 

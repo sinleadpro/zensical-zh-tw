@@ -78,11 +78,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.cyberbiz.io/helpcenter/?p=776,https://www.cyberbiz.io/helpcenter/?p=4420",
-                "title": "Facebook登入教學 - CYBERBIZ 一般版教學文件",
-                "mode": "webview"
+                "title": "cyberbiz.io/helpcenter/?p=776,https://www.cyberbiz.io/helpcenter/?p=4420",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "Facebook登入教學 - CYBERBIZ 一般版教學文件"
+              "title": "cyberbiz.io/helpcenter/?p=776,https://www.cyberbiz.io/helpcenter/?p=4420"
             }
           }
         ]
@@ -306,21 +306,26 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "docs/ec/integrations/meta/設定 Facebook 快速登入.md~",
+    "site/ec/products/排除商品上傳至第三方平台/index.html",
+    "site/ec/products/排除商品上傳至第三方平台",
+    "site/ec/payments-and-logistics/設定門市取貨服務/index.html",
+    "site/ec/payments-and-logistics/設定門市取貨服務",
+    "site/resources/references/認識 CYBER 幣/index.html",
+    "site/resources/references/商品詳細資訊設定/index.html",
+    "site/resources/references/認識 CYBER 幣",
+    "site/resources/references/商品詳細資訊設定",
+    "site/resources/references",
+    "site/wms/index.html",
+    "site/wms",
+    "docs/ec/integrations/meta/mbe/Facebook (Meta) 商業擴充套件：帳號授權與資產連結.md",
+    "docs/ec/integrations/meta/mbe/Facebook Meta 商業擴充套件-帳號授權與資產連結.md",
+    "docs/ec/integrations/meta/index.md",
+    "docs/ec/integrations/meta/mbe/index.md",
+    "docs/ec/integrations/google/YouTube Shopping 設定指南.md",
     "site/assets/images/ec-第三方整合-fb-後台設定-blurred.png",
     "docs/assets/images/ec-第三方整合-fb-後台設定-blurred.png",
     "site/assets/images/ec-第三方整合-fb-後台設定.png",
     "docs/assets/images/ec-第三方整合-fb-後台設定.png",
-    "site/ec/integrations/google/設定自動化廣告/index.html",
-    "site/ec/integrations/google/設定自動化廣告",
-    "site/ec/website-appearance/設定導覽選單滑鼠移入自動展開/index.html",
-    "site/ec/website-appearance/設定導覽選單滑鼠移入自動展開",
-    "site/ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step3.官網與蝦皮商品庫存同步/index.html",
-    "site/ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step3.官網與蝦皮商品庫存同步",
-    "site/ec/website-management/seo/SEO 設定與優化指南/index.html",
-    "site/ec/website-management/seo/SEO 設定與優化指南",
-    "site/ec/website-management/設定多國語言與多幣別/index.html",
-    "site/ec/website-management/設定多國語言與多幣別",
     "site/assets/images/ec-行銷活動-一頁式商店-youtube影片-自動播放-設定-舊版.gif",
     "site/assets/images/ec-管理中心-安全性設定-二階段驗證-authy-註冊.png",
     "site/assets/images/ec-管理中心-安全性設定-二階段驗證-管理人員安全驗證.gif",
@@ -328,13 +333,11 @@
     "site/assets/images/ec-第三方整合-google-ga4-報表-search_term.png",
     "site/assets/images/ec-商品-所有商品-篩選已公開已上架商品.png",
     "docs/ec/integrations/meta/設定 Facebook 快速登入.md",
-    "docs/ec/integrations/meta/index.md",
     "docs/ec/integrations/串接美安通路.md",
     "docs/ec/integrations/google/設定 GMC 重要事件來源追蹤與自動標記.md",
     "docs/ec/integrations/google/GMC 重要事件來源追蹤與自動標記設定.md",
     "docops/manifest.md",
     "templates/grid-complex-guide.md",
-    "docs/ec/integrations/google/YouTube Shopping 設定指南.md",
     "templates/callout-abstract-form.md",
     "docs/ec/integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品.md",
     "docs/ec/integrations/google/使用 Google 安全瀏覽工具檢查並排除網站安全性風險.md",
@@ -348,9 +351,6 @@
     "docs/ec/integrations/google/\n從 Google 搜尋結果移除特定網頁或子目錄.md",
     "docs/ec/website-management/seo/設定 301 重定向網站轉址.md",
     "docs/ec/website-management/seo/將 Sitemap 提交至 Google Search Console.md",
-    "docs/ec/website-management/seo/SEO 設定與優化指南.md",
-    "docs/ec/integrations/google/ga/設定 GA4 排除內部流量與第三方參照來源.md",
-    "quartz/tools/sparks.md",
-    "quartz/tools/obsidian.md"
+    "docs/ec/website-management/seo/SEO 設定與優化指南.md"
   ]
 }

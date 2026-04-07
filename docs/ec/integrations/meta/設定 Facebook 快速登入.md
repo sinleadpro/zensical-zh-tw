@@ -2,7 +2,7 @@
 title: 設定 Facebook 快速登入
 description: ""
 created: 2026-03-31 11:23
-last_modified: 2026-03-31 12:30
+last_modified: 2026-04-07 10:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -182,13 +182,7 @@ hide:
     *   複製應用程式的「**應用程式編號**」與「**應用程式密鑰**」。
     *   回到 CYBERBIZ 後台的 Facebook 設定頁面，將兩組編號貼入對應欄位並儲存。
 
-## 常見異常解決辦法
 
-1.  **應用程式不支援登入：** 通常與 FB 應用程式審核或 API 版本過舊有關。建議至 Facebook for Developers 查看是否有警示訊息或「年度資料檢查」未執行。
-2.  **無法取得信箱權限：** 需確認應用程式的 `email` 權限是否設定為「Advanced Access」級別。
-3.  **FB 登入功能停用：** 由於 Facebook 不再支援 Android 內嵌瀏覽器的登入驗證，若顧客遇到此問題，請引導其**下載並使用 Facebook APP** 開啟登入。
-
-您是否需要我進一步說明，如何透過「Facebook 商業擴充套件」來設定 Facebook 像素 (Pixel) 以追蹤廣告轉換成效？
 ## 後續操作
 
 <div class="grid cards" markdown>
@@ -203,7 +197,25 @@ hide:
 
 </div>
 
+## 常見異常解決辦法
+
+1.  **應用程式不支援登入：** 通常與 FB 應用程式審核或 API 版本過舊有關。建議至 Facebook for Developers 查看是否有警示訊息或「年度資料檢查」未執行。
+2.  **無法取得信箱權限：** 需確認應用程式的 `email` 權限是否設定為「Advanced Access」級別。
+3.  **FB 登入功能停用：** 由於 Facebook 不再支援 Android 內嵌瀏覽器的登入驗證，若顧客遇到此問題，請引導其**下載並使用 Facebook APP** 開啟登入。
+
+您是否需要我進一步說明，如何透過「Facebook 商業擴充套件」來設定 Facebook 像素 (Pixel) 以追蹤廣告轉換成效？
+
 ## 常見問題
 
-??? quote ""
+??? quote "為什麼會出現「此應用程式目前不支援 Facebook 登入」的錯誤？"
+
+    通常與 FB 應用程式審核或 API 版本過舊有關。建議至 Facebook for Developers 查看是否有警示訊息或「年度資料檢查」未執行。
+
+??? quote "無法取得顧客的 Email 信箱該怎麼辦？"
+
+    需確認應用程式的 `email` 權限是否設定為「Advanced Access」級別。
+
+??? quote "為什麼在 Android 內嵌瀏覽器中無法使用 Facebook 登入？"
+
+    由於 Facebook 不再支援 Android 內嵌瀏覽器的登入驗證，若顧客遇到此問題，請引導其**下載並使用 Facebook APP** 開啟登入。
 

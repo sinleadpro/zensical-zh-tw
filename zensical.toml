@@ -262,9 +262,13 @@ copyright = """
         ]},
         { "第三方整合" = [
             {"overview" = "ec/integrations/index.md"},  
-            {"FB/Meta" = [
-                { "overview" = "ec/integrations/meta/index.md"},
-                {"Facebook 快速登入" = "ec/integrations/meta/設定 Facebook 快速登入.md"}
+            {"Facebook" = [
+                {"overview" = "ec/integrations/meta/index.md"},
+                {"Facebook 快速登入" = "ec/integrations/meta/設定 Facebook 快速登入.md"},
+                {"Meta Business Extension" = [
+                    {"overview" = "ec/integrations/meta/mbe/index.md"},
+                    {"帳號授權與資產連結" = "ec/integrations/meta/mbe/Facebook (Meta) 商業擴充套件：帳號授權與資產連結.md"}
+                ]},
             ]},
             {"Google" = [
                 {"overview" = "ec/integrations/google/index.md"},

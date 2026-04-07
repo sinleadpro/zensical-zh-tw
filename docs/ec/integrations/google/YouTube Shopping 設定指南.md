@@ -42,12 +42,6 @@ prerequisites:
   - "[[建立並串接 Google Analytics]]"
 related:
   - "[[設定 GMC 重要事件來源追蹤與自動標記]]"
-tags:
-  - YouTube_Shopping
-  - GMC
-  - 產品動態饋給
-  - YPP
-  - YouTube_直播
 acoiv: integration
 apis: []
 devices:
@@ -68,7 +62,7 @@ permalink: ""
 comments: ""
 search:
   exclude: false
-icon: lucide/youtube
+icon: simple/youtube
 hide: []
 ---
 
