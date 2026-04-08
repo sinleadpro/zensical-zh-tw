@@ -124,24 +124,14 @@ hide:
 
     ![權限和功能](../../../assets/images/ec-第三方整合-fb-權限和功能.png){ .screenshot }
 
-4. 切換到「設定」頁籤，設定有效的 OAuth 重新導向 URL。
+4. 切換到「設定」頁籤，設定有效的 OAuth 重新導向 URL，其他設定可使用預設值。
 
     !!! tip "先確認網域類型"
-        **請先至 CYBERBIZ 後台確認您的網域是使用「自有網域」或是「CYBERBIZ 提供的網域」**
-        
-        後台路徑：`管理中心` > `網域管理`
+        請先至 CYBERBIZ 後台確認您的網域是使用「自有網域」或是「CYBERBIZ 提供的網域」。後台路徑：**管理中心 > 網域管理**
 
-    **自有網域：**
-    ```
-    https://www.你的網域.com/customer/auth/facebook/callback
-    ```
+        - **自有網域：** `https://www.你的網域.com/customer/auth/facebook/callback`
+        - **CYBERBIZ 網域：** `https://你的店名.cyberbiz.co/customer/auth/facebook/callback`
 
-    **CYBERBIZ 網域：**
-    ```
-    https://你的店名.cyberbiz.co/customer/auth/facebook/callback
-    ```
-
-    其他設定可使用預設值。
 
     ![設定 OAuth URL](../../../assets/images/ec-第三方整合-fb-oauth設定.png){ .screenshot }
 
