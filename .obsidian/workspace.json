@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=8203",
-                "title": "自動化廣告系統 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=2870",
+                "title": "FACEBOOK 商業擴充套件－STEP.1-1 初步設定 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "自動化廣告系統 - CYBERBIZ 一般版教學文件"
+              "title": "FACEBOOK 商業擴充套件－STEP.1-1 初步設定 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=34930",
-                "title": "自動化廣告系統",
+                "url": "https://www.cyberbiz.io/support/?p=11341",
+                "title": "Facebook商業擴充套件－Step.1-1 初步設定",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "自動化廣告系統"
+              "title": "Facebook商業擴充套件－Step.1-1 初步設定"
             }
           }
         ]
@@ -306,29 +306,35 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/ec/integrations/google/設定自動化廣告.md~",
-    "site/assets/images/ec-第三方整合-自動化廣告-廣告儲值.png",
-    "docs/assets/images/ec-第三方整合-自動化廣告-廣告儲值.png",
-    "site/assets/images/ec-第三方整合-自動化廣告-活動儲值.png",
-    "docs/assets/images/ec-第三方整合-自動化廣告-活動儲值.png",
-    "site/assets/images/ec-第三方整合-自動化廣告-google廣告設定.png",
-    "docs/assets/images/ec-第三方整合-自動化廣告-google廣告設定.png",
-    "site/assets/images/ec-第三方整合-自動化廣告-活動管理.png",
-    "docs/assets/images/ec-第三方整合-自動化廣告-活動管理.png",
-    "site/assets/images/ec-第三方整合-自動化廣告-google購物廣告.png",
-    "docs/assets/images/ec-第三方整合-自動化廣告-google購物廣告.png",
-    "docs/ec/integrations/google/設定自動化廣告.md~",
-    "site/ec/analytics/設定廣告分析/index.html",
-    "site/ec/analytics/設定廣告分析",
+    "site/ec/integrations/fb/mbe/設定 MBE 帳號授權與資產連結/index.html",
+    "site/ec/integrations/fb/mbe/設定 MBE 帳號授權與資產連結",
+    "site/ec/integrations/fb/設定 Facebook 快速登入/index.html",
+    "site/ec/integrations/fb/mbe/index.html",
+    "site/ec/integrations/fb/設定 Facebook 快速登入",
+    "site/ec/integrations/fb/mbe",
+    "site/ec/integrations/fb/index.html",
+    "site/ec/integrations/fb",
+    "docs/ec/integrations/fb/mbe/設定 MBE 帳號授權與資產連結.md",
+    "docs/ec/integrations/fb/mbe/index.md",
+    "docs/ec/integrations/fb/設定 Facebook 快速登入.md",
+    "docs/ec/integrations/fb/mbe",
+    "docs/ec/integrations/fb/index.md",
+    "docs/ec/integrations/fb",
+    "site/assets/images/ec-第三方整合-fb應用程式-進階設定-API版本.png",
+    "docs/assets/images/ec-第三方整合-fb應用程式-進階設定-API版本.png",
+    "site/assets/images/ec-第三方整合-fb應用程式-收件匣.png",
+    "docs/assets/images/ec-第三方整合-fb應用程式-收件匣.png",
+    "site/ec/integrations/meta/設定 Facebook 快速登入.md~",
+    "site/assets/images/ec-第三方整合-fb應用程式-appid-appsecret.png",
+    "docs/assets/images/ec-第三方整合-fb應用程式-appid-appsecret.png",
+    "site/assets/images/ec-第三方整合-fb應用程式-oauth設定.png",
+    "docs/assets/images/ec-第三方整合-fb應用程式-oauth設定.png",
+    "site/assets/images/ec-第三方整合-fb應用程式-權限和功能.png",
+    "docs/assets/images/ec-第三方整合-fb應用程式-權限和功能.png",
+    "docs/ec/analytics/廣告分析指南.md",
     "docs/ec/analytics/設定廣告分析.md",
-    "site/ec/analytics/設定廣告分析報表/index.html",
-    "site/ec/analytics/設定廣告分析報表",
     "docs/ec/analytics/設定廣告分析報表.md",
-    "site/ec/analytics/廣告分析報表/index.html",
-    "site/ec/analytics/廣告分析報表",
     "docs/ec/analytics/廣告分析報表.md",
-    "bases/GOD.base",
-    "docs/ec/integrations/meta/設定 Facebook 快速登入.md~",
     "docs/ec/integrations/meta/mbe/設定 MBE 帳號授權與資產連結.md",
     "docs/ec/integrations/meta/mbe/Facebook (Meta) 商業擴充套件：帳號授權與資產連結.md",
     "docs/ec/integrations/meta/mbe/Facebook Meta 商業擴充套件-帳號授權與資產連結.md",
@@ -345,11 +351,6 @@
     "docs/ec/integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品.md",
     "docs/ec/integrations/google/使用 Google 安全瀏覽工具檢查並排除網站安全性風險.md",
     "docs/ec/integrations/google/使用 UTM 參數追蹤行銷流量與分析成效.md",
-    "docs/ec/integrations/google/設定 Google Ads 強化轉換.md",
-    "docs/ec/website-management/使用 Authy 啟用二階段驗證設定.md",
-    "docs/ec/integrations/google/ga/設定 GA4 站內搜尋追蹤.md",
-    "docs/ec/integrations/google/設定 Google Ads 轉換追蹤.md",
-    "docs/ec/integrations/google/test.md",
-    "docs/ec/integrations/google/從 Google 搜尋結果移除特定網頁或子目錄.md"
+    "docs/ec/integrations/google/設定 Google Ads 強化轉換.md"
   ]
 }

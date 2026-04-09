@@ -20,8 +20,15 @@ sites:
 audiences:
   - admin
 difficulty: ""
-tnb: ""
+tnb: trunk
 plans:
+  - 專業
+  - 進階
+  - 高手
+  - 專業 PLUS 
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 cyb_extensions: []
 intents: []
 features: []
@@ -36,7 +43,9 @@ devices:
 ui_components: []
 paths: []
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=2870
+  - https://www.cyberbiz.io/support/?p=11341
 permalink: ""
 comments: ""
 search:
@@ -51,16 +60,24 @@ hide:
 
 ![第三方整合 FBE 設定](../../../../assets/images/ec-第三方整合-fbe.png){ .hero-page }
 
-## Meta Business Extension 說明
+## Facebook Business Extension 說明
+
+「**Facebook 商業擴充套件**」（Meta Business Extension，簡稱 MBE）是一項能協助商家快速將 Facebook 粉絲專頁、目錄、廣告帳號、像素 (Pixel) 等資產連結至官網後台的功能，並能同步商品列表至 Facebook 目錄。
+
+新版商業擴充套件可以一次串接：
+- Conversions API
+- Facebook 像素（Pixel）
+- 商品目錄
+- 開通 IG Shopping
+- Facebook 粉絲專頁
 
 !!! info "MBE 前身為 FBE (Facebook 商業擴充)"
-    **Meta Business Extension (MBE)** 前稱為 **Facebook Business Extension (FBE)**，功能相同，只是因應 Meta 公司品牌名稱更新而重新命名。
-
-「**Facebook 商業擴充套件**」是一項能協助商家快速將 Facebook 粉絲專頁、目錄、廣告帳號、像素 (Pixel) 等資產連結至官網後台的功能，並能同步商品列表至 Facebook 目錄。
+    **Meta Business Extension (MBE)** 前稱為 **Facebook Business Extension (FBE)**，功能相同，只是因應 Meta 公司品牌名稱更新而重新命名。詳細資訊請參閱 [Meta 官方說明 :lucide-external-link:](https://www.facebook.com/business/help/2337098675080695)。
 
 ## 設定路徑
 
-登入 CYBERBIZ 管理後台，點選「**第三方整合**」>「**臉書 Facebook 設定（廣告/註冊登入）**」。在頁面下方找到「Facebook 新版商業擴充套件」區塊，點擊「**開始設定**」啟動流程。
+1. 登入 CYBERBIZ 管理後台，點選「**第三方整合**」>「**臉書 Facebook 設定（廣告/註冊登入）**」。
+2. 在頁面下方找到「Facebook 新版商業擴充套件」區塊，點擊「**開始設定**」啟動流程。
 
 ## 操作步驟教學
 

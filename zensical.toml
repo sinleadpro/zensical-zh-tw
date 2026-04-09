@@ -54,7 +54,7 @@ copyright = """
         ]},
         { "分析報表" = [
             {"overview" = "ec/analytics/index.md"},
-            {"廣告分析" = "ec/analytics/設定廣告分析.md"}
+            {"廣告分析" = "ec/analytics/廣告分析指南.md"}
         ]},
         { "訂單" = [
             { "orders" = "ec/orders/index.md" },
@@ -268,7 +268,7 @@ copyright = """
             {"Facebook" = [
                 {"overview" = "ec/integrations/meta/index.md"},
                 {"Facebook 快速登入" = "ec/integrations/meta/設定 Facebook 快速登入.md"},
-                {"Meta/FB 商業擴充" = [
+                {"Facebook 商業擴充" = [
                     {"overview" = "ec/integrations/meta/mbe/index.md"},
                     {"帳號授權與資產連結" = "ec/integrations/meta/mbe/設定 MBE 帳號授權與資產連結.md"}
                 ]},

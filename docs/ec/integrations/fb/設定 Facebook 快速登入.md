@@ -1,17 +1,17 @@
 ---
 title: 設定 Facebook 快速登入
-description: ""
+description: 設定 Facebook 快速登入功能，讓消費者能使用 Facebook 帳戶一鍵註冊或登入會員，並自動抓取 Facebook 綁定的信箱作為帳號。
 created: 2026-03-31 11:23
-last_modified: 2026-04-08 16:35
+last_modified: 2026-04-09 10:30
 lang: zh-TW
 type: tutorial
 status: ""
-author: Jase
 version: ""
+author: Jase
 reviewers: []
 notes: []
-ga_views:
-feedback:
+ga_views: 0
+feedback: 0
 products:
   - EC
 modules:
@@ -31,26 +31,45 @@ plans:
   - 高手 PLUS
   - 企業
 cyb_extensions: []
-intents: []
-features: []
+intents:
+  - 設定_Facebook_快速登入
+  - 建立_Meta_應用程式
+  - 完成商家驗證
+features:
+  - Facebook_快速登入
+  - Meta_應用程式
+  - 商家驗證
+  - 應用程式審查
+  - OAuth_重新導向
 prerequisites: []
-related: []
-tags: []
+related:
+  - "[[設定 LINE 快速登入]]"
+  - "[[設定 Google 快速登入]]"
+tags:
+  - Facebook_快速登入
+  - Meta
+  - 第三方整合
+  - 會員登入
 acoiv: ""
 apis: []
 devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
+paths:
+  - 第三方整合 > 臉書 Facebook 設定 (廣告/註冊登入)
 layouts: []
-wp_url: []
+wp_url: 
+  - https://www.cyberbiz.io/helpcenter/?p=776
+  - https://www.cyberbiz.io/helpcenter/?p=4420
+  - https://www.cyberbiz.io/support/?p=507
+  - https://www.cyberbiz.io/support/?p=26854
 permalink: ""
-comments: ""
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/log-in
-hide:
+hide: []
 ---
 
 { .subtitle }
@@ -122,7 +141,7 @@ hide:
 
 3. 進入「權限和功能」頁籤，點擊 `email` 和 `public_profile` 旁邊的「新增」按鈕以建立相關權限。
 
-    ![權限和功能](../../../assets/images/ec-第三方整合-fb-權限和功能.png){ .screenshot }
+    ![權限和功能](../../../assets/images/ec-第三方整合-fb應用程式-權限和功能.png){ .screenshot }
 
 4. 切換到「設定」頁籤，設定有效的 OAuth 重新導向 URL，其他設定可使用預設值。
 
@@ -137,7 +156,7 @@ hide:
 
     !!! warning "網址輸入完成後（請按 ++enter++ ），請確認該網址是否已自動轉換為 **藍色方塊標籤** 格式。若未轉換，該網址將無法生效。"
 
-    ![設定 OAuth URL](../../../assets/images/ec-第三方整合-fb-oauth設定.png){ .screenshot }
+    ![設定 OAuth URL](../../../assets/images/ec-第三方整合-fb應用程式-oauth設定.png){ .screenshot }
 
 5. 點擊 **儲存** 以套用變更。
 
@@ -157,7 +176,7 @@ hide:
 !!! warning "檢查必要資訊"
     若有缺少必要資訊，目前不符合提交資格的提示訊息中會顯示缺少資訊，請確認皆已符合。
 
-![基本資料設定](../../../assets/images/ec-第三方整合-fb-基本資料.png){ .screenshot }
+![基本資料設定](../../../assets/images/ec-第三方整合-fb應用程式-基本資料.png){ .screenshot }
 
 ---
 
@@ -210,76 +229,55 @@ hide:
 #### 串接資料至 CYBERBIZ
 
 1. 在「基本資料」頁面取得「**應用程式編號**」（App ID）與「**應用程式密鑰**」（App Secret，點擊「顯示」查看）。
+
+    ![Meta 應用程式 ID 跟 Secret](../../../assets/images/ec-第三方整合-fb應用程式-appid-appsecret.png)
+
 2. 回到 CYBERBIZ 後台「第三方整合」>「臉書 Facebook 設定 (廣告/註冊登入)」。
-3. 將兩組編號貼入對應欄位並點擊「儲存設定」。
+3. 將兩組編號貼入對應欄位並開啟 Facebook 登入功能。
 
-![CYBERBIZ 後台設定](../../../assets/images/ec-第三方整合-fb-快速登入-後台設定.png){ .screenshot }
+    ![CYBERBIZ 後台設定](../../../assets/images/ec-第三方整合-fb-快速登入-後台設定.png){ .screenshot }
 
-!!! info "應用程式編號與密鑰位置"
-   - **應用程式編號 (App ID)**：位於應用程式儀表板頂部或「設定」>「基本資料」
-   - **應用程式密鑰 (App Secret)**：位於「設定」>「基本資料」> 點擊「顯示」
-
----
-
-## （舊版）使用自訂圖示（舊版介面）
-
-此方法需透過 **Meta for Developers** 建立應用程式，適合希望自訂登入圖示與蒐集更完整受眾資訊的商家。
-
-1.  **建立應用程式：**
-    *   前往 [Meta for Developers :lucide-external-link:](https://developers.facebook.com/apps)，使用您的個人 Facebook 帳號登入或建立新帳戶，點擊「建立應用程式」。
-    *   選擇應用程式類型為「**消費者**」。
-2.  **設定 Facebook 登入產品：**
-    *   在應用程式內新增「Facebook 登入」產品，並選擇「**www 網站**」。
-    *   輸入商店首頁網址（需為 https）並儲存。
-3.  **填寫應用程式基本資料：**
-    *   **顯示名稱：** 顧客登入時看到的店家名稱。
-    *   **隱私政策與服務條款：** 需填入官網對應的頁面網址。
-    *   **用戶資料刪除：** 選擇「資料刪除指示網址」，通常填入隱私權政策網頁。
-    *   **應用程式圖示：** 上傳商店 Logo（建議 1024x1024 像素）。
-4.  **設定有效的 OAuth 重新導向 URL：**
-    *   在「Facebook 登入」的設定中，找到「有效的 OAuth 重新導向 URL」欄位。
-    *   填入：`https://你的網址/customer/auth/facebook/callback`。
-5.  **取得進階權限與驗證：**
-    *   至「應用程式審查」>「權限和功能」，確保 `email` 和 `public_profile` 已取得授權。
-    *   **商家驗證：** 自 2023 年 2 月起，若需進階層級存取權限，必須完成臉書的商家驗證。
-6.  **串接資料至 CYBERBIZ：**
-    *   複製應用程式的「**應用程式編號**」與「**應用程式密鑰**」。
-    *   回到 CYBERBIZ 後台的 Facebook 設定頁面，將兩組編號貼入對應欄位並儲存。
-
-
-## 後續操作
-
-<div class="grid cards" markdown>
-
-- :lucide-import:{ .lg }
-  [____]()
-  。
-
-- :lucide-ban:{ .lg }
-  [____]()
-  。
-
-</div>
+4. 點擊「儲存設定」已套用變更。
 
 ## 常見異常解決辦法
 
-1.  **應用程式不支援登入：** 通常與 FB 應用程式審核或 API 版本過舊有關。建議至 Facebook for Developers 查看是否有警示訊息或「年度資料檢查」未執行。
-2.  **無法取得信箱權限：** 需確認應用程式的 `email` 權限是否設定為「Advanced Access」級別。
-3.  **FB 登入功能停用：** 由於 Facebook 不再支援 Android 內嵌瀏覽器的登入驗證，若顧客遇到此問題，請引導其**下載並使用 Facebook APP** 開啟登入。
+### 檢查應用程式狀態
 
-您是否需要我進一步說明，如何透過「Facebook 商業擴充套件」來設定 Facebook 像素 (Pixel) 以追蹤廣告轉換成效？
+因 Facebook 不定期的進行應用程式審核及更新，建議商家可以定期至 Meta for Developers 應用程式頁面做檢查設定：
+
+1. **查看警示訊息**：檢查網頁上方有無警示訊息
+2. **檢查收件夾**：點選左側「通知收件匣」檢查是否有需要更新的設定，可自行照網頁提示操作步驟完成設定
+
+    ![Meta 應用程式通知](../../../assets/images/ec-第三方整合-fb應用程式-收件匣.png)
+
+3. **常見錯誤處理**：
+      - **「年度資料檢查」未執行而被停用**：請依照提示完成設定
+      - **「違反政策」**：可以點擊「提交申訴」按鈕，請 Facebook 重新審查，並按照提示完成設定
+4. **檢查 API 版本**：至「應用程式設定」>「進階」>檢查 API 版本是否過舊
+
+    ![Meta 應用程式-API版本](../../../assets/images/ec-第三方整合-fb應用程式-進階設定-API版本.png)
+
+---
+
+### 無法取得信箱權限
+
+需確認應用程式的 `email` 權限是否設定為「Advanced Access」級別。
 
 ## 常見問題
 
 ??? quote "為什麼會出現「此應用程式目前不支援 Facebook 登入」的錯誤？"
 
-    通常與 FB 應用程式審核或 API 版本過舊有關。建議至 Facebook for Developers 查看是否有警示訊息或「年度資料檢查」未執行。
+    通常與 FB 應用程式審核或 API 版本過舊有關。建議至 Meta for Developers 查看是否有警示訊息或「年度資料檢查」未執行。詳細檢查步驟請參閱「常見異常解決辦法」中的「[檢查應用程式狀態](#檢查應用程式狀態)」說明。
 
 ??? quote "無法取得顧客的 Email 信箱該怎麼辦？"
 
     需確認應用程式的 `email` 權限是否設定為「Advanced Access」級別。
 
-??? quote "為什麼在 Android 內嵌瀏覽器中無法使用 Facebook 登入？"
+??? quote "登入功能已停用？"
 
-    由於 Facebook 不再支援 Android 內嵌瀏覽器的登入驗證，若顧客遇到此問題，請引導其**下載並使用 Facebook APP** 開啟登入。
+    顧客在手機瀏覽器中嘗試登入時，可能會看到以下錯誤訊息：
+
+    - **錯誤訊息：**「登入功能已停用。為保護你的帳號安全，從內嵌瀏覽器登入 Facebook 的功能已停用。若要繼續，請在你的裝置下載並登入 Facebook 應用程式，然後再試一次。」
+
+    - **解決方式：** 由於 Facebook 不再支援 Android 內嵌瀏覽器的登入驗證，若顧客遇到此問題，請引導其 **下載並使用 Facebook APP** 開啟登入。詳情請見[官方說明 :lucide-external-link:](https://developers.facebook.com/blog/post/2021/06/28/deprecating-support-fb-login-authentication-android-embedded-browsers/?locale=zh_TW)。
 
