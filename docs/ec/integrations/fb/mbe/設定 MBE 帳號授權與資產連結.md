@@ -62,27 +62,31 @@ hide:
 
 ## Facebook Business Extension 說明
 
-「**Facebook 商業擴充套件**」（Meta Business Extension，簡稱 MBE）是一項能協助商家快速將 Facebook 粉絲專頁、目錄、廣告帳號、像素 (Pixel) 等資產連結至官網後台的功能，並能同步商品列表至 Facebook 目錄。
+「**Facebook 商業擴充套件**」可一次串接 **Conversions API**、**Facebook 像素（Pixel）**、**商品目錄**、**Instagram Shopping** 及 **Facebook 粉絲專頁** 等資產，讓商家能快速將這些資產連結至官網後台，並在一站式管理廣告追蹤、受眾建立與商品推廣。
 
-新版商業擴充套件可以一次串接：
-- Conversions API
-- Facebook 像素（Pixel）
-- 商品目錄
-- 開通 IG Shopping
-- Facebook 粉絲專頁
-
-!!! info "MBE 前身為 FBE (Facebook 商業擴充)"
-    **Meta Business Extension (MBE)** 前稱為 **Facebook Business Extension (FBE)**，功能相同，只是因應 Meta 公司品牌名稱更新而重新命名。詳細資訊請參閱 [Meta 官方說明 :lucide-external-link:](https://www.facebook.com/business/help/2337098675080695)。
+!!! info "FBE 已更名為 MBE"
+    **Facebook Business Extension (FBE)** 已更名為 **Meta Business Extension (MBE)**，功能不變，只是因應 Meta 公司品牌名稱更新而重新命名。
 
 ## 設定路徑
 
 1. 登入 CYBERBIZ 管理後台，點選「**第三方整合**」>「**臉書 Facebook 設定（廣告/註冊登入）**」。
 2. 在頁面下方找到「Facebook 新版商業擴充套件」區塊，點擊「**開始設定**」啟動流程。
 
+![FBE 開始設定](../../../../assets/images/ec-第三方整合-fb-fbe-開始設定.png)
+
 ## 操作步驟教學
 
-1.  **登入 Facebook 帳號：** 瀏覽器若未登入，系統會要求您登入。請確保登入的帳號具備該 **Facebook 商家資產管理組合 (Business Manager, BM)** 相關資產的設定權限。
+1.  **登入 Facebook 帳號：** 瀏覽器若未登入，系統會要求您登入。請確保登入的帳號具備該 **Facebook [商家資產管理組合 :lucide-external-link:](https://www.facebook.com/business/help/486932075688253) (Business Manager, BM)** 相關資產的設定權限。
+
+    ![FBE 登入帳號](../../../../assets/images/ec-第三方整合-fbe-登入fb帳號.png)
+
+    !!! info "確認瀏覽器是否阻擋彈窗"
+        若授權頁面未正常跳出，請確認瀏覽器是否已解除 「彈出視窗攔截」。設定教學：[Chrome 允許特定網站彈出視窗 :lucide-external-link:](https://support.google.com/chrome/answer/95472)
+
 2.  **同意授權：** 點選授權以允許 CYBERBIZ 協助將電商官網資料與 Facebook 資料進行連結，這不會影響您原本 BM 的日常操作。
+
+    ![FBE 同意授權](../../../../assets/images/ec-第三方整合-fbe-同意授權.png)
+
 3.  **連結企業資產：** 選擇要串接的粉絲專頁、目錄、廣告帳號及像素 (Pixel)。
     *   **重要提醒：** 您選取的資產擁有權必須屬於該商家資產管理組合，否則無法正確選取。
     *   您也可以在此步驟直接建立新的資產。
