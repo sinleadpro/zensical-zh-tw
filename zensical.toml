@@ -52,7 +52,10 @@ copyright = """
         { "開始使用" = [
             { "文字編輯器使用教學" = "ec/get-started/文字編輯器使用教學.md" }
         ]},
-        { "分析報表" = "ec/analytics/index.md" },
+        { "分析報表" = [
+            {"overview" = "ec/analytics/index.md"},
+            {"廣告分析" = "ec/analytics/設定廣告分析.md"}
+        ]},
         { "訂單" = [
             { "orders" = "ec/orders/index.md" },
             { "開啟會員退貨申請功能" = "ec/orders/開啟會員退貨申請功能.md"},
