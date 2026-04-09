@@ -65,7 +65,7 @@
 *[UTM]: Urchin Tracking Module, 網址參數追蹤標籤。這是在 URL 末端附加的簡單代碼，用於追蹤使用者進入網站的具體路徑與來源。
 *[WMS]: Warehouse Management System, used to manage, control, and optimize warehousing operations, covering inbound, outbound, inventory management, order picking, distribution, and report analysis processes. Through automation and data-driven operations, WMS improves warehousing efficiency, reduces error rates, and supports logistics and supply chain collaboration.
 *[POS]: Point of Sale，門市進行交易時所使用的銷售作業系統，用於完成商品結帳、付款、開立收據，並同步記錄銷售資料、庫存變化與營收資訊。
-*[MBE]: Meta Business Extension，前稱為 FBE (Facebook Business Extension)。
+*[MBE]: Meta Business Extension，前稱為 FBE (Facebook Business Extension)。可一次串接 Conversions API、Facebook 像素（Pixel）、商品目錄、Instagram Shopping 及 Facebook 粉絲專頁等資產。
 *[FBE]: Facebook Business Extension，Meta Business Extension (MBE) 的舊稱。
 *[GA]: Google Analytics，由 Google 提供的網站流量分析工具，用於追蹤與分析使用者在網站上的行為與互動情況。
 *[GA4]: Google Analytics 4，Google Analytics 的最新版本。以事件為基礎的分析模型，可追蹤使用者與網站的互動行為，並提供更強大的跨平台分析能力與隱私保護功能。
