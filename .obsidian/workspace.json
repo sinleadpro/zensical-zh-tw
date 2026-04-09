@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=776,https://www.cyberbiz.io/helpcenter/?p=4420",
-                "title": "cyberbiz.io/helpcenter/?p=776,https://www.cyberbiz.io/helpcenter/?p=4420",
-                "mode": "error"
+                "url": "https://www.cyberbiz.io/helpcenter/?p=8203",
+                "title": "自動化廣告系統 - CYBERBIZ 一般版教學文件",
+                "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "cyberbiz.io/helpcenter/?p=776,https://www.cyberbiz.io/helpcenter/?p=4420"
+              "title": "自動化廣告系統 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=507,https://www.cyberbiz.io/support/?p=26854",
-                "title": "Facebook 登入教學",
+                "url": "https://www.cyberbiz.io/support/?p=34930",
+                "title": "自動化廣告系統",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Facebook 登入教學"
+              "title": "自動化廣告系統"
             }
           }
         ]
@@ -173,7 +173,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 287.5,
+    "collapsed": true
   },
   "right": {
     "id": "973606ff262c9293",
@@ -303,29 +304,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "54e462a14a5a6adb",
+  "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/assets/images/ec-第三方整合-fb-oauth設定.png",
-    "docs/assets/images/ec-第三方整合-fb-oauth設定.png",
-    "site/assets/images/ec-第三方整合-mbe-建立fb登入應用程式.gif",
-    "docs/assets/images/ec-第三方整合-mbe-建立fb登入應用程式.gif",
-    "site/assets/images/frame-5.png",
-    "docs/assets/images/frame-5.png",
-    "site/assets/images/frame-4.png",
-    "site/assets/images/frame-3.png",
-    "docs/assets/images/frame-4.png",
-    "docs/assets/images/frame-3.png",
-    "site/assets/images/frame-2.png",
+    "site/ec/analytics/設定廣告分析報表/index.html",
+    "site/ec/analytics/設定廣告分析報表",
+    "docs/ec/analytics/設定廣告分析報表.md",
+    "site/ec/analytics/廣告分析報表/index.html",
+    "site/ec/analytics/廣告分析報表",
+    "docs/ec/analytics/廣告分析報表.md",
+    "bases/GOD.base",
+    "site/assets/images/ec-第三方整合-fb-商家驗證-驗證商家資產管理組合.png",
+    "docs/assets/images/ec-第三方整合-fb-商家驗證-驗證商家資產管理組合.png",
+    "site/assets/images/ec-第三方整合-fb-商家驗證-連結商家資產管理組合.png",
+    "docs/assets/images/ec-第三方整合-fb-商家驗證-連結商家資產管理組合.png",
+    "site/assets/images/ec-第三方整合-fb-商家驗證-建立商家資產管理組合.png",
+    "docs/assets/images/ec-第三方整合-fb-商家驗證-建立商家資產管理組合.png",
+    "site/assets/images/ec-第三方整合-fb-商家驗證-商家資產管理組合連結.gif",
+    "docs/assets/images/ec-第三方整合-fb-商家驗證-商家資產管理組合連結.gif",
+    "site/assets/images/ec-第三方整合-fb-商家驗證-商家資產管理組合.gif",
+    "docs/assets/images/ec-第三方整合-fb-商家驗證-商家資產管理組合.gif",
+    "docs/ec/integrations/meta/設定 Facebook 快速登入.md~",
     "site/ec/payments-and-logistics/設定信用卡 3D 驗證門檻/index.html",
     "site/ec/payments-and-logistics/設定信用卡 3D 驗證門檻",
     "site/ec/products/新增與設定組合商品/index.html",
     "site/ec/products/新增與設定組合商品",
     "site/resources/changelog/index.html",
-    "site/resources/changelog",
-    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流/index.html",
-    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流",
-    "site/ec/payments-and-logistics/設定街口支付/index.html",
-    "site/ec/payments-and-logistics/設定街口支付",
     "docs/ec/integrations/meta/mbe/設定 MBE 帳號授權與資產連結.md",
     "docs/ec/integrations/meta/mbe/Facebook (Meta) 商業擴充套件：帳號授權與資產連結.md",
     "docs/ec/integrations/meta/mbe/Facebook Meta 商業擴充套件-帳號授權與資產連結.md",
@@ -348,8 +351,6 @@
     "docs/ec/integrations/google/設定 Google Ads 轉換追蹤.md",
     "docs/ec/integrations/google/test.md",
     "docs/ec/integrations/google/從 Google 搜尋結果移除特定網頁或子目錄.md",
-    "docs/ec/integrations/google/\n從 Google 搜尋結果移除特定網頁或子目錄.md",
-    "docs/ec/website-management/seo/設定 301 重定向網站轉址.md",
-    "docs/ec/website-management/seo/將 Sitemap 提交至 Google Search Console.md"
+    "docs/ec/integrations/google/\n從 Google 搜尋結果移除特定網頁或子目錄.md"
   ]
 }
