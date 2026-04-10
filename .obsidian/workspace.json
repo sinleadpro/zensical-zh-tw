@@ -306,17 +306,18 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/ec/index.html",
-    "site/ec/payments-and-logistics/設定 LINE Pay/index.html",
-    "site/ec/payments-and-logistics/設定 LINE Pay",
-    "site/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）/index.html",
-    "site/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）",
-    "site/ec/products/shipping",
-    "site/resources/index.html",
-    "site/ec/website-appearance/使用文字編輯器編輯內容/index.html",
-    "site/ec/website-appearance/使用文字編輯器編輯內容",
-    "site/ec/website-appearance/設定網站標題與 SEO/index.html",
-    "site/ec/website-appearance/設定網站標題與 SEO",
+    "zensical.toml~",
+    "site/ec/integrations/fb/mbe/設定 Facebook 網域驗證與事件追蹤/index.html",
+    "site/ec/integrations/fb/mbe/設定 Facebook 網域驗證與事件追蹤",
+    "docs/ec/integrations/fb/mbe/設定 Facebook 網域驗證與事件追蹤.md",
+    "site/resources/glossary/index.html",
+    "site/resources/glossary",
+    "site/ec/products/設定超商配送限制與物流排除/index.html",
+    "site/ec/products/設定超商配送限制與物流排除",
+    "site/ec/products/批次修改商品描述與配送設定/index.html",
+    "site/ec/products/批次修改商品描述與配送設定",
+    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款/index.html",
+    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款",
     "docs/ec/integrations/fb/mbe/設定 FBE 帳號授權與資產連結.md",
     "site/assets/images/ec-第三方整合-fbe-已建立連結.png",
     "docs/assets/images/ec-第三方整合-fbe-已建立連結.png",
@@ -350,7 +351,6 @@
     "templates/grid-complex-guide.md",
     "templates/callout-abstract-form.md",
     "docs/ec/integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品.md",
-    "docs/ec/integrations/google/使用 Google 安全瀏覽工具檢查並排除網站安全性風險.md",
-    "docs/ec/integrations/google/使用 UTM 參數追蹤行銷流量與分析成效.md"
+    "docs/ec/integrations/google/使用 Google 安全瀏覽工具檢查並排除網站安全性風險.md"
   ]
 }
