@@ -1,8 +1,8 @@
 ---
 title: 設定 FBE 帳號授權與資產連結
-description: 說明如何透過 Facebook 商業擴充套件 (FBE) 將像素、粉絲專頁、目錄及廣告帳號等資產連結至 CYBERBIZ 後台，並提供權限設定與常見問題解答。
+description: 透過 Facebook 商業擴充套件將像素、粉絲專頁、目錄及廣告帳號等資產連結至 CYBERBIZ 後台。
 created: 2026-04-07 23:59
-last_modified: 2026-04-10 15:15
+last_modified: 2026-04-10 15:20
 lang: zh-TW
 type: tutorial
 status: ""
@@ -39,7 +39,8 @@ features:
   - FBE_設定
   - 像素_Pixel
 prerequisites: []
-related: []
+related: 
+  - "[[設定 Facebook 網域驗證與事件追蹤]]"
 tags:
   - Facebook_整合
   - FBE
@@ -68,9 +69,8 @@ icon: lucide/share-2
 hide:
 ---
 
+透過 Facebook 商業擴充套件將像素、粉絲專頁、目錄及廣告帳號等資產連結至 CYBERBIZ 後台。
 { .subtitle }
-
-{ .doc-badge }
 
 ![第三方整合 FBE 設定](../../../../assets/images/ec-第三方整合-fbe.png){ .hero-page }
 
@@ -87,7 +87,7 @@ hide:
 
 ## 操作步驟教學
 
-!!! success "權限檢查"
+!!! tip "權限檢查"
 
     - 在開始設定前，建議先確認您目前的[企業管理平台狀態](#企業管理平台與廣告帳號){ data-preview }。
     - 若在設定過程中遇到權限問題，請確認您的帳號是否為該資產的擁有者或具備足夠管理權限。
@@ -96,7 +96,7 @@ hide:
 
     ![FBE-登入帳號](../../../../assets/images/ec-第三方整合-fbe-登入fb帳號.png)
 
-    !!! tip "確認瀏覽器是否阻擋彈窗"
+    !!! warning "確認瀏覽器是否阻擋彈窗"
         若頁面未正常跳轉，請確認瀏覽器是否已解除 「彈出視窗攔截」。設定教學：[Chrome 允許特定網站彈出視窗 :lucide-external-link:](https://support.google.com/chrome/answer/95472)
 
 2.  **同意授權：** 點選授權以允許 CYBERBIZ 協助將電商官網資料與 Facebook 資料進行連結，這不會影響您原本的日常操作。
@@ -183,7 +183,7 @@ Facebook 的資產管理採用 **階層關係**：
 *   **自動進階配對（建議開啟）：** 無須編寫程式碼，可直接在「事件管理工具」中開啟，協助更精準地追蹤受眾。
 *   **手動進階配對：** 需由開發人員修改像素基底程式碼，透過參數傳送網站訪客的資料。
 
-更多資訊，請參考[官方說明 :lucide-external-link:](https://www.facebook.com/business/help/611774685654668?id=1205376682832142)。
+進一步瞭解 [網站進階配對 :lucide-external-link:](https://www.facebook.com/business/help/611774685654668?id=1205376682832142)。
 <!--
 *   **轉換 API (CAPI)：** 設定完成後，系統會開始自動傳送伺服器端 (Server to Server) 的像素事件，您可至 [Meta 事件管理工具 :lucide-external-link:](https://eventsmanager.facebook.com/)查看連結方式是否出現「伺服器」。
 -->
@@ -192,13 +192,9 @@ Facebook 的資產管理採用 **階層關係**：
 
 <div class="grid cards" markdown>
 
-- :lucide-import:{ .lg }
-  [____]()
-  。
-
-- :lucide-ban:{ .lg }
-  [____]()
-  。
+- :lucide-shield:{ .lg }   
+  [__FB 網域驗證與事件設定__](設定 Facebook 網域驗證與事件追蹤.md){ data-preview }       
+  完成 FBE 資產連結後，需進行網域驗證才能設定事件追蹤，確保廣告轉換數據準確。
 
 </div>
 

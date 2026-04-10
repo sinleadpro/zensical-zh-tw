@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=3221",
-                "title": "FACEBOOK 商業擴充套件－Step.1-2 權限說明 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=3228",
+                "title": "FACEBOOK 商業擴充套件－Step.2 網域驗證與事件設定 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "FACEBOOK 商業擴充套件－Step.1-2 權限說明 - CYBERBIZ 一般版教學文件"
+              "title": "FACEBOOK 商業擴充套件－Step.2 網域驗證與事件設定 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=13747",
-                "title": "FACEBOOK 商業擴充套件－Step.1-2 權限說明",
+                "url": "https://www.cyberbiz.io/support/?p=13973",
+                "title": "FACEBOOK 商業擴充套件－Step.2 網域驗證與事件設定",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "FACEBOOK 商業擴充套件－Step.1-2 權限說明"
+              "title": "FACEBOOK 商業擴充套件－Step.2 網域驗證與事件設定"
             }
           }
         ]
@@ -304,20 +304,25 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70ccdcc682095e33",
+  "active": "2c27b3aecd22969c",
   "lastOpenFiles": [
-    "zensical.toml~",
-    "site/ec/integrations/fb/mbe/設定 Facebook 網域驗證與事件追蹤/index.html",
-    "site/ec/integrations/fb/mbe/設定 Facebook 網域驗證與事件追蹤",
+    "site/ec/integrations/fb/mbe/設定 FBE 網域驗證與事件追蹤/index.html",
+    "site/ec/integrations/fb/mbe/設定 FBE 網域驗證與事件追蹤",
+    "docs/ec/integrations/fb/mbe/設定 FBE 網域驗證與事件追蹤.md",
+    "site/ec/payments-and-logistics/設定超商大宗寄倉 B2C/index.html",
+    "site/ec/payments-and-logistics/設定超商大宗寄倉 B2C",
+    "site/ec/integrations/index.html",
+    "site/ec/products/排除商品上傳至第三方平台/index.html",
+    "site/ec/products/排除商品上傳至第三方平台",
+    "site/ec/products/設定商品搜尋可見性/index.html",
+    "site/ec/products/設定商品搜尋可見性",
+    "site/ec/payments-and-logistics/設定 AFTEE/index.html",
+    "site/ec/payments-and-logistics/設定 AFTEE",
+    "site/assets/images/ec-第三方整合-meta企業管理平台-dnd-txt紀錄.png",
+    "docs/assets/images/ec-第三方整合-meta企業管理平台-dnd-txt紀錄.png",
+    "site/assets/images/ec-第三方整合-meta企業管理平台-新增網域.gif",
+    "docs/assets/images/ec-第三方整合-meta企業管理平台-新增網域.gif",
     "docs/ec/integrations/fb/mbe/設定 Facebook 網域驗證與事件追蹤.md",
-    "site/resources/glossary/index.html",
-    "site/resources/glossary",
-    "site/ec/products/設定超商配送限制與物流排除/index.html",
-    "site/ec/products/設定超商配送限制與物流排除",
-    "site/ec/products/批次修改商品描述與配送設定/index.html",
-    "site/ec/products/批次修改商品描述與配送設定",
-    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款/index.html",
-    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款",
     "docs/ec/integrations/fb/mbe/設定 FBE 帳號授權與資產連結.md",
     "site/assets/images/ec-第三方整合-fbe-已建立連結.png",
     "docs/assets/images/ec-第三方整合-fbe-已建立連結.png",
@@ -325,10 +330,6 @@
     "docs/assets/images/ec-第三方整合-fbe-確認獲得權限.png",
     "site/assets/images/ec-第三方整合-fbe-完成連結.png",
     "docs/assets/images/ec-第三方整合-fbe-完成連結.png",
-    "site/assets/images/ec-第三方整合-fbe-建立新資產.png",
-    "docs/assets/images/ec-第三方整合-fbe-建立新資產.png",
-    "site/assets/images/ec-第三方整合-fbe-連結資產.png",
-    "docs/assets/images/ec-第三方整合-fbe-連結資產.png",
     "docs/ec/integrations/fb/mbe/設定 MBE 帳號授權與資產連結.md",
     "docs/ec/integrations/fb/mbe/index.md",
     "docs/ec/integrations/fb/設定 Facebook 快速登入.md",
@@ -350,7 +351,6 @@
     "docops/manifest.md",
     "templates/grid-complex-guide.md",
     "templates/callout-abstract-form.md",
-    "docs/ec/integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品.md",
-    "docs/ec/integrations/google/使用 Google 安全瀏覽工具檢查並排除網站安全性風險.md"
+    "docs/ec/integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品.md"
   ]
 }
