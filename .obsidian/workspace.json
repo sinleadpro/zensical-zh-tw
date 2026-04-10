@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=2870",
-                "title": "FACEBOOK 商業擴充套件－STEP.1-1 初步設定 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=3221",
+                "title": "FACEBOOK 商業擴充套件－Step.1-2 權限說明 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "FACEBOOK 商業擴充套件－STEP.1-1 初步設定 - CYBERBIZ 一般版教學文件"
+              "title": "FACEBOOK 商業擴充套件－Step.1-2 權限說明 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=11341",
-                "title": "Facebook商業擴充套件－Step.1-1 初步設定",
+                "url": "https://www.cyberbiz.io/support/?p=13747",
+                "title": "FACEBOOK 商業擴充套件－Step.1-2 權限說明",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Facebook商業擴充套件－Step.1-1 初步設定"
+              "title": "FACEBOOK 商業擴充套件－Step.1-2 權限說明"
             }
           }
         ]
@@ -306,31 +306,32 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/assets/images/ec-第三方整合-fbe-同意授權.png",
-    "docs/assets/images/ec-第三方整合-fbe-同意授權.png",
-    "site/ec/integrations/fb/mbe/設定 MBE 帳號授權與資產連結.md~",
-    "docs/ec/integrations/fb/mbe/設定 MBE 帳號授權與資產連結.md~",
-    "site/assets/images/ec-第三方整合-fbe-登入fb帳號.png",
-    "docs/assets/images/ec-第三方整合-fbe-登入fb帳號.png",
-    "site/assets/images/ec-第三方整合-fb-fbe-開始設定.png",
-    "docs/assets/images/ec-第三方整合-fb-fbe-開始設定.png",
-    "site/assets/images/ec-第三方整合-fb-fbe.png",
-    "docs/assets/images/ec-第三方整合-fb-fbe.png",
-    "site/index.html",
-    "site/storepal/index.html",
-    "site/storepal",
-    "site/wms/index.html",
-    "site/wms",
-    "site/resources/faq/使用 Jam 回報問題/index.html",
-    "site/resources/faq/使用 Jam 回報問題",
-    "site/resources/faq/index.html",
+    "site/ec/index.html",
+    "site/ec/payments-and-logistics/設定 LINE Pay/index.html",
+    "site/ec/payments-and-logistics/設定 LINE Pay",
+    "site/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）/index.html",
+    "site/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）",
+    "site/ec/products/shipping",
+    "site/resources/index.html",
+    "site/ec/website-appearance/使用文字編輯器編輯內容/index.html",
+    "site/ec/website-appearance/使用文字編輯器編輯內容",
+    "site/ec/website-appearance/設定網站標題與 SEO/index.html",
+    "site/ec/website-appearance/設定網站標題與 SEO",
+    "docs/ec/integrations/fb/mbe/設定 FBE 帳號授權與資產連結.md",
+    "site/assets/images/ec-第三方整合-fbe-已建立連結.png",
+    "docs/assets/images/ec-第三方整合-fbe-已建立連結.png",
+    "site/assets/images/ec-第三方整合-fbe-確認獲得權限.png",
+    "docs/assets/images/ec-第三方整合-fbe-確認獲得權限.png",
+    "site/assets/images/ec-第三方整合-fbe-完成連結.png",
+    "docs/assets/images/ec-第三方整合-fbe-完成連結.png",
+    "site/assets/images/ec-第三方整合-fbe-建立新資產.png",
+    "docs/assets/images/ec-第三方整合-fbe-建立新資產.png",
+    "site/assets/images/ec-第三方整合-fbe-連結資產.png",
+    "docs/assets/images/ec-第三方整合-fbe-連結資產.png",
     "docs/ec/integrations/fb/mbe/設定 MBE 帳號授權與資產連結.md",
     "docs/ec/integrations/fb/mbe/index.md",
     "docs/ec/integrations/fb/設定 Facebook 快速登入.md",
     "docs/ec/integrations/fb/index.md",
-    "site/assets/images/ec-第三方整合-fb應用程式-進階設定-API版本.png",
-    "docs/assets/images/ec-第三方整合-fb應用程式-進階設定-API版本.png",
-    "site/assets/images/ec-第三方整合-fb應用程式-收件匣.png",
     "docs/ec/analytics/廣告分析指南.md",
     "docs/ec/analytics/設定廣告分析.md",
     "docs/ec/analytics/設定廣告分析報表.md",
@@ -350,7 +351,6 @@
     "templates/callout-abstract-form.md",
     "docs/ec/integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品.md",
     "docs/ec/integrations/google/使用 Google 安全瀏覽工具檢查並排除網站安全性風險.md",
-    "docs/ec/integrations/google/使用 UTM 參數追蹤行銷流量與分析成效.md",
-    "docs/ec/integrations/google/設定 Google Ads 強化轉換.md"
+    "docs/ec/integrations/google/使用 UTM 參數追蹤行銷流量與分析成效.md"
   ]
 }
