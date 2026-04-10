@@ -2,7 +2,7 @@
 title: 設定 FBE 網域驗證與事件追蹤
 description: ""
 created: 2026-04-10 14:50
-last_modified:
+last_modified: 2026-04-10 15:25
 lang: zh-TW
 type: tutorial
 status: ""
@@ -32,7 +32,8 @@ plans:
 cyb_extensions: []
 intents: []
 features: []
-prerequisites: []
+prerequisites:
+  - "[[設定 FBE 帳號授權與資產連結]]"
 related: []
 tags: []
 acoiv: ""
@@ -64,6 +65,10 @@ hide:
 
 **Facebook 網域驗證** 的主要目的是讓使用者在企業管理平台中認領網域所有權，進而控制連結編輯權限、優化廣告投放效果，並避免網站被他人盜用。
 
+## 前置作業
+
+- [x] 需先 [啟用 Facebook 商業擴充功能與相關資產連結](設定 FBE 帳號授權與資產連結.md){ data-preview }。
+
 ## 網域驗證方式選擇
 
 網域驗證主要分為 [**DNS 驗證**](#dns-驗證-建議使用) 與 [**中繼標籤驗證**](#中繼標籤驗證-meta-tag) 兩種方式。
@@ -84,8 +89,8 @@ hide:
 
     === ":simple-gandi: GANDI"
 
-        1. 需先完成 [CNAME 與轉址設定](../../../website-management/網域管理.md#gandi){ data-preview }
-        2. 於「區域檔紀錄」新增一筆 TXT 紀錄，名稱輸入 `@`，內容貼上複製的 TXT 代碼。
+        1. 需先完成 [CNAME 與轉址設定](../../../website-management/網域管理.md#gandi)
+        2. 登入 [Gandi 後台 :lucide-external-link:](https://admin.gandi.net/)，於「區域檔紀錄」新增一筆 TXT 紀錄，名稱輸入 `@`，內容貼上複製的 TXT 代碼。
 
     === ":simple-godaddy: GoDaddy"
         **GoDaddy**：完成 CNAME 與轉址後，進入 DNS 管理新增 TXT 紀錄，主機輸入 `@`，TTL 設為 1 小時。

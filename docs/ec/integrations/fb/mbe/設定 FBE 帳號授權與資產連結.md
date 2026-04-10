@@ -40,7 +40,7 @@ features:
   - 像素_Pixel
 prerequisites: []
 related: 
-  - "[[設定 Facebook 網域驗證與事件追蹤]]"
+  - "[[設定 FBE 網域驗證與事件追蹤]]"
 tags:
   - Facebook_整合
   - FBE
@@ -193,7 +193,7 @@ Facebook 的資產管理採用 **階層關係**：
 <div class="grid cards" markdown>
 
 - :lucide-shield:{ .lg }   
-  [__FB 網域驗證與事件設定__](設定 Facebook 網域驗證與事件追蹤.md){ data-preview }       
+  [__網域驗證與事件設定__](設定 FBE 網域驗證與事件追蹤.md){ data-preview }       
   完成 FBE 資產連結後，需進行網域驗證才能設定事件追蹤，確保廣告轉換數據準確。
 
 </div>
