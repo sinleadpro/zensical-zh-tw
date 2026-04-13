@@ -1,5 +1,5 @@
 ---
-title: 設定 FBE 網域驗證與事件追蹤
+title: 設定 FBE 網域驗證
 description: 在企業管理平台中完成網域驗證。
 created: 2026-04-10 14:50
 last_modified: 2026-04-13 10:00
