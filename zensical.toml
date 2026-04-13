@@ -272,7 +272,8 @@ copyright = """
                     {"overview" = "ec/integrations/fb/mbe/index.md"},
                     {"帳號授權與資產連結" = "ec/integrations/fb/mbe/商業擴充設定-帳號授權與資產連結.md"},
                     {"網域驗證與事件設定" = "ec/integrations/fb/mbe/商業擴充設定-網域驗證與事件追蹤.md"},
-                    {"FB/IG 商店設定與同步" = "ec/integrations/fbe/mbe/商業擴充設定-Facebook 跟 Instagram 商店設定.md"}
+                    {"網域驗證與事件設定" = "ec/integrations/fb/mbe/設定 FBE 網域驗證與事件追蹤.md"},
+                    {"FB/IG 商店設定" = "ec/integrations/fb/mbe/商業擴充設定-Facebook 跟 Instagram 商店設定.md"}
                 ]},
             ]},
             {"Google" = [

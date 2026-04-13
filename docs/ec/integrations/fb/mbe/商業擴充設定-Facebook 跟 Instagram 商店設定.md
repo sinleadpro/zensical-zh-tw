@@ -1,8 +1,8 @@
 ---
 title: 商業擴充設定-Facebook 跟 Instagram 商店設定
-description: ""
+description: 教您如何設定 Facebook 與 Instagram 商店，建立社群銷售管道並同步商品。
 created: 2026-04-13 16:31
-last_modified:
+last_modified: 2026-04-13 09:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -10,38 +10,61 @@ author: Jase
 version: ""
 reviewers: []
 notes: []
-ga_views:
-feedback:
+ga_views: 0
+feedback: 0
 products:
   - EC
-modules: []
+modules:
+  - 第三方整合
 sites:
   - TW
 audiences:
   - admin
-difficulty: ""
-tnb: ""
+difficulty: intermediate
+tnb: trunk
 plans:
+  - 專業
+  - 進階
+  - 高手
+  - 專業 PLUS 
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 cyb_extensions: []
-intents: []
-features: []
-prerequisites: []
+intents:
+  - 設定_FB_商店
+  - 設定_IG_商店
+  - Facebook_Instagram_商店同步
+features:
+  - Facebook_商店
+  - Instagram_商店
+  - 商品同步
+prerequisites:
+  - "[[商業擴充設定-帳號授權與資產連結]]"
+  - "[[商業擴充設定-網域驗證與事件追蹤]]"
 related: []
-acoiv: ""
+tags:
+  - Facebook_商店
+  - Instagram_商店
+  - 商品同步
+  - 商業擴充套件
+  - FBE
+acoiv: configure
 apis: []
 devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
+paths:
+  - "第三方整合 > 臉書_Facebook_設定"
 layouts: []
 wp_url: []
 permalink: ""
-comments: ""
+comments: false
 search:
-  exclude: ""
-icon: ""
-hide:
+  exclude: false
+icon: lucide/store
+hide: []
 ---
 
 { .subtitle }
@@ -96,13 +119,9 @@ Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專
 
 <div class="grid cards" markdown>
 
-- :lucide-import:{ .lg }
-  [____]()
-  。
-
-- :lucide-ban:{ .lg }
-  [____]()
-  。
+- :lucide-shield:{ .lg }   
+  [__網域驗證與事件設定__](商業擴充設定-網域驗證與事件追蹤.md){ data-preview }       
+  完成商店設定前，需先完成網域驗證，才能設定事件追蹤，確保廣告轉換數據準確。
 
 </div>
 
