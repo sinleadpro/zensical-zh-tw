@@ -75,10 +75,14 @@
             "id": "2c27b3aecd22969c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "type": "webviewer",
+              "state": {
+                "url": "https://www.cyberbiz.io/helpcenter/?p=3113",
+                "title": "FACEBOOK 商業擴充套件－Step.3 FB、IG商店設定 - CYBERBIZ 一般版教學文件",
+                "mode": "webview"
+              },
+              "icon": "globe-2",
+              "title": "FACEBOOK 商業擴充套件－Step.3 FB、IG商店設定 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -94,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=13973",
-                "title": "FACEBOOK 商業擴充套件－Step.2 網域驗證與事件設定",
+                "url": "https://www.cyberbiz.io/support/?p=11757",
+                "title": "FACEBOOK 商業擴充套件－Step.3 FB、IG商店設定",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "FACEBOOK 商業擴充套件－Step.2 網域驗證與事件設定"
+              "title": "FACEBOOK 商業擴充套件－Step.3 FB、IG商店設定"
             }
           }
         ]
@@ -299,8 +303,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c27b3aecd22969c",
+  "active": "70ccdcc682095e33",
   "lastOpenFiles": [
+    "site/ec/integrations/fb/mbe/設定 FBE Facebook 跟 Instagram 商店串接/index.html",
+    "site/ec/integrations/fb/mbe/設定 FBE Facebook 跟 Instagram 商店串接",
+    "docs/ec/integrations/fb/mbe/設定 FBE Facebook 跟 Instagram 商店串接.md",
     "site/ec/payments-and-logistics/設定超商店到店 C2C 物流串接/index.html",
     "site/ec/payments-and-logistics/設定超商店到店 C2C 物流串接",
     "site/ec/index.html",
@@ -310,8 +317,6 @@
     "site/wms",
     "site/resources/index.html",
     "site/ec/products/設定商品搜尋可見性/index.html",
-    "site/ec/products/設定商品搜尋可見性",
-    "site/ec/integrations/串接美安通路/index.html",
     "docs/ec/integrations/fb/mbe/商業擴充設定-Facebook 跟 Instagram 商店設定.md",
     "docs/ec/integrations/fb/mbe/設定 FBE Facebook 跟 Instagram 商店.md",
     "docs/ec/integrations/fb/mbe/設定 FBE 帳號授權與資產連結.md",
@@ -345,7 +350,6 @@
     "docs/ec/integrations/meta/index.md",
     "docs/ec/integrations/meta/mbe/index.md",
     "docs/ec/integrations/google/YouTube Shopping 設定指南.md",
-    "docs/ec/integrations/meta/設定 Facebook 快速登入.md",
-    "docs/ec/integrations/串接美安通路.md"
+    "docs/ec/integrations/meta/設定 Facebook 快速登入.md"
   ]
 }
