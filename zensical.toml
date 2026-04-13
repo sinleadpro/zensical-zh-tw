@@ -270,9 +270,9 @@ copyright = """
                 {"Facebook 快速登入" = "ec/integrations/fb/設定 Facebook 快速登入.md"},
                 {"FB 商業擴充" = [
                     {"overview" = "ec/integrations/fb/mbe/index.md"},
-                    {"帳號授權與資產連結" = "ec/integrations/fb/mbe/設定 FBE 帳號授權與資產連結.md"},
+                    {"授權與資產連結" = "ec/integrations/fb/mbe/設定 FBE 帳號授權與資產連結.md"},
                     {"網域驗證" = "ec/integrations/fb/mbe/設定 FBE 網域驗證.md"},
-                    {"FB/IG 商店串接" = "ec/integrations/fb/mbe/設定 Facebook 跟 Instagram 商店串接.md"}
+                    {"FB/IG 商店串接" = "ec/integrations/fb/mbe/設定 Facebook 跟 Instagram 商店.md"}
                 ]},
             ]},
             {"Google" = [
