@@ -72,8 +72,6 @@ hide: []
 在企業管理平台中完成網域驗證。
 { .subtitle }
 
-{ .doc-badge }
-
 ![企業管理平台-網域驗證](../../../../assets/images/ec-第三方整合-meta商家資產管理平台-驗證網域.png){ .hero-page }
 
 ## Facebook 網域驗證說明
@@ -162,7 +160,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-store:{ .lg }   
-  [__Facebook 與 Instagram 商店設定__](商業擴充設定-Facebook 跟 Instagram 商店設定.md){ data-preview }       
+  [__Facebook 與 Instagram 商店設定__](設定 FBE Facebook 跟 Instagram 商店.md){ data-preview }       
   完成網域驗證後，可進一步設定 Facebook 與 Instagram 商店，建立社群銷售管道並同步商品。
 
 </div>

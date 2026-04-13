@@ -75,14 +75,10 @@
             "id": "2c27b3aecd22969c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "docs/ec/integrations/fb/mbe/設定 FBE 網域驗證與事件追蹤.md",
-                "mode": "source",
-                "source": true
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "設定 FBE 網域驗證與事件追蹤"
+              "title": "New tab"
             }
           }
         ]
@@ -305,23 +301,24 @@
   },
   "active": "2c27b3aecd22969c",
   "lastOpenFiles": [
-    "site/ec/integrations/fb/mbe/設定 FBE 網域驗證與事件追蹤.md~",
-    "docs/ec/integrations/fb/mbe/設定 FBE 網域驗證與事件追蹤.md~",
-    "site/ec/products/index.html",
-    "site/index.html",
-    "site/ec/payments-and-logistics/設定 LINE Pay/index.html",
-    "site/ec/payments-and-logistics/設定 LINE Pay",
-    "site/ec/payments-and-logistics/設定 PayPal/index.html",
-    "site/ec/payments-and-logistics/設定 PayPal",
-    "site/ec/payments-and-logistics/設定超商大宗寄倉 B2C/index.html",
-    "site/ec/payments-and-logistics/設定超商大宗寄倉 B2C",
-    "site/ec/payments-and-logistics/設定街口支付/index.html",
-    "docs/ec/integrations/fb/mbe/商業擴充設定-網域驗證與事件追蹤.md",
-    "docs/ec/integrations/fb/mbe/商業擴充設定-網域驗證與事件追蹤-temp.md",
-    "docs/ec/integrations/fb/mbe/設定 FBE 網域驗證與事件追蹤.md",
+    "site/ec/payments-and-logistics/設定超商店到店 C2C 物流串接/index.html",
+    "site/ec/payments-and-logistics/設定超商店到店 C2C 物流串接",
+    "site/ec/index.html",
+    "site/ec/payments-and-logistics/AFTEE先享後付 金流說明/index.html",
+    "site/ec/payments-and-logistics/AFTEE先享後付 金流說明",
+    "site/wms/index.html",
+    "site/wms",
+    "site/resources/index.html",
+    "site/ec/products/設定商品搜尋可見性/index.html",
+    "site/ec/products/設定商品搜尋可見性",
+    "site/ec/integrations/串接美安通路/index.html",
     "docs/ec/integrations/fb/mbe/商業擴充設定-Facebook 跟 Instagram 商店設定.md",
-    "docs/ec/integrations/fb/mbe/商業擴充設定-帳號授權與資產連結.md",
+    "docs/ec/integrations/fb/mbe/設定 FBE Facebook 跟 Instagram 商店.md",
     "docs/ec/integrations/fb/mbe/設定 FBE 帳號授權與資產連結.md",
+    "docs/ec/integrations/fb/mbe/商業擴充設定-網域驗證與事件追蹤.md",
+    "docs/ec/integrations/fb/mbe/設定 FBE 網域驗證與事件追蹤.md",
+    "docs/ec/integrations/fb/mbe/商業擴充設定-帳號授權與資產連結.md",
+    "docs/ec/integrations/fb/mbe/商業擴充設定-網域驗證與事件追蹤-temp.md",
     "docs/ec/integrations/fb/mbe/index.md",
     "docs/ec/integrations/fb/mbe/商業擴充設定：網域驗證與事件追蹤.md",
     "site/assets/images/ec-第三方整合-meta商家資產管理平台-驗證成功.png",
@@ -349,7 +346,6 @@
     "docs/ec/integrations/meta/mbe/index.md",
     "docs/ec/integrations/google/YouTube Shopping 設定指南.md",
     "docs/ec/integrations/meta/設定 Facebook 快速登入.md",
-    "docs/ec/integrations/串接美安通路.md",
-    "docs/ec/integrations/google/設定 GMC 重要事件來源追蹤與自動標記.md"
+    "docs/ec/integrations/串接美安通路.md"
   ]
 }

@@ -1,5 +1,5 @@
 ---
-title: 商業擴充設定-Facebook 跟 Instagram 商店設定
+title: 設定 FBE Facebook 跟 Instagram 商店
 description: 教您如何設定 Facebook 與 Instagram 商店，建立社群銷售管道並同步商品。
 created: 2026-04-13 16:31
 last_modified: 2026-04-13 09:50
