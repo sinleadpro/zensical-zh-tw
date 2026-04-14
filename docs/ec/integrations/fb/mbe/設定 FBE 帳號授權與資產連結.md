@@ -216,3 +216,7 @@ Facebook 的資產管理採用 **階層關係**：
 
     可能是因為粉絲專頁的權限仍留在「過往的代理商」身上，需先從代理商處收回權限後才能重新設定。
 
+??? quote "頁面未正常跳轉怎麼辦？"
+
+    若頁面未正常跳轉，請確認瀏覽器已解除「彈出視窗攔截」。Chrome 設定教學請參考 [Google 官方說明 :lucide-external-link:](https://support.google.com/chrome/answer/95472)。
+

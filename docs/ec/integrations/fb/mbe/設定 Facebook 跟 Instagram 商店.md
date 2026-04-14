@@ -81,7 +81,7 @@ hide: []
 
 **FB、IG 商店設定** 的主要目的是建立社群商店，讓品牌能透過 Facebook 與 Instagram 觸及更多流量，並將潛在顧客導流至官網消費。
 
-!!! note "商店設定的完整流程及詳細資訊，請參閱 [Meta 官方教學 :lucide-external-link:](https://www.facebook.com/business/help/268860861184453)。"
+!!! note "相關說明請參閱 Meta 官方教學：[在 Facebook 和 Instagram 上設定商店 :lucide-external-link:](https://www.facebook.com/business/help/268860861184453)。"
 
 ## 前置作業
 
@@ -146,13 +146,14 @@ Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專
 
     ![檢視連結的IG商店](../../../../assets/images/ec-第三方整合-fbe-串接fb-ig商店-完成驗證.png)
 
-!!! note "後續 IG 商店設定以及使用，請參閱 [Instagram 購物功能 :lucide-external-link:](https://www.facebook.com/business/help/582645198813984?id=1069014943260205&content_id=YfngY8Ybzp9hgjp&ref=sem_smb&utm_term=aud-1846835380552%3Adsa-1744651665794&gclid=CjwKCAjwvdajBhBEEiwAeMh1U0F87VcMCYpbeiB1xVjlWUbt_lEkePq9zQtSlh9tJ18bHen3mLrjhhoCupwQAvD_BwE) 官方說明。"
+!!! note "後續 IG 商店設定及使用，請參閱 Meta 官方教學：[Instagram 購物功能 :lucide-external-link:](https://www.facebook.com/business/help/582645198813984)。"
 
 ## 商品同步與顯示管理
 
 系統完成串接後，會自動透過產品動態饋給（Product Feed）同步商品。
 
-*   **自動更新時間**：官網商品資訊固定於 **每天凌晨 2:00 或 2:30** 自動同步至 Facebook 商店。
+!!! info "自動更新時間"
+    官網商品資訊固定於 **每天凌晨 2:00 或 2:30** 自動同步至 Facebook 商店。
 
 <div class="grid cards" markdown>
 
@@ -162,7 +163,7 @@ Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專
 
 - :lucide-eye-off:{ .lg }   
   [__隱藏商店或商品__]()       
-  可在商務管理工具中隱藏整個商店（設定 > 能見度）或隱藏單一商品（庫存 > 眼睛圖示）。
+  可在商務管理工具中隱藏整個商店或隱藏單一商品。
 
 </div>
 
