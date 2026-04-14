@@ -275,3 +275,21 @@ a {
   pointer-events: none !important;
   display: none !important;
 }
+
+/* Screenshot styling for External Images*/
+.small-image {
+  /* padding: 0.1rem; */
+  /* background-color: var(--md-default-fg-color--lightest); */
+  /* border-radius: 0.2rem; */
+  border-radius: 8px;
+  width: 60%;
+  /* explicitly smaller width */
+  /* max-width: 90%;      prevent overflow on small screens */
+  height: auto;
+  /* maintain aspect ratio */
+  margin: auto;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  /* box-shadow: 0 6px 12px rgba(0,0,0,0.2); */
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+  /* sharper and more focused */
+}
