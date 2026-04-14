@@ -452,16 +452,41 @@ copyright = """
             { "平板裝置使用說明" = "pos/hardware/平板裝置使用說明.md" },
             { "網路連線異常與斷線提示" = "pos/hardware/網路連線異常與斷線提示.md" },
         ]},
+        { "後台設置" = [
+            { "設定前台自動登出時間" = "pos/others2/設定前台自動登出時間.md" },
+            { "員工權限與帳號管理" = "pos/others2/員工權限與帳號管理.md" },
+            { "續購與加購方案" = "pos/others2/續購與加購方案.md" },
+        ]},
         { "結帳" =[
+            { "付款方式" =[
+                { "overview" = "pos/check/index.md" },
+                { "LINE PAY 掃碼支付" = "pos/check/LINE PAY 掃碼支付.md" },
+                { "多付款方式" = "pos/check/多付款方式.md" },
+            ]},
+            { "紅利商城" = "pos/check/紅利商城.md" },
+            { "客顯互動遊戲" = "pos/check/客顯互動遊戲.md" },
             { "列印商品標籤" = "pos/check/列印商品標籤.md" },
             { "離線結帳模式" = "pos/check/離線結帳模式.md" },
+            { "掃描槍掃描後找不到商品" = "pos/check/掃描槍掃描後找不到商品.md" },
+        ]},
+        { "庫存" = [
+            { "全通路庫存管理" = "pos/inventory/全通路庫存管理.md" },
+            { "商品查詢" = "pos/inventory/商品查詢.md" },
+            { "出倉單" = "pos/inventory/出倉單.md" },
+            { "進倉單" = "pos/inventory/進倉單.md" },
+            { "調倉單" = "pos/inventory/調倉單.md" },
+            { "庫存調整" = "pos/inventory/庫存調整.md" },
+            { "庫存盤點" = "pos/inventory/庫存盤點.md" },
+            { "參考資源" = [
+                { "出倉完整流程" = "pos/inventory/出倉完整流程.md" },
+                { "進倉完整流程" = "pos/inventory/進倉完整流程.md" },
+                { "調倉完整流程" = "pos/inventory/調倉完整流程.md" },
+            ]},
         ]},
         { "其他功能" = [
-            { "秤重商品條碼" = "pos/others/秤重商品條碼.md" },
-            
+            { "小結關帳" = "pos/others/小結關帳.md" },
+            { "磅秤設定" = "pos/others/磅秤設定.md" },
         ]},
-        { "LINE PAY 掃碼支付" = "pos/check/LINE PAY 掃碼支付.md" },
-        { "員工權限與帳號管理" = "pos/others/員工權限與帳號管理.md" },
         { "參考資源" = [
             { "人員權限欄位參考表" = "pos/reference/人員權限欄位參考表.md" },
         ]},
