@@ -1,0 +1,1 @@
+:lucide-sparkles:{ title="適用擴充功能" } | CYBERBIZ PAYMENTS

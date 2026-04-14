@@ -1,0 +1,1 @@
+:lucide-circle-percent:

@@ -1,0 +1,1 @@
+:lucide-file-video-camera:

@@ -1,0 +1,9 @@
+nav: 
+  - Product: index.md
+  - Get Started: activate
+  - Configure: configure
+  - Operation: operation
+  - Integration: 
+    - 設定 Google 購物廣告: ec/platforms/設定 Google 購物廣告.md
+  - Growth: venture
+  - Further Reading: reference

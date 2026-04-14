@@ -1,0 +1,295 @@
+/* Automatically style all screenshots in screenshots/ folder */
+.md-typeset img[src*="images"] {
+  border-radius: 8px;
+  /* your rounded corners */
+  /* box-shadow: 0 6px 12px rgba(0,0,0,0.2);  your shadow */
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+  /* sharper and more focused */
+  /* max-width: 86.5%;      prevent overflow on small screens */
+  height: auto;
+  /* maintain aspect ratio */
+  /* display: block;
+    margin: 1.5rem auto; vertical spacing + center horizontally */
+}
+
+/* Screenshot styling for External Images*/
+.screenshot {
+  /* padding: 0.1rem; */
+  /* background-color: var(--md-default-fg-color--lightest); */
+  /* border-radius: 0.2rem; */
+  border-radius: 8px;
+  width: 100%;
+  /* explicitly smaller width */
+  /* max-width: 90%;      prevent overflow on small screens */
+  height: auto;
+  /* maintain aspect ratio */
+  margin: auto;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  /* box-shadow: 0 6px 12px rgba(0,0,0,0.2); */
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+  /* sharper and more focused */
+}
+
+a {
+  text-decoration: none !important;
+}
+
+
+/* Home Page Latest Docs box styling */
+.latest-docs {
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+/* Adjusting overall max width of the content area */
+
+
+/* .md-grid {
+  max-width: 1440px; 
+  max-width: 1550px; 
+  gap: 0.5rem; 
+  gap: 1.7rem;
+}  */
+
+.md-grid {
+  max-width: 97%;
+  width: 97%;
+}
+
+
+/* .md-content {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+
+.md-grid {
+  max-width: 80%;
+  width: 80%;
+} */
+
+
+/* Subtitle styling */
+.subtitle {
+  margin-top: -1em;
+  /* pull it closer to H1 */
+  font-size: 1.3em;
+  font-weight: 445;
+  /* slightly lighter than normal */
+  color: var(--md-typeset-secondary-text, #8c8c8c);
+  line-height: 1.2;
+}
+
+/* .md-sidebar--secondary {
+    border-left: 3px solid var(--md-default-fg-color--lightest);
+} */
+
+/* Adjusting border of secondary nav toc */
+.md-nav--secondary {
+  border-left: 2.5px solid var(--md-default-fg-color--lightest);
+}
+
+/* Card background colors for light and dark mode */
+:root {
+  /* --card-bg: #f2f6fc;     light mode */
+  --card-bg: #FAF9F5;
+  /* light mode
+  /* --card-bg: #F2F2F2; light mode */
+}
+
+[data-md-color-scheme="slate"] {
+  --card-bg: #1e1e1e;
+  /* dark mode */
+}
+
+.cards-bg li {
+  background-color: var(--card-bg);
+}
+
+/* Heading styles */
+.md-typeset h2 {
+  font-weight: 700;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  padding-bottom: 0.4rem;
+}
+
+.md-typeset h3 {
+  font-weight: 600;
+  /* border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  padding-bottom: 0.4rem; */
+}
+
+/* Metadata styling for docs */
+.doc-badge {
+  margin-top: .5rem;
+  /* space above */
+  margin-bottom: 1.25rem;
+  /* space below */
+  font-size: .8rem;
+  /* smaller text */
+  gap: 1.5rem;
+  /* badge 之間間距 */
+  color: inherit;
+  /* color: var(--md-default-fg-color--light); lighter color */
+}
+
+
+/* Global hover color for links
+.md-typeset a:hover {
+  color: #ff9d3f !important;
+} */
+
+
+/* Apply underline effect to ALL non-button links (including data-preview) */
+.md-content a:not(.md-button):not(.md-button--primary) {
+  position: relative;
+  text-decoration: none;
+}
+
+/* Use ::before for underline to avoid conflict with preview icon */
+.md-content a:not(.md-button):not(.md-button--primary)::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 1px;
+  background-color: currentColor;
+  transform: scaleX(0);
+  transition: transform 0.2s ease-in-out;
+  transform-origin: right;
+  pointer-events: none;
+}
+
+/* Hover animation */
+.md-content a:not(.md-button):not(.md-button--primary):hover::before {
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+
+.hero-page {
+  /* border-radius: 8px 8px 0 0 !important;       top-left, top-right, bottom-right, bottom-left */
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+  width: 600px;
+  /*  explicitly smaller width */
+  max-width: 100%;
+  /* prevent overflow on tiny screens */
+  height: auto;
+  /* display: block;                     */
+  /* margin: 0.5rem auto -3em auto;                    remove vertical spacing, center horizontally */
+  padding-bottom: 0;
+}
+
+/* extra.css */
+
+/* Make the button small and square */
+.md-typeset .md-button.btn-tag {
+  /* border-radius: 12px;       Makes it square (standard is 2rem) */
+  font-size: 0.6rem;
+  /* Reduces text size */
+  background-color: var(--md-default-bg-color);
+  border: 1px solid var(--md-default-fg-color--lighter);
+}
+
+.md-typeset .md-button.extension-tag {
+  /* border-radius: 12px;       Makes it square (standard is 2rem) */
+  font-size: 0.53rem;
+  /* Reduces text size */
+  margin-bottom: 0.5rem;
+  /* Adds space between tag and following text */
+}
+
+:root {
+  /* Zensical New Status - FOSS (Material Design Icons - Apache 2.0) */
+  /* 圖示內容是一個帶有 'NEW' 字樣的標籤徽章 */
+  --md-status--update: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 10"><path d="M0 10V0h2l3.5 5.5V0h2v10H5.5L2 4.5V10H0m9 0V0h5v2h-3v2h2.5v2H11v2h3.5v2H9m6.5 0l-1-10h2l.5 5.5L17.5 0h2l-.5 5.5.5 4.5h-1.5l-.5-4.5-.5 4.5h-1.5z"/></svg>');
+}
+
+/* 針對 Z-NEW 的樣式設定 */
+.md-status--update::after {
+  mask-image: var(--md-status--update);
+  -webkit-mask-image: var(--md-status--update);
+  background-color: #1E88E5;
+}
+
+/* Custom page status icon default example
+:root {
+  --md-status--happy: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2A10 10 0 0 0 2 12a10 10 0 0 0 10 10 10 10 0 0 0 10-10A10 10 0 0 0 12 2M7 9.5C7 8.7 7.7 8 8.5 8s1.5.7 1.5 1.5S9.3 11 8.5 11 7 10.3 7 9.5m5 7.73c-1.75 0-3.29-.73-4.19-1.81L9.23 14c.45.72 1.52 1.23 2.77 1.23s2.32-.51 2.77-1.23l1.42 1.42c-.9 1.08-2.44 1.81-4.19 1.81M15.5 11c-.8 0-1.5-.7-1.5-1.5S14.7 8 15.5 8s1.5.7 1.5 1.5-.7 1.5-1.5 1.5Z"/></svg>')
+}
+
+.md-status--happy::after {
+  mask-image: var(--md-status--happy);
+  -webkit-mask-image: var(--md-status--happy);
+}
+*/
+
+/* :root {
+  --md-nav-width: 320px;
+  --md-content-max-width: 960px;
+  --md-toc-width: 300px;
+} */
+
+/* @media (min-width: 76.25em) {
+  .md-main__inner {
+    gap: 0.7rem;
+  }
+} */
+
+/* sidebar divider line styling */
+/* 1. 針對包含 divider 的連結項目 */
+.md-nav__item .md-nav__link[href*="divider"] {
+  /* 強制禁用所有滑鼠事件 */
+  pointer-events: none !important; 
+  cursor: default !important;
+  
+  /* 移除所有預設的 hover 背景色 */
+  background-color: transparent !important;
+  
+  /* 佈局設定 */
+  display: flex;
+  align-items: center;
+  padding: 0 !important;
+  margin: 15px 10px !important;
+  height: 1px;
+  border: none; /* 移除可能的預設框線 */
+}
+
+/* 2. 畫出分隔線 */
+.md-nav__item .md-nav__link[href*="divider"]::before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #e0e0e0; /* 你的線條顏色 */
+}
+
+/* 3. 徹底隱藏所有內部標籤，防止它們撐開點擊範圍 */
+.md-nav__item .md-nav__link[href*="divider"] span,
+.md-nav__item .md-nav__link[href*="divider"] .md-icon,
+.md-nav__item .md-nav__link[href*="divider"] .md-nav__icon {
+  display: none !important;
+}
+
+/* 4. 防止行動版/抽屜選單中的 Label 觸發展開行為 */
+.md-nav__item label[for*="divider"] {
+  pointer-events: none !important;
+  display: none !important;
+}
+
+/* Screenshot styling for External Images*/
+.small-image {
+  /* padding: 0.1rem; */
+  /* background-color: var(--md-default-fg-color--lightest); */
+  /* border-radius: 0.2rem; */
+  border-radius: 8px;
+  width: 60%;
+  /* explicitly smaller width */
+  /* max-width: 90%;      prevent overflow on small screens */
+  height: auto;
+  /* maintain aspect ratio */
+  margin: auto;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  /* box-shadow: 0 6px 12px rgba(0,0,0,0.2); */
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+  /* sharper and more focused */
+}
