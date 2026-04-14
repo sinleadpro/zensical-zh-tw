@@ -2,7 +2,7 @@
 title: "index"
 description: "" 
 created: "2026-03-17 14:00"
-last_modified: 
+last_modified: 2026-03-30 12:45 
 lang: zh-TW
 type: guide
 status: ""
@@ -27,7 +27,13 @@ intents: []
 features: []
 prerequisites: []
 related: []
-tags: []
+tags:
+  - Google
+  - 第三方整合
+  - Google_整合
+  - GA4
+  - Google_Merchant_Center
+  - Google_Ads
 acoiv: ""
 apis: []
 devices: 

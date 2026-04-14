@@ -65,7 +65,8 @@
 *[UTM]: Urchin Tracking Module, 網址參數追蹤標籤。這是在 URL 末端附加的簡單代碼，用於追蹤使用者進入網站的具體路徑與來源。
 *[WMS]: Warehouse Management System, used to manage, control, and optimize warehousing operations, covering inbound, outbound, inventory management, order picking, distribution, and report analysis processes. Through automation and data-driven operations, WMS improves warehousing efficiency, reduces error rates, and supports logistics and supply chain collaboration.
 *[POS]: Point of Sale，門市進行交易時所使用的銷售作業系統，用於完成商品結帳、付款、開立收據，並同步記錄銷售資料、庫存變化與營收資訊。
-*[MBE]: Meta Business Extension
+*[MBE]: Meta Business Extension，前稱為 FBE (Facebook Business Extension)。可一次串接 Conversions API、Facebook 像素（Pixel）、商品目錄、Instagram Shopping 及 Facebook 粉絲專頁等資產。
+*[FBE]: Facebook Business Extension，Meta Business Extension (MBE) 的舊稱。
 *[GA]: Google Analytics，由 Google 提供的網站流量分析工具，用於追蹤與分析使用者在網站上的行為與互動情況。
 *[GA4]: Google Analytics 4，Google Analytics 的最新版本。以事件為基礎的分析模型，可追蹤使用者與網站的互動行為，並提供更強大的跨平台分析能力與隱私保護功能。
 *[GSC]: Google Search Console，Google 提供的免費網站管理工具。用於監測網站在 Google 搜尋中的表現、檢視索引狀態、診斷 SEO 問題並提交網站地圖。
@@ -74,3 +75,4 @@
 *[SKU]: Stock Keeping Unit，存貨單位或庫存單位是用於識別產品的唯一代碼或編號，用於追蹤庫存、管理商品資料與銷售統計。
 *[優惠券]: 一種歸戶型（會員專屬）行銷工具，系統會將優惠憑證指派給特定會員帳戶，用於提供折扣、免運費或贈品等優惠。
 *[優惠碼]: 一組可輸入的折扣序號，作為不歸戶型（或稱全館型優惠碼）行銷工具，用於提供折扣、免運費或贈品等優惠。
+*[ROAS]: Return on Ad Spend，廣告投資報酬率。用於衡量廣告投放效益的指標，計算公式為「廣告帶來的收入 ÷ 廣告支出」，數值越高代表廣告效益越好。

@@ -6,9 +6,8 @@ This repository contains the source code and documentation for the CYBERBIZ Docu
 
 The project is managed using `uv`.
 
-- **Serve local preview:** `uv run zensical serve`
-- **Build site:** `uv run zensical build`
-- **Linting/Validation:** Running `zensical build` performs internal validation of the TOML configuration and Markdown structure.
+- **Serve local preview:** `uv run zensical serve` (Use this for live preview while editing)
+- **Build site:** `uv run zensical build` (Only run when you need to verify the final result)
 
 There are no separate unit tests for this documentation-only repository.
 
@@ -33,6 +32,15 @@ Every Markdown file **must** include frontmatter. Refer to `reference/frontmatte
     - `# Title` (H1) should only appear once via the `title` frontmatter or the first line.
     - `## Section` (H2) for major sections (automatically gets a border-bottom).
     - `### Subsection` (H3) for nested topics.
+    - `#### Sub-subsection` (H4) for detailed steps or phases.
+- **Complex Steps Format Priority:**
+    - **Use subheadings (####) first:** When steps have multiple phases, use `###` for main heading and `####` for each phase. This allows users to scan the table of contents and jump to specific stages.
+    - **Use tabs only when needed (inside subheadings):** Only use tabs when each subheading's content is complex (3+ sub-steps) or users need to frequently switch between variants.
+    - **Never skip heading levels:** Do not go from `##` directly to `####`, or from `###` directly to `=== tabs` (without `####`). Always maintain proper heading hierarchy.
+    - **If unsure:** Prompt user with options to choose:
+      - A) Subheadings (####)
+      - B) Tabs (===)
+      - C) Subheadings + Tabs
 - **Icons:** Use Lucide icons via the `:lucide-<icon-name>:` syntax (e.g., `:lucide-rocket:`, `:lucide-settings:`).
 - **Admonitions:** Use standard MkDocs admonitions: `!!! note`, `!!! info`, `!!! warning`, etc.
 - **Tabs:** Use content tabs: `=== "Label"`.

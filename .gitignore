@@ -25,6 +25,9 @@ Thumbs.db
 .venv/
 env/
 
+docops/
+
+
 # Syncthing
 
 ## Safety marker - DO NOT DELETE. 

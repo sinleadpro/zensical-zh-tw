@@ -9,7 +9,8 @@ status: ""
 author: Jase
 version: ""
 reviewers: []
-notes: []
+notes:
+  - 1st grid card pending, 推薦人分潤 doc missing content
 ga_views: 0
 feedback: 0
 products:

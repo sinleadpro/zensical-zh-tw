@@ -52,7 +52,10 @@ copyright = """
         { "開始使用" = [
             { "文字編輯器使用教學" = "ec/get-started/文字編輯器使用教學.md" }
         ]},
-        { "分析報表" = "ec/analytics/index.md" },
+        { "分析報表" = [
+            {"overview" = "ec/analytics/index.md"},
+            {"廣告分析" = "ec/analytics/廣告分析指南.md"}
+        ]},
         { "訂單" = [
             { "orders" = "ec/orders/index.md" },
             { "開啟會員退貨申請功能" = "ec/orders/開啟會員退貨申請功能.md"},
@@ -283,13 +286,21 @@ copyright = """
         ]},
         { "第三方整合" = [
             {"overview" = "ec/integrations/index.md"},  
-            {"FB/Meta" = [
-                { "overview" = "ec/integrations/fb-meta/index.md"}
+            {"Facebook" = [
+                {"overview" = "ec/integrations/fb/index.md"},
+                {"Facebook 快速登入" = "ec/integrations/fb/設定 Facebook 快速登入.md"},
+                {"FB 商業擴充" = [
+                    {"overview" = "ec/integrations/fb/mbe/index.md"},
+                    {"授權與資產連結" = "ec/integrations/fb/mbe/設定 FBE 帳號授權與資產連結.md"},
+                    {"網域驗證" = "ec/integrations/fb/mbe/設定 FBE 網域驗證.md"},
+                    {"FB/IG 商店串接" = "ec/integrations/fb/mbe/設定 Facebook 跟 Instagram 商店.md"}
+                ]},
             ]},
             {"Google" = [
                 {"overview" = "ec/integrations/google/index.md"},
                 {"Google 快速登入" = "ec/integrations/google/設定 Google 快速登入.md"},
-                {"Google 購物廣告" = "ec/integrations/google/設定 Google 購物廣告.md"},
+                {"Google Merchant Center (GMC)" = "ec/integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品.md"},
+                {"GMC 重要事件追蹤" = "ec/integrations/google/設定 GMC 重要事件來源追蹤與自動標記.md"},
                 {"自動化廣告" = "ec/integrations/google/設定自動化廣告.md"},
                 {"移除 Google 索引" = "ec/integrations/google/從 Google 搜尋結果移除特定網頁或子目錄.md"},
                 {"Google Tag Manager" = "ec/integrations/google/建立 Google Tag Manager 並串接 CYBERBIZ.md"},
@@ -299,6 +310,8 @@ copyright = """
                 {"Google Ads 追蹤轉換" = "ec/integrations/google/設定 Google Ads 轉換追蹤.md"},
                 {"Google Ads 強化轉換" = "ec/integrations/google/設定 Google Ads 強化轉換.md"},
                 {"UTM 流量追蹤" = "ec/integrations/google/使用 UTM 參數追蹤行銷流量與分析成效.md"},
+                {"網站安全檢查與申訴" = "ec/integrations/google/使用 Google 安全瀏覽工具檢查並排除網站安全性風險.md"},
+                {"YouTube Shopping" = "ec/integrations/google/YouTube Shopping 設定指南.md"},
                 {"Google Analytics" = [
                     {"overview" = "ec/integrations/google/ga/index.md"},
                     {"建立串接" = "ec/integrations/google/ga/建立並串接 Google Analytics.md"},
@@ -337,6 +350,7 @@ copyright = """
                 {"LINE 直播" = "ec/integrations/line/申請與設定 LINE 直播功能.md"},
                 {"LINE 購物導購" = "ec/integrations/line/申請與設定 LINE 購物導購.md"}
             ]},
+            {"美安 SHOP.COM" = "ec/integrations/串接美安通路.md"}
     ]},
         { "管理中心" = [
             { "overview" = "ec/website-management/index.md" },
@@ -805,10 +819,10 @@ auto_append = ["includes/abbreviations.md"]
 [project.markdown_extensions.md_in_html]
 [project.markdown_extensions.toc]
 permalink = true
-toc_depth = 3
+toc_depth = 4
 [project.markdown_extensions.toc.slugify]
 object = "pymdownx.slugs.slugify"
-kwds = { unicode = true }
+kwds = { case = "lower", unicode = true }
 [project.markdown_extensions.pymdownx.tabbed]
 alternate_style = true
 [project.markdown_extensions.pymdownx.tabbed.slugify]

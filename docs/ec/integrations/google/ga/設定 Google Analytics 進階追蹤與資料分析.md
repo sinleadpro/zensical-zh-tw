@@ -1,8 +1,8 @@
 ---
 title: 設定 Google Analytics 進階追蹤與資料分析
-description: GA4 進階設定，包含加強型評估、Google 信號、資料保留期限調整及報表識別資訊設定，協助商家獲得更精確的流量數據與使用者輪廓。
+description: 加強型評估、Google 信號、資料保留期限調整及報表識別資訊設定，協助商家獲得更精確的流量數據與使用者輪廓。
 created: 2026-03-20 17:50
-last_modified: 2026-03-23 18:45
+last_modified: 2026-03-30 12:45
 lang: zh-TW
 type: tutorial
 status: ""
@@ -48,6 +48,13 @@ prerequisites:
 related:
   - "[[建立並串接 Google Analytics]]"
   - "[[設定 GA4 排除內部流量與第三方參照來源]]"
+tags:
+  - GA4
+  - Google_Analytics
+  - 加強型評估
+  - Google_信號
+  - 資料保留
+  - 流量分析
 acoiv: configure
 apis: []
 devices:
@@ -62,14 +69,14 @@ wp_url:
 permalink: ga4-advanced-tracking-and-analysis
 search:
   exclude: false
-icon: lucide/chart-bar
+icon: lucide/chart-column-increasing
 hide: []
 comments: false
 ---
 
 # 設定 Google Analytics 進階追蹤與資料分析
 
-GA4 進階設定，包含加強型評估、Google 信號、資料保留期限調整及報表識別資訊設定，協助商家獲得更精確的流量數據與使用者輪廓。
+加強型評估、Google 信號、資料保留期限調整及報表識別資訊設定，協助商家獲得更精確的流量數據與使用者輪廓。
 { .subtitle }
 
 ![](../../../../assets/images/ec-第三方整合-google-ga-資料收集與修改.png){ .hero-page }

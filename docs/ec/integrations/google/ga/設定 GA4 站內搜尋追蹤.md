@@ -2,7 +2,7 @@
 title: 設定 GA4 站內搜尋追蹤
 description: 透過 GA4 加強型評估功能，追蹤使用者在官網上的站內搜尋行為，分析消費者的資訊需求與查找意圖。
 created: 2026-03-24 20:05
-last_modified: 2026-03-25 14:55
+last_modified: 2026-03-30 12:45
 lang: zh-TW
 type: tutorial
 status: ""
@@ -45,6 +45,12 @@ prerequisites:
 related:
   - "[[設定 Google Analytics 進階追蹤與資料分析]]"
   - "[[設定 GA4 排除內部流量與第三方參照來源]]"
+tags:
+  - GA4
+  - 站內搜尋
+  - 搜尋追蹤
+  - 加強型評估
+  - search_results
 acoiv: configure
 apis: []
 devices:

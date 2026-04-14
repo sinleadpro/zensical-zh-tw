@@ -69,7 +69,7 @@
       {
         "id": "10f9d93c6521323e",
         "type": "tabs",
-        "dimension": 31.929824561403507,
+        "dimension": 31.57894736842105,
         "children": [
           {
             "id": "2c27b3aecd22969c",
@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=5156",
-                "title": "UTM設定教學：分類Google Analytics 流量來源 - CYBERBIZ 一般版教學文件",
-                "mode": "webview"
+                "url": "https://www.cyberbiz.io/helpcenter/?p=3113",
+                "title": "cyberbiz.io/helpcenter/?p=3113",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "UTM設定教學：分類Google Analytics 流量來源 - CYBERBIZ 一般版教學文件"
+              "title": "cyberbiz.io/helpcenter/?p=3113"
             }
           }
         ]
@@ -90,7 +90,7 @@
       {
         "id": "2c57acc736defe7a",
         "type": "tabs",
-        "dimension": 32.8421052631579,
+        "dimension": 33.19298245614035,
         "children": [
           {
             "id": "70ccdcc682095e33",
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=6434",
-                "title": "使用 UTM 追蹤網站流量並整合至 GA4 報表",
-                "mode": "webview"
+                "url": "https://www.cyberbiz.io/support/?p=11757",
+                "title": "cyberbiz.io/support/?p=11757",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "使用 UTM 追蹤網站流量並整合至 GA4 報表"
+              "title": "cyberbiz.io/support/?p=11757"
             }
           }
         ]
@@ -138,7 +138,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "帳號授權",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -173,8 +173,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5,
-    "collapsed": true
+    "width": 287.5
   },
   "right": {
     "id": "973606ff262c9293",
@@ -306,51 +305,51 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/assets/images/ec-第三方整合-google-ga4-流量開發.png",
-    "docs/assets/images/ec-第三方整合-google-ga4-流量開發.png",
-    "site/assets/images/ec-第三方整合-ga4-流量開發-工作階段來源或媒介.gif",
-    "docs/assets/images/ec-第三方整合-ga4-流量開發-工作階段來源或媒介.gif",
-    "site/assets/images/ec-第三方整合-utm-campaignurlbuilder-generatedurl.png",
-    "docs/assets/images/ec-第三方整合-utm-campaignurlbuilder-generatedurl.png",
-    "site/assets/images/ec-第三方整合-utm-campaignurlbuilder-infofields.png",
-    "docs/assets/images/ec-第三方整合-utm-campaignurlbuilder-infofields.png",
-    "site/ec/payments-and-logistics/設定 AFTEE/index.html",
-    "site/ec/payments-and-logistics/設定 AFTEE",
-    "site/resources/glossary/index.html",
-    "site/resources/glossary",
-    "site/ec/products/index.html",
-    "site/resources/conventions/index.html",
-    "site/resources/conventions",
-    "site/ec/products/排除商品上傳至第三方平台/index.html",
-    "site/ec/products/排除商品上傳至第三方平台",
-    "site/wms/index.html",
-    "docs/ec/integrations/google/使用 UTM 參數追蹤行銷流量與分析成效.md",
-    "site/assets/images/ec-第三方整合-google-googleads啟用強化轉換.png",
-    "docs/assets/images/ec-第三方整合-google-googleads啟用強化轉換.png",
-    "site/assets/images/ec-第三方整合-google-googleads強化轉換.png",
-    "docs/ec/integrations/google/設定 Google Ads 強化轉換.md",
-    "docs/ec/website-management/使用 Authy 啟用二階段驗證設定.md",
-    "docs/ec/integrations/google/ga/設定 GA4 站內搜尋追蹤.md",
-    "docs/ec/integrations/google/設定 Google Ads 轉換追蹤.md",
-    "docs/ec/integrations/google/test.md",
-    "docs/ec/integrations/google/從 Google 搜尋結果移除特定網頁或子目錄.md",
-    "docs/ec/integrations/google/\n從 Google 搜尋結果移除特定網頁或子目錄.md",
-    "docs/ec/website-management/seo/設定 301 重定向網站轉址.md",
-    "docs/ec/website-management/seo/將 Sitemap 提交至 Google Search Console.md",
-    "docs/ec/website-management/seo/SEO 設定與優化指南.md",
-    "docs/ec/integrations/google/ga/設定 GA4 排除內部流量與第三方參照來源.md",
-    "quartz/tools/sparks.md",
-    "quartz/tools/obsidian.md",
-    "quartz/tools/ai.md",
-    "quartz/playbooks/traceability.md",
-    "quartz/playbooks/style guide.md",
-    "quartz/playbooks/quality assurance checklist.md",
-    "quartz/playbooks/production and publish sop.md",
-    "quartz/playbooks/infrastructure.md",
-    "quartz/playbooks/information architecture.md",
-    "quartz/playbooks/frontmatter.md",
-    "quartz/playbooks/doc production guide.md",
-    "quartz/playbooks/authoring.md",
-    "quartz/playbooks/agentic workflow.md"
+    "site/ec/integrations/google/設定 Google 購物廣告/index.html",
+    "site/ec/integrations/google/設定 Google 購物廣告",
+    "site/ec/integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品/index.html",
+    "site/ec/integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品",
+    "site/ec/integrations/fb/設定 Facebook 快速登入/index.html",
+    "site/ec/integrations/fb/設定 Facebook 快速登入",
+    "site/ec/integrations/google/YouTube Shopping 設定指南/index.html",
+    "site/ec/integrations/google/YouTube Shopping 設定指南",
+    "site/ec/integrations/串接美安通路/index.html",
+    "site/ec/integrations/串接美安通路",
+    "site/ec/integrations/fb/index.html",
+    "site/assets/images/ec-第三方整合-meta商家資產管理平台-驗證網域.png",
+    "site/assets/images/ec-第三方整合-meta企業管理平台-dnd-txt紀錄.png",
+    "site/assets/images/ec-第三方整合-meta企業管理平台-dnd-txt紀錄新增-gandi.png",
+    "site/assets/images/ec-google-安全瀏覽網站狀態檢查.png",
+    "site/assets/images/ec-第三方整合-fbe-串接fb-ig商店-商店設定-確認完成.png",
+    "site/assets/images/ec-第三方整合-fbe-登入fb帳號.png",
+    "site/assets/images/ec-第三方整合-fb應用程式-appid-appsecret.png",
+    "site/assets/images/ec-第三方整合-fbe-確認獲得權限.png",
+    "site/assets/images/ec-第三方整合-meta企業管理平台-中繼標籤紀錄.png",
+    "site/assets/images/ec-第三方整合-fbe-串接fb-ig商店-商店設定-選擇目錄.png",
+    "templates/grid-complex-guide.md",
+    "templates/callout-abstract-form.md",
+    "docs/ec/integrations/串接美安通路.md",
+    "docs/ec/integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品.md",
+    "docs/ec/integrations/google/設定 GMC 重要事件來源追蹤與自動標記.md",
+    "docs/ec/integrations/google/使用 Google 安全瀏覽工具檢查並排除網站安全性風險.md",
+    "docs/ec/integrations/google/YouTube Shopping 設定指南.md",
+    "docs/ec/integrations/fb/設定 Facebook 快速登入.md",
+    "docs/ec/integrations/fb/mbe/設定 Facebook 跟 Instagram 商店.md",
+    "docs/ec/integrations/fb/mbe/設定 FBE 網域驗證.md",
+    "docs/ec/integrations/fb/mbe/設定 FBE 帳號授權與資產連結.md",
+    "docs/ec/integrations/fb/mbe/index.md",
+    "docs/ec/integrations/fb/index.md",
+    "docs/ec/analytics/廣告分析指南.md",
+    "docs/ec/integrations/google/設定 Google 購物廣告.md",
+    "docops/manifest.md",
+    "docs/wms/進倉單.md",
+    "docs/wms/通路.md",
+    "docs/wms/退貨與派車.md",
+    "docs/wms/退貨單.md",
+    "docs/wms/調倉單.md",
+    "docs/wms/設定商品(現貨、限量、預購).md",
+    "docs/wms/申請流程與開通.md",
+    "docs/wms/權限設定.md",
+    "docs/wms/操作紀錄列表.md"
   ]
 }
