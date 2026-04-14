@@ -235,3 +235,43 @@ a {
     gap: 0.7rem;
   }
 } */
+
+/* sidebar divider line styling */
+/* 1. 針對包含 divider 的連結項目 */
+.md-nav__item .md-nav__link[href*="divider"] {
+  /* 強制禁用所有滑鼠事件 */
+  pointer-events: none !important; 
+  cursor: default !important;
+  
+  /* 移除所有預設的 hover 背景色 */
+  background-color: transparent !important;
+  
+  /* 佈局設定 */
+  display: flex;
+  align-items: center;
+  padding: 0 !important;
+  margin: 15px 10px !important;
+  height: 1px;
+  border: none; /* 移除可能的預設框線 */
+}
+
+/* 2. 畫出分隔線 */
+.md-nav__item .md-nav__link[href*="divider"]::before {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background-color: #e0e0e0; /* 你的線條顏色 */
+}
+
+/* 3. 徹底隱藏所有內部標籤，防止它們撐開點擊範圍 */
+.md-nav__item .md-nav__link[href*="divider"] span,
+.md-nav__item .md-nav__link[href*="divider"] .md-icon,
+.md-nav__item .md-nav__link[href*="divider"] .md-nav__icon {
+  display: none !important;
+}
+
+/* 4. 防止行動版/抽屜選單中的 Label 觸發展開行為 */
+.md-nav__item label[for*="divider"] {
+  pointer-events: none !important;
+  display: none !important;
+}
