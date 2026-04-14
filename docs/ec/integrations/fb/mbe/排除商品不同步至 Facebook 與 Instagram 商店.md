@@ -20,8 +20,15 @@ sites:
 audiences:
   - admin
 difficulty: ""
-tnb: ""
+tnb: trunk
 plans:
+  - 專業
+  - 進階
+  - 高手
+  - 專業 PLUS 
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 cyb_extensions: []
 intents: []
 features: []
@@ -59,11 +66,16 @@ hide:
 
 若您有特定商品（如贈品或測試品）不希望同步至第三方平台，最直接的方法是利用標籤過濾：
 
-*   **設定標籤：** 在官網後台的商品標籤欄位輸入 **「排除product feed」** 或 **「贈品」**，系統將自動過濾該商品，不將其上傳至 Facebook 動態產品目錄。
-*   **注意事項：** 設定「排除product feed」標籤時，中間**請勿添加空格**。
-*   **狀態設定：** 若商品在後台設定為**「不公開」**（眼睛圖示關閉）或已達**「下架時間」**，系統同樣不會將該商品上傳至 Google 或 Facebook 等平台。
+<div class="grid cards" markdown>
 
-## 於 Facebook 商務管理工具中調整（手動調整）
+- :lucide-package-x:{ .lg }   
+  [__設定商品排除標籤__](../../../products/categorization/管理商品標籤.md#排除上傳至第三方平台標籤){ data-preview }     
+  在商品標籤輸入「排除 product feed」或「贈品」，系統自動過濾不同步的商品。
+
+</div>
+
+
+## 於 Meta 商務管理工具中調整（手動調整）
 
 若串接已完成，您也可以直接在 Facebook 的管理介面調整能見度：
 
