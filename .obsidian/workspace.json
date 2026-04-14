@@ -78,11 +78,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.cyberbiz.io/helpcenter/?p=3113",
-                "title": "FACEBOOK 商業擴充套件－Step.3 FB、IG商店設定 - CYBERBIZ 一般版教學文件",
-                "mode": "webview"
+                "title": "cyberbiz.io/helpcenter/?p=3113",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "FACEBOOK 商業擴充套件－Step.3 FB、IG商店設定 - CYBERBIZ 一般版教學文件"
+              "title": "cyberbiz.io/helpcenter/?p=3113"
             }
           }
         ]
@@ -99,11 +99,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.cyberbiz.io/support/?p=11757",
-                "title": "FACEBOOK 商業擴充套件－Step.3 FB、IG商店設定",
-                "mode": "webview"
+                "title": "cyberbiz.io/support/?p=11757",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "FACEBOOK 商業擴充套件－Step.3 FB、IG商店設定"
+              "title": "cyberbiz.io/support/?p=11757"
             }
           }
         ]
@@ -305,17 +305,17 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/ec/payments-and-logistics/順豐海外物流/index.html",
-    "site/ec/payments-and-logistics/順豐海外物流",
-    "site/wms/商家自行驗收退貨/index.html",
-    "site/wms/商家自行驗收退貨",
-    "site/wms/供應商/index.html",
-    "site/wms/供應商",
-    "site/ec/orders/第三方支付訂單人工退款/index.html",
-    "site/ec/orders/第三方支付訂單人工退款",
-    "site/wms/權限設定/index.html",
-    "site/wms/權限設定",
-    "site/wms/商家進倉作業規範/index.html",
+    "site/ec/payments-and-logistics/設定超商大宗寄倉 B2C/index.html",
+    "site/ec/payments-and-logistics/設定超商大宗寄倉 B2C",
+    "site/ec/payments-and-logistics/北美站金流服務/index.html",
+    "site/ec/payments-and-logistics/北美站金流服務",
+    "site/ec/payments-and-logistics/設定 iPASS MONEY 一卡通/index.html",
+    "site/ec/payments-and-logistics/設定 iPASS MONEY 一卡通",
+    "site/ec/payments-and-logistics/Amazon FBA 跨境物流/index.html",
+    "site/ec/payments-and-logistics/Amazon FBA 跨境物流",
+    "site/ec/products/排除商品上傳至第三方平台/index.html",
+    "site/ec/products/排除商品上傳至第三方平台",
+    "site/ec/payments-and-logistics/串接ezShip超商取貨(C2C)/index.html",
     "site/assets/images/WMS-後台-商品-季別群組-新增季別群組01.png",
     "site/assets/images/POS-前台-結帳-網路連線過慢斷線提示01.png",
     "site/assets/images/POS-前台-客顯螢幕-互動遊戲01.png",
