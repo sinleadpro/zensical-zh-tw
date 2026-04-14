@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=3113",
-                "title": "cyberbiz.io/helpcenter/?p=3113",
-                "mode": "error"
+                "url": "https://www.cyberbiz.io/helpcenter/?p=4833",
+                "title": "拖拉版型 - 色票功能 - CYBERBIZ 一般版教學文件",
+                "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "cyberbiz.io/helpcenter/?p=3113"
+              "title": "拖拉版型 - 色票功能 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=11757",
-                "title": "cyberbiz.io/support/?p=11757",
-                "mode": "error"
+                "url": "https://www.cyberbiz.io/support/?p=31319",
+                "title": "拖拉版型 – 色票功能",
+                "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "cyberbiz.io/support/?p=11757"
+              "title": "拖拉版型 – 色票功能"
             }
           }
         ]
@@ -305,28 +305,29 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/ec/integrations/fb/mbe/排除商品不同步至 Facebook 與 Instagram 商店/index.html",
-    "site/ec/integrations/fb/mbe/排除商品不同步至 Facebook 與 Instagram 商店",
+    "site/storepal/index.html",
+    "site/storepal",
+    "site/ec/payments-and-logistics/設定 PayPal/index.html",
+    "site/ec/payments-and-logistics/設定 PayPal",
+    "site/ec/payments-and-logistics/設定 Google Pay™/index.html",
+    "site/ec/payments-and-logistics/設定 Google Pay™",
+    "site/resources/conventions/index.html",
+    "site/resources/conventions",
+    "site/ec/payments-and-logistics/順豐海外物流/index.html",
+    "site/ec/payments-and-logistics/順豐海外物流",
+    "site/ec/products/Excel 大量匯入商品/index.html",
+    "site/assets/images/ec-e-ticket-redemption-list.zh-tw.png",
+    "site/assets/images/EC-後台-金物流-宅配物流-新增自訂物流01.png",
+    "site/assets/images/ec-product-conditionalized-collection-filer.zh-tw.png",
+    "site/assets/images/POS-驅動程式-疑難排解3-1.png",
+    "docs/ec/products/creation/設定商品色票與款式圖片對應.md",
+    "site/assets/images/ec-第三方整合-fbe-串接fb-ig商店-完成驗證.png",
+    "docs/assets/images/ec-第三方整合-fbe-串接fb-ig商店-完成驗證.png",
+    "site/assets/images/ec-第三方整合-fbe-串接fb-ig商店-連結資產.png",
+    "docs/assets/images/ec-第三方整合-fbe-串接fb-ig商店-連結資產.png",
     "docs/ec/integrations/fb/mbe/排除商品不同步至 Facebook 與 Instagram 商店.md",
-    "site/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）/index.html",
-    "site/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）",
-    "site/ec/products/shipping",
-    "site/wms/季別群組/index.html",
-    "site/wms/季別群組",
-    "site/resources/glossary/index.html",
-    "site/resources/glossary",
-    "site/ec/integrations/line/account-integration/設定 LINE 綁定會員贈送優惠券/index.html",
-    "site/ec/integrations/line/account-integration/設定 LINE 綁定會員贈送優惠券",
     "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
     "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
-    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
-    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
-    "site/assets/images/ec-訂單-訂單報表匯出-篩選項目.png",
-    "site/assets/images/POS-前台-登入頁面01.png",
-    "site/assets/images/ec-gmc-p4-運送設定.png",
-    "site/assets/images/POS-裝置-有線刷卡機限定傳輸線SUNBOX01.jpg",
-    "site/assets/images/ec-about-us-page-configure.zh-tw.png",
-    "site/assets/images/ec-訂單-所有訂單.png",
     "docs/ec/integrations/fb/mbe/排除不欲顯示於 Facebook 與 Instagram 商店的商品.md",
     "docs/ec/integrations/fb/mbe/排除不欲顯示於 Facebook / Instagram 商店的商品.md",
     "templates/grid-complex-guide.md",
@@ -349,7 +350,6 @@
     "docs/wms/通路.md",
     "docs/wms/退貨與派車.md",
     "docs/wms/退貨單.md",
-    "docs/wms/調倉單.md",
-    "docs/wms/設定商品(現貨、限量、預購).md"
+    "docs/wms/調倉單.md"
   ]
 }
