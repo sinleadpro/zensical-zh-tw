@@ -305,17 +305,18 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/ec/payments-and-logistics/澳洲落地版金流服務/index.html",
-    "site/ec/payments-and-logistics/澳洲落地版金流服務",
-    "site/ec/products/Excel 大量匯入商品/index.html",
-    "site/ec/products/Excel 大量匯入商品",
+    "site/ec/integrations/fb/mbe/排除商品不同步至 Facebook 與 Instagram 商店/index.html",
+    "site/ec/integrations/fb/mbe/排除商品不同步至 Facebook 與 Instagram 商店",
+    "docs/ec/integrations/fb/mbe/排除商品不同步至 Facebook 與 Instagram 商店.md",
     "site/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）/index.html",
     "site/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）",
     "site/ec/products/shipping",
-    "site/ec/products/index.html",
-    "site/ec/payments-and-logistics/東南亞站金流服務/index.html",
-    "site/ec/payments-and-logistics/東南亞站金流服務",
-    "site/ec/payments-and-logistics/設定 Apple Pay/index.html",
+    "site/wms/季別群組/index.html",
+    "site/wms/季別群組",
+    "site/resources/glossary/index.html",
+    "site/resources/glossary",
+    "site/ec/integrations/line/account-integration/設定 LINE 綁定會員贈送優惠券/index.html",
+    "site/ec/integrations/line/account-integration/設定 LINE 綁定會員贈送優惠券",
     "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
     "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
     "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
@@ -349,7 +350,6 @@
     "docs/wms/退貨與派車.md",
     "docs/wms/退貨單.md",
     "docs/wms/調倉單.md",
-    "docs/wms/設定商品(現貨、限量、預購).md",
-    "docs/wms/申請流程與開通.md"
+    "docs/wms/設定商品(現貨、限量、預購).md"
   ]
 }
