@@ -163,9 +163,9 @@ Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專
 
 <div class="grid cards" markdown>
 
-- :lucide-shield:{ .lg }   
-  [__網域驗證與事件設定__](設定 FBE 網域驗證.md){ data-preview }       
-  完成商店設定前，需先完成網域驗證，才能設定事件追蹤，確保廣告轉換數據準確。
+- :lucide-package-x:{ .lg }   
+  [__排除商店商品__](排除不欲顯示於 Facebook 與 Instagram 商店的商品.md){ data-preview }       
+  若有特定商品（如贈品或測試品）不希望同步至 Facebook 與 Instagram 商店，可透過設定標籤進行過濾。
 
 </div>
 
