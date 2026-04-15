@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=8765",
-                "title": "搜尋（放大鏡）功能說明 - CYBERBIZ 一般版教學文件",
-                "mode": "error"
+                "url": "https://www.cyberbiz.io/helpcenter/?p=4833",
+                "title": "拖拉版型 - 色票功能 - CYBERBIZ 一般版教學文件",
+                "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "搜尋（放大鏡）功能說明 - CYBERBIZ 一般版教學文件"
+              "title": "拖拉版型 - 色票功能 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=23999",
-                "title": "cyberbiz.io/support/?p=23999",
-                "mode": "error"
+                "url": "https://www.cyberbiz.io/support/?p=31319",
+                "title": "拖拉版型 – 色票功能",
+                "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "cyberbiz.io/support/?p=23999"
+              "title": "拖拉版型 – 色票功能"
             }
           }
         ]
@@ -303,7 +303,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c27b3aecd22969c",
+  "active": "70ccdcc682095e33",
   "lastOpenFiles": [
     "site/assets/images/ec-商品-排除搜尋-批次操作.png",
     "docs/assets/images/ec-商品-排除搜尋-批次操作.png",
