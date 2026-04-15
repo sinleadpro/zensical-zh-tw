@@ -305,6 +305,14 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
+    "site/ec/products/discovery/設定搜尋結果中排除特定關鍵字商品/index.html",
+    "site/ec/products/discovery/設定搜尋結果中排除特定關鍵字商品",
+    "docs/ec/products/discovery/設定搜尋結果中排除特定關鍵字商品.md",
+    "site/ec/products/discovery/設定站內搜尋功能/index.html",
+    "site/ec/products/discovery/設定站內搜尋功能",
+    "site/ec/products/discovery",
+    "docs/ec/products/discovery/設定站內搜尋功能.md",
+    "docs/ec/products/discovery",
     "site/assets/images/ec-商品-商品標籤-排除上傳至第三方.png",
     "docs/assets/images/ec-商品-商品標籤-排除上傳至第三方.png",
     "site/assets/images/ec-第三方整合-fb-fb-ig商店-設定商品能見度-從商店庫存.gif",
@@ -315,17 +323,11 @@
     "docs/assets/images/ec-第三方整合-fb-fbe-設定能見度-從商品目錄.gif",
     "site/assets/images/ec-第三方整合-fb-fb-ig商店-設定商品能見度.gif",
     "docs/assets/images/ec-第三方整合-fb-fb-ig商店-設定商品能見度.gif",
-    "site/assets/images/ec-第三方整合-fb-fb-ig商店-設定商店能見度.png",
     "docs/ec/integrations/fb/mbe/排除商品不同步至 Facebook 與 Instagram 商店.md~",
     "site/ec/payments-and-logistics/index.html",
     "site/ec/payments-and-logistics/東南亞站金流服務/index.html",
     "site/ec/payments-and-logistics/東南亞站金流服務",
     "site/ec/products/排除商品上傳至第三方平台/index.html",
-    "site/ec/products/排除商品上傳至第三方平台",
-    "site/ec/payments-and-logistics/順豐海外物流/index.html",
-    "site/ec/payments-and-logistics/順豐海外物流",
-    "site/ec/payments-and-logistics/設定街口支付/index.html",
-    "site/ec/payments-and-logistics/設定街口支付",
     "docs/ec/products/creation/設定商品色票與款式圖片對應.md",
     "docs/ec/integrations/fb/mbe/排除商品不同步至 Facebook 與 Instagram 商店.md",
     "docs/ec/integrations/fb/mbe/排除不欲顯示於 Facebook 與 Instagram 商店的商品.md",
@@ -348,8 +350,6 @@
     "docops/manifest.md",
     "docs/wms/進倉單.md",
     "docs/wms/通路.md",
-    "docs/wms/退貨與派車.md",
-    "docs/wms/退貨單.md",
-    "docs/wms/調倉單.md"
+    "docs/wms/退貨與派車.md"
   ]
 }
