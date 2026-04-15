@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=4833",
-                "title": "拖拉版型 - 色票功能 - CYBERBIZ 一般版教學文件",
-                "mode": "webview"
+                "url": "https://www.cyberbiz.io/helpcenter/?p=8765",
+                "title": "cyberbiz.io/helpcenter/?p=8765",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "拖拉版型 - 色票功能 - CYBERBIZ 一般版教學文件"
+              "title": "cyberbiz.io/helpcenter/?p=8765"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=31319",
-                "title": "拖拉版型 – 色票功能",
-                "mode": "webview"
+                "url": "https://www.cyberbiz.io/support/?p=23999",
+                "title": "cyberbiz.io/support/?p=23999",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "拖拉版型 – 色票功能"
+              "title": "cyberbiz.io/support/?p=23999"
             }
           }
         ]
@@ -303,30 +303,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70ccdcc682095e33",
+  "active": "2c27b3aecd22969c",
   "lastOpenFiles": [
-    "site/ec/products/discovery/設定前台商品篩選器/index.html",
-    "site/ec/products/discovery/設定前台商品篩選器",
+    "site/assets/images/ec-第三方整合-line login channel-openid connect.gif",
+    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
+    "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
+    "site/stylesheets/extra.css",
+    "site/stylesheets/extra-bk.css",
+    "site/stylesheets",
+    "site/assets/images/ec-訂單-訂單報表匯出-篩選項目.png",
+    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
+    "site/assets/images/ec-訂單-所有訂單.png",
+    "site/assets/videos/ec-product-filter-frontend-adjust-order.zh-tw.mp4",
+    "site/assets/videos/ec-connect-logistics-t-cat.zh-tw.mp4",
+    "site/assets/videos/e-ticket-reconciliation-computer.mp4",
+    "site/assets/videos",
+    "site/assets/images/POS-前台-登入頁面01.png",
+    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
+    "site/assets/images/ec-gmc-p4-運送設定.png",
+    "site/assets/images/GANDI-後台-域名-新增CNAME03.png",
+    "site/assets/images/POS-安裝-Posiflex有線發票機-啟用01.png",
+    "site/ec/products/設定商品搜尋可見性/index.html",
+    "site/ec/products/設定商品搜尋可見性",
+    "site/ec/payments-and-logistics/東南亞站金流服務/index.html",
     "docs/ec/products/discovery/設定前台商品篩選器.md",
-    "site/ec/payments-and-logistics/查詢宅配託運單紀錄/index.html",
-    "site/ec/payments-and-logistics/查詢宅配託運單紀錄",
-    "site/ec/products/批次修改商品描述與配送設定/index.html",
-    "site/ec/products/批次修改商品描述與配送設定",
-    "site/ec/payments-and-logistics/北美站金流服務/index.html",
-    "site/ec/payments-and-logistics/北美站金流服務",
-    "site/ec/payments-and-logistics/設定門市取貨服務/index.html",
-    "site/ec/payments-and-logistics/設定門市取貨服務",
-    "site/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）/index.html",
-    "site/assets/images/EC-後台-管理中心-顧客註冊設定-新增自訂欄位01.png",
-    "site/assets/images/ec-第三方整合-line developer-liff tab.png",
-    "site/assets/images/EC-後台-行銷活動-紅利商城-設定EC商品紅利兌換值01.png",
-    "site/assets/images/EC-後台-行銷活動-指定商品送活動序號-選擇商品01.png",
-    "site/assets/images/ec-網站外觀-樣板編輯器-zh-tw-yml.png",
-    "site/assets/images/ec-new-branch-store-manager.zh-tw.gif",
-    "site/assets/images/WMS-外箱黏貼範例01.png",
-    "site/assets/images/ec-金物流-AFTEE.png",
-    "site/assets/images/ec-網站外觀-前台語系文字設定-商品名稱.gif",
-    "site/assets/images/ec-第三方整合-linetag-建立受眾-lineoa.png",
     "docs/ec/products/discovery/設定搜尋結果中排除特定關鍵字商品.md",
     "docs/ec/products/discovery/設定站內搜尋功能.md",
     "docs/ec/products/creation/設定商品色票與款式圖片對應.md",
