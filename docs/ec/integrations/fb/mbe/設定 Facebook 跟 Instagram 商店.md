@@ -45,7 +45,7 @@ prerequisites:
 related:
   - "[[設定 FBE 帳號授權與資產連結]]"
   - "[[設定 FBE 網域驗證]]"
-  - "[[設定商品色票與款式圖片對應]]"
+  - "[[設定商品色票與款式圖片]]"
 tags:
   - Facebook_商店
   - Instagram_商店

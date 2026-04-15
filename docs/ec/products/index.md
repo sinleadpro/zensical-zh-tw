@@ -20,7 +20,7 @@ hide:
 ---
 
 
-[:lucide-package-plus:](docs/ec/products/creation/新增單一商品.md){ .md-button title="新增第一個商品" }
+[:lucide-package-plus:](新增與更新商品.md){ .md-button title="新增第一個商品" }
 [:lucide-import:](#){ .md-button title="Excel 大量匯入"}
 
 
@@ -91,7 +91,7 @@ VIP 價格、**搜尋可見性排除**
 <div class="grid cards" markdown>
 
 - :lucide-package-plus:{ .lg }  
-   [__新增商品__](docs/ec/products/creation/新增單一商品.md)  
+   [__新增商品__](新增與更新商品.md)  
   建立新商品或更新既有商品資訊與設定。  
 
 - :lucide-pencil:{ .lg }  
