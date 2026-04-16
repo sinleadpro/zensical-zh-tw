@@ -192,16 +192,36 @@ comments: false
 
 ## 商品詳細設定建議
 
-*   **Google 商品類別**：建議至商品設定頁的「Google 產品類別」手動選擇正確類別，能讓廣告投放更精準。詳細操作請參考[編輯商品描述與商品設定](../../products/creation/編輯商品描述與商品設定.md){ data-preview }。
-*   **圖片規範**：請選擇 **無價格、無宣傳標語、無品牌浮水印** 的圖片，否則可能不符合 [Google 規範](../../products/creation/新增單一商品.md#Google-圖片規範){ data-preview }。
+<div class="grid cards" markdown>
+
+-   :lucide-shapes:{ .lg .middle } __Google 商品類別設定__
+
+    ---
+
+    建議至商品設定頁的「Google 產品類別」手動選擇正確類別，能讓廣告投放更精準。
+
+    [:lucide-arrow-right: 設定教學](../../products/creation/編輯商品描述與商品設定.md#進階設定){ data-preview }
+
+-   :lucide-image:{ .lg .middle } __圖片規範__
+
+    ---
+
+    請選擇 **無價格、無宣傳標語、無品牌浮水印** 的圖片，否則可能不符合 [Google 規範](https://support.google.com/merchants/answer/6324350#Image_guidelines)。
+
+    [:lucide-arrow-right: 設定教學](../../products/creation/新增與更新商品.md#商品圖片){ data-preview }
+
+</div>
+
+
+
 
 ## 哪些商品不會被上傳 (自動排除邏輯)
 
 系統會自動排除以下情況的商品，不會上傳至 GMC：
 
-1.  **不公開的商品**（眼睛圖示關閉）。
-2.  **已下架或達下架時間** 的商品。
-3.  **標籤設定為「贈品」** 或 **「排除product feed」** 的商品。
+- **不公開的商品**（眼睛圖示關閉）。
+- **已下架或達下架時間** 的商品。
+- **標籤設定為「贈品」** 或 **「排除product feed」** 的商品。
 
 ## 後續操作
 

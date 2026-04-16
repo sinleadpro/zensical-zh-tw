@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "10f9d93c6521323e",
@@ -303,8 +303,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70ccdcc682095e33",
+  "active": "eea1d6126d665e64",
   "lastOpenFiles": [
+    "site/assets/images/ec-商品-商品圖片-上傳.png",
+    "docs/assets/images/ec-商品-商品圖片-上傳.png",
+    "site/assets/images/ec-商品-商品圖片.png",
+    "docs/assets/images/ec-商品-商品圖片.png",
     "docs/ec/products/creation/設定商品影片.md~",
     "site/ec/payments-and-logistics/設定門市取貨服務/index.html",
     "site/ec/payments-and-logistics/設定門市取貨服務",
@@ -315,7 +319,6 @@
     "site/ec/payments-and-logistics/LINEX 跨境物流",
     "site/ec/payments-and-logistics/設定 PayPal/index.html",
     "site/ec/payments-and-logistics/設定 PayPal",
-    "site/ec/payments-and-logistics/設定街口支付/index.html",
     "docs/ec/products/creation/設定商品影片.md",
     "site/assets/images/EC-後台-金物流-宅配物流-新增混合物流01.png",
     "site/assets/images/ec-第三方整合-line團購商品-加入所選商品.gif",
@@ -324,9 +327,6 @@
     "site/assets/images/HiNet-後台-網域資訊-新增CNAME03.png",
     "site/assets/images/EC-後台-行銷活動-紅利商城-EC基本設定01.png",
     "site/assets/images/EC-後台-會員-所有客服問題-畫面總覽01.png",
-    "site/assets/images/ec-custom-logistics-add.zh-tw.png",
-    "site/assets/images/ec-order-returning.zh-tw.png",
-    "site/assets/images/EC-後台-行銷活動-指定物流送紅利-畫面總覽01.png",
     "docs/ec/app-market/CYBERBIZ APP 功能指南.md",
     "docs/ec/products/get-started/使用商品管理介面管理商品.md",
     "docs/ec/app-market/automation/CYBERBIZ APP 功能指南.md",
