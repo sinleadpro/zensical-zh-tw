@@ -101,7 +101,8 @@ copyright = """
         { "商品" = [
             { "商品管理" = "ec/products/index.md" },  
             { "開始使用" = [
-                {"商品管理介面" = "ec/products/get-started/快速上手商品管理.md"}
+                {"overview" = "ec/products/get-started/index.md"},
+                {"商品管理介面" = "ec/products/get-started/使用商品管理介面管理商品.md"}
             ]},
             { "建立與設定" = [
                 {"新增與更新" = "ec/products/creation/新增與更新商品.md"},
@@ -271,16 +272,16 @@ copyright = """
             { "日本站：建立特定商取引法頁面" = "ec/website-appearance/日本站：建立特定商取引法頁面.md" },
         ]},
         { "APP MARKET" = [
-            { "overview" = "ec/app-market/index.md" },
-            { "AUTOMATION" = [
-              { "自動化行銷" = "ec/app-market/automation/使用 AUTOMATION 建立自動化推播流程.md" }
+            {"overview" = "ec/app-market/index.md"},
+            {"AUTOMATION" = [
+              {"自動化行銷" = "ec/app-market/automation/使用 AUTOMATION 建立自動化推播流程.md"}
             ]},
-            { "CYBERBIZ 擴充服務" = [
-                { "overview" = "ec/app-market/cyberbiz-extensions/index.md" },
-                { "Chat Box" = [
-                    { "overview" = "ec/app-market/cyberbiz-extensions/chat-box/index.md" },
+            {"CYBERBIZ 擴充服務" = [
+                {"overview" = "ec/app-market/cyberbiz-extensions/index.md"},
+                {"Chat Box" = [
+                    {"overview" = "ec/app-market/cyberbiz-extensions/chat-box/index.md"},
                 ]},
-                { "全通路庫存管理" = [
+                {"全通路庫存管理" = [
                     { "Step 1 安裝啟用" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step1.安裝啟用.md" },
                     { "Step 2 導入商品與建立關聯" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step2.導入商品與建立關聯.md" },
                     { "Step 3 庫存同步" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step3.官網與蝦皮商品庫存同步.md" },
@@ -288,6 +289,7 @@ copyright = """
                     { "Step 5 資訊同步" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step5.官網與蝦皮商品資訊同步.md" },
                 ]},
             ]},
+            {"CYBERBIZ APP" = "ec/app-market/CYBERBIZ APP 功能指南.md"}
         ]},
         { "第三方整合" = [
             {"overview" = "ec/integrations/index.md"},  
