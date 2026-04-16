@@ -305,6 +305,9 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
+    "site/ec/products/discovery/設定商品搜尋可見性/index.html",
+    "site/ec/products/discovery/設定商品搜尋可見性",
+    "docs/ec/products/discovery/設定商品搜尋可見性.md",
     "site/storepal/index.html",
     "site/assets/images/ec-商品-基本設定.png",
     "docs/assets/images/ec-商品-基本設定.png",
@@ -322,8 +325,6 @@
     "site/ec/orders/設定訂單自動結案",
     "site/ec/payments-and-logistics/查詢宅配託運單紀錄/index.html",
     "site/ec/payments-and-logistics/查詢宅配託運單紀錄",
-    "site/pos/orders/修改訂單明細頁「店長改價」的顯示名稱/index.html",
-    "site/pos/orders/修改訂單明細頁「店長改價」的顯示名稱",
     "docs/ec/products/creation/新增與更新商品.md",
     "docs/ec/products/creation/設定商品色票與款式圖片.md",
     "site/assets/images/ec-商品-排除搜尋-批次操作.png",
@@ -349,7 +350,6 @@
     "docs/ec/integrations/fb/mbe/設定 FBE 帳號授權與資產連結.md",
     "docs/ec/integrations/fb/mbe/index.md",
     "docs/ec/integrations/fb/index.md",
-    "docs/ec/analytics/廣告分析指南.md",
-    "docs/ec/integrations/google/設定 Google 購物廣告.md"
+    "docs/ec/analytics/廣告分析指南.md"
   ]
 }
