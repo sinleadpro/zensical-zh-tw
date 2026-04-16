@@ -119,10 +119,10 @@ copyright = """
             ]},
             { "曝光與搜尋" = [
                 {"overview" = "ec/products/discovery/index.md"},
+                {"商品搜尋可見性" = "ec/products/discovery/設定商品搜尋可見性.md"},
                 {"站內搜尋設定" = "ec/products/discovery/設定站內搜尋功能.md"},
                 {"搜尋結果排除" = "ec/products/discovery/設定搜尋結果中排除特定關鍵字商品.md"},
-                {"前台商品篩選器" = "ec/products/discovery/設定前台商品篩選器.md"},
-                {"商品搜尋可見性" = "ec/products/discovery/設定商品搜尋可見性.md"}
+                {"前台商品篩選器" = "ec/products/discovery/設定前台商品篩選器.md"}
             ]},
             { "物流與配送" = [
                 { "配送溫層、物流跟通路設定" = "ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）.md" },
