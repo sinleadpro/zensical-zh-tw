@@ -118,7 +118,7 @@ copyright = """
                 { "標籤管理" = "ec/products/categorization/管理商品標籤.md" }
             ]},
             { "曝光與搜尋" = [
-                {"overview" = ec/products/discovery/index.md"},
+                {"overview" = "ec/products/discovery/index.md"},
                 {"站內搜尋設定" = "ec/products/discovery/設定站內搜尋功能.md"},
                 {"搜尋結果排除" = "ec/products/discovery/設定搜尋結果中排除特定關鍵字商品.md"},
                 {"前台商品篩選器" = "ec/products/discovery/設定前台商品篩選器.md"},

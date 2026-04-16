@@ -78,11 +78,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.cyberbiz.io/helpcenter/?p=4833",
-                "title": "拖拉版型 - 色票功能 - CYBERBIZ 一般版教學文件",
-                "mode": "webview"
+                "title": "cyberbiz.io/helpcenter/?p=4833",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "拖拉版型 - 色票功能 - CYBERBIZ 一般版教學文件"
+              "title": "cyberbiz.io/helpcenter/?p=4833"
             }
           }
         ]
@@ -99,11 +99,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.cyberbiz.io/support/?p=31319",
-                "title": "拖拉版型 – 色票功能",
-                "mode": "webview"
+                "title": "cyberbiz.io/support/?p=31319",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "拖拉版型 – 色票功能"
+              "title": "cyberbiz.io/support/?p=31319"
             }
           }
         ]
@@ -305,30 +305,30 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/ec/products/discovery/設定商品搜尋可見性/index.html",
-    "site/ec/products/discovery/設定商品搜尋可見性",
+    "site/ec/payments-and-logistics/設定 iPASS MONEY 一卡通/index.html",
+    "site/ec/payments-and-logistics/設定 iPASS MONEY 一卡通",
+    "site/ec/payments-and-logistics/澳洲落地版金流服務/index.html",
+    "site/ec/payments-and-logistics/澳洲落地版金流服務",
+    "site/ec/payments-and-logistics/CYBERBIZ EXPRESS 日到台跨境宅配/index.html",
+    "site/ec/payments-and-logistics/CYBERBIZ EXPRESS 日到台跨境宅配",
+    "site/ec/payments-and-logistics/設定 Google Pay™/index.html",
+    "site/ec/payments-and-logistics/設定 Google Pay™",
+    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流/index.html",
+    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流",
+    "site/ec/products/批次修改商品描述與配送設定/index.html",
+    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
+    "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
+    "site/assets/images/ec-gmc-p4-運送設定.png",
+    "site/assets/images/POS-前台-登入頁面01.png",
+    "site/assets/images/ec-about-us-page-configure.zh-tw.png",
+    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
+    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
+    "site/assets/images/GANDI-後台-域名-新增CNAME03.png",
+    "site/assets/images/POS-裝置-有線刷卡機限定傳輸線SUNBOX01.jpg",
+    "site/assets/images/ec-訂單-訂單報表匯出-篩選項目.png",
     "docs/ec/products/discovery/設定商品搜尋可見性.md",
-    "site/storepal/index.html",
-    "site/assets/images/ec-商品-基本設定.png",
-    "docs/assets/images/ec-商品-基本設定.png",
-    "site/assets/images/ec-商品-新增商品.png",
-    "docs/assets/images/ec-商品-新增商品.png",
-    "site/assets/images/ec-商品-新增單筆商品.gif",
-    "docs/assets/images/ec-商品-新增單筆商品.gif",
-    "site/assets/images/ec-商品-新增商品.gif",
-    "docs/assets/images/ec-商品-新增商品.gif",
-    "site/ec/orders/訂單出貨流程/index.html",
-    "site/ec/orders/訂單出貨流程",
-    "site/ec/integrations/google/使用 UTM 參數追蹤行銷流量與分析成效/index.html",
-    "site/ec/integrations/google/使用 UTM 參數追蹤行銷流量與分析成效",
-    "site/ec/orders/設定訂單自動結案/index.html",
-    "site/ec/orders/設定訂單自動結案",
-    "site/ec/payments-and-logistics/查詢宅配託運單紀錄/index.html",
-    "site/ec/payments-and-logistics/查詢宅配託運單紀錄",
     "docs/ec/products/creation/新增與更新商品.md",
     "docs/ec/products/creation/設定商品色票與款式圖片.md",
-    "site/assets/images/ec-商品-排除搜尋-批次操作.png",
-    "docs/assets/images/ec-商品-排除搜尋-批次操作.png",
     "docs/ec/website-appearance/使用拖拉版型設計網站版面與首頁區塊.md",
     "docs/ec/products/discovery/設定前台商品篩選器.md",
     "docs/ec/products/discovery/設定搜尋結果中排除特定關鍵字商品.md",
