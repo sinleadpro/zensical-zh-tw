@@ -78,11 +78,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.cyberbiz.io/helpcenter/?p=958",
-                "title": "預設版型：色票設定 - CYBERBIZ 一般版教學文件",
-                "mode": "webview"
+                "title": "cyberbiz.io/helpcenter/?p=958",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "預設版型：色票設定 - CYBERBIZ 一般版教學文件"
+              "title": "cyberbiz.io/helpcenter/?p=958"
             }
           }
         ]
@@ -99,11 +99,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.cyberbiz.io/support/?p=2018",
-                "title": "預設版型：色票功能",
-                "mode": "webview"
+                "title": "cyberbiz.io/support/?p=2018",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "預設版型：色票功能"
+              "title": "cyberbiz.io/support/?p=2018"
             }
           }
         ]
@@ -305,30 +305,32 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/assets/images/ec-網站外觀-商品頁設定-商品色票-預設版型.png",
-    "docs/assets/images/ec-網站外觀-商品頁設定-商品色票-預設版型.png",
-    "site/assets/images/ec-商品色票-前台-商品群組頁-預設版型.png",
-    "docs/assets/images/ec-商品色票-前台-商品群組頁-預設版型.png",
-    "site/assets/images/ec-商品色票-前台-預設版型.png",
-    "docs/assets/images/ec-商品色票-前台-預設版型.png",
-    "site/assets/images/ec-商品-款式設定-庫存管理.gif",
-    "docs/assets/images/ec-商品-款式設定-庫存管理.gif",
-    "site/assets/images/ec-商品-商品色票款式設定-預設版型.png",
-    "docs/assets/images/ec-商品-商品色票款式設定-預設版型.png",
-    "site/assets/images/ec-商品-商品圖片-色票排序-預設版型.png",
-    "site/storepal/index.html",
-    "site/ec/products/creation/設定商品色票與款式圖片-預設版型/index.html",
-    "site/ec/products/creation/設定商品色票與款式圖片-預設版型",
+    "site/ec/index.html",
+    "site/ec/products/設定超商配送限制與物流排除/index.html",
+    "site/ec/products/設定超商配送限制與物流排除",
+    "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS/index.html",
+    "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS",
+    "site/resources/glossary/index.html",
+    "site/resources/glossary",
+    "site/ec/payments-and-logistics/設定全家冷凍物流 B2C/index.html",
+    "site/ec/payments-and-logistics/設定全家冷凍物流 B2C",
+    "site/ec/payments-and-logistics/東南亞站金流服務/index.html",
+    "site/ec/payments-and-logistics/東南亞站金流服務",
+    "site/assets/images/ec-gmc-p6-串接GoogleAds.gif",
+    "site/assets/images/ec-第三方整合-meta企業管理平台-新增網域.gif",
+    "site/assets/images/Amazon-後台-查看Amazon商品SKU02.png",
+    "site/assets/images/EC-後台-訂單-所有訂單-第三方支付自行人工退款01.png",
+    "site/assets/images/ec-網站外觀-選單排序.gif",
+    "site/assets/images/ec-第三方整合-ga4-流量開發-工作階段來源或媒介.gif",
+    "site/assets/images/EC-後台-訂單-所有訂單-操作已退款01.png",
+    "site/assets/images/ec-第三方整合-line oa-圖文連結.png",
+    "site/assets/images/ec-第三方整合-line購物設定.png",
+    "site/assets/images/ec-推播訊息-line oa 樣板-編輯.png",
+    "docs/ec/integrations/fb/meta-ads/index.md",
+    "docs/ec/integrations/fb/meta-ads/建立 Meta 廣告帳號並完成儲值.md",
     "docs/ec/products/creation/設定商品色票與款式圖片-預設版型.md",
-    "site/ec/products/creation/設定商品色票與款式圖片-拖拉版型/index.html",
-    "site/ec/products/creation/設定商品色票與款式圖片-拖拉版型",
     "docs/ec/products/creation/設定商品色票與款式圖片-拖拉版型.md",
-    "site/ec/products/categorization/設定商品多層級分類.md~",
     "docs/ec/integrations/google/ga/設定 GA4 站內搜尋追蹤.md",
-    "site/assets/images/ec-商品-顏色款式-前台.mov",
-    "docs/assets/images/ec-商品-顏色款式-前台.mov",
-    "docs/ec/products/creation/設定商品影片.md~",
-    "site/ec/payments-and-logistics/設定門市取貨服務/index.html",
     "docs/ec/products/creation/設定商品影片.md",
     "docs/ec/app-market/CYBERBIZ APP 功能指南.md",
     "docs/ec/products/get-started/使用商品管理介面管理商品.md",
@@ -348,8 +350,6 @@
     "docs/ec/integrations/fb/mbe/排除不欲顯示於 Facebook / Instagram 商店的商品.md",
     "templates/grid-complex-guide.md",
     "templates/callout-abstract-form.md",
-    "docs/ec/integrations/串接美安通路.md",
-    "docs/ec/integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品.md",
-    "docs/ec/integrations/google/設定 GMC 重要事件來源追蹤與自動標記.md"
+    "docs/ec/integrations/串接美安通路.md"
   ]
 }
