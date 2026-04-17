@@ -108,7 +108,8 @@ copyright = """
                 {"新增與更新" = "ec/products/creation/新增與更新商品.md"},
                 {"商品簡述與標語" = "ec/products/creation/編輯商品簡述與商品標語.md"},
                 {"商品描述與商品設定" = "ec/products/creation/編輯商品描述與商品設定.md"},
-                {"色票與款式圖片" = "ec/products/creation/設定商品色票與款式圖片.md"},
+                {"色票與款式圖片(拖拉版型)" = "ec/products/creation/設定商品色票與款式圖片-拖拉版型.md"},
+                {"色票與款式圖片(預設版型)" = "ec/products/creation/設定商品色票與款式圖片-預設版型.md"},
                 {"商品影片" = "ec/products/creation/設定商品影片.md" }
             ]},  
             { "分類與標籤" = [
@@ -306,42 +307,7 @@ copyright = """
             ]},
             {"Google" = [
                 {"overview" = "ec/integrations/google/index.md"},
-                {"Google 快速登入" = "ec/integrations/google/設定 Google 快速登入.md"},
-                {"Google Merchant Center 串接" = "ec/integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品.md"},
-                {"GMC 重要事件追蹤" = "ec/integrations/google/設定 GMC 重要事件來源追蹤與自動標記.md"},
-                {"自動化廣告" = "ec/integrations/google/設定自動化廣告.md"},
-                {"移除 Google 索引" = "ec/integrations/google/從 Google 搜尋結果移除特定網頁或子目錄.md"},
-                {"Google Tag Manager" = "ec/integrations/google/建立 Google Tag Manager 並串接 CYBERBIZ.md"},
-                {"Tag Assistant 驗證" = "ec/integrations/google/使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝.md"},
-                {"Google 商家檔案" = "ec/integrations/google/建立與驗證 Google 商家檔案.md"},
-                {"GSC 驗證與設定" = "ec/integrations/google/註冊並驗證 Google Search Console.md"},
-                {"Google Ads 追蹤轉換" = "ec/integrations/google/設定 Google Ads 轉換追蹤.md"},
-                {"Google Ads 強化轉換" = "ec/integrations/google/設定 Google Ads 強化轉換.md"},
-                {"UTM 流量追蹤" = "ec/integrations/google/使用 UTM 參數追蹤行銷流量與分析成效.md"},
-                {"網站安全檢查與申訴" = "ec/integrations/google/使用 Google 安全瀏覽工具檢查並排除網站安全性風險.md"},
-                {"YouTube Shopping" = "ec/integrations/google/YouTube Shopping 設定指南.md"},
-                {"Google Analytics" = [
-                    {"overview" = "ec/integrations/google/ga/index.md"},
-                    {"建立串接" = "ec/integrations/google/ga/建立並串接 Google Analytics.md"},
-                    {"進階設定" = "ec/integrations/google/ga/設定 Google Analytics 進階追蹤與資料分析.md"},
-                    {"排除內部與參照流量" = "ec/integrations/google/ga/設定 GA4 排除內部流量與第三方參照來源.md"},
-                    {"站內追蹤搜尋" = "ec/integrations/google/ga/設定 GA4 站內搜尋追蹤.md"}
-                ]},
-                {"" = "ec/integrations/google/"}
-            ]},
-            { "LINE" = [
-                {"overview" = "ec/integrations/line/index.md"},
-                {"官方帳號串接" = [
-                    {"串接 Messaging API" = "ec/integrations/line/account-integration/串接 LINE Messaging API.md"},
-                    {"LINE 快速登入" = "ec/integrations/line/account-integration/設定 LINE 快速登入.md"},
-                    {"獲取會員手機號碼" = "ec/integrations/line/account-integration/設定 LINE 快速登入時取得會員手機號碼.md"},
-                    {"LIFF 自動登入" = "ec/integrations/line/account-integration/設定 LIFF 自動登入與會員綁定.md"},
-                    {"LINE 會員綁定" = "ec/integrations/line/account-integration/綁定 LINE 官方帳號與官網會員.md"},
-                    {"篩選綁定會員名單" = "ec/integrations/line/account-integration/篩選與應用 LINE OA 綁定會員名單.md"},
-                    {"綁定會員送優惠券" = "ec/integrations/line/account-integration/設定 LINE 綁定會員贈送優惠券.md"}
-                ]},
-                {"行銷與推播" = [
-                    {"LINE 受眾串接" = "ec/integrations/line/marketing/設定 LINE OA 受眾串接.md"},
+                {"Google 快速登入" = "ec/int/keting/設定 LINE OA 受眾串接.md"},
                     {"分眾訊息推播" = "ec/integrations/line/marketing/設定與發送 LINE OA 分眾訊息推播.md"},
                     {"官網加入好友連結" = "ec/integrations/line/marketing/在官網新增 LINE 加入好友入口.md"},
                     {"訂單頁加入好友連結" = "ec/integrations/line/marketing/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md"},
@@ -385,7 +351,6 @@ copyright = """
                 { "解決 Cloudflare SSL 衝突問題" = "ec/website-management/解決 Cloudflare SSL 衝突問題.md" },
             ]},
         ]},
-    ]},
     { "智慧倉儲" = [
         { "智慧倉儲" = "wms/index.md"},
         { "開始使用" = [
