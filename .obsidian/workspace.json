@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=4833",
-                "title": "cyberbiz.io/helpcenter/?p=4833",
-                "mode": "error"
+                "url": "https://www.cyberbiz.io/helpcenter/?p=958",
+                "title": "預設版型：色票設定 - CYBERBIZ 一般版教學文件",
+                "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "cyberbiz.io/helpcenter/?p=4833"
+              "title": "預設版型：色票設定 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=31319",
-                "title": "cyberbiz.io/support/?p=31319",
-                "mode": "error"
+                "url": "https://www.cyberbiz.io/support/?p=2018",
+                "title": "預設版型：色票功能",
+                "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "cyberbiz.io/support/?p=31319"
+              "title": "預設版型：色票功能"
             }
           }
         ]
@@ -303,8 +303,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "eea1d6126d665e64",
+  "active": "70ccdcc682095e33",
   "lastOpenFiles": [
+    "docs/ec/integrations/google/ga/設定 GA4 站內搜尋追蹤.md",
     "site/assets/images/ec-商品-商品編輯頁-前往該商品.png",
     "docs/assets/images/ec-商品-商品編輯頁-前往該商品.png",
     "site/assets/images/ec-商品-顏色款式已選擇-前台.png",
@@ -317,7 +318,6 @@
     "docs/assets/images/ec-商品-顏色款式-前台.gif",
     "site/assets/images/ec-商品-顏色款式-前台.mov",
     "docs/assets/images/ec-商品-顏色款式-前台.mov",
-    "site/assets/images/ec-商品-商品圖片-顏色款式.png",
     "docs/ec/products/creation/設定商品影片.md~",
     "site/ec/payments-and-logistics/設定門市取貨服務/index.html",
     "site/ec/payments-and-logistics/設定門市取貨服務",
