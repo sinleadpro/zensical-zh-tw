@@ -43,7 +43,7 @@ permalink: ""
 comments: ""
 search:
   exclude: ""
-icon: simple/appstore
+icon: simple/meta
 hide:
 ---
 
@@ -62,9 +62,9 @@ hide:
 
 在安裝 Meta Ads App 之前，請務必依序完成以下操作，否則系統會自動跳轉至對應設定頁：
 
-- [x] **串接 [Meta 商業擴充套件](../mbe/設定 FBE 帳號授權與資產連結.md){ data-preview }**：確保 EC 後台已與 Facebook 相關資產（粉專、像素、目錄）連結成功。
-- [x] **建立 [Meta 廣告帳號](建立 Meta 廣告帳號並儲值.md){ data-preview }**：需先於後台建立專屬廣告帳號。
-- [x] **完成 [廣告金儲值](建立 Meta 廣告帳號並儲值.md#儲值廣告金){ data-preview }**：商家需預先儲值廣告預算至後台方可開始投放（最低門檻為 NT$15,000）。
+- [x] **串接 [Meta 商業擴充套件](../integrations/fb/mbe/設定 FBE 帳號授權與資產連結.md){ data-preview }**：確保 EC 後台已與 Facebook 相關資產（粉專、像素、目錄）連結成功。
+- [x] **建立 [Meta 廣告帳號](../integrations/fb/meta-ads/建立 Meta 廣告帳號並儲值.md){ data-preview }**：需先於後台建立專屬廣告帳號。
+- [x] **完成 [廣告金儲值](../integrations/fb/meta-ads/建立 Meta 廣告帳號並儲值.md#儲值廣告金){ data-preview }**：商家需預先儲值廣告預算至後台方可開始投放（最低門檻為 NT$15,000）。
 
 ## 安裝步驟教學
 

@@ -290,9 +290,8 @@ copyright = """
                     { "Step 5 資訊同步" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step5.官網與蝦皮商品資訊同步.md" },
                 ]},
             ]},
-            {"CYBERBIZ APP" = "ec/app-market/CYBERBIZ APP 功能指南.md"}
-                {"Meta Ads App 安裝" = "ec/integrations/fb/meta-ads/安裝 Meta Ads App.md"}
-
+            {"CYBERBIZ APP" = "ec/app-market/CYBERBIZ APP 功能指南.md"},
+            {"Meta Ads App 安裝" = "ec/app-market/安裝 Meta Ads App.md"}
         ]},
         { "第三方整合" = [
             {"overview" = "ec/integrations/index.md"},  
