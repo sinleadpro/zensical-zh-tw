@@ -442,6 +442,10 @@ copyright = """
                 { "LINE 會員條碼設定" = "pos/integrations/line/設定與使用 LINE 顯示會員條碼（串接 POS 結帳）.md" }
             ]},
         ]},
+        {"divider" = "divider"},
+        { "開始使用" = [
+            { "overview" = "pos/get-started/index.md" },
+        ]},
         { "硬體安裝" = [
             { "有線刷卡機" = "pos/hardware/有線刷卡機.md" },
             { "商米無線刷卡機" = "pos/hardware/商米無線刷卡機.md" },
@@ -452,22 +456,52 @@ copyright = """
             { "平板裝置使用說明" = "pos/hardware/平板裝置使用說明.md" },
             { "網路連線異常與斷線提示" = "pos/hardware/網路連線異常與斷線提示.md" },
         ]},
-        { "後台設置" = [
-            { "設定前台自動登出時間" = "pos/others2/設定前台自動登出時間.md" },
-            { "員工權限與帳號管理" = "pos/others2/員工權限與帳號管理.md" },
+        { "軟體安裝" = [
+            { "驅動程式" = "" },
+        ]},
+        { "第三方服務" =[
+            { "盟立電子發票" = "pos/third-party/盟立電子發票.md" },
+            { "LINE PAY 掃碼支付" = "pos/check/LINE PAY 掃碼支付.md" },
+        ]},
+        {"divider" = "divider"},
+        { "商店管理" = [
+            { "公告系統" = "pos/others2/公告系統.md" },
+            { "安全性設定" = "pos/others2/安全性設定.md" },
             { "續購與加購方案" = "pos/others2/續購與加購方案.md" },
         ]},
+        { "權限管理" = [
+            { "設定前台自動登出時間" = "pos/others2/設定前台自動登出時間.md" },
+            { "員工權限與帳號管理" = "pos/others2/員工權限與帳號管理.md" },
+            { "人員登入" = "pos/others2/人員登入.md" },
+        ]},
+        { "報表分析" = [
+            { "營收分析" = "" },
+            { "商品分析" = "" },
+        ]},
+        {"divider" = "divider"},
         { "結帳" =[
+            { "子機結帳綁定" = "pos/check/子機結帳綁定.md" },
             { "付款方式" =[
                 { "overview" = "pos/check/index.md" },
-                { "LINE PAY 掃碼支付" = "pos/check/LINE PAY 掃碼支付.md" },
                 { "多付款方式" = "pos/check/多付款方式.md" },
             ]},
+            { "列印發票明細" = "pos/check/列印發票明細.md" },
+            { "列印商品標籤" = "pos/check/列印商品標籤.md" },
+            { "庫存不足通知" = "pos/check/庫存不足通知.md" },
             { "紅利商城" = "pos/check/紅利商城.md" },
             { "客顯互動遊戲" = "pos/check/客顯互動遊戲.md" },
-            { "列印商品標籤" = "pos/check/列印商品標籤.md" },
             { "離線結帳模式" = "pos/check/離線結帳模式.md" },
             { "掃描槍掃描後找不到商品" = "pos/check/掃描槍掃描後找不到商品.md" },
+            { "混稅發票" = "pos/check/混稅發票.md" },
+        ]},
+        { "商品選單" =[
+            { "overview" = "" },
+        ]},
+        { "訂單" =[
+            { "overview" = "pos/orders_ann/index.md" },
+        ]},
+        { "會員" =[
+            { "overview" = "pos/member/index.md" },
         ]},
         { "庫存" = [
             { "全通路庫存管理" = "pos/inventory/全通路庫存管理.md" },
