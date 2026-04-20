@@ -21,7 +21,7 @@ sites:
 audiences:
   - admin
 difficulty: intermediate
-tnb: branch
+tnb: trunk
 plans:
   - 專業
   - 進階

@@ -20,8 +20,15 @@ sites:
 audiences:
   - admin
 difficulty: ""
-tnb: ""
+tnb: trunk
 plans:
+  - 專業
+  - 進階
+  - 高手
+  - 專業 PLUS 
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 cyb_extensions: []
 intents: []
 features: []
