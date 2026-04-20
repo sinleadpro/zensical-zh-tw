@@ -305,6 +305,13 @@
   },
   "active": "2c27b3aecd22969c",
   "lastOpenFiles": [
+    "docs/ec/app-market/安裝 Meta Ads App.md",
+    "docs/ec/integrations/app-market/安裝 Meta Ads App.md",
+    "docs/ec/integrations/app-market",
+    "site/assets/images/ec-第三方整合-fb-串接meta-ads-app.png",
+    "docs/assets/images/ec-第三方整合-fb-串接meta-ads-app.png",
+    "site/assets/images/ec-第三方整合-appmarket-meta-ads-app.png",
+    "docs/assets/images/ec-第三方整合-appmarket-meta-ads-app.png",
     "site/ec/integrations/fb/meta-ads/安裝 Meta Ads App/index.html",
     "site/ec/integrations/fb/meta-ads/安裝 Meta Ads App",
     "docs/ec/integrations/fb/meta-ads/安裝 Meta Ads App.md",
@@ -323,12 +330,6 @@
     "docs/ec/integrations/fb/meta-ads/建立 Meta 廣告帳號並完成儲值.md~",
     "site/assets/images/ec-第三方整合-fb-meta企業管理平台-廣告帳號-連結像素.gif",
     "docs/assets/images/ec-第三方整合-fb-meta企業管理平台-廣告帳號-連結像素.gif",
-    "site/assets/images/ec-第三方整合-fb-meta企業管理平台-廣告帳號-指派相關人員.png",
-    "docs/assets/images/ec-第三方整合-fb-meta企業管理平台-廣告帳號-指派相關人員.png",
-    "site/assets/images/ec-第三方整合-fb-meta企業管理平台-已連結廣告帳號.png",
-    "docs/assets/images/ec-第三方整合-fb-meta企業管理平台-已連結廣告帳號.png",
-    "site/wms/操作紀錄列表/index.html",
-    "site/wms/操作紀錄列表",
     "Untitled.md",
     "docs/ec/integrations/fb/meta-ads/index.md",
     "docs/ec/integrations/fb/meta-ads/建立 Meta 廣告帳號並完成儲值.md",
@@ -349,7 +350,6 @@
     "docs/ec/products/discovery/設定搜尋結果中排除特定關鍵字商品.md",
     "docs/ec/products/discovery/設定站內搜尋功能.md",
     "docs/ec/products/creation/設定商品色票與款式圖片對應.md",
-    "docs/ec/integrations/fb/mbe/排除商品不同步至 Facebook 與 Instagram 商店.md",
-    "docs/ec/integrations/fb/mbe/排除不欲顯示於 Facebook 與 Instagram 商店的商品.md"
+    "docs/ec/integrations/fb/mbe/排除商品不同步至 Facebook 與 Instagram 商店.md"
   ]
 }

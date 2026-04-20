@@ -291,6 +291,8 @@ copyright = """
                 ]},
             ]},
             {"CYBERBIZ APP" = "ec/app-market/CYBERBIZ APP 功能指南.md"}
+                {"Meta Ads App 安裝" = "ec/integrations/fb/meta-ads/安裝 Meta Ads App.md"}
+
         ]},
         { "第三方整合" = [
             {"overview" = "ec/integrations/index.md"},  
@@ -307,8 +309,7 @@ copyright = """
                 {"Meta 廣告" = [
                     {"overview" = "ec/integrations/fb/meta-ads/index.md"},
                     {"建立帳號與儲值" = "ec/integrations/fb/meta-ads/建立 Meta 廣告帳號並儲值.md"},
-                    {"廣告活動設定" = "ec/integrations/fb/meta-ads/設定 Meta 廣告活動.md"},
-                    {"Ads App 安裝" = "ec/integrations/fb/meta-ads/安裝 Meta Ads App.md"}
+                    {"廣告活動設定" = "ec/integrations/fb/meta-ads/設定 Meta 廣告活動.md"}
                 ]},
             ]},
             {"Google" = [
