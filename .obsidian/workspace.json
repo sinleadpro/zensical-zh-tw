@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=10374",
-                "title": "Meta 廣告 – Step2 廣告活動設定 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=8048",
+                "title": "設定 Meta 廣告的單日預算 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Meta 廣告 – Step2 廣告活動設定 - CYBERBIZ 一般版教學文件"
+              "title": "設定 Meta 廣告的單日預算 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=1755",
-                "title": "Meta 廣告 – Step2 廣告活動設定",
+                "url": "https://www.cyberbiz.io/support/?p=2166",
+                "title": "設定 Meta 廣告的單日預算",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Meta 廣告 – Step2 廣告活動設定"
+              "title": "設定 Meta 廣告的單日預算"
             }
           }
         ]
@@ -303,26 +303,26 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c27b3aecd22969c",
+  "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/ec/integrations/fb/meta-ads/設定 Meta 廣告每日預算/index.html",
-    "site/ec/integrations/fb/meta-ads/設定 Meta 廣告每日預算",
+    "site/ec/payments-and-logistics/設定 Google Pay™/index.html",
+    "site/ec/payments-and-logistics/設定 Google Pay™",
+    "site/ec/payments-and-logistics/東南亞站金流服務/index.html",
+    "site/ec/payments-and-logistics/東南亞站金流服務",
+    "site/ec/payments-and-logistics/設定 PayPal/index.html",
+    "site/ec/payments-and-logistics/設定 PayPal",
+    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流/index.html",
+    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流",
+    "site/ec/payments-and-logistics/CYBERBIZ EXPRESS 日到台跨境宅配/index.html",
+    "site/ec/payments-and-logistics/CYBERBIZ EXPRESS 日到台跨境宅配",
+    "site/ec/payments-and-logistics/設定信用卡 3D 驗證門檻/index.html",
     "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告每日預算.md",
-    "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告活動.md~",
     "site/assets/images/ec-appmarket-maa-活動內容設定-銷售量.png",
     "site/assets/images/ec-appmarket-maa-活動內容設定-流量.png",
     "docs/assets/images/ec-appmarket-maa-活動內容設定-銷售量.png",
     "docs/assets/images/ec-appmarket-maa-活動內容設定-流量.png",
     "site/assets/images/ec-appmarket-maa-活動目標設定.png",
     "docs/assets/images/ec-appmarket-maa-活動目標設定.png",
-    "site/wms/調倉單/index.html",
-    "site/wms/調倉單",
-    "site/ec/website-management/設定與管理二階段驗證/index.html",
-    "site/ec/website-management/設定與管理二階段驗證",
-    "site/index.html",
-    "site/resources/references/認識 CYBER 幣/index.html",
-    "site/resources/references/認識 CYBER 幣",
-    "site/wms/退貨單/index.html",
     "site/assets/images/ec-第三方整合-fb-廣告活動設定-前往meta-ads-app.png",
     "docs/assets/images/ec-第三方整合-fb-廣告活動設定-前往meta-ads-app.png",
     "site/assets/images/ec-app-market-meta-ads-app-安裝.png",
