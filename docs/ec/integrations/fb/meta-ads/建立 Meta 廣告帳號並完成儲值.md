@@ -1,8 +1,8 @@
 ---
 title: 建立 Meta 廣告帳號並完成儲值
-description: ""
+description: 透過 CYBERBIZ 建立 Meta 廣告帳號並完成儲值。
 created: 2026-04-17 17:10
-last_modified: 2026-04-20 17:40
+last_modified: 2026-04-20 18:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -10,16 +10,17 @@ author: Jase
 version: ""
 reviewers: []
 notes: []
-ga_views:
-feedback:
+ga_views: 0
+feedback: 0
 products:
   - EC
-modules: []
+modules:
+  - 第三方整合
 sites:
   - TW
 audiences:
   - admin
-difficulty: ""
+difficulty: intermediate
 tnb: branch
 plans:
   - 專業
@@ -30,34 +31,46 @@ plans:
   - 高手 PLUS
   - 企業
 cyb_extensions: []
-intents: []
-features: []
+intents:
+  - 建立 Meta 廣告帳號
+  - 儲值廣告金
+  - 設定低餘額提醒
+features:
+  - 廣告帳號建立
+  - 廣告費儲值
+  - 儲值提醒
 prerequisites:
   - 需先擁有 Meta 企業管理帳號 (Business Manager)
-related: []
-tags: []
-acoiv: ""
+related:
+  - "[[設定 Meta 廣告活動]]"
+tags:
+  - Meta
+  - Facebook
+  - 廣告帳號
+  - 儲值
+  - 企業管理平台
+acoiv: activate
 apis: []
 devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
+paths:
+  - 第三方整合 > 臉書 Facebook 設定（廣告/註冊登入） > 廣告帳號設定
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=5621
   - https://www.cyberbiz.io/support/?p=17882
 permalink: ""
-comments: ""
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/circle-plus
-hide:
+hide: []
 ---
 
+透過 CYBERBIZ 建立 Meta 廣告帳號並完成儲值。
 { .subtitle }
-
-{ .doc-badge }
 
 ![Meta廣告設定-CYB後台](../../../../assets/images/ec-第三方整合-fb-meta廣告設定.png){ .hero-page }
 
@@ -81,7 +94,7 @@ hide:
 
 ## 分享廣告帳號權限
 
-[建立廣告帳號](#廣告帳號建立){ data-preview } 後，需將操作權限分享給商家的企業管理平台：
+透過 CYBERBIZ 建立 Meta 廣告帳號並完成儲值，讓商家可由系統代開發票並支付廣告費用，免去自行申報境外稅的繁瑣程序。[建立廣告帳號](#廣告帳號建立){ data-preview } 後，需將操作權限分享給商家的企業管理平台：
 
 1. **後台路徑**：**「第三方整合」** > **「臉書 Facebook 設定（廣告/註冊登入）」** > **「廣告帳號設定」**。
 2. **分享帳號**：點擊 **「分享帳號編號」**，輸入欲分享的 [企業管理平台編號](#查詢企業管理平台編號){ data-preview }。
@@ -152,5 +165,19 @@ hide:
 
 ## 常見問題
 
-??? quote ""
+??? quote "最低儲值金額是多少？"
+
+    最低儲值門檻為新台幣 15,000 元。
+
+??? quote "儲值後廣告預算會過期嗎？"
+
+    廣告預算儲值後 **沒有時間限制**，不會因一個月未用完而被洗掉。
+
+??? quote "廣告帳號閒置會被釋出嗎？"
+
+    若帳號建立後 **滿六個月未曾儲值**，將被視為「閒置帳號」並被系統釋出，屆時商家將失去該帳號操作權限。
+
+??? quote "帳號被釋出了該怎麼辦？"
+
+    帳號被釋出後，商家需重新 [建立廣告帳號](#廣告帳號建立) 並完成儲值，即可再次使用 Meta 廣告投放功能。
 
