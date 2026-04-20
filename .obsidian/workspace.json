@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=8048",
-                "title": "設定 Meta 廣告的單日預算 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=10789",
+                "title": "Meta廣告 – 目錄商品組合 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "設定 Meta 廣告的單日預算 - CYBERBIZ 一般版教學文件"
+              "title": "Meta廣告 – 目錄商品組合 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=2166",
-                "title": "設定 Meta 廣告的單日預算",
+                "url": "https://www.cyberbiz.io/support/?p=46480",
+                "title": "Meta廣告 – 目錄商品組合",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "設定 Meta 廣告的單日預算"
+              "title": "Meta廣告 – 目錄商品組合"
             }
           }
         ]
@@ -305,6 +305,10 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
+    "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告的目錄商品組合.md~",
+    "site/ec/integrations/fb/meta-ads/設定 Meta 廣告的目錄商品組合/index.html",
+    "site/ec/integrations/fb/meta-ads/設定 Meta 廣告的目錄商品組合",
+    "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告的目錄商品組合.md",
     "site/assets/images/ec-第三方整合-fb-meta廣告-創建廣告活動.png",
     "docs/assets/images/ec-第三方整合-fb-meta廣告-創建廣告活動.png",
     "site/ec/payments-and-logistics/設定 Google Pay™/index.html",
@@ -315,8 +319,6 @@
     "site/ec/payments-and-logistics/設定 PayPal",
     "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流/index.html",
     "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流",
-    "site/ec/payments-and-logistics/CYBERBIZ EXPRESS 日到台跨境宅配/index.html",
-    "site/ec/payments-and-logistics/CYBERBIZ EXPRESS 日到台跨境宅配",
     "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告每日預算.md",
     "site/assets/images/ec-appmarket-maa-活動內容設定-銷售量.png",
     "site/assets/images/ec-appmarket-maa-活動內容設定-流量.png",
@@ -326,7 +328,6 @@
     "docs/assets/images/ec-appmarket-maa-活動目標設定.png",
     "site/assets/images/ec-第三方整合-fb-廣告活動設定-前往meta-ads-app.png",
     "docs/assets/images/ec-第三方整合-fb-廣告活動設定-前往meta-ads-app.png",
-    "site/assets/images/ec-app-market-meta-ads-app-安裝.png",
     "docs/ec/app-market/安裝 Meta Ads App.md",
     "docs/ec/integrations/app-market/安裝 Meta Ads App.md",
     "docs/ec/integrations/fb/meta-ads/安裝 Meta Ads App.md",
@@ -349,7 +350,6 @@
     "docs/ec/products/creation/設定商品色票與款式圖片.md",
     "docs/ec/website-appearance/使用拖拉版型設計網站版面與首頁區塊.md",
     "docs/ec/products/discovery/設定前台商品篩選器.md",
-    "docs/ec/products/discovery/設定搜尋結果中排除特定關鍵字商品.md",
-    "docs/ec/products/discovery/設定站內搜尋功能.md"
+    "docs/ec/products/discovery/設定搜尋結果中排除特定關鍵字商品.md"
   ]
 }
