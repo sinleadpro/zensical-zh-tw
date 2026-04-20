@@ -122,7 +122,7 @@ hide:
 
         抓取 [Pixel 已蒐集到的商品資訊](建立 Meta 廣告帳號並儲值.md#像素-pixel-設定){ data-preview }。
 
-          !!! info "PLUS 版商家若有 [上傳商品影片](../../../products/creation/設定商品影片.md){ data-preview } 並 [同步目錄](){ data-preview }，廣告將以影片與商品圖輪播展現。"
+        !!! info "PLUS 版商家若有 [上傳商品影片](../../../products/creation/設定商品影片.md){ data-preview } 並 [同步目錄](){ data-preview }，廣告將以影片與商品圖輪播展現。"
 
     === "圖片型"
 
