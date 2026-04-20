@@ -22,7 +22,8 @@ audiences:
 difficulty: ""
 tnb: ""
 plans:
-cyb_extensions: []
+cyb_extensions:
+  - APP_MARKET
 intents: []
 features: []
 prerequisites: []
@@ -48,9 +49,10 @@ hide:
 
 { .subtitle }
 
+[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能) | APP MARKET
 { .doc-badge }
 
-{ .hero-page }
+![Meta Ads App (APP MARKET)](../../../../assets/images/ec-第三方整合-appmarket-meta-ads-app.png){ .hero-page }
 
 ## Meta Ads App 說明
 
