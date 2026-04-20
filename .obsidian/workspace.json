@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=958",
-                "title": "cyberbiz.io/helpcenter/?p=958",
-                "mode": "error"
+                "url": "https://www.cyberbiz.io/helpcenter/?p=5621",
+                "title": "Meta 廣告 – Step1 廣告帳號建立/儲值 - CYBERBIZ 一般版教學文件",
+                "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "cyberbiz.io/helpcenter/?p=958"
+              "title": "Meta 廣告 – Step1 廣告帳號建立/儲值 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=2018",
-                "title": "cyberbiz.io/support/?p=2018",
-                "mode": "error"
+                "url": "https://www.cyberbiz.io/support/?p=17882",
+                "title": "Meta 廣告 – Step1 廣告帳號建立/儲值",
+                "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "cyberbiz.io/support/?p=2018"
+              "title": "Meta 廣告 – Step1 廣告帳號建立/儲值"
             }
           }
         ]
@@ -303,29 +303,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70ccdcc682095e33",
+  "active": "2c27b3aecd22969c",
   "lastOpenFiles": [
-    "site/ec/index.html",
-    "site/ec/products/設定超商配送限制與物流排除/index.html",
-    "site/ec/products/設定超商配送限制與物流排除",
-    "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS/index.html",
-    "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS",
-    "site/resources/glossary/index.html",
-    "site/resources/glossary",
-    "site/ec/payments-and-logistics/設定全家冷凍物流 B2C/index.html",
-    "site/ec/payments-and-logistics/設定全家冷凍物流 B2C",
-    "site/ec/payments-and-logistics/東南亞站金流服務/index.html",
-    "site/ec/payments-and-logistics/東南亞站金流服務",
+    "site/ec/website-appearance/設定導覽選單滑鼠移入自動展開/index.html",
+    "site/ec/website-appearance/設定導覽選單滑鼠移入自動展開",
+    "site/wms/季別群組/index.html",
+    "site/wms/季別群組",
+    "site/wms/調倉單/index.html",
+    "site/wms/調倉單",
+    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款/index.html",
+    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款",
+    "site/ec/website-management/新增網站管理員並設定權限/index.html",
+    "site/ec/website-management/新增網站管理員並設定權限",
+    "site/ec/app-market/automation/使用 AUTOMATION 建立自動化推播流程/index.html",
+    "site/assets/images/ec-第三方整合-fb-meta廣告帳號-啟用.png",
+    "docs/assets/images/ec-第三方整合-fb-meta廣告帳號-啟用.png",
+    "site/assets/images/ec-第三方整合-fb-meta廣告帳號-建立.png",
+    "docs/assets/images/ec-第三方整合-fb-meta廣告帳號-建立.png",
+    "site/assets/images/ec-第三方整合-fb-meta廣告帳號啟用.png",
+    "docs/assets/images/ec-第三方整合-fb-meta廣告帳號啟用.png",
+    "site/assets/images/ec-第三方整合-fb-meta廣告設定.png",
+    "docs/assets/images/ec-第三方整合-fb-meta廣告設定.png",
+    "Untitled.md",
     "site/assets/images/ec-gmc-p6-串接GoogleAds.gif",
     "site/assets/images/ec-第三方整合-meta企業管理平台-新增網域.gif",
-    "site/assets/images/Amazon-後台-查看Amazon商品SKU02.png",
-    "site/assets/images/EC-後台-訂單-所有訂單-第三方支付自行人工退款01.png",
-    "site/assets/images/ec-網站外觀-選單排序.gif",
-    "site/assets/images/ec-第三方整合-ga4-流量開發-工作階段來源或媒介.gif",
-    "site/assets/images/EC-後台-訂單-所有訂單-操作已退款01.png",
-    "site/assets/images/ec-第三方整合-line oa-圖文連結.png",
-    "site/assets/images/ec-第三方整合-line購物設定.png",
-    "site/assets/images/ec-推播訊息-line oa 樣板-編輯.png",
     "docs/ec/integrations/fb/meta-ads/index.md",
     "docs/ec/integrations/fb/meta-ads/建立 Meta 廣告帳號並完成儲值.md",
     "docs/ec/products/creation/設定商品色票與款式圖片-預設版型.md",
@@ -349,7 +350,6 @@
     "docs/ec/integrations/fb/mbe/排除不欲顯示於 Facebook 與 Instagram 商店的商品.md",
     "docs/ec/integrations/fb/mbe/排除不欲顯示於 Facebook / Instagram 商店的商品.md",
     "templates/grid-complex-guide.md",
-    "templates/callout-abstract-form.md",
-    "docs/ec/integrations/串接美安通路.md"
+    "templates/callout-abstract-form.md"
   ]
 }

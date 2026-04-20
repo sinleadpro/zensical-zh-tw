@@ -161,7 +161,7 @@ hide:
 
     ```
 
-進一步瞭解 [如何在 Meta Business Suite 建立商家資產管理組合 :lucide-external-link:](https://www.facebook.com/business/help/1710077379203657)。
+!!! info "進一步瞭解 [如何在 Meta Business Suite 建立商家資產管理組合 :lucide-external-link:](https://www.facebook.com/business/help/1710077379203657)。"
 
 ---
 
@@ -172,7 +172,7 @@ Facebook 的資產管理採用 **階層關係**：
 *   **所有權限制：** 企業管理平台管理品牌的所有資產。若「粉絲專頁」或「像素」**非此企業管理平台所擁有**，則設定流程中將無法選取。
 *   **檢查要點：** 務必確認您登入的 Facebook 帳號具備該平台及其資產的管理權限。
 
-進一步瞭解 [商家資產管理組合和商家資產權限 :lucide-external-link:](https://www.facebook.com/business/help/442345745885606)。
+!!! info "進一步瞭解 [商家資產管理組合和商家資產權限 :lucide-external-link:](https://www.facebook.com/business/help/442345745885606)。"
 
 ---
 
@@ -183,7 +183,8 @@ Facebook 的資產管理採用 **階層關係**：
 *   **自動進階配對（建議開啟）：** 無須編寫程式碼，可直接在「事件管理工具」中開啟，協助更精準地追蹤受眾。
 *   **手動進階配對：** 需由開發人員修改像素基底程式碼，透過參數傳送網站訪客的資料。
 
-進一步瞭解 [網站進階配對 :lucide-external-link:](https://www.facebook.com/business/help/611774685654668?id=1205376682832142)。
+!!! info "進一步瞭解 [網站進階配對 :lucide-external-link:](https://www.facebook.com/business/help/611774685654668?id=1205376682832142)。"
+
 <!--
 *   **轉換 API (CAPI)：** 設定完成後，系統會開始自動傳送伺服器端 (Server to Server) 的像素事件，您可至 [Meta 事件管理工具 :lucide-external-link:](https://eventsmanager.facebook.com/)查看連結方式是否出現「伺服器」。
 -->
