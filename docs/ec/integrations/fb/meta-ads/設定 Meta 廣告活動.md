@@ -50,7 +50,7 @@ permalink: ""
 comments: ""
 search:
   exclude: ""
-icon: lucide/megaphone
+icon: lucide/rocket
 hide:
 ---
 
