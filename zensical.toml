@@ -291,14 +291,14 @@ copyright = """
                 ]},
             ]},
             {"CYBERBIZ APP" = "ec/app-market/CYBERBIZ APP 功能指南.md"},
-            {"Meta Ads App 安裝" = "ec/app-market/安裝 Meta Ads App.md"}
+            {"CYBERBIZ Meta Ads" = "ec/app-market/安裝 Meta Ads App.md"}
         ]},
         { "第三方整合" = [
             {"overview" = "ec/integrations/index.md"},  
             {"Facebook" = [
                 {"overview" = "ec/integrations/fb/index.md"},
                 {"Facebook 快速登入" = "ec/integrations/fb/設定 Facebook 快速登入.md"},
-                {"FB 商業擴充" = [
+                {"商業擴充功能" = [
                     {"overview" = "ec/integrations/fb/mbe/index.md"},
                     {"授權與資產連結" = "ec/integrations/fb/mbe/設定 FBE 帳號授權與資產連結.md"},
                     {"網域驗證" = "ec/integrations/fb/mbe/設定 FBE 網域驗證.md"},
