@@ -87,11 +87,14 @@ hide:
 
     <div class="grid cards" markdown>
 
-    - [活動目標設定](#活動目標設定){ data-preview }
+    - [活動目標設定](#活動目標設定){ data-preview }  
+      選擇流量或銷售量目標，決定廣告優化邏輯。
 
-    - [活動內容設定](#活動內容設定){ data-preview }
+    - [活動內容設定](#活動內容設定){ data-preview }  
+      設定廣告名稱、每日預算與投放起訖時間。
 
-    - [廣告創意設定](#廣告創意設定){ data-preview }
+    - [廣告創意設定](#廣告創意設定){ data-preview }  
+      配置廣告素材、商品組合與導購連結。
 
     </div>
 
@@ -180,13 +183,9 @@ hide:
 
 <div class="grid cards" markdown>
 
-- :lucide-import:{ .lg }
-  [____]()
-  。
-
-- :lucide-ban:{ .lg }
-  [____]()
-  。
+- :lucide-chart-line:{ .lg }   
+  [__使用 Meta 廣告成效分析__](使用 Meta 廣告成效分析.md){ data-preview }       
+  透過 CYBERBIZ 後台直接掌握廣告投放成效，查看 ROAS、創造營收、廣告花費等關鍵指標，並可使用 AI Insights 獲取數據洞察與優化建議。
 
 </div>
 
