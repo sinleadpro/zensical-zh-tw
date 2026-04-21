@@ -64,7 +64,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       },
       {
         "id": "10f9d93c6521323e",
@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=4833",
-                "title": "拖拉版型 - 色票功能 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=1737",
+                "title": "Meta 廣告成效分析 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "拖拉版型 - 色票功能 - CYBERBIZ 一般版教學文件"
+              "title": "Meta 廣告成效分析 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=31319",
-                "title": "拖拉版型 – 色票功能",
+                "url": "https://www.cyberbiz.io/support/?p=48371",
+                "title": "Meta廣告成效分析",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "拖拉版型 – 色票功能"
+              "title": "Meta廣告成效分析"
             }
           }
         ]
@@ -305,51 +305,51 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/assets/images/ec-商品-商品標籤-排除上傳至第三方.png",
-    "docs/assets/images/ec-商品-商品標籤-排除上傳至第三方.png",
-    "site/assets/images/ec-第三方整合-fb-fb-ig商店-設定商品能見度-從商店庫存.gif",
-    "docs/assets/images/ec-第三方整合-fb-fb-ig商店-設定商品能見度-從商店庫存.gif",
-    "site/assets/images/ec-第三方整合-fb-fb-ig商店-設定商品能見度-從商品目錄.gif",
-    "docs/assets/images/ec-第三方整合-fb-fb-ig商店-設定商品能見度-從商品目錄.gif",
-    "site/assets/images/ec-第三方整合-fb-fbe-設定能見度-從商品目錄.gif",
-    "docs/assets/images/ec-第三方整合-fb-fbe-設定能見度-從商品目錄.gif",
-    "site/assets/images/ec-第三方整合-fb-fb-ig商店-設定商品能見度.gif",
-    "docs/assets/images/ec-第三方整合-fb-fb-ig商店-設定商品能見度.gif",
-    "site/assets/images/ec-第三方整合-fb-fb-ig商店-設定商店能見度.png",
-    "docs/ec/integrations/fb/mbe/排除商品不同步至 Facebook 與 Instagram 商店.md~",
-    "site/ec/payments-and-logistics/index.html",
-    "site/ec/payments-and-logistics/東南亞站金流服務/index.html",
-    "site/ec/payments-and-logistics/東南亞站金流服務",
-    "site/ec/products/排除商品上傳至第三方平台/index.html",
-    "site/ec/products/排除商品上傳至第三方平台",
-    "site/ec/payments-and-logistics/順豐海外物流/index.html",
-    "site/ec/payments-and-logistics/順豐海外物流",
-    "site/ec/payments-and-logistics/設定街口支付/index.html",
-    "site/ec/payments-and-logistics/設定街口支付",
-    "docs/ec/products/creation/設定商品色票與款式圖片對應.md",
-    "docs/ec/integrations/fb/mbe/排除商品不同步至 Facebook 與 Instagram 商店.md",
-    "docs/ec/integrations/fb/mbe/排除不欲顯示於 Facebook 與 Instagram 商店的商品.md",
-    "docs/ec/integrations/fb/mbe/排除不欲顯示於 Facebook / Instagram 商店的商品.md",
-    "templates/grid-complex-guide.md",
-    "templates/callout-abstract-form.md",
-    "docs/ec/integrations/串接美安通路.md",
-    "docs/ec/integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品.md",
-    "docs/ec/integrations/google/設定 GMC 重要事件來源追蹤與自動標記.md",
-    "docs/ec/integrations/google/使用 Google 安全瀏覽工具檢查並排除網站安全性風險.md",
-    "docs/ec/integrations/google/YouTube Shopping 設定指南.md",
-    "docs/ec/integrations/fb/設定 Facebook 快速登入.md",
-    "docs/ec/integrations/fb/mbe/設定 Facebook 跟 Instagram 商店.md",
-    "docs/ec/integrations/fb/mbe/設定 FBE 網域驗證.md",
-    "docs/ec/integrations/fb/mbe/設定 FBE 帳號授權與資產連結.md",
-    "docs/ec/integrations/fb/mbe/index.md",
-    "docs/ec/integrations/fb/index.md",
-    "docs/ec/analytics/廣告分析指南.md",
-    "docs/ec/integrations/google/設定 Google 購物廣告.md",
-    "docops/manifest.md",
-    "docs/wms/進倉單.md",
-    "docs/wms/通路.md",
-    "docs/wms/退貨與派車.md",
-    "docs/wms/退貨單.md",
-    "docs/wms/調倉單.md"
+    "site/pos/third-party/盟立電子發票/index.html",
+    "site/pos/third-party/盟立電子發票",
+    "site/pos/third-party",
+    "site/pos/orders_ann/index.html",
+    "site/pos/orders_ann",
+    "site/pos/check/多付款方式/index.html",
+    "site/pos/check/多付款方式",
+    "site/pos/others/磅秤設定/index.html",
+    "site/pos/others/磅秤設定",
+    "site/pos/check/混稅發票/index.html",
+    "site/pos/check/混稅發票",
+    "site/assets/images/發票-混稅發票02.png",
+    "site/assets/images/POS-後台-盤點單-盤點資訊01.png",
+    "site/assets/images/POS-後台-互動遊戲-建立遊戲01.png",
+    "site/assets/images/POS-後台-續購與加購方案-新增門市01.png",
+    "site/assets/images/POS-後台-續購與加購方案-畫面總覽01.png",
+    "site/assets/images/POS-後台-行銷活動-紅利商城-批次匯入01.png",
+    "site/assets/images/發票-混稅發票01.png",
+    "site/assets/images/POS-後台-互動遊戲-建立遊戲02.png",
+    "site/assets/images/POS-後台-POS功能-所有POS商店-庫存不足提醒通知01.png",
+    "site/assets/images/POS-前台-訂單-新增訂單標籤01.png",
+    "docs/pos/third-party/盟立電子發票.md",
+    "docs/pos/others2/設定前台自動登出時間.md",
+    "docs/pos/others2/續購與加購方案.md",
+    "docs/pos/others2/安全性設定.md",
+    "docs/pos/others2/員工權限與帳號管理.md",
+    "docs/pos/others2/公告系統.md",
+    "docs/pos/others2/人員登入.md",
+    "docs/pos/others/磅秤設定.md",
+    "docs/pos/others/小結關帳.md",
+    "docs/pos/orders_ann/index.md",
+    "docs/pos/member/index.md",
+    "docs/pos/inventory/進倉完整流程.md",
+    "docs/pos/inventory/進倉單.md",
+    "docs/pos/inventory/調倉完整流程.md",
+    "docs/pos/inventory/調倉單.md",
+    "docs/pos/inventory/庫存調整.md",
+    "docs/pos/inventory/庫存盤點.md",
+    "docs/pos/inventory/商品查詢.md",
+    "docs/pos/inventory/出倉完整流程.md",
+    "docs/pos/inventory/出倉單.md",
+    "docs/pos/inventory/全通路庫存管理.md",
+    "docs/pos/get-started/index.md",
+    "docs/pos/check/紅利商城.md",
+    "docs/pos/check/混稅發票.md",
+    "docs/pos/check/掃描槍掃描後找不到商品.md"
   ]
 }

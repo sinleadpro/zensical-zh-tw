@@ -40,7 +40,7 @@ permalink: ""
 comments: ""
 search:
   exclude: ""
-icon: lucide/blocks
+icon: lucide/puzzle
 hide:
 ---
 

@@ -45,7 +45,8 @@ prerequisites:
 related:
   - "[[設定 FBE 帳號授權與資產連結]]"
   - "[[設定 FBE 網域驗證]]"
-  - "[[設定商品色票與款式圖片對應]]"
+  - "[[設定商品色票與款式圖片-拖拉版型]]"
+  - "[[設定商品色票與款式圖片-預設版型]]"
 tags:
   - Facebook_商店
   - Instagram_商店
@@ -172,7 +173,7 @@ Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專
 <div class="grid cards" markdown>
 
 - :lucide-swatch-book:{ .lg }   
-  [__商品色票設定__](../../../products/creation/設定商品色票與款式圖片對應.md){ data-preview }       
+  [__商品色票設定__](../../../products/creation/設定商品色票與款式圖片.md){ data-preview }       
   建議開啟色票功能並依照顏色順序放置圖片，以確保 Facebook 商店商品圖片能隨款式正確變換。
 
 </div>

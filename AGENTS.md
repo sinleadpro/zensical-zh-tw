@@ -43,8 +43,12 @@ Every Markdown file **must** include frontmatter. Refer to `reference/frontmatte
       - C) Subheadings + Tabs
 - **Icons:** Use Lucide icons via the `:lucide-<icon-name>:` syntax (e.g., `:lucide-rocket:`, `:lucide-settings:`).
 - **Admonitions:** Use standard MkDocs admonitions: `!!! note`, `!!! info`, `!!! warning`, etc.
+    - Prefer callouts over bullet points (`*`) for important notes, warnings, or limitations that apply to the entire section
+    - Place callouts strategically: right after the relevant step/section they apply to, not at the very end
 - **Tabs:** Use content tabs: `=== "Label"`.
 - **Grid Layouts:** Use `<div class="grid cards" markdown>` for dashboard-style layouts.
+    - Use relative paths for links (e.g., `../../integrations/google/ga/設定 GA4 站內搜尋追蹤.md`)
+    - Do NOT use anchors (`#anchor`) - this breaks `{ data-preview }`
 
 ### 4. Media & Assets
 - **Screenshots:**
