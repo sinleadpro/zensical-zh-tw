@@ -78,11 +78,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.cyberbiz.io/helpcenter/?p=10789",
-                "title": "Meta廣告 – 目錄商品組合 - CYBERBIZ 一般版教學文件",
-                "mode": "webview"
+                "title": "cyberbiz.io/helpcenter/?p=10789",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "Meta廣告 – 目錄商品組合 - CYBERBIZ 一般版教學文件"
+              "title": "cyberbiz.io/helpcenter/?p=10789"
             }
           }
         ]
@@ -99,11 +99,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.cyberbiz.io/support/?p=46480",
-                "title": "Meta廣告 – 目錄商品組合",
-                "mode": "webview"
+                "title": "cyberbiz.io/support/?p=46480",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "Meta廣告 – 目錄商品組合"
+              "title": "cyberbiz.io/support/?p=46480"
             }
           }
         ]
@@ -305,20 +305,21 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/ec/integrations/fb/meta-ads/設定 Meta 廣告活動.md~",
-    "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告的目錄商品組合.md~",
-    "site/ec/integrations/fb/meta-ads/設定 Meta 廣告的目錄商品組合/index.html",
-    "site/ec/integrations/fb/meta-ads/設定 Meta 廣告的目錄商品組合",
+    "site/assets/images/ec-appmarket-maa-創建廣告活動.png",
+    "docs/assets/images/ec-appmarket-maa-創建廣告活動.png",
+    "site/ec/products/排除商品上傳至第三方平台/index.html",
+    "site/ec/products/排除商品上傳至第三方平台",
+    "site/ec/products/批次修改商品描述與配送設定/index.html",
+    "site/ec/products/批次修改商品描述與配送設定",
+    "site/resources/index.html",
+    "site/ec/payments-and-logistics/東南亞站金流服務/index.html",
+    "site/ec/payments-and-logistics/東南亞站金流服務",
+    "site/resources/changelog/index.html",
+    "site/resources/changelog",
+    "site/ec/payments-and-logistics/宅配貨到不付款（黑貓宅配通新竹物流）/index.html",
     "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告的目錄商品組合.md",
     "site/assets/images/ec-第三方整合-fb-meta廣告-創建廣告活動.png",
     "docs/assets/images/ec-第三方整合-fb-meta廣告-創建廣告活動.png",
-    "site/ec/payments-and-logistics/設定 Google Pay™/index.html",
-    "site/ec/payments-and-logistics/設定 Google Pay™",
-    "site/ec/payments-and-logistics/東南亞站金流服務/index.html",
-    "site/ec/payments-and-logistics/東南亞站金流服務",
-    "site/ec/payments-and-logistics/設定 PayPal/index.html",
-    "site/ec/payments-and-logistics/設定 PayPal",
-    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流/index.html",
     "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告每日預算.md",
     "site/assets/images/ec-appmarket-maa-活動內容設定-銷售量.png",
     "site/assets/images/ec-appmarket-maa-活動內容設定-流量.png",
@@ -327,7 +328,6 @@
     "site/assets/images/ec-appmarket-maa-活動目標設定.png",
     "docs/assets/images/ec-appmarket-maa-活動目標設定.png",
     "site/assets/images/ec-第三方整合-fb-廣告活動設定-前往meta-ads-app.png",
-    "docs/assets/images/ec-第三方整合-fb-廣告活動設定-前往meta-ads-app.png",
     "docs/ec/app-market/安裝 Meta Ads App.md",
     "docs/ec/integrations/app-market/安裝 Meta Ads App.md",
     "docs/ec/integrations/fb/meta-ads/安裝 Meta Ads App.md",
