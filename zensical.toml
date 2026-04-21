@@ -312,7 +312,8 @@ copyright = """
                     {"廣告預算指南" = "ec/integrations/fb/meta-ads/設定 Meta 廣告每日預算.md"},
                     {"目錄商品組合" = "ec/integrations/fb/meta-ads/設定 Meta 廣告的目錄商品組合.md"},
                     {"目錄影片同步" = "ec/integrations/fb/meta-ads/同步商品影片至 Meta 目錄.md"},
-                    {"廣告成效分析" = "ec/integrations/fb/meta-ads/使用 Meta 廣告成效分析.md"}
+                    {"廣告成效分析" = "ec/integrations/fb/meta-ads/使用 Meta 廣告成效分析.md"},
+                    {"手動授權資產" = "ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ.md"}
                 ]},
             ]},
             {"Google" = [

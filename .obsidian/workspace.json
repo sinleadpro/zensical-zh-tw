@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=1737",
-                "title": "Meta 廣告成效分析 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=10681",
+                "title": "Meta 廣告 – 【特殊情境】廣告創建失敗 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Meta 廣告成效分析 - CYBERBIZ 一般版教學文件"
+              "title": "Meta 廣告 – 【特殊情境】廣告創建失敗 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=48371",
-                "title": "Meta廣告成效分析",
+                "url": "https://www.cyberbiz.io/support/?p=44556",
+                "title": "Meta 廣告 – 【特殊情境】廣告創建失敗",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Meta廣告成效分析"
+              "title": "Meta 廣告 – 【特殊情境】廣告創建失敗"
             }
           }
         ]
@@ -303,8 +303,11 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70ccdcc682095e33",
+  "active": "2c27b3aecd22969c",
   "lastOpenFiles": [
+    "site/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ/index.html",
+    "site/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ",
+    "docs/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ.md",
     "site/ec/integrations/fb/meta-ads/同步商品影片至 Meta 目錄/index.html",
     "site/ec/integrations/fb/meta-ads/同步商品影片至 Meta 目錄",
     "docs/ec/integrations/fb/meta-ads/同步商品影片至 Meta 目錄.md",
@@ -317,8 +320,6 @@
     "site/ec/marketing/設定任選折扣",
     "site/ec/orders/提供顧客付款連結/index.html",
     "site/ec/orders/提供顧客付款連結",
-    "site/ec/orders/設定未付款提醒/index.html",
-    "site/ec/orders/設定未付款提醒",
     "site/assets/images/發票-混稅發票02.png",
     "site/assets/images/POS-後台-盤點單-盤點資訊01.png",
     "site/assets/images/POS-後台-互動遊戲-建立遊戲01.png",
@@ -349,7 +350,6 @@
     "docs/pos/inventory/出倉單.md",
     "docs/pos/inventory/全通路庫存管理.md",
     "docs/pos/get-started/index.md",
-    "docs/pos/check/紅利商城.md",
-    "docs/pos/check/混稅發票.md"
+    "docs/pos/check/紅利商城.md"
   ]
 }
