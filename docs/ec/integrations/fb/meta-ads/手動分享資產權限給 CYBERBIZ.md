@@ -122,16 +122,6 @@ hide: []
 1.  **通知客服**：手動分享完成後，請務必 **通知 CYBERBIZ 客服人員**。
 2.  **等待回覆**：待 CYBERBIZ 完成系統端的後續處理並正式回覆後，您即可再次嘗試 [設定 Meta 廣告活動](設定 Meta 廣告活動.md){ data-preview }。
 
-## 後續操作
-
-<div class="grid cards" markdown>
-
-- :lucide-megaphone:{ .lg }   
-  [__設定 Meta 廣告活動__](設定 Meta 廣告活動.md){ data-preview }       
-  完成權限分享後，即可開始創建廣告活動，設定廣告預算、目標與素材。
-
-</div>
-
 ## 常見問題
 
 ??? quote "分享權限時出現「已建立合作夥伴企業管理平台關係」錯誤該怎麼辦？"
