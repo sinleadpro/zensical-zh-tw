@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=10789",
-                "title": "cyberbiz.io/helpcenter/?p=10789",
-                "mode": "error"
+                "url": "https://www.cyberbiz.io/helpcenter/?p=1737",
+                "title": "Meta 廣告成效分析 - CYBERBIZ 一般版教學文件",
+                "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "cyberbiz.io/helpcenter/?p=10789"
+              "title": "Meta 廣告成效分析 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=46480",
-                "title": "cyberbiz.io/support/?p=46480",
-                "mode": "error"
+                "url": "https://www.cyberbiz.io/support/?p=48371",
+                "title": "Meta廣告成效分析",
+                "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "cyberbiz.io/support/?p=46480"
+              "title": "Meta廣告成效分析"
             }
           }
         ]
@@ -305,29 +305,30 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
+    "site/ec/website-management/references/管理者權限與後台選單對應表/index.html",
+    "site/ec/website-management/references/管理者權限與後台選單對應表",
+    "site/ec/website-management/references",
+    "site/resources/index.html",
+    "site/wms/index.html",
+    "site/wms/設定商品(現貨、限量、預購)/index.html",
+    "site/wms/設定商品(現貨、限量、預購)",
+    "site/wms/商店設定/index.html",
+    "site/wms/商店設定",
+    "site/wms/列表/index.html",
+    "site/wms/列表",
+    "docs/ec/integrations/fb/meta-ads/使用 Meta 廣告成效分析.md",
+    "site/assets/images/ec-appmarket-maa-廣告活動設定-成果畫面-圖片型-01.png",
+    "site/assets/images/ec-appmarket-maa-廣告活動設定-成果畫面-圖片型-02.png",
+    "docs/assets/images/ec-appmarket-maa-廣告活動設定-成果畫面-圖片型-01.png",
+    "docs/assets/images/ec-appmarket-maa-廣告活動設定-成果畫面-圖片型-02.png",
+    "site/assets/images/ec-appmarket-maa-廣告活動設定-成果畫面-目錄型.png",
+    "docs/assets/images/ec-appmarket-maa-廣告活動設定-成果畫面-目錄型.png",
     "site/assets/images/ec-appmarket-maa-廣告創意設定-銷售量目標.png",
     "docs/assets/images/ec-appmarket-maa-廣告創意設定-銷售量目標.png",
     "site/assets/images/ec-appmarket-maa-廣告創意設定-流量目標.png",
     "docs/assets/images/ec-appmarket-maa-廣告創意設定-流量目標.png",
-    "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告活動.md~",
-    "site/assets/images/ec-appmarket-maa-創建廣告活動.png",
-    "docs/assets/images/ec-appmarket-maa-創建廣告活動.png",
-    "site/ec/products/排除商品上傳至第三方平台/index.html",
-    "site/ec/products/排除商品上傳至第三方平台",
-    "site/ec/products/批次修改商品描述與配送設定/index.html",
-    "site/ec/products/批次修改商品描述與配送設定",
-    "site/resources/index.html",
-    "site/ec/payments-and-logistics/東南亞站金流服務/index.html",
-    "site/ec/payments-and-logistics/東南亞站金流服務",
-    "site/resources/changelog/index.html",
-    "site/resources/changelog",
     "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告的目錄商品組合.md",
-    "site/assets/images/ec-第三方整合-fb-meta廣告-創建廣告活動.png",
-    "docs/assets/images/ec-第三方整合-fb-meta廣告-創建廣告活動.png",
     "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告每日預算.md",
-    "site/assets/images/ec-appmarket-maa-活動內容設定-銷售量.png",
-    "site/assets/images/ec-appmarket-maa-活動內容設定-流量.png",
-    "docs/assets/images/ec-appmarket-maa-活動內容設定-銷售量.png",
     "docs/ec/app-market/安裝 Meta Ads App.md",
     "docs/ec/integrations/app-market/安裝 Meta Ads App.md",
     "docs/ec/integrations/fb/meta-ads/安裝 Meta Ads App.md",
@@ -349,7 +350,6 @@
     "docs/ec/products/creation/新增與更新商品.md",
     "docs/ec/products/creation/設定商品色票與款式圖片.md",
     "docs/ec/website-appearance/使用拖拉版型設計網站版面與首頁區塊.md",
-    "docs/ec/products/discovery/設定前台商品篩選器.md",
-    "docs/ec/products/discovery/設定搜尋結果中排除特定關鍵字商品.md"
+    "docs/ec/products/discovery/設定前台商品篩選器.md"
   ]
 }

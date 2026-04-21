@@ -2,7 +2,7 @@
 title: 設定 Meta 廣告活動
 description: ""
 created: 2026-04-20 14:54
-last_modified:
+last_modified: 2026-04-21 10:30
 lang: zh-TW
 type: tutorial
 status: ""
@@ -161,12 +161,20 @@ hide:
 
     ![廣告創意設定-銷售量目標](../../../../assets/images/ec-appmarket-maa-廣告創意設定-銷售量目標.png)
 
-## 常見問題 FAQ
+## 廣告畫面呈現
 
-*   **廣告受眾是誰？** 系統搭配 Meta 的**高效速成行銷活動 (ASC)**，透過 AI 自動挑選 CPA 最低、ROAS 最高的受眾群體進行收斂，商家無需手動設定參數。
-*   **廣告版位在哪裡？** 由 AI 自動決定成交率最高的版位，包含 Facebook 貼文、Instagram 限時動態、Reels、Messenger 等。
-*   **廣告創建失敗怎麼辦？** 通常為權限問題。請嘗試手動將資產權限分享給 **CYBERBIZ 企業管理平台（編號：481801283092517）**，並通知客服人員排查。
+=== "目錄型"
 
+    ![MetaAdsApps廣告活動成果畫面-目錄型](../../../../assets/images/ec-appmarket-maa-廣告活動設定-成果畫面-目錄型.png)
+
+=== "圖片型"
+
+    <div class="grid cards" markdown>
+
+    - ![MetaAdsApps廣告活動成果畫面-圖片型01](../../../../assets/images/ec-appmarket-maa-廣告活動設定-成果畫面-圖片型-01.png)
+    - ![MetaAdsApps廣告活動成果畫面-圖片型02](../../../../assets/images/ec-appmarket-maa-廣告活動設定-成果畫面-圖片型-02.png)
+
+    </div>
 
 ## 後續操作
 
@@ -182,7 +190,29 @@ hide:
 
 </div>
 
-## 常見問題
+## 常見問題 FAQ
 
-??? quote ""
+??? quote "廣告受眾是誰？"
+
+    系統搭配 Meta 的[**高效速成行銷活動 (ASC)** :lucide-external-link:](https://www.facebook.com/business/help/1362234537597370){ target="_blank" }，透過 AI 自動挑選 CPA 最低、ROAS 最高的受眾群體進行收斂，商家無需手動設定參數。
+
+??? quote "廣告版位在哪裡？"
+
+    由 AI 自動決定成交率最高的版位，包含 Facebook 貼文、Instagram 限時動態、Reels、Messenger 等。
+
+??? quote "可以在 Instagram 上面投放廣告嗎？"
+
+    可以。前提是您需要先連結您的 Facebook 粉絲專頁以及 Instagram 帳號。連結的方式很簡單，只要到企業管理平台後台，在「帳號」下選擇「粉絲專頁」，點擊「連結資產」，點擊「Instagram 帳號」，選定欲連結的 Instagram 帳號，即完成帳號連結。
+
+??? quote "流量廣告與銷售量廣告的差異為何？"
+
+    流量廣告旨在將消費者導流至官網特定頁面（如首頁、品牌介紹頁），適合品牌起步期或新品上市；銷售量廣告則將廣告綁定官網商品群，適合具備穩定流量的商家，針對特定商品提高購買機會。每日預算部分，流量廣告建議大於 NT$150，銷售量廣告建議大於 NT$50。
+
+??? quote "單一廣告活動最多可設定多少組廣告創意？"
+
+    單一活動內最多可設定 20 組廣告創意，商家可透過「進階搜尋」依照標籤、廠商或類型篩選出特定商品（需為公開且已上架），組成特定的商品群投放廣告。
+
+??? quote "如何解決廣告創建失敗的問題？"
+
+    廣告創建失敗通常為權限問題。請嘗試手動將資產權限分享給 **CYBERBIZ 企業管理平台（編號：481801283092517）**，並通知客服人員排查。
 
