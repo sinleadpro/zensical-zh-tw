@@ -77,12 +77,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=1737",
-                "title": "Meta 廣告成效分析 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=10681",
+                "title": "Meta 廣告 – 【特殊情境】廣告創建失敗 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Meta 廣告成效分析 - CYBERBIZ 一般版教學文件"
+              "title": "Meta 廣告 – 【特殊情境】廣告創建失敗 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +98,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=48371",
-                "title": "Meta廣告成效分析",
+                "url": "https://www.cyberbiz.io/support/?p=44556",
+                "title": "Meta 廣告 – 【特殊情境】廣告創建失敗",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Meta廣告成效分析"
+              "title": "Meta 廣告 – 【特殊情境】廣告創建失敗"
             }
           }
         ]
@@ -303,19 +303,23 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70ccdcc682095e33",
+  "active": "2c27b3aecd22969c",
   "lastOpenFiles": [
-    "site/pos/third-party/盟立電子發票/index.html",
-    "site/pos/third-party/盟立電子發票",
-    "site/pos/third-party",
-    "site/pos/orders_ann/index.html",
-    "site/pos/orders_ann",
-    "site/pos/check/多付款方式/index.html",
-    "site/pos/check/多付款方式",
-    "site/pos/others/磅秤設定/index.html",
-    "site/pos/others/磅秤設定",
-    "site/pos/check/混稅發票/index.html",
-    "site/pos/check/混稅發票",
+    "site/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ/index.html",
+    "site/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ",
+    "docs/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ.md",
+    "site/ec/integrations/fb/meta-ads/同步商品影片至 Meta 目錄/index.html",
+    "site/ec/integrations/fb/meta-ads/同步商品影片至 Meta 目錄",
+    "docs/ec/integrations/fb/meta-ads/同步商品影片至 Meta 目錄.md",
+    "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告活動.md~",
+    "site/assets/images/ec-第三方整合-meta企業管理平台-fb粉絲專頁-連結資產.png",
+    "docs/assets/images/ec-第三方整合-meta企業管理平台-fb粉絲專頁-連結資產.png",
+    "site/ec/marketing/設定商品多層級分類滿額折扣/index.html",
+    "site/ec/marketing/設定商品多層級分類滿額折扣",
+    "site/ec/marketing/設定任選折扣/index.html",
+    "site/ec/marketing/設定任選折扣",
+    "site/ec/orders/提供顧客付款連結/index.html",
+    "site/ec/orders/提供顧客付款連結",
     "site/assets/images/發票-混稅發票02.png",
     "site/assets/images/POS-後台-盤點單-盤點資訊01.png",
     "site/assets/images/POS-後台-互動遊戲-建立遊戲01.png",
@@ -324,8 +328,6 @@
     "site/assets/images/POS-後台-行銷活動-紅利商城-批次匯入01.png",
     "site/assets/images/發票-混稅發票01.png",
     "site/assets/images/POS-後台-互動遊戲-建立遊戲02.png",
-    "site/assets/images/POS-後台-POS功能-所有POS商店-庫存不足提醒通知01.png",
-    "site/assets/images/POS-前台-訂單-新增訂單標籤01.png",
     "docs/pos/third-party/盟立電子發票.md",
     "docs/pos/others2/設定前台自動登出時間.md",
     "docs/pos/others2/續購與加購方案.md",
@@ -348,8 +350,6 @@
     "docs/pos/inventory/出倉單.md",
     "docs/pos/inventory/全通路庫存管理.md",
     "docs/pos/get-started/index.md",
-    "docs/pos/check/紅利商城.md",
-    "docs/pos/check/混稅發票.md",
-    "docs/pos/check/掃描槍掃描後找不到商品.md"
+    "docs/pos/check/紅利商城.md"
   ]
 }
