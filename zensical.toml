@@ -306,10 +306,10 @@ copyright = """
                     {"商品同步與排除" = "ec/integrations/fb/mbe/排除商品不同步至 Facebook 與 Instagram 商店.md"}
                 ]},
                 {"Meta 廣告" = [
-                    {"overview" = "ec/integrations/fb/meta-ads/index.md"},
+                    {"Meta 廣告總覽" = "ec/integrations/fb/meta-ads/index.md"},
                     {"建立帳號與儲值" = "ec/integrations/fb/meta-ads/建立 Meta 廣告帳號並儲值.md"},
-                    {"廣告活動" = "ec/integrations/fb/meta-ads/設定 Meta 廣告活動.md"},
-                    {"廣告預算指南" = "ec/integrations/fb/meta-ads/設定 Meta 廣告每日預算.md"},
+                    {"廣告活動設定" = "ec/integrations/fb/meta-ads/設定 Meta 廣告活動.md"},
+                    {"廣告預算指南" = "ec/integrations/fb/meta-ads/Meta 廣告每日預算設定指南.md"},
                     {"目錄商品組合" = "ec/integrations/fb/meta-ads/設定 Meta 廣告的目錄商品組合.md"},
                     {"目錄影片同步" = "ec/integrations/fb/meta-ads/同步商品影片至 Meta 目錄.md"},
                     {"廣告成效分析" = "ec/integrations/fb/meta-ads/使用 Meta 廣告成效分析.md"},
@@ -317,7 +317,7 @@ copyright = """
                 ]},
             ]},
             {"Google" = [
-                {"overview" = "ec/integrations/google/index.md"},
+                {"Google 總覽" = "ec/integrations/google/index.md"},
                 {"Google 快速登入" = "ec/integrations/google/設定 Google 快速登入.md"},
                 {"Google Merchant Center 串接" = "ec/integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品.md"},
                 {"GMC 重要事件追蹤" = "ec/integrations/google/設定 GMC 重要事件來源追蹤與自動標記.md"},
@@ -811,9 +811,10 @@ toggle.name = "Switch to light mode"
 # - https://zensical.org/docs/setup/logo-and-icons
 # - https://zensical.org/docs/authoring/icons-emojis/#search
 # ----------------------------------------------------------------------------
-#[project.theme.icon]
+[project.theme.icon]
 #logo = "lucide/smile"
 #repo = "lucide/smile"
+admonition = { path = "lucide/map-pin" }
 
 # ----------------------------------------------------------------------------
 # The "extra" section contains miscellaneous settings.
