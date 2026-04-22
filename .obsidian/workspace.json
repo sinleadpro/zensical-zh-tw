@@ -289,6 +289,7 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
+    "docs/ec/integrations/fb/meta-ads/Meta 廣告每日預算設定指南.md",
     "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告每日預算設定指南.md",
     "site/ec/products/批次修改商品描述與配送設定/index.html",
     "site/ec/products/批次修改商品描述與配送設定",
@@ -333,7 +334,6 @@
     "docs/pos/inventory/庫存盤點.md",
     "docs/pos/inventory/商品查詢.md",
     "docs/pos/inventory/出倉完整流程.md",
-    "docs/pos/inventory/出倉單.md",
-    "docs/pos/inventory/全通路庫存管理.md"
+    "docs/pos/inventory/出倉單.md"
   ]
 }
