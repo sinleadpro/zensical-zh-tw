@@ -2,7 +2,7 @@
 title: 設定 Meta 廣告的目錄商品組合
 description: ""
 created: 2026-04-20 21:10
-last_modified: 2026-04-22 21:00
+last_modified: 2026-04-22 21:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -120,7 +120,13 @@ hide:
 
 ### Meta 端更新
 
-您也可以前往 Meta 商務管理工具，在「目錄」>「資料來源」中點擊「要求更新」來強制同步。
+若 CYBERBIZ 端更新後仍無法同步，您也可以前往 Meta 商務管理工具強制更新資料來源：
+
+1.  **進入商務管理工具**：登入 [Meta 商務管理工具](https://business.facebook.com/commerce_manager)，點擊目標目錄。
+2.  **選擇資料來源**：進入目標目錄後，點擊 **目錄 > 資料來源**。
+3.  **要求更新**：點擊「**更新**」按鈕，強制同步商品資料。
+
+![MBM-目錄更新](../../../../assets/images/ec-第三方整合-mbm-目錄-更新.png)
 
 ## 應用於廣告活動
 
