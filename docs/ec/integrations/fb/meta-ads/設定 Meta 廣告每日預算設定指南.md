@@ -1,5 +1,5 @@
 ---
-title: 設定 Meta 廣告每日預算
+title: Meta 廣告每日預算設定指南
 description: ""
 created: 2026-04-20 19:52
 last_modified:
