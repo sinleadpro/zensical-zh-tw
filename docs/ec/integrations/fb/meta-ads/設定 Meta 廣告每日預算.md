@@ -58,7 +58,7 @@ hide:
 
 { .doc-badge }
 
-{ .hero-page }
+![Meta廣告-每日預算](../../../../assets/images/ec-第三方整合-fb-maa-每日預算設定.png){ .hero-page }
 
 ## Meta 廣告每日預算說明
 

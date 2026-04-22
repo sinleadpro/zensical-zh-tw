@@ -60,12 +60,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=10681",
-                "title": "Meta 廣告 – 【特殊情境】廣告創建失敗 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=8048",
+                "title": "設定 Meta 廣告的單日預算 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Meta 廣告 – 【特殊情境】廣告創建失敗 - CYBERBIZ 一般版教學文件"
+              "title": "設定 Meta 廣告的單日預算 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -81,12 +81,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=44556",
-                "title": "Meta 廣告 – 【特殊情境】廣告創建失敗",
+                "url": "https://www.cyberbiz.io/support/?p=2166",
+                "title": "設定 Meta 廣告的單日預算",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Meta 廣告 – 【特殊情境】廣告創建失敗"
+              "title": "設定 Meta 廣告的單日預算"
             }
           }
         ]
@@ -287,30 +287,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "ea773ab1a7a3be6f",
+  "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/assets/images/ec-第三方整合-fb-mbs-目錄-分享權限.gif",
-    "docs/assets/images/ec-第三方整合-fb-mbs-目錄-分享權限.gif",
-    "site/assets/images/ec-第三方整合-fb-mbs-合作夥伴-分享資產.png",
-    "docs/assets/images/ec-第三方整合-fb-mbs-合作夥伴-分享資產.png",
-    "site/assets/images/ec-第三方整合-fb-mbs-合作夥伴-指派資產.png",
-    "docs/assets/images/ec-第三方整合-fb-mbs-合作夥伴-指派資產.png",
-    "site/assets/images/ec-第三方整合-fb-mbs-像素分享權限.png",
-    "docs/assets/images/ec-第三方整合-fb-mbs-像素分享權限.png",
-    "site/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ.md~",
-    "site/ec/website-management/設定網站安全性/index.html",
-    "site/ec/website-management/設定網站安全性",
-    "site/resources/conventions/index.html",
-    "site/resources/conventions",
-    "site/ec/website-management/續購與自動續約/index.html",
-    "site/index.html",
-    "site/ec/website-management/references/管理者權限與後台選單對應表/index.html",
-    "site/ec/website-management/references/管理者權限與後台選單對應表",
-    "site/ec/website-management/references",
-    "site/assets/images/ec-第三方整合-fb-mbs-粉絲專頁分享權限.gif",
-    "docs/assets/images/ec-第三方整合-fb-mbs-粉絲專頁分享權限.gif",
-    "site/assets/images/ec-第三方整合-meta.gif",
+    "site/assets/images/ec-第三方整合-fb-maa-每日預算設定.png",
+    "docs/assets/images/ec-第三方整合-fb-maa-每日預算設定.png",
     "docs/ec/website-management/使用 Authy 啟用二階段驗證設定.md",
+    "site/assets/images/ec-第三方整合-fb-mbs-手動分享權限.png",
+    "docs/assets/images/ec-第三方整合-fb-mbs-手動分享權限.png",
+    "site/ec/products/新增與設定組合商品/index.html",
+    "site/ec/products/新增與設定組合商品",
+    "site/ec/payments-and-logistics/設定超商大宗寄倉 B2C/index.html",
+    "site/ec/payments-and-logistics/設定超商大宗寄倉 B2C",
+    "site/ec/payments-and-logistics/宅配貨到付款（黑貓宅配通新竹物流）/index.html",
+    "site/ec/payments-and-logistics/宅配貨到付款（黑貓宅配通新竹物流）",
+    "site/ec/payments-and-logistics/北美站金流服務/index.html",
+    "site/ec/payments-and-logistics/北美站金流服務",
+    "site/ec/payments-and-logistics/補印與加印託運單/index.html",
+    "site/ec/payments-and-logistics/補印與加印託運單",
+    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
+    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
+    "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
+    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
+    "site/assets/images/發票-混稅發票02.png",
+    "site/assets/images/POS-前台-登入頁面01.png",
+    "site/assets/images/ec-訂單-訂單報表匯出-篩選項目.png",
     "docs/ec/integrations/google/ga/設定 GA4 站內搜尋追蹤.md",
     "docs/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ.md",
     "docs/ec/integrations/fb/meta-ads/同步商品影片至 Meta 目錄.md",

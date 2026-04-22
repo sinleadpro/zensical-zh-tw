@@ -2,7 +2,7 @@
 title: 手動分享資產權限給 CYBERBIZ
 description: 當 Meta 廣告創建失敗時，透過手動分享資產權限（粉絲專頁、像素、目錄）給 CYBERBIZ 企業管理平台來排除問題。
 created: 2026-04-21 16:01
-last_modified: 2026-04-21 16:01
+last_modified: 2026-04-22 10:45
 lang: zh-TW
 type: tutorial
 status: ""
@@ -20,9 +20,16 @@ sites:
   - TW
 audiences:
   - admin
-difficulty: ""
-tnb: ""
-plans: []
+difficulty: intermediate
+tnb: trunk
+plans:
+  - 專業
+  - 進階
+  - 高手
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 cyb_extensions: []
 intents:
   - 解決廣告創建失敗
@@ -48,20 +55,21 @@ ui_components: []
 paths:
   - 第三方整合 > Facebook 整合_廣告_註冊登入 > 廣告活動設定
 layouts: []
-wp_url: []
+wp_url: 
+  - https://www.cyberbiz.io/helpcenter/?p=10681
+  - https://www.cyberbiz.io/support/?p=44556
 permalink: ""
-comments: ""
+comments: false
 search:
   exclude: false
-icon: lucide/user-plus
+icon: lucide/share-2
 hide: []
 ---
 
+當 Meta 廣告創建失敗時，透過手動分享資產權限（粉絲專頁、像素、目錄）給 CYBERBIZ 企業管理平台來排除問題。
 { .subtitle }
 
-{ .doc-badge }
-
-{ .hero-page }
+![手動分享權限](../../../../assets/images/ec-第三方整合-fb-mbs-手動分享權限.png){ .hero-page }
 
 ## 授權資產給 CYBERBIZ 說明
 
@@ -131,3 +139,4 @@ hide: []
 ??? quote "權限分享完成後還是需要通知客服嗎？"
 
     是的，手動分享完成後，請務必通知 CYBERBIZ 客服人員，待 CYBERBIZ 完成系統端的後續處理並正式回覆後，您即可再次嘗試執行廣告活動設定。
+

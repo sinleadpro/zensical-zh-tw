@@ -206,7 +206,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-wrench:{ .lg }   
-  [__手動分享資產權限給 CYBERBIZ__](手動分享資產權限給 CYBERBIZ.md){ data-preview }       
+  [__手動分享資產給 CYBERBIZ__](手動分享資產權限給 CYBERBIZ.md){ data-preview }       
   若廣告創建失敗，可透過手動分享資產權限（粉絲專頁、像素、目錄）給 CYBERBIZ 企業管理平台來排除問題。
 
 </div>
