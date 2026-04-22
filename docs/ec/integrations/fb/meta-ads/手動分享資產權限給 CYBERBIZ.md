@@ -35,17 +35,17 @@ intents:
   - 解決廣告創建失敗
   - 手動分享資產權限
 features:
-  - Meta_Ads
+  - Meta Ads
   - 資產權限
 prerequisites:
   - "[[建立 Meta 廣告帳號並儲值]]"
 related:
   - "[[設定 Meta 廣告活動]]"
 tags:
-  - Meta_Ads
+  - Meta Ads
   - 資產權限
   - 疑難排解
-  - Facebook_廣告
+  - Facebook 廣告
 acoiv: integration
 apis: []
 devices:

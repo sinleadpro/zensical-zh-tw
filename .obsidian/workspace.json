@@ -12,10 +12,14 @@
             "id": "b215f5bf832eb05e",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "archive/wordpress-annotated/wp-reg-annotated-20260106/Meta 廣告成效分析.md",
+                "mode": "source",
+                "source": true
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Meta 廣告成效分析"
             }
           },
           {
@@ -46,8 +50,7 @@
               "title": "設定 GA4 站內搜尋追蹤"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       },
       {
         "id": "10f9d93c6521323e",
@@ -121,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "帳號授權",
+                "query": "累積 30-50 次轉換",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -152,12 +155,12 @@
               "title": "notebook-navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 287.5,
-    "collapsed": true
+    "width": 287.5
   },
   "right": {
     "id": "973606ff262c9293",
@@ -287,31 +290,32 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70ccdcc682095e33",
+  "active": "536fb88d16f7d477",
   "lastOpenFiles": [
-    "site/assets/images/ec-product-basic-setting-frontend.zh-tw.png",
-    "site/assets/images/ec-automated-advertising-system-campaign-management.zh-tw.png",
-    "site/assets/images/WMS-後台-調倉單-批次匯入調倉單01.png",
-    "site/assets/images/ec-member-exclusive-price-display-off.zh-tw.png",
-    "site/assets/images/cyb-payments-review-process.png",
+    "site/assets/images/ec-第三方整合-fb-基本設定-手動更新目錄.png",
+    "docs/assets/images/ec-第三方整合-fb-基本設定-手動更新目錄.png",
+    "site/assets/images/ec-maa-目錄商品組合-商品列表.png",
+    "docs/assets/images/ec-maa-目錄商品組合-商品列表.png",
+    "site/404.html",
+    "site/ec/members/建立特殊VIP群組/index.html",
+    "site/ec/members/建立特殊VIP群組",
+    "site/ec/payments-and-logistics/CYBERBIZNOW/設定快速到貨前台入口與專區/index.html",
+    "site/ec/payments-and-logistics/CYBERBIZNOW/設定快速到貨前台入口與專區",
+    "site/pos/others2/續購與加購方案/index.html",
+    "site/pos/others2/續購與加購方案",
+    "site/wms/申請流程與開通/index.html",
+    "site/wms/申請流程與開通",
+    "site/pos/check/子機結帳綁定/index.html",
+    "site/assets/images/ec-maa-創建目錄商品組合-新增商品-篩選商品.png",
+    "docs/assets/images/ec-maa-創建目錄商品組合-新增商品-篩選商品.png",
+    "site/assets/images/ec-maa-創建目錄商品組合-新增商品.png",
+    "docs/assets/images/ec-maa-創建目錄商品組合-新增商品.png",
+    "site/assets/images/ec-maa-創建目錄商品組合.png",
+    "docs/assets/images/ec-maa-創建目錄商品組合.png",
+    "site/assets/images/ec-第三方整合-fb-maa-目錄商品組合.png",
+    "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告活動.md",
     "docs/ec/integrations/fb/meta-ads/Meta 廣告每日預算設定指南.md",
     "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告每日預算設定指南.md",
-    "site/ec/products/批次修改商品描述與配送設定/index.html",
-    "site/ec/products/批次修改商品描述與配送設定",
-    "site/ec/payments-and-logistics/設定街口支付/index.html",
-    "site/ec/payments-and-logistics/設定街口支付",
-    "site/ec/payments-and-logistics/設定全家冷凍物流 B2C/index.html",
-    "site/ec/payments-and-logistics/設定全家冷凍物流 B2C",
-    "site/ec/payments-and-logistics/AFTEE先享後付 金流說明/index.html",
-    "site/ec/payments-and-logistics/AFTEE先享後付 金流說明",
-    "site/ec/payments-and-logistics/宅配逆物流（黑貓宅配通新竹物流）/index.html",
-    "site/ec/payments-and-logistics/宅配逆物流（黑貓宅配通新竹物流）",
-    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
-    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
-    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
-    "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
-    "site/assets/images/發票-混稅發票02.png",
-    "site/assets/images/POS-前台-登入頁面01.png",
     "docs/ec/website-management/使用 Authy 啟用二階段驗證設定.md",
     "docs/ec/integrations/google/ga/設定 GA4 站內搜尋追蹤.md",
     "docs/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ.md",
@@ -333,7 +337,6 @@
     "docs/pos/inventory/調倉單.md",
     "docs/pos/inventory/庫存調整.md",
     "docs/pos/inventory/庫存盤點.md",
-    "docs/pos/inventory/商品查詢.md",
-    "docs/pos/inventory/出倉完整流程.md"
+    "docs/pos/inventory/商品查詢.md"
   ]
 }

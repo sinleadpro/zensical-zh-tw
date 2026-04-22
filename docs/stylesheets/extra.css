@@ -293,3 +293,32 @@ a {
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
   /* sharper and more focused */
 }
+
+
+
+/* 同時針對 靜態 (!!!) 與 可摺疊 (???) 進行樣式設定 */
+.md-typeset .admonition.path,
+.md-typeset details.path {
+    border-color: #94a3b8;
+    background-color: #f1f5f9;
+    border-left-width: 4px;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+/* 針對可摺疊區塊的標題 (summary) */
+.md-typeset .path > .admonition-title,
+.md-typeset .path > summary {
+    background-color: transparent;
+    font-weight: 700;
+    color: #475569;
+}
+
+/* 確保摺疊時的圖示顏色與位置一致 */
+.md-typeset .path > .admonition-title::before,
+.md-typeset .path > summary::before {
+    background-color: #64748b;
+    mask-image: var(--md-admonition-icon--path);
+}
+

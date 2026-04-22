@@ -29,7 +29,7 @@ intents:
   - 安裝 Meta Ads App
   - 設定 Meta 廣告投放
 features:
-  - Meta_Ads_App
+  - Meta Ads App
   - 高效速成行銷活動
 prerequisites:
   - "[[設定 FBE 帳號授權與資產連結]]"
