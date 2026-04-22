@@ -289,6 +289,11 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
+    "site/assets/images/ec-product-basic-setting-frontend.zh-tw.png",
+    "site/assets/images/ec-automated-advertising-system-campaign-management.zh-tw.png",
+    "site/assets/images/WMS-後台-調倉單-批次匯入調倉單01.png",
+    "site/assets/images/ec-member-exclusive-price-display-off.zh-tw.png",
+    "site/assets/images/cyb-payments-review-process.png",
     "docs/ec/integrations/fb/meta-ads/Meta 廣告每日預算設定指南.md",
     "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告每日預算設定指南.md",
     "site/ec/products/批次修改商品描述與配送設定/index.html",
@@ -307,10 +312,6 @@
     "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
     "site/assets/images/發票-混稅發票02.png",
     "site/assets/images/POS-前台-登入頁面01.png",
-    "site/assets/images/ec-第三方整合-line login channel-openid connect.gif",
-    "site/assets/images/ec-gmc-p4-運送設定.png",
-    "site/assets/images/favicon.png",
-    "site/assets/images/ec-訂單-所有訂單.png",
     "docs/ec/website-management/使用 Authy 啟用二階段驗證設定.md",
     "docs/ec/integrations/google/ga/設定 GA4 站內搜尋追蹤.md",
     "docs/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ.md",
@@ -333,7 +334,6 @@
     "docs/pos/inventory/庫存調整.md",
     "docs/pos/inventory/庫存盤點.md",
     "docs/pos/inventory/商品查詢.md",
-    "docs/pos/inventory/出倉完整流程.md",
-    "docs/pos/inventory/出倉單.md"
+    "docs/pos/inventory/出倉完整流程.md"
   ]
 }
