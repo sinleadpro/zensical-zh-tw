@@ -74,9 +74,9 @@ hide:
 
 ![第三方整合 FBE 設定](../../../../assets/images/ec-第三方整合-fbe.png){ .hero-page }
 
-## Facebook Business Extension 說明
+## Facebook 商業擴充套件說明
 
-「**Facebook 商業擴充套件**」可一次串接 **Conversions API**、**Facebook 像素（Pixel）**、**商品目錄**、**Instagram Shopping** 及 **Facebook 粉絲專頁** 等資產，讓商家能快速將這些資產連結至官網後台，並在一站式管理廣告追蹤、受眾建立與商品推廣。
+「**Facebook 商業擴充套件**」(Facebook Business Extension, FBE) 可一次串接 **Conversions API**、**Facebook 像素（Pixel）**、**商品目錄**、**Instagram Shopping** 及 **Facebook 粉絲專頁** 等資產，讓商家能快速將這些資產連結至官網後台，並在一站式管理廣告追蹤、受眾建立與商品推廣。
 
 ## 設定路徑
 
@@ -124,7 +124,8 @@ hide:
 ## 設定後的檢查與維護
 
 *   **確認連結狀態：** 回到後台頁面後，可再次確認粉專、像素、目錄的連結結果。
-*   **編輯或取消：** 若需重新設定或清空設定，可點選「編輯資產」或「取消連結」。**請注意：** 執行此操作必須登入 **最初設定時使用的同一個 Facebook 帳號**。
+*   **編輯或取消：** 若需重新設定或清空設定，可點選「編輯資產」或「取消連結」。  
+    - *請注意：執行此操作必須登入 **最初設定時使用的同一個 Facebook 帳號***。
 
 ![FBE-完成連結](../../../../assets/images/ec-第三方整合-fbe-已建立連結.png)
 

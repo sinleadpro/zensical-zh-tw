@@ -76,8 +76,6 @@ hide: []
 設定 Facebook 與 Instagram 商店，建立社群銷售管道並同步商品。
 { .subtitle }
 
-{ .hero-page }
-
 ## Facebook 與 Instagram 商店設定說明
 
 **FB、IG 商店設定** 的主要目的是建立社群商店，讓品牌能透過 Facebook 與 Instagram 觸及更多流量，並將潛在顧客導流至官網消費。
@@ -159,11 +157,11 @@ Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專
 <div class="grid cards" markdown>
 
 - :lucide-package-x:{ .lg }   
-  [__排除商店商品__](排除不欲顯示於 Facebook 與 Instagram 商店的商品.md){ data-preview }       
+  [__排除商店商品__](../../../products/categorization/管理商品標籤.md#排除上傳至第三方平台標籤){ data-preview }       
   若有特定商品（如贈品或測試品）不希望同步至 Facebook 與 Instagram 商店，可透過設定商品標籤進行過濾。
 
 - :lucide-eye-off:{ .lg }   
-  [__隱藏商店或商品__]()       
+  [__隱藏商店或商品__](排除商品不同步至 Facebook 與 Instagram 商店.md#於商務管理工具中調整手動調整){ data-preview }       
   可在商務管理工具中隱藏整個商店或隱藏單一商品。
 
 </div>
@@ -173,7 +171,7 @@ Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專
 <div class="grid cards" markdown>
 
 - :lucide-swatch-book:{ .lg }   
-  [__商品色票設定__](../../../products/creation/設定商品色票與款式圖片.md){ data-preview }       
+  [__商品色票設定__](../../../products/creation/設定商品色票與款式圖片-拖拉版型.md){ data-preview }       
   建議開啟色票功能並依照顏色順序放置圖片，以確保 Facebook 商店商品圖片能隨款式正確變換。
 
 </div>
