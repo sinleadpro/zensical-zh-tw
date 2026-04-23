@@ -1,8 +1,8 @@
 ---
 title: 使用 Meta 廣告成效分析
-description: ""
+description: 透過 Meta Ads App 掌握廣告成效數據，分析指標，並使用 AI Insights 獲取數據洞察與優化建議。
 created: 2026-04-21 11:29
-last_modified:
+last_modified: 2026-04-23 17:40
 lang: zh-TW
 type: tutorial
 status: ""
@@ -10,16 +10,17 @@ author: Jase
 version: ""
 reviewers: []
 notes: []
-ga_views:
-feedback:
+ga_views: 0
+feedback: 0
 products:
   - EC
-modules: []
+modules:
+  - 第三方整合
 sites:
   - TW
 audiences:
   - admin
-difficulty: ""
+difficulty: beginner
 tnb: trunk
 plans:
   - 專業
@@ -30,33 +31,50 @@ plans:
   - 高手 PLUS
   - 企業
 cyb_extensions: []
-intents: []
-features: []
-prerequisites: []
-related: []
-tags: []
-acoiv: ""
+intents:
+  - 分析廣告成效
+  - 查看 ROAS
+  - 使用 AI Insights
+features:
+  - 成效總覽
+  - AI Insights
+  - 廣告活動列表
+prerequisites:
+  - "[[設定 FBE 帳號授權與資產連結]]"
+  - "[[設定 Meta 廣告活動]]"
+related:
+  - "[[設定 Meta 廣告活動]]"
+  - "[[建立 Meta 廣告帳號並儲值]]"
+tags:
+  - Meta 廣告
+  - ROAS
+  - CPA
+  - AI Insights
+  - 廣告成效
+acoiv: operation
 apis: []
 devices:
   - desktop
   - mobile
-ui_components: []
-paths: []
+ui_components:
+  - 成效總覽
+  - 廣告活動列表
+paths:
+  - 第三方整合 > 臉書 Facebook 設定 > 廣告活動設定
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=1737
   - https://www.cyberbiz.io/support/?p=48371
 permalink: ""
-comments: ""
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/chart-column
-hide:
+hide: []
 ---
 
+透過 Meta Ads App 掌握廣告成效數據，分析指標，並使用 AI Insights 獲取數據洞察與優化建議。
 { .subtitle }
-
-{ .doc-badge }
 
 ![MAA-廣告成效分析](../../../../assets/images/ec-maa-廣告成效分析.png){ .hero-page }
 
@@ -64,11 +82,13 @@ hide:
 
 「**Meta 廣告成效分析**」是專為 CYBERBIZ 商家設計的分析工具，旨在協助商家精準掌握 Meta 廣告（如 Facebook、Instagram）的投放成效，評估哪些商品值得加碼推廣，並判斷廣告策略是否具備效益。
 
-## 功能特點與優勢
+## 前提條件
 
-- [x] **一站式管理：** 商家可直接在 CYBERBIZ 後台完成預算儲值、商品選擇、廣告建立，並同步追蹤 Meta 廣告數據，無需切換平台。
-- [x] **數據整合：** 系統整合了點擊率、轉換率與銷售表現，方便商家判斷廣告組合的效益。
-- [x] **趨勢對照：** 支援比較不同時間區段（如本期與上期、去年同期）的數據變化，快速判斷成長或衰退。
+在開始分析成效前，請確保您已完成以下準備工作，以確保數據能正確回傳與顯示：
+
+- [x] **完成廣告投放設定**：本功能需在廣告活動正式啟動後方可產生數據。若您尚未建立廣告，請先參閱 [**設定 Meta 廣告活動**](設定 Meta 廣告活動.md){ data-preview }。
+- [x] **確保資產正確連結**：確認已透過 [**Facebook 商業擴充套件 (FBE)**](../mbe/設定 FBE 帳號授權與資產連結.md){ data-preview } 完成授權，並正確埋設 Meta Pixel 與轉換 API (CAPI)。
+- [x] **確認帳戶餘額**：廣告帳戶需有足夠餘額或有效的支付方式，否則成效數據將顯示為「異常」或停止更新。
 
 ## 掌握整體成效（總覽指標）
 
@@ -100,7 +120,7 @@ hide:
 
     | 指標名稱 | 核心定義與計算方式 | 數據洞察與優化建議 |
     | :--- | :--- | :--- |
-    | **創造營收 (Revenue)** | 廣告歸因帶動的累計購買金額。 | **數據來源：** 透過 Meta Pixel 或 CAPI 統計之 `purchase` 事件。<br>**歸因邏輯：** 點擊後 7 天、瀏覽後 1 天。<br>**注意：** 受 iOS 14 隱私限制影響，可能與實收訂單有出入。 |
+    | **創造營收 (Revenue)** | 廣告歸因帶動的累計購買金額。 | **數據來源：** 透過 Meta Pixel 及轉換 API (CAPI) 統計之購買紀錄。<br>**歸因邏輯：** 點擊後 7 天、瀏覽後 1 天。<br>**注意：** 受 iOS 14 隱私限制影響，可能與實收訂單有出入。 |
     | **投資報酬率 (ROAS)** | 廣告營收 ÷ 廣告花費 | **意義：** 每投入 1 元廣告費能帶回的營收倍數。<br>**判斷：** <br>- ROAS > 1：營收高於廣告支出。<br>- ROAS < 1：虧損警訊，建議優化素材或受眾。<br> * 每個品牌毛利率不同，請根據您的成本結構設定專屬的「損益平衡 ROAS」。 |
     | **轉換成本 (CPA)** | 廣告總花費 ÷ 購買次數 | **盈虧關鍵：** 獲取單筆訂單的平均廣告成本。<br>**優化：** 建議對比商品平均毛利。若 `CPA > 毛利`，代表該廣告活動處於虧損狀態。 |
 
@@ -118,20 +138,6 @@ hide:
 | **廣告活動名稱** | 顯示活動名稱，點擊可進入編輯頁。 | |
 | **有效狀態** | Meta 回傳的真實投放狀態。 | 綜合考量審核、餘額與開關因素，詳見 [有效狀態解析](#有效狀態解析){ data-preview }。 |
 | **排程** | 顯示廣告組合的投放時段。 | **顯示格式：** `YYYY-MM-DD`。<br>若未設結束時間，則顯示「持續投放」。 |
-
----
-
-### 有效狀態解析
-
-
-| 狀態 | 代表意義 | 顯示顏色 |
-| :--- | :--- | :--- |
-| **進行中** | 廣告正常投放中，正在獲取流量。 | **藍色** |
-| **審核中** | Meta 正在檢查素材，通常數小時內完成。 | **黃色** |
-| **異常** | 投放中斷。常見原因為 **廣告帳戶餘額不足**。 | **紅色** |
-| **已暫停** | 商家手動關閉，或因帳戶問題觸發自動暫停。 | **灰色** |
-| **已封存/刪除** | 該廣告已從系統或 Meta 後台移除。 | **灰色** |
-
 
 ---
 
@@ -166,9 +172,15 @@ hide:
 
 ## AI Insights 廣告洞察功能
 
+
 商家可啟用「AI Insights」與系統對話，自動生成數據洞察與優化建議：
 
-1.  **進入路徑：** 點擊「**AI分析**」按鈕，進入 AI Insights 頁面。
+1.  **進入 Meta Ads App**：登入 CYBERBIZ 管理後台，前往 **第三方整合 > 臉書 Facebook 設定 > 廣告活動設定**。
+
+    - 尚未串接：點擊「立即串接」（參考：[安裝 Meta Ads App](../../../app-market/安裝%20Meta%20Ads%20App.md){ data-preview }）。
+    - 已完成串接：點擊「立即前往」。
+
+2.  **開啟 AI 分析視窗**：切換至 **廣告活動** 分頁，點擊活動列表頁面的右上角的「**AI分析**」按鈕，進入 AI Insights 頁面。
 
     ![MAA-aiinsights-路徑](../../../../assets/images/ec-maa-廣告列表欄位-aiinsights-路徑.png)
 
@@ -176,33 +188,66 @@ hide:
 
     ![MAA-aiinsights-選取區間](../../../../assets/images/ec-maa-ai-insights-選取區間.png)
 
+    !!! info "配合 Meta 政策，AI Insights 分析時間範圍最長支援至過去 **35 個月** 的數據。"
+
 3.  **獲取洞察：** AI 會根據模型推論結果提供建議。若不確定如何詢問，可選用系統提供的 **「熱門問題範本」**（例如：目前的 ROAS 表現如何？哪些廣告最成功？）。
 
     ![MAA-aiinsights-熱門主題](../../../../assets/images/ec-maa-ai-insights-熱門主題.png)
-
-## 使用建議與注意事項
-
-*   **資產權限：** 進行成效分析前，請確保已完成「Facebook 商業擴充套件」的串接，並建議使用與 **CAPI（轉換 API）** 相符的正確像素，以免造成數據不準確（如 iOS 14.5 導致的數據不足）。
-*   **時間區間：** 目前分析功能取用過去 **36 個月** 的資料，AI Insights 則支援分析過去 **35 個月** 內的數據。
-*   **數據更新：** 系統會定時整合 Meta 數據，部分報表資訊可能會在 12 小時內完成更新。
-
-若您發現廣告未顯示購買轉換值，通常是因像素設定非正確串接（如使用 GTM 埋設），建議重新透過 CYBERBIZ 的商業擴充套件進行串聯以確保數據完整性。
 
 ## 後續操作
 
 <div class="grid cards" markdown>
 
-- :lucide-import:{ .lg }
-  [____]()
-  。
+- :lucide-rocket:{ .lg }   
+  [__建立廣告活動__](設定%20Meta%20廣告活動.md){ data-preview }       
+  完成成效分析後，可依數據洞察建立新的 Meta 廣告活動。
 
-- :lucide-ban:{ .lg }
-  [____]()
-  。
+- :lucide-pacakge-x:{ .lg }   
+  [__排除商品同步__](../mbe/排除商品不同步至%20Facebook%20與%20Instagram%20商店.md){ data-preview }       
+  如有特定商品不希望同步至 Meta，可設定排除標籤。
 
 </div>
 
-## 常見問題
+??? quote "什麼是良好的 ROAS 值？"
 
-??? quote ""
+    ROAS沒有所謂的「良好」標準，取決於您的商品毛利率。一般判斷：
+
+    - **ROAS > 1**：營收高於廣告支出，原則上不回本。
+    - **ROAS > 2**：被視為基本的盈利門檻。
+
+    - 每個品牌毛利率不同，建議根據您的成本結構設定專屬的「損益平衡 ROAS」。
+
+??? quote "廣告狀態顯示「異常」怎麼辦？"
+
+    常見原因包括：
+
+    - **廣告帳戶餘額不足**：請至 **第三方整合 > 臉書 Facebook 設定 > 廣告帳號設定** 確認餘額或 [進行儲值](建立%20Meta%20廣告帳號並儲值.md#儲值廣告金){ data-preview } 確認餘額。
+    - **像素設定異常**：請確認正確串接 Pixel。
+    - **素材審核未通過**：需檢查廣告素材是否符合 Meta 政策。
+
+    請參考 [有效狀態解析](#有效狀態解析){ data-preview } 了解更多狀態說明。
+
+??? quote "為什麼廣告數據與實際訂單有差異？"
+
+    可能原因包括：
+
+    - **iOS 隱私限制**：受蘋果 iOS 14.5+ 隱私政策影響，Facebook 取得數據可能不完整。參考 [官方說明](https://www.facebook.com/business/help/1329822420714248?id=428636648170202&helpref=faq_content){ target="_blank" }。
+    - **歸因時效差異**：數據採用「點擊後 7 天、瀏覽後 1 天」的歸因邏輯，與商店實際訂單可能存在時間差。
+    - **像素設定問題**：請確認使用正確的[像素 (Pixel) 設定](建立%20Meta%20廣告帳號並儲值.md#像素-pixel-設定){ data-preview }，並透過 CYBERBIZ 商業擴充套件串接。**不建議使用 GTM 埋設像素**，將導致事件重複、像素不正確等問題。
+
+    如需重新串接，請參考 [設定 FBE 帳號授權與資產連結](../mbe/設定 FBE 帳號授權與資產連結.md){ data-preview }。
+
+## 參考資料
+
+### 有效狀態解析 { .unlisted }
+
+
+| 狀態 | 代表意義 | 顯示顏色 |
+| :--- | :--- | :--- |
+| **進行中** | 廣告正常投放中，正在獲取流量。 | **藍色** |
+| **審核中** | Meta 正在檢查素材，通常數小時內完成。 | **黃色** |
+| **異常** | 投放中斷。常見原因為 **廣告帳戶餘額不足**。 | **紅色** |
+| **已暫停** | 商家手動關閉，或因帳戶問題觸發自動暫停。 | **灰色** |
+| **已封存/刪除** | 該廣告已從系統或 Meta 後台移除。 | **灰色** |
+
 
