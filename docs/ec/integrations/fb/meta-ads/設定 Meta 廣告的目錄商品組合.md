@@ -1,25 +1,26 @@
 ---
 title: 設定 Meta 廣告的目錄商品組合
-description: ""
+description: 透過 CYBERBIZ Meta Ads App 建立目錄商品組合，篩選特定商品並投放到 Meta 目錄型或圖片型廣告。
 created: 2026-04-20 21:10
-last_modified: 2026-04-22 21:00
+last_modified: 2026-04-22 21:10
 lang: zh-TW
 type: tutorial
 status: ""
-author: Jase
 version: ""
+author: Jase
 reviewers: []
 notes: []
-ga_views:
-feedback:
+ga_views: 0
+feedback: 0
 products:
   - EC
-modules: []
+modules:
+  - 第三方整合
 sites:
   - TW
 audiences:
   - admin
-difficulty: ""
+difficulty: intermediate
 tnb: trunk
 plans:
   - 專業
@@ -30,33 +31,51 @@ plans:
   - 高手 PLUS
   - 企業
 cyb_extensions: []
-intents: []
-features: []
-prerequisites: []
-related: []
-tags: []
-acoiv: ""
+intents:
+  - 建立目錄商品組合
+  - 投放 Meta 廣告
+  - 管理商品同步
+features:
+  - 目錄商品組合
+  - 手動更新目錄
+  - 商品排除機制
+prerequisites:
+  - "[[設定 FBE 帳號授權與資產連結]]"
+  - "[[建立 Meta 廣告帳號並儲值]]"
+related:
+  - "[[設定 Meta 廣告活動]]"
+  - "[[排除商品不同步至 Facebook 與 Instagram 商店]]"
+tags:
+  - Meta Ads
+  - Facebook 整合
+  - 目錄廣告
+  - 商品同步
+acoiv: configure
 apis: []
 devices:
   - desktop
   - mobile
-ui_components: []
-paths: []
+ui_components:
+  - 目錄商品組合
+  - 創建目錄商品組合
+  - 選取限制
+paths:
+  - 第三方整合 > 臉書 Facebook 設定 > 目錄商品組合
+  - 第三方整合 > 臉書 Facebook 設定 > 基本設定
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=10789
   - https://www.cyberbiz.io/support/?p=46480
 permalink: ""
-comments: ""
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/shopping-basket
-hide:
+hide: []
 ---
 
+透過 CYBERBIZ Meta Ads App 建立目錄商品組合，篩選特定商品以投放 Meta 目錄型或圖片型廣告。
 { .subtitle }
-
-{ .doc-badge }
 
 ![MAA-目錄商品組合](../../../../assets/images/ec-第三方整合-fb-maa-目錄商品組合.png){ .hero-page }
 
@@ -120,36 +139,50 @@ hide:
 
 ### Meta 端更新
 
-您也可以前往 Meta 商務管理工具，在「目錄」>「資料來源」中點擊「要求更新」來強制同步。
+若 CYBERBIZ 端更新後仍無法同步，您也可以前往 Meta 商務管理工具強制更新資料來源：
+
+1.  **進入商務管理工具**：登入 [Meta 商務管理工具](https://business.facebook.com/commerce_manager)，點擊目標目錄。
+2.  **選擇資料來源**：進入目標目錄後，點擊 **目錄 > 資料來源**。
+3.  **要求更新**：點擊「**更新**」按鈕，強制同步商品資料。
+
+![MBM-目錄更新](../../../../assets/images/ec-第三方整合-mbm-目錄-更新.png)
 
 ## 應用於廣告活動
 
 建立好目錄商品組合後，即可依此創建廣告：
 
-1.  在 Meta Ads App 中點擊「**創建廣告活動**」。
-2.  在設定廣告的「創意來源」時，不論選擇「目錄型」或「圖片型」，皆可在「**目錄商品組合**」欄位選取您剛建立好的商品清單。
+1.  在 Meta Ads App 中的 **廣告活動** 分頁，點擊「**創建廣告活動**」。
+2.  在 **廣告創意設定** 中，可在「**目錄商品組合**」欄位選取您剛建立好的商品清單。
 3.  後續可搭配 Meta 的「高效速成行銷活動 (ASC)」進行投放，讓 AI 自動優化受眾與版位。
 
-**💡 溫馨提醒：**
-若商家有特定商品不希望同步至 Meta 平台，請務必在該商品的標籤欄位填入「**贈品**」或「**排除product feed**」（中間請勿加空格），系統將會自動進行排除。
-
-您是否需要我為您說明，如何根據目前的商品毛利狀況，利用「進階搜尋」來規劃更具效益的商品組合？
+![MAA-創建廣告活動-目錄商品組合](../../../../assets/images/ec-maa-創建廣告活動-目錄商品組合.png)
 
 ## 後續操作
 
 <div class="grid cards" markdown>
 
-- :lucide-import:{ .lg }
-  [排除商品同步](./../mbe/排除商品不同步至%20Facebook%20與%20Instagram%20商店.md){ data-preview }
-  。
+- :lucide-package-x:{ .lg }   
+  [__排除商品同步__](../../../products/categorization/管理商品標籤.md#排除上傳至第三方平台標籤){ data-preview }       
+  若有特定商品不希望同步至 Meta，可在該商品標籤填入「贈品」或「排除product feed」，系統將自動排除。
 
-- :lucide-shopping-basket:{ .lg }
-  [建立廣告活動](./建立%20Meta%20廣告帳號並儲值.md){ data-preview }
-  。
+- :lucide-rocket:{ .lg }   
+  [__建立廣告活動__](./設定%20Meta%20廣告活動.md){ data-preview }       
+  完成目錄商品組合設定後，即可依此建立 Meta 廣告活動，選擇「目錄型」或「圖片型」創意來源進行投放。
 
 </div>
 
 ## 常見問題
 
-??? quote ""
+??? quote "哪些商品無法被選入目錄商品組合？"
+
+    - 狀態非「公開」或「已上架」的商品
+    - 帶有「贈品」或「排除product feed」標籤的商品
+
+??? quote "目錄商品組合建立後多久會同步到 Meta？"
+
+    系統會自動同步。若未立即反應，可至「[手動更新目錄](#手動更新目錄)」強制更新。
+
+??? quote "如何確認商品已成功同步到 Meta 目錄？"
+
+    在建立廣告活動時，若商品能在「目錄商品組合」中選取即表示同步成功；或至 [Meta 商務管理工具](https://business.facebook.com/commerce_manager) 查看目錄資料。
 
