@@ -63,12 +63,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=8048",
-                "title": "設定 Meta 廣告的單日預算 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=7886",
+                "title": "Meta 商品影片廣告 – 同步 CYBERBIZ 商品影片到 Meta 目錄 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "設定 Meta 廣告的單日預算 - CYBERBIZ 一般版教學文件"
+              "title": "Meta 商品影片廣告 – 同步 CYBERBIZ 商品影片到 Meta 目錄 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -84,12 +84,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=2166",
-                "title": "設定 Meta 廣告的單日預算",
+                "url": "https://www.cyberbiz.io/support/?p=2175",
+                "title": "Meta 商品影片廣告 – 同步 CYBERBIZ 商品影片到 Meta 目錄",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "設定 Meta 廣告的單日預算"
+              "title": "Meta 商品影片廣告 – 同步 CYBERBIZ 商品影片到 Meta 目錄"
             }
           }
         ]
@@ -290,8 +290,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "b215f5bf832eb05e",
+  "active": "70ccdcc682095e33",
   "lastOpenFiles": [
+    "docs/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ.md",
     "docs/ec/integrations/fb/meta-ads/使用 Meta 廣告成效分析.md~",
     "site/assets/images/ec-maa-廣告列表欄位-aiinsights-路徑.png",
     "docs/assets/images/ec-maa-廣告列表欄位-aiinsights-路徑.png",
@@ -318,7 +319,6 @@
     "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告每日預算設定指南.md",
     "docs/ec/website-management/使用 Authy 啟用二階段驗證設定.md",
     "docs/ec/integrations/google/ga/設定 GA4 站內搜尋追蹤.md",
-    "docs/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ.md",
     "docs/ec/integrations/fb/meta-ads/同步商品影片至 Meta 目錄.md",
     "docs/pos/third-party/盟立電子發票.md",
     "docs/pos/others2/設定前台自動登出時間.md",
