@@ -1,8 +1,8 @@
 ---
 title: 同步商品影片至 Meta 目錄
-description: ""
+description: 將 CYBERBIZ 商品影片同步至 Meta 目錄，放置目錄型廣告時商品影片與商品圖將輪播展示，提升廣告吸睛程度。
 created: 2026-04-21 14:27
-last_modified: 2026-04-23 11:40
+last_modified: 2026-04-24 06:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -14,12 +14,13 @@ ga_views:
 feedback:
 products:
   - EC
-modules: []
+modules:
+  - 第三方整合
 sites:
   - TW
 audiences:
   - admin
-difficulty: ""
+difficulty: intermediate
 tnb: branch
 plans:
   - 專業 PLUS
@@ -27,18 +28,33 @@ plans:
   - 高手 PLUS
   - 企業
 cyb_extensions: []
-intents: []
-features: []
-prerequisites: []
-related: []
-acoiv: ""
+intents:
+  - 同步商品影片
+  - Meta 目錄同步
+features:
+  - 商品影片
+  - Meta 目錄
+  - CPV 廣告
+prerequisites:
+  - "[[設定商品影片]]"
+  - "[[設定 FBE 帳號授權與資產連結]]"
+related:
+  - "[[設定 Meta 廣告活動]]"
+tags:
+  - Meta 目錄
+  - 商品影片
+  - CPV 廣告
+  - 目錄型廣告
+acoiv: integration
 apis: []
 devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
-layouts: []
+paths:
+  - 第三方整合 > 臉書 Facebook 設定
+layouts:
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7886
   - https://www.cyberbiz.io/support/?p=2175
@@ -50,12 +66,13 @@ icon: lucide/play
 hide:
 ---
 
+將 CYBERBIZ 商品影片同步至 Meta 目錄，放置目錄型廣告時商品影片與商品圖將輪播展示，提升廣告吸睛程度。
 { .subtitle }
 
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
-{ .hero-page }
+![MBS-資料來源-目錄](../../../../assets/images/ec-第三方整合-mbs-資料來源-目錄.png){ .hero-page }
 
 ## 同步商品影片至 Meta 目錄說明
 
@@ -87,42 +104,54 @@ hide:
 
 ## 於 Meta 端確認同步狀態
 
-1.  前往 Meta 企業管理平台後台，進入「資料來源」>「目錄」，選擇剛才綁定的目錄。
+1.  前往 [Meta 企業管理平台 :lucide-external-link:](https://business.facebook.com/latest/settings) 後台，進入「資料來源」>「目錄」，選擇剛才綁定的目錄。
 2.  點擊「**在商務管理工具中開啟**」。
+
+    ![MBS-資料來源-目錄](../../../../assets/images/ec-第三方整合-mbs-資料來源-目錄-在商務管理工具中開啟.png)
+
 3.  在「目錄」>「資料來源」中，可查看目錄是否已自動同步並更新官網上的商品資料。
+
+    ![MBM-目錄-資料來源](../../../../assets/images/ec-第三方整合-mbm-目錄-資料來源.png)
 
 !!! warning "注意事項"
     - 若有多份資料來源導致新增失敗，請先刪除舊的資料來源再重新更新。
-    - 在 **尚未投放廣告前**，商務管理工具可能看不到影片預覽。您可以嘗試建立廣告，在審核階段暫停，Meta 隨即會幫您載入影片資料。
-
-## 投放 Meta 目錄型廣告 (進階應用)
-
-同步完成後，您可進一步設定 **CPV 廣告 (Catalog Product Video)**，以影片生動展示產品亮點：
-
-1.  **建立活動：** 在 Meta 廣告管理員中點擊「建立」，選擇「**銷售**」目標與「高效速成 + 購物行銷活動 (ASC)」。
-2.  **設定創意來源：** 在廣告層級的「廣告創意來源」選擇「**目錄**」，並選取已同步影片的目錄。
-3.  **關鍵開關：** 在「高效速成 + 廣告創意」區塊點擊編輯，確保「**活用型影音素材**」選項已開啟，如此廣告才會以商品影片格式呈現。
-
-**💡 溫馨提醒：**
-若需重新編輯或取消連結，必須登入**最初設定時使用的同一個 Facebook 帳號**方可操作。完成上述步驟後，請確認已儲值足夠廣告金（門檻為 NT$15,000）以開始投放。
-
-您是否需要我為您進階說明，如何針對特定的「目錄商品組合」來規劃更具效益的影片廣告投放策略？
+    - 在 **尚未投放廣告前**，商務管理工具可能看不到影片資料。您可以嘗試建立廣告，在審核階段暫停，Meta 隨即會幫您載入影片資料。
 
 ## 後續操作
 
 <div class="grid cards" markdown>
 
-- :lucide-import:{ .lg }
-  [____]()
-  。
-
-- :lucide-ban:{ .lg }
-  [____]()
-  。
+- :lucide-rocket:{ .lg }   
+  [__投放 Meta 目錄型廣告__](設定 Meta 廣告活動.md){ data-preview }       
+  同步完成後，可進一步設定 CPV 廣告 (Catalog Product Video)，以商品影片生動展示產品亮點。
 
 </div>
 
 ## 常見問題
 
-??? quote ""
+??? quote "如何確認商品影片已成功同步到 Meta 目錄？"
+
+    請依序執行以下步驟確認同步狀態：
+
+    1. 前往 [Meta 企業管理平台 :lucide-external-link:](https://business.facebook.com/latest/settings) 後台，進入「資料來源」>「目錄」
+    2. 選擇您綁定的目錄，點擊「在商務管理工具中開啟」
+    3. 在「目錄」>「資料來源」中查看是否已自動同步並更新官網上的商品資料
+
+??? quote "商品影片有哪些格式和規格限制？"
+
+    影片需符合以下限制：
+
+    - 解析度：不得超過 **1280 x 1280**（建議最佳比例為 **9:16**）
+    - 格式：僅支援 **mp4**
+    - 長度：不超過 **60 秒**
+    - 大小：不得超過 **30 MB**
+    - 音訊：系統**不支援輸出聲音**
+
+??? quote "為什麼在 Meta 商務管理工具中看不到影片資料？"
+
+    可能原因如下：
+
+    - 在 **尚未投放廣告前**，商務管理工具可能看不到影片資料
+    - 若有多份資料來源導致新增失敗，請先刪除舊的資料來源再重新更新
+    - 建議嘗試建立廣告，在審核階段暫停，Meta 隨即會幫您載入影片資料
 
