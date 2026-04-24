@@ -67,9 +67,11 @@ a {
   line-height: 1.2;
 }
 
-/* .md-sidebar--secondary {
-    border-left: 3px solid var(--md-default-fg-color--lightest);
-} */
+/* Adjusting border of secondary nav toc */
+
+.md-nav--secondary {
+  border-left: 2.5px solid var(--md-default-fg-color--lightest);
+}
 
 /* TOC Left Side Vertical Distinction Line */
 /* .md-nav--secondary { */
