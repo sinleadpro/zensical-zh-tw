@@ -350,5 +350,5 @@ dependencies = [
 [package.metadata]
 requires-dist = [
     { name = "mkdocs-autorefs", specifier = ">=1.4.4" },
-    { name = "zensical", specifier = ">=0.0.19" },
+    { name = "zensical", specifier = ">=0.0.36" },
 ]
