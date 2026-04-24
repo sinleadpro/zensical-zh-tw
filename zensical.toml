@@ -950,5 +950,5 @@ targets.include = [
 # Optional: Prevent stripping of HTML tags from titles
 #strip_title_tags = false
 
-# [project.markdown_extensions.zensical.extensions.glightbox]
-# auto_caption = true
+[project.markdown_extensions.zensical.extensions.glightbox]
+auto_caption = true
