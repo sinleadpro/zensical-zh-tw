@@ -82,14 +82,14 @@
             "id": "70ccdcc682095e33",
             "type": "leaf",
             "state": {
-              "type": "webviewer",
+              "type": "markdown",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=2175",
-                "title": "Meta 商品影片廣告 – 同步 CYBERBIZ 商品影片到 Meta 目錄",
-                "mode": "webview"
+                "file": "archive/wordpress-annotated/wp-reg-annotated-20260106/商品頁上傳影片.md",
+                "mode": "source",
+                "source": true
               },
-              "icon": "globe-2",
-              "title": "Meta 商品影片廣告 – 同步 CYBERBIZ 商品影片到 Meta 目錄"
+              "icon": "lucide-file",
+              "title": "商品頁上傳影片"
             }
           }
         ]
@@ -124,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "failure",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -292,28 +292,30 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/assets/images/ec-第三方整合-fb-基本設定-fbe-連結目錄.png",
-    "docs/assets/images/ec-第三方整合-fb-基本設定-fbe-連結目錄.png",
-    "site/assets/images/ec-第三方整合-fb-基本設定-fbe-編輯資產.png",
-    "docs/assets/images/ec-第三方整合-fb-基本設定-fbe-編輯資產.png",
-    "docs/ec/integrations/fb/meta-ads/同步商品影片至 Meta 目錄.md~",
-    "site/404.html",
-    "site/ec/app-market/cyberbiz-extensions/index.html",
-    "site/wms/手動確認收貨/index.html",
-    "site/wms/手動確認收貨",
-    "site/wms/商家自行驗收退貨/index.html",
-    "site/wms/商家自行驗收退貨",
-    "site/ec/products/sales/設定結帳拆分多購物車/index.html",
-    "site/ec/products/sales/設定結帳拆分多購物車",
-    "site/ec/website-management/星益欣電子發票設定指南/index.html",
+    "site/ec/integrations/fb/設定 Facebook 快速登入/index.html",
+    "site/ec/integrations/fb/設定 Facebook 快速登入",
+    "site/ec/integrations/串接美安通路/index.html",
+    "site/ec/integrations/串接美安通路",
+    "site/index.html",
+    "site/ec/products/index.html",
+    "site/ec/payments-and-logistics/澳洲落地版金流服務/index.html",
+    "site/ec/payments-and-logistics/澳洲落地版金流服務",
+    "site/ec/integrations/index.html",
+    "site/ec/payments-and-logistics/北美站金流服務/index.html",
+    "site/ec/payments-and-logistics/北美站金流服務",
+    "site/assets/images/ec-第三方整合-line login channel-openid connect.gif",
+    "site/assets/images/ec-第三方整合-mbm-目錄-更新.png",
+    "site/assets/images/POS-前台-結帳-子機綁定機制02.png",
+    "site/assets/images/POS-前台-登入頁面01.png",
+    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
+    "site/assets/images/發票-混稅發票02.png",
+    "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
+    "site/assets/images/ec-訂單-訂單報表匯出-篩選項目.png",
+    "site/assets/images/ec-maa-廣告活動列表-廣告名稱.png",
+    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
+    "docs/pos/hardware/EPSON 有線發票機.md",
+    "archive/wordpress-annotated/wp-reg-annotated-20260106/商品頁上傳影片.md",
     "docs/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ.md",
-    "site/assets/images/ec-maa-廣告列表欄位-aiinsights-路徑.png",
-    "docs/assets/images/ec-maa-廣告列表欄位-aiinsights-路徑.png",
-    "site/assets/images/ec-maa-廣告列表欄位-ai分析.png",
-    "docs/assets/images/ec-maa-廣告列表欄位-ai分析.png",
-    "site/assets/images/ec-maa-廣告列表欄位 copy.png",
-    "docs/assets/images/ec-maa-廣告列表欄位 copy.png",
-    "site/assets/images/ec-maa-aiinsights-路徑.png",
     "archive/wordpress-annotated/wp-reg-annotated-20260106/Meta 廣告成效分析.md",
     "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告活動.md",
     "docs/ec/integrations/fb/meta-ads/Meta 廣告每日預算設定指南.md",
@@ -335,8 +337,6 @@
     "docs/pos/inventory/進倉完整流程.md",
     "docs/pos/inventory/進倉單.md",
     "docs/pos/inventory/調倉完整流程.md",
-    "docs/pos/inventory/調倉單.md",
-    "docs/pos/inventory/庫存調整.md",
-    "docs/pos/inventory/庫存盤點.md"
+    "docs/pos/inventory/調倉單.md"
   ]
 }
