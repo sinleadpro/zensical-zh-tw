@@ -202,11 +202,13 @@ hide: []
   [__建立廣告活動__](設定%20Meta%20廣告活動.md){ data-preview }       
   完成成效分析後，可依數據洞察建立新的 Meta 廣告活動。
 
-- :lucide-pacakge-x:{ .lg }   
+- :lucide-package-x:{ .lg }   
   [__排除商品同步__](../mbe/排除商品不同步至%20Facebook%20與%20Instagram%20商店.md){ data-preview }       
   如有特定商品不希望同步至 Meta，可設定排除標籤。
 
 </div>
+
+## 常見問題
 
 ??? quote "什麼是良好的 ROAS 值？"
 
