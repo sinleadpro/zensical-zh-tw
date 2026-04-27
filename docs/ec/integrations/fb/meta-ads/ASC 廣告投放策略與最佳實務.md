@@ -1,42 +1,65 @@
 ---
 title: ASC 廣告投放策略與最佳實務
-description: ""
+description: 了解 Meta ASC（高效速成購物行銷活動）廣告投放策略與實務技巧，包含前置條件設定、預算配置建議與優化策略。
 created: 2026-04-24 17:48
-last_modified: 2026-04-27
+last_modified: 2026-04-27 10:00
 lang: zh-TW
 type: guide
 status: ""
-author: Jase
 version: ""
+author: Jase
 reviewers: []
 notes: []
-ga_views:
-feedback:
+ga_views: 0
+feedback: 0
 products:
   - EC
-modules: []
+modules:
+  - 第三方整合
 sites:
   - TW
 audiences:
   - admin
-difficulty: ""
-tnb: ""
+difficulty: beginner
+tnb: trunk
 plans:
-cyb_extensions: []
-intents: []
-features: []
+  - 專業
+  - 進階
+  - 高手
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions:
+  - APP_MARKET
+intents:
+  - 投放 ASC 廣告
+  - 設定高效速成購物行銷活動
+  - 優化廣告投放效果
+features:
+  - ASC
+  - 高效速成行銷活動
+  - 目錄型廣告
 prerequisites:
   - "[[設定 FBE 帳號授權與資產連結]]"
   - "[[建立 Meta 廣告帳號並儲值]]"
-related: []
-tags: []
-acoiv: ""
+related:
+  - "[[設定 Meta 廣告活動]]"
+  - "[[使用 Meta 廣告成效分析]]"
+  - "[[Meta 廣告每日預算設定指南]]"
+tags:
+  - ASC
+  - 高效速成行銷活動
+  - Meta 廣告
+  - 廣告投放
+acoiv: integration
 apis: []
 devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
+paths:
+  - 第三方整合 > Facebook 整合_廣告_註冊登入 > 廣告活動設定
 layouts: []
 wp_url: []
 permalink: ""
@@ -46,12 +69,8 @@ search:
 icon: lucide/megaphone
 hide:
 ---
-
+了解 Meta ASC（高效速成購物行銷活動）廣告投放策略與實務技巧，包含前置條件設定、預算配置建議與優化策略。
 { .subtitle }
-
-{ .doc-badge }
-
-{ .hero-page }
 
 ## Meta ASC 說明
 
@@ -146,8 +165,23 @@ hide:
     3.  **預算推算公式**：若不確定如何設定金額，建議可使用 **「商品客單價的 30%」作為預估 CPA（獲客成本）**，再回推每日預算。
     4.  **創意多樣化**：在同一個廣告活動下設定多個廣告創意（至多 20 個），並支援圖片搭配商品目錄的組合，提升品牌溝通彈性。
 
-
 ## 常見問題
 
-??? quote ""
+??? quote "ASC 廣告需要多少預算才能開始投放？"
+
+    -   [x] 首次儲值金額需大於新台幣 15,000 元
+    -   [x] 建議上線第一至二週設定較高的每日預算，以縮短 AI 學習週期
+    -   [x] 可參考「商品客單價的 30%」作為預估 CPA 回推每日預算
+
+??? quote "ASC 廣告適合什麼樣的商家？"
+
+    -   [x] 適合有無數據累積的新廣告帳號，系統會自動尋找目標族群
+    -   [x] 適合希望全自動化投放、不擅長受眾設定的商家
+    -   [x] 適合需要個人化動態推薦、提升轉單率的電商
+
+??? quote "如何優化 ASC 廣告的投放效果？"
+
+    1.  設定多個廣告創意（最多 20 個），支援圖片搭配商品目錄組合
+    2.  目標是在前兩週內累積至少 30-50 次購買轉換
+    3.  確保 Facebook 像素正確綁定，以利廣告抓取商品資訊
 
