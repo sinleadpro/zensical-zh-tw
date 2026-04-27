@@ -12,6 +12,27 @@
     margin: 1.5rem auto; vertical spacing + center horizontally */
 }
 
+/* Apply matching styles to embedded videos and iframes */
+.md-typeset iframe, 
+.md-typeset video,
+.md-typeset .video-wrapper,
+.md-typeset .video-container {
+    border-radius: 8px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+    /* Prevent sharp corners from showing if the video doesn't have a radius */
+    overflow: hidden; 
+    /* Maintain spacing similar to your images */
+    margin-bottom: 1rem;
+    height: auto;
+}
+
+/* Ensure the iframe itself is contained within the rounded border */
+.md-typeset .video-wrapper iframe {
+    border: none;
+    border-radius: 8px;
+}
+
+
 /* Screenshot styling for External Images*/
 .screenshot {
   /* padding: 0.1rem; */

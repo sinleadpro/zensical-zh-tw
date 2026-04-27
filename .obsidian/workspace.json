@@ -63,12 +63,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=7886",
-                "title": "Meta 商品影片廣告 – 同步 CYBERBIZ 商品影片到 Meta 目錄 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=12881",
+                "title": "Meta 廣告 – 【特殊情境】閒置帳號 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Meta 商品影片廣告 – 同步 CYBERBIZ 商品影片到 Meta 目錄 - CYBERBIZ 一般版教學文件"
+              "title": "Meta 廣告 – 【特殊情境】閒置帳號 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -82,14 +82,14 @@
             "id": "70ccdcc682095e33",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "webviewer",
               "state": {
-                "file": "archive/wordpress-annotated/wp-reg-annotated-20260106/商品頁上傳影片.md",
-                "mode": "source",
-                "source": true
+                "url": "https://www.cyberbiz.io/support/?p=52679",
+                "title": "Meta 廣告 – 【特殊情境】閒置帳號",
+                "mode": "webview"
               },
-              "icon": "lucide-file",
-              "title": "商品頁上傳影片"
+              "icon": "globe-2",
+              "title": "Meta 廣告 – 【特殊情境】閒置帳號"
             }
           }
         ]
@@ -290,32 +290,34 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "536fb88d16f7d477",
+  "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/ec/products/新增與設定組合商品/index.html",
-    "site/ec/products/新增與設定組合商品",
-    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款/index.html",
-    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款",
-    "site/ec/payments-and-logistics/CYBERBIZ EXPRESS 日到台跨境宅配/index.html",
-    "site/ec/payments-and-logistics/CYBERBIZ EXPRESS 日到台跨境宅配",
-    "site/ec/products/get-started/index.html",
-    "site/storepal/index.html",
-    "site/storepal",
-    "site/ec/payments-and-logistics/串接ezShip超商取貨(C2C)/index.html",
-    "site/ec/payments-and-logistics/串接ezShip超商取貨(C2C)",
+    "site/assets/images/ec-第三方整合-meta廣告帳號閒置通知-後台.png",
+    "docs/assets/images/ec-第三方整合-meta廣告帳號閒置通知-後台.png",
+    "docs/ec/integrations/fb/meta-ads/Meta 廣告閒置帳號回收機制說明.md~",
+    "site/assets/images/ec-第三方整合-meta廣告帳號閒置通知-不再提醒.png",
+    "docs/assets/images/ec-第三方整合-meta廣告帳號閒置通知-不再提醒.png",
+    "site/assets/images/ec-第三方整合-meta廣告帳號閒置通知-電郵.png",
+    "docs/assets/images/ec-第三方整合-meta廣告帳號閒置通知-電郵.png",
+    "site/assets/images/ec-第三方整合-meta廣告閒置通知-電郵.png",
+    "docs/assets/images/ec-第三方整合-meta廣告閒置通知-電郵.png",
+    "site/ec/integrations/fb/meta-ads/Meta 廣告閒置帳號回收機制說明.md~",
+    "site/assets/images/ec-第三方整合-fb-mbe-meta廣告閒置.png",
+    "docs/assets/images/ec-第三方整合-fb-mbe-meta廣告閒置.png",
+    "site/ec/payments-and-logistics/設定超商大宗寄倉 B2C/index.html",
+    "site/ec/payments-and-logistics/設定超商大宗寄倉 B2C",
+    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流/index.html",
+    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流",
+    "site/resources/glossary/index.html",
+    "site/resources/glossary",
+    "site/ec/payments-and-logistics/DHL 跨境物流/index.html",
+    "site/ec/payments-and-logistics/DHL 跨境物流",
     "site/assets/images/favicon.png",
-    "site/assets/images/ec-第三方整合-google-ga-建立帳戶-04.png",
-    "site/assets/images/EC-後台-APPMARKET-蝦皮商品-授權商店05.png",
-    "site/assets/images/ec-第三方整合-line login channel-callback url.png",
-    "site/assets/images/ec-e-ticket-hero.zh-tw.png",
-    "site/assets/images/EC-後台-金物流-超商物流-選擇物流01.png",
-    "site/assets/images/EC-後台-商品-所有商品-設定應稅免稅01.png",
-    "site/assets/images/EC-後台-分潤-註冊人分潤-畫面總覽01.png",
-    "site/assets/images/POS-後台-所有POS商店-員工列表-顯示停權員工01.png",
-    "site/assets/images/HiNet-後台-網域資訊-設定轉址03.png",
+    "docs/ec/integrations/fb/meta-ads/Meta 廣告閒置帳號回收機制說明.md",
+    "docs/ec/integrations/fb/meta-ads/帳號閒置處理與回收機制說明.md",
+    "archive/wordpress-annotated/wp-reg-annotated-20260106/商品頁上傳影片.md",
     "docs/ec/integrations/fb/meta-ads/ASC 廣告投放策略與最佳實務.md",
     "docs/pos/hardware/EPSON 有線發票機.md",
-    "archive/wordpress-annotated/wp-reg-annotated-20260106/商品頁上傳影片.md",
     "docs/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ.md",
     "archive/wordpress-annotated/wp-reg-annotated-20260106/Meta 廣告成效分析.md",
     "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告活動.md",
@@ -335,8 +337,6 @@
     "docs/pos/others/小結關帳.md",
     "docs/pos/orders_ann/index.md",
     "docs/pos/member/index.md",
-    "docs/pos/inventory/進倉完整流程.md",
-    "docs/pos/inventory/進倉單.md",
-    "docs/pos/inventory/調倉完整流程.md"
+    "docs/pos/inventory/進倉完整流程.md"
   ]
 }
