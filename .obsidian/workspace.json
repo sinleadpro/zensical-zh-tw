@@ -63,12 +63,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=7886",
-                "title": "Meta 商品影片廣告 – 同步 CYBERBIZ 商品影片到 Meta 目錄 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=12881",
+                "title": "Meta 廣告 – 【特殊情境】閒置帳號 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Meta 商品影片廣告 – 同步 CYBERBIZ 商品影片到 Meta 目錄 - CYBERBIZ 一般版教學文件"
+              "title": "Meta 廣告 – 【特殊情境】閒置帳號 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -84,12 +84,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=2175",
-                "title": "Meta 商品影片廣告 – 同步 CYBERBIZ 商品影片到 Meta 目錄",
+                "url": "https://www.cyberbiz.io/support/?p=52679",
+                "title": "Meta 廣告 – 【特殊情境】閒置帳號",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "Meta 商品影片廣告 – 同步 CYBERBIZ 商品影片到 Meta 目錄"
+              "title": "Meta 廣告 – 【特殊情境】閒置帳號"
             }
           }
         ]
@@ -292,27 +292,30 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
+    "site/assets/images/ec-第三方整合-meta廣告帳號閒置通知-後台.png",
+    "docs/assets/images/ec-第三方整合-meta廣告帳號閒置通知-後台.png",
+    "docs/ec/integrations/fb/meta-ads/Meta 廣告閒置帳號回收機制說明.md~",
+    "site/assets/images/ec-第三方整合-meta廣告帳號閒置通知-不再提醒.png",
+    "docs/assets/images/ec-第三方整合-meta廣告帳號閒置通知-不再提醒.png",
+    "site/assets/images/ec-第三方整合-meta廣告帳號閒置通知-電郵.png",
+    "docs/assets/images/ec-第三方整合-meta廣告帳號閒置通知-電郵.png",
+    "site/assets/images/ec-第三方整合-meta廣告閒置通知-電郵.png",
+    "docs/assets/images/ec-第三方整合-meta廣告閒置通知-電郵.png",
+    "site/ec/integrations/fb/meta-ads/Meta 廣告閒置帳號回收機制說明.md~",
+    "site/assets/images/ec-第三方整合-fb-mbe-meta廣告閒置.png",
+    "docs/assets/images/ec-第三方整合-fb-mbe-meta廣告閒置.png",
+    "site/ec/payments-and-logistics/設定超商大宗寄倉 B2C/index.html",
+    "site/ec/payments-and-logistics/設定超商大宗寄倉 B2C",
+    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流/index.html",
+    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流",
+    "site/resources/glossary/index.html",
+    "site/resources/glossary",
+    "site/ec/payments-and-logistics/DHL 跨境物流/index.html",
+    "site/ec/payments-and-logistics/DHL 跨境物流",
+    "site/assets/images/favicon.png",
+    "docs/ec/integrations/fb/meta-ads/Meta 廣告閒置帳號回收機制說明.md",
+    "docs/ec/integrations/fb/meta-ads/帳號閒置處理與回收機制說明.md",
     "archive/wordpress-annotated/wp-reg-annotated-20260106/商品頁上傳影片.md",
-    "docs/ec/integrations/fb/meta-ads/ASC 廣告投放策略與最佳實務.md~",
-    "site/ec/payments-and-logistics/查詢宅配託運單紀錄/index.html",
-    "site/ec/payments-and-logistics/查詢宅配託運單紀錄",
-    "site/ec/payments-and-logistics/設定超商店到店 C2C 物流串接/index.html",
-    "site/ec/payments-and-logistics/設定超商店到店 C2C 物流串接",
-    "site/ec/payments-and-logistics/日本站金流服務/index.html",
-    "site/ec/payments-and-logistics/日本站金流服務",
-    "site/ec/payments-and-logistics/宅配貨到不付款（黑貓宅配通新竹物流）/index.html",
-    "site/ec/payments-and-logistics/宅配貨到不付款（黑貓宅配通新竹物流）",
-    "site/ec/payments-and-logistics/串接ezShip超商取貨(C2C)/index.html",
-    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
-    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
-    "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
-    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
-    "site/assets/images/POS-前台-登入頁面01.png",
-    "site/assets/images/發票-混稅發票02.png",
-    "site/assets/images/POS-前台-結帳-子機綁定機制02.png",
-    "site/assets/images/POS-裝置-有線刷卡機限定傳輸線SUNBOX01.jpg",
-    "site/assets/images/ec-第三方整合-mbm-目錄-更新.png",
-    "site/assets/images/POS-後台-盤點單-盤點資訊01.png",
     "docs/ec/integrations/fb/meta-ads/ASC 廣告投放策略與最佳實務.md",
     "docs/pos/hardware/EPSON 有線發票機.md",
     "docs/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ.md",
@@ -334,8 +337,6 @@
     "docs/pos/others/小結關帳.md",
     "docs/pos/orders_ann/index.md",
     "docs/pos/member/index.md",
-    "docs/pos/inventory/進倉完整流程.md",
-    "docs/pos/inventory/進倉單.md",
-    "docs/pos/inventory/調倉完整流程.md"
+    "docs/pos/inventory/進倉完整流程.md"
   ]
 }

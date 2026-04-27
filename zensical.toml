@@ -308,6 +308,7 @@ copyright = """
                 {"Meta 廣告" = [
                     {"Meta 廣告總覽" = "ec/integrations/fb/meta-ads/index.md"},
                     {"建立帳號與儲值" = "ec/integrations/fb/meta-ads/建立 Meta 廣告帳號並儲值.md"},
+                    {"閒置帳號處理" = "ec/integrations/fb/meta-ads/Meta 廣告閒置帳號回收機制說明.md"},
                     {"廣告活動設定" = "ec/integrations/fb/meta-ads/設定 Meta 廣告活動.md"},
                     {"廣告預算指南" = "ec/integrations/fb/meta-ads/Meta 廣告每日預算設定指南.md"},
                     {"目錄商品組合" = "ec/integrations/fb/meta-ads/設定 Meta 廣告的目錄商品組合.md"},

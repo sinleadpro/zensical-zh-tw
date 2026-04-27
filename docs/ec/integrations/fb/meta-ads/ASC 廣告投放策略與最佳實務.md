@@ -61,7 +61,9 @@ ui_components: []
 paths:
   - 第三方整合 > Facebook 整合_廣告_註冊登入 > 廣告活動設定
 layouts: []
-wp_url: []
+wp_url: 
+  - https://www.cyberbiz.io/helpcenter/?p=10820
+  - https://www.cyberbiz.io/support/?p=4674
 permalink: ""
 comments: ""
 search:
