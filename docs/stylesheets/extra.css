@@ -201,13 +201,13 @@ a {
 
 
 /* Apply underline effect to ALL non-button links (including data-preview) */
-.md-content a:not(.md-button):not(.md-button--primary) {
+.md-content a:not(.md-button):not(.md-button--primary):not(:has(img)) {
   position: relative;
   text-decoration: none;
 }
 
 /* Use ::before for underline to avoid conflict with preview icon */
-.md-content a:not(.md-button):not(.md-button--primary)::before {
+.md-content a:not(.md-button):not(.md-button--primary):not(:has(img))::before {
   content: "";
   position: absolute;
   left: 0;
