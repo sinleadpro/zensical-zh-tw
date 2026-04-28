@@ -61,7 +61,7 @@ permalink:
 comments: ""
 search:
   exclude: ""
-icon: lucide/mail
+icon: lucide/mail-plus
 hide:
 ---
 

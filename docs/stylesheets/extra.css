@@ -201,13 +201,13 @@ a {
 
 
 /* Apply underline effect to ALL non-button links (including data-preview) */
-.md-content a:not(.md-button):not(.md-button--primary) {
+.md-content a:not(.md-button):not(.md-button--primary):not(:has(img)) {
   position: relative;
   text-decoration: none;
 }
 
 /* Use ::before for underline to avoid conflict with preview icon */
-.md-content a:not(.md-button):not(.md-button--primary)::before {
+.md-content a:not(.md-button):not(.md-button--primary):not(:has(img))::before {
   content: "";
   position: absolute;
   left: 0;
@@ -372,6 +372,9 @@ a {
 
 
 
+/* Custom Admonitions
+
+/* Admontion Path
 /* 同時針對 靜態 (!!!) 與 可摺疊 (???) 進行樣式設定 */
 .md-typeset .admonition.path,
 .md-typeset details.path {
@@ -398,3 +401,29 @@ a {
     mask-image: var(--md-admonition-icon--path);
 }
 
+/* Admonition Plan
+/* 同時針對 靜態 (!!!) 與 可摺疊 (???) 進行樣式設定 */
+.md-typeset .admonition.plan,
+.md-typeset details.plan {
+    border-color: #a855f7;    /* Purple 500 - Distinct from Note blue */
+    background-color: #faf5ff; /* Purple 50 - Clearly different from slate/blue */
+    border-left-width: 4px;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+/* 針對可摺疊區塊的標題 (summary) */
+.md-typeset .plan > .admonition-title,
+.md-typeset .plan > summary {
+    background-color: transparent;
+    font-weight: 700;
+}
+
+/* 確保摺疊時的圖示顏色與位置一致 */
+.md-typeset .plan > .admonition-title::before,
+.md-typeset .plan > summary::before {
+    background-color: #a855f7;
+    -webkit-mask-image: var(--md-admonition-icon--plan);
+    mask-image: var(--md-admonition-icon--plan);
+}
