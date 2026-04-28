@@ -56,7 +56,7 @@ hide:
 
 ---
 
-## 什麼是 CYBER 幣？
+## 什麼是 CYBER 幣
 
 CYBER 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項加值服務，包含：
 

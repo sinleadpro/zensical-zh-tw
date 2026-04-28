@@ -223,7 +223,7 @@ search:
 
 ---
 
-## :lucide-book-search: 檢索資源
+## :lucide-bot-message-square: AI 輔助檢索
 
 <div class="grid cards" markdown>
 
