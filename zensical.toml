@@ -392,6 +392,7 @@ copyright = """
                 {"網站轉址" = "ec/website-management/seo/設定 301 重定向網站轉址.md"}
             ]},
             { "星益欣電子發票" = "ec/website-management/星益欣電子發票設定指南.md" },
+            {"儲值中心" = "ec/website-management/CYBER 幣儲值中心使用指南.md"},
             { "為特定網域信箱套用指定會員標籤" = "ec/website-management/為特定網域信箱套用指定會員標籤.md" },
             {"管理員與權限" = "ec/website-management/新增網站管理員並設定權限.md"},
             {"參考資料" = [
@@ -820,7 +821,7 @@ toggle.name = "Switch to light mode"
 #repo = "lucide/smile"
 
 [project.theme.icon.admonition]
-path = "lucide/map-pin"
+path = "lucide/signpost"
 plan = "lucide/tag"
 
 # ----------------------------------------------------------------------------
