@@ -211,8 +211,12 @@ copyright = """
             { "超商大宗寄倉 B2C" = "ec/payments-and-logistics/設定超商大宗寄倉 B2C.md" },
             { "全家冷凍 B2C" = "ec/payments-and-logistics/設定全家冷凍物流 B2C.md" },
             { "超商店到店 C2C 串接" = "ec/payments-and-logistics/設定超商店到店 C2C 物流串接.md" },
-            { "設定門市取貨服務"= "ec/payments-and-logistics/設定門市取貨服務.md" },
-            { "設定CYBERBIZ NOW快速到貨服務" = "ec/payments-and-logistics/設定CYBERBIZ NOW快速到貨服務.md" },
+            { "建立門市" = "ec/payments-and-logistics/建立門市.md" },
+            { "門市取貨" = [
+                { "overview" = "ec/payments-and-logistics/store-pickup/index.md" },
+                { "開啟門市取貨服務"= "ec/payments-and-logistics/store-pickup/開啟門市取貨服務.md" },
+                { "門市取貨訂單出貨" = "ec/payments-and-logistics/store-pickup/門市取貨訂單出貨.md" },
+            ]},
             { "CYBERBIZ NOW" = [
                 { "overview" = "ec/payments-and-logistics/CYBERBIZNOW/index.md" },
                 { "開啟快速到貨服務" = "ec/payments-and-logistics/CYBERBIZNOW/開啟CYBERBIZ NOW快速到貨服務.md"},
@@ -449,6 +453,7 @@ copyright = """
             { "overview" = "pos/get-started/index.md" },
         ]},
         { "硬體安裝" = [
+            { "overview" = "pos/hardware/index.md" },
             { "有線刷卡機" = "pos/hardware/有線刷卡機.md" },
             { "商米無線刷卡機" = "pos/hardware/商米無線刷卡機.md" },
             { "Posiflex 有線發票機" = "pos/hardware/Posiflex 有線發票機.md" },
@@ -459,7 +464,7 @@ copyright = """
             { "網路連線異常與斷線提示" = "pos/hardware/網路連線異常與斷線提示.md" },
         ]},
         { "軟體安裝" = [
-            { "驅動程式" = "" },
+            { "驅動程式" = "pos/software/驅動程式.md" },
         ]},
         { "第三方服務" =[
             { "盟立電子發票" = "pos/third-party/盟立電子發票.md" },
@@ -467,14 +472,15 @@ copyright = """
         ]},
         {"divider" = "divider"},
         { "商店管理" = [
-            { "公告系統" = "pos/others2/公告系統.md" },
-            { "安全性設定" = "pos/others2/安全性設定.md" },
-            { "續購與加購方案" = "pos/others2/續購與加購方案.md" },
+            { "公告系統" = "pos/store/公告系統.md" },
+            { "安全性設定" = "pos/store/安全性設定.md" },
+            { "續購與加購方案" = "pos/store/續購與加購方案.md" },
+            { "POS 門市取貨店員分潤" = "pos/store/POS 門市取貨店員分潤.md" },
         ]},
-        { "權限管理" = [
-            { "設定前台自動登出時間" = "pos/others2/設定前台自動登出時間.md" },
-            { "員工權限與帳號管理" = "pos/others2/員工權限與帳號管理.md" },
-            { "人員登入" = "pos/others2/人員登入.md" },
+        { "人員管理" = [
+            { "設定前台自動登出時間" = "pos/store/設定前台自動登出時間.md" },
+            { "員工權限與帳號管理" = "pos/store/員工權限與帳號管理.md" },
+            { "人員登入" = "pos/store/人員登入.md" },
         ]},
         { "報表分析" = [
             { "營收分析" = "" },
@@ -482,16 +488,18 @@ copyright = """
         ]},
         {"divider" = "divider"},
         { "結帳" =[
+            { "overview" = "pos/check/index.md" },
             { "子機結帳綁定" = "pos/check/子機結帳綁定.md" },
             { "付款方式" =[
-                { "overview" = "pos/check/index.md" },
-                { "多付款方式" = "pos/check/多付款方式.md" },
+                { "overview" = "pos/check/payment-method/index.md" },
+                { "多付款方式" = "pos/check/payment-method/多付款方式.md" },
             ]},
             { "列印發票明細" = "pos/check/列印發票明細.md" },
             { "列印商品標籤" = "pos/check/列印商品標籤.md" },
             { "庫存不足通知" = "pos/check/庫存不足通知.md" },
             { "紅利商城" = "pos/check/紅利商城.md" },
             { "客顯互動遊戲" = "pos/check/客顯互動遊戲.md" },
+            { "訪客結帳" = "pos/check/訪客結帳.md" },
             { "離線結帳模式" = "pos/check/離線結帳模式.md" },
             { "掃描槍掃描後找不到商品" = "pos/check/掃描槍掃描後找不到商品.md" },
             { "混稅發票" = "pos/check/混稅發票.md" },
@@ -500,7 +508,8 @@ copyright = """
             { "overview" = "" },
         ]},
         { "訂單" =[
-            { "overview" = "pos/orders_ann/index.md" },
+            { "一般訂單管理" = "pos/orders_ann/管理一般訂單.md" },
+            { "門市取貨訂單(入庫/取貨)" = "pos/orders_ann/門市取貨訂單(入庫取貨).md" },
         ]},
         { "會員" =[
             { "overview" = "pos/member/index.md" },

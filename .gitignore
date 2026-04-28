@@ -44,3 +44,4 @@ docops/
 
 # Ann's files
 .cursorindexingignore
+.cursor/
