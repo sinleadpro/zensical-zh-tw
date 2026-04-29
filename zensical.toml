@@ -182,7 +182,8 @@ copyright = """
             { "指定商品送活動序號" = "ec/marketing/設定指定商品送活動序號.md"},
             { "紅利商城" = "ec/marketing/設定紅利商城.md"},
             { "商品多層級分類滿額折扣" = "ec/marketing/設定商品多層級分類滿額折扣.md" },
-            { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" }
+            { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" },
+            {"預填商品導購連結" = "ec/marketing/建立含指定商品的購物車連結.md"}
         ]},  
         { "分潤" = [
             { "overview" = "ec/profit-sharing/index.md"},
