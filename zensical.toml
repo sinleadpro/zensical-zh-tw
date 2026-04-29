@@ -63,6 +63,7 @@ copyright = """
             { "訂單退款流程" = "ec/orders/訂單退款流程.md"},
             { "綠界後台查詢教學" = "ec/orders/綠界後台查詢教學.md"},
             { "訂單管理介面" = "ec/orders/訂單管理介面說明.md" },
+            {"編輯訂單" = "ec/orders/編輯訂單內容.md"},
             { "出貨提示文字" = "ec/orders/出貨狀態物流提示文字說明.md" },
             { "訂單未付款提醒" = "ec/orders/設定未付款提醒.md" },
             { "提供付款連結" = "ec/orders/提供顧客付款連結.md" },
@@ -181,7 +182,8 @@ copyright = """
             { "指定商品送活動序號" = "ec/marketing/設定指定商品送活動序號.md"},
             { "紅利商城" = "ec/marketing/設定紅利商城.md"},
             { "商品多層級分類滿額折扣" = "ec/marketing/設定商品多層級分類滿額折扣.md" },
-            { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" }
+            { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" },
+            {"預填商品導購連結" = "ec/marketing/建立含指定商品的購物車連結.md"}
         ]},  
         { "分潤" = [
             { "overview" = "ec/profit-sharing/index.md"},
@@ -193,15 +195,14 @@ copyright = """
             { "推薦碼連結的應用" = "ec/profit-sharing/推薦碼連結的應用.md"},
         ]},
         { "訊息推播" = [
-            {"overview" = "ec/notifications/index.md" },
+            {"訊息推播總覽" = "ec/notifications/index.md" },
             {"Email 樣板管理" = "ec/notifications/設定與管理 Email 通知樣板.md"},
             {"簡訊通知樣板" = "ec/notifications/設定與管理簡訊通知樣板.md" },
             {"簡訊發送" = "ec/notifications/設定與發送簡訊通知.md"},
             {"簡訊發送紀錄" = "ec/notifications/查詢與追蹤簡訊發送紀錄.md"},
             {"LINE OA 樣板管理" = "ec/notifications/設定與管理 LINE OA 通知樣板.md"},
             {"LINE 加入好友邀請" = "ec/notifications/發送 LINE 加入好友邀請.md" },
-            {"發送 EDM" = "ec/notifications/設定與發送 EDM 電子報.md"},
-            {"庫存過低通知" = "ec/notifications/庫存過低通知.md" }
+            {"發送 EDM" = "ec/notifications/設定與發送 EDM 電子報.md"}
         ]},
         { "金物流" = [
             { "overview" = "ec/payments-and-logistics/index.md" },

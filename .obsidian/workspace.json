@@ -63,12 +63,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=621",
-                "title": "簡訊設定教學 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=12382",
+                "title": "編輯訂單 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "簡訊設定教學 - CYBERBIZ 一般版教學文件"
+              "title": "編輯訂單 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -84,12 +84,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=1529",
-                "title": "簡訊設定教學",
+                "url": "https://www.cyberbiz.io/support/?p=51419,https://www.cyberbiz.io/support/?p=50824",
+                "title": "編輯訂單",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "簡訊設定教學"
+              "title": "編輯訂單"
             }
           }
         ]
@@ -155,12 +155,12 @@
               "title": "notebook-navigator"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 287.5,
+    "collapsed": true
   },
   "right": {
     "id": "973606ff262c9293",
@@ -292,27 +292,29 @@
   },
   "active": "2c27b3aecd22969c",
   "lastOpenFiles": [
-    "site/assets/images/ec-管理中心-儲值中心-明細匯出.png",
-    "docs/assets/images/ec-管理中心-儲值中心-明細匯出.png",
-    "site/assets/images/ec-管理中心-儲值中心-明細紀錄.png",
-    "docs/assets/images/ec-管理中心-儲值中心-明細紀錄.png",
-    "site/assets/images/ec-管理中心-儲值中心-儲值紀錄.png",
-    "docs/assets/images/ec-管理中心-儲值中心-儲值紀錄.png",
-    "site/assets/images/ec-管理中心-儲值中心-CYBER幣購買視窗-付款方式-信用卡.png",
-    "docs/assets/images/ec-管理中心-儲值中心-CYBER幣購買視窗-付款方式-信用卡.png",
-    "site/assets/images/ec-管理中心-儲值中心-CYBER幣購買視窗-發票資訊-捐贈.png",
-    "docs/assets/images/ec-管理中心-儲值中心-CYBER幣購買視窗-發票資訊-捐贈.png",
-    "site/assets/images/ec-管理中心-儲值中心-CYBER幣購買視窗-發票資訊-自然人憑證.png",
-    "docs/ec/website-management/CYBER 幣儲值中心使用指南.md~",
-    "site/ec/website-management/CYBER 幣儲值中心使用指南.md~",
-    "docs/ec/notifications/設定與發送簡訊通知.md~",
-    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款/index.html",
-    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款",
-    "site/ec/payments-and-logistics/DHL 跨境物流/index.html",
-    "site/ec/payments-and-logistics/DHL 跨境物流",
+    "docs/ec/marketing/建立含指定商品的購物車連結.md~",
+    "site/ec/payments-and-logistics/設定 PayPal/index.html",
+    "site/ec/payments-and-logistics/設定 PayPal",
+    "site/ec/payments-and-logistics/宅配貨到付款（黑貓宅配通新竹物流）/index.html",
+    "site/ec/payments-and-logistics/宅配貨到付款（黑貓宅配通新竹物流）",
+    "site/ec/products/排除商品上傳至第三方平台/index.html",
+    "site/ec/products/排除商品上傳至第三方平台",
+    "site/ec/integrations/fb/設定 Facebook 快速登入/index.html",
+    "site/ec/integrations/fb/設定 Facebook 快速登入",
     "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS/index.html",
     "site/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS",
-    "site/ec/payments-and-logistics/串接ezShip超商取貨(C2C)/index.html",
+    "site/assets/images/ec-product-distribution-channel-create-new.zh-tw.png",
+    "site/assets/images/ec-return-policy-eligible-days.zh-tw.png",
+    "site/assets/images/GANDI-後台-域名-新增CNAME02.png",
+    "site/assets/images/ec-網站外觀-全站設定-網站seo.png",
+    "site/assets/images/ec-all-products-overview.zh-tw.png",
+    "site/assets/images/MAYPAY-後台-系統設定-金流服務系統-填寫回報網址V3H01.png",
+    "site/assets/images/WMS-後台-通路-新增通路01.png",
+    "site/assets/images/ec-管理中心-一般設定-貨幣與語言顯示.png",
+    "site/assets/images/ec-商品-排除搜尋-批次操作.png",
+    "site/assets/images/EC-後台-行銷活動-互動遊戲-基本設定01.png",
+    "docs/ec/marketing/建立含指定商品的購物車連結.md",
+    "docs/ec/orders/編輯訂單內容.md",
     "docs/ec/website-management/CYBER 幣儲值中心使用指南.md",
     "docs/ec/website-management/CYBER 儲值中心使用指南.md",
     "docs/ec/website-management/儲值與管理 CYBER 幣.md",
@@ -335,8 +337,6 @@
     "docs/pos/third-party/盟立電子發票.md",
     "docs/pos/others2/設定前台自動登出時間.md",
     "docs/pos/others2/續購與加購方案.md",
-    "docs/pos/others2/安全性設定.md",
-    "docs/pos/others2/員工權限與帳號管理.md",
-    "docs/pos/others2/公告系統.md"
+    "docs/pos/others2/安全性設定.md"
   ]
 }
