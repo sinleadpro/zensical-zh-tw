@@ -1,9 +1,0 @@
-nav: 
-  - 商品: index.md
-  - 立即開始: get-started
-  - 設定管理: configure
-  - 營運行銷: operation
-  - 整合串接: 
-    - 設定 Google 購物廣告: ec/platforms/設定 Google 購物廣告.md
-  - 拓展成長: venture
-  - 延伸閱讀: reference

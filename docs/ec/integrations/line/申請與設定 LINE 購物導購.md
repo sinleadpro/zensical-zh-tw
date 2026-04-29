@@ -85,7 +85,6 @@ hide: []
 
 1.  **填寫申請表**：商家需先填寫申請表以取得更多資訊，後續將有 LINE 專人聯繫說明。
 
-
     ??? abstract "LINE 購物開通申請表單"
         <div style="position: relative; padding-bottom: 120%; height: 0; overflow: hidden;">
           <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeaMKpcK0DOaTvZDy_229oV3mV_k50-oKKTljdGh9sUXuRD1A/viewform?embedded=true" 

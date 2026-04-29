@@ -2,7 +2,7 @@
 title: 設定 GA4 站內搜尋追蹤
 description: 透過 GA4 加強型評估功能，追蹤使用者在官網上的站內搜尋行為，分析消費者的資訊需求與查找意圖。
 created: 2026-03-24 20:05
-last_modified: 2026-03-30 12:45
+last_modified: 2026-04-15 14:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -45,12 +45,6 @@ prerequisites:
 related:
   - "[[設定 Google Analytics 進階追蹤與資料分析]]"
   - "[[設定 GA4 排除內部流量與第三方參照來源]]"
-tags:
-  - GA4
-  - 站內搜尋
-  - 搜尋追蹤
-  - 加強型評估
-  - search_results
 acoiv: configure
 apis: []
 devices:
@@ -79,6 +73,10 @@ comments: false
 
 開啟 **Google Analytics 4 (GA4)** 的站內搜尋追蹤功能，可以協助商家觀察使用者在網站上輸入的關鍵字，進而了解消費者的資訊需求與查找意圖。
 
+## 前置作業
+
+- [x] 確認[官網已串接 GA4](建立並串接 Google Analytics.md){ data-preview }。
+
 ## GA4 站內搜尋設定步驟
 
 請登入您的 Google Analytics 後台，並依循以下路徑操作：
@@ -89,6 +87,10 @@ comments: false
 4.  **設定查詢參數**：點擊「**顯示進階設定**」，在「搜尋字詞查詢參數」欄位中輸入：`q,s,search,query,keyword`（請以半形逗號分隔），完成後儲存設定。
 
 ![](../../../../assets/images/ec-第三方整合-google-ga4-加強型評估-開啟站內搜尋.gif)
+
+!!! warning "資料延遲"
+
+    設定完成後，GA4 需要一段時間才會開始收集搜尋資料（數據不回溯）。若短時間內沒有人進行搜尋，該事件可能不會顯示資料；您可以自行在官網前台執行搜尋動作來進行測試。
 
 ## 如何查看追蹤成果
 
@@ -103,12 +105,6 @@ comments: false
     ![](../../../../assets/images/ec-第三方整合-google-ga4-報表-search_term.png)
 
 !!! info "更多 GA4 追蹤事件資訊，請參考 [官方說明 :lucide-external-link:](https://support.google.com/analytics/answer/9322688?hl=zh-Hant#zippy=%2C%E5%8D%B3%E6%99%82%E5%A0%B1%E8%A1%A8%2Cdebugview-%E5%A0%B1%E8%A1%A8)。"
-
-## 重要注意事項
-
-*   **數據不回溯**：GA4 僅會從功能開啟後才開始記錄行為，無法追蹤串接或設定前的歷史紀錄。
-*   **串接前提**：您的官網必須已正確串接 GA4 代碼（評估 ID），系統才能收集到數據。
-*   **資料延遲**：若短時間內沒有人進行搜尋，該事件可能不會顯示資料；您可以自行在官網前台執行搜尋動作來進行測試。
 
 ## 常見問題
 

@@ -60,6 +60,7 @@
 *[大宗寄倉 (B2C)]: 賣家（企業方）不透過超商門市櫃台寄件，而是將整批包裹自行雇車或交由貨運，直接載往超商之 **物流中心 (DC)** 進行交寄的物流模式。
 *[EC]: E-commerce，電子商務，透過網際網路進行商品或服務的展示、交易、付款與出貨等商業活動的整體系統與營運模式。
 *[COD]: Cash on Delivery, payment for an order upon receipt rather than online beforehand. Common in logistics delivery services such as home delivery and express delivery.
+*[CPA]: Cost Per Action，廣告效益指標之一。計算方式為「廣告總花費 ÷ 轉換次數」，用於衡量每個轉換（如購買、註冊、點擊）所需的平均成本。
 *[C2C]: 消費者（Consumer）之間進行商品或服務交易的商業模式，通常透過第三方平台作為媒介，完成買賣行為。
 *[EDM]: Electronic Direct Mail, 許可式電子行銷郵件。不同於一般的一對一電子郵件，EDM 是商家向大量特定受眾發送的行銷資訊，通常具備精美的排版（HTML）與成效追蹤功能。
 *[UTM]: Urchin Tracking Module, 網址參數追蹤標籤。這是在 URL 末端附加的簡單代碼，用於追蹤使用者進入網站的具體路徑與來源。

@@ -74,9 +74,9 @@ hide:
 
 ![第三方整合 FBE 設定](../../../../assets/images/ec-第三方整合-fbe.png){ .hero-page }
 
-## Facebook Business Extension 說明
+## Facebook 商業擴充套件說明
 
-「**Facebook 商業擴充套件**」可一次串接 **Conversions API**、**Facebook 像素（Pixel）**、**商品目錄**、**Instagram Shopping** 及 **Facebook 粉絲專頁** 等資產，讓商家能快速將這些資產連結至官網後台，並在一站式管理廣告追蹤、受眾建立與商品推廣。
+「**Facebook 商業擴充套件**」(Facebook Business Extension, FBE) 可一次串接 **Conversions API**、**Facebook 像素（Pixel）**、**商品目錄**、**Instagram Shopping** 及 **Facebook 粉絲專頁** 等資產，讓商家能快速將這些資產連結至官網後台，並在一站式管理廣告追蹤、受眾建立與商品推廣。
 
 ## 設定路徑
 
@@ -124,9 +124,10 @@ hide:
 ## 設定後的檢查與維護
 
 *   **確認連結狀態：** 回到後台頁面後，可再次確認粉專、像素、目錄的連結結果。
-*   **編輯或取消：** 若需重新設定或清空設定，可點選「編輯資產」或「取消連結」。**請注意：** 執行此操作必須登入 **最初設定時使用的同一個 Facebook 帳號**。
+*   **編輯或取消：** 若需重新設定或清空設定，可點選「編輯資產」或「取消連結」。  
+    - *請注意：執行此操作必須登入 **最初設定時使用的同一個 Facebook 帳號***。
 
-![FBE-完成連結](../../../../assets/images/ec-第三方整合-fbe-已建立連結.png)
+![FBE-完成連結](../../../../assets/images/ec-第三方整合-fb-基本設定-fbe-已建立連結.png)
 
 ## 權限說明
 
@@ -161,7 +162,7 @@ hide:
 
     ```
 
-進一步瞭解 [如何在 Meta Business Suite 建立商家資產管理組合 :lucide-external-link:](https://www.facebook.com/business/help/1710077379203657)。
+!!! info "進一步瞭解 [如何在 Meta Business Suite 建立商家資產管理組合 :lucide-external-link:](https://www.facebook.com/business/help/1710077379203657)。"
 
 ---
 
@@ -172,7 +173,7 @@ Facebook 的資產管理採用 **階層關係**：
 *   **所有權限制：** 企業管理平台管理品牌的所有資產。若「粉絲專頁」或「像素」**非此企業管理平台所擁有**，則設定流程中將無法選取。
 *   **檢查要點：** 務必確認您登入的 Facebook 帳號具備該平台及其資產的管理權限。
 
-進一步瞭解 [商家資產管理組合和商家資產權限 :lucide-external-link:](https://www.facebook.com/business/help/442345745885606)。
+!!! info "進一步瞭解 [商家資產管理組合和商家資產權限 :lucide-external-link:](https://www.facebook.com/business/help/442345745885606)。"
 
 ---
 
@@ -183,7 +184,8 @@ Facebook 的資產管理採用 **階層關係**：
 *   **自動進階配對（建議開啟）：** 無須編寫程式碼，可直接在「事件管理工具」中開啟，協助更精準地追蹤受眾。
 *   **手動進階配對：** 需由開發人員修改像素基底程式碼，透過參數傳送網站訪客的資料。
 
-進一步瞭解 [網站進階配對 :lucide-external-link:](https://www.facebook.com/business/help/611774685654668?id=1205376682832142)。
+!!! info "進一步瞭解 [網站進階配對 :lucide-external-link:](https://www.facebook.com/business/help/611774685654668?id=1205376682832142)。"
+
 <!--
 *   **轉換 API (CAPI)：** 設定完成後，系統會開始自動傳送伺服器端 (Server to Server) 的像素事件，您可至 [Meta 事件管理工具 :lucide-external-link:](https://eventsmanager.facebook.com/)查看連結方式是否出現「伺服器」。
 -->
