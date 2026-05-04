@@ -1,8 +1,8 @@
 ---
 title: 建立含指定商品的購物車連結
-description: 建立特殊的購物車連結，自動將預設商品與數量加入購物車，適用於社群導購、EDM 行銷等情境
+description: ""
 created: 2026-04-29 14:06
-last_modified: 2026-05-04 12:00
+last_modified:
 lang: zh-TW
 type: tutorial
 status: ""
@@ -14,8 +14,7 @@ ga_views:
 feedback:
 products:
   - EC
-modules:
-  - 行銷
+modules: []
 sites:
   - TW
 audiences:
@@ -31,28 +30,18 @@ plans:
   - 高手 PLUS
   - 企業
 cyb_extensions: []
-intents:
-  - 建立商品導購連結
-  - 自動加入購物車
-features:
-  - 指定商品購物車連結
+intents: []
+features: []
 prerequisites: []
 related: []
-tags:
-  - 購物車連結
-  - 商品導購
-  - 社群導購
-  - EDM 行銷
-  - UTM 參數
-  - 折扣碼
+tags: []
 acoiv: ""
 apis: []
 devices:
   - desktop
   - mobile
 ui_components: []
-paths:
-  - 商品 > 所有商品
+paths: []
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=2369
@@ -64,8 +53,9 @@ icon: lucide/link
 hide:
 ---
 
-建立特殊購物車連結，自動將預設商品與數量加入購物車，適用於社群導購、EDM 行銷等情境。
 { .subtitle }
+
+{ .doc-badge }
 
 ![商品導購連結購物車頁面](../../assets/images/ec-行銷活動-指定商品導購連結.png){ .hero-page }
 
@@ -180,17 +170,29 @@ https://www.goodthing.com/cart/replace?products=001234:1,001235:1&coupon=SUMMER1
 https://www.goodthing.com/cart/replace?products=56789:2&type=product
 
 ```
+## 後續操作
+
+<div class="grid cards" markdown>
+
+- :lucide-link:{ .lg }   
+  [__搭配 UTM 參數追蹤__]()       
+  在連結後附加 UTM 參數，可在 GA 或後台追蹤各渠道的導購成效。
+
+- :lucide-tag:{ .lg }   
+  [__搭配折扣碼__]()    
+  在連結中加入 coupon 參數，顧客點擊後購物車會自動套用折扣。
+
+- :lucide-shopping-cart:{ .lg }   
+  [__社群導購應用__]()       
+  將製作好的連結放在 LINE 或 Instagram 貼文中，縮短顧客尋找商品的流程，提升轉換率。
+
+</div>
 
 ## 常見問題
 
-??? quote "如何取得商品 ID 與款式 ID？"
+??? quote ""
 
-    前往「商品」>「所有商品」，勾選要匯出的商品後點擊「匯出商品」，下載的 Excel 檔案中 A 欄為商品 ID，B 欄為商品款式 ID。
 
-??? quote "什麼時候該用商品 ID，什麼時候該用款式 ID？"
 
-    商品有多個款式時，請使用 **款式 ID** 以確保加入正確款式。商品只有單一款式時，使用 **商品 ID** 搭配 `type=product` 參數較為方便。
 
-??? quote "可以在導購連結中自動套用折扣碼嗎？"
-
-    可以，在連結中加入 `coupon=[折扣碼]` 參數，顧客點擊後購物車會[自動套用該折扣碼][搭配折扣碼]{ data-preview }。
+                  
