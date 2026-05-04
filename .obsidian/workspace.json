@@ -63,12 +63,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=12382",
-                "title": "編輯訂單 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=174",
+                "title": "訂單 : 取消訂單 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "編輯訂單 - CYBERBIZ 一般版教學文件"
+              "title": "訂單 : 取消訂單 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -84,12 +84,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=51419,https://www.cyberbiz.io/support/?p=50824",
-                "title": "編輯訂單",
+                "url": "https://www.cyberbiz.io/support/?p=52159",
+                "title": "消費者如何使用超商條碼繳費",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "編輯訂單"
+              "title": "消費者如何使用超商條碼繳費"
             }
           }
         ]
@@ -290,29 +290,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c27b3aecd22969c",
+  "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/ec/marketing/建立含指定商品的購物車連結.md.bak3",
-    "docs/ec/marketing/建立含指定商品的購物車連結.md.bak3",
-    "site/ec/marketing/建立含指定商品的購物車連結.md.bak2",
-    "docs/ec/marketing/建立含指定商品的購物車連結.md.bak2",
-    "site/ec/marketing/建立含指定商品的購物車連結.md.bak",
-    "docs/ec/marketing/建立含指定商品的購物車連結.md.bak",
-    "site/ec/marketing/建立含指定商品的購物車連結.md~",
-    "issues.txt",
-    "site/ec/products/設定超商配送限制與物流排除/index.html",
-    "site/ec/products/設定超商配送限制與物流排除",
-    "site/ec/payments-and-logistics/設定 LINE Pay/index.html",
-    "site/assets/images/ec-ga4-代碼設定-全部顯示-blurred.png",
-    "site/assets/images/EZSHIP-後台-申請超取-申請寄件帳號01.png",
-    "site/assets/images/EC-後台-行銷活動-一頁式商店-基本設定-導覽列設定01.png",
-    "site/assets/images/台灣大哥大-後台-轉址設定-新增CNAME03.png",
-    "site/assets/images/ec-商品-顏色款式已選擇-前台.png",
-    "site/assets/images/POS-後台-所有POS商店-付款方式-新增MYPAY付款方式01.png",
-    "site/assets/images/ec-第三方整合-utm-campaignurlbuilder-infofields.png",
-    "site/assets/images/遠振-後台-ManageDNS-新增CNAME02.png",
-    "site/assets/images/Fiuu-後台-串接欄位填寫01.png",
-    "site/assets/images/ec-第三方整合-line-webhook-replay.gif",
+    "site/ec/orders/如何取消訂單/index.html",
+    "site/ec/orders/如何取消訂單",
+    "docs/ec/orders/如何取消訂單.md",
+    "docs/ec/orders/使用超商條碼完成付款.md~",
+    "site/ec/orders/使用超商條碼完成付款.md~",
+    "site/wms/官網與倉儲同步規則/index.html",
+    "site/wms/官網與倉儲同步規則",
+    "site/wms/退貨單/index.html",
+    "site/wms/退貨單",
+    "site/ec/payments-and-logistics/設定超商店到店 C2C 物流串接/index.html",
+    "site/ec/payments-and-logistics/設定超商店到店 C2C 物流串接",
+    "site/wms/啟用部分串倉與混單/index.html",
+    "site/assets/images/EC-後台-金物流-金流設定-已開啟超商條碼繳費.png",
+    "docs/assets/images/EC-後台-金物流-金流設定-已開啟超商條碼繳費.png",
+    "site/assets/images/EC-後台-金物流-金流設定-開啟超商條碼繳費.png",
+    "docs/assets/images/EC-後台-金物流-金流設定-開啟超商條碼繳費.png",
+    "site/assets/images/EC-後台-金物流-金流設定-CYBERBIZ-PAYMENTS-編輯.png",
+    "docs/assets/images/EC-後台-金物流-金流設定-CYBERBIZ-PAYMENTS-編輯.png",
+    "site/assets/images/ec-金物流-金流設定-CYBERBIZ-PAYMENTS-編輯.png",
+    "docs/assets/images/ec-金物流-金流設定-CYBERBIZ-PAYMENTS-編輯.png",
+    "site/assets/images/ec-金物流-金流設定-CYBERBIZ-PAYMENTS.png",
+    "docs/assets/images/ec-金物流-金流設定-CYBERBIZ-PAYMENTS.png",
+    "docs/ec/orders/使用超商條碼完成付款.md",
     "docs/ec/marketing/建立含指定商品的購物車連結.md",
     "docs/ec/orders/編輯訂單內容.md",
     "docs/ec/website-management/CYBER 幣儲值中心使用指南.md",
@@ -335,8 +337,6 @@
     "docs/ec/integrations/google/ga/設定 GA4 站內搜尋追蹤.md",
     "docs/ec/integrations/fb/meta-ads/同步商品影片至 Meta 目錄.md",
     "docs/pos/third-party/盟立電子發票.md",
-    "docs/pos/others2/設定前台自動登出時間.md",
-    "docs/pos/others2/續購與加購方案.md",
-    "docs/pos/others2/安全性設定.md"
+    "docs/pos/others2/設定前台自動登出時間.md"
   ]
 }
