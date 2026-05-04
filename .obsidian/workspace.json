@@ -84,12 +84,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=52159",
-                "title": "消費者如何使用超商條碼繳費",
+                "url": "https://www.cyberbiz.io/support/?p=1675",
+                "title": "訂單 : 取消訂單",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "消費者如何使用超商條碼繳費"
+              "title": "訂單 : 取消訂單"
             }
           }
         ]
@@ -290,9 +290,20 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70ccdcc682095e33",
+  "active": "2c27b3aecd22969c",
   "lastOpenFiles": [
+    "site/assets/images/EC-前台-訂單查詢-前往付款-超商條碼範例.png",
+    "docs/assets/images/EC-前台-訂單查詢-前往付款-超商條碼範例.png",
     "docs/ec/orders/使用超商條碼完成付款.md~",
+    "site/assets/images/EC-Email通知-訂單成立-前往付款.png",
+    "docs/assets/images/EC-Email通知-訂單成立-前往付款.png",
+    "site/assets/images/EC-Email-訂單成立-前往付款.png",
+    "docs/assets/images/EC-Email-訂單成立-前往付款.png",
+    "site/assets/images/EC-前台-訂單查詢-前往付款.png",
+    "docs/assets/images/EC-前台-訂單查詢-前往付款.png",
+    "site/assets/images/EC-前台-購物車-付款方式-取得超商條碼.png",
+    "docs/assets/images/EC-前台-購物車-付款方式-取得超商條碼.png",
+    "docs/assets/images/EC-前台-購物車-付款方式-超商條碼.png",
     "site/ec/orders/使用超商條碼完成付款.md~",
     "site/ec/orders/如何取消訂單/index.html",
     "site/ec/orders/如何取消訂單",
@@ -303,17 +314,6 @@
     "site/wms/退貨單",
     "site/ec/payments-and-logistics/設定超商店到店 C2C 物流串接/index.html",
     "site/ec/payments-and-logistics/設定超商店到店 C2C 物流串接",
-    "site/wms/啟用部分串倉與混單/index.html",
-    "site/assets/images/EC-後台-金物流-金流設定-已開啟超商條碼繳費.png",
-    "docs/assets/images/EC-後台-金物流-金流設定-已開啟超商條碼繳費.png",
-    "site/assets/images/EC-後台-金物流-金流設定-開啟超商條碼繳費.png",
-    "docs/assets/images/EC-後台-金物流-金流設定-開啟超商條碼繳費.png",
-    "site/assets/images/EC-後台-金物流-金流設定-CYBERBIZ-PAYMENTS-編輯.png",
-    "docs/assets/images/EC-後台-金物流-金流設定-CYBERBIZ-PAYMENTS-編輯.png",
-    "site/assets/images/ec-金物流-金流設定-CYBERBIZ-PAYMENTS-編輯.png",
-    "docs/assets/images/ec-金物流-金流設定-CYBERBIZ-PAYMENTS-編輯.png",
-    "site/assets/images/ec-金物流-金流設定-CYBERBIZ-PAYMENTS.png",
-    "docs/assets/images/ec-金物流-金流設定-CYBERBIZ-PAYMENTS.png",
     "docs/ec/orders/使用超商條碼完成付款.md",
     "docs/ec/marketing/建立含指定商品的購物車連結.md",
     "docs/ec/orders/編輯訂單內容.md",
