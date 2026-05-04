@@ -157,7 +157,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-megaphone:{ .lg }  
-  [進行廣告活動設定](./設定-Meta-廣告活動.md)  
+  [進行廣告活動設定](設定 Meta 廣告活動.md){ data-preview }  
   完成以上步驟後，即可接續進行廣告活動設定，直接於 CYBERBIZ 後台投放廣告。
 
 </div>
