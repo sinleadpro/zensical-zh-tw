@@ -291,7 +291,7 @@ copyright = """
                 {"Chat Box" = [
                     {"overview" = "ec/app-market/cyberbiz-extensions/chat-box/index.md"},
                 ]},
-                {"全通路庫存管理" = [
+                {"全通路管理助手" = [
                     { "Step 1 安裝啟用" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step1.安裝啟用.md" },
                     { "Step 2 導入商品與建立關聯" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step2.導入商品與建立關聯.md" },
                     { "Step 3 庫存同步" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step3.官網與蝦皮商品庫存同步.md" },
@@ -299,6 +299,14 @@ copyright = """
                     { "Step 5 資訊同步" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step5.官網與蝦皮商品資訊同步.md" },
                 ]},
             ]},
+            {"門市助理" = [
+                    {"overview" = "ec/app-market/storepal/index.md"},
+                    {"搜尋與建立會員" = "ec/app-market/storepal/搜尋與建立會員.md"},
+                    {"會員身份識別" = "ec/app-market/storepal/會員身份識別.md"},
+                    {"會員數據智庫" = "ec/app-market/storepal/會員數據智庫.md"},
+                    {"導購轉化" = "ec/app-market/storepal/導購轉化.md"},
+                    {"查看業績" = "ec/app-market/storepal/查看業績.md"},
+                ]},
             {"CYBERBIZ APP" = "ec/app-market/CYBERBIZ APP 功能指南.md"},
             {"CYBERBIZ Meta Ads" = "ec/app-market/安裝 Meta Ads App.md"}
         ]},
