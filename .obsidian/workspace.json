@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/integrations/line/設定 LINE OA 受眾串接.md",
+                "file": "docs/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "設定 LINE OA 受眾串接"
+              "title": "手動分享資產權限給 CYBERBIZ"
             }
           },
           {
@@ -49,22 +49,8 @@
               "icon": "lucide-file",
               "title": "設定 GA4 站內搜尋追蹤"
             }
-          },
-          {
-            "id": "98427a1b64734bd6",
-            "type": "leaf",
-            "state": {
-              "type": "bases",
-              "state": {
-                "file": "bases/GOD.base",
-                "viewName": "Card"
-              },
-              "icon": "lucide-layout-grid",
-              "title": "GOD"
-            }
           }
-        ],
-        "currentTab": 3
+        ]
       },
       {
         "id": "10f9d93c6521323e",
@@ -77,12 +63,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=4833",
-                "title": "拖拉版型 - 色票功能 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=174",
+                "title": "訂單 : 取消訂單 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "拖拉版型 - 色票功能 - CYBERBIZ 一般版教學文件"
+              "title": "訂單 : 取消訂單 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -98,12 +84,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=31319",
-                "title": "拖拉版型 – 色票功能",
+                "url": "https://www.cyberbiz.io/support/?p=1675",
+                "title": "訂單 : 取消訂單",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "拖拉版型 – 色票功能"
+              "title": "訂單 : 取消訂單"
             }
           }
         ]
@@ -138,7 +124,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "帳號授權",
+                "query": "推薦分潤連結包含「?」＆「=」符號",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -173,7 +159,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 287.5,
+    "collapsed": true
   },
   "right": {
     "id": "973606ff262c9293",
@@ -303,53 +290,53 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70ccdcc682095e33",
+  "active": "2c27b3aecd22969c",
   "lastOpenFiles": [
-    "site/assets/images/ec-商品-商品標籤-排除上傳至第三方.png",
-    "docs/assets/images/ec-商品-商品標籤-排除上傳至第三方.png",
-    "site/assets/images/ec-第三方整合-fb-fb-ig商店-設定商品能見度-從商店庫存.gif",
-    "docs/assets/images/ec-第三方整合-fb-fb-ig商店-設定商品能見度-從商店庫存.gif",
-    "site/assets/images/ec-第三方整合-fb-fb-ig商店-設定商品能見度-從商品目錄.gif",
-    "docs/assets/images/ec-第三方整合-fb-fb-ig商店-設定商品能見度-從商品目錄.gif",
-    "site/assets/images/ec-第三方整合-fb-fbe-設定能見度-從商品目錄.gif",
-    "docs/assets/images/ec-第三方整合-fb-fbe-設定能見度-從商品目錄.gif",
-    "site/assets/images/ec-第三方整合-fb-fb-ig商店-設定商品能見度.gif",
-    "docs/assets/images/ec-第三方整合-fb-fb-ig商店-設定商品能見度.gif",
-    "site/assets/images/ec-第三方整合-fb-fb-ig商店-設定商店能見度.png",
-    "docs/ec/integrations/fb/mbe/排除商品不同步至 Facebook 與 Instagram 商店.md~",
+    "site/assets/images/EC-金物流-結帳頁物流設定-訂單自動取消.png",
+    "docs/assets/images/EC-金物流-結帳頁物流設定-訂單自動取消.png",
+    "docs/ec/orders/如何取消訂單.md~",
+    "site/ec/payments-and-logistics/宅配貨到付款（黑貓宅配通新竹物流）/index.html",
+    "site/ec/payments-and-logistics/宅配貨到付款（黑貓宅配通新竹物流）",
     "site/ec/payments-and-logistics/index.html",
-    "site/ec/payments-and-logistics/東南亞站金流服務/index.html",
-    "site/ec/payments-and-logistics/東南亞站金流服務",
-    "site/ec/products/排除商品上傳至第三方平台/index.html",
-    "site/ec/products/排除商品上傳至第三方平台",
-    "site/ec/payments-and-logistics/順豐海外物流/index.html",
-    "site/ec/payments-and-logistics/順豐海外物流",
-    "site/ec/payments-and-logistics/設定街口支付/index.html",
-    "site/ec/payments-and-logistics/設定街口支付",
-    "docs/ec/products/creation/設定商品色票與款式圖片對應.md",
-    "docs/ec/integrations/fb/mbe/排除商品不同步至 Facebook 與 Instagram 商店.md",
-    "docs/ec/integrations/fb/mbe/排除不欲顯示於 Facebook 與 Instagram 商店的商品.md",
-    "docs/ec/integrations/fb/mbe/排除不欲顯示於 Facebook / Instagram 商店的商品.md",
-    "templates/grid-complex-guide.md",
-    "templates/callout-abstract-form.md",
-    "docs/ec/integrations/串接美安通路.md",
-    "docs/ec/integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品.md",
-    "docs/ec/integrations/google/設定 GMC 重要事件來源追蹤與自動標記.md",
-    "docs/ec/integrations/google/使用 Google 安全瀏覽工具檢查並排除網站安全性風險.md",
-    "docs/ec/integrations/google/YouTube Shopping 設定指南.md",
-    "docs/ec/integrations/fb/設定 Facebook 快速登入.md",
-    "docs/ec/integrations/fb/mbe/設定 Facebook 跟 Instagram 商店.md",
-    "docs/ec/integrations/fb/mbe/設定 FBE 網域驗證.md",
-    "docs/ec/integrations/fb/mbe/設定 FBE 帳號授權與資產連結.md",
-    "docs/ec/integrations/fb/mbe/index.md",
-    "docs/ec/integrations/fb/index.md",
-    "docs/ec/analytics/廣告分析指南.md",
-    "docs/ec/integrations/google/設定 Google 購物廣告.md",
-    "docops/manifest.md",
-    "docs/wms/進倉單.md",
-    "docs/wms/通路.md",
-    "docs/wms/退貨與派車.md",
-    "docs/wms/退貨單.md",
-    "docs/wms/調倉單.md"
+    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款/index.html",
+    "site/ec/payments-and-logistics/申請綠界金流與超商取貨付款",
+    "site/ec/payments-and-logistics/設定 Apple Pay/index.html",
+    "site/ec/payments-and-logistics/設定 Apple Pay",
+    "site/pos/check/客顯互動遊戲/index.html",
+    "site/pos/check/客顯互動遊戲",
+    "site/assets/images/EC-前台-購物車-付款方式-超商條碼.png",
+    "site/assets/images/EC-後台-金物流-金流設定-超商條碼繳費設定.png",
+    "docs/assets/images/EC-後台-金物流-金流設定-超商條碼繳費設定.png",
+    "site/assets/images/EC-前台-訂單查詢-前往付款-超商條碼範例.png",
+    "docs/assets/images/EC-前台-訂單查詢-前往付款-超商條碼範例.png",
+    "site/assets/images/EC-Email通知-訂單成立-前往付款.png",
+    "docs/assets/images/EC-Email通知-訂單成立-前往付款.png",
+    "site/assets/images/EC-Email-訂單成立-前往付款.png",
+    "docs/assets/images/EC-Email-訂單成立-前往付款.png",
+    "docs/ec/orders/如何取消訂單.md",
+    "docs/ec/orders/使用超商條碼完成付款.md",
+    "docs/ec/marketing/建立含指定商品的購物車連結.md",
+    "docs/ec/orders/編輯訂單內容.md",
+    "docs/ec/website-management/CYBER 幣儲值中心使用指南.md",
+    "docs/ec/website-management/CYBER 儲值中心使用指南.md",
+    "docs/ec/website-management/儲值與管理 CYBER 幣.md",
+    "docs/ec/notifications/查詢與追蹤簡訊發送紀錄.md",
+    "docs/ec/notifications/設定與發送簡訊通知.md",
+    "docs/ec/notifications/簡訊發送與設定.md",
+    "docs/ec/integrations/fb/meta-ads/Meta 廣告閒置帳號回收機制說明.md",
+    "docs/ec/integrations/fb/meta-ads/帳號閒置處理與回收機制說明.md",
+    "archive/wordpress-annotated/wp-reg-annotated-20260106/商品頁上傳影片.md",
+    "docs/ec/integrations/fb/meta-ads/ASC 廣告投放策略與最佳實務.md",
+    "docs/pos/hardware/EPSON 有線發票機.md",
+    "docs/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ.md",
+    "archive/wordpress-annotated/wp-reg-annotated-20260106/Meta 廣告成效分析.md",
+    "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告活動.md",
+    "docs/ec/integrations/fb/meta-ads/Meta 廣告每日預算設定指南.md",
+    "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告每日預算設定指南.md",
+    "docs/ec/website-management/使用 Authy 啟用二階段驗證設定.md",
+    "docs/ec/integrations/google/ga/設定 GA4 站內搜尋追蹤.md",
+    "docs/ec/integrations/fb/meta-ads/同步商品影片至 Meta 目錄.md",
+    "docs/pos/third-party/盟立電子發票.md",
+    "docs/pos/others2/設定前台自動登出時間.md"
   ]
 }

@@ -23,6 +23,7 @@ views:
       - tags
       - features
       - prerequisites
+      - notes
     sort:
       - property: tags
         direction: ASC

@@ -1,5 +1,5 @@
 ---
-title: 設定轉貼連結縮圖 (OG Image)
+title: 設定轉貼連結縮圖 OG Image
 description: 於商品、分類、文章或全站設定中指定 Open Graph（OG）分享圖片，控制社群平台轉貼連結時顯示的縮圖與預覽資訊。
 created: 2025-03-03
 last_modified: 2026-03-05 12:15
@@ -51,7 +51,7 @@ features:
 prerequisites: []
 related: []
 tags:
-  - OG_Image
+  - OG Image
   - 社群分享
   - 縮圖設定
   - Facebook

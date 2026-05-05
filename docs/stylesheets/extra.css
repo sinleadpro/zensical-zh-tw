@@ -12,6 +12,27 @@
     margin: 1.5rem auto; vertical spacing + center horizontally */
 }
 
+/* Apply matching styles to embedded videos and iframes */
+.md-typeset iframe, 
+.md-typeset video,
+.md-typeset .video-wrapper,
+.md-typeset .video-container {
+    border-radius: 8px;
+    box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
+    /* Prevent sharp corners from showing if the video doesn't have a radius */
+    overflow: hidden; 
+    /* Maintain spacing similar to your images */
+    margin-bottom: 1rem;
+    height: auto;
+}
+
+/* Ensure the iframe itself is contained within the rounded border */
+.md-typeset .video-wrapper iframe {
+    border: none;
+    border-radius: 8px;
+}
+
+
 /* Screenshot styling for External Images*/
 .screenshot {
   /* padding: 0.1rem; */
@@ -30,10 +51,19 @@
   /* sharper and more focused */
 }
 
-a {
+/* Link Underline */
+/* a { */
+/*   text-decoration: none !important; */
+/* } */
+
+/* Keep buttons and grids clean */
+.md-content .md-button,
+.md-content .md-card,
+.md-content .grid a,
+.md-content .cards a,
+.md-content li > a:has(img) {
   text-decoration: none !important;
 }
-
 
 /* Home Page Latest Docs box styling */
 .latest-docs {
@@ -56,19 +86,6 @@ a {
   width: 97%;
 }
 
-
-/* .md-content {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-
-.md-grid {
-  max-width: 80%;
-  width: 80%;
-} */
-
-
 /* Subtitle styling */
 .subtitle {
   margin-top: -1em;
@@ -80,14 +97,66 @@ a {
   line-height: 1.2;
 }
 
-/* .md-sidebar--secondary {
-    border-left: 3px solid var(--md-default-fg-color--lightest);
-} */
-
 /* Adjusting border of secondary nav toc */
+
 .md-nav--secondary {
   border-left: 2.5px solid var(--md-default-fg-color--lightest);
 }
+
+/* TOC Left Side Vertical Distinction Line */
+/* .md-nav--secondary { */
+/*   border-left: 2.5px solid var(--md-default-fg-color--lightest); */
+/* } */
+
+/* 修改後的左側對稱垂直線 */
+/* @media screen and (min-width: 76.25em) { */
+/*     .md-main__inner { */
+/*         /* 使用與右側相同的變數與厚度 (2.5px) */ */
+/*         background-image: linear-gradient( */
+/*             to right, */
+/*             transparent 12.1rem, */
+/*             var(--md-default-fg-color--lightest) 12.1rem, */
+/*             var(--md-default-fg-color--lightest) calc(12.1rem + 2.5px), */
+/*             transparent calc(12.1rem + 2.5px) */
+/*         ); */
+/*         background-repeat: no-repeat; */
+/*         background-size: 100% 100%; */
+/*     } */
+/* } */
+
+
+/* Draw both left and right vertical column distinction lines to be perfectly symmetrical */
+/* @media screen and (min-width: 76.25em) { */
+/*     .md-main__inner { */
+/*         background-image:  */
+/*             /* 左側線條 */ */
+/*             linear-gradient( */
+/*                 to bottom, */
+/*                 var(--md-default-fg-color--lightest), */
+/*                 var(--md-default-fg-color--lightest) */
+/*             ), */
+/*             /* 右側線條 */ */
+/*             linear-gradient( */
+/*                 to bottom, */
+/*                 var(--md-default-fg-color--lightest), */
+/*                 var(--md-default-fg-color--lightest) */
+/*             ); */
+/**/
+/*         /* 設定背景不重複 */ */
+/*         background-repeat: no-repeat; */
+/**/
+/*         /* 設定線條的寬度與高度 */ */
+/*         /* 第一組控制左線：寬 2.5px，高度為容器的 95% (達成上下縮短效果) */ */
+/*         /* 第二組控制右線：寬 2.5px，高度同上 */ */
+/*         background-size: 2.5px 99%, 2.5px 99%; */
+/**/
+/*         /* 設定線條的位置 */ */
+/*         /* 左線：距離左邊 12.1rem，垂直置中 (center) */ */
+/*         /* 右線：距離右邊 12.1rem，垂直置中 (center) */ */
+/*         background-position: 12.1rem center, calc(100% - 12.1rem) center; */
+/*     } */
+/* } */
+
 
 /* Card background colors for light and dark mode */
 :root {
@@ -141,30 +210,46 @@ a {
 
 
 /* Apply underline effect to ALL non-button links (including data-preview) */
-.md-content a:not(.md-button):not(.md-button--primary) {
-  position: relative;
-  text-decoration: none;
-}
+/* .md-content a:not(.md-button):not(.md-button--primary):not(:has(img)) { */
+/*   position: relative; */
+/*   text-decoration: none; */
+/* } */
 
 /* Use ::before for underline to avoid conflict with preview icon */
-.md-content a:not(.md-button):not(.md-button--primary)::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 100%;
-  height: 1px;
-  background-color: currentColor;
-  transform: scaleX(0);
-  transition: transform 0.2s ease-in-out;
-  transform-origin: right;
-  pointer-events: none;
-}
+/* .md-content a:not(.md-button):not(.md-button--primary):not(:has(img))::before { */
+/*   content: ""; */
+/*   position: absolute; */
+/*   left: 0; */
+/*   bottom: -2px; */
+/*   width: 100%; */
+/*   height: 1px; */
+/*   background-color: currentColor; */
+/*   transform: scaleX(0); */
+/*   transition: transform 0.2s ease-in-out; */
+/*   transform-origin: right; */
+/*   pointer-events: none; */
+/* } */
 
 /* Hover animation */
-.md-content a:not(.md-button):not(.md-button--primary):hover::before {
-  transform: scaleX(1);
-  transform-origin: left;
+/* .md-content a:not(.md-button):not(.md-button--primary):hover::before { */
+/*   transform: scaleX(1); */
+/*   transform-origin: left; */
+/* } */
+
+
+/* Create margins for the central content column */
+.md-content {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 2rem;  /* Space from left sidebar */
+    padding-right: 2rem; /* Space from right TOC */
+}
+
+/* Optional: Add a subtle border or background to further separate it */
+.md-content__inner {
+    background: transparent; 
+    /* border-left: 1px solid #eee; */ /* Uncomment if you want a divider line */
+    /* border-right: 1px solid #eee; */
 }
 
 
@@ -292,4 +377,62 @@ a {
   /* box-shadow: 0 6px 12px rgba(0,0,0,0.2); */
   box-shadow: 0 4px 7px rgba(0, 0, 0, 0.2);
   /* sharper and more focused */
+}
+
+
+
+/* Custom Admonitions
+
+/* Admontion Path
+/* 同時針對 靜態 (!!!) 與 可摺疊 (???) 進行樣式設定 */
+.md-typeset .admonition.path,
+.md-typeset details.path {
+    border-color: #94a3b8;
+    background-color: #f1f5f9;
+    border-left-width: 4px;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+/* 針對可摺疊區塊的標題 (summary) */
+.md-typeset .path > .admonition-title,
+.md-typeset .path > summary {
+    background-color: transparent;
+    font-weight: 700;
+    color: #475569;
+}
+
+/* 確保摺疊時的圖示顏色與位置一致 */
+.md-typeset .path > .admonition-title::before,
+.md-typeset .path > summary::before {
+    background-color: #64748b;
+    mask-image: var(--md-admonition-icon--path);
+}
+
+/* Admonition Plan
+/* 同時針對 靜態 (!!!) 與 可摺疊 (???) 進行樣式設定 */
+.md-typeset .admonition.plan,
+.md-typeset details.plan {
+    border-color: #a855f7;    /* Purple 500 - Distinct from Note blue */
+    background-color: #faf5ff; /* Purple 50 - Clearly different from slate/blue */
+    border-left-width: 4px;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-width: 0;
+}
+
+/* 針對可摺疊區塊的標題 (summary) */
+.md-typeset .plan > .admonition-title,
+.md-typeset .plan > summary {
+    background-color: transparent;
+    font-weight: 700;
+}
+
+/* 確保摺疊時的圖示顏色與位置一致 */
+.md-typeset .plan > .admonition-title::before,
+.md-typeset .plan > summary::before {
+    background-color: #a855f7;
+    -webkit-mask-image: var(--md-admonition-icon--plan);
+    mask-image: var(--md-admonition-icon--plan);
 }
