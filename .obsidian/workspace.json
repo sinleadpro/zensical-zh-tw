@@ -64,11 +64,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.cyberbiz.io/helpcenter/?p=192",
-                "title": "結案訂單(結束訂單) - CYBERBIZ 一般版教學文件",
-                "mode": "webview"
+                "title": "cyberbiz.io/helpcenter/?p=192",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "結案訂單(結束訂單) - CYBERBIZ 一般版教學文件"
+              "title": "cyberbiz.io/helpcenter/?p=192"
             }
           }
         ]
@@ -85,11 +85,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.cyberbiz.io/support/?p=1677",
-                "title": "手動結案訂單",
-                "mode": "webview"
+                "title": "cyberbiz.io/support/?p=1677",
+                "mode": "error"
               },
               "icon": "globe-2",
-              "title": "手動結案訂單"
+              "title": "cyberbiz.io/support/?p=1677"
             }
           }
         ]
@@ -292,28 +292,29 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "docs/assets/images/EC-訂單詳情頁-操作紀錄-訂單結案.png",
-    "docs/assets/images/EC-訂單詳情頁-操作紀錄-結案訂單.png",
-    "site/assets/images/EC-訂單-訂單列表-已結案群組.png",
-    "docs/assets/images/EC-訂單-訂單列表-已結案群組.png",
-    "docs/ec/orders/如何手動結案訂單.md~",
-    "site/assets/images/EC-訂單-訂單列表-結案訂單.png",
-    "docs/assets/images/EC-訂單-訂單列表-結案訂單.png",
-    "site/assets/images/EC-訂單詳情頁-結案訂單按鈕.png",
-    "docs/assets/images/EC-訂單詳情頁-結案訂單按鈕.png",
-    "site/ec/orders/如何手動結案訂單.md~",
-    "site/ec/orders/assets/EC-訂單詳情頁-手動結案-單筆結案.png",
-    "site/ec/orders/assets",
-    "docs/ec/orders/assets/EC-訂單詳情頁-手動結案-單筆結案.png",
-    "docs/ec/orders/assets",
+    "site/assets/images/POS-後台-所有POS商店-列印商品標籤01.png",
+    "site/assets/images/POS-前台-結帳-LinePay結帳01.png",
+    "site/assets/images/ec-行銷活動-一頁式商店-youtube影片-自動播放加起始秒數-舊版.png",
+    "site/assets/images/ec-gmc-產品頁.png",
+    "site/assets/images/ec-第三方整合-fb-mbs-手動分享權限.png",
+    "site/assets/images/POS-前台-庫存-庫存盤點-開始盤點02.png",
+    "site/assets/images/捕夢網-後台-網域管理-新增CNAME01.png",
+    "site/assets/images/ec-網站外觀-網站設定-全站設定-網站標題seo.png",
+    "site/assets/images/ec-第三方整合-fbe-串接fb-ig商店-連結資產.png",
+    "site/assets/images/ec-網站外觀-樣板編輯器-order-done-extra-content-liquid.png",
+    "site/assets/images/ec-import-member-exclusive-prices-email-success.zh-tw.png",
+    "site/wms/官網與倉儲同步規則/index.html",
+    "site/wms/官網與倉儲同步規則",
+    "site/wms/報表通知設定/index.html",
+    "site/wms/報表通知設定",
+    "site/wms/index.html",
+    "site/ec/payments-and-logistics/設定 PayPal/index.html",
+    "site/ec/payments-and-logistics/設定 PayPal",
+    "site/ec/orders/使用超商條碼完成付款/index.html",
+    "site/ec/orders/使用超商條碼完成付款",
+    "site/ec/payments-and-logistics/Amazon FBA 跨境物流/index.html",
+    "docs/ec/orders/如何使用再次購買功能.md",
     "docs/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ.md",
-    "site/assets/images/EC-訂單-編輯訂單頁面.png",
-    "site/ec/orders/編輯訂單內容.md~",
-    "docs/ec/orders/編輯訂單內容.md~",
-    "site/ec/products/批次修改商品描述與配送設定/index.html",
-    "site/ec/products/批次修改商品描述與配送設定",
-    "site/resources/index.html",
-    "site/ec/products/Excel 大量匯入商品/index.html",
     "docs/ec/orders/如何手動結案訂單.md",
     "archive/wordpress-annotated/wp-combined-ent-annotated-20260122.md",
     "docs/ec/orders/如何取消訂單.md",
@@ -336,7 +337,6 @@
     "docs/ec/integrations/fb/meta-ads/Meta 廣告每日預算設定指南.md",
     "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告每日預算設定指南.md",
     "docs/ec/website-management/使用 Authy 啟用二階段驗證設定.md",
-    "docs/ec/integrations/google/ga/設定 GA4 站內搜尋追蹤.md",
-    "docs/ec/integrations/fb/meta-ads/同步商品影片至 Meta 目錄.md"
+    "docs/ec/integrations/google/ga/設定 GA4 站內搜尋追蹤.md"
   ]
 }
