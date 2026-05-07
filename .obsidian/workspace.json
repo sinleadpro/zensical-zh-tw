@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 27.629733520336607,
+        "dimension": 13.995801259622112,
         "children": [
           {
             "id": "b215f5bf832eb05e",
@@ -14,12 +14,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ.md",
+                "file": "docs/ec/orders/如何搜尋與篩選訂單.md",
                 "mode": "source",
                 "source": true
               },
               "icon": "lucide-file",
-              "title": "手動分享資產權限給 CYBERBIZ"
+              "title": "如何搜尋與篩選訂單"
             }
           },
           {
@@ -53,9 +53,53 @@
         ]
       },
       {
+        "id": "7d974943e1ab115f",
+        "type": "tabs",
+        "dimension": 29.531140657802656,
+        "children": [
+          {
+            "id": "da95639882ecc1c5",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "docs/ec/orders/如何搜尋與篩選訂單.md",
+                "options": {
+                  "collapse-filter": false,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": true,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1,
+                  "close": true
+                }
+              },
+              "icon": "lucide-git-fork",
+              "title": "Graph of 如何搜尋與篩選訂單"
+            }
+          }
+        ]
+      },
+      {
         "id": "10f9d93c6521323e",
         "type": "tabs",
-        "dimension": 36.53576437587658,
+        "dimension": 20.713785864240727,
         "children": [
           {
             "id": "2c27b3aecd22969c",
@@ -76,7 +120,7 @@
       {
         "id": "2c57acc736defe7a",
         "type": "tabs",
-        "dimension": 35.83450210378681,
+        "dimension": 35.759272218334495,
         "children": [
           {
             "id": "70ccdcc682095e33",
@@ -85,11 +129,11 @@
               "type": "webviewer",
               "state": {
                 "url": "https://www.cyberbiz.io/support/?p=1677",
-                "title": "cyberbiz.io/support/?p=1677",
-                "mode": "error"
+                "title": "手動結案訂單",
+                "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "cyberbiz.io/support/?p=1677"
+              "title": "手動結案訂單"
             }
           }
         ]
@@ -124,7 +168,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#order-groups-tabs",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -155,12 +199,12 @@
               "title": "notebook-navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 287.5,
-    "collapsed": true
+    "width": 287.5
   },
   "right": {
     "id": "973606ff262c9293",
@@ -290,33 +334,33 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70ccdcc682095e33",
+  "active": "536fb88d16f7d477",
   "lastOpenFiles": [
-    "docs/ec/orders/如何搜尋與篩選訂單.md~",
+    "site/assets/images/EC-訂單-所有定單-搜尋與篩選-hero.png",
+    "docs/assets/images/EC-訂單-所有定單-搜尋與篩選-hero.png",
+    "docs/ec/orders/如何手動結案訂單.md",
+    "docs/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ.md",
+    "site/ec/orders/訂單管理介面說明/index.html",
+    "site/ec/orders/訂單管理介面說明",
+    "site/ec/orders/綠界後台查詢教學/index.html",
+    "site/ec/orders/綠界後台查詢教學",
+    "site/ec/products/排除商品上傳至第三方平台/index.html",
+    "site/ec/products/排除商品上傳至第三方平台",
     "site/ec/payments-and-logistics/宅配貨到不付款（黑貓宅配通新竹物流）/index.html",
     "site/ec/payments-and-logistics/宅配貨到不付款（黑貓宅配通新竹物流）",
-    "site/resources/index.html",
-    "site/ec/orders/匯出訂單報表/index.html",
-    "site/ec/orders/匯出訂單報表",
-    "site/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）/index.html",
-    "site/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）",
-    "site/ec/products/shipping",
-    "site/ec/orders/如何取消訂單/index.html",
-    "site/ec/orders/如何取消訂單",
-    "site/assets/images/ec-第三方整合-meta企業管理平台-中繼標籤紀錄.png",
-    "site/assets/images/ec-第三方整合-google-ga4-資料保留.png",
-    "site/assets/images/ec-marketing-product-not-applicable-to-select-promotion-setting.zh-tw.png",
-    "site/assets/images/ec-第三方整合-lineoa-建立新帳號.png",
-    "site/assets/images/ec-第三方整合-google-ga4-報表識別資訊.png",
-    "site/assets/images/ec-金物流-line-pay-收到申請通知.png",
-    "site/assets/images/ec-第三方整合-fbe-串接fb-ig商店-商店設定-選擇目錄.png",
-    "site/assets/images/ec-第三方整合-meta廣告帳號閒置通知-不再提醒.png",
-    "site/assets/images/ec-管理中心-儲值中心-CYBER幣購買視窗-儲值明細.png",
-    "site/assets/images/ec-product-video.zh-tw.png",
+    "site/ec/orders/設定黑貓快速到店付款方式/index.html",
+    "site/ec/orders/設定黑貓快速到店付款方式",
+    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
+    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
+    "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
+    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
+    "site/assets/images/發票-混稅發票02.png",
+    "site/assets/images/POS-前台-登入頁面01.png",
+    "site/assets/images/POS-前台-結帳-子機綁定機制02.png",
+    "site/assets/images/ec-第三方整合-line login channel-openid connect.gif",
+    "site/assets/images/ec-第三方整合-mbm-目錄-更新.png",
     "docs/ec/orders/如何搜尋與篩選訂單.md",
     "docs/ec/orders/如何使用再次購買功能.md",
-    "docs/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ.md",
-    "docs/ec/orders/如何手動結案訂單.md",
     "archive/wordpress-annotated/wp-combined-ent-annotated-20260122.md",
     "docs/ec/orders/如何取消訂單.md",
     "docs/ec/orders/使用超商條碼完成付款.md",
