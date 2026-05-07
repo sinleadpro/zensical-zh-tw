@@ -58,11 +58,12 @@ copyright = """
         ]},
         { "訂單" = [
             { "orders" = "ec/orders/index.md" },
+            { "訂單管理介面" = "ec/orders/訂單管理介面說明.md" },
+            { "搜尋與篩選" = "ec/orders/如何搜尋與篩選訂單.md" },
             { "開啟會員退貨申請功能" = "ec/orders/開啟會員退貨申請功能.md"},
             { "訂單退貨流程" = "ec/orders/訂單退貨流程.md"},
             { "訂單退款流程" = "ec/orders/訂單退款流程.md"},
             { "綠界後台查詢教學" = "ec/orders/綠界後台查詢教學.md"},
-            { "訂單管理介面" = "ec/orders/訂單管理介面說明.md" },
             {"編輯訂單" = "ec/orders/編輯訂單內容.md"},
             { "出貨提示文字" = "ec/orders/出貨狀態物流提示文字說明.md" },
             { "訂單未付款提醒" = "ec/orders/設定未付款提醒.md" },
