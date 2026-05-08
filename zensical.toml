@@ -967,3 +967,5 @@ targets.include = [
 [project.markdown_extensions.zensical.extensions.glightbox]
 auto_caption = true
 
+[project.markdown_extensions.zensical.extensions.macros]
+module_name = "main"
