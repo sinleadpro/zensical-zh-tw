@@ -85,9 +85,8 @@ copyright = """
                 {"跨境電商退款流程" = "ec/orders/跨境電商退款流程.md"},
             ]},
             {"參考資料" = [
+                { "訂單篩選條件與狀態" = "ec/orders/references/訂單篩選條件與狀態對照表.md" },
                 {"列表操作功能"="ec/orders/references/訂單列表操作功能說明.md"},
-                {"訂單列表欄位"="ec/orders/references/訂單列表欄位參考表.md"},
-                {"訂單篩選欄位"="ec/orders/references/訂單篩選條件欄位定義.md"},
                 {"報表可用欄位"="ec/orders/references/訂單報表可用欄位.md"}
             ]},
         ]},
