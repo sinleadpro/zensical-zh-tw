@@ -199,8 +199,7 @@
               "title": "notebook-navigator"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -334,8 +333,27 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "536fb88d16f7d477",
+  "active": "54e462a14a5a6adb",
   "lastOpenFiles": [
+    "docops/playbooks/traceability.md",
+    "docops/playbooks/style guide.md",
+    "docops/playbooks/quality assurance checklist.md",
+    "docops/playbooks/production and publish sop.md",
+    "docops/playbooks/infrastructure.md",
+    "docops/playbooks/information architecture.md",
+    "docops/playbooks/frontmatter.md",
+    "docops/playbooks/doc production guide.md",
+    "docops/playbooks/authoring.md",
+    "docops/playbooks/agentic workflow.md",
+    "docops/tools/sparks.md",
+    "docops/tools/obsidian.md",
+    "docops/tools/ai.md",
+    "docops/bases/moc.base",
+    "docops/tools",
+    "docops/playbooks",
+    "docops/index.md",
+    "docops/bases",
+    "docops",
     "site/assets/images/EC-所有訂單-儲存訂單檢視群組.png",
     "docs/assets/images/EC-所有訂單-儲存訂單檢視群組.png",
     "site/pos/others/小結關帳/index.html",
@@ -343,11 +361,6 @@
     "site/ec/orders/跨境電商退貨流程/index.html",
     "site/ec/orders/跨境電商退貨流程",
     "site/ec/orders/第三方支付訂單人工退款/index.html",
-    "site/ec/orders/第三方支付訂單人工退款",
-    "site/pos/inventory/調倉完整流程/index.html",
-    "site/pos/inventory/調倉完整流程",
-    "site/pos/get-started/index.html",
-    "site/pos/get-started",
     "site/assets/images/EC-所有訂單-篩選時區-介於.png",
     "docs/assets/images/EC-所有訂單-篩選時區-介於.png",
     "site/assets/images/EC-所有訂單-篩選時區.png",
@@ -356,7 +369,6 @@
     "docs/assets/images/EC-所有訂單-篩選條件值設定.png",
     "site/assets/images/EC-所有訂單-已新增篩選條件.png",
     "docs/assets/images/EC-所有訂單-已新增篩選條件.png",
-    "site/assets/images/EC-訂單-新版訂單列表-條件篩選-訂單狀態.png",
     "docs/ec/orders/如何手動結案訂單.md",
     "docs/ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ.md",
     "docs/ec/orders/如何搜尋與篩選訂單.md",
@@ -368,19 +380,6 @@
     "docs/ec/orders/編輯訂單內容.md",
     "docs/ec/website-management/CYBER 幣儲值中心使用指南.md",
     "docs/ec/website-management/CYBER 儲值中心使用指南.md",
-    "docs/ec/website-management/儲值與管理 CYBER 幣.md",
-    "docs/ec/notifications/查詢與追蹤簡訊發送紀錄.md",
-    "docs/ec/notifications/設定與發送簡訊通知.md",
-    "docs/ec/notifications/簡訊發送與設定.md",
-    "docs/ec/integrations/fb/meta-ads/Meta 廣告閒置帳號回收機制說明.md",
-    "docs/ec/integrations/fb/meta-ads/帳號閒置處理與回收機制說明.md",
-    "archive/wordpress-annotated/wp-reg-annotated-20260106/商品頁上傳影片.md",
-    "docs/ec/integrations/fb/meta-ads/ASC 廣告投放策略與最佳實務.md",
-    "docs/pos/hardware/EPSON 有線發票機.md",
-    "archive/wordpress-annotated/wp-reg-annotated-20260106/Meta 廣告成效分析.md",
-    "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告活動.md",
-    "docs/ec/integrations/fb/meta-ads/Meta 廣告每日預算設定指南.md",
-    "docs/ec/integrations/fb/meta-ads/設定 Meta 廣告每日預算設定指南.md",
-    "docs/ec/website-management/使用 Authy 啟用二階段驗證設定.md"
+    "docs/ec/website-management/儲值與管理 CYBER 幣.md"
   ]
 }
