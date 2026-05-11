@@ -306,6 +306,8 @@
   },
   "active": "93d0589956d5affc",
   "lastOpenFiles": [
+    "site/ec/orders/設定與列印出貨明細.md~",
+    "docs/ec/orders/設定與列印訂單明細.md~",
     "templates/macros-gate-content.md",
     "site/assets/images/EC-管理中心-安全性設定-會員個資隱碼-訂單明細列印.png",
     "docs/assets/images/EC-管理中心-安全性設定-會員個資隱碼-訂單明細列印.png",
@@ -317,7 +319,6 @@
     "docs/assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-進階設定-回覆預設樣板按鈕.png",
     "site/assets/images/訂單明細預覽-1.png",
     "site/assets/images/訂單明細預覽-2.png",
-    "docs/ec/orders/設定與列印訂單明細.md~",
     "site/ec/orders/設定與列印訂單明細.md~",
     "site/ec/products/get-started/使用商品管理介面管理商品/index.html",
     "site/ec/products/get-started/使用商品管理介面管理商品",
@@ -350,7 +351,6 @@
     "docops/playbooks/traceability.md",
     "docops/playbooks/style guide.md",
     "docops/playbooks/quality assurance checklist.md",
-    "docops/playbooks/production and publish sop.md",
-    "docops/playbooks/infrastructure.md"
+    "docops/playbooks/production and publish sop.md"
   ]
 }
