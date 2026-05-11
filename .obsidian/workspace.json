@@ -6,7 +6,7 @@
       {
         "id": "24ac67bace06ab62",
         "type": "tabs",
-        "dimension": 19.8609731876862,
+        "dimension": 30.22440392706872,
         "children": [
           {
             "id": "b215f5bf832eb05e",
@@ -55,7 +55,7 @@
       {
         "id": "10f9d93c6521323e",
         "type": "tabs",
-        "dimension": 29.394240317775576,
+        "dimension": 35.97475455820477,
         "children": [
           {
             "id": "2c27b3aecd22969c",
@@ -63,12 +63,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=192",
-                "title": "結案訂單(結束訂單) - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=7803",
+                "title": "貨態「準備出貨」調整回「未出貨」 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "結案訂單(結束訂單) - CYBERBIZ 一般版教學文件"
+              "title": "貨態「準備出貨」調整回「未出貨」 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -76,7 +76,7 @@
       {
         "id": "2c57acc736defe7a",
         "type": "tabs",
-        "dimension": 50.74478649453823,
+        "dimension": 33.80084151472651,
         "children": [
           {
             "id": "70ccdcc682095e33",
@@ -84,12 +84,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=1677",
-                "title": "手動結案訂單",
+                "url": "https://www.cyberbiz.io/support/?p=23611",
+                "title": "貨態「準備出貨」調整回「未出貨」",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "手動結案訂單"
+              "title": "貨態「準備出貨」調整回「未出貨」"
             }
           }
         ]
@@ -159,7 +159,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 287.5,
+    "collapsed": true
   },
   "right": {
     "id": "973606ff262c9293",
@@ -289,29 +290,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70ccdcc682095e33",
+  "active": "2c27b3aecd22969c",
   "lastOpenFiles": [
-    "site/ec/orders/設定與列印出貨明細/index.html",
-    "site/ec/orders/設定與列印出貨明細",
-    "site/ec/orders/匯出訂單報表/index.html",
-    "site/ec/orders/匯出訂單報表",
-    "site/ec/payments-and-logistics/補印與加印託運單/index.html",
-    "site/ec/payments-and-logistics/補印與加印託運單",
-    "site/ec/products/get-started/index.html",
-    "site/ec/payments-and-logistics/設定 iPASS MONEY 一卡通/index.html",
-    "site/ec/payments-and-logistics/設定 iPASS MONEY 一卡通",
-    "site/ec/payments-and-logistics/AFTEE先享後付 金流說明/index.html",
-    "site/ec/payments-and-logistics/AFTEE先享後付 金流說明",
-    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
-    "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
-    "site/assets/images/POS-前台-登入頁面01.png",
-    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
-    "site/assets/images/發票-混稅發票02.png",
-    "site/assets/images/POS-前台-結帳-子機綁定機制02.png",
-    "site/assets/images/ec-第三方整合-line login channel-openid connect.gif",
-    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
-    "site/assets/images/ec-第三方整合-mbm-目錄-更新.png",
-    "site/assets/images/ec-訂單-訂單報表匯出-篩選項目.png",
+    "docs/ec/orders/如何使用自訂物流出貨.md~",
+    "site/wms/帳號管理/index.html",
+    "site/wms/帳號管理",
+    "site/ec/payments-and-logistics/LINEX 跨境物流/index.html",
+    "site/ec/payments-and-logistics/LINEX 跨境物流",
+    "site/ec/payments-and-logistics/宅配逆物流（黑貓宅配通新竹物流）/index.html",
+    "site/ec/payments-and-logistics/宅配逆物流（黑貓宅配通新竹物流）",
+    "site/ec/payments-and-logistics/串接ezShip超商取貨(C2C)/index.html",
+    "site/ec/payments-and-logistics/串接ezShip超商取貨(C2C)",
+    "site/ec/payments-and-logistics/日本站金流服務/index.html",
+    "site/ec/payments-and-logistics/日本站金流服務",
+    "site/assets/images/ec-第三方整合-fbe.png",
+    "site/assets/images/EC-所有訂單-已新增篩選條件.png",
+    "site/assets/images/ec-商品列表匯出-操作選單.png",
+    "site/assets/images/ec-第三方整合-fbe-連結資產.png",
+    "site/assets/images/ec-maa-目錄商品組合-商品列表.png",
+    "site/assets/images/EC-後台-金物流-金流設定-編輯CYBPAYMENTS01.png",
+    "site/assets/images/POS-前台-訂單-離線模式01.png",
+    "site/assets/images/POS-驅動程式-疑難排解3-3.png",
+    "site/assets/images/ec-網站外觀-部落格管理-部落格頁-前台.png",
+    "site/assets/images/EC-金物流-結帳頁物流設定-顧客取消訂單申請退貨.png",
+    "docs/ec/orders/如何使用自訂物流出貨.md",
     "docs/ec/orders/設定與列印訂單明細.md",
     "docs/pos/orders/修改訂單明細頁「店長改價」的顯示名稱.md",
     "docs/ec/orders/如何將訂單從準備出貨調整回未出貨狀態.md",
@@ -335,7 +337,6 @@
     "duckops/tools/ai.md",
     "duckops/index.md",
     "docs/ec/orders/如何搜尋與篩選訂單.md",
-    "docops/playbooks/traceability.md",
-    "docops/playbooks/style guide.md"
+    "docops/playbooks/traceability.md"
   ]
 }
