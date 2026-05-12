@@ -292,6 +292,9 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
+    "site/ec/orders/如何設定訂單部分出貨/index.html",
+    "site/ec/orders/如何設定訂單部分出貨",
+    "docs/ec/orders/如何設定訂單部分出貨.md",
     "docs/ec/orders/如何使用自訂物流出貨.md~",
     "site/assets/images/大量匯入自訂託運單範本.png",
     "docs/assets/images/大量匯入自訂託運單範本.png",
@@ -311,8 +314,6 @@
     "site/ec/payments-and-logistics/設定 AFTEE",
     "site/wms/公告/index.html",
     "site/wms/公告",
-    "site/ec/payments-and-logistics/補印與加印託運單/index.html",
-    "site/ec/payments-and-logistics/補印與加印託運單",
     "docs/ec/orders/如何使用自訂物流出貨.md",
     "docs/ec/orders/設定與列印訂單明細.md",
     "docs/pos/orders/修改訂單明細頁「店長改價」的顯示名稱.md",
@@ -336,7 +337,6 @@
     "duckops/tools/obsidian.md",
     "duckops/tools/ai.md",
     "duckops/index.md",
-    "docs/ec/orders/如何搜尋與篩選訂單.md",
-    "docops/playbooks/traceability.md"
+    "docs/ec/orders/如何搜尋與篩選訂單.md"
   ]
 }
