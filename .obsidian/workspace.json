@@ -63,12 +63,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=7803",
-                "title": "貨態「準備出貨」調整回「未出貨」 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=105",
+                "title": "自訂物流 : 操作出貨 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "貨態「準備出貨」調整回「未出貨」 - CYBERBIZ 一般版教學文件"
+              "title": "自訂物流 : 操作出貨 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -84,12 +84,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=23611",
-                "title": "貨態「準備出貨」調整回「未出貨」",
+                "url": "https://www.cyberbiz.io/support/?p=982",
+                "title": "自訂物流 : 操作出貨",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "貨態「準備出貨」調整回「未出貨」"
+              "title": "自訂物流 : 操作出貨"
             }
           }
         ]
@@ -290,29 +290,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c27b3aecd22969c",
+  "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "docs/ec/orders/如何使用自訂物流出貨.md~",
+    "site/assets/images/EC-訂單-所有訂單-更多操作-已出貨-選擇貨運公司.png",
+    "docs/assets/images/EC-訂單-所有訂單-更多操作-已出貨-選擇貨運公司.png",
+    "site/assets/images/EC-訂單-所有訂單-更多操作-已出貨.png",
+    "docs/assets/images/EC-訂單-所有訂單-更多操作-已出貨.png",
+    "site/assets/images/EC-訂單-所有訂單-更多操作-已出貨-hero.png",
+    "docs/assets/images/EC-訂單-所有訂單-更多操作-已出貨-hero.png",
     "site/wms/帳號管理/index.html",
     "site/wms/帳號管理",
-    "site/ec/payments-and-logistics/LINEX 跨境物流/index.html",
-    "site/ec/payments-and-logistics/LINEX 跨境物流",
-    "site/ec/payments-and-logistics/宅配逆物流（黑貓宅配通新竹物流）/index.html",
-    "site/ec/payments-and-logistics/宅配逆物流（黑貓宅配通新竹物流）",
-    "site/ec/payments-and-logistics/串接ezShip超商取貨(C2C)/index.html",
-    "site/ec/payments-and-logistics/串接ezShip超商取貨(C2C)",
-    "site/ec/payments-and-logistics/日本站金流服務/index.html",
-    "site/ec/payments-and-logistics/日本站金流服務",
-    "site/assets/images/ec-第三方整合-fbe.png",
-    "site/assets/images/EC-所有訂單-已新增篩選條件.png",
-    "site/assets/images/ec-商品列表匯出-操作選單.png",
-    "site/assets/images/ec-第三方整合-fbe-連結資產.png",
-    "site/assets/images/ec-maa-目錄商品組合-商品列表.png",
-    "site/assets/images/EC-後台-金物流-金流設定-編輯CYBPAYMENTS01.png",
-    "site/assets/images/POS-前台-訂單-離線模式01.png",
-    "site/assets/images/POS-驅動程式-疑難排解3-3.png",
-    "site/assets/images/ec-網站外觀-部落格管理-部落格頁-前台.png",
-    "site/assets/images/EC-金物流-結帳頁物流設定-顧客取消訂單申請退貨.png",
+    "site/ec/orders/訂單退貨流程/index.html",
+    "site/ec/orders/訂單退貨流程",
+    "site/ec/payments-and-logistics/設定 AFTEE/index.html",
+    "site/ec/payments-and-logistics/設定 AFTEE",
+    "site/wms/公告/index.html",
+    "site/wms/公告",
+    "site/ec/payments-and-logistics/補印與加印託運單/index.html",
+    "site/ec/payments-and-logistics/補印與加印託運單",
+    "site/assets/images/ec-第三方整合-line login channel-openid connect.gif",
+    "site/assets/images/發票-混稅發票02.png",
+    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
+    "site/assets/images/POS-前台-登入頁面01.png",
+    "site/assets/images/POS-前台-結帳-子機綁定機制02.png",
     "docs/ec/orders/如何使用自訂物流出貨.md",
     "docs/ec/orders/設定與列印訂單明細.md",
     "docs/pos/orders/修改訂單明細頁「店長改價」的顯示名稱.md",
