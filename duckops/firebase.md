@@ -298,7 +298,9 @@ Prompt 設計重點
   表(欄位定義表、狀態對照表)請另開檔案放在                         
   `docs/{{module}}/references/` 下**,主文以 `[顯示文字][anchor-id]{
    data-preview }` 跳轉                                            
-
+  headings should conatain code speaker anchors, e.g.
+  1. 自訂物流出貨說明 { #custom-logistics-shipping-intro }
+  2. 使用前提與限制 { #custom-logistics-shipping-prerequisites }
 
     步驟的格式需為 task-oriented procedure writing stytle. 參考以下：
     
@@ -608,8 +610,8 @@ Prompt 設計重點
                   
   ## 本次任務變數
                                                                    
-  * **頁面**:{{https://demo005.cyberbiz.co/admin/orders_v2}} > 訂單列表 > 訂單編號 > 訂單詳情頁 > 出貨
-  * **主題**:{{如何設定訂單部分出貨}}                                    
+  * **頁面**:{{https://demo005.cyberbiz.co/admin/orders_v2}} > 訂單列表 > 更多操作 > 下載黑貓托運單並把貨態改為已出貨
+  * **主題**:{{如何使用黑貓宅配出貨}}                                    
   * **參考既有文件**:{{若有,貼上該頁面的現有                       
   markdown,新內容需與既有風格一致}}                                
   * **特別要求**:{{例如:只補某個段落 / 重寫整篇 / 只產生對照表 /   

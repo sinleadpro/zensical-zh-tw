@@ -72,6 +72,8 @@ copyright = """
             {"自訂物流出貨" = "ec/orders/如何使用自訂物流出貨.md"},
             {"部分出貨（宅配）" = "ec/orders/如何設定訂單部分出貨.md"},
             {"黑貓宅配出貨" = "ec/orders/如何使用黑貓宅配出貨.md"},
+            {"黑貓自動呼叫司機" = "ec/orders/如何呼叫黑貓司機取件.md"},
+            {"黑貓快速到店付款" = "ec/orders/設定黑貓快速到店付款方式.md"},
             {"開啟會員退貨申請功能" = "ec/orders/開啟會員退貨申請功能.md"},
             {"訂單退貨流程" = "ec/orders/訂單退貨流程.md"},
             {"訂單退款流程" = "ec/orders/訂單退款流程.md"},
@@ -81,7 +83,6 @@ copyright = """
             {"再次購買" = "ec/orders/如何使用再次購買功能.md"},
             {"取消訂單" = "ec/orders/如何取消訂單.md"},
             {"匯出定期預估報表" = "ec/orders/匯出定期定額子訂單預測報表.md"},
-            {"黑貓快速到店付款" = "ec/orders/設定黑貓快速到店付款方式.md"},
             {"超商退貨便 C2B" = "ec/orders/操作超商退貨便 C2B.md"},
             {"全家冷凍店到店 C2C" = "ec/orders/操作全家冷凍店到店 C2C 出貨.md"},
             {"熱感列印超商托運單" = "ec/orders/熱感列印超商托運單.md"},
@@ -916,7 +917,7 @@ auto_append = ["includes/abbreviations.md"]
 [project.markdown_extensions.md_in_html]
 [project.markdown_extensions.toc]
 permalink = true
-toc_depth = 4
+toc_depth = 3
 [project.markdown_extensions.toc.slugify]
 object = "pymdownx.slugs.slugify"
 kwds = { case = "lower", unicode = true }
