@@ -292,6 +292,8 @@
   },
   "active": "2c27b3aecd22969c",
   "lastOpenFiles": [
+    "docs/ec/orders/設定與列印訂單明細.md~",
+    "site/ec/orders/設定與列印訂單明細.md~",
     "docs/ec/orders/如何設定訂單部分出貨.md~",
     "site/assets/images/EC-訂單-所有訂單-配送狀態-部分出貨.png",
     "docs/assets/images/EC-訂單-所有訂單-配送狀態-部分出貨.png",
@@ -311,7 +313,6 @@
     "site/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）/index.html",
     "site/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）",
     "site/ec/products/shipping",
-    "site/ec/orders/第三方支付訂單人工退款/index.html",
     "docs/ec/orders/如何使用黑貓宅配出貨.md",
     "docs/ec/orders/如何設定訂單部分出貨.md",
     "docs/ec/orders/如何使用自訂物流出貨.md",
