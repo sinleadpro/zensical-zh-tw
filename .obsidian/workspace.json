@@ -292,17 +292,19 @@
   },
   "active": "2c27b3aecd22969c",
   "lastOpenFiles": [
+    "site/ec/orders/使用黑貓宅配出貨.md~",
+    "docs/ec/orders/使用黑貓宅配出貨.md~",
+    "site/ec/orders/使用黑貓宅配出貨/index.html",
+    "site/ec/orders/使用黑貓宅配出貨",
+    "docs/ec/orders/使用黑貓宅配出貨.md",
+    "site/ec/orders/使用黑貓出貨/index.html",
+    "site/ec/orders/使用黑貓出貨",
     "docs/ec/orders/使用黑貓出貨.md",
     "site/resources/index.html",
     "site/ec/orders/設定未付款提醒/index.html",
     "site/ec/orders/設定未付款提醒",
     "site/ec/payments-and-logistics/設定街口支付/index.html",
     "site/ec/payments-and-logistics/設定街口支付",
-    "site/ec/payments-and-logistics/串接ezShip超商取貨(C2C)/index.html",
-    "site/ec/payments-and-logistics/串接ezShip超商取貨(C2C)",
-    "site/ec/payments-and-logistics/設定信用卡 3D 驗證門檻/index.html",
-    "site/ec/payments-and-logistics/設定信用卡 3D 驗證門檻",
-    "site/ec/payments-and-logistics/AFTEE先享後付 金流說明/index.html",
     "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
     "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
     "site/assets/images/POS-前台-登入頁面01.png",
@@ -335,8 +337,6 @@
     "duckops/playbooks/doc production guide.md",
     "duckops/playbooks/authoring.md",
     "duckops/playbooks/agentic workflow.md",
-    "duckops/tools/sparks.md",
-    "duckops/tools/obsidian.md",
-    "duckops/tools/ai.md"
+    "duckops/tools/sparks.md"
   ]
 }
