@@ -436,3 +436,10 @@
     -webkit-mask-image: var(--md-admonition-icon--plan);
     mask-image: var(--md-admonition-icon--plan);
 }
+
+/* FAQ Heading Hiding
+
+/* 1. Hide the ghost header in the content area */
+.hidden-header {
+    display: none !important;
+}
