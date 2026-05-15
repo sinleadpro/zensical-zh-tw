@@ -625,8 +625,8 @@ Prompt 設計重點
                   
   ## 本次任務變數
                                                                    
-  * **頁面**:{{https://demo005.cyberbiz.co/admin/orders_v2}} > 訂單列表 > 更多操作 > 下載黑貓托運單並把貨態改為已出貨
-  * **主題**:{{自動呼叫黑貓司機取件}}                                    
+  * **頁面**:{{https://demo005.cyberbiz.co/admin/shipping_notes/ezcat}} 
+  * **主題**:{{設定黑貓託運單 or anything more appropriate in terms of technical writing}}                                    
   * **參考既有文件**:{{若有,貼上該頁面的現有                       
   markdown,新內容需與既有風格一致}}                                
   * **特別要求**:{{例如:只補某個段落 / 重寫整篇 / 只產生對照表 /   
