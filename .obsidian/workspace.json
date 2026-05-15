@@ -63,12 +63,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=84",
-                "title": "黑貓宅配 : 操作出貨 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=11013",
+                "title": "黑貓宅配/黑貓快速到店：呼叫司機 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "黑貓宅配 : 操作出貨 - CYBERBIZ 一般版教學文件"
+              "title": "黑貓宅配/黑貓快速到店：呼叫司機 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -84,12 +84,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=973",
-                "title": "黑貓宅配 : 操作出貨",
+                "url": "https://www.cyberbiz.io/support/?p=47125",
+                "title": "黑貓宅配/黑貓快速到店：呼叫司機",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "黑貓宅配 : 操作出貨"
+              "title": "黑貓宅配/黑貓快速到店：呼叫司機"
             }
           }
         ]
@@ -290,29 +290,32 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "2c27b3aecd22969c",
+  "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/ec/products/新增與設定組合商品/index.html",
-    "site/ec/products/新增與設定組合商品",
-    "site/ec/products/Excel 大量匯入商品/index.html",
-    "site/ec/products/Excel 大量匯入商品",
-    "site/ec/payments-and-logistics/AFTEE先享後付 金流說明/index.html",
-    "site/ec/payments-and-logistics/AFTEE先享後付 金流說明",
-    "site/ec/products/排除商品上傳至第三方平台/index.html",
-    "site/ec/products/排除商品上傳至第三方平台",
-    "site/ec/integrations/fb/index.html",
-    "site/ec/orders/使用黑貓宅配出貨/index.html",
-    "site/ec/orders/使用黑貓宅配出貨",
-    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
-    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
-    "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
-    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
-    "site/assets/images/ec-第三方整合-mbm-目錄-更新.png",
-    "site/assets/images/發票-混稅發票02.png",
-    "site/assets/images/POS-前台-登入頁面01.png",
-    "site/assets/images/POS-前台-結帳-子機綁定機制02.png",
+    "site/ec/orders/使用超商條碼完成付款/index.html",
+    "site/ec/orders/使用超商條碼完成付款",
+    "site/ec/orders/設定未付款提醒/index.html",
+    "site/ec/orders/設定未付款提醒",
+    "site/ec/orders/設定訂單自動結案/index.html",
+    "site/ec/orders/設定訂單自動結案",
+    "site/ec/payments-and-logistics/設定 Apple Pay/index.html",
+    "site/ec/payments-and-logistics/設定 Apple Pay",
+    "site/ec/payments-and-logistics/宅配逆物流（黑貓宅配通新竹物流）/index.html",
+    "site/ec/payments-and-logistics/宅配逆物流（黑貓宅配通新竹物流）",
+    "site/ec/payments-and-logistics/串接全家超商B2C冷凍物流/index.html",
     "site/assets/images/ec-訂單-訂單報表匯出-篩選項目.png",
-    "site/assets/images/ec-訂單-所有訂單.png",
+    "site/assets/images/發票-混稅發票02.png",
+    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
+    "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
+    "site/assets/images/POS-前台-登入頁面01.png",
+    "site/assets/images/ec-第三方整合-line login channel-openid connect.gif",
+    "site/assets/images/POS-前台-結帳-子機綁定機制02.png",
+    "site/assets/images/ec-gmc-p4-運送設定.png",
+    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
+    "site/assets/images/ec-maa-廣告活動列表-廣告名稱.png",
+    "docs/ec/payments-and-logistics/設定與加印黑貓托運單.md",
+    "docs/ec/payments-and-logistics/設定黑貓托運單.md",
+    "docs/ec/payments-and-logistics/黑貓托運單指南.md",
     "docs/ec/orders/自動呼叫黑貓司機取件.md",
     "docs/ec/orders/設定訂單部分出貨.md",
     "docs/ec/orders/使用黑貓宅配出貨.md",
@@ -334,9 +337,6 @@
     "duckops/playbooks/quality assurance checklist.md",
     "duckops/playbooks/production and publish sop.md",
     "duckops/playbooks/infrastructure.md",
-    "duckops/playbooks/information architecture.md",
-    "duckops/playbooks/frontmatter.md",
-    "duckops/playbooks/doc production guide.md",
-    "duckops/playbooks/authoring.md"
+    "duckops/playbooks/information architecture.md"
   ]
 }
