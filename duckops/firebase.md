@@ -289,19 +289,19 @@ Prompt 設計重點
                                                                    
   ## 文件結構(依序)
                                                                    
-  1. **功能介紹** — 這個頁面是什麼、用途
-  2. **頁面功能總覽**(若有,以表格呈現)                             
+  1. **功能介紹** — 這個頁面是什麼、用途 { #intro-}
+  2. **頁面功能總覽**(若有,以表格呈現) { #overview- }             
   3. **計費或規則說明**(若有)                                      
-  4. **操作步驟** — Step-by-step,依**使用情境**分段                
+  4. **操作步驟** — Step-by-step,依**使用情境**分段 { #operate-}
   5. **後續操作** — 完成主要操作後商家可能接著做的事               
-  6. **常見問題(FAQ)**                                             
-  7. **參考資料** — 簡短限制條件、邊界規則可留在主文末段;**完整對照
-  表(欄位定義表、狀態對照表)請另開檔案放在                         
-  `docs/{{module}}/references/` 下**,主文以 `[顯示文字][anchor-id]{
-   data-preview }` 跳轉                                            
-  headings should conatain code speaker anchors, e.g.
+  6. **常見問題(FAQ)** { #faq-}                                            
+  7. **參考資料** — 簡短限制條件、邊界規則可留在主文末段；**完整對照表(欄位定義表、狀態對照表)請另開檔案放在`docs/{{module}}/references/` 下**，主文以 `[顯示文字][anchor-id]{ data-preview }`  { #reference- }
+
+  跳轉 headings should conatain code speaker anchors, e.g.
+  ```
   1. 自訂物流出貨說明 { #custom-logistics-shipping-intro }
   2. 使用前提與限制 { #custom-logistics-shipping-prerequisites }
+  ``
 
   步驟的格式需為 task-oriented procedure writing stytle. 參考以下：
   

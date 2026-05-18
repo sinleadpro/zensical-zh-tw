@@ -8,5 +8,5 @@ dependencies = [
     "mkdocs-autorefs>=1.4.4",
     "pandas>=3.0.3",
     "tabulate>=0.10.0",
-    "zensical>=0.0.41",
+    "zensical>=0.0.42",
 ]
