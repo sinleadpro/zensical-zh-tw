@@ -636,8 +636,8 @@ Prompt 設計重點
                   
   ## 本次任務變數
                                                                    
-  * **頁面**:{{https://demo005.cyberbiz.co/admin/shipping_notes/ezcat}} 
-  * **主題**:{{設定黑貓託運單 or anything more appropriate in terms of technical writing}}                                    
+  * **頁面**:{{https://demo005.cyberbiz.co/admin/orders_v2}} 
+  * **主題**:{{使用黑貓快速到店出貨}}                                    
   * **參考既有文件**:{{若有,貼上該頁面的現有                       
   markdown,新內容需與既有風格一致}}                                
   * **特別要求**:{{例如:只補某個段落 / 重寫整篇 / 只產生對照表 /   

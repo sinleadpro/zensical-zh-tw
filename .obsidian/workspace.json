@@ -63,12 +63,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=11013",
-                "title": "黑貓宅配/黑貓快速到店：呼叫司機 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=2678",
+                "title": "黑貓快速到店 – 操作出貨 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "黑貓宅配/黑貓快速到店：呼叫司機 - CYBERBIZ 一般版教學文件"
+              "title": "黑貓快速到店 – 操作出貨 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -84,12 +84,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=47125",
-                "title": "黑貓宅配/黑貓快速到店：呼叫司機",
+                "url": "https://www.cyberbiz.io/support/?p=8844",
+                "title": "黑貓快速到店：操作出貨",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "黑貓宅配/黑貓快速到店：呼叫司機"
+              "title": "黑貓快速到店：操作出貨"
             }
           }
         ]
@@ -292,6 +292,7 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
+    "site/ec/orders/設定黑貓快速到店付款方式.md~",
     "site/ec/orders/使用黑貓快速到店出貨/index.html",
     "site/ec/orders/使用黑貓快速到店出貨",
     "docs/ec/orders/使用黑貓快速到店出貨.md",
@@ -315,7 +316,6 @@
     "site/ec/orders/設定訂單部分出貨",
     "site/ec/payments-and-logistics/東南亞站金流服務/index.html",
     "site/ec/payments-and-logistics/東南亞站金流服務",
-    "site/ec/orders/匯出定期定額子訂單預測報表/index.html",
     "docs/ec/payments-and-logistics/設定與加印黑貓託運單.md",
     "docs/ec/payments-and-logistics/設定與加印黑貓托運單.md",
     "docs/ec/payments-and-logistics/設定黑貓托運單.md",
