@@ -298,7 +298,7 @@ copyright = """
                 {"Chat Box" = [
                     {"overview" = "ec/app-market/cyberbiz-extensions/chat-box/index.md"},
                 ]},
-                {"全通路庫存管理" = [
+                {"全通路管理助手" = [
                     { "Step 1 安裝啟用" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step1.安裝啟用.md" },
                     { "Step 2 導入商品與建立關聯" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step2.導入商品與建立關聯.md" },
                     { "Step 3 庫存同步" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step3.官網與蝦皮商品庫存同步.md" },
@@ -306,6 +306,14 @@ copyright = """
                     { "Step 5 資訊同步" = "ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step5.官網與蝦皮商品資訊同步.md" },
                 ]},
             ]},
+            {"門市助理" = [
+                    {"overview" = "ec/app-market/storepal/index.md"},
+                    {"搜尋與建立會員" = "ec/app-market/storepal/搜尋與建立會員.md"},
+                    {"會員身份識別" = "ec/app-market/storepal/會員身份識別.md"},
+                    {"會員數據智庫" = "ec/app-market/storepal/會員數據智庫.md"},
+                    {"導購轉化" = "ec/app-market/storepal/導購轉化.md"},
+                    {"查看業績" = "ec/app-market/storepal/查看業績.md"},
+                ]},
             {"CYBERBIZ APP" = "ec/app-market/CYBERBIZ APP 功能指南.md"},
             {"CYBERBIZ Meta Ads" = "ec/app-market/安裝 Meta Ads App.md"}
         ]},
@@ -485,6 +493,7 @@ copyright = """
             { "overview" = "pos/get-started/index.md" },
         ]},
         { "硬體安裝" = [
+            { "overview" = "pos/hardware/index.md" },
             { "有線刷卡機" = "pos/hardware/有線刷卡機.md" },
             { "商米無線刷卡機" = "pos/hardware/商米無線刷卡機.md" },
             { "Posiflex 有線發票機" = "pos/hardware/Posiflex 有線發票機.md" },
@@ -495,7 +504,7 @@ copyright = """
             { "網路連線異常與斷線提示" = "pos/hardware/網路連線異常與斷線提示.md" },
         ]},
         { "軟體安裝" = [
-            { "驅動程式" = "" },
+            { "驅動程式" = "pos/software/驅動程式.md" },
         ]},
         { "第三方服務" =[
             { "盟立電子發票" = "pos/third-party/盟立電子發票.md" },
@@ -503,14 +512,15 @@ copyright = """
         ]},
         {"divider" = "divider"},
         { "商店管理" = [
-            { "公告系統" = "pos/others2/公告系統.md" },
-            { "安全性設定" = "pos/others2/安全性設定.md" },
-            { "續購與加購方案" = "pos/others2/續購與加購方案.md" },
+            { "公告系統" = "pos/store/公告系統.md" },
+            { "安全性設定" = "pos/store/安全性設定.md" },
+            { "續購與加購方案" = "pos/store/續購與加購方案.md" },
+            { "POS 門市取貨店員分潤" = "pos/store/POS 門市取貨店員分潤.md" },
         ]},
-        { "權限管理" = [
-            { "設定前台自動登出時間" = "pos/others2/設定前台自動登出時間.md" },
-            { "員工權限與帳號管理" = "pos/others2/員工權限與帳號管理.md" },
-            { "人員登入" = "pos/others2/人員登入.md" },
+        { "人員管理" = [
+            { "設定前台自動登出時間" = "pos/store/設定前台自動登出時間.md" },
+            { "員工權限與帳號管理" = "pos/store/員工權限與帳號管理.md" },
+            { "人員登入" = "pos/store/人員登入.md" },
         ]},
         { "報表分析" = [
             { "營收分析" = "" },
@@ -518,16 +528,18 @@ copyright = """
         ]},
         {"divider" = "divider"},
         { "結帳" =[
+            { "overview" = "pos/check/index.md" },
             { "子機結帳綁定" = "pos/check/子機結帳綁定.md" },
             { "付款方式" =[
-                { "overview" = "pos/check/index.md" },
-                { "多付款方式" = "pos/check/多付款方式.md" },
+                { "overview" = "pos/check/payment-method/index.md" },
+                { "多付款方式" = "pos/check/payment-method/多付款方式.md" },
             ]},
             { "列印發票明細" = "pos/check/列印發票明細.md" },
             { "列印商品標籤" = "pos/check/列印商品標籤.md" },
             { "庫存不足通知" = "pos/check/庫存不足通知.md" },
             { "紅利商城" = "pos/check/紅利商城.md" },
             { "客顯互動遊戲" = "pos/check/客顯互動遊戲.md" },
+            { "訪客結帳" = "pos/check/訪客結帳.md" },
             { "離線結帳模式" = "pos/check/離線結帳模式.md" },
             { "掃描槍掃描後找不到商品" = "pos/check/掃描槍掃描後找不到商品.md" },
             { "混稅發票" = "pos/check/混稅發票.md" },
@@ -536,7 +548,8 @@ copyright = """
             { "overview" = "" },
         ]},
         { "訂單" =[
-            { "overview" = "pos/orders_ann/index.md" },
+            { "一般訂單管理" = "pos/orders_ann/管理一般訂單.md" },
+            { "門市取貨訂單(入庫/取貨)" = "pos/orders_ann/門市取貨訂單(入庫取貨).md" },
         ]},
         { "會員" =[
             { "overview" = "pos/member/index.md" },

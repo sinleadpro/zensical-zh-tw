@@ -44,3 +44,4 @@ duckops/
 
 # Ann's files
 .cursorindexingignore
+.cursor/
