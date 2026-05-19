@@ -110,7 +110,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#order-groups-tabs",
+                "query": "if is_inter",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -141,12 +141,12 @@
               "title": "notebook-navigator"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 287.5,
-    "collapsed": true
+    "width": 287.5
   },
   "right": {
     "id": "973606ff262c9293",
@@ -276,19 +276,29 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "70ccdcc682095e33",
+  "active": "536fb88d16f7d477",
   "lastOpenFiles": [
-    "site/assets/images/門市助理-後台-門市管理-角色與權限-優惠券01.png",
-    "site/assets/images/門市助理-前台-會員資訊-綁定門市推薦人01.png",
-    "site/assets/images/POS硬體設備展示圖.png",
-    "site/assets/images/門市助理-後台-設定-功能設定-門市業績報表01.png",
-    "site/assets/images/門市助理-前台-會員查詢-建立會員01.png",
-    "site/assets/images/門市助理-前台-會員資訊-導購轉化-推薦商品01.png",
-    "site/assets/images/門市助理-前台-會員資訊-畫面總覽02.png",
-    "site/assets/images/門市助理-後台-門市管理-角色與權限-綁定門市推薦人01.png",
-    "site/assets/images/門市助理-後台-門市管理-角色與權限-會員基本資料01.png",
-    "site/assets/images/門市助理-後台-門市管理-角色與權限-會員備註01.png",
-    "site/assets/images/門市助理-後台-設定-功能設定-門市標籤01.png",
+    "site/ec/payments-and-logistics/設定 Google Pay™/index.html",
+    "site/ec/payments-and-logistics/設定 Google Pay™",
+    "site/ec/orders/如何將訂單從準備出貨調整回未出貨狀態/index.html",
+    "site/ec/orders/如何將訂單從準備出貨調整回未出貨狀態",
+    "site/ec/payments-and-logistics/設定街口支付/index.html",
+    "site/ec/payments-and-logistics/設定街口支付",
+    "site/ec/products/批次修改商品描述與配送設定/index.html",
+    "site/ec/products/批次修改商品描述與配送設定",
+    "site/ec/integrations/串接美安通路/index.html",
+    "site/ec/integrations/串接美安通路",
+    "site/ec/orders/提供顧客付款連結/index.html",
+    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
+    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
+    "site/assets/images/POS-前台-登入頁面01.png",
+    "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
+    "site/assets/images/發票-混稅發票02.png",
+    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
+    "site/assets/images/POS-前台-結帳-子機綁定機制02.png",
+    "site/assets/images/ec-第三方整合-mbm-目錄-更新.png",
+    "site/assets/images/POS-後台-互動遊戲-建立遊戲01.png",
+    "site/assets/images/EC-後台-分潤-門市取貨店員分潤-畫面總覽01.png",
     "docs/pos/store/設定前台自動登出時間.md",
     "docs/pos/store/續購與加購方案.md",
     "docs/pos/store/安全性設定.md",
@@ -296,9 +306,7 @@
     "docs/pos/store/公告系統.md",
     "docs/pos/store/人員登入.md",
     "docs/pos/store/POS 門市取貨店員分潤.md",
-    "docs/pos/store",
     "docs/pos/software/驅動程式.md",
-    "docs/pos/software",
     "docs/pos/orders_ann/門市取貨訂單(入庫取貨).md",
     "docs/pos/orders_ann/管理一般訂單.md",
     "docs/pos/hardware/台新有線刷卡機.md",
@@ -307,22 +315,14 @@
     "docs/pos/check/訪客結帳.md",
     "docs/pos/check/payment-method/多付款方式.md",
     "docs/pos/check/payment-method/index.md",
-    "docs/pos/check/payment-method",
     "docs/ec/payments-and-logistics/建立門市.md",
     "docs/ec/payments-and-logistics/store-pickup/開啟門市取貨服務.md",
     "docs/ec/payments-and-logistics/store-pickup/門市取貨訂單出貨.md",
     "docs/ec/payments-and-logistics/store-pickup/index.md",
-    "docs/ec/payments-and-logistics/store-pickup",
     "docs/ec/app-market/storepal/查看業績.md",
     "docs/ec/app-market/storepal/會員身份識別.md",
     "docs/ec/app-market/storepal/會員數據智庫.md",
     "docs/ec/app-market/storepal/搜尋與建立會員.md",
-    "docs/ec/app-market/storepal/導購轉化.md",
-    "docs/ec/app-market/storepal",
-    "site/ec/orders/訂單管理介面說明/index.html",
-    "site/ec/orders/訂單管理介面說明",
-    "site/ec/orders/編輯訂單內容/index.html",
-    "site/ec/orders/編輯訂單內容",
-    "site/ec/integrations/fb/設定 Facebook 快速登入/index.html"
+    "docs/ec/app-market/storepal/導購轉化.md"
   ]
 }
