@@ -966,7 +966,7 @@ targets.include = [
 [project.plugins.autorefs]
 # Optional: Set how link titles are generated
 # options: "auto" (default), "true", "false", or "external"
-#link_titles = "auto"
+link_titles = "auto"
 
 # Optional: Prevent stripping of HTML tags from titles
 #strip_title_tags = false
