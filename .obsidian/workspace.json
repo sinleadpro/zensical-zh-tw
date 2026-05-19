@@ -41,7 +41,7 @@
       {
         "id": "10f9d93c6521323e",
         "type": "tabs",
-        "dimension": 35.97475455820477,
+        "dimension": 34.7124824684432,
         "children": [
           {
             "id": "2c27b3aecd22969c",
@@ -49,12 +49,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=2678",
-                "title": "黑貓快速到店 – 操作出貨 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=63",
+                "title": "宅配通 : 操作出貨 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "黑貓快速到店 – 操作出貨 - CYBERBIZ 一般版教學文件"
+              "title": "宅配通 : 操作出貨 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -62,7 +62,7 @@
       {
         "id": "2c57acc736defe7a",
         "type": "tabs",
-        "dimension": 33.80084151472651,
+        "dimension": 35.06311360448808,
         "children": [
           {
             "id": "70ccdcc682095e33",
@@ -70,12 +70,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=8844",
-                "title": "黑貓快速到店：操作出貨",
+                "url": "https://www.cyberbiz.io/support/?p=975",
+                "title": "宅配通 : 操作出貨",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "黑貓快速到店：操作出貨"
+              "title": "宅配通 : 操作出貨"
             }
           }
         ]
@@ -146,7 +146,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 287.5,
+    "collapsed": true
   },
   "right": {
     "id": "973606ff262c9293",
@@ -276,29 +277,30 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "536fb88d16f7d477",
+  "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "docs/ec/payments-and-logistics/設定與加印黑貓快速到店託運單.md~",
-    "site/ec/payments-and-logistics/設定與加印黑貓快速到店託運單.md~",
-    "site/ec/payments-and-logistics/設定 Google Pay™/index.html",
-    "site/ec/payments-and-logistics/設定 Google Pay™",
+    "site/assets/images/EC-訂單-所有訂單-下載宅配通託運單-hero.png",
+    "docs/assets/images/EC-訂單-所有訂單-下載宅配通託運單-hero.png",
+    "site/ec/payments-and-logistics/設定 LINE Pay/index.html",
+    "site/ec/payments-and-logistics/設定 LINE Pay",
+    "site/ec/orders/出貨狀態物流提示文字說明/index.html",
+    "site/ec/orders/出貨狀態物流提示文字說明",
+    "site/ec/payments-and-logistics/設定街口支付/index.html",
+    "site/ec/payments-and-logistics/設定街口支付",
+    "site/index.html",
+    "site/ec/products/get-started/使用商品管理介面管理商品/index.html",
+    "site/ec/products/get-started/使用商品管理介面管理商品",
     "site/ec/payments-and-logistics/北美站金流服務/index.html",
-    "site/ec/payments-and-logistics/北美站金流服務",
-    "site/ec/orders/編輯訂單內容/index.html",
-    "site/ec/orders/編輯訂單內容",
-    "site/ec/orders/如何搜尋與篩選訂單/index.html",
-    "site/ec/orders/如何搜尋與篩選訂單",
-    "site/ec/payments-and-logistics/index.html",
-    "site/assets/images/EC-金物流-黑貓快速到店託運單-單號使用紀錄.png",
-    "docs/assets/images/EC-金物流-黑貓快速到店託運單-單號使用紀錄.png",
-    "site/assets/images/EC-金物流-黑貓快速到店託運單-加印託運單.png",
-    "docs/assets/images/EC-金物流-黑貓快速到店託運單-加印託運單.png",
     "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
     "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
     "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
-    "site/assets/images/ec-第三方整合-mbm-目錄-更新.png",
     "site/assets/images/發票-混稅發票02.png",
+    "site/assets/images/POS-前台-結帳-子機綁定機制02.png",
+    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
     "site/assets/images/POS-前台-登入頁面01.png",
+    "site/assets/images/ec-第三方整合-mbm-目錄-更新.png",
+    "site/assets/images/ec-訂單-訂單報表匯出-篩選項目.png",
+    "docs/ec/orders/使用宅配通出貨.md",
     "docs/pos/store/設定前台自動登出時間.md",
     "docs/pos/store/續購與加購方案.md",
     "docs/pos/store/安全性設定.md",
@@ -322,7 +324,6 @@
     "docs/ec/app-market/storepal/查看業績.md",
     "docs/ec/app-market/storepal/會員身份識別.md",
     "docs/ec/app-market/storepal/會員數據智庫.md",
-    "docs/ec/app-market/storepal/搜尋與建立會員.md",
-    "docs/ec/app-market/storepal/導購轉化.md"
+    "docs/ec/app-market/storepal/搜尋與建立會員.md"
   ]
 }
