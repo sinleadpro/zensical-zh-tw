@@ -49,12 +49,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=63",
-                "title": "宅配通 : 操作出貨 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=384",
+                "title": "順豐宅配 : 操作出貨 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "宅配通 : 操作出貨 - CYBERBIZ 一般版教學文件"
+              "title": "順豐宅配 : 操作出貨 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -70,12 +70,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=975",
-                "title": "宅配通 : 操作出貨",
+                "url": "https://www.cyberbiz.io/support/?p=3760",
+                "title": "順豐宅配 : 操作出貨",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "宅配通 : 操作出貨"
+              "title": "順豐宅配 : 操作出貨"
             }
           }
         ]
@@ -279,6 +279,12 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
+    "docs/ec/payments-and-logistics/設定宅配通託運單.md~",
+    "site/ec/payments-and-logistics/設定順豐托運單/index.html",
+    "site/ec/payments-and-logistics/設定順豐托運單",
+    "docs/ec/payments-and-logistics/設定順豐托運單.md",
+    "site/assets/images/EC-金物流-宅配通託運單-單號使用紀錄.png",
+    "docs/assets/images/EC-金物流-宅配通託運單-單號使用紀錄.png",
     "site/ec/orders/使用順豐出貨.md~",
     "docs/ec/orders/使用順豐出貨.md~",
     "site/ec/orders/使用順豐出貨/index.html",
@@ -287,20 +293,15 @@
     "site/assets/images/EC-金物流-宅配通託運單-宅配通轉單紀錄.png",
     "docs/assets/images/EC-金物流-宅配通託運單-宅配通轉單紀錄.png",
     "site/ec/payments-and-logistics/設定宅配通託運單.md~",
-    "docs/ec/payments-and-logistics/設定宅配通託運單.md~",
     "site/assets/images/EC-金物流-宅配通託運單-宅配通逆物流.png",
     "docs/assets/images/EC-金物流-宅配通託運單-宅配通逆物流.png",
     "site/ec/payments-and-logistics/順豐海外物流/index.html",
     "site/ec/payments-and-logistics/順豐海外物流",
     "site/ec/orders/使用黑貓宅配出貨/index.html",
-    "site/ec/orders/使用黑貓宅配出貨",
-    "site/ec/orders/提供顧客付款連結/index.html",
     "site/assets/images/EC-金物流-宅配通託運單-加印託運單.png",
     "docs/assets/images/EC-金物流-宅配通託運單-加印託運單.png",
     "site/assets/images/ EC-金物流-宅配通託運單-加印託運單.png",
     "docs/assets/images/ EC-金物流-宅配通託運單-加印託運單.png",
-    "site/assets/images/ec-第三方整合-cyb-webhook-貼上lineoa.gif",
-    "site/assets/images/ec-管理中心-儲值中心-CYBER幣購買視窗-發票資訊-自然人憑證.png",
     "reference/prompts/doc-generator.md",
     "docs/ec/orders/使用宅配通出貨.md",
     "docs/ec/payments-and-logistics/設定宅配通託運單.md",
@@ -323,7 +324,6 @@
     "docs/pos/check/payment-method/index.md",
     "docs/ec/payments-and-logistics/建立門市.md",
     "docs/ec/payments-and-logistics/store-pickup/開啟門市取貨服務.md",
-    "docs/ec/payments-and-logistics/store-pickup/門市取貨訂單出貨.md",
-    "docs/ec/payments-and-logistics/store-pickup/index.md"
+    "docs/ec/payments-and-logistics/store-pickup/門市取貨訂單出貨.md"
   ]
 }
