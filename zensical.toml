@@ -228,6 +228,7 @@ copyright = """
             {"iPASS MONEY 一卡通" = "ec/payments-and-logistics/設定 iPASS MONEY 一卡通.md"},
             {"黑貓託運單" = "ec/payments-and-logistics/設定與加印黑貓託運單.md"},
             {"黑貓快速到店託運單" = "ec/payments-and-logistics/設定與加印黑貓快速到店託運單.md"},
+            {"宅配通託運單" = "ec/payments-and-logistics/設定宅配通託運單.md"},
             {"宅配貨到付款（黑貓/宅配通/新竹物流）" = "ec/payments-and-logistics/宅配貨到付款（黑貓宅配通新竹物流）.md" },
             {"宅配貨到不付款（黑貓/宅配通/新竹物流）" = "ec/payments-and-logistics/宅配貨到不付款（黑貓宅配通新竹物流）.md" },
             {"串接全家超商B2C冷凍物流" = "ec/payments-and-logistics/串接全家超商B2C冷凍物流.md" },
