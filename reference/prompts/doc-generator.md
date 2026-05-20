@@ -468,17 +468,17 @@ module: orders
 
 ```yaml
 文件 A:
-  category: pelican
+  category: 
   module: orders
   頁面: https://demo005.cyberbiz.co/admin/orders_v2
-  主題: 使用宅配通出貨
+  主題: 使用順豐出貨
   檔案路徑: docs/orders/use-pelican-shipping.md
 
 文件 B:
-  category: pelican-management
+  category: 
   module: payments-and-logistics
-  頁面: https://demo005.cyberbiz.co/admin/shipping_notes/pelican
-  主題: 設定宅配通託運單
+  頁面: https://demo005.cyberbiz.co/admin/shipping_notes/sf
+  主題: 設定順豐託運單
   檔案路徑: docs/payments-and-logistics/configure-pelican-waybill.md
 
 文件 C:
