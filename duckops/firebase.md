@@ -636,8 +636,8 @@ Prompt 設計重點
                   
   ## 本次任務變數
                                                                    
-  * **頁面**:{{https://demo005.cyberbiz.co/admin/shipping_notes/ezcat_cvs}} 
-  * **主題**:{{}}                                    
+  * **頁面**:{{https://demo005.cyberbiz.co/admin/orders_v2}}, {{https://demo005.cyberbiz.co/admin/shipping_notes/pelican}}
+  * **主題**:{{使用宅配通出貨}}                                    
   * **參考既有文件**:{{若有,貼上該頁面的現有                       
   markdown,新內容需與既有風格一致}}                                
   * **特別要求**:{{例如:只補某個段落 / 重寫整篇 / 只產生對照表 /   

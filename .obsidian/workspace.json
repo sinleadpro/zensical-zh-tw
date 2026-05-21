@@ -41,7 +41,7 @@
       {
         "id": "10f9d93c6521323e",
         "type": "tabs",
-        "dimension": 35.97475455820477,
+        "dimension": 34.7124824684432,
         "children": [
           {
             "id": "2c27b3aecd22969c",
@@ -49,12 +49,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=2678",
-                "title": "黑貓快速到店 – 操作出貨 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=384",
+                "title": "順豐宅配 : 操作出貨 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "黑貓快速到店 – 操作出貨 - CYBERBIZ 一般版教學文件"
+              "title": "順豐宅配 : 操作出貨 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -62,7 +62,7 @@
       {
         "id": "2c57acc736defe7a",
         "type": "tabs",
-        "dimension": 33.80084151472651,
+        "dimension": 35.06311360448808,
         "children": [
           {
             "id": "70ccdcc682095e33",
@@ -70,12 +70,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=8844",
-                "title": "黑貓快速到店：操作出貨",
+                "url": "https://www.cyberbiz.io/support/?p=3760",
+                "title": "順豐宅配 : 操作出貨",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "黑貓快速到店：操作出貨"
+              "title": "順豐宅配 : 操作出貨"
             }
           }
         ]
@@ -146,7 +146,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 287.5
+    "width": 287.5,
+    "collapsed": true
   },
   "right": {
     "id": "973606ff262c9293",
@@ -276,29 +277,36 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "536fb88d16f7d477",
+  "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/ec/payments-and-logistics/設定 Google Pay™/index.html",
-    "site/ec/payments-and-logistics/設定 Google Pay™",
-    "site/ec/orders/如何將訂單從準備出貨調整回未出貨狀態/index.html",
-    "site/ec/orders/如何將訂單從準備出貨調整回未出貨狀態",
-    "site/ec/payments-and-logistics/設定街口支付/index.html",
-    "site/ec/payments-and-logistics/設定街口支付",
-    "site/ec/products/批次修改商品描述與配送設定/index.html",
-    "site/ec/products/批次修改商品描述與配送設定",
-    "site/ec/integrations/串接美安通路/index.html",
-    "site/ec/integrations/串接美安通路",
-    "site/ec/orders/提供顧客付款連結/index.html",
-    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
-    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
-    "site/assets/images/POS-前台-登入頁面01.png",
-    "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
-    "site/assets/images/發票-混稅發票02.png",
-    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
-    "site/assets/images/POS-前台-結帳-子機綁定機制02.png",
-    "site/assets/images/ec-第三方整合-mbm-目錄-更新.png",
-    "site/assets/images/POS-後台-互動遊戲-建立遊戲01.png",
-    "site/assets/images/EC-後台-分潤-門市取貨店員分潤-畫面總覽01.png",
+    "docs/ec/orders/使用順豐出貨.md",
+    "site/ec/orders/使用順豐出貨.md~",
+    "docs/ec/orders/使用順豐出貨.md~",
+    "site/assets/images/EC-訂單-所有訂單-下載順豐託運單-確認彈窗.png",
+    "docs/assets/images/EC-訂單-所有訂單-下載順豐託運單-確認彈窗.png",
+    "site/assets/images/EC-金物流-順豐託運單-單號使用紀錄.png",
+    "docs/assets/images/EC-金物流-順豐託運單-單號使用紀錄.png",
+    "site/assets/images/EC-金物流-順豐託運單-順豐設定.png",
+    "docs/assets/images/EC-金物流-順豐託運單-順豐設定.png",
+    "docs/ec/payments-and-logistics/設定順豐託運單.md~",
+    "site/ec/products/排除商品上傳至第三方平台/index.html",
+    "site/ec/products/排除商品上傳至第三方平台",
+    "site/storepal/index.html",
+    "site/storepal",
+    "site/ec/payments-and-logistics/設定全家冷凍物流 B2C/index.html",
+    "site/ec/payments-and-logistics/設定全家冷凍物流 B2C",
+    "site/ec/orders/設定未付款提醒/index.html",
+    "docs/ec/payments-and-logistics/設定順豐託運單.md",
+    "site/assets/images/PCHOME-後台-管理我的網址-新增CNAME01.png",
+    "site/assets/images/EC-所有訂單-篩選時間-舊版.png",
+    "site/assets/images/ec-第三方整合-fbe-串接fb-ig商店-商務管理工具首頁.png",
+    "site/assets/images/POS-前台-其他功能-小結關帳-完成關帳01.png",
+    "docs/ec/orders/設定順豐海外物流.md",
+    "docs/ec/payments-and-logistics/設定順豐托運單.md",
+    "reference/prompts/doc-generator.md",
+    "docs/ec/orders/使用宅配通出貨.md",
+    "docs/ec/payments-and-logistics/設定宅配通託運單.md",
+    "docs/ec/payments-and-logistics/設定與加印黑貓託運單.md",
     "docs/pos/store/設定前台自動登出時間.md",
     "docs/pos/store/續購與加購方案.md",
     "docs/pos/store/安全性設定.md",
@@ -315,14 +323,6 @@
     "docs/pos/check/訪客結帳.md",
     "docs/pos/check/payment-method/多付款方式.md",
     "docs/pos/check/payment-method/index.md",
-    "docs/ec/payments-and-logistics/建立門市.md",
-    "docs/ec/payments-and-logistics/store-pickup/開啟門市取貨服務.md",
-    "docs/ec/payments-and-logistics/store-pickup/門市取貨訂單出貨.md",
-    "docs/ec/payments-and-logistics/store-pickup/index.md",
-    "docs/ec/app-market/storepal/查看業績.md",
-    "docs/ec/app-market/storepal/會員身份識別.md",
-    "docs/ec/app-market/storepal/會員數據智庫.md",
-    "docs/ec/app-market/storepal/搜尋與建立會員.md",
-    "docs/ec/app-market/storepal/導購轉化.md"
+    "docs/ec/payments-and-logistics/建立門市.md"
   ]
 }
