@@ -788,9 +788,3 @@
 /**/
 
 
-/* FAQ Heading Hiding
-
-/* 1. Hide the ghost header in the content area */
-.hidden-header {
-    display: none !important;
-}
