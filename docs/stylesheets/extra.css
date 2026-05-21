@@ -611,6 +611,183 @@
 }
 
 
+
+/* /* ========================================================================== */
+/*    Default Amonition Border Color */
+/*    Standalone Low-Noise Admonition Counterparts (-clean) */
+/*    Colored Border + Muted Minimalist Content Theme */
+/*    ========================================================================== */ */
+/**/
+/* /* 1. Note Clean (note-clean) */ */
+/* .md-typeset .admonition.note-clean, .md-typeset details.note-clean { */
+/*     border-style: solid; */
+/*     border-color: #448aff; /* Native Note Blue */ */
+/*     background-color: transparent; */
+/*     border-left-width: 4px; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; */
+/* } */
+/* .md-typeset .note-clean > .admonition-title, .md-typeset .note-clean > summary { */
+/*     background-color: transparent; font-weight: 700; color: #475569; /* Muted Slate Text */ */
+/* } */
+/* .md-typeset .note-clean > .admonition-title::before, .md-typeset .note-clean > summary::before { */
+/*     background-color: #64748b; mask-image: var(--md-admonition-icon--note); /* Muted Slate Icon */ */
+/* } */
+/**/
+/* /* 2. Abstract Clean (abstract-clean) */ */
+/* .md-typeset .admonition.abstract-clean, .md-typeset details.abstract-clean { */
+/*     border-style: solid; */
+/*     border-color: #00b0ff; /* Native Light Blue */ */
+/*     background-color: transparent; */
+/*     border-left-width: 4px; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; */
+/* } */
+/* .md-typeset .abstract-clean > .admonition-title, .md-typeset .abstract-clean > summary { */
+/*     background-color: transparent; font-weight: 700; color: #475569; */
+/* } */
+/* .md-typeset .abstract-clean > .admonition-title::before, .md-typeset .abstract-clean > summary::before { */
+/*     background-color: #64748b; mask-image: var(--md-admonition-icon--abstract); */
+/* } */
+/**/
+/* /* 3. Info Clean (info-clean) */ */
+/* .md-typeset .admonition.info-clean, .md-typeset details.info-clean { */
+/*     border-style: solid; */
+/*     border-color: #00b8d4; /* Native Cyan */ */
+/*     background-color: transparent; */
+/*     border-left-width: 4px; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; */
+/* } */
+/* .md-typeset .info-clean > .admonition-title, .md-typeset .info-clean > summary { */
+/*     background-color: transparent; font-weight: 700; color: #475569; */
+/* } */
+/* .md-typeset .info-clean > .admonition-title::before, .md-typeset .info-clean > summary::before { */
+/*     background-color: #64748b; mask-image: var(--md-admonition-icon--info); */
+/* } */
+/**/
+/* /* 4. Tip Clean (tip-clean) */ */
+/* .md-typeset .admonition.tip-clean, .md-typeset details.tip-clean { */
+/*     border-style: solid; */
+/*     border-color: #00bfa5; /* Native Teal */ */
+/*     background-color: transparent; */
+/*     border-left-width: 4px; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; */
+/* } */
+/* .md-typeset .tip-clean > .admonition-title, .md-typeset .tip-clean > summary { */
+/*     background-color: transparent; font-weight: 700; color: #475569; */
+/* } */
+/* .md-typeset .tip-clean > .admonition-title::before, .md-typeset .tip-clean > summary::before { */
+/*     background-color: #64748b; mask-image: var(--md-admonition-icon--tip); */
+/* } */
+/**/
+/* /* 5. Success Clean (success-clean) */ */
+/* .md-typeset .admonition.success-clean, .md-typeset details.success-clean { */
+/*     border-style: solid; */
+/*     border-color: #00e676; /* Native Green */ */
+/*     background-color: transparent; */
+/*     border-left-width: 4px; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; */
+/* } */
+/* .md-typeset .success-clean > .admonition-title, .md-typeset .success-clean > summary { */
+/*     background-color: transparent; font-weight: 700; color: #475569; */
+/* } */
+/* .md-typeset .success-clean > .admonition-title::before, .md-typeset .success-clean > summary::before { */
+/*     background-color: #64748b; mask-image: var(--md-admonition-icon--success); */
+/* } */
+/**/
+/* /* 6. Question Clean (question-clean) */ */
+/* .md-typeset .admonition.question-clean, .md-typeset details.question-clean { */
+/*     border-style: solid; */
+/*     border-color: #64dd17; /* Native Light Green */ */
+/*     background-color: transparent; */
+/*     border-left-width: 4px; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; */
+/* } */
+/* .md-typeset .question-clean > .admonition-title, .md-typeset .question-clean > summary { */
+/*     background-color: transparent; font-weight: 700; color: #475569; */
+/* } */
+/* .md-typeset .question-clean > .admonition-title::before, .md-typeset .question-clean > summary::before { */
+/*     background-color: #64748b; mask-image: var(--md-admonition-icon--question); */
+/* } */
+/**/
+/* /* 7. Warning Clean (warning-clean) */ */
+/* .md-typeset .admonition.warning-clean, .md-typeset details.warning-clean { */
+/*     border-style: solid; */
+/*     border-color: #ff9100; /* Native Orange */ */
+/*     background-color: transparent; */
+/*     border-left-width: 4px; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; */
+/* } */
+/* .md-typeset .warning-clean > .admonition-title, .md-typeset .warning-clean > summary { */
+/*     background-color: transparent; font-weight: 700; color: #475569; */
+/* } */
+/* .md-typeset .warning-clean > .admonition-title::before, .md-typeset .warning-clean > summary::before { */
+/*     background-color: #64748b; mask-image: var(--md-admonition-icon--warning); */
+/* } */
+/**/
+/* /* 8. Failure Clean (failure-clean) */ */
+/* .md-typeset .admonition.failure-clean, .md-typeset details.failure-clean { */
+/*     border-style: solid; */
+/*     border-color: #ff5252; /* Native Red-Orange */ */
+/*     background-color: transparent; */
+/*     border-left-width: 4px; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; */
+/* } */
+/* .md-typeset .failure-clean > .admonition-title, .md-typeset .failure-clean > summary { */
+/*     background-color: transparent; font-weight: 700; color: #475569; */
+/* } */
+/* .md-typeset .failure-clean > .admonition-title::before, .md-typeset .failure-clean > summary::before { */
+/*     background-color: #64748b; mask-image: var(--md-admonition-icon--failure); */
+/* } */
+/**/
+/* /* 9. Danger Clean (danger-clean) */ */
+/* .md-typeset .admonition.danger-clean, .md-typeset details.danger-clean { */
+/*     border-style: solid; */
+/*     border-color: #ff1744; /* Native Deep Red */ */
+/*     background-color: transparent; */
+/*     border-left-width: 4px; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; */
+/* } */
+/* .md-typeset .danger-clean > .admonition-title, .md-typeset .danger-clean > summary { */
+/*     background-color: transparent; font-weight: 700; color: #475569; */
+/* } */
+/* .md-typeset .danger-clean > .admonition-title::before, .md-typeset .danger-clean > summary::before { */
+/*     background-color: #64748b; mask-image: var(--md-admonition-icon--danger); */
+/* } */
+/**/
+/* /* 10. Bug Clean (bug-clean) */ */
+/* .md-typeset .admonition.bug-clean, .md-typeset details.bug-clean { */
+/*     border-style: solid; */
+/*     border-color: #f50057; /* Native Pink */ */
+/*     background-color: transparent; */
+/*     border-left-width: 4px; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; */
+/* } */
+/* .md-typeset .bug-clean > .admonition-title, .md-typeset .bug-clean > summary { */
+/*     background-color: transparent; font-weight: 700; color: #475569; */
+/* } */
+/* .md-typeset .bug-clean > .admonition-title::before, .md-typeset .bug-clean > summary::before { */
+/*     background-color: #64748b; mask-image: var(--md-admonition-icon--bug); */
+/* } */
+/**/
+/* /* 11. Example Clean (example-clean) */ */
+/* .md-typeset .admonition.example-clean, .md-typeset details.example-clean { */
+/*     border-style: solid; */
+/*     border-color: #7c4dff; /* Native Purple */ */
+/*     background-color: transparent; */
+/*     border-left-width: 4px; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; */
+/* } */
+/* .md-typeset .example-clean > .admonition-title, .md-typeset .example-clean > summary { */
+/*     background-color: transparent; font-weight: 700; color: #475569; */
+/* } */
+/* .md-typeset .example-clean > .admonition-title::before, .md-typeset .example-clean > summary::before { */
+/*     background-color: #64748b; mask-image: var(--md-admonition-icon--example); */
+/* } */
+/**/
+/* /* 12. Quote Clean (quote-clean) */ */
+/* .md-typeset .admonition.quote-clean, .md-typeset details.quote-clean { */
+/*     border-style: solid; */
+/*     border-color: #9e9e9e; /* Native Dark Grey */ */
+/*     background-color: transparent; */
+/*     border-left-width: 4px; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; */
+/* } */
+/* .md-typeset .quote-clean > .admonition-title, .md-typeset .quote-clean > summary { */
+/*     background-color: transparent; font-weight: 700; color: #475569; */
+/* } */
+/* .md-typeset .quote-clean > .admonition-title::before, .md-typeset .quote-clean > summary::before { */
+/*     background-color: #64748b; mask-image: var(--md-admonition-icon--quote); */
+/* } */
+/**/
+
+
 /* FAQ Heading Hiding
 
 /* 1. Hide the ghost header in the content area */
