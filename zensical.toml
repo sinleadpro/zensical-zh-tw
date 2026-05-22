@@ -97,6 +97,7 @@ copyright = """
             ]},
             {"參考資料" = [
                 {"訂單篩選條件與狀態" = "ec/orders/references/訂單篩選條件與狀態對照表.md"},
+                {"新竹物流運費" = "ec/orders/references/新竹物流配送尺寸與運費對照表.md"},
                 {"列表操作功能" = "ec/orders/references/訂單列表操作功能說明.md"},
                 {"報表可用欄位" = "ec/orders/references/訂單報表可用欄位.md"}
             ]},
