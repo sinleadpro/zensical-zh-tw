@@ -36,12 +36,14 @@ devices:
 ui_components: []
 paths: []
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=122
+  - https://www.cyberbiz.io/support/?p=977
 permalink: ""
 comments: ""
 search:
   exclude: ""
-icon: ""
+icon: lucide/warehouse
 hide:
 ---
 完成 B2C 通路設定後，於訂單列表批次下載託運單、產生託運單號，並將集中包裝的貨件寄至超商物流中心，再由物流中心分發至消費者指定門市。
@@ -49,7 +51,7 @@ hide:
 
 { .doc-badge }
 
-{ .hero-page }
+![下載B2C託運單](../../assets/images/EC-訂單-所有訂單-下載B2C託運單-hero.png){ .hero-page }
 
 ## 超商大宗寄倉 B2C 說明 { #intro-cvs-b2c-shipping }
 
@@ -68,8 +70,6 @@ hide:
 - [x] **CYBER 幣餘額充足**：一般版 商家需確認餘額足以扣除運費，詳見 [計費方式](../payments-and-logistics/references/cvs-b2c-plans.md#reference-cvs-b2c-plans-billing){
 data-preview }。
 
----
-
 ## 操作步驟 { #operate-cvs-b2c-shipping }
 
 ### 下載託運單 { #operate-cvs-b2c-shipping-download }
@@ -85,6 +85,8 @@ data-preview }。
 !!! warning "下載中請勿離開頁面"
     系統在背景產生託運單號時若中途關閉視窗，**部分訂單可能已變更為「已出貨」但託運單未下載**，需透過 [補印託運單](#operate-cvs-b2c-shipping-reprint){ data-preview } 重新取得。
 
+---
+
 ### 託運文件處理 { #operate-cvs-b2c-shipping-documents }
 
 下載的壓縮檔內含以下文件，請依用途妥善處理：
@@ -97,8 +99,10 @@ data-preview }。
 | 揀貨訂單 | 商家內部揀貨核對使用 |
 
 !!! tip "列印技巧"
-    * 必須使用**雷射印表機**搭配 **2x3 規格貼紙**列印託運單，避免條碼模糊導致無法判讀。
-    * 將託運標籤貼平於外包裝**左上角**，條碼與 QR Code 不可凹折或被膠帶覆蓋。
+    * 必須使用 **雷射印表機** 搭配 **2x3 規格貼紙** 列印託運單，避免條碼模糊導致無法判讀。
+    * 將託運標籤貼平於外包裝 **左上角**，條碼與 QR Code 不可凹折或被膠帶覆蓋。
+
+---
 
 ### 交寄物流中心 { #operate-cvs-b2c-shipping-deliver }
 
