@@ -77,6 +77,7 @@ copyright = """
             {"黑貓快速到店付款" = "ec/orders/設定黑貓快速到店付款方式.md"},
             {"宅配通出貨" = "ec/orders/使用宅配通出貨.md"},
             {"順豐出貨" = "ec/orders/使用順豐出貨.md"},
+            {"新竹物流出貨" = "ec/orders/使用新竹物流出貨.md"},
             {"開啟會員退貨申請功能" = "ec/orders/開啟會員退貨申請功能.md"},
             {"訂單退貨流程" = "ec/orders/訂單退貨流程.md"},
             {"訂單退款流程" = "ec/orders/訂單退款流程.md"},
@@ -96,6 +97,7 @@ copyright = """
             ]},
             {"參考資料" = [
                 {"訂單篩選條件與狀態" = "ec/orders/references/訂單篩選條件與狀態對照表.md"},
+                {"新竹物流運費" = "ec/orders/references/新竹物流配送尺寸與運費對照表.md"},
                 {"列表操作功能" = "ec/orders/references/訂單列表操作功能說明.md"},
                 {"報表可用欄位" = "ec/orders/references/訂單報表可用欄位.md"}
             ]},
@@ -231,6 +233,7 @@ copyright = """
             {"黑貓快速到店託運單" = "ec/payments-and-logistics/設定與加印黑貓快速到店託運單.md"},
             {"宅配通託運單" = "ec/payments-and-logistics/設定宅配通託運單.md"},
             {"順豐託運單" = "ec/payments-and-logistics/設定順豐託運單.md"},
+            {"新竹物流託運單" = "ec/payments-and-logistics/設定新竹物流託運單.md"},
             {"宅配貨到付款（黑貓/宅配通/新竹物流）" = "ec/payments-and-logistics/宅配貨到付款（黑貓宅配通新竹物流）.md" },
             {"宅配貨到不付款（黑貓/宅配通/新竹物流）" = "ec/payments-and-logistics/宅配貨到不付款（黑貓宅配通新竹物流）.md" },
             {"串接全家超商B2C冷凍物流" = "ec/payments-and-logistics/串接全家超商B2C冷凍物流.md" },

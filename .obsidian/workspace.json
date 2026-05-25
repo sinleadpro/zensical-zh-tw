@@ -49,12 +49,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/helpcenter/?p=384",
-                "title": "順豐宅配 : 操作出貨 - CYBERBIZ 一般版教學文件",
+                "url": "https://www.cyberbiz.io/helpcenter/?p=10646",
+                "title": "新竹物流：操作出貨 - CYBERBIZ 一般版教學文件",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "順豐宅配 : 操作出貨 - CYBERBIZ 一般版教學文件"
+              "title": "新竹物流：操作出貨 - CYBERBIZ 一般版教學文件"
             }
           }
         ]
@@ -70,12 +70,12 @@
             "state": {
               "type": "webviewer",
               "state": {
-                "url": "https://www.cyberbiz.io/support/?p=3760",
-                "title": "順豐宅配 : 操作出貨",
+                "url": "https://www.cyberbiz.io/support/?p=46278",
+                "title": "新竹物流：操作出貨",
                 "mode": "webview"
               },
               "icon": "globe-2",
-              "title": "順豐宅配 : 操作出貨"
+              "title": "新竹物流：操作出貨"
             }
           }
         ]
@@ -279,27 +279,31 @@
   },
   "active": "70ccdcc682095e33",
   "lastOpenFiles": [
-    "site/resources/index.html",
-    "site/ec/payments-and-logistics/東南亞站金流服務/index.html",
-    "site/ec/payments-and-logistics/東南亞站金流服務",
-    "site/ec/payments-and-logistics/DHL 跨境物流/index.html",
-    "site/ec/payments-and-logistics/DHL 跨境物流",
-    "site/ec/orders/如何搜尋與篩選訂單/index.html",
-    "site/ec/orders/如何搜尋與篩選訂單",
-    "site/ec/orders/使用順豐出貨/index.html",
-    "site/ec/orders/使用順豐出貨",
-    "site/ec/payments-and-logistics/設定宅配通託運單/index.html",
-    "site/ec/payments-and-logistics/設定宅配通託運單",
-    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
-    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
+    "site/ec/orders/熱感列印超商托運單/index.html",
+    "site/ec/orders/熱感列印超商托運單",
+    "site/ec/orders/使用黑貓宅配出貨/index.html",
+    "site/ec/orders/使用黑貓宅配出貨",
+    "site/ec/payments-and-logistics/澳洲落地版金流服務/index.html",
+    "site/ec/payments-and-logistics/澳洲落地版金流服務",
+    "site/ec/payments-and-logistics/設定 PayPal/index.html",
+    "site/ec/payments-and-logistics/設定 PayPal",
+    "site/wms/帳號管理/index.html",
+    "site/wms/帳號管理",
+    "site/ec/orders/使用宅配通出貨/index.html",
     "site/assets/images/EC-後台-訂單-門市訂單-部分出貨01.png",
-    "site/assets/images/發票-混稅發票02.png",
-    "site/assets/images/POS-前台-登入頁面01.png",
-    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
     "site/assets/images/POS-前台-結帳-子機綁定機制02.png",
-    "site/assets/images/ec-maa-廣告活動列表-廣告名稱.png",
+    "site/assets/images/發票-混稅發票02.png",
+    "site/assets/images/ec-會員-訂單查詢頁-物流提示文字.png",
+    "site/assets/images/ec-會員-所有會員-automation會員分群.gif",
+    "site/assets/images/POS-前台-登入頁面01.png",
+    "site/assets/images/ec-網站外觀-拖拉版型-404頁.png",
+    "site/assets/images/EC-後台-分潤-門市取貨店員分潤-畫面總覽01.png",
     "site/assets/images/ec-第三方整合-mbm-目錄-更新.png",
-    "site/assets/images/ec-訂單-所有訂單.png",
+    "site/assets/images/POS-後台-互動遊戲-建立遊戲01.png",
+    "docs/ec/orders/references/新竹物流配送尺寸與運費對照表.md",
+    "docs/ec/orders/使用新竹物流出貨.md",
+    "docs/ec/payments-and-logistics/設定新竹物流託運單.md",
+    "docs/ec/payments-and-logistics/使用新竹物流出貨.md",
     "docs/ec/orders/使用順豐出貨.md",
     "docs/ec/payments-and-logistics/設定順豐託運單.md",
     "docs/ec/orders/設定順豐海外物流.md",
@@ -320,10 +324,6 @@
     "docs/pos/orders_ann/管理一般訂單.md",
     "docs/pos/hardware/台新有線刷卡機.md",
     "docs/pos/hardware/index.md",
-    "docs/pos/hardware/MYPAY 無線刷卡機.md",
-    "docs/pos/check/訪客結帳.md",
-    "docs/pos/check/payment-method/多付款方式.md",
-    "docs/pos/check/payment-method/index.md",
-    "docs/ec/payments-and-logistics/建立門市.md"
+    "docs/pos/hardware/MYPAY 無線刷卡機.md"
   ]
 }
