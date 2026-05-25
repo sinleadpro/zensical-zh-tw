@@ -166,7 +166,7 @@ FAQ 格式範例：
 ```markdown
 ## 常見問題 { #faq-{category} }
 ??? quote "{問題文字}"
-    #### {問題文字} [](){ #faq-{category}-{keyword} } { .hidden-header }
+    [](){ #faq-{category}-{keyword} }
     {答案內容}
     - {列表項目}
     - {列表項目}
@@ -180,8 +180,6 @@ FAQ 格式範例：
 | `{問題文字}` | 問題內容 | `下載沒反應 / 無法下載託運單` |
 
 **格式規則：**
-- `??? quote` 與 `####` 之間**無空行**
-- `####` 與首行答案之間**無空行**
 - 答案中的列表前需空行
 - 錨點 slug 前綴為 `faq-{category}`
 - 答案中專有名詞加 `{ data-preview }` 連結
@@ -561,20 +559,21 @@ module: orders
   category: 
   module: orders
   頁面: https://demo005.cyberbiz.co/admin/orders_v2
-  主題: 使用新竹物流出貨
+  主題: 使用超商大宗寄倉（B2C）出貨
   檔案路徑: 
 
 文件 B:
   category: 
   module: payments-and-logistics
-  頁面: https://demo005.cyberbiz.co/admin/shipping_notes/hct
-  主題: 設定新竹物流託運單
+  頁面: https://demo005.cyberbiz.co/admin/logistics/cvs
+  主題: 設定超商大宗寄倉 B2C
   檔案路徑: 
 
 文件 C:
   category: 
-  module: payments-and-logistics/references
-  主題: 配送商品尺寸與運費對照表
+  module:
+  頁面: if applicable where appropriate
+  主題: if applicable where appropriate 
   檔案路徑: 
 ```
 
