@@ -124,7 +124,7 @@
 - 指定天數內不允許重複發送：若設定天數為2天，48小時內收過此流程EDM的受眾將不會收到簡訊，每次排程觸發都會進行檢查。
 [[圖片說明：會員篩選]](https://www.cyberbiz.io/support/wp-content/uploads/Automation-功能介紹11.png)
 
-5. 完成【內容】的設定後，並點選右上方「開始流程」，確認花費的 CYBER 幣，並再次點選「確認」。
+5. 完成【內容】的設定後，並點選右上方「開始流程」，確認花費的 Cyber 幣，並再次點選「確認」。
 [[圖片說明：完成畫面]](https://www.cyberbiz.io/support/wp-content/uploads/Automation-功能介紹12.png)
 
 6. 確認狀態為『已啟用』，則內容無法再進行修改，
