@@ -4,7 +4,7 @@ description: ""
 created: 2026-05-25 21:46
 last_modified:
 lang: zh-TW
-type: tutorial
+type: reference
 status: ""
 author: Jase
 version: ""
@@ -45,15 +45,6 @@ icon: lucide/layers
 hide:
 ---
 
-{ .subtitle }
-
-{ .doc-badge }
-
-{ .hero-page }
-
-
-# 超商大宗寄倉 B2C 方案與計費對照
-
 各方案可開通哪些 B2C 通路，以及運費的扣款方式。供「設定超商大宗寄倉 B2C」（適用版本）與「使用超商大宗寄倉 B2C 出貨」（運費扣款提示）共用。
 { .subtitle }
 
@@ -66,7 +57,7 @@ CYBERBIZ 平台依商家「金物流串接方式」分為兩條開通路徑：
     | 方案 | 可開通通路 |
     | :-- | :-- |
     | 企業版 | 7-ELEVEN、全家、萊爾富 |
-    | PLUS 版（高手 PLUS、進階 PLUS、老闆 PLUS） | 7-ELEVEN、全家、萊爾富 |
+    | PLUS 版 | 7-ELEVEN、全家、萊爾富 |
     | 高手版、進階版 | 7-ELEVEN、全家、萊爾富 |
     | 其他方案 | 不適用，請洽客服升級 |
 
@@ -96,21 +87,4 @@ CYBERBIZ 平台依商家「金物流串接方式」分為兩條開通路徑：
     * 對帳單可於「管理中心 > 對帳中心」查詢當月累計運費。
     * 補印託運單（已下載過的訂單再次下載）**不會重複扣款**。
 
-## 後續操作
-
-<div class="grid cards" markdown>
-
-- :lucide-import:{ .lg }
-  [____]()
-  。
-
-- :lucide-ban:{ .lg }
-  [____]()
-  。
-
-</div>
-
-## 常見問題
-
-??? quote ""
 
