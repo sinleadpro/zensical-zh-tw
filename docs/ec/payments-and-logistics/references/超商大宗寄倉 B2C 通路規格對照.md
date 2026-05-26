@@ -4,7 +4,7 @@ description: ""
 created: 2026-05-25 21:42
 last_modified:
 lang: zh-TW
-type: tutorial
+type: reference
 status: ""
 author: Jase
 version: ""
@@ -44,14 +44,6 @@ search:
 icon: lucide/ruler
 hide:
 ---
-
-{ .subtitle }
-
-{ .doc-badge }
-
-{ .hero-page }
-
-# 超商大宗寄倉 B2C 通路規格對照
 
 各通路的重量 / 材積上限與申請時必填欄位差異。供「設定超商大宗寄倉 B2C」與「使用超商大宗寄倉 B2C 出貨」兩篇主文共同引用。
 { .subtitle }
@@ -97,26 +89,4 @@ hide:
     * 7-ELEVEN 因額外要求公司基本資料與商品類型驗證，必填欄位最多。
     * 全家冷凍因涉及冷鏈倉儲，需額外填寫倉庫資訊。
     * 欄位送出後將同步至各超商系統，請務必填寫正確。
-
----
-
-
-
-## 後續操作
-
-<div class="grid cards" markdown>
-
-- :lucide-import:{ .lg }
-  [____]()
-  。
-
-- :lucide-ban:{ .lg }
-  [____]()
-  。
-
-</div>
-
-## 常見問題
-
-??? quote ""
 
