@@ -558,8 +558,8 @@ module: orders
 文件 A:
   category: 
   module: orders
-  頁面: https://demo005.cyberbiz.co/admin/logistics/cvs, https://demo005.cyberbiz.co/admin/orders_v2
-  主題: 使用 7-11 C2C 退貨便
+  頁面: https://demo005.cyberbiz.co/admin/orders_v2, https://demo005.cyberbiz.co/admin/orders/52277961 {訂單詳情頁}
+  主題: 處理超商訂單部分出貨
   檔案路徑: 
 
 文件 B:

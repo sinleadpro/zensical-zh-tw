@@ -79,6 +79,7 @@ copyright = """
             {"順豐出貨" = "ec/orders/使用順豐出貨.md"},
             {"新竹物流出貨" = "ec/orders/使用新竹物流出貨.md"},
             {"超商大宗寄倉出貨" = "ec/orders/使用超商大宗寄倉（B2C）出貨.md"},
+            {"超商部分出貨" = "ec/orders/處理超商訂單部分出貨.md"},
             {"開啟會員退貨申請功能" = "ec/orders/開啟會員退貨申請功能.md"},
             {"訂單退貨流程" = "ec/orders/訂單退貨流程.md"},
             {"訂單退款流程" = "ec/orders/訂單退款流程.md"},
@@ -101,6 +102,7 @@ copyright = """
                 {"訂單篩選條件與狀態" = "ec/orders/references/訂單篩選條件與狀態對照表.md"},
                 {"新竹物流運費" = "ec/orders/references/新竹物流配送尺寸與運費對照表.md"},
                 {"C2C 退貨便條件" = "ec/orders/references/7-11 C2C 退貨便 — 訂單發送條件對照表.md"},
+                {"超商部分出貨支援表" = "ec/orders/references/超商物流部分出貨支援對照表.md"},
                 {"列表操作功能" = "ec/orders/references/訂單列表操作功能說明.md"},
                 {"報表可用欄位" = "ec/orders/references/訂單報表可用欄位.md"}
             ]},
