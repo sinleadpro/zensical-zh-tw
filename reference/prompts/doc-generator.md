@@ -558,8 +558,8 @@ module: orders
 文件 A:
   category: 
   module: orders
-  頁面: https://demo005.cyberbiz.co/admin/orders_v2, https://demo005.cyberbiz.co/admin/orders/52277961 {訂單詳情頁}
-  主題: 處理超商訂單部分出貨
+  頁面: https://demo005.cyberbiz.co/admin/orders_v2, https://demo005.cyberbiz.co/admin/payments > 前台退貨設定 > 退貨時間調整設定
+  主題: 處理超過退貨期限的訂單
   檔案路徑: 
 
 文件 B:
