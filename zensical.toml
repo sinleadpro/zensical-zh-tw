@@ -89,6 +89,7 @@ copyright = """
             {"取消訂單" = "ec/orders/如何取消訂單.md"},
             {"匯出定期預估報表" = "ec/orders/匯出定期定額子訂單預測報表.md"},
             {"超商退貨便 C2B" = "ec/orders/操作超商退貨便 C2B.md"},
+            {"7-11 C2C 退貨便" = "ec/orders/使用 7-11 C2C 退貨便.md"},
             {"全家冷凍店到店 C2C" = "ec/orders/操作全家冷凍店到店 C2C 出貨.md"},
             {"熱感列印超商托運單" = "ec/orders/熱感列印超商托運單.md"},
             {"超商店到店 C2C" = "ec/orders/操作超商店到店 C2C 出貨.md"},
@@ -99,6 +100,7 @@ copyright = """
             {"參考資料" = [
                 {"訂單篩選條件與狀態" = "ec/orders/references/訂單篩選條件與狀態對照表.md"},
                 {"新竹物流運費" = "ec/orders/references/新竹物流配送尺寸與運費對照表.md"},
+                {"C2C 退貨便條件" = "ec/orders/references/7-11 C2C 退貨便 — 訂單發送條件對照表.md"},
                 {"列表操作功能" = "ec/orders/references/訂單列表操作功能說明.md"},
                 {"報表可用欄位" = "ec/orders/references/訂單報表可用欄位.md"}
             ]},
