@@ -2,7 +2,7 @@
 title: 使用超商大宗寄倉（B2C）出貨
 description: 於訂單列表批次下載託運單、產生託運單號，並將集中包裝的貨件寄至超商物流中心，再由物流中心分發至消費者指定門市。
 created: 2026-05-25 20:35
-last_modified: 2026-05-26 21:10
+last_modified: 2026-05-26 21:20
 lang: zh-TW
 type: tutorial
 status: ""
@@ -137,6 +137,8 @@ hide: []
     - 各通路包裝方式、送貨車輛等要求請一併參閱[到倉驗收規範](../payments-and-logistics/references/超商大宗寄倉 B2C 物流中心對照.md#reference-cvs-b2c-acceptance-rules){ data-preview }。
 3. **物流中心簽收**：物流中心收件後，系統訂單狀態會由「待物流收件」自動變更為「**[已出貨（配送中）](出貨狀態物流提示文字說明.md#shipping-status-text-type){ data-preview }**」。
 
+!!! tip "取貨簡訊通知"
+    商品送達消費者指定門市後，系統會於第 **1 天**、第 **4 天** 自動發送取貨簡訊通知消費者。
 
 ??? example "寄貨期限計算範例"
 
