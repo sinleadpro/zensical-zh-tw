@@ -1,57 +1,43 @@
 ---
 title: 串接全家超商 B2C 冷凍物流
-version: 1.1.2
-last_modified: 2026-01-27
-description: 全家冷凍大宗寄倉 (B2C) 物流申請流程、後台設定與出貨規範完整指南。
-product:
-  - EC
-modules:
-  - 金物流
-activ: configure
-paths:
-  - 金物流 > 超商物流
-surfaces:
-  - backend
-ends: []
-devices:
-  - desktop
-apis: []
-type: tutorial
-intents:
-  - apply for family mart frozen b2c shipping
-features:
-  - 超商物流
-  - 全家冷凍 B2C
-tasks:
-  - 申請全家冷凍 B2C
-  - 設定後台物流選項
-  - 下載與列印託運單
-tnb: branch
-plans:
-  - 高手
-  - 高手 PLUS
-  - 企業
-prerequisites:
-  - 需具備冷凍儲存設備 (-12℃ 以下)
-  - 需有可供司機收貨之場地
+description: 全家冷凍大宗寄倉 (B2C) 物流申請流程、出貨規範與配送須知完整說明。
+created: 2026-01-27 00:00
+last_modified: 2026-05-26 15:44
 lang: zh-TW
-sites:
-  - TW
-status: []
-tags:
-  - 超商物流
-  - 全家冷凍
-  - B2C
-  - 大宗寄倉
-difficulty: []
-audiences: []
-wp_url: []
-notes:
-  - 適用CYB PAYMENTS
-comments: ""
+type: tutorial
+status: ""
+version: 1.1.1
+author: Ann
+reviewers: []
+notes: ["適用CYB PAYMENTS"]
+ga_views: 0
+feedback: 0
+products: ["EC"]
+modules: ["金物流"]
+sites: ["TW"]
+audiences: ["admin"]
+difficulty: intermediate
+tnb: branch
+plans: ["高手", "高手 PLUS", "企業"]
+cyb_extensions: []
+intents: ["申請全家冷凍_B2C", "設定後台物流選項", "下載與列印託運單"]
+features: ["超商物流", "全家冷凍_B2C"]
+prerequisites: ["需具備冷凍儲存設備 (-12℃ 以下)", "需有可供司機收貨之場地"]
+related: []
+tags: ["超商物流", "全家冷凍", "B2C", "大宗寄倉"]
+acoiv: configure
+apis: []
+devices: ["desktop"]
+ui_components: ["backend"]
+paths: ["金物流 > 超商物流"]
+layouts: []
+wp_url: ["https://www.cyberbiz.io/helpcenter/?p=5068", "https://www.cyberbiz.io/support/?p=21320"]
+permalink: ""
+comments: false
 search:
-  exclude: ""
-icon:
+  exclude: false
+icon: 
+hide: []
 ---
 
 # 串接全家超商 B2C 冷凍物流

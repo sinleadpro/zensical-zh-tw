@@ -1,0 +1,214 @@
+﻿編號,文件名稱,文件連結,note 欄位內容
+1,蝦皮商品搬站_Step2.導入商品與建立關聯.md,docs/ec/app-market/cyberbiz-extensions/cyberbiz-channel-bridge/蝦皮商品搬站_Step2.導入商品與建立關聯.md,- 內部連結：商品大量填補sku
+2,設定電子票券優惠.md,docs/ec/e-ticket/設定電子票券優惠.md,- 電子票券左側選單之後改版
+3,index.md,docs/ec/integrations/index.md,- 整合串接功能說明 link
+4,串接美安通路.md,docs/ec/integrations/串接美安通路.md,"- 回報 IP verify
+- verify 取消測試訂單流程"
+5,使用 UTM 參數追蹤行銷流量與分析成效.md,docs/ec/integrations/google/使用 UTM 參數追蹤行銷流量與分析成效.md,"- 1st grid card pending, 推薦人分潤 doc missing content"
+6,設定 Google 購物廣告.md,docs/ec/integrations/google/設定 Google 購物廣告.md,"- verify FAQ
+- update internal links"
+7,申請與設定 LINE 直播功能.md,docs/ec/integrations/line/申請與設定 LINE 直播功能.md,- 後台小幫手意義不明
+8,篩選與應用 LINE OA 綁定會員名單.md,docs/ec/integrations/line/account-integration/篩選與應用 LINE OA 綁定會員名單.md,- add CRL 會員名單篩選相關
+9,綁定 LINE 官方帳號與官網會員.md,docs/ec/integrations/line/account-integration/綁定 LINE 官方帳號與官網會員.md,- verify faq 如何確認已綁定
+10,設定 LIFF 自動登入與會員綁定.md,docs/ec/integrations/line/account-integration/設定 LIFF 自動登入與會員綁定.md,- LIFF (LINE Front-end Framework) will be rebranded and integrated into the LINE MINI App.
+11,設定 LINE 快速登入時取得會員手機號碼.md,docs/ec/integrations/line/account-integration/設定 LINE 快速登入時取得會員手機號碼.md,- verify oc_phone_number 功能的版本差異
+12,設定 LINE 綁定會員贈送優惠券.md,docs/ec/integrations/line/account-integration/設定 LINE 綁定會員贈送優惠券.md,- 若顧客在訂單中使用優惠券後退貨，該券會退回嗎?
+13,設定 LINE 團購商品.md,docs/ec/integrations/line/group-buy/設定 LINE 團購商品.md,"- wp 上有影片看要不要搬
+- add cl how to filter products"
+14,設定 LINE 團購機器人.md,docs/ec/integrations/line/group-buy/設定 LINE 團購機器人.md,- wp 上有影片之後看要不要搬
+15,設定 LINE 團購群組.md,docs/ec/integrations/line/group-buy/設定 LINE 團購群組.md,- WP 上有影片之後看要不要搬
+16,設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md,docs/ec/integrations/line/marketing/設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結.md,- code block can be improved with code annotation.
+17,index.md,docs/ec/marketing/index.md,"- 蝦皮商品搬站 link
+- add doc [[折扣類型指南]]"
+18,設定一頁式商店 YouTube 影片自動播放與起始秒數.md,docs/ec/marketing/設定一頁式商店 YouTube 影片自動播放與起始秒數.md,- verify youtube embed url 限制 autoloop 是不是只能從頭開始，CYB 支援程度。
+19,設定一頁式商店.md,docs/ec/marketing/設定一頁式商店.md,"- 內部連結：文字編輯器、拖拉版型
+- 商品狀態：開賣通知 vs 未公開已下架商品"
+20,設定互動遊戲.md,docs/ec/marketing/設定互動遊戲.md,- POS互動遊戲文件連結
+21,設定商品排除指定優惠.md,docs/ec/marketing/設定商品排除指定優惠.md,"- verify FAQ
+- update internal links"
+22,設定單品限時折扣群組.md,docs/ec/marketing/設定單品限時折扣群組.md,"- verify FAQ
+- update internal links"
+23,設定指定商品送活動序號.md,docs/ec/marketing/設定指定商品送活動序號.md,- 適用版本不明，版本對照表上並未標註
+24,設定期間限定首購禮.md,docs/ec/marketing/設定期間限定首購禮.md,- 手動刪除會員優惠券、紅利
+25,設定紅利商城.md,docs/ec/marketing/設定紅利商城.md,- 新增「會員頁發送紅利點數」連結(手動補點)
+26,設定紅配綠多組合優惠.md,docs/ec/marketing/設定紅配綠多組合優惠.md,- 是否適用POS：EXCEL表格有門市欄位
+27,index.md,docs/ec/members/index.md,- 會員系統設定 link
+28,官網會員客服問答系統.md,docs/ec/members/官網會員客服問答系統.md,- 內部連結：導覽列頁腳新增聯絡我們
+29,建立特殊VIP群組.md,docs/ec/members/建立特殊VIP群組.md,- 有效訂單連結
+30,管理會員檔案.md,docs/ec/members/管理會員檔案.md,"- 會員標籤的應用
+- 行銷活動內部連結
+- 詞彙表：會員列表頁、會員明細頁
+- 快速登入內部連結
+- 訊息推播內部連結
+- 測試搜尋能力與標籤關鍵字
+- 會員篩選器內部連結"
+31,設定與管理 LINE OA 通知樣板.md,docs/ec/notifications/設定與管理 LINE OA 通知樣板.md,- verify the inclusion of 日本台灣站 table
+32,index.md,docs/ec/orders/index.md,- 訂單物流功能說明 link
+33,出貨狀態物流提示文字說明.md,docs/ec/orders/出貨狀態物流提示文字說明.md,"- add doclink for email, sms, line oa notification templates.
+- add contextuallink for email, sms, line oa templates."
+34,操作全家冷凍店到店 C2C 出貨.md,docs/ec/orders/操作全家冷凍店到店 C2C 出貨.md,- 企業版超商取貨付款方式表格有誤，目前以 [https://docs.google.com/spreadsheets/d/1EnwSkTWX2o5wkjBkfUcvxmfdv9dDj2d5/edit?gid=385488738#gid=385488738](https://docs.google.com/spreadsheets/d/1EnwSkTWX2o5wkjBkfUcvxmfdv9dDj2d5/edit?gid=385488738#gid=385488738) 更全面 BY MOMO
+35,操作超商店到店 C2C 出貨.md,docs/ec/orders/操作超商店到店 C2C 出貨.md,"- add 儲值 CYBER 幣 doc link
+- add 熱感列印 doc link"
+36,熱感列印超商托運單.md,docs/ec/orders/熱感列印超商托運單.md,"- 7-11託運單產出後5日內需完成交寄
+- 需使用支援A6熱感應標籤機
+- 條碼不可凹折、裁切或縮放
+- 批次列印需勾選相同物流商訂單"
+37,訂單出貨流程.md,docs/ec/orders/訂單出貨流程.md,"- verify 宅配跟超取出貨流程
+- 篩選群組可以做出快結案訂單群組嗎
+- verify 批次出貨的確認條件步驟。"
+38,訂單管理介面說明.md,docs/ec/orders/訂單管理介面說明.md,- verify 重開訂單功能
+39,設定未付款提醒.md,docs/ec/orders/設定未付款提醒.md,"- LINE OA 樣板設定版本限制確認
+- add doc link 串接 LINE OA Messaging API
+- add doc link 串接 LINE 官方帳號與官網會員系統"
+40,設定訂單自動結案.md,docs/ec/orders/設定訂單自動結案.md,- add doclink 訂單自動結案
+41,AFTEE先享後付 金流說明.md,docs/ec/payments-and-logistics/AFTEE先享後付 金流說明.md,"- 訂單超過 90 天未出貨會自動取消
+- 預購商品不受 90 天出貨限制"
+42,Amazon FBA 跨境物流.md,docs/ec/payments-and-logistics/Amazon FBA 跨境物流.md,- 內部連結：網站外觀、商品大量填補SKU教學
+43,CYBERBIZ EXPRESS 日到台跨境宅配.md,docs/ec/payments-and-logistics/CYBERBIZ EXPRESS 日到台跨境宅配.md,"- 跨境GL版本徽章
+- 內部連結：購物車相關設定、訂單相關設定"
+44,DHL 跨境物流.md,docs/ec/payments-and-logistics/DHL 跨境物流.md,"- 新增包裹資訊是否代表支援多箱配送
+- 手續費與稅費，由商家付與由消費者付，金額與模式是否相同
+- 移除DHL運輸費用說明連結
+- 運送異常是否可洽詢CYB客服
+- 商品綁定物流步驟？
+- 要填統一編號嗎"
+45,index.md,docs/ec/payments-and-logistics/index.md,- 金流串接說明 link
+46,LINEX 跨境物流.md,docs/ec/payments-and-logistics/LINEX 跨境物流.md,"- 自訂貨到付款說明
+- 需要填商品多國英文欄位嗎
+- DHL 新增自訂物流的時候有「出貨方式」、「運送溫層」欄位，LINEX有嗎
+- DHL 有商品綁定物流步驟，LINEX有嗎
+- 託運文件列點說明"
+47,串接ezShip超商取貨(C2C).md,docs/ec/payments-and-logistics/串接ezShip超商取貨(C2C).md,- 內部連結
+48,串接全家超商B2C冷凍物流.md,docs/ec/payments-and-logistics/串接全家超商B2C冷凍物流.md,- 適用CYB PAYMENTS
+49,北美站金流服務.md,docs/ec/payments-and-logistics/北美站金流服務.md,- 涵蓋北美站專屬金流規格與全域購物車規則
+50,宅配貨到付款（黑貓宅配通新竹物流）.md,docs/ec/payments-and-logistics/宅配貨到付款（黑貓宅配通新竹物流）.md,- 使用新名詞？系統物流 vs 非系統物流
+51,日本站金流服務.md,docs/ec/payments-and-logistics/日本站金流服務.md,- 內部連結：購物車相關設定、訂單相關設定、3D驗證門檻
+52,澳洲落地版金流服務.md,docs/ec/payments-and-logistics/澳洲落地版金流服務.md,- 內部連結：建立商品、頁腳、購物車相關設定、訂單相關設定
+53,申請 CYBERBIZ PAYMENTS.md,docs/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS.md,- 補充審核所需的一般時長。
+54,申請綠界金流與超商取貨付款.md,docs/ec/payments-and-logistics/申請綠界金流與超商取貨付款.md,- 內部連結：後續步驟於綠界後台看訂單
+55,補印與加印託運單.md,docs/ec/payments-and-logistics/補印與加印託運單.md,- 內部連結：宅配部分出貨、超商部分出貨、已出貨狀態新增物流提示文字
+56,設定 Google Pay™.md,docs/ec/payments-and-logistics/設定 Google Pay™.md,- 內部連結：信用卡3D驗證
+57,設定門市取貨服務.md,docs/ec/payments-and-logistics/設定門市取貨服務.md,"- EXCEL匯入門市時，可同時設定為取貨門市
+- POS門市取貨 vs EC 門市取貨 (POS 門市取貨會自動切換狀態為已送達)
+- 狀態更新：消費者取貨後，可於後台手動切換至「已到店」和「已收貨」(PLUS版專用)"
+58,快速到貨出貨與配送.md,docs/ec/payments-and-logistics/CYBERBIZNOW/快速到貨出貨與配送.md,"- ai自產邏輯：**司機已到店取貨** -> 收到簡訊告知司機已取貨，開始配送
+- ai自產邏輯：訂單會自動更新為「已完成」狀態
+- ai自產邏輯：**物流訊息** 區塊中，複製該筆訂單的 **外送追蹤連結**"
+59,設定快速到貨前台入口與專區.md,docs/ec/payments-and-logistics/CYBERBIZNOW/設定快速到貨前台入口與專區.md,- 提醒商家 POS 與電商倉儲串接限制。
+60,運費計算與對帳規範.md,docs/ec/payments-and-logistics/CYBERBIZNOW/運費計算與對帳規範.md,"- 以 Cyber幣的方式收取；可在「Cyber幣使用明細」查看->是否屬實
+- 不須儲值CYBER幣
+- 價格表"
+61,開啟CYBERBIZ NOW快速到貨服務.md,docs/ec/payments-and-logistics/CYBERBIZNOW/開啟CYBERBIZ NOW快速到貨服務.md,"- 新舊版物流比較連結 https://ecommerce-cyberbiz.notion.site/afc66fe95c08443f9b115ab10fb08cbe
+- 拖拉版型3.0.0版本號從哪裡看
+- POS 門市設定快速到貨方式
+- POS 注意事項 double check"
+62,Excel 大量匯入商品.md,docs/ec/products/Excel 大量匯入商品.md,"- verify FAQ
+- update internal links"
+63,index.md,docs/ec/products/index.md,"- 蝦皮商品搬站 link
+- add doc [[折扣類型指南]]"
+64,快速上手商品管理.md,docs/ec/products/快速上手商品管理.md,"- Overview 與操作流程互聯
+- Quickstart 上手指南"
+65,排除商品上傳至第三方平台.md,docs/ec/products/排除商品上傳至第三方平台.md,- further reading links update
+66,新增與設定組合商品.md,docs/ec/products/新增與設定組合商品.md,- 新增商品可選任選或指定組合商品 功能待下放
+67,設定商品搜尋可見性.md,docs/ec/products/設定商品搜尋可見性.md,"- add guide 商品可見性
+- verify"
+68,設定商品多層級分類.md,docs/ec/products/categorization/設定商品多層級分類.md,"- verify FAQ
+- update internal links"
+69,設定商品條件分類群組.md,docs/ec/products/categorization/設定商品條件分類群組.md,- POS 前台選單設定
+70,設定商品自訂分類群組.md,docs/ec/products/categorization/設定商品自訂分類群組.md,"- verify FAQ
+- update internal links
+- {'next steps 整合串接': 'POS 前台選單設定 link'}"
+71,設定秘密商品群組.md,docs/ec/products/categorization/設定秘密商品群組.md,"- verify FAQ
+- update internal links
+- merge 商品排除搜尋
+- add 推薦人分潤 doc link
+- add batch edit 關閉商品搜尋"
+72,編輯商品簡述與商品標語.md,docs/ec/products/creation/編輯商品簡述與商品標語.md,"- verify FAQ
+- update internal links
+- update 產品頁文字修改09
+- add 樣板編輯器"
+73,設定 VIP 會員專屬價格.md,docs/ec/products/sales/設定 VIP 會員專屬價格.md,- doc-previous 設定 VIP 會員群組 link
+74,設定商品影片.md,docs/ec/products/sales/設定商品影片.md,"- 圖示-上傳商品影片
+- verify MBE"
+75,設定搜尋結果中排除特定關鍵字商品.md,docs/ec/products/sales/設定搜尋結果中排除特定關鍵字商品.md,- verify faq tag
+76,設定商品配送條件（物流、溫層與出貨通路）.md,docs/ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）.md,"- verify FAQ
+- update internal links
+- wikilink to add 宅配物流：串接一般宅配物流
+- verify 修改物流運費設定的注意事項"
+77,啟用留言區 reCAPTCHA.md,docs/ec/website-appearance/啟用留言區 reCAPTCHA.md,"- verify FAQ
+- update internal links"
+78,拖拉版型網站設定.md,docs/ec/website-appearance/拖拉版型網站設定.md,- check 商品標籤 適用方案
+79,設定前台商品群組排序.md,docs/ec/website-appearance/設定前台商品群組排序.md,- 設定首頁商品列表顯示群組數量 路徑更改確認
+80,設定前台語系與文字自定義.md,docs/ec/website-appearance/設定前台語系與文字自定義.md,- verify 結帳頁文字修改步驟 + faq
+81,設定與修改客服中心資訊.md,docs/ec/website-appearance/設定與修改客服中心資訊.md,- add doclink for 拖拉版型客服資訊 instant preview
+82,設定轉貼連結縮圖 OG Image.md,docs/ec/website-appearance/設定轉貼連結縮圖 OG Image.md,"- verify 一般版型 og image 設定路徑
+- inform 商品自訂分類群組圖片上傳 編輯器 URL 遺失問題
+- verify faq test weight"
+83,設置網站客服視窗.md,docs/ec/website-appearance/設置網站客服視窗.md,"- add doclink FBE
+- add doclink omnichat"
+84,星益欣電子發票設定指南.md,docs/ec/website-management/星益欣電子發票設定指南.md,"- verify FAQ
+- update internal links
+- add doc link [一鍵開立請款發票](https://www.cyberbiz.io/support/?p=2196)
+- add doc link [POS – 星益欣(美麗科技)電子發票(https://www.cyberbiz.io/support/?p=46379)"
+85,網域管理.md,docs/ec/website-management/網域管理.md,- 遠傳e管家已終止服務，下架對應內容
+86,續購與自動續約.md,docs/ec/website-management/續購與自動續約.md,- 內部連結：網站權限
+87,設定多國語言與多幣別.md,docs/ec/website-management/設定多國語言與多幣別.md,"- 向ts確認附件字典檔是否由客服提供，詢問是否頻繁，是否保留附件字典檔設定說明
+- 預拉好後台多國語言與多幣別文件連結位置，需補上"
+88,設定網站基本資訊.md,docs/ec/website-management/設定網站基本資訊.md,- verify feature validity 註冊跳轉頁面
+89,設定顧客註冊流程與欄位.md,docs/ec/website-management/設定顧客註冊流程與欄位.md,- 內部連結：樣板設定
+90,index.md,docs/pos/check/index.md,- 其他付款方式是否需要文件
+91,LINE PAY 掃碼支付.md,docs/pos/check/LINE PAY 掃碼支付.md,- 確認：可以註明客服信箱、匯出商品網站權限、結帳點擊優化
+92,多付款方式.md,docs/pos/check/多付款方式.md,- 報表 > 訂單彙總報表還有嗎
+93,客顯互動遊戲.md,docs/pos/check/客顯互動遊戲.md,"- 包含輪盤與抽紅包兩種遊戲類型
+- 需注意遊戲建立後無法刪除"
+94,掃描槍掃描後找不到商品.md,docs/pos/check/掃描槍掃描後找不到商品.md,"- CYB支援的掃碼槍是HS-8122？
+- 此文件只適用13碼(EAN-13)標籤？"
+95,混稅發票.md,docs/pos/check/混稅發票.md,"- 適用版本待確認
+- EC POS 綁連結決定位置"
+96,紅利商城.md,docs/pos/check/紅利商城.md,- 內部連結：商品開賣時間
+97,離線結帳模式.md,docs/pos/check/離線結帳模式.md,- 確認：離線模式僅支援windows電腦與平板，使用無線刷卡機不支援離線模式
+98,EPSON 有線發票機.md,docs/pos/hardware/EPSON 有線發票機.md,- 內部連結：POS驅動程式
+99,Posiflex 有線發票機.md,docs/pos/hardware/Posiflex 有線發票機.md,- 確認：是否支援星益欣、常見問題1驅動程式檔案連結是否有效
+100,商米無線刷卡機.md,docs/pos/hardware/商米無線刷卡機.md,- 確認：MYPAY可以用星益欣發票嗎
+101,客顯螢幕.md,docs/pos/hardware/客顯螢幕.md,- 內部連結：驅動程式、 POS 互動遊戲、訂單加價購
+102,平板裝置使用說明.md,docs/pos/hardware/平板裝置使用說明.md,- 確認：windows作業系統支援版本
+103,有線刷卡機.md,docs/pos/hardware/有線刷卡機.md,- 內部連結：安裝驅動程式
+104,標籤印表機.md,docs/pos/hardware/標籤印表機.md,- 內部連結：POS驅動程式
+105,庫存盤點.md,docs/pos/inventory/庫存盤點.md,- 更多操作要調整
+106,庫存調整.md,docs/pos/inventory/庫存調整.md,- 更多操作須更新
+107,小結關帳.md,docs/pos/others/小結關帳.md,- 常見問題ai製需確認
+108,公告系統.md,docs/pos/others2/公告系統.md,- 內部連結：人員權限
+109,設定前台自動登出時間.md,docs/pos/others2/設定前台自動登出時間.md,- 內部連結：POS權限設定
+110,人員權限欄位參考表.md,docs/pos/reference/人員權限欄位參考表.md,- 確認：欄位範圍皆為推測，需仔細驗證、上下班打卡是管理功能還是使用功能
+111,index.md,docs/resources/index.md,- 資源中心功能說明 link
+112,POS 系統串倉庫存轉調.md,docs/wms/POS 系統串倉庫存轉調.md,"- 確認版本限制
+- 圖片介面過舊"
+113,供應商.md,docs/wms/供應商.md,- 內部連結：權限設定
+114,加工商品.md,docs/wms/加工商品.md,"- 加工商品可以匯出批次編輯嗎
+- 加工品會對應到EC的一般商品還是組合品
+- 內部連結：建立EC一般商品、建立組合品、更多操作"
+115,商家自行驗收退貨.md,docs/wms/商家自行驗收退貨.md,- 內部流程：ec 退貨退款
+116,商家進倉作業規範.md,docs/wms/商家進倉作業規範.md,- 內部連結：建立進倉單、進倉條碼
+117,啟用部分串倉與拆單.md,docs/wms/啟用部分串倉與拆單.md,"- 內部連結：建立自訂物流、部分出貨
+- 相關操作：批次匯入編輯商品、訂單篩選器、商品篩選器、編輯訂單列表欄位
+- 確認：自訂出貨訂單不適用貨到付款"
+118,啟用部分串倉與混單.md,docs/wms/啟用部分串倉與混單.md,"- 內部連結：拆單建立自訂物流、建立退貨單、會員前台申請退貨、編輯訂單列表欄位
+- 確認：混合物流取交集或聯集
+- 確認：混合出貨有在訂單篩選器裡嗎
+- 用詞：串接宅配
+- 訂單列表編輯欄位"
+119,季別群組.md,docs/wms/季別群組.md,- 內部連結：庫齡報表
+120,官網與倉儲同步規則.md,docs/wms/官網與倉儲同步規則.md,"- 內部連結：訂單切換為準備出貨
+- 編輯訂單列表欄位"
+121,手動建單.md,docs/wms/手動建單.md,"- 內部連結：建立通路
+- 確認：出貨日與配達日
+- 確認：效期/批號管理是否有材料對應文件"
+122,手動確認收貨.md,docs/wms/手動確認收貨.md,- 內部連結：倉儲退貨、退貨進倉作業、退款作業
+123,操作紀錄列表.md,docs/wms/操作紀錄列表.md,- 可以查看的同仁操作名單，會依登入者的權限不同而有差異嗎
+124,申請流程與開通.md,docs/wms/申請流程與開通.md,"- 內部連結：大量填補SKU教學、建立單一品項、建立加工商品
+- 確認：宅配物流，結帳頁是串接物流與自訂物流並存？串接物流與自訂物流皆須設置？"
+125,設定商品(現貨、限量、預購).md,docs/wms/設定商品(現貨、限量、預購).md,- 使用須知恢復同步為ai製作，是否符實
+126,退貨單.md,docs/wms/退貨單.md,"- 檢查：退貨單狀態
+- 檢查：僅 EC 高手版可於倉儲建退貨單？
+- 內部連結：EC逆物流、倉庫串倉商家退貨流程"
+127,通路.md,docs/wms/通路.md,- 內部連結：通路綁定商品、報表分析

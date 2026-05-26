@@ -1,44 +1,47 @@
 ---
-title: "建立全館VIP制度"
-version: "1.1.1"
-last_modified: "2026-01-23"
-description: "逐步設定 VIP 會員層級、升等門檻與續會條件，建構符合商店品牌形象的會員體系。"
-product:
-  - EC
-module: 會員
-activ: activate
-paths: 會員 > VIP 設定
-surfaces: []
-ends:
-  - backend
-  - frontend
-devices:
-  - desktop
-apis: []
-type: tutorial
-features: 
-  - VIP 制度
-  - 會員分級
-tasks: 
-  - 建立 VIP 等級
-  - 設定升等條件
-  - 設定續會條件
-tnb: "trunk"
-plans: []
-prerequisites: []
+title: 建立全館VIP制度
+description: 逐步設定 VIP 會員層級、升等門檻與續會條件，建構符合商店品牌形象的會員體系。
+created: 2026-01-23 00:00
+last_modified: 2026-05-25 15:18
 lang: zh-TW
-sites: 
-- "TW"
-status: []
+type: tutorial
+status: ""
+version: 1.1.1
+author: Ann
+reviewers: []
+notes: []
+ga_views: 0
+feedback: 0
+products: ["EC"]
+modules: ["會員"]
+sites: ["TW"]
+audiences: ["admin"]
+difficulty: beginner
+tnb: trunk
+plans: []
+cyb_extensions: []
+intents: ["建立 VIP 等級", "設定升等條件", "設定續會條件"]
+features: ["VIP 制度", "會員分級"]
+prerequisites: []
+related: []
 tags: []
-difficulty: []
-audiences: []
+acoiv: activate
+apis: []
+devices: ["desktop"]
+ui_components: []
+paths: ["會員 > VIP 設定"]
+layouts: []
+wp_url: ["https://www.cyberbiz.io/helpcenter/?p=7509", "https://www.cyberbiz.io/support/?p=12291"]
+permalink: ""
+comments: false
 search:
-  exclude: ""
-icon: ""
+  exclude: false
+icon: 
+hide: []
 ---
 
 # 建立全館VIP制度
+
 逐步設定 VIP 會員層級、升等門檻與續會條件，建構符合商店品牌形象的會員體系。
 { .subtitle }
 

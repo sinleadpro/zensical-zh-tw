@@ -1,59 +1,49 @@
 ---
-title: "CYBERBIZ EXPRESS 日到台跨境宅配"
-version: "1.1.1"
-last_modified: "2026-03-03"
-description: "一站式日本跨境直送台灣物流服務，涵蓋開通設定、跨境商品報關資訊填寫及訂單出貨流程。"
-product:
-  - EC
-module: "APP MARKET"
-activ: "test"
-paths: 
-  - "App Market > 我的擴充服務 > CYBERBIZ EXPRESS"
-  - "商品 > 所有商品"
-  - "訂單 > 所有訂單"
-surfaces: []
-ends:
-  - backend
-devices:
-  - desktop
-apis: []
-type: tutorial
-features: 
-  - "日到台跨境物流"
-  - "EZWAY 報關"
-  - "跨境運費自動計算"
-tasks: 
-  - "設定跨境出貨地址"
-  - "填寫跨境商品資訊"
-  - "建立跨境託運單"
-tnb: "branch"
-plans: 
-  - 日到台
-prerequisites: 
-  - "需向開店顧問團隊申請開通服務"
-  - "需具備日本出貨地址 (倉庫或商家處)"
+title: CYBERBIZ EXPRESS 日到台跨境宅配
+description: 一站式日本跨境直送台灣物流服務，涵蓋開通設定、跨境商品報關資訊填寫及訂單出貨流程。
+created: 2026-03-03 00:00
+last_modified: 2026-05-26 14:46
 lang: zh-TW
-sites: "JP"
+type: tutorial
 status: ""
-tags: 
-  - "跨境電商"
-  - "EZWAY 報關"
-difficulty: ""
-audiences: ""
-wp_url: "https://www.cyberbiz.io/support/?p=51481"
-notes: 
-  - 跨境GL版本徽章
-  - 內部連結：購物車相關設定、訂單相關設定
-comments: ""
-search: 
-  exclude: ""
-icon: "lucide/lock"
+version: 1.1.1
+author: Ann
+reviewers: []
+notes: ["跨境GL版本徽章", "內部連結：購物車相關設定、訂單相關設定"]
+ga_views: 0
+feedback: 0
+products: ["EC"]
+modules: ["APP MARKET"]
+sites: ["JP"]
+audiences: ["admin"]
+difficulty: intermediate
+tnb: branch
+plans: ["日到台"]
+cyb_extensions: ["EXPRESS"]
+intents: ["設定跨境出貨地址", "填寫跨境商品資訊", "建立跨境託運單"]
+features: ["日到台跨境物流", "EZWAY_報關", "跨境運費自動計算"]
+prerequisites: ["需向開店顧問團隊申請開通服務", "需具備日本出貨地址 (倉庫或商家處)"]
+related: []
+tags: ["跨境電商", "EZWAY 報關"]
+acoiv: operation
+apis: []
+devices: ["desktop"]
+ui_components: []
+paths: ["App Market > 我的擴充服務 > CYBERBIZ EXPRESS", "商品 > 所有商品", "訂單 > 所有訂單"]
+layouts: []
+wp_url: ["https://www.cyberbiz.io/support/?p=51481"]
+permalink: ""
+comments: false
+search:
+  exclude: false
+icon: lucide/lock
+hide: []
 ---
 
 # 使用 CYBERBIZ EXPRESS 日到台跨境宅配
+
 CYBERBIZ EXPRESS 是專為日台電商設計的一站式跨境物流服務。您可以輕鬆將日本製產品送達台灣消費者手中，系統並自動整合 EZWAY 報關流程與運費自動核帳。
 { .subtitle }
-
 
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 跨境電商 (日到台)
 { .doc-badge }
@@ -172,4 +162,3 @@ CYBERBIZ EXPRESS 是專為日台電商設計的一站式跨境物流服務。您
 
 ??? quote "如何補印託運單？"
     在 **訂單列表** 勾選狀態為 `已出貨` 的訂單，選擇 **補印託運單** 即可重新下載相關文件。
-
