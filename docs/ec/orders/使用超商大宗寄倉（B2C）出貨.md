@@ -74,7 +74,7 @@ hide: []
 
 ![下載B2C託運單](../../assets/images/EC-訂單-所有訂單-下載B2C託運單-hero.png){ .hero-page }
 
-## 超商大宗寄倉 B2C 說明 { #intro-cvs-b2c-shipping }
+## 超商大宗寄倉 B2C 出貨說明 { #intro-cvs-b2c-shipping }
 
 相較於店到店 C2C 需逐筆至超商門市寄件，**B2C 大宗寄倉** 讓商家可一次批次處理多筆訂單：
 
@@ -134,7 +134,7 @@ hide: []
 2. **聯絡貨運**：自行聯絡第三方物流（如黑貓、宅配通、新竹物流）將大紙箱寄至對應物流中心。
     - 完整收貨地址、時段、收件單位請見
 [物流中心收貨資訊](../payments-and-logistics/references/超商大宗寄倉 B2C 物流中心對照.md#reference-cvs-b2c-centers-list){ data-preview }。
-    - 各通路包裝方式、送貨車輛等要求請一併參閱[到倉驗收規範](../payments-and-logistics/references/超商大宗寄倉 B2C 物流中心對照.md#reference-cvs-b2c-acceptance-rules){ data-preview }。
+    - 各通路包裝方式、送貨車輛等要求請一併參閱 [到倉驗收規範](../payments-and-logistics/references/超商大宗寄倉 B2C 物流中心對照.md#reference-cvs-b2c-acceptance-rules){ data-preview }。
 3. **物流中心簽收**：物流中心收件後，系統訂單狀態會由「待物流收件」自動變更為「**[已出貨（配送中）](出貨狀態物流提示文字說明.md#shipping-status-text-type){ data-preview }**」。
 
 !!! tip "取貨簡訊通知"
@@ -176,7 +176,7 @@ hide: []
 ## 重要規範與限制 { #specs-cvs-b2c-shipping }
 
 * **出貨不可逆**：一旦下載託運單，訂單狀態即變為「已出貨」，且 **無法修改收貨資訊**。請於下載前確認資料正確。
-* **CYBER 幣餘額不足將擋下載**：一般版商家若 CYBER 幣不足，系統會直接擋下載並提示「CYBER 幣餘額不足」。詳見
+* **CYBER 幣餘額不足將擋下載**：一般版 商家若 CYBER 幣不足，系統會直接擋下載並提示「CYBER 幣餘額不足」。詳見
 [計費方式](../payments-and-logistics/references/超商大宗寄倉%20B2C%20方案與計費對照.md#reference-cvs-b2c-plans-billing){ data-preview }。
 * **重量與材積限制**：訂單總重量 / 材積若超過該通路上限將無法產生託運單，詳見
 [重量與材積限制](../payments-and-logistics/references/超商大宗寄倉 B2C 通路規格對照.md#reference-cvs-b2c-channels-specs){ data-preview }。
