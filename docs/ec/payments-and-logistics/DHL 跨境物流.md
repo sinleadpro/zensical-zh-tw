@@ -1,69 +1,47 @@
 ---
-title: "DHL 跨境物流"
-version: "1.1.1"
-last_modified: "2026-03-05"
-description: "透過 CYBERBIZ 後台串接 DHL 國際快遞，您可以直接產出全英文託運單與商業發票，並享有到府取件與自動化貨態追蹤服務。"
-product:
-  - EC
-module: "金物流"
-activ: "integration"
-paths: 
-    - "管理中心 > 一般設定"
-    - "金物流 > DHL 託運單"
-    - "訂單 > 所有訂單"
-surfaces: ""
-ends:
-  - backend
-devices:
-  - desktop
-apis: ""
-type: tutorial
-features: 
-    - "DHL 跨境物流"
-    - "自動化產單"
-    - "取件預約"
-    - "DDP 完稅交貨"
-tasks: 
-    - "驗證出口英文公司名"
-    - "申請長期委任書"
-    - "建立 DHL 託運單"
-tnb: "branch"
-plans: 
-  - "專業版PLUS"
-  - "進階版PLUS"
-  - "高手版PLUS"
-  - "企業"
-  - "Pro"
-  - "Business"
-prerequisites: 需具備國貿局登記之英文公司名稱
+title: DHL 跨境物流
+description: 透過 CYBERBIZ 後台串接 DHL 國際快遞，您可以直接產出全英文託運單與商業發票，並享有到府取件與自動化貨態追蹤服務。
+created: 2026-03-05 00:00
+last_modified: 2026-05-26 14:46
 lang: zh-TW
-sites: 
-    - TW
-    - US
-    - JP
+type: tutorial
 status: ""
-tags: 
-    - 跨境物流
-    - 國際快遞
-difficulty: ""
-audiences: ""
-wp_url: 
-    - "https://www.cyberbiz.io/support/?p=29664"
-    - "https://www.cyberbiz.io/support/?p=29736"
-notes: 
-    - 新增包裹資訊是否代表支援多箱配送
-    - 手續費與稅費，由商家付與由消費者付，金額與模式是否相同
-    - 移除DHL運輸費用說明連結
-    - 運送異常是否可洽詢CYB客服
-    - 商品綁定物流步驟？
-    - 要填統一編號嗎
-comments: ""
-search: 
-  exclude: ""
-icon: "lucide/lock"
+version: 1.1.1
+author: Ann
+reviewers: []
+notes: ["新增包裹資訊是否代表支援多箱配送", "手續費與稅費，由商家付與由消費者付，金額與模式是否相同", "移除DHL運輸費用說明連結", "運送異常是否可洽詢CYB客服", "商品綁定物流步驟？", "要填統一編號嗎"]
+ga_views: 0
+feedback: 0
+products: ["EC"]
+modules: ["金物流"]
+sites: ["TW", "US", "JP"]
+audiences: ["admin"]
+difficulty: intermediate
+tnb: branch
+plans: ["專業 PLUS", "進階 PLUS", "高手 PLUS", "企業", "Pro", "Business"]
+cyb_extensions: []
+intents: ["驗證出口英文公司名", "申請長期委任書", "建立_DHL_託運單"]
+features: ["DHL 跨境物流", "自動化產單", "取件預約", "DDP_完稅交貨"]
+prerequisites: ["需具備國貿局登記之英文公司名稱"]
+related: []
+tags: ["跨境物流", "國際快遞"]
+acoiv: integration
+apis: []
+devices: ["desktop"]
+ui_components: []
+paths: ["管理中心 > 一般設定", "金物流 > DHL 託運單", "訂單 > 所有訂單"]
+layouts: []
+wp_url: ["https://www.cyberbiz.io/helpcenter/?p=393", "https://www.cyberbiz.io/helpcenter/?p=1769", "https://www.cyberbiz.io/support/?p=29664", "https://www.cyberbiz.io/support/?p=29736"]
+permalink: ""
+comments: false
+search:
+  exclude: false
+icon: lucide/lock
+hide: []
 ---
 
 # DHL 跨境物流
+
 透過 CYBERBIZ 後台串接 DHL 國際快遞，您可以直接產出全英文託運單與商業發票，並享有到府取件與自動化貨態追蹤服務。
 { .subtitle }
 

@@ -1,60 +1,43 @@
 ---
 title: 開啟門市快速到貨服務
-version: "1.1.1"
-last_modified: 2026-01-26
 description: 完成門市快速到貨 (CYBERBIZ NOW) 服務設定，包含啟用功能、接單時間、運費規則與外送資訊管理。
-product:
-  - EC
-modules:
-  - 金物流
-activ: configure
-paths:
-  - 金物流 > 所有門市 > 快速到貨設定
-surfaces:
-  - backend
-ends: []
-devices:
-  - desktop
-  - mobile
-apis: []
-type: tutorial
-intents:
-  - configure fast delivery
-features:
-  - 快速到貨
-  - CYBERBIZ NOW
-tasks:
-  - 啟用門市快速到貨
-  - 設定接單時間與運費
-  - 管理門市排序
-tnb: branch
-plans:
-  - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
-  - 企業
-prerequisites:
-  - 需完成門市建立且地址填寫正確
+created: 2026-01-26 00:00
+last_modified: 2026-05-26 15:04
 lang: zh-TW
-sites:
-  - TW
+type: tutorial
 status: ""
-tags:
-  - 快速到貨
-  - 門市管理
-  - CYBERBIZ NOW
-difficulty: []
-audiences: []
-wp_url: []
-notes:
-  - 新舊版物流比較連結 https://ecommerce-cyberbiz.notion.site/afc66fe95c08443f9b115ab10fb08cbe
-  - 拖拉版型3.0.0版本號從哪裡看
-  - POS 門市設定快速到貨方式
-  - POS 注意事項 double check
-comments: ""
+version: 1.1.1
+author: Ann
+reviewers: []
+notes: ["新舊版物流比較連結 https://ecommerce-cyberbiz.notion.site/afc66fe95c08443f9b115ab10fb08cbe", "拖拉版型3.0.0版本號從哪裡看", "POS 門市設定快速到貨方式", "POS 注意事項 double check"]
+ga_views: 0
+feedback: 0
+products: ["EC"]
+modules: ["金物流"]
+sites: ["TW"]
+audiences: ["admin"]
+difficulty: beginner
+tnb: branch
+plans: ["專業 PLUS", "進階 PLUS", "高手 PLUS", "企業"]
+cyb_extensions: ["NOW!"]
+intents: ["啟用門市快速到貨", "設定接單時間與運費", "管理門市排序"]
+features: ["快速到貨", "CYBERBIZ NOW"]
+prerequisites: ["需完成門市建立且地址填寫正確"]
+related: ["[[複製商品到快速到貨門市]]", "[[設定快速到貨前台入口與專區]]", "[[快速到貨訂單接單準備]]"]
+tags: ["快速到貨", "門市管理", "CYBERBIZ NOW"]
+acoiv: configure
+apis: []
+devices: ["desktop", "mobile"]
+ui_components: ["backend"]
+paths: ["金物流 > 所有門市 > 快速到貨設定"]
+layouts: []
+wp_url: ["https://www.cyberbiz.io/support/?p=12783", "https://www.cyberbiz.io/support/?p=12967"]
+permalink: ""
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: 
+hide: []
 ---
 
 # 開啟門市快速到貨服務
@@ -144,3 +127,4 @@ icon:
   了解門市端如何操作揀貨與司機媒合流程。
 
 </div>
+

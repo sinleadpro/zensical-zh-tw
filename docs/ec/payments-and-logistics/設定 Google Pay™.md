@@ -1,56 +1,46 @@
 ---
-title: "設定 Google Pay™"
-version: "1.1.1"
-last_modified: "2026-03-16"
-description: "指引商家在官網啟用並管理 Google Pay™ 支付選項，包含費率說明、後台配置流程以及金流門檻設定限制。"
-product:
-  - EC
-module: "金物流"
-activ: "Configure"
-paths: 
-  - "金物流 > 金流設定"
-surfaces: 
-  - "CYBERBIZ PAYMENTS 設定彈窗"
-  - "Google Pay 編輯分頁"
-ends:
-  - backend
-  - frontend
-devices:
-  - desktop
-  - mobile
-apis: ""
-type: tutorial
-features: 
-  - "Google Pay"
-  - "CYBERBIZ PAYMENTS"
-  - "行動支付"
-  - "一鍵結帳"
-tasks: 
-  - "開啟 Google Pay 支付"
-  - "設定金流使用門檻"
-  - "配置 3D 驗證金額"
-tnb: "trunk"
-plans: ""
-prerequisites: 
-  - "需已開通 CYBERBIZ PAYMENTS 金流服務"
+title: 設定 Google Pay™
+description: 指引商家在官網啟用並管理 Google Pay™ 支付選項，包含費率說明、後台配置流程以及金流門檻設定限制。
+created: 2026-03-16 00:00
+last_modified: 2026-05-26 14:26
 lang: zh-TW
-sites: "TW"
+type: tutorial
 status: ""
-tags: 
-  - "行動支付"
-  - "CYBERBIZ PAYMENTS"
-difficulty: ""
-audiences: ""
-wp_url: "https://www.cyberbiz.io/helpcenter/?p=3900"
-notes: 
-  - 內部連結：信用卡3D驗證
-comments: ""
-search: 
-  exclude: ""
-icon: ""
+version: 1.1.1
+author: Ann
+reviewers: []
+notes: ["內部連結：信用卡3D驗證","北美站Google Pay 設定"]
+ga_views: 0
+feedback: 0
+products: ["EC"]
+modules: ["金物流"]
+sites: ["TW"]
+audiences: ["admin"]
+difficulty: intermediate
+tnb: trunk
+plans: []
+cyb_extensions: ["PAYMENTS"]
+intents: ["開啟_Google_Pay_支付", "設定金流使用門檻", "配置_3D_驗證金額"]
+features: ["Google Pay", "CYBERBIZ PAYMENTS", "行動支付", "一鍵結帳"]
+prerequisites: ["需已開通 CYBERBIZ PAYMENTS 金流服務"]
+related: ["[[北美站金流服務]]"]
+tags: ["行動支付", "CYBERBIZ PAYMENTS"]
+acoiv: configure
+apis: []
+devices: ["desktop", "mobile"]
+ui_components: ["CYBERBIZ PAYMENTS 設定彈窗", "Google Pay 編輯分頁"]
+paths: ["金物流 > 金流設定"]
+layouts: []
+wp_url: ["https://www.cyberbiz.io/helpcenter/?p=3900", "https://www.cyberbiz.io/support/?p=2620"]
+permalink: ""
+comments: false
+search:
+  exclude: false
+icon: 
+hide: []
 ---
 
-# 設定 Google Pay™ 
+# 設定 Google Pay™
 指引商家在官網啟用並管理 Google Pay™ 支付選項，包含費率說明、後台配置流程以及金流門檻設定限制。
 { .subtitle }
 
