@@ -54,7 +54,7 @@
 
 📍【商家負擔】
 
--商家於後台產出退貨便代碼時，系統會自動扣在 CYBER 幣明細上。
+-商家於後台產出退貨便代碼時，系統會自動扣在 Cyber 幣明細上。
 -如果超過 14 天 沒有使用退貨便代碼的話，系統會自動返還點數。
 [[圖片說明：超取退貨便-C2B-操作說明-03]](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-03.png)
 [[圖片說明：超取退貨便-C2B-操作說明-04]](https://www.cyberbiz.io/support/wp-content/uploads/超取退貨便-C2B-操作說明-04.png)

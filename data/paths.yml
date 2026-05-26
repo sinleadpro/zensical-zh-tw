@@ -1,0 +1,3 @@
+# 訂單相關路徑
+order_details_page: "訂單 > 所有訂單 > 點擊訂單編號"
+order_edit_page: "訂單 > 所有訂單 > 點擊訂單編號 > 編輯訂單"

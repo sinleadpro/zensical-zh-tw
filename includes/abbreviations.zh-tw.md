@@ -14,7 +14,7 @@
 *[B2C]: Business to Consumer，企業（Business）直接向消費者（Consumer）銷售產品或服務的商業模式。在 B2C 模式下，企業透過線上或線下管道，直接面對最終消費者進行交易。*
 *[EC]: CYBERBIZ 電商平台，幫助商家建立品牌官網。
 *[COD]: Cash on Delivery，貨到付款，在收貨時直接支付訂單款項，而不是先在線上付款。常見於物流配送服務，例如宅配、快遞，尤其在電子商務中使用「黑貓/宅配通貨到付款」等功能時，就屬於 COD 模式。
-*[CYBER 幣]: CYBERBIZ 發行的虛擬貨幣或積分，類似現金，可用於平台內購物、兌換優惠或支付服務，旨在提升用戶參與度與忠誠度，促進消費並打造品牌生態系統，進而增強與顧客的關係。
+*[Cyber 幣]: CYBERBIZ 發行的虛擬貨幣或積分，類似現金，可用於平台內購物、兌換優惠或支付服務，旨在提升用戶參與度與忠誠度，促進消費並打造品牌生態系統，進而增強與顧客的關係。
 *[CYBERBIZ PAYMENTS]: CYBERBIZ’s integrated payment service that supports multiple payment methods (such as credit card, LINE Pay, and JKOPay), enabling merchants to activate online payments quickly and manage all transactions in one place.*
 *[C2C]: 消費者之間直接交易的商業模式。在這種模式下，平台提供交易與支付工具，但商品的買賣雙方都是個人消費者，而非企業對消費者（B2C）或企業對企業（B2B）。
 *[超商店到店]: 指消費者（賣家）透過電商平台，將商品寄至合作便利商店，買家再到指定便利商店取貨的 C2C（消費者對消費者）配送方式。平台提供交易與物流介面，但商品的買賣雙方都是個人消費者。*

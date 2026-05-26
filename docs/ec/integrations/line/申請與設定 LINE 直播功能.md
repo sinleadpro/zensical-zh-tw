@@ -90,11 +90,11 @@ hide: []
 
 ## 申請與上線流程
 
-1.  **填寫表單**：向 CYBERBIZ 索取並填寫 [直播資格申請表 :lucide-external-link:](https://forms.gle/KmBWNvvGggZR1PsYA)。
+1.  **填寫表單**：向 CYBERBIZ 索取並填寫 [直播資格申請表 :lucide-external-link:](https://docs.google.com/forms/d/e/1FAIpQLSeaMKpcK0DOaTvZDy_229oV3mV_k50-oKKTljdGh9sUXuRD1A/viewform)。
 
     ??? abstract "LINE 直播開通申請表單"
         <div style="position: relative; padding-bottom: 120%; height: 0; overflow: hidden;">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdnqt3beHYlS2DFOMpE26aeiAJrY3hJfHtoepI9FJtzUBz-3A/viewform?embedded=true" 
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeaMKpcK0DOaTvZDy_229oV3mV_k50-oKKTljdGh9sUXuRD1A/viewform?embedded=true" 
             style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
             frameborder="0">
           </iframe>

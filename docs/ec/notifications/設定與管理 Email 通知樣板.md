@@ -69,7 +69,7 @@ wp_url:
 comments: false
 search:
   exclude: false
-icon: lucide/mail
+icon: lucide/mails
 hide:
 ---
 

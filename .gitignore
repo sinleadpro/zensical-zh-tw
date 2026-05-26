@@ -16,16 +16,17 @@ build/
 
 # AI Agent
 .opencode/
+.genkit/
 
 # OS Generated FIles
-*.DS_Store
+.DS_Store
 Thumbs.db
 
 # Ptyhon
 .venv/
 env/
 
-docops/
+duckops/
 
 
 # Syncthing
@@ -44,3 +45,4 @@ docops/
 
 # Ann's files
 .cursorindexingignore
+.cursor/

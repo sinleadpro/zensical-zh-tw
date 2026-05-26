@@ -223,6 +223,30 @@ search:
 
 ---
 
+## :lucide-bot-message-square: AI 輔助檢索
+
+<div class="grid cards" markdown>
+
+-   :simple-notebooklm:{ .lg }
+    __NotebookLM__
+
+    ---
+
+    使用 NotebookLM 檢索 CYBERBIZ 文件，進行 AI 輔助問答與分析。
+
+    [:lucide-arrow-right: 開啟 NotebookLM](https://notebooklm.google.com/notebook/20277bb4-f8ae-4d7b-b2d9-3b8db845c761/preview){ target="_blank" }
+
+-   :lucide-file-text:{ .lg }
+    __LLM 可讀文件 (llms.txt)__
+
+    ---
+
+    針對大語言模型優化的 Markdown 格式，提升 RAG 檢索效率與上下文精準度。
+
+    [:lucide-arrow-right: 標準版]()  [:lucide-arrow-right: 完整版]()
+
+</div>
+
 ## :lucide-shopping-bag: 品牌官網 
 
 <div class="grid cards" markdown>

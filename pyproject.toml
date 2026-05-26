@@ -3,8 +3,10 @@ name = "zensical-zh-tw"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.12"
 dependencies = [
     "mkdocs-autorefs>=1.4.4",
-    "zensical>=0.0.19",
+    "pandas>=3.0.3",
+    "tabulate>=0.10.0",
+    "zensical>=0.0.42",
 ]

@@ -59,7 +59,7 @@ copyright = """
         { "訂單" = [
             {"orders" = "ec/orders/index.md"},
             {"介面總覽" = "ec/orders/訂單管理介面說明.md"},
-            {"搜尋與篩選" = "ec/orders/如何搜尋與篩選訂單.md"},
+            {"搜尋與篩選" = "ec/orders/搜尋與篩選訂單.md"},
             {"訂單明細設定" = "ec/orders/設定與列印訂單明細.md"},
             {"出貨明細設定" = "ec/orders/設定與列印出貨明細.md"},
             {"自動結案" = "ec/orders/設定訂單自動結案.md"},
@@ -78,7 +78,8 @@ copyright = """
             {"宅配通出貨" = "ec/orders/使用宅配通出貨.md"},
             {"順豐出貨" = "ec/orders/使用順豐出貨.md"},
             {"新竹物流出貨" = "ec/orders/使用新竹物流出貨.md"},
-            {"會員退貨申請功能" = "ec/orders/會員退貨申請功能.md"},
+            {"超商大宗寄倉出貨" = "ec/orders/使用超商大宗寄倉（B2C）出貨.md"},
+            {"開啟會員退貨申請功能" = "ec/orders/開啟會員退貨申請功能.md"},
             {"訂單退貨流程" = "ec/orders/訂單退貨流程.md"},
             {"訂單退款流程" = "ec/orders/訂單退款流程.md"},
             {"編輯訂單" = "ec/orders/編輯訂單內容.md"},
@@ -87,16 +88,18 @@ copyright = """
             {"取消訂單" = "ec/orders/如何取消訂單.md"},
             {"匯出定期預估報表" = "ec/orders/匯出定期定額子訂單預測報表.md"},
             {"超商退貨便 C2B" = "ec/orders/操作超商退貨便 C2B.md"},
+            {"7-11 C2C 退貨便" = "ec/orders/使用 7-11 C2C 退貨便.md"},
             {"全家冷凍店到店 C2C" = "ec/orders/操作全家冷凍店到店 C2C 出貨.md"},
             {"熱感列印超商托運單" = "ec/orders/熱感列印超商托運單.md"},
             {"超商店到店 C2C" = "ec/orders/操作超商店到店 C2C 出貨.md"},
             {"跨境電商" = [
                 {"跨境電商退貨流程" = "ec/orders/跨境電商退貨流程.md"},
-                {"跨境電商退款流程" = "ec/orders/跨境電商退款流程.md"},
+                {"跨境電商退款流程" = "ec/orders/跨境電商退款流程.md"}
             ]},
             {"參考資料" = [
                 {"訂單篩選條件與狀態" = "ec/orders/references/訂單篩選條件與狀態對照表.md"},
                 {"新竹物流運費" = "ec/orders/references/新竹物流配送尺寸與運費對照表.md"},
+                {"C2C 退貨便條件" = "ec/orders/references/7-11 C2C 退貨便 — 訂單發送條件對照表.md"},
                 {"列表操作功能" = "ec/orders/references/訂單列表操作功能說明.md"},
                 {"報表可用欄位" = "ec/orders/references/訂單報表可用欄位.md"},
                 {"綠界後台訂單查詢" = "ec/orders/綠界後台訂單查詢.md"},
@@ -116,22 +119,31 @@ copyright = """
         ]},
         { "商品" = [
             { "商品管理" = "ec/products/index.md" },  
-            { "快速上手" = [
-                {"商品管理介面" = "ec/products/快速上手商品管理.md"}
+            { "開始使用" = [
+                {"overview" = "ec/products/get-started/index.md"},
+                {"商品管理介面" = "ec/products/get-started/使用商品管理介面管理商品.md"}
             ]},
             { "建立與設定" = [
-                {"新增單一商品" = "ec/products/creation/新增單一商品.md"},
+                {"新增與更新" = "ec/products/creation/新增與更新商品.md"},
                 {"商品簡述與標語" = "ec/products/creation/編輯商品簡述與商品標語.md"},
                 {"商品描述與商品設定" = "ec/products/creation/編輯商品描述與商品設定.md"},
-                {"商品規格與款式" = "ec/products/creation/設定商品色票與款式圖片對應.md"}
+                {"色票與款式圖片(拖拉版型)" = "ec/products/creation/設定商品色票與款式圖片-拖拉版型.md"},
+                {"色票與款式圖片(預設版型)" = "ec/products/creation/設定商品色票與款式圖片-預設版型.md"},
+                {"商品影片" = "ec/products/creation/設定商品影片.md" }
             ]},  
             { "分類與標籤" = [
-                { "商品自訂分類" = "ec/products/categorization/設定商品自訂分類群組.md" },
+                { "自訂分類群組" = "ec/products/categorization/設定商品自訂分類群組.md" },
                 { "秘密商品群組" = "ec/products/categorization/設定秘密商品群組.md" },
-                { "商品條件分類" = "ec/products/categorization/設定商品條件分類群組.md" },
-                { "商品多層級分類" = "ec/products/categorization/設定商品多層級分類.md" },
-                { "前台商品篩選器" = "ec/products/categorization/設定前台商品篩選器.md" },
-                { "商品標籤管理" = "ec/products/categorization/管理商品標籤.md" }
+                { "條件/自動分類群組" = "ec/products/categorization/設定商品條件分類群組.md" },
+                { "多層級分類" = "ec/products/categorization/設定商品多層級分類.md" },
+                { "標籤管理" = "ec/products/categorization/管理商品標籤.md" }
+            ]},
+            { "曝光與搜尋" = [
+                {"overview" = "ec/products/discovery/index.md"},
+                {"商品搜尋可見性" = "ec/products/discovery/設定商品搜尋可見性.md"},
+                {"站內搜尋設定" = "ec/products/discovery/設定站內搜尋功能.md"},
+                {"搜尋結果排除" = "ec/products/discovery/設定搜尋結果中排除特定關鍵字商品.md"},
+                {"前台商品篩選器" = "ec/products/discovery/設定前台商品篩選器.md"}
             ]},
             { "物流與配送" = [
                 { "配送溫層、物流跟通路設定" = "ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）.md" },
@@ -141,19 +153,16 @@ copyright = """
                 { "批量上架" = "ec/products/batch-management/批量上架商品.md" } 
             ]},
             { "銷售與互動" = [
-                { "VIP 會員專屬價格" = "ec/products/sales/設定 VIP 會員專屬價格.md" },
-                { "商品到貨通知" = "ec/products/sales/設定商品到貨通知.md"},
-                { "管理商品評論" = "ec/products/sales/管理商品評論.md"},
-                { "結帳拆分多購物車" = "ec/products/sales/設定結帳拆分多購物車.md"},
-                { "商品影片" = "ec/products/sales/設定商品影片.md" },
-                { "搜尋結果排除特定商品" = "ec/products/sales/設定搜尋結果中排除特定關鍵字商品.md" }
+                {"VIP 會員專屬價格" = "ec/products/sales/設定 VIP 會員專屬價格.md" },
+                {"商品到貨通知" = "ec/products/sales/設定商品到貨通知.md"},
+                {"管理商品評論" = "ec/products/sales/管理商品評論.md"},
+                {"結帳拆分多購物車" = "ec/products/sales/設定結帳拆分多購物車.md"}
             ]},
             { "商品上架" = [
                 { "組合商品" = "ec/products/新增與設定組合商品.md"},
                 { "商品描述與商品設定" = "ec/products/編輯商品描述與商品設定.md" },
                 { "Excel 大量匯入商品" = "ec/products/Excel 大量匯入商品.md"},
                 { "批次修改商品描述與配送設定" = "ec/products/批次修改商品描述與配送設定.md" },
-                { "商品搜尋可見性" = "ec/products/設定商品搜尋可見性.md" }
             ]},
             { "商品配送" = [
                 { "配送溫層、物流跟通路設定" = "ec/products/設定商品配送條件（物流、溫層與出貨通路）.md" },
@@ -191,7 +200,8 @@ copyright = """
             { "指定商品送活動序號" = "ec/marketing/指定商品送活動序號.md"},
             { "紅利商城" = "ec/marketing/紅利商城.md"},
             { "商品多層級分類滿額折扣" = "ec/marketing/設定商品多層級分類滿額折扣.md" },
-            { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" }
+            { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" },
+            {"預填商品導購連結" = "ec/marketing/建立含指定商品的購物車連結.md"}
         ]},  
         { "分潤" = [
             { "overview" = "ec/profit-sharing/index.md"},
@@ -202,13 +212,14 @@ copyright = """
             { "推薦碼連結的應用" = "ec/profit-sharing/推薦碼連結的應用.md"},
         ]},
         { "訊息推播" = [
-            { "overview" = "ec/notifications/index.md" },
-            { "Email 樣板管理" = "ec/notifications/設定與管理 Email 通知樣板.md" },
-            { "簡訊樣板管理" = "ec/notifications/設定與管理簡訊通知樣板.md" },
-            { "LINE OA 樣板管理" = "ec/notifications/設定與管理 LINE OA 通知樣板.md" },
-            { "LINE 加入好友邀請" = "ec/notifications/發送 LINE 加入好友邀請.md" },
-            {"發送 EDM" = "ec/notifications/設定與發送 EDM 電子報.md"},
-            { "庫存過低通知" = "ec/notifications/庫存過低通知.md" }
+            {"訊息推播總覽" = "ec/notifications/index.md" },
+            {"Email 樣板管理" = "ec/notifications/設定與管理 Email 通知樣板.md"},
+            {"簡訊通知樣板" = "ec/notifications/設定與管理簡訊通知樣板.md" },
+            {"簡訊發送" = "ec/notifications/設定與發送簡訊通知.md"},
+            {"簡訊發送紀錄" = "ec/notifications/查詢與追蹤簡訊發送紀錄.md"},
+            {"LINE OA 樣板管理" = "ec/notifications/設定與管理 LINE OA 通知樣板.md"},
+            {"LINE 加入好友邀請" = "ec/notifications/發送 LINE 加入好友邀請.md" },
+            {"發送 EDM" = "ec/notifications/設定與發送 EDM 電子報.md"}
         ]},
         { "金物流" = [
             {"overview" = "ec/payments-and-logistics/index.md"},
@@ -262,6 +273,11 @@ copyright = """
                 {"Amazon FBA 跨境物流" = "ec/payments-and-logistics/Amazon FBA 跨境物流.md"},
                 {"CYBERBIZ EXPRESS 日到台宅配" = "ec/payments-and-logistics/CYBERBIZ EXPRESS 日到台跨境宅配.md"},
             ]},
+            {"參考資料" = [
+                {"物流中心收貨資訊" = "ec/payments-and-logistics/references/超商大宗寄倉 B2C 物流中心對照.md"},
+                {"各通路重量與材積限制" = "ec/payments-and-logistics/references/超商大宗寄倉 B2C 通路規格對照.md"},
+                {"方案開通與計費對照" = "ec/payments-and-logistics/references/超商大宗寄倉 B2C 方案與計費對照.md"},
+            ]},
         ]},
         { "網站外觀" = [
             { "overview" = "ec/website-appearance/index.md" },
@@ -269,7 +285,7 @@ copyright = """
             { "樣板編輯器" = "ec/website-appearance/樣板編輯器操作全攻略.md" },
             { "恢復樣板版本" = "ec/website-appearance/使用樣板編輯器恢復網頁代碼.md" },
             { "留言區 reCAPTCHA" = "ec/website-appearance/啟用留言區 reCAPTCHA.md"},
-            { "拖拉版型設定" = "ec/website-appearance/拖拉版型網站設定.md" },
+            { "拖拉版型設定" = "ec/website-appearance/使用拖拉版型設計網站版面與首頁區塊.md" },
             { "選單與導覽列" = "ec/website-appearance/設定選單與導覽列.md "},
             { "自訂頁面管理" = "ec/website-appearance/設定與管理自訂頁面.md" },
             { "嵌入 Google 表單" = "ec/website-appearance/在自訂頁面中嵌入 Google 表單.md" },
@@ -288,14 +304,14 @@ copyright = """
             { "特定商取引法頁面(日本站)" = "ec/website-appearance/日本站官網需建立特定商取引法頁面.md" },
         ]},
         { "APP MARKET" = [
-            { "overview" = "ec/app-market/index.md" },
-            { "AUTOMATION" = [
-              { "自動化行銷" = "ec/app-market/automation/使用 AUTOMATION 建立自動化推播流程.md" }
+            {"overview" = "ec/app-market/index.md"},
+            {"AUTOMATION" = [
+              {"自動化行銷" = "ec/app-market/automation/使用 AUTOMATION 建立自動化推播流程.md"}
             ]},
-            { "CYBERBIZ 擴充服務" = [
-                { "overview" = "ec/app-market/cyberbiz-extensions/index.md" },
-                { "Chat Box" = [
-                    { "overview" = "ec/app-market/cyberbiz-extensions/chat-box/index.md" },
+            {"CYBERBIZ 擴充服務" = [
+                {"overview" = "ec/app-market/cyberbiz-extensions/index.md"},
+                {"Chat Box" = [
+                    {"overview" = "ec/app-market/cyberbiz-extensions/chat-box/index.md"},
                 ]},
                 {"全通路管理助手" = [
                     { "Step 1 安裝啟用" = "ec/app-market/cyberbiz-channel-bridge/蝦皮商品/Step1.安裝啟用.md" },
@@ -305,24 +321,46 @@ copyright = """
                     { "Step 5 資訊同步" = "ec/app-market/cyberbiz-channel-bridge/蝦皮商品/Step5.官網與蝦皮商品資訊同步.md" },
                 ]},
             ]},
+            {"門市助理" = [
+                    {"overview" = "ec/app-market/storepal/index.md"},
+                    {"搜尋與建立會員" = "ec/app-market/storepal/搜尋與建立會員.md"},
+                    {"會員身份識別" = "ec/app-market/storepal/會員身份識別.md"},
+                    {"會員數據智庫" = "ec/app-market/storepal/會員數據智庫.md"},
+                    {"導購轉化" = "ec/app-market/storepal/導購轉化.md"},
+                    {"查看業績" = "ec/app-market/storepal/查看業績.md"},
+                ]},
+            {"CYBERBIZ APP" = "ec/app-market/CYBERBIZ APP 功能指南.md"},
+            {"CYBERBIZ Meta Ads" = "ec/app-market/安裝 Meta Ads App.md"}
         ]},
         { "第三方整合" = [
             {"overview" = "ec/integrations/index.md"},  
             {"Facebook" = [
                 {"overview" = "ec/integrations/fb/index.md"},
                 {"Facebook 快速登入" = "ec/integrations/fb/設定 Facebook 快速登入.md"},
-                {"FB 商業擴充" = [
+                {"商業擴充功能" = [
                     {"overview" = "ec/integrations/fb/mbe/index.md"},
                     {"授權與資產連結" = "ec/integrations/fb/mbe/設定 FBE 帳號授權與資產連結.md"},
                     {"網域驗證" = "ec/integrations/fb/mbe/設定 FBE 網域驗證.md"},
                     {"FB/IG 商店串接" = "ec/integrations/fb/mbe/設定 Facebook 跟 Instagram 商店.md"},
                     {"商品同步與排除" = "ec/integrations/fb/mbe/排除商品不同步至 Facebook 與 Instagram 商店.md"}
                 ]},
+                {"Meta 廣告" = [
+                    {"Meta 廣告總覽" = "ec/integrations/fb/meta-ads/index.md"},
+                    {"建立帳號與儲值" = "ec/integrations/fb/meta-ads/建立 Meta 廣告帳號並儲值.md"},
+                    {"閒置帳號處理" = "ec/integrations/fb/meta-ads/Meta 廣告閒置帳號回收機制說明.md"},
+                    {"廣告活動設定" = "ec/integrations/fb/meta-ads/設定 Meta 廣告活動.md"},
+                    {"廣告預算指南" = "ec/integrations/fb/meta-ads/Meta 廣告每日預算設定指南.md"},
+                    {"目錄商品組合" = "ec/integrations/fb/meta-ads/設定 Meta 廣告的目錄商品組合.md"},
+                    {"目錄影片同步" = "ec/integrations/fb/meta-ads/同步商品影片至 Meta 目錄.md"},
+                    {"廣告成效分析" = "ec/integrations/fb/meta-ads/使用 Meta 廣告成效分析.md"},
+                    {"ASC 廣告指南" = "ec/integrations/fb/meta-ads/ASC 廣告投放策略與最佳實務.md"},
+                    {"手動授權資產" = "ec/integrations/fb/meta-ads/手動分享資產權限給 CYBERBIZ.md"}
+                ]},
             ]},
             {"Google" = [
-                {"overview" = "ec/integrations/google/index.md"},
+                {"Google 總覽" = "ec/integrations/google/index.md"},
                 {"Google 快速登入" = "ec/integrations/google/設定 Google 快速登入.md"},
-                {"Google Merchant Center (GMC)" = "ec/integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品.md"},
+                {"Google Merchant Center 串接" = "ec/integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品.md"},
                 {"GMC 重要事件追蹤" = "ec/integrations/google/設定 GMC 重要事件來源追蹤與自動標記.md"},
                 {"自動化廣告" = "ec/integrations/google/設定自動化廣告.md"},
                 {"移除 Google 索引" = "ec/integrations/google/從 Google 搜尋結果移除特定網頁或子目錄.md"},
@@ -342,7 +380,6 @@ copyright = """
                     {"排除內部與參照流量" = "ec/integrations/google/ga/設定 GA4 排除內部流量與第三方參照來源.md"},
                     {"站內追蹤搜尋" = "ec/integrations/google/ga/設定 GA4 站內搜尋追蹤.md"}
                 ]},
-                {"" = "ec/integrations/google/"}
             ]},
             { "LINE" = [
                 {"overview" = "ec/integrations/line/index.md"},
@@ -374,7 +411,7 @@ copyright = """
                 {"LINE 購物導購" = "ec/integrations/line/申請與設定 LINE 購物導購.md"}
             ]},
             {"美安 SHOP.COM" = "ec/integrations/串接美安通路.md"}
-    ]},
+        ]},
         { "管理中心" = [
             { "overview" = "ec/website-management/index.md" },
             { "系統通知設定" = "ec/website-management/系統通知設定.md" },
@@ -471,6 +508,7 @@ copyright = """
             { "overview" = "pos/get-started/index.md" },
         ]},
         { "硬體安裝" = [
+            { "overview" = "pos/hardware/index.md" },
             { "有線刷卡機" = "pos/hardware/有線刷卡機.md" },
             { "商米無線刷卡機" = "pos/hardware/商米無線刷卡機.md" },
             { "Posiflex 有線發票機" = "pos/hardware/Posiflex 有線發票機.md" },
@@ -481,7 +519,7 @@ copyright = """
             { "網路連線異常與斷線提示" = "pos/hardware/網路連線異常與斷線提示.md" },
         ]},
         { "軟體安裝" = [
-            { "驅動程式" = "" },
+            { "驅動程式" = "pos/software/驅動程式.md" },
         ]},
         { "第三方服務" =[
             { "盟立電子發票" = "pos/third-party/盟立電子發票.md" },
@@ -489,14 +527,15 @@ copyright = """
         ]},
         {"divider" = "divider"},
         { "商店管理" = [
-            { "公告系統" = "pos/others2/公告系統.md" },
-            { "安全性設定" = "pos/others2/安全性設定.md" },
-            { "續購與加購方案" = "pos/others2/續購與加購方案.md" },
+            { "公告系統" = "pos/store/公告系統.md" },
+            { "安全性設定" = "pos/store/安全性設定.md" },
+            { "續購與加購方案" = "pos/store/續購與加購方案.md" },
+            { "POS 門市取貨店員分潤" = "pos/store/POS 門市取貨店員分潤.md" },
         ]},
-        { "權限管理" = [
-            { "設定前台自動登出時間" = "pos/others2/設定前台自動登出時間.md" },
-            { "員工權限與帳號管理" = "pos/others2/員工權限與帳號管理.md" },
-            { "人員登入" = "pos/others2/人員登入.md" },
+        { "人員管理" = [
+            { "設定前台自動登出時間" = "pos/store/設定前台自動登出時間.md" },
+            { "員工權限與帳號管理" = "pos/store/員工權限與帳號管理.md" },
+            { "人員登入" = "pos/store/人員登入.md" },
         ]},
         { "報表分析" = [
             { "營收分析" = "" },
@@ -504,16 +543,18 @@ copyright = """
         ]},
         {"divider" = "divider"},
         { "結帳" =[
+            { "overview" = "pos/check/index.md" },
             { "子機結帳綁定" = "pos/check/子機結帳綁定.md" },
             { "付款方式" =[
-                { "overview" = "pos/check/index.md" },
-                { "多付款方式" = "pos/check/多付款方式.md" },
+                { "overview" = "pos/check/payment-method/index.md" },
+                { "多付款方式" = "pos/check/payment-method/多付款方式.md" },
             ]},
             { "列印發票明細" = "pos/check/列印發票明細.md" },
             { "列印商品標籤" = "pos/check/列印商品標籤.md" },
             { "庫存不足通知" = "pos/check/庫存不足通知.md" },
             { "紅利商城" = "pos/check/紅利商城.md" },
             { "客顯互動遊戲" = "pos/check/客顯互動遊戲.md" },
+            { "訪客結帳" = "pos/check/訪客結帳.md" },
             { "離線結帳模式" = "pos/check/離線結帳模式.md" },
             { "掃描槍掃描後找不到商品" = "pos/check/掃描槍掃描後找不到商品.md" },
             { "混稅發票" = "pos/check/混稅發票.md" },
@@ -522,7 +563,8 @@ copyright = """
             { "overview" = "" },
         ]},
         { "訂單" =[
-            { "overview" = "pos/orders_ann/index.md" },
+            { "一般訂單管理" = "pos/orders_ann/管理一般訂單.md" },
+            { "門市取貨訂單(入庫/取貨)" = "pos/orders_ann/門市取貨訂單(入庫取貨).md" },
         ]},
         { "會員" =[
             { "overview" = "pos/member/index.md" },
@@ -816,9 +858,13 @@ toggle.name = "Switch to light mode"
 # - https://zensical.org/docs/setup/logo-and-icons
 # - https://zensical.org/docs/authoring/icons-emojis/#search
 # ----------------------------------------------------------------------------
-#[project.theme.icon]
+[project.theme.icon]
 #logo = "lucide/smile"
 #repo = "lucide/smile"
+
+[project.theme.icon.admonition]
+path = "lucide/signpost"
+plan = "lucide/tag"
 
 # ----------------------------------------------------------------------------
 # The "extra" section contains miscellaneous settings.
@@ -902,7 +948,7 @@ auto_append = ["includes/abbreviations.md"]
 [project.markdown_extensions.md_in_html]
 [project.markdown_extensions.toc]
 permalink = true
-toc_depth = 4
+toc_depth = 3
 [project.markdown_extensions.toc.slugify]
 object = "pymdownx.slugs.slugify"
 kwds = { case = "lower", unicode = true }
@@ -949,8 +995,13 @@ targets.include = [
 [project.plugins.autorefs]
 # Optional: Set how link titles are generated
 # options: "auto" (default), "true", "false", or "external"
-#link_titles = "auto"
+link_titles = "auto"
 
 # Optional: Prevent stripping of HTML tags from titles
 #strip_title_tags = false
 
+[project.markdown_extensions.zensical.extensions.glightbox]
+auto_caption = true
+
+[project.markdown_extensions.zensical.extensions.macros]
+module_name = "main"
