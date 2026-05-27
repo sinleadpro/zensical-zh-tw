@@ -44,7 +44,7 @@ features:
   - 全家 日翊
   - 萊爾富 物流
 prerequisites:
-  - 具備高手版或 PLUS 版以上系統版本
+  - 具備高手版或 PLUS版 以上系統版本
   - 準備雷射印表機及防水材質標籤
   - 登入 CYBERBIZ 管理後台
 related: []

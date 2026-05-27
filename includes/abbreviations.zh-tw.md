@@ -5,11 +5,11 @@
 *[風險歸屬]: 指在信用卡支付中，因使用 3D 驗證或其他安全機制而將交易風險責任從商家轉移至持卡人或發卡銀行的安排。若交易啟用了 3D 驗證，冒用或盜刷的責任通常由持卡人承擔；若未啟用，商家可能需要自行承擔風險。
 *[一般版]: 專業、進階、高手訂閱版本。
 *[專業版]: Boss，CYBERBIZ 電商平台的一種訂閱方案。
-*[專業 PLUS 版]: Boss Plus，CYBERBIZ 電商平台的一種訂閱方案。
+*[專業 PLUS版]: Boss Plus，CYBERBIZ 電商平台的一種訂閱方案。
 *[進階版]: Advance，CYBERBIZ 電商平台的一種訂閱方案。
-*[進階 PLUS 版]: Advance Plus，CYBERBIZ 電商平台的一種訂閱方案。
+*[進階 PLUS版]: Advance Plus，CYBERBIZ 電商平台的一種訂閱方案。
 *[高手版]: Master，CYBERBIZ 電商平台的一種訂閱方案。*
-*[高手 PLUS 版]: Master Plus，CYBERBIZ 電商平台的一種訂閱方案。
+*[高手 PLUS版]: Master Plus，CYBERBIZ 電商平台的一種訂閱方案。
 *[企業版]: Enterprise，CYBERBIZ 電商平台的一種訂閱方案。
 *[B2C]: Business to Consumer，企業（Business）直接向消費者（Consumer）銷售產品或服務的商業模式。在 B2C 模式下，企業透過線上或線下管道，直接面對最終消費者進行交易。*
 *[EC]: CYBERBIZ 電商平台，幫助商家建立品牌官網。

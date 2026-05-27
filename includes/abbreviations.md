@@ -1,7 +1,7 @@
 <!-- abbreviations -->
 *[一般版]: 專業、高手、進階方案版本。
-*[PLUS 版]: 專業版、進階 PLUS版、高手 PLUS版方案。
-*[Cyber 幣]: CYBERBIZ 系統內用於支付金物流相關服務費用及特定系統功能的虛擬計費點數，與新台幣採 1:1 固定匯率兌換，每筆扣款均有對應的費用明細可供查詢。
+*[PLUS版]: 專業版、進階 PLUS版、高手 PLUS版方案。
+*[Cyber幣]: CYBERBIZ 系統內用於支付金物流相關服務費用及特定系統功能的虛擬計費點數，與新台幣採 1:1 固定匯率兌換，每筆扣款均有對應的費用明細可供查詢。
 *[LIFF]: LINE Front-end Framework，是一個在 LINE APP 內運行網頁應用的框架。
 *[LINE OA]: LINE 官方帳號。企業或品牌在 LINE 平台上開設的專屬帳號，用於與顧客進行互動、發送行銷訊息及提供客戶服務。
 *[LAP]: LINE Ads Platform，LINE 提供的成效型廣告投放平台。
@@ -47,7 +47,7 @@
 *[退貨期限]: 商家規定顧客可申請退貨的最長時間範圍，自顧客收到商品起算。在此期限內，顧客可依退貨政策提出退貨申請；逾期將無法透過系統申請退貨，需由商家於後台處理。
 *[分潤]: 商品或服務銷售後，平台或商家按照事先設定的比例，將收入分配給合作方或相關權益人。通常用於聯名商品、合作活動或第三方銷售通路，確保各方依約獲得收益。
 *[3D 驗證]: 3D Secure，線上信用卡交易的額外身份驗證機制，持卡人在結帳時需透過 **簡訊一次性密碼（OTP）或銀行驗證頁面** 完成認證，以降低盜刷與未授權交易風險。。
-*[OTP]: One-Time Password (OTP). **一次性密碼**，由系統或銀行生成，用於線上交易或身份驗證的臨時密碼。通常只可使用一次，並在短時間內有效。
+*[OTP]: One-Time Password (OTP). 一次性密碼，由系統或銀行生成，用於線上交易或身份驗證的臨時密碼。通常只可使用一次，並在短時間內有效。
 *[Regular Plans]: Boss, Advance, Master plans.
 *[PLUS Plans]: Boss PLUS, Advance PLUS, Master PLUS plans.
 *[Professional Plan]: Boss, a subscription plan for the CYBERBIZ e-commerce platform.
