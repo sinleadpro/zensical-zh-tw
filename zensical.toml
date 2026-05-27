@@ -644,7 +644,8 @@ extra_css = ["stylesheets/extra.css"]
 #extra_javascript = ["assets/javascript/extra.js"]
 extra_javascript = [
     "https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js",
-    "javascripts/tablesort.js"
+    "javascripts/tablesort.js",
+    "javascripts/search-overlay-border.js"
 ]
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
