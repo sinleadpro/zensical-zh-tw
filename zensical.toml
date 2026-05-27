@@ -425,6 +425,7 @@ copyright = """
             { "系統通知設定" = "ec/website-management/系統通知設定.md" },
             { "網站基本資訊" = "ec/website-management/設定網站基本資訊.md" },
             { "設定多國語言與多幣別" = "ec/website-management/設定多國語言與多幣別.md" },
+            {"顧客註冊驗證" = "ec/website-management/設定顧客 Email 與手機雙重驗證.md"},
             { "續購與自動續約" = "ec/website-management/續購與自動續約.md" },
             { "設定顧客註冊流程與欄位" = "ec/website-management/設定顧客註冊流程與欄位.md" },
             { "網域管理" = "ec/website-management/網域管理.md" },
@@ -444,6 +445,8 @@ copyright = """
                 {"權限與選單對應表" = "ec/website-management/references/管理者權限與後台選單對應表.md"},
                 { "解決 HTTPS 根網址無法順利讀取問題" = "ec/website-management/解決 HTTPS 根網址無法順利讀取問題.md" },
                 { "解決 Cloudflare SSL 衝突問題" = "ec/website-management/解決 Cloudflare SSL 衝突問題.md" },
+                {"顧客驗證模式" = "ec/website-management/references/顧客欄位驗證模式對照表.md"},
+                {"顧客註冊模式" = "ec/website-management/references/顧客註冊模式對照表.md"}
             ]},
         ]},
     ]},

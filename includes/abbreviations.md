@@ -47,7 +47,7 @@
 *[退貨期限]: 商家規定顧客可申請退貨的最長時間範圍，自顧客收到商品起算。在此期限內，顧客可依退貨政策提出退貨申請；逾期將無法透過系統申請退貨，需由商家於後台處理。
 *[分潤]: 商品或服務銷售後，平台或商家按照事先設定的比例，將收入分配給合作方或相關權益人。通常用於聯名商品、合作活動或第三方銷售通路，確保各方依約獲得收益。
 *[3D 驗證]: 3D Secure，線上信用卡交易的額外身份驗證機制，持卡人在結帳時需透過 **簡訊一次性密碼（OTP）或銀行驗證頁面** 完成認證，以降低盜刷與未授權交易風險。。
-*[OTP]: One-Time Password (OTP). **一次性密碼**，由系統或銀行生成，用於線上交易或身份驗證的臨時密碼。通常只可使用一次，並在短時間內有效。
+*[OTP]: One-Time Password (OTP). 一次性密碼，由系統或銀行生成，用於線上交易或身份驗證的臨時密碼。通常只可使用一次，並在短時間內有效。
 *[Regular Plans]: Boss, Advance, Master plans.
 *[PLUS Plans]: Boss PLUS, Advance PLUS, Master PLUS plans.
 *[Professional Plan]: Boss, a subscription plan for the CYBERBIZ e-commerce platform.
