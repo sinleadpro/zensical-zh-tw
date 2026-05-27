@@ -1,42 +1,43 @@
 ---
 title: VIP 功能運作指南
-version: "1.0.0"
-last_modified: "2026-01-23"
 description: 深度解析新版 VIP 系統的滾動式計算、即時觸發判定以及升降等回溯邏輯，協助商家建立精準的會員營運觀念。
-product:
-  - EC
-module: 
-  - member
-activ: activate
-paths: 會員 > VIP 設定
-surfaces:
-  - backend
-ends:
-  - backend
-  - frontend
-devices:
-  - desktop
-  - mobile
-type: guide
-features: 
-  - VIP 制度
-  - 會員分級
-tasks: 
-  - 規劃 VIP 制度
-  - 理解 VIP 計算邏輯
-tnb: "trunk"
-plans: []
+created: 2026-01-23 00:00
+last_modified: 2026-05-25 15:18
 lang: zh-TW
-sites:
-  - TW
-status: []
+type: guide
+status: ""
+version: 1.1.1
+author: Ann
+reviewers: []
+notes: []
+ga_views: 0
+feedback: 0
+products: ["EC"]
+modules: ["會員"]
+sites: ["TW"]
+audiences: ["admin"]
 difficulty: intermediate
-audiences: 
-  - merchant
-  - operator
+tnb: trunk
+plans: []
+cyb_extensions: []
+intents: ["規劃 VIP 制度", "理解 VIP 計算邏輯"]
+features: ["VIP 制度", "會員分級"]
+prerequisites: []
+related: []
+tags: []
+acoiv: activate
+apis: []
+devices: ["desktop", "mobile"]
+ui_components: []
+paths: ["會員 > VIP 設定"]
+layouts: []
+wp_url: ["https://www.cyberbiz.io/helpcenter/?p=7505", "https://www.cyberbiz.io/support/?p=11860"]
+permalink: ""
+comments: false
 search:
-  exclude: ""
-icon: ""
+  exclude: false
+icon: 
+hide: []
 ---
 
 # VIP 功能運作指南

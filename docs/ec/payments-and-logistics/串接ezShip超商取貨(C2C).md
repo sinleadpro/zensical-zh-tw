@@ -1,54 +1,43 @@
 ---
 title: 串接 ezShip 超商取貨 (C2C)
-version: "1.1.1"
-last_modified: 2026-02-03
 description: 透過 ezShip 便利配串接，商家可以一次開啟全家、萊爾富、OK 三大超商的取貨功能，提供消費者更多元的配送選擇。
-product:
-  - EC
-module: 金物流
-activ: configure
-paths:
-  - 金物流 > 超商物流 > ezShip 台灣便利配
-surfaces:
-ends:
-  - frontend
-  - backend
-devices:
-  - desktop
-apis: []
-type: tutorial
-features:
-  - ezShip 台灣便利配
-  - 超商取貨
-  - C2C 寄件
-tasks:
-  - 申請 ezShip 會員
-  - 綁定 ezShip 帳號
-  - 設定超商取貨運費
-  - 申請超商貨到付款功能
-tnb: branch
-plans:
-  - 專業
-  - 進階
-  - 高手
-prerequisites:
-  - 需自行前往 ezShip 官網註冊帳號
-  - 確保會員註冊欄位已將「電子郵件」設為必填
+created: 2026-02-03 00:00
+last_modified: 2026-05-25 18:20
 lang: zh-TW
-sites:
-  - TW
-status: []
+type: tutorial
+status: ""
+version: 1.1.1
+author: Ann
+reviewers: []
+notes: ["內部連結"]
+ga_views: 0
+feedback: 0
+products: ["EC"]
+modules: ["金物流"]
+sites: ["TW"]
+audiences: ["admin"]
+difficulty: beginner
+tnb: branch
+plans: ["專業", "進階", "高手"]
+cyb_extensions: []
+intents: ["申請 ezShip 會員", "綁定 ezShip 帳號", "設定超商取貨運費", "申請超商貨到付款功能"]
+features: ["ezShip 台灣便利配", "超商取貨", "C2C 寄件"]
+prerequisites: ["[[申請 ezShip 帳號]]", "[[確保會員註冊欄位已將「電子郵件」設為必填]]"]
+related: []
 tags: []
-difficulty: []
-audiences: []
-wp_url:
-  - https://www.cyberbiz.io/helpcenter/?p=2524
-notes:
-  - 內部連結
-comments: ""
+acoiv: configure
+apis: []
+devices: ["desktop"]
+ui_components: []
+paths: ["金物流 > 超商物流 > ezShip 台灣便利配"]
+layouts: []
+wp_url: ["https://www.cyberbiz.io/helpcenter/?p=2524"]
+permalink: ""
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: 
+hide: []
 ---
 
 # 串接 ezShip 超商取貨 (C2C)
