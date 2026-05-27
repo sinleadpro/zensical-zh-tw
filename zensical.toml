@@ -446,9 +446,9 @@ copyright = """
                 { "解決 HTTPS 根網址無法順利讀取問題" = "ec/website-management/解決 HTTPS 根網址無法順利讀取問題.md" },
                 { "解決 Cloudflare SSL 衝突問題" = "ec/website-management/解決 Cloudflare SSL 衝突問題.md" },
                 {"顧客驗證模式" = "ec/website-management/references/顧客欄位驗證模式對照表.md"},
-                {"顧客註冊模式" = "ec/website-management/references/顧客註冊模式對照表.md"}
+                {"顧客註冊模式" = "ec/website-management/references/顧客註冊模式對照表.md"},
                 { "無法讀取 HTTPS 根網址" = "ec/website-management/無法讀取 HTTPS 根網址.md" },
-                { "Cloudflare SSL 衝突" = "ec/website-management/Cloudflare SSL 衝突.md" },
+                { "Cloudflare SSL 衝突" = "ec/website-management/Cloudflare SSL 衝突.md" }
             ]},
         ]},
     ]},
