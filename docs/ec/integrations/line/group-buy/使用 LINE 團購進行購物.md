@@ -69,8 +69,6 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 企業
 { .doc-badge }
 
-![](../../../../assets/images/ec-第三方整合-line團購-顧客購物流程.png){ .hero-page }
-
 ## LINE 團購購物說明
 
 LINE 團購功能的顧客即為 **LINE 群組或多人聊天室的成員**。顧客主要透過與 **團購機器人** 互動來進行選購與結帳。
