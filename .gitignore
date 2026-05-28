@@ -25,7 +25,10 @@ Thumbs.db
 # Ptyhon
 .venv/
 env/
-
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
 duckops/
 
 
