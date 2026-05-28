@@ -2,7 +2,7 @@
 title: 設定 iPASS MONEY 支付
 description: 指引商家申請並串接 iPASS MONEY（一卡通）支付服務。涵蓋申請規範、必要證明文件、2-4 週審核時程及後台金鑰配置流程。
 created: 2026-03-16 00:00
-last_modified: 2026-05-26 14:26
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: tutorial
 status: ""
@@ -12,31 +12,52 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: ["EC"]
-modules: ["金物流"]
-sites: ["TW"]
-audiences: ["admin"]
+products:
+  - EC
+modules:
+  - 金物流
+sites:
+  - TW
+audiences:
+  - admin
 difficulty: intermediate
 tnb: trunk
 plans: []
 cyb_extensions: []
-intents: ["提交_iPASS_MONEY_申請", "配置_Channel_ID_與_Secret", "綁定物流支付方式"]
-features: ["iPASS MONEY", "行動支付", "一卡通串接"]
-prerequisites: ["需備妥公司登記證明與負責人證件影本", "需具備銀行存摺影本（戶名需與公司名一致）"]
+intents:
+  - 提交_iPASS_MONEY_申請
+  - 配置_Channel_ID_與_Secret
+  - 綁定物流支付方式
+features:
+  - iPASS MONEY
+  - 行動支付
+  - 一卡通串接
+prerequisites:
+  - 需備妥公司登記證明與負責人證件影本
+  - 需具備銀行存摺影本（戶名需與公司名一致）
 related: []
-tags: ["行動支付"]
+tags:
+  - 行動支付
 acoiv: configure
 apis: []
-devices: ["desktop", "mobile"]
-ui_components: ["一卡通設定頁面", "自訂物流編輯頁面"]
-paths: ["金物流 > 金流設定 > 一卡通", "金物流 > 自訂物流"]
+devices:
+  - desktop
+  - mobile
+ui_components:
+  - 一卡通設定頁面
+  - 自訂物流編輯頁面
+paths:
+  - 金物流 > 金流設定 > 一卡通
+  - 金物流 > 自訂物流
 layouts: []
-wp_url: ["https://www.cyberbiz.io/helpcenter/?p=12633", "https://www.cyberbiz.io/support/?p=51378"]
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=12633
+  - https://www.cyberbiz.io/support/?p=51378
 permalink: ""
 comments: false
 search:
   exclude: false
-icon: 
+icon: ""
 hide: []
 ---
 

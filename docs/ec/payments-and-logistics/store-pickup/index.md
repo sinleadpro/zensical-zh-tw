@@ -2,7 +2,7 @@
 title: 門市取貨：虛實整合營運導航
 description: 整合線上購物與線下取貨，提供顧客彈性的購物體驗，並透過後台與 POS 系統的高效協作，優化 OMO 營運效率。
 created: 2026-04-27 16:55
-last_modified: 2026-04-27 16:55
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: guide
 status: ""
@@ -12,32 +12,70 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: ["EC", "POS"]
-modules: ["金物流", "訂單", "分潤"]
-sites: ["TW"]
-audiences: ["admin", "clerk"]
+products:
+  - EC
+  - POS
+modules:
+  - 金物流
+  - 訂單
+  - 分潤
+sites:
+  - TW
+audiences:
+  - admin
+  - clerk
 difficulty: intermediate
 tnb: branch
-plans: ["進階 PLUS", "高手 PLUS", "企業"]
+plans:
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 cyb_extensions: []
-intents: ["設定門市取貨", "處理門市取貨訂單", "門市包裹入庫", "顧客到店取貨"]
-features: ["門市取貨", "POS_門市取貨", "店員分潤"]
+intents:
+  - 設定門市取貨
+  - 處理門市取貨訂單
+  - 門市包裹入庫
+  - 顧客到店取貨
+features:
+  - 門市取貨
+  - POS_門市取貨
+  - 店員分潤
 prerequisites: []
-related: ["[[建立門市]]", "[[開啟門市取貨服務]]", "[[門市取貨訂單出貨]]", "[[門市取貨訂單(入庫取貨)]]", "[[POS 門市取貨店員分潤]]"]
-tags: ["門市取貨", "OMO", "虛實整合", "到店取貨"]
+related:
+  - [[建立門市]]
+  - [[開啟門市取貨服務]]
+  - [[門市取貨訂單出貨]]
+  - [[門市取貨訂單(入庫取貨)]]
+  - [[POS 門市取貨店員分潤]]
+tags:
+  - 門市取貨
+  - OMO
+  - 虛實整合
+  - 到店取貨
 acoiv: configure
 apis: []
-devices: ["desktop", "mobile", "tablet"]
-ui_components: ["門市取貨設定", "門市訂單", "到店條碼"]
-paths: ["金物流 > 所有門市", "訂單 > 門市訂單", "分潤 > 門市取貨店員分潤"]
-layouts: ["classic"]
+devices:
+  - desktop
+  - mobile
+  - tablet
+ui_components:
+  - 門市取貨設定
+  - 門市訂單
+  - 到店條碼
+paths:
+  - 金物流 > 所有門市
+  - 訂單 > 門市訂單
+  - 分潤 > 門市取貨店員分潤
+layouts:
+  - classic
 wp_url: []
 permalink: ""
 comments: false
 search:
   exclude: false
 icon: lucide/store
-hide: ["feedback"]
+hide:
+  - feedback
 ---
 
 # 門市取貨：虛實整合營運導航

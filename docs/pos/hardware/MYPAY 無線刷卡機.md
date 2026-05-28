@@ -2,36 +2,68 @@
 title: MYPAY 無線刷卡機
 description: 透過商米（Sunmi）無線刷卡發票機，商家可以結合平板電腦實現「移動式 POS」店點適合快閃店、外帶櫃檯或大型門市的機動結帳需求。
 created: 2026-03-25 17:30
-last_modified: 2026-03-25 17:30
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: tutorial
 status: ""
 version: 1.1.1
 author: Ann
 reviewers: []
-notes: ["確認：MYPAY可以用星益欣發票嗎"]
+notes:
+  - 確認：MYPAY可以用星益欣發票嗎
 ga_views: 0
 feedback: 0
-products: [POS]
-modules: ["所有 POS 商店"]
-sites: [TW]
-audiences: [admin, clerk]
+products:
+  - POS
+modules:
+  - 所有 POS 商店
+sites:
+  - TW
+audiences:
+  - admin
+  - clerk
 difficulty: intermediate
 tnb: branch
-plans: [進階 PLUS, 高手 PLUS, 企業]
+plans:
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 cyb_extensions: []
-intents: ["如何安裝商米刷卡機", "商米V3H設定教學", "商米P2_Pro設定教學", "MyPay金流串接步驟"]
-features: ["商米刷卡機", "MyPay金流", "移動式POS", "Webhook回報"]
-prerequisites: ["[[POS 前台登入與基礎操作]]"]
-related: ["[[POS 網路連線異常與斷線提示說明]]"]
-tags: ["商米", "SUNMI", "MyPay", "刷卡機", "發票機", "移動POS"]
+intents:
+  - 如何安裝商米刷卡機
+  - 商米V3H設定教學
+  - 商米P2_Pro設定教學
+  - MyPay金流串接步驟
+features:
+  - 商米刷卡機
+  - MyPay金流
+  - 移動式POS
+  - Webhook回報
+prerequisites:
+  - [[POS 前台登入與基礎操作]]
+related:
+  - [[POS 網路連線異常與斷線提示說明]]
+tags:
+  - 商米
+  - SUNMI
+  - MyPay
+  - 刷卡機
+  - 發票機
+  - 移動POS
 acoiv: configure
 apis: []
-devices: [tablet]
-ui_components: ["MyPay特店商務代號", "特店金鑰", "交易回報網址"]
-paths: ["POS 功能 > 所有 POS 商店 > 商店設定"]
+devices:
+  - tablet
+ui_components:
+  - MyPay特店商務代號
+  - 特店金鑰
+  - 交易回報網址
+paths:
+  - POS 功能 > 所有 POS 商店 > 商店設定
 layouts: []
-wp_url: ["https://www.cyberbiz.io/support/?p=51450", "https://www.cyberbiz.io/support/?p=21480"]
+wp_url:
+  - https://www.cyberbiz.io/support/?p=51450
+  - https://www.cyberbiz.io/support/?p=21480
 permalink: ""
 comments: false
 search:

@@ -2,36 +2,66 @@
 title: Posiflex 有線發票機
 description: 安裝 Posiflex 發票機，包含驅動程式安裝、硬體連線、發票樣式測試及常見故障排除方法。
 created: 2026-03-25 18:45
-last_modified: 2026-03-25 18:45
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: tutorial
 status: ""
 version: 1.1.1
 author: Ann
 reviewers: []
-notes: ["確認：是否支援星益欣、常見問題1驅動程式檔案連結是否有效"]
+notes:
+  - 確認：是否支援星益欣、常見問題1驅動程式檔案連結是否有效
 ga_views: 0
 feedback: 0
-products: [POS]
-modules: ["所有 POS 商店"]
-sites: [TW]
-audiences: [admin, clerk]
+products:
+  - POS
+modules:
+  - 所有 POS 商店
+sites:
+  - TW
+audiences:
+  - admin
+  - clerk
 difficulty: intermediate
 tnb: branch
-plans: [進階 PLUS, 高手 PLUS, 企業]
+plans:
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 cyb_extensions: []
-intents: ["如何安裝Posiflex發票機", "發票機連線失敗排解", "發票印出來是空白怎麼辦", "發票機隔板安裝教學"]
-features: ["發票機串接", "自動開立發票", "盟立加值中心整合", "硬體連線診斷"]
+intents:
+  - 如何安裝Posiflex發票機
+  - 發票機連線失敗排解
+  - 發票印出來是空白怎麼辦
+  - 發票機隔板安裝教學
+features:
+  - 發票機串接
+  - 自動開立發票
+  - 盟立加值中心整合
+  - 硬體連線診斷
 prerequisites: []
 related: []
-tags: ["Posiflex", "發票機", "盟立發票", "POS_硬體", "電子發票"]
+tags:
+  - Posiflex
+  - 發票機
+  - 盟立發票
+  - POS_硬體
+  - 電子發票
 acoiv: configure
 apis: []
-devices: [desktop]
-ui_components: ["POS 驅動程式", "熱感應發票機", "快速測試", "自動開立發票"]
-paths: ["POS 功能 > 所有 POS 商店 > 修改 POS 設定"]
+devices:
+  - desktop
+ui_components:
+  - POS 驅動程式
+  - 熱感應發票機
+  - 快速測試
+  - 自動開立發票
+paths:
+  - POS 功能 > 所有 POS 商店 > 修改 POS 設定
 layouts: []
-wp_url: ["https://www.cyberbiz.io/support/?p=4225", "https://www.cyberbiz.io/support/?p=5064"]
+wp_url:
+  - https://www.cyberbiz.io/support/?p=4225
+  - https://www.cyberbiz.io/support/?p=5064
 permalink: ""
 comments: false
 search:

@@ -2,7 +2,7 @@
 title: Step 1 安裝與授權商店
 description: 透過「全通路管理助手」，您可以將蝦皮商店的商品快速同步至 CYBERBIZ 官網，省去手動建立商品的時間。
 created: 2026-02-25 00:00
-last_modified: 2026-05-25 17:53
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: tutorial
 status: ""
@@ -12,31 +12,51 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: ["EC"]
-modules: ["APP MARKET"]
-sites: ["TW"]
-audiences: ["admin"]
+products:
+  - EC
+modules:
+  - APP MARKET
+sites:
+  - TW
+audiences:
+  - admin
 difficulty: beginner
 tnb: branch
-plans: ["專業 PLUS", "進階 PLUS", "高手 PLUS", "企業"]
-cyb_extensions: ["CHANNEL BRIDGE"]
-intents: ["安裝全通路助手", "授權蝦皮商店"]
-features: ["蝦皮商品搬站", "全通路管理助手"]
-prerequisites: ["[[需具備蝦皮台灣站 (TW) 賣家帳號]]"]
+plans:
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions:
+  - CHANNEL BRIDGE
+intents:
+  - 安裝全通路助手
+  - 授權蝦皮商店
+features:
+  - 蝦皮商品搬站
+  - 全通路管理助手
+prerequisites:
+  - [[需具備蝦皮台灣站 (TW) 賣家帳號]]
 related: []
-tags: ["商品匯入"]
+tags:
+  - 商品匯入
 acoiv: configure
 apis: []
-devices: ["desktop"]
+devices:
+  - desktop
 ui_components: []
-paths: ["App Market > 我的應用程式", "商品 > 所有商品"]
+paths:
+  - App Market > 我的應用程式
+  - 商品 > 所有商品
 layouts: []
-wp_url: ["https://www.cyberbiz.io/helpcenter/?p=365","https://www.cyberbiz.io/support/?p=3532"]
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=365
+  - https://www.cyberbiz.io/support/?p=3532
 permalink: ""
 comments: false
 search:
   exclude: false
-icon: 
+icon: ""
 hide: []
 ---
 

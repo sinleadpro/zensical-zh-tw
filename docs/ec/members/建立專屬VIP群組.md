@@ -2,41 +2,57 @@
 title: 建立專屬VIP群組
 description: 透過 VIP 群組標籤功能，針對特定客層綁定標籤並設定專屬 VIP 規則，實現分群經營與精準行銷。
 created: 2026-01-23 00:00
-last_modified: 2026-05-25 15:18
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: tutorial
 status: ""
 version: 1.1.1
 author: Ann
 reviewers: []
-notes: ["有效訂單連結"]
+notes:
+  - 有效訂單連結
 ga_views: 0
 feedback: 0
-products: ["EC"]
-modules: ["會員"]
-sites: ["TW"]
-audiences: ["admin"]
+products:
+  - EC
+modules:
+  - 會員
+sites:
+  - TW
+audiences:
+  - admin
 difficulty: intermediate
 tnb: trunk
 plans: []
 cyb_extensions: []
-intents: ["建立 VIP 群組標籤", "設定標籤排序"]
-features: ["VIP 制度", "VIP 群組標籤"]
+intents:
+  - 建立 VIP 群組標籤
+  - 設定標籤排序
+features:
+  - VIP 制度
+  - VIP 群組標籤
 prerequisites: []
 related: []
-tags: ["VIP", "會員標籤"]
+tags:
+  - VIP
+  - 會員標籤
 acoiv: configure
 apis: []
-devices: ["desktop", "mobile"]
+devices:
+  - desktop
+  - mobile
 ui_components: []
-paths: ["會員 > VIP 設定"]
+paths:
+  - 會員 > VIP 設定
 layouts: []
-wp_url: ["https://www.cyberbiz.io/helpcenter/?p=8621", "https://www.cyberbiz.io/support/?p=32733"]
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=8621
+  - https://www.cyberbiz.io/support/?p=32733
 permalink: ""
 comments: false
 search:
   exclude: false
-icon: 
+icon: ""
 hide: []
 ---
 

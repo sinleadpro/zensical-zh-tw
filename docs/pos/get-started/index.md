@@ -2,7 +2,7 @@
 title: 開始使用
 description: 介紹 CYBERBIZ POS 系統的硬體設備需求、軟體安裝、第三方服務申請及系統運作基礎概念，協助您完成門市營運的第一步。
 created: 2026-04-17 12:00
-last_modified: 2026-04-27 17:45
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: guide
 status: ""
@@ -12,26 +12,47 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: ["POS"]
-modules: ["POS"]
-sites: ["TW"]
-audiences: ["admin"]
+products:
+  - POS
+modules:
+  - POS
+sites:
+  - TW
+audiences:
+  - admin
 difficulty: beginner
 tnb: trunk
-plans: ["進階 PLUS", "高手 PLUS", "企業"]
+plans:
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 cyb_extensions: []
-intents: ["POS 開通準備", "硬體設備清單", "軟體安裝", "理解帳號權限"]
-features: ["智能 POS", "庫存連動", "帳號管理"]
+intents:
+  - POS 開通準備
+  - 硬體設備清單
+  - 軟體安裝
+  - 理解帳號權限
+features:
+  - 智能 POS
+  - 庫存連動
+  - 帳號管理
 prerequisites: []
 related: []
-tags: ["開始使用", "硬體清單", "軟體安裝", "POS 基礎"]
+tags:
+  - 開始使用
+  - 硬體清單
+  - 軟體安裝
+  - POS 基礎
 acoiv: activate
 apis: []
-devices: ["desktop", "tablet"]
+devices:
+  - desktop
+  - tablet
 ui_components: []
 paths: []
 layouts: []
-wp_url: ["https://www.cyberbiz.io/support/?p=5012"]
+wp_url:
+  - https://www.cyberbiz.io/support/?p=5012
 permalink: ""
 comments: false
 search:

@@ -2,36 +2,59 @@
 title: CYBERBIZ EXPRESS 日到台跨境宅配
 description: 一站式日本跨境直送台灣物流服務，涵蓋開通設定、跨境商品報關資訊填寫及訂單出貨流程。
 created: 2026-03-03 00:00
-last_modified: 2026-05-26 14:46
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: tutorial
 status: ""
 version: 1.1.1
 author: Ann
 reviewers: []
-notes: ["跨境GL版本徽章", "內部連結：購物車相關設定、訂單相關設定"]
+notes:
+  - 跨境GL版本徽章
+  - 內部連結：購物車相關設定、訂單相關設定
 ga_views: 0
 feedback: 0
-products: ["EC"]
-modules: ["APP MARKET"]
-sites: ["JP"]
-audiences: ["admin"]
+products:
+  - EC
+modules:
+  - APP MARKET
+sites:
+  - JP
+audiences:
+  - admin
 difficulty: intermediate
 tnb: branch
-plans: ["日到台"]
-cyb_extensions: ["EXPRESS"]
-intents: ["設定跨境出貨地址", "填寫跨境商品資訊", "建立跨境託運單"]
-features: ["日到台跨境物流", "EZWAY_報關", "跨境運費自動計算"]
-prerequisites: ["需向開店顧問團隊申請開通服務", "需具備日本出貨地址 (倉庫或商家處)"]
+plans:
+  - 日到台
+cyb_extensions:
+  - EXPRESS
+intents:
+  - 設定跨境出貨地址
+  - 填寫跨境商品資訊
+  - 建立跨境託運單
+features:
+  - 日到台跨境物流
+  - EZWAY_報關
+  - 跨境運費自動計算
+prerequisites:
+  - 需向開店顧問團隊申請開通服務
+  - 需具備日本出貨地址 (倉庫或商家處)
 related: []
-tags: ["跨境電商", "EZWAY 報關"]
+tags:
+  - 跨境電商
+  - EZWAY 報關
 acoiv: operation
 apis: []
-devices: ["desktop"]
+devices:
+  - desktop
 ui_components: []
-paths: ["App Market > 我的擴充服務 > CYBERBIZ EXPRESS", "商品 > 所有商品", "訂單 > 所有訂單"]
+paths:
+  - App Market > 我的擴充服務 > CYBERBIZ EXPRESS
+  - 商品 > 所有商品
+  - 訂單 > 所有訂單
 layouts: []
-wp_url: ["https://www.cyberbiz.io/support/?p=51481"]
+wp_url:
+  - https://www.cyberbiz.io/support/?p=51481
 permalink: ""
 comments: false
 search:

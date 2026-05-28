@@ -2,7 +2,7 @@
 title: Step 5 官網與蝦皮商品資訊同步
 description: 建立關聯後，您可以透過 商品資訊同步 機制，讓官網與蝦皮賣場的商品資料維持一致。當您在官網修改圖文或價格後，可一鍵同步至蝦皮，無需重複編輯。
 created: 2026-02-25 00:00
-last_modified: 2026-05-25 17:53
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: tutorial
 status: ""
@@ -12,31 +12,52 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: ["EC"]
-modules: ["APP MARKET"]
-sites: ["TW"]
-audiences: ["admin"]
+products:
+  - EC
+modules:
+  - APP MARKET
+sites:
+  - TW
+audiences:
+  - admin
 difficulty: beginner
 tnb: branch
-plans: ["專業 PLUS", "進階 PLUS", "高手 PLUS", "企業"]
-cyb_extensions: ["CHANNEL BRIDGE"]
-intents: ["設定同步開關", "編輯共用欄位", "執行資訊更新"]
-features: ["蝦皮商品搬站", "商品資訊同步"]
-prerequisites: ["[[Step 1~4，確保商品已建立關聯]]", "[[官網商品欄位需符合蝦皮規範]]"]
+plans:
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions:
+  - CHANNEL BRIDGE
+intents:
+  - 設定同步開關
+  - 編輯共用欄位
+  - 執行資訊更新
+features:
+  - 蝦皮商品搬站
+  - 商品資訊同步
+prerequisites:
+  - [[Step 1~4，確保商品已建立關聯]]
+  - [[官網商品欄位需符合蝦皮規範]]
 related: []
 tags: []
 acoiv: configure
 apis: []
-devices: ["desktop"]
+devices:
+  - desktop
 ui_components: []
-paths: ["商品 > 所有商品", "App Market > 我的擴充服務 > CYBERBIZ CHANNEL BRIDGE"]
+paths:
+  - 商品 > 所有商品
+  - App Market > 我的擴充服務 > CYBERBIZ CHANNEL BRIDGE
 layouts: []
-wp_url: ["https://www.cyberbiz.io/helpcenter/?p=12690", "https://www.cyberbiz.io/support/?p=5362"]
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=12690
+  - https://www.cyberbiz.io/support/?p=5362
 permalink: ""
 comments: false
 search:
   exclude: false
-icon: 
+icon: ""
 hide: []
 ---
 

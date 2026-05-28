@@ -2,36 +2,59 @@
 title: 付款方式
 description: 管理 POS 前台提供的支付工具，包含現金、信用卡串接及行動支付。
 created: 2026-04-10 16:30
-last_modified: 2026-04-10 16:30
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: tutorial
 status: ""
 version: 1.1.1
 author: Ann
 reviewers: []
-notes: ["其他付款方式是否需要文件"]
+notes:
+  - 其他付款方式是否需要文件
 ga_views: 0
 feedback: 0
-products: ["POS"]
-modules: ["所有POS門市"]
-sites: ["TW"]
-audiences: ["admin"]
+products:
+  - POS
+modules:
+  - 所有POS門市
+sites:
+  - TW
+audiences:
+  - admin
 difficulty: beginner
 tnb: branch
-plans: ["進階 PLUS", "高手 PLUS", "企業"]
+plans:
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 cyb_extensions: []
-intents: ["設定_POS_付款方式", "串接信用卡機", "設定行動支付"]
-features: ["POS_付款方式", "信用卡機串接", "多付款方式"]
+intents:
+  - 設定_POS_付款方式
+  - 串接信用卡機
+  - 設定行動支付
+features:
+  - POS_付款方式
+  - 信用卡機串接
+  - 多付款方式
 prerequisites: []
 related: []
-tags: ["POS_付款方式", "信用卡", "LINE_Pay", "行動支付"]
+tags:
+  - POS_付款方式
+  - 信用卡
+  - LINE_Pay
+  - 行動支付
 acoiv: configure
 apis: []
-devices: ["tablet", "desktop"]
-ui_components: ["付款方式"]
-paths: ["POS 功能 > 所有 POS 商店 > 付款方式"]
+devices:
+  - tablet
+  - desktop
+ui_components:
+  - 付款方式
+paths:
+  - POS 功能 > 所有 POS 商店 > 付款方式
 layouts: []
-wp_url: ["https://www.cyberbiz.io/support/?p=4518"]
+wp_url:
+  - https://www.cyberbiz.io/support/?p=4518
 permalink: ""
 comments: false
 search:

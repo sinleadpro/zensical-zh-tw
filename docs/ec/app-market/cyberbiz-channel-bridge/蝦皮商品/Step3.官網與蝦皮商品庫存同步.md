@@ -2,7 +2,7 @@
 title: Step 3 官網與蝦皮商店庫存同步
 description: 透過建立商品關聯與開啟同步功能，您可以讓官網與蝦皮商店的庫存維持連動。當任一端產生訂單或在官網修改庫存時，系統將自動更新兩端的剩餘數量。
 created: 2026-02-26 00:00
-last_modified: 2026-05-25 17:53
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: tutorial
 status: ""
@@ -12,31 +12,54 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: ["EC"]
-modules: ["商品", "APP MARKET"]
-sites: ["TW"]
-audiences: ["admin"]
+products:
+  - EC
+modules:
+  - 商品
+  - APP MARKET
+sites:
+  - TW
+audiences:
+  - admin
 difficulty: beginner
 tnb: branch
-plans: ["專業 PLUS", "進階 PLUS", "高手 PLUS", "企業"]
-cyb_extensions: ["CHANNEL BRIDGE"]
-intents: ["建立商品關聯", "開啟庫存同步功能", "解除商品關聯"]
-features: ["蝦皮商品搬站", "庫存自動同步", "商品關聯管理"]
-prerequisites: ["[[Step 1 安裝與授權商店]]", "[[確認官網商品已具備唯一且正確的 SKU (商品編號)]]"]
+plans:
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions:
+  - CHANNEL BRIDGE
+intents:
+  - 建立商品關聯
+  - 開啟庫存同步功能
+  - 解除商品關聯
+features:
+  - 蝦皮商品搬站
+  - 庫存自動同步
+  - 商品關聯管理
+prerequisites:
+  - [[Step 1 安裝與授權商店]]
+  - [[確認官網商品已具備唯一且正確的 SKU (商品編號)]]
 related: []
 tags: []
 acoiv: configure
 apis: []
-devices: ["desktop"]
+devices:
+  - desktop
 ui_components: []
-paths: ["商品 > 所有商品", "App Market > 我的擴充服務 > CYBERBIZ CHANNEL BRIDGE"]
+paths:
+  - 商品 > 所有商品
+  - App Market > 我的擴充服務 > CYBERBIZ CHANNEL BRIDGE
 layouts: []
-wp_url: ["https://www.cyberbiz.io/helpcenter/?p=12648", "https://www.cyberbiz.io/support/?p=51142"]
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=12648
+  - https://www.cyberbiz.io/support/?p=51142
 permalink: ""
 comments: false
 search:
   exclude: false
-icon: 
+icon: ""
 hide: []
 ---
 

@@ -2,34 +2,61 @@
 title: EPSON 有線發票機
 description: 了解如何安裝 EPSON TM-T82III 發票機，包含硬體整備、Virtual Port Driver 驅動安裝、COM Port 指派以及紙張寬度調整。
 created: 2026-03-25 20:45
-last_modified: 2026-03-25 20:45
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: tutorial
 status: ""
 version: 1.1.1
 author: Ann
 reviewers: []
-notes: ["內部連結：POS驅動程式"]
+notes:
+  - 內部連結：POS驅動程式
 ga_views: 0
 feedback: 0
-products: [POS]
-modules: ["POS 功能"]
-sites: [TW]
-audiences: [admin, clerk]
+products:
+  - POS
+modules:
+  - POS 功能
+sites:
+  - TW
+audiences:
+  - admin
+  - clerk
 difficulty: intermediate
 tnb: branch
-plans: [進階 PLUS, 高手 PLUS, 企業]
+plans:
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 cyb_extensions: []
-intents: ["如何安裝EPSON發票機", "TM-T82III驅動程式下載", "解決EPSON發票機COM_Port衝突", "調整發票列印寬度"]
-features: ["發票機串接", "TM_Virtual_Port_Driver", "58mm發票列印", "自動裁刀"]
+intents:
+  - 如何安裝EPSON發票機
+  - TM-T82III驅動程式下載
+  - 解決EPSON發票機COM_Port衝突
+  - 調整發票列印寬度
+features:
+  - 發票機串接
+  - TM_Virtual_Port_Driver
+  - 58mm發票列印
+  - 自動裁刀
 prerequisites: []
 related: []
-tags: ["EPSON", "發票機", "TM-T82III", "POS_硬體", "驅動程式"]
+tags:
+  - EPSON
+  - 發票機
+  - TM-T82III
+  - POS_硬體
+  - 驅動程式
 acoiv: configure
 apis: []
-devices: [desktop]
-ui_components: ["POS 驅動程式", "Port Assignment Tool", "TM-T82III Utility"]
-paths: ["POS 功能 > 所有 POS 商店 > 修改 POS 設定"]
+devices:
+  - desktop
+ui_components:
+  - POS 驅動程式
+  - Port Assignment Tool
+  - TM-T82III Utility
+paths:
+  - POS 功能 > 所有 POS 商店 > 修改 POS 設定
 layouts: []
 wp_url: []
 permalink: ""
