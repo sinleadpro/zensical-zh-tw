@@ -46,3 +46,5 @@ duckops/
 # Ann's files
 .cursorindexingignore
 .cursor/
+.vscode/
+workspace/
