@@ -2,9 +2,9 @@
 title: 操作全家冷凍店到店 C2C 出貨
 description: 操作全家冷凍店到店 C2C 出貨，包括設定流程、訂單出貨、包裝規範、寄件時效及異常處理。
 created:
-last_modified: 2026-02-02
+last_modified: 2026-05-28 21:11
 lang: zh-TW
-permalink:
+permalink: https://help.cyberbiz.io/ec/orders/操作全家冷凍店到店 C2C 出貨
 type: tutorial
 status:
 version:

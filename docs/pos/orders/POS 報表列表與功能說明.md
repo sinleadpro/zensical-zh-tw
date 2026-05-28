@@ -37,7 +37,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: ""
+permalink: https://help.cyberbiz.io/pos/orders/POS 報表列表與功能說明
 comments: ""
 search:
   exclude: ""

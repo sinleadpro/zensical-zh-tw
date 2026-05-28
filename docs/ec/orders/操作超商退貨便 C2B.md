@@ -4,7 +4,7 @@ description: 設定及操作 7-11 超商退貨便 (C2B)
 created:
 last_modified: 2026-02-02
 lang: zh-TW
-permalink:
+permalink: https://help.cyberbiz.io/ec/orders/操作超商退貨便 C2B
 type: tutorial
 status:
 version:
