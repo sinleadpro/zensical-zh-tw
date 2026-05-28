@@ -25,6 +25,8 @@ views:
       - prerequisites
       - notes
     sort:
+      - property: wp_url
+        direction: DESC
       - property: tags
         direction: ASC
       - property: file.name
