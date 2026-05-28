@@ -8,19 +8,149 @@
   <meta property="og:image" content="https://help.cyberbiz.io/assets/images/og-fallback.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
+  {% set meta = page.meta | default({}) %}
+  {% set ancestors = page.ancestors | default([]) %}
+  {% set all_deps = [] %}
+
+  {% if meta.products %}
+    {% set all_deps = all_deps + meta.products %}
+  {% endif %}
+
+  {% if meta.modules %}
+    {% set all_deps = all_deps + meta.modules %}
+  {% endif %}
+
+  {% if meta.features %}
+    {% set all_deps = all_deps + meta.features %}
+  {% endif %}
+
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "TechArticle",
-    "headline": "{{ page.title | default('CYBERBIZ DOCS') }}",
-    "description": "{{ page.description | default('官方線上技術文件與操作指南') }}",
-    "url": "https://help.cyberbiz.io/{{ page.url }}",
-    "inLanguage": "zh-TW",
-    "publisher": {
-      "@type": "Organization",
-      "name": "CYBERBIZ",
-      "url": "https://www.cyberbiz.io"
-    }
+    "@graph": [
+      {
+        "@type": "TechArticle",
+
+        "@id": {{ ("https://help.cyberbiz.io/" ~ page.url ~ "#article") | tojson }},
+
+        "headline": {{ meta.title | default(page.title) | tojson }},
+
+        "description": {{ meta.description | default("官方線上技術文件與操作指南") | tojson }},
+
+        "url": {{ ("https://help.cyberbiz.io/" ~ page.url) | tojson }},
+
+        "inLanguage": {{ meta.lang | default("zh-TW") | tojson }},
+
+        {% if meta.created %}
+        "datePublished": "{{ meta.created | replace(' ', 'T') }}:00+08:00",
+        {% endif %}
+
+        {% if meta.last_modified %}
+        "dateModified": "{{ meta.last_modified | replace(' ', 'T') }}:00+08:00",
+        {% endif %}
+
+        {% if meta.version %}
+        "version": {{ meta.version | tojson }},
+        {% endif %}
+
+        "author": {
+          "@type": "Person",
+          "name": {{ meta.author | default("CYBERBIZ 技術團隊") | tojson }}
+        },
+
+        "publisher": {
+          "@type": "Organization",
+          "name": "CYBERBIZ",
+          "url": "https://www.cyberbiz.io",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.cyberbiz.io/wp-content/themes/cyberbiz/images/logo.svg"
+          }
+        },
+
+        {% if meta.tags %}
+        "keywords": {{ meta.tags | join(", ") | tojson }},
+        {% endif %}
+
+        "educationalLevel": {{ meta.difficulty | default("beginner") | tojson }},
+
+        "dependencies": [
+          {% for d in all_deps %}
+            {{ d | tojson }}{% if not loop.last or meta.plans %},{% endif %}
+          {% endfor %}
+
+          {% if meta.plans %}
+            {% for pl in meta.plans %}
+              {{ (pl ~ " 方案") | tojson }}{% if not loop.last %},{% endif %}
+            {% endfor %}
+          {% endif %}
+        ],
+
+        {% if meta.prerequisites and meta.prerequisites | length > 0 %}
+        "requirements": [
+          {% for req in meta.prerequisites %}
+            {{ req | tojson }}{% if not loop.last %},{% endif %}
+          {% endfor %}
+        ],
+        {% endif %}
+
+        {% if meta.wp_url and meta.wp_url | length > 0 %}
+        "sameAs": {{ meta.wp_url[0] | tojson }},
+        {% endif %}
+
+        "mainEntityOfPage": {{ ("https://help.cyberbiz.io/" ~ page.url) | tojson }}
+      },
+
+      {
+        "@type": "BreadcrumbList",
+
+        "@id": {{ ("https://help.cyberbiz.io/" ~ page.url ~ "#breadcrumb") | tojson }},
+
+        "itemListElement": [
+
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "主頁",
+            "item": "https://help.cyberbiz.io/"
+          }
+
+          {% for ancestor in ancestors %}
+          ,{
+            "@type": "ListItem",
+            "position": {{ loop.index + 1 }},
+            "name": {{ ancestor.title | tojson }},
+            "item": {{ ("https://help.cyberbiz.io/" ~ ancestor.url) | tojson }}
+          }
+          {% endfor %}
+
+          ,{
+            "@type": "ListItem",
+            "position": {{ (ancestors | length) + 2 }},
+            "name": {{ meta.title | default(page.title) | tojson }},
+            "item": {{ ("https://help.cyberbiz.io/" ~ page.url) | tojson }}
+          }
+
+        ]
+      }
+    ]
   }
   </script>
+
+
+  <!-- <script type="application/ld+json"> -->
+  <!-- { -->
+  <!--   "@context": "https://schema.org", -->
+  <!--   "@type": "TechArticle", -->
+  <!--   "headline": "{{ page.title | default('CYBERBIZ DOCS') }}", -->
+  <!--   "description": "{{ page.description | default('官方線上技術文件與操作指南') }}", -->
+  <!--   "url": "https://help.cyberbiz.io/{{ page.url }}", -->
+  <!--   "inLanguage": "zh-TW", -->
+  <!--   "publisher": { -->
+  <!--     "@type": "Organization", -->
+  <!--     "name": "CYBERBIZ", -->
+  <!--     "url": "https://www.cyberbiz.io" -->
+  <!--   } -->
+  <!-- } -->
+  <!-- </script> -->
 {% endblock %}
