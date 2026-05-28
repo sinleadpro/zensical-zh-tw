@@ -673,6 +673,7 @@ custom_dir = "overrides"
 # - https://zensical.org/docs/setup/logo-and-icons/#favicon
 # - https://developer.mozilla.org/en-US/docs/Glossary/Favicon
 #
+logo = "assets/images/favicon.png"
 favicon = "assets/images/favicon.png"
 
 # Zensical supports more than 60 different languages. This means that the
