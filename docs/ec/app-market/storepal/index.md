@@ -2,7 +2,7 @@
 title: 門市助理
 description: 專為線下門市設計的 OMO 銷售工具，整合官網會員數據與資產，協助店員實現精準識客、深度洞察與價值變現。
 created: 2026-05-05 11:20
-last_modified: 2026-05-05 11:20
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: guide
 status: ""
@@ -12,25 +12,49 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: ["EC"]
-modules: ["門市助理"]
-sites: ["TW"]
-audiences: ["clerk", "admin"]
+products:
+  - EC
+modules:
+  - 門市助理
+sites:
+  - TW
+audiences:
+  - clerk
+  - admin
 difficulty: beginner
 tnb: trunk
-plans: ["專業 PLUS", "進階 PLUS", "高手 PLUS", "企業"]
+plans:
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 cyb_extensions: []
-intents: ["了解門市助理功能", "開始使用門市助理", "導覽門市助理介面"]
-features: ["門市助理", "OMO 銷售", "會員數據", "資產核銷"]
+intents:
+  - 了解門市助理功能
+  - 開始使用門市助理
+  - 導覽門市助理介面
+features:
+  - 門市助理
+  - OMO 銷售
+  - 會員數據
+  - 資產核銷
 prerequisites: []
 related: []
-tags: ["門市助理", "OMO", "精準銷售", "導覽"]
+tags:
+  - 門市助理
+  - OMO
+  - 精準銷售
+  - 導覽
 acoiv: activate
 apis: []
-devices: ["tablet", "mobile"]
+devices:
+  - tablet
+  - mobile
 ui_components: []
-paths: ["APP MARKET > 我的擴充服務 > 門市助理"]
-layouts: ["classic"]
+paths:
+  - APP MARKET > 我的擴充服務 > 門市助理
+layouts:
+  - classic
 wp_url: []
 permalink: ""
 comments: false

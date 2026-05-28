@@ -2,7 +2,7 @@
 title: POS 門市取貨店員分潤
 description: 透過分潤機制激勵門市人員處理「門市取貨」訂單的效率。您可以自訂到店與取貨的報酬，並自動化統計員工的分潤金額。
 created: 2026-04-23 11:45
-last_modified: 2026-04-23 11:45
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: tutorial
 status: ""
@@ -12,26 +12,53 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: ["POS"]
-modules: ["分潤"]
-sites: ["TW"]
-audiences: ["admin"]
+products:
+  - POS
+modules:
+  - 分潤
+sites:
+  - TW
+audiences:
+  - admin
 difficulty: beginner
 tnb: branch
-plans: ["進階 PLUS", "高手 PLUS", "企業"]
+plans:
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 cyb_extensions: []
-intents: ["設定門市取貨分潤", "新增店員分潤方案", "查看店員分潤報表"]
-features: ["門市取貨店員分潤", "分潤方案管理", "分潤報表"]
+intents:
+  - 設定門市取貨分潤
+  - 新增店員分潤方案
+  - 查看店員分潤報表
+features:
+  - 門市取貨店員分潤
+  - 分潤方案管理
+  - 分潤報表
 prerequisites: []
 related: []
-tags: ["POS_分潤", "門市取貨", "店員獎金", "勞務處理費"]
+tags:
+  - POS_分潤
+  - 門市取貨
+  - 店員獎金
+  - 勞務處理費
 acoiv: configure
 apis: []
-devices: ["desktop"]
-ui_components: ["啟動分潤狀態", "新增方案", "按件計酬", "按比例計酬", "加入方案", "分潤報表"]
-paths: ["分潤機制 > 門市取貨店員分潤", "分潤機制 > 分潤報表"]
-layouts: [""]
-wp_url: ["https://www.cyberbiz.io/support/?p=10507"]
+devices:
+  - desktop
+ui_components:
+  - 啟動分潤狀態
+  - 新增方案
+  - 按件計酬
+  - 按比例計酬
+  - 加入方案
+  - 分潤報表
+paths:
+  - 分潤機制 > 門市取貨店員分潤
+  - 分潤機制 > 分潤報表
+layouts: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=10507
 permalink: ""
 comments: false
 search:

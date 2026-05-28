@@ -2,7 +2,7 @@
 title: 了解分潤功能
 description: 了解分潤功能的運作機制、適用對象與情境，協助您選擇最適合的行銷分潤方案。
 created: 2026-02-06 00:00
-last_modified: 2026-05-25 18:30
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: guide
 status: ""
@@ -12,31 +12,60 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: ["EC", "POS"]
-modules: ["行銷活動"]
-sites: ["TW"]
-audiences: ["admin"]
+products:
+  - EC
+  - POS
+modules:
+  - 行銷活動
+sites:
+  - TW
+audiences:
+  - admin
 difficulty: beginner
 tnb: branch
-plans: ["進階", "高手", "專業 PLUS", "進階 PLUS", "高手 PLUS", "企業"]
+plans:
+  - 進階
+  - 高手
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 cyb_extensions: []
-intents: ["了解分潤機制", "選擇分潤方案"]
-features: ["分潤設定", "推薦人分潤", "註冊人分潤"]
+intents:
+  - 了解分潤機制
+  - 選擇分潤方案
+features:
+  - 分潤設定
+  - 推薦人分潤
+  - 註冊人分潤
 prerequisites: []
-related: ["[[設定推薦人分潤方案]]", "[[設定註冊人分潤方案]]", "[[匯出分潤報表]]", "[[查詢分潤夥伴與代碼資訊]]"]
+related:
+  - [[設定推薦人分潤方案]]
+  - [[設定註冊人分潤方案]]
+  - [[匯出分潤報表]]
+  - [[查詢分潤夥伴與代碼資訊]]
 tags: []
 acoiv: activate
 apis: []
-devices: ["desktop", "mobile"]
+devices:
+  - desktop
+  - mobile
 ui_components: []
-paths: ["行銷活動 > 推薦人分潤", "行銷活動 > 註冊人分潤"]
+paths:
+  - 行銷活動 > 推薦人分潤
+  - 行銷活動 > 註冊人分潤
 layouts: []
-wp_url: ["https://www.cyberbiz.io/helpcenter/?p=597", "https://www.cyberbiz.io/helpcenter/?p=608", "https://www.cyberbiz.io/helpcenter/?p=579", "https://www.cyberbiz.io/helpcenter/?p=4116", "https://www.cyberbiz.io/support/?p=28632"]
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=597
+  - https://www.cyberbiz.io/helpcenter/?p=608
+  - https://www.cyberbiz.io/helpcenter/?p=579
+  - https://www.cyberbiz.io/helpcenter/?p=4116
+  - https://www.cyberbiz.io/support/?p=28632
 permalink: ""
 comments: false
 search:
   exclude: false
-icon: 
+icon: ""
 hide: []
 ---
 

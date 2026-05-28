@@ -2,41 +2,66 @@
 title: 設定 Google Pay™
 description: 指引商家在官網啟用並管理 Google Pay™ 支付選項，包含費率說明、後台配置流程以及金流門檻設定限制。
 created: 2026-03-16 00:00
-last_modified: 2026-05-26 14:26
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: tutorial
 status: ""
 version: 1.1.1
 author: Ann
 reviewers: []
-notes: ["內部連結：信用卡3D驗證","北美站Google Pay 設定"]
+notes:
+  - 內部連結：信用卡3D驗證
+  - 北美站Google Pay 設定
 ga_views: 0
 feedback: 0
-products: ["EC"]
-modules: ["金物流"]
-sites: ["TW"]
-audiences: ["admin"]
+products:
+  - EC
+modules:
+  - 金物流
+sites:
+  - TW
+audiences:
+  - admin
 difficulty: intermediate
 tnb: trunk
 plans: []
-cyb_extensions: ["PAYMENTS"]
-intents: ["開啟_Google_Pay_支付", "設定金流使用門檻", "配置_3D_驗證金額"]
-features: ["Google Pay", "CYBERBIZ PAYMENTS", "行動支付", "一鍵結帳"]
-prerequisites: ["需已開通 CYBERBIZ PAYMENTS 金流服務"]
-related: ["[[北美站金流服務]]"]
-tags: ["行動支付", "CYBERBIZ PAYMENTS"]
+cyb_extensions:
+  - PAYMENTS
+intents:
+  - 開啟_Google_Pay_支付
+  - 設定金流使用門檻
+  - 配置_3D_驗證金額
+features:
+  - Google Pay
+  - CYBERBIZ PAYMENTS
+  - 行動支付
+  - 一鍵結帳
+prerequisites:
+  - 需已開通 CYBERBIZ PAYMENTS 金流服務
+related:
+  - [[北美站金流服務]]
+tags:
+  - 行動支付
+  - CYBERBIZ PAYMENTS
 acoiv: configure
 apis: []
-devices: ["desktop", "mobile"]
-ui_components: ["CYBERBIZ PAYMENTS 設定彈窗", "Google Pay 編輯分頁"]
-paths: ["金物流 > 金流設定"]
+devices:
+  - desktop
+  - mobile
+ui_components:
+  - CYBERBIZ PAYMENTS 設定彈窗
+  - Google Pay 編輯分頁
+paths:
+  - 金物流 > 金流設定
 layouts: []
-wp_url: ["https://www.cyberbiz.io/helpcenter/?p=3900", "https://www.cyberbiz.io/support/?p=2620"]
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=3900
+  - https://www.cyberbiz.io/support/?p=2620
 permalink: ""
 comments: false
 search:
   exclude: false
-icon: 
+icon: ""
 hide: []
 ---
 

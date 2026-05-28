@@ -2,36 +2,55 @@
 title: Amazon FBA 跨境物流
 description: 透過 Amazon FBA 服務，您可以將官網訂單交由 Amazon 物流團隊代為包裝與配送。系統將自動拋轉訂單、同步貨態並更新庫存，實現跨境營運的自動化。
 created: 2026-03-03 00:00
-last_modified: 2026-05-26 14:56
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: tutorial
 status: ""
 version: 1.1.1
 author: Ann
 reviewers: []
-notes: ["內部連結：網站外觀、商品大量填補SKU教學"]
+notes:
+  - 內部連結：網站外觀、商品大量填補SKU教學
 ga_views: 0
 feedback: 0
-products: ["EC"]
-modules: ["金物流"]
-sites: ["US", "JP"]
-audiences: ["admin"]
+products:
+  - EC
+modules:
+  - 金物流
+sites:
+  - US
+  - JP
+audiences:
+  - admin
 difficulty: intermediate
 tnb: branch
-plans: ["Pro", "Business"]
+plans:
+  - Pro
+  - Business
 cyb_extensions: []
-intents: ["安裝_FBA_插件", "授權_Amazon_帳號", "綁定商品_SKU"]
-features: ["Amazon FBA"]
-prerequisites: ["需具備 Amazon Seller Central 賣家帳號", "商品需已入 Amazon FBA 倉庫"]
+intents:
+  - 安裝_FBA_插件
+  - 授權_Amazon_帳號
+  - 綁定商品_SKU
+features:
+  - Amazon FBA
+prerequisites:
+  - 需具備 Amazon Seller Central 賣家帳號
+  - 商品需已入 Amazon FBA 倉庫
 related: []
-tags: ["跨境物流"]
+tags:
+  - 跨境物流
 acoiv: configure
 apis: []
-devices: ["desktop"]
+devices:
+  - desktop
 ui_components: []
-paths: ["第三方整合 > 我的擴充服務", "商品 > 所有商品"]
+paths:
+  - 第三方整合 > 我的擴充服務
+  - 商品 > 所有商品
 layouts: []
-wp_url: ["https://www.cyberbiz.io/support/?p=20676"]
+wp_url:
+  - https://www.cyberbiz.io/support/?p=20676
 permalink: ""
 comments: false
 search:

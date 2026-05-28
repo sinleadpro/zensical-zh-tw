@@ -2,36 +2,65 @@
 title: LINE Pay 掃碼支付
 description: 串接 LINE Pay 掃碼支付，POS 店員可使用掃碼槍直接讀取顧客手機的付款條碼，實現快速、無接觸的結帳體驗。
 created: 2026-03-25 17:15
-last_modified: 2026-03-25 17:15
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: tutorial
 status: ""
 version: 1.1.1
 author: Ann
 reviewers: []
-notes: ["確認：可以註明客服信箱、匯出商品網站權限、結帳點擊優化"]
+notes:
+  - 確認：可以註明客服信箱、匯出商品網站權限、結帳點擊優化
 ga_views: 0
 feedback: 0
-products: [POS]
-modules: ["所有 POS 商店"]
-sites: [TW]
-audiences: [admin, clerk]
+products:
+  - POS
+modules:
+  - 所有 POS 商店
+sites:
+  - TW
+audiences:
+  - admin
+  - clerk
 difficulty: intermediate
 tnb: branch
-plans: [進階 PLUS, 高手 PLUS, 企業]
+plans:
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 cyb_extensions: []
-intents: ["如何申請POS_LINE_Pay", "POS_LINE_Pay金鑰設定", "POS前台LINE_Pay結帳教學", "LINE_Pay手續費查詢"]
-features: ["LINE_Pay_掃碼支付", "行動支付", "商店立牌", "自動對帳"]
+intents:
+  - 如何申請POS_LINE_Pay
+  - POS_LINE_Pay金鑰設定
+  - POS前台LINE_Pay結帳教學
+  - LINE_Pay手續費查詢
+features:
+  - LINE_Pay_掃碼支付
+  - 行動支付
+  - 商店立牌
+  - 自動對帳
 prerequisites: []
 related: []
-tags: ["LINE_Pay", "行動支付", "POS_結帳", "門市收款", "掃碼槍"]
+tags:
+  - LINE_Pay
+  - 行動支付
+  - POS_結帳
+  - 門市收款
+  - 掃碼槍
 acoiv: configure
 apis: []
-devices: [desktop, tablet]
-ui_components: ["POS 結帳設定", "LINE Pay Channel ID", "付款方式"]
-paths: ["POS 功能 > 所有 POS 商店 > POS 結帳設定"]
+devices:
+  - desktop
+  - tablet
+ui_components:
+  - POS 結帳設定
+  - LINE Pay Channel ID
+  - 付款方式
+paths:
+  - POS 功能 > 所有 POS 商店 > POS 結帳設定
 layouts: []
-wp_url: ["https://www.cyberbiz.io/support/?p=11171"]
+wp_url:
+  - https://www.cyberbiz.io/support/?p=11171
 permalink: ""
 comments: false
 search:

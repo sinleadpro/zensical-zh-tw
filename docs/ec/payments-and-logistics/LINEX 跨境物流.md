@@ -2,36 +2,69 @@
 title: LINEX 跨境物流
 description: LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到府取件」或「自行送倉」模式，並透過後台自動產出報關所需之託運單與相關文件。
 created: 2026-03-04 00:00
-last_modified: 2026-05-26 14:46
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: tutorial
 status: ""
 version: 1.1.1
 author: Ann
 reviewers: []
-notes: ["自訂貨到付款說明", "需要填商品多國英文欄位嗎", "DHL 新增自訂物流的時候有「出貨方式」、「運送溫層」欄位，LINEX有嗎", "DHL 有商品綁定物流步驟，LINEX有嗎", "託運文件列點說明"]
+notes:
+  - 自訂貨到付款說明
+  - 需要填商品多國英文欄位嗎
+  - DHL 新增自訂物流的時候有「出貨方式」、「運送溫層」欄位，LINEX有嗎
+  - DHL 有商品綁定物流步驟，LINEX有嗎
+  - 託運文件列點說明
 ga_views: 0
 feedback: 0
-products: ["EC"]
-modules: ["金物流"]
-sites: ["TW", "US", "JP"]
-audiences: ["admin"]
+products:
+  - EC
+modules:
+  - 金物流
+sites:
+  - TW
+  - US
+  - JP
+audiences:
+  - admin
 difficulty: intermediate
 tnb: branch
-plans: ["專業 PLUS", "進階 PLUS", "高手 PLUS", "企業", "Pro", "Business"]
+plans:
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+  - Pro
+  - Business
 cyb_extensions: []
-intents: ["設定_LINEX_運送模式", "建立_LINEX_託運單", "準備_POA_委任書"]
-features: ["LINEX 跨境物流", "到府取件預約", "自動報關文件"]
-prerequisites: ["建議搭配多國功能以利商品資訊自動帶入"]
+intents:
+  - 設定_LINEX_運送模式
+  - 建立_LINEX_託運單
+  - 準備_POA_委任書
+features:
+  - LINEX 跨境物流
+  - 到府取件預約
+  - 自動報關文件
+prerequisites:
+  - 建議搭配多國功能以利商品資訊自動帶入
 related: []
-tags: ["跨境物流", "國際出貨", "取件預約"]
+tags:
+  - 跨境物流
+  - 國際出貨
+  - 取件預約
 acoiv: integration
 apis: []
-devices: ["desktop"]
+devices:
+  - desktop
 ui_components: []
-paths: ["金物流 > LINEX 託運單", "金物流 > 宅配物流", "管理中心 > 一般設定"]
+paths:
+  - 金物流 > LINEX 託運單
+  - 金物流 > 宅配物流
+  - 管理中心 > 一般設定
 layouts: []
-wp_url: ["https://www.cyberbiz.io/helpcenter/?p=8214", "https://www.cyberbiz.io/support/?p=38562"]
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=8214
+  - https://www.cyberbiz.io/support/?p=38562
 permalink: ""
 comments: false
 search:
