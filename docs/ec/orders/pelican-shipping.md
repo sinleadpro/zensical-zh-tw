@@ -2,7 +2,7 @@
 title: 使用宅配通出貨
 description: 使用宅配通出貨。包含批次下載託運單、單筆與部分出貨、補印託運單等操作，以及運費計價規則與常見問題。
 created: 2026-05-19 21:30
-last_modified: 2026-05-20 10:00
+last_modified: 2026-05-29 09:45
 lang: zh-TW
 type: tutorial
 status: ""
@@ -49,6 +49,11 @@ prerequisites:
 related:
   - "[[設定宅配通託運單]]"
   - "[[設定訂單部分出貨]]"
+tags:
+  - 宅配通
+  - 出貨
+  - 託運單
+  - 物流配送
 acoiv: operation
 apis: []
 devices:
@@ -64,12 +69,12 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=63
   - https://www.cyberbiz.io/support/?p=975
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/orders/pelican-shipping
+comments: false
 search:
   exclude: false
 icon: lucide/bird
 hide: []
-comments: false
 ---
 使用宅配通出貨。包含批次下載託運單、單筆與部分出貨、補印託運單等操作，以及運費計價規則與常見問題。
 { .subtitle }

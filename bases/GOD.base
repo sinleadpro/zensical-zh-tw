@@ -38,7 +38,6 @@ views:
     columnSize:
       file.name: 216
       note.modules: 196
-      note.wp_url: 146
       note.tags: 308
   - type: cards
     name: Products
@@ -81,3 +80,21 @@ views:
     cardSize: 160
     imageAspectRatio: 1
     imageFit: contain
+  - type: table
+    name: Orders
+    filters:
+      and:
+        - modules.contains("訂單")
+        - author == "Jase"
+    order:
+      - file.name
+      - wp_url
+      - tags
+      - permalink
+    sort:
+      - property: tags
+        direction: DESC
+      - property: wp_url
+        direction: ASC
+    columnSize:
+      file.name: 152

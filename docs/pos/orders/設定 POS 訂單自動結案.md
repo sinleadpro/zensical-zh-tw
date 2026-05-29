@@ -1,5 +1,6 @@
 ---
 title: 設定 POS 訂單自動結案
+permalink: https://help.cyberbiz.io/pos/orders/設定 POS 訂單自動結案
 version: ""
 last_modified: 2026-02-07
 description: ""

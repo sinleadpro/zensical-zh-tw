@@ -1,8 +1,8 @@
 ---
-title: 如何使用再次購買功能
+title: 使用再次購買功能
 description: 前台會員的再次購買功能，讓會員能輕鬆重新下單過去購買過的產品，包含使用前提、操作流程及特殊情境說明。
 created: 2026-05-06 21:15
-last_modified: 2026-05-07 10:40
+last_modified: 2026-05-28 22:11
 lang: zh-TW
 type: tutorial
 status: ""
@@ -38,7 +38,12 @@ features:
 prerequisites: []
 related:
   - "[[訂單管理介面說明]]"
-  - "[[../marketing/設定訂單加價購]]"
+  - "[[設定訂單加價購]]"
+tags:
+  - 再次購買
+  - 回購
+  - 拖拉版型
+  - 會員功能
 acoiv: operation
 apis: []
 devices:
@@ -49,12 +54,12 @@ paths: []
 layouts:
   - draggable
 wp_url: []
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/orders/repurchase-order
+comments: false
 search:
   exclude: false
 icon: lucide/repeat-1
 hide: []
-comments: false
 ---
 前台會員的再次購買功能，讓會員能輕鬆重新下單過去購買過的產品，包含使用前提、操作流程及特殊情境說明。
 { .subtitle }

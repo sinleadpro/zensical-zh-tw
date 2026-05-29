@@ -1,5 +1,6 @@
 ---
 title: 訂單物流
+permalink: https://help.cyberbiz.io/ec/orders/訂單物流
 description: 管理訂單流程與物流配送，提升出貨效率與顧客滿意度。
 icon: lucide/receipt
 hide:
