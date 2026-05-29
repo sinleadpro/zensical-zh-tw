@@ -1,0 +1,48 @@
+# CYBERBIZ DOCS
+> 官方線上技術文件與操作指南，供 AI 程式助手與 LLM 快速理解系統架構。
+
+## Documentation Map
+
+- [主頁 - CYBERBIZ DOCS](https://help.cyberbiz.io/): A new project generated from the default template project.
+- [CYBERBIZ DOCS](https://help.cyberbiz.io/ec/): A new project generated from the default template project.
+- [報表分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/analytics/): 一目了然掌握商店經營數據，快速分析銷售、訂單與會員行為。
+- [訂單物流 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/orders/): 管理訂單流程與物流配送，提升出貨效率與顧客滿意度。
+- [使用宅配通出貨 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/orders/pelican-shipping/): 使用宅配通出貨。包含批次下載託運單、單筆與部分出貨、補印託運單等操作，以及運費計價規則與常見問題。
+- [使用再次購買功能 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/orders/repurchase-order/): 前台會員的再次購買功能，讓會員能輕鬆重新下單過去購買過的產品，包含使用前提、操作流程及特殊情境說明。
+- [會員管理 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/members/): 管理會員資料、等級與互動，提升會員體驗與忠誠度。
+- [商品管理 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/products/): 輕鬆管理商品資訊、分類與庫存，提升上架效率。
+- [index - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/products/get-started/): A new project generated from the default template project.
+- [電子票券 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/e-ticket/): A new project generated from the default template project.
+- [行銷推廣 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/marketing/): 提升商店曝光與銷售，管理行銷活動、優惠策略與顧客互動。
+- [了解分潤功能 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/profit-sharing/): 了解分潤功能的運作機制、適用對象與情境，協助您選擇最適合的行銷分潤方案。
+- [訊息推播 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/notifications/): A new project generated from the default template project.
+- [付款金流 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/payments-and-logistics/): 管理支付方式、金流設定與訂單收款，確保交易安全與順暢。
+- [CYBERBIZ NOW 快速到貨 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/payments-and-logistics/CYBERBIZNOW/): 即時外送服務，1-2 小時內將門市商品配送到消費者手中，提升購物體驗。
+- [Index - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-appearance/): A new project generated from the default template project.
+- [APP MARKET - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/app-market/): A new project generated from the default template project.
+- [CYBERBIZ 擴充服務 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/app-market/cyberbiz-extensions/): A new project generated from the default template project.
+- [Chat Box - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/app-market/cyberbiz-extensions/chat-box/): A new project generated from the default template project.
+- [門市助理 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/app-market/storepal/): 專為線下門市設計的 OMO 銷售工具，整合官網會員數據與資產，協助店員實現精準識客、深度洞察與價值變現。
+- [整合串接第三方平台服務 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/integrations/): 串接第三方平台、API 與服務，提升商店功能與自動化能力。
+- [index - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/integrations/fb/): A new project generated from the default template project.
+- [Meta/Facebook Business Extension 設定指南 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/integrations/fb/mbe/): A new project generated from the default template project.
+- [index - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/integrations/fb/meta-ads/): A new project generated from the default template project.
+- [index - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/integrations/google/): A new project generated from the default template project.
+- [Google Analytics - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/integrations/google/ga/): Google Analytics 4 (GA4) 完整教學，包含基礎串接設定與進階資料分析功能，協助商家追蹤網站流量與使用者行為。
+- [index - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/integrations/line/): A new project generated from the default template project.
+- [LINE 團購功能總覽 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/integrations/line/group-buy/): LINE 團購功能的運作方式，以及商家如何在 LINE 群組中建立團購活動並讓成員瀏覽商品與完成結帳。
+- [管理中心 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-management/): A new project generated from the default template project.
+- [CYBERBIZ DOCS](https://help.cyberbiz.io/wms/): A new project generated from the default template project.
+- [CYBERBIZ DOCS](https://help.cyberbiz.io/pos/): A new project generated from the default template project.
+- [Index - CYBERBIZ DOCS](https://help.cyberbiz.io/pos/orders/): A new project generated from the default template project.
+- [開始使用 - CYBERBIZ DOCS](https://help.cyberbiz.io/pos/get-started/): 介紹 CYBERBIZ POS 系統的硬體設備需求、軟體安裝、第三方服務申請及系統運作基礎概念，協助您完成門市營運的第一步。
+- [系統硬體與環境需求 - CYBERBIZ DOCS](https://help.cyberbiz.io/pos/hardware/): 為確保 POS 系統運作效能與週邊設備連線的穩定性，請參考以下硬體規格與系統環境建議進行配置。
+- [結帳 - CYBERBIZ DOCS](https://help.cyberbiz.io/pos/check/): 掌握 CYBERBIZ 智能 POS 的完整結帳流程，包含會員登入、商品選購、套用行銷活動及收款開立發票的操作引導。
+- [付款方式 - CYBERBIZ DOCS](https://help.cyberbiz.io/pos/check/payment-method/): 管理 POS 前台提供的支付工具，包含現金、信用卡串接及行動支付。
+- [使用 POS 前台管理會員 - CYBERBIZ DOCS](https://help.cyberbiz.io/pos/member/): 透過 POS 前台快速註冊新會員、查詢顧客資料與管理推薦分潤，提升門市會員經營效率。
+- [資源中心 - CYBERBIZ DOCS](https://help.cyberbiz.io/resources/): 提供操作指南、教學文件、FAQ、更新紀錄與詞彙表，幫助商家快速上手與問題排解。
+- [常見問題 FAQ - CYBERBIZ DOCS](https://help.cyberbiz.io/resources/faq/): 快速解答商家在使用本平台時最常遇到的問題，包含商品、訂單、金流、物流與系統設定。
+- [更新紀錄 - CYBERBIZ DOCS](https://help.cyberbiz.io/resources/changelog/): A new project generated from the default template project.
+- [詞彙表 - CYBERBIZ DOCS](https://help.cyberbiz.io/resources/glossary/): A new project generated from the default template project.
+- [圖示慣例 - CYBERBIZ DOCS](https://help.cyberbiz.io/resources/conventions/): A new project generated from the default template project.
+- [資源中心 - CYBERBIZ DOCS](https://help.cyberbiz.io/resources/): 提供操作指南、教學文件、FAQ、更新紀錄與詞彙表，幫助商家快速上手與問題排解。
