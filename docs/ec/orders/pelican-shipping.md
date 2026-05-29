@@ -2,7 +2,7 @@
 title: 使用宅配通出貨
 description: 使用宅配通出貨。包含批次下載託運單、單筆與部分出貨、補印託運單等操作，以及運費計價規則與常見問題。
 created: 2026-05-19 21:30
-last_modified: 2026-05-28 21:12
+last_modified: 2026-05-29 09:45
 lang: zh-TW
 type: tutorial
 status: ""
@@ -69,7 +69,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=63
   - https://www.cyberbiz.io/support/?p=975
-permalink: https://help.cyberbiz.io/ec/orders/使用宅配通出貨
+permalink: https://help.cyberbiz.io/ec/orders/pelican-shipping
 comments: false
 search:
   exclude: false
