@@ -2,7 +2,7 @@
 title: 系統硬體與環境需求
 description: 為確保 POS 系統運作效能與週邊設備連線的穩定性，請參考以下硬體規格與系統環境建議進行配置。
 created: 2026-04-17 12:05
-last_modified: 2026-04-17 12:05
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: reference
 status: ""
@@ -12,26 +12,48 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: ["POS"]
-modules: ["官網設定"]
-sites: ["TW"]
-audiences: ["admin", "clerk"]
+products:
+  - POS
+modules:
+  - 官網設定
+sites:
+  - TW
+audiences:
+  - admin
+  - clerk
 difficulty: beginner
 tnb: branch
-plans: ["進階 PLUS", "高手 PLUS", "企業"]
+plans:
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 cyb_extensions: []
-intents: ["確認 POS 硬體規格", "瞭解系統環境需求", "挑選 POS 設備"]
-features: ["POS_系統環境", "Windows_支援", "Chrome_瀏覽器"]
+intents:
+  - 確認 POS 硬體規格
+  - 瞭解系統環境需求
+  - 挑選 POS 設備
+features:
+  - POS_系統環境
+  - Windows_支援
+  - Chrome_瀏覽器
 prerequisites: []
 related: []
-tags: ["POS_硬體需求", "系統規格", "Windows", "Chrome"]
+tags:
+  - POS_硬體需求
+  - 系統規格
+  - Windows
+  - Chrome
 acoiv: activate
 apis: []
-devices: ["desktop", "tablet"]
+devices:
+  - desktop
+  - tablet
 ui_components: []
 paths: []
-layouts: [""]
-wp_url: ["https://www.cyberbiz.io/support/?p=9439"]
+layouts:
+  - 
+wp_url:
+  - https://www.cyberbiz.io/support/?p=9439
 permalink: ""
 comments: false
 search:

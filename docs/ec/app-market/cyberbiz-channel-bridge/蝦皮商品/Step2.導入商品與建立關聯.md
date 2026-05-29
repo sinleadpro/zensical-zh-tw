@@ -2,41 +2,63 @@
 title: Step 2 導入商品與建立關聯
 description: 完成商店授權後，您可以批次將蝦皮商品資訊匯入至官網，並透過系統自動對應功能，快速完成分類歸類與商品上架。
 created: 2026-02-25 00:00
-last_modified: 2026-05-25 17:53
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: tutorial
 status: update
 version: 1.1.1
 author: Ann
 reviewers: []
-notes: ["內部連結：商品大量填補sku"]
+notes:
+  - 內部連結：商品大量填補sku
 ga_views: 0
 feedback: 0
-products: ["EC"]
-modules: ["APP MARKET"]
-sites: ["TW"]
-audiences: ["admin"]
+products:
+  - EC
+modules:
+  - APP MARKET
+sites:
+  - TW
+audiences:
+  - admin
 difficulty: beginner
 tnb: branch
-plans: ["專業 PLUS", "進階 PLUS", "高手 PLUS", "企業"]
-cyb_extensions: ["CHANNEL BRIDGE"]
-intents: ["批量匯入蝦皮商品", "建立官網商品", "分類自動同步"]
-features: ["蝦皮商品搬站", "全通路管理助手", "商品自動關聯"]
-prerequisites: ["[[Step 1 安裝與授權商店]]", "[[建議預先整理蝦皮端的 SKU (商品選項貨號)]]"]
+plans:
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions:
+  - CHANNEL BRIDGE
+intents:
+  - 批量匯入蝦皮商品
+  - 建立官網商品
+  - 分類自動同步
+features:
+  - 蝦皮商品搬站
+  - 全通路管理助手
+  - 商品自動關聯
+prerequisites:
+  - [[Step 1 安裝與授權商店]]
+  - [[建議預先整理蝦皮端的 SKU (商品選項貨號)]]
 related: []
 tags: []
 acoiv: configure
 apis: []
-devices: ["desktop"]
+devices:
+  - desktop
 ui_components: []
-paths: ["App Market > 我的應用程式 > CYBERBIZ CHANNEL BRIDGE"]
+paths:
+  - App Market > 我的應用程式 > CYBERBIZ CHANNEL BRIDGE
 layouts: []
-wp_url: ["https://www.cyberbiz.io/helpcenter/?p=5923", "https://www.cyberbiz.io/support/?p=46486"]
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=5923
+  - https://www.cyberbiz.io/support/?p=46486
 permalink: ""
 comments: false
 search:
   exclude: false
-icon: 
+icon: ""
 hide: []
 ---
 

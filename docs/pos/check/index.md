@@ -2,7 +2,7 @@
 title: 結帳
 description: 掌握 CYBERBIZ 智能 POS 的完整結帳流程，包含會員登入、商品選購、套用行銷活動及收款開立發票的操作引導。
 created: 2026-04-17 12:30
-last_modified: 2026-04-17 12:30
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: tutorial
 status: ""
@@ -12,31 +12,59 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: ["POS"]
-modules: ["POS 前台"]
-sites: ["TW"]
-audiences: ["clerk"]
+products:
+  - POS
+modules:
+  - POS 前台
+sites:
+  - TW
+audiences:
+  - clerk
 difficulty: beginner
 tnb: branch
-plans: ["進階 PLUS", "高手 PLUS","企業"]
+plans:
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 cyb_extensions: []
-intents: ["POS 結帳流程", "會員登入結帳", "套用行銷活動", "收款開立發票"]
-features: ["智能 POS", "會員管理", "行銷活動", "發票管理"]
+intents:
+  - POS 結帳流程
+  - 會員登入結帳
+  - 套用行銷活動
+  - 收款開立發票
+features:
+  - 智能 POS
+  - 會員管理
+  - 行銷活動
+  - 發票管理
 prerequisites: []
 related: []
-tags: ["結帳流程", "POS 前台", "會員登入", "行銷活動", "收款發票"]
+tags:
+  - 結帳流程
+  - POS 前台
+  - 會員登入
+  - 行銷活動
+  - 收款發票
 acoiv: operation
 apis: []
-devices: ["tablet", "desktop"]
-ui_components: ["小計", "進行結帳", "行銷活動", "會員載具"]
-paths: ["POS 前台 > 結帳"]
+devices:
+  - tablet
+  - desktop
+ui_components:
+  - 小計
+  - 進行結帳
+  - 行銷活動
+  - 會員載具
+paths:
+  - POS 前台 > 結帳
 layouts: []
-wp_url: ["https://www.cyberbiz.io/support/?p=5012"]
+wp_url:
+  - https://www.cyberbiz.io/support/?p=5012
 permalink: ""
 comments: false
 search:
   exclude: false
-icon: "lucide/hand-coins"
+icon: lucide/hand-coins
 hide: []
 ---
 

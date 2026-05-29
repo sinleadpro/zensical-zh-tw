@@ -2,7 +2,7 @@
 title: Pandago 配送異常規範
 description: 針對快速到貨配送過程中發生的各類異常情境（如地址錯誤、聯繫不到客戶、配送延遲等），提供責任歸屬判定與操作指引。
 created: 2026-02-06 00:00
-last_modified: 2026-05-26 15:04
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: troubleshooting
 status: update
@@ -12,31 +12,56 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: ["EC"]
-modules: ["訂單", "金物流"]
-sites: ["TW"]
-audiences: ["admin"]
+products:
+  - EC
+modules:
+  - 訂單
+  - 金物流
+sites:
+  - TW
+audiences:
+  - admin
 difficulty: intermediate
 tnb: branch
-plans: ["專業 PLUS", "進階 PLUS", "高手 PLUS", "企業"]
-cyb_extensions: ["NOW!"]
-intents: ["處理配送異常", "判定運費責任", "申請配送補償"]
-features: ["CYBERBIZ NOW", "逆物流", "配送補償"]
-prerequisites: ["訂單已進入「配送中」或「媒合成功」狀態"]
+plans:
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions:
+  - NOW!
+intents:
+  - 處理配送異常
+  - 判定運費責任
+  - 申請配送補償
+features:
+  - CYBERBIZ NOW
+  - 逆物流
+  - 配送補償
+prerequisites:
+  - 訂單已進入「配送中」或「媒合成功」狀態
 related: []
-tags: ["快速到貨", "配送異常", "Pandago"]
+tags:
+  - 快速到貨
+  - 配送異常
+  - Pandago
 acoiv: operation
 apis: []
-devices: ["desktop"]
-ui_components: ["訂單列表", "物流訊息"]
-paths: ["訂單 > 門市訂單"]
+devices:
+  - desktop
+ui_components:
+  - 訂單列表
+  - 物流訊息
+paths:
+  - 訂單 > 門市訂單
 layouts: []
-wp_url: ["https://www.cyberbiz.io/support/?p=13253"]
+wp_url:
+  - https://www.cyberbiz.io/support/?p=13253
 permalink: ""
 comments: false
 search:
   exclude: false
-icon: 
+icon: ""
 hide: []
 ---
 

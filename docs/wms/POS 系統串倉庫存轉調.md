@@ -2,37 +2,63 @@
 title: POS 系統串倉庫存轉調
 description: 同時使用 EC、POS 與 WMS 服務時，執行門市調貨、查看 WMS 庫存配置以及在線上/線下倉別間進行庫存轉調。
 created: 2026-03-20 00:00
-last_modified: 2026-03-25 12:08
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: guide
-status:
+status: ""
 version: 1.1.1
 author: Ann
 reviewers: []
-notes: ["確認版本限制", "圖片介面過舊"]
+notes:
+  - 確認版本限制
+  - 圖片介面過舊
 ga_views: 0
 feedback: 0
-products: ["EC", "POS", "WMS"]
-modules: ["(POS)庫存"]
-sites: ["TW"]
+products:
+  - EC
+  - POS
+  - WMS
+modules:
+  - (POS)庫存
+sites:
+  - TW
 audiences: []
-difficulty:
+difficulty: ""
 tnb: trunk
 plans: []
 cyb_extensions: []
-intents: ["申請門市補貨", "查詢管道庫存", "執行線上線下庫存互調"]
-features: ["門市調貨", "倉別轉調", "庫存分配", "POS 集成"]
-prerequisites: ["需同時開通 CYBERBIZ EC、POS 與 WMS 三項服務", "需完成門市與總倉之關聯設定"]
+intents:
+  - 申請門市補貨
+  - 查詢管道庫存
+  - 執行線上線下庫存互調
+features:
+  - 門市調貨
+  - 倉別轉調
+  - 庫存分配
+  - POS 集成
+prerequisites:
+  - 需同時開通 CYBERBIZ EC、POS 與 WMS 三項服務
+  - 需完成門市與總倉之關聯設定
 related: []
-tags: ["POS 調貨", "WMS 庫存", "三合一"]
+tags:
+  - POS 調貨
+  - WMS 庫存
+  - 三合一
 acoiv: venture
 apis: []
-devices: ["desktop", "tablet"]
-ui_components: ["POS 前台", "WMS 管理後台"]
-paths: ["POS 前台 > 庫存", "WMS 後台 > 商品 > 單一品項"]
+devices:
+  - desktop
+  - tablet
+ui_components:
+  - POS 前台
+  - WMS 管理後台
+paths:
+  - POS 前台 > 庫存
+  - WMS 後台 > 商品 > 單一品項
 layouts: []
-wp_url: ["https://www.cyberbiz.io/support/?p=28494"]
-permalink:
+wp_url:
+  - https://www.cyberbiz.io/support/?p=28494
+permalink: ""
 comments: false
 search:
   exclude: false

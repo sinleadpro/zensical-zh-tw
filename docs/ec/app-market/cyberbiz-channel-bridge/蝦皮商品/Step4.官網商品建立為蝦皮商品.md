@@ -2,7 +2,7 @@
 title: Step 4 官網商品建立為蝦皮商品
 description: 您也可以將官網既有的商品快速發佈至蝦皮賣場。發佈成功後，系統將自動完成雙端關聯，方便您後續進行庫存與資訊的自動化同步。
 created: 2026-02-26 00:00
-last_modified: 2026-05-25 17:53
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: tutorial
 status: ""
@@ -12,31 +12,53 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: ["EC"]
-modules: ["商品", "APP MARKET"]
-sites: ["TW"]
-audiences: ["admin"]
+products:
+  - EC
+modules:
+  - 商品
+  - APP MARKET
+sites:
+  - TW
+audiences:
+  - admin
 difficulty: beginner
 tnb: branch
-plans: ["專業 PLUS", "進階 PLUS", "高手 PLUS", "企業"]
-cyb_extensions: ["CHANNEL BRIDGE"]
-intents: ["官網商品發佈至蝦皮", "編輯蝦皮特定欄位", "核對發佈紀錄"]
-features: ["蝦皮商品搬站", "關聯自動建立"]
-prerequisites: ["[[Step 1 安裝與授權商店]]", "[[商品需為官網手動建立且未關聯過蝦皮]]"]
+plans:
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
+cyb_extensions:
+  - CHANNEL BRIDGE
+intents:
+  - 官網商品發佈至蝦皮
+  - 編輯蝦皮特定欄位
+  - 核對發佈紀錄
+features:
+  - 蝦皮商品搬站
+  - 關聯自動建立
+prerequisites:
+  - [[Step 1 安裝與授權商店]]
+  - [[商品需為官網手動建立且未關聯過蝦皮]]
 related: []
 tags: []
 acoiv: configure
 apis: []
-devices: ["desktop"]
+devices:
+  - desktop
 ui_components: []
-paths: ["商品 > 所有商品", "App Market > 我的擴充服務 > CYBERBIZ CHANNEL BRIDGE"]
+paths:
+  - 商品 > 所有商品
+  - App Market > 我的擴充服務 > CYBERBIZ CHANNEL BRIDGE
 layouts: []
-wp_url: ["https://www.cyberbiz.io/helpcenter/?p=12688", "https://www.cyberbiz.io/support/?p=51554"]
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=12688
+  - https://www.cyberbiz.io/support/?p=51554
 permalink: ""
 comments: false
 search:
   exclude: false
-icon: 
+icon: ""
 hide: []
 ---
 

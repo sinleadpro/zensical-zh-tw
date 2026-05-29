@@ -2,7 +2,7 @@
 title: 使用 POS 前台管理會員
 description: 透過 POS 前台快速註冊新會員、查詢顧客資料與管理推薦分潤，提升門市會員經營效率。
 created: 2026-04-16 10:00
-last_modified: 2026-04-16 10:00
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: tutorial
 status: ""
@@ -13,26 +13,53 @@ notes: []
 aliases: []
 ga_views: 0
 feedback: 0
-products: ["POS"]
-modules: ["會員"]
-sites: ["TW"]
-audiences: ["clerk"]
+products:
+  - POS
+modules:
+  - 會員
+sites:
+  - TW
+audiences:
+  - clerk
 difficulty: beginner
 tnb: branch
-plans: ["進階 PLUS","高手 PLUS", "企業"]
+plans:
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 cyb_extensions: []
-intents: ["註冊新會員", "查詢會員資料", "管理推薦分潤"]
-features: ["會員註冊", "會員查詢", "分潤方案"]
+intents:
+  - 註冊新會員
+  - 查詢會員資料
+  - 管理推薦分潤
+features:
+  - 會員註冊
+  - 會員查詢
+  - 分潤方案
 prerequisites: []
-related: ["[[設定推薦人分潤方案]]"]
-tags: ["POS_會員管理", "會員註冊", "分潤方案"]
+related:
+  - [[設定推薦人分潤方案]]
+tags:
+  - POS_會員管理
+  - 會員註冊
+  - 分潤方案
 acoiv: operation
 apis: []
-devices: ["desktop","tablet"]
-ui_components: ["會員", "會員註冊", "會員查詢", "分潤方案", "QR Code"]
-paths: ["POS 前台 > 會員"]
-layouts: [""]
-wp_url: ["https://www.cyberbiz.io/support/?p=27954"]
+devices:
+  - desktop
+  - tablet
+ui_components:
+  - 會員
+  - 會員註冊
+  - 會員查詢
+  - 分潤方案
+  - QR Code
+paths:
+  - POS 前台 > 會員
+layouts:
+  - 
+wp_url:
+  - https://www.cyberbiz.io/support/?p=27954
 permalink: ""
 comments: false
 search:

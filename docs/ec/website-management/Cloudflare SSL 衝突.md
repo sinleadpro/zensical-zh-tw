@@ -2,7 +2,7 @@
 title: Cloudflare SSL 衝突
 description: Cloudflare 是全球知名的 DNS 代管與 CDN 加速服務商。若您的網域代管於 Cloudflare，在將網址指向 CYBERBIZ 時，必須針對 Proxy 功能進行特定設定，以確保網站能順利載入並正確套用 SSL 安全憑證。
 created: 2026-03-10 00:00
-last_modified: 2026-05-25 15:58
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: reference
 status: ""
@@ -12,31 +12,49 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: ["EC"]
-modules: ["管理中心"]
-sites: ["TW"]
-audiences: ["admin"]
+products:
+  - EC
+modules:
+  - 管理中心
+sites:
+  - TW
+audiences:
+  - admin
 difficulty: intermediate
 tnb: trunk
 plans: []
 cyb_extensions: []
-intents: ["解決_Cloudflare_SSL_衝突", "關閉_Cloudflare_Proxy"]
-features: ["SSL_憑證", "網域管理", "DNS_設定"]
-prerequisites: ["[[需具備 Cloudflare 帳戶管理權限]]", "[[網域已完成 Cloudflare 代管設定]]"]
+intents:
+  - 解決_Cloudflare_SSL_衝突
+  - 關閉_Cloudflare_Proxy
+features:
+  - SSL_憑證
+  - 網域管理
+  - DNS_設定
+prerequisites:
+  - [[需具備 Cloudflare 帳戶管理權限]]
+  - [[網域已完成 Cloudflare 代管設定]]
 related: []
-tags: ["疑難排解", "DNS", "SSL"]
+tags:
+  - 疑難排解
+  - DNS
+  - SSL
 acoiv: configure
 apis: []
-devices: ["desktop"]
+devices:
+  - desktop
 ui_components: []
-paths: ["管理中心 > 網域管理"]
+paths:
+  - 管理中心 > 網域管理
 layouts: []
-wp_url: ["https://www.cyberbiz.io/helpcenter/?p=4598", "https://www.cyberbiz.io/support/?p=28727"]
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=4598
+  - https://www.cyberbiz.io/support/?p=28727
 permalink: ""
 comments: false
 search:
   exclude: false
-icon: 
+icon: ""
 hide: []
 ---
 

@@ -2,7 +2,7 @@
 title: 無法讀取 HTTPS 根網址
 description: 當網站從其他平台遷移至 CYBERBIZ 後，若出現 http://您的網址 可正常開啟，但 https://您的網址 無法讀取的情況，通常與網域商對「根網域（Naked Domain）」的轉址支援度有關。
 created: 2026-03-10 00:00
-last_modified: 2026-05-25 15:58
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: reference
 status: ""
@@ -12,31 +12,51 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: ["EC"]
-modules: ["管理中心"]
-sites: ["TW"]
-audiences: ["admin"]
+products:
+  - EC
+modules:
+  - 管理中心
+sites:
+  - TW
+audiences:
+  - admin
 difficulty: intermediate
 tnb: trunk
 plans: []
 cyb_extensions: []
-intents: ["診斷_HTTPS_連線問題", "執行網域移轉流程"]
-features: ["SSL_憑證", "根網域轉址", "網域移轉"]
-prerequisites: ["[[需具備第三方網域商的管理權限]]", "[[網域需已指向 CYBERBIZ]]"]
+intents:
+  - 診斷_HTTPS_連線問題
+  - 執行網域移轉流程
+features:
+  - SSL_憑證
+  - 根網域轉址
+  - 網域移轉
+prerequisites:
+  - [[需具備第三方網域商的管理權限]]
+  - [[網域需已指向 CYBERBIZ]]
 related: []
-tags: ["疑難排解", "HTTPS", "SSL", "網域轉址", "根網域"]
+tags:
+  - 疑難排解
+  - HTTPS
+  - SSL
+  - 網域轉址
+  - 根網域
 acoiv: configure
 apis: []
-devices: ["desktop", "mobile"]
+devices:
+  - desktop
+  - mobile
 ui_components: []
-paths: ["管理中心 > 網域管理"]
+paths:
+  - 管理中心 > 網域管理
 layouts: []
-wp_url: ["https://www.cyberbiz.io/support/?p=29144"]
+wp_url:
+  - https://www.cyberbiz.io/support/?p=29144
 permalink: ""
 comments: false
 search:
   exclude: false
-icon: 
+icon: ""
 hide: []
 ---
 

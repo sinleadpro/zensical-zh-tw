@@ -2,7 +2,7 @@
 title: 設定 VIP 專屬優惠
 description: 設定 VIP 會員專屬折扣、紅利獎勵與差異化定價，並掌握與全館行銷活動的併用規則。
 created: 2026-01-23 00:00
-last_modified: 2026-05-25 15:18
+last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: tutorial
 status: ""
@@ -12,31 +12,54 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: ["EC"]
-modules: ["會員"]
-sites: ["TW"]
-audiences: ["admin"]
+products:
+  - EC
+modules:
+  - 會員
+sites:
+  - TW
+audiences:
+  - admin
 difficulty: intermediate
 tnb: branch
-plans: ["高手", "專業 PLUS", "進階 PLUS", "高手 PLUS", "企業"]
+plans:
+  - 高手
+  - 專業 PLUS
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 cyb_extensions: []
-intents: ["如何設定 VIP 專屬優惠", "VIP 會員優惠設定"]
-features: ["VIP 優惠", "會員專屬價格", "紅利倍數"]
+intents:
+  - 如何設定 VIP 專屬優惠
+  - VIP 會員優惠設定
+features:
+  - VIP 優惠
+  - 會員專屬價格
+  - 紅利倍數
 prerequisites: []
 related: []
-tags: ["VIP", "會員", "優惠"]
+tags:
+  - VIP
+  - 會員
+  - 優惠
 acoiv: configure
 apis: []
-devices: ["desktop", "mobile"]
+devices:
+  - desktop
+  - mobile
 ui_components: []
-paths: ["會員 > VIP 設定", "商品 > 所有商品"]
+paths:
+  - 會員 > VIP 設定
+  - 商品 > 所有商品
 layouts: []
-wp_url: ["https://www.cyberbiz.io/helpcenter/?p=7498", "https://www.cyberbiz.io/support/?p=12426"]
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=7498
+  - https://www.cyberbiz.io/support/?p=12426
 permalink: ""
 comments: false
 search:
   exclude: false
-icon: 
+icon: ""
 hide: []
 ---
 
