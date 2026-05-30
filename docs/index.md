@@ -4,7 +4,6 @@ hide:
   - feedback
   - navigation
   - toc
-  - feedback
 template: homepage.html
 search:
   exclude: true
