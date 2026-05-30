@@ -144,3 +144,28 @@
   }
   </script>
 {% endblock %}
+
+{% block scripts %}
+  {{ super() }}
+  <script>
+    (function() {
+      function bypassSpaRouter(e) {
+          const anchor = e.target.closest('a');
+          if (anchor) {
+              const href = anchor.getAttribute('href');
+              const text = anchor.textContent.trim();
+
+              // Matches "主頁" text, or common paths relative to your layout docs structure
+              if (text === '主頁' || href === '../' || href === '/' || href === '../index.html') {
+                  e.preventDefault();
+                  e.stopPropagation();
+                  window.location.href = anchor.href;
+              }
+          }
+      }
+
+      // Intercept the click before Zensical's SPA mechanism grabs it
+      document.addEventListener('click', bypassSpaRouter, true);
+    })();
+  </script>
+{% endblock %}
