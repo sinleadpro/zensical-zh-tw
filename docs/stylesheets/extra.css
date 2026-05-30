@@ -788,3 +788,25 @@
 /* } */
 /**/
 
+
+/* =========================================================
+   Document Last Updated Footer
+   Displayed automatically at the bottom of every article.
+   Uses page.meta.last_modified from frontmatter.
+   ========================================================= */
+
+.doc-last-update {
+  /* Separate from article content */
+  margin-top: 2rem;
+
+  /* Slightly smaller than body text to reduce visual weight */
+  font-size: 0.85rem;
+
+  /* Use theme's secondary text color for consistency */
+  color: var(--md-default-fg-color--light);
+}
+
+.doc-last-update p {
+  /* Remove default paragraph spacing */
+  margin: 0;
+}

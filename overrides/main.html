@@ -169,3 +169,14 @@
     })();
   </script>
 {% endblock %}
+
+{% block content %}
+  {{ super() }}
+
+  {% if page.meta.last_modified %}
+  <div class="doc-last-update">
+    <hr>
+    <p>最後更新：{{ page.meta.last_modified[:10] }}</p>
+  </div>
+  {% endif %}
+{% endblock %}
