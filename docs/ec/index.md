@@ -1,6 +1,7 @@
 ---
 title:
 hide:
+  - toc
   - path
   - feedback
 ---
