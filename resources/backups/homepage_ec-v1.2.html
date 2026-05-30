@@ -140,13 +140,6 @@
       padding: 24px;
       border-radius: 0.75rem;
       border: 1px solid var(--outline-variant);
-      transition: all 0.3s ease;
-      cursor: pointer;
-    }
-    .ec-card:hover {
-      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
-      border-color: var(--primary);
-      transform: translateY(-8px);
     }
     .ec-card-icon {
       width: 48px; height: 48px;
@@ -155,10 +148,6 @@
       align-items: center;
       justify-content: center;
       margin-bottom: 16px;
-      transition: transform 0.3s ease;
-    }
-    .ec-card:hover .ec-card-icon {
-      transform: scale(1.1);
     }
     .ec-card h3 {
       font-size: 20px;
@@ -172,7 +161,23 @@
       color: var(--on-surface-variant);
       margin: 0 0 16px 0;
     }
-
+    .ec-progress {
+      width: 100%;
+      background: var(--surface-container);
+      border-radius: 9999px;
+      height: 6px;
+      overflow: hidden;
+    }
+    .ec-progress-bar {
+      height: 100%;
+      background: var(--secondary);
+    }
+    .ec-progress-label {
+      font-size: 10px;
+      margin-top: 8px;
+      color: var(--on-surface-variant);
+      font-weight: 500;
+    }
     .ec-bento {
       display: grid;
       grid-template-columns: 1fr;
@@ -402,6 +407,8 @@
         </div>
         <h3>頁面編輯器</h3>
         <p>視覺化拖拉編輯，無需程式碼即可打造精美版面。</p>
+        <div class="ec-progress"><div class="ec-progress-bar" style="width: 85%;"></div></div>
+        <div class="ec-progress-label">85% 商戶首選工具</div>
       </div>
       <div class="ec-card card-shadow">
         <div class="ec-card-icon" style="background: color-mix(in srgb, var(--secondary) 10%, transparent); color: var(--secondary);">
@@ -409,6 +416,8 @@
         </div>
         <h3>金物流串接</h3>
         <p>全面串接在地主流支付與物流系統，結帳更流暢。</p>
+        <div class="ec-progress"><div class="ec-progress-bar" style="width: 95%;"></div></div>
+        <div class="ec-progress-label">穩定度 99.9%</div>
       </div>
       <div class="ec-card card-shadow">
         <div class="ec-card-icon" style="background: color-mix(in srgb, var(--tertiary) 10%, transparent); color: var(--tertiary);">
@@ -416,6 +425,8 @@
         </div>
         <h3>SEO 優化</h3>
         <p>內建 SEO 診斷工具，讓您的品牌更容易被搜尋到。</p>
+        <div class="ec-progress"><div class="ec-progress-bar" style="width: 70%;"></div></div>
+        <div class="ec-progress-label">提升 40% 有機流量</div>
       </div>
       <div class="ec-card card-shadow">
         <div class="ec-card-icon" style="background: color-mix(in srgb, var(--primary-fixed-dim) 40%, transparent); color: var(--primary);">
@@ -423,6 +434,8 @@
         </div>
         <h3>自訂網域</h3>
         <p>連結自有網域，強化品牌識別度與專業感。</p>
+        <div class="ec-progress"><div class="ec-progress-bar" style="width: 100%;"></div></div>
+        <div class="ec-progress-label">完全自定義</div>
       </div>
     </div>
   </section>

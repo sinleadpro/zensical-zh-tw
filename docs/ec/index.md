@@ -1,5 +1,6 @@
 ---
-title:
+title: 品牌官網
+template: homepage_ec.html
 hide:
   - toc
   - path
