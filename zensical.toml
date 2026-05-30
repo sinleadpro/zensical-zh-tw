@@ -10,13 +10,13 @@
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
-site_name = "CYBERBIZ DOCS"
+site_name = "CYBERBIZ Help Center"
 
 # The site_description is included in the HTML head and should contain a
 # meaningful description of the site content for use by search engines.
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_description
-site_description = "A new project generated from the default template project."
+site_description = "CYBERBIZ 商家教學文件中心 — 涵蓋品牌官網（EC）、智慧倉儲（WMS）、智能 POS 的操作指南、功能設定與常見問題"
 
 # The site_author attribute. This is used in the HTML head element.
 #
