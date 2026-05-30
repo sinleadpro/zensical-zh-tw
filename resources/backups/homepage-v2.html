@@ -1,0 +1,1878 @@
+<!doctype html>
+<html lang="zh-TW">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>CYBERBIZ 商家教學文件</title>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+      rel="stylesheet"
+    />
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              "surface-container-high": "#e6e8ea",
+              "on-surface": "#191c1e",
+              "on-tertiary-fixed": "#0b1c30",
+              "on-tertiary": "#ffffff",
+              "primary-fixed": "#dae2ff",
+              "inverse-on-surface": "#eff1f3",
+              "secondary-fixed": "#6bff8f",
+              "secondary-container": "#6bff8f",
+              "on-primary-fixed": "#001848",
+              "surface-tint": "#0c56d0",
+              "on-surface-variant": "#434654",
+              "inverse-primary": "#b2c5ff",
+              primary: "#003d9b",
+              "surface-variant": "#e0e3e5",
+              "on-secondary-fixed": "#002109",
+              "on-tertiary-fixed-variant": "#38485d",
+              "on-secondary": "#ffffff",
+              "inverse-surface": "#2d3133",
+              "secondary-fixed-dim": "#4ae176",
+              "on-primary-fixed-variant": "#0040a2",
+              "surface-container-lowest": "#ffffff",
+              "surface-container": "#eceef0",
+              surface: "#f7f9fb",
+              "primary-fixed-dim": "#b2c5ff",
+              "surface-container-highest": "#e0e3e5",
+              "on-tertiary-container": "#c4d4ee",
+              "on-background": "#191c1e",
+              "tertiary-container": "#4c5c72",
+              tertiary: "#35445a",
+              "tertiary-fixed": "#d3e4fe",
+              "on-primary": "#ffffff",
+              "error-container": "#ffdad6",
+              "surface-dim": "#d8dadc",
+              secondary: "#006e2f",
+              "surface-container-low": "#f2f4f6",
+              "outline-variant": "#c3c6d6",
+              "on-error": "#ffffff",
+              "surface-bright": "#f7f9fb",
+              "primary-container": "#0052cc",
+              "on-primary-container": "#c4d2ff",
+              background: "#f7f9fb",
+              "on-secondary-container": "#007432",
+              outline: "#737685",
+              "on-error-container": "#93000a",
+            },
+            borderRadius: {
+              DEFAULT: "0.25rem",
+              lg: "0.5rem",
+              xl: "0.75rem",
+              full: "9999px",
+            },
+            spacing: {
+              "margin-mobile": "16px",
+              gutter: "24px",
+              base: "8px",
+              "max-width": "1440px",
+              "margin-desktop": "40px",
+            },
+            fontFamily: {
+              "headline-sm": ["Inter"],
+              "label-md": ["Inter"],
+              "headline-xl": ["Inter"],
+              "body-md": ["Inter"],
+              "body-sm": ["Inter"],
+              "body-lg": ["Inter"],
+              "headline-md": ["Inter"],
+              "headline-lg-mobile": ["Inter"],
+              "headline-lg": ["Inter"],
+            },
+            fontSize: {
+              "headline-sm": [
+                "20px",
+                { lineHeight: "28px", fontWeight: "600" },
+              ],
+              "label-md": [
+                "14px",
+                {
+                  lineHeight: "16px",
+                  letterSpacing: "0.01em",
+                  fontWeight: "500",
+                },
+              ],
+              "headline-xl": [
+                "40px",
+                {
+                  lineHeight: "52px",
+                  letterSpacing: "-0.02em",
+                  fontWeight: "700",
+                },
+              ],
+              "body-md": ["16px", { lineHeight: "24px", fontWeight: "400" }],
+              "body-sm": ["14px", { lineHeight: "20px", fontWeight: "400" }],
+              "body-lg": ["18px", { lineHeight: "28px", fontWeight: "400" }],
+              "headline-md": [
+                "24px",
+                { lineHeight: "32px", fontWeight: "600" },
+              ],
+              "headline-lg-mobile": [
+                "28px",
+                { lineHeight: "36px", fontWeight: "700" },
+              ],
+              "headline-lg": [
+                "32px",
+                {
+                  lineHeight: "40px",
+                  letterSpacing: "-0.02em",
+                  fontWeight: "700",
+                },
+              ],
+            },
+          },
+        },
+      };
+    </script>
+    <style>
+      body {
+        font-family: "Inter", sans-serif;
+        background-color: #f7f9fb;
+        color: #191c1e;
+      }
+      .material-symbols-outlined {
+        font-variation-settings:
+          "FILL" 0,
+          "wght" 400,
+          "GRAD" 0,
+          "opsz" 24;
+      }
+      .glass-card {
+        background: rgba(255, 255, 255, 0.7);
+        backdrop-filter: blur(12px);
+        border: 1px solid rgba(226, 232, 240, 0.5);
+      }
+      .carousel-container {
+        height: 312px;
+      }
+      @media (max-width: 768px) {
+        .carousel-container {
+          height: 420px;
+        }
+      }
+    </style>
+    <style>
+      .scrollbar-hide::-webkit-scrollbar {
+        display: none;
+      }
+      .scrollbar-hide {
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+      }
+    </style>
+  </head>
+  <body class="bg-surface">
+    <!-- TopNavBar -->
+    <header
+      class="bg-white border-b border-surface-container-highest sticky top-0 z-50 h-[72px] flex items-center w-full"
+    >
+      <div
+        class="flex justify-between items-center px-margin-desktop w-full max-w-max-width mx-auto h-full"
+      >
+        <div class="flex items-center gap-10">
+          <div class="flex items-center gap-3 cursor-pointer">
+            <img
+              class="w-8 h-8"
+              alt="CYBERBIZ"
+              src="assets/images/favicon.png"
+            />
+            <span class="font-bold text-xl tracking-tight text-on-surface">
+              CYBERBIZ DOCS
+            </span>
+          </div>
+          <nav class="hidden lg:flex items-center gap-8 self-end h-full pt-4">
+            <a
+              class="font-body-md hover:text-primary transition-colors pb-4 border-b-2 text-on-surface border-outline font-medium"
+              href="../"
+            >
+              主頁
+            </a>
+            <a
+              class="font-body-md pb-4 border-b-2 text-on-surface-variant border-transparent"
+              href="../ec/"
+            >
+              品牌官網
+            </a>
+            <a
+              class="font-body-md text-on-surface-variant hover:text-primary transition-colors pb-4 border-b-2 border-transparent"
+              href="../wms/"
+            >
+              智慧倉儲
+            </a>
+            <a
+              class="font-body-md text-on-surface-variant hover:text-primary transition-colors pb-4 border-b-2 border-transparent"
+              href="../pos/"
+            >
+              智能 POS
+            </a>
+            <a
+              class="font-body-md text-on-surface-variant hover:text-primary transition-colors pb-4 border-b-2 border-transparent"
+              href="../resources/"
+            >
+              資源中心
+            </a>
+          </nav>
+        </div>
+        <div class="flex items-center gap-6"></div>
+      </div>
+    </header>
+    <main class="w-full">
+      <!-- Hero Banner with Search -->
+      <section
+        class="relative w-full bg-surface-container-lowest overflow-hidden py-24 bg-gradient-to-br from-surface to-primary/5"
+      >
+        <div class="absolute inset-0 opacity-20 pointer-events-none">
+          <div
+            class="absolute -top-32 -left-32 w-[600px] h-[600px] bg-primary rounded-full blur-[160px] opacity-30"
+          ></div>
+          <div
+            class="absolute -bottom-32 -right-32 w-[600px] h-[600px] bg-secondary rounded-full blur-[160px] opacity-20"
+          ></div>
+        </div>
+        <div
+          class="max-w-max-width mx-auto px-margin-desktop relative z-10 text-center"
+        >
+          <h1
+            class="font-headline-xl text-headline-xl text-on-surface mb-6 tracking-tight font-extrabold"
+          >
+            開啟您的電商成功之旅
+          </h1>
+          <p
+            class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-10"
+          >
+            從帳號註冊、商品上架到行銷推廣的完整步驟。<br />
+            我們為您準備了最完整的數位轉型指南，協助您的品牌大放異彩。
+           </p>
+           <a
+             href="#"
+             class="inline-flex items-center gap-2 px-10 py-4 bg-primary text-white rounded-xl font-headline-sm shadow-xl hover:bg-primary-container transition-all hover:scale-105 group mb-10"
+           >
+             瀏覽教學文件
+             <span
+               class="material-symbols-outlined group-hover:translate-x-1 transition-transform"
+             >
+               arrow_forward
+             </span>
+           </a>
+
+           <!-- Major Update Card -->
+           <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+             <!-- FAQ Section (One Half) -->
+             <div
+               class="glass-card rounded-3xl border-white/20 shadow-xl flex flex-col py-6 px-10"
+             >
+               <div class="flex items-center gap-4 mb-4">
+                 <div
+                   class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary"
+                 >
+                   <span class="material-symbols-outlined text-2xl">quiz</span>
+                 </div>
+                 <h3 class="font-headline-md text-on-surface">常見問題</h3>
+               </div>
+               <div class="flex flex-wrap gap-4 flex-1 content-start">
+                 <a
+                   class="px-5 py-2.5 bg-surface-container rounded-xl text-body-sm text-on-surface-variant hover:bg-primary hover:text-white transition-all flex items-center gap-2"
+                   href="#"
+                 >
+                   <span class="material-symbols-outlined text-sm">
+                     payments
+                   </span>
+                   支付與撥款
+                 </a>
+                 <a
+                   class="px-5 py-2.5 bg-surface-container rounded-xl text-body-sm text-on-surface-variant hover:bg-primary hover:text-white transition-all flex items-center gap-2"
+                   href="#"
+                 >
+                   <span class="material-symbols-outlined text-sm">
+                     local_shipping
+                   </span>
+                   物流設定指南
+                 </a>
+                 <a
+                   class="px-5 py-2.5 bg-surface-container rounded-xl text-body-sm text-on-surface-variant hover:bg-primary hover:text-white transition-all flex items-center gap-2"
+                   href="#"
+                 >
+                   <span class="material-symbols-outlined text-sm">
+                     confirmation_number
+                   </span>
+                   優惠券應用
+                 </a>
+                 <a
+                   class="px-5 py-2.5 bg-surface-container rounded-xl text-body-sm text-on-surface-variant hover:bg-primary hover:text-white transition-all flex items-center gap-2"
+                   href="#"
+                 >
+                   <span class="material-symbols-outlined text-sm">
+                     person_search
+                   </span>
+                   會員分級管理
+                 </a>
+                 <a
+                   class="px-5 py-2.5 bg-surface-container rounded-xl text-body-sm text-on-surface-variant hover:bg-primary hover:text-white transition-all flex items-center gap-2"
+                   href="#"
+                 >
+                   <span class="material-symbols-outlined text-sm">
+                     sync_alt
+                   </span>
+                   系統串接問題
+                 </a>
+                 <a
+                   class="px-5 py-2.5 bg-surface-container rounded-xl text-body-sm text-on-surface-variant hover:bg-primary hover:text-white transition-all flex items-center gap-2"
+                   href="#"
+                 >
+                   <span class="material-symbols-outlined text-sm">
+                     ads_click
+                   </span>
+                   廣告投放
+                 </a>
+                 <a
+                   class="px-5 py-2.5 bg-surface-container rounded-xl text-body-sm text-on-surface-variant hover:bg-primary hover:text-white transition-all flex items-center gap-2"
+                   href="#"
+                 >
+                   <span class="material-symbols-outlined text-sm">
+                     inventory_2
+                   </span>
+                   庫存管理
+                 </a>
+                 <a
+                   class="px-5 py-2.5 bg-surface-container rounded-xl text-body-sm text-on-surface-variant hover:bg-primary hover:text-white transition-all flex items-center gap-2"
+                   href="#"
+                 >
+                   <span class="material-symbols-outlined text-sm">
+                     security
+                   </span>
+                   資安防護
+                 </a>
+               </div>
+               <div class="mt-8 pt-6 border-t border-outline-variant/20">
+                 <button
+                   class="text-primary font-label-md flex items-center gap-1 hover:gap-2 transition-all"
+                 >
+                   查看更多問題
+                   <span class="material-symbols-outlined text-sm">
+                     chevron_right
+                   </span>
+                 </button>
+               </div>
+             </div>
+             <!-- Community Card (One Half) -->
+             <div
+               class="glass-card rounded-3xl border-white/20 shadow-xl bg-gradient-to-br from-white to-secondary/5 flex flex-col px-10 py-6"
+             >
+               <div class="flex items-center gap-4 mb-4">
+                 <div
+                   class="w-12 h-12 rounded-2xl bg-primary/10 flex items-center justify-center text-primary"
+                 >
+                   <span class="material-symbols-outlined text-2xl">
+                     campaign
+                   </span>
+                 </div>
+                 <h3 class="font-headline-md text-on-surface">最新公告</h3>
+                 <button
+                   class="ml-auto p-2 rounded-full hover:bg-primary/5 text-on-surface-variant hover:text-primary transition-all flex items-center justify-center"
+                   title="更多選項"
+                 ></button>
+               </div>
+               <div class=""></div>
+               <div
+                 class="flex-1 overflow-hidden h-[240px]"
+                 id="announcement-view-port"
+               >
+                 <div class="flex h-full items-center">
+                   <div
+                     class="flex-1 pr-4 overflow-y-auto h-[240px] scrollbar-thin scrollbar-thumb-primary/20 hover:scrollbar-thumb-primary/40"
+                     id="announcement-scroll-list"
+                     style="
+                       height: 240px;
+                       scrollbar-width: thin;
+                       scrollbar-color: rgba(0, 61, 155, 0.2) transparent;
+                     "
+                   >
+                     <div class="space-y-6 pb-4">
+                       <div
+                         class="flex gap-4 group cursor-pointer snap-start announcement-item"
+                         data-index="0"
+                       >
+                         <div
+                           class="flex-shrink-0 w-14 h-14 rounded-xl bg-surface-container flex flex-col items-center justify-center border border-outline-variant/30 group-hover:bg-primary/10 transition-colors"
+                         >
+                           <span
+                             class="text-[10px] font-bold text-on-surface-variant group-hover:text-primary"
+                           >
+                             JUN
+                           </span>
+                           <span
+                             class="text-lg font-bold text-on-surface group-hover:text-primary"
+                           >
+                             12
+                           </span>
+                         </div>
+                         <div class="flex-1 text-left">
+                           <h4
+                             class="font-label-md text-on-surface group-hover:text-primary transition-colors mb-1"
+                           >
+                             系統升級：全新物流服務商整合介面上線
+                           </h4>
+                           <p
+                             class="text-xs text-on-surface-variant line-clamp-1"
+                           >
+                             整合包含 7-11、全家等主流物流業者，讓出貨流程更直覺簡便。
+                           </p>
+                         </div>
+                       </div>
+                       <div
+                         class="flex gap-4 group cursor-pointer snap-start announcement-item"
+                         data-index="1"
+                       >
+                         <div
+                           class="flex-shrink-0 w-14 h-14 rounded-xl bg-surface-container flex flex-col items-center justify-center border border-outline-variant/30 group-hover:bg-primary/10 transition-colors"
+                         >
+                           <span
+                             class="text-[10px] font-bold text-on-surface-variant group-hover:text-primary"
+                           >
+                             JUN
+                           </span>
+                           <span
+                             class="text-lg font-bold text-on-surface group-hover:text-primary"
+                           >
+                             05
+                           </span>
+                         </div>
+                         <div class="flex-1 text-left">
+                           <h4
+                             class="font-label-md text-on-surface group-hover:text-primary transition-colors mb-1"
+                           >
+                             功能優化：GA4 進階電子商務追蹤設定指南
+                           </h4>
+                           <p
+                             class="text-xs text-on-surface-variant line-clamp-1"
+                           >
+                             協助商家精準掌握顧客行為路徑，優化行銷轉換成效。
+                           </p>
+                         </div>
+                       </div>
+                       <div
+                         class="flex gap-4 group cursor-pointer snap-start announcement-item"
+                         data-index="2"
+                       >
+                         <div
+                           class="flex-shrink-0 w-14 h-14 rounded-xl bg-surface-container flex flex-col items-center justify-center border border-outline-variant/30 group-hover:bg-primary/10 transition-colors"
+                         >
+                           <span
+                             class="text-[10px] font-bold text-on-surface-variant group-hover:text-primary"
+                           >
+                             MAY
+                           </span>
+                           <span
+                             class="text-lg font-bold text-on-surface group-hover:text-primary"
+                           >
+                             28
+                           </span>
+                         </div>
+                         <div class="flex-1 text-left">
+                           <h4
+                             class="font-label-md text-on-surface group-hover:text-primary transition-colors mb-1"
+                           >
+                             安全性通知：強化後台登入雙重驗證機制
+                           </h4>
+                           <p
+                             class="text-xs text-on-surface-variant line-clamp-1"
+                           >
+                             守護您的商店數據安全，即日起支援簡訊與 App
+                             驗證碼登入。
+                           </p>
+                         </div>
+                       </div>
+                       <div
+                         class="flex gap-4 group cursor-pointer snap-start announcement-item"
+                         data-index="3"
+                       >
+                         <div
+                           class="flex-shrink-0 w-14 h-14 rounded-xl bg-surface-container flex flex-col items-center justify-center border border-outline-variant/30 group-hover:bg-primary/10 transition-colors"
+                         >
+                           <span
+                             class="text-[10px] font-bold text-on-surface-variant group-hover:text-primary"
+                           >
+                             MAY
+                           </span>
+                           <span
+                             class="text-lg font-bold text-on-surface group-hover:text-primary"
+                           >
+                             15
+                           </span>
+                         </div>
+                         <div class="flex-1 text-left">
+                           <h4
+                             class="font-label-md text-on-surface group-hover:text-primary transition-colors mb-1"
+                           >
+                             市場洞察：2024 上半年電商消費趨勢報告
+                           </h4>
+                           <p
+                             class="text-xs text-on-surface-variant line-clamp-1"
+                           >
+                             深度分析消費行為變化，助力品牌制定精準行銷策略。
+                           </p>
+                         </div>
+                       </div>
+                       <div
+                         class="flex gap-4 group cursor-pointer snap-start announcement-item"
+                         data-index="4"
+                       >
+                         <div
+                           class="flex-shrink-0 w-14 h-14 rounded-xl bg-surface-container flex flex-col items-center justify-center border border-outline-variant/30 group-hover:bg-primary/10 transition-colors"
+                         >
+                           <span
+                             class="text-[10px] font-bold text-on-surface-variant group-hover:text-primary"
+                           >
+                             MAY
+                           </span>
+                           <span
+                             class="text-lg font-bold text-on-surface group-hover:text-primary"
+                           >
+                             10
+                           </span>
+                         </div>
+                         <div class="flex-1 text-left">
+                           <h4
+                             class="font-label-md text-on-surface group-hover:text-primary transition-colors mb-1"
+                           >
+                             營運指南：高效處理大促期間退貨流程
+                           </h4>
+                           <p
+                             class="text-xs text-on-surface-variant line-clamp-1"
+                           >
+                             建立標準化流程，降低客訴風險並提升售後滿意度。
+                           </p>
+                         </div>
+                       </div>
+                       <div
+                         class="flex gap-4 group cursor-pointer snap-start announcement-item"
+                         data-index="5"
+                       >
+                         <div
+                           class="flex-shrink-0 w-14 h-14 rounded-xl bg-surface-container flex flex-col items-center justify-center border border-outline-variant/30 group-hover:bg-primary/10 transition-colors"
+                         >
+                           <span
+                             class="text-[10px] font-bold text-on-surface-variant group-hover:text-primary"
+                           >
+                             APR
+                           </span>
+                           <span
+                             class="text-lg font-bold text-on-surface group-hover:text-primary"
+                           >
+                             25
+                           </span>
+                         </div>
+                         <div class="flex-1 text-left">
+                           <h4
+                             class="font-label-md text-on-surface group-hover:text-primary transition-colors mb-1"
+                           >
+                             SEO 實戰：如何讓您的商品分類頁排名更靠前
+                           </h4>
+                           <p
+                             class="text-xs text-on-surface-variant line-clamp-1"
+                           >
+                             掌握分類頁關鍵字佈局技巧，導入精準自然搜尋流量。
+                           </p>
+                         </div>
+                       </div>
+                       <div
+                         class="flex gap-4 group cursor-pointer snap-start announcement-item"
+                         data-index="6"
+                       >
+                         <div
+                           class="flex-shrink-0 w-14 h-14 rounded-xl bg-surface-container flex flex-col items-center justify-center border border-outline-variant/30 group-hover:bg-primary/10 transition-colors"
+                         >
+                           <span
+                             class="text-[10px] font-bold text-on-surface-variant group-hover:text-primary"
+                           >
+                             APR
+                           </span>
+                           <span
+                             class="text-lg font-bold text-on-surface group-hover:text-primary"
+                           >
+                             18
+                           </span>
+                         </div>
+                         <div class="flex-1 text-left">
+                           <h4
+                             class="font-label-md text-on-surface group-hover:text-primary transition-colors mb-1"
+                           >
+                             金流串接：支援分期付款功能設定流程
+                           </h4>
+                           <p
+                             class="text-xs text-on-surface-variant line-clamp-1"
+                           >
+                             提供多元支付彈性，協助提升高單價商品轉單率。
+                           </p>
+                         </div>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+               </div>
+               <div class="mt-8 pt-6 border-t border-outline-variant/20">
+                 <button
+                   class="text-primary font-label-md flex items-center gap-1 hover:gap-2 transition-all"
+                 >
+                   查看歷史公告
+                   <span class="material-symbols-outlined text-sm">
+                     chevron_right
+                   </span>
+                 </button>
+               </div>
+             </div>
+           </div>
+           <div
+             class="flex flex-wrap justify-center items-center gap-3 mt-12 mb-12 relative z-10"
+           >
+             <span class="text-on-surface-variant font-label-md mr-2">
+               熱門關鍵字：
+             </span>
+             <a
+               class="px-4 py-1.5 bg-surface-container-high rounded-full text-body-sm text-on-surface-variant hover:bg-primary/10 hover:text-primary transition-all"
+               href="#"
+             >
+               金流申請
+             </a>
+             <a
+               class="px-4 py-1.5 bg-surface-container-high rounded-full text-body-sm text-on-surface-variant hover:bg-primary/10 hover:text-primary transition-all"
+               href="#"
+             >
+               GA4 串接
+             </a>
+             <a
+               class="px-4 py-1.5 bg-surface-container-high rounded-full text-body-sm text-on-surface-variant hover:bg-primary/10 hover:text-primary transition-all"
+               href="#"
+             >
+               FB 廣告投放
+             </a>
+             <a
+               class="px-4 py-1.5 bg-surface-container-high rounded-full text-body-sm text-on-surface-variant hover:bg-primary/10 hover:text-primary transition-all"
+               href="#"
+             >
+               物流設定
+             </a>
+             <a
+               class="px-4 py-1.5 bg-surface-container-high rounded-full text-body-sm text-on-surface-variant hover:bg-primary/10 hover:text-primary transition-all"
+               href="#"
+             >
+               電子發票
+             </a>
+           </div>
+         </div>
+       </section>
+      <!-- Quick Start 4 Steps -->
+      <section class="py-20 bg-white w-full">
+        <div class="max-w-max-width mx-auto px-margin-desktop">
+          <div class="text-center mb-16">
+            <h2 class="font-headline-lg text-headline-lg text-on-surface mb-4">
+              快速入門四步驟
+            </h2>
+            <div class="w-20 h-1 bg-primary mx-auto rounded-full"></div>
+          </div>
+          <div class="relative">
+            <!-- Connecting Line (Desktop) -->
+            <div
+              class="hidden lg:block absolute top-1/2 left-0 w-full h-0.5 bg-outline-variant/30 -translate-y-12 z-0"
+            ></div>
+            <div
+              class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 relative z-10"
+            >
+              <!-- Step 1 -->
+              <div
+                class="flex flex-col items-center text-center group cursor-pointer"
+              >
+                <div
+                  class="w-24 h-24 rounded-full bg-primary-fixed flex items-center justify-center text-primary mb-6 shadow-md border-4 border-white group-hover:scale-110 transition-transform relative"
+                >
+                  <span class="material-symbols-outlined text-4xl">
+                    person_add
+                  </span>
+                  <div
+                    class="absolute -top-2 -right-2 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-bold text-sm opacity-0 scale-50 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300"
+                  >
+                    1
+                  </div>
+                </div>
+                <h3 class="font-headline-sm text-on-surface mb-2">註冊開店</h3>
+                <p class="font-body-sm text-on-surface-variant px-4">
+                  填寫基本資料，快速開通您的專屬電商後台。
+                </p>
+              </div>
+              <!-- Step 2 -->
+              <div
+                class="flex flex-col items-center text-center group cursor-pointer"
+              >
+                <div
+                  class="w-24 h-24 rounded-full bg-primary-fixed flex items-center justify-center text-primary mb-6 shadow-md border-4 border-white group-hover:scale-110 transition-transform relative"
+                >
+                  <span class="material-symbols-outlined text-4xl">
+                    inventory_2
+                  </span>
+                  <div
+                    class="absolute -top-2 -right-2 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-bold text-sm opacity-0 scale-50 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300"
+                  >
+                    2
+                  </div>
+                </div>
+                <h3 class="font-headline-sm text-on-surface mb-2">上架商品</h3>
+                <p class="font-body-sm text-on-surface-variant px-4">
+                  上傳商品圖片與描述，建立吸引人的商店頁面。
+                </p>
+              </div>
+              <!-- Step 3 -->
+              <div
+                class="flex flex-col items-center text-center group cursor-pointer"
+              >
+                <div
+                  class="w-24 h-24 rounded-full bg-primary-fixed flex items-center justify-center text-primary mb-6 shadow-md border-4 border-white group-hover:scale-110 transition-transform relative"
+                >
+                  <span class="material-symbols-outlined text-4xl">
+                    account_balance_wallet
+                  </span>
+                  <div
+                    class="absolute -top-2 -right-2 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-bold text-sm opacity-0 scale-50 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300"
+                  >
+                    3
+                  </div>
+                </div>
+                <h3 class="font-headline-sm text-on-surface mb-2">
+                  設定金物流
+                </h3>
+                <p class="font-body-sm text-on-surface-variant px-4">
+                  串接多元支付與物流選項，提供流暢購物體驗。
+                </p>
+              </div>
+              <!-- Step 4 -->
+              <div
+                class="flex flex-col items-center text-center group cursor-pointer"
+              >
+                <div
+                  class="w-24 h-24 rounded-full bg-secondary-container flex items-center justify-center text-secondary mb-6 shadow-md border-4 border-white group-hover:scale-110 transition-transform relative"
+                >
+                  <span class="material-symbols-outlined text-4xl">
+                    rocket_launch
+                  </span>
+                  <div
+                    class="absolute -top-2 -right-2 w-8 h-8 bg-primary text-white rounded-full flex items-center justify-center font-bold text-sm opacity-0 scale-50 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300"
+                  >
+                    4
+                  </div>
+                </div>
+                <h3 class="font-headline-sm text-on-surface mb-2">開始銷售</h3>
+                <p class="font-body-sm text-on-surface-variant px-4">
+                  正式開張，運用行銷工具帶動流量與業績成長。
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Core Learning Paths Grid -->
+      <section class="py-20 w-full">
+        <div class="max-w-max-width mx-auto px-margin-desktop">
+          <div class="flex items-center justify-between mb-10">
+            <h2 class="font-headline-lg text-headline-lg text-on-surface">
+              核心學習路徑
+            </h2>
+            <a
+              class="text-primary font-label-md flex items-center gap-1 hover:underline"
+              href="#"
+            >
+              查看所有路徑
+              <span class="material-symbols-outlined text-sm">
+                arrow_forward
+              </span>
+            </a>
+          </div>
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter"
+          >
+            <!-- Beginner -->
+            <div
+              class="group glass-card p-8 rounded-xl shadow-sm hover:shadow-lg border-outline-variant hover:border-primary transition-all cursor-pointer hover:-translate-y-2 duration-300"
+            >
+              <div
+                class="w-12 h-12 rounded-lg bg-primary-fixed flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform"
+              >
+                <span class="material-symbols-outlined text-3xl">
+                  visibility
+                </span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm mb-3">新手必看</h3>
+              <p class="font-body-sm text-body-sm text-on-surface-variant">
+                快速了解後台操作，完成品牌官網的基礎建置與設定。
+              </p>
+            </div>
+            <!-- Store Management -->
+            <div
+              class="group glass-card p-8 rounded-xl shadow-sm hover:shadow-lg border-outline-variant hover:border-primary transition-all cursor-pointer hover:-translate-y-2 duration-300"
+            >
+              <div
+                class="w-12 h-12 rounded-lg bg-primary-fixed flex items-center justify-center text-primary mb-6 group-hover:scale-110 transition-transform"
+              >
+                <span class="material-symbols-outlined text-3xl">
+                  storefront
+                </span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm mb-3">商品管理</h3>
+              <p class="font-body-sm text-body-sm text-on-surface-variant">
+                掌握商品上架、庫存更新與訂單處理的最佳流程。
+              </p>
+            </div>
+            <!-- Payments -->
+            <div
+              class="group glass-card p-8 rounded-xl shadow-sm hover:shadow-lg border-outline-variant hover:border-primary transition-all cursor-pointer hover:-translate-y-2 duration-300"
+            >
+              <div
+                class="w-12 h-12 rounded-lg mb-6 group-hover:scale-110 transition-transform flex items-center justify-center bg-primary/10 text-primary"
+              >
+                <span class="material-symbols-outlined text-3xl">wallet</span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm mb-3">交易金流</h3>
+              <p class="font-body-sm text-body-sm text-on-surface-variant">
+                設定第三方支付、發票系統與退款處理程序。
+              </p>
+            </div>
+            <!-- Marketing -->
+            <div
+              class="group glass-card p-8 rounded-xl shadow-sm hover:shadow-lg border-outline-variant hover:border-primary transition-all cursor-pointer hover:-translate-y-2 duration-300"
+            >
+              <div
+                class="w-12 h-12 rounded-lg mb-6 group-hover:scale-110 transition-transform flex items-center justify-center bg-primary-fixed text-primary"
+              >
+                <span class="material-symbols-outlined text-3xl">campaign</span>
+              </div>
+              <h3 class="font-headline-sm text-headline-sm mb-3">行銷與推廣</h3>
+              <p class="font-body-sm text-body-sm text-on-surface-variant">
+                運用優惠券、點數與廣告串接，提升轉化與回購。
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Vertical Carousel Feature Section -->
+      <section class="py-16 bg-surface-container-low w-full">
+        <div class="max-w-max-width mx-auto px-margin-desktop">
+          <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div class="lg:col-span-5">
+              <h2 class="font-headline-lg text-on-surface mb-6">
+                智慧電商新紀元
+              </h2>
+              <p class="font-body-lg text-on-surface-variant mb-8">
+                我們持續升級系統工具，協助商家透過自動化與數據分析，輕鬆應對多變的市場挑戰。
+              </p>
+              <!-- Stacked Small Nav Items -->
+              <div class="flex flex-col gap-4">
+                <div
+                  class="group bg-white rounded-xl p-4 cursor-pointer hover:shadow-md transition-all flex items-center justify-between border border-outline-variant/50"
+                >
+                  <div class="flex items-center gap-4">
+                    <span class="material-symbols-outlined text-secondary">
+                      update
+                    </span>
+                    <div class="text-left">
+                      <h4 class="font-label-md text-on-surface">
+                        系統更新公告
+                      </h4>
+                      <p class="text-xs text-on-surface-variant">
+                        2024 夏季功能更新一覽
+                      </p>
+                    </div>
+                  </div>
+                  <span class="material-symbols-outlined text-primary text-sm">
+                    chevron_right
+                  </span>
+                </div>
+              </div>
+            </div>
+            <div
+              class="lg:col-span-7 relative overflow-hidden bg-white rounded-2xl carousel-container shadow-xl border border-outline-variant/30 group"
+            >
+              <div
+                class="h-full transition-transform duration-700 ease-in-out flex flex-col"
+                id="carousel-track"
+                style="transform: translateY(-200%)"
+              >
+                <!-- Slide 1 -->
+                <div
+                  class="h-full w-full flex-shrink-0 p-8 flex flex-col md:flex-row gap-8 items-center cursor-pointer hover:bg-surface/30 transition-all"
+                >
+                  <div class="flex-1 text-left">
+                    <span
+                      class="px-3 py-1 bg-primary text-white rounded-full text-[10px] font-bold tracking-wider mb-4 inline-block"
+                    >
+                      NEW FEATURE
+                    </span>
+                    <h3 class="font-headline-lg text-on-surface mb-4">
+                      AI 智慧行銷助手
+                    </h3>
+                    <p class="font-body-md text-on-surface-variant mb-6">
+                      運用 AI
+                      技術自動生成高品質商品文案，大幅降低運營成本，精準觸及客群。
+                    </p>
+                    <div class="flex items-center text-primary font-bold gap-2">
+                      <span class="">了解更多</span>
+                      <span class="material-symbols-outlined">
+                        arrow_forward
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full md:w-48 h-48 bg-gradient-to-tr from-primary/10 to-primary/5 rounded-2xl flex items-center justify-center"
+                  >
+                    <span
+                      class="material-symbols-outlined text-6xl text-primary"
+                    >
+                      smart_toy
+                    </span>
+                  </div>
+                </div>
+                <!-- Slide 2 -->
+                <div
+                  class="h-full w-full flex-shrink-0 p-8 flex flex-col md:flex-row gap-8 items-center cursor-pointer hover:bg-surface/30 transition-all"
+                >
+                  <div class="flex-1 text-left">
+                    <span
+                      class="px-3 py-1 bg-secondary text-white rounded-full text-[10px] font-bold tracking-wider mb-4 inline-block"
+                    >
+                      TOOL
+                    </span>
+                    <h3 class="font-headline-lg text-on-surface mb-4">
+                      一鍵搬家工具
+                    </h3>
+                    <p class="font-body-md text-on-surface-variant mb-6">
+                      支援各大平台資料無痛搬遷，商品圖片、訂單與會員一秒串接。
+                    </p>
+                    <div class="flex items-center text-primary font-bold gap-2">
+                      <span class="">立即嘗試</span>
+                      <span class="material-symbols-outlined">
+                        arrow_forward
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full md:w-48 h-48 bg-gradient-to-tr from-secondary/10 to-secondary/5 rounded-2xl flex items-center justify-center"
+                  >
+                    <span
+                      class="material-symbols-outlined text-6xl text-secondary"
+                    >
+                      move_item
+                    </span>
+                  </div>
+                </div>
+                <!-- Slide 3 (New) -->
+                <div
+                  class="h-full w-full flex-shrink-0 p-8 flex flex-col md:flex-row gap-8 items-center cursor-pointer hover:bg-surface/30 transition-all"
+                >
+                  <div class="flex-1 text-left">
+                    <span
+                      class="px-3 py-1 bg-tertiary text-white rounded-full text-[10px] font-bold tracking-wider mb-4 inline-block"
+                    >
+                      SMART RETAIL
+                    </span>
+                    <h3 class="font-headline-lg text-on-surface mb-4">
+                      智能 POS 系統整合
+                    </h3>
+                    <p class="font-body-md text-on-surface-variant mb-6">
+                      一站式串連門市與官網數據，實現 OMO
+                      虛實整合，提升營運效率與客製化體驗。
+                    </p>
+                    <div class="flex items-center text-primary font-bold gap-2">
+                      <span class="">了解詳情</span>
+                      <span class="material-symbols-outlined">
+                        arrow_forward
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full md:w-48 h-48 bg-gradient-to-tr from-tertiary/10 to-tertiary/5 rounded-2xl flex items-center justify-center"
+                  >
+                    <span
+                      class="material-symbols-outlined text-6xl text-tertiary"
+                    >
+                      devices
+                    </span>
+                  </div>
+                </div>
+                <!-- Slide 4 -->
+                <div
+                  class="h-full w-full flex-shrink-0 p-8 flex flex-col md:flex-row gap-8 items-center cursor-pointer hover:bg-surface/30 transition-all"
+                >
+                  <div class="flex-1 text-left">
+                    <span
+                      class="px-3 py-1 bg-secondary text-white rounded-full text-[10px] font-bold tracking-wider mb-4 inline-block"
+                    >
+                      INTEGRATION
+                    </span>
+                    <h3 class="font-headline-lg text-on-surface mb-4">
+                      第三方物流自動串接
+                    </h3>
+                    <p class="font-body-md text-on-surface-variant mb-6">
+                      串接各大物流夥伴，訂單自動拋轉、即時追蹤貨態，讓出貨流程全自動化。
+                    </p>
+                    <div class="flex items-center text-primary font-bold gap-2">
+                      <span class="">了解更多</span>
+                      <span class="material-symbols-outlined">
+                        arrow_forward
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full md:w-48 h-48 bg-gradient-to-tr from-secondary/10 to-secondary/5 rounded-2xl flex items-center justify-center"
+                  >
+                    <span
+                      class="material-symbols-outlined text-6xl text-secondary"
+                    >
+                      local_shipping
+                    </span>
+                  </div>
+                </div>
+                <!-- Slide 5 -->
+                <div
+                  class="h-full w-full flex-shrink-0 p-8 flex flex-col md:flex-row gap-8 items-center cursor-pointer hover:bg-surface/30 transition-all"
+                >
+                  <div class="flex-1 text-left">
+                    <span
+                      class="px-3 py-1 bg-primary text-white rounded-full text-[10px] font-bold tracking-wider mb-4 inline-block"
+                    >
+                      ANALYTICS
+                    </span>
+                    <h3 class="font-headline-lg text-on-surface mb-4">
+                      數據分析儀表板
+                    </h3>
+                    <p class="font-body-md text-on-surface-variant mb-6">
+                      一目瞭然的營運數據總覽，銷售趨勢、會員分析與商品績效即時掌握。
+                    </p>
+                    <div class="flex items-center text-primary font-bold gap-2">
+                      <span class="">立即體驗</span>
+                      <span class="material-symbols-outlined">
+                        arrow_forward
+                      </span>
+                    </div>
+                  </div>
+                  <div
+                    class="w-full md:w-48 h-48 bg-gradient-to-tr from-primary/10 to-primary/5 rounded-2xl flex items-center justify-center"
+                  >
+                    <span
+                      class="material-symbols-outlined text-6xl text-primary"
+                    >
+                      dashboard
+                    </span>
+                  </div>
+                </div>
+              </div>
+              <!-- Carousel Nav -->
+              <div
+                class="absolute right-4 top-1/2 -translate-y-1/2 flex flex-col gap-3 z-20"
+              >
+                <button
+                  class="carousel-dot w-2 h-2 rounded-full transition-all bg-primary/20"
+                  data-index="0"
+                  onclick="goToSlide(0)"
+                ></button>
+                <button
+                  class="carousel-dot w-2 h-2 rounded-full transition-all bg-primary/20"
+                  data-index="1"
+                  onclick="goToSlide(1)"
+                ></button>
+                <button
+                  class="carousel-dot w-2 h-2 rounded-full transition-all bg-primary scale-125"
+                  data-index="2"
+                  onclick="goToSlide(2)"
+                ></button>
+                <button
+                  class="carousel-dot w-2 h-2 rounded-full transition-all bg-primary/20"
+                  data-index="3"
+                  onclick="goToSlide(3)"
+                ></button>
+                <button
+                  class="carousel-dot w-2 h-2 rounded-full transition-all bg-primary/20"
+                  data-index="4"
+                  onclick="goToSlide(4)"
+                ></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Trending Topics Section -->
+      <section class="py-16 bg-white w-full">
+        <div class="max-w-max-width mx-auto px-margin-desktop">
+          <div class="flex items-center gap-2 mb-8">
+            <span class="material-symbols-outlined text-primary">
+              local_fire_department
+            </span>
+            <h2 class="font-headline-md text-on-surface">熱門主題公告</h2>
+          </div>
+          <div class="grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-8 gap-4">
+            <!-- Topics -->
+            <div
+              class="flex flex-col items-center gap-3 p-4 bg-surface rounded-xl border border-transparent hover:border-primary hover:bg-white transition-all cursor-pointer group"
+            >
+              <div
+                class="w-12 h-12 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors"
+              >
+                <span class="material-symbols-outlined">analytics</span>
+              </div>
+              <span
+                class="font-label-md text-on-surface-variant group-hover:text-primary text-center"
+              >
+                GA4 應用
+              </span>
+            </div>
+            <div
+              class="flex flex-col items-center gap-3 p-4 bg-surface rounded-xl border border-transparent hover:border-primary hover:bg-white transition-all cursor-pointer group"
+            >
+              <div
+                class="w-12 h-12 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors"
+              >
+                <span class="material-symbols-outlined">payments</span>
+              </div>
+              <span
+                class="font-label-md text-on-surface-variant group-hover:text-primary text-center"
+              >
+                支付設定
+              </span>
+            </div>
+            <div
+              class="flex flex-col items-center gap-3 p-4 bg-surface rounded-xl border border-transparent hover:border-primary hover:bg-white transition-all cursor-pointer group"
+            >
+              <div
+                class="w-12 h-12 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors"
+              >
+                <span class="material-symbols-outlined">ads_click</span>
+              </div>
+              <span
+                class="font-label-md text-on-surface-variant group-hover:text-primary text-center"
+              >
+                廣告投放
+              </span>
+            </div>
+            <div
+              class="flex flex-col items-center gap-3 p-4 bg-surface rounded-xl border border-transparent hover:border-primary hover:bg-white transition-all cursor-pointer group"
+            >
+              <div
+                class="w-12 h-12 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors"
+              >
+                <span class="material-symbols-outlined">group</span>
+              </div>
+              <span
+                class="font-label-md text-on-surface-variant group-hover:text-primary text-center"
+              >
+                會員經營
+              </span>
+            </div>
+            <div
+              class="flex flex-col items-center gap-3 p-4 bg-surface rounded-xl border border-transparent hover:border-primary hover:bg-white transition-all cursor-pointer group"
+            >
+              <div
+                class="w-12 h-12 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors"
+              >
+                <span class="material-symbols-outlined">inventory_2</span>
+              </div>
+              <span
+                class="font-label-md text-on-surface-variant group-hover:text-primary text-center"
+              >
+                庫存管理
+              </span>
+            </div>
+            <div
+              class="flex flex-col items-center gap-3 p-4 bg-surface rounded-xl border border-transparent hover:border-primary hover:bg-white transition-all cursor-pointer group"
+            >
+              <div
+                class="w-12 h-12 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors"
+              >
+                <span class="material-symbols-outlined">insights</span>
+              </div>
+              <span
+                class="font-label-md text-on-surface-variant group-hover:text-primary text-center"
+              >
+                成效分析
+              </span>
+            </div>
+            <div
+              class="flex flex-col items-center gap-3 p-4 bg-surface rounded-xl border border-transparent hover:border-primary hover:bg-white transition-all cursor-pointer group"
+            >
+              <div
+                class="w-12 h-12 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors"
+              >
+                <span class="material-symbols-outlined">local_shipping</span>
+              </div>
+              <span
+                class="font-label-md text-on-surface-variant group-hover:text-primary text-center"
+              >
+                物流串接
+              </span>
+            </div>
+            <div
+              class="flex flex-col items-center gap-3 p-4 bg-surface rounded-xl border border-transparent hover:border-primary hover:bg-white transition-all cursor-pointer group"
+            >
+              <div
+                class="w-12 h-12 rounded-full bg-primary/5 flex items-center justify-center text-primary group-hover:bg-primary group-hover:text-white transition-colors"
+              >
+                <span class="material-symbols-outlined">security</span>
+              </div>
+              <span
+                class="font-label-md text-on-surface-variant group-hover:text-primary text-center"
+              >
+                資訊安全
+              </span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Featured Articles Section -->
+      <section class="py-20 bg-surface-container-low w-full overflow-hidden">
+        <div class="max-w-max-width mx-auto px-margin-desktop relative">
+          <div class="flex items-center justify-between mb-10">
+            <h2 class="font-headline-lg text-headline-lg text-on-surface">
+              精選教學文章
+            </h2>
+            <span
+              class="px-3 py-1 bg-secondary/10 text-secondary rounded-full text-xs font-bold"
+            >
+              每日更新
+            </span>
+          </div>
+          <div class="relative group">
+            <!-- Navigation Buttons -->
+            <button
+              class="absolute -left-6 top-1/2 -translate-y-1/2 w-12 h-12 bg-white rounded-full shadow-lg border border-outline-variant/30 flex items-center justify-center text-on-surface hover:text-primary hover:scale-110 transition-all z-20 focus:outline-none"
+              id="prev-article"
+            >
+              <span class="material-symbols-outlined">chevron_left</span>
+            </button>
+            <button
+              class="absolute -right-6 top-1/2 -translate-y-1/2 w-12 h-12 bg-white rounded-full shadow-lg border border-outline-variant/30 flex items-center justify-center text-on-surface hover:text-primary hover:scale-110 transition-all z-20 focus:outline-none"
+              id="next-article"
+            >
+              <span class="material-symbols-outlined">chevron_right</span>
+            </button>
+            <!-- Article Slider Container -->
+            <div
+              class="flex transition-transform duration-500 ease-in-out gap-gutter scrollbar-hide overflow-x-auto snap-x snap-mandatory px-4 -mx-4 scroll-smooth"
+              id="article-slider"
+            >
+              <!-- Article 1 -->
+              <div
+                class="bg-white rounded-xl overflow-hidden shadow-sm border border-outline-variant/50 group/card cursor-pointer hover:shadow-xl transition-all duration-300 min-w-[calc(100%-16px)] flex-shrink-0 snap-center flex flex-col md:min-w-[calc(33.333%-16px)] lg:min-w-[calc(25%-16px)]"
+              >
+                <div
+                  class="aspect-video relative border-b border-outline-variant/20"
+                >
+                  <img
+                    alt="Optimization"
+                    class="w-full h-full group-hover/card:scale-105 transition-transform duration-500 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCG3gntoVnbd67bl0GtczFLeUd3bwDg0S7H-bKVA5nAZ5NuFFZhLNipRxYlnY5LsebEhInup4e0ImYAq8Pb2c0bH7dqBhV33eIqs1ns8tIFg9udWNccWM9cFw6daKl3LyfoUs0R3MmkjUD-hMVG0qILCZIA6ekw-nHrfJbuSQjaAwCP4g-odO7cKVclHZuJ7exZrH-9GNqqccpKODTbjU0D8eBCfjClHCm1g52Fv8yxb2tQ84F44MzG66-QmRBB147LOAeLBXw-VNA"
+                  />
+                </div>
+                <div class="flex flex-col flex-1 p-6">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span
+                      class="px-3 py-1 rounded-full bg-primary/5 text-primary text-[11px] font-bold uppercase tracking-wider border border-primary/10"
+                    >
+                      Optimization
+                    </span>
+                    <span
+                      class="text-on-surface-variant text-xs flex items-center gap-1"
+                    >
+                      <span class="material-symbols-outlined text-xs">
+                        schedule
+                      </span>
+                      5 mins read
+                    </span>
+                  </div>
+                  <h4
+                    class="font-headline-sm text-headline-sm mb-3 group-hover/card:text-primary transition-colors line-clamp-2"
+                  >
+                    如何優化商品描述以提升搜尋排名？
+                  </h4>
+                  <p
+                    class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 flex-1 mb-4"
+                  >
+                    學習如何運用關鍵字佈局與具吸引力的排版，讓消費者在 Google
+                    輕鬆找到您。
+                  </p>
+                </div>
+              </div>
+              <!-- Article 2 -->
+              <div
+                class="bg-white rounded-xl overflow-hidden shadow-sm border border-outline-variant/50 group/card cursor-pointer hover:shadow-xl transition-all duration-300 min-w-[calc(100%-16px)] flex-shrink-0 snap-center flex flex-col md:min-w-[calc(33.333%-16px)] lg:min-w-[calc(25%-16px)]"
+              >
+                <div
+                  class="aspect-video relative border-b border-outline-variant/20"
+                >
+                  <img
+                    alt="Retention"
+                    class="w-full h-full group-hover/card:scale-105 transition-transform duration-500 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCbL9wwfQOYWPvrNZeI8dStZ2SHD9q_nB87pnMpovkOE57WCKPc1R7Gn5LJ9NLkDf-qe3T86geUcxhIEqPYuGuR7PiQlDD7A3YjBttlVH5g8TET02kXm35W0zJfSUwk-FYOc2f-8MHr2dkP1GZnY13b1Dw2mHEYNH6Y3YFbHN-SYApoeCSuTWd74vSXyKqsrcyT9ZdK-DcsAsA_rGIQtBw0vAZxQ16uwifLqgjwtMtrxxTw4cbT3bYY3S53Grktcse5vvgdRA0mU8"
+                  />
+                </div>
+                <div class="flex flex-col flex-1 p-6">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span
+                      class="px-3 py-1 rounded-full bg-secondary-container/30 text-on-secondary-container text-[11px] font-bold uppercase tracking-wider border border-secondary/10"
+                    >
+                      Retention
+                    </span>
+                    <span
+                      class="text-on-surface-variant text-xs flex items-center gap-1"
+                    >
+                      <span class="material-symbols-outlined text-xs">
+                        schedule
+                      </span>
+                      8 mins read
+                    </span>
+                  </div>
+                  <h4
+                    class="font-headline-sm text-headline-sm mb-3 group-hover/card:text-primary transition-colors line-clamp-2"
+                  >
+                    打造高回購率的會員忠誠度系統
+                  </h4>
+                  <p
+                    class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 flex-1 mb-4"
+                  >
+                    設定等級門檻、點數折抵與專屬權益，將過路客轉變為品牌的終身忠實粉絲。
+                  </p>
+                </div>
+              </div>
+              <!-- Article 3 -->
+              <div
+                class="bg-white rounded-xl overflow-hidden shadow-sm border border-outline-variant/50 group/card cursor-pointer hover:shadow-xl transition-all duration-300 min-w-[calc(100%-16px)] flex-shrink-0 snap-center flex flex-col md:min-w-[calc(33.333%-16px)] lg:min-w-[calc(25%-16px)]"
+              >
+                <div
+                  class="aspect-video relative border-b border-outline-variant/20"
+                >
+                  <img
+                    alt="Analytics"
+                    class="w-full h-full group-hover/card:scale-105 transition-transform duration-500 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRDZFH8RgAYVFabPbB6eShokV5QUIhfJBCp6VjYfUs6urg8SdRnKC88UrzN5rwp59X3lXPbI-pWdHilngF7wczZ5x3EwQWcBTONTu385MwTvz28jHmzJC9vdEVhvj8CKlYtQP4cuPAp0O6a1BeM0dQ5gEU7rIp7QJlZNGp4exJM-9N5zepNZTRYhtF7fxldUQ9WpKpo_ybdB3OmHFJLYwVmdaP1SVvCsXqdKy0XPe3T3lgxiPBMHEN3F6qhlfYx2Eqhvj5EXsFoQo"
+                  />
+                </div>
+                <div class="flex flex-col flex-1 p-6">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span
+                      class="px-3 py-1 rounded-full bg-tertiary-fixed/50 text-on-tertiary-fixed text-[11px] font-bold uppercase tracking-wider border border-tertiary/10"
+                    >
+                      Analytics
+                    </span>
+                    <span
+                      class="text-on-surface-variant text-xs flex items-center gap-1"
+                    >
+                      <span class="material-symbols-outlined text-xs">
+                        schedule
+                      </span>
+                      6 mins read
+                    </span>
+                  </div>
+                  <h4
+                    class="font-headline-sm text-headline-sm mb-3 group-hover/card:text-primary transition-colors line-clamp-2"
+                  >
+                    解讀數據：找出您的店鋪轉換痛點
+                  </h4>
+                  <p
+                    class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 flex-1 mb-4"
+                  >
+                    轉換率低怎麼辦？教您如何從後台流量報告中找出流失原因並實施優化方案。
+                  </p>
+                </div>
+              </div>
+              <div
+                class="bg-white rounded-xl overflow-hidden shadow-sm border border-outline-variant/50 group/card cursor-pointer hover:shadow-xl transition-all duration-300 min-w-[calc(100%-16px)] flex-shrink-0 snap-center flex flex-col md:min-w-[calc(33.333%-16px)] lg:min-w-[calc(25%-16px)]"
+              >
+                <div
+                  class="aspect-video relative border-b border-outline-variant/20"
+                >
+                  <img
+                    alt="Sales"
+                    class="w-full h-full group-hover/card:scale-105 transition-transform duration-500 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCN7MVblYyLW3SibDxc5l8s-rtbK3GIV54cc_sIEnbC9V7JZMSAlhlrS7rjQMo9kw7xdDUeRQMw6XqGeX1tMik2ipaOLMpCaWNy7r3eGNC1OxujZm-Z1pjcaN5wUkhL8YyJqSp6KEfYA3rlPR2Bw6cTXHCGv_dVBLBl8Ou_073bKTBa_9DFLlcUPhAUwEYKUh2x8-DMFL-7pWnOsAbn1xS9YMZpGt7iXlxObco51xmxxjo8Z4nFnuDTVzIaqcwespgH8svtk8gLj7o"
+                  />
+                </div>
+                <div class="flex flex-col flex-1 p-6">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span
+                      class="px-3 py-1 rounded-full bg-primary/5 text-primary text-[11px] font-bold uppercase tracking-wider border border-primary/10"
+                    >
+                      Sales
+                    </span>
+                    <span
+                      class="text-on-surface-variant text-xs flex items-center gap-1"
+                    >
+                      <span class="material-symbols-outlined text-xs">
+                        schedule
+                      </span>
+                      7 mins read
+                    </span>
+                  </div>
+                  <h4
+                    class="font-headline-sm text-headline-sm mb-3 group-hover/card:text-primary transition-colors line-clamp-2"
+                  >
+                    提升轉換率：購物車棄單挽回策略
+                  </h4>
+                  <p
+                    class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 flex-1 mb-4"
+                  >
+                    運用自動發送提醒信件與限時優惠，找回遺失的潛在訂單並提高店鋪營收。
+                  </p>
+                </div>
+              </div>
+              <!-- Article 5 -->
+              <div
+                class="bg-white rounded-xl overflow-hidden shadow-sm border border-outline-variant/50 group/card cursor-pointer hover:shadow-xl transition-all duration-300 min-w-[calc(100%-16px)] flex-shrink-0 snap-center flex flex-col md:min-w-[calc(33.333%-16px)] lg:min-w-[calc(25%-16px)]"
+              >
+                <div
+                  class="aspect-video relative border-b border-outline-variant/20"
+                >
+                  <img
+                    alt="Social Media"
+                    class="w-full h-full group-hover/card:scale-105 transition-transform duration-500 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCG3gntoVnbd67bl0GtczFLeUd3bwDg0S7H-bKVA5nAZ5NuFFZhLNipRxYlnY5LsebEhInup4e0ImYAq8Pb2c0bH7dqBhV33eIqs1ns8tIFg9udWNccWM9cFw6daKl3LyfoUs0R3MmkjUD-hMVG0qILCZIA6ekw-nHrfJbuSQjaAwCP4g-odO7cKVclHZuJ7exZrH-9GNqqccpKODTbjU0D8eBCfjClHCm1g52Fv8yxb2tQ84F44MzG66-QmRBB147LOAeLBXw-VNA"
+                  />
+                </div>
+                <div class="flex flex-col flex-1 p-6">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span
+                      class="px-3 py-1 rounded-full bg-primary/5 text-primary text-[11px] font-bold uppercase tracking-wider border border-primary/10"
+                    >
+                      Social Media
+                    </span>
+                    <span
+                      class="text-on-surface-variant text-xs flex items-center gap-1"
+                    >
+                      <span class="material-symbols-outlined text-xs">
+                        schedule
+                      </span>
+                      6 mins read
+                    </span>
+                  </div>
+                  <h4
+                    class="font-headline-sm text-headline-sm mb-3 group-hover/card:text-primary transition-colors line-clamp-2"
+                  >
+                    FB 與 IG 廣告投放策略完整攻略
+                  </h4>
+                  <p
+                    class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 flex-1 mb-4"
+                  >
+                    掌握受眾鎖定、預算分配與 A/B 測試技巧，讓每分廣告預算都花在刀口上。
+                  </p>
+                </div>
+              </div>
+              <!-- Article 6 -->
+              <div
+                class="bg-white rounded-xl overflow-hidden shadow-sm border border-outline-variant/50 group/card cursor-pointer hover:shadow-xl transition-all duration-300 min-w-[calc(100%-16px)] flex-shrink-0 snap-center flex flex-col md:min-w-[calc(33.333%-16px)] lg:min-w-[calc(25%-16px)]"
+              >
+                <div
+                  class="aspect-video relative border-b border-outline-variant/20"
+                >
+                  <img
+                    alt="SEO"
+                    class="w-full h-full group-hover/card:scale-105 transition-transform duration-500 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRDZFH8RgAYVFabPbB6eShokV5QUIhfJBCp6VjYfUs6urg8SdRnKC88UrzN5rwp59X3lXPbI-pWdHilngF7wczZ5x3EwQWcBTONTu385MwTvz28jHmzJC9vdEVhvj8CKlYtQP4cuPAp0O6a1BeM0dQ5gEU7rIp7QJlZNGp4exJM-9N5zepNZTRYhtF7fxldUQ9WpKpo_ybdB3OmHFJLYwVmdaP1SVvCsXqdKy0XPe3T3lgxiPBMHEN3F6qhlfYx2Eqhvj5EXsFoQo"
+                  />
+                </div>
+                <div class="flex flex-col flex-1 p-6">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span
+                      class="px-3 py-1 rounded-full bg-tertiary-fixed/50 text-on-tertiary-fixed text-[11px] font-bold uppercase tracking-wider border border-tertiary/10"
+                    >
+                      SEO
+                    </span>
+                    <span
+                      class="text-on-surface-variant text-xs flex items-center gap-1"
+                    >
+                      <span class="material-symbols-outlined text-xs">
+                        schedule
+                      </span>
+                      8 mins read
+                    </span>
+                  </div>
+                  <h4
+                    class="font-headline-sm text-headline-sm mb-3 group-hover/card:text-primary transition-colors line-clamp-2"
+                  >
+                    SEO 基礎入門：提升品牌官網的自然流量
+                  </h4>
+                  <p
+                    class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 flex-1 mb-4"
+                  >
+                    從關鍵字研究、標題優化到內部連結，一步步建立穩固的 SEO 基礎體質。
+                  </p>
+                </div>
+              </div>
+              <!-- Article 7 -->
+              <div
+                class="bg-white rounded-xl overflow-hidden shadow-sm border border-outline-variant/50 group/card cursor-pointer hover:shadow-xl transition-all duration-300 min-w-[calc(100%-16px)] flex-shrink-0 snap-center flex flex-col md:min-w-[calc(33.333%-16px)] lg:min-w-[calc(25%-16px)]"
+              >
+                <div
+                  class="aspect-video relative border-b border-outline-variant/20"
+                >
+                  <img
+                    alt="Customer Service"
+                    class="w-full h-full group-hover/card:scale-105 transition-transform duration-500 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuDCbL9wwfQOYWPvrNZeI8dStZ2SHD9q_nB87pnMpovkOE57WCKPc1R7Gn5LJ9NLkDf-qe3T86geUcxhIEqPYuGuR7PiQlDD7A3YjBttlVH5g8TET02kXm35W0zJfSUwk-FYOc2f-8MHr2dkP1GZnY13b1Dw2mHEYNH6Y3YFbHN-SYApoeCSuTWd74vSXyKqsrcyT9ZdK-DcsAsA_rGIQtBw0vAZxQ16uwifLqgjwtMtrxxTw4cbT3bYY3S53Grktcse5vvgdRA0mU8"
+                  />
+                </div>
+                <div class="flex flex-col flex-1 p-6">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span
+                      class="px-3 py-1 rounded-full bg-secondary-container/30 text-on-secondary-container text-[11px] font-bold uppercase tracking-wider border border-secondary/10"
+                    >
+                      Customer Service
+                    </span>
+                    <span
+                      class="text-on-surface-variant text-xs flex items-center gap-1"
+                    >
+                      <span class="material-symbols-outlined text-xs">
+                        schedule
+                      </span>
+                      5 mins read
+                    </span>
+                  </div>
+                  <h4
+                    class="font-headline-sm text-headline-sm mb-3 group-hover/card:text-primary transition-colors line-clamp-2"
+                  >
+                    客服自動化：用聊天機器人提升服務效率
+                  </h4>
+                  <p
+                    class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 flex-1 mb-4"
+                  >
+                    設定常見問答自動回覆與智能分流，減少客服負擔並提升客戶滿意度。
+                  </p>
+                </div>
+              </div>
+              <!-- Article 8 -->
+              <div
+                class="bg-white rounded-xl overflow-hidden shadow-sm border border-outline-variant/50 group/card cursor-pointer hover:shadow-xl transition-all duration-300 min-w-[calc(100%-16px)] flex-shrink-0 snap-center flex flex-col md:min-w-[calc(33.333%-16px)] lg:min-w-[calc(25%-16px)]"
+              >
+                <div
+                  class="aspect-video relative border-b border-outline-variant/20"
+                >
+                  <img
+                    alt="Cross-border"
+                    class="w-full h-full group-hover/card:scale-105 transition-transform duration-500 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCN7MVblYyLW3SibDxc5l8s-rtbK3GIV54cc_sIEnbC9V7JZMSAlhlrS7rjQMo9kw7xdDUeRQMw6XqGeX1tMik2ipaOLMpCaWNy7r3eGNC1OxujZm-Z1pjcaN5wUkhL8YyJqSp6KEfYA3rlPR2Bw6cTXHCGv_dVBLBl8Ou_073bKTBa_9DFLlcUPhAUwEYKUh2x8-DMFL-7pWnOsAbn1xS9YMZpGt7iXlxObco51xmxxjo8Z4nFnuDTVzIaqcwespgH8svtk8gLj7o"
+                  />
+                </div>
+                <div class="flex flex-col flex-1 p-6">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span
+                      class="px-3 py-1 rounded-full bg-primary/5 text-primary text-[11px] font-bold uppercase tracking-wider border border-primary/10"
+                    >
+                      Cross-border
+                    </span>
+                    <span
+                      class="text-on-surface-variant text-xs flex items-center gap-1"
+                    >
+                      <span class="material-symbols-outlined text-xs">
+                        schedule
+                      </span>
+                      7 mins read
+                    </span>
+                  </div>
+                  <h4
+                    class="font-headline-sm text-headline-sm mb-3 group-hover/card:text-primary transition-colors line-clamp-2"
+                  >
+                    跨境電商必備：國際金物流整合方案
+                  </h4>
+                  <p
+                    class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 flex-1 mb-4"
+                  >
+                    一次搞懂跨境運費計算、關稅處理與多幣別金流設定，順利拓展海外市場。
+                  </p>
+                </div>
+              </div>
+              <!-- Article 9 -->
+              <div
+                class="bg-white rounded-xl overflow-hidden shadow-sm border border-outline-variant/50 group/card cursor-pointer hover:shadow-xl transition-all duration-300 min-w-[calc(100%-16px)] flex-shrink-0 snap-center flex flex-col md:min-w-[calc(33.333%-16px)] lg:min-w-[calc(25%-16px)]"
+              >
+                <div
+                  class="aspect-video relative border-b border-outline-variant/20"
+                >
+                  <img
+                    alt="Mobile"
+                    class="w-full h-full group-hover/card:scale-105 transition-transform duration-500 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuCG3gntoVnbd67bl0GtczFLeUd3bwDg0S7H-bKVA5nAZ5NuFFZhLNipRxYlnY5LsebEhInup4e0ImYAq8Pb2c0bH7dqBhV33eIqs1ns8tIFg9udWNccWM9cFw6daKl3LyfoUs0R3MmkjUD-hMVG0qILCZIA6ekw-nHrfJbuSQjaAwCP4g-odO7cKVclHZuJ7exZrH-9GNqqccpKODTbjU0D8eBCfjClHCm1g52Fv8yxb2tQ84F44MzG66-QmRBB147LOAeLBXw-VNA"
+                  />
+                </div>
+                <div class="flex flex-col flex-1 p-6">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span
+                      class="px-3 py-1 rounded-full bg-primary/5 text-primary text-[11px] font-bold uppercase tracking-wider border border-primary/10"
+                    >
+                      Mobile
+                    </span>
+                    <span
+                      class="text-on-surface-variant text-xs flex items-center gap-1"
+                    >
+                      <span class="material-symbols-outlined text-xs">
+                        schedule
+                      </span>
+                      6 mins read
+                    </span>
+                  </div>
+                  <h4
+                    class="font-headline-sm text-headline-sm mb-3 group-hover/card:text-primary transition-colors line-clamp-2"
+                  >
+                    行動版網站優化：抓住手機購物商機
+                  </h4>
+                  <p
+                    class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 flex-1 mb-4"
+                  >
+                    從 RWD 設計、頁面載入速度到行動支付體驗，全面提升手機轉換率。
+                  </p>
+                </div>
+              </div>
+              <!-- Article 10 -->
+              <div
+                class="bg-white rounded-xl overflow-hidden shadow-sm border border-outline-variant/50 group/card cursor-pointer hover:shadow-xl transition-all duration-300 min-w-[calc(100%-16px)] flex-shrink-0 snap-center flex flex-col md:min-w-[calc(33.333%-16px)] lg:min-w-[calc(25%-16px)]"
+              >
+                <div
+                  class="aspect-video relative border-b border-outline-variant/20"
+                >
+                  <img
+                    alt="Conversion"
+                    class="w-full h-full group-hover/card:scale-105 transition-transform duration-500 object-cover"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuBRDZFH8RgAYVFabPbB6eShokV5QUIhfJBCp6VjYfUs6urg8SdRnKC88UrzN5rwp59X3lXPbI-pWdHilngF7wczZ5x3EwQWcBTONTu385MwTvz28jHmzJC9vdEVhvj8CKlYtQP4cuPAp0O6a1BeM0dQ5gEU7rIp7QJlZNGp4exJM-9N5zepNZTRYhtF7fxldUQ9WpKpo_ybdB3OmHFJLYwVmdaP1SVvCsXqdKy0XPe3T3lgxiPBMHEN3F6qhlfYx2Eqhvj5EXsFoQo"
+                  />
+                </div>
+                <div class="flex flex-col flex-1 p-6">
+                  <div class="flex items-center gap-2 mb-4">
+                    <span
+                      class="px-3 py-1 rounded-full bg-tertiary-fixed/50 text-on-tertiary-fixed text-[11px] font-bold uppercase tracking-wider border border-tertiary/10"
+                    >
+                      Conversion
+                    </span>
+                    <span
+                      class="text-on-surface-variant text-xs flex items-center gap-1"
+                    >
+                      <span class="material-symbols-outlined text-xs">
+                        schedule
+                      </span>
+                      9 mins read
+                    </span>
+                  </div>
+                  <h4
+                    class="font-headline-sm text-headline-sm mb-3 group-hover/card:text-primary transition-colors line-clamp-2"
+                  >
+                    Landing Page 製作心法：打造高轉換率頁面
+                  </h4>
+                  <p
+                    class="font-body-sm text-body-sm text-on-surface-variant line-clamp-2 flex-1 mb-4"
+                  >
+                    從文案撰寫、CTA 按鈕設計到信任元素配置，學會設計讓人忍不住下單的頁面。
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Pagination Dots -->
+          <div
+            class="flex justify-center items-center gap-3 mt-10"
+            id="article-dots"
+          >
+            <button
+              class="rounded-full transition-all bg-primary w-2.5 h-2.5 scale-110"
+              data-index="0"
+            ></button>
+            <button
+              class="rounded-full transition-all hover:bg-outline-variant bg-outline-variant/50 w-2 h-2"
+              data-index="1"
+            ></button>
+            <button
+              class="rounded-full transition-all hover:bg-outline-variant bg-outline-variant/50 w-2 h-2"
+              data-index="2"
+            ></button>
+          </div>
+        </div>
+      </section>
+      <!-- Need Help Section -->
+      <section class="py-20 w-full">
+        <div class="max-w-max-width mx-auto px-margin-desktop">
+          <div
+            class="bg-primary rounded-2xl p-12 relative overflow-hidden text-center md:text-left flex flex-col md:flex-row items-center justify-between gap-10"
+          >
+            <div class="absolute inset-0 opacity-10 pointer-events-none">
+              <div
+                class="absolute top-0 right-0 w-64 h-64 border-[32px] border-white rounded-full -mr-32 -mt-32"
+              ></div>
+            </div>
+            <div class="relative z-10 max-w-xl">
+              <h2 class="font-headline-lg text-headline-lg text-white mb-4">
+                需要更進一步的協助嗎？
+              </h2>
+              <p class="text-white/80 font-body-lg text-body-lg mb-0">
+                我們的支援團隊隨時準備為您排憂解難，無論是技術串接還是經營建議，我們都在這裡。
+              </p>
+            </div>
+            <div class="relative z-10 flex flex-col sm:flex-row gap-4">
+              <button
+                class="bg-white text-primary px-8 py-4 rounded-xl font-headline-sm shadow-lg hover:bg-surface transition-all"
+              >
+                聯絡客戶支援
+              </button>
+              <button
+                class="border border-white/40 text-white px-8 py-4 rounded-xl font-headline-sm hover:bg-white/10 transition-all"
+              >
+                預約專家諮詢
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- Footer -->
+    <footer
+      class="bg-surface-container-lowest dark:bg-inverse-surface border-t border-outline-variant shadow-[0_-1px_0_0_rgba(0,0,0,0.05)] w-full"
+    >
+      <div
+        class="flex flex-col md:flex-row justify-between items-center py-margin-desktop px-margin-desktop w-full max-w-max-width mx-auto"
+      >
+        <div class="flex flex-col gap-1">
+          <div
+            class="flex items-center gap-2 font-body-sm text-on-surface-variant"
+          >
+            <span class="">Copyright © 2026 CYBERBIZ</span>
+          </div>
+          <div class="font-body-sm text-on-surface-variant">
+            <span class="">Made with</span>
+            <a class="underline hover:text-primary transition-colors" href="#">
+              Zensical
+            </a>
+          </div>
+        </div>
+        <div
+          class="flex items-center gap-6 mt-6 md:mt-0 text-on-surface-variant"
+        >
+          <a
+            class="hover:text-primary transition-colors flex items-center"
+            href="https://www.youtube.com/channel/UCTf4mKUL4k6-2skp1kxPDXg"
+            target="_blank"
+          >
+            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+              <path
+                d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
+              ></path>
+            </svg>
+          </a>
+          <a
+            class="hover:text-primary transition-colors flex items-center"
+            href="https://www.instagram.com/cyberbiz.corp/"
+            target="_blank"
+          >
+            <svg class="w-5 h-5 fill-current" viewBox="0 0 24 24">
+              <path
+                d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.332 3.608 1.308.975.975 1.245 2.242 1.308 3.608.058 1.266.07 1.646.07 4.85s-.012 3.584-.07 4.85c-.063 1.366-.333 2.633-1.308 3.608-.975.975-2.242 1.246-3.608 1.308-1.266.058-1.646.07-4.85.07s-3.584-.012-4.85-.07c-1.366-.062-2.633-.332-3.608-1.308-.975-.975-1.245-2.242-1.308-3.608-.058-1.266-.07-1.646-.07-4.85s.012-3.584.07-4.85c.062-1.366.332-2.633 1.308-3.608.975-.975 2.242-1.246 3.608-1.308 1.266-.058 1.646-.07 4.85-.07zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"
+              ></path>
+            </svg>
+          </a>
+          <a
+            class="hover:text-primary transition-colors flex items-center"
+            href="https://www.facebook.com/CYBERBIZCorporation/?locale=zh_TW"
+            target="_blank"
+          >
+            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+              <path
+                d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.469h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.469h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"
+              ></path>
+            </svg>
+          </a>
+          <a
+            class="hover:text-primary transition-colors flex items-center"
+            href="#"
+          >
+            <span class="material-symbols-outlined text-2xl">rss_feed</span>
+          </a>
+        </div>
+      </div>
+    </footer>
+    <script>
+      // Hero Carousel Logic
+      let currentSlide = 0;
+      const totalSlides = 5;
+      const track = document.getElementById("carousel-track");
+      const dots = document.querySelectorAll(".carousel-dot");
+
+      function updateCarousel() {
+        if (!track) return;
+        track.style.transform = `translateY(-${currentSlide * 100}%)`;
+        dots.forEach((dot, index) => {
+          if (index === currentSlide) {
+            dot.classList.remove("bg-primary/20");
+            dot.classList.add("bg-primary", "scale-125");
+          } else {
+            dot.classList.add("bg-primary/20");
+            dot.classList.remove("bg-primary", "scale-125");
+          }
+        });
+      }
+
+      function goToSlide(index) {
+        currentSlide = index;
+        updateCarousel();
+        clearInterval(slideInterval);
+        slideInterval = setInterval(nextSlide, 5000);
+      }
+
+      function nextSlide() {
+        currentSlide = (currentSlide + 1) % totalSlides;
+        updateCarousel();
+      }
+
+      let slideInterval = setInterval(nextSlide, 5000);
+      updateCarousel();
+
+      // Articles Slider Logic
+      const slider = document.getElementById("article-slider");
+      const prevBtn = document.getElementById("prev-article");
+      const nextBtn = document.getElementById("next-article");
+      const articleDots = document.querySelectorAll("#article-dots button");
+
+      if (slider && prevBtn && nextBtn) {
+        const updateDots = () => {
+          const scrollLeft = slider.scrollLeft;
+          const width = slider.clientWidth;
+          const index = Math.round(scrollLeft / width);
+
+          articleDots.forEach((dot, i) => {
+            if (i === index) {
+              dot.classList.remove("bg-outline-variant/50", "w-2", "h-2");
+              dot.classList.add("bg-primary", "w-2.5", "h-2.5", "scale-110");
+            } else {
+              dot.classList.add("bg-outline-variant/50", "w-2", "h-2");
+              dot.classList.remove("bg-primary", "w-2.5", "h-2.5", "scale-110");
+            }
+          });
+        };
+
+        slider.addEventListener("scroll", updateDots);
+
+        prevBtn.addEventListener("click", () => {
+          slider.scrollBy({ left: -slider.clientWidth, behavior: "smooth" });
+        });
+
+        nextBtn.addEventListener("click", () => {
+          slider.scrollBy({ left: slider.clientWidth, behavior: "smooth" });
+        });
+
+        articleDots.forEach((dot, i) => {
+          dot.addEventListener("click", () => {
+            slider.scrollTo({
+              left: slider.clientWidth * i,
+              behavior: "smooth",
+            });
+          });
+        });
+      }
+    </script>
+  </body>
+</html>
