@@ -31,7 +31,6 @@ def define_env(env):
     def badge(meta):
 
         parts = []
-
         # =====================================================
         # 1. Plans (tnb == branch)
         # =====================================================
@@ -92,4 +91,70 @@ def define_env(env):
         except:
             return ""
 
+def on_post_build(config):
+
+    # =========================================================
+    # Output directory
+    # =========================================================
+    site_dir = config["site_dir"]
+
+    # =========================================================
+    # LLM.txt content
+    # =========================================================
+    lines = []
+
+    lines.append("# CYBERBIZ DOCS\n")
+    lines.append(
+        "> 官方線上技術文件與操作指南，供 AI 程式助手與 LLM 快速理解系統架構。\n\n"
+    )
+
+    lines.append("## 技術文件地圖 (Documentation Map)\n\n")
+
+    # =========================================================
+    # Iterate all documentation pages
+    # =========================================================
+    for file in config["files"]:
+
+        # Only markdown docs
+        if not file.is_documentation_page():
+            continue
+
+        page = file.page
+
+        if not page:
+            continue
+
+        # Skip homepage if desired
+        if page.url == "":
+            continue
+
+        # -----------------------------------------------------
+        # Metadata
+        # -----------------------------------------------------
+        meta = getattr(page, "meta", {}) or {}
+
+        title = meta.get("title") or page.title or "CYBERBIZ 指南"
+
+        desc = meta.get(
+            "description",
+            "官方線上技術文件與操作指南"
+        )
+
+        clean_desc = str(desc).replace("\n", " ").strip()
+
+        abs_url = f"https://help.cyberbiz.io/{page.url}"
+
+        lines.append(
+            f"- [{title}]({abs_url}): {clean_desc}\n"
+        )
+
+    # =========================================================
+    # Write llm.txt
+    # =========================================================
+    output_path = os.path.join(site_dir, "llm.txt")
+
+    with open(output_path, "w", encoding="utf-8") as f:
+        f.writelines(lines)
+
+    print("INFO - [LLM] Generated llm.txt")
 
