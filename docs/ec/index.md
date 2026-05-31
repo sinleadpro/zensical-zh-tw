@@ -4,6 +4,7 @@ hide:
   - toc
   - path
   - feedback
+template: homepage_ec.html
 ---
 
 <div class="ec-index-hero">
@@ -40,243 +41,41 @@ hide:
 
 ---
 
-=== "店家設定"
+### 完整指南
 
-    <div class="grid cards" markdown>
+<div class="grid cards" markdown>
 
-    -   :lucide-palette: __網站外觀__
-        ---
-        設計網站版面、編輯器操作、導覽列與部落格管理。
-        [:octicons-arrow-right-24: 前往設定](website-appearance/index.md)
+-   :lucide-palette: __店家設定__
+    ---
+    網站外觀、網站管理、客服中心、SEO 優化
+    [:octicons-arrow-right-24: 前往設定](website-appearance/index.md)
 
-    -   :lucide-settings: __網站管理__
-        ---
-        網域綁定、SSL 安全、多語系與二階段驗證。
-        [:octicons-arrow-right-24: 前往設定](website-management/index.md)
+-   :lucide-package: __商品與訂單__
+    ---
+    商品管理、訂單出貨、退貨退款、電子票券
+    [:octicons-arrow-right-24: 完整指南](products/index.md)
 
-    -   :lucide-message-circle: __客服中心__
-        ---
-        設定客服視窗、自訂頁面與留言區安全驗證。
-        [:octicons-arrow-right-24: 設定客服](website-appearance/設定與修改客服中心資訊.md)
+-   :lucide-credit-card: __金流與物流__
+    ---
+    信用卡、LINE Pay、物流設定、快速到貨
+    [:octicons-arrow-right-24: 完整指南](payments-and-logistics/index.md)
 
-    -   :lucide-search: __SEO 優化__
-        ---
-        網站標題、OG Image、301 轉址與 Sitemap 提交。
-        [:octicons-arrow-right-24: 優化設定](website-management/seo/SEO 設定與優化指南.md)
+-   :lucide-users: __會員與行銷__
+    ---
+    會員管理、VIP 制度、行銷活動、訊息推播
+    [:octicons-arrow-right-24: 完整指南](members/index.md)
 
-    </div>
+-   :lucide-chart-column-increasing: __數據與分析__
+    ---
+    報表分析、GA4 串接、廣告成效分析
+    [:octicons-arrow-right-24: 完整指南](analytics/index.md)
 
-=== "商品管理"
+-   :lucide-network: __整合與擴充__
+    ---
+    第三方平台串接、Facebook、Google、LINE、App Market
+    [:octicons-arrow-right-24: 瀏覽應用](integrations/index.md)
 
-    <div class="grid cards" markdown>
-
-    -   :lucide-package: __商品管理總覽__
-        ---
-        從新增商品到分類管理、搜尋設定與配送條件。
-        [:octicons-arrow-right-24: 完整指南](products/index.md)
-
-    -   :lucide-package-plus: __新增商品__
-        ---
-        建立新商品、設定款式色票、圖片與商品描述。
-        [:octicons-arrow-right-24: 開始操作](products/creation/新增與更新商品.md)
-
-    -   :lucide-import: __大量匯入__
-        ---
-        使用 Excel 批次建立或修改大量商品資料。
-        [:octicons-arrow-right-24: 下載範本](products/Excel 大量匯入商品.md)
-
-    -   :lucide-tag: __商品分類__
-        ---
-        設定多層級分類、自訂群組、條件群組與商品標籤。
-        [:octicons-arrow-right-24: 設定分類](products/categorization/設定商品多層級分類.md)
-
-    -   :lucide-search: __商品搜尋__
-        ---
-        設定站內搜尋、搜尋可見性與前台篩選器。
-        [:octicons-arrow-right-24: 了解更多](products/discovery/設定站內搜尋功能.md)
-
-    -   :lucide-ticket: __電子票券__
-        ---
-        設定電子票券、票券優惠與門市存取權限。
-        [:octicons-arrow-right-24: 查看指南](e-ticket/index.md)
-
-    </div>
-
-=== "訂單管理"
-
-    <div class="grid cards" markdown>
-
-    -   :lucide-receipt: __訂單管理總覽__
-        ---
-        查詢、篩選、編輯訂單，掌握完整訂單流程。
-        [:octicons-arrow-right-24: 完整指南](orders/index.md)
-
-    -   :lucide-list: __訂單操作__
-        ---
-        搜尋篩選訂單、編輯內容、取消訂單與手動結案。
-        [:octicons-arrow-right-24: 了解介面](orders/訂單管理介面說明.md)
-
-    -   :lucide-truck: __出貨作業__
-        ---
-        宅配、超商取貨、跨境物流等多元出貨方式。
-        [:octicons-arrow-right-24: 開始出貨](orders/訂單出貨流程.md)
-
-    -   :lucide-rotate-ccw: __退貨退款__
-        ---
-        訂單退貨、退款流程與會員退貨申請功能。
-        [:octicons-arrow-right-24: 了解流程](orders/訂單退貨流程.md)
-
-    -   :lucide-clock: __自動結案__
-        ---
-        設定官網、POS 與電子票券訂單自動結案條件。
-        [:octicons-arrow-right-24: 設定](orders/設定訂單自動結案.md)
-
-    -   :lucide-printer: __託運單列印__
-        ---
-        黑貓、宅配通、新竹物流、順豐託運單設定與列印。
-        [:octicons-arrow-right-24: 前往設定](payments-and-logistics/設定與加印黑貓託運單.md)
-
-    </div>
-
-=== "金流物流"
-
-    <div class="grid cards" markdown>
-
-    -   :lucide-credit-card: __金流總覽__
-        ---
-        信用卡、LINE Pay、PayPal、街口支付等多種付款方式。
-        [:octicons-arrow-right-24: 完整指南](payments-and-logistics/index.md)
-
-    -   :lucide-landmark: __第三方金流__
-        ---
-        申請 CYBERBIZ PAYMENTS、綠界金流與 Apple Pay 等。
-        [:octicons-arrow-right-24: 申請設定](payments-and-logistics/申請 CYBERBIZ PAYMENTS.md)
-
-    -   :lucide-store: __物流設定__
-        ---
-        宅配貨運、超商店到店、大宗寄倉與門市取貨。
-        [:octicons-arrow-right-24: 設定物流](payments-and-logistics/建立門市.md)
-
-    -   :lucide-zap: __快速到貨__
-        ---
-        CYBERBIZ NOW 快速到貨服務設定與管理。
-        [:octicons-arrow-right-24: 了解服務](payments-and-logistics/CYBERBIZNOW/index.md)
-
-    </div>
-
-=== "會員經營"
-
-    <div class="grid cards" markdown>
-
-    -   :lucide-users: __會員管理總覽__
-        ---
-        會員資料管理、查詢、匯出與權限設定。
-        [:octicons-arrow-right-24: 完整指南](members/index.md)
-
-    -   :lucide-crown: __VIP 制度__
-        ---
-        建立全館 VIP 制度、VIP 群組與專屬優惠。
-        [:octicons-arrow-right-24: 設定 VIP](members/VIP功能運作指南.md)
-
-    -   :lucide-user-plus: __分潤功能__
-        ---
-        推薦人分潤、註冊人分潤與分潤報表匯出。
-        [:octicons-arrow-right-24: 了解分潤](profit-sharing/index.md)
-
-    -   :lucide-upload: __會員匯入__
-        ---
-        批次匯入與編輯會員資料，快速建立會員名單。
-        [:octicons-arrow-right-24: 開始匯入](members/批次匯入與編輯會員.md)
-
-    </div>
-
-=== "行銷推廣"
-
-    <div class="grid cards" markdown>
-
-    -   :lucide-badge-percent: __行銷活動總覽__
-        ---
-        折扣、加價購、滿額贈、紅利商城與互動遊戲。
-        [:octicons-arrow-right-24: 完整指南](marketing/index.md)
-
-    -   :lucide-tag: __優惠活動__
-        ---
-        任選折扣、紅配綠、指定商品送優惠券與期間限定活動。
-        [:octicons-arrow-right-24: 設定優惠](marketing/任選折扣.md)
-
-    -   :lucide-file-text: __一頁式商店__
-        ---
-        快速建立一頁式銷售頁面，支援 YouTube 影片自動播放。
-        [:octicons-arrow-right-24: 了解更多](marketing/一頁式商店.md)
-
-    -   :lucide-send: __訊息推播__
-        ---
-        EDM 電子報、簡訊通知、LINE 推播與 AUTOMATION 設定。
-        [:octicons-arrow-right-24: 前往設定](notifications/index.md)
-
-    </div>
-
-=== "數據分析"
-
-    <div class="grid cards" markdown>
-
-    -   :lucide-chart-column-increasing: __報表分析總覽__
-        ---
-        銷售、訂單、會員行為與行銷活動數據分析。
-        [:octicons-arrow-right-24: 完整指南](analytics/index.md)
-
-    -   :lucide-bar-chart: __訂單報表__
-        ---
-        匯出訂單報表，分析銷售趨勢與物流成效。
-        [:octicons-arrow-right-24: 匯出報表](orders/匯出訂單報表.md)
-
-    -   :lucide-trending-up: __Google Analytics__
-        ---
-        串接 GA4、設定站內搜尋追蹤與進階數據分析。
-        [:octicons-arrow-right-24: 設定 GA](integrations/google/ga/建立並串接 Google Analytics.md)
-
-    -   :lucide-pie-chart: __廣告分析__
-        ---
-        Meta 廣告成效分析與 Google 廣告轉換追蹤。
-        [:octicons-arrow-right-24: 查看分析](analytics/廣告分析指南.md)
-
-    </div>
-
-=== "整合串接"
-
-    <div class="grid cards" markdown>
-
-    -   :lucide-network: __第三方平台總覽__
-        ---
-        Facebook、Google、LINE 等外部平台整合串接。
-        [:octicons-arrow-right-24: 完整指南](integrations/index.md)
-
-    -   :lucide-facebook: __Facebook__
-        ---
-        Facebook 快速登入、商店設定、Meta 廣告與 FBE。
-        [:octicons-arrow-right-24: 前往設定](integrations/fb/index.md)
-
-    -   :material-google: __Google__
-        ---
-        Google 快速登入、GMC、購物廣告與 Merchant Center。
-        [:octicons-arrow-right-24: 前往設定](integrations/google/index.md)
-
-    -   :simple-line: __LINE__
-        ---
-        LINE 快速登入、官方帳號綁定、團購與 Messaging API。
-        [:octicons-arrow-right-24: 前往設定](integrations/line/index.md)
-
-    -   :lucide-grid-2x2-plus: __APP MARKET__
-        ---
-        安裝與管理 CYBERBIZ 應用程式擴充功能。
-        [:octicons-arrow-right-24: 瀏覽應用](app-market/index.md)
-
-    -   :lucide-plug: __第三方串接__
-        ---
-        串接美安通路、蝦皮商品同步、API 與自動化流程。
-        [:octicons-arrow-right-24: 了解更多](integrations/串接美安通路.md)
-
-    </div>
+</div>
 
 ---
 
