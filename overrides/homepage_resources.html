@@ -1,0 +1,507 @@
+{% extends "main.html" %}
+
+{% block extrahead %}
+  {{ super() }}
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --on-secondary-fixed-variant: #005321;
+      --tertiary: #35445a;
+      --on-secondary: #ffffff;
+      --on-surface-variant: #434654;
+      --primary-fixed: #dae2ff;
+      --on-primary: #ffffff;
+      --surface-container-high: #e6e8ea;
+      --on-primary-fixed-variant: #0040a2;
+      --primary-container: #0052cc;
+      --secondary: #006e2f;
+      --on-surface: #191c1e;
+      --error-container: #ffdad6;
+      --secondary-fixed: #6bff8f;
+      --on-secondary-container: #007432;
+      --outline: #737685;
+      --surface-container-low: #f2f4f6;
+      --error: #ba1a1a;
+      --surface-variant: #e0e3e5;
+      --surface-container-lowest: #ffffff;
+      --surface-container: #eceef0;
+      --primary-fixed-dim: #b2c5ff;
+      --outline-variant: #c3c6d6;
+      --on-error: #ffffff;
+      --primary: #003d9b;
+      --surface: #f7f9fb;
+      --on-background: #191c1e;
+      --inverse-surface: #2d3133;
+      --inverse-on-surface: #eff1f3;
+      --background: #f7f9fb;
+      --inverse-primary: #b2c5ff;
+      --secondary-container: #6bff8f;
+      --mx: 1280px;
+      --px: 32px;
+    }
+    .material-symbols-outlined {
+      font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 24;
+    }
+    .card-shadow {
+      box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    }
+    .md-content {
+      padding-top: 0;
+    }
+    .ec-sect {
+      padding-left: var(--px);
+      padding-right: var(--px);
+    }
+    .ec-hero {
+      position: relative;
+      overflow: hidden;
+      border-radius: 0.75rem;
+      background: var(--primary-container);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 40px;
+      min-height: 300px;
+    }
+    .ec-hero h1 {
+      font-size: 40px;
+      line-height: 52px;
+      letter-spacing: -0.02em;
+      font-weight: 700;
+      color: #fff;
+      margin: 0 0 16px 0;
+    }
+    .ec-hero p {
+      font-size: 18px;
+      line-height: 28px;
+      color: var(--primary-fixed);
+      margin: 0 0 32px 0;
+      max-width: 36rem;
+    }
+    .ec-hero-actions { display: flex; flex-wrap: wrap; gap: 16px; }
+    .ec-hero-actions button {
+      padding: 12px 32px;
+      border-radius: 0.5rem;
+      font-weight: 700;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      border: none;
+      font-size: 14px;
+    }
+    .ec-hero-actions .btn-primary {
+      background: #fff;
+      color: var(--primary);
+    }
+    .ec-hero-actions .btn-secondary {
+      background: rgba(255,255,255,0.1);
+      color: #fff;
+      border: 1px solid rgba(255,255,255,0.4);
+      backdrop-filter: blur(4px);
+    }
+    .ec-hero-bg {
+      position: absolute;
+      right: 0; top: 0;
+      height: 100%; width: 50%;
+      opacity: 0.2;
+      pointer-events: none;
+    }
+    .ec-hero-bg img {
+      object-fit: cover;
+      width: 100%; height: 100%;
+    }
+    .ec-section-hd {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 32px;
+    }
+    .ec-section-hd h2 {
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 600;
+      margin: 0;
+    }
+    .ec-section-hd a {
+      color: var(--primary);
+      font-weight: 500;
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      text-decoration: none;
+    }
+    .ec-grid-4 {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+    @media (min-width: 768px) { .ec-grid-4 { grid-template-columns: repeat(2, 1fr); } }
+    @media (min-width: 1024px) { .ec-grid-4 { grid-template-columns: repeat(4, 1fr); } }
+    .ec-card {
+      background: var(--surface-container-lowest);
+      padding: 24px;
+      border-radius: 0.75rem;
+      border: 1px solid var(--outline-variant);
+      transition: all 0.3s ease;
+      cursor: pointer;
+    }
+    .ec-card:hover {
+      box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+      border-color: var(--primary);
+      transform: translateY(-8px);
+    }
+    .ec-card-icon {
+      width: 48px; height: 48px;
+      border-radius: 0.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 16px;
+      transition: transform 0.3s ease;
+    }
+    .ec-card:hover .ec-card-icon {
+      transform: scale(1.1);
+    }
+    .ec-card h3 {
+      font-size: 20px;
+      line-height: 28px;
+      font-weight: 600;
+      margin: 0 0 8px 0;
+    }
+    .ec-card p {
+      font-size: 14px;
+      line-height: 20px;
+      color: var(--on-surface-variant);
+      margin: 0 0 16px 0;
+    }
+    .ec-resources {
+      background: var(--surface-container-low);
+      border-radius: 0.75rem;
+      padding: 32px;
+    }
+    .ec-resources h3 {
+      font-size: 24px;
+      line-height: 32px;
+      font-weight: 600;
+      margin: 0 0 32px 0;
+    }
+    .ec-res-grid {
+      display: flex;
+      flex-direction: column;
+      gap: 32px;
+    }
+    @media (min-width: 768px) {
+      .ec-res-grid { flex-direction: row; }
+      .ec-res-item { flex: 1; }
+    }
+    .ec-res-item {
+      display: flex;
+      flex-direction: column;
+    }
+    .ec-res-item .icon {
+      font-size: 36px;
+      color: var(--primary);
+      margin-bottom: 16px;
+    }
+    .ec-res-item h4 {
+      font-size: 20px;
+      line-height: 28px;
+      font-weight: 600;
+      margin: 0 0 8px 0;
+    }
+    .ec-res-item p {
+      font-size: 14px;
+      line-height: 20px;
+      color: var(--on-surface-variant);
+      margin: 0 0 16px 0;
+    }
+    .ec-res-item a {
+      color: var(--primary);
+      font-weight: 500;
+      font-size: 14px;
+    }
+    .ec-res-divider {
+      border: none;
+      border-top: 1px solid var(--outline-variant);
+      margin: 0;
+    }
+    @media (min-width: 768px) {
+      .ec-res-divider { display: none; }
+      .ec-res-border { border-left: 1px solid var(--outline-variant); padding-left: 32px; }
+    }
+    .mt-16 { margin-top: 64px; }
+    .mb-16 { margin-bottom: 64px; }
+    .ec-sect + .ec-sect { margin-top: 64px; }
+
+    /* ── Resources hero variant ── */
+    .ec-hero-res-bg {
+      position: absolute;
+      right: 0; top: 0;
+      height: 100%; width: 50%;
+      pointer-events: none;
+    }
+    .ec-hero-res-bg img {
+      position: absolute;
+      right: 0; top: 50%;
+      transform: translateY(-50%);
+      height: 120%;
+      object-fit: contain;
+      opacity: 0.4;
+      mix-blend-mode: overlay;
+    }
+    .ec-hero-res-glow {
+      position: absolute;
+      right: -100px;
+      top: -100px;
+      width: 500px;
+      height: 500px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 50%;
+      filter: blur(64px);
+      pointer-events: none;
+    }
+
+    /* ── Large card (first in grid, spans 2 cols) ── */
+    @media (min-width: 768px) {
+      .ec-card.large { grid-column: span 2; }
+    }
+
+    /* ── Highlight section ── */
+    .ec-highlight {
+      border-radius: 0.75rem;
+      overflow: hidden;
+      background: #001848;
+      padding: 48px;
+      display: flex;
+      flex-direction: column;
+      gap: 48px;
+    }
+    @media (min-width: 768px) {
+      .ec-highlight {
+        flex-direction: row;
+        align-items: center;
+      }
+    }
+    .ec-highlight-content {
+      flex: 1;
+      color: #fff;
+    }
+    .ec-highlight-badge {
+      display: inline-block;
+      padding: 4px 16px;
+      background: var(--secondary-container);
+      color: var(--on-secondary-container);
+      font-size: 14px;
+      line-height: 20px;
+      font-weight: 500;
+      border-radius: 9999px;
+      margin-bottom: 24px;
+    }
+    .ec-highlight-content h2 {
+      font-size: 32px;
+      line-height: 40px;
+      letter-spacing: -0.02em;
+      font-weight: 700;
+      margin: 0 0 16px 0;
+    }
+    .ec-highlight-content p {
+      font-size: 18px;
+      line-height: 28px;
+      color: var(--primary-fixed-dim);
+      margin: 0 0 32px 0;
+    }
+    .ec-highlight-actions {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .ec-highlight-actions .btn-primary {
+      padding: 12px 32px;
+      background: var(--primary-container);
+      color: #fff;
+      border-radius: 0.5rem;
+      font-weight: 700;
+      border: none;
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: background 0.2s ease;
+    }
+    .ec-highlight-actions .btn-primary:hover {
+      background: var(--primary);
+    }
+    .ec-highlight-actions .btn-outline {
+      padding: 12px 32px;
+      background: transparent;
+      color: #fff;
+      border-radius: 0.5rem;
+      font-weight: 700;
+      border: 1px solid rgba(255, 255, 255, 0.3);
+      cursor: pointer;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: background 0.2s ease;
+    }
+    .ec-highlight-actions .btn-outline:hover {
+      background: rgba(255, 255, 255, 0.1);
+    }
+    .ec-highlight-image {
+      flex: 1;
+      width: 100%;
+      max-width: 400px;
+    }
+    .ec-highlight-mockup {
+      aspect-ratio: 3 / 4;
+      border-radius: 0.75rem;
+      overflow: hidden;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+      transform: rotate(3deg);
+      transition: transform 0.5s ease;
+    }
+    .ec-highlight-mockup:hover {
+      transform: rotate(0deg);
+    }
+    .ec-highlight-mockup img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* ── Card link (used in large card) ── */
+    .ec-card a {
+      color: var(--primary);
+      font-weight: 700;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      text-decoration: none;
+      transition: gap 0.3s ease;
+    }
+    .ec-card.large:hover a {
+      gap: 16px;
+    }
+
+    /* ── Dark Mode ── */
+    [data-md-color-scheme="slate"] {
+      --on-surface: #e3e3e3;
+      --on-surface-variant: #b0b0b0;
+      --surface-container-lowest: #1e1e1e;
+      --surface-container-low: #2a2a2a;
+      --outline-variant: #3e3e3e;
+      --primary: #a6c1ff;
+      --primary-container: #0040a2;
+    }
+    [data-md-color-scheme="slate"] .ec-highlight {
+      background: var(--primary-container);
+    }
+    [data-md-color-scheme="slate"] .ec-highlight-actions .btn-primary {
+      background: var(--primary);
+    }
+  </style>
+{% endblock %}
+
+{% block content %}
+  <!-- Hero -->
+  <section class="ec-sect" style="padding-top: 32px;">
+    <div class="ec-hero">
+      <div style="position: relative; z-index: 1; max-width: 42rem;">
+        <h1>全面提升您的經營力</h1>
+        <p>提供專業的電子商務知識、技術文檔與經營秘訣，助您在競爭激烈的市場中脫穎而出。</p>
+        <div class="ec-hero-actions">
+          <button class="btn-primary"><span class="material-symbols-outlined">download</span> 瀏覽所有下載</button>
+        </div>
+      </div>
+      <div class="ec-hero-res-bg">
+        <img alt="" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD2p3gpc5V4KlzGYK4_UsCnAHMY2mpstTe0kjvx9qh2xfw97wAa0_g2GEFCcYxO4MoNCeaghRBh6Bc1ZAyaJFQmm9OpmlBYiI0iwIZEP4xkNYSFSm7EgQpCow5_osggmIIxANJ_HDuXNH2Yk81ntxzfJs_6-CjOFyD3HxY2jMguRVzinb03IezypWfSGZDw0j3GXOR779qjJ_Aj7rydEWEG7fC2fUVGQ1teor0gs6XTFK5Afo5WmtHSi_fh2m8P5PIbli7ZRKm3E-Q">
+      </div>
+      <div class="ec-hero-res-glow"></div>
+    </div>
+  </section>
+
+  <!-- Feature Cards -->
+  <section class="ec-sect">
+    <div class="ec-section-hd">
+      <h2>資源總覽</h2>
+      <a href="#">查看所有資源 <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span></a>
+    </div>
+    <div class="ec-grid-4">
+      <div class="ec-card card-shadow large">
+        <div class="ec-card-icon" style="background: color-mix(in srgb, var(--primary) 10%, transparent); color: var(--primary);">
+          <span class="material-symbols-outlined">play_circle</span>
+        </div>
+        <h3>影音教學</h3>
+        <p>由淺入深的視聽指導，助您快速上手各項智能系統功能。</p>
+        <a href="#">立即觀看 <span class="material-symbols-outlined">arrow_forward</span></a>
+      </div>
+      <div class="ec-card card-shadow">
+        <div class="ec-card-icon" style="background: color-mix(in srgb, var(--primary) 10%, transparent); color: var(--primary);">
+          <span class="material-symbols-outlined">menu_book</span>
+        </div>
+        <h3>詞彙表</h3>
+        <p>從行銷策略到金流串接，所有電商經營必備知識都在這裡。</p>
+        <a href="#">閱讀文章 <span class="material-symbols-outlined">chevron_right</span></a>
+      </div>
+      <div class="ec-card card-shadow">
+        <div class="ec-card-icon" style="background: color-mix(in srgb, var(--primary) 10%, transparent); color: var(--primary);">
+          <span class="material-symbols-outlined">quiz</span>
+        </div>
+        <h3>常見問題</h3>
+        <p>快速了解經營難題與解決方案，助您排除系統操作障礙。</p>
+        <a href="#">查看問題 <span class="material-symbols-outlined">chevron_right</span></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Highlight -->
+  <section class="ec-sect">
+    <div class="ec-highlight">
+      <div class="ec-highlight-content">
+        <span class="ec-highlight-badge">年度重磅</span>
+        <h2>2024 電商白皮書</h2>
+        <p>深入分析今年全球電商市場趨勢，涵蓋 AI 應用、社群電商與跨境物流的最新洞察。這份報告將成為您制定年度戰略的最佳參考。</p>
+        <div class="ec-highlight-actions">
+          <button class="btn-primary"><span class="material-symbols-outlined">download</span> 立即下載報告</button>
+          <button class="btn-outline">查看目錄</button>
+        </div>
+      </div>
+      <div class="ec-highlight-image">
+        <div class="ec-highlight-mockup">
+          <img alt="2024 電商白皮書" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5POhAlXjCUYBlZHZtTgwVyYu854oOZymj9A_Fei66yGI-cXjguC2n4KQ8EOfOAyQO3zo99jQ_jof78poLJpKeOpBr5Ey5tc6dJ1yn3b4NhJ0P4PE3Jjbmk5WGL4UkuGWLFJaNaayvfu820iHvuojIV5B_mz16jBro_ECeQjKhnPI9V6zmuk7QyZonkByOZ3yJcNfUGBMjdN7dCCfQyDhpaulRBY4z_Kpmg3s1N0MTMnAJuHqJ4uYB3DhwG6ANyckqHVjhHRYgR-U">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Extended Resources -->
+  <section class="ec-sect mb-16">
+    <div class="ec-resources">
+      <h3>延伸資源</h3>
+      <div class="ec-res-grid">
+        <div class="ec-res-item">
+          <span class="material-symbols-outlined icon">menu_book</span>
+          <h4>商家指南</h4>
+          <p>深入淺出的商家經營手冊，從帳號管理到功能設定的全方位指南。</p>
+          <a href="#">瀏覽經營手冊</a>
+        </div>
+        <hr class="ec-res-divider">
+        <div class="ec-res-item ec-res-border">
+          <span class="material-symbols-outlined icon">api</span>
+          <h4>API 文件</h4>
+          <p>專屬開發者支援中心，包含 Webhook 調試工具與進階串接規範。</p>
+          <a href="#">開發者支援</a>
+        </div>
+        <hr class="ec-res-divider">
+        <div class="ec-res-item ec-res-border">
+          <span class="material-symbols-outlined icon">history</span>
+          <h4>系統更新紀錄</h4>
+          <p>掌握 CYBERBIZ 最新功能發佈、系統優化與維護公告，讓您的營運永不斷線。</p>
+          <a href="#">查看更新紀錄</a>
+        </div>
+      </div>
+    </div>
+  </section>
+{% endblock %}

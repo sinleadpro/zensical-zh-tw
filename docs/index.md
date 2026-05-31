@@ -5,6 +5,4 @@ hide:
   - navigation
   - toc
 template: homepage.html
-search:
-  exclude: true
 ---
