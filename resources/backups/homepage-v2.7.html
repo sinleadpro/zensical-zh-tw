@@ -223,56 +223,9 @@
             </a>
           </nav>
         </div>
-        <div class="flex items-center gap-6">
-            <!-- Mobile menu toggle -->
-            <button
-              id="mobile-menu-btn"
-              class="lg:hidden flex items-center justify-center w-10 h-10 rounded-lg hover:bg-surface-container transition-colors"
-              aria-label="選單"
-            >
-              <span class="material-symbols-outlined text-2xl">menu</span>
-            </button>
-          </div>
+        <div class="flex items-center gap-6"></div>
       </div>
     </header>
-    <!-- Mobile Navigation -->
-    <div
-      id="mobile-nav"
-      class="lg:hidden hidden bg-white border-b border-surface-container-highest shadow-lg"
-    >
-      <div class="px-margin-desktop py-4 flex flex-col gap-2">
-        <a
-          class="block px-4 py-3 rounded-xl font-body-md text-on-surface bg-surface-container font-medium"
-          href="../"
-        >
-          主頁
-        </a>
-        <a
-          class="block px-4 py-3 rounded-xl font-body-md text-on-surface-variant hover:bg-surface-container transition-colors"
-          href="../ec/"
-        >
-          品牌官網
-        </a>
-        <a
-          class="block px-4 py-3 rounded-xl font-body-md text-on-surface-variant hover:bg-surface-container transition-colors"
-          href="../wms/"
-        >
-          智慧倉儲
-        </a>
-        <a
-          class="block px-4 py-3 rounded-xl font-body-md text-on-surface-variant hover:bg-surface-container transition-colors"
-          href="../pos/"
-        >
-          智能 POS
-        </a>
-        <a
-          class="block px-4 py-3 rounded-xl font-body-md text-on-surface-variant hover:bg-surface-container transition-colors"
-          href="../resources/"
-        >
-          資源中心
-        </a>
-      </div>
-    </div>
     <main class="w-full">
       <!-- Hero Banner with Search -->
       <section
@@ -1932,17 +1885,6 @@
           });
         });
       }
-    </script>
-    <!-- Mobile menu toggle script -->
-    <script>
-      const menuBtn = document.getElementById("mobile-menu-btn");
-      const mobileNav = document.getElementById("mobile-nav");
-      const icon = menuBtn.querySelector(".material-symbols-outlined"); 
-      menuBtn.addEventListener("click", () => {
-        const isOpen = !mobileNav.classList.contains("hidden");
-        mobileNav.classList.toggle("hidden");
-        icon.textContent = isOpen ? "menu" : "close";
-      });
     </script>
   </body>
 </html>
