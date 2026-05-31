@@ -156,7 +156,7 @@
               const text = anchor.textContent.trim();
 
               // Matches "主頁" text, or common paths relative to your layout docs structure
-              if (text === '主頁' || href === '../' || href === '/' || href === '../index.html') {
+              if (text === '主頁' || href === '../' || href === '/' || href === '../index.html' || href === 'https://help.cyberbiz.io' || href === 'http://help.cyberbiz.io' || anchor.classList.contains('md-logo')) {
                   e.preventDefault();
                   e.stopPropagation();
                   window.location.href = anchor.href;
