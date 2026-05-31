@@ -528,7 +528,7 @@
             </div>
             <div class="ec-bento-img">
               <div class="ec-img-wrapper">
-                <img class="ec-zoom-img" alt="自動化行銷" src="https://lh3.googleusercontent.com/aida/ADBb0uhzoipV1mqryILDes7AfQG_KK5yJp3QG7edluag4gFtyPz2YDTSutQNPH9CbbmelvAHNcQ42-m_m1s5rs5PuowhSC1uFo-y77Swz3FRBaL_n9ono__Y84OhhSnHEK4f1IhmzA8NbJZRSrpVnSa0B1JyookOfN95sWEhOhnKf5l0rmRRmndjojnkkJ4BgHvYus_1IXZTPK8M62hCWZf6JXn2X3jFo2fig3It357WzicUWJR2qjwiBKofDA">
+                <img class="ec-zoom-img" alt="自動化行銷" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB5ryrzNTHMkqnOdi6-vqQDq2vBD8X3PMSJYNSaSLxJxVDiRXVgJ6v9rA7ldC8VOhQ4BrNqVZ2tQrFeOj9ghVfT51vs1FfGh3Z4SAfBq48t18RCEUS7OjC-y1HKrpAza8RZ3GfIXQyB86bFyyWPVPFCP5EJIyRtjNvkOeVRT5LpGaW9G4dYfY4Qx0oISGNQLb_dqkVkAFx2cZWkuSFZgjQUPZ1rTHC7FJ8SI6vMQLqVRDC5vgnWWjBC8gs5v5xX2PJKSWq9nW2Z9H0">
               </div>
               <div class="ec-mob-gradient"></div>
             </div>
@@ -548,21 +548,6 @@
               <div class="ec-mob-gradient"></div>
             </div>
           </div>
-          <!-- Slide 6: 一鍵搬站 -->
-          <div class="ec-bento-slide">
-            <div class="ec-bento-content">
-              <span class="badge">FEATURE</span>
-              <h2>一鍵搬站</h2>
-              <p>從其他平台無痛轉移網站內容，完整保留資料與 SEO 排名，快速遷移至 CYBERBIZ。</p>
-              <span class="link">立即了解 <span class="material-symbols-outlined">east</span></span>
-            </div>
-            <div class="ec-bento-img">
-              <div class="ec-img-wrapper">
-                <img class="ec-zoom-img" alt="一鍵搬站" src="https://lh3.googleusercontent.com/aida/ADBb0uhzoipV1mqryILDes7AfQG_KK5yJp3QG7edluag4gFtyPz2YDTSutQNPH9CbbmelvAHNcQ42-m_m1s5rs5PuowhSC1uFo-y77Swz3FRBaL_n9ono__Y84OhhSnHEK4f1IhmzA8NbJZRSrpVnSa0B1JyookOfN95sWEhOhnKf5l0rmRRmndjojnkkJ4BgHvYus_1IXZTPK8M62hCWZf6JXn2X3jFo2fig3It357WzicUWJR2qjwiBKofDA">
-              </div>
-              <div class="ec-mob-gradient"></div>
-            </div>
-          </div>
         </div>
         <div class="ec-carousel-dots" id="feature-dots">
           <button class="ec-dot active" data-index="0" aria-label="第 1 張"></button>
@@ -570,7 +555,6 @@
           <button class="ec-dot" data-index="2" aria-label="第 3 張"></button>
           <button class="ec-dot" data-index="3" aria-label="第 4 張"></button>
           <button class="ec-dot" data-index="4" aria-label="第 5 張"></button>
-          <button class="ec-dot" data-index="5" aria-label="第 6 張"></button>
         </div>
       </div>
       <div class="ec-bento-side">
@@ -622,9 +606,7 @@
       var track = document.getElementById('feature-track');
       var slides = track.querySelectorAll('.ec-bento-slide');
       var dots = document.querySelectorAll('#feature-dots .ec-dot');
-      var bento = track.closest('.ec-bento-main');
       var current = 0;
-      var timer = setInterval(autoNext, 5000);
 
       function goTo(index) {
         current = index;
@@ -634,27 +616,9 @@
         }
       }
 
-      function autoNext() {
-        goTo(current < slides.length - 1 ? current + 1 : 0);
-      }
-
-      function resetTimer() {
-        clearInterval(timer);
-        timer = setInterval(autoNext, 5000);
-      }
-
-      bento.addEventListener('mouseenter', function() {
-        clearInterval(timer);
-      });
-
-      bento.addEventListener('mouseleave', function() {
-        timer = setInterval(autoNext, 5000);
-      });
-
       for (var i = 0; i < dots.length; i++) {
         dots[i].addEventListener('click', function() {
           goTo(parseInt(this.getAttribute('data-index')));
-          resetTimer();
         });
       }
     })();
