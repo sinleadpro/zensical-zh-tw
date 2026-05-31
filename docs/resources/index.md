@@ -8,6 +8,7 @@ hide:
   - toc
   - path
   - feedback
+template: homepage_resources.html
 ---
 
 # 資源中心
