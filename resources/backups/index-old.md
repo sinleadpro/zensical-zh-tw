@@ -4,7 +4,9 @@ hide:
   - feedback
   - navigation
   - toc
-template: homepage.html
+  - feedback
+search:
+  exclude: true
 ---
 
 <div class="hero-wrapper" style="
