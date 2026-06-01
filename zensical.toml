@@ -606,6 +606,8 @@ copyright = """
     ]},
     { "資源中心" = [
         { "總覽" = "resources/index.md" },
+        { "影片教學" = "resources/video-tutorials.md" },
+        { "商家指南" = "resources/guidebook.md" },
         { "常見問題" = [
             { "常見問題" = "resources/faq/index.md" },
             { "資安隱私" = "" },
@@ -616,13 +618,10 @@ copyright = """
                 { "使用 Jam 回報問題" = "resources/faq/使用 Jam 回報問題.md" }
             ]},
         ]},
-        { "更新紀錄" = "resources/changelog.md" },
         { "詞彙表" = "resources/glossary.md" },
-        { "圖示慣例" = "resources/conventions.md" },   
-        { "參考資料" = [
-            { "overview" = "resources/index.md" },
-            { "CYBER 幣" = "resources/references/認識 CYBER 幣.md" }
-        ]},
+        { "更新紀錄" = "resources/changelog.md" },
+        { "圖示慣例" = "resources/conventions.md" },
+        { "下載資源" = "resources/downloads.md" }
     ]}
  ]
 # With the "extra_css" option you can add your own CSS styling to customize
