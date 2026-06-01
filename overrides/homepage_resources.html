@@ -156,7 +156,7 @@
       border-radius: 0.75rem;
       border: 1px solid var(--outline-variant);
       transition: all 0.3s ease;
-      cursor: pointer;
+      cursor: default;
     }
     .ec-card:hover {
       box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -424,7 +424,7 @@
         <h1>全面提升您的經營力</h1>
         <p>提供專業的電子商務知識、技術文檔與經營秘訣，助您在競爭激烈的市場中脫穎而出。</p>
         <div class="ec-hero-actions">
-          <button class="btn-primary"><span class="material-symbols-outlined">download</span> 瀏覽所有下載</button>
+          <a href="downloads/"><button class="btn-primary"><span class="material-symbols-outlined">download</span> 瀏覽所有下載</button></a>
         </div>
       </div>
       <div class="ec-hero-res-bg">
@@ -438,24 +438,24 @@
   <section class="ec-sect">
     <div class="ec-section-hd">
       <h2>資源總覽</h2>
-      <a href="#">查看所有資源 <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span></a>
+      {# <a href="#">查看所有資源 <span class="material-symbols-outlined" style="font-size: 18px;">arrow_forward</span></a> #}
     </div>
     <div class="ec-grid-4">
-      <div class="ec-card card-shadow large">
+      <div class="ec-card card-shadow">
         <div class="ec-card-icon" style="background: color-mix(in srgb, var(--primary) 10%, transparent); color: var(--primary);">
           <span class="material-symbols-outlined">play_circle</span>
         </div>
         <h3>影音教學</h3>
         <p>由淺入深的視聽指導，助您快速上手各項智能系統功能。</p>
-        <a href="#">立即觀看 <span class="material-symbols-outlined">arrow_forward</span></a>
+        <a href="video-tutorials/">立即觀看 <span class="material-symbols-outlined">arrow_forward</span></a>
       </div>
       <div class="ec-card card-shadow">
         <div class="ec-card-icon" style="background: color-mix(in srgb, var(--primary) 10%, transparent); color: var(--primary);">
           <span class="material-symbols-outlined">menu_book</span>
         </div>
-        <h3>詞彙表</h3>
-        <p>從行銷策略到金流串接，所有電商經營必備知識都在這裡。</p>
-        <a href="glossary/">閱讀文章 <span class="material-symbols-outlined">chevron_right</span></a>
+        <h3>商家指南</h3>
+        <p>彙整 CYBERBIZ 商家指南手冊，提供 PDF 下載。</p>
+        <a href="guidebook/">瀏覽經營手冊 <span class="material-symbols-outlined">chevron_right</span></a>
       </div>
       <div class="ec-card card-shadow">
         <div class="ec-card-icon" style="background: color-mix(in srgb, var(--primary) 10%, transparent); color: var(--primary);">
@@ -464,6 +464,14 @@
         <h3>常見問題</h3>
         <p>快速了解經營難題與解決方案，助您排除系統操作障礙。</p>
         <a href="#">查看問題 <span class="material-symbols-outlined">chevron_right</span></a>
+      </div>
+      <div class="ec-card card-shadow">
+        <div class="ec-card-icon" style="background: color-mix(in srgb, var(--primary) 10%, transparent); color: var(--primary);">
+          <span class="material-symbols-outlined">book</span>
+        </div>
+        <h3>詞彙表</h3>
+        <p>從行銷策略到金流串接，所有電商經營必備知識都在這裡。</p>
+        <a href="glossary/">閱讀文章 <span class="material-symbols-outlined">chevron_right</span></a>
       </div>
     </div>
   </section>
@@ -494,24 +502,24 @@
       <h3>延伸資源</h3>
       <div class="ec-res-grid">
         <div class="ec-res-item">
-          <span class="material-symbols-outlined icon">menu_book</span>
-          <h4>商家指南</h4>
-          <p>深入淺出的商家經營手冊，從帳號管理到功能設定的全方位指南。</p>
-          <a href="#">瀏覽經營手冊</a>
-        </div>
-        <hr class="ec-res-divider">
-        <div class="ec-res-item ec-res-border">
-          <span class="material-symbols-outlined icon">api</span>
-          <h4>API 文件</h4>
-          <p>專屬開發者支援中心，包含 Webhook 調試工具與進階串接規範。</p>
-          <a href="#">開發者支援</a>
-        </div>
-        <hr class="ec-res-divider">
-        <div class="ec-res-item ec-res-border">
           <span class="material-symbols-outlined icon">history</span>
           <h4>系統更新紀錄</h4>
           <p>掌握 CYBERBIZ 最新功能發佈、系統優化與維護公告，讓您的營運永不斷線。</p>
           <a href="#">查看更新紀錄</a>
+        </div>
+        <hr class="ec-res-divider">
+        <div class="ec-res-item ec-res-border">
+          <span class="material-symbols-outlined icon">content_paste</span>
+          <h4>圖示慣例</h4>
+          <p>了解本文件中使用的符號與圖示慣例，提升閱讀效率。</p>
+          <a href="conventions/">查看圖示</a>
+        </div>
+        <hr class="ec-res-divider">
+        <div class="ec-res-item ec-res-border">
+          <span class="material-symbols-outlined icon">code</span>
+          <h4>API 文件</h4>
+          <p>專屬開發者支援中心，包含 Webhook 調試工具與進階串接規範。</p>
+          <a href="#">開發者支援</a>
         </div>
       </div>
     </div>

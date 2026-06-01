@@ -1,0 +1,28 @@
+# CYBERBIZ DOCS
+> 官方線上技術文件與操作指南，供 AI 程式助手與 LLM 快速理解系統架構。
+
+## Documentation Map
+
+- [資源中心 - CYBERBIZ DOCS](https://help.cyberbiz.io/resources/): 提供操作指南、教學文件、FAQ、更新紀錄與詞彙表，幫助商家快速上手與問題排解。
+- [影片教學 - CYBERBIZ DOCS](https://help.cyberbiz.io/resources/video-tutorials/): 彙整影片教學資源，包含課程平台、線上工作坊錄影與快速教學影片，方便一站式查找。
+- [商家指南 - CYBERBIZ DOCS](https://help.cyberbiz.io/resources/guidebook/): 彙整 CYBERBIZ 商家指南手冊，涵蓋直播工具、LINE 直播、LINE 整合功能與虛實整合設定等主題，提供 PDF 下載。
+- [下載資源 - CYBERBIZ DOCS](https://help.cyberbiz.io/resources/downloads/): 彙整 CYBERBIZ 各類可下載資源，包含商家手冊、操作指南、白皮書等 PDF 檔案，提供一站式下載。
+- [常見問題 - CYBERBIZ DOCS](https://help.cyberbiz.io/resources/faq/): 快速解答商家在使用本平台時最常遇到的問題，包含商品、訂單、金流、物流與系統設定。
+- [更新紀錄 - CYBERBIZ DOCS](https://help.cyberbiz.io/resources/changelog/): CYBERBIZ 系統更新與功能發佈記錄。
+- [詞彙表 - CYBERBIZ DOCS](https://help.cyberbiz.io/resources/glossary/): 收錄 CYBERBIZ 系統專業詞彙的定義與說明，涵蓋商品管理、訂單物流、行銷分析等面向。
+- [圖示慣例 - CYBERBIZ DOCS](https://help.cyberbiz.io/resources/conventions/): CYBERBIZ 文檔中使用的圖示與符號說明。
+- [EC 品牌官網 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/): 品牌官網後台操作指南，涵蓋商品、訂單、金物流、行銷推廣與網站外觀設定。
+- [報表分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/analytics/): 一目了然掌握商店經營數據，快速分析銷售、訂單與會員行為。
+- [訂單物流 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/orders/): 管理訂單流程與物流配送，提升出貨效率與顧客滿意度。
+- [會員管理 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/members/): 管理會員資料、等級與互動，提升會員體驗與忠誠度。
+- [商品管理 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/products/): 輕鬆管理商品資訊、分類與庫存，提升上架效率。
+- [電子票券 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/e-ticket/): 電子票券功能設定與管理。
+- [行銷推廣 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/marketing/): 提升商店曝光與銷售，管理行銷活動、優惠策略與顧客互動。
+- [訊息推播 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/notifications/): 管理 EDM 電子報、簡訊與 LINE 通知等訊息推播設定。
+- [付款金流 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/payments-and-logistics/): 管理支付方式、金流設定與訂單收款，確保交易安全與順暢。
+- [網站外觀 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-appearance/): 設定官網前台外觀、導覽列、語系與版型樣式。
+- [管理中心 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-management/): 管理後台帳號權限、員工帳號與系統設定。
+- [APP MARKET - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/app-market/): CYBERBIZ 擴充服務與第三方應用市集。
+- [整合串接 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/integrations/): 串接第三方平台、API 與服務，提升商店功能與自動化能力。
+- [POS 智能 POS - CYBERBIZ DOCS](https://help.cyberbiz.io/pos/): 智能 POS 系統操作指南，涵蓋硬體安裝、結帳流程、庫存管理與門市營運。
+- [WMS 智慧倉儲 - CYBERBIZ DOCS](https://help.cyberbiz.io/wms/): 電商倉儲系統操作指南，涵蓋進倉、出貨、庫存管理與物流串接。
