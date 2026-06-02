@@ -141,7 +141,7 @@ hide: []
   在後台設定 APP 自訂導購時，「廣告名稱」會自動成為 GA_UTM 的活動名稱。
 
 - :lucide-file-spreadsheet:{ .lg }  
-  [__訂單報表匯出 (企業版專用)__](../../orders/匯出訂單報表.md#步驟一選擇報表欄位){ data-preview }  
+  [__訂單報表匯出 (企業版專用)__](../../orders/export-order-report.md#步驟一選擇報表欄位){ data-preview }  
   後台「訂單報表匯出」支援選取 UTM 相關欄位（如來源、媒介、活動名稱等），方便商家直接下載 Excel 進行線下分析。
 
 </div>

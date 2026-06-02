@@ -145,7 +145,7 @@ CYBERBIZ 目前支援以下超商店到店物流：
 <div class="grid cards" markdown>
 
 - :lucide-package:{ .lg }   
-  [__操作超商店到店 C2C 出貨__](../orders/操作超商店到店 C2C 出貨)     
+  [__操作超商店到店 C2C 出貨__](../orders/cvs-c2c-shipping)     
   建立訂單後，前往訂單後台產生寄件單並完成超商寄件流程。
 
 - :lucide-ban:{ .lg }     
