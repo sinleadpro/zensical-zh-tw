@@ -2,14 +2,15 @@
 title: 啟用留言區 reCAPTCHA
 description: 申請並綁定 Google reCAPTCHA 金鑰，防止機器人攻擊與垃圾留言。
 created: 2026-03-05 17:15
-last_modified: 2026-03-08 17:10
+last_modified: 2026-06-02 11:01
 lang: zh-TW
 type: tutorial
-status:
+status: 
 version:
 author: Jase
 reviewers: []
 notes:
+  - update pending
   - verify FAQ
   - update internal links
 ga_views: 0

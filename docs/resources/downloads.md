@@ -25,6 +25,14 @@ permalink: "https://help.cyberbiz.io/downloads"
 
     [:lucide-download: 下載 llms.txt](/llms.txt)
 
+-   :lucide-book-marked:{ .lg .middle } __詞彙表__
+
+    ---
+
+    收錄 CYBERBIZ 系統專業詞彙的定義與說明，涵蓋商品管理、訂單物流、行銷分析、平台方案等面向。
+
+    [:lucide-book-marked: 瀏覽詞彙表](glossary.md)
+
 </div>
 
 ## 商家手冊 { #handbooks }
