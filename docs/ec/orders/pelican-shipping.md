@@ -48,7 +48,7 @@ prerequisites:
   - "[[設定宅配通託運單]]"
 related:
   - "[[設定宅配通託運單]]"
-  - "[[設定訂單部分出貨]]"
+  - "[[partial-shipment-settings]]"
 tags:
   - 宅配通
   - 出貨
@@ -212,7 +212,7 @@ hide: []
 5. 視需求調整「發送郵件通知顧客」勾選狀態。
 6. 點擊 **「確認出貨」** ，系統會建立託運單並扣除運費。
 
-詳細的部分出貨流程、不同物流的差異與 FAQ，請參閱 [訂單部分出貨](設定訂單部分出貨.md){ data-preview } 。
+詳細的部分出貨流程、不同物流的差異與 FAQ，請參閱 [訂單部分出貨](partial-shipment-settings.md){ data-preview } 。
 
 ---
 

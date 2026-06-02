@@ -37,7 +37,7 @@ features:
   - 購物車結帳
 prerequisites: []
 related:
-  - "[[訂單管理介面說明]]"
+  - "[[order-management-interface]]"
   - "[[設定訂單加價購]]"
 tags:
   - 再次購買
@@ -128,7 +128,7 @@ hide: []
   商品加入購物車後，會員可前往購物車確認商品數量、優惠及運費，完成結帳流程。
 
 - :lucide-file-search:{ .lg }  
-  [__查詢訂單狀態__](訂單管理介面說明.md){ data-preview }  
+  [__查詢訂單狀態__](order-management-interface.md){ data-preview }  
   結帳完成後，會員可於「訂單查詢」查看訂單狀態、出貨進度與付款資訊。
 
 - :lucide-tag:{ .lg }  

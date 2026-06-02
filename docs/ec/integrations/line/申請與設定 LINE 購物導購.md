@@ -1,11 +1,11 @@
 ---
-title: "申請與設定 LINE 購物導購"
+title: 申請與設定 LINE 購物導購
 description: 申請 LINE 購物導購並完成後台串接設定，將 LINE 購物流量導入官網下單。
-created: "2026-03-13 10:46"
-last_modified: "2026-03-13 10:50"
+created: 2026-03-13 10:46
+last_modified: 2026-06-02T15:09:33+08:00
 lang: zh-TW
 type: tutorial
-status: 
+status:
 version: ""
 author: Jase
 reviewers: []
@@ -45,10 +45,10 @@ devices:
   - desktop
   - mobile
 ui_components: []
-paths: 
+paths:
   - 第三方整合 > LINE 購物設定
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7462
   - https://www.cyberbiz.io/support/?p=36752
 permalink: ""
@@ -120,7 +120,7 @@ hide: []
 ## 訂單查看與管理
 
 *   **訂單歸類**：透過 LINE 購物導購完成的訂單，可於 [**「訂單」>「LINE 購物訂單」**](group-buy/設定 LINE 團購群組.md#訂單查看與紀錄管理){ data-preview } 中查看。
-*   **導購來源追蹤**：商家也可在匯出的訂單報表中[查看「導購來源」欄位](../../orders/匯出訂單報表.md#步驟一選擇報表欄位){ data-preview }，確認訂單是否來自 LINE 購物。
+*   **導購來源追蹤**：商家也可在匯出的訂單報表中[查看「導購來源」欄位](../../orders/export-order-report.md#步驟一選擇報表欄位){ data-preview }，確認訂單是否來自 LINE 購物。
 
 ## 常見問題
 

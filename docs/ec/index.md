@@ -12,7 +12,7 @@ template: homepage_ec.html
   <p>從官網設定到商品管理、訂單出貨到數據分析，一站式管理您的品牌官網。</p>
   <div>
     <a class="md-button" href="products/creation/新增與更新商品.md"><span class="material-symbols-outlined" style="vertical-align:middle;margin-right:4px;font-size:18px;">add_business</span> 新增商品</a>
-    <a class="md-button md-button--secondary" href="orders/訂單管理介面說明.md"><span class="material-symbols-outlined" style="vertical-align:middle;margin-right:4px;font-size:18px;">shopping_cart</span> 檢視訂單</a>
+    <a class="md-button md-button--secondary" href="orders/order-management-interface.md"><span class="material-symbols-outlined" style="vertical-align:middle;margin-right:4px;font-size:18px;">shopping_cart</span> 檢視訂單</a>
   </div>
 </div>
 
