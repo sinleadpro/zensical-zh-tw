@@ -558,9 +558,9 @@ module: orders
 ```yaml
 文件 A:
   category: 
-  module: website-management
-  頁面: https://demo005.cyberbiz.co/admin/member_registration_setting
-  主題: 設定顧客 Email 與手機雙重驗證
+  module: products
+  頁面: https://demo005.cyberbiz.co/admin/custom_collections
+  主題: 設定商品自訂分類群組
   檔案路徑: 
 
 文件 B:

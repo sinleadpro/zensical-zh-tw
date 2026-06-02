@@ -11,24 +11,14 @@ hide:
 
 <!-- ▼ Markdown 版本（複製自 homepage_resources.html） -->
 
-<div class="ec-index-hero">
-  <h2>全面提升您的經營力</h2>
-  <p>提供專業的電子商務知識、技術文檔與經營秘訣，助您在競爭激烈的市場中脫穎而出。</p>
-  <div>
-    <a class="md-button" href="products/creation/新增與更新商品.md"><span class="material-symbols-outlined" style="vertical-align:middle;margin-right:4px;font-size:18px;">download</span> 瀏覽所有下載</a>
-  </div>
-</div>
-
-
-<!---->
-<!-- <br> -->
-<!-- <br> -->
-<!-- <big>__全面提升您的經營力__</big>   -->
-<!-- 提供專業的電子商務知識、技術文檔與經營秘訣，助您在競爭激烈的市場中脫穎而出。   -->
-<!-- <br> -->
-<!-- [瀏覽所有下載 :lucide-circle-arrow-right:](downloads/) -->
-<!-- <br> -->
-<!-- <br> -->
+<br>
+<br>
+<big>__全面提升您的經營力__</big>  
+提供專業的電子商務知識、技術文檔與經營秘訣，助您在競爭激烈的市場中脫穎而出。  
+<br>
+[瀏覽所有下載 :lucide-circle-arrow-right:](downloads/)
+<br>
+<br>
 
 ---
 
@@ -84,21 +74,6 @@ hide:
     [立即下載報告 :lucide-download:](#) ⋮ [查看目錄](#)
 
 ---
-<div class="homepage-highlight" markdown>
-
-<span class="homepage-badge">年度重磅</span>
-
-## 2024 電商白皮書
-
-深入分析全球電商市場趨勢，涵蓋 AI 應用、社群電商與跨境物流的最新洞察。
-
-這份報告將成為您制定年度經營策略的重要參考。
-
-[立即下載報告 :lucide-download:](#){ .md-button .md-button--primary }
-[查看目錄](#){ .md-button }
-
-</div>
-
 -->
 
 ## 延伸資源
