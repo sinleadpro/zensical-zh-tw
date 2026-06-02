@@ -4,15 +4,14 @@ hide:
   - toc
   - path
   - feedback
-template: homepage_ec.html
 ---
 
 <div class="ec-index-hero">
   <h2>打造您的品牌官網</h2>
   <p>從官網設定到商品管理、訂單出貨到數據分析，一站式管理您的品牌官網。</p>
   <div>
-    <a class="md-button" href="products/creation/新增與更新商品.md"><span class="material-symbols-outlined" style="vertical-align:middle;margin-right:4px;font-size:18px;">add_business</span> 新增商品</a>
-    <a class="md-button md-button--secondary" href="orders/order-management-interface.md"><span class="material-symbols-outlined" style="vertical-align:middle;margin-right:4px;font-size:18px;">shopping_cart</span> 檢視訂單</a>
+    <a class="md-button" href="products/creation/新增與更新商品.md"><span class="material-symbols-outlined" style="vertical-align:middle;margin-right:4px;font-size:18px;">add_business</span> 開始架站</a>
+    <a class="md-button md-button--secondary" href="orders/order-management-interface.md"><span class="material-symbols-outlined" style="vertical-align:middle;margin-right:4px;font-size:18px;">play_circle</span> 觀看導覽</a>
   </div>
 </div>
 
@@ -45,33 +44,45 @@ template: homepage_ec.html
 
 <div class="grid cards" markdown>
 
--   :lucide-palette: __店家設定__
-    ---
+-   :lucide-palette: __店家設定__  
+
+    ---  
+
     網站外觀、網站管理、客服中心、SEO 優化
     [:octicons-arrow-right-24: 前往設定](website-appearance/index.md)
 
--   :lucide-package: __商品與訂單__
-    ---
+-   :lucide-package: __商品與訂單__  
+
+    ---  
+
     商品管理、訂單出貨、退貨退款、電子票券
     [:octicons-arrow-right-24: 完整指南](products/index.md)
 
--   :lucide-credit-card: __金流與物流__
-    ---
+-   :lucide-credit-card: __金流與物流__  
+
+    ---  
+
     信用卡、LINE Pay、物流設定、快速到貨
     [:octicons-arrow-right-24: 完整指南](payments-and-logistics/index.md)
 
--   :lucide-users: __會員與行銷__
-    ---
+-   :lucide-users: __會員與行銷__  
+
+    ---  
+
     會員管理、VIP 制度、行銷活動、訊息推播
     [:octicons-arrow-right-24: 完整指南](members/index.md)
 
--   :lucide-chart-column-increasing: __數據與分析__
-    ---
+-   :lucide-chart-column-increasing: __數據與分析__  
+
+    ---  
+
     報表分析、GA4 串接、廣告成效分析
     [:octicons-arrow-right-24: 完整指南](analytics/index.md)
 
--   :lucide-network: __整合與擴充__
-    ---
+-   :lucide-network: __整合與擴充__  
+
+    ---  
+
     第三方平台串接、Facebook、Google、LINE、App Market
     [:octicons-arrow-right-24: 瀏覽應用](integrations/index.md)
 

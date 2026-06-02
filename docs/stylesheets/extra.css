@@ -821,7 +821,7 @@
 }
 
 /* ==========================================================================
-   EC Index Page — Hero Section
+   EC Index Page — Hero Section Custom HTML
    ========================================================================== */
 body:has(.ec-index-hero) .md-content__inner > h1:first-child {
   display: none;
@@ -865,7 +865,7 @@ body:has(.ec-index-hero) .md-content__inner > h1:first-child {
 }
 
 /* ==========================================================================
-   EC Index Page — Feature Strip (4 cards)
+   EC Index Page — Feature Strip (4 cards) Custom Template
    ========================================================================== */
 .ec-feature-strip {
   display: grid;
@@ -907,7 +907,7 @@ body:has(.ec-index-hero) .md-content__inner > h1:first-child {
 }
 
 /* ==========================================================================
-   EC Index Page — Bento Section
+   EC Index Page — Bento Section Custom HTML
    ========================================================================== */
 .ec-bento {
   display: grid;
@@ -1026,7 +1026,7 @@ body:has(.ec-index-hero) .md-content__inner > h1:first-child {
 }
 
 /* ==========================================================================
-   EC Index Page — Resources Section
+   EC Index Page — Resources Section Custom HTML
    ========================================================================== */
 .ec-resources {
   background: var(--md-default-fg-color--lightest);
@@ -1070,7 +1070,7 @@ body:has(.ec-index-hero) .md-content__inner > h1:first-child {
 }
 
 /* ==========================================================================
-   EC Index Page — Dark Mode Overrides
+   EC Index Page — Dark Mode Overrides Custom HTML
    ========================================================================== */
 [data-md-color-scheme="slate"] .ec-index-hero {
   background: #01378A;
@@ -1078,3 +1078,5 @@ body:has(.ec-index-hero) .md-content__inner > h1:first-child {
 [data-md-color-scheme="slate"] .ec-support-card {
   background: #01378A;
 }
+
+
