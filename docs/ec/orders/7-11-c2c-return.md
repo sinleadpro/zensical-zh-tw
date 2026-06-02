@@ -59,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12993
   - https://www.cyberbiz.io/support/?p=5246
-permalink: https://help.cyberbiz.io/ec/orders/使用 7-11 C2C 退貨便
+permalink: https://help.cyberbiz.io/ec/orders/7-11-c2c-return
 comments: false
 search:
   exclude: false

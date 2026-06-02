@@ -1,8 +1,8 @@
 ---
-title: 訂單物流
-permalink: https://help.cyberbiz.io/ec/orders/訂單物流
+title: 訂單總覽
+permalink: https://help.cyberbiz.io/ec/orders/index
 description: 管理訂單流程與物流配送，提升出貨效率與顧客滿意度。
-icon: lucide/receipt
+icon: lucide/file-text
 hide:
   - feedback
 notes:
@@ -13,17 +13,27 @@ notes:
 
 ![](../../assets/images/ec-orders-hero.zh-tw.png){ .hero-page }
 
-## 訂單管理基礎
+## 快速上手
 
 <div class="grid cards" markdown>
 
 - :lucide-layout-dashboard:{ .lg }  
   [__介面總覽__](訂單管理介面說明.md){ title="訂單管理介面說明" }  
-  了解訂單列表介面、狀態標籤與各項操作按鈕。
+  認識訂單列表介面、狀態標籤與各項操作按鈕。
+
+- :lucide-truck:{ .lg }  
+  [__訂單出貨流程__](訂單出貨流程.md){ title="訂單出貨流程" }  
+  了解從訂單成立到完成出貨的完整流程。
 
 - :lucide-search:{ .lg }  
   [__搜尋與篩選__](搜尋與篩選訂單.md){ title="如何搜尋與篩選訂單" }  
   使用關鍵字搜尋、條件篩選與檢視群組快速找到訂單。
+
+</div>
+
+## 訂單異動
+
+<div class="grid cards" markdown>
 
 - :lucide-pencil:{ .lg }  
   [__編輯訂單__](編輯訂單內容.md){ title="編輯訂單內容" }  
@@ -37,57 +47,21 @@ notes:
   [__再次購買__](repurchase-order.md){ title="使用再次購買功能" }  
   讓顧客快速將歷史訂單商品重新加入購物車。
 
-</div>
-
-## 訂單設定與流程
-
-<div class="grid cards" markdown>
-
-- :lucide-printer:{ .lg }  
-  [__訂單明細設定__](設定與列印訂單明細.md){ title="設定與列印訂單明細" }  
-  自訂訂單明細顯示欄位，列印或下載 PDF。
-
-- :lucide-file-text:{ .lg }  
-  [__出貨明細設定__](設定與列印出貨明細.md){ title="設定與列印出貨明細" }  
-  自訂出貨明細樣板，批次下載出貨文件。
-
-- :lucide-file-check:{ .lg }  
-  [__自動結案__](設定訂單自動結案.md){ title="設定訂單自動結案" }  
-  依物流狀態與天數自動將訂單結案，觸發紅利與分潤。
-
-- :lucide-check-circle:{ .lg }  
-  [__手動結案__](如何手動結案訂單.md){ title="如何手動結案訂單" }  
-  單筆或批次手動關閉訂單。
-
-- :lucide-link:{ .lg }  
-  [__提供付款連結__](提供顧客付款連結.md){ title="提供顧客付款連結" }  
-  產生專屬付款連結，讓顧客補完成線上付款。
-
-- :lucide-barcode:{ .lg }  
-  [__超商條碼付款__](使用超商條碼完成付款.md){ title="使用超商條碼完成付款" }  
-  啟用超商條碼付款功能，顧客可至超商繳費。
-
-- :lucide-bell:{ .lg }  
-  [__未付款提醒__](設定未付款提醒.md){ title="設定未付款提醒" }  
-  設定自動發送 Email、SMS 與 LINE 的未付款提醒。
+- :lucide-undo-2:{ .lg }  
+  [__調整為未出貨__](revert-to-unshipped.md){ title="如何將訂單從準備出貨調整回未出貨狀態" }  
+  將準備出貨的訂單退回未出貨狀態。
 
 </div>
 
-## 宅配出貨
+## 選擇出貨方式
+
+### 宅配物流
 
 <div class="grid cards" markdown>
-
-- :lucide-package:{ .lg }  
-  [__自訂物流出貨__](如何使用自訂物流出貨.md){ title="如何使用自訂物流出貨" }  
-  三種自訂物流出貨方式：批次標記、Excel 匯入與手動出貨。
 
 - :lucide-truck:{ .lg }  
   [__黑貓宅配出貨__](使用黑貓宅配出貨.md){ title="使用黑貓宅配出貨" }  
   批次下載黑貓託運單，扣抵運費並更新出貨狀態。
-
-- :lucide-phone-call:{ .lg }  
-  [__黑貓自動呼叫司機__](自動呼叫黑貓司機取件.md){ title="自動呼叫黑貓司機取件" }  
-  批次下載託運單時自動通知黑貓司機到府取件。
 
 - :lucide-truck:{ .lg }  
   [__宅配通出貨__](pelican-shipping.md){ title="使用宅配通出貨" }  
@@ -101,21 +75,13 @@ notes:
   [__新竹物流出貨__](使用新竹物流出貨.md){ title="使用新竹物流出貨" }  
   批次下載新竹物流託運單並更新出貨狀態。
 
-- :lucide-layers:{ .lg }  
-  [__部分出貨（宅配）__](設定訂單部分出貨.md){ title="設定訂單部分出貨" }  
-  將訂單部分商品先行出貨的流程與注意事項。
-
-- :lucide-undo-2:{ .lg }  
-  [__調整為未出貨__](如何將訂單從準備出貨調整回未出貨狀態.md){ title="如何將訂單從準備出貨調整回未出貨狀態" }  
-  將準備出貨的訂單退回未出貨狀態。
-
-- :lucide-info:{ .lg }  
-  [__出貨提示文字__](出貨狀態物流提示文字說明.md){ title="出貨狀態物流提示文字說明" }  
-  了解系統如何根據物流追蹤資料顯示已出貨提示。
+- :lucide-package:{ .lg }  
+  [__自訂物流出貨__](如何使用自訂物流出貨.md){ title="如何使用自訂物流出貨" }  
+  三種自訂物流出貨方式：批次標記、Excel 匯入與手動出貨。
 
 </div>
 
-## 超商出貨
+### 超商物流
 
 <div class="grid cards" markdown>
 
@@ -131,41 +97,85 @@ notes:
   [__全家冷凍店到店 C2C__](操作全家冷凍店到店 C2C 出貨.md){ title="操作全家冷凍店到店 C2C 出貨" }  
   冷凍商品的全家 C2C 店到店出貨流程與注意事項。
 
-- :lucide-package-open:{ .lg }  
-  [__超商部分出貨__](處理超商訂單部分出貨.md){ title="處理超商訂單部分出貨" }  
-  超商訂單部分出貨的處理方式與物流支援對照。
-
-- :lucide-printer:{ .lg }  
-  [__熱感列印超商托運單__](熱感列印超商托運單.md){ title="熱感列印超商托運單" }  
-  使用熱感應印表機列印 A6 尺寸的超商托運單。
-
 </div>
 
-## 黑貓快速到店
+### 快速到店
 
 <div class="grid cards" markdown>
 
 - :lucide-zap:{ .lg }  
-  [__快速到店出貨__](使用黑貓快速到店出貨.md){ title="使用黑貓快速到店出貨" }  
+  [__黑貓快速到店出貨__](使用黑貓快速到店出貨.md){ title="使用黑貓快速到店出貨" }  
   批次下載黑貓快速到店託運單並完成出貨。
 
+</div>
+
+## 出貨設定
+
+<div class="grid cards" markdown>
+
+- :lucide-package-check:{ .lg }  
+  [__部分出貨（宅配）__](設定訂單部分出貨.md){ title="設定訂單部分出貨" }  
+  將訂單部分商品先行出貨的流程與注意事項。
+
+- :lucide-package-check:{ .lg }  
+  [__超商部分出貨__](處理超商訂單部分出貨.md){ title="處理超商訂單部分出貨" }  
+  超商訂單部分出貨的處理方式與物流支援對照。
+
+- :lucide-file-text:{ .lg }  
+  [__出貨明細設定__](設定與列印出貨明細.md){ title="設定與列印出貨明細" }  
+  自訂出貨明細樣板，批次下載出貨文件。
+
+- :lucide-printer:{ .lg }  
+  [__熱感列印超商托運單__](thermal-print-cvs-waybill.md){ title="熱感列印超商托運單" }  
+  使用熱感應印表機列印 A6 尺寸的超商托運單。
+
+- :lucide-phone-call:{ .lg }  
+  [__黑貓自動呼叫司機__](自動呼叫黑貓司機取件.md){ title="自動呼叫黑貓司機取件" }  
+  批次下載託運單時自動通知黑貓司機到府取件。
+
+- :lucide-info:{ .lg }  
+  [__出貨提示文字__](出貨狀態物流提示文字說明.md){ title="出貨狀態物流提示文字說明" }  
+  了解系統如何根據物流追蹤資料顯示已出貨提示。
+
+</div>
+
+## 付款與結案
+
+<div class="grid cards" markdown>
+
 - :lucide-credit-card:{ .lg }  
-  [__快速到店付款__](設定黑貓快速到店付款方式.md){ title="設定黑貓快速到店付款方式" }  
+  [__黑貓快速到店付款__](tcat-express-payment-settings.md){ title="設定黑貓快速到店付款方式" }  
   設定快速到店的貨到付款與不付款選項。
 
-- :lucide-clock:{ .lg }  
-  [__快速到店逾期__](黑貓快速到店逾期說明.md){ title="黑貓快速到店逾期說明" }  
-  逾期未取的判定天數與退貨運費計算機制。
+- :lucide-link:{ .lg }  
+  [__提供付款連結__](提供顧客付款連結.md){ title="提供顧客付款連結" }  
+  產生專屬付款連結，讓顧客補完成線上付款。
+
+- :lucide-barcode:{ .lg }  
+  [__超商條碼付款__](cvs-barcode-payment.md){ title="使用超商條碼完成付款" }  
+  啟用超商條碼付款功能，顧客可至超商繳費。
+
+- :lucide-printer:{ .lg }  
+  [__訂單明細設定__](設定與列印訂單明細.md){ title="設定與列印訂單明細" }  
+  自訂訂單明細顯示欄位，列印或下載 PDF。
+
+- :lucide-file-check:{ .lg }  
+  [__自動結案__](設定訂單自動結案.md){ title="設定訂單自動結案" }  
+  依物流狀態與天數自動將訂單結案，觸發紅利與分潤。
+
+- :lucide-check-circle:{ .lg }  
+  [__手動結案__](如何手動結案訂單.md){ title="如何手動結案訂單" }  
+  單筆或批次手動關閉訂單。
+
+- :lucide-bell:{ .lg }  
+  [__未付款提醒__](設定未付款提醒.md){ title="設定未付款提醒" }  
+  設定自動發送 Email、SMS 與 LINE 的未付款提醒。
 
 </div>
 
 ## 退貨與退款
 
 <div class="grid cards" markdown>
-
-- :lucide-rotate-ccw:{ .lg }  
-  [__會員退貨申請功能__](會員退貨申請功能.md){ title="會員退貨申請功能" }  
-  開啟前台退貨申請功能，設定可退貨天數與條件。
 
 - :lucide-undo-2:{ .lg }  
   [__訂單退貨流程__](訂單退貨流程.md){ title="訂單退貨流程" }  
@@ -174,6 +184,14 @@ notes:
 - :lucide-dollar-sign:{ .lg }  
   [__訂單退款流程__](訂單退款流程.md){ title="訂單退款流程" }  
   自動退刷與手動退款的完整流程。
+
+- :lucide-credit-card:{ .lg }  
+  [__第三方支付人工退款__](第三方支付訂單人工退款.md){ title="第三方支付訂單人工退款" }  
+  LINE Pay、街口支付等第三方金流的手動退款流程。
+
+- :lucide-rotate-ccw:{ .lg }  
+  [__會員退貨申請功能__](會員退貨申請功能.md){ title="會員退貨申請功能" }  
+  開啟前台退貨申請功能，設定可退貨天數與條件。
 
 - :lucide-calendar-x:{ .lg }  
   [__超過退貨期限__](處理超過退貨期限的訂單.md){ title="處理超過退貨期限的訂單" }  
@@ -184,12 +202,16 @@ notes:
   超商訂單逾期未取的退款條件與處理流程。
 
 - :lucide-arrow-left-to-line:{ .lg }  
-  [__超商退貨便 C2B__](操作超商退貨便 C2B.md){ title="操作超商退貨便 C2B" }  
+  [__超商退貨便 C2B__](cvs-c2b-return.md){ title="操作超商退貨便 C2B" }  
   操作 7-11 C2B 退貨便，讓顧客透過超商退回商品。
 
 - :lucide-arrow-left:{ .lg }  
-  [__7-11 C2C 退貨便__](使用 7-11 C2C 退貨便.md){ title="使用 7-11 C2C 退貨便" }  
+  [__7-11 C2C 退貨便__](7-11-c2c-return.md){ title="使用 7-11 C2C 退貨便" }  
   啟用 7-11 C2C 退貨便服務，發送退貨代碼給顧客。
+
+- :lucide-clock:{ .lg }  
+  [__黑貓快速到店逾期__](黑貓快速到店逾期說明.md){ title="黑貓快速到店逾期說明" }  
+  逾期未取的判定天數與退貨運費計算機制。
 
 </div>
 

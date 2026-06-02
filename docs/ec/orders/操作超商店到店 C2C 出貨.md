@@ -155,7 +155,7 @@ hide:
 
 #### 熱感列印（A6）
     
-- 支援 7-ELEVEN 與全家 C2C，僅可使用「新版訂單列表」下載。瞭解 [如何熱感列印超商托運單](熱感列印超商托運單)。
+- 支援 7-ELEVEN 與全家 C2C，僅可使用「新版訂單列表」下載。瞭解 [如何熱感列印超商托運單](thermal-print-cvs-waybill.md)。
 - _註：熱感列印功能僅限 PLUS 與 企業版 的商家使用。_ 
         
 #### 超商列印
@@ -319,7 +319,7 @@ graph LR
 <div class="grid cards" markdown>
 
 - :lucide-printer:{ .lg }   
-  [__超商熱感列印__](熱感列印超商托運單)     
+  [__超商熱感列印__](thermal-print-cvs-waybill.md)     
   使用熱感列印，列印超商托運單。
 
 - :lucide-snowflake:{ .lg }     

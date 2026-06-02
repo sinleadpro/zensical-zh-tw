@@ -4,7 +4,7 @@ description: 設定黑貓快速到店的付款方式，包含貨到付款與取�
 created:
 last_modified: 2026-03-08 21:34
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/orders/設定黑貓快速到店付款方式
+permalink: https://help.cyberbiz.io/ec/orders/tcat-express-payment-settings
 type: tutorial
 status:
 version:
