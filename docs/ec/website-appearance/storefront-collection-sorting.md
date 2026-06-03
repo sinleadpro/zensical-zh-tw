@@ -2,7 +2,7 @@
 title: 設定首頁商品群組排序
 description: 調整前台首頁「商品列表」區塊中，各個商品群組的顯示先後順序。
 created:
-last_modified: 2026-06-03 19:28
+last_modified: 2026-06-03 19:30
 lang: zh-TW
 permalink:
 type: tutorial
@@ -113,7 +113,7 @@ hide:
 
 ---
 
-## 設定商品列表顯示群組數量
+## 設定列表顯示群組數量
 
 您可設定首頁「商品列表」中，最多顯示幾個商品群組。
 
