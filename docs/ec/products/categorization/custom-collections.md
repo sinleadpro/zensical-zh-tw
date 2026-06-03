@@ -2,7 +2,7 @@
 title: 設定商品自訂分類群組
 description: 依照行銷活動或主題手動挑選商品建立群組，作為店面分類頁、選單連結或廣告活動的著陸頁。
 created: 2026-01-08 00:00
-last_modified: 2026-06-03 14:35
+last_modified: 2026-06-03 15:36
 lang: zh-TW
 type: guide
 status:
@@ -309,6 +309,9 @@ hide: []
 
 ### 多國語系設定 { #operate-custom-collections-multilingual }
 
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | PLUS版 / 企業
+{ .doc-badge }
+
 !!! plan "開通條件"
     多國語系為加值功能，**不分方案皆需另行開通**，請聯繫專屬客戶顧問。開通後頁面右上角會出現 **「選擇語言」** 下拉選單；未開通的商家不會看到此選單，亦無法進行多語系編輯。
 
@@ -356,8 +359,8 @@ hide: []
     [](){ #faq-custom-collections-vs-smart }
     兩者都是商品分類群組，差別在於成員商品的決定方式：
 
-    - **商品自訂分類**：由商家**手動挑選**商品成員，適合行銷主題、節慶活動、限定組合等需要明確選品的情境。
-    - **商品條件分類**：依商家設定的條件（例如商品標籤、商品類型、價格區間）**自動納入**符合條件的商品；新商品上架時若符合條件會自動加入。
+    - **商品自訂分類**：由商家 **手動挑選** 商品成員，適合行銷主題、節慶活動、限定組合等需要明確選品的情境。
+    - **商品條件分類**：依商家設定的條件（例如商品標籤、商品類型、價格區間）**自動納入** 符合條件的商品；新商品上架時若符合條件會自動加入。
 
 ??? quote "一個商品可以同時加入多個群組嗎？"
     [](){ #faq-custom-collections-multi-group }
@@ -377,7 +380,7 @@ hide: []
 
 ??? quote "切換語系後填的 SEO，為什麼前台還是空白？"
     [](){ #faq-custom-collections-seo-empty }
-    SEO 三欄（網頁標題、網頁描述、網頁關鍵字）**不會** fallback 至預設語系。請確認該語系下的 SEO 欄位已逐欄填寫並儲存。詳見 [多國語系設定](#operate-custom-collections-multilingual)。
+    SEO 三欄（網頁標題、網頁描述、網頁關鍵字）**不會** 自動遞補至預設語系。請確認該語系下的 SEO 欄位已逐欄填寫並儲存。詳見 [多國語系設定](#operate-custom-collections-multilingual)。
 
 ??? quote "群組 URL 可以使用中文嗎？"
     [](){ #faq-custom-collections-handle-chinese }
@@ -389,7 +392,7 @@ hide: []
 
 <div class="grid cards" markdown>
 
-- :lucide-tags:{ .lg }
+- :lucide-sparkles:{ .lg }  
   [**商品條件分類**](設定商品條件分類群組.md)  
   依條件自動納入商品的群組類型，與本文功能互補。
 
@@ -397,7 +400,11 @@ hide: []
   **群組圖片與前台版型**  
   群組於前台的呈現受版型設定影響，相關設定請見店面版型編輯說明。 -->
 
-- :lucide-languages:{ .lg }
+- :lucide-arrow-up-down:{ .lg }  
+  [**設定前台商品群組排序**](../../website-appearance/storefront-collection-sorting.md)  
+  調整群組在前台首頁的顯示順序，並設定首頁可顯示的群組數量。
+
+- :lucide-languages:{ .lg }  
   [**多國語系開通**](../../website-management/設定多國語言與多幣別.md)  
   多國語系為加值功能，請聯繫專屬客戶顧問。
 

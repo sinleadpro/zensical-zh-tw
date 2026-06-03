@@ -82,7 +82,7 @@ copyright = """
                     { "超商配送限制與物流排除" = "zh-tw/ec/products/設定超商配送限制與物流排除.md" }
             ]},
             { "商品分類" = [
-                    { "商品自訂分類" = "zh-tw/ec/products/設定商品自訂分類群組.md" },
+                    { "商品自訂分類" = "zh-tw/ec/products/custom-collections.md" },
                     { "商品條件分類" = "zh-tw/ec/products/設定商品條件分類群組.md" },
                     { "秘密商品群組" = "zh-tw/ec/products/設定秘密商品群組.md" },
                     { "商品標籤管理" = "zh-tw/ec/products/管理商品標籤.md" },
@@ -143,7 +143,7 @@ copyright = """
         { "網站外觀" = [
             { "overview" = "zh-tw/ec/website-appearance/index.md" },
             { "選單設定" = "zh-tw/ec/website-appearance/設定前台選單.md" },
-            { "全站商品列表群組排序" = "zh-tw/ec/website-appearance/設定前台商品群組排序.md" }
+            { "全站商品列表群組排序" = "zh-tw/ec/website-appearance/storefront-collection-sorting.md" }
         ]},
         { "商店設定" = [
             { "商店設定" = "zh-tw/ec/store/index.md" },
