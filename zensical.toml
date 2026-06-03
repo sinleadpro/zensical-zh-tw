@@ -196,7 +196,8 @@ copyright = """
                 { "商品列表欄位參考表" = "ec/products/references/商品列表欄位參考表.md" },
                 { "商品搜尋欄位規範" = "ec/products/references/商品搜尋欄位規範.md" },
                 { "篩選欄位定義" = "ec/products/references/篩選欄位定義.md" },
-                { "商品列表操作選項" = "ec/products/references/商品列表操作功能說明.md" }
+                { "商品列表操作選項" = "ec/products/references/商品列表操作功能說明.md" },
+                { "群組類型對照表" = "ec/products/references/collection-group-types.md" }
             ]},
         ]},
         { "電子票券" = [
