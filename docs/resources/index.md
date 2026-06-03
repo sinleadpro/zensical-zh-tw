@@ -15,7 +15,7 @@ hide:
   <h2>全面提升您的經營力</h2>
   <p>提供專業的電子商務知識、技術文檔與經營秘訣，助您在競爭激烈的市場中脫穎而出。</p>
   <div>
-    <a class="md-button" href="products/creation/新增與更新商品.md"><span class="material-symbols-outlined" style="vertical-align:middle;margin-right:4px;font-size:18px;">download</span> 瀏覽所有下載</a>
+    <a class="md-button" href="downloads.md"><span class="material-symbols-outlined" style="vertical-align:middle;margin-right:4px;font-size:18px;">download</span> 瀏覽所有下載</a>
   </div>
 </div>
 
