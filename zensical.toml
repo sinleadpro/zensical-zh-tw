@@ -218,6 +218,15 @@ copyright = """
         ]},
         { "行銷活動" = [
             { "overview" = "ec/marketing/index.md" },  
+<<<<<<< Updated upstream
+=======
+            { "優惠碼" = "ec/marketing/設定優惠碼.md" },
+            { "多優惠券" = "ec/marketing/多優惠券.md" },
+            { "紅利點數" = "ec/marketing/設定紅利點數.md" },
+            { "優惠券紅利到期通知" = "ec/marketing/優惠券碼紅利點數到期通知.md" },
+            { "註冊禮" = "ec/marketing/設定註冊禮.md" },
+            { "生日禮" = "ec/marketing/設定生日禮.md" },
+>>>>>>> Stashed changes
             { "單品限時折扣群組" = "ec/marketing/設定單品限時折扣群組.md" },
             { "任選折扣" = "ec/marketing/任選折扣.md"},
             { "紅配綠多組合優惠" = "ec/marketing/紅配綠多組合優惠.md"},
