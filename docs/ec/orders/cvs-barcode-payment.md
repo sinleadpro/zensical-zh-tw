@@ -36,7 +36,7 @@ prerequisites: []
 related:
   - "[[provide-payment-link]]"
   - "[[unpaid-reminder-settings]]"
-  - "[[設定與管理 Email 通知樣板]]"
+  - "[[manage-email-templates]]"
 tags:
   - 超商條碼
   - 便利商店付款
@@ -127,7 +127,7 @@ comments: false
 
     ![前往付款](../../assets/images/EC-前台-訂單查詢-前往付款.png)
 
-4.  **Email 通知信**：若商家有[開啟新訂單通知](../notifications/設定與管理 Email 通知樣板.md){ data-preview }，顧客可以在收到的訂單成立 Email 中，點擊「**前往付款**」按鈕來取得條碼。
+4.  **Email 通知信**：若商家有[開啟新訂單通知](../notifications/manage-email-templates.md){ data-preview }，顧客可以在收到的訂單成立 Email 中，點擊「**前往付款**」按鈕來取得條碼。
 
     ![訂單成立Email-前往付款](../../assets/images/EC-Email通知-訂單成立-前往付款.png)
 

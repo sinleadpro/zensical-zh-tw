@@ -172,7 +172,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-bell-ring:{ .lg }  
-  [__自動發送提醒樣板__](../../notifications/設定與管理 LINE OA 通知樣板.md){ data-preview }  
+  [__自動發送提醒樣板__](../../notifications/manage-line-oa-templates.md){ data-preview }  
   自動回覆訂單確認、貨物發送、到店提醒及未付款提醒等訊息。
 
 - :lucide-ticket-percent:{ .lg }  

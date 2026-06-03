@@ -40,7 +40,7 @@ features:
   - 發送紀錄列表
 prerequisites: []
 related:
-  - "[[設定與發送簡訊通知]]"
+  - "[[send-sms-notifications]]"
 tags:
   - 簡訊
   - 發送紀錄
@@ -123,11 +123,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-message-square-plus:{ .lg }  
-  [__設定與發送簡訊__](設定與發送簡訊通知.md){ data-preview }  
+  [__設定與發送簡訊__](send-sms-notifications.md){ data-preview }  
   了解簡訊發送的三種方法（顧客群組、手動、匯入 Excel）與費用計費標準。
 
 - :lucide-message-square-text:{ .lg }  
-  [__簡訊通知樣板管理__](設定與管理簡訊通知樣板.md){ data-preview }  
+  [__簡訊通知樣板管理__](manage-sms-templates.md){ data-preview }  
   自訂系統在特定情境下自動發送的簡訊內容。
 
 </div>
@@ -140,7 +140,7 @@ hide: []
 
 ??? quote "發送失敗會退回 Cyber 幣嗎？"
 
-    簡訊發送若因「號碼錯誤」或「電信商端問題」導致失敗，通常仍會產生發送成本。詳細扣費規範請參閱 [簡訊發送規範與計費](設定與發送簡訊通知.md#簡訊發送規範與計費){ data-preview }。
+    簡訊發送若因「號碼錯誤」或「電信商端問題」導致失敗，通常仍會產生發送成本。詳細扣費規範請](send-sms-notifications.md#簡訊發送規範與計費)與計費)訊發送規範與計費){ data-preview }。
 
 ??? quote "可以查詢多久以前的發送紀錄？"
 

@@ -246,7 +246,7 @@ author: Jase
 
 **Electronic Direct Mail（電子行銷郵件）**，許可式電子行銷郵件，商家向大量特定受眾發送具備精美排版與成效追蹤功能的行銷資訊。
 
-- **參閱**：[設定與發送 EDM 電子報](../ec/notifications/設定與發送 EDM 電子報.md)
+- **參閱**：[設定與發送 EDM 電子報](../ec/notifications/send-edm-newsletters.md)
 
 ### SEO
 

@@ -44,8 +44,8 @@ features:
   - EDM計費
 prerequisites: []
 related:
-  - "[[設定與管理簡訊通知樣板]]"
-  - "[[設定與發送 EDM 電子報]]"
+  - "[[manage-sms-templates]]"
+  - "[[send-edm-newsletters]]"
 tags:
   - Cyber 幣
   - 儲值中心
@@ -142,7 +142,7 @@ Cyber 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項加值�
 | 國外簡訊 | 5 Cyber 幣 / 則 |
 
 
-!!! info "每則簡訊最多 70 個中文字（或 160 個英文字元）。自動發送相關設定請參閱「[簡訊樣板設定](../notifications/設定與管理簡訊通知樣板.md){ data-preview }」。"
+!!! info "每則簡訊最多 70 個中文字（或 160 個英文字元）。自動發送相關設定請參閱「[簡訊樣板設定](../notifications/manage-sms-templates.md){ data-preview }」。"
 
 ![簡訊追蹤服務](../../assets/images/ec-管理中心-儲值中心-簡訊追蹤服務.png)
 
@@ -154,7 +154,7 @@ Cyber 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項加值�
 |------|------|
 | 50 封 | 1 Cyber 幣 |
 
-!!! info "EDM 發送相關設定請參閱「[如何發送 EDM 電子報](../notifications/設定與發送 EDM 電子報.md){ data-preview }」。"
+!!! info "EDM 發送相關設定請參閱「[如何發送 EDM 電子報](../notifications/send-edm-newsletters.md){ data-preview }」。"
 
 ![EDM發送服務](../../assets/images/ec-管理中心-儲值中心-edm發送服務.png)
 
@@ -306,11 +306,11 @@ Cyber 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項加值�
 <div class="grid cards" markdown>
 
 - :lucide-message-square-text:{ .lg }   
-  [__設定簡訊通知樣板__](../notifications/設定與管理簡訊通知樣板.md){ data-preview }       
+  [__設](../notifications/manage-sms-templates.md)訊通知樣板.md){ data-preview }       
   設定自動發送的簡訊內容與樣板，並了解簡訊計費方式。
 
 - :lucide-mail:{ .lg }   
-  [__EDM 發送設定__](../notifications/設定與發送 EDM 電子報.md){ data-preview }       
+  [__EDM](../notifications/send-edm-newsletters.md)d)報.md){ data-preview }       
   設定電子報發送內容，並查看 EDM 計費方式。
 
 </div>

@@ -2,7 +2,7 @@
 title: 使用黑貓宅配出貨
 description: 批次下載黑貓宅配託運單、扣除運費並將訂單貨態更新為已出貨。
 created: 2026-05-12 15:53
-last_modified: 2026-05-15 17:30
+last_modified: 2026-06-03 21:45
 lang: zh-TW
 type: tutorial
 status: ""
@@ -78,7 +78,7 @@ permalink: https://help.cyberbiz.io/ec/orders/tcat-home-delivery
 comments: false
 search:
   exclude: false
-icon: lucide/truck
+icon: lucide/cat
 hide: []
 ---
 批次下載黑貓宅配託運單、扣除運費並將訂單貨態更新為已出貨。

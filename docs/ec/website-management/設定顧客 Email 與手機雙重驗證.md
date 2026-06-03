@@ -47,8 +47,8 @@ prerequisites: []
 related:
   - "[[顧客註冊模式對照表]]"
   - "[[顧客欄位驗證模式對照表]]"
-  - "[[設定與管理 Email 通知樣板]]"
-  - "[[設定與管理簡訊通知樣板]]"
+  - "[[manage-email-templates]]"
+  - "[[manage-sms-templates]]"
   - "[[設定顧客註冊流程與欄位]]"
   - "[[管理會員檔案]]"
 tags:
@@ -244,7 +244,7 @@ LINE 登入因帳號本身已綁定手機，系統會自動跳過 OTP 簡訊驗�
 <div class="grid cards" markdown>
 
 - :lucide-mail:{ .lg }  
-  [__自訂啟用信內容__](../notifications/設定與管理 Email 通知樣板.md){ title="設定與管理 Email 通知樣板" } ·[__自訂簡訊內容__](../notifications/設定與管理簡訊通知樣板.md){ title="設定與管理簡訊通知樣板" }  
+  [__自訂啟用信內容__](../notifications/manage-email-templates.md){ title="設定與管理 Email 通知樣板" } ·[__自訂簡訊內容__](../notifications/manage-sms-templates.md){ title="設定與管理簡訊通知樣板" }  
   到「訊息推播 > Email / 簡訊通知樣板 > 顧客相關 > 顧客帳號啟用提醒」編輯。
 
 - :lucide-user-cog:{ .lg }  

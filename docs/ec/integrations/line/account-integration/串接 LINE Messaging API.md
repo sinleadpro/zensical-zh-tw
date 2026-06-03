@@ -192,14 +192,14 @@ hide: []
 
 - **前提條件：** 消費者須先完成 **LINE 帳號綁定**，系統方能識別 UID 並發送個人化通知。
 
-操作說明請參閱 [**LINE OA 訊息樣板設定**](../../notifications/設定與管理 LINE OA 通知樣板.md){ data-preview }  。
+操作說明請參閱 [**LINE OA 訊息樣板設定**](../../notifications/manage-line-oa-templates.md){ data-preview }  。
 
 ## 相關操作
 
 <div class="grid cards" markdown>
 
 - :lucide-layout-template:{ .lg }  
-  [**LINE OA 訊息樣板設定**](../../notifications/設定與管理 LINE OA 通知樣板.md){ data-preview }    
+  [**LINE OA 訊息](../../notifications/manage-line-oa-templates.md)樣板.md){ data-preview }    
   設定訂單、物流與顧客類自動通知樣板。
 
 - :lucide-link-2:{ .lg }  

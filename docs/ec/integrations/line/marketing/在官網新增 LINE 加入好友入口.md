@@ -43,8 +43,8 @@ features:
 prerequisites:
   - 取得 LINE 官方帳號加入好友連結與素材
 related:
-  - docs/ec/website-appearance/拖拉版型網站設定.md
-  - docs/ec/website-appearance/設定選單與導覽列.md
+  - ec/website-appearance/theme-and-layout/使用拖拉版型設計網站版面與首頁區塊.md
+  - ec/website-appearance/navigation/設定選單與導覽列.md
 tags:
   - LINE
   - 加入好友
@@ -117,7 +117,7 @@ hide:
 		![](../../../../assets/images/ec-網站外觀-彈窗廣告-圖片-line-oa-qrcode.gif)
 
     3. **縮圖設定**：商家可自行製作縮圖，並根據前台畫面調整縮圖大小。
-    4. **圖片連結**：選擇外部連結，貼上從 LINE Official Account Manager [複製的「好友網址」](../../notifications/發送 LINE 加入好友邀請.md#get-line-oa-add-friend-link){ data-preview }。
+    4. **圖片連結**：選擇外部連結，貼上從 LINE Official Account Manager [複製的「好友網址」](../../notifications/send-line-friend-invitation.md#get-line-oa-add-friend-link){ data-preview }。
 
 		![](../../../../assets/images/ec-網站外觀-彈窗廣告-圖片連結.png)
 
@@ -175,7 +175,7 @@ hide:
 
     2. 在 CYBERBIZ 選單設定介面中點選欲設定的選單，進入編輯頁面，再點擊 **「新增連結」**。
     3. **新增選單項目**：貼上剛才複製的按鈕語法。
-    4. **連結項目**：選擇 **「外部連結」**，並貼上 [LINE 好友邀請網址](../../notifications/發送 LINE 加入好友邀請.md#get-line-oa-add-friend-link){ data-preview }。
+    4. **連結項目**：選擇 **「外部連結」**，並貼上](../../notifications/send-line-friend-invitation.md#get-line-oa-add-friend-link)-friend-link){ data-preview }。
 
 		![](../../../../assets/images/ec-網站外觀-選單導覽列-line-加入好友.gif)
 

@@ -132,7 +132,7 @@ hide: []
 
 ### EDM 發送設定
 
-*   **必要前提**：必須先完成 [EDM 基礎設定](../../marketing/設定與發送 EDM 電子報.md){ data-preview }。
+*   **必要前提**：必須先完成 [EDM 基礎設定](../../marketing/send-edm-newsletters.md){ data-preview }。
 *   **操作步驟**：流程可參照[簡訊發送設定](#簡訊發送設定)。
     1.  選擇 EDM 預設模板（如：發送 EDM 給 VIP 或自訂分群）。
     2.  設定排程與會員篩選。
