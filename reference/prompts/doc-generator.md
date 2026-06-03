@@ -558,9 +558,9 @@ module: orders
 ```yaml
 文件 A:
   category: 
-  module: products
-  頁面: https://demo005.cyberbiz.co/admin/custom_collections
-  主題: 設定商品自訂分類群組
+  module: website-appearance
+  頁面: https://demo005.cyberbiz.co/admin/collections
+  主題: what appropriate
   檔案路徑: 
 
 文件 B:

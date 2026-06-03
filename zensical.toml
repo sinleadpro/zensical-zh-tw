@@ -166,7 +166,7 @@ copyright = """
                 {"商品影片" = "ec/products/creation/設定商品影片.md" }
             ]},  
             { "分類與標籤" = [
-                { "自訂分類群組" = "ec/products/categorization/設定商品自訂分類群組.md" },
+                { "自訂分類群組" = "ec/products/categorization/custom-collections.md" },
                 { "秘密商品群組" = "ec/products/categorization/設定秘密商品群組.md" },
                 { "條件/自動分類群組" = "ec/products/categorization/設定商品條件分類群組.md" },
                 { "多層級分類" = "ec/products/categorization/設定商品多層級分類.md" },
@@ -320,7 +320,7 @@ copyright = """
             { "關閉圖片放大預覽" = "ec/website-appearance/關閉商品圖片放大預覽功能.md" },
             { "選單滑鼠移入自動展開" = "ec/website-appearance/設定導覽選單滑鼠移入自動展開.md" },
             { "轉貼連結縮圖" = "ec/website-appearance/設定轉貼連結縮圖 OG Image.md" },
-            { "全站商品列表群組排序" = "ec/website-appearance/設定前台商品群組排序.md" },
+            { "全站商品列表群組排序" = "ec/website-appearance/storefront-collection-sorting.md" },
             { "網頁鎖右鍵" = "ec/website-appearance/設定網頁鎖右鍵保護圖文版權.md"},
             { "前台語系與文字" = "ec/website-appearance/設定前台語系與文字自定義.md" },
             {"部落格管理" = "ec/website-appearance/部落格管理與文章發佈指南.md"},

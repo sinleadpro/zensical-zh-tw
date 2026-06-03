@@ -115,7 +115,7 @@ VIP 價格、**搜尋可見性排除**
 <div class="grid cards" markdown>
 
 - :lucide-group:{ .lg }   
-  [__商品群組__](設定商品自訂分類群組.md)  
+  [__商品群組__](custom-collections.md)  
   設定條件或自訂分類管理商品集合。
 
 - :lucide-tag:{ .lg }   
