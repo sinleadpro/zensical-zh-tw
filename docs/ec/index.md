@@ -48,42 +48,42 @@ hide:
 
     ---  
 
-    網站外觀、網站管理、客服中心、SEO 優化
+    網站外觀、網站管理、客服中心、SEO 優化  
     [:octicons-arrow-right-24: 前往設定](website-appearance/index.md)
 
 -   :lucide-package: __商品與訂單__  
 
     ---  
 
-    商品管理、訂單出貨、退貨退款、電子票券
+    商品管理、訂單出貨、退貨退款、電子票券  
     [:octicons-arrow-right-24: 完整指南](products/index.md)
 
 -   :lucide-credit-card: __金流與物流__  
 
     ---  
 
-    信用卡、LINE Pay、物流設定、快速到貨
+    信用卡、LINE Pay、物流設定、快速到貨  
     [:octicons-arrow-right-24: 完整指南](payments-and-logistics/index.md)
 
 -   :lucide-users: __會員與行銷__  
 
     ---  
 
-    會員管理、VIP 制度、行銷活動、訊息推播
+    會員管理、VIP 制度、行銷活動、訊息推播  
     [:octicons-arrow-right-24: 完整指南](members/index.md)
 
 -   :lucide-chart-column-increasing: __數據與分析__  
 
     ---  
 
-    報表分析、GA4 串接、廣告成效分析
+    報表分析、GA4 串接、廣告成效分析  
     [:octicons-arrow-right-24: 完整指南](analytics/index.md)
 
 -   :lucide-network: __整合與擴充__  
 
     ---  
 
-    第三方平台串接、Facebook、Google、LINE、App Market
+    第三方平台串接、Facebook、Google、LINE、App Market  
     [:octicons-arrow-right-24: 瀏覽應用](integrations/index.md)
 
 </div>

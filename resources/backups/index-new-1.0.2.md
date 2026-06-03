@@ -192,12 +192,37 @@ function openTab(evt, tabName) {
   evt.currentTarget.setAttribute('aria-selected', 'true');
 }
 </script>
-</div>
 
 </div>
 
+</div>
 
-## 品牌官網
+
+## :lucide-bot-message-square: AI 輔助檢索
+
+<div class="grid cards" markdown>
+
+-   :simple-notebooklm:{ .lg }
+    __NotebookLM__
+
+    ---
+
+    使用 NotebookLM 檢索 CYBERBIZ 文件，進行 AI 輔助問答與分析。
+
+    [:lucide-arrow-right: 開啟 NotebookLM](https://notebooklm.google.com/notebook/20277bb4-f8ae-4d7b-b2d9-3b8db845c761/preview){ target="_blank" }
+
+-   :lucide-file-text:{ .lg }
+    __LLM 可讀文件 (llms.txt)__
+
+    ---
+
+    針對大語言模型優化的 Markdown 格式，提升 RAG 檢索效率與上下文精準度。
+
+    [:lucide-arrow-right: 標準版](llms.txt)
+
+</div>
+
+## :lucide-shopping-bag: 品牌官網
 
 <div class="grid cards" markdown>
 
@@ -259,7 +284,7 @@ function openTab(evt, tabName) {
 
 ---
 
-## 智慧倉儲
+## :lucide-warehouse: 智慧倉儲
 
 <div class="grid cards" markdown>
 
@@ -303,7 +328,7 @@ function openTab(evt, tabName) {
 
 ---
 
-## 智能 POS
+## :material-point-of-sale: 智能 POS
 
 <div class="grid cards" markdown>
 
@@ -347,68 +372,96 @@ function openTab(evt, tabName) {
 
 ---
 
-## 擴充功能與整合
+## :lucide-grid-2x2-plus: CYBERBIZ 擴充功能
 
 <div class="grid cards" markdown>
 
 -   :lucide-layout-grid:{ .lg }
-    [__APP MARKET__](ec/app-market/)
+    __APP MARKET__
+
+    ---
+
+    擴充服務市集，探索更多功能與整合。
+
+    [:lucide-arrow-right: 前往市集](ec/app-market/)
 
 -   :lucide-cog:{ .lg }
-    [__自動化功能__](ec/app-market/automation/)
+    __自動化功能__
+
+    ---
+
+    自動化行銷、精準分眾，節省營運成本。
+
+    [:lucide-arrow-right: 了解自動化](ec/app-market/automation/)
 
 -   :lucide-ticket:{ .lg }
-    [__電子票券__](ec/e-ticket/設定指南.md)
+    __電子票券__
+
+    ---
+
+    線上購票、線下體驗，建立票券商品與設定。
+
+    [:lucide-arrow-right: 設定票券](ec/e-ticket/設定指南.md)
 
 -   :lucide-zap:{ .lg }
-    [__快速到貨__](#)
+    __快速到貨__
+
+    ---
+
+    整合機車外送系統，提供即時配送服務。
+
+    [:lucide-arrow-right: 了解詳情](#)
 
 -   :lucide-credit-card:{ .lg }
-    [__金流支付__](ec/payments-and-logistics/)
+    __金流支付__
+
+    ---
+
+    金物流一體的安全、多元支付方案。
+
+    [:lucide-arrow-right: 檢視方案](ec/payments-and-logistics/)
 
 -   :lucide-message-circle:{ .lg }
-    [__訊息通__](ec/app-market/cyberbiz-extensions/chat-box/)
+    __訊息通__
+
+    ---
+
+    全通路訊息一站整合，統一管理客服對話。
+
+    [:lucide-arrow-right: 了解訊息通](ec/app-market/cyberbiz-extensions/chat-box/)
 
 -   :lucide-link-2:{ .lg }
-    [__全通路管理助手__](ec/app-market/cyberbiz-channel-bridge/)
+    __全通路管理助手__
+
+    ---
+
+    跨平台商品庫存整合，同步多通路銷售。
+
+    [:lucide-arrow-right: 了解助手](ec/app-market/cyberbiz-channel-bridge/)
 
 -   :lucide-shopping-cart:{ .lg }
-    [__門市助理__](storepal/)
+    __門市助理__
+
+    ---
+
+    OMO 整合，串聯線上線下門市營運。
+
+    [:lucide-arrow-right: 前往門市助理](storepal/)
 
 -   :lucide-arrow-right-from-line:{ .lg }
-    [__代定__](#)
+    __代定__
+
+    ---
+
+    打通跨境商務的最後一哩，支援國際物流。
+
+    [:lucide-arrow-right: 了解詳情](#)
 
 </div>
 
 ---
 
-## AI 輔助檢索
-
-<div class="grid cards" markdown>
-
--   :simple-notebooklm:{ .lg }
-    __NotebookLM__
-
-    ---
-
-    使用 NotebookLM 檢索 CYBERBIZ 文件，進行 AI 輔助問答與分析。
-
-    [:lucide-arrow-right: 開啟 NotebookLM](https://notebooklm.google.com/notebook/20277bb4-f8ae-4d7b-b2d9-3b8db845c761/preview){ target="_blank" }
-
--   :lucide-file-text:{ .lg }
-    __LLM 可讀文件 (llms.txt)__
-
-    ---
-
-    針對大語言模型優化的 Markdown 格式，提升 RAG 檢索效率與上下文精準度。
-
-    [:lucide-arrow-right: 標準版](llms.txt)
-
-</div>
-
----
-
-## 資源中心
+## :lucide-newspaper: 最新消息
 
 <div class="grid cards" markdown>
 
