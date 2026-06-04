@@ -107,7 +107,7 @@ copyright = """
                 { "運費計算與對帳規範"= "ec/orders/快速到貨運費計算與對帳規範.md"},
                 { "消費者購買流程"= "ec/orders/消費者購買流程.md"},
             ]},
-
+            { "定期定額訂單" = "ec/orders/定期定額訂單管理.md" },
             {"退貨與退款" = [
                 {"會員退貨申請功能" = "ec/orders/會員退貨申請功能.md"},
                 {"訂單退貨流程" = "ec/orders/訂單退貨流程.md"},
@@ -118,13 +118,13 @@ copyright = """
                 {"超商退貨便 C2B" = "ec/orders/cvs-c2b-return.md"},
                 {"7-11 C2C 退貨便" = "ec/orders/7-11-c2c-return.md"},
             ]},
-            {"跨境電商" = [
-                {"跨境電商退貨流程" = "ec/orders/跨境電商退貨流程.md"},
-                {"跨境電商退款流程" = "ec/orders/跨境電商退款流程.md"}
-            ]},
             {"訂單報表" = [
                 {"匯出訂單報表" = "ec/orders/export-order-report.md"},
                 {"匯出定期預估報表" = "ec/orders/export-subscription-forecast.md"}
+            ]},
+            {"跨境電商" = [
+                {"跨境電商退貨流程" = "ec/orders/跨境電商退貨流程.md"},
+                {"跨境電商退款流程" = "ec/orders/跨境電商退款流程.md"}
             ]},
             {"參考資料" = [
                 {"訂單篩選條件與狀態" = "ec/orders/references/order-filter-status-reference.md"},
@@ -345,7 +345,12 @@ copyright = """
             {"CYBERBIZ 擴充服務" = [
                 {"overview" = "ec/app-market/cyberbiz-extensions/index.md"},
                 {"Chat Box" = [
-                    {"overview" = "ec/app-market/cyberbiz-extensions/chat-box/index.md"},
+                    { "Chat Box 訊息通" = "ec/app-market/chatbox/Chat Box 訊息通.md" },
+                    { "串接 LINE 官方帳號" = "ec/app-market/chatbox/Chat Box 串接 LINE 官方帳號.md" },
+                    { "串接 Facebook 粉絲專頁" = "ec/app-market/chatbox/Chat Box 串接 Facebook 粉絲專頁.md" },
+                    { "LINE 訊息格式規範" = "ec/app-market/chatbox/LINE 訊息格式規範.md" },
+                    { "Meta 訊息格式規範" = "ec/app-market/chatbox/Meta 訊息格式規範.md" },
+                    { "Chat Box AI 建議回覆" = "ec/app-market/chatbox/Chat Box AI 建議回覆.md" },
                 ]},
                 {"全通路管理助手" = [
                     { "Step 1 安裝啟用" = "ec/app-market/cyberbiz-channel-bridge/蝦皮商品/Step1.安裝啟用.md" },
@@ -467,10 +472,13 @@ copyright = """
             {"儲值中心" = "ec/website-management/CYBER 幣儲值中心使用指南.md"},
             { "特定網域信箱套用會員標籤" = "ec/website-management/特定網域信箱套用會員標籤.md" },
             {"管理員與權限" = "ec/website-management/新增網站管理員並設定權限.md"},
+            { "欠款自動扣繳" = "ec/website-management/欠款自動扣繳.md" },
+            { "自動確認對帳帳款" = "ec/website-management/自動確認對帳帳款.md" },
+            { "未收到後台登入驗證信" = "ec/website-management/收不到後台登入 Email 驗證信.md" },
+            { "未收到通知信件" = "ec/website-management/排除未收到商家通知信件.md" },
+            { "系統到期處理流程" = "ec/website-management/系統到期處理流程.md" },
             {"參考資料" = [
                 {"權限與選單對應表" = "ec/website-management/references/管理者權限與後台選單對應表.md"},
-                { "解決 HTTPS 根網址無法順利讀取問題" = "ec/website-management/解決 HTTPS 根網址無法順利讀取問題.md" },
-                { "解決 Cloudflare SSL 衝突問題" = "ec/website-management/解決 Cloudflare SSL 衝突問題.md" },
                 {"顧客驗證模式" = "ec/website-management/references/顧客欄位驗證模式對照表.md"},
                 {"顧客註冊模式" = "ec/website-management/references/顧客註冊模式對照表.md"},
                 { "無法讀取 HTTPS 根網址" = "ec/website-management/無法讀取 HTTPS 根網址.md" },
@@ -524,25 +532,6 @@ copyright = """
 
     ]},
     { "智能 POS" = [
-        { "智能 POS" = "pos/index.md" },
-        { "開始使用" = "pos/get-started.md" },
-        { "店長改價操作" = "pos/frontend/使用「店長改價」在 POS 前台調整單品價格.md"},
-        { "訂單" = [
-            { "overview" = "pos/orders/index.md" },
-            { "訂單自動結案" = "pos/orders/設定 POS 訂單自動結案.md" },
-            { "修改店長改價顯示名稱" = "pos/orders/修改訂單明細頁「店長改價」的顯示名稱.md" },
-            {"POS 報表列表"="pos/orders/POS 報表列表與功能說明.md"}
-        ]},
-        { "商品" = [
-            { "商品標籤列印" = "pos/products/商品標籤列印教學.md" }
-        ]},
-        { "第三方整合" = [
-            { "LINE" = [
-                { "overview" = "pos/integrations/line/index.md" },
-                { "LINE 會員條碼設定" = "pos/integrations/line/設定與使用 LINE 顯示會員條碼（串接 POS 結帳）.md" }
-            ]},
-        ]},
-        {"divider" = "divider"},
         { "開始使用" = [
             { "overview" = "pos/get-started/index.md" },
         ]},
@@ -551,7 +540,8 @@ copyright = """
             { "有線刷卡機" = "pos/hardware/有線刷卡機.md" },
             { "商米無線刷卡機" = "pos/hardware/商米無線刷卡機.md" },
             { "Posiflex 有線發票機" = "pos/hardware/Posiflex 有線發票機.md" },
-            { "EPSON 有線發票機" = "pos/hardware/EPSON 有線發票機.md" },
+            { "EPSON TM-T82III 發票機" = "pos/hardware/EPSON 有線發票機.md" },
+            { "EPSON TM-M30III 發票機" = "pos/hardware/EPSON TM-M30III 發票機安裝教學.md" },
             { "標籤印表機" = "pos/hardware/標籤印表機.md" },
             { "客顯螢幕" = "pos/hardware/客顯螢幕.md" },
             { "平板裝置使用說明" = "pos/hardware/平板裝置使用說明.md" },
@@ -563,22 +553,6 @@ copyright = """
         { "第三方服務" =[
             { "盟立電子發票" = "pos/third-party/盟立電子發票.md" },
             { "LINE PAY 掃碼支付" = "pos/check/LINE PAY 掃碼支付.md" },
-        ]},
-        {"divider" = "divider"},
-        { "商店管理" = [
-            { "公告系統" = "pos/store/公告系統.md" },
-            { "安全性設定" = "pos/store/安全性設定.md" },
-            { "續購與加購方案" = "pos/store/續購與加購方案.md" },
-            { "POS 門市取貨店員分潤" = "pos/store/POS 門市取貨店員分潤.md" },
-        ]},
-        { "人員管理" = [
-            { "設定前台自動登出時間" = "pos/store/設定前台自動登出時間.md" },
-            { "員工權限與帳號管理" = "pos/store/員工權限與帳號管理.md" },
-            { "人員登入" = "pos/store/人員登入.md" },
-        ]},
-        { "報表分析" = [
-            { "營收分析" = "" },
-            { "商品分析" = "" },
         ]},
         {"divider" = "divider"},
         { "結帳" =[
@@ -593,14 +567,13 @@ copyright = """
             { "庫存不足通知" = "pos/check/庫存不足通知.md" },
             { "紅利商城" = "pos/check/紅利商城.md" },
             { "客顯互動遊戲" = "pos/check/客顯互動遊戲.md" },
+            { "核銷電子票券" = "pos/check/POS 前台核銷電子票券.md" },
             { "訪客結帳" = "pos/check/訪客結帳.md" },
             { "離線結帳模式" = "pos/check/離線結帳模式.md" },
             { "掃描槍掃描後找不到商品" = "pos/check/掃描槍掃描後找不到商品.md" },
             { "混稅發票" = "pos/check/混稅發票.md" },
         ]},
-        { "商品選單" =[
-            { "overview" = "" },
-        ]},
+        { "商品選單" = "pos/check/POS 前台選單設定.md" },
         { "訂單" =[
             { "一般訂單管理" = "pos/orders_ann/管理一般訂單.md" },
             { "門市取貨訂單(入庫/取貨)" = "pos/orders_ann/門市取貨訂單(入庫取貨).md" },
@@ -628,6 +601,22 @@ copyright = """
         ]},
         { "參考資源" = [
             { "人員權限欄位參考表" = "pos/reference/人員權限欄位參考表.md" },
+        ]},
+        {"divider" = "divider"},
+        { "商店管理" = [
+            { "公告系統" = "pos/store/公告系統.md" },
+            { "安全性設定" = "pos/store/安全性設定.md" },
+            { "續購與加購方案" = "pos/store/續購與加購方案.md" },
+            { "POS 門市取貨店員分潤" = "pos/store/POS 門市取貨店員分潤.md" },
+        ]},
+        { "人員管理" = [
+            { "設定前台自動登出時間" = "pos/store/設定前台自動登出時間.md" },
+            { "員工權限與帳號管理" = "pos/store/員工權限與帳號管理.md" },
+            { "人員登入" = "pos/store/人員登入.md" },
+        ]},
+        { "報表分析" = [
+            { "營收分析" = "" },
+            { "商品分析" = "" },
         ]},
     ]},
     { "資源中心" = [
