@@ -157,11 +157,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-truck:{ .lg }  
-  [__使用新竹物流出貨__](../hct-shipping.md){ data-preview }  
+  [__使用新竹物流出貨__](../hct-shipping.md)  
   了解如何透過新竹物流完成出貨作業，包含託運單列印、收貨與配送流程。
 
 - :lucide-settings:{ .lg }  
-  [__設定新竹物流託運單__](../../payments-and-logistics/設定新竹物流託運單.md){ data-preview }  
+  [__設定新竹物流託運單__](../../payments-and-logistics/設定新竹物流託運單.md)  
   在後台設定寄件人資訊、加印託運單、建立逆物流與查詢單號使用紀錄。
 
 </div>

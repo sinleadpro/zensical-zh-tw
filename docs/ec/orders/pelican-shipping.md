@@ -241,7 +241,7 @@ hide: []
   「宅配通託運單」頁面下方的單號使用紀錄會列出每張託運單的訂單編號、單號、扣除金額與單號狀態，可用於對帳。
 
 - :lucide-printer:{ .lg }  
-  [__加印或處理退貨__][operate-pelican-shipping-note-add-print]{ data-preview }  
+  [__加印或處理退貨__][operate-pelican-shipping-note-add-print]  
   同一筆訂單需要拆箱多寄，或處理顧客退貨時，請至宅配通託運單管理頁進行加印託運單或建立逆物流。
 
 </div>

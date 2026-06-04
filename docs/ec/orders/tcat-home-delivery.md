@@ -238,20 +238,20 @@ hide: []
 <div class="grid cards" markdown>
   
 - :lucide-package-check:{ .lg }  
-  [__部分出貨__](partial-shipment-settings.md){ data-preview }  
+  [__部分出貨__](partial-shipment-settings.md)  
   若一筆訂單中只想先寄出部分商品，可改從訂單詳情頁勾選指定品項。
 
 - :lucide-printer:{ .lg }  
-  [__補印託運單__](../payments-and-logistics/補印與加印託運單.md){ data-preview }  
+  [__補印託運單__](../payments-and-logistics/補印與加印託運單.md)  
   若已下載過的託運單檔案遺失(例如貼紙印壞、檔案不見)，可在訂單列表批次補印。
 
 - :lucide-copy-plus:{ .lg }  
-  [__加印託運單__][ezcat-shipping-note-create]{ data-preview }  
+  [__加印託運單__][ezcat-shipping-note-create]  
   若一筆宅配訂單因商品多需拆分為多箱寄出，每箱需各自一張託運單。
 
 - :lucide-receipt:{ .lg }  
-  [__查看對帳明細__][ezcat-shipping-note-records]{ data-preview }  
-  若訂單有運費調整（如補收差額或繁盛期加收），系統會將詳細資訊記錄於「[對帳備註][ezcat-shipping-note-usage-records]{ data-preview }」中。
+  [__查看對帳明細__][ezcat-shipping-note-records]  
+  若訂單有運費調整（如補收差額或繁盛期加收），系統會將詳細資訊記錄於「[對帳備註][ezcat-shipping-note-usage-records]」中。
 
 </div>
 

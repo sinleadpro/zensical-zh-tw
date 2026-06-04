@@ -201,7 +201,7 @@ LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，�
 <div class="grid cards" markdown>
 
 - :lucide-split:{ .lg }   
-  [__受眾串接__](設定 LINE OA 受眾串接.md){ data-preview }  
+  [__受眾串接__](設定 LINE OA 受眾串接.md)  
   篩選官網會員同步至 LINE 建立受眾，以進行精準推播或廣告投放。
 
 </div>

@@ -228,11 +228,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-receipt:{ .lg }  
-  [__設定與列印訂單明細__](order-detail-print.md){ data-preview }  
+  [__設定與列印訂單明細__](order-detail-print.md)  
   了解如何設定隨包裹寄給顧客的訂單明細，包含完整的商品內容、單價、金額與配送方式。
 
 - :lucide-truck:{ .lg }  
-  [__訂單出貨流程__](訂單出貨流程.md){ data-preview }  
+  [__訂單出貨流程__](訂單出貨流程.md)  
   了解完整出貨流程。從單筆出貨到批次打包，涵蓋宅配、超取與自訂物流。
 
 </div>

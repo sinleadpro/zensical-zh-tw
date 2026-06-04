@@ -116,11 +116,11 @@ Google 提供「安全瀏覽網站狀態檢查工具」，可協助商家主動�
 <div class="grid cards" markdown>
 
 - :lucide-monitor-smartphone:{ .lg }  
-  [__二階段驗證__](../../website-management/設定與管理二階段驗證.md){ data-preview }       
+  [__二階段驗證__](../../website-management/設定與管理二階段驗證.md)       
   開啟 2FA 驗證機制，防止帳號被盜用，降低網站被植入惡意內容的風險。
 
 - :lucide-brick-wall-shield:{ .lg }  
-  [__IP 白名單__](../../website-management/設定網站安全性.md#白名單){ data-preview }       
+  [__IP 白名單__](../../website-management/設定網站安全性.md#白名單)       
   限制後台登入的 IP 來源，確保只有授權的 IP 才能存取管理介面。
 
 </div>

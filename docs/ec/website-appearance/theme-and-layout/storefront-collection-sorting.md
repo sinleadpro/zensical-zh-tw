@@ -137,11 +137,11 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-layout-grid:{ .lg }  
-  [__管理商品群組__](../../products/index.md){ data-preview }  
+  [__管理商品群組__](../../products/index.md)  
   新增、編輯或隱藏自定群組、商品條件分類與任選折扣群組。
 
 - :lucide-arrow-down-up:{ .lg }  
-  [__設定群組內商品排序__](../../products/index.md){ data-preview }  
+  [__設定群組內商品排序__](../../products/index.md)  
   調整單一群組裡商品的顯示順序(手動排序、依價格、依暢銷等)。
 
 </div>

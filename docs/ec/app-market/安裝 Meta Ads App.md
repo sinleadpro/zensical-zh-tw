@@ -98,11 +98,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-megaphone:{ .lg }  
-  [__Meta 廣告活動__](../integrations/fb/meta-ads/設定 Meta 廣告活動.md){ data-preview }  
+  [__Meta 廣告活動__](../integrations/fb/meta-ads/設定 Meta 廣告活動.md)  
   透過 Meta Ads App 設定廣告活動，直接在 EC 後台管理廣告預算、目標與素材。
 
 - :lucide-shopping-basket:{ .lg }   
-  [__Meta 廣告商品目錄__](../integrations/fb/meta-ads/設定 Meta 廣告的目錄商品組合.md){ data-preview }       
+  [__Meta 廣告商品目錄__](../integrations/fb/meta-ads/設定 Meta 廣告的目錄商品組合.md)       
   設定廣告投放的商品組合，可透過標籤、廠商或類型篩選特定商品進行投放。
 
 </div>

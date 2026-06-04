@@ -141,19 +141,19 @@ Google Analytics (GA4) 是經營品牌網站必備的分析工具，能協助行
 <div class="grid cards" markdown>
 
 - :lucide-funnel-x:{ .lg }   
-  [__排除內部流量__](設定 GA4 排除內部流量與第三方參照來源.md){ data-preview }     
+  [__排除內部流量__](設定 GA4 排除內部流量與第三方參照來源.md)     
   在 GA4 管理介面的「資料串流」中定義公司 IP，避免開發或行銷人員的瀏覽行為干擾分析。
 
 - :lucide-list:{ .lg }     
-  [__列出不適用的參照連結__](設定 GA4 排除內部流量與第三方參照來源.md#列出不適用的參照連結網址-排除第三方網站){ data-preview }  
+  [__列出不適用的參照連結__](設定 GA4 排除內部流量與第三方參照來源.md#列出不適用的參照連結網址-排除第三方網站)  
   將金物流服務商加入排除名單，以免轉換來源被誤判為第三方金流頁面。
 
 - :lucide-clock:{ .lg }     
-  [__延長資料保留期限__](設定 Google Analytics 進階追蹤與資料分析.md#資料保留-Data-Retention){ data-preview }  
+  [__延長資料保留期限__](設定 Google Analytics 進階追蹤與資料分析.md#資料保留-Data-Retention)  
   GA4 預設資料僅保留 2 個月，建議至「資料收集與修改」>「資料保留」中手動改為 **14 個月**。
   
 - :lucide-radio:{ .lg }     
-  [__啟用 Google 信號__](設定 Google Analytics 進階追蹤與資料分析.md#Google-信號-Google-Signals){ data-preview }  
+  [__啟用 Google 信號__](設定 Google Analytics 進階追蹤與資料分析.md#Google-信號-Google-Signals)  
   開啟此功能可取得跨裝置的使用行為資料與更精確的使用者輪廓。
 
 </div>

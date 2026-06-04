@@ -306,11 +306,11 @@ Cyber 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項加值�
 <div class="grid cards" markdown>
 
 - :lucide-message-square-text:{ .lg }   
-  [__設](../notifications/manage-sms-templates.md)訊通知樣板.md){ data-preview }       
+  [__設](../notifications/manage-sms-templates.md)訊通知樣板.md)       
   設定自動發送的簡訊內容與樣板，並了解簡訊計費方式。
 
 - :lucide-mail:{ .lg }   
-  [__EDM](../notifications/send-edm-newsletters.md)d)報.md){ data-preview }       
+  [__EDM](../notifications/send-edm-newsletters.md)d)報.md)       
   設定電子報發送內容，並查看 EDM 計費方式。
 
 </div>

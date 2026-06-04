@@ -160,7 +160,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-store:{ .lg }   
-  [__Facebook 與 Instagram 商店設定__](設定 FBE Facebook 跟 Instagram 商店.md){ data-preview }       
+  [__Facebook 與 Instagram 商店設定__](設定 FBE Facebook 跟 Instagram 商店.md)       
   完成網域驗證後，可進一步設定 Facebook 與 Instagram 商店，建立社群銷售管道並同步商品。
 
 </div>

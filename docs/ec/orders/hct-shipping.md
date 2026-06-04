@@ -260,15 +260,15 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-printer:{ .lg }  
-  [__設定新竹物流託運單__](../payments-and-logistics/設定新竹物流託運單.md){ data-preview }  
+  [__設定新竹物流託運單__](../payments-and-logistics/設定新竹物流託運單.md)  
   寄件人資訊、加印託運單、新竹逆物流流程設定。
 
 - :lucide-table:{ .lg }  
-  [__新竹物流配送尺寸與運費對照表__](references/hct-size-fee-reference.md){ data-preview }  
+  [__新竹物流配送尺寸與運費對照表__](references/hct-size-fee-reference.md)  
   尺寸 / 溫層 / 不受理品項與 Cyber 幣費率。
 
 - :lucide-package-open:{ .lg }  
-  [__訂單部分出貨__](partial-shipment-settings.md){ data-preview }  
+  [__訂單部分出貨__](partial-shipment-settings.md)  
   同一筆訂單分次出貨的操作方式。
 
 </div>

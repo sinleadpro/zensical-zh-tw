@@ -277,15 +277,15 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-receipt:{ .lg }   
-  [__訂單退款流程__](訂單退款流程.md){ data-preview }       
+  [__訂單退款流程__](訂單退款流程.md)       
   若訂單涉及付款，取消後可參考退款流程將款項退還顧客。
 
 - :lucide-package-minus:{ .lg }   
-  [__訂單退貨流程__](訂單退貨流程.md){ data-preview }       
+  [__訂單退貨流程__](訂單退貨流程.md)       
   若訂單已出貨無法取消，需改走退貨流程處理商品回收與退款。
 
 - :lucide-file-text:{ .lg }   
-  [__訂單操作紀錄__][order-history]{ data-preview }  
+  [__訂單操作紀錄__][order-history]  
   查看訂單狀態變更歷程與操作人員紀錄，便於對帳與客服查詢。
 
 </div>

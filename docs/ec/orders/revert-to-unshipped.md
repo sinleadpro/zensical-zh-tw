@@ -119,11 +119,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-package:{ .lg }  
-  [__訂單出貨流程__](訂單出貨流程.md){ data-preview }  
+  [__訂單出貨流程__](訂單出貨流程.md)  
   了解完整的訂單出貨流程，包含準備出貨、出貨中、已送達等各階段操作。
 
 - :lucide-ban:{ .lg }  
-  [__如何取消訂單__](cancel-order.md){ data-preview }  
+  [__如何取消訂單__](cancel-order.md)  
   掌握商家手動取消、會員前台取消與系統自動取消三種訂單取消方式。
 
 </div>

@@ -123,11 +123,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-message-square-plus:{ .lg }  
-  [__設定與發送簡訊__](send-sms-notifications.md){ data-preview }  
+  [__設定與發送簡訊__](send-sms-notifications.md)  
   了解簡訊發送的三種方法（顧客群組、手動、匯入 Excel）與費用計費標準。
 
 - :lucide-message-square-text:{ .lg }  
-  [__簡訊通知樣板管理__](manage-sms-templates.md){ data-preview }  
+  [__簡訊通知樣板管理__](manage-sms-templates.md)  
   自訂系統在特定情境下自動發送的簡訊內容。
 
 </div>

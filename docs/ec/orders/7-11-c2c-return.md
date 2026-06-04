@@ -196,19 +196,19 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-truck:{ .lg }  
-  [__部分出貨操作__](partial-shipment-settings.md){ data-preview }  
+  [__部分出貨操作__](partial-shipment-settings.md)  
   退貨完成後若需要重新出貨剩餘品項，可參考部分出貨流程。
 
 - :lucide-settings:{ .lg }  
-  [__公司物流地址設定__](../website-management/設定網站基本資訊.md#gp-logistics-address){ data-preview }  
+  [__公司物流地址設定__](../website-management/設定網站基本資訊.md#gp-logistics-address)  
   逾期未取的退貨包裹會改以宅配到付方式退回此地址，建議事先確認資料正確。
 
 - :lucide-check-circle:{ .lg }  
-  [__退貨審查與退款執行__](訂單退貨流程.md){ data-preview }  
+  [__退貨審查與退款執行__](訂單退貨流程.md)  
   包裹簽收後系統自動改為「退貨審查」，商家需逐項確認商品狀況，再依原付款方式啟動退刷或人工退款流程。
 
 - :lucide-credit-card:{ .lg }  
-  [__其他金流退款__](訂單退款流程.md){ data-preview }  
+  [__其他金流退款__](訂單退款流程.md)  
   非 CYBERBIZ PAYMENTS 串接訂單，商家需至原金流商後台執行退刷，或請顧客提供帳戶資訊後自行匯款。
 
 </div>

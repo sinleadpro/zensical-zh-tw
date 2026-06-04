@@ -132,7 +132,7 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-zap:{ .lg }   
-  [__自動化發送(AUTOMATION)__](../app-market/automation/使用 AUTOMATION 建立自動化推播流程.md){ data-preview }  
+  [__自動化發送(AUTOMATION)__](../app-market/automation/使用 AUTOMATION 建立自動化推播流程.md)  
   設定自動發送 EDM 給「VIP 客戶」、「潛在忠誠顧客」或「沉睡客戶」。
 
 </div>

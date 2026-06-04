@@ -151,15 +151,15 @@ comments: false
 <div class="grid cards" markdown>
 
 - :lucide-clock:{ .lg }  
-  [__設定訂單自動取消規則__][系統自動取消付款超時]{ data-preview }  
+  [__設定訂單自動取消規則__][系統自動取消付款超時]  
   於「金物流 > 結帳頁 & 物流設定」中設定未付款訂單的自動取消天數，避免條碼逾期產生問題。
 
 - :lucide-bell:{ .lg }  
-  [__設定未付款提醒__](unpaid-reminder-settings.md){ data-preview }  
+  [__設定未付款提醒__](unpaid-reminder-settings.md)  
   開啟未付款訂單的 Email 自動提醒功能，提高顧客完成付款的比率。
 
 - :lucide-link:{ .lg }  
-  [__提供顧客付款連結__](provide-payment-link.md){ data-preview }  
+  [__提供顧客付款連結__](provide-payment-link.md)  
   透過後台取得專屬付款連結，主動提供給顧客，方便其即時完成繳費。
 
 </div>

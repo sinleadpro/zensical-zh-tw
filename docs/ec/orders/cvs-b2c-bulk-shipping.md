@@ -190,7 +190,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-settings:{ .lg }  
-  [__設定超商大宗寄倉 B2C__](../payments-and-logistics/設定超商大宗寄倉 B2C.md){ data-preview }  
+  [__設定超商大宗寄倉 B2C__](../payments-and-logistics/設定超商大宗寄倉 B2C.md)  
   尚未開通通路？先完成申請與啟用。
 
 - :lucide-coins:{ .lg }  

@@ -179,7 +179,7 @@ hide:
   商家可參考相關 SEO 優化文件，設定適當的標籤來加強網頁在搜尋引擎上的排名。
 
 - :lucide-share-2:{ .lg }     
-  [__轉貼連結圖__](設定轉貼連結縮圖 OG Image.md){ data-preview }    
+  [__轉貼連結圖__](設定轉貼連結縮圖 OG Image.md)    
   設定好標題之餘，也建議於「全站設定」中設定 **OG Image**，當網址分享至 Facebook 或 LINE 時會顯示您設定的縮圖。
 
 </div>

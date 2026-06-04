@@ -124,15 +124,15 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-shopping-cart:{ .lg }  
-  [__前往購物車結帳__](../../shopping-cart/購物車結帳流程.md){ data-preview }  
+  [__前往購物車結帳__](../../shopping-cart/購物車結帳流程.md)  
   商品加入購物車後，會員可前往購物車確認商品數量、優惠及運費，完成結帳流程。
 
 - :lucide-file-search:{ .lg }  
-  [__查詢訂單狀態__](order-management-interface.md){ data-preview }  
+  [__查詢訂單狀態__](order-management-interface.md)  
   結帳完成後，會員可於「訂單查詢」查看訂單狀態、出貨進度與付款資訊。
 
 - :lucide-tag:{ .lg }  
-  [__設定訂單加價購__](../marketing/設定訂單加價購.md){ data-preview }  
+  [__設定訂單加價購__](../marketing/設定訂單加價購.md)  
   吸引會員再次購買時，可在結帳頁面加購其他商品，提升客單價與回購率。
 
 </div>

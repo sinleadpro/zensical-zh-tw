@@ -245,11 +245,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-printer:{ .lg }   
-  [__加印託運單(一單多包)__][operate-sf-waybill-reprint]{ data-preview }  
+  [__加印託運單(一單多包)__][operate-sf-waybill-reprint]  
   若商品超過單一包裹材積限制(建議超過 170 cm 拆箱)或貨到付款訂單需要分箱寄送，可使用「加印託運單」。
 
 - :lucide-refresh-ccw:{ .lg }     
-  [__補印託運單(遺失重印)__](../payments-and-logistics/補印與加印託運單.md){ data-preview }  
+  [__補印託運單(遺失重印)__](../payments-and-logistics/補印與加印託運單.md)  
   託運單檔案遺失或印壞時，可使用 **「補印託運單」** 重新下載。補印 **不會** 再次扣費。
 
 </div>
