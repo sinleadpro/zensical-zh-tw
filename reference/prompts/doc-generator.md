@@ -558,9 +558,9 @@ module: orders
 ```yaml
 文件 A:
   category: 
-  module: product
-  頁面: https://demo005.cyberbiz.co/admin/products/new
-  主題: 新增商品 or 新增與更新商品 or anything more appropriate according to best industry practice
+  module: orders
+  頁面: https://demo005.cyberbiz.co/admin/orders_v2
+  主題: 訂單出貨流程
   檔案路徑: 
 
 文件 B:

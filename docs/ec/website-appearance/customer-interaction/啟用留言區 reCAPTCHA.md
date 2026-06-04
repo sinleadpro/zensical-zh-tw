@@ -129,7 +129,7 @@ reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動�
 ### 綁定 reCAPTCHA 金鑰至商品評論區
 [:lucide-tag:{ title="適用方案" }](conventions.md#適用方案) | PLUS / 企業
 
-!!! info "商品評論為 *企業版* 及 *PLUS版* 用戶限定功能，若有需求請洽客服人員開通，相關設定請參閱 [如何管理商品評論](../../products/sales/管理商品評論.md)。"
+!!! info "商品評論為 *企業版* 及 *PLUS版* 用戶限定功能，若有需求請洽客服人員開通，相關設定請參閱 [如何管理商品評論](../../products/engagement/管理商品評論.md)。"
 
 1. 登入 CYBERBIZ 電商後台，前往 **網站外觀 > 管理商品評論**。
 2. 點擊 **Google reCAPTCHA** 開關，以開啟功能（ON）。

@@ -297,7 +297,7 @@ hide:
 4. 印出測試標籤掛號寄至各超商物流中心
 5. 等待超商審核通過後，於後台設定運費並啟用服務
 
-完成後，商家即可在訂單列表透過「[使用超商大宗寄倉 B2C 出貨](../orders/cvs-b2c-bulk-shipping.md){ data-preview }」批次下載託運單。
+完成後，商家即可在訂單列表透過「[使用超商大宗寄倉 B2C 出貨](../orders/cvs-shipping/cvs-b2c-bulk-shipping.md){ data-preview }」批次下載託運單。
 
 ## 使用前提與限制 { #prerequisites-cvs-b2c-setup }
 

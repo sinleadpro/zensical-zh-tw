@@ -157,7 +157,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-truck:{ .lg }  
-  [__使用新竹物流出貨__](../hct-shipping.md)  
+  [__使用新竹物流出貨__](../home-delivery/hct-shipping.md)  
   了解如何透過新竹物流完成出貨作業，包含託運單列印、收貨與配送流程。
 
 - :lucide-settings:{ .lg }  

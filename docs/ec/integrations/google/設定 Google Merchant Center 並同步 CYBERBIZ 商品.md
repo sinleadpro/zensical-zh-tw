@@ -200,7 +200,7 @@ comments: false
 
     建議至商品設定頁的「Google 產品類別」手動選擇正確類別，能讓廣告投放更精準。
 
-    [:lucide-arrow-right: 設定教學](../../products/creation/編輯商品描述與商品設定.md#進階設定){ data-preview }
+    [:lucide-arrow-right: 設定教學](../../products/create-and-manage/編輯商品描述與商品設定.md#進階設定){ data-preview }
 
 -   :lucide-image:{ .lg .middle } __圖片規範__
 
@@ -208,7 +208,7 @@ comments: false
 
     請選擇 **無價格、無宣傳標語、無品牌浮水印** 的圖片，否則可能不符合 [Google 規範](https://support.google.com/merchants/answer/6324350#Image_guidelines)。
 
-    [:lucide-arrow-right: 設定教學](../../products/creation/新增與更新商品.md#商品圖片){ data-preview }
+    [:lucide-arrow-right: 設定教學](../../products/create-and-manage/新增與更新商品.md#商品圖片){ data-preview }
 
 </div>
 
@@ -253,7 +253,7 @@ comments: false
     目前 Google 商品類別需逐筆商品設定，無法批次套用。
 
 ??? quote "商品圖片需要符合哪些規範？"
-    請選擇 **無價格、無宣傳標語、無品牌浮水印** 的圖片，否則可能不符合 Google 規格。詳細規範請參考 [新增單一商品 - Google 圖片規範](../../products/creation/新增單一商品.md#Google-圖片規範)。
+    請選擇 **無價格、無宣傳標語、無品牌浮水印** 的圖片，否則可能不符合 Google 規格。詳細規範請參考 [新增單一商品 - Google 圖片規範](../../products/create-and-manage/新增單一商品.md#Google-圖片規範)。
 
 ??? quote "產品資料多久更新一次？"
     系統固定每日凌晨 1:30 自動更新，若有急需可點擊「手動更新目錄」（一小時限一次）。

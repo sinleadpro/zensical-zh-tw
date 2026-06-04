@@ -20,7 +20,7 @@ hide:
 ---
 
 
-[:lucide-package-plus:](新增與更新商品.md){ .md-button title="新增第一個商品" }
+[:lucide-package-plus:](create-and-manage/新增與更新商品.md){ .md-button title="新增第一個商品" }
 [:lucide-import:](#){ .md-button title="Excel 大量匯入"}
 
 
@@ -71,15 +71,15 @@ VIP 價格、**搜尋可見性排除**
 -   :lucide-circle-play: __基礎操作__
 
 	---
-	- [檢索商品](使用商品管理介面管理商品.md#後台搜尋商品)  
-	- [選取大量商品](使用商品管理介面管理商品.md#選取大量商品)   
-	- [快速設定商品公開狀態](使用商品管理介面管理商品.md#快捷按鈕)    
+- [檢索商品](create-and-manage/使用商品管理介面管理商品.md#後台搜尋商品)  
+- [選取大量商品](create-and-manage/使用商品管理介面管理商品.md#選取大量商品)   
+- [快速設定商品公開狀態](create-and-manage/使用商品管理介面管理商品.md#快捷按鈕)    
 
 -   :lucide-flame: __熱門主題__
 	
 	---
-    - [將商品從搜尋中排除](設定商品搜尋可見性.md)
-    - [匯出商品資料 Excel 表格](批次修改商品描述與配送設定.md#匯出商品-excel-表格)
+- [將商品從搜尋中排除](discoverability/設定商品搜尋可見性.md)
+- [匯出商品資料 Excel 表格](bulk-operations/批次修改商品描述與配送設定.md#匯出商品-excel-表格)
 
 </div>
 
@@ -91,19 +91,19 @@ VIP 價格、**搜尋可見性排除**
 <div class="grid cards" markdown>
 
 - :lucide-package-plus:{ .lg }  
-   [__新增商品__](新增與更新商品.md)  
-  建立新商品或更新既有商品資訊與設定。  
+   [__新增商品__](create-and-manage/新增與更新商品.md)  
+   建立新商品或更新既有商品資訊與設定。  
 
 - :lucide-pencil:{ .lg }  
-  [__編輯商品__](編輯商品描述與商品設定.md)  
+  [__編輯商品__](create-and-manage/編輯商品描述與商品設定.md)  
   設定商品標題、描述、規格與多媒體資源。  
 
 - :lucide-import:{ .lg }   
-  [__批次上架__](Excel 大量匯入商品)  
+  [__批次上架__](bulk-operations/Excel 大量匯入商品.md)  
    以 Excel 大量建立或修改商品資料。  
 
 - :lucide-refresh-cw-off:{ .lg }   
-  [__排除商品上傳至第三方平台__](管理商品標籤.md#排除上傳至第三方平台標籤)  
+  [__排除商品上傳至第三方平台__](categories-and-tags/管理商品標籤.md#排除上傳至第三方平台標籤)  
    設定商品是否同步至外部平台。 
 
 </div>
@@ -115,15 +115,15 @@ VIP 價格、**搜尋可見性排除**
 <div class="grid cards" markdown>
 
 - :lucide-group:{ .lg }   
-  [__商品群組__](custom-collections.md)  
+  [__商品群組__](categories-and-tags/custom-collections.md)  
   設定條件或自訂分類管理商品集合。
 
 - :lucide-tag:{ .lg }   
-  [__商品標籤__](管理商品標籤.md)  
+  [__商品標籤__](categories-and-tags/管理商品標籤.md)  
    建立與管理商品標籤，以利搜尋與分組。  
 
 - :lucide-navigation:{ .lg }   
-  [__導覽列與前台顯示__](設定商品多層級分類.md)  
+  [__導覽列與前台顯示__](categories-and-tags/設定商品多層級分類.md)  
    管理前台分類排序與篩選功能。  
 
 </div>
@@ -135,23 +135,23 @@ VIP 價格、**搜尋可見性排除**
 <div class="grid cards" markdown>
 
 - :lucide-clock:{ .lg }   
-  [__預購商品__](設定結帳拆分多購物車.md#設定預購商品)  
+  [__預購商品__](checkout/設定結帳拆分多購物車.md#設定預購商品)  
   建立預購通路並綁定商品，結帳時成立專屬購物車。
 
 - :lucide-circle-percent:{ .lg }  
-  [__優惠商品__](設定 VIP 會員專屬價格)  
+  [__優惠商品__](pricing/設定 VIP 會員專屬價格.md)  
    設定商品折扣、優惠與會員價格。  
 	  
 - :lucide-shopping-cart:{ .lg }  
-  [__多購物車結帳__](設定結帳拆分多購物車.md)  
+  [__多購物車結帳__](checkout/設定結帳拆分多購物車.md)  
    管理不同銷售通路與購物流程。
 
 - :lucide-bell:{ .lg }   
-  [__補貨通知__](設定商品到貨通知.md)  
+  [__補貨通知__](engagement/設定商品到貨通知.md)  
    缺貨商品已補貨的到貨提醒。  
 
 - :lucide-star:{ .lg }  
-  [__管理商品評論__](管理商品評論.md)  
+  [__管理商品評論__](engagement/管理商品評論.md)  
    管理顧客評論與互動功能。  
 
 - :lucide-tag:{ .lg }   
@@ -167,19 +167,19 @@ VIP 價格、**搜尋可見性排除**
 <div class="grid cards" markdown>
 
 - :lucide-route:{ .lg }     
-  [__商品通路設定__](設定商品配送條件（物流、溫層與出貨通路）.md#設定商品通路（出貨通路）)   
+  [__商品通路設定__](shipping/設定商品配送條件（物流、溫層與出貨通路）.md#設定商品通路（出貨通路）)   
   指定商品的出貨通路（如門市、倉庫或供應商）。
 
 - :lucide-thermometer:{ .lg }   
-  [__商品溫層設定__](設定商品配送條件（物流、溫層與出貨通路）.md#設定商品配送方式)  
-   設定商品的配送溫層（如常溫、冷藏、冷凍）。
+  [__商品溫層設定__](shipping/設定商品配送條件（物流、溫層與出貨通路）.md#設定商品配送方式)  
+  設定商品的配送溫層（如常溫、冷藏、冷凍）。
 
 - :lucide-truck:{ .lg }   
-  [__商品物流設定__](設定商品配送條件（物流、溫層與出貨通路）.md#設定商品配送方式)    
+  [__商品物流設定__](shipping/設定商品配送條件（物流、溫層與出貨通路）.md#設定商品配送方式)    
    指定商品可使用的物流方式。  
 
 - :lucide-ban:{ .lg }  
-  [__超商配送限制__](設定超商配送限制與物流排除.md)  
+  [__超商配送限制__](shipping/設定超商配送限制與物流排除.md)  
   設定材積與重量，自動排除不符合超商物流的商品。
 
 </div>
@@ -218,7 +218,7 @@ VIP 價格、**搜尋可見性排除**
 		 每個 SKU 欄位最多可輸入 255 個字元。
 	
 	??? quote "Excel 大量修改商品資訊的功能，無法刪除款式是正常的嗎？"
-		Excel 匯入商品沒有刪除的功能。 [Excel 大量匯入商品](Excel 大量匯入商品){ data-preview }
+		Excel 匯入商品沒有刪除的功能。 [Excel 大量匯入商品](bulk-operations/Excel 大量匯入商品.md){ data-preview }
 		
 	??? quote "Excel 匯入商品如何判斷是否成功？"
 	    匯入結果可依通知信判斷：
@@ -227,7 +227,7 @@ VIP 價格、**搜尋可見性排除**
 	    - *先收到「成功」，再收到「失敗」*：表示匯入已通過前期檢查，但在逐列匯入時出現錯誤。可能原因包括欄位格式錯誤、匯入值不合法或指定 ID 不存在，請參考失敗通知信說明。
 	    - *先收到「成功」，再收到「完成」*：表示匯入完成成功。但若 Excel 某列全空，該列及後續列將未被匯入，需商家自行修正。  
 	      
-	    [Excel 大量匯入商品](Excel 大量匯入商品#匯入-excel-檔案){ data-preview }
+	[Excel 大量匯入商品](bulk-operations/Excel 大量匯入商品.md#匯入-excel-檔案){ data-preview }
 
 === "配送與物流"
 
