@@ -2,7 +2,7 @@
 title: 設定首頁商品群組排序
 description: 調整前台首頁「商品列表」區塊中，各個商品群組的顯示先後順序。
 created:
-last_modified: 2026-06-03 19:30
+last_modified: 2026-06-04 09:48
 lang: zh-TW
 permalink:
 type: tutorial
@@ -122,9 +122,7 @@ hide:
     
     - **範例**：若群組數量設定為 `4`，即使目前有 `8` 個群組設為公開，首頁仍僅顯示前 `4` 個群組。
 
- ![](https://www.cyberbiz.co/support/wp-content/uploads/2019/03/群組排序3.png){ .screenshot }
-
-
+ ![導覽列選單-群組數量-舊版](../../../assets/images/EC-網站外觀-網站設定-導覽列選單-群組數量-舊版.png)
 
 ## 重要規範與限制 { #specs-collection-order }
 

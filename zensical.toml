@@ -193,11 +193,12 @@ copyright = """
                 { "超商配送限制與物流排除" = "ec/products/設定超商配送限制與物流排除.md" }
             ]},
             { "參考資源" = [
-                { "商品列表欄位參考表" = "ec/products/references/商品列表欄位參考表.md" },
-                { "商品搜尋欄位規範" = "ec/products/references/商品搜尋欄位規範.md" },
-                { "篩選欄位定義" = "ec/products/references/篩選欄位定義.md" },
-                { "商品列表操作選項" = "ec/products/references/商品列表操作功能說明.md" },
-                { "群組類型對照表" = "ec/products/references/collection-group-types.md" }
+                { "商品群組類型對照表" = "ec/products/references/collection-group-types.md" },
+                { "多國語系支援語言對照表" = "ec/products/references/multi-language-supported.md" },
+                { "商品多國語系可翻譯欄位對照表" = "ec/products/references/product-multilang-fields.md" },
+                { "條件分類篩選欄位對照表" = "ec/products/references/smart-collections-rule-columns.md" },
+                { "條件分類篩選條件對照表" = "ec/products/references/smart-collections-rule-relations.md" },
+                { "條件分類商品排序方式對照表" = "ec/products/references/smart-collections-sort-order.md" }
             ]},
         ]},
         { "電子票券" = [
@@ -309,7 +310,7 @@ copyright = """
             { "版型與版面" = [
                 { "拖拉版型設定" = "ec/website-appearance/theme-and-layout/使用拖拉版型設計網站版面與首頁區塊.md" },
                 { "首頁跑馬燈轉場時間" = "ec/website-appearance/theme-and-layout/調整首頁跑馬燈輪播圖的轉場停留時間.md" },
-                { "設定首頁商品群組排序" = "ec/website-appearance/theme-and-layout/設定首頁商品群組排序.md" },
+                { "全站商品列表群組排序" = "ec/website-appearance/theme-and-layout/storefront-collection-sorting.md" },
                 { "關閉圖片放大預覽" = "ec/website-appearance/theme-and-layout/關閉商品圖片放大預覽功能.md" }
             ]},
             { "導覽選單" = [

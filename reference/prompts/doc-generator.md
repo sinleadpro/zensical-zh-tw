@@ -559,8 +559,8 @@ module: orders
 文件 A:
   category: 
   module: product
-  頁面: https://demo005.cyberbiz.co/admin/smart_collections
-  主題: 設定商品條件分類群組
+  頁面: https://demo005.cyberbiz.co/admin/products/new
+  主題: 新增商品 or 新增與更新商品 or anything more appropriate according to best industry practice
   檔案路徑: 
 
 文件 B:

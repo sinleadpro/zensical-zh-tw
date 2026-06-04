@@ -2,7 +2,7 @@
 title: 商品群組類型對照表
 description: ""
 created: 2026-06-03 18:42
-last_modified: 2026-06-03 19:00
+last_modified: 2026-06-04 11:03
 lang: zh-TW
 type: reference
 status: ""
