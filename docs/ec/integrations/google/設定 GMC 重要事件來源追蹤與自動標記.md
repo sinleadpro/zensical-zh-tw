@@ -127,11 +127,11 @@ comments: false
 <div class="grid cards" markdown>
 
 - :lucide-youtube:{ .lg }   
-  [__YouTube Shopping__](YouTube%20Shopping%20%E8%A8%AD%E5%AE%9A%E6%8C%87%E5%8D%97.md){ data-preview }       
+  [__YouTube Shopping__](YouTube%20Shopping%20%E8%A8%AD%E5%AE%9A%E6%8C%87%E5%8D%97.md)       
   進行產品購買轉換追蹤，在 YouTube 影片、直播及短影音中植入官網商品資訊。
 
 - :lucide-trending-up:{ .lg }   
-  [__Google 購物廣告__](設定 Google Ads 轉換追蹤.md){ data-preview }    
+  [__Google 購物廣告__](設定 Google Ads 轉換追蹤.md)    
   準確回報廣告帶來的訂單成效，優化廣告投放效益。
 
 </div>

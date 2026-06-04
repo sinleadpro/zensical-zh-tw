@@ -115,7 +115,7 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-user-round-plus:{ .lg }   
-  [__行銷應用__](../../notifications/發送 LINE 加入好友邀請.md){ data-preview }       
+  [__行銷應用__](../../notifications/send-line-friend-invitation.md)       
   對於「未綁定」的會員，商家可以利用簡訊或 Email 發送「LINE OA 加入好友邀請」，並提供優惠券來提升綁定率。
 
 <!--

@@ -136,7 +136,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-calendar-check:{ .lg }  
-  [__自動結案設定__](auto-close-order-settings.md){ data-preview }  
+  [__自動結案設定__](auto-close-order-settings.md)  
   設定當訂單配送狀態變更為「已收貨」或「已出貨」達特定天數（如 N 天）後，由系統自動執行結案。
 
 </div>

@@ -110,7 +110,7 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-layout-grid:{ .lg }   
-  [__LINE OA 訊息提醒樣板__](../../notifications/設定與管理 LINE OA 通知樣板.md){ data-preview }       
+  [__LINE OA 訊息提醒樣板__](../../notifications/manage-line-oa-templates.md){ data-preview }       
   商家可開啟「訂單」、「物流」、「顧客」等樣板，在指定情境下自動回覆。
 
 - :lucide-message-square-share:{ .lg }     

@@ -245,7 +245,7 @@ hide: []
 
 
 - :lucide-chart-line:{ .lg }   
-  [__使用 Meta 廣告成效分析__](使用 Meta 廣告成效分析.md){ data-preview }       
+  [__使用 Meta 廣告成效分析__](使用 Meta 廣告成效分析.md)       
   掌握廣告投放成效，查看 ROAS、創造營收、廣告花費等關鍵指標，並可使用 AI Insights 獲取數據洞察與優化建議。
 
 </div>

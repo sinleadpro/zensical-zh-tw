@@ -2,7 +2,7 @@
 title: 設定商品自訂分類群組
 description: 依照行銷活動或主題手動挑選商品建立群組，作為店面分類頁、選單連結或廣告活動的著陸頁。
 created: 2026-01-08 00:00
-last_modified: 2026-06-03 15:36
+last_modified: 2026-06-04 09:19
 lang: zh-TW
 type: guide
 status:
@@ -42,6 +42,7 @@ features:
   - 商品自訂分類
   - 分類群組排序
   - 分類群組 SEO 設定
+  - 多國語系
 prerequisites: []
 related: []
 tags:
@@ -393,7 +394,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-sparkles:{ .lg }  
-  [**商品條件分類**](設定商品條件分類群組.md)  
+  [**商品條件分類**](smart-collections.md)  
   依條件自動納入商品的群組類型，與本文功能互補。
 
 <!-- - :lucide-image:{ .lg }

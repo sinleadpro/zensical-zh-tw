@@ -372,15 +372,15 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-truck:{ .lg }
-  [__使用超商大宗寄倉 B2C 出貨__](../orders/cvs-b2c-shipping.md){ data-preview }
+  [__使用超商大宗寄倉 B2C 出貨__](../orders/cvs-b2c-shipping.md)
   完成設定後，於訂單列表批次下載託運單並寄送至物流中心。
 
 - :lucide-coins:{ .lg }
-  [__儲值 CYBER 幣__](#){ data-preview }
+  [__儲值 CYBER 幣__](#)
   一般版商家於下載託運單前需先儲值 CYBER 幣，避免餘額不足而被阻擋。
 
 - :lucide-package:{ .lg }
-  [__設定商品重量與材積__](#){ data-preview }
+  [__設定商品重量與材積__](#)
   確保商品資料符合各通路上限，避免前台無法選擇此配送方式。
 
 </div>

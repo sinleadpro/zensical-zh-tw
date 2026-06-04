@@ -156,7 +156,7 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-user-plus:{ .lg }   
-  [__LINE 加入好友邀請__](../../notifications/發送 LINE 加入好友邀請.md){ data-preview }       
+  [__LINE 加入好友邀請__](../../notifications/send-line-friend-invitation.md){ data-preview }       
   透過簡訊或 Email 主動發送導流連結，引導顧客加入 LINE 官方帳號，將一般會員轉化為品牌好友。
 
 <!--

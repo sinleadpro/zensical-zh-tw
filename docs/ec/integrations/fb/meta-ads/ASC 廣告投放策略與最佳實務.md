@@ -152,7 +152,7 @@ hide:
 <div class="grid cards" markdown>
 
 -   :lucide-rocket:{ .lg }
-    **[建立廣告活動](設定 Meta 廣告活動.md){ data-preview }**
+    **[建立廣告活動](設定 Meta 廣告活動.md)**
 
     完成上述設定後，您即可進入後台的「廣告活動設定」，點擊「立即串接」安裝 Meta Ads App 並開始創建您的第一波 ASC 廣告。
 

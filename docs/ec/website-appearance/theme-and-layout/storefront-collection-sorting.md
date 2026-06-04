@@ -1,8 +1,8 @@
 ---
 title: 設定首頁商品群組排序
-description: 調整首頁「商品列表」中各類商品群組（包含自訂分類群組、條件分類群組與任選折扣群組）的顯示順序，並設定首頁可顯示的群組數量。
+description: 調整前台首頁「商品列表」區塊中，各個商品群組的顯示先後順序。
 created:
-last_modified: 2026-06-03 17:49
+last_modified: 2026-06-04 09:48
 lang: zh-TW
 permalink:
 type: tutorial
@@ -74,7 +74,7 @@ hide:
 調整前台首頁「商品列表」區塊中，各個商品群組的顯示先後順序。
 { .subtitle }
 
-![全站商品列表群組排序頁面](../../assets/images/ec-website-appearance-collection-sorting-storefront.zh-tw.png){ .hero-page }
+![全站商品列表群組排序頁面](../../../assets/images/ec-website-appearance-collection-sorting-storefront.zh-tw.png){ .hero-page }
 
 ## 首頁商品群組排序介紹
 
@@ -88,7 +88,7 @@ hide:
 ## 使用前提與限制 { #prerequisites-collection-order }
 
 - [x] **至少有一個公開群組**：排序清單只會列出設定為「公開」狀態的群組，隱藏中的群組不會出現在這裡。
-- [x] **群組類型**：可排序的群組包含「[自定群組](../products/categorization/custom-collections.md)」、「[商品條件分類](../products/categorization/設定商品條件分類群組.md)」與「[任選折扣群組](../marketing/任選折扣.md)」三種，詳見 [群組類型對照表][reference-collection-order-group-types]{ data-preview }。
+- [x] **群組類型**：可排序的群組包含「[自定群組](../../products/categorization/custom-collections.md)」、「[商品條件分類](../../products/categorization/設定商品條件分類群組.md)」與「[任選折扣群組](../../marketing/任選折扣.md)」三種，詳見 [群組類型對照表](../../products/references/collection-group-types.md#reference-collection-order-group-types){ data-preview }。
 
 ---
 
@@ -101,9 +101,28 @@ hide:
 5. **確認前台呈現：** 前往前台首頁的「商品列表」區塊，確認群組的顯示順序已與後台一致。
 
 !!! tip "技巧"
-    若想把某個群組從清單中移除(不顯示在前台)，不需要在這裡操作，[改到該群組的編輯頁將狀態設為「隱藏」](../products/categorization/custom-collections.md#operate-custom-collections-publish){ data-preview }即可，隱藏後它就會自動從這份排序清單消失。
+    若想把某個群組從清單中移除(不顯示在前台)，不需要在這裡操作，[改到該群組的編輯頁將狀態設為「隱藏」](../../products/categorization/custom-collections.md#operate-custom-collections-publish){ data-preview }即可，隱藏後它就會自動從這份排序清單消失。
 
 ---
+
+## 前台顯示說明
+
+前台首頁的「商品列表」將依照群組列表頁面設定的排序順序，依序顯示商品群組。
+
+![](../../../assets/images/ec-collection-sorting-storefront-zh-tw.png)
+
+---
+
+## 設定列表顯示群組數量
+
+您可設定首頁「商品列表」中，最多顯示幾個商品群組。
+
+1. 登入 CYBERBIZ 管理後台，前往  **網站外觀 > 套版主題管理 > 導覽列 Navbar > 導覽列選單**。
+2. 調整 **群組數量** 欄位。
+    
+    - **範例**：若群組數量設定為 `4`，即使目前有 `8` 個群組設為公開，首頁仍僅顯示前 `4` 個群組。
+
+ ![導覽列選單-群組數量-舊版](../../../assets/images/EC-網站外觀-網站設定-導覽列選單-群組數量-舊版.png)
 
 ## 重要規範與限制 { #specs-collection-order }
 
@@ -118,11 +137,11 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-layout-grid:{ .lg }  
-  [__管理商品群組__](../products/collections.md){ data-preview }  
+  [__管理商品群組__](../../products/index.md)  
   新增、編輯或隱藏自定群組、商品條件分類與任選折扣群組。
 
 - :lucide-arrow-down-up:{ .lg }  
-  [__設定群組內商品排序__](../products/collection-product-order.md){ data-preview }  
+  [__設定群組內商品排序__](../../products/index.md)  
   調整單一群組裡商品的顯示順序(手動排序、依價格、依暢銷等)。
 
 </div>
@@ -151,56 +170,5 @@ hide:
 ??? quote "排序會套用到哪裡?"
     [](){ #faq-collection-order-where-applied }
     套用在前台首頁的「商品列表」區塊。顧客進入首頁瀏覽該區塊時，群組就會依照您在這裡設定的順序由上而下顯示。
-
-
----
-
-調整首頁「商品列表」中各類商品群組（包含自訂分類群組、條件分類群組與任選折扣群組）的顯示順序，並設定首頁可顯示的群組數量。
-{ .subtitle }
-
-![](../../assets/images/ec-website-appearance-collection-sorting-storefront.zh-tw.png){ .hero-page }
-
-
-## 調整首頁商品列表的群組排序
-
-商家可透過拖曳方式，調整首頁「商品列表」中商品群組的顯示順序。
-
-#### 操作步驟
-
-1. 登入 CYBERBIZ 管理後台，前往  **網站外觀 > 全站商品列表群組排序**。
-2. 在群組列表中，點擊並拖曳 **移動圖示** :lucide-move:，上下調整群組顯示順序。
-> 僅顯示狀態為 **公開** 的群組，才會出現在此列表中。
-
-### 前台顯示說明
-
-前台首頁的「商品列表」將依照群組列表頁面設定的排序順序，依序顯示商品群組。
-
-![](../../assets/images/ec-collection-sorting-storefront-zh-tw.png)
-
-## 設定首頁商品列表顯示群組數量
-
-您可設定首頁「商品列表」中，最多顯示幾個商品群組。
-
-#### 操作步驟
-
-1. 登入 CYBERBIZ 管理後台，前往  **網站外觀 > 套版主題管理 > 導覽列 Navbar > 導覽列選單**。
-    
-2. 調整 **群組數量** 欄位。
-    
-    - **範例**：若群組數量設定為 `4`，即使目前有 `8` 個群組設為公開，首頁仍僅顯示前 `4` 個群組。
-
- ![](https://www.cyberbiz.co/support/wp-content/uploads/2019/03/群組排序3.png){ .screenshot }
-
-## 常見問題
-
-??? quote "為什麼我調整了群組排序，但前台沒有生效？"
-	請確認以下項目：
-	- 群組狀態是否已設定為 **公開**。
-	- 「導覽列選單」中的 **群組數量** 設定，是否足夠顯示您調整的群組。
-
-??? quote "自訂群組、智慧群組與任選折扣群組有什麼差別？"  
-	- **自訂分類群組**：由商家手動選擇商品加入的群組。  
-	- **條件分類群組（智慧群組）**：依設定條件自動篩選商品加入的群組。  
-	- **任選折扣群組**：用於設定任選折扣活動的商品群組。
 
 

@@ -44,8 +44,8 @@ features:
 prerequisites:
   - 一般用戶需先儲值 Cyber 幣（PLUS / 企業版用戶不須額外儲值）
 related:
-  - "[[設定與管理簡訊通知樣板]]"
-  - "[[查詢與追蹤簡訊發送紀錄]]"
+  - "[[manage-sms-templates]]"
+  - "[[track-sms-records]]"
 tags:
   - 簡訊
   - 訊息推播
@@ -89,7 +89,7 @@ hide: []
 | 發送地區 | 費用 (每封) | 單封字數上限 | 備註 |
 | :--- | :--- | :--- | :--- |
 | **國內簡訊** | 1 Cyber 幣 | 70 字 | **70 字以內** 計為一封；超過 70 字後，每 **67 字** 計為一封。 |
-| **海外簡訊** | 5 Cyber 幣 | 70 字 | 同上（需開啟海外發送功能）。需預先開啟 [海外發送功能](設定與管理簡訊通知樣板.md#進入路徑與介面概觀){ data-preview } |
+| **海外簡訊** | 5 Cyber 幣 | 70 字 | 同上（需開啟海外發送功能）。需預先開啟 [海外發送功能](manage-sms-templates.md#進入路徑與介面概觀){ data-preview } |
 
 !!! warning "NCC 規範：自動添加前綴標籤"
     因應 NCC 規範，系統發送時會於簡訊開頭自動加上 「商家名稱」 或 「【CYBERBIZ代發】」：
@@ -216,31 +216,28 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-message-square-text:{ .lg }  
-  [__簡訊通知樣板管理__](設定與管理簡訊通知樣板.md){ data-preview }  
+  [__簡](manage-sms-templates.md)訊通知樣板.md)  
   商家可自訂系統在特定情境下（如訂單成立、出貨、密碼變更）自動發送的簡訊內容，並開啟短網址功能節省字數。
 
 - :lucide-zap:{ .lg }  
-  [__自動化簡訊發送__](../app-market/automation/使用%20AUTOMATION%20建立自動化推播流程.md#簡訊發送設定){ data-preview }  
+  [__自動化簡訊發送__](../app-market/automation/使用%20AUTOMATION%20建立自動化推播流程.md#簡訊發送設定)  
   企業版與 PLUS版 商家可利用 CYBERBIZ AUTOMATION 建立自動化簡訊流程，設定一次性或週期性發送。
 
 - :lucide-history:{ .lg }  
-  [__查詢簡訊發送紀錄__](查詢與追蹤簡訊發送紀錄.md){ data-preview }  
+  [__查詢簡訊發送紀錄__](track-sms-records.md)  
   可查詢店鋪的簡訊發送歷史，包含發送時間、收件手機、訊息內容與費用。
 
 - :lucide-user-plus:{ .lg }  
-  [__LINE OA 加入好友邀請__](發送%20LINE%20加入好友邀請.md){ data-preview }  
+  [__LINE OA 加入好友邀請__](發送%20LINE%20加入好友邀請.md)  
   透過後台「LINE OA 加入好友邀請」功能，向尚未綁定 LINE OA 的會員發送帶有好友連結的簡訊。
 
-- :lucide-bell-ring:{ .lg }  
-  [__訂單未付款提醒__](設定與管理簡訊通知樣板.md#顧客訂單未付款通知){ data-preview }  
+- :lucide-bell-ring:{ .lg ](manage-sms-templates.md#顧客訂單未付款通知)通知樣板.md#顧客訂單未付款通知)  
   系統會依設定的間隔天數發送 3 次簡訊提醒顧客付款。
 
-- :lucide-receipt:{ .lg }  
-  [__發票開立通知__](設定與管理簡訊通知樣板.md#發票開立通知){ data-preview }  
+- :lucide-rece](manage-sms-templates.md#發票開立通知)知__](設定與管理簡訊通知樣板.md#發票開立通知)  
   若商店註冊採手機必填，可開啟樣板發送電子發票資訊簡訊給顧客。
 
-- :lucide-store:{ .lg }  
-  [__門市助理推薦__](設定與管理簡訊通知樣板.md#商品推薦通知){ data-preview }  
+- :](manage-sms-templates.md#商品推薦通知) [__門市助理推薦__](設定與管理簡訊通知樣板.md#商品推薦通知)  
   總部管理者可編輯「商品推薦通知」簡訊，由門市人員發送給顧客。
 
 </div>
