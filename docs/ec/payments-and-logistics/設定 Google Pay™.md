@@ -2,7 +2,7 @@
 title: 設定 Google Pay™
 description: 指引商家在官網啟用並管理 Google Pay™ 支付選項，包含費率說明、後台配置流程以及金流門檻設定限制。
 created: 2026-03-16 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-04 17:59
 lang: zh-TW
 type: tutorial
 status: ""
@@ -61,10 +61,9 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: ""
+icon: lucide/credit-card
 hide: []
 ---
-
 # 設定 Google Pay™
 指引商家在官網啟用並管理 Google Pay™ 支付選項，包含費率說明、後台配置流程以及金流門檻設定限制。
 { .subtitle }

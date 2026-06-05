@@ -2,7 +2,7 @@
 title: 串接 ezShip 超商取貨 (C2C)
 description: 透過 ezShip 便利配串接，商家可以一次開啟全家、萊爾富、OK 三大超商的取貨功能，提供消費者更多元的配送選擇。
 created: 2026-02-03 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-04 17:59
 lang: zh-TW
 type: tutorial
 status: ""
@@ -56,10 +56,9 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: ""
+icon: lucide/store
 hide: []
 ---
-
 # 串接 ezShip 超商取貨 (C2C)
 
 透過 ezShip 便利配串接，商家可以一次開啟全家、萊爾富、OK 三大超商的取貨功能，提供消費者更多元的配送選擇。

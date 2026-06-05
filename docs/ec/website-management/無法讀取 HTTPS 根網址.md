@@ -2,7 +2,7 @@
 title: 無法讀取 HTTPS 根網址
 description: 當網站從其他平台遷移至 CYBERBIZ 後，若出現 http://您的網址 可正常開啟，但 https://您的網址 無法讀取的情況，通常與網域商對「根網域（Naked Domain）」的轉址支援度有關。
 created: 2026-03-10 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-04 17:59
 lang: zh-TW
 type: reference
 status: ""
@@ -56,10 +56,9 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: ""
+icon: lucide/globe
 hide: []
 ---
-
 # 無法讀取 HTTPS 根網址
 
 當網站從其他平台遷移至 CYBERBIZ 後，若出現 http://您的網址 可正常開啟，但 https://您的網址 無法讀取的情況，通常與網域商對「根網域（Naked Domain）」的轉址支援度有關。
