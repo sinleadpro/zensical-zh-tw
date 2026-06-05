@@ -2,7 +2,7 @@
 title: 使用新竹物流出貨
 description: 透過訂單列表批次選取訂單，下載新竹物流託運單並將貨態更新為已出貨。
 created: 2026-05-22 17:21
-last_modified: 2026-06-04 11:26
+last_modified: 2026-06-05 16:09
 lang: zh-TW
 type: tutorial
 status: ""
@@ -45,7 +45,7 @@ prerequisites:
 related:
   - "[[設定新竹物流託運單]]"
   - "[[hct-size-fee-reference]]"
-  - "[[partial-shipment-settings]]"
+  - "[[partial-shipment]]"
   - "[[search-filter-orders]]"
 tags:
   - 新竹物流
@@ -268,7 +268,7 @@ hide: []
   尺寸 / 溫層 / 不受理品項與 Cyber 幣費率。
 
 - :lucide-package-open:{ .lg }  
-  [__訂單部分出貨__](partial-shipment-settings.md)  
+  [__訂單部分出貨__](partial-shipment.md)  
   同一筆訂單分次出貨的操作方式。
 
 </div>

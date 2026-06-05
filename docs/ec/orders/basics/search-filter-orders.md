@@ -2,7 +2,7 @@
 title: 如何搜尋與篩選訂單
 description: 使用關鍵字搜尋、條件篩選、檢視群組與訂單標籤等功能，快速找出目標訂單。
 created: 2026-05-07 11:23
-last_modified: 2026-05-28 21:12
+last_modified: 2026-06-04 15:23
 lang: zh-TW
 type: tutorial
 status: ""
@@ -319,7 +319,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-package:{ .lg }  
-  [__批次出貨__](訂單出貨流程.md)  
+  [__批次出貨__](order-fulfillment-flow.md)  
   勾選多筆訂單，透過上方「批次操作」選擇對應物流（黑貓、全家、7-11、宅配通等）進行出貨。
 
 - :lucide-printer:{ .lg }  

@@ -2,7 +2,7 @@
 title: 使用黑貓宅配出貨
 description: 批次下載黑貓宅配託運單、扣除運費並將訂單貨態更新為已出貨。
 created: 2026-05-12 15:53
-last_modified: 2026-06-03 21:45
+last_modified: 2026-06-05 16:09
 lang: zh-TW
 type: tutorial
 status: ""
@@ -48,7 +48,7 @@ prerequisites:
 related:
   - "[[tcat-auto-call-driver]]"
   - "[[tcat-express-payment-settings]]"
-  - "[[partial-shipment-settings]]"
+  - "[[partial-shipment]]"
   - "[[訂單出貨流程]]"
 tags:
   - 黑貓宅配
@@ -238,7 +238,7 @@ hide: []
 <div class="grid cards" markdown>
   
 - :lucide-package-check:{ .lg }  
-  [__部分出貨__](partial-shipment-settings.md)  
+  [__部分出貨__](partial-shipment.md)  
   若一筆訂單中只想先寄出部分商品，可改從訂單詳情頁勾選指定品項。
 
 - :lucide-printer:{ .lg }  

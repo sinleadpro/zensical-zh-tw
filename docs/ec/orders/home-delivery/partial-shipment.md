@@ -2,7 +2,7 @@
 title: 設定訂單部分出貨
 description: 設定訂單部分出貨，包含操作步驟與不同物流的特殊情境說明。
 created: 2026-05-12 15:11
-last_modified: 2026-05-13 17:06
+last_modified: 2026-06-05 12:20
 lang: zh-TW
 type: tutorial
 status: ""
@@ -191,7 +191,7 @@ hide: []
 
 ---
 
-### 快速到貨 CYBERBIZ NOW (門市出單)
+### 快速到貨 CYBERBIZ NOW <small>門市出單</small>
 
 - **進入路徑**：快速到貨訂單的操作入口位於 「門市訂單」，請勿於「所有訂單」列表中處理。
 - **缺貨處理**：若門市庫存不足，可勾選實際有現貨的品項先行出貨。詳細流程請參閱 [缺貨訂單部分配送或取消指引](../../payments-and-logistics/CYBERBIZNOW/缺貨訂單部分出貨或取消流程.md){ data-preview }。

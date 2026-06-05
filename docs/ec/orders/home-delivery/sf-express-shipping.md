@@ -2,7 +2,7 @@
 title: 使用順豐出貨
 description: 使用順豐託運單批次或單筆下載出貨，系統自動與順豐即時取號，將訂單貨態更新為已出貨，支援國內台灣本島及海外配送。
 created: 2026-05-20 20:25
-last_modified: 2026-06-04 11:26
+last_modified: 2026-06-05 16:10
 lang: zh-TW
 type: tutorial
 status: ""
@@ -48,7 +48,7 @@ prerequisites:
 related:
   - "[[順豐海外物流]]"
   - "[[補印與加印託運單]]"
-  - "[[partial-shipment-settings]]"
+  - "[[partial-shipment]]"
 tags:
   - 順豐
   - 出貨
@@ -198,7 +198,7 @@ hide: []
 * 順豐部分出貨 **僅支援一般訂單**，**不支援順豐貨到付款**(分箱寄送會讓代收款分散在多張託運單，結帳對帳會錯亂)。
 * 若需貨到付款分箱，請改用 [加印託運單][next-steps-sf-reprint]{ data-preview } 功能於同一張訂單產生多組單號。
 
-部分出貨的完整流程(各物流共用)請參考 [訂單部分出貨](partial-shipment-settings.md){ data-preview }。
+部分出貨的完整流程(各物流共用)請參考 [訂單部分出貨](partial-shipment.md){ data-preview }。
 
 ---
 

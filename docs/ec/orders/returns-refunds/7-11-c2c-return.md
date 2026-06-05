@@ -2,7 +2,7 @@
 title: 使用 7-11 C2C 退貨便
 description: 開通 7-11 C2C 退貨便、設定收貨人資料、發送退貨寄件代碼給消費者，以及完整的退貨審查與退款流程。
 created: 2026-05-26 12:25
-last_modified: 2026-06-04 11:26
+last_modified: 2026-06-05 16:10
 lang: zh-TW
 type: tutorial
 status: ""
@@ -39,7 +39,7 @@ features:
 prerequisites:
   - 需先向 CYBERBIZ 客服申請開通「7-ELEVEN C2C 退貨便」加值功能
 related:
-  - "[[partial-shipment-settings]]"
+  - "[[partial-shipment]]"
   - "[[設定網站基本資訊]]"
 tags:
   - 7-11 C2C 退貨便

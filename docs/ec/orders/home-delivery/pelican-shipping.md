@@ -2,7 +2,7 @@
 title: 使用宅配通出貨
 description: 使用宅配通出貨。包含批次下載託運單、單筆與部分出貨、補印託運單等操作，以及運費計價規則與常見問題。
 created: 2026-05-19 21:30
-last_modified: 2026-06-04 11:26
+last_modified: 2026-06-05 16:09
 lang: zh-TW
 type: tutorial
 status: ""
@@ -48,7 +48,7 @@ prerequisites:
   - "[[設定宅配通託運單]]"
 related:
   - "[[設定宅配通託運單]]"
-  - "[[partial-shipment-settings]]"
+  - "[[partial-shipment]]"
 tags:
   - 宅配通
   - 出貨
@@ -212,7 +212,7 @@ hide: []
 5. 視需求調整「發送郵件通知顧客」勾選狀態。
 6. 點擊 **「確認出貨」** ，系統會建立託運單並扣除運費。
 
-詳細的部分出貨流程、不同物流的差異與 FAQ，請參閱 [訂單部分出貨](partial-shipment-settings.md){ data-preview } 。
+詳細的部分出貨流程、不同物流的差異與 FAQ，請參閱 [訂單部分出貨](partial-shipment.md){ data-preview } 。
 
 ---
 
