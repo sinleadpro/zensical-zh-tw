@@ -345,7 +345,7 @@ copyright = """
             {"CYBERBIZ 擴充服務" = [
                 {"overview" = "ec/app-market/cyberbiz-extensions/index.md"},
                 {"Chat Box" = [
-                    { "Chat Box 訊息通" = "ec/app-market/chatbox/Chat Box 訊息通.md" },
+                    { "overview" = "ec/app-market/chatbox/index.md" },
                     { "串接 LINE 官方帳號" = "ec/app-market/chatbox/Chat Box 串接 LINE 官方帳號.md" },
                     { "串接 Facebook 粉絲專頁" = "ec/app-market/chatbox/Chat Box 串接 Facebook 粉絲專頁.md" },
                     { "LINE 訊息格式規範" = "ec/app-market/chatbox/LINE 訊息格式規範.md" },
@@ -532,6 +532,7 @@ copyright = """
 
     ]},
     { "智能 POS" = [
+        { "智能 POS" = "pos/index.md"},
         { "開始使用" = [
             { "overview" = "pos/get-started/index.md" },
         ]},
