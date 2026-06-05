@@ -109,7 +109,7 @@ Google 搜尋結果中的子目錄是指搜尋結果下方所顯示的網站延�
 <div class="grid cards" markdown>
 
 - :lucide-eye-off:{ .lg }  
-  [__關閉商品搜尋功能__](../../products/快速上手商品管理.md#商品排除搜尋){ data-preview }  
+  [__關閉商品搜尋功能__](../../products/快速上手商品管理.md#商品排除搜尋)  
   透過後台商品管理的「商品搜尋功能」使特定商品不出現於搜尋結果中 。
 
 </div>

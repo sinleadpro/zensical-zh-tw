@@ -267,11 +267,11 @@ CYBERBIZ 串接的超商物流（7-11、全家、萊爾富、黑貓快速到店�
 <div class="grid cards" markdown>
 
 - :lucide-arrow-right-left:{ .lg }  
-  [__退貨與退款狀態對照__](references/return-refund-status-reference.md){ data-preview }  
+  [__退貨與退款狀態對照__](references/return-refund-status-reference.md)  
   各配送狀態、退貨狀態、付款狀態的流轉對照與自動退款支援條件。
 
 - :lucide-credit-card:{ .lg }  
-  [__自動退刷時效對照表__](references/auto-refund-timeline.md){ data-preview }  
+  [__自動退刷時效對照表__](references/auto-refund-timeline.md)  
   各金流商支援自動退刷的天數上限。
 
 - :lucide-truck:{ .lg }  
@@ -279,7 +279,7 @@ CYBERBIZ 串接的超商物流（7-11、全家、萊爾富、黑貓快速到店�
   常溫 / 冷藏 / 冷凍各溫層的逾期計費機制與起算時間。
 
 - :lucide-package-check:{ .lg }  
-  [__訂單部分出貨__](cvs-partial-shipment.md){ data-preview }  
+  [__訂單部分出貨__](cvs-partial-shipment.md)  
   部分出貨的勾選邏輯與物流支援。
 
 </div>

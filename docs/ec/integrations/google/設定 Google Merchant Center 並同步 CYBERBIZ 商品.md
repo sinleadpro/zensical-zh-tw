@@ -228,15 +228,15 @@ comments: false
 <div class="grid cards" markdown>
 
 - :lucide-activity:{ .lg }   
-  [__重要事件來源追蹤與自動標記__](設定%20GMC%20重要事件來源追蹤與自動標記.md){ data-preview }     
+  [__重要事件來源追蹤與自動標記__](設定%20GMC%20重要事件來源追蹤與自動標記.md)     
   追蹤特定來源的產品購買情形，並開啟自動標記功能以準確關聯廣告轉換。
 
 - :lucide-footprints:{ .lg }   
-  [__Google Ads 轉換追蹤__](設定%20Google%20Ads%20轉換追蹤.md){ data-preview }     
+  [__Google Ads 轉換追蹤__](設定%20Google%20Ads%20轉換追蹤.md)     
   設定 Google Ads 轉換追蹤代碼，回報廣告帶來的訂單成效，優化廣告投放效益。
 
 - :lucide-chart-column-increasing:{ .lg }   
-  [__Google Analytics 追蹤__](設定%20GMC%20重要事件來源追蹤與自動標記.md#將-ga4-連結至-merchant-center){ data-preview }     
+  [__Google Analytics 追蹤__](設定%20GMC%20重要事件來源追蹤與自動標記.md#將-ga4-連結至-merchant-center)     
   將 GA4 連結至 Merchant Center，查看來自 Google 搜尋與購物廣告的購買指標。
 
 </div>

@@ -131,11 +131,11 @@ CYBERBIZ Meta 廣告帳號閒置回收機制的觸發條件、激活方式，以
 <div class="grid cards" markdown>
 
 - :lucide-wallet:{ .lg }   
-  [__建立廣告帳號並儲值__](建立 Meta 廣告帳號並儲值.md){ data-preview }       
+  [__建立廣告帳號並儲值__](建立 Meta 廣告帳號並儲值.md)       
   了解完整的廣告帳號建立流程與最低 NT$15,000 儲值門檻，避免帳號進入閒置回收流程。
 
 - :lucide-rocket:{ .lg }   
-  [__投放廣告活動__](設定 Meta 廣告活動.md){ data-preview }       
+  [__投放廣告活動__](設定 Meta 廣告活動.md)       
   帳號恢復活躍後，即可開始建立廣告活動，維持帳號使用狀態。       
 
 </div>

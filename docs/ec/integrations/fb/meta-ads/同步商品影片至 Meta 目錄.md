@@ -122,7 +122,7 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-rocket:{ .lg }   
-  [__投放 Meta 目錄型廣告__](設定 Meta 廣告活動.md){ data-preview }       
+  [__投放 Meta 目錄型廣告__](設定 Meta 廣告活動.md)       
   同步完成後，可進一步設定 CPV 廣告 (Catalog Product Video)，以商品影片生動展示產品亮點。
 
 </div>

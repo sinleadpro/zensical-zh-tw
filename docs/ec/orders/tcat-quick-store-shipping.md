@@ -258,19 +258,19 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-printer:{ .lg }  
-  [__補印託運單__](../payments-and-logistics/補印與加印託運單.md){ data-preview }  
+  [__補印託運單__](../payments-and-logistics/補印與加印託運單.md)  
   若須重新列印（例如標籤受潮、列印不清），回到訂單列表勾選同筆訂單，於「更多操作」選擇補印託運單。
 
 - :lucide-truck:{ .lg }  
-  [__自動呼叫司機__](tcat-auto-call-driver.md){ data-preview }  
+  [__自動呼叫司機__](tcat-auto-call-driver.md)  
   開通「呼叫黑貓」加值功能者可於列印託運單時自動呼叫司機。
 
 - :lucide-package-check:{ .lg }  
-  [__部分出貨__](partial-shipment-settings.md){ data-preview }  
+  [__部分出貨__](partial-shipment-settings.md)  
   若一筆訂單中只想先寄出部分商品，可改從訂單詳情頁勾選指定品項。
 
 - :lucide-copy-plus:{ .lg }  
-  [__加印託運單__](../payments-and-logistics/設定與加印黑貓託運單.md){ data-preview }  
+  [__加印託運單__](../payments-and-logistics/設定與加印黑貓託運單.md)  
   若一筆訂單因商品多需拆分為多箱寄出，每箱需各自一張託運單。
 
 - :lucide-receipt:{ .lg }  

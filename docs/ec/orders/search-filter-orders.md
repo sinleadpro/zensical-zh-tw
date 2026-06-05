@@ -319,7 +319,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-package:{ .lg }  
-  [__批次出貨__](訂單出貨流程.md){ data-preview }  
+  [__批次出貨__](訂單出貨流程.md)  
   勾選多筆訂單，透過上方「批次操作」選擇對應物流（黑貓、全家、7-11、宅配通等）進行出貨。
 
 - :lucide-printer:{ .lg }  
@@ -327,11 +327,11 @@ hide: []
   批次操作中選擇列印，一次產出多筆訂單的揀貨單、出貨單或發票。
 
 - :lucide-edit:{ .lg }  
-  [__修改訂單狀態__](edit-order-content.md){ data-preview }  
+  [__修改訂單狀態__](edit-order-content.md)  
   個別點入訂單編輯，或透過批次操作關閉／開啟訂單（需「手動訂單」權限）。
 
 - :lucide-download:{ .lg }  
-  [__匯出報表__](export-order-report.md){ data-preview }  
+  [__匯出報表__](export-order-report.md)  
   點擊頁面右上方的「匯出」，將目前查詢結果下載為 Excel／CSV 檔，便於財會或客服進一步處理。
 
 </div>

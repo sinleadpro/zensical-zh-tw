@@ -129,7 +129,7 @@ reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動�
 ### 綁定 reCAPTCHA 金鑰至商品評論區
 [:lucide-tag:{ title="適用方案" }](conventions.md#適用方案) | PLUS / 企業
 
-!!! info "商品評論為 *企業版* 及 *PLUS版* 用戶限定功能，若有需求請洽客服人員開通，相關設定請參閱 [如何管理商品評論](管理商品評論.md)。"
+!!! info "商品評論為 *企業版* 及 *PLUS版* 用戶限定功能，若有需求請洽客服人員開通，相關設定請參閱 [如何管理商品評論](../../products/sales/管理商品評論.md)。"
 
 1. 登入 CYBERBIZ 電商後台，前往 **網站外觀 > 管理商品評論**。
 2. 點擊 **Google reCAPTCHA** 開關，以開啟功能（ON）。
@@ -138,7 +138,7 @@ reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動�
 	- **reCAPTCHA secretkey**：將在申請過程中取得的 **密鑰** 填入此欄位。  
 4. 點擊 **更新** 套用變更。
 
-![](docs/assets/images/ec-product-review-google-recaptcha.zh-tw.png)
+![](../../../assets/images/ec-product-review-google-recaptcha.zh-tw.png)
 
 ### 綁定 reCAPTCHA 金鑰至聯絡我們頁面
 
@@ -149,7 +149,7 @@ reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動�
 	- **secret key**：將申請過程中取得的 **密鑰** 填入此欄位。
 4. 點擊 **儲存所有設定** 套用變更。
 
-![](docs/assets/images/ec-member-feedback-google-recaptcha.zh-tw.png)
+![](../../../assets/images/ec-member-feedback-google-recaptcha.zh-tw.png)
 
 ## 常見問題
 ??? quote "一組 Google reCAPTCHA 帳號可以綁定多個網域嗎？"

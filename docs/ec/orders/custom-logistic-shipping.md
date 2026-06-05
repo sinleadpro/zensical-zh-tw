@@ -240,15 +240,15 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-check-circle:{ .lg }  
-  [__手動結案__](manual-order-close.md){ data-preview }  
+  [__手動結案__](manual-order-close.md)  
   顧客收貨後，可於訂單明細頁點擊「結案」，將訂單改為「已結案」。
 
 - :lucide-clock:{ .lg }  
-  [__啟用自動結案__](auto-close-order-settings.md){ data-preview }  
+  [__啟用自動結案__](auto-close-order-settings.md)  
   可至「設定」＞「訂單設定」開啟「出貨後 N 天自動結案」功能。
 
 - :lucide-rotate-ccw:{ .lg }  
-  [__退貨 / 換貨__](訂單退貨流程.md){ data-preview }  
+  [__退貨 / 換貨__](訂單退貨流程.md)  
   若顧客需退換貨，請於訂單明細頁建立退貨單後進行處理。
 
 </div>

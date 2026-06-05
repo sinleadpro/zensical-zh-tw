@@ -121,7 +121,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-users:{ .lg }     
-  [__團購群組設定__](設定 LINE 團購群組.md){ data-preview }  
+  [__團購群組設定__](設定 LINE 團購群組.md)  
   將機器人加入群組，並設定分潤方案與活動時間。
 
 </div>

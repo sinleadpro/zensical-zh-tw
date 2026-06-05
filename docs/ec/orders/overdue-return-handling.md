@@ -233,11 +233,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-package-check:{ .lg }  
-  [__操作超商退貨便 C2B__](cvs-c2b-return.md){ data-preview }  
+  [__操作超商退貨便 C2B__](cvs-c2b-return.md)  
   設定 7-11 C2B 退貨便逆物流服務，讓顧客可至超商門市寄回退貨商品。
 
 - :lucide-credit-card:{ .lg }  
-  [__訂單退款流程__](訂單退款流程.md){ data-preview }  
+  [__訂單退款流程__](訂單退款流程.md)  
   了解訂單退款的完整流程，包含自動退刷與人工退款的判斷方式與操作步驟。
 
 </div>

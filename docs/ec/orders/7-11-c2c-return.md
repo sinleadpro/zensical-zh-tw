@@ -2,7 +2,7 @@
 title: 使用 7-11 C2C 退貨便
 description: 開通 7-11 C2C 退貨便、設定收貨人資料、發送退貨寄件代碼給消費者，以及完整的退貨審查與退款流程。
 created: 2026-05-26 12:25
-last_modified: 2026-05-26 14:17
+last_modified: 2026-06-04 11:26
 lang: zh-TW
 type: tutorial
 status: ""
@@ -196,26 +196,26 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-truck:{ .lg }  
-  [__部分出貨操作__](partial-shipment-settings.md){ data-preview }  
+  [__部分出貨操作__](partial-shipment-settings.md)  
   退貨完成後若需要重新出貨剩餘品項，可參考部分出貨流程。
 
 - :lucide-settings:{ .lg }  
-  [__公司物流地址設定__](../website-management/設定網站基本資訊.md#gp-logistics-address){ data-preview }  
+  [__公司物流地址設定__](../website-management/設定網站基本資訊.md#gp-logistics-address)  
   逾期未取的退貨包裹會改以宅配到付方式退回此地址，建議事先確認資料正確。
 
 - :lucide-check-circle:{ .lg }  
-  [__退貨審查與退款執行__](訂單退貨流程.md){ data-preview }  
+  [__退貨審查與退款執行__](訂單退貨流程.md)  
   包裹簽收後系統自動改為「退貨審查」，商家需逐項確認商品狀況，再依原付款方式啟動退刷或人工退款流程。
 
 - :lucide-credit-card:{ .lg }  
-  [__其他金流退款__](訂單退款流程.md){ data-preview }  
+  [__其他金流退款__](訂單退款流程.md)  
   非 CYBERBIZ PAYMENTS 串接訂單，商家需至原金流商後台執行退刷，或請顧客提供帳戶資訊後自行匯款。
 
 </div>
 
 ## 常見問題 { #faq-seven-eleven-c2c-return }
 
-??? quote "為什麼訂單列表的批次動作裡找不到「發送 7-11 C2C 退貨寄件代碼」?"
+??? quote "為什麼訂單列表的批次動作裡找不到「發送 7-11 C2C 退貨寄件代碼」？"
     [](){ #faq-seven-eleven-c2c-return-action-missing }
     請依序檢查：
 
@@ -223,23 +223,23 @@ hide: []
     - 勾選的訂單是否符合所有發送條件 — 詳見 [訂單發送條件對照表](./references/7-11 C2C 退貨便 — 訂單發送條件對照表.md){ data-preview }
     - 是否同時勾選了不同狀態的訂單(批次動作要求所選訂單狀態一致)
 
-??? quote "Cyber 幣什麼時候會扣款?消費者沒寄件還會被扣嗎?"
+??? quote "Cyber 幣什麼時候會扣款？消費者沒寄件還會被扣嗎？"
     [](){ #faq-seven-eleven-c2c-return-cyber-charge }
     商家點選 **「確認」** 送出退貨代碼的當下，系統會立即預扣 Cyber 幣(NT$70 / 單)。若消費者在 2 週內未持代碼至門市寄件，系統會自動取消該代碼並把預扣的 Cyber 幣補回帳戶，並在備註中記錄返還明細。
 
-??? quote "商家忘了去門市取退貨包裹會怎麼樣?"
+??? quote "商家忘了去門市取退貨包裹會怎麼樣？"
     [](){ #faq-seven-eleven-c2c-return-pickup-overdue }
     包裹到店後若超過 7 天未領取，系統會將包裹改以 **宅配到付** 方式退回到「一般設定 > 公司物流地址」設定的地址， **宅配運費由商家負擔** 。
 
-??? quote "可以改用 OK、全家、萊爾富等其他超商退貨嗎?"
+??? quote "可以改用 OK、全家、萊爾富等其他超商退貨嗎？"
     [](){ #faq-seven-eleven-c2c-return-other-cvs }
     目前 CYBERBIZ 後台的 C2C 退貨代碼功能僅支援 7-ELEVEN，其他超商品牌需請消費者自行寄回(費用依超商規定)。
 
-??? quote "為什麼設定收貨人時門市店號與門市名稱欄位無法輸入?"
+??? quote "為什麼設定收貨人時門市店號與門市名稱欄位無法輸入？"
     [](){ #faq-seven-eleven-c2c-return-store-readonly }
     這兩個欄位由系統自動帶入。請點擊 **「選擇門市」** 按鈕(已選擇過則為 **「修改門市」** )從 7-ELEVEN 官方門市地圖視窗中挑選，系統會自動填入正確的店號與名稱，以避免拼字錯誤造成寄件失敗。
 
-??? quote "包裹寄出後，7-ELEVEN 門市突然關閉怎麼辦?"
+??? quote "包裹寄出後，7-ELEVEN 門市突然關閉怎麼辦？"
     [](){ #faq-seven-eleven-c2c-return-store-closed }
     進入該筆訂單的訂單詳情頁，系統會在物流資訊區塊下方顯示提示與 **「重新選擇門市」** 按鈕。請在門市關閉後 **6 天內** 重選新門市，超過 6 天該入口會消失，屆時包裹會改以宅配到付方式退回公司物流地址。
 

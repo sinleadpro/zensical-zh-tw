@@ -174,7 +174,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-search:{ .lg }  
-  [__追蹤出貨狀態__][tcat-home-verify-status]{ data-preview }  
+  [__追蹤出貨狀態__][tcat-home-verify-status]  
   回到訂單列表查看該批訂單貨態是否已標記為「已出貨」，並核對託運單號是否寫入訂單。
 
 - :lucide-printer:{ .lg }  

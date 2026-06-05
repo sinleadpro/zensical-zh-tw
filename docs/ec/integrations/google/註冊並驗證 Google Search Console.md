@@ -111,7 +111,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-map:{ .lg }   
-  [__提交網站地圖__](../../marketing/seo/將 Sitemap 提交至 Google Search Console.md){ data-preview }     
+  [__提交網站地圖__](../../marketing/seo/將 Sitemap 提交至 Google Search Console.md)     
   註冊與驗證完成後，最重要且優先的動作是進行網站地圖 (Sitemap) 的提交。
 
 </div>

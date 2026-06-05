@@ -110,7 +110,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-zap:{ .lg }   
-  [__進階自動化推播__](../../app-market/automation/使用 AUTOMATION 建立自動化推播流程.md){ data-preview }  
+  [__進階自動化推播__](../../app-market/automation/使用 AUTOMATION 建立自動化推播流程.md)  
 設定自動發送訊息給「VIP 會員」、「潛在忠誠顧客」、「沉睡客戶」或針對「未結帳購物車」進行提醒。
 
 </div>
