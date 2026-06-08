@@ -7,6 +7,15 @@ lang: zh-TW
 type: reference
 status: ""
 author: Jase
+tags:
+  - EC
+  - 配送方式
+  - 物流分類
+  - 宅配
+  - 超商取貨
+  - 門市自取
+  - 跨境配送
+  - Reference
 version: ""
 reviewers: []
 notes: []

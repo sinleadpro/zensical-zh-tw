@@ -34,7 +34,15 @@ intents: []
 features: []
 prerequisites: []
 related: []
-tags: []
+tags:
+  - EC
+  - 配送狀態
+  - 訂單列表
+  - 出貨管理
+  - 已到店
+  - 逾期未取
+  - 運送異常
+  - Reference
 acoiv: ""
 apis: []
 devices:

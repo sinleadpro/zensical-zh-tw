@@ -27,7 +27,15 @@ intents: []
 features: []
 prerequisites: []
 related: []
-tags: []
+tags:
+  - EC
+  - 付款狀態
+  - 訂單管理
+  - 貨到付款
+  - 退款狀態
+  - 付款失敗
+  - 會員棄單
+  - Reference
 acoiv: ""
 apis: []
 devices:

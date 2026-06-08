@@ -27,7 +27,15 @@ intents: []
 features: []
 prerequisites: []
 related: []
-tags: []
+tags:
+  - EC
+  - 物流中心
+  - 超商取貨
+  - B2C
+  - 大宗寄倉
+  - 測標
+  - 驗收規範
+  - Reference
 acoiv: ""
 apis: []
 devices:

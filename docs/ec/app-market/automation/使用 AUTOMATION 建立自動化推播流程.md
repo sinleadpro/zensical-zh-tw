@@ -46,6 +46,15 @@ prerequisites:
   - /ec/integrations/line/綁定 LINE 官方帳號與官網會員
 related:
   - /ec/marketing/設定與發送 EDM 電子報
+tags:
+  - EC
+  - Automation
+  - 自動化行銷
+  - 推播流程
+  - 會員分群
+  - 簡訊發送
+  - EDM
+  - LINE OA
 acoiv:
 apis: []
 devices:

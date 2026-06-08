@@ -27,7 +27,15 @@ intents: []
 features: []
 prerequisites: []
 related: []
-tags: []
+tags:
+  - EC
+  - 商品管理
+  - 條件分類
+  - Smart Collections
+  - 排序方式
+  - Reference
+  - 對照表
+  - 手動排序
 acoiv: ""
 apis: []
 devices:

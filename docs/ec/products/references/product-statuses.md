@@ -27,6 +27,15 @@ intents: []
 features: []
 prerequisites: []
 related: []
+tags:
+  - EC
+  - 商品管理
+  - 商品狀態
+  - 上架狀態
+  - 公開狀態
+  - Reference
+  - 對照表
+  - 站內搜尋
 acoiv: ""
 apis: []
 devices:

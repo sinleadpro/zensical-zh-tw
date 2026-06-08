@@ -68,6 +68,14 @@ search:
 icon: lucide/wallet
 hide:
 comments: false
+tags:
+  - EC
+  - 黑貓快速到店
+  - 7-11
+  - 貨到付款
+  - 取貨不付款
+  - 超商物流
+  - 金物流
 ---
 
 # 設定黑貓快速到店付款方式

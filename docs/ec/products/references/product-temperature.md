@@ -27,6 +27,15 @@ intents: []
 features: []
 prerequisites: []
 related: []
+tags:
+  - EC
+  - 商品管理
+  - 運送溫層
+  - 冷凍
+  - 冷藏
+  - 物流設定
+  - Reference
+  - 對照表
 acoiv: ""
 apis: []
 devices:

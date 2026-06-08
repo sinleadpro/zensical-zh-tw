@@ -27,7 +27,15 @@ intents: []
 features: []
 prerequisites: []
 related: []
-tags: []
+tags:
+  - EC
+  - LINE 整合
+  - LINE OA
+  - Messaging API
+  - 快速登入
+  - 自動化通知
+  - 行銷導購
+  - OMO
 acoiv: ""
 apis: []
 devices: 
