@@ -2,7 +2,7 @@
 title: "LINE 團購功能總覽"
 description: LINE 團購功能的運作方式，以及商家如何在 LINE 群組中建立團購活動並讓成員瀏覽商品與完成結帳。
 created: "2026-03-12 18:23"
-last_modified: "2026-03-12 18:30"
+last_modified: 2026-06-08 17:15
 lang: zh-TW
 type: guide
 status: ""
@@ -87,15 +87,15 @@ LINE 團購功能的運作方式，以及商家如何在 LINE 群組中建立團
 <div class="grid cards" markdown>
 
 - :material-numeric-1-circle:{ .lg }   
-  [__機器人設定__](設定 LINE 團購機器人.md){ data-preview }     
+  [__機器人設定__](設定 LINE 團購機器人.md){ title="設定 LINE 團購機器人" }     
   建立 LINE Messaging API 機器人並完成 Webhook 與權限設定。
   
 - :material-numeric-2-circle:{ .lg }     
-  [__團購商品設定__](設定 LINE 團購商品.md){ data-preview }  
+  [__團購商品設定__](設定 LINE 團購商品.md){ title="設定 LINE 團購商品" }  
   從官網商品中建立團購商品並設定團購價格。
 
 - :material-numeric-3-circle:{ .lg }     
-  [__團購群組設定__](設定 LINE 團購群組.md){ data-preview }  
+  [__團購群組設定__](設定 LINE 團購群組.md){ title="設定 LINE 團購群組" }  
   建立團購群組活動並綁定 LINE 群組。
 
 </div>
@@ -107,15 +107,15 @@ LINE 團購功能的運作方式，以及商家如何在 LINE 群組中建立團
 <div class="grid cards" markdown>
 
 - :lucide-megaphone:{ .lg }   
-  [__喚起功能__](使用 LINE 團購進行購物.md#如何喚起團購功能){ data-preview }     
+  [__喚起功能__](使用 LINE 團購進行購物.md#如何喚起團購功能){ title="使用 LINE 團購進行購物" }     
   在群組中輸入「**團購**」呼叫機器人選單，並點選「團購列表」開始瀏覽。
 
 - :lucide-shopping-cart:{ .lg }     
-  [__選購商品__](使用 LINE 團購進行購物.md#瀏覽與挑選商品){ data-preview }  
+  [__選購商品__](使用 LINE 團購進行購物.md#瀏覽與挑選商品){ title="使用 LINE 團購進行購物" }  
   消費者可查看商品詳情，選擇「加入購物車」繼續選購或「加入並結帳」直接購買。
 
 - :lucide-credit-card:{ .lg }     
-  [__完成結帳__](使用 LINE 團購進行購物.md#結帳與付款流程){ data-preview }  
+  [__完成結帳__](使用 LINE 團購進行購物.md#結帳與付款流程){ title="使用 LINE 團購進行購物" }  
   在結帳頁面確認數量與金額後完成付款。付款完成後，系統會自動引導成員加入品牌的官方帳號，幫助商家累積會員。
 
 
@@ -126,11 +126,11 @@ LINE 團購功能的運作方式，以及商家如何在 LINE 群組中建立團
 <div class="grid cards" markdown>
 
 - :lucide-search-check:{ .lg }   
-  [__查看訂單__](設定 LINE 團購群組.md#訂單查看與紀錄管理){ data-preview }  
+  [__查看訂單__](設定 LINE 團購群組.md#訂單查看與紀錄管理){ title="設定 LINE 團購群組" }  
   商家可至後台「所有訂單」，利用篩選器選擇「**LINE 團購**」來查看專屬訂單紀錄。
 
 - :lucide-history:{ .lg }     
-  [__歷史紀錄__](設定 LINE 團購群組.md#訂單查看與紀錄管理){ data-preview }   
+  [__歷史紀錄__](設定 LINE 團購群組.md#訂單查看與紀錄管理){ title="設定 LINE 團購群組" }   
   活動結束後（手動結束、時間到期或機器人被退群），資料會移至「團購歷史紀錄」供隨時查閱。
 
 - :lucide-file-spreadsheet:{ .lg }     

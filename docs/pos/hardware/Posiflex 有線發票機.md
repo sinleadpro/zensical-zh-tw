@@ -2,7 +2,7 @@
 title: Posiflex 有線發票機
 description: 安裝 Posiflex 發票機，包含驅動程式安裝、硬體連線、發票樣式測試及常見故障排除方法。
 created: 2026-03-25 18:45
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -74,7 +74,7 @@ hide: []
 安裝 Posiflex 發票機，包含驅動程式安裝、硬體連線、發票樣式測試及常見故障排除方法。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
 

@@ -2,7 +2,7 @@
 title: 如何搜尋與篩選訂單
 description: 使用關鍵字搜尋、條件篩選、檢視群組與訂單標籤等功能，快速找出目標訂單。
 created: 2026-05-07 11:23
-last_modified: 2026-06-04 15:23
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -301,7 +301,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-repeat:{ .lg }  
-  [__定期定額訂單__](../reports/export-subscription-forecast.md){ data-preview }  
+  [__定期定額訂單__](../reports/export-subscription-forecast.md){ title="匯出定期定額子訂單預測報表" }  
   需至「訂單」>「定期定額訂單」中搜尋，支援定期單號、收貨資訊或備註搜尋。
 
 - :material-point-of-sale:{ .lg }  
@@ -309,7 +309,7 @@ hide: []
   在 POS 前台可透過輸入訂單號碼、掃描發票或進階篩選（如成立時間、認單時間）來查找。
 
 - :lucide-user:{ .lg }  
-  [__會員專屬搜尋__](../../members/管理會員檔案.md){ data-preview }  
+  [__會員專屬搜尋__](../../members/管理會員檔案.md){ title="管理會員檔案" }  
   進入特定會員頁面後，點選其「訂單」分頁，可查看該會員在 EC 與 POS 的所有有效消費紀錄。
 
 </div>
@@ -319,7 +319,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-package:{ .lg }  
-  [__批次出貨__](order-fulfillment-flow.md)  
+  [__批次出貨__](order-fulfillment-flow.md){ title="訂單出貨流程" }  
   勾選多筆訂單，透過上方「批次操作」選擇對應物流（黑貓、全家、7-11、宅配通等）進行出貨。
 
 - :lucide-printer:{ .lg }  
@@ -327,11 +327,11 @@ hide: []
   批次操作中選擇列印，一次產出多筆訂單的揀貨單、出貨單或發票。
 
 - :lucide-edit:{ .lg }  
-  [__修改訂單狀態__](edit-order-content.md)  
+  [__修改訂單狀態__](edit-order-content.md){ title="編輯訂單內容" }  
   個別點入訂單編輯，或透過批次操作關閉／開啟訂單（需「手動訂單」權限）。
 
 - :lucide-download:{ .lg }  
-  [__匯出報表__](../reports/export-order-report.md)  
+  [__匯出報表__](../reports/export-order-report.md){ title="匯出訂單報表" }  
   點擊頁面右上方的「匯出」，將目前查詢結果下載為 Excel／CSV 檔，便於財會或客服進一步處理。
 
 </div>

@@ -2,7 +2,7 @@
 title: 使用 POS 前台管理會員
 description: 透過 POS 前台快速註冊新會員、查詢顧客資料與管理推薦分潤，提升門市會員經營效率。
 created: 2026-04-16 10:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -72,7 +72,7 @@ hide: []
 透過 POS 前台快速註冊新會員、查詢顧客資料與管理推薦分潤，提升門市會員經營效率。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
 !!! tip "應用情境"

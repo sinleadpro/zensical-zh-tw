@@ -2,7 +2,7 @@
 title: 設定商品條件分類群組
 description: 依商品屬性與條件，自動將符合規則的商品分類至指定群組。
 created: 2026-01-15 00:00
-last_modified: 2026-06-04 12:00
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status:
@@ -198,11 +198,11 @@ comments: false
   確認商品的名稱、類型、廠商、標籤與價格填寫完整，條件分類才能正確命中。 -->
 
 - :lucide-layout-template:{ .lg }  
-  [__設定選單與導覽列__](../../website-appearance/navigation/設定選單與導覽列.md)  
+  [__設定選單與導覽列__](../../website-appearance/navigation/設定選單與導覽列.md){ title="設定選單與導覽列" }  
   把建立好的條件分類放進前台選單或導覽列，讓顧客逛得到。
 
 - :lucide-languages:{ .lg }  
-  [__查看支援語言__](../references/multi-language-supported.md)  
+  [__查看支援語言__](../references/multi-language-supported.md){ title="多國語系支援語言對照表" data-preview }  
   確認多國語系可翻譯的語言清單。
 
 </div>

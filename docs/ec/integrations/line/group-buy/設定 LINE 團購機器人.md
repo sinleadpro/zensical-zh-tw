@@ -2,7 +2,7 @@
 title: 設定 LINE 團購機器人
 description: 建立並設定 LINE 團購機器人，完成 Messaging API、Webhook 與 LIFF 串接，讓使用者可在 LINE 群組內進行團購購物。
 created: 2026-03-11 17:27
-last_modified: 2026-03-12 09:45
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status:
@@ -224,11 +224,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-package:{ .lg }   
-  [__團購商品設定__](設定 LINE 團購商品.md)  
+  [__團購商品設定__](設定 LINE 團購商品.md){ title="設定 LINE 團購商品" }  
   從官網選取商品並設定團購價。
 
 - :lucide-users:{ .lg }     
-  [__團購群組設定__](設定 LINE 團購群組.md)  
+  [__團購群組設定__](設定 LINE 團購群組.md){ title="設定 LINE 團購群組" }  
   將機器人加入群組，並設定分潤方案與活動時間。
 
 </div>

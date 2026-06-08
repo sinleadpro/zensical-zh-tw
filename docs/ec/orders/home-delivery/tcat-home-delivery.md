@@ -2,7 +2,7 @@
 title: 使用黑貓宅配出貨
 description: 批次下載黑貓宅配託運單、扣除運費並將訂單貨態更新為已出貨。
 created: 2026-05-12 15:53
-last_modified: 2026-06-05 16:09
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -91,8 +91,8 @@ hide: []
 後台與黑貓宅急便系統整合，商家可從訂單列表批次產出黑貓宅配託運單、自動扣除運費(Cyber 幣)，並將訂單貨態同步更新為「已出貨」。本文聚焦於 **黑貓宅配(B2C 宅配到府)** 的出貨流程。
 
 !!! info "其他黑貓服務"
-    * 若顧客選擇超商取貨，請見 [使用黑貓快速到店出貨](../tcat-quick-store/tcat-quick-store-shipping.md)。
-    * 自動呼叫黑貓司機到府收件，請見 [自動呼叫黑貓司機取件](tcat-auto-call-driver.md)。
+    * 若顧客選擇超商取貨，請見 [使用黑貓快速到店出貨](../tcat-quick-store/tcat-quick-store-shipping.md){ title="使用黑貓快速到店出貨" }。
+    * 自動呼叫黑貓司機到府收件，請見 [自動呼叫黑貓司機取件](tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }。
 
 ## 計費與規則 { #tcat-home-pricing }
 
@@ -183,7 +183,7 @@ hide: []
     ![黑貓宅配下載托運單-確認](../../../assets/images/EC-訂單-所有訂單-下載黑貓托運單-確認視窗.png)
 
     !!! plan "從彈出視窗直接呼叫黑貓司機"
-        若你的店家已開通呼叫黑貓功能，視窗下方會出現「自動呼叫黑貓司機取件」區塊，可在下載託運單的同時預約司機到府收件。詳細操作請見 [如何自動呼叫黑貓司機取件](tcat-auto-call-driver.md)。
+        若你的店家已開通呼叫黑貓功能，視窗下方會出現「自動呼叫黑貓司機取件」區塊，可在下載託運單的同時預約司機到府收件。詳細操作請見 [如何自動呼叫黑貓司機取件](tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }。
 
 5. **確認下載與扣費**：點擊 **確認** ，系統會自動下載[^2] [託運單 ZIP 壓縮檔][tcat-home-zip-contents]{ data-preview } 並 [扣除運費][tcat-home-shipping-fee]。
 
@@ -202,7 +202,7 @@ hide: []
 下載託運單後，需聯繫黑貓司機到貨取件:
 
 * **電話呼叫**：撥打黑貓客服專線 (02-412-8888) 安排取件。
-* **從後台直接呼叫**：若已開通 [呼叫黑貓功能](tcat-auto-call-driver.md){ data-preview }，可在下載託運單時於彈出視窗內預約司機取件。
+* **從後台直接呼叫**：若已開通 [呼叫黑貓功能](tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }，可在下載託運單時於彈出視窗內預約司機取件。
 
 ---
 
@@ -238,11 +238,11 @@ hide: []
 <div class="grid cards" markdown>
   
 - :lucide-package-check:{ .lg }  
-  [__部分出貨__](partial-shipment.md)  
+  [__部分出貨__](partial-shipment.md){ title="設定訂單部分出貨" }  
   若一筆訂單中只想先寄出部分商品，可改從訂單詳情頁勾選指定品項。
 
 - :lucide-printer:{ .lg }  
-  [__補印託運單__](../../payments-and-logistics/補印與加印託運單.md)  
+  [__補印託運單__](../../payments-and-logistics/補印與加印託運單.md){ title="補印與加印託運單" }  
   若已下載過的託運單檔案遺失(例如貼紙印壞、檔案不見)，可在訂單列表批次補印。
 
 - :lucide-copy-plus:{ .lg }  

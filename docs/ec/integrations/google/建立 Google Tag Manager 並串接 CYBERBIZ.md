@@ -2,7 +2,7 @@
 title: "建立 Google Tag Manager 並串接 CYBERBIZ"
 description: "建立 Google Tag Manager 帳戶與容器，並將 GTM 程式碼正確安裝至 CYBERBIZ 官網。"
 created: "2026-03-17 16:31"
-last_modified: "2026-03-17 14:40"
+last_modified: 2026-06-08 17:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -106,7 +106,7 @@ hide: []
 
 ## 檢查與驗證
 
-完成設定後，您可以使用 **Google Tag Assistant**（Chrome 擴充功能或網頁版）來[檢測網站是否已成功安裝 GTM 代碼](使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝.md){ data-preview }。
+完成設定後，您可以使用 **Google Tag Assistant**（Chrome 擴充功能或網頁版）來[檢測網站是否已成功安裝 GTM 代碼](使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝.md){ title="使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝" }。
 
 *   **Chrome 擴充功能**：適合快速查看代碼是否成功載入。
 *   **網頁版工具**：可完整紀錄操作行為，驗證特定標籤是否正確觸發。
@@ -142,7 +142,7 @@ hide: []
 
 ??? quote "如何驗證 GTM 是否正確安裝？"
 
-    您可以[使用 **Google Tag Assistant** 來驗證](使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝.md){ data-preview }：
+    您可以[使用 **Google Tag Assistant** 來驗證](使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝.md){ title="使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝" }：
     
     * **Chrome 擴充功能**：快速查看代碼是否成功載入
     * **網頁版工具**：完整紀錄操作行為，驗證特定標籤是否正確觸發

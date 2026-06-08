@@ -2,7 +2,7 @@
 title: 串接 LINE Messaging API
 description: 整合 LINE OA 與 CYBERBIZ 系統，實現自動化訂單通知、精準分眾行銷與即時商品關鍵字搜尋功能。
 created: 2026-02-09 00:00
-last_modified: 2026-03-07 23:42
+last_modified: 2026-06-08 17:15
 lang: zh-TW
 type: tutorial
 status:
@@ -203,7 +203,7 @@ hide: []
   設定訂單、物流與顧客類自動通知樣板。
 
 - :lucide-link-2:{ .lg }  
-  [**綁定 LINE 帳號與官網會員**](綁定 LINE 官方帳號與官網會員.md){ data-preview }    
+  [**綁定 LINE 帳號與官網會員**](綁定 LINE 官方帳號與官網會員.md){ title="綁定 LINE 官方帳號與官網會員" }    
   了解如何讓會員完成 LINE 綁定以接收通知。
 
 </div>

@@ -2,7 +2,7 @@
 title: 設定 GMC 重要事件來源追蹤與自動標記
 description: 設定 Google Merchant Center 重要事件來源追蹤與自動標記功能，掌握產品購買指標。
 created: 2026-03-30 10:00
-last_modified: 2026-03-30 12:40
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: guide
 status: ""
@@ -97,7 +97,7 @@ comments: false
     在開始設定前，請確保已完成以下準備：
 
     - [x] 已完成 [Google Merchant Center 帳號設定](設定%20Google%20Merchant%20Center%20並同步%20CYBERBIZ%20商品.md){ data-preview }
-    - [x] 已建立 [Google Analytics 4 (GA4) 資源並取得評估 ID](ga/建立並串接 Google Analytics.md){ data-preview }
+    - [x] 已建立 [Google Analytics 4 (GA4) 資源並取得評估 ID](ga/建立並串接 Google Analytics.md){ title="建立並串接 Google Analytics" }
 
 1.  **前往 GMC 設定**：在 Merchant Center 左側導覽選單，點擊「設定」圖示
 2.  **開啟重要事件設定**：點擊「設定」>「一般」>「重要事件設定」
@@ -131,7 +131,7 @@ comments: false
   進行產品購買轉換追蹤，在 YouTube 影片、直播及短影音中植入官網商品資訊。
 
 - :lucide-trending-up:{ .lg }   
-  [__Google 購物廣告__](設定 Google Ads 轉換追蹤.md)    
+  [__Google 購物廣告__](設定 Google Ads 轉換追蹤.md){ title="設定 Google Ads 轉換追蹤" }    
   準確回報廣告帶來的訂單成效，優化廣告投放效益。
 
 </div>

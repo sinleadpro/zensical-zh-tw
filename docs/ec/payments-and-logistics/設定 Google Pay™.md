@@ -2,7 +2,7 @@
 title: 設定 Google Pay™
 description: 指引商家在官網啟用並管理 Google Pay™ 支付選項，包含費率說明、後台配置流程以及金流門檻設定限制。
 created: 2026-03-16 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -69,7 +69,7 @@ hide: []
 { .subtitle }
 
 
-[:lucide-toggle-right:{ title="適用功能" }](../../resources/conventions#適用功能) | CYBERBIZ PAYMENTS
+[:lucide-toggle-right:{ title="適用功能" }](../../resources/conventions#適用功能){ title="圖示慣例" } | CYBERBIZ PAYMENTS
 { .doc-badge }
 
 ## Google Pay™ 核心優勢
@@ -125,7 +125,7 @@ Google Pay 的交易安全邏輯將繼承商家在後台的信用卡設定：
 <div class="grid cards" markdown>
 
 - :lucide-badge-dollar-sign:{ .lg }   
-  [__北美站金流設定__](北美站金流服務.md)     
+  [__北美站金流設定__](北美站金流服務.md){ title="北美站金流服務" }     
   若您經營的是 **Global 北美站**，其 Google Pay 設定與費率邏輯不同，請參閱相關專屬指南。
 
 </div>

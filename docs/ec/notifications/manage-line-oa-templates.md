@@ -2,7 +2,7 @@
 title: 設定與管理 LINE OA 通知樣板
 description: 設定與管理 LINE 官方帳號（LINE Official Account）的自動化通知樣板，包含前置條件、樣板設定流程、支援情境與計費規則。
 created:
-last_modified: 2026-02-13
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 permalink:
 type: tutorial
@@ -80,7 +80,7 @@ hide:
 設定與管理 LINE 官方帳號（LINE Official Account）的自動化通知樣板，包含前置條件、樣板設定流程、支援情境與計費規則。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
 ![](../../assets/images/ec-訊息推播-line oa 樣板.png){ .hero-page }

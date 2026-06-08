@@ -2,7 +2,7 @@
 title: LINEX 跨境物流
 description: LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到府取件」或「自行送倉」模式，並透過後台自動產出報關所需之託運單與相關文件。
 created: 2026-03-04 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -78,10 +78,10 @@ hide: []
 LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到府取件」或「自行送倉」模式，並透過後台自動產出報關所需之託運單與相關文件。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | PLUS / 企業<br>
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 跨境電商 (北美站 / 日本站 / 東南亞站)
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Pro / Business
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品){ title="圖示慣例" } | 電商官網
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | PLUS / 企業<br>
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品){ title="圖示慣例" } | 跨境電商 (北美站 / 日本站 / 東南亞站)
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | Pro / Business
 { .doc-badge }
 
 ## 使用須知

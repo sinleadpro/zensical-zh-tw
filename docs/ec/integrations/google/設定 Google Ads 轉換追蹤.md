@@ -2,7 +2,7 @@
 title: 設定 Google Ads 轉換追蹤
 description: 設定 Google Ads 轉換追蹤與再行銷功能，追蹤廣告成效並優化投放策略。
 created: 2026-03-25 11:23
-last_modified: 2026-03-25 14:53
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -149,7 +149,7 @@ Google Ads（原名 Google AdWords）是 Google 提供的線上廣告平台，�
 !!! warning "注意事項"
 
     *   **避免重複埋設**：若先前曾透過 GTM 設定 Google 廣告追蹤，在 CYBERBIZ 後台設定完成後，**必須移除 GTM 中的相關標籤**，以免發生 Code 碼衝突導致數據不準確。
-    *   **自動化廣告限制**：若商家使用的是由 [CYBERBIZ 代管](設定自動化廣告.md#cyberbiz-代管)的「**自動化廣告系統**」，則 **無法** 透過上述方式在個人 Google Ads 帳號中查看數據，需前往 CYBERBIZ 後台查看。
+    *   **自動化廣告限制**：若商家使用的是由 [CYBERBIZ 代管](設定自動化廣告.md#cyberbiz-代管){ title="設定自動化廣告系統" }的「**自動化廣告系統**」，則 **無法** 透過上述方式在個人 Google Ads 帳號中查看數據，需前往 CYBERBIZ 後台查看。
 
 ## 常見問題
 

@@ -2,7 +2,7 @@
 title: 提供顧客付款連結
 description: 訂單尚未完成付款時，商家可透過付款連結引導顧客重新進行線上結帳，無需取消訂單重建流程。
 created: 
-last_modified: 2026-02-08
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/order-settings/provide-payment-link
 type: tutorial
@@ -131,11 +131,11 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-bell:{ .lg }   
-  [__未付款提醒通知__](unpaid-reminder-settings.md)     
+  [__未付款提醒通知__](unpaid-reminder-settings.md){ title="設定未付款提醒" }     
   配置自動化訊息通知，依設定週期定時推播未付款提醒，引導顧客透過訊息內的連結完成結帳。
 
 - :lucide-ban:{ .lg }     
-  [__物流限制與排除選項__](../../products/shipping/設定超商配送限制與物流排除.md)  
+  [__物流限制與排除選項__](../../products/shipping/設定超商配送限制與物流排除.md){ title="設定超商配送限制與物流排除" }  
   設定商品的配送物流條件，限制特定物流方式於結帳流程中的顯示與使用。
 
 </div>

@@ -2,7 +2,7 @@
 title: 處理超過退貨期限的訂單
 description: 訂單超過退貨期限時，商家可從後台手動發起退貨流程。
 created: 2026-05-26 20:52
-last_modified: 2026-05-26 22:50
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -211,7 +211,7 @@ hide: []
 
 ### 自動退刷的天數限制 { #specs-overdue-returns-refund-window }
 
-訂單付款後若超過該金流商允許的自動退刷期限，系統將無法直接退刷，須改走人工退款流程。完整對照請見 [自動退刷時效對照表](../references/auto-refund-timeline.md)。
+訂單付款後若超過該金流商允許的自動退刷期限，系統將無法直接退刷，須改走人工退款流程。完整對照請見 [自動退刷時效對照表](../references/auto-refund-timeline.md){ title="自動退刷時效對照表" data-preview }。
 
 ---
 
@@ -233,11 +233,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-package-check:{ .lg }  
-  [__操作超商退貨便 C2B__](cvs-c2b-return.md)  
+  [__操作超商退貨便 C2B__](cvs-c2b-return.md){ title="操作超商退貨便 C2B" }  
   設定 7-11 C2B 退貨便逆物流服務，讓顧客可至超商門市寄回退貨商品。
 
 - :lucide-credit-card:{ .lg }  
-  [__訂單退款流程__](訂單退款流程.md)  
+  [__訂單退款流程__](訂單退款流程.md){ title="訂單退款流程" }  
   了解訂單退款的完整流程，包含自動退刷與人工退款的判斷方式與操作步驟。
 
 </div>
@@ -283,7 +283,7 @@ hide: []
 
 ## 參考資料 { #reference-overdue-returns }
 
-- [自動退刷時效對照表](../references/auto-refund-timeline.md)
-- [方案功能對照表](../references/plan-features-return-reference.md)
+- [自動退刷時效對照表](../references/auto-refund-timeline.md){ title="自動退刷時效對照表" data-preview }
+- [方案功能對照表](../references/plan-features-return-reference.md){ title="方案功能對照表（退貨相關）" data-preview }
 
 

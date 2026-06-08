@@ -127,10 +127,6 @@ copyright = """
                 {"匯出訂單報表" = "ec/orders/reports/export-order-report.md"},
                 {"匯出定期預估報表" = "ec/orders/reports/export-subscription-forecast.md"}
             ]},
-            {"跨境電商" = [
-                {"跨境電商退貨流程" = "ec/orders/跨境電商退貨流程.md"},
-                {"跨境電商退款流程" = "ec/orders/跨境電商退款流程.md"}
-            ]},
             {"參考資料" = [
                 {"訂單篩選條件與狀態" = "ec/orders/references/order-filter-status-reference.md"},
                 {"配送方式分類對照表" = "ec/orders/references/shipping-methods.md"},
@@ -190,7 +186,8 @@ copyright = """
             { "批次管理" = [
                 {"Excel 大量匯入商品" = "ec/products/bulk-operations/Excel 大量匯入商品.md"},
                 {"批次修改商品描述與配送設定" = "ec/products/bulk-operations/批次修改商品描述與配送設定.md"},
-                {"排除商品上傳至第三方平台" = "ec/products/bulk-operations/排除商品上傳至第三方平台.md"}
+                {"排除商品上傳至第三方平台" = "ec/products/bulk-operations/排除商品上傳至第三方平台.md"},
+                {"複製商品到快速到貨門市" = "ec/products/複製商品到快速到貨門市.md"}
             ]},
             { "價格設定" = [
                 {"VIP 會員專屬價格" = "ec/products/pricing/設定 VIP 會員專屬價格.md"}
@@ -205,26 +202,6 @@ copyright = """
             { "物流配送" = [
                 { "配送條件設定" = "ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）.md" },
                 { "超商配送限制與物流排除" = "ec/products/shipping/設定超商配送限制與物流排除.md" }
-            ]},
-            { "批量管理" = [
-                { "批量上架" = "ec/products/batch-management/批量上架商品.md" } 
-            ]},
-            { "銷售與互動" = [
-                {"VIP 會員專屬價格" = "ec/products/sales/設定 VIP 會員專屬價格.md" },
-                {"商品到貨通知" = "ec/products/sales/設定商品到貨通知.md"},
-                {"管理商品評論" = "ec/products/sales/管理商品評論.md"},
-                {"結帳拆分多購物車" = "ec/products/sales/設定結帳拆分多購物車.md"}
-            ]},
-            { "商品上架" = [
-                { "組合商品" = "ec/products/新增與設定組合商品.md"},
-                { "商品描述與商品設定" = "ec/products/編輯商品描述與商品設定.md" },
-                { "Excel 大量匯入商品" = "ec/products/Excel 大量匯入商品.md"},
-                { "批次修改商品描述與配送設定" = "ec/products/批次修改商品描述與配送設定.md" },
-                { "複製商品到快速到貨門市"= "ec/products/複製商品到快速到貨門市.md"},
-            ]},
-            { "商品配送" = [
-                { "配送溫層、物流跟通路設定" = "ec/products/設定商品配送條件（物流、溫層與出貨通路）.md" },
-                { "超商配送限制與物流排除" = "ec/products/設定超商配送限制與物流排除.md" }
             ]},
             { "參考資源" = [
                 { "商品狀態對照表" = "ec/products/references/product-statuses.md" },

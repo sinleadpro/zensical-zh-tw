@@ -2,7 +2,7 @@
 title: CYBERBIZ EXPRESS 日到台跨境宅配
 description: 一站式日本跨境直送台灣物流服務，涵蓋開通設定、跨境商品報關資訊填寫及訂單出貨流程。
 created: 2026-03-03 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -68,7 +68,7 @@ hide: []
 CYBERBIZ EXPRESS 是專為日台電商設計的一站式跨境物流服務。您可以輕鬆將日本製產品送達台灣消費者手中，系統並自動整合 EZWAY 報關流程與運費自動核帳。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 跨境電商 (日到台)
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品){ title="圖示慣例" } | 跨境電商 (日到台)
 { .doc-badge }
 
 ## 使用須知

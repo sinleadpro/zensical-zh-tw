@@ -2,7 +2,7 @@
 title: 如何將訂單從準備出貨調整回未出貨狀態
 description: 將訂單從「準備出貨」調整回「未出貨」狀態，讓消費者可以重新取得取消訂單的權限。
 created: 2026-05-11 18:51
-last_modified: 2026-06-04 11:26
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -123,7 +123,7 @@ hide: []
   了解完整的訂單出貨流程，包含準備出貨、出貨中、已送達等各階段操作。
 
 - :lucide-ban:{ .lg }  
-  [__如何取消訂單__](../basics/cancel-order.md)  
+  [__如何取消訂單__](../basics/cancel-order.md){ title="如何取消訂單" }  
   掌握商家手動取消、會員前台取消與系統自動取消三種訂單取消方式。
 
 </div>

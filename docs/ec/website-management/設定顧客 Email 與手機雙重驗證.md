@@ -2,7 +2,7 @@
 title: 設定顧客 Email 與手機雙重驗證
 description: 要求新註冊顧客同時通過 Email 與簡訊驗證，確保會員資料真實性，降低空帳號與惡意註冊風險。
 created: 2026-05-27 14:58
-last_modified: 2026-06-04 11:26
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -318,6 +318,6 @@ LINE 登入因帳號本身已綁定手機，系統會自動跳過 OTP 簡訊驗�
 
 ## 參考資料 { #reference-customer-verification }
 
-* [顧客註冊模式對照表](references/顧客註冊模式對照表.md)
-* [顧客欄位驗證模式對照表](references/顧客欄位驗證模式對照表.md)
+* [顧客註冊模式對照表](references/顧客註冊模式對照表.md){ title="顧客註冊模式對照表" data-preview }
+* [顧客欄位驗證模式對照表](references/顧客欄位驗證模式對照表.md){ title="顧客欄位驗證模式對照表" data-preview }
 

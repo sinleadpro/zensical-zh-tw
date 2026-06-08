@@ -2,7 +2,7 @@
 title: 系統硬體與環境需求
 description: 為確保 POS 系統運作效能與週邊設備連線的穩定性，請參考以下硬體規格與系統環境建議進行配置。
 created: 2026-04-17 12:05
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: reference
 status: ""
@@ -66,7 +66,7 @@ hide: []
 為確保 POS 系統運作效能與週邊設備連線的穩定性，請參考以下硬體規格與系統環境建議進行配置。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
 

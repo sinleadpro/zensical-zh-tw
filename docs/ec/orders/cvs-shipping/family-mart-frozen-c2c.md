@@ -2,7 +2,7 @@
 title: 操作全家冷凍店到店 C2C 出貨
 description: 操作全家冷凍店到店 C2C 出貨，包括設定流程、訂單出貨、包裝規範、寄件時效及異常處理。
 created:
-last_modified: 2026-05-28 21:11
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/cvs-shipping/family-mart-frozen-c2c
 type: tutorial
@@ -124,7 +124,7 @@ hide:
 
 ## 寄件與時效限制
 
-- **寄件方法**：商家可自行列印託運單貼上，或[記下託運單號至全家門市 **FamiPort** 機台列印](cvs-c2c-shipping.md#famiport)服務單（繳費單）。
+- **寄件方法**：商家可自行列印託運單貼上，或[記下託運單號至全家門市 **FamiPort** 機台列印](cvs-c2c-shipping.md#famiport){ title="操作超商店到店 C2C 出貨" }服務單（繳費單）。
 - **期限**：產出託運單後，必須在 **6 日內** 完成寄件，否則單號將自動失效。
 
 ## 異常與特殊情境

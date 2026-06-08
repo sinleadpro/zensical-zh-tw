@@ -2,7 +2,7 @@
 title: MYPAY 無線刷卡機
 description: 透過商米（Sunmi）無線刷卡發票機，商家可以結合平板電腦實現「移動式 POS」店點適合快閃店、外帶櫃檯或大型門市的機動結帳需求。
 created: 2026-03-25 17:30
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -76,7 +76,7 @@ hide: []
 透過商米（Sunmi）無線刷卡發票機，商家可以結合平板電腦實現「移動式 POS」店點，適合快閃店、外帶櫃檯或大型門市的機動結帳需求。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階PLUS / 高手 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
 !!! tip "應用情境"

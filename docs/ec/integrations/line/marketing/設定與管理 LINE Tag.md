@@ -2,7 +2,7 @@
 title: 設定與管理 LINE Tag
 description: 設定 LINE Tag ID，並追蹤 LINE OA 訊息推播或 LINE LAP 廣告帶來的轉換成效。
 created: 2026-03-10 15:13
-last_modified: 2026-03-11 15:53
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -201,7 +201,7 @@ LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，�
 <div class="grid cards" markdown>
 
 - :lucide-split:{ .lg }   
-  [__受眾串接__](設定 LINE OA 受眾串接.md)  
+  [__受眾串接__](設定 LINE OA 受眾串接.md){ title="設定 LINE OA 受眾串接" }  
   篩選官網會員同步至 LINE 建立受眾，以進行精準推播或廣告投放。
 
 </div>

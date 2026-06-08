@@ -2,7 +2,7 @@
 title: 安裝 Meta Ads App
 description: 透過 CYBERBIZ 管理後台安裝 Meta Ads App。
 created: 2026-04-20 15:30
-last_modified: 2026-04-20 10:00
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -58,7 +58,7 @@ hide: []
 透過 CYBERBIZ 管理後台安裝 Meta Ads App。
 { .subtitle }
 
-[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能) | APP MARKET
+[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能){ title="圖示慣例" } | APP MARKET
 { .doc-badge }
 
 ![Meta Ads App (APP MARKET)](../../../../assets/images/ec-第三方整合-appmarket-meta-ads-app.png){ .hero-page }
@@ -71,9 +71,9 @@ hide: []
 
 在安裝 Meta Ads App 之前，請務必依序完成以下操作，否則系統會自動跳轉至對應設定頁：
 
-- [x] **串接 [Meta 商業擴充套件](../integrations/fb/mbe/設定 FBE 帳號授權與資產連結.md){ data-preview }**：確保 EC 後台已與 Facebook 相關資產（粉專、像素、目錄）連結成功。
-- [x] **建立 [Meta 廣告帳號](../integrations/fb/meta-ads/建立 Meta 廣告帳號並儲值.md){ data-preview }**：需先於後台建立專屬廣告帳號。
-- [x] **完成 [廣告金儲值](../integrations/fb/meta-ads/建立 Meta 廣告帳號並儲值.md#儲值廣告金){ data-preview }**：商家需預先儲值廣告預算至後台方可開始投放（最低門檻為 NT$15,000）。
+- [x] **串接 [Meta 商業擴充套件](../integrations/fb/mbe/設定 FBE 帳號授權與資產連結.md){ title="設定 FBE 帳號授權與資產連結" }**：確保 EC 後台已與 Facebook 相關資產（粉專、像素、目錄）連結成功。
+- [x] **建立 [Meta 廣告帳號](../integrations/fb/meta-ads/建立 Meta 廣告帳號並儲值.md){ title="建立 Meta 廣告帳號並完成儲值" }**：需先於後台建立專屬廣告帳號。
+- [x] **完成 [廣告金儲值](../integrations/fb/meta-ads/建立 Meta 廣告帳號並儲值.md#儲值廣告金){ title="建立 Meta 廣告帳號並完成儲值" }**：商家需預先儲值廣告預算至後台方可開始投放（最低門檻為 NT$15,000）。
 
 ## 安裝步驟教學
 
@@ -89,7 +89,7 @@ hide: []
     ![安裝MetaAdsApp](../../assets/images/ec-app-market-meta-ads-app-安裝.png)
 
 4.  **確認授權**：系統會導向確認頁面，請閱讀並 **同意相關隱私條款**，最後點擊 **「確認安裝」**。
-5.  **完成安裝**：安裝完成後，可透過上述後台路徑點擊 **立即前往** 進入 Meta Ads App 介面，開始 [創建廣告活動](../integrations/fb/meta-ads/設定 Meta 廣告活動.md#創建廣告活動步驟){ data-preview } 或 [目錄商品組合](../integrations/fb/meta-ads/設定 Meta 廣告活動.md#廣告創意與商品組合設定){ data-preview }。
+5.  **完成安裝**：安裝完成後，可透過上述後台路徑點擊 **立即前往** 進入 Meta Ads App 介面，開始 [創建廣告活動](../integrations/fb/meta-ads/設定 Meta 廣告活動.md#創建廣告活動步驟){ title="設定 Meta 廣告活動" } 或 [目錄商品組合](../integrations/fb/meta-ads/設定 Meta 廣告活動.md#廣告創意與商品組合設定){ title="設定 Meta 廣告活動" }。
 
     ![前往MetaAdsApp](../../assets/images/ec-第三方整合-fb-廣告活動設定-前往meta-ads-app.png)
 
@@ -98,11 +98,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-megaphone:{ .lg }  
-  [__Meta 廣告活動__](../integrations/fb/meta-ads/設定 Meta 廣告活動.md)  
+  [__Meta 廣告活動__](../integrations/fb/meta-ads/設定 Meta 廣告活動.md){ title="設定 Meta 廣告活動" }  
   透過 Meta Ads App 設定廣告活動，直接在 EC 後台管理廣告預算、目標與素材。
 
 - :lucide-shopping-basket:{ .lg }   
-  [__Meta 廣告商品目錄__](../integrations/fb/meta-ads/設定 Meta 廣告的目錄商品組合.md)       
+  [__Meta 廣告商品目錄__](../integrations/fb/meta-ads/設定 Meta 廣告的目錄商品組合.md){ title="設定 Meta 廣告的目錄商品組合" }       
   設定廣告投放的商品組合，可透過標籤、廠商或類型篩選特定商品進行投放。
 
 </div>

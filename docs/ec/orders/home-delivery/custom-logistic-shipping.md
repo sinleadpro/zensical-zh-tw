@@ -2,7 +2,7 @@
 title: 如何使用自訂物流出貨
 description: 自訂物流的三種出貨方式：批次標記為已出貨、Excel 大量匯入託運單號、單筆訂單手動出貨，以及注意事項與後續操作。
 created: 2026-05-11 21:44
-last_modified: 2026-05-12 10:30
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -240,15 +240,15 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-check-circle:{ .lg }  
-  [__手動結案__](../order-settings/manual-order-close.md)  
+  [__手動結案__](../order-settings/manual-order-close.md){ title="如何手動結案訂單" }  
   顧客收貨後，可於訂單明細頁點擊「結案」，將訂單改為「已結案」。
 
 - :lucide-clock:{ .lg }  
-  [__啟用自動結案__](../order-settings/auto-close-order-settings.md)  
+  [__啟用自動結案__](../order-settings/auto-close-order-settings.md){ title="設定訂單自動結案" }  
   可至「設定」＞「訂單設定」開啟「出貨後 N 天自動結案」功能。
 
 - :lucide-rotate-ccw:{ .lg }  
-  [__退貨 / 換貨__](../returns-refunds/訂單退貨流程.md)  
+  [__退貨 / 換貨__](../returns-refunds/訂單退貨流程.md){ title="訂單退貨流程" }  
   若顧客需退換貨，請於訂單明細頁建立退貨單後進行處理。
 
 </div>

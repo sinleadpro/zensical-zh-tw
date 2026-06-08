@@ -2,7 +2,7 @@
 title: "將 Sitemap 提交至 Google Search Console"
 description: "將 CYBERBIZ 自動產生的 Sitemap 提交至 Google Search Console，加快網頁收錄速度並優化 SEO 表現。"
 created: "2026-03-20 13:43"
-last_modified: "2026-03-23 18:55"
+last_modified: 2026-06-08 17:15
 lang: "zh-TW"
 type: "tutorial"
 status: ""
@@ -98,8 +98,8 @@ Sitemap（網站地圖）是一份以 XML 格式呈現的檔案，用來列出�
 
 在開始上傳之前，請務必確認已完成以下設定：
 
-- [x] [**註冊 Google Search Console**](../../integrations/google/註冊並驗證 Google Search Console.md){ data-preview }：並完成網站所有權驗證。
-- [x] [**串接 Google Analytics (GA4)**](../../integrations/google/ga/建立並串接 Google Analytics.md){ data-preview }：建議 GSC 與 GA4 使用同一組 Google 帳號管理。
+- [x] [**註冊 Google Search Console**](../../integrations/google/註冊並驗證 Google Search Console.md){ title="註冊並驗證 Google Search Console" }：並完成網站所有權驗證。
+- [x] [**串接 Google Analytics (GA4)**](../../integrations/google/ga/建立並串接 Google Analytics.md){ title="建立並串接 Google Analytics" }：建議 GSC 與 GA4 使用同一組 Google 帳號管理。
 
 ## 檢測您的 Sitemap 檔案
 

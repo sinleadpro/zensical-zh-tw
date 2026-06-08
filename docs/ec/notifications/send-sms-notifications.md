@@ -2,7 +2,7 @@
 title: 設定與發送簡訊通知
 description: 如何在 CYBERBIZ 後台設定與發送簡訊，包含發送方式、費用計算與操作步驟。
 created: 2026-04-27 17:09
-last_modified: 2026-04-28 10:30
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -89,7 +89,7 @@ hide: []
 | 發送地區 | 費用 (每封) | 單封字數上限 | 備註 |
 | :--- | :--- | :--- | :--- |
 | **國內簡訊** | 1 Cyber 幣 | 70 字 | **70 字以內** 計為一封；超過 70 字後，每 **67 字** 計為一封。 |
-| **海外簡訊** | 5 Cyber 幣 | 70 字 | 同上（需開啟海外發送功能）。需預先開啟 [海外發送功能](manage-sms-templates.md#進入路徑與介面概觀){ data-preview } |
+| **海外簡訊** | 5 Cyber 幣 | 70 字 | 同上（需開啟海外發送功能）。需預先開啟 [海外發送功能](manage-sms-templates.md#進入路徑與介面概觀){ title="設定與管理簡訊通知樣板" } |
 
 !!! warning "NCC 規範：自動添加前綴標籤"
     因應 NCC 規範，系統發送時會於簡訊開頭自動加上 「商家名稱」 或 「【CYBERBIZ代發】」：
@@ -120,7 +120,7 @@ hide: []
 ## 發送簡訊的三種方法
 
 !!! info "開始之前"
-    - **一般版** 用戶使用前請先 [儲值 Cyber 幣](../website-management/Cyber 幣儲值中心使用指南.md#如何儲值-cyber-幣){ data-preview }。
+    - **一般版** 用戶使用前請先 [儲值 Cyber 幣](../website-management/Cyber 幣儲值中心使用指南.md#如何儲值-cyber-幣){ title="Cyber 幣儲值中心使用指南" }。
     - **PLUS / 企業版 用戶** 不須額外儲值 Cyber 幣即可使用。
 
 商家可依據需求，登入 CYBERBIZ 管理後台後，前往 **訊息推播 > 發送簡訊**，選擇合適的發送方式：
@@ -216,7 +216,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-message-square-text:{ .lg }  
-  [__簡](manage-sms-templates.md)訊通知樣板.md)  
+  [__簡](manage-sms-templates.md){ title="設定與管理簡訊通知樣板" }訊通知樣板.md)  
   商家可自訂系統在特定情境下（如訂單成立、出貨、密碼變更）自動發送的簡訊內容，並開啟短網址功能節省字數。
 
 - :lucide-zap:{ .lg }  
@@ -224,7 +224,7 @@ hide: []
   企業版與 PLUS版 商家可利用 CYBERBIZ AUTOMATION 建立自動化簡訊流程，設定一次性或週期性發送。
 
 - :lucide-history:{ .lg }  
-  [__查詢簡訊發送紀錄__](track-sms-records.md)  
+  [__查詢簡訊發送紀錄__](track-sms-records.md){ title="查詢與追蹤簡訊發送紀錄" }  
   可查詢店鋪的簡訊發送歷史，包含發送時間、收件手機、訊息內容與費用。
 
 - :lucide-user-plus:{ .lg }  

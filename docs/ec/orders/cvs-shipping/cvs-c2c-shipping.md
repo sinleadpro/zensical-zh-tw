@@ -2,7 +2,7 @@
 title: 操作超商店到店 C2C 出貨
 description: 包裝商品並透過超商店到店（C2C）寄件至消費者指定門市，包括完整操作流程與注意事項。
 created:
-last_modified: 2024-05-23
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/cvs-shipping/cvs-c2c-shipping
 type: tutorial
@@ -155,7 +155,7 @@ hide:
 
 #### 熱感列印（A6）
     
-- 支援 7-ELEVEN 與全家 C2C，僅可使用「新版訂單列表」下載。瞭解 [如何熱感列印超商托運單](thermal-print-cvs-waybill.md)。
+- 支援 7-ELEVEN 與全家 C2C，僅可使用「新版訂單列表」下載。瞭解 [如何熱感列印超商托運單](thermal-print-cvs-waybill.md){ title="熱感列印超商托運單" }。
 - _註：熱感列印功能僅限 PLUS 與 企業版 的商家使用。_ 
         
 #### 超商列印
@@ -319,11 +319,11 @@ graph LR
 <div class="grid cards" markdown>
 
 - :lucide-printer:{ .lg }   
-  [__超商熱感列印__](thermal-print-cvs-waybill.md)     
+  [__超商熱感列印__](thermal-print-cvs-waybill.md){ title="熱感列印超商托運單" }     
   使用熱感列印，列印超商托運單。
 
 - :lucide-snowflake:{ .lg }     
-  [__全家冷凍店到店__](family-mart-frozen-c2c)  
+  [__全家冷凍店到店__](family-mart-frozen-c2c){ title="操作全家冷凍店到店 C2C 出貨" }  
   設定商品的配送物流條件，限制特定物流方式於結帳流程中的顯示與使用。
 
 </div>

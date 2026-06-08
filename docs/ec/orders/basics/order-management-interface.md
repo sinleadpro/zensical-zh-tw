@@ -2,7 +2,7 @@
 title: 訂單管理介面說明
 description: 說明「所有訂單」介面的各項管理功能，協助商家執行從訂單篩選、貨態追蹤到明細編輯的核心營運作業。
 created:
-last_modified: 2026-05-05 10:05
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/basics/order-management-interface
 type: tutorial
@@ -189,11 +189,11 @@ hide:
 
 -   :lucide-printer:{ .lg .middle } __列印__
 
-- :lucide-check:{ .lg .middle } [__結案訂單__](../order-settings/manual-order-close.md){ data-preview }
+- :lucide-check:{ .lg .middle } [__結案訂單__](../order-settings/manual-order-close.md){ title="如何手動結案訂單" }
 
--   :lucide-ban:{ .lg .middle } [__取消訂單__](cancel-order.md){ data-preview }
+-   :lucide-ban:{ .lg .middle } [__取消訂單__](cancel-order.md){ title="如何取消訂單" }
 
--   :lucide-edit:{ .lg .middle } [__編輯訂單__](edit-order-content.md){ data-preview }
+-   :lucide-edit:{ .lg .middle } [__編輯訂單__](edit-order-content.md){ title="編輯訂單內容" }
 
 </div>
 
@@ -205,7 +205,7 @@ hide:
 
 - **貨款資訊：** 顯示付款方式與狀態（如：等待付款、已收到款項）。
 	
-	- 若顧客尚未付款，商家可在此複製[ **「付款連結」** ](../order-settings/provide-payment-link.md){ data-preview }  提供給顧客重新支付。
+	- 若顧客尚未付款，商家可在此複製[ **「付款連結」** ](../order-settings/provide-payment-link.md){ title="提供顧客付款連結" }  提供給顧客重新支付。
 	- 若會員使用 **銀行轉帳** 付款（ 企業版 不支援匯款），當商家確認已收到款項，請按下「確認收款」，將付款狀態變更成已收到款項。
 
 - **出貨操作：**
@@ -217,7 +217,7 @@ hide:
 	
 	- **選擇出貨方式：** 系統串接物流（可直接產單）或自訂出貨方式（需手動回填單號）。
 	
-	- **物流提示文字：** 針對串接物流，出貨後會顯示「**待物流收件**」或「**配送中**」等細節資訊。詳情請參閱 [物流提示文字說明](../home-delivery/shipping-status-tooltip.md){ data-preview }  
+	- **物流提示文字：** 針對串接物流，出貨後會顯示「**待物流收件**」或「**配送中**」等細節資訊。詳情請參閱 [物流提示文字說明](../home-delivery/shipping-status-tooltip.md){ title="出貨狀態物流提示文字說明" }  
 
 === "未出貨"
 
@@ -241,7 +241,7 @@ hide:
 	
 - **發票：** 連接至綠界。
 
-- **個資隱碼：** 若後台開啟了[安全性設定](../../website-management/設定網站安全性.md#會員個資部分隱碼)，列印明細時系統會自動遮蓋會員姓名、手機及地址的部分字元以保護隱私。
+- **個資隱碼：** 若後台開啟了[安全性設定](../../website-management/設定網站安全性.md#會員個資部分隱碼){ title="設定網站安全性" }，列印明細時系統會自動遮蓋會員姓名、手機及地址的部分字元以保護隱私。
 
 ![](../../../assets/images/ec-訂單明細頁-訂購人與收貨人資訊.png)
 
@@ -305,7 +305,7 @@ hide:
 
 ## 批次操作功能
 
-在訂單列表勾選多筆訂單後，可透過 **「更多操作」** 選單進行批次處理（各項功能定義請參考 [訂單列表操作功能說明](../references/order-list-features.md){ data-preview }）。
+在訂單列表勾選多筆訂單後，可透過 **「更多操作」** 選單進行批次處理（各項功能定義請參考 [訂單列表操作功能說明](../references/order-list-features.md){ title="訂單列表操作功能說明" data-preview }）。
 
 - **更改訂單/狀態：** 批次變更訂單、配送或退貨狀態。例如將訂單轉為「準備出貨」，或執行「下載託運單並改為已出貨」。
     

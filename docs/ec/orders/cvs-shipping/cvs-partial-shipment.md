@@ -2,7 +2,7 @@
 title: 處理超商訂單部分出貨
 description: 處理超商訂單（7-11、全家、萊爾富）的部分出貨流程，包含第一筆超商系統出貨與剩餘商品自訂物流出貨的完整操作步驟。
 created: 2026-05-26 16:14
-last_modified: 2026-05-26 19:30
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -271,7 +271,7 @@ hide: []
 
 ## 參考資料 { #reference-cvs-partial-shipment }
 
-- [超商物流部分出貨支援對照表](../references/cvs-partial-shipping-support.md)
-- [訂單篩選條件與狀態對照表](../references/order-filter-status-reference.md)
+- [超商物流部分出貨支援對照表](../references/cvs-partial-shipping-support.md){ title="超商物流部分出貨支援對照表" data-preview }
+- [訂單篩選條件與狀態對照表](../references/order-filter-status-reference.md){ title="訂單篩選條件與狀態對照表" data-preview }
 <!-- - [自訂出貨物流商列表](../../payments-and-logistics/references/custom-shipping-companies.md) -->
 

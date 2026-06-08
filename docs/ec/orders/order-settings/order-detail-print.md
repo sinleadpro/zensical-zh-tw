@@ -2,7 +2,7 @@
 title: 設定與列印訂單明細
 description: 自訂訂單明細的顯示內容、套用列印模板、啟用訂單明細列印個資遮罩，以及從訂單列表列印或下載 PDF。
 created: 2026-05-08 14:21
-last_modified: 2026-05-28 21:12
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -88,7 +88,7 @@ hide: []
 - [x] 啟用訂單明細列印個資遮罩
 - [x] 從訂單列表列印或下載 PDF
 
-如需設定提供給內部出貨人員使用的「出貨明細」，請參考另一篇文件：[設定與列印出貨明細](shipping-detail-print.md){ data-preview }。
+如需設定提供給內部出貨人員使用的「出貨明細」，請參考另一篇文件：[設定與列印出貨明細](shipping-detail-print.md){ title="設定與列印出貨明細" }。
 
 ??? info "出貨明細與訂單明細差異"
 
@@ -288,7 +288,7 @@ hide: []
 
 ## 個資隱碼 { #orders-print-pii-masking }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業 PLUS / 高手 PLUS / 進階 PLUS / 企業版
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案){ title="圖示慣例" } | 專業 PLUS / 高手 PLUS / 進階 PLUS / 企業版
 { doc-badge }
 
 若您的方案支援此功能，可於列印時遮罩部分會員資訊。
@@ -359,7 +359,7 @@ hide: []
 
 ??? quote "出貨明細與訂單明細是同一份嗎？"
 
-    不是。兩者為獨立設定。詳見：[設定與列印出貨明細](shipping-detail-print.md){ data-preview }
+    不是。兩者為獨立設定。詳見：[設定與列印出貨明細](shipping-detail-print.md){ title="設定與列印出貨明細" }
 
     - **訂單明細**：提供給顧客，通常包含金額與付款資訊
     - **出貨明細**：提供給內部出貨人員，通常不含金額

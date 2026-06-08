@@ -2,7 +2,7 @@
 title: "申請與設定 LINE 直播功能"
 description: 如何申請 LINE 直播功能，並完成後台參數設定與商品串接。 
 created: "2026-03-13 10:35"
-last_modified: "2026-03-13 10:45"
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: 
@@ -68,7 +68,7 @@ hide: []
 如何申請 LINE 直播功能，並完成後台參數設定與商品串接。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案){ title="圖示慣例" } | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
 ![](../../../assets/images/ec-第三方整合-line購物設定-lineoa導購-hero.png){ .hero-page }
@@ -132,7 +132,7 @@ hide: []
     *   **LINE 自動同步**：每日 5:00 AM 將目錄資訊同步至 LINE 直播後台。
     *   **手動更新**：若急需同步修改後的商品資訊，可至「LINE購物設定」點擊 **「手動更新目錄」**（一小時僅限點擊一次）。
 4.  **搜尋商品建議**：於直播後台搜尋商品時，建議使用 **Product ID (PID)** 最為精準。
-    *   *PID 取得方式：點開後台商品編輯頁（商品資訊頁籤）網址最後方的數字，或從[匯出商品列表中查看 ID 欄位](../../products/bulk-operations/Excel 大量匯入商品.md#判斷-excel-上傳商品是新增還是更新){ data-preview }。*
+    *   *PID 取得方式：點開後台商品編輯頁（商品資訊頁籤）網址最後方的數字，或從[匯出商品列表中查看 ID 欄位](../../products/bulk-operations/Excel 大量匯入商品.md#判斷-excel-上傳商品是新增還是更新){ title="Excel 大量匯入商品" }。*
 
     ![](../../../assets/images/ec-商品-商品編輯頁-pid-slug.png)
 

@@ -2,7 +2,7 @@
 title: 使用超商大宗寄倉（B2C）出貨
 description: 於訂單列表批次下載託運單、產生託運單號，並將集中包裝的貨件寄至超商物流中心，再由物流中心分發至消費者指定門市。
 created: 2026-05-25 20:35
-last_modified: 2026-05-28 21:12
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -69,7 +69,7 @@ hide: []
 於訂單列表批次下載託運單、產生託運單號，並將集中包裝的貨件寄至超商物流中心，再由物流中心分發至消費者指定門市。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 進階 / 高手 / 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 / 高手 / 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
 ![下載B2C託運單](../../../assets/images/EC-訂單-所有訂單-下載B2C託運單-hero.png){ .hero-page }
@@ -85,10 +85,10 @@ hide: []
 
 ## 使用前提與限制 { #prerequisites-cvs-b2c-shipping }
 
-- [x] **通路已設定並啟用**：需先於「[設定超商大宗寄倉 B2C](../../payments-and-logistics/設定超商大宗寄倉 B2C.md){ data-preview }」完成申請、測標、啟用。
+- [x] **通路已設定並啟用**：需先於「[設定超商大宗寄倉 B2C](../../payments-and-logistics/設定超商大宗寄倉 B2C.md){ title="設定超商大宗寄倉 B2C" }」完成申請、測標、啟用。
 - [x] **訂單狀態符合**：付款狀態需為「**已收到款項**」或「**貨到付款**」，配送狀態需為「**未出貨**」或「**處理中**」。
 - [x] **同一批次需同通路**：勾選的訂單必須屬於同一家超商（例：皆為 7-ELEVEN），不同通路需分批操作。
-- [x] **Cyber 幣餘額充足**：一般版 商家需確認餘額足以扣除運費，詳見 [計費方式](../../payments-and-logistics/references/超商大宗寄倉 B2C 方案與計費對照.md#reference-cvs-b2c-plans-billing){ data-preview }。
+- [x] **Cyber 幣餘額充足**：一般版 商家需確認餘額足以扣除運費，詳見 [計費方式](../../payments-and-logistics/references/超商大宗寄倉 B2C 方案與計費對照.md#reference-cvs-b2c-plans-billing){ title="超商大宗寄倉B2C方案與計費對照" data-preview }。
 
 ## 操作步驟 { #operate-cvs-b2c-shipping }
 
@@ -98,7 +98,7 @@ hide: []
 2. **勾選訂單**：在訂單列表勾選欲出貨的訂單，**請確保勾選的訂單皆為相同配送方式**（例如皆為 7-ELEVEN 超商取貨）。
 3. **執行下載**：點擊頁面右上方「**更多操作**」下拉，選擇「**列印 B2C 大宗託運單並改為『已出貨』**」[^1]。
 4. **確認操作**：彈窗顯示「確認要『列印 B2C 大宗託運單並改為已出貨』嗎？」後點擊 **「確認」**。
-5. **下載文件**：系統會自動產生託運單號並下載含託運資料的壓縮檔，訂單列表配送狀態變為「**已出貨**」，訂單詳情頁則顯示「**[已出貨（待物流收件）](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ data-preview }**」。
+5. **下載文件**：系統會自動產生託運單號並下載含託運資料的壓縮檔，訂單列表配送狀態變為「**已出貨**」，訂單詳情頁則顯示「**[已出貨（待物流收件）](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" }**」。
 
 ![下載b2c大宗託運單](../../../assets/images/EC-訂單-所有訂單-下載b2c大宗託運單.png)
 
@@ -133,9 +133,9 @@ hide: []
 1. **包裹封裝**：將個別貼好標籤的商品 **集中裝入大紙箱**，不可散裝。若因無外箱保護導致損壞，需由商家承擔。
 2. **聯絡貨運**：自行聯絡第三方物流（如黑貓、宅配通、新竹物流）將大紙箱寄至對應物流中心。
     - 完整收貨地址、時段、收件單位請見
-[物流中心收貨資訊](../../payments-and-logistics/references/超商大宗寄倉 B2C 物流中心對照.md#reference-cvs-b2c-centers-list){ data-preview }。
-    - 各通路包裝方式、送貨車輛等要求請一併參閱 [到倉驗收規範](../../payments-and-logistics/references/超商大宗寄倉 B2C 物流中心對照.md#reference-cvs-b2c-acceptance-rules){ data-preview }。
-3. **物流中心簽收**：物流中心收件後，系統訂單狀態會由「待物流收件」自動變更為「**[已出貨（配送中）](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ data-preview }**」。
+[物流中心收貨資訊](../../payments-and-logistics/references/超商大宗寄倉 B2C 物流中心對照.md#reference-cvs-b2c-centers-list){ title="物流中心收貨資訊" data-preview }。
+    - 各通路包裝方式、送貨車輛等要求請一併參閱 [到倉驗收規範](../../payments-and-logistics/references/超商大宗寄倉 B2C 物流中心對照.md#reference-cvs-b2c-acceptance-rules){ title="物流中心收貨資訊" data-preview }。
+3. **物流中心簽收**：物流中心收件後，系統訂單狀態會由「待物流收件」自動變更為「**[已出貨（配送中）](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" }**」。
 
 !!! tip "取貨簡訊通知"
     商品送達消費者指定門市後，系統會於第 **1 天**、第 **4 天** 自動發送取貨簡訊通知消費者。
@@ -179,9 +179,9 @@ hide: []
 * **CYBER 幣餘額不足將擋下載**：一般版 商家若 CYBER 幣不足，系統會直接擋下載並提示「CYBER 幣餘額不足」。詳見
 [計費方式](../../payments-and-logistics/references/超商大宗寄倉%20B2C%20方案與計費對照.md#reference-cvs-b2c-plans-billing){ data-preview }。
 * **重量與材積限制**：訂單總重量 / 材積若超過該通路上限將無法產生託運單，詳見
-[重量與材積限制](../../payments-and-logistics/references/超商大宗寄倉 B2C 通路規格對照.md#reference-cvs-b2c-channels-specs){ data-preview }。
+[重量與材積限制](../../payments-and-logistics/references/超商大宗寄倉 B2C 通路規格對照.md#reference-cvs-b2c-channels-specs){ title="超商大宗寄倉B2C通路規格" data-preview }。
 * **5 天交寄期限**：託運單產生隔日起 5 天內未送達物流中心將自動失效，且無法補印或退費。
-* **到貨驗收規範**：各通路對包裝方式、送貨車輛有不同要求，不符規範可能遭拒收，詳見[到倉驗收規範](../../payments-and-logistics/references/超商大宗寄倉 B2C 物流中心對照.md#reference-cvs-b2c-acceptance-rules){ data-preview }。
+* **到貨驗收規範**：各通路對包裝方式、送貨車輛有不同要求，不符規範可能遭拒收，詳見[到倉驗收規範](../../payments-and-logistics/references/超商大宗寄倉 B2C 物流中心對照.md#reference-cvs-b2c-acceptance-rules){ title="物流中心收貨資訊" data-preview }。
 
 ---
 
@@ -190,11 +190,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-settings:{ .lg }  
-  [__設定超商大宗寄倉 B2C__](../../payments-and-logistics/設定超商大宗寄倉 B2C.md)  
+  [__設定超商大宗寄倉 B2C__](../../payments-and-logistics/設定超商大宗寄倉 B2C.md){ title="設定超商大宗寄倉 B2C" }  
   尚未開通通路？先完成申請與啟用。
 
 - :lucide-coins:{ .lg }  
-  [__儲值 CYBER 幣__](../../website-management/Cyber 幣儲值中心使用指南.md)  
+  [__儲值 CYBER 幣__](../../website-management/Cyber 幣儲值中心使用指南.md){ title="Cyber 幣儲值中心使用指南" }  
   一般版商家確保餘額足以扣除大量訂單運費。
 
 - :lucide-file-text:{ .lg }  
@@ -214,7 +214,7 @@ hide: []
     - 訂單付款狀態不符（需為「已收到款項」或「貨到付款」）
     - 訂單配送狀態已是「已出貨」或「已取消」
     - CYBER 幣餘額不足（一般版）
-    - 該通路尚未在後台啟用，請至 [設定頁](../../payments-and-logistics/設定超商大宗寄倉 B2C.md){ data-preview } 確認
+    - 該通路尚未在後台啟用，請至 [設定頁](../../payments-and-logistics/設定超商大宗寄倉 B2C.md){ title="設定超商大宗寄倉 B2C" } 確認
 
 ??? quote "點擊下載託運單後沒有反應怎麼辦？"
     [](){ #faq-cvs-b2c-shipping-no-response }
@@ -249,7 +249,7 @@ hide: []
 ??? quote "如何確認物流中心已收到貨品？"
     [](){ #faq-cvs-b2c-shipping-confirm-receipt }
     
-    物流中心簽收後，系統訂單狀態會由「待物流收件」自動變更為「**[已出貨（配送中）](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ data-preview }**」，您可在訂單列表或訂單詳情頁確認最新狀態。
+    物流中心簽收後，系統訂單狀態會由「待物流收件」自動變更為「**[已出貨（配送中）](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" }**」，您可在訂單列表或訂單詳情頁確認最新狀態。
 
 ??? quote "B2C 大宗寄倉與一般超商取貨 C2C 有什麼不同？"
     [](){ #faq-cvs-b2c-shipping-vs-c2c }
@@ -263,7 +263,7 @@ hide: []
 
 ## 參考資料 { #reference-cvs-b2c-shipping }
 
-- [物流中心收貨資訊](../../payments-and-logistics/references/超商大宗寄倉 B2C 物流中心對照.md){ title="物流中心收貨地址、時段與收件單位一覽" }
-- [各通路重量與材積限制](../../payments-and-logistics/references/超商大宗寄倉 B2C 通路規格對照.md){ title="各超商通路單筆訂單的重量與材積上限" }
-- [方案開通與計費對照](../../payments-and-logistics/references/超商大宗寄倉 B2C 方案與計費對照.md){ title="大宗寄倉 B2C 方案開通流程與運費計費方式" }
+- [物流中心收貨資訊](../../payments-and-logistics/references/超商大宗寄倉 B2C 物流中心對照.md){ title="物流中心收貨資訊" data-preview }
+- [各通路重量與材積限制](../../payments-and-logistics/references/超商大宗寄倉 B2C 通路規格對照.md){ title="超商大宗寄倉B2C通路規格" data-preview }
+- [方案開通與計費對照](../../payments-and-logistics/references/超商大宗寄倉 B2C 方案與計費對照.md){ title="超商大宗寄倉B2C方案與計費對照" data-preview }
 

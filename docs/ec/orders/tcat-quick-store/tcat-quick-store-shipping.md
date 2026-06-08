@@ -2,7 +2,7 @@
 title: 使用黑貓快速到店出貨
 description: 批次下載黑貓快速到店託運單、扣除運費並將訂單貨態更新為已出貨。
 created: 2026-05-18 15:26
-last_modified: 2026-06-05 16:10
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -91,8 +91,8 @@ hide: []
 「黑貓快速到店」是商家將商品委由黑貓物流送至消費者指定的 7-11 門市進行取貨的服務，依商品溫層分為常溫、冷藏、冷凍三種。本文將引導您如何在新版訂單列表中批次處理訂單、下載託運單，並將貨態變更為「已出貨」。
 
 !!! info "其他黑貓服務"
-    * 若顧客選擇宅配，請見 [使用黑貓宅配出貨](../home-delivery/tcat-home-delivery.md)。
-    * 自動呼叫黑貓司機到府收件，請見 [自動呼叫黑貓司機取件](../home-delivery/tcat-auto-call-driver.md)。
+    * 若顧客選擇宅配，請見 [使用黑貓宅配出貨](../home-delivery/tcat-home-delivery.md){ title="使用黑貓宅配出貨" }。
+    * 自動呼叫黑貓司機到府收件，請見 [自動呼叫黑貓司機取件](../home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }。
 
 ## 使用前提 { #prerequisites-tcat-cvs }
 
@@ -167,7 +167,7 @@ hide: []
         * 若涉及特殊材積、特殊商品內容或特殊寄送地點（例如離島、偏遠地區），將依物流商之特殊規定另行計價。
         * **貨到付款訂單**：黑貓將另外酌收代收款項手續費，費率依黑貓合約規範計算。
 
-5. **（選用）設定自動呼叫司機取件**：若商店已開通「[呼叫黑貓](../home-delivery/tcat-auto-call-driver.md){ data-preview }」加值功能，視窗中會出現「是否自動呼叫黑貓司機取件」選項，選擇 **是** 後會展開以下三個欄位：
+5. **（選用）設定自動呼叫司機取件**：若商店已開通「[呼叫黑貓](../home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }」加值功能，視窗中會出現「是否自動呼叫黑貓司機取件」選項，選擇 **是** 後會展開以下三個欄位：
 
     * **是否需在取件前事先電話聯絡**：選「是」時，司機抵達前會撥打「[黑貓寄取件設定頁][configure-ezcat-cvs-shipping-note-sender]{ data-preview }」中的聯絡電話與您確認。
     * **是否需黑貓司機準備推車**：若包裹數量較多，可請司機自備推車。
@@ -197,7 +197,7 @@ hide: []
 下載託運單後，需聯繫黑貓司機到貨取件:
 
 * **電話呼叫**：撥打黑貓客服專線 (02-412-8888) 安排取件。
-* **從後台直接呼叫**：若已開通 [呼叫黑貓功能](../home-delivery/tcat-auto-call-driver.md){ data-preview }，可在下載託運單時於彈出視窗內預約司機取件。
+* **從後台直接呼叫**：若已開通 [呼叫黑貓功能](../home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }，可在下載託運單時於彈出視窗內預約司機取件。
 
 ---
 
@@ -258,11 +258,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-printer:{ .lg }  
-  [__補印託運單__](../../payments-and-logistics/補印與加印託運單.md)  
+  [__補印託運單__](../../payments-and-logistics/補印與加印託運單.md){ title="補印與加印託運單" }  
   若須重新列印（例如標籤受潮、列印不清），回到訂單列表勾選同筆訂單，於「更多操作」選擇補印託運單。
 
 - :lucide-truck:{ .lg }  
-  [__自動呼叫司機__](../home-delivery/tcat-auto-call-driver.md)  
+  [__自動呼叫司機__](../home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }  
   開通「呼叫黑貓」加值功能者可於列印託運單時自動呼叫司機。
 
 - :lucide-package-check:{ .lg }  
@@ -270,7 +270,7 @@ hide: []
   若一筆訂單中只想先寄出部分商品，可改從訂單詳情頁勾選指定品項。
 
 - :lucide-copy-plus:{ .lg }  
-  [__加印託運單__](../../payments-and-logistics/設定與加印黑貓託運單.md)  
+  [__加印託運單__](../../payments-and-logistics/設定與加印黑貓託運單.md){ title="設定與加印黑貓託運單" }  
   若一筆訂單因商品多需拆分為多箱寄出，每箱需各自一張託運單。
 
 - :lucide-receipt:{ .lg }  

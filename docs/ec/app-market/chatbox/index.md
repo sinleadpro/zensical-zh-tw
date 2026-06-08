@@ -2,7 +2,7 @@
 title: Chat Box 訊息通
 description: 透過單一介面整合多渠道訊息，即時掌握顧客背景與消費紀錄，打造無縫的客服體驗。
 created: 2026-05-28 11:45
-last_modified: 2026-05-28 11:41
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -135,14 +135,14 @@ hide: []
 在聊天室中，您可以：
 
 - **發送多媒體**：點擊圖示上傳圖片、影片或檔案。
-- **使用 AI 助手**：搭配 [Chat Box AI 建議回覆](Chat Box AI 建議回覆.md)，由 AI 根據您的資料庫生成客製化回覆草稿。
+- **使用 AI 助手**：搭配 [Chat Box AI 建議回覆](Chat Box AI 建議回覆.md){ title="Chat Box AI 建議回覆" }，由 AI 根據您的資料庫生成客製化回覆草稿。
 - **查閱歷史紀錄**：向上捲動即可查看過往所有對話軌跡。
 
 !!! warning "訊息規格限制"
     不同平台支援的訊息格式與政策不一，操作前請參考：
     
-    - [LINE 訊息格式規範](LINE 訊息格式規範.md)
-    - [Meta 訊息格式規範](Meta 訊息格式規範.md)
+    - [LINE 訊息格式規範](LINE 訊息格式規範.md){ title="LINE 訊息格式規範" }
+    - [Meta 訊息格式規範](Meta 訊息格式規範.md){ title="Meta 訊息格式規範" }
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-介面導覽04.png){ .small-image }
 

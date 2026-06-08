@@ -2,7 +2,7 @@
 title: 設定 Facebook 跟 Instagram 商店
 description: 設定 Facebook 與 Instagram 商店，建立社群銷售管道並同步商品。
 created: 2026-04-13 16:31
-last_modified: 2026-04-14 09:30
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -86,8 +86,8 @@ hide: []
 
 在開始串接 Facebook 與 Instagram 商店前，請先依序完成以下設定：
 
-- [x] **[帳號授權與資產連結](設定 FBE 帳號授權與資產連結.md){ data-preview }** - 將像素、粉絲專頁、目錄及廣告帳號等資產連結至 CYBERBIZ 後台
-- [x] **[網域驗證](設定 FBE 網域驗證.md){ data-preview }** - 完成網域驗證以設定 8 個彙總事件，確保廣告轉換數據準確
+- [x] **[帳號授權與資產連結](設定 FBE 帳號授權與資產連結.md){ title="設定 FBE 帳號授權與資產連結" }** - 將像素、粉絲專頁、目錄及廣告帳號等資產連結至 CYBERBIZ 後台
+- [x] **[網域驗證](設定 FBE 網域驗證.md){ title="設定 FBE 網域驗證" }** - 完成網域驗證以設定 8 個彙總事件，確保廣告轉換數據準確
 
 完成上述兩項設定後，串接商店時系統會自動帶入相關資料（如已連結的目錄），您只需依畫面引導完成商店設定即可。
 
@@ -140,7 +140,7 @@ Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專
 
     ![連結IG資產](../../../../assets/images/ec-第三方整合-fbe-串接fb-ig商店-連結資產.png)
 
-5.  **填寫網域**：若您事前已完成[網域驗證](設定 FBE 網域驗證.md){ data-preview }，系統通常會自動帶入已驗證的網域。若未自動帶入，請輸入您的官網網域（如 `yourstore.com`）以完成驗證連結。
+5.  **填寫網域**：若您事前已完成[網域驗證](設定 FBE 網域驗證.md){ title="設定 FBE 網域驗證" }，系統通常會自動帶入已驗證的網域。若未自動帶入，請輸入您的官網網域（如 `yourstore.com`）以完成驗證連結。
 6.  **查看管道**：設定完成後，在銷售管道中即可看到已連結的 IG 帳號。
 
     ![檢視連結的IG商店](../../../../assets/images/ec-第三方整合-fbe-串接fb-ig商店-完成驗證.png)
@@ -157,11 +157,11 @@ Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專
 <div class="grid cards" markdown>
 
 - :lucide-package-x:{ .lg }   
-  [__排除商店商品__](../../../products/categories-and-tags/管理商品標籤.md#排除上傳至第三方平台標籤){ data-preview }       
+  [__排除商店商品__](../../../products/categories-and-tags/管理商品標籤.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }       
   若有特定商品（如贈品或測試品）不希望同步至 Facebook 與 Instagram 商店，可透過設定商品標籤進行過濾。
 
 - :lucide-eye-off:{ .lg }   
-  [__隱藏商店或商品__](排除商品不同步至 Facebook 與 Instagram 商店.md#於商務管理工具中調整手動調整){ data-preview }       
+  [__隱藏商店或商品__](排除商品不同步至 Facebook 與 Instagram 商店.md#於商務管理工具中調整手動調整){ title="排除商品不同步至 Facebook 與 Instagram 商店" }       
   可在商務管理工具中隱藏整個商店或隱藏單一商品。
 
 </div>
@@ -171,7 +171,7 @@ Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專
 <div class="grid cards" markdown>
 
 - :lucide-swatch-book:{ .lg }   
-  [__商品色票設定__](../../../products/create-and-manage/設定商品色票與款式圖片-拖拉版型.md)       
+  [__商品色票設定__](../../../products/create-and-manage/設定商品色票與款式圖片-拖拉版型.md){ title="設定商品色票與款式圖片-拖拉版型" }       
   建議開啟色票功能並依照顏色順序放置圖片，以確保 Facebook 商店商品圖片能隨款式正確變換。
 
 </div>
@@ -194,4 +194,4 @@ Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專
 
 ??? quote "如何排除特定商品不同步至商店？"
 
-    若有「贈品」或「測試品」不希望上傳至商店，請在官網後台的商品標籤欄位輸入 **「贈品」** 或 **「排除product feed」**（排除 與 product 之間請勿添加空格），系統將自動過濾該商品。詳細操作，請參考 [如何排除商品上傳至第三方平台](../../../products/categories-and-tags/管理商品標籤.md#排除上傳至第三方平台標籤){ data-preview }。
+    若有「贈品」或「測試品」不希望上傳至商店，請在官網後台的商品標籤欄位輸入 **「贈品」** 或 **「排除product feed」**（排除 與 product 之間請勿添加空格），系統將自動過濾該商品。詳細操作，請參考 [如何排除商品上傳至第三方平台](../../../products/categories-and-tags/管理商品標籤.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }。

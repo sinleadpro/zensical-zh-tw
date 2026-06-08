@@ -2,7 +2,7 @@
 title: "建立並串接 Google Analytics"
 description: "串接 Google Analytics 4 (GA4)，包括 Google 端帳號建立、取得評估 ID，以及在 CYBERBIZ 後台填入追蹤 ID 的完整步驟。" 
 created: "2026-03-20 14:54"
-last_modified: "2026-03-23 17:00"
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -141,19 +141,19 @@ Google Analytics (GA4) 是經營品牌網站必備的分析工具，能協助行
 <div class="grid cards" markdown>
 
 - :lucide-funnel-x:{ .lg }   
-  [__排除內部流量__](設定 GA4 排除內部流量與第三方參照來源.md)     
+  [__排除內部流量__](設定 GA4 排除內部流量與第三方參照來源.md){ title="設定 GA4 排除內部流量與第三方參照來源" }     
   在 GA4 管理介面的「資料串流」中定義公司 IP，避免開發或行銷人員的瀏覽行為干擾分析。
 
 - :lucide-list:{ .lg }     
-  [__列出不適用的參照連結__](設定 GA4 排除內部流量與第三方參照來源.md#列出不適用的參照連結網址-排除第三方網站)  
+  [__列出不適用的參照連結__](設定 GA4 排除內部流量與第三方參照來源.md#列出不適用的參照連結網址-排除第三方網站){ title="設定 GA4 排除內部流量與第三方參照來源" }  
   將金物流服務商加入排除名單，以免轉換來源被誤判為第三方金流頁面。
 
 - :lucide-clock:{ .lg }     
-  [__延長資料保留期限__](設定 Google Analytics 進階追蹤與資料分析.md#資料保留-Data-Retention)  
+  [__延長資料保留期限__](設定 Google Analytics 進階追蹤與資料分析.md#資料保留-Data-Retention){ title="設定 Google Analytics 進階追蹤與資料分析" }  
   GA4 預設資料僅保留 2 個月，建議至「資料收集與修改」>「資料保留」中手動改為 **14 個月**。
   
 - :lucide-radio:{ .lg }     
-  [__啟用 Google 信號__](設定 Google Analytics 進階追蹤與資料分析.md#Google-信號-Google-Signals)  
+  [__啟用 Google 信號__](設定 Google Analytics 進階追蹤與資料分析.md#Google-信號-Google-Signals){ title="設定 Google Analytics 進階追蹤與資料分析" }  
   開啟此功能可取得跨裝置的使用行為資料與更精確的使用者輪廓。
 
 </div>

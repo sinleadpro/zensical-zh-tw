@@ -2,7 +2,7 @@
 title: Meta 廣告每日預算設定指南
 description: 設定 Meta 廣告每日預算的指南，根據新手和有經驗商家提供不同的預算計算方式與調整策略。
 created: 2026-04-20 19:52
-last_modified: 2026-04-22 11:15
+last_modified: 2026-06-08 17:15
 lang: zh-TW
 type: guide
 status: ""
@@ -79,12 +79,12 @@ hide: []
 在 CYBERBIZ 系統中投放 Meta 廣告時，設定合理的單日預算對於廣告成效與 AI 學習至關重要。根據您的廣告投放經驗，可以參考以下建議來設定預算。
 
 !!! path "後台路徑"
-    本指南提及的預算設定，請於 [設定 Meta 廣告活動](設定 Meta 廣告活動.md#活動內容設定){ data-preview } > 活動內容設定 > 每日預算 欄位中輸入。
+    本指南提及的預算設定，請於 [設定 Meta 廣告活動](設定 Meta 廣告活動.md#活動內容設定){ title="設定 Meta 廣告活動" } > 活動內容設定 > 每日預算 欄位中輸入。
 
 ## 基本規範與建議
 
 !!! info "提醒事項"
-    在設定廣告前，請務必確認已完成 [廣告帳號建立與儲值](建立 Meta 廣告帳號並儲值.md){ data-preview }，且儲值金額需大於 15,000 TWD 方可開始投放。
+    在設定廣告前，請務必確認已完成 [廣告帳號建立與儲值](建立 Meta 廣告帳號並儲值.md){ title="建立 Meta 廣告帳號並完成儲值" }，且儲值金額需大於 15,000 TWD 方可開始投放。
 
 在 CYBERBIZ 後台設定「[高效速成行銷活動 (ASC) :lucide-external-link:](https://www.facebook.com/business/help/1362234537597370)」或一般廣告活動時，需注意以下預算門檻：
 

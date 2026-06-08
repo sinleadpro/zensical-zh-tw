@@ -26,7 +26,7 @@
   跨平台通路管理。
 
 - :lucide-ticket:{ .lg }  
-  [__TICKETS__](../../e-ticket)  
+  [__TICKETS__](../../e-ticket){ title="電子票券" }  
   電子票券商品。
 
 </div>

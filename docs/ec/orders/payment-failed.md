@@ -2,7 +2,7 @@
 title: 處理付款失敗訂單
 description: 訂單付款失敗時，商家可採取的處理方式，包含引導顧客重新付款、設定自動提醒、自動取消訂單，以及定期定額重新扣款等操作。
 created: 2026-06-08 13:52
-last_modified: 2026-06-08 16:00
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -152,7 +152,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-link:{ .lg }
-  [__提供重新付款連結__](order-settings/provide-payment-link.md)
+  [__提供重新付款連結__](order-settings/provide-payment-link.md){ title="提供顧客付款連結" }
 
 </div>
 
@@ -174,13 +174,13 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-bell-ring:{ .lg }
-  [__設定付款失敗自動提醒__](order-settings/unpaid-reminder-settings.md)
+  [__設定付款失敗自動提醒__](order-settings/unpaid-reminder-settings.md){ title="設定未付款提醒" }
 
 - :lucide-mail:{ .lg }
-  [__管理 Email 通知樣板__](../notifications/manage-email-templates.md)
+  [__管理 Email 通知樣板__](../notifications/manage-email-templates.md){ title="設定與管理 Email 通知樣板" }
 
 - :lucide-message-square:{ .lg }
-  [__管理簡訊通知樣板__](../notifications/manage-sms-templates.md)
+  [__管理簡訊通知樣板__](../notifications/manage-sms-templates.md){ title="設定與管理簡訊通知樣板" }
 
 </div>
 
@@ -205,10 +205,10 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-clock-alert:{ .lg }
-  [__設定訂單自動取消__](order-settings/auto-close-order-settings.md)
+  [__設定訂單自動取消__](order-settings/auto-close-order-settings.md){ title="設定訂單自動結案" }
 
 - :lucide-circle-x:{ .lg }
-  [__商家手動取消訂單__](basics/cancel-order.md#orders-cancel-merchant)
+  [__商家手動取消訂單__](basics/cancel-order.md#orders-cancel-merchant){ title="如何取消訂單" }
 
 </div>
 
@@ -228,7 +228,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-repeat:{ .lg }
-  [__定期定額__](../marketing/定期定額活動頁.md)
+  [__定期定額__](../marketing/定期定額活動頁.md){ title="定期訂購活動頁" }
 
 </div>
 
@@ -245,7 +245,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-layers:{ .lg }
-  [__AFTEE 先享後付金流說明__](../payments-and-logistics/設定 AFTEE.md)
+  [__AFTEE 先享後付金流說明__](../payments-and-logistics/設定 AFTEE.md){ title="設定 AFTEE" }
 
 </div>
 
@@ -258,7 +258,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-shield-check:{ .lg }
-  [__設定信用卡 3D 驗證門檻__](../payments-and-logistics/設定信用卡 3D 驗證門檻.md)
+  [__設定信用卡 3D 驗證門檻__](../payments-and-logistics/設定信用卡 3D 驗證門檻.md){ title="設定信用卡 3D 驗證門檻" }
 
 </div>
 
@@ -281,22 +281,22 @@ hide: []
 
 ??? quote "付款失敗的訂單，顧客還能自己重新付款嗎？"
     [](){ #faq-payment-failed-customer-retry }
-    可以。請至 [訂單詳情頁][operate-resend]{ data-preview } 的付款狀態區塊複製結帳頁連結提供給顧客，顧客開啟後即可回到結帳頁重新付款。若顧客是在結帳當下失敗，也可直接於頁面上重試。
+    可以。請至 [訂單詳情頁](#operate-payment-failed-resend-link){ title="處理付款失敗訂單" } 的付款狀態區塊複製結帳頁連結提供給顧客，顧客開啟後即可回到結帳頁重新付款。若顧客是在結帳當下失敗，也可直接於頁面上重試。
 
 ??? quote "自動提醒最多會寄幾次？多久寄一次？"
     [](){ #faq-payment-failed-reminder-times }
-    系統會依您在 [付款失敗提醒設定][operate-reminder]{ data-preview } 填入的天數做間隔，最多寄送三次。
+    系統會依您在 [付款失敗提醒設定](#operate-payment-failed-reminder){ title="處理付款失敗訂單" } 填入的天數做間隔，最多寄送三次。
 
     - 例如設定為 3 天，1 月 1 號的訂單會在 1 月 4 號、7 號、10 號各寄一次。
     - 貨到付款訂單不在提醒範圍內。
 
 ??? quote "付款失敗的訂單會被自動取消嗎？"
     [](){ #faq-payment-failed-auto-cancel }
-    會。只要您設定了 [訂單自動取消][operate-cancel]{ data-preview } 天數(預設 7 天)，超過天數仍未付款成功的訂單，包含付款失敗的訂單，都會被系統自動取消。將天數設為 0 即可關閉自動取消。
+    會。只要您設定了 [訂單自動取消](#operate-payment-failed-cancel){ title="處理付款失敗訂單" } 天數(預設 7 天)，超過天數仍未付款成功的訂單，包含付款失敗的訂單，都會被系統自動取消。將天數設為 0 即可關閉自動取消。
 
 ??? quote "定期定額扣款失敗，顧客可以自己重新扣款嗎？"
     [](){ #faq-payment-failed-recurring }
-    不行。定期定額子訂單扣款失敗時，顧客端無法自行操作，需由您於 [定期訂單列表][operate-recharge]{ data-preview } 點擊「重新扣款」處理。
+    不行。定期定額子訂單扣款失敗時，顧客端無法自行操作，需由您於 [定期訂單列表](#operate-payment-failed-recurring-recharge){ title="處理付款失敗訂單" } 點擊「重新扣款」處理。
 
 ??? quote "美安訂單付款失敗，需要特別處理嗎？"
     [](){ #faq-payment-failed-shopcom }
@@ -306,4 +306,4 @@ hide: []
 
 ## 參考資料 { #reference-payment-failed }
 
-* [訂單付款狀態對照表](references/payment-statuses.md#payment-statuses)
+* [訂單付款狀態對照表](references/payment-statuses.md#payment-statuses){ title="訂單付款狀態對照表" data-preview }

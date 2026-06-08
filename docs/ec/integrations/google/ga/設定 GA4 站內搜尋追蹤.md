@@ -2,7 +2,7 @@
 title: 設定 GA4 站內搜尋追蹤
 description: 透過 GA4 加強型評估功能，追蹤使用者在官網上的站內搜尋行為，分析消費者的資訊需求與查找意圖。
 created: 2026-03-24 20:05
-last_modified: 2026-04-15 14:50
+last_modified: 2026-06-08 17:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -75,7 +75,7 @@ comments: false
 
 ## 前置作業
 
-- [x] 確認[官網已串接 GA4](建立並串接 Google Analytics.md){ data-preview }。
+- [x] 確認[官網已串接 GA4](建立並串接 Google Analytics.md){ title="建立並串接 Google Analytics" }。
 
 ## GA4 站內搜尋設定步驟
 

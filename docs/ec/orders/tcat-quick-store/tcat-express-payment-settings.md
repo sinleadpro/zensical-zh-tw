@@ -2,7 +2,7 @@
 title: 設定黑貓快速到店付款方式
 description: 設定黑貓快速到店的付款方式，包含貨到付款與取貨不付款的設定步驟。
 created:
-last_modified: 2026-06-04 11:26
+last_modified: 2026-06-08 19:09
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/tcat-quick-store/tcat-express-payment-settings
 type: tutorial
@@ -52,14 +52,6 @@ features:
 prerequisites:
   - 開通 CYBERBIZ PAYMENTS (若需使用貨到付款功能)
 related: []
-tags:
-  - 黑貓快速到店
-  - 超商物流
-  - 貨到付款
-  - 取貨不付款
-  - 7-11 配送
-  - 黑貓物流
-  - 物流設定
 acoiv:
 apis: []
 devices:
@@ -71,11 +63,11 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2655
   - https://www.cyberbiz.io/support/?p=8846
-comments: false
 search:
   exclude: false
 icon: lucide/wallet
 hide:
+comments: false
 ---
 
 # 設定黑貓快速到店付款方式
@@ -89,13 +81,12 @@ hide:
 
 商家可提供「貨到付款」與「取貨不付款」兩種選擇，其運作模式是由黑貓司機到商家指定地點收貨，隨後配送至消費者指定的 **7-11 門市**。
 
-
 ## 步驟一：後台設定路徑
 
-1. 登入 CYBERBIZ 管理後台，前往 **金物流 > 超商物流**。
+1. 登入管理後台，前往 **金物流 > 超商物流**。
 2. 在 **黑貓快速到店** 區塊，點擊編輯按鈕 :material-file-document-edit-outline: 進入編輯頁面。
 
-![](../../../assets/images/ec-金物流-超商物流-黑貓店到店-設定.gif)
+![編輯黑貓快速到店](../../../assets/images/ec-金物流-超商物流-黑貓快速到店-編輯.png)
 
 ## 步驟二：付款方式設定步驟
 
@@ -113,6 +104,8 @@ hide:
 	
 4. 點擊 **儲存**，套用變更。
 
+![黑貓快速到店-貨到付款](../../../assets/images/ec-金物流-超商物流-黑貓快速到店-貨到付款.png)
+
 ??? note "黑貓快速到店代收金額表"
 
 	|**貨到付款手續費 (TWD)**|**代收金額 (TWD)**|
@@ -123,7 +116,9 @@ hide:
 	| 120 |10,001 ~ 20,000 |
 	| 150 |20,001 ~ 50,000 |
 	| 300 |50,001 ~ 100,000 |
-	
+
+---
+
 ### 設定「取貨不付款」（貨到不付款）
 
 1. 切換至 **取貨不付款** 頁籤。
@@ -131,6 +126,8 @@ hide:
 3. **運費設定：** 可針對各別溫層設定基本運費與免運金額，若不開放免運則選擇「關閉」。
 4. 點擊 **儲存**，套用變更。
 5. **前台顯示：** 消費者在結帳頁面完成線上支付（如信用卡）後，即可選擇此物流方式。
+
+![黑貓快速到店-取貨不付款](../../../assets/images/ec-金物流-超商物流-黑貓快速到店-取貨不付款.png)
 
 ## 顧客端呈現畫面
 
@@ -185,7 +182,7 @@ hide:
   操作黑貓快速到店出貨。
 
 - :lucide-ban:{ .lg }     
-  [__物流限制與排除選項__](../../products/shipping/設定超商配送限制與物流排除.md)  
+  [__物流限制與排除選項__](../../products/shipping/設定超商配送限制與物流排除.md){ title="設定超商配送限制與物流排除" }  
   設定商品的配送物流條件，限制特定物流方式於結帳流程中的顯示與使用。
 
 </div>

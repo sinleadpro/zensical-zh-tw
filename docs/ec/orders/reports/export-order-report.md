@@ -2,7 +2,7 @@
 title: "匯出訂單報表"
 description: "匯出訂單報表並以 Excel 格式寄送至管理員信箱，方便查詢與分析訂單資料。"
 created: "2026-03-13 23:45"
-last_modified: "2026-03-16 10:00"
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -91,7 +91,7 @@ hide: []
 
 1.  **選取欄位**：點擊「可用欄位」中的項目，該項目會加入右側的「已選取欄位」；反之則移除。
 2.  **調整排序**：您可以透過拖曳「已選取欄位」中的項目來調整報表列出的先後順序。
-3.  **進階折扣拆分**：若選取「訂單各項折扣拆分」欄位，報表會細分[顯示各項折扣金額](../references/order-report-fields.md#訂單各項折扣拆分){ data-preview }，例如：
+3.  **進階折扣拆分**：若選取「訂單各項折扣拆分」欄位，報表會細分[顯示各項折扣金額](../references/order-report-fields.md#訂單各項折扣拆分){ title="訂單報表可用欄位" data-preview }，例如：
 
     - 商品任選折扣
     - VIP 折扣
@@ -108,8 +108,8 @@ hide: []
 
 5.  **導購與 UTM 追蹤**：
 
-    *   [**導購來源**](../references/order-report-fields.md#導購來源){ data-preview }：可查看訂單是否來自 LINE 購物、美安、ShopBack 等導購平台。
-    *   [**UTM 參數**](../references/order-report-fields.md#UTM-參數){ data-preview }（企業版專用）：可匯出 UTM 來源、媒介、活動名稱等數據追蹤行銷成效（僅支援 2025/12/17 之後成立的訂單）。
+    *   [**導購來源**](../references/order-report-fields.md#導購來源){ title="訂單報表可用欄位" data-preview }：可查看訂單是否來自 LINE 購物、美安、ShopBack 等導購平台。
+    *   [**UTM 參數**](../references/order-report-fields.md#UTM-參數){ title="訂單報表可用欄位" data-preview }（企業版專用）：可匯出 UTM 來源、媒介、活動名稱等數據追蹤行銷成效（僅支援 2025/12/17 之後成立的訂單）。
 
     !!! info "每項工具所記錄之 UTM 數據方式與回溯期間均不盡相同，此功能為 CYBERBIZ 系統所記錄之數據，可能與 GA4 或其他工具有所落差。"
 
@@ -151,7 +151,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-store:{ .lg }   
-  [__POS 門市報表__](../../../pos/orders/POS 報表列表與功能說明.md){ data-preview }     
+  [__POS 門市報表__](../../../pos/orders/POS 報表列表與功能說明.md){ title="POS 報表列表與功能說明" }     
   若有 POS 系統，可至「POS 商店列表」>「庫存管理」>「報表」下載「訂單匯總報表」或「每日出金報表」。
 
 - :lucide-warehouse:{ .lg }     
@@ -159,11 +159,11 @@ hide: []
   若使用峰潮物流，可於 WMS 後台「訂單」>「列表」中依照篩選條件進行「報表匯出」。
 
 - :lucide-hand-coins:{ .lg }   
-  [__分潤報表__](../../profit-sharing/匯出分潤報表.md){ data-preview }     
+  [__分潤報表__](../../profit-sharing/匯出分潤報表.md){ title="匯出分潤報表" }     
   若有設定推薦人或員工分潤，可至「分潤」>「分潤報表」匯出已結案的推薦分潤總表或個人報表。
 
 - :lucide-calendar-range:{ .lg }   
-  [__定期定額子訂單__](export-subscription-forecast.md){ data-preview }     
+  [__定期定額子訂單__](export-subscription-forecast.md){ title="匯出定期定額子訂單預測報表" }     
   可至「訂單」>「定期定額訂單」匯出「定期訂單的子訂單報表」，以查核未來預計出貨的資料。
 
 </div>
@@ -171,8 +171,8 @@ hide: []
 ## 重要注意事項
 
 1.  **信箱檢查**：若未收到報表郵件，請檢查垃圾信件夾，或避免使用 Hinet 信箱，因其阻擋機制較強。
-2.  **資料隱碼**：若後台有開啟「[會員個資部分隱碼](../../website-management/設定網站安全性.md){ data-preview }」，匯出的報表可能會對姓名、手機、地址等個資進行遮蓋處理，以保護會員資料安全。
-3.  **匯出權限**：網站擁有者可於「網站權限」中[限制特定管理員執行「訂單匯出」的權限](../../website-management/新增網站管理員並設定權限.md){ data-preview }，以降低資安風險。
+2.  **資料隱碼**：若後台有開啟「[會員個資部分隱碼](../../website-management/設定網站安全性.md){ title="設定網站安全性" }」，匯出的報表可能會對姓名、手機、地址等個資進行遮蓋處理，以保護會員資料安全。
+3.  **匯出權限**：網站擁有者可於「網站權限」中[限制特定管理員執行「訂單匯出」的權限](../../website-management/新增網站管理員並設定權限.md){ title="新增網站管理員並設定權限" }，以降低資安風險。
 
 ## 常見問題
 

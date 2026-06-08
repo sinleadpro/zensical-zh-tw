@@ -2,7 +2,7 @@
 title: "SEO 設定與優化指南"
 description: "完整說明 SEO 設定功能，包含圖片 ALT 屬性、商品頁與分類頁 SEO、全站 Meta Tag 設定以及 Sitemap 提交與 301 轉址教學。"
 created: "2026-03-18 16:19"
-last_modified: "2026-03-23 18:55"
+last_modified: 2026-06-08 17:15
 lang: "zh-TW"
 type: "guide"
 status: ""
@@ -119,7 +119,7 @@ CYBERBIZ 系統提供的 SEO 優化範圍涵蓋了 **首頁、商品頁、商品
 包含整體網站的標題與全站關鍵字。
 
 
-- **網站名**：前往「管理中心」>「一般設定」[設定網站名稱](../../website-management/設定網站基本資訊.md#關於您的網站){ data-preview }（中文字 15 字/英文字 30 字以內）。
+- **網站名**：前往「管理中心」>「一般設定」[設定網站名稱](../../website-management/設定網站基本資訊.md#關於您的網站){ title="設定網站基本資訊" }（中文字 15 字/英文字 30 字以內）。
 - **Meta Tag 設定**：包含 **標題**、**簡述** 跟 **關鍵字**。
     *   **一般版型**：前往「網站外觀」>「套版主題管理」>「網站設定」>「公司品牌」。瞭解[一般版型如何設定網站標題](../../website-appearance/設定網站標題與 SEO.md#預設版型一般版型){ data-preview }。
 
@@ -150,11 +150,11 @@ CYBERBIZ 系統提供的 SEO 優化範圍涵蓋了 **首頁、商品頁、商品
 <div class="grid cards" markdown>
 
 - :lucide-map:{ .lg }   
-  [__Sitemap (網站地圖)__](將 Sitemap 提交至 Google Search Console.md){ data-preview }     
+  [__Sitemap (網站地圖)__](將 Sitemap 提交至 Google Search Console.md){ title="將 Sitemap 提交至 Google Search Console" }     
   系統會自動產生 Sitemap，您只需將網址提交至 GSC，即可加快網頁收錄速度。
 
 - :lucide-signpost:{ .lg }     
-  [__301 重定向__](設定 301 重定向網站轉址.md){ data-preview }  
+  [__301 重定向__](設定 301 重定向網站轉址.md){ title="設定 301 重定向網站轉址" }  
   當原本熱門的頁面網址失效或變更時，應設定 301 轉址將流量導向新網址，以防止 SEO 排名下滑。
 
 </div>
