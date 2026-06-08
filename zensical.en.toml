@@ -166,7 +166,7 @@ copyright = """
                     { "" = "ec/integrations/"}
             ]},
             { "第三方整合" = [
-                    { "設定 Google 購物廣告" = "zh-tw/ec/integrations/設定 Google 購物廣告.md" },
+                    { "Google 購物廣告" = "zh-tw/ec/integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品.md" },
                     { "設定自動化廣告" = "zh-tw/ec/integrations/設定自動化廣告.md" },
                     { "" = "ec/integrations/"}
             ]},

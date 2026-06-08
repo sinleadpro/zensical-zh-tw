@@ -4,6 +4,6 @@ nav:
   - Configure: configure
   - Operation: operation
   - Integration: 
-    - 設定 Google 購物廣告: ec/platforms/設定 Google 購物廣告.md
+    - Google 購物廣告: ../integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品.md
   - Growth: venture
   - Further Reading: reference
