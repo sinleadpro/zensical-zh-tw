@@ -145,9 +145,9 @@ hide: []
 
 ## 參考資料 { #reference-overdue-cvs-refund-flow }
 
-* [處理超商訂單逾期未取](../cvs-unclaimed-order.md){ title="處理超商訂單逾期未取" }
+* [處理超商訂單逾期未取](../returns-refunds/cvs-unclaimed-order.md){ title="處理超商訂單逾期未取" }
 * [自動退刷時效對照表](auto-refund-timeline.md){ title="自動退刷時效對照表" }
-* [黑貓快速到店逾期說明](../tcat-quick-store-overdue.md){ title="黑貓快速到店逾期說明" }
+* [黑貓快速到店逾期說明](../tcat-quick-store/tcat-quick-store-overdue.md){ title="黑貓快速到店逾期說明" }
 
 
 

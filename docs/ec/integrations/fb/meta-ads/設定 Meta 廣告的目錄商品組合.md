@@ -113,11 +113,11 @@ hide: []
 
     - **彈性篩選**：可先切換 所有商品 或 熱門商品 範疇，再依據類型、標籤、廠商或關鍵字進行搜尋。
     - **選取限制**：系統僅支援選取狀態為「公開」且「已上架」的商品。
-    - **自動排除機制**：帶有「贈品」或「排除product feed」標籤的商品將無法被選取。瞭解 [如何設定商品排除標籤](../../../products/categorization/管理商品標籤.md#排除上傳至第三方平台標籤){ data-preview }
+    - **自動排除機制**：帶有「贈品」或「排除product feed」標籤的商品將無法被選取。瞭解 [如何設定商品排除標籤](../../../products/categories-and-tags/管理商品標籤.md#排除上傳至第三方平台標籤){ data-preview }
 
     ![MMA-目錄商品組合-新增商品-篩選商品](../../../../assets/images/ec-maa-創建目錄商品組合-新增商品-篩選商品.png)
 
-    !!! info "篩選邏輯設定請參考 [後台商品篩選設定](../../../products/get-started/使用商品管理介面管理商品.md#後台搜尋商品){ data-preview }。"
+    !!! info "篩選邏輯設定請參考 [後台商品篩選設定](../../../products/create-and-manage/使用商品管理介面管理商品.md#後台搜尋商品){ data-preview }。"
 
 5.  **確認並儲存**：確認商品清單無誤後，點擊右下角「確認新增」並「儲存」，即完成組合建立。
 6. **管理與檢視**：儲存成功後，您可以在「目錄商品組合」首頁的列表區域，查看、編輯或刪除已建立的組合。
@@ -162,7 +162,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-package-x:{ .lg }   
-  [__排除商品同步__](../../../products/categorization/管理商品標籤.md#排除上傳至第三方平台標籤)       
+  [__排除商品同步__](../../../products/categories-and-tags/管理商品標籤.md#排除上傳至第三方平台標籤)       
   若有特定商品不希望同步至 Meta，可在該商品標籤填入「贈品」或「排除product feed」，系統將自動排除。
 
 - :lucide-rocket:{ .lg }   

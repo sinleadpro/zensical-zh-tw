@@ -56,7 +56,7 @@
 *[C2C]: 消費者（Consumer）之間進行商品或服務交易的商業模式，通常透過第三方平台作為媒介，完成買賣行為。
 *[EDM]: Electronic Direct Mail, 許可式電子行銷郵件。不同於一般的一對一電子郵件，EDM 是商家向大量特定受眾發送的行銷資訊，通常具備精美的排版（HTML）與成效追蹤功能。
 *[UTM]: Urchin Tracking Module, 網址參數追蹤標籤。這是在 URL 末端附加的簡單代碼，用於追蹤使用者進入網站的具體路徑與來源。
-*[WMS]: Warehouse Management System, used to manage, control, and optimize warehousing operations, covering inbound, outbound, inventory management, order picking, distribution, and report analysis processes. Through automation and data-driven operations, WMS improves warehousing efficiency, reduces error rates, and supports logistics and supply chain collaboration.
+*[WMS]: Warehouse Management System（倉儲管理系統），用於管理、控制與最佳化倉儲作業，涵蓋入庫、出庫、庫存管理、訂單揀貨與配送流程。
 *[POS]: Point of Sale，門市進行交易時所使用的銷售作業系統，用於完成商品結帳、付款、開立收據，並同步記錄銷售資料、庫存變化與營收資訊。
 *[MBE]: Meta Business Extension。Meta 提供的商家整合工具，可一次串接 Facebook Conversions API、Pixel、商品目錄、Instagram Shopping 及 Facebook 粉絲專頁等资产。
 *[FBE]: Facebook Business Extension，MBE 的舊稱。

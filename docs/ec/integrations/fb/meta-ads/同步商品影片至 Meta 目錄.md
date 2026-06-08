@@ -82,7 +82,7 @@ hide:
 
 在進行同步前，請務必確認滿足以下條件與規格：
 
-- [x] **商品影片上傳：** 商家必須已於 CYBERBIZ 後台完成[商品影片上傳](../../../products/creation/設定商品影片.md){ data-preview }。
+- [x] **商品影片上傳：** 商家必須已於 CYBERBIZ 後台完成[商品影片上傳](../../../products/create-and-manage/設定商品影片.md){ data-preview }。
 - [x] **擴充套件串接：** 商家必須具備並已串接「[Facebook 新版商業擴充套件](../mbe/設定 FBE 帳號授權與資產連結.md){ data-preview }」功能。
 - [x] **版型限制**：商品影片功能目前僅支援 **拖拉版型**，非此版型之商店將無法上傳並同步影片。
 

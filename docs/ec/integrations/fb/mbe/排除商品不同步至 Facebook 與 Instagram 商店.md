@@ -87,7 +87,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-package-x:{ .lg }   
-  [__設定商品排除標籤__](../../../products/categorization/管理商品標籤.md#排除上傳至第三方平台標籤){ data-preview }     
+  [__設定商品排除標籤__](../../../products/categories-and-tags/管理商品標籤.md#排除上傳至第三方平台標籤){ data-preview }     
   在商品標籤輸入「排除 product feed」或「贈品」，系統自動過濾不同步的商品。
 
 </div>

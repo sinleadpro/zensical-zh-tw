@@ -157,7 +157,7 @@ Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專
 <div class="grid cards" markdown>
 
 - :lucide-package-x:{ .lg }   
-  [__排除商店商品__](../../../products/categorization/管理商品標籤.md#排除上傳至第三方平台標籤){ data-preview }       
+  [__排除商店商品__](../../../products/categories-and-tags/管理商品標籤.md#排除上傳至第三方平台標籤){ data-preview }       
   若有特定商品（如贈品或測試品）不希望同步至 Facebook 與 Instagram 商店，可透過設定商品標籤進行過濾。
 
 - :lucide-eye-off:{ .lg }   
@@ -171,7 +171,7 @@ Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專
 <div class="grid cards" markdown>
 
 - :lucide-swatch-book:{ .lg }   
-  [__商品色票設定__](../../../products/creation/設定商品色票與款式圖片-拖拉版型.md)       
+  [__商品色票設定__](../../../products/create-and-manage/設定商品色票與款式圖片-拖拉版型.md)       
   建議開啟色票功能並依照顏色順序放置圖片，以確保 Facebook 商店商品圖片能隨款式正確變換。
 
 </div>
@@ -194,4 +194,4 @@ Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專
 
 ??? quote "如何排除特定商品不同步至商店？"
 
-    若有「贈品」或「測試品」不希望上傳至商店，請在官網後台的商品標籤欄位輸入 **「贈品」** 或 **「排除product feed」**（排除 與 product 之間請勿添加空格），系統將自動過濾該商品。詳細操作，請參考 [如何排除商品上傳至第三方平台](../../../products/categorization/管理商品標籤.md#排除上傳至第三方平台標籤){ data-preview }。
+    若有「贈品」或「測試品」不希望上傳至商店，請在官網後台的商品標籤欄位輸入 **「贈品」** 或 **「排除product feed」**（排除 與 product 之間請勿添加空格），系統將自動過濾該商品。詳細操作，請參考 [如何排除商品上傳至第三方平台](../../../products/categories-and-tags/管理商品標籤.md#排除上傳至第三方平台標籤){ data-preview }。

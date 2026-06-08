@@ -88,7 +88,7 @@ hide:
 ## 使用前提與限制 { #prerequisites-collection-order }
 
 - [x] **至少有一個公開群組**：排序清單只會列出設定為「公開」狀態的群組，隱藏中的群組不會出現在這裡。
-- [x] **群組類型**：可排序的群組包含「[自定群組](../../products/categorization/custom-collections.md)」、「[商品條件分類](../../products/categorization/設定商品條件分類群組.md)」與「[任選折扣群組](../../marketing/任選折扣.md)」三種，詳見 [群組類型對照表](../../products/references/collection-group-types.md#reference-collection-order-group-types){ data-preview }。
+- [x] **群組類型**：可排序的群組包含「[自定群組](../../products/categories-and-tags/custom-collections.md)」、「[商品條件分類](../../products/categorization/設定商品條件分類群組.md)」與「[任選折扣群組](../../marketing/任選折扣.md)」三種，詳見 [群組類型對照表](../../products/references/collection-group-types.md#reference-collection-order-group-types){ data-preview }。
 
 ---
 
@@ -101,7 +101,7 @@ hide:
 5. **確認前台呈現：** 前往前台首頁的「商品列表」區塊，確認群組的顯示順序已與後台一致。
 
 !!! tip "技巧"
-    若想把某個群組從清單中移除(不顯示在前台)，不需要在這裡操作，[改到該群組的編輯頁將狀態設為「隱藏」](../../products/categorization/custom-collections.md#operate-custom-collections-publish){ data-preview }即可，隱藏後它就會自動從這份排序清單消失。
+    若想把某個群組從清單中移除(不顯示在前台)，不需要在這裡操作，[改到該群組的編輯頁將狀態設為「隱藏」](../../products/categories-and-tags/custom-collections.md#operate-custom-collections-publish){ data-preview }即可，隱藏後它就會自動從這份排序清單消失。
 
 ---
 
