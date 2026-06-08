@@ -75,6 +75,7 @@ copyright = """
                 {"超商條碼付款" = "ec/orders/order-settings/cvs-barcode-payment.md"},
                 {"未付款提醒" = "ec/orders/order-settings/unpaid-reminder-settings.md"},
                 {"處理付款失敗" = "ec/orders/payment-failed.md"},
+                {"託運單與貨態異常" = "ec/orders/order-settings/shipping-label-or-shipment-status-error.md"},
             ]},
             {"宅配出貨" = [
                 {"自訂物流出貨" = "ec/orders/home-delivery/custom-logistic-shipping.md"},

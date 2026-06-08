@@ -2,7 +2,7 @@
 title: 帳號狀態與購買權限對照表
 description: ""
 created: 2026-06-08 17:46
-last_modified: 2026-06-08 17:47
+last_modified: 2026-06-08 20:11
 lang: zh-TW
 type: reference
 status: ""
