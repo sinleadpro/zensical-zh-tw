@@ -1,7 +1,7 @@
 ---
 title: 下載資源
 description: 彙整 CYBERBIZ 各類可下載資源，包含商家手冊、操作指南、白皮書等 PDF 檔案，提供一站式下載。
-last_modified: 2026-06-01 11:30
+last_modified: 2026-06-08 17:50
 type: hub
 tags:
   - 下載
@@ -31,7 +31,7 @@ permalink: "https://help.cyberbiz.io/downloads"
 
     收錄 CYBERBIZ 系統專業詞彙的定義與說明，涵蓋商品管理、訂單物流、行銷分析、平台方案等面向。
 
-    [:lucide-book-marked: 瀏覽詞彙表](glossary.md)
+    [:lucide-book-marked: 瀏覽詞彙表](glossary.md){ title="詞彙表" }
 
 </div>
 

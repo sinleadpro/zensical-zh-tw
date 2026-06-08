@@ -2,7 +2,7 @@
 title: 設定全家冷凍物流 B2C
 description: 申請、設定與操作全家冷凍物流 B2C 服務。
 created:
-last_modified: 2026-02-02
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 permalink:
 type: tutorial
@@ -76,8 +76,8 @@ hide:
 申請、設定與操作全家冷凍物流 B2C 服務。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 / 高手 PLUS / 企業  
-[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能) | CYBERBIZ PAYMENTS
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 高手 / 高手 PLUS / 企業  
+[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能){ title="圖示慣例" } | CYBERBIZ PAYMENTS
 { .doc-badge }
 
 ![](../../assets/images/ec-金物流-超商物流-全家冷凍.png){ .hero-page }

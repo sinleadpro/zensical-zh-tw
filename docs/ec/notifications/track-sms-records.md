@@ -2,7 +2,7 @@
 title: 查詢與追蹤簡訊發送紀錄
 description: 在 CYBERBIZ 後台查詢與追蹤簡訊發送紀錄，包含日期範圍篩選、關鍵字搜尋與欄位說明。
 created: 2026-04-27 19:16
-last_modified: 2026-04-27 19:30
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -123,11 +123,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-message-square-plus:{ .lg }  
-  [__設定與發送簡訊__](send-sms-notifications.md)  
+  [__設定與發送簡訊__](send-sms-notifications.md){ title="設定與發送簡訊通知" }  
   了解簡訊發送的三種方法（顧客群組、手動、匯入 Excel）與費用計費標準。
 
 - :lucide-message-square-text:{ .lg }  
-  [__簡訊通知樣板管理__](manage-sms-templates.md)  
+  [__簡訊通知樣板管理__](manage-sms-templates.md){ title="設定與管理簡訊通知樣板" }  
   自訂系統在特定情境下自動發送的簡訊內容。
 
 </div>

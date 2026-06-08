@@ -2,7 +2,7 @@
 title: 使用再次購買功能
 description: 前台會員的再次購買功能，讓會員能輕鬆重新下單過去購買過的產品，包含使用前提、操作流程及特殊情境說明。
 created: 2026-05-06 21:15
-last_modified: 2026-05-31 17:24
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -128,11 +128,11 @@ hide: []
   商品加入購物車後，會員可前往購物車確認商品數量、優惠及運費，完成結帳流程。
 
 - :lucide-file-search:{ .lg }  
-  [__查詢訂單狀態__](order-management-interface.md)  
+  [__查詢訂單狀態__](order-management-interface.md){ title="訂單管理介面說明" }  
   結帳完成後，會員可於「訂單查詢」查看訂單狀態、出貨進度與付款資訊。
 
 - :lucide-tag:{ .lg }  
-  [__設定訂單加價購__](../../marketing/設定訂單加價購.md)  
+  [__設定訂單加價購__](../../marketing/設定訂單加價購.md){ title="設定訂單加價購" }  
   吸引會員再次購買時，可在結帳頁面加購其他商品，提升客單價與回購率。
 
 </div>

@@ -2,7 +2,7 @@
 title: LINE Pay 掃碼支付
 description: 串接 LINE Pay 掃碼支付，POS 店員可使用掃碼槍直接讀取顧客手機的付款條碼，實現快速、無接觸的結帳體驗。
 created: 2026-03-25 17:15
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -73,7 +73,7 @@ hide: []
 串接 LINE Pay 掃碼支付，POS 店員可使用掃碼槍直接讀取顧客手機的付款條碼，實現快速、無接觸的結帳體驗。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
 !!! tip "應用情境"

@@ -2,7 +2,7 @@
 title: "使用 Authy 啟用二階段驗證設定"
 description: "使用 Authy App 設定 CYBERBIZ 帳號的二階段驗證 (2FA)，提升帳號安全性。"
 created: "2026-03-16 21:41"
-last_modified: "2026-03-17 14:32"
+last_modified: 2026-06-08 17:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -94,7 +94,7 @@ hide: []
 ### 步驟二：新增 CYBERBIZ 驗證帳戶
 
 1.  進入 Authy App，點選「**+ Add Account**」。
-2.  **掃描連結**：使用手機鏡頭掃描 CYBERBIZ 後台「[安全性設定](設定與管理二階段驗證.md){ data-preview }」頁面顯示的 **QR Code**。
+2.  **掃描連結**：使用手機鏡頭掃描 CYBERBIZ 後台「[安全性設定](設定與管理二階段驗證.md){ title="設定與管理二階段驗證" }」頁面顯示的 **QR Code**。
 3.  **手動輸入**：若無法掃描，可點選「Enter key manually」手動輸入後台提供的金鑰。
 4.  **儲存帳戶**：設定完成後，App 下方會出現該網站專屬的驗證帳戶。
 

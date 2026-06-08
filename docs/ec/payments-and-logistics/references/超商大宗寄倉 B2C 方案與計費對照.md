@@ -2,7 +2,7 @@
 title: 超商大宗寄倉B2C方案與計費對照
 description: ""
 created: 2026-05-25 21:46
-last_modified:
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: reference
 status: ""
@@ -83,7 +83,7 @@ CYBERBIZ 平台依商家「金物流串接方式」分為兩條開通路徑：
 | PLUS版、企業版 | 列入「**對帳單**」，月結 | 不影響當下下載，月底統一結算 |
 
 !!! tip "技巧"
-    * CYBER 幣可於後台「管理中心 > 儲值中心」[儲值](../../website-management/CYBER 幣儲值中心使用指南.md#operate-cyber-coin-deposit)，建議在大量出貨日前先確認餘額。
+    * CYBER 幣可於後台「管理中心 > 儲值中心」[儲值](../../website-management/CYBER 幣儲值中心使用指南.md#operate-cyber-coin-deposit){ title="Cyber 幣儲值中心使用指南" }，建議在大量出貨日前先確認餘額。
     * 對帳單可於「管理中心 > 對帳中心」查詢當月累計運費。
     * 補印託運單（已下載過的訂單再次下載）**不會重複扣款**。
 

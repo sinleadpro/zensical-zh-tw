@@ -2,7 +2,7 @@
 title: 設定 FBE 網域驗證
 description: 在企業管理平台中完成網域驗證。
 created: 2026-04-10 14:50
-last_modified: 2026-04-13 10:00
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -80,7 +80,7 @@ hide: []
 
 ## 前置作業
 
-- [x] 需先 [啟用 Facebook 商業擴充功能與相關資產連結](設定 FBE 帳號授權與資產連結.md){ data-preview }。
+- [x] 需先 [啟用 Facebook 商業擴充功能與相關資產連結](設定 FBE 帳號授權與資產連結.md){ title="設定 FBE 帳號授權與資產連結" }。
 
 ## 網域驗證方式選擇
 
@@ -102,7 +102,7 @@ hide: []
 
     === ":simple-gandi: GANDI"
 
-        1. 需先完成 [CNAME 與轉址設定](../../../website-management/網域管理.md#gandi)
+        1. 需先完成 [CNAME 與轉址設定](../../../website-management/網域管理.md#gandi){ title="網域管理" }
         2. 登入 [Gandi 後台 :lucide-external-link:](https://admin.gandi.net/)，於「區域檔紀錄」新增一筆 TXT 紀錄，名稱輸入 `@`，內容貼上複製的 TXT 代碼。
 
     === ":simple-godaddy: GoDaddy"
@@ -111,7 +111,7 @@ hide: []
 
     === "HiNet"
         
-        1. 完成 [CNAME 與轉址](../../../website-management/網域管理.md#hinet-中華電信)。
+        1. 完成 [CNAME 與轉址](../../../website-management/網域管理.md#hinet-中華電信){ title="網域管理" }。
         2. 登入 [HiNet 網站 :lucide-external-link:](https://domain.hinet.net/#/)，前往「我的網域」>「轉址服務」> 「設定轉址」，複製 Ａ 紀錄 IP。
 
             ![HiNet-複製Ａ紀錄IP](../../../../assets/images/ec-第三方整合-meta企業管理平台-更新dns-hinet-複製a紀錄ip.png)
@@ -178,7 +178,7 @@ hide: []
     1.  在瀏覽器輸入您的網域，把 `www` 拿掉，看是否還可以正常連至您在 Cyberbiz 建立的網站。
     2.  若無法正常連線，意味著根網域尚未設定轉址，請至您的 DNS 服務商後台設定轉址。
     
-    由於 Facebook 只會認定沒有 `www` 的網域，若發生驗證失敗的情況，請參考[網域管理](../../../website-management/網域管理.md)教學文件，至您的 DNS 服務商後台設定轉址。
+    由於 Facebook 只會認定沒有 `www` 的網域，若發生驗證失敗的情況，請參考[網域管理](../../../website-management/網域管理.md){ title="網域管理" }教學文件，至您的 DNS 服務商後台設定轉址。
 
 <!--
 ??? quote "變更事件對廣告有什麼影響？"

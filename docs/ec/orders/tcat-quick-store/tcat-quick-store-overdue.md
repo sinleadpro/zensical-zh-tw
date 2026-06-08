@@ -2,7 +2,7 @@
 title: 黑貓快速到店逾期說明
 description: ""
 created: 2026-05-27 10:50
-last_modified: 2026-06-02 15:22
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: reference
 status: ""
@@ -96,10 +96,10 @@ hide:
 ## 注意事項 { #specs-tcat-quick-store-overdue-notes }
 
 * **「快速到店-常溫」訂單只能搭配常溫運費規格**，冷藏 / 冷凍同理。混用會被系統擋下並提示對應錯誤。
-* 黑貓快速到店訂單逾期未取的退款條件，與一般超商物流相同，請見 [自動退款支援對照](../references/return-refund-status-reference.md#reference-overdue-cvs-refund-flow-auto-refund){ title="退貨與退款狀態對照（超商訂單逾期未取）" }。
+* 黑貓快速到店訂單逾期未取的退款條件，與一般超商物流相同，請見 [自動退款支援對照](../references/return-refund-status-reference.md#reference-overdue-cvs-refund-flow-auto-refund){ title="退貨與退款狀態對照（超商訂單逾期未取）" data-preview }。
 
 ## 參考資料 { #reference-tcat-quick-store-overdue-ref }
 
 * [處理超商訂單逾期未取](../returns-refunds/cvs-unclaimed-order.md){ title="處理超商訂單逾期未取" }
-* [退貨與退款狀態對照](../references/return-refund-status-reference.md){ title="退貨與退款狀態對照（超商訂單逾期未取）" }
+* [退貨與退款狀態對照](../references/return-refund-status-reference.md){ title="退貨與退款狀態對照（超商訂單逾期未取）" data-preview }
 

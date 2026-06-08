@@ -2,7 +2,7 @@
 title: POS 前台核銷電子票券
 description: 說明如何使用 CYBERBIZ POS 前台進行電子票券核銷、查詢票券訂單與核銷紀錄，包含掃碼與手動核銷流程。
 created: 2026-06-01 15:36
-last_modified: 2026-06-01 15:36
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -71,7 +71,7 @@ hide: []
 透過 POS 前台介面，店員可快速為顧客核銷電子票券，並即時查詢票券訂單狀態與歷史核銷紀錄，確保門市營運流暢。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業版
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 PLUS / 高手 PLUS / 企業版
 { .doc-badge }
 
 !!! tip "應用情境"

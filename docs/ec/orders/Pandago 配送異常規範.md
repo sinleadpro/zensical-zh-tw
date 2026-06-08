@@ -2,7 +2,7 @@
 title: Pandago 配送異常規範
 description: 針對快速到貨配送過程中發生的各類異常情境（如地址錯誤、聯繫不到客戶、配送延遲等），提供責任歸屬判定與操作指引。
 created: 2026-02-06 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: troubleshooting
 status: update
@@ -69,7 +69,7 @@ hide: []
 針對快速到貨配送過程中發生的各類異常情境（如地址錯誤、聯繫不到客戶、配送延遲等），提供責任歸屬判定與操作指引。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 所有PLUS / 企業
 { .doc-badge }
 
 

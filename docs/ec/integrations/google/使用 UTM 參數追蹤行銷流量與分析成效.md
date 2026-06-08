@@ -2,7 +2,7 @@
 title: 使用 UTM 參數追蹤行銷流量與分析成效
 description: 使用 UTM 參數標記行銷連結，追蹤流量來源並在 GA4 中分析各渠道成效。
 created: 2026-03-25 19:22
-last_modified: 2026-03-25 19:35
+last_modified: 2026-06-08 17:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -117,7 +117,7 @@ hide: []
 
 ## 於 GA4 報表中查看數據
 
-!!! warning "請先確定完成 [GA4 與官網的串接](ga/建立並串接 Google Analytics.md){ data-preview }，方可於 GA4 查看官網流量資訊。"
+!!! warning "請先確定完成 [GA4 與官網的串接](ga/建立並串接 Google Analytics.md){ title="建立並串接 Google Analytics" }，方可於 GA4 查看官網流量資訊。"
 
 完成連結投放後，您可以在 GA4 後台查看成效：
 

@@ -2,7 +2,7 @@
 title: 設定 Google Merchant Center 並同步 CYBERBIZ 商品
 description: 串接 Google Merchant Center、同步商品資料至 Google 搜尋與購物廣告。
 created: 2026-03-05 10:00
-last_modified: 2026-03-30 12:45
+last_modified: 2026-06-08 17:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -90,7 +90,7 @@ comments: false
 ### 建立帳戶
 
 !!! warning "重要提醒"
-    若您是為了投放 **Google 自動化廣告**，可選擇由 CYBERBIZ 代管 GMC 帳號，請直接在自動化廣告設定頁創建，避免自行申請導致權限衝突或廣告異常。瞭解[如何設置自動化廣告](設定自動化廣告.md){ data-preview }。
+    若您是為了投放 **Google 自動化廣告**，可選擇由 CYBERBIZ 代管 GMC 帳號，請直接在自動化廣告設定頁創建，避免自行申請導致權限衝突或廣告異常。瞭解[如何設置自動化廣告](設定自動化廣告.md){ title="設定自動化廣告系統" }。
 
 1.  **前往 GMC**：前往 [Google Merchant Center :lucide-external-link:](https://www.google.com/retail/solutions/merchant-center/) 並點擊「立即開始」
 2.  **選擇商店類型**：選擇「是」表示你有線上商店，選擇是否有實體商店，輸入商店網址
@@ -200,7 +200,7 @@ comments: false
 
     建議至商品設定頁的「Google 產品類別」手動選擇正確類別，能讓廣告投放更精準。
 
-    [:lucide-arrow-right: 設定教學](../../products/create-and-manage/編輯商品描述與商品設定.md#進階設定){ data-preview }
+    [:lucide-arrow-right: 設定教學](../../products/create-and-manage/編輯商品描述與商品設定.md#進階設定){ title="編輯商品描述與商品設定" }
 
 -   :lucide-image:{ .lg .middle } __圖片規範__
 
@@ -208,7 +208,7 @@ comments: false
 
     請選擇 **無價格、無宣傳標語、無品牌浮水印** 的圖片，否則可能不符合 [Google 規範](https://support.google.com/merchants/answer/6324350#Image_guidelines)。
 
-    [:lucide-arrow-right: 設定教學](../../products/create-and-manage/新增與更新商品.md#商品圖片){ data-preview }
+    [:lucide-arrow-right: 設定教學](../../products/create-and-manage/新增與更新商品.md#商品圖片){ title="新增與更新商品" }
 
 </div>
 

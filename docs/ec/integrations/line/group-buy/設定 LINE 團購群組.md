@@ -2,7 +2,7 @@
 title: "設定 LINE 團購群組"
 description: "設定 LINE 團購群組的分潤方案、商品分類與活動時間，讓團購主在 LINE 群組內進行團購活動"
 created: "2026-03-12 12:14"
-last_modified: "2026-03-12 09:55"
+last_modified: 2026-06-08 17:15
 lang: zh-TW
 type: tutorial
 status:
@@ -82,9 +82,9 @@ hide: []
 
 在編輯群組內容前，商家必須先依序完成以下三項設定：
 
-- [x] [**LINE 團購機器人設定**](設定 LINE 團購機器人.md){ data-preview }：建立專屬機器人並完成 Messaging API 與 LIFF 串接。
+- [x] [**LINE 團購機器人設定**](設定 LINE 團購機器人.md){ title="設定 LINE 團購機器人" }：建立專屬機器人並完成 Messaging API 與 LIFF 串接。
 - [x] [**推薦分潤代碼設定**](../../../profit-sharing/設定推薦人分潤方案.md){ data-preview }：於分潤系統中設定好「推薦人分潤」方案。
-- [x] [**團購商品分類設定**](設定 LINE 團購商品.md){ data-preview }：選取欲販售的商品並設定團購價。
+- [x] [**團購商品分類設定**](設定 LINE 團購商品.md){ title="設定 LINE 團購商品" }：選取欲販售的商品並設定團購價。
 
 ## 新增 LINE 團購群組
 

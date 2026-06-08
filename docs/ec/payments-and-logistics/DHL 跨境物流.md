@@ -2,7 +2,7 @@
 title: DHL 跨境物流
 description: 透過 CYBERBIZ 後台串接 DHL 國際快遞，您可以直接產出全英文託運單與商業發票，並享有到府取件與自動化貨態追蹤服務。
 created: 2026-03-05 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -81,10 +81,10 @@ hide: []
 透過 CYBERBIZ 後台串接 DHL 國際快遞，您可以直接產出全英文託運單與商業發票，並享有到府取件與自動化貨態追蹤服務。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | PLUS / 企業<br>
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 跨境電商 (北美站 / 日本站 / 東南亞站)
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Pro / Business
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品){ title="圖示慣例" } | 電商官網
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | PLUS / 企業<br>
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品){ title="圖示慣例" } | 跨境電商 (北美站 / 日本站 / 東南亞站)
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | Pro / Business
 { .doc-badge }
 
 ## 使用須知

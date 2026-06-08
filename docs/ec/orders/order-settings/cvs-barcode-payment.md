@@ -2,7 +2,7 @@
 title: 使用超商條碼完成付款
 description: 啟用超商條碼繳費功能，顧客如何取得條碼與前往 7-11、全家完成付款的完整流程。
 created: 2026-05-04 10:27
-last_modified: 2026-05-28 21:11
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -127,7 +127,7 @@ comments: false
 
     ![前往付款](../../../assets/images/EC-前台-訂單查詢-前往付款.png)
 
-4.  **Email 通知信**：若商家有[開啟新訂單通知](../../notifications/manage-email-templates.md){ data-preview }，顧客可以在收到的訂單成立 Email 中，點擊「**前往付款**」按鈕來取得條碼。
+4.  **Email 通知信**：若商家有[開啟新訂單通知](../../notifications/manage-email-templates.md){ title="設定與管理 Email 通知樣板" }，顧客可以在收到的訂單成立 Email 中，點擊「**前往付款**」按鈕來取得條碼。
 
     ![訂單成立Email-前往付款](../../../assets/images/EC-Email通知-訂單成立-前往付款.png)
 
@@ -141,7 +141,7 @@ comments: false
 
 !!! warning "注意事項"
     - **條碼時效性**：超商條碼 **每 3 小時會自動更新一次**，舊的條碼會自動失效。請務必在抵達超商現場後，透過官網或 Email 連結重新開啟即時條碼，**請勿使用預先截圖的舊條碼** 付款。
-    - **付款連結**：如果顧客在獲取條碼時遇到問題，亦可聯繫商家索取專屬的「[消費者付款連結](provide-payment-link.md){ data-preview }」來重新取得繳費頁面。
+    - **付款連結**：如果顧客在獲取條碼時遇到問題，亦可聯繫商家索取專屬的「[消費者付款連結](provide-payment-link.md){ title="提供顧客付款連結" }」來重新取得繳費頁面。
 
 ??? example "超商條碼範例"
     ![超商條碼範例](../../../assets/images/EC-前台-訂單查詢-前往付款-超商條碼範例.png)
@@ -155,11 +155,11 @@ comments: false
   於「金物流 > 結帳頁 & 物流設定」中設定未付款訂單的自動取消天數，避免條碼逾期產生問題。
 
 - :lucide-bell:{ .lg }  
-  [__設定未付款提醒__](unpaid-reminder-settings.md)  
+  [__設定未付款提醒__](unpaid-reminder-settings.md){ title="設定未付款提醒" }  
   開啟未付款訂單的 Email 自動提醒功能，提高顧客完成付款的比率。
 
 - :lucide-link:{ .lg }  
-  [__提供顧客付款連結__](provide-payment-link.md)  
+  [__提供顧客付款連結__](provide-payment-link.md){ title="提供顧客付款連結" }  
   透過後台取得專屬付款連結，主動提供給顧客，方便其即時完成繳費。
 
 </div>

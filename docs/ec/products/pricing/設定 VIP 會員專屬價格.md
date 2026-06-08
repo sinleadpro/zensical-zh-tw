@@ -2,7 +2,7 @@
 title: 設定 VIP 會員專屬價格
 description: 為不同等級的 VIP 會員設定差異化商品售價，並透過前台標籤引導訪客登入以提升轉換率。
 created: 2026-03-08 17:45
-last_modified: 2026-01-19 00:00
+last_modified: 2026-06-08 17:00
 lang: zh-TW
 type: tutorial
 status:
@@ -84,7 +84,7 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](conventions.md#適用方案) | 高手 / PLUS / 企業
 { .doc-badge }
 
-![](docs/assets/images/ec-product-edit-vip-exclusive-price-hero.zh-tw.png){ .hero-page }
+![](../../../assets/images/ec-product-edit-vip-exclusive-price-hero.zh-tw.png){ .hero-page }
 
 ## VIP 會員專屬價格說明
 
@@ -103,21 +103,21 @@ hide: []
 4. 從下拉選單選擇 VIP 群組。
 5. 點擊 **新增會員價格**，新增對應群組欄位，設定專屬價格。
 
-![](docs/assets/images/ec-edit-member-exclusive-price-setting.zh-tw.gif)
+![](../../../assets/images/ec-edit-member-exclusive-price-setting.zh-tw.gif)
 
 ### 編輯會員價格
 
 - 點擊「編輯價格」輸入專屬價格。  
 - 每個款式可設定不同價格，未設定時系統預設使用商品售價。
 
-![](docs/assets/images/ec-edit-member-exclusive-price-variants.zh-tw.gif)
+![](../../../assets/images/ec-edit-member-exclusive-price-variants.zh-tw.gif)
 
 ### 刪除會員價格
 
 1. 點擊該群組欄位中的 **移除**。
 2. 點擊 **刪除** 確認移除。
 
-![](docs/assets/images/ec-remove-member-exclusive-price-variants.zh-tw.png)
+![](../../../assets/images/ec-remove-member-exclusive-price-variants.zh-tw.png)
 	
 ## 多筆設定會員專屬價格
 
@@ -126,7 +126,7 @@ hide: []
 3. 點擊上方「操作選單」，選擇 **編輯會員專屬價格**。
 4. 從下拉選單選擇 VIP 群組。
 
-![](docs/assets/images/ec-batch-edit-member-exclusive-price.zh-tw.gif)
+![](../../../assets/images/ec-batch-edit-member-exclusive-price.zh-tw.gif)
 
 ### 編輯與刪除會員價格
 
@@ -143,14 +143,14 @@ hide: []
 2. 勾選欲編輯的商品。
 3. 點擊上方「操作選單」，選擇 **匯出會員專屬價格**。
 
-![](docs/assets/images/ec-export-member-exclusive-prices.zh-tw.gif)
+![](../../../assets/images/ec-export-member-exclusive-prices.zh-tw.gif)
 
 ### 步驟二：編輯 Excel 檔案
 
 1. 系統將 Excel 檔案寄至信箱，下載後開啟。
 2. 在對應欄位設定商品專屬價格，儲存檔案。
 
-![](docs/assets/images/ec-export-member-exlucisve-prices-column.zh-tw.png)
+![](../../../assets/images/ec-export-member-exlucisve-prices-column.zh-tw.png)
 
 ### 步驟三：匯入 Excel 檔案
 
@@ -159,7 +159,7 @@ hide: []
 3. 上傳 Excel 檔案，點擊 **確認**。
 4. 系統成功匯入後，會寄送通知信至信箱。
 
-![](docs/assets/images/ec-import-member-exclusive-prices.zh-tw.png)
+![](../../../assets/images/ec-import-member-exclusive-prices.zh-tw.png)
 
 ## 會員專屬價格標籤
 
@@ -184,7 +184,7 @@ hide: []
     - **商品 VIP 標籤連結**：登入/註冊頁面網址。
  
 
-![](docs/assets/images/ec-member-exclusive-price-label-setting.zh-tw.gif)
+![](../../../assets/images/ec-member-exclusive-price-label-setting.zh-tw.gif)
 
 ### 前台顯示說明
 

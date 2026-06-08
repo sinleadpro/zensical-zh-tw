@@ -2,7 +2,7 @@
 title: EPSON TM-M30III 發票機安裝教學 (Wi-Fi 連接)
 description: 透過 Wi-Fi 無線連接方式安裝 EPSON TM-M30III 發票機，無須安裝驅動程式即可於平板設備使用。
 created: 2026-05-27 12:20
-last_modified: 2026-05-27 12:20
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -70,7 +70,7 @@ hide: []
 透過 Wi-Fi 無線連接方式安裝 EPSON TM-M30III 發票機，無須安裝驅動程式即可於平板設備使用。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
 

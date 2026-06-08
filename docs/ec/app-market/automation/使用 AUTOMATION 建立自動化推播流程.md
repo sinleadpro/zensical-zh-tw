@@ -2,7 +2,7 @@
 title: 使用 AUTOMATION 建立自動化推播流程
 description: 在 CYBERBIZ AUTOMATION 中建立自動化流程，設定會員分群並發送簡訊、EDM 或 LINE OA 訊息。
 created: 2026-03-09 14:48
-last_modified: 2026-06-08 12:25
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status:
@@ -70,7 +70,7 @@ comments: false
 在 CYBERBIZ AUTOMATION 中建立自動化流程，設定會員分群並發送簡訊、EDM 或 LINE OA 訊息。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業  
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案){ title="圖示慣例" } | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業  
 [:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | AUTOMATION
 { .doc-badge }
 
@@ -96,9 +96,9 @@ comments: false
 
     ![](../../../assets/images/ec-會員-所有會員-automation會員分群.gif)
 
-## AUTOMATION 操作流程 (簡訊/EDM/LINE OA)
+## AUTOMATION 操作流程 <small>簡訊/EDM/LINE OA</small>
 
-進入設定介面的路徑為：登入 CYBERBIZ 管理後台，前往 **APP MARKET > 我的擴充服務 > CYBERBIZ AUTOMATION**」。
+進入設定介面的路徑為：登入管理後台，前往 **APP MARKET > 我的擴充服務 > CYBERBIZ AUTOMATION**」。
 
 ### 簡訊發送設定
 

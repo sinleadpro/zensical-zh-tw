@@ -1,8 +1,8 @@
 ---
 title: POS 前台選單設定
-description: 說明如何設定 POS 前台的圖形化商品選單，透過多層級分類提升店員結帳效率，特別適用於無條碼商品（如食品、散裝品）。
+description: 透過 POS 前台的圖形化選單，店員可以快速點選商品加入購物車，無需逐一掃描條碼。此功能特別適用於食品、散裝商品，或使用平板進行流動結帳的場景。
 created: 2026-06-01 16:22
-last_modified: 2026-06-01 16:22
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -29,20 +29,23 @@ plans:
   - 企業
 cyb_extensions: []
 intents: 
-  - 設定 POS 前台選單
+  - 設定_POS_前台選單
   - 建立商品多層級分類
-  - 提升 POS 結帳效率
+  - 提升_POS_結帳效率
 features: 
-  - POS 選單
+  - POS_選單
   - 商品多層級分類
   - 圖形化介面
 prerequisites: 
-  - "建議先完成「自訂群組」或「商品類型」設定"
+  - "[[custom-collections]]"
+  - "[[編輯商品描述與商品設定#進階設定]]"
 related: []
-tags: 
+tags:
   - POS
-  - 商品選單
-  - 多層級分類
+  - POS 前台
+  - POS 選單
+  - 商品多層級分類
+  - 圖形化介面
   - 結帳優化
 acoiv: configure
 apis: []
@@ -58,7 +61,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=11224
-permalink:
+permalink: "https://help.cyberbiz.io/pos/check/POS 前台選單設定"
 comments: false
 search:
   exclude: false
@@ -70,7 +73,7 @@ hide: []
 透過 POS 前台的圖形化選單，店員可以快速點選商品加入購物車，無需逐一掃描條碼。此功能特別適用於食品、散裝商品，或使用平板進行流動結帳的場景。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業版
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 PLUS / 高手 PLUS / 企業版
 { .doc-badge }
 
 !!! tip "應用情境"
@@ -81,7 +84,7 @@ hide: []
 
 ## 使用須知
 
-- **前置作業**：建議先完成 **[自訂群組]()** 或 **[商品類型]()** 的設定，以便在建立選單時直接連結。
+- **前置作業**：建議先完成 **[自訂群組](../../ec/products/categories-and-tags/custom-collections.md){ title="設定商品自訂分類群組" }** 或 **[商品類型](../../ec/products/create-and-manage/編輯商品描述與商品設定.md#進階設定){ title="編輯商品描述與商品設定" }** 的設定，以便在建立選單時直接連結。
 - **圖片規範**：
     - 建議尺寸：`80 x 80 px`。
     - 檔案大小：請勿超過 `2 MB`。

@@ -2,7 +2,7 @@
 title: 如何取消訂單
 description: 介紹商家手動取消、會員前台取消與系統自動取消（付款超時）三種訂單取消方式，包含取消條件、操作步驟與後續紅利優惠處理
 created: 2026-05-04 12:24
-last_modified: 2026-05-28 21:12
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -79,7 +79,7 @@ hide: []
 
 - [x] **配送狀態限制**：僅有配送狀態為「**未出貨**」的訂單可以執行取消。
     *   若訂單狀態為「準備出貨」，需先將其調整回「未出貨」方可取消。
-    *   若訂單已處於「已出貨」狀態，則無法取消，必須改走 **[退貨](../returns-refunds/訂單退貨流程.md){ data-preview }[退款](../returns-refunds/訂單退款流程.md){ data-preview }** 流程。
+    *   若訂單已處於「已出貨」狀態，則無法取消，必須改走 **[退貨](../returns-refunds/訂單退貨流程.md){ title="訂單退貨流程" }[退款](../returns-refunds/訂單退款流程.md){ title="訂單退款流程" }** 流程。
 - [x] **整筆取消**：系統僅支援 **整筆訂單取消**，不支援部分取消。
 - [x] **不可逆性**：按下取消按鈕後，訂單狀態會變更為「已取消」，此狀態通常 **無法再還原**（除非是特定的付款失敗情境）。
 
@@ -277,11 +277,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-receipt:{ .lg }   
-  [__訂單退款流程__](../returns-refunds/訂單退款流程.md)       
+  [__訂單退款流程__](../returns-refunds/訂單退款流程.md){ title="訂單退款流程" }       
   若訂單涉及付款，取消後可參考退款流程將款項退還顧客。
 
 - :lucide-package-minus:{ .lg }   
-  [__訂單退貨流程__](../returns-refunds/訂單退貨流程.md)       
+  [__訂單退貨流程__](../returns-refunds/訂單退貨流程.md){ title="訂單退貨流程" }       
   若訂單已出貨無法取消，需改走退貨流程處理商品回收與退款。
 
 - :lucide-file-text:{ .lg }   

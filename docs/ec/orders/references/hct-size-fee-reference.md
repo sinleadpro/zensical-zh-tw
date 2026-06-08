@@ -2,7 +2,7 @@
 title: 新竹物流配送尺寸與運費對照表
 description: 新竹物流常溫與低溫配送的尺寸對照表，包含三邊總和對應的 Cyber 幣費用、尺寸與重量上限，以及低溫不受理品項。
 created: 2026-05-22 18:00
-last_modified: 2026-06-04 11:26
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: reference
 status: ""
@@ -157,11 +157,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-truck:{ .lg }  
-  [__使用新竹物流出貨__](../home-delivery/hct-shipping.md)  
+  [__使用新竹物流出貨__](../home-delivery/hct-shipping.md){ title="使用新竹物流出貨" }  
   了解如何透過新竹物流完成出貨作業，包含託運單列印、收貨與配送流程。
 
 - :lucide-settings:{ .lg }  
-  [__設定新竹物流託運單__](../../payments-and-logistics/設定新竹物流託運單.md)  
+  [__設定新竹物流託運單__](../../payments-and-logistics/設定新竹物流託運單.md){ title="設定新竹物流託運單" }  
   在後台設定寄件人資訊、加印託運單、建立逆物流與查詢單號使用紀錄。
 
 </div>

@@ -2,7 +2,7 @@
 title: 設定 Apple Pay
 description: 透過 CYBERBIZ PAYMENTS 啟用並設定 Apple Pay 為支付選項，提供快速安全的交易。
 created: 2026-01-26 00:00
-last_modified: 2026-03-08 23:50
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status:
@@ -62,7 +62,7 @@ hide: []
 啟用 Apple Pay 支付選項，為顧客提供快速、安全且便捷的支付方式。
 { .subtitle }
 
-[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ PAYMENTS
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充){ title="圖示慣例" } | CYBERBIZ PAYMENTS
 { .doc-badge }
 
 ![](../../assets/images/ec-payments-apple-pay.zh-tw.png){ .hero-page }
@@ -78,7 +78,7 @@ hide: []
 
 ## 前置條件
 
-- [x] 已 [開通 **CYBERBIZ PAYMENTS**](申請 CYBERBIZ PAYMENTS)
+- [x] 已 [開通 **CYBERBIZ PAYMENTS**](申請 CYBERBIZ PAYMENTS){ title="申請 CYBERBIZ PAYMENTS" }
 
 ## 使用須知
 
@@ -123,7 +123,7 @@ Apple Pay 通常隨 CYBERBIZ PAYMENTS 自動啟用，可在後台調整可用性
 <div class="grid cards" markdown>
 
 - :lucide-shield-check:{ .lg }   
-  [__設定 3D 驗證門檻__](設定信用卡 3D 驗證門檻)     
+  [__設定 3D 驗證門檻__](設定信用卡 3D 驗證門檻){ title="設定信用卡 3D 驗證門檻" }     
   設定交易金額門檻，設定哪些信用卡交易需要進行額外身份驗證機制，以提升交易安全。
 
 - :lucide-ban:{ .lg }     

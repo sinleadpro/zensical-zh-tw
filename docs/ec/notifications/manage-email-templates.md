@@ -2,7 +2,7 @@
 title: 設定與管理 Email 通知樣板
 description: 管理與編輯系統自動發送的 Email 通知樣板，包括內容自訂、啟用控制、收件者設定與多國語系配置。
 created:
-last_modified: 2026-02-13
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 permalink:
 type: tutorial
@@ -79,7 +79,7 @@ hide:
 管理與編輯系統自動發送的 Email 通知樣板，包括內容自訂、啟用控制、收件者設定與多國語系配置。
 { .subtitle }
 
-[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能) | 多國語系
+[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能){ title="圖示慣例" } | 多國語系
 { .doc-badge }
 
 ![](../../assets/images/ec-訊息推播-email 通知樣板.png){ .hero-page }
@@ -140,7 +140,7 @@ hide:
 
 - **系統預設收件者（主信箱）**：系統預設會發送通知至網站管理者的主信箱。
     
-- **修改路徑**：若需 [更換主信箱](../website-management/設定網站基本資訊.md#關於您的網站)，請至 **管理中心 > 一般設定** 進行變更。
+- **修改路徑**：若需 [更換主信箱](../website-management/設定網站基本資訊.md#關於您的網站){ title="設定網站基本資訊" }，請至 **管理中心 > 一般設定** 進行變更。
     
 #### 通知收件者類型
 
@@ -164,7 +164,7 @@ hide:
 
 |**通知類型**|**關鍵發送邏輯**|**支援通路**|
 |---|---|---|
-|**出貨通知**|**僅在配送狀態轉為「已出貨 (配送中)」時觸發**。旨在確保包裹已由物流商承運。詳見 [出貨狀態物流提示說明](../orders/home-delivery/shipping-status-tooltip.md){ data-preview }  。|Email, 簡訊, LINE|
+|**出貨通知**|**僅在配送狀態轉為「已出貨 (配送中)」時觸發**。旨在確保包裹已由物流商承運。詳見 [出貨狀態物流提示說明](../orders/home-delivery/shipping-status-tooltip.md){ title="出貨狀態物流提示文字說明" }  。|Email, 簡訊, LINE|
 |**訂單狀態變更**|當訂單成立、付款成功或取消時觸發。|Email, 簡訊, LINE|
 |**會員權益通知**|包含帳號啟用、密碼重設、生日禮金發送等。|Email, 簡訊|
 

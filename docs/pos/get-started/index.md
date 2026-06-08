@@ -2,7 +2,7 @@
 title: 開始使用
 description: 介紹 CYBERBIZ POS 系統的硬體設備需求、軟體安裝、第三方服務申請及系統運作基礎概念，協助您完成門市營運的第一步。
 created: 2026-04-17 12:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: guide
 status: ""
@@ -65,7 +65,7 @@ hide: []
 建立門市營運的第一步：了解智能 POS 的軟硬體需求、第三方服務申請及核心系統邏輯。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
 
@@ -84,7 +84,7 @@ hide: []
         - :lucide-settings:{ .lg }
           __POS 結帳點__<br>
           作為 POS 軟體的運行平台。您可以依據結帳場景（如：固定櫃台或移動結帳），選擇 **POS 機、桌上型電腦、筆電或平板電腦**。<br><br>
-          [→ 了解系統硬體與環境需求](../hardware/)
+          [→ 了解系統硬體與環境需求](../hardware/){ title="系統硬體與環境需求" }
 
         </div>
 
@@ -98,14 +98,14 @@ hide: []
 
         - :lucide-credit-card:{ .lg }
           __刷卡機__<br>
-          串接金流服務。支援 [台新有線刷卡機](../hardware/台新有線刷卡機/)或 [MYPAY 無線刷卡機](../hardware/MYPAY%20無線刷卡機/)。
+          串接金流服務。支援 [台新有線刷卡機](../hardware/台新有線刷卡機/){ title="台新有線刷卡機" }或 [MYPAY 無線刷卡機](../hardware/MYPAY%20無線刷卡機/)。
 
         - :lucide-tags:{ .lg }
-          [__標籤機__](../hardware/標籤印表機/)<br>
+          [__標籤機__](../hardware/標籤印表機/){ title="標籤印表機" }<br>
           列印商品條碼或分類標籤。
 
         - :lucide-monitor:{ .lg }
-          [__客顯螢幕__](../hardware/客顯螢幕/)<br>
+          [__客顯螢幕__](../hardware/客顯螢幕/){ title="客顯螢幕" }<br>
           向顧客展示交易金額與促銷資訊。
 
         - :lucide-scan-barcode:{ .lg }
@@ -145,7 +145,7 @@ hide: []
       核心銷售系統，請洽您的開店顧問取得網站連結與帳戶。
 
     - :lucide-download:{ .lg }
-      [__POS 驅動程式__](../software/驅動程式/)<br>
+      [__POS 驅動程式__](../software/驅動程式/){ title="驅動程式" }<br>
       用於連結周邊硬體設備（如發票機、印表機）的必要驅動程式。
 
     </div>
@@ -155,7 +155,7 @@ hide: []
     <div class="grid cards" markdown>
 
     - :lucide-file-text:{ .lg }
-      [__盟立電子發票__](../third-party/盟立電子發票/)<br>
+      [__盟立電子發票__](../third-party/盟立電子發票/){ title="申請盟立電子發票" }<br>
       電子發票服務中心申請，確保發票開立合規。
 
     - :lucide-qr-code:{ .lg }
@@ -192,7 +192,7 @@ hide: []
     <div class="grid cards" markdown>
 
     - :lucide-git-branch:{ .lg }
-      [__全通路庫存管理__](../inventory/全通路庫存管理/)<br>
+      [__全通路庫存管理__](../inventory/全通路庫存管理/){ title="全通路庫存管理指南" }<br>
       EC 官網與 POS 門店為 **獨立門市、獨立庫存**。系統開通後，可使用進/出/調倉單或盤點功能進行庫存增減調整。
 
     - :lucide-plug:{ .lg }

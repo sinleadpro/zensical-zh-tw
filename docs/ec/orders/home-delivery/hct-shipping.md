@@ -2,7 +2,7 @@
 title: 使用新竹物流出貨
 description: 透過訂單列表批次選取訂單，下載新竹物流託運單並將貨態更新為已出貨。
 created: 2026-05-22 17:21
-last_modified: 2026-06-05 16:09
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -91,7 +91,7 @@ hide: []
 
 於訂單列表看到「下載新竹物流託運單」這個選項之前，以下事項需先完成：
 
-- [x] **完成新竹物流託運單設定**：至「金物流」>「[新竹物流託運單](../../payments-and-logistics/設定新竹物流託運單.md){ data-preview }」填寫寄件人資訊[^1]。
+- [x] **完成新竹物流託運單設定**：至「金物流」>「[新竹物流託運單](../../payments-and-logistics/設定新竹物流託運單.md){ title="設定新竹物流託運單" }」填寫寄件人資訊[^1]。
 - [x] **同步公司物流地址**：至「管理中心/一般設定」>「公司物流地址」完成寄件人資訊，以利託運單寄件欄位完整填寫。
 
 !!! plan "扣費方式依方案而定"
@@ -117,7 +117,7 @@ hide: []
 
 ## 計費規則 { #pricing-hct-shipping }
 
-新竹物流託運單以 **Cyber 幣** 計價，依包裹尺寸與溫層而定，詳細費率請參考 [運費對照表](../references/hct-size-fee-reference.md#hct-rate-card){ data-preview }。
+新竹物流託運單以 **Cyber 幣** 計價，依包裹尺寸與溫層而定，詳細費率請參考 [運費對照表](../references/hct-size-fee-reference.md#hct-rate-card){ title="新竹物流配送尺寸與運費對照表" data-preview }。
 
 扣費時點：
 
@@ -133,7 +133,7 @@ hide: []
 前往後台「訂單」>「所有訂單」，於列表中勾選欲[一併出貨的訂單][specs-hct-shipping-uniform]{ data-preview }。
 
 !!! tip "先篩選再勾選"
-    新版訂單列表支援先用「配送方式 = 新竹物流」篩選後再全頁勾選，可加速批次出貨。瞭解 [如何篩選訂單](../basics/search-filter-orders.md#orders-filter){ data-preview }
+    新版訂單列表支援先用「配送方式 = 新竹物流」篩選後再全頁勾選，可加速批次出貨。瞭解 [如何篩選訂單](../basics/search-filter-orders.md#orders-filter){ title="如何搜尋與篩選訂單" }
 
 ---
 
@@ -218,9 +218,9 @@ hide: []
 
 ### 配送尺寸、重量與不受理品項 { #specs-hct-shipping-restrictions }
 
-新竹物流有 **[尺寸 / 重量上限](../references/hct-size-fee-reference.md#hct-rate-card-limits){ data-preview }** 與 **[低溫不受理品項](../references/hct-size-fee-reference.md#hct-rate-card-restricted){ data-preview }** 限制，出貨前請逐一檢查您的包裹是否符合，完整內容請參考：
+新竹物流有 **[尺寸 / 重量上限](../references/hct-size-fee-reference.md#hct-rate-card-limits){ title="新竹物流配送尺寸與運費對照表" data-preview }** 與 **[低溫不受理品項](../references/hct-size-fee-reference.md#hct-rate-card-restricted){ title="新竹物流配送尺寸與運費對照表" data-preview }** 限制，出貨前請逐一檢查您的包裹是否符合，完整內容請參考：
 
-- [新竹物流配送尺寸與運費對照表](../references/hct-size-fee-reference.md)
+- [新竹物流配送尺寸與運費對照表](../references/hct-size-fee-reference.md){ title="新竹物流配送尺寸與運費對照表" data-preview }
 
 !!! warning "常見不受理品項摘要"
     低溫包裹中，以下品項新竹物流 **不受理**(完整清單見上方對照表):
@@ -250,7 +250,7 @@ hide: []
 
 ### 分箱寄送需用「加印託運單」 { #specs-hct-shipping-extra-label }
 
-若一筆訂單需 **拆成多箱寄送**(例如商品數量多、單一紙箱裝不下)，請改用 [加印託運單](../../payments-and-logistics/設定新竹物流託運單.md){ data-preview } 功能，在「新竹物流託運單」頁面輸入同一訂單編號，產生新的單號與託運單。
+若一筆訂單需 **拆成多箱寄送**(例如商品數量多、單一紙箱裝不下)，請改用 [加印託運單](../../payments-and-logistics/設定新竹物流託運單.md){ title="設定新竹物流託運單" } 功能，在「新竹物流託運單」頁面輸入同一訂單編號，產生新的單號與託運單。
 
 !!! note "註釋"
     「加印託運單」只能列印 **純配送** 的託運單。若訂單為貨到付款且需分箱，請聯繫客服協助處理代收款分配。
@@ -260,15 +260,15 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-printer:{ .lg }  
-  [__設定新竹物流託運單__](../../payments-and-logistics/設定新竹物流託運單.md)  
+  [__設定新竹物流託運單__](../../payments-and-logistics/設定新竹物流託運單.md){ title="設定新竹物流託運單" }  
   寄件人資訊、加印託運單、新竹逆物流流程設定。
 
 - :lucide-table:{ .lg }  
-  [__新竹物流配送尺寸與運費對照表__](../references/hct-size-fee-reference.md)  
+  [__新竹物流配送尺寸與運費對照表__](../references/hct-size-fee-reference.md){ title="新竹物流配送尺寸與運費對照表" data-preview }  
   尺寸 / 溫層 / 不受理品項與 Cyber 幣費率。
 
 - :lucide-package-open:{ .lg }  
-  [__訂單部分出貨__](partial-shipment.md)  
+  [__訂單部分出貨__](partial-shipment.md){ title="設定訂單部分出貨" }  
   同一筆訂單分次出貨的操作方式。
 
 </div>
@@ -314,7 +314,7 @@ hide: []
 ??? quote "一筆訂單需要分多箱寄送，怎麼辦？"
     [](){ #faq-hct-shipping-multi-box }
 
-    請使用 **加印託運單** 功能：至「金物流」>「新竹物流託運單」>「加印託運單」，輸入同一訂單編號即可產生新的單號與託運單。每張加印託運單會 **個別扣費**。詳見 [加印託運單操作說明](../../payments-and-logistics/設定新竹物流託運單.md){ data-preview }。
+    請使用 **加印託運單** 功能：至「金物流」>「新竹物流託運單」>「加印託運單」，輸入同一訂單編號即可產生新的單號與託運單。每張加印託運單會 **個別扣費**。詳見 [加印託運單操作說明](../../payments-and-logistics/設定新竹物流託運單.md){ title="設定新竹物流託運單" }。
 
 ??? quote "補印託運單和一般下載託運單有什麼不同？"
     [](){ #faq-hct-shipping-reprint-vs-download }

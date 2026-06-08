@@ -1,7 +1,7 @@
 ---
 title: 設定 LINE 綁定會員贈送優惠券
 version: ""
-last_modified: 2026-02-22
+last_modified: 2026-06-08 17:50
 description: 設定 LINE 官方帳號綁定會員後自動發送優惠券，以提升會員綁定率與行銷效果。
 product:
   - EC
@@ -98,9 +98,9 @@ hide:
 
 在啟用此功能前，商家必須完成以下事項：
 
-- [x] [**串接 Messaging API**](串接 LINE Messaging API.md){ data-preview }  ：須先完成 LINE Messaging API 的相關設定。
+- [x] [**串接 Messaging API**](串接 LINE Messaging API.md){ title="串接 LINE Messaging API" }  ：須先完成 LINE Messaging API 的相關設定。
 
-- [x] **綁定流程確認**：顧客必須完成 [**LINE 官方帳號綁定官網會員**](綁定 LINE 官方帳號與官網會員.md){ data-preview }   的完整流程，方可獲得優惠券。
+- [x] **綁定流程確認**：顧客必須完成 [**LINE 官方帳號綁定官網會員**](綁定 LINE 官方帳號與官網會員.md){ title="綁定 LINE 官方帳號與官網會員" }   的完整流程，方可獲得優惠券。
 
 ## 後台設定步驟
 
@@ -147,7 +147,7 @@ hide:
 
 - **專屬綁定連結**：`https://你的網址/customer/auth/line?line_action=line_login`。
 
-- **應用建議**：商家可以將此連結設定在 [LINE 的 **圖文選單**](設定 LINE 圖文選單.md){ data-preview }  或 [**加入好友的歡迎訊息**](綁定 LINE 官方帳號與官網會員#設定加入好友的歡迎訊息) 中，吸引新好友立即點擊綁定。
+- **應用建議**：商家可以將此連結設定在 [LINE 的 **圖文選單**](設定 LINE 圖文選單.md){ data-preview }  或 [**加入好友的歡迎訊息**](綁定 LINE 官方帳號與官網會員#設定加入好友的歡迎訊息){ title="綁定 LINE 官方帳號與官網會員" } 中，吸引新好友立即點擊綁定。
 
 ## 進階應用技巧
 

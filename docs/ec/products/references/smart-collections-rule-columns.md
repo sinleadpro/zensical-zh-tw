@@ -2,7 +2,7 @@
 title: 條件分類篩選欄位對照表
 description: ""
 created: 2026-06-03 21:50
-last_modified: 2026-06-04 11:03
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: reference
 status: ""
@@ -63,5 +63,5 @@ hide:
 !!! note "註釋"
     * **文字欄位**(商品名稱、商品類型、商品廠商、款式名稱、商品標籤)可使用文字類條件(等於、以此開頭、以此結束、包含、不包含)。
     * **數值欄位**(商品價格、定價、庫存現貨)只能使用數值類條件(等於、大於、小於)，且比對值請輸入數字。
-    * 各條件的詳細意義請見[篩選條件對照表](smart-collections-rule-relations.md)。
+    * 各條件的詳細意義請見[篩選條件對照表](smart-collections-rule-relations.md){ title="條件分類篩選條件對照表" data-preview }。
 

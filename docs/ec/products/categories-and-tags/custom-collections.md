@@ -2,7 +2,7 @@
 title: 設定商品自訂分類群組
 description: 依照行銷活動或主題手動挑選商品建立群組，作為店面分類頁、選單連結或廣告活動的著陸頁。
 created: 2026-01-08 00:00
-last_modified: 2026-06-04 14:17
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: guide
 status:
@@ -310,7 +310,7 @@ hide: []
 
 ### 多國語系設定 { #operate-custom-collections-multilingual }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | PLUS版 / 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案){ title="圖示慣例" } | PLUS版 / 企業
 { .doc-badge }
 
 !!! plan "開通條件"
@@ -394,7 +394,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-sparkles:{ .lg }  
-  [**商品條件分類**](smart-collections.md)  
+  [**商品條件分類**](smart-collections.md){ title="設定商品條件分類群組" }  
   依條件自動納入商品的群組類型，與本文功能互補。
 
 <!-- - :lucide-image:{ .lg }
@@ -402,11 +402,11 @@ hide: []
   群組於前台的呈現受版型設定影響，相關設定請見店面版型編輯說明。 -->
 
 - :lucide-arrow-up-down:{ .lg }  
-  [**設定前台商品群組排序**](../../website-appearance/theme-and-layout/storefront-collection-sorting.md)  
+  [**設定前台商品群組排序**](../../website-appearance/theme-and-layout/storefront-collection-sorting.md){ title="設定首頁商品群組排序" }  
   調整群組在前台首頁的顯示順序，並設定首頁可顯示的群組數量。
 
 - :lucide-languages:{ .lg }  
-  [**多國語系開通**](../../website-management/設定多國語言與多幣別.md)  
+  [**多國語系開通**](../../website-management/設定多國語言與多幣別.md){ title="設定前台多國語言與多幣別" }  
   多國語系為加值功能，請聯繫專屬客戶顧問。
 
 </div>

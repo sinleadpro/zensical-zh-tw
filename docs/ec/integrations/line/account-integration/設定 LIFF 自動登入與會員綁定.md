@@ -2,7 +2,7 @@
 title: 設定 LIFF 自動登入與會員綁定
 description: 使用 LIFF 實現會員自動登入，並同步完成官方帳號好友加入與會員帳號綁定。
 created:
-last_modified: 2026-03-08 12:00
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status:
@@ -119,9 +119,9 @@ hide: []
 
 2. **連動確認：** 
 	
-	- [x] 已完成[「LINE 快速登入」設定](設定 LINE 快速登入.md){ data-preview }。  
+	- [x] 已完成[「LINE 快速登入」設定](設定 LINE 快速登入.md){ title="設定 LINE 快速登入" }。  
 	
-	- [x] 已完成 [LINE OA 與 LINE Login Channel 連動](設定 LINE 快速登入/#導引加入好友)。
+	- [x] 已完成 [LINE OA 與 LINE Login Channel 連動](設定 LINE 快速登入/#導引加入好友){ title="設定 LINE 快速登入" }。
 
 4. **啟用 LIFF：** 開啟 **自動產生 LIFF 網址** 開關，並點選 **儲存設定**。
 
@@ -145,7 +145,7 @@ hide: []
     > :lucide-triangle-alert: 請 **統一使用 CYBERBIZ 後台生成** 的 LIFF 連結，請勿擅自更動 LINE Developers 後台中的專屬 LIFF 設定，以免導致跳轉機制失效。
 
 	!!! tip "想要在 LIFF 流程中一併取得會員手機號碼？"
-		若您擁有 LINE Certified Provider 資格( 參閱 [申請 LINE Certified Provider 文件 :lucide-external-link:](https://drive.google.com/file/d/1oSF07fHFdx_s4gXVhDv0zw81Su3usQKY/view))，可以進一步開啟 `phone` 權限。詳細設定請參閱 [如何設定 LINE 快速登入時取得會員手機號碼](設定 LINE 快速登入時取得會員手機號碼#搭配-liff-應用)。
+		若您擁有 LINE Certified Provider 資格( 參閱 [申請 LINE Certified Provider 文件 :lucide-external-link:](https://drive.google.com/file/d/1oSF07fHFdx_s4gXVhDv0zw81Su3usQKY/view))，可以進一步開啟 `phone` 權限。詳細設定請參閱 [如何設定 LINE 快速登入時取得會員手機號碼](設定 LINE 快速登入時取得會員手機號碼#搭配-liff-應用){ title="設定 LINE 快速登入時取得會員手機號碼" }。
 
 
 ## 如何製作特定頁面的 LIFF 連結

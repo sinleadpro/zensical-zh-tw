@@ -2,7 +2,7 @@
 title: 設定首頁商品群組排序
 description: 調整前台首頁「商品列表」區塊中，各個商品群組的顯示先後順序。
 created:
-last_modified: 2026-06-04 09:48
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 permalink:
 type: tutorial
@@ -88,7 +88,7 @@ hide:
 ## 使用前提與限制 { #prerequisites-collection-order }
 
 - [x] **至少有一個公開群組**：排序清單只會列出設定為「公開」狀態的群組，隱藏中的群組不會出現在這裡。
-- [x] **群組類型**：可排序的群組包含「[自定群組](../../products/categories-and-tags/custom-collections.md)」、「[商品條件分類](../../products/categorization/設定商品條件分類群組.md)」與「[任選折扣群組](../../marketing/任選折扣.md)」三種，詳見 [群組類型對照表](../../products/references/collection-group-types.md#reference-collection-order-group-types){ data-preview }。
+- [x] **群組類型**：可排序的群組包含「[自定群組](../../products/categories-and-tags/custom-collections.md){ title="設定商品自訂分類群組" }」、「[商品條件分類](../../products/categorization/設定商品條件分類群組.md)」與「[任選折扣群組](../../marketing/任選折扣.md){ title="任選折扣" }」三種，詳見 [群組類型對照表](../../products/references/collection-group-types.md#reference-collection-order-group-types){ title="商品群組類型對照表" data-preview }。
 
 ---
 
@@ -101,7 +101,7 @@ hide:
 5. **確認前台呈現：** 前往前台首頁的「商品列表」區塊，確認群組的顯示順序已與後台一致。
 
 !!! tip "技巧"
-    若想把某個群組從清單中移除(不顯示在前台)，不需要在這裡操作，[改到該群組的編輯頁將狀態設為「隱藏」](../../products/categories-and-tags/custom-collections.md#operate-custom-collections-publish){ data-preview }即可，隱藏後它就會自動從這份排序清單消失。
+    若想把某個群組從清單中移除(不顯示在前台)，不需要在這裡操作，[改到該群組的編輯頁將狀態設為「隱藏」](../../products/categories-and-tags/custom-collections.md#operate-custom-collections-publish){ title="設定商品自訂分類群組" }即可，隱藏後它就會自動從這份排序清單消失。
 
 ---
 
@@ -137,11 +137,11 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-layout-grid:{ .lg }  
-  [__管理商品群組__](../../products/index.md)  
+  [__管理商品群組__](../../products/index.md){ title="商品管理" }  
   新增、編輯或隱藏自定群組、商品條件分類與任選折扣群組。
 
 - :lucide-arrow-down-up:{ .lg }  
-  [__設定群組內商品排序__](../../products/index.md)  
+  [__設定群組內商品排序__](../../products/index.md){ title="商品管理" }  
   調整單一群組裡商品的顯示順序(手動排序、依價格、依暢銷等)。
 
 </div>

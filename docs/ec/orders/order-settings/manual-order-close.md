@@ -2,7 +2,7 @@
 title: 如何手動結案訂單
 description: 手動結案訂單，包含單筆與批次操作方式，以及結案後對紅利、優惠券、分潤的影響。
 created: 2026-05-06 15:57
-last_modified: 2026-05-06 17:00
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -136,7 +136,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-calendar-check:{ .lg }  
-  [__自動結案設定__](auto-close-order-settings.md)  
+  [__自動結案設定__](auto-close-order-settings.md){ title="設定訂單自動結案" }  
   設定當訂單配送狀態變更為「已收貨」或「已出貨」達特定天數（如 N 天）後，由系統自動執行結案。
 
 </div>

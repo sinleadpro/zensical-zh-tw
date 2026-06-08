@@ -2,7 +2,7 @@
 title: 設定 PayPal
 description: 串接 PayPal 金流，讓海外信用卡顧客於結帳時可使用 PayPal 支付。
 created:
-last_modified: 2026-01-28
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 permalink:
 type: tutorial
@@ -75,7 +75,7 @@ hide:
 串接 PayPal 金流，讓海外信用卡顧客於結帳時可使用 PayPal 支付。
 { .subtitle }
 
-[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能) | CYBERBIZ PAYMENTS
+[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能){ title="圖示慣例" } | CYBERBIZ PAYMENTS
 { .doc-badge }
 
 ![](../../assets/images/ec-金物流-paypal.png){ .hero-page }

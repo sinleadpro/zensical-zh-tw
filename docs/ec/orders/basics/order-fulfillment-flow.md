@@ -2,7 +2,7 @@
 title: 訂單出貨流程
 permalink: https://help.cyberbiz.io/ec/orders/basics/order-fulfillment-flow
 version: ""
-last_modified: 2026-06-05 15:38
+last_modified: 2026-06-08 17:50
 description: ""
 product:
   - EC
@@ -63,7 +63,7 @@ icon: lucide/workflow
 從訂單成立到包裹寄出，本文帶您了解新版訂單列表的出貨方式、出貨前的準備、運費計算規則，以及系統串接物流與自訂物流的操作差異。
 { .subtitle }
 
-<!-- ![訂單出貨流程總覽](../assets/images/fulfillment-overview-hero.png){ .hero-page } -->
+<!-- ![訂單出貨流程總覽](../../../assets/images/fulfillment-overview-hero.png){ .hero-page } -->
 
 ## 訂單出貨介紹 { #intro-fulfillment }
 
@@ -73,7 +73,7 @@ icon: lucide/workflow
 
 - **系統串接物流：** 黑貓、超商取貨、宅配通、新竹物流、順豐等，由系統自動向物流商取號並產生託運單。
 - **自訂物流：** 您自行配送或與合作貨運出貨，手動標示出貨並填寫託運單號。
-- **倉儲出貨：** 已串接[智慧倉儲(峰潮)](../../../wms/)的訂單，由倉庫端負責揀貨與出貨。
+- **倉儲出貨：** 已串接[智慧倉儲(峰潮)](../../../wms/){ title="hide:" }的訂單，由倉庫端負責揀貨與出貨。
 
 無論勾選一筆或多筆，新版訂單列表的出貨入口都相同，差別只在於您一次處理的訂單數量。
 
@@ -122,7 +122,7 @@ icon: lucide/workflow
 - **一般版：** 下載託運單時即時預扣 Cyber幣。
 - **具備對帳中心的方案：** 運費列入對帳單，於帳期結算，出貨當下不扣款。
 
-<!--各物流商的費率明細，可參考 [黑貓託運單規格與費用對照表](../../payments-and-logistics/references/tcat-delivery-rate-card.md)。-->
+<!--各物流商的費率明細，可參考 [黑貓託運單規格與費用對照表](../../payments-and-logistics/references/tcat-delivery-rate-card.md){ title="黑貓宅配託運單規格與費用對照表" data-preview }。-->
 
 ---
 
@@ -145,10 +145,10 @@ icon: lucide/workflow
 
 <div class="grid cards" markdown>
 
-- :lucide-cat: [**黑貓宅配**](../home-delivery/tcat-home-delivery.md)
-- :lucide-bird: [**宅配通**](../home-delivery/pelican-shipping.md)
-- :lucide-truck: [**新竹物流**](../home-delivery/hct-shipping.md)
-- :lucide-box: [**順豐速運**](../home-delivery/sf-express-shipping.md)
+- :lucide-cat: [**黑貓宅配**](../home-delivery/tcat-home-delivery.md){ title="使用黑貓宅配出貨" }
+- :lucide-bird: [**宅配通**](../home-delivery/pelican-shipping.md){ title="使用宅配通出貨" }
+- :lucide-truck: [**新竹物流**](../home-delivery/hct-shipping.md){ title="使用新竹物流出貨" }
+- :lucide-box: [**順豐速運**](../home-delivery/sf-express-shipping.md){ title="使用順豐出貨" }
 
 </div>
 
@@ -160,9 +160,9 @@ icon: lucide/workflow
 
 <div class="grid cards" markdown>
 
-- :lucide-store: [**超商 C2C 出貨教學**](../cvs-shipping/cvs-c2c-shipping.md)
-- :lucide-factory: [**B2C 大宗寄倉**](../cvs-shipping/cvs-b2c-bulk-shipping.md)
-- :lucide-snowflake: [**全家冷凍店到店**](../cvs-shipping/family-mart-frozen-c2c.md)
+- :lucide-store: [**超商 C2C 出貨教學**](../cvs-shipping/cvs-c2c-shipping.md){ title="操作超商店到店 C2C 出貨" }
+- :lucide-factory: [**B2C 大宗寄倉**](../cvs-shipping/cvs-b2c-bulk-shipping.md){ title="使用超商大宗寄倉（B2C）出貨" }
+- :lucide-snowflake: [**全家冷凍店到店**](../cvs-shipping/family-mart-frozen-c2c.md){ title="操作全家冷凍店到店 C2C 出貨" }
 
 </div>
 
@@ -182,7 +182,7 @@ icon: lucide/workflow
 
 <div class="grid cards" markdown>
 
-- :lucide-truck: [**自訂物流出貨教學**](../home-delivery/custom-logistic-shipping.md)
+- :lucide-truck: [**自訂物流出貨教學**](../home-delivery/custom-logistic-shipping.md){ title="如何使用自訂物流出貨" }
 
 </div>
 
@@ -200,7 +200,7 @@ icon: lucide/workflow
 
 <div class="grid cards" markdown>
 
-- :lucide-file-spreadsheet: [**大量匯入自訂物流單號教學**](../home-delivery/custom-logistic-shipping.md#excel-bulk-import)
+- :lucide-file-spreadsheet: [**大量匯入自訂物流單號教學**](../home-delivery/custom-logistic-shipping.md#excel-bulk-import){ title="如何使用自訂物流出貨" }
 
 </div>
 
@@ -210,7 +210,7 @@ icon: lucide/workflow
 
 ### 逐項與部分出貨 { #operate-fulfillment-partial }
 
-若一筆訂單只想先寄出部分有現貨的商品，需在訂單詳情頁的「出貨」區塊逐項勾選，而非在列表批次出貨。詳細流程請見 [訂單部分出貨](../home-delivery/partial-shipment.md)。
+若一筆訂單只想先寄出部分有現貨的商品，需在訂單詳情頁的「出貨」區塊逐項勾選，而非在列表批次出貨。詳細流程請見 [訂單部分出貨](../home-delivery/partial-shipment.md){ title="設定訂單部分出貨" }。
 
 ---
 
@@ -257,15 +257,15 @@ icon: lucide/workflow
 <div class="grid cards" markdown>
 
 - :lucide-package-open:{ .lg }  
-  [__訂單部分出貨__](../home-delivery/partial-shipment.md)  
+  [__訂單部分出貨__](../home-delivery/partial-shipment.md){ title="設定訂單部分出貨" }  
   同一筆訂單先寄出有現貨的商品，剩餘的稍後再出。
 
 - :lucide-list-checks:{ .lg }  
-  [__配送狀態對照表__](../references/fulfillment-statuses.md)  
+  [__配送狀態對照表__](../references/fulfillment-statuses.md){ title="配送狀態對照表" data-preview }  
   了解每個配送狀態代表的意義與出現時機。
 
 - :lucide-receipt:{ .lg }  
-  [__黑貓託運單費率__](../../payments-and-logistics/references/tcat-delivery-rate-card.md)  
+  [__黑貓託運單費率__](../../payments-and-logistics/references/tcat-delivery-rate-card.md){ title="黑貓宅配託運單規格與費用對照表" data-preview }  
   查詢黑貓各材積的運費規格與費用。
 
 </div>
@@ -288,7 +288,7 @@ icon: lucide/workflow
 
 ??? quote "出貨後顧客會收到通知嗎"
     [](){ #faq-fulfillment-notify }
-    自訂物流出貨時可勾選「發送郵件通知顧客」；以大量匯入方式出貨時，系統會在匯入成功後自動發信通知消費者。詳細可參考 [設定與管理 Email 通知樣板](../../notifications/manage-email-templates.md)。
+    自訂物流出貨時可勾選「發送郵件通知顧客」；以大量匯入方式出貨時，系統會在匯入成功後自動發信通知消費者。詳細可參考 [設定與管理 Email 通知樣板](../../notifications/manage-email-templates.md){ title="設定與管理 Email 通知樣板" }。
 
 ??? quote "運費怎麼計算？在哪裡查看"
     [](){ #faq-fulfillment-shipping-fee }
@@ -296,7 +296,7 @@ icon: lucide/workflow
 
 ??? quote "已經下載過託運單，還能再列印嗎"
     [](){ #faq-fulfillment-redownload }
-    可以。在「更多操作」選擇「補印託運單」，即可重新下載該訂單的託運單 PDF（詳見 [補印與加印託運單](../../payments-and-logistics/補印與加印託運單.md)）。
+    可以。在「更多操作」選擇「補印託運單」，即可重新下載該訂單的託運單 PDF（詳見 [補印與加印託運單](../../payments-and-logistics/補印與加印託運單.md){ title="補印與加印託運單" }）。
 
 ??? quote "訂單出貨後發生異常，可以重新出貨嗎"
     [](){ #faq-fulfillment-reship }
@@ -304,7 +304,7 @@ icon: lucide/workflow
 
 ??? quote "超商出貨後遇到「門市關轉」，怎麼處理"
     [](){ #faq-fulfillment-store-closed }
-    依超商不同處理方式不同（詳見 [超商 C2C 門市關轉說明](../cvs-shipping/cvs-c2c-shipping.md#門市關轉)）：
+    依超商不同處理方式不同（詳見 [超商 C2C 門市關轉說明](../cvs-shipping/cvs-c2c-shipping.md#門市關轉){ title="操作超商店到店 C2C 出貨" }）：
 
     - **7-11：** 可在期限內（依超商規定，通常為關轉後兩天內、且上午 10：30 前）至後台 **重新選擇退回門市** 並 **上傳通知 7-11**。
     - **全家 / 萊爾富：** 直接走退貨流程，包裹退回物流總倉後，再退到店家填寫的退貨地址。
@@ -326,13 +326,13 @@ icon: lucide/workflow
 
 ??? quote "顧客要自取商品（不經物流），要怎麼出貨"
     [](){ #faq-fulfillment-self-pickup }
-    請改用 **「自訂物流」** 出貨流程。託運單號欄位可隨意填寫（系統不會追蹤自訂物流的貨態），配送狀態轉為 **「已出貨」** 即為最終貨態，並會列入對帳。詳見 [如何使用自訂物流出貨](../home-delivery/custom-logistic-shipping.md)。
+    請改用 **「自訂物流」** 出貨流程。託運單號欄位可隨意填寫（系統不會追蹤自訂物流的貨態），配送狀態轉為 **「已出貨」** 即為最終貨態，並會列入對帳。詳見 [如何使用自訂物流出貨](../home-delivery/custom-logistic-shipping.md){ title="如何使用自訂物流出貨" }。
 
 ## 參考資料 { #reference-fulfillment }
 
-- [配送狀態對照表](../references/fulfillment-statuses.md)
-- [超商物流部分出貨支援對照表](../references/cvs-partial-shipping-support.md)
-- [黑貓託運單規格與費用對照表](../../payments-and-logistics/references/tcat-delivery-rate-card.md)
+- [配送狀態對照表](../references/fulfillment-statuses.md){ title="配送狀態對照表" data-preview }
+- [超商物流部分出貨支援對照表](../references/cvs-partial-shipping-support.md){ title="超商物流部分出貨支援對照表" data-preview }
+- [黑貓託運單規格與費用對照表](../../payments-and-logistics/references/tcat-delivery-rate-card.md){ title="黑貓宅配託運單規格與費用對照表" data-preview }
 <!---
 <!---
 
@@ -452,13 +452,13 @@ graph LR
 
 5. **下載文件：** 壓縮檔內含 **託運單、出貨明細、訂單明細及揀貨訂單** 四份 PDF 檔案。
 
-![](../../../assets/images/ec-訂單-單筆訂單出貨流程.gif)
+![](../../../../../assets/images/ec-訂單-單筆訂單出貨流程.gif)
 
 ## 批次訂單出貨流程
 
 適用於大量相同配送方式的訂單，可提升作業效率。
 
-1. **篩選訂單：** 先[使用篩選器](order-management-interface.md#檢視群組篩選器模組){ data-preview }  選取「相同配送方式」且配送狀態為「未出貨」或「準備出貨」的訂單。
+1. **篩選訂單：** 先[使用篩選器](order-management-interface.md#檢視群組篩選器模組){ title="訂單管理介面說明" }  選取「相同配送方式」且配送狀態為「未出貨」或「準備出貨」的訂單。
 
 2. **勾選與操作：**
 
@@ -469,7 +469,7 @@ graph LR
 
 4. **產出壓縮檔：** 系統會合併所有選中訂單的託運單與清單，產出單一壓縮檔供下載列印。
 
-![](../../../assets/images/ec-訂單-批次出貨.png)
+![](../../../../../assets/images/ec-訂單-批次出貨.png)
 
 ## 訂單出貨壓縮檔說明
 
@@ -481,24 +481,24 @@ graph LR
 	??? note "托運單範例"
 
 		=== "B2C 托運單"
-			![](../../../assets/images/ec-托運單-b2c-範例.png)
+			![](../../../../../assets/images/ec-托運單-b2c-範例.png)
 		=== "C2C 托運單"
 		=== "宅配托運單"
 
 - **出貨明細**：放置於包裹內部。供收件人核對購買品項與數量。
 
 	??? note "出貨明細範例"
-		![](../../../assets/images/ec-出貨明細範例.png)
+		![](../../../../../assets/images/ec-出貨明細範例.png)
 
 - **揀貨單**：倉庫作業使用。彙整所有訂單之商品需求，方便出貨人員一次性集中揀取所需商品。
 
 	??? note "揀貨單範例"
-		![](../../../assets/images/ec-揀貨單範例.png)
+		![](../../../../../assets/images/ec-揀貨單範例.png)
 
 - **訂單明細**：行政備查。記錄該筆交易的完整原始資訊，包含金額與顧客備註。
 
 	??? note "訂單明細範例"
-		![](../../../assets/images/ec-訂單明細範例.png)
+		![](../../../../../assets/images/ec-訂單明細範例.png)
 
 
 ## 各類物流寄件方式說明
@@ -516,29 +516,29 @@ graph LR
 
     ---
 
-    - [__黑貓宅配__](../home-delivery/tcat-home-delivery.md)
-    - [__黑貓快速到店__](../tcat-quick-store/tcat-quick-store-shipping.md)
+    - [__黑貓宅配__](../home-delivery/tcat-home-delivery.md){ title="使用黑貓宅配出貨" }
+    - [__黑貓快速到店__](../tcat-quick-store/tcat-quick-store-shipping.md){ title="使用黑貓快速到店出貨" }
 
 -   :lucide-bird:{ .lg .middle } __宅配通__
 
     ---
 
-    - [__宅配通出貨__](../home-delivery/pelican-shipping.md)
-    - [__設定宅配通託運單__](../../payments-and-logistics/設定宅配通託運單.md)
+    - [__宅配通出貨__](../home-delivery/pelican-shipping.md){ title="使用宅配通出貨" }
+    - [__設定宅配通託運單__](../../payments-and-logistics/設定宅配通託運單.md){ title="設定宅配通託運單" }
 
 -   :lucide-truck:{ .lg } __新竹物流__
 
     ---
 
-    - [__新竹物流出貨__](../home-delivery/hct-shipping.md)
-    - [__設定新竹物流託運單__](../../payments-and-logistics/設定新竹物流託運單.md)
+    - [__新竹物流出貨__](../home-delivery/hct-shipping.md){ title="使用新竹物流出貨" }
+    - [__設定新竹物流託運單__](../../payments-and-logistics/設定新竹物流託運單.md){ title="設定新竹物流託運單" }
 
 -   :lucide-truck:{ .lg } __順豐__
 
     ---
 
-    - [__順豐出貨__](../home-delivery/sf-express-shipping.md)
-    - [__設定順豐託運單__](../../payments-and-logistics/設定順豐託運單.md)
+    - [__順豐出貨__](../home-delivery/sf-express-shipping.md){ title="使用順豐出貨" }
+    - [__設定順豐託運單__](../../payments-and-logistics/設定順豐託運單.md){ title="設定順豐託運單" }
 
 </div>
 
@@ -552,9 +552,9 @@ graph LR
 
 <div class="grid cards" markdown>
 
-- :lucide-store:{ .lg } [__超商取貨 (C2C 店到店)__](../cvs-shipping/cvs-c2c-shipping.md)
+- :lucide-store:{ .lg } [__超商取貨 (C2C 店到店)__](../cvs-shipping/cvs-c2c-shipping.md){ title="操作超商店到店 C2C 出貨" }
 - :lucide-factory:{ .lg } [__超商取貨 (B2C 大宗寄倉)__](操作超商大宗寄倉 B2C 出貨.md)
-- :lucide-snowflake:{ .lg } [__全家冷凍店到店__](../cvs-shipping/family-mart-frozen-c2c.md)
+- :lucide-snowflake:{ .lg } [__全家冷凍店到店__](../cvs-shipping/family-mart-frozen-c2c.md){ title="操作全家冷凍店到店 C2C 出貨" }
 
 </div>
 

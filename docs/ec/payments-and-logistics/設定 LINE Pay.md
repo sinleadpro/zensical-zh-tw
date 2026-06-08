@@ -2,7 +2,7 @@
 title: 設定 LINE Pay
 description: 串接 LINE Pay 付款，顧客於結帳時可選用 LINE Pay 進行支付。
 created: 2026-01-27 00:00
-last_modified: 2026-03-08 23:50
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status:
@@ -70,7 +70,7 @@ hide: []
 串接 LINE Pay 付款，顧客於結帳時可選用 LINE Pay 進行支付。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 / 高手 / 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
 ![](../../assets/images/ec-金物流-line-pay.png){ .hero-page }

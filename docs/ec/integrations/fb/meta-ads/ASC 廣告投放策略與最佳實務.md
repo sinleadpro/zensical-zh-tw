@@ -2,7 +2,7 @@
 title: ASC 廣告投放策略與最佳實務
 description: 了解 Meta ASC（高效速成購物行銷活動）廣告投放策略與實務技巧，包含前置條件設定、預算配置建議與優化策略。
 created: 2026-04-24 17:48
-last_modified: 2026-04-27 10:00
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: guide
 status: ""
@@ -130,17 +130,17 @@ hide:
 <div class="grid cards" markdown>
 
 -   :material-numeric-1-circle:{ .lg }
-    **[重新串接 FBE](../mbe/設定 FBE 帳號授權與資產連結.md){ data-preview }**
+    **[重新串接 FBE](../mbe/設定 FBE 帳號授權與資產連結.md){ title="設定 FBE 帳號授權與資產連結" }**
 
     因應 Meta 系統更新，建議商家重新串接一次「Facebook 新版商業擴充套件」。
 
 -   :material-numeric-2-circle:{ .lg }
-    **[建立廣告帳號並儲值](建立 Meta 廣告帳號並儲值.md){ data-preview }**
+    **[建立廣告帳號並儲值](建立 Meta 廣告帳號並儲值.md){ title="建立 Meta 廣告帳號並完成儲值" }**
 
     必須先於後台建立 Meta 廣告帳號，且 **首次儲值金額需大於新台幣 15,000 元**。
 
 -   :material-numeric-3-circle:{ .lg }
-    **[綁定 Facebook 像素（Pixel）](建立 Meta 廣告帳號並儲值.md#像素-pixel-設定){ data-preview }**
+    **[綁定 Facebook 像素（Pixel）](建立 Meta 廣告帳號並儲值.md#像素-pixel-設定){ title="建立 Meta 廣告帳號並完成儲值" }**
 
     確保官網已正確綁定，以便 ASC 目錄型廣告能正常抓取已搜集到的商品資訊。
 
@@ -152,7 +152,7 @@ hide:
 <div class="grid cards" markdown>
 
 -   :lucide-rocket:{ .lg }
-    **[建立廣告活動](設定 Meta 廣告活動.md)**
+    **[建立廣告活動](設定 Meta 廣告活動.md){ title="設定 Meta 廣告活動" }**
 
     完成上述設定後，您即可進入後台的「廣告活動設定」，點擊「立即串接」安裝 Meta Ads App 並開始創建您的第一波 ASC 廣告。
 
