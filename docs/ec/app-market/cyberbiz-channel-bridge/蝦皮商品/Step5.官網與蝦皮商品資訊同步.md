@@ -2,7 +2,7 @@
 title: Step 5 官網與蝦皮商品資訊同步
 description: 建立關聯後，您可以透過 商品資訊同步 機制，讓官網與蝦皮賣場的商品資料維持一致。當您在官網修改圖文或價格後，可一鍵同步至蝦皮，無需重複編輯。
 created: 2026-02-25 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-04 17:59
 lang: zh-TW
 type: tutorial
 status: ""
@@ -57,10 +57,9 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: ""
+icon: lucide/info
 hide: []
 ---
-
 # Step 5 官網與蝦皮商品資訊同步
 
 建立關聯後，您可以透過 商品資訊同步 機制，讓官網與蝦皮賣場的商品資料維持一致。當您在官網修改圖文或價格後，可一鍵同步至蝦皮，無需重複編輯。

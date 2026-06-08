@@ -2,7 +2,7 @@
 title: Step 3 官網與蝦皮商店庫存同步
 description: 透過建立商品關聯與開啟同步功能，您可以讓官網與蝦皮商店的庫存維持連動。當任一端產生訂單或在官網修改庫存時，系統將自動更新兩端的剩餘數量。
 created: 2026-02-26 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-04 17:59
 lang: zh-TW
 type: tutorial
 status: ""
@@ -59,10 +59,9 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: ""
+icon: lucide/refresh-cw
 hide: []
 ---
-
 # Step 3 官網與蝦皮商店庫存同步
 
 透過建立商品關聯與開啟同步功能，您可以讓官網與蝦皮商店的庫存維持連動。當任一端產生訂單或在官網修改庫存時，系統將自動更新兩端的剩餘數量。

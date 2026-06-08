@@ -2,7 +2,7 @@
 title: 建立全館VIP制度
 description: 逐步設定 VIP 會員層級、升等門檻與續會條件，建構符合商店品牌形象的會員體系。
 created: 2026-01-23 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-04 17:59
 lang: zh-TW
 type: tutorial
 status: ""
@@ -49,10 +49,9 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: ""
+icon: lucide/settings
 hide: []
 ---
-
 # 建立全館VIP制度
 
 逐步設定 VIP 會員層級、升等門檻與續會條件，建構符合商店品牌形象的會員體系。
