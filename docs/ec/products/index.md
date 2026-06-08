@@ -155,7 +155,7 @@ VIP 價格、**搜尋可見性排除**
    管理顧客評論與互動功能。  
 
 - :lucide-tag:{ .lg }   
-  [__商品廣告__](設定 Google 購物廣告)  
+  [__商品廣告__](../integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品.md)  
    設定商品廣告串接與投放管理。
 	
 </div>

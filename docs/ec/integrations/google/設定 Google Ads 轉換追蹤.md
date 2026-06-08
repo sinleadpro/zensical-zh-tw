@@ -42,7 +42,7 @@ features:
 prerequisites: 
   - 需先於 Google Ads 建立廣告活動
 related:
-  - "[[設定 Google 購物廣告]]"
+  - "[[設定 Google Merchant Center 並同步 CYBERBIZ 商品]]"
   - "[[建立 Google Tag Manager 並串接 CYBERBIZ]]"
   - "[[設定自動化廣告]]"
 tags:
