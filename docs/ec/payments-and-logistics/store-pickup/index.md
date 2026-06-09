@@ -101,8 +101,8 @@ hide:
 
     在開始提供服務前，請先完成門市建立與取貨規則配置。
 
-    [__建立與管理門市__](../建立門市.md){ title="建立門市" }<br>
-    [__開啟門市取貨服務__](../開啟門市取貨服務.md)
+    [__建立與管理門市__](../create-stores.md)<br>
+    [__開啟門市取貨服務__](enable-store-pickup-service)
 
 - :lucide-truck:{ .lg } __2. 後勤出貨作業 (後台)__
 
@@ -110,7 +110,7 @@ hide:
 
     管理官網收到的門市取貨訂單，並將包裹配送至指定門市。
 
-    [__門市取貨訂單出貨流程__](../門市取貨訂單出貨.md)
+    [__門市取貨訂單出貨流程__](../../orders/store-pickup-orders.md)
 
 - :lucide-package-check:{ .lg } __3. 門市現場營運 (POS)__
 
@@ -118,7 +118,7 @@ hide:
 
     門市人員處理包裹到店入庫、顧客核銷取貨與逾期處理。
 
-    [__門市包裹入庫與顧客取貨__](../../../pos/orders_ann/門市取貨訂單(入庫取貨).md)
+    [__門市包裹入庫與顧客取貨__](../../../pos/orders_ann/store-pickup-orders-inbound-and-pickup.md)
 
 - :lucide-hand-coins:{ .lg } __4. 管理與獎勵機制(POS)__
 
@@ -126,7 +126,7 @@ hide:
 
     透過分潤機制激勵門市人員，並追蹤營運成效。
 
-    [__設定 POS 門市取貨店員分潤__](../../../pos/others2/POS 門市取貨店員分潤.md)
+    [__設定 POS 門市取貨店員分潤__](../../../pos/others2/pos-store-pickup-staff-commission.md)
 
 </div>
 

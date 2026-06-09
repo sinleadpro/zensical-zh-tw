@@ -177,19 +177,19 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-user-plus:{ .lg }
-  [__設定推薦人分潤__](./設定推薦人分潤方案.md)<br>
+  [__設定推薦人分潤__](referrer-profit-sharing.md)<br>
   學習如何建立方案、綁定網紅或會員，並設定折扣優惠。
 
 - :lucide-users:{ .lg }
-  [__設定註冊人分潤__](./設定註冊人分潤方案.md)<br>
+  [__設定註冊人分潤__](registrant-profit-sharing.md)<br>
   了解如何建立永久綁定的註冊分潤關係，適用於長期業務開發。
 
 - :lucide-bar-chart-3:{ .lg }
-  [__匯出分潤報表__](./匯出分潤報表.md){ title="匯出分潤報表" }<br>
+  [__匯出分潤報表__](export-profit-sharing-reports.md)<br>
   掌握如何匯出分潤數據，作為獎金發放與績效評核的依據。
 
 - :lucide-file-search:{ .lg }
-  [__查詢分潤報表__](./查詢分潤夥伴與代碼資訊.md)<br>
+  [__查詢分潤報表__](query-profit-sharing-partners-and-codes.md)<br>
   掌握如何查詢分潤夥伴名單與對應分潤數據，協助您精準核對業績紀錄。
 
 </div>

@@ -95,8 +95,8 @@ hide: []
 
 - **前置作業**：使用前請先完成第三方平台串接。
 - **支援平台**：目前支援 LINE 與 Facebook。
-    - [串接 LINE 官方帳號]()
-    - [串接 Facebook 粉絲專頁]()
+    - [串接 LINE 官方帳號](connect-chat-box-to-line-oa.md)
+    - [串接 Facebook 粉絲專頁](connect-chat-box-to-facebook-page.md)
 - **資料同步**：在會員明細頁編輯的資料將即時同步至 Chat Box 介面。
 
 
@@ -135,14 +135,14 @@ hide: []
 在聊天室中，您可以：
 
 - **發送多媒體**：點擊圖示上傳圖片、影片或檔案。
-- **使用 AI 助手**：搭配 [Chat Box AI 建議回覆](Chat Box AI 建議回覆.md){ title="Chat Box AI 建議回覆" }，由 AI 根據您的資料庫生成客製化回覆草稿。
+- **使用 AI 助手**：搭配 [Chat Box AI 建議回覆](chat-box-ai-suggested-replies.md)，由 AI 根據您的資料庫生成客製化回覆草稿。
 - **查閱歷史紀錄**：向上捲動即可查看過往所有對話軌跡。
 
 !!! warning "訊息規格限制"
     不同平台支援的訊息格式與政策不一，操作前請參考：
     
-    - [LINE 訊息格式規範](LINE 訊息格式規範.md){ title="LINE 訊息格式規範" }
-    - [Meta 訊息格式規範](Meta 訊息格式規範.md){ title="Meta 訊息格式規範" }
+    - [LINE 訊息格式規範](line-message-format-spec.md)
+    - [Meta 訊息格式規範](meta-message-format-spec.md)
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-介面導覽04.png){ .small-image }
 
