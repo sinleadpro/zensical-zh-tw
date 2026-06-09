@@ -358,6 +358,9 @@ copyright = """
                 { "文字編輯器教學" = "ec/website-appearance/code-customization/使用文字編輯器編輯內容.md" },
                 { "樣板編輯器" = "ec/website-appearance/code-customization/樣板編輯器操作全攻略.md" },
                 { "恢復樣板版本" = "ec/website-appearance/code-customization/使用樣板編輯器恢復網頁代碼.md" }
+            ]},
+            { "參考資料" = [
+                { "自訂頁面可用區塊對照表" = "ec/website-appearance/references/custom-pages-blocks.md" }
             ]}
         ]},
         { "APP MARKET" = [
@@ -480,10 +483,10 @@ copyright = """
             { "網站基本資訊" = "ec/website-management/設定網站基本資訊.md" },
             { "設定多國語言與多幣別" = "ec/website-management/setup-multi-language-and-multi-currency.md" },
             {"顧客註冊驗證" = "ec/website-management/設定顧客 Email 與手機雙重驗證.md"},
-            { "續購與自動續約" = "ec/website-management/renewal-and-auto-subscription.md" },
-            { "顧客註冊流程與欄位" = "ec/website-management/customer-registration-flow-and-fields.md" },
-            { "網域管理" = "ec/website-management/domain-management.md" },
-            {"安全性設定" = "ec/website-management/設定網站安全性.md"},
+            { "續購與自動續約" = "ec/website-management/續購與自動續約.md" },
+            { "顧客註冊流程與欄位" = "ec/website-management/顧客註冊流程與欄位.md" },
+            { "網域管理" = "ec/website-management/網域管理.md" },
+            {"安全性設定" = "ec/website-management/security-settings.md"},
             {"二階段驗證 (2FA)" = "ec/website-management/設定與管理二階段驗證.md"},
             {"Authy 二階段驗證" = "ec/website-management/使用 Authy 啟用二階段驗證設定.md"},
             {"搜尋引擎最佳化" = [
@@ -492,8 +495,8 @@ copyright = """
                 {"網站轉址" = "ec/website-management/seo/設定 301 重定向網站轉址.md"}
             ]},
             { "星益欣電子發票" = "ec/website-management/星益欣電子發票設定指南.md" },
-            {"儲值中心" = "ec/website-management/CYBER 幣儲值中心使用指南.md"},
-            { "特定網域信箱套用會員標籤" = "ec/website-management/apply-member-tags-to-specific-email-domains.md" },
+            {"儲值中心" = "ec/website-management/points-deposits.md"},
+            { "特定網域信箱套用會員標籤" = "ec/website-management/特定網域信箱套用會員標籤.md" },
             {"管理員與權限" = "ec/website-management/新增網站管理員並設定權限.md"},
             { "欠款自動扣繳" = "ec/website-management/auto-deduction-of-arrears.md" },
             { "自動確認對帳帳款" = "ec/website-management/auto-confirm-reconciliation-accounts.md" },
@@ -944,12 +947,12 @@ plan = "lucide/tag"
 #icon = "fontawesome/brands/github"
 #link = "https://github.com/user/repo"
 
-[project.extra]
-alternate = [
-  { name = "English", link = "/en/", lang = "en" },
-  { name = "日本語", link = "/ja/", lang = "ja" },
-  { name = "繁體中文", link = "/zh-TW/", lang = "zh-TW" }
-]
+# [project.extra]
+# alternate = [
+#   { name = "English", link = "/en/", lang = "en" },
+#   { name = "日本語", link = "/ja/", lang = "ja" },
+#   { name = "繁體中文", link = "/zh-TW/", lang = "zh-TW" }
+# ]
 
 [[project.extra.social]]
 icon = "simple/youtube"
@@ -966,9 +969,9 @@ icon = "simple/facebook"
 link = "https://www.facebook.com/CYBERBIZCorporation/?locale=zh_TW" 
 name = "CYBERBIZ 官方 Facebook"
 
-[[project.extra.social]]
-icon = "simple/rss"
-link = "http://localhost:8000/feed_rss_created.xml"
+# [[project.extra.social]]
+# icon = "simple/rss"
+# link = "http://localhost:8000/feed_rss_created.xml"
 
 
 [project.extra.status]

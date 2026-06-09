@@ -194,7 +194,7 @@ hide: []
   尚未開通通路？先完成申請與啟用。
 
 - :lucide-coins:{ .lg }  
-  [__儲值 CYBER 幣__](../../website-management/Cyber 幣儲值中心使用指南.md){ title="Cyber 幣儲值中心使用指南" }  
+  [__儲值 CYBER 幣__](../../website-management/points-deposits.md){ title="Cyber 幣儲值中心使用指南" }  
   一般版商家確保餘額足以扣除大量訂單運費。
 
 - :lucide-file-text:{ .lg }  

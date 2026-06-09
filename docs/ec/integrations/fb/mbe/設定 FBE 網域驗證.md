@@ -2,7 +2,7 @@
 title: 設定 FBE 網域驗證
 description: 在企業管理平台中完成網域驗證。
 created: 2026-04-10 14:50
-last_modified: 2026-06-09 14:19
+last_modified: 2026-06-09 14:42
 lang: zh-TW
 type: tutorial
 status: ""
@@ -104,6 +104,10 @@ hide: []
 
         1. 需先完成 [CNAME 與轉址設定](../../../website-management/網域管理.md#gandi){ title="網域管理" }
         2. 登入 [Gandi 後台 :lucide-external-link:](https://admin.gandi.net/)，於「區域檔紀錄」新增一筆 TXT 紀錄，名稱輸入 `@`，內容貼上複製的 TXT 代碼。
+
+        ![](../../../../assets/images/ec-第三方整合-meta企業管理平台-dnd-txt紀錄新增-gandi.png)
+
+        > 更多 Gandi DNS 紀錄操作說明，請參考[官方文件 :lucide-external-link:](https://docs.gandi.net/zh-hant/domain_names/common_operations/dns_records.html)。
 
     === ":simple-godaddy: GoDaddy"
 
