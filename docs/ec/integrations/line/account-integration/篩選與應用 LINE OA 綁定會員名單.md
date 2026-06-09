@@ -2,7 +2,7 @@
 title: 篩選與應用 LINE OA 綁定會員名單
 description: 使用會員篩選器找出 LINE OA 綁定會員，並匯出或用於行銷受眾。
 created: 2026-03-06 11:20
-last_modified: 2026-03-06 11:41
+last_modified: 2026-06-08 17:15
 lang: zh-TW
 permalink: ""
 type: tutorial
@@ -83,7 +83,7 @@ hide:
 
 ## 篩選 LINE 綁定會員說明
 
-您可以透過後台的會員篩選器，快速識別出哪些會員已經完成 [**LINE OA 官方帳號與官網會員的綁定**](綁定 LINE 官方帳號與官網會員.md){ data-preview } ，以便進行後續的分眾行銷或受眾打包。
+您可以透過後台的會員篩選器，快速識別出哪些會員已經完成 [**LINE OA 官方帳號與官網會員的綁定**](綁定 LINE 官方帳號與官網會員.md){ title="綁定 LINE 官方帳號與官網會員" } ，以便進行後續的分眾行銷或受眾打包。
 
 以下是詳細的操作說明與教學：
 
@@ -115,7 +115,7 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-user-round-plus:{ .lg }   
-  [__行銷應用__](../../notifications/發送 LINE 加入好友邀請.md){ data-preview }       
+  [__行銷應用__](../../notifications/send-line-friend-invitation.md)       
   對於「未綁定」的會員，商家可以利用簡訊或 Email 發送「LINE OA 加入好友邀請」，並提供優惠券來提升綁定率。
 
 <!--

@@ -2,7 +2,7 @@
 title: "{{title}}"
 description: "" 
 created: "{{date}} {{time}}"
-last_modified: 
+last_modified: 2026-06-03 16:18
 lang: zh-TW
 type: tutorial
 status: ""
@@ -45,9 +45,9 @@ icon: ""
 hide:
 ---
 
-{ .subtitle }
+{{ subtitle(page.meta.description) }}
 
-{ .doc-badge }
+{{ badge(page.meta) }}
 
 { .hero-page }
 

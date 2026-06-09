@@ -2,7 +2,7 @@
 title: 結帳
 description: 掌握 CYBERBIZ 智能 POS 的完整結帳流程，包含會員登入、商品選購、套用行銷活動及收款開立發票的操作引導。
 created: 2026-04-17 12:30
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -72,7 +72,7 @@ hide: []
 從會員識別到收款發票，帶您熟悉門市結帳的每一個關鍵環節，提供流暢的顧客消費體驗。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
 !!! tip "應用情境"
@@ -158,7 +158,7 @@ graph LR
     適用不提供資料的顧客，快速進入購物車。
 
     - :lucide-plug:{ .lg }
-    [__離線結帳__](離線結帳模式/)<br>
+    [__離線結帳__](離線結帳模式/){ title="離線結帳模式" }<br>
     網路不穩時，確保交易正常紀錄不中斷。
 
     - :lucide-plug:{ .lg }
@@ -203,7 +203,7 @@ graph LR
     <div class="grid cards" markdown>
 
     - :lucide-plug:{ .lg }
-    [__設定庫存不足提醒方式__](庫存不足通知/)<br>
+    [__設定庫存不足提醒方式__](庫存不足通知/){ title="庫存不足通知" }<br>
     即時掌握庫存狀態，避免超賣或無貨可賣。
 
 
@@ -274,8 +274,8 @@ graph LR
     - :lucide-plug:{ .lg }
     __建立加價購活動__<br>
     增加客單價，在結帳時推薦超值加購品。
-        - [訂單加價購](../../ec/marketing/設定訂單加價購/)
-        - [商品加價購](../../ec/marketing/設定商品加價購/)
+        - [訂單加價購](../../ec/marketing/設定訂單加價購/){ title="設定訂單加價購" }
+        - [商品加價購](../../ec/marketing/設定商品加價購/){ title="設定商品加價購" }
 
     - :lucide-plug:{ .lg }
     [__建立滿額贈滿件贈活動__](../../ec/marketing/設定滿額贈與滿件贈/)<br>
@@ -316,7 +316,7 @@ graph LR
     <div class="grid cards" markdown>
 
     - :lucide-plug:{ .lg }
-    [__開啟付款方式__](payment-method/)<br>
+    [__開啟付款方式__](payment-method/){ title="付款方式" }<br>
     管理店面支付管道，設定最適合結帳順序。
 
     - :lucide-plug:{ .lg }
@@ -335,7 +335,7 @@ graph LR
 
             ![](../../assets/images/POS-前台-結帳-手開發票號碼01.png){ .screenshot }
 
-            > 您也可於 **訂單** 頁 [補開發票](../orders_ann/管理一般訂單/#補開發票--列印明細)。
+            > 您也可於 **訂單** 頁 [補開發票](../orders_ann/管理一般訂單/#補開發票--列印明細){ title="管理一般訂單" }。
         - **其他載具**：手機條碼、自然人憑證或捐贈代碼。
     2. **完成結帳**：確認金額正確後，點擊 **收款**。
 

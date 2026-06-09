@@ -2,7 +2,7 @@
 title: 門市取貨：虛實整合營運導航
 description: 整合線上購物與線下取貨，提供顧客彈性的購物體驗，並透過後台與 POS 系統的高效協作，優化 OMO 營運效率。
 created: 2026-04-27 16:55
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: guide
 status: ""

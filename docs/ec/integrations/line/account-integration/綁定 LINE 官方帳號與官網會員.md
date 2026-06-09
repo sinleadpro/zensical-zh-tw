@@ -2,7 +2,7 @@
 title: 綁定 LINE 官方帳號與官網會員
 description: 透過 LINE Official Account、LINE Login 與 LIFF，完成官網會員與 LINE 帳號的綁定流程，以支援自動化通知與精準行銷應用。
 created: 2026-02-15 00:00
-last_modified: 2026-03-08 12:00
+last_modified: 2026-06-08 17:15
 lang: zh-TW
 permalink: ""
 type: tutorial
@@ -105,9 +105,9 @@ hide: []
 
 商家必須先完成以下系統串接設定，資料才能互通：
 
-- [x] [**建立與串接 Messaging API**](串接 LINE Messaging API.md){ data-preview }  ：完成 LINE 官方帳號與 CYBERBIZ 後台的 API 串接。
+- [x] [**建立與串接 Messaging API**](串接 LINE Messaging API.md){ title="串接 LINE Messaging API" }  ：完成 LINE 官方帳號與 CYBERBIZ 後台的 API 串接。
 
-- [x] [**設定 LINE Login (快速登入)**](設定 LINE 快速登入.md){ data-preview }  ：務必將「LINE 登入」與「Messaging API」設定在 **同一個 LINE Developers Provider (服務提供者)** 中。
+- [x] [**設定 LINE Login (快速登入)**](設定 LINE 快速登入.md){ title="設定 LINE 快速登入" }  ：務必將「LINE 登入」與「Messaging API」設定在 **同一個 LINE Developers Provider (服務提供者)** 中。
 
 - [x] **啟用 LINE 快速登入**：消費者需透過 LINE 快速登入註冊或登入，才能完成綁定流程。
 
@@ -151,7 +151,7 @@ hide: []
 
 - **應用**：商家可複製系統產生的 LIFF 網址，製作成 QR Code 供消費者掃描。
 
-!!! info "詳細操作說明，請參閱 [如何設定 LIFF](設定 LIFF 自動登入與會員綁定.md){ data-preview }。"  
+!!! info "詳細操作說明，請參閱 [如何設定 LIFF](設定 LIFF 自動登入與會員綁定.md){ title="設定 LIFF 自動登入與會員綁定" }。"  
 
 ![](../../../../assets/images/ec-第三方整合-line 註冊登入-liff 網址.png)
 
@@ -172,11 +172,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-bell-ring:{ .lg }  
-  [__自動發送提醒樣板__](../../notifications/設定與管理 LINE OA 通知樣板.md){ data-preview }  
+  [__自動發送提醒樣板__](../../notifications/manage-line-oa-templates.md){ data-preview }  
   自動回覆訂單確認、貨物發送、到店提醒及未付款提醒等訊息。
 
 - :lucide-ticket-percent:{ .lg }  
-  [__綁定送優惠券__](設定 LINE 綁定會員贈送優惠券.md){ data-preview }  
+  [__綁定送優惠券__](設定 LINE 綁定會員贈送優惠券.md){ title="設定 LINE 綁定會員贈送優惠券" }  
   設定「LINE @ 綁定贈送優惠券功能」來增加顧客綁定意願。
 
 - :lucide-scan-barcode:{ .lg }  

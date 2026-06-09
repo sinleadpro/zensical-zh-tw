@@ -39,7 +39,7 @@ features:
 prerequisites:
   - 客服申請開通
 related:
-  - docs/ec/website-appearance/使用樣板編輯器恢復網頁代碼.md
+  - ec/website-appearance/code-customization/使用樣板編輯器恢復網頁代碼.md
 tags:
   - LINE
   - 訂單完成

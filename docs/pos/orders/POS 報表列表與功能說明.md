@@ -27,7 +27,15 @@ intents: []
 features: []
 prerequisites: []
 related: []
-tags: []
+tags:
+  - POS
+  - 銷售報表
+  - 帳務核對
+  - 庫存管理
+  - 營收計算
+  - 業績認列
+  - 全通路
+  - 門市管理
 acoiv: ""
 apis: []
 devices: 

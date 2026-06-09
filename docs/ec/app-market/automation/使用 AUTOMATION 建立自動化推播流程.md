@@ -2,7 +2,7 @@
 title: 使用 AUTOMATION 建立自動化推播流程
 description: 在 CYBERBIZ AUTOMATION 中建立自動化流程，設定會員分群並發送簡訊、EDM 或 LINE OA 訊息。
 created: 2026-03-09 14:48
-last_modified: 2026-03-10 15:35
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status:
@@ -47,12 +47,14 @@ prerequisites:
 related:
   - /ec/marketing/設定與發送 EDM 電子報
 tags:
-  - 自動化推播
-  - AUTOMATION
-  - 簡訊
+  - EC
+  - Automation
+  - 自動化行銷
+  - 推播流程
+  - 會員分群
+  - 簡訊發送
   - EDM
   - LINE OA
-  - 會員分群
 acoiv:
 apis: []
 devices:
@@ -65,11 +67,11 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7955
   - https://www.cyberbiz.io/support/?p=38837
 permalink:
-comments: false
 search:
   exclude: false
 icon: lucide/zap
 hide: []
+comments: false
 ---
 
 # 使用 AUTOMATION 建立自動化推播流程
@@ -77,7 +79,7 @@ hide: []
 在 CYBERBIZ AUTOMATION 中建立自動化流程，設定會員分群並發送簡訊、EDM 或 LINE OA 訊息。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業  
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案){ title="圖示慣例" } | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業  
 [:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | AUTOMATION
 { .doc-badge }
 
@@ -86,8 +88,6 @@ hide: []
 ## AUTOMATION 自動化推播說明
 
 **CYBERBIZ AUTOMATION** 是專為商家設計的自動化流程工具，能簡化行銷與營運設定，提高經營效率。
-
-以下為 AUTOMATION 發送簡訊、EDM 及 LINE OA 訊息的詳細教學：
 
 ## 前置作業：自訂會員篩選分群
 
@@ -105,9 +105,9 @@ hide: []
 
     ![](../../../assets/images/ec-會員-所有會員-automation會員分群.gif)
 
-## AUTOMATION 操作流程 (簡訊/EDM/LINE OA)
+## AUTOMATION 操作流程 <small>簡訊/EDM/LINE OA</small>
 
-進入設定介面的路徑為：登入 CYBERBIZ 管理後台，前往 **APP MARKET > 我的擴充服務 > CYBERBIZ AUTOMATION**」。
+進入設定介面的路徑為：登入管理後台，前往 **APP MARKET > 我的擴充服務 > CYBERBIZ AUTOMATION**」。
 
 ### 簡訊發送設定
 
@@ -132,7 +132,7 @@ hide: []
 
 ### EDM 發送設定
 
-*   **必要前提**：必須先完成 [EDM 基礎設定](../../marketing/設定與發送 EDM 電子報.md){ data-preview }。
+*   **必要前提**：必須先完成 [EDM 基礎設定](../../marketing/send-edm-newsletters.md){ data-preview }。
 *   **操作步驟**：流程可參照[簡訊發送設定](#簡訊發送設定)。
     1.  選擇 EDM 預設模板（如：發送 EDM 給 VIP 或自訂分群）。
     2.  設定排程與會員篩選。
@@ -153,6 +153,9 @@ hide: []
         ![](../../../assets/images/ec-app-market-automation-lineoa-lineoa內容.png)
 
 ## 流程啟用與追蹤
+
+!!! tip "提示"
+    建立流程時，一個完整的自動化工作流將由觸發節點（時間/事件）、條件節點（篩選判斷）與行動節點（具體動作）組裝而成。
 
 1.  **開始流程**：設定完成後點擊「開始流程」，系統會提示預計花費的 Cyber 幣或發送人數。
 

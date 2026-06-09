@@ -2,7 +2,7 @@
 title: 退貨與退款狀態對照（超商訂單逾期未取）
 description: 超商訂單逾期未取時的配送狀態、退貨狀態、付款狀態流轉對照表
 created: 2026-05-27 10:45
-last_modified: 2026-05-27 15:15
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: reference
 status: ""
@@ -145,9 +145,9 @@ hide: []
 
 ## 參考資料 { #reference-overdue-cvs-refund-flow }
 
-* [處理超商訂單逾期未取](../cvs-unclaimed-order.md){ title="處理超商訂單逾期未取" }
-* [自動退刷時效對照表](auto-refund-timeline.md){ title="自動退刷時效對照表" }
-* [黑貓快速到店逾期說明](../tcat-quick-store-overdue.md){ title="黑貓快速到店逾期說明" }
+* [處理超商訂單逾期未取](../returns-refunds/cvs-unclaimed-order.md){ title="處理超商訂單逾期未取" }
+* [自動退刷時效對照表](auto-refund-timeline.md){ title="自動退刷時效對照表" data-preview }
+* [黑貓快速到店逾期說明](../tcat-quick-store/tcat-quick-store-overdue.md){ title="黑貓快速到店逾期說明" }
 
 
 

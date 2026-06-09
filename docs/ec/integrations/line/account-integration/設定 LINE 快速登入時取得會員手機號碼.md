@@ -2,7 +2,7 @@
 title: 設定 LINE 快速登入時取得會員手機號碼
 description: 串接 LINE 認證權限，在快速登入流程中自動取得並驗證會員手機號碼，以提升帳號比對精準度與資料完整性。
 created: 2026-02-16 00:00
-last_modified: 2026-03-08 12:00
+last_modified: 2026-06-08 17:15
 lang: zh-TW
 permalink: ""
 type: tutorial
@@ -99,7 +99,7 @@ hide: []
 
 商家必須同時符合以下三個條件，方可使用此功能：
 
-- [x] [**完成 LINE 快速登入串接**](設定 LINE 快速登入.md){ data-preview }  ：官網後台已完成基礎的 LINE 登入功能設定。
+- [x] [**完成 LINE 快速登入串接**](設定 LINE 快速登入.md){ title="設定 LINE 快速登入" }  ：官網後台已完成基礎的 LINE 登入功能設定。
 
 - [x] **LINE Provider 認證**：您的 LINE Provider 必須已通過認證，成為 **LINE Certified Provider**。
 
@@ -202,7 +202,7 @@ graph LR
 
 	- **商家端：** 系統將自動取得該會員於 LINE 綁定的手機號碼，並實現 **自動登入、同步完成官網會員綁定** 的極速流程。
 
-!!! info "關於 LIFF 的完整設定說明，請參閱 [如何設定 LIFF 自動登入](設定 LIFF 自動登入與會員綁定.md){ data-preview }。"
+!!! info "關於 LIFF 的完整設定說明，請參閱 [如何設定 LIFF 自動登入](設定 LIFF 自動登入與會員綁定.md){ title="設定 LIFF 自動登入與會員綁定" }。"
 
 ## 重要注意事項
 

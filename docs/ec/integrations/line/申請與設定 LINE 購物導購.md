@@ -2,7 +2,7 @@
 title: 申請與設定 LINE 購物導購
 description: 申請 LINE 購物導購並完成後台串接設定，將 LINE 購物流量導入官網下單。
 created: 2026-03-13 10:46
-last_modified: 2026-06-02T15:09:33+08:00
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status:
@@ -64,7 +64,7 @@ hide: []
 申請 LINE 購物導購並完成後台串接設定，將 LINE 購物流量導入官網下單。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案){ title="圖示慣例" } | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
 ![](../../../assets/images/ec-第三方整合-line購物設定.png){ .hero-page }
@@ -109,7 +109,7 @@ hide: []
 - [x] **狀態為「已上架」**。
 - [x] **標籤排除**：商品標籤內 **不得** 設有「贈品」或「排除product feed」之關鍵字。
 
-!!! tip "檢驗頁面與路徑，可參閱 LINE 直播文件中的 [商品串接與同步邏輯](申請與設定 LINE 直播功能.md#商品串接與同步邏輯){ data-preview }。"
+!!! tip "檢驗頁面與路徑，可參閱 LINE 直播文件中的 [商品串接與同步邏輯](申請與設定 LINE 直播功能.md#商品串接與同步邏輯){ title="申請與設定 LINE 直播功能" }。"
 
 ## 目錄更新與同步時間
 
@@ -119,7 +119,7 @@ hide: []
 
 ## 訂單查看與管理
 
-*   **訂單歸類**：透過 LINE 購物導購完成的訂單，可於 [**「訂單」>「LINE 購物訂單」**](group-buy/設定 LINE 團購群組.md#訂單查看與紀錄管理){ data-preview } 中查看。
+*   **訂單歸類**：透過 LINE 購物導購完成的訂單，可於 [**「訂單」>「LINE 購物訂單」**](group-buy/設定 LINE 團購群組.md#訂單查看與紀錄管理){ title="設定 LINE 團購群組" } 中查看。
 *   **導購來源追蹤**：商家也可在匯出的訂單報表中[查看「導購來源」欄位](../../orders/export-order-report.md#步驟一選擇報表欄位){ data-preview }，確認訂單是否來自 LINE 購物。
 
 ## 常見問題

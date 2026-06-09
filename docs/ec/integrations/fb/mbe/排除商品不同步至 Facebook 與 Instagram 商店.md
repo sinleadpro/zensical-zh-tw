@@ -2,7 +2,7 @@
 title: 排除商品不同步至 Facebook 與 Instagram 商店
 description: 透過商品標籤設定或商務管理工具，排除特定商品不同步至 Facebook 與 Instagram 商店。
 created: 2026-04-14 11:25
-last_modified: 2026-04-14 13:00
+last_modified: 2026-06-08 17:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -78,7 +78,7 @@ hide: []
 
 ## 前置作業
 
-- [x] 完成 [Facebook 跟 Instagram 商店串接](設定 Facebook 跟 Instagram 商店.md){ data-preview }。
+- [x] 完成 [Facebook 跟 Instagram 商店串接](設定 Facebook 跟 Instagram 商店.md){ title="設定 Facebook 跟 Instagram 商店" }。
 
 ## 透過官網後台標籤排除（自動化）
 
@@ -87,7 +87,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-package-x:{ .lg }   
-  [__設定商品排除標籤__](../../../products/categorization/管理商品標籤.md#排除上傳至第三方平台標籤){ data-preview }     
+  [__設定商品排除標籤__](../../../products/categories-and-tags/管理商品標籤.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }     
   在商品標籤輸入「排除 product feed」或「贈品」，系統自動過濾不同步的商品。
 
 </div>

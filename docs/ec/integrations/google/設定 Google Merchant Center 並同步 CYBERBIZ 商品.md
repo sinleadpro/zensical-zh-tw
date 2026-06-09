@@ -2,7 +2,7 @@
 title: 設定 Google Merchant Center 並同步 CYBERBIZ 商品
 description: 串接 Google Merchant Center、同步商品資料至 Google 搜尋與購物廣告。
 created: 2026-03-05 10:00
-last_modified: 2026-03-30 12:45
+last_modified: 2026-06-08 19:28
 lang: zh-TW
 type: tutorial
 status: ""
@@ -85,12 +85,12 @@ comments: false
     - **自動化管理**：自動同步商品庫存、價格與圖片，減少手動維護工作。
     - **數據追蹤與優化**：收集使用者互動與廣告成效資料，支援後續分析與優化。
 
-## 如何申請 Google Merchant Center (Google 端操作)
+## 如何申請 Google Merchant Center <small>Google 端操作</small>
 
 ### 建立帳戶
 
 !!! warning "重要提醒"
-    若您是為了投放 **Google 自動化廣告**，可選擇由 CYBERBIZ 代管 GMC 帳號，請直接在自動化廣告設定頁創建，避免自行申請導致權限衝突或廣告異常。瞭解[如何設置自動化廣告](設定自動化廣告.md){ data-preview }。
+    若您是為了投放 **Google 自動化廣告**，可選擇由 CYBERBIZ 代管 GMC 帳號，請直接在自動化廣告設定頁創建，避免自行申請導致權限衝突或廣告異常。瞭解[如何設置自動化廣告](設定自動化廣告.md){ title="設定自動化廣告系統" }。
 
 1.  **前往 GMC**：前往 [Google Merchant Center :lucide-external-link:](https://www.google.com/retail/solutions/merchant-center/) 並點擊「立即開始」
 2.  **選擇商店類型**：選擇「是」表示你有線上商店，選擇是否有實體商店，輸入商店網址
@@ -134,7 +134,7 @@ comments: false
         ![GMC 商店驗證狀態](../../../assets/images/ec-gmc-商家資訊-驗證狀態.png)
 ---
 
-### 同步商品資料 (Product Feed 設定)
+### 同步商品資料 <small>Product Feed 設定</small>
 
 1.  **複製饋給連結**：至 CYBERBIZ 後台「第三方整合」>「谷歌 Google 設定」>「Google Merchant Center」，複製「**產品動態饋給連結**」。
 
@@ -200,7 +200,7 @@ comments: false
 
     建議至商品設定頁的「Google 產品類別」手動選擇正確類別，能讓廣告投放更精準。
 
-    [:lucide-arrow-right: 設定教學](../../products/creation/編輯商品描述與商品設定.md#進階設定){ data-preview }
+    [:lucide-arrow-right: 設定教學](../../products/create-and-manage/編輯商品描述與商品設定.md#進階設定){ title="編輯商品描述與商品設定" }
 
 -   :lucide-image:{ .lg .middle } __圖片規範__
 
@@ -208,14 +208,11 @@ comments: false
 
     請選擇 **無價格、無宣傳標語、無品牌浮水印** 的圖片，否則可能不符合 [Google 規範](https://support.google.com/merchants/answer/6324350#Image_guidelines)。
 
-    [:lucide-arrow-right: 設定教學](../../products/creation/新增與更新商品.md#商品圖片){ data-preview }
+    [:lucide-arrow-right: 設定教學](../../products/create-and-manage/新增與更新商品.md#商品圖片){ title="新增與更新商品" }
 
 </div>
 
-
-
-
-## 哪些商品不會被上傳 (自動排除邏輯)
+## 哪些商品不會被上傳 <small>自動排除邏輯</small>
 
 系統會自動排除以下情況的商品，不會上傳至 GMC：
 
@@ -228,15 +225,15 @@ comments: false
 <div class="grid cards" markdown>
 
 - :lucide-activity:{ .lg }   
-  [__重要事件來源追蹤與自動標記__](設定%20GMC%20重要事件來源追蹤與自動標記.md){ data-preview }     
+  [__重要事件來源追蹤與自動標記__](設定%20GMC%20重要事件來源追蹤與自動標記.md)     
   追蹤特定來源的產品購買情形，並開啟自動標記功能以準確關聯廣告轉換。
 
 - :lucide-footprints:{ .lg }   
-  [__Google Ads 轉換追蹤__](設定%20Google%20Ads%20轉換追蹤.md){ data-preview }     
+  [__Google Ads 轉換追蹤__](設定%20Google%20Ads%20轉換追蹤.md)     
   設定 Google Ads 轉換追蹤代碼，回報廣告帶來的訂單成效，優化廣告投放效益。
 
 - :lucide-chart-column-increasing:{ .lg }   
-  [__Google Analytics 追蹤__](設定%20GMC%20重要事件來源追蹤與自動標記.md#將-ga4-連結至-merchant-center){ data-preview }     
+  [__Google Analytics 追蹤__](設定%20GMC%20重要事件來源追蹤與自動標記.md#將-ga4-連結至-merchant-center)     
   將 GA4 連結至 Merchant Center，查看來自 Google 搜尋與購物廣告的購買指標。
 
 </div>
@@ -253,7 +250,7 @@ comments: false
     目前 Google 商品類別需逐筆商品設定，無法批次套用。
 
 ??? quote "商品圖片需要符合哪些規範？"
-    請選擇 **無價格、無宣傳標語、無品牌浮水印** 的圖片，否則可能不符合 Google 規格。詳細規範請參考 [新增單一商品 - Google 圖片規範](../../products/creation/新增單一商品.md#Google-圖片規範)。
+    請選擇 **無價格、無宣傳標語、無品牌浮水印** 的圖片，否則可能不符合 Google 規格。詳細規範請參考 [新增單一商品 - Google 圖片規範](../../products/create-and-manage/新增單一商品.md#Google-圖片規範)。
 
 ??? quote "產品資料多久更新一次？"
     系統固定每日凌晨 1:30 自動更新，若有急需可點擊「手動更新目錄」（一小時限一次）。

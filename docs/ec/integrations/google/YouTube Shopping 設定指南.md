@@ -2,7 +2,7 @@
 title: YouTube Shopping 設定指南
 description: 透過 YouTube Shopping 在影片、直播、短影音中植入商品資訊與連結，提升商品曝光與流量變現。
 created: 2026-03-27 10:49
-last_modified: 2026-03-30 12:50
+last_modified: 2026-06-08 17:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -42,6 +42,14 @@ prerequisites:
   - "[[建立並串接 Google Analytics]]"
 related:
   - "[[設定 GMC 重要事件來源追蹤與自動標記]]"
+tags:
+  - EC
+  - YouTube Shopping
+  - Google Merchant Center
+  - 直播購物
+  - 產品動態饋給
+  - YPP
+  - 第三方整合
 acoiv: integration
 apis: []
 devices:
@@ -121,7 +129,7 @@ graph LR
 
     進入 Google Merchant Center (GMC) 完成商家基本資訊設定，並確認商店所有權完成驗證。
 
-    [:lucide-arrow-right: 設定教學](設定 Google Merchant Center 並同步 CYBERBIZ 商品.md){ data-preview }    
+    [:lucide-arrow-right: 設定教學](設定 Google Merchant Center 並同步 CYBERBIZ 商品.md){ title="設定 Google Merchant Center 並同步 CYBERBIZ 商品" }    
 
 -   :lucide-chart-no-axes-column-increasing:{ .lg .middle } __建立並串接 GA4 帳號__
 
@@ -129,7 +137,7 @@ graph LR
 
     在 Google Analytics 後台取得 「評估 ID」，前往 CYBERBIZ 後台填入評估 ID 完成串接。
 
-    [:lucide-arrow-right: 設定教學](ga/建立並串接 Google Analytics.md){ data-preview }
+    [:lucide-arrow-right: 設定教學](ga/建立並串接 Google Analytics.md){ title="建立並串接 Google Analytics" }
 
 </div>
 

@@ -2,7 +2,7 @@
 title: 申請 CYBERBIZ PAYMENTS
 description: 設定網站、提交商店資訊，並啟用 CYBERBIZ PAYMENTS。
 created: 2026-01-26 00:00
-last_modified: 2026-03-08 23:50
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status:
@@ -83,7 +83,7 @@ hide: []
     - 商家開通服務時，系統 **自動啟用 Google Pay 與 Apple Pay**。
     - 手續費通常與信用卡一次付清相同，無需額外申請。
         
-- **降低盜刷風險**：可設定 [3D 驗證門檻](設定信用卡 3D 驗證門檻.md){ data-preview }。
+- **降低盜刷風險**：可設定 [3D 驗證門檻](設定信用卡 3D 驗證門檻.md){ title="設定信用卡 3D 驗證門檻" }。
     - 超過門檻的交易需手機簡訊驗證，低於門檻則採 幕後授權。
     - 若發生爭議，責任通常由持卡人承擔。
 
@@ -220,13 +220,13 @@ flowchart LR
 <div class="grid cards" markdown>
 
 - :lucide-shield-check:{ .lg }   
-  [__設定信用卡 3D 驗證__](設定信用卡 3D 驗證門檻.md)    
+  [__設定信用卡 3D 驗證__](設定信用卡 3D 驗證門檻.md){ title="設定信用卡 3D 驗證門檻" }    
   匯入編輯過的商品 Excel 檔案，同步更新多筆商品的商品描述與配送相關設定。
 - :simple-applepay:{ .lg }     
-  [__設定 Apple Pay__](設定 Apple Pay)  
+  [__設定 Apple Pay__](設定 Apple Pay){ title="設定 Apple Pay" }  
   啟用 Apple Pay 支付選項。
 - :lucide-clock:{ .lg }     
-  [__設定 AFTEE__](設定 AFTEE)  
+  [__設定 AFTEE__](設定 AFTEE){ title="設定 AFTEE" }  
   啟用 AFTEE 先享後付支付選項。
 
 </div>
@@ -255,7 +255,7 @@ flowchart LR
     不需要。系統開通 CYBERBIZ PAYMENTS 後，**自動啟用 Google Pay 與 Apple Pay**。手續費通常與信用卡一次付清相同。
 
 ??? quote "可以設定信用卡 3D 驗證嗎？"
-    可以。請參考 [設定信用卡 3D 驗證門檻](設定信用卡 3D 驗證門檻.md){ data-preview }。超過門檻的交易需簡訊驗證，低於門檻則採幕後授權。
+    可以。請參考 [設定信用卡 3D 驗證門檻](設定信用卡 3D 驗證門檻.md){ title="設定信用卡 3D 驗證門檻" }。超過門檻的交易需簡訊驗證，低於門檻則採幕後授權。
 
 ??? quote "如果商品資料不完整會影響審核嗎？"
     會。商品圖片、價格及商品介紹或服務說明需完整，否則風控可能要求補件，延長審核時間。

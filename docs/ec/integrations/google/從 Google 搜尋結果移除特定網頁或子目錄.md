@@ -2,7 +2,7 @@
 title: 從 Google 搜尋結果移除特定網頁或子目錄
 description: 透過 Google Search Console 移除網址工具，排除特定網頁或子目錄出現在 Google 搜尋結果中。
 created: 2026-03-24 17:04
-last_modified: 2026-03-25 14:00
+last_modified: 2026-06-08 17:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -86,7 +86,7 @@ Google 搜尋結果中的子目錄是指搜尋結果下方所顯示的網站延�
 網站擁有者可以利用 **Google Search Console (GSC)** 提供的「移除網址工具」，臨時性地排除特定頁面或子目錄出現在搜尋結果中。
 
 1.  **登入 GSC**：登入 [Google Search Console :lucide-external-link:](https://search.google.com/search-console/)。
-2.  **選擇資源**：選擇擁有管理權限的網站資源（若尚未驗證，請先完成 [Google Search Console 的註冊與認證](註冊並驗證 Google Search Console.md){ data-preview }）。
+2.  **選擇資源**：選擇擁有管理權限的網站資源（若尚未驗證，請先完成 [Google Search Console 的註冊與認證](註冊並驗證 Google Search Console.md){ title="註冊並驗證 Google Search Console" }）。
 3.  **進入移除功能**：於側邊欄點選 **「產生索引」** > **「移除網址」**。
 4.  **建立新要求**：於「暫時移除」頁籤中，點擊 **「新要求」**。
 5.  **輸入網址與類型**：
@@ -109,7 +109,7 @@ Google 搜尋結果中的子目錄是指搜尋結果下方所顯示的網站延�
 <div class="grid cards" markdown>
 
 - :lucide-eye-off:{ .lg }  
-  [__關閉商品搜尋功能__](../../products/快速上手商品管理.md#商品排除搜尋){ data-preview }  
+  [__關閉商品搜尋功能__](../../products/快速上手商品管理.md#商品排除搜尋)  
   透過後台商品管理的「商品搜尋功能」使特定商品不出現於搜尋結果中 。
 
 </div>

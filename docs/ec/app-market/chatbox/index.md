@@ -2,7 +2,7 @@
 title: Chat Box 訊息通
 description: 透過單一介面整合多渠道訊息，即時掌握顧客背景與消費紀錄，打造無縫的客服體驗。
 created: 2026-05-28 11:45
-last_modified: 2026-05-28 11:41
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""

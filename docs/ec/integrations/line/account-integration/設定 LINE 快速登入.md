@@ -2,7 +2,7 @@
 title: 設定 LINE 快速登入
 description: 啟用 LINE 快速登入，簡化會員註冊流程，整合官方帳號好友追蹤，並支援會員資料同步與 LIFF 一鍵登入。
 created: 2026-02-16 00:00
-last_modified: 2026-03-08 12:00
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 permalink: ""
 type: tutorial
@@ -164,11 +164,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-phone:{ .lg }   
-  [__同步會員手機號碼__](設定 LINE 快速登入時取得會員手機號碼.md){ data-preview }       
+  [__同步會員手機號碼__](設定 LINE 快速登入時取得會員手機號碼.md){ title="設定 LINE 快速登入時取得會員手機號碼" }       
   申請 LINE 認證權限後，系統將以手機號碼作為優先識別碼，確保會員資料庫的精確度與唯一性。
 
 - :lucide-link:{ .lg }     
-  [__配置 LIFF 一鍵登入__](設定 LIFF 自動登入與會員綁定.md){ data-preview }    
+  [__配置 LIFF 一鍵登入__](設定 LIFF 自動登入與會員綁定.md){ title="設定 LIFF 自動登入與會員綁定" }    
   啟用 LIFF 轉址技術，讓顧客在 LINE 內點擊連結即可自動登入，並同步完成好友追蹤與帳號綁定。
 
 </div>

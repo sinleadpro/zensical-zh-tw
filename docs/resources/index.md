@@ -26,7 +26,7 @@ hide:
 <!-- <big>__全面提升您的經營力__</big>   -->
 <!-- 提供專業的電子商務知識、技術文檔與經營秘訣，助您在競爭激烈的市場中脫穎而出。   -->
 <!-- <br> -->
-<!-- [瀏覽所有下載 :lucide-circle-arrow-right:](downloads/) -->
+<!-- [瀏覽所有下載 :lucide-circle-arrow-right:](downloads/){ title="下載資源" } -->
 <!-- <br> -->
 <!-- <br> -->
 
@@ -37,14 +37,14 @@ hide:
 <div class="grid cards" markdown>
 
 -   :lucide-video:{ .lg }
-    [__影音教學__](video-tutorials/)
+    [__影音教學__](video-tutorials/){ title="影片教學資源總覽" }
 
     ---
 
     由淺入深的視聽指導，助您快速上手各項智能系統功能。
 
 -   :lucide-book:{ .lg }
-    [__商家指南__](guidebook/)
+    [__商家指南__](guidebook/){ title="商家指南" }
 
     ---
 
@@ -58,7 +58,7 @@ hide:
     快速了解經營難題與解決方案，助您排除系統操作障礙。
 
 -   :lucide-bookmark:{ .lg }
-    [__詞彙表__](glossary.md)
+    [__詞彙表__](glossary.md){ title="詞彙表" }
 
     ---
 
@@ -102,14 +102,14 @@ hide:
 <div class="grid cards" markdown>
 
 -   :lucide-history:{ .lg }
-    [__系統更新紀錄__](changelog/)
+    [__系統更新紀錄__](changelog/){ title="更新紀錄" }
 
     ---
 
     掌握 CYBERBIZ 最新功能發佈、系統優化與維護公告，讓您的營運永不斷線。
 
 -   :lucide-file-text:{ .lg }
-    [__圖示慣例__](conventions/)
+    [__圖示慣例__](conventions/){ title="圖示慣例" }
 
     ---
 

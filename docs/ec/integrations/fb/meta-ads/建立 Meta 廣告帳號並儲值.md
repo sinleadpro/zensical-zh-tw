@@ -2,7 +2,7 @@
 title: 建立 Meta 廣告帳號並完成儲值
 description: 透過 CYBERBIZ 建立 Meta 廣告帳號並完成儲值。
 created: 2026-04-17 17:10
-last_modified: 2026-04-20 18:00
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -157,7 +157,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-megaphone:{ .lg }  
-  [進行廣告活動設定](設定 Meta 廣告活動.md){ data-preview }  
+  [進行廣告活動設定](設定 Meta 廣告活動.md){ title="設定 Meta 廣告活動" }  
   完成以上步驟後，即可接續進行廣告活動設定，直接於 CYBERBIZ 後台投放廣告。
 
 </div>

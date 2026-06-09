@@ -4,7 +4,6 @@ hide:
   - feedback
   - navigation
   - toc
-template: homepage.html
 ---
 
 <div style="display: flex; gap: 2rem; flex-wrap: wrap; padding: 3rem 0 4rem;" markdown>
@@ -25,7 +24,7 @@ template: homepage.html
 我們隨時提供協助，讓您快速上手並善用每項工具。
 </p>
 
-[:lucide-arrow-right: 開始探索](ec/){ .md-button .md-button--primary }
+[:lucide-arrow-right: 開始探索](ec/){ title="品牌官網" }
 
 </div>
 
@@ -203,42 +202,42 @@ function openTab(evt, tabName) {
 <div class="grid cards" markdown>
 
 -   :lucide-rocket:{ .lg }
-    [__新手上路__](ec/)
+    [__新手上路__](ec/){ title="品牌官網" }
 
     ---
 
     從零開始建立您的品牌官網，快速掌握後台操作與基本設定。
 
 -   :lucide-store:{ .lg }
-    [__商店設定__](ec/website-management/)
+    [__商店設定__](ec/website-management/){ title="管理中心" }
 
     ---
 
     管理網站外觀、網域、SEO、發票與管理員權限。
 
 -   :lucide-package:{ .lg }
-    [__商品管理__](ec/products/)
+    [__商品管理__](ec/products/){ title="商品管理" }
 
     ---
 
     建立商品分類、上架商品、設定規格款式與銷售方式。
 
 -   :lucide-truck:{ .lg }
-    [__訂單物流__](ec/orders/)
+    [__訂單物流__](ec/orders/){ title="訂單總覽" }
 
     ---
 
     處理訂單出貨、退貨退款、串接超商與宅配物流。
 
 -   :lucide-megaphone:{ .lg }
-    [__行銷活動__](ec/marketing/)
+    [__行銷活動__](ec/marketing/){ title="行銷推廣" }
 
     ---
 
     設定優惠活動、紅利商城、一頁式商店與互動遊戲。
 
 -   :lucide-credit-card:{ .lg }
-    [__金流與物流__](ec/payments-and-logistics/)
+    [__金流與物流__](ec/payments-and-logistics/){ title="付款金流" }
 
     ---
 
@@ -253,28 +252,28 @@ function openTab(evt, tabName) {
 <div class="grid cards" markdown>
 
 -   :lucide-log-in:{ .lg }
-    [__申請與開通__](wms/申請流程與開通.md)
+    [__申請與開通__](wms/申請流程與開通.md){ title="電商倉儲：申請流程與開通" }
 
     ---
 
     了解智慧倉儲的申請流程、開通設定與串倉規則。
 
 -   :lucide-package:{ .lg }
-    [__商品管理__](wms/單一品項.md)
+    [__商品管理__](wms/單一品項.md){ title="單一品項" }
 
     ---
 
     管理單一品項、加工商品與季節群組設定。
 
 -   :lucide-arrow-right-left:{ .lg }
-    [__進出倉作業__](wms/進倉單.md)
+    [__進出倉作業__](wms/進倉單.md){ title="進倉單" }
 
     ---
 
     建立進倉單、調倉單與退貨單，掌握庫存轉調流程。
 
 -   :lucide-bar-chart-3:{ .lg }
-    [__庫存管理__](wms/庫存紀錄.md)
+    [__庫存管理__](wms/庫存紀錄.md){ title="庫存紀錄" }
 
     ---
 
@@ -289,21 +288,21 @@ function openTab(evt, tabName) {
 <div class="grid cards" markdown>
 
 -   :lucide-rocket:{ .lg }
-    [__開始使用__](pos/get-started/)
+    [__開始使用__](pos/get-started/){ title="開始使用" }
 
     ---
 
     硬體安裝、軟體設定與快速上線指南。
 
 -   :lucide-monitor:{ .lg }
-    [__硬體安裝__](pos/hardware/)
+    [__硬體安裝__](pos/hardware/){ title="系統硬體與環境需求" }
 
     ---
 
     客顯螢幕、標籤印表機、發票機、刷卡機等設備設定。
 
 -   :lucide-shopping-cart:{ .lg }
-    [__結帳功能__](pos/check/)
+    [__結帳功能__](pos/check/){ title="結帳" }
 
     ---
 
@@ -325,7 +324,7 @@ function openTab(evt, tabName) {
 <div class="grid cards" markdown>
 
 -   :lucide-layout-grid:{ .lg }
-    [__APP MARKET__](ec/app-market/)
+    [__APP MARKET__](ec/app-market/){ title="APP MARKET" }
 
 -   :lucide-cog:{ .lg }
     [__自動化功能__](ec/app-market/automation/)
@@ -337,7 +336,7 @@ function openTab(evt, tabName) {
     [__快速到貨__](#)
 
 -   :lucide-credit-card:{ .lg }
-    [__金流支付__](ec/payments-and-logistics/)
+    [__金流支付__](ec/payments-and-logistics/){ title="付款金流" }
 
 -   :lucide-message-circle:{ .lg }
     [__訊息通__](ec/app-market/cyberbiz-extensions/chat-box/)
@@ -346,7 +345,7 @@ function openTab(evt, tabName) {
     [__全通路管理助手__](ec/app-market/cyberbiz-channel-bridge/)
 
 -   :lucide-shopping-cart:{ .lg }
-    [__門市助理__](storepal/)
+    [__門市助理__](storepal/){ title="hide:" }
 
 -   :lucide-arrow-right-from-line:{ .lg }
     [__代定__](#)
@@ -389,7 +388,7 @@ function openTab(evt, tabName) {
     了解最新動態與實用技巧，請持續關注我們的部落格。
 
 -   :lucide-history:{ .lg }
-    [__更新紀錄__](resources/changelog/)
+    [__更新紀錄__](resources/changelog/){ title="更新紀錄" }
 
     ---
 

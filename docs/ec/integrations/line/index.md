@@ -2,7 +2,7 @@
 title: "index"
 description: "" 
 created: "2026-03-16 19:00"
-last_modified: 
+last_modified: 2026-06-08 17:15
 lang: zh-TW
 type: guide
 status: ""
@@ -27,7 +27,15 @@ intents: []
 features: []
 prerequisites: []
 related: []
-tags: []
+tags:
+  - EC
+  - LINE 整合
+  - LINE OA
+  - Messaging API
+  - 快速登入
+  - 自動化通知
+  - 行銷導購
+  - OMO
 acoiv: ""
 apis: []
 devices: 
@@ -110,7 +118,7 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-layout-grid:{ .lg }   
-  [__LINE OA 訊息提醒樣板__](../../notifications/設定與管理 LINE OA 通知樣板.md){ data-preview }       
+  [__LINE OA 訊息提醒樣板__](../../notifications/manage-line-oa-templates.md){ title="設定與管理 LINE OA 通知樣板" }       
   商家可開啟「訂單」、「物流」、「顧客」等樣板，在指定情境下自動回覆。
 
 - :lucide-message-square-share:{ .lg }     
@@ -118,7 +126,7 @@ hide:
   商家可透過「顧客標籤」篩選特定族群，發送文字或圖片推播訊息。
 
 - :lucide-zap:{ .lg }     
-  [__AUTOMATION__](../../app-market/automation/使用 AUTOMATION 建立自動化推播流程.md#line-oa-訊息發送設定){ data-preview }  
+  [__AUTOMATION__](../../app-market/automation/使用 AUTOMATION 建立自動化推播流程.md#line-oa-訊息發送設定){ title="使用 AUTOMATION 建立自動化推播流程" }  
   商家可建立自動化工作流程，例如針對「購物車未結帳」會員發送 LINE OA 提醒訊息。
 
 </div>
@@ -149,7 +157,7 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-radio:{ .lg }   
-  [__LINE 直播__](申請與設定 LINE 直播功能.md){ data-preview }     
+  [__LINE 直播__](申請與設定 LINE 直播功能.md){ title="申請與設定 LINE 直播功能" }     
   商家可在 LINE OA 執行購物直播，讓消費者「邊看邊買」，下單後的訂單可於後台「LINE OA 訂單」查看。
 
 - :lucide-book:{ .lg }   
@@ -157,11 +165,11 @@ hide:
   透過 LINE 直播的高觸及率與互動功能，結合導購策略來提升電商轉換率與業績。
   
 - :lucide-shopping-bag:{ .lg }     
-  [__LINE 購物__](申請與設定 LINE 購物導購.md){ data-preview }  
+  [__LINE 購物__](申請與設定 LINE 購物導購.md){ title="申請與設定 LINE 購物導購" }  
   串接後可透過 LINE 購物入口（APP 或官方帳號）引導顧客至官網下單，並提供點數回饋。
 
 - :lucide-users:{ .lg }     
-  [__LINE 團購__](group-buy/index.md){ data-preview }  
+  [__LINE 團購__](group-buy/index.md){ title="LINE 團購功能總覽" }  
   透過「團購機器人」在 LINE 群組內進行活動，成員可直接在群組內透過機器人選單瀏覽商品並結帳。
 </div>
 

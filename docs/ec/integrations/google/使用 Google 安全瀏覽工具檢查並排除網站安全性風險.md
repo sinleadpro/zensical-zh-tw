@@ -2,7 +2,7 @@
 title: 使用 Google 安全瀏覽工具檢查並排除網站安全性風險 
 description: 了解如何使用 Google 安全瀏覽網站狀態檢查工具，主動檢測官網是否存在安全性風險，並透過 GSC 申請審核解除警示。
 created: 2026-03-25 21:29
-last_modified: 2026-03-26 14:30
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -101,7 +101,7 @@ Google 提供「安全瀏覽網站狀態檢查工具」，可協助商家主動�
 1.  **查看解決方案**：您可以先參閱 Google 提供的「[申請審查 :lucide-external-link:](https://web.dev/articles/request-a-review?hl=zh-tw)」說明，了解各種安全性問題的對應處理方式。
 2.  **進入 [Google Search Console :lucide-external-link:](https://search.google.com/search-console) (GSC)**：
     *   登入 GSC 後，於側邊欄點選 **「安全性與人工判決處罰」** > **「安全性問題」**。
-    *   *提醒：若您尚未將網站加入 GSC，必須先完成「[網站所有權驗證](註冊並驗證 Google Search Console.md){ data-preview }」才能進行後續操作。*
+    *   *提醒：若您尚未將網站加入 GSC，必須先完成「[網站所有權驗證](註冊並驗證 Google Search Console.md){ title="註冊並驗證 Google Search Console" }」才能進行後續操作。*
 3.  **修正問題**：根據 GSC 內顯示的警示細節，依照 Google 建議的步驟逐一修正網站問題。
 4.  **提交重新審核**：修正完成後，在 GSC 頁面點擊 **「申請審核」**，Google 會重新檢查網站的安全狀態。
 
@@ -116,11 +116,11 @@ Google 提供「安全瀏覽網站狀態檢查工具」，可協助商家主動�
 <div class="grid cards" markdown>
 
 - :lucide-monitor-smartphone:{ .lg }  
-  [__二階段驗證__](../../website-management/設定與管理二階段驗證.md){ data-preview }       
+  [__二階段驗證__](../../website-management/設定與管理二階段驗證.md){ title="設定與管理二階段驗證" }       
   開啟 2FA 驗證機制，防止帳號被盜用，降低網站被植入惡意內容的風險。
 
 - :lucide-brick-wall-shield:{ .lg }  
-  [__IP 白名單__](../../website-management/設定網站安全性.md#白名單){ data-preview }       
+  [__IP 白名單__](../../website-management/設定網站安全性.md#白名單){ title="設定網站安全性" }       
   限制後台登入的 IP 來源，確保只有授權的 IP 才能存取管理介面。
 
 </div>

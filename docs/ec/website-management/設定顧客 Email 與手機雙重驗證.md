@@ -2,7 +2,7 @@
 title: 設定顧客 Email 與手機雙重驗證
 description: 要求新註冊顧客同時通過 Email 與簡訊驗證，確保會員資料真實性，降低空帳號與惡意註冊風險。
 created: 2026-05-27 14:58
-last_modified: 2026-05-27 18:00
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -47,8 +47,8 @@ prerequisites: []
 related:
   - "[[顧客註冊模式對照表]]"
   - "[[顧客欄位驗證模式對照表]]"
-  - "[[設定與管理 Email 通知樣板]]"
-  - "[[設定與管理簡訊通知樣板]]"
+  - "[[manage-email-templates]]"
+  - "[[manage-sms-templates]]"
   - "[[設定顧客註冊流程與欄位]]"
   - "[[管理會員檔案]]"
 tags:
@@ -198,7 +198,7 @@ hide: []
     3. **執行手機驗證**：
         * 點擊 **「點此發送驗證簡訊」**。
         * 輸入收到的 4 位數簡訊驗證碼，點 **「提交」**。
-        * 系統顯示「**恭喜，您已成功驗證您的手機!**」。
+        * 系統顯示「**恭喜，您已成功驗證您的手機！**」。
     4. **執行 Email 驗證**：
         * 至信箱收取「帳號啟用通知」信件。
         * 點擊信中的「**啟用帳號**」連結。
@@ -244,7 +244,7 @@ LINE 登入因帳號本身已綁定手機，系統會自動跳過 OTP 簡訊驗�
 <div class="grid cards" markdown>
 
 - :lucide-mail:{ .lg }  
-  [__自訂啟用信內容__](../notifications/設定與管理 Email 通知樣板.md){ title="設定與管理 Email 通知樣板" } ·[__自訂簡訊內容__](../notifications/設定與管理簡訊通知樣板.md){ title="設定與管理簡訊通知樣板" }  
+  [__自訂啟用信內容__](../notifications/manage-email-templates.md){ title="設定與管理 Email 通知樣板" } ·[__自訂簡訊內容__](../notifications/manage-sms-templates.md){ title="設定與管理簡訊通知樣板" }  
   到「訊息推播 > Email / 簡訊通知樣板 > 顧客相關 > 顧客帳號啟用提醒」編輯。
 
 - :lucide-user-cog:{ .lg }  
@@ -259,7 +259,7 @@ LINE 登入因帳號本身已綁定手機，系統會自動跳過 OTP 簡訊驗�
 
 ## 常見問題 { #faq-customer-verification }
 
-??? quote "顧客說沒收到驗證簡訊怎麼辦?"
+??? quote "顧客說沒收到驗證簡訊怎麼辦？"
     [](){ #faq-customer-verification-sms-not-received }
     可能原因：
 
@@ -269,14 +269,14 @@ LINE 登入因帳號本身已綁定手機，系統會自動跳過 OTP 簡訊驗�
 
     建議顧客確認門號正確後，至會員頁重新點擊「點此發送驗證簡訊」。
 
-??? quote "為什麼開啟手機驗證會被收 Cyber幣?"
+??? quote "為什麼開啟手機驗證會被收 Cyber幣？"
     [](){ #faq-customer-verification-cyber-coin }
     手機驗證透過簡訊發送驗證碼，屬於電信費用，每封簡訊依內容長度收取 Cyber幣。建議：
 
     * 在簡訊樣板中精簡訊息內容，降低費用
     * 若僅需 Email 驗證即可，可只開啟「電子郵件驗證」單項
 
-??? quote "可以只要求新顧客驗證 Email，不驗證手機嗎?"
+??? quote "可以只要求新顧客驗證 Email，不驗證手機嗎？"
     [](){ #faq-customer-verification-email-only }
     可以。「電子郵件驗證」與「手機驗證」兩個開關是 **獨立** 的，可任意組合：
 
@@ -284,15 +284,15 @@ LINE 登入因帳號本身已綁定手機，系統會自動跳過 OTP 簡訊驗�
     * 僅手機驗證(需 Cyber幣)
     * Email + 手機雙重驗證(最嚴格)
 
-??? quote "Excel 匯入大量會員時會發大量簡訊嗎?"
+??? quote "Excel 匯入大量會員時會發大量簡訊嗎？"
     [](){ #faq-customer-verification-bulk-import-sms }
     不會。系統設計上，Excel 匯入新顧客時即使手機驗證開啟，**只會寄送 Email 啟用信**，不會自動發送簡訊驗證碼。手機驗證會在顧客首次登入後，由顧客自行至會員頁觸發。
 
-??? quote "顧客已用 LINE 登入，還需要再驗證手機嗎?"
+??? quote "顧客已用 LINE 登入，還需要再驗證手機嗎？"
     [](){ #faq-customer-verification-line-login }
     不需要。透過 LINE 登入的顧客，系統會自動視其手機為已驗證，跳過 OTP 流程。其他第三方登入(Facebook / Google)註冊後仍需補填手機並驗證。
 
-??? quote "為什麼驗證開關呈灰色按不動?"
+??? quote "為什麼驗證開關呈灰色按不動？"
     [](){ #faq-customer-verification-disabled-switch }
     驗證開關只能在欄位設定為「必填」時開啟。請先到「資料欄位設定」區塊將 Email 或手機的「必選填設定」改為「必填」，驗證開關才會解鎖。
 
@@ -318,6 +318,6 @@ LINE 登入因帳號本身已綁定手機，系統會自動跳過 OTP 簡訊驗�
 
 ## 參考資料 { #reference-customer-verification }
 
-* [顧客註冊模式對照表](references/顧客註冊模式對照表.md)
-* [顧客欄位驗證模式對照表](references/顧客欄位驗證模式對照表.md)
+* [顧客註冊模式對照表](references/顧客註冊模式對照表.md){ title="顧客註冊模式對照表" data-preview }
+* [顧客欄位驗證模式對照表](references/顧客欄位驗證模式對照表.md){ title="顧客欄位驗證模式對照表" data-preview }
 

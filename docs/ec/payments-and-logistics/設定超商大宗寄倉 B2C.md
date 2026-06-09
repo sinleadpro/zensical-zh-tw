@@ -2,7 +2,7 @@
 title: 設定超商大宗寄倉 B2C
 description: 申請、設定超商大宗寄倉 B2C 服務。
 created:
-last_modified: 2026-03-10 21:36
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 permalink:
 type: tutorial
@@ -80,8 +80,8 @@ hide:
 申請、設定超商大宗寄倉 B2C 服務。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業  
-[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能) | CYBERBIZ PAYMENTS
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 / 高手 / 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業  
+[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能){ title="圖示慣例" } | CYBERBIZ PAYMENTS
 { .doc-badge }
 
 ![](../../assets/images/ec-金物流-超商物流-B2C.png){ .hero-page }
@@ -297,11 +297,11 @@ hide:
 4. 印出測試標籤掛號寄至各超商物流中心
 5. 等待超商審核通過後，於後台設定運費並啟用服務
 
-完成後，商家即可在訂單列表透過「[使用超商大宗寄倉 B2C 出貨](../orders/cvs-b2c-bulk-shipping.md){ data-preview }」批次下載託運單。
+完成後，商家即可在訂單列表透過「[使用超商大宗寄倉 B2C 出貨](../orders/cvs-shipping/cvs-b2c-bulk-shipping.md){ title="使用超商大宗寄倉（B2C）出貨" }」批次下載託運單。
 
 ## 使用前提與限制 { #prerequisites-cvs-b2c-setup }
 
-- [x] **方案支援**：限定方案才能申請 B2C 大宗寄倉，詳見 [方案開通對照](references/超商大宗寄倉 B2C 方案與計費對照.md#reference-cvs-b2c-plans-eligibility){ data-preview }。
+- [x] **方案支援**：限定方案才能申請 B2C 大宗寄倉，詳見 [方案開通對照](references/超商大宗寄倉 B2C 方案與計費對照.md#reference-cvs-b2c-plans-eligibility){ title="超商大宗寄倉B2C方案與計費對照" data-preview }。
 - [x] **真實出貨環境**：申請過程包含「測標」步驟，需使用實際出貨用的雷射印表機與貼紙列印標籤寄至各超商審核。
 - [x] **退貨方式**：商家須事先決定一種固定退貨方式（如自取或指定貨運），不可混用，否則審核會被退件。
 - [x] **串接綠界的商家**：請改透過綠界 B2C 大宗寄倉服務申請，相關設定不在此頁面完成。
@@ -318,7 +318,7 @@ hide:
 
 ### 申請各超商通路 { #operate-cvs-b2c-setup-apply }
 
-依序為每家欲開通的超商完成以下動作，各通路必填欄位差異請見 [申請時必填欄位對照](references/cvs-b2c-channels.md#reference-cvs-b2c-channels-fields){ data-preview }。
+依序為每家欲開通的超商完成以下動作，各通路必填欄位差異請見 [申請時必填欄位對照](references/超商大宗寄倉 B2C 通路規格對照.md#reference-cvs-b2c-channels-fields){ title="超商大宗寄倉B2C通路規格" data-preview }。
 
 1. 點擊欲申請的通路名稱進入協議頁。
 2. 詳閱協議內容後勾選同意並點擊 **「提交申請」**[^1]。
@@ -338,7 +338,7 @@ hide:
 1. 點擊 **「下載標籤」** 取得該通路的測試標籤 PDF。
 2. 使用**真實出貨用的雷射印表機與 2x3 規格貼紙**列印標籤[^2]。
 3. 將印出的標籤貼於實際大小的紙箱外，**掛號**寄至對應物流中心。完整地址、收件單位與信封備註請見
-[測標寄送資訊](references/cvs-b2c-logistics-centers.md#reference-cvs-b2c-centers-testing){ data-preview }。
+[測標寄送資訊](references/超商大宗寄倉 B2C 物流中心對照.md#reference-cvs-b2c-centers-testing){ title="物流中心收貨資訊" data-preview }。
 4. 保留掛號收據供查件使用。
 5. 等待超商驗收，各通路審核時間約：
     * 7-ELEVEN：**2~3 週工作天**
@@ -360,10 +360,9 @@ hide:
 
 ## 重要規範與限制 { #specs-cvs-b2c-setup }
 
-* **重量與材積上限**：依通路不同，詳見 [重量與材積限制對照](references/cvs-b2c-channels.md#reference-cvs-b2c-channels-specs){ data-preview
-}。商品建檔時若超出上限，前台會自動阻擋消費者選擇該通路。
+* **重量與材積上限**：依通路不同，詳見 [重量與材積限制對照](references/超商大宗寄倉 B2C 通路規格對照.md#reference-cvs-b2c-channels-specs){ title="超商大宗寄倉B2C通路規格" data-preview }。商品建檔時若超出上限，前台會自動阻擋消費者選擇該通路。
 * **退貨方式不可混用**：申請時填寫的退貨方式（如「自取」或「指定貨運」）一經審核通過即固定，調整需重新發起申請。
-* **方案差異**：可開通的通路依方案不同，詳見 [方案開通對照](references/cvs-b2c-plans.md#reference-cvs-b2c-plans-eligibility){ data-preview }。
+* **方案差異**：可開通的通路依方案不同，詳見 [方案開通對照](references/超商大宗寄倉 B2C 方案與計費對照.md#reference-cvs-b2c-plans-eligibility){ title="超商大宗寄倉B2C方案與計費對照" data-preview }。
 
 ---
 
@@ -372,15 +371,15 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-truck:{ .lg }
-  [__使用超商大宗寄倉 B2C 出貨__](../orders/cvs-b2c-shipping.md){ data-preview }
+  [__使用超商大宗寄倉 B2C 出貨__](../orders/cvs-b2c-shipping.md)
   完成設定後，於訂單列表批次下載託運單並寄送至物流中心。
 
 - :lucide-coins:{ .lg }
-  [__儲值 CYBER 幣__](#){ data-preview }
+  [__儲值 CYBER 幣__](#)
   一般版商家於下載託運單前需先儲值 CYBER 幣，避免餘額不足而被阻擋。
 
 - :lucide-package:{ .lg }
-  [__設定商品重量與材積__](#){ data-preview }
+  [__設定商品重量與材積__](#)
   確保商品資料符合各通路上限，避免前台無法選擇此配送方式。
 
 </div>
@@ -410,12 +409,12 @@ hide:
 
 ??? quote "我的方案有支援 B2C 嗎？"
     [](){ #faq-cvs-b2c-setup-plan }
-    請參考 [方案開通對照](references/cvs-b2c-plans.md#reference-cvs-b2c-plans-eligibility){ data-preview }。若您目前的方案不支援，請聯絡 CYBERBIZ 客服了解升級方案。
+    請參考 [方案開通對照](references/超商大宗寄倉 B2C 方案與計費對照.md#reference-cvs-b2c-plans-eligibility){ title="超商大宗寄倉B2C方案與計費對照" data-preview }。若您目前的方案不支援，請聯絡 CYBERBIZ 客服了解升級方案。
 
 ---
 
 ## 參考資料 { #reference-cvs-b2c-setup }
 
-- [各通路規格與必填欄位](references/cvs-b2c-channels.md){ data-preview }
-- [物流中心與測標寄送資訊](references/cvs-b2c-logistics-centers.md){ data-preview }
-- [方案開通與計費對照](references/cvs-b2c-plans.md){ data-preview }
+- [各通路規格與必填欄位](references/超商大宗寄倉 B2C 通路規格對照.md){ title="超商大宗寄倉B2C通路規格" data-preview }
+- [物流中心與測標寄送資訊](references/超商大宗寄倉 B2C 物流中心對照.md){ title="物流中心收貨資訊" data-preview }
+- [方案開通與計費對照](references/超商大宗寄倉 B2C 方案與計費對照.md){ title="超商大宗寄倉B2C方案與計費對照" data-preview }

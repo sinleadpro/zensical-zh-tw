@@ -385,7 +385,7 @@ __代定__
 -   :lucide-megaphone: [__功能報報__](#)   
 	了解最新動態與實用技巧，請持續關注我們的部落格。
 
--   :lucide-history: [__更新紀錄__](resources/changelog)     
+-   :lucide-history: [__更新紀錄__](resources/changelog){ title="更新紀錄" }     
     關注我們的功能更新紀錄。
 
 - :lucide-messages-square: [__聯絡我們__](#)   

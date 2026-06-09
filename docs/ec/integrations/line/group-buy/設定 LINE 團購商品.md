@@ -2,7 +2,7 @@
 title: "設定 LINE 團購商品"
 description: 設定 LINE 團購商品分類，從官網公開商品建立團購清單並設定團購價。
 created: "2026-03-12 10:29"
-last_modified: "2026-03-12 09:50"
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status:
@@ -121,7 +121,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-users:{ .lg }     
-  [__團購群組設定__](設定 LINE 團購群組.md){ data-preview }  
+  [__團購群組設定__](設定 LINE 團購群組.md){ title="設定 LINE 團購群組" }  
   將機器人加入群組，並設定分潤方案與活動時間。
 
 </div>

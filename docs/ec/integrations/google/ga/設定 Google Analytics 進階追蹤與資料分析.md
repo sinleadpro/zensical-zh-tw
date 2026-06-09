@@ -2,7 +2,7 @@
 title: 設定 Google Analytics 進階追蹤與資料分析
 description: 加強型評估、Google 信號、資料保留期限調整及報表識別資訊設定，協助商家獲得更精確的流量數據與使用者輪廓。
 created: 2026-03-20 17:50
-last_modified: 2026-03-30 12:45
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -132,11 +132,11 @@ GA4 預設的資料保留期限僅有 2 個月，對於需要觀察長期趨勢�
 <div class="grid cards" markdown>
 
 - :lucide-funnel-x:{ .lg }   
-  [__排除內部流量與不適用連結__](設定 GA4 排除內部流量與第三方參照來源.md){ data-preview }     
+  [__排除內部流量與不適用連結__](設定 GA4 排除內部流量與第三方參照來源.md){ title="設定 GA4 排除內部流量與第三方參照來源" }     
   為了避免數據偏差，建議排除公司內部人員的瀏覽紀錄以及外部金物流網址的干擾。
 
 - :lucide-search-code:{ .lg }   
-  [__站內搜尋追蹤__](設定 GA4 站內搜尋追蹤.md){ data-preview }       
+  [__站內搜尋追蹤__](設定 GA4 站內搜尋追蹤.md){ title="設定 GA4 站內搜尋追蹤" }       
   追蹤使用者在官網上的搜尋行為，分析消費者的資訊需求與查找意圖。
 
 </div>

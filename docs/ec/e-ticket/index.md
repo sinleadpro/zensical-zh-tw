@@ -6,7 +6,7 @@ icon: lucide/ticket
 
 # 電子票券
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | PLUS / 企業
 { .doc-badge }
 
 ## 電子票券說明
@@ -62,7 +62,7 @@ icon: lucide/ticket
 <div class="grid cards" markdown>
 
 - :lucide-ticket-plus:{ .lg }   
-  [__新增電子票券__](電子票券設定指南.md#新增電子票券)  
+  [__新增電子票券__](電子票券設定指南.md#新增電子票券){ title="電子票券設定指南" }  
    建立並設定電子票券商品。
 
 - :lucide-store:{ .lg }  
@@ -88,11 +88,11 @@ icon: lucide/ticket
 <div class="grid cards" markdown>
 
 - :lucide-tickets:{ .lg }   
-  [__購買電子票券__](電子票券設定指南.md#購買電子票券顧客流程)   
+  [__購買電子票券__](電子票券設定指南.md#購買電子票券顧客流程){ title="電子票券設定指南" }   
   瞭解顧客購買電子票券的流程。
 
 - :lucide-eye:{ .lg }     
-  [__查看電子票券__](電子票券設定指南.md#查看電子票券)  
+  [__查看電子票券__](電子票券設定指南.md#查看電子票券){ title="電子票券設定指南" }  
   查看已購買的電子票券與核銷狀態。
 
 </div>
@@ -113,7 +113,7 @@ icon: lucide/ticket
 <div class="grid cards" markdown>
 
 - :lucide-ticket-minus:{ .lg }     
-   [__核銷電子票券__](電子票券設定指南.md#核銷電子票券)   
+   [__核銷電子票券__](電子票券設定指南.md#核銷電子票券){ title="電子票券設定指南" }   
    瞭解各種電子票券核銷方式。
 
 </div>
@@ -147,17 +147,17 @@ icon: lucide/ticket
 <div class="grid cards" markdown>
 
 - :lucide-user:{ .lg }   
-  [__門市店員帳號__](電子票券設定指南.md#建立電子票券門市店員帳號)     
+  [__門市店員帳號__](電子票券設定指南.md#建立電子票券門市店員帳號){ title="電子票券設定指南" }     
   建立並管理電子票券門市店員帳號。
 - :lucide-key:{ .lg }     
-  [__電子票券門市權限__](設定電子票券門市權限.md)  
+  [__電子票券門市權限__](設定電子票券門市權限.md){ title="設定電子票券門市權限" }  
   設定門市店員可操作的電子票券功能。
 - :lucide-ticket-slash:{ .lg }     
-  [__電子票券分票__](電子票券設定指南.md#電子票券分票)  
+  [__電子票券分票__](電子票券設定指南.md#電子票券分票){ title="電子票券設定指南" }  
   將購買的多張票券拆分為多個獨立核銷碼。
 
 - :lucide-ticket-percent:{ .lg }     
-  [__電子票券優惠__](設定電子票券優惠.md)  
+  [__電子票券優惠__](設定電子票券優惠.md){ title="設定電子票券優惠" }  
   設定電子票券可用的優惠方式。
 
 </div>
@@ -180,11 +180,11 @@ icon: lucide/ticket
 <div class="grid cards" markdown>
 
 - :lucide-ticket-x:{ .lg }   
-  [__電子票券退票__](電子票券設定指南.md#電子票券退款)      
+  [__電子票券退票__](電子票券設定指南.md#電子票券退款){ title="電子票券設定指南" }      
   以單一電子票券代碼為單位辦理退票。
 
 - :lucide-ticket-check:{ .lg }     
-  [__電子票券對帳__](電子票券設定指南.md#電子票券對帳)  
+  [__電子票券對帳__](電子票券設定指南.md#電子票券對帳){ title="電子票券設定指南" }  
   查看並核對已核銷票券的款項與交易紀錄。
 
 </div>

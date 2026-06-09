@@ -240,11 +240,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-link:{ .lg }   
-  [__LIFF 網址優化__](設定 LIFF 自動登入與會員綁定.md){ data-preview }       
+  [__LIFF 網址優化__](設定 LIFF 自動登入與會員綁定.md)       
   改用 EC 後台生成的 **LIFF 網址**。消費者點擊後可在 LINE 內自動套用帳戶資訊，實現「一鍵加入好友、註冊會員並完成綁定」，優化使用體驗。
 
 - :lucide-search:{ .lg }     
-  [__關鍵字搜尋商品__](串接 LINE Messaging API.md#line-關鍵字搜尋商品){ data-preview }    
+  [__關鍵字搜尋商品__](串接 LINE Messaging API.md#line-關鍵字搜尋商品)    
   串接 Webhook 後，顧客可在 LINE 對話框輸入關鍵字，由系統自動回覆搜尋到的商品訊息。
 
 </div>

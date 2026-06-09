@@ -2,7 +2,7 @@
 title: 了解分潤功能
 description: 了解分潤功能的運作機制、適用對象與情境，協助您選擇最適合的行銷分潤方案。
 created: 2026-02-06 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: guide
 status: ""
@@ -65,17 +65,16 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: heart-handshake
+icon: lucide/hand-coins
 hide: []
 ---
-
 # 了解分潤功能
 
 了解分潤功能的運作機制、適用對象與情境，協助您選擇最適合的行銷分潤方案。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | EC / POS
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 所有PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品){ title="圖示慣例" } | EC / POS
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 / 高手 / 所有PLUS / 企業
 { .doc-badge }
 
 

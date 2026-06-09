@@ -42,7 +42,15 @@ features:
 prerequisites:
   - "[[串接 LINE Messaging API]]"
 related: []
-tags: []
+tags:
+  - EC
+  - LINE OA
+  - 受眾串接
+  - 會員分群
+  - LAP
+  - 廣告投放
+  - Messaging API
+  - 精準行銷
 acoiv: configure
 apis: []
 devices:

@@ -39,7 +39,7 @@ views:
       file.name: 216
       note.modules: 196
       note.tags: 308
-  - type: cards
+  - type: table
     name: Products
     filters:
       and:
@@ -51,6 +51,7 @@ views:
     order:
       - file.name
       - wp_url
+      - tags
       - file.mtime
       - modules
       - formula.hero_image

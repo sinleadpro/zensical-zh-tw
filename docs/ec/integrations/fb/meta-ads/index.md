@@ -27,7 +27,15 @@ intents: []
 features: []
 prerequisites: []
 related: []
-tags: []
+tags:
+  - EC
+  - Meta Ads
+  - Facebook 廣告
+  - 廣告活動
+  - 目錄商品
+  - 成效分析
+  - 第三方整合
+  - Meta
 acoiv: ""
 apis: []
 devices:

@@ -2,7 +2,7 @@
 title: 使用 Meta 廣告成效分析
 description: 透過 Meta Ads App 掌握廣告成效數據，分析指標，並使用 AI Insights 獲取數據洞察與優化建議。
 created: 2026-04-21 11:29
-last_modified: 2026-04-23 17:40
+last_modified: 2026-06-08 17:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -86,8 +86,8 @@ hide: []
 
 在開始分析成效前，請確保您已完成以下準備工作，以確保數據能正確回傳與顯示：
 
-- [x] **完成廣告投放設定**：本功能需在廣告活動正式啟動後方可產生數據。若您尚未建立廣告，請先參閱 [**設定 Meta 廣告活動**](設定 Meta 廣告活動.md){ data-preview }。
-- [x] **確保資產正確連結**：確認已透過 [**Facebook 商業擴充套件 (FBE)**](../mbe/設定 FBE 帳號授權與資產連結.md){ data-preview } 完成授權，並正確埋設 Meta Pixel 與轉換 API (CAPI)。
+- [x] **完成廣告投放設定**：本功能需在廣告活動正式啟動後方可產生數據。若您尚未建立廣告，請先參閱 [**設定 Meta 廣告活動**](設定 Meta 廣告活動.md){ title="設定 Meta 廣告活動" }。
+- [x] **確保資產正確連結**：確認已透過 [**Facebook 商業擴充套件 (FBE)**](../mbe/設定 FBE 帳號授權與資產連結.md){ title="設定 FBE 帳號授權與資產連結" } 完成授權，並正確埋設 Meta Pixel 與轉換 API (CAPI)。
 - [x] **確認帳戶餘額**：廣告帳戶需有足夠餘額或有效的支付方式，否則成效數據將顯示為「異常」或停止更新。
 
 ## 掌握整體成效（總覽指標）
@@ -199,11 +199,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-rocket:{ .lg }   
-  [__建立廣告活動__](設定%20Meta%20廣告活動.md){ data-preview }       
+  [__建立廣告活動__](設定%20Meta%20廣告活動.md)       
   完成成效分析後，可依數據洞察建立新的 Meta 廣告活動。
 
 - :lucide-package-x:{ .lg }   
-  [__排除商品同步__](../mbe/排除商品不同步至%20Facebook%20與%20Instagram%20商店.md){ data-preview }       
+  [__排除商品同步__](../mbe/排除商品不同步至%20Facebook%20與%20Instagram%20商店.md)       
   如有特定商品不希望同步至 Meta，可設定排除標籤。
 
 </div>
@@ -237,7 +237,7 @@ hide: []
     - **歸因時效差異**：數據採用「點擊後 7 天、瀏覽後 1 天」的歸因邏輯，與商店實際訂單可能存在時間差。
     - **像素設定問題**：請確認使用正確的[像素 (Pixel) 設定](建立%20Meta%20廣告帳號並儲值.md#像素-pixel-設定){ data-preview }，並透過 CYBERBIZ 商業擴充套件串接。**不建議使用 GTM 埋設像素**，將導致事件重複、像素不正確等問題。
 
-    如需重新串接，請參考 [設定 FBE 帳號授權與資產連結](../mbe/設定 FBE 帳號授權與資產連結.md){ data-preview }。
+    如需重新串接，請參考 [設定 FBE 帳號授權與資產連結](../mbe/設定 FBE 帳號授權與資產連結.md){ title="設定 FBE 帳號授權與資產連結" }。
 
 ## 參考資料
 
