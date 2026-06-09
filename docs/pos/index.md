@@ -1,284 +1,304 @@
 ---
-title:
+title: 智能 POS 產品中心
 hide:
   - toc
   - path
   - feedback
 ---
 
-# 智能 POS
+<div class="hero-wrapper" style="
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: -2.2rem;
+    padding: 4rem 0rem;
+">
 
-<div class="grid" markdown>
- 
- <br>  
-<big>__開始使用__</big>    
-開始建立與管理您的門市系統。  
-完成門市設定、商品上架、收銀與會員管理，一步步帶您啟動營運。  
-<br>
-[新手上路 :lucide-circle-arrow-right:](get-started.md)
+  <!-- LEFT: Hero -->
+  <div class="homepage-hero" style="
+      flex: 1 1 380px;
+      min-width: 360px;
+      max-width: 680px;
+  ">
+    <h1>
+      智能 
+      <span style="white-space: nowrap;">
+        <span style="color: #03328e; font-size: 1.2em;">POS</span>
+      </span>
+    </h1>
 
-![](../assets/images/pos-hero.png)
+    <p>
+      <big><strong>一站式全通路零售管理解決方案</strong></big><br>
+      從基礎收銀到全通路會員整合，提供您最完整的一站式零售解決方案。<br>
+      協助商家累積會員資產並精準行銷，讓線上線下經營從此無縫銜接。
+    </p>
+
+    <div class="custom-button-group" style="
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 1rem;
+    ">
+      <a href="get-started/index.md" class="md-button md-button--primary">新手上路 ➜</a>
+      <a href="hardware/index.md" class="md-button">硬體安裝</a>
+    </div>
+  </div>
+
+  <!-- RIGHT: POS Callout -->
+  <style>
+	/* Light/Dark mode colors */
+	[data-md-color-scheme="default"] {
+	  --callout-bg: #f2f6fc;
+	  --callout-hover: #FAFBFC; 
+	  --badge-color: #6674c4;
+	  --text-color: #111;
+	  --divider-color: #e6e8ee;
+	  --border-color: #e6e8ee;
+	}
+	[data-md-color-scheme="slate"] {
+	  --callout-bg: #1e1e1e;
+	  --callout-hover: #2a2a2a;
+	  --badge-color: #6674c4;
+	  --text-color: #eee;
+	  --divider-color: #333;
+	  --border-color: #333;
+	}
+	
+	/* Container */
+	.hero-callout {
+	  background-color: var(--callout-bg);
+	  border-radius: 12px;
+	  padding: 1rem 1.5rem;
+	  border: 1px solid var(--border-color);
+	  display: flex;
+	  flex-direction: column;
+	  gap: 1rem;
+	  flex: 1 1 380px;
+	  min-width: 360px;
+	  max-width: 680px;
+	}
+	
+	/* Tabs */
+	.tab-buttons {
+	  display: flex;
+	  gap: 0.5rem;
+	  border-bottom: 1px solid var(--divider-color);
+	  padding-bottom: 2px;
+	}
+	
+	.tab-btn {
+	  flex: 1 1 auto;
+	  background: transparent;
+	  border: none;
+	  font-weight: 600;
+	  cursor: pointer;
+	  padding: 0.5rem 1rem;
+	  color: var(--text-color);
+	  position: relative;
+	  transition: color 0.2s;
+	}
+	
+	.tab-btn:hover {
+	  color: var(--badge-color);
+	}
+	
+	.tab-btn::after {
+	  content: "";
+	  position: absolute;
+	  left: 0;
+	  bottom: -2px;
+	  width: 100%;
+	  height: 2px;
+	  background: transparent;
+	  transition: background 0.2s;
+	}
+	
+	.tab-btn.active {
+	  color: var(--badge-color);
+	  font-weight: 700;
+	}
+	
+	.tab-btn.active::after {
+	  background: var(--badge-color);
+	}
+	
+	/* Content list */
+	.tab-content {
+	  display: none;
+	  flex-direction: column;
+	  gap: 0.25rem;
+	}
+	
+	.tab-content a {
+	  display: flex;
+	  align-items: center;
+	  gap: 0.5rem;
+	  padding: 0.3rem 0.5rem;
+	  font-size: 0.8rem;
+	  line-height: 1.4;
+	  color: var(--text-color);
+	  text-decoration: none;
+	  border-radius: 6px;
+	  transition: background 0.15s;
+	}
+	
+	.tab-content a:hover {
+	  background-color: var(--callout-hover);
+	}
+	
+	/* Badge */
+	.badge {
+	  background-color: var(--badge-color);
+	  color: white;
+	  border-radius: 4px;
+	  font-size: 0.65rem;
+	  padding: 0.1rem 0.4rem;
+	  font-weight: 600;
+	  white-space: nowrap;
+	}
+	
+	/* Mobile */
+	@media (max-width: 640px) {
+	  .tab-buttons {
+	    flex-direction: column;
+	  }
+	  .tab-btn {
+	    width: 100%;
+	    text-align: center;
+	  }
+	}
+  </style>
+
+  <div class="hero-callout">
+    <!-- Tabs -->
+    <div role="tablist" class="tab-buttons">
+      <button role="tab" aria-selected="true" class="tab-btn active"
+        onclick="openTab(event, 'latest')">最新文件</button>
+      <button role="tab" aria-selected="false" class="tab-btn"
+        onclick="openTab(event, 'popular')">熱門文章</button>
+    </div>
+
+    <!-- Latest -->
+    <div id="latest" role="tabpanel" class="tab-content" style="display:flex">
+      <a href="hardware/epson-tm-m30iii-invoice-printer.md"><span class="badge">新增</span>EPSON TM-M30III 發票機安裝教學 (Wi-Fi 連接)</a>
+      <a href="others/daily-closing.md"><span class="badge">更新</span>小結關帳</a>
+    </div>
+
+    <!-- Popular -->
+    <div id="popular" role="tabpanel" class="tab-content">
+      <a href="software/drivers.md"><span class="badge">更新</span>安裝驅動程式</a>
+      <a href="store/renewal-and-add-on-plans.md"><span class="badge">更新</span>續購與加購方案</a>
+    </div>
+  </div>
+
+  <script>
+    function openTab(evt, tabName) {
+      document.querySelectorAll('.tab-content')
+        .forEach(el => el.style.display = 'none');
+    
+      document.querySelectorAll('.tab-btn')
+        .forEach(btn => {
+          btn.classList.remove('active');
+          btn.setAttribute('aria-selected', 'false');
+        });
+    
+      document.getElementById(tabName).style.display = 'flex';
+      evt.currentTarget.classList.add('active');
+      evt.currentTarget.setAttribute('aria-selected', 'true');
+    }
+  </script>
 
 </div>
 
 ---
 
-### 常見問題 :lucide-message-circle-question-mark:
+## 核心功能概覽
 
-=== "門市設定"
+<div class="grid cards" markdown>
 
-	??? quote "SKU 長度限制？"
-		 每個 SKU 欄位最多可輸入 255 個字元。
-	
-	??? quote "EXCEL 大量修改商品資訊的功能，無法刪除款式是正常的嗎？"
-		匯入沒有刪除的功能。 [Excel 大量匯入商品](Excel 大量匯入商品){ data-preview }
+-   :lucide-credit-card: __流暢結帳__
+    
+    ---
+    支援多種支付方式與電子發票開立
 
-	??? quote "Excel 匯入商品如何判斷是否成功？"
-	    匯入結果可依通知信判斷：
+    [:octicons-arrow-right-24: 建立支付工具](check/payment-method/index.md)<br>
+    [:octicons-arrow-right-24: 盟立電子發票](third-party/monolith-e-invoice.md)<br>
+    [:octicons-arrow-right-24: 星益欣電子發票](third-party.md)<br>
 
-	    - *僅收到「失敗」信*：表示匯入在前期檢查即失敗，常見原因為檔案格式不符（非 `.xlsx`）。
-	    - *先收到「成功」，再收到「失敗」*：表示匯入已通過前期檢查，但在逐列匯入時出現錯誤。可能原因包括欄位格式錯誤、匯入值不合法或指定 ID 不存在，請參考失敗通知信說明。
-	    - *先收到「成功」，再收到「完成」*：表示匯入完成成功。但若 Excel 某列全空，該列及後續列將未被匯入，需商家自行修正。  
-	      [Excel 大量匯入商品](Excel 大量匯入商品#匯入-excel-檔案){ data-preview }
 
-=== "商品管理"
+-   :lucide-package-check: __精準庫存__
+    
+    ---
+    即時掌握門市與電商全通路庫存
+    
+    [:octicons-arrow-right-24: 庫存管理](inventory/omnichannel-inventory-management.md)
 
-	??? quote "如果串倉的話，我可以將同一支商品建立出兩個不一樣的 SKU 嗎？"
-		可以請峰潮以 *加工品* 的方式，將建立一個 *加工品品項* 後將原本商品加入此加工品中。
+-   :lucide-users: __會員經營__
+    
+    ---
+    整合紅利商城、客顯互動遊戲與線下分潤
+    
+    [:octicons-arrow-right-24: 紅利商城](check/bonus-point-mall.md)<br>
+    [:octicons-arrow-right-24: 客顯互動遊戲](check/customer-display-interactive-games.md)<br>
+    [:octicons-arrow-right-24: 推薦人分潤](../ec/profit-sharing/referrer-profit-sharing.md)<br>
+    [:octicons-arrow-right-24: 註冊人分潤](../ec/profit-sharing/registrant-profit-sharing.md)<br>
+    [:octicons-arrow-right-24: 門市取貨店員分潤](store/pos-store-pickup-staff-commission.md)
 
-	??? quote "使用黑貓快速到店，商品到店時系統是否會發送簡訊或 Email 給消費者？"
-		系統完全不會發送任何簡訊或 email 就算有開樣版也不包含在內，到店只有黑貓會傳簡訊通知消費者。
+-   :lucide-bar-chart-3: __營運分析__
+    
+    ---
+    多維度報表助您掌握銷售脈絡
+    
+    [:octicons-arrow-right-24: 報表分析](store/announcement-system.md)
 
-=== "訂單結帳"
-
-	??? quote "前台導覽列的商品的分類一次最多可以顯示幾個？"
-		最多 20 個。[設定商品分類群組](設定商品分類群組){ data-preview }
-
-	??? quote "商品標籤已沒有綁定任何商品，但商品加價購仍有顯示未使用的商品標籤？"
-		*一般版* 的商品標籤是無法完全刪除的，只有企業版能夠完全刪除。所以會導致一般版的商家在商品加價購會出現所有新增過的商品標籤。
-		
-=== "商品銷售"
-
+</div>
 
 ---
 
+## 核心營運場景
 
-=== "門市設定"
+<div class="grid" markdown>
+ 
+<div>
+<br>  
+<big><strong>櫃檯營運一站式流程</strong></big><br>
+確保您的收銀台運作無虞。包含刷卡機、發票機安裝，以及離線結帳、子機綁定等進階功能說明。 
+<br><br>
 
-	<div class="grid cards" markdown>
-	
-	-   :lucide-store: __門市設定__
-	    
-	    ---
-	    
-	    設定門市資訊、營業時間、付款方式及店員權限
-	    
-	    [:octicons-arrow-right-24: 開始設定](#)
-	
-	-   :lucide-truck: __庫存同步__
-	    
-	    ---
-	    
-	    與中央倉庫或供應鏈連動，確保門市商品數量正確
-	    
-	    [:octicons-arrow-right-24: 參考指南](#)
-	
-	-   :lucide-palette: __收銀介面__
-	    
-	    ---
-	    
-	    自訂 POS 介面、顏色、字體與按鈕配置
-	    
-	    [:octicons-arrow-right-24: 客製化設定](#)
-	
-	-   :material-scale-balance: __權限管理__
-	    
-	    ---
-	    
-	    管理門市人員帳號、角色與操作權限
-	    
-	    [:octicons-arrow-right-24: 參考文件](#)
-	
-	</div>
+<a href="check/index.md" class="md-button md-button--primary">查看結帳功能全指南 ➜</a>
+</div>
 
-=== "商品管理"
 
-	<div class="grid cards" markdown>
-	
-	-   :lucide-package: __商品上架__
-	    
-	    ---
-	    
-	    新增、編輯與批次更新商品資訊
-	    
-	    [:octicons-arrow-right-24: 開始上架](#)
-	
-	-   :lucide-barcode: __條碼掃描__
-	    
-	    ---
-	    
-	    使用 POS 條碼掃描快速完成銷售與庫存管理
-	    
-	    [:octicons-arrow-right-24: 參考指南](#)
-	
-	-   :lucide-ticket: __促銷與優惠券__
-	    
-	    ---
-	    
-	    設定折扣、優惠券及限時促銷活動
-	    
-	    [:octicons-arrow-right-24: 設定優惠](#)
-	
-	-   :material-scale-balance: __商品分析__
-	    
-	    ---
-	    
-	    查看門市商品銷售數據與庫存報表
-	    
-	    [:octicons-arrow-right-24: 查看報表](#)
-	
-	</div>
+![](../assets/images/POS-前台-結帳-付款方式01.png)
 
-=== "訂單與結帳"
+</div>
 
-	<div class="grid cards" markdown>
-	
-	-   :lucide-workflow: __訂單管理__
-	    
-	    ---
-	    
-	    處理門市訂單、退換貨與付款狀態
-	    
-	    [:octicons-arrow-right-24: 開始管理](#)
-	
-	-   :lucide-credit-card: __收銀與付款__
-	    
-	    ---
-	    
-	    支援現金、信用卡與行動支付收款
-	    
-	    [:octicons-arrow-right-24: 參考指南](#)
-	
-	-   :lucide-receipt: __電子發票__
-	    
-	    ---
-	    
-	    開立與管理電子發票，符合稅務規範
-	    
-	    [:octicons-arrow-right-24: 查看設定](#)
-	
-	-   :material-scale-balance: __報表統計__
-	    
-	    ---
-	    
-	    查看每日、每週與每月銷售分析報表
-	    
-	    [:octicons-arrow-right-24: 查看報表](#)
-	
-	</div>
+---
 
-=== "會員管理"
+## 依角色探索
 
-	<div class="grid cards" markdown>
-	
-	-   :material-clock-fast: __會員註冊與登入__
-	    
-	    ---
-	    
-	    管理會員資料、積分與帳號安全
-	    
-	    [:octicons-arrow-right-24: 開始管理](#)
-	
-	-   :lucide-gift: __會員優惠__
-	    
-	    ---
-	    
-	    設定會員專屬折扣與紅利點數
-	    
-	    [:octicons-arrow-right-24: 設定優惠](#)
-	
-	-   :lucide-users: __會員分群__
-	    
-	    ---
-	    
-	    按消費行為或會員等級分類，方便行銷推廣
-	    
-	    [:octicons-arrow-right-24: 查看指南](#)
-	
-	-   :material-scale-balance: __會員報表__
-	    
-	    ---
-	    
-	    查看會員活躍度與消費紀錄分析
-	    
-	    [:octicons-arrow-right-24: 查看報表](#)
-	
-	</div>
+<div class="grid cards" markdown>
 
-=== "行銷與成長"
+-   :lucide-user: __門市店員__
+    
+    ---
+    專注於日常銷售與顧客服務
+    
+    [:octicons-arrow-right-24: 前台人員登入](store/staff-login.md)<br>
+    [:octicons-arrow-right-24: 一般訂單管理](orders/manage-general-orders.md)<br>
+    [:octicons-arrow-right-24: 建立前台商品選單](check/pos-frontend-menu-settings.md)<br>
+    [:octicons-arrow-right-24: 磅秤商品結帳](others/scale-settings.md)
 
-	<div class="grid cards" markdown>
-	
-	-   :lucide-megaphone: __行銷工具__
-	    
-	    ---
-	    
-	    設定門市活動、通知與推播訊息
-	    
-	    [:octicons-arrow-right-24: 開始使用](#)
-	
-	-   :lucide-trending-up: __銷售成長分析__
-	    
-	    ---
-	    
-	    追蹤門市營收與促銷效果
-	    
-	    [:octicons-arrow-right-24: 查看分析](#)
-	
-	-   :material-scale-balance: __客戶回饋__
-	    
-	    ---
-	    
-	    收集顧客意見與滿意度調查
-	    
-	    [:octicons-arrow-right-24: 查看指南](#)
-	
-	</div>
 
-=== "系統整合"
+-   :lucide-user-cog: __店長與管理者__
+    
+    ---
+    專注於門市效能與資源調度
+    
+    [:octicons-arrow-right-24: 員工權限管理](store/staff-permissions-and-account-management.md)<br>
+    [:octicons-arrow-right-24: 建立公告](store/announcement-system.md)<br>
+    [:octicons-arrow-right-24: 安全性與系統設定](store/security-settings.md)<b>
 
-	<div class="grid cards" markdown>
-	
-	-   :lucide-layout-grid: __POS App 市集__
-	    
-	    ---
-	    
-	    安裝門市系統支援的插件與應用
-	    
-	    [:octicons-arrow-right-24: 參考指南](#)
-	
-	-   :lucide-webhook: __第三方服務整合__
-	    
-	    ---
-	    
-	    串接外部支付、物流、會員與行銷平台
-	    
-	    [:octicons-arrow-right-24: 查看文件](#)
-	
-	-   :lucide-plug: __API__
-	    
-	    ---
-	    
-	    使用 POS API 自動化操作與資料串接
-	    
-	    [:octicons-arrow-right-24: 查看指南](#)
-	
-	-   :material-scale-balance: __系統權限__
-	    
-	    ---
-	    
-	    管理 POS 系統角色與存取權限
-	    
-	    [:octicons-arrow-right-24: 查看設定](#)
-	
-	</div>
+</div>

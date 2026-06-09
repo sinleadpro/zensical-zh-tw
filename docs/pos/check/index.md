@@ -248,11 +248,11 @@ graph LR
     <div class="grid cards" markdown>
 
     - :lucide-plug:{ .lg }
-    [__發送會員專屬紅利點數__]()<br>
+    [__發送會員專屬紅利點數__](../../ec/marketing/setup-bonus-points.md)<br>
     發放紅利獎勵，提升會員回購率與忠誠度。
 
     - :lucide-plug:{ .lg }
-    [__建立優惠碼__]()<br>
+    [__建立優惠碼__](../../ec/marketing/setup-promo-codes.md)<br>
     製作專屬折扣碼，供顧客結帳時手動輸入。
 
     - :lucide-plug:{ .lg }
@@ -264,7 +264,7 @@ graph LR
     設定推薦分潤，獎勵介紹新客的現有客戶、員工與第三方。
 
     - :lucide-plug:{ .lg }
-    [__建立結帳人分潤__]()<br>
+    [__建立結帳人分潤__](../../ec/profit-sharing/referrer-profit-sharing.md)<br>
     激勵門市人員，根據結帳金額計算獎金。
 
     - :lucide-plug:{ .lg }
@@ -282,14 +282,14 @@ graph LR
     引導顧客多買，達成門檻即自動送禮品。
 
     - :lucide-plug:{ .lg }
-    [__設定庫存不足提醒方式__](庫存不足通知/)<br>
+    [__設定庫存不足提醒方式__](low-stock-notifications/)<br>
     即時掌握庫存狀態，確保銷售流程順暢。
 
     - :lucide-plug:{ .lg }
-    [__建立紅利商城__](紅利商城/)<br>
+    [__建立紅利商城__]()<br>
     提供多樣兌換選擇，讓紅利點數具兌換價值。
-        - [建立 POS 紅利商城](紅利商城/#於後台建立商城)<br>
-        - [紅利商城商品結帳](紅利商城/#於前台結帳)
+        - [建立 POS 紅利商城](bonus-point-mall/)<br>
+        - [紅利商城商品結帳](bonus-point-mall/#於前台結帳)
 
     </div>
 
@@ -320,7 +320,7 @@ graph LR
     管理店面支付管道，設定最適合結帳順序。
 
     - :lucide-plug:{ .lg }
-    [__建立多付款方式__](payment-method/多付款方式/)<br>
+    [__建立多付款方式__](payment-method/multiple-payment-methods/)<br>
     支援混合支付，滿足顧客多元付款需求。
 
     </div>
@@ -346,15 +346,15 @@ graph LR
     <div class="grid cards" markdown>
 
     - :lucide-plug:{ .lg }
-    [__自動列印發票與明細__](列印發票明細/)<br>
+    [__自動列印發票與明細__](print-invoice-details/)<br>
     結帳自動出單，或者關閉自動列印節省發票紙。
 
     - :lucide-plug:{ .lg }
-    [__開立混稅發票__](混稅發票/)<br>
+    [__開立混稅發票__](mixed-tax-invoices/)<br>
     處理不同稅率商品，準確計算並開立。
 
     - :lucide-plug:{ .lg }
-    [__全通路庫存管理__](../inventory/全通路庫存管理/)<br>
+    [__全通路庫存管理__](../inventory/omnichannel-inventory-management/)<br>
     管理各通路庫存，確保線上線下無落差。
 
     </div>

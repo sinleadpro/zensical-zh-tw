@@ -9,7 +9,8 @@ status: ""
 version: 1.1.1
 author: Ann
 reviewers: []
-notes: []
+notes:
+  - 內部連結
 ga_views: 0
 feedback: 0
 products:
@@ -94,18 +95,18 @@ hide: []
 
         - :lucide-printer:{ .lg }
           __發票機__<br>
-          用於列印電子發票。支援 [EPSON](../hardware/EPSON%20有線發票機/) 或 [Posiflex](../hardware/Posiflex%20有線發票機) 等有線發票機。
+          用於列印電子發票。支援EPSON [有線](../hardware/epson-tm-t82iii-invoice-printer/) [WiFi](../hardware/epson-tm-m30iii-invoice-printer) 或 [Posiflex](../hardware/posiflex-wired-invoice-printer) 等有線發票機。
 
         - :lucide-credit-card:{ .lg }
           __刷卡機__<br>
-          串接金流服務。支援 [台新有線刷卡機](../hardware/台新有線刷卡機/)或 [MYPAY 無線刷卡機](../hardware/MYPAY%20無線刷卡機/)。
+          串接金流服務。支援 [台新有線刷卡機](../hardware/taishin-wired-credit-card-machine/)或 [MYPAY 無線刷卡機](../hardware/mypay-wireless-credit-card-machine/)。
 
         - :lucide-tags:{ .lg }
-          [__標籤機__](../hardware/標籤印表機/)<br>
+          [__標籤機__](../hardware/label-printer/)<br>
           列印商品條碼或分類標籤。
 
         - :lucide-monitor:{ .lg }
-          [__客顯螢幕__](../hardware/客顯螢幕/)<br>
+          [__客顯螢幕__](../hardware/customer-display-screen/)<br>
           向顧客展示交易金額與促銷資訊。
 
         - :lucide-scan-barcode:{ .lg }
@@ -145,7 +146,7 @@ hide: []
       核心銷售系統，請洽您的開店顧問取得網站連結與帳戶。
 
     - :lucide-download:{ .lg }
-      [__POS 驅動程式__](../software/驅動程式/)<br>
+      [__POS 驅動程式__](../software/drivers/)<br>
       用於連結周邊硬體設備（如發票機、印表機）的必要驅動程式。
 
     </div>
@@ -155,11 +156,11 @@ hide: []
     <div class="grid cards" markdown>
 
     - :lucide-file-text:{ .lg }
-      [__盟立電子發票__](../third-party/盟立電子發票/)<br>
+      [__盟立電子發票__](../third-party/monolith-e-invoice/)<br>
       電子發票服務中心申請，確保發票開立合規。
 
     - :lucide-qr-code:{ .lg }
-      [__LINE Pay 掃碼支付__](../check/LINE%20PAY%20掃碼支付/)<br>
+      [__LINE Pay 掃碼支付__](../check/line-pay-scan-payment.md/)<br>
       申請 LINE Pay 商家權限，支援行動支付結帳。
 
     </div>
@@ -175,7 +176,7 @@ hide: []
     - __① 費用結清__<br>
       確認 POS 系統相關費用已完成付款。
 
-    - [__② 建立商品與 SKU__]()<br>
+    - [__② 建立商品與 SKU__](../../ec/products/creation/新增與更新商品.md)<br>
       確認官網商品已建置，且 **每款商品皆已填寫 SKU 碼**（SKU 為商品唯一身分證）。<br><br>
       [→ 大量填補商品 SKU 碼教學]()
 
@@ -192,11 +193,11 @@ hide: []
     <div class="grid cards" markdown>
 
     - :lucide-git-branch:{ .lg }
-      [__全通路庫存管理__](../inventory/全通路庫存管理/)<br>
+      [__全通路庫存管理__](../inventory/omnichannel-inventory-management/)<br>
       EC 官網與 POS 門店為 **獨立門市、獨立庫存**。系統開通後，可使用進/出/調倉單或盤點功能進行庫存增減調整。
 
     - :lucide-plug:{ .lg }
-      [__帳號權限管理__](../others2/員工權限與帳號管理/)<br>
+      [__帳號權限管理__](../others/staff-permissions-and-account-management/)<br>
       理解角色身分建置方式，並將員工帳號綁定身分
 
     </div>
