@@ -11,20 +11,19 @@ hide:
 <div style="flex: 1 1 380px; min-width: 0;" markdown>
 
 <h1 style="margin-top: 0; font-size: 1.5rem;">
-  輕鬆上手
-  <span style="white-space: nowrap;">
-    <span style="color: #03328e;">CYBERB</span>
-    <span style="color: #ff7d00;">⋮</span>
-    <span style="color: #03328e;">Z</span>
-  </span>
+  開啟您的電商成功之旅
+  <!-- <span style="white-space: nowrap;"> -->
+  <!--   <span style="color: #03328e;">CYBERB</span> -->
+  <!--   <span style="color: #ff7d00;">⋮</span> -->
+  <!--   <span style="color: #03328e;">Z</span> -->
+  <!-- </span> -->
 </h1>
 
 <p style="font-size: 0.95rem; line-height: 1.7;">
-在這裡找到解答、探索功能，並精通 <strong>CYBERBIZ</strong> 平台。
-我們隨時提供協助，讓您快速上手並善用每項工具。
+從帳號註冊、商品上架到行銷推廣的完整步驟。<br>我們為您準備了最完整的數位轉型指南，協助您的品牌大放異彩。
 </p>
 
-[:lucide-arrow-right: 開始探索](ec/){ title="品牌官網" }
+[:lucide-arrow-right: 開始探索](ec/){ title="品牌官網" .md-button .md-button--primary }
 
 </div>
 
