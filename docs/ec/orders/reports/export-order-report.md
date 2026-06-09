@@ -2,7 +2,7 @@
 title: "匯出訂單報表"
 description: "匯出訂單報表並以 Excel 格式寄送至管理員信箱，方便查詢與分析訂單資料。"
 created: "2026-03-13 23:45"
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-09 17:53
 lang: zh-TW
 type: tutorial
 status: ""
@@ -41,7 +41,7 @@ related:
   - "[[order-report-fields]]"
   - "[[設定超商配送限制與物流排除]]"
   - "[[export-subscription-forecast]]"
-  - "[[設定網站安全性]]"
+  - "[[security-settings]]"
   - "[[新增網站管理員並設定權限]]"
   - "[[POS 報表列表與功能說明]]"
 tags:

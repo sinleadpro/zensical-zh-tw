@@ -348,44 +348,44 @@ function openTab(evt, tabName) {
     [__門市助理__](storepal/){ title="hide:" }
 
 -   :lucide-arrow-right-from-line:{ .lg }
-    [__代定__](#)
+    [__EXPRESS__](#)
 
 </div>
 
 ---
-
-## AI 輔助檢索
-
-<div class="grid cards" markdown>
-
--   :simple-notebooklm:{ .lg }
-    [__NotebookLM__](https://notebooklm.google.com/notebook/20277bb4-f8ae-4d7b-b2d9-3b8db845c761/preview){ target="_blank" }
-
-    ---
-
-    使用 NotebookLM 檢索 CYBERBIZ 文件，進行 AI 輔助問答與分析。
-
--   :lucide-file-text:{ .lg }
-    [__LLM 可讀文件 (llms.txt)__](llms.txt)
-
-    ---
-
-    針對大語言模型優化的 Markdown 格式，提升 RAG 檢索效率與上下文精準度。
-
-</div>
-
----
+<!---->
+<!-- ## AI 輔助檢索 -->
+<!---->
+<!-- <div class="grid cards" markdown> -->
+<!---->
+<!-- -   :simple-notebooklm:{ .lg } -->
+<!--     [__NotebookLM__](https://notebooklm.google.com/notebook/20277bb4-f8ae-4d7b-b2d9-3b8db845c761/preview){ target="_blank" } -->
+<!---->
+<!--     --- -->
+<!---->
+<!--     使用 NotebookLM 檢索 CYBERBIZ 文件，進行 AI 輔助問答與分析。 -->
+<!---->
+<!-- -   :lucide-file-text:{ .lg } -->
+<!--     [__LLM 可讀文件 (llms.txt)__](llms.txt) -->
+<!---->
+<!--     --- -->
+<!---->
+<!--     針對大語言模型優化的 Markdown 格式，提升 RAG 檢索效率與上下文精準度。 -->
+<!---->
+<!-- </div> -->
+<!---->
+<!-- --- -->
 
 ## 資源中心
 
 <div class="grid cards" markdown>
 
--   :lucide-megaphone:{ .lg }
-    [__功能報報__](#)
-
-    ---
-
-    了解最新動態與實用技巧，請持續關注我們的部落格。
+<!-- -   :lucide-megaphone:{ .lg } -->
+<!--     [__功能報報__](#) -->
+<!---->
+<!--     --- -->
+<!---->
+<!--     了解最新動態與實用技巧，請持續關注我們的部落格。 -->
 
 -   :lucide-history:{ .lg }
     [__更新紀錄__](resources/changelog/){ title="更新紀錄" }
@@ -394,11 +394,11 @@ function openTab(evt, tabName) {
 
     關注我們的功能更新紀錄。
 
--   :lucide-messages-square:{ .lg }
-    [__聯絡我們__](#)
-
-    ---
-
-    透過後台的線上客服與我們聯繫。
+<!-- -   :lucide-messages-square:{ .lg } -->
+<!--     [__聯絡我們__](#) -->
+<!---->
+<!--     --- -->
+<!---->
+<!--     透過後台的線上客服與我們聯繫。 -->
 
 </div>
