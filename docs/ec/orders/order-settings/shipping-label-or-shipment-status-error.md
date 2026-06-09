@@ -1,34 +1,54 @@
 ---
 title: 無法下載託運單或更新貨態
-description: ""
+description: 託運單下載失敗、貨態未更新常見原因與處理方式，包含綠界預付物流款儲值、瀏覽器封鎖、地址錯誤、門市關轉等排解步驟。
 created: 2026-06-08 20:12
-last_modified: 2026-06-08 21:32
+last_modified: 2026-06-09 10:20
 lang: zh-TW
 type: tutorial
 status: ""
-author: Jase
 version: ""
+author: Jase
 reviewers: []
 notes: []
-ga_views:
-feedback:
+ga_views: 0
+feedback: 0
 products:
   - EC
-modules: []
+modules:
+  - 訂單
 sites:
   - TW
 audiences:
   - admin
-difficulty: ""
+difficulty: beginner
 tnb: ""
-plans:
+plans: []
 cyb_extensions: []
-intents: []
-features: []
+intents:
+  - 下載託運單
+  - 更新貨態
+  - 補印託運單
+  - 門市關轉處理
+features:
+  - 綠界金物流
+  - 黑貓宅配
+  - 順豐速運
+  - 超商取貨
+  - DHL 跨境物流
 prerequisites: []
-tags: []
-related: []
-acoiv: ""
+related:
+  - "[[配送狀態對照表]]"
+  - "[[設定訂單部分出貨]]"
+  - "[[處理付款失敗訂單]]"
+tags:
+  - 託運單
+  - 貨態異常
+  - 出貨問題
+  - 綠界
+  - 黑貓宅配
+  - 超商取貨
+  - 門市關轉
+acoiv: operation
 apis: []
 devices:
   - desktop
@@ -36,20 +56,19 @@ devices:
 ui_components: []
 paths: []
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=4407
 permalink: ""
-comments: ""
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/triangle-alert
-hide:
+hide: []
 ---
 
 {{ subtitle(page.meta.description) }}
 
-{{ badge(page.meta) }}
-
-{ .hero-page }
+![下載託運單異常](../../../assets/images/ec-訂單-所有訂單-下載託運單異常-hero.png){ .hero-page }
 
 ## 託運單異常說明 { #intro-shipping-issue }
 
@@ -85,6 +104,12 @@ hide:
 !!! note "註釋"
     預付物流款是綠界帳戶內的設定，與 CYBERBIZ 後台的帳務獨立。若儲值後仍無法下載，請聯繫綠界客服確認帳戶狀態。
 
+<div class="grid cards" markdown>
+
+- :lucide-credit-card:{ .ig .middle } [__申請綠界金流與超商取貨付款__](../../payments-and-logistics/申請綠界金流與超商取貨付款.md)
+
+</div>
+
 ---
 
 ### 點下載卻沒有檔案 { #operate-shipping-issue-popup-blocked }
@@ -114,14 +139,21 @@ hide:
     2. **手寫更正：** 於託運單上以手寫方式更正為正確地址。
     3. **告知司機：** 交貨時主動向物流司機說明正確地址。
 
+<div class="grid cards" markdown>
+
+- :lucide-truck:{ .ig .middle } [__使用黑貓宅配出貨__](../home-delivery/tcat-home-delivery.md)
+- :lucide-settings:{ .ig .middle } [__設定與加印黑貓託運單__](../../payments-and-logistics/設定與加印黑貓託運單.md)
+
+</div>
+
 ---
 
 ### 託運單逾期失效 { #operate-shipping-issue-label-expired }
 
-託運單產生後若未在時效內實際交寄，單號會失效，後續貨態將無法追蹤，狀態可能轉為 [運送異常](../references/fulfillment-statuses.md#fulfillment-status-table){ data-preview } 或「取消寄件」。
+託運單產生後若未在時效內實際交寄，單號會失效，後續貨態將無法追蹤，狀態可能轉為 [運送異常](../references/fulfillment-statuses.md#fulfillment-statuses-table){ data-preview } 或「取消寄件」。
 
-* **宅配（順豐）：** 下載託運單後即扣除 CYBER 幣，若超過 **21 天** 未實際出貨，單號會失效，預扣的 CYBER 幣將於單號失效後退回帳戶。
-* **宅配（黑貓、宅配通、新竹）：** 託運單產出後若長時間未寄件，單號會失效並轉為「取消寄件」，預扣的 CYBER 幣將退回[^1]。
+* **宅配（順豐）：** 下載託運單後即扣除 Cyber幣，若超過 **21 天** 未實際出貨，單號會失效，預扣的 Cyber幣將於單號失效後退回帳戶。
+* **宅配（黑貓、宅配通、新竹）：** 託運單產出後若長時間未寄件，單號會失效並轉為「取消寄件」，預扣的 Cyber幣將退回[^1]。
 * **超商大宗寄倉 B2C：** 須於託運單產出後的隔天起數日內將貨品送達超商物流中心，逾期狀態會轉為「運送異常」，該單號將永久失效且無法補印[^2]。
 * **超商店到店 C2C：** 建議盡早完成交寄，逾期單號會由系統自動刪除[^3]。
 
@@ -149,6 +181,14 @@ hide:
 !!! info "提示"
     若超過通路規定期限仍未重新選擇門市，可能導致包裹被退回。請務必在收到通知後盡快處理。
 
+<div class="grid cards" markdown>
+
+- :lucide-store:{ .ig .middle } [__超商 C2C 門市關轉（閉店）__](../cvs-shipping/cvs-c2c-shipping.md#門市關轉閉店)
+- :lucide-package:{ .ig .middle } [__超商 B2C 門市關轉處理__](../cvs-shipping/cvs-b2c-bulk-shipping.md#operate-cvs-b2c-shipping-store-change)
+- :lucide-rotate-ccw:{ .ig .middle } [__7-11 C2C 退貨門市關轉__](../returns-refunds/7-11-c2c-return.md#operate-seven-eleven-c2c-return-pickup)
+
+</div>
+
 ---
 
 ### 補印託運單 { #operate-shipping-issue-reprint }
@@ -161,11 +201,23 @@ hide:
 !!! note "註釋"
     補印取得的是原本的單號與託運單，不會重複計費，請放心使用。
 
+<div class="grid cards" markdown>
+
+- :lucide-printer:{ .ig .middle } [__補印與加印託運單__](../../payments-and-logistics/補印與加印託運單.md)
+
+</div>
+
 ---
 
 ### DHL 運送異常 { #operate-shipping-issue-dhl-problem }
 
 若 DHL 在運送途中出現異常，CYBERBIZ 會主動聯繫您協助溝通處理，並於狀況解決後持續追蹤，直到貨態更新為「已收貨」。此情形您無需自行操作，留意客服通知即可。
+
+<div class="grid cards" markdown>
+
+- :lucide-globe:{ .ig .middle } [__DHL 跨境物流__](../../payments-and-logistics/DHL 跨境物流.md)
+
+</div>
 
 ---
 
@@ -183,9 +235,9 @@ hide:
     [](){ #faq-shipping-issue-leave-page }
     下載多筆託運單時若中途離開頁面，下載會中斷，部分訂單可能已變更為「已出貨」但檔案尚未取得。這些訂單一律改用 [補印託運單](#operate-shipping-issue-reprint) 重新下載即可，不會重複扣款。
 
-??? quote "單號失效，預扣的 CYBER 幣會退回嗎"
+??? quote "單號失效，預扣的 Cyber幣會退回嗎"
     [](){ #faq-shipping-issue-cyber-coin-refund }
-    會。以順豐為例，下載託運單時即扣除 CYBER 幣，若超過 21 天未實際出貨，單號失效後預扣的 CYBER 幣將自動退回帳戶。其他宅配物流的退回機制依各物流商規定。
+    會。以順豐為例，下載託運單時即扣除 Cyber幣，若超過 21 天未實際出貨，單號失效後預扣的 Cyber幣將自動退回帳戶。其他宅配物流的退回機制依各物流商規定。
 
 ??? quote "補印託運單要再收費嗎"
     [](){ #faq-shipping-issue-reprint-fee }
@@ -199,23 +251,17 @@ hide:
 
 <div class="grid cards" markdown>
 
-- :lucide-package:{ .lg }  
-  [__訂單部分出貨__](../partial-shipment.md){ data-preview }  
+- :lucide-package-check:{ .lg }  
+  [__訂單部分出貨__](../home-delivery/partial-shipment.md)  
   一筆訂單只想先寄出部分商品時的操作方式。
 
-- :lucide-credit-card:{ .lg }  
-  [__付款失敗排解__](../payment-failed.md){ data-preview }  
+- :lucide-banknote-x:{ .lg }  
+  [__付款失敗排解__](../payment-failed.md)  
   顧客付款異常或訂單卡在待付款時的處理。
-
-- :lucide-list-checks:{ .lg }  
-  [__配送狀態對照表__](../references/fulfillment-statuses.md#fulfillment-status-table){ data-preview }  
-  各種貨態代表的意義與出現時機。
 
 </div>
 
 ## 參考資料 { #reference-shipping-issue }
 
 * [配送狀態對照表](../references/fulfillment-statuses.md)
-* [訂單部分出貨](../partial-shipment.md)
-* [付款失敗排解](../payment-failed.md)
 
