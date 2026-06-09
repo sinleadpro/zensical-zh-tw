@@ -2,7 +2,7 @@
 title: 操作超商退貨便 C2B
 description: 設定及操作 7-11 超商退貨便 (C2B)
 created:
-last_modified: 2026-06-09 19:50
+last_modified: 2026-06-09 19:59
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/returns-refunds/cvs-c2b-return
 type: tutorial
@@ -145,7 +145,7 @@ hide:
 
 3. 將託運單貼在包裹上，交給門市店員完成交寄作業。
 
-> :lucide-info: 詳情請參閱[退貨便官方操作說明 :lucide-external-link:](https://www.7-11.com.tw/service/return.aspx)。
+> 操作詳情參閱 [退貨便官方操作說明 :lucide-external-link:](https://www.7-11.com.tw/service/return.aspx)。
 
 ## 步驟四：後續驗收與退款
 
@@ -155,7 +155,7 @@ hide:
 
 • **完成退貨：** 若檢查無誤，將狀態改為 **已退貨**，系統即會觸發後續的自動或人工退款流程。
 
-> :lucide-info: 變更訂單貨態操作，請參閱 [退貨退款相關流程](一般退貨退款#處理退貨退款訂單)。
+> 變更訂單貨態操作，請參閱 [退貨退款相關流程](一般退貨退款#處理退貨退款訂單)。
 
 ## 後續步驟
 
