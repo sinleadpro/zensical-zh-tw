@@ -120,7 +120,7 @@ hide: []
 ## 發送簡訊的三種方法
 
 !!! info "開始之前"
-    - **一般版** 用戶使用前請先 [儲值 Cyber 幣](../website-management/Cyber 幣儲值中心使用指南.md#如何儲值-cyber-幣){ title="Cyber 幣儲值中心使用指南" }。
+    - **一般版** 用戶使用前請先 [儲值 Cyber 幣](../website-management/points-deposits.md#如何儲值-cyber-幣){ title="Cyber 幣儲值中心使用指南" }。
     - **PLUS / 企業版 用戶** 不須額外儲值 Cyber 幣即可使用。
 
 商家可依據需求，登入 CYBERBIZ 管理後台後，前往 **訊息推播 > 發送簡訊**，選擇合適的發送方式：

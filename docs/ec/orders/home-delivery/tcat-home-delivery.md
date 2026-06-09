@@ -2,7 +2,7 @@
 title: 使用黑貓宅配出貨
 description: 批次下載黑貓宅配託運單、扣除運費並將訂單貨態更新為已出貨。
 created: 2026-05-12 15:53
-last_modified: 2026-06-09 09:33
+last_modified: 2026-06-09 15:33
 lang: zh-TW
 type: tutorial
 status: ""
@@ -101,7 +101,7 @@ hide: []
 商家方案不同，黑貓運費的扣款方式也不同：
 
 === "一般版"
-    需先儲值 **Cyber幣** 。下載託運單時系統會即時從 Cyber 幣餘額扣除運費，餘額不足時下載會失敗。
+    需先[儲值 Cyber幣](../../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="如何儲值Cyber幣" }。下載託運單時系統會即時從 Cyber 幣餘額扣除運費，餘額不足時下載會失敗。
 
 === "PLUS版 / 企業版"
     無須事先儲值。每筆運費將計入「對帳中心」，於每期對帳單一次結清。
