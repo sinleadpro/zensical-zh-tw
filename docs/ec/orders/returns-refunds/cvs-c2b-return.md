@@ -157,13 +157,13 @@ hide:
 
 <div class="grid cards" markdown>
 
-- :lucide-megaphone:{ .lg }   
-  [__退貨款說明__]()     
-  設定退貨款的政策說明，讓顧客了解相關操作與費用。
+- :lucide-coins:{ .lg }   
+  [__訂單退款流程__](../order-refund-process.md)     
+   設定退貨款的政策說明，讓顧客了解相關操作與費用。
 
-- :lucide-package-x:{ .lg }     
-  [__退貨退款流程__](一般退貨退款)  
-  操作訂單退貨退款的流程。
+- :lucide-package-minus:{ .lg }     
+  [__訂單退貨流程__](../order-return-process.md)  
+   操作訂單退貨退款的流程。
 
 </div>
 
