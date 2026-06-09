@@ -1,10 +1,10 @@
 ---
-title: security-guide
+title: 資安防護總覽與最佳實務
 description: ""
 created: 2026-06-09 17:07
-last_modified: 2026-06-09 17:54
+last_modified: 2026-06-09 21:56
 lang: zh-TW
-type: tutorial
+type: guide
 status: ""
 author: Jase
 version: ""
@@ -20,8 +20,15 @@ sites:
 audiences:
   - admin
 difficulty: ""
-tnb: ""
+tnb: trunk
 plans:
+  - 專業
+  - 進階
+  - 高手
+  - 專業 PLUS 
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 cyb_extensions: []
 intents: []
 features: []
@@ -36,12 +43,14 @@ devices:
 ui_components: []
 paths: []
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=3549
+  - https://www.cyberbiz.io/support/?p=14216
 permalink: ""
 comments: ""
 search:
   exclude: ""
-icon: ""
+icon: lucide/shield
 hide:
 ---
 
