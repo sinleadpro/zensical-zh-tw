@@ -93,7 +93,7 @@ hide: []
         系統預設付款方式，無須另行啟用。
 
         - :lucide-credit-card:{ .lg }   
-        [__信用卡 (信用卡機)__](../hardware/有線刷卡機.md)   
+        [__信用卡 (信用卡機)__](../hardware/taishin-wired-credit-card-machine.md)   
         串接台新銀行有線刷卡機，自動同步交易金額至卡機，減少手動輸入錯誤。
         
         - :lucide-credit-card:{ .lg }   
@@ -105,15 +105,15 @@ hide: []
         僅限已與玉山銀行洽談開通支付寶掃碼功能之商家使用。
 
         - :lucide-smartphone:{ .lg }   
-        [__MYPAY__](../hardware/商米無線刷卡機.md) <br>
+        [__MYPAY__](../hardware/mypay-wireless-credit-card-machine.md) <br>
         適用於平板操作，需搭配商米 P2 PRO 刷卡機服務。
 
         - :lucide-wallet:{ .lg }   
-        [__LINE Pay__](LINE PAY 掃碼支付.md)<br>
+        [__LINE Pay__](../line-pay-scan-payment.md)<br>
         串接 LINE Pay 支付，支援前台掃碼付款。
         
         - :lucide-layers:{ .lg }   
-        [__多付款方式__](多付款方式.md){ title="設定 POS 多付款方式" } <br>
+        [__多付款方式__](multiple-payment-methods.md) <br>
         支援單筆訂單拆分多種支付（如現金 + 禮券）<br>
         使用場景：**五倍券、振興券、動滋券**
 

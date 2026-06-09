@@ -1,198 +1,297 @@
 ---
-title:
+title: 智慧倉儲 (WMS) 產品中心
 hide:
   - toc
   - path
   - feedback
 ---
 
-# 智慧倉儲 
+<div class="hero-wrapper" style="
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+    margin-top: -2.2rem;
+    padding: 4rem 0rem;
+">
 
-<div class="grid" markdown>
- 
- <br>  
-<big>__開始使用__</big>    
-快速建立您的倉儲管理系統。  
-完成倉庫設定、庫存管理、入出貨操作與物流串接，啟動倉儲運營。  
-<br>
-[新手上路 :lucide-circle-arrow-right:](get-started.md)
+  <!-- LEFT: Hero -->
+  <div class="homepage-hero" style="
+      flex: 1 1 380px;
+      min-width: 360px;
+      max-width: 680px;
+  ">
+    <h1>
+      智慧 
+      <span style="white-space: nowrap;">
+        <span style="color: #03328e; font-size: 1.2em;">倉儲</span>
+      </span>
+    </h1>
 
-![](../assets/images/wms-hero.png) 
+    <p>
+      <big><strong>專業的電商倉儲管理解決方案</strong></big><br>
+      從入倉儲存到系統化出貨與退貨管理，為您打通物流最後一哩路，讓您專注品牌經營。
+    </p>
+
+    <div class="custom-button-group" style="
+        display: flex;
+        flex-wrap: wrap;
+        gap: 1rem;
+        margin-top: 1rem;
+    ">
+      <a href="merchant-inbound-operation-rules.md" class="md-button md-button--primary">商家進倉作業規範 ➜</a>
+      <a href="application-process-and-activation.md" class="md-button">官網串倉整合指南</a>
+    </div>
+  </div>
+
+  <!-- RIGHT: POS Callout -->
+  <style>
+	/* Light/Dark mode colors */
+	[data-md-color-scheme="default"] {
+	  --callout-bg: #f2f6fc;
+	  --callout-hover: #FAFBFC; 
+	  --badge-color: #6674c4;
+	  --text-color: #111;
+	  --divider-color: #e6e8ee;
+	  --border-color: #e6e8ee;
+	}
+	[data-md-color-scheme="slate"] {
+	  --callout-bg: #1e1e1e;
+	  --callout-hover: #2a2a2a;
+	  --badge-color: #6674c4;
+	  --text-color: #eee;
+	  --divider-color: #333;
+	  --border-color: #333;
+	}
+	
+	/* Container */
+	.hero-callout {
+	  background-color: var(--callout-bg);
+	  border-radius: 12px;
+	  padding: 1rem 1.5rem;
+	  border: 1px solid var(--border-color);
+	  display: flex;
+	  flex-direction: column;
+	  gap: 1rem;
+	  flex: 1 1 380px;
+	  min-width: 360px;
+	  max-width: 680px;
+	}
+	
+	/* Tabs */
+	.tab-buttons {
+	  display: flex;
+	  gap: 0.5rem;
+	  border-bottom: 1px solid var(--divider-color);
+	  padding-bottom: 2px;
+	}
+	
+	.tab-btn {
+	  flex: 1 1 auto;
+	  background: transparent;
+	  border: none;
+	  font-weight: 600;
+	  cursor: pointer;
+	  padding: 0.5rem 1rem;
+	  color: var(--text-color);
+	  position: relative;
+	  transition: color 0.2s;
+	}
+	
+	.tab-btn:hover {
+	  color: var(--badge-color);
+	}
+	
+	.tab-btn::after {
+	  content: "";
+	  position: absolute;
+	  left: 0;
+	  bottom: -2px;
+	  width: 100%;
+	  height: 2px;
+	  background: transparent;
+	  transition: background 0.2s;
+	}
+	
+	.tab-btn.active {
+	  color: var(--badge-color);
+	  font-weight: 700;
+	}
+	
+	.tab-btn.active::after {
+	  background: var(--badge-color);
+	}
+	
+	/* Content list */
+	.tab-content {
+	  display: none;
+	  flex-direction: column;
+	  gap: 0.25rem;
+	}
+	
+	.tab-content a {
+	  display: flex;
+	  align-items: center;
+	  gap: 0.5rem;
+	  padding: 0.3rem 0.5rem;
+	  font-size: 0.8rem;
+	  line-height: 1.4;
+	  color: var(--text-color);
+	  text-decoration: none;
+	  border-radius: 6px;
+	  transition: background 0.15s;
+	}
+	
+	.tab-content a:hover {
+	  background-color: var(--callout-hover);
+	}
+	
+	/* Badge */
+	.badge {
+	  background-color: var(--badge-color);
+	  color: white;
+	  border-radius: 4px;
+	  font-size: 0.65rem;
+	  padding: 0.1rem 0.4rem;
+	  font-weight: 600;
+	  white-space: nowrap;
+	}
+	
+	/* Mobile */
+	@media (max-width: 640px) {
+	  .tab-buttons {
+	    flex-direction: column;
+	  }
+	  .tab-btn {
+	    width: 100%;
+	    text-align: center;
+	  }
+	}
+  </style>
+
+  <div class="hero-callout">
+    <!-- Tabs -->
+    <div role="tablist" class="tab-buttons">
+      <button role="tab" aria-selected="true" class="tab-btn active"
+        onclick="openTab(event, 'latest')">最新文件</button>
+      <button role="tab" aria-selected="false" class="tab-btn"
+        onclick="openTab(event, 'popular')">熱門文章</button>
+    </div>
+
+    <!-- Latest -->
+    <div id="latest" role="tabpanel" class="tab-content" style="display:flex">
+      <a href="processed-products.md"><span class="badge">更新</span>加工商品</a>
+    </div>
+
+    <!-- Popular -->
+    <div id="popular" role="tabpanel" class="tab-content">
+      <a href="returns-and-vehicle-dispatch.md"><span class="badge">更新</span>退貨與派車</a>
+    </div>
+  </div>
+
+  <script>
+    function openTab(evt, tabName) {
+      document.querySelectorAll('.tab-content')
+        .forEach(el => el.style.display = 'none');
+    
+      document.querySelectorAll('.tab-btn')
+        .forEach(btn => {
+          btn.classList.remove('active');
+          btn.setAttribute('aria-selected', 'false');
+        });
+    
+      document.getElementById(tabName).style.display = 'flex';
+      evt.currentTarget.classList.add('active');
+      evt.currentTarget.setAttribute('aria-selected', 'true');
+    }
+  </script>
 
 </div>
 
 ---
 
-=== "倉庫設定"
+## 核心功能概覽
 
-	<div class="grid cards" markdown>
-	
-	-   :lucide-home: __倉庫管理__
-	    
-	    ---
-	    
-	    設定倉庫位置、區域、儲位與貨架結構
-	    
-	    [:octicons-arrow-right-24: 開始設定](#)
-	
-	-   :lucide-users: __人員與權限__
-	    
-	    ---
-	    
-	    管理倉庫作業人員帳號與操作權限
-	    
-	    [:octicons-arrow-right-24: 參考指南](#)
-	
-	-   :lucide-palette: __倉庫流程配置__
-	    
-	    ---
-	    
-	    設定入庫、出庫、盤點與補貨流程
-	    
-	    [:octicons-arrow-right-24: 流程設定](#)
-	
-	</div>
+<div class="grid cards" markdown>
 
-=== "庫存管理"
+-   :lucide-package: __商品管理__
+    
+    ---
+    支援單一品項、加工商品與季別群組管理
+    
+    [:octicons-arrow-right-24: 單一品項](single-items.md)<br>
+    [:octicons-arrow-right-24: 加工商品](processed-products.md)
 
-	<div class="grid cards" markdown>
-	
-	-   :lucide-package: __商品入庫__
-	    
-	    ---
-	    
-	    管理商品收貨、驗收與上架操作
-	    
-	    [:octicons-arrow-right-24: 開始入庫](#)
-	
-	-   :lucide-truck: __出貨作業__
-	    
-	    ---
-	    
-	    處理出貨訂單、揀貨、打包與發貨
-	    
-	    [:octicons-arrow-right-24: 出貨指南](#)
-	
-	-   :lucide-barcode: __條碼掃描__
-	    
-	    ---
-	    
-	    使用條碼/QR Code 加快收貨與出貨作業
-	    
-	    [:octicons-arrow-right-24: 掃描操作](#)
-	
-	-   :lucide-archive: __庫存盤點__
-	    
-	    ---
-	    
-	    定期盤點與庫存調整，確保數據正確
-	    
-	    [:octicons-arrow-right-24: 盤點指南](#)
-	
-	</div>
+-   :lucide-arrow-right-left: __倉儲作業__
+    
+    ---
+    完整的進倉、出倉與調倉單據流程
+    
+    [:octicons-arrow-right-24: 進倉管理](inbound-orders.md)<br>
+    [:octicons-arrow-right-24: 調倉作業](transfer-orders.md)
 
-=== "訂單與物流"
+-   :lucide-shopping-cart: __訂單處理__
+    
+    ---
+    自動同步官網訂單，支援手動建單與 POD 追蹤
+    
+    [:octicons-arrow-right-24: 訂單列表](list.md)<br>
+    [:octicons-arrow-right-24: 手動建單](manual-order-creation.md)
 
-	<div class="grid cards" markdown>
-	
-	-   :lucide-workflow: __訂單分配__
-	    
-	    ---
-	    
-	    自動或手動分配訂單到不同倉庫
-	    
-	    [:octicons-arrow-right-24: 開始分配](#)
-	
-	-   :lucide-truck-electric: __物流串接__
-	    
-	    ---
-	    
-	    串接運輸服務提供商，完成揀貨、派送與物流追蹤
-	    
-	    [:octicons-arrow-right-24: 參考指南](#)
-	
-	-   :lucide-receipt: __出貨通知__
-	    
-	    ---
-	    
-	    自動發送出貨通知與電子單據給客戶
-	    
-	    [:octicons-arrow-right-24: 查看設定](#)
-	
-	-   :material-scale-balance: __退貨處理__
-	    
-	    ---
-	    
-	    管理退貨流程，更新庫存與訂單狀態
-	    
-	    [:octicons-arrow-right-24: 查看流程](#)
-	
-	</div>
+-   :lucide-settings: __系統設定__
+    
+    ---
+    商店資訊、帳號權限與報表通知設定
+    
+    [:octicons-arrow-right-24: 權限設定](permission-settings.md)<br>
+    [:octicons-arrow-right-24: 商店設定](store-settings.md)
 
-=== "報表與分析"
+</div>
 
-	<div class="grid cards" markdown>
-	
-	-   :lucide-bar-chart-2: __庫存報表__
-	    
-	    ---
-	    
-	    查看庫存水平、庫存週轉率與存貨狀況
-	    
-	    [:octicons-arrow-right-24: 查看報表](#)
-	
-	-   :lucide-trending-up: __出貨分析__
-	    
-	    ---
-	    
-	    追蹤出貨效率、揀貨速度與訂單完成率
-	    
-	    [:octicons-arrow-right-24: 查看分析](#)
-	
-	-   :lucide-clock: __作業效率__
-	    
-	    ---
-	    
-	    分析倉庫作業人員效率與流程瓶頸
-	    
-	    [:octicons-arrow-right-24: 查看報表](#)
-	
-	</div>
+---
 
-=== "系統整合"
+## 核心營運場景
 
-	<div class="grid cards" markdown>
-	
-	-   :lucide-layout-grid: __WMS App 市集__
-	    
-	    ---
-	    
-	    安裝支持倉儲的插件與應用，擴展系統功能
-	    
-	    [:octicons-arrow-right-24: 參考指南](#)
-	
-	-   :lucide-webhook: __第三方服務串接__
-	    
-	    ---
-	    
-	    串接 ERP、POS、物流、供應商與行銷平台
-	    
-	    [:octicons-arrow-right-24: 查看文件](#)
-	
-	-   :lucide-plug: __API__
-	    
-	    ---
-	    
-	    使用 WMS API 自動化操作與資料串接
-	    
-	    [:octicons-arrow-right-24: 查看指南](#)
-	
-	-   :material-scale-balance: __系統權限__
-	    
-	    ---
-	    
-	    管理 WMS 系統角色與存取權限
-	    
-	    [:octicons-arrow-right-24: 查看設定](#)
-	
-	</div>
+<div class="grid" markdown>
+
+<div>
+<big><strong>官網與倉儲自動化同步</strong></big><br>
+實現庫存即時同步、自動拆單或混單處理。確保官網訂單能準確且快速地傳遞至倉儲系統進行出貨。
+<br><br>
+
+
+<a href="site-and-warehouse-sync-rules.md" class="md-button md-button--primary">官網與倉儲同步規則 ➜</a><br><br>
+<a href="enable-partial-warehouse-integration-and-order-splitting.md" class="md-button">啟用部分串倉與拆單 ➜</a>&nbsp;&nbsp;
+<a href="enable-partial-warehouse-integration-and-mixed-orders.md" class="md-button">啟用部分串倉與混單 ➜</a>
+</div>
+
+![](../assets/images/EC-後台-金物流-宅配物流-拆單畫面總覽01.png)
+
+</div>
+
+---
+
+## 依角色探索
+
+<div class="grid cards" markdown>
+
+-   :lucide-user: __倉管人員__
+    
+    ---
+    專注於現場作業與庫存異動
+    
+    [:octicons-arrow-right-24: 建立進倉單](inbound-orders.md)<br>
+    [:octicons-arrow-right-24: 建立退貨單](return-orders.md)<br>
+    [:octicons-arrow-right-24: 庫存紀錄查詢](inventory-records.md)
+
+-   :lucide-user-cog: __營運管理者__
+    
+    ---
+    專注於系統整合與數據監控
+    
+    [:octicons-arrow-right-24: 員工帳號建置](account-management.md)<br>
+    [:octicons-arrow-right-24: 操作紀錄列表](operation-logs.md)<br>
+    [:octicons-arrow-right-24: 報表通知設定](report-notification-settings.md)
+
+</div>

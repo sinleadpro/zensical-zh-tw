@@ -109,7 +109,7 @@ graph LR
 - :lucide-user-plus:{ .lg }
   __註冊與綁定門市會員__
   引導顧客掃碼入會，並建立門市人員與顧客的推薦綁定關係。<br>
-  [查看文件](搜尋與建立會員.md){ title="搜尋與建立會員" }
+  [查看文件](search-and-create-members.md)
 
 </div>
 
@@ -120,17 +120,17 @@ graph LR
 - :lucide-search:{ .lg }
   __01. 精準識客__
   身份識別與標籤應用。快速確認 VIP 等級，掌握顧客特徵。<br>
-  [查看文件](會員身份識別.md){ title="會員身份識別" }
+  [查看文件](member-identification.md)
 
 - :lucide-bar-chart-3:{ .lg }
   __02. 數據洞察__
   消費概況與權益分析。分析歷史訂單與購物車，發掘潛在需求。<br>
-  [查看文件](會員數據智庫.md){ title="會員數據智庫" }
+  [查看文件](member-data-warehouse.md)
 
 - :lucide-shopping-cart:{ .lg }
   __03. 成交引導__
   資產核銷與商品推薦。執行點數/優惠券折抵，生成導購連結。<br>
-  [查看文件](導購轉化.md){ title="導購轉化" }
+  [查看文件](sales-conversion.md)
 
 </div>
 
@@ -141,11 +141,11 @@ graph LR
 - :lucide-file-text:{ .lg }
   __查看門市與個人業績報表__
   追蹤導購業績、線下消費紀錄與個人績效達成狀況。<br>
-  [查看文件](查看業績.md){ title="查看業績" }
+  [查看文件](view-sales-performance.md)
 
 </div>
 
 ---
 
 !!! info "下一步建議"
-    如果您是第一次使用，建議先閱讀 [搜尋與建立會員](搜尋與建立會員.md){ title="搜尋與建立會員" }，了解如何將顧客帶入您的 OMO 體系。
+    如果您是第一次使用，建議先閱讀 [搜尋與建立會員](search-and-create-members.md)，了解如何將顧客帶入您的 OMO 體系。
