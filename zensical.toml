@@ -335,7 +335,7 @@ copyright = """
                 { "選單滑鼠移入自動展開" = "ec/website-appearance/navigation/設定導覽選單滑鼠移入自動展開.md" }
             ]},
             { "頁面與內容" = [
-                { "自訂頁面管理" = "ec/website-appearance/pages-and-content/設定與管理自訂頁面.md" },
+                { "自訂頁面管理" = "ec/website-appearance/pages-and-content/custom-pages.md" },
                 { "嵌入 Google 表單" = "ec/website-appearance/pages-and-content/在自訂頁面中嵌入 Google 表單.md" },
                 { "部落格管理" = "ec/website-appearance/pages-and-content/部落格管理與文章發佈指南.md" }
             ]},

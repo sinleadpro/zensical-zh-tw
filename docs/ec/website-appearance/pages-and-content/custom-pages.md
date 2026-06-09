@@ -2,7 +2,7 @@
 title: "設定與管理自訂頁面"
 description: "建立、設定與管理自訂頁面，包含基本設定、區塊設計與前台顯示方式。"
 created: "2025-03-03 15:30"
-last_modified: 2026-06-09 11:31
+last_modified: 2026-06-09 13:16
 lang: "zh-TW"
 type: "tutorial"
 status: ""
@@ -124,7 +124,7 @@ hide:
 
 以下依常見情境分別說明。所有操作皆從後台「網站外觀」>「自訂頁面管理」進入。
 
-## 增自訂頁面 { #operate-custom-pages-create
+### 新增自訂頁面 { #operate-custom-pages-create
 
 1. **進入自訂頁面管理:** 前往後台「網站外觀」>「自訂頁面管理」。
 2. **新增頁面:** 點擊頁面右上角的 **「新增頁面」** 按鈕。
@@ -133,7 +133,7 @@ hide:
 
 ---
 
-### 情境二、編輯頁面內容 { #operate-custom-pages-edit }
+### 編輯頁面內容 { #operate-custom-pages-edit }
 
 
 
@@ -169,7 +169,7 @@ hide:
 
 ---
 
-### 情境三、發布或下架頁面 { #operate-custom-pages-publish }
+### 發布或下架頁面 { #operate-custom-pages-publish }
 
 頁面建立後預設不一定公開,您可以隨時切換顯示狀態:
 
@@ -182,7 +182,7 @@ hide:
 
 ---
 
-### 情境四、複製頁面 { #operate-custom-pages-duplicate }
+### 複製頁面 { #operate-custom-pages-duplicate }
 
 當您要製作版面相近的頁面時,可直接複製既有頁面再修改:
 
@@ -192,7 +192,7 @@ hide:
 
 ---
 
-### 情境五、刪除頁面 { #operate-custom-pages-delete }
+### 刪除頁面 { #operate-custom-pages-delete }
 
 1. 在列表中找到要刪除的頁面,點擊 **「刪除」** 圖示。
 2. 系統會跳出確認視窗,顯示「確定要刪除「頁面名稱」嗎?」並提醒 **「刪除後無法復原」**。
