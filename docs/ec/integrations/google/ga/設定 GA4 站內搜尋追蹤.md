@@ -45,6 +45,15 @@ prerequisites:
 related:
   - "[[設定 Google Analytics 進階追蹤與資料分析]]"
   - "[[設定 GA4 排除內部流量與第三方參照來源]]"
+tags:
+  - EC
+  - Google Analytics 4
+  - GA4
+  - 站內搜尋
+  - 搜尋追蹤
+  - 加強型評估
+  - 消費者行為
+  - 第三方整合
 acoiv: configure
 apis: []
 devices:

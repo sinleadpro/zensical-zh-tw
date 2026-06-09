@@ -5,6 +5,15 @@ icon: lucide/book-marked
 last_modified: 2026-06-08 18:25
 type: reference
 author: Jase
+tags:
+  - EC
+  - POS
+  - WMS
+  - SEO
+  - GA4
+  - Glossary
+  - 詞彙表
+  - 系統名詞
 ---
 {{ subtitle(page.meta.description) }}
 

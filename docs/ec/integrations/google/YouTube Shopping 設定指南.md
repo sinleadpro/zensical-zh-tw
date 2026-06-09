@@ -42,6 +42,14 @@ prerequisites:
   - "[[建立並串接 Google Analytics]]"
 related:
   - "[[設定 GMC 重要事件來源追蹤與自動標記]]"
+tags:
+  - EC
+  - YouTube Shopping
+  - Google Merchant Center
+  - 直播購物
+  - 產品動態饋給
+  - YPP
+  - 第三方整合
 acoiv: integration
 apis: []
 devices:

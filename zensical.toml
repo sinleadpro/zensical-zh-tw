@@ -75,6 +75,7 @@ copyright = """
                 {"超商條碼付款" = "ec/orders/order-settings/cvs-barcode-payment.md"},
                 {"未付款提醒" = "ec/orders/order-settings/unpaid-reminder-settings.md"},
                 {"處理付款失敗" = "ec/orders/payment-failed.md"},
+                {"託運單與貨態異常" = "ec/orders/order-settings/shipping-label-or-shipment-status-error.md"},
             ]},
             {"宅配出貨" = [
                 {"自訂物流出貨" = "ec/orders/home-delivery/custom-logistic-shipping.md"},
@@ -249,7 +250,10 @@ copyright = """
             { "定期訂購活動頁" = "ec/marketing/定期定額活動頁.md"},
             { "商品多層級分類滿額折扣" = "ec/marketing/設定商品多層級分類滿額折扣.md" },
             { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" },
-            {"預填商品導購連結" = "ec/marketing/建立含指定商品的購物車連結.md"}
+            {"預填商品導購連結" = "ec/marketing/建立含指定商品的購物車連結.md"},
+            {"參考資料" = [
+                {"帳號狀態與購買權限對照表" = "ec/marketing/references/purchase-limit-account-status.md"}
+            ]}
         ]},  
         { "分潤" = [
             { "overview" = "ec/profit-sharing/index.md"},

@@ -27,7 +27,15 @@ intents: []
 features: []
 prerequisites: []
 related: []
-tags: []
+tags:
+  - EC
+  - 多國語系
+  - 支援語言
+  - 翻譯
+  - Multi-language
+  - Reference
+  - 對照表
+  - 全球化
 acoiv: ""
 apis: []
 devices:

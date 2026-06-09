@@ -27,7 +27,15 @@ intents: []
 features: []
 prerequisites: []
 related: []
-tags: []
+tags:
+  - EC
+  - 超商取貨
+  - B2C
+  - 大宗寄倉
+  - 方案對照
+  - 運費計費
+  - Cyber幣
+  - Reference
 acoiv: ""
 apis: []
 devices:

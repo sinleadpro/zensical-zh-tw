@@ -27,7 +27,15 @@ intents: []
 features: []
 prerequisites: []
 related: []
-tags: []
+tags:
+  - EC
+  - 物流類型
+  - 部分出貨
+  - 宅配
+  - 超商取貨
+  - 快速到貨
+  - 跨境物流
+  - Reference
 acoiv: ""
 apis: []
 devices:

@@ -27,7 +27,15 @@ intents: []
 features: []
 prerequisites: []
 related: []
-tags: []
+tags:
+  - EC
+  - 超商取貨
+  - 部分出貨
+  - C2C
+  - B2C
+  - 物流支援
+  - 訂單管理
+  - Reference
 acoiv: ""
 apis: []
 devices:

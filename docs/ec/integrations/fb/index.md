@@ -7,6 +7,14 @@ lang: zh-TW
 type: tutorial
 status: ""
 author: Jase
+tags:
+  - EC
+  - Facebook 整合
+  - Meta Ads
+  - 快速登入
+  - 廣告投放
+  - 第三方整合
+  - Meta
 version: ""
 reviewers: []
 notes: []

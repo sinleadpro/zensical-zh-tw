@@ -27,7 +27,15 @@ intents: []
 features: []
 prerequisites: []
 related: []
-tags: []
+tags:
+  - EC
+  - 超商取貨
+  - B2C
+  - 大宗寄倉
+  - 重量限制
+  - 材積限制
+  - 申請欄位
+  - Reference
 acoiv: ""
 apis: []
 devices:

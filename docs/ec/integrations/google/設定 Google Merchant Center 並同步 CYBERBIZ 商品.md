@@ -2,7 +2,7 @@
 title: 設定 Google Merchant Center 並同步 CYBERBIZ 商品
 description: 串接 Google Merchant Center、同步商品資料至 Google 搜尋與購物廣告。
 created: 2026-03-05 10:00
-last_modified: 2026-06-08 17:15
+last_modified: 2026-06-08 19:28
 lang: zh-TW
 type: tutorial
 status: ""
@@ -85,7 +85,7 @@ comments: false
     - **自動化管理**：自動同步商品庫存、價格與圖片，減少手動維護工作。
     - **數據追蹤與優化**：收集使用者互動與廣告成效資料，支援後續分析與優化。
 
-## 如何申請 Google Merchant Center (Google 端操作)
+## 如何申請 Google Merchant Center <small>Google 端操作</small>
 
 ### 建立帳戶
 
@@ -134,7 +134,7 @@ comments: false
         ![GMC 商店驗證狀態](../../../assets/images/ec-gmc-商家資訊-驗證狀態.png)
 ---
 
-### 同步商品資料 (Product Feed 設定)
+### 同步商品資料 <small>Product Feed 設定</small>
 
 1.  **複製饋給連結**：至 CYBERBIZ 後台「第三方整合」>「谷歌 Google 設定」>「Google Merchant Center」，複製「**產品動態饋給連結**」。
 
@@ -212,10 +212,7 @@ comments: false
 
 </div>
 
-
-
-
-## 哪些商品不會被上傳 (自動排除邏輯)
+## 哪些商品不會被上傳 <small>自動排除邏輯</small>
 
 系統會自動排除以下情況的商品，不會上傳至 GMC：
 

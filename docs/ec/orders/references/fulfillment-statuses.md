@@ -2,7 +2,7 @@
 title: 配送狀態對照表
 description: ""
 created: 2026-06-04 15:06
-last_modified: 2026-06-04 15:21
+last_modified: 2026-06-09 09:35
 lang: zh-TW
 type: reference
 status: ""
@@ -34,7 +34,15 @@ intents: []
 features: []
 prerequisites: []
 related: []
-tags: []
+tags:
+  - EC
+  - 配送狀態
+  - 訂單列表
+  - 出貨管理
+  - 已到店
+  - 逾期未取
+  - 運送異常
+  - Reference
 acoiv: ""
 apis: []
 devices:
@@ -54,7 +62,7 @@ hide:
 
 本對照表彙整 CYBERBIZ 新版訂單列表的配送狀態，供搜尋、篩選、出貨等功能引用。
 
-## 配送狀態一覽 { #fulfillment-statuses }
+## 配送狀態一覽 { #fulfillment-statuses-table }
 
 | 配送狀態 | 說明 | 出現時機 |
 | :-- | :-- | :-- |

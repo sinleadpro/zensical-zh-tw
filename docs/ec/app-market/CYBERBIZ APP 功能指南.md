@@ -27,7 +27,15 @@ intents: []
 features: []
 prerequisites: []
 related: []
-tags: []
+tags:
+  - EC
+  - CYBERBIZ APP
+  - 行動裝置
+  - 會員經營
+  - 推播通知
+  - OMO
+  - App Store
+  - Google Play
 acoiv: ""
 apis: []
 devices:

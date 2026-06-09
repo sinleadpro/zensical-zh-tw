@@ -27,7 +27,15 @@ intents: []
 features: []
 prerequisites: []
 related: []
-tags: []
+tags:
+  - EC
+  - 商品管理
+  - 出貨方式
+  - 倉儲管理
+  - 物流倉
+  - SKU
+  - Reference
+  - 對照表
 acoiv: ""
 apis: []
 devices:

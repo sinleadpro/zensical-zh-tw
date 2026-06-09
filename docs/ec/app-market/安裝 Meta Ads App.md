@@ -36,6 +36,15 @@ prerequisites:
   - "[[建立 Meta 廣告帳號並儲值]]"
 related:
   - "[[設定 Meta 廣告活動]]"
+tags:
+  - EC
+  - Meta Ads
+  - Facebook
+  - Instagram
+  - 廣告投放
+  - App Market
+  - FBE
+  - 第三方整合
 acoiv: integration
 apis: []
 devices:

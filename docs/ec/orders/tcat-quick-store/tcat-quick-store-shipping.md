@@ -51,11 +51,13 @@ related:
   - "[[補印與加印託運單]]"
   - "[[partial-shipment]]"
 tags:
+  - EC
   - 黑貓快速到店
+  - 7-11
   - 託運單
-  - 出貨
-  - 超商取貨
-  - 物流
+  - 物流出貨
+  - 批次出貨
+  - 超商物流
 acoiv: operation
 apis: []
 devices:

@@ -7,6 +7,15 @@ lang: zh-TW
 type: guide
 status: ""
 author: Jase
+tags:
+  - EC
+  - Meta Business Extension
+  - MBE
+  - FBE
+  - Facebook
+  - Instagram
+  - 商店設定
+  - 第三方整合
 version: ""
 reviewers: []
 notes: []

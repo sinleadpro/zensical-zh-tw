@@ -150,7 +150,7 @@
 >
 > ```text
 > 4. 點擊 **「確認下載」**，系統彈出二次確認視窗，按 **「確認」** 即會：
->     * 扣除 Cyber 幣或列入對帳單[^1]
+>     * 扣除 Cyber幣或列入對帳單[^1]
 >     * 呼叫順豐[^2] 取得新單號
 >     * 自動下載託運單 PDF
 >     * 將該訂單與單號寫入下方的「單號使用紀錄」表格
@@ -352,11 +352,11 @@ Markdown 表格的單一儲存格內容必須保持一行,不要為了原始檔�
 <div class="grid cards" markdown>
 
 - :lucide-package:{ .lg }  
-  [__顯示文字__](../path/to/page.md){ data-preview }  
+  [__顯示文字__](../path/to/page.md)  
   簡短說明文字。
 
 - :lucide-settings:{ .lg }  
-  [__顯示文字__](../path/to/page.md){ data-preview }  
+  [__顯示文字__](../path/to/page.md)  
   簡短說明文字。
 
 </div>
@@ -439,7 +439,7 @@ Markdown 表格的單一儲存格內容必須保持一行,不要為了原始檔�
 8. ☐ 新舊版差異(若適用)已用 `=== "..."` 分頁呈現
 9. ☐ 所有 heading 錨點符合 `{primary}-{category}-{subtopic}` 格式，無 `{category}-{primary}` 這類 category-first 的舊命名
 10. ☐ 步驟中無過長文字，方案差異、錯誤提示、技術細節等已使用 `[^n]` 腳註分離(原則見 §F)
-11. ☐ 後續操作使用 `<div class="grid cards">` 搭配 Lucide icons(非普通列表)
+11. ☐ 後續操作使用 `<div class="grid cards">` 搭配 Lucide icons(非普通列表)，且連結**不加** `{ data-preview }`
 
 ---
 
@@ -478,7 +478,7 @@ Markdown 表格的單一儲存格內容必須保持一行,不要為了原始檔�
 
 ```markdown
 4. 點擊 **「確認下載」**，按 **「確認」** 即會[^1]：
-    * 扣除 Cyber 幣或列入對帳單[^2]
+    * 扣除 Cyber幣或列入對帳單[^2]
     * 呼叫順豐取得新單號
     * 自動下載託運單 PDF
 
@@ -537,9 +537,9 @@ Markdown 表格的單一儲存格內容必須保持一行,不要為了原始檔�
 ```yaml
 文件 A:
   category: {{產品/功能 kebab-case，用於錨點前綴與檔名}}
-  module: {{marketing}}
-  頁面: {{https://demo005.cyberbiz.co/admin/limit_collections}} 
-  主題: {{設定商品限購數量}}
+  module: {{website-appearance}}
+  頁面: {{https://demo005.cyberbiz.co/admin/custom_pages_index}} 
+  主題: {{設定與管理自訂頁面}}
   檔案路徑: docs/{{module}}/{{topic-kebab-case}}.md
 ```
 

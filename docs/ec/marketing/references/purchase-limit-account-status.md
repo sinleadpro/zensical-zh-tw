@@ -2,11 +2,20 @@
 title: 帳號狀態與購買權限對照表
 description: ""
 created: 2026-06-08 17:46
-last_modified: 2026-06-08 17:47
+last_modified: 2026-06-08 20:11
 lang: zh-TW
 type: reference
 status: ""
 author: Jase
+tags:
+  - EC
+  - 會員等級
+  - 購買權限
+  - 帳號狀態
+  - 限購商品
+  - 登入限制
+  - Reference
+  - 對照表
 version: ""
 reviewers: []
 notes: []
