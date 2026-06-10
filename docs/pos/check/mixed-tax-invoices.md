@@ -72,7 +72,7 @@ hide: []
 瞭解如何設定商品應稅或免稅屬性，並在結帳時自動計算並開立包含應稅與免稅項目的混稅發票。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"

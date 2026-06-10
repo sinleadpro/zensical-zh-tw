@@ -54,13 +54,16 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/settings
+icon: ""
 hide: []
 ---
 
 # 商店設定
 定義商店的識別名稱、簡訊發送人與聯繫資訊，確保電商倉儲系統的物流與通訊流程具備正確的基礎資料。
 { .subtitle }
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+{ .doc-badge }
 
 ![](../assets/images/WMS-後台-設定-商店設定-畫面總覽01.png){ .hero-page }
 

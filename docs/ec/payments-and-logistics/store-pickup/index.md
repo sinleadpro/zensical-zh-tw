@@ -118,7 +118,7 @@ hide:
 
     門市人員處理包裹到店入庫、顧客核銷取貨與逾期處理。
 
-    [__門市包裹入庫與顧客取貨__](../../../pos/orders_ann/store-pickup-orders-inbound-and-pickup.md)
+    [__門市包裹入庫與顧客取貨__](../../../pos/orders/store-pickup-orders-inbound-and-pickup.md)
 
 - :lucide-hand-coins:{ .lg } __4. 管理與獎勵機制(POS)__
 

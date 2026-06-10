@@ -74,7 +74,7 @@ hide: []
 商家可以自行印製含有條碼、價格、保存期限等資訊的商品標籤，加速門市結帳效率並提升庫存管理精確度。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"

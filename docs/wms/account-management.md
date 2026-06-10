@@ -58,13 +58,16 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/users
+icon: ""
 hide: []
 ---
 
 # 帳號管理
 在 CYBERBIZ 電商倉儲系統中建立員工帳號、設定登入憑證、指派職務角色，並執行帳號停權與資料維護。
 { .subtitle }
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+{ .doc-badge }
 
 ![](../assets/images/WMS-後台-設定-帳號管理-畫面總覽01.png){ .hero-page }
 

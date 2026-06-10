@@ -70,7 +70,7 @@ hide: []
 由需求方發起申請，透過系統自動化產單與雙向確認機制，確保門市間調撥的庫存一致性。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 

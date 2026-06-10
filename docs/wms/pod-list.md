@@ -57,13 +57,16 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/file-check
+icon: ""
 hide: []
 ---
 
 # POD 列表
 在電商倉儲（WMS）中利用 POD 列表追蹤「專車派車」訂單的派車狀態。
 { .subtitle }
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+{ .doc-badge }
 
 ![](../assets/images/WMS-後台-POD列表-畫面總覽01.png){ .hero-page }
 

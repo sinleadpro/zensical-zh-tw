@@ -67,7 +67,7 @@ hide: []
 管理 POS 前台提供的支付工具，包含現金、信用卡串接及行動支付。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 ![](../../../assets/images/POS-後台-所有POS門市-付款方式-畫面總覽01.png){ .hero-page }

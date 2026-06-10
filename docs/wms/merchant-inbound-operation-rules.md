@@ -56,7 +56,7 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/caravan
+icon: ""
 hide: []
 ---
 
@@ -64,6 +64,8 @@ hide: []
 商家商品進入 CYBERBIZ 電商倉儲的標準作業流程與規範，包含預約進倉、驗收標準、包裝條碼規格及現場作業安全守則。
 { .subtitle }
 
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+{ .doc-badge }
 
 ## 進倉預約流程
 

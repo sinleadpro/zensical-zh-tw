@@ -66,7 +66,7 @@ hide: []
 商家可根據門市作業習慣，彈性設定 POS 前台在商品或贈品庫存不足時的提醒方式，確保銷售流程順暢並降低誤售風險。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"

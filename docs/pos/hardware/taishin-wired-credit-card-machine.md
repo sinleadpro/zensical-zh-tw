@@ -76,7 +76,7 @@ hide: []
 { .subtitle }
 
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"
@@ -93,12 +93,15 @@ hide: []
 
 !!! warning "必備硬體線材"
     因驅動程式綁定問題，請務必選購 **[SUNBOX 品牌 USB to RS232 轉接線](https://24h.pchome.com.tw/prod/DCAX1V-A9005MDWH)**。請勿購買其他牌轉接線，以免發生無法識別或綁定失敗之情況。
+
     ![](../../assets/images/POS-裝置-有線刷卡機限定傳輸線SUNBOX01.jpg){ .small-image }
 
 ## 申請與前置準備
 
 1. **提交申請**：收取 **CYBERBIZ POS 多元支付申請通知信** 後，回傳所需的營運資料給開站顧問。
+
     ![](../../assets/images/POS-通知信件-有線信用卡機申請01.png){ .small-image }
+    
 2. **購買線材**：確認選購 SUNBOX 品牌 USB to RS232 之轉接線。
 3. **領取機台**：待銀行將刷卡機寄達門市後，即可開始安裝流程。
 

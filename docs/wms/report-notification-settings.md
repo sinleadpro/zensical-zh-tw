@@ -57,13 +57,16 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/send
+icon: ""
 hide: []
 ---
 
 # 報表通知設定
 重要的營運數據與庫存警示主動送達指定信箱。商家無需每日登入後台手動匯出，相關人員即可掌握關鍵資訊。
 { .subtitle }
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+{ .doc-badge }
 
 ![](../assets/images/WMS-後台-設定-報表通知設定-畫面總覽01.png){ .hero-page }
 

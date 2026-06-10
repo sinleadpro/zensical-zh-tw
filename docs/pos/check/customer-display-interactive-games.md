@@ -71,7 +71,7 @@ hide: []
 透過在客顯螢幕上設定趣味互動遊戲，商家可有效吸引顧客注意力，並針對特定標籤商品進行促銷與折扣。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 ![](../../assets/images/POS-後台-互動遊戲-畫面總覽01.png){ .hero-page }

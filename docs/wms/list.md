@@ -56,13 +56,16 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/table-properties
+icon: ""
 hide: []
 ---
 
 # 列表
 電商倉儲（WMS）的訂單列表是商家管理出貨進度與庫存調度的核心介面，讓商家掌握每一筆訂單在倉庫內的作業階段。
 { .subtitle }
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+{ .doc-badge }
 
 ![](../assets/images/WMS-後台-訂單-列表-畫面總覽01.png){ .hero-page }
 

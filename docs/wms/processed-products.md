@@ -62,13 +62,16 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/layers
+icon: ""
 hide: []
 ---
 
 # 加工商品
 「加工商品」即為電商官網常見的「組合商品」。商家將多個單一品項綁定為一個新的銷售單位，當訂單成立時，系統將自動扣除各個子品項的庫存。
 { .subtitle }
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+{ .doc-badge }
 
 ![](../assets/images/WMS-後台-商品-加工商品-畫面總覽01.png){ .hero-page }
 

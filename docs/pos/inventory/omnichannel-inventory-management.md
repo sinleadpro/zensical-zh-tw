@@ -76,7 +76,7 @@ hide: []
 本指南將引導您了解 CYBERBIZ POS 與 EC 系統的庫存協作機制，並提供進倉、調倉、出倉及盤點的標準操作流程。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 

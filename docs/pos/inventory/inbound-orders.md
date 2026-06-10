@@ -75,7 +75,7 @@ hide: []
 管理商品撥入倉庫的單據，支援手動發起、接收出倉請求或第三方供應商進貨等多種情境。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 ![](../../assets/images/POS-後台-全通路庫存管理-進倉單-列表01.png){ .hero-page }

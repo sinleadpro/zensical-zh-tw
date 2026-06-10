@@ -42,7 +42,7 @@ notes: []
 
     ---
     
-    [__開啟快速到貨功能__](設定CYBERBIZ NOW快速到貨服務.md)<br>
+    [__開啟快速到貨功能__](enable-cyberbiz-now-quick-delivery.md)<br>
     [__複製商品到快速到貨門市__](../../products/copy-products-to-quick-delivery-stores.md)<br>
     [__設定前台專區入口__](../../website-appearance/setup-quick-delivery-frontend-entry.md)
 

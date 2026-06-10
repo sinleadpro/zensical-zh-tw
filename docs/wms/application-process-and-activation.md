@@ -60,14 +60,15 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/warehouse
+icon: ""
 hide: []
 ---
 # 申請流程與開通
 在正式開通串接前，商家需完成合約簽訂、系統環境建置以及商品資料同步，以確保訂單能正確拋轉至倉庫執行。
 { .subtitle }
 
-
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+{ .doc-badge }
 
 ## 串倉核心須知
 

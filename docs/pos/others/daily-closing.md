@@ -65,6 +65,9 @@ hide: []
 透過小結與關帳作業，門市人員可定期清點營收、記錄現金差額，並完成每日的帳務結算。
 { .subtitle }
 
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
+{ .doc-badge }
+
 ![](../../assets/images/POS-前台-其他功能-小結關帳-畫面總覽01.png){ .hero-page }
 
 !!! tip "應用情境"

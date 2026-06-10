@@ -64,7 +64,7 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/user-cog
+icon: ""
 hide: []
 ---
 
@@ -72,7 +72,7 @@ hide: []
 透過 POS 前台快速註冊新會員、查詢顧客資料與管理推薦分潤，提升門市會員經營效率。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"

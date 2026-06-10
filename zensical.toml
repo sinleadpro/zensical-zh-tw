@@ -106,7 +106,7 @@ copyright = """
                 { "快速到貨出貨與配送"= "ec/orders/quick-delivery-shipping-and-distribution.md"},
                 { "缺貨訂單部分出貨或取消流程"= "ec/orders/out-of-stock-partial-shipping-or-cancellation.md"},
                 { "Pandago 配送異常規範"= "ec/orders/pandago-delivery-exception-rules.md"},
-                { "運費計算與對帳規範"= "ec/orders/快速到貨運費計算與對帳規範.md"},
+                { "運費計算與對帳規範"= "ec/orders/quick-delivery-shipping-fee-calculation-and-reconciliation.md"},
                 { "消費者購買流程"= "ec/orders/consumer-purchase-process.md"},
             ]},
             { "定期定額訂單" = "ec/orders/定期定額訂單管理.md" },
@@ -188,7 +188,7 @@ copyright = """
                 {"Excel 大量匯入商品" = "ec/products/bulk-operations/Excel 大量匯入商品.md"},
                 {"批次修改商品描述與配送設定" = "ec/products/bulk-operations/批次修改商品描述與配送設定.md"},
                 {"排除商品上傳至第三方平台" = "ec/products/bulk-operations/排除商品上傳至第三方平台.md"},
-                {"複製商品到快速到貨門市" = "ec/products/複製商品到快速到貨門市.md"}
+                {"複製商品到快速到貨門市" = "ec/products/copy-products-to-quick-delivery-stores.md"},
             ]},
             { "價格設定" = [
                 {"VIP 會員專屬價格" = "ec/products/pricing/設定 VIP 會員專屬價格.md"}
@@ -544,9 +544,8 @@ copyright = """
         { "訂單" = [
             { "列表" = "wms/list.md"},
             { "手動建單" = "wms/manual-order-creation.md"},
-            { "缺貨商品" = "wms/.md"},
         ]},
-        { "POD列表" = "wms/pod列表.md"},
+        { "POD列表" = "wms/pod-list.md"},
         { "退貨單" = "wms/return-orders.md"},
         { "庫存紀錄" = "wms/inventory-records.md"},
         { "設定" = [
@@ -555,8 +554,6 @@ copyright = """
             { "權限設定" = "wms/permission-settings.md"},
             { "報表通知設定" = "wms/report-notification-settings.md"},
         ]},
-        { "API" = "wms/.md"},
-
     ]},
     { "智能 POS" = [
         { "智能 POS" = "pos/index.md"},

@@ -74,7 +74,7 @@ hide: []
 管理商品從目前倉庫撥出的單據，支援手動發起、接收請求或調倉轉單等多種情境。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 ![](../../assets/images/POS-後台-全通路庫存管理-出倉單-列表01.png){ .hero-page }

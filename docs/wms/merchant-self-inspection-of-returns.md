@@ -56,7 +56,7 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/package-check
+icon: ""
 hide: []
 ---
 
@@ -64,6 +64,8 @@ hide: []
 電商倉儲的商家希望自行處理退貨包裹（不退回總倉），可引導消費者將商品寄至指定地址。由商家自行驗收後，再於官網後台執行退貨退款指令。
 { .subtitle }
 
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+{ .doc-badge }
 
 ## 使用情境
 

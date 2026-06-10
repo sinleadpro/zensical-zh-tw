@@ -72,7 +72,7 @@ hide: []
 瞭解如何透過專屬帳號登入 POS 前台，並掌握員工切換、公告查看與系統設定等基礎介面操作。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"

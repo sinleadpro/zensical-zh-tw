@@ -70,7 +70,7 @@ hide: []
 透過正確安裝 EPSON TM-T82III 專業發票機並配置虛擬 COM Port，商家可實現穩定、快速的電子發票列印作業。本文將引導您完成從硬體安裝到驅動程式設定的完整流程。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"

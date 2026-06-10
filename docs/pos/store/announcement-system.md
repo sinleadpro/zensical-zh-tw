@@ -65,6 +65,9 @@ hide: []
 透過 POS 公告系統，總公司可快速將重要資訊同步給各門市，門市間也能進行高效的資訊溝通。
 { .subtitle }
 
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
+{ .doc-badge }
+
 ![](../../assets/images/POS-後台-公告系統-畫面總覽01.png){ .hero-page }
 
 

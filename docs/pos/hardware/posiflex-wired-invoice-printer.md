@@ -74,7 +74,7 @@ hide: []
 安裝 Posiflex 發票機，包含驅動程式安裝、硬體連線、發票樣式測試及常見故障排除方法。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 

@@ -57,13 +57,16 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/hand
+icon: ""
 hide: []
 ---
 
 # 手動建單
 當商家有來自非串接通路的出貨需求，或需要將商品從倉庫轉運回公司進行業務調整時，可直接向倉庫發送出貨指令。
 { .subtitle }
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+{ .doc-badge }
 
 ![](../assets/images/WMS-後台-訂單-手動建單-畫面總覽01.png){ .hero-page }
 

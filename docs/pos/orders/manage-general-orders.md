@@ -73,7 +73,7 @@ hide: []
 掌握 POS 前台的訂單查詢、取消與換貨流程，並瞭解發票作廢、折讓與庫存回補等系統自動化邏輯。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"

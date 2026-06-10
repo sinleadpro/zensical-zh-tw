@@ -71,7 +71,7 @@ hide: []
 瞭解盟立電子發票加值中心的申請流程、字軌管理規範以及常見營運問題排除。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 
