@@ -2,7 +2,7 @@
 title: 操作超商店到店 C2C 出貨
 description: 包裝商品並透過超商店到店（C2C）寄件至消費者指定門市，包括完整操作流程與注意事項。
 created:
-last_modified: 2026-06-10 22:11
+last_modified: 2026-06-10 22:19
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/cvs-shipping/cvs-c2c-shipping
 type: tutorial
@@ -153,7 +153,7 @@ hide:
 
 4. 系統將生成託運單壓縮檔（ZIP），內含託運單、出貨明細、訂單明細與揀貨單。檔案說明請見 [託運單壓縮檔內容](../basics/order-fulfillment-flow.md#operate-fulfillment-zip){ data-preview }。
 
-    ??? example "託運單壓縮檔內容"
+    ??? example-clean "託運單壓縮檔內容"
         ![託運單壓縮檔內容](../../../assets/images/ec-訂單-所有訂單-託運單壓縮檔內容.png)
 
     !!! warning "壓縮檔若無法下載，請檢查瀏覽器是否阻擋彈跳視窗。"
@@ -174,7 +174,7 @@ hide:
 - 使用 A4 紙或標籤貼紙，一頁最多 4 筆（2X2 格式）。
 - [市售 A4 尺寸標籤貼紙範例 :lucide-external-link:](https://shopee.tw/%E3%80%90A4%E3%80%91A4%E7%A9%BA%E7%99%BD%E8%B2%BC%E7%B4%99-2%C3%972-%E8%B2%BC%E7%B4%99-A6%E8%87%AA%E9%BB%8F%E6%A8%99%E7%B1%A4%E8%B2%BC%E7%B4%99-A4%E6%A8%A1%E9%80%A0%E8%B2%BC%E7%B4%99-%E9%9B%BB%E8%85%A6%E6%A8%99%E7%B1%A4%E8%B2%BC%E7%B4%99-%E5%8F%AF%E9%9B%B7%E5%B0%84-%E5%99%B4%E5%A2%A8-1%E5%8C%85100%E5%BC%B5-10%E5%8C%85%E5%85%8D%E9%81%8B-i.24728499.2550119685)，僅供參考。
 
-??? example "圖示範例"
+??? example-clean "圖示範例"
     ![](../../../assets/images/ec-訂單-超商托運單-一般列印.png)
 
 ---
