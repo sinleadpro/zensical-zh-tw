@@ -67,7 +67,7 @@ hide: []
 門市人員可透過 POS 前台快速檢索商品資訊與庫存狀態，支援多種搜尋模式以滿足不同情境下的查找需求。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 ![](../../assets/images/POS-前台-庫存-商品查詢-畫面總覽01.png){ .hero-page }

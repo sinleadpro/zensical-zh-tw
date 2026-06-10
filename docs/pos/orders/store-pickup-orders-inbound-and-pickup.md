@@ -73,7 +73,7 @@ hide: []
 瞭解如何在 POS 前台處理官網訂單的包裹到店入庫、客戶取貨與逾期訂單管理，實現官網下單、門市取貨的 OMO 營運。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"

@@ -75,7 +75,7 @@ hide: []
 針對販售散裝、秤重商品的商家，POS 支援與磅秤標籤機產出的條碼對接。透過掃描含有金額資訊的專屬條碼，店員可快速完成精確結帳。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"

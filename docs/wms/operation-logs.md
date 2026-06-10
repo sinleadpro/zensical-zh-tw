@@ -51,13 +51,16 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/history
+icon: ""
 hide: []
 ---
 
 # 操作紀錄列表
 「操作紀錄列表」記錄所有使用者在電商倉儲後台的行為軌跡，管理人員可追蹤各帳號的操作動作、來源 IP 與時間。
 { .subtitle }
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+{ .doc-badge }
 
 ![](../assets/images/WMS-後台-操作紀錄列表-畫面總覽01.png){ .hero-page }
 

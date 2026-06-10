@@ -58,7 +58,7 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/monitor-check
+icon: ""
 hide: []
 ---
 
@@ -66,7 +66,7 @@ hide: []
 為確保 POS 系統運作效能與週邊設備連線的穩定性，請參考以下硬體規格與系統環境建議進行配置。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 

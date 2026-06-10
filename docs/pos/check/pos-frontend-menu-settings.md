@@ -62,7 +62,7 @@ permalink:
 comments: false
 search:
   exclude: false
-icon: lucide/layout-grid
+icon: ""
 hide: []
 ---
 
@@ -70,7 +70,7 @@ hide: []
 透過 POS 前台的圖形化選單，店員可以快速點選商品加入購物車，無需逐一掃描條碼。此功能特別適用於食品、散裝商品，或使用平板進行流動結帳的場景。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業版
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"

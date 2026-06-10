@@ -58,13 +58,16 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/package
+icon: ""
 hide: []
 ---
 
 # 單一品項
 在電商倉儲中建立與管理單一品項，包含新增商品資訊、批次匯入、設定供應商以及匯出庫存報表。
 { .subtitle }
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+{ .doc-badge }
 
 ![](../assets/images/WMS-後台-商品-單一品項-畫面總覽01.png){ .hero-page }
 

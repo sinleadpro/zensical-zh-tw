@@ -71,7 +71,7 @@ hide: []
 透過分潤機制激勵門市人員處理「門市取貨」訂單的效率。您可以自訂到店與取貨的報酬，並自動化統計員工的分潤金額。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 ![](../../assets/images/EC-後台-分潤-門市取貨店員分潤-畫面總覽01.png){ .hero-page }

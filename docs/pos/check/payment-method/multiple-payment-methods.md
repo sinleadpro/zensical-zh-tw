@@ -73,7 +73,7 @@ hide: []
 當一筆交易需要由多種支付方式組成（例如：現金 + 禮券）時，可透過「多付款方式」功能進行拆分與記錄。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"

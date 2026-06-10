@@ -71,7 +71,7 @@ hide: []
 訪客結帳功能讓商家能為「非會員」且「無意願註冊」的顧客完成交易。系統會自動套用預設帳號，協助門市在不強迫入會的前提下順利結帳。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 

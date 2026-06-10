@@ -58,13 +58,16 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/arrow-right-left
+icon: ""
 hide: []
 ---
 
 # 調倉單
 在電商倉儲中，庫存分布於多個不同的「倉別」。透過「調倉單」，商家能將商品庫存從原始倉別轉移至目標倉別。
 { .subtitle }
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+{ .doc-badge }
 
 ![](../assets/images/WMS-後台-調倉單-畫面總覽01.png){ .hero-page }
 

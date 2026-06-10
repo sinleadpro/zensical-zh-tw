@@ -60,13 +60,16 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/undo-2
+icon: ""
 hide: []
 ---
 
 # 退貨單
 在電商倉儲系統處理退貨申請，包含派車取件、驗收狀態說明以及後續退款流程執行。
 { .subtitle }
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+{ .doc-badge }
 
 ![](../assets/images/WMS-後台-退貨單-畫面總覽01.png){ .hero-page }
 

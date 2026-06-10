@@ -73,7 +73,7 @@ hide: []
 瞭解 POS 子機綁定機制，防止多個裝置同時使用同個 POS 子機系統，造成結帳時發票重複開立或資訊混亂。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"

@@ -77,7 +77,7 @@ hide: []
 了解如何執行門市商品盤點，並追蹤盤點進度與結果，確保帳面數量與實際庫存一致。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 ![](../../assets/images/POS-前台-庫存-庫存盤點-畫面總覽01.png){ .hero-page }

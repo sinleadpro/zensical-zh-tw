@@ -72,7 +72,7 @@ hide: []
 掌握由收貨方發起的完整進倉作業流程，從建立請求、系統自動轉單、出貨方發貨到最終的收貨清點與庫存同步。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 

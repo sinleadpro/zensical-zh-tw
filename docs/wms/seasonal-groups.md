@@ -59,13 +59,16 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/tags
+icon: ""
 hide: []
 ---
 
 # 季別群組
 指引商家如何在電商倉儲中建立與管理「季別群組」，將同屬性或同銷售波段的商品進行歸類，優化「庫齡報表」的監控效率。
 { .subtitle }
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+{ .doc-badge }
 
 ![](../assets/images/WMS-後台-商品-季別群組-畫面總覽01.png){ .hero-page }
 

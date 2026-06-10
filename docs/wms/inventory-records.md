@@ -60,7 +60,7 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/database-backup
+icon: ""
 hide: []
 ---
 
@@ -68,7 +68,8 @@ hide: []
 在電商倉儲（WMS）中查詢庫存異動細節與庫齡分析，包含歷史庫存紀錄、異動明細表及庫齡報表。
 { .subtitle }
 
-
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+{ .doc-badge }
 
 ## 庫齡報表
 

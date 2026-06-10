@@ -68,7 +68,7 @@ hide: []
 解決在使用掃描槍掃描商品條碼時，系統無法辨識或找不到對應商品的問題，包含 EAN-13 與 UPC-A 編碼轉換設定。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"

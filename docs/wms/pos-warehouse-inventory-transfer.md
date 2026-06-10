@@ -62,13 +62,16 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/store
+icon: ""
 hide: []
 ---
 
 # POS 系統串倉庫存轉調
 同時使用 EC、POS 與 WMS 服務時，執行門市調貨、查看 WMS 庫存配置以及在線上/線下倉別間進行庫存轉調。
 { .subtitle }
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲 / 智能 POS
+{ .doc-badge }
 
 ## 三合一庫存機制
 

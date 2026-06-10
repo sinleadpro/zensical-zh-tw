@@ -62,7 +62,7 @@ hide: []
 { .subtitle }
 
 
-[:lucide-layers:{ title="適用方案" }](../../resources/conventions#適用方案) | 跨境電商（日本站）
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用方案) | 跨境電商（日本站）
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Pro / Business
 { .doc-badge }
 

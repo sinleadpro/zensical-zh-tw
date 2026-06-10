@@ -70,7 +70,7 @@ hide: []
 由出貨方主動發起，透過系統自動轉單機制，確保跨單位撥貨的庫存準確性與軌跡追蹤。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 

@@ -64,7 +64,7 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/hand-coins
+icon: ""
 hide: []
 ---
 
@@ -72,7 +72,7 @@ hide: []
 從會員識別到收款發票，帶您熟悉門市結帳的每一個關鍵環節，提供流暢的顧客消費體驗。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"
@@ -335,7 +335,7 @@ graph LR
 
             ![](../../assets/images/POS-前台-結帳-手開發票號碼01.png){ .screenshot }
 
-            > 您也可於 **訂單** 頁 [補開發票](../orders_ann/管理一般訂單/#補開發票--列印明細){ title="管理一般訂單" }。
+            > 您也可於 **訂單** 頁 [補開發票](../orders/manage-general-orders.md)。
         - **其他載具**：手機條碼、自然人憑證或捐贈代碼。
     2. **完成結帳**：確認金額正確後，點擊 **收款**。
 

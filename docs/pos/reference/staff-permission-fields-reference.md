@@ -72,7 +72,7 @@ hide: []
 本參考表收錄 POS 系統支援的權限項目，管理員可依此對照各勾選項目的前台操作權限與後台管理範圍，實現精確的門市分權控管。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 

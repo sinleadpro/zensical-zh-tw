@@ -55,13 +55,16 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/factory
+icon: ""
 hide: []
 ---
 
 # 供應商
 在電商倉儲中建立供應商資料，能讓商家更清晰地管理貨物來源。透過將商品與供應商綁定，在後續建立進倉單或進行庫存盤點時，系統能自動對接廠商資訊。
 { .subtitle }
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+{ .doc-badge }
 
 ![](../assets/images/WMS-後台-供應商-畫面總覽01.png){ .hero-page }
 

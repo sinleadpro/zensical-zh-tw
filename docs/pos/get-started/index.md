@@ -58,7 +58,7 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/rocket
+icon: ""
 hide: []
 ---
 
@@ -66,7 +66,7 @@ hide: []
 建立門市營運的第一步：了解智能 POS 的軟硬體需求、第三方服務申請及核心系統邏輯。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 

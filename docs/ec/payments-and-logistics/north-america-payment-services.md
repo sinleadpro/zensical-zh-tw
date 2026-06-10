@@ -66,7 +66,7 @@ hide: []
 北美站整合了國際主流的金流解決方案，包含信用卡與電子錢包支付，以及廣泛使用的 PayPal 服務，幫助商家順利經營美國市場。
 { .subtitle }
 
-[:lucide-layers:{ title="適用方案" }](../../resources/conventions#適用方案) | 跨境電商（北美站）
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用方案) | 跨境電商（北美站）
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Pro / Business
 { .doc-badge }
 
