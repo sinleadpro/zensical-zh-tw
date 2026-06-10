@@ -92,7 +92,9 @@ hide: []
 ### 步驟一：安裝驅動程式與硬體整備
 
 1. **安裝程式**：前往下載並安裝 [CYBERBIZ POS 驅動程式](../software/drivers.md)。
+
     ![](../../assets/images/POS-驅動程式-桌面圖示01.png)
+
 2. **安裝紙捲**：將感熱紙捲放入機槽（感應面朝上）。
 
      <div class="grid cards borderless two-columns" markdown>
@@ -114,12 +116,15 @@ hide: []
     </div>
 
 3. **開啟電源**：將發票機接上電源並開啟開關。
-    ![](../../assets/images/POS-安裝-Posiflex有線發票機-開機01.jpg){ .screenshot }
+
+    ![](../../assets/images/POS-安裝-Posiflex有線發票機-開機01.jpg){ .small-image }
 
 ### 步驟二：系統連線與綁定
 
 1. **USB 連線**：將發票機透過 USB 線與電腦連接。
+
     ![](../../assets/images/POS-安裝-Posiflex有線發票機-啟用01.png){ .screenshot }
+
 2. **啟動驅動程式**：開啟 CYBERBIZ 驅動程式，系統應自動偵測到裝置。
 3. **選擇機型**：在程式介面中點選 **熱感應發票機**。
 
@@ -131,6 +136,7 @@ hide: []
     </div>
 
 4. **刷新前台**：若顯示「尚未綁定 POS 店」，請開啟或刷新瀏覽器中的 **POS 前台網頁**，並保持驅動程式開啟。
+
     ![](../../assets/images/POS-驅動程式-連線有線發票機02.png){ .screenshot }
 
 ### 步驟三：連線與列印測試
@@ -148,10 +154,13 @@ hide: []
 2. **真實交易測試**：
     - 進入 POS 前台進行一筆小額結帳。
     - 發票類型若 **僅顯示「自行開立」**，而沒有「紙本電子發票」、「公司統編」等其他選項，代表 **串接尚未生效**；請聯繫 CYBERBIZ 技術客服客服支援。
+
     ![](../../assets/images/POS-前台-結帳-開立發票選項01.png){ .screenshot }
 
 3. **列印發票**：完成結帳，檢查發票機是否順利列印發票。
-    ![](../../assets/images/POS-安裝-Posiflex有線發票機-測試02.jpg){ .screenshot }
+
+    ![](../../assets/images/POS-安裝-Posiflex有線發票機-測試02.jpg){ .small-image }
+
 4. **取消訂單**：取消訂單後，應可於前台 **訂單** 頁看到發票已成功註銷。
 
     <div class="grid cards borderless two-columns" markdown>

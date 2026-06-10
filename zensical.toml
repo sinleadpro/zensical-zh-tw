@@ -626,9 +626,6 @@ copyright = """
             { "小結關帳" = "pos/others/daily-closing.md" },
             { "磅秤設定" = "pos/others/scale-settings.md" },
         ]},
-        { "參考資源" = [
-            { "人員權限欄位參考表" = "pos/reference/staff-permission-fields-reference.md" },
-        ]},
         {"divider" = "divider"},
         { "商店管理" = [
             { "公告系統" = "pos/store/announcement-system.md" },
@@ -640,22 +637,9 @@ copyright = """
             { "設定前台自動登出時間" = "pos/store/setup-frontend-auto-logout-time.md" },
             { "員工權限與帳號管理" = "pos/store/staff-permissions-and-account-management.md" },
             { "人員登入" = "pos/store/staff-login.md" },
+            { "參考資源" = [
+                { "人員權限欄位參考表" = "pos/reference/staff-permission-fields-reference.md" },
         ]},
-        { "報表分析" = [
-            { "營收分析" = "" },
-            { "商品分析" = "" },
-        ]},
-        {"divider" = "divider"},
-        { "商店管理" = [
-            { "公告系統" = "pos/store/公告系統.md" },
-            { "安全性設定" = "pos/store/安全性設定.md" },
-            { "續購與加購方案" = "pos/store/續購與加購方案.md" },
-            { "POS 門市取貨店員分潤" = "pos/store/POS 門市取貨店員分潤.md" },
-        ]},
-        { "人員管理" = [
-            { "設定前台自動登出時間" = "pos/store/設定前台自動登出時間.md" },
-            { "員工權限與帳號管理" = "pos/store/員工權限與帳號管理.md" },
-            { "人員登入" = "pos/store/人員登入.md" },
         ]},
         { "報表分析" = [
             { "營收分析" = "" },

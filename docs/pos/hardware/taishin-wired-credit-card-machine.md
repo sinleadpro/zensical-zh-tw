@@ -93,12 +93,12 @@ hide: []
 
 !!! warning "必備硬體線材"
     因驅動程式綁定問題，請務必選購 **[SUNBOX 品牌 USB to RS232 轉接線](https://24h.pchome.com.tw/prod/DCAX1V-A9005MDWH)**。請勿購買其他牌轉接線，以免發生無法識別或綁定失敗之情況。
-    ![](../../assets/images/POS-裝置-有線刷卡機限定傳輸線SUNBOX01.jpg){ .screenshot }
+    ![](../../assets/images/POS-裝置-有線刷卡機限定傳輸線SUNBOX01.jpg){ .small-image }
 
 ## 申請與前置準備
 
 1. **提交申請**：收取 **CYBERBIZ POS 多元支付申請通知信** 後，回傳所需的營運資料給開站顧問。
-    ![](../../assets/images/POS-通知信件-有線信用卡機申請01.png){ .screenshot }
+    ![](../../assets/images/POS-通知信件-有線信用卡機申請01.png){ .small-image }
 2. **購買線材**：確認選購 SUNBOX 品牌 USB to RS232 之轉接線。
 3. **領取機台**：待銀行將刷卡機寄達門市後，即可開始安裝流程。
 
@@ -111,30 +111,42 @@ hide: []
 
 1. 前往下載 [CYBERBIZ 硬體驅動程式](../software/drivers.md)。
 2. 執行安裝程式並開啟。
-    ![](../../assets/images/POS-安裝-有線信用卡機-啟用01.png){ .screenshot }
+
+    ![](../../assets/images/POS-安裝-有線信用卡機-啟用01.png){ .small-image }
 
 
 ### 步驟二：硬體連線與連接埠設定
 
 1. **連接線材**：
     - 將 **USB 接頭** 插入信用卡機後方的 RS232 接口。
-        ![](../../assets/images/POS-安裝-有線信用卡機-啟用02.jpg){ .screenshot }
+
+        ![](../../assets/images/POS-安裝-有線信用卡機-啟用02.jpg){ .small-image }
+
     - 將 **RS232 接頭** 插入安裝有 POS 系統的電腦。
-        ![](../../assets/images/POS-安裝-有線信用卡機-啟用03.jpg){ .screenshot }
+    
+        ![](../../assets/images/POS-安裝-有線信用卡機-啟用03.jpg){ .small-image }
+
 2. **軟體偵測**：在已開啟的 CYBERBIZ 驅動程式視窗中，選擇 **台新信用卡機**。
-    ![](../../assets/images/POS-驅動程式-綁定有線信用卡機01.png){ .screenshot }
+
+    ![](../../assets/images/POS-驅動程式-綁定有線信用卡機01.png){ .small-image }
+
 3. **完成連接**：信用卡機狀態顯示為 **已連接**。
-    ![](../../assets/images/POS-驅動程式-綁定有線信用卡機02.png){ .screenshot }
+
+    ![](../../assets/images/POS-驅動程式-綁定有線信用卡機02.png){ .small-image }
 
     > 提示：若出現偵測訊息可先忽略，確保選單有選中正確項目即可。
-        ![](../../assets/images/POS-驅動程式-綁定有線信用卡機03.png){ .screenshot }
+        ![](../../assets/images/POS-驅動程式-綁定有線信用卡機03.png){ .small-image }
 
 ### 步驟三：連線快速測試
 
 1. 在驅動程式中點擊 **測試** 按鈕。
-    ![](../../assets/images/POS-驅動程式-綁定有線信用卡機04.png){ .screenshot }
+
+    ![](../../assets/images/POS-驅動程式-綁定有線信用卡機04.png){ .small-image }
+
 2. 若串接成功，信用卡機會自動跳出測試刷卡畫面。
-    ![](../../assets/images/POS-安裝-有線信用卡機-測試01.png){ .screenshot }
+
+    ![](../../assets/images/POS-安裝-有線信用卡機-測試01.png){ .small-image }
+
 3. 確認有畫面後，按下刷卡機上的「清除」鍵結束測試。
 
 
