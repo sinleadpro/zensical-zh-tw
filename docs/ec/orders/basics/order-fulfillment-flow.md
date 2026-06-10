@@ -2,7 +2,7 @@
 title: 訂單出貨流程
 permalink: https://help.cyberbiz.io/ec/orders/basics/order-fulfillment-flow
 version: ""
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-10 19:30
 description: ""
 product:
   - EC
@@ -226,6 +226,10 @@ icon: lucide/workflow
 | 出貨明細 | 隨包裹附上的出貨內容清單 |
 | 揀貨單 | 倉庫揀貨備貨用 |
 | 訂單明細 | 該批訂單的明細列印檔 |
+
+
+??? example "壓縮檔內容範例"
+    ![託運單壓縮檔內容](../../../assets/images/ec-訂單-所有訂單-託運單壓縮檔內容.png)
 
 !!! note "為什麼是壓縮檔"
     批次出貨可能一次涵蓋多筆訂單與多份文件，系統統一打包成 ZIP，避免逐筆、逐份分開下載。下載完成後請先解壓縮，再列印所需的託運單與明細。

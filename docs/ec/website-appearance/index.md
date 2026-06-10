@@ -11,7 +11,7 @@ icon: lucide/store
 <div class="grid cards" markdown>
 
 - :lucide-layout-dashboard:{ .lg }
-  [__版型與版面__](theme-and-layout/使用拖拉版型設計網站版面與首頁區塊.md){ title="使用拖拉版型設計網站版面與首頁區塊" }
+  [__版型與版面__](theme-and-layout/theme-editor.md){ title="使用拖拉版型設計網站版面與首頁區塊" }
   使用拖拉版型編輯器，直覺調整首頁區塊、跑馬燈與商品排序。
 
 - :lucide-menu:{ .lg }

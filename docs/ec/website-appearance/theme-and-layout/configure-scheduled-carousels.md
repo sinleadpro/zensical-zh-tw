@@ -42,7 +42,7 @@ features:
   - Liquid語法嵌入
 prerequisites: []
 related:
-  - "[[使用拖拉版型設計網站版面與首頁區塊]]"
+  - "[[theme-editor]]"
 tags:
   - 排程跑馬燈
   - 橫幅廣告
@@ -244,14 +244,14 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-layout-dashboard:{ .lg }  
-  [__自訂排版設計（拖拉版型）__](使用拖拉版型設計網站版面與首頁區塊.md)  
+  [__自訂排版設計（拖拉版型）__](theme-editor.md)  
   將排程跑馬燈加入首頁版面，調整顯示位置。
 
+<!--
 - :lucide-megaphone:{ .lg }  
   [__彈窗廣告__](popup-ads.md)  
   以彈窗形式在所有頁面顯示跑馬燈。
 
-<!--
 - :lucide-code:{ .lg }  
   [__套版主題管理__](theme-editor.md)  
   於 CSS/HTML 編輯器貼上 Liquid 語法嵌入跑馬燈。
@@ -301,5 +301,5 @@ hide: []
 
 ## 參考資料 { #reference-scheduled-carousel }
 
-- [廣告檔期狀態對照表](references/scheduled-carousel-statuses.md)
+- [廣告檔期狀態對照表](../references/scheduled-carousel-statuses.md)
 
