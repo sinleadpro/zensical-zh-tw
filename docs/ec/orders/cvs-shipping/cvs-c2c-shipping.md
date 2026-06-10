@@ -2,7 +2,7 @@
 title: 操作超商店到店 C2C 出貨
 description: 包裝商品並透過超商店到店（C2C）寄件至消費者指定門市，包括完整操作流程與注意事項。
 created:
-last_modified: 2026-06-10 21:39
+last_modified: 2026-06-10 22:11
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/cvs-shipping/cvs-c2c-shipping
 type: tutorial
@@ -132,7 +132,7 @@ hide:
 
 ## 操作步驟 { #operate-cvs-c2c }
 
-### 確認出貨條件 { #operate-cvs-c2c-check }
+### 步驟一：確認出貨條件 { #operate-cvs-c2c-check }
 
 依消費者選擇的收款方式，確認訂單狀態符合出貨條件：
 
@@ -143,7 +143,7 @@ hide:
 
 ---
 
-### 後台取號與下載託運單 { #operate-cvs-c2c-download }
+### 步驟二：後台取號與下載託運單 { #operate-cvs-c2c-download }
 
 1. 登入 CYBERBIZ 管理後台，前往 **訂單 > 所有訂單**。
 2. 勾選相同配送方式（如萊爾富貨到付款）的訂單。
@@ -162,7 +162,7 @@ hide:
 
 ---
 
-### 列印與貼單 { #operate-cvs-c2c-print }
+### 步驟三：列印與貼單 { #operate-cvs-c2c-print }
 
 !!! tip "建議使用雷射印表機，較不影響標籤判讀。"
 
@@ -250,7 +250,7 @@ hide:
 
 ---
 
-### 前往門市寄件 { #operate-cvs-c2c-dropoff }
+### 步驟四：前往門市寄件 { #operate-cvs-c2c-dropoff }
 
 商家當日寄件，若該店物流車當日尚未取件，則通常消費者可於後天（寄件日 +2 天）取貨。部分門市除外，查看 [7-11 排外門市名單 :lucide-external-link:](https://www.7-11.com.tw/form/store.pdf)，全家不限。
 
@@ -265,7 +265,7 @@ hide:
 
 ---
 
-### 到店簡訊通知 { #operate-cvs-c2c-notify }
+### 步驟五：到店簡訊通知 { #operate-cvs-c2c-notify }
 
 - 商品抵達門市後，CYBERBIZ 貨態轉為「已到店」，將發出取貨通知簡訊給「消費者」。
 - CYBERBIZ 取貨通知簡訊：
