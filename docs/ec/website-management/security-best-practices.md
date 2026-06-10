@@ -1,8 +1,8 @@
 ---
 title: 資安防護總覽與最佳實務
-description: ""
+description: 概述各項安全措施、後台設定路徑及資安事件應變指南，全面保障您的網站與顧客個資。
 created: 2026-06-09 17:07
-last_modified: 2026-06-09 21:56
+last_modified: 2026-06-10 12:24
 lang: zh-TW
 type: guide
 status: ""
@@ -58,16 +58,9 @@ hide:
 
 {{ badge(page.meta) }}
 
-{ .hero-page }
+## 資訊防護說明 { #intro-security-guide }
 
-# 資安防護總覽與最佳實務 { #intro-security-guide }
-
-為保護你的網站與顧客個資安全，CYBERBIZ 提供多項資安防護功能。本頁綜覽所有防護措施、它們在後台的設定位置，以及事故發生時的應變方向。
-{ .subtitle }
-
-![資安防護總覽](../assets/images/website-management-security-best-practices-hero.png){ .hero-page }
-
-資訊安全需要商家一起配合執行各項設定，才能有效降低風險。本頁屬「總覽與最佳實務」，協助你一次掌握該做哪些防護��各功能的詳細操作步驟，請點對應連結前往教學。多數功能集中在後台「管理中心」→「安全性設定」，部分則位於「網站權限」、付款或網域相關設定。
+資訊安全需要商家一起配合執行各項設定，才能有效降低風險。本頁屬「總覽與最佳實務」，協助你一次掌握該做哪些防護。各功能的詳細操作步驟，請點對應連結前往教學。多數功能集中在後台「管理中心」>「安全性設定」，部分則位於「網站權限」、付款或網域相關設定。
 
 !!! tip "建議優先順序"
     若你剛開始盤點資安，建議先完成三件事：開啟 **二階段驗證**、設定 **IP 白名單**、開啟 **後台登入 reCAPTCHA**，這三項對防止帳號被盜用最有效。
@@ -76,14 +69,14 @@ hide:
 
 | 防護措施 | 用途 | 設定位置 |
 | :-- | :-- | :-- |
-| 二階段驗證（2FA） | 登入時加上動態驗證碼，防止帳號被盜用 | 安全性設定 → 管理員登入 |
-| IP 白名單 | 只允許名單內 IP 登入後台 | 安全性設定 → 管理員登入 |
-| 後台登入 reCAPTCHA | 後台登入加上機器人驗證 | 安全性設定 → 管理員登入 |
-| 瀏覽器 Cookie 驗證 IP 白名單 | 避免同瀏覽器 IP 跳動被強制登出 | 安全性設定 → 管理員登入 |
-| 自動登出時間 | 後台閒置自動登出 | 安全性設定 → 管理員登入 |
-| 會員個資部分隱碼 | 遮蔽顧客姓名、手機、地址等個資 | 安全性設定 → 會員安全 |
-| 訪問限制地區黑名單 | 封鎖特定地區顧客造訪前台 | 安全性設定 → 會員安全 |
-| 網站密碼 | 顧客需輸入密碼才能瀏覽網站 | 安全性設定 → 會員安全 |
+| 二階段驗證（2FA） | 登入時加上動態驗證碼，防止帳號被盜用 | 安全性設定 > 管理員登入 |
+| IP 白名單 | 只允許名單內 IP 登入後台 | 安全性設定 > 管理員登入 |
+| 後台登入 reCAPTCHA | 後台登入加上機器人驗證 | 安全性設定 > 管理員登入 |
+| 瀏覽器 Cookie 驗證 IP 白名單 | 避免同瀏覽器 IP 跳動被強制登出 | 安全性設定 > 管理員登入 |
+| 自動登出時間 | 後台閒置自動登出 | 安全性設定 > 管理員登入 |
+| 會員個資部分隱碼 | 遮蔽顧客姓名、手機、地址等個資 | 安全性設定 > 會員安全 |
+| 訪問限制地區黑名單 | 封鎖特定地區顧客造訪前台 | 安全性設定 > 會員安全 |
+| 網站密碼 | 顧客需輸入密碼才能瀏覽網站 | 安全性設定 > 會員安全 |
 | 匯出權限控管 | 將顧客匯出、訂單匯出權限縮到最小 | 網站權限 |
 | 信用卡 3D 驗證 | 消費者需簡訊驗證，降低盜刷 | 付款設定（加值） |
 | SSL 安全性憑證 | 加密網站與顧客間的資料傳輸 | 隨方案提供或於網域設定 |
@@ -92,9 +85,33 @@ hide:
 
 這三項是防止帳號被盜用與惡意攻擊最有效的防線，建議優先全部開啟。
 
-- **二階段驗證（2FA）**：輸入帳密後，還需手機驗證器產生的動態驗證碼才能登入。即使密碼外洩，駭客也無法突破第二層驗證。詳見 [二階段驗證設定步驟][operate-security-2fa]{ data-preview }。
-- **IP 白名單**：限制只有名單內的 IP 位址才能登入後台。請勿使用手機 WiFi 分享等浮動 IP，否則可能導致無法登入。詳見 [IP 白名單設定步驟][operate-security-ip-whitelist]{ data-preview }。
-- **後台登入 reCAPTCHA**：在後台登入頁加上機器人驗證，減少自動化腳本攻擊。詳見 [reCAPTCHA 設定步驟][operate-security-recaptcha]{ data-preview }。
+<div class="grid cards" markdown>
+
+-   :lucide-shield-check:{ .lg .middle } __二階段驗證（2FA）__
+
+    ---
+
+    輸入帳密後，還需手機驗證器產生的動態驗證碼才能登入。即使密碼外洩，駭客也無法突破第二層驗證。
+
+    [:lucide-arrow-right: 設定步驟](security-settings.md#operate-security-2fa)
+
+-   :lucide-network:{ .lg .middle } __IP 白名單__
+
+    ---
+
+    限制只有名單內的 IP 位址才能登入後台。請勿使用手機 WiFi 分享等浮動 IP，否則可能導致無法登入。
+
+    [:lucide-arrow-right: 設定步驟](security-settings.md#operate-security-ip-whitelist)
+
+-   :lucide-bot:{ .lg .middle } __後台登入 reCAPTCHA__
+
+    ---
+
+    在後台登入頁加上機器人驗證，減少自動化腳本攻擊。
+
+    [:lucide-arrow-right: 設定步驟](security-settings.md#operate-security-recaptcha)
+
+</div>
 
 ---
 
@@ -102,9 +119,31 @@ hide:
 
 當核心防護完成後，可再依需求加強登入與存取控管。
 
-- **瀏覽器 Cookie 驗證 IP 白名單**：當同一瀏覽器操作時 IP 變動，系統會要求重新登入，防止他人盜取 Cookie 偽裝身分；若你的網路 IP 頻繁跳動造成困擾，可把可信任 IP 加入此名單。詳見 [Cookie 驗證 IP 白名單設定步驟][operate-security-cookie-whitelist]{ data-preview }。
-- **自動登出時間**：設定後台閒置多久自動登出（可選 4 小時至 7 天），降低電腦遭他人誤用的風險。詳見 [自動登出時間設定步驟][operate-security-logout-timer]{ data-preview }。
-- **境外 IP 登入限制**：若你有跨境經營或海外登入需求，可評估限制境外登入。此項涉及帳號授權，建議直接聯繫 CYBERBIZ 客服確認開通方式。
+<div class="grid cards" markdown>
+
+-   :lucide-cookie:{ .lg .middle } __瀏覽器 Cookie 驗證 IP 白名單__
+
+    ---
+
+    當同一瀏覽器操作時 IP 變動，系統會要求重新登入，防止他人盜取 Cookie 偽裝身分；若你的網路 IP 頻繁跳動造成困擾，可把可信任 IP 加入此名單。
+
+    [:lucide-arrow-right: 設定步驟](security-settings.md#operate-security-cookie-whitelist)
+
+-   :lucide-clock:{ .lg .middle } __自動登出時間__
+
+    ---
+
+    設定後台閒置多久自動登出（可選 4 小時至 7 天），降低電腦遭他人誤用的風險。
+
+    [:lucide-arrow-right: 設定步驟](security-settings.md#operate-security-logout-timer)
+
+-   :lucide-globe-off:{ .lg .middle } __境外 IP 登入限制__
+
+    ---
+
+    若你有跨境經營或海外登入需求，可評估限制境外登入。此項涉及帳號授權，建議直接聯繫 CYBERBIZ 客服確認開通方式。
+
+</div>
 
 ---
 
@@ -112,9 +151,29 @@ hide:
 
 保護顧客個資、收斂高風險權限，並養成稽核習慣。
 
-- **匯出權限最小化**：建議將「顧客匯出」與「訂單匯出」權限縮到最小，僅開放給必要人員。設定位置：後台「網站權限」。
-- **會員個資部分隱碼**：在網站前台、後台或訂單明細列印時，將會員姓名、手機、地址等以隱碼遮蔽。詳見 [會員個資部分隱碼設定步驟][operate-security-pdpa]{ data-preview }。
-- **定期稽核登入者**：定期檢查「網站權限」中的管理員名單，並留意是否有異常操作或不明 IP 登入。
+<div class="grid cards" markdown>
+
+-   :lucide-download:{ .lg .middle } __匯出權限最小化__
+
+    ---
+
+    建議將「顧客匯出」與「訂單匯出」權限縮到最小，僅開放給必要人員。設定位置：後台「網站權限」。
+
+-   :lucide-eye-off:{ .lg .middle } __會員個資部分隱碼__
+
+    ---
+
+    在網站前台、後台或訂單明細列印時，將會員姓名、手機、地址等以隱碼遮蔽。
+
+    [:lucide-arrow-right: 設定步驟](security-settings.md#operate-security-pdpa)
+
+-   :lucide-search:{ .lg .middle } __定期稽核登入者__
+
+    ---
+
+    定期檢查「網站權限」中的管理員名單，並留意是否有異常操作或不明 IP 登入。
+
+</div>
 
 ---
 
@@ -122,9 +181,31 @@ hide:
 
 保護交易過程與網站傳輸安全。
 
-- **信用卡 3D 驗證**：消費者需輸入簡訊驗證碼才能完成付款，可降低盜刷風險。是否開通與適用的金流，建議向 CYBERBIZ 客服確認。
-- **SSL 安全性憑證**：保護網站與顧客間的資料傳輸安全。使用 CYBERBIZ 網域已包含 SSL；若使用自有網域，SSL 通常隨方案提供或需另行續購。
-- **網頁防複製保護**：部分佈景／前台設定可限制顧客複製文字或下載圖片，保護原創內容；實際是否提供，依你的佈景設定為準。
+<div class="grid cards" markdown>
+
+-   :lucide-credit-card:{ .lg .middle } __信用卡 3D 驗證__
+
+    ---
+
+    消費者需輸入簡訊驗證碼才能完成付款，可降低盜刷風險。是否開通與適用的金流，建議向 CYBERBIZ 客服確認。
+
+    [:lucide-arrow-right: 設定教學](../payments-and-logistics/設定信用卡%203D%20驗證門檻.md)
+
+-   :lucide-lock:{ .lg .middle } __SSL 安全性憑證__
+
+    ---
+
+    保護網站與顧客間的資料傳輸安全。使用 CYBERBIZ 網域已包含 SSL；若使用自有網域，SSL 通常隨方案提供或需另行續購。
+
+-   :lucide-copyright:{ .lg .middle } __網頁防複製保護__
+
+    ---
+
+    部分佈景／前台設定可限制顧客複製文字或下載圖片，保護原創內容。實際是否提供，依你的佈景設定為準。
+
+    [:lucide-arrow-right: 設定教學](../website-appearance/site-settings/設定網頁鎖右鍵保護圖文版權.md)
+
+</div>
 
 ---
 
