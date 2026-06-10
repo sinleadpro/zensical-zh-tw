@@ -25,7 +25,7 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 專業 PLUS
+  - 專業PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -68,7 +68,7 @@ hide: []
 如何申請 LINE 直播功能，並完成後台參數設定與商品串接。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案){ title="圖示慣例" } | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案){ title="圖示慣例" } | 專業PLUS / 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
 ![](../../../assets/images/ec-第三方整合-line購物設定-lineoa導購-hero.png){ .hero-page }

@@ -25,7 +25,7 @@ difficulty: intermediate
 tnb: branch
 plans:
   - 高手
-  - 專業 PLUS
+  - 專業PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業

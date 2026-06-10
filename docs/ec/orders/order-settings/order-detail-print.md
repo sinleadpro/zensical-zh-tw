@@ -27,7 +27,7 @@ plans:
   - 專業
   - 進階
   - 高手
-  - 專業 PLUS
+  - 專業PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -106,7 +106,7 @@ hide: []
     | 訂單明細列印基本功能（勾選欄位、開頭提醒、儲存） | 全方案皆有（POS 限定方案除外） |
     | 進階設定：Liquid 模板與 CSS 自訂 | 全方案皆有 |
     | 訂單明細多語言列印 | 需加購 **多國語系與多幣別加值功能** |
-    | 訂單明細列印個資隱碼 | **專業 PLUS** / **高手 PLUS** / **進階 PLUS** / **企業版**  |
+    | 訂單明細列印個資隱碼 | **專業PLUS** / **高手 PLUS** / **進階 PLUS** / **企業版**  |
 
 {% endif %}
 
@@ -288,7 +288,7 @@ hide: []
 
 ## 個資隱碼 { #orders-print-pii-masking }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案){ title="圖示慣例" } | 專業 PLUS / 高手 PLUS / 進階 PLUS / 企業版
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案){ title="圖示慣例" } | 專業PLUS / 高手 PLUS / 進階 PLUS / 企業版
 { doc-badge }
 
 若您的方案支援此功能，可於列印時遮罩部分會員資訊。

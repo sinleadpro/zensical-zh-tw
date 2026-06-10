@@ -46,7 +46,7 @@ docs/ec/website-appearance/site-settings/設定前台語系與文字自定義.md
 docs/ec/website-appearance/site-settings/設定轉貼連結縮圖 OG Image.md
 docs/ec/website-appearance/site-settings/設定網頁鎖右鍵保護圖文版權.md
 docs/ec/website-appearance/site-settings/設定網站標題與 SEO.md
-docs/ec/website-appearance/theme-and-layout/使用拖拉版型設計網站版面與首頁區塊.md
+docs/ec/website-appearance/theme-and-layout/theme-editor.md
 docs/ec/website-appearance/theme-and-layout/storefront-collection-sorting.md
 docs/ec/website-appearance/theme-and-layout/關閉商品圖片放大預覽功能.md
 docs/ec/website-appearance/theme-and-layout/調整首頁跑馬燈輪播圖的轉場停留時間.md

@@ -31,7 +31,7 @@ features:
   - GMC 與 Google Ads 帳戶關聯
 tnb: ""
 plans:
-  - 專業 PLUS
+  - 專業PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業

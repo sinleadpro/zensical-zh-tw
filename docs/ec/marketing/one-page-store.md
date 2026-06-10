@@ -25,7 +25,7 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 專業 PLUS
+  - 專業PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -230,7 +230,7 @@ hide: []
     1. 切換至 **頁面設定/銷售內容設定** 頁籤。
     2. 點擊 **新增區塊**，選擇區塊樣式。
 
-         > 區塊使用方式可參考 [拖拉版型操作教學](../website-appearance/theme-and-layout/使用拖拉版型設計網站版面與首頁區塊.md)。
+         > 區塊使用方式可參考 [拖拉版型操作教學](../website-appearance/theme-and-layout/theme-editor.md)。
     3. 點擊 **顏色設定**，調整系統之色彩配置。
 
         !!! warning "全站視覺關聯提醒"
@@ -356,7 +356,7 @@ event.stopPropagation(); }
 <div class="grid cards" markdown>
 
 - :lucide-layout-template:{ .lg }   
-  [__拖拉版型基礎操作__](../website-appearance/theme-and-layout/使用拖拉版型設計網站版面與首頁區塊.md)       
+  [__拖拉版型基礎操作__](../website-appearance/theme-and-layout/theme-editor.md)       
   學習如何熟練使用編輯器中的各項設計元件。
 
 - :lucide-users:{ .lg }     

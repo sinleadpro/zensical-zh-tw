@@ -24,7 +24,7 @@ plans:
   - 專業
   - 進階
   - 高手
-  - 專業 PLUS
+  - 專業PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -43,7 +43,7 @@ features:
 prerequisites:
   - 取得 LINE 官方帳號加入好友連結與素材
 related:
-  - ec/website-appearance/theme-and-layout/使用拖拉版型設計網站版面與首頁區塊.md
+  - ec/website-appearance/theme-and-layout/theme-editor.md
   - ec/website-appearance/navigation/設定選單與導覽列.md
 tags:
   - LINE
