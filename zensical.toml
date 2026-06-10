@@ -486,6 +486,7 @@ copyright = """
             { "續購與自動續約" = "ec/website-management/renewal-and-auto-subscription.md" },
             { "顧客註冊流程與欄位" = "ec/website-management/customer-registration-flow-and-fields.md" },
             { "網域管理" = "ec/website-management/domain-management.md" },
+            {"資安防護總覽" = "ec/website-management/security-best-practices.md"},
             {"安全性設定" = "ec/website-management/security-settings.md"},
             {"二階段驗證 (2FA)" = "ec/website-management/設定與管理二階段驗證.md"},
             {"Authy 二階段驗證" = "ec/website-management/使用 Authy 啟用二階段驗證設定.md"},

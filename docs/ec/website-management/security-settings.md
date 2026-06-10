@@ -270,6 +270,12 @@ hide:
 
 ![](../../assets/images/ec-管理中心-安全性設定-reCAPTCHA 驗證.png)
 
+<div class="grid cards" markdown>
+
+- :lucide-shield-check:{ .lg } [__啟用留言區 reCAPTCHA 設定教學__](../website-appearance/customer-interaction/啟用留言區%20reCAPTCHA.md)
+
+</div>
+
 ---
 
 ### 管理員登入｜二階段驗證 { #operate-security-2fa }
