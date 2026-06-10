@@ -22,7 +22,7 @@ sites:
   - TW
 tnb: branch
 plans:
-  - 專業 PLUS
+  - 專業PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -78,7 +78,7 @@ id: 設定 LINE OA 受眾串接
 將篩選出的會員 UID 同步至 LINE OA 建立受眾，用於訊息推播與 LAP 廣告投放。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業PLUS / 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
 ![](../../../../assets/images/ec-會員-所有會員-line受眾.png){ .hero-page }

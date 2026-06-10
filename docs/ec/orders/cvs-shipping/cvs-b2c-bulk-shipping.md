@@ -25,7 +25,7 @@ tnb: branch
 plans:
   - 進階
   - 高手
-  - 專業 PLUS
+  - 專業PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -69,7 +69,7 @@ hide: []
 於訂單列表批次下載託運單、產生託運單號，並將集中包裝的貨件寄至超商物流中心，再由物流中心分發至消費者指定門市。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 / 高手 / 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 / 高手 / 專業PLUS / 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
 ![下載B2C託運單](../../../assets/images/EC-訂單-所有訂單-下載B2C託運單-hero.png){ .hero-page }

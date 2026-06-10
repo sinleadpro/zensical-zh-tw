@@ -34,7 +34,7 @@ plans:
   - 專業
   - 進階
   - 高手
-  - 專業 PLUS
+  - 專業PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -239,7 +239,7 @@ icon: lucide/workflow
 
 > **黑貓專屬：** 下載黑貓託運單壓縮檔的同時，系統會一併送出 **[叫車（司機收件）](../home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }** 需求，您不需另外手動叫車[^tcat-call-driver]。
 
-[^tcat-call-driver]: 此功能需 **專業 PLUS / 進階 PLUS / 高手 PLUS / 企業** 方案，並向 CYBERBIZ 客服申請開通。
+[^tcat-call-driver]: 此功能需 **專業PLUS / 進階 PLUS / 高手 PLUS / 企業** 方案，並向 CYBERBIZ 客服申請開通。
 
 ---
 

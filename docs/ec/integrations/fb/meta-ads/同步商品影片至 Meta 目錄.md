@@ -23,7 +23,7 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 專業 PLUS
+  - 專業PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -69,7 +69,7 @@ hide:
 將 CYBERBIZ 商品影片同步至 Meta 目錄，放置目錄型廣告時商品影片與商品圖將輪播展示，提升廣告吸睛程度。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業PLUS / 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
 ![MBS-資料來源-目錄](../../../../assets/images/ec-第三方整合-mbs-資料來源-目錄.png){ .hero-page }

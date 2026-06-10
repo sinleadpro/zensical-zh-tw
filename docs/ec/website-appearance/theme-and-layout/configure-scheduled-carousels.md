@@ -2,64 +2,78 @@
 title: 建立與管理排程跑馬燈
 description: 在網站版面放上會自動輪播的橫幅廣告，並為每張廣告設定上架與下架時間，讓素材依檔期自動換檔，不必人工手動替換。
 created: 2026-06-10 15:31
-last_modified: 2026-06-10 17:08
+last_modified: 2026-06-10 18:39
 lang: zh-TW
 type: tutorial
 status: ""
-author: Jase
 version: ""
+author: Jase
 reviewers: []
 notes: []
-ga_views:
-feedback:
+ga_views: 0
+feedback: 0
 products:
   - EC
-modules: []
+modules:
+  - 網站外觀
 sites:
   - TW
 audiences:
   - admin
-difficulty: ""
+difficulty: beginner
 tnb: trunk
 plans:
   - 專業
   - 進階
   - 高手
-  - 專業 PLUS 
-  - 進階 PLUS
-  - 高手 PLUS
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
-intents: []
-features: []
+intents:
+  - 建立排程跑馬燈
+  - 設定廣告檔期上下架時間
+  - 嵌入跑馬燈到網站頁面
+features:
+  - 排程跑馬燈
+  - 橫幅廣告版位
+  - 廣告檔期排程
+  - Liquid語法嵌入
 prerequisites: []
-related: []
-tags: []
+related:
+  - "[[使用拖拉版型設計網站版面與首頁區塊]]"
+tags:
+  - 排程跑馬燈
+  - 橫幅廣告
+  - 輪播廣告
+  - 廣告排程
+  - 網站外觀
 acoiv: ""
 apis: []
 devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
-layouts: []
+paths:
+  - 網站外觀 > 排程跑馬燈設定
+layouts:
+  - classic
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5760
   - https://www.cyberbiz.io/support/?p=7863
 permalink: ""
-comments: ""
+comments: false
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/megaphone
-hide:
+hide: []
 ---
-
-{{ subtitle(page.meta.description) }}
-
-{{ badge(page.meta) }}
+在網站版面放上會自動輪播的橫幅廣告，並為每張廣告設定上架與下架時間，讓素材依檔期自動換檔，不必人工手動替換。
+{ .subtitle }
 
 ![排程跑馬燈設定頁面](../../../assets/images/ec-website-apperarance-carousels-hero.png){ .hero-page }
-
 
 ## 排程跑馬燈說明  { #intro-scheduled-carousel }
 
@@ -159,9 +173,13 @@ hide:
 === "拖拉版型：首頁顯示"
     1. 進入「網站外觀」>「套版主題管理」>「網站設定」>「自訂排版設計」。
     2. 點選「新增區塊」，加入 **「排程跑馬燈」** 區塊。
-    3. 在 **「跑馬燈名稱」** 欄位選擇先前建立好的跑馬燈區塊，儲存後即會顯示於首頁。
 
-    ![跑馬燈顯示前台-拖拉版型-首頁](../../../assets/images/ec-website-apperance-carousels-display-front-homepage-drag.zh-tw.png)
+        ![跑馬燈顯示前台-拖拉版型-首頁](../../../assets/images/ec-website-apperance-carousels-display-front-homepage-drag.zh-tw.png)
+
+    3. 在 **「跑馬燈名稱」** 欄位選擇先前建立好的跑馬燈區塊，儲存後即會顯示於首頁。(右方可預覽效果)
+    4. 點選建立好的跑馬燈，可進入編輯頁設定 **「版面螢幕佔比」** 等版面細項。
+
+        ![跑馬燈顯示前台-拖拉版型-首頁-螢幕佔比](../../../assets/images/ec-website-apperance-carousels-display-front-homepage-drag-proportion.zh-tw.png)
 
 === "拖拉版型：彈窗顯示"
     1. 於「網站設定」中新增 **「彈窗廣告」** 。
@@ -172,9 +190,37 @@ hide:
 
 === "一般版型：貼上 Liquid 語法"
     1. 於排程跑馬燈設定頁，點選該跑馬燈的 **「liquid語法」** 並複製。
+
+        ![複製liquid語法](../../../assets/images/ec-website-apperance-carousels-copy-liquid.zh-tw.png)
+
     2. 進入「網站外觀」>「套版主題管理」>「CSS/HTML編輯器」。
+
+        ![樣板編輯器](../../../assets/images/ec-website-apperance-theme-editor-assets.png)
+
     3. 將語法貼到想顯示的頁面檔案中，例如首頁 `index.liquid`、商品頁 `product.liquid`。
 
+        ``` html hl_lines="8" title="product.liquid"
+        {% include 'breadcrumb', url: "home/product_collection/product" %}
+        {% gallery name: 'img', images: product.images %}
+        <div id="product" class="product">
+          <div class="qk-container">
+            {{ content_for_product }}
+          </div>
+        </div>
+        {% carousel title: '測試' %} <!-- (1)! -->
+        ```
+
+        1.  複製的跑馬燈 liquid 程式碼。此功能放置位置並無特殊規定，請商家自行放置適合您網站的位置。
+
+        ??? info "可用的頁面範本一覽"
+            | 檔案 | 適用頁面 |
+            | :-- | :-- |
+            | `index.liquid` | 首頁 |
+            | `product.liquid` | 商品頁 |
+            | `collection.liquid` | 自訂群組頁 |
+            | `category.liquid` | 多層級分類頁 |
+            | `blog.liquid` | 部落格頁面 |
+            | `article.liquid` | 部落格文章頁面 |
 
 ---
 
@@ -198,16 +244,18 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-layout-dashboard:{ .lg }  
-  [__自訂排版設計（拖拉版型）__](custom-layout.md)  
+  [__自訂排版設計（拖拉版型）__](使用拖拉版型設計網站版面與首頁區塊.md)  
   將排程跑馬燈加入首頁版面，調整顯示位置。
 
 - :lucide-megaphone:{ .lg }  
   [__彈窗廣告__](popup-ads.md)  
   以彈窗形式在所有頁面顯示跑馬燈。
 
+<!--
 - :lucide-code:{ .lg }  
   [__套版主題管理__](theme-editor.md)  
   於 CSS/HTML 編輯器貼上 Liquid 語法嵌入跑馬燈。
+-->
 
 </div>
 
@@ -223,7 +271,7 @@ hide:
     - 拖拉版型彈窗：於「彈窗廣告」選擇「排程跑馬燈」。
     - 一般版型：複製「liquid語法」貼到主題檔案中。
 
-    詳細步驟請見 [將跑馬燈顯示在前台](#operate-scheduled-carousel-display){ data-preview }。
+    詳細步驟請見 [將跑馬燈顯示在前台](#operate-scheduled-carousel-display)。
 
 ??? quote "設定排程時，系統提示時段重疊無法儲存？"
     [](){ #faq-scheduled-carousel-overlap }
@@ -244,6 +292,10 @@ hide:
 ??? quote "怎麼調整圖片輪播的速度？"
     [](){ #faq-scheduled-carousel-speed }
     在跑馬燈區塊設定中調整兩個欄位：「素材停留秒數」控制每張圖片停留的時間，「切換動畫時間」控制圖片切換時的動畫長度。
+
+??? quote "跑馬燈出現破版／跑版該如何修正？"
+    [](){ #faq-scheduled-carousel-layout-break }
+    可能是因為版型較舊，所以您的版型沒有跑馬燈的樣式語法，這時只要到「CSS/HTML編輯器」>「theme.liquid」的 `<head>` 區塊內加上 `{{ content_for_header }}` 即可。
 
 ---
 
