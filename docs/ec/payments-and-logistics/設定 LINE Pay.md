@@ -2,7 +2,7 @@
 title: 設定 LINE Pay
 description: 串接 LINE Pay 付款，顧客於結帳時可選用 LINE Pay 進行支付。
 created: 2026-01-27 00:00
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-10 22:13
 lang: zh-TW
 type: tutorial
 status:
@@ -42,7 +42,7 @@ prerequisites:
   - 準備必要申請文件
 related: []
 tags:
-  - LINE_Pay
+  - LINE Pay
   - 金流
   - 付款設定
 acoiv: configure
@@ -205,7 +205,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-banknote-arrow-down:{ .lg }   
-  [__LINE Pay 退款__](https://www.cyberbiz.io/support/?p=1756)     
+  [__LINE Pay 退款__](../orders/manual-refund-for-third-party-payment-orders.md){ title="第三方支付訂單人工退款" }     
   LINEPAY後台退款操作。
 
 - :lucide-book-text:{ .lg }     
@@ -217,7 +217,7 @@ hide: []
   LINE Pay 官方彙整的常見問題。
 
 - :lucide-log-in:{ .lg }   
-  [__LINE 快速登入__]()  
+  [__LINE 快速登入__](../integrations/line/account-integration/設定 LINE 快速登入.md){ title="設定 LINE 快速登入" }  
   啟用 LINE 快速登入。
 
 </div>
