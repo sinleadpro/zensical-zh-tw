@@ -361,6 +361,8 @@ copyright = """
                 { "恢復樣板版本" = "ec/website-appearance/code-customization/使用樣板編輯器恢復網頁代碼.md" }
             ]},
             { "參考資料" = [
+                { "可新增區塊類型對照表" = "ec/website-appearance/references/theme-editor-sections.md" },
+                { "可拖拉編輯的頁面對照表" = "ec/website-appearance/references/theme-editor-pages.md" },
                 { "自訂頁面可用區塊對照表" = "ec/website-appearance/references/custom-pages-blocks.md" },
                 { "排程跑馬燈對照表" = "ec/website-appearance/references/scheduled-carousel-statuses.md" }
             ]}
