@@ -406,3 +406,9 @@ tags:
 ### 2FA
 
 **Two-Factor Authentication（雙重驗證）**，一種安全驗證機制，除了密碼外還需提供第二層驗證資訊（通常為手機動態碼），以防止他人輕易登入。
+
+### RWD
+
+**Responsive Web Design（響應式網頁設計）**，讓網站能自動適應不同裝置的螢幕尺寸（桌機、平板、手機），提供一致且易於閱讀的操作體驗。
+
+- **參閱**：[切換編輯頁面與預覽](../ec/website-appearance/theme-and-layout/theme-editor.md#operate-theme-editor-preview){ title="切換編輯頁面與預覽" }
