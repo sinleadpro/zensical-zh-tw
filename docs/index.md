@@ -160,21 +160,21 @@ hide:
   </div>
 
   <div id="announcement" role="tabpanel" class="tab-content" style="display:flex">
-    <a href="#"><span class="badge">重要</span>2026 年 6 月系統排程維護公告</a>
-    <a href="#"><span class="badge">通知</span>CYBERBIZ 金流服務升級通知</a>
-    <a href="#"><span class="badge">新功能</span>全通路庫存同步功能正式上線</a>
+    <!-- <a href="#"><span class="badge">重要</span>2026 年 6 月系統排程維護公告</a> -->
+    <!-- <a href="#"><span class="badge">通知</span>CYBERBIZ 金流服務升級通知</a> -->
+    <!-- <a href="#"><span class="badge">新功能</span>全通路庫存同步功能正式上線</a> -->
   </div>
 
   <div id="latest" role="tabpanel" class="tab-content">
-    <a href="#"><span class="badge">新增</span>門市助理快速上手指南</a>
-    <a href="#"><span class="badge">更新</span>EC 商品上架流程</a>
-    <a href="#"><span class="badge">新增</span>全新金物流設定說明</a>
+    <!-- <a href="#"><span class="badge">新增</span>門市助理快速上手指南</a> -->
+    <!-- <a href="#"><span class="badge">更新</span>EC 商品上架流程</a> -->
+    <!-- <a href="#"><span class="badge">新增</span>全新金物流設定說明</a> -->
   </div>
 
   <div id="popular" role="tabpanel" class="tab-content">
-    <a href="#"><span class="badge">FAQ</span>EC 付款流程 FAQ</a>
-    <a href="#"><span class="badge">FAQ</span>商品管理常見問題整理</a>
-    <a href="#"><span class="badge">指南</span>門市權限設定實務指南</a>
+    <!-- <a href="#"><span class="badge">FAQ</span>EC 付款流程 FAQ</a> -->
+    <!-- <a href="#"><span class="badge">FAQ</span>商品管理常見問題整理</a> -->
+    <!-- <a href="#"><span class="badge">指南</span>門市權限設定實務指南</a> -->
   </div>
 
 </div>
