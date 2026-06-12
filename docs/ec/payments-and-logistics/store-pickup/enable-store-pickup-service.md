@@ -27,7 +27,7 @@ difficulty: intermediate
 tnb: branch
 plans:
   - 高手
-  - 專業 PLUS
+  - 專業PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -130,7 +130,7 @@ hide: []
     - **排除指定日期**：點擊日曆選擇國定假日或店休日期。
 
         !!! info "適用版本"
-            此功能恕不支援專業 PLUS版。
+            此功能恕不支援專業PLUS版。
 
 ### 步驟 4：填寫門市取貨備註
 

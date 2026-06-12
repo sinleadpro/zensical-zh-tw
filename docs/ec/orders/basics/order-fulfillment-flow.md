@@ -2,7 +2,7 @@
 title: 訂單出貨流程
 permalink: https://help.cyberbiz.io/ec/orders/basics/order-fulfillment-flow
 version: ""
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-10 19:30
 description: ""
 product:
   - EC
@@ -34,7 +34,7 @@ plans:
   - 專業
   - 進階
   - 高手
-  - 專業 PLUS
+  - 專業PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -227,6 +227,10 @@ icon: lucide/workflow
 | 揀貨單 | 倉庫揀貨備貨用 |
 | 訂單明細 | 該批訂單的明細列印檔 |
 
+
+??? example "壓縮檔內容範例"
+    ![託運單壓縮檔內容](../../../assets/images/ec-訂單-所有訂單-託運單壓縮檔內容.png)
+
 !!! note "為什麼是壓縮檔"
     批次出貨可能一次涵蓋多筆訂單與多份文件，系統統一打包成 ZIP，避免逐筆、逐份分開下載。下載完成後請先解壓縮，再列印所需的託運單與明細。
 
@@ -239,7 +243,7 @@ icon: lucide/workflow
 
 > **黑貓專屬：** 下載黑貓託運單壓縮檔的同時，系統會一併送出 **[叫車（司機收件）](../home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }** 需求，您不需另外手動叫車[^tcat-call-driver]。
 
-[^tcat-call-driver]: 此功能需 **專業 PLUS / 進階 PLUS / 高手 PLUS / 企業** 方案，並向 CYBERBIZ 客服申請開通。
+[^tcat-call-driver]: 此功能需 **專業PLUS / 進階 PLUS / 高手 PLUS / 企業** 方案，並向 CYBERBIZ 客服申請開通。
 
 ---
 

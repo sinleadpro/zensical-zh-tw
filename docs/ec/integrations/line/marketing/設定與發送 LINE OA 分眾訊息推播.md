@@ -24,7 +24,7 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 專業 PLUS
+  - 專業PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -74,7 +74,7 @@ hide: []
 設定並發送 LINE OA 分眾訊息推播給指定標籤會員。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業  
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業PLUS / 進階 PLUS / 高手 PLUS / 企業  
 [:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | AUTOMATION 
 { .doc-badge }
 

@@ -51,7 +51,7 @@
 *[B2C]: 商家（Business）直接將商品或服務銷售給最終消費者（Consumer）的商業模式。
 *[大宗寄倉 (B2C)]: 賣家（企業方）不透過超商門市櫃台寄件，而是將整批包裹自行雇車或交由貨運，直接載往超商之 **物流中心 (DC)** 進行交寄的物流模式。
 *[EC]: E-commerce，電子商務，透過網際網路進行商品或服務的展示、交易、付款與出貨等商業活動的整體系統與營運模式。
-*[COD]: Cash on Delivery, payment for an order upon receipt rather than online beforehand. Common in logistics delivery services such as home delivery and express delivery.
+*[COD]: 貨到付款 (Cash on Delivery)，顧客在收到商品時以現金支付款項，而非在下單時預先在線上完成付款。常用於宅配、快遞等物流配送服務。
 *[CPA]: Cost Per Action，廣告效益指標之一。計算方式為「廣告總花費 ÷ 轉換次數」，用於衡量每個轉換（如購買、註冊、點擊）所需的平均成本。
 *[C2C]: 消費者（Consumer）之間進行商品或服務交易的商業模式，通常透過第三方平台作為媒介，完成買賣行為。
 *[EDM]: Electronic Direct Mail, 許可式電子行銷郵件。不同於一般的一對一電子郵件，EDM 是商家向大量特定受眾發送的行銷資訊，通常具備精美的排版（HTML）與成效追蹤功能。
@@ -70,3 +70,4 @@
 *[優惠碼]: 一組可輸入的折扣序號，作為不歸戶型（或稱全館型優惠碼）行銷工具，用於提供折扣、免運費或贈品等優惠。
 *[ROAS]: Return on Ad Spend，廣告投資報酬率。用於衡量廣告投放效益的指標，計算公式為「廣告帶來的收入 ÷ 廣告支出」，數值越高代表廣告效益越好。
 *[進階方案以上]: 進階、高手、專業PLUS、進階PLUS、高手PLUS、企業方案。
+*[RWD]: Responsive Web Design，響應式網頁設計，讓網站能自動適應不同裝置的螢幕尺寸（桌機、平板、手機），提供一致且易於閱讀的操作體驗。

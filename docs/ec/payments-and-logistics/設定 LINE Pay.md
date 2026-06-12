@@ -2,7 +2,7 @@
 title: 設定 LINE Pay
 description: 串接 LINE Pay 付款，顧客於結帳時可選用 LINE Pay 進行支付。
 created: 2026-01-27 00:00
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-10 22:13
 lang: zh-TW
 type: tutorial
 status:
@@ -25,7 +25,7 @@ tnb: branch
 plans:
   - 進階
   - 高手
-  - 專業 PLUS
+  - 專業PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -42,7 +42,7 @@ prerequisites:
   - 準備必要申請文件
 related: []
 tags:
-  - LINE_Pay
+  - LINE Pay
   - 金流
   - 付款設定
 acoiv: configure
@@ -70,7 +70,7 @@ hide: []
 串接 LINE Pay 付款，顧客於結帳時可選用 LINE Pay 進行支付。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 / 高手 / 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 / 高手 / 專業PLUS / 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
 ![](../../assets/images/ec-金物流-line-pay.png){ .hero-page }
@@ -180,7 +180,7 @@ hide: []
 
 2. **設定金流門檻**：設定訂單最大/最小金額。
     
-    !!! info  "專業 PLUS與 進階 PLUS 方案不支援 LINE Pay 金流門檻設定。"  
+    !!! info  "專業PLUS與 進階 PLUS 方案不支援 LINE Pay 金流門檻設定。"  
 
 	![](../../assets/images/ec-金物流-line-pay-金流門檻.png)
 
@@ -205,7 +205,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-banknote-arrow-down:{ .lg }   
-  [__LINE Pay 退款__](https://www.cyberbiz.io/support/?p=1756)     
+  [__LINE Pay 退款__](../orders/manual-refund-for-third-party-payment-orders.md){ title="第三方支付訂單人工退款" }     
   LINEPAY後台退款操作。
 
 - :lucide-book-text:{ .lg }     
@@ -217,7 +217,7 @@ hide: []
   LINE Pay 官方彙整的常見問題。
 
 - :lucide-log-in:{ .lg }   
-  [__LINE 快速登入__]()  
+  [__LINE 快速登入__](../integrations/line/account-integration/設定 LINE 快速登入.md){ title="設定 LINE 快速登入" }  
   啟用 LINE 快速登入。
 
 </div>

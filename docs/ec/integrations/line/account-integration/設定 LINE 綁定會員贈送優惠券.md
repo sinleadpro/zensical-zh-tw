@@ -82,7 +82,7 @@ hide:
 設定 LINE 官方帳號綁定會員後自動發送優惠券，以提升會員綁定率與行銷效果。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業 PLUS / 進階 PLUS / 高手 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業PLUS / 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
 ![](../../../../assets/images/ec-第三方整合-line-綁定會員送優惠券.png){ .hero-page }
