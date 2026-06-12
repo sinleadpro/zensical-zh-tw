@@ -104,7 +104,7 @@ hide: []
     - **每一筆紅利的有效期限**：設定點數有效天數（0 代表永不失效）。
     > 此期限設定亦會同步套用於「註冊禮發送的紅利」。
 
-- ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-設定會員紅利點數01.png){ .screenshot }
+   ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-設定會員紅利點數01.png){ .screenshot }
 
 ### 2. 多元發送紅利方式
 
@@ -255,16 +255,16 @@ hide: []
 
 - **會員中心**：顯示可用點數及約略等值金額。
 
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明10.png){ .screenshot }
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明10.png){ .screenshot }
 
 - **商品頁面**：顯示該商品最高可折抵的點數及約略等值金額。
     > 於後台設定商品「紅利點數折抵上限」時，填寫數值為 **點數** 而非金額。
 
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明11.png){ .screenshot }
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明11.png){ .screenshot }
 
 - **結帳頁面**：顯示折抵點數及實際扣除的金額。
 
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明12.png){ .screenshot }
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明12.png){ .screenshot }
 
 
 #### 報表匯出欄位
@@ -284,13 +284,13 @@ hide: []
 
 2. 點擊 **匯出紅利圖表**。
 
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明14.png){ .screenshot }
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明14.png){ .screenshot }
 
 3. 系統將發送 Excel 報表至管理員信箱。
 
     > 匯出區間不得超過 180 天。
 
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明16.png){ .screenshot }
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明16.png){ .screenshot }
 
 
 ## 更多操作

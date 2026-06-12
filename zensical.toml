@@ -7,6 +7,7 @@
 # ============================================================================
 
 [project]
+validation = false
 # The site_name is shown in the page header and the browser window title
 #
 # Read more: https://zensical.org/docs/setup/basics/#site_name
@@ -224,12 +225,16 @@ copyright = """
         ]},
         { "行銷活動" = [
             { "overview" = "ec/marketing/index.md" }, 
-            { "優惠碼" = "ec/marketing/setup-promo-codes.md" },
-            { "多優惠券" = "ec/marketing/multiple-coupons.md" },
+            { "優惠券（碼）" = [
+                { "overview" = "ec/marketing/coupon/index.md" },
+                { "優惠券" = "ec/marketing/coupon/setup-coupons.md" },
+                { "優惠碼" = "ec/marketing/coupon/setup-promo-codes.md" },
+                { "多優惠券（碼）" = "ec/marketing/coupon/multiple-coupons.md" },
+            ] },
             { "紅利點數" = "ec/marketing/setup-bonus-points.md" },
+            { "優惠碼紅利到期通知" = "ec/marketing/coupon-and-bonus-points-expiry-notification.md" },
             { "註冊禮" = "ec/marketing/setup-registration-gift.md" },
             { "生日禮" = "ec/marketing/setup-birthday-gift.md" },
-            { "優惠碼紅利到期通知" = "ec/marketing/coupon-and-bonus-points-expiry-notification.md" },
             { "單品限時折扣群組" = "ec/marketing/設定單品限時折扣群組.md" },
             { "任選折扣" = "ec/marketing/mix-and-match-discounts.md"},
             { "紅配綠多組合優惠" = "ec/marketing/red-and-green-bundle-discounts.md"},
@@ -250,6 +255,7 @@ copyright = """
             { "商品多層級分類滿額折扣" = "ec/marketing/設定商品多層級分類滿額折扣.md" },
             { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" },
             {"預填商品導購連結" = "ec/marketing/建立含指定商品的購物車連結.md"},
+            { "結帳優惠計算順序" = "ec/marketing/checkout-discount-calculation-order.md"},
             {"參考資料" = [
                 {"帳號狀態與購買權限對照表" = "ec/marketing/references/purchase-limit-account-status.md"}
             ]}
@@ -370,6 +376,7 @@ copyright = """
             ]},
             {"CYBERBIZ 擴充服務" = [
                 {"overview" = "ec/app-market/cyberbiz-extensions/index.md"},
+                { "API 與 Webhook 串接指南" = "ec/app-market/api-and-webhook-integration-guide.md"},
                 {"Chat Box" = [
                     { "overview" = "ec/app-market/chatbox/index.md" },
                     { "串接 LINE 官方帳號" = "ec/app-market/chatbox/connect-chat-box-to-line-oa.md" },
@@ -494,12 +501,18 @@ copyright = """
                 {"Sitemap 提交" = "ec/website-management/seo/將 Sitemap 提交至 Google Search Console.md"},
                 {"網站轉址" = "ec/website-management/seo/設定 301 重定向網站轉址.md"}
             ]},
-            { "星益欣電子發票" = "ec/website-management/星益欣電子發票設定指南.md" },
+            { "對帳中心" = [
+                { "欠款自動扣繳" = "ec/website-management/auto-deduction-of-arrears.md" },
+                { "自動確認對帳帳款" = "ec/website-management/auto-confirm-reconciliation-accounts.md" },
+                { "一鍵開立請款發票" = "ec/website-management/one-click-invoice-issuance.md" },
+            ]},
+            { "發票設定" = [
+                { "星益欣電子發票" = "ec/website-management/星益欣電子發票設定指南.md" },
+                { "系統代開消費者發票" = "ec/website-management/manage-system-issued-consumer-invoices.md"},
+            ]},
             {"儲值中心" = "ec/website-management/points-deposits.md"},
             { "特定網域信箱套用會員標籤" = "ec/website-management/apply-member-tags-to-specific-email-domains.md" },
             {"管理員與權限" = "ec/website-management/新增網站管理員並設定權限.md"},
-            { "欠款自動扣繳" = "ec/website-management/auto-deduction-of-arrears.md" },
-            { "自動確認對帳帳款" = "ec/website-management/auto-confirm-reconciliation-accounts.md" },
             { "未收到後台登入驗證信" = "ec/website-management/not-receiving-backend-login-verification-email.md" },
             { "未收到通知信件" = "ec/website-management/troubleshoot-not-receiving-merchant-notifications.md" },
             { "系統到期處理流程" = "ec/website-management/system-expiry-handling-process.md" },
@@ -576,6 +589,7 @@ copyright = """
         ]},
         { "第三方服務" =[
             { "盟立電子發票" = "pos/third-party/monolith-e-invoice.md" },
+            { "星益欣電子發票" = "pos/third-party/setup-pos-star-plus-e-invoice.md" },
             { "LINE PAY 掃碼支付" = "pos/check/line-pay-scan-payment.md" },
         ]},
         {"divider" = "divider"},
