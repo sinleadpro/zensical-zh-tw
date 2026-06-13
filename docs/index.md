@@ -160,6 +160,7 @@ hide:
   </div>
 
   <div id="announcement" role="tabpanel" class="tab-content" style="display:flex">
+    <a href="/ec/products/create-and-manage/%E6%96%B0%E5%A2%9E%E8%88%87%E6%9B%B4%E6%96%B0%E5%95%86%E5%93%81/?tour=1"><span class="badge">新功能</span>全新幫助中心導覽功能上線 <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-right" viewBox="0 0 24 24" width="1em" height="1em" style="vertical-align:middle;margin-left:2px"><circle cx="12" cy="12" r="10"/><path d="m12 16 4-4-4-4M8 12h8"/></svg></a>
     <!-- <a href="#"><span class="badge">重要</span>2026 年 6 月系統排程維護公告</a> -->
     <!-- <a href="#"><span class="badge">通知</span>CYBERBIZ 金流服務升級通知</a> -->
     <!-- <a href="#"><span class="badge">新功能</span>全通路庫存同步功能正式上線</a> -->
@@ -190,6 +191,7 @@ function openTab(evt, tabName) {
   evt.currentTarget.classList.add('active');
   evt.currentTarget.setAttribute('aria-selected', 'true');
 }
+
 </script>
 </div>
 

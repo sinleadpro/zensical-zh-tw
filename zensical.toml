@@ -699,7 +699,8 @@ copyright = """
 # Read more: https://zensical.org/docs/customization/#additional-css
 #
 extra_css = [
-  "stylesheets/extra.css"
+  "stylesheets/extra.css",
+  "https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.css"
 ]
 
 # With the `extra_javascript` option you can add your own JavaScript to your
@@ -710,9 +711,11 @@ extra_css = [
 # Read more: https://zensical.org/docs/customization/#additional-javascript
 #extra_javascript = ["assets/javascript/extra.js"]
 extra_javascript = [
+    "https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.js.iife.js",
     "https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js",
     "javascripts/tablesort.js",
-    "javascripts/search-overlay-border.js"
+    "javascripts/search-overlay-border.js",
+    "javascripts/feature-tour.js"
 ]
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
