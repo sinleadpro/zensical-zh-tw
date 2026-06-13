@@ -77,9 +77,12 @@ function startDocTour() {
       },
       {
         element: '.md-search__button',
+        onHighlighted: function () {
+          closeSearchIfNeeded()
+        },
         popover: {
-          title: '全文搜尋',
-          description: '按下 Cmd+K（Mac）或 Ctrl+K（Windows）快速開啟搜尋覆層，輸入關鍵字即可跨所有產品線進行全文檢索。搜尋結果右側的標籤列表可直接點選篩選，快速鎖定目標文件。',
+          title: '搜尋',
+          description: '按下 Cmd+K（Mac）或 Ctrl+K（Windows）可快速開啟全文搜尋，或直接點擊搜尋欄。',
           side: 'bottom',
         },
       },
@@ -93,7 +96,7 @@ function startDocTour() {
         },
         popover: {
           title: '全文搜尋',
-          description: '搜尋覆層已開啟，輸入關鍵字即可跨所有產品線進行全文檢索。搜尋結果右側的標籤列表可直接點選篩選，快速鎖定目標文件。',
+          description: '搜尋覆層已開啟，輸入關鍵字即可跨所有產品線進行全文檢索。搜尋結果顯示在左側面板，右側面板則列出相關標籤；點擊任一標籤可進一步篩選結果，例如搜尋「商品」後點擊「設定」標籤，只顯示與商品設定有關的文件。',
           side: 'bottom',
         },
       },
