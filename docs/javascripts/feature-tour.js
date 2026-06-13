@@ -10,11 +10,54 @@ document$.subscribe(function () {
   }
 })
 
+function findSearchNElement() {
+  var all = document.querySelectorAll('*')
+  for (var i = 0; i < all.length; i++) {
+    var el = all[i]
+    if (el.shadowRoot) {
+      var n = el.shadowRoot.querySelector('.n')
+      if (n) return n
+    }
+  }
+  return null
+}
+
+function isSearchOpen() {
+  var all = document.querySelectorAll('*')
+  for (var i = 0; i < all.length; i++) {
+    if (all[i].shadowRoot) {
+      var p = all[i].shadowRoot.querySelector('.p')
+      if (p && window.getComputedStyle(p).opacity !== '0') return true
+    }
+  }
+  return false
+}
+
+function closeSearchIfNeeded() {
+  if (isSearchOpen()) {
+    var btn = document.querySelector('.md-search__button')
+    if (btn) btn.click()
+  }
+}
+
+function findFaqTocItem() {
+  var tocLinks = document.querySelectorAll(
+    '.md-sidebar--secondary .md-nav__link'
+  )
+  for (var i = 0; i < tocLinks.length; i++) {
+    if (tocLinks[i].textContent.trim().includes('常見問題')) {
+      return tocLinks[i]
+    }
+  }
+  return null
+}
+
 function startDocTour() {
   var d = window.driver && window.driver.js && window.driver.js.driver
   if (!d) return
 
   var faqTocItem = findFaqTocItem()
+  var searchN = findSearchNElement()
 
   driverObj = d({
     showProgress: true,
@@ -29,18 +72,36 @@ function startDocTour() {
           title: '歡迎來到 CYBERBIZ 幫助中心',
           description: '這是全新改版的幫助中心，每篇教學文件都包含完整的操作步驟、圖文範例與注意事項。接下來帶您認識文件頁面的各個區塊。',
           side: 'bottom',
+          align: 'center',
         },
       },
       {
         element: '.md-search__button',
         popover: {
           title: '全文搜尋',
-          description: '按下 Cmd+K（Mac）或 Ctrl+K（Windows）快速開啟搜尋覆層（search overlay），輸入關鍵字即可跨所有產品線進行全文檢索。搜尋結果右側的標籤列表可直接點選篩選，快速鎖定目標文件。',
+          description: '按下 Cmd+K（Mac）或 Ctrl+K（Windows）快速開啟搜尋覆層，輸入關鍵字即可跨所有產品線進行全文檢索。搜尋結果右側的標籤列表可直接點選篩選，快速鎖定目標文件。',
+          side: 'bottom',
+        },
+      },
+      {
+        element: searchN || '.md-search__button',
+        onHighlighted: function () {
+          if (!isSearchOpen()) {
+            var btn = document.querySelector('.md-search__button')
+            if (btn) btn.click()
+          }
+        },
+        popover: {
+          title: '全文搜尋',
+          description: '搜尋覆層已開啟，輸入關鍵字即可跨所有產品線進行全文檢索。搜尋結果右側的標籤列表可直接點選篩選，快速鎖定目標文件。',
           side: 'bottom',
         },
       },
       {
         element: '.md-tabs',
+        onHighlighted: function () {
+          closeSearchIfNeeded()
+        },
         popover: {
           title: '產品分類分頁',
           description: '頂端分頁讓您在不同產品線之間快速切換：品牌官網（EC）、智慧倉儲（WMS）、智能 POS。點擊分頁即可瀏覽該產品的所有教學文件。',
@@ -73,22 +134,11 @@ function startDocTour() {
       },
     ],
     onDestroyed: function () {
+      closeSearchIfNeeded()
       driverObj = null
       tourResumed = false
     },
   })
 
   driverObj.drive()
-}
-
-function findFaqTocItem() {
-  var tocLinks = document.querySelectorAll(
-    '.md-sidebar--secondary .md-nav__link'
-  )
-  for (var i = 0; i < tocLinks.length; i++) {
-    if (tocLinks[i].textContent.trim().includes('常見問題')) {
-      return tocLinks[i]
-    }
-  }
-  return null
 }
