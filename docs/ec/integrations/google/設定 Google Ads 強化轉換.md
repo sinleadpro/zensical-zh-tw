@@ -60,11 +60,7 @@ hide: []
 comments: false
 ---
 
-設定 Google Ads 強化轉換功能，讓系統收到更詳細的行為資料以優化廣告成效。
-{ .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案){ title="圖示慣例" } | 企業
-{ .doc-badge }
 
 ![Google Ads 強化轉換](../../../assets/images/ec-第三方整合-google-googleads強化轉換.png){ .hero-page }
 

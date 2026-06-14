@@ -78,11 +78,6 @@ search:
 icon: lucide/shield
 hide: []
 ---
-
-{{ subtitle(page.meta.description) }}
-
-{{ badge(page.meta) }}
-
 ## 資安防護說明 { #intro-security-guide }
 
 資訊安全需要商家一起配合執行各項設定，才能有效降低風險。本頁屬「總覽與最佳實務」，協助你一次掌握該做哪些防護。各功能的詳細操作步驟，請點對應連結前往教學。多數功能集中在後台「管理中心」>「安全性設定」，部分則位於「網站權限」、付款或網域相關設定。

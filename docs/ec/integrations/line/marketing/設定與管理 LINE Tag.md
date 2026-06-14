@@ -72,11 +72,6 @@ id: 設定與管理 LINE Tag
 comments: false
 ---
 
-# 設定與管理 LINE Tag
-
-設定 LINE Tag ID，並追蹤 LINE OA 訊息推播或 LINE LAP 廣告帶來的轉換成效。
-{ .subtitle }
-
 ![](../../../../assets/images/ec-第三方整合-linetag.png){ .hero-page }
 
 ## 什麼是 LINE Tag

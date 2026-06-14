@@ -67,11 +67,6 @@ icon: lucide/search-code
 hide: []
 ---
 
-# 註冊並驗證 Google Search Console
-
-在 Google Search Console 註冊並驗證網站擁有權，以監測網站搜尋表現。
-{ .subtitle }
-
 ![](../../../assets/images/ec-第三方整合-google-gsc.png){ .hero-page }
 
 ## 為什麼要使用 GSC  

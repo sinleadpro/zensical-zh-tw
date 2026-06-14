@@ -64,8 +64,6 @@ icon: lucide/form-input
 hide: 
 ---
 
-將 Google 表單嵌入 CYBERBIZ 自訂頁面，並針對手機版進行響應式寬度與高度優化。
-{ .subtitle }
 
 ![](../../../assets/images/ec-網站外觀-自訂頁面-嵌入google表單.png){ .hero-page }
 

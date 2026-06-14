@@ -73,8 +73,6 @@ icon: lucide/store
 hide: []
 ---
 
-設定 Facebook 與 Instagram 商店，建立社群銷售管道並同步商品。
-{ .subtitle }
 
 ## Facebook 與 Instagram 商店設定說明
 

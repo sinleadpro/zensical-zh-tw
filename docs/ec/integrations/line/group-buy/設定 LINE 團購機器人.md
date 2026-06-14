@@ -67,14 +67,6 @@ icon: lucide/bot
 hide: []
 ---
 
-# 設定 LINE 團購機器人
-
-建立並設定 LINE 團購機器人，完成 Messaging API、Webhook 與 LIFF 串接，讓使用者可在 LINE 群組內進行團購購物。
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 企業
-{ .doc-badge }
-
 ![](../../../../assets/images/ec-第三方整合-line團購機器人設定.png){ .hero-page }
 
 ## 什麼是 LINE 團購機器人

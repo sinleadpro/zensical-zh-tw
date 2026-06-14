@@ -72,8 +72,6 @@ search:
 icon: lucide/file-text
 hide: []
 ---
-自訂訂單明細的顯示內容、套用列印模板、啟用訂單明細列印個資遮罩，以及從訂單列表列印或下載 PDF。 
-{ .subtitle }
 
 ![列印訂單明細設定](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-hero.png){ .hero-page }
 

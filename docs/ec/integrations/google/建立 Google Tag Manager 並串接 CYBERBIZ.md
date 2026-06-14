@@ -67,11 +67,6 @@ icon: lucide/code
 hide: []
 ---
 
-# 建立 Google Tag Manager 並串接 CYBERBIZ
-
-建立 Google Tag Manager 帳戶與容器，並將 GTM 程式碼正確安裝至 CYBERBIZ 官網。
-{ .subtitle }
-
 ![](../../../assets/images/ec-第三方整合-google設定-gtm.png){ .hero-page }
 
 ## 什麼是 Google Tag Manager

@@ -74,8 +74,6 @@ icon: simple/youtube
 hide: []
 ---
 
-透過 YouTube Shopping 在影片、直播、短影音中植入商品資訊與連結，提升商品曝光與流量變現。
-{ .subtitle }
 
 ## 什麼是 YouTube Shopping
 

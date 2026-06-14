@@ -68,11 +68,6 @@ icon: lucide/file-spreadsheet
 hide: []
 ---
 
-# 匯出訂單報表
-
-匯出訂單報表並以 Excel 格式寄送至管理員信箱，方便查詢與分析訂單資料。
-{ .subtitle }
-
 ![](../../../assets/images/ec-訂單-訂單報表匯出.png){ .hero-page }
 
 ## 訂單報表匯出說明

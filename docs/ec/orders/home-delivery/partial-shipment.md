@@ -67,8 +67,6 @@ search:
 icon: lucide/package-check
 hide: []
 ---
-設定訂單部分出貨，包含操作步驟與不同物流的特殊情境說明。
-{ .subtitle }
 
 ![訂單詳情頁-部分出貨](../../../assets/images/EC-訂單-訂單詳情頁-部分出貨-hero.png){ .hero-page }
 

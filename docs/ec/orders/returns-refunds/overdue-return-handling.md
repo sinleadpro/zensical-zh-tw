@@ -78,8 +78,6 @@ search:
 icon: lucide/clock-alert
 hide: []
 ---
-訂單超過退貨期限時，商家可從後台手動發起退貨流程。
-{ .subtitle }
 
 ![訂單列表-退貨中](../../../assets/images/EC-訂單-所有訂單-更多操作-退貨中-hero.png){ .hero-page }
 

@@ -59,14 +59,6 @@ icon: lucide/shopping-bag
 hide: []
 ---
 
-# 申請與設定 LINE 購物導購
-
-申請 LINE 購物導購並完成後台串接設定，將 LINE 購物流量導入官網下單。
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案){ title="圖示慣例" } | 專業PLUS / 進階 PLUS / 高手 PLUS / 企業
-{ .doc-badge }
-
 ![](../../../assets/images/ec-第三方整合-line購物設定.png){ .hero-page }
 
 ## LINE 購物說明

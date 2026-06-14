@@ -69,8 +69,6 @@ icon: lucide/share-2
 hide:
 ---
 
-透過 Facebook 商業擴充套件將像素、粉絲專頁、目錄及廣告帳號等資產連結至 CYBERBIZ 後台。
-{ .subtitle }
 
 ![第三方整合 FBE 設定](../../../../assets/images/ec-第三方整合-fbe.png){ .hero-page }
 

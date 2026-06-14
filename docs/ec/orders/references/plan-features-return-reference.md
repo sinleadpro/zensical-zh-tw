@@ -68,8 +68,6 @@ icon: lucide/table
 hide: []
 ---
 
-# 方案功能對照表(退貨相關) { #reference-overdue-returns-plans }
-
 退貨相關功能在各方案中的開通狀況。
 
 | 功能 | 一般版 | PLUS版 以上 |

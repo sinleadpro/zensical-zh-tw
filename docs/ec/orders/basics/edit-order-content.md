@@ -75,8 +75,6 @@ search:
 icon: lucide/square-pen
 hide:
 ---
-使用編輯訂單功能，包含增減商品、新增自訂品項/折扣、商家備註等操作步驟。
-{ .subtitle }
 
 ![編輯訂單內容頁面](../../../assets/images/EC-訂單-編輯訂單頁面-hero.png){ .hero-page }
 

@@ -76,8 +76,6 @@ search:
 icon: lucide/truck
 hide: []
 ---
-使用順豐託運單批次或單筆下載出貨，系統自動與順豐即時取號，將訂單貨態更新為已出貨，支援國內台灣本島及海外配送。
-{ .subtitle }
 
 ![下載順豐託運單](../../../assets/images/EC-訂單-所有訂單-下載順豐託運單-hero.png){ .hero-page }
 

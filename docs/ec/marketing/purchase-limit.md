@@ -68,11 +68,6 @@ icon: lucide/package-minus
 hide: []
 ---
 
-{{ subtitle(page.meta.description) }}
-
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 進階 / 高手 / 專業PLUS / 進階PLUS / 高手PLUS / 企業
-{ .doc-badge }
-
 ![商品限購數量設定](../../assets/images/ec-行銷活動-商品限購數量-hero.png){ .hero-page }
 
 ## 商品限購數量說明

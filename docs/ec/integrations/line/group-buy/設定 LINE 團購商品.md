@@ -63,14 +63,6 @@ icon: lucide/boxes
 hide: []
 ---
 
-# 設定 LINE 團購商品
-
-設定 LINE 團購商品分類，從官網公開商品建立團購清單並設定團購價。
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 企業
-{ .doc-badge }
-
 ![](../../../../assets/images/ec-第三方整合-line團購商品.png){ .hero-page }
 
 ## LINE 團購商品說明

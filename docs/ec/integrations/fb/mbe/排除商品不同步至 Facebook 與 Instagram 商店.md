@@ -64,8 +64,6 @@ icon: lucide/package-x
 hide: []
 ---
 
-透過商品標籤設定或商務管理工具，排除特定商品不同步至 Facebook 與 Instagram 商店。
-{ .subtitle }
 
 ![排除上傳至第三方商品標籤](../../../../assets/images/ec-商品-商品標籤-排除上傳至第三方.png){ .hero-page }
 

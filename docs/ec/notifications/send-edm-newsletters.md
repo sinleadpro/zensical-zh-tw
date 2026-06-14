@@ -65,11 +65,6 @@ icon: lucide/mail-plus
 hide:
 ---
 
-# 設定與發送 EDM 電子報
-
-建立 EDM 內容、選擇發送對象並發送電子報給會員。
-{ .subtitle }
-
 ![](../../assets/images/ec-訊息推播-發送edm.png){ .hero-page }
 
 ## 什麼是 EDM 電子報 

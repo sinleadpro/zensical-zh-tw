@@ -68,8 +68,6 @@ icon: lucide/log-in
 hide: []
 ---
 
-設定 Google 快速登入功能，讓消費者能使用 Google 帳戶一鍵註冊或登入會員。
-{ .subtitle }
 
 ![](../../../assets/images/ec-第三方整合-google設定-google登入.png){ .hero-page }
 

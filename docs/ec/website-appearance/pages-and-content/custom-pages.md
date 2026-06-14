@@ -67,8 +67,6 @@ search:
 icon: lucide/files
 hide: 
 ---
-建立並管理介紹型與政策型網頁，如品牌故事、關於我們、服務條款、隱私權與退換貨政策等，內容可用拖拉式區塊或文字編輯器自由編排。
-{ .subtitle }
 
 ![自訂頁面管理-hero](../../../assets/images/ec-網站外觀-自訂頁面管理.png){ .hero-page }
 

@@ -71,11 +71,7 @@ search:
 icon: lucide/phone
 hide: []
 ---
-在批次下載黑貓託運單時，同步自動通知黑貓派車取件，省去人工聯絡時間。
-{ .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案){ title="圖示慣例" } | 專業PLUS / 進階 PLUS / 高手 PLUS / 企業
-{ .doc-badge }
 
 ![自動呼叫黑貓司機](../../../assets/images/EC-訂單-所有訂單-下載黑貓託運單-自動呼叫黑貓司機-hero.png){ .hero-page }
 

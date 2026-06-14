@@ -66,8 +66,6 @@ hide: []
 comments: false
 ---
 
-設定 Google Merchant Center 重要事件來源追蹤與自動標記功能，掌握產品購買指標。
-{ .subtitle }
 
 ![GMC 重要事件設定](../../../assets/images/ec-gmc-重要事件設定.png){ .hero-page }
 

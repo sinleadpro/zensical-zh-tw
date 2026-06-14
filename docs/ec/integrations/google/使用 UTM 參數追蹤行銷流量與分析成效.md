@@ -70,8 +70,6 @@ icon: lucide/snail
 hide: []
 ---
 
-使用 UTM 參數標記行銷連結，追蹤流量來源並在 GA4 中分析各渠道成效。
-{ .subtitle }
 
 ![G4A 流量開發](../../../assets/images/ec-第三方整合-google-ga4-流量開發.png){ .hero-page }
 

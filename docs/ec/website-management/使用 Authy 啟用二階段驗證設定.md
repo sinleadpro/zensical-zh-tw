@@ -66,8 +66,6 @@ icon: lucide/shield-ellipsis
 hide: []
 ---
 
-使用 Authy App 設定 CYBERBIZ 帳號的二階段驗證 (2FA)，提升帳號安全性。
-{ .subtitle }
 
 ![](../../assets/images/ec-管理中心-安全性設定-二階段驗證-hero.png){ .hero-page }
 

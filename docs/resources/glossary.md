@@ -15,8 +15,6 @@ tags:
   - 詞彙表
   - 系統名詞
 ---
-{{ subtitle(page.meta.description) }}
-
 [PDF :lucide-download:](#){ .md-button .md-button--primary }
 
 ## 商品

@@ -44,11 +44,6 @@ search:
 icon: lucide/table
 hide:
 ---
-
-{{ subtitle(page.meta.description) }}
-
-{{ badge(page.meta) }}
-
 { .hero-page }
 
 

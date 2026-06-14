@@ -64,8 +64,6 @@ icon: lucide/id-card
 hide: []
 ---
 
-建立與驗證 Google 商家檔案，讓實體店面在 Google 搜尋與地圖上顯示商家資訊，提升品牌曝光與顧客信任感。
-{ .subtitle }
 
 { .hero-page }
 

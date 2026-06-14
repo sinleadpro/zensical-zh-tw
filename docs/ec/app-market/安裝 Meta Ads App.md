@@ -64,11 +64,7 @@ icon: simple/meta
 hide: []
 ---
 
-透過 CYBERBIZ 管理後台安裝 Meta Ads App。
-{ .subtitle }
 
-[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能){ title="圖示慣例" } | APP MARKET
-{ .doc-badge }
 
 ![Meta Ads App (APP MARKET)](../../../../assets/images/ec-第三方整合-appmarket-meta-ads-app.png){ .hero-page }
 

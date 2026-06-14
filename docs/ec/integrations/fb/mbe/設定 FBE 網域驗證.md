@@ -69,8 +69,6 @@ search:
 icon: lucide/shield
 hide: []
 ---
-在企業管理平台中完成網域驗證。
-{ .subtitle }
 
 ![企業管理平台-網域驗證](../../../../assets/images/ec-第三方整合-meta商家資產管理平台-驗證網域.png){ .hero-page }
 

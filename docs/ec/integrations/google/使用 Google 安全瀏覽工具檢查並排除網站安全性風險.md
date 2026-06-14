@@ -70,8 +70,6 @@ search:
 icon: lucide/shield-alert
 hide:
 ---
-使用 Google 安全瀏覽網站狀態檢查工具，主動檢測官網是否存在安全性風險，並透過 GSC 申請審核解除警示。
-{ .subtitle }
 
 ![Google 安全瀏覽網站工具](../../../assets/images/ec-google-安全瀏覽網站狀態工具.png){ .hero-page }
 

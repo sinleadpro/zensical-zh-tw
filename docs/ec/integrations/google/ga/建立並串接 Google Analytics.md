@@ -70,11 +70,6 @@ icon: lucide/link
 hide: []
 ---
 
-# 建立並串接 Google Analytics
-
-串接 Google Analytics 4 (GA4)，包括 Google 端帳號建立、取得評估 ID，以及在 CYBERBIZ 後台填入追蹤 ID 的完整步驟。
-{ .subtitle }
-
 ![](../../../../assets/images/ec-第三方整合-google-ga4設定.png){ .hero-page }
 
 ## 什麼是 Google Analytics

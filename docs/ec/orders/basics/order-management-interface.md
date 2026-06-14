@@ -79,11 +79,6 @@ icon: lucide/panels-top-left
 hide:
 ---
 
-# 訂單管理介面說明
-
-說明「所有訂單」介面的各項管理功能，協助商家執行從訂單篩選、貨態追蹤到明細編輯的核心營運作業。
-{ .subtitle }
-
 ![](../../../assets/images/ec-訂單-所有訂單.png){ .hero-page }
 
 

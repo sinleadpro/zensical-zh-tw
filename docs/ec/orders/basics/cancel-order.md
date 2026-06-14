@@ -66,8 +66,6 @@ icon: lucide/circle-x
 hide: []
 ---
 
-介紹商家手動取消、會員前台取消與系統自動取消（付款超時）三種訂單取消方式，包含取消條件、操作步驟與後續紅利優惠處理
-{ .subtitle }
 
 ![訂單詳情頁-取消訂單](../../../assets/images/EC-訂單詳情頁-取消訂單-hero.png){ .hero-page }
 
@@ -144,7 +142,6 @@ hide: []
 ### 會員於前台取消訂單 { #orders-cancel-customer }
 
 [:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能) | 拖拉版型
-{ .doc-badge }
 
 商家可設定是否開放顧客於官網前台自行取消未出貨訂單，若關閉設定，顧客僅能透過[商家申請取消][商家手動取消訂單]{ data-preview }。
 

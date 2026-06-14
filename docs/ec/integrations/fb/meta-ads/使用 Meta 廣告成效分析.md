@@ -73,8 +73,6 @@ icon: lucide/chart-column
 hide: []
 ---
 
-透過 Meta Ads App 掌握廣告成效數據，分析指標，並使用 AI Insights 獲取數據洞察與優化建議。
-{ .subtitle }
 
 ![MAA-廣告成效分析](../../../../assets/images/ec-maa-廣告成效分析.png){ .hero-page }
 

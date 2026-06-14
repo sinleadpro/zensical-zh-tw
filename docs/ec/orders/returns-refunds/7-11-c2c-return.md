@@ -67,11 +67,7 @@ icon: lucide/undo-2
 hide: []
 ---
 
-開通 7-11 C2C 退貨便、設定收貨人資料、發送退貨寄件代碼給消費者，以及完整的退貨審查與退款流程。
-{ .subtitle }
 
-[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ PAYMENTS
-{ .doc-badge }
 
 ![7-11 C2C 發送退貨便代碼](../../../assets/images/EC-訂單-所有訂單-發送7-11-c2c退貨便代碼-hero.png){ .hero-page }
 

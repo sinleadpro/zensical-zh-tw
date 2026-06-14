@@ -74,8 +74,6 @@ icon: lucide/shopping-basket
 hide: []
 ---
 
-透過 CYBERBIZ Meta Ads App 建立目錄商品組合，篩選特定商品以投放 Meta 目錄型或圖片型廣告。
-{ .subtitle }
 
 ![MAA-目錄商品組合](../../../../assets/images/ec-第三方整合-fb-maa-目錄商品組合.png){ .hero-page }
 

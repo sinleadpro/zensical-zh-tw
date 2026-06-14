@@ -67,8 +67,6 @@ search:
 icon: lucide/user-x
 hide:
 ---
-CYBERBIZ Meta 廣告帳號閒置回收機制的觸發條件、激活方式，以及帳號釋出後的影響與重新申請流程。
-{ .subtitle }
 
 ![Meta廣告閒置](../../../../assets/images/ec-第三方整合-fb-mbe-meta廣告閒置.png){ .hero-page }
 

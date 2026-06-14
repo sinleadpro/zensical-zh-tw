@@ -66,8 +66,6 @@ icon: lucide/share-2
 hide: []
 ---
 
-當 Meta 廣告創建失敗時，透過手動分享資產權限（粉絲專頁、像素、目錄）給 CYBERBIZ 企業管理平台來排除問題。
-{ .subtitle }
 
 ![手動分享權限](../../../../assets/images/ec-第三方整合-fb-mbs-手動分享權限.png){ .hero-page }
 

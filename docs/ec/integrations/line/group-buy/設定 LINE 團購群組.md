@@ -62,14 +62,6 @@ icon: lucide/messages-square
 hide: []
 ---
 
-# 設定 LINE 團購群組
-
-設定 LINE 團購群組的分潤方案、商品分類與活動時間，讓團購主可在指定的 LINE 群組中進行團購活動。
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 企業
-{ .doc-badge }
-
 ![](../../../../assets/images/ec-第三方整合-line團購群組.png){ .hero-page }
 
 ## LINE 團購群組說明

@@ -76,8 +76,6 @@ search:
 icon: lucide/truck
 hide: []
 ---
-透過訂單列表批次選取訂單，下載新竹物流託運單並將貨態更新為已出貨。
-{ .subtitle }
 
 ![下載新竹物流託運單](../../../assets/images/EC-訂單-所有訂單-下載新竹物流託運單-hero.png){ .hero-page }
 

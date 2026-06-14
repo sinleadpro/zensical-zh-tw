@@ -84,8 +84,6 @@ search:
 icon: lucide/shield-user
 hide: []
 ---
-要求新註冊顧客同時通過 Email 與簡訊驗證，確保會員資料真實性，降低空帳號與惡意註冊風險。
-{ .subtitle }
 
 ![顧客註冊設定](../../assets/images/EC-管理中心-顧客註冊設定-hero.png){ .hero-page }
 

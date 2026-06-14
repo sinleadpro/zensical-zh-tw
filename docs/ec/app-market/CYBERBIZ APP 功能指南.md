@@ -53,9 +53,7 @@ icon: ""
 hide:
 ---
 
-{ .subtitle }
 
-{ .doc-badge }
 
 { .hero-page }
 

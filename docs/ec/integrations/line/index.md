@@ -53,12 +53,6 @@ icon: simple/line
 hide:
 ---
 
-# LINE 整合應用
-
-{ .subtitle }
-
-{ .doc-badge }
-
 { .hero-page }
 
 

@@ -76,8 +76,6 @@ search:
 icon: lucide/bird
 hide: []
 ---
-使用宅配通出貨。包含批次下載託運單、單筆與部分出貨、補印託運單等操作，以及運費計價規則與常見問題。
-{ .subtitle }
 
 ![下載宅配通託運單](../../../assets/images/EC-訂單-所有訂單-下載宅配通託運單-hero.png){ .hero-page }
 

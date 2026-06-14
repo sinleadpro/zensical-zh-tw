@@ -93,8 +93,6 @@ icon: lucide/banknote-x
 hide: []
 ---
 
-訂單付款失敗時，商家可採取的處理方式，包含引導顧客重新付款、設定自動提醒、自動取消訂單，以及定期定額重新扣款等操作。
-{ .subtitle }
 
 ![訂單付款失敗狀態](../../assets/images/ec-訂單-所有訂單-付款失敗-hero.png){ .hero-page }
 

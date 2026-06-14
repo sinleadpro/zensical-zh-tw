@@ -73,8 +73,6 @@ icon: lucide/search-code
 hide: []
 comments: false
 ---
-透過 GA4 加強型評估功能，追蹤使用者在官網上的站內搜尋行為，分析顧客的資訊需求與查找意圖。
-{ .subtitle }
 
 ![](../../../../assets/images/ec-第三方整合-google-ga4-加強型評估-站內搜尋.png){ .hero-page }
 

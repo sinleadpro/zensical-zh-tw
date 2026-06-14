@@ -67,9 +67,7 @@ icon: lucide/file-search
 hide: []
 ---
 
-{ .subtitle }
 
-{ .doc-badge }
 
 { .hero-page }
 

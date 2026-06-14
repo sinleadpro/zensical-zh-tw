@@ -75,11 +75,6 @@ icon: lucide/store
 hide:
 ---
 
-# 設定超商店到店 C2C 物流串接
-
-啟用超商店到店（C2C）物流服務，讓顧客可於結帳時選擇指定超商門市取貨。
-{ .subtitle }
-
 ![](../../assets/images/ec-金物流-超商物流.png){ .hero-page }
 
 

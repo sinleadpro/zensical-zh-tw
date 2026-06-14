@@ -54,7 +54,7 @@ ui_components: []
 paths:
   - 網站外觀 > 套版主題管理 > 選擇操作 > CSS/HTML編輯器
 layouts:
-  - draggable
+  - 拖拉版型
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10871
   - https://www.cyberbiz.io/support/?p=30333
@@ -64,15 +64,6 @@ search:
 icon: lucide/party-popper
 hide:
 ---
-
-# 設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結
-
-透過編輯 Liquid 樣版檔案，在結帳完成後的關鍵轉換點嵌入 LINE 導流元件，以提升會員回流率。
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 PLUS / 企業  
-[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能) | 拖拉版型
-{ .doc-badge }
 
 ![](../../../../assets/images/ec-網站外觀-order-done-extra-content-liquid.png){ .hero-page }
 

@@ -53,8 +53,6 @@ icon: lucide/layers
 hide:
 ---
 
-各方案可開通哪些 B2C 通路，以及運費的扣款方式。供「設定超商大宗寄倉 B2C」（適用版本）與「使用超商大宗寄倉 B2C 出貨」（運費扣款提示）共用。
-{ .subtitle }
 
 ## 各方案可開通的超商通路 { #reference-cvs-b2c-plans-eligibility }
 

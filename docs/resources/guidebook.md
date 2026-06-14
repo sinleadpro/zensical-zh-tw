@@ -11,8 +11,6 @@ tags:
 icon: lucide/book-open
 permalink: "https://help.cyberbiz.io/guidebook"
 ---
-{{ subtitle(page.meta.description) }}
-
 ## 手冊 { #handbooks }
 
 <div class="grid cards" markdown>

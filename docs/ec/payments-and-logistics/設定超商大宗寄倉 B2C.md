@@ -75,15 +75,6 @@ icon: lucide/warehouse
 hide:
 ---
 
-# 設定超商大宗寄倉 B2C
-
-申請、設定超商大宗寄倉 B2C 服務。
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 / 高手 / 專業PLUS / 進階 PLUS / 高手 PLUS / 企業  
-[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能){ title="圖示慣例" } | CYBERBIZ PAYMENTS
-{ .doc-badge }
-
 ![](../../assets/images/ec-金物流-超商物流-B2C.png){ .hero-page }
 
 ## 超商大宗寄倉 B2C 說明
@@ -285,7 +276,6 @@ hide:
 ---
 
 **超商大宗寄倉 B2C** 適用於每日出貨量較大的商家，商家將貨件集中包裝後自行寄至超商物流中心（如大智通、日翊、萊爾富物流中心），再由物流中心分發至消費者指定門市。
-{ .subtitle }
 
 ## 超商大宗寄倉 B2C 設定說明 { #intro-cvs-b2c-setup }
 

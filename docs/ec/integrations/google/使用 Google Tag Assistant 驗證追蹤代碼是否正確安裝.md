@@ -64,11 +64,6 @@ icon: lucide/bug
 hide: []
 ---
 
-# 使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝
-
-使用 Google Tag Assistant 驗證 GA4、GTM、Google Ads 等追蹤代碼是否正確安裝與觸發。
-{ .subtitle }
-
 ![](../../../assets/images/ec-第三方整合-google設定-googletagassistantconsole.png){ .hero-page }
 
 ## 什麼是 Google Tag Assistant 

@@ -53,8 +53,6 @@ icon: lucide/ruler
 hide:
 ---
 
-各通路的重量 / 材積上限與申請時必填欄位差異。供「設定超商大宗寄倉 B2C」與「使用超商大宗寄倉 B2C 出貨」兩篇主文共同引用。
-{ .subtitle }
 
 ## 重量與材積限制 { #reference-cvs-b2c-channels-specs }
 

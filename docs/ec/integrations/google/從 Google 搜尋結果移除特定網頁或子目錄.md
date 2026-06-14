@@ -66,8 +66,6 @@ icon: lucide/search-x
 hide: []
 ---
 
-透過 Google Search Console 移除網址工具，排除特定網頁或子目錄出現在 Google 搜尋結果中。
-{ .subtitle }
 
 ![GSC 移除網址](../../../assets/images/ec-第三方整合-google-gsc移除網址.png){ .hero-page }
 

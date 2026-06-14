@@ -76,8 +76,6 @@ icon: lucide/image-plus
 hide:
 ---
 
-於商品、分類、文章或全站設定中指定 Open Graph（OG）分享圖片，控制社群平台轉貼連結時顯示的縮圖與預覽資訊。
-{ .subtitle }
 
 ![](../../../assets/images/ec-網站外觀-og-image.png){ .hero-page }
 

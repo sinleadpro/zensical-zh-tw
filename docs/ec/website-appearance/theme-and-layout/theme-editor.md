@@ -83,7 +83,7 @@ ui_components: []
 paths:
   - 網站外觀 > 套版主題管理
 layouts:
-  - draggable
+  - 拖拉版型
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9153
   - https://www.cyberbiz.io/support/?p=39903
@@ -94,11 +94,7 @@ hide:
 comments: false
 ---
 
-拖拉版型編輯器讓您不用寫程式，用滑鼠拖曳就能調整首頁、商品頁等版面，即時預覽後一鍵發布到前台官網。
-{ .subtitle }
 
-[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能) | 拖拉版型
-{ .doc-badge }
 
 ![拖拉版型編輯器](../../../assets/images/ec-網站外觀-拖拉版型.png){ .hero-page }
 

@@ -32,6 +32,8 @@ plans:
   - 高手 PLUS
   - 企業
 cyb_extensions: []
+feature_badges:
+  - 多國語系
 intents:
   - 管理 Email 樣板
   - 自訂 Email 通知
@@ -73,14 +75,6 @@ icon: lucide/mails
 hide:
 ---
 
-
-# 設定與管理 Email 通知樣板
-
-管理與編輯系統自動發送的 Email 通知樣板，包括內容自訂、啟用控制、收件者設定與多國語系配置。
-{ .subtitle }
-
-[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能){ title="圖示慣例" } | 多國語系
-{ .doc-badge }
 
 ![](../../assets/images/ec-訊息推播-email 通知樣板.png){ .hero-page }
 

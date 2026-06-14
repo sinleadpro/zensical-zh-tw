@@ -53,8 +53,6 @@ icon: lucide/warehouse
 hide:
 ---
 
-各超商物流中心的收貨地址、收貨時段、收件單位，以及申請階段寄送測標的注意事項。供「設定超商大宗寄倉 B2C」（測標寄送）與「使用超商大宗寄倉 B2C 出貨」（交寄物流中心）共用。
-{ .subtitle }
 
 ## 收貨地址與時段 { #reference-cvs-b2c-centers-list }
 

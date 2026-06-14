@@ -72,7 +72,6 @@ icon: lucide/log-in
 hide: []
 ---
 
-{ .subtitle }
 
 ![第三方整合-FB](../../../assets/images/ec-第三方整合-fb整合.png){ .hero-page }
 

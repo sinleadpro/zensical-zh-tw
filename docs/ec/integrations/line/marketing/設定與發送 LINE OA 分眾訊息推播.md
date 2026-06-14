@@ -69,15 +69,6 @@ icon: lucide/message-square-share
 hide: []
 ---
 
-# 設定與發送 LINE OA 分眾訊息推播
-
-設定並發送 LINE OA 分眾訊息推播給指定標籤會員。
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業PLUS / 進階 PLUS / 高手 PLUS / 企業  
-[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | AUTOMATION 
-{ .doc-badge }
-
 ![](../../../../assets/images/ec-訊息推播-lineoa-訊息.png){ .hero-page }
 
 ## LINE OA 分眾訊息推播說明

@@ -62,8 +62,6 @@ search:
 icon: lucide/history
 hide: []
 ---
-在 CYBERBIZ 後台查詢與追蹤簡訊發送紀錄，包含日期範圍篩選、關鍵字搜尋與欄位說明。
-{ .subtitle }
 
 ![簡訊發送紀錄頁](../../assets/images/ec-訊息推播-簡訊發送紀錄.png){ .hero-page }
 

@@ -69,8 +69,6 @@ search:
 icon: lucide/message-square-plus
 hide: []
 ---
-如何在 CYBERBIZ 後台設定與發送簡訊，包含發送方式、費用計算與操作步驟。
-{ .subtitle }
 
 ![訊息推播-發送簡訊](../../assets/images/ec-訊息推播-發送簡訊.png){ .hero-page }
 

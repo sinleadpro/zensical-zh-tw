@@ -70,8 +70,6 @@ icon: lucide/footprints
 hide: []
 ---
 
-設定 Google Ads 轉換追蹤與再行銷功能，追蹤廣告成效並優化投放策略。
-{ .subtitle }
 
 ![Google Ads 轉換追蹤](../../../assets/images/ec-第三方整合-google設定-ads轉換追蹤.png){ .hero-page }
 

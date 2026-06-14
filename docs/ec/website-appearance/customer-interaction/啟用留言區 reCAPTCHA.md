@@ -71,14 +71,6 @@ icon: lucide/shield-check
 hide: []
 ---
 
-# 啟用留言區 reCAPTCHA
-
-啟用 Google reCAPTCHA 防止機器人訊息及垃圾留言，保護留言區，提升網站安全性及顧客互動品質。 
-{ .subtitle }
-
-[:lucide-bolt:{ title="適用功能" }](conventions.md#適用功能) | 拖拉版型
-{ .doc-badge }
-
 ![](../../../assets/images/ec-google-recaptcha.zh-tw.png){ .hero-page }
 
 ## 什麼是 reCAPTCHA

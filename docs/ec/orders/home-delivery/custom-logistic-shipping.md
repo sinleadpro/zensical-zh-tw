@@ -71,8 +71,6 @@ search:
 icon: lucide/truck
 hide: []
 ---
-自訂物流的三種出貨方式：批次標記為已出貨、Excel 大量匯入託運單號、單筆訂單手動出貨，以及注意事項與後續操作。
-{ .subtitle }
 
 ![自訂物流出貨](../../../assets/images/EC-訂單-所有訂單-更多操作-已出貨-hero.png){ .hero-page }
 

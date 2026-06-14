@@ -76,14 +76,6 @@ icon: lucide/gem
 hide: []
 ---
 
-# 設定 VIP 會員專屬價格
-
-為不同 VIP 會員群組設定專屬商品價格，管理會員優惠更靈活。
-{ .subtitle } 
-
-[:lucide-tag:{ title="適用方案" }](conventions.md#適用方案) | 高手 / PLUS / 企業
-{ .doc-badge }
-
 ![](../../../assets/images/ec-product-edit-vip-exclusive-price-hero.zh-tw.png){ .hero-page }
 
 ## VIP 會員專屬價格說明

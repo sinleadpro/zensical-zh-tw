@@ -60,7 +60,7 @@ ui_components: []
 paths:
   - 會員 > 所有會員
 layouts:
-  - drag-and-drop
+  - 拖拉版型
 wp_url:
   - https://www.cyberbiz.io/support/?p=721
 comments: false
@@ -69,14 +69,6 @@ search:
 icon: lucide/user-check
 hide:
 ---
-
-# 篩選與應用 LINE OA 綁定會員名單
-
-使用會員篩選器找出 LINE OA 綁定會員，並匯出或用於行銷受眾。
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
-{ .doc-badge }
 
 ![](../../../../assets/images/ec-會員-所有會員-篩選器-已完成line綁定.png){ .hero-page }
 

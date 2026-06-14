@@ -68,8 +68,6 @@ search:
 icon: lucide/search
 hide: []
 ---
-使用關鍵字搜尋、條件篩選、檢視群組與訂單標籤等功能，快速找出目標訂單。
-{ .subtitle }
 
 ![搜尋與篩選訂單](../../../assets/images/EC-訂單-所有定單-搜尋與篩選-hero.png){ .hero-page }
 

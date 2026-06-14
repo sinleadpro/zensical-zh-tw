@@ -71,15 +71,6 @@ icon: lucide/snowflake
 hide:
 ---
 
-# 設定全家冷凍物流 B2C
-
-申請、設定與操作全家冷凍物流 B2C 服務。
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 高手 / 高手 PLUS / 企業  
-[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能){ title="圖示慣例" } | CYBERBIZ PAYMENTS
-{ .doc-badge }
-
 ![](../../assets/images/ec-金物流-超商物流-全家冷凍.png){ .hero-page }
 
 ## 全家冷凍物流 B2C 說明

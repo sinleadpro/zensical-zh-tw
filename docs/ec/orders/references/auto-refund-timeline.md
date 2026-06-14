@@ -66,8 +66,6 @@ icon: lucide/table
 hide: []
 ---
 
-# 自動退刷時效對照表 { #reference-overdue-returns-refund-deadlines }
-
 各金流商允許自動退刷的天數上限，超過則須改走人工退款。
 
 | 付款方式 | 自動退刷期限 | 超過後 |

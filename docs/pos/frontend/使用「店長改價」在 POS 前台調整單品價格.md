@@ -62,13 +62,6 @@ icon: lucide/calculator
 hide:
 ---
 
-# 使用「店長改價」在 POS 前台調整單品價格
-
-在 POS 前台針對單一商品調整價格，並設定改價原因與權限管理。
-{ .subtitle }
-
-{ .doc-badge }
-
 { .hero-page }
 
 ## 店長改價說明

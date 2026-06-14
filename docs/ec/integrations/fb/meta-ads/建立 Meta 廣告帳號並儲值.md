@@ -69,8 +69,6 @@ icon: lucide/circle-plus
 hide: []
 ---
 
-透過 CYBERBIZ 建立 Meta 廣告帳號並完成儲值。
-{ .subtitle }
 
 ![Meta廣告設定-CYB後台](../../../../assets/images/ec-第三方整合-fb-meta廣告設定.png){ .hero-page }
 

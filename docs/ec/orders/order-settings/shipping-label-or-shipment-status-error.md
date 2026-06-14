@@ -65,9 +65,6 @@ search:
 icon: lucide/triangle-alert
 hide: []
 ---
-
-{{ subtitle(page.meta.description) }}
-
 ![下載託運單異常](../../../assets/images/ec-訂單-所有訂單-下載託運單異常-hero.png){ .hero-page }
 
 ## 託運單異常說明 { #intro-shipping-issue }

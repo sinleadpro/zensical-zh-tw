@@ -83,8 +83,6 @@ search:
 icon: lucide/truck
 hide: []
 ---
-批次下載黑貓快速到店託運單、扣除運費並將訂單貨態更新為已出貨。
-{ .subtitle }
 
 ![下載黑貓快速到店常溫託運單](../../../assets/images/EC-訂單-所有訂單-下載黑貓快速到店託運單-hero.png){ .hero-page }
 

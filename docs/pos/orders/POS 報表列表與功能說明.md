@@ -53,13 +53,6 @@ icon: lucide/chart-bar
 hide:
 ---
 
-# POS 報表列表與功能說明
-
-
-{ .subtitle }
-
-{ .doc-badge }
-
 { .hero-page }
 
 ## 報表列表說明

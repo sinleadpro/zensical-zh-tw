@@ -65,8 +65,6 @@ search:
 icon: lucide/check
 hide: []
 ---
-手動結案訂單，包含單筆與批次操作方式，以及結案後對紅利、優惠券、分潤的影響。
-{ .subtitle }
 
 ![結案訂單](../../../assets/images/EC-訂單詳情頁-結案訂單-hero.png){ .hero-page }
 

@@ -2,7 +2,7 @@
 title: 操作超商店到店 C2C 出貨
 description: 包裝商品並透過超商店到店（C2C）寄件至消費者指定門市，包括完整操作流程與注意事項。
 created:
-last_modified: 2026-06-10 22:19
+last_modified: 2026-06-14 08:33
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/cvs-shipping/cvs-c2c-shipping
 type: tutorial
@@ -87,13 +87,7 @@ icon: lucide/store
 hide:
 ---
 
-包裝商品並透過超商店到店（C2C）寄件至消費者指定門市，包括完整操作流程與注意事項。
-{ .subtitle }
-
-[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ PAYMENTS
-{ .doc-badge }
-
-![c2c下載託運單](../../../assets/images/ec-訂單-店到店下載托運單.png){ .hero-page }
+![c2c下載託運單](../../../assets/images/ec-訂單-店到店下載托運單.png){ title="C2C下載託運單" .hero-page }
 
 ## 超商店到店出貨說明 { #intro-cvs-c2c }
 

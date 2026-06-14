@@ -80,14 +80,6 @@ hide:
 ---
 
 
-# 熱感列印超商托運單
-
-使用超商熱感列印功能列印 A6 託運單
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 專業PLUS / 進階 PLUS / 高手 PLUS / 企業
-{ .doc-badge }
-
 ![](../../../assets/images/ec-訂單-下載超商 B2C托運單.png){ .hero-page }
 
 ## 熱感列印超商托運單說明

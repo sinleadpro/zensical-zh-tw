@@ -81,8 +81,6 @@ search:
 icon: lucide/cat
 hide: []
 ---
-批次下載黑貓宅配託運單、扣除運費並將訂單貨態更新為已出貨。
-{ .subtitle }
 
 ![訂單列表-下載黑貓托運單改為已出貨](../../../assets/images/EC-訂單列表-下載黑貓托運單-hero.png){ .hero-page }
 

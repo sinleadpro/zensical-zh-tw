@@ -79,8 +79,6 @@ icon: lucide/rocket
 hide: []
 ---
 
-透過 CYBERBIZ Meta Ads App 管理 Meta 廣告活動，設定廣告預算、目標受眾與素材，掌握廣告投放成效。
-{ .subtitle }
 
 ![Meta廣告-創建活動](../../../../assets/images/ec-第三方整合-fb-meta廣告-創建廣告活動.png){ .hero-page }
 

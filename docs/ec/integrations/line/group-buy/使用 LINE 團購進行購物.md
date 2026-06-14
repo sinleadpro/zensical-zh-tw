@@ -61,14 +61,6 @@ icon: lucide/shopping-cart
 hide: []
 ---
 
-# 使用 LINE 團購進行購物
-
-顧客如何在 LINE 群組中透過團購機器人瀏覽商品、加入購物車並完成訂單結帳流程。
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 企業
-{ .doc-badge }
-
 ## LINE 團購購物說明
 
 LINE 團購功能的顧客即為 **LINE 群組或多人聊天室的成員**。顧客主要透過與 **團購機器人** 互動來進行選購與結帳。

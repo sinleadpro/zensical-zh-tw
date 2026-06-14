@@ -67,8 +67,6 @@ search:
 icon: lucide/rotate-ccw
 hide: []
 ---
-將訂單從「準備出貨」調整回「未出貨」狀態，讓消費者可以重新取得取消訂單的權限。
-{ .subtitle }
 
 ![訂單調整為未出貨](../../../assets/images/EC-訂單-所有訂單-更多操作-未出貨-hero.png){ .hero-page }
 

@@ -44,14 +44,7 @@ search:
 icon: ""
 hide:
 ---
-
-{{ subtitle(page.meta.description) }}
-
-{{ badge(page.meta) }}
-
 { .hero-page }
-
-# 全站共用設定
 
 全站共用設定不屬於單一頁面,而是套用到 **整個官網**。在拖拉版型編輯器左側面板下方,可進入導覽列、彈窗廣告、頁腳、顏色設定與全站設定。
 

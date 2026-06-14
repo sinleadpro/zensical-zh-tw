@@ -70,8 +70,6 @@ search:
 icon: lucide/wallet
 hide:
 ---
-Cyber 幣儲值中心使用指南，包含儲值步驟、發票資訊填寫、付款方式與使用明細查詢。
-{ .subtitle }
 
 ![儲值中心](../../assets/images/ec-管理中心-儲值中心.png){ .hero-page }
 

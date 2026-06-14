@@ -71,8 +71,6 @@ icon: lucide/arrow-up-down
 hide:
 ---
 
-調整前台首頁「商品列表」區塊中，各個商品群組的顯示先後順序。
-{ .subtitle }
 
 ![全站商品列表群組排序頁面](../../../assets/images/ec-website-appearance-collection-sorting-storefront.zh-tw.png){ .hero-page }
 

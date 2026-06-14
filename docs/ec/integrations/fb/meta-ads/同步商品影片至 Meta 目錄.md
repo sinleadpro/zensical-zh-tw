@@ -54,7 +54,7 @@ ui_components: []
 paths:
   - 第三方整合 > 臉書 Facebook 設定
 layouts:
-  - draggable
+  - 拖拉版型
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7886
   - https://www.cyberbiz.io/support/?p=2175
@@ -66,11 +66,7 @@ icon: lucide/play
 hide:
 ---
 
-將 CYBERBIZ 商品影片同步至 Meta 目錄，放置目錄型廣告時商品影片與商品圖將輪播展示，提升廣告吸睛程度。
-{ .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業PLUS / 進階 PLUS / 高手 PLUS / 企業
-{ .doc-badge }
 
 ![MBS-資料來源-目錄](../../../../assets/images/ec-第三方整合-mbs-資料來源-目錄.png){ .hero-page }
 

@@ -63,7 +63,7 @@ paths:
   - 網站外觀 > 套版主題管理 > 網站設定
   - 網站外觀 > 選單/導覽列設定
 layouts:
-  - draggable
+  - 拖拉版型
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7435
   - https://www.cyberbiz.io/support/?p=38439
@@ -73,14 +73,6 @@ search:
 icon: lucide/external-link
 hide: 
 ---
-
-# 在官網新增 LINE 加入好友入口
-
-在拖拉版型網站中新增 LINE 官方帳號加入好友入口，透過彈窗、輪播、頁腳或導覽列引導訪客加入好友。
-{ .subtitle }
-
-[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能) | 拖拉版型
-{ .doc-badge }
 
 ![](../../../../assets/images/ec-第三方整合-line-官方加入好友工具.png){ .hero-page }
 

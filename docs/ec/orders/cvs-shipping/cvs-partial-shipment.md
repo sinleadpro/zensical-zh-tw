@@ -73,8 +73,6 @@ search:
 icon: lucide/package-check
 hide: []
 ---
-處理超商訂單（7-11、全家、萊爾富）的部分出貨流程，包含第一筆超商系統出貨與剩餘商品自訂物流出貨的完整操作步驟。
-{ .subtitle }
 
 ![超商物流部分出貨](../../../assets/images/EC-訂單-所有訂單-訂單詳情頁-超商物流部分出貨-hero.png){ .hero-page }
 

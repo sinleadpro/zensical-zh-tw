@@ -69,8 +69,6 @@ search:
 icon: ""
 ---
 
-調整 YouTube 影片網址參數，在一頁式商店中設定自動播放、循環播放與指定播放起始秒數。
-{ .subtitle }
 
 ![](../../../assets/images/ec-行銷活動-一頁式商店-影片設定.png){ .hero-page }
 

@@ -71,8 +71,6 @@ search:
 icon: lucide/megaphone
 hide:
 ---
-了解 Meta ASC（高效速成購物行銷活動）廣告投放策略與實務技巧，包含前置條件設定、預算配置建議與優化策略。
-{ .subtitle }
 
 ## Meta ASC 說明
 

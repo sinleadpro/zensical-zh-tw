@@ -55,8 +55,8 @@ paths:
   - 管理中心 > 一般設定 > 網站名
   - 網站外觀 > 套版主題管理 > 網站設定 > 全站設定
 layouts:
-  - classic
-  - draggable
+  - 預設版型
+  - 拖拉版型
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3572
   - https://www.cyberbiz.io/support/?p=16627
@@ -68,8 +68,6 @@ icon: lucide/search-code
 hide: 
 ---
 
-設定網站標題、簡述與關鍵字，以優化搜尋引擎 (SEO) 排名並提升社群分享時的品牌辨識度。
-{ .subtitle }
 
 ![](../../../assets/images/ec-網站外觀-網站設定-全站設定-網站標題seo.png){ .hero-page }
 
