@@ -1,4 +1,5 @@
 ---
+
 title: 設定與管理簡訊通知樣板
 description: 設定與管理簡訊通知樣板，包含樣板編輯規則、計費機制、阻擋風險與實際應用情境。
 created:
@@ -28,8 +29,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -75,6 +76,7 @@ search:
 icon: lucide/message-square-text
 hide:
 ---
+
 
 ![](../../assets/images/ec-訊息推播-簡訊樣板設定.png){ .hero-page }
 

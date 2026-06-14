@@ -1,4 +1,5 @@
 ---
+
 title: 設定與發送簡訊通知
 description: 如何在 CYBERBIZ 後台設定與發送簡訊，包含發送方式、費用計算與操作步驟。
 created: 2026-04-27 17:09
@@ -28,8 +29,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS 
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -69,6 +70,7 @@ search:
 icon: lucide/message-square-plus
 hide: []
 ---
+
 
 ![訊息推播-發送簡訊](../../assets/images/ec-訊息推播-發送簡訊.png){ .hero-page }
 

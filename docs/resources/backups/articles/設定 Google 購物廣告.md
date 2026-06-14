@@ -131,7 +131,7 @@ Google Merchant Center (GMC) 是 Google 提供的商品資料上傳與管理平�
 ## 申請 GMC 帳號
 
 !!! warning "注意事項" 
-    若您要投放 Google 自動化廣告，請直接在自動化廣告設定頁創建 [CYBERBIZ 代管 GMC 帳號](設定自動化廣告.md#cyberbiz-代管)並設定廣告，無須另外自行申請 GMC 帳號。如此可避免因人員操作 GMC 帳號造成權限變更造成廣告投遞異常。
+    若您要投放 Google 自動化廣告，請直接在自動化廣告設定頁創建 [CYBERBIZ 代管 GMC 帳號](automated-ads-system.md#cyberbiz-代管)並設定廣告，無須另外自行申請 GMC 帳號。如此可避免因人員操作 GMC 帳號造成權限變更造成廣告投遞異常。
 
 1. 進入 [Google Merchant Center :material-open-in-new:](https://www.google.com/retail/)，點擊 **立即開始**。
 > 需要 Google 帳戶電子郵件地址和密碼才能建立 GMC 帳戶，且每個電子郵件地址僅限建立一個。

@@ -2,7 +2,7 @@
 title: 使用 7-11 C2C 退貨便
 description: 開通 7-11 C2C 退貨便、設定收貨人資料、發送退貨寄件代碼給消費者，以及完整的退貨審查與退款流程。
 created: 2026-05-26 12:25
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-14 12:33
 lang: zh-TW
 type: tutorial
 status: ""
@@ -27,11 +27,11 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions:
-  - CYBERBIZ PAYMENTS
+  - PAYMENTS
 intents:
   - 使用 7-11 C2C 退貨便退貨
 features:
@@ -40,7 +40,7 @@ prerequisites:
   - 需先向 CYBERBIZ 客服申請開通「7-ELEVEN C2C 退貨便」加值功能
 related:
   - "[[partial-shipment]]"
-  - "[[設定網站基本資訊]]"
+  - "[[setup-store-basic-info]]"
 tags:
   - 7-11 C2C 退貨便
   - 退貨流程
@@ -66,8 +66,6 @@ search:
 icon: lucide/undo-2
 hide: []
 ---
-
-
 
 ![7-11 C2C 發送退貨便代碼](../../../assets/images/EC-訂單-所有訂單-發送7-11-c2c退貨便代碼-hero.png){ .hero-page }
 
@@ -160,7 +158,7 @@ hide: []
 ### 四、商家端取貨與門市關轉處理 { #operate-seven-eleven-c2c-return-pickup }
 
 1. **包裹到店通知**：當包裹送達商家設定的收件門市時，系統會發送簡訊至設定的電話號碼。
-2. **前往門市取貨**：商家需在包裹到店後 **7 天內** 攜帶 **與「姓名」欄位一致的身分證件正本** 前往門市領取，逾期未取時，包裹會自動改以 **宅配到付** 方式退回「[公司物流地址](../../website-management/設定網站基本資訊.md){ title="設定網站基本資訊" }」(由商家負擔宅配運費)。
+2. **前往門市取貨**：商家需在包裹到店後 **7 天內** 攜帶 **與「姓名」欄位一致的身分證件正本** 前往門市領取，逾期未取時，包裹會自動改以 **宅配到付** 方式退回「[公司物流地址](../../website-management/setup-store-basic-info.md){ title="設定網站基本資訊" }」(由商家負擔宅配運費)。
 3. **遇到門市關轉時**:
     * **發送代碼前門市已關**：回到「金物流 > 超商物流 > 7-ELEVEN C2C 退貨便」設定頁，重新選擇門市後再次發送代碼。
     * **包裹寄出後門市關閉**：進入該筆訂單的 **訂單詳情頁** ，系統會在物流資訊區塊下方顯示警示與 **「重新選擇門市」** 按鈕，商家需在門市關閉後 **6 天內** 重選新的收件門市[^2]，否則包裹會改以宅配到付方式退回公司物流地址。
@@ -196,7 +194,7 @@ hide: []
   退貨完成後若需要重新出貨剩餘品項，可參考部分出貨流程。
 
 - :lucide-settings:{ .lg }  
-  [__公司物流地址設定__](../../website-management/設定網站基本資訊.md){ title="設定網站基本資訊" }  
+ ](../../website-management/setup-store-basic-info.md)t/設定網站基本資訊.md){ title="設定網站基本資訊" }  
   逾期未取的退貨包裹會改以宅配到付方式退回此地址，建議事先確認資料正確。
 
 - :lucide-check-circle:{ .lg }  

@@ -1,4 +1,5 @@
 ---
+
 title: 操作全家冷凍店到店 C2C 出貨
 description: 操作全家冷凍店到店 C2C 出貨，包括設定流程、訂單出貨、包裝規範、寄件時效及異常處理。
 created:
@@ -28,8 +29,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -72,6 +73,7 @@ search:
 icon: lucide/snowflake
 hide:
 ---
+
 
 ![](../../../assets/images/ec-金物流-超商物流-全家冷凍店到店 C2C.png){ .hero-page }
 

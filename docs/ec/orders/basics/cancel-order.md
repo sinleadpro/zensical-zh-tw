@@ -2,7 +2,7 @@
 title: 如何取消訂單
 description: 介紹商家手動取消、會員前台取消與系統自動取消（付款超時）三種訂單取消方式，包含取消條件、操作步驟與後續紅利優惠處理
 created: 2026-05-04 12:24
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-14 12:03
 lang: zh-TW
 type: tutorial
 status: ""
@@ -21,14 +21,14 @@ sites:
 audiences:
   - admin
 difficulty: beginner
-tnb: ""
+tnb: trunk
 plans:
   - 專業
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -65,6 +65,7 @@ search:
 icon: lucide/circle-x
 hide: []
 ---
+
 
 
 ![訂單詳情頁-取消訂單](../../../assets/images/EC-訂單詳情頁-取消訂單-hero.png){ .hero-page }

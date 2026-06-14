@@ -1,4 +1,5 @@
 ---
+
 title: 操作超商退貨便 C2B
 description: 設定及操作 7-11 超商退貨便 (C2B)
 created:
@@ -25,7 +26,7 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 高手 PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -40,7 +41,7 @@ features:
   - 退貨便代碼
   - 退貨運費設定
 prerequisites:
-  - 使用高手 PLUS / 企業版
+  - 使用高手PLUS / 企業版
   - 已申請開通「超商大宗寄倉 (B2C)」服務
 related: []
 tags:
@@ -67,6 +68,7 @@ search:
 icon: lucide/corner-down-left
 hide:
 ---
+
 
 ![](../../../assets/images/ec-金物流-超商物流-退貨便.png){ .hero-page }
 

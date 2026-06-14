@@ -1,4 +1,5 @@
 ---
+
 title: 編輯訂單內容
 description: 使用編輯訂單功能，包含增減商品、新增自訂品項/折扣、商家備註等操作步驟。
 created: 2026-04-29 12:14
@@ -27,8 +28,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS 
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -75,6 +76,7 @@ search:
 icon: lucide/square-pen
 hide:
 ---
+
 
 ![編輯訂單內容頁面](../../../assets/images/EC-訂單-編輯訂單頁面-hero.png){ .hero-page }
 

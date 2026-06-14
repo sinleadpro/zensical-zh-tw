@@ -2,7 +2,7 @@
 title: 使用宅配通出貨
 description: 使用宅配通出貨。包含批次下載託運單、單筆與部分出貨、補印託運單等操作，以及運費計價規則與常見問題。
 created: 2026-05-19 21:30
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-14 12:13
 lang: zh-TW
 type: tutorial
 status: ""
@@ -27,8 +27,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -45,8 +45,8 @@ features:
   - 逆物流退貨
 prerequisites:
   - 需先開通宅配通託運單功能（聯繫 CYBERBIZ 業務窗口）
-  - "[[設定宅配通託運單]]"
-related:
+  - "[[setup-pelican-waybill]]"
+  - [[setup-pelican-waybill]]
   - "[[設定宅配通託運單]]"
   - "[[partial-shipment]]"
 tags:
@@ -83,7 +83,7 @@ hide: []
 
 開通與宅配通系統串接的物流功能後，您可以從後台直接產出宅配通官方託運單 PDF，並由系統自動把訂單貨態更新為「已出貨(待物流收件)」，免去手寫單與另行登錄追蹤的工作。
 
-本文聚焦於 **日常出貨流程** ，包含批次下載託運單、單筆與部分出貨、補印託運單等操作。寄件人設定、加印託運單(同訂單多箱)、逆物流退貨等進階管理操作，請見 [宅配通託運單管理頁](../../payments-and-logistics/設定宅配通託運單.md){ title="設定宅配通託運單" }。
+本文聚焦於 **日常出貨流程** ，包含批次下載託運單、單筆與部分出貨、補印託運單等操作。寄件人設定、加印託運單(同訂單多箱)、逆物流退貨等進階管理操作，請見 [宅配通託運單管理頁](../../payments-and-logistics/setup-pelican-waybill.md){ title="設定宅配通託運單" }。
 
 !!! info "重要規範" 
     * **嚴禁使用手寫單**：串接物流必須使用系統產出的託運單。手寫單無法回傳貨態，將影響對帳與客服處理。

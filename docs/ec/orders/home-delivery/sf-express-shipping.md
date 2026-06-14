@@ -1,4 +1,5 @@
 ---
+
 title: 使用順豐出貨
 description: 使用順豐託運單批次或單筆下載出貨，系統自動與順豐即時取號，將訂單貨態更新為已出貨，支援國內台灣本島及海外配送。
 created: 2026-05-20 20:25
@@ -27,8 +28,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -76,6 +77,7 @@ search:
 icon: lucide/truck
 hide: []
 ---
+
 
 ![下載順豐託運單](../../../assets/images/EC-訂單-所有訂單-下載順豐託運單-hero.png){ .hero-page }
 

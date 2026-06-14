@@ -1,4 +1,5 @@
 ---
+
 title: 保護後台帳號與顧客資料
 description: 管理後台登入防護與顧客資料保護，從 IP 白名單、自動登出到網站密碼，一頁完成你的網站資安設定。
 created:
@@ -28,8 +29,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -78,6 +79,7 @@ search:
 icon: lucide/shield-check
 hide:
 ---
+
 
 
 ![安全性設定頁面-hero](../../assets/images/ec-管理中心-安全性設定.png){ .hero-page }
@@ -291,7 +293,7 @@ hide:
 
 <div class="grid cards" markdown>
 
-- :lucide-shield-check:{ .lg } [__二階段驗證設定教學__](設定與管理二階段驗證.md)
+- :lucide-shield-check:{ .lg } [__二階段驗證設定教學__](setup-manage-two-factor-auth.md)
 
 </div>
 

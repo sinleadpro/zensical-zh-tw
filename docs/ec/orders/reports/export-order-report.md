@@ -42,8 +42,8 @@ related:
   - "[[設定超商配送限制與物流排除]]"
   - "[[export-subscription-forecast]]"
   - "[[security-settings]]"
-  - "[[新增網站管理員並設定權限]]"
-  - "[[POS 報表列表與功能說明]]"
+  - "[[add-admin-set-permissions]]"
+  - "[[pos-reports-list-guide]]"
 tags:
   - 訂單
   - 匯出
@@ -146,7 +146,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-store:{ .lg }   
-  [__POS 門市報表__](../../../pos/orders/POS 報表列表與功能說明.md){ title="POS 報表列表與功能說明" }     
+  [__POS 門市報表__](../../../pos/orders/pos-reports-list-guide.md){ title="POS 報表列表與功能說明" }     
   若有 POS 系統，可至「POS 商店列表」>「庫存管理」>「報表」下載「訂單匯總報表」或「每日出金報表」。
 
 - :lucide-warehouse:{ .lg }     
@@ -167,7 +167,7 @@ hide: []
 
 1.  **信箱檢查**：若未收到報表郵件，請檢查垃圾信件夾，或避免使用 Hinet 信箱，因其阻擋機制較強。
 2.  **資料隱碼**：若後台有開啟「[會員個資部分隱碼](../../website-management/設定網站安全性.md){ title="設定網站安全性" }」，匯出的報表可能會對姓名、手機、地址等個資進行遮蓋處理，以保護會員資料安全。
-3.  **匯出權限**：網站擁有者可於「網站權限」中[限制特定管理員執行「訂單匯出」的權限](../../website-management/新增網站管理員並設定權限.md){ title="新增網站管理員並設定權限" }，以降低資安風險。
+3.  **匯出權限**：網站擁有者可於「網站權限」中[限制特定管理員執行「訂單匯出」的權限](../../website-management/add-admin-set-permissions.md){ title="新增網站管理員並設定權限" }，以降低資安風險。
 
 ## 常見問題
 

@@ -80,11 +80,11 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-user-plus:{ .lg }   
-  [__LINE 快速登入__](設定 LINE 快速登入.md){ data-preview }       
+  [__LINE 快速登入__](setup-line-quick-login.md){ data-preview }       
   讓顧客能透過 LINE 帳號直接註冊或登入，系統會自動抓取 Email 進行帳號比對。
 
 - :lucide-webhook:{ .lg }     
-  [__LINE Messaging API__](串接 LINE Messaging API.md){ data-preview }    
+  [__LINE Messaging API__](connect-line-messaging-api.md){ data-preview }    
   用於連接商家現有的官方帳號（LINE OA），實現系統與 OA 的整合，是發送自動化通知的前提。
 
 </div>
@@ -98,11 +98,11 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-user-cog:{ .lg }   
-  [__LINE 綁定官網會員__](綁定 LINE 官方帳號與官網會員.md){ data-preview }       
+  [__LINE 綁定官網會員__](bind-line-oa-store-members.md){ data-preview }       
   會員需透過 LINE 快速登入進行綁定，商家可透過圖文選單或歡迎訊息設置專屬連結（`line_action=line_login`）來引導。。
 
 - :lucide-zap:{ .lg }     
-  [__LIFF 自動登入__](設定 LIFF 自動登入與會員綁定.md){ data-preview }    
+  [__LIFF 自動登入__](setup-liff-auto-login-member-binding.md){ data-preview }    
   由 EC 後台生成的 LIFF 網址可讓會員點選後 **自動登入**。若顧客非好友或會員，點選 LIFF 連結可 **同時達成加入好友、註冊與綁定**。
 
 </div>
@@ -116,11 +116,11 @@ hide:
   商家可開啟「訂單」、「物流」、「顧客」等樣板，在指定情境下自動回覆。
 
 - :lucide-message-square-share:{ .lg }     
-  [__分眾訊息推播__](設定與發送 LINE OA 分眾訊息推播.md){ data-preview }  
+  [__分眾訊息推播__](line-oa-segment-messaging.md){ data-preview }  
   商家可透過「顧客標籤」篩選特定族群，發送文字或圖片推播訊息。
 
 - :lucide-zap:{ .lg }     
-  [__AUTOMATION__](../../app-market/automation/使用 AUTOMATION 建立自動化推播流程.md#line-oa-訊息發送設定){ title="使用 AUTOMATION 建立自動化推播流程" }  
+  [__AUTOMATION__](../../app-market/automation/automation-push-flow.md#line-oa-訊息發送設定){ title="使用 AUTOMATION 建立自動化推播流程" }  
   商家可建立自動化工作流程，例如針對「購物車未結帳」會員發送 LINE OA 提醒訊息。
 
 </div>
@@ -131,15 +131,15 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-split:{ .lg }   
-  [__LINE OA 受眾串接__](設定 LINE OA 受眾串接.md){ data-preview }     
+  [__LINE OA 受眾串接__](setup-line-oa-audience.md){ data-preview }     
   商家可將篩選出的「已完成 LINE 綁定」會員名單，同步至 LINE OA 後台建立受眾，用於推播或廣告投放。
 
 - :lucide-code:{ .lg }     
-  [__LINE Tag 設定__](設定與管理 LINE Tag.md){ data-preview }  
+  [__LINE Tag 設定__](setup-manage-line-tag.md){ data-preview }  
   類似於 FB Pixel，可用於追蹤官網上的轉換事件（如完成註冊、加入購物車、下單），並打包「網站流量受眾」再行銷。
 
 - :lucide-ticket-plus:{ .lg }     
-  [__綁定送優惠券__](設定與管理 LINE Tag.md){ data-preview }  
+  [__綁](setup-manage-line-tag.md)Tag.md){ data-preview }  
   開啟「LINE @ 綁定贈送優惠券功能」，以獎勵誘因吸引會員完成帳號綁定。
 
 </div>
@@ -151,7 +151,7 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-radio:{ .lg }   
-  [__LINE 直播__](申請與設定 LINE 直播功能.md){ title="申請與設定 LINE 直播功能" }     
+  [__LINE 直播__](apply-setup-line-live-stream.md){ title="申請與設定 LINE 直播功能" }     
   商家可在 LINE OA 執行購物直播，讓消費者「邊看邊買」，下單後的訂單可於後台「LINE OA 訂單」查看。
 
 - :lucide-book:{ .lg }   
@@ -159,7 +159,7 @@ hide:
   透過 LINE 直播的高觸及率與互動功能，結合導購策略來提升電商轉換率與業績。
   
 - :lucide-shopping-bag:{ .lg }     
-  [__LINE 購物__](申請與設定 LINE 購物導購.md){ title="申請與設定 LINE 購物導購" }  
+  [__LINE 購物__](apply-setup-line-shopping-guide.md){ title="申請與設定 LINE 購物導購" }  
   串接後可透過 LINE 購物入口（APP 或官方帳號）引導顧客至官網下單，並提供點數回饋。
 
 - :lucide-users:{ .lg }     
@@ -176,7 +176,7 @@ hide:
   透過與電商及 POS 系統串接，落實會員註冊自動化、發送專屬優惠券，並優化門市現場的會員掃碼及優惠兌換流程。
 
 - :lucide-barcode:{ .lg }   
-  [__會員條碼__](批次修改商品描述與配送設定.md)     
+  [__會員條碼__](batch-update-product-descriptions-shipping.md)     
   配合 POS 系統，會員可從 LINE OA 圖文選單中調出「會員條碼」，供店員掃描以進行紅利與優惠券折抵。
 
 - :lucide-contact-round:{ .lg }     

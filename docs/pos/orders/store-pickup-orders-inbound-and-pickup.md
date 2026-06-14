@@ -143,9 +143,9 @@ hide: []
 
     - [7-11 C2B 退貨便](../../ec/orders/cvs-c2b-return.md) 
     - [7-11 C2C 退貨便](../../ec/orders/cvs-c2c-return.md) 
-    - [黑貓逆物流](../../ec/payments-and-logistics/設定與加印黑貓託運單.md#建立黑貓逆物流--ezcat-shipping-note-reverse)
-    - [宅配通逆物流](../../ec/payments-and-logistics/設定宅配通託運單.md#建立宅配通逆物流退貨--operate-pelican-shipping-reverse) 
-    - [新竹物流逆物流](../../ec/payments-and-logistics/設定新竹物流託運單.md#建立新竹逆物流--operate-hct-setup-reverse) 
+    - [黑貓逆物流](../../ec/payments-and-logistics/setup-print-tcat-waybill.md#建立黑貓逆物流--ezcat-shipping-note-reverse)
+    - [宅配通逆物流](../../ec/payments-and-logistics/setup-pelican-waybill.md#建立宅配通逆物流退貨--operate-pelican-shipping-reverse) 
+    - [新竹物流逆物流](../../ec/payments-and-logistics/setup-hct-waybill.md#建立新竹逆物流--operate-hct-setup-reverse) 
 
 3. 包裹回倉後，由管理員於後台進行 [退貨審查](../../ec/orders/order-return-process.md#步驟-2執行退貨審查)，並執行後續退款作業。
 

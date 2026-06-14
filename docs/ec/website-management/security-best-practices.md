@@ -1,4 +1,5 @@
 ---
+
 title: 資安防護總覽與最佳實務
 description: 概述各項安全措施、後台設定路徑及資安事件應變指南，全面保障您的網站與顧客個資。
 created: 2026-06-09 17:07
@@ -27,8 +28,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -48,8 +49,8 @@ features:
 prerequisites: []
 related:
   - "[[保護後台帳號與顧客資料]]"
-  - "[[設定信用卡 3D 驗證門檻]]"
-  - "[[設定網頁鎖右鍵保護圖文版權]]"
+  - "[[setup-credit-card-3d-verification]]"
+  - "[[setup-right-click-protection]]"
 tags:
   - 資安防護
   - 二階段驗證
@@ -78,6 +79,7 @@ search:
 icon: lucide/shield
 hide: []
 ---
+
 ## 資安防護說明 { #intro-security-guide }
 
 資訊安全需要商家一起配合執行各項設定，才能有效降低風險。本頁屬「總覽與最佳實務」，協助你一次掌握該做哪些防護。各功能的詳細操作步驟，請點對應連結前往教學。多數功能集中在後台「管理中心」>「安全性設定」，部分則位於「網站權限」、付款或網域相關設定。
@@ -97,7 +99,7 @@ hide: []
 | [會員個資部分隱碼](security-settings.md#operate-security-pdpa) | 遮蔽顧客姓名、手機、地址等個資 | 管理中心/安全性設定 > 會員安全 |
 | [訪問限制地區黑名單](security-settings.md#operate-security-restricted-locations) | 封鎖特定地區顧客造訪前台 | 管理中心/安全性設定 > 會員安全 |
 | [網站密碼](security-settings.md#operate-security-website-password) | 顧客需輸入密碼才能瀏覽網站 | 管理中心/安全性設定 > 會員安全 |
-| [匯出權限控管](新增網站管理員並設定權限.md#管理者權限設定與修改) | 將顧客匯出、訂單匯出權限縮到最小 | 管理中心/網站權限 > 帳戶權限設定 |
+| [匯出權限控管](add-admin-set-permissions.md#管理者權限設定與修改) | 將顧客匯出、訂單匯出權限縮到最小 | 管理中心/網站權限 > 帳戶權限設定 |
 | [信用卡 3D 驗證](../payments-and-logistics/設定信用卡-3D-驗證門檻.md) | 消費者需簡訊驗證，降低盜刷 | 付款設定（加值） |
 | SSL 安全性憑證 | 加密網站與顧客間的資料傳輸 | 隨方案提供或於網域設定 |
 
@@ -179,7 +181,7 @@ hide: []
 
     建議將「顧客匯出」與「訂單匯出」權限縮到最小，僅開放給必要人員。
 
-    [:lucide-arrow-right: 設定步驟](新增網站管理員並設定權限.md#管理者權限設定與修改)
+    [:lucide-arro](add-admin-set-permissions.md#管理者權限設定與修改)d#管理者權限設定與修改)
 
 -   :lucide-eye-off:{ .lg .middle } __會員個資部分隱碼__
 
@@ -225,7 +227,7 @@ hide: []
 
     部分佈景／前台設定可限制顧客複製文字或下載圖片，保護原創內容。實際是否提供，依你的佈景設定為準。
 
-    [:lucide-arrow-right: 設定教學](../website-appearance/site-settings/設定網頁鎖右鍵保護圖文版權.md)
+    [:lucide-arrow-right: 設定教學](../website-appearance/site-settings/setup-right-click-protection.md)
 
 </div>
 

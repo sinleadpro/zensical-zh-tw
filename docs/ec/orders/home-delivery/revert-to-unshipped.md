@@ -1,4 +1,5 @@
 ---
+
 title: 如何將訂單從準備出貨調整回未出貨狀態
 description: 將訂單從「準備出貨」調整回「未出貨」狀態，讓消費者可以重新取得取消訂單的權限。
 created: 2026-05-11 18:51
@@ -27,8 +28,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -67,6 +68,7 @@ search:
 icon: lucide/rotate-ccw
 hide: []
 ---
+
 
 ![訂單調整為未出貨](../../../assets/images/EC-訂單-所有訂單-更多操作-未出貨-hero.png){ .hero-page }
 

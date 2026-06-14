@@ -1,4 +1,5 @@
 ---
+
 title: 訂單管理介面說明
 description: 說明「所有訂單」介面的各項管理功能，協助商家執行從訂單篩選、貨態追蹤到明細編輯的核心營運作業。
 created:
@@ -29,8 +30,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -78,6 +79,7 @@ search:
 icon: lucide/panels-top-left
 hide:
 ---
+
 
 ![](../../../assets/images/ec-訂單-所有訂單.png){ .hero-page }
 

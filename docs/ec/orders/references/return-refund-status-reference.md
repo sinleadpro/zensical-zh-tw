@@ -1,4 +1,5 @@
 ---
+
 title: 退貨與退款狀態對照（超商訂單逾期未取）
 description: 超商訂單逾期未取時的配送狀態、退貨狀態、付款狀態流轉對照表
 created: 2026-05-27 10:45
@@ -27,8 +28,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS 
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -66,6 +67,7 @@ search:
 icon: lucide/table
 hide: []
 ---
+
 
 本對照表彙整超商訂單逾期未取時，**配送狀態**、**退貨狀態**、**付款狀態** 的流轉，以及觸發自動退款的綜合條件。
 

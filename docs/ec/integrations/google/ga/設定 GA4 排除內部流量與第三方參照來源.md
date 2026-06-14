@@ -2,7 +2,7 @@
 title: "設定 GA4 排除內部流量與第三方參照來源"
 description: "在 GA4 中設定排除 company 內部 IP 流量，以及排除第三方金物流的參照連結，避免轉換來源被誤判。"
 created: "2026-03-23 17:38"
-last_modified: "2026-03-23 18:40"
+last_modified: 2026-06-14 11:44
 lang: "zh-TW"
 type: "tutorial"
 status: ""
@@ -45,10 +45,10 @@ features:
   - "內部流量"
   - "不適用的參照連結網址"
 prerequisites:
-  - "[[建立並串接 Google Analytics]]"
+  - "[[setup-google-analytics]]"
 related:
-  - "[[建立並串接 Google Analytics]]"
-  - "[[設定 Google Analytics 進階追蹤與資料分析]]"
+  - "[[setup-google-analytics]]"
+  - "[[google-analytics-advanced-tracking]]"
 tags:
   - "GA4"
   - "內部流量"
@@ -72,11 +72,6 @@ search:
 icon: "lucide/funnel-x"
 hide: []
 ---
-
-# 設定 GA4 排除內部流量與第三方參照來源
-
-在 GA4 中設定排除公司內部 IP 流量，以及排除第三方金物流的參照連結，避免轉換來源被誤判。
-{ .subtitle }
 
 ![](../../../../assets/images/ec-第三方整合-google-ga4-google代碼.png){ .hero-page }
 

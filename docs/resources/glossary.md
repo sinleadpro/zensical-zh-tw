@@ -29,7 +29,7 @@ tags:
 
 商品建立時的必要欄位之一，用於識別並展示商品的主要標題，會同步顯示於商品頁面、訂單明細、行銷活動與報表中。
 
-- **參閱**：[新增與更新商品](../ec/products/create-and-manage/新增與更新商品.md){ title="新增與更新商品" }
+- **參閱**：[新增與更新商品](../ec/products/create-and-manage/create-update-products.md){ title="新增與更新商品" }
 
 ### 商品標語
 
@@ -107,7 +107,7 @@ tags:
 
 商品特性的分類標籤，用於區分商品的不同屬性，例如顏色、尺寸、容量、材質。
 
-- **參閱**：[設定商品色票與款式圖片](../ec/products/create-and-manage/設定商品色票與款式圖片-預設版型.md){ title="設定商品色票與款式圖片-預設版型" }
+- **參閱**：[設定商品色票與款式圖片](../ec/products/create-and-manage/product-swatches-variant-images-default.md){ title="設定商品色票與款式圖片-預設版型" }
 
 ### 規格項目
 
@@ -119,7 +119,7 @@ tags:
 
 由多個規格項目組合而成的具體販售單位。
 
-- **參閱**：[規格](#規格) | [設定商品色票與款式圖片](../ec/products/create-and-manage/設定商品色票與款式圖片-預設版型.md){ title="設定商品色票與款式圖片-預設版型" }
+- **參閱**：[](../ec/products/create-and-manage/product-swatches-variant-images-default.md)ge/設定商品色票與款式圖片-預設版型.md){ title="設定商品色票與款式圖片-預設版型" }
 
 ### 商品通路
 

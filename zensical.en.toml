@@ -69,12 +69,12 @@ copyright = """
             { "商品上架" = [
                     { "新增單一商品" = "zh-tw/ec/products/新增單一商品.md"},
                     { "組合商品" = "zh-tw/ec/products/新增與設定組合商品.md"},
-                    { "商品到貨通知" = "zh-tw/ec/products/設定商品到貨通知.md"},
+                    { "商品到貨通知" = "zh-tw/ec/products/setup-back-in-stock-notifications.md"},
                     { "商品描述與商品設定" = "zh-tw/ec/products/編輯商品描述與商品設定.md" },
                     { "商品簡述與商品標語" = "zh-tw/ec/products/編輯商品簡述與商品標語.md" },
-                    { "設定商品影片" = "zh-tw/ec/products/設定商品影片.md" },
+                    { "設定商品影片" = "zh-tw/ec/products/setup-product-videos.md" },
                     { "Excel 大量匯入商品" = "zh-tw/ec/products/Excel 大量匯入商品.md"},
-                    { "批次修改商品描述與配送設定" = "zh-tw/ec/products/批次修改商品描述與配送設定.md" },
+                    { "批次修改商品描述與配送設定" = "zh-tw/ec/products/batch-update-product-descriptions-shipping.md" },
                     { "商品搜尋可見性" = "zh-tw/ec/products/設定商品搜尋可見性.md" }
             ]},
             { "商品配送" = [
@@ -90,10 +90,10 @@ copyright = """
                     { "商品篩選器" = "zh-tw/ec/products/設定前台商品篩選器.md" }
             ]},
             { "商品銷售" = [
-                    { "管理商品評論" = "zh-tw/ec/products/管理商品評論.md"},
-                    { "啟用留言區 reCAPTCHA" = "zh-tw/ec/products/啟用留言區 reCAPTCHA.md"},
-                    { "設定結帳拆分多購物車" = "zh-tw/ec/products/設定結帳拆分多購物車.md"},
-                    { "設定 VIP 會員專屬價格" = "zh-tw/ec/products/設定 VIP 會員專屬價格.md" }
+                    { "管理商品評論" = "zh-tw/ec/products/manage-product-reviews.md"},
+                    { "啟用留言區 reCAPTCHA" = "zh-tw/ec/products/enable-comment-recaptcha.md"},
+                    { "設定結帳拆分多購物車" = "zh-tw/ec/products/checkout-split-multi-cart.md"},
+                    { "設定 VIP 會員專屬價格" = "zh-tw/ec/products/setup-vip-member-pricing.md" }
             ]},
             { "參考資源" = [
             ]},
@@ -106,7 +106,7 @@ copyright = """
         ]},
         { "行銷活動" = [
             { "overview" = "zh-tw/ec/marketing/index.md" },  
-            { "商品加價購" = "zh-tw/ec/marketing/設定商品加價購.md" },
+            { "商品加價購" = "zh-tw/ec/marketing/setup-product-upsell.md" },
             { "訂單加價購" = "zh-tw/ec/marketing/設定訂單加價購.md" },
             { "單品限時折扣群組" = "zh-tw/ec/marketing/設定單品限時折扣群組.md" },
             { "任選折扣" = "zh-tw/ec/marketing/設定任選折扣群組.md" },
@@ -130,14 +130,14 @@ copyright = """
         ]},
         { "金物流" = [
             { "overview" = "zh-tw/ec/payments-and-logistics/index.md" },
-            { "申請 CYBERBIZ PAYMENTS" = "zh-tw/ec/payments-and-logistics/申請 CYBERBIZ PAYMENTS.md" },
-            { "設定信用卡 3D 驗證" = "zh-tw/ec/payments-and-logistics/設定信用卡 3D 驗證門檻.md" },
-            { "設定 Apple Pay" = "zh-tw/ec/payments-and-logistics/設定 Apple Pay.md" },
-            { "設定 AFTEE" = "zh-tw/ec/payments-and-logistics/設定 AFTEE.md" },
-            { "設定 LINE Pay" = "zh-tw/ec/payments-and-logistics/設定 LINE Pay.md" },
-            { "設定街口支付" = "zh-tw/ec/payments-and-logistics/設定街口支付.md" },
-            { "設定 PayPal" = "zh-tw/ec/payments-and-logistics/設定 PayPal.md" },
-            { "超商店到店 C2C 串接" = "zh-tw/ec/payments-and-logistics/設定超商店到店 C2C 物流串接.md" },
+            { "申請 CYBERBIZ PAYMENTS" = "zh-tw/ec/payments-and-logistics/apply-cyberbiz-payments.md" },
+            { "設定信用卡 3D 驗證" = "zh-tw/ec/payments-and-logistics/setup-credit-card-3d-verification.md" },
+            { "設定 Apple Pay" = "zh-tw/ec/payments-and-logistics/setup-apple-pay.md" },
+            { "設定 AFTEE" = "zh-tw/ec/payments-and-logistics/setup-aftee.md" },
+            { "設定 LINE Pay" = "zh-tw/ec/payments-and-logistics/setup-line-pay.md" },
+            { "設定街口支付" = "zh-tw/ec/payments-and-logistics/setup-jkopay.md" },
+            { "設定 PayPal" = "zh-tw/ec/payments-and-logistics/setup-paypal.md" },
+            { "超商店到店 C2C 串接" = "zh-tw/ec/payments-and-logistics/setup-cvs-c2c-shipping.md" },
             { "星益欣電子發票設定指南" = "zh-tw/ec/payments-and-logistics/星益欣電子發票設定指南.md" }
         ]},
         { "網站外觀" = [
@@ -166,8 +166,8 @@ copyright = """
                     { "" = "ec/integrations/"}
             ]},
             { "第三方整合" = [
-                    { "Google 購物廣告" = "zh-tw/ec/integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品.md" },
-                    { "設定自動化廣告" = "zh-tw/ec/integrations/設定自動化廣告.md" },
+                    { "Google 購物廣告" = "zh-tw/ec/integrations/google/setup-google-merchant-center.md" },
+                    { "設定自動化廣告" = "zh-tw/ec/integrations/automated-ads-system.md" },
                     { "" = "ec/integrations/"}
             ]},
         ]},

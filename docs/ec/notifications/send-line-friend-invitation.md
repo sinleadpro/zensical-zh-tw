@@ -148,7 +148,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-gift:{ .lg }   
-  [__LINE 綁定送優惠券__](../integrations/line/設定 LINE 綁定會員贈送優惠券.md){ data-preview }  
+  [__LINE 綁定送優惠券__](../integrations/line/setup-line-binding-coupon-gift.md){ data-preview }  
   啟用「綁定即送券」功能，利用即時獎勵誘發顧客完成 LINE OA 與官網帳號的雙向綁定。
 
 </div>

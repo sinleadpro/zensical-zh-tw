@@ -9,30 +9,78 @@
   {% set _rest = _parts[1] | default("") %}
 {% endif %}
 
-{% if page.meta.description %}
-<p class="subtitle">{{ page.meta.description }}</p>
+{% if '<p class="subtitle">' in _rest %}
+  {% set _sub_parts = _rest | split('<p class="subtitle">') | list %}
+  {% if _sub_parts | length > 1 %}
+    {% set _after_sub = _sub_parts[1] %}
+    {% set _sub_sections = _after_sub | split('</p>') | list %}
+    {% if _sub_sections | length > 1 %}
+      {% set _sub_content = _sub_sections[0] | trim %}
+      {% set _rest = _sub_parts[0] ~ (_sub_sections[1:] | join('</p>')) %}
+    {% endif %}
+  {% endif %}
+  {% if _sub_content is defined %}
+    <p class="subtitle">{{ _sub_content | safe }}</p>
+  {% elif page.meta.description %}
+    <p class="subtitle">{{ page.meta.description }}</p>
+  {% endif %}
+{% elif page.meta.description %}
+  <p class="subtitle">{{ page.meta.description }}</p>
 {% endif %}
 
-{% if page.meta.tnb == "trunk" or page.meta.tnb == "branch" and page.meta.plans or page.meta.cyb_extensions or page.meta.layouts or page.meta.feature_badges %}
-<p class="doc-badge">
-  {%- if page.meta.tnb == "trunk" %}
-    <a href="/resources/conventions/#適用方案" title="適用方案"><span class="twemoji">{% include ".icons/lucide/tag.svg" %}</span></a> | 全版本
-  {%- elif page.meta.tnb == "branch" and page.meta.plans %}
-    <a href="/resources/conventions/#適用方案" title="適用方案"><span class="twemoji">{% include ".icons/lucide/tag.svg" %}</span></a> | {{ page.meta.plans | join(" / ") }}
-  {%- endif %}
-  {%- if page.meta.cyb_extensions %}
-    {%- if page.meta.tnb %}<br>{% endif %}
-    <a href="/resources/conventions/#適用擴充" title="適用擴充"><span class="twemoji">{% include ".icons/lucide/grid-2x2-plus.svg" %}</span></a> | {{ page.meta.cyb_extensions | join(" / ") }}
-  {%- endif %}
-  {%- if page.meta.feature_badges %}
-    {%- if page.meta.tnb or page.meta.cyb_extensions %}<br>{% endif %}
-    <a href="/resources/conventions/#適用功能" title="適用功能"><span class="twemoji">{% include ".icons/lucide/bolt.svg" %}</span></a> | {{ page.meta.feature_badges | join(" / ") }}
-  {%- endif %}
-  {%- if page.meta.layouts %}
-    {%- if page.meta.tnb or page.meta.cyb_extensions or page.meta.feature_badges %}<br>{% endif %}
-    <a href="/resources/conventions/#適用版型" title="適用版型"><span class="twemoji">{% include ".icons/lucide/layout-dashboard.svg" %}</span></a> | {{ page.meta.layouts | join(" / ") }}
-  {%- endif %}
-</p>
+{% if '<p class="doc-badge">' in _rest %}
+  {% set _badge_parts = _rest | split('<p class="doc-badge">') | list %}
+  {% if _badge_parts | length > 1 %}
+    {% set _after_badge = _badge_parts[1] %}
+    {% set _badge_sections = _after_badge | split('</p>') | list %}
+    {% if _badge_sections | length > 1 %}
+      {% set _badge_content = _badge_sections[0] | trim %}
+      {% set _rest = _badge_parts[0] ~ (_badge_sections[1:] | join('</p>')) %}
+    {% endif %}
+  {% endif %}
+  {% if _badge_content is defined %}
+    <p class="doc-badge">{{ _badge_content | safe }}</p>
+  {% elif page.meta.tnb == "trunk" or page.meta.tnb == "branch" and page.meta.plans or page.meta.cyb_extensions or page.meta.layouts or page.meta.feature_badges %}
+    <p class="doc-badge">
+      {%- if page.meta.tnb == "trunk" %}
+        <a href="/resources/conventions/#適用方案" title="適用方案"><span class="twemoji">{% include ".icons/lucide/tag.svg" %}</span></a> | 全版本
+      {%- elif page.meta.tnb == "branch" and page.meta.plans %}
+        <a href="/resources/conventions/#適用方案" title="適用方案"><span class="twemoji">{% include ".icons/lucide/tag.svg" %}</span></a> | {{ page.meta.plans | join(" / ") }}
+      {%- endif %}
+      {%- if page.meta.cyb_extensions %}
+        {%- if page.meta.tnb %}<br>{% endif %}
+        <a href="/resources/conventions/#適用擴充" title="適用擴充"><span class="twemoji">{% include ".icons/lucide/grid-2x2-plus.svg" %}</span></a> | {{ page.meta.cyb_extensions | join(" / ") }}
+      {%- endif %}
+      {%- if page.meta.feature_badges %}
+        {%- if page.meta.tnb or page.meta.cyb_extensions %}<br>{% endif %}
+        <a href="/resources/conventions/#適用功能" title="適用功能"><span class="twemoji">{% include ".icons/lucide/bolt.svg" %}</span></a> | {{ page.meta.feature_badges | join(" / ") }}
+      {%- endif %}
+      {%- if page.meta.layouts %}
+        {%- if page.meta.tnb or page.meta.cyb_extensions or page.meta.feature_badges %}<br>{% endif %}
+        <a href="/resources/conventions/#適用版型" title="適用版型"><span class="twemoji">{% include ".icons/lucide/layout-dashboard.svg" %}</span></a> | {{ page.meta.layouts | join(" / ") }}
+      {%- endif %}
+    </p>
+  {% endif %}
+{% elif page.meta.tnb == "trunk" or page.meta.tnb == "branch" and page.meta.plans or page.meta.cyb_extensions or page.meta.layouts or page.meta.feature_badges %}
+  <p class="doc-badge">
+    {%- if page.meta.tnb == "trunk" %}
+      <a href="/resources/conventions/#適用方案" title="適用方案"><span class="twemoji">{% include ".icons/lucide/tag.svg" %}</span></a> | 全版本
+    {%- elif page.meta.tnb == "branch" and page.meta.plans %}
+      <a href="/resources/conventions/#適用方案" title="適用方案"><span class="twemoji">{% include ".icons/lucide/tag.svg" %}</span></a> | {{ page.meta.plans | join(" / ") }}
+    {%- endif %}
+    {%- if page.meta.cyb_extensions %}
+      {%- if page.meta.tnb %}<br>{% endif %}
+      <a href="/resources/conventions/#適用擴充" title="適用擴充"><span class="twemoji">{% include ".icons/lucide/grid-2x2-plus.svg" %}</span></a> | {{ page.meta.cyb_extensions | join(" / ") }}
+    {%- endif %}
+    {%- if page.meta.feature_badges %}
+      {%- if page.meta.tnb or page.meta.cyb_extensions %}<br>{% endif %}
+      <a href="/resources/conventions/#適用功能" title="適用功能"><span class="twemoji">{% include ".icons/lucide/bolt.svg" %}</span></a> | {{ page.meta.feature_badges | join(" / ") }}
+    {%- endif %}
+    {%- if page.meta.layouts %}
+      {%- if page.meta.tnb or page.meta.cyb_extensions or page.meta.feature_badges %}<br>{% endif %}
+      <a href="/resources/conventions/#適用版型" title="適用版型"><span class="twemoji">{% include ".icons/lucide/layout-dashboard.svg" %}</span></a> | {{ page.meta.layouts | join(" / ") }}
+    {%- endif %}
+  </p>
 {% endif %}
 
 {{ _rest | safe }}

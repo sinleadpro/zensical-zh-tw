@@ -1,4 +1,5 @@
 ---
+
 title: 使用黑貓快速到店出貨
 description: 批次下載黑貓快速到店託運單、扣除運費並將訂單貨態更新為已出貨。
 created: 2026-05-18 15:26
@@ -28,8 +29,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -83,6 +84,7 @@ search:
 icon: lucide/truck
 hide: []
 ---
+
 
 ![下載黑貓快速到店常溫託運單](../../../assets/images/EC-訂單-所有訂單-下載黑貓快速到店託運單-hero.png){ .hero-page }
 
@@ -270,7 +272,7 @@ hide: []
   若一筆訂單中只想先寄出部分商品，可改從訂單詳情頁勾選指定品項。
 
 - :lucide-copy-plus:{ .lg }  
-  [__加印託運單__](../../payments-and-logistics/設定與加印黑貓託運單.md){ title="設定與加印黑貓託運單" }  
+  [__加印託運單__](../../payments-and-logistics/setup-print-tcat-waybill.md){ title="設定與加印黑貓託運單" }  
   若一筆訂單因商品多需拆分為多箱寄出，每箱需各自一張託運單。
 
 - :lucide-receipt:{ .lg }  

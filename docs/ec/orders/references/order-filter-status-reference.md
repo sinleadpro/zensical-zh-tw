@@ -1,4 +1,5 @@
 ---
+
 title: 訂單篩選條件與狀態對照表
 description: CYBERBIZ 後台訂單篩選條件的完整對照表，包含付款狀態、配送狀態、退貨狀態、訂單狀態及關鍵字匹配邏輯。
 created: 2026-05-08 09:38
@@ -27,8 +28,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -66,6 +67,7 @@ search:
 icon: lucide/file-search
 hide: []
 ---
+
 
 
 

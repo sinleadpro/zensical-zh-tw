@@ -1,4 +1,5 @@
 ---
+
 title: 如何使用自訂物流出貨
 description: 自訂物流的三種出貨方式：批次標記為已出貨、Excel 大量匯入託運單號、單筆訂單手動出貨，以及注意事項與後續操作。
 created: 2026-05-11 21:44
@@ -27,8 +28,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS 
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -71,6 +72,7 @@ search:
 icon: lucide/truck
 hide: []
 ---
+
 
 ![自訂物流出貨](../../../assets/images/EC-訂單-所有訂單-更多操作-已出貨-hero.png){ .hero-page }
 

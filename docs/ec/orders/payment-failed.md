@@ -1,4 +1,5 @@
 ---
+
 title: 處理付款失敗訂單
 description: 訂單付款失敗時，商家可採取的處理方式，包含引導顧客重新付款、設定自動提醒、自動取消訂單，以及定期定額重新扣款等操作。
 created: 2026-06-08 13:52
@@ -27,8 +28,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -54,8 +55,8 @@ related:
   - "[[auto-close-order-settings]]"
   - "[[cancel-order]]"
   - "[[定期定額活動頁]]"
-  - "[[設定 AFTEE]]"
-  - "[[設定信用卡 3D 驗證門檻]]"
+  - "[[setup-aftee]]"
+  - "[[setup-credit-card-3d-verification]]"
   - "[[payment-statuses]]"
 tags:
   - 付款失敗
@@ -92,6 +93,7 @@ search:
 icon: lucide/banknote-x
 hide: []
 ---
+
 
 
 ![訂單付款失敗狀態](../../assets/images/ec-訂單-所有訂單-付款失敗-hero.png){ .hero-page }
@@ -243,7 +245,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-layers:{ .lg }
-  [__AFTEE 先享後付金流說明__](../payments-and-logistics/設定 AFTEE.md){ title="設定 AFTEE" }
+  [__AFTEE 先享後付金流說明__](../payments-and-logistics/setup-aftee.md){ title="設定 AFTEE" }
 
 </div>
 
@@ -256,7 +258,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-shield-check:{ .lg }
-  [__設定信用卡 3D 驗證門檻__](../payments-and-logistics/設定信用卡 3D 驗證門檻.md){ title="設定信用卡 3D 驗證門檻" }
+  [__設定信用卡 3D 驗證門檻__](../payments-and-logistics/setup-credit-card-3d-verification.md){ title="設定信用卡 3D 驗證門檻" }
 
 </div>
 

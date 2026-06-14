@@ -1,4 +1,5 @@
 ---
+
 title: 設定與管理 Email 通知樣板
 description: 管理與編輯系統自動發送的 Email 通知樣板，包括內容自訂、啟用控制、收件者設定與多國語系配置。
 created:
@@ -28,8 +29,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 feature_badges:
@@ -74,6 +75,7 @@ search:
 icon: lucide/mails
 hide:
 ---
+
 
 
 ![](../../assets/images/ec-訊息推播-email 通知樣板.png){ .hero-page }
@@ -134,7 +136,7 @@ hide:
 
 - **系統預設收件者（主信箱）**：系統預設會發送通知至網站管理者的主信箱。
     
-- **修改路徑**：若需 [更換主信箱](../website-management/設定網站基本資訊.md#關於您的網站){ title="設定網站基本資訊" }，請至 **管理中心 > 一般設定** 進行變更。
+- **修改路徑**：若需 [更換主信箱](../website-management/setup-store-basic-info.md#關於您的網站){ title="設定網站基本資訊" }，請至 **管理中心 > 一般設定** 進行變更。
     
 #### 通知收件者類型
 

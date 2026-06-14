@@ -1,4 +1,5 @@
 ---
+
 title: 設定訂單部分出貨
 description: 設定訂單部分出貨，包含操作步驟與不同物流的特殊情境說明。
 created: 2026-05-12 15:11
@@ -27,8 +28,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS 
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -67,6 +68,7 @@ search:
 icon: lucide/package-check
 hide: []
 ---
+
 
 ![訂單詳情頁-部分出貨](../../../assets/images/EC-訂單-訂單詳情頁-部分出貨-hero.png){ .hero-page }
 

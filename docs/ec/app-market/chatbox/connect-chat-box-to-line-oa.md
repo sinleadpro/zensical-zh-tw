@@ -126,7 +126,7 @@ Chat Box 採 **自動導入** 機制。系統會自動抓取您於 **第三方�
 
 1. 點擊 **設定 > 新增官方帳號**。
 2. 系統將自動引導您跳轉至 **第三方整合 > LINE OA 設定**。
-3. 請參考 [LINE 官方帳號串接設定](../../integrations/line/account-integration/串接 LINE Messaging API.md) 完成 Messaging API 串接。
+3. 請參考 [LINE 官方帳號串接設定](../../integrations/line/account-integration/connect-line-messaging-api.md) 完成 Messaging API 串接。
 
 
 

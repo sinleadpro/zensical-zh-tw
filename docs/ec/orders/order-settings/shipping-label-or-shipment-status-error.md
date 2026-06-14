@@ -2,7 +2,7 @@
 title: 無法下載託運單或更新貨態
 description: 託運單下載失敗、貨態未更新常見原因與處理方式，包含綠界預付物流款儲值、瀏覽器封鎖、地址錯誤、門市關轉等排解步驟。
 created: 2026-06-08 20:12
-last_modified: 2026-06-09 10:20
+last_modified: 2026-06-14 12:12
 lang: zh-TW
 type: tutorial
 status: ""
@@ -21,8 +21,15 @@ sites:
 audiences:
   - admin
 difficulty: beginner
-tnb: ""
-plans: []
+tnb: trunk
+plans: 
+  - 專業
+  - 進階
+  - 高手
+  - 專業PLUS 
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 cyb_extensions: []
 intents:
   - 下載託運單
@@ -40,6 +47,14 @@ related:
   - "[[配送狀態對照表]]"
   - "[[設定訂單部分出貨]]"
   - "[[處理付款失敗訂單]]"
+  - "[[申請綠界金流與超商取貨付款]]"
+  - "[[使用黑貓宅配出貨]]"
+  - "[[設定與加印黑貓託運單]]"
+  - "[[操作超商店到店 C2C 出貨]]"
+  - "[[使用超商大宗寄倉（B2C）出貨]]"
+  - "[[使用 7-11 C2C 退貨便]]"
+  - "[[補印與加印託運單]]"
+  - "[[DHL 跨境物流]]"
 tags:
   - 託運單
   - 貨態異常
@@ -139,7 +154,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-truck:{ .ig .middle } [__使用黑貓宅配出貨__](../home-delivery/tcat-home-delivery.md)
-- :lucide-settings:{ .ig .middle } [__設定與加印黑貓託運單__](../../payments-and-logistics/設定與加印黑貓託運單.md)
+- :lucide-settings:{ .ig .middle } [__設定與加印黑貓託運單__](../../payments-and-logistics/setup-print-tcat-waybill.md)
 
 </div>
 

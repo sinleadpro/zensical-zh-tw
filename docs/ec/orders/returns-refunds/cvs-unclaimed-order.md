@@ -1,4 +1,5 @@
 ---
+
 title: 處理超商訂單逾期未取
 description: 超商訂單逾期未取的處理流程，包含自動退款條件、大宗寄倉與店到店退貨方式、人工退款操作步驟。
 created: 2026-05-26 20:51
@@ -28,8 +29,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -73,6 +74,7 @@ search:
 icon: lucide/package-x
 hide: []
 ---
+
 
 ## 超商訂單逾期處理說明
 

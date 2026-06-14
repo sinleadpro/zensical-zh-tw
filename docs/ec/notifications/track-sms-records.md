@@ -1,4 +1,5 @@
 ---
+
 title: 查詢與追蹤簡訊發送紀錄
 description: 在 CYBERBIZ 後台查詢與追蹤簡訊發送紀錄，包含日期範圍篩選、關鍵字搜尋與欄位說明。
 created: 2026-04-27 19:16
@@ -27,8 +28,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS 
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -62,6 +63,7 @@ search:
 icon: lucide/history
 hide: []
 ---
+
 
 ![簡訊發送紀錄頁](../../assets/images/ec-訊息推播-簡訊發送紀錄.png){ .hero-page }
 

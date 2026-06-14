@@ -176,7 +176,7 @@ hide: []
     - __① 費用結清__<br>
       確認 POS 系統相關費用已完成付款。
 
-    - [__② 建立商品與 SKU__](../../ec/products/creation/新增與更新商品.md)<br>
+    - [__② 建立商品與 SKU__](../../ec/products/creation/create-update-products.md)<br>
       確認官網商品已建置，且 **每款商品皆已填寫 SKU 碼**（SKU 為商品唯一身分證）。<br><br>
       [→ 大量填補商品 SKU 碼教學]()
 

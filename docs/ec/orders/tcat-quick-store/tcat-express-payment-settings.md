@@ -1,4 +1,5 @@
 ---
+
 title: 設定黑貓快速到店付款方式
 description: 設定黑貓快速到店的付款方式，包含貨到付款與取貨不付款的設定步驟。
 created:
@@ -29,8 +30,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -77,6 +78,7 @@ tags:
   - 超商物流
   - 金物流
 ---
+
 
 ![](../../../assets/images/ec-金物流-超商物流-黑貓快速到店.png){ .hero-page }
 

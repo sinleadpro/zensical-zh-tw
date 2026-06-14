@@ -28,9 +28,9 @@ permalink: "https://help.cyberbiz.io/resources/conventions"
 
 表示內容僅適用於有開啟特定後台功能的用戶（如多國語系）。
 
-### :lucide-layers: 適用版型
+### :lucide-layout-dashboard: 適用版型
 
-表示內容僅適用特定前台版型（如拖拉版型、一般版型）。
+表示內容僅適用特定前台版型（如拖拉版型、預設版型）。
 
 ### :lucide-grid-2x2-plus: 適用擴充
 

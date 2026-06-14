@@ -1,4 +1,5 @@
 ---
+
 title: 提供顧客付款連結
 description: 訂單尚未完成付款時，商家可透過付款連結引導顧客重新進行線上結帳，無需取消訂單重建流程。
 created: 
@@ -28,8 +29,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -73,6 +74,7 @@ search:
 icon: lucide/link
 hide: 
 ---
+
 
 ![](../../../assets/images/ec-訂單明細-付款連結.png){ .hero-page }
 

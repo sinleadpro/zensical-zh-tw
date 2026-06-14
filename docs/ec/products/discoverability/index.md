@@ -22,7 +22,7 @@ products:
   控制商品是否顯示於站內與 Google 搜尋結果。
 
 - :lucide-search:{ .lg }
-  [__站內搜尋設定__](設定站內搜尋功能.md){ title="設定站內搜尋功能" }
+  [__站內搜尋設定__](setup-site-search.md){ title="設定站內搜尋功能" }
   設定站內搜尋範圍、分詞邏輯與 GA4 追蹤。
 
 - :lucide-filter:{ .lg }
@@ -30,7 +30,7 @@ products:
   設定顧客可使用的商品篩選條件。
 
 - :lucide-ban:{ .lg }
-  [__搜尋結果排除關鍵字__](設定搜尋結果中排除特定關鍵字商品.md){ title="設定搜尋結果中排除特定關鍵字商品" }
+  [__搜尋結果排除關鍵字__](exclude-keyword-products-search.md){ title="設定搜尋結果中排除特定關鍵字商品" }
   透過 Liquid 模板從搜尋結果排除特定商品。
 
 </div>

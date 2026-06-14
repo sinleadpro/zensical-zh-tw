@@ -1,4 +1,5 @@
 ---
+
 title: 拖拉版型網站設定
 description: 使用拖拉版型編輯器建立與調整官網外觀，包含全站設定、頁面內容編輯、商品頁面配置等。
 created:
@@ -35,8 +36,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -93,6 +94,7 @@ icon: lucide/layout-dashboard
 hide:
 comments: false
 ---
+
 
 
 
@@ -316,11 +318,11 @@ comments: false
 <div class="grid cards" markdown>
 
 - :lucide-menu:{ .lg }  
-  [__導覽列__](../navigation/設定選單與導覽列.md){ title="設定選單與導覽列" }  
+  [__導覽列__](../navigation/setup-menus-navigation.md){ title="設定選單與導覽列" }  
   可設定選單排列樣式（預設／併排置左／併排置右）、背景是否透明，以及次選單是否同步展開。
 
 - :lucide-arrow-down-to-line:{ .lg }  
-  [__頁腳__](../navigation/設定選單與導覽列.md#設定頁腳內容){ title="設定選單與導覽列" }  
+  [__頁腳__](../navigation/setup-menus-navigation.md#設定頁腳內容){ title="設定選單與導覽列" }  
   提供「上下」或「左右」排序樣式，並可開啟社群媒體圖示的顯示與連結。
 
 </div>
@@ -328,8 +330,8 @@ comments: false
 <!---->
 <!-- 導覽列與頁腳的設定較完整，另有專文說明： -->
 <!---->
-<!-- - **導覽列：** 可設定選單排列樣式(預設／併排置左／併排置右)、背景是否透明，以及次選單是否同步展開。瞭解 [如何設定選單與導覽列](../navigation/設定選單與導覽列.md){ title="設定選單與導覽列" }。 -->
-<!-- - **頁腳：** 提供「上下」或「左右」排序樣式，並可開啟 **社群媒體圖示** 的顯示與連結。瞭解 [如何設定頁腳](../navigation/設定選單與導覽列.md#設定頁腳內容){ title="設定選單與導覽列" }。 -->
+<!-- - **導覽列：** 可設定選單排列樣式(預設／併排置左／併排置右)、背景是否透](../navigation/setup-menus-navigation.md)](../navigation/設定選單與導覽列.md){ title="設定選單與導覽列" }。 -->
+<!-- - **頁腳：** 提供「上下」或](../navigation/setup-menus-navigation.md#設定頁腳內容)[如何設定頁腳](../navigation/設定選單與導覽列.md#設定頁腳內容){ title="設定選單與導覽列" }。 -->
 
 ---
 
@@ -422,7 +424,7 @@ comments: false
 #### 網站 SEO 與安全保護 { #seo-security }
 
 - **SEO 設定：** 可定義網站的 **標題**、 **簡述** 與 **關鍵字**，優化搜尋引擎對網站的收錄與排名。若標題欄位留空，系統會預設以商店名稱作為標題。[查看設定教學](../site-settings/設定網站標題與%20SEO.md){ title="設定網站標題與 SEO" }
-- **網頁鎖右鍵：** 勾選可禁止使用者透過點擊滑鼠右鍵自行下載圖片或複製文字，保護原創內容。[查看設定教學](../site-settings/設定網頁鎖右鍵保護圖文版權.md){ title="設定網頁鎖右鍵保護圖文版權" }
+- **網頁鎖右鍵：** 勾選可禁止使用者透過點擊滑鼠右鍵自行下載圖片或複製文字，保護原創內容。[查看設定教學](../site-settings/setup-right-click-protection.md){ title="設定網頁鎖右鍵保護圖文版權" }
 
 ![SEO 設定](../../../assets/images/ec-網站外觀-seo.png)
 
@@ -436,7 +438,7 @@ comments: false
     部分功能需特定方案方可使用，已標示於各項目標題。
 
 - **顯示商品標語：** 在商品圖／名稱下方顯示商品特色或促銷標語，同步套用於首頁商品區塊、分類頁、商品頁、任選折扣、紅配綠與搜尋頁。[查看設定教學](../../products/create-and-manage/編輯商品簡述與商品標語.md){ title="編輯商品簡述與商品標語" }
-- **顯示商品色票小圖 `企業版`：** 在商品群組頁與多層級分類頁顯示款式顏色小圖，讓顧客先看到可選色系。[查看設定教學](../../products/create-and-manage/設定商品色票與款式圖片-拖拉版型.md){ title="設定商品色票與款式圖片" }
+- **顯示商品色票小圖 `企業版`：** 在商品群組頁與多層級分類頁顯示款式顏色小圖，讓顧客先看到可選色系。[查看設定教學](../../products/create-and-manage/product-swatches-variant-images-drag-drop.md){ title="設定商品色票與款式圖片" }
 - **顯示已銷售數量：** 在商品名稱下方顯示累計銷售數量，營造熱銷感。
 
     ![商品顯示行為-已銷售數量](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-顯示商品已銷售數量.png)
@@ -461,7 +463,7 @@ comments: false
     === "下拉式"
         ![下拉式](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-商品款式選單-下拉式.png){ title="商品款式選單-下拉式" }
 
-- **商品影片設定 `PLUS版 / 企業版`：** 商品有影片時，將影片 **置於商品圖片之前或之後**（即圖片輪播的第一張或最後一張，預設之前）。[查看設定教學](../../products/create-and-manage/設定商品影片.md){ title="設定商品影片" }
+- **商品影片設定 `PLUS版 / 企業版`：** 商品有影片時，將影片 **置於商品圖片之前或之後**（即圖片輪播的第一張或最後一張，預設之前）。[查看設定教學](../../products/create-and-manage/setup-product-videos.md){ title="設定商品影片" }
 - **商品購買數量上限：** 每個款式可加入購物車的數量上限，留空或填 0 表示無上限。
 - **折扣貼紙 `非 PLUS版 / 企業版`：** 上傳一張貼紙圖（建議 100×100px），當任一款式售價低於定價時，自動顯示於商品圖左上角。
 
@@ -560,8 +562,8 @@ comments: false
 
     此功能需先洽客服申請開通。開通後可設定是否需審核留言、隱藏部分姓名，並可搭配 Google reCAPTCHA 防止機器人攻擊。
 
-    - [如何管理商品評論](../products/管理商品評論.md){ title="管理商品評論" }
-    - [如何啟用 reCAPTCHA](../customer-interaction/啟用留言區 reCAPTCHA.md){ title="啟用留言區 reCAPTCHA" }
+    - [如何管理商品評論](../products/manage-product-reviews.md){ title="管理商品評論" }
+    - [如何啟用 reCAPTCHA](../customer-interaction/enable-comment-recaptcha.md){ title="啟用留言區 reCAPTCHA" }
 
     ![商品頁面-商品評論](../../../assets/images/ec-網站外觀-拖拉版型-商品頁面-商品評論.png)
 
@@ -575,9 +577,7 @@ comments: false
 
 ### 商品群組頁面 { #collection }
 
-針對群組頁面可進行以下細節設定：
-
-- **左側選單連結：** 指定該群組頁面要套用哪一組導覽選單(需先在 [選單／導覽列設定](../navigation/設定選單與導覽列.md){ title="設定選單與導覽列" } 完成設置)。
+針對群組頁面，可指定要套用哪一組導覽選單(需先在 [選單／導覽列設定](../navigation/設定選單與導覽列.md){ title="設定選單與導覽列" } 完成設置)。
 - **商品欄數：** 商品每排顯示的數量。
 - **商品數量上限：** 設定每頁顯示的商品數量。
 - **更多商品顯示方式：** 設定顯示更多商品的呈現方式 —— 分頁跳轉或向下無限滾動。
@@ -627,7 +627,7 @@ comments: false
 - **聯絡資訊設置：** 除表單外，建議在 **頁腳(Footer)** 區塊同步設定完整的公司電話、地址與 Email，增加品牌信任感。
 
 !!! tip "安全驗證"
-    針對顧客留言的客服頁面，拖拉版型支援 [建立 Google reCAPTCHA 安全驗證](../customer-interaction/啟用留言區 reCAPTCHA.md){ title="啟用留言區 reCAPTCHA" }，以防止機器人攻擊或垃圾訊息。
+    針對顧客留言的客服頁面，拖拉版型支援 [建立 Google reCAP](../customer-interaction/enable-comment-recaptcha.md)PTCHA.md){ title="啟用留言區 reCAPTCHA" }，以防止機器人攻擊或垃圾訊息。
 
 ![客服頁](../../../assets/images/ec-網站外觀-拖拉版型-客服頁面.png)
 
@@ -657,8 +657,6 @@ comments: false
 ---
 
 ### 搜尋頁 { #search }
-
-搜尋頁面目前提供以下自訂設定項目：
 
 - **選擇選單：** 指定搜尋頁面左側要套用的選單連結列表(需先 [建立選單](../navigation/設定選單與導覽列.md){ title="設定選單與導覽列" })。
 - **商品顯示資訊：** 搜尋結果中的商品會同步套用「[全站共用設定](theme-editor-global-settings.md#shop-product-display){ title="全站共用設定" }」中的顯示規範，包含價格區間、商品標語以及已銷售數量。
@@ -840,8 +838,7 @@ CYBERBIZ 的 **拖拉版型** （Drag-and-Drop Layout）是一項直覺化的官
 
 <div class="grid cards" markdown>
 
-- :lucide-swatch-book:{ .lg }   
-  [__色票功能__](../../products/create-and-manage/設定商品色票與款式圖片-拖拉版型.md#開啟前台商品列表頁顯示全站設定){ title="設定商品色票與款式圖片-拖拉版型" }       
+- :lucide-swatch-bo](../../products/create-and-manage/product-swatches-variant-images-drag-drop.md#開啟前台商品列表頁顯示全站設定)-拖拉版型.md#開啟前台商品列表頁顯示全站設定){ title="設定商品色票與款式圖片-拖拉版型" }       
   在商品列表（如群組頁、多層級分類頁）顯示商品的顏色小圖，讓顧客能直接預覽不同款式的顏色。
 
 - :lucide-clock:{ .lg }     
@@ -930,11 +927,7 @@ CYBERBIZ 的 **拖拉版型** （Drag-and-Drop Layout）是一項直覺化的官
 ## 進入與基本設定
 
 - **進入路徑**：前往後台 **網站外觀 > 套版主題管理**，確認使用拖拉版型（拖拉版型標籤）後點選 **網站設定**。
-
-- **全站共用設定**：
-
-	- **導覽列**：可設定選單排列樣式（預設/併排置左/併排置右）、背景是否透明，以及次選單是否同步展開。瞭解 [如何設定選單與導覽列](../navigation/設定選單與導覽列.md){ title="設定選單與導覽列" }。
-	- **彈窗廣告**：可設定圖片、影片、互動遊戲或排程跑馬燈廣告。
+	- **導覽列：** 可設定選單排列樣式（預設/併排置左/併排置右）、背景是否透明，以及次選單是否同步展開。瞭解 [如何設定選單與導覽列](../navigation/設定選單與導覽列.md){ title="設定選單與導覽列" }。
 	- **頁腳**：提供「上下」或「左右」排序樣式，並可開啟 **社群媒體圖示** 的顯示與連結。瞭解 [如何設定頁腳](../navigation/設定選單與導覽列.md#設定頁腳內容){ title="設定選單與導覽列" }。
 	- **顏色設定**：可一鍵變更全站的主色調、強調色（如標籤顏色）及字體顏色。
 	- **全站設定**：可設定 favicon、網站 Logo、字型、網站 SEO、商品相關設定及商品標籤。
@@ -1389,11 +1382,7 @@ CYBERBIZ 的 **拖拉版型** （Drag-and-Drop Layout）是一項直覺化的官
 
 	可選擇顯示「商品群組其他商品」（同分類隨機顯示）或「自訂關聯群組商品」。
 	
-	![](../../../assets/images/ec-網站外觀-拖拉版型-商品頁面-相關商品.png)
-
-## 商品群組頁面
-
-在拖拉編輯器中，您可以針對群組頁面進行以下細節設定：
+	![](../../../assets/images/ec-網站外觀-拖拉版型-商品頁面-相](../navigation/setup-menus-navigation.md)，您可以針對群組頁面進行以下細節設定：
 
 
 - **商品分類設定**：
@@ -1444,7 +1433,7 @@ CYBERBIZ 的 **拖拉版型** （Drag-and-Drop Layout）是一項直覺化的官
 
 - **聯絡資訊設置**：除了表單外，建議在 **頁腳** （Footer）區塊同步設定完整的公司電話、地址與 Email，增加品牌信任感。
 
-> :lucide-flame: 針對顧客留言的客服頁面，拖拉版型支援[建立 **Google reCAPTCHA 安全驗證**](../customer-interaction/啟用留言區 reCAPTCHA.md){ title="啟用留言區 reCAPTCHA" }  ，以防止機器人攻擊或垃圾訊息。
+> :lucide-flame: 針對顧客留言的客服頁面，拖拉版型支援[建立 **Googl](../customer-interaction/enable-comment-recaptcha.md)用留言區 reCAPTCHA.md){ title="啟用留言區 reCAPTCHA" }  ，以防止機器人攻擊或垃圾訊息。
 
 ![](../../../assets/images/ec-網站外觀-拖拉版型-客服頁面.png)
 
@@ -1481,7 +1470,7 @@ CYBERBIZ 的 **拖拉版型** （Drag-and-Drop Layout）是一項直覺化的官
 
 --> 
 
-![](../../../assets/images/ec-網站外觀-拖拉版型-快速到貨頁面-快速到貨設定.gif)
+![](../.](../navigation/setup-menus-navigation.md)拉版型-快速到貨頁面-快速到貨設定.gif)
 
 ## 搜尋頁
 
@@ -1511,7 +1500,7 @@ CYBERBIZ 的 **拖拉版型** （Drag-and-Drop Layout）是一項直覺化的官
 <div class="grid cards" markdown>
 
 - :lucide-user-plus:{ .lg }   
-  [__LINE 加入好友工具（拖拉版型）__](../../integrations/line/marketing/設定與管理 LINE Tag.md){ title="設定與管理 LINE Tag" }       
+  [__LINE 加入好友工具（拖拉版型）__](../../integrations/line/marketing/setup-manage-line-tag.md){ title="設定與管理 LINE Tag" }       
   在拖拉版型官網設定工具，引導商家加入 LINE 官方帳號好友。
 
 - :lucide-ban:{ .lg }     

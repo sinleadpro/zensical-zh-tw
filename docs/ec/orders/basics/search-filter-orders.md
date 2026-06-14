@@ -1,4 +1,5 @@
 ---
+
 title: 如何搜尋與篩選訂單
 description: 使用關鍵字搜尋、條件篩選、檢視群組與訂單標籤等功能，快速找出目標訂單。
 created: 2026-05-07 11:23
@@ -27,8 +28,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -68,6 +69,7 @@ search:
 icon: lucide/search
 hide: []
 ---
+
 
 ![搜尋與篩選訂單](../../../assets/images/EC-訂單-所有定單-搜尋與篩選-hero.png){ .hero-page }
 

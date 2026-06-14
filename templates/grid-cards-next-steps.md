@@ -1,7 +1,7 @@
 <div class="grid cards" markdown>
 
 - :lucide-import:{ .lg }   
-  [__批次修改商品設定__](批次修改商品描述與配送設定.md)     
+  [__批次修改商品設定__](batch-update-product-descriptions-shipping.md)     
   匯入編輯過的商品 Excel 檔案，同步更新多筆商品的商品描述與配送相關設定。
 
 - :lucide-ban:{ .lg }     

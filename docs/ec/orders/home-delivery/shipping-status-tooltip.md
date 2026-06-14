@@ -1,4 +1,5 @@
 ---
+
 title: 出貨狀態物流提示文字說明
 description: 串接物流訂單出貨後，系統如何依物流貨態自動顯示不同的「已出貨」提示文字，以及其顯示位置與通知觸發時機。
 created:
@@ -30,8 +31,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -68,6 +69,7 @@ search:
 icon: lucide/type
 hide:
 ---
+
 
 
 

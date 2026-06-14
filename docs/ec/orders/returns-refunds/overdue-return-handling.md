@@ -1,4 +1,5 @@
 ---
+
 title: 處理超過退貨期限的訂單
 description: 訂單超過退貨期限時，商家可從後台手動發起退貨流程。
 created: 2026-05-26 20:52
@@ -27,8 +28,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS 
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -78,6 +79,7 @@ search:
 icon: lucide/clock-alert
 hide: []
 ---
+
 
 ![訂單列表-退貨中](../../../assets/images/EC-訂單-所有訂單-更多操作-退貨中-hero.png){ .hero-page }
 
