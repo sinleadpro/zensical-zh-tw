@@ -141,6 +141,7 @@ copyright = """
                 {"物流類型部分出貨支援對照表" = "ec/orders/references/shipping-types-partial-support.md"},
                 {"退貨退款狀態(超商逾期)" = "ec/orders/references/return-refund-status-reference.md"},
                 {"列表操作功能" = "ec/orders/references/order-list-features.md"},
+                {"訂單列表欄位參考表" = "ec/orders/references/order-list-columns.md"},
                 {"報表可用欄位" = "ec/orders/references/order-report-fields.md"},
                 {"綠界後台訂單查詢" = "ec/orders/ecpay-backend-order-query.md"},
             ]},

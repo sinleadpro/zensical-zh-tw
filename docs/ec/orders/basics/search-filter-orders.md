@@ -1,9 +1,8 @@
 ---
-
 title: 如何搜尋與篩選訂單
 description: 使用關鍵字搜尋、條件篩選、檢視群組與訂單標籤等功能，快速找出目標訂單。
 created: 2026-05-07 11:23
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-14 17:01
 lang: zh-TW
 type: tutorial
 status: ""
@@ -243,7 +242,7 @@ hide: []
 ### 自訂顯示欄位與排序 { #orders-columns-configure }
   
 1. **開啟設定**：點選列表右上方的 **編輯欄位** 按鈕，畫面右側將展開設定面板。
-2. **勾選欄位**：於面板中勾選欲顯示的[欄位][orders-columns]{ data-preview }；取消勾選即從列表中隱藏。                         
+2. **勾選欄位**：於面板中勾選欲顯示的[欄位](../references/order-list-columns.md){ title="訂單列表欄位參考表" }；取消勾選即從列表中隱藏。                         
     - **訂單編號** 欄位為主要識別欄，固定顯示無法取消。
     - 點選面板底部的 **全選 / 取消全選** 可一次切換所有欄位。    
 3. **調整順序**：長按欄位左側的 :lucide-grip-vertical: 圖示，上下拖曳即可變更欄位在列表中的左右順序。                   
@@ -305,7 +304,7 @@ hide: []
   需至「訂單」>「定期定額訂單」中搜尋，支援定期單號、收貨資訊或備註搜尋。
 
 - :material-point-of-sale:{ .lg }  
-  [__POS 訂單__](../../../pos/orders_ann/index.md){ data-preview }  
+  [__POS 訂單__](../../../pos/orders/index.md){ data-preview }  
   在 POS 前台可透過輸入訂單號碼、掃描發票或進階篩選（如成立時間、認單時間）來查找。
 
 - :lucide-user:{ .lg }  

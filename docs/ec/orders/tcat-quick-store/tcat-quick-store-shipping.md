@@ -3,7 +3,7 @@
 title: 使用黑貓快速到店出貨
 description: 批次下載黑貓快速到店託運單、扣除運費並將訂單貨態更新為已出貨。
 created: 2026-05-18 15:26
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-14 14:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -260,7 +260,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-printer:{ .lg }  
-  [__補印託運單__](../../payments-and-logistics/補印與加印託運單.md){ title="補印與加印託運單" }  
+  [__補印託運單__](../../payments-and-logistics/reprint-waybills.md){ title="補印與加印託運單" }  
   若須重新列印（例如標籤受潮、列印不清），回到訂單列表勾選同筆訂單，於「更多操作」選擇補印託運單。
 
 - :lucide-truck:{ .lg }  

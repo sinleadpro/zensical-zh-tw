@@ -3,7 +3,7 @@
 title: 處理超商訂單部分出貨
 description: 處理超商訂單（7-11、全家、萊爾富）的部分出貨流程，包含第一筆超商系統出貨與剩餘商品自訂物流出貨的完整操作步驟。
 created: 2026-05-26 16:14
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-14 14:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -101,7 +101,7 @@ hide: []
 
 ### 支援的超商物流 { #prerequisites-cvs-partial-shipment-supported }
 
-以下超商物流支援部分出貨。詳細對應請見 [超商物流部分出貨支援對照表](.../references/cvs-partial-shipping-support.md)。
+以下超商物流支援部分出貨。詳細對應請見 [超商物流部分出貨支援對照表](../references/cvs-partial-shipping-support.md)。
 
 - [x] **7-11**：交貨便、超商取貨（含貨到付款）
 - [x] **全家**：店到店、超商取貨（含貨到付款）
@@ -207,7 +207,7 @@ hide: []
   設定自訂物流商列表與快遞單號欄位，方便第二筆貨件出貨時快速選擇。
 
 - :lucide-truck:{ .lg }  
-  [__託運單列印與重印__](../../payments-and-logistics/補印與加印託運單.md){ title="補印與加印託運單" }  
+  [__託運單列印與重印__](../../payments-and-logistics/reprint-waybills.md){ title="補印與加印託運單" }  
   若需重新列印第一筆超商託運單，請參考此頁說明。
 
 <!-- - :lucide-receipt:{ .lg }  

@@ -215,7 +215,7 @@ hide: []
 
 <div class="grid cards" markdown>
 
-- :lucide-printer:{ .ig .middle } [__補印與加印託運單__](../../payments-and-logistics/補印與加印託運單.md)
+- :lucide-printer:{ .ig .middle } [__補印與加印託運單__](../../payments-and-logistics/reprint-waybills.md)
 
 </div>
 

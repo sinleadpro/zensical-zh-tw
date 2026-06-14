@@ -1,9 +1,8 @@
 ---
-
 title: 使用超商大宗寄倉（B2C）出貨
 description: 於訂單列表批次下載託運單、產生託運單號，並將集中包裝的貨件寄至超商物流中心，再由物流中心分發至消費者指定門市。
 created: 2026-05-25 20:35
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-14 16:41
 lang: zh-TW
 type: tutorial
 status: ""
@@ -132,7 +131,7 @@ hide: []
 2. **聯絡貨運**：自行聯絡第三方物流（如黑貓、宅配通、新竹物流）將大紙箱寄至對應物流中心。
     - 完整收貨地址、時段、收件單位請見
 [物流中心收貨資訊](../../payments-and-logistics/references/cvs-b2c-logistics-center-reference.md#reference-cvs-b2c-centers-list){ title="物流中心收貨資訊" data-preview }。
-    - 各通路包裝方式、送貨車](../../payments-and-logistics/references/cvs-b2c-logistics-center-reference.md#reference-cvs-b2c-acceptance-rules)acceptance-rules){ title="物流中心收貨資訊" data-preview }。
+    - [各通路包裝方式、送貨車](../../payments-and-logistics/references/cvs-b2c-logistics-center-reference.md#reference-cvs-b2c-acceptance-rules){ title="物流中心收貨資訊" data-preview }。
 3. **物流中心簽收**：物流中心收件後，系統訂單狀態會由「待物流收件」自動變更為「**[已出貨（配送中）](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" }**」。
 
 !!! tip "取貨簡訊通知"
@@ -175,11 +174,11 @@ hide: []
 
 * **出貨不可逆**：一旦下載託運單，訂單狀態即變為「已出貨」，且 **無法修改收貨資訊**。請於下載前確認資料正確。
 * **CYBER 幣餘額不足將擋下載**：一般版 商家若 CYBER 幣不足，系統會直接擋下載並提示「CYBER 幣餘額不足」。詳見
-[計費方式](../../payments-and-logistics/references/超商大宗寄倉%20B2C%20方案與計費對照.md#reference-cvs-b2c-plans-billing){ data-preview }。
+[計費方式](../../payments-and-logistics/references/cvs-b2c-plans-pricing-reference.md#reference-cvs-b2c-plans-billing){ data-preview }。
 * **重量與材積限制**：訂單總重量 / 材積若超過該通路上限將無法產生託運單，詳見
 [重量與材積限制](../../payments-and-logistics/references/cvs-b2c-channel-spec-reference.md#reference-cvs-b2c-channels-specs){ title="超商大宗寄倉B2C通路規格" data-preview }。
 * **5 天交寄期限**：託運單產生隔日起 5 天內未送達物流中心將自動失效，且無法補印或退費。
-* **到貨驗收規範**：各通路對](../../payments-and-logistics/references/cvs-b2c-logistics-center-reference.md#reference-cvs-b2c-acceptance-rules)eference-cvs-b2c-acceptance-rules){ title="物流中心收貨資訊" data-preview }。
+* **到貨驗收規範**：[各通路對](../../payments-and-logistics/references/cvs-b2c-logistics-center-reference.md#reference-cvs-b2c-acceptance-rules){ title="物流中心收貨資訊" data-preview }。
 
 ---
 
@@ -211,7 +210,7 @@ hide: []
     - 勾選的訂單包含 **不同通路**（例如同時勾了 7-ELEVEN 與全家）
     - 訂單付款狀態不符（需為「已收到款項」或「貨到付款」）
     - 訂單配送狀態已是「已出貨」或「已取消」
-    - CYBER 幣餘額不足](../../payments-and-logistics/setup-cvs-b2c-bulk-shipping.md)and-logistics/設定超商大宗寄倉 B2C.md){ title="設定超商大宗寄倉 B2C" } 確認
+    - [CYBER 幣餘額不足](../../payments-and-logistics/setup-cvs-b2c-bulk-shipping.md){ title="設定超商大宗寄倉 B2C" } 確認
 
 ??? quote "點擊下載託運單後沒有反應怎麼辦？"
     [](){ #faq-cvs-b2c-shipping-no-response }
