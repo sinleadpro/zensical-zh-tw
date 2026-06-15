@@ -2,7 +2,7 @@
 title: 商品分析
 description: 掌握店內商品的銷售表現，找出熱賣商品、滯銷品與回購行為，為進貨、行銷與定價決策提供數據參考。
 created: 2026-06-15 00:00
-last_modified: 2026-06-15 17:58
+last_modified: 2026-06-15 21:31
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,6 +23,7 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
+  - 高手
   - 專業PLUS 
   - 進階PLUS
   - 高手PLUS

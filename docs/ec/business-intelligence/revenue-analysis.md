@@ -2,7 +2,7 @@
 title: 營收分析
 description: 透過數據卡與多種圖表，快速掌握全店營收表現、獲利狀況與營收高峰時段
 created: 2026-06-15
-last_modified: 2026-06-15 20:29
+last_modified: 2026-06-15 21:20
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,6 +23,7 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
+  - 高手
   - 專業PLUS 
   - 進階PLUS
   - 高手PLUS
