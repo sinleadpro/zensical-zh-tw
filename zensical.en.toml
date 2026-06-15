@@ -53,7 +53,13 @@ copyright = """
         { "開始使用" = [
             { "文字編輯器使用教學" = "zh-tw/ec/get-started/文字編輯器使用教學.md" }
         ]},
-        { "分析報表" = "zh-tw/ec/analytics/index.md" },
+        { "分析報表" = [
+            {"overview" = "zh-tw/ec/business-intelligence/index.md"},
+            { "參考資料" = [
+                {"圖表總覽指標" = "zh-tw/ec/business-intelligence/references/chart-overview-metrics-reference.md"},
+                {"基準參考範圍狀態" = "zh-tw/ec/business-intelligence/references/benchmark-reference-range-status-reference.md"}
+            ]}
+        ]},
         { "訂單" = [
             { "orders" = "zh-tw/ec/orders/index.md" },
             { "一般退貨退款" = "zh-tw/ec/orders/一般退貨退款.md" },

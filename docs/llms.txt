@@ -12,7 +12,8 @@
 - [詞彙表 - CYBERBIZ DOCS](https://help.cyberbiz.io/resources/glossary/): 收錄 CYBERBIZ 系統專業詞彙的定義與說明，涵蓋商品管理、訂單物流、行銷分析等面向。
 - [圖示慣例 - CYBERBIZ DOCS](https://help.cyberbiz.io/resources/conventions/): CYBERBIZ 文檔中使用的圖示與符號說明。
 - [EC 品牌官網 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/): 品牌官網後台操作指南，涵蓋商品、訂單、金物流、行銷推廣與網站外觀設定。
-- [報表分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/analytics/): 一目了然掌握商店經營數據，快速分析銷售、訂單與會員行為。
+- [報表分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/): 一目了然掌握商店經營數據，快速分析銷售、訂單與會員行為。
+- [基準參考範圍狀態對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/benchmark-reference-range-status-reference/): 認識圖表總覽中的基準參考範圍三種狀態：優於基準、符合基準、低於基準，以及對應的建議動作。
 - [訂單物流 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/orders/): 管理訂單流程與物流配送，提升出貨效率與顧客滿意度。
 - [會員管理 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/members/): 管理會員資料、等級與互動，提升會員體驗與忠誠度。
 - [商品管理 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/products/): 輕鬆管理商品資訊、分類與庫存，提升上架效率。

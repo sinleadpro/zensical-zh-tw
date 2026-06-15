@@ -45,7 +45,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/ad-analytics-guide/"
 comments: ""
 search:
   exclude: ""

@@ -35,5 +35,5 @@ MISSING: docs/ec/orders/references/c2c-return-conditions.md
 EMPTY_BRACKETS: docs/ec/orders/references/fulfillment-statuses.md
 MISSING: docs/ec/orders/references/shipping-methods.md
 EMPTY_BRACKETS: docs/ec/orders/references/payment-statuses.md
-EMPTY_BRACKETS: docs/ec/analytics/廣告分析指南.md
+EMPTY_BRACKETS: docs/ec/business-intelligence/廣告分析指南.md
 EMPTY_BRACKETS: docs/pos/orders/POS 報表列表與功能說明.md

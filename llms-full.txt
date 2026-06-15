@@ -1413,7 +1413,7 @@ VIP 會員專屬價
 
 # 報表分析 - CYBERBIZ DOCS
 
-URL: https://help.cyberbiz.io/ec/analytics/
+URL: https://help.cyberbiz.io/ec/business-intelligence/
 
 Description: 一目了然掌握商店經營數據，快速分析銷售、訂單與會員行為。
 
@@ -1427,6 +1427,17 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+
+# 基準參考範圍狀態對照表 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/benchmark-reference-range-status-reference/
+
+Description: 認識圖表總覽中的基準參考範圍三種狀態：優於基準、符合基準、低於基準，以及對應的建議動作。
+
+回到頂端
+
+---
+
 訂單
 訂單
 介面總覽

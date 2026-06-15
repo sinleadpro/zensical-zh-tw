@@ -53,8 +53,13 @@ copyright = """
             { "文字編輯器使用教學" = "ec/get-started/文字編輯器使用教學.md" }
         ]},
         { "分析報表" = [
-            {"overview" = "ec/analytics/index.md"},
-            {"廣告分析" = "ec/analytics/ad-analytics-guide.md"}
+            {"overview" = "ec/business-intelligence/index.md"},
+            {"圖表總覽" = "ec/business-intelligence/business-intelligence-overview.md"},
+            {"廣告分析" = "ec/business-intelligence/ad-analytics-guide.md"},
+            { "參考資料" = [
+                {"圖表總覽指標" = "ec/business-intelligence/references/bi-overview-metrics-reference.md"},
+                {"基準參考範圍狀態" = "ec/business-intelligence/references/benchmark-reference-range-status-reference.md"}
+            ]}
         ]},
         { "訂單" = [
             {"orders" = "ec/orders/index.md"},

@@ -215,7 +215,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-chart-column-increasing:{ .lg }  
-  [__廣告分析指南__](../../analytics/ad-analytics-guide.md)  
+  [__廣告分析指南__](../../business-intelligence/ad-analytics-guide.md)  
   於「廣告分析報表」查看 Google 購物廣告的即時成效數據。
 
 - :lucide-store:{ .lg }  
@@ -367,7 +367,7 @@ hide: []
 <!-- <div class="grid cards" markdown> -->
 <!---->
 <!-- - :lucide-chart-column-increasing:{ .lg }    -->
-<!--   ](../../analytics/ad-analytics-guide.md)s/廣告分析指南.md){ title="廣告分析指南" }      -->
+<!--   ](../../business-intelligence/ad-analytics-guide.md)s/廣告分析指南.md){ title="廣告分析指南" }      -->
 <!--   商家可至「廣告分析報表」中查看即時數據。 -->
 <!---->
 <!-- </div> -->
