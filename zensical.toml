@@ -55,10 +55,21 @@ copyright = """
         { "分析報表" = [
             {"overview" = "ec/business-intelligence/index.md"},
             {"圖表總覽" = "ec/business-intelligence/business-intelligence-overview.md"},
+            {"基準化分析" = "ec/business-intelligence/benchmarking.md"},
             {"廣告分析" = "ec/business-intelligence/ad-analytics-guide.md"},
+            {"商品分析" = "ec/business-intelligence/product-analysis.md"},
+            {"訂單分析" = "ec/business-intelligence/order-analysis.md"},
+            {"營收分析" = "ec/business-intelligence/revenue-analysis.md"},
             { "參考資料" = [
+                {"廣告分析指標" = "ec/business-intelligence/references/advertising-analytics-metrics-reference.md"},
                 {"圖表總覽指標" = "ec/business-intelligence/references/bi-overview-metrics-reference.md"},
-                {"基準參考範圍狀態" = "ec/business-intelligence/references/benchmark-reference-range-status-reference.md"}
+                {"基準參考範圍狀態" = "ec/business-intelligence/references/benchmark-reference-range-status-reference.md"},
+                {"訂單分析分頁" = "ec/business-intelligence/references/order-analysis-tabs-reference.md"},
+                {"訂單總體分析指標" = "ec/business-intelligence/references/order-analysis-overview-metrics-reference.md"},
+                {"商品分析欄位" = "ec/business-intelligence/references/product-analysis-metrics-reference.md"},
+                {"訂單金物流分析圖表" = "ec/business-intelligence/references/order-analysis-finance-logistics-reference.md"},
+                {"訂單報表欄位" = "ec/business-intelligence/references/order-analysis-report-fields-reference.md"},
+                {"營收分析指標" = "ec/business-intelligence/references/revenue-analysis-metrics-reference.md"}
             ]}
         ]},
         { "訂單" = [

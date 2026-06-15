@@ -2,7 +2,7 @@
 title: 基準參考範圍狀態對照表
 description: 認識圖表總覽中的基準參考範圍三種狀態：優於基準、符合基準、低於基準，以及對應的建議動作。
 created: 2026-06-15
-last_modified: 2026-06-15 11:45
+last_modified: 2026-06-15 17:19
 lang: zh-TW
 type: reference
 status: ""
@@ -29,7 +29,7 @@ tags:
   - 低於基準
   - 參考資料
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/benchmark-reference-range-status-reference/"
-icon: lucide/badge-info
+icon: lucide/table
 hide:
 ---
 

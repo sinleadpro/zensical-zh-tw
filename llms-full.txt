@@ -24,6 +24,7 @@ CYBERBIZ 擴充功能
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -695,6 +696,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -1427,12 +1429,73 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 
 # 基準參考範圍狀態對照表 - CYBERBIZ DOCS
 
 URL: https://help.cyberbiz.io/ec/business-intelligence/references/benchmark-reference-range-status-reference/
 
 Description: 認識圖表總覽中的基準參考範圍三種狀態：優於基準、符合基準、低於基準，以及對應的建議動作。
+
+# 訂單分析分頁與方案對照 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-tabs-reference/
+
+Description: 訂單分析三個分頁的功能內容與各方案顯示條件對照。
+
+# 訂單總體分析指標對照 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-overview-metrics-reference/
+
+Description: 訂單分析總體分析分頁中各項關鍵指標與趨勢圖的定義對照。
+
+# 訂單金物流分析圖表對照 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-finance-logistics-reference/
+
+Description: 訂單金物流分析分頁中三個分析群組的圖表類型與顯示條件對照。
+
+# 訂單報表欄位對照 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-report-fields-reference/
+
+Description: 訂單報表分頁中三張 Excel 表格的欄位定義與說明對照。
+
+# 商品分析欄位對照表 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/product-analysis-metrics-reference/
+
+Description: 商品分析各區塊的欄位與指標定義，包含銷量排名、回購頻率、無銷量商品與期間別購買狀況。
+
+# 營收分析指標定義對照表 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/revenue-analysis-metrics-reference/
+
+Description: 營收分析頁面各項數據卡與營收總覽圖表的指標意義與計算基礎對照，含總營收、毛利、成長率等定義。
+
+# 基準化分析 (Benchmarking) - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/benchmarking/
+
+Description: 透過 AI 機器學習比對同業基準，找出商店流量、轉換率、客單價、回購率的優化方向。
+
+# 營收分析 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/revenue-analysis/
+
+Description: 透過數據卡與多種圖表，快速掌握全店營收表現、獲利狀況與營收高峰時段。
+
+# 商品分析 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/product-analysis/
+
+Description: 掌握店內商品的銷售表現，找出熱賣商品、滯銷品與回購行為，為進貨、行銷與定價決策提供數據參考。
+
+# 訂單分析 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/order-analysis/
+
+Description: 使用訂單分析頁面查看銷售趨勢、金物流偏好與業績報表。
 
 回到頂端
 
@@ -2032,6 +2095,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -2700,6 +2764,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -3713,6 +3778,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -4398,6 +4464,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -4995,6 +5062,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -5696,6 +5764,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -6270,6 +6339,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -7011,6 +7081,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -7641,6 +7712,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -8408,6 +8480,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -8968,6 +9041,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -9664,6 +9738,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -10267,6 +10342,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -10826,6 +10902,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -11386,6 +11463,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -11962,6 +12040,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -12525,6 +12604,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -13146,6 +13226,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -13771,6 +13852,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -14345,6 +14427,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -14920,6 +15003,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -15495,6 +15579,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -16076,6 +16161,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -16683,6 +16769,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -17358,6 +17445,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -18001,6 +18089,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -18561,6 +18650,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -19184,6 +19274,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -19869,6 +19960,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -20428,6 +20520,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -21103,6 +21196,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -21754,6 +21848,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -22608,6 +22703,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -23262,6 +23358,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -23939,6 +24036,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -24564,6 +24662,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -25220,6 +25319,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -25982,6 +26082,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -26650,6 +26751,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -27242,6 +27344,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽

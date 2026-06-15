@@ -2,7 +2,7 @@
 title: 拖拉版型網站設定
 description: 使用拖拉版型編輯器建立與調整官網外觀，包含全站設定、頁面內容編輯、商品頁面配置等。
 created:
-last_modified: 2026-06-15 10:18
+last_modified: 2026-06-15 13:07
 lang: zh-TW
 permalink:
 type: tutorial

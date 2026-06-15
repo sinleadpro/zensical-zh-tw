@@ -66,10 +66,10 @@ hide:
 | 區塊 | 說明 |
 | :-- | :-- |
 | EC總覽 | 網路商店的流量、轉換率、訂單、營收等整體經營數據 |
-| POS總覽 | 實體門市(POS)的營業額、訂單、消費人數等數據 |
-| 指標趨勢圖 | 以折線圖呈現單一指標在所選時段的變化 |
-| 指標卡 | 各項關鍵指標的彙總數字；企業版另顯示基準參考範圍 |
-| 每日數據表 | 以每日為單位列出指標明細，可分頁瀏覽 |
+| [POS總覽](#operate-chart-overview-pos) | 實體門市(POS)的營業額、訂單、消費人數等數據 |
+| [指標趨勢圖](#operate-chart-overview-switch-chart) | 以折線圖呈現單一指標在所選時段的變化 |
+| [指標卡](#operate-chart-overview-read-benchmark) | 各項關鍵指標的彙總數字；企業版另顯示基準參考範圍 |
+| [每日數據表](#每日數據表) | 以每日為單位列出指標明細，可分頁瀏覽 |
 
 頁面各項指標的定義與計算方式，請見 [圖表總覽指標說明](references/bi-overview-metrics-reference.md#reference-bi-overview-metrics){ data-preview }。
 
@@ -182,7 +182,7 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-bar-chart-3:{ .lg }
-  [__基準圖表總覽（基準化分析）__](references/bi-overview-standardization.md)
+  [__基準化分析 (Benchmarking)__](benchmarking.md)
   進一步了解基準化分析的完整應用方法。
 
 </div>
