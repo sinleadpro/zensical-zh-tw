@@ -1,6 +1,6 @@
 ---
 title: 定期定額分析指標定義對照表
-description: 說明「定期定額分析」頁面上各項數據卡與圖表的指標意義與定義，供其他文件以 data-preview 引用。
+description: 說明「定期定額分析」頁面上各項數據卡與圖表的指標意義與定義。
 created: 2026-06-16
 last_modified: 2026-06-16
 lang: zh-TW
@@ -31,7 +31,7 @@ hide:
 
 # 定期定額分析指標定義對照表
 
-此頁集中說明「定期定額分析」頁面上各項數據卡與圖表的指標意義，供其他文件以 data-preview 引用。
+此頁集中說明「定期定額分析」頁面上各項數據卡與圖表的指標意義。
 
 ### 定期定額數據卡對照表 { #reference-periodic-orders-cards }
 
