@@ -1479,6 +1479,12 @@ URL: https://help.cyberbiz.io/ec/business-intelligence/benchmarking/
 
 Description: 透過 AI 機器學習比對同業基準，找出商店流量、轉換率、客單價、回購率的優化方向。
 
+# 定期定額分析 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/periodic-order-analysis/
+
+Description: 透過數據卡與圖表，掌握店內定期定額訂單的數量、價值、持續期數與取消狀況，看出顧客訂閱的續訂與流失趨勢。
+
 # 營收分析 - CYBERBIZ DOCS
 
 URL: https://help.cyberbiz.io/ec/business-intelligence/revenue-analysis/

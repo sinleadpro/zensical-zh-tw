@@ -17,6 +17,7 @@
 - [廣告分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/ad-analytics-guide/): 不必登入 Google Ads 後台，在 CYBERBIZ 就能看懂 Google 購物廣告的曝光、點擊、轉換與 ROAS 成效。
 - [廣告分析指標對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/advertising-analytics-metrics-reference/): 廣告分析頁面的 11 項成效指標定義與計算方式對照，包含費用、曝光、點擊、轉換與 ROAS。
 - [基準參考範圍狀態對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/benchmark-reference-range-status-reference/): 認識圖表總覽中的基準參考範圍三種狀態：優於基準、符合基準、低於基準，以及對應的建議動作。
+- [定期定額分析指標定義對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/periodic-order-analysis-metrics-reference/): 說明「定期定額分析」頁面上各項數據卡與圖表的指標意義與定義，供其他文件以 data-preview 引用。
 - [訂單分析分頁與方案對照 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-tabs-reference/): 訂單分析三個分頁的功能內容與各方案顯示條件對照。
 - [商品分析欄位對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/product-analysis-metrics-reference/): 商品分析各區塊的欄位與指標定義，包含銷量排名、回購頻率、無銷量商品與期間別購買狀況。
 - [訂單總體分析指標對照 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-overview-metrics-reference/): 訂單總體分析分頁中各項關鍵指標與趨勢圖的定義對照。
@@ -26,13 +27,20 @@
 - [商品分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/product-analysis/): 掌握店內商品的銷售表現，找出熱賣商品、滯銷品與回購行為，為進貨、行銷與定價決策提供數據參考。
 - [訂單分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/order-analysis/): 使用訂單分析頁面查看銷售趨勢、金物流偏好與業績報表。
 - [營收分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/revenue-analysis/): 透過數據卡與多種圖表，快速掌握全店營收表現、獲利狀況與營收高峰時段。
+- [定期定額分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/periodic-order-analysis/): 透過數據卡與圖表，掌握店內定期定額訂單的數量、價值、持續期數與取消狀況，看出顧客訂閱的續訂與流失趨勢。
 - [訂單物流 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/orders/): 管理訂單流程與物流配送，提升出貨效率與顧客滿意度。
+- [訂單自動結案類型對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/orders/references/order-auto-close-types-reference/): 彙整訂單自動結案設定的各種結案類型、觸發條件與訂單狀態要求，供結帳頁與金物流相關設定引用。
 - [會員管理 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/members/): 管理會員資料、等級與互動，提升會員體驗與忠誠度。
 - [商品管理 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/products/): 輕鬆管理商品資訊、分類與庫存，提升上架效率。
 - [電子票券 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/e-ticket/): 電子票券功能設定與管理。
 - [行銷推廣 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/marketing/): 提升商店曝光與銷售，管理行銷活動、優惠策略與顧客互動。
 - [訊息推播 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/notifications/): 管理 EDM 電子報、簡訊與 LINE 通知等訊息推播設定。
 - [付款金流 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/payments-and-logistics/): 管理支付方式、金流設定與訂單收款，確保交易安全與順暢。
+- [購物車相關設定 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/payments-and-logistics/cart-settings/): 調整顧客在正式結帳前的購物車行為，包含購物車啟用、未結帳提醒、優惠券設定、額外資訊欄位與定期定額購物車設定。
+- [購物車未結帳提醒管道對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/payments-and-logistics/references/cart-reminder-channels-reference/): 彙整顧客購物車未結帳商品自動提醒可使用的通知管道與開通條件，供結帳頁與金物流相關設定引用。
+- [前台可退貨天數對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/payments-and-logistics/references/return-eligible-days-reference/): 彙整退貨時間調整設定中各出貨方式的預設可退貨天數與計算起點，供結帳頁與金物流相關設定引用。
+- [物流相關設定 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/payments-and-logistics/logistics-settings/): 調整配送過程中的細節規範與顧客可指定的送貨偏好，包含超商取貨姓名與離島、出貨明細列印、指定配送日期/時段、退貨天數與 Uber Direct 優物流。
+- [訂單相關設定 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/payments-and-logistics/order-settings/): 設定訂單成立的金額門檻、未付款與付款失敗提醒、自動結案與自動取消規則、顧客前台取消退貨權限，以及訂單明細與揀貨單的列印內容。
 - [網站外觀 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-appearance/): 設定官網前台外觀、導覽列、語系與版型樣式。
 - [管理中心 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-management/): 管理後台帳號權限、員工帳號與系統設定。
 - [APP MARKET - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/app-market/): CYBERBIZ 擴充服務與第三方應用市集。

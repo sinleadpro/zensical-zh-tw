@@ -60,6 +60,7 @@ copyright = """
             {"商品分析" = "ec/business-intelligence/product-analysis.md"},
             {"訂單分析" = "ec/business-intelligence/order-analysis.md"},
             {"營收分析" = "ec/business-intelligence/revenue-analysis.md"},
+            {"定期定額分析" = "ec/business-intelligence/periodic-order-analysis.md"},
             { "參考資料" = [
                 {"廣告分析指標" = "ec/business-intelligence/references/advertising-analytics-metrics-reference.md"},
                 {"圖表總覽指標" = "ec/business-intelligence/references/bi-overview-metrics-reference.md"},
@@ -69,7 +70,8 @@ copyright = """
                 {"商品分析欄位" = "ec/business-intelligence/references/product-analysis-metrics-reference.md"},
                 {"訂單金物流分析圖表" = "ec/business-intelligence/references/order-analysis-finance-logistics-reference.md"},
                 {"訂單報表欄位" = "ec/business-intelligence/references/order-analysis-report-fields-reference.md"},
-                {"營收分析指標" = "ec/business-intelligence/references/revenue-analysis-metrics-reference.md"}
+                {"營收分析指標" = "ec/business-intelligence/references/revenue-analysis-metrics-reference.md"},
+                {"定期定額分析指標" = "ec/business-intelligence/references/periodic-order-analysis-metrics-reference.md"}
             ]}
         ]},
         { "訂單" = [
@@ -160,6 +162,7 @@ copyright = """
                 {"訂單列表欄位參考表" = "ec/orders/references/order-list-columns.md"},
                 {"報表可用欄位" = "ec/orders/references/order-report-fields.md"},
                 {"綠界後台訂單查詢" = "ec/orders/ecpay-backend-order-query.md"},
+                {"自動結案類型對照" = "ec/orders/references/order-auto-close-types-reference.md"}
             ]},
         ]},
         { "會員" = [
@@ -291,6 +294,11 @@ copyright = """
         ]},
         { "金物流" = [
             {"overview" = "ec/payments-and-logistics/index.md"},
+            {"結帳頁與物流設定" = [
+                {"購物車相關設定" = "ec/payments-and-logistics/cart-settings.md"},
+                {"物流相關設定" = "ec/payments-and-logistics/logistics-settings.md"},
+                {"訂單相關設定" = "ec/payments-and-logistics/order-settings.md"}
+            ]},
             {"申請 CYBERBIZ PAYMENTS" = "ec/payments-and-logistics/apply-cyberbiz-payments.md"},
             {"信用卡 3D 驗證" = "ec/payments-and-logistics/setup-credit-card-3d-verification.md"},
             {"Apple Pay" = "ec/payments-and-logistics/setup-apple-pay.md"},
@@ -337,6 +345,8 @@ copyright = """
                 {"物流中心收貨資訊" = "ec/payments-and-logistics/references/cvs-b2c-logistics-center-reference.md"},
                 {"各通路重量與材積限制" = "ec/payments-and-logistics/references/cvs-b2c-channel-spec-reference.md"},
                 {"方案開通與計費對照" = "ec/payments-and-logistics/references/cvs-b2c-plans-pricing-reference.md"},
+                {"前台可退貨天數對照" = "ec/payments-and-logistics/references/return-eligible-days-reference.md"},
+                {"購物車未結帳提醒管道對照" = "ec/payments-and-logistics/references/cart-reminder-channels-reference.md"}
             ]},
         ]},
         { "網站外觀" = [

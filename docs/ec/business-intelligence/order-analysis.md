@@ -2,7 +2,7 @@
 title: 訂單分析
 description: 使用訂單分析頁面查看銷售趨勢、金物流偏好與業績報表
 created: 2026-06-15
-last_modified: 2026-06-15 21:22
+last_modified: 2026-06-16 12:32
 lang: zh-TW
 type: tutorial
 status: ""
@@ -21,11 +21,13 @@ sites:
 audiences:
   - admin
 difficulty: beginner
-tnb: ""
+tnb: branch
 plans:
-  - 專業
-  - 進階
   - 高手
+  - 專業 PLUS 
+  - 進階 PLUS
+  - 高手 PLUS
+  - 企業
 intents:
   - 查看訂單銷售趨勢
   - 分析付款與出貨偏好
@@ -51,7 +53,7 @@ hide:
 
 「訂單分析」是商店掌握經營成效的報表頁面，從宏觀的銷售趨勢到細部的取消率、退貨率、導購來源，協助您快速看懂訂單的整體健康度。
 
-整個頁面分為三個分頁： **訂單總體分析** 看整體銷售趨勢與健康度指標、 **訂單金物流分析** 看付款與出貨的偏好、 **訂單報表** 提供可下載的業績明細表。部分方案僅會看到「訂單總體分析」，詳見 [使用前提與限制][prerequisites]{ data-preview }。
+整個頁面分為三個分頁： **訂單總體分析** 看整體銷售趨勢與健康度指標、 **訂單金物流分析** 看付款與出貨的偏好、 **訂單報表** 提供可下載的業績明細表。部分方案僅會看到「訂單總體分析」，詳見 [使用前提與限制](#prerequisites-order-analysis)。
 
 ---
 
@@ -63,9 +65,50 @@ hide:
 | 訂單金物流分析 | 依付款方式、出貨方式、第三方導購拆解的訂單數、占比、平均客單價與退貨率。 |
 | 訂單報表 | 日期區間對比、各時段業績、每日業績三張可下載成 Excel 的表格。 |
 
-完整的分頁顯示條件與方案差異，請見 [訂單分析分頁與方案對照][reference-order-analysis-tabs]{ data-preview }。
+完整的分頁顯示條件與方案差異，請見 [訂單分析分頁與方案對照](references/order-analysis-tabs-reference.md#reference-order-analysis-tabs){ data-preview }。
 
 ---
+
+### 訂單總體分析的圖表 { #overview-order-analysis-overall }
+
+| 區塊 | 圖表類型 | 看什麼 |
+| :-- | :-- | :-- |
+| 總訂單數 | 數字卡 | 全店累計的認列訂單筆數。 |
+| 近 30 日訂單數 | 數字卡（含變動值） | 最近 30 日的訂單數，並比較過去 30 日與長期平均的變動值。 |
+| 訂單金額分布 | 圖表 | 認列訂單依訂單金額級距的分布。 |
+| 商品數分布 | 圖表 | 認列訂單依商品數量級距的分布。 |
+| 取消率趨勢 | 趨勢圖 | 取消率隨時間的變化。 |
+| 退貨率趨勢 | 趨勢圖 | 退貨率隨時間的變化（以排除取消後的認列訂單為母數）。 |
+
+<!-- TODO：上表是依草稿既有敘述（總覽表 + 變動值 FAQ）整理的，圖表「名稱 / 類型 / 確切張數」請對照本機的 order-analysis-overview-metrics-reference.md 補正，避免腦補。 -->
+
+各指標的詳細定義，請見 [訂單總體分析指標對照][reference-order-analysis-overview-metrics]{ data-preview }。
+
+---
+
+### 訂單金物流分析的圖表 { #overview-order-analysis-finance-logistics }
+
+| 維度 | 圖表類型 | 看什麼 |
+| :-- | :-- | :-- |
+| 付款方式 | 占比 / 明細 | 各付款方式的訂單數、占比、平均客單價與退貨率。 |
+| 出貨方式 | 占比 / 明細 | 各出貨方式的訂單數、占比、平均客單價與退貨率。 |
+| 第三方導購 | 占比 / 明細 | 各導購來源的訂單數、占比、平均客單價與退貨率（需已串接導購平台才顯示）。 |
+
+<!-- TODO：金物流各圖表的「名稱 / 類型 / 完整指標欄位」請對照本機的 order-analysis-finance-logistics-reference.md 補正。 -->
+
+各圖表的詳細定義，請見 [訂單金物流分析圖表對照][reference-order-analysis-finance-logistics]{ data-preview }。
+
+---
+
+### 訂單報表的表格 { #overview-order-analysis-report }
+
+| 表格 | 看什麼 |
+| :-- | :-- |
+| 日期區間對比 | 兩個日期區間的業績對比。 |
+| 時間別業績狀況 | 各時段的業績表現。 |
+| 每日業績狀況 | 每日的業績表現。 |
+
+各表的欄位意義請見 [訂單報表欄位對照][reference-order-analysis-report-fields]{ data-preview }。
 
 ## 使用前提與限制 { #prerequisites-order-analysis }
 
@@ -88,11 +131,11 @@ hide:
     以下四種方案 **只會顯示「訂單總體分析」**，不會出現「訂單金物流分析」與「訂單報表」分頁：
 
     * 高手版
-    * 高手plus版
-    * 專業plus版
-    * 進階plus版
+    * 高手PLUS版
+    * 專業PLUS版
+    * 進階PLUS版
 
-    其餘方案(例如進階版、專業版、達人級、尊爵版、企業版等)可看到完整三個分頁。如需升級方案以解鎖完整報表，請洽詢您的開店顧問。
+    如需升級方案以解鎖完整報表，請洽詢您的開店顧問。
 
 ---
 
@@ -125,8 +168,92 @@ hide:
 2. 點選 **「訂單金物流分析」**，查看付款方式、出貨方式與第三方導購的表現。
 3. 點選 **「訂單報表」**，查看並下載業績明細表。
 
+![切換分析分頁](../../../assets/images/ec-bi-order-switch-tab.zh-tw.png)
+
 !!! info "提示"
     若您只看得到「訂單總體分析」一個分頁，屬於方案差異，請見 [方案差異][prerequisites-order-analysis-plan]{ data-preview }。
+
+---
+
+### 看懂訂單總體分析 { #operate-order-analysis-read-overall }
+
+「訂單總體分析」以數據卡與趨勢圖呈現全店訂單的整體健康度。各圖表說明如下。
+
+#### 總訂單數與近 30 日訂單數 { #operate-order-analysis-read-cards }
+
+最上方的數據卡呈現訂單量的關鍵數字：
+
+![總訂單數與近 30 日訂單數](../../../assets/images/ec-bi-order-read-cards.zh-tw.png)
+
+1. **總訂單數：** 全店累計的認列訂單筆數。
+2. **近 30 日訂單數：** 最近 30 日的訂單數，卡片上的 **變動值** 比較過去 30 日與長期平均，正值代表成長、負值代表下滑。
+
+各指標定義請見 [訂單總體分析指標對照][reference-order-analysis-overview-metrics]{ data-preview }。
+
+---
+
+#### 訂單金額分布 { #operate-order-analysis-read-amount-dist }
+
+呈現認列訂單依訂單金額級距的分布，協助您看出客單價主要集中在哪個區間。
+
+![訂單金額分布](../../../assets/images/ec-bi-order-read-amount-dist.zh-tw.png)
+
+---
+
+#### 商品數分布 { #operate-order-analysis-read-item-dist }
+
+呈現認列訂單依商品數量級距的分布，協助您看出每筆訂單的商品數集中在哪個區間。
+
+![商品數分布](../../../assets/images/ec-bi-order-read-item-dist.zh-tw.png)
+
+---
+
+#### 取消率趨勢 { #operate-order-analysis-read-cancel-rate }
+
+以趨勢呈現取消率隨時間的變化，協助您及早察覺訂單品質的異常波動。
+
+![取消率趨勢](../../../assets/images/ec-bi-order-read-cancel-rate.zh-tw.png)
+
+---
+
+#### 退貨率趨勢 { #operate-order-analysis-read-return-rate }
+
+以趨勢呈現退貨率隨時間的變化。計算退貨率時會先排除已取消的訂單，再以認列訂單為母數統計。
+
+![退貨率趨勢](../../../assets/images/ec-bi-order-read-return-rate.zh-tw.png)
+
+
+### 看懂訂單金物流分析 { #operate-order-analysis-read-finance-logistics }
+
+「訂單金物流分析」把訂單依付款方式、出貨方式與第三方導購拆解，協助您看出顧客的金物流偏好與各通路的成效。各圖表說明如下。
+
+#### 付款方式分析 { #operate-order-analysis-read-payment }
+
+呈現各付款方式的訂單數、占比、平均客單價與退貨率。項目會依店內實際啟用的付款方式動態顯示，未使用到的方式不會出現。
+
+![付款方式分析](../../../assets/images/ec-bi-order-read-payment.zh-tw.png)
+
+各圖表定義請見 [訂單金物流分析圖表對照][reference-order-analysis-finance-logistics]{ data-preview }。
+
+---
+
+#### 出貨方式分析 { #operate-order-analysis-read-shipping }
+
+呈現各出貨方式的訂單數、占比、平均客單價與退貨率。項目會依店內實際啟用的出貨方式動態顯示，未使用到的方式不會出現。
+
+![出貨方式分析](../../../assets/images/ec-bi-order-read-shipping.zh-tw.png)
+
+---
+
+#### 第三方導購分析 { #operate-order-analysis-read-third-party }
+
+呈現各導購來源的訂單數、占比、平均客單價與退貨率，協助您比較不同導購通路的成效。
+
+![第三方導購分析](../../../assets/images/ec-bi-order-read-third-party.zh-tw.png)
+
+!!! info "提示"
+    此圖表需已串接導購平台才會顯示，詳見 [第三方導購圖表的顯示條件][prerequisites-order-analysis-third-party]{ data-preview }。
+
 
 ---
 
@@ -137,6 +264,8 @@ hide:
 1. 點選圖表(或報表)上的 **日期欄位**。
 2. 選擇預設區間(最近 7 日、最近 30 日、這個月、上個月)或選「自訂」自行框選起訖日期。
 3. 點選 **「套用」**，該圖表即依新的區間重新整理。
+
+![調整日期區間](../../../assets/images/ec-bi-order-date-range.zh-tw.png)
 
 !!! note "註釋"
     日期格式為 MM/DD/YYYY。每張圖表是獨立調整的，調整其中一張不會影響其他圖表。
@@ -150,6 +279,8 @@ hide:
 1. 切換到 **「訂單報表」** 分頁。
 2. 找到要下載的表格(日期區間對比、時間別業績狀況、每日業績狀況)。
 3. 點選該表格右上角的 **「下載為Excel」** 按鈕，檔案即會下載。
+
+![下載訂單報表](../../../assets/images/ec-bi-order-download-excel.zh-tw.png)
 
 各表的欄位意義請見 [訂單報表欄位對照][reference-order-analysis-report-compare]{ data-preview }。
 

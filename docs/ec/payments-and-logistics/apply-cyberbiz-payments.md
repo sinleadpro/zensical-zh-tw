@@ -2,7 +2,7 @@
 title: 申請 CYBERBIZ PAYMENTS
 description: 設定網站、提交商店資訊，並啟用 CYBERBIZ PAYMENTS。
 created: 2026-01-26 00:00
-last_modified: 2026-06-14 11:27
+last_modified: 2026-06-16 09:29
 lang: zh-TW
 type: tutorial
 status:
@@ -66,7 +66,7 @@ hide: []
 
 ![](../../assets/images/ec-payments-cyb-payments.zh-tw.png){ .hero-page }
 
-## 什麼是 CYBERBIZ PAYMENTS
+## CYBERBIZ PAYMENTS 說明 { #intro-cyb-payments }
 
 **CYBERBIZ PAYMENTS** 是 CYBERBIZ 提供的 **金流代收代付服務**，支援信用卡及多種支付工具，為商家與顧客提供 **快速、安全、便利** 的交易環境。
 
@@ -83,6 +83,8 @@ hide: []
     - 超過門檻的交易需手機簡訊驗證，低於門檻則採 幕後授權。
     - 若發生爭議，責任通常由持卡人承擔。
 
+---
+
 ### 支援支付方式
 
 開通後，商家可啟用以下多樣化收款工具：
@@ -95,6 +97,8 @@ hide: []
 | 先享後付 | AFTEE | 顧客僅需手機驗證即可結帳 |
 | 超商支付 | 7-11 / 全家 | 下單後手機取得條碼，至門市掃碼付款 |
 | ATM 轉帳 | 虛擬 ATM | 取得專屬虛擬帳號後，透過網銀或實體 ATM 轉帳付款 |
+
+---
 
 ### 自動化管理功能
 
@@ -138,6 +142,8 @@ hide: []
 
 詳情請見 [完成網站建置](#完成網站建置)
 
+---
+
 ### 步驟二：店家資料與合約處理
 
 1. 登入 CYBERBIZ 管理後台，前往 **金物流 → 金流設定 > CYBERBIZ PAYMENTS > 立即申請**
@@ -176,6 +182,8 @@ flowchart LR
 
 ![](../../assets/images/ec-網站外觀-logo.png)
 
+---
+
 ### 設定網站名稱
 
 1. 登入 CYBEBIZ 管理後台，前往 **管理中心 > 一般設定 > 網站名**
@@ -184,9 +192,11 @@ flowchart LR
 
 ![](../../assets/images/ec-管理中心-網站名稱.png)
 
+---
+
 ### 上架至少一個商品或服務
 
-> 後台路徑：**商品 > 所有商品 > 新增商品**
+!!! path "後台路徑：**商品 > 所有商品 > 新增商品**"
 
 上架商品或服務須包含：
 
@@ -196,6 +206,8 @@ flowchart LR
 
 !!! note "詳細設定步驟，請參閱 [上架單一商品](create-update-products.md)"
 
+---
+
 ### 設定「關於我們」頁面
 
 1. 登入 CYBERBIZ 管理後台，前往 **網站外觀 > 自訂頁面管理**。
@@ -203,6 +215,8 @@ flowchart LR
 3. 點擊 **文字編輯** 可進行頁面文字編輯，或點擊 **新增區塊** 以新增不同區塊樣式。
 
 ![](../../assets/images/ec-網站外觀-自訂頁面-關於我們.gif)
+
+---
 
 ### 設定聯絡資訊
 
@@ -215,8 +229,9 @@ flowchart LR
 
 <div class="grid cards" markdown>
 
-- :lucide-shield-check:{ .lg }  ](setup-credit-card-3d-verification.md)_](設定信用卡 3D 驗證門檻.md){ title="設定信用卡 3D 驗證門檻" }    
-  匯入編輯過的商品 Excel 檔案，同步更新多筆商品的商品描述與配送相關設定。
+- :lucide-shield-check:{ .lg }     
+  [__設定信用卡 3D 驗證門檻__](setup-credit-card-3d-verification.md){ title="設定信用卡 3D 驗證門檻" }  
+  設定 3D 驗證門檻，為交易安全把關。
 - :simple-applepay:{ .lg }     
   [__設定 Apple Pay__](設定 Apple Pay){ title="設定 Apple Pay" }  
   啟用 Apple Pay 支付選項。
@@ -249,7 +264,8 @@ flowchart LR
 ??? quote "行動支付需要額外申請嗎？"
     不需要。系統開通 CYBERBIZ PAYMENTS 後，**自動啟用 Google Pay 與 Apple Pay**。手續費通常與信用卡一次付清相同。
 
-??? quote "可以](setup-credit-card-3d-verification.md)可以。請參考 [設定信用卡 3D 驗證門檻](設定信用卡 3D 驗證門檻.md){ title="設定信用卡 3D 驗證門檻" }。超過門檻的交易需簡訊驗證，低於門檻則採幕後授權。
+??? quote "可以設定信用卡 3D 驗證門檻嗎？"
+    可以。請參考 [設定信用卡 3D 驗證門檻](setup-credit-card-3d-verification.md){ title="設定信用卡 3D 驗證門檻" }。超過門檻的交易需簡訊驗證，低於門檻則採幕後授權。
 
 ??? quote "如果商品資料不完整會影響審核嗎？"
     會。商品圖片、價格及商品介紹或服務說明需完整，否則風控可能要求補件，延長審核時間。
