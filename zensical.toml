@@ -54,12 +54,16 @@ copyright = """
         ]},
         { "分析報表" = [
             {"overview" = "ec/business-intelligence/index.md"},
-            {"圖表總覽" = "ec/business-intelligence/business-intelligence-overview.md"},
-            {"基準化分析" = "ec/business-intelligence/benchmarking.md"},
-            {"廣告分析" = "ec/business-intelligence/ad-analytics-guide.md"},
-            {"商品分析" = "ec/business-intelligence/product-analysis.md"},
-            {"訂單分析" = "ec/business-intelligence/order-analysis.md"},
+            {"圖表總覽" = [
+                {"圖表總覽" = "ec/business-intelligence/business-intelligence-overview.md"},
+                {"基準化分析" = "ec/business-intelligence/benchmarking.md"},
+            ]},
             {"營收分析" = "ec/business-intelligence/revenue-analysis.md"},
+            {"訂單分析" = "ec/business-intelligence/order-analysis.md"},
+            {"會員分析" = ""},
+            {"商品分析" = "ec/business-intelligence/product-analysis.md"},
+            {"行銷活動分析" = ""},
+            {"廣告分析" = "ec/business-intelligence/ad-analytics-guide.md"},
             {"定期定額分析" = "ec/business-intelligence/periodic-order-analysis.md"},
             { "參考資料" = [
                 {"廣告分析指標" = "ec/business-intelligence/references/advertising-analytics-metrics-reference.md"},

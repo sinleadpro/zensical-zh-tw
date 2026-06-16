@@ -2,12 +2,12 @@
 title: 訂單分析
 description: 使用訂單分析頁面查看銷售趨勢、金物流偏好與業績報表
 created: 2026-06-15
-last_modified: 2026-06-16 16:29
+last_modified: 2026-06-16 20:36
 lang: zh-TW
 type: tutorial
 status: ""
-author: Jase
 version: ""
+author: Jase
 reviewers: []
 notes: []
 ga_views: 0
@@ -24,10 +24,12 @@ difficulty: beginner
 tnb: branch
 plans:
   - 高手
-  - 專業 PLUS 
-  - 進階 PLUS
-  - 高手 PLUS
+  - 專業PLUS 
+  - 進階PLUS
+  - 高手PLUS
   - 企業
+cyb_extensions: []
+feature_badges: []
 intents:
   - 查看訂單銷售趨勢
   - 分析付款與出貨偏好
@@ -38,11 +40,37 @@ features:
   - 訂單報表
 prerequisites:
   - 已開通 CYBERBIZ 商店後台
+related:
+  - "[[order-analysis-tabs-reference]]"
+  - "[[order-analysis-overview-metrics-reference]]"
+  - "[[order-analysis-finance-logistics-reference]]"
+  - "[[order-analysis-report-fields-reference]]"
+tags:
+  - 訂單分析
+  - 訂單總體分析
+  - 訂單金物流分析
+  - 訂單報表
+  - 取消率
+  - 退貨率
+  - 變動值
+  - 分析報表
+acoiv: operation
+apis: []
 devices:
   - desktop
-apis: []
-wp_url: []
+ui_components: []
+paths:
+  - 分析報表 > 訂單分析
+layouts: []
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=5043
+  - https://www.cyberbiz.io/support/?p=9602
+  - https://www.cyberbiz.io/support/?p=8473
+  - https://www.cyberbiz.io/support/?p=8714
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/order-analysis/"
+comments: false
+search:
+  exclude: false
 icon: lucide/bar-chart-3
 hide:
 ---
@@ -256,9 +284,23 @@ hide:
 2. 找到要下載的表格(日期區間對比、時間別業績狀況、每日業績狀況)。
 3. 點選該表格右上角的 **「下載為Excel」** 按鈕，檔案即會下載。
 
-![下載訂單報表](../../../assets/images/ec-bi-order-download-excel.zh-tw.png)
+=== "日期區間對比"
 
-各表的欄位意義請見 [訂單報表欄位對照][reference-order-analysis-report-compare]{ data-preview }。
+    ![日期區間對比](../../../assets/images/ec-bi-order-report-compare.zh-tw.png)
+
+    欄位說明請見 [訂單報表欄位對照](references/order-analysis-report-fields-reference.md#reference-order-analysis-report-compare){ data-preview }。
+
+=== "時間別業績狀況"
+
+    ![時間別業績狀況](../../../assets/images/ec-bi-order-report-by-time.zh-tw.png)
+
+    欄位說明請見 [訂單報表欄位對照](references/order-analysis-report-fields-reference.md#reference-order-analysis-report-by-time){ data-preview }。
+
+=== "每日業績狀況"
+
+    ![每日業績狀況](../../../assets/images/ec-bi-order-report-daily.zh-tw.png)
+
+    欄位說明請見 [訂單報表欄位對照](references/order-analysis-report-fields-reference.md#reference-order-analysis-report-daily){ data-preview }。
 
 !!! tip "技巧"
     圖表類的區塊(訂單總體分析、訂單金物流分析)本身不提供下載；若需匯出資料，請使用「訂單報表」分頁的三張表格。
@@ -266,6 +308,9 @@ hide:
 ---
 
 ## 看懂訂單總體分析 { #read-order-analysis-overall }
+
+??? plan "企業版專用"
+    本章節的圖表僅適用於 **企業版** 方案。
 
 「訂單總體分析」以數據卡與多張趨勢、占比圖呈現全店訂單的整體健康度。各圖表的完整定義與計算公式請見 [訂單總體分析指標對照](references/order-analysis-overview-metrics-reference.md#reference-order-analysis-overview-metrics){ data-preview }。
 
@@ -279,7 +324,7 @@ hide:
 
 === "近 30 日訂單數"
 
-    當下日期往前推 30 天的訂單數；卡片上的 **變動值** 比較過去 30 日與開站以來長期平均，正值代表成長。
+    當下日期往前推 30 天的訂單數；卡片上的 **變動值**[^1] 比較過去 30 日與開站以來長期平均，正值代表成長。
 
     ![近 30 日訂單數](../../../assets/images/ec-bi-order-30d-orders.zh-tw.png)
 
@@ -291,7 +336,7 @@ hide:
 
 === "每日平均訂單數量（月趨勢）"
 
-    各月的每日平均訂單數（當月總訂單數 ÷ 當月天數），另含 **近 30 日日均訂單數** 與 **變動值**。
+    各月的每日平均訂單數（當月總訂單數 ÷ 當月天數），另含 **近 30 日日均訂單數**[^6] 與 **變動值**[^2]。
 
     ![每日平均訂單數量（月趨勢）](../../../assets/images/ec-bi-order-daily-avg-orders.zh-tw.png)
 
@@ -325,7 +370,7 @@ hide:
 
 === "每日平均訂單金額（月趨勢）"
 
-    各月的每日平均訂單金額，另含 **近 30 日平均訂單金額** 與 **變動值**。
+    各月的每日平均訂單金額，另含 **近 30 日平均訂單金額**[^7] 與 **變動值**[^3]。
 
     ![每日平均訂單金額（月趨勢）](../../../assets/images/ec-bi-order-daily-avg-amount.zh-tw.png)
 
@@ -335,19 +380,32 @@ hide:
 
 === "訂單取消率月趨勢"
 
-    各月的訂單取消率（當月已取消訂單 ÷ 當月所有訂單），另含 **近 30 日取消率** 與 **變動值**。
+    各月的訂單取消率（當月已取消訂單 ÷ 當月所有訂單），另含 **近 30 日取消率**[^8] 與 **變動值**[^4]。
 
     ![訂單取消率月趨勢](../../../assets/images/ec-bi-order-cancel-rate.zh-tw.png)
 
 === "訂單退貨率月趨勢"
 
-    各月的訂單退貨率（當月已退貨訂單 ÷ 非「已取消」訂單；已取消無法出貨故排除），另含 **近 30 日退貨率** 與 **變動值**。
+    各月的訂單退貨率（當月已退貨訂單 ÷ 非「已取消」訂單；已取消無法出貨故排除），另含 **近 30 日退貨率**[^9] 與 **變動值**[^5]。
 
     ![訂單退貨率月趨勢](../../../assets/images/ec-bi-order-return-rate.zh-tw.png)
+
+[^1]: 近 30 日數值 − 開站以來長期平均數值
+[^2]: 過去 30 天平均訂單數 − 開站以來訂單平均數
+[^3]: 過去 30 天平均訂單金額 − 開站以來訂單平均金額
+[^4]: (近 30 日取消 ÷ 近 30 日總訂單) × 100 − (開站以來取消 ÷ 開站以來總訂單) × 100
+[^5]: (近 30 日退貨 ÷ 非取消訂單) × 100 − (開站以來退貨 ÷ 開站以來非取消) × 100
+[^6]: 近 30 日訂單數 ÷ 30
+[^7]: 近 30 日訂單金額 ÷ 30
+[^8]: (近 30 日取消 ÷ 近 30 日總訂單) × 100
+[^9]: (近 30 日退貨 ÷ 非取消訂單) × 100
 
 ---
 
 ## 看懂訂單金物流分析 { #read-order-analysis-finance-logistics }
+
+??? plan "企業版專用"
+    本章節的圖表僅適用於 **企業版** 方案。
 
 「訂單金物流分析」把訂單依 **付款方式、出貨方式、第三方導購** 三個維度拆解，從訂單數、占比、平均客單價、退貨率等角度觀察。各圖表的完整計算公式請見 [訂單金物流分析圖表對照](references/order-analysis-finance-logistics-reference.md#reference-order-analysis-finance-logistics){ data-preview }。
 
@@ -439,6 +497,8 @@ hide:
 
     ![出貨方式退貨率](../../../assets/images/ec-bi-order-shipping-return.zh-tw.png)
 
+---
+
 ### 第三方導購 { #read-order-analysis-read-third-party }
 
 !!! info "顯示條件"
@@ -502,7 +562,7 @@ hide:
 
 ??? quote "為什麼我看不到「訂單金物流分析」或「訂單報表」分頁？"
     [](){ #faq-order-analysis-missing-tabs }
-    這是方案差異。高手版、高手plus版、專業plus版、進階plus版這四種方案只會顯示「訂單總體分析」。如需完整三個分頁，請洽詢開店顧問升級方案，詳見 [方案差異][prerequisites-order-analysis-plan]{ data-preview }。
+    這是方案差異。高手版、高手PLUS版、專業PLUS版、進階PLUS版這四種方案只會顯示「訂單總體分析」。如需完整三個分頁，請洽詢開店顧問升級方案，詳見 [方案差異][prerequisites-order-analysis-plan]{ data-preview }。
 
 ??? quote "卡片上的「變動值」是什麼意思？"
     [](){ #faq-order-analysis-variation }
