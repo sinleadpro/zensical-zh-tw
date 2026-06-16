@@ -113,9 +113,6 @@ icon: lucide/circle-question-mark
 
 ## 其他
 
-??? quote "哪裡可以查看系統更新紀錄？"
-	請前往 [更新紀錄](resources/changelog.md)。
-
 ??? quote "如何聯絡客服？"
 	請透過後台「聯絡支援」功能提交工單。
 

@@ -329,13 +329,13 @@ function openTab(evt, tabName) {
     [__APP MARKET__](ec/app-market/){ title="APP MARKET" }
 
 -   :lucide-cog:{ .lg }
-    [__自動化功能__](ec/app-market/automation/)
+    [__自動化功能__](ec/app-market/automation/automation-push-flow.md)
 
 -   :lucide-ticket:{ .lg }
-    [__電子票券__](ec/e-ticket/設定指南.md)
+    [__電子票券__](ec/e-ticket/電子票券設定指南.md)
 
 -   :lucide-zap:{ .lg }
-    [__快速到貨__](#)
+    [__快速到貨__](ec/payments-and-logistics/cyberbiz-now/index.md)
 
 -   :lucide-credit-card:{ .lg }
     [__金流支付__](ec/payments-and-logistics/){ title="付款金流" }
@@ -344,13 +344,13 @@ function openTab(evt, tabName) {
     [__訊息通__](ec/app-market/cyberbiz-extensions/chat-box/)
 
 -   :lucide-link-2:{ .lg }
-    [__全通路管理助手__](ec/app-market/cyberbiz-channel-bridge/)
+    [__全通路管理助手__](ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md)
 
 -   :lucide-shopping-cart:{ .lg }
-    [__門市助理__](storepal/){ title="hide:" }
+    [__門市助理__](ec/app-market/storepal/){ title="門市助理" }
 
 -   :lucide-arrow-right-from-line:{ .lg }
-    [__EXPRESS__](#)
+    [__EXPRESS__](ec/payments-and-logistics/cyberbiz-express-japan-to-taiwan-delivery.md)
 
 </div>
 
@@ -382,25 +382,25 @@ function openTab(evt, tabName) {
 
 <div class="grid cards" markdown>
 
-<!-- -   :lucide-megaphone:{ .lg } -->
-<!--     [__功能報報__](#) -->
-<!---->
-<!--     --- -->
-<!---->
-<!--     了解最新動態與實用技巧，請持續關注我們的部落格。 -->
-
--   :lucide-history:{ .lg }
-    [__更新紀錄__](resources/changelog/){ title="更新紀錄" }
+-   :lucide-bookmark:{ .lg }
+    [__詞彙表__](resources/glossary/){ title="詞彙表" }
 
     ---
 
-    關注我們的功能更新紀錄。
+    從行銷策略到金流串接，所有電商經營必備知識都在這裡。
 
-<!-- -   :lucide-messages-square:{ .lg } -->
-<!--     [__聯絡我們__](#) -->
-<!---->
-<!--     --- -->
-<!---->
-<!--     透過後台的線上客服與我們聯繫。 -->
+-   :lucide-video:{ .lg }
+    [__影音教學__](resources/video-tutorials/){ title="影片教學資源總覽" }
+
+    ---
+
+    由淺入深的視聽指導，助您快速上手各項智能系統功能。
+
+-   :lucide-download:{ .lg }
+    [__下載資源__](resources/downloads/){ title="下載資源" }
+
+    ---
+
+    彙整 CYBERBIZ 教學資源與文件下載。
 
 </div>

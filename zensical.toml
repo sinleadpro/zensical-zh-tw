@@ -60,9 +60,13 @@ copyright = """
             ]},
             {"營收分析" = "ec/business-intelligence/revenue-analysis.md"},
             {"訂單分析" = "ec/business-intelligence/order-analysis.md"},
-            {"會員分析" = ""},
+            {"會員分析" = [
+                {"會員總覽" = "ec/business-intelligence/member-overview.md"},
+                {"會員分析" = "ec/business-intelligence/member-analysis.md"},
+                {"消費顧客分析" = "ec/business-intelligence/customer-analysis.md"},
+            ]},
             {"商品分析" = "ec/business-intelligence/product-analysis.md"},
-            {"行銷活動分析" = ""},
+            {"行銷活動分析" = "ec/business-intelligence/marketing-activity-analysis.md"},
             {"廣告分析" = "ec/business-intelligence/ad-analytics-guide.md"},
             {"定期定額分析" = "ec/business-intelligence/periodic-order-analysis.md"},
             { "參考資料" = [
@@ -75,7 +79,13 @@ copyright = """
                 {"訂單金物流分析圖表" = "ec/business-intelligence/references/order-analysis-finance-logistics-reference.md"},
                 {"訂單報表欄位" = "ec/business-intelligence/references/order-analysis-report-fields-reference.md"},
                 {"營收分析指標" = "ec/business-intelligence/references/revenue-analysis-metrics-reference.md"},
-                {"定期定額分析指標" = "ec/business-intelligence/references/periodic-order-analysis-metrics-reference.md"}
+                {"定期定額分析指標" = "ec/business-intelligence/references/periodic-order-analysis-metrics-reference.md"},
+                {"會員分析共用定義" = "ec/business-intelligence/references/member-analysis-definitions-reference.md"},
+                {"會員現況與註冊來源對照表" = "ec/business-intelligence/references/member-status-registration-sources-reference.md"},
+                {"會員年齡分群對照表" = "ec/business-intelligence/references/member-age-groups-reference.md"},
+                {"會員等級銷售狀況對照表" = "ec/business-intelligence/references/member-level-sales-status-reference.md"},
+                {"優惠券指標定義" = "ec/business-intelligence/references/marketing-activity-coupon-metrics-reference.md"},
+                {"折扣種類" = "ec/business-intelligence/references/marketing-activity-discount-categories-reference.md"}
             ]}
         ]},
         { "訂單" = [
@@ -716,7 +726,6 @@ copyright = """
             ]},
         ]},
         { "詞彙表" = "resources/glossary.md" },
-        { "更新紀錄" = "resources/changelog.md" },
         { "圖示慣例" = "resources/conventions.md" },
         { "下載資源" = "resources/downloads.md" }
     ]}

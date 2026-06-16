@@ -1431,6 +1431,48 @@ CYBERBIZ DOCS
 廣告分析
 基準化分析
 
+# 會員分析 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/member-analysis/
+
+Description: 掌握會員規模、成長趨勢與首購後的留存及回購表現，評估會員經營健康度。
+
+# 會員等級銷售狀況對照表 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/member-level-sales-status-reference/
+
+Description: 會員總覽分頁中會員等級銷售狀況的統計分類對照，說明 VIP 會員與普通會員的定義及銷售貢獻比較。
+
+# 會員分析共用定義 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/member-analysis-definitions-reference/
+
+Description: 會員分析頁面共用的統計基準與名詞定義，包含有效訂單定義、數據更新時間及新會員與新客判定方式。
+
+# 會員年齡分群對照表 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/member-age-groups-reference/
+
+Description: 會員總覽分頁中會員年齡分群區間的統計分類對照，包含各年齡層定義及未填寫生日的處理方式。
+
+# 會員現況與註冊來源對照表 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/member-status-registration-sources-reference/
+
+Description: 會員總覽分頁中會員現況區塊的分類意義對照，包含新舊會員、註冊狀態及第三方登入來源說明。
+
+# 會員總覽 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/member-overview/
+
+Description: 從性別、年齡、註冊來源到會員等級描繪會員輪廓，協助調整商品文案、廣告受眾與會員制度。
+
+# 消費顧客分析 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/customer-analysis/
+
+Description: 以第一次下單時間切分新客與舊客，深入比較顧客數、訂單貢獻與回購表現。
+
 # 基準參考範圍狀態對照表 - CYBERBIZ DOCS
 
 URL: https://help.cyberbiz.io/ec/business-intelligence/references/benchmark-reference-range-status-reference/

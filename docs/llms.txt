@@ -16,14 +16,24 @@
 - [基準化分析 (Benchmarking) - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/benchmarking/): 透過 AI 機器學習比對同業基準，找出商店流量、轉換率、客單價、回購率的優化方向。
 - [廣告分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/ad-analytics-guide/): 不必登入 Google Ads 後台，在 CYBERBIZ 就能看懂 Google 購物廣告的曝光、點擊、轉換與 ROAS 成效。
 - [廣告分析指標對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/advertising-analytics-metrics-reference/): 廣告分析頁面的 11 項成效指標定義與計算方式對照，包含費用、曝光、點擊、轉換與 ROAS。
+- [會員分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/member-analysis/): 掌握會員規模、成長趨勢與首購後的留存及回購表現，評估會員經營健康度。
+- [會員等級銷售狀況對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/member-level-sales-status-reference/): 會員總覽分頁中會員等級銷售狀況的統計分類對照，說明 VIP 會員與普通會員的定義及銷售貢獻比較。
+- [會員分析共用定義 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/member-analysis-definitions-reference/): 會員分析頁面共用的統計基準與名詞定義，包含有效訂單定義、數據更新時間及新會員與新客判定方式。
+- [會員年齡分群對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/member-age-groups-reference/): 會員總覽分頁中會員年齡分群區間的統計分類對照，包含各年齡層定義及未填寫生日的處理方式。
+- [會員現況與註冊來源對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/member-status-registration-sources-reference/): 會員總覽分頁中會員現況區塊的分類意義對照，包含新舊會員、註冊狀態及第三方登入來源說明。
+- [會員總覽 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/member-overview/): 從性別、年齡、註冊來源到會員等級描繪會員輪廓，協助調整商品文案、廣告受眾與會員制度。
+- [消費顧客分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/customer-analysis/): 以第一次下單時間切分新客與舊客，深入比較顧客數、訂單貢獻與回購表現。
 - [基準參考範圍狀態對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/benchmark-reference-range-status-reference/): 認識圖表總覽中的基準參考範圍三種狀態：優於基準、符合基準、低於基準，以及對應的建議動作。
 - [定期定額分析指標定義對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/periodic-order-analysis-metrics-reference/): 說明「定期定額分析」頁面上各項數據卡與圖表的指標意義與定義，供其他文件以 data-preview 引用。
 - [訂單分析分頁與方案對照 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-tabs-reference/): 訂單分析三個分頁的功能內容與各方案顯示條件對照。
 - [商品分析欄位對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/product-analysis-metrics-reference/): 商品分析各區塊的欄位與指標定義，包含銷量排名、回購頻率、無銷量商品與期間別購買狀況。
+- [優惠券指標定義對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/marketing-activity-coupon-metrics-reference/): 優惠券分析頁面的種類分析與特定優惠券分析指標定義與計算方式對照，包含折扣金額、使用率、平均使用週期等。
 - [訂單總體分析指標對照 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-overview-metrics-reference/): 訂單總體分析分頁中各項關鍵指標與趨勢圖的定義對照。
 - [訂單金物流分析圖表對照 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-finance-logistics-reference/): 訂單金物流分析分頁中三個分析群組的圖表類型與顯示條件對照。
 - [訂單報表欄位對照 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-report-fields-reference/): 訂單報表分頁中三張 Excel 表格的欄位定義與說明對照。
 - [營收分析指標定義對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/revenue-analysis-metrics-reference/): 營收分析頁面各項數據卡與營收總覽圖表的指標意義與計算基礎對照，含總營收、毛利、成長率等定義。
+- [行銷活動分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/marketing-activity-analysis/): 一次掌握折扣、優惠券與紅利的成效，了解哪些行銷活動真正帶動訂單與營收。
+- [折扣種類對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/marketing-activity-discount-categories-reference/): 折扣活動分析中的 5 種折扣種類說明與開通條件對照，包含加價購、紅配綠、優惠碼折扣與任選折扣。
 - [商品分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/product-analysis/): 掌握店內商品的銷售表現，找出熱賣商品、滯銷品與回購行為，為進貨、行銷與定價決策提供數據參考。
 - [訂單分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/order-analysis/): 使用訂單分析頁面查看銷售趨勢、金物流偏好與業績報表。
 - [營收分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/revenue-analysis/): 透過數據卡與多種圖表，快速掌握全店營收表現、獲利狀況與營收高峰時段。
