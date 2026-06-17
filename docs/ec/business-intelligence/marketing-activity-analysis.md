@@ -2,12 +2,12 @@
 title: 行銷活動分析
 description: 一次掌握折扣、優惠券與紅利的成效，了解哪些行銷活動真正帶動訂單與營收
 created: 2026-06-16
-last_modified: 2026-06-16
+last_modified: 2026-06-17 18:01
 lang: zh-TW
 type: tutorial
 status: ""
-author: Jase
 version: ""
+author: Jase
 reviewers: []
 notes: []
 ga_views: 0
@@ -21,13 +21,15 @@ sites:
 audiences:
   - admin
 difficulty: intermediate
-tnb: ""
+tnb: branch
 plans:
   - 高手
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
+cyb_extensions: []
+feature_badges: []
 intents:
   - 查看行銷活動成效
   - 分析折扣活動與優惠券表現
@@ -41,20 +43,43 @@ features:
   - 優惠券種類分析
 prerequisites:
   - 方案已包含行銷活動分析功能
+related:
+  - "[[設定紅利點數]]"
+  - "[[設定優惠碼]]"
+tags:
+  - 行銷活動分析
+  - 折扣活動
+  - 優惠券
+  - 紅利
+  - 經營分析
+acoiv: operation
+apis: []
 devices:
   - desktop
-apis: []
+ui_components:
+  - 日期選擇器
+  - 下拉選單
+  - 頁籤
+  - 數字卡
+  - 圓餅圖
+  - 長條圖
+  - 排名表格
+  - 分頁切換
+paths:
+  - 經營分析 > 行銷活動分析
+layouts: []
 wp_url: []
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/marketing-activity-analysis/"
+comments: false
+search:
+  exclude: false
 icon: lucide/bar-chart-3
+hide: []
 ---
 
-# 行銷活動分析 { #intro-marketing-activity }
+![行銷活動分析頁面](../../../assets/images/ec-bi-marketing-activity-hero.png){ .hero-page }
 
-「行銷活動分析」讓您一次掌握店內各種折扣、優惠券與紅利的成效，了解哪些行銷活動真正帶動了訂單與營收。
-{ .subtitle }
-
-![行銷活動分析頁面](../../../assets/images/neo-business-intelligence-marketing-activity-hero.png){ .hero-page }
+## 行銷活動分析說明 { #intro-marketing-activity }
 
 這個頁面位於後台左側選單「**經營分析**」之下，整合了三個分析分頁，協助您回答「這檔活動到底有沒有效」這類問題：
 
