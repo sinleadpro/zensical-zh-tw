@@ -110,7 +110,7 @@ hide: []
 | [期間別會員等級銷售狀況](#operate-member-overview-levels) | 表格 | VIP 會員與普通會員的銷售貢獻對比 | 企業版 |
 | [來自LINE購物銷售狀況](#operate-member-overview-line) | 表格 | 來自 LINE 購物通路的銷售狀況 | 需開通 LINE 購物功能 |
 
-各分類的詳細意義，請參考[會員現況與註冊來源對照表][reference-member-registration-sources]{ data-preview }、[會員年齡分群對照表][reference-member-age-groups]{ data-preview } 與[會員等級銷售狀況對照表][reference-member-levels]{ data-preview }。
+各分類的詳細意義，請參考[會員現況與註冊來源對照表](references/member-status-registration-sources-reference.md#reference-member-registration-sources)、[會員年齡分群對照表](references/member-age-groups-reference.md#reference-member-age-groups) 與[會員等級銷售狀況對照表](references/member-level-sales-status-reference.md#reference-member-levels)。
 
 ## 操作步驟 { #operate-member-overview }
 
@@ -126,7 +126,7 @@ hide: []
 
 ### 查看會員年齡分群 { #operate-member-overview-age }
 
-「會員年齡分群」依年齡區間(19 歲以下至 70 歲以上，以及未填寫)列出人數。各區間的定義請見[會員年齡分群對照表][reference-member-age-groups]{ data-preview }。
+「會員年齡分群」依年齡區間(19 歲以下至 70 歲以上，以及未填寫)列出人數。各區間的定義請見[會員年齡分群對照表](references/member-age-groups-reference.md#reference-member-age-groups){ data-preview }。
 
 ![會員年齡分群表格](../../assets/images/ec-bi-customer-age.zh-tw.png){ title="會員年齡分群" }
 
@@ -135,7 +135,7 @@ hide: []
 ### 查看會員現況與註冊來源 { #operate-member-overview-status }
 
 1. **看註冊狀態：** 「會員現況」區分 **新會員**、 **舊會員**、 **註冊會員** 與 **未註冊會員**，了解名單的組成。
-2. **看登入來源：** 同一區塊也會列出 **FB登入會員**、 **LINE登入會員** 與 **已綁定LINE@會員** 等來源，比較不同來源的會員規模。各分類意義請見[會員現況與註冊來源對照表][reference-member-registration-sources]{ data-preview }。
+2. **看登入來源：** 同一區塊也會列出 **FB登入會員**、 **LINE登入會員** 與 **已綁定LINE@會員** 等來源，比較不同來源的會員規模。各分類意義請見[會員現況與註冊來源對照表](references/member-status-registration-sources-reference.md#reference-member-registration-sources){ data-preview }。
 
 ![會員現況與註冊來源表格](../../assets/images/ec-bi-customer-status-source.zh-tw.png){ title="會員現況與註冊來源" }
 
@@ -147,7 +147,7 @@ hide: []
 
 ### 比較 VIP 與普通會員的銷售 { #operate-member-overview-levels }
 
-1. **看等級貢獻：** 「期間別會員等級銷售狀況」將會員分為 **VIP會員** 與 **普通會員**，對比兩者在指定期間內的銷售狀況，評估會員分級制度的成效。VIP 與普通會員的分界依您設定的門檻而定，詳見[會員等級銷售狀況對照表][reference-member-levels]{ data-preview }。
+1. **看等級貢獻：** 「期間別會員等級銷售狀況」將會員分為 **VIP會員** 與 **普通會員**，對比兩者在指定期間內的銷售狀況，評估會員分級制度的成效。VIP 與普通會員的分界依您設定的門檻而定，詳見[會員等級銷售狀況對照表](references/member-level-sales-status-reference.md#reference-member-levels){ data-preview }。
 
 ![會員等級銷售狀況表格](../../assets/images/ec-bi-customer-vip-sales.zh-tw.png){ title="會員等級銷售狀況" }
 
@@ -223,5 +223,5 @@ hide: []
 
 - [會員現況與註冊來源對照表](references/member-status-registration-sources-reference.md)
 - [會員年齡分群對照表](references/member-age-groups-reference.md)
-- [會員等級銷售狀況對照表](references/member-levels-sales-status-reference.md)
+- [會員等級銷售狀況對照表](references/member-level-sales-status-reference.md)
 - [會員分析共用定義](references/member-analysis-definitions-reference.md)
