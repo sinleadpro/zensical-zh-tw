@@ -76,7 +76,7 @@ permalink: "https://help.cyberbiz.io/ec/business-intelligence/customer-analysis/
 - **消費舊客數**:過去已有下單紀錄，且在指定區間內又再次下單的顧客。
 - **累積顧客數**:開店截至指定時間結束前，曾經下單的顧客數。
 
-詳細比較請見[新會員與新客的兩種定義][reference-member-new-definitions]{ data-preview }。此外，所有數字僅計入[有效訂單][reference-member-valid-order]{ data-preview }，並為[隔日更新][reference-member-update-time]{ data-preview }。
+詳細比較請見[新會員與新客的兩種定義](references/member-analysis-definitions-reference.md#reference-member-new-definitions){ data-preview }。此外，所有數字僅計入[有效訂單](references/member-analysis-definitions-reference.md#reference-member-valid-order){ data-preview }，並為[隔日更新](references/member-analysis-definitions-reference.md#reference-member-update-time){ data-preview }。
 
 ## 頁面功能總覽 { #overview-customer-analysis }
 
@@ -164,7 +164,7 @@ permalink: "https://help.cyberbiz.io/ec/business-intelligence/customer-analysis/
 
     - 本頁「消費新客」以 **第一次下單時間** 為準。
     - 「會員分析」的「新會員」以 **註冊時間** 為準。
-    - 詳細比較請見[新會員與新客的兩種定義][reference-member-new-definitions]{ data-preview }。
+    - 詳細比較請見[新會員與新客的兩種定義](references/member-analysis-definitions-reference.md#reference-member-new-definitions){ data-preview }。
 
 ??? quote "三個區塊的數字感覺對不起來"
     [](){ #faq-customer-analysis-shared-range }

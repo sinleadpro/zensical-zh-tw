@@ -97,8 +97,8 @@ hide: []
 
 ### 數據基準 { #prerequisites-member-overview-basis }
 
-- **有效訂單**：銷售相關數字僅計入有效訂單，已取消、已退貨的訂單不列入。詳見[有效訂單定義][reference-member-valid-order]{ data-preview }。
-- **更新時間**：數據為隔日更新，當天的下單與註冊不會即時出現。詳見[數據更新時間][reference-member-update-time]{ data-preview }。
+- **有效訂單**：銷售相關數字僅計入有效訂單，已取消、已退貨的訂單不列入。詳見[有效訂單定義](references/member-analysis-definitions-reference.md#reference-member-valid-order){ data-preview }。
+- **更新時間**：數據為隔日更新，當天的下單與註冊不會即時出現。詳見[數據更新時間](references/member-analysis-definitions-reference.md#reference-member-update-time){ data-preview }。
 
 ## 頁面功能總覽 { #overview-member-overview }
 

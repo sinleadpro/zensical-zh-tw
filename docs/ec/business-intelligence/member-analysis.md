@@ -2,7 +2,7 @@
 title: 會員分析
 description: 掌握會員規模、成長趨勢與首購後的留存及回購表現，評估會員經營健康度。
 created: 2026-06-16
-last_modified: 2026-06-17 10:45
+last_modified: 2026-06-17 11:40
 lang: zh-TW
 type: tutorial
 status: ""
@@ -21,14 +21,19 @@ sites:
 audiences:
   - admin
 difficulty: beginner
-tnb: ""
+tnb: branch
 plans:
   - 高手
+  - 專業PLUS 
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 cyb_extensions: []
 feature_badges: []
 intents:
   - 了解會員經營健康度
-  - 查看會員規模與成長趨勢
+  - 查看會員規模
+  - 查看會員成長趨勢
   - 評估會員留存與回購表現
 features:
   - 會員分析
@@ -61,16 +66,13 @@ permalink: "https://help.cyberbiz.io/ec/business-intelligence/member-analysis/"
 comments: false
 search:
   exclude: false
-icon: lucide/users
+icon: lucide/bar-chart-3
 hide: []
 ---
 
-# 會員分析
+![會員分析頁面](../../assets/images/ec-bi-member-analysis-hero.png){ .hero-page }
 
-掌握會員規模、成長趨勢，以及首購後的留存與回購表現，看出整體會員經營的健康度。
-{ .subtitle }
-
-## 功能介紹 { #intro-member-analysis }
+## 會員分析介紹 { #intro-member-analysis }
 
 「會員分析」位於後台「圖表分析」的會員分析頁面，是進入此頁時預設顯示的分頁。它將全店會員與訂單資料整理成數據卡與圖表，協助您一眼看出會員總數、近期成長、首購後的留存，以及回購週期與人均貢獻。
 
@@ -87,7 +89,7 @@ hide: []
 「會員分析」分頁多數方案皆可使用，僅少數入門方案不支援。
 
 !!! plan "方案 / 開通條件"
-    基本版、進階版、專業版，以及體驗 / 試用版不支援會員分析。若您使用這些方案，進入後會看到方案不支援的提示，請聯絡客服或您的開店顧問，確認是否可升級。
+    專業版、進階版，以及體驗 / 試用版不支援會員分析。若您使用這些方案，進入後會看到方案不支援的提示，請聯絡客服或您的開店顧問，確認是否可升級。
 
 ---
 
@@ -95,9 +97,9 @@ hide: []
 
 解讀數字前，請先了解共用的統計基準：
 
-- **有效訂單**：所有數字僅計入有效訂單，已取消、已退貨的訂單不列入。詳見[有效訂單定義][reference-member-valid-order]{ data-preview }。
-- **更新時間**：數據為隔日更新，當天的下單與註冊不會即時出現。詳見[數據更新時間][reference-member-update-time]{ data-preview }。
-- **新舊判定**：本頁「新會員」以註冊時間為準，與「消費顧客分析」的新舊客定義不同。詳見[新會員與新客的兩種定義][reference-member-new-definitions]{ data-preview }。
+- **有效訂單**：所有數字僅計入有效訂單，已取消、已退貨的訂單不列入。詳見[有效訂單定義](references/member-analysis-definitions-reference.md#reference-member-valid-order){ data-preview }。
+- **更新時間**：數據為隔日更新，當天的下單與註冊不會即時出現。詳見[數據更新時間](references/member-analysis-definitions-reference.md#reference-member-update-time){ data-preview }。
+- **新舊判定**：本頁「新會員」以註冊時間為準，與「消費顧客分析」的新舊客定義不同。詳見[新會員與新客的兩種定義](references/member-analysis-definitions-reference.md#reference-member-new-definitions){ data-preview }。
 
 ## 頁面功能總覽 { #overview-member-analysis }
 
@@ -117,19 +119,37 @@ hide: []
 
 各區塊資料在進入頁面後會自動載入，以下依分析目的分組說明如何解讀，以及如何調整時間區間。
 
-### 查看會員規模與成長 { #operate-member-analysis-scale }
+### 查看會員規模 { #operate-member-analysis-scale }
 
-1. **看總量：** 頁面上方的 **「總會員數」** 顯示開店至今累計的會員數； **「近30日新註冊會員」** 顯示最近 30 日新加入的人數，用來判斷近期招募成效。
-2. **看趨勢：** 「會員數趨勢」以折線圖呈現每月新會員數的變化，將滑鼠移到資料點上即會顯示該月份的數字，可觀察會員成長是加速或趨緩。
+**看總量：** 頁面上方的 **「總會員數」** 顯示開店至今累計的會員數； **「近30日新註冊會員」** 顯示最近 30 日新加入的人數，用來判斷近期招募成效。
+
+![會員規模](../../assets/images/ec-bi-member-scale.zh-tw.png){ title="會員規模" }
 
 ---
 
-### 評估首購後的留存 { #operate-member-analysis-retention }
+### 查看會員成長趨勢 { #operate-member-analysis-growth }
 
-1. **看消費次數分布：** 「期間內註冊會員消費次數(會員總數佔比)」呈現指定區間內註冊會員中，購買 **1 次**、 **2 次**、 **3 次以上** 與 **無購買紀錄** 各自的佔比，佔比越往「3 次以上」集中，代表首購後越能留住會員。
-2. **看新會員下單率：** 「新會員下單率」呈現當月新註冊會員中 **有下單** 與 **未下單** 的比例，並分為「所有非取消訂單」與「認列訂單」兩種口徑[^1]，協助您判斷新客招募進來後是否真的轉化為購買。
+**看趨勢：** 「會員數趨勢」以折線圖呈現每月新會員數的變化，將滑鼠移到資料點上即會顯示該月份的數字，可觀察會員成長是加速或趨緩。
+
+![會員成長趨勢](../../assets/images/ec-bi-member-growth-trend.zh-tw.png){ title="會員成長趨勢" }
+
+---
+
+### 查看消費次數分布 { #operate-member-analysis-frequency }
+
+**看消費次數分布：** 「期間內註冊會員消費次數(會員總數佔比)」呈現指定區間內註冊會員中，購買 **1 次**、 **2 次**、 **3 次以上** 與 **無購買紀錄** 各自的佔比，佔比越往「3 次以上」集中，代表首購後越能留住會員。
+
+![消費次數分布](../../assets/images/ec-bi-member-consumption-frequency.zh-tw.png){ title="消費次數分布" }
+
+---
+
+### 查看新會員下單率 { #operate-member-analysis-order-rate }
+
+**看新會員下單率：** 「新會員下單率」呈現當月新註冊會員中 **有下單** 與 **未下單** 的比例，並分為「所有非取消訂單」與「認列訂單」兩種口徑[^1]，協助您判斷新客招募進來後是否真的轉化為購買。
 
 [^1]: 「所有非取消訂單」涵蓋範圍較寬；「認列訂單」進一步排除退貨，口徑較嚴格，兩者的新會員判定皆為「該月份內新註冊之會員」。
+
+![新會員下單率](../../assets/images/ec-bi-member-order-rate.zh-tw.png){ title="新會員下單率" }
 
 ---
 
@@ -189,7 +209,7 @@ hide: []
 
     - 已取消、已退貨的訂單金額不會計入。
     - 當天剛成立的訂單與剛註冊的會員，要等隔日更新後才會出現。
-    - 詳細定義請見[有效訂單定義][reference-member-valid-order]{ data-preview }。
+    - 詳細定義請見[有效訂單定義](references/member-analysis-definitions-reference.md#reference-member-valid-order){ data-preview }。
 
 ??? quote "「新會員」和「消費顧客分析」的新客數字不一樣"
     [](){ #faq-member-analysis-new-definition }
@@ -197,7 +217,7 @@ hide: []
 
     - 會員分析的「新會員」以 **註冊時間** 為準。
     - 消費顧客分析的「消費新客」以 **第一次下單時間** 為準。
-    - 詳細比較請見[新會員與新客的兩種定義][reference-member-new-definitions]{ data-preview }。
+    - 詳細比較請見[新會員與新客的兩種定義](references/member-analysis-definitions-reference.md#reference-member-new-definitions){ data-preview }。
 
 ## 參考資料 { #reference-member-analysis }
 
