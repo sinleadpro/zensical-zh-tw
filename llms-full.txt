@@ -1509,6 +1509,18 @@ URL: https://help.cyberbiz.io/ec/business-intelligence/references/product-analys
 
 Description: 商品分析各區塊的欄位與指標定義，包含銷量排名、回購頻率、無銷量商品與期間別購買狀況。
 
+# 商品圖表 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/product-chart/
+
+Description: 協助您觀察單一商品在指定期間內的瀏覽與購買表現，快速判斷商品頁的吸引力與轉單成效。
+
+# 商品圖表指標對照表 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/product-chart-metrics-reference/
+
+Description: 認識商品圖表的三項核心指標：瀏覽數、購買數、成交率，以及計算方式與使用限制。
+
 # 營收分析指標定義對照表 - CYBERBIZ DOCS
 
 URL: https://help.cyberbiz.io/ec/business-intelligence/references/revenue-analysis-metrics-reference/
