@@ -73,7 +73,7 @@ hide: []
 了解 CYBERBIZ 電商倉儲系統（WMS）與 EC 後台的退貨整合流程，包含逆物流派車設定、商品回收驗收、超商逾期未取處理以及自動化退款作業。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲
 { .doc-badge }
 
 ## 使用須知

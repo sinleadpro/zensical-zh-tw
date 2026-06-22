@@ -2,7 +2,7 @@
 title: 順豐海外物流
 description: 透過 CYBERBIZ 後台整合順豐海外物流，您可以直接產出跨境託運單，並依據收件地址自動切換中英文格式。
 created: 2026-03-05 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-22 11:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -114,10 +114,12 @@ hide: []
 順豐海外的運費並非固定金額，而是由以下三部分組成：
 
 1. **運送費用**：依官方牌價計算。
-    - [國際快遞價目表](https://htm.sf-express.com/tw/tc/download/Taiwan-Export-Rates-SF-Standard-ExpressInternational-20240101-TC.pdf)
-    - [中港澳特快價目表](https://htm.sf-express.com/tw/tc/download/Taiwan-Export-Rates-SF-Speedy-Express-Service_new_tc.pdf)
+    - 國際寄件服務可參考 [台灣出口價目表 ─ 國際標準快遞服務](https://htm.sf-express.com/tw/tc/download/Taiwan-Export-Rates-SF-Standard-ExpressInternational-20260101-TCadd-Cambodia.pdf)
+    - 中港澳寄件服務可參考 [台灣出口價目表 ─ 順豐特快服務](https://htm.sf-express.com/tw/tc/download/Taiwan-Export-Rates-SF-Speedy-Express-Service-20250401-TC.pdf)
+    - 最新運送費用可參考 [順豐官網公告](https://htm.sf-express.com/tw/tc/Customer_Zone/download_center/price_down/)
 2. **燃油附加費**：隨國際油價浮動，詳見 [順豐官網公告](https://www.sf-express.com/tw/tc/Customer_Zone/download_center/fuel_additional/)。
-3. **高峰資源調節費**：僅在非常時期（如全球疫情期間）酌收。
+3. **高峰資源調節費**：僅在非常時期（如全球疫情期間）酌收，詳見 [順豐官網公告](https://htm.sf-express.com/tw/tc/news/detail/S.F.-Express-Taiwan-2025-Taiwan-Export-Express-Shipment-Peak-Surcharge-Adjustment-Notice/)。
+
 
 
 

@@ -145,7 +145,7 @@ Webhook 類似於「訂閱服務」。當 CYBERBIZ 系統發生特定事件（�
 
 您可以透過測試帳號登入 API 文件中心，查看各項 API 的詳細參數與資料格式。
 
-- **文件網址**：[https://api-doc.cyberbiz.co](https://api-doc.cyberbiz.co)
+- **文件網址**：[https://api-doc.cyberbiz.co/v1/api_document](https://api-doc.cyberbiz.co/v1/api_document)
 - **User Name**：`apidemo`
 - **Secret**：`apidemo`
 

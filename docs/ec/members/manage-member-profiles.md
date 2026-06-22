@@ -2,7 +2,7 @@
 title: 管理會員檔案
 description: 當特定會員有資料與權限異動、點數與優惠券配置調整、或需要下單協助時，管理員可透過 會員明細頁 進行一站式的客服處理與資料維護。
 created: 2026-02-11 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-22 11:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -268,7 +268,17 @@ hide: []
 !!! info "版本支援說明"
     優惠券派發與管理功能不適用於專業版、進階版，該版本之後台介面將不顯示此介面。
 
----
+<div class="grid cards" markdown>
+
+- :lucide-hash:{ .lg }
+    [__免運券規格__](../marketing/coupon/free-shipping-coupon-spec.md)
+    掌握免運券限制與結帳流程。
+
+- :lucide-hash:{ .lg }
+    [__贈品券規格__](../marketing/coupon/gift-coupon-spec.md)
+    瞭解贈品券限制與庫存規則。
+
+</div>
 
 ## 任務五：行銷標籤與分眾管理
 

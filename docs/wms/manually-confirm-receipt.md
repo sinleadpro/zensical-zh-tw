@@ -63,7 +63,7 @@ hide: []
 在超商端漏傳收貨狀態時，手動更新電商倉儲訂單為「已收貨」狀態，以利後續帳務結案與退貨流程執行。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲
 { .doc-badge }
 
 ## 使用須知
