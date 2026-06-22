@@ -28,7 +28,7 @@ tags:
   - EC
   - 參考資料
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-overview-metrics-reference/"
-icon: lucide/chart-scatter
+icon: lucide/table
 hide:
 ---
 

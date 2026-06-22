@@ -25,7 +25,7 @@ tags:
   - 數據卡
   - 參考資料
 permalink: https://help.cyberbiz.io/ec/business-intelligence/references/periodic-order-analysis-metrics-reference/
-icon: lucide/chart-pie
+icon: lucide/table
 hide:
 ---
 

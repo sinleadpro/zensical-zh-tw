@@ -56,6 +56,8 @@
 - [物流相關設定 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/payments-and-logistics/logistics-settings/): 調整配送過程中的細節規範與顧客可指定的送貨偏好，包含超商取貨姓名與離島、出貨明細列印、指定配送日期/時段、退貨天數與 Uber Direct 優物流。
 - [訂單相關設定 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/payments-and-logistics/order-settings/): 設定訂單成立的金額門檻、未付款與付款失敗提醒、自動結案與自動取消規則、顧客前台取消退貨權限，以及訂單明細與揀貨單的列印內容。
 - [網站外觀 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-appearance/): 設定官網前台外觀、導覽列、語系與版型樣式。
+- [套用與更換網站主題 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/apply-and-switch-theme/): 透過套版主題管理隨時下載、切換與發布不同的網站主題，無需重新設計即可改變官網前台視覺風格。
+- [主題類型對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-appearance/references/theme-types/): 比較拖拉版型、預設版型與多國版型的差異，協助商家選擇適合的網站主題類型。
 - [管理中心 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-management/): 管理後台帳號權限、員工帳號與系統設定。
 - [APP MARKET - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/app-market/): CYBERBIZ 擴充服務與第三方應用市集。
 - [整合串接 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/integrations/): 串接第三方平台、API 與服務，提升商店功能與自動化能力。

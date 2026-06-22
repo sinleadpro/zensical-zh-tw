@@ -31,7 +31,7 @@ tags:
   - 指標對照
   - 參考資料
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/marketing-activity-coupon-metrics-reference/"
-icon: lucide/chart-scatter
+icon: lucide/table
 hide:
 ---
 

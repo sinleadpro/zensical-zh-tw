@@ -27,7 +27,7 @@ tags:
   - ROAS
   - 參考資料
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/advertising-analytics-metrics-reference/"
-icon: lucide/chart-scatter
+icon: lucide/table
 hide:
 ---
 

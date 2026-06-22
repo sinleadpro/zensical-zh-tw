@@ -26,7 +26,7 @@ tags:
   - 成交率
   - 指標對照
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/product-chart-metrics-reference/"
-icon: lucide/chart-scatter
+icon: lucide/table
 hide:
 ---
 

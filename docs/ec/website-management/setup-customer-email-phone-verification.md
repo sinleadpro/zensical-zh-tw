@@ -1,9 +1,8 @@
 ---
-
 title: 設定顧客 Email 與手機雙重驗證
 description: 要求新註冊顧客同時通過 Email 與簡訊驗證，確保會員資料真實性，降低空帳號與惡意註冊風險。
 created: 2026-05-27 14:58
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-22 09:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -77,7 +76,9 @@ paths:
   - 管理中心 > 顧客註冊設定
   - 訊息推播 > Email / 簡訊通知樣板 > 顧客相關 > 顧客帳號啟用提醒
 layouts: []
-wp_url: []
+wp_url: 
+    - https://www.cyberbiz.io/helpcenter/?p=1865
+    - https://www.cyberbiz.io/helpcenter/?p=1871
 permalink: ""
 comments: false
 search:
@@ -229,7 +230,7 @@ hide: []
 
 ---
 
-### 第三方登入(FB / LINE / Google)的處理 { #specs-customer-verification-sso }
+### 第三方登入 <small>FB / LINE / Google)的處理</small> { #specs-customer-verification-sso }
 
 | 登入平台 | Email 驗證 | 手機驗證 |
 |:--|:--|:--|
@@ -316,5 +317,8 @@ LINE 登入因帳號本身已綁定手機，系統會自動跳過 OTP 簡訊驗�
 
     勾選後可減少顧客的操作步驟，但註冊流程會多一道驗證關卡。
 
-## 參考資料 { #reference-customer-](references/customer-registration-modes-reference.md)照表](references/顧客註冊模式對照表.md){ title="顧客註冊模式對照表" data-](references/customer-field-validation-reference.md)ferences/顧客欄位驗證模式對照表.md){ title="顧客欄位驗證模式對照表" data-preview }
+## 參考資料 { #reference-customer-verification }
+
+- [顧客註冊模式對照表](references/customer-registration-modes-reference.md){ title="顧客註冊模式對照表" }
+- [顧客欄位驗證模式對照表](references/customer-field-validation-reference.md){ title="顧客欄位驗證模式對照表" }
 

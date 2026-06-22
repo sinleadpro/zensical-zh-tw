@@ -29,7 +29,7 @@ tags:
   - EC
   - 參考資料
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/member-analysis-definitions-reference/"
-icon: lucide/list-checks
+icon: lucide/table
 hide:
 ---
 

@@ -2,7 +2,7 @@
 title: 商品圖表
 description: 協助您觀察單一商品在指定期間內的瀏覽與購買表現，快速判斷商品頁的吸引力與轉單成效。
 created: 2026-06-21 00:00
-last_modified: 2026-06-21 23:36
+last_modified: 2026-06-22 00:24
 lang: zh-TW
 type: tutorial
 status: ""
@@ -58,7 +58,7 @@ permalink: "https://help.cyberbiz.io/ec/business-intelligence/product-chart/"
 comments: false
 search:
   exclude: false
-icon: lucide/bar-chart-3
+icon: lucide/package
 hide: []
 ---
 

@@ -2,7 +2,7 @@
 title: 會員總覽
 description: 從性別、年齡、註冊來源到會員等級描繪會員輪廓，協助調整商品文案、廣告受眾與會員制度。
 created: 2026-06-16
-last_modified: 2026-06-17 10:37
+last_modified: 2026-06-22 10:38
 lang: zh-TW
 type: tutorial
 status: ""
@@ -61,7 +61,8 @@ ui_components: []
 paths:
   - 分析報表 > 會員分析
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=11624
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/member-overview/"
 comments: false
 search:

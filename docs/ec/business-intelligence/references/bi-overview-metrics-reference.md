@@ -26,7 +26,7 @@ tags:
   - 回購率
   - 指標對照
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/chart-overview-metrics-reference/"
-icon: lucide/chart-scatter
+icon: lucide/table
 hide:
 ---
 
