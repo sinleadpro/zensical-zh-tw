@@ -391,6 +391,7 @@ copyright = """
                 { "前台語系與文字" = "ec/website-appearance/site-settings/setup-storefront-language-text-customization.md" },
                 { "轉貼連結縮圖" = "ec/website-appearance/site-settings/setup-og-image.md" },
                 { "特定商取引法頁面(日本站)" = "ec/website-appearance/site-settings/日本站官網需建立特定商取引法頁面.md" },
+                { "揭露營業人資訊" = "ec/website-appearance/site-settings/business-disclosure.md" },
                 { "網頁鎖右鍵" = "ec/website-appearance/site-settings/setup-right-click-protection.md" }
             ]},
             { "顧客互動" = [
@@ -411,7 +412,8 @@ copyright = """
                 { "可拖拉編輯的頁面對照表" = "ec/website-appearance/references/theme-editor-pages.md" },
                 { "自訂頁面可用區塊對照表" = "ec/website-appearance/references/custom-pages-blocks.md" },
                 { "排程跑馬燈對照表" = "ec/website-appearance/references/scheduled-carousel-statuses.md" },
-                { "主題類型對照表" = "ec/website-appearance/references/theme-types.md" }
+                { "主題類型對照表" = "ec/website-appearance/references/theme-types.md" },
+                { "頁腳聯絡資訊欄位" = "ec/website-appearance/references/business-disclosure-footer-fields.md" }
             ]}
         ]},
         { "APP MARKET" = [
