@@ -1,9 +1,8 @@
 ---
-
 title: "設定與管理自訂頁面"
 description: "建立、設定與管理自訂頁面，包含基本設定、區塊設計與前台顯示方式。"
 created: "2025-03-03 15:30"
-last_modified: 2026-06-09 16:10
+last_modified: 2026-06-22 14:28
 lang: "zh-TW"
 type: "tutorial"
 status: ""
@@ -337,7 +336,7 @@ hide:
 <!-- 	!!! warning "使用「文字編輯」區塊時，若從外部（如 Word 或其他網頁）複製內容，務必使用 **純文字貼上** 按鈕，避免帶入異常語法導致頁面跑版。" -->
 <!---->
 <!-- - **進階客製化**： -->
-<!--     - **自訂 HTML**：可自行編寫語法或貼入外部程式碼，例如 [**嵌入 ](embed-google-form-custom-page.md)ogle 表單.md){ title="在自訂頁面中嵌入 Google 表單" }  （用於預約、諮詢、保固登記）或 **互動遊戲**。 -->
+<!--     - **自訂 HTML**：可自行編寫語法或貼入外部程式碼，例如 [**嵌入 Google 表單**](embed-google-form-custom-page.md){ title="在自訂頁面中嵌入 Google 表單" }  （用於預約、諮詢、保固登記）或 **互動遊戲**。 -->
 <!--     - **自訂排版設計**：可自由調整不同素材的螢幕占比與排列順序。 -->
 <!---->
 <!-- !!! info "瞭解 [各個區塊的詳細應用與範例](../theme-and-layout/theme-editor.md){ title="使用拖拉版型設計網站版面與首頁區塊" } 。" -->
@@ -363,7 +362,7 @@ hide:
 <!--   若商店有開通多國語系，可在編輯頁面找到 **:lucide-globe: 圖示**，切換語系後輸入對應語言的頁面內容。 -->
 <!---->
 <!-- - :lucide-file-code:{ .lg }   -->
-<](embed-google-form-custom-page.md)在自訂頁面中嵌入 Google 表單.md){ title="在自訂頁面中嵌入 Google 表單" }   -->
+<!-- [__在自訂頁面中嵌入 Google 表單__](embed-google-form-custom-page.md){ title="在自訂頁面中嵌入 Google 表單" }   -->
 <!--   可利用「自訂 HTML」區塊嵌入 Google 表單，並手動將嵌入代碼中的 `width` 屬性修改為 `100%`，以確保表單能自動適應手機與電腦螢幕寬度。 -->
 <!---->
 <!-- </div> -->

@@ -2,7 +2,7 @@
 title: 拖拉版型網站設定
 description: 使用拖拉版型編輯器建立與調整官網外觀，包含全站設定、頁面內容編輯、商品頁面配置等。
 created:
-last_modified: 2026-06-22 13:56
+last_modified: 2026-06-22 17:33
 lang: zh-TW
 permalink:
 type: tutorial
@@ -536,6 +536,17 @@ comments: false
 - **每張素材：** 電腦／平板／手機版圖片、圖片連結（可新分頁開啟）、圖片替代文字（alt）。
 - **素材文字：** 可選內容位置，並填入標題、內文、按鈕文字與連結，及標題／內文／按鈕的顏色。
 
+=== "區塊層級"
+    點開「其他版面設計」進行詳細設定：
+
+    ![區塊層級 - 其他版面設計](../../../assets/images/ec-website-appearance-slider-block-level-settings.png)
+
+=== "每張素材"
+    ![每張素材設定](../../../assets/images/ec-website-appearance-slider-per-slide-settings.png)
+
+=== "素材文字"
+    ![素材文字設定](../../../assets/images/ec-website-appearance-slider-text-overlay-settings.png)
+
 ---
 
 #### 橫幅廣告 { #section-banner }
@@ -544,6 +555,26 @@ comments: false
 
 - 電腦／平板／手機版圖片、圖片連結（可新分頁開啟）、圖片替代文字。
 - 可開啟 **顯示按鈕**，設定按鈕位置、文字與底色／文字色。
+
+=== "圖片設定"
+    分別上傳電腦／平板／手機版圖片。
+
+    ![橫幅廣告 - 圖片設定](../../../assets/images/ec-website-appearance-banner-image.png)
+
+=== "圖片連結"
+    設定點擊圖片後前往的頁面或網址，可開啟新分頁。
+
+    ![橫幅廣告 - 圖片連結](../../../assets/images/ec-website-appearance-banner-link.png)
+
+=== "圖片替代文字"
+    設定圖片替代文字（alt），有助於 SEO 與無障礙瀏覽。
+
+    ![橫幅廣告 - 替代文字](../../../assets/images/ec-website-appearance-banner-alt.png)
+
+=== "顯示按鈕"
+    可開啟 **顯示按鈕**，設定按鈕位置、文字與底色／文字色。
+
+    ![橫幅廣告 - 顯示按鈕](../../../assets/images/ec-website-appearance-banner-button.png)
 
 ---
 
@@ -555,6 +586,28 @@ comments: false
 - 電腦／手機版商品欄數、商品排列、文字排列。
 - 電腦版商品分類樣式、商品圖游標懸停效果、商品圖圓角。
 
+=== "基本設定"
+    標題、**選擇商品分類**、商品數量上限、商品展開方式。
+
+    ![商品分類 - 基本設定](../../../assets/images/ec-website-appearance-collection-basic.png)
+
+=== "版面設定"
+    電腦／手機版商品欄數、商品排列、文字排列。
+
+    ![商品分類 - 版面設定](../../../assets/images/ec-website-appearance-collection-layout.png)
+
+=== "樣式設定"
+
+    電腦版商品分類樣式。
+
+    ![商品分類 - 分類樣式](../../../assets/images/ec-website-appearance-collection-category-style.png)
+
+    商品圖游標懸停效果、商品圖圓角。
+
+    ![商品分類 - 懸停效果與圓角](../../../assets/images/ec-website-appearance-collection-hover-radius.png)
+
+---
+
 #### 影片設定 { #section-video }
 
 嵌入單支影片。
@@ -562,12 +615,28 @@ comments: false
 - 標題、影片連結。
 - 自動播放、隱藏外框、重複播放。
 
+![影片設定介面](../../../assets/images/ec-website-appearance-video.png)
+
+---
+
 #### 分頁頁籤 { #section-blog-tabs }
 
 以頁籤呈現多個部落格的文章。
 
-- 標題、文章欄數。
+- **其他版面設定：** 標題、文章欄數。
 - **小區塊「部落格」：** 各別選擇要顯示的部落格。
+
+=== "其他版面設定"
+    標題、文章欄數。
+
+    ![分頁頁籤 - 基本設定](../../../assets/images/ec-website-appearance-blog-tabs-basic.png)
+
+=== "部落格選擇"
+    各別選擇要顯示的部落格。
+
+    ![分頁頁籤 - 部落格選擇](../../../assets/images/ec-website-appearance-blog-tabs-select.png)
+
+---
 
 #### 自訂排版設計 { #section-custom-blocks }
 
@@ -579,12 +648,46 @@ comments: false
 - **自訂 HTML：** 自由貼入 HTML。
 - **商品：** 選擇商品、電腦版分類樣式、版面占比。
 
+=== "圖片"
+    電腦／平板／手機圖、標題、圖片說明、連結、替代文字、版面螢幕占比。
+
+    ![自訂排版設計 - 圖片](../../../assets/images/ec-website-appearance-custom-blocks-image.png)
+
+=== "影片"
+    影片連結、自動播放／隱藏外框／重複播放、版面占比。
+
+    ![自訂排版設計 - 影片](../../../assets/images/ec-website-appearance-custom-blocks-video.png)
+
+=== "排程跑馬燈"
+    載入跑馬燈、版面占比。詳見 [排程跑馬燈設定指南](configure-scheduled-carousels.md){ title="建立與管理排程跑馬燈" }。
+
+    ![自訂排版設計 - 排程跑馬燈](../../../assets/images/ec-website-appearance-custom-blocks-carousel.png)
+
+=== "自訂 HTML"
+    自由貼入 HTML。點擊「編輯」進入 HTML 編輯頁面。
+
+    ![自訂排版設計 - 自訂 HTML](../../../assets/images/ec-website-appearance-custom-blocks-html.png)
+
+=== "商品"
+
+    **選擇商品：** 點擊「選擇商品」後，使用進階篩選跟關鍵字篩選出欲加入的商品，並點擊「確認新增」。僅能選擇單一商品，若想顯示多個商品，請建立多個商品區塊。
+
+    ![自訂排版設計 - 選擇商品](../../../assets/images/ec-website-appearance-custom-blocks-product-select.png)
+
+    **分類樣式與版面占比：** 設定電腦版商品分類的外觀樣式，以及該區塊在頁面上的螢幕占比。
+
+    ![自訂排版設計 - 分類樣式與版面占比](../../../assets/images/ec-website-appearance-custom-blocks-product-layout.png)
+
+---
+
 #### 圖文介紹 { #section-graphic-intro }
 
 圖片搭配文字與按鈕的介紹區塊。
 
 - 文字排版、文字色／背景色、圖片（電腦／平板／手機）、圖片位置、電腦版版面占比。
 - **小區塊：** 標題（可設字級）、內文（可設字級）、按鈕（文字、底色／文字色、連結）。
+
+---
 
 #### 自訂 HTML { #section-custom-html }
 
