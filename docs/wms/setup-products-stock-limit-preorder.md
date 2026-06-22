@@ -68,7 +68,7 @@ hide: []
 串接電商倉儲（WMS）時，針對不同銷售策略（現貨、限量、預購）設定庫存同步機制。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲
 { .doc-badge }
 
 ## 使用須知

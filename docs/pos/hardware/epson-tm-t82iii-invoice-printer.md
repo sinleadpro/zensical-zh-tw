@@ -117,7 +117,7 @@ hide: []
     - 開啟 **EPSON TM Virtual Port Driver Port Assignment Tool** 軟體。
     - 參考 `C:\Program Files (x86)\EPSON\TMCOMUSB\TMVirtualPortDriver_User'sManual.pdf` 的 `手動設備設定 - USB` 設定指引，將偵測到的發票機指派至一個目前 **未被佔用** 的 COM Port（如 COM3 或 COM4）。
 
-![type:video](../../assets/videos/POS-安裝-EPSON發票機軟體安裝設定01.mp4)
+![type:video](https://www.cyberbiz.io/support/wp-content/uploads/POS-EPSON發票機軟體安裝設定.mp4)
 
 
 ### 步驟四：校對紙張寬度設定

@@ -78,7 +78,6 @@ hide: []
 
 
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 / 所有PLUS / 企業
 { .doc-badge }
 
 ![](../assets/images/EC-後台-金物流-宅配物流-拆單畫面總覽01.png){ .hero-page }

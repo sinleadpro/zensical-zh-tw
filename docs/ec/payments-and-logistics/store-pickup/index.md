@@ -2,7 +2,7 @@
 title: 門市取貨：虛實整合營運導航
 description: 整合線上購物與線下取貨，提供顧客彈性的購物體驗，並透過後台與 POS 系統的高效協作，優化 OMO 營運效率。
 created: 2026-04-27 16:55
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-22 11:15
 lang: zh-TW
 type: guide
 status: ""
@@ -126,7 +126,7 @@ hide:
 
     透過分潤機制激勵門市人員，並追蹤營運成效。
 
-    [__設定 POS 門市取貨店員分潤__](../../../pos/others2/pos-store-pickup-staff-commission.md)
+    [__設定 POS 門市取貨店員分潤__](../../../pos/store/pos-store-pickup-staff-commission.md)
 
 </div>
 

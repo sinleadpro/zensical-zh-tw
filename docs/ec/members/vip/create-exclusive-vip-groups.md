@@ -60,7 +60,7 @@ hide: []
 透過 VIP 群組標籤功能，針對特定客層綁定標籤並設定專屬 VIP 規則，實現分群經營與精準行銷。
 { .subtitle }
 
-![](../../assets/images/EC-後台-會員-VIP設定-新增VIP群組01.png){ .hero-page }
+![](../../../assets/images/EC-後台-會員-VIP設定-新增VIP群組01.png){ .hero-page }
 
 ## 功能說明
 
