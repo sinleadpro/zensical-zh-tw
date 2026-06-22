@@ -70,7 +70,7 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 高手 / 所有 PLUS / 企業
 { .doc-badge }
 
-![](../../assets/images/EC-後台-會員-VIP設定-優惠設定01.png){ .hero-page }
+![](../../../assets/images/EC-後台-會員-VIP設定-優惠設定01.png){ .hero-page }
 
 
 VIP 制度的核心吸引力在於「尊榮感」與「實質回饋」。新版 VIP 系統提供多樣化的優惠組合，協助您設計出讓會員有感的差異化福利。
