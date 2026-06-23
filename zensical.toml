@@ -49,9 +49,6 @@ copyright = """
     { "主頁" = "index.md" },
     { "品牌官網" = [
         { "品牌官網" = "ec/index.md" },
-        { "開始使用" = [
-            { "文字編輯器使用教學" = "ec/get-started/文字編輯器使用教學.md" }
-        ]},
         { "分析報表" = [
             {"overview" = "ec/business-intelligence/index.md"},
             {"圖表總覽" = [
@@ -147,7 +144,6 @@ copyright = """
                 { "運費計算與對帳規範"= "ec/orders/quick-delivery-shipping-fee-calculation-and-reconciliation.md"},
                 { "消費者購買流程"= "ec/orders/consumer-purchase-process.md"},
             ]},
-            { "定期定額訂單" = "ec/orders/定期定額訂單管理.md" },
             {"退貨與退款" = [
                 {"會員退貨申請功能" = "ec/orders/member-return-request-feature.md"},
                 {"訂單退貨流程" = "ec/orders/order-return-process.md"},

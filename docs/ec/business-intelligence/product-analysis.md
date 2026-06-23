@@ -2,7 +2,7 @@
 title: 商品分析
 description: 掌握店內商品的銷售表現，找出熱賣商品、滯銷品與回購行為，為進貨、行銷與定價決策提供數據參考。
 created: 2026-06-15 00:00
-last_modified: 2026-06-15 21:31
+last_modified: 2026-06-23 21:02
 lang: zh-TW
 type: tutorial
 status: ""
@@ -220,10 +220,6 @@ hide: []
   [__新增與編輯商品__](../products/create-and-manage/create-update-products.md)  
   針對滯銷或熱賣商品，調整上架、定價與文案。
 
-- :lucide-boxes:{ .lg }  
-  [__庫存與庫齡__](../inventory/stock-aging.md)  
-  依庫齡篩選呆滯商品，優化庫存週轉。
-
 </div>
 
 ## 常見問題 { #faq-product-analysis }
@@ -257,4 +253,4 @@ hide: []
 
 ## 參考資料 { #reference-product-analysis }
 
-- [商品分析欄位對照表](./references/product-analysis-metrics-reference.md) — 各區塊的欄位與指標定義
+- [商品分析欄位對照表](./references/product-analysis-metrics-reference.md) 
