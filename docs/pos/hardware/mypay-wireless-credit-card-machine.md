@@ -76,7 +76,7 @@ hide: []
 透過商米（Sunmi）無線刷卡發票機，商家可以結合平板電腦實現「移動式 POS」店點，適合快閃店、外帶櫃檯或大型門市的機動結帳需求。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"

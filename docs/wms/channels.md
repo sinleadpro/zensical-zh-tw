@@ -56,13 +56,16 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/wallet-cards
+icon: ""
 hide: []
 ---
 
 # 通路
 透過設定通路，商家可以為不同銷售平台管理庫存，定義專屬的商品效期接受範圍與出貨條件。
 { .subtitle }
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+{ .doc-badge }
 
 ![](../assets/images/WMS-後台-通路-畫面總覽01.png){ .hero-page }
 

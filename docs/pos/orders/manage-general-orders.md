@@ -2,7 +2,7 @@
 title: 管理一般訂單
 description: 掌握 POS 前台的訂單查詢、取消與換貨流程，並瞭解發票作廢、折讓與庫存回補等系統自動化邏輯。
 created: 2026-04-16 13:45
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-22 11:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -73,7 +73,7 @@ hide: []
 掌握 POS 前台的訂單查詢、取消與換貨流程，並瞭解發票作廢、折讓與庫存回補等系統自動化邏輯。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"
@@ -127,12 +127,14 @@ hide: []
     ![](../../assets/images/POS-前台-訂單-換貨01.png){ .screenshot }
 2. 點選欲退回的商品，該項將進入 **欲換貨商品** 列表。
 3. 輸入新商品的 SKU 碼或掃描條碼以添加更換商品。
+    ![](../../assets/images/POS-前台-訂單-換貨03.png){ .screenshot }
 4. 完成後點擊 **確認** 並執行後續結帳。
     ![](../../assets/images/POS-前台-訂單-換貨02.png){ .screenshot }
 
 ### 操作須知
 
 - **金額限制**：換貨後的總額必須 **大於或等於** 原訂單金額。若價格小於原發票金額，請先 **取消原訂單**，再依據實際購買商品 **重新結帳**。
+- **商品限制**：僅能更換 **同稅別** 商品，例如：應稅商品不可更換為免稅商品。
 - **同價換貨**：換貨時的商品金額為該筆訂單當下的商品售價，不採計紅利優惠券等行銷活動。
 - **差額換貨**：若有差額，系統將在結帳時僅針對差額部分開立新發票，原發票不重新開立。
 - **跨門市換貨**：若 A 店成立的訂單在 B 店辦理換貨，B 店必須也有販售該商品才可執行。若 B 店無該商品品項，則無法在 B 門市辦理換貨。
@@ -142,17 +144,37 @@ hide: []
 
 === "同價位換貨"
 
-    1. 前往 POS 後台，前往 **訂單**，將訂單 **退貨狀態** 改成 **退貨中 > 退貨審查 > 已退貨**。
+    1. 前往 POS 後台，前往 **訂單**，確認訂單發票狀態。
+
+        ![](https://www.cyberbiz.io/support/wp-content/uploads/POS前台訂單操作06.png){ .screenshot }
+        ![](https://www.cyberbiz.io/support/wp-content/uploads/POS前台訂單操作07.png){ .screenshot }
+
+    2. 將訂單 **退貨狀態** 改成 **退貨中 > 退貨審查 > 已退貨**。
+
         ![](../../assets/images/EC-後台-訂單-所有訂單-操作退貨審查01.png){ .screenshot }
-    2. 原訂單發票會於隔日作廢。
-    3. 差額另行退款給消費者。
+
+    3. 原訂單發票會於隔日作廢。
+
+        ![](https://www.cyberbiz.io/support/wp-content/uploads/POS前台訂單操作09.png){ .screenshot }
+
+    4. 差額須由商家另行退款給消費者。
     
 === "補差價換貨"
 
-    1. 前往 POS 後台，前往 **訂單**，將訂單 **退貨狀態** 改成 **退貨中 > 退貨審查 > 已退貨**。
+    1. 前往 POS 後台，前往 **訂單**，確認訂單發票狀態。
+
+        ![](https://www.cyberbiz.io/support/wp-content/uploads/POS前台訂單操作10.png){ .screenshot }
+        ![](https://www.cyberbiz.io/support/wp-content/uploads/POS前台訂單操作11.png){ .screenshot }
+    
+    2. 將訂單 **退貨狀態** 改成 **退貨中 > 退貨審查 > 已退貨**。
+
         ![](../../assets/images/EC-後台-訂單-所有訂單-操作退貨審查01.png){ .screenshot }
-    2. 原訂單發票會於隔日作廢。**換貨後開立的發票** 不會更動，**需自行至盟立後台進行作廢**。
-    3. 差額另行退款給消費者。
+
+    3. 原訂單發票會於隔日作廢。**換貨後開立的發票** 不會更動，**需自行至發票商後台進行作廢**。
+    
+        ![](https://www.cyberbiz.io/support/wp-content/uploads/POS前台訂單操作14.png){ .screenshot }
+
+    4. 差額須由商家另行退款給消費者。
     
 
 ### 查看換貨記錄
@@ -196,6 +218,6 @@ hide: []
     !!! warning "標籤建立權限"
         此介面僅提供 **選取** 功能，不支援直接建立新標籤。若想建立新的訂單標籤，請前往後台，於 **訂單 > 所有訂單** [新增標籤](../../ec/orders/order-management-interface#批次操作功能)。
         
-- **移除標籤**：於彈出視窗的下拉選單中，選擇欲解除綁定的標籤。\
+- **移除標籤**：於彈出視窗的下拉選單中，選擇欲解除綁定的標籤。
 
     ![](../../assets/images/POS-前台-訂單-移除訂單標籤01.png){ .screenshot }

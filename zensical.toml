@@ -144,7 +144,7 @@ copyright = """
                 { "快速到貨出貨與配送"= "ec/orders/quick-delivery-shipping-and-distribution.md"},
                 { "缺貨訂單部分出貨或取消流程"= "ec/orders/out-of-stock-partial-shipping-or-cancellation.md"},
                 { "Pandago 配送異常規範"= "ec/orders/pandago-delivery-exception-rules.md"},
-                { "運費計算與對帳規範"= "ec/orders/快速到貨運費計算與對帳規範.md"},
+                { "運費計算與對帳規範"= "ec/orders/quick-delivery-shipping-fee-calculation-and-reconciliation.md"},
                 { "消費者購買流程"= "ec/orders/consumer-purchase-process.md"},
             ]},
             { "定期定額訂單" = "ec/orders/定期定額訂單管理.md" },
@@ -181,6 +181,7 @@ copyright = """
                 {"列表操作功能" = "ec/orders/references/order-list-features.md"},
                 {"訂單列表欄位參考表" = "ec/orders/references/order-list-columns.md"},
                 {"報表可用欄位" = "ec/orders/references/order-report-fields.md"},
+                {"超商取貨姓名填寫規範" = "ec/orders/references/cvs-pickup-name-rules.md"},
                 {"綠界後台訂單查詢" = "ec/orders/ecpay-backend-order-query.md"},
                 {"自動結案類型對照" = "ec/orders/references/order-auto-close-types-reference.md"}
             ]},
@@ -189,13 +190,14 @@ copyright = """
             { "overview" = "ec/members/index.md"},
             { "批次匯入與編輯會員" = "ec/members/batch-import-and-edit-members.md"},
             { "管理會員檔案" = "ec/members/manage-member-profiles.md"},
-            { "會員篩選器" = "ec/members/use-member-filters.md" },
+            { "篩選器與會員分群" = "ec/members/member-filters-and-groups.md" },
             { "會員客服系統" = "ec/members/member-customer-service-system.md"},
             { "新版VIP設定" = [
-                {"VIP功能運作指南" = "ec/members/vip-feature-operation-guide.md"},
-                {"建立全館VIP制度" = "ec/members/setup-store-wide-vip-system.md"},
-                {"建立專屬VIP群組" = "ec/members/create-exclusive-vip-groups.md"},
-                {"設定 VIP 專屬優惠" = "ec/members/setup-exclusive-vip-discounts.md"}
+                {"overview" = "ec/members/vip/index.md"},
+                {"建立全館VIP制度" = "ec/members/vip/setup-store-wide-vip-system.md"},
+                {"建立專屬VIP群組" = "ec/members/vip/create-exclusive-vip-groups.md"},
+                {"設定 VIP 專屬優惠" = "ec/members/vip/setup-exclusive-vip-discounts.md"},
+                {"升等 / 降等 / 續會規則" = "ec/members/vip/vip-upgrade-downgrade-renewal-rules.md"},
             ]},
         ]},
         { "商品" = [
@@ -228,7 +230,7 @@ copyright = """
                 {"Excel 大量匯入商品" = "ec/products/bulk-operations/Excel 大量匯入商品.md"},
                 {"批次修改商品描述與配送設定" = "ec/products/bulk-operations/batch-update-product-descriptions-shipping.md"},
                 {"排除商品上傳至第三方平台" = "ec/products/bulk-operations/排除商品上傳至第三方平台.md"},
-                {"複製商品到快速到貨門市" = "ec/products/複製商品到快速到貨門市.md"}
+                {"複製商品到快速到貨門市" = "ec/products/copy-products-to-quick-delivery-stores.md"},
             ]},
             { "價格設定" = [
                 {"VIP 會員專屬價格" = "ec/products/pricing/setup-vip-member-pricing.md"}
@@ -264,12 +266,18 @@ copyright = """
         ]},
         { "行銷活動" = [
             { "overview" = "ec/marketing/index.md" }, 
-            { "優惠碼" = "ec/marketing/setup-promo-codes.md" },
-            { "多優惠券" = "ec/marketing/multiple-coupons.md" },
+            { "優惠券（碼）" = [
+                { "overview" = "ec/marketing/coupon/index.md" },
+                { "優惠券" = "ec/marketing/coupon/setup-coupons.md" },
+                { "優惠碼" = "ec/marketing/coupon/setup-promo-codes.md" },
+                { "多優惠券（碼）" = "ec/marketing/coupon/multiple-coupons.md" },
+                { "免運券規格" = "ec/marketing/coupon/free-shipping-coupon-spec.md" },
+                { "贈品券規格" = "ec/marketing/coupon/gift-coupon-spec.md" },
+            ] },
             { "紅利點數" = "ec/marketing/setup-bonus-points.md" },
+            { "優惠碼紅利到期通知" = "ec/marketing/coupon-and-bonus-points-expiry-notification.md" },
             { "註冊禮" = "ec/marketing/setup-registration-gift.md" },
             { "生日禮" = "ec/marketing/setup-birthday-gift.md" },
-            { "優惠碼紅利到期通知" = "ec/marketing/coupon-and-bonus-points-expiry-notification.md" },
             { "單品限時折扣群組" = "ec/marketing/設定單品限時折扣群組.md" },
             { "任選折扣" = "ec/marketing/mix-and-match-discounts.md"},
             { "紅配綠多組合優惠" = "ec/marketing/red-and-green-bundle-discounts.md"},
@@ -289,7 +297,8 @@ copyright = """
             { "定期訂購活動頁" = "ec/marketing/subscription-campaign-page.md"},
             { "商品多層級分類滿額折扣" = "ec/marketing/設定商品多層級分類滿額折扣.md" },
             { "商品排除指定優惠" = "ec/marketing/設定商品排除指定優惠.md" },
-            {"預填商品導購連結" = "ec/marketing/create-cart-link-specific-products.md"},
+            {"預填商品導購連結" = "ec/marketing/建立含指定商品的購物車連結.md"},
+            { "結帳優惠計算順序" = "ec/marketing/checkout-discount-calculation-order.md"},
             {"參考資料" = [
                 {"帳號狀態與購買權限對照表" = "ec/marketing/references/purchase-limit-account-status.md"}
             ]}
@@ -358,7 +367,6 @@ copyright = """
                 {"LINEX 跨境物流" = "ec/payments-and-logistics/linex-cross-border-logistics.md"},
                 {"順豐海外物流" = "ec/payments-and-logistics/sf-express-overseas-logistics.md"},
                 {"Amazon FBA 跨境物流" = "ec/payments-and-logistics/amazon-fba-cross-border-logistics.md"},
-                {"CYBERBIZ EXPRESS 日到台宅配" = "ec/payments-and-logistics/cyberbiz-express-japan-to-taiwan-delivery.md"},
             ]},
             {"參考資料" = [
                 {"黑貓宅配費率對照" = "ec/payments-and-logistics/references/tcat-delivery-rate-card.md"},
@@ -425,32 +433,39 @@ copyright = """
             ]},
             {"CYBERBIZ 擴充服務" = [
                 {"overview" = "ec/app-market/cyberbiz-extensions/index.md"},
-                {"Chat Box" = [
-                    { "overview" = "ec/app-market/chatbox/index.md" },
-                    { "串接 LINE 官方帳號" = "ec/app-market/chatbox/connect-chat-box-to-line-oa.md" },
-                    { "串接 Facebook 粉絲專頁" = "ec/app-market/chatbox/connect-chat-box-to-facebook-page.md" },
-                    { "LINE 訊息格式規範" = "ec/app-market/chatbox/line-message-format-spec.md" },
-                    { "Meta 訊息格式規範" = "ec/app-market/chatbox/meta-message-format-spec.md" },
-                    { "Chat Box AI 建議回覆" = "ec/app-market/chatbox/chat-box-ai-suggested-replies.md" },
-                ]},
-                {"全通路管理助手" = [
-                    { "Step 1 安裝啟用" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md" },
-                    { "Step 2 導入商品與建立關聯" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step2-import-products-and-link.md" },
-                    { "Step 3 庫存同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee.md" },
-                    { "Step 4 官網商品建立為蝦皮商品" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step4-create-shopee-products-from-site.md" },
-                    { "Step 5 資訊同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step5-sync-product-info-with-shopee.md" },
-                ]},
+            ]},
+            { "API 與 Webhook 串接指南" = "ec/app-market/api-and-webhook-integration-guide.md"},
+            {"Chat Box" = [
+                { "overview" = "ec/app-market/chatbox/index.md" },
+                { "串接 LINE 官方帳號" = "ec/app-market/chatbox/connect-chat-box-to-line-oa.md" },
+                { "串接 Facebook 粉絲專頁" = "ec/app-market/chatbox/connect-chat-box-to-facebook-page.md" },
+                { "LINE 訊息格式規範" = "ec/app-market/chatbox/line-message-format-spec.md" },
+                { "Meta 訊息格式規範" = "ec/app-market/chatbox/meta-message-format-spec.md" },
+                { "Chat Box AI 建議回覆" = "ec/app-market/chatbox/chat-box-ai-suggested-replies.md" },
+            ]},
+            {"全通路管理助手" = [
+                { "Step 1 安裝啟用" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md" },
+                { "Step 2 導入商品與建立關聯" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step2-import-products-and-link.md" },
+                { "Step 3 庫存同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee.md" },
+                { "Step 4 官網商品建立為蝦皮商品" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step4-create-shopee-products-from-site.md" },
+                { "Step 5 資訊同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step5-sync-product-info-with-shopee.md" },
             ]},
             {"門市助理" = [
-                    {"overview" = "ec/app-market/storepal/index.md"},
-                    {"搜尋與建立會員" = "ec/app-market/storepal/search-and-create-members.md"},
-                    {"會員身份識別" = "ec/app-market/storepal/member-identification.md"},
-                    {"會員數據智庫" = "ec/app-market/storepal/member-data-warehouse.md"},
-                    {"導購轉化" = "ec/app-market/storepal/sales-conversion.md"},
-                    {"查看業績" = "ec/app-market/storepal/view-sales-performance.md"},
-                ]},
-            {"CYBERBIZ APP" = "ec/app-market/cyberbiz-app-features-guide.md"},
-            {"CYBERBIZ Meta Ads" = "ec/app-market/install-meta-ads-app.md"}
+                {"overview" = "ec/app-market/storepal/index.md"},
+                {"安裝與導入" = "ec/app-market/storepal/install-and-setup-storepal.md"},
+                {"員工帳號與角色" = "ec/app-market/storepal/staff-accounts-and-role.md"},
+                {"全站功能與業績歸因" = "ec/app-market/storepal/configure-global-settings-and-attribution.md"},
+                {"匯入顧客門市推薦人" = "ec/app-market/storepal/bulk-import-customer-referrers.md"},
+                {"搜尋與建立會員" = "ec/app-market/storepal/search-and-create-members.md"},
+                {"會員身份識別" = "ec/app-market/storepal/member-identification.md"},
+                {"會員數據智庫" = "ec/app-market/storepal/member-data-warehouse.md"},
+                {"導購轉化" = "ec/app-market/storepal/sales-conversion.md"},
+                {"查看業績" = "ec/app-market/storepal/view-sales-performance.md"},
+                {"績效報表" = "ec/app-market/storepal/performance-reports.md"},
+            ]},
+            {"CYBERBIZ EXPRESS 日到台宅配" = "ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery.md"},
+            {"CYBERBIZ APP" = "ec/app-market/CYBERBIZ APP 功能指南.md"},
+            {"CYBERBIZ Meta Ads" = "ec/app-market/安裝 Meta Ads App.md"}
         ]},
         { "第三方整合" = [
             {"overview" = "ec/integrations/index.md"},  
@@ -540,10 +555,10 @@ copyright = """
             { "系統通知設定" = "ec/website-management/系統通知設定.md" },
             { "網站基本資訊" = "ec/website-management/setup-store-basic-info.md" },
             { "設定多國語言與多幣別" = "ec/website-management/setup-multi-language-and-multi-currency.md" },
-            {"顧客註冊驗證" = "ec/website-management/setup-customer-email-phone-verification.md"},
-            { "續購與自動續約" = "ec/website-management/續購與自動續約.md" },
-            { "顧客註冊流程與欄位" = "ec/website-management/顧客註冊流程與欄位.md" },
-            { "網域管理" = "ec/website-management/網域管理.md" },
+            {"顧客註冊驗證" = "ec/website-management/設定顧客 Email 與手機雙重驗證.md"},
+            { "續購與自動續約" = "ec/website-management/renewal-and-auto-subscription.md" },
+            { "顧客註冊流程與欄位" = "ec/website-management/customer-registration-flow-and-fields.md" },
+            { "網域管理" = "ec/website-management/domain-management.md" },
             {"資安防護總覽" = "ec/website-management/security-best-practices.md"},
             {"安全性設定" = "ec/website-management/security-settings.md"},
             {"二階段驗證 (2FA)" = "ec/website-management/setup-manage-two-factor-auth.md"},
@@ -553,7 +568,15 @@ copyright = """
                 {"Sitemap 提交" = "ec/website-management/seo/將 Sitemap 提交至 Google Search Console.md"},
                 {"網站轉址" = "ec/website-management/seo/設定 301 重定向網站轉址.md"}
             ]},
-            { "星益欣電子發票" = "ec/website-management/星益欣電子發票設定指南.md" },
+            { "對帳中心" = [
+                { "欠款自動扣繳" = "ec/website-management/auto-deduction-of-arrears.md" },
+                { "自動確認對帳帳款" = "ec/website-management/auto-confirm-reconciliation-accounts.md" },
+                { "一鍵開立請款發票" = "ec/website-management/one-click-invoice-issuance.md" },
+            ]},
+            { "發票設定" = [
+                { "星益欣電子發票" = "ec/website-management/星益欣電子發票設定指南.md" },
+                { "系統代開消費者發票" = "ec/website-management/manage-system-issued-consumer-invoices.md"},
+            ]},
             {"儲值中心" = "ec/website-management/points-deposits.md"},
             { "特定網域信箱套用會員標籤" = "ec/website-management/特定網域信箱套用會員標籤.md" },
             {"管理員與權限" = "ec/website-management/add-admin-set-permissions.md"},
@@ -602,9 +625,8 @@ copyright = """
         { "訂單" = [
             { "列表" = "wms/list.md"},
             { "手動建單" = "wms/manual-order-creation.md"},
-            { "缺貨商品" = "wms/.md"},
         ]},
-        { "POD列表" = "wms/pod列表.md"},
+        { "POD列表" = "wms/pod-list.md"},
         { "退貨單" = "wms/return-orders.md"},
         { "庫存紀錄" = "wms/inventory-records.md"},
         { "設定" = [
@@ -613,8 +635,6 @@ copyright = """
             { "權限設定" = "wms/permission-settings.md"},
             { "報表通知設定" = "wms/report-notification-settings.md"},
         ]},
-        { "API" = "wms/.md"},
-
     ]},
     { "智能 POS" = [
         { "智能 POS" = "pos/index.md"},
@@ -627,9 +647,10 @@ copyright = """
             { "MYPAY 無線刷卡機" = "pos/hardware/mypay-wireless-credit-card-machine.md" },
             { "Posiflex 有線發票機" = "pos/hardware/posiflex-wired-invoice-printer.md" },
             { "EPSON TM-T82III 發票機" = "pos/hardware/epson-wired-invoice-printer.md" },
-            { "EPSON TM-M30III 發票機" = "pos/hardware/epson-tm-m30iii-invoice-printer-installation-tutorial.md" },
+            { "EPSON TM-M30III 發票機" = "pos/hardware/epson-tm-m30iii-invoice-printer.md" },
             { "標籤印表機" = "pos/hardware/label-printer.md" },
             { "客顯螢幕" = "pos/hardware/customer-display-screen.md" },
+            { "HPRT N130 掃碼槍" = "pos/hardware/hprt-n130-barcode-scanner.md" },
             { "平板裝置使用說明" = "pos/hardware/tablet-device-user-guide.md" },
             { "網路連線異常與斷線提示" = "pos/hardware/network-connection-exception-and-disconnection-prompts.md" },
         ]},
@@ -638,6 +659,7 @@ copyright = """
         ]},
         { "第三方服務" =[
             { "盟立電子發票" = "pos/third-party/monolith-e-invoice.md" },
+            { "星益欣電子發票" = "pos/third-party/wixtar-e-invoice.md" },
             { "LINE PAY 掃碼支付" = "pos/check/line-pay-scan-payment.md" },
         ]},
         {"divider" = "divider"},
@@ -668,7 +690,7 @@ copyright = """
             { "overview" = "pos/member/index.md" },
         ]},
         { "庫存" = [
-            { "全通路庫存管理" = "pos/inventory/omnichannel-inventory-management.md" },
+            { "overview" = "pos/inventory/index.md" },
             { "商品查詢" = "pos/inventory/product-query.md" },
             { "出倉單" = "pos/inventory/outbound-orders.md" },
             { "進倉單" = "pos/inventory/inbound-orders.md" },
@@ -685,9 +707,6 @@ copyright = """
             { "小結關帳" = "pos/others/daily-closing.md" },
             { "磅秤設定" = "pos/others/scale-settings.md" },
         ]},
-        { "參考資源" = [
-            { "人員權限欄位參考表" = "pos/reference/staff-permission-fields-reference.md" },
-        ]},
         {"divider" = "divider"},
         { "商店管理" = [
             { "公告系統" = "pos/store/announcement-system.md" },
@@ -699,6 +718,8 @@ copyright = """
             { "設定前台自動登出時間" = "pos/store/setup-frontend-auto-logout-time.md" },
             { "員工權限與帳號管理" = "pos/store/staff-permissions-and-account-management.md" },
             { "人員登入" = "pos/store/staff-login.md" },
+            { "參考資源" = [
+                { "人員權限欄位參考表" = "pos/reference/staff-permission-fields-reference.md" },
         ]},
         { "報表分析" = [
             { "營收分析" = "pos/business-intelligence/pos-revenue-analysis.md" },

@@ -70,7 +70,7 @@ hide: []
 了解當 POS 前台偵測到網路連線不穩或中斷時的系統提示機制，以及如何排查因瀏覽器廣告阻擋套件造成的誤判問題。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"

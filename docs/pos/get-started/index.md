@@ -58,7 +58,7 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/rocket
+icon: ""
 hide: []
 ---
 
@@ -66,7 +66,7 @@ hide: []
 建立門市營運的第一步：了解智能 POS 的軟硬體需求、第三方服務申請及核心系統邏輯。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 
@@ -193,7 +193,7 @@ hide: []
     <div class="grid cards" markdown>
 
     - :lucide-git-branch:{ .lg }
-      [__全通路庫存管理__](../inventory/omnichannel-inventory-management/)<br>
+      [__全通路庫存管理__](../inventory/index/)<br>
       EC 官網與 POS 門店為 **獨立門市、獨立庫存**。系統開通後，可使用進/出/調倉單或盤點功能進行庫存增減調整。
 
     - :lucide-plug:{ .lg }

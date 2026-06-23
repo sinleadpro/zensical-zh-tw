@@ -27,7 +27,7 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 專業PLUS
+  - 專業 PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -68,7 +68,10 @@ paths:
   - 門市管理 > 角色與權限
   - 設定 > 通知設定
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=41868
+  - https://www.cyberbiz.io/support/?p=41889
+  - https://www.cyberbiz.io/support/?p=41923
 permalink: ""
 comments: false
 search:
@@ -82,6 +85,7 @@ hide: []
 { .subtitle }
 
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-grid-2x2-plus: { title="適用擴充" }](../../resources/conventions#適用擴充) | 門市助理
 { .doc-badge }
 
 !!! tip "應用情境"
@@ -188,7 +192,7 @@ hide: []
 
 	- **訂單紀錄**：手動輸入的消費將同步至 EC 後台的 **會員 > 所有會員 > 個別會員頁 > 其他通路訂單**。
 	- **欄位對照**：後台將顯示成立時間、金額、資料來源、通路名稱與操作人員。
-	- **會員權益**：此金額將計入會員的累積消費，進而觸發 [VIP 升等](../../members/vip-feature-operation-guide.md#1-升等機制即時獎勵與最優判定) 或 [續會](../../members/vip-feature-operation-guide.md#3-續會機制資格維持與自動判定) 邏輯。
+	- **會員權益**：此金額將計入會員的累積消費，進而觸發 [VIP 升等](../../members/vip/vip-upgrade-downgrade-renewal-rules.md#升等機制) 或 [續會](../../members/vip/vip-upgrade-downgrade-renewal-rules.md#續會機制) 邏輯。
 
 	!!! tip "消費者權益維護"
 		消費者可登入官網，在 **會員中心 > 訂單查詢 > 其他通路有效訂單** 中查看線下消費紀錄，確保權益已成功累積。

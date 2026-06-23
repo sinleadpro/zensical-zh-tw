@@ -29,7 +29,7 @@ difficulty: ""
 tnb: branch
 plans:
   - 高手
-  - 專業PLUS
+  - 專業 PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -68,7 +68,7 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/lock
+icon: ""
 hide: []
 ---
 
@@ -77,8 +77,7 @@ hide: []
 { .subtitle }
 
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 電商倉儲
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 / 所有PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲
 { .doc-badge }
 
 ![](../assets/images/EC-後台-金物流-宅配物流-拆單畫面總覽01.png){ .hero-page }
@@ -108,7 +107,7 @@ hide: []
 
 前往 **金物流 > 宅配物流**，進入 **自訂物流** 頁籤。
 
-#### 1. **建立「倉庫出貨」物流**：
+#### 1. 建立「倉庫出貨」物流
 
 1. **新增物流項目**：點擊 **新增自訂物流**。
 2. **設定顯示名稱**：於 **物流名稱** 欄位輸入名稱。
@@ -118,7 +117,7 @@ hide: []
 3. **指定出貨類型**：在 **出貨方式** 下拉選單中，選取 **峰潮物流**。
 4. **完善詳細設定**：依序填寫運費規則與適用區域。詳細設定方式可參考 [建立自訂物流](../ec/payments-and-logistics/setup-home-delivery-non-cod-custom-logistics.md)。
 
-#### 2. **建立「自行出貨」物流**：
+#### 2. 建立「自行出貨」物流
 
 1. **新增物流項目**：點擊 **新增自訂物流**。
 2. **設定顯示名稱**：於 **物流名稱** 欄位輸入名稱。
@@ -175,7 +174,10 @@ hide: []
     1. 前往 **訂單 > 所有訂單**。
     2. **篩選自行出貨訂單**：點擊 **新增篩選條件**，選擇 **配送方式 > [自行出貨物流名稱]**。
     3. **自行出貨單**：勾選訂單，點選 **更多操作 > 列印 XXX 託運單**。
-        - 自訂出貨訂單支援 [部分出貨](../ec/orders/partial-shipment-settings.md)。
+        - 自訂出貨訂單支援部分出貨。
+
+             > 參閱[超商部分出貨](../ec/orders/cvs-shipping/cvs-partial-shipment.md)、[宅配部分出貨](../ec/orders/home-delivery/partial-shipment.md)
+
         - 自訂出貨訂單恕不支援貨到付款。
     4. **倉庫出貨單**：系統會自動將訂單推送至 WMS，商家僅需觀察貨態更新。
 
@@ -188,7 +190,7 @@ hide: []
 - **CYBERBIZ 電商倉儲**：全數商品由 CYBERBIZ 倉庫自動接單並執行發貨。
 
 !!! info "找不到 **出貨方式** 欄位？"
-    若您的列表中未顯示此資訊，請至 [編輯訂單列表欄位](../ec/orders/order-management-interface.md#編輯欄位與排序)，勾選 **出貨方式**。可將其拖曳至前方排序，以便快速辨識訂單處理方。
+    若您的列表中未顯示此資訊，請至 [編輯訂單列表欄位](../ec/orders/basics/order-management-interface.md#編輯欄位與排序)，勾選 **出貨方式**。可將其拖曳至前方排序，以便快速辨識訂單處理方。
 
 ![](../assets/images/EC-後台-訂單-所有訂單-混單出貨方式01.png){ .screenshot }
 

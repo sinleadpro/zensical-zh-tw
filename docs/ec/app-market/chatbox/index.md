@@ -23,7 +23,7 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans: 
-  - 專業PLUS
+  - 專業 PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -63,9 +63,9 @@ ui_components:
 paths: 
   - APP MARKET > ChatBox
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12960
-  - https://www.cyberbiz.io/support/?p=52927
+  - https://www.cyberbiz.io/support/?p=52916
 permalink: ""
 comments: false
 search:

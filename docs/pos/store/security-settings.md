@@ -60,6 +60,7 @@ layouts:
   - 
 wp_url:
   - https://www.cyberbiz.io/support/?p=27199
+  - https://www.cyberbiz.io/support/?p=5231
 permalink: ""
 comments: false
 search:
@@ -72,8 +73,7 @@ hide: []
 設定跨店訂單與顧客資訊查看權限、IP 白名單限制以及訂單來源通知，確保門市營運資料安全。
 { .subtitle }
 
-
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 ![](../../assets/images/POS-後台-所有POS商店-安全性設定01.png){ .hero-page }

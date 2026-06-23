@@ -1,5 +1,5 @@
 ---
-title: 電商倉儲：申請流程與開通
+title: 串倉申請流程與開通
 description: 在正式開通串接前，商家需完成合約簽訂、系統環境建置以及商品資料同步，以確保訂單能正確拋轉至倉庫執行。
 created: 2026-03-18 00:00
 last_modified: 2026-05-28 14:48
@@ -60,14 +60,15 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/warehouse
+icon: ""
 hide: []
 ---
-# 申請流程與開通
+# 串倉申請流程與開通
 在正式開通串接前，商家需完成合約簽訂、系統環境建置以及商品資料同步，以確保訂單能正確拋轉至倉庫執行。
 { .subtitle }
 
-
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲
+{ .doc-badge }
 
 ## 串倉核心須知
 

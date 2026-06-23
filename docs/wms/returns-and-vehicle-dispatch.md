@@ -65,13 +65,16 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/truck
+icon: ""
 hide: []
 ---
 
 # 退貨與派車
 了解 CYBERBIZ 電商倉儲系統（WMS）與 EC 後台的退貨整合流程，包含逆物流派車設定、商品回收驗收、超商逾期未取處理以及自動化退款作業。
 { .subtitle }
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲
+{ .doc-badge }
 
 ## 使用須知
 
@@ -144,8 +147,8 @@ hide: []
                 | | 7-11 C2B | 7-11 C2B | | |
                 | 逆物流送貨地址 | 倉庫地址 | 倉庫地址 | 商家公司地址 | 商家公司地址 |
 
-            - 建立 [宅配逆物流](../ec/payments-and-logistics/宅配逆物流（黑貓宅配通新竹物流）)
-            - 建立 [7-11 C2B逆物流](../ec/orders/cvs-c2b-return.md)
+            - 建立宅配逆物流： [黑貓](../ec/payments-and-logistics/設定與加印黑貓託運單/#ezcat-shipping-note-reverse)、[宅配通](../ec/payments-and-logistics/設定宅配通託運單/#operate-pelican-shipping-reverse)、[新竹物流](../ec/payments-and-logistics/設定新竹物流託運單/#operate-hct-setup-reverse)
+            - 建立 [7-11 C2B逆物流](../ec/orders/returns-refunds/cvs-c2b-return.md)
 
         2. **狀態切換**：訂單 **退貨狀態** 自動轉為 **退貨中**。
         3. **系統同步**：官網自動將資訊同步至 WMS，產生 **退貨單** 並取得 **託運單號**。

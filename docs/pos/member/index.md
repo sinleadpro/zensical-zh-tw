@@ -2,7 +2,7 @@
 title: 使用 POS 前台管理會員
 description: 透過 POS 前台快速註冊新會員、查詢顧客資料與管理推薦分潤，提升門市會員經營效率。
 created: 2026-04-16 10:00
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-22 11:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -64,7 +64,7 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/user-cog
+icon: ""
 hide: []
 ---
 
@@ -72,7 +72,7 @@ hide: []
 透過 POS 前台快速註冊新會員、查詢顧客資料與管理推薦分潤，提升門市會員經營效率。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"
@@ -102,7 +102,8 @@ hide: []
     ![](../../assets/images/POS-前台-會員-畫面總覽01.png){ .screenshot }
 2. 在 **手機** 或 **信箱** 欄位輸入正確資訊（其中一項為必填）。
     ![](../../assets/images/POS-前台-會員-會員註冊01.png){ .screenshot }
-3. 點擊 **確認註冊**，系統將發送包含啟用連結的簡訊至顧客手機，請引導顧客開啟簡訊，完成帳戶啟用後，方可結帳。
+3. 點擊 **確認註冊**，系統將發送包含啟用連結的簡訊至顧客手機，請引導顧客開啟簡訊，完成帳戶啟用後，方可前往結帳。
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台-會員-會員註冊後前往結帳01.png){ .screenshot }
 
 
 
@@ -116,20 +117,34 @@ hide: []
 3. 點擊 **搜尋**，系統將顯示符合條件的會員列表。
     ![](../../assets/images/POS-前台-會員-會員查詢01.png){ .screenshot }
 4. 點選目標會員進入資訊頁面：
-    ![](../../assets/images/POS-前台-會員-會員查詢-修改會員資料01.png){ .screenshot }
+    
 
     - 點擊訂單項目可查看消費細節。
 
         ![](../../assets/images/POS-前台-會員-會員查詢-顯示會員訂單01.png){ .screenshot }
 
-    - 點擊 **修改** 可編輯會員資料。
+    - 點擊 **編輯** 可編輯會員資料。
 
-        ![](../../assets/images/POS-前台-會員-會員查詢-修改會員資料02.png){ .screenshot }
+        <div class="grid cards borderless two-columns" markdown>
+
+        - ![](../../assets/images/POS-前台-會員-會員查詢-修改會員資料01.png){ .screenshot }
+        - ![](../../assets/images/POS-前台-會員-會員查詢-修改會員資料02.png){ .screenshot }
+
+        </div>
 
         !!! note "會員欄位同步"
             **備註** 一欄資訊會同步顯示於官網後台，並可於會員明細頁面中查看。
             ![](../../assets/images/EC-後台-會員-所有會員-顯示會員備註01.png){ .screenshot }
-    
+
+    - 點擊 **結帳** ，直接前往登入該會員帳戶之結帳頁面。
+
+        ![](../../assets/images/POS-前台-會員-會員查詢後前往結帳01.png){ .screenshot }
+
+        - 若結帳頁面有登入其他會員，且已加入商品，會以彈窗提醒商家。如需繼續前往結帳流程，將會將原本購物車內的會員和商品資訊存為暫存訂單。
+
+            ![](../../assets/images/POS-前台-會員-會員註冊後前往結帳02.png){ .small-image }
+
+        - 若結帳頁面有登入其他會員但沒有加入商品，則會直接登出舊會員並登入新會員。
 
 ### 管理推薦分潤方案
 

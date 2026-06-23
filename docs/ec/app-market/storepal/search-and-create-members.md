@@ -24,7 +24,7 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 專業PLUS
+  - 專業 PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -54,7 +54,8 @@ ui_components:
 paths:
   - APP MARKET > 我的擴充服務 > 門市助理
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=41747
 permalink: ""
 comments: false
 search:
@@ -68,6 +69,7 @@ hide: []
 { .subtitle }
 
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-grid-2x2-plus: { title="適用擴充" }](../../resources/conventions#適用擴充) | 門市助理
 { .doc-badge }
 
 ![](../../../assets/images/門市助理-前台-會員查詢-畫面總覽01.png){ .hero-page }

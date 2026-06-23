@@ -70,7 +70,7 @@ hide: []
 商家除了使用桌上型電腦，亦可搭配 iPad 或 Android 平板打造行動化結帳櫃檯。本文說明平板裝置的規格建議與使用限制。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"

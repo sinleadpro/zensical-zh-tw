@@ -55,12 +55,12 @@ paths:
   - 行銷活動 > 全館折扣-紅利 & 優惠券 > 會員紅利點數
   - 金物流 > 結帳頁 & 物流設定 > 訂單相關設定 > 訂單取消退貨相關紅利設定
 layouts: []
-wp_url: 
-  - https://www.cyberbiz.io/helpcenter/?p=3812
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3805
   - https://www.cyberbiz.io/helpcenter/?p=3807
-  - https://www.cyberbiz.io/support/?p=6103
+  - https://www.cyberbiz.io/helpcenter/?p=3812
   - https://www.cyberbiz.io/support/?p=42367
+  - https://www.cyberbiz.io/support/?p=6103
 permalink: ""
 comments: false
 search:
@@ -92,8 +92,6 @@ hide: []
 
 ## 操作流程
 
-### 1. 基礎設定
-
 1. 登入 CYBERBIZ 管理後台，前往 **行銷活動 > 全館折扣-紅利 & 優惠券**。
 2. 下拉找到 **會員紅利點數** 區塊，將功能切換為 `開啟`。
 3. 設定核心參數：
@@ -104,20 +102,18 @@ hide: []
     - **每一筆紅利的有效期限**：設定點數有效天數（0 代表永不失效）。
     > 此期限設定亦會同步套用於「註冊禮發送的紅利」。
 
-- ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-設定會員紅利點數01.png){ .screenshot }
+   ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-設定會員紅利點數01.png){ .screenshot }
 
-### 2. 多元發送紅利方式
+## 紅利發送方式
 
-您可以根據行銷需求，選擇以下不同的發送機制：
-
-#### A. 全站消費回饋（自動發送）
+### A. 全站消費回饋（自動發送）
 
 在 **會員紅利點數** 區塊設定「消費門檻」與「贈送點數」。
 
 - **範例**：設定每消費 100 元贈送 10 點。
 - **邏輯**：系統會依比例累計。消費 1000 元得 100 點；消費 999 元則得 90 點。
 
-#### B. 全館發送（針對所有會員）
+### B. 全館發送（針對所有會員）
 
 1. 在同頁面點選 **全館發送紅利點數** 展開欄位。
 2. 輸入點數、期限與發送名稱，點選 **確認新增**。
@@ -125,7 +121,7 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/紅利點數2-1.png){ .screenshot }
 
-#### C. 手動發送（針對特定會員）
+### C. 手動發送（針對特定會員）
 
 前往 **會員 > 所有會員**。
 
@@ -146,16 +142,23 @@ hide: []
 
     </div>
 
-=== "匯入發送"
+
+### D. EXCEL 批次發送
+
+!!! info "使用須知"
+    - 此功能僅限 **企業版** 使用。
+    - 商家若有 **開啟外部紅利** 功能，則無法使用批次匯入紅利。若有發送紅利的需求，請直接於您的外部中台系統操作。
     
-    在「匯入會員」時，於 CSV 範本的「剩餘紅利點數」欄位填入數值。
 
-    <div class="grid cards borderless two-columns" markdown>
+1. 下載範本，依範本內提供欄位規格填寫。
 
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/紅利點數-9.png){ .screenshot }
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/紅利點數-6.png){ .screenshot }
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-紅利優惠券-批次發送紅利點數01.png){ .screenshot }
 
-    </div>
+2. 填入會員的 Email 或手機、指定的活動名稱、預計發送的紅利等欄位。
+
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/EXCEL範本-批次發送紅利點數01.png){ .screenshot }
+
+3. 上傳 Excel。系統會發送 Email 通知匯入結果，匯入成功後立即發送紅利給指定會員。
 
 
 
@@ -255,21 +258,21 @@ hide: []
 
 - **會員中心**：顯示可用點數及約略等值金額。
 
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明10.png){ .screenshot }
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明10.png){ .screenshot }
 
 - **商品頁面**：顯示該商品最高可折抵的點數及約略等值金額。
     > 於後台設定商品「紅利點數折抵上限」時，填寫數值為 **點數** 而非金額。
 
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明11.png){ .screenshot }
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明11.png){ .screenshot }
 
 - **結帳頁面**：顯示折抵點數及實際扣除的金額。
 
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明12.png){ .screenshot }
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明12.png){ .screenshot }
 
 
 #### 報表匯出欄位
 
-可於 [匯出訂單報表](../orders/export-order-report.md)時，將同步呈現紅利折抵與金額換算之詳細欄位：
+可於 [匯出訂單報表](../orders/reports/export-order-report.md)時，將同步呈現紅利折抵與金額換算之詳細欄位：
 
 - **紅利折抵**：單位為紅利點數。
 - **商品紅利折扣總金額**：紅利點數經匯率換算後之實際折抵金額。
@@ -284,13 +287,13 @@ hide: []
 
 2. 點擊 **匯出紅利圖表**。
 
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明14.png){ .screenshot }
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明14.png){ .screenshot }
 
 3. 系統將發送 Excel 報表至管理員信箱。
 
     > 匯出區間不得超過 180 天。
 
-    - ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明16.png){ .screenshot }
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明16.png){ .screenshot }
 
 
 ## 更多操作

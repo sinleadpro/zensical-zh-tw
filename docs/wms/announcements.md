@@ -51,13 +51,16 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/megaphone
+icon: ""
 hide: []
 ---
 
 # 公告
 即時掌握電商倉儲（WMS）的系統更新進度、倉庫端的重要作業異動，以及系統問題的修復狀況。
 { .subtitle }
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+{ .doc-badge }
 
 ![](../assets/images/WMS-後台-公告-畫面總覽01.png){ .hero-page }
 

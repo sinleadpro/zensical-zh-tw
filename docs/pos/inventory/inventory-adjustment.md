@@ -79,7 +79,7 @@ hide: []
 當實際商品數量與系統帳面庫存不符時，您可以透過盤盈、盤虧、銷貨或退貨等類別，快速更新 EC 或 POS 的庫存數據。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 ![](../../assets/images/POS-後台-全通路庫存管理-盤點-畫面總覽01.png){ .hero-page }

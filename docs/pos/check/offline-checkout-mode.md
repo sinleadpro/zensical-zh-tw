@@ -74,7 +74,7 @@ hide: []
 當門市遇到網路斷線或不穩時，CYBERBIZ 提供「離線模式」應急方案。店員仍可維持正常的結帳、開立發票與列印動作，待網路恢復後，系統將自動同步資料至雲端後台。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"

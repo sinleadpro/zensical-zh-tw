@@ -66,7 +66,7 @@ hide: []
 { .subtitle }
 
 
-[:lucide-layers:{ title="適用方案" }](../../resources/conventions#適用方案) | 跨境電商 (澳洲落地版)
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用方案) | 跨境電商 (澳洲落地版)
 { .doc-badge }
 
 ## 使用須知

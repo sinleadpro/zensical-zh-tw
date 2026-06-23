@@ -54,7 +54,7 @@ paths:
   - POS 功能 > 所有 POS 商店 > 付款方式
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/support/?p=4518
+  - https://www.cyberbiz.io/support/?p=3060
 permalink: ""
 comments: false
 search:
@@ -67,7 +67,7 @@ hide: []
 管理 POS 前台提供的支付工具，包含現金、信用卡串接及行動支付。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 ![](../../../assets/images/POS-後台-所有POS門市-付款方式-畫面總覽01.png){ .hero-page }
@@ -93,19 +93,11 @@ hide: []
         系統預設付款方式，無須另行啟用。
 
         - :lucide-credit-card:{ .lg }   
-        [__信用卡 (信用卡機)__](../hardware/taishin-wired-credit-card-machine.md)   
+        [__信用卡 (信用卡機)__](../../hardware/taishin-wired-credit-card-machine.md)   
         串接台新銀行有線刷卡機，自動同步交易金額至卡機，減少手動輸入錯誤。
-        
-        - :lucide-credit-card:{ .lg }   
-        __信用卡 (不串卡機)__<br>
-        適用於手動輸入金額的刷卡機或百貨專櫃業者。<br>
-
-        - :lucide-qr-code:{ .lg }   
-        __玉山支付__<br>
-        僅限已與玉山銀行洽談開通支付寶掃碼功能之商家使用。
 
         - :lucide-smartphone:{ .lg }   
-        [__MYPAY__](../hardware/mypay-wireless-credit-card-machine.md) <br>
+        [__MYPAY__](../../hardware/mypay-wireless-credit-card-machine.md) <br>
         適用於平板操作，需搭配商米 P2 PRO 刷卡機服務。
 
         - :lucide-wallet:{ .lg }   
@@ -116,18 +108,6 @@ hide: []
         [__多付款方式__](multiple-payment-methods.md) <br>
         支援單筆訂單拆分多種支付（如現金 + 禮券）<br>
         使用場景：**五倍券、振興券、動滋券**
-
-        - :lucide-scan-line:{ .lg }   
-        __台新掃碼付 (支付寶)__<br>
-        透過台新銀行提供的支付寶掃碼服務進行收款。
-
-        - :lucide-scan-line:{ .lg }   
-        __台新掃碼付 (微信)__<br>
-        透過台新銀行提供的微信支付掃碼服務進行收款。
-
-        - :lucide-smartphone-nfc:{ .lg }   
-        __悠遊卡 (台新卡機)__<br>
-        需搭配台新銀行刷卡機，支援感應悠遊卡支付。
 
         </div>
 
@@ -145,7 +125,7 @@ hide: []
 
 === "後台設置"
 
-    - **自定義順序**：長按 :lucide-move: (移動圖示)，即可自由拖拉選項以調整前台顯示權重。
+    - **自定義順序**：長按 :lucide-move: (移動圖示)，即可自由拖拉選項以調整前台顯示順序。
 
     ![](../../../assets/images/POS-後台-所有POS門市-付款方式-調整付款排序01.gif){ .screenshot }
 
@@ -154,3 +134,5 @@ hide: []
     - **黃金版位機制**：前台預設僅顯示 **前三項** 付款選項，其餘選項將收摺至 **其他付款方式** 中。
     - **展開與選取**：點擊 **其他付款方式** 後，系統將彈窗展開剩餘選項供快速點選。
     - **優化建議**：建議將高頻率使用的支付工具於後台前移排序，以提升結帳轉單率。
+
+    ![](../../../assets/images/POS-前台-結帳-付款方式01.png){ .screenshot }

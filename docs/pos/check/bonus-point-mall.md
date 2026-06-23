@@ -2,7 +2,7 @@
 title: 設定紅利商城 (POS)
 description: 建立專屬的線上紅利兌換商城，設定商品兌換所需點數，透過紅利積點機制提升會員回訪與品牌忠誠度。
 created: 2026-04-10 10:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-22 11:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -69,7 +69,7 @@ hide: []
 建立專屬的線上紅利兌換商城，設定商品兌換所需點數，透過紅利積點機制提升會員回訪與品牌忠誠度。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 ![](../../assets/images/POS-後台-行銷活動-紅利商城-畫面總覽01.png){ .hero-page }
@@ -201,3 +201,13 @@ hide: []
 4. 系統將自動把該品項轉為紅利換購模式，並扣除對應點數。
 
 ![](../../assets/images/POS-前台-結帳-新增紅利商城商品02.gif){ .screenshot }
+
+## 更多操作
+
+<div class="grid cards" markdown>
+
+- :lucide-hash:{ .lg }
+    [__EC 紅利商城__](../../ec/marketing/bonus-point-mall.md)
+    為電商官網建立線上紅利兌換商城。
+
+</div>

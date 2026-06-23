@@ -71,7 +71,7 @@ hide: []
 透過正確安裝 EPSON TM-T82III 專業發票機並配置虛擬 COM Port，商家可實現穩定、快速的電子發票列印作業。本文將引導您完成從硬體安裝到驅動程式設定的完整流程。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"
@@ -110,14 +110,14 @@ hide: []
 
 此步驟為連線成功的關鍵，請務必按照順序操作。
 
-1. **下載驅動**：前往 [EPSON 軟體列表](https://support.epson.net/setupnavi/?PINF=swlist&OSC=IOS&LG2=ZH&MKN=TM-T82III) 下載 [TM Virtual Port Driver](https://download3.ebz.epson.net/dsc/f/03/00/16/59/59/37c78fb33341c071dbfc05bdbe456ca853037eaf/TMVirtualPortDriver870c.zip)。
+1. **下載驅動**：下載 [TM Virtual Port Driver](https://download-center.epson.com/download/?module_id=070d7dfb-72df-4f28-9304-3336b198c5f3%3A8.70f&device_id=TM-T82III&os=WIN1164&region=TW&language=zh-TW)。
 2. **執行安裝**：完成安裝後，**強烈建議重新啟動電腦**。
 3. **實體連線**：使用 USB 線將發票機連接至 Windows 電腦。
 4. **指派 COM Port**：
     - 開啟 **EPSON TM Virtual Port Driver Port Assignment Tool** 軟體。
     - 參考 `C:\Program Files (x86)\EPSON\TMCOMUSB\TMVirtualPortDriver_User'sManual.pdf` 的 `手動設備設定 - USB` 設定指引，將偵測到的發票機指派至一個目前 **未被佔用** 的 COM Port（如 COM3 或 COM4）。
 
-![type:video](../../assets/videos/POS-安裝-EPSON發票機軟體安裝設定01.mp4)
+![type:video](https://www.cyberbiz.io/support/wp-content/uploads/POS-EPSON發票機軟體安裝設定.mp4)
 
 
 ### 步驟四：校對紙張寬度設定

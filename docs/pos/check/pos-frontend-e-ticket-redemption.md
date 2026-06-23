@@ -71,7 +71,7 @@ hide: []
 透過 POS 前台介面，店員可快速為顧客核銷電子票券，並即時查詢票券訂單狀態與歷史核銷紀錄，確保門市營運流暢。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業版
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"

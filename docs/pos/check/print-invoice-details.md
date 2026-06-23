@@ -53,7 +53,9 @@ ui_components:
 paths:
   - POS 功能 > 所有 POS 商店 > [店名] > POS 系統列表 > 修改 POS 設定
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=27199
+  - https://www.cyberbiz.io/support/?p=5231
 permalink: ""
 comments: false
 search:
@@ -66,7 +68,7 @@ hide: []
 您可於 POS 子機設定中啟用 「自動開立發票」 功能，並依門市需求配置發票或交易明細的列印偏好。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"

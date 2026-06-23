@@ -65,7 +65,7 @@ CYBERBIZ 提供標準信用卡服務，更整合了在地龍頭金流商 Fiuu (�
 { .subtitle }
 
 
-[:lucide-layers:{ title="適用方案" }](../../resources/conventions#適用方案) | 跨境電商 (東南亞站)
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用方案) | 跨境電商 (東南亞站)
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Pro / Business
 { .doc-badge }
 
@@ -103,7 +103,7 @@ CYBERBIZ 提供標準信用卡服務，更整合了在地龍頭金流商 Fiuu (�
 
 ### 1. 取得 Fiuu 後台密鑰
 
-登入 [Fiuu 管理後台](https://portal.merchant.razer.com)，前往 **Transactions > Settings**，複製以下資訊：
+登入 [Fiuu 管理後台](https://portal.fiuu.com/index.php?mod=authentication&opt=login)，前往 **Transactions > Settings**，複製以下資訊：
 
 - **Verify Key**
 - **Secret Key**

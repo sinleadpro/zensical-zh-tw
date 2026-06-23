@@ -2,7 +2,7 @@
 title: 定期訂購活動頁
 description: 說明如何建立訂閱制活動頁面，包含基本設定、期數優惠、金流限制及備貨期配置，協助品牌創造穩定營收。
 created: 2026-05-29 18:01
-last_modified: 2026-05-29 18:01
+last_modified: 2026-06-22 11:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,7 +23,7 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans: 
-  - 專業PLUS
+  - 專業 PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -132,17 +132,31 @@ hide: []
 
 ### 1. 基本設定
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁05.png){ .screenshot }
-
 - **搜尋商品**：將商品加入頁面，單一頁面 **最多加入 10 個商品**。
+
+    ![](../../assets/images/EC-後台-行銷活動-定期訂購活動頁-建立活動01.png){ .screenshot }
+
 - **活動標題**：自訂活動名稱，此名稱將顯示於前台頁面標題。
 - **網址標題**：自訂該活動頁的 URL 後綴路徑。
 - **圖片上傳**：上傳活動頁的主視覺圖片（Banner）。
 - **活動時間**：設定開始與結束時間。結束後會員無法再看到頁面，但 **已成立的子訂單會保持有效**，除非由商家或會員手動取消。
+
+    ![](../../assets/images/EC-後台-行銷活動-定期訂購活動頁-建立活動02.png){ .screenshot }
+
 - **待出貨訂單設定（備貨期）**：
     - 例如設定為 3 天：若 10/31 為出貨日，系統會在 10/27 正式轉單請款（轉單日與出貨日不計入備貨期）。
+
+    ![](../../assets/images/EC-後台-行銷活動-定期訂購活動頁-建立活動03.png){ .screenshot }
+
 - **前台母訂單取消限制**：
     - 可設定顧客在第 N 期之後才可於前台自行取消母訂單。若未開啟，顧客僅能取消單一子訂單，整筆母訂單需由店家後台取消。
+
+        !!! info "快速理解"
+            此處設定的是 **定期訂單期數**（第幾次配送），而非 **實際訂單數**（第幾張成功訂單）。即使訂單建立失敗（例如扣款失敗），該輪次依然會被計入期數中。
+            
+            範例：
+            設定 **1**，則系統於 **第 2 期** 後可取消訂單。即使第 1 期訂單成立失敗，第 2 次配送期一到，顧客仍可取消母訂單。
+
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁07.png){ .screenshot }
     
@@ -172,29 +186,28 @@ hide: []
 
 ### 4. 進階優惠設定
 
-這是提升訂閱留存率的關鍵功能，可設定「指定期數」、「指定區間」的獎勵。
+- **指定期數送贈品**：可設定 **指定期數** 或 **指定區間** 配送時，額外贈送特定商品。
 
-- **指定期數送贈品**：例如第 5 期配送時額外贈送特定商品。
-- **指定期數折扣**：例如第 1-3 期原價，第 4-6 期打 8 折（輸入 80% ）。
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁14.png){ .screenshot }
+
+- **指定期數折扣**：可設定 **指定期數** 或 **指定區間** 配送時，享有額外折數優惠。
+
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁16.png){ .screenshot }
 
 !!! warning "操作注意事項"
     - **訂單排除機制**：實際配送次數計算時，會排除「取消」或「退貨」的訂單。
     - **期數優惠防重疊限制**：已設定優惠的期數，不可重複建立相同類型的優惠。
 
-<div class="grid cards borderless two-columns" markdown>
-
-![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁14.png){ .screenshot }
-![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁16.png){ .screenshot }
-
-</div>
-
-
 
 ### 5. 金流設定
 
-勾選欲提供給此活動的付款方式。（需先於金物流設定中開啟選項）
+勾選欲提供給此活動的付款方式。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁13.png){ .screenshot }
+![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額金流設定-1024x528.jpg){ .screenshot }
+
+
+!!! tip "設定提示"
+    若未看到預期的付款選項，請先至 **金物流 > 金流設定** 中啟用金流，或前往 **金物流 > 宅配物流 / 超商物流** 啟用物流，該選項才會出現在此清單中。
 
 ## 常見問題
 

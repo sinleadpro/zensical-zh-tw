@@ -64,6 +64,9 @@ hide: []
 直接於管理後台辦理 POS 系統續約或加購子機，無需聯繫顧問即可快速完成合約展延與設備擴充。
 { .subtitle }
 
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
+{ .doc-badge }
+
 ![](../../assets/images/POS-後台-續購與加購方案-畫面總覽01.png){ .hero-page }
 
 

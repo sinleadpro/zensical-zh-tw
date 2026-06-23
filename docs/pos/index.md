@@ -225,7 +225,7 @@ hide:
 
     [:octicons-arrow-right-24: 建立支付工具](check/payment-method/index.md)<br>
     [:octicons-arrow-right-24: 盟立電子發票](third-party/monolith-e-invoice.md)<br>
-    [:octicons-arrow-right-24: 星益欣電子發票](third-party.md)<br>
+    [:octicons-arrow-right-24: 星益欣電子發票](third-party/wixtar-e-invoice.md)<br>
 
 
 -   :lucide-package-check: __精準庫存__
@@ -233,7 +233,7 @@ hide:
     ---
     即時掌握門市與電商全通路庫存
     
-    [:octicons-arrow-right-24: 庫存管理](inventory/omnichannel-inventory-management.md)
+    [:octicons-arrow-right-24: 庫存管理](inventory/index.md)
 
 -   :lucide-users: __會員經營__
     

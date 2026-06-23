@@ -1,9 +1,8 @@
 ---
-
 title: "新增網站管理員並設定權限"
 description: "新增網站管理員、設定管理者權限，並管理帳號安全與二階段驗證。"
 created: "2026-03-13 12:29"
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-23 19:05
 lang: zh-TW
 type: tutorial
 status: ""

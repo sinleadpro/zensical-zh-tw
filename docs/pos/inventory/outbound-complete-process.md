@@ -57,7 +57,9 @@ ui_components:
 paths:
   - POS 功能 > 全通路庫存管理
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=2962
+  - https://www.cyberbiz.io/support/?p=4623
 permalink: ""
 comments: false
 search:
@@ -70,7 +72,7 @@ hide: []
 由出貨方主動發起，透過系統自動轉單機制，確保跨單位撥貨的庫存準確性與軌跡追蹤。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 
@@ -91,12 +93,10 @@ Note over 收貨方: 2. 確認進倉
 Note over 出貨方: 3. 確認出倉
 出貨方->>收貨方: 實際配送
 Note over 收貨方: 4. 收貨清點
-收貨方 <<->>出貨方: 系統調整雙邊庫存
-Note over 出貨方,收貨方: 5. 庫存異動完成
 ```
 
 
-1. [[出貨方] 建立出倉單]()
-2. [[收貨方] 確認進倉]()
-3. [[出貨方] 確認 / 取消出倉]()
-4. [[收貨方] 收貨清點]()
+1. [[出貨方] 建立出倉單](outbound-orders.md#建立出倉單)
+2. [[收貨方] 確認進倉](inbound-orders.md#確認--取消進倉)
+3. [[出貨方] 確認 / 取消出倉](outbound-orders.md#確認--取消出倉)
+4. [[收貨方] 收貨清點](inbound-orders.md#收貨清點)

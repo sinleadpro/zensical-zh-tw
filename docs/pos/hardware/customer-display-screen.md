@@ -73,7 +73,7 @@ hide: []
 POS 客戶顯示器（簡稱「客顯」）是 POS 系統的輔助設備，讓顧客在結帳時即時查看購物明細、交易金額與品牌廣告。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"

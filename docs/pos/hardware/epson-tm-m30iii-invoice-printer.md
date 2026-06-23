@@ -56,8 +56,8 @@ ui_components:
 paths: 
   - POS 功能 > 所有 POS 商店 > 修改 POS 設定
 layouts: []
-wp_url: 
-  - https://www.cyberbiz.io/support/?p=53134s
+wp_url:
+  - https://www.cyberbiz.io/support/?p=53134
 permalink: ""
 comments: false
 search:
@@ -70,7 +70,7 @@ hide: []
 透過 Wi-Fi 無線連接方式安裝 EPSON TM-M30III 發票機，無須安裝驅動程式即可於平板設備使用。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 

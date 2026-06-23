@@ -57,13 +57,16 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/file-input
+icon: ""
 hide: []
 ---
 
 # 進倉單
 在實體貨物送達前，商家必須先於後台建立進倉單，精確填寫預定入庫的品項、數量與效期，並通知倉庫行政人員。
 { .subtitle }
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
+{ .doc-badge }
 
 ![](../assets/images/WMS-後台-進倉單-畫面總覽01.png){ .hero-page }
 

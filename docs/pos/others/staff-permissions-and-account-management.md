@@ -75,7 +75,7 @@ hide: []
 
 ![](../../assets/images/POS-後台-權限管理-畫面總覽01.png){ .hero-page }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"

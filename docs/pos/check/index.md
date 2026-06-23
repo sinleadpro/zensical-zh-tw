@@ -64,7 +64,7 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/hand-coins
+icon: ""
 hide: []
 ---
 
@@ -72,7 +72,7 @@ hide: []
 從會員識別到收款發票，帶您熟悉門市結帳的每一個關鍵環節，提供流暢的顧客消費體驗。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
 !!! tip "應用情境"
@@ -252,15 +252,15 @@ graph LR
     發放紅利獎勵，提升會員回購率與忠誠度。
 
     - :lucide-plug:{ .lg }
-    [__建立優惠碼__](../../ec/marketing/setup-promo-codes.md)<br>
+    [__建立優惠碼__](../../ec/marketing/coupon/setup-promo-codes.md)<br>
     製作專屬折扣碼，供顧客結帳時手動輸入。
 
     - :lucide-plug:{ .lg }
-    [__建立優惠券__]()<br>
+    [__建立優惠券__](../../ec/marketing/coupon/setup-coupons.md)<br>
     管理優惠券，自動套用或供顧客選取。
 
     - :lucide-plug:{ .lg }
-    [__建立推薦人分潤__](../../profit-sharing/設定推薦人分潤方案/)<br>
+    [__建立推薦人分潤__](../../profit-sharing/referrer-profit-sharing.md)<br>
     設定推薦分潤，獎勵介紹新客的現有客戶、員工與第三方。
 
     - :lucide-plug:{ .lg }
@@ -278,7 +278,7 @@ graph LR
         - [商品加價購](../../ec/marketing/設定商品加價購/){ title="設定商品加價購" }
 
     - :lucide-plug:{ .lg }
-    [__建立滿額贈滿件贈活動__](../../ec/marketing/設定滿額贈與滿件贈/)<br>
+    [__建立滿額贈滿件贈活動__](../../ec/marketing/threshold-gifts-and-quantity-gifts.md)<br>
     引導顧客多買，達成門檻即自動送禮品。
 
     - :lucide-plug:{ .lg }
@@ -286,9 +286,8 @@ graph LR
     即時掌握庫存狀態，確保銷售流程順暢。
 
     - :lucide-plug:{ .lg }
-    [__建立紅利商城__]()<br>
+    [__建立紅利商城__](bonus-point-mall/)<br>
     提供多樣兌換選擇，讓紅利點數具兌換價值。
-        - [建立 POS 紅利商城](bonus-point-mall/)<br>
         - [紅利商城商品結帳](bonus-point-mall/#於前台結帳)
 
     </div>
@@ -335,7 +334,7 @@ graph LR
 
             ![](../../assets/images/POS-前台-結帳-手開發票號碼01.png){ .screenshot }
 
-            > 您也可於 **訂單** 頁 [補開發票](../orders_ann/管理一般訂單/#補開發票--列印明細){ title="管理一般訂單" }。
+            > 您也可於 **訂單** 頁 [補開發票](../orders/manage-general-orders.md)。
         - **其他載具**：手機條碼、自然人憑證或捐贈代碼。
     2. **完成結帳**：確認金額正確後，點擊 **收款**。
 
@@ -354,7 +353,7 @@ graph LR
     處理不同稅率商品，準確計算並開立。
 
     - :lucide-plug:{ .lg }
-    [__全通路庫存管理__](../inventory/omnichannel-inventory-management/)<br>
+    [__全通路庫存管理__](../inventory/index/)<br>
     管理各通路庫存，確保線上線下無落差。
 
     </div>

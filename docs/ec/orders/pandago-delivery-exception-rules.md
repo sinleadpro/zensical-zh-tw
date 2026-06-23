@@ -5,7 +5,7 @@ created: 2026-02-06 00:00
 last_modified: 2026-06-04 17:59
 lang: zh-TW
 type: troubleshooting
-status: update
+status: ""
 version: 1.1.1
 author: Ann
 reviewers: []
@@ -24,7 +24,7 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 專業PLUS
+  - 專業 PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業

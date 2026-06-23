@@ -62,23 +62,26 @@ hide: []
 POS 驅動程式是串接硬體設備（如發票機、掃碼槍）的關鍵核心，確保在啟動 POS 前台前已正確安裝並執行。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
-!!! info "重要先決條件"
-    - **作業系統**：僅支援 **Windows**，不支援 macOS 或 Linux。
-    - **更新版本**：POS APP V.7.0.0 及更新版本僅相容於 Windows 10 或更高版本作業系統。
-    - **啟動順序**：使用 POS 系統前，請務必 **先開啟驅動程式**，再開啟 POS 前台頁面。
-    - **例外狀況**：若您使用的是 **MyPay 刷卡機方案**，請勿安裝此 POS 驅動程式。
+## 使用須知
+
+- **作業系統**：僅支援 **Windows**，不支援 macOS 或 Linux。
+- **更新版本**：POS APP V.7.0.0 及更新版本僅相容於 Windows 10 或更高版本作業系統。
+- **啟動順序**：使用 POS 系統前，請務必 **先開啟驅動程式**，再開啟 POS 前台頁面。
+- **例外狀況**：若您使用的是 **MyPay 刷卡機方案**，請勿安裝此 POS 驅動程式。
 
 ## 下載與安裝
 
 ### 步驟 1：下載安裝檔
 
 請點擊下方連結下載最新版驅動程式：
+
 - [**POS APP 下載 (V.7.9.2)**](https://drive.google.com/file/u/1/d/1Ewhb9v9Pwr7LKdijNDQkWUVkotVPj1bb/view)
 
 `備註：
+
 - 修正客顯商品件數顯示，改為顯示總數量而不是品項數
 - 支援 epson TM-m30III 發票機
 `
