@@ -1,4 +1,5 @@
 ---
+
 title: 設定與發送 EDM 電子報
 description: 建立 EDM 內容、選擇發送對象並發送電子報給會員。
 created: 2026-03-10 00:28
@@ -28,8 +29,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -65,10 +66,6 @@ icon: lucide/mail-plus
 hide:
 ---
 
-# 設定與發送 EDM 電子報
-
-建立 EDM 內容、選擇發送對象並發送電子報給會員。
-{ .subtitle }
 
 ![](../../assets/images/ec-訊息推播-發送edm.png){ .hero-page }
 
@@ -132,7 +129,7 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-zap:{ .lg }   
-  [__自動化發送(AUTOMATION)__](../app-market/automation/使用 AUTOMATION 建立自動化推播流程.md){ title="使用 AUTOMATION 建立自動化推播流程" }  
+  [__自動化發送(AUTOMATION)__](../app-market/automation/automation-push-flow.md){ title="使用 AUTOMATION 建立自動化推播流程" }  
   設定自動發送 EDM 給「VIP 客戶」、「潛在忠誠顧客」或「沉睡客戶」。
 
 </div>

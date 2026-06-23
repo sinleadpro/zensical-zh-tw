@@ -10,8 +10,6 @@ tags:
 icon: lucide/clipboard
 permalink: "https://help.cyberbiz.io/resources/conventions"
 ---
-{{ subtitle(page.meta.description) }}
-
 本節說明本文件中使用的幾個慣例。
 
 ## 符號
@@ -28,7 +26,11 @@ permalink: "https://help.cyberbiz.io/resources/conventions"
 
 ### :lucide-bolt: 適用功能
 
-表示內容僅適用開啟某些功能。
+表示內容僅適用於有開啟特定後台功能的用戶（如多國語系）。
+
+### :lucide-layout-dashboard: 適用版型
+
+表示內容僅適用特定前台版型（如拖拉版型、預設版型）。
 
 ### :lucide-grid-2x2-plus: 適用擴充
 

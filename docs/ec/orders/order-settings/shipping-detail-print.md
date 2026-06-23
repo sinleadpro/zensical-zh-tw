@@ -1,4 +1,5 @@
 ---
+
 title: 設定與列印出貨明細
 description: 自訂出貨明細的顯示內容、套用列印模板，以及從訂單列表批次下載出貨明細。
 created: 2026-05-08 16:00
@@ -28,8 +29,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -69,8 +70,7 @@ search:
 icon: lucide/file-text
 hide: []
 ---
-自訂出貨明細的顯示內容、套用列印模板，以及從訂單列表批次下載出貨明細。
-{ .subtitle }
+
 
 ![出貨明細設定](../../../assets/images/EC-金物流-結帳頁物流設定-列印出貨明細-hero.png){ .hero-page }
 

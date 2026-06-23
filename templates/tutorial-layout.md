@@ -23,6 +23,7 @@ difficulty: ""
 tnb: ""
 plans: 
 cyb_extensions: [] 
+feature_badges: []
 intents: []
 features: []
 prerequisites: []
@@ -44,11 +45,6 @@ search:
 icon: ""
 hide:
 ---
-
-{{ subtitle(page.meta.description) }}
-
-{{ badge(page.meta) }}
-
 { .hero-page }
 
 ## 後續操作

@@ -1,8 +1,9 @@
 ---
+
 title: 操作超商退貨便 C2B
 description: 設定及操作 7-11 超商退貨便 (C2B)
 created:
-last_modified: 2026-06-09 19:59
+last_modified: 2026-06-14 14:00
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/returns-refunds/cvs-c2b-return
 type: tutorial
@@ -25,7 +26,7 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 高手 PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -40,7 +41,7 @@ features:
   - 退貨便代碼
   - 退貨運費設定
 prerequisites:
-  - 使用高手 PLUS / 企業版
+  - 使用高手PLUS / 企業版
   - 已申請開通「超商大宗寄倉 (B2C)」服務
 related: []
 tags:
@@ -68,13 +69,6 @@ icon: lucide/corner-down-left
 hide:
 ---
 
-# 操作超商退貨便 C2B
-
-設定及操作 7-11 超商退貨便 (C2B)
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 PLUS / 企業
-{ .doc-badge }
 
 ![](../../../assets/images/ec-金物流-超商物流-退貨便.png){ .hero-page }
 
@@ -102,7 +96,7 @@ hide:
 ## 使用前提與費用
 
 - [x] **版本限制：** 此功能主要供 **企業版** 或 **高手 PLUS版** 商家使用。
-- [x] **開通條件：** 若要使用 7-11 C2B 退貨便，商家必須 **[先申請開通「超商大宗寄倉 (B2C)」](../payments-and-logistics/設定超商大宗寄倉 B2C)服務**。
+- [x] **開通條件：** 若要使用 7-11 C2B 退貨便，商家必須 **[先申請開通「超商大宗寄倉 (B2C)」](../../payments-and-logistics/setup-cvs-b2c-bulk-shipping.md)服務**。
 - [x] **原訂單限制：** 使用退貨便收回包裹的 **原訂單不一定要使用超商出貨**；不論原配送方式為何，皆可使用超商退貨逆物流。
 - [x] **服務費用：** 目前退貨便價格固定為 **$40**（不論由商家或消費者負擔）。若選擇以簡訊發送代碼，會額外產生每封 $1 的簡訊費用。
 - [x] **代碼時效：** 退貨便代碼有效期限為 **申請當日加六天（共七天）**，逾期將失效。
@@ -155,7 +149,7 @@ hide:
 
 • **完成退貨：** 若檢查無誤，將狀態改為 **已退貨**，系統即會觸發後續的自動或人工退款流程。
 
-> 變更訂單貨態操作，請參閱 [退貨退款相關流程](一般退貨退款#處理退貨退款訂單)。
+> 變更訂單貨態操作，請參閱 [訂單退貨流程](../order-return-process.md)。
 
 ## 後續步驟
 

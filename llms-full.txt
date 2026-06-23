@@ -24,6 +24,7 @@ CYBERBIZ 擴充功能
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -695,6 +696,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -1413,7 +1415,7 @@ VIP 會員專屬價
 
 # 報表分析 - CYBERBIZ DOCS
 
-URL: https://help.cyberbiz.io/ec/analytics/
+URL: https://help.cyberbiz.io/ec/business-intelligence/
 
 Description: 一目了然掌握商店經營數據，快速分析銷售、訂單與會員行為。
 
@@ -1426,7 +1428,152 @@ CYBERBIZ DOCS
 文字編輯器使用教學
 分析報表
 分析報表
+OMO分析報表
 廣告分析
+基準化分析
+
+# OMO分析報表 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/omo-analysis-report/
+
+Description: 整合線上官網（EC）與線下實體門市（POS）的經營數據，在同一頁比較兩個通路的營收、訂單、會員、商品與行銷表現。
+
+# OMO分析報表共用定義 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/omo-definitions-reference/
+
+Description: OMO 分析報表各頁籤共用的統計基準與名詞定義，供教學文件以連結引用。
+
+# 會員分析 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/member-analysis/
+
+Description: 掌握會員規模、成長趨勢與首購後的留存及回購表現，評估會員經營健康度。
+
+# 會員等級銷售狀況對照表 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/member-level-sales-status-reference/
+
+Description: 會員總覽分頁中會員等級銷售狀況的統計分類對照，說明 VIP 會員與普通會員的定義及銷售貢獻比較。
+
+# 會員分析共用定義 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/member-analysis-definitions-reference/
+
+Description: 會員分析頁面共用的統計基準與名詞定義，包含有效訂單定義、數據更新時間及新會員與新客判定方式。
+
+# 會員年齡分群對照表 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/member-age-groups-reference/
+
+Description: 會員總覽分頁中會員年齡分群區間的統計分類對照，包含各年齡層定義及未填寫生日的處理方式。
+
+# 會員現況與註冊來源對照表 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/member-status-registration-sources-reference/
+
+Description: 會員總覽分頁中會員現況區塊的分類意義對照，包含新舊會員、註冊狀態及第三方登入來源說明。
+
+# 會員總覽 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/member-overview/
+
+Description: 從性別、年齡、註冊來源到會員等級描繪會員輪廓，協助調整商品文案、廣告受眾與會員制度。
+
+# 消費顧客分析 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/customer-analysis/
+
+Description: 以第一次下單時間切分新客與舊客，深入比較顧客數、訂單貢獻與回購表現。
+
+# 基準參考範圍狀態對照表 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/benchmark-reference-range-status-reference/
+
+Description: 認識圖表總覽中的基準參考範圍三種狀態：優於基準、符合基準、低於基準，以及對應的建議動作。
+
+# 訂單分析分頁與方案對照 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-tabs-reference/
+
+Description: 訂單分析三個分頁的功能內容與各方案顯示條件對照。
+
+# 訂單總體分析指標對照 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-overview-metrics-reference/
+
+Description: 訂單分析總體分析分頁中各項關鍵指標與趨勢圖的定義對照。
+
+# 訂單金物流分析圖表對照 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-finance-logistics-reference/
+
+Description: 訂單金物流分析分頁中三個分析群組的圖表類型與顯示條件對照。
+
+# 訂單報表欄位對照 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-report-fields-reference/
+
+Description: 訂單報表分頁中三張 Excel 表格的欄位定義與說明對照。
+
+# 商品分析欄位對照表 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/product-analysis-metrics-reference/
+
+Description: 商品分析各區塊的欄位與指標定義，包含銷量排名、回購頻率、無銷量商品與期間別購買狀況。
+
+# 商品圖表 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/product-chart/
+
+Description: 協助您觀察單一商品在指定期間內的瀏覽與購買表現，快速判斷商品頁的吸引力與轉單成效。
+
+# 商品圖表指標對照表 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/product-chart-metrics-reference/
+
+Description: 認識商品圖表的三項核心指標：瀏覽數、購買數、成交率，以及計算方式與使用限制。
+
+# 營收分析指標定義對照表 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/revenue-analysis-metrics-reference/
+
+Description: 營收分析頁面各項數據卡與營收總覽圖表的指標意義與計算基礎對照，含總營收、毛利、成長率等定義。
+
+# 基準化分析 (Benchmarking) - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/benchmarking/
+
+Description: 透過 AI 機器學習比對同業基準，找出商店流量、轉換率、客單價、回購率的優化方向。
+
+# 定期定額分析 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/periodic-order-analysis/
+
+Description: 透過數據卡與圖表，掌握店內定期定額訂單的數量、價值、持續期數與取消狀況，看出顧客訂閱的續訂與流失趨勢。
+
+# 營收分析 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/revenue-analysis/
+
+Description: 透過數據卡與多種圖表，快速掌握全店營收表現、獲利狀況與營收高峰時段。
+
+# 商品分析 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/product-analysis/
+
+Description: 掌握店內商品的銷售表現，找出熱賣商品、滯銷品與回購行為，為進貨、行銷與定價決策提供數據參考。
+
+# 訂單分析 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/order-analysis/
+
+Description: 使用訂單分析頁面查看銷售趨勢、金物流偏好與業績報表。
+
+回到頂端
+
+---
+
 訂單
 訂單
 介面總覽
@@ -2021,6 +2168,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -2689,6 +2837,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -3702,6 +3851,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -4387,6 +4537,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -4984,6 +5135,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -5685,6 +5837,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -6259,6 +6412,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -7000,6 +7154,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -7630,6 +7785,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -8397,6 +8553,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -8957,6 +9114,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -9653,6 +9811,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -10256,6 +10415,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -10815,6 +10975,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -11375,6 +11536,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -11951,6 +12113,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -12514,6 +12677,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -13135,6 +13299,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -13760,6 +13925,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -14334,6 +14500,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -14909,6 +15076,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -15484,6 +15652,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -16065,6 +16234,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -16672,6 +16842,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -17347,6 +17518,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -17990,6 +18162,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -18550,6 +18723,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -19173,6 +19347,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -19858,6 +20033,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -20417,6 +20593,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -21092,6 +21269,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -21743,6 +21921,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -22597,6 +22776,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -23251,6 +23431,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -23912,6 +24093,26 @@ feedback form
 
 ---
 
+# POS 營收分析 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/pos/business-intelligence/pos-revenue-analysis/
+
+Description: 在同一頁比較各 POS 門市的營業表現，從年度、月份、星期時段到分店排名，多角度掌握實體門市的經營績效。
+
+回到頂端
+
+---
+
+# POS 營收分析指標與欄位對照表 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/pos/business-intelligence/references/pos-revenue-metrics-reference/
+
+Description: POS 營收分析頁面的營業指標定義與各分店比較器欄位對照，供主文引用。
+
+回到頂端
+
+---
+
 # 資源中心 - CYBERBIZ DOCS
 
 URL: https://help.cyberbiz.io/resources/
@@ -23928,6 +24129,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -24553,6 +24755,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -25209,6 +25412,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -25971,6 +26175,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -26639,6 +26844,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽
@@ -27231,6 +27437,7 @@ CYBERBIZ DOCS
 分析報表
 分析報表
 廣告分析
+基準化分析
 訂單
 訂單
 介面總覽

@@ -528,21 +528,21 @@ graph LR
     ---
 
     - [__宅配通出貨__](../home-delivery/pelican-shipping.md){ title="使用宅配通出貨" }
-    - [__設定宅配通託運單__](../../payments-and-logistics/設定宅配通託運單.md){ title="設定宅配通託運單" }
+    - [__設定宅配通託運單__](../../payments-and-logistics/setup-pelican-waybill.md){ title="設定宅配通託運單" }
 
 -   :lucide-truck:{ .lg } __新竹物流__
 
     ---
 
     - [__新竹物流出貨__](../home-delivery/hct-shipping.md){ title="使用新竹物流出貨" }
-    - [__設定新竹物流託運單__](../../payments-and-logistics/設定新竹物流託運單.md){ title="設定新竹物流託運單" }
+    - [__設定新竹物流託運單__](../../payments-and-logistics/setup-hct-waybill.md){ title="設定新竹物流託運單" }
 
 -   :lucide-truck:{ .lg } __順豐__
 
     ---
 
     - [__順豐出貨__](../home-delivery/sf-express-shipping.md){ title="使用順豐出貨" }
-    - [__設定順豐託運單__](../../payments-and-logistics/設定順豐託運單.md){ title="設定順豐託運單" }
+    - [__設定順豐託運單__](../../payments-and-logistics/setup-sf-express-waybill.md){ title="設定順豐託運單" }
 
 </div>
 

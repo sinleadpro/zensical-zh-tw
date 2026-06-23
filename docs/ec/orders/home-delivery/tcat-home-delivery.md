@@ -1,8 +1,9 @@
 ---
+
 title: 使用黑貓宅配出貨
 description: 批次下載黑貓宅配託運單、扣除運費並將訂單貨態更新為已出貨。
 created: 2026-05-12 15:53
-last_modified: 2026-06-09 15:33
+last_modified: 2026-06-14 14:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -28,8 +29,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -81,8 +82,7 @@ search:
 icon: lucide/cat
 hide: []
 ---
-批次下載黑貓宅配託運單、扣除運費並將訂單貨態更新為已出貨。
-{ .subtitle }
+
 
 ![訂單列表-下載黑貓托運單改為已出貨](../../../assets/images/EC-訂單列表-下載黑貓托運單-hero.png){ .hero-page }
 
@@ -242,7 +242,7 @@ hide: []
   若一筆訂單中只想先寄出部分商品，可改從訂單詳情頁勾選指定品項。
 
 - :lucide-printer:{ .lg }  
-  [__補印託運單__](../../payments-and-logistics/補印與加印託運單.md){ title="補印與加印託運單" }  
+  [__補印託運單__](../../payments-and-logistics/reprint-waybills.md){ title="補印與加印託運單" }  
   若已下載過的託運單檔案遺失(例如貼紙印壞、檔案不見)，可在訂單列表批次補印。
 
 - :lucide-copy-plus:{ .lg }  

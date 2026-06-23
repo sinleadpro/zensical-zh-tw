@@ -11,8 +11,6 @@ tags:
 icon: lucide/download
 permalink: "https://help.cyberbiz.io/downloads"
 ---
-{{ subtitle(page.meta.description) }}
-
 ## 系統檔案 { #system-files }
 
 <div class="grid cards" markdown>

@@ -52,7 +52,6 @@ search:
 icon: lucide/table
 hide:
 ---
-{ .subtitle }
 
 商家在訂單列表勾選訂單後，系統會依下列條件判斷該批次動作是否可用。任一條件不符即無法發送退貨代碼。
 

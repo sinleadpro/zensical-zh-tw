@@ -32,10 +32,14 @@ def define_env(env):
 
         parts = []
         # =====================================================
-        # 1. Plans (tnb == branch)
+        # 1. Plans (tnb == trunk / branch)
         # =====================================================
-        if meta.get("tnb") == "branch" and meta.get("plans"):
-            plans_text = " ".join(meta["plans"])
+        if meta.get("tnb") == "trunk":
+            parts.append(
+                f'[:lucide-tag:{{ title="適用方案" }}](../../../resources/conventions#適用方案) | 全版本  '
+            )
+        elif meta.get("tnb") == "branch" and meta.get("plans"):
+            plans_text = " / ".join(meta["plans"])
 
             parts.append(
                 f'[:lucide-tag:{{ title="適用方案" }}](../../../resources/conventions#適用方案) | {plans_text}  '
@@ -52,13 +56,23 @@ def define_env(env):
             )
 
         # =====================================================
-        # 3. Layout
+        # 3. Feature badges (multi-language, drag-drop layout, etc.)
+        # =====================================================
+        if meta.get("feature_badges"):
+            fb_text = " / ".join(meta["feature_badges"])
+
+            parts.append(
+                f'[:lucide-bolt:{{ title="適用功能" }}](../../resources/conventions#適用功能) | {fb_text}  '
+            )
+
+        # =====================================================
+        # 4. Layout
         # =====================================================
         if meta.get("layouts"):
             layout_text = " ".join(meta["layouts"])
 
             parts.append(
-                f'[:lucide-bolt:{{ title="適用功能" }}](../../resources/conventions#適用功能) | {layout_text}  '
+                f'[:lucide-layout-dashboard:{{ title="適用版型" }}](../../resources/conventions#適用版型) | {layout_text}  '
             )
 
         # =====================================================

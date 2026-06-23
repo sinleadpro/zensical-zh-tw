@@ -12,17 +12,62 @@
 - [詞彙表 - CYBERBIZ DOCS](https://help.cyberbiz.io/resources/glossary/): 收錄 CYBERBIZ 系統專業詞彙的定義與說明，涵蓋商品管理、訂單物流、行銷分析等面向。
 - [圖示慣例 - CYBERBIZ DOCS](https://help.cyberbiz.io/resources/conventions/): CYBERBIZ 文檔中使用的圖示與符號說明。
 - [EC 品牌官網 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/): 品牌官網後台操作指南，涵蓋商品、訂單、金物流、行銷推廣與網站外觀設定。
-- [報表分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/analytics/): 一目了然掌握商店經營數據，快速分析銷售、訂單與會員行為。
+- [報表分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/): 一目了然掌握商店經營數據，快速分析銷售、訂單與會員行為。
+- [OMO分析報表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/omo-analysis-report/): 整合線上官網（EC）與線下實體門市（POS）的經營數據，在同一頁比較兩個通路的營收、訂單、會員、商品與行銷表現。
+- [OMO分析報表共用定義 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/omo-definitions-reference/): OMO 分析報表各頁籤共用的統計基準與名詞定義，供教學文件以連結引用。
+- [基本報表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/basic-chart/): 在後台一頁掌握商店銷售與流量概況，包含商品銷售排行、訂單數量、總銷售額及近七日瀏覽人次。
+- [基本報表計算規則對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/basic-chart-metrics-reference/): 認識基本報表四項核心區塊的計算規則：訂單數量、總銷售額、商品銷售排行、近七日瀏覽人次。
+- [基準化分析 (Benchmarking) - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/benchmarking/): 透過 AI 機器學習比對同業基準，找出商店流量、轉換率、客單價、回購率的優化方向。
+- [廣告分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/ad-analytics-guide/): 不必登入 Google Ads 後台，在 CYBERBIZ 就能看懂 Google 購物廣告的曝光、點擊、轉換與 ROAS 成效。
+- [廣告分析指標對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/advertising-analytics-metrics-reference/): 廣告分析頁面的 11 項成效指標定義與計算方式對照，包含費用、曝光、點擊、轉換與 ROAS。
+- [會員分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/member-analysis/): 掌握會員規模、成長趨勢與首購後的留存及回購表現，評估會員經營健康度。
+- [會員等級銷售狀況對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/member-level-sales-status-reference/): 會員總覽分頁中會員等級銷售狀況的統計分類對照，說明 VIP 會員與普通會員的定義及銷售貢獻比較。
+- [會員分析共用定義 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/member-analysis-definitions-reference/): 會員分析頁面共用的統計基準與名詞定義，包含有效訂單定義、數據更新時間及新會員與新客判定方式。
+- [會員年齡分群對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/member-age-groups-reference/): 會員總覽分頁中會員年齡分群區間的統計分類對照，包含各年齡層定義及未填寫生日的處理方式。
+- [會員現況與註冊來源對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/member-status-registration-sources-reference/): 會員總覽分頁中會員現況區塊的分類意義對照，包含新舊會員、註冊狀態及第三方登入來源說明。
+- [會員總覽 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/member-overview/): 從性別、年齡、註冊來源到會員等級描繪會員輪廓，協助調整商品文案、廣告受眾與會員制度。
+- [消費顧客分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/customer-analysis/): 以第一次下單時間切分新客與舊客，深入比較顧客數、訂單貢獻與回購表現。
+- [基準參考範圍狀態對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/benchmark-reference-range-status-reference/): 認識圖表總覽中的基準參考範圍三種狀態：優於基準、符合基準、低於基準，以及對應的建議動作。
+- [定期定額分析指標定義對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/periodic-order-analysis-metrics-reference/): 說明「定期定額分析」頁面上各項數據卡與圖表的指標意義與定義。
+- [訂單分析分頁與方案對照 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-tabs-reference/): 訂單分析三個分頁的功能內容與各方案顯示條件對照。
+- [商品分析欄位對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/product-analysis-metrics-reference/): 商品分析各區塊的欄位與指標定義，包含銷量排名、回購頻率、無銷量商品與期間別購買狀況。
+- [商品圖表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/product-chart/): 協助您觀察單一商品在指定期間內的瀏覽與購買表現，快速判斷商品頁的吸引力與轉單成效。
+- [商品圖表指標對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/product-chart-metrics-reference/): 認識商品圖表的三項核心指標：瀏覽數、購買數、成交率，以及計算方式與使用限制。
+- [優惠券指標定義對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/marketing-activity-coupon-metrics-reference/): 優惠券分析頁面的種類分析與特定優惠券分析指標定義與計算方式對照，包含折扣金額、使用率、平均使用週期等。
+- [訂單總體分析指標對照 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-overview-metrics-reference/): 訂單總體分析分頁中各項關鍵指標與趨勢圖的定義對照。
+- [訂單金物流分析圖表對照 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-finance-logistics-reference/): 訂單金物流分析分頁中三個分析群組的圖表類型與顯示條件對照。
+- [訂單報表欄位對照 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-report-fields-reference/): 訂單報表分頁中三張 Excel 表格的欄位定義與說明對照。
+- [營收分析指標定義對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/revenue-analysis-metrics-reference/): 營收分析頁面各項數據卡與營收總覽圖表的指標意義與計算基礎對照，含總營收、毛利、成長率等定義。
+- [行銷活動分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/marketing-activity-analysis/): 一次掌握折扣、優惠券與紅利的成效，了解哪些行銷活動真正帶動訂單與營收。
+- [折扣種類對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/marketing-activity-discount-categories-reference/): 折扣活動分析中的 5 種折扣種類說明與開通條件對照，包含加價購、紅配綠、優惠碼折扣與任選折扣。
+- [商品分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/product-analysis/): 掌握店內商品的銷售表現，找出熱賣商品、滯銷品與回購行為，為進貨、行銷與定價決策提供數據參考。
+- [訂單分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/order-analysis/): 使用訂單分析頁面查看銷售趨勢、金物流偏好與業績報表。
+- [營收分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/revenue-analysis/): 透過數據卡與多種圖表，快速掌握全店營收表現、獲利狀況與營收高峰時段。
+- [定期定額分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/periodic-order-analysis/): 透過數據卡與圖表，掌握店內定期定額訂單的數量、價值、持續期數與取消狀況，看出顧客訂閱的續訂與流失趨勢。
 - [訂單物流 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/orders/): 管理訂單流程與物流配送，提升出貨效率與顧客滿意度。
+- [訂單自動結案類型對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/orders/references/order-auto-close-types-reference/): 彙整訂單自動結案設定的各種結案類型、觸發條件與訂單狀態要求，供結帳頁與金物流相關設定引用。
 - [會員管理 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/members/): 管理會員資料、等級與互動，提升會員體驗與忠誠度。
 - [商品管理 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/products/): 輕鬆管理商品資訊、分類與庫存，提升上架效率。
 - [電子票券 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/e-ticket/): 電子票券功能設定與管理。
 - [行銷推廣 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/marketing/): 提升商店曝光與銷售，管理行銷活動、優惠策略與顧客互動。
 - [訊息推播 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/notifications/): 管理 EDM 電子報、簡訊與 LINE 通知等訊息推播設定。
 - [付款金流 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/payments-and-logistics/): 管理支付方式、金流設定與訂單收款，確保交易安全與順暢。
+- [購物車相關設定 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/payments-and-logistics/cart-settings/): 調整顧客在正式結帳前的購物車行為，包含購物車啟用、未結帳提醒、優惠券設定、額外資訊欄位與定期定額購物車設定。
+- [購物車未結帳提醒管道對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/payments-and-logistics/references/cart-reminder-channels-reference/): 彙整顧客購物車未結帳商品自動提醒可使用的通知管道與開通條件，供結帳頁與金物流相關設定引用。
+- [前台可退貨天數對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/payments-and-logistics/references/return-eligible-days-reference/): 彙整退貨時間調整設定中各出貨方式的預設可退貨天數與計算起點，供結帳頁與金物流相關設定引用。
+- [物流相關設定 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/payments-and-logistics/logistics-settings/): 調整配送過程中的細節規範與顧客可指定的送貨偏好，包含超商取貨姓名與離島、出貨明細列印、指定配送日期/時段、退貨天數與 Uber Direct 優物流。
+- [訂單相關設定 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/payments-and-logistics/order-settings/): 設定訂單成立的金額門檻、未付款與付款失敗提醒、自動結案與自動取消規則、顧客前台取消退貨權限，以及訂單明細與揀貨單的列印內容。
 - [網站外觀 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-appearance/): 設定官網前台外觀、導覽列、語系與版型樣式。
+- [揭露營業人名稱與統一編號 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-appearance/site-settings/business-disclosure/): 在 CYBERBIZ 後台完成公司資料填寫，並於官網頁腳揭露營業人名稱與統一編號，符合財政部法規要求。
+- [套用與更換網站主題 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/apply-and-switch-theme/): 透過套版主題管理隨時下載、切換與發布不同的網站主題，無需重新設計即可改變官網前台視覺風格。
+- [頁腳聯絡資訊欄位對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-appearance/references/business-disclosure-footer-fields/): 官網頁腳「聯絡資訊」區塊可顯示的各項欄位與用途對照，包含統一編號、電話、地址等揭露資訊。
+- [主題類型對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-appearance/references/theme-types/): 比較拖拉版型、預設版型與多國版型的差異，協助商家選擇適合的網站主題類型。
 - [管理中心 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-management/): 管理後台帳號權限、員工帳號與系統設定。
 - [APP MARKET - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/app-market/): CYBERBIZ 擴充服務與第三方應用市集。
 - [整合串接 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/integrations/): 串接第三方平台、API 與服務，提升商店功能與自動化能力。
 - [POS 智能 POS - CYBERBIZ DOCS](https://help.cyberbiz.io/pos/): 智能 POS 系統操作指南，涵蓋硬體安裝、結帳流程、庫存管理與門市營運。
+- [POS 商品分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/pos/business-intelligence/pos-product-analysis/): 掌握各 POS 實體門市的商品銷售表現，從銷售額、銷售量到回購與退貨狀況，快速找出明星商品與滯銷品。
+- [POS 商品分析對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/pos/business-intelligence/references/pos-product-metrics-reference/): POS 商品分析三張排名報表的欄位與指標定義對照，供主文引用。
+- [POS 營收分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/pos/business-intelligence/pos-revenue-analysis/): 在同一頁比較各 POS 門市的營業表現，從年度、月份、星期時段到分店排名，多角度掌握實體門市的經營績效。
+- [POS 營收分析指標與欄位對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/pos/business-intelligence/references/pos-revenue-metrics-reference/): POS 營收分析頁面的營業指標定義與各分店比較器欄位對照，供主文引用。
 - [WMS 智慧倉儲 - CYBERBIZ DOCS](https://help.cyberbiz.io/wms/): 電商倉儲系統操作指南，涵蓋進倉、出貨、庫存管理與物流串接。

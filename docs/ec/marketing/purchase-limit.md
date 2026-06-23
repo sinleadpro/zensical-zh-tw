@@ -1,4 +1,5 @@
 ---
+
 title: 設定商品限購數量
 description: 限制每位會員可購買特定商品的數量，用於限量商品、防止囤貨、確保更多顧客買得到熱銷品。
 created: 2026-06-08 14:19
@@ -26,8 +27,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS 
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -40,7 +41,7 @@ features:
   - 最低購買數量
 prerequisites: []
 related:
-  - "[[設定商品加價購]]"
+  - "[[setup-product-upsell]]"
 tags:
   - EC
   - 行銷活動
@@ -68,10 +69,6 @@ icon: lucide/package-minus
 hide: []
 ---
 
-{{ subtitle(page.meta.description) }}
-
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 進階 / 高手 / 專業PLUS / 進階PLUS / 高手PLUS / 企業
-{ .doc-badge }
 
 ![商品限購數量設定](../../assets/images/ec-行銷活動-商品限購數量-hero.png){ .hero-page }
 
@@ -197,7 +194,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-circle-plus:{ .lg }  
-  [__設定商品加價購__](設定商品加價購.md)  
+  [__設定商品加價購__](setup-product-upsell.md)  
   除了限制購買數量，也可設定加價購活動，在結帳頁推薦顧客加購相關商品，提高客單價。
 
 </div>

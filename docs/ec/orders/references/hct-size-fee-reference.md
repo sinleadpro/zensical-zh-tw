@@ -1,4 +1,5 @@
 ---
+
 title: 新竹物流配送尺寸與運費對照表
 description: 新竹物流常溫與低溫配送的尺寸對照表，包含三邊總和對應的 Cyber 幣費用、尺寸與重量上限，以及低溫不受理品項。
 created: 2026-05-22 18:00
@@ -27,8 +28,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -41,10 +42,9 @@ features:
   - 低溫配送
   - Cyber_幣計費
 prerequisites:
-  - "[[設定新竹物流託運單]]"
+  - "[[setup-hct-waybill]]"
 related:
-  - "[[hct-shipping]]"
-  - "[[設定新竹物流託運單]]"
+  - "[[hct-shipping][[setup-hct-waybill]]竹物流託運單]]"
 tags:
   - 新竹物流
   - 運費對照
@@ -71,6 +71,7 @@ search:
 icon: lucide/table
 hide: []
 ---
+
 
 本對照表列出新竹物流託運單各規格的 **Cyber 幣** 扣抵金額，以及低溫不受理品項與單號時效。實際扣抵以後台「金物流」>「新竹物流託運單」>「加印託運單」的「選擇貨品大小」下拉選單顯示為準。
 
@@ -161,7 +162,7 @@ hide: []
   了解如何透過新竹物流完成出貨作業，包含託運單列印、收貨與配送流程。
 
 - :lucide-settings:{ .lg }  
-  [__設定新竹物流託運單__](../../payments-and-logistics/設定新竹物流託運單.md){ title="設定新竹物流託運單" }  
+  [__設定新竹物流託運單__](../../payments-and-logistics/setup-hct-waybill.md){ title="設定新竹物流託運單" }  
   在後台設定寄件人資訊、加印託運單、建立逆物流與查詢單號使用紀錄。
 
 </div>

@@ -1,5 +1,6 @@
 ---
 title: 品牌官網
+author: Jase
 hide:
   - toc
   - path
@@ -77,7 +78,7 @@ hide:
     ---  
 
     報表分析、GA4 串接、廣告成效分析  
-    [:octicons-arrow-right-24: 完整指南](analytics/index.md){ title="報表分析" }
+    [:octicons-arrow-right-24: 完整指南](business-intelligence/index.md){ title="報表分析" }
 
 -   :lucide-network: __整合與擴充__  
 

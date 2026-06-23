@@ -1,4 +1,5 @@
 ---
+
 title: Cyber 幣儲值中心使用指南
 description: Cyber 幣儲值中心使用指南，包含儲值步驟、發票資訊填寫、付款方式與使用明細查詢。
 created: 2026-04-28 10:38
@@ -27,8 +28,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -70,8 +71,7 @@ search:
 icon: lucide/wallet
 hide:
 ---
-Cyber 幣儲值中心使用指南，包含儲值步驟、發票資訊填寫、付款方式與使用明細查詢。
-{ .subtitle }
+
 
 ![儲值中心](../../assets/images/ec-管理中心-儲值中心.png){ .hero-page }
 
