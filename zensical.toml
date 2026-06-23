@@ -701,8 +701,12 @@ copyright = """
             { "人員登入" = "pos/store/staff-login.md" },
         ]},
         { "報表分析" = [
-            { "營收分析" = "" },
-            { "商品分析" = "" },
+            { "營收分析" = "pos/business-intelligence/pos-revenue-analysis.md" },
+            { "商品分析" = "pos/business-intelligence/pos-product-analysis.md" },
+            { "參考資料" = [
+                {"POS 商品分析欄位" = "pos/business-intelligence/references/pos-product-metrics-reference.md"},
+                {"POS 營收分析欄位" = "pos/business-intelligence/references/pos-revenue-metrics-reference.md"},
+            ]},
         ]},
         {"divider" = "divider"},
         { "商店管理" = [
@@ -717,27 +721,22 @@ copyright = """
             { "人員登入" = "pos/store/人員登入.md" },
         ]},
         { "報表分析" = [
-            { "營收分析" = "" },
-            { "商品分析" = "" },
+            { "營收分析" = "pos/business-intelligence/pos-revenue-analysis.md" },
+            { "商品分析" = "pos/business-intelligence/pos-product-analysis.md" },
+            { "參考資料" = [
+                {"POS 商品分析欄位" = "pos/business-intelligence/references/pos-product-metrics-reference.md"},
+                {"POS 營收分析欄位" = "pos/business-intelligence/references/pos-revenue-metrics-reference.md"},
+            ]},
         ]},
     ]},
     { "資源中心" = [
         { "總覽" = "resources/index.md" },
         { "影片教學" = "resources/video-tutorials.md" },
         { "商家指南" = "resources/guidebook.md" },
-        { "常見問題" = [
-            { "常見問題" = "resources/faq/index.md" },
-            { "資安隱私" = "" },
-            { "付款帳務" = [
-                { "一般退貨退款" = "resources/faq/一般退貨退款.md" }
-            ]},
-            { "客服支援" = [
-                { "使用 Jam 回報問題" = "resources/faq/使用 Jam 回報問題.md" }
-            ]},
-        ]},
         { "詞彙表" = "resources/glossary.md" },
         { "圖示慣例" = "resources/conventions.md" },
-        { "下載資源" = "resources/downloads.md" }
+        { "下載資源" = "resources/downloads.md" },
+        { "回報問題" = "resources/use-jam-to-report-issues.md" }
     ]}
  ]
 # With the "extra_css" option you can add your own CSS styling to customize

@@ -203,12 +203,12 @@ function openTab(evt, tabName) {
 
 <div class="grid cards" markdown>
 
--   :lucide-rocket:{ .lg }
+<!-- -   :lucide-rocket:{ .lg }
     [__新手上路__](ec/){ title="品牌官網" }
 
     ---
 
-    從零開始建立您的品牌官網，快速掌握後台操作與基本設定。
+    從零開始建立您的品牌官網，快速掌握後台操作與基本設定。 -->
 
 -   :lucide-store:{ .lg }
     [__商店設定__](ec/website-management/){ title="管理中心" }
@@ -254,28 +254,28 @@ function openTab(evt, tabName) {
 <div class="grid cards" markdown>
 
 -   :lucide-log-in:{ .lg }
-    [__申請與開通__](wms/申請流程與開通.md){ title="電商倉儲：申請流程與開通" }
+    [__申請與開通__](wms/application-process-and-activation.md){ title="電商倉儲：申請流程與開通" }
 
     ---
 
     了解智慧倉儲的申請流程、開通設定與串倉規則。
 
 -   :lucide-package:{ .lg }
-    [__商品管理__](wms/單一品項.md){ title="單一品項" }
+    [__商品管理__](wms/single-items.md){ title="單一品項" }
 
     ---
 
     管理單一品項、加工商品與季節群組設定。
 
 -   :lucide-arrow-right-left:{ .lg }
-    [__進出倉作業__](wms/進倉單.md){ title="進倉單" }
+    [__進出倉作業__](wms/inbound-orders.md){ title="進倉單" }
 
     ---
 
     建立進倉單、調倉單與退貨單，掌握庫存轉調流程。
 
 -   :lucide-bar-chart-3:{ .lg }
-    [__庫存管理__](wms/庫存紀錄.md){ title="庫存紀錄" }
+    [__庫存管理__](wms/inventory-records.md){ title="庫存紀錄" }
 
     ---
 
@@ -310,12 +310,13 @@ function openTab(evt, tabName) {
 
     支援多種付款方式、離線結帳、訪客結帳與標籤列印。
 
--   :lucide-bar-chart-3:{ .lg }
+<!-- -   :lucide-bar-chart-3:{ .lg }
     [__庫存管理__](pos/inventory/)
 
     ---
 
-    進出倉單、庫存調整、盤點作業與全通路庫存管理。
+     進出倉單、庫存調整、盤點作業與全通路庫存管理。 -->
+
 
 </div>
 
@@ -341,7 +342,7 @@ function openTab(evt, tabName) {
     [__金流支付__](ec/payments-and-logistics/){ title="付款金流" }
 
 -   :lucide-message-circle:{ .lg }
-    [__訊息通__](ec/app-market/cyberbiz-extensions/chat-box/)
+    [__訊息通__](ec/app-market/chatbox/){ title="Chat Box 訊息通" }
 
 -   :lucide-link-2:{ .lg }
     [__全通路管理助手__](ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md)

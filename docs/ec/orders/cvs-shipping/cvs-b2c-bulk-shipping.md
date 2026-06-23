@@ -2,7 +2,7 @@
 title: 使用超商大宗寄倉（B2C）出貨
 description: 於訂單列表批次下載託運單、產生託運單號，並將集中包裝的貨件寄至超商物流中心，再由物流中心分發至消費者指定門市。
 created: 2026-05-25 20:35
-last_modified: 2026-06-14 16:41
+last_modified: 2026-06-23 14:46
 lang: zh-TW
 type: tutorial
 status: ""
@@ -29,7 +29,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
-cyb_extensions: []
+cyb_extensions: 
+  - CYBERBIZ PAYMENTS
 intents:
   - 批次下載託運單
   - B2C 大宗寄倉出貨
@@ -66,8 +67,6 @@ search:
 icon: lucide/warehouse
 hide: []
 ---
-
-
 
 ![下載B2C託運單](../../../assets/images/EC-訂單-所有訂單-下載B2C託運單-hero.png){ .hero-page }
 
@@ -132,7 +131,7 @@ hide: []
     - 完整收貨地址、時段、收件單位請見
 [物流中心收貨資訊](../../payments-and-logistics/references/cvs-b2c-logistics-center-reference.md#reference-cvs-b2c-centers-list){ title="物流中心收貨資訊" data-preview }。
     - [各通路包裝方式、送貨車](../../payments-and-logistics/references/cvs-b2c-logistics-center-reference.md#reference-cvs-b2c-acceptance-rules){ title="物流中心收貨資訊" data-preview }。
-3. **物流中心簽收**：物流中心收件後，系統訂單狀態會由「待物流收件」自動變更為「**[已出貨（配送中）](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" }**」。
+3. **物流中心簽收**：物流中心收件後，系統訂單狀態會由「待物流收件」自動變更為「**[已出貨（配送中）](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }**」。
 
 !!! tip "取貨簡訊通知"
     商品送達消費者指定門市後，系統會於第 **1 天**、第 **4 天** 自動發送取貨簡訊通知消費者。
@@ -178,7 +177,7 @@ hide: []
 * **重量與材積限制**：訂單總重量 / 材積若超過該通路上限將無法產生託運單，詳見
 [重量與材積限制](../../payments-and-logistics/references/cvs-b2c-channel-spec-reference.md#reference-cvs-b2c-channels-specs){ title="超商大宗寄倉B2C通路規格" data-preview }。
 * **5 天交寄期限**：託運單產生隔日起 5 天內未送達物流中心將自動失效，且無法補印或退費。
-* **到貨驗收規範**：[各通路對](../../payments-and-logistics/references/cvs-b2c-logistics-center-reference.md#reference-cvs-b2c-acceptance-rules){ title="物流中心收貨資訊" data-preview }。
+* **到貨驗收規範**：[各通路對應的到倉驗收規範](../../payments-and-logistics/references/cvs-b2c-logistics-center-reference.md#reference-cvs-b2c-acceptance-rules){ title="物流中心收貨資訊" data-preview }。
 
 ---
 
@@ -187,7 +186,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-settings:{ .lg }  
-  [_](../../payments-and-logistics/setup-cvs-b2c-bulk-shipping.md)定超商大宗寄倉 B2C.md){ title="設定超商大宗寄倉 B2C" }  
+  [__設定超商大宗寄倉 B2C__](../../payments-and-logistics/setup-cvs-b2c-bulk-shipping.md){ title="設定超商大宗寄倉 B2C" }  
   尚未開通通路？先完成申請與啟用。
 
 - :lucide-coins:{ .lg }  

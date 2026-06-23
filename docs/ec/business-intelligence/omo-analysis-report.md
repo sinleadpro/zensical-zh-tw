@@ -2,7 +2,7 @@
 title: OMO 分析報表
 description: 整合線上官網（EC）與線下實體門市（POS）的經營數據，在同一頁比較兩個通路的營收、訂單、會員、商品與行銷表現。
 created: 2026-06-23 10:00
-last_modified: 2026-06-23 13:52
+last_modified: 2026-06-23 14:12
 lang: zh-TW
 type: tutorial
 status: ""
@@ -308,7 +308,7 @@ hide:
 
 - :lucide-file-text:{ .lg }  
   [__讓OMO分析報表成為您的規劃助理__](https://drive.google.com/file/d/1rZ8ZXbhTkOYl4mX250o-2cdfMoeQSmnJ/view)  
-  下載 PDF 指南，學習如何運用 OMO 數據規劃營運策略。
+  PDF 指南，學習如何運用 OMO 數據規劃營運策略。
 
 </div>
 

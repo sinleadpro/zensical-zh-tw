@@ -24093,6 +24093,26 @@ feedback form
 
 ---
 
+# POS 營收分析 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/pos/business-intelligence/pos-revenue-analysis/
+
+Description: 在同一頁比較各 POS 門市的營業表現，從年度、月份、星期時段到分店排名，多角度掌握實體門市的經營績效。
+
+回到頂端
+
+---
+
+# POS 營收分析指標與欄位對照表 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/pos/business-intelligence/references/pos-revenue-metrics-reference/
+
+Description: POS 營收分析頁面的營業指標定義與各分店比較器欄位對照，供主文引用。
+
+回到頂端
+
+---
+
 # 資源中心 - CYBERBIZ DOCS
 
 URL: https://help.cyberbiz.io/resources/
