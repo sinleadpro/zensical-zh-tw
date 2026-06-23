@@ -720,6 +720,7 @@ copyright = """
             { "人員登入" = "pos/store/staff-login.md" },
             { "參考資源" = [
                 { "人員權限欄位參考表" = "pos/reference/staff-permission-fields-reference.md" },
+            ]}
         ]},
         { "報表分析" = [
             { "營收分析" = "pos/business-intelligence/pos-revenue-analysis.md" },
