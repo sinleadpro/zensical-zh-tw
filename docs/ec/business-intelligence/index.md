@@ -4,103 +4,164 @@ description: 一目了然掌握商店經營數據，快速分析銷售、訂單�
 icon: lucide/chart-column-increasing
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/"
 hide:
-  - toc
   - feedback
 ---
 
-# 報表分析
+## 總覽與基本報表
 
-<div class="grid" markdown>
+<div class="grid cards" markdown>
 
-<br>
-<big>__開始使用__</big>  
-快速了解報表分析功能與資料呈現方式，輕鬆掌握商店經營狀況。  
-<br>
-[認識報表分析介面 :lucide-circle-arrow-right:](get-started.md)
+-   :lucide-layout-dashboard: __圖表總覽__
 
-![](../../assets/images/ec-analytics-hero.zh-tw.png)
+    ---
+
+    透過圖表總覽在單一頁面掌握網路商店與實體門市的關鍵經營數據，並與同業基準互相對照，快速找出可優化的項目。
+
+    [:octicons-arrow-right-24: 前往](business-intelligence-overview.md)
+
+-   :lucide-bar-chart-3: __基本報表__
+
+    ---
+
+    在後台一頁掌握商店銷售與流量概況，包含商品銷售排行、訂單數量、總銷售額及近七日瀏覽人次。
+
+    [:octicons-arrow-right-24: 前往](basic-chart.md)
+
+-   :lucide-target: __基準化分析__
+
+    ---
+
+    透過 AI 機器學習比對同業基準，找出商店流量、轉換率、客單價、回購率的優化方向。
+
+    [:octicons-arrow-right-24: 前往](benchmarking.md)
 
 </div>
 
 ---
 
-=== "銷售與訂單分析"
+## 營收與訂單分析
 
 <div class="grid cards" markdown>
 
-- :lucide-credit-card: __銷售概況__
+-   :lucide-trending-up: __營收分析__
 
     ---
-    查看整體銷售額、訂單數與平均訂單價值，掌握營收狀況。  
-    [日/月/年銷售報表](sales-overview.md)  
-    [熱門商品分析](top-products.md)  
 
-- :lucide-box: __訂單分析__
+    透過數據卡與多種圖表，快速掌握全店營收表現、獲利狀況與營收高峰時段。
+
+    [:octicons-arrow-right-24: 前往](revenue-analysis.md)
+
+-   :lucide-clipboard-list: __訂單分析__
 
     ---
-    分析訂單來源、支付方式與物流狀態，了解訂單處理效率。  
-    [訂單數量與狀態報表](order-report.md)  
-    [支付方式統計](payment-report.md)  
-    [物流與配送報表](shipping-report.md)
+
+    使用訂單分析頁面查看銷售趨勢、金物流偏好與業績報表。
+
+    [:octicons-arrow-right-24: 前往](order-analysis.md)
+
+-   :lucide-repeat: __定期定額分析__
+
+    ---
+
+    透過數據卡與圖表，掌握店內定期定額訂單的數量、價值、持續期數與取消狀況，看出顧客訂閱的續訂與流失趨勢。
+
+    [:octicons-arrow-right-24: 前往](periodic-order-analysis.md)
 
 </div>
 
-=== "會員與行為分析"
+---
+
+## 商品分析
 
 <div class="grid cards" markdown>
 
-- :lucide-users: __會員概況__
+-   :lucide-box: __商品分析__
 
     ---
-    分析會員成長、活躍度與忠誠度，優化會員經營策略。  
-    [會員成長趨勢](member-growth.md)  
-    [活躍會員分析](active-members.md)
 
-- :lucide-user-check: __會員行為__
+    掌握店內商品的銷售表現，找出熱，找出熱賣商品、滯銷品與回購行為，為進貨、行銷與定價決策提供數據參考。
+
+    [:octicons-arrow-right-24: 前往](product-analysis.md)
+
+-   :lucide-line-chart: __商品圖表__
 
     ---
-    掌握會員購買習慣與偏好，制定精準行銷策略。  
-    [購買行為報表](member-purchase.md)  
-    [瀏覽與互動分析](member-activity.md)
+
+    協助您觀察單一商品在指定期間內的瀏覽與購買表現，快速判斷商品頁的吸引力與轉單成效。
+
+    [:octicons-arrow-right-24: 前往](product-chart.md)
 
 </div>
 
-=== "行銷與分潤報表"
+---
+
+## 會員與顧客分析
 
 <div class="grid cards" markdown>
 
-- :lucide-megaphone: __行銷活動分析__
+-   :lucide-users: __會員總覽__
 
     ---
-    評估優惠活動、折扣與加價購效益，提升行銷 ROI。  
-    [優惠活動報表](promotion-report.md)  
-    [加價購與折扣分析](upsell-report.md)
 
-- :lucide-pie-chart: __分潤分析__
+    從性別、年齡、註冊來源到會員等級描繪會員輪廓，協助調整商品文案、廣告受眾與會員制度。
+
+    [:octicons-arrow-right-24: 前往](member-overview.md)
+
+-   :lucide-user-check: __會員分析__
 
     ---
-    管理分潤比例、合作夥伴收益與自動結算狀況。  
-    [分潤總覽](profit-sharing.md)  
-    [合作夥伴明細](partner-revenue.md)
+
+    掌握會員規模、成長趨勢與首購後的留存及回購表現，評估會員經營健康度。
+
+    [:octicons-arrow-right-24: 前往](member-analysis.md)
+
+-   :lucide-user-plus: __消費顧客分析__
+
+    ---
+
+    以第一次下單時間切分新客與舊客，深入比較顧客數、訂單貢獻與回購表現。
+
+    [:octicons-arrow-right-24: 前往](customer-analysis.md)
 
 </div>
 
-=== "即時監控與自訂報表"
+---
+
+## 行銷與廣告分析
 
 <div class="grid cards" markdown>
 
-- :lucide-monitor: __即時監控__
+-   :lucide-megaphone: __行銷活動分析__
 
     ---
-    查看即時營收、訂單與會員動態，快速掌握商店運作狀況。  
-    [即時營收看板](realtime-dashboard.md)  
-    [訂單即時追蹤](realtime-orders.md)
 
-- :lucide-file-text: __自訂報表__
+    一次掌握折扣、優惠券與紅利的成效，了解哪些行銷活動真正帶動訂單與營收。
+
+    [:octicons-arrow-right-24: 前往](marketing-activity-analysis.md)
+
+-   :lucide-search: __廣告分析__
 
     ---
-    依據需求自訂欄位、篩選條件與日期範圍，生成專屬報表。  
-    [自訂報表設定](custom-report.md)  
-    [報表匯出與分享](export-report.md)
+
+    不必登入 Google Ads 後台，在 CYBERBIZ 就能看懂 Google 購物廣告的曝光、點擊、轉換與 ROAS 成效。
+
+    [:octicons-arrow-right-24: 前往](ad-analytics-guide.md)
 
 </div>
+
+---
+
+## OMO 分析
+
+<div class="grid cards" markdown>
+
+-   :lucide-store: __OMO 分析報表__
+
+    ---
+
+    整合線上官網（EC）與線下實體門市（POS）的經營數據，在同一頁比較兩個通路的個通路的營收、訂單、會員、商品與行銷表現。
+
+    [:octicons-arrow-right-24: 前往](omo-analysis-report.md)
+
+</div>
+

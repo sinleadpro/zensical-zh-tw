@@ -2,7 +2,7 @@
 title: POS 商品分析對照表
 description: POS 商品分析三張排名報表的欄位與指標定義對照，供主文引用。
 created: 2026-06-23 15:40
-last_modified: 2026-06-23 15:40
+last_modified: 2026-06-23 21:53
 lang: zh-TW
 type: reference
 status: ""
@@ -56,7 +56,7 @@ hide:
 
 # POS 商品分析對照表
 
-本頁集中放置「POS 商品分析」三張排名報表的欄位與指標對照表，供主文以 `data-preview` 引用。
+本頁集中放置「POS 商品分析」三張排名報表的欄位與指標對照表，供主文引用。
 
 ## 共同欄位對照表 { #reference-pos-product-common }
 
