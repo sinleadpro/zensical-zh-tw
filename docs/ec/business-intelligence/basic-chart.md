@@ -116,7 +116,7 @@ hide:
 4. **查看單月數值：** 將滑鼠移到折線圖的任一節點，即可看到該月份的詳細數字。
 
 !!! note "註釋"
-    這兩張圖表只計入有效訂單，已取消與已退貨的訂單不列入計算。詳細認列方式請見 [各報表計算規則對照表][reference-basic-chart-metrics]{ data-preview }。
+    這兩張圖表只計入有效訂單，已取消與已退貨的訂單不列入計算。詳細認列方式請見 [各報表計算規則對照表](references/basic-chart-metrics-reference.md#reference-basic-chart-metrics){ title="基本報表計算規則對照表" data-preview }。
 
 ---
 
@@ -142,7 +142,7 @@ hide:
 - **近七日瀏覽人次的認列：** 此圖表只計算「店家首頁」的進站次數，訪客每進入一次首頁就算一次，不會去除重複(例如重新整理頁面也會再計一次)。
 - **資料更新時間：** 「訂單數量」「總銷售額」與「商品銷售排行」皆為即時資料；「近七日瀏覽人次」則為每日彙整前一日數據，因此當天的首頁人次要到隔日才會出現在圖表上。
 
-各報表的計算口徑整理於 [各報表計算規則對照表][reference-basic-chart-metrics]{ data-preview }。
+各報表的計算口徑整理於 [各報表計算規則對照表](references/basic-chart-metrics-reference.md#reference-basic-chart-metrics){ title="基本報表計算規則對照表" data-preview }。
 
 ---
 
@@ -200,4 +200,4 @@ hide:
 
 - [各報表計算規則對照表](references/basic-chart-metrics-reference.md#reference-basic-chart-metrics)
 
-[reference-basic-chart-metrics]: references/basic-chart-metrics-reference.md#reference-basic-chart-metrics
+

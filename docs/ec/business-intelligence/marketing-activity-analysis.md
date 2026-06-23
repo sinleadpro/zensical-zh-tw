@@ -2,7 +2,7 @@
 title: 行銷活動分析
 description: 一次掌握折扣、優惠券與紅利的成效，了解哪些行銷活動真正帶動訂單與營收
 created: 2026-06-16
-last_modified: 2026-06-21 22:10
+last_modified: 2026-06-23 21:03
 lang: zh-TW
 type: tutorial
 status: ""
@@ -88,7 +88,7 @@ hide: []
 - **紅利分析**：看全館紅利的使用情形，並可匯出紅利報表。
 
 !!! info "提示"
-    本頁所有數據都以「**有效訂單**」為計算基準。有效訂單的定義請見 [重要規範與限制][specs-marketing-activity-valid-order]{ title="重要規範與限制" }。
+    本頁所有數據都以「**有效訂單**」為計算基準。有效訂單的定義請見 [重要規範與限制](#specs-marketing-activity-valid-order){ title="重要規範與限制" }。
 
 ## 頁面功能總覽 { #overview-marketing-activity }
 
@@ -389,15 +389,15 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-tag:{ .lg }  
-  [__行銷活動設定__](../marketing/marketing-activities.md)  
+  [__行銷活動設定__](../marketing/index.md){ title="行銷推廣" }  
   根據分析結果，調整或新增折扣、加價購等行銷活動。
 
 - :lucide-ticket:{ .lg }  
-  [__優惠券設定__](../marketing/coupons.md)  
+  [__優惠券設定__](../marketing/coupon/setup-coupons.md){ title="設定優惠券" }  
   針對成效好的優惠券種類，建立新的優惠券發放給顧客。
 
 - :lucide-gift:{ .lg }  
-  [__紅利點數設定__](../marketing/bonus-points.md)  
+  [__紅利點數設定__](../marketing/setup-bonus-points.md){ title="設定紅利點數" }  
   依紅利使用情形，調整紅利回饋與兌換規則。
 
 </div>
