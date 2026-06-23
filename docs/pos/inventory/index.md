@@ -68,7 +68,7 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/package
+icon: ""
 hide: []
 ---
 
@@ -151,7 +151,7 @@ CYBERBIZ 系統將 **EC 官網庫存** 與 **POS 門市庫存** 視為獨立倉�
     === "使用Excel匯入功能批次編輯"
     
         1. 登入 POS 管理後台，前往 **商品 > Excel 大量匯入商品**。
-        2. 請先 [匯出指定商品](../../ec/products/Excel%20大量匯入商品.md)，於 Excel 中編輯庫存欄位，再 [操作匯入](../../ec/products/Excel 大量匯入商品.md#匯入-Excel-檔案)，即可批量編輯。
+        2. 請先 [匯出指定商品](../../ec/products/bulk-operations/Excel%20大量匯入商品.md)，於 Excel 中編輯庫存欄位，再 [操作匯入](../../ec/products/bulk-operations/Excel 大量匯入商品.md#匯入-Excel-檔案)，即可批量編輯。
 
 
 ### 管理 POS 庫存
@@ -190,11 +190,11 @@ CYBERBIZ 系統將 **EC 官網庫存** 與 **POS 門市庫存** 視為獨立倉�
 若您已在使用 EC 官網系統，在正式啟用 POS 後，請務必完成以下 **庫存初始化** 步驟，以確保虛實通路帳目獨立且準確：
 
 1. **校正 EC 線上庫存**：
-    請先確保官網現有庫存數據正確。您可以參考 [管理 EC 庫存](omnichannel-inventory-management/#管理-ec-庫存)，選擇適合您的更新方式。
+    請先確保官網現有庫存數據正確。您可以參考 [管理 EC 庫存](index/#管理-ec-庫存)，選擇適合您的更新方式。
 2. **建立 POS 門市首期庫存**：
     針對實體店面現有的商品數量，請採取 [進倉](進倉單/) 方式進行初始化。
 
-完成初始入庫後，後續的日常進銷存管理，請參閱 [管理 POS 庫存](omnichannel-inventory-management/#管理-pos-庫存)，選擇適合您的更新方式。
+完成初始入庫後，後續的日常進銷存管理，請參閱 [管理 POS 庫存](index/#管理-pos-庫存)，選擇適合您的更新方式。
 
 
 

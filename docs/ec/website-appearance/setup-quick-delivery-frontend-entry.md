@@ -57,9 +57,9 @@ paths:
   - 主題版型 > 拖拉設定 > 快速到貨
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/support/?p=24278
   - https://www.cyberbiz.io/support/?p=12861
-permalink: set-fast-delivery-frontend-entry
+  - https://www.cyberbiz.io/support/?p=24278
+permalink: ""
 comments: false
 search:
   exclude: false

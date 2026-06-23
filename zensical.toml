@@ -606,7 +606,7 @@ copyright = """
         ]},
         { "第三方服務" =[
             { "盟立電子發票" = "pos/third-party/monolith-e-invoice.md" },
-            { "星益欣電子發票" = "pos/third-party/setup-pos-star-plus-e-invoice.md" },
+            { "星益欣電子發票" = "pos/third-party/wixtar-e-invoice.md" },
             { "LINE PAY 掃碼支付" = "pos/check/line-pay-scan-payment.md" },
         ]},
         {"divider" = "divider"},
@@ -637,7 +637,7 @@ copyright = """
             { "overview" = "pos/member/index.md" },
         ]},
         { "庫存" = [
-            { "全通路庫存管理" = "pos/inventory/omnichannel-inventory-management.md" },
+            { "overview" = "pos/inventory/index.md" },
             { "商品查詢" = "pos/inventory/product-query.md" },
             { "出倉單" = "pos/inventory/outbound-orders.md" },
             { "進倉單" = "pos/inventory/inbound-orders.md" },

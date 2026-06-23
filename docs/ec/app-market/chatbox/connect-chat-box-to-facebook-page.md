@@ -23,7 +23,7 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans: 
-  - 專業PLUS
+  - 專業 PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -57,8 +57,10 @@ ui_components:
 paths: 
   - APP MARKET > ChatBox > 設定
 layouts: []
-wp_url: 
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=12966
   - https://www.cyberbiz.io/helpcenter/?p=13010
+  - https://www.cyberbiz.io/support/?p=52927
   - https://www.cyberbiz.io/support/?p=53334
 permalink: ""
 comments: false
@@ -82,23 +84,47 @@ hide: []
 
 
 
-## 串接前準備：帳號權限檢查
+## 串接前帳號權限檢查
 
 在開始串接流程前，請務必確認操作人員的 Facebook 帳號具備以下權限：
 
 ### 1. 粉絲專頁管理員權限
 
-操作者的 Facebook 帳號必須擁有該粉絲專頁的 **「管理員」** 權限。
+操作者的 Facebook 帳號必須擁有該粉絲專頁的 **管理員** 權限。
 
 **檢查方式**：登入 [Meta Business Suite](https://business.facebook.com/)，前往 **設定 > 用戶 > 用戶**，查看權限名單。
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/Meta-Business-Suite-設定-用戶-查看粉專權限名單01.png){ .screenshot }
 
-### 2. Meta 應用程式設定
+
+### 2. 資產管理平台粉專權限
+
+操作者的 Facebook 帳號必須擁有該粉絲專頁的 **完整控制權**。
+
+**檢查方式**：
+
+1. 登入 [Meta Business Suite](https://business.facebook.com/)，前往 **設定 > 帳號 > 粉絲專頁**，點擊要綁定的粉專，人員名單中應有您的帳號。
+    ![](../../../assets/images/Meta%20Business%20Suite-設定-帳號-粉絲專頁-chatbox串接01.png){ .screenshot }
+2. 於人員名單右側點擊 **管理**，確保您已擁有 **完整控制權**。
+    ![](../../../assets/images/Meta%20Business%20Suite-設定-帳號-粉絲專頁-chatbox串接02.png){ .screenshot }
+
+
+### 3. Facebook 粉專管理權限
+
+粉絲專頁管理權限名單中，須有操作者的 Facebook 帳號。
+
+**檢查方式**：
+
+1. 登入Facebook，前往「設定與隱私」>「設定」>「粉絲專頁設定」。
+    ![](../../../assets/images/Facebook-設定與隱私-粉絲專頁設定-chatbox串接01.png){ .screenshot }
+2. 確認您的帳號在 **粉絲專頁管理權限** 中。
+    ![](../../../assets/images/Facebook-設定與隱私-粉絲專頁設定-chatbox串接02.png){ .screenshot }
+
+### 4. Meta 應用程式設定
 
 操作者的 Facebook 帳號必須開啟「應用程式、網站和遊戲」設定。若關閉此功能，將導致串接授權中斷。
 
-**檢查方式**：登入Facebook，前往「設定與隱私」>「你的動態」>「應用程式和網站」，確認 **「應用程式、網站和遊戲」** 處於開啟狀態。
+**檢查方式**：登入Facebook，前往「設定與隱私」>「你的動態」>「應用程式和網站」，確認 **應用程式、網站和遊戲** 處於開啟狀態。
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/Facebook-設定與隱私-應用程式與網站-開啟應用程式通知與網站01.png){ .screenshot }
 

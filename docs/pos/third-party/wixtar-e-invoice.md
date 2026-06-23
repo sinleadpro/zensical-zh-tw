@@ -38,8 +38,7 @@ features:
 prerequisites: 
   - "需擁有星益欣電子發票帳戶"
   - "需為企業版方案商家"
-related: 
-  - "[管理系統代開消費者發票]"
+related: []
 tags: 
   - POS
   - 電子發票

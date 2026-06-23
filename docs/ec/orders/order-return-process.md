@@ -50,9 +50,9 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=200
-  - https://www.cyberbiz.io/helpcenter/?p=6911
   - https://www.cyberbiz.io/helpcenter/?p=5254
   - https://www.cyberbiz.io/helpcenter/?p=5259
+  - https://www.cyberbiz.io/helpcenter/?p=6911
   - https://www.cyberbiz.io/helpcenter/?p=7016
   - https://www.cyberbiz.io/support/?p=1756
   - https://www.cyberbiz.io/support/?p=1758
@@ -151,11 +151,11 @@ hide: []
     <div class="grid cards" markdown>
 
     - :lucide-dollar-sign:{ .lg }   
-      [__建立黑貓逆物流__](../payments-and-logistics/設定與加印黑貓託運單.md#ezcat-shipping-note-reverse-)       
+      [__建立黑貓逆物流__](../payments-and-logistics/設定與加印黑貓託運單.md#ezcat-shipping-note-reverse)       
       設定黑貓寄件資訊、加印單號與建立逆物流。
 
     - :lucide-dollar-sign:{ .lg }   
-      [__建立宅配通逆物流__](../payments-and-logistics/設定宅配通託運單.md#operate-pelican-shipping-reverse-)       
+      [__建立宅配通逆物流__](../payments-and-logistics/設定宅配通託運單.md#operate-pelican-shipping-reverse)       
       設定宅配通寄件資訊、加印單號與建立逆物流。
 
     - :lucide-dollar-sign:{ .lg }   
@@ -164,7 +164,7 @@ hide: []
 
     </div>
 
-
+[__建立黑貓逆物流__](../payments-and-logistics/設定與加印黑貓託運單.md#ezcat-shipping-note-reverse)  
 
 ## 步驟 2：執行退貨審查
 
@@ -243,7 +243,7 @@ hide: []
   了解如何針對不同金流管道完成最後的撥款或退刷動作。
 
 - :lucide-clipboard-check:{ .lg }     
-  [__管理超商逾期未取__](../orders/cvs-unclaimed-order.md)  
+  [__管理超商逾期未取__](../orders/returns-refunds/cvs-unclaimed-order.md)  
   針對物流未取件造成的自動退貨，了解對應的對帳流程。
 
 </div>

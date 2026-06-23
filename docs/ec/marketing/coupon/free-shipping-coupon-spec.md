@@ -60,6 +60,7 @@ paths:
     - 行銷活動 > 優惠券
 layouts: []
 wp_url: 
+    - https://www.cyberbiz.io/helpcenter/?p=7960
     - https://www.cyberbiz.io/support/?p=28947
 permalink: ""
 comments: false

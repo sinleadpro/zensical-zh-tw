@@ -57,7 +57,9 @@ ui_components:
 paths:
   - POS 功能 > 所有 POS 商店 > 庫存管理 > 調倉單
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=3006
+  - https://www.cyberbiz.io/support/?p=4825
 permalink: ""
 comments: false
 search:
@@ -95,14 +97,12 @@ Note over 缺貨方: 3. 確認進倉
 Note over 調撥方: 4. 確認出倉
 調撥方 ->>缺貨方: 實際配送
 Note over 缺貨方: 5. 收貨清點
-缺貨方<<->>調撥方: 系統調整雙邊庫存
-Note over 缺貨方,調撥方: 6. 庫存異動完成
 ```
 
 
 
-1. [[缺貨方] 建立調倉單]()
-2. [[調撥方] 同意調倉]()
-3. [[缺貨方] 確認進倉]()
-4. [[調撥方] 確認出倉]()
-5. [[缺貨方] 收貨清點]()
+1. [[缺貨方] 建立調倉單](transfer-orders/#建立調倉單)
+2. [[調撥方] 同意調倉](transfer-orders/#同意--拒絕調倉)
+3. [[缺貨方] 確認進倉](inbound-orders/#確認--取消進倉)
+4. [[調撥方] 確認出倉](outbound-orders/#確認--取消出倉)
+5. [[缺貨方] 收貨清點](inbound-orders/#收貨清點)

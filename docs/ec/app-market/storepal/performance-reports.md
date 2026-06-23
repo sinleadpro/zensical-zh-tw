@@ -60,7 +60,8 @@ paths:
   - 門市助理後台 > 績效報表
   - 門市助理後台 > 門市管理 > 匯出報表
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=41036
 permalink: ""
 comments: false
 search:
@@ -73,6 +74,7 @@ hide: []
 { .subtitle }
 
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-grid-2x2-plus: { title="適用擴充" }](../../resources/conventions#適用擴充) | 門市助理
 { .doc-badge }
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-業績報表01.png){ .hero-page }

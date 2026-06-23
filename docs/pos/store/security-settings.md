@@ -60,6 +60,7 @@ layouts:
   - 
 wp_url:
   - https://www.cyberbiz.io/support/?p=27199
+  - https://www.cyberbiz.io/support/?p=5231
 permalink: ""
 comments: false
 search:

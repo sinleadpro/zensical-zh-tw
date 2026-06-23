@@ -26,7 +26,7 @@ tnb: branch
 plans:
   - 進階
   - 高手
-  - 專業PLUS
+  - 專業 PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -53,11 +53,11 @@ paths:
   - 分潤 > 分潤查詢
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=579
   - https://www.cyberbiz.io/helpcenter/?p=597
   - https://www.cyberbiz.io/helpcenter/?p=608
-  - https://www.cyberbiz.io/helpcenter/?p=579
-  - https://www.cyberbiz.io/support/?p=1864
   - https://www.cyberbiz.io/support/?p=1833
+  - https://www.cyberbiz.io/support/?p=1864
   - https://www.cyberbiz.io/support/?p=39234
 permalink: ""
 comments: false

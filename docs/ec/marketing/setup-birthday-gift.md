@@ -118,7 +118,7 @@ hide: []
 ### 特殊情境
 
 - **生日當月註冊**：新會員若在生日當月註冊，完成後系統將立即發送生日禮。
-- **VIP 生日禮**：若您在 **會員 > VIP 設定** 中另外設定了 [VIP 生日禮](../members/setup-exclusive-vip-discounts.md)，系統將會同時發送一般生日禮與 VIP 生日禮。
+- **VIP 生日禮**：若您在 **會員 > VIP 設定** 中另外設定了 [VIP 生日禮](../members/vip/setup-exclusive-vip-discounts.md)，系統將會同時發送一般生日禮與 VIP 生日禮。
 - **批次匯入會員**：匯入時可透過「贈送生日禮」欄位決定是否發送當月生日禮給該批新會員。
 
 

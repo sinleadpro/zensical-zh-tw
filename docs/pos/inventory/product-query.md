@@ -54,7 +54,8 @@ ui_components:
 paths:
   - POS 前台 > 庫存 > 商品查詢
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=4623
 permalink: ""
 comments: false
 search:

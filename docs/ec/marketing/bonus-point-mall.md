@@ -24,7 +24,7 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 專業PLUS
+  - 專業 PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業

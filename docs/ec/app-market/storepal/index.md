@@ -24,7 +24,7 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業PLUS
+  - 專業 PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -69,6 +69,7 @@ hide: []
 { .subtitle }
 
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-grid-2x2-plus: { title="適用擴充" }](../../resources/conventions#適用擴充) | 門市助理
 { .doc-badge }
 
 門市助理是連接線下門市與線上官網的核心橋樑。透過平板或手機，門市人員可以即時調取會員在全通路的消費軌跡與優惠資產，將「過路客」轉化為「品牌鐵粉」，並透過導購連結確保每一筆努力都能獲得業績歸因。

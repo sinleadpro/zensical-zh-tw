@@ -56,13 +56,10 @@ paths:
   - 行銷活動 > 優惠碼
   - 金物流 > 結帳頁 & 物流設定 > 結帳頁優惠券設定
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10457
-  - https://www.cyberbiz.io/helpcenter/?p=7960
-  - https://www.cyberbiz.io/support/?p=6228
   - https://www.cyberbiz.io/support/?p=1533
-  - https://www.cyberbiz.io/support/?p=28947
-  - https://www.cyberbiz.io/support/?p=41796
+  - https://www.cyberbiz.io/support/?p=6228
 permalink: ""
 comments: false
 search:
@@ -229,8 +226,8 @@ hide: []
 
 ??? quote "如何發送贈品券？"
     您可以透過以下兩種主要方式發送贈品券：
-    1. **[會員列表手動發送](../members/manage-member-profiles.md#2-優惠券派發與管理)**：在 **會員 > 所有會員** 中勾選指定對象，點選「發送贈品券」。
-    2. **[互動遊戲獎勵](interactive-games.md)**：在「行銷活動 > 互動遊戲」中，將贈品券設定為中獎獎勵，讓消費者參與活動後自動獲得。
+    1. **[會員列表手動發送](../../members/manage-member-profiles.md#2-優惠券派發與管理)**：在 **會員 > 所有會員** 中勾選指定對象，點選「發送贈品券」。
+    2. **[互動遊戲獎勵](../interactive-games.md)**：在「行銷活動 > 互動遊戲」中，將贈品券設定為中獎獎勵，讓消費者參與活動後自動獲得。
 
 
 ## 更多操作
@@ -243,7 +240,7 @@ hide: []
   設定單筆訂單可使用的優惠券數量上限。
 
 - :lucide-bell-ring:{ .lg }
-  [__設定優惠券到期通知__](coupon-and-bonus-points-expiry-notification.md)
+  [__設定優惠券到期通知__](../coupon-and-bonus-points-expiry-notification.md)
   設定系統自動發送 Email、簡訊或 LINE 通知，提醒顧客及時使用即將到期的優惠。
 
 </div>

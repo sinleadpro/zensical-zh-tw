@@ -54,9 +54,15 @@ paths:
   - 行銷活動 > 全館折扣-紅利 & 優惠券
   - 行銷活動 > 促銷活動
 layouts: []
-wp_url: 
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=1779
+  - https://www.cyberbiz.io/helpcenter/?p=3435
+  - https://www.cyberbiz.io/helpcenter/?p=509
+  - https://www.cyberbiz.io/helpcenter/?p=5686
+  - https://www.cyberbiz.io/support/?p=11928
   - https://www.cyberbiz.io/support/?p=1533
-permalink: https://help.cyberbiz.io/ec/marketing/coupon/setup-coupons
+  - https://www.cyberbiz.io/support/?p=6207
+permalink: ""
 comments: false
 search:
   exclude: false
