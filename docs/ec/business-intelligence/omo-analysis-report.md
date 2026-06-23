@@ -2,7 +2,7 @@
 title: OMO 分析報表
 description: 整合線上官網（EC）與線下實體門市（POS）的經營數據，在同一頁比較兩個通路的營收、訂單、會員、商品與行銷表現。
 created: 2026-06-23 10:00
-last_modified: 2026-06-23 12:03
+last_modified: 2026-06-23 13:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -102,12 +102,12 @@ hide:
 
 | 頁籤 | 看什麼 |
 | :-- | :-- |
-| 總覽 | 營收、訂單數、註冊會員數的 EC/POS 對比與增減，平均訂單金額，以及 EC/POS 商品銷量 TOP10 |
-| 營收 | EC/POS 營業額與趨勢圖，以及 EC/POS 營收熱點圖 |
-| 訂單 | EC/POS 訂單數與平均訂單金額趨勢，以及門市取貨/POS門市取貨的訂單數與金額 |
-| 會員 | EC/POS 註冊會員數、POS快速登入會員完成註冊率、會員平均消費金額比對，以及購買與回購狀況 |
-| 商品 | EC/POS 商品銷量與銷售金額 TOP10，以及同 SKU 商品的銷售列表 |
-| 行銷活動 | EC/POS 紅利使用數與趨勢圖 |
+| [總覽](#overview-omo-summary) | 營收、訂單數、註冊會員數的 EC/POS 對比與增減，平均訂單金額，以及 EC/POS 商品銷量 TOP10 |
+| [營收](#overview-omo-revenue) | EC/POS 營業額與趨勢圖，以及 EC/POS 營收熱點圖 |
+| [訂單](#overview-omo-order) | EC/POS 訂單數與平均訂單金額趨勢，以及門市取貨/POS門市取貨的訂單數與金額 |
+| [會員](#overview-omo-member) | EC/POS 註冊會員數、POS快速登入會員完成註冊率、會員平均消費金額比對，以及購買與回購狀況 |
+| [商品](#overview-omo-product) | EC/POS 商品銷量與銷售金額 TOP10，以及同 SKU 商品的銷售列表 |
+| [行銷活動](#overview-omo-marketing) | EC/POS 紅利使用數與趨勢圖 |
 
 
 ### 總覽 { #overview-omo-summary }
@@ -232,6 +232,9 @@ hide:
 
     ![商品銷售列表](../../assets/images/ec-bi-omo-product-list.png){ title="商品銷售列表" }
 
+!!! warning "SKU 一致性"
+    商品需同 SKU 才會合併統計。「商品」頁籤的商品銷售列表依 SKU 比對 EC 與 POS 的銷售，若同一商品在兩通路的 SKU 設定不一致，將無法合併為同一列統計。
+
 ---
 
 ### 行銷活動 { #overview-omo-marketing }
@@ -239,6 +242,12 @@ hide:
 監控紅利點數在線上線下的使用情形：
 
 - **紅利使用數與趨勢圖**：指定時間內 EC 與 POS 的紅利點數折抵與使用狀況。
+
+=== "使用數指標"
+    ![紅利使用數指標](../../assets/images/ec-bi-omo-bonus-usage-card.png){ title="紅利使用數指標" }
+
+=== "趨勢圖"
+    ![紅利使用數趨勢圖](../../assets/images/ec-bi-omo-bonus-usage-trend.png){ title="紅利使用數趨勢圖" }
 
 ## 操作步驟 { #operate-omo }
 
@@ -248,8 +257,16 @@ hide:
 
 1. **進入報表：** 前往後台路徑：「分析報表」>「OMO分析報表」。
 2. **選擇時間區間：** 在頁面上方的「時間區間」選擇要分析的起訖日期。
+
+    ![選擇時間區間](../../assets/images/ec-bi-omo-step-time-range.png){ title="選擇時間區間" }
+
 3. **選擇比較區間：** 在「欲比較時間區間」選擇對比基準，可選「前一年」、「前一時段」、「前一月」或「自訂區間」[^1]。各選項意義見[比較區間選項對照表](references/omo-definitions-reference.md#reference-omo-compare){ title="OMO 分析報表共用定義" data-preview }。
+
+    ![選擇比較區間](../../assets/images/ec-bi-omo-step-compare-range.png){ title="選擇比較區間" }
+
 4. **篩選 POS 商店：** 在「請選取或搜尋POS商店」欄位選擇要納入的門市，可同時選取多家；不選取則預設涵蓋「全部POS商店」。
+
+    ![篩選 POS 商店](../../assets/images/ec-bi-omo-step-filter-store.png){ title="篩選 POS 商店" }
 5. **套用篩選：** 點擊 **「確認」**，所選的時間、比較區間與門市條件會一次套用到頁面內所有圖表。
 
 [^1]: 報表預設的時間區間為「過去一個月至今日」，比較區間預設為「前一年」同期。
@@ -260,6 +277,8 @@ hide:
 
 1. **切換頁籤：** 點擊頁面上方的「總覽」、「營收」、「訂單」、「會員」、「商品」或「行銷活動」，即可切換到對應的分析內容。
 2. **沿用篩選條件：** 切換頁籤時，已設定的時間區間、比較區間與 POS 商店篩選會延續套用，不需重新設定。
+
+![切換報表頁籤](../../assets/images/ec-bi-omo-step-switch-tab.png){ title="切換報表頁籤" }
 
 !!! tip "技巧"
     報表提供 **「匯出圖表」** 功能，可將圖表數據匯出，方便另存或進一步分析。
