@@ -73,7 +73,7 @@ permalink: "https://help.cyberbiz.io/ec/business-intelligence/marketing-activity
 comments: false
 search:
   exclude: false
-icon: lucide/bar-chart-3
+icon: lucide/tag
 hide: []
 ---
 

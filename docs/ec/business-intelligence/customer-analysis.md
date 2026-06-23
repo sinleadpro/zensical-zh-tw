@@ -58,7 +58,7 @@ permalink: "https://help.cyberbiz.io/ec/business-intelligence/customer-analysis/
 comments: false
 search:
   exclude: false
-icon: lucide/bar-chart-3
+icon: lucide/user-search
 hide: []
 ---
 
