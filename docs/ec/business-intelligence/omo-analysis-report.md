@@ -2,7 +2,7 @@
 title: OMO 分析報表
 description: 整合線上官網（EC）與線下實體門市（POS）的經營數據，在同一頁比較兩個通路的營收、訂單、會員、商品與行銷表現。
 created: 2026-06-23 10:00
-last_modified: 2026-06-23 11:41
+last_modified: 2026-06-23 12:03
 lang: zh-TW
 type: tutorial
 status: ""
@@ -158,7 +158,20 @@ hide:
 分析訂單量、客單價與門市取貨的導購成效：
 
 - **EC/POS 訂單數與平均訂單金額趨勢**：看兩個通路的單量與客單價變化。
+
+    === "訂單數"
+        ![訂單數指標卡](../../assets/images/ec-bi-omo-order-detail-card.png){ title="訂單數指標卡" }
+        ![訂單數趨勢圖](../../assets/images/ec-bi-omo-order-count-trend.png){ title="訂單數趨勢圖" }
+
+    === "平均訂單金額"
+
+        ![平均訂單金額指標卡](../../assets/images/ec-bi-omo-aov-detail-card.png){ title="平均訂單金額指標卡" }
+        
+        ![平均訂單金額趨勢圖](../../assets/images/ec-bi-omo-aov-trend.png){ title="平均訂單金額趨勢圖" }
+
 - **門市取貨/POS門市取貨分析**：統計門市取貨與 POS 門市取貨的訂單數與訂單金額，掌握線上線下導購轉單成效。詳見[門市取貨／POS門市取貨](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO 分析報表共用定義" data-preview }。
+
+    ![門市取貨/POS門市取貨](../../assets/images/ec-bi-omo-store-pickup.png){ title="門市取貨／POS門市取貨" }
 
 ---
 
@@ -167,8 +180,39 @@ hide:
 了解會員從哪個通路來、註冊完成度與跨通路消費表現：
 
 - **註冊會員數與完成註冊率**：EC 與 POS 的註冊會員數，以及 POS快速登入會員完成註冊率。詳見[POS快速登入會員完成註冊率](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO 分析報表共用定義" data-preview }。
+
+    === "會員數"
+        ![會員數指標卡](../../assets/images/ec-bi-omo-member-detail-card.png){ title="會員數指標卡" }
+        
+        ![會員數趨勢圖](../../assets/images/ec-bi-omo-member-registration-trend.png){ title="會員數趨勢圖" }
+
+    === "完成註冊率"
+        ![完成註冊率](../../assets/images/ec-bi-omo-completion-rate.png){ title="完成註冊率" }
+
 - **會員平均消費金額比對**：比較 EC 註冊與 POS 註冊會員在各通路的平均消費，判斷哪種來源的客群貢獻較高。
+
+    === "全部會員"
+        ![平均消費金額長條圖](../../assets/images/ec-bi-omo-aov-bar-chart-all.png){ title="各註冊來源會員平均消費金額比較" }
+        
+        ![全部會員平均消費金額](../../assets/images/ec-bi-omo-aov-card-all.png){ title="全部會員平均消費金額" }
+
+    === "EC平均消費金額"
+        ![EC平均消費金額長條圖](../../assets/images/ec-bi-omo-aov-bar-chart-ec.png){ title="EC各註冊來源會員平均消費金額比較" }
+        
+        ![EC平均消費金額](../../assets/images/ec-bi-omo-aov-card-ec.png){ title="EC平均消費金額" }
+
+    === "POS平均消費金額"
+        ![POS平均消費金額長條圖](../../assets/images/ec-bi-omo-aov-bar-chart-pos.png){ title="POS各註冊來源會員平均消費金額比較" }
+        
+        ![POS平均消費金額](../../assets/images/ec-bi-omo-aov-card-pos.png){ title="POS平均消費金額" }
+
 - **會員購買與回購狀況**：以會員首次註冊來源區分，看其在 EC、POS 的購買與回購表現，並提供整體回購率。詳見[回購率](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO 分析報表共用定義" data-preview }。
+
+    === "購買狀況"
+        ![購買狀況](../../assets/images/ec-bi-omo-purchase-status.png){ title="購買狀況" }
+
+    === "回購狀況"
+        ![回購狀況](../../assets/images/ec-bi-omo-repurchase-status.png){ title="回購狀況" }
 
 ---
 
