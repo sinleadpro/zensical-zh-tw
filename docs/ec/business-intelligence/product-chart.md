@@ -58,7 +58,7 @@ permalink: "https://help.cyberbiz.io/ec/business-intelligence/product-chart/"
 comments: false
 search:
   exclude: false
-icon: lucide/package
+icon: lucide/pie-chart
 hide: []
 ---
 

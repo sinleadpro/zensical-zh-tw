@@ -19,7 +19,7 @@ hide:
 
     [:octicons-arrow-right-24: 前往](business-intelligence-overview.md)
 
--   :lucide-bar-chart-3: __基本報表__
+-   :lucide-chart-bar: __基本報表__
 
     ---
 
@@ -51,7 +51,7 @@ hide:
 
     [:octicons-arrow-right-24: 前往](revenue-analysis.md)
 
--   :lucide-clipboard-list: __訂單分析__
+-   :lucide-shopping-cart: __訂單分析__
 
     ---
 
@@ -59,7 +59,7 @@ hide:
 
     [:octicons-arrow-right-24: 前往](order-analysis.md)
 
--   :lucide-repeat: __定期定額分析__
+-   :lucide-calendar-clock: __定期定額分析__
 
     ---
 
@@ -83,7 +83,7 @@ hide:
 
     [:octicons-arrow-right-24: 前往](product-analysis.md)
 
--   :lucide-line-chart: __商品圖表__
+-   :lucide-pie-chart: __商品圖表__
 
     ---
 
@@ -107,7 +107,7 @@ hide:
 
     [:octicons-arrow-right-24: 前往](member-overview.md)
 
--   :lucide-user-check: __會員分析__
+-   :lucide-user-cog: __會員分析__
 
     ---
 
@@ -115,7 +115,7 @@ hide:
 
     [:octicons-arrow-right-24: 前往](member-analysis.md)
 
--   :lucide-user-plus: __消費顧客分析__
+-   :lucide-user-search: __消費顧客分析__
 
     ---
 
@@ -131,7 +131,7 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :lucide-megaphone: __行銷活動分析__
+-   :lucide-tag: __行銷活動分析__
 
     ---
 
@@ -139,7 +139,7 @@ hide:
 
     [:octicons-arrow-right-24: 前往](marketing-activity-analysis.md)
 
--   :lucide-search: __廣告分析__
+-   :lucide-megaphone: __廣告分析__
 
     ---
 
@@ -155,7 +155,7 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :lucide-store: __OMO 分析報表__
+-   :lucide-line-chart: __OMO 分析報表__
 
     ---
 

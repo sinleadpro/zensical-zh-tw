@@ -41,7 +41,7 @@ devices:
 apis: []
 wp_url: []
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/periodic-order-analysis/"
-icon: lucide/bar-chart-3
+icon: lucide/calendar-clock
 hide:
 ---
 

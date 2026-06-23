@@ -66,7 +66,7 @@ permalink: "https://help.cyberbiz.io/ec/business-intelligence/member-analysis/"
 comments: false
 search:
   exclude: false
-icon: lucide/bar-chart-3
+icon: lucide/user-cog
 hide: []
 ---
 

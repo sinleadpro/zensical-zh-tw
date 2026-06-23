@@ -71,7 +71,7 @@ permalink: "https://help.cyberbiz.io/ec/business-intelligence/order-analysis/"
 comments: false
 search:
   exclude: false
-icon: lucide/bar-chart-3
+icon: lucide/shopping-cart
 hide:
 ---
 

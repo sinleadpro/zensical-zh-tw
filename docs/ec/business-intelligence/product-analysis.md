@@ -71,7 +71,7 @@ permalink: "https://help.cyberbiz.io/ec/business-intelligence/product-analysis/"
 comments: false
 search:
   exclude: false
-icon: lucide/package
+icon: lucide/box
 hide: []
 ---
 

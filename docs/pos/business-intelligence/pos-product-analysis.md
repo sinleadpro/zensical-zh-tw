@@ -2,7 +2,7 @@
 title: POS 商品分析
 description: 掌握各 POS 實體門市的商品銷售表現，從銷售額、銷售量、購物人次到回購與退貨狀況，快速找出明星商品與需要關注的滯銷或高退貨商品。
 created: 2026-06-23 14:30
-last_modified: 2026-06-23 21:36
+last_modified: 2026-06-23 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -217,6 +217,4 @@ hide:
 
 ## 參考資料 { #reference-pos-product }
 
-- [POS 商品分析對照表](references/pos-product-metrics-reference.md#reference-pos-product-common) —— 三張排名報表的欄位與指標說明。
-- [OMO 分析報表](../../ec/business-intelligence/omo-analysis-report.md) —— 比較 EC 官網與 POS 門市的整體經營數據。
-- [商品圖表](../../ec/business-intelligence/product-chart.md) —— 觀察單一商品每日的瀏覽與購買趨勢。
+- [POS 商品分析對照表](references/pos-product-metrics-reference.md#reference-pos-product-common) 
