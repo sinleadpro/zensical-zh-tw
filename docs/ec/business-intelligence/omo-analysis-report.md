@@ -221,8 +221,16 @@ hide:
 掌握全通路的熱賣商品與同品項跨通路銷售：
 
 - **商品銷量 TOP10**：EC 與 POS 各自的銷售數量前 10 名。
+
+    ![商品銷量 TOP10](../../assets/images/ec-bi-omo-top10-sales-detail.png){ title="商品銷量 TOP10" }
+
 - **商品銷售金額 TOP10**：EC 與 POS 各自的銷售金額前 10 名。
+
+    ![商品銷售金額 TOP10](../../assets/images/ec-bi-omo-top10-revenue.png){ title="商品銷售金額 TOP10" }
+
 - **商品銷售列表**：以 SKU 比對同一商品在 EC 與 POS 的訂單數與銷售金額，依總銷售金額排序。
+
+    ![商品銷售列表](../../assets/images/ec-bi-omo-product-list.png){ title="商品銷售列表" }
 
 ---
 
