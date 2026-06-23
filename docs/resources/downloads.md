@@ -1,7 +1,7 @@
 ---
 title: 下載資源
 description: 彙整 CYBERBIZ 各類可下載資源，包含商家手冊、操作指南、白皮書等 PDF 檔案，提供一站式下載。
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-23 19:49
 type: hub
 tags:
   - 下載
@@ -15,13 +15,13 @@ permalink: "https://help.cyberbiz.io/downloads"
 
 <div class="grid cards" markdown>
 
--   :lucide-file-text:{ .lg .middle } __llms.txt__
-
-    ---
-
-    AI 可讀的網站地圖，供 LLM 快速理解 CYBERBIZ 文件架構與系統範圍。
-
-    [:lucide-download: 下載 llms.txt](/llms.txt)
+<!-- -   :lucide-file-text:{ .lg .middle } __llms.txt__ -->
+<!---->
+<!--     --- -->
+<!---->
+<!--     AI 可讀的網站地圖，供 LLM 快速理解 CYBERBIZ 文件架構與系統範圍。 -->
+<!---->
+<!--     [:lucide-download: 下載 llms.txt](/llms.txt) -->
 
 -   :lucide-book-marked:{ .lg .middle } __詞彙表__
 
