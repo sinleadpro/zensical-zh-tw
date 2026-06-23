@@ -61,11 +61,11 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=248
-  - https://www.cyberbiz.io/helpcenter/?p=8798
   - https://www.cyberbiz.io/helpcenter/?p=8497
-  - https://www.cyberbiz.io/support/?p=2635
+  - https://www.cyberbiz.io/helpcenter/?p=8798
   - https://www.cyberbiz.io/support/?p=2289
   - https://www.cyberbiz.io/support/?p=2549
+  - https://www.cyberbiz.io/support/?p=2635
 permalink: ""
 comments: false
 search:

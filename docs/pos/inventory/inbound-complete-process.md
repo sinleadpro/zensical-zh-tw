@@ -59,7 +59,9 @@ paths:
   - 後台 > POS 功能 > 所有 POS 商店
   - 前台 > 庫存
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=2962
+  - https://www.cyberbiz.io/support/?p=4623
 permalink: ""
 comments: false
 search:
@@ -78,27 +80,21 @@ hide: []
 
 進倉是由 **收貨方** 發起申請：
 
-- **發起端(收貨方)**：向指定單位（如總倉或其他分店）提出貨物請求，並建立 **進倉單**。
-- **接收端(出貨方)**：當進倉單成立時，系統將自動於收貨方後台建立一筆對應的 **出倉單**。
-
+- **發起端(收貨方)**：向 **第三方** 提出貨物請求，並建立 **進倉單**。
 
 
 ```mermaid
 sequenceDiagram
 
-participant 出貨方
+participant 第三方
 participant 收貨方
 Note over 收貨方: 1. 建立進倉單
-收貨方->>出貨方: 系統通知發貨門市並為發貨門市建立出倉單
-Note over 出貨方: (系統自動出倉)
-出貨方->>收貨方: 實際配送
+第三方->>收貨方: 實際配送
 Note over 收貨方: 2. 收貨清點
-收貨方 <<->>出貨方: 系統調整雙邊庫存
-Note over 出貨方,收貨方: 3. 庫存異動完成
 ```
 
-1. [[收貨方] 建立進倉單]()
-2. [[收貨方] 收貨清點]()
+1. [[收貨方] 建立進倉單](inbound-orders.md#建立進倉單)
+2. [[收貨方] 收貨清點](inbound-orders.md#收貨清點)
 
 
 !!! info "第三方進倉作業"

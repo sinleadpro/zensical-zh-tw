@@ -147,8 +147,8 @@ hide: []
                 | | 7-11 C2B | 7-11 C2B | | |
                 | 逆物流送貨地址 | 倉庫地址 | 倉庫地址 | 商家公司地址 | 商家公司地址 |
 
-            - 建立 [宅配逆物流](../ec/payments-and-logistics/宅配逆物流（黑貓宅配通新竹物流）)
-            - 建立 [7-11 C2B逆物流](../ec/orders/cvs-c2b-return.md)
+            - 建立宅配逆物流： [黑貓](../ec/payments-and-logistics/設定與加印黑貓託運單/#ezcat-shipping-note-reverse)、[宅配通](../ec/payments-and-logistics/設定宅配通託運單/#operate-pelican-shipping-reverse)、[新竹物流](../ec/payments-and-logistics/設定新竹物流託運單/#operate-hct-setup-reverse)
+            - 建立 [7-11 C2B逆物流](../ec/orders/returns-refunds/cvs-c2b-return.md)
 
         2. **狀態切換**：訂單 **退貨狀態** 自動轉為 **退貨中**。
         3. **系統同步**：官網自動將資訊同步至 WMS，產生 **退貨單** 並取得 **託運單號**。

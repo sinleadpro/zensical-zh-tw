@@ -53,7 +53,9 @@ ui_components:
 paths:
   - POS 功能 > 所有 POS 商店 > [店名] > POS 系統列表 > 修改 POS 設定
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=27199
+  - https://www.cyberbiz.io/support/?p=5231
 permalink: ""
 comments: false
 search:

@@ -31,7 +31,7 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 專業PLUS
+  - 專業 PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -64,8 +64,8 @@ paths:
   - 訂單 > 所有訂單
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/helpcenter/?p=393
   - https://www.cyberbiz.io/helpcenter/?p=1769
+  - https://www.cyberbiz.io/helpcenter/?p=393
   - https://www.cyberbiz.io/support/?p=29664
   - https://www.cyberbiz.io/support/?p=29736
 permalink: ""

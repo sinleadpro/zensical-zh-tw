@@ -52,9 +52,9 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=200
-  - https://www.cyberbiz.io/helpcenter/?p=6911
   - https://www.cyberbiz.io/helpcenter/?p=5254
   - https://www.cyberbiz.io/helpcenter/?p=5259
+  - https://www.cyberbiz.io/helpcenter/?p=6911
   - https://www.cyberbiz.io/helpcenter/?p=7016
   - https://www.cyberbiz.io/support/?p=1756
   - https://www.cyberbiz.io/support/?p=1758

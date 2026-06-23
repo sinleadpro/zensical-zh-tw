@@ -25,7 +25,7 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 專業PLUS
+  - 專業 PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -62,7 +62,9 @@ paths:
   - 設定 > 功能設定 > 會員標籤
   - 會員 > 所有會員
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=41786
+  - https://www.cyberbiz.io/support/?p=41951
 permalink: ""
 comments: false
 search:
@@ -76,6 +78,7 @@ hide: []
 { .subtitle }
 
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-grid-2x2-plus: { title="適用擴充" }](../../resources/conventions#適用擴充) | 門市助理
 { .doc-badge }
 
 !!! tip "應用情境"

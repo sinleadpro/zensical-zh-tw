@@ -26,7 +26,7 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 專業PLUS
+  - 專業 PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -67,7 +67,12 @@ paths:
   - 門市管理 > 角色與權限
   - 訂單 > 所有訂單
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=8669
+  - https://www.cyberbiz.io/support/?p=41022
+  - https://www.cyberbiz.io/support/?p=41833
+  - https://www.cyberbiz.io/support/?p=41853
+  - https://www.cyberbiz.io/support/?p=41889
 permalink: ""
 comments: false
 search:
@@ -81,6 +86,7 @@ hide: []
 { .subtitle }
 
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-grid-2x2-plus: { title="適用擴充" }](../../resources/conventions#適用擴充) | 門市助理
 { .doc-badge }
 
 !!! tip "應用情境"
@@ -163,7 +169,7 @@ hide: []
 		- [首購禮](../../marketing/limited-time-first-purchase-gift.md)
 		- [生日禮](../../marketing/setup-birthday-gift.md)
 		- [分享註冊推薦人](../../profit-sharing/referrer-profit-sharing.md)
-		- [VIP 會員日、VIP 升等禮、VIP 生日禮](../../members/setup-exclusive-vip-discounts.md)
+		- [VIP 會員日、VIP 升等禮、VIP 生日禮](../../members/vip/setup-exclusive-vip-discounts.md)
 
 	- 消費獲得的優惠券
 

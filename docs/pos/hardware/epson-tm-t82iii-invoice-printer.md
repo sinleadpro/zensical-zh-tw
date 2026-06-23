@@ -110,7 +110,7 @@ hide: []
 
 此步驟為連線成功的關鍵，請務必按照順序操作。
 
-1. **下載驅動**：前往 [EPSON 軟體列表](https://support.epson.net/setupnavi/?PINF=swlist&OSC=IOS&LG2=ZH&MKN=TM-T82III) 下載 [TM Virtual Port Driver](https://download3.ebz.epson.net/dsc/f/03/00/16/59/59/37c78fb33341c071dbfc05bdbe456ca853037eaf/TMVirtualPortDriver870c.zip)。
+1. **下載驅動**：下載 [TM Virtual Port Driver](https://download-center.epson.com/download/?module_id=070d7dfb-72df-4f28-9304-3336b198c5f3%3A8.70f&device_id=TM-T82III&os=WIN1164&region=TW&language=zh-TW)。
 2. **執行安裝**：完成安裝後，**強烈建議重新啟動電腦**。
 3. **實體連線**：使用 USB 線將發票機連接至 Windows 電腦。
 4. **指派 COM Port**：

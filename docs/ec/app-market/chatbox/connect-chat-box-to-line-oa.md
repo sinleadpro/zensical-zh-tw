@@ -24,7 +24,7 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans: 
-  - 專業PLUS
+  - 專業 PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -126,10 +126,48 @@ Chat Box 採 **自動導入** 機制。系統會自動抓取您於 **第三方�
 
 1. 點擊 **設定 > 新增官方帳號**。
 2. 系統將自動引導您跳轉至 **第三方整合 > LINE OA 設定**。
-3. 請參考 [LINE 官方帳號串接設定](../../integrations/line/account-integration/串接 LINE Messaging API.md) 完成 Messaging API 串接。
+3. 請參考 [LINE 官方帳號串接設定](../../integrations/line/account-integration/串接%20LINE%20Messaging%20API.md) 完成 Messaging API 串接。
 
 
+## 常見問題
 
+??? quote "顧客傳 LINE 訊息後，LINE 官方帳號後台有訊息，但 Chat Box 沒有出現新對話或新訊息？"
+    常見原因是 Webhook 未啟用，或 Webhook URL 設定錯誤。
 
+    Chat Box 接收 LINE 訊息主要依賴 LINE Messaging API Webhook。若 Webhook 沒有啟用，或 Webhook URL 不是 CYBERBIZ 提供的正確網址，即使 LINE 官方帳號後台看得到訊息，Chat Box 也可能收不到訊息。
 
+    請依照以下方式檢查：
 
+    1. 進入 LINE 官方帳號後台。
+    2. 點選「設定」。
+    3. 進入「回應設定」。
+    4. 確認 Webhook 是否為「啟用」。
+
+    同時也請至 LINE Developers Console 檢查：
+
+    - Webhook URL 為 CYBERBIZ 提供的正確網址。
+    - Webhook URL 驗證成功。
+    - **Use webhook**  已啟用。
+
+??? quote "LINE OA 的歷史對話紀錄會顯示在 Chat Box 嗎？"
+    不會自動顯示。LINE 串接後，Chat Box 通常只會接收 **串接完成且 Webhook 生效之後** 的新訊息。串接前已存在於 LINE 官方帳號後台的歷史對話，不會自動同步到 Chat Box。建議串接完成後，請使用一般 LINE 用戶傳送一則新的測試訊息，確認 Chat Box 是否能正常收到新訊息。
+
+??? quote "如果商家已經在使用外部服務，要如何同時串接外部服務與 CYBERBIZ Chat Box？"
+    LINE 官方目前只提供一組 Webhook 設定，因此正常情況下，如果商家將 LINE Webhook 改為串接 CYBERBIZ Chat Box，原本的外部服務就可能無法再收到 LINE 訊息。
+
+    若商家希望 Chat Box 與其他外部服務都能同時收到 LINE 訊息，可以使用 CYBERBIZ 提供的 LINE Webhook 轉拋服務。
+
+    設定完成後，LINE Webhook 會先將資料送至 CYBERBIZ，再由 CYBERBIZ 將資料轉拋至其他外部服務。如此一來，CYBERBIZ Chat Box 與其他外部服務都能接收到 LINE 訊息。
+
+    詳細設定可參考 [LINE webhook 轉拋服務](../../integrations/line/account-integration/串接%20LINE%20Messaging%20API.md/#步驟三開啟-webhook-功能)。
+
+??? quote "為什麼 Chat Box 不會顯示 LINE 貼圖？"
+    因為 LINE 官方目前沒有正式支援串接平台完整顯示貼圖內容。
+
+    因此，透過 LINE 串接到 Chat Box 的訊息，可能無法像 LINE 官方帳號後台一樣完整顯示貼圖。
+
+??? quote "透過 Chat Box 回覆 LINE 對話會產生費用嗎？"
+    LINE 訊息費用會依照商家的 LINE 官方帳號方案計算，Chat Box 不會另外針對 LINE 對話收取額外訊息費用。若商家的 LINE 官方帳號方案有訊息量限制或超量費用，仍會依 LINE 官方規則計算。
+
+??? quote "在 LINE OA 的留言Chatbox沒有出現？"
+    在 LINE OA 後台回覆給客人的訊息不會進入到 Chatbox。

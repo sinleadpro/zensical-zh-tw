@@ -145,9 +145,9 @@ CYBERBIZ EXPRESS 是專為日台電商設計的一站式跨境物流服務。您
 
 === "批次編輯"
 
-    1. [匯出商品 Excel](../products/bulk-operations/Excel 大量匯入商品.md#下載-excel-範本或匯出商品)。
+    1. [匯出商品 Excel](../../products/bulk-operations/Excel%20大量匯入商品.md#下載-excel-範本或匯出商品)。
     2. 填寫報關用對應欄位，儲存檔案。
-    3. [匯入商品 Excel](../products/bulk-operations/Excel 大量匯入商品.md#匯入-excel-檔案)，完成批次編輯。
+    3. [匯入商品 Excel](../../products/bulk-operations/Excel 大量匯入商品.md#匯入-excel-檔案)，完成批次編輯。
 
     ![](../../assets/images/EC-後台-商品-所有商品-日到台站台報關用商品欄位02.png){ .screenshot }
 

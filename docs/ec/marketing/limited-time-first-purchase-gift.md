@@ -24,7 +24,7 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 專業PLUS
+  - 專業 PLUS
   - 進階 PLUS
   - 高手 PLUS
   - 企業
@@ -51,8 +51,8 @@ paths:
   - 行銷活動 > 期間限定首購禮
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=7884
   - https://www.cyberbiz.io/support/?p=10419
-  - https://www.cyberbiz.io/support/?p=12861
 permalink: ""
 comments: false
 search:

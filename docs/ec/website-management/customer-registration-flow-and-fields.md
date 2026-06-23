@@ -191,7 +191,7 @@ hide: []
   了解如何下載 Excel 範本並批次上傳會員名單。
 
 - :lucide-mail:{ .lg }     
-  [__設定 Email 通知樣板__](../../notifications/manage-email-templates.md)  
+  [__設定 Email 通知樣板__](../notifications/manage-email-templates.md)  
   自訂「帳號啟用通知信」，優化會員註冊後的首封溝通。
 
 </div>
