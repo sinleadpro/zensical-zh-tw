@@ -68,6 +68,7 @@ copyright = """
             {"商品分析" = "ec/business-intelligence/product-analysis.md"},
             {"行銷活動分析" = "ec/business-intelligence/marketing-activity-analysis.md"},
             {"廣告分析" = "ec/business-intelligence/ad-analytics-guide.md"},
+            {"OMO分析報表" = "ec/business-intelligence/omo-analysis-report.md"},
             {"定期定額分析" = "ec/business-intelligence/periodic-order-analysis.md"},
             {"商品圖表" = "ec/business-intelligence/product-chart.md"},
             {"基本報表" = "ec/business-intelligence/basic-chart.md"},
@@ -89,7 +90,8 @@ copyright = """
                 {"會員年齡分群對照表" = "ec/business-intelligence/references/member-age-groups-reference.md"},
                 {"會員等級銷售狀況對照表" = "ec/business-intelligence/references/member-level-sales-status-reference.md"},
                 {"優惠券指標定義" = "ec/business-intelligence/references/marketing-activity-coupon-metrics-reference.md"},
-                {"折扣種類" = "ec/business-intelligence/references/marketing-activity-discount-categories-reference.md"}
+                {"折扣種類" = "ec/business-intelligence/references/marketing-activity-discount-categories-reference.md"},
+                {"OMO分析報表共用定義" = "ec/business-intelligence/references/omo-definitions-reference.md"}
             ]}
         ]},
         { "訂單" = [
@@ -1135,6 +1137,7 @@ link_titles = "auto"
 
 [project.markdown_extensions.zensical.extensions.glightbox]
 auto_caption = true
+skip_classes = ["hero-page"]
 
 [project.markdown_extensions.zensical.extensions.macros]
 module_name = "main"

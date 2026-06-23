@@ -1428,8 +1428,21 @@ CYBERBIZ DOCS
 文字編輯器使用教學
 分析報表
 分析報表
+OMO分析報表
 廣告分析
 基準化分析
+
+# OMO分析報表 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/omo-analysis-report/
+
+Description: 整合線上官網（EC）與線下實體門市（POS）的經營數據，在同一頁比較兩個通路的營收、訂單、會員、商品與行銷表現。
+
+# OMO分析報表共用定義 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/business-intelligence/references/omo-definitions-reference/
+
+Description: OMO 分析報表各頁籤共用的統計基準與名詞定義，供教學文件以連結引用。
 
 # 會員分析 - CYBERBIZ DOCS
 

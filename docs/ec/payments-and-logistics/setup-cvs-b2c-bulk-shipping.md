@@ -1,9 +1,8 @@
 ---
-
 title: 設定超商大宗寄倉 B2C
 description: 申請、設定超商大宗寄倉 B2C 服務。
 created:
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-23 09:52
 lang: zh-TW
 permalink:
 type: tutorial
@@ -76,7 +75,6 @@ icon: lucide/warehouse
 hide:
 ---
 
-
 ![](../../assets/images/ec-金物流-超商物流-B2C.png){ .hero-page }
 
 ## 超商大宗寄倉 B2C 說明
@@ -91,9 +89,9 @@ hide:
 
 	- **進階版** (需有使用 CYBERBIZ PAYMENTS)
 	- **高手版** (需有使用 CYBERBIZ PAYMENTS)
-	- **專業版 PLUS**
-	- **進階版 PLUS**
-	- **高手版 PLUS**
+	- **專業版PLUS**
+	- **進階版PLUS**
+	- **高手版PLUS**
 	- **企業版**
 
 - **硬體要求**：為確保託運單條碼可正確判讀，商家務必準備 **雷射印表機** 進行印製有防水材質標籤，或使用塑膠袋掛號寄出。
@@ -105,20 +103,22 @@ hide:
 1. 登入 CYBERBIZ 管理後台，前往 **金物流 > 超商物流**，選擇欲申請的超商（如 7-ELEVEN 超商取貨）。
 2. 完整填寫申請表格（皆為必填），並選擇一種 **退貨方式**。資料存檔後，系統將於隔日開始申請流程。
 
+---
+
 ### 步驟二：進行測標（驗標）
 
 !!! note "測標說明"
 	商家在申請開通 **超商大宗寄倉（B2C）** 物流服務時，必須經過的一項條碼判讀測試流程。其主要目的是確保商家所列印的託運標籤條碼可以被超商物流中心的設備正確辨識與判讀，以避免日後實際出貨時發生無法掃描的問題。
 
 1. **下載標籤**：建檔成功後，點擊 **下載標籤** 取得測標 PDF 檔。
-
 2. **列印與交寄**：使用真實出貨用的貼紙（如 A4 標籤貼）印出後，**掛號寄送** 至[指定的物流中心](#各超商物流中心寄送資訊)進行人工驗標。
-
 3. **各家審核時程**：
 
 	- **7-11 (大智通)**：流程約需 **2~3 週**，且測標成功後需透過 CYBERBIZ 客服協助開通。
 	- **全家 (日翊)**：流程約需 **7~10 個工作天**。
 	- **萊爾富**：流程約需 **7~10 個工作天**。
+
+---
 
 ### 步驟三：啟用功能與設定運費
 
@@ -293,7 +293,7 @@ hide:
 
 ## 使用前提與限制 { #prerequisites-cvs-b2c-setup }
 
-- [x] **方案支援**：限定方案才能申請 B2C 大宗寄倉，詳見 [方案開通對照](references/cvs-b2c-plans-pricing-reference.md#reference-cvs-b2c-plans-eligibility){ title="超商大宗寄倉B2C方案與計費對照" data-preview }。
+- [x] **方案支援**：限定方案才能申請 B2C 大宗寄倉，詳見 [方案開通對照](references/cvs-b2c-plans-pricing-reference.md#reference-cvs-b2c-plans-eligibility){ title="超商大宗寄倉B2C方案與計費對照" }。
 - [x] **真實出貨環境**：申請過程包含「測標」步驟，需使用實際出貨用的雷射印表機與貼紙列印標籤寄至各超商審核。
 - [x] **退貨方式**：商家須事先決定一種固定退貨方式（如自取或指定貨運），不可混用，否則審核會被退件。
 - [x] **串接綠界的商家**：請改透過綠界 B2C 大宗寄倉服務申請，相關設定不在此頁面完成。
@@ -310,7 +310,7 @@ hide:
 
 ### 申請各超商通路 { #operate-cvs-b2c-setup-apply }
 
-依序為每家欲開通的超商完成以下動作，各通路必填欄位差異請見 [申請時必填欄位對照](references/cvs-b2c-channel-spec-reference.md#reference-cvs-b2c-channels-fields){ title="超商大宗寄倉B2C通路規格" data-preview }。
+依序為每家欲開通的超商完成以下動作，各通路必填欄位差異請見 [申請時必填欄位對照](references/cvs-b2c-channel-spec-reference.md#reference-cvs-b2c-channels-fields){ title="超商大宗寄倉B2C通路規格" }。
 
 1. 點擊欲申請的通路名稱進入協議頁。
 2. 詳閱協議內容後勾選同意並點擊 **「提交申請」**[^1]。
@@ -323,20 +323,24 @@ hide:
 
 [^1]: 若協議內容尚未閱讀完畢，提交按鈕會維持禁用狀態。
 
+---
+
 ### 寄送測標 { #operate-cvs-b2c-setup-testing }
 
 申請送出後，後台會出現「下載標籤」入口供商家取得測試用 PDF。
 
 1. 點擊 **「下載標籤」** 取得該通路的測試標籤 PDF。
-2. 使用**真實出貨用的雷射印表機與 2x3 規格貼紙**列印標籤[^2]。
-3. 將印出的標籤貼於實際大小的紙箱外，**掛號**寄至對應物流中心。完整地址、收件單位與信封備註請見
-[測標寄送資訊](references/cvs-b2c-logistics-center-reference.md#reference-cvs-b2c-centers-testing){ title="物流中心收貨資訊" data-preview }。
+2. 使用 **真實出貨用的雷射印表機與 2x3 規格貼紙** 列印標籤[^2]。
+3. 將印出的標籤貼於實際大小的紙箱外，**掛號** 寄至對應物流中心。完整地址、收件單位與信封備註請見
+[測標寄送資訊](references/cvs-b2c-logistics-center-reference.md#reference-cvs-b2c-centers-testing){ title="物流中心收貨資訊" }。
 4. 保留掛號收據供查件使用。
 5. 等待超商驗收，各通路審核時間約：
     * 7-ELEVEN：**2~3 週工作天**
     * 全家、萊爾富：**7~10 個工作天**
 
 [^2]: 使用一般紙張或非雷射列印機都會導致條碼判讀失敗，標籤將被退件並需重新申請。
+
+---
 
 ### 設定運費與啟用 { #operate-cvs-b2c-setup-fee }
 
@@ -345,16 +349,38 @@ hide:
 1. 進入該通路的設定頁面。
 2. 於「**運費**」輸入單筆訂單運費金額。
 3. 於「**免運門檻**」輸入消費滿額免運費的金額（可留空表示無門檻）。
-4. 開啟「**貨到付款**」或「**取貨不付款**」金物流選項（**至少需開啟一項**才會在前台顯示）。
+4. 開啟「**貨到付款**」或「**取貨不付款**」金物流選項（**至少需開啟一項** 才會在前台顯示）。
 5. 點擊 **「儲存」**，並將該通路的啟用狀態切換為「**已啟用**」。
 
 [^3]: 7-ELEVEN 通路測標通過後，需由 CYBERBIZ 客服協助開通才會出現運費設定，全家與萊爾富則商家可自行於後台啟用。
 
+![設定運費與啟用](../../assets/images/ec-金物流-超商物流-B2C 設定.gif)
+
 ## 重要規範與限制 { #specs-cvs-b2c-setup }
 
-* **重量與材積上限**：依通路不同，](references/cvs-b2c-channel-spec-reference.md#reference-cvs-b2c-channels-specs)annels-specs){ title="超商大宗寄倉B2C通路規格" data-preview }。商品建檔時若超出上限，前台會自動阻擋消費者選擇該通路。
+* **重量與材積上限**：依通路不同，請見[超商大宗寄倉B2C通路規格](references/cvs-b2c-channel-spec-reference.md#reference-cvs-b2c-channels-specs){ title="超商大宗寄倉B2C通路規格" }。商品建檔時若超出上限，前台會自動阻擋消費者選擇該通路。
 * **退貨方式不可混用**：申請時填寫的退貨方式（如「自取」或「指定貨運」）一經審核通過即固定，調整需重新發起申請。
-* **方案差異**：可開通的通路依方案](references/cvs-b2c-plans-pricing-reference.md#reference-cvs-b2c-plans-eligibility)-eligibility){ title="超商大宗寄倉B2C方案與計費對照" data-preview }。
+* **方案差異**：可開通的通路依方案，請見[超商大宗寄倉B2C方案與計費對照](references/cvs-b2c-plans-pricing-reference.md#reference-cvs-b2c-plans-eligibility){ title="超商大宗寄倉B2C方案與計費對照" }。
+* **出貨作業**：商家需自行聯絡物流單位（如黑貓、新竹物流等）將包裹寄至超商物流總倉。貨品必須以 **紙箱保護，不可散裝**，否則若損壞遺失由商家負責。
+* **收貨時間**：
+	* **7-11 (大智通)**：週一至週六 08:00 - 14:00。
+	* **全家 (日翊)**：週一至週日 08:00 - 14:00 (當天出貨)，14:00 - 16:30 (隔日出貨)。
+	* **萊爾富**：週一至週日 08:30 - 14:00。
+
+> 以上收貨時間僅為參考用，實際收貨時間以官方提供資訊為主。
+
+---
+
+## 異常處理 { #exception-cvs-b2c-setup }
+
+### 補印託運單
+
+限於「已出貨」狀態下的 5 日內操作，補印不會產生新單號，亦不會重複扣費。
+
+### 門市關轉
+
+- **7-11**：商家需於 2 日內聯繫消費者並於後台重新選擇門市。
+- **全家/萊爾富**：通常直接轉為退貨流程，退回商家指定的退貨地址。
 
 ---
 
@@ -400,8 +426,77 @@ hide:
     串接綠界金物流的商家無法透過後台「B2C 超商大宗」頁面申請，請直接洽詢綠界科技辦理，相關運費計算與託運單下載皆由綠界端處理。
 
 ??? quote "我的方案有支援 B2C 嗎？"
-    [](){ #faq-cvs-b2c-se](references/cvs-b2c-plans-pricing-reference.md#reference-cvs-b2c-plans-eligibility)cvs-b2c-plans-eligibility){ title="超商大宗寄倉B2C方案與計費對照" data-preview }。若您目前的方案不支援，請聯絡 CYBERBIZ 客服了解升級方案。
+    [](){ #faq-cvs-b2c-setup-plan-support }請見[超商大宗寄倉B2C方案與計費對照](references/cvs-b2c-plans-pricing-reference.md#reference-cvs-b2c-plans-eligibility){ title="超商大宗寄倉B2C方案與計費對照" }。若您目前的方案不支援，請聯絡 CYBERBIZ 客服了解升級方案。
+
+??? quote "一定要做測標（驗標）嗎？可以跳過嗎？"
+    [](){ #faq-cvs-b2c-setup-mandatory-testing }
+    不可以。**測標是超商物流的強制流程**，未通過驗標前，物流中心不會接收實際出貨包裹。測標的目的在於：
+    
+    - 確認條碼可被物流設備正確掃描。
+    - 避免正式出貨時整批退件或無法入庫。
+
+??? quote "測標沒通過會怎樣？可以重測嗎？"
+    [](){ #faq-cvs-b2c-setup-retest }
+    可以重測。常見失敗原因包含：
+    
+    - 使用噴墨印表機，條碼模糊。
+    - 標籤紙反光或非防水材質。
+    - 縮放列印導致條碼比例異常。
+    
+    修正後重新下載標籤，再次寄送即可重新驗標。
+
+??? quote "一定要用雷射印表機嗎？熱感列印可以嗎？"
+    [](){ #faq-cvs-b2c-setup-printer-type }
+    不建議使用熱感列印。B2C 標籤需經物流中心長時間搬運與掃描，熱感紙容易因摩擦或高溫導致條碼褪色，官方驗標標準建議使用 **雷射印表機 + 防水標籤貼紙**。
+
+??? quote "驗標通過後，為什麼後台還不能用？"
+    [](){ #faq-cvs-b2c-setup-not-active }
+    常見原因有兩種：
+    
+    1. **7-11 需人工開通**：即使驗標成功，仍需由 CYBERBIZ 客服手動啟用。
+    2. 尚未設定運費或未開啟付款方式。
+    
+    建議檢查：
+    
+    - 是否已開啟「貨到付款 / 取貨不付款」。
+    - 是否已填寫運費並儲存。
+
+??? quote "包裹寄到物流中心後，多久會上架到門市？"
+    [](){ #faq-cvs-b2c-setup-delivery-time }
+    一般情況下：
+    
+    - 物流中心當天驗收成功 > 隔天（N+1）到門市。
+    - 若遇尖峰（雙 11、節慶）可能延至 N+2。
+    
+    實際時效仍依各物流中心當日作業量為準。
+
+??? quote "如果物流中心拒收包裹，會發生什麼事？"
+    [](){ #faq-cvs-b2c-setup-rejected }
+    物流中心可能拒收的原因包含：
+    
+    - 包裝不完整（非紙箱、散裝）。
+    - 超過尺寸或重量限制。
+    - 條碼無法掃描。
+    
+    拒收後通常：
+    
+    - 包裹原路退回給商家。
+    - 該筆訂單需重新出貨並重新列印標籤。
+
+??? quote "消費者逾期未取，B2C 包裹會怎麼處理？"
+    [](){ #faq-cvs-b2c-setup-overdue }
+    包裹會退回商家指定的退貨地址。
+    
+    流程通常為：
+    
+    1. 門市保管期限到期。
+    2. 物流中心統一退回。
+    3. 商家需自行負擔來回物流成本。
 
 ---
 
-## 參考資料 { #reference-cvs-](references/cvs-b2c-channel-spec-reference.md)nces/超商大宗寄倉 B2C 通路規格對照.md){ title="超商大宗寄倉B2C通路規格" data-preview](references/cvs-b2c-logistics-center-reference.md)寄倉 B2C 物流中心對照.md){ title](references/cvs-b2c-plans-pricing-reference.md)計費對照](references/超商大宗寄倉 B2C 方案與計費對照.md){ title="超商大宗寄倉B2C方案與計費對照" data-preview }
+## 參考資料 { #reference-cvs-b2c-setup-ref }
+
+- [超商大宗寄倉B2C通路規格](references/cvs-b2c-channel-spec-reference.md){ title="超商大宗寄倉B2C通路規格" }
+- [物流中心收貨資訊](references/cvs-b2c-logistics-center-reference.md){ title="物流中心收貨資訊" }
+- [超商大宗寄倉B2C方案與計費對照](references/cvs-b2c-plans-pricing-reference.md){ title="超商大宗寄倉B2C方案與計費對照" }

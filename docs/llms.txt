@@ -13,6 +13,8 @@
 - [圖示慣例 - CYBERBIZ DOCS](https://help.cyberbiz.io/resources/conventions/): CYBERBIZ 文檔中使用的圖示與符號說明。
 - [EC 品牌官網 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/): 品牌官網後台操作指南，涵蓋商品、訂單、金物流、行銷推廣與網站外觀設定。
 - [報表分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/): 一目了然掌握商店經營數據，快速分析銷售、訂單與會員行為。
+- [OMO分析報表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/omo-analysis-report/): 整合線上官網（EC）與線下實體門市（POS）的經營數據，在同一頁比較兩個通路的營收、訂單、會員、商品與行銷表現。
+- [OMO分析報表共用定義 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/omo-definitions-reference/): OMO 分析報表各頁籤共用的統計基準與名詞定義，供教學文件以連結引用。
 - [基本報表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/basic-chart/): 在後台一頁掌握商店銷售與流量概況，包含商品銷售排行、訂單數量、總銷售額及近七日瀏覽人次。
 - [基本報表計算規則對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/references/basic-chart-metrics-reference/): 認識基本報表四項核心區塊的計算規則：訂單數量、總銷售額、商品銷售排行、近七日瀏覽人次。
 - [基準化分析 (Benchmarking) - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/benchmarking/): 透過 AI 機器學習比對同業基準，找出商店流量、轉換率、客單價、回購率的優化方向。

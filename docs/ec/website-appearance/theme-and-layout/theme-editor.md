@@ -2,7 +2,7 @@
 title: 拖拉版型網站設定
 description: 使用拖拉版型編輯器建立與調整官網外觀，包含全站設定、頁面內容編輯、商品頁面配置等。
 created:
-last_modified: 2026-06-22 17:33
+last_modified: 2026-06-23 09:32
 lang: zh-TW
 permalink:
 type: tutorial
@@ -677,6 +677,30 @@ comments: false
     **分類樣式與版面占比：** 設定電腦版商品分類的外觀樣式，以及該區塊在頁面上的螢幕占比。
 
     ![自訂排版設計 - 分類樣式與版面占比](../../../assets/images/ec-website-appearance-custom-blocks-product-layout.png)
+
+!!! tip "設計模組的版面比例"
+    您可以透過設定「**版面螢幕占比**」來控制每個區塊在畫面中的寬度，讓多個區塊能在同一橫列中並排顯示。
+
+    **排列邏輯說明：**
+
+    - 區塊會由左至右依序排列。
+    - 每一橫列的總占比上限為 100%。當區塊並排的占比超過 100%，系統會自動換行，將超出區塊及後續區塊顯示於下一列，以此類推。
+
+    ??? example "常見排版範例"
+        === "三欄式結構"
+            建立 3 個區塊，每個區塊占比設為 33%，三者加總不超過 100% 即可並排。
+
+            ![三欄式排版範例](../../../assets/images/ec-website-appearance-custom-blocks-layout-3col.png)
+
+        === "雙欄式結構"
+            建立 2 個區塊，可設定為 60% + 40%、50% + 50% 等加總為 100% 的組合。
+
+            ![雙欄式排版範例](../../../assets/images/ec-website-appearance-custom-blocks-layout-2col.png)
+
+        === "單欄式結構"
+            如僅有一個區塊需滿版呈現，可設為 100%。
+
+            ![單欄式排版範例](../../../assets/images/ec-website-appearance-custom-blocks-layout-1col.png)
 
 ---
 
