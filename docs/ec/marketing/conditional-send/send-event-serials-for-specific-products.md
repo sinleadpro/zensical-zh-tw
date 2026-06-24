@@ -46,7 +46,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=43726
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/marketing/conditional-send/send-event-serials-for-specific-products
 comments: false
 search:
   exclude: false
@@ -58,10 +58,10 @@ hide: []
 建立「序號群組」，當顧客購買指定商品並付款後，系統自動發送專屬活動序號，適用於票券、兌換碼或抽獎活動。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 企業
 { .doc-badge }
 
-![](../../assets/images/EC-後台-行銷活動-指定商品送活動序號-畫面總覽01.png){ .hero-page }
+![](../../../assets/images/EC-後台-行銷活動-指定商品送活動序號-畫面總覽01.png){ .hero-page }
 
 ## 指定商品送活動序號說明
 

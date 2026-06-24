@@ -42,11 +42,11 @@ features:
   - 會員分群
   - 成效追蹤
 prerequisites:
-  - /ec/marketing/設定與發送 EDM 電子報
+  - /ec/notifications/send-edm-newsletters
   - /ec/integrations/line/設定 LINE 快速登入
   - /ec/integrations/line/綁定 LINE 官方帳號與官網會員
 related:
-  - /ec/marketing/設定與發送 EDM 電子報
+  - /ec/notifications/send-edm-newsletters
 tags:
   - EC
   - Automation

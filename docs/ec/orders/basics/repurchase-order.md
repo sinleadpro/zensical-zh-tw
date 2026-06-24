@@ -38,7 +38,7 @@ features:
 prerequisites: []
 related:
   - "[[order-management-interface]]"
-  - "[[設定訂單加價購]]"
+  - "[[setup-order-upsell]]"
 tags:
   - 再次購買
   - 回購
@@ -128,7 +128,7 @@ hide: []
   結帳完成後，會員可於「訂單查詢」查看訂單狀態、出貨進度與付款資訊。
 
 - :lucide-tag:{ .lg }  
-  [__設定訂單加價購__](../../marketing/設定訂單加價購.md){ title="設定訂單加價購" }  
+  [__設定訂單加價購__](../../marketing/setup-order-upsell.md){ title="設定訂單加價購" }  
   吸引會員再次購買時，可在結帳頁面加購其他商品，提升客單價與回購率。
 
 </div>

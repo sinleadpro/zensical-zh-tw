@@ -56,7 +56,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=2369
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/marketing/one-page-store/create-cart-link-specific-products
 comments: ""
 search:
   exclude: ""
@@ -64,7 +64,7 @@ icon: lucide/link
 hide:
 ---
 
-![商品導購連結購物車頁面](../../assets/images/ec-行銷活動-指定商品導購連結.png){ .hero-page }
+![商品導購連結購物車頁面](../../../assets/images/ec-行銷活動-指定商品導購連結.png){ .hero-page }
 
 ## 指定商品購物車連結說明
 
@@ -88,13 +88,13 @@ hide:
 2.  **勾選商品**：在商品列表中勾選您想要導入購物車的商品品項。
 3.  **匯出資料**：點擊右上角的「**匯出商品**」按鈕。
 
-    ![匯出商品資訊](../../assets/images/ec-商品列表匯出-操作選單.png)
+    ![匯出商品資訊](../../../assets/images/ec-商品列表匯出-操作選單.png)
 
 4.  **查找 ID**：下載並開啟 Excel 檔案，展開隱藏欄位：                        
     - A 欄：商品 id — 用於 type=product 模式（單一款式商品適用）
     - B 欄：商品款式 id — 預設模式，可精確指定款式                 
 
-    ![商品列表匯出](../../assets/images/ec-商品列表匯出檔案-商品id與款式id.png)
+    ![商品列表匯出](../../../assets/images/ec-商品列表匯出檔案-商品id與款式id.png)
 
 5.  **紀錄數值**：欄位顯示的數字即為商品相關 ID，請將其記錄下來以利後續填入導購網址。
 

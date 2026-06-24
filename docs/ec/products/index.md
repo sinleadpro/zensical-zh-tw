@@ -121,7 +121,7 @@ VIP 價格、**搜尋可見性排除**
    建立與管理商品標籤，以利搜尋與分組。  
 
 - :lucide-navigation:{ .lg }   
-  [__導覽列與前台顯示__](categories-and-tags/設定商品多層級分類.md){ title="設定商品多層級分類" }  
+  [__導覽列與前台顯示__](categories-and-tags/multi-level-category-setup.md){ title="設定商品多層級分類" }  
    管理前台分類排序與篩選功能。  
 
 </div>

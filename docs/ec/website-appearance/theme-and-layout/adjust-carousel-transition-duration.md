@@ -2,7 +2,7 @@
 title: "調整首頁跑馬燈（輪播圖）的轉場停留時間"
 description: "修改樣板檔案中的 delay 參數，調整首頁跑馬燈（輪播圖）的轉場停留時間。"
 created: "2025-03-03 14:20"
-last_modified: 2026-06-22 09:45
+last_modified: 2026-06-24 15:42
 lang: "zh-TW"
 type: "tutorial"
 status: ""
@@ -66,7 +66,7 @@ icon: lucide/gallery-horizontal
 hide: 
 ---
 
-![](../../../assets/images/ec-網站外觀-樣板編輯器-main-slider-liquid.png){ .hero-page }
+![首頁跑馬燈樣板編輯](../../../assets/images/ec-網站外觀-樣板編輯器-main-slider-liquid.png){ title="首頁跑馬燈樣板編輯" .hero-page }
 
 ## 跑馬燈轉場時間說明
 
@@ -110,7 +110,6 @@ pagination: {
 
 - **責任歸屬：** CYBERBIZ 提供程式碼修改權限，但 **不提供語法教學或代碼撰寫服務**，建議由貴公司技術人員執行。
 - **恢復機制**：若修改後導致頁面異常，可點擊編輯器中的 **查看之前版本**，可[回溯至先前版本](restore-code-theme-editor.md#操作步驟){ data-preview }。
-
 
 ## 常見問題
 

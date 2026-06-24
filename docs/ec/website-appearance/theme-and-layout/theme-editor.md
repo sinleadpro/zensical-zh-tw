@@ -806,7 +806,7 @@ comments: false
 針對多層級分類頁面的呈現方式進行微調。
 
 !!! info "前置作業"
-    需先 [建立商品多層級分類架構](../../products/categories-and-tags/設定商品多層級分類.md){ title="設定商品多層級分類" }。
+    需先 [建立商品多層級分類架構](../../products/categories-and-tags/multi-level-category-setup.md){ title="設定商品多層級分類" }。
 
 ![商品多層級分類](../../../assets/images/ec-網站外觀-拖拉版型-商品多層級分類頁面.png)
 
@@ -1614,7 +1614,7 @@ CYBERBIZ 的 **拖拉版型** （Drag-and-Drop Layout）是一項直覺化的官
 
 ## 商品多層級分類
 
-> :lucide-info: 需先[建立商品多層級分類架構](../../products/categories-and-tags/設定商品多層級分類.md){ title="設定商品多層級分類" }  。
+> :lucide-inf](../../products/categories-and-tags/multi-level-category-setup.md)ags/設定商品多層級分類.md){ title="設定商品多層級分類" }  。
 
 完成結構後，商家可針對多層級分類頁面的呈現方式進行微調。
 

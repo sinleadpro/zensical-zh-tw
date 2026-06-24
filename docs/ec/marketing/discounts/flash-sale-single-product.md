@@ -2,7 +2,7 @@
 title: 設定單品限時折扣群組
 description: 建立「單品限時折扣群組」，並設定折扣計價方式（固定金額、百分比或活動價格）、活動商品與有效期間。
 created: 2026-01-13 00:00
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-24 14:24
 lang: zh-TW
 type: tutorial
 status:
@@ -27,8 +27,8 @@ difficulty: beginner
 tnb: branch
 plans:
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -56,23 +56,15 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9101
   - https://www.cyberbiz.io/support/?p=3368
-permalink:
+permalink: https://help.cyberbiz.io/ec/marketing/discounts/flash-sale-single-product
 comments: false
 search:
   exclude: false
-icon:
+icon: lucide/clock
 hide: []
 ---
 
-# 設定單品限時折扣群組
-
-建立「單品限時折扣群組」，並設定折扣計價方式（固定金額、百分比或活動價格）、活動商品與有效期間。
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | PLUS / 企業
-{ .doc-badge }
-
-![](../../assets/images/ec-marketing-flash-sale-single-product-hero.zh-tw.png){ .hero-page }
+![單品限時折扣群組](../../../assets/images/ec-marketing-flash-sale-single-product-hero.zh-tw.png){ title="單品限時折扣群組" .hero-page }
 
 ## 單品限時折扣說明
 
@@ -84,20 +76,22 @@ hide: []
 - **活動期間自動生效**：開始與結束時間可自訂，結束後商品自動恢復原價。
 - **提升銷售轉換率**：透過限時優惠，刺激顧客快速下單或增加購買數量。
 
-### 適用情境
+!!! example "適用情境"
 
-- **短期促銷活動**：針對特定商品推出限時優惠。  
-- **清倉或庫存去化**：對滯銷商品設定折扣，加速庫存周轉。  
-- **新品上市推廣**：對新上架商品提供短期折扣，提升初期銷售量與市場關注度。
+    - **短期促銷活動**：針對特定商品推出限時優惠。  
+    - **清倉或庫存去化**：對滯銷商品設定折扣，加速庫存周轉。  
+    - **新品上市推廣**：對新上架商品提供短期折扣，提升初期銷售量與市場關注度。
 
 ## 設定單品限時折扣群組
 
-### 步驟 1：新增單品折扣群組
+### 新增單品折扣群組
 
 1. 登入 CYBERBIZ 管理後台，前往 **行銷活動 > 單品限時折扣**。
 2. 在群組列表下方輸入新群組名稱，點擊 **新增群組**。
 
-### 步驟 2：填寫群組資訊
+---
+
+### 填寫群組資訊
 
 在群組列表中，點擊展開欲設定的群組，依序設定以下欄位：
 
@@ -114,9 +108,11 @@ hide: []
     
 - **折扣數值設定**：根據選擇的計價方式，於欄位中填寫對應數值，例如折扣百分比或固定金額。
 
-![](../../assets/images/ec-marketing-flash-sale-single-product-collection-setting.zh-tw.png)
+![單品限時折扣群組設定](../../../assets/images/ec-marketing-flash-sale-single-product-collection-setting.zh-tw.png){ title="單品限時折扣群組設定" }
 
-### 步驟 3：將活動商品加入群組
+---
+
+### 將活動商品加入群組
 
 將商品加入折扣活動群組，可使用以下兩種方式：
 
@@ -138,20 +134,20 @@ hide: []
 	- 請保持 Excel 檔案格式與範本一致，以避免匯入失敗。
     - 群組名稱需與已建立的折扣群組名稱完全一致。
 
-![](../../assets/images/ec-marketing-flash-sale-porduct-excel-import.zh-tw.png)
+![單品折扣批次匯入](../../../assets/images/ec-marketing-flash-sale-porduct-excel-import.zh-tw.png){ title="單品折扣批次匯入" }
 
 ## 後續步驟
 
 <div class="grid cards" markdown>
 
 - :lucide-list-ordered:{ .lg }   
-  [__結帳優惠計算順序__](結帳優惠計算順序.md)       
+  [__結帳優惠計算順序__](checkout-discount-calculation-order.md)       
   顧客結帳時，各種優惠的套用順序。
 - :lucide-group:{ .lg }     
-  [__自訂商品群組__](custom-collections.md)  
+  [__自訂商品群組__](../../products/categories-and-tags/custom-collections.md)  
   自訂商品分類群組。
 - :lucide-ban:{ .lg }  
-  [__商品排除指定優惠__](#)  
+  [__商品排除指定優惠__](../purchase-restrictions/exclude-products-from-promotions.md)  
   將特定商品從特定優惠活動中排除。
 
 

@@ -51,7 +51,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3480
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/marketing/conditional-send/send-bonus-points-for-specific-logistics
 comments: false
 search:
   exclude: false
@@ -63,10 +63,10 @@ hide: []
 透過「指定物流送紅利」工具，您可以針對特定配送方式提供紅利點數回饋，有效引導消費者選擇低成本或特定合作物流。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 企業
 { .doc-badge }
 
-![](../../assets/images/EC-後台-行銷活動-指定物流送紅利-畫面總覽01.png){ .hero-page }
+![](../../../assets/images/EC-後台-行銷活動-指定物流送紅利-畫面總覽01.png){ .hero-page }
 
 !!! tip "應用情境"
     - **優化配送成本**：針對成本較低的「門市自取」或「超商取貨」提供高額紅利，降低宅配物流負擔。
@@ -107,7 +107,7 @@ hide: []
 3. 點擊 **加入** 按鈕。
 4. 加入成功的項目將顯示在群組中。
 
-![](../../../assets/images/EC-後台-行銷活動-指定物流送紅利-設定群組與選擇商品01.png){ .screenshot }
+![](../../../../assets/images/EC-後台-行銷活動-指定物流送紅利-設定群組與選擇商品01.png){ .screenshot }
 
 ## 常見問題
 

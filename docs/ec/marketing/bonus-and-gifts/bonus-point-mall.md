@@ -60,7 +60,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7880
   - https://www.cyberbiz.io/support/?p=10679
   - https://www.cyberbiz.io/support/?p=10711
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/bonus-point-mall
 comments: false
 search:
   exclude: false
@@ -72,14 +72,14 @@ hide: []
 建立專屬的線上紅利兌換商城，設定商品兌換所需點數，透過紅利積點機制提升會員回訪與品牌忠誠度。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 所有PLUS / 企業
 { .doc-badge }
 
 !!! info "版本差異說明"
     - **電商官網 (EC)** 與 **實體門市 (POS)** 皆支援紅利商城功能，此文件僅適用 **電商官網 (EC)** 紅利商城之設定方式。
     - 紅利商城在 PLUS 方案中屬於「行銷 A」選配模組（11 選 2），商家需確認已選配該模組方可使用。企業版則直接內建此功能。
 
-![](../../assets/images/EC-後台-行銷活動-紅利商城-畫面總覽01.png){ .hero-page }
+![](../../../assets/images/EC-後台-行銷活動-紅利商城-畫面總覽01.png){ .hero-page }
 
 ## 紅利商城說明
 
@@ -117,7 +117,7 @@ hide: []
 5. **SEO設定**：依需求彈性設定。
 6. 點擊 **儲存**。
 
-![](../../assets/images/EC-後台-行銷活動-紅利商城-EC基本設定01.png)
+![](../../../assets/images/EC-後台-行銷活動-紅利商城-EC基本設定01.png)
 
 ### 步驟 2：加入兌換商品
 
@@ -137,7 +137,7 @@ hide: []
         - 每次上傳上限為 **200 行**（若超過請分批上傳）。
     3. 系統將於背景執行，完成後會寄送 Email 通知。
 
-![](../../assets/images/EC-後台-行銷活動-紅利商城-選擇EC商品01.png)
+![](../../../assets/images/EC-後台-行銷活動-紅利商城-選擇EC商品01.png)
 
 ### 步驟 3：設定兌換所需點數 (僅限手動勾選加入)
 
@@ -145,7 +145,7 @@ hide: []
 2. 在 **紅利點數** 欄位中，輸入該商品兌換所需的點數數值（系統預設會帶入商品原價）。
 3. 按下 **Enter** 或點擊空白處，系統將自動儲存設定。
 
-![](../../assets/images/EC-後台-行銷活動-紅利商城-設定EC商品紅利兌換值01.png)
+![](../../../assets/images/EC-後台-行銷活動-紅利商城-設定EC商品紅利兌換值01.png)
 
 
 ### 步驟 4：測試並公開商城
@@ -236,7 +236,7 @@ hide: []
 2. 在語系選單中，切換至欲編輯的語系（例如：繁體中文、英文）。  
 3. 展開欲編輯的加購群組，然後直接點擊群組名稱欄位進行修改，完成後按 ++enter++ 儲存變更。  
 
-![](../../assets/images/EC-後台-行銷活動-紅利商城-設定多國01.png)
+![](../../../assets/images/EC-後台-行銷活動-紅利商城-設定多國01.png)
 
 
 
@@ -257,7 +257,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-hash:{ .lg }
-    [__POS 紅利商城__](../../pos/check/bonus-point-mall.md)
+    [__POS 紅利商城__](../../../pos/check/bonus-point-mall.md)
     為 POS 門市建立專屬紅利商城，並了解前台結帳操作流程。
 
 </div>

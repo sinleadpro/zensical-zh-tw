@@ -59,7 +59,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11192
   - https://www.cyberbiz.io/support/?p=6429
   - https://www.cyberbiz.io/support/?p=9803
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/marketing/other-tools/interactive-games
 comments: false
 search:
   exclude: false
@@ -71,10 +71,10 @@ hide: []
 透過轉盤、紅包或寶箱等趣味遊戲，發放優惠券、紅利點數 or 贈品，提升會員參與度與轉單率。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 所有PLUS / 企業
 { .doc-badge }
 
-![](../../assets/images/EC-後台-行銷活動-互動遊戲-畫面總覽01.png){ .hero-page }
+![](../../../assets/images/EC-後台-行銷活動-互動遊戲-畫面總覽01.png){ .hero-page }
     
 
 !!! info "版本差異說明"
@@ -117,7 +117,7 @@ hide: []
 !!! info "獎項連結說明"
     設定獎項連結並啟用 UTM 服務，可追蹤會員中獎後點擊「前往購物」的成效。
 
-![](../../assets/images/EC-後台-行銷活動-互動遊戲-基本設定01.png)
+![](../../../assets/images/EC-後台-行銷活動-互動遊戲-基本設定01.png)
 
 
 ### 步驟 2：設定遊戲樣式
@@ -135,7 +135,7 @@ hide: []
     
         > **上傳容量限制**：單一遊戲內所有上傳圖片（樣式圖、獎項圖）總空間不得超過 **10MB**。
 
-![](../../assets/images/EC-後台-行銷活動-互動遊戲-設定樣式01.png)
+![](../../../assets/images/EC-後台-行銷活動-互動遊戲-設定樣式01.png)
 
 ### 步驟 3：管理獎項內容
 
@@ -149,7 +149,7 @@ hide: []
     - **機率設定**：所有獎項（包含未中獎）的機率總和 **必須精確等於100%**。
     - **視覺建議**：獎項名稱建議在 **10 個中英文字元** 內，避免轉盤文字因過長而被自動縮小影響美觀。
 
-![](../../assets/images/EC-後台-行銷活動-互動遊戲-設定獎項01.png)
+![](../../../assets/images/EC-後台-行銷活動-互動遊戲-設定獎項01.png)
 
 
 ### 步驟 4：預覽與發布設定
@@ -175,7 +175,7 @@ hide: []
 2. 在語系選單中，切換至欲編輯的語系（例如：繁體中文、英文）。  
 3. 展開欲編輯的加購群組，然後直接點擊群組名稱欄位進行修改，完成後按 ++enter++ 儲存變更。  
 
-![](../../assets/images/EC-後台-行銷活動-互動遊戲-設定多國01.png)
+![](../../../assets/images/EC-後台-行銷活動-互動遊戲-設定多國01.png)
 
 
 ## 常見問題

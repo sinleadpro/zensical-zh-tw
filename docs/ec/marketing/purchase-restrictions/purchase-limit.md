@@ -40,7 +40,7 @@ features:
   - 最低購買數量
 prerequisites: []
 related:
-  - "[[setup-product-upsell]]"
+  - "[[upsells/setup-product-upsell]]"
 tags:
   - EC
   - 行銷活動
@@ -60,7 +60,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6451
   - https://www.cyberbiz.io/support/?p=3354
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/marketing/purchase-restrictions/purchase-limit
 comments: false
 search:
   exclude: false
@@ -68,7 +68,7 @@ icon: lucide/package-minus
 hide: []
 ---
 
-![商品限購數量設定](../../assets/images/ec-行銷活動-商品限購數量-hero.png){ .hero-page }
+![商品限購數量設定](../../../assets/images/ec-行銷活動-商品限購數量-hero.png){ .hero-page }
 
 ## 商品限購數量說明
 
@@ -109,12 +109,12 @@ hide: []
 3. **確認加入：** 系統會跳出 **「加入群組」** 視窗，點擊 **「確認加入」** 即可[^1]。
 4. **移出商品：** 若要將商品移出群組，可於商品搜尋清單再次點擊 **「移出」**，或在群組商品列表中點擊該商品的移除圖示。
 
-![新增限購群組](../../assets/images/ec-行銷活動-商品限購數量-新增群組.png)
+![新增限購群組](../../../assets/images/ec-行銷活動-商品限購數量-新增群組.png)
 
 ??? tip "善用篩選快速找到要加入的商品"
       在加入商品的搜尋視窗中，可先用上方的關鍵字欄位(以 **名稱** 或 **SKU** 搜尋)，或點擊 **「篩選選項」** 依 **商品自訂分類** 、 **商品條件分類** 、 **商品標籤** 、 **廠商** 、**類型** 、 **商品公開狀態** 等條件縮小範圍，再批次勾選後一次加入群組。需要重設條件時，點擊 **「清除選項」** 即可。
 
-      ![篩選商品](../../assets/images/ec-行銷活動-商品限購數量-篩選商品.png)
+      ![篩選商品](../../../assets/images/ec-行銷活動-商品限購數量-篩選商品.png)
 
 [^1]: 每個商品僅能屬於一個限購群組。若加入的商品原本已在其他群組中，確認後會自動從原群組移至目前群組。
 
@@ -129,7 +129,7 @@ hide: []
 3. **最高購買數量：** 輸入允許購買的數量上限。留空代表 **無限制**[^2]。
 4. **最低購買數量：** 設定單筆訂單該商品至少要購買的數量。此欄位僅在頻率為 **「每筆」** 且計算規則為 **「以個別商品計算」** 時可填寫，並需開通對應方案能力。
 
-![設定限購條件](../../assets/images/ec-行銷活動-商品限購數量-設定限購條件.png)
+![設定限購條件](../../../assets/images/ec-行銷活動-商品限購數量-設定限購條件.png)
 
 [^2]: 後台欄位提示為「最高購買數量為空，則代表無限制」。
 
@@ -140,30 +140,30 @@ hide: []
 1. **編輯群組：** 點擊群組列表中的 **「群組名稱」** 展開設定，可調整名稱、限購條件與群組內商品的 **「批次調序」** 。
 2. **公開或隱藏：** 點擊 :lucide-eye: 切換群組的公開狀態。狀態顯示為「目前此群組為公開狀態」或「目前此群組為隱藏狀態」[^3]。
 
-    ![設定公開狀態](../../assets/images/ec-行銷活動-商品限購數量-設定群組公開狀態.png)
+    ![設定公開狀態](../../../assets/images/ec-行銷活動-商品限購數量-設定群組公開狀態.png)
 
 3. **刪除群組：** 點擊 **:lucide-x:「刪除此群組」** ，系統跳出「確定要刪除群組」確認後即刪除。
 
-    ![刪除群組](../../assets/images/ec-行銷活動-商品限購數量-刪除群組.png)
+    ![刪除群組](../../../assets/images/ec-行銷活動-商品限購數量-刪除群組.png)
 
 4. **群組排序：** 透過頁面的排序選單，依群組名稱或建立日期排列後台群組清單。
 
-    ![排序群組](../../assets/images/ec-行銷活動-商品限購數量-排序群組.png)
+    ![排序群組](../../../assets/images/ec-行銷活動-商品限購數量-排序群組.png)
 
 [^3]: 群組被隱藏或刪除後，其限購規則會立即失效。若日後將同一商品加入新的群組，則改套用新群組的規則。
 
 ## 前台顯示 <small>顧客端畫面</small>
 
 只要開通限購功能，顧客在結帳送出訂單時，系統就會依群組規則把關：購買數量超過上限、或帳號狀態不符（如未登入、未啟用、已停用）時，結帳會被擋下並顯示對應提示，例如「這些商品：『……
-  』最多只能購買 N 個……」。帳號狀態的判定詳見 [帳號狀態與購買權限對照表](references/purchase-limit-account-status.md){ title="帳號狀態與購買權限對照表" } 。此把關適用於所有限購頻率（永久、每月、每年、每筆）。
+  』最多只能購買 N 個……」。帳號狀態的判定詳見 [帳號狀態與購買權限對照表](../references/purchase-limit-account-status.md){ title="帳號狀態與購買權限對照表" } 。此把關適用於所有限購頻率（永久、每月、每年、每筆）。
 
 <div class="grid cards" markdown>
 
--   ![超過數量提示](../../assets/images/ec-行銷活動-商品限購數量-前台-超過數量.png){ title="超過數量提示" }
+-   ![超過數量提示](../../../assets/images/ec-行銷活動-商品限購數量-前台-超過數量.png){ title="超過數量提示" }
 
     __超過數量提示__
 
--   ![未登入提示](../../assets/images/ec-行銷活動-商品限購數量-前台-非會員.png){ title="未登入提示" }
+-   ![未登入提示](../../../assets/images/ec-行銷活動-商品限購數量-前台-非會員.png){ title="未登入提示" }
 
     __未登入提示__
 
@@ -192,7 +192,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-circle-plus:{ .lg }  
-  [__設定商品加價購__](setup-product-upsell.md)  
+  [__設定商品加價購__](../upsells/setup-product-upsell.md)  
   除了限制購買數量，也可設定加價購活動，在結帳頁推薦顧客加購相關商品，提高客單價。
 
 </div>
@@ -232,6 +232,6 @@ hide: []
 
 ## 參考資料 { #reference-purchase-limit }
 
-- [帳號狀態與購買權限對照表](references/purchase-limit-account-status.md){ title="帳號狀態與購買權限對照表" }
+- [帳號狀態與購買權限對照表](../references/purchase-limit-account-status.md){ title="帳號狀態與購買權限對照表" }
 
 

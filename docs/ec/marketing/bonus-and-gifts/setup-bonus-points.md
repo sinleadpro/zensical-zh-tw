@@ -61,7 +61,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3812
   - https://www.cyberbiz.io/support/?p=42367
   - https://www.cyberbiz.io/support/?p=6103
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/setup-bonus-points
 comments: false
 search:
   exclude: false
@@ -97,7 +97,7 @@ hide: []
 3. 設定核心參數：
     - **紅利折抵換算**：設定 `X 點 = NT$ 1`（預設為 1:1）。
     - **最低消費門檻**：訂單需滿多少元才可使用紅利。
-    - **其他通路有效訂單套用消費紅利發送**：當手動替會員新增 [其他通路有效訂單](../members/manage-member-profiles.md#2-其他通路訂單) 時是否同步發送紅利。**(企業版專用)**
+    - **其他通路有效訂單套用消費紅利發送**：當手動替會員新增 [其他通路有效訂單](../../members/manage-member-profiles.md#2-其他通路訂單) 時是否同步發送紅利。**(企業版專用)**
     - **單筆訂單折抵上限**：可設定固定金額或訂單金額的百分比。**(PLUS、企業版專用)**
     - **每一筆紅利的有效期限**：設定點數有效天數（0 代表永不失效）。
     > 此期限設定亦會同步套用於「註冊禮發送的紅利」。
@@ -213,7 +213,7 @@ hide: []
 若訂單已結案才進行退貨，購物所獲得的紅利點數 **不會自動從會員帳戶中扣除**。
 
 !!! tip "建議操作"
-    - 商家需前往會員個人頁面 [手動刪除該筆紅利](../members/manage-member-profiles.md#1-紅利點數派發與管理)。
+    - 商家需前往會員個人頁面 [手動刪除該筆紅利](../../members/manage-member-profiles.md#1-紅利點數派發與管理)。
     - 建議等訂單過退換貨期間，確定已無退貨需求後，再按下 **結案訂單**，以確保紅利發放的準確性。
 
 
@@ -272,7 +272,7 @@ hide: []
 
 #### 報表匯出欄位
 
-可於 [匯出訂單報表](../orders/reports/export-order-report.md)時，將同步呈現紅利折抵與金額換算之詳細欄位：
+可於 [匯出訂單報表](../../orders/reports/export-order-report.md)時，將同步呈現紅利折抵與金額換算之詳細欄位：
 
 - **紅利折抵**：單位為紅利點數。
 - **商品紅利折扣總金額**：紅利點數經匯率換算後之實際折抵金額。
@@ -301,7 +301,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-bell-ring:{ .lg }
-  [__設定紅利點數到期通知__](coupon-and-bonus-points-expiry-notification.md)
+  [__設定紅利點數到期通知__](../purchase-restrictions/coupon-and-bonus-points-expiry-notification.md)
   設定紅利點數到期提醒，引導顧客在點數失效前回到官網進行折抵消費。
 
 </div>

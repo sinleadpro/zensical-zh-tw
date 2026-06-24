@@ -2,7 +2,7 @@
 title: 設定商品多層級分類滿額折扣
 description: 設定針對商品多層級分類的滿額折扣活動，當訂單符合條件時，對該分類內每件商品獨立套用折扣。
 created: 2024-05-23 00:00
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-24 14:01
 lang: zh-TW
 type: tutorial
 status:
@@ -25,8 +25,8 @@ difficulty: intermediate
 tnb: branch
 plans:
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -36,7 +36,7 @@ features:
   - 商品多層級分類滿額折扣
   - 商品多層級分類
 prerequisites:
-  - 設定商品多層級分類
+  - "[[multi-level-category-setup]]"
 related: []
 tags:
   - 行銷活動
@@ -57,28 +57,19 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9212
   - https://www.cyberbiz.io/support/?p=43281
-permalink:
+permalink: https://help.cyberbiz.io/ec/marketing/discounts/multi-level-category-discount
 comments: false
 search:
   exclude: false
-icon:
+icon: lucide/layers
 hide: []
 ---
 
-# 設定商品多層級分類滿額折扣
-
-設定針對商品多層級分類的滿額折扣活動，當訂單符合條件時，對該分類內每件商品獨立套用折扣。
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 專業PLUS / 進階 PLUS / 高手 PLUS / 企業
-
-![](../../assets/images/ec-marketing-product-multi-level-full-discount-hero.zh-tw.png){ .hero-page }
-
+![商品多層級分類滿額折扣](../../../assets/images/ec-marketing-product-multi-level-full-discount-hero.zh-tw.png){ title="商品多層級分類滿額折扣" .hero-page }
 
 ## 商品多層級分類滿額折扣說明
 
-商品多層級分類滿額折扣是一種 **依商品分類層級套用的行銷活動**。  
-商家可將多層級分類中的 **大分類或中分類** 綁定折扣條件，當訂單中符合指定分類的商品金額達到門檻時，系統會對該分類內的 **每件商品分別套用折扣**。
+商品多層級分類滿額折扣是一種 **依商品分類層級套用的行銷活動**。商家可將多層級分類中的 **大分類或中分類** 綁定折扣條件，當訂單中符合指定分類的商品金額達到門檻時，系統會對該分類內的 **每件商品分別套用折扣**。
 !!! note "分類層級說明"
 
 	- **大分類**：商品多層級分類中的最上層結構，用於概括整理商品方向。
@@ -88,7 +79,9 @@ hide: []
 
 ### 前置條件
 
-請先完成 **商品多層級分類設定**，再建立多層級分類滿額折扣活動。瞭解 [如何設定商品多層級分類](設定商品多層級分類.md)。
+- [x] 請先完成 **商品多層級分類設定**，再建立多層級分類滿額折扣活動。瞭解 [如何設定商品多層級分類](../../products/categories-and-tags/multi-level-category-setup.md)。
+
+---
 
 ### 使用須知
 
@@ -96,51 +89,51 @@ hide: []
 - 同時將 **大分類** 與其底下的 **中分類/小分類** 加入同一活動時，優惠 **僅計算一次**，不會重複套用。
 - 折扣計算方式為：**每件商品折扣 × 符合條件商品數量**，而非僅對整筆訂單折扣一次。
 
+---
+
 ### 折扣計算範例
 
 - 活動設定：指定分類商品 **滿 1,000 元，每件商品折 30 元**
 - 訂單中符合條件商品數量：3 件  
 - 計算方式：`30 × 3 = 90 元`
 
-> :lucide-info: 折扣會套用至每件符合條件的商品。
+!!! info "折扣會套用至每件符合條件的商品。"
 
-## 建立商品多層級分類滿額折扣
+## 操作步驟
 
-### 步驟 1：新增分類活動
+### 新增分類活動
 
 1. 登入 CYBERBIZ 管理後台，前往 **行銷活動 > 商品多層級分類滿額折扣**。
 2. 點擊 **新增分類活動**，輸入活動名稱。 
 
-### 步驟 2：選擇分類加入活動
+---
+
+### 選擇分類加入活動
 
 1. 勾選選擇欲套用折扣的 **大類別或中類別**。 
 2. 點擊 **將分類加入活動**，將分類加入折扣活動。
 3. 已加入活動的分類將顯示於 **已選取的分類商品** 列表中，可點擊 :lucide-x: 移除不需要的分類。
 
-![](../../assets/images/ec-product-multi-level-full-discount-select-categories.zh-tw.gif)
+![選擇分類加入活動](../../../assets/images/ec-product-multi-level-full-discount-select-categories.zh-tw.gif){ title="選擇分類加入活動" }
 
-### 步驟 3：設定活動內容與時間
+---
+
+### 設定活動內容與時間
 
 前往 **活動設定** 頁籤，設定以下項目：
 
-- **分類活動啟用**：選擇是否啟用活動。
-    
-    > :lucide-triangle-alert: 若未啟用，顧客結帳時不會套用折扣。
-    
+- **分類活動啟用**：選擇是否啟用活動。**若未啟用，顧客結帳時不會套用折扣**。
 - **活動標題**：輸入活動名稱，方便辨識。
-- **折扣種類**：可選擇 **金額折扣** 或 **百分比折扣**。
-    
-    > :lucide-info: 折扣套用至 **每件符合條件的商品**。
-    
+- **折扣種類**：可選擇 **金額折扣** 或 **百分比折扣**。折扣套用至 **每件符合條件的商品**。
 - **活動最低消費金額**：訂單需達到門檻才會套用折扣。
 - **活動優惠排序**：數值越大，優先套用折扣。
 - **活動開始/結束時間**：設定活動期間，活動結束後折扣自動失效。
 
-### 步驟 4：顧客前台顯示
+### 顧客前台顯示
 
 活動生效後，顧客於前台結帳時，將看到符合條件商品的折扣資訊。
 
-![](../../assets/images/ec-multi-level-product-full-discount-frontend.zh-tw.png)
+![前台折扣顯示](../../../assets/images/ec-multi-level-product-full-discount-frontend.zh-tw.png){ title="前台折扣顯示" }
 
 ## 常見問題
 

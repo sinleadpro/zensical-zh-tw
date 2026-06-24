@@ -2,12 +2,13 @@
 title: 設定商品排除指定優惠
 description: 設定特定商品無法參與「全館活動」、「優惠券」、「商品多層級分類滿額折扣」及「VIP 優惠」等行銷活動。
 created: 2026-01-13 00:00
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-24 13:46
 lang: zh-TW
+permalink: https://help.cyberbiz.io/ec/marketing/purchase-restrictions/exclude-products-from-promotions
 type: tutorial
 status:
 version:
-author:
+author: Jase
 reviewers: []
 notes:
   - verify FAQ
@@ -31,6 +32,9 @@ plans:
   - 高手 PLUS
   - 企業
 cyb_extensions: []
+feature_badges:
+  - EC
+  - POS
 intents:
   - 如何設定商品排除指定優惠
   - 商品排除優惠設定
@@ -55,35 +59,27 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8058
   - https://www.cyberbiz.io/support/?p=3623
-permalink:
 comments: false
 search:
   exclude: false
-icon:
+icon: lucide/ban
 hide: []
 ---
 
-# 設定商品排除指定優惠
-
-設定特定商品無法參與「全館活動」、「優惠券」、「商品多層級分類滿額折扣」及「VIP 優惠」等行銷活動。
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 專業PLUS / 進階 PLUS / 高手 PLUS / 企業   
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品){ title="圖示慣例" } | EC / POS
-{ .doc-badge }
-
-![](../../assets/images/ec-marketing-product-not-applicable-to-select-promotion.zh-tw.png){ .hero-page }
+![商品排除指定優惠](../../../assets/images/ec-marketing-product-not-applicable-to-select-promotion.zh-tw.png){ title="商品排除指定優惠" .hero-page }
 
 ## 商品排除指定優惠說明
 
 將商品排除於特定行銷活動，避免重複折扣或影響利潤。此功能可針對全館折扣、優惠券、多層級分類滿額折扣及 VIP 優惠進行精準排除。
 
-**適用情境**
+!!! example "適用情境"
 
-- **避免重複優惠**：排除已有專屬促銷或折扣商品的其他全館性優惠，維持利潤。
-- **特殊商品管理**：限制高單價、限量或特殊商品參與一般行銷活動，保護品牌價值與商品獨特性。
-- **精準行銷策略**：依商品屬性或銷售目標調整排除範圍，優化行銷資源分配。
-- **POS 獨賣商品適用**：確保門市專屬商品不受線上優惠影響。
+    - **避免重複優惠**：排除已有專屬促銷或折扣商品的其他全館性優惠，維持利潤。
+    - **特殊商品管理**：限制高單價、限量或特殊商品參與一般行銷活動，保護品牌價值與商品獨特性。
+    - **精準行銷策略**：依商品屬性或銷售目標調整排除範圍，優化行銷資源分配。
+    - **POS 獨賣商品適用**：確保門市專屬商品不受線上優惠影響。
+
+---
 
 ### 可排除的行銷活動類型
 
@@ -105,40 +101,42 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-tag:{ .lg }   
-  [__全館折扣活動__](設定全館折扣.md)  
+  [__全館折扣活動__](../設定全館折扣.md)  
   將商品排除於「全館折扣 - 紅利 & 優惠券」設定的全館折扣與疊加優惠。
 
 - :lucide-percent:{ .lg }     
-  [__優惠碼 / 優惠券__](設定優惠碼.md){ title="設定優惠碼" }  
+  [__優惠碼 / 優惠券__](../設定優惠碼.md){ title="設定優惠碼" }  
   將商品排除於優惠碼與優惠券活動，包括首購禮、互動遊戲與指定商品送優惠券。
 
 - :lucide-clock:{ .lg }   
-  [__期間限定首購禮__](設定首購禮.md)  
+  [__期間限定首購禮__](../設定首購禮.md)  
   將商品排除於期間限定首購禮活動。
 
 - :lucide-gamepad:{ .lg }   
-  [__互動遊戲__](設定互動遊戲.md)  
+  [__互動遊戲__](../設定互動遊戲.md)  
   將商品排除於互動遊戲活動發送的優惠券。
 
 - :lucide-list-check:{ .lg }   
-  [__商品多層級分類滿額折扣__](設定商品多層級分類滿額折扣.md){ title="設定商品多層級分類滿額折扣" }  
+  [__商品多層級分類滿額折扣__](../discounts/multi-level-category-discount.md){ title="設定商品多層級分類滿額折扣" }  
   將商品排除於多層級分類滿額折扣活動。
 
 - :lucide-crown:{ .lg }   
-  [__VIP 優惠__](設定 VIP 優惠.md)  
+  [__VIP 優惠__](../設定 VIP 優惠.md)  
   將商品排除於會員專屬折扣優惠。
 
 </div>
 
 -->
 
+---
+
 ### 排除效果
 
 當商品被設定排除指定優惠後，在前台結帳頁面，系統將會根據設定給予提醒顯示，確保該商品不參與被排除的行銷活動。
 
-![](../../assets/images/ec-product-not-applicable-to-select-promotion-frontend.zh-tw.png)
+![前台排除優惠顯示](../../../assets/images/ec-product-not-applicable-to-select-promotion-frontend.zh-tw.png){ title="前台排除優惠顯示" }
 
-## 設定商品排除指定優惠群組
+## 操作步驟
 
 您可以透過以下步驟，將商品排除特定行銷活動：
 
@@ -151,7 +149,7 @@ hide: []
         
 4. 新增商品後，可為各商品設定群組中的排程時間（開始／結束日期）。
 
-![](../../assets/images/ec-marketing-product-not-applicable-to-select-promotion-setting.zh-tw.png)
+![商品排除優惠設定](../../../assets/images/ec-marketing-product-not-applicable-to-select-promotion-setting.zh-tw.png){ title="商品排除優惠設定" }
 
 ## 常見問題
 

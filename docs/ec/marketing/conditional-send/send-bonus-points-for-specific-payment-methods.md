@@ -45,7 +45,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3470
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/marketing/conditional-send/send-bonus-points-for-specific-payment-methods
 comments: false
 search:
   exclude: false
@@ -57,10 +57,10 @@ hide: []
 建立「指定金流送紅利」群組，針對特定付款方式設定贈送紅利點數，引導顧客選擇低成本 or 預付型金流。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 企業
 { .doc-badge }
 
-![](../../assets/images/EC-後台-行銷活動-指定金流送紅利-畫面總覽01.png){ .hero-page }
+![](../../../assets/images/EC-後台-行銷活動-指定金流送紅利-畫面總覽01.png){ .hero-page }
 
 ## 指定金流送紅利說明
 

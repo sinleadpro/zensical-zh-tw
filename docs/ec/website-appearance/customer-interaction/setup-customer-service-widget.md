@@ -2,7 +2,7 @@
 title: 設置網站客服視窗
 description: 透過 GetButton、Facebook 即時客服或 Omnichat 在官網設置客服視窗，提升品牌與顧客溝通效率。
 created: 2025-03-03 10:00
-last_modified: 2026-06-08 17:15
+last_modified: 2026-06-24 17:39
 lang: zh-TW
 type: tutorial
 status: ""
@@ -46,7 +46,7 @@ related: []
 tags:
   - 客服視窗
   - GetButton
-  - Facebook_Messenger
+  - Facebook Messenger
   - Omnichat
 acoiv: ""
 apis: []
@@ -70,9 +70,7 @@ icon: lucide/messages-square
 hide:
 ---
 
-
-![](../../../assets/images/ec-網站外觀-樣板編輯器-theme-liquid.png){ .hero-page }
-
+![客服視窗設定](../../../assets/images/ec-網站外觀-樣板編輯器-theme-liquid.png){ title="客服視窗設定" .hero-page }
 
 ## 客服視窗說明
 
@@ -87,13 +85,11 @@ GetButton 是一款能同時整合 Messenger、LINE 等多種通訊軟體的第�
 1. **建立 GetButton 程式碼：**
     
     - 搜尋並進入 GetButton 網頁，點擊 **「Get Your Button」**。
-    - **選擇通訊管道：** 選擇 Messenger 或 LINE。輸入 FB 粉絲專頁網址（取得 Page ID）或將從 [LINE OA 管理後台複製的好友連結](../../integrations/line/LINE 官方帳號增加好友指南.md#前置準備取得加入好友連結){ data-preview }  貼入對應欄位。
+    - **選擇通訊管道：** 選擇 Messenger 或 LINE。輸入 FB 粉絲專頁網址（取得 Page ID）或將從 [LINE OA 管理後台複製的好友連結](../../integrations/line/marketing/add-line-friend-entry-storefront.md){ title="在官網新增 LINE 加入好友入口" }  貼入對應欄位。
     - **設定 Chatbot 外觀：** 可自訂視窗顏色、位置（置左或置右）以及 **Call to action**（引導文字）。
     - **取得程式碼：** 完成設定後，複製系統產生的整段 **GetButton Code**。
     - 完整設定流程，請參閱 [GetButton 官方教學影片 :lucide-external-link:](https://youtu.be/dBY17EJkgWM)。
 
-	!!! tip "若需更直觀的操作示範，請觀看 [GetButton 官方教學影片 :lucide-external-link:](https://youtu.be/dBY17EJkgWM)。"
-	
 2. **串接至 CYBERBIZ 後台：**
     
     - **後台路徑：** 前往 **網站外觀 > 套版主題管理**。
@@ -117,14 +113,14 @@ GetButton 是一款能同時整合 Messenger、LINE 等多種通訊軟體的第�
 	</html>
 	```
 	
-## 臉書即時客服 (FBE 2.0)
+## 臉書即時客服 <small>FBE 2.0</small>
 
 針對使用 **進階版以上** 的商家，可以直接透過 Facebook 商業擴充套件開啟即時客服功能。
 
 - **功能開關：** 商家可在後台執行 FBE 2.0 串接流程，並在設定中找到「臉書即時客服」開關進行啟閉。
 - **優點：** 系統會自動將 Facebook 帳號與 CYBERBIZ 顧客列表關聯，方便篩選透過 FB 登入的會員。
 
-## 進階第三方客服整合 (Omnichat)
+## 進階第三方客服整合 <small>Omnichat</small>
 
 若商家有更高階的多通路整合需求，CYBERBIZ 也支援安裝 **Omnichat 客服應用**。
 
@@ -148,7 +144,7 @@ GetButton 是一款能同時整合 Messenger、LINE 等多種通訊軟體的第�
 
 ??? quote "我可以自訂客服按鈕的顯示時間或特定頁面嗎？" 
 	- **GetButton 免費版：** 通常為全站顯示，無法設定特定頁面或時間。 
-	- **Omnichat：** 支援進階的顯示規則設定（例如：僅在商品頁顯示、或顧客停留 30 秒後才彈出），建議有此需求的商家優先考慮 [Omnichat 方案](../integrations/omnichat/Omnichat 串接指南.md)。
+	- **Omnichat：** 支援進階的顯示規則設定（例如：僅在商品頁顯示、或顧客停留 30 秒後才彈出），建議有此需求的商家優先考慮 Omnichat 方案。
 
 ??? quote "如果我發現客服按鈕遮擋了官網原有的「回到頂部」按鈕怎麼辦？" 
 	您可以透過 GetButton 的設定頁面調整 **Position**（位置）： * 嘗試將位置從 `Right` 改為 `Left`。 * 或是在設定中的 `Pro` 選項（需付費）調整垂直/水平間距（Offsets），以避開官網原有的排版元件。

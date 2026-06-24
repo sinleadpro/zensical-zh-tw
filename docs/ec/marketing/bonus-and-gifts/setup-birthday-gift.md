@@ -57,7 +57,7 @@ layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=8752
   - https://www.cyberbiz.io/support/?p=1461
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/setup-birthday-gift
 comments: false
 search:
   exclude: false
@@ -69,7 +69,7 @@ hide: []
 設定會員生日禮，包含紅利點數與優惠券的發送規則、自動排程邏輯及提前發送設定。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 所有 PLUS / 企業
 { .doc-badge }
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-生日禮01.png){ .hero-page }
@@ -118,7 +118,7 @@ hide: []
 ### 特殊情境
 
 - **生日當月註冊**：新會員若在生日當月註冊，完成後系統將立即發送生日禮。
-- **VIP 生日禮**：若您在 **會員 > VIP 設定** 中另外設定了 [VIP 生日禮](../members/vip/setup-exclusive-vip-discounts.md)，系統將會同時發送一般生日禮與 VIP 生日禮。
+- **VIP 生日禮**：若您在 **會員 > VIP 設定** 中另外設定了 [VIP 生日禮](../../members/vip/setup-exclusive-vip-discounts.md)，系統將會同時發送一般生日禮與 VIP 生日禮。
 - **批次匯入會員**：匯入時可透過「贈送生日禮」欄位決定是否發送當月生日禮給該批新會員。
 
 
