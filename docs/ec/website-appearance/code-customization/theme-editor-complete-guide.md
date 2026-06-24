@@ -1,9 +1,8 @@
 ---
-
 title: 樣板編輯器操作全攻略
 description: 樣版編輯器的操作說明、常見特殊語法應用及重要注意事項。
 created: 2026-03-05 20:55
-last_modified: 2026-06-08 17:15
+last_modified: 2026-06-24 18:08
 lang: zh-TW
 permalink: ""
 type: guide
@@ -87,9 +86,7 @@ icon: lucide/code
 hide:
 ---
 
-
-
-![](../../../assets/images/ec-網站外觀-樣板編輯器.png){ .hero-page }
+![樣板編輯器操作全攻略](../../../assets/images/ec-網站外觀-樣板編輯器.png){ title="樣板編輯器操作全攻略" .hero-page }
 
 ## 樣版編輯器說明
 
@@ -104,7 +101,7 @@ hide:
 3. **恢復機制**：編輯器內建 **查看之前版本** 功能，可回溯至先前版 本。
     - 建議每次大規模更動前先記錄當下的時間點以便日後對照。
 
-![](../../../assets/images/ec-網站外觀-樣板編輯器操作.gif)
+![樣板編輯器操作示範](../../../assets/images/ec-網站外觀-樣板編輯器操作.gif){ title="樣板編輯器操作示範" }
 
 ## 通用與首頁特殊語法應用
 
@@ -114,35 +111,35 @@ hide:
 
 - :lucide-shield-check:{ .lg }   
   [__網頁鎖右鍵功能__](../site-settings/setup-right-click-protection.md){ title="設定網頁鎖右鍵保護圖文版權" }       
-  於 `<body>` 標籤植入 `onContextMenu` 語法，停用滑鼠右鍵選單以降低圖文內容被未經授權複製的風險。
+  植入 `onContextMenu` 語法，停用滑鼠右鍵以保護圖文內容。
 
 - :lucide-search:{ .lg }     
   [__網站標題修改__](../site-settings/setup-site-title-seo.md){ title="設定網站標題與 SEO" }    
-  透過修改 `{{ page_title }}` 邏輯，移除冗餘的預設歡迎詞，精準定義品牌在搜尋引擎結果頁（SERP）的呈現資訊。
+  修改 `{{ page_title }}` 邏輯，精準定義 SERP 呈現資訊。
 
 - :lucide-timer:{ .lg }  
   [__首頁輪播圖轉場速度__](../theme-and-layout/adjust-carousel-transition-duration.md){ title="調整首頁跑馬燈（輪播圖）的轉場停留時間" }    
-  於 `_main_slider.liquid` 修改 `delay` 數值，以毫秒為單位自訂首頁橫幅（Banner）的自動轉場速度。
+  於 `_main_slider.liquid` 修改 `delay` 數值，自訂輪播圖轉場速度。
 
 - :lucide-mouse-pointer-2:{ .lg }  
   [__選單自動下拉__](../navigation/setup-nav-menu-hover-expand.md){ title="設定導覽選單滑鼠移入自動展開" }     
-  在 `main_nav.liquid` 嵌入 CSS 懸停（Hover）觸發邏輯，實現滑鼠移入時自動下拉展開次級選單，提升用戶導航效率。
+  在 `main_nav.liquid` 嵌入 CSS，滑鼠移入自動展開次級選單。
 
 - :lucide-filter-x:{ .lg }  
   [__搜尋排除特定關鍵字__](../../products/discoverability/exclude-keyword-products-search.md){ title="設定搜尋結果中排除特定關鍵字商品" }    
-  利用 Liquid `without` 過濾器，從搜尋索引中排除特定標籤或關鍵字商品（如加價購、隱藏賣場），優化前台搜尋精準度。
+  利用 Liquid `without` 過濾器，排除特定關鍵字商品。
 
 - :lucide-globe:{ .lg }  
   [__前台語系與文字呈現__](../site-settings/setup-storefront-language-text-customization.md){ title="設定前台語系與文字自定義" }  
-  自定義全站顯示文字與多國語系字典檔 (i18n)，調整按鈕名稱與系統預設語法。
+  自訂全站顯示文字與多國語系字典檔 (i18n)。
 
 - :lucide-message-square:{ .lg }  
   [__多元客服管道串接__](../customer-interaction/setup-customer-service-widget.md){ title="設置網站客服視窗" }  
-  在 `theme.liquid` </body> 前埋設 GetButton 代碼，或啟動 FBE 2.0，即刻建立官網即時通訊入口。
+  埋設 GetButton 代碼或啟動 FBE 2.0，建立即時通訊入口。
 
 - :lucide-map-pin:{ .lg }  
   [__客服中心資訊調整__](../customer-interaction/setup-edit-customer-service-info.md){ title="設定與修改客服中心資訊" }  
-  在 `contact.liquid` 修改標題文字，並透過「網站設定」同步更新地址、電話與 Google Map 嵌入碼。
+  在 `contact.liquid` 修改標題文字，同步更新地址、電話與地圖嵌入碼。
 
 </div>
 
@@ -155,27 +152,28 @@ hide:
 
 - :lucide-image-off:{ .lg }  
   [__鎖定圖片放大功能__](../theme-and-layout/disable-product-image-zoom.md){ title="關閉商品圖片放大預覽功能" }    
-  針對低解析度素材，可於 `product.liquid` 透過註解化相關 JavaScript 腳本，關閉滑鼠懸停放大功能，避免畫面失真。
+  於 `product.liquid` 註解化 JS 腳本，關閉圖片放大功能。
     
 - :lucide-play-circle:{ .lg }  
-  [__影片自動播放設定__](../../marketing/one-page-store-youtube-autoplay.md){ title="設定一頁式商店 YouTube 影片自動播放與起始秒數" }     
-  在 YouTube 嵌入來源中配置 `autoplay` 與 `mute` 參數，確保商品影片在頁面載入時自動靜音播放。
+  [__影片自動播放設定__](../../marketing/one-page-store/one-page-store-youtube-autoplay.md){ title="設定一頁式商店 YouTube 影片自動播放與起始秒數" }     
+  配置 YouTube `autoplay` 與 `mute` 參數，實現自動靜音播放。
     
 - :lucide-type:{ .lg }  
   [__商品標語與簡述樣式__](../../products/create-and-manage/編輯商品簡述與商品標語.md){ title="編輯商品簡述與商品標語" }     
-  透過 `theme_main.css` 定義專屬類別（Class），針對商品標語或規格描述進行排版客製，強化視覺層次感。
+  透過 `theme_main.css` 定義專屬類別，客製標語與簡述排版。
     
 - :lucide-shuffle:{ .lg }   
   [__優先填寫收件人__](../checkout-and-shopping-flow/priority-recipient-info-checkout.md){ title="修改結帳流程為優先填寫收件人資訊" }       
-  於 `js/main.js` 啟用`exchangeShippingAndPurchaserLocation` 配置，使收件人欄位優先於購買人出現，符合跨境物流填寫習慣。
+  於 `js/main.js` 啟用 `exchangeShippingAndPurchaserLocation`，收件人欄位優先顯示。
 
 - :lucide-component:{ .lg }     
   [__訂單成立/付款完成頁客製化__](../../integrations/line/marketing/line-friend-link-order-payment-pages.md){ title="設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結" }    
-  利用 `order_done_extra_content.liquid` 權限，在訂單完成頁動態插入 LINE 群組連結或異業合作廣告。
+  利用 `order_done_extra_content.liquid` 在訂單完成頁插入 LINE 連結或廣告。
 
-- :lucide-variable:{ .lg }  
-  [__隱藏「店長改價」字樣__](../../pos/orders/customize-manager-price-override-display.md){ data-preview }    
-  在 `customers/order.liquid` 使用 Liquid 條件判斷式，將系統內建的「店長改價」字串替換為更中性的「商品改價」，避免引發價格爭議。
+<!-- - :lucide-variable:{ .lg }  
+  [__隱藏「店長改價」字樣__](../../pos/frontend/pos-manager-price-override.md){ title="使用「店長改價」在 POS 前台調整單品價格" }    
+  在 `customers/order.liquid` 將「店長改價」替換為「商品改價」。
+-->
 
 </div>
 
@@ -217,4 +215,4 @@ hide:
 	- 系統會條列出歷次儲存的時間點。 
 	- 點選欲還原的時間點並按下「恢復此版本」即可。 
 	
-	> :lucide-triangle-alert: 若檔案被徹底刪除（Delete File），則無法透過此功能還原，建議在刪檔前務必進行本地備份。
+	!!! warning "若檔案被徹底刪除（Delete File），則無法透過此功能還原，建議在刪檔前務必進行本地備份。"

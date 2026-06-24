@@ -1,9 +1,8 @@
 ---
-
 title: 啟用留言區 reCAPTCHA
 description: 申請並綁定 Google reCAPTCHA 金鑰，防止機器人攻擊與垃圾留言。
 created: 2026-03-05 17:15
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-24 18:00
 lang: zh-TW
 type: tutorial
 status: 
@@ -72,8 +71,7 @@ icon: lucide/shield-check
 hide: []
 ---
 
-
-![](../../../assets/images/ec-google-recaptcha.zh-tw.png){ .hero-page }
+![reCAPTCHA設定](../../../assets/images/ec-google-recaptcha.zh-tw.png){ title="reCAPTCHA設定" .hero-page }
 
 ## 什麼是 reCAPTCHA
 
@@ -94,22 +92,26 @@ reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動�
 - [x] 商品頁面評論區。
 - [x] 聯絡我們頁面。
 
+---
+
 ### 費用
-- Google reCAPTCHA 提供免費用量配額，若超出免費用量，顧客將無法進行留言。
-> 達到免費用量上限前，Google 會透過電子郵件通知商家。
+- Google reCAPTCHA 提供免費用量配額，若超出免費用量[^free-quota-notice]，顧客將無法進行留言。
 - 更多資訊，請看[配額與限制 :material-open-in-new:](https://docs.cloud.google.com/recaptcha/quotas?hl=zh-tw)
 
-## 操作流程
+[^free-quota-notice]: 達到免費用量上限前，Google 會透過電子郵件通知商家。
+
+## 操作步驟
 
 ### 申請 reCAPTCHA 金鑰
 
 1. 前往 [Google reCAPTCHA 管理控制台 :material-open-in-new:](https://www.google.com/recaptcha/admin/)，並登入您的 Google 帳號。
 2. 依序填寫註冊資訊：
 	- **標籤**：依您的需求命名此 reCAPTCHA （例如：`您的商店名稱_reCAPTCHA`）。  
-	- **reCAPTCHA 類型**：選擇「驗證問題」，並勾選「隱形 reCAPTCHA 標記」[^隱形 reCAPTCHA]。  
+	- **reCAPTCHA 類型**：選擇「驗證問題」，並勾選「隱形 reCAPTCHA 標記」[^invisible-recaptcha]。  
 	- **網域**：輸入您的官網網址。
-	> :lucide-triangle-alert: 請勿填入網址前綴 `https://` 與後綴 `/...`。  
-	> 例如：若您的官網網址為 `https://_demo1234.cyberbiz.co_ /zh-TW`，請僅填入 `_demo1234.cyberbiz.co_`。
+  
+        !!! warning "注意"
+            請勿填入網址前綴 `https://` 與後綴 `/...`。例如：若您的官網網址為 `https://_demo1234.cyberbiz.co_ /zh-TW`，請僅填入 `_demo1234.cyberbiz.co_`。
 
 	- **Google Cloud Platform**：依您的需求選擇專案。  
 
@@ -117,11 +119,11 @@ reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動�
 
 4. 複製並妥善保存 **網站金鑰** 跟 **密鑰**，後續將用於綁定步驟。
 
-![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台網站外觀-管理商品評論-設定Google-reCAPTCHA03.png){ .screenshot }
+![reCAPTCHA金鑰申請](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台網站外觀-管理商品評論-設定Google-reCAPTCHA03.png){ title="reCAPTCHA金鑰申請" .screenshot }
 
 
 ### 綁定 reCAPTCHA 金鑰至商品評論區
-[:lucide-tag:{ title="適用方案" }](conventions.md#適用方案) | PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案){ title="圖示慣例" } | PLUS / 企業
 
 !!! info "商品評論為 *企業版* 及 *PLUS版* 用戶限定功能，若有需求請洽客服人員開通，相關設定請參閱 [如何管理商品評論](../../products/engagement/manage-product-reviews.md){ title="管理商品評論" }。"
 
@@ -132,7 +134,7 @@ reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動�
 	- **reCAPTCHA secretkey**：將在申請過程中取得的 **密鑰** 填入此欄位。  
 4. 點擊 **更新** 套用變更。
 
-![](../../../assets/images/ec-product-review-google-recaptcha.zh-tw.png)
+![商品評論reCAPTCHA綁定](../../../assets/images/ec-product-review-google-recaptcha.zh-tw.png){ title="商品評論reCAPTCHA綁定" }
 
 ### 綁定 reCAPTCHA 金鑰至聯絡我們頁面
 
@@ -143,14 +145,14 @@ reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動�
 	- **secret key**：將申請過程中取得的 **密鑰** 填入此欄位。
 4. 點擊 **儲存所有設定** 套用變更。
 
-![](../../../assets/images/ec-member-feedback-google-recaptcha.zh-tw.png)
+![聯絡我們reCAPTCHA綁定](../../../assets/images/ec-member-feedback-google-recaptcha.zh-tw.png){ title="聯絡我們reCAPTCHA綁定" }
 
 ## 常見問題
 ??? quote "一組 Google reCAPTCHA 帳號可以綁定多個網域嗎？"
     是的，一組 Google reCAPTCHA 帳號可以綁定多個網域。您可以使用同一組密鑰綁定商品評論與聯絡我們頁面。
 
 ??? quote "Google reCAPTCHA 有免費用量配額嗎？"
-    Google reCAPTCHA 提供免費用量配額。當達到免費用量上限前，Google 會透過電子郵件通知商家。若超出免費用量，顧客將無法進行留言，請自行向 Google 升級方案。了解相關[費用](#費用)。
+    Google reCAPTCHA 提供免費用量配額。當達到免費用量上限前，Google 會透過電子郵件通知商家。若超出免費用量，顧客將無法進行留言，請自行向 Google 升級方案。了解相關[費用](#費用){ data-preview }。
 
 ??? quote "如果金鑰填寫錯誤會怎麼樣？"
     請確保金鑰填寫正確，否則留言功能將無法正常使用。如有錯誤訊息 (如下圖)，請檢查金鑰是否填寫無誤。
@@ -164,4 +166,4 @@ reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動�
 
 - [設定商品評論功能](#)
 
-[^隱形 reCAPTCHA]: 隱形 reCAPTCHA 可在顧客互動時自動判斷是否為機器人，通常不會打斷顧客操作，僅在系統判斷為可疑時才出現驗證題目。這能同時減少顧客操作干擾，並提升網站防護力。
+[^invisible-recaptcha]: 隱形 reCAPTCHA 可在顧客互動時自動判斷是否為機器人，通常不會打斷顧客操作，僅在系統判斷為可疑時才出現驗證題目。這能同時減少顧客操作干擾，並提升網站防護力。
