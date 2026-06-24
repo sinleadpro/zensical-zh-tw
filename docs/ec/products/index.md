@@ -102,7 +102,7 @@ VIP 價格、**搜尋可見性排除**
    以 Excel 大量建立或修改商品資料。  
 
 - :lucide-refresh-cw-off:{ .lg }   
-  [__排除商品上傳至第三方平台__](categories-and-tags/管理商品標籤.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }  
+  [__排除商品上傳至第三方平台__](categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }  
    設定商品是否同步至外部平台。 
 
 </div>
@@ -117,8 +117,7 @@ VIP 價格、**搜尋可見性排除**
   [__商品群組__](categories-and-tags/custom-collections.md){ title="設定商品自訂分類群組" }  
   設定條件或自訂分類管理商品集合。
 
-- :lucide-tag:{ .lg }   
-  [__商品標籤__](categories-and-tags/管理商品標籤.md){ title="管理商品標籤" }  
+- :lucide-tag:{ .lg }  ](categories-and-tags/manage-product-tags.md)gs/管理商品標籤.md){ title="管理商品標籤" }  
    建立與管理商品標籤，以利搜尋與分組。  
 
 - :lucide-navigation:{ .lg }   

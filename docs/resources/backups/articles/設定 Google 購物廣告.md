@@ -204,7 +204,7 @@ Google Merchant Center (GMC) 是 Google 提供的商品資料上傳與管理平�
 | 已達下架時間的商品 | 系統已設定下架時間，商品自動排除            | :material-close: |
 | 標籤排除商品    | 商品標籤設定為 `贈品` 或 `排除product feed`:lucide-asterisk:<br> :lucide-triangle-alert: *排除* 與 *product* 中間請勿添加空格 | :material-close: |
 
-!!! info "含有 `贈品` 跟 `排除product feed` 標籤的商品亦不會出現在 Google 搜尋結果中。瞭解解更多[排除標籤相關設定](管理商品標籤.md#排除上傳至第三方平台標籤)。"
+!!! info "含有 `贈品` 跟 `排除product feed` 標籤的商品亦不會出現在 Google 搜尋結果中。瞭解解更多[排除標籤相關設定](manage-product-tags.md#排除上傳至第三方平台標籤)。"
 
 ## GMC 串接 Google Ads 帳戶
 
@@ -229,4 +229,4 @@ Google Merchant Center (GMC) 是 Google 提供的商品資料上傳與管理平�
 
 ## 延伸閱讀
 
-- [排除特定商品上傳至 GMC](管理商品標籤.md#排除上傳至第三方平台標籤)
+- [](manage-product-tags.md#排除上傳至第三方平台標籤)排除上傳至第三方平台標籤)

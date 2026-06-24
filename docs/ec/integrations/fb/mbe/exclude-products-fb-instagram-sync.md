@@ -40,7 +40,7 @@ prerequisites:
   - "[[setup-fb-instagram-shop]]"
 related:
   - "[[setup-fb-instagram-shop]] "
-  - "[[管理商品標籤]]"
+  - "[[manage-product-tags]]"
 tags:
   - FBE
   - Facebook_商店
@@ -84,7 +84,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-package-x:{ .lg }   
-  [__設定商品排除標籤__](../../../products/categories-and-tags/管理商品標籤.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }     
+  [__設定商品排除標籤__](../../../products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }     
   在商品標籤輸入「排除 product feed」或「贈品」，系統自動過濾不同步的商品。
 
 </div>
