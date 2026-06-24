@@ -100,6 +100,7 @@ copyright = """
                 {"快速到店付款" = "ec/orders/tcat-quick-store/tcat-express-payment-settings.md"},
                 {"快速到店逾期" = "ec/orders/tcat-quick-store/tcat-quick-store-overdue.md"},
             ]},
+            { "定期訂購訂單" = "ec/orders/subscription-orders.md"},
             { "門市取貨訂單" = "ec/orders/store-pickup-orders.md"},
             { "CYBERBIZ NOW訂單" =[
                 { "快速到貨訂單接單準備"= "ec/orders/quick-delivery-order-preparation.md"},
@@ -109,7 +110,6 @@ copyright = """
                 { "運費計算與對帳規範"= "ec/orders/quick-delivery-shipping-fee-calculation-and-reconciliation.md"},
                 { "消費者購買流程"= "ec/orders/consumer-purchase-process.md"},
             ]},
-            { "定期定額訂單" = "ec/orders/定期定額訂單管理.md" },
             {"退貨與退款" = [
                 {"會員退貨申請功能" = "ec/orders/member-return-request-feature.md"},
                 {"訂單退貨流程" = "ec/orders/order-return-process.md"},
@@ -226,6 +226,7 @@ copyright = """
         ]},
         { "行銷活動" = [
             { "overview" = "ec/marketing/index.md" }, 
+            { "全館折扣" = "ec/marketing/storewide-discounts.md" },
             { "優惠券（碼）" = [
                 { "overview" = "ec/marketing/coupon/index.md" },
                 { "優惠券" = "ec/marketing/coupon/setup-coupons.md" },
@@ -587,6 +588,8 @@ copyright = """
         { "智能 POS" = "pos/index.md"},
         { "開始使用" = [
             { "overview" = "pos/get-started/index.md" },
+            { "建立POS商品" = "pos/get-started/create-pos-products.md" },
+            { "大量填補商品SKU" = "pos/get-started/bulk-update-product-skus.md" },
         ]},
         { "硬體安裝" = [
             { "overview" = "pos/hardware/index.md" },

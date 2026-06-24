@@ -21,7 +21,7 @@ sites:
 audiences: 
   - admin
 difficulty: beginner
-tnb: trunk
+tnb: branch
 plans: 
   - 專業
   - 進階
@@ -58,7 +58,7 @@ ui_components:
   - 自動確認帳款彈窗
 paths: 
   - 管理中心 > 對帳中心
-layouts: "classic"
+layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=4507
 permalink:

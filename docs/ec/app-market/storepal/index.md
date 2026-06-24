@@ -53,8 +53,7 @@ devices:
 ui_components: []
 paths:
   - APP MARKET > 我的擴充服務 > 門市助理
-layouts:
-  - classic
+layouts: []
 wp_url: []
 permalink: ""
 comments: false
