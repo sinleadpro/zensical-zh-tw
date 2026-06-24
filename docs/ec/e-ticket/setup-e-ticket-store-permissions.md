@@ -57,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8118
   - https://www.cyberbiz.io/support/?p=40429
-permalink:
+permalink: https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-store-permissions
 comments: false
 search:
   exclude: false

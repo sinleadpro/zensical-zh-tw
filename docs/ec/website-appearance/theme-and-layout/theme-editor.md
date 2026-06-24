@@ -433,7 +433,7 @@ comments: false
 !!! plan "功能限制"
     部分功能需特定方案方可使用，已標示於各項目標題。
 
-- **顯示商品標語：** 在商品圖／名稱下方顯示商品特色或促銷標語，同步套用於首頁商品區塊、分類頁、商品頁、任選折扣、紅配綠與搜尋頁。[查看設定教學](../../products/create-and-manage/編輯商品簡述與商品標語.md){ title="編輯商品簡述與商品標語" }
+- **顯示商品標語：** 在商品圖／名稱下方顯示商品特色或促銷標語，同步套用於首頁商品區塊、分類頁、商品頁、任選折扣、紅配綠與搜尋頁。[查看設定教學](../../products/create-and-manage/edit-product-slogan-and-description.md){ title="編輯商品簡述與商品標語" }
 - **顯示商品色票小圖 `企業版`：** 在商品群組頁與多層級分類頁顯示款式顏色小圖，讓顧客先看到可選色系。[查看設定教學](../../products/create-and-manage/product-swatches-variant-images-drag-drop.md){ title="設定商品色票與款式圖片" }
 - **顯示已銷售數量：** 在商品名稱下方顯示累計銷售數量，營造熱銷感。
 
@@ -777,7 +777,7 @@ comments: false
 
     此功能需先洽客服申請開通。開通後可設定是否需審核留言、隱藏部分姓名，並可搭配 Google reCAPTCHA 防止機器人攻擊。
 
-    - [如何管理商品評論](../products/manage-product-reviews.md){ title="管理商品評論" }
+    - [如何管理商品評論](../../products/engagement/manage-product-reviews.md){ title="管理商品評論" }
     - [如何啟用 reCAPTCHA](../customer-interaction/enable-comment-recaptcha.md){ title="啟用留言區 reCAPTCHA" }
 
     ![商品頁面-商品評論](../../../assets/images/ec-網站外觀-拖拉版型-商品頁面-商品評論.png)
@@ -1588,8 +1588,8 @@ CYBERBIZ 的 **拖拉版型** （Drag-and-Drop Layout）是一項直覺化的官
 
 	此功能需先洽客服申請開通。開通後可設定是否需審核留言、隱藏部分姓名，並可搭配 Google reCAPTCHA 防止機器人攻擊。  
 
-	- [如何管理商品評論](../products/管理商品評論)。
-	- [如何啟用 reCAPTCHA](../products/啟用留言區 reCAPTCHA)。
+	- [如何管理商品評論](../../products/engagement/manage-product-reviews.md){ title="管理商品評論" }。
+	- [如何啟用 reCAPTCHA](../customer-interaction/enable-comment-recaptcha.md){ title="啟用留言區 reCAPTCHA" }。
 	
 	![](../../../assets/images/ec-網站外觀-拖拉版型-商品頁面-商品評論.png)
 

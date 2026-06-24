@@ -51,6 +51,7 @@ search:
   exclude: ""
 icon: lucide/percent
 hide:
+permalink: https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions
 ---
 
 # 設定電子票券優惠

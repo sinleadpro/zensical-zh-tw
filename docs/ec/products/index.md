@@ -192,15 +192,15 @@ VIP 價格、**搜尋可見性排除**
 <div class="grid cards" markdown>
 
 - :lucide-compass:{ .lg }   
-  [__票券指南__](電子票券設定指南.md)  
+  [__票券指南__](e-ticket-setup-guide.md)  
   電子票券的整體設定與操作流程。
 
 - :lucide-circle-percent:{ .lg }   
-  [__票券優惠__](設定電子票券優惠.md)  
+  [__票券優惠__](setup-e-ticket-promotions.md)  
   設定與管理電子票券優惠活動。
 
 - :lucide-key:{ .lg }   
-  [__門市權限__](設定電子票券門市權限.md)  
+  [__門市權限__](setup-e-ticket-store-permissions.md)  
    門市存取及使用電子票券的權限。
 
 </div>

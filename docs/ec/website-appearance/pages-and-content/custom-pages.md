@@ -223,7 +223,7 @@ hide:
   了解新版拖拉式頁面各區塊的詳細設定與應用範例。
 
 - :lucide-globe:{ .lg }  
-  [__多國語言設定__](../../website-management/設定多國語言與多幣別.md)  
+  [__多國語言設定__](../../website-management/setup-multi-language-and-multi-currency.md) 
   開通多國語系後，可為自訂頁面填寫各語言的對應內容。
 
 - :lucide-square-code:{ .lg }  

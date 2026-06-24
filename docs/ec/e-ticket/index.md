@@ -1,10 +1,9 @@
 ---
-title: 電子票券
+title: 電子票券總覽
 toc_depth: 2
 icon: lucide/ticket
 ---
 
-# 電子票券
 
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | PLUS / 企業
 { .doc-badge }
@@ -13,6 +12,12 @@ icon: lucide/ticket
 
 **電子票券** 是一種可於線上販售、線下核銷的數位商品類型，適用於課程、活動門票、服務項目或商品兌換用途。  
 顧客完成付款後可取得核銷用 QR code，並於指定場域完成核銷，以支援線上與實體整合（OMO）的銷售與會員導流情境。
+
+!!! info "履約保障機制"
+
+    - 電子票券發行人為 **順立智慧（CYBERBIZ）**
+    - 票券實際售價（票券面額）將存入 **永豐銀行信託專戶**
+    - 該信託帳戶作為專款專用的履約保障機制
 
 ## 使用限制與費用
 
@@ -27,8 +32,10 @@ icon: lucide/ticket
 | 紅利折抵 | :lucide-x: 不支援 |
 | 全館折扣與優惠券 | :lucide-x: 不支援 |
 
-> :lucide-info: 電子票券僅支援表格中列出的行銷功能，其他優惠方式皆不支援。
-    
+!!! info "電子票券僅支援表格中列出的行銷功能，其他優惠方式皆不支援。"
+   
+---
+
 ### 相關服務費用
 
 系統會依電子票券的生命週期收取以下費用：
@@ -36,14 +43,9 @@ icon: lucide/ticket
 - **票券金流手續費**：於銷售完成時收取
 - **票券核銷服務費**：於實際核銷時收取
 
+---
 
 ## 商品建立與設定
-
-### 建立路徑
-
-商家可依以下路徑建立電子票券商品：
-
-> :lucide-navigation: 商品 > 電子票券列表 > 新增票券
 
 ### 款式與票種設定
 
@@ -52,22 +54,17 @@ icon: lucide/ticket
 - **票種名稱**（例如：早鳥票、團體票、兌換組）
 - **售價**（每一票種可設定不同價格）
 
-### 履約保障機制
-
-- 電子票券發行人為 **順立智慧（CYBERBIZ）**
-- 票券實際售價（票券面額）將存入 **永豐銀行信託專戶**
-    
-- 該信託帳戶作為專款專用的履約保障機制
 
 <div class="grid cards" markdown>
 
 - :lucide-ticket-plus:{ .lg }   
-  [__新增電子票券__](電子票券設定指南.md#新增電子票券){ title="電子票券設定指南" }  
+  [__新增電子票券__](e-ticket-setup-guide.md#新增電子票券){ title="新增電子票券" }  
    建立並設定電子票券商品。
 
-- :lucide-store:{ .lg }  
-  [__設定票券核銷門市__]()  
+<!-- - :lucide-store:{ .lg }
+  [__設定票券核銷門市__]()
   將電子票券與特定門市綁定。
+-->
 
 </div>
 
@@ -88,11 +85,11 @@ icon: lucide/ticket
 <div class="grid cards" markdown>
 
 - :lucide-tickets:{ .lg }   
-  [__購買電子票券__](電子票券設定指南.md#購買電子票券顧客流程){ title="電子票券設定指南" }   
+  [__購買電子票券__](e-ticket-setup-guide.md#購買電子票券顧客端流程){ title="購買電子票券（顧客端流程）" }   
   瞭解顧客購買電子票券的流程。
 
-- :lucide-eye:{ .lg }     
-  [__查看電子票券__](電子票券設定指南.md#查看電子票券){ title="電子票券設定指南" }  
+- :lucide-eye:{ .lg }   
+  [__查看已購買的電子票券__](e-ticket-setup-guide.md#查看已購買的電子票券){ title="查看已購買的電子票券" }  
   查看已購買的電子票券與核銷狀態。
 
 </div>
@@ -112,8 +109,8 @@ icon: lucide/ticket
 
 <div class="grid cards" markdown>
 
-- :lucide-ticket-minus:{ .lg }     
-   [__核銷電子票券__](電子票券設定指南.md#核銷電子票券){ title="電子票券設定指南" }   
+- :lucide-ticket-check:{ .lg }   
+  [__核銷電子票券__](e-ticket-setup-guide.md#核銷電子票券門市端操作){ title="核銷電子票券（門市端操作）" }   
    瞭解各種電子票券核銷方式。
 
 </div>
@@ -146,18 +143,20 @@ icon: lucide/ticket
 
 <div class="grid cards" markdown>
 
-- :lucide-user:{ .lg }   
-  [__門市店員帳號__](電子票券設定指南.md#建立電子票券門市店員帳號){ title="電子票券設定指南" }     
-  建立並管理電子票券門市店員帳號。
 - :lucide-key:{ .lg }     
-  [__電子票券門市權限__](設定電子票券門市權限.md){ title="設定電子票券門市權限" }  
-  設定門市店員可操作的電子票券功能。
+  [__門市店員帳號__](e-ticket-setup-guide.md#建立電子票券門市店員帳號){ title="建立電子票券門市店員帳號" }     
+  建立並管理電子票券門市店員帳號。
+
+- :lucide-key:{ .lg }     
+  [__電子票券門市權限__](setup-e-ticket-store-permissions.md){ title="設定電子票券門市權限" }  
+  設定門市店員可使用的核銷權限。
+
 - :lucide-ticket-slash:{ .lg }     
-  [__電子票券分票__](電子票券設定指南.md#電子票券分票){ title="電子票券設定指南" }  
+  [__電子票券分票__](e-ticket-setup-guide.md#電子票券分票顧客端){ title="電子票券分票（顧客端）" }  
   將購買的多張票券拆分為多個獨立核銷碼。
 
 - :lucide-ticket-percent:{ .lg }     
-  [__電子票券優惠__](設定電子票券優惠.md){ title="設定電子票券優惠" }  
+  [__電子票券優惠__](setup-e-ticket-promotions.md){ title="設定電子票券優惠" }  
   設定電子票券可用的優惠方式。
 
 </div>
@@ -180,11 +179,11 @@ icon: lucide/ticket
 <div class="grid cards" markdown>
 
 - :lucide-ticket-x:{ .lg }   
-  [__電子票券退票__](電子票券設定指南.md#電子票券退款){ title="電子票券設定指南" }      
+  [__電子票券退票__](e-ticket-setup-guide.md#電子票券退款){ title="電子票券退款" }   
   以單一電子票券代碼為單位辦理退票。
 
 - :lucide-ticket-check:{ .lg }     
-  [__電子票券對帳__](電子票券設定指南.md#電子票券對帳){ title="電子票券設定指南" }  
+  [__電子票券對帳__](e-ticket-setup-guide.md#電子票券對帳){ title="電子票券對帳" }  
   查看並核對已核銷票券的款項與交易紀錄。
 
 </div>

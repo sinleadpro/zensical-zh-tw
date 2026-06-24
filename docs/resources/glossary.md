@@ -35,13 +35,13 @@ tags:
 
 顯示於商品頁面的簡短文字，用於快速傳達商品賣點或活動訊息。
 
-- **參閱**：[編輯商品簡述與商品標語](../ec/products/create-and-manage/編輯商品簡述與商品標語.md){ title="編輯商品簡述與商品標語" }
+- **參閱**：[編輯商品簡述與商品標語](../ec/products/create-and-manage/edit-product-slogan-and-description.md){ title="編輯商品簡述與商品標語" }
 
 ### 商品簡述
 
 顯示於商品頁面的說明文字，用於快速介紹商品重點、功能或特色，協助顧客在短時間內理解商品內容與價值。
 
-- **參閱**：[編輯商品簡述與商品標語](../ec/products/create-and-manage/編輯商品簡述與商品標語.md){ title="編輯商品簡述與商品標語" }
+- **參閱**：[編輯商品簡述與商品標語](../ec/products/create-and-manage/edit-product-slogan-and-description.md){ title="編輯商品簡述與商品標語" }
 
 ### 商品頁面
 

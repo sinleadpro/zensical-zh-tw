@@ -164,6 +164,6 @@ reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動�
 
 ## 延伸閱讀
 
-- [設定商品評論功能](#)
+- [設定商品評論功能](../../products/engagement/manage-product-reviews.md#設定商品評論功能){ title="管理商品評論" }
 
 [^invisible-recaptcha]: 隱形 reCAPTCHA 可在顧客互動時自動判斷是否為機器人，通常不會打斷顧客操作，僅在系統判斷為可疑時才出現驗證題目。這能同時減少顧客操作干擾，並提升網站防護力。
