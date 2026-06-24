@@ -11,8 +11,6 @@ tags:
 permalink: "https://help.cyberbiz.io/video-tutorials"
 icon: lucide/play
 ---
-{{ subtitle(page.meta.description) }}
-
 ## 課程平台 { #course-platforms }
 
 一站式影片課程，從系統操作到電商經營，滿足各階段學習需求。

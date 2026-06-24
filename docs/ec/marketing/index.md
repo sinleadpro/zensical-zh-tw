@@ -1,196 +1,278 @@
 ---
-title: 行銷推廣
+title: 行銷活動
 description: 提升商店曝光與銷售，管理行銷活動、優惠策略與顧客互動。
 icon: lucide/badge-percent
+permalink: "https://help.cyberbiz.io/ec/marketing/"
 hide:
   - feedback
-notes:
-  - 蝦皮商品搬站 link
-  - add doc [[折扣類型指南]]
 ---
 
-# 行銷活動
+## 優惠券與折扣活動
 
+<div class="grid cards" markdown>
+
+-   :lucide-ticket: __優惠券（碼）__
+
+    ---
+
+    建立與管理優惠券、優惠碼、免運券及贈品券，設定不同折扣方式與使用條件。
+
+    [:octicons-arrow-right-24: 前往](coupon/index.md)
+
+-   :lucide-clock: __設定單品限時折扣群組__
+
+    ---
+
+    建立「單品限時折扣群組」，並設定折扣計價方式（固定金額、百分比或活動價格）、活動商品與有效期間。
+
+    [:octicons-arrow-right-24: 前往](discounts/flash-sale-single-product.md)
+
+-   :lucide-list-checks: __任選折扣__
+
+    ---
+
+    建立「任選折扣群組」，設定件數門檻與折扣計價方式（固定金額、折數或折固定金額），並管理活動商品與有效期間。
+
+    [:octicons-arrow-right-24: 前往](discounts/mix-and-match-discounts.md)
+
+-   :lucide-palette: __紅配綠多組合優惠__
+
+    ---
+
+    透過將不同群組商品進行組合（如 A 群組 + B 群組），設定固定金額、折扣或折價規則，提升客單價與跨品類銷售。
+
+    [:octicons-arrow-right-24: 前往](discounts/red-and-green-bundle-discounts.md)
+
+-   :lucide-gift: __滿額贈 / 滿件贈__
+
+    ---
+
+    建立滿額贈與滿件贈活動，設定訂單或特定標籤商品的金額/件數門檻，自動發送贈品並管理贈送規則。
+
+    [:octicons-arrow-right-24: 前往](discounts/threshold-gifts-and-quantity-gifts.md)
+
+-   :lucide-layers: __設定商品多層級分類滿額折扣__
+
+    ---
+
+    設定針對商品多層級分類的滿額折扣活動，當訂單符合條件時，對該分類內每件商品獨立套用折扣。
+
+    [:octicons-arrow-right-24: 前往](discounts/multi-level-category-discount.md)
+
+</div>
+
+---
 
 ## 加價購
 
 <div class="grid cards" markdown>
 
-- :lucide-package-plus:{ .lg }   
-  [__商品加價購__](設定商品加價購){ title="設定商品加價購" }     
-  以商品為條件，設定可搭配購買的加價商品，提升單筆商品銷售金額。
-- :lucide-receipt:{ .lg }     
-  [__訂單加價購__](設定訂單加價購){ title="設定訂單加價購" }  
-  依訂單金額或條件，於結帳流程中提供加價商品，促進整體訂單轉換。
+-   :lucide-package-plus: __設定商品加價購__
+
+    ---
+
+    設定商品加價購及多款式加購商品的價格與前台顯示規則。
+
+    [:octicons-arrow-right-24: 前往](upsells/setup-product-upsell.md)
+
+-   :lucide-receipt: __設定訂單加價購__
+
+    ---
+
+    設定訂單加價購可依訂單金額或條件作為觸發門檻，於結帳流程中提供顧客以優惠價格加購指定商品。
+
+    [:octicons-arrow-right-24: 前往](upsells/setup-order-upsell.md)
 
 </div>
 
 ---
 
-=== "優惠活動"
+## 紅利點數與贈禮
 
 <div class="grid cards" markdown>
 
--   :lucide-tag: __折扣與促銷__
-	
-	---
-	
-	[設定單品折扣](設定單品折扣.md)  
-	[設定分類或群組折扣](分類折扣設定.md)  
-	[限時優惠活動](限時優惠活動.md)  
-	
--   :lucide-circle-percent: __VIP / 會員優惠__
-	
-	---
-	
-	[設定 VIP 專屬價格](VIP專屬價格.md)  
-	[會員專屬折扣群組](會員折扣群組.md)  
-	
+-   :lucide-coins: __設定紅利點數__
 
--   :lucide-circle-plus: __加價購與組合優惠__
-	
-	---
-	
-	[加價購群組設定](加價購群組.md)  
-	[訂單加價購設定](訂單加價購.md)  
-	
+    ---
+
+    透過紅利點數建立會員回饋機制，吸引新客首購並提升舊客回購率。
+
+    [:octicons-arrow-right-24: 前往](bonus-and-gifts/setup-bonus-points.md)
+
+-   :lucide-store: __紅利商城 (EC)__
+
+    ---
+
+    建立專屬的線上紅利兌換商城，設定商品兌換所需點數，透過紅利積點機制提升會員回訪與品牌忠誠度。
+
+    [:octicons-arrow-right-24: 前往](bonus-and-gifts/bonus-point-mall.md)
+
+-   :lucide-user-plus: __設定註冊禮__
+
+    ---
+
+    設定會員註冊禮，包含紅利點數與優惠券的發送規則，吸引新客完成首次註冊與消費。
+
+    [:octicons-arrow-right-24: 前往](bonus-and-gifts/setup-registration-gift.md)
+
+-   :lucide-cake: __設定生日禮__
+
+    ---
+
+    設定會員生日禮，包含紅利點數與優惠券的發送規則、自動排程邏輯及提前發送設定。
+
+    [:octicons-arrow-right-24: 前往](bonus-and-gifts/setup-birthday-gift.md)
+
+-   :lucide-sparkles: __期間限定首購禮__
+
+    ---
+
+    期間限定首購禮是專為新會員首次消費設計的促銷工具。當符合條件的會員完成首筆付款訂單時，系統將自動贈送指定禮物。
+
+    [:octicons-arrow-right-24: 前往](bonus-and-gifts/limited-time-first-purchase-gift.md)
 
 </div>
 
+---
 
-=== "分潤"
+## 指定條件贈送
 
 <div class="grid cards" markdown>
 
--   :lucide-dollar-sign: __分潤功能說明__
-	
-	---
-	
-	[分潤功能說明](分潤功能說明.md)  
+-   :lucide-tags: __指定商品送優惠券__
 
--   :lucide-user-check: __推薦人分潤 - 員工推薦__
-	
-	---
-	
-	[推薦人分潤 - 員工推薦 (分派)](推薦人分潤-員工推薦.md)  
-	[推薦人分潤 (第三方列表)](推薦人分潤-第三方列表.md)  
+    ---
 
--   :lucide-user-plus: __推薦人分潤 - 顧客推薦__
-	
-	---
-	
-	[推薦人分潤 - 顧客推薦 (分派)](推薦人分潤-顧客推薦.md)  
+    建立「優惠券群組」，當會員購買指定商品並完成訂單後，系統自動發送優惠券至其帳戶，提升回購率與客戶忠誠度。
 
--   :lucide-user-cog: __註冊人分潤設定__
-	
-	---
-	
-	[註冊人分潤設定](註冊人分潤設定.md)  
+    [:octicons-arrow-right-24: 前往](conditional-send/send-coupons-for-specific-products.md)
+
+-   :lucide-coins: __指定商品送紅利__
+
+    ---
+
+    建立「指定商品送紅利」群組，針對特定商品設定滿額贈送紅利點數，提升回購率與客單價。
+
+    [:octicons-arrow-right-24: 前往](conditional-send/send-bonus-points-for-specific-products.md)
+
+-   :lucide-credit-card: __指定金流送紅利__
+
+    ---
+
+    建立「指定金流送紅利」群組，針對特定付款方式設定贈送紅利點數，引導顧客選擇低成本或預付型金流。
+
+    [:octicons-arrow-right-24: 前往](conditional-send/send-bonus-points-for-specific-payment-methods.md)
+
+-   :lucide-truck: __指定物流送紅利__
+
+    ---
+
+    透過「指定物流送紅利」工具，您可以針對特定配送方式提供紅利點數回饋，有效引導消費者選擇低成本或特定合作物流。
+
+    [:octicons-arrow-right-24: 前往](conditional-send/send-bonus-points-for-specific-logistics.md)
+
+-   :lucide-qr-code: __指定商品送活動序號__
+
+    ---
+
+    建立「序號群組」，當顧客購買指定商品並付款後，系統自動發送專屬活動序號，適用於票券、兌換碼或抽獎活動。
+
+    [:octicons-arrow-right-24: 前往](conditional-send/send-event-serials-for-specific-products.md)
 
 </div>
 
-=== "廣告與推播"
+---
+
+## 商品購買限制
 
 <div class="grid cards" markdown>
 
--   :lucide-mail: __電子郵件行銷__
-	
-	---
-	
-	[設定電子報活動](電子報設定.md)  
-	[會員分群電子郵件發送](會員分群電子郵件.md)  
-	
+-   :lucide-ban: __設定商品排除指定優惠__
 
--   :lucide-facebook: __社群與廣告串接__
+    ---
 
-	---
+    設定特定商品無法參與「全館活動」、「優惠券」、「商品多層級分類滿額折扣」及「VIP 優惠」等行銷活動。
 
-	
-	[Facebook / Instagram 廣告設定](社群廣告設定.md)  
-	[追蹤廣告成效與 ROI](廣告成效追蹤.md)  
+    [:octicons-arrow-right-24: 前往](purchase-restrictions/exclude-products-from-promotions.md)
 
+-   :lucide-package-minus: __設定商品限購數量__
+
+    ---
+
+    限制每位會員可購買特定商品的數量，用於限量商品、防止囤貨、確保更多顧客買得到熱銷品。
+
+    [:octicons-arrow-right-24: 前往](purchase-restrictions/purchase-limit.md)
+
+-   :lucide-bell: __優惠券（碼）與紅利點數到期通知__
+
+    ---
+
+    商家可設定優惠券（碼）/ 紅利點數的到期提醒，透過 Email、簡訊或 LINE OA 通知消費者盡早使用，有效提升行銷活動的回購率。
+
+    [:octicons-arrow-right-24: 前往](purchase-restrictions/coupon-and-bonus-points-expiry-notification.md)
 
 </div>
 
-=== "成效分析"
+---
+
+## 一頁式商店與導購連結
 
 <div class="grid cards" markdown>
 
--   :lucide-bar-chart: __銷售報表__
-	
-	---
-	
-	[查看行銷活動銷售報表](銷售報表.md)  
-	[會員互動與回購分析](會員互動分析.md)  
+-   :lucide-monitor: __一頁式商店__
 
--   :lucide-pie-chart: __流量分析__
-	
-	---
-	
-	[追蹤網站訪客來源](網站流量追蹤.md)  
-	[分析購物行為與轉換率](購物行為分析.md)  
+    ---
 
--   :lucide-trending-up: __成長策略__
-	
-	---
-	
-	[設定自動行銷規則](自動行銷規則.md)  
-	[分析銷售與會員成長趨勢](銷售會員成長分析.md)  
+    一頁式商店將商品資訊、特色介紹與結帳流程整合於單一網頁，大幅減少頁面切換造成的流失，是提升廣告轉換率與行動購物體驗的高效工具。
+
+    [:octicons-arrow-right-24: 前往](one-page-store/one-page-store.md)
+
+-   :lucide-video: __設定一頁式商店 YouTube 影片自動播放與起始秒數__
+
+    ---
+
+    調整 YouTube 影片網址參數，在一頁式商店中設定自動播放、循環播放與指定播放起始秒數。
+
+    [:octicons-arrow-right-24: 前往](one-page-store/one-page-store-youtube-autoplay.md)
+
+-   :lucide-link: __建立含指定商品的購物車連結__
+
+    ---
+
+    建立特殊的購物車連結，自動將預設商品與數量加入購物車，適用於社群導購、EDM 行銷等情境。
+
+    [:octicons-arrow-right-24: 前往](one-page-store/create-cart-link-specific-products.md)
 
 </div>
 
-=== "系統與權限"
+---
+
+## 其他行銷工具
 
 <div class="grid cards" markdown>
 
--   :lucide-key: __權限管理__
-	
-	---
-	
-	[設定行銷人員權限](行銷人員權限.md)  
-	[控制活動編輯與查看權限](活動編輯查看權限.md)  
+-   :lucide-gamepad-2: __互動遊戲 (EC)__
 
--   :lucide-shield-check: __安全管理__
-	
-	---
-		
-	[啟用行銷活動審核流程](活動審核流程.md)  
-	[活動資料備份與恢復](活動資料備份.md)  
+    ---
 
-</div>
+    透過轉盤、紅包或寶箱等趣味遊戲，發放優惠券、紅利點數 or 贈品，提升會員參與度與轉單率，支援 EC 與 POS 雙通路。
 
-=== "訊息推播"
+    [:octicons-arrow-right-24: 前往](other-tools/interactive-games.md)
 
-<div class="grid cards" markdown>
+-   :lucide-calendar-clock: __定期訂購活動頁__
 
--   :lucide-mail: __EDM / E-mail__
-	
-	---
-	
-	[EDM 發送設定](EDM發送設定.md)  
-	[Email 通知樣板管理](Email通知樣板管理.md)  
-	[轉貼連結預設資訊](轉貼連結預設資訊.md)  
-	[轉貼連結預設圖片 (OG IMAGE)](轉貼連結預設圖片.md)  
+    ---
 
--   :lucide-smartphone: __簡訊__
-	
-	---
-	
-	[簡訊發送設定](簡訊發送設定.md)  
-	[簡訊通知樣板管理](簡訊通知樣板管理.md)  
-	
--   :lucide-cog: __CYBERBIZ AUTOMATION__
-	
-	---
-	
-	[AUTOMATION 功能介紹](AUTOMATION功能介紹.md)  
-	[AUTOMATION 發送教學 (簡訊/EDM)](AUTOMATION發送教學.md)  
+    說明如何建立訂閱制活動頁面，包含基本設定、期數優惠、金流限制及備貨期配置，協助品牌創造穩定營收。
 
--   :lucide-settings: __SEO 設定__
-	
-	---
-	
-	[SEO 設定](SEO設定.md)  
-	[SEO 優化教學](SEO優化教學.md)  
+    [:octicons-arrow-right-24: 前往](other-tools/subscription-campaign-page.md)
+
+-   :lucide-calculator: __結帳優惠計算順序__
+
+    ---
+
+    了解 CYBERBIZ 系統在結帳時的優惠套用邏輯與計算順序，包含商品層級、訂單層級以及運費金流層級的運算規則。
+
+    [:octicons-arrow-right-24: 前往](discounts/checkout-discount-calculation-order.md)
 
 </div>

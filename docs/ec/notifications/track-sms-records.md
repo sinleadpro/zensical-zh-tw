@@ -2,7 +2,7 @@
 title: 查詢與追蹤簡訊發送紀錄
 description: 在 CYBERBIZ 後台查詢與追蹤簡訊發送紀錄，包含日期範圍篩選、關鍵字搜尋與欄位說明。
 created: 2026-04-27 19:16
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-24 10:13
 lang: zh-TW
 type: tutorial
 status: ""
@@ -27,8 +27,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS 
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -62,8 +62,6 @@ search:
 icon: lucide/history
 hide: []
 ---
-在 CYBERBIZ 後台查詢與追蹤簡訊發送紀錄，包含日期範圍篩選、關鍵字搜尋與欄位說明。
-{ .subtitle }
 
 ![簡訊發送紀錄頁](../../assets/images/ec-訊息推播-簡訊發送紀錄.png){ .hero-page }
 
@@ -138,9 +136,9 @@ hide: []
 
     請確認您輸入的是否為 **10 碼完整號碼**。系統目前不支援模糊查詢（例如只輸入末四碼），且號碼中不可包含空白或連字號 `-`。
 
-??? quote "發送失敗會退回 Cyber 幣嗎？"
+??? quote "發送失敗會退回 Cyber幣嗎？"
 
-    簡訊發送若因「號碼錯誤」或「電信商端問題」導致失敗，通常仍會產生發送成本。詳細扣費規範請](send-sms-notifications.md#簡訊發送規範與計費)與計費)訊發送規範與計費){ data-preview }。
+    簡訊發送若因「號碼錯誤」或「電信商端問題」導致失敗，通常仍會產生發送成本。詳細扣費規範請參閱[簡訊發送規範與計費](send-sms-notifications.md#費用與字數計算標準){ data-preview }。
 
 ??? quote "可以查詢多久以前的發送紀錄？"
 

@@ -60,14 +60,6 @@ icon: lucide/calendar-clock
 hide: []
 ---
 
-# 匯出定期定額子訂單預測報表
-
-匯出定期定額子訂單預測報表，查核未來預計出貨的訂單資料，預測備貨量。
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案){ title="圖示慣例" } | 企業
-{ .doc-badge }
-
 ![](../../../assets/images/ec-訂單-定期定額訂單.png){ .hero-page }
 
 ## 匯出定期定額子訂單報表說明

@@ -15,8 +15,6 @@ tags:
   - 詞彙表
   - 系統名詞
 ---
-{{ subtitle(page.meta.description) }}
-
 [PDF :lucide-download:](#){ .md-button .md-button--primary }
 
 ## 商品
@@ -31,7 +29,7 @@ tags:
 
 商品建立時的必要欄位之一，用於識別並展示商品的主要標題，會同步顯示於商品頁面、訂單明細、行銷活動與報表中。
 
-- **參閱**：[新增與更新商品](../ec/products/create-and-manage/新增與更新商品.md){ title="新增與更新商品" }
+- **參閱**：[新增與更新商品](../ec/products/create-and-manage/create-update-products.md){ title="新增與更新商品" }
 
 ### 商品標語
 
@@ -109,7 +107,7 @@ tags:
 
 商品特性的分類標籤，用於區分商品的不同屬性，例如顏色、尺寸、容量、材質。
 
-- **參閱**：[設定商品色票與款式圖片](../ec/products/create-and-manage/設定商品色票與款式圖片-預設版型.md){ title="設定商品色票與款式圖片-預設版型" }
+- **參閱**：[設定商品色票與款式圖片](../ec/products/create-and-manage/product-swatches-variant-images-default.md){ title="設定商品色票與款式圖片-預設版型" }
 
 ### 規格項目
 
@@ -121,7 +119,7 @@ tags:
 
 由多個規格項目組合而成的具體販售單位。
 
-- **參閱**：[規格](#規格) | [設定商品色票與款式圖片](../ec/products/create-and-manage/設定商品色票與款式圖片-預設版型.md){ title="設定商品色票與款式圖片-預設版型" }
+- **參閱**：[](../ec/products/create-and-manage/product-swatches-variant-images-default.md)ge/設定商品色票與款式圖片-預設版型.md){ title="設定商品色票與款式圖片-預設版型" }
 
 ### 商品通路
 
@@ -365,11 +363,23 @@ tags:
 
 - **參閱**：[一般版](#一般版)
 
+### PLUS版以上
+
+**PLUS Plan and above**，專業PLUS版、進階PLUS版、高手PLUS版、企業版及以上方案。
+
+- **參閱**：[PLUS版](#plus版) | [高手版以上](#高手版以上)
+
+### 高手版以上
+
+高手版、專業PLUS版、進階PLUS版、高手PLUS版、企業版及以上方案。
+
+- **參閱**：[PLUS版](#plus版) | [進階方案以上](#進階方案以上)
+
 ### 進階方案以上
 
 包含進階、高手、專業PLUS、進階PLUS、高手PLUS 與企業方案。
 
-- **參閱**：[一般版](#一般版) | [PLUS版](#plus版)
+- **參閱**：[一般版](#一般版) | [PLUS版](#plus版) | [高手版以上](#高手版以上)
 
 ### Cyber幣
 

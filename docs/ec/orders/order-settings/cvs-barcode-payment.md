@@ -62,11 +62,7 @@ icon: lucide/barcode
 hide: []
 comments: false
 ---
-啟用超商條碼繳費功能，顧客如何取得條碼與前往 7-11、全家完成付款的完整流程。
-{ .subtitle }
 
-[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用功能) | CYBERBIZ PAYMENTS
-{ .doc-badge }
 
 ![超商條碼繳費設定](../../../assets/images/EC-後台-金物流-金流設定-超商條碼繳費設定.png){ .hero-page }
 

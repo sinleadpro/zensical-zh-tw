@@ -11,8 +11,6 @@ tags:
 icon: lucide/book-open
 permalink: "https://help.cyberbiz.io/guidebook"
 ---
-{{ subtitle(page.meta.description) }}
-
 ## 手冊 { #handbooks }
 
 <div class="grid cards" markdown>
@@ -56,5 +54,13 @@ permalink: "https://help.cyberbiz.io/guidebook"
     LINE 虛實整合功能的設定教學，實現線上線下完整串接。
 
     [:lucide-download: 下載 PDF](https://drive.google.com/file/d/1mOPY3hZorS99_cjPCZMy_zIEUUGrZTqf/view)
+
+-   :lucide-life-buoy:{ .lg .middle } __使用 Jam 回報操作問題__
+
+    ---
+
+    用 Jam 錄製畫面，提供連結給客服，協助排查問題。
+
+    [:lucide-arrow-right: 前往查看](use-jam-to-report-issues.md)
 
 </div>

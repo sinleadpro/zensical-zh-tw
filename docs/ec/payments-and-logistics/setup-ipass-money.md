@@ -2,7 +2,7 @@
 title: 設定 iPASS MONEY 支付
 description: 指引商家申請並串接 iPASS MONEY（一卡通）支付服務。涵蓋申請規範、必要證明文件、2-4 週審核時程及後台金鑰配置流程。
 created: 2026-03-16 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-14 14:03
 lang: zh-TW
 type: tutorial
 status: ""

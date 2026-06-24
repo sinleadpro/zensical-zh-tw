@@ -7,7 +7,7 @@
 <div class="grid cards" markdown>
    
 - :lucide-message-circle:{ .lg }   
-  [__Chat Box__](批次修改商品描述與配送設定.md)     
+  [__Chat Box__](batch-update-product-descriptions-shipping.md)     
   訊息整合中心。
 
 - :lucide-credit-card:{ .lg }     
@@ -21,8 +21,7 @@
 
 <div class="grid cards" markdown>
    
-- :lucide-link:{ .lg }   
-  [__Channel Bridge__](批次修改商品描述與配送設定.md)     
+- :lucide-link:{ .](batch-update-product-descriptions-shipping.md)l Bridge__](批次修改商品描述與配送設定.md)     
   跨平台通路管理。
 
 - :lucide-ticket:{ .lg }  

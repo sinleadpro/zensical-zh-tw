@@ -2,7 +2,7 @@
 title: 設定首頁商品群組排序
 description: 調整前台首頁「商品列表」區塊中，各個商品群組的顯示先後順序。
 created:
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-24 15:43
 lang: zh-TW
 permalink:
 type: tutorial
@@ -30,8 +30,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -71,9 +71,6 @@ icon: lucide/arrow-up-down
 hide:
 ---
 
-調整前台首頁「商品列表」區塊中，各個商品群組的顯示先後順序。
-{ .subtitle }
-
 ![全站商品列表群組排序頁面](../../../assets/images/ec-website-appearance-collection-sorting-storefront.zh-tw.png){ .hero-page }
 
 ## 首頁商品群組排序介紹
@@ -88,7 +85,7 @@ hide:
 ## 使用前提與限制 { #prerequisites-collection-order }
 
 - [x] **至少有一個公開群組**：排序清單只會列出設定為「公開」狀態的群組，隱藏中的群組不會出現在這裡。
-- [x] **群組類型**：可排序的群組包含「[自定群組](../../products/categories-and-tags/custom-collections.md){ title="設定商品自訂分類群組" }」、「[商品條件分類](../../products/categorization/設定商品條件分類群組.md)」與「[任選折扣群組](../../marketing/任選折扣.md){ title="任選折扣" }」三種，詳見 [群組類型對照表](../../products/references/collection-group-types.md#reference-collection-order-group-types){ title="商品群組類型對照表" data-preview }。
+- [x] **群組類型**：可排序的群組包含「[自定群組](../../products/categories-and-tags/custom-collections.md){ title="設定商品自訂分類群組" }」、「[商品條件分類](../../products/categories-and-tags/smart-collections.md){ title="設定商品條件分類群組" }」與「[任選折扣群組](../../marketing/discounts/mix-and-match-discounts.md){ title="任選折扣" }」三種，詳見 [群組類型對照表](../../products/references/collection-group-types.md#reference-collection-order-group-types){ title="商品群組類型對照表" data-preview }。
 
 ---
 
@@ -137,11 +134,11 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-layout-grid:{ .lg }  
-  [__管理商品群組__](../../products/index.md){ title="商品管理" }  
-  新增、編輯或隱藏自定群組、商品條件分類與任選折扣群組。
+  __管理商品群組__  
+  新增、編輯或隱藏[自定群組](../../products/categories-and-tags/custom-collections.md){ title="設定商品自訂分類群組" }、[商品條件分類](../../products/categories-and-tags/smart-collections.md){ title="設定商品條件分類群組" }與[任選折扣群組](../../marketing/discounts/mix-and-match-discounts.md){ title="任選折扣" }。
 
 - :lucide-arrow-down-up:{ .lg }  
-  [__設定群組內商品排序__](../../products/index.md){ title="商品管理" }  
+  [__設定群組內商品排序__](../../products/categories-and-tags/custom-collections.md#operate-custom-collections-reorder-products-manual){ title="設定商品自訂分類群組" }  
   調整單一群組裡商品的顯示順序(手動排序、依價格、依暢銷等)。
 
 </div>

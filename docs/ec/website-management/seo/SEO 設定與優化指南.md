@@ -2,7 +2,7 @@
 title: "SEO 設定與優化指南"
 description: "完整說明 SEO 設定功能，包含圖片 ALT 屬性、商品頁與分類頁 SEO、全站 Meta Tag 設定以及 Sitemap 提交與 301 轉址教學。"
 created: "2026-03-18 16:19"
-last_modified: 2026-06-08 17:15
+last_modified: 2026-06-14 11:58
 lang: "zh-TW"
 type: "guide"
 status: ""
@@ -71,13 +71,6 @@ icon: "lucide/search"
 hide: []
 ---
 
-# SEO 設定與優化指南
-
-完整說明 SEO 設定功能，包含圖片 ALT 屬性、商品頁與分類頁 SEO、全站 Meta Tag 設定以及 Sitemap 提交與 301 轉址教學。
-{ .subtitle }
-
-{ .hero-page }
-
 ## SEO 說明
 
 SEO (搜尋引擎優化，Search Engine Optimization) 是改善網站自然排名（非付費廣告）的過程，旨在讓搜尋引擎更容易找到您的網站並給予較高的排名，進而提升網頁能見度與流量轉換。
@@ -119,23 +112,23 @@ CYBERBIZ 系統提供的 SEO 優化範圍涵蓋了 **首頁、商品頁、商品
 包含整體網站的標題與全站關鍵字。
 
 
-- **網站名**：前往「管理中心」>「一般設定」[設定網站名稱](../../website-management/設定網站基本資訊.md#關於您的網站){ title="設定網站基本資訊" }（中文字 15 字/英文字 30 字以內）。
+- **網站名**：前往「管理中心」>「一般設定」[設定網站名稱](../../website-management/setup-store-basic-info.md#關於您的網站){ title="設定網站基本資訊" }（中文字 15 字/英文字 30 字以內）。
 - **Meta Tag 設定**：包含 **標題**、**簡述** 跟 **關鍵字**。
-    *   **一般版型**：前往「網站外觀」>「套版主題管理」>「網站設定」>「公司品牌」。瞭解[一般版型如何設定網站標題](../../website-appearance/設定網站標題與 SEO.md#預設版型一般版型){ data-preview }。
+    *   **一般版型**：前往「網站外觀」>「套版主題管理」>「網站設定」>「公司品牌」。瞭解[一般版型如何設定網站標題](../../website-appearance/setup-site-title-seo.md#預設版型一般版型){ data-preview }。
 
         ![](../../../assets/images/ec-網站外觀-套版主題-網站設定-網站簡述與關鍵字-一般版型.png)
 
-    *   [**拖拉版型**](../website-appearance/設定網站標題與 SEO.md#拖拉版型){ data-preview }：前往「網站外觀」>「套版主題管理」>「網站設定」>「全站設定」。
+    *   ](../website-appearance/setup-site-title-seo.md#拖拉版型).md#拖拉版型){ data-preview }：前往「網站外觀」>「套版主題管理」>「網站設定」>「全站設定」。
 
 !!! note "延伸閱讀"
-    關於網站標題與 SEO 的詳細設定，請參閱 [設定網站標題與 SEO](../../website-appearance/設定網站標題與 SEO.md){ data-preview }，或查看其在 [搜尋結果頁 (SERP) 的顯示位置](../../website-appearance/設定網站標題與 SEO.md#搜尋引擎結果頁-SERP){ data-preview }。
+    關於網站標題與 SEO 的詳細設](../../website-appearance/setup-site-title-seo.md)ce/設定網站標題與 SEO.md){ data-preview ](../../website-appearance/setup-site-title-seo.md#搜尋引擎結果頁-SERP)定網站標題與 SEO.md#搜尋引擎結果頁-SERP){ data-preview }。
 
 ## 部落格與其他自訂頁面 SEO
 
 <div class="grid cards" markdown>
 
 - :lucide-newspaper:{ .lg }  
-  [__部落格__](../../website-appearance/部落格管理與文章發佈指南.md#Meta-Tags){ data-preview }  
+  [__部落格__](../../website-appearance/blog-management-publishing-guide.md#Meta-Tags){ data-preview }  
   可為部落格主題及單篇章設定 Meta Tag。
 
 - :lucide-files:{ .lg }     

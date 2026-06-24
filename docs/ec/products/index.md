@@ -20,7 +20,7 @@ hide:
 ---
 
 
-[:lucide-package-plus:](create-and-manage/新增與更新商品.md){ title="新增與更新商品" }
+[:lucide-package-plus:](create-and-manage/create-update-products.md){ title="新增與更新商品" }
 [:lucide-import:](#){ .md-button title="Excel 大量匯入"}
 
 
@@ -79,7 +79,7 @@ VIP 價格、**搜尋可見性排除**
 	
 	---
 - [將商品從搜尋中排除](discoverability/設定商品搜尋可見性.md){ title="設定商品搜尋可見性" }
-- [匯出商品資料 Excel 表格](bulk-operations/批次修改商品描述與配送設定.md#匯出商品-excel-表格){ title="批次修改商品描述與配送設定" }
+- [匯出商品資料 Excel 表格](bulk-operations/batch-update-product-descriptions-shipping.md#匯出商品-excel-表格){ title="批次修改商品描述與配送設定" }
 
 </div>
 
@@ -90,8 +90,7 @@ VIP 價格、**搜尋可見性排除**
 
 <div class="grid cards" markdown>
 
-- :lucide-package-plus:{ .lg }  
-   [__新增商品__](create-and-manage/新增與更新商品.md){ title="新增與更新商品" }  
+- :lucide-package-plus:{ .lg }](create-and-manage/create-update-products.md)age/新增與更新商品.md){ title="新增與更新商品" }  
    建立新商品或更新既有商品資訊與設定。  
 
 - :lucide-pencil:{ .lg }  
@@ -103,7 +102,7 @@ VIP 價格、**搜尋可見性排除**
    以 Excel 大量建立或修改商品資料。  
 
 - :lucide-refresh-cw-off:{ .lg }   
-  [__排除商品上傳至第三方平台__](categories-and-tags/管理商品標籤.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }  
+  [__排除商品上傳至第三方平台__](categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }  
    設定商品是否同步至外部平台。 
 
 </div>
@@ -118,12 +117,11 @@ VIP 價格、**搜尋可見性排除**
   [__商品群組__](categories-and-tags/custom-collections.md){ title="設定商品自訂分類群組" }  
   設定條件或自訂分類管理商品集合。
 
-- :lucide-tag:{ .lg }   
-  [__商品標籤__](categories-and-tags/管理商品標籤.md){ title="管理商品標籤" }  
+- :lucide-tag:{ .lg }  ](categories-and-tags/manage-product-tags.md)gs/管理商品標籤.md){ title="管理商品標籤" }  
    建立與管理商品標籤，以利搜尋與分組。  
 
 - :lucide-navigation:{ .lg }   
-  [__導覽列與前台顯示__](categories-and-tags/設定商品多層級分類.md){ title="設定商品多層級分類" }  
+  [__導覽列與前台顯示__](categories-and-tags/multi-level-category-setup.md){ title="設定商品多層級分類" }  
    管理前台分類排序與篩選功能。  
 
 </div>
@@ -135,27 +133,26 @@ VIP 價格、**搜尋可見性排除**
 <div class="grid cards" markdown>
 
 - :lucide-clock:{ .lg }   
-  [__預購商品__](checkout/設定結帳拆分多購物車.md#設定預購商品){ title="設定結帳自動拆分多購物車" }  
+  [__預購商品__](checkout/checkout-split-multi-cart.md#設定預購商品){ title="設定結帳自動拆分多購物車" }  
   建立預購通路並綁定商品，結帳時成立專屬購物車。
 
 - :lucide-circle-percent:{ .lg }  
-  [__優惠商品__](pricing/設定 VIP 會員專屬價格.md){ title="設定 VIP 會員專屬價格" }  
+  [__優惠商品__](pricing/setup-vip-member-pricing.md){ title="設定 VIP 會員專屬價格" }  
    設定商品折扣、優惠與會員價格。  
 	  
-- :lucide-shopping-cart:{ .lg }  
-  [__多購物車結帳__](checkout/設定結帳拆分多購物車.md){ title="設定結帳自動拆分多購物車" }  
+- :lucide-shopping-cart:{ .lg } ](checkout/checkout-split-multi-cart.md)/設定結帳拆分多購物車.md){ title="設定結帳自動拆分多購物車" }  
    管理不同銷售通路與購物流程。
 
 - :lucide-bell:{ .lg }   
-  [__補貨通知__](engagement/設定商品到貨通知.md){ title="設定商品到貨通知" }  
+  [__補貨通知__](engagement/setup-back-in-stock-notifications.md){ title="設定商品到貨通知" }  
    缺貨商品已補貨的到貨提醒。  
 
 - :lucide-star:{ .lg }  
-  [__管理商品評論__](engagement/管理商品評論.md){ title="管理商品評論" }  
+  [__管理商品評論__](engagement/manage-product-reviews.md){ title="管理商品評論" }  
    管理顧客評論與互動功能。  
 
 - :lucide-tag:{ .lg }   
-  [__商品廣告__](../integrations/google/設定 Google Merchant Center 並同步 CYBERBIZ 商品.md){ title="設定 Google Merchant Center 並同步 CYBERBIZ 商品" }  
+  [__商品廣告__](../integrations/google/setup-google-merchant-center.md){ title="設定 Google Merchant Center 並同步 CYBERBIZ 商品" }  
    設定商品廣告串接與投放管理。
 	
 </div>

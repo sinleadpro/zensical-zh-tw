@@ -1,4 +1,5 @@
 ---
+
 title: 自動退刷時效對照表
 description: 各金流商允許自動退刷的天數上限對照表
 created: 2026-05-26 21:36
@@ -27,8 +28,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS 
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -66,7 +67,6 @@ icon: lucide/table
 hide: []
 ---
 
-# 自動退刷時效對照表 { #reference-overdue-returns-refund-deadlines }
 
 各金流商允許自動退刷的天數上限，超過則須改走人工退款。
 

@@ -1,4 +1,5 @@
 ---
+
 title: 熱感列印超商托運單
 description: 使用超商熱感列印功能列印 A6 託運單
 created:
@@ -30,8 +31,8 @@ difficulty: intermediate
 tnb: branch
 plans:
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -80,13 +81,6 @@ hide:
 ---
 
 
-# 熱感列印超商托運單
-
-使用超商熱感列印功能列印 A6 託運單
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 專業PLUS / 進階 PLUS / 高手 PLUS / 企業
-{ .doc-badge }
 
 ![](../../../assets/images/ec-訂單-下載超商 B2C托運單.png){ .hero-page }
 

@@ -51,13 +51,6 @@ icon: simple/google
 hide:
 ---
 
-# index
-
-
-{ .subtitle }
-
-{ .doc-badge }
-
 { .hero-page }
 
 

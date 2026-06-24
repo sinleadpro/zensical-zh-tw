@@ -170,7 +170,7 @@ docs/ec/notifications/manage-email-templates.md
 docs/ec/notifications/manage-sms-templates.md
 docs/ec/notifications/track-sms-records.md
 docs/ec/notifications/send-edm-newsletters.md
-docs/ec/analytics/廣告分析指南.md
+docs/ec/business-intelligence/廣告分析指南.md
 docs/pos/frontend/使用「店長改價」在 POS 前台調整單品價格.md
 docs/pos/integrations/line/設定與使用 LINE 顯示會員條碼（串接 POS 結帳）.md
 docs/pos/orders/修改訂單明細頁「店長改價」的顯示名稱.md

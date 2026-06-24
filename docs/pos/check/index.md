@@ -248,7 +248,7 @@ graph LR
     <div class="grid cards" markdown>
 
     - :lucide-plug:{ .lg }
-    [__發送會員專屬紅利點數__](../../ec/marketing/setup-bonus-points.md)<br>
+    [__發送會員專屬紅利點數__](../../ec/marketing/bonus-and-gifts/setup-bonus-points.md)<br>
     發放紅利獎勵，提升會員回購率與忠誠度。
 
     - :lucide-plug:{ .lg }
@@ -274,11 +274,11 @@ graph LR
     - :lucide-plug:{ .lg }
     __建立加價購活動__<br>
     增加客單價，在結帳時推薦超值加購品。
-        - [訂單加價購](../../ec/marketing/設定訂單加價購/){ title="設定訂單加價購" }
-        - [商品加價購](../../ec/marketing/設定商品加價購/){ title="設定商品加價購" }
+        - [訂單加價購](../../ec/marketing/upsells/setup-order-upsell.md){ title="設定訂單加價購" }
+        - [商品加價購](../../ec/marketing/upsells/setup-product-upsell.md){ title="設定商品加價購" }
 
     - :lucide-plug:{ .lg }
-    [__建立滿額贈滿件贈活動__](../../ec/marketing/threshold-gifts-and-quantity-gifts.md)<br>
+    [__建立滿額贈滿件贈活動__](../../ec/marketing/discounts/threshold-gifts-and-quantity-gifts.md)<br>
     引導顧客多買，達成門檻即自動送禮品。
 
     - :lucide-plug:{ .lg }

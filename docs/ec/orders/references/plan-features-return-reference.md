@@ -1,4 +1,5 @@
 ---
+
 title: 方案功能對照表（退貨相關）
 description: 退貨相關功能在各方案中的開通狀況對照表
 created: 2026-05-26 21:38
@@ -27,8 +28,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS 
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -68,7 +69,6 @@ icon: lucide/table
 hide: []
 ---
 
-# 方案功能對照表(退貨相關) { #reference-overdue-returns-plans }
 
 退貨相關功能在各方案中的開通狀況。
 

@@ -53,9 +53,7 @@ icon: lucide/blocks
 hide:
 ---
 
-{ .subtitle }
 
-{ .doc-badge }
 
 { .hero-page }
 

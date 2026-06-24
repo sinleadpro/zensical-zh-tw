@@ -45,8 +45,6 @@ icon: lucide/table
 hide:
 ---
 
-# 可新增區塊類型對照表
-
 本對照表彙整拖拉版型中可新增的區塊及其用途,供「拖拉版型網站設定」等說明引用。
 
 ## 常見可新增區塊 { #theme-editor-sections }

@@ -198,7 +198,7 @@ comments: false
   確認商品的名稱、類型、廠商、標籤與價格填寫完整，條件分類才能正確命中。 -->
 
 - :lucide-layout-template:{ .lg }  
-  [__設定選單與導覽列__](../../website-appearance/navigation/設定選單與導覽列.md){ title="設定選單與導覽列" }  
+  [__設定選單與導覽列__](../../website-appearance/navigation/setup-menus-navigation.md){ title="設定選單與導覽列" }  
   把建立好的條件分類放進前台選單或導覽列，讓顧客逛得到。
 
 - :lucide-languages:{ .lg }  

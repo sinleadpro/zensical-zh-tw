@@ -2,7 +2,7 @@
 title: 訂單管理介面說明
 description: 說明「所有訂單」介面的各項管理功能，協助商家執行從訂單篩選、貨態追蹤到明細編輯的核心營運作業。
 created:
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-14 17:26
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/basics/order-management-interface
 type: tutorial
@@ -29,8 +29,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -79,18 +79,11 @@ icon: lucide/panels-top-left
 hide:
 ---
 
-# 訂單管理介面說明
-
-說明「所有訂單」介面的各項管理功能，協助商家執行從訂單篩選、貨態追蹤到明細編輯的核心營運作業。
-{ .subtitle }
-
 ![](../../../assets/images/ec-訂單-所有訂單.png){ .hero-page }
-
 
 ## 訂單介面說明 { #orders }
 
 **所有訂單** 頁面是商家管理銷售紀錄、處理出貨作業及追蹤貨態的核心介面。以下為訂單介面的功能說明與教學：
-
 
 ## 注意事項
 
@@ -102,11 +95,11 @@ hide:
 
 ## 訂單列表頁面功能
 
-> :lucide-navigation: 後台路徑：**訂單 > 所有訂單**。
+!!! path "後台路徑：**訂單 > 所有訂單**。"
 
 ### 編輯欄位與排序
 	
-- 點選 **編輯欄位**，自由勾選欲顯示的 [訂單列表欄位項目](../references/訂單列表欄位參考表.md){ data-preview }（如：會員、商品詳情、訂單標籤、成立日期、付款方式、配送日期等）。
+- 點選 **編輯欄位**，自由勾選欲顯示的 [訂單列表欄位項目](../references/order-list-columns.md#orders-columns){ title="訂單列表欄位參考表" data-preview }（如：會員、商品詳情、訂單標籤、成立日期、付款方式、配送日期等）。
 - 透過拖曳 :lucide-grip-vertical: 圖示調整先後順序，建立符合使用習慣的清單。
 
 ??? tip "優化定期購追蹤" 
@@ -118,7 +111,7 @@ hide:
 
 ### 檢視群組 { #order-filter-group }
 
-透過「檢視群組」功能，商家可將常用的 [篩選條件](../references/訂單篩選條件欄位定義.md){ data-preview }  （如：指定物流、付款或配送狀態）儲存為自定義頁籤，實現一鍵切換，提升批次處理訂單的效率。
+透過「檢視群組」功能，商家可將常用的 [篩選條件](../references/order-filter-status-reference.md#orders-v2-filters){ title="訂單篩選條件與狀態對照表" data-preview }  （如：指定物流、付款或配送狀態）儲存為自定義頁籤，實現一鍵切換，提升批次處理訂單的效率。
 
 **操作步驟**
 
@@ -145,9 +138,13 @@ hide:
 - 支援透過姓名、電話、信箱、地址、訂單編號、託運單號、商品名稱、配送方式或優惠券序號進行查找。
 - 其中，顧客 Email、託運單號等特定欄位需輸入 **完全一致** 的關鍵字方可搜得。
 
-> :lucide-book-open: 瞭解 [訂單搜尋規範](../references/訂單搜尋欄位規範.md){ data-preview }。  
-
 ![](../../../assets/images/ec-訂單列表-搜尋.png)
+
+<div class="grid cards" markdown>
+
+- :lucide-search:{ .lg .middle } [__如何搜尋與篩選訂單__](search-filter-orders.md){ title="如何搜尋與篩選訂單" }
+
+</div>
 
 ---
 
@@ -241,7 +238,7 @@ hide:
 	
 - **發票：** 連接至綠界。
 
-- **個資隱碼：** 若後台開啟了[安全性設定](../../website-management/設定網站安全性.md#會員個資部分隱碼){ title="設定網站安全性" }，列印明細時系統會自動遮蓋會員姓名、手機及地址的部分字元以保護隱私。
+- **個資隱碼：** 若後台開啟了[會員個資部分隱碼](../../website-management/security-settings.md#operate-security-pdpa){ title="保護後台帳號與顧客資料" }，列印明細時系統會自動遮蓋會員姓名、手機及地址部分字元以保護隱私。
 
 ![](../../../assets/images/ec-訂單明細頁-訂購人與收貨人資訊.png)
 
@@ -292,7 +289,8 @@ hide:
 
 ![](../../../assets/images/ec-訂單明細頁-訂單操作紀錄.png)
 
-!!! tip "向客服反應訂單問題時，可截取此區塊圖片以利溝通。"
+!!! tip "客服溝通"
+    向客服反應訂單問題時，可截取此區塊圖片以利溝通。
 
 ---
 
@@ -301,7 +299,6 @@ hide:
 當訂單進入「退貨審查」狀態後，明細頁會出現 **「部分退款」** 欄位。商家可在此勾選要退貨的商品、輸入退款金額，並點擊「確認退款」來完成流程。
 
 ![](../../../assets/images/ec-訂單明細頁-部分退款.png)
-
 
 ## 批次操作功能
 
@@ -313,22 +310,27 @@ hide:
     
 - **管理標籤：** 為選定訂單批次增加或移除自定義標籤。
     
-    > :lucide-flame: 可搭配「[檢視群組](#檢視群組篩選器模組)」功能，將篩選出的特定客群或異常訂單一鍵「綁定標籤」進行分類標記。
+!!! tip "整合應用"
+    可搭配「[檢視群組](#order-filter-group)」篩選出特定客群後，再透過「管理標籤」一鍵綁定標籤進行分類標記。
 
 ![](../../../assets/images/ec-訂單列表-更多操作.png)
 
 
-## 相關操作
+## 後續操作
 
 <div class="grid cards" markdown>
 
-- :lucide-settings-2:{ .lg }   
-  [__結帳頁與物流設定__](結帳頁與物流設定說明)     
-  。
+- :lucide-download:{ .lg }  
+  [__匯出訂單報表__](../reports/export-order-report.md){ title="匯出訂單報表" }  
+  將目前查詢結果匯出為 Excel／CSV，便於財會對帳或客服查詢。
 
-- :lucide-ban:{ .lg }     
-  [____]()  
-  。
+- :lucide-reply:{ .lg }  
+  [__訂單退貨流程__](../order-return-process.md){ title="訂單退貨流程" }  
+  了解從訂單發起退貨的完整流程與注意事項。
+
+- :lucide-rotate-ccw:{ .lg }  
+  [__訂單退款流程__](../order-refund-process.md){ title="訂單退款流程" }  
+  掌握訂單退款的情境與操作步驟。
 
 </div>
 
