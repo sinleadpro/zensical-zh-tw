@@ -2,7 +2,7 @@
 title: 訂單分析
 description: 使用訂單分析頁面查看銷售趨勢、金物流偏好與業績報表
 created: 2026-06-15
-last_modified: 2026-06-23 20:54
+last_modified: 2026-06-24 09:36
 lang: zh-TW
 type: tutorial
 status: ""
@@ -411,43 +411,43 @@ hide:
 
 ### 付款方式 { #read-order-analysis-read-payment }
 
-=== "付款方式｜訂單數（月趨勢）"
+=== "訂單數（月趨勢）"
 
     各月各付款方式的訂單數。
 
     ![付款方式訂單數月趨勢](../../../assets/images/ec-bi-order-payment-count-trend.zh-tw.png)
 
-=== "付款方式｜占比（月趨勢）"
+=== "占比（月趨勢）"
 
     各月各付款方式的訂單占比。例：2020 年 4 月，信用卡 468 筆，佔當月 47.3%。
 
     ![付款方式占比月趨勢](../../../assets/images/ec-bi-order-payment-ratio-trend.zh-tw.png)
 
-=== "付款方式｜占比（區間）"
+=== "占比（區間）"
 
     時間區間內各付款方式的訂單占比。例：信用卡 3427 筆，佔 47%。
 
     ![付款方式占比](../../../assets/images/ec-bi-order-payment-ratio.zh-tw.png)
 
-=== "付款方式｜平均訂單金額（月趨勢）"
+=== "平均訂單金額（月趨勢）"
 
     各月各付款方式的平均訂單金額（該付款方式訂單總金額 ÷ 該付款方式訂單數）。
 
     ![付款方式平均金額月趨勢](../../../assets/images/ec-bi-order-payment-aov-trend.zh-tw.png)
 
-=== "付款方式｜平均訂單金額（區間）"
+=== "平均訂單金額（區間）"
 
     時間區間內各付款方式的平均訂單金額。
 
     ![付款方式平均金額](../../../assets/images/ec-bi-order-payment-aov.zh-tw.png)
 
-=== "付款方式｜退貨率（月趨勢）"
+=== "退貨率（月趨勢）"
 
     各月各付款方式的退貨率（該付款方式已退貨訂單 ÷ 該付款方式非取消訂單）。
 
     ![付款方式退貨率月趨勢](../../../assets/images/ec-bi-order-payment-return-trend.zh-tw.png)
 
-=== "付款方式｜退貨率（區間）"
+=== "退貨率（區間）"
 
     時間區間內各付款方式的退貨率。
 
@@ -455,43 +455,43 @@ hide:
 
 ### 出貨方式 { #read-order-analysis-read-shipping }
 
-=== "出貨方式｜訂單數（月趨勢）"
+=== "訂單數（月趨勢）"
 
     各月各出貨方式的訂單數。例：2020 年 5 月，黑貓 751 筆。
 
     ![出貨方式訂單數月趨勢](../../../assets/images/ec-bi-order-shipping-count-trend.zh-tw.png)
 
-=== "出貨方式｜占比（月趨勢）"
+=== "占比（月趨勢）"
 
     各月各出貨方式的認列訂單占當月所有認列訂單的比率。例：2020 年 5 月，黑貓佔 62.6%。
 
     ![出貨方式占比月趨勢](../../../assets/images/ec-bi-order-shipping-ratio-trend.zh-tw.png)
 
-=== "出貨方式｜占比（區間）"
+=== "占比（區間）"
 
     時間區間內各出貨方式的認列訂單比率。例：黑貓 4845 筆，佔 62%。
 
     ![出貨方式占比](../../../assets/images/ec-bi-order-shipping-ratio.zh-tw.png)
 
-=== "出貨方式｜平均客單價（月趨勢）"
+=== "平均客單價（月趨勢）"
 
     各月各出貨方式的平均訂單金額（以該出貨方式的認列訂單計）。例：黑貓 3575.96 元。
 
     ![出貨方式平均客單價月趨勢](../../../assets/images/ec-bi-order-shipping-aov-trend.zh-tw.png)
 
-=== "出貨方式｜平均客單價（區間）"
+=== "平均客單價（區間）"
 
     時間區間內各出貨方式的平均訂單金額。例：黑貓 3799.98 元。
 
     ![出貨方式平均客單價](../../../assets/images/ec-bi-order-shipping-aov.zh-tw.png)
 
-=== "出貨方式｜退貨率（月趨勢）"
+=== "退貨率（月趨勢）"
 
     各月各出貨方式的退貨率（該出貨方式已退貨訂單 ÷ 該出貨方式非取消訂單）。
 
     ![出貨方式退貨率月趨勢](../../../assets/images/ec-bi-order-shipping-return-trend.zh-tw.png)
 
-=== "出貨方式｜退貨率（區間）"
+=== "退貨率（區間）"
 
     時間區間內各出貨方式的退貨率。
 
@@ -504,37 +504,37 @@ hide:
 !!! info "顯示條件"
     此組圖表需已串接導購平台才會出現，並依實際串接的平台呈現各來源，詳見 [第三方導購圖表的顯示條件](#prerequisites-order-analysis-third-party){ data-preview }。
 
-=== "第三方導購｜訂單數（月趨勢）"
+=== "訂單數（月趨勢）"
 
     各月各訂單來源的訂單數。例：2020 年 4 月，LINE 購物 90 筆。
 
     ![第三方導購訂單數月趨勢](../../../assets/images/ec-bi-order-referral-count-trend.zh-tw.png)
 
-=== "第三方導購｜占比（區間）"
+=== "占比（區間）"
 
     時間區間內各來源的認列訂單占所有認列訂單的比例。
 
     ![第三方導購占比](../../../assets/images/ec-bi-order-referral-ratio.zh-tw.png)
 
-=== "第三方導購｜平均客單價（月趨勢）"
+=== "平均客單價（月趨勢）"
 
     各月各來源的平均訂單金額（該來源認列訂單總金額 ÷ 該來源認列訂單數）。例：2020 年 5 月，LINE 購物 3312.93 元。
 
     ![第三方導購平均客單價月趨勢](../../../assets/images/ec-bi-order-referral-aov-trend.zh-tw.png)
 
-=== "第三方導購｜平均客單價（區間）"
+=== "平均客單價（區間）"
 
     時間區間內各來源的平均訂單金額。例：LINE 購物 3222.52 元。
 
     ![第三方導購平均客單價](../../../assets/images/ec-bi-order-referral-aov.zh-tw.png)
 
-=== "第三方導購｜退貨率（月趨勢）"
+=== "退貨率（月趨勢）"
 
     各月各來源的退貨率（該來源已退貨訂單 ÷ 該來源非取消訂單）。
 
     ![第三方導購退貨率月趨勢](../../../assets/images/ec-bi-order-referral-return-trend.zh-tw.png)
 
-=== "第三方導購｜退貨率（區間）"
+=== "退貨率（區間）"
 
     時間區間內各來源的退貨率。
 
