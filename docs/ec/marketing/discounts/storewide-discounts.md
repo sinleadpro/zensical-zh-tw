@@ -72,7 +72,7 @@ hide: []
 對全站所有商品統一套用折扣優惠。此活動同步支援 EC 與 POS，可依方案指定線上、線下或全通路開啟。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品){ title="圖示慣例" } | EC / POS
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | EC / POS
 { .doc-badge }
 
 ## 全館折扣規格
