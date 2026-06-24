@@ -1,9 +1,8 @@
 ---
-
 title: 建立含指定商品的購物車連結
 description: 建立特殊的購物車連結，自動將預設商品與數量加入購物車，適用於社群導購、EDM 行銷等情境
 created: 2026-04-29 14:06
-last_modified: 2026-05-04 12:31
+last_modified: 2026-06-24 11:34
 lang: zh-TW
 type: tutorial
 status: ""
@@ -64,8 +63,6 @@ search:
 icon: lucide/link
 hide:
 ---
-
-
 
 ![商品導購連結購物車頁面](../../assets/images/ec-行銷活動-指定商品導購連結.png){ .hero-page }
 
@@ -193,4 +190,4 @@ https://www.goodthing.com/cart/replace?products=56789:2&type=product
 
 ??? quote "可以在導購連結中自動套用折扣碼嗎？"
 
-    可以，在連結中加入 `coupon=[折扣碼]` 參數，顧客點擊後購物車會[自動套用該折扣碼][搭配折扣碼]{ data-preview }。
+    可以，在連結中加入 `coupon=[折扣碼]` 參數，顧客點擊後購物車會[自動套用該折扣碼](#搭配折扣碼){ title="搭配折扣碼" }。

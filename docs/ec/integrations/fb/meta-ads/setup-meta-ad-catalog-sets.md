@@ -113,7 +113,7 @@ hide: []
 
     - **彈性篩選**：可先切換 所有商品 或 熱門商品 範疇，再依據類型、標籤、廠商或關鍵字進行搜尋。
     - **選取限制**：系統僅支援選取狀態為「公開」且「已上架」的商品。
-    - **自動排除機制**：帶有「贈品」或「排除product feed」標籤的商品將無法被選取。瞭解 [如何設定商品排除標籤](../../../products/categories-and-tags/管理商品標籤.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }
+    - **自動排除機制**：帶有「贈品」或「排除product feed」標籤的商品將無法被選取。瞭解 [如何設定商品排除標籤](../../../products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }
 
     ![MMA-目錄商品組合-新增商品-篩選商品](../../../../assets/images/ec-maa-創建目錄商品組合-新增商品-篩選商品.png)
 
@@ -162,7 +162,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-package-x:{ .lg }   
-  [__排除商品同步__](../../../products/categories-and-tags/管理商品標籤.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }       
+](../../../products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤)排除上傳至第三方平台標籤){ title="管理商品標籤" }       
   若有特定商品不希望同步至 Meta，可在該商品標籤填入「贈品」或「排除product feed」，系統將自動排除。
 
 - :lucide-rocket:{ .lg }   

@@ -1,9 +1,8 @@
 ---
-
 title: 設定一頁式商店 YouTube 影片自動播放與起始秒數
 description: 調整 YouTube 影片網址參數，在一頁式商店中設定自動播放、循環播放與指定播放起始秒數。
 created: 2024-05-23 11:30
-last_modified: 2026-03-05 11:51
+last_modified: 2026-06-24 11:30
 lang: zh-TW
 type: tutorial
 status: ""
@@ -12,8 +11,8 @@ author: Jase
 reviewers: []
 notes:
   - verify youtube embed url 限制 autoloop 是不是只能從頭開始，CYB 支援程度。
-ga_views:
-feedback:
+ga_views: 0
+feedback: 0
 products:
   - EC
 modules:
@@ -33,6 +32,7 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
+feature_badges: []
 intents:
   - 設定 YouTube 影片自動播放
   - 設定 YouTube 影片開始秒數
@@ -63,18 +63,17 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3838
   - https://www.cyberbiz.io/support/?p=19650
-permalink: ""
-comments: ""
+permalink: https://help.cyberbiz.io/ec/marketing/one-page-store-youtube-autoplay
+comments: false
 search:
-  exclude: ""
-icon: ""
+  exclude: false
+icon: lucide/video
+hide: []
 ---
 
+![一頁式商店影片設定](../../assets/images/ec-行銷活動-一頁式商店-影片設定.png){ title="一頁式商店影片設定" .hero-page }
 
-
-![](../../../assets/images/ec-行銷活動-一頁式商店-影片設定.png){ .hero-page }
-
-## 一頁式商店影片自動播放功能說明
+## 影片自動播放功能說明
 
 您可以針對一頁式商店設定 **YouTube 影片自動播放** 或 **設定特定的播放開始時間**，以增加商品展示的動態效果與精準度。
 
@@ -86,7 +85,7 @@ icon: ""
 2.  **銷售內容設定：** 點選「銷售內容設定」分頁，在下方新增區塊處點擊「插入影片」。
 3.  **嵌入連結：** 貼上您想要嵌入的 **YouTube 影片網址**，並點選「新增」。
 
-![](../../../assets/images/ec-行銷活動-一頁式商店-插入影片-舊版.png)
+![插入影片-舊版](../../assets/images/ec-行銷活動-一頁式商店-插入影片-舊版.png){ title="插入影片-舊版" }
 
 ---
 
@@ -111,7 +110,7 @@ icon: ""
 1.  **重要規範：** 根據 YouTube 的規範，開啟自動播放功能時 **必須設定為「靜音 (mute=1)」**，否則自動播放將無法生效。
 2.  **儲存：** 完成語法修改後按下儲存，即可在預覽畫面確認自動播放效果。
 
-![](../../../assets/images/ec-行銷活動-一頁式商店-youtube影片-自動播放-設定-舊版.gif)
+![自動播放設定-舊版](../../assets/images/ec-行銷活動-一頁式商店-youtube影片-自動播放-設定-舊版.gif){ title="自動播放設定-舊版" }
 
 ## 設定影片指定開始播放秒數
 
@@ -126,7 +125,7 @@ icon: ""
 	https://www.youtube.com/embed/此影片的ID?start=秒數&rel=0&playlist=此影片的ID&loop=1&autoplay=1&mute=1
 	```
 
-![](../../../assets/images/ec-行銷活動-一頁式商店-youtube影片-自動播放加起始秒數-舊版.png)
+![自動播放含起始秒數-舊版](../../assets/images/ec-行銷活動-一頁式商店-youtube影片-自動播放加起始秒數-舊版.png){ title="自動播放含起始秒數-舊版" }
 
 ## 拖拉版型介面（新版）影片設定
 
@@ -145,7 +144,7 @@ icon: ""
 	
 	- **版面外邊距**：可設定左右外邊距、底部外邊距。電腦版與手機版(手機版包含平板版)可分開設定。
 
-![](../../../assets/images/ec-行銷活動-一頁式商店-影片設定.gif)
+![影片設定](../../assets/images/ec-行銷活動-一頁式商店-影片設定.gif){ title="影片設定" }
 
 ---
 
@@ -154,7 +153,7 @@ icon: ""
 *   **影片 ID 注意事項：** 每一部影片的 ID 皆不同，在貼上自動播放程式碼時，請務必確保 `playlist=` 後方的 ID 與您嵌入的影片 ID 一致,。
 *   **YouTube 限制：** 目前系統僅支援 YouTube 網址格式，若您有自備影片檔案，須先上傳至 YouTube 後再行設定,。
 *   **原始碼錯誤處理：** 若在編輯過程中發現影片後的圖片或文字消失，通常是因為影片語法標籤未正確閉合或被其他標籤包住，此時需點擊編輯器左上角的「原始碼」檢查並修正 `<div>` 或 `<p>` 標籤。
-*   **恢復機制：** 若修改程式碼後導致頁面異常，可利用樣版編輯器內的 **查看之前版本** 按鈕 [回溯至先前版本](../website-appearance/restore-code-theme-editor.md#操作步驟){ data-preview }。
+*   **恢復機制：** 若修改程式碼後導致頁面異常，可利用樣版編輯器內的 **查看之前版本** 按鈕 [回溯至先前版本](../website-appearance/code-customization/restore-code-theme-editor.md#操作步驟){ title="使用樣板編輯器恢復網頁代碼" }。
 
 ---
 

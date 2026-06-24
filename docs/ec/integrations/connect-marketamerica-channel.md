@@ -119,7 +119,7 @@ hide: []
 - 訂單取消/退貨時，「贈品」標籤商品的負項金額不會同步至美安。
 
 
-瞭解 [如何將商品排除上傳至第三方平台](../products/categories-and-tags/管理商品標籤.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }。
+瞭解 [如何將商品排除上傳至第三方平台](../products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }。
 
 !!! warning "美安串接目前 **不支援**「排除product feed」標籤，僅能透過「贈品」標籤進行排除。"
 
