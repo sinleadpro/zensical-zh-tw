@@ -1,9 +1,8 @@
 ---
-
 title: 設定與管理簡訊通知樣板
 description: 設定與管理簡訊通知樣板，包含樣板編輯規則、計費機制、阻擋風險與實際應用情境。
 created:
-last_modified: 2026-02-13
+last_modified: 2026-06-24 09:55
 lang: zh-TW
 permalink:
 type: tutorial
@@ -77,8 +76,7 @@ icon: lucide/message-square-text
 hide:
 ---
 
-
-![](../../assets/images/ec-訊息推播-簡訊樣板設定.png){ .hero-page }
+![簡訊樣板設定頁面](../../assets/images/ec-訊息推播-簡訊樣板設定.png){ .hero-page }
 
 ## 簡訊通知樣板說明
 
@@ -99,8 +97,7 @@ hide:
 
 ## 進入路徑與介面概觀
 
-!!! path "後台路徑"
-    進入 CYBERBIZ 管理後台，點選 **訊息推播 > 簡訊通知樣板**。
+!!! path "後台路徑：進入 CYBERBIZ 管理後台，點選 **訊息推播 > 簡訊通知樣板**。"
 
 - **介面功能介紹**：
 

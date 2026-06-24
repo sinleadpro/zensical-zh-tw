@@ -1,9 +1,8 @@
 ---
-
 title: 設定與管理 Email 通知樣板
 description: 管理與編輯系統自動發送的 Email 通知樣板，包括內容自訂、啟用控制、收件者設定與多國語系配置。
 created:
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-24 09:51
 lang: zh-TW
 permalink:
 type: tutorial
@@ -50,14 +49,14 @@ features:
 prerequisites: []
 related: []
 tags:
-  - Email_通知樣板
-  - Email_樣板管理
-  - Email_設定
-  - Email_多國語系
+  - Email 通知樣板
+  - Email 樣板管理
+  - Email 設定
+  - Email 多國語系
   - 商家通知
   - 短網址
   - 通知管理
-  - Email_自動化
+  - Email 自動化
 acoiv:
 apis: []
 devices:
@@ -76,9 +75,7 @@ icon: lucide/mails
 hide:
 ---
 
-
-
-![](../../assets/images/ec-訊息推播-email 通知樣板.png){ .hero-page }
+![Email通知樣板頁面](../../assets/images/ec-訊息推播-email 通知樣板.png){ .hero-page }
 
 ## Email 通知樣板說明
 
@@ -160,7 +157,7 @@ hide:
 
 |**通知類型**|**關鍵發送邏輯**|**支援通路**|
 |---|---|---|
-|**出貨通知**|**僅在配送狀態轉為「已出貨 (配送中)」時觸發**。旨在確保包裹已由物流商承運。詳見 [出貨狀態物流提示說明](../orders/home-delivery/shipping-status-tooltip.md){ title="出貨狀態物流提示文字說明" }  。|Email, 簡訊, LINE|
+|**出貨通知**|**僅在配送狀態轉為「已出貨 (配送中)」時觸發**。旨在確保包裹已由物流商承運。詳見 [出貨狀態物流提示說明](../orders/home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }  。|Email, 簡訊, LINE|
 |**訂單狀態變更**|當訂單成立、付款成功或取消時觸發。|Email, 簡訊, LINE|
 |**會員權益通知**|包含帳號啟用、密碼重設、生日禮金發送等。|Email, 簡訊|
 
@@ -193,12 +190,12 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-message-square-text:{ .lg }   
-  [__修改簡訊內容__]()     
-  。
+  [__簡訊通知樣板管理__](manage-sms-templates.md){ title="設定與管理簡訊通知樣板" }     
+  設定與管理簡訊通知樣板，包含編輯規則、計費機制與阻擋風險。
 
 - :simple-line:{ .lg }     
-  [__串接 LINE 通知__]()  
-  。
+  [__LINE OA 通知樣板管理__](manage-line-oa-templates.md){ title="設定與管理 LINE OA 通知樣板" }  
+  設定與管理 LINE OA 自動化通知樣板，包含前置條件、設定流程與支援情境。
 
 </div>
 

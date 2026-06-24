@@ -2,7 +2,7 @@
 title: 發送 LINE 加入好友邀請
 description: 透過簡訊或 Email 向未綁定會員發送 LINE 官方帳號加入好友邀請，以提升好友數並促進會員綁定與行銷轉換。
 created: 2026-02-22 00:00
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-24 10:32
 lang: zh-TW
 type: tutorial
 status:
@@ -40,7 +40,7 @@ features:
 prerequisites:
   - LINE 官方帳號
 related:
-  - ../integrations/line/設定 LINE 綁定會員贈送優惠券.md
+  - ../integrations/line/account-integration/setup-line-binding-coupon-gift.md
 tags:
   - LINE
   - 好友邀請
@@ -49,7 +49,7 @@ tags:
   - Email
   - 行銷
   - CRM
-  - LINE_OA
+  - LINE OA
 acoiv: operation
 apis:
   - LINE Messaging API
@@ -69,8 +69,7 @@ icon: lucide/user-plus
 hide: []
 ---
 
-
-![](../../assets/images/ec-訊息推播-line oa 加入好友邀請.png){ .hero-page }
+![LINE OA 好友邀請設定頁面](../../assets/images/ec-訊息推播-line oa 加入好友邀請.png){ .hero-page }
 
 ## LINE 加入好友邀請說明
 
@@ -118,10 +117,11 @@ hide: []
 
 ## 步驟三：確認與傳送
 
-1. **檢查字數（簡訊）：** 簡訊範本右下角會顯示字數統計。國內簡訊每封上限為 **70 個字**（含空白、換行、標點與連結），若超過字數將會拆分為多封寄送，並依封數扣除 **Cyber 幣**。
-> :lucide-flame: 若 LINE 好友邀請網址過長導致簡訊字數超過上限，商家可以使用第三方縮網址工具處理後再貼入範本。
+1. **檢查字數（簡訊）：** 簡訊範本右下角會顯示字數統計。國內簡訊每封上限為 **70 個字**（含空白、換行、標點與連結），若超過字數將會拆分為多封寄送，並依封數扣除 **Cyber幣**。
 
 2. **立即傳送：** 點選「立即傳送」後，系統會跳出二次確認視窗，確認後即可發出邀請。
+
+!!! tip "若 LINE 好友邀請網址過長導致簡訊字數超過上限，商家可以使用第三方縮網址工具處理後再貼入範本。"
 
 !!! warning "注意事項"
 
@@ -148,7 +148,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-gift:{ .lg }   
-  [__LINE 綁定送優惠券__](../integrations/line/setup-line-binding-coupon-gift.md){ data-preview }  
+  [__LINE 綁定送優惠券__](../integrations/line/account-integration/setup-line-binding-coupon-gift.md){ title="設定 LINE 綁定會員贈送優惠券" }  
   啟用「綁定即送券」功能，利用即時獎勵誘發顧客完成 LINE OA 與官網帳號的雙向綁定。
 
 </div>
@@ -159,9 +159,9 @@ hide: []
 ??? quote "發送好友邀請後，系統如何判定會員「已成功綁定」" 
 	系統會即時比對官網會員資料庫與 LINE UID 的連動狀態。若會員點擊連結並完成 LINE 授權、成功與官網帳號連動後，該會員將從「待邀請名單」中移除，避免重複收到邀請訊息。
 
-??? quote "簡訊發送失敗會退回 Cyber 幣嗎" 
+??? quote "簡訊發送失敗會退回 Cyber幣嗎" 
 
-	- **發送成功：** 正常扣除 Cyber 幣。 
+	- **發送成功：** 正常扣除 Cyber幣。 
 	- **發送失敗：** 若因電信黑名單、號碼錯誤或格式不符導致發送失敗，系統通常不會扣費，但若因包含「敏感關鍵字」遭電信商中途攔截，則視同已執行發送，不予退還。建議發送前先進行小規模測試。
 
 ??? quote "為什麼我貼上的 LINE 連結在簡訊中無法點擊" 
