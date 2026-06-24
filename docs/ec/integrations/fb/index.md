@@ -52,9 +52,7 @@ icon: simple/facebook
 hide:
 ---
 
-{ .subtitle }
 
-{ .doc-badge }
 
 { .hero-page }
 

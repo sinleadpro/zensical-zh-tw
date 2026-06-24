@@ -2,7 +2,7 @@
 title: 設定與發送簡訊通知
 description: 如何在 CYBERBIZ 後台設定與發送簡訊，包含發送方式、費用計算與操作步驟。
 created: 2026-04-27 17:09
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-24 10:08
 lang: zh-TW
 type: tutorial
 status: ""
@@ -28,8 +28,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS 
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -49,7 +49,7 @@ related:
 tags:
   - 簡訊
   - 訊息推播
-  - CYBER_幣
+  - Cyber幣
 acoiv: operation
 apis: []
 devices:
@@ -69,8 +69,6 @@ search:
 icon: lucide/message-square-plus
 hide: []
 ---
-如何在 CYBERBIZ 後台設定與發送簡訊，包含發送方式、費用計算與操作步驟。
-{ .subtitle }
 
 ![訊息推播-發送簡訊](../../assets/images/ec-訊息推播-發送簡訊.png){ .hero-page }
 
@@ -89,7 +87,7 @@ hide: []
 | 發送地區 | 費用 (每封) | 單封字數上限 | 備註 |
 | :--- | :--- | :--- | :--- |
 | **國內簡訊** | 1 Cyber 幣 | 70 字 | **70 字以內** 計為一封；超過 70 字後，每 **67 字** 計為一封。 |
-| **海外簡訊** | 5 Cyber 幣 | 70 字 | 同上（需開啟海外發送功能）。需預先開啟 [海外發送功能](manage-sms-templates.md#進入路徑與介面概觀){ title="設定與管理簡訊通知樣板" } |
+| **海外簡訊** | 5 Cyber 幣 | 70 字 | 同上（需開啟海外發送功能）。需預先開啟 [海外發送功能](manage-sms-templates.md#進入路徑與介面概觀){ title="設定與管理簡訊通知樣板" data-preview } |
 
 !!! warning "NCC 規範：自動添加前綴標籤"
     因應 NCC 規範，系統發送時會於簡訊開頭自動加上 「商家名稱」 或 「【CYBERBIZ代發】」：
@@ -103,7 +101,7 @@ hide: []
 
 為了確保簡訊中的網址能被正確辨識並順利跳轉，請遵守以下格式要求：
 
-- **格式要求**：網址必須以 http:// 或 https:// 開頭。
+- **格式要求**：網址必須以 `http://` 或 `https://` 開頭。
 - **空白分隔**：網址前後皆須留有一個半形空白，以避免與前後文字黏連導致辨識錯誤。
 - **允許域名**：為維持資安與簡訊抵達率，簡訊內僅允許使用以下網址：
     - 商店官方網址
@@ -128,11 +126,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-users:{ .ig }
-  [__顧客群組發送__](#顧客群組發送){ data-preview }
+  [__顧客群組發送__](#顧客群組發送)
 - :lucide-pencil:{ .ig }
-  [__手動發送__](#手動發送){ data-preview }
+  [__手動發送__](#手動發送)
 - :lucide-file-spreadsheet:{ .ig }
-  [__匯入 Excel 發送__](#匯入-excel-發送){ data-preview }
+  [__匯入 Excel 發送__](#匯入-excel-發送)
 
 </div>
 
@@ -216,30 +214,28 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-message-square-text:{ .lg }  
-  [__簡](manage-sms-templates.md){ title="設定與管理簡訊通知樣板" }訊通知樣板.md)  
-  商家可自訂系統在特定情境下（如訂單成立、出貨、密碼變更）自動發送的簡訊內容，並開啟短網址功能節省字數。
+  [__簡訊通知樣板管理__](manage-sms-templates.md){ title="設定與管理簡訊通知樣板" }  
+  自訂系統自動發送的簡訊內容，支援短網址功能節省字數。
 
 - :lucide-zap:{ .lg }  
-  [__自動化簡訊發送__](../app-market/automation/使用%20AUTOMATION%20建立自動化推播流程.md#簡訊發送設定)  
-  企業版與 PLUS版 商家可利用 CYBERBIZ AUTOMATION 建立自動化簡訊流程，設定一次性或週期性發送。
+  [__自動化簡訊發送__](../app-market/automation/automation-push-flow.md#簡訊發送設定)  
+  使用 AUTOMATION 建立自動化簡訊流程，支援一次性或週期性發送。
 
 - :lucide-history:{ .lg }  
   [__查詢簡訊發送紀錄__](track-sms-records.md){ title="查詢與追蹤簡訊發送紀錄" }  
-  可查詢店鋪的簡訊發送歷史，包含發送時間、收件手機、訊息內容與費用。
+  查詢簡訊發送歷史，包含時間、收件人、內容與費用。
 
 - :lucide-user-plus:{ .lg }  
-  [__LINE OA 加入好友邀請__](發送%20LINE%20加入好友邀請.md)  
-  透過後台「LINE OA 加入好友邀請」功能，向尚未綁定 LINE OA 的會員發送帶有好友連結的簡訊。
+  [__LINE OA 加入好友邀請__](send-line-friend-invitation.md){ title="發送 LINE 加入好友邀請" }  
+  向未綁定 LINE OA 的會員發送帶有好友連結的簡訊。
 
-- :lucide-bell-ring:{ .lg ](manage-sms-templates.md#顧客訂單未付款通知)通知樣板.md#顧客訂單未付款通知)  
-  系統會依設定的間隔天數發送 3 次簡訊提醒顧客付款。
+- :lucide-bell-ring:{ .lg }  
+  [__未付款提醒通知__](../orders/order-settings/unpaid-reminder-settings.md){ title="設定未付款提醒" }  
+  依設定間隔發送 3 次簡訊提醒顧客付款。
 
-- :lucide-rece](manage-sms-templates.md#發票開立通知)知__](設定與管理簡訊通知樣板.md#發票開立通知)  
-  若商店註冊採手機必填，可開啟樣板發送電子發票資訊簡訊給顧客。
-
-- :](manage-sms-templates.md#商品推薦通知) [__門市助理推薦__](設定與管理簡訊通知樣板.md#商品推薦通知)  
-  總部管理者可編輯「商品推薦通知」簡訊，由門市人員發送給顧客。
-
+- :lucide-package:{ .lg }  
+  [__商品推薦通知__](../app-market/storepal/configure-global-settings-and-attribution.md#簡訊通知開關){ title="全站功能與業績歸因設定" }  
+  編輯商品推薦通知簡訊，由門市人員發送給顧客。
 </div>
 
 ## 常見問題
@@ -259,7 +255,7 @@ hide: []
     - PLUS / 企業版 用戶不須額外儲值即可使用
     - 超過 70 字會拆分為多封並加倍扣費
 
-??? quote "簡訊發送失敗會退回 Cyber 幣嗎？"
+??? quote "簡訊發送失敗會退回 Cyber幣嗎？"
 
     若因「號碼錯誤」或「電信商端問題」導致發送失敗，通常仍會產生發送成本並扣除 Cyber 幣。為避免失敗，請確保：
 

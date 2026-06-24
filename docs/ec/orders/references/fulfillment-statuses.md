@@ -1,4 +1,5 @@
 ---
+
 title: 配送狀態對照表
 description: ""
 created: 2026-06-04 15:06
@@ -26,8 +27,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS 
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents: []
@@ -59,6 +60,7 @@ search:
 icon: lucide/table
 hide:
 ---
+
 
 本對照表彙整 CYBERBIZ 新版訂單列表的配送狀態，供搜尋、篩選、出貨等功能引用。
 

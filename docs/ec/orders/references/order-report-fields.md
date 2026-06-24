@@ -58,9 +58,6 @@ search:
 icon: lucide/table
 hide: []
 ---
-
-{{ subtitle(page.meta.description) }}
-
 ## 訂單各項折扣拆分
 
 

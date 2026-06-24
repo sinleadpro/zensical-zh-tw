@@ -1,13 +1,12 @@
 ---
 title: 設定與管理 LINE OA 通知樣板
-description: 設定與管理 LINE 官方帳號（LINE Official Account）的自動化通知樣板，包含前置條件、樣板設定流程、支援情境與計費規則。
-created:
-last_modified: 2026-06-08 17:50
+description: 設定與管理 LINE 官方帳號（LINE OA）的自動化通知樣板，包含前置條件、樣板設定流程、支援情境與計費規則。
+created: 2026-02-13 23:26
+last_modified: 2026-06-24 10:22
 lang: zh-TW
-permalink:
 type: tutorial
-status:
-version:
+status: ""
+version: ""
 author: Jase
 reviewers: []
 notes:
@@ -26,10 +25,11 @@ difficulty: intermediate
 tnb: branch
 plans:
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
+feature_badges: []
 intents:
   - 設定 LINE OA 通知樣板
   - 管理 LINE OA 訊息
@@ -45,45 +45,43 @@ features:
   - 定期訂單通知
   - 未付款提醒
   - 行銷通知
-prerequisites: []
-related: []
+prerequisites:
+  - "[[串接 LINE Messaging API]]"
+  - "[[綁定 LINE 官方帳號與官網會員]]"
+related:
+  - "[[設定與管理 Email 通知樣板]]"
+  - "[[設定與管理簡訊通知樣板]]"
+  - "[[設定與發送簡訊通知]]"
 tags:
   - 訊息推播
-  - LINE_OA
+  - LINE OA
   - 訂單通知
   - 定期訂單
   - 物流通知
   - 自動化
   - 樣板管理
-acoiv:
+acoiv: configure
 apis:
   - LINE Messaging API
 devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
+paths:
+  - 訊息推播 > LINE OA 通知樣板
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8156
   - https://www.cyberbiz.io/support/?p=728
+permalink: ""
 comments: false
 search:
   exclude: false
 icon: lucide/message-circle-more
-hide:
+hide: []
 ---
 
-
-# 設定與管理 LINE OA 通知樣板
-
-設定與管理 LINE 官方帳號（LINE Official Account）的自動化通知樣板，包含前置條件、樣板設定流程、支援情境與計費規則。
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 專業PLUS / 進階 PLUS / 高手 PLUS / 企業
-{ .doc-badge }
-
-![](../../assets/images/ec-訊息推播-line oa 樣板.png){ .hero-page }
+![LINE OA 樣板設定頁面](../../assets/images/ec-訊息推播-line oa 樣板.png){ .hero-page }
 
 ## LINE OA 通知樣板說明
 
@@ -95,9 +93,9 @@ hide:
 
 在使用樣板功能前，必須先完成以下設定：
 
-- [x] [**串接 Messaging API**](../integrations/line/串接 LINE Messaging API.md){ data-preview }  ：須先將您的 LINE 官方帳號與系統後台完成 API 串接。
+- [x] [**串接 Messaging API**](../integrations/line/account-integration/connect-line-messaging-api.md){ title="串接 LINE Messaging API" }  ：須先將您的 LINE 官方帳號與系統後台完成 API 串接。
 
-- [x] **收集 LINE UID**：商家需開啟 **LINE 快速登入** 或引導會員操作 [**LINE OA 官方帳號綁定官網會員**](../integrations/line/綁定 LINE 官方帳號與官網會員.md){ data-preview }  ，系統才能收集會員的 LINE UID 以發送訊息。
+- [x] **收集 LINE UID**：商家需開啟 **LINE 快速登入** 或引導會員操作 [**LINE OA 官方帳號綁定官網會員**](../integrations/line/account-integration/bind-line-oa-store-members.md){ title="綁定 LINE 官方帳號與官網會員" }  ，系統才能收集會員的 LINE UID 以發送訊息。
 
 - [x] **好友狀態確認**：顧客必須是該官方帳號的 **好友**，且未封鎖該帳號，才能成功收到訊息。
 
@@ -184,7 +182,7 @@ hide:
 ??? quote "為什麼顧客反映沒有收到 LINE 通知" 
 	請依序確認以下點： 
 
-	1. **綁定狀態**：顧客是否已完成 [LINE OA 與官網會員綁定](../integrations/line/綁定 LINE 官方帳號與官網會員.md)？系統必須取得 LINE UID 才能發送。 
+	1. **綁定狀態**：顧客是否已完成 [LINE OA 官方帳號綁定官網會員](../integrations/line/account-integration/bind-line-oa-store-members.md){ title="綁定 LINE 官方帳號與官網會員" }？系統必須取得 LINE UID 才能發送。 
 	2. **好友狀態**：顧客是否封鎖了您的官方帳號？ 
 	3. **訊息額度**：您的 LINE 官方帳號（Manager）訊息額度是否已達上限？ 
 	4. **發送條件**：該筆訂單是否符合發送時機（例如：是否使用了系統串接物流並產生託運單）？

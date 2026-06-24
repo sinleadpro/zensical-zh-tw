@@ -62,10 +62,6 @@ search:
 icon: lucide/repeat-1
 hide: []
 ---
-{{ subtitle(page.meta.description) }}
-
-{{ badge(page.meta) }}
-
 ![訂單再次購買](../../../assets/images/EC-訂單-訂單查詢-前台-再次購買-hero.png){ .hero-page }
 
 ## 再次購買功能說明

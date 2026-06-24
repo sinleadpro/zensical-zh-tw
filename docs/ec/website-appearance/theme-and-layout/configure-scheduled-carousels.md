@@ -58,8 +58,8 @@ ui_components: []
 paths:
   - 網站外觀 > 排程跑馬燈設定
 layouts:
-  - classic
-  - draggable
+  - 預設版型
+  - 拖拉版型
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5760
   - https://www.cyberbiz.io/support/?p=7863
@@ -70,8 +70,6 @@ search:
 icon: lucide/megaphone
 hide: []
 ---
-在網站版面放上會自動輪播的橫幅廣告，並為每張廣告設定上架與下架時間，讓素材依檔期自動換檔，不必人工手動替換。
-{ .subtitle }
 
 ![排程跑馬燈設定頁面](../../../assets/images/ec-website-apperarance-carousels-hero.png){ .hero-page }
 

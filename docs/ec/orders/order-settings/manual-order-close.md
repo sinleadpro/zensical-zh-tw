@@ -1,4 +1,5 @@
 ---
+
 title: 如何手動結案訂單
 description: 手動結案訂單，包含單筆與批次操作方式，以及結案後對紅利、優惠券、分潤的影響。
 created: 2026-05-06 15:57
@@ -27,8 +28,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS 
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -65,8 +66,7 @@ search:
 icon: lucide/check
 hide: []
 ---
-手動結案訂單，包含單筆與批次操作方式，以及結案後對紅利、優惠券、分潤的影響。
-{ .subtitle }
+
 
 ![結案訂單](../../../assets/images/EC-訂單詳情頁-結案訂單-hero.png){ .hero-page }
 

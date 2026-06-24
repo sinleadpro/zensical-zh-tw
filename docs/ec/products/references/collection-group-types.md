@@ -1,4 +1,5 @@
 ---
+
 title: 商品群組類型對照表
 description: ""
 created: 2026-06-03 18:42
@@ -27,8 +28,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS 
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents: []
@@ -60,6 +61,7 @@ search:
 icon: lucide/table
 hide:
 ---
+
 
 本對照表整理可在「全站商品列表群組排序」中排序的三種商品群組，說明各類型的商品加入方式、典型用途，以及要出現在排序清單(前台首頁「商品列表」)所需符合的條件。
 

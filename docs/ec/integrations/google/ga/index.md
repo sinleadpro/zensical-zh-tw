@@ -41,8 +41,8 @@ features:
   - "資料串流"
 prerequisites: []
 related:
-  - "[[建立並串接 Google Analytics]]"
-  - "[[設定 Google Analytics 進階追蹤與資料分析]]"
+  - "[[setup-google-analytics]]"
+  - "[[google-analytics-advanced-tracking]]"
   - "[[設定 GA4 排除內部流量與第三方參照來源]]"
 tags:
   - "GA4"
@@ -82,11 +82,11 @@ Google Analytics 4 (GA4) 完整教學，包含基礎串接設定與進階資料�
 <div class="grid cards" markdown>
 
 - :lucide-link:{ .lg }   
-  [__建立並串接 Google Analytics__](建立並串接 Google Analytics.md){ title="建立並串接 Google Analytics" }     
+  [__建立並串接 Google Analytics__](setup-google-analytics.md){ title="建立並串接 Google Analytics" }     
   從零開始串接 GA4，包含 Google 端帳號建立與 CYBERBIZ 後台設定。
 
 - :lucide-settings:{ .lg }     
-  [__進階追蹤與資料分析__](設定 Google Analytics 進階追蹤與資料分析.md){ title="設定 Google Analytics 進階追蹤與資料分析" }  
+  [__進階追蹤與資料分析__](google-analytics-advanced-tracking.md){ title="設定 Google Analytics 進階追蹤與資料分析" }  
   啟用加強型評估、Google 信號，調整資料保留期限。
 
 - :lucide-funnel-x:{ .lg }     

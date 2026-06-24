@@ -1,6 +1,5 @@
 ---
 title: 資源中心
-description: 提供操作指南、教學文件、FAQ、更新紀錄與詞彙表，幫助商家快速上手與問題排解。
 notes:
   - 資源中心功能說明 link
 hide:
@@ -101,13 +100,6 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :lucide-history:{ .lg }
-    [__系統更新紀錄__](changelog/){ title="更新紀錄" }
-
-    ---
-
-    掌握 CYBERBIZ 最新功能發佈、系統優化與維護公告，讓您的營運永不斷線。
-
 -   :lucide-file-text:{ .lg }
     [__圖示慣例__](conventions/){ title="圖示慣例" }
 
@@ -115,12 +107,12 @@ hide:
 
     了解本文件中使用的符號與圖示慣例，提升閱讀效率。
 
--   :lucide-code:{ .lg }
+<!-- -   :lucide-code:{ .lg }
     [__API 文件__](API文件.md)
 
     ---
 
-    專屬開發者支援中心，包含 Webhook 調試工具與進階串接規範。
+    專屬開發者支援中心，包含 Webhook 調試工具與進階串接規範。 -->
 
 </div>
 

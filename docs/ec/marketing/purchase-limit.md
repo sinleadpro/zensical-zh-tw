@@ -2,7 +2,7 @@
 title: 設定商品限購數量
 description: 限制每位會員可購買特定商品的數量，用於限量商品、防止囤貨、確保更多顧客買得到熱銷品。
 created: 2026-06-08 14:19
-last_modified: 2026-06-08 19:52
+last_modified: 2026-06-24 11:39
 lang: zh-TW
 type: tutorial
 status: ""
@@ -26,8 +26,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS 
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -40,7 +40,7 @@ features:
   - 最低購買數量
 prerequisites: []
 related:
-  - "[[設定商品加價購]]"
+  - "[[setup-product-upsell]]"
 tags:
   - EC
   - 行銷活動
@@ -67,11 +67,6 @@ search:
 icon: lucide/package-minus
 hide: []
 ---
-
-{{ subtitle(page.meta.description) }}
-
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 進階 / 高手 / 專業PLUS / 進階PLUS / 高手PLUS / 企業
-{ .doc-badge }
 
 ![商品限購數量設定](../../assets/images/ec-行銷活動-商品限購數量-hero.png){ .hero-page }
 
@@ -105,7 +100,7 @@ hide: []
 
 ## 操作步驟 { #operate-purchase-limit }
 
-後台路徑：「行銷活動」>「商品限購數量設定」。
+!!! path "後台路徑：「行銷活動」>「商品限購數量設定」。"
 
 ### 建立群組並加入商品 { #operate-purchase-limit-create }
 
@@ -160,7 +155,7 @@ hide: []
 ## 前台顯示 <small>顧客端畫面</small>
 
 只要開通限購功能，顧客在結帳送出訂單時，系統就會依群組規則把關：購買數量超過上限、或帳號狀態不符（如未登入、未啟用、已停用）時，結帳會被擋下並顯示對應提示，例如「這些商品：『……
-  』最多只能購買 N 個……」。帳號狀態的判定詳見 [帳號狀態與購買權限對照表][reference-purchase-limit-account] 。此把關適用於所有限購頻率（永久、每月、每年、每筆）。
+  』最多只能購買 N 個……」。帳號狀態的判定詳見 [帳號狀態與購買權限對照表](references/purchase-limit-account-status.md){ title="帳號狀態與購買權限對照表" } 。此把關適用於所有限購頻率（永久、每月、每年、每筆）。
 
 <div class="grid cards" markdown>
 
@@ -197,7 +192,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-circle-plus:{ .lg }  
-  [__設定商品加價購__](設定商品加價購.md)  
+  [__設定商品加價購__](setup-product-upsell.md)  
   除了限制購買數量，也可設定加價購活動，在結帳頁推薦顧客加購相關商品，提高客單價。
 
 </div>

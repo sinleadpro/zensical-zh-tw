@@ -44,14 +44,7 @@ search:
 icon: ""
 hide:
 ---
-
-{{ subtitle(page.meta.description) }}
-
-{{ badge(page.meta) }}
-
 { .hero-page }
-
-# 全站共用設定
 
 全站共用設定不屬於單一頁面,而是套用到 **整個官網**。在拖拉版型編輯器左側面板下方,可進入導覽列、彈窗廣告、頁腳、顏色設定與全站設定。
 
@@ -66,8 +59,8 @@ hide:
 
 導覽列與頁腳的設定較完整,另有專文說明:
 
-- **導覽列:** 可設定選單排列樣式(預設／併排置左／併排置右)、背景是否透明,以及次選單是否同步展開。瞭解 [如何設定選單與導覽列](../navigation/設定選單與導覽列.md){ title="設定選單與導覽列" }。
-- **頁腳:** 提供「上下」或「左右」排序樣式,並可開啟 **社群媒體圖示** 的顯示與連結。瞭解 [如何設定頁腳](../navigation/設定選單與導覽列.md#設定頁腳內容){ title="設定選單與導覽列" }。
+- **導覽列:** 可設定選單排列樣式(預設／併排置左／併排置右)、背景是否透明,以及次選單是否同步展開。瞭解 [如何設定選單與導覽列](../navigation/setup-menus-navigation.md){ title="設定選單與導覽列" }。
+- **頁腳:** 提供「上下」或「左右」排序樣式,並可開啟 **社群媒體圖示** 的顯示](../navigation/setup-menus-navigation.md#設定頁腳內容)導覽列.md#設定頁腳內容){ title="設定選單與導覽列" }。
 
 ---
 
@@ -173,6 +166,5 @@ hide:
 
 - [拖拉版型網站設定](theme-editor.md)
 - [各頁面設定](theme-editor.md#各頁面設定)
-- [可新增區塊類型對照表](references/theme-editor-sections.md)
-- [設定選單與導覽列](../navigation/設定選單與導覽列.md)
+- [可新增區塊類型對照表](references/theme-edi](../navigation/setup-menus-navigation.md)](../navigation/設定選單與導覽列.md)
 

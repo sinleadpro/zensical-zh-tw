@@ -1,8 +1,9 @@
 ---
+
 title: 使用順豐出貨
 description: 使用順豐託運單批次或單筆下載出貨，系統自動與順豐即時取號，將訂單貨態更新為已出貨，支援國內台灣本島及海外配送。
 created: 2026-05-20 20:25
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-14 14:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -27,8 +28,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -76,8 +77,7 @@ search:
 icon: lucide/truck
 hide: []
 ---
-使用順豐託運單批次或單筆下載出貨，系統自動與順豐即時取號，將訂單貨態更新為已出貨，支援國內台灣本島及海外配送。
-{ .subtitle }
+
 
 ![下載順豐託運單](../../../assets/images/EC-訂單-所有訂單-下載順豐託運單-hero.png){ .hero-page }
 
@@ -249,7 +249,7 @@ hide: []
   若商品超過單一包裹材積限制(建議超過 170 cm 拆箱)或貨到付款訂單需要分箱寄送，可使用「加印託運單」。
 
 - :lucide-refresh-ccw:{ .lg }     
-  [__補印託運單(遺失重印)__](../../payments-and-logistics/補印與加印託運單.md){ title="補印與加印託運單" }  
+  [__補印託運單(遺失重印)__](../../payments-and-logistics/reprint-waybills.md){ title="補印與加印託運單" }  
   託運單檔案遺失或印壞時，可使用 **「補印託運單」** 重新下載。補印 **不會** 再次扣費。
 
 </div>
@@ -304,7 +304,7 @@ hide: []
 ??? quote "如何重新下載已遺失的託運單？"
     [](){ #faq-sf-redownload }
 
-    託運單檔案若不慎遺失，可至後台「金物流」>「順豐託運單」搜尋對應訂單，於該筆紀錄旁點擊重新下載，**不需要再扣一次 Cyber 幣**。補印的完整說明請參考 [補印託運單](../../payments-and-logistics/補印與加印託運單.md){ title="補印與加印託運單" }。
+    託運單檔案若不慎遺失，可至後台「金物流」>「順豐託運單」搜尋對應訂單，於該筆紀錄旁點擊重新下載，**不需要再扣一次 Cyber 幣**。補印的完整說明請參考 [補印託運單](../../payments-and-logistics/reprint-waybills.md){ title="補印與加印託運單" }。
 
 ## 參考資料 { #reference-sf }
 

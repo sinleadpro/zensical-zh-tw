@@ -1,5 +1,6 @@
 ---
 title: 主頁
+author: Jase
 hide:
   - feedback
   - navigation
@@ -160,6 +161,7 @@ hide:
   </div>
 
   <div id="announcement" role="tabpanel" class="tab-content" style="display:flex">
+    <a href="/ec/products/create-and-manage/create-update-products/?tour=1"><span class="badge">新功能</span>全新幫助中心導覽功能上線 <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-right" viewBox="0 0 24 24" width="1em" height="1em" style="vertical-align:middle;margin-left:2px"><circle cx="12" cy="12" r="10"/><path d="m12 16 4-4-4-4M8 12h8"/></svg></a>
     <!-- <a href="#"><span class="badge">重要</span>2026 年 6 月系統排程維護公告</a> -->
     <!-- <a href="#"><span class="badge">通知</span>CYBERBIZ 金流服務升級通知</a> -->
     <!-- <a href="#"><span class="badge">新功能</span>全通路庫存同步功能正式上線</a> -->
@@ -190,6 +192,7 @@ function openTab(evt, tabName) {
   evt.currentTarget.classList.add('active');
   evt.currentTarget.setAttribute('aria-selected', 'true');
 }
+
 </script>
 </div>
 
@@ -200,12 +203,12 @@ function openTab(evt, tabName) {
 
 <div class="grid cards" markdown>
 
--   :lucide-rocket:{ .lg }
+<!-- -   :lucide-rocket:{ .lg }
     [__新手上路__](ec/){ title="品牌官網" }
 
     ---
 
-    從零開始建立您的品牌官網，快速掌握後台操作與基本設定。
+    從零開始建立您的品牌官網，快速掌握後台操作與基本設定。 -->
 
 -   :lucide-store:{ .lg }
     [__商店設定__](ec/website-management/){ title="管理中心" }
@@ -251,28 +254,28 @@ function openTab(evt, tabName) {
 <div class="grid cards" markdown>
 
 -   :lucide-log-in:{ .lg }
-    [__申請與開通__](wms/申請流程與開通.md){ title="電商倉儲：申請流程與開通" }
+    [__申請與開通__](wms/application-process-and-activation.md){ title="電商倉儲：申請流程與開通" }
 
     ---
 
     了解智慧倉儲的申請流程、開通設定與串倉規則。
 
 -   :lucide-package:{ .lg }
-    [__商品管理__](wms/單一品項.md){ title="單一品項" }
+    [__商品管理__](wms/single-items.md){ title="單一品項" }
 
     ---
 
     管理單一品項、加工商品與季節群組設定。
 
 -   :lucide-arrow-right-left:{ .lg }
-    [__進出倉作業__](wms/進倉單.md){ title="進倉單" }
+    [__進出倉作業__](wms/inbound-orders.md){ title="進倉單" }
 
     ---
 
     建立進倉單、調倉單與退貨單，掌握庫存轉調流程。
 
 -   :lucide-bar-chart-3:{ .lg }
-    [__庫存管理__](wms/庫存紀錄.md){ title="庫存紀錄" }
+    [__庫存管理__](wms/inventory-records.md){ title="庫存紀錄" }
 
     ---
 
@@ -307,12 +310,13 @@ function openTab(evt, tabName) {
 
     支援多種付款方式、離線結帳、訪客結帳與標籤列印。
 
--   :lucide-bar-chart-3:{ .lg }
+<!-- -   :lucide-bar-chart-3:{ .lg }
     [__庫存管理__](pos/inventory/)
 
     ---
 
-    進出倉單、庫存調整、盤點作業與全通路庫存管理。
+     進出倉單、庫存調整、盤點作業與全通路庫存管理。 -->
+
 
 </div>
 
@@ -326,28 +330,28 @@ function openTab(evt, tabName) {
     [__APP MARKET__](ec/app-market/){ title="APP MARKET" }
 
 -   :lucide-cog:{ .lg }
-    [__自動化功能__](ec/app-market/automation/)
+    [__自動化功能__](ec/app-market/automation/automation-push-flow.md)
 
 -   :lucide-ticket:{ .lg }
-    [__電子票券__](ec/e-ticket/設定指南.md)
+    [__電子票券__](ec/e-ticket/電子票券設定指南.md)
 
 -   :lucide-zap:{ .lg }
-    [__快速到貨__](#)
+    [__快速到貨__](ec/payments-and-logistics/cyberbiz-now/index.md)
 
 -   :lucide-credit-card:{ .lg }
     [__金流支付__](ec/payments-and-logistics/){ title="付款金流" }
 
 -   :lucide-message-circle:{ .lg }
-    [__訊息通__](ec/app-market/cyberbiz-extensions/chat-box/)
+    [__訊息通__](ec/app-market/chatbox/){ title="Chat Box 訊息通" }
 
 -   :lucide-link-2:{ .lg }
-    [__全通路管理助手__](ec/app-market/cyberbiz-channel-bridge/)
+    [__全通路管理助手__](ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md)
 
 -   :lucide-shopping-cart:{ .lg }
-    [__門市助理__](storepal/){ title="hide:" }
+    [__門市助理__](ec/app-market/storepal/){ title="門市助理" }
 
 -   :lucide-arrow-right-from-line:{ .lg }
-    [__EXPRESS__](#)
+    [__EXPRESS__](ec/payments-and-logistics/cyberbiz-express-japan-to-taiwan-delivery.md)
 
 </div>
 
@@ -379,25 +383,25 @@ function openTab(evt, tabName) {
 
 <div class="grid cards" markdown>
 
-<!-- -   :lucide-megaphone:{ .lg } -->
-<!--     [__功能報報__](#) -->
-<!---->
-<!--     --- -->
-<!---->
-<!--     了解最新動態與實用技巧，請持續關注我們的部落格。 -->
-
--   :lucide-history:{ .lg }
-    [__更新紀錄__](resources/changelog/){ title="更新紀錄" }
+-   :lucide-bookmark:{ .lg }
+    [__詞彙表__](resources/glossary/){ title="詞彙表" }
 
     ---
 
-    關注我們的功能更新紀錄。
+    從行銷策略到金流串接，所有電商經營必備知識都在這裡。
 
-<!-- -   :lucide-messages-square:{ .lg } -->
-<!--     [__聯絡我們__](#) -->
-<!---->
-<!--     --- -->
-<!---->
-<!--     透過後台的線上客服與我們聯繫。 -->
+-   :lucide-video:{ .lg }
+    [__影音教學__](resources/video-tutorials/){ title="影片教學資源總覽" }
+
+    ---
+
+    由淺入深的視聽指導，助您快速上手各項智能系統功能。
+
+-   :lucide-download:{ .lg }
+    [__下載資源__](resources/downloads/){ title="下載資源" }
+
+    ---
+
+    彙整 CYBERBIZ 教學資源與文件下載。
 
 </div>
