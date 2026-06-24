@@ -2,7 +2,7 @@
 title: 設定訂單加價購
 description: 設定訂單加價購可依訂單金額或條件作為觸發門檻，於結帳流程中提供顧客以優惠價格加購指定商品。
 created: 2026-01-12 00:00
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-24 14:12
 lang: zh-TW
 type: tutorial
 status:
@@ -23,8 +23,10 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階
+  - 高手
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -58,25 +60,17 @@ permalink:
 comments: false
 search:
   exclude: false
-icon:
+icon: lucide/shopping-cart
 hide: []
 ---
 
-# 設定訂單加價購
-
-設定訂單加價購可依訂單金額或條件作為觸發門檻，於結帳流程中提供顧客以優惠價格加購指定商品。
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 / 高手 / 進階 PLUS / 高手 PLUS / 企業
-{ .doc-badge }
-
-![](../../assets/images/ec-marketing-pwp-by-order-hero.zh-tw.png){ .hero-page }
+![訂單加價購](../../assets/images/ec-marketing-pwp-by-order-hero.zh-tw.png){ title="訂單加價購" .hero-page }
 
 ## 訂單加價購說明
 
 訂單加價購是一種以「**訂單金額或條件**」作為觸發門檻的行銷機制，當顧客於結帳時符合條件，即可用優惠價格加購指定商品。
 
-### 訂單加價購類型說明
+**訂單加價購類型說明**
 
 訂單加價購依觸發條件可分為以下兩種：
 
@@ -87,14 +81,16 @@ hide: []
     
     > 範例：消費滿 TWD 2,000，可加 TWD 1 購買針織毛毯。
     
-## 設定訂單加價購群組
+## 操作步驟
 
-### 步驟 1：新增訂單加價購群組
+### 新增訂單加價購群組
 
 1. 登入 CYBERBIZ 管理後台，前往  **行銷活動 > 訂單加價購**。
 2. 在群組列表下方輸入新群組名稱，點擊 **新增群組**。
 
-### 步驟 2：填寫加價購群組欄位
+---
+
+### 填寫加價購群組欄位
 
 在群組列表中，點擊展開欲設定的加購群組，依序設定以下欄位：
 
@@ -110,16 +106,20 @@ hide: []
 	- 預設為「依商品標題拼音排序」
 	- 建議使用「暢銷商品排序」以提升轉換率
 
-![](../../assets/images/ec-marketing-pwp-by-order-collection-setting.zh-tw.png)
+![加價購群組設定](../../assets/images/ec-marketing-pwp-by-order-collection-setting.zh-tw.png){ title="加價購群組設定" }
 
-### 步驟 3：選擇加價購商品
+---
+
+### 選擇加價購商品
 
 1. 於左側商品列表中，點擊 **加入** 將欲設定的商品 **加入群組**。
 2. 針對每項商品，設定其 **加購價格**。
 
-![](../../assets/images/ec-pwp-by-order-add-to-collection.zh-tw.png)
+![選擇加價購商品](../../assets/images/ec-pwp-by-order-add-to-collection.zh-tw.png){ title="選擇加價購商品" }
 
-### 步驟 4：前台結帳頁面呈現
+---
+
+### 前台結帳頁面呈現
 
 當訂單金額達到「**群組顯示在購物車的最低金額**」時，結帳頁面將顯示可加購商品。
 
@@ -141,17 +141,17 @@ hide: []
 2. 點選語系選單，切換至要編輯的語系（繁體中文、英文等）。  
 3. 展開欲編輯的加購群組，然後直接點擊群組名稱欄位進行修改，完成後按 ++enter++ 儲存變更。 
 
-![](../../assets/images/ec-pwp-by-order-collection-name-multilang.gif)
+![多語系群組名稱設定](../../assets/images/ec-pwp-by-order-collection-name-multilang.gif){ title="多語系群組名稱設定" }
 
 ### 前台顯示效果
 
 - **繁體中文頁面**  
 
-	![](../../assets/images/ec-pwp-by-order-frontend.zh-tw.png)
+	![前台顯示-繁體中文](../../assets/images/ec-pwp-by-order-frontend.zh-tw.png){ title="前台顯示-繁體中文" }
     
 - **英文頁面**  
 
-	![](../../assets/images/ec-pwp-by-order-frontend.en-us.png)
+	![前台顯示-英文](../../assets/images/ec-pwp-by-order-frontend.en-us.png){ title="前台顯示-英文" }
 
 
 ## 常見問題

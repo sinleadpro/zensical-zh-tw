@@ -66,7 +66,7 @@ icon: lucide/gallery-horizontal
 hide: 
 ---
 
-![](../../../assets/images/ec-網站外觀-樣板編輯器-main-slider-liquid.png){ .hero-page }
+![首頁跑馬燈樣板編輯](../../../assets/images/ec-網站外觀-樣板編輯器-main-slider-liquid.png){ title="首頁跑馬燈樣板編輯" .hero-page }
 
 ## 跑馬燈轉場時間說明
 

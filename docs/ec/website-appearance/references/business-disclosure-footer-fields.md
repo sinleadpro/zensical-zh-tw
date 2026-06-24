@@ -2,7 +2,7 @@
 title: 頁腳聯絡資訊欄位對照表
 description: 官網頁腳「聯絡資訊」區塊可顯示的各項欄位與用途對照，包含統一編號、電話、地址等揭露資訊。
 created: 2026-06-22 10:00
-last_modified: 2026-06-22 10:00
+last_modified: 2026-06-24 12:09
 lang: zh-TW
 type: reference
 status: ""
@@ -47,7 +47,7 @@ permalink: https://help.cyberbiz.io/ec/website-appearance/references/business-di
 comments: false
 search:
   exclude: false
-icon: lucide/list-checks
+icon: lucide/table
 hide:
 ---
 

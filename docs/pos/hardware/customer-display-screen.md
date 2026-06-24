@@ -183,7 +183,7 @@ POS 客戶顯示器（簡稱「客顯」）是 POS 系統的輔助設備，讓�
 設計 POS 專屬轉盤或抽獎活動。
 
 - :lucide-banknote:{ .lg }   
-[__建立訂單加價購活動__](../../ec/marketing/設定訂單加價購.md)     
+[__建立訂單加價購活動__](../../ec/marketing/setup-order-upsell.md)     
 預先規畫適用的加購品項與觸發門檻。
 
 </div>

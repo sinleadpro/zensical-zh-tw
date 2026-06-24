@@ -2,7 +2,7 @@
 title: 建立與管理排程跑馬燈
 description: 在網站版面放上會自動輪播的橫幅廣告，並為每張廣告設定上架與下架時間，讓素材依檔期自動換檔，不必人工手動替換。
 created: 2026-06-10 15:31
-last_modified: 2026-06-10 18:39
+last_modified: 2026-06-24 12:17
 lang: zh-TW
 type: tutorial
 status: ""
@@ -242,7 +242,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-layout-dashboard:{ .lg }  
-  [__自訂排版設計（拖拉版型）__](theme-editor.md)  
+  [__自訂排版設計（拖拉版型）__](theme-editor.md#排程跑馬燈_1)  
   將排程跑馬燈加入首頁版面，調整顯示位置。
 
 <!--

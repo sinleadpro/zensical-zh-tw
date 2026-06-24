@@ -221,7 +221,7 @@ hide: []
   [__選單/導覽列設定__](#)   
   將多層級分類綁定導覽列，提升購物流程與體驗。
 - :lucide-layers:{ .lg }   
-  [__多層級分類滿額折扣__](設定商品多層級分類滿額折扣.md)     
+  [__多層級分類滿額折扣__](multi-level-category-discount.md)     
   設定分類層級滿額折扣，自動套用至符合條件的商品。
 - :material-point-of-sale:{ .lg }  
   [__POS 前台選單設定__](https://www.cyberbiz.io/support/?p=11224)  

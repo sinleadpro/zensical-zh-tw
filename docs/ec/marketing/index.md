@@ -25,7 +25,7 @@ hide:
 
     建立「單品限時折扣群組」，並設定折扣計價方式（固定金額、百分比或活動價格）、活動商品與有效期間。
 
-    [:octicons-arrow-right-24: 前往](設定單品限時折扣群組.md)
+    [:octicons-arrow-right-24: 前往](flash-sale-single-product.md)
 
 -   :lucide-list-checks: __任選折扣__
 
@@ -57,7 +57,7 @@ hide:
 
     設定針對商品多層級分類的滿額折扣活動，當訂單符合條件時，對該分類內每件商品獨立套用折扣。
 
-    [:octicons-arrow-right-24: 前往](設定商品多層級分類滿額折扣.md)
+    [:octicons-arrow-right-24: 前往](multi-level-category-discount.md)
 
 </div>
 
@@ -81,7 +81,7 @@ hide:
 
     設定訂單加價購可依訂單金額或條件作為觸發門檻，於結帳流程中提供顧客以優惠價格加購指定商品。
 
-    [:octicons-arrow-right-24: 前往](設定訂單加價購.md)
+    [:octicons-arrow-right-24: 前往](setup-order-upsell.md)
 
 </div>
 
@@ -193,7 +193,7 @@ hide:
 
     設定特定商品無法參與「全館活動」、「優惠券」、「商品多層級分類滿額折扣」及「VIP 優惠」等行銷活動。
 
-    [:octicons-arrow-right-24: 前往](設定商品排除指定優惠.md)
+    [:octicons-arrow-right-24: 前往](exclude-products-from-promotions.md)
 
 -   :lucide-package-minus: __設定商品限購數量__
 
@@ -219,7 +219,7 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :lucide-window: __一頁式商店__
+-   :lucide-monitor: __一頁式商店__
 
     ---
 
