@@ -20,49 +20,39 @@ notes:
 
 ## 設定支付方式
 
-	<div class="grid cards" markdown>
+<div class="grid cards" markdown>
+
+-   :lucide-circle-plus: __新增支付方式__
+
+	---
 	
-	-   :lucide-circle-plus: __新增支付方式__
+	[設定信用卡支付](設定信用卡支付.md)  
 	
-	    ---
-	    
-	    <div class="grid" markdown>
-	    
-	    [設定信用卡支付](設定信用卡支付.md)  
-	    
-	    [設定 LINE Pay](設定-line-pay.md)  
-	    
-	    [設定 PayPal](設定-paypal.md)  
-	    
-	    [設定貨到付款](設定-cod.md)  
-	    
-	    </div>
+	[設定 LINE Pay](設定-line-pay.md)  
 	
-	-   :lucide-landmark: __銀行帳戶與轉帳__
-	    
-	    ---
-	    
-	    <div class="grid" markdown>
-	    
-	    [新增銀行轉帳帳戶](新增銀行帳戶.md)  
-	    
-	    [設定跨行轉帳收款](設定跨行轉帳.md)  
-	    
-	    </div>
+	[設定 PayPal](設定-paypal.md)  
 	
-	-   :lucide-shield-check: __支付安全__
-	    
-	    ---
-	    
-	    <div class="grid" markdown>
-	    
-	    [啟用支付驗證與風控](支付風控.md)  
-	    
-	    [設定交易安全規則](設定交易安全.md)  
-	    
-	    </div>
+	[設定貨到付款](設定-cod.md)  
 	
-	</div>
+
+-   :lucide-landmark: __銀行帳戶與轉帳__
+		
+	---
+	
+	[新增銀行轉帳帳戶](新增銀行帳戶.md)  
+	
+	[設定跨行轉帳收款](設定跨行轉帳.md)  
+
+
+-   :lucide-shield-check: __支付安全__
+		
+	---
+	
+	[啟用支付驗證與風控](支付風控.md)  
+	
+	[設定交易安全規則](設定交易安全.md)  
+
+</div>
 
 === "訂單付款管理"
 
@@ -108,85 +98,67 @@ notes:
 
 ## 第三方金流整合
 
-	<div class="grid cards" markdown>
+<div class="grid cards" markdown>
+
+-   :lucide-webhook: __外部平台串接__
+	    
+	---
 	
-	-   :lucide-webhook: __外部平台串接__
-	    
-	    ---
-	    
-	    <div class="grid" markdown>
-	    
-	    [串接第三方支付平台](串接第三方支付平台.md)  
-	    
-	    [設定支付 API webhook](支付-webhook.md)  
-	    
-	    </div>
+	[串接第三方支付平台](串接第三方支付平台.md)  
 	
-	-   :lucide-file-text: __收款對帳__
-	    
-	    ---
-	    
-	    <div class="grid" markdown>
-	    
-	    [每日收款對帳流程](每日對帳.md)  
-	    
-	    [匯出交易明細](匯出交易明細.md)  
-	    
-	    </div>
+	[設定支付 API webhook](支付-webhook.md)  
 	
-	-   :lucide-key: __金流權限__
-	    
-	    ---
-	    
-	    <div class="grid" markdown>
-	    
-	    [設定收款人權限](收款權限.md)  
-	    
-	    [管理金流操作權限](金流操作權限.md)  
-	    
-	    </div>
 	
-	</div>
+-   :lucide-file-text: __收款對帳__
+	    
+	---
+	
+	[每日收款對帳流程](每日對帳.md)  
+	
+	[匯出交易明細](匯出交易明細.md)  
+	
+	
+-   :lucide-key: __金流權限__
+	    
+	---
+	
+	[設定收款人權限](收款權限.md)  
+	
+	[管理金流操作權限](金流操作權限.md)  
+	
+	
+</div>
 
 ## 前台結帳體驗
 
-	<div class="grid cards" markdown>
+<div class="grid cards" markdown>
+
+-   :lucide-shopping-cart: __結帳流程__
+	    
+	---
 	
-	-   :lucide-shopping-cart: __結帳流程__
-	    
-	    ---
-	    
-	    <div class="grid" markdown>
-	    
-	    [設定結帳流程](設定結帳流程.md)  
-	    
-	    [啟用快速結帳](快速結帳.md)  
-	    
-	    </div>
+	[設定結帳流程](設定結帳流程.md)  
 	
-	-   :lucide-credit-card: __多支付選項__
-	    
-	    ---
-	    
-	    <div class="grid" markdown>
-	    
-	    [顯示多支付方式於前台](前台支付選項.md)  
-	    
-	    [設定支付預設方式](支付預設方式.md)  
-	    
-	    </div>
+	[啟用快速結帳](快速結帳.md)  
 	
-	-   :lucide-thumbs-up: __交易評價__
-	    
-	    ---
-	    
-	    <div class="grid" markdown>
-	    
-	    [啟用付款後評價功能](付款後評價.md)  
-	    
-	    [前台付款提醒與提示](前台付款提醒.md)  
-	    
-	    </div>
 	
-	</div>
+-   :lucide-credit-card: __多支付選項__
+	    
+	---
+	
+    [顯示多支付方式於前台](前台支付選項.md)  
+	
+	[設定支付預設方式](支付預設方式.md)  
+	
+	
+-   :lucide-thumbs-up: __交易評價__
+	
+	---
+	
+	[啟用付款後評價功能](付款後評價.md)  
+	
+	[前台付款提醒與提示](前台付款提醒.md)  
+	
+	
+</div>
 

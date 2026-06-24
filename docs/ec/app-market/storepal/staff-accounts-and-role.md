@@ -77,7 +77,7 @@ hide: []
 { .subtitle }
 
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
-[:lucide-grid-2x2-plus: { title="適用擴充" }](../../resources/conventions#適用擴充) | 門市助理
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | 門市助理
 { .doc-badge }
 
 
@@ -252,8 +252,3 @@ hide: []
 ??? quote "如何查看人員的操作紀錄？"
     總部管理者可前往 **設定 > 操作紀錄**，查看所有人員的登入紀錄與前後台執行動作。
 
-## 延伸閱讀
-
-- [門市助理 - 註冊與綁定官網會員](註冊與綁定官網會員.md)
-- [門市助理 - 查看門市與個人業績](查看門市與個人業績.md)
-- [門市助理 - 商品推薦](商品推薦.md)
