@@ -2,7 +2,7 @@
 title: 設定導覽選單滑鼠移入自動展開
 description: 修改樣板程式碼，讓前台導覽選單在滑鼠移入時自動展開二層列表。
 created: 2025-03-03 16:40
-last_modified: 2026-03-05 12:01
+last_modified: 2026-06-24 16:46
 lang: zh-TW
 type: tutorial
 status: ""
@@ -44,7 +44,7 @@ tags:
   - Liquid
   - CSS
   - CSS/HTML 編輯器
-  - draggable
+  - 拖拉版型
 acoiv: ""
 apis: []
 devices:
@@ -65,17 +65,13 @@ icon: lucide/mouse-pointer-click
 hide: 
 ---
 
-
-
-![](../../../assets/images/ec-網站外觀-樣板編輯器-main_nav-liquid.png){ .hero-page }
+![導覽選單自動展開](../../../assets/images/ec-網站外觀-樣板編輯器-main_nav-liquid.png){ title="導覽選單自動展開" .hero-page }
 
 ## 導覽選單自動展開功能說明
 
 若您希望連結列表（選單）不需點擊、僅需將滑鼠移至該項目即可 **自動展開二層列表內容**，可以透過修改樣版編輯器的語法來達成。
 
-以下是 **連結列表自動下拉** 的詳細說明與教學：
-
-## 設定步驟（以拖拉版型為例）
+## 設定步驟 <small>以拖拉版型為例</small>
 
 !!! warning  "編輯樣板檔案屬於進階操作，建議先備份版本後再進行修改。"
 
@@ -94,12 +90,12 @@ hide:
 
 5. **儲存設定：** 點擊「**儲存**」後即可在官網前台查看成果。
 
-	![](../../../assets/images/ec-網站外觀-樣板編輯器-選單自動展開-前台.png)
+	![選單自動展開-前台](../../../assets/images/ec-網站外觀-樣板編輯器-選單自動展開-前台.png){ title="選單自動展開-前台" }
 
 ## 注意事項與恢復機制
 
 - **責任歸屬：** CYBERBIZ 提供開放的程式碼編輯權限供商家自行客製化，但官方 **不提供現有文件外的語法教學、修改指導或代碼撰寫服務**，建議由專業工程師進行操作。
-- **恢復機制：** 若修改後導致版面異常或跑版，可利用樣版編輯器內的 **查看之前版本** 按鈕 [回溯至先前版本](restore-code-theme-editor.md#操作步驟){ data-preview }。
+- **恢復機制：** 若修改後導致版面異常或跑版，可利用樣版編輯器內的 **查看之前版本** 按鈕 [回溯至先前版本](../code-customization/restore-code-theme-editor.md#操作步驟){ title="恢復樣板編輯器版本" }。
 
 ## 常見問題
 

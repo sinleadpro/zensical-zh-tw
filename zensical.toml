@@ -389,11 +389,11 @@ copyright = """
             ]},
         ]},
         { "網站外觀" = [
-            { "overview" = "ec/website-appearance/index.md" },
+            { "網站外觀總覽" = "ec/website-appearance/index.md" },
             { "版型與版面" = [
                 { "設定快速到貨前台入口與專區" = "ec/website-appearance/setup-quick-delivery-frontend-entry.md" },
                 { "拖拉版型設定" = "ec/website-appearance/theme-and-layout/theme-editor.md" },
-                { "套用與更換網站主題" = "ec/website-appearance/theme-and-layout/apply-and-switch-theme.md" },
+                { "套用與更換主題" = "ec/website-appearance/theme-and-layout/apply-and-switch-theme.md" },
                 { "排程跑馬燈設定" = "ec/website-appearance/theme-and-layout/configure-scheduled-carousels.md" },
                 { "首頁跑馬燈轉場時間" = "ec/website-appearance/theme-and-layout/adjust-carousel-transition-duration.md" },
                 { "全站商品列表群組排序" = "ec/website-appearance/theme-and-layout/storefront-collection-sorting.md" },
