@@ -59,7 +59,7 @@ ui_components:
   - 退貨驗收
 paths:
   - 訂單管理 > 退貨/退款 > 建立逆物流
-layouts: classic
+layouts: []
 wp_url: []
 permalink: ""
 comments: false
