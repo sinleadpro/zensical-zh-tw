@@ -1,7 +1,45 @@
 ---
 title: 電子票券總覽
-toc_depth: 2
+description: 電子票券是可線上販售、線下核銷的數位商品，支援課程、活動門票、服務項目或商品兌換，提供 OMO 銷售與會員導流情境。
+created: 2026-01-15 10:00
+last_modified: 2026-06-24 14:30
+lang: zh-TW
+type: reference
+status: ""
+version: ""
+author: ""
+reviewers: []
+notes: []
+ga_views: 0
+feedback: 0
+products: ["EC"]
+modules: ["商品"]
+sites: ["TW"]
+audiences: ["admin"]
+difficulty: beginner
+tnb: trunk
+plans: ["專業PLUS", "進階PLUS", "高手PLUS", "企業"]
+cyb_extensions: ["TICKET"]
+feature_badges: []
+intents: ["了解電子票券功能", "設定電子票券商品", "電子票券核銷方式", "電子票券退款規則", "電子票券分票功能", "電子票券優惠設定", "電子票券門市權限"]
+features: ["電子票券", "票券核銷", "分票功能", "票券優惠", "門市店員帳號", "核銷後撥款"]
+prerequisites: []
+related: ["[[e-ticket-setup-guide]]", "[[setup-e-ticket-store-permissions]]", "[[setup-e-ticket-promotions]]"]
+tags: ["電子票券", "核銷", "OMO", "數位商品", "QR_code", "門市權限", "分票", "退款", "對帳"]
+acoiv: configure
+apis: []
+devices: ["desktop", "mobile"]
+ui_components: ["QR_code", "掃碼器", "核銷列表", "核銷碼輸入框"]
+paths: ["商品 > 電子票券", "訂單 > 電子票券訂單查詢", "票券管理 > 核銷記錄"]
+layouts: ["classic"]
+wp_url: []
+permalink: https://help.cyberbiz.io/ec/e-ticket/index
+comments: false
+search:
+  exclude: false
 icon: lucide/ticket
+hide: []
+toc_depth: 2
 ---
 
 

@@ -1,7 +1,7 @@
 ---
 title: 設定電子票券優惠
 version: ""
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-24 21:14
 description: 建立電子票券的任選折扣優惠活動，設定折扣層級與計價規則，並瞭解退票與撥款的計算方式。
 product:
   - EC
@@ -28,8 +28,12 @@ features:
   - 電子票券
 tnb: branch
 plans:
-  - PLUS
+  - 專業PLUS 
+  - 進階PLUS
+  - 高手PLUS
   - 企業
+cyb_extensions:
+  - TICKET
 prerequisites: []
 lang: zh-TW
 sites:
@@ -54,22 +58,13 @@ hide:
 permalink: https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions
 ---
 
-# 設定電子票券優惠
-
-建立電子票券的任選折扣優惠活動，設定折扣層級與計價規則，並瞭解退票與撥款的計算方式。 
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | PLUS / 企業
-
 ![](../../assets/images/ec-e-ticket-discount-hero.zh-tw.png){ .hero-page }
-
 
 ## 電子票券優惠說明
 
 ### 功能限制與適用範圍
 
-- 電子票券任選折扣 **僅支援「任選每件折固定金額」** 的優惠形式  
-  > 例如：任選 3 張電子票券，每張折 50 元
+- 電子票券任選折扣 **僅支援「任選每件折固定金額[^1]」** 的優惠形式  
 - 一個電子票券商品 **僅能加入一個任選折扣群組**
 - 電子票券的任選折扣群組名稱 **不可與一般商品的任選折扣群組名稱重複**
 - 不可與以下行銷活動併用：
@@ -77,6 +72,10 @@ permalink: https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions
 	- 優惠券
 	- 加價購
 	- 紅利折抵
+
+[^1]: 例如：任選 3 張電子票券，每張折 50 元
+
+---
 
 ### 優惠期間與使用期限說明
 
@@ -92,7 +91,7 @@ permalink: https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions
     逾使用/優惠期間後，本券僅能兌換售價為OOO元（含）以下之品項，若點購超過OOO元品項，於兌換時需要另外補足差額後方能使用。  
     商品數量依現場實際供應為主。
 
-!!! quote "範例說明"
+??? example "範例說明"
 	此票券使用/優惠期間至2022年10月31日止。  
 	逾使用/優惠期間後，本券僅能兌換售價為120元（含）以下之品項，若點購超過120元品項，於兌換時需要另外補足差額後方能使用。商品數量依現場實際供應為主。
 
@@ -112,6 +111,8 @@ permalink: https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions
 	- 核銷票券以 **原價** 計入已使用金額
 	- 可能導致實際退款金額低於消費者預期
 
+---
+
 ### 退款計算公式
 
 退款金額的計算方式如下：
@@ -123,9 +124,11 @@ permalink: https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions
 - 已核銷票券一律以 **原價** 計算
 - 若計算結果小於 0，退款金額以 **0 元** 計算
 
+---
+
 ### 退款計算範例
 
-> 以下範例說明 **剩餘商品（超出優惠件數的票券）** 在不同計價方式下的退款差異。
+以下範例說明 **剩餘商品（超出優惠件數的票券）** 在不同計價方式下的退款差異。
 
 
 === "範例一：剩餘商品以優惠價計算"
@@ -165,6 +168,8 @@ permalink: https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions
 - 每張票券於核銷時，系統將以 **實際折扣後價格** 計算撥款金額
 - 若發生退票，系統將於對應帳期補撥 **折扣差價**
 
+---
+
 ### 差價計算公式
 
 系統計算差價撥款的公式如下：
@@ -174,6 +179,8 @@ permalink: https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions
 - **訂單總金額**：消費者支付的總金額（含折扣）
 - **已撥款金額**：系統已撥給商家的金額
 - **退款金額**：已退給消費者的金額
+
+---
 
 ### 撥款計算範例
 
@@ -206,6 +213,8 @@ permalink: https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions
 
 ![](../../assets/images/ec-電子票券-基本設定.png)
 
+---
+
 ### 設定計價與折扣規則
 
 - **計價規則**：僅支援 **任選每件折固定金額**
@@ -215,9 +224,11 @@ permalink: https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions
 - **商品件數與每件折扣金額**：設定任選 Ｎ 件，每件折 M 元 
 	- 點擊 :lucide-plus: 可設定多層級折扣，如任選 2 件 每件折 10元 + 任選 3 件每件折 15 元
 
-> **說明**：**剩餘商品** 指未納入任選優惠條件計算的票券（即超出優惠件數的票券）。
+!!! note "**剩餘商品** 指未納入任選優惠條件計算的票券（即超出優惠件數的票券）。"
 
 ![](../../assets/images/ec-電子票券-計價規則設定.png)
+
+---
 
 ### 將電子票券加入折扣群組
 
