@@ -57,7 +57,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11189
   - https://www.cyberbiz.io/support/?p=953
   - https://www.cyberbiz.io/support/?p=7356
-permalink:
+permalink: https://help.cyberbiz.io/ec/marketing/upsells/setup-product-upsell
 comments: false
 search:
   exclude: false
@@ -65,7 +65,7 @@ icon: lucide/circle-plus
 hide: []
 ---
 
-![商品加價購群組頁面](../../assets/images/ec-marketing-pwp-by-product-hero.zh-tw.png){ title="商品加價購群組頁面" .hero-page }
+![商品加價購群組頁面](../../../assets/images/ec-marketing-pwp-by-product-hero.zh-tw.png){ title="商品加價購群組頁面" .hero-page }
 
 ## 商品加價購說明
 
@@ -102,7 +102,7 @@ hide: []
         且「則可購買此群組商品件數」設定為 **1 件**，  
         則當顧客購買 **3 件符合標籤的商品** 時，**最多可加購 1 件此加價購群組的商品**。
 
-- **標籤**：須先建立可附加加價購的商品標籤。瞭解 [如何設定商品標籤](../products/categories-and-tags/manage-product-tags.md)。 
+- **標籤**：須先建立可附加加價購的商品標籤。瞭解 [如何設定商品標籤](../../products/categories-and-tags/manage-product-tags.md)。 
 - **加購數量是否可加倍**：決定加購數量是否可按購買件數倍增。
 
 	??? example "加價數量是否可加倍範例"  
@@ -117,7 +117,7 @@ hide: []
 	- 預設為「依商品標題拼音排序」
 	- 建議使用「暢銷商品排序」以提升轉換率
 
-![商品加價購群組設定](../../assets/images/ec-product-pwp-by-product-collection-setting.zh-tw.png){ title="商品加價購群組設定" }
+![商品加價購群組設定](../../../assets/images/ec-product-pwp-by-product-collection-setting.zh-tw.png){ title="商品加價購群組設定" }
 
 ---
 
@@ -132,13 +132,13 @@ hide: []
 	- 「加價購」商品不同款式皆採 **固定加購金額**。
 	- 若希望 **不同款式對應不同價格**，請 **另行建立加價購商品** 以區分款式及價格。
 
-![選擇加價購商品](../../assets/images/ec-product-pwp-by-product-add-product-to-collection.zh-tw.png){ title="選擇加價購商品" }
+![選擇加價購商品](../../../assets/images/ec-product-pwp-by-product-add-product-to-collection.zh-tw.png){ title="選擇加價購商品" }
 
 ### 步驟 4：前台呈現
 
 - 顧客在 **結帳頁面**，當購買符合標籤的商品時，將顯示可加購商品選項。
 
-![前台加價購呈現](../../assets/images/ec-product-pwp-by-product-frontend.zh-tw.png){ title="前台加價購呈現" }
+![前台加價購呈現](../../../assets/images/ec-product-pwp-by-product-frontend.zh-tw.png){ title="前台加價購呈現" }
 
 ## 多國語系設定
 
@@ -155,17 +155,17 @@ hide: []
 2. 在語系選單中，切換至欲編輯的語系（例如：繁體中文、英文）。  
 3. 展開欲編輯的加購群組，然後直接點擊群組名稱欄位進行修改，完成後按 ++enter++ 儲存變更。  
 
-![多國語系設定](../../assets/images/ec-pwp-by-product-collection-name-multilang.gif){ title="多國語系設定" }
+![多國語系設定](../../../assets/images/ec-pwp-by-product-collection-name-multilang.gif){ title="多國語系設定" }
 
 ### 前台顯示效果
 
 - **繁體中文頁面**  
 
-	![多國語系前台-繁體中文](../../assets/images/ec-pwp-collection-name-multilang-forntend.zh-tw.png){ title="多國語系前台-繁體中文" }
+	![多國語系前台-繁體中文](../../../assets/images/ec-pwp-collection-name-multilang-forntend.zh-tw.png){ title="多國語系前台-繁體中文" }
     
 - **英文頁面**  
 
-	![多國語系前台-英文](../../assets/images/ec-pwp-collection-name-multilang-forntend.en-us.png){ title="多國語系前台-英文" }
+	![多國語系前台-英文](../../../assets/images/ec-pwp-collection-name-multilang-forntend.en-us.png){ title="多國語系前台-英文" }
 
 
 ## 常見問題

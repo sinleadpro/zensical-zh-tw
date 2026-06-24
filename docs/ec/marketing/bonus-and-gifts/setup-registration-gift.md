@@ -55,7 +55,7 @@ layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=3816
   - https://www.cyberbiz.io/support/?p=6234
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/setup-registration-gift
 comments: false
 search:
   exclude: false

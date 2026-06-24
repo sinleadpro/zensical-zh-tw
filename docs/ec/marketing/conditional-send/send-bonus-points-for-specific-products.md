@@ -50,7 +50,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1006
   - https://www.cyberbiz.io/support/?p=3489
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/marketing/conditional-send/send-bonus-points-for-specific-products
 comments: false
 search:
   exclude: false
@@ -62,10 +62,10 @@ hide: []
 建立「指定商品送紅利」群組，針對特定商品設定滿額贈送紅利點數，提升回購率與客單價。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 所有 PLUS / 企業
 { .doc-badge }
 
-![](../../assets/images/EC-後台-行銷活動-指定商品送紅利-畫面總覽01.png){ .hero-page }
+![](../../../assets/images/EC-後台-行銷活動-指定商品送紅利-畫面總覽01.png){ .hero-page }
 
 ## 指定商品送紅利說明
 

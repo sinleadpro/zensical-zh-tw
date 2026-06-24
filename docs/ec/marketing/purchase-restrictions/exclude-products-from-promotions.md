@@ -4,7 +4,7 @@ description: 設定特定商品無法參與「全館活動」、「優惠券」�
 created: 2026-01-13 00:00
 last_modified: 2026-06-24 13:46
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/marketing/exclude-products-from-promotions
+permalink: https://help.cyberbiz.io/ec/marketing/purchase-restrictions/exclude-products-from-promotions
 type: tutorial
 status:
 version:
@@ -66,7 +66,7 @@ icon: lucide/ban
 hide: []
 ---
 
-![商品排除指定優惠](../../assets/images/ec-marketing-product-not-applicable-to-select-promotion.zh-tw.png){ title="商品排除指定優惠" .hero-page }
+![商品排除指定優惠](../../../assets/images/ec-marketing-product-not-applicable-to-select-promotion.zh-tw.png){ title="商品排除指定優惠" .hero-page }
 
 ## 商品排除指定優惠說明
 
@@ -101,27 +101,27 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-tag:{ .lg }   
-  [__全館折扣活動__](設定全館折扣.md)  
+  [__全館折扣活動__](../設定全館折扣.md)  
   將商品排除於「全館折扣 - 紅利 & 優惠券」設定的全館折扣與疊加優惠。
 
 - :lucide-percent:{ .lg }     
-  [__優惠碼 / 優惠券__](設定優惠碼.md){ title="設定優惠碼" }  
+  [__優惠碼 / 優惠券__](../設定優惠碼.md){ title="設定優惠碼" }  
   將商品排除於優惠碼與優惠券活動，包括首購禮、互動遊戲與指定商品送優惠券。
 
 - :lucide-clock:{ .lg }   
-  [__期間限定首購禮__](設定首購禮.md)  
+  [__期間限定首購禮__](../設定首購禮.md)  
   將商品排除於期間限定首購禮活動。
 
 - :lucide-gamepad:{ .lg }   
-  [__互動遊戲__](設定互動遊戲.md)  
+  [__互動遊戲__](../設定互動遊戲.md)  
   將商品排除於互動遊戲活動發送的優惠券。
 
 - :lucide-list-check:{ .lg }   
-  [__商品多層級分類滿額折扣__](multi-level-category-discount.md){ title="設定商品多層級分類滿額折扣" }  
+  [__商品多層級分類滿額折扣__](../discounts/multi-level-category-discount.md){ title="設定商品多層級分類滿額折扣" }  
   將商品排除於多層級分類滿額折扣活動。
 
 - :lucide-crown:{ .lg }   
-  [__VIP 優惠__](設定 VIP 優惠.md)  
+  [__VIP 優惠__](../設定 VIP 優惠.md)  
   將商品排除於會員專屬折扣優惠。
 
 </div>
@@ -134,7 +134,7 @@ hide: []
 
 當商品被設定排除指定優惠後，在前台結帳頁面，系統將會根據設定給予提醒顯示，確保該商品不參與被排除的行銷活動。
 
-![前台排除優惠顯示](../../assets/images/ec-product-not-applicable-to-select-promotion-frontend.zh-tw.png){ title="前台排除優惠顯示" }
+![前台排除優惠顯示](../../../assets/images/ec-product-not-applicable-to-select-promotion-frontend.zh-tw.png){ title="前台排除優惠顯示" }
 
 ## 操作步驟
 
@@ -149,7 +149,7 @@ hide: []
         
 4. 新增商品後，可為各商品設定群組中的排程時間（開始／結束日期）。
 
-![商品排除優惠設定](../../assets/images/ec-marketing-product-not-applicable-to-select-promotion-setting.zh-tw.png){ title="商品排除優惠設定" }
+![商品排除優惠設定](../../../assets/images/ec-marketing-product-not-applicable-to-select-promotion-setting.zh-tw.png){ title="商品排除優惠設定" }
 
 ## 常見問題
 

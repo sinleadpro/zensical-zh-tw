@@ -53,7 +53,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=1141
-permalink: https://help.cyberbiz.io/ec/marketing/checkout-discount-calculation-order
+permalink: https://help.cyberbiz.io/ec/marketing/discounts/checkout-discount-calculation-order
 search:
   exclude: false
 icon: lucide/calculator

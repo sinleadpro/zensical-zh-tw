@@ -207,7 +207,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-hash:{ .lg }
-    [__EC 紅利商城__](../../ec/marketing/bonus-point-mall.md)
+    [__EC 紅利商城__](../../ec/marketing/bonus-and-gifts/bonus-point-mall.md)
     為電商官網建立線上紅利兌換商城。
 
 </div>

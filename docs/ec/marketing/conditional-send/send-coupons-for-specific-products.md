@@ -47,7 +47,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=11460
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/marketing/conditional-send/send-coupons-for-specific-products
 comments: false
 search:
   exclude: false
@@ -59,10 +59,10 @@ hide: []
 建立「優惠券群組」，當會員購買指定商品並完成訂單後，系統自動發送優惠券至其帳戶，提升回購率與客戶忠誠度。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 企業
 { .doc-badge }
 
-![](../../assets/images/EC-後台-行銷活動-指定商品送優惠券-畫面總覽01.png){ .hero-page }
+![](../../../assets/images/EC-後台-行銷活動-指定商品送優惠券-畫面總覽01.png){ .hero-page }
 
 ## 指定商品送優惠券說明
 
@@ -97,7 +97,7 @@ hide: []
     - **累贈**：每件商品送一張券（買越多送越多）。
     - **不累贈**：每筆訂單僅送一張券（成本控制）。
 
-![](../../assets/images/EC-後台-行銷活動-指定商品送優惠券-基本設定01.png)
+![](../../../assets/images/EC-後台-行銷活動-指定商品送優惠券-基本設定01.png)
 
 ### 步驟 3：設定優惠券詳細規則
 
@@ -110,7 +110,7 @@ hide: []
 3. **最低消費門檻**：使用此券時訂單需達到的最低金額（例：`500`）。
 4. **綁定商品標籤**（選填）：限制此券僅能購買特定標籤的商品。
 
-![](../../assets/images/EC-後台-行銷活動-指定商品送優惠券-優惠券規則設定01.png)
+![](../../../assets/images/EC-後台-行銷活動-指定商品送優惠券-優惠券規則設定01.png)
 
 ### 步驟 4：設定併用限制
 

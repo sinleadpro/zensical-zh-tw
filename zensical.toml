@@ -260,7 +260,7 @@ copyright = """
             { "電子票券優惠" = "ec/e-ticket/設定電子票券優惠.md" },
             { "門市帳號與權限" = "ec/e-ticket/設定電子票券門市權限.md"}
         ]},
-        { "行銷活動" = [
+         { "行銷活動" = [
             { "overview" = "ec/marketing/index.md" }, 
             { "優惠券（碼）" = [
                 { "overview" = "ec/marketing/coupon/index.md" },
@@ -270,35 +270,49 @@ copyright = """
                 { "免運券規格" = "ec/marketing/coupon/free-shipping-coupon-spec.md" },
                 { "贈品券規格" = "ec/marketing/coupon/gift-coupon-spec.md" },
             ] },
-            { "紅利點數" = "ec/marketing/setup-bonus-points.md" },
-            { "優惠碼紅利到期通知" = "ec/marketing/coupon-and-bonus-points-expiry-notification.md" },
-            { "註冊禮" = "ec/marketing/setup-registration-gift.md" },
-            { "生日禮" = "ec/marketing/setup-birthday-gift.md" },
-            { "單品限時折扣群組" = "ec/marketing/flash-sale-single-product.md" },
-            { "任選折扣" = "ec/marketing/mix-and-match-discounts.md"},
-            { "紅配綠多組合優惠" = "ec/marketing/red-and-green-bundle-discounts.md"},
-            { "滿額贈滿件贈"= "ec/marketing/threshold-gifts-and-quantity-gifts.md" },
-            { "訂單加價購" = "ec/marketing/setup-order-upsell.md" },
-            { "商品加價購" = "ec/marketing/setup-product-upsell.md" },
-            { "期間限定首購禮" = "ec/marketing/limited-time-first-purchase-gift.md"},
-            { "互動遊戲" = "ec/marketing/interactive-games.md"},
-            { "一頁式商店" = "ec/marketing/one-page-store.md"},
-            { "一頁式影片自動播放" = "ec/marketing/one-page-store-youtube-autoplay.md" },
-            { "指定商品送優惠券" = "ec/marketing/send-coupons-for-specific-products.md"},
-            { "指定商品送紅利" = "ec/marketing/send-bonus-points-for-specific-products.md"},
-            { "指定金流送紅利" = "ec/marketing/send-bonus-points-for-specific-payment-methods.md"},
-            { "指定物流送紅利" = "ec/marketing/send-bonus-points-for-specific-logistics.md"},
-            { "指定商品送活動序號" = "ec/marketing/send-event-serials-for-specific-products.md"},
-            { "紅利商城" = "ec/marketing/bonus-point-mall.md"},
-            { "定期訂購活動頁" = "ec/marketing/subscription-campaign-page.md"},
-            { "商品多層級分類滿額折扣" = "ec/marketing/multi-level-category-discount.md" },
-{ "商品排除指定優惠" = "ec/marketing/exclude-products-from-promotions.md" },
-{ "商品限購數量設定" = "ec/marketing/purchase-limit.md" },
-{"預填商品導購連結" = "ec/marketing/create-cart-link-specific-products.md"},
-            { "結帳優惠計算順序" = "ec/marketing/checkout-discount-calculation-order.md"},
-            {"參考資料" = [
-                {"帳號狀態與購買權限對照表" = "ec/marketing/references/purchase-limit-account-status.md"}
-            ]}
+            { "折扣活動" = [
+                { "單品限時折扣群組" = "ec/marketing/discounts/flash-sale-single-product.md" },
+                { "任選折扣" = "ec/marketing/discounts/mix-and-match-discounts.md" },
+                { "紅配綠多組合優惠" = "ec/marketing/discounts/red-and-green-bundle-discounts.md" },
+                { "滿額贈滿件贈" = "ec/marketing/discounts/threshold-gifts-and-quantity-gifts.md" },
+                { "商品多層級分類滿額折扣" = "ec/marketing/discounts/multi-level-category-discount.md" },
+                { "結帳優惠計算順序" = "ec/marketing/discounts/checkout-discount-calculation-order.md" },
+            ] },
+            { "加價購" = [
+                { "商品加價購" = "ec/marketing/upsells/setup-product-upsell.md" },
+                { "訂單加價購" = "ec/marketing/upsells/setup-order-upsell.md" },
+            ] },
+            { "紅利點數與贈禮" = [
+                { "紅利點數" = "ec/marketing/bonus-and-gifts/setup-bonus-points.md" },
+                { "紅利商城" = "ec/marketing/bonus-and-gifts/bonus-point-mall.md" },
+                { "註冊禮" = "ec/marketing/bonus-and-gifts/setup-registration-gift.md" },
+                { "生日禮" = "ec/marketing/bonus-and-gifts/setup-birthday-gift.md" },
+                { "期間限定首購禮" = "ec/marketing/bonus-and-gifts/limited-time-first-purchase-gift.md" },
+            ] },
+            { "指定條件贈送" = [
+                { "指定商品送優惠券" = "ec/marketing/conditional-send/send-coupons-for-specific-products.md" },
+                { "指定商品送紅利" = "ec/marketing/conditional-send/send-bonus-points-for-specific-products.md" },
+                { "指定金流送紅利" = "ec/marketing/conditional-send/send-bonus-points-for-specific-payment-methods.md" },
+                { "指定物流送紅利" = "ec/marketing/conditional-send/send-bonus-points-for-specific-logistics.md" },
+                { "指定商品送活動序號" = "ec/marketing/conditional-send/send-event-serials-for-specific-products.md" },
+            ] },
+            { "商品購買限制" = [
+                { "商品排除指定優惠" = "ec/marketing/purchase-restrictions/exclude-products-from-promotions.md" },
+                { "商品限購數量設定" = "ec/marketing/purchase-restrictions/purchase-limit.md" },
+                { "優惠碼紅利到期通知" = "ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification.md" },
+            ] },
+            { "一頁式商店與導購連結" = [
+                { "一頁式商店" = "ec/marketing/one-page-store/one-page-store.md" },
+                { "一頁式影片自動播放" = "ec/marketing/one-page-store/one-page-store-youtube-autoplay.md" },
+                { "預填商品導購連結" = "ec/marketing/one-page-store/create-cart-link-specific-products.md" },
+            ] },
+            { "其他行銷工具" = [
+                { "互動遊戲" = "ec/marketing/other-tools/interactive-games.md" },
+                { "定期訂購活動頁" = "ec/marketing/other-tools/subscription-campaign-page.md" },
+            ] },
+            { "參考資料" = [
+                { "帳號狀態與購買權限對照表" = "ec/marketing/references/purchase-limit-account-status.md" }
+            ] }
         ]},  
         { "分潤" = [
             { "overview" = "ec/profit-sharing/index.md"},

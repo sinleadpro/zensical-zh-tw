@@ -54,7 +54,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8226
   - https://www.cyberbiz.io/support/?p=23847
   - https://www.cyberbiz.io/support/?p=7378
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/marketing/discounts/red-and-green-bundle-discounts
 comments: false
 search:
   exclude: false
@@ -66,13 +66,13 @@ hide: []
 透過將不同群組商品進行組合（如 A 群組 + B 群組），設定固定金額、折扣或折價規則，提升客單價與跨品類銷售。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 所有PLUS / 企業
 { .doc-badge }
 
 !!! info "版本差異說明"
     紅配綠功能在 PLUS 方案中屬於「行銷 A」選配模組（11 選 2），商家需確認已選配該模組方可使用。企業版則直接內建此功能。
 
-![](../../assets/images/EC-後台-行銷活動-紅配綠多組合優惠-畫面總覽01.png){ .hero-page }
+![](../../../assets/images/EC-後台-行銷活動-紅配綠多組合優惠-畫面總覽01.png){ .hero-page }
 
 ## 紅配綠多組合優惠說明
 
@@ -119,7 +119,7 @@ hide: []
 2. 設定 **群組購買達標件數**：該群組需選購多少件才能觸發優惠。
 3. 定義 **區塊顏色**：設定前台頁面各群組的視覺顏色，方便顧客區分。
 
-![](../../assets/images/EC-後台-行銷活動-紅配綠多組合優惠-設定群組01.png)
+![](../../../assets/images/EC-後台-行銷活動-紅配綠多組合優惠-設定群組01.png)
 
 ### 步驟 4：選擇與加入商品
 
@@ -161,7 +161,7 @@ hide: []
 2. 在語系選單中，切換至欲編輯的語系（例如：繁體中文、英文）。  
 3. 展開欲編輯的加購群組，然後直接點擊群組名稱欄位進行修改，完成後按 ++enter++ 儲存變更。  
 
-![](../../assets/images/EC-後台-行銷活動-紅配綠多組合優惠-設定多國01.png)
+![](../../../assets/images/EC-後台-行銷活動-紅配綠多組合優惠-設定多國01.png)
 
 
 

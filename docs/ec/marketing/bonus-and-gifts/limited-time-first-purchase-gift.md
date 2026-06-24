@@ -53,7 +53,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7884
   - https://www.cyberbiz.io/support/?p=10419
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/limited-time-first-purchase-gift
 comments: false
 search:
   exclude: false
@@ -65,13 +65,13 @@ hide: []
 期間限定首購禮是專為新會員首次消費設計的促銷工具。當符合條件的會員完成首筆付款訂單時，系統將自動贈送指定禮物。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 所有PLUS / 企業
 { .doc-badge }
 
 !!! info "版本差異說明"
     「期間限定首購禮」在 PLUS 方案中屬於「行銷 B」選配模組（11 選 2），商家需確認已選配該模組方可使用。企業版則直接內建此功能。
 
-![](../../assets/images/EC-後台-行銷活動-期間限定首購禮-畫面總覽01.png){ .hero-page }
+![](../../../assets/images/EC-後台-行銷活動-期間限定首購禮-畫面總覽01.png){ .hero-page }
 
 !!! tip "應用情境"
     - **全館新客招募**：不限金額，所有新客首購即送品牌精美小禮或 50 元折價券。
@@ -126,7 +126,7 @@ hide: []
     - **消費門檻**：訂單金額（不含運費）需達設定的最低值。
     - **商品標籤**：訂單中必須包含指定標籤的商品。
 
-![](../../../assets/images/EC-後台-行銷活動-期間限定首購禮-完成基本設定01.png){ .screenshot }
+![](../../../../assets/images/EC-後台-行銷活動-期間限定首購禮-完成基本設定01.png){ .screenshot }
 
 ### 步驟 3：配置贈禮內容
 

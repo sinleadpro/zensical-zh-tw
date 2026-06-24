@@ -52,7 +52,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=1357
   - https://www.cyberbiz.io/support/?p=1380
   - https://www.cyberbiz.io/support/?p=7316
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/marketing/discounts/mix-and-match-discounts
 comments: false
 search:
   exclude: false
@@ -64,7 +64,7 @@ hide: []
 建立「任選折扣群組」，設定件數門檻與折扣計價方式（固定金額、折數或折固定金額），並管理活動商品與有效期間。
 { .subtitle }
 
-![](../../assets/images/EC-後台-行銷活動-任選折扣-畫面總覽01.png){ .hero-page }
+![](../../../assets/images/EC-後台-行銷活動-任選折扣-畫面總覽01.png){ .hero-page }
 
 ## 任選折扣說明
 
@@ -137,7 +137,7 @@ hide: []
         - 若選「以優惠計算」：買 4 件時，前 3 件共 $599，第 4 件按單件優惠價 $199.67 計算。
         - 若選「以原價計算」：買 4 件時，前 3 件共 $599，第 4 件按商品原價計算。
 
-![](../../assets/images/EC-後台-行銷活動-任選折扣-選擇計價規則01.png)
+![](../../../assets/images/EC-後台-行銷活動-任選折扣-選擇計價規則01.png)
 
 ### 步驟 4：將活動商品加入群組
 
@@ -176,4 +176,4 @@ hide: []
 2. 在語系選單中，切換至欲編輯的語系（例如：繁體中文、英文）。  
 3. 展開欲編輯的加購群組，然後直接點擊群組名稱欄位進行修改，完成後按 ++enter++ 儲存變更。  
 
-![](../../assets/images/EC-後台-行銷活動-任選折扣-設定多國01.png)
+![](../../../assets/images/EC-後台-行銷活動-任選折扣-設定多國01.png)

@@ -56,7 +56,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9101
   - https://www.cyberbiz.io/support/?p=3368
-permalink: https://help.cyberbiz.io/ec/marketing/flash-sale-single-product
+permalink: https://help.cyberbiz.io/ec/marketing/discounts/flash-sale-single-product
 comments: false
 search:
   exclude: false
@@ -64,7 +64,7 @@ icon: lucide/clock
 hide: []
 ---
 
-![單品限時折扣群組](../../assets/images/ec-marketing-flash-sale-single-product-hero.zh-tw.png){ title="單品限時折扣群組" .hero-page }
+![單品限時折扣群組](../../../assets/images/ec-marketing-flash-sale-single-product-hero.zh-tw.png){ title="單品限時折扣群組" .hero-page }
 
 ## 單品限時折扣說明
 
@@ -108,7 +108,7 @@ hide: []
     
 - **折扣數值設定**：根據選擇的計價方式，於欄位中填寫對應數值，例如折扣百分比或固定金額。
 
-![單品限時折扣群組設定](../../assets/images/ec-marketing-flash-sale-single-product-collection-setting.zh-tw.png){ title="單品限時折扣群組設定" }
+![單品限時折扣群組設定](../../../assets/images/ec-marketing-flash-sale-single-product-collection-setting.zh-tw.png){ title="單品限時折扣群組設定" }
 
 ---
 
@@ -134,7 +134,7 @@ hide: []
 	- 請保持 Excel 檔案格式與範本一致，以避免匯入失敗。
     - 群組名稱需與已建立的折扣群組名稱完全一致。
 
-![單品折扣批次匯入](../../assets/images/ec-marketing-flash-sale-porduct-excel-import.zh-tw.png){ title="單品折扣批次匯入" }
+![單品折扣批次匯入](../../../assets/images/ec-marketing-flash-sale-porduct-excel-import.zh-tw.png){ title="單品折扣批次匯入" }
 
 ## 後續步驟
 
@@ -144,10 +144,10 @@ hide: []
   [__結帳優惠計算順序__](checkout-discount-calculation-order.md)       
   顧客結帳時，各種優惠的套用順序。
 - :lucide-group:{ .lg }     
-  [__自訂商品群組__](../products/categories-and-tags/custom-collections.md)  
+  [__自訂商品群組__](../../products/categories-and-tags/custom-collections.md)  
   自訂商品分類群組。
 - :lucide-ban:{ .lg }  
-  [__商品排除指定優惠__](exclude-products-from-promotions.md)  
+  [__商品排除指定優惠__](../purchase-restrictions/exclude-products-from-promotions.md)  
   將特定商品從特定優惠活動中排除。
 
 

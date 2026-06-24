@@ -56,7 +56,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11186
   - https://www.cyberbiz.io/support/?p=953
   - https://www.cyberbiz.io/support/?p=7367
-permalink:
+permalink: https://help.cyberbiz.io/ec/marketing/upsells/setup-order-upsell
 comments: false
 search:
   exclude: false
@@ -64,7 +64,7 @@ icon: lucide/shopping-cart
 hide: []
 ---
 
-![訂單加價購](../../assets/images/ec-marketing-pwp-by-order-hero.zh-tw.png){ title="訂單加價購" .hero-page }
+![訂單加價購](../../../assets/images/ec-marketing-pwp-by-order-hero.zh-tw.png){ title="訂單加價購" .hero-page }
 
 ## 訂單加價購說明
 
@@ -106,7 +106,7 @@ hide: []
 	- 預設為「依商品標題拼音排序」
 	- 建議使用「暢銷商品排序」以提升轉換率
 
-![加價購群組設定](../../assets/images/ec-marketing-pwp-by-order-collection-setting.zh-tw.png){ title="加價購群組設定" }
+![加價購群組設定](../../../assets/images/ec-marketing-pwp-by-order-collection-setting.zh-tw.png){ title="加價購群組設定" }
 
 ---
 
@@ -115,7 +115,7 @@ hide: []
 1. 於左側商品列表中，點擊 **加入** 將欲設定的商品 **加入群組**。
 2. 針對每項商品，設定其 **加購價格**。
 
-![選擇加價購商品](../../assets/images/ec-pwp-by-order-add-to-collection.zh-tw.png){ title="選擇加價購商品" }
+![選擇加價購商品](../../../assets/images/ec-pwp-by-order-add-to-collection.zh-tw.png){ title="選擇加價購商品" }
 
 ---
 
@@ -141,17 +141,17 @@ hide: []
 2. 點選語系選單，切換至要編輯的語系（繁體中文、英文等）。  
 3. 展開欲編輯的加購群組，然後直接點擊群組名稱欄位進行修改，完成後按 ++enter++ 儲存變更。 
 
-![多語系群組名稱設定](../../assets/images/ec-pwp-by-order-collection-name-multilang.gif){ title="多語系群組名稱設定" }
+![多語系群組名稱設定](../../../assets/images/ec-pwp-by-order-collection-name-multilang.gif){ title="多語系群組名稱設定" }
 
 ### 前台顯示效果
 
 - **繁體中文頁面**  
 
-	![前台顯示-繁體中文](../../assets/images/ec-pwp-by-order-frontend.zh-tw.png){ title="前台顯示-繁體中文" }
+	![前台顯示-繁體中文](../../../assets/images/ec-pwp-by-order-frontend.zh-tw.png){ title="前台顯示-繁體中文" }
     
 - **英文頁面**  
 
-	![前台顯示-英文](../../assets/images/ec-pwp-by-order-frontend.en-us.png){ title="前台顯示-英文" }
+	![前台顯示-英文](../../../assets/images/ec-pwp-by-order-frontend.en-us.png){ title="前台顯示-英文" }
 
 
 ## 常見問題

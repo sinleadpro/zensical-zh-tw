@@ -58,7 +58,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=53869
   - https://www.cyberbiz.io/support/?p=16465
   - https://www.cyberbiz.io/support/?p=1618
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/marketing/other-tools/subscription-campaign-page
 comments: false
 search:
   exclude: false
@@ -70,7 +70,7 @@ hide: []
 說明如何建立訂閱制活動頁面，包含基本設定、期數優惠、金流限制及備貨期配置，協助品牌創造穩定營收。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS 版 / 企業版
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 所有 PLUS 版 / 企業版
 { .doc-badge }
 
 ![定期定額頁面](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁03.png){ .hero-page }
@@ -134,19 +134,19 @@ hide: []
 
 - **搜尋商品**：將商品加入頁面，單一頁面 **最多加入 10 個商品**。
 
-    ![](../../assets/images/EC-後台-行銷活動-定期訂購活動頁-建立活動01.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-行銷活動-定期訂購活動頁-建立活動01.png){ .screenshot }
 
 - **活動標題**：自訂活動名稱，此名稱將顯示於前台頁面標題。
 - **網址標題**：自訂該活動頁的 URL 後綴路徑。
 - **圖片上傳**：上傳活動頁的主視覺圖片（Banner）。
 - **活動時間**：設定開始與結束時間。結束後會員無法再看到頁面，但 **已成立的子訂單會保持有效**，除非由商家或會員手動取消。
 
-    ![](../../assets/images/EC-後台-行銷活動-定期訂購活動頁-建立活動02.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-行銷活動-定期訂購活動頁-建立活動02.png){ .screenshot }
 
 - **待出貨訂單設定（備貨期）**：
     - 例如設定為 3 天：若 10/31 為出貨日，系統會在 10/27 正式轉單請款（轉單日與出貨日不計入備貨期）。
 
-    ![](../../assets/images/EC-後台-行銷活動-定期訂購活動頁-建立活動03.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-行銷活動-定期訂購活動頁-建立活動03.png){ .screenshot }
 
 - **前台母訂單取消限制**：
     - 可設定顧客在第 N 期之後才可於前台自行取消母訂單。若未開啟，顧客僅能取消單一子訂單，整筆母訂單需由店家後台取消。

@@ -57,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9212
   - https://www.cyberbiz.io/support/?p=43281
-permalink:
+permalink: https://help.cyberbiz.io/ec/marketing/discounts/multi-level-category-discount
 comments: false
 search:
   exclude: false
@@ -65,7 +65,7 @@ icon: lucide/layers
 hide: []
 ---
 
-![商品多層級分類滿額折扣](../../assets/images/ec-marketing-product-multi-level-full-discount-hero.zh-tw.png){ title="商品多層級分類滿額折扣" .hero-page }
+![商品多層級分類滿額折扣](../../../assets/images/ec-marketing-product-multi-level-full-discount-hero.zh-tw.png){ title="商品多層級分類滿額折扣" .hero-page }
 
 ## 商品多層級分類滿額折扣說明
 
@@ -79,7 +79,7 @@ hide: []
 
 ### 前置條件
 
-- [x] 請先完成 **商品多層級分類設定**，再建立多層級分類滿額折扣活動。瞭解 [如何設定商品多層級分類](../products/categories-and-tags/multi-level-category-setup.md)。
+- [x] 請先完成 **商品多層級分類設定**，再建立多層級分類滿額折扣活動。瞭解 [如何設定商品多層級分類](../../products/categories-and-tags/multi-level-category-setup.md)。
 
 ---
 
@@ -114,7 +114,7 @@ hide: []
 2. 點擊 **將分類加入活動**，將分類加入折扣活動。
 3. 已加入活動的分類將顯示於 **已選取的分類商品** 列表中，可點擊 :lucide-x: 移除不需要的分類。
 
-![選擇分類加入活動](../../assets/images/ec-product-multi-level-full-discount-select-categories.zh-tw.gif){ title="選擇分類加入活動" }
+![選擇分類加入活動](../../../assets/images/ec-product-multi-level-full-discount-select-categories.zh-tw.gif){ title="選擇分類加入活動" }
 
 ---
 
@@ -133,7 +133,7 @@ hide: []
 
 活動生效後，顧客於前台結帳時，將看到符合條件商品的折扣資訊。
 
-![前台折扣顯示](../../assets/images/ec-multi-level-product-full-discount-frontend.zh-tw.png){ title="前台折扣顯示" }
+![前台折扣顯示](../../../assets/images/ec-multi-level-product-full-discount-frontend.zh-tw.png){ title="前台折扣顯示" }
 
 ## 常見問題
 

@@ -49,7 +49,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8276
   - https://www.cyberbiz.io/support/?p=41132
   - https://www.cyberbiz.io/support/?p=7345
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/marketing/discounts/threshold-gifts-and-quantity-gifts
 comments: false
 search:
   exclude: false
@@ -61,7 +61,7 @@ hide: []
 建立滿額贈與滿件贈活動，設定訂單或特定標籤商品的金額/件數門檻，自動發送贈品並管理累贈規則。
 { .subtitle }
 
-![](../../assets/images/EC-後台-行銷活動-滿額贈滿件贈-畫面總覽01.png){ .hero-page }
+![](../../../assets/images/EC-後台-行銷活動-滿額贈滿件贈-畫面總覽01.png){ .hero-page }
 
 ## 滿額/滿件贈說明
 
@@ -120,7 +120,7 @@ hide: []
     - **商品滿額贈**：計算含有特定標籤之商品的總金額。
     - **商品滿件贈**：計算含有特定標籤之商品的總件數。
 
-![](../../assets/images/EC-後台-行銷活動-滿額贈滿件贈-建立活動01.png){ .screenshot }
+![](../../../assets/images/EC-後台-行銷活動-滿額贈滿件贈-建立活動01.png){ .screenshot }
 
 ### 步驟 2：設定基本資訊
 
@@ -128,13 +128,13 @@ hide: []
 2. **設定活動時間**：設定活動 **開始日期**、**結束日期**。
 3. **指定會員分群**：可指定滿額贈 / 滿件贈活動的適用會員群體。
 
-    - 若想建立會員分群，請前往 **會員 > 所有會員** [建立分群](../members/member-filters-and-groups.md)。
+    - 若想建立會員分群，請前往 **會員 > 所有會員** [建立分群](../../members/member-filters-and-groups.md)。
 
     !!! info "指定會員分群適用版本"
         此功能僅限 **企業版** 專用。
 
 
-![](../../assets/images/EC-後台-行銷活動-滿額贈滿件贈-建立活動02.png){ .screenshot }
+![](../../../assets/images/EC-後台-行銷活動-滿額贈滿件贈-建立活動02.png){ .screenshot }
 
 ### 步驟 3：設定活動條件與規則
 
@@ -145,7 +145,7 @@ hide: []
 2. **累贈規則**：選擇贈品發送邏輯（5 種），詳細可參考下方 **累計/累贈細則說明**。
 
 
-![](../../assets/images/EC-後台-行銷活動-滿額贈滿件贈-建立活動03.png){ .screenshot }
+![](../../../assets/images/EC-後台-行銷活動-滿額贈滿件贈-建立活動03.png){ .screenshot }
 
 
 ### 步驟 4：設定贈送門檻規則
@@ -156,7 +156,7 @@ hide: []
     - 滿件贈：輸入件數（例：`3`）。
 3. **加入贈品**：點擊 **新增贈品**，選擇指定商品。
 
-![](../../assets/images/EC-後台-行銷活動-滿額贈滿件贈-建立活動04.png){ .screenshot }
+![](../../../assets/images/EC-後台-行銷活動-滿額贈滿件贈-建立活動04.png){ .screenshot }
 
 
 ### 步驟 5：儲存與排序
@@ -295,7 +295,7 @@ hide: []
 2. 在語系選單中，切換至欲編輯的語系（例如：繁體中文、英文）。  
 3. 展開欲編輯的加購群組，然後直接點擊群組名稱欄位進行修改，完成後按 ++enter++ 儲存變更。  
 
-![](../../assets/images/EC-後台-行銷活動-滿額贈滿件贈-設定多國01.png){ .screenshot }
+![](../../../assets/images/EC-後台-行銷活動-滿額贈滿件贈-設定多國01.png){ .screenshot }
 
 
 !!! warning "注意事項"
