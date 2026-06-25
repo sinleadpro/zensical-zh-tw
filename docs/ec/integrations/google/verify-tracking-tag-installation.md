@@ -1,9 +1,8 @@
 ---
-
 title: "使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝"
 description: "使用 Google Tag Assistant 驗證 GA4、GTM、Google Ads 等追蹤代碼是否正確安裝與觸發。"
 created: "2026-03-17 21:36"
-last_modified: "2026-03-18 11:18"
+last_modified: 2026-06-25 17:57
 lang: zh-TW
 type: tutorial
 author: Jase
@@ -40,7 +39,7 @@ features:
   - GA4
   - GTM
 tags:
-  - Google_Tag_Assistant
+  - Google Tag Assistant
   - GA4
   - GTM
   - 代碼驗證
@@ -65,8 +64,7 @@ icon: lucide/bug
 hide: []
 ---
 
-
-![](../../../assets/images/ec-第三方整合-google設定-googletagassistantconsole.png){ .hero-page }
+![Google Tag Assistant 驗證追蹤代碼](../../../assets/images/ec-第三方整合-google設定-googletagassistantconsole.png){ title="Google Tag Assistant 驗證追蹤代碼" .hero-page }
 
 ## 什麼是 Google Tag Assistant 
 
@@ -87,7 +85,7 @@ hide: []
 2.  **確認圖示**：安裝成功後，瀏覽器右上方會出現一個 **藍色標籤圖示**（或在拼圖形狀的擴充功能列表中找到）。
 3.  **即時偵測**：開啟想要檢查的官網頁面，點擊該藍色標籤圖示，系統會自動顯示目前網頁上偵測到的 Google 代碼列表。
 
-![](../../../assets/images/ec-第三方整合-googletagassistant-install.gif)
+![安裝 Tag Assistant 擴充功能](../../../assets/images/ec-第三方整合-googletagassistant-install.gif){ title="安裝 Tag Assistant 擴充功能" }
 
 !!! info "更多 Tag Assistant Chrome 擴充功能說明與教學，請參考 [官方說明 :lucide-external-link:](https://support.google.com/tagmanager/answer/16463290?hl=zh-Hant&ref_topic=15213501&sjid=3100390479866986802-NC)。"
 
@@ -99,12 +97,12 @@ hide: []
 
 1.  **登入與連結**：登入 [Google Tag 網頁版 :lucide-external-link:](https://tagassistant.google.com/)，點擊「**加入網域**」，輸入官網網址後點擊「**連結**」。
 
-    ![](../../../assets/images/ec-第三方整合-googletagassistant-adddomain.png)
+    ![加入網域並連結](../../../assets/images/ec-第三方整合-googletagassistant-adddomain.png){ title="加入網域並連結" }
 
 2.  **模擬操作**：系統會開啟一個新的網站分頁。在該分頁中模擬消費者的行為，例如 **點擊按鈕、完成結帳** 等。
 3.  **檢查結果**：回到 Tag Assistant 網頁版頁面，即可詳細查看偵測到的 **Google 標籤** 以及各個 **事件的執行情況** 與參數內容。
 
-    ![](../../../assets/images/ec-第三方整合-googletagassistant-result.png)
+    ![Tag Assistant 偵測結果](../../../assets/images/ec-第三方整合-googletagassistant-result.png){ title="Tag Assistant 偵測結果" }
 
 !!! info "更多 Tag Assistant 說明與教學，請參考 [官方說明 :lucide-external-link:](https://support.google.com/tagmanager/answer/15212503?hl=zh-Hant&ref_topic=15213501&sjid=3100390479866986802-NC#)。"
 

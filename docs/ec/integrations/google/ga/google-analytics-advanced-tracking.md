@@ -1,9 +1,8 @@
 ---
-
 title: 設定 Google Analytics 進階追蹤與資料分析
 description: 加強型評估、Google 信號、資料保留期限調整及報表識別資訊設定，協助商家獲得更精確的流量數據與使用者輪廓。
 created: 2026-03-20 17:50
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-25 18:54
 lang: zh-TW
 type: tutorial
 status: ""
@@ -48,12 +47,12 @@ prerequisites:
   - "[[setup-google-analytics]]"
 related:
   - "[[setup-google-analytics]]"
-  - "[[設定 GA4 排除內部流量與第三方參照來源]]"
+  - "[[ga4-exclude-internal-traffic-and-referrals]]"
 tags:
   - GA4
-  - Google_Analytics
+  - Google Analytics
   - 加強型評估
-  - Google_信號
+  - Google 信號
   - 資料保留
   - 流量分析
 acoiv: configure
@@ -75,45 +74,44 @@ hide: []
 comments: false
 ---
 
-
-![](../../../../assets/images/ec-第三方整合-google-ga-資料收集與修改.png){ .hero-page }
+![GA4 進階資料分析](../../../../assets/images/ec-第三方整合-google-ga-資料收集與修改.png){ .hero-page title="GA4 進階資料分析" }
 
 ## Google Analytics 進階資料分析說明
 
 在完成 Google Analytics 4 (GA4) 與網站的基礎串接後，GA4 會開始記錄基本的流量資訊。若您希望深入分析網站流量與更精確的使用者輪廓，建議依照以下說明進行進階設定與調整。
 
-## 加強型評估 (Enhanced Measurement)
+## 加強型評估 <small>Enhanced Measurement</small>
 
 這是 GA4 內建的自動追蹤功能，開啟後無需額外埋設程式碼，系統即可記錄使用者在網站上的多種互動行為。
 
 *   **追蹤內容：** 包含網頁瀏覽、捲動頁面、點擊外部連結、站內搜尋、填寫表單、觀看影片及下載檔案。詳細追蹤事件說明，請參考[官方說明 :lucide-external-link:](https://support.google.com/analytics/answer/9216061?hl=zh-Hant&ref_topic=13367566&sjid=2617040479571463046-NC)。
 *   **設定路徑：** 在 GA4 後台點選「管理」>「資料收集與修改」>「資料串流」> 選擇您的串流 >「事件」> 開啟「加強型評估」。
 
-    ![](../../../../assets/images/ec-第三整合-google-ga4-開啟加強型評估.gif)
+    ![開啟加強型評估](../../../../assets/images/ec-第三整合-google-ga4-開啟加強型評估.gif){ title="開啟加強型評估" }
 
 *   **進階設定：** 點擊齒輪圖示 :lucide-cog: 可依需求選擇要評估的特定事件。
 
-    ![](../../../../assets/images/ec-第三方整合-ga4-設定加強型評估.png)
+    ![設定加強型評估](../../../../assets/images/ec-第三方整合-ga4-設定加強型評估.png){ title="設定加強型評估" }
 
-## Google 信號 (Google Signals)
+## Google 信號 <small>Google Signals</small>
 
 當使用者登入 Google 帳戶並開啟「廣告個人化」時，此功能可協助系統取得跨裝置、跨平台的使用行為資料，補足跨裝置的使用者視角。
 
 *   **主要功能：** 性別、年齡、興趣等目標客群輪廓描繪，以及再行銷名單的建立。
 *   **設定路徑：** 在 GA4 後台點選「管理」>「資源設定」>「資料收集與修改」>「資料收集」> 在「Google 信號資料收集」區域點擊「啟用」。
 
-![](../../../../assets/images/ec-第三方整合-google-ga4-google信號啟用.png)
+![啟用 Google 信號](../../../../assets/images/ec-第三方整合-google-ga4-google信號啟用.png){ title="啟用 Google 信號" }
 
-## 資料保留 (Data Retention)
+## 資料保留 <small>Data Retention</small>
 
 GA4 預設的資料保留期限僅有 2 個月，對於需要觀察長期趨勢或建立再行銷名單的商家來說較為不足。
 
 *   **建議調整：** 將資料保留期限延長至 **14 個月**。
 *   **設定路徑：** 在 GA4 後台點選「管理」>「資源設定」>「資料收集與修改」>「資料保留」進行更改。
 
-![](../../../../assets/images/ec-第三方整合-google-ga4-資料保留.png)
+![資料保留期限設定](../../../../assets/images/ec-第三方整合-google-ga4-資料保留.png){ title="資料保留期限設定" }
 
-## 報表識別資訊 (Reporting Identity)
+## 報表識別資訊 <small>Reporting Identity</small>
 
 此技術可協助商家排除重複計算的使用者，例如同一位顧客先用手機瀏覽再用電腦下單，GA4 可將其辨識為同一使用者。
 
@@ -122,14 +120,14 @@ GA4 預設的資料保留期限僅有 2 個月，對於需要觀察長期趨勢�
     *   **已列為觀察項目 (Observed)：** 僅使用實際觀察到的裝置資訊，報表結果較為保守貼近原始紀錄。
 *   **設定路徑：** 在 GA4 後台點選「管理」>「資源設定」>「資料顯示」>「報表識別資訊」。
 
-![](../../../../assets/images/ec-第三方整合-google-ga4-報表識別資訊.png)
+![報表識別資訊設定](../../../../assets/images/ec-第三方整合-google-ga4-報表識別資訊.png){ title="報表識別資訊設定" }
 
 ## 後續操作
 
 <div class="grid cards" markdown>
 
 - :lucide-funnel-x:{ .lg }   
-  [__排除內部流量與不適用連結__](設定 GA4 排除內部流量與第三方參照來源.md){ title="設定 GA4 排除內部流量與第三方參照來源" }     
+  [__排除內部流量與不適用連結__](ga4-exclude-internal-traffic-and-referrals.md){ title="設定 GA4 排除內部流量與第三方參照來源" }     
   為了避免數據偏差，建議排除公司內部人員的瀏覽紀錄以及外部金物流網址的干擾。
 
 - :lucide-search-code:{ .lg }   

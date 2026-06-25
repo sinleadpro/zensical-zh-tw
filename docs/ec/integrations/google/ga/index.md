@@ -43,7 +43,7 @@ prerequisites: []
 related:
   - "[[setup-google-analytics]]"
   - "[[google-analytics-advanced-tracking]]"
-  - "[[設定 GA4 排除內部流量與第三方參照來源]]"
+  - "[[ga4-exclude-internal-traffic-and-referrals]]"
 tags:
   - "GA4"
   - "Google Analytics"
@@ -90,7 +90,7 @@ Google Analytics 4 (GA4) 完整教學，包含基礎串接設定與進階資料�
   啟用加強型評估、Google 信號，調整資料保留期限。
 
 - :lucide-funnel-x:{ .lg }     
-  [__排除內部流量與參照連結__](設定 GA4 排除內部流量與第三方參照來源.md){ title="設定 GA4 排除內部流量與第三方參照來源" }  
+  [__排除內部流量與參照連結__](ga4-exclude-internal-traffic-and-referrals.md){ title="設定 GA4 排除內部流量與第三方參照來源" }  
   排除內部 IP 流量與第三方金物流網址，避免數據偏差。
 
 </div>

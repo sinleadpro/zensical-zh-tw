@@ -45,7 +45,7 @@ prerequisites:
   - "[[setup-google-analytics]]"
 related:
   - "[[setup-google-search-console]]"
-  - "[[SEO 設定與優化指南]]"
+  - "[[seo-guide]]"
 tags:
   - "Sitemap"
   - "SEO"

@@ -139,7 +139,7 @@ hide: []
 2. **設定商品網址：** 商品頁的網址路徑，建議使用英文，有利於 SEO 與後續的成效分析。
 3. **填寫商品標語與簡述：** 顯示在商品名稱附近的特色或促銷短句，以及商品的簡短描述（[客製說明](edit-product-slogan-and-description.md){ title="編輯商品簡述與商品標語" }）。
 4. **設定上架狀態：** 設定 **上架時間** 與 **下架時間**；兩者皆留空代表立即上架、永不下架[^status]。
-5. **設定商品搜尋：** 決定商品是否能被站內搜尋找到。設為[排除搜尋](../discoverability/設定商品搜尋可見性.md){ title="設定商品搜尋可見性" }後，顧客仍可透過 商品連結 進入購買。
+5. **設定商品搜尋：** 決定商品是否能被站內搜尋找到。設為[排除搜尋](../discoverability/product-search-visibility.md){ title="設定商品搜尋可見性" }後，顧客仍可透過 商品連結 進入購買。
 
 ![商品基本設定](../../../assets/images/ec-商品-基本設定.png)
 
@@ -605,7 +605,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!--   [__批次修改商品資訊__](../bulk-operations/batch-update-product-descriptions-shipping.md){ title="批次修改商品描述與配送設定" }   -->
 <!--   批次更新多筆商品的資訊與設定。 -->
 <!-- - :lucide-search-x:{ .lg }    -->
-<!--   [__設定商品排除搜尋__](../discoverability/設定商品搜尋可見性.md){ title="設定商品搜尋可見性" }    -->
+<!--](../discoverability/product-search-visibility.md)ty/設定商品搜尋可見性.md){ title="設定商品搜尋可見性" }    -->
 <!--   設定商品不在特定搜尋結果中顯示。 -->
 <!---->
 <!-- </div> -->
@@ -799,8 +799,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!--   設定到貨通知，通知顧客追蹤商品已補貨。 -->
 <!-- - :lucide-check-square:{ .lg }    -->
 <!--   批次更新多筆商品的資訊與設定。 -->
-<!-- - :lucide-search-x:{ .lg }    -->
-<!--   [__設定商品排除搜尋__](../discoverability/設定商品搜尋可見性.md){ title="設定商品搜尋可見性" }    -->
+<!-- - :lucide-search-x:{ .](../discoverability/product-search-visibility.md)../discoverability/設定商品搜尋可見性.md){ title="設定商品搜尋可見性" }    -->
 <!--   設定商品不在特定搜尋結果中顯示。 -->
 <!---->
 <!-- </div> -->

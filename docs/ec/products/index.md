@@ -78,7 +78,7 @@ VIP 價格、**搜尋可見性排除**
 -   :lucide-flame: __熱門主題__
 	
 	---
-- [將商品從搜尋中排除](discoverability/設定商品搜尋可見性.md){ title="設定商品搜尋可見性" }
+- [將商品從搜尋中排除](discoverability/product-search-visibility.md){ title="設定商品搜尋可見性" }
 - [匯出商品資料 Excel 表格](bulk-operations/batch-update-product-descriptions-shipping.md#匯出商品-excel-表格){ title="批次修改商品描述與配送設定" }
 
 </div>

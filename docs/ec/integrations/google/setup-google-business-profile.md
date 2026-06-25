@@ -2,7 +2,7 @@
 title: "建立與驗證 Google 商家檔案"
 description: "建立與驗證 Google 商家檔案，讓實體店面在 Google 搜尋與地圖上顯示商家資訊，提升品牌曝光與顧客信任感。"
 created: "2026-03-18 15:16"
-last_modified: 2026-06-14 11:43
+last_modified: 2026-06-25 18:07
 lang: zh-TW
 type: tutorial
 author: Jase
@@ -31,7 +31,6 @@ plans:
 cyb_extensions: []
 intents:
   - Google 商家檔案
-  - Google Business Profile
   - 商家驗證
   - 在地商家
 features:
@@ -94,7 +93,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-search:{ .lg }   
-  [__SEO 優化__](../../marketing/SEO 設定與優化指南.md)     
+  [__SEO 優化__](../../website-management/seo/seo-guide.md)     
   建立完成後，可與官網的 SEO 設定結合，進一步提升品牌在搜尋引擎上的自然排名。
 
 </div>

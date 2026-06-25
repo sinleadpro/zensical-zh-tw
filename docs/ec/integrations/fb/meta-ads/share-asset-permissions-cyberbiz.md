@@ -80,13 +80,13 @@ hide: []
 在進行手動分享前，請務必先確認以下事項：
 
 - [x] **完成 [廣告帳號建立與儲值](create-meta-ad-account-top-up.md){ title="建立 Meta 廣告帳號並完成儲值" }**：請先確認已完成「建立 Meta 廣告帳號並完成儲值」的所有步驟。
-- [x] **完成 ](create-meta-ad-account-top-up.md#像素-pixel-設定)d#像素-pixel-設定){ title="建立 Meta 廣告帳號並完成儲值" }**：務必確認已完成廣告帳號建立中的「像素 (Pixel) 設定」步驟。
+- [x] **完成 [像素 (Pixel) 設定](create-meta-ad-account-top-up.md#像素設定-pixel){ title="建立 Meta 廣告帳號並完成儲值" }**：務必確認已完成廣告帳號建立中的「像素 (Pixel) 設定」步驟。
 - [x] **針對正確資產分享**：請先完成 [FBE 帳號授權與資產連結](../mbe/setup-fbe-authorization.md){ title="設定 FBE 帳號授權與資產連結" }，確認您於後台「新版商業擴充套件」中所設定的特定資產。
 
 ## 手動分享資產權限步驟
 
 !!! warning "核對資產" 
-    指派權限前，請確保企業平台設定中所選資產與 [商](../mbe/setup-fbe-authorization.md)產連結.md){ title="設定 FBE 帳號授權與資產連結" } 中所顯示的資訊一致
+    指派權限前，請確保企業平台設定中所選資產與 [商業擴充套件資產連結](../mbe/setup-fbe-authorization.md){ title="設定 FBE 帳號授權與資產連結" } 中所顯示的資訊一致
 
 ### 分享粉絲專頁權限
 

@@ -45,7 +45,7 @@ prerequisites:
   - "[[setup-google-analytics]]"
 related:
   - "[[google-analytics-advanced-tracking]]"
-  - "[[設定 GA4 排除內部流量與第三方參照來源]]"
+  - "[[ga4-exclude-internal-traffic-and-referrals]]"
 tags:
   - EC
   - Google Analytics 4

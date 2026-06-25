@@ -44,8 +44,8 @@ features:
   - "301_轉址"
 prerequisites: []
 related:
-  - "[[將 Sitemap 提交至 Google Search Console]]"
-  - "[[設定 301 重定向網站轉址]]"
+  - "[[submit-sitemap-to-gsc]]"
+  - "[[setup-301-redirects]]"
 tags:
   - "SEO"
   - "Meta Tag"
@@ -143,11 +143,11 @@ CYBERBIZ 系統提供的 SEO 優化範圍涵蓋了 **首頁、商品頁、商品
 <div class="grid cards" markdown>
 
 - :lucide-map:{ .lg }   
-  [__Sitemap (網站地圖)__](將 Sitemap 提交至 Google Search Console.md){ title="將 Sitemap 提交至 Google Search Console" }     
+  [__Sitemap (網站地圖)__](submit-sitemap-to-gsc.md){ title="將 Sitemap 提交至 Google Search Console" }     
   系統會自動產生 Sitemap，您只需將網址提交至 GSC，即可加快網頁收錄速度。
 
 - :lucide-signpost:{ .lg }     
-  [__301 重定向__](設定 301 重定向網站轉址.md){ title="設定 301 重定向網站轉址" }  
+  [__301 重定向__](setup-301-redirects.md){ title="設定 301 重定向網站轉址" }  
   當原本熱門的頁面網址失效或變更時，應設定 301 轉址將流量導向新網址，以防止 SEO 排名下滑。
 
 </div>
