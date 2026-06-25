@@ -206,7 +206,6 @@ graph LR
     [__設定庫存不足提醒方式__](low-stock-notifications/)<br>
     即時掌握庫存狀態，避免超賣或無貨可賣。
 
-
     </div>
 
 ### 套用行銷活動
@@ -268,7 +267,7 @@ graph LR
     激勵門市人員，根據結帳金額計算獎金。
 
     - :lucide-plug:{ .lg }
-    [__店長改價__]()<br>
+    [__店長改價__](pos-manager-price-override/)<br>
     具備權限人員，可手動調整訂單或價金。
 
     - :lucide-plug:{ .lg }

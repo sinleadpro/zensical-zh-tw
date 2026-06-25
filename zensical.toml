@@ -688,6 +688,8 @@ copyright = """
                 { "多付款方式" = "pos/check/payment-method/multiple-payment-methods.md" },
             ]},
             { "整筆訂單折扣" = "pos/check/storewide-order-discounts.md" },
+            { "店長改價" = "pos/check/pos-manager-price-override.md" },
+            { "變更店長改價名稱" = "pos/check/customize-manager-price-override-display.md" },
             { "列印發票明細" = "pos/check/print-invoice-details.md" },
             { "列印商品標籤" = "pos/check/print-product-labels.md" },
             { "庫存不足通知" = "pos/check/low-stock-notifications.md" },
@@ -725,8 +727,6 @@ copyright = """
         { "其他功能" = [
             { "小結關帳" = "pos/others/daily-closing.md" },
             { "磅秤設定" = "pos/others/scale-settings.md" },
-            { "店長改價" = "pos/others/pos-manager-price-override.md" },
-            { "變更店長改價名稱" = "pos/others/customize-manager-price-override-display.md" },
         ]},
         {"divider" = "divider"},
         { "商店管理" = [

@@ -4,7 +4,7 @@ description: 修改程式碼檔案，將前台訂單明細頁顯示的「店長�
 created: 2026-03-05 16:07
 last_modified: 2026-06-25 12:23
 lang: zh-TW
-permalink: https://help.cyberbiz.io/pos/orders/customize-manager-price-override-display
+permalink: https://help.cyberbiz.io/pos/check/customize-manager-price-override-display
 type: tutorial
 status: ""
 version: ""
