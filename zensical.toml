@@ -699,6 +699,7 @@ copyright = """
         ]},
         { "商品選單" = "pos/check/pos-frontend-menu-settings.md" },
         { "訂單" =[
+            { "訂單自動結案設定" = "pos/orders/pos-order-auto-close.md" },
             { "一般訂單管理" = "pos/orders/manage-general-orders.md" },
             { "門市取貨訂單(入庫/取貨)" = "pos/orders/store-pickup-orders-inbound-and-pickup.md" },
         ]},
@@ -722,6 +723,8 @@ copyright = """
         { "其他功能" = [
             { "小結關帳" = "pos/others/daily-closing.md" },
             { "磅秤設定" = "pos/others/scale-settings.md" },
+            { "店長改價" = "pos/others/pos-manager-price-override.md" },
+            { "變更店長改價名稱" = "pos/others/customize-manager-price-override-display.md" },
         ]},
         {"divider" = "divider"},
         { "商店管理" = [

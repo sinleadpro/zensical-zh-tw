@@ -188,7 +188,7 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-file-clock:{ .lg }   
-  [__POS 訂單自動結案__]()     
+  [__POS 訂單自動結案__](../../../pos/orders/pos-order-auto-close.md)     
   設定 POS 訂單自動結案。
 
 - :lucide-ticket-check:{ .lg }     
