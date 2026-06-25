@@ -73,7 +73,7 @@ hide: []
 透過分潤報表，您可以精確統計各類推廣對象的業績成效與應分潤金額。系統提供「結案後」的正式報表，以及「結案前」的即時訂單覽表。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | EC / POS
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 品牌官網 / 智能 POS
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 所有PLUS / 企業
 { .doc-badge }
 

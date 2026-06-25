@@ -75,7 +75,7 @@ hide: []
 當顧客選擇「門市取貨」下單後，管理員需透過後台執行出貨作業。本指南將引導您完成從篩選訂單、列印到店條碼到處理後續退貨的完整流程。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | EC / POS
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 品牌官網 / 智能 POS
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
 { .doc-badge }
 

@@ -73,7 +73,7 @@ hide: []
 了解分潤功能的運作機制、適用對象與情境，協助您選擇最適合的行銷分潤方案。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品){ title="圖示慣例" } | EC / POS
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品){ title="圖示慣例" } | 品牌官網 / 智能 POS
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 進階 / 高手 / 所有PLUS / 企業
 { .doc-badge }
 

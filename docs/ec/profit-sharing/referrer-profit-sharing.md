@@ -76,7 +76,7 @@ hide: []
 透過建立推薦人分潤方案，您可以針對不同合作對象（如網紅、會員或員工）設定專屬的業績抽成比例與消費者回饋。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | EC / POS
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 品牌官網 / 智能 POS
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 所有PLUS / 企業
 { .doc-badge }
 
