@@ -2,7 +2,7 @@
 title: 修改訂單明細頁「店長改價」的顯示名稱
 description: 修改程式碼檔案，將前台訂單明細頁顯示的「店長改價」更名為「商品改價」，避免消費者誤解。
 created: 2026-03-05 16:07
-last_modified: 2026-06-25 10:31
+last_modified: 2026-06-25 12:23
 lang: zh-TW
 permalink: https://help.cyberbiz.io/pos/orders/customize-manager-price-override-display
 type: tutorial
@@ -21,12 +21,8 @@ modules:
   - 商品
 sites:
   - TW
-tnb: trunk
+tnb: branch
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
@@ -66,6 +62,9 @@ search:
 icon: lucide/code-2
 hide:
 ---
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
+{ .doc-badge }
 
 ![樣板編輯器畫面](../../assets/images/ec-customers-order-liquid-hero.png){ title="樣板編輯器畫面" .hero-page }
 

@@ -2,7 +2,7 @@
 title: 設定 Facebook 跟 Instagram 商店
 description: 設定 Facebook 與 Instagram 商店，建立社群銷售管道並同步商品。
 created: 2026-04-13 16:31
-last_modified: 2026-06-14 11:37
+last_modified: 2026-06-25 11:49
 lang: zh-TW
 type: tutorial
 status: ""
@@ -43,13 +43,12 @@ prerequisites:
   - "[[setup-fbe-authorization]]"
   - "[[setup-fbe-domain-verification]]"
 related:
-  - [[setup-fbe-domain-verification]]
-  - "[[設定 FBE 網域驗證]]"
+  - "[[setup-fbe-domain-verification]]"
   - "[[product-swatches-variant-images-drag-drop]]"
   - "[[product-swatches-variant-images-default]]"
 tags:
-  - Facebook_商店
-  - Instagram_商店
+  - FB 商店
+  - IG 商店
   - 商品同步
   - 商業擴充套件
   - FBE
@@ -77,7 +76,7 @@ hide: []
 
 **FB、IG 商店設定** 的主要目的是建立社群商店，讓品牌能透過 Facebook 與 Instagram 觸及更多流量，並將潛在顧客導流至官網消費。
 
-!!! note "相關說明請參閱 Meta 官方教學：[在 Facebook 和 Instagram 上設定商店 :lucide-external-link:](https://www.facebook.com/business/help/268860861184453)。"
+!!! note "相關說明請參閱 Meta 官方教學：[在 Facebook 和 Instagram 上設定商店 :lucide-external-link:](https://zh-tw.facebook.com/business/help/268860861184453)。"
 
 ## 前置作業
 
@@ -137,19 +136,19 @@ Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專
 
     ![連結IG資產](../../../../assets/images/ec-第三方整合-fbe-串接fb-ig商店-連結資產.png)
 
-5.  **填](setup-fbe-domain-verification.md)證](設定 FBE 網域驗證.md){ title="設定 FBE 網域驗證" }，系統通常會自動帶入已驗證的網域。若未自動帶入，請輸入您的官網網域（如 `yourstore.com`）以完成驗證連結。
+5.  **[填寫網域驗證](setup-fbe-domain-verification.md){ title="設定 FBE 網域驗證" }**：系統通常會自動帶入已驗證的網域。若未自動帶入，請輸入您的官網網域（如 `yourstore.com`）以完成驗證連結。
 6.  **查看管道**：設定完成後，在銷售管道中即可看到已連結的 IG 帳號。
 
     ![檢視連結的IG商店](../../../../assets/images/ec-第三方整合-fbe-串接fb-ig商店-完成驗證.png)
 
-!!! note "後續 IG 商店設定及使用，請參閱 Meta 官方教學：[Instagram 購物功能 :lucide-external-link:](https://www.facebook.com/business/help/582645198813984)。"
+!!! note "後續 IG 商店設定及使用，請參閱 Meta 官方教學：[Instagram 購物功能 :lucide-external-link:](https://zh-tw.facebook.com/business/help/582645198813984)。"
 
 ## 商品同步與顯示管理
 
-系統完成串接後，會自動透過產品動態饋給（Product Feed）同步商品。
-
 !!! info "自動更新時間"
     官網商品資訊固定於 **每天凌晨 2:00 或 2:30** 自動同步至 Facebook 商店。
+
+系統完成串接後，會自動透過產品動態饋給（Product Feed）同步商品。
 
 <div class="grid cards" markdown>
 
@@ -191,4 +190,4 @@ Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專
 
 ??? quote "如何排除特定商品不同步至商店？"
 
-    若有「贈品」或「測試品」不希望上傳至商店，請在官網後台的商品標籤欄位輸入 **「贈品」** 或 **「排除product feed」**（排除 與 product 之間請勿添加空格），系統將自動過濾該商品。詳細操作，請參考 [如](../../../products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤)排除上傳至第三方平台標籤){ title="管理商品標籤" }。
+    若有「贈品」或「測試品」不希望上傳至商店，請在官網後台的商品標籤欄位輸入 **「贈品」** 或 **「排除product feed」**（排除 與 product 之間請勿添加空格），系統將自動過濾該商品。詳細操作，請參考[排除上傳至第三方平台標籤](../../../products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }。
