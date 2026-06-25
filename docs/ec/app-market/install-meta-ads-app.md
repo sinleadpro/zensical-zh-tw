@@ -2,7 +2,7 @@
 title: 安裝 Meta Ads App
 description: 透過 CYBERBIZ 管理後台安裝 Meta Ads App。
 created: 2026-04-20 15:30
-last_modified: 2026-06-14 11:35
+last_modified: 2026-06-25 22:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -37,7 +37,6 @@ prerequisites:
 related:
   - "[[setup-meta-ad-campaign]]"
 tags:
-  - EC
   - Meta Ads
   - Facebook
   - Instagram
@@ -100,7 +99,8 @@ hide: []
 
 <div class="grid cards" markdown>
 
-- :lucide-megaphone:{ .lg ](../integrations/fb/meta-ads/setup-meta-ad-campaign.md)ads/設定 Meta 廣告活動.md){ title="設定 Meta 廣告活動" }  
+- :lucide-megaphone:{ .lg }   
+  [__設定 Meta 廣告活動__](../integrations/fb/meta-ads/setup-meta-ad-campaign.md){ title="設定 Meta 廣告活動" }  
   透過 Meta Ads App 設定廣告活動，直接在 EC 後台管理廣告預算、目標與素材。
 
 - :lucide-shopping-basket:{ .lg }   
