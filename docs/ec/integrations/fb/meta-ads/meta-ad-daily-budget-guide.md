@@ -1,9 +1,8 @@
 ---
-
 title: Meta 廣告每日預算設定指南
 description: 設定 Meta 廣告每日預算的指南，根據新手和有經驗商家提供不同的預算計算方式與調整策略。
 created: 2026-04-20 19:52
-last_modified: 2026-06-08 17:15
+last_modified: 2026-06-25 15:11
 lang: zh-TW
 type: guide
 status: ""
@@ -69,8 +68,6 @@ search:
 icon: lucide/coins
 hide: []
 ---
-
-
 
 ![Meta廣告-每日預算](../../../../assets/images/ec-第三方整合-fb-maa-每日預算設定.png){ .hero-page }
 

@@ -173,7 +173,7 @@ hide: []
 
 1.  **進入 Meta Ads App**：登入 CYBERBIZ 管理後台，前往 **第三方整合 > 臉書 Facebook 設定 > 廣告活動設定**。
 
-    - 尚未串接：點擊「立即串接」（參考：[安裝 Meta Ads App](../../../app-market/安裝%20Meta%20Ads%20App.md){ data-preview }）。
+    - 尚未串接：點擊「立即串接」（參考：[安裝 Meta Ads App](../../../app-market/install-meta-ads-app.md){ title="安裝 Meta Ads App" }）。
     - 已完成串接：點擊「立即前往」。
 
 2.  **開啟 AI 分析視窗**：切換至 **廣告活動** 分頁，點擊活動列表頁面的右上角的「**AI分析**」按鈕，進入 AI Insights 頁面。

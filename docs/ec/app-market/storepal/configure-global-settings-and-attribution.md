@@ -12,50 +12,50 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: 
+products:
   - EC
-modules: 
+modules:
   - APP MARKET
   - 門市助理
-sites: 
+sites:
   - TW
-audiences: 
+audiences:
   - admin
 difficulty: intermediate
 tnb: branch
-plans: 
-  - 專業 PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+plans:
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
   - 設定業績歸因規則
   - 編輯簡訊通知模板
-features: 
+features:
   - 門市助理
   - 權限管理
   - 業績歸因
   - QR_Code
 prerequisites: []
 related: []
-tags: 
+tags:
   - 門市助理
   - 業績歸因
 acoiv: configure
 apis: []
 devices: []
-ui_components: 
+ui_components:
   - 前台功能設定
   - 業績歸因設定
   - 通知設定
-paths: 
+paths:
   - 門市管理 > 特定門市
   - 設定 > 功能設定 > 前台功能設定
   - 設定 > 功能設定 > 業績歸因設定
   - 設定 > 通知設定
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/support/?p=40979
 permalink: ""
 comments: false
