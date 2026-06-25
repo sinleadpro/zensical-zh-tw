@@ -2,7 +2,7 @@
 title: 設定 LIFF 自動登入與會員綁定
 description: 使用 LIFF 實現會員自動登入，並同步完成官方帳號好友加入與會員帳號綁定。
 created:
-last_modified: 2026-06-14 11:50
+last_modified: 2026-06-25 19:54
 lang: zh-TW
 type: tutorial
 status:
@@ -79,7 +79,7 @@ icon: lucide/zap
 hide: []
 ---
 
-![](../../../../assets/images/ec-第三方整合-line liff-產生網址.png){ .hero-page }
+![LIFF產生網址](../../../../assets/images/ec-第三方整合-line liff-產生網址.png){ title="LIFF產生網址" .hero-page }
 
 ## 什麼是 LIFF
 
@@ -112,13 +112,13 @@ hide: []
 	
 	- [x] 已完成[「LINE 快速登入」設定](setup-line-quick-login.md){ title="設定 LINE 快速登入" }。  
 	
-	- [x] 已完成 [LINE OA 與 LINE Login Channel 連動](設定 LINE 快速登入/#導引加入好友){ title="設定 LINE 快速登入" }。
+	- [x] 已完成 [LINE OA 與 LINE Login Channel 連動](setup-line-quick-login.md#導引加入好友){ title="設定 LINE 快速登入" }。
 
 4. **啟用 LIFF：** 開啟 **自動產生 LIFF 網址** 開關，並點選 **儲存設定**。
 
 5. **複製網址：** 儲存後頁面下方會出現全站 LIFF 網址，點選藍色圖示 :lucide-files: 即可複製。
 
-	![](../../../../assets/images/ec-第三方整合-liff-產生全站 liff 網址.png)
+	![產生全站LIFF網址](../../../../assets/images/ec-第三方整合-liff-產生全站 liff 網址.png){ title="產生全站LIFF網址" }
 
 	??? note "LIFF 網址說明"
 
@@ -132,11 +132,12 @@ hide: []
 
 6. **LINE Developers 同步狀態：** 完成上述步驟後，LINE Developers 後台會自動同步產生對應的 LIFF 設定。
 
-	![](../../../../assets/images/ec-第三方串接-line-liff app.png)
-    > :lucide-triangle-alert: 請 **統一使用 CYBERBIZ 後台生成** 的 LIFF 連結，請勿擅自更動 LINE Developers 後台中的專屬 LIFF 設定，以免導致跳轉機制失效。
+	![LINE Developers LIFF設定](../../../../assets/images/ec-第三方串接-line-liff app.png){ title="LINE Developers LIFF設定" }
+  
+    !!! warning "請 **統一使用 CYBERBIZ 後台生成** 的 LIFF 連結，請勿擅自更動 LINE Developers 後台中的專屬 LIFF 設定，以免導致跳轉機制失效。"
 
-	!!! tip "想要在 LIFF 流程中一併取得會員手機號碼？"
-		若您擁有 LINE Certified Provider 資格( 參閱 [申請 LINE Certified Provider 文件 :lucide-external-link:](https://drive.google.com/file/d/1oSF07fHFdx_s4gXVhDv0zw81Su3usQKY/view))，可以進一步開啟 `phone` 權限。詳細設定請參閱 [如何設定 LINE 快速登入時取得會員手機號碼](設定 LINE 快速登入時取得會員手機號碼#搭配-liff-應用){ title="設定 LINE 快速登入時取得會員手機號碼" }。
+    !!! tip "想要在 LIFF 流程中一併取得會員手機號碼？"
+      若您擁有 LINE Certified Provider 資格( 參閱 [申請 LINE Certified Provider 文件 :lucide-external-link:](https://drive.google.com/file/d/1oSF07fHFdx_s4gXVhDv0zw81Su3usQKY/view))，可以進一步開啟 `phone` 權限。詳細設定請參閱 [如何設定 LINE 快速登入時取得會員手機號碼](setup-line-quick-login-phone-number.md#搭配-liff-應用){ title="設定 LINE 快速登入時取得會員手機號碼" }。
 
 
 ## 如何製作特定頁面的 LIFF 連結
@@ -162,13 +163,13 @@ hide: []
 
 4. **進入目標頁：** 以 **會員登入狀態** 進入指定目的頁面。
 
-![](../../../../assets/images/ec-第三方整合-line-liff登入.gif)
+![LIFF自動登入流程](../../../../assets/images/ec-第三方整合-line-liff登入.gif){ title="LIFF自動登入流程" }
 
 ## 應用情境範例
 
 商家可將 LIFF 連結埋設於以下位置：
 
-- [**LINE 圖文選單**](setup-line-rich-menu.md){ data-preview }  ： 設定「會員中心」連結，方便顧客一鍵查看點數與等級。
+- [**LINE 圖文選單**](../marketing/setup-line-rich-menu.md){ title="設定 LINE 圖文選單" }  ： 設定「會員中心」連結，方便顧客一鍵查看點數與等級。
 
 - **訊息推播：** 發送「訂單紀錄」連結，讓顧客快速追蹤出貨狀態。
 

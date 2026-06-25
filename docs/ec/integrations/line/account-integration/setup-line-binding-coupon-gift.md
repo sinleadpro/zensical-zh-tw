@@ -2,7 +2,7 @@
 title: 設定 LINE 綁定會員贈送優惠券
 description: 設定 LINE 官方帳號綁定會員後自動發送優惠券，以提升會員綁定率與行銷效果。
 created: 2026-02-24 14:26
-last_modified: 2026-06-14 11:54
+last_modified: 2026-06-25 20:11
 lang: zh-TW
 permalink: ""
 type: tutorial
@@ -64,7 +64,7 @@ tags:
   - CRM
   - 第三方整合
   - OMO
-  - LINE_OA
+  - LINE OA
 acoiv: integration
 apis:
   - LINE Messaging API
@@ -86,7 +86,7 @@ icon: lucide/ticket-plus
 hide: []
 ---
 
-![](../../../../assets/images/ec-第三方整合-line-綁定會員送優惠券.png){ .hero-page }
+![LINE綁定會員送優惠券](../../../../assets/images/ec-第三方整合-line-綁定會員送優惠券.png){ .hero-page title="LINE綁定會員送優惠券" }
 
 ## LINE 會員綁定贈送優惠券說明
 
@@ -116,7 +116,7 @@ hide: []
 
 	- **使用次數**：設定每位顧客可以使用此張優惠券的次數上限。
 
-	![](../../../../assets/images/ec-第三方整合-line-綁定會員送優惠券-基本設定.png)
+	![綁定送優惠券-基本設定](../../../../assets/images/ec-第三方整合-line-綁定會員送優惠券-基本設定.png){ title="綁定送優惠券-基本設定" }
 
 4. **進階設定**
 
@@ -137,7 +137,7 @@ hide: []
 		- **如遇指定活動不得使用此優惠券：** 系統將 **以整筆訂單** 進行判定。
         > 只要訂單中包含任一商品符合指定活動，則該筆訂單將全面鎖定，無法使用此優惠券。
 
-	![](../../../../assets/images/ec-第三方整合-line-綁定會員送優惠券-進階設定.png)
+	![綁定送優惠券-進階設定](../../../../assets/images/ec-第三方整合-line-綁定會員送優惠券-進階設定.png){ title="綁定送優惠券-進階設定" }
 
 5. **套用設定：** 設定完成後，點擊 **儲存** 以套用變更。
 
@@ -147,7 +147,7 @@ hide: []
 
 - **專屬綁定連結**：`https://你的網址/customer/auth/line?line_action=line_login`。
 
-- **應用建議**：商家可以將此連結設定在 [LINE 的 **圖文選單**](setup-line-rich-menu.md){ data-preview }  或 [**加入好友的歡迎訊息**](綁定 LINE 官方帳號與官網會員#設定加入好友的歡迎訊息){ title="綁定 LINE 官方帳號與官網會員" } 中，吸引新好友立即點擊綁定。
+- **應用建議**：商家可以將此連結設定在 [LINE 的 **圖文選單**](../marketing/setup-line-rich-menu.md){ title="設定 LINE 圖文選單" }  或 [**加入好友的歡迎訊息**](bind-line-oa-store-members.md#設定加入好友的歡迎訊息){ title="綁定 LINE 官方帳號與官網會員" } 中，吸引新好友立即點擊綁定。
 
 ## 進階應用技巧
 
@@ -156,7 +156,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-user-plus:{ .lg }   
-  [__LINE 加入好友邀請__](../../notifications/send-line-friend-invitation.md){ data-preview }       
+  [__LINE 加入好友邀請__](../../../notifications/send-line-friend-invitation.md){ title="發送 LINE 加入好友邀請" }       
   透過簡訊或 Email 主動發送導流連結，引導顧客加入 LINE 官方帳號，將一般會員轉化為品牌好友。
 
 <!--

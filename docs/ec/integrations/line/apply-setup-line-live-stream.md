@@ -3,7 +3,7 @@
 title: "申請與設定 LINE 直播功能"
 description: 如何申請 LINE 直播功能，並完成後台參數設定與商品串接。 
 created: "2026-03-13 10:35"
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-25 21:04
 lang: zh-TW
 type: tutorial
 status: 
@@ -41,8 +41,8 @@ features:
 prerequisites: []
 related: []
 tags:
-  - LINE_直播
-  - LINE_官方帳號
+  - LINE 直播
+  - LINE OA
   - 直播購物
   - 邊看邊買
 acoiv: activate
@@ -64,8 +64,7 @@ icon: lucide/radio
 hide: []
 ---
 
-
-![](../../../assets/images/ec-第三方整合-line購物設定-lineoa導購-hero.png){ .hero-page }
+![LINE 直播功能](../../../assets/images/ec-第三方整合-line購物設定-lineoa導購-hero.png){ title="LINE 直播功能" .hero-page }
 
 ## LINE 直播說明
 
@@ -75,11 +74,11 @@ hide: []
 
 ## 申請資格與注意事項
 
-- **帳號類型限制**：僅限 **「認證帳號（藍色盾牌）」** 申請。認證申請流程，請參閱 [官方說明 :lucide-external-link:](LINE官方文件)。
+- **帳號類型限制**：僅限 **「認證帳號（藍色盾牌）」** 申請。認證申請流程，請參閱 [官方說明 :lucide-external-link:](https://tw.linebiz.com/column/line-lac-id-0418/)。
     *   **一般帳號（灰色盾牌）**：目前不開放申請。
     *   **企業帳號（綠色盾牌）**：為邀請制，亦具備資格。
 - **官方帳號好友數**：建議好友數達 **1000 人以上**，以確保觀看與轉單成效。
-- **顧客限制**：顧客必須是官方帳號好友，且 [**已完成官網會員與 LINE OA 的綁定**](bind-line-oa-store-members.md){ data-preview }，方可進入直播間並下單。
+- **顧客限制**：顧客必須是官方帳號好友，且 [**已完成官網會員與 LINE OA 的綁定**](account-integration/bind-line-oa-store-members.md){ title="綁定 LINE 官方帳號與官網會員" }，方可進入直播間並下單。
 - **直播頻率建議**：建議每月至少直播 4 場以上，以培養與好友的觀看默契。
 
 ## 申請與上線流程
@@ -107,7 +106,7 @@ hide: []
 *   **設定位置**：登入 CYBERBIZ 管理後台，前往 **第三方整合 > LINE購物設定 > 頁面下半部 「LINE OA 導購」 區塊**。
 *   **填寫欄位**：填入系統提供的 **「SHOP_ID」** 與 **「AUTHKEY」** 並儲存。
 
-![](../../../assets/images/ec-第三方整合-line購物設定-lineoa導購.png)
+![LINE OA 導購設定](../../../assets/images/ec-第三方整合-line購物設定-lineoa導購.png){ title="LINE OA 導購設定" }
 
 ## 商品串接與同步邏輯
 
@@ -115,11 +114,11 @@ hide: []
 
 1.  **商品狀態**：必須為「公開」且「已上架」。
 
-    ![](../../../assets/images/ec-商品-所有商品-篩選已公開已上架商品.png)
+    ![篩選已公開已上架商品](../../../assets/images/ec-商品-所有商品-篩選已公開已上架商品.png){ title="篩選已公開已上架商品" }
 
 2.  **標籤排除**：商品標籤欄位 **不得** 設有「贈品」或「排除product feed」。
 
-    ![](../../../assets/images/ec-商品-商品編輯頁-商品標籤.png)
+    ![商品標籤設定](../../../assets/images/ec-商品-商品編輯頁-商品標籤.png){ title="商品標籤設定" }
 
 3.  **同步時間**：
     *   **CYBERBIZ 自動更新**：每日 4:45 AM 及 4:45 PM 自動產出產品目錄。
@@ -128,13 +127,13 @@ hide: []
 4.  **搜尋商品建議**：於直播後台搜尋商品時，建議使用 **Product ID (PID)** 最為精準。
     *   *PID 取得方式：點開後台商品編輯頁（商品資訊頁籤）網址最後方的數字，或從[匯出商品列表中查看 ID 欄位](../../products/bulk-operations/Excel 大量匯入商品.md#判斷-excel-上傳商品是新增還是更新){ title="Excel 大量匯入商品" }。*
 
-    ![](../../../assets/images/ec-商品-商品編輯頁-pid-slug.png)
+    ![商品編輯頁 PID](../../../assets/images/ec-商品-商品編輯頁-pid-slug.png){ title="商品編輯頁 PID" }
 
 ## 訂單查看
 
 透過 LINE 直播導購完成的訂單，商家可至管理後台的「**訂單**」>「**LINE OA訂單**」進行查看與管理。
 
-![](../../../assets/images/ec-訂單-lineoa訂單.png)
+![LINE OA 訂單查看](../../../assets/images/ec-訂單-lineoa訂單.png){ title="LINE OA 訂單查看" }
 
 ## 後續操作
 

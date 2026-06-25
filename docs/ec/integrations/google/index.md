@@ -115,13 +115,37 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :lucide-chart-line: __Google Analytics__
+-   :lucide-link: __建立並串接 Google Analytics__
 
     ---
 
-    Google Analytics 4 (GA4) 完整教學，包含基礎串接設定與進階資料分析功能，協助商家追蹤網站流量與使用者行為。
+    串接 Google Analytics 4 (GA4)，包括 Google 端帳號建立、取得評估 ID，以及在 CYBERBIZ 後台填入追蹤 ID 的完整步驟。
 
-    [:octicons-arrow-right-24: 前往](ga/index.md)
+    [:octicons-arrow-right-24: 前往](ga/setup-google-analytics.md)
+
+-   :lucide-settings: __設定 Google Analytics 進階追蹤與資料分析__
+
+    ---
+
+    加強型評估、Google 信號、資料保留期限調整及報表識別資訊設定，協助商家獲得更精確的流量數據與使用者輪廓。
+
+    [:octicons-arrow-right-24: 前往](ga/google-analytics-advanced-tracking.md)
+
+-   :lucide-funnel-x: __設定 GA4 排除內部流量與第三方參照來源__
+
+    ---
+
+    在 GA4 中設定排除 company 內部 IP 流量，以及排除第三方金物流的參照連結，避免轉換來源被誤判。
+
+    [:octicons-arrow-right-24: 前往](ga/ga4-exclude-internal-traffic-and-referrals.md)
+
+-   :lucide-search-code: __設定 GA4 站內搜尋追蹤__
+
+    ---
+
+    透過 GA4 加強型評估功能，追蹤使用者在官網上的站內搜尋行為，分析消費者的資訊需求與查找意圖。
+
+    [:octicons-arrow-right-24: 前往](ga/setup-ga4-site-search-tracking.md)
 
 -   :lucide-link: __使用 UTM 參數追蹤行銷流量與分析成效__
 

@@ -1,9 +1,8 @@
 ---
-
 title: 申請與設定 LINE 購物導購
 description: 申請 LINE 購物導購並完成後台串接設定，將 LINE 購物流量導入官網下單。
 created: 2026-03-13 10:46
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-25 21:07
 lang: zh-TW
 type: tutorial
 status:
@@ -38,7 +37,7 @@ prerequisites: []
 related:
   - 匯出訂單報表
 tags:
-  - LINE_購物
+  - LINE 購物
   - 購物導購
 acoiv: activate
 apis: []
@@ -60,8 +59,7 @@ icon: lucide/shopping-bag
 hide: []
 ---
 
-
-![](../../../assets/images/ec-第三方整合-line購物設定.png){ .hero-page }
+![LINE 購物導購設定](../../../assets/images/ec-第三方整合-line購物設定.png){ title="LINE 購物導購設定" .hero-page }
 
 ## LINE 購物說明
 
@@ -93,7 +91,7 @@ hide: []
 4.  **填入參數**：CYBERBIZ 專員會協助將 LINE 提供之 **「SHOP_ID」** 與 **「AUTHKEY」** 填入系統中。
     *   **路徑**：「第三方整合」>「LINE購物設定」> 頁面上半區塊「LINE購物」。
 
-![](../../../assets/images/ec-第三方整合-line購物設定-line購物.png)
+![LINE 購物設定頁面](../../../assets/images/ec-第三方整合-line購物設定-line購物.png){ title="LINE 購物設定頁面" }
 
 ## 商品串接邏輯與條件
 
@@ -113,8 +111,8 @@ hide: []
 
 ## 訂單查看與管理
 
-*   **訂單歸類**：透過 LINE 購物導購完成的訂單，可於 [**「訂單」>「LINE 購物訂單」**](group-buy/setup-line-group-buy-group.md#訂單查看與紀錄管理){ title="設定 LINE 團購群組" } 中查看。
-*   **導購來源追蹤**：商家也可在匯出的訂單報表中[查看「導購來源」欄位](../../orders/export-order-report.md#步驟一選擇報表欄位){ data-preview }，確認訂單是否來自 LINE 購物。
+*   **訂單歸類**：透過 LINE 購物導購完成的訂單，可於 **「訂單」>「LINE 購物訂單」** 中[查看](group-buy/setup-line-group-buy-group.md#訂單查看與紀錄管理){ title="設定 LINE 團購群組" }。
+*   **導購來源追蹤**：商家也可在匯出的訂單報表中[查看「導購來源」欄位](../../orders/reports/export-order-report.md#步驟一選擇報表欄位){ title="匯出訂單報表" }，確認訂單是否來自 LINE 購物。
 
 ## 常見問題
 

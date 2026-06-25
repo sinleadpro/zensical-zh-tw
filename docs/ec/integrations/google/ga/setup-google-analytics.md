@@ -139,7 +139,8 @@ Google Analytics (GA4) 是經營品牌網站必備的分析工具，能協助行
   [__排除內部流量__](ga4-exclude-internal-traffic-and-referrals.md){ title="設定 GA4 排除內部流量與第三方參照來源" }     
   在 GA4 管理介面的「資料串流」中定義公司 IP，避免開發或行銷人員的瀏覽行為干擾分析。
 
-- :lucide-list:{ .lg }  ](ga4-exclude-internal-traffic-and-referrals.md#列出不適用的參照連結網址-排除第三方網站)列出不適用的參照連結網址-排除第三方網站){ title="設定 GA4 排除內部流量與第三方參照來源" }  
+- :lucide-list:{ .lg }     
+  [__列出不適用的參照連結__](ga4-exclude-internal-traffic-and-referrals.md#列出不適用的參照連結網址-排除第三方網站){ title="設定 GA4 排除內部流量與第三方參照來源" }  
   將金物流服務商加入排除名單，以免轉換來源被誤判為第三方金流頁面。
 
 - :lucide-clock:{ .lg }     

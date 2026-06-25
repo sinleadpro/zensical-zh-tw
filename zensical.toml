@@ -538,7 +538,6 @@ copyright = """
                     {"Tag Assistant 驗證" = "ec/integrations/google/verify-tracking-tag-installation.md"}
                 ]},
                 {"Google Analytics" = [
-                    {"overview" = "ec/integrations/google/ga/index.md"},
                     {"建立串接" = "ec/integrations/google/ga/setup-google-analytics.md"},
                     {"進階設定" = "ec/integrations/google/ga/google-analytics-advanced-tracking.md"},
                     {"排除內部與參照流量" = "ec/integrations/google/ga/ga4-exclude-internal-traffic-and-referrals.md"},
@@ -696,6 +695,7 @@ copyright = """
             { "盟立電子發票" = "pos/third-party/monolith-e-invoice.md" },
             { "星益欣電子發票" = "pos/third-party/wixtar-e-invoice.md" },
             { "LINE PAY 掃碼支付" = "pos/check/line-pay-scan-payment.md" },
+            { "LINE 會員條碼結帳" = "pos/integrations/line/line-member-barcode-pos-checkout.md" },
         ]},
         {"divider" = "divider"},
         { "結帳" =[

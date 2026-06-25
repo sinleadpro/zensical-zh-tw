@@ -1,9 +1,8 @@
 ---
-
 title: 串接美安通路
 description: 串接CYBERBIZ 官網與美安 (SHOP.COM)，透過經銷商會員管道銷售商品並增加品牌曝光。
 created: 2026-03-30 22:08
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-25 21:09
 lang: zh-TW
 type: tutorial
 status: ""
@@ -44,8 +43,7 @@ prerequisites: []
 related: []
 tags:
   - 美安
-  - SHOP_COM
-  - XML_饋給
+  - XML 饋給
   - 經銷商
   - 第三方整合
 acoiv: integration
@@ -68,10 +66,7 @@ icon: simple/stryker
 hide: []
 ---
 
-
-
-
-![第三方整合-美安](../../assets/images/ec-第三方整合-美安.png){ .hero-page }
+![第三方整合-美安](../../assets/images/ec-第三方整合-美安.png){ title="第三方整合-美安" .hero-page }
 
 ## 串接美安說明
 
@@ -91,16 +86,16 @@ hide: []
 
 1.  **填入識別碼**：前往 CYBERBIZ 後台「**第三方整合**」>「**美安 shop.com 設定**」，填入取得的 OFFER_ID 與 Advertiser_id。
 
-    ![第三方整合-美安ID](../../assets/images/ec-第三方整合-美安-offer-advertiser-ids.png)
+    ![第三方整合-美安ID](../../assets/images/ec-第三方整合-美安-offer-advertiser-ids.png){ title="第三方整合-美安ID" }
 
 2.  **檢查商品資訊**：確保商品符合美安規範，否則 XML 饋給會產生錯誤：
     *   **必填欄位**：商品名稱、網址、簡述、圖片、售價、定價、產品編號 (SKU) 與群組。
     *   **網址規範**：網址部分僅限 **英文與數字**，不能包含中文。
     *   **圖片規範**：必須使用 **RGB 模式的 JPG 檔**。
-    !!! info "欄位填寫設定，請參閱 [商品基本設定](../products/create-and-manage/新增單一商品.md) 或 [Excel 大量匯入商品](../products/bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }。"
+    !!! info "欄位填寫設定，請參閱 [商品基本設定](../products/create-and-manage/create-update-products.md){ title="新增與更新商品" } 或 [Excel 大量匯入商品](../products/bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }。"
 3.  **提供 XML 檔案**：在同一個後台頁面複製「**產品資料 XML 表**」網址並提供給美安。
 
-    ![第三方整合-美安-產品xml](../../assets/images/ec-第三方整合-美安-productxml.png)
+    ![第三方整合-美安-產品xml](../../assets/images/ec-第三方整合-美安-productxml.png){ title="第三方整合-美安-產品xml" }
 
 4.  **回報主機 IP**：若美安要求提供主機 IP 以記錄交易與取消紀錄，請回覆 IP 為：`52.194.101.168`。
 
@@ -130,12 +125,12 @@ hide: []
 1.  **下單測試**：美安會以「美安測試」名義下三筆訂單（通常兩筆會認列，一筆不會），並以 Email 通知店家。
 2.  **回傳報表**：登入 CYBERBIZ 後台，前往「**美安 shop.com 設定**」匯出該時段訂單報表並回傳給美安（報表需包含 RID、Click ID 等資訊）。
 
-    ![美安-匯出訂單日期](../../assets/images/ec-第三方整合-美安-日期設定.png)
+    ![美安-匯出訂單日期](../../assets/images/ec-第三方整合-美安-日期設定.png){ title="美安-匯出訂單日期" }
 
 3.  **取消訂單**：確認成功後，前往「**訂單**」>「**美安訂單**」取消測試單。
     *   **注意**：取消時需維持系統自動帶入的 **訂單金額**（不含運費），不可輸入 0。
 
-    ![美安-取消訂單](../../assets/images/ec-第三方整合-美安-取消訂單.gif)
+    ![美安-取消訂單](../../assets/images/ec-第三方整合-美安-取消訂單.gif){ title="美安-取消訂單" }
 
 !!! info "聯絡與支援"
     若對串接進度或美安端的操作有任何疑問，請直接聯繫 美安 (SHOP.COM) 夥伴商店部門：

@@ -1,9 +1,8 @@
 ---
-
 title: 設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結
 description: 透過編輯 Liquid 樣板檔案，在結帳完成後的關鍵轉換點嵌入 LINE 導流元件，以提升會員回流率。
 created: 2026-02-24
-last_modified: 2026-03-05 20:15
+last_modified: 2026-06-25 20:28
 lang: zh-TW
 permalink: ""
 type: tutorial
@@ -66,8 +65,7 @@ icon: lucide/party-popper
 hide:
 ---
 
-
-![](../../../../assets/images/ec-網站外觀-order-done-extra-content-liquid.png){ .hero-page }
+![訂單頁LINE好友連結](../../../../assets/images/ec-網站外觀-order-done-extra-content-liquid.png){ .hero-page title="訂單頁LINE好友連結" }
 
 ## 訂單相關頁面顯示 LINE 加入好友連結說明
 
@@ -87,32 +85,32 @@ hide:
 2. **選擇操作：** 在目前使用的版型上點選「**選擇操作**」>「**CSS/HTML編輯器**」。
 3. **搜尋檔案：** 在編輯器搜尋欄中輸入檔案名稱：**`order_done_extra_content.liquid`**。
 
-	![](../../../../assets/images/ec-網站外觀-樣板編輯器-order-done-extra-content-liquid.gif)
+	![搜尋樣板檔案](../../../../assets/images/ec-網站外觀-樣板編輯器-order-done-extra-content-liquid.gif){ title="搜尋樣板檔案" }
 
 4. **編輯程式碼：** 編輯完成後，點擊 **儲存** 以套用變更。
 5. **前台畫面範例：**
 
-	![](../../../../assets/images/ec-網站外觀-訂單頁顯示 line 加入好友-前台.png)
+	![訂單頁好友連結前台](../../../../assets/images/ec-網站外觀-訂單頁顯示 line 加入好友-前台.png){ title="訂單頁好友連結前台" }
 
 ## 程式碼撰寫建議
 
 商家工程師需自行撰寫 HTML/CSS 程式碼來設計畫面。若商家希望針對不同的頁面顯示不同內容，可以使用以下邏輯進行判斷：
 
 - **區分頁面代碼範例：**
-    
-    ``` liquid
-    {% if page_title == '訂單成立' %}
-       <!-- 這裡放置要在「訂單成立頁」顯示的內容（如好友連結、圖片） -->
-    {% else %}
-       <!-- 這裡放置要在「付款完成頁」顯示的內容 -->
-    {% endif %}
-    ```
-    
-    _(註：若不需區分頁面，則直接放置內容即可)_
+	
+	``` liquid
+	{% if page_title == '訂單成立' %}
+	   <!-- 這裡放置要在「訂單成立頁」顯示的內容（如好友連結、圖片） -->
+	{% else %}
+	   <!-- 這裡放置要在「付款完成頁」顯示的內容 -->
+	{% endif %}
+	```
+	
+	_(註：若不需區分頁面，則直接放置內容即可)_
 
-	![](../../../../assets/images/ec-網站外觀-樣板-order-done-extra-content-liquid-訂單成立頁-付款完成頁.png)
+	![訂單成立頁與付款完成頁](../../../../assets/images/ec-網站外觀-樣板-order-done-extra-content-liquid-訂單成立頁-付款完成頁.png){ title="訂單成立頁與付款完成頁" }
 
-- **恢復機制：** 若修改後發生異常，可參考[「恢復樣版編輯器」](../../website-appearance/restore-code-theme-editor.md){ data-preview }  功能將檔案回溯至先前版本。
+- **恢復機制：** 若修改後發生異常，可參考[「恢復樣版編輯器」](../../../website-appearance/code-customization/restore-code-theme-editor.md){ title="使用樣板編輯器恢復網頁代碼" }  功能將檔案回溯至先前版本。
 
 !!! warning "注意事項"
 	- **不提供代寫服務：** CYBERBIZ **不提供語法教學與代碼撰寫服務**，商家需委託自家工程師或外部設計單位處理。

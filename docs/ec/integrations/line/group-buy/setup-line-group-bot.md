@@ -2,7 +2,7 @@
 title: 設定 LINE 團購機器人
 description: 建立並設定 LINE 團購機器人，完成 Messaging API、Webhook 與 LIFF 串接，讓使用者可在 LINE 群組內進行團購購物。
 created: 2026-03-11 17:27
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-25 20:57
 lang: zh-TW
 type: tutorial
 status:
@@ -67,7 +67,7 @@ icon: lucide/bot
 hide: []
 ---
 
-![](../../../../assets/images/ec-第三方整合-line團購機器人設定.png){ .hero-page }
+![LINE 團購機器人設定](../../../../assets/images/ec-第三方整合-line團購機器人設定.png){ title="LINE 團購機器人設定" .hero-page }
 
 ## 什麼是 LINE 團購機器人
 
@@ -123,22 +123,22 @@ hide: []
 
 1.  **建立帳號**：至 [LINE OA Manager :lucide-external-link:](https://manager.line.biz/) 創建一個專屬團購用的 LINE 官方帳號。
 
-    ![](../../../../assets/images/ec-第三方整合-lineoa-建立新帳號.png)
+    ![建立新帳號](../../../../assets/images/ec-第三方整合-lineoa-建立新帳號.png){ title="建立新帳號" }
 
 2.  **帳號設定**：於「設定」>「帳號設定」中，將「加入群組或多人聊天室」設為「**接受邀請加入群組或多人聊天室**」。
 
-    ![](../../../../assets/images/ec-第三方整合-lineoa-帳號設定-接受邀請加入群組或多人聊天室.gif)
+    ![帳號設定-接受邀請加入群組](../../../../assets/images/ec-第三方整合-lineoa-帳號設定-接受邀請加入群組或多人聊天室.gif){ title="帳號設定-接受邀請加入群組" }
 
 3.  **回應設定**：在「回應設定」中，
     - 啟用【聊天】功能。
     - 將【回應模式】設為「**手動聊天＋自動回應訊息**」。
     - **停用**「加入好友的歡迎訊息」。
 
-    ![](../../../../assets/images/ec-第三方整合-line團購機器人-回應設定.png)
+    ![團購機器人-回應設定](../../../../assets/images/ec-第三方整合-line團購機器人-回應設定.png){ title="團購機器人-回應設定" }
 
 4.  **啟用 Messaging API**：點選「啟用 Messaging API」，並選擇與品牌官網相同的 **LINE Provider**。
 
-    ![](../../../../assets/images/ec-第三方整合-lineoa-messagingapi.png)
+    ![啟用 Messaging API](../../../../assets/images/ec-第三方整合-lineoa-messagingapi.png){ title="啟用 Messaging API" }
     
     !!! warning "確保消費者身分 (UID) 一致"
         若您的品牌已經建立 LINE Provider（服務提供者），請選擇「現有提供者」，**不要重新建立新的 Provider**。 
@@ -151,24 +151,24 @@ hide: []
 
     *   將 LINE 的 Channel 資訊複製到 CYBERBIZ 後台（路徑：**第三方整合** > **LINE 團購機器人設定**）。
     
-        ![](../../../../assets/images/ec-第三方整合-line團購機器人-linemessageapi-複製貼上.gif)
+        ![複製貼上 Messaging API](../../../../assets/images/ec-第三方整合-line團購機器人-linemessageapi-複製貼上.gif){ title="複製貼上 Messaging API" }
 
     *   將 CYBERBIZ 提供的 **Webhook 網址** 貼回 LINE OA Manager 的 Messaging API 設定中，並點擊儲存。
 
-        ![](../../../../assets/images/ec-第三方整合-cyb-webhook-貼上lineoa.gif)
+        ![貼上 Webhook 網址](../../../../assets/images/ec-第三方整合-cyb-webhook-貼上lineoa.gif){ title="貼上 Webhook 網址" }
 
 6.  **取得 Access Token**：
     - 至 [LINE Developers Console :lucide-external-link:](https://developers.line.biz/console) 進入該帳號，或從 LINE OA Manager 的 Messaging API 頁面中直接點擊引導連結進入。
     
-        ![](../../../../assets/images/ec-第三方整合-lineoa-linedevelopersconsole-link.png)
+        ![進入 Developers Console](../../../../assets/images/ec-第三方整合-lineoa-linedevelopersconsole-link.png){ title="進入 Developers Console" }
 
     - 在「Messaging API」頁籤將 **Use webhook** 開啟，並貼上從 CYBERBIZ 後台複製的 Webhook 網址。
     
-        ![](../../../../assets/images/ec-第三方整合-linedeveloperconsole-messagingapi-webhook.png)
+        ![開啟 Webhook 並貼上網址](../../../../assets/images/ec-第三方整合-linedeveloperconsole-messagingapi-webhook.png){ title="開啟 Webhook 並貼上網址" }
 
     - 點擊 Issue 取得 **Channel access token**，貼回 CYBERBIZ 後台並儲存。
 
-        ![](../../../../assets/images/ec-第三方整合-line團購機器人-貼上linechannelaccesstoken.gif)
+        ![貼上 Channel Access Token](../../../../assets/images/ec-第三方整合-line團購機器人-貼上linechannelaccesstoken.gif){ title="貼上 Channel Access Token" }
 
 ---
 
@@ -177,9 +177,9 @@ hide: []
 *   若您已有經營中的品牌 LINE 官方帳號，請在後台填入其 **帳號 ID**。
 *   系統會在團購過程中（如主選單、訂單完成頁、感謝訊息）協助引導用戶加入該品牌好友，增加會員數。
 
-![](../../../../assets/images/ec-第三方整合-line團購機器人-官方帳號設定.png)
+![團購機器人-官方帳號設定](../../../../assets/images/ec-第三方整合-line團購機器人-官方帳號設定.png){ title="團購機器人-官方帳號設定" }
 
-## LIFF 設定（關鍵步驟）
+## LIFF 設定 <small>關鍵步驟</small>
 
 此設定用於讓機器人能在群組中開啟購物介面：
 
@@ -187,11 +187,11 @@ hide: []
 
     - **Region** 及 **Company or owners's country or region**：選擇 Taiwan。
 
-    ![](../../../../assets/images/ec-第三方整合-linedevelopersconsole-建立linelogin-channel.gif)
+    ![建立 LINE Login Channel](../../../../assets/images/ec-第三方整合-linedevelopersconsole-建立linelogin-channel.gif){ title="建立 LINE Login Channel" }
 
 2.  **申請權限**：進入該 Channel 的「Basic settings」頁籤，在 OpenID Connect 下的「Email address permission」點選 Apply，並勾選項目、上傳隱私權條款截圖後 Submit。
 
-    ![](../../../../assets/images/ec-第三方整合-linedevelopersconsole-channel-openid.png)
+    ![申請 OpenID Connect 權限](../../../../assets/images/ec-第三方整合-linedevelopersconsole-channel-openid.png){ title="申請 OpenID Connect 權限" }
 
 3.  **新增 LIFF**：進入「LIFF」頁籤點選 Add，設定如下：
     *   **Size**：選擇「Tall」。
@@ -199,15 +199,15 @@ hide: []
     *   **Scopes**：全選，且務必將 view all 裡的 **`chat_message.write`** 打開。
     - 設定完成後，點擊 **Add** 建立 LIFF App。
     
-    ![](../../../../assets/images/ec-第三方整合-linedevelopersconsole-channel-liffapp-basic-settings.png)
+    ![新增 LIFF App](../../../../assets/images/ec-第三方整合-linedevelopersconsole-channel-liffapp-basic-settings.png){ title="新增 LIFF App" }
 
 4.  **連動 OA**：在「Basic settings」下方的 **Linked OA** 選擇您的「團購機器人帳號」並點擊 Update。
 
-    ![](../../../../assets/images/ec-第三方整合-linedevelopers-liffapp-basic-settings-linkedoa.png)
+    ![連動 Linked OA](../../../../assets/images/ec-第三方整合-linedevelopers-liffapp-basic-settings-linkedoa.png){ title="連動 Linked OA" }
 
 5.  **發布上線**：將取得的 **LIFF ID** 與 **LIFF URL** 貼至 CYBERBIZ 後台，最後將 LINE Developers 狀態由「Developing」改為「**Published**」。
 
-    ![](../../../../assets/images/ec-第三方整合-line團購機器人-linedevelopers-copynpast-liffid-liffurl.gif)
+    ![複製貼上 LIFF ID 與 URL](../../../../assets/images/ec-第三方整合-line團購機器人-linedevelopers-copynpast-liffid-liffurl.gif){ title="複製貼上 LIFF ID 與 URL" }
 
 ## 後續操作
 
