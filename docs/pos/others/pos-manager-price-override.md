@@ -2,7 +2,7 @@
 title: 使用「店長改價」在 POS 前台調整單品價格
 description: 在 POS 前台針對單一商品調整價格，並設定改價原因與權限管理。
 created: 2026-03-05 18:40
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-25 12:18
 lang: zh-TW
 permalink: ""
 type: tutorial
@@ -19,8 +19,11 @@ modules:
   - POS 前台
 sites:
   - TW
-tnb: trunk
-plans: []
+tnb: branch
+plans:
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 cyb_extensions: []
 audiences:
   - admin
@@ -37,7 +40,7 @@ features:
   - 離線模式自動轉單
 prerequisites: []
 related:
-  - docs/pos/orders/修改訂單明細頁「店長改價」的顯示名稱.md
+  - docs/pos/others/customize-manager-price-override-display.md
 tags:
   - POS
   - 店長改價
@@ -62,7 +65,10 @@ icon: lucide/calculator
 hide:
 ---
 
-{ .hero-page }
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
+{ .doc-badge }
+
+![店長改價頁面](../../assets/images/pos-manager-price-override-hero.png){ .hero-page }
 
 ## 店長改價說明
 
@@ -78,6 +84,13 @@ hide:
     - **折扣固定金額：** 例如直接減去 100 元。
     - **最終售價：** 直接輸入最後要賣給消費者的價格。
     - **百分比（折數）：** 例如輸入 90 代表打 9 折。
+
+    === "金額"
+        ![金額折價畫面](../../assets/images/pos-price-override-amount.png)
+
+    === "百分比"
+        ![百分比折價畫面](../../assets/images/pos-price-override-percentage.png)
+
 4. **設定改價備註：** 為了便於後續對帳，必須輸入改價原因。系統會自動記錄最新的 5 筆備註供您快速選取。
 5. **確認完成：** 按下「確認」後，該商品的價格即會變動，隨後即可繼續完成後續收款流程。
 
@@ -85,35 +98,25 @@ hide:
 
 「店長改價」功能預設僅開放給具備 **「店長」** 身分的帳號。若要讓「店員」也能執行改價，必須由管理員於後台下放權限：
 
-- **後台路徑：** **POS 功能 > POS 權限管理**。
-- **設定流程：**
-    1. 點選「設定身分權限」。
-    2. 選擇欲開啟功能的員工身分（如店員）。
-    3. 勾選並開啟 **店長改價** 功能並儲存。
+1. **前往權限管理頁面：** 至後台 **POS 功能 > 權限管理**，點選「設定身分權限」。
+
+2. **選擇員工身分：** 選擇欲開啟功能的員工身分（如店員）。
+
+    ![選擇員工身分畫面](../../assets/images/pos-permission-select-role.png){ title="選擇員工身分畫面" }
+
+3. **開啟店長改價功能：** 勾選並開啟 **店長改價** 功能並儲存。
+
+    ![開啟店長改價功能畫面](../../assets/images/pos-permission-price-override-toggle.png){ title="開啟店長改價功能畫面" }
 
 !!! note "若未於權限管理設定，亦可在「修改 POS 設定」中設定 **POS 權限密碼**，店員結帳時輸入該密碼即可使用折價功能。"
-
-![](../../../assets/images/pos-權限管理-店長改價-開關.png)
 
 ## 後續操作
 
 <div class="grid cards" markdown>
 
-- :lucide-wifi-off:{ .lg }  
-  [__離線模式自動轉單__]()  
-  若在網路斷線（離線模式）時結帳，且手動輸入的價格與系統實際價格不符，恢復連線後系統會自動將差額部分記錄為「店長改價」。
-
-- :lucide-bar-chart-3:{ .lg }  
-  [__後台報表查看__]()  
-  所有的改價備註資訊，商家皆可透過「訂單」>「訂單報表匯出」中下載「店長改價備註」欄位來進行核對。
-
 - :lucide-code:{ .lg }  
-  [__變更店長改價名稱__](../orders/customize-manager-price-override-display.md){ title="修改訂單明細頁「店長改價」的顯示名稱" }    
+  [__變更店長改價名稱__](./customize-manager-price-override-display.md){ title="修改訂單明細頁「店長改價」的顯示名稱" }    
   為避免消費者在官網查詢訂單明細時，因看到「店長改價」字眼而要求更多折扣，商家可透過修改樣版程式碼（`customers/order.liquid`），將前台顯示的名稱改為「商品改價」或其他自訂名稱。
-
-- :lucide-layers:{ .lg }  
-  [__與整筆訂單折扣之區別__]()  
-  「店長改價」僅針對 **單一品項**；若需調整整筆訂單的總額，請使用「新增整筆訂單折扣」功能。
 
 </div>
 

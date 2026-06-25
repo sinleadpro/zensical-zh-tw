@@ -66,6 +66,7 @@
 - [APP MARKET - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/app-market/): CYBERBIZ 擴充服務與第三方應用市集。
 - [整合串接 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/integrations/): 串接第三方平台、API 與服務，提升商店功能與自動化能力。
 - [POS 智能 POS - CYBERBIZ DOCS](https://help.cyberbiz.io/pos/): 智能 POS 系統操作指南，涵蓋硬體安裝、結帳流程、庫存管理與門市營運。
+- [POS 訂單自動結案設定 - CYBERBIZ DOCS](https://help.cyberbiz.io/pos/orders/pos-order-auto-close/): 讓門市結帳完成的訂單依您的設定自動進入「已結案」狀態，系統才會正式發放紅利、生效贈送的優惠券並認列分潤獎金。
 - [POS 商品分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/pos/business-intelligence/pos-product-analysis/): 掌握各 POS 實體門市的商品銷售表現，從銷售額、銷售量到回購與退貨狀況，快速找出明星商品與滯銷品。
 - [POS 商品分析對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/pos/business-intelligence/references/pos-product-metrics-reference/): POS 商品分析三張排名報表的欄位與指標定義對照，供主文引用。
 - [POS 營收分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/pos/business-intelligence/pos-revenue-analysis/): 在同一頁比較各 POS 門市的營業表現，從年度、月份、星期時段到分店排名，多角度掌握實體門市的經營績效。

@@ -39,7 +39,7 @@ features:
   - 收件人優先
 prerequisites: []
 related:
-  - ec/website-appearance/code-customization/使用樣板編輯器恢復網頁代碼.md
+  - ec/website-appearance/code-customization/restore-code-theme-editor.md
 tags:
   - 結帳流程優化
   - 跨境電商

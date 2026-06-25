@@ -63,7 +63,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3545
   - https://www.cyberbiz.io/support/?p=16893
-permalink:
+permalink: https://help.cyberbiz.io/ec/products/create-and-manage/edit-product-slogan-and-description
 comments: false
 search:
   exclude: false

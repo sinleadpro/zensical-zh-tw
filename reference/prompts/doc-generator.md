@@ -537,9 +537,9 @@ Markdown 表格的單一儲存格內容必須保持一行,不要為了原始檔�
 ```yaml
 文件 A:
   category: {{產品/功能 kebab-case，用於錨點前綴與檔名}}
-  module: {{business_intelligence}}
-  頁面: {{https://mirmovisualworld.testcyb.info/admin/neo_business_intelligence/pos_revenue}} 
-  主題: {{認識 POS 營收分析}}
+  module: {{payments-and-logistics}}
+  頁面: {{https://mirmovisualworld.testcyb.info/admin/payments}} 
+  主題: {{設定 POS 訂單自動結案}}
   檔案路徑: docs/{{pos}}/{{topic-kebab-case}}.md
 ```
 

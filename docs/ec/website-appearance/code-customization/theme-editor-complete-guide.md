@@ -159,7 +159,7 @@ hide:
   配置 YouTube `autoplay` 與 `mute` 參數，實現自動靜音播放。
     
 - :lucide-type:{ .lg }  
-  [__商品標語與簡述樣式__](../../products/create-and-manage/編輯商品簡述與商品標語.md){ title="編輯商品簡述與商品標語" }     
+  [__商品標語與簡述樣式__](../../products/create-and-manage/edit-product-slogan-and-description.md){ title="編輯商品簡述與商品標語" }     
   透過 `theme_main.css` 定義專屬類別，客製標語與簡述排版。
     
 - :lucide-shuffle:{ .lg }   

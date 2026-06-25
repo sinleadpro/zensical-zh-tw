@@ -1,9 +1,8 @@
 ---
-
 title: 設定 FBE 帳號授權與資產連結
 description: 透過 Facebook 商業擴充套件將像素、粉絲專頁、目錄及廣告帳號等資產連結至 CYBERBIZ 後台。
 created: 2026-04-07 23:59
-last_modified: 2026-04-10 15:20
+last_modified: 2026-06-25 11:26
 lang: zh-TW
 type: tutorial
 status: ""
@@ -41,9 +40,9 @@ features:
   - 像素_Pixel
 prerequisites: []
 related: 
-  - "[[設定 Facebook 網域驗證與事件追蹤]]"
+  - "[[setup-fbe-domain-verification]]"
 tags:
-  - Facebook_整合
+  - FB 整合
   - FBE
   - 商業擴充套件
   - 像素
@@ -70,8 +69,6 @@ icon: lucide/share-2
 hide:
 ---
 
-
-
 ![第三方整合 FBE 設定](../../../../assets/images/ec-第三方整合-fbe.png){ .hero-page }
 
 ## Facebook 商業擴充套件說明
@@ -97,7 +94,7 @@ hide:
     ![FBE-登入帳號](../../../../assets/images/ec-第三方整合-fbe-登入fb帳號.png)
 
     !!! warning "確認瀏覽器是否阻擋彈窗"
-        若頁面未正常跳轉，請確認瀏覽器是否已解除 「彈出視窗攔截」。設定教學：[Chrome 允許特定網站彈出視窗 :lucide-external-link:](https://support.google.com/chrome/answer/95472)
+        若頁面未正常跳轉，請確認瀏覽器是否已解除 「彈出視窗攔截」。設定教學：[Chrome 允許特定網站彈出視窗 :lucide-external-link:](https://support.google.com/chrome/answer/95472?hl=zh-TW)
 
 2.  **同意授權：** 點選授權以允許 CYBERBIZ 協助將電商官網資料與 Facebook 資料進行連結，這不會影響您原本的日常操作。
 
@@ -106,7 +103,7 @@ hide:
 3.  **連結企業資產：** 點擊資產項目選擇要串接的粉絲專頁、目錄、廣告帳號及像素 (Pixel)。
     *   **重要提醒：** 您選取的資產擁有權必須[屬於該商家資產管理組合](#核心資產權限邏輯){ data-preview }，否則無法正確選取。
     *   您也可以在此步驟直接建立新的資產。
-    *   建議開啟「[自動進階配對](#進階配對-advanced-matching-設定){ data-preview }」，以發揮廣告的最佳成效。（需已建立粉絲專頁）
+    *   建議開啟「[自動進階配對](#進階配對設定-advanced-matching){ data-preview }」，以發揮廣告的最佳成效。（需已建立粉絲專頁）
 
     === "連結資產"
         ![FBE-連結資產](../../../../assets/images/ec-第三方整合-fbe-連結資產.png)
@@ -162,7 +159,7 @@ hide:
 
     ```
 
-!!! info "進一步瞭解 [如何在 Meta Business Suite 建立商家資產管理組合 :lucide-external-link:](https://www.facebook.com/business/help/1710077379203657)。"
+!!! info "進一步瞭解 [如何在 Meta Business Suite 建立商家資產管理組合 :lucide-external-link:](https://zh-tw.facebook.com/business/help/1710077379203657)。"
 
 ---
 
@@ -173,18 +170,18 @@ Facebook 的資產管理採用 **階層關係**：
 *   **所有權限制：** 企業管理平台管理品牌的所有資產。若「粉絲專頁」或「像素」**非此企業管理平台所擁有**，則設定流程中將無法選取。
 *   **檢查要點：** 務必確認您登入的 Facebook 帳號具備該平台及其資產的管理權限。
 
-!!! info "進一步瞭解 [商家資產管理組合和商家資產權限 :lucide-external-link:](https://www.facebook.com/business/help/442345745885606)。"
+!!! info "進一步瞭解 [商家資產管理組合和商家資產權限 :lucide-external-link:](https://zh-tw.facebook.com/business/help/442345745885606)。"
 
 ---
 
-### 進階配對 (Advanced Matching) 設定
+### 進階配對設定 <small>Advanced Matching</small>
 
 這是提升廣告成效的重要權限設定，建議在串接時確認：
 
 *   **自動進階配對（建議開啟）：** 無須編寫程式碼，可直接在「事件管理工具」中開啟，協助更精準地追蹤受眾。
 *   **手動進階配對：** 需由開發人員修改像素基底程式碼，透過參數傳送網站訪客的資料。
 
-!!! info "進一步瞭解 [網站進階配對 :lucide-external-link:](https://www.facebook.com/business/help/611774685654668?id=1205376682832142)。"
+!!! info "進一步瞭解 [網站進階配對 :lucide-external-link:](https://zh-tw.facebook.com/business/help/611774685654668?id=1205376682832142)。"
 
 <!--
 *   **轉換 API (CAPI)：** 設定完成後，系統會開始自動傳送伺服器端 (Server to Server) 的像素事件，您可至 [Meta 事件管理工具 :lucide-external-link:](https://eventsmanager.facebook.com/)查看連結方式是否出現「伺服器」。
@@ -195,7 +192,7 @@ Facebook 的資產管理採用 **階層關係**：
 <div class="grid cards" markdown>
 
 - :lucide-shield:{ .lg }   
-  [__網域驗證與事件設定__](設定 Facebook 網域驗證與事件追蹤.md)       
+  [__網域驗證與事件設定__](setup-fbe-domain-verification.md)       
   完成 FBE 資產連結後，需進行網域驗證才能設定事件追蹤，確保廣告轉換數據準確。
 
 </div>
@@ -220,5 +217,5 @@ Facebook 的資產管理採用 **階層關係**：
 
 ??? quote "頁面未正常跳轉怎麼辦？"
 
-    若頁面未正常跳轉，請確認瀏覽器已解除「彈出視窗攔截」。Chrome 設定教學請參考 [Google 官方說明 :lucide-external-link:](https://support.google.com/chrome/answer/95472)。
+    若頁面未正常跳轉，請確認瀏覽器已解除「彈出視窗攔截」。Chrome 設定教學請參考 [Google 官方說明 :lucide-external-link:](https://support.google.com/chrome/answer/95472?hl=zh-TW)。
 

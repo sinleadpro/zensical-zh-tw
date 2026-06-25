@@ -333,7 +333,7 @@ function openTab(evt, tabName) {
     [__自動化功能__](ec/app-market/automation/automation-push-flow.md)
 
 -   :lucide-ticket:{ .lg }
-    [__電子票券__](ec/e-ticket/電子票券設定指南.md)
+    [__電子票券__](ec/e-ticket/e-ticket-setup-guide.md)
 
 -   :lucide-zap:{ .lg }
     [__快速到貨__](ec/payments-and-logistics/cyberbiz-now/index.md)

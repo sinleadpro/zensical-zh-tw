@@ -1,9 +1,8 @@
 ---
-
 title: 設定 Facebook 快速登入
 description: 設定 Facebook 快速登入功能，讓消費者能使用 Facebook 帳戶一鍵註冊或登入會員，並自動抓取 Facebook 綁定的信箱作為帳號。
 created: 2026-03-31 11:23
-last_modified: 2026-06-08 17:15
+last_modified: 2026-06-25 11:08
 lang: zh-TW
 type: tutorial
 status: ""
@@ -47,7 +46,7 @@ related:
   - "[[setup-line-quick-login]]"
   - "[[setup-google-quick-login]]"
 tags:
-  - Facebook_快速登入
+  - FB 快速登入
   - Meta
   - 第三方整合
   - 會員登入
@@ -73,8 +72,6 @@ icon: lucide/log-in
 hide: []
 ---
 
-
-
 ![第三方整合-FB](../../../assets/images/ec-第三方整合-fb整合.png){ .hero-page }
 
 ## Facebook 快速登入說明
@@ -85,7 +82,7 @@ hide: []
 
 - [x] **網址安全性：** 官網網址必須具備 **SSL 憑證**（即 https:// 開頭）。
 - [x] **企業驗證：** 所使用的 Meta 企業管理平台需先完成[驗證 :lucide-external-link:](https://www.facebook.com/business/help/159334372093366)。
-- [x] **網域重新導向：** 請確認後台「網域管理」中，「[總是將顧客重新導向到這裡](../../website-management/網域管理.md#cyberbiz-後台新增網域){ title="網域管理" }」勾選的是 Facebook 所設定的網域。
+- [x] **網域重新導向：** 請確認後台「網域管理」中，「[總是將顧客重新導向到這裡](../../website-management/domain-management.md#cyberbiz-後台新增網域){ title="網域管理" }」勾選的是 Facebook 所設定的網域。
 - **信箱限制：** 若消費者使用 Hinet 信箱，可能會因 Hinet 阻擋訊息而無法收到忘記密碼等系統通知，建議引導使用其他信箱。
 - **帳號合併機制：** 若顧客的 Facebook 信箱與 Google 或 LINE 登入使用的信箱相同，系統會自動將其判定為同一會員並進行 **帳號合併**。
 
@@ -103,7 +100,7 @@ hide: []
 
 !!! note "自訂圖示、預設圖示，僅在前台顯示圖示會有差異。"
 
-### 使用預設圖示（最快速）
+### 使用預設圖示 <small>最快速</small>
 
 *   **後台路徑：** 「第三方整合」>「臉書 Facebook 設定 (廣告/註冊登入)」。
 *   **操作步驟：** 開啟「**啟用 Facebook 登入**」並點擊「儲存設定」即可完成，前台會顯示系統預設的登入按鈕。
@@ -112,7 +109,7 @@ hide: []
 
 ---
 
-### 使用自訂圖示（需建立 Meta 應用程式）
+### 使用自訂圖示 <small>需建立 Meta 應用程式</small>
 
 此方法需透過 **Meta for Developers** 建立應用程式，適合希望自訂登入圖示與蒐集更完整受眾資訊的商家。
 
