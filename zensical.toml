@@ -584,10 +584,9 @@ copyright = """
         ]},
         { "管理中心" = [
             { "overview" = "ec/website-management/index.md" },
-            { "系統通知設定" = "ec/website-management/系統通知設定.md" },
             { "網站基本資訊" = "ec/website-management/setup-store-basic-info.md" },
             { "設定多國語言與多幣別" = "ec/website-management/setup-multi-language-and-multi-currency.md" },
-            {"顧客註冊驗證" = "ec/website-management/設定顧客 Email 與手機雙重驗證.md"},
+            {"顧客註冊驗證" = "ec/website-management/setup-customer-email-phone-verification.md"},
             { "續購與自動續約" = "ec/website-management/renewal-and-auto-subscription.md" },
             { "顧客註冊流程與欄位" = "ec/website-management/customer-registration-flow-and-fields.md" },
             { "網域管理" = "ec/website-management/domain-management.md" },
