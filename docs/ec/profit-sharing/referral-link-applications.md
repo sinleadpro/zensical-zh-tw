@@ -73,7 +73,7 @@ hide: []
 取得推薦碼後，您可以透過製作短網址、QR Code 或設置 UTM 參數，將推薦連結整合至各種行銷管道（如 FB、IG、LINE 或實體文宣），並精確追蹤不同來源的導購成效。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | EC / POS
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 品牌官網 / 智能 POS
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 所有PLUS / 企業
 { .doc-badge }
 

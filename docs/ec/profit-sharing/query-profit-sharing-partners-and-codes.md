@@ -71,7 +71,7 @@ hide: []
 您可以隨時在後台查詢所有分潤合作夥伴（包括外部網紅、站內會員與內部員工）所擁有的分潤方案與專屬代碼，以便隨時提供推廣資訊給合作夥伴。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | EC / POS
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 品牌官網 / 智能 POS
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 所有PLUS / 企業
 { .doc-badge }
 

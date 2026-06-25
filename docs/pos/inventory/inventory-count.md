@@ -80,7 +80,7 @@ hide: []
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
-![](../../assets/images/POS-前台-庫存-庫存盤點-畫面總覽01.png){ .hero-page }
+![](../../assets/images/POS-後台-全通路庫存管理-盤點-畫面總覽01.png){ .hero-page }
 
 
 !!! tip "應用情境"

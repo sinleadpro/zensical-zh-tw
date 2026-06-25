@@ -53,8 +53,7 @@ devices:
 ui_components: []
 paths:
   - APP MARKET > 我的擴充服務 > 門市助理
-layouts:
-  - classic
+layouts: []
 wp_url: []
 permalink: ""
 comments: false
@@ -69,7 +68,7 @@ hide: []
 { .subtitle }
 
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
-[:lucide-grid-2x2-plus: { title="適用擴充" }](../../resources/conventions#適用擴充) | 門市助理
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | 門市助理
 { .doc-badge }
 
 門市助理是連接線下門市與線上官網的核心橋樑。透過平板或手機，門市人員可以即時調取會員在全通路的消費軌跡與優惠資產，將「過路客」轉化為「品牌鐵粉」，並透過導購連結確保每一筆努力都能獲得業績歸因。
@@ -146,7 +145,7 @@ graph LR
 
 </div>
 
----
+
 
 !!! info "下一步建議"
     如果您是第一次使用，建議先閱讀 [搜尋與建立會員](search-and-create-members.md)，了解如何將顧客帶入您的 OMO 體系。

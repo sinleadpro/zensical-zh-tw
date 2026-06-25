@@ -62,6 +62,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/support/?p=15619
   - https://www.cyberbiz.io/support/?p=10454
+  - https://www.cyberbiz.io/support/?p=12804
 permalink: ""
 comments: false
 search:
@@ -74,7 +75,7 @@ hide: []
 在提供實體門市相關服務前，您需要先在管理後台建立門市資訊。根據您的營運需求與是否使用 POS 系統，可選擇建立「一般門市」或「POS 門市」。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | EC / POS
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 品牌官網 / 智能 POS
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 
@@ -150,6 +151,11 @@ hide: []
 3. 後續建立其他門市時，於編輯頁面勾選 **帶入預設門市資料**。
 4. 系統將自動填入預設門市的 **付款方式設定** 與 **訂單金額運費設定** 資訊。
 
+## 新增門市管理員
+
+1. 前往 **管理中心 > 網站權限**，點擊 **新增門市管理員**。
+2. 填寫門市管理者帳號資料。
+3. 新增成功後，即會顯示於管理者列表中。
 
 ## 更多操作
 

@@ -64,7 +64,7 @@ hide: []
 註冊人分潤採「永久綁定」機制。當顧客在註冊時填入特定的註冊人代碼，該顧客未來不論在官網或門市消費，系統皆會自動計算分潤給該代碼擁有者。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | EC / POS
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 品牌官網 / 智能 POS
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 / 所有PLUS / 企業
 { .doc-badge }
 

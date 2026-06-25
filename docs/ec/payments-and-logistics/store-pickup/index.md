@@ -66,8 +66,7 @@ paths:
   - 金物流 > 所有門市
   - 訂單 > 門市訂單
   - 分潤 > 門市取貨店員分潤
-layouts:
-  - classic
+layouts: []
 wp_url: []
 permalink: ""
 comments: false

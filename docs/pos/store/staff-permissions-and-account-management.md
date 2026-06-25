@@ -57,7 +57,7 @@ ui_components:
 paths:
   - POS 功能 > POS 權限管理
   - POS 功能 > 所有 POS 商店
-layouts: classic
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3168
   - https://www.cyberbiz.io/support/?p=3046

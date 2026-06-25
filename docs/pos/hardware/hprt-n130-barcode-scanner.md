@@ -65,6 +65,8 @@ hide: []
 了解如何連接 HPRT N130 條碼掃描器至 POS 系統，並進行連線測試、商品掃描與常見故障排除。
 { .subtitle }
 
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
+{ .doc-badge }
 
 !!! tip "應用情境"
 	- **快速結帳**：在 POS 結帳畫面直接掃描商品條碼，自動帶入商品資訊與金額。
