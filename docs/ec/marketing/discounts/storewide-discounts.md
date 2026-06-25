@@ -72,7 +72,7 @@ hide: []
 對全站所有商品統一套用折扣優惠。此活動同步支援 EC 與 POS，可依方案指定線上、線下或全通路開啟。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | EC / POS
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 品牌官網 / 智能 POS
 { .doc-badge }
 
 ## 全館折扣規格
@@ -198,9 +198,21 @@ hide: []
 您可於活動編輯頁下方查看編輯紀錄，系統會依據「活動狀態」決定是否建立記錄：  
   
 | 活動狀態 | 是否建立編輯紀錄 |
+| -------- | -------------- |
 | 排程中 | ✕ |
 | 進行中 | ✓ |
 
 
 排程中活動的調整不留紀錄，而進行中活動的異動則會留存以供備查。  
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-編輯紀錄01.png){ .screenshot }
+
+
+## 結帳頁差額提醒
+
+!!! info "使用須知"
+    - **支援版本**：此功能僅供 **企業版** 專用。
+    - **支援活動類型**：系統支援顯示 **金額**、**百分比** 類型的全館活動，恕不支援顯示 **優惠券** 類型。
+
+消費者前往結帳頁下單時，可於購物車查看當前訂單金額距離符合全館活動的條件差額。
+
+![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-結帳頁-未達全館活動優惠差額01.png){ .screenshot }

@@ -75,7 +75,7 @@ hide: []
 在提供實體門市相關服務前，您需要先在管理後台建立門市資訊。根據您的營運需求與是否使用 POS 系統，可選擇建立「一般門市」或「POS 門市」。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | EC / POS
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 品牌官網 / 智能 POS
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 PLUS / 高手 PLUS / 企業
 { .doc-badge }
 

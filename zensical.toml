@@ -456,6 +456,7 @@ copyright = """
                 { "LINE 訊息格式規範" = "ec/app-market/chatbox/line-message-format-spec.md" },
                 { "Meta 訊息格式規範" = "ec/app-market/chatbox/meta-message-format-spec.md" },
                 { "Chat Box AI 建議回覆" = "ec/app-market/chatbox/chat-box-ai-suggested-replies.md" },
+                { "官網整合對話入口" = "ec/app-market/chatbox/integrated-chat-widget.md" },
             ]},
             {"全通路管理助手" = [
                 { "Step 1 安裝啟用" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md" },
@@ -686,6 +687,9 @@ copyright = """
                 { "overview" = "pos/check/payment-method/index.md" },
                 { "多付款方式" = "pos/check/payment-method/multiple-payment-methods.md" },
             ]},
+            { "整筆訂單折扣" = "pos/check/storewide-order-discounts.md" },
+            { "店長改價" = "pos/check/pos-manager-price-override.md" },
+            { "變更店長改價名稱" = "pos/check/customize-manager-price-override-display.md" },
             { "列印發票明細" = "pos/check/print-invoice-details.md" },
             { "列印商品標籤" = "pos/check/print-product-labels.md" },
             { "庫存不足通知" = "pos/check/low-stock-notifications.md" },
@@ -723,8 +727,6 @@ copyright = """
         { "其他功能" = [
             { "小結關帳" = "pos/others/daily-closing.md" },
             { "磅秤設定" = "pos/others/scale-settings.md" },
-            { "店長改價" = "pos/others/pos-manager-price-override.md" },
-            { "變更店長改價名稱" = "pos/others/customize-manager-price-override-display.md" },
         ]},
         {"divider" = "divider"},
         { "商店管理" = [
@@ -740,26 +742,6 @@ copyright = """
             { "參考資源" = [
                 { "人員權限欄位參考表" = "pos/reference/staff-permission-fields-reference.md" },
             ]}
-        ]},
-        { "報表分析" = [
-            { "營收分析" = "pos/business-intelligence/pos-revenue-analysis.md" },
-            { "商品分析" = "pos/business-intelligence/pos-product-analysis.md" },
-            { "參考資料" = [
-                {"POS 商品分析欄位" = "pos/business-intelligence/references/pos-product-metrics-reference.md"},
-                {"POS 營收分析欄位" = "pos/business-intelligence/references/pos-revenue-metrics-reference.md"},
-            ]},
-        ]},
-        {"divider" = "divider"},
-        { "商店管理" = [
-            { "公告系統" = "pos/store/公告系統.md" },
-            { "安全性設定" = "pos/store/安全性設定.md" },
-            { "續購與加購方案" = "pos/store/續購與加購方案.md" },
-            { "POS 門市取貨店員分潤" = "pos/store/POS 門市取貨店員分潤.md" },
-        ]},
-        { "人員管理" = [
-            { "設定前台自動登出時間" = "pos/store/設定前台自動登出時間.md" },
-            { "員工權限與帳號管理" = "pos/store/員工權限與帳號管理.md" },
-            { "人員登入" = "pos/store/人員登入.md" },
         ]},
         { "報表分析" = [
             { "營收分析" = "pos/business-intelligence/pos-revenue-analysis.md" },

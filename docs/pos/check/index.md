@@ -149,20 +149,20 @@ graph LR
 
         ![](../../assets/images/POS-前台-結帳-訪客登入會員01.png){ .screenshot }
 
-=== "相關操作"
+=== "情境詳細操作"
 
     <div class="grid cards" markdown>
 
     - :lucide-plug:{ .lg }
-    [__訪客結帳__](訪客結帳模式/)<br>
+    [__訪客結帳__](guest-checkout/)<br>
     適用不提供資料的顧客，快速進入購物車。
 
     - :lucide-plug:{ .lg }
-    [__離線結帳__](離線結帳模式/){ title="離線結帳模式" }<br>
+    [__離線結帳__](offline-checkout-mode/)<br>
     網路不穩時，確保交易正常紀錄不中斷。
 
     - :lucide-plug:{ .lg }
-    [__註冊人分潤__](../../ec/profit-sharing/設定註冊人分潤方案)<br>
+    [__註冊人分潤__](../../ec/profit-sharing/registrant-profit-sharing/)<br>
     設定推廣回饋，獎勵引導新客註冊者。
 
     </div>
@@ -198,14 +198,13 @@ graph LR
 
 
 
-=== "相關操作"
+=== "情境詳細操作"
 
     <div class="grid cards" markdown>
 
     - :lucide-plug:{ .lg }
-    [__設定庫存不足提醒方式__](庫存不足通知/){ title="庫存不足通知" }<br>
+    [__設定庫存不足提醒方式__](low-stock-notifications/)<br>
     即時掌握庫存狀態，避免超賣或無貨可賣。
-
 
     </div>
 
@@ -229,7 +228,7 @@ graph LR
     5. **新增訂單折扣**：**店長** 可執行訂單改價。
 
         - **整筆訂單折扣**：點擊 **新增整筆訂單折扣**，輸入折扣值。
-        - **指定商品折扣**：點擊指定商品，於下拉選單輸入折扣值。
+        - **指定商品改價**：點擊指定商品，於下拉選單輸入折扣值。
 
         ![](../../assets/images/POS-前台-結帳-店長改價01.png){ .screenshot }
 
@@ -243,7 +242,7 @@ graph LR
 
         ![](../../assets/images/POS-前台-結帳-小計行銷活動02.png){ .screenshot }
 
-=== "相關操作"
+=== "情境詳細操作"
 
     <div class="grid cards" markdown>
 
@@ -264,18 +263,18 @@ graph LR
     設定推薦分潤，獎勵介紹新客的現有客戶、員工與第三方。
 
     - :lucide-plug:{ .lg }
-    [__建立結帳人分潤__](../../ec/profit-sharing/referrer-profit-sharing.md)<br>
+    [__整筆訂單折扣__](storewide-order-discounts/)<br>
     激勵門市人員，根據結帳金額計算獎金。
 
     - :lucide-plug:{ .lg }
-    [__店長改價__]()<br>
+    [__店長改價__](pos-manager-price-override/)<br>
     具備權限人員，可手動調整訂單或價金。
 
     - :lucide-plug:{ .lg }
     __建立加價購活動__<br>
     增加客單價，在結帳時推薦超值加購品。
-        - [訂單加價購](../../ec/marketing/upsells/setup-order-upsell.md){ title="設定訂單加價購" }
-        - [商品加價購](../../ec/marketing/upsells/setup-product-upsell.md){ title="設定商品加價購" }
+        - [訂單加價購](../../ec/marketing/upsells/setup-order-upsell.md)
+        - [商品加價購](../../ec/marketing/upsells/setup-product-upsell.md)
 
     - :lucide-plug:{ .lg }
     [__建立滿額贈滿件贈活動__](../../ec/marketing/discounts/threshold-gifts-and-quantity-gifts.md)<br>
@@ -310,12 +309,12 @@ graph LR
 
     ![](../../assets/images/POS-前台-結帳-收款作業01.png){ .screenshot }
 
-=== "相關操作"
+=== "情境詳細操作"
 
     <div class="grid cards" markdown>
 
     - :lucide-plug:{ .lg }
-    [__開啟付款方式__](payment-method/){ title="付款方式" }<br>
+    [__開啟付款方式__](payment-method/)<br>
     管理店面支付管道，設定最適合結帳順序。
 
     - :lucide-plug:{ .lg }
@@ -340,7 +339,7 @@ graph LR
 
     ![](../../assets/images/POS-前台-結帳-開立發票01.png){ .screenshot }
 
-=== "相關操作"
+=== "情境詳細操作"
 
     <div class="grid cards" markdown>
 

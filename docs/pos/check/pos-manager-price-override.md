@@ -40,7 +40,7 @@ features:
   - 離線模式自動轉單
 prerequisites: []
 related:
-  - docs/pos/others/customize-manager-price-override-display.md
+  - docs/pos/check/customize-manager-price-override-display.md
 tags:
   - POS
   - 店長改價
