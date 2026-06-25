@@ -31,10 +31,10 @@ difficulty: ""
 tnb: branch
 plans:
   - 高手
-  - 專業 PLUS
-  - 進階 PLUS
-  - 高手 PLUS
-  - 企業版
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 cyb_extensions: []
 intents:
   - 設定混合物流

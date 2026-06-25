@@ -99,3 +99,12 @@ views:
         direction: ASC
     columnSize:
       file.name: 152
+  - type: table
+    name: View
+    filters:
+      and:
+        - file.ext == "md"
+        - file.folder.startsWith("docs/")
+    order:
+      - file.name
+      - plans

@@ -22,8 +22,8 @@ sites:
   - TW
 tnb: branch
 plans:
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 audiences:
@@ -39,7 +39,7 @@ features:
 prerequisites:
   - 需具備 POS 客顯螢幕設備
 related:
-  - [[客顯螢幕]]
+  - - - 客顯螢幕
 tags:
   - POS
   - 客顯螢幕

@@ -24,9 +24,9 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 專業 PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -38,8 +38,8 @@ features:
   - 紅利商城
   - 紅利點數
 prerequisites:
-  - [[需先於「全館折扣 > 紅利 & 優惠券」開啟會員紅利點數功能]]
-  - [[需先建立欲參與兌換的商品]]
+  - - - 需先於「全館折扣 > 紅利 & 優惠券」開啟會員紅利點數功能
+  - - - 需先建立欲參與兌換的商品
 related: []
 tags:
   - 行銷活動

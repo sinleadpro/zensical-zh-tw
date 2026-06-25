@@ -23,7 +23,7 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans: 
-  - 高手 PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents: 

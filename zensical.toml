@@ -480,7 +480,7 @@ copyright = """
             ]},
             {"CYBERBIZ EXPRESS 日到台宅配" = "ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery.md"},
             {"CYBERBIZ APP" = "ec/app-market/CYBERBIZ APP 功能指南.md"},
-            {"CYBERBIZ Meta Ads" = "ec/app-market/安裝 Meta Ads App.md"}
+            {"安裝 Meta Ads App" = "ec/app-market/install-meta-ads-app.md"}
         ]},
         { "第三方整合" = [
             {"overview" = "ec/integrations/index.md"},  

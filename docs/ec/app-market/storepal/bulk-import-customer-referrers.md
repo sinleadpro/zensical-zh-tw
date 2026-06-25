@@ -12,35 +12,35 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: 
+products:
   - EC
-modules: 
+modules:
   - APP MARKET
   - 門市助理
-sites: 
+sites:
   - TW
-audiences: 
+audiences:
   - admin
 difficulty: intermediate
 tnb: branch
-plans: 
-  - 專業 PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+plans:
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
-intents: 
+intents:
   - 批量綁定門市推薦人
   - 更換會員推薦人
   - 批次刪除綁定關係
-features: 
+features:
   - 門市助理
   - 批量匯入
   - 推薦人綁定
   - 業績歸因
 prerequisites: []
 related: []
-tags: 
+tags:
   - 門市助理
   - 批量匯入
   - 推薦人綁定
@@ -48,14 +48,14 @@ tags:
 acoiv: configure
 apis: []
 devices: []
-ui_components: 
+ui_components:
   - 匯入
   - 上傳檔案
   - 錯誤明細
-paths: 
+paths:
   - 門市助理後台 > 門市管理 > 匯入 > 顧客門市推薦人
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/support/?p=3865
 permalink: ""
 comments: false

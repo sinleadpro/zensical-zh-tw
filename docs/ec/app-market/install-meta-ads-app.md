@@ -92,7 +92,7 @@ hide: []
     ![安裝MetaAdsApp](../../assets/images/ec-app-market-meta-ads-app-安裝.png)
 
 4.  **確認授權**：系統會導向確認頁面，請閱讀並 **同意相關隱私條款**，最後點擊 **「確認安裝」**。
-5.  **完成安裝**：安裝完成後，可透過上述後台路徑點擊 **立即前往** 進入 Meta Ads App 介面，開始 [創建廣告活動](../integrations/fb/meta-ads/setup-meta-ad-campaign.md#創建廣告活動步驟){ title="設定 Meta 廣告活動" }](../integrations/fb/meta-ads/setup-meta-ad-campaign.md#廣告創意與商品組合設定)創意與商品組合設定){ title="設定 Meta 廣告活動" }。
+5.  **完成安裝**：安裝完成後，可透過上述後台路徑點擊 **立即前往** 進入 Meta Ads App 介面，開始 [創建廣告活動](../integrations/fb/meta-ads/setup-meta-ad-campaign.md#創建廣告活動流程){ title="設定 Meta 廣告活動" }。
 
     ![前往MetaAdsApp](../../assets/images/ec-第三方整合-fb-廣告活動設定-前往meta-ads-app.png)
 

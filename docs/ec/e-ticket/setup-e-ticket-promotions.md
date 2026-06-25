@@ -28,7 +28,7 @@ features:
   - 電子票券
 tnb: branch
 plans:
-  - 專業PLUS 
+  - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
