@@ -39,7 +39,7 @@ features:
 prerequisites: 
   - "需先完成電子票券商品設定"
 related: 
-  - "[[電子票券設定指南]]"
+  - "[[e-ticket-setup-guide]]"
   - "[[電子票券優惠設定]]"
 tags: 
   - POS

@@ -192,7 +192,7 @@ hide:
   設定 POS 訂單自動結案。
 
 - :lucide-ticket-check:{ .lg }     
-  [__票券訂單自動結案__](../e-ticket/電子票券設定指南#票券分潤與自動結案設定)  
+  [__票券訂單自動結案__](../e-ticket/e-ticket-setup-guide.md#票券分潤與自動結案設定)  
   設定電子票券訂單自動結案。
 
 </div>
