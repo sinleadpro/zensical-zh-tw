@@ -1,9 +1,8 @@
 ---
-
 title: 建立 Meta 廣告帳號並完成儲值
 description: 透過 CYBERBIZ 建立 Meta 廣告帳號並完成儲值。
 created: 2026-04-17 17:10
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-25 12:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -70,8 +69,6 @@ icon: lucide/circle-plus
 hide: []
 ---
 
-
-
 ![Meta廣告設定-CYB後台](../../../../assets/images/ec-第三方整合-fb-meta廣告設定.png){ .hero-page }
 
 ## 建立 Meta 廣告帳號說明
@@ -118,9 +115,9 @@ hide: []
 
 ![Meta商家資產管理組合編號](../../../../assets/images/ec-第三方整合-fb-meta企業管理平台-資產管理組合編號.png)
 
-!!! note "相關資源：[Meta 官方說明](https://www.facebook.com/business/help/1181250022022158)。"
+!!! note "相關資源：[Meta 官方說明](https://zh-tw.facebook.com/business/help/1181250022022158)。"
 
-## 像素 (Pixel) 設定
+## 像素設定 <small>Pixel</small>
 
 為了追蹤消費者行為，需手動將既有的像素連結至新建立的廣告帳號：
 

@@ -2,7 +2,7 @@
 title: 設定 POS 訂單自動結案
 description: 讓門市結帳完成的訂單依您的設定自動進入「已結案」狀態，系統才會正式發放紅利、生效贈送的優惠券並認列分潤獎金。
 created: 2026-06-25 10:00
-last_modified: 2026-06-25 10:56
+last_modified: 2026-06-25 12:21
 lang: zh-TW
 type: tutorial
 status: ""
@@ -21,11 +21,11 @@ sites:
 audiences:
   - admin
 difficulty: beginner
-tnb: trunk
+tnb: branch
 plans:
-  - 專業
-  - 進階
-  - 高手
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 cyb_extensions: []
 feature_badges: []
 intents:
@@ -69,6 +69,9 @@ search:
 icon: lucide/file-clock
 hide: []
 ---
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
+{ .doc-badge }
 
 ![POS 訂單自動結案設定](../../assets/images/pos-auto-close-hero.png){ .hero-page }
 

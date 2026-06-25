@@ -1,9 +1,8 @@
 ---
-
 title: 設定 FBE 網域驗證
 description: 在企業管理平台中完成網域驗證。
 created: 2026-04-10 14:50
-last_modified: 2026-06-09 14:42
+last_modified: 2026-06-25 11:37
 lang: zh-TW
 type: tutorial
 status: ""
@@ -71,7 +70,6 @@ icon: lucide/shield
 hide: []
 ---
 
-
 ![企業管理平台-網域驗證](../../../../assets/images/ec-第三方整合-meta商家資產管理平台-驗證網域.png){ .hero-page }
 
 ## Facebook 網域驗證說明
@@ -86,9 +84,9 @@ hide: []
 
 網域驗證主要分為 [**DNS 驗證**](#dns-驗證-建議使用) 與 [**中繼標籤驗證**](#中繼標籤驗證-meta-tag) 兩種方式。
 
-!!! info "建議優先使用 DNS 系統進行驗證；操作後台程式碼的中繼標籤驗證，若有失誤，系統商不負後台程式修改責任。更多驗證方式資訊與說明，請參考 [官方說明 :lucide-external-link:](https://www.facebook.com/business/help/321167023127050)。"
+!!! info "建議優先使用 DNS 系統進行驗證；操作後台程式碼的中繼標籤驗證，若有失誤，系統商不負後台程式修改責任。更多驗證方式資訊與說明，請參考 [官方說明 :lucide-external-link:](https://zh-tw.facebook.com/business/help/321167023127050)。"
 
-## DNS 驗證 (建議使用)
+## DNS 驗證 <small>建議使用</small>
 
 1.  **進入企業管理平台**：登入[企業管理平台 :lucide-external-link:](https://business.facebook.com/latest/settings)，點選「設定」>「品牌安全與適用性」>「網域」，新增您的主網域名稱。
 
@@ -102,12 +100,12 @@ hide: []
 
     === ":simple-gandi: GANDI"
 
-        1. 需先完成 [CNAME 與轉址設定](../../../website-management/網域管理.md#gandi){ title="網域管理" }
+        1. 需先完成 [CNAME 與轉址設定](../../../website-management/domain-management.md#各大廠商-dns-設定指引){ title="網域管理" }
         2. 登入 [Gandi 後台 :lucide-external-link:](https://admin.gandi.net/)，於「區域檔紀錄」新增一筆 TXT 紀錄，名稱輸入 `@`，內容貼上複製的 TXT 代碼。
 
         ![](../../../../assets/images/ec-第三方整合-meta企業管理平台-dnd-txt紀錄新增-gandi.png)
 
-        > 更多 Gandi DNS 紀錄操作說明，請參考[官方文件 :lucide-external-link:](https://docs.gandi.net/zh-hant/domain_names/common_operations/dns_records.html)。
+        !!! info "更多 Gandi DNS 紀錄操作說明，請參考[官方文件 :lucide-external-link:](https://docs.gandi.net/zh-hant/domain_names/common_operations/dns_records.html)。"
 
     === ":simple-godaddy: GoDaddy"
 
@@ -115,7 +113,7 @@ hide: []
 
     === "HiNet"
         
-        1. 完成 [CNAME 與轉址](../../../website-management/網域管理.md#hinet-中華電信){ title="網域管理" }。
+        1. 完成 [CNAME 與轉址](../../../website-management/domain-management.md#各大廠商-dns-設定指引){ title="網域管理" }。
         2. 登入 [HiNet 網站 :lucide-external-link:](https://domain.hinet.net/#/)，前往「我的網域」>「轉址服務」> 「設定轉址」，複製 Ａ 紀錄 IP。
 
             ![HiNet-複製Ａ紀錄IP](../../../../assets/images/ec-第三方整合-meta企業管理平台-更新dns-hinet-複製a紀錄ip.png)
@@ -143,7 +141,7 @@ hide: []
 
     ![企業管理平台-驗證成功](../../../../assets/images/ec-第三方整合-meta商家資產管理平台-驗證成功.png)
 
-## 中繼標籤驗證 (Meta-tag)
+## 中繼標籤驗證 <small>Meta-tag</small>
 
 1.  **取得代碼**：在企業管理平台中「品牌安全和適用性」裡的「網域」頁面點選「中繼標籤驗證」，複製整段代碼。
 
@@ -164,7 +162,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-store:{ .lg }   
-  [__Facebook 與 Instagram 商店設定__](設定 FBE Facebook 跟 Instagram 商店.md)       
+  [__Facebook 與 Instagram 商店設定__](setup-fb-instagram-shop.md)       
   完成網域驗證後，可進一步設定 Facebook 與 Instagram 商店，建立社群銷售管道並同步商品。
 
 </div>
@@ -182,7 +180,7 @@ hide: []
     1.  在瀏覽器輸入您的網域，把 `www` 拿掉，看是否還可以正常連至您在 Cyberbiz 建立的網站。
     2.  若無法正常連線，意味著根網域尚未設定轉址，請至您的 DNS 服務商後台設定轉址。
     
-    由於 Facebook 只會認定沒有 `www` 的網域，若發生驗證失敗的情況，請參考[網域管理](../../../website-management/網域管理.md){ title="網域管理" }教學文件，至您的 DNS 服務商後台設定轉址。
+    由於 Facebook 只會認定沒有 `www` 的網域，若發生驗證失敗的情況，請參考[網域管理](../../../website-management/domain-management.md){ title="網域管理" }教學文件，至您的 DNS 服務商後台設定轉址。
 
 <!--
 ??? quote "變更事件對廣告有什麼影響？"
