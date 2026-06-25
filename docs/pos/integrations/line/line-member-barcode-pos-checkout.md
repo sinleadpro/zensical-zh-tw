@@ -2,7 +2,7 @@
 title: 設定與使用 LINE 顯示會員條碼（串接 POS 結帳）
 description: 啟用並設定 LINE 官方帳號會員條碼，讓門市人員可透過 POS 掃描條碼快速識別會員並套用紅利與優惠券折抵。
 created:
-last_modified: 2026-02-23
+last_modified: 2026-06-25 20:48
 lang: zh-TW
 permalink:
 type: tutorial
@@ -23,8 +23,11 @@ sites:
 audiences:
   - admin
 difficulty: intermediate
-tnb: trunk
-plans: []
+tnb: branch
+plans:
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 cyb_extensions: []
 intents:
   - 顯示 LINE 會員條碼
@@ -69,7 +72,8 @@ icon: lucide/barcode
 hide:
 ---
 
-![](../../../assets/images/pos-第三方整合-line-顯示會員條碼-hero.png){ .hero-page }
+[:lucide-layers:{ title="適用產品" }](../../../resources/conventions#適用產品) | 智能 POS
+{ .doc-badge }
 
 ## LINE 顯示會員條碼說明
 
@@ -81,8 +85,8 @@ hide:
 
 - **適用對象**：此功能僅限於有使用 **CYBERBIZ POS 系統** 的商家。
 - **前置設定**：
-    - [x] 商家必須先完成 [**LINE Messaging API** 串接](../../../ec/integrations/line/connect-line-messaging-api.md){ data-preview }  ，並設定好 [**LINE 圖文選單**](../../../ec/integrations/line/setup-line-rich-menu.md){ data-preview }  。
-    - [x] 建議引導顧客先完成 [**LINE 官方帳號綁定官網會員**](../../../ec/integrations/line/bind-line-oa-store-members.md){ data-preview }  ，以便掃描後直接帶入會員資料。
+    - [x] 商家必須先完成 [**LINE Messaging API** 串接](../../../ec/integrations/line/account-integration/connect-line-messaging-api.md){ title="串接 LINE Messaging API" }，並設定好 [**LINE 圖文選單**](../../../ec/integrations/line/marketing/setup-line-rich-menu.md){ title="設定 LINE 圖文選單" }。
+    - [x] 建議引導顧客先完成 [**LINE 官方帳號綁定官網會員**](../../../ec/integrations/line/account-integration/bind-line-oa-store-members.md){ title="綁定 LINE 官方帳號與官網會員" }，以便掃描後直接帶入會員資料。
 
 ## 後台設定步驟：配置圖文選單
 
@@ -94,7 +98,7 @@ hide:
     - 連結網址：`https://您的網址/account/id_barcode`。
 4. 儲存選單後，顧客點擊此區塊即可在手機上呼叫出個人會員條碼。
 
-!!! note "LINE 圖文選單詳細設定說明，請參閱 [如何設定 LINE 圖文選單](../../../ec/integrations/line/設定 LINE 圖文選單)。"
+!!! note "LINE 圖文選單詳細設定說明，請參閱 [如何設定 LINE 圖文選單](../../../ec/integrations/line/marketing/setup-line-rich-menu.md){ title="設定 LINE 圖文選單" }。"
 
 ## 前台操作流程
 
@@ -103,7 +107,7 @@ hide:
 - 消費者於門市結帳時，打開品牌的 LINE 官方帳號。
 - 點選圖文選單中的 **「我的會員卡」**，手機畫面會顯示專屬的 **【會員條碼】** 與編號。
 
-![](../../../assets/images/pos-line oa-會員卡.png)
+![LINE會員卡畫面](../../../assets/images/pos-line oa-會員卡.png){ title="LINE會員卡畫面" }
 
 ### 店員端操作 (POS 機)
 
@@ -111,7 +115,7 @@ hide:
 2. 在會員登入介面，使用條碼槍掃描消費者的手機條碼，或是手動輸入條碼編號進行登入。
 3. 確認會員資料後，即可開始掃描商品。
 
-![](../../../assets/images/pos-結帳.png)
+![POS結帳介面](../../../assets/images/pos-結帳.png){ title="POS結帳介面" }
 
 ## 紅利與優惠券折抵方式
 
@@ -120,7 +124,7 @@ hide:
 - **情況一（手機/信箱登入）**：若店員是先用手機號碼搜尋會員，後續欲執行折抵時，需再掃描一次消費者的 LINE 會員條碼，出現 **綠色勾號** 後即可折抵。
 - **情況二（條碼機直接登入）**：若一開始就是用條碼槍掃描登入，則不需重複掃描，可直接在結帳介面點選紅利或優惠券進行扣抵。
 
-![](../../../assets/images/pos-紅利折抵.png)
+![紅利折抵畫面](../../../assets/images/pos-紅利折抵.png){ title="紅利折抵畫面" }
 
 ## 常見問題
 

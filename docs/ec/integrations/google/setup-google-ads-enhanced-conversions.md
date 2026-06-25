@@ -93,7 +93,7 @@ comments: false
     強化轉換為 **CYBERBIZ 企業版商家專用** 功能，其他方案無法使用。
 
 ??? quote "設定強化轉換需要先完成什麼前置設定？"
-    在設定強化轉換之前，必須先完](setup-google-ads-conversion-tracking.md)oogle Ads 轉換追蹤.md){ title="設定 Google Ads 轉換追蹤" } 的基本設定，才能啟用強化轉換功能。
+    在設定強化轉換之前，必須先完成 [Google Ads 轉換追蹤](setup-google-ads-conversion-tracking.md){ title="設定 Google Ads 轉換追蹤" } 的基本設定，才能啟用強化轉換功能。
 
 ??? quote "強化轉換對廣告投放有什麼幫助？"
     強化轉換能補足因隱私規範或 Cookie 限制而流失的追蹤數據，並回傳更精確的轉換訊號，協助 Google Ads AI 優化廣告投遞與出價策略。

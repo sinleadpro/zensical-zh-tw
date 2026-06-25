@@ -41,8 +41,8 @@ features:
   - "Excel_匯入"
 prerequisites: []
 related:
-  - "[[將 Sitemap 提交至 Google Search Console]]"
-  - "[[SEO 設定與優化指南]]"
+  - "[[submit-sitemap-to-gsc]]"
+  - "[[seo-guide]]"
 tags:
   - "301"
   - "轉址"
@@ -117,11 +117,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-map:{ .lg }   
-  [__提交 Sitemap__](將 Sitemap 提交至 Google Search Console.md){ title="將 Sitemap 提交至 Google Search Console" }     
+  [__提交 Sitemap__](submit-sitemap-to-gsc.md){ title="將 Sitemap 提交至 Google Search Console" }     
   將系統自動產生的 Sitemap 提交至 Google Search Console。
 
 - :lucide-search:{ .lg }     
-  [__SEO 設定與優化__](SEO 設定與優化指南.md){ title="SEO 設定與優化指南" }  
+  [__SEO 設定與優化__](seo-guide.md){ title="SEO 設定與優化指南" }  
   全面了解 CYBERBIZ 系統的 SEO 設定功能。
 
 </div>

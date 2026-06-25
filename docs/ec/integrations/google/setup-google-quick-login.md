@@ -1,9 +1,8 @@
 ---
-
 title: "設定 Google 快速登入"
 description: "設定 Google 快速登入功能，讓消費者能使用 Google 帳戶一鍵註冊或登入會員。"
 created: "2026-03-17 12:26"
-last_modified: "2026-03-17 14:35"
+last_modified: 2026-06-25 16:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -69,10 +68,7 @@ icon: lucide/log-in
 hide: []
 ---
 
-
-
-![](../../../assets/images/ec-第三方整合-google設定-google登入.png){ .hero-page }
-
+![Google 快速登入設定](../../../assets/images/ec-第三方整合-google設定-google登入.png){ title="Google 快速登入設定" .hero-page }
 
 ## Google 快速登入說明
 
@@ -89,18 +85,18 @@ hide: []
     *   **目標對象**：選擇「**外部**」。
     *   **聯絡資訊**：輸入聯絡電子郵件地址並完成建立。
 
-    ![](../../../assets/images/ec-第三方整合-google設定-oauth專案設定.png)
+    ![OAuth 專案設定](../../../assets/images/ec-第三方整合-google設定-oauth專案設定.png){ title="OAuth 專案設定" }
 
 3.  **建立 OAuth 用戶端 ID**：請參考 [建立 OAuth 用戶端 ID 官方教學 :lucide-external-link:](https://developers.google.com/workspace/guides/create-credentials?hl=zh-tw#oauth-client-id)，並於設定過程中填入以下 CYBERBIZ 專屬參數
     *   點選「總覽」或「憑證」，點擊「**建立 OAuth 用戶端 ID**」。
     *   **應用程式類型**：選擇「**網頁應用程式**」。
     *   **已授權的重新導向 URL**：點擊「新增 URL」，輸入 `https://{你的商店網址}/customer/auth/google_oauth2/callback`。
 
-    ![](../../../assets/images/ec-第三方整合-google設定-建立oauth用戶端id.gif)
+    ![建立 OAuth 用戶端 ID](../../../assets/images/ec-第三方整合-google設定-建立oauth用戶端id.gif){ title="建立 OAuth 用戶端 ID" }
 
 4.  **取得金鑰**：建立後，系統會彈出視窗顯示「**用戶端編號**」與「**用戶端密碼**」，請複製這兩組資訊。
 
-    ![](../../../assets/images/ec-第三方整合-google設定-oauth用戶端完成.png)
+    ![OAuth 用戶端完成畫面](../../../assets/images/ec-第三方整合-google設定-oauth用戶端完成.png){ title="OAuth 用戶端完成畫面" }
 
 ## CYBERBIZ 後台串接設定
 
@@ -111,24 +107,24 @@ hide: []
     *   將 Google Cloud 的「用戶端編號」填入後台「**應用程式 ID**」欄位。
     *   將 Google Cloud 的「用戶端密碼」填入後台「**應用程式 Secret**」欄位。
 
-    ![](../../../assets/images/ec-第三方整合-google設定-google應用程式id.png)
+    ![Google 應用程式 ID 設定](../../../assets/images/ec-第三方整合-google設定-google應用程式id.png){ title="Google 應用程式 ID 設定" }
 
 3.  **發布應用程式**：回到 Google Cloud Platform 側邊欄，點選「目標對象」，點擊「**發布應用程式**」，狀態確認無誤後即可完成。
 
-    ![](../../../assets/images/ec-第三方整合-google設定-google發布應用程式.png)
+    ![發布 Google 應用程式](../../../assets/images/ec-第三方整合-google設定-google發布應用程式.png){ title="發布 Google 應用程式" }
 
 ## 完成設定畫面
 
 完成設定，顧客即可於官網前台以 Google 帳戶註冊/登入網站。
 
-![](../../../assets/images/ec-第三方整合-google設定-快速登入-前台畫面.png)
+![Google 快速登入前台畫面](../../../assets/images/ec-第三方整合-google設定-快速登入-前台畫面.png){ title="Google 快速登入前台畫面" }
 
 ## 重要注意事項與系統邏輯
 
 *   **帳號合併機制**：若消費者使用 Google、LINE 或 Facebook 快速登入時輸入 **同一個電子郵件信箱**，系統會將其視為同一位會員，並在後台會員明細頁註明帳號類型。
 *   **會員註記**：透過此方式註冊的會員，在後台「帳號類型」欄位會顯示為「**Google 快速登入**」。
 
-    ![](../../../assets/images/ec-會員-所有會員-會員明細.png)
+    ![會員明細-帳號類型](../../../assets/images/ec-會員-所有會員-會員明細.png){ title="會員明細-帳號類型" }
 
 *   **重新導向錯誤排除**：若消費者登入時出現錯誤，請檢查 Google 後台的「已授權的重新導向 URL」是否完整填入商店網址且格式正確。
 

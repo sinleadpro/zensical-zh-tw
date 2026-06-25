@@ -18,7 +18,7 @@ products:
 <div class="grid cards" markdown>
 
 - :lucide-eye:{ .lg }
-  [__商品搜尋可見性__](設定商品搜尋可見性.md){ title="設定商品搜尋可見性" }
+  [__商品搜尋可見性__](product-search-visibility.md){ title="設定商品搜尋可見性" }
   控制商品是否顯示於站內與 Google 搜尋結果。
 
 - :lucide-search:{ .lg }

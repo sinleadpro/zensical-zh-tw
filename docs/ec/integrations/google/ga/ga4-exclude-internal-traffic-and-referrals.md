@@ -2,7 +2,7 @@
 title: "設定 GA4 排除內部流量與第三方參照來源"
 description: "在 GA4 中設定排除 company 內部 IP 流量，以及排除第三方金物流的參照連結，避免轉換來源被誤判。"
 created: "2026-03-23 17:38"
-last_modified: 2026-06-14 11:44
+last_modified: 2026-06-25 19:24
 lang: "zh-TW"
 type: "tutorial"
 status: ""
@@ -73,7 +73,7 @@ icon: "lucide/funnel-x"
 hide: []
 ---
 
-![](../../../../assets/images/ec-第三方整合-google-ga4-google代碼.png){ .hero-page }
+![GA4代碼設定](../../../../assets/images/ec-第三方整合-google-ga4-google代碼.png){ title="GA4代碼設定" .hero-page }
 
 ## 排除內部與第三方流量說明
 
@@ -88,23 +88,24 @@ hide: []
 3.  在串流詳情頁面，點選 **「進行代碼設定」**。
 4.  在設定區塊點開 **「全部顯示」**，即可看到後續需要的進階設定功能。
 
-![代碼設定頁面顯示內部流量與參照連結設定](../../../../assets/images/ec-ga4-代碼設定-內部流量與參照連結-blurred.png){ .screenshot }
+![代碼設定頁面顯示內部流量與參照連結設定](../../../../assets/images/ec-ga4-代碼設定-內部流量與參照連結-blurred.png){ title="代碼設定頁面顯示內部流量與參照連結設定" .screenshot }
 
 ---
 
-## 排除內部流量 (Internal Traffic)
+## 排除內部流量 <small>Internal Traffic</small>
+
 內部流量是指開發、客服 or 行銷人員在操作官網時產生的瀏覽行為。排除這類流量可避免干擾訪客分析。
 
-### Step 1. 定義內部流程 (IP 設定)
+### 1. 定義內部流程 <small>IP 設定</small>
 
 1.  在代碼設定頁面點選 **「定義內部流程」**，並點擊「建立」。
 2.  設定「規則名稱」（如：公司辦公室）及輸入代表內部網路的 **「IP 位址」**（可同時新增多個）。
 
-![定義內部流量-建立規則](../../../../assets/images/ec-ga4-定義內部流量-建立規則-blurred.png){ .screenshot }
+![定義內部流量-建立規則](../../../../assets/images/ec-ga4-定義內部流量-建立規則-blurred.png){ title="定義內部流量-建立規則" .screenshot }
 
 ---
 
-### Step 2. 啟用資料篩選器
+### 2. 啟用資料篩選器
 
 定義好 IP 後，必須啟用篩選器才會正式生效：
 
@@ -113,16 +114,16 @@ hide: []
 3.  將「篩選器作業」設為「排除」，並將「篩選器狀態」改為 **「有效」** 後儲存。
 4.  確認點選「啟用篩選器」完成設定。
 
-![啟用 Internal Traffic 篩選器流程](../../../../assets/images/ec-ga4-啟用篩選器.gif){ .screenshot }
+![啟用 Internal Traffic 篩選器流程](../../../../assets/images/ec-ga4-啟用篩選器.gif){ title="啟用 Internal Traffic 篩選器流程" .screenshot }
 
-## 列出不適用的參照連結網址 (排除第三方網站)
+## 列出不適用的參照連結網址 <small>排除第三方網站</small>
 
 當顧客跳轉至第三方金物流頁面（如綠界、LINE Pay、超商地圖）進行付款或選店時， GA4 常會將其誤判為新的推薦來源，導致工作階段中斷。
 
 1.  在代碼設定頁面點選 **「列出不適用的參照連結網址」**。
 2.  將常用的第三方金物流網址加入名單中。**建議排除的常見連結請見下方**。
 
-![](../../../../assets/images/ec-ga4-列出不適用的參照連結網址.gif)
+![列出不适用的參照連結網址](../../../../assets/images/ec-ga4-列出不適用的參照連結網址.gif){ title="列出不适用的參照連結網址" }
 
 
 | 分類 | 第三方服務商 | 建議排除連結 |

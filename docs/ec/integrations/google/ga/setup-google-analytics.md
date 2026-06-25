@@ -1,9 +1,8 @@
 ---
-
 title: "建立並串接 Google Analytics"
 description: "串接 Google Analytics 4 (GA4)，包括 Google 端帳號建立、取得評估 ID，以及在 CYBERBIZ 後台填入追蹤 ID 的完整步驟。" 
 created: "2026-03-20 14:54"
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-25 18:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -71,14 +70,13 @@ icon: lucide/link
 hide: []
 ---
 
-
-![](../../../../assets/images/ec-第三方整合-google-ga4設定.png){ .hero-page }
+![GA4 串接設定](../../../../assets/images/ec-第三方整合-google-ga4設定.png){ .hero-page title="GA4 串接設定" }
 
 ## 什麼是 Google Analytics
 
 Google Analytics (GA4) 是經營品牌網站必備的分析工具，能協助行銷人員追蹤流量與使用者行為。串接程序主要分為 **Google 後台帳號建立** 與 **官網後台編號填入** 兩大步驟。
 
-## 建立 Google Analytics 帳號 (Google 端操作)
+## 建立 Google Analytics 帳號 <small>Google 端操作</small>
 
 1.  **登入 GA 後台**：進入 [Google Analytics :lucide-external-link:](https://analytics.google.com/)，點擊「開始評估」。
 
@@ -86,25 +84,25 @@ Google Analytics (GA4) 是經營品牌網站必備的分析工具，能協助行
     *   依序輸入「帳戶名稱」、「屬性名稱」。
     *   選擇產業類別、商家規模及業務目標，並勾選同意服務條款。
 
-    ![設定帳戶與資源](../../../../assets/images/ec-第三方整合-google-ga-建立帳戶.gif){ .screenshot }
+    ![設定帳戶與資源](../../../../assets/images/ec-第三方整合-google-ga-建立帳戶.gif){ .screenshot title="設定帳戶與資源" }
 
 3.  **設定資料收集來源**：
     *   在「資料收集」流程中選擇「**網站**」。
     *   輸入您的官網網址與網站名稱。
     *   此處建議開啟「加強型評估」，可自動記錄捲動、點擊、站內搜尋等行為。
 
-    ![設定資料串流](../../../../assets/images/ec-第三方整合-google-ga-資料串流.png){ .screenshot }
+    ![設定資料串流](../../../../assets/images/ec-第三方整合-google-ga-資料串流.png){ .screenshot title="設定資料串流" }
 
 4. **設定 Google 代碼**：選擇預設建議選項 「使用在您網站上找到的 Google 代碼」 即可。
 
 5.  **取得評估 ID**：
     *   設定完成後會進入「網站串流詳情」頁面，請複製以 `G-` 開頭的「**評估 ID**」。
 
-    ![取得評估 ID](../../../../assets/images/ec-第三方整合-google-ga-評估ID-blurred.png){ .screenshot }
+    ![取得評估 ID](../../../../assets/images/ec-第三方整合-google-ga-評估ID-blurred.png){ .screenshot title="取得評估 ID" }
 
 !!! info "詳細設定說明，可參考[官方說明 :lucide-external-link:](https://support.google.com/analytics/answer/9304153?hl=zh-Hant&ref_topic=14088998&sjid=385438859130631159-NC)。"
 
-## 將 GA4 帳號串連至官網 (CYBERBIZ 後台操作)
+## 將 GA4 帳號串連至官網 <small>CYBERBIZ 後台操作</small>
 
 
 !!! warning "注意事項"
@@ -119,17 +117,17 @@ Google Analytics (GA4) 是經營品牌網站必備的分析工具，能協助行
     *   將剛才複製的評估 ID 貼至「**GA4 tracking ID**」欄位中並儲存。
     *   *註：若您的版本較舊或尚未開通 GA4，需透過後台客服視窗申請開通。*
 
-![](../../../../assets/images/ec-第三方整合-google-ga串接-輸入id.gif)
+![輸入 GA4 評估 ID](../../../../assets/images/ec-第三方整合-google-ga串接-輸入id.gif){ title="輸入 GA4 評估 ID" }
 
 ## 如何查看是否安裝成功
 
 1.  **測試行為**：開啟商店前台，隨意點擊商品並執行「**加入購物車**」動作。
 
-    ![前台加入購物車](../../../../assets/images/ec-商品-加入購物車-前台.png){ .screenshot }
+    ![前台加入購物車](../../../../assets/images/ec-商品-加入購物車-前台.png){ .screenshot title="前台加入購物車" }
 
 2.  **即時報表確認**：回到 GA4 後台，點擊側邊欄「報表」>「即時」或「即時總覽」，查看事件計數。若有出現數據變化，表示已成功串接。
 
-    ![GA4 即時報表](../../../../assets/images/ec-第三方整合-google-ga-即時報表.png){ .screenshot }
+    ![GA4 即時報表](../../../../assets/images/ec-第三方整合-google-ga-即時報表.png){ .screenshot title="GA4 即時報表" }
 
 ## 後續操作
 
@@ -138,19 +136,19 @@ Google Analytics (GA4) 是經營品牌網站必備的分析工具，能協助行
 <div class="grid cards" markdown>
 
 - :lucide-funnel-x:{ .lg }   
-  [__排除內部流量__](設定 GA4 排除內部流量與第三方參照來源.md){ title="設定 GA4 排除內部流量與第三方參照來源" }     
+  [__排除內部流量__](ga4-exclude-internal-traffic-and-referrals.md){ title="設定 GA4 排除內部流量與第三方參照來源" }     
   在 GA4 管理介面的「資料串流」中定義公司 IP，避免開發或行銷人員的瀏覽行為干擾分析。
 
 - :lucide-list:{ .lg }     
-  [__列出不適用的參照連結__](設定 GA4 排除內部流量與第三方參照來源.md#列出不適用的參照連結網址-排除第三方網站){ title="設定 GA4 排除內部流量與第三方參照來源" }  
+  [__列出不適用的參照連結__](ga4-exclude-internal-traffic-and-referrals.md#列出不適用的參照連結網址-排除第三方網站){ title="設定 GA4 排除內部流量與第三方參照來源" }  
   將金物流服務商加入排除名單，以免轉換來源被誤判為第三方金流頁面。
 
 - :lucide-clock:{ .lg }     
-  [__延長資料保留期限__](google-analytics-advanced-tracking.md#資料保留-Data-Retention){ title="設定 Google Analytics 進階追蹤與資料分析" }  
+  [__延長資料保留期限__](google-analytics-advanced-tracking.md#資料保留-data-retention){ title="設定 Google Analytics 進階追蹤與資料分析" }  
   GA4 預設資料僅保留 2 個月，建議至「資料收集與修改」>「資料保留」中手動改為 **14 個月**。
   
 - :lucide-radio:{ .lg }     
-  [__啟用 Google](google-analytics-advanced-tracking.md#Google-信號-Google-Signals)nals){ title="設定 Google Analytics 進階追蹤與資料分析" }  
+  [__啟用 Google 信號 (Google Signals)__](google-analytics-advanced-tracking.md#google-信號-google-signals){ title="設定 Google Analytics 進階追蹤與資料分析" }  
   開啟此功能可取得跨裝置的使用行為資料與更精確的使用者輪廓。
 
 </div>

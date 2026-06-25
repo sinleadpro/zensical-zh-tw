@@ -1,9 +1,8 @@
 ---
-
 title: 設定 GMC 重要事件來源追蹤與自動標記
 description: 設定 Google Merchant Center 重要事件來源追蹤與自動標記功能，掌握產品購買指標。
 created: 2026-03-30 10:00
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-25 17:12
 lang: zh-TW
 type: guide
 status: ""
@@ -66,10 +65,7 @@ hide: []
 comments: false
 ---
 
-
-
 ![GMC 重要事件設定](../../../assets/images/ec-gmc-重要事件設定.png){ .hero-page }
-
 
 ## 什麼是重要事件來源追蹤
 
@@ -89,14 +85,14 @@ comments: false
 
 ## 將 GA4 連結至 Merchant Center
 
-將 GA4 連結至 Merchant Center 後，即可追蹤來自 Google 搜尋與購物廣告的轉換成效，並在 Merchant Center 的「數據分析」中查看購買指標。
-
 !!! warning "操作前準備"
 
     在開始設定前，請確保已完成以下準備：
 
-    - [x] 已完成 [Google Merchant Center 帳號設定](設定%20Google%20Merchant%20Center%20並同步%20CYBERBIZ%20商品.md){ data-preview }
+    - [x] 已完成 [Google Merchant Center 帳號設定](setup-google-merchant-center.md){ title="設定 Google Merchant Center 並同步 CYBERBIZ 商品" }
     - [x] 已建立 [Google Analytics 4 (GA4) 資源並取得評估 ID](ga/setup-google-analytics.md){ title="建立並串接 Google Analytics" }
+
+將 GA4 連結至 Merchant Center 後，即可追蹤來自 Google 搜尋與購物廣告的轉換成效，並在 Merchant Center 的「數據分析」中查看購買指標。
 
 1.  **前往 GMC 設定**：在 Merchant Center 左側導覽選單，點擊「設定」圖示
 2.  **開啟重要事件設定**：點擊「設定」>「一般」>「重要事件設定」
@@ -125,12 +121,12 @@ comments: false
 
 <div class="grid cards" markdown>
 
-- :lucide-youtube:{ .lg }   
-  [__YouTube Shopping__](YouTube%20Shopping%20%E8%A8%AD%E5%AE%9A%E6%8C%87%E5%8D%97.md)       
+- :simple-youtube:{ .lg }   
+  [__YouTube Shopping__](youtube-shopping-setup-guide.md){ title="YouTube Shopping 設定指南" }       
   進行產品購買轉換追蹤，在 YouTube 影片、直播及短影音中植入官網商品資訊。
 
 - :lucide-trending-up:{ .lg }   
-  [__Google 購物廣告__](setup-google-ads-conversion-tracking.md){ title="設定 Google Ads 轉換追蹤" }    
+  [__Google Ads 轉換追蹤__](setup-google-ads-conversion-tracking.md){ title="設定 Google Ads 轉換追蹤" }    
   準確回報廣告帶來的訂單成效，優化廣告投放效益。
 
 </div>

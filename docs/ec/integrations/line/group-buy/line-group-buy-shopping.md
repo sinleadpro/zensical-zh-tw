@@ -2,7 +2,7 @@
 title: "使用 LINE 團購進行購物"
 description: 顧客如何在 LINE 群組中透過團購機器人瀏覽商品、加入購物車並完成訂單結帳流程。 
 created: "2026-03-12 15:40"
-last_modified: 2026-06-08 17:15
+last_modified: 2026-06-25 21:01
 lang: zh-TW
 type: tutorial
 status:
@@ -40,8 +40,8 @@ prerequisites:
   - 設定 LINE 團購群組
 related: []
 tags:
-  - LINE_OA
-  - LINE_團購
+  - LINE OA
+  - LINE 團購
   - 團購購物
   - LIFF
 acoiv:

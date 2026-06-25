@@ -1,9 +1,8 @@
 ---
-
 title: 設定 LINE OA 受眾串接
 description: 將篩選出的會員 UID 同步至 LINE OA 建立受眾，用於訊息推播與 LAP 廣告投放。
 created: 2026-03-06 11:46
-last_modified: 2026-03-06 15:19
+last_modified: 2026-06-25 20:15
 lang: zh-TW
 permalink: ""
 type: tutorial
@@ -44,7 +43,6 @@ prerequisites:
   - "[[connect-line-messaging-api]]"
 related: []
 tags:
-  - EC
   - LINE OA
   - 受眾串接
   - 會員分群
@@ -74,8 +72,7 @@ comments: false
 id: 設定 LINE OA 受眾串接
 ---
 
-
-![](../../../../assets/images/ec-會員-所有會員-line受眾.png){ .hero-page }
+![LINE受眾串接](../../../../assets/images/ec-會員-所有會員-line受眾.png){ .hero-page title="LINE受眾串接" }
 
 ## LINE 受眾串接說明
 
@@ -85,7 +82,7 @@ id: 設定 LINE OA 受眾串接
 
 ## 前置作業與限制
 
-- [x] **必要設定**：商家必須先完成 [**LINE Messaging API** 的串接設定](connect-line-messaging-api.md){ data-preview }  ，方可使用此功能。
+- [x] **必要設定**：商家必須先完成 [**LINE Messaging API** 的串接設定](../account-integration/connect-line-messaging-api.md){ title="串接 LINE Messaging API" }  ，方可使用此功能。
 - [x] **管理權限**：由 CYBERBIZ 建立的受眾，**無法直接在 LINE 後台更新或刪除**，必須透過 CYBERBIZ 後台進行同步處理。
 
 ## 建立受眾至 LINE 後台步驟
@@ -96,22 +93,22 @@ id: 設定 LINE OA 受眾串接
     - 「已完成 LINE 綁定」
     - 「已完成 LINE 登入或 LINE 綁定」
 
-	![](../../../../assets/images/ec-會員-所有會員-會員篩選器-line受眾條件.png)
+	![會員篩選器-LINE受眾條件](../../../../assets/images/ec-會員-所有會員-會員篩選器-line受眾條件.png){ title="會員篩選器-LINE受眾條件" }
 
 3. **套用與儲存**：設定完畢後點選 **套用**，確認名單無誤後點選右方區塊的 **儲存**。
 4. **輸入資訊**：輸入受眾的【名稱】與【描述】，並 **勾選下方欄位** 後按下「確認」。
 
-	![](../../../../assets/images/ec-會員-所有會員-會員篩選器-line受眾分群建立.png)
+	![LINE受眾分群建立](../../../../assets/images/ec-會員-所有會員-會員篩選器-line受眾分群建立.png){ title="LINE受眾分群建立" }
 
 5. **查看分群**：點選 **會員分群** 選單可查看所建立 LINE 受眾分群，點擊 **新增至 LINE 後台** 將受眾新增至 LINE 後台。
 
-	![](../../../../assets/images/ec-會員-line受眾-新增至line後台.png)
+	![新增至LINE後台](../../../../assets/images/ec-會員-line受眾-新增至line後台.png){ title="新增至LINE後台" }
 	
 6. **檢查結果**：進入 LINE OA 管理後台（主頁 > 資料管理 > 受眾）查看，成功串接的受眾名稱會顯示為「**(篩選條件名稱)_CYBERBIZ上傳**」。
 
-	![](../../../../assets/images/ec-會員-會員群組-line受眾-line後台.png)
+	![LINE後台受眾檢視](../../../../assets/images/ec-會員-會員群組-line受眾-line後台.png){ title="LINE後台受眾檢視" }
 
-## 受眾管理（更新與刪除）
+## 受眾管理 <small>更新與刪除</small>
 
 - **更新受眾**：若會員名單有變動，請至「所有會員」頁面點選「**更新受眾至 LINE 後台**」，系統會將最新的篩選結果同步至 LINE。
 - **刪除受眾**：在篩選條件列表中，點選欲移除受眾旁的「**刪除**」按鈕。
@@ -119,7 +116,7 @@ id: 設定 LINE OA 受眾串接
 
 !!! warning "由 CYBERBIZ 建立的受眾，**無法直接在 LINE 後台更新或刪除**，必須透過 CYBERBIZ 後台進行同步處理。"
 
-![](../../../../assets/images/ec-會員-line受眾-更新至line後台.png)
+![更新受眾至LINE後台](../../../../assets/images/ec-會員-line受眾-更新至line後台.png){ title="更新受眾至LINE後台" }
 
 ## 如何應用 LINE 受眾
 
@@ -127,7 +124,7 @@ id: 設定 LINE OA 受眾串接
 
 - 在 LINE OA 後台「群發訊息」時，傳送對象選擇「**篩選目標**」，點擊 編輯按鈕 :lucide-pencil: 可新增受眾。
 
-	![](../../../../assets/images/ec-會員-會員分群-line受眾-line後台新增受眾.png)
+	![LINE後台新增受眾](../../../../assets/images/ec-會員-會員分群-line受眾-line後台新增受眾.png){ title="LINE後台新增受眾" }
 
 - 新增受眾並選擇 CYBERBIZ 傳送的名稱，可設定為「包含」或「不包含」該受眾。
 
@@ -135,11 +132,11 @@ id: 設定 LINE OA 受眾串接
 
 - 在 [Ad Manager :lucide-external-link:](https://admanager.line.biz/home/) 點選「受眾」>「建立受眾」，選擇「**分享自 LINE 官方帳號的使用者識別碼 UID 受眾**」。
 
-	![](../../../../assets/images/ec-會員-會員分群-line受眾-ad-manager-建立受眾.png)
+	![Ad Manager建立受眾](../../../../assets/images/ec-會員-會員分群-line受眾-ad-manager-建立受眾.png){ title="Ad Manager建立受眾" }
 
 - 之後建立廣告群組時，即可選用此受眾包進行精準投放。
 
-	![](../../../../assets/images/line-ad-manager-廣告群組-建立受眾.png)
+	![廣告群組建立受眾](../../../../assets/images/line-ad-manager-廣告群組-建立受眾.png){ title="廣告群組建立受眾" }
 
 !!! info "瞭解 [什麼是 LINE 成效型廣告投放 (LAP) :lucide-external-link:](https://tw.linebiz.com/service/display-solutions/line-ads-platform/)。"
 

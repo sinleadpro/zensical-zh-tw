@@ -2,7 +2,7 @@
 title: 使用 Meta 廣告成效分析
 description: 透過 Meta Ads App 掌握廣告成效數據，分析指標，並使用 AI Insights 獲取數據洞察與優化建議。
 created: 2026-04-21 11:29
-last_modified: 2026-06-14 11:41
+last_modified: 2026-06-25 16:40
 lang: zh-TW
 type: tutorial
 status: ""
@@ -86,7 +86,7 @@ hide: []
 - [x] **確保資產正確連結**：確認已透過 [**Facebook 商業擴充套件 (FBE)**](../mbe/setup-fbe-authorization.md){ title="設定 FBE 帳號授權與資產連結" } 完成授權，並正確埋設 Meta Pixel 與轉換 API (CAPI)。
 - [x] **確認帳戶餘額**：廣告帳戶需有足夠餘額或有效的支付方式，否則成效數據將顯示為「異常」或停止更新。
 
-## 掌握整體成效（總覽指標）
+## 掌握整體成效 <small>總覽指標</small>
 
 在「成效總覽」頁面，您可以透過 **流量廣告** 與 **銷售量廣告** 兩大維度，快速評估 Meta 廣告的投放品質。
 
@@ -195,11 +195,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-rocket:{ .lg }   
-  [__建立廣告活動__](設定%20Meta%20廣告活動.md)       
+  [__建立廣告活動__](setup-meta-ad-campaign.md){ title="設定 Meta 廣告活動" }       
   完成成效分析後，可依數據洞察建立新的 Meta 廣告活動。
 
 - :lucide-package-x:{ .lg }   
-  [__排除商品同步__](../mbe/排除商品不同步至%20Facebook%20與%20Instagram%20商店.md)       
+  [__排除商品同步__](../mbe/exclude-products-fb-instagram-sync.md){ title="排除商品不同步至 Facebook 與 Instagram 商店" }       
   如有特定商品不希望同步至 Meta，可設定排除標籤。
 
 </div>
@@ -219,7 +219,7 @@ hide: []
 
     常見原因包括：
 
-    - **廣告帳戶餘額不足**：請至 **第三方整合 > 臉書 Facebook 設定 > 廣告帳號設定** 確認餘額或 [進行儲值](建立%20Meta%20廣告帳號並儲值.md#儲值廣告金){ data-preview } 確認餘額。
+    - **廣告帳戶餘額不足**：請至 **第三方整合 > 臉書 Facebook 設定 > 廣告帳號設定** 確認餘額或 [進行儲值](create-meta-ad-account-top-up.md#儲值廣告金){ title="建立 Meta 廣告帳號並完成儲值" }。
     - **像素設定異常**：請確認正確串接 Pixel。
     - **素材審核未通過**：需檢查廣告素材是否符合 Meta 政策。
 
@@ -229,9 +229,9 @@ hide: []
 
     可能原因包括：
 
-    - **iOS 隱私限制**：受蘋果 iOS 14.5+ 隱私政策影響，Facebook 取得數據可能不完整。參考 [官方說明](https://www.facebook.com/business/help/1329822420714248?id=428636648170202&helpref=faq_content){ target="_blank" }。
+    - **iOS 隱私限制**：受蘋果 iOS 14.5+ 隱私政策影響，Facebook 取得數據可能不完整。參考 [官方說明](https://zh-tw.facebook.com/business/help/1329822420714248?id=428636648170202&helpref=faq_content){ target="_blank" }。
     - **歸因時效差異**：數據採用「點擊後 7 天、瀏覽後 1 天」的歸因邏輯，與商店實際訂單可能存在時間差。
-    - **像素設定問題**：請確認使用正確的[像素 (Pixel) 設定](建立%20Meta%20廣告帳號並儲值.md#像素-pixel-設定){ data-preview }，並透過 CYBERBIZ 商業擴充套件串接。**不建議使用 GTM 埋設像素**，將導致事件重複、像素不正確等問題。
+    - **像素設定問題**：請確認使用正確的[像素 (Pixel) 設定](create-meta-ad-account-top-up.md#像素設定-pixel){ title="建立 Meta 廣告帳號並完成儲值" }，並透過 CYBERBIZ 商業擴充套件串接。**不建議使用 GTM 埋設像素**，將導致事件重複、像素不正確等問題。
 
     如需重新串接，請參考 [設定 FBE 帳號](../mbe/setup-fbe-authorization.md)產連結.md){ title="設定 FBE 帳號授權與資產連結" }。
 

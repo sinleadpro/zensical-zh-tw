@@ -218,7 +218,7 @@ copyright = """
             ]},
             { "搜尋與曝光" = [
                 {"overview" = "ec/products/discoverability/index.md"},
-                {"商品搜尋可見性" = "ec/products/discoverability/設定商品搜尋可見性.md"},
+                {"商品搜尋可見性" = "ec/products/discoverability/product-search-visibility.md"},
                 {"站內搜尋設定" = "ec/products/discoverability/setup-site-search.md"},
                 {"搜尋結果排除" = "ec/products/discoverability/exclude-keyword-products-search.md"},
                 {"前台商品篩選器" = "ec/products/discoverability/設定前台商品篩選器.md"}
@@ -496,39 +496,56 @@ copyright = """
                 ]},
                 {"Meta 廣告" = [
                     {"Meta 廣告總覽" = "ec/integrations/fb/meta-ads/index.md"},
-                    {"建立帳號與儲值" = "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up.md"},
-                    {"閒置帳號處理" = "ec/integrations/fb/meta-ads/meta-ad-idle-account-reclaim.md"},
-                    {"廣告活動設定" = "ec/integrations/fb/meta-ads/setup-meta-ad-campaign.md"},
-                    {"廣告預算指南" = "ec/integrations/fb/meta-ads/meta-ad-daily-budget-guide.md"},
-                    {"目錄商品組合" = "ec/integrations/fb/meta-ads/setup-meta-ad-catalog-sets.md"},
-                    {"目錄影片同步" = "ec/integrations/fb/meta-ads/sync-product-videos-meta-catalog.md"},
-                    {"廣告成效分析" = "ec/integrations/fb/meta-ads/meta-ad-performance-analysis.md"},
-                    {"ASC 廣告指南" = "ec/integrations/fb/meta-ads/asc-ad-strategy-best-practices.md"},
-                    {"手動授權資產" = "ec/integrations/fb/meta-ads/share-asset-permissions-cyberbiz.md"}
+                    {"帳號建立與管理" = [
+                        {"建立帳號與儲值" = "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up.md"},
+                        {"閒置帳號處理" = "ec/integrations/fb/meta-ads/meta-ad-idle-account-reclaim.md"}
+                    ]},
+                    {"廣告活動設定" = [
+                        {"設定廣告活動" = "ec/integrations/fb/meta-ads/setup-meta-ad-campaign.md"},
+                        {"目錄商品組合" = "ec/integrations/fb/meta-ads/setup-meta-ad-catalog-sets.md"},
+                        {"目錄影片同步" = "ec/integrations/fb/meta-ads/sync-product-videos-meta-catalog.md"}
+                    ]},
+                    {"投放策略與預算" = [
+                        {"ASC 廣告指南" = "ec/integrations/fb/meta-ads/asc-ad-strategy-best-practices.md"},
+                        {"廣告預算指南" = "ec/integrations/fb/meta-ads/meta-ad-daily-budget-guide.md"}
+                    ]},
+                    {"成效分析與疑難排解" = [
+                        {"廣告成效分析" = "ec/integrations/fb/meta-ads/meta-ad-performance-analysis.md"},
+                        {"手動授權資產" = "ec/integrations/fb/meta-ads/share-asset-permissions-cyberbiz.md"}
+                    ]}
                 ]},
             ]},
             {"Google" = [
                 {"Google 總覽" = "ec/integrations/google/index.md"},
-                {"Google 快速登入" = "ec/integrations/google/setup-google-quick-login.md"},
-                {"Google 購物廣告" = "ec/integrations/google/setup-google-merchant-center.md"},
-                {"GMC 重要事件追蹤" = "ec/integrations/google/setup-gmc-conversion-tracking.md"},
-                {"自動化廣告" = "ec/integrations/google/automated-ads-system.md"},
-                {"移除 Google 索引" = "ec/integrations/google/remove-urls-from-google-search.md"},
-                {"Google Tag Manager" = "ec/integrations/google/setup-google-tag-manager.md"},
-                {"Tag Assistant 驗證" = "ec/integrations/google/verify-tracking-tag-installation.md"},
-                {"Google 商家檔案" = "ec/integrations/google/setup-google-business-profile.md"},
-                {"GSC 驗證與設定" = "ec/integrations/google/setup-google-search-console.md"},
-                {"Google Ads 追蹤轉換" = "ec/integrations/google/setup-google-ads-conversion-tracking.md"},
-                {"Google Ads 強化轉換" = "ec/integrations/google/setup-google-ads-enhanced-conversions.md"},
-                {"UTM 流量追蹤" = "ec/integrations/google/utm-parameter-tracking-guide.md"},
-                {"網站安全檢查與申訴" = "ec/integrations/google/google-safe-browsing-security-check.md"},
-                {"YouTube Shopping" = "ec/integrations/google/youtube-shopping-setup-guide.md"},
+                {"基礎設定與帳號驗證" = [
+                    {"GSC 驗證與設定" = "ec/integrations/google/setup-google-search-console.md"},
+                    {"Google 商家檔案" = "ec/integrations/google/setup-google-business-profile.md"},
+                    {"Google Tag Manager" = "ec/integrations/google/setup-google-tag-manager.md"},
+                    {"Google 快速登入" = "ec/integrations/google/setup-google-quick-login.md"}
+                ]},
+                {"Merchant Center 與購物廣告" = [
+                    {"Google 購物廣告" = "ec/integrations/google/setup-google-merchant-center.md"},
+                    {"自動化廣告" = "ec/integrations/google/automated-ads-system.md"},
+                    {"YouTube Shopping" = "ec/integrations/google/youtube-shopping-setup-guide.md"},
+                    {"GMC 重要事件追蹤" = "ec/integrations/google/setup-gmc-conversion-tracking.md"}
+                ]},
+                {"Google Ads 廣告與轉換追蹤" = [
+                    {"Google Ads 追蹤轉換" = "ec/integrations/google/setup-google-ads-conversion-tracking.md"},
+                    {"Google Ads 強化轉換" = "ec/integrations/google/setup-google-ads-enhanced-conversions.md"}
+                ]},
+                {"流量追蹤與資料分析" = [
+                    {"UTM 流量追蹤" = "ec/integrations/google/utm-parameter-tracking-guide.md"},
+                    {"Tag Assistant 驗證" = "ec/integrations/google/verify-tracking-tag-installation.md"}
+                ]},
                 {"Google Analytics" = [
-                    {"overview" = "ec/integrations/google/ga/index.md"},
                     {"建立串接" = "ec/integrations/google/ga/setup-google-analytics.md"},
                     {"進階設定" = "ec/integrations/google/ga/google-analytics-advanced-tracking.md"},
-                    {"排除內部與參照流量" = "ec/integrations/google/ga/設定 GA4 排除內部流量與第三方參照來源.md"},
+                    {"排除內部與參照流量" = "ec/integrations/google/ga/ga4-exclude-internal-traffic-and-referrals.md"},
                     {"站內追蹤搜尋" = "ec/integrations/google/ga/setup-ga4-site-search-tracking.md"}
+                ]},
+                {"搜尋管理與網站安全" = [
+                    {"移除 Google 索引" = "ec/integrations/google/remove-urls-from-google-search.md"},
+                    {"網站安全檢查與申訴" = "ec/integrations/google/google-safe-browsing-security-check.md"}
                 ]},
             ]},
             { "LINE" = [
@@ -579,9 +596,9 @@ copyright = """
             {"二階段驗證 (2FA)" = "ec/website-management/setup-manage-two-factor-auth.md"},
             {"Authy 二階段驗證" = "ec/website-management/authy-two-factor-authentication.md"},
             {"搜尋引擎最佳化" = [
-                {"SEO 優化" = "ec/website-management/seo/SEO 設定與優化指南.md"},
-                {"Sitemap 提交" = "ec/website-management/seo/將 Sitemap 提交至 Google Search Console.md"},
-                {"網站轉址" = "ec/website-management/seo/設定 301 重定向網站轉址.md"}
+                {"SEO 優化" = "ec/website-management/seo/seo-guide.md"},
+                {"Sitemap 提交" = "ec/website-management/seo/submit-sitemap-to-gsc.md"},
+                {"網站轉址" = "ec/website-management/seo/setup-301-redirects.md"}
             ]},
             { "對帳中心" = [
                 { "欠款自動扣繳" = "ec/website-management/auto-deduction-of-arrears.md" },
@@ -678,6 +695,7 @@ copyright = """
             { "盟立電子發票" = "pos/third-party/monolith-e-invoice.md" },
             { "星益欣電子發票" = "pos/third-party/wixtar-e-invoice.md" },
             { "LINE PAY 掃碼支付" = "pos/check/line-pay-scan-payment.md" },
+            { "LINE 會員條碼結帳" = "pos/integrations/line/line-member-barcode-pos-checkout.md" },
         ]},
         {"divider" = "divider"},
         { "結帳" =[

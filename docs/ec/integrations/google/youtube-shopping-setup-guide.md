@@ -1,9 +1,8 @@
 ---
-
 title: YouTube Shopping 設定指南
 description: 透過 YouTube Shopping 在影片、直播、短影音中植入商品資訊與連結，提升商品曝光與流量變現。
 created: 2026-03-27 10:49
-last_modified: 2026-06-08 17:15
+last_modified: 2026-06-25 18:38
 lang: zh-TW
 type: tutorial
 status: ""
@@ -44,9 +43,8 @@ prerequisites:
 related:
   - "[[setup-gmc-conversion-tracking]]"
 tags:
-  - EC
   - YouTube Shopping
-  - Google Merchant Center
+  - GMC
   - 直播購物
   - 產品動態饋給
   - YPP
@@ -74,8 +72,6 @@ search:
 icon: simple/youtube
 hide: []
 ---
-
-
 
 ## 什麼是 YouTube Shopping
 
@@ -117,7 +113,7 @@ graph LR
     S2 --> S3
 ```
 
-## **第一階段：帳號建立與後台綁定**
+### 1. 帳號建立與後台綁定
 
 在申請 YouTube Shopping 之前，必須先完成 Google 兩大工具的串接。
 
@@ -141,7 +137,9 @@ graph LR
 
 </div>
 
-## **第二階段：YPP 資格申請**
+---
+
+### 2. YPP 資格申請
 
 商家頻道必須具備 [**YouTube 合作夥伴計畫 (YPP)** :lucide-external-link:](https://support.google.com/youtube/answer/72851?hl=zh-Hant&ref_topic=9153642) 的營利資格才能開啟購物功能。
 
@@ -152,11 +150,13 @@ graph LR
 2.  **線上申請**：當訂閱人數達 1,000 人且觀看時數達 4,000 小時（或 Shorts 觀看次數達 1,000 萬次）時，即可直接透過 YouTube Studio 申請 YPP 資格。資格與申請詳情，請參考[官方說明 :lucide-external-link:](https://support.google.com/youtube/answer/72851?hl=zh-hk&co=GENIE.Platform%3DDesktop)。
 3.  **完成 AdSense 驗證**：申請通過後，在 YouTube Studio 後台點選「收取款項」並開始使用，填寫個人資訊以完成 AdSense 註冊。[瞭解詳情 :lucide-external-link:](https://support.google.com/youtube/answer/11602441?hl=zh-Hant&ref_topic=11449917&sjid=3703724191269892924-NC)。
 
-## **第三階段：申請與連結商店**
+---
+
+### 3. 申請與連結商店
 
 當上述帳號與資格皆準備完成後，即可進行最後的連結步驟。
 
-1.  **連結 GMC 與 GA4**：在 Merchant Center 設定中啟用自動標記，並將 [GA4 連結至 Merchant Center](設定%20GMC%20重要事件來源追蹤與自動標記.md#將-ga4-連結至-merchant-center){ data-preview }。
+1.  **連結 GMC 與 GA4**：在 Merchant Center 設定中啟用自動標記，並將 [GA4 連結至 Merchant Center](setup-gmc-conversion-tracking.md#將-ga4-連結至-merchant-center){ title="設定 GMC 重要事件來源追蹤與自動標記" }。
 2.  **連結 YouTube 頻道與官網**：進入 [YouTube Studio :lucide-external-link:](https://studio.youtube.com/) 的「營利」>「購物」分頁，點選「連結商店」，並選擇「其他商店」後指定您的 GMC 帳號。設定詳情，看參考[官方說明 :lucide-external-link:](https://support.google.com/youtube/answer/12258186?sjid=15941351074417695736-NC#)
 
     ![YouTube Studio 連結商店 GIF](../../../assets/images/yt-第三階段-連結Youtube商店.gif){ .screenshot }
