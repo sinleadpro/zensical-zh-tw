@@ -483,9 +483,9 @@ copyright = """
             {"安裝 Meta Ads App" = "ec/app-market/install-meta-ads-app.md"}
         ]},
         { "第三方整合" = [
-            {"overview" = "ec/integrations/index.md"},  
+            {"第三方整合總覽" = "ec/integrations/index.md"},  
             {"Facebook" = [
-                {"overview" = "ec/integrations/fb/index.md"},
+                {"Facebook 總覽" = "ec/integrations/fb/index.md"},
                 {"Facebook 快速登入" = "ec/integrations/fb/setup-facebook-quick-login.md"},
                 {"商業擴充功能" = [
                     {"商業擴充總覽" = "ec/integrations/fb/mbe/index.md"},

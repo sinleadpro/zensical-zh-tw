@@ -2,7 +2,7 @@
 title: 設定與使用 LINE 顯示會員條碼（串接 POS 結帳）
 description: 啟用並設定 LINE 官方帳號會員條碼，讓門市人員可透過 POS 掃描條碼快速識別會員並套用紅利與優惠券折抵。
 created:
-last_modified: 2026-06-25 20:48
+last_modified: 2026-06-25 21:28
 lang: zh-TW
 permalink:
 type: tutorial
@@ -109,7 +109,7 @@ hide:
 
 ![LINE會員卡畫面](../../../assets/images/pos-line oa-會員卡.png){ title="LINE會員卡畫面" }
 
-### 店員端操作 (POS 機)
+### 店員端操作 <small>POS 機</small>
 
 1. 店員登入 POS 前台，點選 **結帳** 鍵。
 2. 在會員登入介面，使用條碼槍掃描消費者的手機條碼，或是手動輸入條碼編號進行登入。
