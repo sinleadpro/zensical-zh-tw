@@ -49,12 +49,12 @@ hide:
 
     彙整 CYBERBIZ 商家指南手冊，提供 PDF 下載。
 
--   :lucide-help-circle:{ .lg }
-    [__常見問題__](FAQ.md)
+-   :lucide-message-square-warning:{ .lg }
+    [__問題回報__](use-jam-to-report-issues.md){ title="使用 Jam 回報操作問題" }
 
     ---
 
-    快速了解經營難題與解決方案，助您排除系統操作障礙。
+    遇到系統操作問題？利用 Jam 錄製畫面回報，協助客服快速排查。
 
 -   :lucide-bookmark:{ .lg }
     [__詞彙表__](glossary.md){ title="詞彙表" }

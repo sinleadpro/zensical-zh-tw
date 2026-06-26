@@ -1,0 +1,588 @@
+{
+    "plugin": {
+        "version": "5.5.2",
+        "date": "Fri, 26 Jun 2026 01:44:05 +0000"
+    },
+    "groups": [
+        {
+            "id": 1,
+            "name": "Redirections",
+            "redirects": 20,
+            "module_id": 1,
+            "moduleName": "WordPress",
+            "enabled": true
+        },
+        {
+            "id": 3,
+            "name": "Zensical Test Group",
+            "redirects": 1,
+            "module_id": 1,
+            "moduleName": "WordPress",
+            "enabled": true
+        },
+        {
+            "id": 5,
+            "name": "Modified Posts",
+            "redirects": 0,
+            "module_id": 1,
+            "moduleName": "WordPress",
+            "enabled": true
+        },
+        {
+            "id": 7,
+            "name": "Zensical",
+            "redirects": 0,
+            "module_id": 1,
+            "moduleName": "WordPress",
+            "enabled": true
+        }
+    ],
+    "redirects": [
+        {
+            "id": 1,
+            "url": "/helpcenter/?p=3794",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://www.cyberbiz.io/helpcenter/?p=5621"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 2234,
+            "regex": false,
+            "group_id": 1,
+            "position": 0,
+            "last_access": "2026 \u5e74 6 \u6708 25 \u65e5",
+            "enabled": true
+        },
+        {
+            "id": 2,
+            "url": "/helpcenter/?p=8410",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://www.cyberbiz.io/helpcenter/?p=7388"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 625,
+            "regex": false,
+            "group_id": 1,
+            "position": 1,
+            "last_access": "2026 \u5e74 6 \u6708 23 \u65e5",
+            "enabled": true
+        },
+        {
+            "id": 3,
+            "url": "/helpcenter/?p=654",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://www.cyberbiz.io/helpcenter/?p=4412"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 204,
+            "regex": false,
+            "group_id": 1,
+            "position": 2,
+            "last_access": "2026 \u5e74 6 \u6708 18 \u65e5",
+            "enabled": true
+        },
+        {
+            "id": 4,
+            "url": "/helpcenter/?p=445",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://www.cyberbiz.io/helpcenter/?p=7209"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 389,
+            "regex": false,
+            "group_id": 1,
+            "position": 3,
+            "last_access": "2026 \u5e74 6 \u6708 25 \u65e5",
+            "enabled": true
+        },
+        {
+            "id": 5,
+            "url": "/helpcenter/?p=8689",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://www.cyberbiz.io/support/?p=41626"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 170,
+            "regex": false,
+            "group_id": 1,
+            "position": 4,
+            "last_access": "2026 \u5e74 6 \u6708 17 \u65e5",
+            "enabled": true
+        },
+        {
+            "id": 6,
+            "url": "/helpcenter/?p=8687",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://www.cyberbiz.io/support/?p=41036"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 85,
+            "regex": false,
+            "group_id": 1,
+            "position": 5,
+            "last_access": "2026 \u5e74 6 \u6708 11 \u65e5",
+            "enabled": true
+        },
+        {
+            "id": 7,
+            "url": "/helpcenter/?p=8685",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://www.cyberbiz.io/support/?p=41979"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 81,
+            "regex": false,
+            "group_id": 1,
+            "position": 6,
+            "last_access": "2026 \u5e74 6 \u6708 20 \u65e5",
+            "enabled": true
+        },
+        {
+            "id": 8,
+            "url": "/helpcenter/?p=8683",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://www.cyberbiz.io/support/?p=41951"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 65,
+            "regex": false,
+            "group_id": 1,
+            "position": 7,
+            "last_access": "2026 \u5e74 6 \u6708 16 \u65e5",
+            "enabled": true
+        },
+        {
+            "id": 9,
+            "url": "/helpcenter/?p=8681",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://www.cyberbiz.io/support/?p=41923"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 56,
+            "regex": false,
+            "group_id": 1,
+            "position": 8,
+            "last_access": "2026 \u5e74 6 \u6708 15 \u65e5",
+            "enabled": true
+        },
+        {
+            "id": 10,
+            "url": "/helpcenter/?p=8679",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://www.cyberbiz.io/support/?p=41889"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 94,
+            "regex": false,
+            "group_id": 1,
+            "position": 9,
+            "last_access": "2026 \u5e74 5 \u6708 24 \u65e5",
+            "enabled": true
+        },
+        {
+            "id": 11,
+            "url": "/helpcenter/?p=8677",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://www.cyberbiz.io/support/?p=41868"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 80,
+            "regex": false,
+            "group_id": 1,
+            "position": 10,
+            "last_access": "2026 \u5e74 6 \u6708 11 \u65e5",
+            "enabled": true
+        },
+        {
+            "id": 12,
+            "url": "/helpcenter/?p=8675",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://www.cyberbiz.io/support/?p=41853"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 79,
+            "regex": false,
+            "group_id": 1,
+            "position": 11,
+            "last_access": "2026 \u5e74 6 \u6708 11 \u65e5",
+            "enabled": true
+        },
+        {
+            "id": 13,
+            "url": "/helpcenter/?p=8662",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://www.cyberbiz.io/support/?p=40979"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 169,
+            "regex": false,
+            "group_id": 1,
+            "position": 12,
+            "last_access": "2026 \u5e74 6 \u6708 22 \u65e5",
+            "enabled": true
+        },
+        {
+            "id": 14,
+            "url": "/helpcenter/?p=8665",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://www.cyberbiz.io/support/?p=41747"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 135,
+            "regex": false,
+            "group_id": 1,
+            "position": 13,
+            "last_access": "2026 \u5e74 6 \u6708 25 \u65e5",
+            "enabled": true
+        },
+        {
+            "id": 15,
+            "url": "/helpcenter/?p=8651",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://www.cyberbiz.io/support/?p=41022"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 75,
+            "regex": false,
+            "group_id": 1,
+            "position": 14,
+            "last_access": "2026 \u5e74 6 \u6708 19 \u65e5",
+            "enabled": true
+        },
+        {
+            "id": 16,
+            "url": "/helpcenter/?p=8669",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://www.cyberbiz.io/support/?p=41833"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 400,
+            "regex": false,
+            "group_id": 1,
+            "position": 15,
+            "last_access": "2026 \u5e74 6 \u6708 25 \u65e5",
+            "enabled": true
+        },
+        {
+            "id": 17,
+            "url": "/helpcenter/?p=8667",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://www.cyberbiz.io/support/?p=41786"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 103,
+            "regex": false,
+            "group_id": 1,
+            "position": 16,
+            "last_access": "2026 \u5e74 6 \u6708 17 \u65e5",
+            "enabled": true
+        },
+        {
+            "id": 18,
+            "url": "/helpcenter/?p=559",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://www.cyberbiz.io/helpcenter/?p=597"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 217,
+            "regex": false,
+            "group_id": 1,
+            "position": 17,
+            "last_access": "2026 \u5e74 6 \u6708 23 \u65e5",
+            "enabled": true
+        },
+        {
+            "id": 19,
+            "url": "/helpcenter/?p=1011",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://www.cyberbiz.io/helpcenter/?p=8276"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 193,
+            "regex": false,
+            "group_id": 1,
+            "position": 18,
+            "last_access": "2026 \u5e74 6 \u6708 25 \u65e5",
+            "enabled": true
+        },
+        {
+            "id": 20,
+            "url": "/helpcenter/?p=8267",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://www.cyberbiz.io/helpcenter/?p=8276"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 296,
+            "regex": false,
+            "group_id": 1,
+            "position": 19,
+            "last_access": "2026 \u5e74 6 \u6708 25 \u65e5",
+            "enabled": true
+        },
+        {
+            "id": 44,
+            "url": "/helpcenter/?p=13026",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/orders/home-delivery/pelican-shipping"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 15,
+            "regex": false,
+            "group_id": 3,
+            "position": 0,
+            "last_access": "2026 \u5e74 6 \u6708 25 \u65e5",
+            "enabled": true
+        }
+    ]
+}
