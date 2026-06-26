@@ -113,7 +113,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-settings:{ .lg }
-  [__設定網站基本資訊__](../../website-management/setup-store-basic-info.md#gp-company-contact)
+  [__設定網站基本資訊__](../../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="設定網站基本資訊" }
 
 </div>
 

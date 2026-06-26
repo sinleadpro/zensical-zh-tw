@@ -260,7 +260,7 @@ hide: []
   尺寸 / 溫層 / 不受理品項與 Cyber 幣費率。
 
 - :lucide-map-pin:{ .lg }  
-  [__一般設定__](../website-management/setup-store-basic-info.md#gp-logistics-address){ title="設定網站基本資訊" }  
+  [__一般設定__](../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" }  
   公司物流地址同步設定。
 
 </div>

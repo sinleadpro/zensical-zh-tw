@@ -109,8 +109,8 @@ hide: []
 
 第一次使用順豐託運單前，請先完成以下設定，缺一項都會導致託運單無法順利產生或寄件人資訊不完整：
 
-- [x] **公司物流地址**：至「一般設定」>「[公司物流地址][gp-logistics-address]{ data-preview }」設定寄件地址(縣市、鄉鎮市區、郵遞區號、詳細地址)。
-- [x] **公司統一編號**：至「一般設定」>「[公司聯絡資訊][gp-company-contact]{ data-preview }」輸入統編。**寄送海外件時為必填欄位[^1]**。
+- [x] **公司物流地址**：至「一般設定」>「[公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" }」設定寄件地址(縣市、鄉鎮市區、郵遞區號、詳細地址)。
+- [x] **公司統一編號**：至「一般設定」>「[公司聯絡資訊](../../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="設定網站基本資訊" }」輸入統編。**寄送海外件時為必填欄位[^1]**。
 - [x] **順豐寄件人資訊**(選用)：若您希望託運單上的寄件人聯絡電話與「公司聯絡資訊」不同，可在 **順豐託運單設定頁** 另行指定寄件人姓名與電話。詳情參考 [設定順豐託運單寄件人資訊][configure-sf-waybill-sender]{ data-preview }。
 
 [^1]: 缺少統編將無法產生海外託運單。
@@ -159,7 +159,7 @@ hide: []
     * **訂單清單**：顯示本次勾選的訂單編號與配送方式，確認無誤後再繼續。
     * **配送商品尺寸與費用**：視窗中會顯示一張價目表，列出各規格對應的 Cyber 幣費用供參考[^3]。
     - **預估 Cyber 幣**：一般版[^4] 商家會在視窗中看到本次預扣的 Cyber 幣、目前帳戶餘額，以及「儲值」按鈕。
-    * **寄件人地址**：預設帶入「[公司物流地址][gp-logistics-address]{ data-preview }」，如本次出貨需使用不同地址，可在視窗內 **「更改」** 按鈕直接編輯縣市 / 鄉鎮市區 / 郵遞區號 / 地址。
+    * **寄件人地址**：預設帶入「[公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" }」，如本次出貨需使用不同地址，可在視窗內 **「更改」** 按鈕直接編輯縣市 / 鄉鎮市區 / 郵遞區號 / 地址。
 5. **閱讀注意事項**：視窗會列出出貨提醒[^5]，請務必確認後再進行下一步。
 6. **同意條款**：勾選 **「我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 順豐合約規範」**(預設已勾選)，確認按鈕方會啟用。
 7. **點擊「下載」**：系統會呼叫順豐依勾選的訂單數量逐筆取得託運單號，並下載一份 ZIP [壓縮檔][reference-sf-bulk-shipping-files]{ data-preview }。

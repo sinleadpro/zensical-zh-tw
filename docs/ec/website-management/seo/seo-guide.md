@@ -112,9 +112,9 @@ CYBERBIZ 系統提供的 SEO 優化範圍涵蓋了 **首頁、商品頁、商品
 包含整體網站的標題與全站關鍵字。
 
 
-- **網站名**：前往「管理中心」>「一般設定」[設定網站名稱](../../website-management/setup-store-basic-info.md#關於您的網站){ title="設定網站基本資訊" }（中文字 15 字/英文字 30 字以內）。
+- **網站名**：前往「管理中心」>「一般設定」[設定網站名稱](../../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="設定網站基本資訊" }（中文字 15 字/英文字 30 字以內）。
 - **Meta Tag 設定**：包含 **標題**、**簡述** 跟 **關鍵字**。
-    *   **一般版型**：前往「網站外觀」>「套版主題管理」>「網站設定」>「公司品牌」。瞭解[一般版型如何設定網站標題](../../website-appearance/setup-site-title-seo.md#預設版型一般版型){ data-preview }。
+    *   **一般版型**：前往「網站外觀」>「套版主題管理」>「網站設定」>「公司品牌」。瞭解[一般版型如何設定網站標題](../../website-appearance/setup-site-title-seo.md#預設版型一般版型){ title="一般版型設定網站標題" }。
 
         ![](../../../assets/images/ec-網站外觀-套版主題-網站設定-網站簡述與關鍵字-一般版型.png)
 

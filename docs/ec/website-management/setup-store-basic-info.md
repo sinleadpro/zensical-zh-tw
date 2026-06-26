@@ -3,7 +3,7 @@
 title: 設定網站基本資訊
 description: 進行網站基本資訊、公司聯繫方式、物流地址及後台語系等核心設置。
 created:
-last_modified: 2026-06-26 12:25
+last_modified: 2026-06-26 13:03
 lang: zh-TW
 permalink:
 type: tutorial
@@ -93,7 +93,7 @@ hide:
 
 ![一般設定頁面](../../assets/images/ec-general-preferences-hero.png){ title="一般設定頁面" .hero-page }
 
-## 功能介紹 { #intro-general-preferences }
+## 一般設定說明 { #intro-general-preferences }
 
 「一般設定」（後台路徑「管理中心」>「一般設定」）是商店的基礎資料設定頁。在這裡填寫的網站名稱、公司聯絡與發票資訊，會同步顯示在您的官網與發票上；您也可以在此自訂訂單編號格式，並調整後台與前台的語言與幣別顯示方式。
 

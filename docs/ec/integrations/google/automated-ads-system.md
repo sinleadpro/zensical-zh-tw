@@ -95,7 +95,7 @@ hide: []
 
 ## 使用前提與限制 { #prerequisites-automated-ads }
 
-- [x] **公司聯絡資訊**：開通前須至 **「一般設定」** 填妥[公司聯絡資訊](../../website-management/setup-store-basic-info.md#gp-company-contact)，否則無法完成 GMC 串接。
+- [x] **公司聯絡資訊**：開通前須至 **「一般設定」** 填妥[公司聯絡資訊](../../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="設定網站基本資訊" }，否則無法完成 GMC 串接。
 - [x] **GMC 帳號**：須選擇 **「CYBERBIZ 代管」** 或提供 **「商家自有帳號」**，二擇一進行串接。
 
 ??? plan "方案適用對照"

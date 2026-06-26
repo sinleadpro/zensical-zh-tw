@@ -388,7 +388,7 @@ hide:
     2. 系統會發簡訊通知寄件人領回。
     3. 領回時需出示寄件人身分證件，**公司寄件人姓名務必正確**。
     4. 若 7 日內未領回，包裹將送至 大智通 / 日翊 / 萊爾富 物流中心，再以「宅配到付」寄回商家。
-    5. 「宅配到付」的地址為 EC 後台 > 一般設定 > [公司物流地址](../../website-management/setup-store-basic-info.md#公司物流地址與訂單格式){ data-preview }，請務必設定並填寫完整。
+    5. 「宅配到付」的地址為 EC 後台 > 一般設定 > [公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" }，請務必設定並填寫完整。
 
 ??? quote "若訂單需分批出貨，可以繼續使用超商配送嗎？"
     [](){ #faq-cvs-c2c-partial }
