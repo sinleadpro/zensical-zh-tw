@@ -142,7 +142,7 @@ hide: []
 
 執行黑貓快速到店出貨前，請完成以下準備：
 
-- [x] **物流地址設定**： 務必至 管理中心 > 一般設定 完成 [公司物流地址][gp-logistics-address]{ data-preview } 設定，否則託運單上的寄件人資訊將不完整。
+- [x] **物流地址設定**： 務必至 管理中心 > 一般設定 完成 [公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" } 設定，否則託運單上的寄件人資訊將不完整。
 - [x] **耗材與設備**： 已備妥「黑貓三聯空白託運單貼紙」（可致電黑貓客服 02-412-8888 取得），並建議使用雷射印表機列印，以確保條碼清晰。
 - [x] **商品預冷（低溫包裹）**： 冷藏商品須預冷 6 小時以上；冷凍商品須預冷 12 小時以上。
 - [x] **確認餘額**：一般版商家請至 [儲值中心查看 Cyber 幣餘額][cyber-coin-balance]{ data-preview }，確認足以支付運費；PLUS版 / 企業版商家無此限制。
@@ -225,7 +225,7 @@ hide: []
 2. 儲存後重新執行下載。
 
 ??? info "關於地址來源的優先順序"
-    若您是首次使用，系統會自動帶入 管理中心 > 一般設定 > [公司物流地址][gp-logistics-address]{ data-preview } 的資訊。
+    若您是首次使用，系統會自動帶入 管理中心 > 一般設定 > [公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" } 的資訊。
 
     **注意**：一旦「黑貓快速到店設定」頁面已有獨立地址資訊，修改「公司物流地址」將 **不會** 同步更新至黑貓設定。請務必在「黑貓託運單」頁面直接進行修改。
 
@@ -290,7 +290,7 @@ hide: []
 
     * **瀏覽器阻擋彈跳視窗**：請檢查瀏覽器是否阻擋了彈跳視窗或廣告，允許本站彈跳視窗後重新點擊下載。
     * **Cyber 幣不足(一般版商家)**：請至 [儲值中心][cyber-coin-balance]{ data-preview } 儲值。
-    * **公司物流地址未設定**：至 管理中心 > 一般設定 > [公司物流地址][gp-logistics-address]{ data-preview } 完成設定。
+    * **公司物流地址未設定**：至 管理中心 > 一般設定 > [公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" } 完成設定。
     * **未勾選同意條款**：確認彈出視窗下方「我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 黑貓合約規範」已勾選。
 
 

@@ -133,7 +133,7 @@ hide:
 
 - **系統預設收件者（主信箱）**：系統預設會發送通知至網站管理者的主信箱。
     
-- **修改路徑**：若需 [更換主信箱](../website-management/setup-store-basic-info.md#關於您的網站){ title="設定網站基本資訊" }，請至 **管理中心 > 一般設定** 進行變更。
+- **修改路徑**：若需 [更換主信箱](../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="設定網站基本資訊" }，請至 **管理中心 > 一般設定** 進行變更。
     
 #### 通知收件者類型
 
