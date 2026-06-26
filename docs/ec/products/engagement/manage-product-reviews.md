@@ -126,6 +126,12 @@ gitGraph
 	- **預設隱藏部分姓名**：設定顧客留言時，是否部分隱藏其姓名。
 	- **Google reCAPTCHA**：安全驗證機制，防止垃圾訊息與機器人留言。瞭解 [如何設定留言區 reCAPTCHA](../../website-appearance/customer-interaction/啟用留言區 reCAPTCHA){ title="啟用留言區 reCAPTCHA" }。
 	- **審核後贈送紅利點數**：設定商家審核通過顧客評論後，是否自動贈送紅利點數。
+  - **審核後贈送優惠券**：設定商家審核通過顧客評論後，是否自動贈送優惠券。
+      - **支援類型**：僅限贈送 **折價券**，不支援贈送免運券或贈品券。
+
+      !!! info "適用版本"
+          **審核後贈送優惠券** 僅限 **企業版**專用。
+
 3. 點擊 **更新**，套用變更。
 
 ![](../../../assets/images/ec-product-review-management.zh-tw.png)
