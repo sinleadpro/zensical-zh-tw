@@ -1,9 +1,8 @@
 ---
-
 title: Cyber 幣儲值中心使用指南
 description: Cyber 幣儲值中心使用指南，包含儲值步驟、發票資訊填寫、付款方式與使用明細查詢。
 created: 2026-04-28 10:38
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-26 16:12
 lang: zh-TW
 type: guide
 status: ""
@@ -48,7 +47,7 @@ related:
   - "[[manage-sms-templates]]"
   - "[[send-edm-newsletters]]"
 tags:
-  - Cyber 幣
+  - Cyber幣
   - 儲值中心
   - 儲值教學
   - 發票設定
@@ -72,12 +71,11 @@ icon: lucide/wallet
 hide:
 ---
 
-
 ![儲值中心](../../assets/images/ec-管理中心-儲值中心.png){ .hero-page }
 
-## 什麼是 Cyber 幣
+## 什麼是 Cyber幣
 
-Cyber 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項加值服務，包含：
+Cyber幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項加值服務，包含：
 
 - 發送簡訊通知（SMS）
 - 發送電子報（EDM）
@@ -94,32 +92,25 @@ Cyber 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項加值�
 <div class="grid cards" markdown>
 
 - :lucide-wallet:
-  [__Cyber 幣購買中心__](#查詢-cyber-幣餘額)  
-  顯示目前餘額，提供儲值入口
+  [__Cyber 幣購買中心__](#cyber-coin-balance)  
 
 - :lucide-message-square:
-  [__簡訊追蹤服務__](#簡訊sms)   
-  說明簡訊計費方式
+  [__簡訊追蹤服務__](#sms)   
 
 - :lucide-mail:
-  [__EDM 發送服務__](#電子報edm)   
-  說明電子報計費方式
+  [__EDM 發送服務__](#edm)   
 
 - :lucide-credit-card:
-  [__立即購買 Cyber 幣__][operate-cyber-coin-deposit]  
-  輸入儲值金額、選擇付款方式
+  [__立即購買 Cyber 幣__](#operate-cyber-coin-deposit)  
 
 - :lucide-receipt:
-  [__儲值紀錄__](#查詢儲值紀錄)   
-  查詢歷次儲值交易明細
+  [__儲值紀錄__](#cyber-coin-deposit-history)   
 
 - :lucide-file-text:
-  [__明細紀錄__](#查詢-cyber-幣使用明細)   
-  查詢 Cyber 幣消費使用明細
+  [__明細紀錄__](#cyber-coin-transaction-history)   
 
 - :lucide-download:
-  [__明細匯出__](#匯出-cyber-幣使用明細)   
-  依日期範圍匯出 Excel 報表
+  [__明細匯出__](#cyber-coin-transactions-export)   
 
 </div>
 
@@ -134,7 +125,7 @@ Cyber 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項加值�
 
 ## 服務計費說明
 
-### 簡訊（SMS）
+### 簡訊 <small>SMS</small> { #sms }
 
 | 類型 | 費用 |
 |------|------|
@@ -148,7 +139,7 @@ Cyber 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項加值�
 
 ---
 
-### 電子報（EDM）
+### 電子報 <small>EDM</small> { #edm }
 
 | 數量 | 費用 |
 |------|------|
@@ -306,11 +297,11 @@ Cyber 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項加值�
 <div class="grid cards" markdown>
 
 - :lucide-message-square-text:{ .lg }   
-  [__設](../notifications/manage-sms-templates.md){ title="設定與管理簡訊通知樣板" }訊通知樣板.md)       
+  [__簡訊樣板設定__](../notifications/manage-sms-templates.md){ title="簡訊樣板設定" }   
   設定自動發送的簡訊內容與樣板，並了解簡訊計費方式。
 
 - :lucide-mail:{ .lg }   
-  [__EDM](../notifications/send-edm-newsletters.md){ title="設定與發送 EDM 電子報" }d)報.md)       
+  [__EDM 電子報設定__](../notifications/send-edm-newsletters.md){ title="EDM 電子報設定" }   
   設定電子報發送內容，並查看 EDM 計費方式。
 
 </div>

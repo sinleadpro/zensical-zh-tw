@@ -2,7 +2,7 @@
 title: "SEO 設定與優化指南"
 description: "完整說明 SEO 設定功能，包含圖片 ALT 屬性、商品頁與分類頁 SEO、全站 Meta Tag 設定以及 Sitemap 提交與 301 轉址教學。"
 created: "2026-03-18 16:19"
-last_modified: 2026-06-14 11:58
+last_modified: 2026-06-26 14:53
 lang: "zh-TW"
 type: "guide"
 status: ""
@@ -82,7 +82,7 @@ CYBERBIZ 系統提供的 SEO 優化範圍涵蓋了 **首頁、商品頁、商品
     *   SEO 設定後需要一定的 **等待期**（依 Google 排程而定），建議儘早完成設定。
     *   針對多國語系店家，系統支援針對不同語系設定各自獨立的 SEO 內容。
 
-## 圖片 SEO 設定 (ALT 屬性)
+## 圖片 SEO 設定 <small>ALT 屬性</small>
 
 為圖片加入 ALT 文字能提升訪問體驗，當圖片無法顯示時會以文字取代，並協助搜尋引擎準確定義圖片內容。
 
@@ -114,25 +114,25 @@ CYBERBIZ 系統提供的 SEO 優化範圍涵蓋了 **首頁、商品頁、商品
 
 - **網站名**：前往「管理中心」>「一般設定」[設定網站名稱](../../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="設定網站基本資訊" }（中文字 15 字/英文字 30 字以內）。
 - **Meta Tag 設定**：包含 **標題**、**簡述** 跟 **關鍵字**。
-    *   **一般版型**：前往「網站外觀」>「套版主題管理」>「網站設定」>「公司品牌」。瞭解[一般版型如何設定網站標題](../../website-appearance/setup-site-title-seo.md#預設版型一般版型){ title="一般版型設定網站標題" }。
+    *   **一般版型**：前往「網站外觀」>「套版主題管理」>「網站設定」>「公司品牌」。瞭解[一般版型如何設定網站標題](../../website-appearance/site-settings/setup-site-title-seo.md#預設版型-一般版型){ title="一般版型設定網站標題" }。
 
         ![](../../../assets/images/ec-網站外觀-套版主題-網站設定-網站簡述與關鍵字-一般版型.png)
 
-    *   ](../website-appearance/setup-site-title-seo.md#拖拉版型).md#拖拉版型){ data-preview }：前往「網站外觀」>「套版主題管理」>「網站設定」>「全站設定」。
+    *   **拖拉版型**：前往「網站外觀」>「套版主題管理」>「網站設定」>「全站設定」。瞭解[拖拉版型如何設定網站標題](../../website-appearance/site-settings/setup-site-title-seo.md#拖拉版型){ title="拖拉版型設定網站標題" }。
 
 !!! note "延伸閱讀"
-    關於網站標題與 SEO 的詳細設](../../website-appearance/setup-site-title-seo.md)ce/設定網站標題與 SEO.md){ data-preview ](../../website-appearance/setup-site-title-seo.md#搜尋引擎結果頁-SERP)定網站標題與 SEO.md#搜尋引擎結果頁-SERP){ data-preview }。
+    關於網站標題與 SEO 的詳細設定，請參考[設定網站標題與 SEO](../../website-appearance/site-settings/setup-site-title-seo.md){ title="設定網站標題與 SEO" }或直接前往[搜尋引擎結果頁(SERP)設定](../../website-appearance/site-settings/setup-site-title-seo.md#搜尋引擎結果頁-serp){ title="搜尋引擎結果頁(SERP)" }。
 
 ## 部落格與其他自訂頁面 SEO
 
 <div class="grid cards" markdown>
 
 - :lucide-newspaper:{ .lg }  
-  [__部落格__](../../website-appearance/blog-management-publishing-guide.md#Meta-Tags){ data-preview }  
+  [__部落格__](../../website-appearance/pages-and-content/blog-management-publishing-guide.md#meta-tags){ title="部落格管理與文章發佈指南" }  
   可為部落格主題及單篇章設定 Meta Tag。
 
 - :lucide-files:{ .lg }     
-  [__其他頁面__](../../website-appearance/設定與管理自訂頁面.md#設定路徑與新增頁面){ data-preview }  
+  [__其他頁面__](../../website-appearance/pages-and-content/custom-pages.md#operate-custom-pages-create){ title="設定與管理自訂頁面" }  
   如「關於我們」或自訂活動頁，可於「自訂頁面管理」中編輯網頁描述與標題。
 
 </div>

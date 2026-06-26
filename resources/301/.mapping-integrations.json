@@ -1,0 +1,774 @@
+{
+  "generated_at": "2026-06-26 09:31",
+  "doc_dir": "docs/ec/integrations",
+  "confirmed": [
+    {
+      "doc_file": "docs/ec/integrations/connect-marketamerica-channel.md",
+      "doc_title": "串接美安通路",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/connect-marketamerica-channel",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=850",
+        "https://www.cyberbiz.io/support/?p=647"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=850",
+        "https://www.cyberbiz.io/support/?p=647"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/fb/mbe/exclude-products-fb-instagram-sync.md",
+      "doc_title": "排除商品不同步至 Facebook 與 Instagram 商店",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/fb/mbe/exclude-products-fb-instagram-sync",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=28419"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/fb/mbe/setup-fb-instagram-shop.md",
+      "doc_title": "設定 Facebook 跟 Instagram 商店",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/fb/mbe/setup-fb-instagram-shop",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3113",
+        "https://www.cyberbiz.io/support/?p=11757",
+        "https://www.cyberbiz.io/support/?p=24676"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3113",
+        "https://www.cyberbiz.io/support/?p=11757"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/fb/mbe/setup-fbe-authorization.md",
+      "doc_title": "設定 FBE 帳號授權與資產連結",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/fb/mbe/setup-fbe-authorization",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=2870",
+        "https://www.cyberbiz.io/helpcenter/?p=3221",
+        "https://www.cyberbiz.io/support/?p=11341",
+        "https://www.cyberbiz.io/support/?p=13747"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=2870",
+        "https://www.cyberbiz.io/support/?p=11341",
+        "https://www.cyberbiz.io/helpcenter/?p=3221",
+        "https://www.cyberbiz.io/support/?p=13747"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/fb/mbe/setup-fbe-domain-verification.md",
+      "doc_title": "設定 FBE 網域驗證",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/fb/mbe/setup-fbe-domain-verification",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3228",
+        "https://www.cyberbiz.io/support/?p=13973"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3228",
+        "https://www.cyberbiz.io/support/?p=13973"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/fb/meta-ads/asc-ad-strategy-best-practices.md",
+      "doc_title": "ASC 廣告投放策略與最佳實務",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/asc-ad-strategy-best-practices",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=10820",
+        "https://www.cyberbiz.io/support/?p=46743"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=10820",
+        "https://www.cyberbiz.io/support/?p=4674"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/fb/meta-ads/create-meta-ad-account-top-up.md",
+      "doc_title": "建立 Meta 廣告帳號並完成儲值",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/create-meta-ad-account-top-up",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5621",
+        "https://www.cyberbiz.io/support/?p=17882"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5621",
+        "https://www.cyberbiz.io/support/?p=17882"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/fb/meta-ads/meta-ad-daily-budget-guide.md",
+      "doc_title": "Meta 廣告每日預算設定指南",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/meta-ad-daily-budget-guide",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=8048",
+        "https://www.cyberbiz.io/support/?p=2166"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=8048",
+        "https://www.cyberbiz.io/support/?p=2166"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/fb/meta-ads/meta-ad-idle-account-reclaim.md",
+      "doc_title": "Meta 廣告帳號閒置釋出機制與保留說明",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/meta-ad-idle-account-reclaim",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12881",
+        "https://www.cyberbiz.io/support/?p=52679"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12881",
+        "https://www.cyberbiz.io/support/?p=52679"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/fb/meta-ads/meta-ad-performance-analysis.md",
+      "doc_title": "使用 Meta 廣告成效分析",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/meta-ad-performance-analysis",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=1737",
+        "https://www.cyberbiz.io/support/?p=48371"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=1737",
+        "https://www.cyberbiz.io/support/?p=48371"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/fb/meta-ads/setup-meta-ad-campaign.md",
+      "doc_title": "設定 Meta 廣告活動",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/setup-meta-ad-campaign",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=10374",
+        "https://www.cyberbiz.io/support/?p=1755"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=10374",
+        "https://www.cyberbiz.io/support/?p=1755"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/fb/meta-ads/setup-meta-ad-catalog-sets.md",
+      "doc_title": "設定 Meta 廣告的目錄商品組合",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/setup-meta-ad-catalog-sets",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=10789",
+        "https://www.cyberbiz.io/support/?p=46480"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=10789",
+        "https://www.cyberbiz.io/support/?p=46480"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/fb/meta-ads/share-asset-permissions-cyberbiz.md",
+      "doc_title": "手動分享資產權限給 CYBERBIZ",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/share-asset-permissions-cyberbiz",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=10681",
+        "https://www.cyberbiz.io/support/?p=44556"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=10681",
+        "https://www.cyberbiz.io/support/?p=44556"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/fb/meta-ads/sync-product-videos-meta-catalog.md",
+      "doc_title": "同步商品影片至 Meta 目錄",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/sync-product-videos-meta-catalog",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7886",
+        "https://www.cyberbiz.io/support/?p=2175"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7886",
+        "https://www.cyberbiz.io/support/?p=2175"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/fb/setup-facebook-quick-login.md",
+      "doc_title": "設定 Facebook 快速登入",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/fb/setup-facebook-quick-login",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=4420",
+        "https://www.cyberbiz.io/helpcenter/?p=776",
+        "https://www.cyberbiz.io/support/?p=26854",
+        "https://www.cyberbiz.io/support/?p=507"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=776",
+        "https://www.cyberbiz.io/helpcenter/?p=4420",
+        "https://www.cyberbiz.io/support/?p=507",
+        "https://www.cyberbiz.io/support/?p=26854"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/google/ga/ga4-exclude-internal-traffic-and-referrals.md",
+      "doc_title": "設定 GA4 排除內部流量與第三方參照來源",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/google/ga/ga4-exclude-internal-traffic-and-referrals",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=6791",
+        "https://www.cyberbiz.io/support/?p=3962"
+      ],
+      "current_permalink": "ga4-exclude-internal-traffic-and-referrals",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=6791",
+        "https://www.cyberbiz.io/support/?p=3962"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/google/ga/google-analytics-advanced-tracking.md",
+      "doc_title": "設定 Google Analytics 進階追蹤與資料分析",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/google/ga/google-analytics-advanced-tracking",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7099",
+        "https://www.cyberbiz.io/support/?p=36980"
+      ],
+      "current_permalink": "ga4-advanced-tracking-and-analysis",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7099",
+        "https://www.cyberbiz.io/support/?p=36980"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/google/ga/setup-ga4-site-search-tracking.md",
+      "doc_title": "設定 GA4 站內搜尋追蹤",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/google/ga/setup-ga4-site-search-tracking",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12099",
+        "https://www.cyberbiz.io/support/?p=28483"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12099",
+        "https://www.cyberbiz.io/support/?p=28483"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/google/ga/setup-google-analytics.md",
+      "doc_title": "建立並串接 Google Analytics",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/google/ga/setup-google-analytics",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=678",
+        "https://www.cyberbiz.io/support/?p=165"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=678",
+        "https://www.cyberbiz.io/support/?p=165"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/google/google-safe-browsing-security-check.md",
+      "doc_title": "使用 Google 安全瀏覽工具檢查並排除網站安全性風險",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/google/google-safe-browsing-security-check",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3129",
+        "https://www.cyberbiz.io/support/?p=24812"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3129",
+        "https://www.cyberbiz.io/support/?p=24812"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/google/remove-urls-from-google-search.md",
+      "doc_title": "從 Google 搜尋結果移除特定網頁或子目錄",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/google/remove-urls-from-google-search",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12105",
+        "https://www.cyberbiz.io/support/?p=25441"
+      ],
+      "current_permalink": "ec/integrations/google/remove-search-results",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12105",
+        "https://www.cyberbiz.io/support/?p=25441"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/google/setup-google-ads-conversion-tracking.md",
+      "doc_title": "設定 Google Ads 轉換追蹤",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/google/setup-google-ads-conversion-tracking",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=756",
+        "https://www.cyberbiz.io/support/?p=232"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=756",
+        "https://www.cyberbiz.io/support/?p=232"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/google/setup-google-ads-enhanced-conversions.md",
+      "doc_title": "設定 Google Ads 強化轉換",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/google/setup-google-ads-enhanced-conversions",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=39654"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=39654"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/google/setup-google-business-profile.md",
+      "doc_title": "建立與驗證 Google 商家檔案",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/google/setup-google-business-profile",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12109",
+        "https://www.cyberbiz.io/support/?p=24764"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12109",
+        "https://www.cyberbiz.io/support/?p=24764"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/google/setup-google-merchant-center.md",
+      "doc_title": "設定 Google Merchant Center 並同步 CYBERBIZ 商品",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/google/setup-google-merchant-center",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=718",
+        "https://www.cyberbiz.io/support/?p=230"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=718",
+        "https://www.cyberbiz.io/support/?p=230"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/google/setup-google-search-console.md",
+      "doc_title": "註冊並驗證 Google Search Console",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/google/setup-google-search-console",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3375",
+        "https://www.cyberbiz.io/support/?p=15362"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3375",
+        "https://www.cyberbiz.io/support/?p=15362"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/google/setup-google-tag-manager.md",
+      "doc_title": "建立 Google Tag Manager 並串接 CYBERBIZ",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/google/setup-google-tag-manager",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=689",
+        "https://www.cyberbiz.io/support/?p=228"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=689",
+        "https://www.cyberbiz.io/support/?p=228"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/google/utm-parameter-tracking-guide.md",
+      "doc_title": "使用 UTM 參數追蹤行銷流量與分析成效",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/google/utm-parameter-tracking-guide",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5156",
+        "https://www.cyberbiz.io/support/?p=6434"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5156",
+        "https://www.cyberbiz.io/support/?p=6434"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/google/verify-tracking-tag-installation.md",
+      "doc_title": "使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/google/verify-tracking-tag-installation",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=741",
+        "https://www.cyberbiz.io/support/?p=234"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=741",
+        "https://www.cyberbiz.io/support/?p=234"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/google/youtube-shopping-setup-guide.md",
+      "doc_title": "YouTube Shopping 設定指南",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/google/youtube-shopping-setup-guide",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=10552",
+        "https://www.cyberbiz.io/helpcenter/?p=10555",
+        "https://www.cyberbiz.io/helpcenter/?p=10556",
+        "https://www.cyberbiz.io/support/?p=1979",
+        "https://www.cyberbiz.io/support/?p=6118",
+        "https://www.cyberbiz.io/support/?p=6149"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=10552",
+        "https://www.cyberbiz.io/support/?p=6118",
+        "https://www.cyberbiz.io/helpcenter/?p=10555",
+        "https://www.cyberbiz.io/support/?p=1979",
+        "https://www.cyberbiz.io/helpcenter/?p=10556",
+        "https://www.cyberbiz.io/support/?p=6149"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/line/account-integration/bind-line-oa-store-members.md",
+      "doc_title": "綁定 LINE 官方帳號與官網會員",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/account-integration/bind-line-oa-store-members",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5861",
+        "https://www.cyberbiz.io/support/?p=32679"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5861",
+        "https://www.cyberbiz.io/support/?p=32679"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/line/account-integration/connect-line-messaging-api.md",
+      "doc_title": "串接 LINE Messaging API",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/account-integration/connect-line-messaging-api",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5855",
+        "https://www.cyberbiz.io/support/?p=706"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=706",
+        "https://www.cyberbiz.io/helpcenter/?p=5855"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/line/account-integration/filter-use-line-oa-bound-members.md",
+      "doc_title": "篩選與應用 LINE OA 綁定會員名單",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/account-integration/filter-use-line-oa-bound-members",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=721"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=721"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/line/account-integration/setup-liff-auto-login-member-binding.md",
+      "doc_title": "設定 LIFF 自動登入與會員綁定",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-liff-auto-login-member-binding",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7388",
+        "https://www.cyberbiz.io/support/?p=41333"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7388",
+        "https://www.cyberbiz.io/support/?p=41333"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/line/account-integration/setup-line-binding-coupon-gift.md",
+      "doc_title": "設定 LINE 綁定會員贈送優惠券",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-line-binding-coupon-gift",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7783",
+        "https://www.cyberbiz.io/support/?p=763"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7783",
+        "https://www.cyberbiz.io/support/?p=763"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/line/account-integration/setup-line-quick-login-phone-number.md",
+      "doc_title": "設定 LINE 快速登入時取得會員手機號碼",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-line-quick-login-phone-number",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=6674",
+        "https://www.cyberbiz.io/support/?p=35740"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=6674",
+        "https://www.cyberbiz.io/support/?p=35740"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/line/account-integration/setup-line-quick-login.md",
+      "doc_title": "設定 LINE 快速登入",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-line-quick-login",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=865",
+        "https://www.cyberbiz.io/support/?p=675"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=865",
+        "https://www.cyberbiz.io/support/?p=675"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/line/apply-setup-line-live-stream.md",
+      "doc_title": "申請與設定 LINE 直播功能",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/apply-setup-line-live-stream",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7458",
+        "https://www.cyberbiz.io/support/?p=32529"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7458",
+        "https://www.cyberbiz.io/support/?p=32529"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/line/apply-setup-line-shopping-guide.md",
+      "doc_title": "申請與設定 LINE 購物導購",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/apply-setup-line-shopping-guide",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7462",
+        "https://www.cyberbiz.io/support/?p=36752"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7462",
+        "https://www.cyberbiz.io/support/?p=36752"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/line/group-buy/line-group-buy-shopping.md",
+      "doc_title": "使用 LINE 團購進行購物",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/group-buy/line-group-buy-shopping",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=29461"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=29461"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/line/group-buy/setup-line-group-bot.md",
+      "doc_title": "設定 LINE 團購機器人",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/group-buy/setup-line-group-bot",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=29174"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=29174&page=2"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/line/group-buy/setup-line-group-buy-group.md",
+      "doc_title": "設定 LINE 團購群組",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/group-buy/setup-line-group-buy-group",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=29174"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=29174&page=4"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/line/group-buy/setup-line-group-buy-products.md",
+      "doc_title": "設定 LINE 團購商品",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/group-buy/setup-line-group-buy-products",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=29174"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=29174&page=3"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/line/marketing/add-line-friend-entry-storefront.md",
+      "doc_title": "在官網新增 LINE 加入好友入口",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/marketing/add-line-friend-entry-storefront",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7435",
+        "https://www.cyberbiz.io/support/?p=38439"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7435",
+        "https://www.cyberbiz.io/support/?p=38439"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/line/marketing/line-friend-link-order-payment-pages.md",
+      "doc_title": "設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/marketing/line-friend-link-order-payment-pages",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=10871",
+        "https://www.cyberbiz.io/support/?p=30333"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=10871",
+        "https://www.cyberbiz.io/support/?p=30333"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/line/marketing/line-oa-segment-messaging.md",
+      "doc_title": "設定與發送 LINE OA 分眾訊息推播",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/marketing/line-oa-segment-messaging",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7324",
+        "https://www.cyberbiz.io/support/?p=25964"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7324",
+        "https://www.cyberbiz.io/support/?p=25964"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/line/marketing/setup-line-oa-audience.md",
+      "doc_title": "設定 LINE OA 受眾串接",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/marketing/setup-line-oa-audience",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5631",
+        "https://www.cyberbiz.io/support/?p=28387"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5631",
+        "https://www.cyberbiz.io/support/?p=28387"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/line/marketing/setup-line-rich-menu.md",
+      "doc_title": "設定 LINE 圖文選單",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/marketing/setup-line-rich-menu",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5858",
+        "https://www.cyberbiz.io/support/?p=855"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5858",
+        "https://www.cyberbiz.io/support/?p=855"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/line/marketing/setup-manage-line-tag.md",
+      "doc_title": "設定與管理 LINE Tag",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/marketing/setup-manage-line-tag",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=4769",
+        "https://www.cyberbiz.io/support/?p=28602"
+      ],
+      "current_permalink": "ec/integrations/line/setting-and-managing-line-tag",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=4769",
+        "https://www.cyberbiz.io/support/?p=28602"
+      ],
+      "apply": true
+    }
+  ],
+  "unmatched_csv_titles": [
+    "發送 LINE 加入好友邀請",
+    "設定與使用 LINE 顯示會員條碼（串接 POS 結帳）",
+    "設定秘密商品群組",
+    "LINE 整合總覽",
+    "設定 Google 快速登入（Google OAuth 串接）",
+    "設定自動化廣告系統",
+    "設定與管理 LINE OA 通知樣板",
+    "設定與發送簡訊通知",
+    "設定與管理簡訊通知樣板",
+    "管理與管理 Email 通知樣板",
+    "設定與發送 EDM 電子報",
+    "安裝 Meta Ads App"
+  ],
+  "unmatched_docs": [
+    {
+      "title": "自動化廣告系統(Google 購物廣告)",
+      "file": "docs/ec/integrations/google/automated-ads-system.md"
+    },
+    {
+      "title": "設定 GMC 重要事件來源追蹤與自動標記",
+      "file": "docs/ec/integrations/google/setup-gmc-conversion-tracking.md"
+    },
+    {
+      "title": "設定 Google 快速登入",
+      "file": "docs/ec/integrations/google/setup-google-quick-login.md"
+    },
+    {
+      "title": "自動化廣告投放與開通狀態對照表",
+      "file": "docs/ec/integrations/references/automated-ads-statuses.md"
+    }
+  ]
+}

@@ -2,9 +2,9 @@
 title: 設定與管理 Email 通知樣板
 description: 管理與編輯系統自動發送的 Email 通知樣板，包括內容自訂、啟用控制、收件者設定與多國語系配置。
 created:
-last_modified: 2026-06-24 09:51
+last_modified: 2026-06-26 06:12
 lang: zh-TW
-permalink:
+permalink: https://help.cyberbiz.io/ec/notifications/manage-email-templates
 type: tutorial
 status:
 version:
@@ -66,8 +66,10 @@ ui_components: []
 paths: []
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=11195
   - https://www.cyberbiz.io/helpcenter/?p=2061
   - https://www.cyberbiz.io/support/?p=7709
+  - https://www.cyberbiz.io/support/?p=7742
 comments: false
 search:
   exclude: false
@@ -177,7 +179,7 @@ hide:
 - **帳務與對帳通知**：有關金流扣款、對帳單生成等財務資訊。
 
 
-## 多國語系設定（選配功能）
+## 多國語系設定 <small>選配功能</small>
 
 若您的網站有開啟多國語系，Email 樣板需針對不同語言個別設定：
 

@@ -2,7 +2,7 @@
 title: 設定與管理簡訊通知樣板
 description: 設定與管理簡訊通知樣板，包含樣板編輯規則、計費機制、阻擋風險與實際應用情境。
 created:
-last_modified: 2026-06-26 04:26
+last_modified: 2026-06-26 06:12
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/notifications/manage-sms-templates
 type: tutorial
