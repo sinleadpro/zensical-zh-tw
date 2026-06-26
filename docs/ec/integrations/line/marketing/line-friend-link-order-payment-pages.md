@@ -2,7 +2,7 @@
 title: 設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結
 description: 透過編輯 Liquid 樣板檔案，在結帳完成後的關鍵轉換點嵌入 LINE 導流元件，以提升會員回流率。
 created: 2026-02-24
-last_modified: 2026-06-25 20:28
+last_modified: 2026-06-26T12:13:07+08:00
 lang: zh-TW
 permalink: ""
 type: tutorial
@@ -98,6 +98,7 @@ hide:
 
 - **區分頁面代碼範例：**
 	
+	{% raw %}
 	``` liquid
 	{% if page_title == '訂單成立' %}
 	   <!-- 這裡放置要在「訂單成立頁」顯示的內容（如好友連結、圖片） -->
@@ -105,6 +106,7 @@ hide:
 	   <!-- 這裡放置要在「付款完成頁」顯示的內容 -->
 	{% endif %}
 	```
+	{% endraw %}
 	
 	_(註：若不需區分頁面，則直接放置內容即可)_
 

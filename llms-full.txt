@@ -2819,6 +2819,12 @@ C2C
 異常操作審核流程
 回到頂端
 
+# 訂單編號格式變數對照表 - CYBERBIZ DOCS
+
+URL: https://help.cyberbiz.io/ec/orders/references/order-format-variables-reference/
+
+Description: 彙整訂單編號格式可用的變數，包含訂單流水號、隨機數、日期時間等變數的說明與使用限制。
+
 ---
 
 # 使用宅配通出貨 - CYBERBIZ DOCS

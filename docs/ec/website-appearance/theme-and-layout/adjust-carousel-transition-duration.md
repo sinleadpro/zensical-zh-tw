@@ -1,16 +1,16 @@
 ---
-title: "調整首頁跑馬燈（輪播圖）的轉場停留時間"
-description: "修改樣板檔案中的 delay 參數，調整首頁跑馬燈（輪播圖）的轉場停留時間。"
-created: "2025-03-03 14:20"
-last_modified: 2026-06-24 15:42
-lang: "zh-TW"
-type: "tutorial"
+title: 調整首頁跑馬燈（輪播圖）的轉場停留時間
+description: 修改樣板檔案中的 delay 參數，調整首頁跑馬燈（輪播圖）的轉場停留時間。
+created: 2025-03-03 14:20
+last_modified: 2026-06-26T12:07:45+08:00
+lang: zh-TW
+type: tutorial
 status: ""
 version: ""
 author: Jase
 reviewers: []
 notes: []
-ga_views: 
+ga_views:
 feedback:
 products:
   - EC
@@ -63,7 +63,7 @@ comments: ""
 search:
   exclude: ""
 icon: lucide/gallery-horizontal
-hide: 
+hide:
 ---
 
 ![首頁跑馬燈樣板編輯](../../../assets/images/ec-網站外觀-樣板編輯器-main-slider-liquid.png){ title="首頁跑馬燈樣板編輯" .hero-page }

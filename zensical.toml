@@ -620,6 +620,7 @@ copyright = """
                 {"權限與選單對應表" = "ec/website-management/references/admin-permissions-menu-reference.md"},
                 {"顧客驗證模式" = "ec/website-management/references/customer-field-validation-reference.md"},
                 {"顧客註冊模式" = "ec/website-management/references/customer-registration-modes-reference.md"},
+                {"訂單編號格式變數" = "ec/website-management/references/general-preferences-order-format-variables.md"},
                 { "無法讀取 HTTPS 根網址" = "ec/website-management/unable-to-read-https-root-url.md" },
                 { "Cloudflare SSL 衝突" = "ec/website-management/cloudflare-ssl-conflict.md" }
             ]},
