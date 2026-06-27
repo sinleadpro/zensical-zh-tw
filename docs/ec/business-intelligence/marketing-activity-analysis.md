@@ -397,7 +397,7 @@ hide: []
   針對成效好的優惠券種類，建立新的優惠券發放給顧客。
 
 - :lucide-gift:{ .lg }  
-  [__紅利點數設定__](../marketing/setup-bonus-points.md){ title="設定紅利點數" }  
+  [__紅利點數設定__](../marketing/bonus-and-gifts/setup-bonus-points.md){ title="設定紅利點數" }  
   依紅利使用情形，調整紅利回饋與兌換規則。
 
 </div>

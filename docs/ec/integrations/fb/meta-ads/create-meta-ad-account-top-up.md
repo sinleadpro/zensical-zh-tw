@@ -1,8 +1,8 @@
 ---
-title: 建立 Meta 廣告帳號並完成儲值
+title: 建立 Meta 廣告帳號並儲值
 description: 透過 CYBERBIZ 建立 Meta 廣告帳號並完成儲值。
 created: 2026-04-17 17:10
-last_modified: 2026-06-26 10:05
+last_modified: 2026-06-27 19:51
 lang: zh-TW
 type: tutorial
 status: ""

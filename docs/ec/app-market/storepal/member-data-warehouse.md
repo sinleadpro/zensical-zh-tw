@@ -165,17 +165,17 @@ hide: []
 
 	- 任務型優惠券
 
-		- [註冊禮](../../marketing/setup-registration-gift.md)
-		- [首購禮](../../marketing/limited-time-first-purchase-gift.md)
-		- [生日禮](../../marketing/setup-birthday-gift.md)
+		- [註冊禮](../../marketing/bonus-and-gifts/setup-registration-gift.md)
+		- [首購禮](../../marketing/bonus-and-gifts/limited-time-first-purchase-gift.md)
+		- [生日禮](../../marketing/bonus-and-gifts/setup-birthday-gift.md)
 		- [分享註冊推薦人](../../profit-sharing/referrer-profit-sharing.md)
 		- [VIP 會員日、VIP 升等禮、VIP 生日禮](../../members/vip/setup-exclusive-vip-discounts.md)
 
 	- 消費獲得的優惠券
 
-		- [指定商品送優惠券](../../marketing/send-coupons-for-specific-products.md)
+		- [指定商品送優惠券](../../marketing/conditional-send/send-coupons-for-specific-products.md)
 		- [全館折扣]() 滿額送優惠券
-		- [互動遊戲](../../marketing/interactive-games.md) 送優惠券
+		- [互動遊戲](../../marketing/other-tools/interactive-games.md) 送優惠券
 
 	##### 資產異動紀錄
 	
