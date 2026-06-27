@@ -2,7 +2,7 @@
 title: 設定信用卡 3D 驗證門檻
 description: 設定交易金額門檻以決定何時觸發 3D 驗證
 created: 2026-01-26 00:00
-last_modified: 2026-06-14 11:28
+last_modified: 2026-06-28 01:51
 lang: zh-TW
 type: tutorial
 status:
@@ -67,7 +67,7 @@ icon: lucide/shield-check
 hide: []
 ---
 
-![](../../assets/images/ec-payments-3d-secure.zh-tw.png){ .hero-page }
+![3D 驗證門檻](../../assets/images/ec-payments-3d-secure.zh-tw.png){ title="3D 驗證門檻" .hero-page }
 
 ## 3D 驗證門檻說明
 
@@ -78,6 +78,7 @@ hide: []
 - 當訂單金額 **大於或等於** 設定門檻時，系統會要求顧客完成 **3D 驗證**。
 - 當訂單金額 **低於** 設定門檻時，系統將直接進行 **幕後授權**，不顯示驗證畫面。
 
+---
 
 ### 什麼是 3D 驗證
 
@@ -89,29 +90,34 @@ hide: []
 - 發卡銀行驗證頁面
 - 生物識別（依銀行支援狀況）
 
+---
+
 ### 什麼是「幕後授權」
 
 **幕後授權** 是指系統在背景自動完成信用卡授權流程，顧客不需要進行 3D 驗證或輸入簡訊驗證碼。
 
-> 注意：幕後授權仍完成信用卡授權，但 **未使用 3D 驗證防盜刷機制**，**盜刷風險與責任由商家承擔**。商家應依實際風險評估是否調整門檻或啟用 3D 驗證。
+!!! warning "注意"
+    幕後授權仍完成信用卡授權，但 **未使用 3D 驗證防盜刷機制**，**盜刷風險與責任由商家承擔**。商家應依實際風險評估是否調整門檻或啟用 3D 驗證。
 
-### 3D 驗證流程
+---
 
-``` mermaid
-flowchart LR
-	A[顧客 <br> 結帳] --> B{訂單金額 <br> ≥ 門檻?}
-	B -->|是| C[3D <br> 驗證]
-	B -->|否| D[幕後授權 <br> 授權]
-	C --> E[SMS <br> 驗證]
-	E --> F{驗證 <br> 成功?}
-	F -->|是| G[付款 <br> 完成]
-	F -->|否| H[付款 <br> 失敗]
-	D --> G
-```
+!!! note-clean "3D 驗證流程"
+
+    ``` mermaid
+    flowchart LR
+      A[顧客 <br> 結帳] --> B{訂單金額 <br> ≥ 門檻?}
+      B -->|是| C[3D <br> 驗證]
+      B -->|否| D[幕後授權 <br> 授權]
+      C --> E[SMS <br> 驗證]
+      E --> F{驗證 <br> 成功?}
+      F -->|是| G[付款 <br> 完成]
+      F -->|否| H[付款 <br> 失敗]
+      D --> G
+    ```
 
 ## 前置條件
 
-- [x] 已成功 [開通 **CYBERBIZ PAYMENTS**](申請 CYBERBIZ PAYMENTS){ title="申請 CYBERBIZ PAYMENTS" }  
+- [x] 已成功 [開通 **CYBERBIZ PAYMENTS**](apply-cyberbiz-payments.md){ title="申請 CYBERBIZ PAYMENTS" }  
 - [x] 商店前台可正常瀏覽並完成結帳流程
 
 ## 使用須知
@@ -146,7 +152,7 @@ flowchart LR
 3. 在 **3D 驗證金額門檻** 欄位，輸入觸發的數值。
 4. 儲存設定。
 
-![](../../assets/images/ec-金物流-3D驗證門檻.png)
+![3D 驗證門檻設定](../../assets/images/ec-金物流-3D驗證門檻.png){ title="3D 驗證門檻設定" }
 
 
 ## 客戶結帳流程
@@ -168,7 +174,7 @@ flowchart LR
 3. 客戶完成簡訊或銀行驗證
 4. 驗證成功後完成付款
 
-![](../../assets/images/ec-金物流-3D驗證畫面.png)
+![3D 驗證付款畫面](../../assets/images/ec-金物流-3D驗證畫面.png){ title="3D 驗證付款畫面" }
 
 ## 常見問題
 
