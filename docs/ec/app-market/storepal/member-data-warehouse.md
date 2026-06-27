@@ -2,7 +2,7 @@
 title: 會員數據智庫
 description: 深入分析會員的消費歷史、VIP 等級與現有資產，運用數據洞察輔助銷售決策與湊單引導。
 created: 2026-05-05 11:15
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-27 13:40
 lang: zh-TW
 type: tutorial
 status: ""
@@ -73,7 +73,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=41833
   - https://www.cyberbiz.io/support/?p=41853
   - https://www.cyberbiz.io/support/?p=41889
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/app-market/storepal/member-data-warehouse
 comments: false
 search:
   exclude: false

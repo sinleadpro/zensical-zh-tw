@@ -2,7 +2,7 @@
 title: 會員身份識別
 description: 透過門市助理快速識別會員身份，掌握標籤特徵，提供個人化的現場服務與招呼。
 created: 2026-05-05 11:15
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-27 13:40
 lang: zh-TW
 type: tutorial
 status: ""
@@ -65,7 +65,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=41786
   - https://www.cyberbiz.io/support/?p=41951
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/app-market/storepal/member-identification
 comments: false
 search:
   exclude: false
