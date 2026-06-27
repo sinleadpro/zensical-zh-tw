@@ -64,7 +64,7 @@ icon: lucide/verified
 hide: []
 ---
 
-![](../../assets/images/ec-payments-cyb-payments.zh-tw.png){ .hero-page }
+![CYBERBIZ PAYMENTS 申請](../../assets/images/ec-payments-cyb-payments.zh-tw.png){ title="CYBERBIZ PAYMENTS 申請" .hero-page }
 
 ## CYBERBIZ PAYMENTS 說明 { #intro-cyb-payments }
 
@@ -180,7 +180,14 @@ flowchart LR
 1. 登入 CYBEBIZ 管理後台，前往  **網站外觀 > 套版主題管理 > 網站設定 > 導覽列**
 2. 上傳並設定網站 Logo，建議使用品牌 Logo，保持辨識度。
 
-![](../../assets/images/ec-網站外觀-logo.png)
+![設定網站 Logo](../../assets/images/ec-網站外觀-logo.png){ title="設定網站 Logo" }
+
+<div class="grid cards" markdown>
+
+- :lucide-menu:{ .lg }
+  [__設定選單與導覽列__](../website-appearance/navigation/setup-menus-navigation.md#導覽列外觀設定){ title="導覽列外觀設定" }
+
+</div>
 
 ---
 
@@ -190,7 +197,14 @@ flowchart LR
 2. 輸入網站名稱，建議使用 **品牌名稱或公司名稱**，避免僅使用網址或英文，確保使用者易於辨識。
 3. 點擊 **儲存** 以套用變更。
 
-![](../../assets/images/ec-管理中心-網站名稱.png)
+![設定網站名稱](../../assets/images/ec-管理中心-網站名稱.png){ title="設定網站名稱" }
+
+<div class="grid cards" markdown>
+
+- :lucide-globe:{ .lg }
+  [__設定網站基本資訊__](../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="設定網站名稱與公司聯絡資訊" }
+
+</div>
 
 ---
 
@@ -204,7 +218,14 @@ flowchart LR
 - **明確售價**：方便使用者了解價格。
 - **商品介紹或服務說明**：提供詳細描述，展現特色與價值。
 
-!!! note "詳細設定步驟，請參閱 [上架單一商品](create-update-products.md)"
+!!! note "詳細設定步驟，請參閱 [新增與更新商品](../products/create-and-manage/create-update-products.md)"
+
+<div class="grid cards" markdown>
+
+- :lucide-package:{ .lg }
+  [__新增與更新商品__](../products/create-and-manage/create-update-products.md#operate-product-create-basic){ title="新增商品：基本設定" }
+
+</div>
 
 ---
 
@@ -214,7 +235,14 @@ flowchart LR
 2. 點擊 **關於我們** 進入編輯頁面，或點擊 **新增頁面** 以新增頁面。
 3. 點擊 **文字編輯** 可進行頁面文字編輯，或點擊 **新增區塊** 以新增不同區塊樣式。
 
-![](../../assets/images/ec-網站外觀-自訂頁面-關於我們.gif)
+![編輯關於我們頁面](../../assets/images/ec-網站外觀-自訂頁面-關於我們.gif){ title="編輯關於我們頁面" }
+
+<div class="grid cards" markdown>
+
+- :lucide-file-text:{ .lg }
+  [__設定與管理自訂頁面__](../website-appearance/pages-and-content/custom-pages.md#operate-custom-pages-edit){ title="編輯頁面內容" }
+
+</div>
 
 ---
 
@@ -223,7 +251,14 @@ flowchart LR
 1. 登入 CYBERBIZ 管理後台，前往 **網站外觀 > 套版主題管理 > 網站設定 > 頁腳**。
 2. 點擊 **聯絡資訊** 進行編輯，或點擊 **新增區塊**，選擇 **聯絡資訊** 進行新增。
 
-![](../../assets/images/ec-網站外觀-頁腳.gif)
+![設定頁腳聯絡資訊](../../assets/images/ec-網站外觀-頁腳.gif){ title="設定頁腳聯絡資訊" }
+
+<div class="grid cards" markdown>
+
+- :lucide-phone:{ .lg }
+  [__設定選單與導覽列__](../website-appearance/navigation/setup-menus-navigation.md#聯絡資訊與自訂文字){ title="聯絡資訊與自訂文字" }
+
+</div>
 
 ## 後續步驟
 
@@ -233,10 +268,10 @@ flowchart LR
   [__設定信用卡 3D 驗證門檻__](setup-credit-card-3d-verification.md){ title="設定信用卡 3D 驗證門檻" }  
   設定 3D 驗證門檻，為交易安全把關。
 - :simple-applepay:{ .lg }     
-  [__設定 Apple Pay__](設定 Apple Pay){ title="設定 Apple Pay" }  
+  [__設定 Apple Pay__](setup-apple-pay.md){ title="設定 Apple Pay" }  
   啟用 Apple Pay 支付選項。
 - :lucide-clock:{ .lg }     
-  [__設定 AFTEE__](設定 AFTEE){ title="設定 AFTEE" }  
+  [__設定 AFTEE__](setup-aftee.md){ title="設定 AFTEE" }  
   啟用 AFTEE 先享後付支付選項。
 
 </div>

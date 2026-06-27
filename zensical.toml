@@ -337,9 +337,10 @@ copyright = """
         { "金物流" = [
             {"overview" = "ec/payments-and-logistics/index.md"},
             {"結帳頁與物流設定" = [
-                {"購物車相關設定" = "ec/payments-and-logistics/cart-settings.md"},
-                {"物流相關設定" = "ec/payments-and-logistics/logistics-settings.md"},
-                {"訂單相關設定" = "ec/payments-and-logistics/order-settings.md"}
+                {"結帳頁與物流設定總覽" = "ec/payments-and-logistics/payments/index.md"},
+                {"購物車相關設定" = "ec/payments-and-logistics/payments/cart-settings.md"},
+                {"物流相關設定" = "ec/payments-and-logistics/payments/logistics-settings.md"},
+                {"訂單相關設定" = "ec/payments-and-logistics/payments/order-settings.md"}
             ]},
             {"申請 CYBERBIZ PAYMENTS" = "ec/payments-and-logistics/apply-cyberbiz-payments.md"},
             {"信用卡 3D 驗證" = "ec/payments-and-logistics/setup-credit-card-3d-verification.md"},
