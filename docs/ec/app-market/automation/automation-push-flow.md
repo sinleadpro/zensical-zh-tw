@@ -2,7 +2,7 @@
 title: 使用 AUTOMATION 建立自動化推播流程
 description: 在 CYBERBIZ AUTOMATION 中建立自動化流程，設定會員分群並發送簡訊、EDM 或 LINE OA 訊息。
 created: 2026-03-09 14:48
-last_modified: 2026-06-27 20:04
+last_modified: 2026-06-27 21:51
 lang: zh-TW
 type: tutorial
 status:
@@ -64,8 +64,9 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7955
+  - https://www.cyberbiz.io/support/?p=38638
   - https://www.cyberbiz.io/support/?p=38837
-permalink:
+permalink: https://help.cyberbiz.io/ec/app-market/automation/automation-push-flow
 search:
   exclude: false
 icon: lucide/zap
@@ -142,6 +143,7 @@ comments: false
 
         ![LINE OA 訊息內容](../../../assets/images/ec-app-market-automation-lineoa-lineoa內容.png){ title="LINE OA 訊息內容" }
 
+
 ## 流程啟用與追蹤
 
 !!! tip "提示"
@@ -154,7 +156,7 @@ comments: false
 2.  **狀態監控**：
     *   **草稿 (Draft)**：可隨時編輯或刪除。
     *   **已排程/執行中**：若要修改，需點選「暫停流程」。
-    *   **已完成/執行失敗**：發送後系統會將紀錄傳送至設定的「通知信箱」（上限 10 人）。
+    *   **已完成/執行失敗**：發送後系統會將紀錄傳送至設定的「[通知信箱](#通知信箱設定)」（上限 10 人）。
 
     ??? note "流程狀態說明"
         | 狀態 (Status) | 定義 (Definition) | 情境 (Scenario) |
@@ -172,6 +174,18 @@ comments: false
 4. **查看流程紀錄**：可在流程介面點選「查看流程紀錄」，檢視流程執行紀錄。 
 
     ![查看流程紀錄](../../../assets/images/ec-app-market-automation-查看流程紀錄.gif){ title="查看流程紀錄" }
+
+
+## 通知信箱設定
+
+AUTOMATION 發送後，CYBERBIZ 將透過信件通知「通知人信箱」發送成功或失敗。
+
+1. 點選左側「通知信設定」>「新增通知信箱」。
+2. 新增信箱並按下確認。
+
+![通知信設定](../../../assets/images/ec-app-market-automation-notification-email-settings.png){ title="通知信設定" }
+
+!!! info "通知人信箱最高上限為 10 人。"
 
 
 ## 常見問題

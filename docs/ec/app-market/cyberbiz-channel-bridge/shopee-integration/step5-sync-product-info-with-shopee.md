@@ -2,7 +2,7 @@
 title: Step 5 官網與蝦皮商品資訊同步
 description: 建立關聯後，您可以透過 商品資訊同步 機制，讓官網與蝦皮賣場的商品資料維持一致。當您在官網修改圖文或價格後，可一鍵同步至蝦皮，無需重複編輯。
 created: 2026-02-25 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-27 13:40
 lang: zh-TW
 type: tutorial
 status: ""
@@ -53,7 +53,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12690
   - https://www.cyberbiz.io/support/?p=5362
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step5-sync-product-info-with-shopee
 comments: false
 search:
   exclude: false
