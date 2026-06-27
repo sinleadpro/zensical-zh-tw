@@ -2,7 +2,7 @@
 title: 設定 Google Ads 轉換追蹤
 description: 設定 Google Ads 轉換追蹤與再行銷功能，追蹤廣告成效並優化投放策略。
 created: 2026-03-25 11:23
-last_modified: 2026-06-25 18:15
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -62,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=756
   - https://www.cyberbiz.io/support/?p=232
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-ads-conversion-tracking
 comments: false
 search:
   exclude: false

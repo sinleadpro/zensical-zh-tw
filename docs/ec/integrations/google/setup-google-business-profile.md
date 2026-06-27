@@ -2,7 +2,7 @@
 title: "建立與驗證 Google 商家檔案"
 description: "建立與驗證 Google 商家檔案，讓實體店面在 Google 搜尋與地圖上顯示商家資訊，提升品牌曝光與顧客信任感。"
 created: "2026-03-18 15:16"
-last_modified: 2026-06-25 18:07
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 author: Jase
@@ -55,7 +55,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12109
   - https://www.cyberbiz.io/support/?p=24764
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-business-profile
 comments: false
 search:
   exclude: false

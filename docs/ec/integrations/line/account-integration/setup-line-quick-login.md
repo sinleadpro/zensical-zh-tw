@@ -2,9 +2,9 @@
 title: 設定 LINE 快速登入
 description: 啟用 LINE 快速登入，簡化會員註冊流程，整合官方帳號好友追蹤，並支援會員資料同步與 LIFF 一鍵登入。
 created: 2026-02-16 00:00
-last_modified: 2026-06-14 11:46
+last_modified: 2026-06-26 10:05
 lang: zh-TW
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-line-quick-login
 type: tutorial
 status: ""
 version: ""

@@ -2,7 +2,7 @@
 title: 設定與發送簡訊通知
 description: 如何在 CYBERBIZ 後台設定與發送簡訊，包含發送方式、費用計算與操作步驟。
 created: 2026-04-27 17:09
-last_modified: 2026-06-26 04:26
+last_modified: 2026-06-26 06:12
 lang: zh-TW
 type: tutorial
 status: ""

@@ -2,7 +2,7 @@
 title: 發送 LINE 加入好友邀請
 description: 透過簡訊或 Email 向未綁定會員發送 LINE 官方帳號加入好友邀請，以提升好友數並促進會員綁定與行銷轉換。
 created: 2026-02-22 00:00
-last_modified: 2026-06-26 04:26
+last_modified: 2026-06-26 06:12
 lang: zh-TW
 type: tutorial
 status:

@@ -2,7 +2,7 @@
 title: 設定與發送 LINE OA 分眾訊息推播
 description: 設定並發送 LINE OA 分眾訊息推播給指定標籤會員。
 created: 2026-03-09 09:48
-last_modified: 2026-06-25 20:19
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status:
@@ -61,7 +61,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7324
   - https://www.cyberbiz.io/support/?p=25964
-permalink:
+permalink: https://help.cyberbiz.io/ec/integrations/line/marketing/line-oa-segment-messaging
 comments: false
 search:
   exclude: false

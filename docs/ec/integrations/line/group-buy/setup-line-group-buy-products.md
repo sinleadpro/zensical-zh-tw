@@ -2,7 +2,7 @@
 title: "設定 LINE 團購商品"
 description: 設定 LINE 團購商品分類，從官網公開商品建立團購清單並設定團購價。
 created: "2026-03-12 10:29"
-last_modified: 2026-06-25 20:58
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status:
@@ -55,7 +55,7 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=29174&page=3
-permalink:
+permalink: https://help.cyberbiz.io/ec/integrations/line/group-buy/setup-line-group-buy-products
 comments: false
 search:
   exclude: false

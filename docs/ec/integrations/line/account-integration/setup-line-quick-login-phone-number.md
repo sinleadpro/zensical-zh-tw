@@ -2,9 +2,9 @@
 title: 設定 LINE 快速登入時取得會員手機號碼
 description: 串接 LINE 認證權限，在快速登入流程中自動取得並驗證會員手機號碼，以提升帳號比對精準度與資料完整性。
 created: 2026-02-16 00:00
-last_modified: 2026-06-25 19:50
+last_modified: 2026-06-26 10:05
 lang: zh-TW
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-line-quick-login-phone-number
 type: tutorial
 status: ""
 version: ""

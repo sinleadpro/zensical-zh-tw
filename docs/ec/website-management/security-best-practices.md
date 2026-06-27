@@ -1,9 +1,8 @@
 ---
-
 title: 資安防護總覽與最佳實務
 description: 概述各項安全措施、後台設定路徑及資安事件應變指南，全面保障您的網站與顧客個資。
 created: 2026-06-09 17:07
-last_modified: 2026-06-10 15:30
+last_modified: 2026-06-26 13:21
 lang: zh-TW
 type: guide
 status: ""
@@ -100,7 +99,7 @@ hide: []
 | [訪問限制地區黑名單](security-settings.md#operate-security-restricted-locations) | 封鎖特定地區顧客造訪前台 | 管理中心/安全性設定 > 會員安全 |
 | [網站密碼](security-settings.md#operate-security-website-password) | 顧客需輸入密碼才能瀏覽網站 | 管理中心/安全性設定 > 會員安全 |
 | [匯出權限控管](add-admin-set-permissions.md#管理者權限設定與修改) | 將顧客匯出、訂單匯出權限縮到最小 | 管理中心/網站權限 > 帳戶權限設定 |
-| [信用卡 3D 驗證](../payments-and-logistics/設定信用卡-3D-驗證門檻.md) | 消費者需簡訊驗證，降低盜刷 | 付款設定（加值） |
+| [信用卡 3D 驗證](../payments-and-logistics/setup-credit-card-3d-verification.md) | 消費者需簡訊驗證，降低盜刷 | 付款設定（加值） |
 | SSL 安全性憑證 | 加密網站與顧客間的資料傳輸 | 隨方案提供或於網域設定 |
 
 ## 核心登入防護 { #operate-security-guide-core }
@@ -181,7 +180,7 @@ hide: []
 
     建議將「顧客匯出」與「訂單匯出」權限縮到最小，僅開放給必要人員。
 
-    [:lucide-arro](add-admin-set-permissions.md#管理者權限設定與修改)d#管理者權限設定與修改)
+    [:lucide-arrow-right: 設定步驟](add-admin-set-permissions.md#管理者權限設定與修改)
 
 -   :lucide-eye-off:{ .lg .middle } __會員個資部分隱碼__
 
@@ -213,7 +212,7 @@ hide: []
 
     消費者需輸入簡訊驗證碼才能完成付款，可降低盜刷風險。是否開通與適用的金流，建議向 CYBERBIZ 客服確認。
 
-    [:lucide-arrow-right: 設定教學](../payments-and-logistics/設定信用卡%203D%20驗證門檻.md)
+    [:lucide-arrow-right: 設定教學](../payments-and-logistics/setup-credit-card-3d-verification.md)
 
 -   :lucide-lock:{ .lg .middle } __SSL 安全性憑證__
 
@@ -319,5 +318,4 @@ hide: []
 ## 參考資料 { #reference-security-guide }
 
 - [安全性設定：保護後台帳號與顧客資料](security-settings.md)
-- [二階段驗證設定教學](https://www.cyberbiz.io/support/?p=12650)
 

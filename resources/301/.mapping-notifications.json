@@ -1,7 +1,24 @@
 {
-  "generated_at": "2026-06-26 04:26",
+  "generated_at": "2026-06-26 06:12",
   "doc_dir": "docs/ec/notifications",
   "confirmed": [
+    {
+      "doc_file": "docs/ec/notifications/manage-email-templates.md",
+      "doc_title": "設定與管理 Email 通知樣板",
+      "expected_permalink": "https://help.cyberbiz.io/ec/notifications/manage-email-templates",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=11195",
+        "https://www.cyberbiz.io/helpcenter/?p=2061",
+        "https://www.cyberbiz.io/support/?p=7709",
+        "https://www.cyberbiz.io/support/?p=7742"
+      ],
+      "current_permalink": "https://help.cyberbiz.io/ec/notifications/manage-email-templates",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=7709",
+        "https://www.cyberbiz.io/support/?p=7742"
+      ],
+      "apply": true
+    },
     {
       "doc_file": "docs/ec/notifications/manage-line-oa-templates.md",
       "doc_title": "設定與管理 LINE OA 通知樣板",
@@ -10,12 +27,11 @@
         "https://www.cyberbiz.io/helpcenter/?p=8156",
         "https://www.cyberbiz.io/support/?p=728"
       ],
-      "current_permalink": "",
+      "current_permalink": "https://help.cyberbiz.io/ec/notifications/manage-line-oa-templates",
       "current_wp_urls": [
         "https://www.cyberbiz.io/helpcenter/?p=8156",
         "https://www.cyberbiz.io/support/?p=728"
-      ],
-      "apply": true
+      ]
     },
     {
       "doc_file": "docs/ec/notifications/manage-sms-templates.md",
@@ -25,12 +41,11 @@
         "https://www.cyberbiz.io/helpcenter/?p=6785",
         "https://www.cyberbiz.io/support/?p=5734"
       ],
-      "current_permalink": "",
+      "current_permalink": "https://help.cyberbiz.io/ec/notifications/manage-sms-templates",
       "current_wp_urls": [
-        "https://www.cyberbiz.io/support/?p=5734",
-        "https://www.cyberbiz.io/helpcenter/?p=6785"
-      ],
-      "apply": true
+        "https://www.cyberbiz.io/helpcenter/?p=6785",
+        "https://www.cyberbiz.io/support/?p=5734"
+      ]
     },
     {
       "doc_file": "docs/ec/notifications/send-edm-newsletters.md",
@@ -40,12 +55,11 @@
         "https://www.cyberbiz.io/helpcenter/?p=4412",
         "https://www.cyberbiz.io/support/?p=23782"
       ],
-      "current_permalink": "",
+      "current_permalink": "https://help.cyberbiz.io/ec/notifications/send-edm-newsletters",
       "current_wp_urls": [
         "https://www.cyberbiz.io/helpcenter/?p=4412",
         "https://www.cyberbiz.io/support/?p=23782"
-      ],
-      "apply": true
+      ]
     },
     {
       "doc_file": "docs/ec/notifications/send-line-friend-invitation.md",
@@ -54,11 +68,10 @@
       "expected_wp_urls": [
         "https://www.cyberbiz.io/support/?p=739"
       ],
-      "current_permalink": "",
+      "current_permalink": "https://help.cyberbiz.io/ec/notifications/send-line-friend-invitation",
       "current_wp_urls": [
         "https://www.cyberbiz.io/support/?p=739"
-      ],
-      "apply": true
+      ]
     },
     {
       "doc_file": "docs/ec/notifications/send-sms-notifications.md",
@@ -68,26 +81,19 @@
         "https://www.cyberbiz.io/helpcenter/?p=621",
         "https://www.cyberbiz.io/support/?p=1529"
       ],
-      "current_permalink": "",
+      "current_permalink": "https://help.cyberbiz.io/ec/notifications/send-sms-notifications",
       "current_wp_urls": [
         "https://www.cyberbiz.io/helpcenter/?p=621",
         "https://www.cyberbiz.io/support/?p=1529"
-      ],
-      "apply": true
+      ]
     }
   ],
-  "unmatched_csv_titles": [
-    "管理與自定義 Email 通知樣板"
-  ],
+  "unmatched_csv_titles": [],
   "unmatched_docs": [
-    {
-      "title": "設定與管理 Email 通知樣板",
-      "file": "docs/ec/notifications/manage-email-templates.md"
-    },
     {
       "title": "查詢與追蹤簡訊發送紀錄",
       "file": "docs/ec/notifications/track-sms-records.md"
     }
   ],
-  "updated_at": "2026-06-26 04:26"
+  "updated_at": "2026-06-26 06:12"
 }

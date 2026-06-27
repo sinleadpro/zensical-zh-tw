@@ -2,9 +2,9 @@
 title: 綁定 LINE 官方帳號與官網會員
 description: 透過 LINE Official Account、LINE Login 與 LIFF，完成官網會員與 LINE 帳號的綁定流程，以支援自動化通知與精準行銷應用。
 created: 2026-02-15 00:00
-last_modified: 2026-06-25 20:03
+last_modified: 2026-06-26 10:05
 lang: zh-TW
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/line/account-integration/bind-line-oa-store-members
 type: tutorial
 status: ""
 version: ""

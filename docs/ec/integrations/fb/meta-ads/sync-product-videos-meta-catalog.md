@@ -2,7 +2,7 @@
 title: 同步商品影片至 Meta 目錄
 description: 將 CYBERBIZ 商品影片同步至 Meta 目錄，放置目錄型廣告時商品影片與商品圖將輪播展示，提升廣告吸睛程度。
 created: 2026-04-21 14:27
-last_modified: 2026-06-25 16:33
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -58,7 +58,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7886
   - https://www.cyberbiz.io/support/?p=2175
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/sync-product-videos-meta-catalog
 comments: ""
 search:
   exclude: ""

@@ -249,11 +249,11 @@ LINE 登入因帳號本身已綁定手機，系統會自動跳過 OTP 簡訊驗�
   到「訊息推播 > Email / 簡訊通知樣板 > 顧客相關 > 顧客帳號啟用提醒」編輯。
 
 - :lucide-user-cog:{ .lg }  
-  [__管理顧客註冊欄位__](設定顧客註冊流程與欄位.md){ title="設定顧客註冊流程與欄位" }  
+  [__管理顧客註冊欄位__](customer-registration-flow-and-fields.md){ title="設定顧客註冊流程與欄位" }  
   新增自訂欄位、調整必填項目、設定欄位是否顯示於註冊頁與會員頁。
 
 - :lucide-shield-check:{ .lg }  
-  [__查看會員驗證狀態__](../members/管理會員檔案.md){ title="管理會員檔案" }  
+  [__查看會員驗證狀態__](../members/manage-member-profiles.md){ title="管理會員檔案" }  
   在顧客列表查看每位會員的 Email / 手機驗證狀態。
 
 </div>
