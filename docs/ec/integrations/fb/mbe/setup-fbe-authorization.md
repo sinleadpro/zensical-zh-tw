@@ -2,7 +2,7 @@
 title: 設定 FBE 帳號授權與資產連結
 description: 透過 Facebook 商業擴充套件將像素、粉絲專頁、目錄及廣告帳號等資產連結至 CYBERBIZ 後台。
 created: 2026-04-07 23:59
-last_modified: 2026-06-25 11:26
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -58,10 +58,10 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2870
-  - https://www.cyberbiz.io/support/?p=11341
   - https://www.cyberbiz.io/helpcenter/?p=3221
+  - https://www.cyberbiz.io/support/?p=11341
   - https://www.cyberbiz.io/support/?p=13747
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/fb/mbe/setup-fbe-authorization
 comments: ""
 search:
   exclude: ""

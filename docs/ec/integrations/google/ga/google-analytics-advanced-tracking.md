@@ -2,7 +2,7 @@
 title: 設定 Google Analytics 進階追蹤與資料分析
 description: 加強型評估、Google 信號、資料保留期限調整及報表識別資訊設定，協助商家獲得更精確的流量數據與使用者輪廓。
 created: 2026-03-20 17:50
-last_modified: 2026-06-25 18:54
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -66,7 +66,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7099
   - https://www.cyberbiz.io/support/?p=36980
-permalink: ga4-advanced-tracking-and-analysis
+permalink: https://help.cyberbiz.io/ec/integrations/google/ga/google-analytics-advanced-tracking
 search:
   exclude: false
 icon: lucide/chart-column-increasing

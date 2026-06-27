@@ -2,7 +2,7 @@
 title: 申請與設定 LINE 購物導購
 description: 申請 LINE 購物導購並完成後台串接設定，將 LINE 購物流量導入官網下單。
 created: 2026-03-13 10:46
-last_modified: 2026-06-25 21:07
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status:
@@ -51,7 +51,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7462
   - https://www.cyberbiz.io/support/?p=36752
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/line/apply-setup-line-shopping-guide
 comments: false
 search:
   exclude: false

@@ -3,7 +3,7 @@
 title: "申請與設定 LINE 直播功能"
 description: 如何申請 LINE 直播功能，並完成後台參數設定與商品串接。 
 created: "2026-03-13 10:35"
-last_modified: 2026-06-25 21:04
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: 
@@ -56,7 +56,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7458
   - https://www.cyberbiz.io/support/?p=32529
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/line/apply-setup-line-live-stream
 comments: false
 search:
   exclude: false

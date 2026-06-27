@@ -2,7 +2,7 @@
 title: 串接美安通路
 description: 串接CYBERBIZ 官網與美安 (SHOP.COM)，透過經銷商會員管道銷售商品並增加品牌曝光。
 created: 2026-03-30 22:08
-last_modified: 2026-06-25 21:09
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -58,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=850
   - https://www.cyberbiz.io/support/?p=647
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/connect-marketamerica-channel
 comments: ""
 search:
   exclude: false

@@ -2,7 +2,7 @@
 title: "使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝"
 description: "使用 Google Tag Assistant 驗證 GA4、GTM、Google Ads 等追蹤代碼是否正確安裝與觸發。"
 created: "2026-03-17 21:36"
-last_modified: 2026-06-25 17:57
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 author: Jase
@@ -56,7 +56,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=741
   - https://www.cyberbiz.io/support/?p=234
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/verify-tracking-tag-installation
 comments: false
 search:
   exclude: false

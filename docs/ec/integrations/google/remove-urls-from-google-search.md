@@ -2,7 +2,7 @@
 title: 從 Google 搜尋結果移除特定網頁或子目錄
 description: 透過 Google Search Console 移除網址工具，排除特定網頁或子目錄出現在 Google 搜尋結果中。
 created: 2026-03-24 17:04
-last_modified: 2026-06-25 17:49
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -58,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12105
   - https://www.cyberbiz.io/support/?p=25441
-permalink: ec/integrations/google/remove-search-results
+permalink: https://help.cyberbiz.io/ec/integrations/google/remove-urls-from-google-search
 comments: false
 search:
   exclude: false

@@ -2,7 +2,7 @@
 title: 設定 Google Merchant Center 並同步 CYBERBIZ 商品
 description: 串接 Google Merchant Center、同步商品資料至 Google 搜尋與購物廣告。
 created: 2026-03-05 10:00
-last_modified: 2026-06-25 17:05
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -62,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=718
   - https://www.cyberbiz.io/support/?p=230
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-merchant-center
 search:
   exclude: false
 icon: lucide/tags

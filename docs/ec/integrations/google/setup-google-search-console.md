@@ -2,7 +2,7 @@
 title: "註冊並驗證 Google Search Console"
 description: "在 Google Search Console 註冊並驗證網站擁有權，以監測網站搜尋表現。"
 created: "2026-03-20 14:28"
-last_modified: 2026-06-25 18:11
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -58,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3375
   - https://www.cyberbiz.io/support/?p=15362
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-search-console
 comments: false
 search:
   exclude: false

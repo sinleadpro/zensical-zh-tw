@@ -2,7 +2,7 @@
 title: 設定 LIFF 自動登入與會員綁定
 description: 使用 LIFF 實現會員自動登入，並同步完成官方帳號好友加入與會員帳號綁定。
 created:
-last_modified: 2026-06-25 19:54
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status:
@@ -71,7 +71,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7388
   - https://www.cyberbiz.io/support/?p=41333
-permalink:
+permalink: https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-liff-auto-login-member-binding
 comments: false
 search:
   exclude: false

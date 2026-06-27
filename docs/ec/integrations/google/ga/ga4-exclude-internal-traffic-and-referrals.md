@@ -2,7 +2,7 @@
 title: "設定 GA4 排除內部流量與第三方參照來源"
 description: "在 GA4 中設定排除 company 內部 IP 流量，以及排除第三方金物流的參照連結，避免轉換來源被誤判。"
 created: "2026-03-23 17:38"
-last_modified: 2026-06-25 19:24
+last_modified: 2026-06-26 10:05
 lang: "zh-TW"
 type: "tutorial"
 status: ""
@@ -63,9 +63,9 @@ ui_components: []
 paths: []
 layouts: []
 wp_url:
-  - "https://www.cyberbiz.io/helpcenter/?p=6791"
-  - "https://www.cyberbiz.io/support/?p=3962"
-permalink: "ga4-exclude-internal-traffic-and-referrals"
+  - https://www.cyberbiz.io/helpcenter/?p=6791
+  - https://www.cyberbiz.io/support/?p=3962
+permalink: https://help.cyberbiz.io/ec/integrations/google/ga/ga4-exclude-internal-traffic-and-referrals
 comments: false
 search:
   exclude: false

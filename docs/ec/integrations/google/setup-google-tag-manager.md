@@ -2,7 +2,7 @@
 title: "建立 Google Tag Manager 並串接 CYBERBIZ"
 description: "建立 Google Tag Manager 帳戶與容器，並將 GTM 程式碼正確安裝至 CYBERBIZ 官網。"
 created: "2026-03-17 16:31"
-last_modified: 2026-06-25 17:56
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -58,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=689
   - https://www.cyberbiz.io/support/?p=228
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-tag-manager
 comments: false
 search:
   exclude: false

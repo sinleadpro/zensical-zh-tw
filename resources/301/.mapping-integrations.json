@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-26 09:31",
+  "generated_at": "2026-06-26 10:04",
   "doc_dir": "docs/ec/integrations",
   "confirmed": [
     {
@@ -233,6 +233,21 @@
       "apply": true
     },
     {
+      "doc_file": "docs/ec/integrations/google/automated-ads-system.md",
+      "doc_title": "自動化廣告系統(Google 購物廣告)",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/google/automated-ads-system",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=8203",
+        "https://www.cyberbiz.io/support/?p=34930"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=8203",
+        "https://www.cyberbiz.io/support/?p=34930"
+      ],
+      "apply": true
+    },
+    {
       "doc_file": "docs/ec/integrations/google/ga/ga4-exclude-internal-traffic-and-referrals.md",
       "doc_title": "設定 GA4 排除內部流量與第三方參照來源",
       "expected_permalink": "https://help.cyberbiz.io/ec/integrations/google/ga/ga4-exclude-internal-traffic-and-referrals",
@@ -377,6 +392,21 @@
       "current_wp_urls": [
         "https://www.cyberbiz.io/helpcenter/?p=718",
         "https://www.cyberbiz.io/support/?p=230"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/integrations/google/setup-google-quick-login.md",
+      "doc_title": "設定 Google 快速登入",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/google/setup-google-quick-login",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=4728",
+        "https://www.cyberbiz.io/support/?p=30252"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=4728",
+        "https://www.cyberbiz.io/support/?p=30252"
       ],
       "apply": true
     },
@@ -614,7 +644,7 @@
       "doc_title": "設定 LINE 團購機器人",
       "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/group-buy/setup-line-group-bot",
       "expected_wp_urls": [
-        "https://www.cyberbiz.io/support/?p=29174"
+        "https://www.cyberbiz.io/support/?p=29174&page=2"
       ],
       "current_permalink": "",
       "current_wp_urls": [
@@ -627,7 +657,7 @@
       "doc_title": "設定 LINE 團購群組",
       "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/group-buy/setup-line-group-buy-group",
       "expected_wp_urls": [
-        "https://www.cyberbiz.io/support/?p=29174"
+        "https://www.cyberbiz.io/support/?p=29174&page=4"
       ],
       "current_permalink": "",
       "current_wp_urls": [
@@ -640,7 +670,7 @@
       "doc_title": "設定 LINE 團購商品",
       "expected_permalink": "https://help.cyberbiz.io/ec/integrations/line/group-buy/setup-line-group-buy-products",
       "expected_wp_urls": [
-        "https://www.cyberbiz.io/support/?p=29174"
+        "https://www.cyberbiz.io/support/?p=29174&page=3"
       ],
       "current_permalink": "",
       "current_wp_urls": [
@@ -740,12 +770,11 @@
     }
   ],
   "unmatched_csv_titles": [
-    "發送 LINE 加入好友邀請",
-    "設定與使用 LINE 顯示會員條碼（串接 POS 結帳）",
-    "設定秘密商品群組",
+    "LINE 購物功能總覽",
     "LINE 整合總覽",
-    "設定 Google 快速登入（Google OAuth 串接）",
-    "設定自動化廣告系統",
+    "設定秘密商品群組",
+    "設定與使用 LINE 顯示會員條碼（串接 POS 結帳）",
+    "發送 LINE 加入好友邀請",
     "設定與管理 LINE OA 通知樣板",
     "設定與發送簡訊通知",
     "設定與管理簡訊通知樣板",
@@ -755,20 +784,13 @@
   ],
   "unmatched_docs": [
     {
-      "title": "自動化廣告系統(Google 購物廣告)",
-      "file": "docs/ec/integrations/google/automated-ads-system.md"
-    },
-    {
       "title": "設定 GMC 重要事件來源追蹤與自動標記",
       "file": "docs/ec/integrations/google/setup-gmc-conversion-tracking.md"
-    },
-    {
-      "title": "設定 Google 快速登入",
-      "file": "docs/ec/integrations/google/setup-google-quick-login.md"
     },
     {
       "title": "自動化廣告投放與開通狀態對照表",
       "file": "docs/ec/integrations/references/automated-ads-statuses.md"
     }
-  ]
+  ],
+  "updated_at": "2026-06-26 10:05"
 }

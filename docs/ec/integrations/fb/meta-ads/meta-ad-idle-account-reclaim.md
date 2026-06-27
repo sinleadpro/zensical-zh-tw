@@ -2,7 +2,7 @@
 title: Meta 廣告帳號閒置釋出機制與保留說明
 description: CYBERBIZ Meta 廣告帳號閒置回收機制的觸發條件、激活方式，以及帳號釋出後的影響與重新申請流程。
 created: 2026-04-27 14:15
-last_modified: 2026-06-14 11:39
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: explanation
 status: ""
@@ -59,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12881
   - https://www.cyberbiz.io/support/?p=52679
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/meta-ad-idle-account-reclaim
 comments: ""
 search:
   exclude: ""

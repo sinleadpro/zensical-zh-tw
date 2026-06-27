@@ -2,7 +2,7 @@
 title: 設定 Meta 廣告活動
 description: 透過 CYBERBIZ Meta Ads App 管理 Meta 廣告活動，設定廣告預算、目標受眾與素材，掌握廣告投放成效。
 created: 2026-04-20 14:54
-last_modified: 2026-06-25 15:09
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -71,7 +71,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10374
   - https://www.cyberbiz.io/support/?p=1755
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/setup-meta-ad-campaign
 comments: ""
 search:
   exclude: false

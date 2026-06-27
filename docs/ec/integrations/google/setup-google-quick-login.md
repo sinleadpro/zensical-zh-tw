@@ -2,7 +2,7 @@
 title: "設定 Google 快速登入"
 description: "設定 Google 快速登入功能，讓消費者能使用 Google 帳戶一鍵註冊或登入會員。"
 created: "2026-03-17 12:26"
-last_modified: 2026-06-25 16:52
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -60,7 +60,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4728
   - https://www.cyberbiz.io/support/?p=30252
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-quick-login
 comments: false
 search:
   exclude: false

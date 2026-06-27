@@ -2,7 +2,7 @@
 title: 設定與管理 LINE Tag
 description: 設定 LINE Tag ID，並追蹤 LINE OA 訊息推播或 LINE LAP 廣告帶來的轉換成效。
 created: 2026-03-10 15:13
-last_modified: 2026-06-25 20:54
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -62,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4769
   - https://www.cyberbiz.io/support/?p=28602
-permalink: ec/integrations/line/setting-and-managing-line-tag
+permalink: https://help.cyberbiz.io/ec/integrations/line/marketing/setup-manage-line-tag
 search:
   exclude: false
 icon: lucide/code

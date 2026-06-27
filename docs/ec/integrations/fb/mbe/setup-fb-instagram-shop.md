@@ -2,7 +2,7 @@
 title: 設定 Facebook 跟 Instagram 商店
 description: 設定 Facebook 與 Instagram 商店，建立社群銷售管道並同步商品。
 created: 2026-04-13 16:31
-last_modified: 2026-06-25 11:49
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -64,7 +64,8 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3113
   - https://www.cyberbiz.io/support/?p=11757
-permalink: ""
+  - https://www.cyberbiz.io/support/?p=24676
+permalink: https://help.cyberbiz.io/ec/integrations/fb/mbe/setup-fb-instagram-shop
 comments: false
 search:
   exclude: false
