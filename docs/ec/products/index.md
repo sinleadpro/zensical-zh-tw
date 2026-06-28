@@ -176,7 +176,7 @@ VIP 價格、**搜尋可見性排除**
    指定商品可使用的物流方式。  
 
 - :lucide-ban:{ .lg }  
-  [__超商配送限制__](shipping/設定超商配送限制與物流排除.md){ title="設定超商配送限制與物流排除" }  
+  [__超商配送限制__](shipping/cvs-shipping-restrictions-exclusions.md){ title="設定超商配送限制與物流排除" }  
   設定材積與重量，自動排除不符合超商物流的商品。
 
 </div>

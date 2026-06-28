@@ -1,11 +1,11 @@
 ---
 title: 黑貓宅配託運單規格與費用對照表
 permalink: https://help.cyberbiz.io/ec/payments-and-logistics/references/tcat-delivery-rate-card
-last_modified: 2026-06-04 17:25
+last_modified: 2026-06-28 12:28
 product:
   - EC
 type: reference
-status: new
+status: 
 difficulty: beginner
 icon: lucide/table
 ---

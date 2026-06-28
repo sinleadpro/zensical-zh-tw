@@ -2,7 +2,7 @@
 title: 設定順豐託運單
 description: 設定順豐託運單，包括建立寄件人資訊、加印託運單及查詢單號使用紀錄。
 created: 2026-05-20 21:23
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-28 12:57
 lang: zh-TW
 type: tutorial
 status: ""
@@ -66,7 +66,7 @@ icon: lucide/receipt-text
 hide: []
 ---
 
-![順豐託運單管理頁面](../../assets/images/EC-金物流-順豐託運單-hero.png){ .hero-page }
+![順豐託運單管理頁面](../../assets/images/EC-金物流-順豐託運單-hero.png){ title="順豐託運單管理頁面" .hero-page }
 
 ## 順豐託運單說明 { #intro-sf-waybill }
 
@@ -84,7 +84,7 @@ hide: []
 ## 使用前提與限制 { #prerequisites-sf-waybill }
 
 - [x] 須先開通 **順豐託運單**(一般版 以上方案皆可)。
-- [x] 寄送海外件另需開通 **[順豐海外宅配](順豐海外物流.md){ title="順豐海外物流" }**，畫面才會出現「託運單預設品名(海外)」與「報關方式」欄位。
+- [x] 寄送海外件另需開通 [順豐海外宅配](sf-express-overseas-logistics.md){ title="順豐海外物流" }，畫面才會出現「託運單預設品名(海外)」與「報關方式」欄位。
 - [x] 加印託運單採 **預扣 Cyber 幣** 機制，**一般版商家若 Cyber 幣餘額不足將無法列印**，需先至「[儲值中心](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="Cyber 幣儲值中心使用指南" }」儲值。
 - [x] 加印託運單 **只會印出「純配送」託運單**；貨到付款的託運單請至訂單列表操作，本頁無法產生順豐貨到付款託運單。
 
@@ -101,10 +101,10 @@ hide: []
     * **寄件人名稱**：30 字內。
     * **寄件人電話**：30 字內。
     * **寄件人地址**：30 字內，單行文字。
-    * **報關方式**(僅開通海外宅配時顯示)：三選一，預設為 **簡易報關**。詳見 [海外報關方式說明][specs-sf-waybill-customs]{ data-preview }。
+    * **報關方式**(僅開通海外宅配時顯示)：三選一，預設為 **簡易報關**。詳見 [海外報關方式說明](#specs-sf-waybill-customs){ title="海外報關方式說明" data-preview }。
 4. 點擊 **「確認」** 按鈕，系統顯示「已成功變更設定」即完成。
 
-![順豐設定](../../assets/images/EC-金物流-順豐託運單-順豐設定.png)
+![順豐設定](../../assets/images/EC-金物流-順豐託運單-順豐設定.png){ title="順豐設定" }
 
 !!! info "提示"
      寄件人名稱 / 電話 / 地址三欄 **任一空白都會被擋下**，提示「寄件人名稱和寄件人電話，寄件人地址請勿空白」。請確保三欄都填寫完整。
@@ -130,10 +130,10 @@ hide: []
     * 自動下載託運單 PDF / 圖檔。
     * 將該訂單與單號寫入下方的「單號使用紀錄」表格。
 
-![加印順豐託運單](../../assets/images/EC-金物流-順豐託運單-加印託運單.png)
+![加印順豐託運單](../../assets/images/EC-金物流-順豐託運單-加印託運單.png){ title="加印順豐託運單" }
 
 !!! note "註釋"
-     加印託運單 **只會印出「純配送」託運單**，即使原訂單是貨到付款，本功能也只能產生不含代收款的單號。需要列印貨到付款託運單，請改回「訂單」>「所有訂單」勾選訂單後執行 [下載順豐託運單][operate-sf-bulk-shipping]{ data-preview }。
+     加印託運單 **只會印出「純配送」託運單**，即使原訂單是貨到付款，本功能也只能產生不含代收款的單號。需要列印貨到付款託運單，請改回「訂單」>「所有訂單」勾選訂單後執行 [下載順豐託運單](../orders/home-delivery/sf-express-shipping.md#operate-sf-bulk-shipping){ title="使用順豐出貨" }。
 
 [^5]: 順豐 OpenAPI
 
@@ -143,7 +143,7 @@ hide: []
 
 頁面最下方的「單號使用記錄」表格，列出所有曾為該店家產生過的順豐託運單。資料以 **建立時間倒序** 排列(最新在最上)。
 
-![單號使用紀錄](../../assets/images/EC-金物流-順豐託運單-單號使用紀錄.png)
+![單號使用紀錄](../../assets/images/EC-金物流-順豐託運單-單號使用紀錄.png){ title="單號使用紀錄" }
 
 ??? info-clean "欄位說明"
 
@@ -198,7 +198,7 @@ hide: []
   批次或單筆下載順豐託運單，完成完整出貨流程。
 
 - :lucide-ruler:{ .lg }  
-  [__順豐配送商品尺寸與運費對照表__][reference-sf-shipment-sizes]  
+  [__順豐配送商品尺寸與運費對照表__](../orders/home-delivery/sf-express-shipping.md#reference-sf-shipment-sizes){ title="使用順豐出貨" data-preview }  
   查看各配送尺寸對應的運費資訊，選擇適合的方案。
 
 </div>
@@ -261,7 +261,7 @@ hide: []
     - **簡易報關（銷售02）**：銷售用途且申報金額未超過 5 萬元，**每筆補收 100 元**。
     - **正式報關**：申報金額超過 5 萬元強制適用，**每筆補收 500 元**。
 
-    詳細說明請參考 [海外報關方式說明][specs-sf-waybill-customs]{ data-preview }。
+    詳細說明請參考 [海外報關方式說明](#specs-sf-waybill-customs){ title="海外報關方式說明" }。
 
 ??? quote "加印託運單後若未寄件，多久會失效退款？"
     [](){ #faq-sf-waybill-expiration }

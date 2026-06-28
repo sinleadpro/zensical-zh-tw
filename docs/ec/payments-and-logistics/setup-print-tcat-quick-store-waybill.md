@@ -1,9 +1,8 @@
 ---
-
 title: 設定與加印黑貓快速到店託運單
 description: 黑貓快速到店(超商取貨)託運單完整指南，包含設定寄件人資訊、加印純配送託運單，以及查詢託運單號使用紀錄與 Cyber 幣扣款對帳。
 created: 2026-05-19 10:00
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-28 12:36
 lang: zh-TW
 type: tutorial
 status: ""
@@ -44,12 +43,11 @@ related:
   - "[[setup-print-tcat-waybill]]"
   - "[[points-deposits]]"
 tags:
-  - EC
   - 金物流
   - 黑貓快速到店
   - 黑貓超商
   - 託運單
-  - Cyber 幣
+  - Cyber幣
   - 加印託運單
 acoiv: operation
 apis: []
@@ -61,7 +59,7 @@ paths:
   - 金物流 > 黑貓快速到店託運單
 layouts: []
 wp_url: []
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-print-tcat-quick-store-waybill
 comments: false
 search:
   exclude: false
@@ -69,9 +67,7 @@ icon: lucide/cat
 hide: []
 ---
 
-
-
-![黑貓快速到店託運單設定頁](../../assets/images/EC-金物流-黑貓快速到店託運單-hero.png){ .hero-page }
+![黑貓快速到店託運單設定頁](../../assets/images/EC-金物流-黑貓快速到店託運單-hero.png){ title="黑貓快速到店託運單設定頁" .hero-page }
 
 ## 黑貓快速到店託運單說明 { #intro-ezcat-cvs-shipping-note }
 
@@ -82,8 +78,8 @@ hide: []
 頁面整合下列商家最常用的動作，並提供一份歷史紀錄供您核對 Cyber 幣扣抵情形：
 
 * **黑貓快速到店設定**：設定寄件人姓名、寄件地址、聯絡電話與託運單預設品名，後續所有託運單會自動代入。
-* **加印託運單**：以 Cyber 幣為單筆訂單再列印一張或多張「純配送」託運單。
-* **單號使用紀錄**：列出本店所有黑貓快速到店託運單與 Cyber 幣扣抵金額，供對帳查詢。
+* **加印託運單**：以 Cyber幣 為單筆訂單再列印一張或多張「純配送」託運單。
+* **單號使用紀錄**：列出本店所有黑貓快速到店託運單與 Cyber幣 扣抵金額，供對帳查詢。
 
 !!! info "提示"
     此頁僅適用於 **黑貓快速到店(超商取貨)** 託運單。如需操作 **黑貓宅急便(宅配)** 託運單，請改至[設定與加印黑貓託運單](setup-print-tcat-waybill.md){ title="設定與加印黑貓託運單" }頁面。
@@ -103,7 +99,7 @@ hide: []
 
 ### 基本費率 { #ezcat-cvs-shipping-note-rate }
 
-- 各尺寸 / 溫層的基準扣抵金額，請參閱：[**黑貓快速到店費用對照表**](#reference-ezcat-cvs-fee-table)
+- 各尺寸 / 溫層的基準扣抵金額，請參閱：[黑貓快速到店費用對照表](#reference-ezcat-cvs-fee-table)
 - 實際扣抵以您後台「選擇貨品大小」下拉選單顯示的金額為準。
 
 {% if is_internal %}
@@ -123,7 +119,7 @@ hide: []
 | 託運單溫層與實際寄送不符 | 每張 +50 | 列印常溫卻以低溫寄送，或列印低溫卻以常溫寄送，作為帳務處理費 |
 | 物流繁盛期 | 每張 +10 | 端午、中秋、春節期間，黑貓收取繁盛期服務費 |
 
-!!! tip "Cyber 幣不足時系統會擋下並提醒儲值。請至「儲值中心」[儲值](../website-management/CYBER%20幣儲值中心使用指南.md){ data-preview }後再回此頁操作。"
+!!! tip "Cyber 幣不足時系統會擋下並提醒儲值。請至「儲值中心」[儲值](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="如何儲值 Cyber 幣" data-preview }後再回此頁操作。"
 
 ---
 
@@ -146,7 +142,7 @@ hide: []
 他黑貓物流功能，請一併填寫。
 7. **儲存設定**：點擊 **確認** 按鈕。畫面跳出「已成功變更設定」即代表完成。
 
-![黑貓快速到店設定](../../assets/images/EC-金物流-黑貓快速到店託運單-快速到店設定.png)
+![黑貓快速到店設定](../../assets/images/EC-金物流-黑貓快速到店託運單-快速到店設定.png){ title="黑貓快速到店設定" }
 
 [^1]: 寄件人名稱不得含特殊符號；若儲存時系統提示錯誤訊息，請依提示移除無效字元後再試。
 
@@ -185,7 +181,7 @@ hide: []
 8. **取得託運單 PDF**：系統會自動下載託運單 PDF，並向黑貓索取一組全新單號(每張加印託運單為獨立新單號[^2])。
 9. **列印**：使用 **黑貓三聯空白託運單貼紙** 列印 PDF，並交由黑貓司機或自行送至營業所。
 
-![加印託運單](../../assets/images/EC-金物流-黑貓快速到店託運單-加印託運單.png)
+![加印託運單](../../assets/images/EC-金物流-黑貓快速到店託運單-加印託運單.png){ title="加印託運單" }
 
 !!! tip "系統會依您 **上一次加印** 的規格自動預選下拉選單；若同一店家經常列印同一規格，可省下重複操作。"
 
@@ -201,7 +197,7 @@ hide: []
 
 紀錄本店所有黑貓快速到店託運單的扣抵情形與單號狀態。
 
-![單號使用紀錄](../../assets/images/EC-金物流-黑貓快速到店託運單-單號使用紀錄.png)
+![單號使用紀錄](../../assets/images/EC-金物流-黑貓快速到店託運單-單號使用紀錄.png){ title="單號使用紀錄" }
 
 ??? info-clean "欄位說明"
 
@@ -218,7 +214,7 @@ hide: []
 
 
 !!! note "註釋"
-    * 「客戶選定 Cyber 幣額度」與「確認扣除 Cyber 幣額度」差值會發生於 [額外費用][ezcat-cvs-shipping-note-surcharge] 情境(溫層誤標 +50、繁盛期 +10 等)。
+    * 「客戶選定 Cyber 幣額度」與「確認扣除 Cyber 幣額度」差值會發生於 [額外費用](#ezcat-cvs-shipping-note-surcharge) 情境(溫層誤標 +50、繁盛期 +10 等)。
     * 黑貓快速到店託運單 **固定為不可轉單** ；每次加印或出貨都會向黑貓索取全新單號。
 
 ## 後續操作
@@ -226,11 +222,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-wallet:{ .lg }  
-[__Cyber 幣儲值__](../website-management/points-deposits.md){ title="Cyber 幣儲值中心使用指南" }  
+[__Cyber 幣儲值__](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="如何儲值 Cyber 幣" }  
 加印託運單會即時扣抵 Cyber 幣，餘額不足時系統將擋下操作，請先至儲值中心儲值。
 
 - :lucide-truck:{ .lg }  
-[](setup-print-tcat-waybill.md)設定與加印黑貓託運單.md){ title="設定與加印黑貓託運單" }  
+[__設定與加印黑貓託運單__](setup-print-tcat-waybill.md){ title="設定與加印黑貓託運單" }  
 若您同時使用黑貓 **宅配** ，請至黑貓託運單頁面設定寄件人資訊與加印宅配託運單。
 
 </div>
@@ -254,7 +250,7 @@ hide: []
 ??? quote "顯示「此訂單運送方式非黑貓快速到店，不可加印」"
     [](){ #faq-ezcat-cvs-shipping-note-shipping-type-not-match }
 
-    訂單的配送方式不是 **黑貓快速到店—常溫 / 冷凍 / 冷藏** (含先付 / 貨到付款兩種變體)。例如訂單原本走宅配、其他超商、自訂出](setup-print-tcat-waybill.md) [設定與加印黑貓託運單](設定與加印黑貓託運單.md){ title="設定與加印黑貓託運單" }頁面操作。
+    訂單的配送方式不是 **黑貓快速到店—常溫 / 冷凍 / 冷藏** (含先付 / 貨到付款兩種變體)。例如訂單原本走宅配、其他超商、等，請改至 [設定與加印黑貓託運單](setup-print-tcat-waybill.md){ title="設定與加印黑貓託運單" } 頁面操作。頁面操作。
 
 ??? quote "顯示「黑貓快速到店—XX 的訂單只能選擇 XX 的溫層」"
     [](){ #faq-ezcat-cvs-shipping-note-rate-mismatch }
@@ -270,7 +266,7 @@ hide: []
 ??? quote "顯示「餘額不足，請至儲值中心進行儲值」"
     [](){ #faq-ezcat-cvs-shipping-note-points-insufficient }
 
-    您的 Cyber 幣餘額小於「每張費用 × 加印張數」。請至 **管理中心 > 儲值中心** 完成 [儲值](../website-management/CYBER%20幣儲值中心使用指南.md){ data-preview }後再回此頁操作。頁面上方藍色數字即為目前餘額。
+    您的 Cyber 幣餘額小於「每張費用 × 加印張數」。請至 **管理中心 > 儲值中心** 完成 [儲值](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="如何儲值 Cyber 幣" data-preview }後再回此頁操作。頁面上方藍色數字即為目前餘額。
 
 ??? quote "為什麼貨到付款訂單加印後變成「純配送」?"
     [](){ #faq-ezcat-cvs-shipping-note-cod-not-supported }
