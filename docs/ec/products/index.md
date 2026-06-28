@@ -71,9 +71,9 @@ VIP 價格、**搜尋可見性排除**
 -   :lucide-circle-play: __基礎操作__
 
 	---
-- [檢索商品](create-and-manage/使用商品管理介面管理商品.md#後台搜尋商品){ title="使用商品管理介面管理商品" }  
-- [選取大量商品](create-and-manage/使用商品管理介面管理商品.md#選取大量商品){ title="使用商品管理介面管理商品" }   
-- [快速設定商品公開狀態](create-and-manage/使用商品管理介面管理商品.md#快捷按鈕){ title="使用商品管理介面管理商品" }    
+- [檢索商品](create-and-manage/product-management-interface.md#後台搜尋商品){ title="使用商品管理介面管理商品" }  
+- [選取大量商品](create-and-manage/product-management-interface.md#選取大量商品){ title="使用商品管理介面管理商品" }   
+- [快速設定商品公開狀態](create-and-manage/product-management-interface.md#快捷按鈕){ title="使用商品管理介面管理商品" }    
 
 -   :lucide-flame: __熱門主題__
 	
