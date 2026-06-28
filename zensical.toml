@@ -200,7 +200,7 @@ copyright = """
         { "商品" = [
             { "商品管理" = "ec/products/index.md" },  
             { "建立與管理" = [
-                {"介面導覽" = "ec/products/create-and-manage/使用商品管理介面管理商品.md"},
+                {"介面導覽" = "ec/products/create-and-manage/product-management-interface.md"},
                 {"新增與更新" = "ec/products/create-and-manage/create-update-products.md"},
                 {"組合商品" = "ec/products/create-and-manage/新增與設定組合商品.md"},
                 {"商品簡述與標語" = "ec/products/create-and-manage/edit-product-slogan-and-description.md"},
@@ -228,6 +228,7 @@ copyright = """
                 {"批次修改商品描述與配送設定" = "ec/products/bulk-operations/batch-update-product-descriptions-shipping.md"},
                 {"排除商品上傳至第三方平台" = "ec/products/bulk-operations/排除商品上傳至第三方平台.md"},
                 {"複製商品到快速到貨門市" = "ec/products/copy-products-to-quick-delivery-stores.md"},
+                {"複製商品至 POS 商店" = "ec/products/bulk-operations/copy-products-to-pos-stores.md"},
             ]},
             { "價格設定" = [
                 {"VIP 會員專屬價格" = "ec/products/pricing/setup-vip-member-pricing.md"}
@@ -335,7 +336,7 @@ copyright = """
             {"發送 EDM" = "ec/notifications/send-edm-newsletters.md"}
         ]},
         { "金物流" = [
-            {"overview" = "ec/payments-and-logistics/index.md"},
+            {"金物流總覽" = "ec/payments-and-logistics/index.md"},
             {"結帳頁與物流設定" = [
                 {"結帳頁與物流設定總覽" = "ec/payments-and-logistics/payments/index.md"},
                 {"購物車相關設定" = "ec/payments-and-logistics/payments/cart-settings.md"},

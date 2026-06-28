@@ -23,7 +23,7 @@ tags:
 
 商品在系統中的所有設定屬性與內容，包含基本設定、圖片、影片與款式管理，用於前台展示、銷售與行銷應用。
 
-- **參閱**：[使用商品管理介面管理商品](../ec/products/create-and-manage/使用商品管理介面管理商品.md){ title="使用商品管理介面管理商品" }
+- **參閱**：[使用商品管理介面管理商品](../ec/products/create-and-manage/product-management-interface.md){ title="使用商品管理介面管理商品" }
 
 ### 商品名稱
 
