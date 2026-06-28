@@ -250,7 +250,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-package-plus: [__新增與更新商品__](create-update-products.md){ title="新增與更新商品" }
-- :lucide-upload: [__新增大量商品__](../bulk-operations/Excel 大量匯入商品.md){ title="新增大量商品" }
+- :lucide-upload: [__新增大量商品__](../bulk-operations/excel-import-products.md){ title="新增大量商品" }
 
 </div>
 

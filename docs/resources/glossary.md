@@ -67,25 +67,25 @@ tags:
 
 由兩個或以上的子商品所組成，並以單一商品形式銷售的商品類型，具有獨立的組合售價。
 
-- **參閱**：[新增與設定組合商品](../ec/products/create-and-manage/新增與設定組合商品.md){ title="新增與設定組合商品" }
+- **參閱**：[新增與設定組合商品](../ec/products/create-and-manage/create-and-setup-combo-products.md){ title="新增與設定組合商品" }
 
 ### 子商品
 
 構成組合商品的單一商品項目，具有獨立原價但在組合中不單獨販售。
 
-- **參閱**：[組合商品](#組合商品) | [新增與設定組合商品](../ec/products/create-and-manage/新增與設定組合商品.md){ title="新增與設定組合商品" }
+- **參閱**：[組合商品](#組合商品) | [新增與設定組合商品](../ec/products/create-and-manage/create-and-setup-combo-products.md){ title="新增與設定組合商品" }
 
 ### 指定組合商品
 
 由商家預先設定好固定組合的商品，顧客購買時無法更換組合內的項目。
 
-- **參閱**：[組合商品](#組合商品) | [新增與設定組合商品](../ec/products/create-and-manage/新增與設定組合商品.md){ title="新增與設定組合商品" }
+- **參閱**：[組合商品](#組合商品) | [新增與設定組合商品](../ec/products/create-and-manage/create-and-setup-combo-products.md){ title="新增與設定組合商品" }
 
 ### 任選組合商品
 
 由商家設定可選範圍的商品組合，購買者可以自由選擇組合內的子商品及數量。
 
-- **參閱**：[組合商品](#組合商品) | [新增與設定組合商品](../ec/products/create-and-manage/新增與設定組合商品.md){ title="新增與設定組合商品" }
+- **參閱**：[組合商品](#組合商品) | [新增與設定組合商品](../ec/products/create-and-manage/create-and-setup-combo-products.md){ title="新增與設定組合商品" }
 
 ### 任選組合總數
 
