@@ -2,8 +2,9 @@
 title: 新增與設定組合商品
 description: 建立指定或任選組合商品，設定子商品內容、價格、庫存與銷售規則。
 created: 2026-01-08 00:00
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-29 00:33
 lang: zh-TW
+permalink: https://help.cyberbiz.io/ec/products/create-and-manage/create-and-setup-combo-products
 type: guide
 status:
 version:
@@ -19,9 +20,6 @@ modules:
   - 商品
 sites:
   - TW
-audiences:
-  - admin
-difficulty: beginner
 tnb: branch
 plans:
   - 專業PLUS
@@ -29,6 +27,10 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
+feature_badges: []
+audiences:
+  - admin
+difficulty: beginner
 intents:
   - 如何新增組合商品
   - 設定組合商品
@@ -36,6 +38,12 @@ features:
   - 組合商品
 prerequisites: []
 related: []
+tags:
+  - 組合商品
+  - 指定組合商品
+  - 任選組合商品
+  - 子商品庫存
+  - 組合商品價差
 acoiv: configure
 apis: []
 devices:
@@ -45,33 +53,22 @@ ui_components: []
 paths:
   - 商品 > 組合商品
 layouts:
-  - draggable
+  - 拖拉版型
 wp_url:
   - https://www.cyberbiz.io/support/?p=37330
   - https://www.cyberbiz.io/helpcenter/?p=8055
-permalink:
+comments: false
 search:
   exclude: false
-icon:
+icon: lucide/boxes
 hide: []
-comments: false
 ---
 
-# 新增與設定組合商品
-
-建立指定或任選組合商品，設定子商品內容、價格、庫存與銷售規則。
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions.md#適用方案){ title="圖示慣例" } | 專業PLUS / 進階 PLUS / 高手 PLUS  / 企業  
-[:lucide-bolt:{ title="適用功能" }](../../../resources/conventions.md#適用功能){ title="圖示慣例" } | 拖拉版型
-{ .doc-badge }
-
-![](../../../assets/images/ec-create-new-product-combo.zh-tw.png){ title="新增組合商品：商品 > 新增組合商品" .hero-page }
-
+![新增組合商品](../../../assets/images/ec-create-new-product-combo.zh-tw.png){ title="新增組合商品：商品 > 新增組合商品" .hero-page }
 
 ## 組合商品說明
 
-組合商品是將兩個或以上的商品組合成單一商品進行販售的商品類型。商家可設定固定內容的 *指定組合商品*，或讓消費者自行選擇內容的 *任選組合商品*。常見的應用情境如下：
+組合商品是將兩個或以上的商品組合成單一商品進行販售的商品類型。商家可設定固定內容的 指定組合商品，或讓消費者自行選擇內容的 任選組合商品。常見的應用情境如下：
 
 - 套裝優惠：將多個商品打包，以組合價格吸引購買。
 - 活動促銷：例如聖誕禮盒、周年慶組合。
@@ -150,7 +147,7 @@ comments: false
 
 ## 子商品庫存管理
 
-組合商品是否可供購買（庫存是否足夠），取決於其 *子商品* 的庫存數量及設定。若其中任一子商品庫存不足，且該子商品庫存不足時設定為 *停止銷售*，則該組合商品將無法購買。進一步瞭解[商品庫存相關設定](create-update-products.md#operate-product-create-inventory){ title="新增與更新商品" }。
+組合商品是否可供購買（庫存是否足夠），取決於其 子商品 的庫存數量及設定。若其中任一子商品庫存不足，且該子商品庫存不足時設定為 *停止銷售*，則該組合商品將無法購買。進一步瞭解[商品庫存相關設定](create-update-products.md#operate-product-create-inventory){ title="新增與更新商品" }。
 
 !!! info "子商品下架或停止販售的處理方式"  
 	- 組合商品內的子商品 **上架狀態** 可為 _下架_ 或 _不公開_。
@@ -165,39 +162,41 @@ comments: false
 |無限數量 (不管理庫存)|庫存不足繼續銷售 (庫存數量 = 10)|無限|
 |庫存不足停止銷售 (庫存數量 = 0)|庫存不足停止銷售** (庫存數量 = 20)|庫存不足|
 
+
 ## 組合商品價差計算
 
 在訂單報表、Excel/CSV 匯出以及 API 回傳中，系統提供 **組合品價差** 欄位，用於幫助商家快速對帳及分析折扣分配。
 
-### 計算邏輯
+!!! info-clean "計算邏輯"
 
-組合商品的價格與價差計算規則如下：
+    組合商品的價格與價差計算規則如下：
 
-- **組合品折扣** = 子商品總價 − 組合品售價
-- **折扣分配**：將組合品折扣依比例分配至各子商品 
-- **組合品價差** = 子商品原價 − 分配後的最終價格
-    
-> :lucide-triangle-alert: 注意：組合品價差反映每個子商品分攤折扣後的差額，用於對帳與報表分析，不影響實際結帳金額。
+    - **組合品折扣** = 子商品總價 − 組合品售價
+    - **折扣分配**：將組合品折扣依比例分配至各子商品 
+    - **組合品價差** = 子商品原價 − 分配後的最終價格
+        
+    !!! warning "注意"
+        組合品價差反映每個子商品分攤折扣後的差額，用於對帳與報表分析，不影響實際結帳金額。
 
-### 計算範例
+??? example "計算範例"
 
-假設一個組合品包含三個子商品：
+    假設一個組合品包含三個子商品：
 
-- 組合品售價：850 元
-- 子商品原價總和：900 元
-- 總折扣：50 元
-    
-|子商品|最終價格|組合品價差|
-|---|---|---|
-|A|94|6|
-|B|283|17|
-|C|473|27|
+    - 組合品售價：850 元
+    - 子商品原價總和：900 元
+    - 總折扣：50 元
+        
+    |子商品|最終價格|組合品價差|
+    |---|---|---|
+    |A|94|6|
+    |B|283|17|
+    |C|473|27|
 
-**說明**：
+    **說明**：
 
-- 「最終價格」為折扣按比例分配至子商品後的價格
-- 「組合品價差」為原價減去最終價格的差額
-- 三個子商品的組合品價差總和 = 50 元（與總折扣一致）
+    - 「最終價格」為折扣按比例分配至子商品後的價格
+    - 「組合品價差」為原價減去最終價格的差額
+    - 三個子商品的組合品價差總和 = 50 元（與總折扣一致）
 
 ## 新增組合商品
 
@@ -236,7 +235,7 @@ comments: false
 	- 商品標語：超級划算的組合商品
 
 !!! quote ""
-	![](../../../assets/images/ec-product-combo-basic-setting-frontend.zh-tw.png)
+	![組合商品前台顯示](../../../assets/images/ec-product-combo-basic-setting-frontend.zh-tw.png){ title="組合商品前台顯示" }
 
 #### 組合商品圖片
 
@@ -264,7 +263,7 @@ comments: false
     - **組合商品售價**：實際銷售價格，若低於定價，前台會顯示優惠價格    
     - **紅利折抵**：此組合商品可折抵的紅利上限
 
-![](../../../assets/images/ec-product-combo-specified-quantity.zh-tw.png)
+![指定組合數量設定](../../../assets/images/ec-product-combo-specified-quantity.zh-tw.png){ title="指定組合數量設定" }
 
 #### 任選組合商品設定
 
@@ -280,19 +279,19 @@ comments: false
 
     > :lucide-triangle-alert: 庫存數量計算方式請參考 [庫存管理](#子商品庫存管理) 的「商品組合 C」。
 
-![](../../../assets/images/ec-product-combo-optional-quantity.zh-tw.png)
+![任選組合數量設定](../../../assets/images/ec-product-combo-optional-quantity.zh-tw.png){ title="任選組合數量設定" }
 
 #### 前台結帳與購物車行為
 
 - 消費者必須選購至後台設定的 **任選組合總數** 才能加入購物車。
 - 若達到選購上限，前台會提示 **已達上限**。
 
-![](../../../assets/images/ec-product-combo-optional-quantity-frontend.zh-tw.png)
+![任選組合前台呈現](../../../assets/images/ec-product-combo-optional-quantity-frontend.zh-tw.png){ title="任選組合前台呈現" }
 
 - 購物車與結帳頁會判斷組合商品是否符合物流材積限制。  
 - 組合商品僅支援單一溫層，不支援[多通路觸發多購物車](../shipping/設定商品配送條件（物流、溫層與出貨通路）.md#多通路購物車拆分){ title="設定商品配送條件（物流、溫層與出貨通路）" }。
 
-![](../../../assets/images/ec-product-combo-optional-quantity-cart.zh-tw.png)
+![組合商品購物車](../../../assets/images/ec-product-combo-optional-quantity-cart.zh-tw.png){ title="組合商品購物車" }
 
 
 ## 後續步驟

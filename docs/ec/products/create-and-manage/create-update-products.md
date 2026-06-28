@@ -2,7 +2,7 @@
 title: 新增與更新商品
 description: 完成一支商品從新增、設定款式與價格、撰寫商品描述，到後續編輯、複製、上下架，以及多國語系與跨境銷售的相關設定。
 created: 2026-03-08 17:15
-last_modified: 2026-06-28 16:55
+last_modified: 2026-06-28 23:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -51,7 +51,7 @@ features:
   - 物流材積計算
 prerequisites: []
 related:
-  - "[[Excel 大量匯入商品]]"
+  - "[[excel-import-products]]"
   - "[[編輯商品描述與商品設定]]"
   - "[[setup-product-videos]]"
   - "[[setup-back-in-stock-notifications]]"
@@ -85,7 +85,6 @@ icon: lucide/package-plus
 hide: []
 ---
 
-
 ![新增商品介紹](../../../assets/images/ec-create-new-product.zh-tw.png){ title="新增商品： 商品 > 所有商品 > 新增商品" .hero-page }
 
 ## 新增商品介紹 { #intro-product }
@@ -102,7 +101,7 @@ hide: []
     **商品描述** 與 **設定** 分頁只會在商品 **儲存後** 才出現。新增商品時請先填妥「商品資訊」並儲存，系統會進入編輯模式，上方才會展開其餘分頁。
 
 ??? tip "大量新增或更新商品？"
-    若需一次建立或修改大量商品，可改用 Excel 批次匯入，毋需逐筆手動操作。詳見 [大量匯入商品](../bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }。
+    若需一次建立或修改大量商品，可改用 Excel 批次匯入，毋需逐筆手動操作。詳見 [大量匯入商品](../bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }。
 
 ---
 
@@ -358,7 +357,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <div class="grid cards" markdown>
 
 - :lucide-file-spreadsheet:{ .lg }  
-  [__大量匯入商品__](../bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }   
+  [__大量匯入商品__](../bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }   
   以 Excel 一次新增或更新大量商品與款式。
 
 - :lucide-tags:{ .lg }  
@@ -381,7 +380,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 
 ??? quote "商品很多，要一支一支建立嗎？"
     [](){ #faq-product-bulk-import }
-    不需要。商品數量多時，建議使用 **Excel 批次匯入** 一次建立或更新，詳見 [大量匯入商品](../bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }。
+    不需要。商品數量多時，建議使用 **Excel 批次匯入** 一次建立或更新，詳見 [大量匯入商品](../bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }。
 
 ??? quote "為什麼設定了售價，前台卻顯示「須設定」或無法購買？"
     [](){ #faq-product-no-price }
@@ -564,7 +563,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!---->
 <!--     1. 進入「商品」>「所有商品」，勾選欲修改的品項，點選 **「匯出商品」**。 -->
 <!--     2. 開啟下載的 Excel，在對應欄位輸入欲修改的資訊（如描述、通路、溫層或配送方式）。 -->
-<!--     3. 進入 **「Excel 大量匯入商品」** 頁面，上傳編輯後的檔案。詳見 [Excel 大量匯入商品](../bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }。 -->
+<!--     3. 進入 **「Excel 大量匯入商品」** 頁面，上傳編輯後的檔案。詳見 [Excel 大量匯入商品](../bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }。 -->
 <!---->
 <!-- === ":lucide-receipt-text: 訂單內商品編輯" -->
 <!---->
@@ -577,7 +576,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!-- - **新增商品：** 使用後台提供的「下載 Excel 範本」，其隱藏的 **A 欄（商品 ID）與 B 欄（款式 ID）為空值**。上傳後系統會判定為建立全新商品。 -->
 <!-- - **更新商品：** 必須先從「商品列表」**匯出既有商品**，匯出的表格中 **A、B 欄會帶有系統產生的 ID 數值**。上傳此檔案後，系統會比對 ID 並覆蓋（更新）原有商品內容。 -->
 <!---->
-<!-- 完整說明請見 [Excel 大量匯入商品](../bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }。 -->
+<!-- 完整說明請見 [Excel 大量匯入商品](../bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }。 -->
 <!---->
 <!-- ## 重要注意事項與提醒 { #notes } -->
 <!---->
@@ -591,10 +590,10 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!-- <div class="grid cards" markdown> -->
 <!---->
 <!-- - :lucide-import:{ .lg }    -->
-<!--   [__新增大量商品__](../bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }    -->
+<!--   [__新增大量商品__](../bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }    -->
 <!--   透過 Excel 批量匯入商品，批次上架商品。 -->
 <!-- - :lucide-boxes:{ .lg }    -->
-<!--   [__新增組合商品__](新增與設定組合商品.md#新增組合商品){ title="新增與設定組合商品" }   -->
+<!--   [__新增組合商品__](create-and-setup-combo-products.md#新增組合商品){ title="新增與設定組合商品" }   -->
 <!--   建立指定或任選組合商品。 -->
 <!-- - :lucide-edit-3:{ .lg }    -->
 <!--   [__編輯商品描述與設定__](編輯商品描述與商品設定.md){ title="編輯商品描述與商品設定" }    -->
@@ -759,7 +758,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!---->
 <!--     1. 進入「商品」>「所有商品」，勾選欲修改的品項，點選 **「匯出商品」**。 -->
 <!--     2. 開啟下載的 Excel，在對應欄位輸入欲修改的資訊（如描述、通路、溫層或配送方式）。 -->
-<!--     3. 進入 **「Excel 大量匯入商品」** 頁面，上傳編輯後的檔案。詳見 [Excel 大量匯入商品](../bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }。 -->
+<!--     3. 進入 **「Excel 大量匯入商品」** 頁面，上傳編輯後的檔案。詳見 [Excel 大量匯入商品](../bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }。 -->
 <!---->
 <!-- === ":lucide-receipt-text: 訂單內商品編輯" -->
 <!---->
@@ -786,10 +785,10 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!-- <div class="grid cards" markdown> -->
 <!---->
 <!-- - :lucide-import:{ .lg }    -->
-<!--   [__新增大量商品__](../bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }    -->
+<!--   [__新增大量商品__](../bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }    -->
 <!--   透過 Excel 批量匯入商品，批次上架商品。 -->
 <!-- - :lucide-boxes:{ .lg }    -->
-<!--   [__新增組合商品__](新增與設定組合商品.md#新增組合商品){ title="新增與設定組合商品" }   -->
+<!--   [__新增組合商品__](create-and-setup-combo-products.md#新增組合商品){ title="新增與設定組合商品" }   -->
 <!--   建立指定或任選組合商品。 -->
 <!-- - :lucide-edit-3:{ .lg }    -->
 <!--   [__編輯商品描述與設定__](編輯商品描述與商品設定.md){ title="編輯商品描述與商品設定" }    -->

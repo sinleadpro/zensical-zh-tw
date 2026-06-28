@@ -92,7 +92,7 @@ hide: []
     *   **必填欄位**：商品名稱、網址、簡述、圖片、售價、定價、產品編號 (SKU) 與群組。
     *   **網址規範**：網址部分僅限 **英文與數字**，不能包含中文。
     *   **圖片規範**：必須使用 **RGB 模式的 JPG 檔**。
-    !!! info "欄位填寫設定，請參閱 [商品基本設定](../products/create-and-manage/create-update-products.md){ title="新增與更新商品" } 或 [Excel 大量匯入商品](../products/bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }。"
+    !!! info "欄位填寫設定，請參閱 [商品基本設定](../products/create-and-manage/create-update-products.md){ title="新增與更新商品" } 或 [Excel 大量匯入商品](../products/bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }。"
 3.  **提供 XML 檔案**：在同一個後台頁面複製「**產品資料 XML 表**」網址並提供給美安。
 
     ![第三方整合-美安-產品xml](../../assets/images/ec-第三方整合-美安-productxml.png){ title="第三方整合-美安-產品xml" }
