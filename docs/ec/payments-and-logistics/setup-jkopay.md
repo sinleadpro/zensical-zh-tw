@@ -1,9 +1,8 @@
 ---
-
 title: 設定街口支付
 description: 申請街口支付帳號，並在 CYBERBIZ 後台完成串接設定。
 created:
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-28 09:38
 lang: zh-TW
 permalink:
 type: tutorial
@@ -69,8 +68,7 @@ icon: lucide/smartphone-nfc
 hide:
 ---
 
-
-![](../../assets/images/ec-金物流-街口支付.png){ .hero-page }
+![街口支付設定](../../assets/images/ec-金物流-街口支付.png){ title="街口支付設定" .hero-page }
 
 ## 街口支付說明
 
@@ -85,8 +83,9 @@ hide:
 | 電子支付帳戶 | 支援消費者綁定電子支付帳戶進行付款，例如 LINE Pay、街口電子帳戶。 |
 | 信用卡支付 | 支援主要信用卡品牌。 |
 
-> 詳細街口回饋方式說明請參考 [街口回饋方式簡介 :lucide-external-link:](https://www.cyberbiz.io/helpcenter/wp-content/uploads/2021/03/%E3%80%90%E8%A1%97%E5%8F%A3%E6%94%AF%E4%BB%98%E3%80%91%E8%A1%97%E5%8F%A3%E5%9B%9E%E9%A5%8B%E6%96%B9%E5%BC%8F%E7%B0%A1%E4%BB%8B.pdf)。
+!!! info "詳細街口回饋方式說明請參考 [街口回饋方式簡介 :lucide-external-link:](https://www.cyberbiz.io/helpcenter/wp-content/uploads/2021/03/%E3%80%90%E8%A1%97%E5%8F%A3%E6%94%AF%E4%BB%98%E3%80%91%E8%A1%97%E5%8F%A3%E5%9B%9E%E9%A5%8B%E6%96%B9%E5%BC%8F%E7%B0%A1%E4%BB%8B.pdf)。"
 
+---
 
 ### 申請限制與注意事項
 
@@ -94,12 +93,13 @@ hide:
 - 使用街口幣折抵訂單金額時，由街口支付承擔折抵金額。
 - 申請流程約需 **1–2 週**，以街口支付官方進度為準。
 
-
 ## 操作步驟
   
 ### 步驟一：填寫申請表單
 
 前往 [CYBERBIZ x 街口支付串接申請表單](https://docs.google.com/forms/d/e/1FAIpQLSeu-OHx8njpaQtC61vZRIpoj529BmkdRtt74490Io3u16AJ_g/viewform)，填寫完整資料。
+
+---
 
 ### 步驟二：完成街口支付帳號申請
 
@@ -110,6 +110,8 @@ hide:
 	- 電話：02-87717000
 	- Email：am@jkos.com
 
+---
+
 ### 步驟三：完成 CYBERBIZ 後台串接設定
 
 1. 收到街口支付提供的 **店鋪代碼（Store ID）**。
@@ -117,7 +119,7 @@ hide:
 3. 填入 **Store ID**，完成串接上線。
 4. 啟用街口支付功能。
 
-![](../../assets/images/ec-金物流-街口支付-storeid.png)
+![街口支付 Store ID](../../assets/images/ec-金物流-街口支付-storeid.png){ title="街口支付 Store ID" }
 
 
 ## 後續步驟
@@ -133,7 +135,7 @@ hide:
   街口店家管理後台操作手冊。
 
 - :lucide-circle-question-mark:{ .lg }   
-  [__街口支付官方 FAQ__]([https://pay.line.me/portal/tw/customer/faq?categoryId=account](https://www.jkopay.com/application/faq))  
+  [__街口支付官方 FAQ__](https://www.jkopay.com/application/faq)  
   街口支付官方彙整的常見問題。
 
 </div>

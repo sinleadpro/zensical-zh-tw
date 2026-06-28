@@ -187,7 +187,7 @@ tags:
   操作黑貓快速到店出貨。
 
 - :lucide-ban:{ .lg }     
-  [__物流限制與排除選項__](../../products/shipping/設定超商配送限制與物流排除.md){ title="設定超商配送限制與物流排除" }  
+  [__物流限制與排除選項__](../../products/shipping/cvs-shipping-restrictions-exclusions.md){ title="設定超商配送限制與物流排除" }  
   設定商品的配送物流條件，限制特定物流方式於結帳流程中的顯示與使用。
 
 </div>

@@ -66,7 +66,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=950
   - https://www.cyberbiz.io/support/?p=2025
-permalink: /ec/products/設定超商配送限制與物流排除/
+permalink: /ec/products/cvs-shipping-restrictions-exclusions/
 comments: false
 search:
   exclude: false

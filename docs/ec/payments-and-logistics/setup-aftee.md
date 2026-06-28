@@ -2,7 +2,7 @@
 title: 設定 AFTEE
 description: 透過 AFTEE 先享後付提供顧客快速便利的付款方式，提升轉換率與營收。
 created: 2026-01-26 00:00
-last_modified: 2026-06-14 11:29
+last_modified: 2026-06-28 09:20
 lang: zh-TW
 type: tutorial
 status:
@@ -67,7 +67,7 @@ icon: lucide/clock-arrow-up
 hide: []
 ---
 
-![](../../assets/images/ec-金物流-AFTEE.png){ .hero-page }
+![AFTEE 先享後付](../../assets/images/ec-金物流-AFTEE.png){ title="AFTEE 先享後付" .hero-page }
 
 ## AFTEE 先享後付說明
 
@@ -83,22 +83,26 @@ AFTEE 先享後付提供顧客一種快速、便利且安全的付款方式，�
 - **優惠費率**：2.5%（未稅），費率認列以出貨時間為準。
 - **退款**：流程與信用卡付款相同。
 
+---
 
 ### 裝置與瀏覽器限制
 
 - 顧客需可接收簡訊的手機完成驗證。
 - 系統無額外瀏覽器限制，但建議使用主流手機瀏覽器以確保流程順暢。
 
+---
+
 ### 自動取消規則
 
 - 訂單使用 AFTEE 付款，超過 90 天未出貨將自動取消（預購商品除外）。
 - 系統會在取消前 30、15、7、3、1 天發送提醒通知，確保商家掌握出貨進度。
 
+---
+
 ### 支援分期付款
 
 - 顧客下載 AFTEE App 後，可選擇分期付款方式。
 - 無需額外開通，分期功能由 AFTEE App 控制。瞭解 [如何使用 AFTEE 分期付款 :lucide-external-link:](https://netprotections.freshdesk.com/support/solutions/articles/70000197869-%E5%8F%AA%E6%9C%89app%E6%9C%83%E5%93%A1%E8%83%BD%E5%88%86%E6%9C%9F%E5%97%8E-)
-
 
 ## 操作步驟
 
@@ -109,7 +113,7 @@ AFTEE 先享後付提供顧客一種快速、便利且安全的付款方式，�
 3. 在 AFTEE 設定區塊，點擊 **申請開通**，填寫『AFTEE 啟用申請』彈窗資料，點擊 **送出申請** 供 AFTEE 端審核。
 4. AFTEE 審核通過後，系統會發送通知信件給網站管理員。 
 
-![](../../assets/images/ec-金物流-aftee 申請.gif)
+![AFTEE 申請開通](../../assets/images/ec-金物流-aftee 申請.gif){ title="AFTEE 申請開通" }
 
 ### 步驟二：啟用後支付方式
 
@@ -119,7 +123,7 @@ AFTEE 先享後付提供顧客一種快速、便利且安全的付款方式，�
 3. 在 AFTEE 區塊，啟用 AFTEE。
 4. 前台顯示 AFTEE 付款選項。
 
-![](../../assets/images/ec-金物流-aftee-前台顯示.png)
+![AFTEE 前台顯示](../../assets/images/ec-金物流-aftee-前台顯示.png){ title="AFTEE 前台顯示" }
 
 ### 步驟三：顧客付款流程
 
@@ -129,7 +133,7 @@ AFTEE 先享後付提供顧客一種快速、便利且安全的付款方式，�
 4. 系統顯示訂單「已收到款項」即可進行出貨。  
 5. 若付款未通過，顧客可依指示重試或直接聯繫 AFTEE。
 
-![](../../assets/images/ec-金物流-aftee-結帳.png)
+![AFTEE 結帳流程](../../assets/images/ec-金物流-aftee-結帳.png){ title="AFTEE 結帳流程" }
 
 <!--
 

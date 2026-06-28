@@ -39,7 +39,7 @@ features:
 prerequisites: []
 related:
   - "[[order-report-fields]]"
-  - "[[設定超商配送限制與物流排除]]"
+  - "[[cvs-shipping-restrictions-exclusions]]"
   - "[[export-subscription-forecast]]"
   - "[[security-settings]]"
   - "[[add-admin-set-permissions]]"
@@ -150,7 +150,7 @@ hide: []
   若有 POS 系統，可至「POS 商店列表」>「庫存管理」>「報表」下載「訂單匯總報表」或「每日出金報表」。
 
 - :lucide-warehouse:{ .lg }     
-  [__電商倉儲報表__](../../products/shipping/設定超商配送限制與物流排除.md)  
+  [__電商倉儲報表__](../../products/shipping/cvs-shipping-restrictions-exclusions.md)  
   若使用峰潮物流，可於 WMS 後台「訂單」>「列表」中依照篩選條件進行「報表匯出」。
 
 - :lucide-hand-coins:{ .lg }   
