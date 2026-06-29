@@ -47,7 +47,7 @@ tags:
 
 顧客於前台瀏覽單一商品詳細資訊的頁面，包含商品名稱、價格、圖片、規格、庫存狀態、配送方式與購買按鈕等內容。
 
-- **參閱**：[編輯商品描述與商品設定](../ec/products/create-and-manage/編輯商品描述與商品設定.md){ title="編輯商品描述與商品設定" }
+- **參閱**：[編輯商品描述與商品設定](../ec/products/create-and-manage/edit-product-description-settings.md){ title="編輯商品描述與商品設定" }
 
 ### 商品網址
 

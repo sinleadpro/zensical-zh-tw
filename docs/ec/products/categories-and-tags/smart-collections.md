@@ -2,7 +2,7 @@
 title: 設定商品條件分類群組
 description: 依商品屬性與條件，自動將符合規則的商品分類至指定群組。
 created: 2026-01-15 00:00
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-29 13:03
 lang: zh-TW
 type: tutorial
 status:
@@ -62,7 +62,7 @@ comments: false
 
 ![商品條件分類群組-hero](../../../assets/images/ec-product-conditionalized-collections.zh-tw.png){ title="商品自動分類群組：商品 > 商品條件分類" .hero-page }
 
-## 商品條件分類介紹 { #intro-smart-collections }
+## 商品條件分類說明 { #intro-smart-collections }
 
 「商品條件分類」讓您先設定一組商品篩選條件，凡是符合條件的商品就會自動歸入這個分類，不需要逐一手動挑選。當您日後新增商品、調整價格或商品庫存變動時，系統會自動把符合條件的商品納入
 、把不再符合的商品移出，讓分類內容隨時保持最新。
@@ -87,8 +87,7 @@ comments: false
 - [x] **商品資料已填寫完整**：篩選會比對商品的名稱、類型、廠商、標籤、價格、庫存等欄位，這些欄位填得越完整，條件分類越準確。
 
 !!! plan "方案/開通條件"
-    本文後段的 [多國語系翻譯設定][operate-smart-collections-multi-language]{ data-preview }
-為選用功能，需先開通多國語系商店功能。未開通時，分類編輯頁不會出現語言切換選單，僅能以預設語言(繁體中文)建立內容。如不確定是否已開通，請聯繫您的 CYBERBIZ 業務窗口確認。
+    本文後段的 [多國語系翻譯設定](#operate-smart-collections-multi-language) 為選用功能，需先開通多國語系商店功能。未開通時，分類編輯頁不會出現語言切換選單，僅能以預設語言(繁體中文)建立內容。如不確定是否已開通，請聯繫您的 CYBERBIZ 業務窗口確認。
 
 ---
 
@@ -101,9 +100,11 @@ comments: false
 1. **進入商品條件分類頁面：** 於後台左側選單點選「商品條件分類」，進入分類列表頁。
 2. **新增分類：** 點擊頁面右上角的 **「新增商品分類」**，進入「分類設定」頁。
 3. **填寫分類名稱：** 在 **「分類名稱」** 輸入這個分類的名稱，例如「夏季新品」。
-4. **設定分類網址(選填)：** 在 **「分類網址」** 自訂這個分類頁的連結路徑；留空時系統會自動產生。
+4. **設定分類網址：** 在 **「分類網址」** 自訂這個分類頁的連結路徑；留空時系統會自動產生。
 5. **填寫分類描述(選填)：** 在 **「分類描述」** 編輯器輸入要顯示在分類頁的說明文字。
 6. **儲存：** 點擊頁面下方的 **「儲存」**。儲存後，頁面上方會出現 **「加入商品」** 分頁，即可繼續設定篩選條件。
+
+![新增條件分類](../../../assets/images/ec-smart-collections-create.png)
 
 !!! note "註釋"
     分類網址在同一商店內不可重複，且「all」為系統保留字，無法做為分類網址使用。
@@ -115,24 +116,25 @@ comments: false
 條件分類的核心是「商品規則」。一條規則由 **篩選欄位**、**條件**、**比對值** 三個部分組成，例如：商品價格 → 小於 →
 1,000。當您設定多條規則時，系統會依您選擇的組合方式判斷商品是否納入。
 
-**規則的組合邏輯：**
-
-* **單一規則內**：固定為「篩選欄位 + 條件 + 比對值」的單一比對。
-* **多條規則之間**：由「篩選結果」統一決定 —— 選 **「符合全部條件」** 代表商品需 **同時** 符合所有規則；選 **「符合任一條件」** 代表只要 **符合其中一條** 規則即納入。
-* 整個分類只能擇一使用「符合全部條件」或「符合任一條件」，無法逐條混用不同邏輯。
-
-操作步驟：
 
 1. **切換到「加入商品」分頁：** 在分類設定頁上方，點選 **「加入商品」** 分頁。
 2. **選擇條件組合方式：** 在 **「商品規則」** 區塊的 **「篩選結果」**，選擇 **「符合全部條件」** 或 **「符合任一條件」**。
 3. **新增規則：** 點擊 **「新增商品規則」**，系統會新增一列規則設定。
-4. **設定單一規則：** 在該列中，先選 **篩選欄位**，再選 **條件**，最後輸入 **比對值**。可用的欄位與條件請見 [篩選欄位對照表][smart-collections-rule-columns]{ data-preview } 與
-[篩選條件對照表][smart-collections-rule-relations]{ data-preview }。
+4. **設定單一規則：** 在該列中，先選 **篩選欄位**，再選 **條件**，最後輸入 **比對值**。可用的欄位與條件請見 [篩選欄位對照表](../references/smart-collections-rule-columns.md#smart-collections-rule-columns){ title="條件分類篩選欄位對照表" data-preview } 與
+[篩選條件對照表](../references/smart-collections-rule-relations.md#smart-collections-rule-relations){ title="條件分類篩選條件對照表" data-preview }。
 5. **增減規則：** 重複上一步可加入多條規則；要移除某條規則，點該列右側的刪除圖示。
 6. **儲存規則：** 點擊「商品規則」區塊下方的 **「儲存」**，系統會立即依規則重新計算符合的商品。
 
-!!! tip "技巧"
-    若選了數值欄位(商品價格、定價、庫存現貨)，比對值請輸入數字；這類欄位只能搭配「等於、大於、小於」。
+![設定篩選條件](../../../assets/images/ec-smart-collections-rules.png)
+
+!!! info "規則的組合邏輯"
+
+    * **單一規則內**：固定為「篩選欄位 + 條件 + 比對值」的單一比對。
+    * **多條規則之間**：由「篩選結果」統一決定 —— 選 **「符合全部條件」** 代表商品需 **同時** 符合所有規則；選 **「符合任一條件」** 代表只要 **符合其中一條** 規則即納入。
+    * 整個分類只能擇一使用「符合全部條件」或「符合任一條件」，無法逐條混用不同邏輯。
+
+    !!! tip "技巧"
+        若選了數值欄位(商品價格、定價、庫存現貨)，比對值請輸入數字；這類欄位只能搭配「等於、大於、小於」。
 
 ---
 
@@ -140,8 +142,10 @@ comments: false
 
 1. **檢視符合的商品：** 規則儲存後，下方 **「符合的商品」** 會列出目前命中的商品，包含商品名稱、售價、商品類型與廠商，方便您確認條件是否正確。
 2. **選擇排序方式：** 在排序下拉選單選擇商品在前台分類頁的呈現順序，例如「按價格排序：最高-最低」或「暢銷商品排序」。完整選項請見
-[商品排序方式對照表][smart-collections-sort-orders]{ data-preview }。
+[商品排序方式對照表](../references/smart-collections-sort-order.md#smart-collections-sort-orders){ title="條件分類商品排序方式對照表" data-preview }。
 3. **手動排序(選用)：** 若選擇「手動排序」，即可直接拖曳商品列調整先後順序。
+
+![檢視商品排序](../../../assets/images/ec-smart-collections-sort.png)
 
 !!! note "註釋"
     條件分類的商品是動態的 —— 之後只要有商品的資料變動到符合或不符合規則，系統就會自動納入或移出，您不需要再回來手動維護成員。
@@ -153,6 +157,8 @@ comments: false
 1. **填寫 SEO 設定(選填)：** 回到 **「分類設定」** 分頁，於下方 **「SEO設定」** 填寫網頁標題、網頁描述與網頁關鍵字，有助於搜尋引擎收錄這個分類頁。
 2. **公開分類：** 回到「商品條件分類」列表頁，將該分類的狀態切換為 **「公開」**；設為 **「不公開」** 時，前台不會顯示這個分類。
 
+![SEO與公開設定](../../../assets/images/ec-smart-collections-publish.png)
+
 !!! note "註釋"
     SEO 設定區塊只會在分類 **已建立並儲存後** 才出現，新增分類的當下尚未顯示。
 
@@ -160,15 +166,21 @@ comments: false
 
 ### 五、多國語系翻譯設定 { #operate-smart-collections-multi-language }
 
-若您的商店已開通多國語系，可為每一個條件分類的 **分類名稱** 與 **分類描述** 提供各語言的版本，讓不同語言的顧客在前台看到對應翻譯。
-
 !!! plan "方案/開通條件"
-    此功能需先開通多國語系商店功能。未開通時，分類編輯頁的標題旁不會出現語言切換選單。支援的語言請見 [多國語系支援語言對照表][multi-language-supported]{ data-preview }。
+    此功能需先開通多國語系商店功能。未開通時，分類編輯頁的標題旁不會出現語言切換選單。支援的語言請見 [多國語系支援語言對照表](../references/multi-language-supported.md#multi-language-supported){ title="多國語系支援語言對照表" data-preview }。
+
+若您的商店已開通多國語系，可為每一個條件分類的 **分類名稱** 與 **分類描述** 提供各語言的版本，讓不同語言的顧客在前台看到對應翻譯。
 
 1. **進入要翻譯的分類：** 在「商品條件分類」列表頁點選分類進入編輯。請注意，語言切換選單只在 **已建立** 的分類才會出現，新增分類的當下無法切換語言。
 2. **切換語言：** 點選分類編輯頁標題旁的 **「選擇語言」** 下拉選單，切換到要翻譯的語言。
+
+    ![切換語言](../../../assets/images/ec-smart-collections-lang-switch.png)
+
 3. **輸入該語言的內容：** 切換後，**「分類名稱」** 與 **「分類描述」** 欄位會標示目前的語言，輸入對應語言的翻譯即可。編輯方式與
-[新增條件分類並填寫基本資料][operate-smart-collections-create]{ data-preview } 相同。
+[新增條件分類並填寫基本資料](#operate-smart-collections-create) 相同。
+
+    ![多語系輸入](../../../assets/images/ec-smart-collections-lang-input.png)
+
 4. **儲存：** 點擊 **「儲存」** 保存該語言版本，再切換到下一個語言重複即可。
 
 !!! note "註釋"
@@ -189,8 +201,6 @@ comments: false
 
 ## 後續操作 { #next-steps-smart-collections }
 
-完成條件分類設定後，您可以接著：
-
 <div class="grid cards" markdown>
 
 <!-- - :lucide-package:{ .lg }  
@@ -202,7 +212,7 @@ comments: false
   把建立好的條件分類放進前台選單或導覽列，讓顧客逛得到。
 
 - :lucide-languages:{ .lg }  
-  [__查看支援語言__](../references/multi-language-supported.md){ title="多國語系支援語言對照表" data-preview }  
+  [__查看支援語言__](../references/multi-language-supported.md){ title="多國語系支援語言對照表" }  
   確認多國語系可翻譯的語言清單。
 
 </div>
@@ -278,8 +288,8 @@ comments: false
 
 ## 參考資料 { #reference-smart-collections }
 
-* [條件分類篩選欄位對照表](references/smart-collections-rule-columns.md)
-* [條件分類篩選條件對照表](references/smart-collections-rule-relations.md)
-* [條件分類商品排序方式對照表](references/smart-collections-sort-orders.md)
-* [多國語系支援語言對照表](references/multi-language-supported.md)
+* [條件分類篩選欄位對照表](../references/smart-collections-rule-columns.md)
+* [條件分類篩選條件對照表](../references/smart-collections-rule-relations.md)
+* [條件分類商品排序方式對照表](../references/smart-collections-sort-order.md)
+* [多國語系支援語言對照表](../references/multi-language-supported.md)
 

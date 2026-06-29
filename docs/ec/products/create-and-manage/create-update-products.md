@@ -52,7 +52,7 @@ features:
 prerequisites: []
 related:
   - "[[excel-import-products]]"
-  - "[[編輯商品描述與商品設定]]"
+  - "[[edit-product-description-settings]]"
   - "[[setup-product-videos]]"
   - "[[setup-back-in-stock-notifications]]"
 tags:
@@ -541,7 +541,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!---->
 <!-- 請留意 **哪些欄位需逐語言翻譯、哪些欄位是所有語言共用** 的： -->
 <!---->
-<!-- - **需逐語言翻譯：** 商品名稱、商品標語、商品簡述、商品規格、規格項目，以及商品描述頁的內容（於 [編輯商品描述與商品設定](編輯商品描述與商品設定.md){ title="編輯商品描述與商品設定" } 另述）。 -->
+<!-- - **需逐語言翻譯：** 商品名稱、商品標語、商品簡述、商品規格、規格項目，以及商品描述頁的內容（於 [編輯商品描述與商品設定](edit-product-description-settings.md){ title="編輯商品描述與商品設定" } 另述）。 -->
 <!-- - **所有語言共用：** 價格、款式、SKU、庫存、商品圖片、分類與標籤。這些只需設定一次，切換語言不會改變。 -->
 <!---->
 <!-- 操作方式： -->
@@ -596,7 +596,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!--   [__新增組合商品__](create-and-setup-combo-products.md#新增組合商品){ title="新增與設定組合商品" }   -->
 <!--   建立指定或任選組合商品。 -->
 <!-- - :lucide-edit-3:{ .lg }    -->
-<!--   [__編輯商品描述與設定__](編輯商品描述與商品設定.md){ title="編輯商品描述與商品設定" }    -->
+<!--   [__編輯商品描述與設定__](edit-product-description-settings.md){ title="編輯商品描述與商品設定" }    -->
 <!--   編輯商品描述及設定頁籤資訊。 -->
 <!-- - :lucide-bell:{ .lg } ](../engagement/setup-back-in-stock-notifications.md)./engagement/設定商品到貨通知.md){ title="設定商品到貨通知" }   -->
 <!--   設定到貨通知，通知顧客追蹤商品已補貨。 -->
@@ -791,7 +791,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!--   [__新增組合商品__](create-and-setup-combo-products.md#新增組合商品){ title="新增與設定組合商品" }   -->
 <!--   建立指定或任選組合商品。 -->
 <!-- - :lucide-edit-3:{ .lg }    -->
-<!--   [__編輯商品描述與設定__](編輯商品描述與商品設定.md){ title="編輯商品描述與商品設定" }    -->
+<!--   [__編輯商品描述與設定__](edit-product-description-settings.md){ title="編輯商品描述與商品設定" }    -->
 <!--   編輯商品描述及設定頁籤資訊。 -->
 <!-- - :lucide-bell:{ .lg }    -->
 <!--   [__商品到貨通知__](../engagement/設定商品到貨通知.md){ title="設定商品到貨通知" }   -->
