@@ -2,7 +2,7 @@
 title: 使用再次購買功能
 description: 前台會員的再次購買功能，讓會員能輕鬆重新下單過去購買過的產品，包含使用前提、操作流程及特殊情境說明。
 created: 2026-05-06 21:15
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-29 22:08
 lang: zh-TW
 type: tutorial
 status: ""
@@ -62,7 +62,7 @@ search:
 icon: lucide/repeat-1
 hide: []
 ---
-![訂單再次購買](../../../assets/images/EC-訂單-訂單查詢-前台-再次購買-hero.png){ .hero-page }
+![訂單再次購買](../../../assets/images/EC-訂單-訂單查詢-前台-再次購買-hero.png){ title="訂單再次購買" .hero-page }
 
 ## 再次購買功能說明
 
@@ -80,12 +80,12 @@ hide: []
 
 1.  **進入訂單列表**：會員登入官網後，進入「**訂單查詢**」中的「一般訂單」分頁。
 
-    ![訂單查詢-一般訂單](../../../assets/images/EC-前台-訂單查詢-一般訂單.png)
+    ![訂單查詢-一般訂單](../../../assets/images/EC-前台-訂單查詢-一般訂單.png){ title="訂單查詢-一般訂單" }
 
 2.  **選取訂單**：挑選想要重複購買的舊訂單，不論該筆訂單是否已付款或已出貨皆可操作。
 3.  **點擊再次購買**：在該筆訂單的右下角點擊「**再次購買**」按鈕，或從「近期訂單」中直接點選。
 
-    ![訂單查詢-再次購買](../../../assets/images/EC-前台-訂單查詢-再次購買.png)
+    ![訂單查詢-再次購買](../../../assets/images/EC-前台-訂單查詢-再次購買.png){ title="訂單查詢-再次購買" }
 
     !!! note "自動過濾非銷售品項"
         系統僅會將「一般商品」加入購物車。原訂單內的贈品、加價購商品、首購禮及贈品券將自動排除，不會重複加入。 [瞭解詳情][order-repurchase-block]{ data-preview }
@@ -118,10 +118,6 @@ hide: []
 ## 後續操作
 
 <div class="grid cards" markdown>
-
-- :lucide-shopping-cart:{ .lg }  
-  [__前往購物車結帳__](../../../shopping-cart/購物車結帳流程.md)  
-  商品加入購物車後，會員可前往購物車確認商品數量、優惠及運費，完成結帳流程。
 
 - :lucide-file-search:{ .lg }  
   [__查詢訂單狀態__](order-management-interface.md){ title="訂單管理介面說明" }  

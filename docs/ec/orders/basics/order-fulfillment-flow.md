@@ -2,7 +2,8 @@
 title: 訂單出貨流程
 permalink: https://help.cyberbiz.io/ec/orders/basics/order-fulfillment-flow
 version: ""
-last_modified: 2026-06-10 19:30
+author: Jase
+last_modified: 2026-06-29 22:22
 description: ""
 product:
   - EC
@@ -59,9 +60,6 @@ search:
   exclude: ""
 icon: lucide/workflow
 ---
-
-從訂單成立到包裹寄出，本文帶您了解新版訂單列表的出貨方式、出貨前的準備、運費計算規則，以及系統串接物流與自訂物流的操作差異。
-{ .subtitle }
 
 <!-- ![訂單出貨流程總覽](../../../assets/images/fulfillment-overview-hero.png){ .hero-page } -->
 
@@ -229,9 +227,9 @@ icon: lucide/workflow
 
 
 ??? example "壓縮檔內容範例"
-    ![託運單壓縮檔內容](../../../assets/images/ec-訂單-所有訂單-託運單壓縮檔內容.png)
+    ![託運單壓縮檔內容](../../../assets/images/ec-訂單-所有訂單-託運單壓縮檔內容.png){ title="託運單壓縮檔內容" }
 
-!!! note "為什麼是壓縮檔"
+!!! info "為什麼是壓縮檔"
     批次出貨可能一次涵蓋多筆訂單與多份文件，系統統一打包成 ZIP，避免逐筆、逐份分開下載。下載完成後請先解壓縮，再列印所需的託運單與明細。
 
 <!---
@@ -241,7 +239,7 @@ icon: lucide/workflow
 
 -->
 
-> **黑貓專屬：** 下載黑貓託運單壓縮檔的同時，系統會一併送出 **[叫車（司機收件）](../home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }** 需求，您不需另外手動叫車[^tcat-call-driver]。
+!!! tip "**黑貓專屬：** 下載黑貓託運單壓縮檔的同時，系統會一併送出 **[叫車（司機收件）](../home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }** 需求，您不需另外手動叫車[^tcat-call-driver]。"
 
 [^tcat-call-driver]: 此功能需 **專業PLUS / 進階 PLUS / 高手 PLUS / 企業** 方案，並向 CYBERBIZ 客服申請開通。
 
@@ -300,7 +298,7 @@ icon: lucide/workflow
 
 ??? quote "已經下載過託運單，還能再列印嗎"
     [](){ #faq-fulfillment-redownload }
-    可以。在「更多操作」選擇「補印託運單」，即可重新下載該訂單的託運單 PDF（詳見 [補印與加印託運單](../../payments-and-logistics/補印與加印託運單.md){ title="補印與加印託運單" }）。
+    可以。在「更多操作」選擇「補印託運單」，即可重新下載該訂單的託運單 PDF（詳見 [補印與加印託運單](../../payments-and-logistics/reprint-waybills.md){ title="補印與加印託運單" }）。
 
 ??? quote "訂單出貨後發生異常，可以重新出貨嗎"
     [](){ #faq-fulfillment-reship }
@@ -334,9 +332,9 @@ icon: lucide/workflow
 
 ## 參考資料 { #reference-fulfillment }
 
-- [配送狀態對照表](../references/fulfillment-statuses.md){ title="配送狀態對照表" data-preview }
-- [超商物流部分出貨支援對照表](../references/cvs-partial-shipping-support.md){ title="超商物流部分出貨支援對照表" data-preview }
-- [黑貓託運單規格與費用對照表](../../payments-and-logistics/references/tcat-delivery-rate-card.md){ title="黑貓宅配託運單規格與費用對照表" data-preview }
+- [配送狀態對照表](../references/fulfillment-statuses.md){ title="配送狀態對照表" }
+- [超商物流部分出貨支援對照表](../references/cvs-partial-shipping-support.md){ title="超商物流部分出貨支援對照表" }
+- [黑貓託運單規格與費用對照表](../../payments-and-logistics/references/tcat-delivery-rate-card.md){ title="黑貓宅配託運單規格與費用對照表" }
 <!---
 <!---
 
