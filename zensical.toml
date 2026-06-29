@@ -607,6 +607,7 @@ copyright = """
             { "發票設定" = [
                 { "星益欣電子發票" = "ec/website-management/星益欣電子發票設定指南.md" },
                 { "系統代開消費者發票" = "ec/website-management/manage-system-issued-consumer-invoices.md"},
+                { "綠界電子發票" = "ec/website-management/ecpay-invoice.md" },
             ]},
             {"儲值中心" = "ec/website-management/points-deposits.md"},
             { "特定網域信箱套用會員標籤" = "ec/website-management/特定網域信箱套用會員標籤.md" },
@@ -757,9 +758,6 @@ copyright = """
             { "設定前台自動登出時間" = "pos/store/setup-frontend-auto-logout-time.md" },
             { "員工權限與帳號管理" = "pos/store/staff-permissions-and-account-management.md" },
             { "人員登入" = "pos/store/staff-login.md" },
-            { "參考資源" = [
-                { "人員權限欄位參考表" = "pos/reference/staff-permission-fields-reference.md" },
-            ]}
         ]},
         { "報表分析" = [
             { "營收分析" = "pos/business-intelligence/pos-revenue-analysis.md" },
