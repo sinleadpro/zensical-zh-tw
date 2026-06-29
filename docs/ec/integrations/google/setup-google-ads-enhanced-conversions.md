@@ -2,7 +2,7 @@
 title: 設定 Google Ads 強化轉換
 description: 設定 Google Ads 強化轉換功能，讓系統收到更詳細的行為資料以優化廣告成效。
 created: 2026-03-25 18:07
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -50,7 +50,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=39654
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-ads-enhanced-conversions
 search:
   exclude: false
 icon: lucide/rocket

@@ -2,7 +2,7 @@
 title: 設定 LINE 團購機器人
 description: 建立並設定 LINE 團購機器人，完成 Messaging API、Webhook 與 LIFF 串接，讓使用者可在 LINE 群組內進行團購購物。
 created: 2026-03-11 17:27
-last_modified: 2026-06-25 20:57
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status:
@@ -59,7 +59,7 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=29174&page=2
-permalink:
+permalink: https://help.cyberbiz.io/ec/integrations/line/group-buy/setup-line-group-bot
 comments: false
 search:
   exclude: false

@@ -1,9 +1,8 @@
 ---
-
 title: 使用 AUTOMATION 建立自動化推播流程
 description: 在 CYBERBIZ AUTOMATION 中建立自動化流程，設定會員分群並發送簡訊、EDM 或 LINE OA 訊息。
 created: 2026-03-09 14:48
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-27 21:51
 lang: zh-TW
 type: tutorial
 status:
@@ -43,12 +42,11 @@ features:
   - 成效追蹤
 prerequisites:
   - /ec/notifications/send-edm-newsletters
-  - /ec/integrations/line/設定 LINE 快速登入
-  - /ec/integrations/line/綁定 LINE 官方帳號與官網會員
+  - /ec/integrations/line/account-integration/setup-line-quick-login
+  - /ec/integrations/line/account-integration/bind-line-oa-store-members
 related:
   - /ec/notifications/send-edm-newsletters
 tags:
-  - EC
   - Automation
   - 自動化行銷
   - 推播流程
@@ -66,8 +64,9 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7955
+  - https://www.cyberbiz.io/support/?p=38638
   - https://www.cyberbiz.io/support/?p=38837
-permalink:
+permalink: https://help.cyberbiz.io/ec/app-market/automation/automation-push-flow
 search:
   exclude: false
 icon: lucide/zap
@@ -75,8 +74,7 @@ hide: []
 comments: false
 ---
 
-
-![](../../../assets/images/ec-app-market-我的擴充服務-automation.png){ .hero-page }
+![AUTOMATION 擴充服務](../../../assets/images/ec-app-market-我的擴充服務-automation.png){ title="AUTOMATION 擴充服務" .hero-page }
 
 ## AUTOMATION 自動化推播說明
 
@@ -92,11 +90,11 @@ comments: false
 1.  **後台路徑**：「會員」>「所有會員」。
 2.  **設定條件**：點選「新增篩選條件」或使用「範本」（如：忠誠、沉睡或購物車未結帳會員）。
 
-    ![](../../../assets/images/ec-會員-所有會員-會員分群範本.png)
+    ![會員分群範本](../../../assets/images/ec-會員-所有會員-會員分群範本.png){ title="會員分群範本" }
 
 3.  **儲存分群**：確認名單後點擊「儲存」，設定分群名稱與描述。若篩選內容包含 LINE 登入或綁定，可勾選同步上傳受眾至 LINE 後台。
 
-    ![](../../../assets/images/ec-會員-所有會員-automation會員分群.gif)
+    ![AUTOMATION 會員分群](../../../assets/images/ec-會員-所有會員-automation會員分群.gif){ title="AUTOMATION 會員分群" }
 
 ## AUTOMATION 操作流程 <small>簡訊/EDM/LINE OA</small>
 
@@ -108,15 +106,15 @@ comments: false
 *   **內容編輯**：
     *   **排程觸發**：可設定為「一次」或「週期」（如：每週發送一次）。
         
-        ![](../../../assets/images/ec-app-market-automation-簡訊-排程觸發.png)
+        ![簡訊排程觸發](../../../assets/images/ec-app-market-automation-簡訊-排程觸發.png){ title="簡訊排程觸發" }
         
     *   **會員篩選**：選擇預先設定好的會員分群。
 
-        ![](../../../assets/images/ec-app-market-automation-簡訊-會員篩選.png)
+        ![簡訊會員篩選](../../../assets/images/ec-app-market-automation-簡訊-會員篩選.png){ title="簡訊會員篩選" }
     
     *   **簡訊內容**：輸入文字，連結務必使用 **CYBERBIZ 站內網址** 以利追蹤成效，並點擊「預覽簡訊」確認字數（上限 70 字）。
     
-        ![](../../../assets/images/ec-app-market-automation-簡訊-簡訊內容.png)
+        ![簡訊內容編輯](../../../assets/images/ec-app-market-automation-簡訊-簡訊內容.png){ title="簡訊內容編輯" }
     
     *   **重複發送設定**：可選擇「允許」、「不允許」或「指定天數內不重複」發送給相同對象。
 
@@ -125,25 +123,26 @@ comments: false
 
 ### EDM 發送設定
 
-*   **必要前提**：必須先完成 [EDM 基礎設定](../../marketing/send-edm-newsletters.md){ data-preview }。
+*   **必要前提**：必須先完成 [EDM 基礎設定](../../notifications/send-edm-newsletters.md){ title="設定與發送 EDM 電子報" }。
 *   **操作步驟**：流程可參照[簡訊發送設定](#簡訊發送設定)。
     1.  選擇 EDM 預設模板（如：發送 EDM 給 VIP 或自訂分群）。
     2.  設定排程與會員篩選。
     3.  **EDM 發送元件**：挑選已編輯好的 EDM 樣板，並完成重複發送設定。
 
-        ![](../../../assets/images/ec-app-market-automation-EDM-EDM內容.png)
+        ![EDM 內容選擇](../../../assets/images/ec-app-market-automation-EDM-EDM內容.png){ title="EDM 內容選擇" }
 
 ---
 
 ### LINE OA 訊息發送設定
 
-*   **必要條件**：會員需完成 **LINE [登入](../../integrations/line/setup-line-quick-login.md){ data-preview } 或[綁定](../../integrations/line/bind-line-oa-store-members.md){ data-preview }**，且必須是 **LINE OA 好友**，商家需確保 LINE OA 訊息額度充足。
+*   **必要條件**：會員需完成 **LINE [登入](../../integrations/line/account-integration/setup-line-quick-login.md){ title="設定 LINE 快速登入" } 或[綁定](../../integrations/line/account-integration/bind-line-oa-store-members.md){ title="綁定 LINE 官方帳號與官網會員" }**，且必須是 **LINE OA 好友**，商家需確保 LINE OA 訊息額度充足。
 *   **操作步驟**：流程可參照[簡訊發送設定](#簡訊發送設定)。
     1.  選擇 LINE OA 預設模板（如：未結帳購物車提醒）。
     2.  **訊息模組**：可選擇「圖片」或「文字」，一次最多可發送 **3 組**。
     3.  **網址追蹤**：同樣建議使用站內網址以進行成效分析。
 
-        ![](../../../assets/images/ec-app-market-automation-lineoa-lineoa內容.png)
+        ![LINE OA 訊息內容](../../../assets/images/ec-app-market-automation-lineoa-lineoa內容.png){ title="LINE OA 訊息內容" }
+
 
 ## 流程啟用與追蹤
 
@@ -152,12 +151,12 @@ comments: false
 
 1.  **開始流程**：設定完成後點擊「開始流程」，系統會提示預計花費的 Cyber 幣或發送人數。
 
-    ![](../../../assets/images/ec-app-market-automation-lineoa-開始流程.png)
+    ![開始流程](../../../assets/images/ec-app-market-automation-lineoa-開始流程.png){ title="開始流程" }
 
 2.  **狀態監控**：
     *   **草稿 (Draft)**：可隨時編輯或刪除。
     *   **已排程/執行中**：若要修改，需點選「暫停流程」。
-    *   **已完成/執行失敗**：發送後系統會將紀錄傳送至設定的「通知信箱」（上限 10 人）。
+    *   **已完成/執行失敗**：發送後系統會將紀錄傳送至設定的「[通知信箱](#通知信箱設定)」（上限 10 人）。
 
     ??? note "流程狀態說明"
         | 狀態 (Status) | 定義 (Definition) | 情境 (Scenario) |
@@ -170,11 +169,23 @@ comments: false
 
 3.  **成效追蹤**：可在流程介面點選「成效追蹤」，數據約於 **12 小時內更新**。
 
-    ![](../../../assets/images/ec-app-market-automation-成效追蹤.gif)
+    ![成效追蹤](../../../assets/images/ec-app-market-automation-成效追蹤.gif){ title="成效追蹤" }
 
 4. **查看流程紀錄**：可在流程介面點選「查看流程紀錄」，檢視流程執行紀錄。 
 
-    ![](../../../assets/images/ec-app-market-automation-查看流程紀錄.gif)
+    ![查看流程紀錄](../../../assets/images/ec-app-market-automation-查看流程紀錄.gif){ title="查看流程紀錄" }
+
+
+## 通知信箱設定
+
+AUTOMATION 發送後，CYBERBIZ 將透過信件通知「通知人信箱」發送成功或失敗。
+
+1. 點選左側「通知信設定」>「新增通知信箱」。
+2. 新增信箱並按下確認。
+
+![通知信設定](../../../assets/images/ec-app-market-automation-notification-email-settings.png){ title="通知信設定" }
+
+!!! info "通知人信箱最高上限為 10 人。"
 
 
 ## 常見問題

@@ -2,7 +2,7 @@
 title: 使用 UTM 參數追蹤行銷流量與分析成效
 description: 使用 UTM 參數標記行銷連結，追蹤流量來源並在 GA4 中分析各渠道成效。
 created: 2026-03-25 19:22
-last_modified: 2026-06-25 18:23
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -62,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5156
   - https://www.cyberbiz.io/support/?p=6434
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/utm-parameter-tracking-guide
 comments: false
 search:
   exclude: false

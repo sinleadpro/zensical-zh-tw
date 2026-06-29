@@ -132,7 +132,7 @@ hide:
   配置自動化訊息通知，依設定週期定時推播未付款提醒，引導顧客透過訊息內的連結完成結帳。
 
 - :lucide-ban:{ .lg }     
-  [__物流限制與排除選項__](../../products/shipping/設定超商配送限制與物流排除.md){ title="設定超商配送限制與物流排除" }  
+  [__物流限制與排除選項__](../../products/shipping/cvs-shipping-restrictions-exclusions.md){ title="設定超商配送限制與物流排除" }  
   設定商品的配送物流條件，限制特定物流方式於結帳流程中的顯示與使用。
 
 </div>

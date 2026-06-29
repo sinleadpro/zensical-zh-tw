@@ -2,7 +2,7 @@
 title: 使用 Google 安全瀏覽工具檢查並排除網站安全性風險 
 description: 了解如何使用 Google 安全瀏覽網站狀態檢查工具，主動檢測官網是否存在安全性風險，並透過 GSC 申請審核解除警示。
 created: 2026-03-25 21:29
-last_modified: 2026-06-25 18:32
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -60,10 +60,10 @@ ui_components: []
 paths:
   - Google_Search_Console > 安全性與人工判決處罰 > 安全性問題
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3129
   - https://www.cyberbiz.io/support/?p=24812
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/google-safe-browsing-security-check
 comments: ""
 search:
   exclude: ""

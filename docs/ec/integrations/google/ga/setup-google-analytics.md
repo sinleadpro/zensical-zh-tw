@@ -2,7 +2,7 @@
 title: "建立並串接 Google Analytics"
 description: "串接 Google Analytics 4 (GA4)，包括 Google 端帳號建立、取得評估 ID，以及在 CYBERBIZ 後台填入追蹤 ID 的完整步驟。" 
 created: "2026-03-20 14:54"
-last_modified: 2026-06-25 18:50
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -59,10 +59,10 @@ ui_components: []
 paths:
   - 第三方整合 > Google 整合
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=678
   - https://www.cyberbiz.io/support/?p=165
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/ga/setup-google-analytics
 comments: false
 search:
   exclude: false

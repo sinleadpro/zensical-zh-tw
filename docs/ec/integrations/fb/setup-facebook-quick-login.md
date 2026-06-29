@@ -2,7 +2,7 @@
 title: 設定 Facebook 快速登入
 description: 設定 Facebook 快速登入功能，讓消費者能使用 Facebook 帳戶一鍵註冊或登入會員，並自動抓取 Facebook 綁定的信箱作為帳號。
 created: 2026-03-31 11:23
-last_modified: 2026-06-25 11:08
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -59,12 +59,12 @@ ui_components: []
 paths:
   - 第三方整合 > 臉書 Facebook 設定 (廣告/註冊登入)
 layouts: []
-wp_url: 
-  - https://www.cyberbiz.io/helpcenter/?p=776
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4420
-  - https://www.cyberbiz.io/support/?p=507
+  - https://www.cyberbiz.io/helpcenter/?p=776
   - https://www.cyberbiz.io/support/?p=26854
-permalink: ""
+  - https://www.cyberbiz.io/support/?p=507
+permalink: https://help.cyberbiz.io/ec/integrations/fb/setup-facebook-quick-login
 comments: false
 search:
   exclude: false

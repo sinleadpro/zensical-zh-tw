@@ -2,7 +2,7 @@
 title: 設定 FBE 網域驗證
 description: 在企業管理平台中完成網域驗證。
 created: 2026-04-10 14:50
-last_modified: 2026-06-25 11:37
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -59,10 +59,10 @@ ui_components: []
 paths:
   - "網站外觀 > 套版主題管理 > 程式碼編輯器"
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3228
   - https://www.cyberbiz.io/support/?p=13973
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/fb/mbe/setup-fbe-domain-verification
 comments: false
 search:
   exclude: false

@@ -2,7 +2,7 @@
 title: 建立宅配貨到不付款/自訂物流
 description: 說明如何自行設定宅配物流選項、運費門檻與溫層配送，包含配送國家總開關、金額與重量運費設定，以及多溫層購物的處理邏輯。
 created: 2026-06-04 10:02
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-28 13:57
 lang: zh-TW
 type: tutorial
 status: ""
@@ -37,7 +37,7 @@ features:
 prerequisites: 
   - "需先完成金流串接設定"
 related: 
-  - "[[宅配貨到付款（黑貓宅配通新竹物流）]]"
+  - "[[home-delivery-cash-on-delivery]]"
 tags: 
   - 物流設定
   - 運費

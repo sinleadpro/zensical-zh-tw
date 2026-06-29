@@ -2,7 +2,7 @@
 title: 串接美安通路
 description: 串接CYBERBIZ 官網與美安 (SHOP.COM)，透過經銷商會員管道銷售商品並增加品牌曝光。
 created: 2026-03-30 22:08
-last_modified: 2026-06-25 21:09
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -58,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=850
   - https://www.cyberbiz.io/support/?p=647
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/connect-marketamerica-channel
 comments: ""
 search:
   exclude: false
@@ -92,7 +92,7 @@ hide: []
     *   **必填欄位**：商品名稱、網址、簡述、圖片、售價、定價、產品編號 (SKU) 與群組。
     *   **網址規範**：網址部分僅限 **英文與數字**，不能包含中文。
     *   **圖片規範**：必須使用 **RGB 模式的 JPG 檔**。
-    !!! info "欄位填寫設定，請參閱 [商品基本設定](../products/create-and-manage/create-update-products.md){ title="新增與更新商品" } 或 [Excel 大量匯入商品](../products/bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }。"
+    !!! info "欄位填寫設定，請參閱 [商品基本設定](../products/create-and-manage/create-update-products.md){ title="新增與更新商品" } 或 [Excel 大量匯入商品](../products/bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }。"
 3.  **提供 XML 檔案**：在同一個後台頁面複製「**產品資料 XML 表**」網址並提供給美安。
 
     ![第三方整合-美安-產品xml](../../assets/images/ec-第三方整合-美安-productxml.png){ title="第三方整合-美安-產品xml" }

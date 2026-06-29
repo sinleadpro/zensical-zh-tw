@@ -228,7 +228,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-repeat:{ .lg }
-  [__定期定額__](../marketing/定期定額活動頁.md){ title="定期訂購活動頁" }
+  [__定期定額__](../marketing/other-tools/subscription-campaign-page.md){ title="定期訂購活動頁" }
 
 </div>
 

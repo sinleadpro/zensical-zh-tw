@@ -2,7 +2,7 @@
 title: 會員數據智庫
 description: 深入分析會員的消費歷史、VIP 等級與現有資產，運用數據洞察輔助銷售決策與湊單引導。
 created: 2026-05-05 11:15
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-27 13:40
 lang: zh-TW
 type: tutorial
 status: ""
@@ -73,7 +73,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=41833
   - https://www.cyberbiz.io/support/?p=41853
   - https://www.cyberbiz.io/support/?p=41889
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/app-market/storepal/member-data-warehouse
 comments: false
 search:
   exclude: false
@@ -165,17 +165,17 @@ hide: []
 
 	- 任務型優惠券
 
-		- [註冊禮](../../marketing/setup-registration-gift.md)
-		- [首購禮](../../marketing/limited-time-first-purchase-gift.md)
-		- [生日禮](../../marketing/setup-birthday-gift.md)
+		- [註冊禮](../../marketing/bonus-and-gifts/setup-registration-gift.md)
+		- [首購禮](../../marketing/bonus-and-gifts/limited-time-first-purchase-gift.md)
+		- [生日禮](../../marketing/bonus-and-gifts/setup-birthday-gift.md)
 		- [分享註冊推薦人](../../profit-sharing/referrer-profit-sharing.md)
 		- [VIP 會員日、VIP 升等禮、VIP 生日禮](../../members/vip/setup-exclusive-vip-discounts.md)
 
 	- 消費獲得的優惠券
 
-		- [指定商品送優惠券](../../marketing/send-coupons-for-specific-products.md)
+		- [指定商品送優惠券](../../marketing/conditional-send/send-coupons-for-specific-products.md)
 		- [全館折扣]() 滿額送優惠券
-		- [互動遊戲](../../marketing/interactive-games.md) 送優惠券
+		- [互動遊戲](../../marketing/other-tools/interactive-games.md) 送優惠券
 
 	##### 資產異動紀錄
 	

@@ -2,7 +2,7 @@
 title: 超商大宗寄倉B2C方案與計費對照
 description: ""
 created: 2026-05-25 21:46
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-28 11:13
 lang: zh-TW
 type: reference
 status: ""
@@ -49,10 +49,9 @@ permalink: ""
 comments: ""
 search:
   exclude: ""
-icon: lucide/layers
+icon: lucide/table
 hide:
 ---
-
 
 ## 各方案可開通的超商通路 { #reference-cvs-b2c-plans-eligibility }
 
@@ -64,7 +63,7 @@ CYBERBIZ 平台依商家「金物流串接方式」分為兩條開通路徑：
     | :-- | :-- |
     | 企業版 | 7-ELEVEN、全家、萊爾富 |
     | PLUS版 | 7-ELEVEN、全家、萊爾富 |
-    | 高手版、進階版 | 7-ELEVEN、全家、萊爾富 |
+    | 高手版、進階版 | 7-ELEVEN、全家、萊爾富（需有使用 CYBERBIZ PAYMENTS）|
     | 其他方案 | 不適用，請洽客服升級 |
 
 === "串接綠界金物流"

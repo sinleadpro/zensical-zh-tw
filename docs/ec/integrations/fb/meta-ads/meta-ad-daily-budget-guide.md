@@ -2,7 +2,7 @@
 title: Meta 廣告每日預算設定指南
 description: 設定 Meta 廣告每日預算的指南，根據新手和有經驗商家提供不同的預算計算方式與調整策略。
 created: 2026-04-20 19:52
-last_modified: 2026-06-25 16:26
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: guide
 status: ""
@@ -61,7 +61,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8048
   - https://www.cyberbiz.io/support/?p=2166
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/meta-ad-daily-budget-guide
 comments: false
 search:
   exclude: false

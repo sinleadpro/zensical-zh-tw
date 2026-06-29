@@ -2,7 +2,7 @@
 title: 排除商品不同步至 Facebook 與 Instagram 商店
 description: 透過商品標籤設定或商務管理工具，排除特定商品不同步至 Facebook 與 Instagram 商店。
 created: 2026-04-14 11:25
-last_modified: 2026-06-25 11:54
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -55,8 +55,9 @@ ui_components: []
 paths:
   - "第三方整合 > 臉書_Facebook_設定"
 layouts: []
-wp_url: []
-permalink: ""
+wp_url:
+  - https://www.cyberbiz.io/support/?p=28419
+permalink: https://help.cyberbiz.io/ec/integrations/fb/mbe/exclude-products-fb-instagram-sync
 comments: false
 search:
   exclude: false

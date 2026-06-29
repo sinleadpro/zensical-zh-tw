@@ -2,7 +2,7 @@
 title: 自動化廣告系統(Google 購物廣告)
 description: 串接 Google 購物廣告，透過 CYBERBIZ 自動化廣告系統進行廣告投放、預算管理與成效追蹤。
 created: 2026-01-15 10:00
-last_modified: 2026-06-25 17:15
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -63,7 +63,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8203
   - https://www.cyberbiz.io/support/?p=34930
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/automated-ads-system
 comments: false
 search:
   exclude: false

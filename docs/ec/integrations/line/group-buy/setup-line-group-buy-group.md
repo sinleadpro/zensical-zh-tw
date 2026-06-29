@@ -2,7 +2,7 @@
 title: "設定 LINE 團購群組"
 description: "設定 LINE 團購群組的分潤方案、商品分類與活動時間，讓團購主在 LINE 群組內進行團購活動"
 created: "2026-03-12 12:14"
-last_modified: 2026-06-25 21:00
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status:
@@ -54,7 +54,7 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=29174&page=4
-permalink:
+permalink: https://help.cyberbiz.io/ec/integrations/line/group-buy/setup-line-group-buy-group
 comments: false
 search:
   exclude: false

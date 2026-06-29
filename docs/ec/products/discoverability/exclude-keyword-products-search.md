@@ -124,7 +124,7 @@ comments: false
 <div class="grid cards" markdown>
 
 - :lucide-eye-off:{ .lg }   
-  [__秘密商品群組__](../categories-and-tags/設定秘密商品群組.md){ title="設定秘密商品群組" }       
+  [__秘密商品群組__](../categories-and-tags/secret-collection.md){ title="設定秘密商品群組" }       
   搭配「秘密群組」使用，讓特定客群可透過直接連結購買，但一般消費者無法透過站內搜尋找到該商品。
 
 - :lucide-rotate-ccw:{ .lg }     

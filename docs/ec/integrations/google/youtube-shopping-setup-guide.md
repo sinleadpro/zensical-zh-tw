@@ -2,7 +2,7 @@
 title: YouTube Shopping 設定指南
 description: 透過 YouTube Shopping 在影片、直播、短影音中植入商品資訊與連結，提升商品曝光與流量變現。
 created: 2026-03-27 10:49
-last_modified: 2026-06-25 18:38
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -60,12 +60,12 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10552
-  - https://www.cyberbiz.io/support/?p=6118
   - https://www.cyberbiz.io/helpcenter/?p=10555
-  - https://www.cyberbiz.io/support/?p=1979
   - https://www.cyberbiz.io/helpcenter/?p=10556
+  - https://www.cyberbiz.io/support/?p=1979
+  - https://www.cyberbiz.io/support/?p=6118
   - https://www.cyberbiz.io/support/?p=6149
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/youtube-shopping-setup-guide
 comments: ""
 search:
   exclude: false

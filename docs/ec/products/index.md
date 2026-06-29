@@ -71,9 +71,9 @@ VIP 價格、**搜尋可見性排除**
 -   :lucide-circle-play: __基礎操作__
 
 	---
-- [檢索商品](create-and-manage/使用商品管理介面管理商品.md#後台搜尋商品){ title="使用商品管理介面管理商品" }  
-- [選取大量商品](create-and-manage/使用商品管理介面管理商品.md#選取大量商品){ title="使用商品管理介面管理商品" }   
-- [快速設定商品公開狀態](create-and-manage/使用商品管理介面管理商品.md#快捷按鈕){ title="使用商品管理介面管理商品" }    
+- [檢索商品](create-and-manage/product-management-interface.md#後台搜尋商品){ title="使用商品管理介面管理商品" }  
+- [選取大量商品](create-and-manage/product-management-interface.md#選取大量商品){ title="使用商品管理介面管理商品" }   
+- [快速設定商品公開狀態](create-and-manage/product-management-interface.md#快捷按鈕){ title="使用商品管理介面管理商品" }    
 
 -   :lucide-flame: __熱門主題__
 	
@@ -94,11 +94,11 @@ VIP 價格、**搜尋可見性排除**
    建立新商品或更新既有商品資訊與設定。  
 
 - :lucide-pencil:{ .lg }  
-  [__編輯商品__](create-and-manage/編輯商品描述與商品設定.md){ title="編輯商品描述與商品設定" }  
+  [__編輯商品__](create-and-manage/edit-product-description-settings.md){ title="編輯商品描述與商品設定" }  
   設定商品標題、描述、規格與多媒體資源。  
 
 - :lucide-import:{ .lg }   
-  [__批次上架__](bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }  
+  [__批次上架__](bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }  
    以 Excel 大量建立或修改商品資料。  
 
 - :lucide-refresh-cw-off:{ .lg }   
@@ -176,7 +176,7 @@ VIP 價格、**搜尋可見性排除**
    指定商品可使用的物流方式。  
 
 - :lucide-ban:{ .lg }  
-  [__超商配送限制__](shipping/設定超商配送限制與物流排除.md){ title="設定超商配送限制與物流排除" }  
+  [__超商配送限制__](shipping/cvs-shipping-restrictions-exclusions.md){ title="設定超商配送限制與物流排除" }  
   設定材積與重量，自動排除不符合超商物流的商品。
 
 </div>
@@ -215,7 +215,7 @@ VIP 價格、**搜尋可見性排除**
 		 每個 SKU 欄位最多可輸入 255 個字元。
 	
 	??? quote "Excel 大量修改商品資訊的功能，無法刪除款式是正常的嗎？"
-		Excel 匯入商品沒有刪除的功能。 [Excel 大量匯入商品](bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }
+		Excel 匯入商品沒有刪除的功能。 [Excel 大量匯入商品](bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }
 		
 	??? quote "Excel 匯入商品如何判斷是否成功？"
 	    匯入結果可依通知信判斷：
@@ -224,7 +224,7 @@ VIP 價格、**搜尋可見性排除**
 	    - *先收到「成功」，再收到「失敗」*：表示匯入已通過前期檢查，但在逐列匯入時出現錯誤。可能原因包括欄位格式錯誤、匯入值不合法或指定 ID 不存在，請參考失敗通知信說明。
 	    - *先收到「成功」，再收到「完成」*：表示匯入完成成功。但若 Excel 某列全空，該列及後續列將未被匯入，需商家自行修正。  
 	      
-	[Excel 大量匯入商品](bulk-operations/Excel 大量匯入商品.md#匯入-excel-檔案){ title="Excel 大量匯入商品" }
+	[Excel 大量匯入商品](bulk-operations/excel-import-products.md#匯入-excel-檔案){ title="Excel 大量匯入商品" }
 
 === "配送與物流"
 

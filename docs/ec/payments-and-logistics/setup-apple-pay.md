@@ -2,11 +2,11 @@
 title: 設定 Apple Pay
 description: 透過 CYBERBIZ PAYMENTS 啟用並設定 Apple Pay 為支付選項，提供快速安全的交易。
 created: 2026-01-26 00:00
-last_modified: 2026-06-14 11:29
+last_modified: 2026-06-28 09:52
 lang: zh-TW
 type: tutorial
-status:
-version:
+status: ""
+version: ""
 author: Jase
 reviewers: []
 notes: []
@@ -25,6 +25,7 @@ tnb: trunk
 plans: []
 cyb_extensions:
   - PAYMENTS
+feature_badges: []
 intents:
   - 如何設定 Apple Pay
   - Apple Pay 付款設定
@@ -36,9 +37,9 @@ prerequisites:
   - 已開通 CYBERBIZ PAYMENTS
 related: []
 tags:
-  - Apple_Pay
+  - Apple Pay
   - Payments
-  - CYBERBIZ_PAYMENTS
+  - CYBERBIZ PAYMENTS
 acoiv: configure
 apis: []
 devices:
@@ -50,7 +51,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=40622
-permalink:
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-apple-pay
 comments: false
 search:
   exclude: false
@@ -58,7 +59,7 @@ icon: simple/applepay
 hide: []
 ---
 
-![](../../assets/images/ec-payments-apple-pay.zh-tw.png){ .hero-page }
+![Apple Pay 設定](../../assets/images/ec-payments-apple-pay.zh-tw.png){ title="Apple Pay 設定" .hero-page }
 
 ## 為什麼使用 Apple Pay
 
@@ -71,7 +72,7 @@ hide: []
 
 ## 前置條件
 
-- [x] 已 [開通 **CYBERBIZ PAYMENTS**](申請 CYBERBIZ PAYMENTS){ title="申請 CYBERBIZ PAYMENTS" }
+- [x] 已 [開通 **CYBERBIZ PAYMENTS**](apply-cyberbiz-payments.md){ title="申請 CYBERBIZ PAYMENTS" }
 
 ## 使用須知
 
@@ -80,17 +81,23 @@ hide: []
 - **必要條件**：Apple 裝置 + Safari 瀏覽器
     
 - 不符合條件的裝置不會顯示 Apple Pay 選項
-- 支援裝置清單：[Apple 官方文件 :lucide-external-link:](https://support.apple.com/zh-utw/102896)
-    
+- 支援裝置清單：[Apple 官方文件 :lucide-external-link:](https://support.apple.com/zh-tw/102896)
+
+---
+
 ### 付款限制
 
 - **支援**：一次付清
 - **不支援**：分期付款（需使用信用卡分期）
-    
+
+---
+
 ### 費用
 
 - 與信用卡一次付清相同
 - 無額外手續費或年費
+
+---
 
 ### 退款
 
@@ -109,18 +116,18 @@ Apple Pay 通常隨 CYBERBIZ PAYMENTS 自動啟用，可在後台調整可用性
     
 4. 儲存設定
 
-![](../../assets/images/ec-金物流-設定 Apple Pay.gif)
+![Apple Pay 設定畫面](../../assets/images/ec-金物流-設定 Apple Pay.gif){ title="Apple Pay 設定畫面" }
 
 ## 後續步驟
 
 <div class="grid cards" markdown>
 
 - :lucide-shield-check:{ .lg }   
-  [__設定 3D 驗證門檻__](設定信用卡 3D 驗證門檻){ title="設定信用卡 3D 驗證門檻" }     
+  [__設定 3D 驗證門檻__](setup-credit-card-3d-verification.md){ title="設定信用卡 3D 驗證門檻" }     
   設定交易金額門檻，設定哪些信用卡交易需要進行額外身份驗證機制，以提升交易安全。
 
 - :lucide-ban:{ .lg }     
-  [__物流限制與排除選項__](設定超商配送限制與物流排除.md)  
+  [__設定超商配送限制與物流排除__](../products/shipping/cvs-shipping-restrictions-exclusions.md){ title="設定超商配送限制與物流排除" }  
   設定商品的配送物流條件，限制特定物流方式於結帳流程中的顯示與使用。
 
 </div>

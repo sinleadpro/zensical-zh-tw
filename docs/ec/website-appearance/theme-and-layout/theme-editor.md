@@ -358,7 +358,7 @@ comments: false
     - **選擇遊戲：** 放入後台已設定好的「輪盤遊戲」或「紅包抽獎」。
     - **獎勵發放：** 可發放紅利或優惠券。
     - **參與限制：** 此功能為官網會員專屬，需登入才可參與。
-    - **設定路徑：** 前往 [互動遊戲設定指南](../../marketing/interactive-games.md){ title="互動遊戲 (EC)" } 建立輪盤遊戲或紅包抽獎活動。
+    - **設定路徑：** 前往 [互動遊戲設定指南](../../marketing/other-tools/interactive-games.md){ title="互動遊戲 (EC)" } 建立輪盤遊戲或紅包抽獎活動。
 
     ![彈窗廣告-互動遊戲](../../../assets/images/ec-網站外觀-拖拉版型編輯器-彈窗廣告-互動遊戲.png)
 
@@ -1719,7 +1719,7 @@ CYBERBIZ 的 **拖拉版型** （Drag-and-Drop Layout）是一項直覺化的官
   在拖拉版型官網設定工具，引導商家加入 LINE 官方帳號好友。
 
 - :lucide-ban:{ .lg }     
-  [__物流限制與排除選項__](../../products/shipping/設定超商配送限制與物流排除.md){ title="設定超商配送限制與物流排除" }  
+  [__物流限制與排除選項__](../../products/shipping/cvs-shipping-restrictions-exclusions.md){ title="設定超商配送限制與物流排除" }  
   設定商品的配送物流條件，限制特定物流方式於結帳流程中的顯示與使用。
 
 </div>

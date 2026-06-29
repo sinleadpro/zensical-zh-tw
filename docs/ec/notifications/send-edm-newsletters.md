@@ -2,7 +2,7 @@
 title: 設定與發送 EDM 電子報
 description: 建立 EDM 內容、選擇發送對象並發送電子報給會員。
 created: 2026-03-10 00:28
-last_modified: 2026-06-26 04:26
+last_modified: 2026-06-26 06:12
 lang: zh-TW
 type: tutorial
 status: ""

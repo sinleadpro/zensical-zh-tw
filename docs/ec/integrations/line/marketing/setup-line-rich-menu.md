@@ -2,7 +2,7 @@
 title: 設定 LINE 圖文選單
 description: 建立與設定 LINE 圖文選單，讓顧客可透過官方帳號快速導覽商品、會員中心與導購頁面。
 created:
-last_modified: 2026-06-25 20:51
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status:
@@ -68,7 +68,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5858
   - https://www.cyberbiz.io/support/?p=855
-permalink:
+permalink: https://help.cyberbiz.io/ec/integrations/line/marketing/setup-line-rich-menu
 comments: false
 search:
   exclude: false

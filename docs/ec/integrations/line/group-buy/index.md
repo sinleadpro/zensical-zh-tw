@@ -11,7 +11,7 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :lucide-bot: __設定 LINE 團購機器人__
+-   :material-numeric-1-circle: __設定 LINE 團購機器人__
 
     ---
 
@@ -19,7 +19,7 @@ hide:
 
     [:octicons-arrow-right-24: 前往](setup-line-group-bot.md)
 
--   :lucide-boxes: __設定 LINE 團購商品__
+-   :material-numeric-2-circle: __設定 LINE 團購商品__
 
     ---
 
@@ -27,7 +27,7 @@ hide:
 
     [:octicons-arrow-right-24: 前往](setup-line-group-buy-products.md)
 
--   :lucide-messages-square: __設定 LINE 團購群組__
+-   :material-numeric-3-circle: __設定 LINE 團購群組__
 
     ---
 

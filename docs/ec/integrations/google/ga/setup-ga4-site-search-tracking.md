@@ -2,7 +2,7 @@
 title: 設定 GA4 站內搜尋追蹤
 description: 透過 GA4 加強型評估功能，追蹤使用者在官網上的站內搜尋行為，分析消費者的資訊需求與查找意圖。
 created: 2026-03-24 20:05
-last_modified: 2026-06-25 19:26
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -64,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12099
   - https://www.cyberbiz.io/support/?p=28483
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/ga/setup-ga4-site-search-tracking
 search:
   exclude: false
 icon: lucide/search-code

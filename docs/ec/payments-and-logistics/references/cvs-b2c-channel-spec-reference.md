@@ -49,7 +49,7 @@ permalink: ""
 comments: ""
 search:
   exclude: ""
-icon: lucide/ruler
+icon: lucide/table
 hide:
 ---
 

@@ -2,9 +2,9 @@
 title: 篩選與應用 LINE OA 綁定會員名單
 description: 使用會員篩選器找出 LINE OA 綁定會員，並匯出或用於行銷受眾。
 created: 2026-03-06 11:20
-last_modified: 2026-06-25 20:08
+last_modified: 2026-06-26 10:05
 lang: zh-TW
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/line/account-integration/filter-use-line-oa-bound-members
 type: tutorial
 status: ""
 version: ""

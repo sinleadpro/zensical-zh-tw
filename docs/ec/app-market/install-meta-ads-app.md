@@ -2,7 +2,7 @@
 title: 安裝 Meta Ads App
 description: 透過 CYBERBIZ 管理後台安裝 Meta Ads App。
 created: 2026-04-20 15:30
-last_modified: 2026-06-25 22:15
+last_modified: 2026-06-27 13:40
 lang: zh-TW
 type: tutorial
 status: ""
@@ -21,8 +21,15 @@ sites:
 audiences:
   - admin
 difficulty: ""
-tnb: ""
-plans: []
+tnb: trunk
+plans:
+  - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions:
   - APP MARKET
 intents:
@@ -55,7 +62,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11972
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/app-market/install-meta-ads-app
 comments: ""
 search:
   exclude: ""

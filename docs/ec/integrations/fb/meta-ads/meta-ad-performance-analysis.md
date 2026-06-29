@@ -2,7 +2,7 @@
 title: 使用 Meta 廣告成效分析
 description: 透過 Meta Ads App 掌握廣告成效數據，分析指標，並使用 AI Insights 獲取數據洞察與優化建議。
 created: 2026-04-21 11:29
-last_modified: 2026-06-25 16:40
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -61,10 +61,10 @@ ui_components:
 paths:
   - 第三方整合 > 臉書 Facebook 設定 > 廣告活動設定
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1737
   - https://www.cyberbiz.io/support/?p=48371
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/meta-ad-performance-analysis
 comments: false
 search:
   exclude: false

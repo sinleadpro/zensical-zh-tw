@@ -1,0 +1,200 @@
+{
+    "plugin": {
+        "version": "5.5.2",
+        "date": "Sat, 27 Jun 2026 11:28:12 +0000"
+    },
+    "groups": [
+        {
+            "id": 5,
+            "name": "ec-notifications",
+            "redirects": 7,
+            "module_id": 1,
+            "moduleName": "WordPress",
+            "enabled": false
+        }
+    ],
+    "redirects": [
+        {
+            "id": 1,
+            "url": "/support/?p=7709",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/notifications/manage-email-templates"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 5,
+            "position": 0,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 2,
+            "url": "/support/?p=7742",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/notifications/manage-email-templates"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 5,
+            "position": 1,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 3,
+            "url": "/support/?p=728",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/notifications/manage-line-oa-templates"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 5,
+            "position": 2,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 4,
+            "url": "/support/?p=5734",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/notifications/manage-sms-templates"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 5,
+            "position": 3,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 5,
+            "url": "/support/?p=23782",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/notifications/send-edm-newsletters"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 5,
+            "position": 4,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 6,
+            "url": "/support/?p=739",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/notifications/send-line-friend-invitation"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 5,
+            "position": 5,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 7,
+            "url": "/support/?p=1529",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/notifications/send-sms-notifications"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 5,
+            "position": 6,
+            "last_access": "-",
+            "enabled": false
+        }
+    ]
+}
