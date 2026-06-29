@@ -117,14 +117,19 @@ hide: []
     - 開啟 **EPSON TM Virtual Port Driver Port Assignment Tool** 軟體。
     - 參考 `C:\Program Files (x86)\EPSON\TMCOMUSB\TMVirtualPortDriver_User'sManual.pdf` 的 `手動設備設定 - USB` 設定指引，將偵測到的發票機指派至一個目前 **未被佔用** 的 COM Port（如 COM3 或 COM4）。
 
-![type:video](https://www.cyberbiz.io/support/wp-content/uploads/POS-EPSON發票機軟體安裝設定.mp4)
 
+<div style="position: relative; padding-bottom: 56.25%; height: 0;">
+  <iframe src="https://www.cyberbiz.io/support/wp-content/uploads/POS-EPSON發票機軟體安裝設定.mp4" 
+          frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+  </iframe>
+</div>
 
 ### 步驟四：校對紙張寬度設定
 
 若發生發票文字跑版或裁切不全，請檢查此項設定。出貨時通常已預設完成，商家僅需在異常時進行確認。
 
-1. 安裝 [TM-T82III Utility](https://download3.ebz.epson.net/dsc/f/03/00/15/59/89/e13530028b241ec0d281f763e894ce21988975cb/TM-T82IIIUtility111_e2.exe)。 [EPSON官方下載點](https://support.epson.net/setupnavi/?PINF=swlist&OSC=IOS&LG2=ZH&MKN=TM-T82III)。
+1. 安裝 [TM-T82III Utility](https://download3.ebz.epson.net/dsc/f/03/00/15/59/89/e13530028b241ec0d281f763e894ce21988975cb/TM-T82IIIUtility111_e2.exe)。 [EPSON官方下載點](https://support.epson.net/setupnavi/?PINF=swlist&OSC=IOS&LG2=ZH&MKN=TM-T82III)
 2. 進入 **Basic Settings > Printing Control**。
 3. 確認 **Paper width - Number of columns** 設定為 `58mm - 35 columns`。
 
