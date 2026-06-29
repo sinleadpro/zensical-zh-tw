@@ -142,7 +142,7 @@ hide: []
 
 ### 會員於前台取消訂單 { #orders-cancel-customer }
 
-[:lucide-bolt:{ title="適用功能" }](../../../resources/conventions.md#適用功能) | 拖拉版型
+[:lucide-bolt:{ title="適用功能" }](../../../resources/conventions.md#conventions-features) | 拖拉版型
 
 商家可設定是否開放顧客於官網前台自行取消未出貨訂單，若關閉設定，顧客僅能透過[商家申請取消][商家手動取消訂單]{ data-preview }。
 

@@ -74,12 +74,8 @@ modules:
   - 行銷活動
 permalink: https://help.cyberbiz.io/ec/products/discoverability/product-search-visibility
 ---
-# 設定商品搜尋可見性
 
-控制商品是否顯示於站內與 Google 搜尋結果，避免不必要的曝光。
-{ .subtitle }
-
-![](../../../assets/images/ec-product-search-toggle.zh-tw.png){ .hero-page }
+![商品搜尋可見性設定](../../../assets/images/ec-product-search-toggle.zh-tw.png){ title="商品搜尋可見性設定" .hero-page }
 
 ## 商品可見性狀態比較
 
@@ -91,7 +87,8 @@ permalink: https://help.cyberbiz.io/ec/products/discoverability/product-search-v
 | 下架 | 商品暫時停止販售，前台不可見 | 不會顯示於前台，也無法透過連結購買 |
 | 不公開 | 商品僅對特定通路或群組可見 | 一般前台與搜尋不可見；特定條件下可被訪問 |
 
-> 提示：使用「排除搜尋」適合短期隱藏或活動前準備；「下架」適合暫停販售；「不公開」適合特定群組或通路限定商品。
+!!! tip "提示"
+    使用「排除搜尋」適合短期隱藏或活動前準備；「下架」適合暫停販售；「不公開」適合特定群組或通路限定商品。
 
 
 ## 商品排除搜尋效果
@@ -119,7 +116,9 @@ permalink: https://help.cyberbiz.io/ec/products/discoverability/product-search-v
 	- `關閉 (OFF)`：商品排除搜尋（不顯示於搜尋結果）。
 4. 系統會自動儲存設定。
 
-![](../../../assets/images/ec-product-list-search-index-toggle.png)
+![商品列表搜尋開關](../../../assets/images/ec-product-list-search-index-toggle.png){ title="商品列表搜尋開關" }
+
+---
 
 ### 新增/編輯商品頁面
 
@@ -132,7 +131,9 @@ permalink: https://help.cyberbiz.io/ec/products/discoverability/product-search-v
 	- `關閉 (OFF)`：商品排除搜尋（不顯示於搜尋結果）。
 4. 點擊右上角 **儲存**，完成設定。
 
-![](../../../assets/images/ec-add-product-product-search-index.png)
+![商品編輯搜尋功能設定](../../../assets/images/ec-add-product-product-search-index.png){ title="商品編輯搜尋功能設定" }
+
+---
 
 ### 商品操作選單
 
@@ -143,7 +144,9 @@ permalink: https://help.cyberbiz.io/ec/products/discoverability/product-search-v
 3. 點擊 **操作選單**。
 4. 選擇 **開啟搜尋** 或 **排除搜尋**，以設定商品搜尋狀態。
 
-  ![](../../../assets/images/ec-product-list-selector-enable-search-exclude.png)
+  ![操作選單批次排除搜尋](../../../assets/images/ec-product-list-selector-enable-search-exclude.png){ title="操作選單批次排除搜尋" }
+
+---
 
 ### Excel 批次匯入
 
@@ -155,12 +158,12 @@ permalink: https://help.cyberbiz.io/ec/products/discoverability/product-search-v
 4. 上傳已編輯的 Excel 檔案，點擊 **確定上傳**。
 5. 系統將依設定批次套用。
 
-  ![](../../../assets/images/ec-import-from-excel-if-exclude-search.png)
+  ![Excel匯入排除搜尋設定](../../../assets/images/ec-import-from-excel-if-exclude-search.png){ title="Excel匯入排除搜尋設定" }
 	
 ## 常見問題
 
 ??? quote "商品排除搜尋後，顧客還可以購買嗎？"
-    可以。排除搜尋僅隱藏搜尋結果，透過 [**商品連結**](#) 顧客仍能直接訪問該商品並完成購買。
+    可以。排除搜尋僅隱藏搜尋結果，透過 **商品連結** 顧客仍能直接訪問該商品並完成購買。
 
 ??? quote "排除搜尋功能會影響 Google 搜尋引擎的索引嗎？"
     是的，設定為排除搜尋的商品將不會被 Google 搜尋引擎索引，因此不會出現在 Google 搜尋結果中。

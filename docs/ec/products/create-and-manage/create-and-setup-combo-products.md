@@ -295,7 +295,7 @@ hide: []
 ![任選組合前台呈現](../../../assets/images/ec-product-combo-optional-quantity-frontend.zh-tw.png){ title="任選組合前台呈現" }
 
 - 購物車與結帳頁會判斷組合商品是否符合物流材積限制。  
-- 組合商品僅支援單一溫層，不支援[多通路觸發多購物車](../shipping/設定商品配送條件（物流、溫層與出貨通路）.md#多通路購物車拆分){ title="設定商品配送條件（物流、溫層與出貨通路）" }。
+- 組合商品僅支援單一溫層，不支援[多通路觸發多購物車](../shipping/setup-product-shipping-conditions.md#多通路購物車拆分){ title="設定商品配送條件（物流、溫層與出貨通路）" }。
 
 ![組合商品購物車](../../../assets/images/ec-product-combo-optional-quantity-cart.zh-tw.png){ title="組合商品購物車" }
 

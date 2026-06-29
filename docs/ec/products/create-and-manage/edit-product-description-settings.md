@@ -130,12 +130,12 @@ comments: false
 
 設定商品的運送溫層與可用的物流配送方式。
 
-- **運送溫層**：指定商品可接受的運送溫層。詳見綁定[一般宅配](../shipping/設定商品配送條件（物流、溫層與出貨通路）.md){ title="設定商品配送條件（物流、溫層與出貨通路）" }及[宅配貨到付款](../../payments-and-logistics/home-delivery-cash-on-delivery.md){ title="宅配貨到付款物流（黑貓/宅配通/新竹物流）" }商品的配送物流、溫層與銷售通路。
+- **運送溫層**：指定商品可接受的運送溫層。詳見綁定[一般宅配](../shipping/setup-product-shipping-conditions.md){ title="設定商品配送條件（物流、溫層與出貨通路）" }及[宅配貨到付款](../../payments-and-logistics/home-delivery-cash-on-delivery.md){ title="宅配貨到付款物流（黑貓/宅配通/新竹物流）" }商品的配送物流、溫層與銷售通路。
 - **物流綁定狀態**：指定商品可使用的物流配送方式。詳見如何[設定超商配送限制與物流排除](../shipping/cvs-shipping-restrictions-exclusions.md){ title="設定超商配送限制與物流排除" }
 
 ![溫層物流設定](../../../assets/images/ec-shipping-temperature-logistics-setting.zh-tw.png){ title="溫層物流設定" }
 
-!!! tip "建議先完成 [物流方式設定](../shipping/設定商品配送條件（物流、溫層與出貨通路）.md){ title="設定商品配送條件（物流、溫層與出貨通路）" }，再進行本步驟，可直接選取適用的物流方式。"
+!!! tip "建議先完成 [物流方式設定](../shipping/setup-product-shipping-conditions.md){ title="設定商品配送條件（物流、溫層與出貨通路）" }，再進行本步驟，可直接選取適用的物流方式。"
 
 ---
 

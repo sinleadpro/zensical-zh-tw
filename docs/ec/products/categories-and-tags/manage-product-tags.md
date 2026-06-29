@@ -2,7 +2,7 @@
 title: 管理商品標籤
 description: 為商品建立與管理自訂標籤，以便分類、篩選、行銷應用及控制第三方平台同步。
 created: 2026-03-08 10:00
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-29 14:24
 lang: zh-TW
 permalink:
 type: tutorial
@@ -80,14 +80,9 @@ icon: lucide/tags
 hide:
 ---
 
+![管理商品標籤](../../../assets/images/ec-product-tag-management.zh-tw.png){  title="管理商品標籤頁面"  .hero-page }
 
-# 管理商品標籤
-為商品建立與管理自訂標籤，以便分類、篩選、行銷應用及控制第三方平台同步。
-{ .subtitle } 
-
-![](../../../assets/images/ec-product-tag-management.zh-tw.png){  title="管理商品標籤：商品 > 商品標籤管理"  .hero-page }
-
-## 商品標籤使用情境
+## 商品標籤說明
 
 商品標籤可協助您更有效地管理商品及行銷活動：
 
@@ -96,14 +91,13 @@ hide:
 - 搜尋與操作效率提升：透過標籤快速定位商品，加快後台操作與管理流程。
 - 排除第三方平台同步：設定特定標籤，將商品排除於系統的第三方平台資料同步（如 GMC、Facebook DPA、LINE、美安等）。
 
-
 ## 新增商品標籤
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 商品標籤管理**。
 2. 點擊 **新增標籤** 按鈕，在標籤名稱欄位輸入欲建立的標籤名稱（例如：衣服）。若畫面未顯示新增按鈕，請向下捲動至標籤列表底部。
 3. 點擊 **儲存** 以套用變更。
 
-![](../../../assets/images/ec-add-product-tag.zh-tw.png)
+![新增商品標籤](../../../assets/images/ec-add-product-tag.zh-tw.png){ title="新增商品標籤" }
 
 ## 將商品加入標籤群組
 
@@ -116,7 +110,7 @@ hide:
 	3. **搜尋** :lucide-search: 或 **篩選** :lucide-funnel: 出欲加入標籤群組的商品。
 	4. 點擊 **加入** 完成。
 
-	![](../../../assets/images/ec-add-product-to-tag-collection.zh-tw.png)
+	![手動加入商品至標籤](../../../assets/images/ec-add-product-to-tag-collection.zh-tw.png){ title="手動加入商品至標籤" }
 
 === "Excel 匯入"
 
@@ -134,7 +128,9 @@ hide:
 	4. 點擊 **選擇檔案** 上傳編輯好的商品標籤 Excel 檔案。
 	5. 點擊 **確認上傳** 進行匯入動作。
 
-	![](../../../assets/images/ec-product-tag-sample.zh-tw.png)
+	![Excel 匯入商品標籤](../../../assets/images/ec-product-tag-sample.zh-tw.png){ title="Excel 匯入商品標籤" }
+
+---
 
 ### 從編輯頁設定商品標籤
 
@@ -142,7 +138,7 @@ hide:
 2.  點選您要設定的商品，進入 **設定** 頁面。
 3.  設定作為主要購買商品的標籤。
 
-![](../../../assets/images/ec-product-settings-tag.zh-tw.png)
+![從編輯頁設定商品標籤](../../../assets/images/ec-product-settings-tag.zh-tw.png){ title="從編輯頁設定商品標籤" }
 
 ## 從標籤群組移出商品
 
@@ -150,20 +146,21 @@ hide:
 2. 在右方標籤列表中點擊展開欲編輯的標籤群組，或使用搜尋跟篩選功能定位欲編輯的商品。
 3. 在商品列表中，點擊 :lucide-x: 或 **移出商品** 移除商品。
 
-![](../../../assets/images/ec-remove-product-from-tag-collection.zh-tw.png)
+![從標籤群組移出商品](../../../assets/images/ec-remove-product-from-tag-collection.zh-tw.png){ title="從標籤群組移出商品" }
 
 ## 刪除商品標籤
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 商品標籤管理**。
 2. 在標籤群組列表中找到欲刪除的標籤群組。
 3. 點擊標籤群組旁的 **刪除** 按鈕。
-> :lucide-triangle-alert: 刪除標籤後，所有已綁定此標籤的商品將會自動取消綁定。
 
-![](../../../assets/images/ec-product-tag-collection-delete.zh-tw.png)
+![刪除商品標籤](../../../assets/images/ec-product-tag-collection-delete.zh-tw.png){ title="刪除商品標籤" }
 
-## 排除上傳至第三方平台標籤 :lucide-lock:
+!!! warning "刪除標籤後，所有已綁定此標籤的商品將會自動取消綁定。"
 
-[:lucide-tag:{ title="適用方案" }](conventions.md#適用方案) | 企業
+## 排除上傳至第三方平台標籤
+
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions.md#conventions-plans) | 企業
 
 設定特定標籤，將商品排除於系統的第三方平台資料同步機制之外。套用排除標籤後，該商品的資料將不會被上傳至下列第三方平台：
 
@@ -179,22 +176,27 @@ hide:
 2. 在商品列表中，點擊欲排除商品的 **商品名稱**，進入商品編輯頁面。
 3. 點擊 **設定** 頁籤，在 **商品標籤** 欄位中，輸入以下任一排除標籤：
 	 - `排除product feed`：適用於 GMC、Facebook 動態產品目錄 DPA、LINE 購物平台。
-	 > :lucide-triangle-alert: *排除* 與 *product* 之間請勿添加空格。
 	 - `贈品`：適用於所有第三方平台，包括美安。
+
+    !!! warning "`排除` 與 `product` 之間請勿添加空格。"
 
 4. 點擊 **儲存** 以套用設定。
 
-![](../../../assets/images/ec-remove-upload-to-third-party-platform-tag.zh-tw.png)
+![排除上傳至第三方平台標籤](../../../assets/images/ec-remove-upload-to-third-party-platform-tag.zh-tw.png){ title="排除上傳至第三方平台標籤" }
 
 ## 後續步驟
 
 <div class="grid cards" markdown>
 
 - :lucide-printer:{ .lg }  
-  [__商品標籤列印__]()  
+  [__商品標籤列印__](../../../pos/check/print-product-labels.md){ title="列印商品標籤" }  
   列印商品標籤。    
-  [POS](){ .md-button .extension-tag }
-- :fontawesome-brands-js: __JavaScript__ for interactivity
+- :lucide-file-spreadsheet:{ .lg }  
+  [__批次修改商品描述與配送設定__](../bulk-operations/batch-update-product-descriptions-shipping.md){ title="批次修改商品描述與配送設定" }  
+  透過 Excel 批次更新多筆商品的描述、溫層與配送方式。
+- :lucide-square-pen:{ .lg }  
+  [__編輯商品描述與商品設定__](../create-and-manage/edit-product-description-settings.md){ title="編輯商品描述與商品設定" }  
+  設定商品內容、通路與物流屬性，確保前台正確呈現。
 
 </div>
 
@@ -202,8 +204,3 @@ hide:
 
 ??? quote "如果我同時設定了 `排除product feed` 和 `贈品` 標籤，會有什麼影響？"
     若同時設定兩個標籤，系統將優先依據 `贈品` 標籤的規則進行排除，確保商品不會上傳至所有支援的第三方平台。
-
-## 延伸閱讀
-
-- [批次修改商品描述與配送設定](../bulk-operations/batch-update-product-descriptions-shipping.md){ title="批次修改商品描述與配送設定" }
-- [編輯商品描述與商品設定](../create-and-manage/edit-product-description-settings.md){ title="編輯商品描述與商品設定" }

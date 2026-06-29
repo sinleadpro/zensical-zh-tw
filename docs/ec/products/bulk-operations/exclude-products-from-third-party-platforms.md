@@ -1,48 +1,80 @@
 ---
 title: 排除商品上傳至第三方平台
 description: 設定排除標籤，讓商品不上傳至第三方平台。
-product:
-  - EC
-module:
-  - product
-activ: configure
-surfaces: []
-devices: []
-apis: []
-type: tutorial
-features:
-  - 商品標籤
-tasks:
-  - hide product
-tnb: branch
-plans:
-  - 企業
+created: 2026-06-29 16:30
+last_modified: 2026-06-29 17:21
 lang: zh-TW
-sites:
-  - TW
-status: doing
-doc_next: ""
-tags:
-  - 排除標籤
-  - Product_Feed
-  - GMC
-  - FB_DPA
-  - LINE_購物
-  - 美安
-  - 動態廣告
-  - 廣告排除
-difficulty: low
+type: tutorial
+status: ""
+version: ""
+author: Jase
+reviewers: []
 notes:
   - further reading links update
-wp_url:
-  - https://www.cyberbiz.io/support/?p=6626
+ga_views: 0
+feedback: 0
+products:
+  - EC
 modules:
   - 商品
   - 第三方整合
+sites:
+  - TW
+audiences:
+  - admin
+difficulty: beginner
+tnb: branch
+plans:
+  - 企業
+cyb_extensions: []
+feature_badges: []
+intents:
+  - 排除商品上傳至第三方平台
+  - 設定商品排除標籤
+  - 避免商品出現在廣告動態
+features:
+  - 商品標籤
+prerequisites: []
+related:
+  - "[[manage-product-tags]]"
+  - "[[edit-product-description-settings]]"
+tags:
+  - 排除標籤
+  - Product Feed
+  - GMC
+  - FB DPA
+  - LINE 購物
+  - 美安
+  - 動態廣告
+  - 廣告排除
+acoiv: configure
+apis: []
+devices: []
+ui_components: []
+paths:
+  - 商品 > 所有商品
+layouts: []
+wp_url:
+  - https://www.cyberbiz.io/support/?p=6626
+permalink: https://help.cyberbiz.io/ec/products/bulk-operations/exclude-products-from-third-party-platforms
+comments: false
+search:
+  exclude: false
+icon: lucide/package-x
+hide: []
 ---
 
-## 使用須知
- 
+## 排除商品上傳第三方平台說明
+
+CYBERBIZ 會自動將商品資料同步至第三方銷售與廣告平台（如 Google Merchant Center、Facebook DPA、LINE 購物、美安等），以擴大商品曝光。若某些商品不適合出現在這些平台[^exclude-examples]，您可以透過商品標籤將其排除，系統即不會將該商品資料上傳至指定平台。
+
+!!! example "適用情境"
+    - 贈品或內部測試商品，不希望出現在廣告動態中。
+    - 合約或授權限制，部分商品不得於特定平台曝光。
+    - 避免特定商品消耗廣告預算。
+
+## 排除標籤適用平台
+
 當商品被設定排除標籤後，系統將不會把該商品資料上傳至以下第三方平台：
 
 - [x] Google Merchant Center
@@ -76,6 +108,7 @@ modules:
 ??? quote "排除商品後，顧客還能在我的 CYBERBIZ 商店中找到並購買嗎？"
     可以。此排除設定僅影響商品是否上傳至第三方平台，不影響商品在您 CYBERBIZ 商店中的可見性與購買功能。顧客仍可透過商店內搜尋或直接連結找到並購買商品。
 
+[^exclude-examples]: 例如贈品、內部測試商品、或合約限制不得對外曝光的商品。
 
 ## 後續操作
 

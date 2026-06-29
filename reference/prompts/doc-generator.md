@@ -538,8 +538,8 @@ Markdown 表格的單一儲存格內容必須保持一行,不要為了原始檔�
 文件 A:
   category: {{產品/功能 kebab-case，用於錨點前綴與檔名}}
   module: {{products}}
-  頁面: {{https://mirmovisualworld.testcyb.info/admin/products}} 
-  主題: {{將商品新增至 POS 門市}}
+  頁面: {{https://mirmovisualworld.testcyb.info/admin/board_comments}} 
+  主題: {{管理商品評論}}
   檔案路徑: docs/{{pos}}/{{topic-kebab-case}}.md
 ```
 
