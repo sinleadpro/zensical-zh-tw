@@ -94,7 +94,7 @@ VIP 價格、**搜尋可見性排除**
    建立新商品或更新既有商品資訊與設定。  
 
 - :lucide-pencil:{ .lg }  
-  [__編輯商品__](create-and-manage/編輯商品描述與商品設定.md){ title="編輯商品描述與商品設定" }  
+  [__編輯商品__](create-and-manage/edit-product-description-settings.md){ title="編輯商品描述與商品設定" }  
   設定商品標題、描述、規格與多媒體資源。  
 
 - :lucide-import:{ .lg }   

@@ -2,7 +2,7 @@
 title: 編輯商品描述與商品設定
 description: 設定商品內容、通路與物流屬性，確保前台呈現正確並支援搜尋與行銷需求。
 created: 2026-03-08 10:00
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-29 11:26
 lang: zh-TW
 type: tutorial
 status: ""
@@ -66,7 +66,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7701
   - https://www.cyberbiz.io/support/?p=7497
-permalink: /ec/products/編輯商品描述與商品設定/
+permalink: https://help.cyberbiz.io/ec/products/create-and-manage/edit-product-description-settings
 search:
   exclude: false
 icon: lucide/file-text
@@ -74,34 +74,24 @@ hide:
 comments: false
 ---
 
-# 編輯商品描述與商品設定
-設定商品內容、通路與物流屬性，確保前台呈現正確並支援搜尋與行銷需求。
-{ .subtitle }
+![編輯商品描述](../../../assets/images/ec-edit-product-hero.zh-tw.png){ title="編輯商品描述" .hero-page }
 
-![](../../../assets/images/ec-edit-product-hero.zh-tw.png){ .hero-page }
+## 商品描述與設定說明
 
-## 商品編輯頁介紹
+在商品編輯頁面(商品 > 所有商品 > 欲編輯的商品名稱)中，您可以編輯並設定商品的各項資訊與屬性，以便管理後台操作及前台展示。商品資訊設定主要分為三個頁籤：
 
-> :lucide-navigation: 後台路徑：商品 > 所有商品 > 欲編輯的商品名稱
-
-在商品編輯頁面中，您可以編輯並設定商品的各項資訊與屬性，以便管理後台操作及前台展示。
-
-快捷操作按鈕：
-
-- :lucide-eye: 公開：設定商品是否公開。
-- :lucide-external-link: 前往該商品：前往該商品的前台商品頁面。
-- :lucide-copy: 複製：複製商品快速編輯。
-- :lucide-trash-2: 刪除商品：刪除商品。
-
-商品資訊設定主要分為三個頁籤：
-
-- [商品資訊](create-update-products.md#操作流程){ title="新增與更新商品" } ：商品名稱、規格、價格與庫存等核心](create-update-products.md#基本設定)增與更新商品.md#基本設定){ title="新增與更新商品" }。
+- [商品資訊](create-update-products.md#operate-product){ title="新增與更新商品" }：商品名稱、規格、價格與庫存等[核心設定](create-update-products.md#operate-product-create-basic){ title="新增與更新商品" }。
 - [商品描述](#商品描述)：商品說明、規格與運送資訊，呈現給前台顧客。
 - [設定](#商品設定)：類型、通路、廠商、群組、標籤、物流與 SEO，管理後台屬性與行銷設定。
 
-## 商品描述
+!!! tip "快捷操作按鈕"
 
-![](../../../assets/images/ec-product-description.zh-tw.png)
+    - :lucide-eye: 公開：設定商品是否公開。
+    - :lucide-external-link: 前往該商品：前往該商品的前台商品頁面。
+    - :lucide-copy: 複製：複製商品快速編輯。
+    - :lucide-trash-2: 刪除商品：刪除商品。
+
+## 商品描述
 
 使用文字編輯器修改以下欄位：
 
@@ -109,59 +99,72 @@ comments: false
 - **規格說明**：說明商品規格細節 
 - **運送方式**：說明商品運送相關資訊
 
-!!! info "進一步瞭解文字編輯器功能，請參閱 [文字編輯器使用教學](docs/ec/get-started/文字編輯器使用教學.md)。"
+進一步瞭解文字編輯器功能，請參閱 [使用文字編輯器編輯內容](../../website-appearance/code-customization/edit-content-text-editor.md){ title="使用文字編輯器編輯內容" }。
 
-前台顯示位置
+![商品描述編輯](../../../assets/images/ec-product-description.zh-tw.png){ title="商品描述編輯" }
 
-![](../../../assets/images/ec-product-description-frontend.zh-tw.png)
+??? info-clean "前台顯示位置"
+    ![前台商品描述](../../../assets/images/ec-product-description-frontend.zh-tw.png){ title="前台商品描述" }
 
 ## 商品設定
 
-![](../../../assets/images/ec-product-settings.zh-tw.png)
+![商品設定頁面](../../../assets/images/ec-product-settings.zh-tw.png){ title="商品設定頁面" }
 
 ### 進階設定
 
 - **自訂群組**：將商品加入已建立的商品群組。詳見 [設定商品自訂分類群組](../categories-and-tags/custom-collections.md){ title="設定商品自訂分類群組" }。
-- **任選折扣群組**：將商品加入已建立的任選折扣群組。詳見 [設定任選折扣群組](../categories-and-tags/設定任選折扣群組.md)。
+- **任選折扣群組**：將商品加入已建立的任選折扣群組。詳見 [任選折扣](../../marketing/discounts/mix-and-match-discounts.md){ title="任選折扣" }。
 - **標籤**：為商品添加標籤，用於行銷活動（例如指定商品優惠券）瞭解 [如何設定商品標籤](../categories-and-tags/manage-product-tags.md){ title="管理商品標籤" }。
 - **商品類型**：為商品設定類型標籤，以便管理與篩選。此資訊也會顯示於前台，標籤內容可自訂。
 - **商品通路**：設定商品可銷售的通路。不同通路（預購、現貨、常溫）的商品在結帳時會自動[拆分為多購物車](../checkout/checkout-split-multi-cart.md#多購物車結帳說明){ title="設定結帳自動拆分多購物車" }。
 - **商品廠商**：為商品添加廠商標籤，以便管理與篩選。此資訊也會顯示於前台，內容可自訂。
 - **Google 產品類別**：設定商品類別以覆蓋 Google 自動判斷結果，提升廣告投放精準度。瞭解 [如何將商品同步至 GMC](../../integrations/google/setup-google-merchant-center.md){ title="設定 Google Merchant Center 並同步 CYBERBIZ 商品" }。
 
-    ![GMC 產品類別](../../../assets/images/ec-商品-商品編輯-設定-google產品類別.gif)
+    ![GMC 產品類別](../../../assets/images/ec-商品-商品編輯-設定-google產品類別.gif){ title="GMC 產品類別" }
 
 !!! warning "商品類型、商品通路及商品廠商等設定一旦新增，無法刪除，請謹慎操作。"
 
+---
+
 ### 溫層和物流配送設定
-
-![](../../../assets/images/ec-shipping-temperature-logistics-setting.zh-tw.png)
-
-> :lucide-flame: 建議先完成 [物流方式設定](../shipping/設定商品配送條件（物流、溫層與出貨通路）.md){ title="設定商品配送條件（物流、溫層與出貨通路）" }，再進行本步驟，可直接選取適用的物流方式。
 
 設定商品的運送溫層與可用的物流配送方式。
 
-- **運送溫層**：指定商品可接受的運送溫層。詳見綁定[一般宅配](../shipping/設定商品配送條件（物流、溫層與出貨通路）.md){ title="設定商品配送條件（物流、溫層與出貨通路）" }及[宅配貨到付款](設定商品配送溫層跟物流（宅配貨到付款）.md)商品的配送物流、溫層與銷售通路。
+- **運送溫層**：指定商品可接受的運送溫層。詳見綁定[一般宅配](../shipping/設定商品配送條件（物流、溫層與出貨通路）.md){ title="設定商品配送條件（物流、溫層與出貨通路）" }及[宅配貨到付款](../../payments-and-logistics/home-delivery-cash-on-delivery.md){ title="宅配貨到付款物流（黑貓/宅配通/新竹物流）" }商品的配送物流、溫層與銷售通路。
 - **物流綁定狀態**：指定商品可使用的物流配送方式。詳見如何[設定超商配送限制與物流排除](../shipping/cvs-shipping-restrictions-exclusions.md){ title="設定超商配送限制與物流排除" }
+
+![溫層物流設定](../../../assets/images/ec-shipping-temperature-logistics-setting.zh-tw.png){ title="溫層物流設定" }
+
+!!! tip "建議先完成 [物流方式設定](../shipping/設定商品配送條件（物流、溫層與出貨通路）.md){ title="設定商品配送條件（物流、溫層與出貨通路）" }，再進行本步驟，可直接選取適用的物流方式。"
+
+---
 
 ### 設定相關商品
 
-![](../../../assets/images/ec-related-collection.zh-tw.png)
+透過設定 **商品關聯群組**，商家可以自訂商品之間的關聯性，以提升商品頁下方 *相關商品* 區的展示效果，進而增加連帶銷售。
 
-透過設定 *商品關聯群組*，商家可以自訂商品之間的關聯性，以提升商品頁下方 *相關商品* 區的展示效果，進而增加連帶銷售。
+![相關商品設定](../../../assets/images/ec-related-collection.zh-tw.png){ title="相關商品設定" }
 
-前台顯示位置
+??? info-clean "前台顯示位置"
+    ![前台相關商品](../../../assets/images/ec-product-related-collection-frontend.zh-tw.png){ title="前台相關商品" }
 
-![](../../../assets/images/ec-product-related-collection-frontend.zh-tw.png)
+---
 
 ### SEO 設定
-![](../../../assets/images/ec-product-seo-setting.zh-tw.png)
 
 商品設定 SEO 可增加網頁在搜尋引擎上的排名，請依照商品特性設定。
 
 - **網頁標題**：顯示於網頁瀏覽器，影響消費者搜尋時找到此商品頁的標題。
 - **網頁描述**：顯示於網頁瀏覽器，影響消費者搜尋時找到此商品頁的描述。
 - **網頁關鍵字**：通常不顯示於網頁瀏覽器，影響消費者搜尋時找到此商品頁的關鍵字。
+
+![SEO設定](../../../assets/images/ec-product-seo-setting.zh-tw.png){ title="SEO設定" }
+
+<div class="grid cards" markdown>
+
+- :lucide-search:{ .lg } [__SEO 設定與優化指南__](../../website-management/seo/seo-guide.md){ title="SEO 設定與優化指南" }
+
+</div>
 
 ## 後續步驟
 
@@ -184,7 +187,3 @@ comments: false
 
 ??? quote "設定商品溫層與物流配送時，有什麼需要注意的？"
     建議您在設定商品溫層與物流方式前，先行設定好物流方式，以便直接選取適配的物流選項。
-
-## 延伸閱讀
-- [配送物流/溫層綁定（一般宅配）](../shipping/設定商品配送條件（物流、溫層與出貨通路）.md){ title="設定商品配送條件（物流、溫層與出貨通路）" }
-- [設定商品配送溫層跟物流（宅配貨到付款）](設定商品配送溫層跟物流（宅配貨到付款）.md)

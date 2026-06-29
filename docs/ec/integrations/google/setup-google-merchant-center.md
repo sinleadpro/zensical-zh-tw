@@ -196,7 +196,7 @@ comments: false
 
     建議至商品設定頁的「Google 產品類別」手動選擇正確類別，能讓廣告投放更精準。
 
-    [:lucide-arrow-right: 設定教學](../../products/create-and-manage/編輯商品描述與商品設定.md#進階設定){ title="編輯商品描述與商品設定" }
+    [:lucide-arrow-right: 設定教學](../../products/create-and-manage/edit-product-description-settings.md#進階設定){ title="編輯商品描述與商品設定" }
 
 -   :lucide-image:{ .lg .middle } __圖片規範__
 

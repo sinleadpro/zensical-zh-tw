@@ -28,7 +28,7 @@
   <p class="subtitle">{{ page.meta.description }}</p>
 {% endif %}
 
-{% if '<p class="doc-badge">' in _rest %}
+{% if '<p class="doc-badge">' in _rest and '<h2' not in (_rest | split('<p class="doc-badge">') | first) and '<h3' not in (_rest | split('<p class="doc-badge">') | first) %}
   {% set _badge_parts = _rest | split('<p class="doc-badge">') | list %}
   {% if _badge_parts | length > 1 %}
     {% set _after_badge = _badge_parts[1] %}

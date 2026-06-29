@@ -93,12 +93,12 @@ CYBERBIZ 平台的前台介面中，**搜尋（放大鏡）功能** 是協助消
     |---|---|---|
     | 商品名稱 | 商品的主要識別名稱 | [商品基本設定](../create-and-manage/新增單一商品.md#基本設定){ data-preview } |
     | 商品群組名稱 | 包含自訂分類跟條件分類等商品群組的名稱。<br> （ 如商品網址 `https://xxx/collections/mygroup` 中的 `mygroup`) | [自訂分類設定](../categories-and-tags/custom-collections.md#加入與移出商品){ title="設定商品自訂分類群組" }、[條件分類設定](../categories-and-tags/設定商品條件分類群組.md#建立商品條件分類){ data-preview }。 |
-    | 商品廠商 | 商品的廠商名稱，會顯示於前台 | [商品編輯頁 > 設定](../create-and-manage/編輯商品描述與商品設定.md#進階設定){ title="編輯商品描述與商品設定" } |
-    | 商品類型 | 商品的類型標籤 | [商品編輯頁 > 設定](../create-and-manage/編輯商品描述與商品設定.md#進階設定){ title="編輯商品描述與商品設定" } |
-    | 商品通路 | 商品的通路標籤（預購、現貨、常溫等）| [商品編輯頁 > 設定](../create-and-manage/編輯商品描述與商品設定.md#進階設定){ title="編輯商品描述與商品設定" } |
+    | 商品廠商 | 商品的廠商名稱，會顯示於前台 | [商品編輯頁 > 設定](../create-and-manage/edit-product-description-settings.md#進階設定){ title="編輯商品描述與商品設定" } |
+    | 商品類型 | 商品的類型標籤 | [商品編輯頁 > 設定](../create-and-manage/edit-product-description-settings.md#進階設定){ title="編輯商品描述與商品設定" } |
+    | 商品通路 | 商品的通路標籤（預購、現貨、常溫等）| [商品編輯頁 > 設定](../create-and-manage/edit-product-description-settings.md#進階設定){ title="編輯商品描述與商品設定" } |
     | 商品款式 | 款式名稱（如顏色 M、尺寸 XL）| [商品款式設定](../create-and-manage/新增單一商品.md#款式管理){ data-preview } |
     | SKU | 商品的庫存管理編號 | [商品款式設定](../create-and-manage/新增單一商品.md#款式管理){ data-preview } |
-    | 商品介紹 | 商品的詳細說明文字，包含文字編輯器中原始碼的內容。 | [商品編輯頁 > 商品描述](../create-and-manage/編輯商品描述與商品設定.md#商品描述){ title="編輯商品描述與商品設定" } |
+    | 商品介紹 | 商品的詳細說明文字，包含文字編輯器中原始碼的內容。 | [商品編輯頁 > 商品描述](../create-and-manage/edit-product-description-settings.md#商品描述){ title="編輯商品描述與商品設定" } |
 
 *   **搜尋邏輯與分詞**：
 
