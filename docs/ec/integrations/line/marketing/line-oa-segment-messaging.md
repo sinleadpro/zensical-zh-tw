@@ -1,9 +1,8 @@
 ---
-
 title: 設定與發送 LINE OA 分眾訊息推播
 description: 設定並發送 LINE OA 分眾訊息推播給指定標籤會員。
 created: 2026-03-09 09:48
-last_modified: 2026-03-09 10:00
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status:
@@ -62,7 +61,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7324
   - https://www.cyberbiz.io/support/?p=25964
-permalink:
+permalink: https://help.cyberbiz.io/ec/integrations/line/marketing/line-oa-segment-messaging
 comments: false
 search:
   exclude: false
@@ -70,8 +69,7 @@ icon: lucide/message-square-share
 hide: []
 ---
 
-
-![](../../../../assets/images/ec-訊息推播-lineoa-訊息.png){ .hero-page }
+![LINE OA分眾訊息推播](../../../../assets/images/ec-訊息推播-lineoa-訊息.png){ .hero-page title="LINE OA分眾訊息推播" }
 
 ## LINE OA 分眾訊息推播說明
 
@@ -83,8 +81,8 @@ hide: []
 
 在使用分眾推播功能前，必須確保完成以下設定：
 
-- [x] [**串接 Messaging API**](connect-line-messaging-api.md){ data-preview }：商家必須先完成 LINE Messaging API 的串接設定，方可透過 CYBERBIZ 後台發送訊息。
-- [x] **收集會員 UID**：訊息僅能發送給曾透過 **「[LINE 快速登入](setup-line-quick-login.md){ data-preview }」** 或 **「[已綁定 LINE OA](bind-line-oa-store-members.md){ data-preview }」** 的官網會員，因為這些行為才會在官網系統留下發送訊息所需的 UID。
+- [x] [**串接 Messaging API**](../account-integration/connect-line-messaging-api.md){ title="串接 LINE Messaging API" }：商家必須先完成 LINE Messaging API 的串接設定，方可透過 CYBERBIZ 後台發送訊息。
+- [x] **收集會員 UID**：訊息僅能發送給曾透過 **「[LINE 快速登入](../account-integration/setup-line-quick-login.md){ title="設定 LINE 快速登入" }」** 或 **「[已綁定 LINE OA](../account-integration/bind-line-oa-store-members.md){ title="綁定 LINE 官方帳號與官網會員" }」** 的官網會員，因為這些行為才會在官網系統留下發送訊息所需的 UID。
 - [x] **好友狀態確認**：僅有 **LINE OA 的好友**（且未封鎖官方帳號者）才能成功收到訊息。
 - [x] **訊息費用**：LINE 推播服務會根據您在 LINE 官方帳號設定的訊息方案計費，手動推播與自動通知皆屬付費項目，僅發送成功的訊息會計費。
 
@@ -96,14 +94,14 @@ hide: []
     *   **文字訊息**：支援換行與 **emoji**，不限制字元數。點擊送出後會立即排程發送。
     *   **圖片訊息**：上傳單張圖片（建議規格：**1MB 以內、1000x1000px**，支援 JPG/PNG/JPEG/GIF），並可設定圖片點擊後導轉的連結。
 
-![](../../../../assets/images/ec-訊息推播-lineoa訊息-操作.gif)
+![分眾訊息發送操作](../../../../assets/images/ec-訊息推播-lineoa訊息-操作.gif){ title="分眾訊息發送操作" }
 
 ## 後續操作
 
 <div class="grid cards" markdown>
 
 - :lucide-zap:{ .lg }   
-  [__進階自動化推播__](../../app-market/automation/automation-push-flow.md)  
+  [__進階自動化推播__](../../../app-market/automation/automation-push-flow.md){ title="使用 AUTOMATION 建立自動化推播流程" }  
 設定自動發送訊息給「VIP 會員」、「潛在忠誠顧客」、「沉睡客戶」或針對「未結帳購物車」進行提醒。
 
 </div>
@@ -115,7 +113,7 @@ hide: []
 
     1. 顧客狀態限制 (使用者端)
 
-        - [ ] **好友關係中斷**：會員雖曾綁定 UID，但目前已 **封鎖** 該官方帳號，或已 **刪除** 好友。
+        - **好友關係中斷**：會員雖曾綁定 UID，但目前已 **封鎖** 該官方帳號，或已 **刪除** 好友。
         - **帳號非好友**：會員僅在官網完成 LINE 登入，但未曾加入您的 LINE 官方帳號。
 
     2. 商家設定與額度 (商家端)

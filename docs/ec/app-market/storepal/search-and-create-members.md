@@ -2,7 +2,7 @@
 title: 搜尋與建立會員
 description: 線下人員可透過門市助理查詢會員資訊、協助顧客註冊帳號，並建立門市推薦人綁定關係以進行後續導購分潤。
 created: 2026-05-04 14:14
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-27 13:40
 lang: zh-TW
 type: tutorial
 status: ""
@@ -24,9 +24,9 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 專業 PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -56,7 +56,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=41747
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/app-market/storepal/search-and-create-members
 comments: false
 search:
   exclude: false

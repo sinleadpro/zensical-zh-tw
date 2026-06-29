@@ -2,7 +2,7 @@
 title: 設定與管理 LINE Tag
 description: 設定 LINE Tag ID，並追蹤 LINE OA 訊息推播或 LINE LAP 廣告帶來的轉換成效。
 created: 2026-03-10 15:13
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -43,11 +43,11 @@ prerequisites:
   - 建立 LINE 官方帳號
 related: []
 tags:
-  - LINE_Tag
+  - LINE Tag
   - 廣告追蹤
   - 轉換追蹤
-  - LINE_OA
-  - LINE_LAP
+  - LINE OA
+  - LINE LAP
   - 再行銷
   - 受眾設定
 acoiv: ""
@@ -62,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4769
   - https://www.cyberbiz.io/support/?p=28602
-permalink: ec/integrations/line/setting-and-managing-line-tag
+permalink: https://help.cyberbiz.io/ec/integrations/line/marketing/setup-manage-line-tag
 search:
   exclude: false
 icon: lucide/code
@@ -72,7 +72,7 @@ id: 設定與管理 LINE Tag
 comments: false
 ---
 
-![](../../../../assets/images/ec-第三方整合-linetag.png){ .hero-page }
+![LINE Tag 設定](../../../../assets/images/ec-第三方整合-linetag.png){ title="LINE Tag 設定" .hero-page }
 
 ## 什麼是 LINE Tag
 
@@ -93,36 +93,36 @@ LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，�
 ## 取得與設定 LINE Tag ID
 您可以在 LINE OA Manager 或 LINE Ad Manager 中取得代碼，並將其填入 CYBERBIZ 後台。
 
-### 用於「訊息推播」轉換追蹤 (LINE OA Manager)
+### 用於「訊息推播」轉換追蹤 <small>LINE OA Manager</small>
 
 1.  **進入後台**：登入 [LINE OA Manager :lucide-external-link:](https://manager.line.biz/)，選擇欲設定的官方帳號。
 2.  **尋找代碼**：於左側選單點擊 **資料管理 > 追蹤(LINE Tag)**，複製頁面中的 **Tag ID**。
 
-    ![](../../../../assets/images/ec-第三方整合-linetag-tagid複製.png)
+    ![複製 Tag ID](../../../../assets/images/ec-第三方整合-linetag-tagid複製.png){ title="複製 Tag ID" }
 
     !!! tip "使用 ++ctrl+f++ 可快速定位 tagID 所在位置。"
 
 3.  **填入系統**：前往 CYBERBIZ 後台 **第三方整合 > LINE Tag 設定**，點擊 **新增Tag ID**。
 4.  **設定類型**：類型選擇 **`account`**，並貼上剛才複製的 Tag ID。
 
-    ![](../../../../assets/images/ec-第三方整合-linetag-新增tagid-account.png)
+    ![新增 Account Tag ID](../../../../assets/images/ec-第三方整合-linetag-新增tagid-account.png){ title="新增 Account Tag ID" }
 
 ---
 
-### 用於「廣告投放」轉換追蹤 (LINE Ad Manager)
+### 用於「廣告投放」轉換追蹤 <small>LINE Ad Manager</small>
 
 1.  **進入後台**：登入 [LINE Ad Manager :lucide-external-link:](https://admanager.line.biz/)，點選欲設定的廣告帳號名稱。
 2.  **尋找代碼**：於左側選單選擇 **追蹤(LINE Tag)** ，複製其 **Tag ID**。
 
 
-    ![](../../../../assets/images/ec-第三方整合-lineadmanager-tagid畫面.gif)
+    ![Ad Manager Tag ID](../../../../assets/images/ec-第三方整合-lineadmanager-tagid畫面.gif){ title="Ad Manager Tag ID" }
     
     !!! tip "使用 ++ctrl+f++ 可快速定位 tagID 所在位置。"
 
 3.  **填入系統**：前往 CYBERBIZ 後台 **第三方整合 > LINE Tag 設定**，點擊 **新增Tag ID**。
 4.  **設定類型**：類型選擇 **`lap`**，並貼上 Tag ID。
 
-    ![](../../../../assets/images/ec-第三方整合-linetag-新增tagid-lap.png)
+    ![新增 LAP Tag ID](../../../../assets/images/ec-第三方整合-linetag-新增tagid-lap.png){ title="新增 LAP Tag ID" }
 
 ---
 
@@ -147,7 +147,7 @@ LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，�
 
 *   **方法一（手動檢查）**：到官網執行特定動作（如註冊、加入購物車），之後刷新 LINE 的 Tag 管理頁面，檢查該事件名稱是否出現於狀態列表中。
 
-    ![](../../../../assets/images/ec-第三方整合-lineoa-linetag追蹤狀態.png)
+    ![Tag 追蹤狀態](../../../../assets/images/ec-第三方整合-lineoa-linetag追蹤狀態.png){ title="Tag 追蹤狀態" }
 
 *   **方法二（工具檢查）**：下載 Chrome 擴充功能「[**LINE Tag Helper** :lucide-external-link:](https://chromewebstore.google.com/detail/line-tag-helper/jgnholagndjghcjedffhinifilbjmklg?hl=zh-TW)」進行即時偵測。
 
@@ -168,7 +168,7 @@ LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，�
     - **受眾類型**: 選擇 **網站流量**。
     - **目標設定**: 選擇欲設定的 LINE Tag 帳號，以及相關目標設定。
 
-![](../../../../assets/images/ec-第三方整合-linetag-建立受眾-lineoa.png)
+![OA 建立受眾](../../../../assets/images/ec-第三方整合-linetag-建立受眾-lineoa.png){ title="OA 建立受眾" }
 
 ---
 
@@ -178,7 +178,7 @@ LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，�
 2.  **操作頁面**：點選左上角選單按鈕 :lucide-menu:，選擇 **受眾 > 建立受眾 > 網站流量受眾**。
 3.  **受眾設定**：點選 **事件** 可以選擇要設定的事件。
 
-![](../../../../assets/images/ec-第三方整合-linetag-建立受眾-lineadmanager.png)
+![Ad Manager 建立受眾](../../../../assets/images/ec-第三方整合-linetag-建立受眾-lineadmanager.png){ title="Ad Manager 建立受眾" }
 
 ### 轉換分析
 
@@ -189,7 +189,7 @@ LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，�
     - **LINE Tag**：選擇設定的 LINE Tag。
     - **配對方式**：選擇 **轉換事件**。
 
-![](../../../../assets/images/ec-第三方整合-linetag-轉換分析.png)
+![轉換分析](../../../../assets/images/ec-第三方整合-linetag-轉換分析.png){ title="轉換分析" }
 
 ## 後續操作
 

@@ -194,7 +194,7 @@ hide: []
   退貨完成後若需要重新出貨剩餘品項，可參考部分出貨流程。
 
 - :lucide-settings:{ .lg }  
- ](../../website-management/setup-store-basic-info.md)t/設定網站基本資訊.md){ title="設定網站基本資訊" }  
+  [__設定網站基本資訊__](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" }  
   逾期未取的退貨包裹會改以宅配到付方式退回此地址，建議事先確認資料正確。
 
 - :lucide-check-circle:{ .lg }  

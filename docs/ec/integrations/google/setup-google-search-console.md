@@ -1,9 +1,8 @@
 ---
-
 title: "註冊並驗證 Google Search Console"
 description: "在 Google Search Console 註冊並驗證網站擁有權，以監測網站搜尋表現。"
 created: "2026-03-20 14:28"
-last_modified: "2026-03-20 15:15"
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -42,11 +41,10 @@ features:
   - HTML_標記驗證
 prerequisites: []
 related:
-  - "[[將 Sitemap 提交至 Google Search Console]]"
+  - "[[submit-sitemap-to-gsc]]"
 tags:
   - GSC
   - SEO
-  - Google_Search_Console
   - 搜尋引擎優化
 acoiv: integration
 apis: []
@@ -60,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3375
   - https://www.cyberbiz.io/support/?p=15362
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-search-console
 comments: false
 search:
   exclude: false
@@ -68,8 +66,7 @@ icon: lucide/search-code
 hide: []
 ---
 
-
-![](../../../assets/images/ec-第三方整合-google-gsc.png){ .hero-page }
+![Google Search Console 註冊驗證](../../../assets/images/ec-第三方整合-google-gsc.png){ title="Google Search Console 註冊驗證" .hero-page }
 
 ## 為什麼要使用 GSC  
 
@@ -93,13 +90,13 @@ hide: []
 2. **輸入網址**：在資源類型選擇介面中，點選右側的 **「網址前置字元」**，並輸入您的官網網址（需包含 https://）。
 3. **選取驗證方式**：驗證方式請選擇 **「HTML 標記」**，系統會產生一段程式碼，請點擊旁邊的按鈕複製該代碼。
 
-    ![](../../../assets/images/ec-第三方整合-google-gschtml標記複製.gif)
+    ![複製 HTML 標記代碼](../../../assets/images/ec-第三方整合-google-gschtml標記複製.gif){ title="複製 HTML 標記代碼" }
 
 4. **埋設代碼至 CYBERBIZ 後台**：
     * 進入管理後台路徑：**「網站外觀」** > **「套版主題管理」** > 選擇操作 **「CSS/HTML 編輯器」** > 點擊左側的 **`theme.liquid`** 檔案。
     * 將剛才複製的 HTML 標記代碼貼在檔案內容中的 **`</head>`** 標籤前面，並儲存設定。
 
-    ![](../../../assets/images/ec-第三方整合-google-gschtml標記貼上.png)
+    ![貼上 HTML 標記代碼](../../../assets/images/ec-第三方整合-google-gschtml標記貼上.png){ title="貼上 HTML 標記代碼" }
 
 5. **完成驗證**：回到 Google Search Console 的頁面，點選 **「驗證」**。驗證完成後會跳出「已驗證擁有權」的彈窗，點擊「前往資源」即可開始查看數據。
 
@@ -108,7 +105,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-map:{ .lg }   
-  [__提交網站地圖__](../../marketing/seo/將 Sitemap 提交至 Google Search Console.md)     
+  [__提交網站地圖__](../../website-management/seo/submit-sitemap-to-gsc.md){ title="將 Sitemap 提交至 Google Search Console" }    
   註冊與驗證完成後，最重要且優先的動作是進行網站地圖 (Sitemap) 的提交。
 
 </div>

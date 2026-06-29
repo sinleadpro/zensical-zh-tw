@@ -2,9 +2,9 @@
 title: 設定 LINE 快速登入時取得會員手機號碼
 description: 串接 LINE 認證權限，在快速登入流程中自動取得並驗證會員手機號碼，以提升帳號比對精準度與資料完整性。
 created: 2026-02-16 00:00
-last_modified: 2026-06-14 11:47
+last_modified: 2026-06-26 10:05
 lang: zh-TW
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-line-quick-login-phone-number
 type: tutorial
 status: ""
 version: ""
@@ -29,8 +29,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -81,7 +81,7 @@ icon: lucide/phone-forwarded
 hide: []
 ---
 
-![](../../../../assets/images/ec-第三方整合-line login-oc-phone-number.png){ .hero-page }
+![LINE快速登入取得手機號碼](../../../../assets/images/ec-第三方整合-line login-oc-phone-number.png){ title="LINE快速登入取得手機號碼" .hero-page }
 
 ## 什麼是 LINE 快速登入時取得會員手機號碼 
 
@@ -110,7 +110,7 @@ hide: []
 
 1. **確認 Provider 狀態**：在 Provider 首頁確認該項目旁是否有認證標章（綠色勾號）。
 
-	![](../../../../assets/images/ec-第三方整合-line oa 認證盾牌.png)
+	![LINE OA認證盾牌](../../../../assets/images/ec-第三方整合-line oa 認證盾牌.png){ title="LINE OA認證盾牌" }
 	
 2. **檢查權限設定**：
 
@@ -120,7 +120,7 @@ hide: []
 
 	- 確認權限清單中包含 **OC_PHONE_NUMBER**。
 
-	![](../../../../assets/images/ec-第三方整合-line-login-permissions.png)
+	![LINE Login權限設定](../../../../assets/images/ec-第三方整合-line-login-permissions.png){ title="LINE Login權限設定" }
 	
 ## 系統比對邏輯與情境
 
@@ -131,28 +131,27 @@ hide: []
 - **適用對象**：此功能適用於手機號碼已在官網註冊過或未註冊過的會員。
 
 
-### 邏輯流程圖
+??? note-clean "邏輯流程圖"
 
-此圖表展現系統判斷的優先權：**手機號碼 (Priority 1) > 電子郵件 (Priority 2) > 建立新帳號**。
+    此圖表展現系統判斷的優先權：**手機號碼 (Priority 1) > 電子郵件 (Priority 2) > 建立新帳號**。
 
-```mermaid
-graph LR
-    Start([使用者啟動 LINE 快速登入]) --> CheckPhone{EC 系統是否有<br/>相同手機號碼?}
-    
-    %% 情況 A
-    CheckPhone -- 是 (會員 A) --> BindA[將 LINE UID 綁定至 會員 A]
-    BindA --> EndA([未來以 會員 A 身份登入])
+    ```mermaid
+    graph LR
+        Start([使用者啟動 LINE 快速登入]) --> CheckPhone{EC 系統是否有<br/>相同手機號碼?}
+        
+        %% 情況 A
+        CheckPhone -- 是 (會員 A) --> BindA[將 LINE UID 綁定至 會員 A]
+        BindA --> EndA([未來以 會員 A 身份登入])
 
-    %% 情況 B
-    CheckPhone -- 否 --> CheckEmail{EC 系統是否有<br/>相同 Email?}
-    
-    CheckEmail -- 是 (會員 B) --> BindB[將 LINE UID 綁定至 會員 B]
-    BindB --> EndB([未來以 會員 B 身份登入])
-    
-    CheckEmail -- 否 --> CreateNew[建立全新會員 C]
-    CreateNew --> EndC([未來以 新會員 C 身份登入])
-```
-
+        %% 情況 B
+        CheckPhone -- 否 --> CheckEmail{EC 系統是否有<br/>相同 Email?}
+        
+        CheckEmail -- 是 (會員 B) --> BindB[將 LINE UID 綁定至 會員 B]
+        BindB --> EndB([未來以 會員 B 身份登入])
+        
+        CheckEmail -- 否 --> CreateNew[建立全新會員 C]
+        CreateNew --> EndC([未來以 新會員 C 身份登入])
+    ```
 
 ??? example "情況 A：手機號碼「已存在」於 EC 系統"
 
@@ -184,11 +183,11 @@ graph LR
 1. 前往 [LINE Developers 後台 :lucide-external-link:](https://developers.line.biz/) 。
 2. 進入對應的 Channel，切換至 **LIFF** 頁籤。
 
-	![](../../../../assets/images/ec-第三方整合-line developer-liff tab.png)
+	![LIFF頁籤](../../../../assets/images/ec-第三方整合-line developer-liff tab.png){ title="LIFF頁籤" }
 
 3. 在 **Scopes (權限範圍)** 區塊中，勾選 **phone** 選項。
 
-	![](../../../../assets/images/ec-第三方整合-line login-liff-scope.png)
+	![LIFF權限範圍設定](../../../../assets/images/ec-第三方整合-line login-liff-scope.png){ title="LIFF權限範圍設定" }
 
 4. **設定後的實際效果：**
 	
@@ -202,7 +201,7 @@ graph LR
 
 - **非追溯性**：此功能 **不包含** 取得「功能設定完成前」已進行過 LINE 快速登入的會員手機號碼。
 
-- **驗證通知**：若商家在顧客註冊設定中開啟了「註冊時驗證電話」，系統會發送簡訊驗證碼，此過程會產生簡訊費用（扣除 **1 點 Cyber 幣**）。
+- **驗證通知**：若商家在顧客註冊設定中開啟了「註冊時驗證電話」，系統會發送簡訊驗證碼，此過程會產生簡訊費用（扣除 **1 點 Cyber幣**）。
 
 - **隱碼保護**：列印訂單明細時，若商家有開啟安全設定，取得的手機號碼會以隱碼（例如 `093******3`）顯示以保護個資。
 
@@ -222,7 +221,7 @@ graph LR
 	**不會。** 登入流程仍可完成，但系統會因無法取得手機號碼而自動降級（Fallback）至「僅以 Email 比對」的標準模式。
 
 ??? quote "使用此功能是否會產生額外費用" 
-	功能本身免費，但若商家開啟了「註冊時驗證電話」設定，系統在建立新會員帳號時會發送驗證簡訊，每則將扣除 **1 點 Cyber 幣**。
+	功能本身免費，但若商家開啟了「註冊時驗證電話」設定，系統在建立新會員帳號時會發送驗證簡訊，每則將扣除 **1 點 Cyber幣**。
 
 ??? quote "後台顯示的手機號碼為何部分被遮蔽（如 `0912***456`）"
 	這是系統的 **隱碼保護機制**。若商家啟用了個資安全設定，系統會自動在報表與明細中隱藏部分號碼以符合合規要求。

@@ -1,9 +1,8 @@
 ---
-
 title: 同步商品影片至 Meta 目錄
 description: 將 CYBERBIZ 商品影片同步至 Meta 目錄，放置目錄型廣告時商品影片與商品圖將輪播展示，提升廣告吸睛程度。
 created: 2026-04-21 14:27
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -59,7 +58,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7886
   - https://www.cyberbiz.io/support/?p=2175
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/sync-product-videos-meta-catalog
 comments: ""
 search:
   exclude: ""
@@ -67,14 +66,11 @@ icon: lucide/play
 hide:
 ---
 
-
-
-
 ![MBS-資料來源-目錄](../../../../assets/images/ec-第三方整合-mbs-資料來源-目錄.png){ .hero-page }
 
 ## 同步商品影片至 Meta 目錄說明
 
-此功能使商家能夠將 CYBERBIZ 平台上的產品數據（包含資訊、庫存、價格，以及最重要的 **商品影片**）自動同步到 Meta 的產品目錄中。設定完成後，後續在建立 Meta 廣告時若選擇「[**目錄型廣告**](setup-meta-ad-campaign.md#廣告呈現效果){ title="設定 Meta 廣告活動" }」，廣告投放時商品影片與商品圖即會輪播展示。
+此功能使商家能夠將 CYBERBIZ 平台上的產品數據（包含資訊、庫存、價格，以及最重要的 **商品影片**）自動同步到 Meta 的產品目錄中。設定完成後，後續在建立 Meta 廣告時若選擇「[**目錄型廣告**](setup-meta-ad-campaign.md#廣告呈現效果){ title="設定 Meta 廣告活動" data-preview }」，廣告投放時商品影片與商品圖即會輪播展示。
 
 ## 設定前提與功能限制
 
@@ -90,7 +86,7 @@ hide:
 
     ![FBE-編輯資產](../../../../assets/images/ec-第三方整合-fb-基本設定-fbe-編輯資產.png)
 
-2.  **進行資產連結：** 此步驟與 [FBE 帳號](../mbe/setup-fbe-authorization.md#操作步驟教學)操作步驟教學){ title="設定 FBE 帳號授權與資產連結" } 的「連結企業資產」流程相同（包含登入 Facebook 帳號、同意授權、選擇資產）。
+2.  **進行資產連結：** 此步驟與 [FBE 帳號操作步驟教學](../mbe/setup-fbe-authorization.md#操作步驟教學){ title="設定 FBE 帳號授權與資產連結" } 的「連結企業資產」流程相同（包含登入 Facebook 帳號、同意授權、選擇資產）。
 
 3.  **選擇目錄資產：** 選擇「**目錄**」作為欲同步的資產類型，並從清單中挑選欲同步的商品目錄後點擊 **確認**。
 
@@ -120,7 +116,7 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-rocket:{ .lg }   
-  [__投放 Me](setup-meta-ad-campaign.md)a 廣告活動.md){ title="設定 Meta 廣告活動" }       
+  [__投放 Meta 廣告活動__](setup-meta-ad-campaign.md){ title="設定 Meta 廣告活動" }       
   同步完成後，可進一步設定 CPV 廣告 (Catalog Product Video)，以商品影片生動展示產品亮點。
 
 </div>

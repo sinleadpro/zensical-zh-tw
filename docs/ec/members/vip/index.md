@@ -140,7 +140,7 @@ hide: []
   設定整筆訂單折扣、專屬免運門檻、紅利倍數回饋，以及發放 VIP 生日禮與升等禮。
 
 - :lucide-banknote:{ .lg }
-  [__會員專屬價格__](../../products/pricing/設定%20VIP%20會員專屬價格.md)
+  [__會員專屬價格__](../../products/pricing/setup-vip-member-pricing.md)
   針對特定商品設定不同 VIP 等級的專屬售價，讓高階會員享有最直接的價格優勢。
 
 </div>

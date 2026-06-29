@@ -1,9 +1,8 @@
 ---
-
 title: 自動化廣告系統(Google 購物廣告)
 description: 串接 Google 購物廣告，透過 CYBERBIZ 自動化廣告系統進行廣告投放、預算管理與成效追蹤。
 created: 2026-01-15 10:00
-last_modified: 2026-06-11 11:58
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -64,15 +63,13 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8203
   - https://www.cyberbiz.io/support/?p=34930
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/automated-ads-system
 comments: false
 search:
   exclude: false
 icon: lucide/bot
 hide: []
 ---
-
-
 
 ![自動化廣告系統](../../../assets/images/ec-第三方整合-自動化廣告系統.png){ .hero-page }
 
@@ -98,7 +95,7 @@ hide: []
 
 ## 使用前提與限制 { #prerequisites-automated-ads }
 
-- [x] **公司聯絡資訊**：開通前須至 **「一般設定」** 填妥[公司聯絡資訊](../../website-management/setup-store-basic-info.md#gp-company-contact)，否則無法完成 GMC 串接。
+- [x] **公司聯絡資訊**：開通前須至 **「一般設定」** 填妥[公司聯絡資訊](../../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="設定網站基本資訊" }，否則無法完成 GMC 串接。
 - [x] **GMC 帳號**：須選擇 **「CYBERBIZ 代管」** 或提供 **「商家自有帳號」**，二擇一進行串接。
 
 ??? plan "方案適用對照"
@@ -219,7 +216,8 @@ hide: []
   於「廣告分析報表」查看 Google 購物廣告的即時成效數據。
 
 - :lucide-store:{ .lg }  
-  [__GMC 串接設定__](設定 Google M](setup-google-merchant-center.md)e Merchant Center 並同步 CYBERBIZ 商品資料。
+  [__GMC 串接設定__](setup-google-merchant-center.md)  
+  設定 Google Merchant Center 並同步 CYBERBIZ 商品資料。
 
 </div>
 
@@ -234,7 +232,7 @@ hide: []
     - 如果您是使用自己的 GMC 帳號，請進入您的 GMC 帳號後台行檢查。 
 	
         1. 至左側 **產品 > 診斷** 確認有效的商品項目是否有成功上傳產品。
-        2. 至左側 **產品 > 動態饋給** 確認新增產品方式有無誤。可參考 [GMC 串接設定](設定 Google Merchant Cente](setup-google-merchant-center.md)t Center 並同步 CYBERBIZ 商品" }
+        2. 至左側 **產品 > 動態饋給** 確認新增產品方式有無誤。可參考 [GMC 串接設定](setup-google-merchant-center.md){ title="設定 Google Merchant Center 並同步 CYBERBIZ 商品" }
         3. 至左側 **成長 > 管理計畫 > 購物廣告**，點選 **開始使用/修正未完成的內容**。並且確認購物廣告計畫裡面的項目 *除了*  **新增帳單詳細資料** 與 **建立廣告活動** 外，其他項目皆是打勾狀態。
 
 ??? quote "每日廣告預算應該設定多少？"

@@ -12,49 +12,49 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: 
+products:
   - EC
-modules: 
+modules:
   - APP MARKET
-sites: 
+sites:
   - TW
-audiences: 
+audiences:
   - admin
 difficulty: intermediate
 tnb: branch
-plans: 
-  - 專業 PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+plans:
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
-cyb_extensions: 
+cyb_extensions:
   - CHAT BOX
-intents: 
+intents:
   - 串接_Facebook_粉絲專頁
   - 授權_Meta_帳號
   - 管理_Facebook_訊息
-features: 
+features:
   - Meta_授權
   - Facebook_Messenger_整合
   - Chat_Box
-prerequisites: 
-  - "需擁有 Facebook 粉絲專頁管理員權限"
-related: 
+prerequisites:
+  - 需擁有 Facebook 粉絲專頁管理員權限
+related:
   - "[[Chat Box 訊息通]]"
   - "[[Meta 訊息格式規範]]"
-tags: 
+tags:
   - Facebook_串接
   - Meta_授權
   - ChatBox
   - Messenger
 acoiv: configure
 apis: []
-devices: 
+devices:
   - desktop
-ui_components: 
+ui_components:
   - Meta Business Suite
   - Facebook 授權視窗
-paths: 
+paths:
   - APP MARKET > ChatBox > 設定
 layouts: []
 wp_url:

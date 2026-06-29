@@ -2,7 +2,7 @@
 title: ASC 廣告投放策略與最佳實務
 description: 了解 Meta ASC（高效速成購物行銷活動）廣告投放策略與實務技巧，包含前置條件設定、預算配置建議與優化策略。
 created: 2026-04-24 17:48
-last_modified: 2026-06-14 11:42
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: guide
 status: ""
@@ -61,10 +61,10 @@ ui_components: []
 paths:
   - 第三方整合 > Facebook 整合_廣告_註冊登入 > 廣告活動設定
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10820
-  - https://www.cyberbiz.io/support/?p=4674
-permalink: ""
+  - https://www.cyberbiz.io/support/?p=46743
+permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/asc-ad-strategy-best-practices
 comments: ""
 search:
   exclude: ""
@@ -138,7 +138,7 @@ hide:
     必須先於後台建立 Meta 廣告帳號，且 **首次儲值金額需大於新台幣 15,000 元**。
 
 -   :material-numeric-3-circle:{ .lg }
-    **[綁定 Face](create-meta-ad-account-top-up.md#像素-pixel-設定)d#像素-pixel-設定){ title="建立 Meta 廣告帳號並完成儲值" }**
+    **[綁定 Facebook 像素](create-meta-ad-account-top-up.md#像素設定-pixel){ title="建立 Meta 廣告帳號並完成儲值" }**
 
     確保官網已正確綁定，以便 ASC 目錄型廣告能正常抓取已搜集到的商品資訊。
 
@@ -169,15 +169,15 @@ hide:
 
 ??? quote "ASC 廣告需要多少預算才能開始投放？"
 
-    -   [x] 首次儲值金額需大於新台幣 15,000 元
-    -   [x] 建議上線第一至二週設定較高的每日預算，以縮短 AI 學習週期
-    -   [x] 可參考「商品客單價的 30%」作為預估 CPA 回推每日預算
+    - 首次儲值金額需大於新台幣 15,000 元
+    - 建議上線第一至二週設定較高的每日預算，以縮短 AI 學習週期
+    - 可參考「商品客單價的 30%」作為預估 CPA 回推每日預算
 
 ??? quote "ASC 廣告適合什麼樣的商家？"
 
-    -   [x] 適合有無數據累積的新廣告帳號，系統會自動尋找目標族群
-    -   [x] 適合希望全自動化投放、不擅長受眾設定的商家
-    -   [x] 適合需要個人化動態推薦、提升轉單率的電商
+    - 適合有無數據累積的新廣告帳號，系統會自動尋找目標族群
+    - 適合希望全自動化投放、不擅長受眾設定的商家
+    - 適合需要個人化動態推薦、提升轉單率的電商
 
 ??? quote "如何優化 ASC 廣告的投放效果？"
 

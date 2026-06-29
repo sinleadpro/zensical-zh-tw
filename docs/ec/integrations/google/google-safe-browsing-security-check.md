@@ -1,9 +1,8 @@
 ---
-
 title: 使用 Google 安全瀏覽工具檢查並排除網站安全性風險 
 description: 了解如何使用 Google 安全瀏覽網站狀態檢查工具，主動檢測官網是否存在安全性風險，並透過 GSC 申請審核解除警示。
 created: 2026-03-25 21:29
-last_modified: 2026-06-09 17:53
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -27,7 +26,7 @@ plans:
   - 專業
   - 進階
   - 高手
-  - 專業PLUS 
+  - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
@@ -47,10 +46,10 @@ related:
   - "[[setup-manage-two-factor-auth]]"
   - "[[security-settings]]"
 tags:
-  - Google_安全瀏覽
+  - Google 安全瀏覽
   - 網站安全性
   - 不安全網站
-  - Google_Search_Console
+  - GSC
   - 安全警示解除
 acoiv: ""
 apis: []
@@ -61,10 +60,10 @@ ui_components: []
 paths:
   - Google_Search_Console > 安全性與人工判決處罰 > 安全性問題
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3129
   - https://www.cyberbiz.io/support/?p=24812
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/google-safe-browsing-security-check
 comments: ""
 search:
   exclude: ""
@@ -72,21 +71,20 @@ icon: lucide/shield-alert
 hide:
 ---
 
-
 ![Google 安全瀏覽網站工具](../../../assets/images/ec-google-安全瀏覽網站狀態工具.png){ .hero-page }
 
 ## 什麼是安全瀏覽網站狀態
 
 Google 提供「安全瀏覽網站狀態檢查工具」，可協助商家主動檢測官網是否存在安全性風險，避免因被判定為不安全網站，而影響品牌信任度與搜尋排名。
 
-!!! info "進一步瞭解 Google Safe Browsing 與透明報告"
+??? info "進一步瞭解 Google Safe Browsing 與透明報告"
     
     - **Google Safe Browsing** 是一套網站安全防護機制，負責偵測惡意網站（如釣魚網站、惡意軟體、木馬程式），並在使用者造訪風險頁面時顯示警告，以降低資安威脅。[了解更多 :lucide-external-link:](https://safebrowsing.google.com/)
-    - **Google 透明報告**（Transparency Report） 則是基於 Safe Browsing 的偵測結果，提供公開的安全數據與查詢工具，讓網站管理員檢查網站是否被標記為風險網站。[了解更多 :lucide-external-link:](https://transparencyreport.google.com/safe-browsing/about)
+    - **Google 透明報告**（Transparency Report） 則是基於 Safe Browsing 的偵測結果，提供公開的安全數據與查詢工具，讓網站管理員檢查網站是否被標記為風險網站。[了解更多 :lucide-external-link:](https://transparencyreport.google.com/?hl=zh_TW)
 
 ## 如何查詢網站是否有安全風險
 
-1.  **前往工具頁面**：進入 [Google 檢查網站狀態 :lucide-external-link:](https://transparencyreport.google.com/safe-browsing/search) 工具頁面。
+1.  **前往工具頁面**：進入 [Google 檢查網站狀態 :lucide-external-link:](https://transparencyreport.google.com/safe-browsing/search?hl=zh_TW) 工具頁面。
 2.  **輸入網址**：在搜尋框內輸入您欲查詢的官網網址並執行搜尋。
 3.  **辨識查詢結果**：
     *   ✅ **「未找到任何不安全的內容」**：代表 Google 目前尚未偵測到該網址有安全疑慮。
@@ -120,7 +118,7 @@ Google 提供「安全瀏覽網站狀態檢查工具」，可協助商家主動�
   開啟 2FA 驗證機制，防止帳號被盜用，降低網站被植入惡意內容的風險。
 
 - :lucide-brick-wall-shield:{ .lg }  
-  [__IP 白名單__](../../website-management/設定網站安全性.md#白名單){ title="設定網站安全性" }       
+  [__IP 白名單__](../../website-management/security-settings.md#operate-security-ip-whitelist){ title="保護後台帳號與顧客資料" }       
   限制後台登入的 IP 來源，確保只有授權的 IP 才能存取管理介面。
 
 </div>

@@ -1,9 +1,8 @@
 ---
-
 title: "建立 Google Tag Manager 並串接 CYBERBIZ"
 description: "建立 Google Tag Manager 帳戶與容器，並將 GTM 程式碼正確安裝至 CYBERBIZ 官網。"
 created: "2026-03-17 16:31"
-last_modified: 2026-06-08 17:15
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -27,7 +26,7 @@ plans:
   - 專業
   - 進階
   - 高手
-  - 專業PLUS 
+  - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
@@ -44,7 +43,6 @@ prerequisites: []
 related:
   - "[[verify-tracking-tag-installation]]"
 tags:
-  - Google Tag Manager
   - GTM
   - 追蹤代碼
   - 標籤管理
@@ -60,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=689
   - https://www.cyberbiz.io/support/?p=228
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-tag-manager
 comments: false
 search:
   exclude: false
@@ -68,8 +66,7 @@ icon: lucide/code
 hide: []
 ---
 
-
-![](../../../assets/images/ec-第三方整合-google設定-gtm.png){ .hero-page }
+![Google Tag Manager 串接設定](../../../assets/images/ec-第三方整合-google設定-gtm.png){ title="Google Tag Manager 串接設定" .hero-page }
 
 ## 什麼是 Google Tag Manager
 
@@ -78,18 +75,18 @@ hide: []
 ## 建立 GTM 帳戶與容器
 
 1.  **建立帳戶**：登入 [Google Tag Manager :lucide-external-link:](https://tagmanager.google.com/)，點擊「建立帳戶」。輸入 **帳戶名稱**（建議使用公司或品牌名）並選擇國家。
-2.  **設定容器**：輸入 **[容器](#GTM-核心詞彙表){ data-preview } 名稱**（建議填寫官網網址或名稱）並選擇目標平台為「**網路**」。
+2.  **設定容器**：輸入 [容器](#gtm-核心詞彙表){ title="容器" } **名稱**（建議填寫官網網址或名稱）並選擇目標平台為「**網路**」。
 3.  **同意條款**：勾選同意服務條款後點擊「是」。
 4.  **取得代碼**：系統會彈出安裝代碼視窗，請找到 **GTM-XXXXXX** 格式的容器 ID 並複製。
 
-![](../../../assets/images/ec-第三方整合-google設定-建立gtm.gif)
+![建立 GTM 帳戶與容器](../../../assets/images/ec-第三方整合-google設定-建立gtm.gif){ title="建立 GTM 帳戶與容器" }
 
 ## CYBERBIZ 後台串接設定
 
 1.  **進入路徑**：前往管理後台的「**第三方整合**」>「**谷歌 Google 設定**」。
 2.  **填入 ID**：找到「**Google Tag Manager**」區塊，將複製的 ID 貼至「**追蹤編號含GTM**」欄位中並儲存。
 
-![](../../../assets/images/ec-第三方整合-google設定-gtm欄位.png)
+![GTM 追蹤編號欄位](../../../assets/images/ec-第三方整合-google設定-gtm欄位.png){ title="GTM 追蹤編號欄位" }
 
 ## 重要注意事項（避免數據異常）
 
@@ -139,7 +136,7 @@ hide: []
 
 ??? quote "如何驗證 GTM 是否正確安裝？"
 
-    您可以[使用 **Google Tag Assistant** 來驗證](使用](verify-tracking-tag-installation.md)tle="使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝" }：
+    您可以使用 **Google Tag Assistant** 來[驗證](verify-tracking-tag-installation.md){ title="使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝" }：
     
     * **Chrome 擴充功能**：快速查看代碼是否成功載入
     * **網頁版工具**：完整紀錄操作行為，驗證特定標籤是否正確觸發

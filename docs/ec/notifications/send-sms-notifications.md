@@ -2,7 +2,7 @@
 title: 設定與發送簡訊通知
 description: 如何在 CYBERBIZ 後台設定與發送簡訊，包含發送方式、費用計算與操作步驟。
 created: 2026-04-27 17:09
-last_modified: 2026-06-24 10:08
+last_modified: 2026-06-26 06:12
 lang: zh-TW
 type: tutorial
 status: ""
@@ -27,7 +27,7 @@ plans:
   - 專業
   - 進階
   - 高手
-  - 專業PLUS 
+  - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
@@ -62,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=621
   - https://www.cyberbiz.io/support/?p=1529
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/notifications/send-sms-notifications
 comments: false
 search:
   exclude: false

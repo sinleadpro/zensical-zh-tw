@@ -206,4 +206,4 @@ hide:
 ## 延伸閱讀
 
 - [批次修改商品描述與配送設定](../bulk-operations/batch-update-product-descriptions-shipping.md){ title="批次修改商品描述與配送設定" }
-- [編輯商品描述與商品設定](../create-and-manage/編輯商品描述與商品設定.md){ title="編輯商品描述與商品設定" }
+- [編輯商品描述與商品設定](../create-and-manage/edit-product-description-settings.md){ title="編輯商品描述與商品設定" }

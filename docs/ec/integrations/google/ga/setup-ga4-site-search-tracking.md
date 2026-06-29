@@ -1,9 +1,8 @@
 ---
-
 title: 設定 GA4 站內搜尋追蹤
 description: 透過 GA4 加強型評估功能，追蹤使用者在官網上的站內搜尋行為，分析消費者的資訊需求與查找意圖。
 created: 2026-03-24 20:05
-last_modified: 2026-06-08 17:15
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -45,10 +44,8 @@ prerequisites:
   - "[[setup-google-analytics]]"
 related:
   - "[[google-analytics-advanced-tracking]]"
-  - "[[設定 GA4 排除內部流量與第三方參照來源]]"
+  - "[[ga4-exclude-internal-traffic-and-referrals]]"
 tags:
-  - EC
-  - Google Analytics 4
   - GA4
   - 站內搜尋
   - 搜尋追蹤
@@ -67,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12099
   - https://www.cyberbiz.io/support/?p=28483
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/ga/setup-ga4-site-search-tracking
 search:
   exclude: false
 icon: lucide/search-code
@@ -75,8 +72,7 @@ hide: []
 comments: false
 ---
 
-
-![](../../../../assets/images/ec-第三方整合-google-ga4-加強型評估-站內搜尋.png){ .hero-page }
+![GA4站內搜尋追蹤](../../../../assets/images/ec-第三方整合-google-ga4-加強型評估-站內搜尋.png){ title="GA4站內搜尋追蹤" .hero-page }
 
 ## GA4 站內追蹤說明
 
@@ -95,7 +91,7 @@ comments: false
 3.  **啟用站內搜尋**：找到「**站內搜尋**」項目並將開關開啟。
 4.  **設定查詢參數**：點擊「**顯示進階設定**」，在「搜尋字詞查詢參數」欄位中輸入：`q,s,search,query,keyword`（請以半形逗號分隔），完成後儲存設定。
 
-![](../../../../assets/images/ec-第三方整合-google-ga4-加強型評估-開啟站內搜尋.gif)
+![開啟站內搜尋設定](../../../../assets/images/ec-第三方整合-google-ga4-加強型評估-開啟站內搜尋.gif){ title="開啟站內搜尋設定" }
 
 !!! warning "資料延遲"
 
@@ -107,11 +103,11 @@ comments: false
 
 1.  **即時報表檢視**：前往「報表」>「即時」或「即時總覽」，在「**事件計數**」區塊中尋找 `view_search_results` 事件。
 
-    ![GA4 view_search_results](../../../../assets/images/ec-第三方整合-google-ga4-報表-view_search_results.png)
+    ![GA4搜尋結果事件](../../../../assets/images/ec-第三方整合-google-ga4-報表-view_search_results.png){ title="GA4搜尋結果事件" }
 
 2.  **查看關鍵字內容**：點擊 `view_search_results` 事件後，再點擊 `search_term` 參數，即可瀏覽使用者在官網上曾查詢過的 **關鍵字紀錄** 與搜尋次數。
 
-    ![](../../../../assets/images/ec-第三方整合-google-ga4-報表-search_term.png)
+    ![搜尋關鍵字紀錄](../../../../assets/images/ec-第三方整合-google-ga4-報表-search_term.png){ title="搜尋關鍵字紀錄" }
 
 !!! info "更多 GA4 追蹤事件資訊，請參考 [官方說明 :lucide-external-link:](https://support.google.com/analytics/answer/9322688?hl=zh-Hant#zippy=%2C%E5%8D%B3%E6%99%82%E5%A0%B1%E8%A1%A8%2Cdebugview-%E5%A0%B1%E8%A1%A8)。"
 

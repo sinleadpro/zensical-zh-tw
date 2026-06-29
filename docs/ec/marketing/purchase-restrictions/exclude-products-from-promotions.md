@@ -28,8 +28,8 @@ difficulty: beginner
 tnb: branch
 plans:
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 feature_badges:
@@ -101,19 +101,19 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-tag:{ .lg }   
-  [__全館折扣活動__](../設定全館折扣.md)  
+  [__全館折扣活動__](../discounts/storewide-discounts.md)  
   將商品排除於「全館折扣 - 紅利 & 優惠券」設定的全館折扣與疊加優惠。
 
 - :lucide-percent:{ .lg }     
-  [__優惠碼 / 優惠券__](../設定優惠碼.md){ title="設定優惠碼" }  
+  [__優惠碼 / 優惠券__](../coupon/setup-promo-codes.md){ title="設定優惠碼" }  
   將商品排除於優惠碼與優惠券活動，包括首購禮、互動遊戲與指定商品送優惠券。
 
 - :lucide-clock:{ .lg }   
-  [__期間限定首購禮__](../設定首購禮.md)  
+  [__期間限定首購禮__](../bonus-and-gifts/limited-time-first-purchase-gift.md)  
   將商品排除於期間限定首購禮活動。
 
 - :lucide-gamepad:{ .lg }   
-  [__互動遊戲__](../設定互動遊戲.md)  
+  [__互動遊戲__](../other-tools/interactive-games.md)  
   將商品排除於互動遊戲活動發送的優惠券。
 
 - :lucide-list-check:{ .lg }   

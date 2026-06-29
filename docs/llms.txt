@@ -46,6 +46,7 @@
 - [定期定額分析 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/business-intelligence/periodic-order-analysis/): 透過數據卡與圖表，掌握店內定期定額訂單的數量、價值、持續期數與取消狀況，看出顧客訂閱的續訂與流失趨勢。
 - [訂單物流 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/orders/): 管理訂單流程與物流配送，提升出貨效率與顧客滿意度。
 - [訂單自動結案類型對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/orders/references/order-auto-close-types-reference/): 彙整訂單自動結案設定的各種結案類型、觸發條件與訂單狀態要求，供結帳頁與金物流相關設定引用。
+- [訂單編號格式變數對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/orders/references/order-format-variables-reference/): 彙整訂單編號格式可用的變數，包含訂單流水號、隨機數、日期時間等變數的說明與使用限制。
 - [會員管理 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/members/): 管理會員資料、等級與互動，提升會員體驗與忠誠度。
 - [商品管理 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/products/): 輕鬆管理商品資訊、分類與庫存，提升上架效率。
 - [電子票券 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/e-ticket/): 電子票券功能設定與管理。

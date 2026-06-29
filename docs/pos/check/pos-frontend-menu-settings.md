@@ -24,8 +24,8 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents: 
@@ -81,7 +81,7 @@ hide: []
 
 ## 使用須知
 
-- **前置作業**：建議先完成 **[自訂群組](../../ec/products/categories-and-tags/custom-collections.md)** 或 **[商品類型](../../ec/products/create-and-manage/編輯商品描述與商品設定.md#商品設定)** 的設定，以便在建立選單時直接連結。
+- **前置作業**：建議先完成 **[自訂群組](../../ec/products/categories-and-tags/custom-collections.md)** 或 **[商品類型](../../ec/products/create-and-manage/edit-product-description-settings.md#商品設定)** 的設定，以便在建立選單時直接連結。
 - **圖片規範**：
     - 建議尺寸：`80 x 80 px`。
     - 檔案大小：請勿超過 `2 MB`。

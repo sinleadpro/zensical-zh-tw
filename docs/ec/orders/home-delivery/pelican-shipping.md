@@ -178,7 +178,7 @@ hide: []
     ![下載宅配通託運單](../../../assets/images/EC-訂單-所有訂單-下載宅配通託運單.png)
 
 5. **檢視運費明細**：彈窗 中段會列出本批次要扣除的 Cyber 幣或對帳金額，請確認與[預期相符][pricing-pelican-extra]{ data-preview }。
-6. **確認寄件公司地址**：彈窗內會顯示您的 [公司物流地址][gp-logistics-address]{ data-preview }。若需臨時調整，可點擊 **更改** 修改。
+6. **確認寄件公司地址**：彈窗內會顯示您的 [公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" }。若需臨時調整，可點擊 **更改** 修改。
 
     ![下載宅配通託運單](../../../assets/images/EC-訂單-所有訂單-下載宅配通託運單-彈窗.png)
 

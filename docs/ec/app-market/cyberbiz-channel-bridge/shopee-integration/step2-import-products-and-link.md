@@ -2,7 +2,7 @@
 title: Step 2 導入商品與建立關聯
 description: 完成商店授權後，您可以批次將蝦皮商品資訊匯入至官網，並透過系統自動對應功能，快速完成分類歸類與商品上架。
 created: 2026-02-25 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-27 13:40
 lang: zh-TW
 type: tutorial
 status: update
@@ -24,9 +24,9 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 專業 PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions:
   - CHANNEL BRIDGE
@@ -54,7 +54,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5923
   - https://www.cyberbiz.io/support/?p=46486
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step2-import-products-and-link
 comments: false
 search:
   exclude: false

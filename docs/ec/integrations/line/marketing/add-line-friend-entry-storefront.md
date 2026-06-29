@@ -1,11 +1,10 @@
 ---
-
 title: 在官網新增 LINE 加入好友入口
 description: 在拖拉版型網站中新增 LINE 官方帳號加入好友入口，透過彈窗、輪播、頁腳或導覽列引導訪客加入好友。
 created: 2026-02-24
-last_modified: 2026-02-24
+last_modified: 2026-06-26 10:05
 lang: zh-TW
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/line/marketing/add-line-friend-entry-storefront
 type: tutorial
 status: ""
 version: ""
@@ -75,8 +74,7 @@ icon: lucide/external-link
 hide: 
 ---
 
-
-![](../../../../assets/images/ec-第三方整合-line-官方加入好友工具.png){ .hero-page }
+![LINE官方加入好友工具](../../../../assets/images/ec-第三方整合-line-官方加入好友工具.png){ .hero-page title="LINE官方加入好友工具" }
 
 ## 拖拉版型加入好友工具說明
 
@@ -96,7 +94,7 @@ hide:
 
 ## 官網應用方式設定
 
-### 右側彈窗廣告 (彈跳視窗)
+### 右側彈窗廣告 <small>彈跳視窗</small>
 
 這是最直接引導顧客加入好友的方式。
 
@@ -104,26 +102,26 @@ hide:
 - **設定步驟**：
     1. 新增一個圖片區塊。
 
-		![](../../../../assets/images/ec-網站外觀-彈窗廣告-圖片.gif)
+		![彈窗廣告-新增圖片](../../../../assets/images/ec-網站外觀-彈窗廣告-圖片.gif){ title="彈窗廣告-新增圖片" }
 
     2. **上傳圖片**：建議在電腦/平板/手機版圖片中上傳「加入好友行動條碼」圖片或貼上 URL 連結。
 
-		![](../../../../assets/images/ec-網站外觀-彈窗廣告-圖片-line-oa-qrcode.gif)
+		![彈窗廣告-上傳QR Code](../../../../assets/images/ec-網站外觀-彈窗廣告-圖片-line-oa-qrcode.gif){ title="彈窗廣告-上傳QR Code" }
 
     3. **縮圖設定**：商家可自行製作縮圖，並根據前台畫面調整縮圖大小。
-    4. **圖片連結**：選擇外部連結，貼上從 LINE Official Account Manager [複製的「好友網址」](../../notifications/send-line-friend-invitation.md#get-line-oa-add-friend-link){ data-preview }。
+    4. **圖片連結**：選擇外部連結，貼上從 LINE Official Account Manager [複製的「好友網址」](../../../notifications/send-line-friend-invitation.md#get-line-oa-add-friend-link){ title="發送 LINE 加入好友邀請" }。
 
-		![](../../../../assets/images/ec-網站外觀-彈窗廣告-圖片連結.png)
+		![彈窗廣告-圖片連結](../../../../assets/images/ec-網站外觀-彈窗廣告-圖片連結.png){ title="彈窗廣告-圖片連結" }
 
     5. **儲存設定**。
     
 - **完成設定畫面**：
 
-	![](../../../../assets/images/ec-網站外觀-彈窗廣告-line 加入好友.gif)
+	![彈窗廣告-加入好友完成](../../../../assets/images/ec-網站外觀-彈窗廣告-line 加入好友.gif){ title="彈窗廣告-加入好友完成" }
 
 ---
 
-### 輪播素材 (Banner)
+### 輪播素材 <small>Banner</small>
 
 利用首頁的大型橫幅廣告進行視覺推廣。
 
@@ -132,19 +130,19 @@ hide:
     1. 點選「新增區塊」並點擊編輯。
     2. **上傳圖片**：上傳設計好的 LINE 推廣圖（電腦版圖片為必傳）。
     3. **SEO 優化**：務必填寫「圖片替代文字」以優化搜尋引擎功能。
-    4. **停留設定**：在「其他版面設定」中可 [調整素材停留秒數與邊距](../../website-appearance/拖拉版型網站設定#版面細節設定-其他版面設計)。
+    4. **停留設定**：在「其他版面設定」中可 [調整素材停留秒數與邊距](../../../website-appearance/theme-and-layout/theme-editor.md#section-main-slider){ title="拖拉版型網站設定" }。
 
-	![](../../../../assets/images/ec-網站外觀-輪播素材-新增.gif)
+	![輪播素材-新增](../../../../assets/images/ec-網站外觀-輪播素材-新增.gif){ title="輪播素材-新增" }
 
 - **完成設定畫面**：
 
-	![](../../../../assets/images/ec-網站外觀-輪播素材-前台畫面.gif)
+	![輪播素材-前台畫面](../../../../assets/images/ec-網站外觀-輪播素材-前台畫面.gif){ title="輪播素材-前台畫面" }
 
-!!! note "更多輪播素材相關設定，請參閱 [輪播素材設定說明](../../website-appearance/拖拉版型網站設定#輪播素材)。"
+!!! note "更多輪播素材相關設定，請參閱 [輪播素材設定說明](../../../website-appearance/theme-and-layout/theme-editor.md#section-main-slider){ title="拖拉版型網站設定" }。"
 
 ---
 
-### 頁腳 ICON 設定 (Footer)
+### 頁腳 ICON 設定 <small>Footer</small>
 
 在網站底部固定放置 LINE 的社群圖示。
 
@@ -153,7 +151,7 @@ hide:
     1. 點選「其他版面設計」。
     2. 找到 **「社群媒體設定」**，將 **LINE 開啟** 並貼上好友邀請連結。
 
-![](../../../../assets/images/ec-網站外觀-頁腳-line.gif)
+![頁腳LINE設定](../../../../assets/images/ec-網站外觀-頁腳-line.gif){ title="頁腳LINE設定" }
 
 ---
 
@@ -165,19 +163,19 @@ hide:
 - **設定步驟**：
     1. 先至 [LINE Official Account Manager :lucide-external-link:](https://manager.line.biz/) 複製 **「建立按鈕」** 的語法。
 
-		![](../../../../assets/images/ec-第三方整合-line-oa-建立按鈕.gif)
+		![LINE OA建立按鈕](../../../../assets/images/ec-第三方整合-line-oa-建立按鈕.gif){ title="LINE OA建立按鈕" }
 
     2. 在 CYBERBIZ 選單設定介面中點選欲設定的選單，進入編輯頁面，再點擊 **「新增連結」**。
     3. **新增選單項目**：貼上剛才複製的按鈕語法。
-    4. **連結項目**：選擇 **「外部連結」**，並貼上](../../notifications/send-line-friend-invitation.md#get-line-oa-add-friend-link)-friend-link){ data-preview }。
+    4. **連結項目**：選擇 **「外部連結」**，並貼上[複製的「好友網址」](../../../notifications/send-line-friend-invitation.md#get-line-oa-add-friend-link){ title="發送 LINE 加入好友邀請" }。
 
-		![](../../../../assets/images/ec-網站外觀-選單導覽列-line-加入好友.gif)
+		![選單導覽列-加入好友](../../../../assets/images/ec-網站外觀-選單導覽列-line-加入好友.gif){ title="選單導覽列-加入好友" }
 
     5. 儲存選單後，前台導覽列即可出現加入好友的圖片連結。
 
-		![](../../../../assets/images/ec-網站外觀-選單導覽列-line-加入好友-前台.png)
+		![選單導覽列-加入好友前台](../../../../assets/images/ec-網站外觀-選單導覽列-line-加入好友-前台.png){ title="選單導覽列-加入好友前台" }
 
-!!! note "更多選單與導覽列設定，請參閱 [選單/導覽列設定說明](../../website-appearance/setup-menus-navigation.md){ data-preview }  。"
+!!! note "更多選單與導覽列設定，請參閱 [選單/導覽列設定說明](../../../website-appearance/navigation/setup-menus-navigation.md){ title="設定選單與導覽列" }  。"
 
 ---
 
@@ -186,7 +184,7 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-grip-vertical:{ .lg }   
-  [__拖拉版型設定__](../../website-appearance/拖拉版型網站設定.md){ data-preview }  
+  [__拖拉版型設定__](../../../website-appearance/theme-and-layout/theme-editor.md){ title="拖拉版型網站設定" }  
   拖拉版型的詳細功能跟設定說明。
 
 </div>

@@ -1,0 +1,174 @@
+{
+    "plugin": {
+        "version": "5.5.2",
+        "date": "Sat, 27 Jun 2026 11:28:12 +0000"
+    },
+    "groups": [
+        {
+            "id": 8,
+            "name": "ec-notifications",
+            "redirects": 6,
+            "module_id": 1,
+            "moduleName": "WordPress",
+            "enabled": false
+        }
+    ],
+    "redirects": [
+        {
+            "id": 1,
+            "url": "/helpcenter/?p=11195",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/notifications/manage-email-templates"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 0,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 2,
+            "url": "/helpcenter/?p=2061",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/notifications/manage-email-templates"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 1,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 3,
+            "url": "/helpcenter/?p=8156",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/notifications/manage-line-oa-templates"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 2,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 4,
+            "url": "/helpcenter/?p=6785",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/notifications/manage-sms-templates"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 3,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 5,
+            "url": "/helpcenter/?p=4412",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/notifications/send-edm-newsletters"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 4,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 6,
+            "url": "/helpcenter/?p=621",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/notifications/send-sms-notifications"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 5,
+            "last_access": "-",
+            "enabled": false
+        }
+    ]
+}

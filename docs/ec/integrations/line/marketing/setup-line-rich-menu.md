@@ -2,7 +2,7 @@
 title: 設定 LINE 圖文選單
 description: 建立與設定 LINE 圖文選單，讓顧客可透過官方帳號快速導覽商品、會員中心與導購頁面。
 created:
-last_modified: 2026-06-14 11:56
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status:
@@ -55,7 +55,7 @@ tags:
   - 導購
   - 會員
   - OMO
-  - LINE_OA
+  - LINE OA
 acoiv:
 apis:
   - LINE Messaging API
@@ -68,7 +68,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5858
   - https://www.cyberbiz.io/support/?p=855
-permalink:
+permalink: https://help.cyberbiz.io/ec/integrations/line/marketing/setup-line-rich-menu
 comments: false
 search:
   exclude: false
@@ -76,7 +76,7 @@ icon: lucide/layout-panel-top
 hide: []
 ---
 
-![](../../../../assets/images/ec-第三方整合-line 圖文選單.png){ .hero-page }
+![LINE 圖文選單設定](../../../../assets/images/ec-第三方整合-line 圖文選單.png){ title="LINE 圖文選單設定" .hero-page }
 
 
 ## 什麼是 LINE 圖文選單
@@ -91,13 +91,13 @@ hide: []
 
 - [x] **方案確認**：確認您目前使用的 LINE OA 方案 **支援 API 串接**。
 
-- [x] **API 串接**：須先完成  [**LINE Messaging API**  的串接](connect-line-messaging-api.md){ data-preview }  設定。
+- [x] **API 串接**：須先完成  [**LINE Messaging API**  的串接](../account-integration/connect-line-messaging-api.md){ title="串接 LINE Messaging API" }  設定。
 
 - [x] **連結規範**：圖文選單的連結 **請勿使用短網址**，以免導致代碼失效。
 
 ## 建立圖文選單步驟
 
-1. **進入 LINE 管理後台**：登入 [LINE Official Account Manager :lucide-external-link:](https://www.google.com/url?sa=E&q=https%3A%2F%2Fmanager.line.biz%2F)，選擇您的官方帳號。
+1. **進入 LINE 管理後台**：登入 [LINE Official Account Manager :lucide-external-link:](https://manager.line.biz/)，選擇您的官方帳號。
 
 2. **建立選單項目**：從左側選單選擇 **聊天室相關 > 圖文選單**，點選 **建立圖文選單**。
 
@@ -119,10 +119,9 @@ hide: []
 
 	- 圖片尺寸建議：共有 2500x1786、1200x810、800x540 等六種規格（單位 px）。
 
-> :lucide-info: 詳細設定流程，請參閱 [LINE 官方說明文件 :lucide-external-link:](https://tw.linebiz.com/manual/line-official-account/oa-manager-richmenu/)。
+!!! info "詳細設定流程，請參閱 [LINE 官方說明文件 :lucide-external-link:](https://tw.linebiz.com/manual/line-official-account/oa-manager-richmenu/)。"
 
-![](../../../../assets/images/ec-第三方整合-line-圖文選單設定.png)
-
+![圖文選單建立步驟](../../../../assets/images/ec-第三方整合-line-圖文選單設定.png){ title="圖文選單建立步驟" }
 
 ## 設定圖文選單動作
 
@@ -131,7 +130,7 @@ hide: []
 - **連結網址：** 請輸入欲導流之目標頁面的完整連結（須包含 `https://`）。
 - **動作標籤：** 無障礙支援，在適用情況下將以語音朗讀此處說明文字；在不支援的裝置上只會顯示文字。
 
-![](../../../../assets/images/ec-第三方整合-line-圖文選單-連結.png)
+![圖文選單動作設定](../../../../assets/images/ec-第三方整合-line-圖文選單-連結.png){ title="圖文選單動作設定" }
 
 請依需求選擇以下對應連結：
 
@@ -157,7 +156,7 @@ hide: []
 
 ---
 
-#### 一般瀏覽模式 (不強制登入)
+#### 一般瀏覽模式 <small>不強制登入</small>
 
 若希望顧客不經過 LINE 帳號綁定即可直接瀏覽頁面，請使用標準格式。
 
@@ -181,12 +180,12 @@ hide: []
 
 - **連結網址**：`https://你的網址/account/id_barcode`
     
-- **前提條件**：需確認系統方案已啟用 **CYBERBIZ POS** 功能並已完成 [LINE 會員綁定設定](bind-line-oa-store-members.md){ data-preview }  。
+- **前提條件**：需確認系統方案已啟用 **CYBERBIZ POS** 功能並已完成 [LINE 會員綁定設定](../account-integration/bind-line-oa-store-members.md){ title="綁定 LINE 官方帳號與官網會員" }  。
 
-![](../../../../assets/images/ec-第三方整合-line-圖文選單-會員卡.png)
+![圖文選單會員卡設定](../../../../assets/images/ec-第三方整合-line-圖文選單-會員卡.png){ title="圖文選單會員卡設定" }
 
 !!! note "延伸閱讀：門市端如何操作"
-	詳細的 POS 掃碼登入、紅利折抵及常見問題排除說明，請參閱 [如何設定與使用 LINE  會員條碼 (POS 串接)](../../../pos/integrations/line/line-member-barcode-pos-checkout.md){ data-preview }  。
+	詳細的 POS 掃碼登入、紅利折抵及常見問題排除說明，請參閱 [如何設定與使用 LINE  會員條碼 (POS 串接)](../../../../pos/integrations/line/line-member-barcode-pos-checkout.md){ title="設定與使用 LINE 顯示會員條碼（串接 POS 結帳）" }  。
 
 ---
 
@@ -211,9 +210,9 @@ hide: []
 	- 避免重複跳轉流程： 帶有`line_action=line_login` 參數的網址會持續觸發驗證流程。建議僅在「首次綁定」或「登入/註冊」按鈕使用此網址；其餘一般導購按鈕建議使用普通連結。
 	- LINE OA 訊息計費規範： 啟用自動化通知功能前，請務必評估營運成本。LINE 官方帳號的訊息發送（包含：手動群發、自動化訂單通知、物流更新）均計入付費額度。相關計費標準請參閱官方 [加購訊息價目表 :lucide-external-link:](https://tw.linebiz.com/service/account-solutions/line-official-account/)。
 
-!!! note "更多會員綁定方法，請參閱 [LINE 會員綁定](綁定 LINE 官方帳號與官網會員#商家後台設定方法)。"
+!!! note "更多會員綁定方法，請參閱 [LINE 會員綁定](../account-integration/bind-line-oa-store-members.md#商家後台設定方法){ title="綁定 LINE 官方帳號與官網會員" }。"
 
-![](../../../../assets/images/ec-第三方整合-line-圖文選單-會員綁定.png)
+![圖文選單會員綁定設定](../../../../assets/images/ec-第三方整合-line-圖文選單-會員綁定.png){ title="圖文選單會員綁定設定" }
 
 
 
@@ -231,11 +230,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-link:{ .lg }   
-  [__LIFF 網址優化__](setup-liff-auto-login-member-binding.md)       
+  [__LIFF 網址優化__](../account-integration/setup-liff-auto-login-member-binding.md){ title="設定 LIFF 自動登入與會員綁定" }       
   改用 EC 後台生成的 **LIFF 網址**。消費者點擊後可在 LINE 內自動套用帳戶資訊，實現「一鍵加入好友、註冊會員並完成綁定」，優化使用體驗。
 
 - :lucide-search:{ .lg }     
-  [__關鍵字搜](connect-line-messaging-api.md#line-關鍵字搜尋商品)搜尋商品)    
+  [__關鍵字搜尋商品__](../account-integration/connect-line-messaging-api.md#line-關鍵字搜尋商品){ title="串接 LINE Messaging API" }    
   串接 Webhook 後，顧客可在 LINE 對話框輸入關鍵字，由系統自動回覆搜尋到的商品訊息。
 
 </div>

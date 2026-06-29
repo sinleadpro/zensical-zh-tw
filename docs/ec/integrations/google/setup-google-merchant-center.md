@@ -2,7 +2,7 @@
 title: 設定 Google Merchant Center 並同步 CYBERBIZ 商品
 description: 串接 Google Merchant Center、同步商品資料至 Google 搜尋與購物廣告。
 created: 2026-03-05 10:00
-last_modified: 2026-06-14 11:43
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -27,8 +27,8 @@ plans:
   - 進階
   - 高手
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 intents:
   - 串接 Google Merchant Center
@@ -45,11 +45,10 @@ related:
   - "[[setup-google-ads-conversion-tracking]]"
   - "[[google-analytics-advanced-tracking]]"
 tags:
-  - Google_Merchant_Center
   - GMC
   - 產品動態饋給
-  - Product_Feed
-  - Google_購物廣告
+  - Product Feed
+  - Google 購物廣告
 acoiv: configure
 apis: []
 devices:
@@ -63,14 +62,14 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=718
   - https://www.cyberbiz.io/support/?p=230
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-merchant-center
 search:
   exclude: false
 icon: lucide/tags
 comments: false
 ---
 
-![](../../../assets/images/ec-integrations-gmc.zh-tw.png){ title="串接 GMC：第三方整合 > Google > Google Merchant Center" .hero-page }
+![Google Merchant Center 串接設定](../../../assets/images/ec-integrations-gmc.zh-tw.png){ title="串接 GMC：第三方整合 > Google > Google Merchant Center" .hero-page }
 
 ## 什麼是 Google Merchant Center
 
@@ -93,7 +92,7 @@ comments: false
 2.  **選擇商店類型**：選擇「是」表示你有線上商店，選擇是否有實體商店，輸入商店網址
 3.  **前往 Merchant Center**：閱讀「免費展示說明」後，點擊「前往 Merchant Center」
 
-![建立帳戶 GIF](../../../assets/images/ec-gmc-p1-建立帳戶.gif){ .screenshot }
+![建立帳戶 GIF](../../../assets/images/ec-gmc-p1-建立帳戶.gif){ title="建立帳戶 GIF" .screenshot }
 
 ---
 
@@ -103,7 +102,7 @@ comments: false
 2.  **設定商家地址**：輸入公司登記地址（城市、州/省、郵遞區號）
 3.  **完成設定**：點擊「前往 Merchant Center」進入主儀表板
 
-![設定商家資訊 GIF](../../../assets/images/ec-gmc-p2-設定商家資訊.gif){ .screenshot }
+![設定商家資訊 GIF](../../../assets/images/ec-gmc-p2-設定商家資訊.gif){ title="設定商家資訊 GIF" .screenshot }
 
 ---
 
@@ -112,15 +111,15 @@ comments: false
 1.  **選擇驗證方式**：選擇「新增 HTML 標記或檔案」>「新增 HTML 標記」
 2.  **複製 HTML 標記**：複製系統產生的 meta 標籤
 
-    ![GMC 複製HTML標記](../../../assets/images/ec-gmc-複製html標記.png)
+    ![GMC 複製HTML標記](../../../assets/images/ec-gmc-複製html標記.png){ title="GMC 複製HTML標記" }
 
 3.  **貼至 CYBERBIZ 後台**：進入「網站外觀」>「套版主題管理」>「CSS/HTML 編輯器」> 將標籤貼在 `</head>` 上方
 
-    ![GMC 埋HTML標記](../../../assets/images/ec-網站外觀-樣板編輯器-theme-liquid-埋gmchtml標記.png)
+    ![GMC 埋HTML標記](../../../assets/images/ec-網站外觀-樣板編輯器-theme-liquid-埋gmchtml標記.png){ title="GMC 埋HTML標記" }
 
 4.  **完成驗證**：回到 GMC 點擊「驗證網路商店」以完成驗證程序。完成驗證後，可點擊 **繼續** 接續[新增/同步商品資料](#同步商品資料-Product-Feed-設定)步驟。
 
-    ![GMC 驗證成功](../../../assets/images/ec-gmc-p3-驗證網站成功.png)
+    ![GMC 驗證成功](../../../assets/images/ec-gmc-p3-驗證網站成功.png){ title="GMC 驗證成功" }
 
     ??? success "如何確認商店驗證狀態？"
         完成驗證後，您可以透過查看商家資訊確認商店已正確關聯。
@@ -128,7 +127,7 @@ comments: false
         - **前往路徑**：登入 GMC 後台，前往 「設定」 > 「商家資訊」 > 「詳細資料」 > 「您的網路商店」。
         - **預期結果**：確認該欄位顯示為 `已驗證` 與 `已聲明所有權`。[瞭解驗證與聲明 :lucide-external-link:](https://support.google.com/merchants/answer/11586344?sjid=11682918307320921706-NC#zippy=%2C%E9%A9%97%E8%AD%89%E5%92%8C%E8%81%B2%E6%98%8E%E6%98%AF%E4%BB%80%E9%BA%BC%E6%84%8F%E6%80%9D)
 
-        ![GMC 商店驗證狀態](../../../assets/images/ec-gmc-商家資訊-驗證狀態.png)
+        ![GMC 商店驗證狀態](../../../assets/images/ec-gmc-商家資訊-驗證狀態.png){ title="GMC 商店驗證狀態" }
 ---
 
 ### 同步商品資料 <small>Product Feed 設定</small>
@@ -142,11 +141,11 @@ comments: false
 
     - **更新商品目錄**：系統固定每日凌晨 1:30 更新，若有急需可點擊「手動更新目錄」（一小時限一次）。
 
-    ![CYB GMC Product Feed](../../../assets/images/ec-第三方整合-google-gmc-productfeed.png)
+    ![CYB GMC Product Feed](../../../assets/images/ec-第三方整合-google-gmc-productfeed.png){ title="CYB GMC Product Feed" }
 
 2.  **上傳產品**：回到 GMC 後台，選擇「透過檔案新增產品」，將剛才複製的連結貼入「請輸入檔案連結」欄位。
 
-    ![GMC 產品動態饋給](../../../assets/images/ec-gmc-p4-新增產品-動態饋給.png)
+    ![GMC 產品動態饋給](../../../assets/images/ec-gmc-p4-新增產品-動態饋給.png){ title="GMC 產品動態饋給" }
 
     ??? success "如何驗證商品同步狀態？"
         同步完成後，請依循以下步驟核對 Google 後台的商品資料：
@@ -155,7 +154,7 @@ comments: false
         - **預期結果**：確認清單中已出現商店商品及其對應狀態。
         - **請注意**：初次上傳後，商品資訊可能需要數小時至 24 小時才會完全顯示在清單中。
 
-        ![GMC 產品頁](../../../assets/images/ec-gmc-產品頁.png)
+        ![GMC 產品頁](../../../assets/images/ec-gmc-產品頁.png){ title="GMC 產品頁" }
 
 ---
 
@@ -165,7 +164,7 @@ comments: false
 2.  **設定運送時間**：設定訂單截止時間、處理時間（0-1天）、運送時間（0-1天）
 3.  **設定運費**：選擇「免運費」並點擊「儲存」
 
-![設定運送與退貨 GIF](../../../assets/images/ec-gmc-p4-設定運送與退貨.gif){ .screenshot }
+![設定運送與退貨 GIF](../../../assets/images/ec-gmc-p4-設定運送與退貨.gif){ title="設定運送與退貨 GIF" .screenshot }
 
 ---
 
@@ -174,7 +173,7 @@ comments: false
 1.  **設定退貨資訊**：選擇退貨期限和退貨費用
 2.  **完成設定**：點擊「繼續」完成 GMC 帳戶設定
 
-![設定退貨政策 GIF](../../../assets/images/ec-gmc-p5-設定退貨政策.gif){ .screenshot }
+![設定退貨政策 GIF](../../../assets/images/ec-gmc-p5-設定退貨政策.gif){ title="設定退貨政策 GIF" .screenshot }
 
 ## 串接 Google Ads 帳戶
 
@@ -183,7 +182,7 @@ comments: false
 3.  **選擇 Google Ads**：選取「Google Ads」服務
 4.  **關聯帳戶**：選擇欲關聯的 Google Ads 帳戶並點擊「關聯」即可完成
 
-![串接 Google Ads GIF](../../../assets/images/ec-gmc-p6-串接GoogleAds.gif){ .screenshot }
+![串接 Google Ads GIF](../../../assets/images/ec-gmc-p6-串接GoogleAds.gif){ title="串接 Google Ads GIF" .screenshot }
 
 ---
 
@@ -197,7 +196,7 @@ comments: false
 
     建議至商品設定頁的「Google 產品類別」手動選擇正確類別，能讓廣告投放更精準。
 
-    [:lucide-arrow-right: 設定教學](../../products/create-and-manage/編輯商品描述與商品設定.md#進階設定){ title="編輯商品描述與商品設定" }
+    [:lucide-arrow-right: 設定教學](../../products/create-and-manage/edit-product-description-settings.md#進階設定){ title="編輯商品描述與商品設定" }
 
 -   :lucide-image:{ .lg .middle } __圖片規範__
 
@@ -205,7 +204,7 @@ comments: false
 
     請選擇 **無價格、無宣傳標語、無品牌浮水印** 的圖片，否則可能不符合 [Google 規範](https://support.google.com/merchants/answer/6324350#Image_guidelines)。
 
-    [:lucide-arrow-right: 設定教學](../../products/create-and-manage/create-update-products.md#商品圖片){ title="新增與更新商品" }
+    [:lucide-arrow-right: 設定教學](../../products/create-and-manage/create-update-products.md#operate-product-create-media){ title="新增與更新商品" }
 
 </div>
 
@@ -222,15 +221,15 @@ comments: false
 <div class="grid cards" markdown>
 
 - :lucide-activity:{ .lg }   
-  [__重要事件來源追蹤與自動標記__](設定%20GMC%20重要事件來源追蹤與自動標記.md)     
+  [__重要事件來源追蹤與自動標記__](setup-gmc-conversion-tracking.md){ title="設定 GMC 重要事件來源追蹤與自動標記" }     
   追蹤特定來源的產品購買情形，並開啟自動標記功能以準確關聯廣告轉換。
 
 - :lucide-footprints:{ .lg }   
-  [__Google Ads 轉換追蹤__](設定%20Google%20Ads%20轉換追蹤.md)     
+  [__Google Ads 轉換追蹤__](setup-google-ads-conversion-tracking.md){ title="設定 Google Ads 轉換追蹤" }     
   設定 Google Ads 轉換追蹤代碼，回報廣告帶來的訂單成效，優化廣告投放效益。
 
 - :lucide-chart-column-increasing:{ .lg }   
-  [__Google Analytics 追蹤__](設定%20GMC%20重要事件來源追蹤與自動標記.md#將-ga4-連結至-merchant-center)     
+  [__Google Analytics 追蹤__](setup-gmc-conversion-tracking.md#將-ga4-連結至-merchant-center){ title="設定 GMC 重要事件來源追蹤與自動標記" }     
   將 GA4 連結至 Merchant Center，查看來自 Google 搜尋與購物廣告的購買指標。
 
 </div>
@@ -241,13 +240,13 @@ comments: false
     若選擇由 CYBERBIZ 代管 GMC 帳號，系統會自動處理相關設定與維護，避免因手動操作導致的權限變更或廣告投放異常。若您已透過自動化廣告設定頁創建廣告並選擇代管，請勿自行另外申請 GMC 帳號。
 
 ??? quote "哪些商品不會上傳至 Google 商品資料 (Product Feed)？"
-    系統會自動排除不公開的商品、已達下架時間的商品，以及標籤設定為 *贈品* 或 *排除product feed* 的商品。
+    系統會自動排除不公開的商品、已達下架時間的商品，以及標籤設定為 `贈品` 或 `排除product feed` 的商品。
 
 ??? quote "Google 商品類別可以批次設定嗎？"
     目前 Google 商品類別需逐筆商品設定，無法批次套用。
 
 ??? quote "商品圖片需要符合哪些規範？"
-    請選擇 **無價格、無宣傳標語、無品牌浮水印** 的圖片，否則可能不符合 Google 規格。詳細規範請參考 [新增單一商品 - Google 圖片規範](../../products/create-and-manage/新增單一商品.md#Google-圖片規範)。
+    請選擇 **無價格、無宣傳標語、無品牌浮水印** 的圖片，否則可能不符合 Google 規格。詳細規範請參考 [Google 圖片規範](../../products/create-and-manage/create-update-products.md#gmc-picture-specs){ title="新增與更新商品" }。
 
 ??? quote "產品資料多久更新一次？"
     系統固定每日凌晨 1:30 自動更新，若有急需可點擊「手動更新目錄」（一小時限一次）。

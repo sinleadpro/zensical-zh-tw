@@ -1,0 +1,392 @@
+{
+  "generated_at": "2026-06-27 20:04",
+  "doc_dir": "docs/ec/app-market",
+  "confirmed": [
+    {
+      "doc_file": "docs/ec/app-market/api-and-webhook-integration-guide.md",
+      "doc_title": "API 與 Webhook 串接指南",
+      "expected_permalink": "https://help.cyberbiz.io/ec/app-market/api-and-webhook-integration-guide",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=8544",
+        "https://www.cyberbiz.io/helpcenter/?p=7875",
+        "https://www.cyberbiz.io/support/?p=20739",
+        "https://www.cyberbiz.io/support/?p=40162"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=8544",
+        "https://www.cyberbiz.io/helpcenter/?p=7875",
+        "https://www.cyberbiz.io/support/?p=20739",
+        "https://www.cyberbiz.io/support/?p=40162"
+      ],
+      "current_plans": [
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS",
+        "企業"
+      ],
+      "expected_plans": null,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/app-market/automation/automation-push-flow.md",
+      "doc_title": "使用 AUTOMATION 建立自動化推播流程",
+      "expected_permalink": "https://help.cyberbiz.io/ec/app-market/automation/automation-push-flow",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7955",
+        "https://www.cyberbiz.io/support/?p=38638",
+        "https://www.cyberbiz.io/support/?p=38837"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7955",
+        "https://www.cyberbiz.io/support/?p=38837"
+      ],
+      "current_plans": [
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS",
+        "企業"
+      ],
+      "expected_plans": null,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step2-import-products-and-link.md",
+      "doc_title": "Step 2 導入商品與建立關聯",
+      "expected_permalink": "https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step2-import-products-and-link",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5923",
+        "https://www.cyberbiz.io/support/?p=46486"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5923",
+        "https://www.cyberbiz.io/support/?p=46486"
+      ],
+      "current_plans": [
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS",
+        "企業"
+      ],
+      "expected_plans": null,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee.md",
+      "doc_title": "Step 3 官網與蝦皮商店庫存同步",
+      "expected_permalink": "https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12648",
+        "https://www.cyberbiz.io/support/?p=51142"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12648",
+        "https://www.cyberbiz.io/support/?p=51142"
+      ],
+      "current_plans": [
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS",
+        "企業"
+      ],
+      "expected_plans": null,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step4-create-shopee-products-from-site.md",
+      "doc_title": "Step 4 官網商品建立為蝦皮商品",
+      "expected_permalink": "https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step4-create-shopee-products-from-site",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12688",
+        "https://www.cyberbiz.io/support/?p=51554"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12688",
+        "https://www.cyberbiz.io/support/?p=51554"
+      ],
+      "current_plans": [
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS",
+        "企業"
+      ],
+      "expected_plans": null,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step5-sync-product-info-with-shopee.md",
+      "doc_title": "Step 5 官網與蝦皮商品資訊同步",
+      "expected_permalink": "https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step5-sync-product-info-with-shopee",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12690",
+        "https://www.cyberbiz.io/support/?p=5362"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12690",
+        "https://www.cyberbiz.io/support/?p=5362"
+      ],
+      "current_plans": [
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS",
+        "企業"
+      ],
+      "expected_plans": null,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/app-market/install-meta-ads-app.md",
+      "doc_title": "安裝 Meta Ads App",
+      "expected_permalink": "https://help.cyberbiz.io/ec/app-market/install-meta-ads-app",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=11972"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=11972"
+      ],
+      "current_plans": [
+        "專業",
+        "進階",
+        "高手",
+        "專業 PLUS",
+        "進階 PLUS",
+        "高手 PLUS",
+        "企業"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/app-market/storepal/member-data-warehouse.md",
+      "doc_title": "會員數據智庫",
+      "expected_permalink": "https://help.cyberbiz.io/ec/app-market/storepal/member-data-warehouse",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=8669",
+        "https://www.cyberbiz.io/support/?p=41022",
+        "https://www.cyberbiz.io/support/?p=41833",
+        "https://www.cyberbiz.io/support/?p=41853",
+        "https://www.cyberbiz.io/support/?p=41889"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=8669",
+        "https://www.cyberbiz.io/support/?p=41022",
+        "https://www.cyberbiz.io/support/?p=41833",
+        "https://www.cyberbiz.io/support/?p=41853",
+        "https://www.cyberbiz.io/support/?p=41889"
+      ],
+      "current_plans": [
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS",
+        "企業"
+      ],
+      "expected_plans": null,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/app-market/storepal/member-identification.md",
+      "doc_title": "會員身份識別",
+      "expected_permalink": "https://help.cyberbiz.io/ec/app-market/storepal/member-identification",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=41786",
+        "https://www.cyberbiz.io/support/?p=41951"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=41786",
+        "https://www.cyberbiz.io/support/?p=41951"
+      ],
+      "current_plans": [
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS",
+        "企業"
+      ],
+      "expected_plans": null,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/app-market/storepal/sales-conversion.md",
+      "doc_title": "導購轉化",
+      "expected_permalink": "https://help.cyberbiz.io/ec/app-market/storepal/sales-conversion",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=41868",
+        "https://www.cyberbiz.io/support/?p=41923"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=41868",
+        "https://www.cyberbiz.io/support/?p=41889",
+        "https://www.cyberbiz.io/support/?p=41923"
+      ],
+      "current_plans": [
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS",
+        "企業"
+      ],
+      "expected_plans": null,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/app-market/storepal/search-and-create-members.md",
+      "doc_title": "搜尋與建立會員",
+      "expected_permalink": "https://help.cyberbiz.io/ec/app-market/storepal/search-and-create-members",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=41747"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=41747"
+      ],
+      "current_plans": [
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS",
+        "企業"
+      ],
+      "expected_plans": null,
+      "apply": true
+    }
+  ],
+  "unmatched_csv_titles": [
+    "建立並串接 Google Analytics",
+    "建立 Google Tag Manager 並串接 CYBERBIZ",
+    "設定 Google Merchant Center 並同步 CYBERBIZ 商品",
+    "設定 Google Ads 轉換追蹤",
+    "使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝",
+    "設定 Facebook 快速登入",
+    "串接美安通路",
+    "設定 LINE 快速登入",
+    "串接 LINE Messaging API",
+    "篩選與應用 LINE OA 綁定會員名單",
+    "發送 LINE 加入好友邀請",
+    "設定與使用 LINE 顯示會員條碼（串接 POS 結帳）",
+    "設定 LINE 綁定會員贈送優惠券",
+    "設定 LINE 圖文選單",
+    "設定 Meta 廣告活動",
+    "YouTube Shopping 設定指南",
+    "Meta 廣告每日預算設定指南",
+    "同步商品影片至 Meta 目錄",
+    "設定 GA4 排除內部流量與第三方參照來源",
+    "使用 UTM 參數追蹤行銷流量與分析成效",
+    "設定 FBE 帳號授權與資產連結",
+    "設定 Facebook 與 Instagram 商店",
+    "設定 FBE 網域驗證",
+    "註冊並驗證 Google Search Console",
+    "建立 Meta 廣告帳號並儲值",
+    "設定秘密商品群組",
+    "LINE 整合總覽",
+    "建立與驗證 Google 商家檔案",
+    "使用 Google 安全瀏覽工具檢查並排除網站安全性風險",
+    "從 Google 搜尋結果移除特定網頁或子目錄",
+    "設定與發送 LINE OA 分眾訊息推播",
+    "設定 LINE OA 受眾串接",
+    "排除商品不同步至 Facebook 與 Instagram 商店",
+    "設定 GA4 站內搜尋追蹤",
+    "設定與管理 LINE Tag",
+    "LINE 購物功能總覽",
+    "使用 LINE 團購進行購物",
+    "設定 Google 快速登入",
+    "設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結",
+    "申請與設定 LINE 直播功能",
+    "綁定 LINE 官方帳號與官網會員",
+    "自動化廣告系統(Google 購物廣告)",
+    "設定 LINE 快速登入時取得會員手機號碼",
+    "申請與設定 LINE 購物導購",
+    "設定 Google Analytics 進階追蹤與資料分析",
+    "在官網新增 LINE 加入好友入口",
+    "設定 Google Ads 強化轉換",
+    "設定 LIFF 自動登入與會員綁定",
+    "手動分享資產權限給 CYBERBIZ",
+    "設定 Meta 廣告的目錄商品組合",
+    "ASC 廣告投放策略與最佳實務",
+    "使用 Meta 廣告成效分析",
+    "Meta 廣告帳號閒置釋出機制與保留說明",
+    "設定 LINE 團購機器人",
+    "設定 LINE 團購商品",
+    "設定 LINE 團購群組",
+    "設定與管理 LINE OA 通知樣板",
+    "設定與發送簡訊通知",
+    "設定與管理簡訊通知樣板",
+    "管理與管理 Email 通知樣板",
+    "設定與發送 EDM 電子報",
+    "Step1.安裝啟用",
+    "查看門市與個人業績報表",
+    "CYBERBIZ APP 功能指南"
+  ],
+  "unmatched_docs": [
+    {
+      "title": "Chat Box AI 建議回覆",
+      "file": "docs/ec/app-market/chatbox/chat-box-ai-suggested-replies.md"
+    },
+    {
+      "title": "Chat Box 串接 Facebook 粉絲專頁",
+      "file": "docs/ec/app-market/chatbox/connect-chat-box-to-facebook-page.md"
+    },
+    {
+      "title": "Chat Box 串接 LINE 官方帳號",
+      "file": "docs/ec/app-market/chatbox/connect-chat-box-to-line-oa.md"
+    },
+    {
+      "title": "設定官網整合對話入口",
+      "file": "docs/ec/app-market/chatbox/integrated-chat-widget.md"
+    },
+    {
+      "title": "LINE 訊息格式規範",
+      "file": "docs/ec/app-market/chatbox/line-message-format-spec.md"
+    },
+    {
+      "title": "Meta 訊息格式規範",
+      "file": "docs/ec/app-market/chatbox/meta-message-format-spec.md"
+    },
+    {
+      "title": "Step 1 安裝與授權商店",
+      "file": "docs/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md"
+    },
+    {
+      "title": "CYBERBIZ EXPRESS 日到台跨境宅配",
+      "file": "docs/ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery.md"
+    },
+    {
+      "title": "匯入顧客門市推薦人",
+      "file": "docs/ec/app-market/storepal/bulk-import-customer-referrers.md"
+    },
+    {
+      "title": "全站功能與業績歸因設定",
+      "file": "docs/ec/app-market/storepal/configure-global-settings-and-attribution.md"
+    },
+    {
+      "title": "門市助理安裝與導入",
+      "file": "docs/ec/app-market/storepal/install-and-setup-storepal.md"
+    },
+    {
+      "title": "門市助理績效報表",
+      "file": "docs/ec/app-market/storepal/performance-reports.md"
+    },
+    {
+      "title": "員工帳號與角色",
+      "file": "docs/ec/app-market/storepal/staff-accounts-and-role.md"
+    },
+    {
+      "title": "查看業績",
+      "file": "docs/ec/app-market/storepal/view-sales-performance.md"
+    }
+  ],
+  "updated_at": "2026-06-27 13:40"
+}

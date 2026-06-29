@@ -9,57 +9,57 @@ status: ""
 version: 1.1.1
 author: Ann
 reviewers: []
-notes: 
+notes:
   - 內部連結
 ga_views: 0
 feedback: 0
-products: 
+products:
   - EC
-modules: 
+modules:
   - APP MARKET
-sites: 
+sites:
   - TW
-audiences: 
+audiences:
   - admin
 difficulty: intermediate
 tnb: branch
-plans: 
-  - 專業 PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+plans:
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
-cyb_extensions: 
+cyb_extensions:
   - CHAT BOX
-intents: 
+intents:
   - 串接_LINE_官方帳號
   - 同步_LINE_對話至_Chat_Box
   - 設定_LINE_Messaging_API
-features: 
+features:
   - Chat_Box
   - LINE_整合
   - Messaging_API
   - Webhook_設定
-prerequisites: 
-  - "需擁有 LINE 官方帳號管理員權限"
-related: 
+prerequisites:
+  - 需擁有 LINE 官方帳號管理員權限
+related:
   - "[[Chat Box 訊息通]]"
   - "[[LINE 訊息格式規範]]"
-tags: 
+tags:
   - LINE_串接
   - ChatBox
   - Messaging_API
   - 第三方整合
 acoiv: configure
 apis: []
-devices: 
+devices:
   - desktop
-ui_components: 
+ui_components:
   - LINE Official Account Manager
   - LINE Developers 控制台
-paths: 
+paths:
   - APP MARKET > ChatBox > 設定
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12966
   - https://www.cyberbiz.io/support/?p=52927
 permalink:

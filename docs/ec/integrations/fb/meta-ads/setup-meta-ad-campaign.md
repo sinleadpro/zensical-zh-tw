@@ -2,7 +2,7 @@
 title: 設定 Meta 廣告活動
 description: 透過 CYBERBIZ Meta Ads App 管理 Meta 廣告活動，設定廣告預算、目標受眾與素材，掌握廣告投放成效。
 created: 2026-04-20 14:54
-last_modified: 2026-06-14 11:40
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -71,7 +71,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10374
   - https://www.cyberbiz.io/support/?p=1755
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/setup-meta-ad-campaign
 comments: ""
 search:
   exclude: false
@@ -144,7 +144,7 @@ hide: []
 | 欄位名稱 | 說明 | 備註 |
 | :--- | :--- | :--- |
 | **廣告活動名稱** | 建議包含日期與產品名，方便後續對照。 | 必填 |
-| **每日預算** | - [新手：未投放過廣告](meta-ad-daily-budget-guide.md#未投放過廣告的商家新手){ title="Meta 廣告每日預算設定指南" }<br>- ](meta-ad-daily-budget-guide.md#已投放過廣告的商家已知平均-cpa)商家已知平均-cpa){ title="Meta 廣告每日預算設定指南"](meta-ad-daily-budget-guide.md)南](Meta 廣告每日預算設定指南.md){ title="Meta 廣告每日預算設定指南" }。 | 必填 |
+| **每日預算** | - [新手：未投放過廣告](meta-ad-daily-budget-guide.md#未投放過廣告的商家新手){ title="Meta 廣告每日預算設定指南" }<br>- [商家已知平均 CPA](meta-ad-daily-budget-guide.md#已投放過廣告的商家已知平均-cpa){ title="Meta 廣告每日預算設定指南" }。 | 必填 |
 | **開始時間** | 預設為立即開始，亦可預排時程。 | — |
 | **結束時間** | 預設為持續投放，亦可設定預計停止日期。 | — |
 
@@ -167,7 +167,7 @@ hide: []
 | 欄位名稱 | 設定說明 | 備註 / 關聯功能 |
 | :--- | :--- | :--- |
 | **廣告名稱** | 輸入廣告創意名稱。 | 內部管理用 |
-| **創意來源** | 根據選定的「活動目標」提供對應選項：<br>- **銷售量廣告**：可選 **目錄型** 或 **圖片型**。<br>- **流量廣告**：預設為 **圖片型**。<br> [查看廣告呈現效果差異](#廣告呈現效果){ data-preview }| **目錄型**：抓取 Pixel 蒐集](create-meta-ad-account-top-up.md#像素-pixel-設定)d#像素-pixel-設定){ title="建立 Meta 廣告帳號並完成儲值" }。<br>**PLUS/企業版** 商家若有 [上傳商品影片](../../../products/create-and-manage/setup-product-videos.md){ title="設定商品影片" } 並 [同步目錄](同步商品影片至 Meta 目錄){ title="同步商品影片至 Meta 目錄" }，廣告將以影片與商品圖輪播展現。 |
+| **創意來源** | 根據選定的「活動目標」提供對應選項：<br>- **銷售量廣告**：可選 **目錄型** 或 **圖片型**。<br>- **流量廣告**：預設為 **圖片型**。<br> [查看廣告呈現效果差異](#廣告呈現效果){ data-preview } | **目錄型**：抓取 [Pixel 設定](create-meta-ad-account-top-up.md#像素設定-pixel){ title="像素設定" }。<br>**PLUS/企業版** 商家若有 [上傳商品影片](../../../products/create-and-manage/setup-product-videos.md){ title="設定商品影片" } 並 [同步目錄](sync-product-videos-meta-catalog.md){ title="同步商品影片至 Meta 目錄" }，廣告將以影片與商品圖輪播展現。 |
 | **填寫文案** | 輸入 **主要文字**、**標題** 與 **描述**。 |  |
 | **行動呼籲** | 設定廣告上的功能按鈕文字（如：立即購買、來去逛逛、查看更多）。 | 建議根據行銷目標選擇 |
 | **目錄商品組合** | 選擇欲投放廣告的 [目錄商品組合](setup-meta-ad-catalog-sets.md){ title="設定 Meta 廣告的目錄商品組合" }。您可以透過預先建立的特定商品集合，實現精準投放。 | ※ 僅支援狀態為「公開」且「已上架」的商品。<br>※ 如商品帶有「贈品」或「排除product feed」標籤將無法被選取。 |
@@ -242,7 +242,7 @@ hide: []
 
 
 - :lucide-chart-line:{ .lg }   
-  [__使用](meta-ad-performance-analysis.md)eta 廣告成效分析.md){ title="使用 Meta 廣告成效分析" }       
+  [__使用 Meta 廣告成效分析__](meta-ad-performance-analysis.md){ title="使用 Meta 廣告成效分析" }       
   掌握廣告投放成效，查看 ROAS、創造營收、廣告花費等關鍵指標，並可使用 AI Insights 獲取數據洞察與優化建議。
 
 </div>
@@ -251,7 +251,7 @@ hide: []
 
 ??? quote "廣告受眾是誰？"
 
-    系統搭配 Meta 的[**高效速成行銷活動 (ASC)** :lucide-external-link:](https://www.facebook.com/business/help/1362234537597370){ target="_blank" }，透過 AI 自動挑選 CPA 最低、ROAS 最高的受眾群體進行收斂，商家無需手動設定參數。
+    系統搭配 Meta 的[**高效速成行銷活動 (ASC)** :lucide-external-link:](https://zh-tw.facebook.com/business/help/1362234537597370){ target="_blank" }，透過 AI 自動挑選 CPA 最低、ROAS 最高的受眾群體進行收斂，商家無需手動設定參數。
 
 ??? quote "廣告版位在哪裡？"
 
@@ -273,4 +273,4 @@ hide: []
 
 ??? quote "如何解決廣告創建失敗的問題？"
 
-    廣告創建失敗通常為權限問題。請參考[手動分享](share-asset-permissions-cyberbiz.md)給 CYBERBIZ.md){ title="手動分享資產權限給 CYBERBIZ" }說明，將資產權限分享給 **CYBERBIZ 企業管理平台**，並通知客服人員排查。
+    廣告創建失敗通常為權限問題。請參考[手動分享資產權限給 CYBERBIZ](share-asset-permissions-cyberbiz.md){ title="手動分享資產權限給 CYBERBIZ" }說明，將資產權限分享給 **CYBERBIZ 企業管理平台**，並通知客服人員排查。

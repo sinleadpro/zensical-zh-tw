@@ -1,9 +1,8 @@
 ---
-
 title: 保護後台帳號與顧客資料
 description: 管理後台登入防護與顧客資料保護，從 IP 白名單、自動登出到網站密碼，一頁完成你的網站資安設定。
 created:
-last_modified: 2026-06-09 21:40
+last_modified: 2026-06-26 14:03
 lang: zh-TW
 permalink:
 type: tutorial
@@ -79,8 +78,6 @@ search:
 icon: lucide/shield-check
 hide:
 ---
-
-
 
 ![安全性設定頁面-hero](../../assets/images/ec-管理中心-安全性設定.png){ .hero-page }
 
@@ -270,7 +267,7 @@ hide:
 
 <div class="grid cards" markdown>
 
-- :lucide-shield-check:{ .lg } [__啟用留言區 reCAPTCHA 設定教學__](../website-appearance/customer-interaction/啟用留言區%20reCAPTCHA.md)
+- :lucide-shield-check:{ .lg } [__啟用留言區 reCAPTCHA 設定教學__](../website-appearance/customer-interaction/enable-comment-recaptcha.md)
 
 </div>
 

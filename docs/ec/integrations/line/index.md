@@ -1,195 +1,177 @@
 ---
-title: "index"
-description: "" 
-created: "2026-03-16 19:00"
-last_modified: 2026-06-08 17:15
-lang: zh-TW
-type: guide
-status: ""
-version: ""
-author: Jase
-reviewers: []
-notes: []
-ga_views: 
-feedback:
-products:
-  - EC
-modules: []
-sites:
-  - TW
-audiences: 
-  - admin
-difficulty: ""
-tnb: ""
-plans: 
-cyb_extensions: [] 
-intents: []
-features: []
-prerequisites: []
-related: []
-tags:
-  - EC
-  - LINE 整合
-  - LINE OA
-  - Messaging API
-  - 快速登入
-  - 自動化通知
-  - 行銷導購
-  - OMO
-acoiv: ""
-apis: []
-devices: 
-  - desktop 
-  - mobile
-ui_components: []
-paths: []
-layouts: []
-wp_url: []
-permalink: ""
-comments: ""
-search:
-  exclude: ""
+title: LINE 整合總覽
+description: 串接 LINE 官方帳號與電商系統，達成會員自動化管理、精準分眾行銷及線上線下（OMO）導購與支付整合。
 icon: simple/line
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=4002
+  - https://www.cyberbiz.io/support/?p=21985
+permalink: "https://help.cyberbiz.io/ec/integrations/line/"
 hide:
+  - feedback
 ---
 
-{ .hero-page }
-
-
-- [!] 在 CYBERBIZ 系統中，LINE 的應用涵蓋了從會員登入、自動化通知到行銷導購的全方位功能。以下為 LINE 各項應用的詳細說明與操作教學：
-
-
-## 開始使用
+## 基礎串接
 
 <div class="grid cards" markdown>
 
-- :lucide-book:{ .lg }   
-  [__LINE 整合應用新手指南__ :lucide-external-link:](https://drive.google.com/file/d/1DxbJDYoTFF1xKljcUFLoGVLnmJoLQZRi/view)    
-  透過串接 LINE 官方帳號與電商系統，達成會員自動化管理、精準分眾行銷及線上線下（OMO）導購與支付整合 。
+-   :lucide-user-plus: __設定 LINE 快速登入__
 
-- :lucide-ban:{ .lg }     
-  [__物流限制與排除選項__](設定超商配送限制與物流排除.md)  
-  設定商品的配送物流條件，限制特定物流方式於結帳流程中的顯示與使用。
+    ---
+
+    啟用 LINE 快速登入，簡化會員註冊流程，整合官方帳號好友追蹤，並支援會員資料同步與 LIFF 一鍵登入。
+
+    [:octicons-arrow-right-24: 前往](account-integration/setup-line-quick-login.md)
+
+-   :lucide-phone: __設定 LINE 快速登入時取得會員手機號碼__
+
+    ---
+
+    串接 LINE 認證權限，在快速登入流程中自動取得並驗證會員手機號碼，以提升帳號比對精準度與資料完整性。
+
+    [:octicons-arrow-right-24: 前往](account-integration/setup-line-quick-login-phone-number.md)
+
+-   :lucide-webhook: __串接 LINE Messaging API__
+
+    ---
+
+    整合 LINE OA 與 CYBERBIZ 系統，實現自動化訂單通知、精準分眾行銷與即時商品關鍵字搜尋功能。
+
+    [:octicons-arrow-right-24: 前往](account-integration/connect-line-messaging-api.md)
 
 </div>
 
-## 基礎串接：LINE 快速登入與 Messaging API
+---
 
-這是所有 LINE 應用的基礎，建議商家依序完成設定。
+## 會員綁定與應用
 
 <div class="grid cards" markdown>
 
-- :lucide-user-plus:{ .lg }   
-  [__LINE 快速登入__](setup-line-quick-login.md){ data-preview }       
-  讓顧客能透過 LINE 帳號直接註冊或登入，系統會自動抓取 Email 進行帳號比對。
+-   :lucide-user-cog: __綁定 LINE 官方帳號與官網會員__
 
-- :lucide-webhook:{ .lg }     
-  [__LINE Messaging API__](connect-line-messaging-api.md){ data-preview }    
-  用於連接商家現有的官方帳號（LINE OA），實現系統與 OA 的整合，是發送自動化通知的前提。
+    ---
+
+    透過 LINE Official Account、LINE Login 與 LIFF，完成官網會員與 LINE 帳號的綁定流程，以支援自動化通知與精準行銷應用。
+
+    [:octicons-arrow-right-24: 前往](account-integration/bind-line-oa-store-members.md)
+
+-   :lucide-zap: __設定 LIFF 自動登入與會員綁定__
+
+    ---
+
+    使用 LIFF 實現會員自動登入，並同步完成官方帳號好友加入與會員帳號綁定。
+
+    [:octicons-arrow-right-24: 前往](account-integration/setup-liff-auto-login-member-binding.md)
+
+-   :lucide-ticket: __設定 LINE 綁定會員贈送優惠券__
+
+    ---
+
+    設定 LINE 官方帳號綁定會員後自動發送優惠券，以提升會員綁定率與行銷效果。
+
+    [:octicons-arrow-right-24: 前往](account-integration/setup-line-binding-coupon-gift.md)
+
+-   :lucide-filter: __篩選與應用 LINE OA 綁定會員名單__
+
+    ---
+
+    使用會員篩選器找出 LINE OA 綁定會員，並匯出或用於行銷受眾。
+
+    [:octicons-arrow-right-24: 前往](account-integration/filter-use-line-oa-bound-members.md)
 
 </div>
 
-!!! warning "「LINE 登入」與「Messaging API」務必設定於 LINE Developers 的 同一個 Provider（服務提供者） 中。"
+---
 
-## 會員綁定與體驗優化
-
-為了能發送 LINE 訊息給會員，必須引導顧客完成「官網會員與 LINE OA」的綁定。
+## 圖文選單與好友引導
 
 <div class="grid cards" markdown>
 
-- :lucide-user-cog:{ .lg }   
-  [__LINE 綁定官網會員__](bind-line-oa-store-members.md){ data-preview }       
-  會員需透過 LINE 快速登入進行綁定，商家可透過圖文選單或歡迎訊息設置專屬連結（`line_action=line_login`）來引導。。
+-   :lucide-layout-panel-top: __設定 LINE 圖文選單__
 
-- :lucide-zap:{ .lg }     
-  [__LIFF 自動登入__](setup-liff-auto-login-member-binding.md){ data-preview }    
-  由 EC 後台生成的 LIFF 網址可讓會員點選後 **自動登入**。若顧客非好友或會員，點選 LIFF 連結可 **同時達成加入好友、註冊與綁定**。
+    ---
+
+    建立與設定 LINE 圖文選單，讓顧客可透過官方帳號快速導覽商品、會員中心與導購頁面。
+
+    [:octicons-arrow-right-24: 前往](marketing/setup-line-rich-menu.md)
+
+-   :lucide-user-plus: __在官網新增 LINE 加入好友入口__
+
+    ---
+
+    在拖拉版型網站中新增 LINE 官方帳號加入好友入口，透過彈窗、輪播、頁腳或導覽列引導訪客加入好友。
+
+    [:octicons-arrow-right-24: 前往](marketing/add-line-friend-entry-storefront.md)
+
+-   :lucide-link: __設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結__
+
+    ---
+
+    透過編輯 Liquid 樣板檔案，在結帳完成後的關鍵轉換點嵌入 LINE 導流元件，以提升會員回流率。
+
+    [:octicons-arrow-right-24: 前往](marketing/line-friend-link-order-payment-pages.md)
 
 </div>
 
-## 自動化通知與訊息推播
+---
+
+## 分眾推播與廣告追蹤
 
 <div class="grid cards" markdown>
 
-- :lucide-layout-grid:{ .lg }   
-  [__LINE OA 訊息提醒樣板__](../../notifications/manage-line-oa-templates.md){ title="設定與管理 LINE OA 通知樣板" }       
-  商家可開啟「訂單」、「物流」、「顧客」等樣板，在指定情境下自動回覆。
+-   :lucide-message-square: __設定與發送 LINE OA 分眾訊息推播__
 
-- :lucide-message-square-share:{ .lg }     
-  [__分眾訊息推播__](line-oa-segment-messaging.md){ data-preview }  
-  商家可透過「顧客標籤」篩選特定族群，發送文字或圖片推播訊息。
+    ---
 
-- :lucide-zap:{ .lg }     
-  [__AUTOMATION__](../../app-market/automation/automation-push-flow.md#line-oa-訊息發送設定){ title="使用 AUTOMATION 建立自動化推播流程" }  
-  商家可建立自動化工作流程，例如針對「購物車未結帳」會員發送 LINE OA 提醒訊息。
+    設定並發送 LINE OA 分眾訊息推播給指定標籤會員。
+
+    [:octicons-arrow-right-24: 前往](marketing/line-oa-segment-messaging.md)
+
+-   :lucide-split: __設定 LINE OA 受眾串接__
+
+    ---
+
+    將篩選出的會員 UID 同步至 LINE OA 建立受眾，用於訊息推播與 LAP 廣告投放。
+
+    [:octicons-arrow-right-24: 前往](marketing/setup-line-oa-audience.md)
+
+-   :lucide-code: __設定與管理 LINE Tag__
+
+    ---
+
+    設定 LINE Tag ID，並追蹤 LINE OA 訊息推播或 LINE LAP 廣告帶來的轉換成效。
+
+    [:octicons-arrow-right-24: 前往](marketing/setup-manage-line-tag.md)
 
 </div>
 
+---
 
-## 精準行銷與廣告追蹤
+## 導購應用
 
 <div class="grid cards" markdown>
 
-- :lucide-split:{ .lg }   
-  [__LINE OA 受眾串接__](setup-line-oa-audience.md){ data-preview }     
-  商家可將篩選出的「已完成 LINE 綁定」會員名單，同步至 LINE OA 後台建立受眾，用於推播或廣告投放。
+-   :lucide-radio: __申請與設定 LINE 直播功能__
 
-- :lucide-code:{ .lg }     
-  [__LINE Tag 設定__](setup-manage-line-tag.md){ data-preview }  
-  類似於 FB Pixel，可用於追蹤官網上的轉換事件（如完成註冊、加入購物車、下單），並打包「網站流量受眾」再行銷。
+    ---
 
-- :lucide-ticket-plus:{ .lg }     
-  [__綁](setup-manage-line-tag.md)Tag.md){ data-preview }  
-  開啟「LINE @ 綁定贈送優惠券功能」，以獎勵誘因吸引會員完成帳號綁定。
+    如何申請 LINE 直播功能，並完成後台參數設定與商品串接。
 
-</div>
+    [:octicons-arrow-right-24: 前往](apply-setup-line-live-stream.md)
 
-## 進階導購應用
+-   :lucide-shopping-bag: __申請與設定 LINE 購物導購__
 
-讓 LINE 不只是通訊工具，更是銷售平台：
+    ---
 
-<div class="grid cards" markdown>
+    申請 LINE 購物導購並完成後台串接設定，將 LINE 購物流量導入官網下單。
 
-- :lucide-radio:{ .lg }   
-  [__LINE 直播__](apply-setup-line-live-stream.md){ title="申請與設定 LINE 直播功能" }     
-  商家可在 LINE OA 執行購物直播，讓消費者「邊看邊買」，下單後的訂單可於後台「LINE OA 訂單」查看。
+    [:octicons-arrow-right-24: 前往](apply-setup-line-shopping-guide.md)
 
-- :lucide-book:{ .lg }   
-  [__LINE 直播手冊__:lucide-external-link:](https://drive.google.com/file/d/1cOVeAlq9l55rjU2yR_8krxWafSXOzZ2P/view)。  
-  透過 LINE 直播的高觸及率與互動功能，結合導購策略來提升電商轉換率與業績。
-  
-- :lucide-shopping-bag:{ .lg }     
-  [__LINE 購物__](apply-setup-line-shopping-guide.md){ title="申請與設定 LINE 購物導購" }  
-  串接後可透過 LINE 購物入口（APP 或官方帳號）引導顧客至官網下單，並提供點數回饋。
+-   :lucide-users: __LINE 團購功能總覽__
 
-- :lucide-users:{ .lg }     
-  [__LINE 團購__](group-buy/index.md){ title="LINE 團購功能總覽" }  
-  透過「團購機器人」在 LINE 群組內進行活動，成員可直接在群組內透過機器人選單瀏覽商品並結帳。
-</div>
+    ---
 
-## 虛實整合 (OMO) 應用
+    LINE 團購功能的運作方式，以及商家如何在 LINE 群組中建立團購活動並讓成員瀏覽商品與完成結帳。
 
-<div class="grid cards" markdown>
-
-- :lucide-book:{ .lg }   
-  [__LINE OA 虛實整合教學__:lucide-external-link:](https://drive.google.com/file/d/1mOPY3hZorS99_cjPCZMy_zIEUUGrZTqf/view)     
-  透過與電商及 POS 系統串接，落實會員註冊自動化、發送專屬優惠券，並優化門市現場的會員掃碼及優惠兌換流程。
-
-- :lucide-barcode:{ .lg }   
-  [__會員條碼__](batch-update-product-descriptions-shipping.md)     
-  配合 POS 系統，會員可從 LINE OA 圖文選單中調出「會員條碼」，供店員掃描以進行紅利與優惠券折抵。
-
-- :lucide-contact-round:{ .lg }     
-  [__門市助理__](.md)  
-  門市店員可透過專屬 QR Code 引導顧客一次完成加入 LINE 好友、註冊與店員綁定。
+    [:octicons-arrow-right-24: 前往](group-buy/index.md)
 
 </div>
-
-## 重要注意事項與成本
-
-- **訊息費用：** LINE 推播訊息（含手動推播與系統自動通知）將依 LINE 官方方案產生費用，僅發送成功的訊息會被計費。
-
-- **好友狀態：** 會員必須是該官方帳號的好友且未封鎖，才能收到 LINE OA 訊息。
-
-- **Email 綁定：** 顧客的 LINE 帳號必須先在 LINE App 中綁定 Email，方可使用快速登入功能。
-

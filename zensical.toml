@@ -200,34 +200,35 @@ copyright = """
         { "商品" = [
             { "商品管理" = "ec/products/index.md" },  
             { "建立與管理" = [
-                {"介面導覽" = "ec/products/create-and-manage/使用商品管理介面管理商品.md"},
+                {"介面導覽" = "ec/products/create-and-manage/product-management-interface.md"},
                 {"新增與更新" = "ec/products/create-and-manage/create-update-products.md"},
-                {"組合商品" = "ec/products/create-and-manage/新增與設定組合商品.md"},
+                {"組合商品" = "ec/products/create-and-manage/create-and-setup-combo-products.md"},
                 {"商品簡述與標語" = "ec/products/create-and-manage/edit-product-slogan-and-description.md"},
-                {"商品描述與商品設定" = "ec/products/create-and-manage/編輯商品描述與商品設定.md"},
+                {"商品描述與設定" = "ec/products/create-and-manage/edit-product-description-settings.md"},
                 {"色票與款式圖片(拖拉版型)" = "ec/products/create-and-manage/product-swatches-variant-images-drag-drop.md"},
                 {"色票與款式圖片(預設版型)" = "ec/products/create-and-manage/product-swatches-variant-images-default.md"},
                 {"商品影片" = "ec/products/create-and-manage/setup-product-videos.md" }
             ]},  
             { "分類與標籤" = [
                 { "自訂分類群組" = "ec/products/categories-and-tags/custom-collections.md" },
-                { "秘密商品群組" = "ec/products/categories-and-tags/設定秘密商品群組.md" },
+                { "秘密商品群組" = "ec/products/categories-and-tags/secret-collection.md" },
                 { "條件分類群組" = "ec/products/categories-and-tags/smart-collections.md" },
                 { "多層級分類" = "ec/products/categories-and-tags/multi-level-category-setup.md" },
                 { "標籤管理" = "ec/products/categories-and-tags/manage-product-tags.md" }
             ]},
             { "搜尋與曝光" = [
                 {"overview" = "ec/products/discoverability/index.md"},
-                {"商品搜尋可見性" = "ec/products/discoverability/設定商品搜尋可見性.md"},
+                {"商品搜尋可見性" = "ec/products/discoverability/product-search-visibility.md"},
                 {"站內搜尋設定" = "ec/products/discoverability/setup-site-search.md"},
                 {"搜尋結果排除" = "ec/products/discoverability/exclude-keyword-products-search.md"},
                 {"前台商品篩選器" = "ec/products/discoverability/設定前台商品篩選器.md"}
             ]},
             { "批次管理" = [
-                {"Excel 大量匯入商品" = "ec/products/bulk-operations/Excel 大量匯入商品.md"},
+                {"Excel 大量匯入商品" = "ec/products/bulk-operations/excel-import-products.md"},
                 {"批次修改商品描述與配送設定" = "ec/products/bulk-operations/batch-update-product-descriptions-shipping.md"},
                 {"排除商品上傳至第三方平台" = "ec/products/bulk-operations/排除商品上傳至第三方平台.md"},
                 {"複製商品到快速到貨門市" = "ec/products/copy-products-to-quick-delivery-stores.md"},
+                {"複製商品至 POS 商店" = "ec/products/bulk-operations/copy-products-to-pos-stores.md"},
             ]},
             { "價格設定" = [
                 {"VIP 會員專屬價格" = "ec/products/pricing/setup-vip-member-pricing.md"}
@@ -241,7 +242,7 @@ copyright = """
             ]},
             { "物流配送" = [
                 { "配送條件設定" = "ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）.md" },
-                { "超商配送限制與物流排除" = "ec/products/shipping/設定超商配送限制與物流排除.md" }
+                { "超商配送限制與物流排除" = "ec/products/shipping/cvs-shipping-restrictions-exclusions.md" }
             ]},
             { "參考資源" = [
                 { "商品狀態對照表" = "ec/products/references/product-statuses.md" },
@@ -335,43 +336,52 @@ copyright = """
             {"發送 EDM" = "ec/notifications/send-edm-newsletters.md"}
         ]},
         { "金物流" = [
-            {"overview" = "ec/payments-and-logistics/index.md"},
+            {"金物流總覽" = "ec/payments-and-logistics/index.md"},
             {"結帳頁與物流設定" = [
-                {"購物車相關設定" = "ec/payments-and-logistics/cart-settings.md"},
-                {"物流相關設定" = "ec/payments-and-logistics/logistics-settings.md"},
-                {"訂單相關設定" = "ec/payments-and-logistics/order-settings.md"}
+                {"結帳頁與物流設定總覽" = "ec/payments-and-logistics/payments/index.md"},
+                {"購物車相關設定" = "ec/payments-and-logistics/payments/cart-settings.md"},
+                {"物流相關設定" = "ec/payments-and-logistics/payments/logistics-settings.md"},
+                {"訂單相關設定" = "ec/payments-and-logistics/payments/order-settings.md"}
             ]},
-            {"申請 CYBERBIZ PAYMENTS" = "ec/payments-and-logistics/apply-cyberbiz-payments.md"},
-            {"信用卡 3D 驗證" = "ec/payments-and-logistics/setup-credit-card-3d-verification.md"},
-            {"Apple Pay" = "ec/payments-and-logistics/setup-apple-pay.md"},
-            {"AFTEE" = "ec/payments-and-logistics/setup-aftee.md"},
-            {"LINE Pay" = "ec/payments-and-logistics/setup-line-pay.md"},
-            {"PayPal" = "ec/payments-and-logistics/setup-paypal.md"},
-            {"街口支付" = "ec/payments-and-logistics/setup-jkopay.md"},
-            {"Google Pay™" = "ec/payments-and-logistics/setup-google-pay.md"},
-            {"iPASS MONEY 一卡通" = "ec/payments-and-logistics/setup-ipass-money.md"},
-            { "建立宅配貨到付款物流" = "ec/payments-and-logistics/home-delivery-cash-on-delivery.md" },
-            { "建立宅配貨到不付款/自訂物流" = "ec/payments-and-logistics/setup-home-delivery-non-cod-custom-logistics.md" },
-            {"超商大宗寄倉 B2C" = "ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping.md" },
-            {"超商店到店 C2C 串接" = "ec/payments-and-logistics/setup-cvs-c2c-shipping.md" },
-            {"全家冷凍 B2C" = "ec/payments-and-logistics/setup-family-mart-frozen-b2c.md" },
-            {"建立門市" = "ec/payments-and-logistics/create-stores.md" },
+            {"金流服務" = [
+                {"申請 CYBERBIZ PAYMENTS" = "ec/payments-and-logistics/apply-cyberbiz-payments.md"},
+                {"信用卡 3D 驗證" = "ec/payments-and-logistics/setup-credit-card-3d-verification.md"},
+                {"Apple Pay" = "ec/payments-and-logistics/setup-apple-pay.md"},
+                {"AFTEE" = "ec/payments-and-logistics/setup-aftee.md"},
+                {"LINE Pay" = "ec/payments-and-logistics/setup-line-pay.md"},
+                {"PayPal" = "ec/payments-and-logistics/setup-paypal.md"},
+                {"街口支付" = "ec/payments-and-logistics/setup-jkopay.md"},
+                {"Google Pay™" = "ec/payments-and-logistics/setup-google-pay.md"},
+                {"iPASS MONEY 一卡通" = "ec/payments-and-logistics/setup-ipass-money.md"},
+            ]},
+            {"宅配物流" = [
+                {"建立宅配貨到付款物流" = "ec/payments-and-logistics/home-delivery-cash-on-delivery.md"},
+                {"建立宅配貨到不付款/自訂物流" = "ec/payments-and-logistics/setup-home-delivery-non-cod-custom-logistics.md"},
+            ]},
+            {"超商物流" = [
+                {"超商大宗寄倉 B2C" = "ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping.md"},
+                {"超商店到店 C2C 串接" = "ec/payments-and-logistics/setup-cvs-c2c-shipping.md"},
+                {"全家冷凍 B2C" = "ec/payments-and-logistics/setup-family-mart-frozen-b2c.md"},
+                {"ezShip超商取貨(C2C)" = "ec/payments-and-logistics/integrate-ezship-cvs-pickup-c2c.md"},
+                {"綠界金流與超商取貨付款" = "ec/payments-and-logistics/apply-for-ecpay-payment-and-cvs-cod.md"},
+            ]},
+            {"託運單設定" = [
+                {"黑貓託運單" = "ec/payments-and-logistics/setup-print-tcat-waybill.md"},
+                {"黑貓快速到店託運單" = "ec/payments-and-logistics/setup-print-tcat-quick-store-waybill.md"},
+                {"宅配通託運單" = "ec/payments-and-logistics/setup-pelican-waybill.md"},
+                {"順豐託運單" = "ec/payments-and-logistics/setup-sf-express-waybill.md"},
+                {"新竹物流託運單" = "ec/payments-and-logistics/setup-hct-waybill.md"},
+            ]},
+            {"建立門市" = "ec/payments-and-logistics/create-stores.md"},
             {"門市取貨"= [
-                { "overview" = "ec/payments-and-logistics/store-pickup/index.md" },
-                { "開啟門市取貨服務" = "ec/payments-and-logistics/store-pickup/enable-store-pickup-service.md" },
+                {"overview" = "ec/payments-and-logistics/store-pickup/index.md"},
+                {"開啟門市取貨服務" = "ec/payments-and-logistics/store-pickup/enable-store-pickup-service.md"},
             ]},
             {"CYBERBIZ NOW" = [
-                { "overview" = "ec/payments-and-logistics/cyberbiz-now/index.md" },
-                { "開啟快速到貨服務" = "ec/payments-and-logistics/cyberbiz-now/enable-cyberbiz-now-quick-delivery.md"},
+                {"overview" = "ec/payments-and-logistics/cyberbiz-now/index.md"},
+                {"開啟快速到貨服務" = "ec/payments-and-logistics/cyberbiz-now/enable-cyberbiz-now-quick-delivery.md"},
             ]},
-            {"黑貓託運單" = "ec/payments-and-logistics/setup-print-tcat-waybill.md"},
-            {"黑貓快速到店託運單" = "ec/payments-and-logistics/setup-print-tcat-quick-store-waybill.md"},
-            {"宅配通託運單" = "ec/payments-and-logistics/setup-pelican-waybill.md"},
-            {"順豐託運單" = "ec/payments-and-logistics/setup-sf-express-waybill.md"},
-            {"新竹物流託運單" = "ec/payments-and-logistics/setup-hct-waybill.md"},
-            { "ezShip超商取貨(C2C)" = "ec/payments-and-logistics/integrate-ezship-cvs-pickup-c2c.md"},
-            { "綠界金流與超商取貨付款" = "ec/payments-and-logistics/apply-for-ecpay-payment-and-cvs-cod.md"},
-            { "跨境電商" = [
+            {"跨境電商" = [
                 {"北美站金流服務" = "ec/payments-and-logistics/north-america-payment-services.md"},
                 {"日本站金流服務" = "ec/payments-and-logistics/japan-payment-services.md"},
                 {"東南亞站金流服務" = "ec/payments-and-logistics/southeast-asia-payment-services.md"},
@@ -441,12 +451,9 @@ copyright = """
             ]}
         ]},
         { "APP MARKET" = [
-            {"overview" = "ec/app-market/index.md"},
+            {"APP MARKET 總覽" = "ec/app-market/index.md"},
             {"AUTOMATION" = [
               {"自動化行銷" = "ec/app-market/automation/automation-push-flow.md"}
-            ]},
-            {"CYBERBIZ 擴充服務" = [
-                {"overview" = "ec/app-market/cyberbiz-extensions/index.md"},
             ]},
             { "API 與 Webhook 串接指南" = "ec/app-market/api-and-webhook-integration-guide.md"},
             {"Chat Box" = [
@@ -479,13 +486,12 @@ copyright = """
                 {"績效報表" = "ec/app-market/storepal/performance-reports.md"},
             ]},
             {"CYBERBIZ EXPRESS 日到台宅配" = "ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery.md"},
-            {"CYBERBIZ APP" = "ec/app-market/CYBERBIZ APP 功能指南.md"},
-            {"CYBERBIZ Meta Ads" = "ec/app-market/安裝 Meta Ads App.md"}
+            {"CYBERBIZ Meta Ads" = "ec/app-market/install-meta-ads-app.md"}
         ]},
         { "第三方整合" = [
-            {"overview" = "ec/integrations/index.md"},  
+            {"第三方整合總覽" = "ec/integrations/index.md"},  
             {"Facebook" = [
-                {"overview" = "ec/integrations/fb/index.md"},
+                {"Facebook 總覽" = "ec/integrations/fb/index.md"},
                 {"Facebook 快速登入" = "ec/integrations/fb/setup-facebook-quick-login.md"},
                 {"商業擴充功能" = [
                     {"商業擴充總覽" = "ec/integrations/fb/mbe/index.md"},
@@ -496,39 +502,56 @@ copyright = """
                 ]},
                 {"Meta 廣告" = [
                     {"Meta 廣告總覽" = "ec/integrations/fb/meta-ads/index.md"},
-                    {"建立帳號與儲值" = "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up.md"},
-                    {"閒置帳號處理" = "ec/integrations/fb/meta-ads/meta-ad-idle-account-reclaim.md"},
-                    {"廣告活動設定" = "ec/integrations/fb/meta-ads/setup-meta-ad-campaign.md"},
-                    {"廣告預算指南" = "ec/integrations/fb/meta-ads/meta-ad-daily-budget-guide.md"},
-                    {"目錄商品組合" = "ec/integrations/fb/meta-ads/setup-meta-ad-catalog-sets.md"},
-                    {"目錄影片同步" = "ec/integrations/fb/meta-ads/sync-product-videos-meta-catalog.md"},
-                    {"廣告成效分析" = "ec/integrations/fb/meta-ads/meta-ad-performance-analysis.md"},
-                    {"ASC 廣告指南" = "ec/integrations/fb/meta-ads/asc-ad-strategy-best-practices.md"},
-                    {"手動授權資產" = "ec/integrations/fb/meta-ads/share-asset-permissions-cyberbiz.md"}
+                    {"帳號建立與管理" = [
+                        {"建立帳號與儲值" = "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up.md"},
+                        {"閒置帳號處理" = "ec/integrations/fb/meta-ads/meta-ad-idle-account-reclaim.md"}
+                    ]},
+                    {"廣告活動設定" = [
+                        {"設定廣告活動" = "ec/integrations/fb/meta-ads/setup-meta-ad-campaign.md"},
+                        {"目錄商品組合" = "ec/integrations/fb/meta-ads/setup-meta-ad-catalog-sets.md"},
+                        {"目錄影片同步" = "ec/integrations/fb/meta-ads/sync-product-videos-meta-catalog.md"}
+                    ]},
+                    {"投放策略與預算" = [
+                        {"ASC 廣告指南" = "ec/integrations/fb/meta-ads/asc-ad-strategy-best-practices.md"},
+                        {"廣告預算指南" = "ec/integrations/fb/meta-ads/meta-ad-daily-budget-guide.md"}
+                    ]},
+                    {"成效分析與疑難排解" = [
+                        {"廣告成效分析" = "ec/integrations/fb/meta-ads/meta-ad-performance-analysis.md"},
+                        {"手動授權資產" = "ec/integrations/fb/meta-ads/share-asset-permissions-cyberbiz.md"}
+                    ]}
                 ]},
             ]},
             {"Google" = [
                 {"Google 總覽" = "ec/integrations/google/index.md"},
-                {"Google 快速登入" = "ec/integrations/google/setup-google-quick-login.md"},
-                {"Google 購物廣告" = "ec/integrations/google/setup-google-merchant-center.md"},
-                {"GMC 重要事件追蹤" = "ec/integrations/google/setup-gmc-conversion-tracking.md"},
-                {"自動化廣告" = "ec/integrations/google/automated-ads-system.md"},
-                {"移除 Google 索引" = "ec/integrations/google/remove-urls-from-google-search.md"},
-                {"Google Tag Manager" = "ec/integrations/google/setup-google-tag-manager.md"},
-                {"Tag Assistant 驗證" = "ec/integrations/google/verify-tracking-tag-installation.md"},
-                {"Google 商家檔案" = "ec/integrations/google/setup-google-business-profile.md"},
-                {"GSC 驗證與設定" = "ec/integrations/google/setup-google-search-console.md"},
-                {"Google Ads 追蹤轉換" = "ec/integrations/google/setup-google-ads-conversion-tracking.md"},
-                {"Google Ads 強化轉換" = "ec/integrations/google/setup-google-ads-enhanced-conversions.md"},
-                {"UTM 流量追蹤" = "ec/integrations/google/utm-parameter-tracking-guide.md"},
-                {"網站安全檢查與申訴" = "ec/integrations/google/google-safe-browsing-security-check.md"},
-                {"YouTube Shopping" = "ec/integrations/google/youtube-shopping-setup-guide.md"},
+                {"基礎設定與帳號驗證" = [
+                    {"GSC 驗證與設定" = "ec/integrations/google/setup-google-search-console.md"},
+                    {"Google 商家檔案" = "ec/integrations/google/setup-google-business-profile.md"},
+                    {"Google Tag Manager" = "ec/integrations/google/setup-google-tag-manager.md"},
+                    {"Google 快速登入" = "ec/integrations/google/setup-google-quick-login.md"}
+                ]},
+                {"Merchant Center 與購物廣告" = [
+                    {"Google 購物廣告" = "ec/integrations/google/setup-google-merchant-center.md"},
+                    {"自動化廣告" = "ec/integrations/google/automated-ads-system.md"},
+                    {"YouTube Shopping" = "ec/integrations/google/youtube-shopping-setup-guide.md"},
+                    {"GMC 重要事件追蹤" = "ec/integrations/google/setup-gmc-conversion-tracking.md"}
+                ]},
+                {"Google Ads 廣告與轉換追蹤" = [
+                    {"Google Ads 追蹤轉換" = "ec/integrations/google/setup-google-ads-conversion-tracking.md"},
+                    {"Google Ads 強化轉換" = "ec/integrations/google/setup-google-ads-enhanced-conversions.md"}
+                ]},
+                {"流量追蹤與資料分析" = [
+                    {"UTM 流量追蹤" = "ec/integrations/google/utm-parameter-tracking-guide.md"},
+                    {"Tag Assistant 驗證" = "ec/integrations/google/verify-tracking-tag-installation.md"}
+                ]},
                 {"Google Analytics" = [
-                    {"overview" = "ec/integrations/google/ga/index.md"},
                     {"建立串接" = "ec/integrations/google/ga/setup-google-analytics.md"},
                     {"進階設定" = "ec/integrations/google/ga/google-analytics-advanced-tracking.md"},
-                    {"排除內部與參照流量" = "ec/integrations/google/ga/設定 GA4 排除內部流量與第三方參照來源.md"},
+                    {"排除內部與參照流量" = "ec/integrations/google/ga/ga4-exclude-internal-traffic-and-referrals.md"},
                     {"站內追蹤搜尋" = "ec/integrations/google/ga/setup-ga4-site-search-tracking.md"}
+                ]},
+                {"搜尋管理與網站安全" = [
+                    {"移除 Google 索引" = "ec/integrations/google/remove-urls-from-google-search.md"},
+                    {"網站安全檢查與申訴" = "ec/integrations/google/google-safe-browsing-security-check.md"}
                 ]},
             ]},
             { "LINE" = [
@@ -567,21 +590,27 @@ copyright = """
         ]},
         { "管理中心" = [
             { "overview" = "ec/website-management/index.md" },
-            { "系統通知設定" = "ec/website-management/系統通知設定.md" },
-            { "網站基本資訊" = "ec/website-management/setup-store-basic-info.md" },
-            { "設定多國語言與多幣別" = "ec/website-management/setup-multi-language-and-multi-currency.md" },
-            {"顧客註冊驗證" = "ec/website-management/設定顧客 Email 與手機雙重驗證.md"},
-            { "續購與自動續約" = "ec/website-management/renewal-and-auto-subscription.md" },
-            { "顧客註冊流程與欄位" = "ec/website-management/customer-registration-flow-and-fields.md" },
-            { "網域管理" = "ec/website-management/domain-management.md" },
-            {"資安防護總覽" = "ec/website-management/security-best-practices.md"},
-            {"安全性設定" = "ec/website-management/security-settings.md"},
-            {"二階段驗證 (2FA)" = "ec/website-management/setup-manage-two-factor-auth.md"},
-            {"Authy 二階段驗證" = "ec/website-management/authy-two-factor-authentication.md"},
+            { "網站設定" = [
+                { "網站基本資訊" = "ec/website-management/setup-store-basic-info.md" },
+                { "設定多國語言與多幣別" = "ec/website-management/setup-multi-language-and-multi-currency.md" },
+                { "網域管理" = "ec/website-management/domain-management.md" },
+            ]},
+            { "顧客註冊" = [
+                { "顧客註冊流程與欄位" = "ec/website-management/customer-registration-flow-and-fields.md" },
+                { "顧客註冊驗證" = "ec/website-management/setup-customer-email-phone-verification.md" },
+                { "特定網域信箱套用會員標籤" = "ec/website-management/apply-member-tags-to-specific-email-domains.md" },
+            ]},
+            { "資安防護" = [
+                { "資安防護總覽" = "ec/website-management/security-best-practices.md" },
+                { "安全性設定" = "ec/website-management/security-settings.md" },
+                { "二階段驗證 (2FA)" = "ec/website-management/setup-manage-two-factor-auth.md" },
+                { "Authy 二階段驗證" = "ec/website-management/authy-two-factor-authentication.md" },
+                { "管理員與權限" = "ec/website-management/add-admin-set-permissions.md" },
+            ]},
             {"搜尋引擎最佳化" = [
-                {"SEO 優化" = "ec/website-management/seo/SEO 設定與優化指南.md"},
-                {"Sitemap 提交" = "ec/website-management/seo/將 Sitemap 提交至 Google Search Console.md"},
-                {"網站轉址" = "ec/website-management/seo/設定 301 重定向網站轉址.md"}
+                {"SEO 優化" = "ec/website-management/seo/seo-guide.md"},
+                {"Sitemap 提交" = "ec/website-management/seo/submit-sitemap-to-gsc.md"},
+                {"網站轉址" = "ec/website-management/seo/setup-301-redirects.md"}
             ]},
             { "對帳中心" = [
                 { "欠款自動扣繳" = "ec/website-management/auto-deduction-of-arrears.md" },
@@ -589,19 +618,24 @@ copyright = """
                 { "一鍵開立請款發票" = "ec/website-management/one-click-invoice-issuance.md" },
             ]},
             { "發票設定" = [
-                { "星益欣電子發票" = "ec/website-management/星益欣電子發票設定指南.md" },
+                { "星益欣電子發票" = "ec/website-management/wixtar-e-invoice-setup.md" },
                 { "系統代開消費者發票" = "ec/website-management/manage-system-issued-consumer-invoices.md"},
+                { "綠界電子發票" = "ec/website-management/ecpay-invoice.md" },
             ]},
-            {"儲值中心" = "ec/website-management/points-deposits.md"},
-            { "特定網域信箱套用會員標籤" = "ec/website-management/特定網域信箱套用會員標籤.md" },
-            {"管理員與權限" = "ec/website-management/add-admin-set-permissions.md"},
-            { "未收到後台登入驗證信" = "ec/website-management/not-receiving-backend-login-verification-email.md" },
-            { "未收到通知信件" = "ec/website-management/troubleshoot-not-receiving-merchant-notifications.md" },
-            { "系統到期處理流程" = "ec/website-management/system-expiry-handling-process.md" },
+            { "帳戶與方案" = [
+                { "續購與自動續約" = "ec/website-management/renewal-and-auto-subscription.md" },
+                { "儲值中心" = "ec/website-management/points-deposits.md" },
+                { "系統到期處理流程" = "ec/website-management/system-expiry-handling-process.md" },
+            ]},
+            { "疑難排解" = [
+                { "未收到後台登入驗證信" = "ec/website-management/not-receiving-backend-login-verification-email.md" },
+                { "未收到通知信件" = "ec/website-management/troubleshoot-not-receiving-merchant-notifications.md" },
+            ]},
             {"參考資料" = [
                 {"權限與選單對應表" = "ec/website-management/references/admin-permissions-menu-reference.md"},
                 {"顧客驗證模式" = "ec/website-management/references/customer-field-validation-reference.md"},
                 {"顧客註冊模式" = "ec/website-management/references/customer-registration-modes-reference.md"},
+                {"訂單編號格式變數" = "ec/website-management/references/general-preferences-order-format-variables.md"},
                 { "無法讀取 HTTPS 根網址" = "ec/website-management/unable-to-read-https-root-url.md" },
                 { "Cloudflare SSL 衝突" = "ec/website-management/cloudflare-ssl-conflict.md" }
             ]},
@@ -676,6 +710,7 @@ copyright = """
             { "盟立電子發票" = "pos/third-party/monolith-e-invoice.md" },
             { "星益欣電子發票" = "pos/third-party/wixtar-e-invoice.md" },
             { "LINE PAY 掃碼支付" = "pos/check/line-pay-scan-payment.md" },
+            { "LINE 會員條碼結帳" = "pos/integrations/line/line-member-barcode-pos-checkout.md" },
         ]},
         {"divider" = "divider"},
         { "結帳" =[
@@ -737,9 +772,6 @@ copyright = """
             { "設定前台自動登出時間" = "pos/store/setup-frontend-auto-logout-time.md" },
             { "員工權限與帳號管理" = "pos/store/staff-permissions-and-account-management.md" },
             { "人員登入" = "pos/store/staff-login.md" },
-            { "參考資源" = [
-                { "人員權限欄位參考表" = "pos/reference/staff-permission-fields-reference.md" },
-            ]}
         ]},
         { "報表分析" = [
             { "營收分析" = "pos/business-intelligence/pos-revenue-analysis.md" },

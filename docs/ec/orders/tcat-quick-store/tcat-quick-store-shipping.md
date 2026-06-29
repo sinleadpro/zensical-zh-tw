@@ -228,7 +228,7 @@ hide: []
 2. 儲存後重新執行下載。
 
 ??? info "關於地址來源的優先順序"
-    若您是首次使用，系統會自動帶入 管理中心 > 一般設定 > [公司物流地址][gp-logistics-address]{ data-preview } 的資訊。
+    若您是首次使用，系統會自動帶入 管理中心 > 一般設定 > [公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" } 的資訊。
 
     **注意**：一旦「黑貓快速到店設定」頁面已有獨立地址資訊，修改「公司物流地址」將 **不會** 同步更新至黑貓設定。請務必在「黑貓託運單」頁面直接進行修改。
 
@@ -293,7 +293,7 @@ hide: []
 
     * **瀏覽器阻擋彈跳視窗**：請檢查瀏覽器是否阻擋了彈跳視窗或廣告，允許本站彈跳視窗後重新點擊下載。
     * **Cyber 幣不足(一般版商家)**：請至 [儲值中心][cyber-coin-balance]{ data-preview } 儲值。
-    * **公司物流地址未設定**：至 管理中心 > 一般設定 > [公司物流地址][gp-logistics-address]{ data-preview } 完成設定。
+    * **公司物流地址未設定**：至 管理中心 > 一般設定 > [公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" } 完成設定。
     * **未勾選同意條款**：確認彈出視窗下方「我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 黑貓合約規範」已勾選。
 
 

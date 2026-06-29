@@ -2,7 +2,7 @@
 title: 設定 POS 訂單自動結案
 description: 讓門市結帳完成的訂單依您的設定自動進入「已結案」狀態，系統才會正式發放紅利、生效贈送的優惠券並認列分潤獎金。
 created: 2026-06-25 10:00
-last_modified: 2026-06-25 12:21
+last_modified: 2026-06-29 12:35
 lang: zh-TW
 type: tutorial
 status: ""
@@ -40,9 +40,9 @@ prerequisites:
   - 已開通 POS 功能
   - 網站擁有者權限
 related:
-  - "[[../../ec/payments-and-logistics/order-settings]]"
-  - "[[../../ec/orders/home-delivery/partial-shipment]]"
-  - "[[../../ec/orders/references/payment-statuses]]"
+  - "[[訂單相關設定]]"
+  - "[[設定訂單部分出貨]]"
+  - "[[訂單付款狀態對照表]]"
 tags:
   - POS_訂單
   - 自動結案

@@ -2,7 +2,7 @@
 title: 欠款自動扣繳設定
 description: 使用 CYBERBIZ PAYMENTS 金流服務時，若當期帳單餘額為負值，系統將透過「欠款自動扣繳」機制從您綁定的信用卡中扣款，確保站台功能正常運作。
 created: 2026-06-01 15:54
-last_modified: 2026-06-01 15:54
+last_modified: 2026-06-26 16:29
 lang: zh-TW
 type: tutorial
 status: ""

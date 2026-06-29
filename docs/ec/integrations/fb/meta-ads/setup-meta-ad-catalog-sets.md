@@ -3,7 +3,7 @@
 title: 設定 Meta 廣告的目錄商品組合
 description: 透過 CYBERBIZ Meta Ads App 建立目錄商品組合，篩選特定商品並投放到 Meta 目錄型或圖片型廣告。
 created: 2026-04-20 21:10
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -27,7 +27,7 @@ plans:
   - 專業
   - 進階
   - 高手
-  - 專業PLUS 
+  - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
@@ -64,10 +64,10 @@ paths:
   - 第三方整合 > 臉書 Facebook 設定 > 目錄商品組合
   - 第三方整合 > 臉書 Facebook 設定 > 基本設定
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10789
   - https://www.cyberbiz.io/support/?p=46480
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/setup-meta-ad-catalog-sets
 comments: false
 search:
   exclude: false
@@ -117,7 +117,7 @@ hide: []
 
     ![MMA-目錄商品組合-新增商品-篩選商品](../../../../assets/images/ec-maa-創建目錄商品組合-新增商品-篩選商品.png)
 
-    !!! info "篩選邏輯設定請參考 [後台商品篩選設定](../../../products/create-and-manage/使用商品管理介面管理商品.md#後台搜尋商品){ title="使用商品管理介面管理商品" }。"
+    !!! info "篩選邏輯設定請參考 [後台商品篩選設定](../../../products/create-and-manage/product-management-interface.md#後台搜尋商品){ title="使用商品管理介面管理商品" }。"
 
 5.  **確認並儲存**：確認商品清單無誤後，點擊右下角「確認新增」並「儲存」，即完成組合建立。
 6. **管理與檢視**：儲存成功後，您可以在「目錄商品組合」首頁的列表區域，查看、編輯或刪除已建立的組合。

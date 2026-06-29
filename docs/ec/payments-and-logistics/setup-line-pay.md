@@ -2,7 +2,7 @@
 title: 設定 LINE Pay
 description: 串接 LINE Pay 付款，顧客於結帳時可選用 LINE Pay 進行支付。
 created: 2026-01-27 00:00
-last_modified: 2026-06-14 11:27
+last_modified: 2026-06-28 09:24
 lang: zh-TW
 type: tutorial
 status:
@@ -65,7 +65,7 @@ icon: simple/line
 hide: []
 ---
 
-![](../../assets/images/ec-金物流-line-pay.png){ .hero-page }
+![LINE Pay 說明](../../assets/images/ec-金物流-line-pay.png){ title="LINE Pay 說明" .hero-page }
 
 ## LINE Pay 說明
 
@@ -115,6 +115,8 @@ hide: []
 （適用於 **2022/12/15 後開通之商家**）
 -->
 
+---
+
 ### 步驟二：等待審核及補件
 
 #### 資料審核流程
@@ -123,28 +125,30 @@ hide: []
 - LINE Pay 後台帳號資訊會寄送至您的聯繫信箱。
 - **注意**：收到通知信件不代表審核完成，正式審核仍需 2–4 週。
 - 審核通過後，CYBERBIZ 將提供串接專用 **Channel ID** 與 **Channel Secret**。
-        
+
+---
+
 #### 通知類型與說明
     
 - **審核通知信件**
 	- 表示 LINE Pay 已收到申請資料，但審核尚在進行中。
 	- 審核結果將由 LINE Pay 決定，通過後會再以信件通知。  
 
-	![](../../assets/images/ec-金物流-line-pay-收到申請通知.png)
+	![LINE Pay 審核通知](../../assets/images/ec-金物流-line-pay-收到申請通知.png){ title="LINE Pay 審核通知" }
             
 - **補件通知（僅當需要時）**
         
     - 若 LINE Pay 需要補充文件，將寄送此信件，並由 CYBERBIZ 同步通知。
     - 請依指示提供完整資料，完成後將重新進行審核（審核時間約 6–8 週）。 
     
-    ![](../../assets/images/ec-金物流-line-pay-補件通知.png)
+    ![LINE Pay 補件通知](../../assets/images/ec-金物流-line-pay-補件通知.png){ title="LINE Pay 補件通知" }
             
 - **帳號已開通**
         
     - 表示 LINE Pay 帳號審核通過，可進行後續串接設置。        
     - CYBERBIZ 將寄送金鑰通知信，提供專用 **Channel ID** 與 **Channel Secret**。  
             
-    ![](../../assets/images/ec-金物流-line-pay-帳號開通.png)
+    ![LINE Pay 帳號開通](../../assets/images/ec-金物流-line-pay-帳號開通.png){ title="LINE Pay 帳號開通" }
 
 ### 步驟三：於 CYBERBIZ 系統後台填寫金鑰
 
@@ -154,7 +158,7 @@ hide: []
     - 信件內含串接專用 **Channel ID** 與 **Channel Secret**。
     - 收到信件即表示 LINE Pay 申請完成，請至 CYBERBIZ 後台填入金鑰完成串接。  
 
-	![](../../assets/images/ec-金物流-line-pay-key-email.png)
+	![LINE Pay 金鑰通知](../../assets/images/ec-金物流-line-pay-key-email.png){ title="LINE Pay 金鑰通知" }
         
 2. **於後台填入金鑰並啟用 LINE Pay**
     
@@ -168,19 +172,19 @@ hide: []
         - 輸入時請勿帶有空格，否則無法啟用。  
         - 若同時申請 EC 與 POS LINE Pay，兩者金鑰不可共用，請分別填入對應系統。  
 
-	![](../../assets/images/ec-金物流-line-pay-key.png)
+	![LINE Pay 金鑰填寫](../../assets/images/ec-金物流-line-pay-key.png){ title="LINE Pay 金鑰填寫" }
 
 2. **設定金流門檻**：設定訂單最大/最小金額。
     
-    !!! info  "專業PLUS與 進階 PLUS 方案不支援 LINE Pay 金流門檻設定。"  
+	![LINE Pay 金流門檻](../../assets/images/ec-金物流-line-pay-金流門檻.png){ title="LINE Pay 金流門檻" }
 
-	![](../../assets/images/ec-金物流-line-pay-金流門檻.png)
+    !!! info  "專業PLUS 與 進階PLUS 方案不支援 LINE Pay 金流門檻設定。"  
 
 2. **完成後台付款方式勾選**
     
     - 新增金流選項後，請至 **金物流 > 宅配物流** 相關的物流編輯頁面中，勾選新增的付款方式選項，確保前台完整顯示並可使用。  
 
-	![](../../assets/images/ec-金物流-宅配物流-line-pay-check.gif)
+	![LINE Pay 付款方式勾選](../../assets/images/ec-金物流-宅配物流-line-pay-check.gif){ title="LINE Pay 付款方式勾選" }
 
 
 ## LINE Pay 訂單編號對照說明
@@ -190,7 +194,7 @@ hide: []
 - `21678N`、`R1` 為隨機生成的編號。
 - 中間的數字部分對應 **CYBERBIZ 後台的訂單編號**，方便查詢和對照。
 
-![](../../assets/images/ec-訂單-line-pay-編號.png)
+![LINE Pay 訂單編號](../../assets/images/ec-訂單-line-pay-編號.png){ title="LINE Pay 訂單編號" }
 
 ## 後續步驟
 

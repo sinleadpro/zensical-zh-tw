@@ -2,7 +2,7 @@
 title: Step 3 官網與蝦皮商店庫存同步
 description: 透過建立商品關聯與開啟同步功能，您可以讓官網與蝦皮商店的庫存維持連動。當任一端產生訂單或在官網修改庫存時，系統將自動更新兩端的剩餘數量。
 created: 2026-02-26 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-27 13:40
 lang: zh-TW
 type: tutorial
 status: ""
@@ -24,9 +24,9 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 專業 PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions:
   - CHANNEL BRIDGE
@@ -55,7 +55,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12648
   - https://www.cyberbiz.io/support/?p=51142
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee
 comments: false
 search:
   exclude: false

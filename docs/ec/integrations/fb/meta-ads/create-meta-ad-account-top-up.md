@@ -1,8 +1,8 @@
 ---
-title: 建立 Meta 廣告帳號並完成儲值
+title: 建立 Meta 廣告帳號並儲值
 description: 透過 CYBERBIZ 建立 Meta 廣告帳號並完成儲值。
 created: 2026-04-17 17:10
-last_modified: 2026-06-25 12:05
+last_modified: 2026-06-27 19:51
 lang: zh-TW
 type: tutorial
 status: ""
@@ -26,7 +26,7 @@ plans:
   - 專業
   - 進階
   - 高手
-  - 專業PLUS 
+  - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
@@ -58,10 +58,10 @@ ui_components: []
 paths:
   - 第三方整合 > 臉書 Facebook 設定（廣告/註冊登入） > 廣告帳號設定
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5621
   - https://www.cyberbiz.io/support/?p=17882
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/create-meta-ad-account-top-up
 comments: false
 search:
   exclude: false

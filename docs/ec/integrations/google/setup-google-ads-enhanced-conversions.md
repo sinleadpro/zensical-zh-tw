@@ -2,7 +2,7 @@
 title: 設定 Google Ads 強化轉換
 description: 設定 Google Ads 強化轉換功能，讓系統收到更詳細的行為資料以優化廣告成效。
 created: 2026-03-25 18:07
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -50,7 +50,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=39654
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-ads-enhanced-conversions
 search:
   exclude: false
 icon: lucide/rocket
@@ -93,7 +93,7 @@ comments: false
     強化轉換為 **CYBERBIZ 企業版商家專用** 功能，其他方案無法使用。
 
 ??? quote "設定強化轉換需要先完成什麼前置設定？"
-    在設定強化轉換之前，必須先完](setup-google-ads-conversion-tracking.md)oogle Ads 轉換追蹤.md){ title="設定 Google Ads 轉換追蹤" } 的基本設定，才能啟用強化轉換功能。
+    在設定強化轉換之前，必須先完成 [Google Ads 轉換追蹤](setup-google-ads-conversion-tracking.md){ title="設定 Google Ads 轉換追蹤" } 的基本設定，才能啟用強化轉換功能。
 
 ??? quote "強化轉換對廣告投放有什麼幫助？"
     強化轉換能補足因隱私規範或 Cookie 限制而流失的追蹤數據，並回傳更精確的轉換訊號，協助 Google Ads AI 優化廣告投遞與出價策略。

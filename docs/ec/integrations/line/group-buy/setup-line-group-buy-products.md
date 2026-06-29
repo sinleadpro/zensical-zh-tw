@@ -2,7 +2,7 @@
 title: "設定 LINE 團購商品"
 description: 設定 LINE 團購商品分類，從官網公開商品建立團購清單並設定團購價。
 created: "2026-03-12 10:29"
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status:
@@ -41,8 +41,8 @@ prerequisites:
 related:
   - 團購群組設定
 tags:
-  - LINE_OA
-  - LINE_團購
+  - LINE OA
+  - LINE 團購
   - 團購商品
   - 團購價
 acoiv:
@@ -55,7 +55,7 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=29174&page=3
-permalink:
+permalink: https://help.cyberbiz.io/ec/integrations/line/group-buy/setup-line-group-buy-products
 comments: false
 search:
   exclude: false
@@ -63,7 +63,7 @@ icon: lucide/boxes
 hide: []
 ---
 
-![](../../../../assets/images/ec-第三方整合-line團購商品.png){ .hero-page }
+![LINE 團購商品設定](../../../../assets/images/ec-第三方整合-line團購商品.png){ title="LINE 團購商品設定" .hero-page }
 
 ## LINE 團購商品說明
 
@@ -80,15 +80,15 @@ hide: []
     - 確認狀態： 加入成功的商品將自動顯示於下方的「已選取商品」列表。
     - 多規格處理： 若商品包含多個款式（規格），系統將自動展開並個別列出。商家可針對不同款式設定差異化的團購價。
 
-    ![](../../../../assets/images/ec-第三方整合-line團購商品-加入所選商品.gif)
+    ![加入所選商品](../../../../assets/images/ec-第三方整合-line團購商品-加入所選商品.gif){ title="加入所選商品" }
 
 5.  **編輯價格：** 在 **已選取商品** 列表中，輸入該商品在 LINE 群組內販售的「團購價錢」，完成後儲存。
 
-    ![](../../../../assets/images/ec-第三方整合-line團購商品-編輯價格.png)
+    ![編輯團購價](../../../../assets/images/ec-第三方整合-line團購商品-編輯價格.png){ title="編輯團購價" }
 
 ---
 
-## 複製團購商品分類 (進階應用)
+## 複製團購商品分類 <small>進階應用</small>
 
 若您希望針對不同的團購主（團主）提供相同的商品組合，但給予不同的優惠價格，可利用「複製」功能來節省設定時間：
 
@@ -96,7 +96,7 @@ hide: []
 2.  **重新命名：** 為複製出的新分類命名（例如加上團主名稱以利辨識），儲存後即可進入該分類。
 3.  **調整價格：** 針對該位團主的優惠策略，修改分類內的商品團購價。
 
-![](../../../../assets/images/ec-第三方整合-line團購商品-複製團購商品分類.png)
+![複製團購商品分類](../../../../assets/images/ec-第三方整合-line團購商品-複製團購商品分類.png){ title="複製團購商品分類" }
 
 ---
 

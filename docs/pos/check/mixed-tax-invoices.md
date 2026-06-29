@@ -27,8 +27,8 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -114,7 +114,7 @@ hide: []
 ![](../../assets/images/EC-後台-商品-所有商品-設定應稅免稅01.png){ .screenshot }
 
 !!! tip "大量設定建議"
-    若需設定多項商品，可 [匯出](../../ec/products/bulk-operations/Excel 大量匯入商品.md#下載-excel-範本或匯出商品) 商品，編輯 Excel 檔案中的 **商品稅別** 欄位，執行 [匯入](../../ec/products/bulk-operations/Excel 大量匯入商品.md#匯入-excel-檔案)，即可批次編輯。
+    若需設定多項商品，可 [匯出](../../ec/products/bulk-operations/excel-import-products.md#下載-excel-範本或匯出商品) 商品，編輯 Excel 檔案中的 **商品稅別** 欄位，執行 [匯入](../../ec/products/bulk-operations/excel-import-products.md#匯入-excel-檔案)，即可批次編輯。
 
 ## 系統計算邏輯
 

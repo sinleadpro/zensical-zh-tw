@@ -2,7 +2,7 @@
 title: Meta 廣告帳號閒置釋出機制與保留說明
 description: CYBERBIZ Meta 廣告帳號閒置回收機制的觸發條件、激活方式，以及帳號釋出後的影響與重新申請流程。
 created: 2026-04-27 14:15
-last_modified: 2026-06-14 11:39
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: explanation
 status: ""
@@ -26,7 +26,7 @@ plans:
   - 專業
   - 進階
   - 高手
-  - 專業PLUS 
+  - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
@@ -59,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12881
   - https://www.cyberbiz.io/support/?p=52679
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/meta-ad-idle-account-reclaim
 comments: ""
 search:
   exclude: ""
@@ -118,7 +118,7 @@ hide:
 一旦帳號進入釋出流程並完成回收：
 
 *   **失去權限**：原商家將 **永久失去該廣告帳號的操作權限**。
-*   **重新申請**：若未來仍有廣告投放需求，商家必須 **重新執行申請流程** 來建立一個全新的廣告帳號，相關操作請參閱「[建](create-meta-ad-account-top-up.md)ta 廣告帳號並儲值.md){ title="建立 Meta 廣告帳號並完成儲值" }」教學。
+*   **重新申請**：若未來仍有廣告投放需求，商家必須 **重新執行申請流程** 來建立一個全新的廣告帳號，相關操作請參閱「[建立 Meta 廣告帳號並完成儲值](create-meta-ad-account-top-up.md){ title="建立 Meta 廣告帳號並完成儲值" }」教學。
 
 !!! tip "重要提醒"
     為了確保廣告帳號的穩定性，建議商家在建立帳號後盡早完成 **最低門檻（NT$ 15,000）** 的儲值，以避免因過期導致資產權限遺失。
@@ -127,7 +127,8 @@ hide:
 
 <div class="grid cards" markdown>
 
-- :lucide-wallet](create-meta-ad-account-top-up.md)帳號並儲值__](建立 Meta 廣告帳號並儲值.md){ title="建立 Meta 廣告帳號並完成儲值" }       
+- :lucide-wallet:{ .lg }   
+  [__建立廣告帳號並儲值__](create-meta-ad-account-top-up.md){ title="建立 Meta 廣告帳號並完成儲值" }       
   了解完整的廣告帳號建立流程與最低 NT$15,000 儲值門檻，避免帳號進入閒置回收流程。
 
 - :lucide-rocket:{ .lg }   
@@ -138,7 +139,9 @@ hide:
 
 ## 常見問題
 
-??? quote "如何](create-meta-ad-account-top-up.md#儲值廣告金)，**於六個月內完成首次[儲值](建立 Meta 廣告帳號並儲值.md#儲值廣告金){ title="建立 Meta 廣告帳號並完成儲值" }**。建議商家在建立帳號後盡早完成最低門檻 NT$ 15,000 的儲值，避免因閒置過久導致帳號被系統釋出。
+??? quote "如何避免廣告帳號被系統釋出？"
+
+    請務必於六個月內完成首次[儲值](create-meta-ad-account-top-up.md#儲值廣告金){ title="建立 Meta 廣告帳號並完成儲值" }。建議商家在建立帳號後盡早完成最低門檻 NT$ 15,000 的儲值，避免因閒置過久導致帳號被系統釋出。
 
 ??? quote "帳號被釋出後可以復原嗎？"
 

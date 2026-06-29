@@ -1,9 +1,8 @@
 ---
-
 title: 設定 PayPal
 description: 串接 PayPal 金流，讓海外信用卡顧客於結帳時可使用 PayPal 支付。
 created:
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-28 09:34
 lang: zh-TW
 permalink:
 type: tutorial
@@ -71,20 +70,16 @@ icon: simple/paypal
 hide:
 ---
 
-
-![](../../assets/images/ec-金物流-paypal.png){ .hero-page }
-
+![PayPal 設定](../../assets/images/ec-金物流-paypal.png){ title="PayPal 設定" .hero-page }
 
 ## PayPal 說明
 
 PayPal 是全球知名的線上支付平台，可讓消費者使用信用卡、金融卡或 PayPal 餘額完成付款。透過 PayPal，商家可以安全、快速地收款，並支援多國貨幣交易。
 
+!!! example "適用情境"
 
-### 適用情境
-
-- 適合跨境或海外客戶的商家
-- 希望提供安全支付方式，並整合至 CYBERBIZ 後台訂單管理
-
+    - 適合跨境或海外客戶的商家
+    - 希望提供安全支付方式，並整合至 CYBERBIZ 後台訂單管理
 
 ### 使用須知 
 
@@ -97,21 +92,20 @@ PayPal 是全球知名的線上支付平台，可讓消費者使用信用卡、�
 
 ### 步驟一：申請 PayPal 帳號
 
-!!! info "請使用可正常收信的電子郵件註冊，此郵件將作為後續串接 CYBERBIZ 後台的 PayPal 帳號。"
-
-#### 操作步驟
+!!! warning "請使用可正常收信的電子郵件註冊，此郵件將作為後續串接 CYBERBIZ 後台的 PayPal 帳號。"
 
 1. 前往 [PayPal 官方網站 :lucide-external-link:](https://www.paypal.com/tw/webapps/mpp/home?locale.x=zh_TW)，申請 **商業帳號（Business account）**。
 2. 依照 PayPal 指示完成帳號註冊與身分驗證流程。
 3. 確認可成功登入 PayPal 後台，並完成基本帳號設定。
 
+---
+
 ### 步驟二：取得 PayPal Client ID 與 Secret
 
-> **提示**：已開通 CYBERBIZ PAYMENTS 的商家，可透過 Client ID 與 Secret 啟用 **自動退款功能**。
+!!! tip "提示"
+    已開通 CYBERBIZ PAYMENTS 的商家，可透過 Client ID 與 Secret 啟用 **自動退款功能**。
 
-#### 操作說明
-
-1. 登入 PayPal 商業帳號後，前往 [**PayPal 開發者後台（Developer Dashboard）** :lucide-external-link:](https://developer.paypal.com/home/)。  
+1. 登入 PayPal 商業帳號後，前往 [PayPal 開發者後台 :lucide-external-link:](https://developer.paypal.com/home/)。  
 2. 在開發者後台中，進入 **Apps & Credentials** 相關頁面。
 3. 確認目前環境為 **Live（正式環境）**，而非 Sandbox（測試環境）。
 4. 建立或選取既有的 App，即可取得：
@@ -119,10 +113,11 @@ PayPal 是全球知名的線上支付平台，可讓消費者使用信用卡、�
     - **Client ID**
     - **Secret**
 
-![](../../assets/images/ec-金物流-paypal-clientid-secret-paypal-backend.png)
+![PayPal Client ID 與 Secret](../../assets/images/ec-金物流-paypal-clientid-secret-paypal-backend.png){ title="PayPal Client ID 與 Secret" }
 
-> 以上畫面僅為操作位置示意，實際畫面請以 PayPal 後台顯示為準。
+!!! note "以上畫面僅為操作位置示意，實際畫面請以 PayPal 後台顯示為準。"
 
+---
 
 ### 步驟三：CYBERBIZ 後台設定
 
@@ -138,7 +133,7 @@ PayPal 是全球知名的線上支付平台，可讓消費者使用信用卡、�
     - **Secret**：貼上於 PayPal 開發者後台取得的 Secret
         
     
-    > :lucide-triangle-alert: 請確認貼上內容 **未包含任何空格或換行字元**，否則可能導致串接失敗。
+    !!! warning "請確認貼上內容 **未包含任何空格或換行字元**，否則可能導致串接失敗。"
     
 2. **啟用金流服務**：將 PayPal 金流選項切換為 **啟用（ON）**，並點擊 **確認儲存**。
     
@@ -148,7 +143,7 @@ PayPal 是全球知名的線上支付平台，可讓消費者使用信用卡、�
 
 	!!! warning "若未將新增金流選項綁定至物流，前台將無法顯示該付款方式。"
 
-	![](../../assets/images/ec-金物流-宅配物流-line-pay-check.gif)
+	![PayPal 物流綁定](../../assets/images/ec-金物流-宅配物流-line-pay-check.gif){ title="PayPal 物流綁定" }
 
 
 ## 後續步驟
@@ -156,7 +151,7 @@ PayPal 是全球知名的線上支付平台，可讓消費者使用信用卡、�
 <div class="grid cards" markdown>
 
 - :lucide-banknote-arrow-down:{ .lg }   
-  [__退貨退款__](一般退貨退款)     
+  [__第三方支付訂單人工退款__](../orders/manual-refund-for-third-party-payment-orders.md){ title="第三方支付訂單人工退款" }     
   退貨退款操作。
 
 - :lucide-circle-question-mark:{ .lg }   

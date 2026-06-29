@@ -2,9 +2,9 @@
 title: 綁定 LINE 官方帳號與官網會員
 description: 透過 LINE Official Account、LINE Login 與 LIFF，完成官網會員與 LINE 帳號的綁定流程，以支援自動化通知與精準行銷應用。
 created: 2026-02-15 00:00
-last_modified: 2026-06-14 11:49
+last_modified: 2026-06-26 10:05
 lang: zh-TW
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/line/account-integration/bind-line-oa-store-members
 type: tutorial
 status: ""
 version: ""
@@ -53,7 +53,7 @@ prerequisites:
 related: []
 tags:
   - LINE
-  - LINE_OA
+  - LINE OA
   - 綁定
   - 會員
   - 官方帳號
@@ -116,7 +116,7 @@ hide: []
 
 - **效果**：尚未綁定的顧客點擊後會先進行綁定動作，已綁定的顧客則直接進入登入狀態的指定頁面。
 
-!!! info "詳細設定流程，請參閱 [LINE 圖文選單設定](setup-line-rich-menu.md){ data-preview }  或查看 [LINE 官方說明文件 :lucide-external-link:](https://tw.linebiz.com/manual/line-official-account/oa-manager-richmenu/)。"
+!!! info "詳細設定流程，請參閱 [LINE 圖文選單設定](../marketing/setup-line-rich-menu.md){ title="設定 LINE 圖文選單" }  或查看 [LINE 官方說明文件 :lucide-external-link:](https://tw.linebiz.com/manual/line-official-account/oa-manager-richmenu/)。"
 
 ![](../../../../assets/images/ec-第三方整合-line oa-圖文連結.png)
 
@@ -134,7 +134,7 @@ hide: []
 
 ---
 
-### 使用 LIFF 自動綁定 (推薦方式)
+### 使用 LIFF 自動綁定 <small>推薦方式</small>
 
 - **功能特色**：開啟後，消費者點選網址會自動套用 LINE 帳戶資訊。若顧客非好友或非會員，點選連結可 **同時加入好友、註冊官網會員並完成綁定**。
 
@@ -163,7 +163,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-bell-ring:{ .lg }  
-  [__自動發送提醒樣板__](../../notifications/manage-line-oa-templates.md){ data-preview }  
+  [__自動發送提醒樣板__](../../../notifications/manage-line-oa-templates.md){ title="設定與管理 LINE OA 通知樣板" }  
   自動回覆訂單確認、貨物發送、到店提醒及未付款提醒等訊息。
 
 - :lucide-ticket-percent:{ .lg }  
@@ -171,11 +171,11 @@ hide: []
   設定「LINE @ 綁定贈送優惠券功能」來增加顧客綁定意願。
 
 - :lucide-scan-barcode:{ .lg }  
-  [__顯示會員條碼 (OMO 應用)__](設定 LINE 圖文選單#omo-實體門市應用)    
+  [__顯示會員條碼 (OMO 應用)__](../marketing/setup-line-rich-menu.md#omo-實體門市應用){ title="設定 LINE 圖文選單" }    
   顧客可於 LINE 選單調出會員條碼，供實體門市 POS 機掃描進行紅利或優惠券折抵。
 
 - :lucide-user-round:{ .lg }  
-  [__受眾串接與推播__]()  
+  [__受眾串接與推播__](../marketing/setup-line-oa-audience.md){ title="設定 LINE OA 受眾串接" }  
   商家可在後台篩選「已完成 LINE 綁定」的會員，將受眾上傳至 LINE OA 後台進行精準行銷訊息發送。
 
 </div>

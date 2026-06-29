@@ -1,9 +1,8 @@
 ---
-
 title: 設定宅配通託運單
 description: 管理宅配通託運單指南，包含設定寄件人資訊、加印託運單、建立宅配通逆物流，以及查詢託運單號使用紀錄與 Cyber 幣扣款對帳。
 created: 2026-05-20 12:21
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-28 12:49
 lang: zh-TW
 type: tutorial
 status: ""
@@ -71,8 +70,7 @@ icon: lucide/bird
 hide: []
 ---
 
-
-![宅配通託運單頁面](../../assets/images/EC-金物流-宅配通託運單-hero.png){ .hero-page }
+![宅配通託運單頁面](../../assets/images/EC-金物流-宅配通託運單-hero.png){ title="宅配通託運單頁面" .hero-page }
 
 ## 功能介紹 { #intro-pelican-shipping-note }
 
@@ -83,7 +81,7 @@ hide: []
 * **宅配通逆物流**：建立退貨託運單，由宅配通到府收件並送回您的逆物流地址。
 * **轉單紀錄、單號使用紀錄**：查詢所有託運單號的扣費、狀態與對帳資訊。
 
-一般出貨流程(批次下載、單筆出貨、部分出貨、補印託運單)請見 [如何使用宅配通出貨](../orders/使用宅配通出貨.md)。
+一般出貨流程(批次下載、單筆出貨、部分出貨、補印託運單)請見 [如何使用宅配通出貨](../orders/home-delivery/pelican-shipping.md)。
 
 !!! info "提示"
     頁面最上方會顯示計費資訊：一般版商家會看到「目前 Cyber 幣餘額」；PLUS版 / 企業版商家則顯示對帳單說明文字。
@@ -98,13 +96,13 @@ hide: []
 4. **填寫逆物流地址：** 顧客退貨時包裹會送回此地址。若留空，逆物流會使用上方「寄件人地址」。
 5. **儲存設定：** 點擊 **「確認」** 按鈕，系統會顯示「已成功變更設定」。
 
-![宅配通設定](../../assets/images/EC-金物流-宅配通託運單-宅配通設定.png)
+![宅配通設定](../../assets/images/EC-金物流-宅配通託運單-宅配通設定.png){ title="宅配通設定" }
 
 !!! note "註釋"
     * 寄件人欄位皆為 **必填** (品名、名稱、電話、地址)，漏填會跳出錯誤訊息。
     * 此處的寄件人資料僅用於 **加印託運單** 與 **逆物流** ；從訂單列表批次下載託運單時，系統會使用「管理中心」>「一般設定」中設定的公司物流地址。
 
-## 加印託運單(同訂單多箱寄送) { #operate-pelican-shipping-note-add-print }
+## 加印託運單 <small>同訂單多箱寄送</small> { #operate-pelican-shipping-note-add-print }
 
 當一筆訂單需要拆成多個包裹寄送(例如商品太多裝不下一箱)，使用「加印託運單」可以為 **同一筆訂單建立額外的託運單號** ，每箱各貼一張。
 
@@ -116,16 +114,16 @@ hide: []
 6. **確認下載：** 點擊 **「確認下載」**，系統會跳出確認視窗，顯示將扣除的 Cyber 幣總額。
 7. **送出加印請求：** 點擊確認視窗中的 **「確認」**，系統會建立託運單號並產出 PDF 自動下載。
 
-![宅配通加印託運單](../../assets/images/EC-金物流-宅配通託運單-加印託運單.png)
+![宅配通加印託運單](../../assets/images/EC-金物流-宅配通託運單-加印託運單.png){ title="宅配通加印託運單" }
 
 !!! info "提示"
     * 加印託運單只會印出 **「純配送」** 託運單，即使原訂單為貨到付款，加印出來的單也不會帶代收款。
     * 若需要為貨到付款訂單拆箱寄送代收款，請聯繫 CYBERBIZ 客服協助處理。
-    * 加印 **必定** 產生新單號並扣費。若您只是印壞了想重印同一張單，請改用 [補印託運單][operate-pelican-reprint]{ data-preview } (從訂單列表操作，不會扣費)。
+    * 加印 **必定** 產生新單號並扣費。若您只是印壞了想重印同一張單，請改用 [補印託運單](../orders/home-delivery/pelican-shipping.md#operate-pelican-reprint){ title="使用宅配通出貨" } (從訂單列表操作，不會扣費)。
 
 [^1]: 例如分 3 箱寄送則選 3。
 
-## 建立宅配通逆物流(退貨) { #operate-pelican-shipping-reverse }
+## 建立宅配通逆物流 <small>退貨</small> { #operate-pelican-shipping-reverse }
 
 當顧客需要退貨，且您希望由宅配通到府收件時，可從這裡建立逆物流託運單。
 
@@ -138,12 +136,12 @@ hide: []
 7. **確認建立：** 點擊視窗中的 **「確認」**，資訊會直接送至宅配通端，**由宅配通端列印託運單** 並交給消費者。
 8. **等待退貨收回：** 順利收回退貨後，才會以實際包裹尺寸計算逆物流運費並完成扣費。
 
-![宅配通逆物流](../../assets/images/EC-金物流-宅配通託運單-宅配通逆物流.png)
+![宅配通逆物流](../../assets/images/EC-金物流-宅配通託運單-宅配通逆物流.png){ title="宅配通逆物流" }
 
 !!! note "註釋"
     * 建立逆物流時 **預扣** 的金額為「常溫 60cm」的基本費率，等同最低費用。
     * 託運單由宅配通端列印並交給顧客，商家後台 **不會** 直接拿到 PDF 。
-    * 退貨包裹會送至 [宅配通設定][configure-pelican-shipping-note-sender]{ data-preview } 中填寫的「逆物流地址」(留空時則送至寄件人地址)。
+    * 退貨包裹會送至 [宅配通設定](#configure-pelican-shipping-note-sender) 中填寫的「逆物流地址」(留空時則送至寄件人地址)。
 
 [^2]: 若留空，系統會自動帶入原訂單的配送地址。
 
@@ -155,7 +153,7 @@ hide: []
 
 顯示曾經啟用「轉單」機制的單號紀錄，作為對帳查詢用。
 
-![宅配通轉單紀錄](../../assets/images/EC-金物流-宅配通託運單-宅配通轉單紀錄.png)
+![宅配通轉單紀錄](../../assets/images/EC-金物流-宅配通託運單-宅配通轉單紀錄.png){ title="宅配通轉單紀錄" }
 
 ??? info-clean "欄位說明"
 
@@ -170,11 +168,11 @@ hide: []
 
 ---
 
-### 單號使用紀錄(正物流 / 逆物流) { #pelican-shipping-usage-records }
+### 單號使用紀錄 <small>正物流 / 逆物流</small> { #pelican-shipping-usage-records }
 
 「正物流」記錄出貨用單號，「逆物流」記錄退貨用單號，兩者欄位結構相同。
 
-![單號使用紀錄](../../assets/images/EC-金物流-宅配通託運單-單號使用紀錄.png)
+![單號使用紀錄](../../assets/images/EC-金物流-宅配通託運單-單號使用紀錄.png){ title="單號使用紀錄" }
 
 ??? info-clean "欄位說明"
 
@@ -198,15 +196,15 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-package:{ .lg }  
-  [__使用宅配通出貨__](../orders/使用宅配通出貨.md)  
+  [__使用宅配通出貨__](../orders/home-delivery/pelican-shipping.md)  
   批次下載託運單、單筆 / 部分出貨、補印託運單等日常出貨流程。
 
 - :lucide-undo-2:{ .lg }  
-  [__宅配逆物流__](宅配逆物流（黑貓宅配通新竹物流）.md)  
+  [__宅配逆物流__](#operate-pelican-shipping-reverse)  
   宅配逆物流的完整退貨處理流程，適用於已出貨訂單的退貨取件。
 
 - :lucide-wallet:{ .lg }  
-  [__Cyber 幣儲值__](../website-management/points-deposits.md){ title="Cyber 幣儲值中心使用指南" }  
+  [__Cyber 幣儲值__](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="Cyber 幣儲值中心使用指南" }  
   加印託運單會即時扣抵 Cyber 幣，餘額不足時請先至儲值中心儲值。
 
 </div>

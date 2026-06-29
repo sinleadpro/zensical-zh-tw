@@ -2,7 +2,7 @@
 title: 串接 LINE Messaging API
 description: 整合 LINE OA 與 CYBERBIZ 系統，實現自動化訂單通知、精準分眾行銷與即時商品關鍵字搜尋功能。
 created: 2026-02-09 00:00
-last_modified: 2026-06-14 11:46
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status:
@@ -23,8 +23,8 @@ difficulty: intermediate
 tnb: branch
 plans:
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -45,11 +45,11 @@ prerequisites:
   - 配置服務提供者 (Provider)
   - 取得頻道憑證 (Channel Credentials)
 related:
-  - ../../notifications/設定與管理 LINE OA 通知樣板.md
-  - 綁定 LINE 帳號與官網會員.md
+  - ../../../notifications/manage-line-oa-templates.md
+  - bind-line-oa-store-members.md
 tags:
   - LINE
-  - Messaging_API
+  - Messaging API
   - CYBERBIZ
   - 官方帳號
   - 聊天機器人
@@ -64,9 +64,9 @@ ui_components: []
 paths: []
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/support/?p=706
   - https://www.cyberbiz.io/helpcenter/?p=5855
-permalink:
+  - https://www.cyberbiz.io/support/?p=706
+permalink: https://help.cyberbiz.io/ec/integrations/line/account-integration/connect-line-messaging-api
 comments: false
 search:
   exclude: false
@@ -74,7 +74,7 @@ icon: lucide/webhook
 hide: []
 ---
 
-![](../../../../assets/images/ec-第三方整合-line oa.png){ .hero-page }
+![LINE OA串接](../../../../assets/images/ec-第三方整合-line oa.png){ title="LINE OA串接" .hero-page }
 
 ## 串接 LINE OA Messaging API 說明
 
@@ -96,17 +96,19 @@ hide: []
 ## 步驟一：建立與設定 LINE 官方帳號
 
 1. **建立 LINE 官方帳號** 前往 [LINE Official Account Manager](https://manager.line.biz/) 建立帳號。
-> **注意：**「國家/地區」務必選擇 **台灣**。
-2. **啟用 Messaging API** 在管理後台點選欲設定的帳號，進入後點擊右上角 **設定 > Messaging API > 啟用 Messaging API**。
-3. **配置服務提供者 (Provider)** 選擇既有的 Provider 或建立新項目。
-> :lucide-triangle-alert:  LINE Messaging API channel 與 Provider 綁定後便無法修改，請務必確認連動到正確的 Provider。
 
-    !!! info "什麼是服務提供者 (Provider)？" 
-		Provider 代表提供服務的品牌主體。若要確保「LINE 登入」與「Messaging API」的資料互通（例如同步會員 UID），兩者必須設定在 **同一個 Provider** 下。詳情參閱 [LINE 官方文件說明 :lucide-external-link:](https://tw.linebiz.com/manual/line-official-account/line-porvider-and-channel-intro/)。
+    !!! warning "注意：「國家/地區」務必選擇 **台灣**。"
+
+2. **啟用 Messaging API** 在管理後台點選欲設定的帳號，進入後點擊右上角 **設定 > Messaging API > 啟用 Messaging API**。
+3. **配置服務提供者 (Provider)** 選擇既有的 Provider[^provider] 或建立新項目。
+
+    !!! warning "LINE Messaging API channel 與 Provider 綁定後便無法修改，請務必確認連動到正確的 Provider。"
 
 4. **基本資料填寫：** 視需求填入官網的「隱私權政策」與「服務條款」網址。
 
-![](../../../../assets/images/ec-第三方整合-line-啟用 messaging api.gif)
+[^provider]: Provider 代表提供服務的品牌主體。若要確保「LINE 登入」與「Messaging API」的資料互通（例如同步會員 UID），兩者必須設定在 **同一個 Provider** 下。詳情參閱 [LINE 官方文件說明 :lucide-external-link:](https://tw.linebiz.com/manual/line-official-account/line-porvider-and-channel-intro/)。
+
+![啟用Messaging API](../../../../assets/images/ec-第三方整合-line-啟用 messaging api.gif){ title="啟用Messaging API" }
  
 ## 步驟二：取得串接金鑰並回填至 CYBERBIZ
 
@@ -118,7 +120,7 @@ hide: []
 
     - **Messaging API 頁籤：** 滑至頁面底部，於「Channel access token」欄位點擊 **Issue** 並複製產生的金鑰。
 
-	![](../../../../assets/images/ec-第三方整合-line-channel-credentials-get.gif)
+	![取得頻道憑證](../../../../assets/images/ec-第三方整合-line-channel-credentials-get.gif){ title="取得頻道憑證" }
  
 3. **回填至 CYBERBIZ 管理後台** 開啟 CYBERBIZ 後台，前往 **第三方整合 > LINE OA 設定**。
 
@@ -146,9 +148,9 @@ hide: []
 
     - **自動回應訊息：** 建議設為 **「停用」**，改由系統（如 CYBERBIZ 或客服系統）統一發送訊息，避免產生重疊回覆。
 
-![](../../../../assets/images/ec-第三方整合-line-webhook-copy-past-line-dev.gif)
+![設定Webhook連線](../../../../assets/images/ec-第三方整合-line-webhook-copy-past-line-dev.gif){ title="設定Webhook連線" }
 
-## 步驟四：進階功能應用（選擇性）
+## 步驟四：進階功能應用 <small>選擇性</small>
 
 完成基礎串接後，您可以根據品牌營運需求，進一步配置以下進階功能：
 
@@ -158,9 +160,11 @@ hide: []
 
 - **價值：** 縮短購物路徑，讓 LINE 官方帳號成為移動端的商品導購入口。
 
-![](../../../../assets/images/ec-第三方整合-line-商品查詢自動回覆.png)
+![LINE關鍵字搜尋商品](../../../../assets/images/ec-第三方整合-line-商品查詢自動回覆.png){ title="LINE關鍵字搜尋商品" }
 
-### 第三方系統資料轉拋 (Webhook Relay)
+---
+
+### 第三方系統資料轉拋 <small>Webhook Relay</small>
 
 - **功能說明：** 若您的 LINE OA 同時串接了其他第三方平台（如 **Omnichat**, **Smarter**, **Easychat**），可透過 CYBERBIZ 設定「轉拋系統」。
 
@@ -168,7 +172,7 @@ hide: []
 
  	- **限制：** 最多可設定 **5 組** 轉拋網址。
 
-![](../../../../assets/images/ec-第三方整合-line-webhook-replay.gif)
+![Webhook轉拋設定](../../../../assets/images/ec-第三方整合-line-webhook-replay.gif){ title="Webhook轉拋設定" }
 
 ### 自動化通知樣板
 
@@ -184,14 +188,14 @@ hide: []
 
 - **前提條件：** 消費者須先完成 **LINE 帳號綁定**，系統方能識別 UID 並發送個人化通知。
 
-操作說明請參閱 [**LINE OA 訊息樣板設定**](../../notifications/manage-line-oa-templates.md){ data-preview }  。
+操作說明請參閱 [**LINE OA 訊息樣板設定**](../../../notifications/manage-line-oa-templates.md){ title="設定與管理 LINE OA 通知樣板" }。
 
 ## 相關操作
 
 <div class="grid cards" markdown>
 
 - :lucide-layout-template:{ .lg }  
-  [**LINE OA 訊息](../../notifications/manage-line-oa-templates.md)樣板.md){ data-preview }    
+  [**LINE OA 訊息樣板**](../../../notifications/manage-line-oa-templates.md){ title="設定與管理 LINE OA 通知樣板" }  
   設定訂單、物流與顧客類自動通知樣板。
 
 - :lucide-link-2:{ .lg }  

@@ -1,9 +1,8 @@
 ---
-
 title: Meta 廣告每日預算設定指南
 description: 設定 Meta 廣告每日預算的指南，根據新手和有經驗商家提供不同的預算計算方式與調整策略。
 created: 2026-04-20 19:52
-last_modified: 2026-06-08 17:15
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: guide
 status: ""
@@ -62,15 +61,13 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8048
   - https://www.cyberbiz.io/support/?p=2166
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/meta-ad-daily-budget-guide
 comments: false
 search:
   exclude: false
 icon: lucide/coins
 hide: []
 ---
-
-
 
 ![Meta廣告-每日預算](../../../../assets/images/ec-第三方整合-fb-maa-每日預算設定.png){ .hero-page }
 
@@ -86,14 +83,14 @@ hide: []
 !!! info "提醒事項"
     在設定廣告前，請務必確認已完成 [廣告帳號建立與儲值](create-meta-ad-account-top-up.md){ title="建立 Meta 廣告帳號並完成儲值" }，且儲值金額需大於 15,000 TWD 方可開始投放。
 
-在 CYBERBIZ 後台設定「[高效速成行銷活動 (ASC) :lucide-external-link:](https://www.facebook.com/business/help/1362234537597370)」或一般廣告活動時，需注意以下預算門檻：
+在 CYBERBIZ 後台設定「[高效速成行銷活動 (ASC) :lucide-external-link:](https://zh-tw.facebook.com/business/help/1362234537597370)」或一般廣告活動時，需注意以下預算門檻：
 
 *   **流量廣告**：主要目的為導流，每日預算建議 **大於 150 TWD**。
 *   **銷售量廣告**：主要目的為提升轉換，每日預算建議 **大於 50 TWD**。
 *   **加速 AI 學習**：建議在學習階段初期（前 1-2 週）設定較高預算，目標是 **累積 30-50 次轉換**，讓系統快速收斂並找到 CPA 最低、ROAS 最高的受眾。
 *   **簡易推算技巧**：若完全無數據，可用 **「客單價的 30%」** 作為預估 CPA，再來回推每日預算。
 
-## 已投放過廣告的商家（已知平均 CPA）
+## 已投放過廣告的商家 <small>已知平均 CPA</small>
 
 如果您已有廣告經驗並了解您的 **平均獲客成本 (CPA)**，建議依據 Meta 最佳化所需數據來推算：
 
@@ -103,7 +100,7 @@ hide: []
 *   **調整策略**：建議初期從較低預算開始並逐步調升。為避免廣告重新進入「學習階段」，**每日調整幅度建議不超過 25%**。
 *   **監控優化**：定期檢查表現，將預算集中在高效能廣告，並停用表現不佳者。
 
-## 未投放過廣告的商家（新手）
+## 未投放過廣告的商家 <small>新手</small>
 
 若您是第一次投放，沒有過往 CPA 數據參考，可採以下步驟：
 

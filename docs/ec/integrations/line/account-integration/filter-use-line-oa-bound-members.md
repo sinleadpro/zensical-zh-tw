@@ -1,11 +1,10 @@
 ---
-
 title: 篩選與應用 LINE OA 綁定會員名單
 description: 使用會員篩選器找出 LINE OA 綁定會員，並匯出或用於行銷受眾。
 created: 2026-03-06 11:20
-last_modified: 2026-06-08 17:15
+last_modified: 2026-06-26 10:05
 lang: zh-TW
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/line/account-integration/filter-use-line-oa-bound-members
 type: tutorial
 status: ""
 version: ""
@@ -45,11 +44,11 @@ features:
 prerequisites: []
 related: []
 tags:
-  - LINE_綁定
+  - LINE 綁定
   - 會員篩選
   - 分眾行銷
   - 受眾打包
-  - LINE_OA_串接
+  - LINE OA 串接
   - 名單匯出
   - 會員標籤
 acoiv: operate
@@ -71,9 +70,7 @@ icon: lucide/user-check
 hide:
 ---
 
-
-![](../../../../assets/images/ec-會員-所有會員-篩選器-已完成line綁定.png){ .hero-page }
-
+![會員篩選器-已完成LINE綁定](../../../../assets/images/ec-會員-所有會員-篩選器-已完成line綁定.png){ .hero-page title="會員篩選器-已完成LINE綁定" }
 
 ## 篩選 LINE 綁定會員說明
 
@@ -90,7 +87,7 @@ hide:
     - 依據需求選擇 **是**（找出已綁定者）或 **否**（找出尚未綁定者）。
 4. **套用篩選**：點選 **套用** 後，下方列表即會顯示符合該條件的會員名單。
 
-![](../../../../assets/images/ec-會員-會員篩選器-已完成line綁定-操作.gif)
+![篩選已完成LINE綁定會員](../../../../assets/images/ec-會員-會員篩選器-已完成line綁定-操作.gif){ title="篩選已完成LINE綁定會員" }
 
 ## 名單匯出與應用
 
@@ -99,17 +96,17 @@ hide:
     - 閱讀注意事項並勾選同意，點擊 **同意匯出資料**。
     - 系統會將該份名單的 **Excel 檔** 寄送至指定的信箱中。
 
-	![](../../../../assets/images/ec-會員-所有會員-匯出.png)
+	![匯出會員名單](../../../../assets/images/ec-會員-所有會員-匯出.png){ title="匯出會員名單" }
 
 2. **打包 LINE 受眾 (企業版 / PLUS版 專用)**：
-    - 若您篩選的是「已綁定」的會員，可以在儲存該分群時，選擇將此包受眾 [**同步上傳至 LINE OA 後台**](setup-line-oa-audience.md){ data-preview }  ，用於精準的訊息推播或廣告投放。
+    - 若您篩選的是「已綁定」的會員，可以在儲存該分群時，選擇將此包受眾 [**同步上傳至 LINE OA 後台**](../marketing/setup-line-oa-audience.md){ title="設定 LINE OA 受眾串接" }  ，用於精準的訊息推播或廣告投放。
 
 ## 後續操作
 
 <div class="grid cards" markdown>
 
 - :lucide-user-round-plus:{ .lg }   
-  [__行銷應用__](../../notifications/send-line-friend-invitation.md)       
+  [__發送 LINE 加入好友邀請__](../../../notifications/send-line-friend-invitation.md){ title="發送 LINE 加入好友邀請" }       
   對於「未綁定」的會員，商家可以利用簡訊或 Email 發送「LINE OA 加入好友邀請」，並提供優惠券來提升綁定率。
 
 <!--

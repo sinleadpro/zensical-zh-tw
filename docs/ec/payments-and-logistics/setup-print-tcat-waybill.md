@@ -1,9 +1,8 @@
 ---
-
 title: 設定與加印黑貓託運單
 description: 管理黑貓宅急便託運單的完整指南，包含設定寄件人資訊、加印純配送託運單、建立黑貓逆物流退貨取件，以及查詢託運單號使用紀錄與 Cyber 幣扣款對帳。
 created: 2026-05-15 14:21
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-28 12:40
 lang: zh-TW
 type: tutorial
 status: ""
@@ -27,7 +26,7 @@ plans:
   - 專業
   - 進階
   - 高手
-  - 專業PLUS 
+  - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
@@ -47,7 +46,7 @@ prerequisites: []
 related:
   - "[[tcat-auto-call-driver]]"
   - "[[points-deposits]]"
-  - "[[宅配逆物流（黑貓宅配通新竹物流）]]"
+  - "[[order-return-process]]"
 tags:
   - EC
   - 金物流
@@ -75,9 +74,7 @@ icon: lucide/cat
 hide: []
 ---
 
-
-
-![黑貓託運單設定頁](../../assets/images/EC-金物流-黑貓託運單-hero.png){ .hero-page }
+![黑貓託運單設定頁](../../assets/images/EC-金物流-黑貓託運單-hero.png){ title="黑貓託運單設定頁" .hero-page }
 
 ## 黑貓託運單說明 { #intro-ezcat-shipping-note }
 
@@ -92,7 +89,7 @@ hide: []
 * **建立黑貓逆物流**：由黑貓上門至顧客處收件並寄回您指定的逆物流地址。
 
 !!! info "提示"
-    此頁僅適用於 **黑貓宅急便(宅配)** 託運單。如需操作 **黑貓快速到店(常溫 / 冷藏 / 冷凍)** 託運單，請改至「[黑貓快速到店託運單](setup-print-tcat-quick-store-waybill.md){ title="設定與加印黑貓快速到店託運單" }」頁面。
+    此頁僅適用於 **黑貓宅急便(宅配)** 託運單。如需操作 **黑貓快速到店(常溫 / 冷藏 / 冷凍)** 託運單，請改至「[黑貓快速到店託運單](setup-print-tcat-quick-store-waybill.md){ title="設定與加印黑貓快速到店託運單" data-preview }」頁面。
 
 ## 頁面區塊總覽 { #ezcat-shipping-note-overview }
 
@@ -107,19 +104,17 @@ hide: []
 
 !!! plan "方案 / 加值功能"
     * **黑貓宅配**：需店家方案內含「黑貓宅配」功能；若入口未顯示，請聯繫您的 CYBERBIZ 業務窗口確認方案開通狀態。
-    * **[呼叫黑貓](../orders/home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }** (加值功能)：啟用後，加印託運單時可選擇「呼叫黑貓」，由黑貓司機自動到府取件；未開通則需自行交件。
+    * **[呼叫黑貓](../orders/home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" data-preview }** (加值功能)：啟用後，加印託運單時可選擇「呼叫黑貓」，由黑貓司機自動到府取件；未開通則需自行交件。
 
 ## 計費規則 { #ezcat-shipping-note-billing }
 
 黑貓託運單採 **Cyber 幣預扣** 制，於列印或建立逆物流時即時扣抵。詳細費率、尺寸規格與額外費用，請參閱 [**黑貓宅配託運單規格與費用對照表**](references/tcat-delivery-rate-card.md){ title="黑貓宅配託運單規格與費用對照表" data-preview }。
 
-??? info "頁面最上方計費資訊"
+!!! info "頁面最上方計費資訊"
     頁面頂端會依您的方案顯示對應的計費資訊：
 
     * **一般版**：看到「目前 Cyber 幣餘額」與藍色數字餘額。
     * **PLUS版 / 企業版**：顯示對帳單說明文字，請依對帳單週期結算。
-
----
 
 ## 設定寄件人資訊 { #configure-ezcat-shipping-note-sender-setup }
 
@@ -135,10 +130,10 @@ hide: []
 6. **填寫逆物流地址**：在「逆物流地址」欄位輸入退貨包裹的收件地址。可與寄件地址相同，也可分開設定。
 7. **儲存設定**：點擊 **確認** 按鈕。畫面跳出「已成功變更設定」即代表完成。
 
-![寄件人資訊](../../assets/images/EC-金物流-黑貓託運單-寄件人資訊.png)
+![寄件人資訊](../../assets/images/EC-金物流-黑貓託運單-寄件人資訊.png){ title="寄件人資訊" }
 
 !!! note "註釋"
-    「[呼叫黑貓](../orders/home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }」加值功能啟用時，寄件人地址會作為 **黑貓司機到府取件的地址** ，寄件人電話會作為 **黑貓與您聯絡的電話** 。
+    「[呼叫黑貓](../orders/home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" data-preview }」加值功能啟用時，寄件人地址會作為 **黑貓司機到府取件的地址** ，寄件人電話會作為 **黑貓與您聯絡的電話** 。
 
 [^1]: 寄件人名稱不得含特殊符號；若儲存時提示「收件人名稱...」錯誤訊息，請依提示移除無效字元後再試。
 [^5]: 例如「網購商品」。
@@ -179,7 +174,7 @@ hide: []
 9. **取得託運單 PDF**：系統會自動下載託運單 PDF，並向黑貓索取一組全新單號（每張加印託運單為獨立新單號[^6]）。
 10. **列印**：使用 **黑貓三聯空白託運單貼紙** 列印 PDF，並交由黑貓司機或自行送至營業所。
 
-![加印託運單](../../assets/images/EC-金物流-黑貓託運單-加印託運單.png)
+![加印託運單](../../assets/images/EC-金物流-黑貓託運單-加印託運單.png){ title="加印託運單" }
 
 !!! tip "系統會依您 **上一次加印** 的規格，自動預選下拉選單；若同一店家經常列印同一規格，可省下重複操作。"
 
@@ -214,9 +209,9 @@ hide: []
 5. **勾選同意條款**：勾選「我同意 CYBERBIZ 與黑貓的物流條款」核取方塊。
 6. **點擊確認送出**：點擊 **確認送出** 按鈕，系統會彈出確認視窗，顯示「將會扣除最低費用 **常溫 60cm** Cyber 幣[^2]」字樣。
 7. **再次確認**：於確認視窗點擊 **確認** ，系統將資訊送至黑貓並等待回覆。
-8. **完成**：成功後畫面會顯示扣抵 Cyber 幣金額與剩餘餘額，該筆紀錄會出現在下方「[單號使用紀錄(逆物流)][ezcat-shipping-note-usage-records]」表格中。
+8. **完成**：成功後畫面會顯示扣抵 Cyber 幣金額與剩餘餘額，該筆紀錄會出現在下方「[單號使用紀錄(逆物流)](#ezcat-shipping-note-usage-records)」表格中。
 
-![黑貓逆物流](../../assets/images/EC-金物流-黑貓託運單-黑貓逆物流.png)
+![黑貓逆物流](../../assets/images/EC-金物流-黑貓託運單-黑貓逆物流.png){ title="黑貓逆物流" }
 
 !!! info "提示"
     系統送出後，**黑貓會直接列印託運單給消費者** ，您與消費者皆不需印單。
@@ -225,7 +220,7 @@ hide: []
 
 ## 查詢紀錄與對帳 { #ezcat-shipping-note-records }
 
-頁面下方提供三份歷史紀錄表，所有資料皆可使用右上角搜尋框關鍵字過濾，點擊欄位標題可切換排序。有關運費計算與繁盛期加收等細節，請參閱 [**費率對照表**](references/tcat-delivery-rate-card.md){ title="黑貓宅配託運單規格與費用對照表" data-preview }。
+頁面下方提供三份歷史紀錄表，所有資料皆可使用右上角搜尋框關鍵字過濾，點擊欄位標題可切換排序。有關運費計算與繁盛期加收等細節，請參閱 [黑貓宅配託運單規格與費用對照表](references/tcat-delivery-rate-card.md){ title="黑貓宅配託運單規格與費用對照表" data-preview }。
 
 ### 黑貓轉單紀錄 { #ezcat-shipping-note-transfer-records }
 
@@ -234,7 +229,7 @@ hide: []
 
 呈現過去系統將「未使用之黑貓單號」自動沿用至新訂單的歷史紀錄，作為對帳查詢用。
 
-![黑貓轉單紀錄](../../assets/images/EC-金物流-黑貓託運單-黑貓轉單紀錄.png)
+![黑貓轉單紀錄](../../assets/images/EC-金物流-黑貓託運單-黑貓轉單紀錄.png){ title="黑貓轉單紀錄" }
 
 ??? info-clean "欄位說明"
     | 欄位 | 說明 |
@@ -247,11 +242,11 @@ hide: []
 
 ---
 
-### 單號使用紀錄(正物流 / 逆物流) { #ezcat-shipping-note-usage-records }
+### 單號使用紀錄 <small>正物流 / 逆物流</small> { #ezcat-shipping-note-usage-records }
 
 「正物流」記錄出貨用單號，「逆物流」記錄退貨用單號，兩者欄位相同。
 
-![單號使用紀錄-正物流](../../assets/images/EC-金物流-黑貓託運單-單號使用紀錄-正物流.png)
+![單號使用紀錄-正物流](../../assets/images/EC-金物流-黑貓託運單-單號使用紀錄-正物流.png){ title="單號使用紀錄-正物流" }
 
 ??? info-clean "欄位說明"
     | 欄位 | 說明 |
@@ -268,27 +263,23 @@ hide: []
 
 
 !!! note "註釋"
-    「客戶選定 Cyber 幣額度」與「確認扣除 Cyber 幣額度」差值會發生於 [額外費用][ezcat-shipping-note-surcharge] 情境(溫層誤標 +50、繁盛期 +10 等)。
+    「客戶選定 Cyber 幣額度」與「確認扣除 Cyber 幣額度」差值會發生於 [額外費用](references/tcat-delivery-rate-card.md#tcat-extra-fees){ title="額外費用說明" } 情境(溫層誤標 +50、繁盛期 +10 等)。
 
 ## 後續操作
 
 <div class="grid cards" markdown>
 
-- :lucide-cog:{ .lg }  
-  [__自動呼叫黑貓司機取件__](../orders/home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }  
+- :lucide-bell:{ .lg }  
+  [__自動呼叫黑貓司機取件__](../orders/home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" data-preview }  
   啟用加值功能後，加印託運單時可選擇由黑貓司機自動到府取件，不需自行交件。
 
 - :lucide-wallet:{ .lg }  
-  [__Cyber 幣儲值__](../website-management/points-deposits.md){ title="Cyber 幣儲值中心使用指南" }  
+  [__Cyber 幣儲值__](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="如何儲值 Cyber 幣" }  
   加印託運單會即時扣抵 Cyber 幣，餘額不足時系統將擋下操作，請先至儲值中心儲值。
 
 - :lucide-package:{ .lg }  
-  [__宅配逆物流__](宅配逆物流（黑貓宅配通新竹物流）.md)  
+  [__訂單退貨流程__](../orders/order-return-process.md){ title="訂單退貨流程" }  
   黑貓逆物流的完整退貨處理流程，適用於已出貨訂單的退貨取件。
-
-- :lucide-table:{ .lg }  
-  [__黑貓費率對照表__](references/tcat-delivery-rate-card.md){ title="黑貓宅配託運單規格與費用對照表" data-preview }  
-  查詢黑貓宅急便各尺寸材積費率與繁盛期加收規範。
 
 </div>
 
@@ -313,10 +304,10 @@ hide: []
 
     訂單的配送方式不是 **黑貓宅急便** 或 **黑貓貨到付款** 。例如訂單原本走超商、自訂出貨、快速到貨等，皆無法在此頁加印黑貓單。
 
-??? quote "顯示「Cyber 幣不足，請至儲值中心進行儲值」"
+??? quote "顯示「Cyber幣不足，請至儲值中心進行儲值」"
     [](){ #faq-ezcat-points-insufficient }
 
-     您的 Cyber 幣餘額小於「每張費用 × 加印張數」。請至 **後台面板 > 儲值中心** 完成[儲值](../website-management/CYBER%20幣儲值中心使用指南.md){ data-preview }後再回此頁操作。頁面上方藍色數字即為目前餘額。
+     您的 Cyber 幣餘額小於「每張費用 × 加印張數」。請至 **後台面板 > 儲值中心** 完成[儲值](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="如何儲值 Cyber 幣" data-preview }後再回此頁操作。頁面上方藍色數字即為目前餘額。
 
 ??? quote "為什麼貨到付款訂單加印後變成「純配送」?"
     [](){ #faq-ezcat-cod-not-supported }
@@ -357,43 +348,9 @@ hide: []
 
     加印託運單頁面本身沒有「自動呼叫司機」選項。若您希望黑貓司機到府收取這些包裹，請擇一處理：
 
-    * 同一天在「訂單列表」對任一筆當日要出貨的訂單啟用 [自動呼叫黑貓司機取件](../orders/home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }；司機到場後會一併收走當天所有待寄包裹（含加印的部分），不需逐張綁定託運單。
+    * 同一天在「訂單列表」對任一筆當日要出貨的訂單啟用 [自動呼叫黑貓司機取件](../orders/home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" data-preview }；司機到場後會一併收走當天所有待寄包裹（含加印的部分），不需逐張綁定託運單。
     * 自行致電黑貓客服安排取件，或將包裹送至黑貓營業所交件。
 
 ## 參考資料 { #ezcat-shipping-note-references }
 
-### 費用對照表 { #reference-ezcat-fee-table}
-
-本對照表列出 **黑貓宅急便(宅配)** 託運單各規格的 Cyber 幣扣抵金額，供商家估算列印成本參考。實際扣抵以後台「選擇貨品大小」下拉選單顯示為準。
-
-=== "一般版"
-
-    商家未與 CYBERBIZ 簽訂客製費率合約時適用。
-
-    | 材積 | 常溫 | 低溫(冷藏／冷凍) | 繁盛期 加收[^4] | 帳務處理費(若適用)[^3] |
-    | :-- | --: | --: | --: | --: |
-    | 60cm | 95 | 160 | +10 | +50 |
-    | 90cm | 130 | 215 | +10 | +50 |
-    | 120cm | 180 | 290 | +10 | +50 |
-    | 150cm | 220 | — | +10 | +50 |
-
-=== "PLUS版 / 企業版"
-
-    訂閱 CYBERBIZ **專業PLUS版**、**進階 PLUS版**、**高手 PLUS版**、**企業版** 方案的商家適用。
-
-    | 材積 | 常溫 本島 | 常溫 離島 | 低溫 本島 | 低溫 離島 | 繁盛期 加收[^4] | 帳務處理費(若適用)[^3] |
-    | :-- | --: | --: | --: | --: | --: | --: |
-    | 60cm | 90 | 225 | 160 | 265 | +10 | +50 |
-    | 90cm | 124 | 285 | 215 | 345 | +10 | +50 |
-    | 120cm | 171 | 325 | 290 | 405 | +10 | +50 |
-    | 150cm | 209 | 365 | — | — | +10 | +50 |
-
-!!! note "註釋"
-    * 金額均為 **Cyber 幣**，且 **含稅**。
-    * **無單邊長限制**；**重量限制 20kg 內**。
-    * 若遇特殊材積、貨品內容、特殊寄送地點(例如離島、偏遠地區)等，應依物流商之特殊規定計價收費；詳細資訊以黑貓公告訊息為準。
-    * 若您的店家與 CYBERBIZ 已協議客製費率，系統會自動套用，實際扣抵以後台下拉選單顯示為準。
-    * **促銷期間** 部分尺寸會有優惠價，下拉選單會額外標示促銷訊息；系統會自動以優惠價扣抵。
-
-[^4]: **物流繁盛期**(端午、中秋、春節)加收繁盛期服務費 **10 Cyber 幣**。
-[^3]: 列印託運單時若實際寄送溫層與標示不符(常溫單寄低溫，或低溫單寄常溫)，每張加收 **50 Cyber 幣** 作為帳務處理費。
+- [黑貓宅配託運單規格與費用對照表](references/tcat-delivery-rate-card.md){ title="黑貓宅配託運單規格與費用對照表" }

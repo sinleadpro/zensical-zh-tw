@@ -2,7 +2,7 @@
 title: API 與 Webhook 串接指南
 description: 了解如何透過 API 與 Webhook 服務串接外部系統（如 ERP、CRM），實現自動化數據同步與即時通知。
 created: 2026-06-11 14:45
-last_modified: 2026-06-12 14:40
+last_modified: 2026-06-27 13:40
 lang: zh-TW
 type: guide
 status: ""
@@ -25,9 +25,9 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans: 
-  - 專業 PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents: 
@@ -58,12 +58,12 @@ paths:
   - APP MARKET > 我的擴充服務 > 自訂
   - 管理中心 > 網站權限
 layouts: []
-wp_url: 
-  - https://www.cyberbiz.io/helpcenter/?p=8544
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7875
+  - https://www.cyberbiz.io/helpcenter/?p=8544
   - https://www.cyberbiz.io/support/?p=20739
   - https://www.cyberbiz.io/support/?p=40162
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/app-market/api-and-webhook-integration-guide
 search:
   exclude: false
 icon: lucide/code-2

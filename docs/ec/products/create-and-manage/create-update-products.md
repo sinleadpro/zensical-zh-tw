@@ -2,7 +2,7 @@
 title: 新增與更新商品
 description: 完成一支商品從新增、設定款式與價格、撰寫商品描述，到後續編輯、複製、上下架，以及多國語系與跨境銷售的相關設定。
 created: 2026-03-08 17:15
-last_modified: 2026-06-14 14:33
+last_modified: 2026-06-28 23:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -51,8 +51,8 @@ features:
   - 物流材積計算
 prerequisites: []
 related:
-  - "[[Excel 大量匯入商品]]"
-  - "[[編輯商品描述與商品設定]]"
+  - "[[excel-import-products]]"
+  - "[[edit-product-description-settings]]"
   - "[[setup-product-videos]]"
   - "[[setup-back-in-stock-notifications]]"
 tags:
@@ -85,8 +85,7 @@ icon: lucide/package-plus
 hide: []
 ---
 
-
-![](../../../assets/images/ec-create-new-product.zh-tw.png){ title="新增商品： 商品 > 所有商品 > 新增商品" .hero-page }
+![新增商品介紹](../../../assets/images/ec-create-new-product.zh-tw.png){ title="新增商品： 商品 > 所有商品 > 新增商品" .hero-page }
 
 ## 新增商品介紹 { #intro-product }
 
@@ -96,13 +95,13 @@ hide: []
 - **商品描述：** 商品介紹、規格描述、運送方式等說明性內容。
 - **設定：** 進階設定(出貨方式、溫層、標籤、課稅類別、商品群組)與 SEO。
 
-![商品編輯頁-分頁](../../../assets/images/ec-商品-所有商品-編輯頁-分頁.png)
+![商品編輯頁-分頁](../../../assets/images/ec-商品-所有商品-編輯頁-分頁.png){ title="商品編輯頁-分頁" }
 
 !!! info "提示"
     **商品描述** 與 **設定** 分頁只會在商品 **儲存後** 才出現。新增商品時請先填妥「商品資訊」並儲存，系統會進入編輯模式，上方才會展開其餘分頁。
 
 ??? tip "大量新增或更新商品？"
-    若需一次建立或修改大量商品，可改用 Excel 批次匯入，毋需逐筆手動操作。詳見 [大量匯入商品](../bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }。
+    若需一次建立或修改大量商品，可改用 Excel 批次匯入，毋需逐筆手動操作。詳見 [大量匯入商品](../bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }。
 
 ---
 
@@ -139,9 +138,9 @@ hide: []
 2. **設定商品網址：** 商品頁的網址路徑，建議使用英文，有利於 SEO 與後續的成效分析。
 3. **填寫商品標語與簡述：** 顯示在商品名稱附近的特色或促銷短句，以及商品的簡短描述（[客製說明](edit-product-slogan-and-description.md){ title="編輯商品簡述與商品標語" }）。
 4. **設定上架狀態：** 設定 **上架時間** 與 **下架時間**；兩者皆留空代表立即上架、永不下架[^status]。
-5. **設定商品搜尋：** 決定商品是否能被站內搜尋找到。設為[排除搜尋](../discoverability/設定商品搜尋可見性.md){ title="設定商品搜尋可見性" }後，顧客仍可透過 商品連結 進入購買。
+5. **設定商品搜尋：** 決定商品是否能被站內搜尋找到。設為[排除搜尋](../discoverability/product-search-visibility.md){ title="設定商品搜尋可見性" }後，顧客仍可透過 商品連結 進入購買。
 
-![商品基本設定](../../../assets/images/ec-商品-基本設定.png)
+![商品基本設定](../../../assets/images/ec-商品-基本設定.png){ title="商品基本設定" }
 
 [^status]: 各上架與公開狀態的意義請見 [商品狀態對照表](../references/product-statuses.md){ title="商品狀態對照表" }。
 
@@ -154,7 +153,7 @@ hide: []
 1. **上傳圖片：** 點擊 **「上傳圖片」**，或直接將檔案拖拉至上傳區。
 2. **留意圖片規格：** 建議尺寸為 1000x1000px，可接受 JPG / PNG / JPEG / GIF。單張建議不超過 2 MB，前台載入較快。
 
-![設定商品圖片](../../../assets/images/ec-商品-商品圖片-上傳.png)
+![設定商品圖片](../../../assets/images/ec-商品-商品圖片-上傳.png){ title="設定商品圖片" }
 
 ??? info "跨通路投放提醒：Google 購物廣告（GMC）"
     [](){ #gmc-picture-specs }
@@ -172,10 +171,10 @@ hide: []
         <div class="grid" markdown>
 
         :lucide-check: 符合規範
-        ![GMC 無浮水印](../../../assets/images/ec-gmc-without-watermark.png){ .screenshot }
+        ![GMC 無浮水印](../../../assets/images/ec-gmc-without-watermark.png){ title="GMC 無浮水印" .screenshot }
 
         :lucide-x: 不符合規範
-        ![GMC 有浮水印](../../../assets/images/ec-gmc-with-watermark.png){ .screenshot }
+        ![GMC 有浮水印](../../../assets/images/ec-gmc-with-watermark.png){ title="GMC 有浮水印" .screenshot }
 
         </div>
 
@@ -191,14 +190,14 @@ hide: []
 - **建立單一款式商品：** 商品沒有其他規格時使用（例：筆筒、收納袋）。
 - **建立多款式商品：** 商品有多種規格時使用（例：顏色、尺寸）。
 
-![款式管理建立方式選擇](../../../assets/images/ec-product-variants-choice.zh-tw.png)
+![款式管理建立方式選擇](../../../assets/images/ec-product-variants-choice.zh-tw.png){ title="款式管理建立方式選擇" }
 
 建立 **多款式商品** 時：
 
 1. **編輯商品規格：** 點擊 **「編輯商品規格」**，新增規格（如「顏色」）與規格項目（如「紅」、「藍」）。
 2. **留意規格上限：** 單一商品最多 3 種規格，每種規格至少需有 1 個項目，且同一規格內的項目不可重複。
 
-![編輯商品規格](../../../assets/images/ec-product-variants-setup-specs.zh-tw.png)
+![編輯商品規格](../../../assets/images/ec-product-variants-setup-specs.zh-tw.png){ title="編輯商品規格" }
 
 每個款式可設定以下欄位：
 
@@ -208,12 +207,12 @@ hide: []
 - **商品編號(SKU)：** 商品的內部料號，結帳與庫存皆以此識別[^sku]。
 - **重量(KG)、材積(CM)：** 結帳時系統依物流設定的運費級距計算運費（材積為加值功能）。
 
-![款式欄位詳細設定](../../../assets/images/ec-product-variants-fields.zh-tw.png)
+![款式欄位詳細設定](../../../assets/images/ec-product-variants-fields.zh-tw.png){ title="款式欄位詳細設定" }
 
 ??? tip "技巧：批次套用款式"
     建立多款式商品後，可一次套用相同設定到多個款式。在款式區上方選擇 **編輯價格、編輯庫存、編輯材積 重量** 等，勾選要套用的款式並輸入數值後點擊 **「套用」**。輸入欄留空則不影響原款式內容。
 
-    ![款式批次編輯操作](../../../assets/images/ec-multiple-variants-product-batch-edit.zh-tw.png)
+    ![款式批次編輯操作](../../../assets/images/ec-multiple-variants-product-batch-edit.zh-tw.png){ title="款式批次編輯操作" }
 
 [^sku]: 不同方案對商品 SKU 總數有上限；若新增時提示已達上限，代表方案的商品數量已用罄。
 
@@ -229,7 +228,7 @@ hide: []
     - **停止銷售：** 一般商品建議選此，避免超賣。若需配合使用 [**商品到貨通知**](../engagement/setup-back-in-stock-notifications.md){ title="設定商品到貨通知" }，亦須選擇此項。
     - **繼續銷售：** 開放預購時選此。
 
-![管理庫存設定](../../../assets/images/ec-inventory-stop-selling.zh-tw.png)
+![管理庫存設定](../../../assets/images/ec-inventory-stop-selling.zh-tw.png){ title="管理庫存設定" }
 
 填妥商品資訊後，點擊左下角 **「儲存」**。儲存成功後系統進入編輯模式，上方會展開 **商品描述** 與 **設定** 分頁，可繼續補充內容。
 
@@ -243,7 +242,7 @@ hide: []
 2. **進入編輯：** 點擊商品名稱即進入商品編輯頁，上方可切換 **商品資訊、商品描述、設定** 分頁。
 3. **修改後儲存：** 調整任一分頁內容後，點擊左下角 **「儲存」** 即更新。
 
-![商品編輯頁總覽](../../../assets/images/ec-edit-product.zh-tw.png)
+![商品編輯頁總覽](../../../assets/images/ec-edit-product.zh-tw.png){ title="商品編輯頁總覽" }
 
 ---
 
@@ -257,7 +256,7 @@ hide: []
 
 填寫完成後點擊 **「儲存」**。
 
-![編輯商品描述](../../../assets/images/ec-product-description.zh-tw.png)
+![編輯商品描述](../../../assets/images/ec-product-description.zh-tw.png){ title="編輯商品描述" }
 
 ---
 
@@ -272,7 +271,7 @@ hide: []
 - **SEO 設定：** 依商品特性填寫，有助於提升搜尋引擎排名。
 - **商品關聯群組：** 選擇既有的 [**商品自訂分類**](../categories-and-tags/custom-collections.md){ title="設定商品自訂分類群組" } 或 [**商品條件分類**](../categories-and-tags/smart-collections.md){ title="設定商品條件分類群組" }，設定後該群組商品會顯示在商品頁下方的相關商品區。
 
-![商品進階設定](../../../assets/images/ec-product-settings.zh-tw.png)
+![商品進階設定](../../../assets/images/ec-product-settings.zh-tw.png){ title="商品進階設定" }
 
 [^warehouse]: 可選的出貨倉庫依已開通的物流加值功能動態顯示，詳見 [出貨方式對照表](../references/product-warehouse.md){ title="出貨方式對照表" }。
 [^temperature]: 溫層為加值功能，各溫層意義詳見 [運送溫層對照表](../references/product-temperature.md){ title="運送溫層對照表" }。
@@ -288,7 +287,7 @@ hide: []
 3. **前往該商品：** 開啟前台的實際商品頁，確認顧客看到的呈現。
 4. **刪除商品：** 將商品自後台移除，刪除後無法復原，請謹慎操作。
 
-![商品管理動作快捷鍵](../../../assets/images/ec-product-edit-page-shortcuts.zh-tw.png)
+![商品管理動作快捷鍵](../../../assets/images/ec-product-edit-page-shortcuts.zh-tw.png){ title="商品管理動作快捷鍵" }
 
 [^copy-sku]: 複製時會跳出「編輯商品編號(SKU)」視窗，因每個款式 SKU 不可重複，須先填妥新 SKU 才能完成複製。
 
@@ -308,11 +307,11 @@ hide: []
 1. **以主要語言填妥商品：** 先選定一個主要語言，依一般流程輸入商品名稱、價格、款式、圖片等內容，並點擊 **「儲存」**。
 2. **切換語言：** 在標題右側的語言選單點選要編輯的語言。若有尚未儲存的變更，系統會先提示請您儲存[^lang-save]。
 
-    ![切換語言選單](../../../assets/images/ec-商品-編輯商品-語言選單.png)
+    ![切換語言選單](../../../assets/images/ec-商品-編輯商品-語言選單.png){ title="切換語言選單" }
 
 3. **輸入翻譯內容：** 切換語言後，於文字類欄位填入該語言的翻譯(商品描述分頁的內容也需逐語言填寫)。
 
-    ![編輯不同語言內容](../../../assets/images/ec-商品-編輯商品-編輯不同預言內容.png)
+    ![編輯不同語言內容](../../../assets/images/ec-商品-編輯商品-編輯不同預言內容.png){ title="編輯不同語言內容" }
 
 4. **儲存並切換下一語言：** 點擊 **「儲存」**，再重複上述步驟完成其他語言。
 
@@ -358,7 +357,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <div class="grid cards" markdown>
 
 - :lucide-file-spreadsheet:{ .lg }  
-  [__大量匯入商品__](../bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }   
+  [__大量匯入商品__](../bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }   
   以 Excel 一次新增或更新大量商品與款式。
 
 - :lucide-tags:{ .lg }  
@@ -366,7 +365,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
   為不同 VIP 群組設定專屬售價。
 
 - :lucide-languages:{ .lg }  
-  [__設定前台多國語言與多幣別__](../../website-management/設定多國語言與多幣別.md){ title="設定前台多國語言與多幣別" }  
+  [__設定前台多國語言與多幣別__](../../website-management/setup-multi-language-and-multi-currency.md){ title="設定前台多國語言與多幣別" }  
   建立多語系官網與在地幣別顯示。
 
 - :lucide-search:{ .lg }  
@@ -381,7 +380,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 
 ??? quote "商品很多，要一支一支建立嗎？"
     [](){ #faq-product-bulk-import }
-    不需要。商品數量多時，建議使用 **Excel 批次匯入** 一次建立或更新，詳見 [大量匯入商品](../bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }。
+    不需要。商品數量多時，建議使用 **Excel 批次匯入** 一次建立或更新，詳見 [大量匯入商品](../bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }。
 
 ??? quote "為什麼設定了售價，前台卻顯示「須設定」或無法購買？"
     [](){ #faq-product-no-price }
@@ -421,7 +420,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!-- 建立並設定單一商品的基本資訊、圖片、影片與款式，上架商品。 -->
 <!-- { .subtitle } -->
 <!---->
-<!-- ![](../../../assets/images/ec-create-new-product.zh-tw.png){ title="新增商品： 商品 > 所有商品 > 新增商品" .hero-page } -->
+<!-- ![新增商品介紹](../../../assets/images/ec-create-new-product.zh-tw.png){ title="新增商品： 商品 > 所有商品 > 新增商品" .hero-page } -->
 <!---->
 <!-- ## 新增與更新商品說明 { #overview } -->
 <!---->
@@ -458,7 +457,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!-- | **上架狀態** | 設定商品的有效銷售時間區間（排程設定）。 | 若未填寫則為「永久上架」。<br>**注意：** 若當前時間不在區間內，前台將顯示 404 頁面。 | -->
 <!-- | **搜尋功能** | 決定商品是否可被站內搜尋或搜尋引擎（如 Google）找到。 | 關閉後，商品僅能透過 **商品連結** 直接進入。 | -->
 <!---->
-<!-- ![商品基本設定](../../../assets/images/ec-商品-基本設定.png) -->
+<!-- ![商品基本設定](../../../assets/images/ec-商品-基本設定.png){ title="商品基本設定" } -->
 <!---->
 <!-- --- -->
 <!---->
@@ -488,14 +487,14 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!--         <div class="grid" markdown> -->
 <!---->
 <!--         :lucide-check: 符合規範 -->
-<!--         ![GMC 無浮水印](../../../assets/images/ec-gmc-without-watermark.png){ .screenshot } -->
+<!--         ![GMC 無浮水印](../../../assets/images/ec-gmc-without-watermark.png){ title="GMC 無浮水印" .screenshot } -->
 <!---->
 <!--         :lucide-x: 不符合規範 -->
-<!--         ![GMC 有浮水印](../../../assets/images/ec-gmc-with-watermark.png){ .screenshot } -->
+<!--         ![GMC 有浮水印](../../../assets/images/ec-gmc-with-watermark.png){ title="GMC 有浮水印" .screenshot } -->
 <!---->
 <!--         </div> -->
 <!---->
-<!-- ![設定商品圖片](../../../assets/images/ec-商品-商品圖片-上傳.png) -->
+<!-- ![設定商品圖片](../../../assets/images/ec-商品-商品圖片-上傳.png){ title="設定商品圖片" } -->
 <!---->
 <!-- --- -->
 <!---->
@@ -542,7 +541,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!---->
 <!-- 請留意 **哪些欄位需逐語言翻譯、哪些欄位是所有語言共用** 的： -->
 <!---->
-<!-- - **需逐語言翻譯：** 商品名稱、商品標語、商品簡述、商品規格、規格項目，以及商品描述頁的內容（於 [編輯商品描述與商品設定](編輯商品描述與商品設定.md){ title="編輯商品描述與商品設定" } 另述）。 -->
+<!-- - **需逐語言翻譯：** 商品名稱、商品標語、商品簡述、商品規格、規格項目，以及商品描述頁的內容（於 [編輯商品描述與商品設定](edit-product-description-settings.md){ title="編輯商品描述與商品設定" } 另述）。 -->
 <!-- - **所有語言共用：** 價格、款式、SKU、庫存、商品圖片、分類與標籤。這些只需設定一次，切換語言不會改變。 -->
 <!---->
 <!-- 操作方式： -->
@@ -564,7 +563,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!---->
 <!--     1. 進入「商品」>「所有商品」，勾選欲修改的品項，點選 **「匯出商品」**。 -->
 <!--     2. 開啟下載的 Excel，在對應欄位輸入欲修改的資訊（如描述、通路、溫層或配送方式）。 -->
-<!--     3. 進入 **「Excel 大量匯入商品」** 頁面，上傳編輯後的檔案。詳見 [Excel 大量匯入商品](../bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }。 -->
+<!--     3. 進入 **「Excel 大量匯入商品」** 頁面，上傳編輯後的檔案。詳見 [Excel 大量匯入商品](../bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }。 -->
 <!---->
 <!-- === ":lucide-receipt-text: 訂單內商品編輯" -->
 <!---->
@@ -577,7 +576,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!-- - **新增商品：** 使用後台提供的「下載 Excel 範本」，其隱藏的 **A 欄（商品 ID）與 B 欄（款式 ID）為空值**。上傳後系統會判定為建立全新商品。 -->
 <!-- - **更新商品：** 必須先從「商品列表」**匯出既有商品**，匯出的表格中 **A、B 欄會帶有系統產生的 ID 數值**。上傳此檔案後，系統會比對 ID 並覆蓋（更新）原有商品內容。 -->
 <!---->
-<!-- 完整說明請見 [Excel 大量匯入商品](../bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }。 -->
+<!-- 完整說明請見 [Excel 大量匯入商品](../bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }。 -->
 <!---->
 <!-- ## 重要注意事項與提醒 { #notes } -->
 <!---->
@@ -591,13 +590,13 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!-- <div class="grid cards" markdown> -->
 <!---->
 <!-- - :lucide-import:{ .lg }    -->
-<!--   [__新增大量商品__](../bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }    -->
+<!--   [__新增大量商品__](../bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }    -->
 <!--   透過 Excel 批量匯入商品，批次上架商品。 -->
 <!-- - :lucide-boxes:{ .lg }    -->
-<!--   [__新增組合商品__](新增與設定組合商品.md#新增組合商品){ title="新增與設定組合商品" }   -->
+<!--   [__新增組合商品__](create-and-setup-combo-products.md#新增組合商品){ title="新增與設定組合商品" }   -->
 <!--   建立指定或任選組合商品。 -->
 <!-- - :lucide-edit-3:{ .lg }    -->
-<!--   [__編輯商品描述與設定__](編輯商品描述與商品設定.md){ title="編輯商品描述與商品設定" }    -->
+<!--   [__編輯商品描述與設定__](edit-product-description-settings.md){ title="編輯商品描述與商品設定" }    -->
 <!--   編輯商品描述及設定頁籤資訊。 -->
 <!-- - :lucide-bell:{ .lg } ](../engagement/setup-back-in-stock-notifications.md)./engagement/設定商品到貨通知.md){ title="設定商品到貨通知" }   -->
 <!--   設定到貨通知，通知顧客追蹤商品已補貨。 -->
@@ -605,7 +604,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!--   [__批次修改商品資訊__](../bulk-operations/batch-update-product-descriptions-shipping.md){ title="批次修改商品描述與配送設定" }   -->
 <!--   批次更新多筆商品的資訊與設定。 -->
 <!-- - :lucide-search-x:{ .lg }    -->
-<!--   [__設定商品排除搜尋__](../discoverability/設定商品搜尋可見性.md){ title="設定商品搜尋可見性" }    -->
+<!--](../discoverability/product-search-visibility.md)ty/設定商品搜尋可見性.md){ title="設定商品搜尋可見性" }    -->
 <!--   設定商品不在特定搜尋結果中顯示。 -->
 <!---->
 <!-- </div> -->
@@ -629,7 +628,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!-- 建立並設定單一商品的基本資訊、圖片、影片與款式，上架商品。 -->
 <!-- { .subtitle } -->
 <!---->
-<!-- ![](../../../assets/images/ec-create-new-product.zh-tw.png){ title="新增商品： 商品 > 所有商品 > 新增商品" .hero-page } -->
+<!-- ![新增商品介紹](../../../assets/images/ec-create-new-product.zh-tw.png){ title="新增商品： 商品 > 所有商品 > 新增商品" .hero-page } -->
 <!---->
 <!---->
 <!-- ## 新增與更新商品說明 -->
@@ -667,7 +666,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!--     - **預設值**：若未設定，則為「永久上架」。 -->
 <!-- *   **搜尋功能**：決定商品是否可被站內搜尋或 Google 搜尋引擎找到。關閉後，商品僅能透過商品頁面的直接連結進入。 -->
 <!---->
-<!-- ![商品基本設定](../../../assets/images/ec-商品-基本設定.png) -->
+<!-- ![商品基本設定](../../../assets/images/ec-商品-基本設定.png){ title="商品基本設定" } -->
 <!---->
 <!-- [^*]: 英文網址在搜尋引擎 (SEO) 權重較高，且能避免在數據分析報表中出現語意不明的亂碼。 -->
 <!---->
@@ -699,14 +698,14 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!--         <div class="grid" markdown> -->
 <!---->
 <!--         :lucide-check: 符合規範 -->
-<!--         ![GMC 無浮水印](../../../assets/images/ec-gmc-without-watermark.png){ .screenshot } -->
+<!--         ![GMC 無浮水印](../../../assets/images/ec-gmc-without-watermark.png){ title="GMC 無浮水印" .screenshot } -->
 <!---->
 <!--         :lucide-x: 不符合規範 -->
-<!--         ![GMC 有浮水印](../../../assets/images/ec-gmc-with-watermark.png){ .screenshot } -->
+<!--         ![GMC 有浮水印](../../../assets/images/ec-gmc-with-watermark.png){ title="GMC 有浮水印" .screenshot } -->
 <!---->
 <!--         </div> -->
 <!---->
-<!-- ![設定商品圖片](../../../assets/images/ec-商品-商品圖片-上傳.png) -->
+<!-- ![設定商品圖片](../../../assets/images/ec-商品-商品圖片-上傳.png){ title="設定商品圖片" } -->
 <!---->
 <!-- --- -->
 <!---->
@@ -759,7 +758,7 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!---->
 <!--     1. 進入「商品」>「所有商品」，勾選欲修改的品項，點選 **「匯出商品」**。 -->
 <!--     2. 開啟下載的 Excel，在對應欄位輸入欲修改的資訊（如描述、通路、溫層或配送方式）。 -->
-<!--     3. 進入 **「Excel 大量匯入商品」** 頁面，上傳編輯後的檔案。詳見 [Excel 大量匯入商品](../bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }。 -->
+<!--     3. 進入 **「Excel 大量匯入商品」** 頁面，上傳編輯後的檔案。詳見 [Excel 大量匯入商品](../bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }。 -->
 <!---->
 <!-- === ":lucide-receipt-text: 訂單內商品編輯" -->
 <!---->
@@ -786,21 +785,20 @@ CYBERBIZ 沒有獨立的「跨境商品」類型，跨境銷售所需的設定 *
 <!-- <div class="grid cards" markdown> -->
 <!---->
 <!-- - :lucide-import:{ .lg }    -->
-<!--   [__新增大量商品__](../bulk-operations/Excel 大量匯入商品.md){ title="Excel 大量匯入商品" }    -->
+<!--   [__新增大量商品__](../bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }    -->
 <!--   透過 Excel 批量匯入商品，批次上架商品。 -->
 <!-- - :lucide-boxes:{ .lg }    -->
-<!--   [__新增組合商品__](新增與設定組合商品.md#新增組合商品){ title="新增與設定組合商品" }   -->
+<!--   [__新增組合商品__](create-and-setup-combo-products.md#新增組合商品){ title="新增與設定組合商品" }   -->
 <!--   建立指定或任選組合商品。 -->
 <!-- - :lucide-edit-3:{ .lg }    -->
-<!--   [__編輯商品描述與設定__](編輯商品描述與商品設定.md){ title="編輯商品描述與商品設定" }    -->
+<!--   [__編輯商品描述與設定__](edit-product-description-settings.md){ title="編輯商品描述與商品設定" }    -->
 <!--   編輯商品描述及設定頁籤資訊。 -->
 <!-- - :lucide-bell:{ .lg }    -->
 <!--   [__商品到貨通知__](../engagement/設定商品到貨通知.md){ title="設定商品到貨通知" }   -->
 <!--   設定到貨通知，通知顧客追蹤商品已補貨。 -->
 <!-- - :lucide-check-square:{ .lg }    -->
 <!--   批次更新多筆商品的資訊與設定。 -->
-<!-- - :lucide-search-x:{ .lg }    -->
-<!--   [__設定商品排除搜尋__](../discoverability/設定商品搜尋可見性.md){ title="設定商品搜尋可見性" }    -->
+<!-- - :lucide-search-x:{ .](../discoverability/product-search-visibility.md)../discoverability/設定商品搜尋可見性.md){ title="設定商品搜尋可見性" }    -->
 <!--   設定商品不在特定搜尋結果中顯示。 -->
 <!---->
 <!-- </div> -->

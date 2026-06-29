@@ -2,7 +2,7 @@
 title: 安裝 Meta Ads App
 description: 透過 CYBERBIZ 管理後台安裝 Meta Ads App。
 created: 2026-04-20 15:30
-last_modified: 2026-06-14 11:35
+last_modified: 2026-06-27 13:40
 lang: zh-TW
 type: tutorial
 status: ""
@@ -21,8 +21,15 @@ sites:
 audiences:
   - admin
 difficulty: ""
-tnb: ""
-plans: []
+tnb: trunk
+plans:
+  - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions:
   - APP MARKET
 intents:
@@ -37,7 +44,6 @@ prerequisites:
 related:
   - "[[setup-meta-ad-campaign]]"
 tags:
-  - EC
   - Meta Ads
   - Facebook
   - Instagram
@@ -56,7 +62,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11972
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/app-market/install-meta-ads-app
 comments: ""
 search:
   exclude: ""
@@ -92,7 +98,7 @@ hide: []
     ![安裝MetaAdsApp](../../assets/images/ec-app-market-meta-ads-app-安裝.png)
 
 4.  **確認授權**：系統會導向確認頁面，請閱讀並 **同意相關隱私條款**，最後點擊 **「確認安裝」**。
-5.  **完成安裝**：安裝完成後，可透過上述後台路徑點擊 **立即前往** 進入 Meta Ads App 介面，開始 [創建廣告活動](../integrations/fb/meta-ads/setup-meta-ad-campaign.md#創建廣告活動步驟){ title="設定 Meta 廣告活動" }](../integrations/fb/meta-ads/setup-meta-ad-campaign.md#廣告創意與商品組合設定)創意與商品組合設定){ title="設定 Meta 廣告活動" }。
+5.  **完成安裝**：安裝完成後，可透過上述後台路徑點擊 **立即前往** 進入 Meta Ads App 介面，開始 [創建廣告活動](../integrations/fb/meta-ads/setup-meta-ad-campaign.md#創建廣告活動流程){ title="設定 Meta 廣告活動" }。
 
     ![前往MetaAdsApp](../../assets/images/ec-第三方整合-fb-廣告活動設定-前往meta-ads-app.png)
 
@@ -100,7 +106,8 @@ hide: []
 
 <div class="grid cards" markdown>
 
-- :lucide-megaphone:{ .lg ](../integrations/fb/meta-ads/setup-meta-ad-campaign.md)ads/設定 Meta 廣告活動.md){ title="設定 Meta 廣告活動" }  
+- :lucide-megaphone:{ .lg }   
+  [__設定 Meta 廣告活動__](../integrations/fb/meta-ads/setup-meta-ad-campaign.md){ title="設定 Meta 廣告活動" }  
   透過 Meta Ads App 設定廣告活動，直接在 EC 後台管理廣告預算、目標與素材。
 
 - :lucide-shopping-basket:{ .lg }   

@@ -2,7 +2,7 @@
 title: 設定商品多層級分類
 description: 建立多層級商品分類（最多三層），整理群組、支援行銷活動與導覽列設定。
 created: 2026-01-13 00:00
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-29 13:08
 lang: zh-TW
 type: tutorial
 status:
@@ -27,8 +27,8 @@ difficulty: intermediate
 tnb: branch
 plans:
   - 專業PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -61,7 +61,7 @@ ui_components: []
 paths:
   - 商品 > 商品多層級分類
 layouts:
-  - draggable
+  - 拖拉版型
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9204
   - https://www.cyberbiz.io/support/?p=43450
@@ -78,11 +78,11 @@ hide: []
 建立多層級商品分類（最多三層），整理群組、支援行銷活動與導覽列設定。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](conventions.md#適用方案) | 專業PLUS / 進階 PLUS / 高手 PLUS / 企業  
-[:lucide-bolt:{ title="適用功能" }](conventions.md#適用功能) |  拖拉版型
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions.md#適用方案) | 專業PLUS / 進階 PLUS / 高手 PLUS / 企業  
+[:lucide-bolt:{ title="適用功能" }](../../../resources/conventions.md#適用功能) |  拖拉版型
 { .doc-badge }
 
-![](../../../assets/images/ec-product-multi-level-product-cateogry-hero.zh-tw.png){ .hero-page }
+![商品多層級分類設定](../../../assets/images/ec-product-multi-level-product-cateogry-hero.zh-tw.png){ title="商品多層級分類設定" .hero-page }
 
 ## 商品多層級分類說明
 
@@ -152,18 +152,18 @@ hide: []
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 商品多層級分類**。
 2. 點選 **新增類別**，於新增分類頁面輸入 **類別標題**、**類別連結**。
 
-	![](../../../assets/images/ec-product-multi-level-product-cateogories-add-category.zh-tw.png)
+	![新增類別頁面](../../../assets/images/ec-product-multi-level-product-cateogories-add-category.zh-tw.png){ title="新增類別頁面" }
 
 3. 在大類別下，點選 **新增**。
 	- 新增類別選項：選擇 **小類別**，輸入 **類別標題**、**類別連結**。
 	- 群組類型可選擇「商品自訂分類」、「商品條件分類」、「商品類型」，點選後往下選擇指定群組。
-	> :lucide-info: 小類別即為商品分類群組。相關設定請參閱 [設定自訂分類群組](custom-collections.md){ title="設定商品自訂分類群組" }、[smart-collections](smart-collections.md){ title="設定商品條件分類群組" }、[商品類型](../create-and-manage/編輯商品描述與商品設定.md#進階設定){ title="編輯商品描述與商品設定" }。
+	> :lucide-info: 小類別即為商品分類群組。相關設定請參閱 [設定自訂分類群組](custom-collections.md){ title="設定商品自訂分類群組" }、[smart-collections](smart-collections.md){ title="設定商品條件分類群組" }、[商品類型](../create-and-manage/edit-product-description-settings.md#進階設定){ title="編輯商品描述與商品設定" }。
 
-	![](../../../assets/images/ec-multi-level-product-cateogry-collection.zh-tw.png)
+	![新增小類別設定](../../../assets/images/ec-multi-level-product-cateogry-collection.zh-tw.png){ title="新增小類別設定" }
 
 4. 設定完成畫面
 
-	![](../../../assets/images/ec-multi-level-product-two-layers.zh-tw.png)
+	![雙層結構完成畫面](../../../assets/images/ec-multi-level-product-two-layers.zh-tw.png){ title="雙層結構完成畫面" }
 
 5. 點擊 :lucide-grip-vertical: 可用拖拉的方式，變更分類排序或將中分類移動到其他大分類下。
    > :lucide-triangle-alert: 小分類無法移動到其他中分類下，請在中分類下直接新增小分類即可。
@@ -192,23 +192,23 @@ hide: []
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 商品多層級分類**。
 2. 點選 **新增類別**，於新增分類頁面輸入 **類別標題**、**類別連結**。
 	
-	![](../../../assets/images/ec-product-multi-level-product-cateogories-add-category.zh-tw.png)
+	![新增類別頁面](../../../assets/images/ec-product-multi-level-product-cateogories-add-category.zh-tw.png){ title="新增類別頁面" }
 
 3. 在大類別下，點選 **新增**。
 	- 「新增類別選項」：選擇 **類別**，輸入「類別標題」、「類別連結」。
 
-	![](../../../assets/images/ec-multi-level-product-category-collection.zh-tw.png)
+	![新增中類別設定](../../../assets/images/ec-multi-level-product-category-collection.zh-tw.png){ title="新增中類別設定" }
 
 4. 在中類別下，點選「新增」。
 	- 新增類別選項：選擇 **小類別**，輸入 **類別標題**、**類別連結**。
 	- 群組類型可選擇「商品自訂分類」、「商品條件分類」、「商品類型」，點選後往下選擇指定群組。
-	> :lucide-info: 小類別即為商品分類群組。相關設定請參閱 [](custom-collections.md)分類群組.md)、[smart-collections](smart-collections.md){ title="設定商品條件分類群組" }、[商品類型](../create-and-manage/編輯商品描述與商品設定.md#進階設定){ title="編輯商品描述與商品設定" }。
+	> :lucide-info: 小類別即為商品分類群組。相關設定請參閱 [設定自訂分類群組](custom-collections.md){ title="設定商品自訂分類群組" }、[smart-collections](smart-collections.md){ title="設定商品條件分類群組" }、[商品類型](../create-and-manage/edit-product-description-settings.md#進階設定){ title="編輯商品描述與商品設定" }。
 	
-	![](../../../assets/images/ec-multi-level-product-cateogry-collection.zh-tw.png)
+	![新增小類別設定](../../../assets/images/ec-multi-level-product-cateogry-collection.zh-tw.png){ title="新增小類別設定" }
 
 5. 設定完成畫面
 
-	![](../../../assets/images/ec-multi-level-product-cateogry-three-layers.zh-tw.png)
+	![三層結構完成畫面](../../../assets/images/ec-multi-level-product-cateogry-three-layers.zh-tw.png){ title="三層結構完成畫面" }
 	
 6. 點擊 :lucide-grip-vertical: 可用拖拉的方式，變更分類排序或將中分類移動到其他大分類下。
    > :lucide-triangle-alert: 小分類無法移動到其他中分類下，請在中分類下直接新增小分類即可。
@@ -218,10 +218,10 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-menu:{ .lg }  
-  [__選單/導覽列設定__](#)   
+  [__選單/導覽列設定__](../../../ec/website-appearance/navigation/setup-menus-navigation.md){ title="設定選單與導覽列" }   
   將多層級分類綁定導覽列，提升購物流程與體驗。
 - :lucide-layers:{ .lg }   
-  [__多層級分類滿額折扣__](multi-level-category-discount.md)     
+  [__多層級分類滿額折扣__](../../../ec/marketing/discounts/multi-level-category-discount.md){ title="設定商品多層級分類滿額折扣" }     
   設定分類層級滿額折扣，自動套用至符合條件的商品。
 - :material-point-of-sale:{ .lg }  
   [__POS 前台選單設定__](https://www.cyberbiz.io/support/?p=11224)  

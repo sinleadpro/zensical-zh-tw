@@ -1,9 +1,8 @@
 ---
-
 title: 設定商品影片
 description: 上傳並管理商品影片，提升前台商品頁及彈窗的視覺吸引力，並支援 Meta 目錄型廣告同步。
 created: 2026-03-08 17:10
-last_modified: 2026-06-13 23:44
+last_modified: 2026-06-29 10:52
 lang: zh-TW
 type: tutorial
 status:
@@ -75,8 +74,7 @@ icon: lucide/play
 hide:
 ---
 
-
-![](../../../assets/images/ec-product-video.zh-tw.png){ title="設定商品影片：商品 > 所有商品 > 商品名稱 > 商品影片" .hero-page }
+![設定商品影片](../../../assets/images/ec-product-video.zh-tw.png){ title="設定商品影片：商品 > 所有商品 > 商品名稱 > 商品影片" .hero-page }
 
 ## 商品影片適用範圍
 
@@ -116,7 +114,7 @@ hide:
 	1. 登入 CYBERBIZ 管理後台，前往 **商品 > 所有商品 > 新增商品**。
 	2. 在商品影片區塊點擊 **上傳** 按鈕，選擇本機影片檔案。
 	3. 確認影片與商品資訊無誤後，點擊 **儲存**，系統將處理影片上傳，請耐心等待完成。
-	4. 上傳後的影片可在[媒體庫](#媒體庫影片管理)統一管理。
+	4. 上傳後的影片可在[媒體庫影片管理](#媒體庫影片管理)統一管理。
 
 === "為既有商品新增影片"
 
@@ -124,7 +122,6 @@ hide:
 	2. 在商品列表中，點擊欲編輯的商品名稱，進入商品編輯頁面。
 	3. 在商品影片區塊點擊 **上傳** 按鈕，選擇本機影片檔案；若已有上傳過影片，可直接點擊 **從媒體庫選擇影片**。
 	4. 確認影片正確後，點擊 **儲存**，系統將處理影片上傳，請耐心等待完成。
-
 
 ## 影片彈窗顯示設定
 
@@ -135,23 +132,23 @@ hide:
 	- `置於商品圖片之前`：影片會在商品圖片之前播放。    
 	- `置於商品圖片之後`：影片會在商品圖片之後播放。
 
-![](../../../assets/images/ec-product-video-display.zh-tw.gif)
-
+![影片彈窗顯示](../../../assets/images/ec-product-video-display.zh-tw.gif){ title="影片彈窗顯示" }
 
 ## 媒體庫影片管理
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 媒體庫**。
 2. 集中管理所有影片檔案，可進行 **搜尋影片 :lucide-search:**、**刪除影片 :lucide-trash-2:**，及 **上傳影片** 操作。
-> 影片上傳後，編輯商品頁面時可選擇 **從媒體庫選擇影片**，直接為商品新增影片。
 
-![](../../../assets/images/ec-product-media-gallery.zh-tw.png)
+![媒體庫影片管理](../../../assets/images/ec-product-media-gallery.zh-tw.png){ title="媒體庫影片管理" }
+
+!!! tip "影片上傳後，編輯商品頁面時可選擇 **從媒體庫選擇影片**，直接為商品新增影片。"
 
 ## 後續操作
 
 <div class="grid cards" markdown>
 
 - :lucide-video:{ .lg }   
-  [__投放 Meta 目錄型廣告__](#)     
+  [__同步商品影片至 Meta 目錄__](../../integrations/fb/meta-ads/sync-product-videos-meta-catalog.md){ title="同步商品影片至 Meta 目錄" }     
   將影片同步至 Meta 目錄並建立目錄型廣告
 
 </div>

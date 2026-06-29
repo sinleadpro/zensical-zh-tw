@@ -12,39 +12,39 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: 
+products:
   - EC
-modules: 
+modules:
   - APP MARKET
-sites: 
+sites:
   - TW
-audiences: 
+audiences:
   - admin
 difficulty: intermediate
 tnb: branch
-plans: 
-  - 專業 PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+plans:
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
-cyb_extensions: 
+cyb_extensions:
   - CHAT BOX
-intents: 
+intents:
   - 啟用_AI_客服助手
   - 建立客服知識庫
   - AI_自動回覆建議
   - 提升客服效率
-features: 
+features:
   - Chat_Box
   - AI_建議回覆
   - 知識庫管理
-prerequisites: 
+prerequisites:
   - "[[Chat Box 訊息通]]"
-related: 
+related:
   - "[[Chat Box 串接第三方平台 (LINE•Meta)]]"
   - "[[LINE 訊息格式規範]]"
   - "[[Meta 訊息格式規範]]"
-tags: 
+tags:
   - AI
   - 客服助手
   - 自動回覆
@@ -52,16 +52,16 @@ tags:
   - 知識庫
 acoiv: operation
 apis: []
-devices: 
+devices:
   - desktop
-ui_components: 
+ui_components:
   - AI 中心
   - 上傳文件
   - AI 建議回覆按鈕
-paths: 
+paths:
   - APP MARKET > ChatBox
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12968
   - https://www.cyberbiz.io/support/?p=53089
 permalink: ""

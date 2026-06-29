@@ -1,9 +1,8 @@
 ---
-
 title: 使用 UTM 參數追蹤行銷流量與分析成效
 description: 使用 UTM 參數標記行銷連結，追蹤流量來源並在 GA4 中分析各渠道成效。
 created: 2026-03-25 19:22
-last_modified: 2026-06-08 17:15
+last_modified: 2026-06-26 10:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -63,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5156
   - https://www.cyberbiz.io/support/?p=6434
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/integrations/google/utm-parameter-tracking-guide
 comments: false
 search:
   exclude: false
@@ -71,10 +70,7 @@ icon: lucide/snail
 hide: []
 ---
 
-
-
 ![G4A 流量開發](../../../assets/images/ec-第三方整合-google-ga4-流量開發.png){ .hero-page }
-
 
 ## 什麼是 UTM
 
@@ -93,7 +89,7 @@ hide: []
 | `utm_term` | - | 多用於付費搜尋廣告中的關鍵字標記 | `跑步鞋`、`iPhone15` |
 | `utm_content` | - | 用於 A/B 測試<br>區分同一活動中不同的素材或連結位置 | `banner1`、`textlink_a` |
 
-## UTM 設定工具：Campaign URL Builder
+## UTM 設定工具 <small>Campaign URL Builder</small>
 
 您可以使用 Google 官方提供的 [**Campaign URL Builder** :lucide-external-link:](https://ga-dev-tools.google/campaign-url-builder/) 快速生成連結：
 
@@ -133,15 +129,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-hand-coins:{ .lg }  
-  [__分潤/推薦連結__]()  
+  [__分潤/推薦連結__](../../profit-sharing/referral-link-applications.md){ title="推薦碼連結的應用" }  
   若需在帶有推薦碼的網址（即包含 `?rcode=...`）手動添加 UTM，必須在 rcode 後方以「**&**」隔開參數。
 
-- :lucide-smartphone:{ .lg }  
-  [__APP 導購連結__]()  
-  在後台設定 APP 自訂導購時，「廣告名稱」會自動成為 GA_UTM 的活動名稱。
-
 - :lucide-file-spreadsheet:{ .lg }  
-  [__訂單報表匯出 (企業版專用)__](../../orders/export-order-report.md#步驟一選擇報表欄位){ data-preview }  
+  [__訂單報表匯出__](../../orders/reports/export-order-report.md#步驟一選擇報表欄位){ title="匯出訂單報表" }  
   後台「訂單報表匯出」支援選取 UTM 相關欄位（如來源、媒介、活動名稱等），方便商家直接下載 Excel 進行線下分析。
 
 </div>

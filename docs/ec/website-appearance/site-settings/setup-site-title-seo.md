@@ -117,7 +117,7 @@ hide:
 - **後台路徑**：登入 CYBERBIZ 管理後台，前往 **管理中心 > 一般設定 > 網站名**。
 - **設定規範**：中文字請勿超過 15 字，英文字請勿超過 30 字。此名稱預設為您網址中的英文字串，建議修改為品牌名稱或公司名稱以利消費者辨識。
 
-!!! note "詳細設定流程，請參考 [如何設定網站名稱](../../website-management/setup-store-basic-info.md#關於您的網站){ title="設定網站基本資訊" }。"
+!!! note "詳細設定流程，請參考 [如何設定網站名稱](../../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="設定網站基本資訊" }。"
 
 ## 修改「網站標題」<small>依版型設定</small>
 

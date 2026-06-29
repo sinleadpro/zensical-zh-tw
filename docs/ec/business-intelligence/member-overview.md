@@ -2,7 +2,7 @@
 title: 會員總覽
 description: 從性別、年齡、註冊來源到會員等級描繪會員輪廓，協助調整商品文案、廣告受眾與會員制度。
 created: 2026-06-16
-last_modified: 2026-06-22 10:38
+last_modified: 2026-06-25 16:08
 lang: zh-TW
 type: tutorial
 status: ""
@@ -52,7 +52,6 @@ tags:
   - 註冊來源
   - 會員等級
   - 銷售狀況
-  - 企業版
 acoiv: operation
 apis: []
 devices:

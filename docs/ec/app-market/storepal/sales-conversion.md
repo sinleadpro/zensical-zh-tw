@@ -2,7 +2,7 @@
 title: 導購轉化
 description: 運用資產核銷、推薦商品連結與手動紀錄門市消費，直接促成現場成交並確保業績精準歸因。
 created: 2026-05-05 11:15
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-27 13:40
 lang: zh-TW
 type: tutorial
 status: ""
@@ -27,9 +27,9 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 專業 PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -70,9 +70,8 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=41868
-  - https://www.cyberbiz.io/support/?p=41889
   - https://www.cyberbiz.io/support/?p=41923
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/app-market/storepal/sales-conversion
 comments: false
 search:
   exclude: false
