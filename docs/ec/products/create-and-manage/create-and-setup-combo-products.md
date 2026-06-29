@@ -2,7 +2,7 @@
 title: 新增與設定組合商品
 description: 建立指定或任選組合商品，設定子商品內容、價格、庫存與銷售規則。
 created: 2026-01-08 00:00
-last_modified: 2026-06-29 00:33
+last_modified: 2026-06-29 10:07
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/products/create-and-manage/create-and-setup-combo-products
 type: guide
@@ -147,7 +147,7 @@ hide: []
 
 ## 子商品庫存管理
 
-組合商品是否可供購買（庫存是否足夠），取決於其 子商品 的庫存數量及設定。若其中任一子商品庫存不足，且該子商品庫存不足時設定為 *停止銷售*，則該組合商品將無法購買。進一步瞭解[商品庫存相關設定](create-update-products.md#operate-product-create-inventory){ title="新增與更新商品" }。
+組合商品是否可供購買（庫存是否足夠），取決於其 子商品 的庫存數量及設定。若其中任一子商品庫存不足，且該子商品庫存不足時設定為 **停止銷售**，則該組合商品將無法購買。進一步瞭解[商品庫存相關設定](create-update-products.md#operate-product-create-inventory){ title="新增與更新商品" }。
 
 !!! info "子商品下架或停止販售的處理方式"  
 	- 組合商品內的子商品 **上架狀態** 可為 _下架_ 或 _不公開_。
@@ -207,10 +207,13 @@ hide: []
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 組合商品**。
 2. 點擊 **新增組合商品**。
 
+![組合商品管理頁面](../../../assets/images/ec-product-combo-add-page.zh-tw.png)
+
+---
 
 ### 步驟 2：編輯組合商品資訊
 
-在編輯頁面中設定組合商品的](create-update-products.md#operate-product-create-basic)t-create-basic){ title="新增與更新商品" }。
+在編輯頁面中設定組合商品的[基本設定](create-update-products.md#operate-product-create-basic){ title="新增與更新商品" }。
 
 #### 基本設定
 
@@ -220,26 +223,33 @@ hide: []
 - **商品簡述**：建議 1–3 句，避免冗長段落。顯示於商品頁的簡短描述。
 - **上架狀態**：設定商品上架與下架時間，未填寫表示商品永久上架；非上架時間將顯示 404。
 
+![編輯組合商品基本設定](../../../assets/images/ec-product-combo-basic-settings.zh-tw.png)
+
 !!! tip "建議說明組合商品內容物"  
 	為避免消費者誤解商品內容，建議在 **商品簡述** 或 **商品標語** 中清楚列出組合商品所包含的子商品與數量。
 
-#### 前台顯示範例
+??? info-clean "前台顯示範例"
 
-!!! quote inline end ""
-	- 商品名稱：超划算組合品
-	- 商品簡述：  
-	  商品包含   
-	  蛋糕*1   
-	  窗簾*1   
-	  被子*1
-	- 商品標語：超級划算的組合商品
+    - 商品名稱：超划算組合品
+    - 商品簡述：  
+      商品包含   
+      蛋糕*1   
+      窗簾*1   
+      被子*1
+    - 商品標語：超級划算的組合商品
 
-!!! quote ""
-	![組合商品前台顯示](../../../assets/images/ec-product-combo-basic-setting-frontend.zh-tw.png){ title="組合商品前台顯示" }
+    !!! quote ""
+      ![組合商品前台顯示](../../../assets/images/ec-product-combo-basic-setting-frontend.zh-tw.png){ title="組合商品前台顯示" }
+
+---
 
 #### 組合商品圖片
 
 建議上傳包含組合商品內容物的圖片，以清晰呈現商品組合。
+
+![組合商品圖片上傳](../../../assets/images/ec-product-combo-image.zh-tw.png)
+
+---
 
 ### 步驟 3：設定組合商品內容
 
@@ -247,41 +257,37 @@ hide: []
 
 - **指定組合商品**：商品固定，顧客無法變更。
 - **任選組合商品**：消費者可從預設清單中選擇子商品，只要達到 **任選組合總數** 即可。
+
+![組合商品類型](../../../assets/images/ec-product-combo-types.zh-tw.png)
     
 !!! warning "組合商品建立後，組合類型不可修改"
+
+---
 
 #### 指定組合商品設定
 
 1. 選取 **指定組合商品**。 
-2. 在 **組合商品內容** 區塊搜尋欲加入的商品。
+2. 點擊 **選擇商品**，在彈窗中搜尋欲加入的商品。
 3. 勾選欲加入的商品。
-4. 點擊 **將商品加入組合商品**。
-5. 編輯各商品設定：
-    
-    - **指定購買數**：子商品數量，例如：A 商品 × N 個    
-    - **組合商品定價**：原始價格    
-    - **組合商品售價**：實際銷售價格，若低於定價，前台會顯示優惠價格    
-    - **紅利折抵**：此組合商品可折抵的紅利上限
+4. 點擊 **確定** 將商品加入組合商品。
 
-![指定組合數量設定](../../../assets/images/ec-product-combo-specified-quantity.zh-tw.png){ title="指定組合數量設定" }
+![指定組合商品設定](../../../assets/images/ec-product-combo-specified-setup.zh-tw.gif){ title="指定組合商品設定" }
+
+---
 
 #### 任選組合商品設定
 
 1. 選取 **任選組合商品**。
 2. 在 **任選組合總數** 欄位填入消費者需選購的總數。 
-3. 勾選欲加入的子商品。
-4. 點擊 **將商品加入組合商品**。
-5. 編輯價格與紅利設定：
-    
-    - **組合商品定價**：原始價格    
-    - **組合商品售價**：實際銷售價格    
-    - **紅利折抵**：可折抵紅利上限    
+3. 點擊 **選擇商品**，在彈窗中搜尋欲加入的商品。
+4. 勾選欲加入的子商品。
+5. 點擊 **確定** 將商品加入組合商品。
 
-    > :lucide-triangle-alert: 庫存數量計算方式請參考 [庫存管理](#子商品庫存管理) 的「商品組合 C」。
+![任選組合商品設定](../../../assets/images/ec-product-combo-optional-setup.zh-tw.gif){ title="任選組合商品設定" }
 
-![任選組合數量設定](../../../assets/images/ec-product-combo-optional-quantity.zh-tw.png){ title="任選組合數量設定" }
+!!! info "庫存數量計算方式請參考 [庫存管理](#子商品庫存管理) 的「商品組合 C」。"
 
-#### 前台結帳與購物車行為
+## 前台結帳與購物車行為
 
 - 消費者必須選購至後台設定的 **任選組合總數** 才能加入購物車。
 - 若達到選購上限，前台會提示 **已達上限**。
@@ -299,12 +305,12 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-pencil:{ .lg }   
-  [__編輯商品描述與商品設定__](編輯商品描述與商品設定.md){ title="編輯商品描述與商品設定" }     
+  [__編輯商品描述與商品設定__](edit-product-slogan-and-description.md){ title="編輯商品描述與商品設定" }     
   匯入編輯過的商品 Excel 檔案，同步更新多筆商品的商品描述與配送相關設定。
 
 - :lucide-boxes:{ .lg }  
-  [__組合商品（加工品）__](../../../wms/加工商品.md){ title="加工商品" }   
- [WMS](../../../wms/index.md){ title="hide:" }
+  [__組合商品（加工品）__](../../../wms/processed-products.md){ title="加工商品" }   
+  將組合商品對應至 WMS 加工商品，出貨時自動扣除各子品項庫存。   
 
 </div>
 
