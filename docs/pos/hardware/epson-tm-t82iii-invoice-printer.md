@@ -1,5 +1,5 @@
 ---
-title: EPSON 有線發票機
+title: EPSON TM-T82III有線發票機
 description: 了解如何安裝 EPSON TM-T82III 發票機，包含硬體整備、Virtual Port Driver 驅動安裝、COM Port 指派以及紙張寬度調整。
 created: 2026-03-25 20:45
 last_modified: 2026-05-28 14:48
@@ -67,7 +67,7 @@ icon: lucide/printer
 hide: []
 ---
 
-# EPSON 有線發票機
+# EPSON TM-T82III 有線發票機
 透過正確安裝 EPSON TM-T82III 專業發票機並配置虛擬 COM Port，商家可實現穩定、快速的電子發票列印作業。本文將引導您完成從硬體安裝到驅動程式設定的完整流程。
 { .subtitle }
 
