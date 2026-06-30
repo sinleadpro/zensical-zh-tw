@@ -2,7 +2,7 @@
 title: 商品圖表
 description: 協助您觀察單一商品在指定期間內的瀏覽與購買表現，快速判斷商品頁的吸引力與轉單成效。
 created: 2026-06-21 00:00
-last_modified: 2026-06-22 00:24
+last_modified: 2026-06-30 13:56
 lang: zh-TW
 type: tutorial
 status: ""
@@ -62,7 +62,7 @@ icon: lucide/pie-chart
 hide: []
 ---
 
-![商品圖表頁面](../../assets/images/ec-business-intelligence-product-chart-hero.png){ .hero-page }
+![商品圖表頁面](../../assets/images/ec-business-intelligence-product-chart-hero.png){ title="商品圖表頁面" .hero-page }
 
 ## 商品圖表說明 { #intro-product-chart }
 
@@ -86,16 +86,16 @@ hide: []
 1. **進入頁面：** 前往後台「分析報表」>「商品圖表」。
 2. **設定查詢期間：** 在頁面上方的兩個日期欄位中，左側選擇起始日、右側選擇結束日[^range]。
 
-    ![設定查詢期間](../../assets/images/ec-business-intelligence-product-chart-date-range.png)
+    ![設定查詢期間](../../assets/images/ec-business-intelligence-product-chart-date-range.png){ title="設定查詢期間" }
 
 3. **執行查詢：** 點擊 **「查詢」**。
 4. **查看趨勢折線圖：** 圖表會以折線呈現期間內每日的「瀏覽數」與「購買數」走勢。將滑鼠移到折線上的資料點，即可看到該日期的詳細數值。
 
-    ![趨勢折線圖](../../assets/images/ec-business-intelligence-product-chart-trend.png)
+    ![趨勢折線圖](../../assets/images/ec-business-intelligence-product-chart-trend.png){ title="趨勢折線圖" }
 
 5. **查看商品明細表：** 圖表下方的表格逐一列出各商品的「瀏覽數」「購買數」與「成交率」。點選「瀏覽數」或「購買數」欄位標題可切換排序，並可調整每頁顯示 10、25 或 50 筆。
 
-    ![商品明細表](../../assets/images/ec-business-intelligence-product-chart-table.png)
+    ![商品明細表](../../assets/images/ec-business-intelligence-product-chart-table.png){ title="商品明細表" }
 
 !!! tip "技巧"
     若想找出「有人看、卻沒人買」的商品，可先依「瀏覽數」由高到低排序，再對照右側偏低的「成交率」，這些就是最值得優先優化商品頁的對象。
@@ -123,11 +123,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-bar-chart-3:{ .lg }  
-  [__商品分析__](order-analysis.md)  
+  [__商品分析__](product-analysis.md){ title="商品分析" }  
   進階方案專屬，提供轉換漏斗、回購行為與滯銷品監控等更深入的指標。
 
 - :lucide-trophy:{ .lg }  
-  [__匯出商品銷售排行報表__](basic-chart.md#operate-basic-chart-export-rank)  
+  [__匯出商品銷售排行報表__](basic-chart.md#operate-basic-chart-export-rank){ title="基本報表" }  
   於「基本報表」設定日期區間後匯出 Excel，列出該期間銷售總額最高的商品。
 
 </div>

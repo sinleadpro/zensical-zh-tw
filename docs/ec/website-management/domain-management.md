@@ -2,7 +2,7 @@
 title: 網域管理
 description: 當您在第三方平台購買了專屬網域後，需要透過 DNS 設定將該網域指向您的 CYBERBIZ 商店，並在 CYBERBIZ 後台完成綁定。
 created: 2026-03-02 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 08:02
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,7 +23,11 @@ audiences:
   - admin
 difficulty: intermediate
 tnb: trunk
-plans: []
+plans:
+  - 企業
+  - 專業
+  - 進階
+  - 高手
 cyb_extensions: []
 intents:
   - CNAME 設定
@@ -81,7 +85,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=43182
   - https://www.cyberbiz.io/support/?p=43442
   - https://www.cyberbiz.io/support/?p=4540
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-management/domain-management
 comments: false
 search:
   exclude: false

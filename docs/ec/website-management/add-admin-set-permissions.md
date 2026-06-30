@@ -2,7 +2,7 @@
 title: "新增網站管理員並設定權限"
 description: "新增網站管理員、設定管理者權限，並管理帳號安全與二階段驗證。"
 created: "2026-03-13 12:29"
-last_modified: 2026-06-23 19:05
+last_modified: 2026-06-30 08:02
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,13 +23,13 @@ audiences:
 difficulty: ""
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 新增管理員
@@ -58,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1209
   - https://www.cyberbiz.io/support/?p=2881
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-management/add-admin-set-permissions
 comments: false
 search:
   exclude: false

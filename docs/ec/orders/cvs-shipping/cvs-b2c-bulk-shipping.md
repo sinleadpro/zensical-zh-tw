@@ -2,7 +2,7 @@
 title: 使用超商大宗寄倉（B2C）出貨
 description: 於訂單列表批次下載託運單、產生託運單號，並將集中包裝的貨件寄至超商物流中心，再由物流中心分發至消費者指定門市。
 created: 2026-05-25 20:35
-last_modified: 2026-06-30 16:05
+last_modified: 2026-06-30 14:07
 lang: zh-TW
 type: tutorial
 status: ""

@@ -3,7 +3,7 @@
 title: "使用 Authy 啟用二階段驗證設定"
 description: "使用 Authy App 設定 CYBERBIZ 帳號的二階段驗證 (2FA)，提升帳號安全性。"
 created: "2026-03-16 21:41"
-last_modified: 2026-06-14 11:58
+last_modified: 2026-06-30 08:02
 lang: zh-TW
 type: tutorial
 status: ""
@@ -24,13 +24,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 二階段驗證
@@ -59,7 +59,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=12873
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-management/authy-two-factor-authentication
 comments: false
 search:
   exclude: false

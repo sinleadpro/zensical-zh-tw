@@ -99,7 +99,7 @@ comments: false
 - **規格說明**：說明商品規格細節 
 - **運送方式**：說明商品運送相關資訊
 
-進一步瞭解文字編輯器功能，請參閱 [使用文字編輯器編輯內容](../../website-appearance/code-customization/edit-content-text-editor.md){ title="使用文字編輯器編輯內容" }。
+進一步瞭解文字編輯器功能，請參閱 [使用文字編輯器編輯內容](../../website-appearance/code-customization/text-editor.md){ title="使用文字編輯器編輯內容" }。
 
 ![商品描述編輯](../../../assets/images/ec-product-description.zh-tw.png){ title="商品描述編輯" }
 

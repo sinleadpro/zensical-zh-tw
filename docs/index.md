@@ -232,7 +232,7 @@ function openTab(evt, tabName) {
     處理訂單出貨、退貨退款、串接超商與宅配物流。
 
 -   :lucide-megaphone:{ .lg }
-    [__行銷活動__](ec/marketing/){ title="行銷推廣" }
+    [__行銷活動__](ec/marketing/){ title="行銷活動" }
 
     ---
 
@@ -254,7 +254,7 @@ function openTab(evt, tabName) {
 <div class="grid cards" markdown>
 
 -   :lucide-log-in:{ .lg }
-    [__申請與開通__](wms/application-process-and-activation.md){ title="電商倉儲：申請流程與開通" }
+    [__申請與開通__](wms/application-process-and-activation.md){ title="串倉申請流程與開通" }
 
     ---
 
@@ -327,16 +327,16 @@ function openTab(evt, tabName) {
 <div class="grid cards" markdown>
 
 -   :lucide-layout-grid:{ .lg }
-    [__APP MARKET__](ec/app-market/){ title="APP MARKET" }
+    [__APP MARKET__](ec/app-market/){ title="APP MARKET 總覽" }
 
 -   :lucide-cog:{ .lg }
-    [__自動化功能__](ec/app-market/automation/automation-push-flow.md)
+    [__自動化功能__](ec/app-market/automation/automation-push-flow.md){ title="使用 AUTOMATION 建立自動化推播流程" }
 
 -   :lucide-ticket:{ .lg }
-    [__電子票券__](ec/e-ticket/e-ticket-setup-guide.md)
+    [__電子票券__](ec/e-ticket/e-ticket-setup-guide.md){ title="電子票券設定指南" }
 
 -   :lucide-zap:{ .lg }
-    [__快速到貨__](ec/payments-and-logistics/cyberbiz-now/index.md)
+    [__快速到貨__](ec/payments-and-logistics/cyberbiz-now/index.md){ title="CYBERBIZ NOW 快速到貨" }
 
 -   :lucide-credit-card:{ .lg }
     [__金流支付__](ec/payments-and-logistics/){ title="付款金流" }
@@ -345,13 +345,13 @@ function openTab(evt, tabName) {
     [__訊息通__](ec/app-market/chatbox/){ title="Chat Box 訊息通" }
 
 -   :lucide-link-2:{ .lg }
-    [__全通路管理助手__](ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md)
+    [__全通路管理助手__](ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md){ title="Step 1 安裝與授權商店" }
 
 -   :lucide-shopping-cart:{ .lg }
     [__門市助理__](ec/app-market/storepal/){ title="門市助理" }
 
 -   :lucide-arrow-right-from-line:{ .lg }
-    [__EXPRESS__](ec/payments-and-logistics/cyberbiz-express-japan-to-taiwan-delivery.md)
+    [__EXPRESS__](ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery.md){ title="CYBERBIZ EXPRESS 日到台跨境宅配" }
 
 </div>
 

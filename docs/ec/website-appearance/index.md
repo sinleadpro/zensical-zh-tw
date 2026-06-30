@@ -249,7 +249,7 @@ hide:
 
     使用內建文字編輯器編輯商品、文章與自訂頁面內容，支援圖片上傳、表格與影片嵌入。
 
-    [:octicons-arrow-right-24: 前往](code-customization/edit-content-text-editor.md)
+    [:octicons-arrow-right-24: 前往](code-customization/text-editor.md)
 
 -   :lucide-history: __使用樣板編輯器恢復網頁代碼__
 
