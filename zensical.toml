@@ -620,6 +620,7 @@ copyright = """
             { "發票設定" = [
                 { "星益欣電子發票" = "ec/website-management/wixtar-e-invoice-setup.md" },
                 { "系統代開消費者發票" = "ec/website-management/manage-system-issued-consumer-invoices.md"},
+                { "綠界電子發票" = "ec/website-management/ecpay-invoice.md" },
             ]},
             { "帳戶與方案" = [
                 { "續購與自動續約" = "ec/website-management/renewal-and-auto-subscription.md" },
@@ -694,7 +695,7 @@ copyright = """
             { "台新有線刷卡機" = "pos/hardware/taishin-wired-credit-card-machine.md" },
             { "MYPAY 無線刷卡機" = "pos/hardware/mypay-wireless-credit-card-machine.md" },
             { "Posiflex 有線發票機" = "pos/hardware/posiflex-wired-invoice-printer.md" },
-            { "EPSON TM-T82III 發票機" = "pos/hardware/epson-wired-invoice-printer.md" },
+            { "EPSON TM-T82III 發票機" = "pos/hardware/epson-tm-t82iii-invoice-printer.md" },
             { "EPSON TM-M30III 發票機" = "pos/hardware/epson-tm-m30iii-invoice-printer.md" },
             { "標籤印表機" = "pos/hardware/label-printer.md" },
             { "客顯螢幕" = "pos/hardware/customer-display-screen.md" },
@@ -771,9 +772,6 @@ copyright = """
             { "設定前台自動登出時間" = "pos/store/setup-frontend-auto-logout-time.md" },
             { "員工權限與帳號管理" = "pos/store/staff-permissions-and-account-management.md" },
             { "人員登入" = "pos/store/staff-login.md" },
-            { "參考資源" = [
-                { "人員權限欄位參考表" = "pos/reference/staff-permission-fields-reference.md" },
-            ]}
         ]},
         { "報表分析" = [
             { "營收分析" = "pos/business-intelligence/pos-revenue-analysis.md" },

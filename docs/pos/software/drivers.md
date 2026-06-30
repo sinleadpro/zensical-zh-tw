@@ -80,11 +80,11 @@ POS 驅動程式是串接硬體設備（如發票機、掃碼槍）的關鍵核�
 
 - [**POS APP 下載 (V.7.9.2)**](https://drive.google.com/file/u/1/d/1Ewhb9v9Pwr7LKdijNDQkWUVkotVPj1bb/view)
 
-`備註：
+`備註：`
 
-- 修正客顯商品件數顯示，改為顯示總數量而不是品項數
-- 支援 epson TM-m30III 發票機
-`
+`- 修正客顯商品件數顯示，改為顯示總數量而不是品項數`
+`- 支援 epson TM-m30III 發票機`
+
 
 ### 步驟 2：執行安裝程式
 

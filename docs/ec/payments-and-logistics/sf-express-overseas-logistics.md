@@ -62,7 +62,7 @@ permalink: https://help.cyberbiz.io/ec/payments-and-logistics/sf-express-oversea
 comments: false
 search:
   exclude: false
-icon: lucide/lock
+icon: lucide/globe
 hide: []
 ---
 

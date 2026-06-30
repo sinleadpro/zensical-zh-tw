@@ -85,7 +85,7 @@ hide: []
 
 - **適用型號**：EPSON TM-M30III。
 - **連接方式**：本教學採用 Wi-Fi 連接（無須驅動程式）。
-    - 若需使用 USB 連接，則須安裝驅動程式，請參考 [EPSON TM-T82III 安裝教學](epson-tm-m30iii-invoice-printer.md)。
+    - 若需使用 USB 連接，則須安裝驅動程式，請參考 [EPSON TM-T82III 安裝教學](epson-tm-t82iii-invoice-printer.md)。
 - **環境要求**：發票機與結帳平板須連接至同一個 Wi-Fi 網域。
 
 ## 操作流程

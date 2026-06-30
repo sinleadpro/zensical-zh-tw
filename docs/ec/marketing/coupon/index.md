@@ -91,23 +91,23 @@ hide: []
     <div class="grid cards" markdown>
 
     - :lucide-user-plus:{ .lg }
-      [__註冊禮__](../setup-registration-gift.md)
+      [__註冊禮__](../bonus-and-gifts/setup-registration-gift.md)
       於顧客完成會員註冊時自動發送。
 
     - :lucide-cake:{ .lg }
-      [__生日禮__](../setup-birthday-gift.md)
+      [__生日禮__](../bonus-and-gifts/setup-birthday-gift.md)
       於會員生日月份自動派發專屬折扣。
 
     - :lucide-shopping-cart:{ .lg }
-      [__首購禮__](../limited-time-first-purchase-gift.md)
+      [__首購禮__](../bonus-and-gifts/limited-time-first-purchase-gift.md)
       針對完成首筆訂單的顧客提供獎勵。
 
     - :lucide-gamepad-2:{ .lg }
-      [__互動遊戲__](../interactive-games.md)
+      [__互動遊戲__](../other-tools/interactive-games.md)
       透過轉盤、抽紅包等遊戲化機制發放獎項。
 
     - :lucide-package-plus:{ .lg }
-      [__指定商品送優惠券__](../send-coupons-for-specific-products.md)
+      [__指定商品送優惠券__](../conditional-send/send-coupons-for-specific-products.md)
       購買特定商品後自動送券。
 
     </div>
@@ -170,7 +170,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-ticket:{ .lg }
-  [__優惠券（碼）與紅利點數到期通知__](../coupon-and-bonus-points-expiry-notification.md)
+  [__優惠券（碼）與紅利點數到期通知__](../purchase-restrictions/coupon-and-bonus-points-expiry-notification.md)
   設定系統自動發送 Email、簡訊或 LINE 通知，提醒顧客及時使用即將到期的優惠券與紅利點數。
 
 - :lucide-hash:{ .lg }

@@ -133,16 +133,15 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-truck:{ .lg }   
-  [__POS 門市取貨功能說明__](連結)     
-  了解如何開啟 POS 門市取貨功能。<br>
+  [__門市取貨功能說明__](../../ec/payments-and-logistics/store-pickup/index.md)     
   了解如何處理官網下單、門市取貨的訂單流程。
 
 - :lucide-chart-column-increasing:{ .lg }   
-  [__查看與管理分潤報表__](連結)     
-  掌握員工分潤數據與業績表現，支援匯出詳細報表以利帳務核銷與績效評估。
+  [__查看與管理分潤報表__](../../ec/profit-sharing/export-profit-sharing-reports.md)     
+  匯出詳細報表以利帳務核銷與績效評估。
 
 - :lucide-search:{ .lg }   
-  [__查詢員工所屬分潤方案__](連結)     
+  [__查詢員工所屬分潤方案__](../../ec/profit-sharing/query-profit-sharing-partners-and-codes.md)     
   快速檢索個別員工目前的綁定狀態與分潤比例，確保配置正確無誤。
 
 </div>

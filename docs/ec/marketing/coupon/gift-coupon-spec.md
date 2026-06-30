@@ -83,6 +83,9 @@ hide: []
 - **API 串接**：
     - API / webhook 的訂單商品裡會出現。
     - 支援透過 API 方式，新增贈品券。
+
+        > VIP（生日/升等/會員日）贈品券無法透過 API 的方式新增。
+
 - **空購物車判定**：系統不支援「購物車內僅有贈品券商品」的情境。若購物車中未包含任何一般付費商品，系統將判定該購物車為「空購物車」，進而無法執行後續結帳流程。
 
 
@@ -95,12 +98,16 @@ hide: []
     使用會員篩選器批次發送優惠券。
 
 - :lucide-hash:{ .lg }
-    [__互動遊戲發送優惠券__](../interactive-games.md)
+    [__互動遊戲發送優惠券__](../other-tools/interactive-games.md)
     建立互動遊戲，透過輪盤或抽獎遊戲發送贈品券。
 
 - :lucide-hash:{ .lg }
     [__建立贈品優惠碼__](setup-promo-codes.md)
     建立不歸戶全館優惠碼，會員於結帳時輸入優惠碼後可獲得贈品。
+
+- :lucide-hash:{ .lg }
+    [__建立 VIP 優惠__](../../members/vip/setup-exclusive-vip-discounts/)
+    VIP 生日/升等/會員日時，發送贈品券。
 
 
 </div>

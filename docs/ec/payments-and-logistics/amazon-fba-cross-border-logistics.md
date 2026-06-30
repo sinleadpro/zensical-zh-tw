@@ -55,7 +55,7 @@ permalink: https://help.cyberbiz.io/ec/payments-and-logistics/amazon-fba-cross-b
 comments: false
 search:
   exclude: false
-icon: lucide/lock
+icon: lucide/globe
 hide: []
 ---
 
