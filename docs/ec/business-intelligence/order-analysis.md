@@ -2,7 +2,7 @@
 title: 訂單分析
 description: 使用訂單分析頁面查看銷售趨勢、金物流偏好與業績報表
 created: 2026-06-15
-last_modified: 2026-06-24 09:36
+last_modified: 2026-06-30 13:17
 lang: zh-TW
 type: tutorial
 status: ""
@@ -194,7 +194,7 @@ hide:
 | 時間別業績狀況 | 各時段的業績表現。 |
 | 每日業績狀況 | 每日的業績表現。 |
 
-各表的欄位意義請見 [訂單報表欄位對照](references/order-analysis-report-fields-reference.md){ title="訂單報表欄位對照" data-preview }。
+各表的欄位意義請見 [訂單報表欄位對照](references/order-analysis-report-fields-reference.md){ title="訂單報表欄位對照" }。
 
 ## 使用前提與限制 { #prerequisites-order-analysis }
 
@@ -309,7 +309,7 @@ hide:
 
 ## 看懂訂單總體分析 { #read-order-analysis-overall }
 
-??? plan "企業版專用"
+!!! plan "企業版專用"
     本章節的圖表僅適用於 **企業版** 方案。
 
 「訂單總體分析」以數據卡與多張趨勢、占比圖呈現全店訂單的整體健康度。各圖表的完整定義與計算公式請見 [訂單總體分析指標對照](references/order-analysis-overview-metrics-reference.md#reference-order-analysis-overview-metrics){ data-preview }。
@@ -404,7 +404,7 @@ hide:
 
 ## 看懂訂單金物流分析 { #read-order-analysis-finance-logistics }
 
-??? plan "企業版專用"
+!!! plan "企業版專用"
     本章節的圖表僅適用於 **企業版** 方案。
 
 「訂單金物流分析」把訂單依 **付款方式、出貨方式、第三方導購** 三個維度拆解，從訂單數、占比、平均客單價、退貨率等角度觀察。各圖表的完整計算公式請見 [訂單金物流分析圖表對照](references/order-analysis-finance-logistics-reference.md#reference-order-analysis-finance-logistics){ title="訂單金物流分析圖表對照" }。
@@ -544,7 +544,7 @@ hide:
 
 ## 重要規範與限制 { #specs-order-analysis }
 
-* **只計算認列訂單**：所有數據都以 [認列訂單](#prerequisites-order-analysis-recognized-order){ title="認列訂單定義" } 為基礎，已取消與退貨成立的訂單不列入。
+* **只計算認列訂單**：所有數據都以 [認列訂單](#prerequisites-order-analysis-recognized-order){ title="認列訂單定義" data-preview } 為基礎，已取消與退貨成立的訂單不列入。
 * **數據為定時更新、非即時**：報表數據為定時批次計算，並非即時；系統會定時把已取消、已退貨的訂單排除後重新統計，因此與即時的「所有訂單」列表可能略有落差。
 * **退貨率以排除取消後計算**：計算退貨率時，會先排除已取消的訂單，再以認列訂單為母數統計。
 * **圖表各自獨立**：每張圖表的日期區間是分開設定的，看數據時請留意各圖表目前套用的期間是否一致。
@@ -557,7 +557,7 @@ hide:
     [](){ #faq-order-analysis-data-mismatch }
     有兩個主要原因：
 
-    * 訂單分析只計算 [認列訂單](#prerequisites-order-analysis-recognized-order){ title="認列訂單定義" }，已取消與退貨成立的訂單不會被算進去。
+    * 訂單分析只計算 [認列訂單](#prerequisites-order-analysis-recognized-order){ title="認列訂單定義" data-preview }，已取消與退貨成立的訂單不會被算進去。
     * 報表數據是定時批次更新的，並非即時，因此會比「所有訂單」列表略有延遲。
 
 ??? quote "為什麼我看不到「訂單金物流分析」或「訂單報表」分頁？"

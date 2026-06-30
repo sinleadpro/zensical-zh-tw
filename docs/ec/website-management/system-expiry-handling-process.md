@@ -2,7 +2,7 @@
 title: 系統到期處理流程
 description: 說明系統服務到期提醒規則、續約方式及不續約的資料處理流程，包含網域移轉步驟與緊急應變措施。
 created: 2026-05-27 11:40
-last_modified: 2026-05-27 11:56
+last_modified: 2026-06-30 08:02
 lang: zh-TW
 type: tutorial
 status: ""
@@ -48,10 +48,10 @@ ui_components: []
 paths: 
   - 管理中心 > 網域管理
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3988
   - https://www.cyberbiz.io/support/?p=21601
-permalink:
+permalink: https://help.cyberbiz.io/ec/website-management/system-expiry-handling-process
 comments: false
 search:
   exclude: false

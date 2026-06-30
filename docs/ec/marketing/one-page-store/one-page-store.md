@@ -245,7 +245,7 @@ hide: []
 
         - 插入圖片：上傳商品圖或行銷海報。
         - 插入影片：貼入影片 YouTube 連結。
-        - 插入文字編輯：運用[文字編輯器](../../website-appearance/code-customization/edit-content-text-editor.md)撰寫商品描述、規格說明或品牌故事。
+        - 插入文字編輯：運用[文字編輯器](../../website-appearance/code-customization/text-editor.md)撰寫商品描述、規格說明或品牌故事。
         - 插入前往購買按鈕：自定義按鈕名稱（如：立即搶購、查看詳情），引導消費者快速轉換。
     3. **調整配置順序**：利用滑鼠拖曳左側的 :lucide-move: 圖示，即可調整各區塊的先後排序。
 

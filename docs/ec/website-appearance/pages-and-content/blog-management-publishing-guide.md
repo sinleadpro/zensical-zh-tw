@@ -104,7 +104,7 @@ hide: []
     ![新增文章](../../../assets/images/ec-網站外觀-部落格管理-新增文章.png){ title="新增文章" }
 
 2.  **基本設定**：
-    *   **內容編輯**：使用 [**文字編輯器**](../code-customization/edit-content-text-editor.md){ title="使用文字編輯器編輯內容" }，支援上傳圖片、嵌入影片與表格等影音功能。
+    *   **內容編輯**：使用 [**文字編輯器**](../code-customization/text-editor.md){ title="使用文字編輯器編輯內容" }，支援上傳圖片、嵌入影片與表格等影音功能。
 
         !!! warning "請勿直接複製其他網頁或檔案內容貼上編輯器，建議使用「純文字貼上」按鈕（Ctrl+Shift+V）後再行上圖，以免帶入語法導致跑版。"
 

@@ -2,7 +2,7 @@
 title: 管理系統代開消費者發票
 description: 了解 CYBERBIZ 代開消費者發票服務，包含發票開立方式、顧客與商家查詢流程，以及發票資訊修改的申請期限與費用說明。
 created: 2026-06-10 16:30
-last_modified: 2026-06-12 14:40
+last_modified: 2026-06-30 08:02
 lang: zh-TW
 type: guide
 status: ""
@@ -22,7 +22,7 @@ audiences:
   - admin
 difficulty: beginner
 tnb: branch
-plans: 
+plans:
   - 企業
 cyb_extensions: []
 intents: 
@@ -53,10 +53,10 @@ ui_components:
 paths: 
   - 訂單 > 所有訂單
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/support/?p=2319
   - https://www.cyberbiz.io/support/?p=5769
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-management/manage-system-issued-consumer-invoices
 comments: false
 search:
   exclude: false
