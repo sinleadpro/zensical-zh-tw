@@ -2,7 +2,7 @@
 title: 揭露營業人名稱與統一編號
 description: 在 CYBERBIZ 後台完成公司資料填寫，並於官網頁腳揭露營業人名稱與統一編號，符合財政部法規要求。
 created: 2026-06-22 10:00
-last_modified: 2026-06-24 17:28
+last_modified: 2026-06-30 10:16
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,9 +23,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
+  - 企業
   - 專業
+  - 專業PLUS
   - 進階
+  - 進階PLUS
   - 高手
+  - 高手PLUS
 cyb_extensions: []
 feature_badges: []
 intents:
@@ -62,7 +66,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6773
   - https://www.cyberbiz.io/support/?p=36327
-permalink: https://help.cyberbiz.io/ec/website-appearance/site-settings/business-disclosure/
+permalink: https://help.cyberbiz.io/ec/website-appearance/site-settings/business-disclosure
 comments: false
 search:
   exclude: false

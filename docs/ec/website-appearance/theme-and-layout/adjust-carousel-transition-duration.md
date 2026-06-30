@@ -2,7 +2,7 @@
 title: 調整首頁跑馬燈（輪播圖）的轉場停留時間
 description: 修改樣板檔案中的 delay 參數，調整首頁跑馬燈（輪播圖）的轉場停留時間。
 created: 2025-03-03 14:20
-last_modified: 2026-06-26T12:07:45+08:00
+last_modified: 2026-06-30 10:16
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,10 +23,13 @@ audiences:
 difficulty: advanced
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 調整跑馬燈轉場時間
@@ -58,7 +61,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1643
   - https://www.cyberbiz.io/helpcenter/?p=3558
   - https://www.cyberbiz.io/support/?p=17225
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/adjust-carousel-transition-duration
 comments: ""
 search:
   exclude: ""

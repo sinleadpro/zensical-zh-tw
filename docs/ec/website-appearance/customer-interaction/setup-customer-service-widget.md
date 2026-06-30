@@ -2,7 +2,7 @@
 title: 設置網站客服視窗
 description: 透過 GetButton、Facebook 即時客服或 Omnichat 在官網設置客服視窗，提升品牌與顧客溝通效率。
 created: 2025-03-03 10:00
-last_modified: 2026-06-24 17:39
+last_modified: 2026-06-30 10:16
 lang: zh-TW
 type: tutorial
 status: ""
@@ -26,10 +26,13 @@ audiences:
 difficulty: advanced
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 建立品牌與客戶溝通管道
@@ -62,7 +65,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3461
   - https://www.cyberbiz.io/support/?p=16750
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-appearance/customer-interaction/setup-customer-service-widget
 comments: ""
 search:
   exclude: ""

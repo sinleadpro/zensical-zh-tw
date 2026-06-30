@@ -2,7 +2,7 @@
 title: 使用文字編輯器編輯內容
 description: 認識新舊版文字編輯器，在商品描述、自訂頁面與部落格編輯圖文內容、插入圖片與 YouTube 影片。
 created: "2026-03-19 11:51"
-last_modified: 2026-06-30 16:28
+last_modified: 2026-06-30 10:16
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,13 +23,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 feature_badges: []
 intents:
@@ -68,10 +68,11 @@ paths:
   - 網站外觀 > 部落格管理
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/helpcenter/?p=3938
   - https://www.cyberbiz.io/helpcenter/?p=1330
+  - https://www.cyberbiz.io/helpcenter/?p=3938
   - https://www.cyberbiz.io/support/?p=21070
-permalink: https://help.cyberbiz.io/ec/website-appearance/code-customization/text-editor/
+  - https://www.cyberbiz.io/support/?p=51521
+permalink: https://help.cyberbiz.io/ec/website-appearance/code-customization/text-editor
 comments: false
 search:
   exclude: false

@@ -1,7 +1,7 @@
 ---
 title: "設定網站標題與 SEO"
 description: "設定網站標題、簡述與關鍵字，以優化搜尋引擎 (SEO) 排名並提升社群分享時的品牌辨識度。"
-last_modified: 2026-06-24 17:13
+last_modified: 2026-06-30 10:16
 lang: "zh-TW"
 type: "tutorial"
 status: ""
@@ -20,13 +20,13 @@ audiences:
 difficulty: advanced
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 設定網站標題與簡述
@@ -60,7 +60,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3572
   - https://www.cyberbiz.io/support/?p=16627
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-site-title-seo
 comments: ""
 search:
   exclude: ""

@@ -2,9 +2,9 @@
 title: 使用樣板編輯器恢復網頁代碼
 description: 透過程式碼編輯器的版本管理功能，快速回溯 HTML/CSS 至先前時間點或初始狀態，確保網頁修改後的穩定性。
 created: 2026-02-24
-last_modified: 2026-06-24 18:12
+last_modified: 2026-06-30 10:16
 lang: zh-TW
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-appearance/code-customization/restore-code-theme-editor
 type: tutorial
 status: ""
 version: ""
@@ -21,13 +21,13 @@ sites:
   - TW
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 audiences:
   - developer

@@ -2,7 +2,7 @@
 title: 設定轉貼連結縮圖 OG Image
 description: 於商品、分類、文章或全站設定中指定 Open Graph（OG）分享圖片，控制社群平台轉貼連結時顯示的縮圖與預覽資訊。
 created: 2025-03-03
-last_modified: 2026-06-24 17:24
+last_modified: 2026-06-30 10:16
 lang: zh-TW
 type: tutorial
 status: ""
@@ -26,13 +26,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 設定社群分享縮圖
@@ -68,7 +68,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3843
   - https://www.cyberbiz.io/support/?p=19718
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-og-image
 comments: false
 search:
   exclude: false

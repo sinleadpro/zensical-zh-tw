@@ -1,0 +1,951 @@
+{
+  "generated_at": "2026-06-30 10:00",
+  "doc_dir": "docs/ec/website-appearance",
+  "confirmed": [
+    {
+      "doc_file": "docs/ec/website-appearance/checkout-and-shopping-flow/priority-recipient-info-checkout.md",
+      "doc_title": "修改結帳流程為優先填寫收件人資訊",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/checkout-and-shopping-flow/priority-recipient-info-checkout",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=26454"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=26454"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "進階",
+        "高手"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": true,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/code-customization/restore-code-theme-editor.md",
+      "doc_title": "使用樣板編輯器恢復網頁代碼",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/code-customization/restore-code-theme-editor",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3474",
+        "https://www.cyberbiz.io/support/?p=16146"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3474",
+        "https://www.cyberbiz.io/support/?p=16146"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/code-customization/text-editor.md",
+      "doc_title": "使用文字編輯器編輯內容",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/code-customization/text-editor",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=1330",
+        "https://www.cyberbiz.io/helpcenter/?p=3938",
+        "https://www.cyberbiz.io/support/?p=21070",
+        "https://www.cyberbiz.io/support/?p=51521"
+      ],
+      "current_permalink": "https://help.cyberbiz.io/ec/website-appearance/code-customization/text-editor/",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3938",
+        "https://www.cyberbiz.io/helpcenter/?p=1330",
+        "https://www.cyberbiz.io/support/?p=21070"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/code-customization/theme-editor-complete-guide.md",
+      "doc_title": "樣板編輯器操作全攻略",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/code-customization/theme-editor-complete-guide",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3579",
+        "https://www.cyberbiz.io/support/?p=17612"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3579",
+        "https://www.cyberbiz.io/support/?p=17612"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/customer-interaction/enable-comment-recaptcha.md",
+      "doc_title": "啟用留言區 reCAPTCHA",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/customer-interaction/enable-comment-recaptcha",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12371",
+        "https://www.cyberbiz.io/support/?p=50193"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12371",
+        "https://www.cyberbiz.io/support/?p=50193"
+      ],
+      "current_plans": [
+        "企業",
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": true,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/customer-interaction/setup-customer-service-widget.md",
+      "doc_title": "設置網站客服視窗",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/customer-interaction/setup-customer-service-widget",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3461",
+        "https://www.cyberbiz.io/support/?p=16750"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3461",
+        "https://www.cyberbiz.io/support/?p=16750"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "進階",
+        "高手"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": true,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/customer-interaction/setup-edit-customer-service-info.md",
+      "doc_title": "設定與修改客服中心資訊",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/customer-interaction/setup-edit-customer-service-info",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3683",
+        "https://www.cyberbiz.io/helpcenter/?p=420",
+        "https://www.cyberbiz.io/support/?p=18304",
+        "https://www.cyberbiz.io/support/?p=2801"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3683",
+        "https://www.cyberbiz.io/support/?p=18304"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "進階",
+        "高手"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": true,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/navigation/setup-menus-navigation.md",
+      "doc_title": "設定選單與導覽列",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/navigation/setup-menus-navigation",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=11200",
+        "https://www.cyberbiz.io/support/?p=19955"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5917",
+        "https://www.cyberbiz.io/support/?p=33935"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/navigation/setup-nav-menu-hover-expand.md",
+      "doc_title": "設定導覽選單滑鼠移入自動展開",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/navigation/setup-nav-menu-hover-expand",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=28145"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=28145"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "進階",
+        "高手"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": true,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/pages-and-content/blog-management-publishing-guide.md",
+      "doc_title": "部落格管理與文章發佈指南",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/pages-and-content/blog-management-publishing-guide",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=631",
+        "https://www.cyberbiz.io/support/?p=1510"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=631",
+        "https://www.cyberbiz.io/support/?p=1510"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/pages-and-content/custom-pages.md",
+      "doc_title": "設定與管理自訂頁面",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/pages-and-content/custom-pages",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12570",
+        "https://www.cyberbiz.io/support/?p=40485",
+        "https://www.cyberbiz.io/support/?p=5649"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12570",
+        "https://www.cyberbiz.io/support/?p=40485"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/pages-and-content/embed-google-form-custom-page.md",
+      "doc_title": "在自訂頁面中嵌入 Google 表單",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/pages-and-content/embed-google-form-custom-page",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3688",
+        "https://www.cyberbiz.io/support/?p=18247"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3688",
+        "https://www.cyberbiz.io/support/?p=18247"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "進階",
+        "高手"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": true,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/site-settings/business-disclosure.md",
+      "doc_title": "揭露營業人名稱與統一編號",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/site-settings/business-disclosure",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=6773",
+        "https://www.cyberbiz.io/support/?p=36327"
+      ],
+      "current_permalink": "https://help.cyberbiz.io/ec/website-appearance/site-settings/business-disclosure/",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=6773",
+        "https://www.cyberbiz.io/support/?p=36327"
+      ],
+      "current_plans": [
+        "專業",
+        "進階",
+        "高手"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/site-settings/jp-legal-compliance-page.md",
+      "doc_title": "日本站官網需建立特定商取引法頁面",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/site-settings/jp-legal-compliance-page",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=50470"
+      ],
+      "current_permalink": "jp-legal-compliance-page",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=50470"
+      ],
+      "current_plans": [],
+      "expected_plans": [],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/site-settings/setup-og-image.md",
+      "doc_title": "設定轉貼連結縮圖 OG Image",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-og-image",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3843",
+        "https://www.cyberbiz.io/support/?p=19718"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3843",
+        "https://www.cyberbiz.io/support/?p=19718"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/site-settings/setup-right-click-protection.md",
+      "doc_title": "設定網頁鎖右鍵保護圖文版權",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-right-click-protection",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3561",
+        "https://www.cyberbiz.io/support/?p=17072"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3561",
+        "https://www.cyberbiz.io/support/?p=17072"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "進階",
+        "高手"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": true,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/site-settings/setup-site-title-seo.md",
+      "doc_title": "設定網站標題與 SEO",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-site-title-seo",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3572",
+        "https://www.cyberbiz.io/support/?p=16627"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3572",
+        "https://www.cyberbiz.io/support/?p=16627"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/site-settings/setup-storefront-language-text-customization.md",
+      "doc_title": "設定前台語系與文字自定義",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-storefront-language-text-customization",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7260",
+        "https://www.cyberbiz.io/support/?p=37183"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7260",
+        "https://www.cyberbiz.io/support/?p=37183"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/theme-and-layout/adjust-carousel-transition-duration.md",
+      "doc_title": "調整首頁跑馬燈（輪播圖）的轉場停留時間",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/adjust-carousel-transition-duration",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=1643",
+        "https://www.cyberbiz.io/helpcenter/?p=3558",
+        "https://www.cyberbiz.io/support/?p=17225"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=1643",
+        "https://www.cyberbiz.io/helpcenter/?p=3558",
+        "https://www.cyberbiz.io/support/?p=17225"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "進階",
+        "高手"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": true,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/theme-and-layout/apply-and-switch-theme.md",
+      "doc_title": "套用與更換網站主題",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/apply-and-switch-theme",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=410",
+        "https://www.cyberbiz.io/support/?p=2807"
+      ],
+      "current_permalink": "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/apply-and-switch-theme/",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=410",
+        "https://www.cyberbiz.io/support/?p=2807"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/theme-and-layout/configure-scheduled-carousels.md",
+      "doc_title": "建立與管理排程跑馬燈",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/configure-scheduled-carousels",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5760",
+        "https://www.cyberbiz.io/support/?p=7863"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5760",
+        "https://www.cyberbiz.io/support/?p=7863"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/theme-and-layout/disable-product-image-zoom.md",
+      "doc_title": "關閉商品圖片放大預覽功能",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/disable-product-image-zoom",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3680",
+        "https://www.cyberbiz.io/support/?p=18122"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3680",
+        "https://www.cyberbiz.io/support/?p=18122"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/theme-and-layout/storefront-collection-sorting.md",
+      "doc_title": "設定首頁商品群組排序",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/storefront-collection-sorting",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=995",
+        "https://www.cyberbiz.io/support/?p=2382"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=995",
+        "https://www.cyberbiz.io/support/?p=23826"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/theme-and-layout/theme-editor.md",
+      "doc_title": "拖拉版型網站設定",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/theme-editor",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=9153",
+        "https://www.cyberbiz.io/support/?p=39903"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=9153",
+        "https://www.cyberbiz.io/support/?p=39903"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": true,
+      "apply": true
+    }
+  ],
+  "unmatched_csv_titles": [
+    "查詢宅配託運單紀錄",
+    "結帳頁與物流設定總覽",
+    "設定超商大宗寄倉 B2C",
+    "處理超過退貨期限的訂單",
+    "設定商品配送條件（物流、溫層與出貨通路）",
+    "設定結帳拆分多購物車",
+    "串接Google Pay",
+    "信用卡 3D驗證門檻設定",
+    "設定 AFTEE",
+    "宅配逆物流",
+    "設定超商店到店物流串接",
+    "串接宅配貨到付款物流",
+    "串接宅配貨到不付款/自訂物流",
+    "順豐海外物流",
+    "(CYBERBIZ NOW快速到貨)消費者購買流程",
+    "(CYBERBIZ NOW快速到貨)快速到貨訂單接單準備",
+    "(CYBERBIZ NOW快速到貨)快速到貨出貨與配送追蹤",
+    "(CYBERBIZ NOW快速到貨)缺貨訂單部分配送或取消流程",
+    "(CYBERBIZ NOW快速到貨)Pandago 配送異常規範",
+    "(CYBERBIZ NOW快速到貨)快速到貨運費計算與對帳",
+    "(宅配物流託運單)補印與加印託運單",
+    "Amazon FBA 跨境物流",
+    "申請全家冷凍物流 B2C",
+    "啟用部分串倉與拆單",
+    "啟用部分串倉與混單",
+    "DHL 跨境物流",
+    "北美站金流設定",
+    "日本站金流設定",
+    "申請 CYBERBIZ PAYMENTS",
+    "設定街口支付",
+    "設定 PayPal",
+    "設定 LINE Pay",
+    "東南亞站金流設定",
+    "LINEX 跨境物流",
+    "設定 Apple Pay",
+    "澳洲落地版金流設定",
+    "申請iPASS MONEY 一卡通",
+    "CYBERBIZ EXPRESS",
+    "建立並串接 Google Analytics",
+    "建立 Google Tag Manager 並串接 CYBERBIZ",
+    "設定 Google Merchant Center 並同步 CYBERBIZ 商品",
+    "設定 Google Ads 轉換追蹤",
+    "使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝",
+    "設定 Facebook 快速登入",
+    "串接美安通路",
+    "設定 LINE 快速登入",
+    "串接 LINE Messaging API",
+    "篩選與應用 LINE OA 綁定會員名單",
+    "發送 LINE 加入好友邀請",
+    "設定與使用 LINE 顯示會員條碼（串接 POS 結帳）",
+    "設定 LINE 綁定會員贈送優惠券",
+    "設定 LINE 圖文選單",
+    "設定 Meta 廣告活動",
+    "YouTube Shopping 設定指南",
+    "Meta 廣告每日預算設定指南",
+    "同步商品影片至 Meta 目錄",
+    "設定 GA4 排除內部流量與第三方參照來源",
+    "使用 UTM 參數追蹤行銷流量與分析成效",
+    "設定 FBE 帳號授權與資產連結",
+    "設定 Facebook 與 Instagram 商店",
+    "設定 FBE 網域驗證",
+    "註冊並驗證 Google Search Console",
+    "建立 Meta 廣告帳號並儲值",
+    "設定秘密商品群組",
+    "LINE 整合總覽",
+    "建立與驗證 Google 商家檔案",
+    "使用 Google 安全瀏覽工具檢查並排除網站安全性風險",
+    "從 Google 搜尋結果移除特定網頁或子目錄",
+    "設定與發送 LINE OA 分眾訊息推播",
+    "設定 LINE OA 受眾串接",
+    "排除商品不同步至 Facebook 與 Instagram 商店",
+    "設定 GA4 站內搜尋追蹤",
+    "設定與管理 LINE Tag",
+    "LINE 購物功能總覽",
+    "使用 LINE 團購進行購物",
+    "設定 Google 快速登入",
+    "設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結",
+    "申請與設定 LINE 直播功能",
+    "綁定 LINE 官方帳號與官網會員",
+    "自動化廣告系統(Google 購物廣告)",
+    "設定 LINE 快速登入時取得會員手機號碼",
+    "申請與設定 LINE 購物導購",
+    "設定 Google Analytics 進階追蹤與資料分析",
+    "在官網新增 LINE 加入好友入口",
+    "設定 Google Ads 強化轉換",
+    "設定 LIFF 自動登入與會員綁定",
+    "手動分享資產權限給 CYBERBIZ",
+    "設定 Meta 廣告的目錄商品組合",
+    "ASC 廣告投放策略與最佳實務",
+    "使用 Meta 廣告成效分析",
+    "Meta 廣告帳號閒置釋出機制與保留說明",
+    "設定 LINE 團購機器人",
+    "設定 LINE 團購商品",
+    "設定 LINE 團購群組",
+    "網域管理",
+    "保護後台帳號與顧客資料",
+    "管理系統代開消費者發票",
+    "發票",
+    "新增網站管理員並設定權限",
+    "設定網站基本資訊",
+    "設定與管理二階段驗證 (2FA)",
+    "使用 Authy 啟用二階段驗證設定",
+    "資安防護總覽與最佳實務",
+    "系統到期處理流程",
+    "Cloudflare SSL 衝突",
+    "無法讀取 HTTPS 根網址",
+    "如何排除未收到商家通知信件",
+    "續購與自動續約",
+    "設定前台多國語言與多幣別",
+    "設定與管理 LINE OA 通知樣板",
+    "設定與發送簡訊通知",
+    "設定與管理簡訊通知樣板",
+    "管理與管理 Email 通知樣板",
+    "設定與發送 EDM 電子報",
+    "Step1.安裝啟用",
+    "Step5.官網與蝦皮商品資訊同步",
+    "API 與 Webhook 串接指南",
+    "使用 AUTOMATION 建立自動化推播流程",
+    "會員數據智庫",
+    "搜尋與建立會員",
+    "會員身份識別",
+    "導購轉化",
+    "查看門市與個人業績報表",
+    "Step2.導入商品與建立關聯",
+    "Step3.官網與蝦皮商品庫存同步",
+    "Step4.官網商品建立為蝦皮商品",
+    "CYBERBIZ APP 功能指南",
+    "(CYBERBIZ NOW快速到貨)設定快速到貨前台入口與專區",
+    "管理商品評論",
+    "設定前台選單",
+    "設定顧客 Email 與手機雙重驗證",
+    "星益欣電子發票設定",
+    "安裝 Meta Ads App",
+    "在搜尋結果中排除特定關鍵字商品"
+  ],
+  "unmatched_docs": [
+    {
+      "title": "頁腳聯絡資訊欄位對照表",
+      "file": "docs/ec/website-appearance/references/business-disclosure-footer-fields.md"
+    },
+    {
+      "title": "自訂頁面可用區塊對照表",
+      "file": "docs/ec/website-appearance/references/custom-pages-blocks.md"
+    },
+    {
+      "title": "排程跑馬燈對照表",
+      "file": "docs/ec/website-appearance/references/scheduled-carousel-statuses.md"
+    },
+    {
+      "title": "文字編輯器對照表",
+      "file": "docs/ec/website-appearance/references/text-editor-toolbar.md"
+    },
+    {
+      "title": "theme-editor-pages",
+      "file": "docs/ec/website-appearance/references/theme-editor-pages.md"
+    },
+    {
+      "title": "theme-editor-sections",
+      "file": "docs/ec/website-appearance/references/theme-editor-sections.md"
+    },
+    {
+      "title": "主題類型對照表",
+      "file": "docs/ec/website-appearance/references/theme-types.md"
+    },
+    {
+      "title": "設定快速到貨前台入口與專區",
+      "file": "docs/ec/website-appearance/setup-quick-delivery-frontend-entry.md"
+    }
+  ],
+  "updated_at": "2026-06-30 10:16"
+}

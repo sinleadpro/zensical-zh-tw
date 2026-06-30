@@ -1,13 +1,13 @@
 {
     "plugin": {
         "version": "5.5.2",
-        "date": "Tue, 30 Jun 2026 08:52:59 +0000"
+        "date": "Tue, 30 Jun 2026 10:19:30 +0000"
     },
     "groups": [
         {
             "id": 8,
-            "name": "ec-payments-and-logistics",
-            "redirects": 23,
+            "name": "ec-website-appearance",
+            "redirects": 24,
             "module_id": 1,
             "moduleName": "WordPress",
             "enabled": false
@@ -16,7 +16,7 @@
     "redirects": [
         {
             "id": 1,
-            "url": "/helpcenter/?p=6174",
+            "url": "/helpcenter/?p=3474",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -29,7 +29,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/apply-cyberbiz-payments"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/code-customization/restore-code-theme-editor"
             },
             "match_type": "url",
             "title": "",
@@ -42,7 +42,7 @@
         },
         {
             "id": 2,
-            "url": "/helpcenter/?p=6738",
+            "url": "/helpcenter/?p=1330",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -55,7 +55,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/apply-cyberbiz-payments"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/code-customization/text-editor"
             },
             "match_type": "url",
             "title": "",
@@ -68,7 +68,7 @@
         },
         {
             "id": 3,
-            "url": "/helpcenter/?p=1769",
+            "url": "/helpcenter/?p=3938",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -81,7 +81,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/dhl-cross-border-logistics"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/code-customization/text-editor"
             },
             "match_type": "url",
             "title": "",
@@ -94,7 +94,7 @@
         },
         {
             "id": 4,
-            "url": "/helpcenter/?p=393",
+            "url": "/helpcenter/?p=3579",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -107,7 +107,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/dhl-cross-border-logistics"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/code-customization/theme-editor-complete-guide"
             },
             "match_type": "url",
             "title": "",
@@ -120,7 +120,7 @@
         },
         {
             "id": 5,
-            "url": "/helpcenter/?p=8214",
+            "url": "/helpcenter/?p=12371",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -133,7 +133,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/linex-cross-border-logistics"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/customer-interaction/enable-comment-recaptcha"
             },
             "match_type": "url",
             "title": "",
@@ -146,7 +146,7 @@
         },
         {
             "id": 6,
-            "url": "/helpcenter/?p=6847",
+            "url": "/helpcenter/?p=3461",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -159,7 +159,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-aftee"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/customer-interaction/setup-customer-service-widget"
             },
             "match_type": "url",
             "title": "",
@@ -172,7 +172,7 @@
         },
         {
             "id": 7,
-            "url": "/helpcenter/?p=8162",
+            "url": "/helpcenter/?p=3683",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -185,7 +185,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-apple-pay"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/customer-interaction/setup-edit-customer-service-info"
             },
             "match_type": "url",
             "title": "",
@@ -198,7 +198,7 @@
         },
         {
             "id": 8,
-            "url": "/helpcenter/?p=6844",
+            "url": "/helpcenter/?p=420",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -211,7 +211,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-credit-card-3d-verification"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/customer-interaction/setup-edit-customer-service-info"
             },
             "match_type": "url",
             "title": "",
@@ -224,7 +224,7 @@
         },
         {
             "id": 9,
-            "url": "/helpcenter/?p=5064",
+            "url": "/helpcenter/?p=11200",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -237,7 +237,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/navigation/setup-menus-navigation"
             },
             "match_type": "url",
             "title": "",
@@ -250,7 +250,7 @@
         },
         {
             "id": 10,
-            "url": "/helpcenter/?p=6852",
+            "url": "/helpcenter/?p=631",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -263,7 +263,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/pages-and-content/blog-management-publishing-guide"
             },
             "match_type": "url",
             "title": "",
@@ -276,7 +276,7 @@
         },
         {
             "id": 11,
-            "url": "/helpcenter/?p=5058",
+            "url": "/helpcenter/?p=12570",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -289,7 +289,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-cvs-c2c-shipping"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/pages-and-content/custom-pages"
             },
             "match_type": "url",
             "title": "",
@@ -302,7 +302,7 @@
         },
         {
             "id": 12,
-            "url": "/helpcenter/?p=6850",
+            "url": "/helpcenter/?p=3688",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -315,7 +315,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-cvs-c2c-shipping"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/pages-and-content/embed-google-form-custom-page"
             },
             "match_type": "url",
             "title": "",
@@ -328,7 +328,7 @@
         },
         {
             "id": 13,
-            "url": "/helpcenter/?p=5068",
+            "url": "/helpcenter/?p=6773",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -341,7 +341,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-family-mart-frozen-b2c"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/site-settings/business-disclosure"
             },
             "match_type": "url",
             "title": "",
@@ -354,7 +354,7 @@
         },
         {
             "id": 14,
-            "url": "/helpcenter/?p=2746",
+            "url": "/helpcenter/?p=3843",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -367,7 +367,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-home-delivery-non-cod-custom-logistics"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-og-image"
             },
             "match_type": "url",
             "title": "",
@@ -380,7 +380,7 @@
         },
         {
             "id": 15,
-            "url": "/helpcenter/?p=2933",
+            "url": "/helpcenter/?p=3561",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -393,7 +393,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-jkopay"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-right-click-protection"
             },
             "match_type": "url",
             "title": "",
@@ -406,7 +406,7 @@
         },
         {
             "id": 16,
-            "url": "/helpcenter/?p=2127",
+            "url": "/helpcenter/?p=3572",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -419,7 +419,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-line-pay"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-site-title-seo"
             },
             "match_type": "url",
             "title": "",
@@ -432,7 +432,7 @@
         },
         {
             "id": 17,
-            "url": "/helpcenter/?p=2553",
+            "url": "/helpcenter/?p=7260",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -445,7 +445,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-paypal"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-storefront-language-text-customization"
             },
             "match_type": "url",
             "title": "",
@@ -458,7 +458,7 @@
         },
         {
             "id": 18,
-            "url": "/helpcenter/?p=11280",
+            "url": "/helpcenter/?p=1643",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -471,7 +471,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/sf-express-overseas-logistics"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/adjust-carousel-transition-duration"
             },
             "match_type": "url",
             "title": "",
@@ -484,7 +484,7 @@
         },
         {
             "id": 19,
-            "url": "/helpcenter/?p=3900",
+            "url": "/helpcenter/?p=3558",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -497,7 +497,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-google-pay"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/adjust-carousel-transition-duration"
             },
             "match_type": "url",
             "title": "",
@@ -510,7 +510,7 @@
         },
         {
             "id": 20,
-            "url": "/helpcenter/?p=12633",
+            "url": "/helpcenter/?p=410",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -523,7 +523,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-ipass-money"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/apply-and-switch-theme"
             },
             "match_type": "url",
             "title": "",
@@ -536,7 +536,7 @@
         },
         {
             "id": 21,
-            "url": "/helpcenter/?p=10629",
+            "url": "/helpcenter/?p=5760",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -549,7 +549,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/home-delivery-cash-on-delivery"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/configure-scheduled-carousels"
             },
             "match_type": "url",
             "title": "",
@@ -562,7 +562,7 @@
         },
         {
             "id": 22,
-            "url": "/helpcenter/?p=10656",
+            "url": "/helpcenter/?p=3680",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -575,7 +575,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/home-delivery-cash-on-delivery"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/disable-product-image-zoom"
             },
             "match_type": "url",
             "title": "",
@@ -588,7 +588,7 @@
         },
         {
             "id": 23,
-            "url": "/helpcenter/?p=329",
+            "url": "/helpcenter/?p=995",
             "match_url": "/helpcenter",
             "match_data": {
                 "source": {
@@ -601,7 +601,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/payments/"
+                "url": "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/storefront-collection-sorting"
             },
             "match_type": "url",
             "title": "",
@@ -609,6 +609,32 @@
             "regex": false,
             "group_id": 8,
             "position": 22,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 24,
+            "url": "/helpcenter/?p=9153",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/theme-editor"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 23,
             "last_access": "-",
             "enabled": false
         }

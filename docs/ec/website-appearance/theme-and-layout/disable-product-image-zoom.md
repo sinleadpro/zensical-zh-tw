@@ -2,7 +2,7 @@
 title: "關閉商品圖片放大預覽功能"
 description: "修改程式碼關閉商品頁圖片放大預覽功能，包含操作步驟、註解方式及恢復機制說明。"
 created: "2025-03-03 17:15"
-last_modified: 2026-06-24 15:59
+last_modified: 2026-06-30 10:16
 lang: "zh-TW"
 type: "tutorial"
 status: ""
@@ -23,13 +23,13 @@ audiences:
 difficulty: advanced
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 關閉商品頁圖片放大預覽功能
@@ -65,7 +65,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3680
   - https://www.cyberbiz.io/support/?p=18122
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/disable-product-image-zoom
 comments: ""
 search:
   exclude: ""

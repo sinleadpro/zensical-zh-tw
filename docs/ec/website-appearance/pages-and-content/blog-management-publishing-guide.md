@@ -2,7 +2,7 @@
 title: "部落格管理與文章發佈指南"
 description: "透過部落格管理功能建立品牌文章，運用分類主題、文章標籤及 SEO 設定，建立內容行銷基礎，提升官網搜尋曝光率。"
 created: "2026-03-19 11:27"
-last_modified: 2026-06-24 17:04
+last_modified: 2026-06-30 10:16
 lang: zh-TW
 type: tutorial
 author: Jase
@@ -22,13 +22,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 部落格
@@ -61,7 +61,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=631
   - https://www.cyberbiz.io/support/?p=1510
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-appearance/pages-and-content/blog-management-publishing-guide
 comments: false
 search:
   exclude: false
