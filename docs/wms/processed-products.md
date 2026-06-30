@@ -78,7 +78,7 @@ hide: []
 ## 使用須知
 
 - **CYBERBIZ 官網庫存連動**：若您的倉儲系統已串接 CYBERBIZ 官網 (EC)，請務必遵循以下對接規範：
-    - **建立順序**：於 WMS 倉儲系統完成 **加工品** 建立後，需同步至官網後台 [建立對應商品](../ec/products/creation/create-update-products.md)。
+    - **建立順序**：於 WMS 倉儲系統完成 **加工品** 建立後，需同步至官網後台 [建立對應商品](../ec/products/create-and-manage/create-update-products.md)。
     - **關鍵對照**：官網商品的 **商品 SKU** 必須與 WMS 的 **品號** 完全一致。
     - **自動同步**：資訊對應成功後，系統將啟動自動化邏輯，確保兩端庫存即時同步。
 - **組合庫存邏輯**
@@ -143,9 +143,5 @@ hide: []
 - :lucide-square-chart-gantt:{ .lg }   
   [__單一品項管理__](single-items.md)     
   新增個別商品至 WMS 系統，並完成基本屬性設定。
-
-- :lucide-barcode:{ .lg }   
-  [__EC 官網商品 SKU 設定指引__](連結)     
-  查詢並設定 EC 官網 SKU，確保與 WMS 品號成功同步。
 
 </div>

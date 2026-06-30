@@ -2,7 +2,7 @@
 title: 設定顧客 Email 與手機雙重驗證
 description: 要求新註冊顧客同時通過 Email 與簡訊驗證，確保會員資料真實性，降低空帳號與惡意註冊風險。
 created: 2026-05-27 14:58
-last_modified: 2026-06-22 09:52
+last_modified: 2026-06-30 08:02
 lang: zh-TW
 type: tutorial
 status: ""
@@ -22,13 +22,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 設定 Email 驗證
@@ -76,10 +76,10 @@ paths:
   - 管理中心 > 顧客註冊設定
   - 訊息推播 > Email / 簡訊通知樣板 > 顧客相關 > 顧客帳號啟用提醒
 layouts: []
-wp_url: 
-    - https://www.cyberbiz.io/helpcenter/?p=1865
-    - https://www.cyberbiz.io/helpcenter/?p=1871
-permalink: ""
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=1865
+  - https://www.cyberbiz.io/helpcenter/?p=1871
+permalink: https://help.cyberbiz.io/ec/website-management/setup-customer-email-phone-verification
 comments: false
 search:
   exclude: false

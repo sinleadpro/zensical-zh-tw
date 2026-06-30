@@ -1,9 +1,8 @@
 ---
-
 title: 出貨狀態物流提示文字說明
 description: 串接物流訂單出貨後，系統如何依物流貨態自動顯示不同的「已出貨」提示文字，以及其顯示位置與通知觸發時機。
 created:
-last_modified: 2026-05-28 21:12
+last_modified: 2026-06-30 10:54
 lang: zh-TW
 type: tutorial
 status:
@@ -70,10 +69,7 @@ icon: lucide/type
 hide:
 ---
 
-
-
-
-![](../../../assets/images/ec-會員-訂單查詢頁-物流提示文字.png){ .hero-page }
+![訂單查詢頁物流提示](../../../assets/images/ec-會員-訂單查詢頁-物流提示文字.png){ title="訂單查詢頁物流提示" .hero-page }
 
 在 CYBERBIZ 系統中，**「已出貨狀態物流提示文字」** 功能旨在提供商家與顧客更精確的訂單配送資訊，讓雙方能即時掌握包裹目前的處理進度。
 
@@ -82,12 +78,11 @@ hide:
 ## 功能定義與支援範圍
 
 - **觸發機制**：當商家針對「**串接物流**」訂單操作出貨，點選「下載託運單並改為已出貨」後，系統會根據物流商回傳的貨態，在「已出貨」欄位旁加上補充文字。
-
 - **支援對象**：
 
-	- **僅限串接物流訂單**：必須透過系統下載託運單。若使用「自訂物流」出貨，配送狀態僅會停留在「已出貨」，不會顯示補充文字。
-	- **僅限拖拉版型使用**：此功能不支援預設版型。
-	- **適用訂單類型**：包含一般訂單與定期定額訂單。
+	- [x] **僅限串接物流訂單**：必須透過系統下載託運單。若使用「自訂物流」出貨，配送狀態僅會停留在「已出貨」，不會顯示補充文字。
+	- [x] **僅限拖拉版型使用**：此功能不支援預設版型。
+	- [x] **適用訂單類型**：包含一般訂單與定期定額訂單。
 
 ## 相關注意事項
 
@@ -114,17 +109,17 @@ hide:
 
 - **訂單明細頁**（路徑：「訂單」>「所有訂單」> 點擊指定訂單編號）。
 
-![](../../../assets/images/ec-訂單明細-物流狀態提示文字.png)
+![訂單明細物流提示](../../../assets/images/ec-訂單明細-物流狀態提示文字.png){ title="訂單明細物流提示" }
 
 ### 前台會員中心
 
 - **訂單查詢頁** （路徑：**網站右上角 :lucide-user: 圖示 > 訂單查詢**）。
 
-	![](../../../assets/images/ec-會員-訂單查詢頁-物流提示文字.png)
+	![前台訂單查詢提示](../../../assets/images/ec-會員-訂單查詢頁-物流提示文字.png){ title="前台訂單查詢提示" }
 
 - **訂單明細頁**（路徑：**網站右上角 :lucide-user: 圖示 > 訂單查詢 > 訂單明細**）。
 
-	![](../../../assets/images/ec-會員-訂單明細頁-物流提示文字.png)
+	![前台訂單明細提示](../../../assets/images/ec-會員-訂單明細頁-物流提示文字.png){ title="前台訂單明細提示" }
 
 
 ## 自動化出貨通知發送時機
@@ -140,15 +135,15 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-mail:{ .lg }     
-  [__Email 通知樣板設定__](../../notifications/管理與自定義 Email 通知樣板.md){ data-preview }    
+  [__Email 通知樣板設定__](../../notifications/manage-email-templates.md)    
   管理與設定 Email 通知訊息樣板。
 
 - :lucide-message-square-text:{ .lg }   
-  [__簡訊通知樣板設定__](../notifications/){ data-preview }       
+  [__簡訊通知樣板設定__](../../notifications/manage-sms-templates.md){ title="設定與管理簡訊通知樣板" }       
   設定簡訊提醒訊息的顯示樣式。
 
 - :simple-line:{ .lg }   
-  [__LINE OA 通知樣板設定__](../../integrations/line/設定 LINE OA 訊息樣板.md){ data-preview }       
+  [__LINE OA 通知樣板設定__](../../notifications/manage-line-oa-templates.md)       
   設定 LINE 官方帳號提醒訊息的顯示樣式。
 
 </div>

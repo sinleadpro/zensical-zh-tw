@@ -2,7 +2,7 @@
 title: 詞彙表
 description: 收錄 CYBERBIZ 系統專業詞彙的定義與說明，涵蓋商品管理、訂單物流、行銷分析、平台方案等面向。每個詞彙附有英文註解與相關文件參閱連結。
 icon: lucide/book-marked
-last_modified: 2026-06-08 18:25
+last_modified: 2026-06-30 15:00
 type: reference
 author: Jase
 tags:
@@ -119,13 +119,13 @@ tags:
 
 由多個規格項目組合而成的具體販售單位。
 
-- **參閱**：[](../ec/products/create-and-manage/product-swatches-variant-images-default.md)ge/設定商品色票與款式圖片-預設版型.md){ title="設定商品色票與款式圖片-預設版型" }
+- **參閱**：[設定商品色票與款式圖片](../ec/products/create-and-manage/product-swatches-variant-images-default.md){ title="設定商品色票與款式圖片-預設版型" }
 
 ### 商品通路
 
 用於定義商品履約來源的屬性，當同一商品需依不同倉庫、門市或供應商進行出貨時，系統可透過此設定區分對應的履約來源。
 
-- **參閱**：[設定商品配送條件](../ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）.md){ title="設定商品配送條件（物流、溫層與出貨通路）" }
+- **參閱**：[設定商品配送條件](../ec/products/shipping/setup-product-shipping-conditions.md){ title="設定商品配送條件（物流、溫層與出貨通路）" }
 
 ### 商品通路設定
 
@@ -173,13 +173,13 @@ tags:
 
 決定商品出貨與運費規則的屬性組合（如溫層、配送方式、出貨通路），影響訂單是否拆單與物流流程。
 
-- **參閱**：[設定商品配送條件](../ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）.md){ title="設定商品配送條件（物流、溫層與出貨通路）" }
+- **參閱**：[設定商品配送條件](../ec/products/shipping/setup-product-shipping-conditions.md){ title="設定商品配送條件（物流、溫層與出貨通路）" }
 
 ### 配送條件綁定
 
 將商品明確設定為「可使用」或「僅能使用」特定的配送物流、配送溫層或出貨通路。
 
-- **參閱**：[配送條件](#配送條件) | [設定商品配送條件](../ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）.md){ title="設定商品配送條件（物流、溫層與出貨通路）" }
+- **參閱**：[配送條件](#配送條件) | [設定商品配送條件](../ec/products/shipping/setup-product-shipping-conditions.md){ title="設定商品配送條件（物流、溫層與出貨通路）" }
 
 ### 配送溫層設定
 
@@ -195,19 +195,19 @@ tags:
 
 商品從商家或倉儲中心配送至顧客端的物流過程，即一般出貨流程。
 
-- **參閱**：[逆物流](#逆物流) | [訂單出貨流程](../ec/orders/basics/訂單出貨流程.md)
+- **參閱**：[逆物流](#逆物流) | [訂單出貨流程](../ec/orders/basics/order-fulfillment-flow.md){ title="訂單出貨流程" }
 
 ### 逆物流
 
 商品從顧客端回流至商家或倉儲中心的物流過程，通常包含退貨、換貨與維修等操作。
 
-- **參閱**：[正物流](#正物流) | [訂單退貨流程](../ec/orders/returns-refunds/訂單退貨流程.md){ title="訂單退貨流程" }
+- **參閱**：[正物流](#正物流) | [訂單退貨流程](../ec/orders/order-return-process.md){ title="訂單退貨流程" }
 
 ### 退貨期限
 
 商家規定顧客可申請退貨的最長時間範圍，自顧客收到商品起算。
 
-- **參閱**：[處理超過退貨期限的訂單](../ec/orders/overdue-return-handling.md)
+- **參閱**：[處理超過退貨期限的訂單](../ec/orders/returns-refunds/overdue-return-handling.md){ title="處理超過退貨期限的訂單" }
 
 ### 上收服務
 
@@ -217,7 +217,7 @@ tags:
 
 賣家不透過超商門市櫃台寄件，而是將整批包裹直接載往超商物流中心進行交寄的物流模式。
 
-- **參閱**：[使用超商大宗寄倉（B2C）出貨](../ec/orders/cvs-b2c-bulk-shipping.md)
+- **參閱**：[使用超商大宗寄倉（B2C）出貨](../ec/orders/cvs-shipping/cvs-b2c-bulk-shipping.md){ title="使用超商大宗寄倉（B2C）出貨" }
 
 ### WMS
 
@@ -297,7 +297,7 @@ tags:
 
 商品或服務銷售後，平台或商家按事先設定的比例將收入分配給合作方或相關權益人。
 
-- **參閱**：[了解分潤功能](../ec/profit-sharing/了解分潤功能.md){ title="了解分潤功能規格" }
+- **參閱**：[了解分潤功能](../ec/profit-sharing/index.md){ title="了解分潤功能" }
 
 ### CTR
 

@@ -2,7 +2,8 @@
 title: 訂單出貨流程
 permalink: https://help.cyberbiz.io/ec/orders/basics/order-fulfillment-flow
 version: ""
-last_modified: 2026-06-10 19:30
+author: Jase
+last_modified: 2026-06-30 08:53
 description: ""
 product:
   - EC
@@ -44,7 +45,7 @@ prerequisites:
   - 確認儲值中心餘額充足_一般版
 lang: en-US
 sites: []
-status: new
+status: 
 difficulty: ""
 audiences: []
 wp_url:
@@ -59,9 +60,6 @@ search:
   exclude: ""
 icon: lucide/workflow
 ---
-
-從訂單成立到包裹寄出，本文帶您了解新版訂單列表的出貨方式、出貨前的準備、運費計算規則，以及系統串接物流與自訂物流的操作差異。
-{ .subtitle }
 
 <!-- ![訂單出貨流程總覽](../../../assets/images/fulfillment-overview-hero.png){ .hero-page } -->
 
@@ -229,9 +227,9 @@ icon: lucide/workflow
 
 
 ??? example "壓縮檔內容範例"
-    ![託運單壓縮檔內容](../../../assets/images/ec-訂單-所有訂單-託運單壓縮檔內容.png)
+    ![託運單壓縮檔內容](../../../assets/images/ec-訂單-所有訂單-託運單壓縮檔內容.png){ title="託運單壓縮檔內容" }
 
-!!! note "為什麼是壓縮檔"
+!!! info "為什麼是壓縮檔"
     批次出貨可能一次涵蓋多筆訂單與多份文件，系統統一打包成 ZIP，避免逐筆、逐份分開下載。下載完成後請先解壓縮，再列印所需的託運單與明細。
 
 <!---
@@ -241,7 +239,7 @@ icon: lucide/workflow
 
 -->
 
-> **黑貓專屬：** 下載黑貓託運單壓縮檔的同時，系統會一併送出 **[叫車（司機收件）](../home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }** 需求，您不需另外手動叫車[^tcat-call-driver]。
+!!! tip "**黑貓專屬：** 下載黑貓託運單壓縮檔的同時，系統會一併送出 **[叫車（司機收件）](../home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }** 需求，您不需另外手動叫車[^tcat-call-driver]。"
 
 [^tcat-call-driver]: 此功能需 **專業PLUS / 進階 PLUS / 高手 PLUS / 企業** 方案，並向 CYBERBIZ 客服申請開通。
 
@@ -263,14 +261,6 @@ icon: lucide/workflow
 - :lucide-package-open:{ .lg }  
   [__訂單部分出貨__](../home-delivery/partial-shipment.md){ title="設定訂單部分出貨" }  
   同一筆訂單先寄出有現貨的商品，剩餘的稍後再出。
-
-- :lucide-list-checks:{ .lg }  
-  [__配送狀態對照表__](../references/fulfillment-statuses.md){ title="配送狀態對照表" data-preview }  
-  了解每個配送狀態代表的意義與出現時機。
-
-- :lucide-receipt:{ .lg }  
-  [__黑貓託運單費率__](../../payments-and-logistics/references/tcat-delivery-rate-card.md){ title="黑貓宅配託運單規格與費用對照表" data-preview }  
-  查詢黑貓各材積的運費規格與費用。
 
 </div>
 
@@ -300,7 +290,7 @@ icon: lucide/workflow
 
 ??? quote "已經下載過託運單，還能再列印嗎"
     [](){ #faq-fulfillment-redownload }
-    可以。在「更多操作」選擇「補印託運單」，即可重新下載該訂單的託運單 PDF（詳見 [補印與加印託運單](../../payments-and-logistics/補印與加印託運單.md){ title="補印與加印託運單" }）。
+    可以。在「更多操作」選擇「補印託運單」，即可重新下載該訂單的託運單 PDF。
 
 ??? quote "訂單出貨後發生異常，可以重新出貨嗎"
     [](){ #faq-fulfillment-reship }
@@ -308,7 +298,7 @@ icon: lucide/workflow
 
 ??? quote "超商出貨後遇到「門市關轉」，怎麼處理"
     [](){ #faq-fulfillment-store-closed }
-    依超商不同處理方式不同（詳見 [超商 C2C 門市關轉說明](../cvs-shipping/cvs-c2c-shipping.md#門市關轉){ title="操作超商店到店 C2C 出貨" }）：
+    依超商不同處理方式不同（詳見 [超商 C2C 門市關轉說明](../cvs-shipping/cvs-c2c-shipping.md#operate-cvs-c2c-exception-store-closed){ title="操作超商店到店 C2C 出貨" }）：
 
     - **7-11：** 可在期限內（依超商規定，通常為關轉後兩天內、且上午 10：30 前）至後台 **重新選擇退回門市** 並 **上傳通知 7-11**。
     - **全家 / 萊爾富：** 直接走退貨流程，包裹退回物流總倉後，再退到店家填寫的退貨地址。
@@ -334,9 +324,9 @@ icon: lucide/workflow
 
 ## 參考資料 { #reference-fulfillment }
 
-- [配送狀態對照表](../references/fulfillment-statuses.md){ title="配送狀態對照表" data-preview }
-- [超商物流部分出貨支援對照表](../references/cvs-partial-shipping-support.md){ title="超商物流部分出貨支援對照表" data-preview }
-- [黑貓託運單規格與費用對照表](../../payments-and-logistics/references/tcat-delivery-rate-card.md){ title="黑貓宅配託運單規格與費用對照表" data-preview }
+- [配送狀態對照表](../references/fulfillment-statuses.md){ title="配送狀態對照表" }
+- [超商物流部分出貨支援對照表](../references/cvs-partial-shipping-support.md){ title="超商物流部分出貨支援對照表" }
+- [黑貓託運單規格與費用對照表](../../payments-and-logistics/references/tcat-delivery-rate-card.md){ title="黑貓宅配託運單規格與費用對照表" }
 <!---
 <!---
 

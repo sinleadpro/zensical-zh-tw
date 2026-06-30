@@ -62,7 +62,7 @@ icon: lucide/user-search
 hide: []
 ---
 
-![消費顧客分析頁面](../../assets/images/ec-bi-customer-analysis-hero.png){ .hero-page }
+![消費顧客分析頁面](../../assets/images/ec-bi-customer-analysis-hero.png){ title="消費顧客分析頁面" .hero-page }
 
 ## 消費顧客介紹 { #intro-customer-analysis }
 
@@ -287,11 +287,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-chart-line:{ .lg }  
-  [__會員分析__](member-analysis.md)  
+  [__會員分析__](member-analysis.md){ title="會員分析" }  
   掌握會員規模、成長趨勢與整體回購率。
 
 - :lucide-users:{ .lg }  
-  [__會員總覽__](member-overview.md)  
+  [__會員總覽__](member-overview.md){ title="會員總覽" }  
   查看性別、年齡、註冊來源與會員等級的輪廓分析。
 
 </div>

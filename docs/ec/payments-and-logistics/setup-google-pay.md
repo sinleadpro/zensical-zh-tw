@@ -2,7 +2,7 @@
 title: 設定 Google Pay™
 description: 指引商家在官網啟用並管理 Google Pay™ 支付選項，包含費率說明、後台配置流程以及金流門檻設定限制。
 created: 2026-03-16 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 08:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -57,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3900
   - https://www.cyberbiz.io/support/?p=2620
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-google-pay
 comments: false
 search:
   exclude: false
@@ -113,8 +113,6 @@ Google Pay 的交易安全邏輯將繼承商家在後台的信用卡設定：
     >  **虛擬信用卡** 是 Google提供的資安服務，在 Google錢包綁定 **真實信用卡** 後，Google會生成 **虛擬信用卡** 供刷卡，防止 **真實信用卡** 資訊遭外洩盜刷。詳情請看 [Google Pay 幫助](https://support.google.com/googlepay/answer/7644068)。
 
 ### 交易驗證與合規聲明
-
-請確保與您的金流服務商合作，為 Google Pay 保存的實體卡交易觸發基於風險的 3D-S 驗證。
 
 - [Google Pay APIs Acceptable Use Policy](https://payments.developers.google.com/terms/aup)
 - [Google Pay API Terms of Service defines](https://payments.developers.google.com/terms/sellertos)

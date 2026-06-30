@@ -217,16 +217,15 @@ copyright = """
                 { "標籤管理" = "ec/products/categories-and-tags/manage-product-tags.md" }
             ]},
             { "搜尋與曝光" = [
-                {"overview" = "ec/products/discoverability/index.md"},
                 {"商品搜尋可見性" = "ec/products/discoverability/product-search-visibility.md"},
                 {"站內搜尋設定" = "ec/products/discoverability/setup-site-search.md"},
                 {"搜尋結果排除" = "ec/products/discoverability/exclude-keyword-products-search.md"},
-                {"前台商品篩選器" = "ec/products/discoverability/設定前台商品篩選器.md"}
+                {"前台商品篩選器" = "ec/products/discoverability/setup-product-filters.md"}
             ]},
             { "批次管理" = [
                 {"Excel 大量匯入商品" = "ec/products/bulk-operations/excel-import-products.md"},
-                {"批次修改商品描述與配送設定" = "ec/products/bulk-operations/batch-update-product-descriptions-shipping.md"},
-                {"排除商品上傳至第三方平台" = "ec/products/bulk-operations/排除商品上傳至第三方平台.md"},
+                {"修改商品描述與配送" = "ec/products/bulk-operations/batch-update-product-descriptions-shipping.md"},
+                {"排除商品上傳至第三方平台" = "ec/products/bulk-operations/exclude-products-from-third-party-platforms.md"},
                 {"複製商品到快速到貨門市" = "ec/products/copy-products-to-quick-delivery-stores.md"},
                 {"複製商品至 POS 商店" = "ec/products/bulk-operations/copy-products-to-pos-stores.md"},
             ]},
@@ -241,7 +240,7 @@ copyright = """
                 {"結帳拆分多購物車" = "ec/products/checkout/checkout-split-multi-cart.md"}
             ]},
             { "物流配送" = [
-                { "配送條件設定" = "ec/products/shipping/設定商品配送條件（物流、溫層與出貨通路）.md" },
+                { "配送條件設定" = "ec/products/shipping/setup-product-shipping-conditions.md" },
                 { "超商配送限制與物流排除" = "ec/products/shipping/cvs-shipping-restrictions-exclusions.md" }
             ]},
             { "參考資源" = [
@@ -437,7 +436,7 @@ copyright = """
                 { "優先填寫收件人設定" = "ec/website-appearance/checkout-and-shopping-flow/priority-recipient-info-checkout.md" }
             ]},
             { "程式碼自訂" = [
-                { "文字編輯器教學" = "ec/website-appearance/code-customization/edit-content-text-editor.md" },
+                { "文字編輯器教學" = "ec/website-appearance/code-customization/text-editor.md" },
                 { "樣板編輯器" = "ec/website-appearance/code-customization/theme-editor-complete-guide.md" },
                 { "恢復樣板版本" = "ec/website-appearance/code-customization/restore-code-theme-editor.md" }
             ]},
@@ -447,7 +446,8 @@ copyright = """
                 { "自訂頁面可用區塊對照表" = "ec/website-appearance/references/custom-pages-blocks.md" },
                 { "排程跑馬燈對照表" = "ec/website-appearance/references/scheduled-carousel-statuses.md" },
                 { "主題類型對照表" = "ec/website-appearance/references/theme-types.md" },
-                { "頁腳聯絡資訊欄位" = "ec/website-appearance/references/business-disclosure-footer-fields.md" }
+                { "頁腳聯絡資訊欄位" = "ec/website-appearance/references/business-disclosure-footer-fields.md" },
+                { "文字編輯器對照表" = "ec/website-appearance/references/text-editor-toolbar.md" }
             ]}
         ]},
         { "APP MARKET" = [
@@ -695,7 +695,7 @@ copyright = """
             { "台新有線刷卡機" = "pos/hardware/taishin-wired-credit-card-machine.md" },
             { "MYPAY 無線刷卡機" = "pos/hardware/mypay-wireless-credit-card-machine.md" },
             { "Posiflex 有線發票機" = "pos/hardware/posiflex-wired-invoice-printer.md" },
-            { "EPSON TM-T82III 發票機" = "pos/hardware/epson-wired-invoice-printer.md" },
+            { "EPSON TM-T82III 發票機" = "pos/hardware/epson-tm-t82iii-invoice-printer.md" },
             { "EPSON TM-M30III 發票機" = "pos/hardware/epson-tm-m30iii-invoice-printer.md" },
             { "標籤印表機" = "pos/hardware/label-printer.md" },
             { "客顯螢幕" = "pos/hardware/customer-display-screen.md" },

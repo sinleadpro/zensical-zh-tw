@@ -2,7 +2,7 @@
 title: OMO 分析報表
 description: 整合線上官網（EC）與線下實體門市（POS）的經營數據，在同一頁比較兩個通路的營收、訂單、會員、商品與行銷表現。
 created: 2026-06-23 10:00
-last_modified: 2026-06-23 14:12
+last_modified: 2026-06-30 13:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -73,7 +73,7 @@ icon: lucide/line-chart
 hide:
 ---
 
-![OMO分析報表頁面](../../assets/images/ec-bi-omo-analysis-report-hero.png){ .hero-page }
+![OMO分析報表頁面](../../assets/images/ec-bi-omo-analysis-report-hero.png){ title="OMO分析報表頁面" .hero-page }
 
 ## OMO 分析報表說明 { #intro-omo }
 
@@ -117,21 +117,21 @@ hide:
 - **核心指標卡**：營收、訂單數、註冊會員數，分別呈現 EC 與 POS 的數值，並與比較區間對照增減。
 
     === "營收"
-        ![營收指標卡](../../assets/images/ec-bi-omo-revenue-card.png)
+        ![營收指標卡](../../assets/images/ec-bi-omo-revenue-card.png){ title="營收指標卡" }
 
     === "訂單數"
-        ![訂單數指標卡](../../assets/images/ec-bi-omo-order-count-card.png)
+        ![訂單數指標卡](../../assets/images/ec-bi-omo-order-count-card.png){ title="訂單數指標卡" }
 
     === "註冊會員數"
-        ![註冊會員數指標卡](../../assets/images/ec-bi-omo-member-count-card.png)
+        ![註冊會員數指標卡](../../assets/images/ec-bi-omo-member-count-card.png){ title="註冊會員數指標卡" }
 
 - **平均訂單金額**：以「總營業額 ÷ 總訂單數」呈現 EC 與 POS 的客單價。詳見[名詞定義對照表](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO 分析報表共用定義" data-preview }。
 
-    ![平均訂單金額](../../assets/images/ec-bi-omo-aov-card.png)
+    ![平均訂單金額](../../assets/images/ec-bi-omo-aov-card.png){ title="平均訂單金額" }
 
 - **商品銷量 TOP10**：分別列出 EC 與 POS 銷量前 10 名的商品。
 
-    ![商品銷量 TOP10](../../assets/images/ec-bi-omo-top10-products.png)
+    ![商品銷量 TOP10](../../assets/images/ec-bi-omo-top10-products.png){ title="商品銷量 TOP10" }
 
 ---
 
@@ -142,14 +142,14 @@ hide:
 - **EC/POS 營業額與趨勢圖**：看兩個通路的營業額隨時間的變化。
 
     === "營業額指標"
-        ![營業額指標](../../assets/images/ec-bi-omo-ec-revenue-trend.png)
+        ![營業額指標](../../assets/images/ec-bi-omo-ec-revenue-trend.png){ title="營業額指標" }
 
     === "營業額趨勢圖"
-        ![營業額趨勢圖](../../assets/images/ec-bi-omo-pos-revenue-trend.png)
+        ![營業額趨勢圖](../../assets/images/ec-bi-omo-pos-revenue-trend.png){ title="營業額趨勢圖" }
 
 - **EC/POS 營收熱點圖**：以顏色深淺呈現各時段營收高低，顏色越深代表該時段營收越高，可作為安排行銷活動或直播時段的參考。詳見[名詞定義對照表](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO 分析報表共用定義" data-preview }。
 
-    ![營收熱點圖](../../assets/images/ec-bi-omo-revenue-heatmap.png)
+    ![營收熱點圖](../../assets/images/ec-bi-omo-revenue-heatmap.png){ title="營收熱點圖" }
 
 ---
 
@@ -295,15 +295,15 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-dollar-sign:{ .lg }  
-  [__營收__](revenue-analysis.md)  
+  [__營收__](revenue-analysis.md){ title="營收分析" }  
   深入看官網的營收組成與成長趨勢。
 
 - :lucide-users:{ .lg }  
-  [__會員分析__](member-analysis.md)  
+  [__會員分析__](member-analysis.md){ title="會員分析" }  
   掌握會員規模、成長與回購趨勢。
 
 - :lucide-repeat:{ .lg }  
-  [__消費顧客分析__](customer-analysis.md)  
+  [__消費顧客分析__](customer-analysis.md){ title="消費顧客分析" }  
   以新舊客切分，深入看訂單貢獻與回購表現。
 
 - :lucide-file-text:{ .lg }  
@@ -326,7 +326,7 @@ hide:
     報表為隔日批次更新，並非即時統計。
 
     - 流量、轉換率數據於隔日下午五點半更新，其餘數據於隔日凌晨零點更新。
-    - 取消與退貨訂單會定時更新排除，因此數字可能與訂單列表的總金額不同。詳見[有效訂單定義](references/omo-definitions-reference.md#reference-omo-valid-order){ title="OMO 分析報表共用定義" }。
+    - 取消與退貨訂單會定時更新排除，因此數字可能與訂單列表的總金額不同。詳見[有效訂單定義](references/omo-definitions-reference.md#reference-omo-valid-order){ title="OMO 分析報表共用定義" data-preview }。
 
 ??? quote "同一商品在 EC 與 POS 沒有合併計算"
     [](){ #faq-omo-sku-merge }

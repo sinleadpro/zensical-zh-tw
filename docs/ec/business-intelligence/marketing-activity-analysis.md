@@ -77,7 +77,7 @@ icon: lucide/tag
 hide: []
 ---
 
-![行銷活動分析頁面](../../../assets/images/ec-bi-marketing-activity-analysis-hero.png){ .hero-page }
+![行銷活動分析頁面](../../assets/images/ec-bi-marketing-activity-analysis-hero.png){ title="行銷活動分析頁面" .hero-page }
 
 ## 行銷活動分析說明 { #intro-marketing-activity }
 
@@ -129,15 +129,15 @@ hide: []
 
 1. **選擇日期區間：** 在「**折扣訂單概況**」區塊上方的日期選擇器挑選要分析的時間範圍。
 
-    ![選擇日期區間](../../../assets/images/ec-bi-mkt-act-date-range.png)
+    ![選擇日期區間](../../assets/images/ec-bi-mkt-act-date-range.png){ title="選擇日期區間" }
 
 2. **檢視四項關鍵數字：** 系統會顯示 **使用折扣訂單數**、**使用折扣訂單金額**、**總訂單數**、**總訂單金額** 四張數字卡。
 
-    ![檢視四項關鍵數字](../../../assets/images/ec-bi-mkt-act-key-metrics.png)
+    ![檢視四項關鍵數字](../../assets/images/ec-bi-mkt-act-key-metrics.png){ title="檢視四項關鍵數字" }
 
 3. **檢視佔比圖：** 下方兩個圓餅圖分別呈現 **折扣訂單數佔比** 與 **折扣訂單金額佔比**，讓您一眼看出折扣訂單在整體中的比重。
 
-    ![檢視佔比圖](../../../assets/images/ec-bi-mkt-act-pie-chart.png)
+    ![檢視佔比圖](../../assets/images/ec-bi-mkt-act-pie-chart.png){ title="檢視佔比圖" }
 
 ??? info "折扣訂單概觀指標定義"
 
@@ -156,15 +156,15 @@ hide: []
 
 1. **設定條件：** 在「**折扣種類分析**」區塊選擇日期區間，並於 **「請選擇折扣種類」** 下拉中勾選想比較的折扣種類(可複選，預設為全部折扣種類)。
 
-    ![設定條件](../../../assets/images/ec-bi-mkt-act-discount-condition.png)
+    ![設定條件](../../assets/images/ec-bi-mkt-act-discount-condition.png){ title="設定條件" }
 
 2. **切換衡量指標：** 透過區塊內的 **「訂單數」** 與 **「訂單金額」** 切換頁籤，決定長條圖要以訂單數還是訂單金額呈現。
 
-    ![切換衡量指標](../../../assets/images/ec-bi-mkt-act-switch-metric.png)
+    ![切換衡量指標](../../assets/images/ec-bi-mkt-act-switch-metric.png){ title="切換衡量指標" }
 
 3. **判讀長條圖：** 長條圖會列出各折扣種類在選定期間的表現，協助您找出最受歡迎的折扣類型。
 
-    ![判讀長條圖](../../../assets/images/ec-bi-mkt-act-bar-chart.png)
+    ![判讀長條圖](../../assets/images/ec-bi-mkt-act-bar-chart.png){ title="判讀長條圖" }
 
 ??? info "折扣分析指標定義"
 
@@ -184,23 +184,23 @@ hide: []
 
 1. **設定條件：** 在「**折扣活動排名**」區塊選擇日期區間與折扣種類。
 
-    ![設定排名條件](../../../assets/images/ec-bi-mkt-act-ranking-condition.png)
+    ![設定排名條件](../../assets/images/ec-bi-mkt-act-ranking-condition.png){ title="設定排名條件" }
 
 2. **檢視排名表格：** 表格會依名次列出各檔折扣活動的 **折扣活動名稱**、**折扣種類**、**總訂單金額**、**總訂單數**、**平均訂單金額**。
 
-    ![檢視排名表格](../../../assets/images/ec-bi-mkt-act-ranking-table.png)
+    ![檢視排名表格](../../assets/images/ec-bi-mkt-act-ranking-table.png){ title="檢視排名表格" }
 
 3. **調整排序：** 點擊 **總訂單金額**、**總訂單數** 或 **平均訂單金額** 欄位標題，即可依該欄位重新排序。
 
-    ![調整排序](../../../assets/images/ec-bi-mkt-act-adjust-sort.png)
+    ![調整排序](../../assets/images/ec-bi-mkt-act-adjust-sort.png){ title="調整排序" }
 
 4. **下載報表：** 點擊區塊右上角的 **下載** 圖示，系統會匯出目前的折扣活動排名檔案。
 
-    ![下載報表](../../../assets/images/ec-bi-mkt-act-download-report.png)
+    ![下載報表](../../assets/images/ec-bi-mkt-act-download-report.png){ title="下載報表" }
 
 5. **翻頁查看：** 資料較多時，可用表格下方的分頁切換查看其餘名次。
 
-    ![翻頁查看](../../../assets/images/ec-bi-mkt-act-pagination.png)
+    ![翻頁查看](../../assets/images/ec-bi-mkt-act-pagination.png){ title="翻頁查看" }
 
 ??? info "折扣活動排名指標定義"
 
@@ -223,11 +223,11 @@ hide: []
 
 1. **選擇日期區間：** 在「**優惠券種類分析**」區塊選擇要分析的時間範圍[^coupon-category-days]。
 
-    ![選擇日期區間](../../../assets/images/ec-bi-mkt-act-coupon-date-range.png)
+    ![選擇日期區間](../../assets/images/ec-bi-mkt-act-coupon-date-range.png){ title="選擇日期區間" }
 
 2. **選擇優惠券種類：** 於 **「請選擇優惠券種類」** 下拉選擇一種優惠券種類。
 
-    ![選擇優惠券種類](../../../assets/images/ec-bi-mkt-act-coupon-category.png)
+    ![選擇優惠券種類](../../assets/images/ec-bi-mkt-act-coupon-category.png){ title="選擇優惠券種類" }
 
 3. **切換分析圖表：** 透過圖表上方頁籤在 **「使用狀況分析」** 與 **「優惠券營收分析」** 之間切換。
 
@@ -235,15 +235,15 @@ hide: []
 
         此頁籤顯示優惠券的 **發放數量**[^coupon-distribution-count] 與 **已使用數量**[^coupon-used-count] 趨勢圖，數字卡則呈現各項指標。
 
-        ![使用狀況分析](../../../assets/images/ec-bi-mkt-act-coupon-usage.png)
+        ![使用狀況分析](../../assets/images/ec-bi-mkt-act-coupon-usage.png){ title="使用狀況分析" }
 
     === "優惠券營收分析"
 
-        ![優惠券營收分析](../../../assets/images/ec-bi-mkt-act-coupon-revenue.png)
+        ![優惠券營收分析](../../assets/images/ec-bi-mkt-act-coupon-revenue.png){ title="優惠券營收分析" }
 
 4. **檢視指標數字卡：** 區塊會顯示該種類優惠券的平均折扣金額、折扣金額、平均折扣比例、使用次數、營業額等數字卡。各指標的精確算法請見 [優惠券指標定義對照表](references/marketing-activity-coupon-metrics-reference.md#reference-marketing-activity-coupon-metrics-category){ data-preview }。
 
-    ![檢視指標數字卡](../../../assets/images/ec-bi-mkt-act-coupon-metrics.png)
+    ![檢視指標數字卡](../../assets/images/ec-bi-mkt-act-coupon-metrics.png){ title="檢視指標數字卡" }
 
 [^coupon-category-days]: 優惠券種類分析的日期區間最長不得超過 100 天。
 
@@ -253,33 +253,33 @@ hide: []
 
 1. **選擇日期區間：** 在「**特定優惠券分析**」區塊選擇時間範圍[^coupon-specific-days]。
 
-    ![選擇日期區間](../../../assets/images/ec-bi-mkt-act-specific-date-range.png)
+    ![選擇日期區間](../../assets/images/ec-bi-mkt-act-specific-date-range.png){ title="選擇日期區間" }
 
 2. **篩選優惠券：** 先於 **「請選擇優惠券種類」** 選擇種類，再於 **「優惠券名稱」** 欄位搜尋並選定要分析的那一張優惠券。
 
-    ![篩選優惠券](../../../assets/images/ec-bi-mkt-act-filter-coupon.png)
+    ![篩選優惠券](../../assets/images/ec-bi-mkt-act-filter-coupon.png){ title="篩選優惠券" }
 
 3. **切換分析圖表：** 透過頁籤在 **「使用狀況分析」**、**「使用率分析」**、**「營收分析」**、**「AOV分析」** 之間切換。
 
     === "使用狀況分析"
 
-        ![使用狀況分析](../../../assets/images/ec-bi-mkt-act-specific-usage.png)
+        ![使用狀況分析](../../assets/images/ec-bi-mkt-act-specific-usage.png){ title="使用狀況分析" }
 
     === "使用率分析"
 
-        ![使用率分析](../../../assets/images/ec-bi-mkt-act-specific-usage-rate.png)
+        ![使用率分析](../../assets/images/ec-bi-mkt-act-specific-usage-rate.png){ title="使用率分析" }
 
     === "營收分析"
 
-        ![營收分析](../../../assets/images/ec-bi-mkt-act-specific-revenue.png)
+        ![營收分析](../../assets/images/ec-bi-mkt-act-specific-revenue.png){ title="營收分析" }
 
     === "AOV分析"
 
-        ![AOV分析](../../../assets/images/ec-bi-mkt-act-specific-aov.png)
+        ![AOV分析](../../assets/images/ec-bi-mkt-act-specific-aov.png){ title="AOV分析" }
 
 4. **檢視指標數字卡：** 區塊會顯示該張優惠券的折扣金額、平均折扣比例、平均訂單金額、優惠券訂單營業額、優惠券使用次數、使用率、平均使用週期、目標客群數、目標客群總營業額等數字卡。各指標的精確算法請見 [優惠券指標定義對照表](references/marketing-activity-coupon-metrics-reference.md#reference-marketing-activity-coupon-metrics-specific){ data-preview }。
 
-    ![檢視指標數字卡](../../../assets/images/ec-bi-mkt-act-specific-metrics.png)
+    ![檢視指標數字卡](../../assets/images/ec-bi-mkt-act-specific-metrics.png){ title="檢視指標數字卡" }
 
 [^coupon-specific-days]: 特定優惠券分析的日期區間最長不得超過 180 天。
 
@@ -297,7 +297,7 @@ hide: []
 1. **切換至分頁：** 點選上方 **「紅利分析」** 分頁，頁面即會載入全館紅利使用相關的分析圖表。
 2. **檢視頂部紅利點數概況：** 分頁上方有 **紅利點數總計使用率** 與 **紅利點數總計** 兩張數字卡，呈現目前會員手上紅利的整體狀況。
 
-    ![檢視頂部紅利點數概況](../../../assets/images/ec-bi-mkt-act-bonus-summary.png)
+    ![檢視頂部紅利點數概況](../../assets/images/ec-bi-mkt-act-bonus-summary.png){ title="檢視頂部紅利點數概況" }
 
     !!! note "註釋"
         兩張數字卡（紅利點數總計使用率、紅利點數總計）反映的是 **會員目前持有紅利的即時狀況**，為當下快照、**不受日期區間影響**；其餘圖表則是依所選日期區間統計的訂單數據。
@@ -306,35 +306,35 @@ hide: []
 
     === "紅利營業額"
 
-        ![紅利營業額](../../../assets/images/ec-bi-mkt-act-bonus-revenue.png)
+        ![紅利營業額](../../assets/images/ec-bi-mkt-act-bonus-revenue.png){ title="紅利營業額" }
 
     === "營業額占比"
 
-        ![營業額占比](../../../assets/images/ec-bi-mkt-act-bonus-revenue-ratio.png)
+        ![營業額占比](../../assets/images/ec-bi-mkt-act-bonus-revenue-ratio.png){ title="營業額占比" }
 
     === "紅利訂單"
 
-        ![紅利訂單](../../../assets/images/ec-bi-mkt-act-bonus-orders.png)
+        ![紅利訂單](../../assets/images/ec-bi-mkt-act-bonus-orders.png){ title="紅利訂單" }
 
     === "訂單數占比"
 
-        ![訂單數占比](../../../assets/images/ec-bi-mkt-act-bonus-order-ratio.png)
+        ![訂單數占比](../../assets/images/ec-bi-mkt-act-bonus-order-ratio.png){ title="訂單數占比" }
 
     === "AOV（客單價）"
 
-        ![AOV](../../../assets/images/ec-bi-mkt-act-bonus-aov.png)
+        ![AOV](../../assets/images/ec-bi-mkt-act-bonus-aov.png){ title="AOV" }
 
     === "退貨率"
 
-        ![退貨率](../../../assets/images/ec-bi-mkt-act-bonus-return-rate.png)
+        ![退貨率](../../assets/images/ec-bi-mkt-act-bonus-return-rate.png){ title="退貨率" }
 
     === "紅利折扣額"
 
-        ![紅利折扣額](../../../assets/images/ec-bi-mkt-act-bonus-discount-amount.png)
+        ![紅利折扣額](../../assets/images/ec-bi-mkt-act-bonus-discount-amount.png){ title="紅利折扣額" }
 
     === "紅利折扣比率"
 
-        ![紅利折扣比率](../../../assets/images/ec-bi-mkt-act-bonus-discount-ratio.png)
+        ![紅利折扣比率](../../assets/images/ec-bi-mkt-act-bonus-discount-ratio.png){ title="紅利折扣比率" }
 
 ??? info "紅利分析指標定義"
 
@@ -352,7 +352,7 @@ hide: []
     | 紅利折扣比率 | 紅利折抵金額 ÷（訂單實付金額 ＋ 紅利折抵金額）× 100%，即紅利折抵佔折抵前金額的比率 |
 
     !!! warning "退貨率的計算範圍"
-        「退貨率」是本分頁唯一 **將已退貨訂單納入計算** 的指標（否則退貨率恆為 0）；其餘指標皆僅計算 [有效訂單][specs-marketing-activity-valid-order]{ title="重要規範與限制" }（不含已退貨、已取消訂單）。
+        「退貨率」是本分頁唯一 **將已退貨訂單納入計算** 的指標（否則退貨率恆為 0）；其餘指標皆僅計算 [有效訂單](#specs-marketing-activity-valid-order){ title="重要規範與限制" }（不含已退貨、已取消訂單）。
 
 ---
 
@@ -360,15 +360,15 @@ hide: []
 
 1. **點擊匯出：** 點擊分頁右上角的 **「匯出紅利圖表」** 按鈕[^bonus-export-plugin]，開啟匯出視窗。
 
-    ![點擊匯出](../../../assets/images/ec-bi-mkt-act-click-export.png)
+    ![點擊匯出](../../assets/images/ec-bi-mkt-act-click-export.png){ title="點擊匯出" }
 
 2. **設定匯出區間：** 於 **「匯出起始時間」** 與 **「匯出結束時間」** 選擇紅利發送的時間範圍[^bonus-export-days]。
 
-    ![設定匯出區間](../../../assets/images/ec-bi-mkt-act-export-range.png)
+    ![設定匯出區間](../../assets/images/ec-bi-mkt-act-export-range.png){ title="設定匯出區間" }
 
 3. **勾選報表項目：** 在「**匯出圖表選項**」勾選 **「全館紅利報表」**。
 
-    ![勾選報表項目](../../../assets/images/ec-bi-mkt-act-export-items.png)
+    ![勾選報表項目](../../assets/images/ec-bi-mkt-act-export-items.png){ title="勾選報表項目" }
 
 4. **送出匯出：** 點擊 **「確認」**，系統會在背景產製報表，完成後寄送至您的後台帳號信箱。
 
@@ -389,7 +389,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-tag:{ .lg }  
-  [__行銷活動設定__](../marketing/index.md){ title="行銷推廣" }  
+  [__行銷活動設定__](../marketing/index.md){ title="行銷活動" }  
   根據分析結果，調整或新增折扣、加價購等行銷活動。
 
 - :lucide-ticket:{ .lg }  
@@ -433,7 +433,7 @@ hide: []
 
 ??? quote "折扣活動排名裡為什麼找不到紅利折扣？"
     [](){ #faq-marketing-activity-no-bonus-in-rank }
-    折扣活動排名不包含紅利折扣。紅利相關的成效請改至 [紅利分析][operate-marketing-activity-bonus]{ data-preview } 分頁查看。
+    折扣活動排名不包含紅利折扣。紅利相關的成效請改至 [紅利分析](#operate-marketing-activity-bonus){ title="紅利分析" } 分頁查看。
 
 ??? quote "有些折扣種類在下拉選單裡看不到，怎麼辦？"
     [](){ #faq-marketing-activity-missing-category }

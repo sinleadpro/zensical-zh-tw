@@ -54,7 +54,7 @@ icon: lucide/megaphone
 hide:
 ---
 
-![廣告分析頁面](../../assets/images/ec-bi-advertising-analytics-hero.png){ .hero-page }
+![廣告分析頁面](../../assets/images/ec-bi-advertising-analytics-hero.png){ title="廣告分析頁面" .hero-page }
 
 ## 廣告分析說明 { #intro-advertising-analytics }
 
@@ -91,7 +91,7 @@ hide:
 2. 頁面上方「Google 購物廣告分析」區塊，會以數據卡片呈現所選區間內的 11 項指標(費用、曝光數、點擊數、ROAS 等)。
 3. 將滑鼠移到任一張卡片的名稱旁，即可看到該指標的計算方式說明。各指標代表的意義可參考 [指標對照表](references/advertising-analytics-metrics-reference.md#reference-advertising-analytics-metrics){ title="廣告分析指標對照表" data-preview }。
 
-![查看廣告成效總覽](../../assets/images/ec-bi-ad-analytics-overview.zh-tw.png)
+![查看廣告成效總覽](../../assets/images/ec-bi-ad-analytics-overview.zh-tw.png){ title="查看廣告成效總覽" }
 
 ---
 
@@ -103,7 +103,7 @@ hide:
 
 [^date-limit]: 單次查詢的日期區間最長為 180 天，超過時系統會跳出提示，請縮短範圍後再查詢。
 
-![調整查詢的日期區間](../../assets/images/ec-bi-ad-analytics-date-range.zh-tw.png)
+![調整查詢的日期區間](../../assets/images/ec-bi-ad-analytics-date-range.zh-tw.png){ title="調整查詢的日期區間" }
 
 ---
 
@@ -113,7 +113,7 @@ hide:
 2. 選擇「全部裝置」「桌上型電腦」「行動電話」或「平板電腦」。
 3. 數據卡片與趨勢圖會即時依所選裝置重新計算，方便您比較不同裝置的廣告表現。
 
-![切換裝置類型](../../assets/images/ec-bi-ad-analytics-device.zh-tw.png)
+![切換裝置類型](../../assets/images/ec-bi-ad-analytics-device.zh-tw.png){ title="切換裝置類型" }
 
 ---
 
@@ -123,7 +123,7 @@ hide:
 2. 點選圖表上方的指標頁籤，切換要觀察的指標；可選「全部指標」一次綜覽，或單一指標看細節。
 3. 將滑鼠移到折線上的任一點，即可看到該日期的實際數值。
 
-![查看每日趨勢圖](../../assets/images/ec-bi-ad-analytics-trend.zh-tw.png)
+![查看每日趨勢圖](../../assets/images/ec-bi-ad-analytics-trend.zh-tw.png){ title="查看每日趨勢圖" }
 
 ## 重要規範與限制 { #specs-advertising-analytics }
 

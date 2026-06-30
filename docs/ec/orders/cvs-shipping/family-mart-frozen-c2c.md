@@ -1,9 +1,8 @@
 ---
-
 title: 操作全家冷凍店到店 C2C 出貨
 description: 操作全家冷凍店到店 C2C 出貨，包括設定流程、訂單出貨、包裝規範、寄件時效及異常處理。
 created:
-last_modified: 2026-06-14 08:31
+last_modified: 2026-06-30 11:16
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/cvs-shipping/family-mart-frozen-c2c
 type: tutorial
@@ -74,8 +73,7 @@ icon: lucide/snowflake
 hide:
 ---
 
-
-![](../../../assets/images/ec-金物流-超商物流-全家冷凍店到店 C2C.png){ .hero-page }
+![冷凍店到店出貨](../../../assets/images/ec-金物流-超商物流-全家冷凍店到店 C2C.png){ title="冷凍店到店出貨" .hero-page }
 
 ## 全家冷凍店到店 C2C 出貨說明
 
@@ -88,7 +86,7 @@ hide:
 - 提供消費者更多取貨選擇
 - 擴大冷凍商品銷售、提升業績
 
-> ⚠️ 注意：使用本服務寄送冷凍包裹，最高貨損賠償金額為 **TWD 5,000**。
+!!! info "使用本服務寄送冷凍包裹，最高貨損賠償金額為 **TWD 5,000**。"
 
 ## 後台設定流程
 
@@ -99,7 +97,7 @@ hide:
 3. **填寫寄件資訊**：填寫正確的 **寄件人真實姓名與手機**，因為若包裹退回，門市人員會核對身分證件才可領取。
 4. **設定費用與金流**：輸入運費、免運門檻，並依需求開啟「貨到付款」（僅限開通 CYBERBIZ PAYMENTS 商家）或「取貨不付款」。
 
-![](../../../assets/images/ec-金物流-超商物流-全家冷凍店到店設定.gif)
+![冷凍店到店設定](../../../assets/images/ec-金物流-超商物流-全家冷凍店到店設定.gif){ title="冷凍店到店設定" }
 
 ## 訂單出貨操作步驟
 
@@ -132,7 +130,6 @@ hide:
 - **運送異常**：若有運送異常之情況請先透過[超商連結查詢貨物狀態 :lucide-external-link:](https://fmec.famiport.com.tw/FP_Entrance/QueryBox)，若仍有疑問可至 CYBERBIZ 後台客服系統詢問。  
 
 !!! info "**重要提醒：** 冷凍店到店包裹遺失或損壞的 **最高賠償金額為 TWD 5,000 元**。"
-
 
 ## 常見問題
 

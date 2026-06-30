@@ -2,7 +2,7 @@
 title: 設定前台多國語言與多幣別
 description: 多國語言與多幣別功能可協助商家建立本地化的官方網站，透過提供母語介面與熟悉幣別，提升品牌國際化形象並優化海外消費者的購物體驗。
 created: 2026-02-05 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 08:02
 lang: zh-TW
 type: guide
 status: ""
@@ -25,10 +25,10 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
+  - 企業
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
-  - 企業
 cyb_extensions: []
 intents:
   - 啟用多國語言與幣別
@@ -59,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11202
   - https://www.cyberbiz.io/support/?p=47292
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-management/setup-multi-language-and-multi-currency
 comments: false
 search:
   exclude: false
@@ -94,7 +94,7 @@ hide: []
 本文件專門指引如何建置 **官網前台** 的多語系環境，旨在讓 **消費者** 看到翻譯後的商店內容與在地幣別。
 
 - **如果您是要**：為各國消費者建立多語系官網、修改前台翻譯、設定顯示幣別，**請繼續閱讀**。
-- **如果您是要**：更改商家自用的 **管理後台介面** 語言（如：將後台選單改為英文），請參考 [設定管理後台顯示語言與幣別](檔案連結)。
+- **如果您是要**：更改商家自用的 **管理後台介面** 語言（如：將後台選單改為英文），請參考 [設定管理後台顯示語言與幣別](setup-store-basic-info/#operate-general-preferences-admin-language)。
 
 **在啟用多國語系功能前，請務必確認以下技術規範與邏輯：**
 
@@ -138,7 +138,7 @@ hide: []
 **主要建置範圍：**
 
 - **商品管理**：商品名稱、描述、分類名稱。
-- **行銷活動**：優惠活動名稱、期間限定首購禮內容。
+- **行銷活動**：優惠活動名稱、優惠活動內容。
 - **網站外觀**：選單項目名稱、自訂頁面內容、部落格文章。
 - **訊息通知**：Email 通知樣版內容。
 

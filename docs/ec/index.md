@@ -7,136 +7,156 @@ hide:
   - feedback
 ---
 
-<div class="ec-index-hero">
-  <h2>打造您的品牌官網</h2>
-  <p>從官網設定到商品管理、訂單出貨到數據分析，一站式管理您的品牌官網。</p>
-  <div>
-    <a class="md-button" href="products/creation/新增與更新商品.md"><span class="material-symbols-outlined" style="vertical-align:middle;margin-right:4px;font-size:18px;">add_business</span> 開始架站</a>
-    <a class="md-button md-button--secondary" href="orders/order-management-interface.md"><span class="material-symbols-outlined" style="vertical-align:middle;margin-right:4px;font-size:18px;">play_circle</span> 觀看導覽</a>
-  </div>
+<div style="display: flex; gap: 2rem; flex-wrap: wrap; padding: 2rem 0 2.5rem;" markdown>
+
+<div style="flex: 1 1 380px; min-width: 0;" markdown>
+
+<h1 style="margin-top: 0; margin-bottom: 0; font-size: 1.5rem; font-weight: 700;">
+  打造您的品牌官網
+</h1>
+<hr style="border: none; border-top: 1px solid var(--md-default-fg-color--lightest); margin: 0.5rem 0; width: 3rem;">
+<p style="font-size: 0.9rem; line-height: 1.7; margin-top: 0;">
+從官網設定到商品管理、訂單出貨到數據分析，一站式管理您的品牌官網。
+</p>
+
+[:lucide-rocket: 新增商品](products/create-and-manage/create-update-products.md){ title="新增與更新商品" .md-button .md-button--primary }
+
 </div>
 
-<div class="ec-feature-strip">
-  <a class="ec-feature-card" href="website-appearance/index.md">
-    <span class="material-symbols-outlined ec-f-icon">edit_square</span>
-    <h3>頁面編輯器</h3>
-    <p>視覺化拖拉編輯，無需程式碼即可打造精美版面。</p>
-  </a>
-  <a class="ec-feature-card" href="payments-and-logistics/index.md">
-    <span class="material-symbols-outlined ec-f-icon">sync_alt</span>
-    <h3>金物流串接</h3>
-    <p>全面串接在地主流支付與物流系統，結帳更流暢。</p>
-  </a>
-  <a class="ec-feature-card" href="website-management/seo/SEO 設定與優化指南.md">
-    <span class="material-symbols-outlined ec-f-icon">verified</span>
-    <h3>SEO 優化</h3>
-    <p>內建 SEO 診斷工具，讓您的品牌更容易被搜尋到。</p>
-  </a>
-  <a class="ec-feature-card" href="website-management/網域管理.md">
-    <span class="material-symbols-outlined ec-f-icon">language</span>
-    <h3>自訂網域</h3>
-    <p>連結自有網域，強化品牌識別度與專業感。</p>
-  </a>
 </div>
 
 ---
 
-### 完整指南
+## 網站建立與設計
 
 <div class="grid cards" markdown>
 
--   :lucide-palette: __店家設定__  
+-   :lucide-store: __網站外觀__
 
-    ---  
+    ---
 
-    網站外觀、網站管理、客服中心、SEO 優化  
-    [:octicons-arrow-right-24: 前往設定](website-appearance/index.md){ title="網站外觀" }
+    透過拖拉版型、選單設定與程式碼自訂，打造品牌專屬的官網風格。
 
--   :lucide-package: __商品與訂單__  
+    [:octicons-arrow-right-24: 前往](website-appearance/index.md){ title="網站外觀" }
 
-    ---  
+-   :lucide-settings: __管理中心__
 
-    商品管理、訂單出貨、退貨退款、電子票券  
-    [:octicons-arrow-right-24: 完整指南](products/index.md){ title="商品管理" }
+    ---
 
--   :lucide-credit-card: __金流與物流__  
+    管理商店基本設定、網域、顧客註冊、管理員權限、資安防護、發票對帳與方案續約。
 
-    ---  
-
-    信用卡、LINE Pay、物流設定、快速到貨  
-    [:octicons-arrow-right-24: 完整指南](payments-and-logistics/index.md){ title="付款金流" }
-
--   :lucide-users: __會員與行銷__  
-
-    ---  
-
-    會員管理、VIP 制度、行銷活動、訊息推播  
-    [:octicons-arrow-right-24: 完整指南](members/index.md){ title="會員管理" }
-
--   :lucide-chart-column-increasing: __數據與分析__  
-
-    ---  
-
-    報表分析、GA4 串接、廣告成效分析  
-    [:octicons-arrow-right-24: 完整指南](business-intelligence/index.md){ title="報表分析" }
-
--   :lucide-network: __整合與擴充__  
-
-    ---  
-
-    第三方平台串接、Facebook、Google、LINE、App Market  
-    [:octicons-arrow-right-24: 瀏覽應用](integrations/index.md){ title="整合串接第三方平台服務" }
+    [:octicons-arrow-right-24: 前往](website-management/index.md){ title="管理中心" }
 
 </div>
 
 ---
 
-<div class="ec-bento">
-  <div class="ec-bento-main">
-    <div class="ec-bento-content">
-      <span class="badge">NEW</span>
-      <h3>進階樣式設定</h3>
-      <p>透過 CSS 客製化與細部樣式微調，滿足您對品牌視覺的極致要求。包含字體間距、動態效果與自定義區塊。</p>
-      <a class="ec-link" href="website-appearance/index.md">立即了解 <span class="material-symbols-outlined" style="font-size:18px;">east</span></a>
-    </div>
-    <div class="ec-bento-img">
-      <img alt="進階樣式設定" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCynCUE8F-3Z7pYhNN6T4NBEBayySA6yhR8grssVA0huAliyvAFtXnau7oZ1VqvV9fG9tgWx9YQ6RA5jcdro208UuFViWx0aVy3AQrAz25ZFuRwAxB_kBmByCw1751VmGkbxa8lMW9DPVbYr5S96pJZOkiP-kDjLmG7j_Jc09LlQA-1ulOAp2qtX0tv2pYJ1ckyzix2-3p14RbO15AyOooEN-pyE77c1Zg65uTgG7gGAxxfBNR94-AFQqV838GmZxDEXZXOKGGzfaI" />
-    </div>
-  </div>
-  <div class="ec-bento-side">
-    <div class="ec-testimonial">
-      <h4><span class="material-symbols-outlined" style="font-size:20px;">verified</span> 商家成功案例</h4>
-      <p>"轉換率在改版後提升了 25%，Zensical 的編輯器真的很好上手！"</p>
-      <cite>— 咖啡職人創辦人</cite>
-    </div>
-    <div class="ec-support-card">
-      <h4>需要技術支援？</h4>
-      <p>我們的工程團隊提供 24/7 的技術諮詢，隨時協助您解決架站難題。</p>
-      <a href="#">聯絡我們</a>
-    </div>
-  </div>
+## 商品、訂單與金物流
+
+<div class="grid cards" markdown>
+
+-   :lucide-package: __商品管理__
+
+    ---
+
+    輕鬆管理商品資訊、分類與庫存，提升上架效率。
+
+    [:octicons-arrow-right-24: 前往](products/index.md){ title="商品管理" }
+
+-   :lucide-file-text: __訂單總覽__
+
+    ---
+
+    管理訂單流程與物流配送，提升出貨效率與顧客滿意度。
+
+    [:octicons-arrow-right-24: 前往](orders/index.md){ title="訂單總覽" }
+
+-   :lucide-credit-card: __付款金流__
+
+    ---
+
+    管理支付方式、金流設定與訂單收款，確保交易安全與順暢。
+
+    [:octicons-arrow-right-24: 前往](payments-and-logistics/index.md){ title="付款金流" }
+
+-   :lucide-ticket: __電子票券總覽__
+
+    ---
+
+    電子票券是可線上販售、線下核銷的數位商品，支援課程、活動門票、服務項目或商品兌換，提供 OMO 銷售與會員導流情境。
+
+    [:octicons-arrow-right-24: 前往](e-ticket/index.md){ title="電子票券總覽" }
+
 </div>
 
-<div class="ec-resources">
-  <h3>延伸資源</h3>
-  <div class="ec-res-grid">
-    <div class="ec-res-item">
-      <span class="material-symbols-outlined ec-r-icon">palette</span>
-      <h4>佈景主題庫</h4>
-      <p>數百款為電商量身打造的專業主題，一鍵套用。</p>
-      <a href="website-appearance/index.md">瀏覽指南</a>
-    </div>
-    <div class="ec-res-item">
-      <span class="material-symbols-outlined ec-r-icon">extension</span>
-      <h4>外掛程式管理</h4>
-      <p>擴充您的商店功能，從行銷工具到客戶服務。</p>
-      <a href="app-market/index.md">管理外掛</a>
-    </div>
-    <div class="ec-res-item">
-      <span class="material-symbols-outlined ec-r-icon">translate</span>
-      <h4>多語系設定</h4>
-      <p>邁向全球化經營，快速建立多語系與幣別支援。</p>
-      <a href="website-management/設定多國語言與多幣別.md">設定教學</a>
-    </div>
-  </div>
+---
+
+## 會員、行銷與推播
+
+<div class="grid cards" markdown>
+
+-   :lucide-user: __會員管理__
+
+    ---
+
+    管理會員資料、等級與互動，提升會員體驗與忠誠度。
+
+    [:octicons-arrow-right-24: 前往](members/index.md){ title="會員管理" }
+
+-   :lucide-badge-percent: __行銷活動__
+
+    ---
+
+    提升商店曝光與銷售，管理行銷活動、優惠策略與顧客互動。
+
+    [:octicons-arrow-right-24: 前往](marketing/index.md){ title="行銷活動" }
+
+-   :lucide-send: __訊息推播__
+
+    ---
+
+    掌握 Email、簡訊與 LINE 多元推播管道，有效觸及會員並提升行銷轉換。
+
+    [:octicons-arrow-right-24: 前往](notifications/index.md){ title="訊息推播" }
+
+-   :lucide-share-2: __了解分潤功能__
+
+    ---
+
+    了解分潤功能的運作機制、適用對象與情境，協助您選擇最適合的行銷分潤方案。
+
+    [:octicons-arrow-right-24: 前往](profit-sharing/index.md){ title="了解分潤功能" }
+
+</div>
+
+---
+
+## 數據分析與整合擴充
+
+<div class="grid cards" markdown>
+
+-   :lucide-chart-column-increasing: __報表分析__
+
+    ---
+
+    一目了然掌握商店經營數據，快速分析銷售、訂單與會員行為。
+
+    [:octicons-arrow-right-24: 前往](business-intelligence/index.md){ title="報表分析" }
+
+-   :lucide-network: __整合串接第三方平台服務__
+
+    ---
+
+    串接第三方平台、API 與服務，提升商店功能與自動化能力。
+
+    [:octicons-arrow-right-24: 前往](integrations/index.md){ title="整合串接第三方平台服務" }
+
+-   :lucide-grid-2x2-plus: __APP MARKET 總覽__
+
+    ---
+
+    在 CYBERBIZ APP MARKET 中探索並安裝各類擴充服務，實現自動化行銷、全通路管理與門市銷售整合。
+
+    [:octicons-arrow-right-24: 前往](app-market/index.md){ title="APP MARKET 總覽" }
+
 </div>

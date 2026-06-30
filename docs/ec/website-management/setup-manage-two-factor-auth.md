@@ -3,7 +3,7 @@
 title: "設定與管理二階段驗證"
 description: "啟用與管理二階段驗證（2FA），包含驗證器綁定、備用碼使用，以及員工驗證重設與強制啟用。"
 created: "2026-03-16 20:06"
-last_modified: 2026-06-08 17:15
+last_modified: 2026-06-30 08:02
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,14 +23,14 @@ audiences:
   - admin
 difficulty: ""
 tnb: trunk
-plans: 
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
+plans:
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 設定二階段驗證
@@ -58,7 +58,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=12650
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-management/setup-manage-two-factor-auth
 comments: false
 search:
   exclude: false

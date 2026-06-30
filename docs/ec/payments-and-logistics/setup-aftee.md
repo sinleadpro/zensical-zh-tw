@@ -2,7 +2,7 @@
 title: 設定 AFTEE
 description: 透過 AFTEE 先享後付提供顧客快速便利的付款方式，提升轉換率與營收。
 created: 2026-01-26 00:00
-last_modified: 2026-06-28 09:20
+last_modified: 2026-06-30 08:52
 lang: zh-TW
 type: tutorial
 status:
@@ -23,13 +23,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions:
   - PAYMENTS
 intents:
@@ -59,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6847
   - https://www.cyberbiz.io/support/?p=5525
-permalink:
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-aftee
 comments: false
 search:
   exclude: false

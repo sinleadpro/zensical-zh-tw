@@ -2,7 +2,7 @@
 title: Amazon FBA 跨境物流
 description: 透過 Amazon FBA 服務，您可以將官網訂單交由 Amazon 物流團隊代為包裝與配送。系統將自動拋轉訂單、同步貨態並更新庫存，實現跨境營運的自動化。
 created: 2026-03-03 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 08:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -25,8 +25,8 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - Pro
   - Business
+  - Pro
 cyb_extensions: []
 intents:
   - 安裝_FBA_插件
@@ -51,11 +51,11 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=20676
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/amazon-fba-cross-border-logistics
 comments: false
 search:
   exclude: false
-icon: lucide/lock
+icon: lucide/globe
 hide: []
 ---
 

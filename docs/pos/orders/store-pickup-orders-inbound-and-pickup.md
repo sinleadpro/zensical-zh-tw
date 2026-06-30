@@ -141,11 +141,11 @@ hide: []
 1. 顧客登入官網 **會員中心 > 訂單查詢**，點選 **申請退貨**。
 2. 由總倉管理員安排逆物流回收包裹。
 
-    - [7-11 C2B 退貨便](../../ec/orders/cvs-c2b-return.md) 
-    - [7-11 C2C 退貨便](../../ec/orders/cvs-c2c-return.md) 
-    - [黑貓逆物流](../../ec/payments-and-logistics/setup-print-tcat-waybill.md#建立黑貓逆物流--ezcat-shipping-note-reverse)
-    - [宅配通逆物流](../../ec/payments-and-logistics/setup-pelican-waybill.md#建立宅配通逆物流退貨--operate-pelican-shipping-reverse) 
-    - [新竹物流逆物流](../../ec/payments-and-logistics/setup-hct-waybill.md#建立新竹逆物流--operate-hct-setup-reverse) 
+    - [7-11 C2B 退貨便](../../ec/orders/returns-refunds/cvs-c2b-return.md) 
+    - [7-11 C2C 退貨便](../../ec/orders/returns-refunds/7-11-c2c-return.md) 
+    - [黑貓逆物流](../../ec/payments-and-logistics/setup-print-tcat-waybill.md#ezcat-shipping-note-reverse)
+    - [宅配通逆物流](../../ec/payments-and-logistics/setup-pelican-waybill.md#operate-pelican-shipping-reverse) 
+    - [新竹物流逆物流](../../ec/payments-and-logistics/setup-hct-waybill.md#operate-hct-setup-reverse) 
 
 3. 包裹回倉後，由管理員於後台進行 [退貨審查](../../ec/orders/order-return-process.md#步驟-2執行退貨審查)，並執行後續退款作業。
 
@@ -174,6 +174,7 @@ hide: []
 
 !!! warning "設定風險"
     此功能需要配合 OMO_APP 或 LINE@ 產生會員條碼。(若欲使用 LINE@ 會員條碼，則每位顧客都需綁定 Line@ 會員，並取得會員條碼)
+    
     開啟此設定後，店員僅能透過掃描顧客手機 APP 的 **會員條碼** 進入取貨流程，無法手動輸入電話或 Email 搜尋，請評估門市人員與顧客的使用習慣。
 
 

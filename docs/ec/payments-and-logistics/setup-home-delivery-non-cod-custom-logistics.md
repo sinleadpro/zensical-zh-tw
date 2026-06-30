@@ -2,7 +2,7 @@
 title: 建立宅配貨到不付款/自訂物流
 description: 說明如何自行設定宅配物流選項、運費門檻與溫層配送，包含配送國家總開關、金額與重量運費設定，以及多溫層購物的處理邏輯。
 created: 2026-06-04 10:02
-last_modified: 2026-06-28 13:57
+last_modified: 2026-06-30 08:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -53,10 +53,11 @@ ui_components:
 paths: 
   - 金物流 > 宅配物流 > 自訂物流
 layouts: []
-wp_url: 
-  - https://www.cyberbiz.io/support/?p=2746
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=2746
   - https://www.cyberbiz.io/support/?p=10652
-permalink: ""
+  - https://www.cyberbiz.io/support/?p=5983
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-home-delivery-non-cod-custom-logistics
 comments: false
 search:
   exclude: false
@@ -82,7 +83,7 @@ hide: []
 | 宅配貨到不付款物流 | 黑貓<br>宅配通<br>順豐<br>新竹物流 | 此物流選項與系統串接，可自動更新訂單出貨後貨態 | **需使用系統託運單出貨**<br>[使用黑貓宅配出貨](../orders/home-delivery/tcat-home-delivery.md)<br>[使用宅配通出貨](../orders/home-delivery/pelican-shipping.md)<br>[使用順豐出貨](../orders/home-delivery/sf-express-shipping.md)<br>[使用新竹物流出貨](../orders/home-delivery/hct-shipping.md) | 
 | 自訂物流 | - | 此物流不與系統串接，出貨後訂單貨態不予更新 | [使用自訂物流出貨](../orders/home-delivery/custom-logistic-shipping.md) | 
 
-### 新竹物流場勘流程
+### 新竹物流貨到不付款場勘流程
 
 === "有 CYBERBIZ PAYMENTS"
 
@@ -91,12 +92,19 @@ hide: []
 === "無 CYBERBIZ PAYMENTS"
 
     1. 前往 **金物流 > 自訂物流**，點擊 **新增自訂物流**。
-      ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-金物流-宅配物流-新增自訂物流01.png)
+
+        ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-金物流-宅配物流-新增自訂物流01.png)
+
     2. 點擊 **填寫表單申請**。
-      ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-金物流-宅配物流-新增自訂物流02.png)
+
+        ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-金物流-宅配物流-新增自訂物流02.png)
+
     3. 申請啟用物流。
-      ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-金物流-宅配物流-申請新竹物流貨到不付款01.png)
+
+        ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-金物流-宅配物流-申請新竹物流貨到不付款01.png)
+
     4. 填寫申請表格並送出。
+    
         - CYBERBIZ 客服人員將會通知新竹物流進行廠勘，廠勘完成後即會立刻進行開通。
         - 送出後若需要更改資料，請告知 CYBERBIZ 客服人員。
         - 開通成功後，您即可啟用物流選項並開始使用，CYBERBIZ 將會同步發送通知信告知（工作天約 7~10 天）。

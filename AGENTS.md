@@ -12,6 +12,7 @@
 
 ### Tutorial Doc
 - Frontmatter **包含完整操作性欄位**：`devices`、`intents`、`prerequisites`、`plans`、`ui_components`、`paths` 等
+- **`icon` 不應留空**：教學文件需指定 Lucide 圖示（如 `lucide/file-spreadsheet`、`lucide/package`），以正確顯示於導覽與卡片
 - Type: `tutorial`
 - 適合：步驟流程、操作指南、設定教學
 
@@ -55,6 +56,7 @@
 - `data-preview` 僅在目標含表格時保留，否則移除
 - Anchor ID 使用英文 kebab-case：`#operate-{module}-{feature}-{section}`
 - 所有 `.md` 連結需包含副檔名
+- Frontmatter `related`/`prerequisites` wikilink 使用目標文件的英文檔名 stem（不含副檔名），例如 `"[[manage-product-tags]]"`，而非 `title:` 值或相對路徑
 
 ## 參考資料章節規範
 

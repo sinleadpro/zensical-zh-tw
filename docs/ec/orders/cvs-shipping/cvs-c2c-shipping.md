@@ -1,9 +1,8 @@
 ---
-
 title: 操作超商店到店 C2C 出貨
 description: 包裝商品並透過超商店到店（C2C）寄件至消費者指定門市，包括完整操作流程與注意事項。
 created:
-last_modified: 2026-06-14 12:29
+last_modified: 2026-06-30 11:11
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/cvs-shipping/cvs-c2c-shipping
 type: tutorial
@@ -87,7 +86,6 @@ search:
 icon: lucide/store
 hide:
 ---
-
 
 ![c2c下載託運單](../../../assets/images/ec-訂單-店到店下載托運單.png){ title="C2C下載託運單" .hero-page }
 
@@ -175,7 +173,7 @@ hide:
 
 ---
 
-#### 熱感列印（A6）
+#### 熱感列印 <small>A6</small>
 
 - 支援 7-ELEVEN 與全家 C2C，僅可使用「新版訂單列表」下載。瞭解 [如何熱感列印超商托運單](thermal-print-cvs-waybill.md){ title="熱感列印超商托運單" }。
 
@@ -342,7 +340,7 @@ hide:
 
 ---
 
-### 門市關轉（閉店） { #operate-cvs-c2c-exception-store-closed }
+### 門市關轉 <small>閉店</small> { #operate-cvs-c2c-exception-store-closed }
 
 - **7-11**：CYBERBIZ 系統發送通知信，需於收到通知信件的 2 日內聯繫消費者，並前往後台搜尋到該筆訂單，於訂單詳情頁重新選擇 7-11 門市。
 - **全家**：CYBERBIZ 系統發送通知信，需於收到通知信件的 6 日內聯繫消費者，並前往後台搜尋到該筆訂單，於訂單詳情頁重新選擇全家門市。

@@ -1,0 +1,797 @@
+{
+  "generated_at": "2026-06-30 08:18",
+  "doc_dir": "docs/ec/payments-and-logistics",
+  "confirmed": [
+    {
+      "doc_file": "docs/ec/payments-and-logistics/amazon-fba-cross-border-logistics.md",
+      "doc_title": "Amazon FBA 跨境物流",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/amazon-fba-cross-border-logistics",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=20676"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=20676"
+      ],
+      "current_plans": [
+        "Business",
+        "Pro"
+      ],
+      "expected_plans": [
+        "Business",
+        "Pro"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/apply-cyberbiz-payments.md",
+      "doc_title": "申請 CYBERBIZ PAYMENTS",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/apply-cyberbiz-payments",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=6174",
+        "https://www.cyberbiz.io/helpcenter/?p=6738",
+        "https://www.cyberbiz.io/support/?p=34623"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=6174",
+        "https://www.cyberbiz.io/helpcenter/?p=6738",
+        "https://www.cyberbiz.io/support/?p=34623"
+      ],
+      "current_plans": [
+        "企業",
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/dhl-cross-border-logistics.md",
+      "doc_title": "DHL 跨境物流",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/dhl-cross-border-logistics",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=1769",
+        "https://www.cyberbiz.io/helpcenter/?p=393",
+        "https://www.cyberbiz.io/support/?p=29664",
+        "https://www.cyberbiz.io/support/?p=29736"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=1769",
+        "https://www.cyberbiz.io/helpcenter/?p=393",
+        "https://www.cyberbiz.io/support/?p=29664",
+        "https://www.cyberbiz.io/support/?p=29736"
+      ],
+      "current_plans": [
+        "Business",
+        "Pro",
+        "企業",
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "Business",
+        "Pro",
+        "企業",
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/linex-cross-border-logistics.md",
+      "doc_title": "LINEX 跨境物流",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/linex-cross-border-logistics",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=8214",
+        "https://www.cyberbiz.io/support/?p=38562"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=8214",
+        "https://www.cyberbiz.io/support/?p=38562"
+      ],
+      "current_plans": [
+        "Business",
+        "Pro",
+        "企業",
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "Business",
+        "Pro",
+        "企業",
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/setup-aftee.md",
+      "doc_title": "設定 AFTEE",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-aftee",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=6847",
+        "https://www.cyberbiz.io/support/?p=5525"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=6847",
+        "https://www.cyberbiz.io/support/?p=5525"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/setup-apple-pay.md",
+      "doc_title": "設定 Apple Pay",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-apple-pay",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=8162",
+        "https://www.cyberbiz.io/support/?p=40622"
+      ],
+      "current_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-apple-pay",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=40622"
+      ],
+      "current_plans": [],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/setup-credit-card-3d-verification.md",
+      "doc_title": "設定信用卡 3D 驗證門檻",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-credit-card-3d-verification",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=6844",
+        "https://www.cyberbiz.io/support/?p=5450"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=5450"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping.md",
+      "doc_title": "設定超商大宗寄倉 B2C",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5064",
+        "https://www.cyberbiz.io/helpcenter/?p=6852",
+        "https://www.cyberbiz.io/support/?p=1921"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=6852",
+        "https://www.cyberbiz.io/helpcenter/?p=5064",
+        "https://www.cyberbiz.io/support/?p=1921"
+      ],
+      "current_plans": [
+        "企業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/setup-cvs-c2c-shipping.md",
+      "doc_title": "設定超商店到店 C2C 物流串接",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-cvs-c2c-shipping",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5058",
+        "https://www.cyberbiz.io/helpcenter/?p=6850",
+        "https://www.cyberbiz.io/support/?p=5958"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=6850",
+        "https://www.cyberbiz.io/helpcenter/?p=5058",
+        "https://www.cyberbiz.io/support/?p=5958"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/setup-family-mart-frozen-b2c.md",
+      "doc_title": "設定全家冷凍物流 B2C",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-family-mart-frozen-b2c",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5068",
+        "https://www.cyberbiz.io/support/?p=21320"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5068",
+        "https://www.cyberbiz.io/support/?p=21320#a"
+      ],
+      "current_plans": [
+        "企業",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/setup-home-delivery-non-cod-custom-logistics.md",
+      "doc_title": "建立宅配貨到不付款/自訂物流",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-home-delivery-non-cod-custom-logistics",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=2746",
+        "https://www.cyberbiz.io/support/?p=10652",
+        "https://www.cyberbiz.io/support/?p=5983"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=2746",
+        "https://www.cyberbiz.io/support/?p=10652"
+      ],
+      "current_plans": [],
+      "expected_plans": [],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/setup-jkopay.md",
+      "doc_title": "設定街口支付",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-jkopay",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=2933",
+        "https://www.cyberbiz.io/support/?p=35115"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=2933",
+        "https://www.cyberbiz.io/support/?p=35115"
+      ],
+      "current_plans": [
+        "企業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/setup-line-pay.md",
+      "doc_title": "設定 LINE Pay",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-line-pay",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=2127",
+        "https://www.cyberbiz.io/support/?p=35122"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=2127",
+        "https://www.cyberbiz.io/support/?p=35122"
+      ],
+      "current_plans": [
+        "企業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/setup-paypal.md",
+      "doc_title": "設定 PayPal",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-paypal",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=2553",
+        "https://www.cyberbiz.io/support/?p=35119"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=2553",
+        "https://www.cyberbiz.io/support/?p=35119"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/sf-express-overseas-logistics.md",
+      "doc_title": "順豐海外物流",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/sf-express-overseas-logistics",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=11280",
+        "https://www.cyberbiz.io/support/?p=8060"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=11280",
+        "https://www.cyberbiz.io/support/?p=8060"
+      ],
+      "current_plans": [
+        "Business",
+        "Pro",
+        "企業",
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "Business",
+        "Pro",
+        "企業",
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/setup-google-pay.md",
+      "doc_title": "設定 Google Pay™",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-google-pay",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3900",
+        "https://www.cyberbiz.io/support/?p=2620"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3900",
+        "https://www.cyberbiz.io/support/?p=2620"
+      ],
+      "current_plans": [],
+      "expected_plans": [],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/north-america-payment-services.md",
+      "doc_title": "北美站金流服務",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/north-america-payment-services",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=30595"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=30595"
+      ],
+      "current_plans": [
+        "Pro",
+        "Business"
+      ],
+      "expected_plans": [
+        "Pro",
+        "Business"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/japan-payment-services.md",
+      "doc_title": "日本站金流服務",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/japan-payment-services",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=33442"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=33442"
+      ],
+      "current_plans": [
+        "Pro",
+        "Business"
+      ],
+      "expected_plans": [
+        "Pro",
+        "Business"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/southeast-asia-payment-services.md",
+      "doc_title": "東南亞站金流服務",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/southeast-asia-payment-services",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=37692"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=37692"
+      ],
+      "current_plans": [
+        "Pro",
+        "Business"
+      ],
+      "expected_plans": [
+        "Pro",
+        "Business"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/australia-local-payment-services.md",
+      "doc_title": "澳洲落地版金流服務",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/australia-local-payment-services",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=51285"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=51285"
+      ],
+      "current_plans": [],
+      "expected_plans": [],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/setup-ipass-money.md",
+      "doc_title": "設定 iPASS MONEY 支付",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-ipass-money",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12633",
+        "https://www.cyberbiz.io/support/?p=51378"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12633",
+        "https://www.cyberbiz.io/support/?p=51378"
+      ],
+      "current_plans": [],
+      "expected_plans": [],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/home-delivery-cash-on-delivery.md",
+      "doc_title": "宅配貨到付款物流（黑貓/宅配通/新竹物流）",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/home-delivery-cash-on-delivery",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=10629",
+        "https://www.cyberbiz.io/helpcenter/?p=10656",
+        "https://www.cyberbiz.io/support/?p=5967",
+        "https://www.cyberbiz.io/support/?p=46272"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=10629",
+        "https://www.cyberbiz.io/helpcenter/?p=10656",
+        "https://www.cyberbiz.io/support/?p=5967",
+        "https://www.cyberbiz.io/support/?p=46272"
+      ],
+      "current_plans": [],
+      "expected_plans": [],
+      "trunk_expanded": false,
+      "apply": true
+    }
+  ],
+  "unmatched_csv_titles": [
+    "查詢宅配託運單紀錄",
+    "結帳頁與物流設定總覽",
+    "處理超過退貨期限的訂單",
+    "設定商品配送條件（物流、溫層與出貨通路）",
+    "設定結帳拆分多購物車",
+    "串接Google Pay",
+    "宅配逆物流",
+    "(CYBERBIZ NOW快速到貨)消費者購買流程",
+    "(CYBERBIZ NOW快速到貨)快速到貨訂單接單準備",
+    "(CYBERBIZ NOW快速到貨)快速到貨出貨與配送追蹤",
+    "(CYBERBIZ NOW快速到貨)缺貨訂單部分配送或取消流程",
+    "(CYBERBIZ NOW快速到貨)Pandago 配送異常規範",
+    "(CYBERBIZ NOW快速到貨)快速到貨運費計算與對帳",
+    "(宅配物流託運單)補印與加印託運單",
+    "啟用部分串倉與拆單",
+    "啟用部分串倉與混單",
+    "申請iPASS MONEY 一卡通",
+    "CYBERBIZ EXPRESS",
+    "建立並串接 Google Analytics",
+    "建立 Google Tag Manager 並串接 CYBERBIZ",
+    "設定 Google Merchant Center 並同步 CYBERBIZ 商品",
+    "設定 Google Ads 轉換追蹤",
+    "使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝",
+    "設定 Facebook 快速登入",
+    "串接美安通路",
+    "設定 LINE 快速登入",
+    "串接 LINE Messaging API",
+    "篩選與應用 LINE OA 綁定會員名單",
+    "發送 LINE 加入好友邀請",
+    "設定與使用 LINE 顯示會員條碼（串接 POS 結帳）",
+    "設定 LINE 綁定會員贈送優惠券",
+    "設定 LINE 圖文選單",
+    "設定 Meta 廣告活動",
+    "YouTube Shopping 設定指南",
+    "Meta 廣告每日預算設定指南",
+    "同步商品影片至 Meta 目錄",
+    "設定 GA4 排除內部流量與第三方參照來源",
+    "使用 UTM 參數追蹤行銷流量與分析成效",
+    "設定 FBE 帳號授權與資產連結",
+    "設定 Facebook 與 Instagram 商店",
+    "設定 FBE 網域驗證",
+    "註冊並驗證 Google Search Console",
+    "建立 Meta 廣告帳號並儲值",
+    "設定秘密商品群組",
+    "LINE 整合總覽",
+    "建立與驗證 Google 商家檔案",
+    "使用 Google 安全瀏覽工具檢查並排除網站安全性風險",
+    "從 Google 搜尋結果移除特定網頁或子目錄",
+    "設定與發送 LINE OA 分眾訊息推播",
+    "設定 LINE OA 受眾串接",
+    "排除商品不同步至 Facebook 與 Instagram 商店",
+    "設定 GA4 站內搜尋追蹤",
+    "設定與管理 LINE Tag",
+    "LINE 購物功能總覽",
+    "使用 LINE 團購進行購物",
+    "設定 Google 快速登入",
+    "設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結",
+    "申請與設定 LINE 直播功能",
+    "綁定 LINE 官方帳號與官網會員",
+    "自動化廣告系統(Google 購物廣告)",
+    "設定 LINE 快速登入時取得會員手機號碼",
+    "申請與設定 LINE 購物導購",
+    "設定 Google Analytics 進階追蹤與資料分析",
+    "在官網新增 LINE 加入好友入口",
+    "設定 Google Ads 強化轉換",
+    "設定 LIFF 自動登入與會員綁定",
+    "手動分享資產權限給 CYBERBIZ",
+    "設定 Meta 廣告的目錄商品組合",
+    "ASC 廣告投放策略與最佳實務",
+    "使用 Meta 廣告成效分析",
+    "Meta 廣告帳號閒置釋出機制與保留說明",
+    "設定 LINE 團購機器人",
+    "設定 LINE 團購商品",
+    "設定 LINE 團購群組",
+    "網域管理",
+    "保護後台帳號與顧客資料",
+    "管理系統代開消費者發票",
+    "發票",
+    "新增網站管理員並設定權限",
+    "設定網站基本資訊",
+    "設定與管理二階段驗證 (2FA)",
+    "使用 Authy 啟用二階段驗證設定",
+    "資安防護總覽與最佳實務",
+    "系統到期處理流程",
+    "Cloudflare SSL 衝突",
+    "無法讀取 HTTPS 根網址",
+    "如何排除未收到商家通知信件",
+    "續購與自動續約",
+    "設定前台多國語言與多幣別",
+    "設定與管理 LINE OA 通知樣板",
+    "設定與發送簡訊通知",
+    "設定與管理簡訊通知樣板",
+    "管理與管理 Email 通知樣板",
+    "設定與發送 EDM 電子報",
+    "Step1.安裝啟用",
+    "Step5.官網與蝦皮商品資訊同步",
+    "API 與 Webhook 串接指南",
+    "使用 AUTOMATION 建立自動化推播流程",
+    "會員數據智庫",
+    "搜尋與建立會員",
+    "會員身份識別",
+    "導購轉化",
+    "查看門市與個人業績報表",
+    "Step2.導入商品與建立關聯",
+    "Step3.官網與蝦皮商品庫存同步",
+    "Step4.官網商品建立為蝦皮商品",
+    "CYBERBIZ APP 功能指南",
+    "設定顧客 Email 與手機雙重驗證",
+    "星益欣電子發票設定",
+    "安裝 Meta Ads App"
+  ],
+  "unmatched_docs": [
+    {
+      "title": "申請綠界金流與超商取貨付款",
+      "file": "docs/ec/payments-and-logistics/apply-for-ecpay-payment-and-cvs-cod.md"
+    },
+    {
+      "title": "建立門市",
+      "file": "docs/ec/payments-and-logistics/create-stores.md"
+    },
+    {
+      "title": "開啟門市快速到貨服務",
+      "file": "docs/ec/payments-and-logistics/cyberbiz-now/enable-cyberbiz-now-quick-delivery.md"
+    },
+    {
+      "title": "串接 ezShip 超商取貨 (C2C)",
+      "file": "docs/ec/payments-and-logistics/integrate-ezship-cvs-pickup-c2c.md"
+    },
+    {
+      "title": "購物車相關設定",
+      "file": "docs/ec/payments-and-logistics/payments/cart-settings.md"
+    },
+    {
+      "title": "物流相關設定",
+      "file": "docs/ec/payments-and-logistics/payments/logistics-settings.md"
+    },
+    {
+      "title": "訂單相關設定",
+      "file": "docs/ec/payments-and-logistics/payments/order-settings.md"
+    },
+    {
+      "title": "購物車未結帳提醒管道對照表",
+      "file": "docs/ec/payments-and-logistics/references/cart-reminder-channels-reference.md"
+    },
+    {
+      "title": "超商大宗寄倉B2C通路規格",
+      "file": "docs/ec/payments-and-logistics/references/cvs-b2c-channel-spec-reference.md"
+    },
+    {
+      "title": "物流中心收貨資訊",
+      "file": "docs/ec/payments-and-logistics/references/cvs-b2c-logistics-center-reference.md"
+    },
+    {
+      "title": "超商大宗寄倉B2C方案與計費對照",
+      "file": "docs/ec/payments-and-logistics/references/cvs-b2c-plans-pricing-reference.md"
+    },
+    {
+      "title": "前台可退貨天數對照表",
+      "file": "docs/ec/payments-and-logistics/references/return-eligible-days-reference.md"
+    },
+    {
+      "title": "黑貓宅配託運單規格與費用對照表",
+      "file": "docs/ec/payments-and-logistics/references/tcat-delivery-rate-card.md"
+    },
+    {
+      "title": "設定新竹物流託運單",
+      "file": "docs/ec/payments-and-logistics/setup-hct-waybill.md"
+    },
+    {
+      "title": "設定宅配通託運單",
+      "file": "docs/ec/payments-and-logistics/setup-pelican-waybill.md"
+    },
+    {
+      "title": "設定與加印黑貓快速到店託運單",
+      "file": "docs/ec/payments-and-logistics/setup-print-tcat-quick-store-waybill.md"
+    },
+    {
+      "title": "設定與加印黑貓託運單",
+      "file": "docs/ec/payments-and-logistics/setup-print-tcat-waybill.md"
+    },
+    {
+      "title": "設定順豐託運單",
+      "file": "docs/ec/payments-and-logistics/setup-sf-express-waybill.md"
+    },
+    {
+      "title": "開啟門市取貨服務",
+      "file": "docs/ec/payments-and-logistics/store-pickup/enable-store-pickup-service.md"
+    }
+  ],
+  "updated_at": "2026-06-30 08:52"
+}

@@ -2,7 +2,7 @@
 title: 設定搜尋結果中排除特定關鍵字商品
 description: 透過修改 Liquid 模板語法，在官網搜尋結果中排除特定關鍵字商品。
 created: 2026-02-25
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-29 15:10
 lang: zh-TW
 permalink: ""
 type: tutorial
@@ -66,9 +66,7 @@ hide:
 comments: false
 ---
 
-
-
-![](../../../assets/images/ec-網站外觀-樣板編輯器-search-liquid.png){ .hero-page }
+![搜尋排除關鍵字設定](../../../assets/images/ec-網站外觀-樣板編輯器-search-liquid.png){ title="搜尋排除關鍵字設定" .hero-page }
 
 ## 搜尋排除特定關鍵字商品說明
 
@@ -109,14 +107,14 @@ comments: false
 
 4. **商品名稱設定**：回到 **商品 > 所有商品**，將您想排除搜尋的商品 **修改品名**，加入您在程式碼中設定的指定關鍵字在商品名稱前（如 VIP 專屬-地球）。
 
-	![](../../../assets/images/ec-商品-商品名稱-秘密群組關鍵字.png)
+	![商品名稱關鍵字設定](../../../assets/images/ec-商品-商品名稱-秘密群組關鍵字.png){ title="商品名稱關鍵字設定" }
 
 5. **測試成果**：設定完成並儲存後，可至官網前台使用放大鏡搜尋該關鍵字商品，確認是否已成功隱藏。
 
 ## 注意事項
 
 - **精準設定**：請確保程式碼中的關鍵字與商品品名中的關鍵字完全一致。
-- **恢復機制**：若修改後導致頁面異常，可點擊編輯器中的 **查看之前版本**，可[回溯至先前版本](../../website-appearance/restore-code-theme-editor.md#操作步驟){ data-preview }。
+- **恢復機制**：若修改後導致頁面異常，可點擊編輯器中的 **查看之前版本**，可[回溯至先前版本](../../website-appearance/code-customization/restore-code-theme-editor.md#操作步驟){ title="使用樣板編輯器恢復網頁代碼" }。
 
 
 ## 後續操作
@@ -128,7 +126,7 @@ comments: false
   搭配「秘密群組」使用，讓特定客群可透過直接連結購買，但一般消費者無法透過站內搜尋找到該商品。
 
 - :lucide-rotate-ccw:{ .lg }     
- ](../../website-appearance/restore-code-theme-editor.md)輯器恢復網頁代碼.md)    
+  [__使用樣板編輯器恢復網頁代碼__](../../website-appearance/code-customization/restore-code-theme-editor.md){ title="使用樣板編輯器恢復網頁代碼" }    
   透過版本紀錄將樣板還原至特定時間點。
 
 </div>
@@ -136,7 +134,11 @@ comments: false
 ## 常見問題
 
 ??? quote "如果我想排除多個不同的關鍵字，該如何撰寫程式碼" 
-	您可以透過連續使用 `| without: "title", "關鍵字"` 語法來達成。例如，若要同時排除包含「加價購」與「測試品」的商品，語法如下： `{% assign product_results = search.products | without: "title", "加價購" | without: "title", "測試品" %}`。
+    您可以透過連續使用 `| without: "title", "關鍵字"` 語法來達成。例如，若要同時排除包含「加價購」與「測試品」的商品，語法如下：
+
+    ``` liquid
+    {% assign product_results = search.products | without: "title", "加價購" | without: "title", "測試品" %}
+    ```
 
 ??? quote "為什麼我修改了程式碼，搜尋結果還是看得到該商品" 
 	請檢查以下三點：
@@ -146,10 +148,14 @@ comments: false
 	 3. **快取延遲**：有時瀏覽器或系統快取會導致更新延遲，請嘗試開啟「無痕視窗」重新測試。
 
 ??? quote "排除關鍵字後，會影響 SEO 搜尋引擎（如 Google）的抓取嗎" 
-	**不會。** 此修改僅作用於 CYBERBIZ 站內的搜尋引擎邏輯（Liquid 渲染層次）。Google 等外部搜尋引擎仍會根據您的商品頁面進行索引。若要完全防止 Google 抓取該頁面，需另外設定 `noindex` 標籤。
+    **不會。** 此修改僅作用於 CYBERBIZ 站內的搜尋引擎邏輯（Liquid 渲染層次）。Google 等外部搜尋引擎仍會根據您的商品頁面進行索引。若要完全防止 Google 抓取該頁面，需另外設定 `noindex` 標籤。
 
 ??? quote "我可以改用「商品標籤 (Tag)」來排除商品嗎" 
-	可以。若要改用標籤排除，請將語法中的 `"title"` 修改為 `"tags"`。例如： `{% assign product_results = search.products | without: "tags", "Hidden" %}`。 這樣只要商品標籤含有 `Hidden`，就不會出現在搜尋結果中，且不會影響前台顯示的商品標題美觀。
+    可以。若要改用標籤排除，請將語法中的 `"title"` 修改為 `"tags"`。例如：
+    ``` liquid
+    {% assign product_results = search.products | without: "tags", "Hidden" %}
+    ```
+    這樣只要商品標籤含有 `Hidden`，就不會出現在搜尋結果中，且不會影響前台顯示的商品標題美觀。
 
 ??? quote "這項設定會影響「所有商品」分類頁面的顯示嗎" 
 	**不會。** 此修改僅針對 `search.liquid`（搜尋結果頁）。如果您希望在「所有商品」或特定「分類頁」也隱藏這些商品，需同步修改 `collection.liquid` 內對應的邏輯。
