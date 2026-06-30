@@ -360,7 +360,7 @@ event.stopPropagation(); }
   學習如何熟練使用編輯器中的各項設計元件。
 
 - :lucide-users:{ .lg }     
-  [__設定註冊人分潤__](../../profit-sharing/registrant-profit-sharing.md)  
+  [__設定推薦人分潤__](../../profit-sharing/referrer-profit-sharing.md)  
   了解如何搭配一頁式商店與分潤系統擴大銷售網絡。
 
 </div>

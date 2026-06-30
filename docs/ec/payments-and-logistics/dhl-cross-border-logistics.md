@@ -72,7 +72,7 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/lock
+icon: lucide/globe
 hide: []
 ---
 
@@ -141,6 +141,11 @@ hide: []
     - **計費優先順序**：若訂單同時符合多項運費條件，系統將自動套用 **最優惠（即金額最低）** 之條件進行計費。
     - **選項顯示門檻**：訂單金額須達設定之起始門檻；若未達標，系統將自動於結帳頁面隱藏該物流選項。
     - **不限金額設定**：如需開放不限金額皆可使用，請將任一項條件區間之 **起始金額** 配置為 0 元。
+    - **查看對帳單明細**：CYBERBIZ 會先收取預估運費，以 CYBER 幣的方式收取，可在對帳單的 CYBER 幣使用明細查看。但實際支付費用可能有所調整。將依據 DHL 實收的運費金額，將調整項目列入該期對帳單內。參考 [DHL 運費與收費方式](https://docs.google.com/spreadsheets/d/1sNWNmiE23DXg9mvtTuLs7o0GO0apycaOFIa-Ya35Eaw/edit?usp=sharing)。
+
+        ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/DHL-02.png){ .small-image }
+
+![](https://www.cyberbiz.io/support/wp-content/uploads/DHL-物流-10.png)
 
 ### 步驟 5：商品綁定物流
 
@@ -149,16 +154,22 @@ hide: []
 3. **出貨方式** ：選擇 **自行出貨**。
 4. **物流綁定狀態**：選擇 DHL 物流(您於步驟 3 設置的物流名稱)。
 
+![](https://www.cyberbiz.io/support/wp-content/uploads/DHL-物流-11.png)
+
 ## 訂單出貨操作
 
 ### 步驟 1：建立託運單
 
 1. 前往 **訂單 > 所有訂單**，勾選欲出貨訂單。
 2. 點選 **選擇操作 > 建立 DHL 託運單**。
+
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/DHL-物流-03.png)
+
 3. **核對基本資訊**：確認所有欄位均以 **英文** 填寫。
     - **收件人地址**：必須填寫，否則無法順利產單。
     - **收件人電話國碼**：**台灣站 (EC)** 系統不會自動帶入國碼，商家必須手動輸入正確的電話國碼（例如：886）。跨境站則會依顧客填寫自動帶入。
 
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-01.png)
 
 ### 步驟 2：填寫報關資訊與稅費
 
@@ -176,10 +187,16 @@ hide: []
     - 此為加購型額外服務，將產生額外的費用，可依據商品價值與風險承擔能力，評估是否投保。
     - **貨件申報價值**：建議輸入含運費的訂單總價值。若運送過程發生任何意外，您將能獲得所有賠償。
     - **保險費用（未稅）**：新台幣 400 元或申報總價值之 2% ，取其高者。
+
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-02.png)
+
 3. **填寫包裹資訊**：
     - **包裹名稱**：可輸入任何名稱，此處不影響報關。請以英文填寫。
     - **新增包裹資訊**：若單筆訂單須拆分為多箱配送，可新增包裹。
     - **包裹備註**：必填，若無特殊說明，可填寫 **N/A**。
+
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-03.png)
+
 4.  **設定稅費收取方式**：
     - **未完稅交貨（DDU Delivered Duty Unpaid）**：由消費者負擔清關的稅費與手續費。
     - **完稅後交貨（DDP Delivered Duty Paid ）**：由商家負擔清關的稅費與手續費。
@@ -190,10 +207,15 @@ hide: []
     - **取件時間**：周一至周五 10：00 至 17：00。
         - 如需當日派員取件，請於當日 14：00 前完成預約。
     - **取件人**：提供 DHL 司機前往取貨時可聯繫的人員姓名及電話。
+
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-04-1.png)
+
 6. 點選 **試算運費** 後 **建立託運單**。
     - **即時費率獲取**：系統會從 DHL 獲取最新即時報價，計算過程約需 1–2 分鐘。
     - **預估運費**：顯示金額以新台幣 (TWD) 計費。
     - **預計送達日期**：所提供之日期僅供參考，實際配送時程將視物流公司作業及通關狀況而定。
+
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-06-1.png)
 
 ### 步驟 3：列印託運文件
 
@@ -205,6 +227,8 @@ hide: []
     - **DHL_waybill**：貨件提單，共 4 份。其中 3 份黏貼於包裹外箱，剩餘 1 份交由司機。
     - **Picking_list**：揀貨單。供內部作業使用，無需隨貨附寄。
     - **Fulfillment_details**：託運單明細。供商家留存備查，無需隨貨附寄。
+
+![](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-10.png)
 
 
 ### 步驟 4：正式報關(非必要)

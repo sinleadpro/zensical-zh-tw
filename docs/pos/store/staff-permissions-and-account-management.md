@@ -166,13 +166,3 @@ hide: []
 
 ??? quote "更換店長需要注意什麼？"
     由於每間店僅限一位店長，指派新店長時，原店長將自動降為店員。此操作僅限網站擁有者執行。
-
-## 更多操作
-
-<div class="grid cards" markdown>
-
-- :lucide-user-round-key:{ .lg }   
-  [__人員權限欄位參考表__](../reference/staff-permission-fields-reference.md)     
-  了解權限類型與系統功能對應關係。
-
-</div>

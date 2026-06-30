@@ -224,7 +224,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-credit-card:{ .lg }   
-  [__於綠界後台查詢訂單__](../../test-guide/金流測試教學)       
+  [__於綠界後台查詢訂單__](../orders/ecpay-backend-order-query.md)       
   了解如何於綠界後台即時查詢訂單狀態，並確認款項入帳情形。
 
 

@@ -19,8 +19,11 @@ modules:
   - 公告系統
 sites:
   - TW
-tnb: trunk
-plans: []
+tnb: branch
+plans:
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 cyb_extensions: []
 audiences:
   - admin
@@ -119,7 +122,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-shield-check:{ .lg }   
-  [__管理員帳號與權限設定__](../others/staff-permissions-and-account-management.md){ data-preview }       
+  [__管理員帳號與權限設定__](staff-permissions-and-account-management.md){ data-preview }       
   配置員工或門市人員的後台登入帳號，並賦予正確的權限等級，以便進行 POS 商店的進階設定。
 
 </div>

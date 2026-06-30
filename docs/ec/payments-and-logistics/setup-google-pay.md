@@ -114,8 +114,6 @@ Google Pay 的交易安全邏輯將繼承商家在後台的信用卡設定：
 
 ### 交易驗證與合規聲明
 
-請確保與您的金流服務商合作，為 Google Pay 保存的實體卡交易觸發基於風險的 3D-S 驗證。
-
 - [Google Pay APIs Acceptable Use Policy](https://payments.developers.google.com/terms/aup)
 - [Google Pay API Terms of Service defines](https://payments.developers.google.com/terms/sellertos)
 - Google Pay and Google Wallet are trademarks of Google LLC

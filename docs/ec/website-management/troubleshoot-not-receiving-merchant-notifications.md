@@ -64,7 +64,7 @@ hide: []
 
 ## 使用須知
 
-- 此教學文件僅提供初步設定，詳情 Google 官方文件 [在 Gmail 中回報垃圾郵件](https://support.google.com/mail/answer/1366858) 。
+- 此教學文件僅提供初步設定，詳情可參考 Google 官方文件 [在 Gmail 中回報垃圾郵件](https://support.google.com/mail/answer/1366858) 。
 
 
 ## 方法一：回報為非垃圾郵件

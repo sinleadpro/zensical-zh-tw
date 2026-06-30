@@ -147,7 +147,7 @@ hide: []
 
 ### 步驟三：安裝刷卡機
 
-安裝 [Posiflex 有線發票機](../hardware/posiflex-wired-invoice-printer.md)。
+安裝 [台新有線刷卡機](../hardware/taishin-wired-credit-card-machine.md)。
 
 ## 續購盟立帳號
 

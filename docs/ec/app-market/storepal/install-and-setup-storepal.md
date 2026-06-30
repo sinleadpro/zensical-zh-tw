@@ -87,7 +87,7 @@ hide: []
 - **申請方式**：若您尚未購買門市助理服務，請聯繫您的 CYBERBIZ 客服顧問或填寫[申請表單](https://docs.google.com/forms/d/e/1FAIpQLScAzqU3OckpsS-XBy3yvioKksDBazronFTuEl_RBonxCATHaQ/viewform)。
 - **系統限制**：門市助理僅支援 **新版 VIP 制度**，舊版 VIP 商家不適用。
 - **LINE 認證建議**：強烈建議申請 **LINE Certified Provider**。具備此認證後，顧客掃碼可直接觸發 LIFF 網址，大幅簡化註冊與綁定流程。
-- **費用提醒**：啟用手機驗證功能將產生簡訊發送費用（每封 NT$ 1 元）。
+- **費用提醒**：啟用手機驗證功能將產生簡訊發送費用（每封 NT 1 元）。
 
 
 

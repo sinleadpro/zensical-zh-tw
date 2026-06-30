@@ -34,8 +34,9 @@ features:
   - 自動開立發票
   - 多站台共用帳戶
   - 對帳發票設定
-tnb: branch
+tnb: trunk
 plans:
+  - 專業
   - 進階
   - 高手
   - 專業PLUS
@@ -194,24 +195,6 @@ hide:
     - 多個 EC 站台各自開立不同統編發票 → 各站台需分別購買方案並完成串接。  
     - 同時營運 EC 與 POS → 每個通路需設定不同統編，分開購買方案並完成串接。
 
-## 串接啟用對帳發票
-
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 企業
-
-若由 CYBERBIZ 代開消費者發票的企業版用戶，系統可串接您的星益欣帳戶，並於對帳流程中一鍵開立對帳發票。詳細操作可參考[一鍵開立請款發票](one-click-invoice-issuance.md){ title="一鍵開立請款發票" }。
-
-1. 在 CYBERBIZ 電商後台，前往 **管理中心 > 對帳中心**。
-2. 在 **對帳發票設定** 分頁，輸入統一編號。  
-
-    !!! info "若尚未購買方案，請先完成[購買方案](#購買星益欣方案)。操作步驟與購買星益欣方案相似，但設定位置在對帳發票設定頁面。"
-
-	![對帳發票設定](../../assets/images/ec-e-invoice-wixtar-13-accounting-creds.png){ title="對帳發票設定" .screenshot }
-
-3. 串接並啟用帳戶。 
-
-    !!! info "步驟與[串接並啟用服務](#串接並啟用服務)相同，僅設定位置不同，可搭配輔助操作。"
-
-	![對帳啟用串接](../../assets/images/ec-e-invoice-wixtar-14-accounting-enable.png){ title="對帳啟用串接" .screenshot }
 
 ## 續購方案
 

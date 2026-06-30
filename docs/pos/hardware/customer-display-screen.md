@@ -179,7 +179,7 @@ POS 客戶顯示器（簡稱「客顯」）是 POS 系統的輔助設備，讓�
 <div class="grid cards" markdown>
 
 - :lucide-banknote:{ .lg }   
-[__建立 POS 互動遊戲__](../../ec/marketing/other-tools/interactive-games.md)     
+[__建立 POS 互動遊戲__](../check/customer-display-interactive-games.md)     
 設計 POS 專屬轉盤或抽獎活動。
 
 - :lucide-banknote:{ .lg }   

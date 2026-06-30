@@ -251,7 +251,7 @@ hide:
     ---
     多維度報表助您掌握銷售脈絡
     
-    [:octicons-arrow-right-24: 報表分析](store/announcement-system.md)
+    [:octicons-arrow-right-24: 報表分析](store/business-intelligence/pos-revenue-analysis/)
 
 </div>
 

@@ -95,11 +95,11 @@ hide: []
 
         - :lucide-printer:{ .lg }
           __發票機__<br>
-          用於列印電子發票。支援EPSON [有線](../hardware/epson-tm-t82iii-invoice-printer/) [WiFi](../hardware/epson-tm-m30iii-invoice-printer) 或 [Posiflex](../hardware/posiflex-wired-invoice-printer) 等有線發票機。
+          用於列印電子發票。支援 EPSON [有線發票機](../hardware/epson-tm-t82iii-invoice-printer/) [WiFi 發票機](../hardware/epson-tm-m30iii-invoice-printer) 或 [Posiflex](../hardware/posiflex-wired-invoice-printer) 有線發票機。
 
         - :lucide-credit-card:{ .lg }
           __刷卡機__<br>
-          串接金流服務。支援 [台新有線刷卡機](../hardware/taishin-wired-credit-card-machine/)或 [MYPAY 無線刷卡機](../hardware/mypay-wireless-credit-card-machine/)。
+          串接金流服務。支援 [台新有線刷卡機](../hardware/taishin-wired-credit-card-machine/) 或 [MYPAY 無線刷卡機](../hardware/mypay-wireless-credit-card-machine/)。
 
         - :lucide-tags:{ .lg }
           [__標籤機__](../hardware/label-printer/)<br>
@@ -110,7 +110,7 @@ hide: []
           向顧客展示交易金額與促銷資訊。
 
         - :lucide-scan-barcode:{ .lg }
-          __掃碼槍__<br>
+          [__掃碼槍__](../hardware/hprt-n130-barcode-scanner.md)<br>
           快速讀取商品 SKU 條碼與會員載具。
 
         - :lucide-archive:{ .lg }
@@ -160,7 +160,7 @@ hide: []
       電子發票服務中心申請，確保發票開立合規。
 
     - :lucide-qr-code:{ .lg }
-      [__LINE Pay 掃碼支付__](../check/line-pay-scan-payment.md/)<br>
+      [__LINE Pay 掃碼支付__](../check/line-pay-scan-payment.md)<br>
       申請 LINE Pay 商家權限，支援行動支付結帳。
 
     </div>
@@ -176,9 +176,9 @@ hide: []
     - __① 費用結清__<br>
       確認 POS 系統相關費用已完成付款。
 
-    - [__② 建立商品與 SKU__](../../ec/products/creation/create-update-products.md)<br>
+    - [__② 建立商品與 SKU__](../../ec/products/create-and-manage/create-update-products.md)<br>
       確認官網商品已建置，且 **每款商品皆已填寫 SKU 碼**（SKU 為商品唯一身分證）。<br><br>
-      [→ 大量填補商品 SKU 碼教學]()
+      [→ 大量填補商品 SKU 碼教學](bulk-update-product-skus.md)
 
     - __③ 更新庫存設定__<br>
       檢查官網商品庫存。若未設定為 **無限庫存 (∞)**，在 POS 開通後庫存將預設歸零。
@@ -193,11 +193,11 @@ hide: []
     <div class="grid cards" markdown>
 
     - :lucide-git-branch:{ .lg }
-      [__全通路庫存管理__](../inventory/index/)<br>
+      [__全通路庫存管理__](../inventory/index.md)<br>
       EC 官網與 POS 門店為 **獨立門市、獨立庫存**。系統開通後，可使用進/出/調倉單或盤點功能進行庫存增減調整。
 
     - :lucide-plug:{ .lg }
-      [__帳號權限管理__](../others/staff-permissions-and-account-management/)<br>
+      [__帳號權限管理__](../store/staff-permissions-and-account-management.md)<br>
       理解角色身分建置方式，並將員工帳號綁定身分
 
     </div>
