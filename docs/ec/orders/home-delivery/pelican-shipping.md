@@ -2,7 +2,7 @@
 title: 使用宅配通出貨
 description: 使用宅配通出貨。包含批次下載託運單、單筆與部分出貨、補印託運單等操作，以及運費計價規則與常見問題。
 created: 2026-05-19 21:30
-last_modified: 2026-06-14 12:13
+last_modified: 2026-06-30 10:30
 lang: zh-TW
 type: tutorial
 status: ""
@@ -77,7 +77,7 @@ icon: lucide/bird
 hide: []
 ---
 
-![下載宅配通託運單](../../../assets/images/EC-訂單-所有訂單-下載宅配通託運單-hero.png){ .hero-page }
+![下載宅配通託運單](../../../assets/images/EC-訂單-所有訂單-下載宅配通託運單-hero.png){ title="下載宅配通託運單" .hero-page }
 
 ## 宅配通出貨說明 { #intro-pelican }
 
@@ -87,7 +87,7 @@ hide: []
 
 !!! info "重要規範" 
     * **嚴禁使用手寫單**：串接物流必須使用系統產出的託運單。手寫單無法回傳貨態，將影響對帳與客服處理。
-    * **特殊區域與材積**：部分[離島、偏遠地區][reference-pelican-exclusion]{ data-preview }及特殊材積、特殊貨品內容，可能無法配送或需依宅配通公告另行加價，實際配送與費用以宅配通公告為準。
+    * **特殊區域與材積**：部分[離島、偏遠地區](#reference-pelican-exclusion)及特殊材積、特殊貨品內容，可能無法配送或需依宅配通公告另行加價，實際配送與費用以宅配通公告為準。
     * **冷鏈商品**：宅配通低溫配送目前暫不開放，請改用其他物流方案。
 
 ## 使用前提與限制 { #prerequisites-pelican }
@@ -116,7 +116,7 @@ hide: []
 首次使用宅配通出貨前，請先完成下列設定：
 
 - [x] **公司物流地址**(批次出貨用)：至「管理中心」>「一般設定」設定宅配通專用的公司物流地址。批次下載託運單時，彈窗內也可以當次調整。
-- [x] **宅配通寄件人資料**(加印託運單與逆物流用)：至「金物流」>「宅配通託運單」頁面的「宅配通設定」區塊填寫，詳見 [宅配通託運單管理頁][configure-pelican-shipping-note-sender]{ data-preview } 。
+- [x] **宅配通寄件人資料**(加印託運單與逆物流用)：至「金物流」>「宅配通託運單」頁面的「宅配通設定」區塊填寫，詳見 [宅配通託運單管理頁](../../payments-and-logistics/setup-pelican-waybill.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" } 。
 
 ---
 
@@ -141,7 +141,7 @@ hide: []
 
 ### 基本運費 { #pricing-pelican-rate }
 
-每張託運單的基本運費依「配送商品尺寸」決定，常溫 60 / 90 / 120 / 150 cm 各有對應費率。完整費率與加收費用請見 [配送商品尺寸與運費對照表][reference-pelican-shipment-rates]{ data-preview } 。
+ 每張託運單的基本運費依「配送商品尺寸」決定，常溫 60 / 90 / 120 / 150 cm 各有對應費率。完整費率與加收費用請見 [配送商品尺寸與運費對照表](#reference-pelican-shipment-rates) 。
 
 !!! note "註釋"
     宅配通低溫配送(冷藏 / 冷凍)目前 **暫不開放** 。若有冷鏈商品出貨需求，請與您的業務窗口討論其他物流方案。
@@ -155,7 +155,8 @@ hide: []
 | 繁盛期取件 | 每件 +10 Cyber 幣 | 端午、中秋、春節等物流繁盛期間 |
 | 週六、週日取件 | 每件 +20 Cyber 幣 | 由宅配通在週末上門取件 |
 
-*若實際出貨時，尺寸與所選運費不同而產生較高費用時，差額將列入之後的對帳單中。*
+
+!!! info "若實際出貨時，尺寸與所選運費不同而產生較高費用時，差額將列入之後的對帳單中。"
 
 ---
 
@@ -176,24 +177,24 @@ hide: []
 3. **勾選欲出貨訂單**：在訂單列表左側勾選要出貨的訂單(可跨頁勾選或全選當頁)。
 4. **執行批次操作**：點選列表上方的「選擇操作」下拉，選擇 **「下載宅配通託運單並將貨態改為『已出貨』」** 。
 
-    ![下載宅配通託運單](../../../assets/images/EC-訂單-所有訂單-下載宅配通託運單.png)
+    ![下載宅配通託運單](../../../assets/images/EC-訂單-所有訂單-下載宅配通託運單.png){ title="下載宅配通託運單" }
 
-5. **檢視運費明細**：彈窗 中段會列出本批次要扣除的 Cyber 幣或對帳金額，請確認與[預期相符][pricing-pelican-extra]{ data-preview }。
+5. **檢視運費明細**：彈窗 中段會列出本批次要扣除的 Cyber 幣或對帳金額，請確認與[預期相符](#pricing-pelican-extra){ data-preview }。
 6. **確認寄件公司地址**：彈窗內會顯示您的 [公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" }。若需臨時調整，可點擊 **更改** 修改。
 
-    ![下載宅配通託運單](../../../assets/images/EC-訂單-所有訂單-下載宅配通託運單-彈窗.png)
+    ![下載宅配通託運單](../../../assets/images/EC-訂單-所有訂單-下載宅配通託運單-彈窗.png){ title="下載宅配通託運單" }
 
-    ??? quote "需要自訂寄件資訊？"
-        若你的寄件地址需要不同於公司物流地址(例如倉庫地址)，或需要自訂寄件人姓名、電話、託運單預設品名，請另到 金物流 > 宅配通託運單 於「[宅配通設定][configure-pelican-shipping-note-sender]{ data-preview }」區塊填寫並儲存。
+    ??? tip "需要自訂寄件資訊？"
+         若你的寄件地址需要不同於公司物流地址(例如倉庫地址)，或需要自訂寄件人姓名、電話、託運單預設品名，請另到 金物流 > 宅配通託運單 於「[宅配通設定](../../payments-and-logistics/setup-pelican-waybill.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" }」區塊填寫並儲存。
 
 7. **同意條款**：勾選頁面底部的 **「我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 宅配通合約規範」** 。
-8. **確認下載**：點擊 **「確認」**。系統會建立託運單、扣除運費，並將訂單貨態更新為「[已出貨(待物流收件)][shipping-status-text-type]{ data-preview }」。
+8. **確認下載**：點擊 **「確認」**。系統會建立託運單、扣除運費，並將訂單貨態更新為「[已出貨(待物流收件)](shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }」。
 
     !!! warning "印單後無法修改收貨資訊"
         一旦下載託運單，系統會將收貨資訊與託運單綁定，無法在後台修改。如需修改，只能取消該張託運單(請聯繫 CYBERBIZ 客服)後重新建立。
 
-9. **接收託運單檔案**：系統會自動下載一個[壓縮檔][reference-logistics-zip-contents]{ data-preview }，內含託運單 PDF 與相關出貨單據。請以「宅配通三連空白託運單貼紙」列印託運單並貼於紙箱。
-10. **預約收件**：列印完成後請聯繫宅配通客服預約收件，或依您與宅配通約定的固定取件時段準備出貨。收件後，訂單詳情頁內狀態會顯示為「[已出貨(配送中)][shipping-status-text-type]{ data-preview }」。
+9. **接收託運單檔案**：系統會自動下載一個[壓縮檔](../references/order-filter-status-reference.md#reference-logistics-zip-contents){ title="託運單下載內容物說明" data-preview }，內含託運單 PDF 與相關出貨單據。請以「宅配通三連空白託運單貼紙」列印託運單並貼於紙箱。
+10. **預約收件**：列印完成後請聯繫宅配通客服預約收件，或依您與宅配通約定的固定取件時段準備出貨。收件後，訂單詳情頁內狀態會顯示為「[已出貨(配送中)](shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }」。
 
 [^1]: 勾選的訂單若包含非宅配通訂單(例如混雜黑貓、超商取貨)，彈窗會無法開啟或在送出時跳錯。請先用「配送方式」篩選器確保批次內物流類型一致。
 
@@ -214,7 +215,7 @@ hide: []
 
 ---
 
-### 補印託運單(損壞或遺失) { #operate-pelican-reprint }
+### 補印託運單 <small>損壞或遺失</small> { #operate-pelican-reprint }
 
 如果託運單已下載過，但貼紙印壞、遺失，或想再列印一次同一張單，可以使用補印功能。**補印不會產生新單號，也不會重複扣費。**
 
@@ -224,22 +225,22 @@ hide: []
 4. 系統會重新產出原本的託運單 PDF，請以宅配通三連空白託運單貼紙列印。
 
 !!! info "提示"
-    補印僅針對 **已產出過的單號** 重新印出 PDF 。若您需要為同一訂單產生 **新的單號** (例如拆箱分多件寄送)，請改用 [加印託運單][operate-pelican-shipping-note-add-print]{ data-preview } 功能。
+     補印僅針對 **已產出過的單號** 重新印出 PDF 。若您需要為同一訂單產生 **新的單號** (例如拆箱分多件寄送)，請改用 [加印託運單](../../payments-and-logistics/setup-pelican-waybill.md#operate-pelican-shipping-note-add-print){ title="加印託運單" } 功能。
 
 ## 後續操作 { #followup-pelican }
 
 <div class="grid cards" markdown>
 
 - :lucide-truck:{ .lg }  
-  [__追蹤貨態__]()  
+  [__追蹤貨態__](shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" }  
   出貨後配送狀態會變為「已出貨(待物流收件)」，等宅配通實際收件並掃描後，會依物流回拋逐步更新為運送中、已送達等狀態。
 
 - :lucide-receipt:{ .lg }  
-  [__檢視對帳紀錄__]()  
+  [__檢視對帳紀錄__](../../payments-and-logistics/setup-pelican-waybill.md#operate-pelican-shipping-records){ title="查詢紀錄與對帳" }  
   「宅配通託運單」頁面下方的單號使用紀錄會列出每張託運單的訂單編號、單號、扣除金額與單號狀態，可用於對帳。
 
 - :lucide-printer:{ .lg }  
-  [__加印或處理退貨__][operate-pelican-shipping-note-add-print]  
+  [__加印或處理退貨__](../../payments-and-logistics/setup-pelican-waybill.md#operate-pelican-shipping-note-add-print){ title="加印託運單" }  
   同一筆訂單需要拆箱多寄，或處理顧客退貨時，請至宅配通託運單管理頁進行加印託運單或建立逆物流。
 
 </div>
@@ -283,7 +284,7 @@ hide: []
 
     判斷標準：
 
-    * 商品 **一次全部寄出，但裝不下一箱** > 使用 [加印託運單][operate-pelican-shipping-note-add-print]{ data-preview } ，可在同一筆訂單建立多張單號，每箱貼一張。
+    * 商品 **一次全部寄出，但裝不下一箱** > 使用 [加印託運單](../../payments-and-logistics/setup-pelican-waybill.md#operate-pelican-shipping-note-add-print){ title="加印託運單" } ，可在同一筆訂單建立多張單號，每箱貼一張。
     * 商品 **分批寄出** (例如缺貨先寄一部分，後續到貨再寄)> 使用「部分出貨」，於訂單詳情頁勾選本次要寄的商品即可。
     * 貨到付款訂單若要分箱寄送， **必須** 使用加印託運單(代收款需綁定託運單號)。
 
@@ -306,7 +307,7 @@ hide: []
 ??? quote "貨到付款的代收手續費怎麼算？"  
     [](){ #faq-pelican-cod-fee }
 
-    宅配通貨到付款訂單，除基本運費外會另收 **代收手續費** ，依「代收金額」階梯計算(完整費率見 [代收手續費對照表][reference-pelican-cod-fee]{ data-preview })：
+     宅配通貨到付款訂單，除基本運費外會另收 **代收手續費** ，依「代收金額」階梯計算(完整費率見 [代收手續費對照表](#reference-pelican-cod-fee))：
 
     * 2,000 元以下 → 30 Cyber 幣
     * 2,001 ~ 5,000 元 → 60 Cyber 幣
@@ -334,7 +335,7 @@ hide: []
 
 === "PLUS版 / 企業版"
 
-    訂閱 CYBERBIZ **專業PLUS版** 、**進階 PLUS版** 、**高手 PLUS版** 、**企業版** 方案的商家適用。
+    訂閱 CYBERBIZ **專業PLUS版** 、**進階PLUS版** 、**高手PLUS版** 、**企業版** 方案的商家適用。
 
     | 材積 | 常溫 本島 | 常溫 離島 | 繁盛期 加收[^2] | 週六、週日取件 加收[^3] |
     | :-- | --: | --: | --: | --: |
@@ -346,7 +347,7 @@ hide: []
 !!! note "註釋"
     - 金額均為 **Cyber 幣** ，且 **含稅** 。宅配通 **低溫(冷藏／冷凍)** ，上表僅列常溫費率。
     * **重量限制 20kg 內** ；單邊長與材積上限以宅配通公告為準。
-    * **離島運費** 適用於宅配通有提供配送服務的特定離島地址；[不在服務範圍內的離島][reference-pelican-exclusion]{ data-preview }恕無法配送。最新服務範圍以宅配通公告為準。
+    * **離島運費** 適用於宅配通有提供配送服務的特定離島地址；[不在服務範圍內的離島](#reference-pelican-exclusion)恕無法配送。最新服務範圍以宅配通公告為準。
     * **託運單下載後 14 日內未實際寄出** ，系統會自動退回該張託運單預扣的運費，並把單號狀態改為「取消寄件」；若退費後仍使用該張託運單出貨，系統會再次記錄運費。
     * 若您的店家與 CYBERBIZ 已協議客製費率，系統會自動套用，實際扣抵以後台下拉選單顯示為準。
 

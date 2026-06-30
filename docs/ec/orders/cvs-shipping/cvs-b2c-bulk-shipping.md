@@ -2,7 +2,7 @@
 title: 使用超商大宗寄倉（B2C）出貨
 description: 於訂單列表批次下載託運單、產生託運單號，並將集中包裝的貨件寄至超商物流中心，再由物流中心分發至消費者指定門市。
 created: 2026-05-25 20:35
-last_modified: 2026-06-23 14:46
+last_modified: 2026-06-30 16:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -68,7 +68,7 @@ icon: lucide/warehouse
 hide: []
 ---
 
-![下載B2C託運單](../../../assets/images/EC-訂單-所有訂單-下載B2C託運單-hero.png){ .hero-page }
+![下載B2C託運單](../../../assets/images/EC-訂單-所有訂單-下載B2C託運單-hero.png){ title="下載B2C託運單" .hero-page }
 
 ## 超商大宗寄倉 B2C 出貨說明 { #intro-cvs-b2c-shipping }
 
@@ -94,14 +94,14 @@ hide: []
 2. **勾選訂單**：在訂單列表勾選欲出貨的訂單，**請確保勾選的訂單皆為相同配送方式**（例如皆為 7-ELEVEN 超商取貨）。
 3. **執行下載**：點擊頁面右上方「**更多操作**」下拉，選擇「**列印 B2C 大宗託運單並改為『已出貨』**」[^1]。
 4. **確認操作**：彈窗顯示「確認要『列印 B2C 大宗託運單並改為已出貨』嗎？」後點擊 **「確認」**。
-5. **下載文件**：系統會自動產生託運單號並下載含託運資料的壓縮檔，訂單列表配送狀態變為「**已出貨**」，訂單詳情頁則顯示「**[已出貨（待物流收件）](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" }**」。
+5. **下載文件**：系統會自動產生託運單號並下載含託運資料的壓縮檔，訂單列表配送狀態變為「**已出貨**」，訂單詳情頁則顯示「[已出貨（待物流收件）](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" }」。
 
-![下載b2c大宗託運單](../../../assets/images/EC-訂單-所有訂單-下載b2c大宗託運單.png)
+![下載b2c大宗託運單](../../../assets/images/EC-訂單-所有訂單-下載b2c大宗託運單.png){ title="下載b2c大宗託運單" }
 
 [^1]: 下拉選項會依勾選訂單的通路動態判斷，若勾選的是全家冷凍訂單，選項會顯示為「下載全家冷鏈材積託運單並更改為『已出貨』」。
 
 !!! warning "下載中請勿離開頁面"
-    系統在背景產生託運單號時若中途關閉視窗，**部分訂單可能已變更為「已出貨」但託運單未下載**，需透過 [補印託運單](#operate-cvs-b2c-shipping-reprint){ data-preview } 重新取得。
+    系統在背景產生託運單號時若中途關閉視窗，**部分訂單可能已變更為「已出貨」但託運單未下載**，需透過 [補印託運單](#operate-cvs-b2c-shipping-reprint){ title="補印託運單" } 重新取得。
 
 ---
 
@@ -131,7 +131,7 @@ hide: []
     - 完整收貨地址、時段、收件單位請見
 [物流中心收貨資訊](../../payments-and-logistics/references/cvs-b2c-logistics-center-reference.md#reference-cvs-b2c-centers-list){ title="物流中心收貨資訊" data-preview }。
     - [各通路包裝方式、送貨車](../../payments-and-logistics/references/cvs-b2c-logistics-center-reference.md#reference-cvs-b2c-acceptance-rules){ title="物流中心收貨資訊" data-preview }。
-3. **物流中心簽收**：物流中心收件後，系統訂單狀態會由「待物流收件」自動變更為「**[已出貨（配送中）](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }**」。
+3. **物流中心簽收**：物流中心收件後，系統訂單狀態會由「待物流收件」自動變更為「[已出貨（配送中）](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }」。
 
 !!! tip "取貨簡訊通知"
     商品送達消費者指定門市後，系統會於第 **1 天**、第 **4 天** 自動發送取貨簡訊通知消費者。
@@ -161,11 +161,20 @@ hide: []
 
 ### 門市關轉處理 { #operate-cvs-b2c-shipping-store-change }
 
-若消費者選擇的取貨門市發生關轉（裝修、歇業等），系統會發送通知信給商家：
+若消費者選擇的取貨門市發生關轉（裝修、歇業等），系統會發送通知信給商家。各通路聯繫消費者的期限如下：
 
-1. 收到通知後，需於 **2 日內** 主動聯繫消費者確認新門市。
-2. 進入該訂單的詳情頁，**重新選擇收件門市**。
-3. 確認後系統會自動更新出貨資訊。
+| 通路 | 聯繫期限 |
+| :-- | :-- |
+| 7-ELEVEN | 收到通知信件 **2 日內** |
+| 全家（常溫／冷凍） | 收到通知信件 **6 日內** |
+| 萊爾富 | 收到通知信件 **2 日內** |
+
+1. **聯繫消費者**：收到通知信後，於上表期限內主動聯繫消費者確認新的取貨門市。
+2. **重新選擇門市**：前往後台搜尋該筆訂單，進入訂單詳情頁，**重新選擇收件門市**。
+3. **確認更新**：確認後系統會自動更新出貨資訊。
+
+!!! warning "逾期風險"
+    若超過通路規定期限仍未重新選擇門市，可能導致包裹被退回。請務必在收到通知後盡快處理。
 
 ---
 
@@ -173,7 +182,7 @@ hide: []
 
 * **出貨不可逆**：一旦下載託運單，訂單狀態即變為「已出貨」，且 **無法修改收貨資訊**。請於下載前確認資料正確。
 * **CYBER 幣餘額不足將擋下載**：一般版 商家若 CYBER 幣不足，系統會直接擋下載並提示「CYBER 幣餘額不足」。詳見
-[計費方式](../../payments-and-logistics/references/cvs-b2c-plans-pricing-reference.md#reference-cvs-b2c-plans-billing){ data-preview }。
+[計費方式](../../payments-and-logistics/references/cvs-b2c-plans-pricing-reference.md#reference-cvs-b2c-plans-billing){ title="超商大宗寄倉B2C方案與計費對照" data-preview }。
 * **重量與材積限制**：訂單總重量 / 材積若超過該通路上限將無法產生託運單，詳見
 [重量與材積限制](../../payments-and-logistics/references/cvs-b2c-channel-spec-reference.md#reference-cvs-b2c-channels-specs){ title="超商大宗寄倉B2C通路規格" data-preview }。
 * **5 天交寄期限**：託運單產生隔日起 5 天內未送達物流中心將自動失效，且無法補印或退費。
@@ -193,10 +202,6 @@ hide: []
   [__儲值 CYBER 幣__](../../website-management/points-deposits.md){ title="Cyber 幣儲值中心使用指南" }  
   一般版商家確保餘額足以扣除大量訂單運費。
 
-- :lucide-file-text:{ .lg }  
-  [__查詢對帳單__]()  
-  PLUS版、企業版商家可於對帳單檢視當月累計運費。
-
 </div>
 
 ## 常見問題 { #faq-cvs-b2c-shipping }
@@ -209,7 +214,7 @@ hide: []
     - 勾選的訂單包含 **不同通路**（例如同時勾了 7-ELEVEN 與全家）
     - 訂單付款狀態不符（需為「已收到款項」或「貨到付款」）
     - 訂單配送狀態已是「已出貨」或「已取消」
-    - [CYBER 幣餘額不足](../../payments-and-logistics/setup-cvs-b2c-bulk-shipping.md){ title="設定超商大宗寄倉 B2C" } 確認
+    - [CYBER 幣餘額不足](../../payments-and-logistics/references/cvs-b2c-plans-pricing-reference.md#reference-cvs-b2c-plans-billing){ title="超商大宗寄倉B2C方案與計費對照" data-preview } 確認
 
 ??? quote "點擊下載託運單後沒有反應怎麼辦？"
     [](){ #faq-cvs-b2c-shipping-no-response }
@@ -234,7 +239,7 @@ hide: []
 ??? quote "託運單下載後可以修改收貨資訊嗎？"
     [](){ #faq-cvs-b2c-shipping-edit }
     
-    **不可以**。下載託運單即代表已完成託運申請，收件地址、門市、收件人皆無法修改。若遇門市關轉，請依「[門市關轉處理](#operate-cvs-b2c-shipping-store-change){ data-preview }」流程處理。
+    **不可以**。下載託運單即代表已完成託運申請，收件地址、門市、收件人皆無法修改。若遇門市關轉，請依「[門市關轉處理](#operate-cvs-b2c-shipping-store-change){ title="門市關轉處理" }」流程處理。
 
 ??? quote "可以混合不同超商一次下載嗎？"
     [](){ #faq-cvs-b2c-shipping-mixed }
@@ -256,4 +261,7 @@ hide: []
     
     請務必使用 **雷射印表機** 搭配 **2x3 規格貼紙** 列印，避免條碼模糊無法判讀。將標籤貼平於外包裝 **左上角**，並確保條碼與 QR Code 不可凹折或被膠帶覆蓋。
 
+## 參考資料
+
+* [超商大宗寄倉B2C方案與計費對照](../../payments-and-logistics/references/cvs-b2c-plans-pricing-reference.md#reference-cvs-b2c-plans-billing){ title="超商大宗寄倉B2C方案與計費對照" data-preview }
 

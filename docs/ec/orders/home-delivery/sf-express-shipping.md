@@ -1,9 +1,8 @@
 ---
-
 title: 使用順豐出貨
 description: 使用順豐託運單批次或單筆下載出貨，系統自動與順豐即時取號，將訂單貨態更新為已出貨，支援國內台灣本島及海外配送。
 created: 2026-05-20 20:25
-last_modified: 2026-06-14 14:00
+last_modified: 2026-06-30 10:31
 lang: zh-TW
 type: tutorial
 status: ""
@@ -78,8 +77,7 @@ icon: lucide/truck
 hide: []
 ---
 
-
-![下載順豐託運單](../../../assets/images/EC-訂單-所有訂單-下載順豐託運單-hero.png){ .hero-page }
+![下載順豐託運單](../../../assets/images/EC-訂單-所有訂單-下載順豐託運單-hero.png){ title="下載順豐託運單" .hero-page }
 
 
 ## 順豐出貨說明 { #intro-sf }
@@ -111,7 +109,7 @@ hide: []
 
 - [x] **公司物流地址**：至「一般設定」>「[公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" }」設定寄件地址(縣市、鄉鎮市區、郵遞區號、詳細地址)。
 - [x] **公司統一編號**：至「一般設定」>「[公司聯絡資訊](../../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="設定網站基本資訊" }」輸入統編。**寄送海外件時為必填欄位[^1]**。
-- [x] **順豐寄件人資訊**(選用)：若您希望託運單上的寄件人聯絡電話與「公司聯絡資訊」不同，可在 **順豐託運單設定頁** 另行指定寄件人姓名與電話。詳情參考 [設定順豐託運單寄件人資訊][configure-sf-waybill-sender]{ data-preview }。
+- [x] **順豐寄件人資訊**(選用)：若您希望託運單上的寄件人聯絡電話與「公司聯絡資訊」不同，可在 **順豐託運單設定頁** 另行指定寄件人姓名與電話。詳情參考 [設定順豐託運單寄件人資訊](../../payments-and-logistics/setup-sf-express-waybill.md#configure-sf-waybill-sender){ title="順豐設定" data-preview }。
 
 [^1]: 缺少統編將無法產生海外託運單。
 
@@ -120,7 +118,7 @@ hide: []
 ### 配送範圍 { #prerequisites-sf-coverage }
 
 * **國內**：僅支援 **台灣本島**。系統會依收件地址自動判斷，**離島地區(澎湖、金門、馬祖、綠島、蘭嶼等)無法產生託運單**，需改用其他配送方式。
-* **海外**：已開通「[順豐海外宅配](../../payments-and-logistics/順豐海外物流.md){ title="順豐海外物流" }」者可寄送至中國、香港、澳門及其他順豐支援國家。系統會依收件國家自動切換為英文託運單。
+* **海外**：已開通「[順豐海外宅配](../../payments-and-logistics/sf-express-overseas-logistics.md){ title="順豐海外物流" }」者可寄送至中國、香港、澳門及其他順豐支援國家。系統會依收件國家自動切換為英文託運單。
 
 ---
 
@@ -140,9 +138,9 @@ hide: []
 
 * **春節繁盛期** 每張託運單加收 60 元(以順豐官方公告為準)。
 * **海外件** 運費組成包含 **運送費用**、**高峰資源調節費** 與 **燃油附加費**，實際金額以順豐 OpenAPI 即時回傳為準。
-* 若 21 天內未實際寄件，單號將失效，**CYBER 幣會自動退回帳戶**(對帳單方案則不會列入該期帳單)。詳見 [託運單失效與退費][specs-sf-expiration]{ data-preview }。
+* 若 21 天內未實際寄件，單號將失效，**CYBER 幣會自動退回帳戶**(對帳單方案則不會列入該期帳單)。詳見 [託運單失效與退費](#specs-sf-expiration)。
 
-各尺寸對應的運費請參考 [順豐配送商品尺寸與運費對照表][reference-sf-shihpment-sizes]{ data-preview }。
+ 各尺寸對應的運費請參考 [順豐配送商品尺寸與運費對照表](#reference-sf-shipment-sizes)。
 
 ---
 
@@ -162,10 +160,10 @@ hide: []
     * **寄件人地址**：預設帶入「[公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" }」，如本次出貨需使用不同地址，可在視窗內 **「更改」** 按鈕直接編輯縣市 / 鄉鎮市區 / 郵遞區號 / 地址。
 5. **閱讀注意事項**：視窗會列出出貨提醒[^5]，請務必確認後再進行下一步。
 6. **同意條款**：勾選 **「我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 順豐合約規範」**(預設已勾選)，確認按鈕方會啟用。
-7. **點擊「下載」**：系統會呼叫順豐依勾選的訂單數量逐筆取得託運單號，並下載一份 ZIP [壓縮檔][reference-sf-bulk-shipping-files]{ data-preview }。
-8. **檢視出貨結果**：下載完成後，訂單列表中對應訂單的貨態會自動更新為 **「[已出貨(待物流收件)][shipping-status-text-type]{ data-preview }」**，並在訂單詳情頁記錄託運單號。
+7. **點擊「下載」**：系統會呼叫順豐依勾選的訂單數量逐筆取得託運單號，並下載一份 ZIP [壓縮檔](#reference-sf-bulk-shipping-files)。
+8. **檢視出貨結果**：下載完成後，訂單列表中對應訂單的貨態會自動更新為 **「[已出貨(待物流收件)](shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }」**，並在訂單詳情頁記錄託運單號。
 
-![下載順豐託運單-確認彈窗](../../../assets/images/EC-訂單-所有訂單-下載順豐託運單-確認彈窗.png)
+![下載順豐託運單-確認彈窗](../../../assets/images/EC-訂單-所有訂單-下載順豐託運單-確認彈窗.png){ title="下載順豐託運單-確認彈窗" }
 
 [^2]: 否則系統會擋下並提示「訂單 X 無法支援順豐託運單」。
 [^3]: 實際扣抵的尺寸由系統依訂單品項的材積自動判定，不需手動選擇。
@@ -196,7 +194,7 @@ hide: []
 當一筆訂單只有部分商品可先寄出時，可進入該筆 **訂單詳情頁**，於「出貨」區塊勾選本次要出貨的商品後，在「選擇出貨方式」下拉中選擇 **「順豐託運單」**，點擊「確認出貨」即可。
 
 * 順豐部分出貨 **僅支援一般訂單**，**不支援順豐貨到付款**(分箱寄送會讓代收款分散在多張託運單，結帳對帳會錯亂)。
-* 若需貨到付款分箱，請改用 [加印託運單][next-steps-sf-reprint]{ data-preview } 功能於同一張訂單產生多組單號。
+* 若需貨到付款分箱，請改用 [加印託運單](../../payments-and-logistics/setup-sf-express-waybill.md#operate-sf-waybill-reprint){ title="加印託運單" data-preview } 功能於同一張訂單產生多組單號。
 
 部分出貨的完整流程(各物流共用)請參考 [訂單部分出貨](partial-shipment.md){ title="設定訂單部分出貨" }。
 
@@ -245,12 +243,12 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-printer:{ .lg }   
-  [__加印託運單(一單多包)__][operate-sf-waybill-reprint]  
+  [__加印託運單(一單多包)__](../../payments-and-logistics/setup-sf-express-waybill.md#operate-sf-waybill-reprint){ title="加印託運單" }  
   若商品超過單一包裹材積限制(建議超過 170 cm 拆箱)或貨到付款訂單需要分箱寄送，可使用「加印託運單」。
 
-- :lucide-refresh-ccw:{ .lg }     
+<!-- - :lucide-refresh-ccw:{ .lg }     
   [__補印託運單(遺失重印)__](../../payments-and-logistics/reprint-waybills.md){ title="補印與加印託運單" }  
-  託運單檔案遺失或印壞時，可使用 **「補印託運單」** 重新下載。補印 **不會** 再次扣費。
+  託運單檔案遺失或印壞時，可使用 **「補印託運單」** 重新下載。補印 **不會** 再次扣費。 -->
 
 </div>
 
@@ -299,12 +297,12 @@ hide: []
 ??? quote "包裹超過 170 cm 該怎麼辦？"
     [](){ #faq-sf-oversize }
 
-    若包裹超過 170 cm，各順豐站所司機 **有不收取的可能**，建議拆分成兩個包裹寄送。系統提供 80 / 110 / 140 / 170 / 210 cm 五種國內尺寸選項，拆分後分別為各包裹產生託運單即可。如需一單多包，可使用 [加印託運單][operate-sf-waybill-reprint]{ data-preview } 功能。
+     若包裹超過 170 cm，各順豐站所司機 **有不收取的可能**，建議拆分成兩個包裹寄送。系統提供 80 / 110 / 140 / 170 / 210 cm 五種國內尺寸選項，拆分後分別為各包裹產生託運單即可。如需一單多包，可使用 [加印託運單](../../payments-and-logistics/setup-sf-express-waybill.md#operate-sf-waybill-reprint){ title="加印託運單" data-preview } 功能。
 
 ??? quote "如何重新下載已遺失的託運單？"
     [](){ #faq-sf-redownload }
 
-    託運單檔案若不慎遺失，可至後台「金物流」>「順豐託運單」搜尋對應訂單，於該筆紀錄旁點擊重新下載，**不需要再扣一次 Cyber 幣**。補印的完整說明請參考 [補印託運單](../../payments-and-logistics/reprint-waybills.md){ title="補印與加印託運單" }。
+     託運單檔案若不慎遺失，可至後台「金物流」>「順豐託運單」搜尋對應訂單，於該筆紀錄旁點擊重新下載，**不需要再扣一次 Cyber 幣**。補印的完整說明請參考 [補印託運單](../../payments-and-logistics/setup-sf-express-waybill.md#operate-sf-waybill-reprint){ title="加印託運單" }。
 
 ## 參考資料 { #reference-sf }
 
@@ -343,6 +341,6 @@ hide: []
     !!! note "註釋"
         * 海外件 **僅有 80cm 一種尺寸選項**，超過此尺寸請聯繫順豐單獨報價，系統無法處理。
         * 上表為 **基本運費**，實際總費用另含 **高峰資源調節費** 與 **燃油附加費**，依順豐 OpenAPI 即時回傳為準。
-        * 海外件必須填寫 **公司統一編號** 才能產生託運單。設定步驟請參考 [設定順豐託運單寄件人資訊][configure-sf-waybill]{ data-preview }。
+        * 海外件必須填寫 **公司統一編號** 才能產生託運單。設定步驟請參考 [設定順豐託運單寄件人資訊](../../payments-and-logistics/setup-sf-express-waybill.md#configure-sf-waybill-sender){ title="順豐設定" data-preview }。
         * 系統會依收件國家自動切換為英文託運單，並附上商業發票供出口報關。
 

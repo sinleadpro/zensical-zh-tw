@@ -1,9 +1,8 @@
 ---
-
 title: 設定黑貓快速到店付款方式
 description: 設定黑貓快速到店的付款方式，包含貨到付款與取貨不付款的設定步驟。
 created:
-last_modified: 2026-06-08 19:09
+last_modified: 2026-06-30 11:33
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/tcat-quick-store/tcat-express-payment-settings
 type: tutorial
@@ -79,8 +78,7 @@ tags:
   - 金物流
 ---
 
-
-![](../../../assets/images/ec-金物流-超商物流-黑貓快速到店.png){ .hero-page }
+![黑貓快速到店付款](../../../assets/images/ec-金物流-超商物流-黑貓快速到店.png){ title="黑貓快速到店付款" .hero-page }
 
 ## 黑貓快速到店付款說明
 
@@ -91,13 +89,13 @@ tags:
 1. 登入管理後台，前往 **金物流 > 超商物流**。
 2. 在 **黑貓快速到店** 區塊，點擊編輯按鈕 :material-file-document-edit-outline: 進入編輯頁面。
 
-![編輯黑貓快速到店](../../../assets/images/ec-金物流-超商物流-黑貓快速到店-編輯.png)
+![編輯黑貓快速到店](../../../assets/images/ec-金物流-超商物流-黑貓快速到店-編輯.png){ title="編輯黑貓快速到店" }
 
 ## 步驟二：付款方式設定步驟
 
-### 設定「貨到付款」（COD）
+### 設定「貨到付款」<small>COD</small>
 
-!!! info "此功能 **僅限開通 CYBERBIZ PAYMENTS 的商家** 使用。"
+!!! plan "此功能 **僅限開通 CYBERBIZ PAYMENTS 的商家** 使用。"
 
 1. 切換至 **貨到付款** 頁籤。
 2. **開啟功能：** 將「貨到付款」開關切換至 **「ON」**。
@@ -109,7 +107,7 @@ tags:
 	
 4. 點擊 **儲存**，套用變更。
 
-![黑貓快速到店-貨到付款](../../../assets/images/ec-金物流-超商物流-黑貓快速到店-貨到付款.png)
+![黑貓快速到店-貨到付款](../../../assets/images/ec-金物流-超商物流-黑貓快速到店-貨到付款.png){ title="黑貓快速到店-貨到付款" }
 
 ??? note "黑貓快速到店代收金額表"
 
@@ -124,7 +122,7 @@ tags:
 
 ---
 
-### 設定「取貨不付款」（貨到不付款）
+### 設定「取貨不付款」<small>貨到不付款</small>
 
 1. 切換至 **取貨不付款** 頁籤。
 2. **開啟功能：** 將「取貨不付款」開關切換至 **「ON」**。
@@ -132,7 +130,7 @@ tags:
 4. 點擊 **儲存**，套用變更。
 5. **前台顯示：** 消費者在結帳頁面完成線上支付（如信用卡）後，即可選擇此物流方式。
 
-![黑貓快速到店-取貨不付款](../../../assets/images/ec-金物流-超商物流-黑貓快速到店-取貨不付款.png)
+![黑貓快速到店-取貨不付款](../../../assets/images/ec-金物流-超商物流-黑貓快速到店-取貨不付款.png){ title="黑貓快速到店-取貨不付款" }
 
 ## 顧客端呈現畫面
 
@@ -144,12 +142,12 @@ tags:
 
 <div class="grid" markdown>
 
-![](../../../assets/images/ec-金物流-超商物流-黑貓快速到店-常溫.png)
+![黑貓快速到店常溫](../../../assets/images/ec-金物流-超商物流-黑貓快速到店-常溫.png){ title="黑貓快速到店常溫" }
 /// caption
 常溫
 ///
 
-![](../../../assets/images/ec-金物流-超商物流-黑貓快速到店-冷凍.png)
+![黑貓快速到店冷凍](../../../assets/images/ec-金物流-超商物流-黑貓快速到店-冷凍.png){ title="黑貓快速到店冷凍" }
 /// caption
 冷凍
 ///
@@ -183,7 +181,7 @@ tags:
 <div class="grid cards" markdown>
 
 - :lucide-zap:{ .lg }   
-  [__黑貓快速到店出貨__]()     
+  [__黑貓快速到店出貨__](tcat-quick-store-shipping.md){ title="使用黑貓快速到店出貨" }     
   操作黑貓快速到店出貨。
 
 - :lucide-ban:{ .lg }     
