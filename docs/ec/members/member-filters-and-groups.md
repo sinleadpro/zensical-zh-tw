@@ -103,7 +103,7 @@ hide: []
 
 ### 3. 批次操作
 
-勾選會員後批次進行 [發送優惠券](manage-member-profiles/#2-優惠券派發與管理)、[匯出報表](manage-member-profiles/#任務一查看會員行為與資產數據) 或 [修改標籤](manage-member-profiles.md#任務五行銷標籤與分眾管理) 等操作。
+勾選會員後批次 **發送優惠券**、**匯出報表** 或 **修改標籤** 等操作。
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/會員-會員篩選器02.png){ .screenshot }
 

@@ -259,7 +259,7 @@ graph LR
     管理優惠券，自動套用或供顧客選取。
 
     - :lucide-plug:{ .lg }
-    [__建立推薦人分潤__](../../profit-sharing/referrer-profit-sharing.md)<br>
+    [__建立推薦人分潤__](../../ec/profit-sharing/referrer-profit-sharing.md)<br>
     設定推薦分潤，獎勵介紹新客的現有客戶、員工與第三方。
 
     - :lucide-plug:{ .lg }
@@ -333,7 +333,7 @@ graph LR
 
             ![](../../assets/images/POS-前台-結帳-手開發票號碼01.png){ .screenshot }
 
-            > 您也可於 **訂單** 頁 [補開發票](../orders/manage-general-orders.md)。
+            > 您也可於 **訂單** 頁 [補開發票](../orders/manage-general-orders.md/#補開發票--列印明細)。
         - **其他載具**：手機條碼、自然人憑證或捐贈代碼。
     2. **完成結帳**：確認金額正確後，點擊 **收款**。
 
@@ -352,7 +352,7 @@ graph LR
     處理不同稅率商品，準確計算並開立。
 
     - :lucide-plug:{ .lg }
-    [__全通路庫存管理__](../inventory/index/)<br>
+    [__全通路庫存管理__](../inventory/index.md)<br>
     管理各通路庫存，確保線上線下無落差。
 
     </div>

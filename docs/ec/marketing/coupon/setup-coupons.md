@@ -142,7 +142,7 @@ hide: []
   設定單筆訂單可使用的優惠券數量上限。
 
 - :lucide-bell-ring:{ .lg }
-  [__設定優惠券到期通知__](../coupon-and-bonus-points-expiry-notification.md)
+  [__設定優惠券到期通知__](../purchase-restrictions/coupon-and-bonus-points-expiry-notification.md)
   設定系統自動發送 Email、簡訊或 LINE 通知，提醒顧客及時使用即將到期的優惠。
 
 </div>

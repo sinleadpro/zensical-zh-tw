@@ -164,15 +164,15 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-package-check:{ .lg } 
-  [__設定門市取貨服務__](連結)
+  [__設定門市取貨服務__](store-pickup/index.md)
   設定運費區間、付款方式及取貨日期。
 
 - :lucide-truck:{ .lg } 
-  [__開啟快速到貨服務__](連結)
+  [__開啟快速到貨服務__](cyberbiz-now/index.md)
   設定配送範圍、運費及商品庫存分配。
 
 - :lucide-ticket:{ .lg } 
-  [__設定電子票券核銷__](連結)
+  [__設定電子票券核銷__](../e-ticket/setup-e-ticket-store-permissions.md)
   啟用門市據點的票券掃碼核銷功能。
 
 </div>

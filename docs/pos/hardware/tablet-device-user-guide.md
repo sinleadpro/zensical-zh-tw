@@ -108,7 +108,7 @@ hide: []
 | **無線刷卡機** | **△** | **不建議使用** | ✓ | 僅支援 [MYPAY 商米刷卡機](mypay-wireless-credit-card-machine.md) |
 | **[客顯螢幕](customer-display-screen.md)** | ✓ | | ✕ | |
 | **[標籤印表機](label-printer.md)** | ✓ | | ✕ | |
-| **掃碼槍<br>（一維條碼）** | ✓ | | ✓ | 預設支援藍牙掃碼槍<br>商家可使用轉接頭連接 | 
+| **[掃碼槍](hprt-n130-barcode-scanner.md)<br>（一維條碼）** | ✓ | | ✓ | 預設支援藍牙掃碼槍（或視平板款式，自行準備轉接頭轉成 USB） | 
 | **錢箱** | ✓ | 支援接線觸發，錢箱自動彈開 | ✓ | 僅支援手動開啟 | 
 | **[離線模式](../check/offline-checkout-mode.md)** | ✓ | | ✕ | |
 

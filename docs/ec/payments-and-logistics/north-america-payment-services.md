@@ -57,7 +57,7 @@ permalink: ""
 comments: false
 search:
   exclude: false
-icon: lucide/lock
+icon: lucide/globe
 hide: []
 ---
 

@@ -159,7 +159,7 @@ Chat Box 採 **自動導入** 機制。系統會自動抓取您於 **第三方�
 
     設定完成後，LINE Webhook 會先將資料送至 CYBERBIZ，再由 CYBERBIZ 將資料轉拋至其他外部服務。如此一來，CYBERBIZ Chat Box 與其他外部服務都能接收到 LINE 訊息。
 
-    詳細設定可參考 [LINE webhook 轉拋服務](../../integrations/line/account-integration/串接%20LINE%20Messaging%20API.md/#步驟三開啟-webhook-功能)。
+    詳細設定可參考 [LINE webhook 轉拋服務](../../integrations/line/account-integration/connect-line-messaging-api/#步驟三開啟-webhook-功能)。
 
 ??? quote "為什麼 Chat Box 不會顯示 LINE 貼圖？"
     因為 LINE 官方目前沒有正式支援串接平台完整顯示貼圖內容。

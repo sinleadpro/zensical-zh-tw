@@ -89,7 +89,7 @@ hide: []
 ## 申請流程
 
 
-1. 請先進行 [綠界服務申請](https://member.ecpay.com.tw/MemberReg/MerchantRegister)，相關申請流程可參考 [綠界網頁說明](https://www.ecpay.com.tw/Business/einvoice_knowledge_flow)
+1. 請先進行 [綠界服務申請](https://member.ecpay.com.tw/MemberReg/MerchantRegister)，相關申請流程可參考 [綠界網頁說明](https://www.ecpay.com.tw/Business/einvoice_knowledge_flow)。
 2. 完成註冊且確認電子發票開通完成後，可進行以下設定。
 
 ## 串接流程
@@ -116,7 +116,7 @@ hide: []
 3. 在「結帳發票設定」區塊，將 **已啟用結帳頁顯示發票** 切換為 `開啟 (ON)`。
 4. 在「發票開立方式」下拉選單中選擇 **綠界電子發票**。
 
-    ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-綠界03.png){ .screenshot }
+    ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-綠界03.png){ .small-image }
 
 ### 步驟三：設定發票開立時機
 

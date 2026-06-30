@@ -88,5 +88,7 @@ Cloudflare 是全球知名的 DNS 代管與 CDN 加速服務商。若您的網�
     - 此時圖示應由「橘色雲朵」變更為「**灰色雲朵**」。
 5. 點擊 **儲存**。
 
+![](https://www.cyberbiz.io/support/wp-content/uploads/CloudFlare注意事項1.png){ .screenshot }
+
 
 

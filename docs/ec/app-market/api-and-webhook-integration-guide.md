@@ -88,7 +88,7 @@ hide: []
 - **流量限制**：
     - **頻率限制**：每秒至多 5 個請求 (Request)。
     - **資料限制**：每個請求上限為 2 MB。
-- **權限要求**：操作人員需具備 **自訂應用程式** 權限，請前往 **管理中心 > 網站權限** [設定權限](../website-management/新增網站管理員並設定權限.md)。
+- **權限要求**：操作人員需具備 **自訂應用程式** 權限，請前往 **管理中心 > 網站權限** [設定權限](../website-management/add-admin-set-permissions/)。
   ![](https://www.cyberbiz.io/support/wp-content/uploads/自訂擴充服務-串接-API-Webhook10.png){ .screenshot }
 
 
