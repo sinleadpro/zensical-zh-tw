@@ -3,7 +3,7 @@ title: 訂單出貨流程
 permalink: https://help.cyberbiz.io/ec/orders/basics/order-fulfillment-flow
 version: ""
 author: Jase
-last_modified: 2026-06-29 22:22
+last_modified: 2026-06-30 08:53
 description: ""
 product:
   - EC
@@ -45,7 +45,7 @@ prerequisites:
   - 確認儲值中心餘額充足_一般版
 lang: en-US
 sites: []
-status: new
+status: 
 difficulty: ""
 audiences: []
 wp_url:
@@ -262,14 +262,6 @@ icon: lucide/workflow
   [__訂單部分出貨__](../home-delivery/partial-shipment.md){ title="設定訂單部分出貨" }  
   同一筆訂單先寄出有現貨的商品，剩餘的稍後再出。
 
-- :lucide-list-checks:{ .lg }  
-  [__配送狀態對照表__](../references/fulfillment-statuses.md){ title="配送狀態對照表" data-preview }  
-  了解每個配送狀態代表的意義與出現時機。
-
-- :lucide-receipt:{ .lg }  
-  [__黑貓託運單費率__](../../payments-and-logistics/references/tcat-delivery-rate-card.md){ title="黑貓宅配託運單規格與費用對照表" data-preview }  
-  查詢黑貓各材積的運費規格與費用。
-
 </div>
 
 ---
@@ -298,7 +290,7 @@ icon: lucide/workflow
 
 ??? quote "已經下載過託運單，還能再列印嗎"
     [](){ #faq-fulfillment-redownload }
-    可以。在「更多操作」選擇「補印託運單」，即可重新下載該訂單的託運單 PDF（詳見 [補印與加印託運單](../../payments-and-logistics/reprint-waybills.md){ title="補印與加印託運單" }）。
+    可以。在「更多操作」選擇「補印託運單」，即可重新下載該訂單的託運單 PDF。
 
 ??? quote "訂單出貨後發生異常，可以重新出貨嗎"
     [](){ #faq-fulfillment-reship }
@@ -306,7 +298,7 @@ icon: lucide/workflow
 
 ??? quote "超商出貨後遇到「門市關轉」，怎麼處理"
     [](){ #faq-fulfillment-store-closed }
-    依超商不同處理方式不同（詳見 [超商 C2C 門市關轉說明](../cvs-shipping/cvs-c2c-shipping.md#門市關轉){ title="操作超商店到店 C2C 出貨" }）：
+    依超商不同處理方式不同（詳見 [超商 C2C 門市關轉說明](../cvs-shipping/cvs-c2c-shipping.md#operate-cvs-c2c-exception-store-closed){ title="操作超商店到店 C2C 出貨" }）：
 
     - **7-11：** 可在期限內（依超商規定，通常為關轉後兩天內、且上午 10：30 前）至後台 **重新選擇退回門市** 並 **上傳通知 7-11**。
     - **全家 / 萊爾富：** 直接走退貨流程，包裹退回物流總倉後，再退到店家填寫的退貨地址。

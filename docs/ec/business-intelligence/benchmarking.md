@@ -2,7 +2,7 @@
 title: 基準化分析
 description: 透過 AI 機器學習比對同業基準，找出商店流量、轉換率、客單價、回購率的優化方向。
 created: 2026-06-15
-last_modified: 2026-06-15 19:31
+last_modified: 2026-06-30 12:19
 lang: zh-TW
 type: tutorial
 status: ""
@@ -123,7 +123,7 @@ hide: []
 當您找出待優化的指標後，可參考以下資源加強對應能力：
 
 !!! tip "最新課程"
-    歡迎報名最新[線上課程](https://www.cyberbiz.io/support/?p=19452/?utm_source=CYBERBIZ&utm_medium=CyberbizDoc&utm_campaign=Benchmark)！
+    歡迎報名最新[線上課程](https://calendar.google.com/calendar/embed?src=c_dcbc263418b00a759f10a7e6e5af98bbbed5686e86ae96ac333b17739c3f08a2%40group.calendar.google.com&ctz=Asia%2FTaipei)！
 
 <div class="grid cards" markdown>
 

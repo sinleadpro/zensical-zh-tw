@@ -2,7 +2,7 @@
 title: 設定前台多國語言與多幣別
 description: 多國語言與多幣別功能可協助商家建立本地化的官方網站，透過提供母語介面與熟悉幣別，提升品牌國際化形象並優化海外消費者的購物體驗。
 created: 2026-02-05 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 08:02
 lang: zh-TW
 type: guide
 status: ""
@@ -25,10 +25,10 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
+  - 企業
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
-  - 企業
 cyb_extensions: []
 intents:
   - 啟用多國語言與幣別
@@ -59,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11202
   - https://www.cyberbiz.io/support/?p=47292
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-management/setup-multi-language-and-multi-currency
 comments: false
 search:
   exclude: false

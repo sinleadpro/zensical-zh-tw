@@ -1053,7 +1053,8 @@ CYBERBIZ 的 **拖拉版型** （Drag-and-Drop Layout）是一項直覺化的官
 
 <div class="grid cards" markdown>
 
-- :lucide-swatch-bo](../../products/create-and-manage/product-swatches-variant-images-drag-drop.md#開啟前台商品列表頁顯示全站設定)-拖拉版型.md#開啟前台商品列表頁顯示全站設定){ title="設定商品色票與款式圖片-拖拉版型" }       
+- :lucide-swatch-book:{ .lg }   
+  [__商品色票小圖__](../../products/create-and-manage/product-swatches-variant-images-drag-drop.md#開啟前台商品列表頁顯示全站設定){ title="設定商品色票與款式圖片" }       
   在商品列表（如群組頁、多層級分類頁）顯示商品的顏色小圖，讓顧客能直接預覽不同款式的顏色。
 
 - :lucide-clock:{ .lg }     

@@ -45,7 +45,7 @@ icon: lucide/calendar-clock
 hide:
 ---
 
-![定期定額分析頁面](../../assets/images/ec-bi-periodic-order-analysis-hero.png)
+![定期定額分析頁面](../../assets/images/ec-bi-periodic-order-analysis-hero.png){ title="定期定額分析頁面" }
 
 ## 定期定額分析說明 { #intro-periodic-orders }
 
@@ -107,7 +107,7 @@ hide:
 2. **定期訂單已進行總期數：** 所有定期訂單實際配送過的期數加總，以「期」為單位。
 3. **定期訂單總價值：** 定期訂單中已實際成立訂單的銷售金額總和。
 
-![關鍵數據卡](../../assets/images/ec-bi-periodic-cards.zh-tw.png)
+![關鍵數據卡](../../assets/images/ec-bi-periodic-cards.zh-tw.png){ title="關鍵數據卡" }
 
 !!! note "註釋"
     這三張數據卡為 **全期間累計**，不受下方圖表日期區間的影響，調整圖表日期時數字卡不會跟著變動。
@@ -123,7 +123,7 @@ hide:
 3. **長條圖看數量：** 長條圖的橫軸為「持續長度」、縱軸為「數量」，呈現各持續期數各有多少張定期訂單。
 4. **查看明細：** 將滑鼠移到圖塊或長條上，即會顯示該組的數量與占比。
 
-![持續長度圖表](../../assets/images/ec-bi-periodic-duration-charts.zh-tw.png)
+![持續長度圖表](../../assets/images/ec-bi-periodic-duration-charts.zh-tw.png){ title="持續長度圖表" }
 
 !!! tip "技巧"
     若多數定期訂單只持續了 1 至 2 期，代表顧客續訂意願偏低，可進一步檢視「第 N 期取消」相關圖表，找出顧客流失的關鍵期數。
@@ -136,15 +136,15 @@ hide:
 
 1. **第 N 期取消的比率圖 / 數量圖：** 只統計 **已取消** 的定期訂單，看它們集中在第幾期被取消。比率圖看各期占比，數量圖的橫軸為「期數」、縱軸為「數量」。
 
-    ![第 N 期取消的比率圖 / 數量圖](../../assets/images/ec-bi-periodic-cancel-nth-stage.zh-tw.png)
+    ![第 N 期取消的比率圖 / 數量圖](../../assets/images/ec-bi-periodic-cancel-nth-stage.zh-tw.png){ title="第 N 期取消的比率圖 / 數量圖" }
 
 2. **定期訂單取消比率圖：** 以整張定期訂單為單位，呈現「已取消」與「未取消」的占比。
 
-    ![定期訂單取消比率圖](../../assets/images/ec-bi-periodic-cancel-rate.zh-tw.png)
+    ![定期訂單取消比率圖](../../assets/images/ec-bi-periodic-cancel-rate.zh-tw.png){ title="定期訂單取消比率圖" }
 
 3. **定期訂單單一期取消比率圖：** 以單期配送為單位，呈現「已取消」與「未取消」的占比[^1]。
 
-    ![定期訂單單一期取消比率圖](../../assets/images/ec-bi-periodic-single-cancel-rate.zh-tw.png)
+    ![定期訂單單一期取消比率圖](../../assets/images/ec-bi-periodic-single-cancel-rate.zh-tw.png){ title="定期訂單單一期取消比率圖" }
 
 4. **查看明細：** 將滑鼠移到圖塊上，即會顯示該項目的數量與占比。
 
@@ -160,7 +160,7 @@ hide:
 2. **選擇預設區間或自訂：** 可直接選擇預設區間（今日、昨日、最近 7 日、最近 30 日、這個月、上個月），或在月曆上自行框選起訖日期。
 3. **套用：** 點擊 **「套用」** ，該圖表即會依新的時間區間重新載入。
 
-![調整日期區間](../../assets/images/ec-bi-periodic-date-range.zh-tw.png)
+![調整日期區間](../../assets/images/ec-bi-periodic-date-range.zh-tw.png){ title="調整日期區間" }
 
 !!! tip "技巧"
     每張圖表的日期區間是 **各自獨立** 的，調整其中一張不會影響其他圖表。頁面初次載入時，各圖表預設顯示最近約 6 個月的資料。若要做整體比較，記得逐一將各圖表調整為相同區間。
@@ -181,7 +181,7 @@ hide:
   逐筆檢視、管理每一張定期訂單與其各期配送。 -->
 
 - :lucide-bar-chart-3:{ .lg }  
-  [__營收分析__](../business-intelligence/revenue-analysis.md)  
+  [__營收分析__](../business-intelligence/revenue-analysis.md){ title="營收分析" }  
   從全店角度檢視整體營收、獲利與營收高峰時段。
 
 </div>

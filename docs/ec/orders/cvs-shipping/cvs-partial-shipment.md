@@ -1,9 +1,8 @@
 ---
-
 title: 處理超商訂單部分出貨
 description: 處理超商訂單（7-11、全家、萊爾富）的部分出貨流程，包含第一筆超商系統出貨與剩餘商品自訂物流出貨的完整操作步驟。
 created: 2026-05-26 16:14
-last_modified: 2026-06-14 14:00
+last_modified: 2026-06-30 11:18
 lang: zh-TW
 type: tutorial
 status: ""
@@ -75,8 +74,7 @@ icon: lucide/package-check
 hide: []
 ---
 
-
-![超商物流部分出貨](../../../assets/images/EC-訂單-所有訂單-訂單詳情頁-超商物流部分出貨-hero.png){ .hero-page }
+![超商物流部分出貨](../../../assets/images/EC-訂單-所有訂單-訂單詳情頁-超商物流部分出貨-hero.png){ title="超商物流部分出貨" .hero-page }
 
 ## 超商物流部分出貨說明
 
@@ -135,7 +133,7 @@ hide: []
 2. 找到該筆超商取貨訂單，點選 **訂單編號** 進入訂單詳情頁。
 3. 頁面右下方會顯示 **「選擇您目前出貨的商品」** 區塊，列出本筆訂單所有待出貨商品。
 
-![訂單詳情頁-超商部分出貨](../../../assets/images/EC-訂單-所有訂單-訂單詳情頁-超商物流出貨商品.png)
+![訂單詳情頁-超商部分出貨](../../../assets/images/EC-訂單-所有訂單-訂單詳情頁-超商物流出貨商品.png){ title="訂單詳情頁-超商部分出貨" }
 
 ---
 
@@ -153,7 +151,7 @@ hide: []
 [^select-all]: 點擊區塊右上方的 **「選擇全部」** 可一次勾選所有商品，**「取消全部」** 則取消勾選。
 [^status-rule]: 若勾選並出貨的數量等於全部商品，狀態為「已出貨」；若仍有未出貨商品，狀態為「部分出貨」。
 
-![訂單詳情頁-超商部分出貨](../../../assets/images/EC-訂單-所有訂單-訂單詳情頁-超商物流部分出貨.png)
+![訂單詳情頁-超商部分出貨](../../../assets/images/EC-訂單-所有訂單-訂單詳情頁-超商物流部分出貨.png){ title="訂單詳情頁-超商部分出貨" }
 
 ---
 
@@ -169,7 +167,7 @@ hide: []
 4. 依需求勾選 **「發送郵件通知顧客」**。
 5. 點擊 **「確認出貨」** 完成剩餘商品出貨。商品旁同樣會顯示 **「已於 {日期時間} 出貨」**，整筆訂單轉為 **「已出貨」**。
 
-![訂單詳情頁-超商部分出貨-剩餘商品](../../../assets/images/EC-訂單-所有訂單-訂單詳情頁-超商物流部分出貨-剩餘商品.png)
+![訂單詳情頁-超商部分出貨-剩餘商品](../../../assets/images/EC-訂單-所有訂單-訂單詳情頁-超商物流部分出貨-剩餘商品.png){ title="訂單詳情頁-超商部分出貨-剩餘商品" }
 
 [^why-custom]: 超商配送 API 每筆訂單只支援一組託運單號，第一筆貨件已佔用該單號後，系統會自動隱藏超商選項，僅保留「自訂出貨方式」供商家手動填入第二段物流資訊。
 
@@ -206,9 +204,9 @@ hide: []
   [__自訂物流出貨設定__](../home-delivery/custom-logistic-shipping.md){ title="如何使用自訂物流出貨" }  
   設定自訂物流商列表與快遞單號欄位，方便第二筆貨件出貨時快速選擇。
 
-- :lucide-truck:{ .lg }  
+<!-- - :lucide-truck:{ .lg }  
   [__託運單列印與重印__](../../payments-and-logistics/reprint-waybills.md){ title="補印與加印託運單" }  
-  若需重新列印第一筆超商託運單，請參考此頁說明。
+  若需重新列印第一筆超商託運單，請參考此頁說明。 -->
 
 <!-- - :lucide-receipt:{ .lg }  
   [__貨到付款認款規則__](../references/cod-settlement.md)  
@@ -271,7 +269,7 @@ hide: []
 
 ## 參考資料 { #reference-cvs-partial-shipment }
 
-- [超商物流部分出貨支援對照表](../references/cvs-partial-shipping-support.md){ title="超商物流部分出貨支援對照表" data-preview }
-- [訂單篩選條件與狀態對照表](../references/order-filter-status-reference.md){ title="訂單篩選條件與狀態對照表" data-preview }
+- [超商物流部分出貨支援對照表](../references/cvs-partial-shipping-support.md){ title="超商物流部分出貨支援對照表" }
+- [訂單篩選條件與狀態對照表](../references/order-filter-status-reference.md){ title="訂單篩選條件與狀態對照表" }
 <!-- - [自訂出貨物流商列表](../../payments-and-logistics/references/custom-shipping-companies.md) -->
 

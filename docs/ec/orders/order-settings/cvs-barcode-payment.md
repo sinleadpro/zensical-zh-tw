@@ -2,7 +2,7 @@
 title: 使用超商條碼完成付款
 description: 啟用超商條碼繳費功能，顧客如何取得條碼與前往 7-11、全家完成付款的完整流程。
 created: 2026-05-04 10:27
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-30 09:30
 lang: zh-TW
 type: tutorial
 status: ""
@@ -63,8 +63,7 @@ hide: []
 comments: false
 ---
 
-
-![超商條碼繳費設定](../../../assets/images/EC-後台-金物流-金流設定-超商條碼繳費設定.png){ .hero-page }
+![超商條碼繳費設定](../../../assets/images/EC-後台-金物流-金流設定-超商條碼繳費設定.png){ title="超商條碼繳費設定" .hero-page }
 
 ## 超商條碼付款說明
 
@@ -83,7 +82,7 @@ comments: false
 2.  在金流設定列表中，找到「**CYBERBIZ PAYMENTS**」選項。
 3.  點擊右側的「**編輯** :lucide-file-pen:」按鈕進入設定頁面。
 
-![](../../../assets/images/EC-後台-金物流-金流設定-CYBERBIZ-PAYMENTS-編輯.png){ .screenshot }
+![編輯CYBERBIZ PAYMENTS](../../../assets/images/EC-後台-金物流-金流設定-CYBERBIZ-PAYMENTS-編輯.png){ title="編輯CYBERBIZ PAYMENTS" .screenshot }
 
 ---
 
@@ -92,7 +91,7 @@ comments: false
 1.  在 CYBERBIZ PAYMENTS 設定頁面中，找到「**7-11 / 全家 超商條碼繳費**」選項。
 2.  將開關切換至「**開啟**」狀態。
 
-![](../../../assets/images/EC-後台-金物流-金流設定-開啟超商條碼繳費.png){ .screenshot }
+![開啟超商條碼繳費](../../../assets/images/EC-後台-金物流-金流設定-開啟超商條碼繳費.png){ title="開啟超商條碼繳費" .screenshot }
 
 ---
 
@@ -101,33 +100,33 @@ comments: false
 1.  確認開啟後，點擊頁面下方的「**確認**」按鈕。
 2.  系統顯示儲存成功訊息後，可在金流設定列表中確認完成功能開啟。
 
-![](../../../assets/images/EC-後台-金物流-金流設定-已開啟超商條碼繳費.png){ .screenshot }
+![已開啟超商條碼繳費](../../../assets/images/EC-後台-金物流-金流設定-已開啟超商條碼繳費.png){ title="已開啟超商條碼繳費" .screenshot }
 
 !!! warning "重要提醒"
     - 開啟超商條碼繳費功能後，請確認您同時有搭配支援的物流方式（如超商取貨），消費者才能在結帳時正常選擇此付款方式。
-    - 若商家有設定「[訂單自動取消][系統自動取消付款超時]{ data-preview }」的天數限制，一旦超過時限，條碼將會失效且無法進行繳費。
+    - 若商家有設定「[訂單自動取消](../../payments-and-logistics/payments/order-settings.md#operate-order-settings-auto-cancel){ title="訂單相關設定" }」的天數限制，一旦超過時限，條碼將會失效且無法進行繳費。
 
-## 取得超商條碼的步驟
+## 取得超商條碼的步驟 <small>顧客端</small>
 
 顧客在下單過程中與下單後，可以透過以下管道取得繳費條碼：
 
 1.  **結帳頁面選擇**：在官網結帳時，於付款方式中選擇「**超商條碼**」並送出訂單。
 
-    ![付款方式-超商條碼](../../../assets/images/EC-前台-購物車-付款方式-超商條碼.png)
+    ![付款方式-超商條碼](../../../assets/images/EC-前台-購物車-付款方式-超商條碼.png){ title="付款方式-超商條碼" }
 
 2.  **訂單成立頁面**：完成下單後，頁面會直接顯示超商條碼。您可以將此頁面保留，直接提供給店員掃描。
 
-    ![取得超商條碼](../../../assets/images/EC-前台-購物車-付款方式-取得超商條碼.png)
+    ![取得超商條碼](../../../assets/images/EC-前台-購物車-付款方式-取得超商條碼.png){ title="取得超商條碼" }
 
 3.  **訂單查詢頁面**：若下單時未立即繳費，可登入官網會員進入「訂單查詢」，點擊該筆訂單的「**前往付款**」，系統會引導回訂單成立頁並顯示條碼。
 
-    ![前往付款](../../../assets/images/EC-前台-訂單查詢-前往付款.png)
+    ![前往付款](../../../assets/images/EC-前台-訂單查詢-前往付款.png){ title="前往付款" }
 
 4.  **Email 通知信**：若商家有[開啟新訂單通知](../../notifications/manage-email-templates.md){ title="設定與管理 Email 通知樣板" }，顧客可以在收到的訂單成立 Email 中，點擊「**前往付款**」按鈕來取得條碼。
 
-    ![訂單成立Email-前往付款](../../../assets/images/EC-Email通知-訂單成立-前往付款.png)
+    ![訂單成立Email-前往付款](../../../assets/images/EC-Email通知-訂單成立-前往付款.png){ title="訂單成立Email-前往付款" }
 
-## 便利商店現場付款方式
+## 便利商店現場付款方式 <small>顧客端</small>
 
 取得條碼後，請前往支援的超商（**7-11 或全家**）進行繳費：
 
@@ -140,14 +139,14 @@ comments: false
     - **付款連結**：如果顧客在獲取條碼時遇到問題，亦可聯繫商家索取專屬的「[消費者付款連結](provide-payment-link.md){ title="提供顧客付款連結" }」來重新取得繳費頁面。
 
 ??? example "超商條碼範例"
-    ![超商條碼範例](../../../assets/images/EC-前台-訂單查詢-前往付款-超商條碼範例.png)
+    ![超商條碼範例](../../../assets/images/EC-前台-訂單查詢-前往付款-超商條碼範例.png){ title="超商條碼範例" }
 
 ## 後續操作
 
 <div class="grid cards" markdown>
 
 - :lucide-clock:{ .lg }  
-  [__設定訂單自動取消規則__][系統自動取消付款超時]  
+  [__設定訂單自動取消規則__](../../payments-and-logistics/payments/order-settings.md#operate-order-settings-auto-cancel){ title="訂單相關設定" }  
   於「金物流 > 結帳頁 & 物流設定」中設定未付款訂單的自動取消天數，避免條碼逾期產生問題。
 
 - :lucide-bell:{ .lg }  

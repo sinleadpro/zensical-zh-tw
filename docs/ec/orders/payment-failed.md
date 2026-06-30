@@ -1,9 +1,8 @@
 ---
-
 title: 處理付款失敗訂單
 description: 訂單付款失敗時，商家可採取的處理方式，包含引導顧客重新付款、設定自動提醒、自動取消訂單，以及定期定額重新扣款等操作。
 created: 2026-06-08 13:52
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-30 11:06
 lang: zh-TW
 type: tutorial
 status: ""
@@ -94,10 +93,7 @@ icon: lucide/banknote-x
 hide: []
 ---
 
-
-
-![訂單付款失敗狀態](../../assets/images/ec-訂單-所有訂單-付款失敗-hero.png){ .hero-page }
-
+![訂單付款失敗狀態](../../assets/images/ec-訂單-所有訂單-付款失敗-hero.png){ title="訂單付款失敗狀態" .hero-page }
 
 ## 付款失敗說明 { #intro-payment-failed }
 
@@ -174,7 +170,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-bell-ring:{ .lg }
-  [__設定付款失敗自動提醒__](order-settings/unpaid-reminder-settings.md){ title="設定未付款提醒" }
+  [__設定付款失敗提醒__](../payments-and-logistics/payments/order-settings.md#operate-order-settings-payment-reminder){ title="訂單相關設定" }
 
 - :lucide-mail:{ .lg }
   [__管理 Email 通知樣板__](../notifications/manage-email-templates.md){ title="設定與管理 Email 通知樣板" }
@@ -205,7 +201,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-clock-alert:{ .lg }
-  [__設定訂單自動取消__](order-settings/auto-close-order-settings.md){ title="設定訂單自動結案" }
+  [__設定訂單自動取消__](../payments-and-logistics/payments/order-settings.md#operate-order-settings-auto-cancel){ title="訂單相關設定" }
 
 - :lucide-circle-x:{ .lg }
   [__商家手動取消訂單__](basics/cancel-order.md#orders-cancel-merchant){ title="如何取消訂單" }

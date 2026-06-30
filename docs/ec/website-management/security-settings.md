@@ -2,9 +2,9 @@
 title: 保護後台帳號與顧客資料
 description: 管理後台登入防護與顧客資料保護，從 IP 白名單、自動登出到網站密碼，一頁完成你的網站資安設定。
 created:
-last_modified: 2026-06-26 14:03
+last_modified: 2026-06-30 08:02
 lang: zh-TW
-permalink:
+permalink: https://help.cyberbiz.io/ec/website-management/security-settings
 type: tutorial
 status:
 version:
@@ -24,13 +24,13 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 加強網站安全性

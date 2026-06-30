@@ -3,9 +3,9 @@
 title: 設定網站基本資訊
 description: 進行網站基本資訊、公司聯繫方式、物流地址及後台語系等核心設置。
 created:
-last_modified: 2026-06-26 13:03
+last_modified: 2026-06-30 08:02
 lang: zh-TW
-permalink:
+permalink: https://help.cyberbiz.io/ec/website-management/setup-store-basic-info
 type: tutorial
 status:
 version:
@@ -26,13 +26,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 設定網站名稱
@@ -77,8 +77,8 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8314
-  - https://www.cyberbiz.io/support/?p=5598
   - https://www.cyberbiz.io/support/?p=33987
+  - https://www.cyberbiz.io/support/?p=5598
 comments: false
 search:
   exclude: false

@@ -2,7 +2,7 @@
 title: 續購與自動續約
 description: 為了確保您的商店營運不中斷，您需要定期維護商店方案、SSL 安全性憑證及擴充服務的效期。CYBERBIZ 提供「手動續購」與「自動續約」兩種方式，幫助您彈性管理服務時限。
 created: 2026-02-25 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 08:02
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,7 +23,11 @@ audiences:
   - admin
 difficulty: beginner
 tnb: trunk
-plans: []
+plans:
+  - 企業
+  - 專業
+  - 進階
+  - 高手
 cyb_extensions: []
 intents:
   - 設定付款資訊
@@ -45,12 +49,12 @@ paths:
   - 管理中心 > 方案
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/helpcenter/?p=9285
   - https://www.cyberbiz.io/helpcenter/?p=2020
   - https://www.cyberbiz.io/helpcenter/?p=7534
-  - https://www.cyberbiz.io/support/?p=46371
+  - https://www.cyberbiz.io/helpcenter/?p=9285
   - https://www.cyberbiz.io/support/?p=44090
-permalink: ""
+  - https://www.cyberbiz.io/support/?p=46371
+permalink: https://help.cyberbiz.io/ec/website-management/renewal-and-auto-subscription
 comments: false
 search:
   exclude: false

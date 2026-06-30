@@ -2,7 +2,7 @@
 title: 圖表總覽
 description: 透過圖表總覽在單一頁面掌握網路商店與實體門市的關鍵經營數據，並與同業基準互相對照，快速找出可優化的項目。
 created: 2026-06-15 10:01
-last_modified: 2026-06-15 12:04
+last_modified: 2026-06-30 12:11
 lang: zh-TW
 type: tutorial
 status: ""
@@ -52,7 +52,7 @@ icon: lucide/gauge
 hide:
 ---
 
-![圖表總覽頁面](../../assets/images/ec-bi-overview-hero.png){ .hero-page }
+![圖表總覽頁面](../../assets/images/ec-bi-overview-hero.png){ title="圖表總覽頁面" .hero-page }
 
 ## 圖表總覽說明 { #intro-chart-overview }
 
@@ -182,8 +182,7 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-bar-chart-3:{ .lg }
-  [__基準化分析 (Benchmarking)__](benchmarking.md)
-  進一步了解基準化分析的完整應用方法。
+  [__基準化分析 (Benchmarking)__](benchmarking.md){ title="基準化分析" }
 
 </div>
 
