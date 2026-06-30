@@ -2,7 +2,7 @@
 title: 商品分析
 description: 掌握店內商品的銷售表現，找出熱賣商品、滯銷品與回購行為，為進貨、行銷與定價決策提供數據參考。
 created: 2026-06-15 00:00
-last_modified: 2026-06-23 21:02
+last_modified: 2026-06-30 13:54
 lang: zh-TW
 type: tutorial
 status: ""
@@ -46,8 +46,8 @@ prerequisites:
   - 方案需包含「圖表分析」功能
   - 需有實際訂單資料
 related:
-  - "[[圖表總覽]]"
-  - "[[基準化分析]]"
+  - "[[business-intelligence-overview]]"
+  - "[[benchmarking]]"
 tags:
   - EC
   - 商品分析
@@ -75,7 +75,7 @@ icon: lucide/box
 hide: []
 ---
 
-![商品分析-hero](../../../assets/images/ec-bi-product-hero.png){ .hero-page }
+![商品分析-hero](../../assets/images/ec-bi-product-hero.png){ title="商品分析-hero" .hero-page }
 
 ## 商品分析說明 { #intro-product-analysis }
 
@@ -209,15 +209,15 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-trending-up:{ .lg }  
-  [__營收分析__](./revenue-analysis.md)  
+  [__營收分析__](./revenue-analysis.md){ title="營收分析" }  
   搭配營收與毛利數據，掌握整體營運表現。
 
 - :lucide-shopping-cart:{ .lg }  
-  [__訂單分析__](./order-analysis.md)  
+  [__訂單分析__](./order-analysis.md){ title="訂單分析" }  
   從訂單量、客單價與取消率了解銷售結構。
 
 - :lucide-package:{ .lg }  
-  [__新增與編輯商品__](../products/create-and-manage/create-update-products.md)  
+  [__新增與編輯商品__](../products/create-and-manage/create-update-products.md){ title="新增與更新商品" }  
   針對滯銷或熱賣商品，調整上架、定價與文案。
 
 </div>

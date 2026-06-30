@@ -2,7 +2,7 @@
 title: "匯出訂單報表"
 description: "匯出訂單報表並以 Excel 格式寄送至管理員信箱，方便查詢與分析訂單資料。"
 created: "2026-03-13 23:45"
-last_modified: 2026-06-14 14:00
+last_modified: 2026-06-30 15:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -68,7 +68,7 @@ icon: lucide/file-spreadsheet
 hide: []
 ---
 
-![](../../../assets/images/ec-訂單-訂單報表匯出.png){ .hero-page }
+![訂單報表匯出](../../../assets/images/ec-訂單-訂單報表匯出.png){ title="訂單報表匯出" .hero-page }
 
 ## 訂單報表匯出說明
 
@@ -104,11 +104,11 @@ hide: []
 5.  **導購與 UTM 追蹤**：
 
     *   [**導購來源**](../references/order-report-fields.md#導購來源){ title="訂單報表可用欄位" data-preview }：可查看訂單是否來自 LINE 購物、美安、ShopBack 等導購平台。
-    *   [**UTM 參數**](../references/order-report-fields.md#UTM-參數){ title="訂單報表可用欄位" data-preview }（企業版專用）：可匯出 UTM 來源、媒介、活動名稱等數據追蹤行銷成效（僅支援 2025/12/17 之後成立的訂單）。
+    *   [**UTM 參數**](../references/order-report-fields.md#utm-參數){ title="訂單報表可用欄位" data-preview }（企業版專用）：可匯出 UTM 來源、媒介、活動名稱等數據追蹤行銷成效（僅支援 2025/12/17 之後成立的訂單）。
 
     !!! info "每項工具所記錄之 UTM 數據方式與回溯期間均不盡相同，此功能為 CYBERBIZ 系統所記錄之數據，可能與 GA4 或其他工具有所落差。"
 
-![](../../../assets/images/ec-訂單-訂單報表匯出-選取欄位.gif)
+![訂單報表匯出-選取欄位](../../../assets/images/ec-訂單-訂單報表匯出-選取欄位.gif){ title="訂單報表匯出-選取欄位" }
 
 ---
 
@@ -116,11 +116,11 @@ hide: []
 
 1.  **篩選項目**：可針對特定的訂單來源、訂單狀態、付款狀態、配送狀態或退貨狀態進行篩選。
 
-    ![](../../../assets/images/ec-訂單-訂單報表匯出-篩選項目.png)
+    ![訂單報表匯出-篩選項目](../../../assets/images/ec-訂單-訂單報表匯出-篩選項目.png){ title="訂單報表匯出-篩選項目" }
 
 2. **收信 Email**：匯出資料寄送的信箱地址。
 
-    ![](../../../assets/images/ec-訂單-訂單報表匯出-收信email.png)
+    ![訂單報表匯出-收信email](../../../assets/images/ec-訂單-訂單報表匯出-收信email.png){ title="訂單報表匯出-收信email" }
     
     !!! info "訂單明細匯出限制"
         由於訂單明細包含敏感個人資料，系統不提供直接下載。報表產出後將由系統自動寄送至操作者當前登入之電子信箱，以確保資訊安全。
@@ -128,16 +128,16 @@ hide: []
 3.  **同筆訂單呈現方式**：
     *   **勾選「重複顯示」**：同筆訂單若有多項商品，會分為多列顯示，並展示各別商品小計。
 
-        ![](../../../assets/images/ec-訂單-訂單報表匯出-同筆訂單欄位重複顯示-勾選.png)
+        ![訂單報表匯出-重複顯示-勾選](../../../assets/images/ec-訂單-訂單報表匯出-同筆訂單欄位重複顯示-勾選.png){ title="訂單報表匯出-重複顯示-勾選" }
 
     *   **未勾選「重複顯示」**：同筆訂單僅顯示為一列，金額為該單之加總小計。
 
-        ![](../../../assets/images/ec-訂單-訂單報表匯出-同筆訂單欄位重複顯示-未勾選.png)
+        ![訂單報表匯出-重複顯示-未勾選](../../../assets/images/ec-訂單-訂單報表匯出-同筆訂單欄位重複顯示-未勾選.png){ title="訂單報表匯出-重複顯示-未勾選" }
 
 4. **組合商品拆解**：勾選「顯示組合商品資訊」，匯出報表將自動展開「組合商品」內含的子商品資訊。
 5. **時間區間**：選擇欲匯出的日期範圍。系統新增了快捷選項，如「最近 7 天」、「最近 30 天」、「這個月」及「上個月」。
 
-    ![](../../../assets/images/ec-訂單-訂單報表匯出-時間區間.png)
+    ![訂單報表匯出-時間區間](../../../assets/images/ec-訂單-訂單報表匯出-時間區間.png){ title="訂單報表匯出-時間區間" }
 
 6.  **執行匯出**：確認設定後，按下匯出按鈕，系統會將 Excel 報表發送至您 **當前登入的帳號信箱**。
 
@@ -145,13 +145,15 @@ hide: []
 
 <div class="grid cards" markdown>
 
+<!--
 - :lucide-store:{ .lg }   
   [__POS 門市報表__](../../../pos/orders/pos-reports-list-guide.md){ title="POS 報表列表與功能說明" }     
   若有 POS 系統，可至「POS 商店列表」>「庫存管理」>「報表」下載「訂單匯總報表」或「每日出金報表」。
 
 - :lucide-warehouse:{ .lg }     
-  [__電商倉儲報表__](../../products/shipping/cvs-shipping-restrictions-exclusions.md)  
+  [__電商倉儲報表__](../../products/shipping/cvs-shipping-restrictions-exclusions.md){ title="設定超商配送限制與物流排除" }  
   若使用峰潮物流，可於 WMS 後台「訂單」>「列表」中依照篩選條件進行「報表匯出」。
+-->
 
 - :lucide-hand-coins:{ .lg }   
   [__分潤報表__](../../profit-sharing/export-profit-sharing-reports.md){ title="匯出分潤報表" }     
@@ -166,8 +168,8 @@ hide: []
 ## 重要注意事項
 
 1.  **信箱檢查**：若未收到報表郵件，請檢查垃圾信件夾，或避免使用 Hinet 信箱，因其阻擋機制較強。
-2.  **資料隱碼**：若後台有開啟「[會員個資部分隱碼](../../website-management/security-settings.md){ title="設定網站安全性" }」，匯出的報表可能會對姓名、手機、地址等個資進行遮蓋處理，以保護會員資料安全。
-3.  **匯出權限**：網站擁有者可於「網站權限」中[限制特定管理員執行「訂單匯出」的權限](../../website-management/add-admin-set-permissions.md){ title="新增網站管理員並設定權限" }，以降低資安風險。
+2.  **資料隱碼**：若後台有開啟「[會員個資部分隱碼](../../website-management/security-settings.md#operate-security-pdpa){ title="設定網站安全性" }」，匯出的報表可能會對姓名、手機、地址等個資進行遮蓋處理，以保護會員資料安全。
+3.  **匯出權限**：網站擁有者可於「網站權限」中[限制特定管理員執行「訂單匯出」的權限](../../website-management/add-admin-set-permissions.md#權限分類與細節說明){ title="新增網站管理員並設定權限" }，以降低資安風險。
 
 ## 常見問題
 

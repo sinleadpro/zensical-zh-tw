@@ -1,0 +1,625 @@
+{
+  "generated_at": "2026-06-30 07:21",
+  "doc_dir": "docs/ec/website-management",
+  "confirmed": [
+    {
+      "doc_file": "docs/ec/website-management/add-admin-set-permissions.md",
+      "doc_title": "新增網站管理員並設定權限",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-management/add-admin-set-permissions",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=1209",
+        "https://www.cyberbiz.io/support/?p=2881"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=1209",
+        "https://www.cyberbiz.io/support/?p=2881"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-management/authy-two-factor-authentication.md",
+      "doc_title": "使用 Authy 啟用二階段驗證設定",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-management/authy-two-factor-authentication",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=12873"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=12873"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-management/cloudflare-ssl-conflict.md",
+      "doc_title": "Cloudflare SSL 衝突",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-management/cloudflare-ssl-conflict",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=4598",
+        "https://www.cyberbiz.io/support/?p=28727"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=4598",
+        "https://www.cyberbiz.io/support/?p=28727"
+      ],
+      "current_plans": [],
+      "expected_plans": [],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-management/domain-management.md",
+      "doc_title": "網域管理",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-management/domain-management",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=10419",
+        "https://www.cyberbiz.io/helpcenter/?p=10433",
+        "https://www.cyberbiz.io/helpcenter/?p=295",
+        "https://www.cyberbiz.io/helpcenter/?p=305",
+        "https://www.cyberbiz.io/helpcenter/?p=314",
+        "https://www.cyberbiz.io/helpcenter/?p=3201",
+        "https://www.cyberbiz.io/helpcenter/?p=550",
+        "https://www.cyberbiz.io/helpcenter/?p=6867",
+        "https://www.cyberbiz.io/helpcenter/?p=7280",
+        "https://www.cyberbiz.io/helpcenter/?p=9050",
+        "https://www.cyberbiz.io/helpcenter/?p=9083",
+        "https://www.cyberbiz.io/support/?p=1",
+        "https://www.cyberbiz.io/support/?p=106",
+        "https://www.cyberbiz.io/support/?p=13235",
+        "https://www.cyberbiz.io/support/?p=140",
+        "https://www.cyberbiz.io/support/?p=24717",
+        "https://www.cyberbiz.io/support/?p=3445",
+        "https://www.cyberbiz.io/support/?p=36655",
+        "https://www.cyberbiz.io/support/?p=37604",
+        "https://www.cyberbiz.io/support/?p=43182",
+        "https://www.cyberbiz.io/support/?p=43442",
+        "https://www.cyberbiz.io/support/?p=4540"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=10419",
+        "https://www.cyberbiz.io/helpcenter/?p=10433",
+        "https://www.cyberbiz.io/helpcenter/?p=295",
+        "https://www.cyberbiz.io/helpcenter/?p=305",
+        "https://www.cyberbiz.io/helpcenter/?p=314",
+        "https://www.cyberbiz.io/helpcenter/?p=3201",
+        "https://www.cyberbiz.io/helpcenter/?p=550",
+        "https://www.cyberbiz.io/helpcenter/?p=6867",
+        "https://www.cyberbiz.io/helpcenter/?p=7280",
+        "https://www.cyberbiz.io/helpcenter/?p=9050",
+        "https://www.cyberbiz.io/helpcenter/?p=9083",
+        "https://www.cyberbiz.io/support/?p=1",
+        "https://www.cyberbiz.io/support/?p=106",
+        "https://www.cyberbiz.io/support/?p=13235",
+        "https://www.cyberbiz.io/support/?p=140",
+        "https://www.cyberbiz.io/support/?p=24717",
+        "https://www.cyberbiz.io/support/?p=3445",
+        "https://www.cyberbiz.io/support/?p=36655",
+        "https://www.cyberbiz.io/support/?p=37604",
+        "https://www.cyberbiz.io/support/?p=43182",
+        "https://www.cyberbiz.io/support/?p=43442",
+        "https://www.cyberbiz.io/support/?p=4540"
+      ],
+      "current_plans": [],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "進階",
+        "高手"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-management/manage-system-issued-consumer-invoices.md",
+      "doc_title": "管理系統代開消費者發票",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-management/manage-system-issued-consumer-invoices",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=2319",
+        "https://www.cyberbiz.io/support/?p=5769"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=2319",
+        "https://www.cyberbiz.io/support/?p=5769"
+      ],
+      "current_plans": [
+        "企業"
+      ],
+      "expected_plans": [
+        "企業"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-management/renewal-and-auto-subscription.md",
+      "doc_title": "續購與自動續約",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-management/renewal-and-auto-subscription",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=2020",
+        "https://www.cyberbiz.io/helpcenter/?p=7534",
+        "https://www.cyberbiz.io/helpcenter/?p=9285",
+        "https://www.cyberbiz.io/support/?p=44090",
+        "https://www.cyberbiz.io/support/?p=46371"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=9285",
+        "https://www.cyberbiz.io/helpcenter/?p=2020",
+        "https://www.cyberbiz.io/helpcenter/?p=7534",
+        "https://www.cyberbiz.io/support/?p=46371",
+        "https://www.cyberbiz.io/support/?p=44090"
+      ],
+      "current_plans": [],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "進階",
+        "高手"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-management/security-best-practices.md",
+      "doc_title": "資安防護總覽與最佳實務",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-management/security-best-practices",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3549",
+        "https://www.cyberbiz.io/support/?p=14216"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3549",
+        "https://www.cyberbiz.io/support/?p=14216"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-management/security-settings.md",
+      "doc_title": "保護後台帳號與顧客資料",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-management/security-settings",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3214",
+        "https://www.cyberbiz.io/support/?p=14334",
+        "https://www.cyberbiz.io/support/?p=472"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3214",
+        "https://www.cyberbiz.io/support/?p=14334",
+        "https://www.cyberbiz.io/support/?p=472"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-management/setup-customer-email-phone-verification.md",
+      "doc_title": "設定顧客 Email 與手機雙重驗證",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-management/setup-customer-email-phone-verification",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=1865",
+        "https://www.cyberbiz.io/helpcenter/?p=1871"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=1865",
+        "https://www.cyberbiz.io/helpcenter/?p=1871"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-management/setup-multi-language-and-multi-currency.md",
+      "doc_title": "設定前台多國語言與多幣別",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-management/setup-multi-language-and-multi-currency",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=11202",
+        "https://www.cyberbiz.io/support/?p=47292"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=11202",
+        "https://www.cyberbiz.io/support/?p=47292"
+      ],
+      "current_plans": [
+        "企業",
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-management/setup-store-basic-info.md",
+      "doc_title": "設定網站基本資訊",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-management/setup-store-basic-info",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=8314",
+        "https://www.cyberbiz.io/support/?p=33987",
+        "https://www.cyberbiz.io/support/?p=5598"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=8314",
+        "https://www.cyberbiz.io/support/?p=5598",
+        "https://www.cyberbiz.io/support/?p=33987"
+      ],
+      "current_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-management/system-expiry-handling-process.md",
+      "doc_title": "系統到期處理流程",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-management/system-expiry-handling-process",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3988",
+        "https://www.cyberbiz.io/support/?p=21601"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3988",
+        "https://www.cyberbiz.io/support/?p=21601"
+      ],
+      "current_plans": [],
+      "expected_plans": [],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-management/troubleshoot-not-receiving-merchant-notifications.md",
+      "doc_title": "排除未收到商家通知信件",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-management/troubleshoot-not-receiving-merchant-notifications",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=4964",
+        "https://www.cyberbiz.io/support/?p=31664"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=4964",
+        "https://www.cyberbiz.io/support/?p=31664"
+      ],
+      "current_plans": [],
+      "expected_plans": [],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-management/unable-to-read-https-root-url.md",
+      "doc_title": "無法讀取 HTTPS 根網址",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-management/unable-to-read-https-root-url",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=29144"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=29144"
+      ],
+      "current_plans": [],
+      "expected_plans": [],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-management/wixtar-e-invoice-setup.md",
+      "doc_title": "星益欣電子發票設定",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-management/wixtar-e-invoice-setup",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=2693",
+        "https://www.cyberbiz.io/helpcenter/?p=4068"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=2693",
+        "https://www.cyberbiz.io/helpcenter/?p=4068"
+      ],
+      "current_plans": [
+        "企業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "expected_plans": [
+        "企業",
+        "專業PLUS",
+        "進階",
+        "進階PLUS",
+        "高手",
+        "高手PLUS"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-management/setup-manage-two-factor-auth.md",
+      "doc_title": "設定與管理二階段驗證",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-management/setup-manage-two-factor-auth",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=12650"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=12650"
+      ],
+      "current_plans": [
+        "專業",
+        "進階",
+        "高手",
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS",
+        "企業"
+      ],
+      "expected_plans": [
+        "專業",
+        "進階",
+        "高手",
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS",
+        "企業"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    }
+  ],
+  "unmatched_csv_titles": [
+    "建立並串接 Google Analytics",
+    "建立 Google Tag Manager 並串接 CYBERBIZ",
+    "設定 Google Merchant Center 並同步 CYBERBIZ 商品",
+    "設定 Google Ads 轉換追蹤",
+    "使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝",
+    "設定 Facebook 快速登入",
+    "串接美安通路",
+    "設定 LINE 快速登入",
+    "串接 LINE Messaging API",
+    "篩選與應用 LINE OA 綁定會員名單",
+    "發送 LINE 加入好友邀請",
+    "設定與使用 LINE 顯示會員條碼（串接 POS 結帳）",
+    "設定 LINE 綁定會員贈送優惠券",
+    "設定 LINE 圖文選單",
+    "設定 Meta 廣告活動",
+    "YouTube Shopping 設定指南",
+    "Meta 廣告每日預算設定指南",
+    "同步商品影片至 Meta 目錄",
+    "設定 GA4 排除內部流量與第三方參照來源",
+    "使用 UTM 參數追蹤行銷流量與分析成效",
+    "設定 FBE 帳號授權與資產連結",
+    "設定 Facebook 與 Instagram 商店",
+    "設定 FBE 網域驗證",
+    "註冊並驗證 Google Search Console",
+    "建立 Meta 廣告帳號並儲值",
+    "設定秘密商品群組",
+    "LINE 整合總覽",
+    "建立與驗證 Google 商家檔案",
+    "使用 Google 安全瀏覽工具檢查並排除網站安全性風險",
+    "從 Google 搜尋結果移除特定網頁或子目錄",
+    "設定與發送 LINE OA 分眾訊息推播",
+    "設定 LINE OA 受眾串接",
+    "排除商品不同步至 Facebook 與 Instagram 商店",
+    "設定 GA4 站內搜尋追蹤",
+    "設定與管理 LINE Tag",
+    "LINE 購物功能總覽",
+    "使用 LINE 團購進行購物",
+    "設定 Google 快速登入",
+    "設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結",
+    "申請與設定 LINE 直播功能",
+    "綁定 LINE 官方帳號與官網會員",
+    "自動化廣告系統(Google 購物廣告)",
+    "設定 LINE 快速登入時取得會員手機號碼",
+    "申請與設定 LINE 購物導購",
+    "設定 Google Analytics 進階追蹤與資料分析",
+    "在官網新增 LINE 加入好友入口",
+    "設定 Google Ads 強化轉換",
+    "設定 LIFF 自動登入與會員綁定",
+    "手動分享資產權限給 CYBERBIZ",
+    "設定 Meta 廣告的目錄商品組合",
+    "ASC 廣告投放策略與最佳實務",
+    "使用 Meta 廣告成效分析",
+    "Meta 廣告帳號閒置釋出機制與保留說明",
+    "設定 LINE 團購機器人",
+    "設定 LINE 團購商品",
+    "設定 LINE 團購群組",
+    "(CYBERBIZ NOW快速到貨)快速到貨運費計算與對帳",
+    "設定與管理 LINE OA 通知樣板",
+    "設定與發送簡訊通知",
+    "設定與管理簡訊通知樣板",
+    "管理與管理 Email 通知樣板",
+    "設定與發送 EDM 電子報",
+    "Step1.安裝啟用",
+    "Step5.官網與蝦皮商品資訊同步",
+    "API 與 Webhook 串接指南",
+    "使用 AUTOMATION 建立自動化推播流程",
+    "會員數據智庫",
+    "搜尋與建立會員",
+    "會員身份識別",
+    "導購轉化",
+    "查看門市與個人業績報表",
+    "Step2.導入商品與建立關聯",
+    "Step3.官網與蝦皮商品庫存同步",
+    "Step4.官網商品建立為蝦皮商品",
+    "CYBERBIZ APP 功能指南",
+    "安裝 Meta Ads App"
+  ],
+  "unmatched_docs": [
+    {
+      "title": "特定網域信箱套用會員標籤",
+      "file": "docs/ec/website-management/apply-member-tags-to-specific-email-domains.md"
+    },
+    {
+      "title": "自動確認對帳帳款設定",
+      "file": "docs/ec/website-management/auto-confirm-reconciliation-accounts.md"
+    },
+    {
+      "title": "欠款自動扣繳設定",
+      "file": "docs/ec/website-management/auto-deduction-of-arrears.md"
+    },
+    {
+      "title": "顧客註冊流程與欄位",
+      "file": "docs/ec/website-management/customer-registration-flow-and-fields.md"
+    },
+    {
+      "title": "收不到後台登入 Email 驗證信",
+      "file": "docs/ec/website-management/not-receiving-backend-login-verification-email.md"
+    },
+    {
+      "title": "一鍵開立請款發票",
+      "file": "docs/ec/website-management/one-click-invoice-issuance.md"
+    },
+    {
+      "title": "Cyber 幣儲值中心使用指南",
+      "file": "docs/ec/website-management/points-deposits.md"
+    },
+    {
+      "title": "管理者權限與後台選單對照表",
+      "file": "docs/ec/website-management/references/admin-permissions-menu-reference.md"
+    },
+    {
+      "title": "顧客欄位驗證模式對照表",
+      "file": "docs/ec/website-management/references/customer-field-validation-reference.md"
+    },
+    {
+      "title": "顧客註冊模式對照表",
+      "file": "docs/ec/website-management/references/customer-registration-modes-reference.md"
+    },
+    {
+      "title": "訂單編號格式變數對照表",
+      "file": "docs/ec/website-management/references/general-preferences-order-format-variables.md"
+    },
+    {
+      "title": "SEO 設定與優化指南",
+      "file": "docs/ec/website-management/seo/seo-guide.md"
+    },
+    {
+      "title": "設定 301 重定向網站轉址",
+      "file": "docs/ec/website-management/seo/setup-301-redirects.md"
+    },
+    {
+      "title": "將 Sitemap 提交至 Google Search Console",
+      "file": "docs/ec/website-management/seo/submit-sitemap-to-gsc.md"
+    }
+  ],
+  "updated_at": "2026-06-30 08:02"
+}

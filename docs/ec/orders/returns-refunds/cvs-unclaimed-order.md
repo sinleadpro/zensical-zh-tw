@@ -1,9 +1,8 @@
 ---
-
 title: 處理超商訂單逾期未取
 description: 超商訂單逾期未取的處理流程，包含自動退款條件、大宗寄倉與店到店退貨方式、人工退款操作步驟。
 created: 2026-05-26 20:51
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-30 11:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -75,7 +74,6 @@ icon: lucide/package-x
 hide: []
 ---
 
-
 ## 超商訂單逾期處理說明
 
 當顧客未在期限內至超商取貨，訂單會被超商系統判定為「逾期未取」。本文說明系統自動發生的變動、不同物流類型的退貨流程，以及商家需要操作的人工退款步驟。
@@ -142,7 +140,7 @@ CYBERBIZ 串接的超商物流（7-11、全家、萊爾富、黑貓快速到店�
 - [x] **未安裝「超商逾期未取不自動退款」加值功能**：若商家有開通此加值功能，所有逾期訂單一律走人工退款。
 - [x] **整筆訂單完整出貨**：若為部分出貨（部分超商、部分宅配），超商品項逾期不會即時觸發退款，需待商家確認後處理。
 
-詳細條件對照請見 [退貨與退款狀態對照](../references/return-refund-status-reference.md#reference-overdue-cvs-refund-flow-auto-refund){ title="退貨與退款狀態對照（超商訂單逾期未取）" data-preview }。
+詳細條件對照請見 [退貨與退款狀態對照](../references/return-refund-status-reference.md#reference-overdue-cvs-refund-flow-auto-refund){ title="退貨與退款狀態對照（超商訂單逾期未取）" }。
 
 !!! plan "方案 / 加值功能"
     自動退款的支援方案、各付款方式的退款支援、是否安裝「超商逾期未取不自動退款」，會影響系統行為。若不確定您的店家設定，請聯繫您的 CYBERBIZ 業務窗口。
@@ -191,9 +189,9 @@ CYBERBIZ 串接的超商物流（7-11、全家、萊爾富、黑貓快速到店�
 
 ---
 
-### 系統自動退款（無需操作） { #operate-overdue-cvs-orders-auto-refund }
+### 系統自動退款 <small>無需操作</small> { #operate-overdue-cvs-orders-auto-refund }
 
-當訂單符合 [自動退款開通條件](#prerequisites-overdue-cvs-orders-auto-refund){ data-preview } 時，系統在收到超商逾期通知後會自動：
+當訂單符合 [自動退款開通條件](#prerequisites-overdue-cvs-orders-auto-refund){ title="自動退款的開通條件" } 時，系統在收到超商逾期通知後會自動：
 
 1. 將「配送狀態」改為「逾期未取」
 2. 將「退貨狀態」改為「轉運中心」
@@ -267,11 +265,11 @@ CYBERBIZ 串接的超商物流（7-11、全家、萊爾富、黑貓快速到店�
 <div class="grid cards" markdown>
 
 - :lucide-arrow-right-left:{ .lg }  
-  [__退貨與退款狀態對照__](../references/return-refund-status-reference.md){ title="退貨與退款狀態對照（超商訂單逾期未取）" data-preview }  
+  [__退貨與退款狀態對照__](../references/return-refund-status-reference.md){ title="退貨與退款狀態對照（超商訂單逾期未取）" }  
   各配送狀態、退貨狀態、付款狀態的流轉對照與自動退款支援條件。
 
 - :lucide-credit-card:{ .lg }  
-  [__自動退刷時效對照表__](../references/auto-refund-timeline.md){ title="自動退刷時效對照表" data-preview }  
+  [__自動退刷時效對照表__](../references/auto-refund-timeline.md){ title="自動退刷時效對照表" }  
   各金流商支援自動退刷的天數上限。
 
 - :lucide-truck:{ .lg }  
@@ -299,7 +297,7 @@ CYBERBIZ 串接的超商物流（7-11、全家、萊爾富、黑貓快速到店�
     - 訂單為部分出貨，僅第一筆超商品項逾期
     - 訂單付款狀態尚未到達「已收到款項」
 
-    詳細條件請見 [自動退款的開通條件](#prerequisites-overdue-cvs-orders-auto-refund){ data-preview }。
+    詳細條件請見 [自動退款的開通條件](#prerequisites-overdue-cvs-orders-auto-refund){ title="自動退款的開通條件" }。
 
 ??? quote "商品退回原寄件門市後，多久內必須去領？"
     [](){ #faq-overdue-cvs-orders-pickup-deadline }
@@ -324,11 +322,10 @@ CYBERBIZ 串接的超商物流（7-11、全家、萊爾富、黑貓快速到店�
 
 ## 參考資料 { #reference-overdue-cvs-orders }
 
-* [退貨與退款狀態對照](../references/return-refund-status-reference.md){ title="退貨與退款狀態對照（超商訂單逾期未取）" data-preview }
-* [自動退刷時效對照表](../references/auto-refund-timeline.md){ title="自動退刷時效對照表" data-preview }
+* [退貨與退款狀態對照](../references/return-refund-status-reference.md){ title="退貨與退款狀態對照（超商訂單逾期未取）" }
+* [自動退刷時效對照表](../references/auto-refund-timeline.md){ title="自動退刷時效對照表" }
 * [黑貓快速到店逾期說明](../tcat-quick-store/tcat-quick-store-overdue.md){ title="黑貓快速到店逾期說明" }
-* [物流類型部分出貨支援對照表](../references/cvs-partial-shipping-support.md){ title="超商物流部分出貨支援對照表" data-preview }
-* [訂單部分出貨](../cvs-shipping/cvs-partial-shipment.md){ title="處理超商訂單部分出貨" }
+* [物流類型部分出貨支援對照表](../references/cvs-partial-shipping-support.md){ title="超商物流部分出貨支援對照表" }
 
 [^fn-every-week]: 「每週退」：當週被退的商品，會被打包成一箱，在下一週退回給店家。
 [^fn-next-day]: 「隔天收退」：當天被退的商品，會被打包成一箱，在隔一天退回給店家。

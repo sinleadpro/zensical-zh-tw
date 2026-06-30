@@ -1,8 +1,10 @@
 ---
 title: 星益欣電子發票設定
 version: ""
-last_modified: 2026-06-26 16:07
+author: Jase
+last_modified: 2026-06-30 08:02
 description: 教您在 CYBERBIZ 後台完成星益欣電子發票的購買、串接啟用、多站台共用與對帳發票設定。
+permalink: https://help.cyberbiz.io/ec/website-management/wixtar-e-invoice-setup
 product:
   - EC
   - POS
@@ -37,10 +39,10 @@ features:
 tnb: trunk
 plans:
   - 專業
-  - 進階
-  - 高手
   - 專業PLUS
+  - 進階
   - 進階PLUS
+  - 高手
   - 高手PLUS
   - 企業
 prerequisites:
@@ -60,8 +62,8 @@ difficulty: ""
 audiences:
   - 商家
 wp_url:
-  - https://www.cyberbiz.io/support/?p=2693
   - https://www.cyberbiz.io/helpcenter/?p=4068
+  - https://www.cyberbiz.io/support/?p=2693
 notes:
   - verify FAQ
   - update internal links

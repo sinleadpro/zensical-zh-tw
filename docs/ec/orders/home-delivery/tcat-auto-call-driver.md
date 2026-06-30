@@ -1,9 +1,8 @@
 ---
-
 title: 自動呼叫黑貓司機取件
 description: 在批次下載黑貓託運單時，同步自動通知黑貓派車取件，省去人工聯絡時間。
 created: 2026-05-13 16:18
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-30 10:24
 lang: zh-TW
 type: tutorial
 status: ""
@@ -73,15 +72,13 @@ icon: lucide/phone
 hide: []
 ---
 
-
-
-![自動呼叫黑貓司機](../../../assets/images/EC-訂單-所有訂單-下載黑貓託運單-自動呼叫黑貓司機-hero.png){ .hero-page }
+![自動呼叫黑貓司機](../../../assets/images/EC-訂單-所有訂單-下載黑貓託運單-自動呼叫黑貓司機-hero.png){ title="自動呼叫黑貓司機" .hero-page }
 
 ## 自動呼叫黑貓司機說明 { #intro-tcat-auto-call-driver }
 
 過去商家在後台列印完黑貓託運單後，須自行致電黑貓客服安排司機收件。「自動呼叫司機取件」功能讓商家在下載黑貓託運單時，**同步** 勾選由系統自動通知黑貓派車前往指定地點收件，省去人工聯絡的時間。
 
-此功能僅出現在「下載黑貓託運單」彈窗的下半部，搭配 [批次出貨流程][tcat-home-shipping-label-batch]{ data-preview } 使用。
+此功能僅出現在「下載黑貓託運單」彈窗的下半部，搭配 [批次出貨流程](tcat-home-delivery.md#tcat-home-shipping-label-batch){ title="批次下載黑貓宅配託運單" data-preview } 使用。
 
 ## 使用前提與限制 { #prerequisites-tact-auto-call-driver }
 
@@ -92,7 +89,7 @@ hide: []
 | :-- | :-- |
 | 後台版型 | 必須使用 **新版訂單列表**，舊版訂單列表不支援此功能 |
 | 加值功能 | 「自動呼叫黑貓司機」屬加值功能，請聯繫 **CYBERBIZ 客服** 申請開通 |
-| 寄件人資訊 | 必須先至 **[黑貓寄取件設定頁][]{ data-preview }**(金物流 > 黑貓託運單 > 黑貓設定)完整填寫寄件人姓名、地址與聯絡電話，系統才會接受呼叫請求 |
+| 寄件人資訊 | 必須先至 **[黑貓寄取件設定頁](../../payments-and-logistics/setup-print-tcat-waybill.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" data-preview }**(金物流 > 黑貓託運單 > 黑貓設定)完整填寫寄件人姓名、地址與聯絡電話，系統才會接受呼叫請求 |
 
 !!! info "若彈窗下半部未出現「是否自動呼叫黑貓司機取件」的選項區塊，代表此商店尚未開通該加值功能。"
 
@@ -129,13 +126,13 @@ hide: []
 3. **開啟下載彈窗**：點擊列表右上角的 **更多操作**，從下拉選單選擇 **下載黑貓託運單並更改為已出貨**。
 4. **確認託運單設定**：在 **下載黑貓託運單** 彈窗中，依序檢查溫層(常溫 / 冷藏 / 冷凍)、是否為易碎品、寄件地址等預設值。
 5. **設定自動呼叫司機**：捲動至 **是否自動呼叫黑貓司機取件** 區塊，在「是 / 否」中選擇 **是**[^1]。後會展開以下三個欄位：
-    * **是否需在取件前事先電話聯絡**：選「是」時，司機抵達前會撥打「[黑貓寄取件設定頁][configure-ezcat-shipping-note-sender-setup]{ data-preview }」中填寫的聯絡電話與您確認。
+    * **是否需在取件前事先電話聯絡**：選「是」時，司機抵達前會撥打「[黑貓寄取件設定頁](../../payments-and-logistics/setup-print-tcat-waybill.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" }」中填寫的聯絡電話與您確認。
     * **是否需黑貓司機準備推車**：若包裹數量較多，可請司機自備推車。
     * **備註**：可填寫特殊收件指示(例如門禁、樓層)，上限 **100 字**。
 
-    ![自動呼叫黑貓司機設定](../../../assets/images/EC-訂單-所有訂單-下載黑貓托運單-自動呼叫黑貓司機.png)
+    ![自動呼叫黑貓司機設定](../../../assets/images/EC-訂單-所有訂單-下載黑貓托運單-自動呼叫黑貓司機.png){ title="自動呼叫黑貓司機設定" }
 
-6. **確認同意條款並送出**：勾選頁面下方的物流契約同意項目，點擊 **確認**。系統會同步列印託運單 PDF、將該批訂單貨態改為「已出貨」，並向黑貓送出司機取件通知（[如何避免重複呼叫][tcat-auto-call-driver-multiple-calls]{ data-preview }）。
+6. **確認同意條款並送出**：勾選頁面下方的物流契約同意項目，點擊 **確認**。系統會同步列印託運單 PDF、將該批訂單貨態改為「已出貨」，並向黑貓送出司機取件通知（[如何避免重複呼叫](#tcat-auto-call-driver-multiple-calls)）。
 
 !!! tip "已記住上次設定"
     彈窗會自動記住您前一次勾選的呼叫司機設定(是否呼叫、是否電聯、是否需推車)，下次開啟時直接套用，減少重複操作。
@@ -172,11 +169,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-search:{ .lg }  
-  [__追蹤出貨狀態__][tcat-home-verify-status]  
+  [__追蹤出貨狀態__](tcat-home-delivery.md#tcat-home-verify-status){ title="確認貨態變更" }  
   回到訂單列表查看該批訂單貨態是否已標記為「已出貨」，並核對託運單號是否寫入訂單。
 
 - :lucide-printer:{ .lg }  
-  __印出託運單貼紙__
+  __印出託運單貼紙__  
   使用黑貓三聯空白託運單貼紙列印，若沒有請先致電黑貓領取。
 
 - :lucide-package:{ .lg }  
@@ -202,8 +199,8 @@ hide: []
 
     請依序檢查：
 
-    1. 是否在 **16:30 [截止時間][tcat-auto-call-driver-deadtime]{ data-preview } 前** 完成送出。
-    2. [黑貓寄取件設定頁][]{ data-preview } 中的姓名、地址、電話是否完整填寫。
+     1. 是否在 **16:30 [截止時間](#tcat-auto-call-driver-deadtime) 前** 完成送出。
+     2. [黑貓寄取件設定頁](../../payments-and-logistics/setup-print-tcat-waybill.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" } 中的姓名、地址、電話是否完整填寫。
     3. 若仍無法處理，請聯繫黑貓客服 **02-412-8888** 直接安排。
 
 ??? quote "可以設定呼叫司機在指定時間取件嗎?"
