@@ -70,7 +70,7 @@ icon: lucide/user-cog
 hide: []
 ---
 
-![會員分析頁面](../../assets/images/ec-bi-member-analysis-hero.png){ .hero-page }
+![會員分析頁面](../../assets/images/ec-bi-member-analysis-hero.png){ title="會員分析頁面" .hero-page }
 
 ## 會員分析介紹 { #intro-member-analysis }
 
@@ -231,11 +231,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-users:{ .lg }  
-  [__會員總覽__](member-overview.md)  
+  [__會員總覽__](member-overview.md){ title="會員總覽" }  
   進一步查看性別、年齡、註冊來源與會員等級的輪廓分析。
 
 - :lucide-repeat:{ .lg }  
-  [__消費顧客分析__](customer-analysis.md)  
+  [__消費顧客分析__](customer-analysis.md){ title="消費顧客分析" }  
   以「第一次下單時間」切分新舊客，深入看訂單貢獻與回購表現。
 
 </div>

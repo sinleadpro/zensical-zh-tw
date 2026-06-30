@@ -2,7 +2,7 @@
 title: 使用 7-11 C2C 退貨便
 description: 開通 7-11 C2C 退貨便、設定收貨人資料、發送退貨寄件代碼給消費者，以及完整的退貨審查與退款流程。
 created: 2026-05-26 12:25
-last_modified: 2026-06-14 12:33
+last_modified: 2026-06-30 11:59
 lang: zh-TW
 type: tutorial
 status: ""
@@ -87,7 +87,7 @@ hide: []
 - [x] **配送狀態**：CYBERBIZ 物流訂單需為「已出貨 / 到貨 / 收貨」；其他物流訂單需為「已收貨」
 - [x] **收貨人資料**：已在「金物流 > 超商物流 > 7-ELEVEN C2C 退貨便」完成商家收貨資料設定
 
-完整的「配送方式 × 配送進度 × 退貨狀態」對應矩陣，以及每個欄位的詳細說明，請見 [訂單發送條件對照表](../references/c2c-return-conditions.md){ title="7-11 C2C 退貨便 — 訂單發送條件對照表" data-preview }。
+完整的「配送方式 × 配送進度 × 退貨狀態」對應矩陣，以及每個欄位的詳細說明，請見 [訂單發送條件對照表](../references/c2c-return-conditions.md){ title="7-11 C2C 退貨便 — 訂單發送條件對照表" }。
 
 ## 計費規則 { #pricing-seven-eleven-c2c-return }
 
@@ -158,7 +158,7 @@ hide: []
 ### 四、商家端取貨與門市關轉處理 { #operate-seven-eleven-c2c-return-pickup }
 
 1. **包裹到店通知**：當包裹送達商家設定的收件門市時，系統會發送簡訊至設定的電話號碼。
-2. **前往門市取貨**：商家需在包裹到店後 **7 天內** 攜帶 **與「姓名」欄位一致的身分證件正本** 前往門市領取，逾期未取時，包裹會自動改以 **宅配到付** 方式退回「[公司物流地址](../../website-management/setup-store-basic-info.md){ title="設定網站基本資訊" }」(由商家負擔宅配運費)。
+2. **前往門市取貨**：商家需在包裹到店後 **7 天內** 攜帶 **與「姓名」欄位一致的身分證件正本** 前往門市領取，逾期未取時，包裹會自動改以 **宅配到付** 方式退回「[公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" }」(由商家負擔宅配運費)。
 3. **遇到門市關轉時**:
     * **發送代碼前門市已關**：回到「金物流 > 超商物流 > 7-ELEVEN C2C 退貨便」設定頁，重新選擇門市後再次發送代碼。
     * **包裹寄出後門市關閉**：進入該筆訂單的 **訂單詳情頁** ，系統會在物流資訊區塊下方顯示警示與 **「重新選擇門市」** 按鈕，商家需在門市關閉後 **6 天內** 重選新的收件門市[^2]，否則包裹會改以宅配到付方式退回公司物流地址。
@@ -190,7 +190,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-truck:{ .lg }  
-  [__部分出貨操作__](../home-delivery/partial-shipment-settings.md)  
+  [__部分出貨操作__](../home-delivery/partial-shipment.md){ title="設定訂單部分出貨" }  
   退貨完成後若需要重新出貨剩餘品項，可參考部分出貨流程。
 
 - :lucide-settings:{ .lg }  
@@ -214,7 +214,7 @@ hide: []
     請依序檢查：
 
     - 商店是否已向 CYBERBIZ 客服申請開通「7-ELEVEN C2C 退貨便」加值功能
-    - 勾選的訂單是否符合所有發送條件 — 詳見 [訂單發送條件對照表](../references/c2c-return-conditions.md){ title="7-11 C2C 退貨便 — 訂單發送條件對照表" data-preview }
+    - 勾選的訂單是否符合所有發送條件 — 詳見 [訂單發送條件對照表](../references/c2c-return-conditions.md){ title="7-11 C2C 退貨便 — 訂單發送條件對照表" }
     - 是否同時勾選了不同狀態的訂單(批次動作要求所選訂單狀態一致)
 
 ??? quote "Cyber 幣什麼時候會扣款？消費者沒寄件還會被扣嗎？"
