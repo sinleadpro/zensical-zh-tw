@@ -2,7 +2,7 @@
 title: 設定 Google Pay™
 description: 指引商家在官網啟用並管理 Google Pay™ 支付選項，包含費率說明、後台配置流程以及金流門檻設定限制。
 created: 2026-03-16 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 08:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -57,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3900
   - https://www.cyberbiz.io/support/?p=2620
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-google-pay
 comments: false
 search:
   exclude: false

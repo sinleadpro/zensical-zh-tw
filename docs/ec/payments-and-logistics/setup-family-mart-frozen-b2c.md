@@ -3,9 +3,9 @@
 title: 設定全家冷凍物流 B2C
 description: 申請、設定與操作全家冷凍物流 B2C 服務。
 created:
-last_modified: 2026-06-28 11:55
+last_modified: 2026-06-30 08:52
 lang: zh-TW
-permalink:
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-family-mart-frozen-b2c
 type: tutorial
 status:
 version:
@@ -25,9 +25,9 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
+  - 企業
   - 高手
   - 高手PLUS
-  - 企業
 cyb_extensions:
   - PAYMENTS
 intents:
@@ -64,7 +64,7 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5068
-  - https://www.cyberbiz.io/support/?p=21320#a
+  - https://www.cyberbiz.io/support/?p=21320
 comments: false
 search:
   exclude: false

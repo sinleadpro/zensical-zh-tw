@@ -2,7 +2,7 @@
 title: 順豐海外物流
 description: 透過 CYBERBIZ 後台整合順豐海外物流，您可以直接產出跨境託運單，並依據收件地址自動切換中英文格式。
 created: 2026-03-05 00:00
-last_modified: 2026-06-22 11:15
+last_modified: 2026-06-30 08:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -25,12 +25,12 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
+  - Business
+  - Pro
+  - 企業
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
-  - 企業
-  - Pro
-  - Business
 cyb_extensions: []
 intents:
   - 開通順豐海外功能
@@ -58,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11280
   - https://www.cyberbiz.io/support/?p=8060
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/sf-express-overseas-logistics
 comments: false
 search:
   exclude: false

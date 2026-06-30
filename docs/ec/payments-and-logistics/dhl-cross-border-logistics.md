@@ -2,7 +2,7 @@
 title: DHL 跨境物流
 description: 透過 CYBERBIZ 後台串接 DHL 國際快遞，您可以直接產出全英文託運單與商業發票，並享有到府取件與自動化貨態追蹤服務。
 created: 2026-03-05 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 08:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -31,12 +31,12 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
+  - Business
+  - Pro
+  - 企業
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
-  - 企業
-  - Pro
-  - Business
 cyb_extensions: []
 intents:
   - 驗證出口英文公司名
@@ -68,7 +68,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=393
   - https://www.cyberbiz.io/support/?p=29664
   - https://www.cyberbiz.io/support/?p=29736
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/dhl-cross-border-logistics
 comments: false
 search:
   exclude: false

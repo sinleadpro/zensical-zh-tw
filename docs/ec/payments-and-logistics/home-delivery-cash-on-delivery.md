@@ -2,7 +2,7 @@
 title: 宅配貨到付款物流（黑貓/宅配通/新竹物流）
 description: 透過 CYBERBIZ 串接黑貓宅急便、宅配通與新竹物流的貨到付款服務，您可以直接在後台產生託運單，簡化對帳與出貨流程。
 created: 2026-03-05 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 08:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -50,9 +50,9 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10629
   - https://www.cyberbiz.io/helpcenter/?p=10656
-  - https://www.cyberbiz.io/support/?p=5967
   - https://www.cyberbiz.io/support/?p=46272
-permalink: ""
+  - https://www.cyberbiz.io/support/?p=5967
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/home-delivery-cash-on-delivery
 comments: false
 search:
   exclude: false

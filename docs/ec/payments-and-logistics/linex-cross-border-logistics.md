@@ -2,7 +2,7 @@
 title: LINEX 跨境物流
 description: LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到府取件」或「自行送倉」模式，並透過後台自動產出報關所需之託運單與相關文件。
 created: 2026-03-04 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 08:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -30,12 +30,12 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
+  - Business
+  - Pro
+  - 企業
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
-  - 企業
-  - Pro
-  - Business
 cyb_extensions: []
 intents:
   - 設定_LINEX_運送模式
@@ -65,7 +65,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8214
   - https://www.cyberbiz.io/support/?p=38562
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/linex-cross-border-logistics
 comments: false
 search:
   exclude: false

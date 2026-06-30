@@ -2,7 +2,7 @@
 title: 設定 LINE Pay
 description: 串接 LINE Pay 付款，顧客於結帳時可選用 LINE Pay 進行支付。
 created: 2026-01-27 00:00
-last_modified: 2026-06-28 09:24
+last_modified: 2026-06-30 08:52
 lang: zh-TW
 type: tutorial
 status:
@@ -23,12 +23,12 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 如何設定 LINE Pay
@@ -57,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2127
   - https://www.cyberbiz.io/support/?p=35122
-permalink:
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-line-pay
 comments: false
 search:
   exclude: false

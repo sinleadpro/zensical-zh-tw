@@ -2,7 +2,7 @@
 title: 澳洲落地版金流服務
 description: 澳洲落地版透過與 Airwallex 合作，提供商家穩定且多元的在地金流服務。本文將引導您完成從帳戶申請、官網合規審核到後台 API 串接的完整流程。
 created: 2026-03-03 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 08:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,8 +23,7 @@ audiences:
   - admin
 difficulty: intermediate
 tnb: branch
-plans:
-  - 澳洲落地版
+plans: []
 cyb_extensions: []
 intents:
   - 申請_Airwallex_帳戶
@@ -52,7 +51,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=51285
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/australia-local-payment-services
 comments: false
 search:
   exclude: false
