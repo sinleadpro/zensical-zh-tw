@@ -17,7 +17,10 @@
         "Business",
         "Pro"
       ],
-      "expected_plans": [],
+      "expected_plans": [
+        "Business",
+        "Pro"
+      ],
       "trunk_expanded": false,
       "apply": true
     },
@@ -79,7 +82,14 @@
         "進階PLUS",
         "高手PLUS"
       ],
-      "expected_plans": [],
+      "expected_plans": [
+        "Business",
+        "Pro",
+        "企業",
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS"
+      ],
       "trunk_expanded": false,
       "apply": true
     },
@@ -104,7 +114,14 @@
         "進階PLUS",
         "高手PLUS"
       ],
-      "expected_plans": [],
+      "expected_plans": [
+        "Business",
+        "Pro",
+        "企業",
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS"
+      ],
       "trunk_expanded": false,
       "apply": true
     },
@@ -225,7 +242,6 @@
       ],
       "expected_plans": [
         "企業",
-        "專業",
         "專業PLUS",
         "進階",
         "進階PLUS",
@@ -436,8 +452,153 @@
         "高手PLUS"
       ],
       "expected_plans": [
-        "企業"
+        "Business",
+        "Pro",
+        "企業",
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS"
       ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/setup-google-pay.md",
+      "doc_title": "設定 Google Pay™",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-google-pay",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3900",
+        "https://www.cyberbiz.io/support/?p=2620"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=3900",
+        "https://www.cyberbiz.io/support/?p=2620"
+      ],
+      "current_plans": [],
+      "expected_plans": [],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/north-america-payment-services.md",
+      "doc_title": "北美站金流服務",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/north-america-payment-services",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=30595"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=30595"
+      ],
+      "current_plans": [
+        "Pro",
+        "Business"
+      ],
+      "expected_plans": [
+        "Pro",
+        "Business"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/japan-payment-services.md",
+      "doc_title": "日本站金流服務",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/japan-payment-services",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=33442"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=33442"
+      ],
+      "current_plans": [
+        "Pro",
+        "Business"
+      ],
+      "expected_plans": [
+        "Pro",
+        "Business"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/southeast-asia-payment-services.md",
+      "doc_title": "東南亞站金流服務",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/southeast-asia-payment-services",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=37692"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=37692"
+      ],
+      "current_plans": [
+        "Pro",
+        "Business"
+      ],
+      "expected_plans": [
+        "Pro",
+        "Business"
+      ],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/australia-local-payment-services.md",
+      "doc_title": "澳洲落地版金流服務",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/australia-local-payment-services",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=51285"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=51285"
+      ],
+      "current_plans": [],
+      "expected_plans": [],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/setup-ipass-money.md",
+      "doc_title": "設定 iPASS MONEY 支付",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-ipass-money",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12633",
+        "https://www.cyberbiz.io/support/?p=51378"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=12633",
+        "https://www.cyberbiz.io/support/?p=51378"
+      ],
+      "current_plans": [],
+      "expected_plans": [],
+      "trunk_expanded": false,
+      "apply": true
+    },
+    {
+      "doc_file": "docs/ec/payments-and-logistics/home-delivery-cash-on-delivery.md",
+      "doc_title": "宅配貨到付款物流（黑貓/宅配通/新竹物流）",
+      "expected_permalink": "https://help.cyberbiz.io/ec/payments-and-logistics/home-delivery-cash-on-delivery",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=10629",
+        "https://www.cyberbiz.io/helpcenter/?p=10656",
+        "https://www.cyberbiz.io/support/?p=5967",
+        "https://www.cyberbiz.io/support/?p=46272"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=10629",
+        "https://www.cyberbiz.io/helpcenter/?p=10656",
+        "https://www.cyberbiz.io/support/?p=5967",
+        "https://www.cyberbiz.io/support/?p=46272"
+      ],
+      "current_plans": [],
+      "expected_plans": [],
       "trunk_expanded": false,
       "apply": true
     }
@@ -450,7 +611,6 @@
     "設定結帳拆分多購物車",
     "串接Google Pay",
     "宅配逆物流",
-    "串接宅配貨到付款物流",
     "(CYBERBIZ NOW快速到貨)消費者購買流程",
     "(CYBERBIZ NOW快速到貨)快速到貨訂單接單準備",
     "(CYBERBIZ NOW快速到貨)快速到貨出貨與配送追蹤",
@@ -460,10 +620,6 @@
     "(宅配物流託運單)補印與加印託運單",
     "啟用部分串倉與拆單",
     "啟用部分串倉與混單",
-    "北美站金流設定",
-    "日本站金流設定",
-    "東南亞站金流設定",
-    "澳洲落地版金流設定",
     "申請iPASS MONEY 一卡通",
     "CYBERBIZ EXPRESS",
     "建立並串接 Google Analytics",
@@ -565,10 +721,6 @@
       "file": "docs/ec/payments-and-logistics/apply-for-ecpay-payment-and-cvs-cod.md"
     },
     {
-      "title": "澳洲落地版金流服務",
-      "file": "docs/ec/payments-and-logistics/australia-local-payment-services.md"
-    },
-    {
       "title": "建立門市",
       "file": "docs/ec/payments-and-logistics/create-stores.md"
     },
@@ -577,20 +729,8 @@
       "file": "docs/ec/payments-and-logistics/cyberbiz-now/enable-cyberbiz-now-quick-delivery.md"
     },
     {
-      "title": "宅配貨到付款物流（黑貓/宅配通/新竹物流）",
-      "file": "docs/ec/payments-and-logistics/home-delivery-cash-on-delivery.md"
-    },
-    {
       "title": "串接 ezShip 超商取貨 (C2C)",
       "file": "docs/ec/payments-and-logistics/integrate-ezship-cvs-pickup-c2c.md"
-    },
-    {
-      "title": "日本站金流服務",
-      "file": "docs/ec/payments-and-logistics/japan-payment-services.md"
-    },
-    {
-      "title": "北美站金流服務",
-      "file": "docs/ec/payments-and-logistics/north-america-payment-services.md"
     },
     {
       "title": "購物車相關設定",
@@ -629,16 +769,8 @@
       "file": "docs/ec/payments-and-logistics/references/tcat-delivery-rate-card.md"
     },
     {
-      "title": "設定 Google Pay™",
-      "file": "docs/ec/payments-and-logistics/setup-google-pay.md"
-    },
-    {
       "title": "設定新竹物流託運單",
       "file": "docs/ec/payments-and-logistics/setup-hct-waybill.md"
-    },
-    {
-      "title": "設定 iPASS MONEY 支付",
-      "file": "docs/ec/payments-and-logistics/setup-ipass-money.md"
     },
     {
       "title": "設定宅配通託運單",
@@ -657,12 +789,9 @@
       "file": "docs/ec/payments-and-logistics/setup-sf-express-waybill.md"
     },
     {
-      "title": "東南亞站金流服務",
-      "file": "docs/ec/payments-and-logistics/southeast-asia-payment-services.md"
-    },
-    {
       "title": "開啟門市取貨服務",
       "file": "docs/ec/payments-and-logistics/store-pickup/enable-store-pickup-service.md"
     }
-  ]
+  ],
+  "updated_at": "2026-06-30 08:52"
 }

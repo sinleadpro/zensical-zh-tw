@@ -2,7 +2,7 @@
 title: 東南亞站金流服務
 description: CYBERBIZ 提供標準信用卡服務，更整合了在地龍頭金流商 Fiuu (原 Razer Merchant Services)，支援銀行轉帳、電子錢包及超商現金支付。
 created: 2026-03-03 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 08:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,8 +23,8 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - Pro
   - Business
+  - Pro
 cyb_extensions: []
 intents:
   - 設定東南亞信用卡支付
@@ -51,7 +51,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=37692
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/southeast-asia-payment-services
 comments: false
 search:
   exclude: false

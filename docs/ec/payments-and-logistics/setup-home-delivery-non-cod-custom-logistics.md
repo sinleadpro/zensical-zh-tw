@@ -2,7 +2,7 @@
 title: 建立宅配貨到不付款/自訂物流
 description: 說明如何自行設定宅配物流選項、運費門檻與溫層配送，包含配送國家總開關、金額與重量運費設定，以及多溫層購物的處理邏輯。
 created: 2026-06-04 10:02
-last_modified: 2026-06-28 13:57
+last_modified: 2026-06-30 08:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -53,10 +53,11 @@ ui_components:
 paths: 
   - 金物流 > 宅配物流 > 自訂物流
 layouts: []
-wp_url: 
-  - https://www.cyberbiz.io/support/?p=2746
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=2746
   - https://www.cyberbiz.io/support/?p=10652
-permalink: ""
+  - https://www.cyberbiz.io/support/?p=5983
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-home-delivery-non-cod-custom-logistics
 comments: false
 search:
   exclude: false

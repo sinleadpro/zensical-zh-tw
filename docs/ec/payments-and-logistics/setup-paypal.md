@@ -2,9 +2,9 @@
 title: 設定 PayPal
 description: 串接 PayPal 金流，讓海外信用卡顧客於結帳時可使用 PayPal 支付。
 created:
-last_modified: 2026-06-28 09:34
+last_modified: 2026-06-30 08:52
 lang: zh-TW
-permalink:
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-paypal
 type: tutorial
 status:
 version:
@@ -24,13 +24,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions:
   - PAYMENTS
 intents:

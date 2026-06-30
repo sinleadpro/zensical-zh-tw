@@ -2,7 +2,7 @@
 title: 北美站金流服務
 description: 北美站整合了國際主流的金流解決方案，包含信用卡與電子錢包支付，以及廣泛使用的 PayPal 服務，幫助商家順利經營美國市場。
 created: 2026-03-03 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 08:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -24,8 +24,8 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - Pro
   - Business
+  - Pro
 cyb_extensions: []
 intents:
   - 開通北美信用卡支付
@@ -53,7 +53,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=30595
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/north-america-payment-services
 comments: false
 search:
   exclude: false
