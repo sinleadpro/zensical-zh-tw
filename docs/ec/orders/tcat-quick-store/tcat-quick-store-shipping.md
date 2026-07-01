@@ -2,7 +2,7 @@
 title: 使用黑貓快速到店出貨
 description: 批次下載黑貓快速到店託運單並將訂單貨態更新為已出貨。
 created: 2026-05-18 15:26
-last_modified: 2026-07-01 11:30
+last_modified: 2026-07-01 18:32
 lang: zh-TW
 type: tutorial
 status: ""
@@ -140,7 +140,7 @@ hide: []
 
 執行黑貓快速到店出貨前，請完成以下準備：
 
-- [x] **物流地址設定**： 務必至 管理中心 > 一般設定 完成 [公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" } 設定，否則託運單上的寄件人資訊將不完整。
+- [x] **物流地址設定**： 務必至 金物流 > 黑貓託運單 完成 [公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" } 設定，否則託運單上的寄件人資訊將不完整。
 - [x] **耗材與設備**： 已備妥「黑貓三聯空白託運單貼紙」（可致電黑貓客服 02-412-8888 取得），並建議使用雷射印表機列印，以確保條碼清晰。
 - [x] **商品預冷（低溫包裹）**： 冷藏商品須預冷 6 小時以上；冷凍商品須預冷 12 小時以上。
 - [x] **確認餘額**：一般版商家請至 [儲值中心查看 Cyber 幣餘額](../../website-management/points-deposits.md){ data-preview }，確認餘額充足；PLUS版 / 企業版商家無此限制。
@@ -159,9 +159,6 @@ hide: []
     ![下載黑貓快速到店常溫託運單](../../../assets/images/EC-訂單-所有訂單-下載黑貓快速到店託運單.png){ title="下載黑貓快速到店常溫託運單" }
 
 4. **檢視託運資訊**：系統將彈出「下載黑貓快速到店 - 常溫／冷凍／冷藏 託運單」視窗，視窗內會列出本次出貨的訂單清單，請確認無誤。
-
-    ![下載黑貓快速到店常溫託運單-確認視窗](../../../assets/images/EC-訂單-所有訂單-下載黑貓快速到店託運單-確認視窗.png){ title="下載黑貓快速到店常溫託運單-確認視窗" }
-
 5. **（選用）設定自動呼叫司機取件**：若商店已開通「[呼叫黑貓](../home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }」加值功能，視窗中會出現「是否自動呼叫黑貓司機取件」選項，選擇 **是** 後會展開以下三個欄位：
 
     * **是否需在取件前事先電話聯絡**：選「是」時，司機抵達前會撥打「[黑貓寄取件設定頁](../../payments-and-logistics/setup-print-tcat-quick-store-waybill.md#configure-ezcat-cvs-shipping-note-sender-setup){ data-preview }」中的聯絡電話與您確認。
