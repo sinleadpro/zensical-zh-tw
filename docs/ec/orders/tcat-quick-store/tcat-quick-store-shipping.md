@@ -43,7 +43,7 @@ features:
   - 補印託運單
 prerequisites:
   - 領取黑貓三聯空白託運單貼紙
-  - 設定公司物流地址
+  - 設定黑貓寄件人地址
   - 確認 CYBER 幣餘額
 related:
   - "[[tcat-home-delivery]]"
@@ -69,7 +69,7 @@ ui_components:
   - 補印託運單
 paths:
   - 訂單 > 所有訂單
-  - 金物流 > 黑貓快速到店託運單
+  - 金物流 > 黑貓託運單
   - 管理中心 > 一般設定
   - 儲值中心
 layouts: []
@@ -140,7 +140,7 @@ hide: []
 
 執行黑貓快速到店出貨前，請完成以下準備：
 
-- [x] **物流地址設定**： 務必至 金物流 > 黑貓託運單 完成 [公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" } 設定，否則託運單上的寄件人資訊將不完整。
+- [x] **黑貓寄件人地址**： 至「金物流」>「[黑貓託運單](../../payments-and-logistics/setup-print-tcat-quick-store-waybill.md#configure-ezcat-cvs-shipping-note-sender-setup){ title="設定寄件人資訊" }」設定寄件人地址，否則託運單上的寄件人資訊將不完整。
 - [x] **耗材與設備**： 已備妥「黑貓三聯空白託運單貼紙」（可致電黑貓客服 02-412-8888 取得），並建議使用雷射印表機列印，以確保條碼清晰。
 - [x] **商品預冷（低溫包裹）**： 冷藏商品須預冷 6 小時以上；冷凍商品須預冷 12 小時以上。
 - [x] **確認餘額**：一般版商家請至 [儲值中心查看 Cyber 幣餘額](../../website-management/points-deposits.md){ data-preview }，確認餘額充足；PLUS版 / 企業版商家無此限制。
@@ -173,7 +173,7 @@ hide: []
     ![更改寄件地址](../../../assets/images/EC-訂單-所有訂單-下載黑貓快速到店常溫託運單-更改地址.png){ title="更改寄件地址" }
 
     ??? quote "需要自訂黑貓寄件資訊？"
-        若你的黑貓寄件地址需要不同於公司物流地址(例如倉庫地址)，或需要自訂寄件人姓名、電話、託運單預設品名，請另到 **金物流 > 黑貓快速到店託運單** 於「[黑貓設定](../../payments-and-logistics/setup-print-tcat-quick-store-waybill.md#configure-ezcat-cvs-shipping-note-sender-setup){ data-preview }」區塊填寫並儲存。
+        若你的黑貓寄件地址需要不同於公司物流地址(例如倉庫地址)，或需要自訂寄件人姓名、電話、託運單預設品名，請另到 **金物流 > 黑貓託運單** 於「[黑貓設定](../../payments-and-logistics/setup-print-tcat-quick-store-waybill.md#configure-ezcat-cvs-shipping-note-sender-setup){ data-preview }」區塊填寫並儲存。
 
 7. **勾選並同意服務條款** ：確認已勾選「我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 黑貓合約規範」（預設為勾選狀態），按鈕「確認」才會啟用。
 8. **確認下載**：點擊 **確認** ，系統會自動下載[^1] [託運單 ZIP 壓縮檔](#tcat-cvs-zip-contents){ title="託運單 ZIP 內容物" }。
@@ -211,7 +211,7 @@ hide: []
 
 下載託運單時若出現「寄件人資訊不完整提示」，代表黑貓寄件地址未設定或不完整：
 
-1. 前往 **金物流 > 黑貓快速到店託運單**，確認「黑貓快速到店設定」區塊內的 **寄件地址** 完整填寫(含縣市、區域)，儲存後系統會自動向黑貓查詢寄件人區碼。
+1. 前往 **金物流 > 黑貓託運單**，確認「黑貓快速到店設定」區塊內的 **寄件地址** 完整填寫(含縣市、區域)，儲存後系統會自動向黑貓查詢寄件人區碼。
 2. 儲存後重新執行下載。
 
 ??? info "關於地址來源的優先順序"
