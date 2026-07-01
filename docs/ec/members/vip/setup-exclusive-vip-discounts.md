@@ -2,7 +2,7 @@
 title: 設定 VIP 專屬優惠
 description: 設定 VIP 會員專屬折扣、紅利獎勵與差異化定價，並掌握與全館行銷活動的併用規則。
 created: 2026-01-23 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 12:30
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,11 +23,10 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 進階
+  - 高手
 cyb_extensions: []
 intents:
   - 如何設定 VIP 專屬優惠
@@ -55,7 +54,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7498
   - https://www.cyberbiz.io/support/?p=12426
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/members/vip/setup-exclusive-vip-discounts
 comments: false
 search:
   exclude: false

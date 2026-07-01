@@ -2,7 +2,7 @@
 title: POS 門市取貨店員分潤
 description: 透過分潤機制激勵門市人員處理「門市取貨」訂單的效率。您可以自訂到店與取貨的報酬，並自動化統計員工的分潤金額。
 created: 2026-04-23 11:45
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -59,7 +59,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=10507
-permalink: ""
+permalink: https://help.cyberbiz.io/pos/store/pos-store-pickup-staff-commission
 comments: false
 search:
   exclude: false

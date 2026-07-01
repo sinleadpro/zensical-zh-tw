@@ -2,7 +2,7 @@
 title: "部落格管理與文章發佈指南"
 description: "透過部落格管理功能建立品牌文章，運用分類主題、文章標籤及 SEO 設定，建立內容行銷基礎，提升官網搜尋曝光率。"
 created: "2026-03-19 11:27"
-last_modified: 2026-06-30 10:16
+last_modified: 2026-06-30 11:01
 lang: zh-TW
 type: tutorial
 author: Jase

@@ -2,7 +2,7 @@
 title: 手動建單
 description: 當商家有來自非串接通路的出貨需求，或需要將商品從倉庫轉運回公司進行業務調整時，可直接向倉庫發送出貨指令。
 created: 2026-03-12 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -51,9 +51,9 @@ paths:
   - 訂單 > 手動建單
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/support/?p=9105
   - https://www.cyberbiz.io/helpcenter/?p=5744
-permalink: ""
+  - https://www.cyberbiz.io/support/?p=9105
+permalink: https://help.cyberbiz.io/wms/manual-order-creation
 comments: false
 search:
   exclude: false

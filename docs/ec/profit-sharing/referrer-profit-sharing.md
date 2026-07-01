@@ -2,7 +2,7 @@
 title: 推薦人分潤
 description: 透過建立推薦人分潤方案，您可以針對不同合作對象（如網紅、會員或員工）設定專屬的業績抽成比例與消費者回饋。
 created: 2026-02-06 00:00
-last_modified: 2026-06-30 10:05
+last_modified: 2026-06-30 10:52
 lang: zh-TW
 type: tutorial
 status: ""

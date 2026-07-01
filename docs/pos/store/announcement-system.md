@@ -2,7 +2,7 @@
 title: 公告系統
 description: 透過 POS 公告系統，總公司可快速將重要資訊同步給各門市，門市間也能進行高效的資訊溝通。
 created: 2026-04-07 17:15
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -56,7 +56,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3065
-permalink: ""
+permalink: https://help.cyberbiz.io/pos/store/announcement-system
 comments: false
 search:
   exclude: false

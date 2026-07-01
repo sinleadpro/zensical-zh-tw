@@ -7,7 +7,7 @@
         {
             "id": 5,
             "name": "ec-integrations",
-            "redirects": 56,
+            "redirects": 60,
             "module_id": 1,
             "moduleName": "WordPress",
             "enabled": false
@@ -1467,6 +1467,110 @@
             "regex": false,
             "group_id": 5,
             "position": 55,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 57,
+            "url": "/support/?p=739",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/notifications/send-line-friend-invitation"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 5,
+            "position": 56,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 58,
+            "url": "/support/?p=748",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/integrations/line/line-member-barcode-pos-checkout"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 5,
+            "position": 57,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 59,
+            "url": "/support/?p=20280",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/products/categories-and-tags/secret-collection"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 5,
+            "position": 58,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 60,
+            "url": "/support/?p=21985",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/integrations/line/"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 5,
+            "position": 59,
             "last_access": "-",
             "enabled": false
         }

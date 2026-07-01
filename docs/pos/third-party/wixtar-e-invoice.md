@@ -2,7 +2,7 @@
 title: 設定 POS 星益欣電子發票
 description: 了解 CYBERBIZ POS 與星益欣電子發票的串接流程，包含方案收費計算、後台發票設定以及購買與啟用步驟。
 created: 2026-06-10 17:50
-last_modified: 2026-06-22 11:15
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -55,9 +55,9 @@ paths:
   - 管理中心 > 發票設定 > POS
   - POS 功能 > 所有 POS 商店
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/support/?p=46379
-permalink: ""
+permalink: https://help.cyberbiz.io/pos/third-party/wixtar-e-invoice
 search:
   exclude: false
 icon: lucide/receipt

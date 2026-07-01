@@ -2,7 +2,7 @@
 title: 設置網站客服視窗
 description: 透過 GetButton、Facebook 即時客服或 Omnichat 在官網設置客服視窗，提升品牌與顧客溝通效率。
 created: 2025-03-03 10:00
-last_modified: 2026-06-30 10:16
+last_modified: 2026-06-30 11:01
 lang: zh-TW
 type: tutorial
 status: ""

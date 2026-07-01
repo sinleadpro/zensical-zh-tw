@@ -2,7 +2,7 @@
 title: Excel 大量匯入商品
 description: 使用 Excel 範本一次新增或更新大量商品、批次上架多筆商品。
 created: 2026-01-08 00:00
-last_modified: 2026-06-29 15:45
+last_modified: 2026-06-30 11:26
 lang: zh-TW
 type: tutorial
 status:
@@ -25,10 +25,13 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 feature_badges: []
 intents:
@@ -59,6 +62,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=924
   - https://www.cyberbiz.io/support/?p=1960
   - https://www.cyberbiz.io/support/?p=33323
+  - https://www.cyberbiz.io/support/?p=6603
 permalink: https://help.cyberbiz.io/ec/products/bulk-operations/excel-import-products
 comments: false
 search:

@@ -2,7 +2,7 @@
 title: 設定商品到貨通知
 description: 學習如何開啟商品貨到通知功能，當缺貨商品補庫存時，系統將自動發送 Email 提醒已登記追蹤的顧客，提升回購率。
 created: 2026-03-05 14:20
-last_modified: 2026-06-29 18:30
+last_modified: 2026-06-30 11:26
 lang: zh-TW
 type: tutorial
 status:
@@ -20,11 +20,11 @@ sites:
   - TW
 tnb: branch
 plans:
-  - 進階
-  - 高手
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 audiences:
   - admin
@@ -61,9 +61,9 @@ paths:
   - 訊息推播 > Email 通知樣板
 layouts:
 wp_url:
-  - https://www.cyberbiz.io/support/?p=18529
   - https://www.cyberbiz.io/helpcenter/?p=5661
-permalink: set-restock-notifications
+  - https://www.cyberbiz.io/support/?p=18529
+permalink: https://help.cyberbiz.io/ec/products/engagement/setup-back-in-stock-notifications
 comments: false
 search:
   exclude: false

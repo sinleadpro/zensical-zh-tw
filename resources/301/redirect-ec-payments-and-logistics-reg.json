@@ -7,7 +7,7 @@
         {
             "id": 8,
             "name": "ec-payments-and-logistics",
-            "redirects": 23,
+            "redirects": 31,
             "module_id": 1,
             "moduleName": "WordPress",
             "enabled": false
@@ -609,6 +609,214 @@
             "regex": false,
             "group_id": 8,
             "position": 22,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 24,
+            "url": "/helpcenter/?p=2221",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/products/shipping/setup-product-shipping-conditions"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 23,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 25,
+            "url": "/helpcenter/?p=2249",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/products/shipping/setup-product-shipping-conditions"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 24,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 26,
+            "url": "/helpcenter/?p=3430",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-print-tcat-waybill"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 25,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 27,
+            "url": "/helpcenter/?p=5333",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/orders/order-return-process"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 26,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 28,
+            "url": "/helpcenter/?p=5723",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/wms/enable-partial-warehouse-integration-and-order-splitting"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 27,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 29,
+            "url": "/helpcenter/?p=5726",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/wms/enable-partial-warehouse-integration-and-mixed-orders"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 28,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 30,
+            "url": "/helpcenter/?p=8632",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/products/checkout/checkout-split-multi-cart"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 29,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 31,
+            "url": "/helpcenter/?p=10625",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-hct-waybill"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 30,
             "last_access": "-",
             "enabled": false
         }

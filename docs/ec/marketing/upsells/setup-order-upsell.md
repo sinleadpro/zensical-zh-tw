@@ -2,7 +2,7 @@
 title: 設定訂單加價購
 description: 設定訂單加價購可依訂單金額或條件作為觸發門檻，於結帳流程中提供顧客以優惠價格加購指定商品。
 created: 2026-01-12 00:00
-last_modified: 2026-06-24 14:12
+last_modified: 2026-06-30 10:56
 lang: zh-TW
 type: tutorial
 status:
@@ -23,11 +23,11 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 進階
-  - 高手
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 如何設定訂單加價購
@@ -52,9 +52,7 @@ paths:
   - 行銷活動 > 訂單加價購
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/helpcenter/?p=1008
   - https://www.cyberbiz.io/helpcenter/?p=11186
-  - https://www.cyberbiz.io/support/?p=953
   - https://www.cyberbiz.io/support/?p=7367
 permalink: https://help.cyberbiz.io/ec/marketing/upsells/setup-order-upsell
 comments: false

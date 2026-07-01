@@ -2,7 +2,7 @@
 title: 加工商品
 description: 「加工商品」即為電商官網常見的「組合商品」。商家將多個單一品項綁定為一個新的銷售單位，當訂單成立時，系統將自動扣除各個子品項的庫存。
 created: 2026-03-19 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -56,9 +56,10 @@ paths:
   - 商品 > 加工商品
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=5717
   - https://www.cyberbiz.io/support/?p=8920
   - https://www.cyberbiz.io/support/?p=9749
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/processed-products
 comments: false
 search:
   exclude: false

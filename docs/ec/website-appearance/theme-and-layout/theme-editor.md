@@ -2,7 +2,7 @@
 title: 拖拉版型網站設定
 description: 使用拖拉版型編輯器建立與調整官網外觀，包含全站設定、頁面內容編輯、商品頁面配置等。
 created:
-last_modified: 2026-06-30 10:16
+last_modified: 2026-06-30 21:40
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/theme-editor
 type: tutorial
@@ -153,8 +153,8 @@ comments: false
 開始之前，請先確認以下條件，這會影響您能不能使用拖拉編輯器，以及哪些頁面可以編輯：
 
 - [x] **版型須為「拖拉版型」：** 只有標示 **「拖拉設定」** 的版型才能使用本文的拖拉編輯器。舊的「預設版型」走另一套網站設定流程，不在本文範圍。
-- [x] **可拖拉的頁面有限：** 目前支援拖拉編輯的頁面為首頁、商品頁面與自訂頁面等，並非每個頁面都能拖拉。完整清單請見 [可拖拉編輯的頁面][theme-editor-pages]{ data-preview }。
-- [x] **部分區塊需加值功能：** 多數區塊所有拖拉版型皆可使用，少數區塊(如商品評論、門市據點列表)需另外開通對應加值功能才會出現，請見 [可新增區塊類型][theme-editor-sections]{ data-preview }。
+- [x] **可拖拉的頁面有限：** 目前支援拖拉編輯的頁面為首頁、商品頁面與自訂頁面等，並非每個頁面都能拖拉。完整清單請見 [可拖拉編輯的頁面](../references/theme-editor-pages.md){ title="可拖拉編輯的頁面對照表" data-preview }。
+- [x] **部分區塊需加值功能：** 多數區塊所有拖拉版型皆可使用，少數區塊(如商品評論、門市據點列表)需另外開通對應加值功能才會出現，請見 [可新增區塊類型](../references/theme-editor-sections.md){ title="可新增區塊類型對照表" data-preview }。
 
 ---
 
@@ -318,7 +318,7 @@ comments: false
   可設定選單排列樣式（預設／併排置左／併排置右）、背景是否透明，以及次選單是否同步展開。
 
 - :lucide-arrow-down-to-line:{ .lg }  
-  [__頁腳__](../navigation/setup-menus-navigation.md#設定頁腳內容){ title="設定選單與導覽列" }  
+  [__頁腳__](../navigation/setup-menus-navigation.md#頁腳內容){ title="設定選單與導覽列" }  
   提供「上下」或「左右」排序樣式，並可開啟社群媒體圖示的顯示與連結。
 
 </div>
@@ -326,8 +326,8 @@ comments: false
 <!---->
 <!-- 導覽列與頁腳的設定較完整，另有專文說明： -->
 <!---->
-<!-- - **導覽列：** 可設定選單排列樣式(預設／併排置左／併排置右)、背景是否透](../navigation/setup-menus-navigation.md)](../navigation/設定選單與導覽列.md){ title="設定選單與導覽列" }。 -->
-<!-- - **頁腳：** 提供「上下」或](../navigation/setup-menus-navigation.md#設定頁腳內容)[如何設定頁腳](../navigation/設定選單與導覽列.md#設定頁腳內容){ title="設定選單與導覽列" }。 -->
+<!-- - **導覽列：** 可設定選單排列樣式(預設／併排置左／併排置右)、背景是否透](../navigation/setup-menus-navigation.md)](../navigation/setup-menus-navigation.md){ title="設定選單與導覽列" }。 -->
+<!-- - **頁腳：** 提供「上下」或](../navigation/setup-menus-navigation.md#頁腳內容)[如何設定頁腳](../navigation/setup-menus-navigation.md#頁腳內容){ title="設定選單與導覽列" }。 -->
 
 ---
 
@@ -405,7 +405,7 @@ comments: false
 
 - **網站圖示設定：**
     - **Favicon:** 設定顯示於瀏覽器分頁標籤上的小圖示。
-    - **OG Image(轉貼連結預設圖片)：** 設定網站連結分享至 Facebook 或 LINE 時顯示的預設縮圖。[查看設定教學](../site-settings/設定轉貼連結縮圖%20OG%20Image.md){ title="設定轉貼連結縮圖 OG Image" }
+    - **OG Image(轉貼連結預設圖片)：** 設定網站連結分享至 Facebook 或 LINE 時顯示的預設縮圖。[查看設定教學](../site-settings/setup-og-image.md){ title="設定轉貼連結縮圖 OG Image" }
 - **導覽列圖示：** 系統預設 3 種樣式，商家亦可上傳自定義圖示檔案。
 
     !!! info "一頁式商店限制"
@@ -419,7 +419,7 @@ comments: false
 
 #### 網站 SEO 與安全保護 { #seo-security }
 
-- **SEO 設定：** 可定義網站的 **標題**、 **簡述** 與 **關鍵字**，優化搜尋引擎對網站的收錄與排名。若標題欄位留空，系統會預設以商店名稱作為標題。[查看設定教學](../site-settings/設定網站標題與%20SEO.md){ title="設定網站標題與 SEO" }
+- **SEO 設定：** 可定義網站的 **標題**、 **簡述** 與 **關鍵字**，優化搜尋引擎對網站的收錄與排名。若標題欄位留空，系統會預設以商店名稱作為標題。[查看設定教學](../site-settings/setup-site-title-seo.md){ title="設定網站標題與 SEO" }
 - **網頁鎖右鍵：** 勾選可禁止使用者透過點擊滑鼠右鍵自行下載圖片或複製文字，保護原創內容。[查看設定教學](../site-settings/setup-right-click-protection.md){ title="設定網頁鎖右鍵保護圖文版權" }
 
 ![SEO 設定](../../../assets/images/ec-網站外觀-seo.png)
@@ -519,7 +519,7 @@ comments: false
 
 ## 各頁面設定
 
-拖拉版型透過上方工具列的 **頁面下拉選單** 切換不同頁面。除了首頁、自訂頁面、單頁式頁面以「[新增區塊](references/theme-editor-sections.md)」的方式自由組合外，其餘頁面的版面由系統固定，僅提供以下各自的設定項目。
+拖拉版型透過上方工具列的 **頁面下拉選單** 切換不同頁面。除了首頁、自訂頁面、單頁式頁面以「[新增區塊](../references/theme-editor-sections.md)」的方式自由組合外，其餘頁面的版面由系統固定，僅提供以下各自的設定項目。
 
 !!! note "註釋"
     下拉選單實際出現的頁面，會依您安裝的版型與已開通的功能而不同，請以編輯器內顯示的為準。
@@ -792,7 +792,7 @@ comments: false
 
 ### 商品群組頁面 { #collection }
 
-針對群組頁面，可指定要套用哪一組導覽選單(需先在 [選單／導覽列設定](../navigation/設定選單與導覽列.md){ title="設定選單與導覽列" } 完成設置)。
+針對群組頁面，可指定要套用哪一組導覽選單(需先在 [選單／導覽列設定](../navigation/setup-menus-navigation.md){ title="設定選單與導覽列" } 完成設置)。
 - **商品欄數：** 商品每排顯示的數量。
 - **商品數量上限：** 設定每頁顯示的商品數量。
 - **更多商品顯示方式：** 設定顯示更多商品的呈現方式 —— 分頁跳轉或向下無限滾動。
@@ -842,7 +842,7 @@ comments: false
 - **聯絡資訊設置：** 除表單外，建議在 **頁腳(Footer)** 區塊同步設定完整的公司電話、地址與 Email，增加品牌信任感。
 
 !!! tip "安全驗證"
-    針對顧客留言的客服頁面，拖拉版型支援 [建立 Google reCAP](../customer-interaction/enable-comment-recaptcha.md)PTCHA.md){ title="啟用留言區 reCAPTCHA" }，以防止機器人攻擊或垃圾訊息。
+    針對顧客留言的客服頁面，拖拉版型支援 [啟用留言區 reCAPTCHA](../customer-interaction/enable-comment-recaptcha.md){ title="啟用留言區 reCAPTCHA" }，以防止機器人攻擊或垃圾訊息。
 
 ![客服頁](../../../assets/images/ec-網站外觀-拖拉版型-客服頁面.png)
 
@@ -873,8 +873,8 @@ comments: false
 
 ### 搜尋頁 { #search }
 
-- **選擇選單：** 指定搜尋頁面左側要套用的選單連結列表(需先 [建立選單](../navigation/設定選單與導覽列.md){ title="設定選單與導覽列" })。
-- **商品顯示資訊：** 搜尋結果中的商品會同步套用「[全站共用設定](theme-editor-global-settings.md#shop-product-display){ title="全站共用設定" }」中的顯示規範，包含價格區間、商品標語以及已銷售數量。
+- **選擇選單：** 指定搜尋頁面左側要套用的選單連結列表(需先 [建立選單](../navigation/setup-menus-navigation.md){ title="設定選單與導覽列" })。
+- **商品顯示資訊：** 搜尋結果中的商品會同步套用「[全站共用設定](#shop-product-display){ title="全站共用設定" }」中的顯示規範，包含價格區間、商品標語以及已銷售數量。
 - **標籤顯示：** 搜尋結果頁支援顯示定期定額、特價、缺貨以及自定義標籤。
 
 ??? info "搜尋範圍與邏輯說明"
@@ -889,9 +889,9 @@ comments: false
 ## 參考資料 { #reference }
 
 - [拖拉版型網站設定](theme-editor.md)
-- [全站共用設定](theme-editor-global-settings.md)
-- [可新增區塊類型對照表](references/theme-editor-sections.md)
-- [可拖拉編輯的頁面對照表](references/theme-editor-pages.md)
+- [全站共用設定](#全站共用設定)
+- [可新增區塊類型對照表](../references/theme-editor-sections.md)
+- [可拖拉編輯的頁面對照表](../references/theme-editor-pages.md)
 
 
 
@@ -899,8 +899,8 @@ comments: false
 ## 重要規範與限制 { #specs-theme-editor }
 
 - **拖拉版型才能拖拉編輯：** 只有標示「拖拉設定」的版型適用本文的編輯器，預設版型請改用舊版網站設定。
-- **可編輯頁面有限：** 僅首頁、商品頁面、自訂頁面等支援拖拉，商品群組頁、部落格頁、搜尋頁等不可拖拉編輯，完整清單見 [可拖拉編輯的頁面][theme-editor-pages]{ data-preview }。
-- **部分區塊需加值功能：** 少數區塊需開通對應加值功能才會出現在新增清單中，詳見 [可新增區塊類型][theme-editor-sections]{ data-preview }。
+- **可編輯頁面有限：** 僅首頁、商品頁面、自訂頁面等支援拖拉，商品群組頁、部落格頁、搜尋頁等不可拖拉編輯，完整清單見 [可拖拉編輯的頁面](../references/theme-editor-pages.md){ title="可拖拉編輯的頁面對照表" data-preview }。
+- **部分區塊需加值功能：** 少數區塊需開通對應加值功能才會出現在新增清單中，詳見 [可新增區塊類型](../references/theme-editor-sections.md){ title="可新增區塊類型對照表" data-preview }。
 - **部分區塊有數量上限：** 某些區塊或其內含的小區塊有數量上限，達到上限後就無法再新增。
 - **檔期設定(選配)：** 部分版型支援為區塊設定上架與下架時間，讓區塊只在指定期間顯示於前台，此功能需另外開通。
 
@@ -911,15 +911,15 @@ comments: false
 <div class="grid cards" markdown>
 
 - :lucide-package:{ .lg }  
-  [__新增商品__](../products/create-product.md)  
+  [__新增商品__](../../products/create-and-manage/create-update-products.md){ title="新增與更新商品" }  
   先建立好商品，首頁的商品列表、主打商品等區塊才有商品可呈現。
 
 - :lucide-layout-list:{ .lg }  
-  [__可新增區塊類型__](references/theme-editor-sections.md)  
+  [__可新增區塊類型__](../references/theme-editor-sections.md)  
   查看各種區塊的用途與開通條件，規劃頁面內容。
 
 - :lucide-file-text:{ .lg }  
-  [__可拖拉編輯的頁面__](references/theme-editor-pages.md)  
+  [__可拖拉編輯的頁面__](../references/theme-editor-pages.md)  
   了解哪些頁面支援拖拉編輯。
 
 </div>
@@ -933,7 +933,7 @@ comments: false
     可能原因有兩個：
 
     - 您使用的版型不是「拖拉版型」。請回到主題版型頁，確認版型卡片上有標示 **「拖拉設定」**。
-    - 目前所在的頁面不支援拖拉。只有首頁、商品頁面、自訂頁面等可拖拉，請見 [可拖拉編輯的頁面][theme-editor-pages]{ data-preview }。
+    - 目前所在的頁面不支援拖拉。只有首頁、商品頁面、自訂頁面等可拖拉，請見 [可拖拉編輯的頁面](../references/theme-editor-pages.md){ title="可拖拉編輯的頁面對照表" data-preview }。
 
 ??? quote "修改並儲存後，前台看起來沒有變化"
     [](){ #faq-theme-editor-no-effect }
@@ -945,7 +945,7 @@ comments: false
 
 ??? quote "想要的區塊在新增清單中找不到"
     [](){ #faq-theme-editor-missing-section }
-    可新增的區塊會依您安裝的版型而不同，且少數區塊(如商品評論、門市據點列表)需開通對應加值功能才會出現。詳見 [可新增區塊類型][theme-editor-sections]{ data-preview }，或聯繫業務窗口確認開通狀態。
+    可新增的區塊會依您安裝的版型而不同，且少數區塊(如商品評論、門市據點列表)需開通對應加值功能才會出現。詳見 [可新增區塊類型](../references/theme-editor-sections.md){ title="可新增區塊類型對照表" data-preview }，或聯繫業務窗口確認開通狀態。
 
 ??? quote "隱藏區塊和移除區塊有什麼差別？"
     [](){ #faq-theme-editor-hide-vs-remove }
@@ -964,9 +964,9 @@ comments: false
 
 ## 參考資料 { #reference-theme-editor }
 
-- [可拖拉編輯的頁面對照表](references/theme-editor-pages.md)
-- [可新增區塊類型對照表](references/theme-editor-sections.md)
-- [新增商品](../products/create-product.md)
+- [可拖拉編輯的頁面對照表](../references/theme-editor-pages.md)
+- [可新增區塊類型對照表](../references/theme-editor-sections.md)
+- [新增商品](../../products/create-and-manage/create-update-products.md)
 
 
 
@@ -1054,7 +1054,7 @@ CYBERBIZ 的 **拖拉版型** （Drag-and-Drop Layout）是一項直覺化的官
 <div class="grid cards" markdown>
 
 - :lucide-swatch-book:{ .lg }   
-  [__商品色票小圖__](../../products/create-and-manage/product-swatches-variant-images-drag-drop.md#開啟前台商品列表頁顯示全站設定){ title="設定商品色票與款式圖片" }       
+  [__商品色票小圖__](../../products/create-and-manage/product-swatches-variant-images-drag-drop.md#開啟前台商品列表頁顯示){ title="設定商品色票與款式圖片" }       
   在商品列表（如群組頁、多層級分類頁）顯示商品的顏色小圖，讓顧客能直接預覽不同款式的顏色。
 
 - :lucide-clock:{ .lg }     
@@ -1143,8 +1143,8 @@ CYBERBIZ 的 **拖拉版型** （Drag-and-Drop Layout）是一項直覺化的官
 ## 進入與基本設定
 
 - **進入路徑**：前往後台 **網站外觀 > 套版主題管理**，確認使用拖拉版型（拖拉版型標籤）後點選 **網站設定**。
-	- **導覽列：** 可設定選單排列樣式（預設/併排置左/併排置右）、背景是否透明，以及次選單是否同步展開。瞭解 [如何設定選單與導覽列](../navigation/設定選單與導覽列.md){ title="設定選單與導覽列" }。
-	- **頁腳**：提供「上下」或「左右」排序樣式，並可開啟 **社群媒體圖示** 的顯示與連結。瞭解 [如何設定頁腳](../navigation/設定選單與導覽列.md#設定頁腳內容){ title="設定選單與導覽列" }。
+	- **導覽列：** 可設定選單排列樣式（預設/併排置左/併排置右）、背景是否透明，以及次選單是否同步展開。瞭解 [如何設定選單與導覽列](../navigation/setup-menus-navigation.md){ title="設定選單與導覽列" }。
+	- **頁腳**：提供「上下」或「左右」排序樣式，並可開啟 **社群媒體圖示** 的顯示與連結。瞭解 [如何設定頁腳](../navigation/setup-menus-navigation.md#頁腳內容){ title="設定選單與導覽列" }。
 	- **顏色設定**：可一鍵變更全站的主色調、強調色（如標籤顏色）及字體顏色。
 	- **全站設定**：可設定 favicon、網站 Logo、字型、網站 SEO、商品相關設定及商品標籤。
 
@@ -1598,12 +1598,14 @@ CYBERBIZ 的 **拖拉版型** （Drag-and-Drop Layout）是一項直覺化的官
 
 	可選擇顯示「商品群組其他商品」（同分類隨機顯示）或「自訂關聯群組商品」。
 	
-	![](../../../assets/images/ec-網站外觀-拖拉版型-商品頁面-相](../navigation/setup-menus-navigation.md)，您可以針對群組頁面進行以下細節設定：
+	![商品頁面-相關商品](../../../assets/images/ec-網站外觀-拖拉版型-商品頁面-相關商品.png)
+
+，您可以針對群組頁面進行以下細節設定：
 
 
 - **商品分類設定**：
 
-	- **左側選單連結**：可指定該群組頁面要套用哪一組導覽選單（需先在[「選單/導覽列設定」](../navigation/設定選單與導覽列.md){ title="設定選單與導覽列" }  完成設置）。
+	- **左側選單連結**：可指定該群組頁面要套用哪一組導覽選單（需先在[「選單/導覽列設定」](../navigation/setup-menus-navigation.md){ title="設定選單與導覽列" }  完成設置）。
 
 	- **商品欄數**：商品每排顯示的數量。
 
@@ -1615,7 +1617,7 @@ CYBERBIZ 的 **拖拉版型** （Drag-and-Drop Layout）是一項直覺化的官
 
 ## 商品多層級分類
 
-> :lucide-inf](../../products/categories-and-tags/multi-level-category-setup.md)ags/設定商品多層級分類.md){ title="設定商品多層級分類" }  。
+> :lucide-info: 需先 [建立商品多層級分類架構](../../products/categories-and-tags/multi-level-category-setup.md){ title="設定商品多層級分類" }。
 
 完成結構後，商家可針對多層級分類頁面的呈現方式進行微調。
 
@@ -1649,7 +1651,7 @@ CYBERBIZ 的 **拖拉版型** （Drag-and-Drop Layout）是一項直覺化的官
 
 - **聯絡資訊設置**：除了表單外，建議在 **頁腳** （Footer）區塊同步設定完整的公司電話、地址與 Email，增加品牌信任感。
 
-> :lucide-flame: 針對顧客留言的客服頁面，拖拉版型支援[建立 **Googl](../customer-interaction/enable-comment-recaptcha.md)用留言區 reCAPTCHA.md){ title="啟用留言區 reCAPTCHA" }  ，以防止機器人攻擊或垃圾訊息。
+> :lucide-flame: 針對顧客留言的客服頁面，拖拉版型支援 [啟用留言區 reCAPTCHA](../customer-interaction/enable-comment-recaptcha.md){ title="啟用留言區 reCAPTCHA" }，以防止機器人攻擊或垃圾訊息。
 
 ![](../../../assets/images/ec-網站外觀-拖拉版型-客服頁面.png)
 
@@ -1686,15 +1688,15 @@ CYBERBIZ 的 **拖拉版型** （Drag-and-Drop Layout）是一項直覺化的官
 
 --> 
 
-![](../.](../navigation/setup-menus-navigation.md)拉版型-快速到貨頁面-快速到貨設定.gif)
+![快速到貨頁](../../../assets/images/ec-網站外觀-拖拉版型-快速到貨頁面-快速到貨設定.gif)
 
 ## 搜尋頁
 
 搜尋頁面目前提供以下自訂設定項目：
 
-- **選擇選單**：商家可以指定搜尋頁面左側要套用的 **選單連結列表** （需先[建立選單](../navigation/設定選單與導覽列.md){ title="設定選單與導覽列" }）。
+- **選擇選單**：商家可以指定搜尋頁面左側要套用的 **選單連結列表** （需先[建立選單](../navigation/setup-menus-navigation.md){ title="設定選單與導覽列" }）。
 
-- **商品顯示資訊**：搜尋結果中的商品會同步套用「[全站設定](#全域商品顯示行為)」中的顯示規範，包含 **商品價格區間** （顯示最低價至最高價）、 **商品標語** 以及 **已銷售數量**。
+- **商品顯示資訊**：搜尋結果中的商品會同步套用「[全站設定](#shop-product-display)」中的顯示規範，包含 **商品價格區間** （顯示最低價至最高價）、 **商品標語** 以及 **已銷售數量**。
 
 - **標籤顯示**：搜尋結果頁支援顯示多種商品標籤，包含 **定期定額標籤**、 **特價標籤**、 **缺貨標籤** 以及 **自定義標籤**。
 
@@ -1707,7 +1709,7 @@ CYBERBIZ 的 **拖拉版型** （Drag-and-Drop Layout）是一項直覺化的官
 
 - **分詞邏輯**：商品標題支援 **分詞搜尋**，需完全符合分詞才會被搜到；例如使用「空格」或「-」會將標題切分為單詞，若輸入標題為「ER-1410」，搜尋「1410」可找到，但若標題為「ER1410」，搜尋「1410」則無法找到。
 
-- **排除搜尋**：若商家有部分商品不希望出現在搜尋頁，可於商品編輯頁的「基本設定」中 [**關閉「商品搜尋功能」**](docs/ec/products/create-and-manage/新增單一商品.md#基本設定)，該商品將無法在站內搜尋框、所有商品列表以及外部 Google 搜尋中被檢索。
+- **排除搜尋**：若商家有部分商品不希望出現在搜尋頁，可於商品編輯頁的「基本設定」中 [**關閉「商品搜尋功能」**](../../products/create-and-manage/create-update-products.md#operate-product-create-basic)，該商品將無法在站內搜尋框、所有商品列表以及外部 Google 搜尋中被檢索。
 
 ![](../../../assets/images/ec-網站外觀-拖拉版型-搜尋頁.png)
 

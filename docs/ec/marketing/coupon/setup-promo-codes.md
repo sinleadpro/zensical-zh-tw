@@ -2,7 +2,7 @@
 title: 設定優惠碼
 description: 設定優惠碼（折扣、免運、贈品），包含基本設定、使用門檻、發送規則及結帳頁自動套用功能。
 created: 2026-05-27 13:55
-last_modified: 2026-05-27 13:55
+last_modified: 2026-06-30 10:56
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,7 +23,11 @@ audiences:
   - admin
 difficulty: beginner
 tnb: trunk
-plans: []
+plans:
+  - 企業
+  - 專業
+  - 進階
+  - 高手
 cyb_extensions: []
 intents: 
   - 設定優惠碼
@@ -60,7 +64,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10457
   - https://www.cyberbiz.io/support/?p=1533
   - https://www.cyberbiz.io/support/?p=6228
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/marketing/coupon/setup-promo-codes
 comments: false
 search:
   exclude: false

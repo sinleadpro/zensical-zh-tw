@@ -2,7 +2,7 @@
 title: 設定優惠券
 description: 說明如何設定優惠券，包含全館發送、批次匯入發送及單一顧客發送的操作流程。
 created: 2026-05-27 16:30
-last_modified: 2026-06-12 14:40
+last_modified: 2026-06-30 10:56
 lang: zh-TW
 type: tutorial
 status: ""
@@ -22,7 +22,11 @@ audiences:
   - admin
 difficulty: beginner
 tnb: trunk
-plans: []
+plans:
+  - 企業
+  - 專業
+  - 進階
+  - 高手
 cyb_extensions: []
 intents: 
   - 設定優惠券
@@ -60,9 +64,8 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=509
   - https://www.cyberbiz.io/helpcenter/?p=5686
   - https://www.cyberbiz.io/support/?p=11928
-  - https://www.cyberbiz.io/support/?p=1533
   - https://www.cyberbiz.io/support/?p=6207
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/marketing/coupon/setup-coupons
 comments: false
 search:
   exclude: false

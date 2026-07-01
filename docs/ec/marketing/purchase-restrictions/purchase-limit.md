@@ -2,7 +2,7 @@
 title: 設定商品限購數量
 description: 限制每位會員可購買特定商品的數量，用於限量商品、防止囤貨、確保更多顧客買得到熱銷品。
 created: 2026-06-08 14:19
-last_modified: 2026-06-24 11:39
+last_modified: 2026-06-30 10:56
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,12 +23,12 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 設定商品購買上限

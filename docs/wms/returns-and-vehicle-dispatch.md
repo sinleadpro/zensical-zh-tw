@@ -2,7 +2,7 @@
 title: 退貨與派車
 description: 了解 CYBERBIZ 電商倉儲系統（WMS）與 EC 後台的退貨整合流程，包含逆物流派車設定、商品回收驗收、超商逾期未取處理以及自動化退款作業。
 created: 2026-03-31 13:40
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -61,7 +61,7 @@ paths:
   - 訂單管理 > 退貨/退款 > 建立逆物流
 layouts: []
 wp_url: []
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/returns-and-vehicle-dispatch
 comments: false
 search:
   exclude: false

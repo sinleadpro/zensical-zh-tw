@@ -2,7 +2,7 @@
 title: 權限設定
 description: 透過建立自定義職務角色並配置模組化權限，您可以精確控管不同帳號在系統中的作業範圍，確保核心資料安全與組織職責分工。
 created: 2026-03-25 20:15
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -53,7 +53,7 @@ paths:
   - 設定 > 權限設定
 layouts: []
 wp_url: []
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/permission-settings
 comments: false
 search:
   exclude: false

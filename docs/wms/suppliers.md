@@ -2,7 +2,7 @@
 title: 供應商
 description: 在電商倉儲中建立供應商資料，能讓商家更清晰地管理貨物來源。透過將商品與供應商綁定，在後續建立進倉單或進行庫存盤點時，系統能自動對接廠商資訊。
 created: 2026-03-16 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -50,8 +50,9 @@ paths:
   - 供應商
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=7975
   - https://www.cyberbiz.io/support/?p=39949
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/suppliers
 comments: false
 search:
   exclude: false

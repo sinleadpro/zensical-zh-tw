@@ -2,7 +2,7 @@
 title: 設定商品色票與款式圖片-拖拉版型
 description: 設定拖拉版型商品的色票功能，讓前台消費者能透過款式選單即時看到對應的圖片。
 created: 2026-04-14 14:55
-last_modified: 2026-06-29 10:43
+last_modified: 2026-06-30 11:26
 lang: zh-TW
 type: tutorial
 status: 
@@ -23,13 +23,13 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 設定色票功能
@@ -62,10 +62,10 @@ paths:
   - 網站外觀 > 套版主題管理 > 網站設定 > 全站設定
 layouts:
   - 拖拉版型
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4833
   - https://www.cyberbiz.io/support/?p=31319
-permalink: 
+permalink: https://help.cyberbiz.io/ec/products/create-and-manage/product-swatches-variant-images-drag-drop
 comments: false
 search:
   exclude: false

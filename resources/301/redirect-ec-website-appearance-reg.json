@@ -1,13 +1,13 @@
 {
     "plugin": {
         "version": "5.5.2",
-        "date": "Tue, 30 Jun 2026 10:19:30 +0000"
+        "date": "Tue, 30 Jun 2026 11:01:57 +0000"
     },
     "groups": [
         {
             "id": 8,
             "name": "ec-website-appearance",
-            "redirects": 24,
+            "redirects": 27,
             "module_id": 1,
             "moduleName": "WordPress",
             "enabled": false
@@ -635,6 +635,84 @@
             "regex": false,
             "group_id": 8,
             "position": 23,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 25,
+            "url": "/helpcenter/?p=3852",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/products/discoverability/exclude-keyword-products-search"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 24,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 26,
+            "url": "/helpcenter/?p=5917",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/website-appearance/navigation/setup-menus-navigation"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 25,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 27,
+            "url": "/helpcenter/?p=7894",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/products/engagement/manage-product-reviews"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 26,
             "last_access": "-",
             "enabled": false
         }

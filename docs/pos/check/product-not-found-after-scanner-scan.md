@@ -2,7 +2,7 @@
 title: 掃描槍掃描後找不到商品
 description: 解決在使用掃描槍掃描商品條碼時，系統無法辨識或找不到對應商品的問題，包含 EAN-13 與 UPC-A 編碼轉換設定。
 created: 2026-04-07 15:30
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -56,7 +56,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=4201
-permalink: ""
+permalink: https://help.cyberbiz.io/pos/check/product-not-found-after-scanner-scan
 comments: false
 search:
   exclude: false

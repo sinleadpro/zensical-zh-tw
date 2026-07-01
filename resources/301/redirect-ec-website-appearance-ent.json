@@ -1,13 +1,13 @@
 {
     "plugin": {
         "version": "5.5.2",
-        "date": "Tue, 30 Jun 2026 10:19:30 +0000"
+        "date": "Tue, 30 Jun 2026 11:01:57 +0000"
     },
     "groups": [
         {
             "id": 5,
             "name": "ec-website-appearance",
-            "redirects": 27,
+            "redirects": 32,
             "module_id": 1,
             "moduleName": "WordPress",
             "enabled": false
@@ -713,6 +713,136 @@
             "regex": false,
             "group_id": 5,
             "position": 26,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 28,
+            "url": "/support/?p=12861",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/website-appearance/setup-quick-delivery-frontend-entry"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 5,
+            "position": 27,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 29,
+            "url": "/support/?p=24278",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/website-appearance/setup-quick-delivery-frontend-entry"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 5,
+            "position": 28,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 30,
+            "url": "/support/?p=30610",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/products/engagement/manage-product-reviews"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 5,
+            "position": 29,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 31,
+            "url": "/support/?p=31570",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/website-appearance/navigation/setup-menus-navigation"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 5,
+            "position": 30,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 32,
+            "url": "/support/?p=33935",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/website-appearance/navigation/setup-menus-navigation"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 5,
+            "position": 31,
             "last_access": "-",
             "enabled": false
         }

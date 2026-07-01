@@ -2,7 +2,7 @@
 title: 設定生日禮
 description: 設定會員生日禮，包含紅利點數與優惠券的發送規則、自動排程邏輯及提前發送設定。
 created: 2026-05-27 12:35
-last_modified: 2026-05-27 12:35
+last_modified: 2026-06-30 10:56
 lang: zh-TW
 type: tutorial
 status: ""
@@ -22,11 +22,11 @@ audiences:
   - admin
 difficulty: beginner
 tnb: branch
-plans: 
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
+plans:
   - 企業
+  - 專業
+  - 進階
+  - 高手
 cyb_extensions: []
 intents: 
   - 設定生日禮
@@ -54,7 +54,7 @@ ui_components:
 paths: 
   - 行銷活動 > 全館折扣 – 紅利&優惠券 > 會員生日贈送優惠券/紅利點數
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8752
   - https://www.cyberbiz.io/support/?p=1461
 permalink: https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/setup-birthday-gift

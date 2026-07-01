@@ -2,7 +2,7 @@
 title: 設定導覽選單滑鼠移入自動展開
 description: 修改樣板程式碼，讓前台導覽選單在滑鼠移入時自動展開二層列表。
 created: 2025-03-03 16:40
-last_modified: 2026-06-30 10:16
+last_modified: 2026-06-30 11:01
 lang: zh-TW
 type: tutorial
 status: ""

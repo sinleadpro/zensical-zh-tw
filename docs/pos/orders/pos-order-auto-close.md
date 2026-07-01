@@ -2,7 +2,7 @@
 title: 設定 POS 訂單自動結案
 description: 讓門市結帳完成的訂單依您的設定自動進入「已結案」狀態，系統才會正式發放紅利、生效贈送的優惠券並認列分潤獎金。
 created: 2026-06-25 10:00
-last_modified: 2026-06-29 12:35
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -62,7 +62,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=23628
-permalink: https://help.cyberbiz.io/pos/orders/pos-order-auto-close/
+permalink: https://help.cyberbiz.io/pos/orders/pos-order-auto-close
 comments: false
 search:
   exclude: false

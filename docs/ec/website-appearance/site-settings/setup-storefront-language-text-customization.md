@@ -2,7 +2,7 @@
 title: 設定前台語系與文字自定義
 description: 透過字典檔與樣板編輯器設定前台語系及自訂系統預設文字，包含多國語言與結帳頁文字調整方式。
 created: 2026-03-01
-last_modified: 2026-06-30 10:16
+last_modified: 2026-06-30 11:01
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-storefront-language-text-customization
 type: tutorial

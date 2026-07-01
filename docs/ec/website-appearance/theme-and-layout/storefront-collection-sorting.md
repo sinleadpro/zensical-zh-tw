@@ -2,7 +2,7 @@
 title: 設定首頁商品群組排序
 description: 調整前台首頁「商品列表」區塊中，各個商品群組的顯示先後順序。
 created:
-last_modified: 2026-06-30 10:16
+last_modified: 2026-06-30 11:01
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/storefront-collection-sorting
 type: tutorial

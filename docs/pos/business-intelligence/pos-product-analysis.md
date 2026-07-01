@@ -2,7 +2,7 @@
 title: POS 商品分析
 description: 掌握各 POS 實體門市的商品銷售表現，從銷售額、銷售量、購物人次到回購與退貨狀況，快速找出明星商品與需要關注的滯銷或高退貨商品。
 created: 2026-06-23 14:30
-last_modified: 2026-06-30 14:03
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -60,9 +60,9 @@ ui_components: []
 paths:
   - POS 功能 > 商品分析
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/support/?p=28253
-permalink: "https://help.cyberbiz.io/pos/business-intelligence/pos-product-analysis/"
+permalink: https://help.cyberbiz.io/pos/business-intelligence/pos-product-analysis
 comments: false
 search:
   exclude: false

@@ -2,7 +2,7 @@
 title: 公告
 description: 即時掌握電商倉儲（WMS）的系統更新進度、倉庫端的重要作業異動，以及系統問題的修復狀況。
 created: 2026-03-19 11:53
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -46,8 +46,9 @@ paths:
   - 公告
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=7973
   - https://www.cyberbiz.io/support/?p=39940
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/announcements
 comments: false
 search:
   exclude: false

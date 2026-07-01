@@ -3,7 +3,7 @@
 title: 設定 Meta 廣告的目錄商品組合
 description: 透過 CYBERBIZ Meta Ads App 建立目錄商品組合，篩選特定商品並投放到 Meta 目錄型或圖片型廣告。
 created: 2026-04-20 21:10
-last_modified: 2026-06-26 10:05
+last_modified: 2026-06-30 20:18
 lang: zh-TW
 type: tutorial
 status: ""
@@ -162,11 +162,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-package-x:{ .lg }   
-](../../../products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤)排除上傳至第三方平台標籤){ title="管理商品標籤" }       
+  [__排除商品同步__](../../../products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }       
   若有特定商品不希望同步至 Meta，可在該商品標籤填入「贈品」或「排除product feed」，系統將自動排除。
 
 - :lucide-rocket:{ .lg }   
-  [__建立廣告活動__](./設定%20Meta%20廣告活動.md)       
+  [__建立廣告活動__](./setup-meta-ad-campaign.md){ title="設定 Meta 廣告活動" }       
   完成目錄商品組合設定後，即可依此建立 Meta 廣告活動，選擇「目錄型」或「圖片型」創意來源進行投放。
 
 </div>

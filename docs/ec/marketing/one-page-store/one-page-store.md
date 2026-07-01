@@ -2,7 +2,7 @@
 title: 一頁式商店
 description: 一頁式商店將商品資訊、特色介紹與結帳流程整合於單一網頁，大幅減少頁面切換造成的流失，是提升廣告轉換率與行動購物體驗的高效工具。
 created: 2026-02-11 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 10:56
 lang: zh-TW
 type: tutorial
 status: ""
@@ -25,9 +25,6 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:

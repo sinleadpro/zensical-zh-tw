@@ -7,7 +7,7 @@
         {
             "id": 5,
             "name": "ec-app-market",
-            "redirects": 17,
+            "redirects": 19,
             "module_id": 1,
             "moduleName": "WordPress",
             "enabled": false
@@ -453,6 +453,58 @@
             "regex": false,
             "group_id": 5,
             "position": 16,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 18,
+            "url": "/support/?p=3532",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 5,
+            "position": 17,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 19,
+            "url": "/support/?p=41979",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/app-market/storepal/view-sales-performance"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 5,
+            "position": 18,
             "last_access": "-",
             "enabled": false
         }

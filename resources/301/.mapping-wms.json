@@ -1,0 +1,654 @@
+{
+  "generated_at": "2026-06-30 22:00",
+  "doc_dir": "docs/wms",
+  "confirmed": [
+    {
+      "doc_file": "docs/wms/announcements.md",
+      "doc_title": "公告",
+      "expected_permalink": "https://help.cyberbiz.io/wms/announcements",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7973",
+        "https://www.cyberbiz.io/support/?p=39940"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=39940"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/wms/application-process-and-activation.md",
+      "doc_title": "串倉申請流程與開通",
+      "expected_permalink": "https://help.cyberbiz.io/wms/application-process-and-activation",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5708",
+        "https://www.cyberbiz.io/support/?p=28967"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=28967"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/wms/channels.md",
+      "doc_title": "通路",
+      "expected_permalink": "https://help.cyberbiz.io/wms/channels",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5735",
+        "https://www.cyberbiz.io/support/?p=9043"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5735"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/wms/enable-partial-warehouse-integration-and-mixed-orders.md",
+      "doc_title": "啟用部分串倉與混單",
+      "expected_permalink": "https://help.cyberbiz.io/wms/enable-partial-warehouse-integration-and-mixed-orders",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5726",
+        "https://www.cyberbiz.io/support/?p=23149"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=23149"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/wms/enable-partial-warehouse-integration-and-order-splitting.md",
+      "doc_title": "啟用部分串倉與拆單",
+      "expected_permalink": "https://help.cyberbiz.io/wms/enable-partial-warehouse-integration-and-order-splitting",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5723",
+        "https://www.cyberbiz.io/support/?p=22981"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=22981"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/wms/inbound-orders.md",
+      "doc_title": "進倉單",
+      "expected_permalink": "https://help.cyberbiz.io/wms/inbound-orders",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5739",
+        "https://www.cyberbiz.io/support/?p=4750",
+        "https://www.cyberbiz.io/support/?p=4781",
+        "https://www.cyberbiz.io/support/?p=4799",
+        "https://www.cyberbiz.io/support/?p=4814",
+        "https://www.cyberbiz.io/support/?p=9088"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=9088"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/wms/inventory-records.md",
+      "doc_title": "庫存紀錄",
+      "expected_permalink": "https://help.cyberbiz.io/wms/inventory-records",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5742",
+        "https://www.cyberbiz.io/support/?p=9159"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=9159"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/wms/manual-order-creation.md",
+      "doc_title": "手動建單",
+      "expected_permalink": "https://help.cyberbiz.io/wms/manual-order-creation",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5744",
+        "https://www.cyberbiz.io/support/?p=9105"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=9105",
+        "https://www.cyberbiz.io/helpcenter/?p=5744"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/wms/merchant-inbound-operation-rules.md",
+      "doc_title": "商家進倉作業規範",
+      "expected_permalink": "https://help.cyberbiz.io/wms/merchant-inbound-operation-rules",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5730",
+        "https://www.cyberbiz.io/support/?p=8770"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5730"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/wms/merchant-self-inspection-of-returns.md",
+      "doc_title": "商家自行驗收退貨",
+      "expected_permalink": "https://help.cyberbiz.io/wms/merchant-self-inspection-of-returns",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=10497",
+        "https://www.cyberbiz.io/support/?p=4414"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=4414"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/wms/pod-list.md",
+      "doc_title": "POD 列表",
+      "expected_permalink": "https://help.cyberbiz.io/wms/pod-list",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=8113",
+        "https://www.cyberbiz.io/support/?p=39973"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=39973"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/wms/pos-warehouse-inventory-transfer.md",
+      "doc_title": "POS 系統串倉庫存轉調",
+      "expected_permalink": "https://help.cyberbiz.io/wms/pos-warehouse-inventory-transfer",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=28494"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=28494"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/wms/report-notification-settings.md",
+      "doc_title": "報表通知設定",
+      "expected_permalink": "https://help.cyberbiz.io/wms/report-notification-settings",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=48336"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=48336"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/wms/return-orders.md",
+      "doc_title": "退貨單",
+      "expected_permalink": "https://help.cyberbiz.io/wms/return-orders",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5747",
+        "https://www.cyberbiz.io/support/?p=9139"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=9139"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/wms/single-items.md",
+      "doc_title": "單一品項",
+      "expected_permalink": "https://help.cyberbiz.io/wms/single-items",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5733",
+        "https://www.cyberbiz.io/support/?p=8920"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=8920"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/wms/site-and-warehouse-sync-rules.md",
+      "doc_title": "官網與倉儲同步規則",
+      "expected_permalink": "https://help.cyberbiz.io/wms/site-and-warehouse-sync-rules",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5711",
+        "https://www.cyberbiz.io/support/?p=9638"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=9638"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/wms/suppliers.md",
+      "doc_title": "供應商",
+      "expected_permalink": "https://help.cyberbiz.io/wms/suppliers",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=7975",
+        "https://www.cyberbiz.io/support/?p=39949"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=39949"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/wms/transfer-orders.md",
+      "doc_title": "調倉單",
+      "expected_permalink": "https://help.cyberbiz.io/wms/transfer-orders",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=5737",
+        "https://www.cyberbiz.io/support/?p=3006",
+        "https://www.cyberbiz.io/support/?p=4825",
+        "https://www.cyberbiz.io/support/?p=9068"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=9068"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/wms/setup-products-stock-limit-preorder.md",
+      "doc_title": "設定商品(現貨、限量、預購)",
+      "expected_permalink": "https://help.cyberbiz.io/wms/setup-products-stock-limit-preorder",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=9658",
+        "https://www.cyberbiz.io/helpcenter/?p=5714",
+        "https://www.cyberbiz.io/helpcenter/?p=5720"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=9658"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/wms/processed-products.md",
+      "doc_title": "加工商品",
+      "expected_permalink": "https://help.cyberbiz.io/wms/processed-products",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=8920",
+        "https://www.cyberbiz.io/support/?p=9749",
+        "https://www.cyberbiz.io/helpcenter/?p=5717"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=8920",
+        "https://www.cyberbiz.io/support/?p=9749"
+      ],
+      "apply": true
+    }
+  ],
+  "unmatched_csv_titles": [
+    "管理會員檔案",
+    "會員客服系統",
+    "顧客註冊流程與欄位",
+    "設定 VIP 會員專屬價格",
+    "特定網域信箱套用會員標籤",
+    "VIP 功能運作指南",
+    "建立全館VIP制度",
+    "設定新版VIP專屬優惠",
+    "批次匯入與編輯會員",
+    "建立專屬VIP群組",
+    "電子票券設定指南",
+    "設定電子票券優惠",
+    "設定電子票券門市權限",
+    "註冊人分潤",
+    "推薦人分潤",
+    "了解分潤功能",
+    "查詢宅配託運單紀錄",
+    "結帳頁與物流設定總覽",
+    "設定超商大宗寄倉 B2C",
+    "處理超過退貨期限的訂單",
+    "設定商品配送條件（物流、溫層與出貨通路）",
+    "設定結帳拆分多購物車",
+    "串接Google Pay",
+    "信用卡 3D驗證門檻設定",
+    "設定 AFTEE",
+    "宅配逆物流",
+    "設定超商店到店物流串接",
+    "串接宅配貨到付款物流",
+    "串接宅配貨到不付款/自訂物流",
+    "順豐海外物流",
+    "消費者購買流程",
+    "快速到貨訂單接單準備",
+    "快速到貨出貨與配送追蹤",
+    "缺貨訂單部分配送或取消流程",
+    "Pandago 配送異常規範",
+    "快速到貨運費計算與對帳",
+    "補印與加印託運單",
+    "Amazon FBA 跨境物流",
+    "申請全家冷凍物流 B2C",
+    "DHL 跨境物流",
+    "北美站金流設定",
+    "日本站金流設定",
+    "申請 CYBERBIZ PAYMENTS",
+    "設定街口支付",
+    "設定 PayPal",
+    "設定 LINE Pay",
+    "東南亞站金流設定",
+    "LINEX 跨境物流",
+    "設定 Apple Pay",
+    "澳洲落地版金流設定",
+    "申請iPASS MONEY 一卡通",
+    "CYBERBIZ EXPRESS",
+    "建立並串接 Google Analytics",
+    "建立 Google Tag Manager 並串接 CYBERBIZ",
+    "設定 Google Merchant Center 並同步 CYBERBIZ 商品",
+    "設定 Google Ads 轉換追蹤",
+    "使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝",
+    "設定 Facebook 快速登入",
+    "串接美安通路",
+    "設定 LINE 快速登入",
+    "串接 LINE Messaging API",
+    "篩選與應用 LINE OA 綁定會員名單",
+    "發送 LINE 加入好友邀請",
+    "設定與使用 LINE 顯示會員條碼（串接 POS 結帳）",
+    "設定 LINE 綁定會員贈送優惠券",
+    "設定 LINE 圖文選單",
+    "設定 Meta 廣告活動",
+    "YouTube Shopping 設定指南",
+    "Meta 廣告每日預算設定指南",
+    "同步商品影片至 Meta 目錄",
+    "設定 GA4 排除內部流量與第三方參照來源",
+    "使用 UTM 參數追蹤行銷流量與分析成效",
+    "設定 FBE 帳號授權與資產連結",
+    "設定 Facebook 與 Instagram 商店",
+    "設定 FBE 網域驗證",
+    "註冊並驗證 Google Search Console",
+    "建立 Meta 廣告帳號並儲值",
+    "設定秘密商品群組",
+    "LINE 整合總覽",
+    "建立與驗證 Google 商家檔案",
+    "使用 Google 安全瀏覽工具檢查並排除網站安全性風險",
+    "從 Google 搜尋結果移除特定網頁或子目錄",
+    "設定與發送 LINE OA 分眾訊息推播",
+    "設定 LINE OA 受眾串接",
+    "排除商品不同步至 Facebook 與 Instagram 商店",
+    "設定 GA4 站內搜尋追蹤",
+    "設定與管理 LINE Tag",
+    "LINE 購物功能總覽",
+    "使用 LINE 團購進行購物",
+    "設定 Google 快速登入",
+    "設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結",
+    "申請與設定 LINE 直播功能",
+    "綁定 LINE 官方帳號與官網會員",
+    "自動化廣告系統",
+    "設定 LINE 快速登入時取得會員手機號碼",
+    "申請與設定 LINE 購物導購",
+    "設定 Google Analytics 進階追蹤與資料分析",
+    "在官網新增 LINE 加入好友入口",
+    "設定 Google Ads 強化轉換",
+    "設定 LIFF 自動登入與會員綁定",
+    "手動分享資產權限給 CYBERBIZ",
+    "設定 Meta 廣告的目錄商品組合",
+    "ASC 廣告投放策略與最佳實務",
+    "使用 Meta 廣告成效分析",
+    "Meta 廣告帳號閒置釋出機制與保留說明",
+    "設定 LINE 團購機器人",
+    "設定 LINE 團購商品",
+    "設定 LINE 團購群組",
+    "現貨、限量、預購銷售",
+    "新增與設定組合商品",
+    "設定商品加價購",
+    "設定商品影片",
+    "新增與更新商品",
+    "Excel 大量匯入商品",
+    "設定商品色票與款式圖片-預設版型",
+    "設定超商配送限制與物流排除",
+    "設定首頁商品群組排序",
+    "設定商品自訂分類群組",
+    "設定商品限購數量",
+    "設定單品限時折扣",
+    "管理商品標籤",
+    "設定商品排除指定優惠",
+    "排除特定商品不上傳至第三方平台",
+    "設定商品條件分類群組",
+    "商品管理介面總覽",
+    "編輯商品描述與商品設定",
+    "複製商品至 POS 商店",
+    "編輯商品簡述與商品標語",
+    "設定商品到貨通知¶",
+    "設定站內搜尋功能",
+    "管理商品評論",
+    "設定商品色票與款式圖片-拖拉版型",
+    "設定前台商品篩選器",
+    "商品多層級分類滿額折扣",
+    "設定商品多層級分類",
+    "批次修改商品描述與配送設定",
+    "啟用留言區 reCAPTCHA",
+    "網域管理",
+    "保護後台帳號與顧客資料",
+    "管理系統代開消費者發票",
+    "發票",
+    "新增網站管理員並設定權限",
+    "設定網站基本資訊",
+    "設定與管理二階段驗證",
+    "使用 Authy 啟用二階段驗證設定",
+    "資安防護總覽與最佳實務",
+    "系統到期處理流程",
+    "Cloudflare SSL 衝突",
+    "無法讀取 HTTPS 根網址",
+    "如何排除未收到商家通知信件",
+    "續購與自動續約",
+    "設定前台多國語言與多幣別",
+    "設定與管理 LINE OA 通知樣板",
+    "設定與發送簡訊通知",
+    "設定與管理簡訊通知樣板",
+    "管理與管理 Email 通知樣板",
+    "設定與發送 EDM 電子報",
+    "訂單管理介面說明",
+    "訂單出貨流程",
+    "使用黑貓宅配出貨",
+    "使用宅配通出貨",
+    "使用超商大宗寄倉（B2C）出貨",
+    "操作超商店到店 C2C 出貨",
+    "如何使用自訂物流出貨",
+    "如何取消訂單",
+    "如何手動結案訂單",
+    "處理超商訂單逾期未取",
+    "設定未付款提醒",
+    "處理付款失敗訂單",
+    "使用順豐出貨",
+    "設定訂單自動結案",
+    "設定與列印訂單明細",
+    "設定與列印出貨明細",
+    "匯出定期定額子訂單預測報表",
+    "設定訂單加價購",
+    "使用黑貓快速到店出貨",
+    "設定黑貓快速到店付款方式",
+    "綠界後台訂單查詢",
+    "如何將訂單從準備出貨調整回未出貨狀態",
+    "設定 POS 訂單自動結案",
+    "提供顧客付款連結",
+    "匯出訂單報表",
+    "修改訂單明細頁「店長改價」的顯示名稱",
+    "跨境電商退貨流程",
+    "操作超商退貨便 C2B",
+    "熱感列印超商托運單",
+    "第三方支付 : 人工退款",
+    "操作全家冷凍店到店 C2C 出貨",
+    "如何使用再次購買功能",
+    "設定訂單部分出貨",
+    "處理超商訂單部分出貨",
+    "使用新竹物流出貨",
+    "自動黑貓司機取件",
+    "出貨狀態物流提示文字說明",
+    "編輯訂單內容",
+    "使用超商條碼完成付款",
+    "使用 7-11 C2C 退貨便",
+    "Step1.安裝啟用",
+    "Step5.官網與蝦皮商品資訊同步",
+    "API 與 Webhook 串接指南",
+    "使用 AUTOMATION 建立自動化推播流程",
+    "會員數據智庫",
+    "搜尋與建立會員",
+    "會員身份識別",
+    "導購轉化",
+    "查看門市與個人業績報表",
+    "Step2.導入商品與建立關聯",
+    "Step3.官網與蝦皮商品庫存同步",
+    "Step4.官網商品建立為蝦皮商品",
+    "CYBERBIZ APP 功能指南",
+    "POS前台-登入教學",
+    "POS前台-結帳流程",
+    "POS前台-訂單作業",
+    "出倉單",
+    "庫存調整",
+    "小結關帳",
+    "員工權限與帳號管理",
+    "付款方式",
+    "公告系統",
+    "多付款方式",
+    "使用掃描槍掃描後找不到商品",
+    "Posiflex發票機安裝教學",
+    "POS前台自動登出設定",
+    "有線刷卡機安裝教學",
+    "POS開始使用",
+    "盟立發票",
+    "安全性設定",
+    "客顯螢幕安裝教學",
+    "互動遊戲",
+    "Cyberbiz POS系統需求",
+    "CYBERBIZ POS 驅動程式",
+    "標籤印表機安裝教學",
+    "門市取貨訂單出貨",
+    "建立門市",
+    "POS 門市取貨店員分潤",
+    "POS LINEPAY掃碼支付",
+    "開啟訪客結帳",
+    "POS 離線模式",
+    "列印商品標籤",
+    "開啟門市取貨服務",
+    "商米刷卡機安裝教學",
+    "CYBERBIZ POS平板裝置使用說明",
+    "續購與加購方案",
+    "POS機綁定機制",
+    "POS網路連線過慢/斷線提示",
+    "全通路庫存管理",
+    "POS前台-會員管理",
+    "認識 POS 營收分析",
+    "查看 POS 商品分析",
+    "認識 OMO 分析報表",
+    "使用「店長改價」在 POS 前台調整單品價格",
+    "紅利商城",
+    "混稅發票功能",
+    "盤點",
+    "設定 POS 星益欣電子發票",
+    "秤重商品條碼",
+    "EPSON TM-T82III 發票機安裝教學",
+    "部落格管理與文章發佈指南",
+    "設定商品群組前台排序",
+    "設定與修改客服中心資訊",
+    "套用與更換網站主題",
+    "設定與管理自訂頁面",
+    "建立與管理排程跑馬燈",
+    "設定快速到貨前台入口與專區",
+    "使用樣板編輯器恢復網頁代碼",
+    "設定網站標題與 SEO",
+    "設置網站客服視窗",
+    "設定網頁鎖右鍵保護圖文版權",
+    "調整首頁跑馬燈（輪播圖）的轉場停留時間",
+    "樣版編輯器操作全攻略",
+    "關閉商品圖片放大預覽功能",
+    "如何在自訂頁面中嵌入 Google 表單",
+    "設定轉貼連結縮圖",
+    "設定選單與導覽列",
+    "使用文字編輯器編輯內容",
+    "修改結帳流程為優先填寫收件人資訊",
+    "設定導覽選單滑鼠移入自動展開",
+    "設定前台選單",
+    "揭露營業人名稱與統一編號",
+    "設定前台語系與文字自定義",
+    "托拉版型網站設定",
+    "日本站官網需建立特定商取引法頁面",
+    "結帳優惠計算順序",
+    "任選折扣",
+    "設定生日禮",
+    "設定優惠碼",
+    "定期定額活動頁",
+    "一頁式商店",
+    "建立含指定商品的購物車連結",
+    "指定金流送紅利",
+    "指定物流送紅利",
+    "指定商品送紅利",
+    "將 Sitemap 提交至 Google Search Console",
+    "定期定額訂單管理",
+    "紅利點數",
+    "設定優惠券",
+    "滿額贈/滿件贈",
+    "紅配綠多組合優惠",
+    "期間限定首購禮",
+    "指定商品送優惠券",
+    "設定 301 重定向網站轉址",
+    "SEO 設定與優化指南",
+    "設定一頁式商店影片自動播放與指定時間",
+    "指定商品送活動序號",
+    "推薦碼連結的應用",
+    "設定顧客 Email 與手機雙重驗證",
+    "星益欣電子發票設定",
+    "無法下載託運單或更新貨態",
+    "在搜尋結果中排除特定關鍵字商品",
+    "安裝 Meta Ads App",
+    "圖表總覽",
+    "基本報表",
+    "商品圖表",
+    "營收分析",
+    "訂單分析",
+    "會員分析",
+    "商品分析",
+    "行銷活動分析",
+    "消費顧客分析"
+  ],
+  "unmatched_docs": [
+    {
+      "title": "帳號管理",
+      "file": "docs/wms/account-management.md"
+    },
+    {
+      "title": "智慧倉儲 (WMS) 產品中心",
+      "file": "docs/wms/index.md"
+    },
+    {
+      "title": "列表",
+      "file": "docs/wms/list.md"
+    },
+    {
+      "title": "手動確認收貨",
+      "file": "docs/wms/manually-confirm-receipt.md"
+    },
+    {
+      "title": "操作紀錄列表",
+      "file": "docs/wms/operation-logs.md"
+    },
+    {
+      "title": "權限設定",
+      "file": "docs/wms/permission-settings.md"
+    },
+    {
+      "title": "退貨與派車",
+      "file": "docs/wms/returns-and-vehicle-dispatch.md"
+    },
+    {
+      "title": "季別群組",
+      "file": "docs/wms/seasonal-groups.md"
+    },
+    {
+      "title": "商店設定",
+      "file": "docs/wms/store-settings.md"
+    }
+  ],
+  "updated_at": "2026-06-30 22:04"
+}

@@ -2,7 +2,7 @@
 title: 結帳優惠計算順序
 description: 了解 CYBERBIZ 系統在結帳時的優惠套用邏輯與計算順序，包含商品層級、訂單層級以及運費金流層級的運算規則。
 created: 2026-06-11 16:05
-last_modified: 2026-06-12 14:40
+last_modified: 2026-06-30 10:56
 lang: zh-TW
 type: guide
 status: ""
@@ -51,7 +51,8 @@ ui_components:
 paths: 
   - 行銷活動 > 促銷活動設定
 layouts: []
-wp_url: 
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=537
   - https://www.cyberbiz.io/support/?p=1141
 permalink: https://help.cyberbiz.io/ec/marketing/discounts/checkout-discount-calculation-order
 search:

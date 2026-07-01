@@ -1,19 +1,21 @@
 {
-  "generated_at": "2026-06-30 10:04",
+  "generated_at": "2026-06-30 10:52",
   "doc_dir": "docs/ec/profit-sharing",
   "confirmed": [
     {
-      "doc_file": "docs/ec/profit-sharing/referral-link-applications.md",
-      "doc_title": "推薦碼連結的應用",
-      "expected_permalink": "https://help.cyberbiz.io/ec/profit-sharing/referral-link-applications",
+      "doc_file": "docs/ec/profit-sharing/index.md",
+      "doc_title": "了解分潤功能",
+      "expected_permalink": "https://help.cyberbiz.io/ec/profit-sharing",
       "expected_wp_urls": [
-        "https://www.cyberbiz.io/helpcenter/?p=4051"
+        "https://www.cyberbiz.io/support/?p=28632"
       ],
       "current_permalink": "",
       "current_wp_urls": [
-        "https://www.cyberbiz.io/helpcenter/?p=4051",
-        "https://www.cyberbiz.io/support/?p=1833",
-        "https://www.cyberbiz.io/support/?p=39234"
+        "https://www.cyberbiz.io/helpcenter/?p=597",
+        "https://www.cyberbiz.io/helpcenter/?p=608",
+        "https://www.cyberbiz.io/helpcenter/?p=579",
+        "https://www.cyberbiz.io/helpcenter/?p=4116",
+        "https://www.cyberbiz.io/support/?p=28632"
       ],
       "current_plans": [
         "企業",
@@ -30,6 +32,29 @@
       ],
       "trunk_expanded": false,
       "apply": true
+    },
+    {
+      "doc_file": "docs/ec/profit-sharing/referral-link-applications.md",
+      "doc_title": "推薦碼連結的應用",
+      "expected_permalink": "https://help.cyberbiz.io/ec/profit-sharing/referral-link-applications",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=4051"
+      ],
+      "current_permalink": "https://help.cyberbiz.io/ec/profit-sharing/referral-link-applications",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=4051"
+      ],
+      "current_plans": [
+        "企業",
+        "進階",
+        "高手"
+      ],
+      "expected_plans": [
+        "企業",
+        "進階",
+        "高手"
+      ],
+      "trunk_expanded": false
     },
     {
       "doc_file": "docs/ec/profit-sharing/referrer-profit-sharing.md",
@@ -45,32 +70,28 @@
         "https://www.cyberbiz.io/support/?p=23951",
         "https://www.cyberbiz.io/support/?p=39234"
       ],
-      "current_permalink": "",
+      "current_permalink": "https://help.cyberbiz.io/ec/profit-sharing/referrer-profit-sharing",
       "current_wp_urls": [
+        "https://www.cyberbiz.io/helpcenter/?p=4116",
+        "https://www.cyberbiz.io/helpcenter/?p=579",
         "https://www.cyberbiz.io/helpcenter/?p=597",
         "https://www.cyberbiz.io/helpcenter/?p=608",
-        "https://www.cyberbiz.io/helpcenter/?p=579",
-        "https://www.cyberbiz.io/helpcenter/?p=4116",
+        "https://www.cyberbiz.io/support/?p=1833",
         "https://www.cyberbiz.io/support/?p=1864",
         "https://www.cyberbiz.io/support/?p=23951",
-        "https://www.cyberbiz.io/support/?p=1833",
         "https://www.cyberbiz.io/support/?p=39234"
       ],
       "current_plans": [
         "企業",
-        "專業PLUS",
         "進階",
-        "進階PLUS",
-        "高手",
-        "高手PLUS"
+        "高手"
       ],
       "expected_plans": [
         "企業",
         "進階",
         "高手"
       ],
-      "trunk_expanded": false,
-      "apply": true
+      "trunk_expanded": false
     },
     {
       "doc_file": "docs/ec/profit-sharing/registrant-profit-sharing.md",
@@ -80,28 +101,23 @@
         "https://www.cyberbiz.io/helpcenter/?p=1182",
         "https://www.cyberbiz.io/support/?p=1720"
       ],
-      "current_permalink": "",
+      "current_permalink": "https://help.cyberbiz.io/ec/profit-sharing/registrant-profit-sharing",
       "current_wp_urls": [
         "https://www.cyberbiz.io/helpcenter/?p=1182",
         "https://www.cyberbiz.io/support/?p=1720"
       ],
       "current_plans": [
         "企業",
-        "專業PLUS",
-        "進階PLUS",
-        "高手",
-        "高手PLUS"
+        "高手"
       ],
       "expected_plans": [
         "企業",
         "高手"
       ],
-      "trunk_expanded": false,
-      "apply": true
+      "trunk_expanded": false
     }
   ],
   "unmatched_csv_titles": [
-    "了解分潤功能",
     "查詢宅配託運單紀錄",
     "結帳頁與物流設定總覽",
     "設定超商大宗寄倉 B2C",
@@ -271,5 +287,5 @@
       "file": "docs/ec/profit-sharing/query-profit-sharing-partners-and-codes.md"
     }
   ],
-  "updated_at": "2026-06-30 10:05"
+  "updated_at": "2026-06-30 10:52"
 }

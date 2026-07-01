@@ -2,7 +2,7 @@
 title: OMO 分析報表
 description: 整合線上官網（EC）與線下實體門市（POS）的經營數據，在同一頁比較兩個通路的營收、訂單、會員、商品與行銷表現。
 created: 2026-06-23 10:00
-last_modified: 2026-06-30 13:52
+last_modified: 2026-06-30 21:21
 lang: zh-TW
 type: tutorial
 status: ""
@@ -64,8 +64,10 @@ ui_components: []
 paths:
   - 分析報表 > OMO分析報表
 layouts: []
-wp_url: []
-permalink: https://help.cyberbiz.io/ec/business-intelligence/omo-analysis-report/
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=7800
+  - https://www.cyberbiz.io/support/?p=33261
+permalink: https://help.cyberbiz.io/ec/business-intelligence/omo-analysis-report
 comments: false
 search:
   exclude: false

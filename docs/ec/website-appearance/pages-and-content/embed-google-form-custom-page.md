@@ -2,7 +2,7 @@
 title: 在自訂頁面中嵌入 Google 表單
 description: 將 Google 表單嵌入 CYBERBIZ 自訂頁面，並針對手機版進行響應式寬度與高度優化。
 created: 2024-05-23
-last_modified: 2026-06-30 10:16
+last_modified: 2026-06-30 11:01
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/pages-and-content/embed-google-form-custom-page
 type: tutorial

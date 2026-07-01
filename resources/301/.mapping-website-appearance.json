@@ -775,6 +775,34 @@
       ],
       "trunk_expanded": true,
       "apply": true
+    },
+    {
+      "doc_file": "docs/ec/website-appearance/setup-quick-delivery-frontend-entry.md",
+      "doc_title": "設定快速到貨前台入口與專區",
+      "expected_permalink": "https://help.cyberbiz.io/ec/website-appearance/setup-quick-delivery-frontend-entry",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=12861",
+        "https://www.cyberbiz.io/support/?p=24278"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=12861",
+        "https://www.cyberbiz.io/support/?p=24278"
+      ],
+      "current_plans": [
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS",
+        "企業"
+      ],
+      "expected_plans": [
+        "專業PLUS",
+        "進階PLUS",
+        "高手PLUS",
+        "企業"
+      ],
+      "trunk_expanded": false,
+      "apply": true
     }
   ],
   "unmatched_csv_titles": [
@@ -941,11 +969,7 @@
     {
       "title": "主題類型對照表",
       "file": "docs/ec/website-appearance/references/theme-types.md"
-    },
-    {
-      "title": "設定快速到貨前台入口與專區",
-      "file": "docs/ec/website-appearance/setup-quick-delivery-frontend-entry.md"
     }
   ],
-  "updated_at": "2026-06-30 10:16"
+  "updated_at": "2026-06-30 11:01"
 }

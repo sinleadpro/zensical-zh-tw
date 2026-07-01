@@ -2,7 +2,7 @@
 title: 列印商品標籤
 description: 除了在後台批次列印，CYBERBIZ POS 支援在結帳前台直接列印商品標籤。店員在結帳或重新貼標商品時，可直接產出標籤。
 created: 2026-03-25 16:30
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -61,7 +61,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=13988
-permalink: []
+permalink: https://help.cyberbiz.io/pos/check/print-product-labels
 comments: false
 search:
   exclude: false

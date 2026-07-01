@@ -1,13 +1,13 @@
 {
     "plugin": {
         "version": "5.5.2",
-        "date": "Tue, 30 Jun 2026 10:05:16 +0000"
+        "date": "Tue, 30 Jun 2026 10:52:15 +0000"
     },
     "groups": [
         {
             "id": 5,
             "name": "ec-profit-sharing",
-            "redirects": 5,
+            "redirects": 6,
             "module_id": 1,
             "moduleName": "WordPress",
             "enabled": false
@@ -16,7 +16,7 @@
     "redirects": [
         {
             "id": 1,
-            "url": "/support/?p=1833",
+            "url": "/support/?p=28632",
             "match_url": "/support",
             "match_data": {
                 "source": {
@@ -29,7 +29,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/profit-sharing/referrer-profit-sharing"
+                "url": "https://help.cyberbiz.io/ec/profit-sharing"
             },
             "match_type": "url",
             "title": "",
@@ -42,7 +42,7 @@
         },
         {
             "id": 2,
-            "url": "/support/?p=1864",
+            "url": "/support/?p=1833",
             "match_url": "/support",
             "match_data": {
                 "source": {
@@ -68,7 +68,7 @@
         },
         {
             "id": 3,
-            "url": "/support/?p=23951",
+            "url": "/support/?p=1864",
             "match_url": "/support",
             "match_data": {
                 "source": {
@@ -94,7 +94,7 @@
         },
         {
             "id": 4,
-            "url": "/support/?p=39234",
+            "url": "/support/?p=23951",
             "match_url": "/support",
             "match_data": {
                 "source": {
@@ -120,6 +120,32 @@
         },
         {
             "id": 5,
+            "url": "/support/?p=39234",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/profit-sharing/referrer-profit-sharing"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 5,
+            "position": 4,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 6,
             "url": "/support/?p=1720",
             "match_url": "/support",
             "match_data": {
@@ -140,7 +166,7 @@
             "hits": 0,
             "regex": false,
             "group_id": 5,
-            "position": 4,
+            "position": 5,
             "last_access": "-",
             "enabled": false
         }

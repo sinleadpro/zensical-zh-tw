@@ -2,7 +2,7 @@
 title: 建立與管理排程跑馬燈
 description: 在網站版面放上會自動輪播的橫幅廣告，並為每張廣告設定上架與下架時間，讓素材依檔期自動換檔，不必人工手動替換。
 created: 2026-06-10 15:31
-last_modified: 2026-06-30 10:16
+last_modified: 2026-06-30 11:01
 lang: zh-TW
 type: tutorial
 status: ""
