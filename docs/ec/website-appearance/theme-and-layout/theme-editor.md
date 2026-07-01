@@ -2,7 +2,7 @@
 title: 拖拉版型網站設定
 description: 使用拖拉版型編輯器建立與調整官網外觀，包含全站設定、頁面內容編輯、商品頁面配置等。
 created:
-last_modified: 2026-06-30 21:40
+last_modified: 2026-07-01 11:18
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/theme-editor
 type: tutorial
@@ -507,7 +507,7 @@ comments: false
 
 ---
 
-**呈現方式（每個標籤可獨立設定）**
+**呈現方式 <small>每個標籤可獨立設定</small>**
 
 - **文字：** 自行輸入要顯示的標籤文字。
 - **圖片：** 上傳標籤圖片，並選擇圖片標籤大小（**大／小**）。
@@ -515,7 +515,7 @@ comments: false
 
 ![商品動態標籤設定頁](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-商品標籤設定頁.png)
 
-> 標籤底色預設套用「[顏色設定](#color)」中的強調色；多個標籤同時成立時會依系統固定順序並列。
+!!! info "標籤底色預設套用「[顏色設定](#color)」中的強調色；多個標籤同時成立時會依系統固定順序並列。"
 
 ## 各頁面設定
 
