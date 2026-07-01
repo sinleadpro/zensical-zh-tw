@@ -2,7 +2,7 @@
 title: 設定與列印出貨明細
 description: 自訂出貨明細的顯示內容、套用列印模板，以及從訂單列表批次下載出貨明細。
 created: 2026-05-08 16:00
-last_modified: 2026-06-30 09:04
+last_modified: 2026-07-02 07:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -92,18 +92,6 @@ hide: []
 
 !!! info "個資隱碼不適用於出貨明細"
     後台「安全性設定」中的「訂單明細列印」[遮罩規則](order-detail-print.md#orders-print-pii-masking-rules){ title="遮罩規則" data-preview } 功能僅作用於 **訂單明細**，不會套用到出貨明細上。出貨明細因為是內部使用，設計上不會遮蓋顧客個資。
-
-{% if is_internal %}
-
-??? plan "點此查看各方案差異"
-
-    | 功能 | 開通條件 |
-    | :-- | :-- |
-    | 出貨明細列印基本功能（勾選欄位、儲存） | 全方案皆有（POS 限定方案除外） |
-    | 進階設定：Liquid 模板與 CSS 自訂 | 全方案皆有 |
-    | 出貨明細多語言列印 | 需加購 **多國語系與多幣別加值功能** |
-
-{% endif %}
 
 ## 出貨明細內容設定 { #fulfillment-print }
 
