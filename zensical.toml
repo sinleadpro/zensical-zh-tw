@@ -390,10 +390,8 @@ copyright = """
                 {"Amazon FBA 跨境物流" = "ec/payments-and-logistics/amazon-fba-cross-border-logistics.md"},
             ]},
             {"參考資料" = [
-                {"黑貓宅配費率對照" = "ec/payments-and-logistics/references/tcat-delivery-rate-card.md"},
                 {"物流中心收貨資訊" = "ec/payments-and-logistics/references/cvs-b2c-logistics-center-reference.md"},
                 {"各通路重量與材積限制" = "ec/payments-and-logistics/references/cvs-b2c-channel-spec-reference.md"},
-                {"方案開通與計費對照" = "ec/payments-and-logistics/references/cvs-b2c-plans-pricing-reference.md"},
                 {"前台可退貨天數對照" = "ec/payments-and-logistics/references/return-eligible-days-reference.md"},
                 {"購物車未結帳提醒管道對照" = "ec/payments-and-logistics/references/cart-reminder-channels-reference.md"}
             ]},

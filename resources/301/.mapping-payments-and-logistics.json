@@ -757,16 +757,8 @@
       "file": "docs/ec/payments-and-logistics/references/cvs-b2c-logistics-center-reference.md"
     },
     {
-      "title": "超商大宗寄倉B2C方案與計費對照",
-      "file": "docs/ec/payments-and-logistics/references/cvs-b2c-plans-pricing-reference.md"
-    },
-    {
       "title": "前台可退貨天數對照表",
       "file": "docs/ec/payments-and-logistics/references/return-eligible-days-reference.md"
-    },
-    {
-      "title": "黑貓宅配託運單規格與費用對照表",
-      "file": "docs/ec/payments-and-logistics/references/tcat-delivery-rate-card.md"
     },
     {
       "title": "設定新竹物流託運單",
@@ -793,5 +785,5 @@
       "file": "docs/ec/payments-and-logistics/store-pickup/enable-store-pickup-service.md"
     }
   ],
-  "updated_at": "2026-06-30 08:52"
+  "updated_at": "2026-07-01 12:30"
 }
