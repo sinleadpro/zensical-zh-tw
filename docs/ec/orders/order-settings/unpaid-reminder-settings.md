@@ -2,7 +2,7 @@
 title: 設定未付款提醒
 description: 如何配置自動化未付款提醒機制，透過 Email、簡訊及 LINE OA 多管道推播，引導顧客完成後續支付並有效提升訂單轉換率。
 created:
-last_modified: 2026-06-30 09:37
+last_modified: 2026-07-01 12:00
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/order-settings/unpaid-reminder-settings
 type: tutorial
@@ -129,7 +129,7 @@ hide:
 !!! path "**路徑：** 訊息推播 > 簡訊樣板設定 > 顧客相關 > **顧客訂單未付款通知**。"
 
 - **功能設定**：將「狀態」切換為 **開啟 (ON)**，即可啟用自動化簡訊提醒。
-- **費用說明**：發送簡訊會扣除 **1 點 Cyber 幣**，使用前須確保帳戶額度充足（PLUS版 / 企業版 以外之商家需預先儲值）。
+- **使用前提**：使用前須確保帳戶額度充足（PLUS版 / 企業版 以外之商家需預先儲值）。
 
 ![簡訊未付款提醒樣板](../../../assets/images/ec-訊息推播-簡訊樣板-顧客訂單未付款通知.gif){ title="簡訊未付款提醒樣板" }
 

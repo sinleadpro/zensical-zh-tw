@@ -2,7 +2,7 @@
 title: 使用 AUTOMATION 建立自動化推播流程
 description: 在 CYBERBIZ AUTOMATION 中建立自動化流程，設定會員分群並發送簡訊、EDM 或 LINE OA 訊息。
 created: 2026-03-09 14:48
-last_modified: 2026-06-27 21:51
+last_modified: 2026-07-01 12:00
 lang: zh-TW
 type: tutorial
 status:
@@ -149,7 +149,7 @@ comments: false
 !!! tip "提示"
     建立流程時，一個完整的自動化工作流將由觸發節點（時間/事件）、條件節點（篩選判斷）與行動節點（具體動作）組裝而成。
 
-1.  **開始流程**：設定完成後點擊「開始流程」，系統會提示預計花費的 Cyber 幣或發送人數。
+1.  **開始流程**：設定完成後點擊「開始流程」，系統會提示預計發送人數。
 
     ![開始流程](../../../assets/images/ec-app-market-automation-lineoa-開始流程.png){ title="開始流程" }
 

@@ -193,7 +193,7 @@ hide:
 
 - :lucide-message-square-text:{ .lg }   
   [__簡訊通知樣板管理__](manage-sms-templates.md){ title="設定與管理簡訊通知樣板" }     
-  設定與管理簡訊通知樣板，包含編輯規則、計費機制與阻擋風險。
+  設定與管理簡訊通知樣板，包含編輯規則與阻擋風險。
 
 - :simple-line:{ .lg }     
   [__LINE OA 通知樣板管理__](manage-line-oa-templates.md){ title="設定與管理 LINE OA 通知樣板" }  
