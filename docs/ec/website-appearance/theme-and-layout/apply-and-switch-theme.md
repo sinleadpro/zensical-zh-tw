@@ -2,7 +2,7 @@
 title: 套用與更換網站主題
 description: 透過套版主題管理隨時下載、切換與發布不同的網站主題，無需重新設計即可改變官網前台視覺風格。
 created: 2026-06-22 10:00
-last_modified: 2026-06-30 11:01
+last_modified: 2026-07-01 14:14
 lang: zh-TW
 type: tutorial
 status: ""
@@ -220,8 +220,6 @@ hide: []
 ---
 
 ## 後續操作 { #next-steps-theme }
-
-完成主題下載或發布後，您可以接著進行細部設定：
 
 <div class="grid cards" markdown>
 
