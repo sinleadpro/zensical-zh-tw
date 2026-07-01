@@ -2,7 +2,7 @@
 title: 使用黑貓宅配出貨
 description: 批次下載黑貓宅配託運單、扣除運費並將訂單貨態更新為已出貨。
 created: 2026-05-12 15:53
-last_modified: 2026-07-01 17:51
+last_modified: 2026-07-01 17:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -288,11 +288,6 @@ hide: []
     - **尚未出貨**：可先向顧客確認正確地址，前往 **訂單 > 所有訂單** 點擊該筆訂單，於「聯絡資訊」區塊修改收貨地址後重新下載託運單。
     - **已出貨**：無法在系統上直接修改地址。請列印出託運單，**手寫** 將地址改為正確資訊，並於交貨時告知物流司機。
 
-??? quote "宅配出貨運費 Cyber 幣如何計算？"
-    [](){ #faq-tcat-home-shipping-fee-calculation }
-
-    具體運費標準請洽您的 CYBERBIZ 開店顧問 或 後台線上客服。
-    
 ??? quote "如何查看對帳明細？"
     [](){ #faq-tcat-home-view-account-details }
 

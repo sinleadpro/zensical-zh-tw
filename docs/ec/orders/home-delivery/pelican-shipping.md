@@ -2,7 +2,7 @@
 title: 使用宅配通出貨
 description: 使用宅配通出貨。包含批次下載託運單、單筆與部分出貨、補印託運單等操作，以及運費計價規則與常見問題。
 created: 2026-05-19 21:30
-last_modified: 2026-07-01 10:30
+last_modified: 2026-07-01 17:58
 lang: zh-TW
 type: tutorial
 status: ""
@@ -152,8 +152,6 @@ hide: []
 5. **檢視運費明細**：彈窗 中段會列出本批次要扣除的 Cyber 幣或對帳金額，請確認與預期相符。
 6. **確認寄件地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [宅配通設定](../../payments-and-logistics/setup-pelican-waybill.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" } 中的地址），如需更改可點擊 **「更改」** 按鈕編輯[^4]。
 
-    ![下載宅配通託運單](../../../assets/images/EC-訂單-所有訂單-下載宅配通託運單-彈窗.png){ title="下載宅配通託運單" }
-
     ??? tip "需要自訂寄件人姓名 / 電話？"
          若您希望託運單上的寄件人聯絡電話與姓名不同於預設值，可至 **金物流 > 宅配通託運單** 的「[宅配通設定](../../payments-and-logistics/setup-pelican-waybill.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" }」區塊填寫並儲存。
 
@@ -274,11 +272,6 @@ hide: []
     [](){ #faq-pelican-remote-area }
 
     部分離島(如澎湖、金門、馬祖等)、偏遠地區與特殊地址(如郵政信箱)可能無法配送，或需依宅配通公告另行加價。實際可配送範圍與運費請以宅配通官方公告為準，建議出貨前先與顧客確認。
-
-??? quote "貨到付款的代收手續費怎麼算？"  
-    [](){ #faq-pelican-cod-fee }
-
-     宅配通貨到付款訂單，除基本運費外會另收 **代收手續費** ，依「代收金額」階梯計算。
 
 ## 參考資料 { #reference-pelican }
 
