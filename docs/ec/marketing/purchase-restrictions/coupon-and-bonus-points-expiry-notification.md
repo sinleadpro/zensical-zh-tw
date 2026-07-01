@@ -21,8 +21,10 @@ sites:
 audiences: 
   - admin
 difficulty: beginner
-tnb: trunk
-plans: []
+tnb: branch
+plans: 
+  - 高手PLUS
+  - 企業
 cyb_extensions: []
 intents: 
   - 設定優惠券到期通知
@@ -59,6 +61,10 @@ hide: []
 # 優惠券（碼）與紅利點數到期通知
 商家可設定優惠券（碼）/ 紅利點數的到期提醒，透過 Email、簡訊或 LINE OA 通知消費者盡早使用，有效提升行銷活動的回購率。
 { .subtitle }
+
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 高手PLUS / 企業
+{ .doc-badge }
+
 
 ## 設定到期天數
 
