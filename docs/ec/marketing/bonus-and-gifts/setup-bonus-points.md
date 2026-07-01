@@ -276,6 +276,7 @@ hide: []
     ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明10.png){ .screenshot }
 
 - **商品頁面**：顯示該商品最高可折抵的點數及約略等值金額。
+
     > 於後台設定商品「紅利點數折抵上限」時，填寫數值為 **點數** 而非金額。
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明11.png){ .screenshot }
