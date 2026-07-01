@@ -80,6 +80,7 @@ hide: []
 ## 使用須知
 
 - **支援站點**：主要為台灣出貨至中港澳及國際地區。可運送的國家可能會因應國際情勢而有所異動，任何異動可參考 [收寄件資訊查詢](https://htm.sf-express.com/tw/tc/dynamic_function/range/)。
+- **寄件規範與文件**：各個國家寄件標準，以及需要提供的文件，請詳閱 [順豐官網](https://htm.sf-express.com/tw/tc/dynamic_function/accept/)，或是聯繫順豐客服412-8830(手機加02)。
 - **配送時效**：約 D+1~3（不含假日），具體依地區而異，詳情可參考 [國際標準快遞時效查詢](https://htm.sf-express.com/tw/tc/dynamic_function/price/time_internal.html)。
 - **澳門地區特別規範**：寄往澳門的商品，若非准照所載貨物，商家必須自行向澳門衛生局取得 [產品分類表](https://www.gov.mo/zh-hant/services/ps-1574/ps-1574a/) 證明該貨物 **非藥物**，否則順豐無法協助進口。
 
@@ -113,12 +114,9 @@ hide: []
 
 順豐海外的運費並非固定金額，而是由以下三部分組成：
 
-1. **運送費用**：依官方牌價計算。
-    - 國際寄件服務可參考 [台灣出口價目表 ─ 國際標準快遞服務](https://htm.sf-express.com/tw/tc/download/Taiwan-Export-Rates-SF-Standard-ExpressInternational-20260101-TCadd-Cambodia.pdf)
-    - 中港澳寄件服務可參考 [台灣出口價目表 ─ 順豐特快服務](https://htm.sf-express.com/tw/tc/download/Taiwan-Export-Rates-SF-Speedy-Express-Service-20250401-TC.pdf)
-    - 最新運送費用可參考 [順豐官網公告](https://htm.sf-express.com/tw/tc/Customer_Zone/download_center/price_down/)
+1. **運送費用**：請至 EC 後台，前往 **金物流 > 順豐託運單 >順豐託運單說明**，點選 **順豐海外運輸費用說明**。
 2. **燃油附加費**：隨國際油價浮動，詳見 [順豐官網公告](https://www.sf-express.com/tw/tc/Customer_Zone/download_center/fuel_additional/)。
-3. **高峰資源調節費**：僅在非常時期（如全球疫情期間）酌收，詳見 [順豐官網公告](https://htm.sf-express.com/tw/tc/news/detail/S.F.-Express-Taiwan-2025-Taiwan-Export-Express-Shipment-Peak-Surcharge-Adjustment-Notice/)。
+3. **高峰資源調節費**：為浮動費用。在需求極高、運力緊張等非常時期額外收取（例如：新冠肺炎期間，順豐會多收取高峰資源調節費，此收費依順豐最後收取的費用為主）。詳見 [順豐官網公告](https://htm.sf-express.com/tw/tc/news/detail/S.F.-Express-Taiwan-2025-Taiwan-Export-Express-Shipment-Peak-Surcharge-Adjustment-Notice/)。
 
 
 
