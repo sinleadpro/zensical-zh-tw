@@ -2,7 +2,7 @@
 title: 操作全家冷凍店到店 C2C 出貨
 description: 操作全家冷凍店到店 C2C 出貨，包括設定流程、訂單出貨、包裝規範、寄件時效及異常處理。
 created:
-last_modified: 2026-06-30 11:16
+last_modified: 2026-07-01 18:08
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/cvs-shipping/family-mart-frozen-c2c
 type: tutorial
@@ -145,9 +145,6 @@ hide:
 
 ??? quote "可以寄送哪些商品？有禁運物品嗎？"  
 	僅限 **冷凍食品**。禁運物品包括：現金、有價證券、易碎品、3C 產品（電腦、手機等）、活體動植物、單件價值超過 **TWD 5,000** 的商品。
-
-??? quote "若寄送冷凍包裹遺失或損壞，賠償如何計算？"  
-	**最高賠償金額為 TWD 5,000 元**。若超過此金額，商家需自行承擔損失。
 
 ??? quote "如何重新選擇取件門市？"  
 	若門市關閉或無法取件，商家需在收到通知後 **6 日內** 登入後台重新選擇可取件門市。
