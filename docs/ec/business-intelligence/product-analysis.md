@@ -2,7 +2,7 @@
 title: 商品分析
 description: 掌握店內商品的銷售表現，找出熱賣商品、滯銷品與回購行為，為進貨、行銷與定價決策提供數據參考。
 created: 2026-06-15 00:00
-last_modified: 2026-06-30 13:54
+last_modified: 2026-06-30 21:21
 lang: zh-TW
 type: tutorial
 status: ""
@@ -67,7 +67,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10991
   - https://www.cyberbiz.io/helpcenter/?p=5054
   - https://www.cyberbiz.io/support/?p=9791
-permalink: "https://help.cyberbiz.io/ec/business-intelligence/product-analysis/"
+permalink: https://help.cyberbiz.io/ec/business-intelligence/product-analysis
 comments: false
 search:
   exclude: false

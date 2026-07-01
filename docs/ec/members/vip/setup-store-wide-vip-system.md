@@ -2,7 +2,7 @@
 title: 建立全館VIP制度
 description: 逐步設定 VIP 會員層級、升等門檻與續會條件，建構符合商店品牌形象的會員體系。
 created: 2026-01-23 00:00
-last_modified: 2026-06-22 11:15
+last_modified: 2026-06-30 12:30
 lang: zh-TW
 type: tutorial
 status: ""
@@ -22,7 +22,11 @@ audiences:
   - admin
 difficulty: beginner
 tnb: trunk
-plans: []
+plans:
+  - 企業
+  - 專業
+  - 進階
+  - 高手
 cyb_extensions: []
 intents:
   - 建立 VIP 等級
@@ -45,7 +49,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7509
   - https://www.cyberbiz.io/support/?p=12291
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/members/vip/setup-store-wide-vip-system
 comments: false
 search:
   exclude: false

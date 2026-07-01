@@ -2,7 +2,7 @@
 title: 設定單品限時折扣群組
 description: 建立「單品限時折扣群組」，並設定折扣計價方式（固定金額、百分比或活動價格）、活動商品與有效期間。
 created: 2026-01-13 00:00
-last_modified: 2026-06-24 14:24
+last_modified: 2026-06-30 10:56
 lang: zh-TW
 type: tutorial
 status:
@@ -26,10 +26,13 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 如何設定單品限時折扣群組

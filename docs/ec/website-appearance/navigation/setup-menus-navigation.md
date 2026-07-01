@@ -2,7 +2,7 @@
 title: 設定選單與導覽列
 description: 設定網站的選單、導覽列與頁腳。
 created: 2026-02-03 17:00
-last_modified: 2026-06-24 16:39
+last_modified: 2026-06-30 11:01
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,13 +23,13 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 設定網站選單內容
@@ -68,9 +68,9 @@ paths:
   - 網站外觀 > 套版主題管理 > 網站設定 > 頁腳
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/helpcenter/?p=5917
-  - https://www.cyberbiz.io/support/?p=33935
-permalink: ""
+  - https://www.cyberbiz.io/helpcenter/?p=11200
+  - https://www.cyberbiz.io/support/?p=19955
+permalink: https://help.cyberbiz.io/ec/website-appearance/navigation/setup-menus-navigation
 search:
   exclude: false
 icon: lucide/menu

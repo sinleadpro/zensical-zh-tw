@@ -2,7 +2,7 @@
 title: POD 列表
 description: 在電商倉儲（WMS）中利用 POD 列表追蹤「專車派車」訂單的派車狀態。
 created: 2026-03-19 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -52,8 +52,9 @@ paths:
   - POD 列表
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=8113
   - https://www.cyberbiz.io/support/?p=39973
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/pod-list
 comments: false
 search:
   exclude: false

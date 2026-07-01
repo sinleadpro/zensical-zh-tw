@@ -2,7 +2,7 @@
 title: 了解分潤功能
 description: 了解分潤功能的運作機制、適用對象與情境，協助您選擇最適合的行銷分潤方案。
 created: 2026-02-06 00:00
-last_modified: 2026-06-22 11:15
+last_modified: 2026-06-30 10:52
 lang: zh-TW
 type: guide
 status: ""
@@ -24,12 +24,9 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
+  - 企業
   - 進階
   - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
 cyb_extensions: []
 intents:
   - 了解分潤機制
@@ -56,12 +53,8 @@ paths:
   - 行銷活動 > 註冊人分潤
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/helpcenter/?p=597
-  - https://www.cyberbiz.io/helpcenter/?p=608
-  - https://www.cyberbiz.io/helpcenter/?p=579
-  - https://www.cyberbiz.io/helpcenter/?p=4116
   - https://www.cyberbiz.io/support/?p=28632
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/profit-sharing
 comments: false
 search:
   exclude: false

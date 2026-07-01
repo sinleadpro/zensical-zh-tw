@@ -2,7 +2,7 @@
 title: "設定 LINE 團購群組"
 description: "設定 LINE 團購群組的分潤方案、商品分類與活動時間，讓團購主在 LINE 群組內進行團購活動"
 created: "2026-03-12 12:14"
-last_modified: 2026-06-26 10:05
+last_modified: 2026-06-30 00:00
 lang: zh-TW
 type: tutorial
 status:
@@ -118,7 +118,7 @@ hide: []
 
     ![團購歷史紀錄](../../../../assets/images/ec-第三方整合-line團購群組-編輯頁-團購歷史紀錄.png){ title="團購歷史紀錄" }
 
-*  **分潤查詢**：若團購主需查看下單情形，商家可提供 [分潤報表下載連結](../../../profit-sharing/查詢分潤夥伴與代碼資訊.md#任務三提供第三方推薦人外部查詢連結){ data-preview } 供其查閱。
+*  **分潤查詢**：若團購主需查看下單情形，商家可提供 [分潤報表下載連結](../../../profit-sharing/query-profit-sharing-partners-and-codes.md#任務三提供第三方推薦人外部查詢連結){ title="查詢分潤夥伴與代碼" } 供其查閱。
 
 
 ## 常見問題

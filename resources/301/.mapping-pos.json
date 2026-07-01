@@ -1,0 +1,804 @@
+{
+  "generated_at": "2026-06-30 21:54",
+  "doc_dir": "docs/pos",
+  "confirmed": [
+    {
+      "doc_file": "docs/pos/business-intelligence/pos-product-analysis.md",
+      "doc_title": "POS 商品分析",
+      "expected_permalink": "https://help.cyberbiz.io/pos/business-intelligence/pos-product-analysis",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=28253"
+      ],
+      "current_permalink": "https://help.cyberbiz.io/pos/business-intelligence/pos-product-analysis/",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=28253"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/business-intelligence/pos-revenue-analysis.md",
+      "doc_title": "認識 POS 營收分析",
+      "expected_permalink": "https://help.cyberbiz.io/pos/business-intelligence/pos-revenue-analysis",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=28244"
+      ],
+      "current_permalink": "https://help.cyberbiz.io/pos/business-intelligence/pos-revenue-analysis/",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=28244"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/check/customer-display-interactive-games.md",
+      "doc_title": "客顯互動遊戲",
+      "expected_permalink": "https://help.cyberbiz.io/pos/check/customer-display-interactive-games",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=7666"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=7666"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/check/customize-manager-price-override-display.md",
+      "doc_title": "修改訂單明細頁「店長改價」的顯示名稱",
+      "expected_permalink": "https://help.cyberbiz.io/pos/check/customize-manager-price-override-display",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=26950"
+      ],
+      "current_permalink": "https://help.cyberbiz.io/pos/check/customize-manager-price-override-display",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=26950"
+      ]
+    },
+    {
+      "doc_file": "docs/pos/check/guest-checkout.md",
+      "doc_title": "訪客結帳",
+      "expected_permalink": "https://help.cyberbiz.io/pos/check/guest-checkout",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=12638"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=12638"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/check/mixed-tax-invoices.md",
+      "doc_title": "混稅發票",
+      "expected_permalink": "https://help.cyberbiz.io/pos/check/mixed-tax-invoices",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=37151",
+        "https://www.cyberbiz.io/support/?p=37500"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=37151",
+        "https://www.cyberbiz.io/support/?p=37500"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/check/payment-method/index.md",
+      "doc_title": "付款方式",
+      "expected_permalink": "https://help.cyberbiz.io/pos/check/payment-method",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=3060"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=3060"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/check/pos-manager-price-override.md",
+      "doc_title": "使用「店長改價」在 POS 前台調整單品價格",
+      "expected_permalink": "https://help.cyberbiz.io/pos/check/pos-manager-price-override",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=35268"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=35268"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/check/print-product-labels.md",
+      "doc_title": "列印商品標籤",
+      "expected_permalink": "https://help.cyberbiz.io/pos/check/print-product-labels",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=13988"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=13988"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/check/product-not-found-after-scanner-scan.md",
+      "doc_title": "掃描槍掃描後找不到商品",
+      "expected_permalink": "https://help.cyberbiz.io/pos/check/product-not-found-after-scanner-scan",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=4201"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=4201"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/hardware/epson-tm-t82iii-invoice-printer.md",
+      "doc_title": "EPSON TM-T82III有線發票機",
+      "expected_permalink": "https://help.cyberbiz.io/pos/hardware/epson-tm-t82iii-invoice-printer",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=52249"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/integrations/line/line-member-barcode-pos-checkout.md",
+      "doc_title": "設定與使用 LINE 顯示會員條碼（串接 POS 結帳）",
+      "expected_permalink": "https://help.cyberbiz.io/pos/integrations/line/line-member-barcode-pos-checkout",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=748"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=748"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/inventory/inbound-orders.md",
+      "doc_title": "進倉單",
+      "expected_permalink": "https://help.cyberbiz.io/pos/inventory/inbound-orders",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=4750",
+        "https://www.cyberbiz.io/support/?p=4781",
+        "https://www.cyberbiz.io/support/?p=4799",
+        "https://www.cyberbiz.io/support/?p=4814"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/inventory/index.md",
+      "doc_title": "全通路庫存管理指南",
+      "expected_permalink": "https://help.cyberbiz.io/pos/inventory",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=27443"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/inventory/inventory-adjustment.md",
+      "doc_title": "庫存調整",
+      "expected_permalink": "https://help.cyberbiz.io/pos/inventory/inventory-adjustment",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=3025",
+        "https://www.cyberbiz.io/support/?p=4911"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=4911",
+        "https://www.cyberbiz.io/support/?p=3025"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/inventory/outbound-orders.md",
+      "doc_title": "出倉單",
+      "expected_permalink": "https://help.cyberbiz.io/pos/inventory/outbound-orders",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=2962",
+        "https://www.cyberbiz.io/support/?p=4623"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/inventory/transfer-orders.md",
+      "doc_title": "調倉單",
+      "expected_permalink": "https://help.cyberbiz.io/pos/inventory/transfer-orders",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=3006",
+        "https://www.cyberbiz.io/support/?p=4825"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/orders/pos-order-auto-close.md",
+      "doc_title": "設定 POS 訂單自動結案",
+      "expected_permalink": "https://help.cyberbiz.io/pos/orders/pos-order-auto-close",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=23628"
+      ],
+      "current_permalink": "https://help.cyberbiz.io/pos/orders/pos-order-auto-close/",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=23628"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/others/scale-settings.md",
+      "doc_title": "秤重商品條碼",
+      "expected_permalink": "https://help.cyberbiz.io/pos/others/scale-settings",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=47792"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=47792"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/store/announcement-system.md",
+      "doc_title": "公告系統",
+      "expected_permalink": "https://help.cyberbiz.io/pos/store/announcement-system",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=3065"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=3065"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/store/pos-store-pickup-staff-commission.md",
+      "doc_title": "POS 門市取貨店員分潤",
+      "expected_permalink": "https://help.cyberbiz.io/pos/store/pos-store-pickup-staff-commission",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=10507"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=10507"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/store/renewal-and-add-on-plans.md",
+      "doc_title": "續購與加購方案",
+      "expected_permalink": "https://help.cyberbiz.io/pos/store/renewal-and-add-on-plans",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=24441"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=24441"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/store/security-settings.md",
+      "doc_title": "安全性設定",
+      "expected_permalink": "https://help.cyberbiz.io/pos/store/security-settings",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=27199",
+        "https://www.cyberbiz.io/support/?p=5231"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=27199",
+        "https://www.cyberbiz.io/support/?p=5231"
+      ],
+      "apply": true
+    },
+    {
+      "doc_file": "docs/pos/third-party/wixtar-e-invoice.md",
+      "doc_title": "設定 POS 星益欣電子發票",
+      "expected_permalink": "https://help.cyberbiz.io/pos/third-party/wixtar-e-invoice",
+      "expected_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=46379"
+      ],
+      "current_permalink": "",
+      "current_wp_urls": [
+        "https://www.cyberbiz.io/support/?p=46379"
+      ],
+      "apply": true
+    }
+  ],
+  "unmatched_csv_titles": [
+    "管理會員檔案",
+    "會員客服系統",
+    "顧客註冊流程與欄位",
+    "設定 VIP 會員專屬價格",
+    "特定網域信箱套用會員標籤",
+    "VIP 功能運作指南",
+    "建立全館VIP制度",
+    "設定新版VIP專屬優惠",
+    "批次匯入與編輯會員",
+    "建立專屬VIP群組",
+    "電子票券設定指南",
+    "設定電子票券優惠",
+    "設定電子票券門市權限",
+    "註冊人分潤",
+    "推薦人分潤",
+    "了解分潤功能",
+    "查詢宅配託運單紀錄",
+    "結帳頁與物流設定總覽",
+    "設定超商大宗寄倉 B2C",
+    "處理超過退貨期限的訂單",
+    "設定商品配送條件（物流、溫層與出貨通路）",
+    "設定結帳拆分多購物車",
+    "串接Google Pay",
+    "信用卡 3D驗證門檻設定",
+    "設定 AFTEE",
+    "宅配逆物流",
+    "設定超商店到店物流串接",
+    "串接宅配貨到付款物流",
+    "串接宅配貨到不付款/自訂物流",
+    "順豐海外物流",
+    "消費者購買流程",
+    "快速到貨訂單接單準備",
+    "快速到貨出貨與配送追蹤",
+    "缺貨訂單部分配送或取消流程",
+    "Pandago 配送異常規範",
+    "快速到貨運費計算與對帳",
+    "補印與加印託運單",
+    "Amazon FBA 跨境物流",
+    "申請全家冷凍物流 B2C",
+    "啟用部分串倉與拆單",
+    "啟用部分串倉與混單",
+    "DHL 跨境物流",
+    "北美站金流設定",
+    "日本站金流設定",
+    "申請 CYBERBIZ PAYMENTS",
+    "設定街口支付",
+    "設定 PayPal",
+    "設定 LINE Pay",
+    "東南亞站金流設定",
+    "LINEX 跨境物流",
+    "設定 Apple Pay",
+    "澳洲落地版金流設定",
+    "申請iPASS MONEY 一卡通",
+    "CYBERBIZ EXPRESS",
+    "建立並串接 Google Analytics",
+    "建立 Google Tag Manager 並串接 CYBERBIZ",
+    "設定 Google Merchant Center 並同步 CYBERBIZ 商品",
+    "設定 Google Ads 轉換追蹤",
+    "使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝",
+    "設定 Facebook 快速登入",
+    "串接美安通路",
+    "設定 LINE 快速登入",
+    "串接 LINE Messaging API",
+    "篩選與應用 LINE OA 綁定會員名單",
+    "發送 LINE 加入好友邀請",
+    "設定 LINE 綁定會員贈送優惠券",
+    "設定 LINE 圖文選單",
+    "設定 Meta 廣告活動",
+    "YouTube Shopping 設定指南",
+    "Meta 廣告每日預算設定指南",
+    "同步商品影片至 Meta 目錄",
+    "設定 GA4 排除內部流量與第三方參照來源",
+    "使用 UTM 參數追蹤行銷流量與分析成效",
+    "設定 FBE 帳號授權與資產連結",
+    "設定 Facebook 與 Instagram 商店",
+    "設定 FBE 網域驗證",
+    "註冊並驗證 Google Search Console",
+    "建立 Meta 廣告帳號並儲值",
+    "設定秘密商品群組",
+    "LINE 整合總覽",
+    "建立與驗證 Google 商家檔案",
+    "使用 Google 安全瀏覽工具檢查並排除網站安全性風險",
+    "從 Google 搜尋結果移除特定網頁或子目錄",
+    "設定與發送 LINE OA 分眾訊息推播",
+    "設定 LINE OA 受眾串接",
+    "排除商品不同步至 Facebook 與 Instagram 商店",
+    "設定 GA4 站內搜尋追蹤",
+    "設定與管理 LINE Tag",
+    "LINE 購物功能總覽",
+    "使用 LINE 團購進行購物",
+    "設定 Google 快速登入",
+    "設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結",
+    "申請與設定 LINE 直播功能",
+    "綁定 LINE 官方帳號與官網會員",
+    "自動化廣告系統",
+    "設定 LINE 快速登入時取得會員手機號碼",
+    "申請與設定 LINE 購物導購",
+    "設定 Google Analytics 進階追蹤與資料分析",
+    "在官網新增 LINE 加入好友入口",
+    "設定 Google Ads 強化轉換",
+    "設定 LIFF 自動登入與會員綁定",
+    "手動分享資產權限給 CYBERBIZ",
+    "設定 Meta 廣告的目錄商品組合",
+    "ASC 廣告投放策略與最佳實務",
+    "使用 Meta 廣告成效分析",
+    "Meta 廣告帳號閒置釋出機制與保留說明",
+    "設定 LINE 團購機器人",
+    "設定 LINE 團購商品",
+    "設定 LINE 團購群組",
+    "商家自行驗收退貨",
+    "商家進倉規範",
+    "單一品項",
+    "通路",
+    "手動建單",
+    "退貨單",
+    "庫存紀錄",
+    "官網與倉儲同步規則",
+    "現貨、限量、預購銷售",
+    "新增與設定組合商品",
+    "POS 系統串倉庫存轉調",
+    "申請流程與開通",
+    "公告",
+    "供應商",
+    "POD列表",
+    "報表通知設定",
+    "設定商品加價購",
+    "設定商品影片",
+    "新增與更新商品",
+    "Excel 大量匯入商品",
+    "設定商品色票與款式圖片-預設版型",
+    "設定超商配送限制與物流排除",
+    "設定首頁商品群組排序",
+    "設定商品自訂分類群組",
+    "設定商品限購數量",
+    "設定單品限時折扣",
+    "管理商品標籤",
+    "設定商品排除指定優惠",
+    "排除特定商品不上傳至第三方平台",
+    "設定商品條件分類群組",
+    "商品管理介面總覽",
+    "編輯商品描述與商品設定",
+    "複製商品至 POS 商店",
+    "編輯商品簡述與商品標語",
+    "設定商品到貨通知¶",
+    "設定站內搜尋功能",
+    "管理商品評論",
+    "設定商品色票與款式圖片-拖拉版型",
+    "設定前台商品篩選器",
+    "商品多層級分類滿額折扣",
+    "設定商品多層級分類",
+    "批次修改商品描述與配送設定",
+    "啟用留言區 reCAPTCHA",
+    "網域管理",
+    "保護後台帳號與顧客資料",
+    "管理系統代開消費者發票",
+    "發票",
+    "新增網站管理員並設定權限",
+    "設定網站基本資訊",
+    "設定與管理二階段驗證",
+    "使用 Authy 啟用二階段驗證設定",
+    "資安防護總覽與最佳實務",
+    "系統到期處理流程",
+    "Cloudflare SSL 衝突",
+    "無法讀取 HTTPS 根網址",
+    "如何排除未收到商家通知信件",
+    "續購與自動續約",
+    "設定前台多國語言與多幣別",
+    "設定與管理 LINE OA 通知樣板",
+    "設定與發送簡訊通知",
+    "設定與管理簡訊通知樣板",
+    "管理與管理 Email 通知樣板",
+    "設定與發送 EDM 電子報",
+    "訂單管理介面說明",
+    "訂單出貨流程",
+    "使用黑貓宅配出貨",
+    "使用宅配通出貨",
+    "使用超商大宗寄倉（B2C）出貨",
+    "操作超商店到店 C2C 出貨",
+    "如何使用自訂物流出貨",
+    "如何取消訂單",
+    "如何手動結案訂單",
+    "處理超商訂單逾期未取",
+    "設定未付款提醒",
+    "處理付款失敗訂單",
+    "使用順豐出貨",
+    "設定訂單自動結案",
+    "設定與列印訂單明細",
+    "設定與列印出貨明細",
+    "匯出定期定額子訂單預測報表",
+    "設定訂單加價購",
+    "使用黑貓快速到店出貨",
+    "設定黑貓快速到店付款方式",
+    "綠界後台訂單查詢",
+    "如何將訂單從準備出貨調整回未出貨狀態",
+    "提供顧客付款連結",
+    "匯出訂單報表",
+    "跨境電商退貨流程",
+    "操作超商退貨便 C2B",
+    "熱感列印超商托運單",
+    "第三方支付 : 人工退款",
+    "操作全家冷凍店到店 C2C 出貨",
+    "如何使用再次購買功能",
+    "設定訂單部分出貨",
+    "處理超商訂單部分出貨",
+    "使用新竹物流出貨",
+    "自動黑貓司機取件",
+    "出貨狀態物流提示文字說明",
+    "編輯訂單內容",
+    "使用超商條碼完成付款",
+    "使用 7-11 C2C 退貨便",
+    "Step1.安裝啟用",
+    "Step5.官網與蝦皮商品資訊同步",
+    "API 與 Webhook 串接指南",
+    "使用 AUTOMATION 建立自動化推播流程",
+    "會員數據智庫",
+    "搜尋與建立會員",
+    "會員身份識別",
+    "導購轉化",
+    "查看門市與個人業績報表",
+    "Step2.導入商品與建立關聯",
+    "Step3.官網與蝦皮商品庫存同步",
+    "Step4.官網商品建立為蝦皮商品",
+    "CYBERBIZ APP 功能指南",
+    "POS前台-登入教學",
+    "POS前台-結帳流程",
+    "POS前台-訂單作業",
+    "小結關帳",
+    "員工權限與帳號管理",
+    "多付款方式",
+    "Posiflex發票機安裝教學",
+    "POS前台自動登出設定",
+    "有線刷卡機安裝教學",
+    "POS開始使用",
+    "盟立發票",
+    "客顯螢幕安裝教學",
+    "Cyberbiz POS系統需求",
+    "CYBERBIZ POS 驅動程式",
+    "標籤印表機安裝教學",
+    "門市取貨訂單出貨",
+    "建立門市",
+    "POS LINEPAY掃碼支付",
+    "POS 離線模式",
+    "開啟門市取貨服務",
+    "商米刷卡機安裝教學",
+    "CYBERBIZ POS平板裝置使用說明",
+    "POS機綁定機制",
+    "POS網路連線過慢/斷線提示",
+    "POS前台-會員管理",
+    "認識 OMO 分析報表",
+    "紅利商城",
+    "盤點",
+    "部落格管理與文章發佈指南",
+    "設定商品群組前台排序",
+    "設定與修改客服中心資訊",
+    "套用與更換網站主題",
+    "設定與管理自訂頁面",
+    "建立與管理排程跑馬燈",
+    "設定快速到貨前台入口與專區",
+    "使用樣板編輯器恢復網頁代碼",
+    "設定網站標題與 SEO",
+    "設置網站客服視窗",
+    "設定網頁鎖右鍵保護圖文版權",
+    "調整首頁跑馬燈（輪播圖）的轉場停留時間",
+    "樣版編輯器操作全攻略",
+    "關閉商品圖片放大預覽功能",
+    "如何在自訂頁面中嵌入 Google 表單",
+    "設定轉貼連結縮圖",
+    "設定選單與導覽列",
+    "使用文字編輯器編輯內容",
+    "修改結帳流程為優先填寫收件人資訊",
+    "設定導覽選單滑鼠移入自動展開",
+    "設定前台選單",
+    "揭露營業人名稱與統一編號",
+    "設定前台語系與文字自定義",
+    "托拉版型網站設定",
+    "日本站官網需建立特定商取引法頁面",
+    "結帳優惠計算順序",
+    "任選折扣",
+    "設定生日禮",
+    "設定優惠碼",
+    "定期定額活動頁",
+    "一頁式商店",
+    "建立含指定商品的購物車連結",
+    "指定金流送紅利",
+    "指定物流送紅利",
+    "指定商品送紅利",
+    "將 Sitemap 提交至 Google Search Console",
+    "定期定額訂單管理",
+    "紅利點數",
+    "設定優惠券",
+    "滿額贈/滿件贈",
+    "紅配綠多組合優惠",
+    "期間限定首購禮",
+    "指定商品送優惠券",
+    "設定 301 重定向網站轉址",
+    "SEO 設定與優化指南",
+    "設定一頁式商店影片自動播放與指定時間",
+    "指定商品送活動序號",
+    "推薦碼連結的應用",
+    "設定顧客 Email 與手機雙重驗證",
+    "星益欣電子發票設定",
+    "無法下載託運單或更新貨態",
+    "在搜尋結果中排除特定關鍵字商品",
+    "安裝 Meta Ads App",
+    "圖表總覽",
+    "基本報表",
+    "商品圖表",
+    "營收分析",
+    "訂單分析",
+    "會員分析",
+    "商品分析",
+    "行銷活動分析",
+    "消費顧客分析"
+  ],
+  "unmatched_docs": [
+    {
+      "title": "POS 商品分析對照表",
+      "file": "docs/pos/business-intelligence/references/pos-product-metrics-reference.md"
+    },
+    {
+      "title": "POS 營收分析指標與欄位對照表",
+      "file": "docs/pos/business-intelligence/references/pos-revenue-metrics-reference.md"
+    },
+    {
+      "title": "設定紅利商城 (POS)",
+      "file": "docs/pos/check/bonus-point-mall.md"
+    },
+    {
+      "title": "結帳",
+      "file": "docs/pos/check/index.md"
+    },
+    {
+      "title": "LINE Pay 掃碼支付",
+      "file": "docs/pos/check/line-pay-scan-payment.md"
+    },
+    {
+      "title": "庫存不足通知",
+      "file": "docs/pos/check/low-stock-notifications.md"
+    },
+    {
+      "title": "離線結帳模式",
+      "file": "docs/pos/check/offline-checkout-mode.md"
+    },
+    {
+      "title": "設定 POS 多付款方式",
+      "file": "docs/pos/check/payment-method/multiple-payment-methods.md"
+    },
+    {
+      "title": "POS 前台核銷電子票券",
+      "file": "docs/pos/check/pos-frontend-e-ticket-redemption.md"
+    },
+    {
+      "title": "POS 前台選單設定",
+      "file": "docs/pos/check/pos-frontend-menu-settings.md"
+    },
+    {
+      "title": "列印發票明細",
+      "file": "docs/pos/check/print-invoice-details.md"
+    },
+    {
+      "title": "整筆訂單折扣",
+      "file": "docs/pos/check/storewide-order-discounts.md"
+    },
+    {
+      "title": "子機結帳綁定",
+      "file": "docs/pos/check/sub-device-checkout-binding.md"
+    },
+    {
+      "title": "大量填補商品 SKU",
+      "file": "docs/pos/get-started/bulk-update-product-skus.md"
+    },
+    {
+      "title": "建立 POS 商品",
+      "file": "docs/pos/get-started/create-pos-products.md"
+    },
+    {
+      "title": "開始使用",
+      "file": "docs/pos/get-started/index.md"
+    },
+    {
+      "title": "客顯螢幕",
+      "file": "docs/pos/hardware/customer-display-screen.md"
+    },
+    {
+      "title": "EPSON TM-M30III 發票機安裝教學 (Wi-Fi 連接)",
+      "file": "docs/pos/hardware/epson-tm-m30iii-invoice-printer.md"
+    },
+    {
+      "title": "設定 POS 掃碼槍 (HPRT N130)",
+      "file": "docs/pos/hardware/hprt-n130-barcode-scanner.md"
+    },
+    {
+      "title": "系統硬體與環境需求",
+      "file": "docs/pos/hardware/index.md"
+    },
+    {
+      "title": "標籤印表機",
+      "file": "docs/pos/hardware/label-printer.md"
+    },
+    {
+      "title": "MYPAY 無線刷卡機",
+      "file": "docs/pos/hardware/mypay-wireless-credit-card-machine.md"
+    },
+    {
+      "title": "網路連線異常與斷線提示",
+      "file": "docs/pos/hardware/network-connection-exception-and-disconnection-prompts.md"
+    },
+    {
+      "title": "Posiflex 有線發票機",
+      "file": "docs/pos/hardware/posiflex-wired-invoice-printer.md"
+    },
+    {
+      "title": "平板裝置使用說明",
+      "file": "docs/pos/hardware/tablet-device-user-guide.md"
+    },
+    {
+      "title": "台新有線刷卡機",
+      "file": "docs/pos/hardware/taishin-wired-credit-card-machine.md"
+    },
+    {
+      "title": "智能 POS 產品中心",
+      "file": "docs/pos/index.md"
+    },
+    {
+      "title": "進倉完整流程",
+      "file": "docs/pos/inventory/inbound-complete-process.md"
+    },
+    {
+      "title": "庫存盤點",
+      "file": "docs/pos/inventory/inventory-count.md"
+    },
+    {
+      "title": "出倉完整流程",
+      "file": "docs/pos/inventory/outbound-complete-process.md"
+    },
+    {
+      "title": "商品查詢",
+      "file": "docs/pos/inventory/product-query.md"
+    },
+    {
+      "title": "調倉完整流程",
+      "file": "docs/pos/inventory/transfer-complete-process.md"
+    },
+    {
+      "title": "使用 POS 前台管理會員",
+      "file": "docs/pos/member/index.md"
+    },
+    {
+      "title": "管理一般訂單",
+      "file": "docs/pos/orders/manage-general-orders.md"
+    },
+    {
+      "title": "POS 報表列表與功能說明",
+      "file": "docs/pos/orders/pos-reports-list-guide.md"
+    },
+    {
+      "title": "門市取貨訂單(入庫/取貨)",
+      "file": "docs/pos/orders/store-pickup-orders-inbound-and-pickup.md"
+    },
+    {
+      "title": "小結與關帳作業",
+      "file": "docs/pos/others/daily-closing.md"
+    },
+    {
+      "title": "驅動程式",
+      "file": "docs/pos/software/drivers.md"
+    },
+    {
+      "title": "設定前台自動登出時間",
+      "file": "docs/pos/store/setup-frontend-auto-logout-time.md"
+    },
+    {
+      "title": "登入 POS 前台系統",
+      "file": "docs/pos/store/staff-login.md"
+    },
+    {
+      "title": "員工帳號與權限管理",
+      "file": "docs/pos/store/staff-permissions-and-account-management.md"
+    },
+    {
+      "title": "申請盟立電子發票",
+      "file": "docs/pos/third-party/monolith-e-invoice.md"
+    }
+  ],
+  "updated_at": "2026-06-30 21:55"
+}

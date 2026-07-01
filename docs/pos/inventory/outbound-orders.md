@@ -2,7 +2,7 @@
 title: 出倉單
 description: 管理商品從目前倉庫撥出的單據，支援手動發起、接收請求或調倉轉單等多種情境。
 created: 2026-04-09 18:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -61,8 +61,10 @@ paths:
   - 後台 > POS 功能 > 所有 POS 商店
   - 前台 > 庫存
 layouts: []
-wp_url: []
-permalink: ""
+wp_url:
+  - https://www.cyberbiz.io/support/?p=2962
+  - https://www.cyberbiz.io/support/?p=4623
+permalink: https://help.cyberbiz.io/pos/inventory/outbound-orders
 comments: false
 search:
   exclude: false

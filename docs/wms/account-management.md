@@ -2,7 +2,7 @@
 title: 帳號管理
 description: 在 CYBERBIZ 電商倉儲系統中建立員工帳號、設定登入憑證、指派職務角色，並執行帳號停權與資料維護。
 created: 2026-03-25 20:30
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -54,7 +54,7 @@ paths:
   - 設定 > 帳號管理
 layouts: []
 wp_url: []
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/account-management
 comments: false
 search:
   exclude: false

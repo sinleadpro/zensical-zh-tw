@@ -2,7 +2,7 @@
 title: 庫存紀錄
 description: 在電商倉儲（WMS）中查詢庫存異動細節與庫齡分析，包含歷史庫存紀錄、異動明細表及庫齡報表。
 created: 2026-03-19 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -55,8 +55,9 @@ paths:
   - 庫存紀錄 > 庫存異動總表
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=5742
   - https://www.cyberbiz.io/support/?p=9159
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/inventory-records
 comments: false
 search:
   exclude: false

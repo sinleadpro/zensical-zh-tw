@@ -1,0 +1,2124 @@
+{
+    "plugin": {
+        "version": "5.5.2",
+        "date": "Sat, 27 Jun 2026 13:40:12 +0000"
+    },
+    "groups": [
+        {
+            "id": 1,
+            "name": "pos",
+            "redirects": 81,
+            "module_id": 1,
+            "moduleName": "WordPress",
+            "enabled": false
+        }
+    ],
+    "redirects": [
+        {
+            "id": 1,
+            "url": "/support/?p=748",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/integrations/line/line-member-barcode-pos-checkout"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 0,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 2,
+            "url": "/support/?p=1720",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/profit-sharing/registrant-profit-sharing"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 1,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 3,
+            "url": "/support/?p=1833",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/profit-sharing/referrer-profit-sharing"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 2,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 4,
+            "url": "/support/?p=1864",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/profit-sharing/referrer-profit-sharing"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 3,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 5,
+            "url": "/support/?p=2915",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/store/staff-login"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 4,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 6,
+            "url": "/support/?p=2923",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/check/guest-checkout"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 5,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 7,
+            "url": "/support/?p=2940",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/orders/manage-general-orders"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 6,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 8,
+            "url": "/support/?p=2962",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/inventory/outbound-orders"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 7,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 9,
+            "url": "/support/?p=3006",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/inventory/transfer-orders"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 8,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 10,
+            "url": "/support/?p=3025",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/inventory/inventory-adjustment"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 9,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 11,
+            "url": "/support/?p=3036",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/others/daily-closing"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 10,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 12,
+            "url": "/support/?p=3046",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/store/staff-permissions-and-account-management"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 11,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 13,
+            "url": "/support/?p=3060",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/check/payment-method/multiple-payment-methods"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 12,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 14,
+            "url": "/support/?p=3065",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/store/announcement-system"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 13,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 15,
+            "url": "/support/?p=3168",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/store/staff-permissions-and-account-management"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 14,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 16,
+            "url": "/support/?p=3268",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/check/payment-method/multiple-payment-methods"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 15,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 17,
+            "url": "/support/?p=3623",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/marketing/purchase-restrictions/exclude-products-from-promotions"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 16,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 18,
+            "url": "/support/?p=4201",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/check/product-not-found-after-scanner-scan"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 17,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 19,
+            "url": "/support/?p=4225",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/hardware/posiflex-wired-invoice-printer"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 18,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 20,
+            "url": "/support/?p=4259",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/store/setup-frontend-auto-logout-time"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 19,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 21,
+            "url": "/support/?p=4518",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/hardware/taishin-wired-credit-card-machine"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 20,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 22,
+            "url": "/support/?p=4623",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/inventory/outbound-orders"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 21,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 23,
+            "url": "/support/?p=4750",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/inventory/inbound-orders"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 22,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 24,
+            "url": "/support/?p=4781",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/inventory/inbound-orders"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 23,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 25,
+            "url": "/support/?p=4799",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/inventory/inbound-orders"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 24,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 26,
+            "url": "/support/?p=4814",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/inventory/inbound-orders"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 25,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 27,
+            "url": "/support/?p=4825",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/inventory/transfer-orders"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 26,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 28,
+            "url": "/support/?p=4911",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/inventory/inventory-adjustment"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 27,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 29,
+            "url": "/support/?p=5012",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/get-started/create-pos-products"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 28,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 30,
+            "url": "/support/?p=5064",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/hardware/posiflex-wired-invoice-printer"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 29,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 31,
+            "url": "/support/?p=5189",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/third-party/monolith-e-invoice"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 30,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 32,
+            "url": "/support/?p=5231",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/store/security-settings"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 31,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 33,
+            "url": "/support/?p=5578",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/hardware/customer-display-screen"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 32,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 34,
+            "url": "/support/?p=6429",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/marketing/other-tools/interactive-games"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 33,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 35,
+            "url": "/support/?p=7666",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/check/customer-display-interactive-games"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 34,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 36,
+            "url": "/support/?p=7844",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/check/payment-method/multiple-payment-methods"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 35,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 37,
+            "url": "/support/?p=9439",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/software/drivers"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 36,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 38,
+            "url": "/support/?p=9556",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/software/drivers"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 37,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 39,
+            "url": "/support/?p=9723",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/hardware/label-printer"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 38,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 40,
+            "url": "/support/?p=9803",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/marketing/other-tools/interactive-games"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 39,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 41,
+            "url": "/support/?p=10418",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/orders/store-pickup-orders"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 40,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 42,
+            "url": "/support/?p=10454",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/create-stores"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 41,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 43,
+            "url": "/support/?p=10488",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/orders/store-pickup-orders-inbound-and-pickup"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 42,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 44,
+            "url": "/support/?p=10507",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/store/pos-store-pickup-staff-commission"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 43,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 45,
+            "url": "/support/?p=10522",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/orders/store-pickup-orders"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 44,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 46,
+            "url": "/support/?p=11171",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/check/line-pay-scan-payment"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 45,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 47,
+            "url": "/support/?p=11985",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/products/bulk-operations/copy-products-to-pos-stores"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 46,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 48,
+            "url": "/support/?p=12155",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/third-party/monolith-e-invoice"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 47,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 49,
+            "url": "/support/?p=12638",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/check/guest-checkout"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 48,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 50,
+            "url": "/support/?p=12654",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/check/offline-checkout-mode"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 49,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 51,
+            "url": "/support/?p=12804",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/create-stores"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 50,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 52,
+            "url": "/support/?p=13988",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/check/print-product-labels"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 51,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 53,
+            "url": "/support/?p=15619",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/store-pickup/enable-store-pickup-service"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 52,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 54,
+            "url": "/support/?p=19363",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/create-stores"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 53,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 55,
+            "url": "/support/?p=21480",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/hardware/taishin-wired-credit-card-machine"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 54,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 56,
+            "url": "/support/?p=21520",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/hardware/tablet-device-user-guide"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 55,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 57,
+            "url": "/support/?p=23628",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/orders/pos-order-auto-close"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 56,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 58,
+            "url": "/support/?p=23951",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/profit-sharing/referrer-profit-sharing"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 57,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 59,
+            "url": "/support/?p=24441",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/store/renewal-and-add-on-plans"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 58,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 60,
+            "url": "/support/?p=25293",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/check/sub-device-checkout-binding"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 59,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 61,
+            "url": "/support/?p=26950",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/check/customize-manager-price-override-display"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 60,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 62,
+            "url": "/support/?p=27029",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/hardware/network-connection-exception-and-disconnection-prompts"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 61,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 63,
+            "url": "/support/?p=27199",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/store/security-settings"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 62,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 64,
+            "url": "/support/?p=27443",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/wms/channels"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 63,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 65,
+            "url": "/support/?p=27954",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/orders/manage-general-orders"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 64,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 66,
+            "url": "/support/?p=28244",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/business-intelligence/pos-revenue-analysis"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 65,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 67,
+            "url": "/support/?p=28253",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/business-intelligence/pos-product-analysis"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 66,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 68,
+            "url": "/support/?p=28461",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/hardware/label-printer"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 67,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 69,
+            "url": "/support/?p=28632",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/profit-sharing/referrer-profit-sharing"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 68,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 70,
+            "url": "/support/?p=33261",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/business-intelligence/omo-analysis-report"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 69,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 71,
+            "url": "/support/?p=35268",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/check/pos-manager-price-override"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 70,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 72,
+            "url": "/support/?p=35526",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/check/bonus-point-mall"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 71,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 73,
+            "url": "/support/?p=35549",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/check/bonus-point-mall"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 72,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 74,
+            "url": "/support/?p=37151",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/check/mixed-tax-invoices"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 73,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 75,
+            "url": "/support/?p=37500",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/check/mixed-tax-invoices"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 74,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 76,
+            "url": "/support/?p=39234",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/profit-sharing/referrer-profit-sharing"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 75,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 77,
+            "url": "/support/?p=39410",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/inventory/inventory-count"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 76,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 78,
+            "url": "/support/?p=46379",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/third-party/wixtar-e-invoice"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 77,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 79,
+            "url": "/support/?p=47792",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/others/scale-settings"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 78,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 80,
+            "url": "/support/?p=51450",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/hardware/taishin-wired-credit-card-machine"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 79,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 81,
+            "url": "/support/?p=52249",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/pos/hardware/epson-tm-t82iii-invoice-printer"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 80,
+            "last_access": "-",
+            "enabled": false
+        }
+    ]
+}

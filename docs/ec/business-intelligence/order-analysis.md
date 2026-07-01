@@ -2,7 +2,7 @@
 title: 訂單分析
 description: 使用訂單分析頁面查看銷售趨勢、金物流偏好與業績報表
 created: 2026-06-15
-last_modified: 2026-06-30 13:17
+last_modified: 2026-06-30 21:21
 lang: zh-TW
 type: tutorial
 status: ""
@@ -64,10 +64,10 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5043
-  - https://www.cyberbiz.io/support/?p=9602
   - https://www.cyberbiz.io/support/?p=8473
   - https://www.cyberbiz.io/support/?p=8714
-permalink: "https://help.cyberbiz.io/ec/business-intelligence/order-analysis/"
+  - https://www.cyberbiz.io/support/?p=9602
+permalink: https://help.cyberbiz.io/ec/business-intelligence/order-analysis
 comments: false
 search:
   exclude: false

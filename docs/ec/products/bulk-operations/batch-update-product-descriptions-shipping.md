@@ -2,7 +2,7 @@
 title: 批次修改商品描述與配送設定
 description: 透過 Excel 批次匯出、編輯與上傳，一次更新多筆商品的描述、溫層、配送方式與銷售通路，大幅節省人工維護時間。
 created: 2026-03-05 10:50
-last_modified: 2026-06-29 16:25
+last_modified: 2026-06-30 11:26
 lang: zh-TW
 type: tutorial
 status: ""
@@ -24,10 +24,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 feature_badges: []
 intents:

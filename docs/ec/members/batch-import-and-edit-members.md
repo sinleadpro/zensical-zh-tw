@@ -2,7 +2,7 @@
 title: 批次匯入 / 編輯會員
 description: 透過 Excel 檔案，您可以快速完成大量會員的資料建立或內容異動，包含聯絡資訊、紅利點數初始化及行銷標籤管理。
 created: 2026-02-11 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 12:30
 lang: zh-TW
 type: tutorial
 status: ""
@@ -22,7 +22,11 @@ audiences:
   - admin
 difficulty: intermediate
 tnb: trunk
-plans: []
+plans:
+  - 企業
+  - 專業
+  - 進階
+  - 高手
 cyb_extensions: []
 intents:
   - 大量導入新會員
@@ -51,7 +55,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6879
   - https://www.cyberbiz.io/support/?p=24549
   - https://www.cyberbiz.io/support/?p=36678
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/members/batch-import-and-edit-members
 comments: false
 search:
   exclude: false

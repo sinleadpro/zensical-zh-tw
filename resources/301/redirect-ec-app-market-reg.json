@@ -7,7 +7,7 @@
         {
             "id": 8,
             "name": "ec-app-market",
-            "redirects": 9,
+            "redirects": 10,
             "module_id": 1,
             "moduleName": "WordPress",
             "enabled": false
@@ -245,6 +245,32 @@
             "regex": false,
             "group_id": 8,
             "position": 8,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 10,
+            "url": "/helpcenter/?p=365",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 9,
             "last_access": "-",
             "enabled": false
         }

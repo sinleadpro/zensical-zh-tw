@@ -2,7 +2,7 @@
 title: 行銷活動分析
 description: 一次掌握折扣、優惠券與紅利的成效，了解哪些行銷活動真正帶動訂單與營收
 created: 2026-06-16
-last_modified: 2026-06-23 21:03
+last_modified: 2026-06-30 21:21
 lang: zh-TW
 type: tutorial
 status: ""
@@ -68,8 +68,10 @@ ui_components:
 paths:
   - 經營分析 > 行銷活動分析
 layouts: []
-wp_url: []
-permalink: "https://help.cyberbiz.io/ec/business-intelligence/marketing-activity-analysis/"
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=5056
+  - https://www.cyberbiz.io/helpcenter/?p=8101
+permalink: https://help.cyberbiz.io/ec/business-intelligence/marketing-activity-analysis
 comments: false
 search:
   exclude: false

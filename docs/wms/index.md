@@ -1,5 +1,6 @@
 ---
 title: 智慧倉儲 (WMS) 產品中心
+permalink: https://help.cyberbiz.io/wms
 hide:
   - toc
   - path

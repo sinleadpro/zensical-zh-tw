@@ -2,7 +2,7 @@
 title: 使用宅配通出貨
 description: 使用宅配通出貨。包含批次下載託運單、單筆與部分出貨、補印託運單等操作，以及運費計價規則與常見問題。
 created: 2026-05-19 21:30
-last_modified: 2026-06-30 10:30
+last_modified: 2026-07-01 09:39
 lang: zh-TW
 type: tutorial
 status: ""
@@ -62,7 +62,6 @@ devices:
 ui_components: []
 paths:
   - 訂單 > 所有訂單
-  - 管理中心 > 一般設定
   - 金物流 > 宅配通託運單
   - 宅配託運單管理 > 宅配通託運單
 layouts: []
@@ -115,7 +114,7 @@ hide: []
 
 首次使用宅配通出貨前，請先完成下列設定：
 
-- [x] **公司物流地址**(批次出貨用)：至「管理中心」>「一般設定」設定宅配通專用的公司物流地址。批次下載託運單時，彈窗內也可以當次調整。
+- [x] **宅配通寄件人地址**(批次出貨用)：至「金物流」>「[宅配通託運單](../../payments-and-logistics/setup-pelican-waybill.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" }」設定寄件人地址，若無設定則會導致出貨時出現「寄件人資訊不完整」的通知。
 - [x] **宅配通寄件人資料**(加印託運單與逆物流用)：至「金物流」>「宅配通託運單」頁面的「宅配通設定」區塊填寫，詳見 [宅配通託運單管理頁](../../payments-and-logistics/setup-pelican-waybill.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" } 。
 
 ---
@@ -180,12 +179,12 @@ hide: []
     ![下載宅配通託運單](../../../assets/images/EC-訂單-所有訂單-下載宅配通託運單.png){ title="下載宅配通託運單" }
 
 5. **檢視運費明細**：彈窗 中段會列出本批次要扣除的 Cyber 幣或對帳金額，請確認與[預期相符](#pricing-pelican-extra){ data-preview }。
-6. **確認寄件公司地址**：彈窗內會顯示您的 [公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" }。若需臨時調整，可點擊 **更改** 修改。
+6. **確認寄件地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [宅配通設定](../../payments-and-logistics/setup-pelican-waybill.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" } 中的地址），如需更改可點擊 **「更改」** 按鈕編輯[^4]。
 
     ![下載宅配通託運單](../../../assets/images/EC-訂單-所有訂單-下載宅配通託運單-彈窗.png){ title="下載宅配通託運單" }
 
-    ??? tip "需要自訂寄件資訊？"
-         若你的寄件地址需要不同於公司物流地址(例如倉庫地址)，或需要自訂寄件人姓名、電話、託運單預設品名，請另到 金物流 > 宅配通託運單 於「[宅配通設定](../../payments-and-logistics/setup-pelican-waybill.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" }」區塊填寫並儲存。
+    ??? tip "需要自訂寄件人姓名 / 電話？"
+         若您希望託運單上的寄件人聯絡電話與姓名不同於預設值，可至 **金物流 > 宅配通託運單** 的「[宅配通設定](../../payments-and-logistics/setup-pelican-waybill.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" }」區塊填寫並儲存。
 
 7. **同意條款**：勾選頁面底部的 **「我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 宅配通合約規範」** 。
 8. **確認下載**：點擊 **「確認」**。系統會建立託運單、扣除運費，並將訂單貨態更新為「[已出貨(待物流收件)](shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }」。
@@ -197,6 +196,7 @@ hide: []
 10. **預約收件**：列印完成後請聯繫宅配通客服預約收件，或依您與宅配通約定的固定取件時段準備出貨。收件後，訂單詳情頁內狀態會顯示為「[已出貨(配送中)](shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }」。
 
 [^1]: 勾選的訂單若包含非宅配通訂單(例如混雜黑貓、超商取貨)，彈窗會無法開啟或在送出時跳錯。請先用「配送方式」篩選器確保批次內物流類型一致。
+[^4]: 修改後會同步更新該物流頁面地址，不同物流間及公司物流地址互不影響。
 
 ---
 

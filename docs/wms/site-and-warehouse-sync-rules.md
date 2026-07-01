@@ -2,7 +2,7 @@
 title: 官網與倉儲同步規則
 description: 了解官網（EC）與電商倉儲（WMS）間的庫存同步邏輯、訂單拋轉機制以及出貨的基本規則，確保訂單能順利履行。
 created: 2026-03-20 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: guide
 status: ""
@@ -55,8 +55,9 @@ paths:
   - 訂單管理 > 所有訂單
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=5711
   - https://www.cyberbiz.io/support/?p=9638
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/site-and-warehouse-sync-rules
 comments: false
 search:
   exclude: false

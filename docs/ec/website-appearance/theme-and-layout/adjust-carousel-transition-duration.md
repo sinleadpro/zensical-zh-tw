@@ -2,7 +2,7 @@
 title: 調整首頁跑馬燈（輪播圖）的轉場停留時間
 description: 修改樣板檔案中的 delay 參數，調整首頁跑馬燈（輪播圖）的轉場停留時間。
 created: 2025-03-03 14:20
-last_modified: 2026-06-26T12:07:45+08:00
+last_modified: 2026-06-30 21:35
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,10 +23,13 @@ audiences:
 difficulty: advanced
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 調整跑馬燈轉場時間
@@ -58,7 +61,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1643
   - https://www.cyberbiz.io/helpcenter/?p=3558
   - https://www.cyberbiz.io/support/?p=17225
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/adjust-carousel-transition-duration
 comments: ""
 search:
   exclude: ""
@@ -109,7 +112,7 @@ pagination: {
 ## 重要注意事項
 
 - **責任歸屬：** CYBERBIZ 提供程式碼修改權限，但 **不提供語法教學或代碼撰寫服務**，建議由貴公司技術人員執行。
-- **恢復機制**：若修改後導致頁面異常，可點擊編輯器中的 **查看之前版本**，可[回溯至先前版本](restore-code-theme-editor.md#操作步驟){ data-preview }。
+- **恢復機制**：若修改後導致頁面異常，可點擊編輯器中的 **查看之前版本**，可[回溯至先前版本](../code-customization/restore-code-theme-editor.md#操作步驟){ title="使用樣板編輯器恢復網頁代碼" }。
 
 ## 常見問題
 

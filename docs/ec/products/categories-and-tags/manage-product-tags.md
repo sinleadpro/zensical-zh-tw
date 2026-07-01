@@ -2,9 +2,9 @@
 title: 管理商品標籤
 description: 為商品建立與管理自訂標籤，以便分類、篩選、行銷應用及控制第三方平台同步。
 created: 2026-03-08 10:00
-last_modified: 2026-06-29 14:24
+last_modified: 2026-06-30 11:26
 lang: zh-TW
-permalink:
+permalink: https://help.cyberbiz.io/ec/products/categories-and-tags/manage-product-tags
 type: tutorial
 status: ""
 version: ""
@@ -21,10 +21,13 @@ sites:
   - TW
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 audiences:
   - admin

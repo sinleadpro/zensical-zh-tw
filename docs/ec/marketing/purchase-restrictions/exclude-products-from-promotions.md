@@ -2,7 +2,7 @@
 title: 設定商品排除指定優惠
 description: 設定特定商品無法參與「全館活動」、「優惠券」、「商品多層級分類滿額折扣」及「VIP 優惠」等行銷活動。
 created: 2026-01-13 00:00
-last_modified: 2026-06-24 13:46
+last_modified: 2026-06-30 10:56
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/marketing/purchase-restrictions/exclude-products-from-promotions
 type: tutorial
@@ -27,10 +27,13 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 feature_badges:
   - EC

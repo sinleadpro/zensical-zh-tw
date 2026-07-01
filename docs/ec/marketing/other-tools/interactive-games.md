@@ -2,7 +2,7 @@
 title: 互動遊戲 (EC)
 description: 透過轉盤、紅包或寶箱等趣味遊戲，發放優惠券、紅利點數 or 贈品，提升會員參與度與轉單率，支援 EC 與 POS 雙通路。
 created: 2026-01-21 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 10:56
 lang: zh-TW
 type: tutorial
 status: ""
@@ -24,9 +24,6 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -55,8 +52,8 @@ paths:
   - 行銷活動 > 互動遊戲
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/helpcenter/?p=5804
   - https://www.cyberbiz.io/helpcenter/?p=11192
+  - https://www.cyberbiz.io/helpcenter/?p=5804
   - https://www.cyberbiz.io/support/?p=6429
   - https://www.cyberbiz.io/support/?p=9803
 permalink: https://help.cyberbiz.io/ec/marketing/other-tools/interactive-games

@@ -2,7 +2,7 @@
 title: 啟用留言區 reCAPTCHA
 description: 申請並綁定 Google reCAPTCHA 金鑰，防止機器人攻擊與垃圾留言。
 created: 2026-03-05 17:15
-last_modified: 2026-06-24 18:00
+last_modified: 2026-06-30 11:01
 lang: zh-TW
 type: tutorial
 status: 
@@ -24,10 +24,13 @@ sites:
   - TW
 tnb: branch
 plans:
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 audiences:
   - admin
@@ -63,7 +66,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12371
   - https://www.cyberbiz.io/support/?p=50193
-permalink:
+permalink: https://help.cyberbiz.io/ec/website-appearance/customer-interaction/enable-comment-recaptcha
 comments: false
 search:
   exclude: false

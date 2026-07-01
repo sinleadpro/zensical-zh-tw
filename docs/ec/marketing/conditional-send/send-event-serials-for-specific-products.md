@@ -2,7 +2,7 @@
 title: 指定商品送活動序號
 description: 建立「序號群組」，當顧客購買指定商品並付款後，系統自動發送專屬活動序號，適用於票券、兌換碼或抽獎活動。
 created: 2026-01-21 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 10:56
 lang: zh-TW
 type: tutorial
 status: ""
