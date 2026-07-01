@@ -2,7 +2,7 @@
 title: 使用超商大宗寄倉（B2C）出貨
 description: 於訂單列表批次下載託運單、產生託運單號，並將集中包裝的貨件寄至超商物流中心，再由物流中心分發至消費者指定門市。
 created: 2026-05-25 20:35
-last_modified: 2026-06-30 14:07
+last_modified: 2026-07-01 12:30
 lang: zh-TW
 type: tutorial
 status: ""
@@ -40,9 +40,7 @@ features:
 prerequisites:
   - "[[setup-cvs-b2c-bulk-shipping]]"
 related:
-  - "[[cvs-b2c-logistics-center-reference]]"
   - "[[cvs-b2c-channel-spec-reference]]"
-  - "[[cvs-b2c-plans-pricing-reference]]"
 tags:
   - 超商大宗寄倉
   - B2C 出貨
@@ -84,7 +82,7 @@ hide: []
 - [x] **通路已設定並啟用**：需先於「[設定超商大宗寄倉 B2C](../../payments-and-logistics/setup-cvs-b2c-bulk-shipping.md){ title="設定超商大宗寄倉 B2C" }」完成申請、測標、啟用。
 - [x] **訂單狀態符合**：付款狀態需為「**已收到款項**」或「**貨到付款**」，配送狀態需為「**未出貨**」或「**處理中**」。
 - [x] **同一批次需同通路**：勾選的訂單必須屬於同一家超商（例：皆為 7-ELEVEN），不同通路需分批操作。
-- [x] **Cyber 幣餘額充足**：一般版 商家需確認餘額足以扣除運費，詳見 [計費方式](../../payments-and-logistics/references/cvs-b2c-plans-pricing-reference.md#reference-cvs-b2c-plans-billing){ title="超商大宗寄倉B2C方案與計費對照" data-preview }。
+- [x] **Cyber 幣餘額充足**：一般版 商家需確認餘額足以扣除運費。
 
 ## 操作步驟 { #operate-cvs-b2c-shipping }
 
@@ -181,8 +179,7 @@ hide: []
 ## 重要規範與限制 { #specs-cvs-b2c-shipping }
 
 * **出貨不可逆**：一旦下載託運單，訂單狀態即變為「已出貨」，且 **無法修改收貨資訊**。請於下載前確認資料正確。
-* **CYBER 幣餘額不足將擋下載**：一般版 商家若 CYBER 幣不足，系統會直接擋下載並提示「CYBER 幣餘額不足」。詳見
-[計費方式](../../payments-and-logistics/references/cvs-b2c-plans-pricing-reference.md#reference-cvs-b2c-plans-billing){ title="超商大宗寄倉B2C方案與計費對照" data-preview }。
+* **CYBER 幣餘額不足將擋下載**：一般版 商家若 CYBER 幣不足，系統會直接擋下載並提示「CYBER 幣餘額不足」。
 * **重量與材積限制**：訂單總重量 / 材積若超過該通路上限將無法產生託運單，詳見
 [重量與材積限制](../../payments-and-logistics/references/cvs-b2c-channel-spec-reference.md#reference-cvs-b2c-channels-specs){ title="超商大宗寄倉B2C通路規格" data-preview }。
 * **5 天交寄期限**：託運單產生隔日起 5 天內未送達物流中心將自動失效，且無法補印或退費。
@@ -214,7 +211,7 @@ hide: []
     - 勾選的訂單包含 **不同通路**（例如同時勾了 7-ELEVEN 與全家）
     - 訂單付款狀態不符（需為「已收到款項」或「貨到付款」）
     - 訂單配送狀態已是「已出貨」或「已取消」
-    - [CYBER 幣餘額不足](../../payments-and-logistics/references/cvs-b2c-plans-pricing-reference.md#reference-cvs-b2c-plans-billing){ title="超商大宗寄倉B2C方案與計費對照" data-preview } 確認
+    - CYBER 幣餘額不足 確認
 
 ??? quote "點擊下載託運單後沒有反應怎麼辦？"
     [](){ #faq-cvs-b2c-shipping-no-response }
@@ -261,7 +258,4 @@ hide: []
     
     請務必使用 **雷射印表機** 搭配 **2x3 規格貼紙** 列印，避免條碼模糊無法判讀。將標籤貼平於外包裝 **左上角**，並確保條碼與 QR Code 不可凹折或被膠帶覆蓋。
 
-## 參考資料
-
-* [超商大宗寄倉B2C方案與計費對照](../../payments-and-logistics/references/cvs-b2c-plans-pricing-reference.md#reference-cvs-b2c-plans-billing){ title="超商大宗寄倉B2C方案與計費對照" data-preview }
 

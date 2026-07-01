@@ -3,7 +3,7 @@ title: 訂單出貨流程
 permalink: https://help.cyberbiz.io/ec/orders/basics/order-fulfillment-flow
 version: ""
 author: Jase
-last_modified: 2026-06-30 08:53
+last_modified: 2026-07-01 12:30
 description: ""
 product:
   - EC
@@ -120,7 +120,6 @@ icon: lucide/workflow
 - **一般版：** 下載託運單時即時預扣 Cyber幣。
 - **具備對帳中心的方案：** 運費列入對帳單，於帳期結算，出貨當下不扣款。
 
-<!--各物流商的費率明細，可參考 [黑貓託運單規格與費用對照表](../../payments-and-logistics/references/tcat-delivery-rate-card.md){ title="黑貓宅配託運單規格與費用對照表" data-preview }。-->
 
 ---
 
@@ -326,7 +325,6 @@ icon: lucide/workflow
 
 - [配送狀態對照表](../references/fulfillment-statuses.md){ title="配送狀態對照表" }
 - [超商物流部分出貨支援對照表](../references/cvs-partial-shipping-support.md){ title="超商物流部分出貨支援對照表" }
-- [黑貓託運單規格與費用對照表](../../payments-and-logistics/references/tcat-delivery-rate-card.md){ title="黑貓宅配託運單規格與費用對照表" }
 <!---
 <!---
 

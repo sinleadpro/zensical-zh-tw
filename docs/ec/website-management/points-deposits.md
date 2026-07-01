@@ -2,7 +2,7 @@
 title: Cyber 幣儲值中心使用指南
 description: Cyber 幣儲值中心使用指南，包含儲值步驟、發票資訊填寫、付款方式與使用明細查詢。
 created: 2026-04-28 10:38
-last_modified: 2026-06-26 16:12
+last_modified: 2026-07-01 12:00
 lang: zh-TW
 type: guide
 status: ""
@@ -125,19 +125,7 @@ Cyber幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項加值�
 
 ## 服務計費說明
 
-### 簡訊 <small>SMS</small> { #sms }
 
-| 類型 | 費用 |
-|------|------|
-| 國內簡訊 | 1 Cyber 幣 / 則 |
-| 國外簡訊 | 5 Cyber 幣 / 則 |
-
-
-!!! info "每則簡訊最多 70 個中文字（或 160 個英文字元）。自動發送相關設定請參閱「[簡訊樣板設定](../notifications/manage-sms-templates.md){ title="設定與管理簡訊通知樣板" }」。"
-
-![簡訊追蹤服務](../../assets/images/ec-管理中心-儲值中心-簡訊追蹤服務.png)
-
----
 
 ### 電子報 <small>EDM</small> { #edm }
 
@@ -298,7 +286,7 @@ Cyber幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項加值�
 
 - :lucide-message-square-text:{ .lg }   
   [__簡訊樣板設定__](../notifications/manage-sms-templates.md){ title="簡訊樣板設定" }   
-  設定自動發送的簡訊內容與樣板，並了解簡訊計費方式。
+   設定自動發送的簡訊內容與樣板。
 
 - :lucide-mail:{ .lg }   
   [__EDM 電子報設定__](../notifications/send-edm-newsletters.md){ title="EDM 電子報設定" }   
@@ -332,9 +320,7 @@ Cyber幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項加值�
 
     若您的帳號為 PLUS版 或企業版，相關費用將自動列入對帳單，不需手動操作儲值流程。系統會在「Cyber 幣購買中心」區塊顯示「無需儲值」提示。
 
-??? quote "簡訊內容超過 70 個字會如何計費？"
 
-    簡訊計費以 70 個字為單位。若內容超過 70 字（含空白與網址），系統將自動拆分為多封發送，並按封數累計扣費（國內簡訊每封扣除 1 點 Cyber 幣）。
 
 ??? quote "匯出時顯示「已有匯出排程進行中」怎麼辦？"
 

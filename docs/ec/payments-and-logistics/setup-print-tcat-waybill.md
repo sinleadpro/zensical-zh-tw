@@ -2,7 +2,7 @@
 title: 設定與加印黑貓託運單
 description: 管理黑貓宅急便託運單的完整指南，包含設定寄件人資訊、加印純配送託運單、建立黑貓逆物流退貨取件，以及查詢託運單號使用紀錄與 Cyber 幣扣款對帳。
 created: 2026-05-15 14:21
-last_modified: 2026-06-28 12:40
+last_modified: 2026-07-01 12:30
 lang: zh-TW
 type: tutorial
 status: ""
@@ -108,7 +108,7 @@ hide: []
 
 ## 計費規則 { #ezcat-shipping-note-billing }
 
-黑貓託運單採 **Cyber 幣預扣** 制，於列印或建立逆物流時即時扣抵。詳細費率、尺寸規格與額外費用，請參閱 [**黑貓宅配託運單規格與費用對照表**](references/tcat-delivery-rate-card.md){ title="黑貓宅配託運單規格與費用對照表" data-preview }。
+黑貓託運單採 **Cyber 幣預扣** 制，於列印或建立逆物流時即時扣抵。
 
 !!! info "頁面最上方計費資訊"
     頁面頂端會依您的方案顯示對應的計費資訊：
@@ -220,7 +220,7 @@ hide: []
 
 ## 查詢紀錄與對帳 { #ezcat-shipping-note-records }
 
-頁面下方提供三份歷史紀錄表，所有資料皆可使用右上角搜尋框關鍵字過濾，點擊欄位標題可切換排序。有關運費計算與繁盛期加收等細節，請參閱 [黑貓宅配託運單規格與費用對照表](references/tcat-delivery-rate-card.md){ title="黑貓宅配託運單規格與費用對照表" data-preview }。
+頁面下方提供三份歷史紀錄表，所有資料皆可使用右上角搜尋框關鍵字過濾，點擊欄位標題可切換排序。
 
 ### 黑貓轉單紀錄 { #ezcat-shipping-note-transfer-records }
 
@@ -263,7 +263,7 @@ hide: []
 
 
 !!! note "註釋"
-    「客戶選定 Cyber 幣額度」與「確認扣除 Cyber 幣額度」差值會發生於 [額外費用](references/tcat-delivery-rate-card.md#tcat-extra-fees){ title="額外費用說明" } 情境(溫層誤標 +50、繁盛期 +10 等)。
+    「客戶選定 Cyber 幣額度」與「確認扣除 Cyber 幣額度」差值會發生於溫層誤標、繁盛期等特殊情境。
 
 ## 後續操作
 
@@ -351,6 +351,3 @@ hide: []
     * 同一天在「訂單列表」對任一筆當日要出貨的訂單啟用 [自動呼叫黑貓司機取件](../orders/home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" data-preview }；司機到場後會一併收走當天所有待寄包裹（含加印的部分），不需逐張綁定託運單。
     * 自行致電黑貓客服安排取件，或將包裹送至黑貓營業所交件。
 
-## 參考資料 { #ezcat-shipping-note-references }
-
-- [黑貓宅配託運單規格與費用對照表](references/tcat-delivery-rate-card.md){ title="黑貓宅配託運單規格與費用對照表" }
