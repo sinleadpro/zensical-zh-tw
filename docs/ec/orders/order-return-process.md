@@ -180,9 +180,16 @@ hide: []
 
     1. 前往 **訂單 > 所有訂單**。
     2. 勾選指定訂單，點選 **退貨審查** > **已退貨**。
-    3. 狀態更動後，請接續進行 [退款操作](order-refund-process.md)。
 
-    ![](../../assets/images/EC-後台-訂單-所有訂單-操作已退貨拒絕退貨01.png)
+        ![](../../assets/images/EC-後台-訂單-所有訂單-操作已退貨拒絕退貨01.png)
+
+    3. 訂單若由 CYBERBIZ 人工退款，請依照顧客提供的退款資料填寫 **人工退款資料**。
+
+        ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款09.png){ .small-image }
+
+    4. 狀態更動後，請接續進行 [退款操作](order-refund-process.md)。
+
+    
 
 === "部分退貨"
 
@@ -191,16 +198,28 @@ hide: []
     1. 前往 **訂單 > 所有訂單**。
     2. 勾選指定訂單，點選 **退貨審查** 後，進入訂單明細頁。
     3. 找到 **部分退款** 區塊，勾選核准退回的商品與輸入退款數量。
+
+        ![](../../assets/images/EC-後台-訂單-所有訂單-操作部分退款01.png)
+
     4. 輸入 **退款金額**（系統會代入原價總計，商家可手動調整）。
-    5. 點擊 **確認退款**，`退貨狀態`將更新為 `部分退貨`。
-    6. 狀態更動後，請接續進行 [退款操作](order-refund-process.md)。
+    5. 訂單若由 CYBERBIZ 人工退款，請依照顧客提供的退款資料填寫 **人工退款資料**。
+
+        ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款09.png){ .small-image }
+
+    6. 點擊 **確認**，`退貨狀態`將更新為 `部分退貨`。
+
+        ![](https://www.cyberbiz.io/support/wp-content/uploads/部分退貨退款08.png){ .small-image }
+
+    7. 狀態更動後，請接續進行 [退款操作](order-refund-process.md)。
+
+        ![](https://www.cyberbiz.io/support/wp-content/uploads/部分退貨退款09.png){ .small-image }
 
     !!! warning "注意事項"
         - 分期付款訂單無法使用部分退貨 (退款)功能。
         - 消費者當日付款，隔日才能操作部分退貨。
         - 每筆訂單僅接受一次部分退貨申請。
 
-    ![](../../assets/images/EC-後台-訂單-所有訂單-操作部分退款01.png)
+    
 
 === "拒絕退貨"
 

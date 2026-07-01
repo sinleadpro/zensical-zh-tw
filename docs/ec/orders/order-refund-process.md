@@ -171,12 +171,8 @@ hide: []
 
         ![](../../assets/images/EC-後台-訂單-所有訂單-訂單顯示待退款待部分退款01.png)
 
-    3. 依照顧客提供的退款資料填寫 **人工退款資料**。
-
-        ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款09.png){ .small-image }
-
-    4. CYBERBIZ 財務團隊將於 **7-10 個工作日** 內完成撥款。
-    5. 撥款完成後，`付款狀態`自動更新為 **已退款** 或 **已部分退款**。
+    3. CYBERBIZ 財務團隊將於 **7-10 個工作日** 內完成撥款。
+    4. 撥款完成後，`付款狀態`自動更新為 **已退款** 或 **已部分退款**。
 
         ![](../../assets/images/EC-後台-訂單-所有訂單-訂單顯示已退款01.png)
 
