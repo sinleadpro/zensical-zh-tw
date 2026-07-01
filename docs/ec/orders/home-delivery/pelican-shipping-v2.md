@@ -2,7 +2,7 @@
 title: 使用宅配通出貨
 description: 使用宅配通出貨。包含批次下載託運單、單筆與部分出貨、補印託運單等操作，以及運費計價規則與常見問題。
 created: 2026-05-19 21:30
-last_modified: 2026-07-01 17:58
+last_modified: 2026-07-01 20:45
 lang: zh-TW
 type: tutorial
 status: ""
@@ -45,10 +45,10 @@ features:
   - 逆物流退貨
 prerequisites:
   - 需先開通宅配通託運單功能（聯繫 CYBERBIZ 業務窗口）
-  - "[[setup-pelican-waybill]]"
-  - [[setup-pelican-waybill]]
+  - "[[setup-pelican-waybill-v2]]"
+  - [[setup-pelican-waybill-v2]]
   - "[[設定宅配通託運單]]"
-  - "[[partial-shipment]]"
+  - "[[partial-shipment-v2]]"
 tags:
   - 宅配通
   - 出貨
@@ -68,7 +68,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=63
   - https://www.cyberbiz.io/support/?p=975
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/pelican-shipping
+permalink: https://help.cyberbiz.io/ec/orders/home-delivery/pelican-shipping-v2
 comments: false
 search:
   exclude: false
@@ -82,7 +82,7 @@ hide: []
 
 開通與宅配通系統串接的物流功能後，您可以從後台直接產出宅配通官方託運單 PDF，並由系統自動把訂單貨態更新為「已出貨(待物流收件)」，免去手寫單與另行登錄追蹤的工作。
 
-本文聚焦於 **日常出貨流程** ，包含批次下載託運單、單筆與部分出貨、補印託運單等操作。寄件人設定、加印託運單(同訂單多箱)、逆物流退貨等進階管理操作，請見 [宅配通託運單管理頁](../../payments-and-logistics/setup-pelican-waybill.md){ title="設定宅配通託運單" }。
+本文聚焦於 **日常出貨流程** ，包含批次下載託運單、單筆與部分出貨、補印託運單等操作。寄件人設定、加印託運單(同訂單多箱)、逆物流退貨等進階管理操作，請見 [宅配通託運單管理頁](../../payments-and-logistics/setup-pelican-waybill-v2.md){ title="設定宅配通託運單" }。
 
 !!! info "重要規範" 
     * **嚴禁使用手寫單**：串接物流必須使用系統產出的託運單。手寫單無法回傳貨態，將影響對帳與客服處理。
@@ -114,8 +114,8 @@ hide: []
 
 首次使用宅配通出貨前，請先完成下列設定：
 
-- [x] **宅配通寄件人地址**(批次出貨用)：至「金物流」>「[宅配通託運單](../../payments-and-logistics/setup-pelican-waybill.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" }」設定寄件人地址，若無設定則會導致出貨時出現「寄件人資訊不完整」的通知。
-- [x] **宅配通寄件人資料**(加印託運單與逆物流用)：至「金物流」>「宅配通託運單」頁面的「宅配通設定」區塊填寫，詳見 [宅配通託運單管理頁](../../payments-and-logistics/setup-pelican-waybill.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" } 。
+- [x] **宅配通寄件人地址**(批次出貨用)：至「金物流」>「[宅配通託運單](../../payments-and-logistics/setup-pelican-waybill-v2.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" }」設定寄件人地址，若無設定則會導致出貨時出現「寄件人資訊不完整」的通知。
+- [x] **宅配通寄件人資料**(加印託運單與逆物流用)：至「金物流」>「宅配通託運單」頁面的「宅配通設定」區塊填寫，詳見 [宅配通託運單管理頁](../../payments-and-logistics/setup-pelican-waybill-v2.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" } 。
 
 ---
 
@@ -150,10 +150,10 @@ hide: []
     ![下載宅配通託運單](../../../assets/images/EC-訂單-所有訂單-下載宅配通託運單.png){ title="下載宅配通託運單" }
 
 5. **檢視運費明細**：彈窗 中段會列出本批次要扣除的 Cyber 幣或對帳金額，請確認與預期相符。
-6. **確認寄件地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [宅配通設定](../../payments-and-logistics/setup-pelican-waybill.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" } 中的地址），如需更改可點擊 **「更改」** 按鈕編輯[^4]。
+6. **確認寄件地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [宅配通設定](../../payments-and-logistics/setup-pelican-waybill-v2.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" } 中的地址），如需更改可點擊 **「更改」** 按鈕編輯[^4]。
 
     ??? tip "需要自訂寄件人姓名 / 電話？"
-         若您希望託運單上的寄件人聯絡電話與姓名不同於預設值，可至 **金物流 > 宅配通託運單** 的「[宅配通設定](../../payments-and-logistics/setup-pelican-waybill.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" }」區塊填寫並儲存。
+         若您希望託運單上的寄件人聯絡電話與姓名不同於預設值，可至 **金物流 > 宅配通託運單** 的「[宅配通設定](../../payments-and-logistics/setup-pelican-waybill-v2.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" }」區塊填寫並儲存。
 
 7. **同意條款**：勾選頁面底部的 **「我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 宅配通合約規範」** 。
 8. **確認下載**：點擊 **「確認」**。系統會建立託運單、扣除運費，並將訂單貨態更新為「[已出貨(待物流收件)](shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }」。
@@ -180,7 +180,7 @@ hide: []
 5. 視需求調整「發送郵件通知顧客」勾選狀態。
 6. 點擊 **「確認出貨」** ，系統會建立託運單並扣除運費。
 
-詳細的部分出貨流程、不同物流的差異與 FAQ，請參閱 [訂單部分出貨](partial-shipment.md){ title="設定訂單部分出貨" } 。
+詳細的部分出貨流程、不同物流的差異與 FAQ，請參閱 [訂單部分出貨](partial-shipment-v2.md){ title="設定訂單部分出貨" } 。
 
 ---
 
@@ -194,7 +194,7 @@ hide: []
 4. 系統會重新產出原本的託運單 PDF，請以宅配通三連空白託運單貼紙列印。
 
 !!! info "提示"
-     補印僅針對 **已產出過的單號** 重新印出 PDF 。若您需要為同一訂單產生 **新的單號** (例如拆箱分多件寄送)，請改用 [加印託運單](../../payments-and-logistics/setup-pelican-waybill.md#operate-pelican-shipping-note-add-print){ title="加印託運單" } 功能。
+     補印僅針對 **已產出過的單號** 重新印出 PDF 。若您需要為同一訂單產生 **新的單號** (例如拆箱分多件寄送)，請改用 [加印託運單](../../payments-and-logistics/setup-pelican-waybill-v2.md#operate-pelican-shipping-note-add-print){ title="加印託運單" } 功能。
 
 ## 後續操作 { #followup-pelican }
 
@@ -205,11 +205,11 @@ hide: []
   出貨後配送狀態會變為「已出貨(待物流收件)」，等宅配通實際收件並掃描後，會依物流回拋逐步更新為運送中、已送達等狀態。
 
 - :lucide-receipt:{ .lg }  
-  [__檢視對帳紀錄__](../../payments-and-logistics/setup-pelican-waybill.md#operate-pelican-shipping-records){ title="查詢紀錄與對帳" }  
+  [__檢視對帳紀錄__](../../payments-and-logistics/setup-pelican-waybill-v2.md#operate-pelican-shipping-records){ title="查詢紀錄與對帳" }  
   「宅配通託運單」頁面下方的單號使用紀錄會列出每張託運單的訂單編號、單號、扣除金額與單號狀態，可用於對帳。
 
 - :lucide-printer:{ .lg }  
-  [__加印或處理退貨__](../../payments-and-logistics/setup-pelican-waybill.md#operate-pelican-shipping-note-add-print){ title="加印託運單" }  
+  [__加印或處理退貨__](../../payments-and-logistics/setup-pelican-waybill-v2.md#operate-pelican-shipping-note-add-print){ title="加印託運單" }  
   同一筆訂單需要拆箱多寄，或處理顧客退貨時，請至宅配通託運單管理頁進行加印託運單或建立逆物流。
 
 </div>
@@ -253,7 +253,7 @@ hide: []
 
     判斷標準：
 
-    * 商品 **一次全部寄出，但裝不下一箱** > 使用 [加印託運單](../../payments-and-logistics/setup-pelican-waybill.md#operate-pelican-shipping-note-add-print){ title="加印託運單" } ，可在同一筆訂單建立多張單號，每箱貼一張。
+    * 商品 **一次全部寄出，但裝不下一箱** > 使用 [加印託運單](../../payments-and-logistics/setup-pelican-waybill-v2.md#operate-pelican-shipping-note-add-print){ title="加印託運單" } ，可在同一筆訂單建立多張單號，每箱貼一張。
     * 商品 **分批寄出** (例如缺貨先寄一部分，後續到貨再寄)> 使用「部分出貨」，於訂單詳情頁勾選本次要寄的商品即可。
     * 貨到付款訂單若要分箱寄送， **必須** 使用加印託運單(代收款需綁定託運單號)。
 

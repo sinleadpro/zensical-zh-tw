@@ -731,7 +731,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-print-tcat-waybill"
+                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-print-tcat-waybill-v2"
             },
             "match_type": "url",
             "title": "",
@@ -757,7 +757,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-pelican-waybill"
+                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-pelican-waybill-v2"
             },
             "match_type": "url",
             "title": "",
@@ -887,7 +887,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-sf-express-waybill"
+                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-sf-express-waybill-v2"
             },
             "match_type": "url",
             "title": "",
@@ -1147,7 +1147,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-print-tcat-waybill"
+                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-print-tcat-waybill-v2"
             },
             "match_type": "url",
             "title": "",
@@ -1225,7 +1225,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-hct-waybill"
+                "url": "https://help.cyberbiz.io/ec/payments-and-logistics/setup-hct-waybill-v2"
             },
             "match_type": "url",
             "title": "",

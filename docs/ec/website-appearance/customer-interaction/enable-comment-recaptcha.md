@@ -2,7 +2,7 @@
 title: 啟用留言區 reCAPTCHA
 description: 申請並綁定 Google reCAPTCHA 金鑰，防止機器人攻擊與垃圾留言。
 created: 2026-03-05 17:15
-last_modified: 2026-06-30 11:01
+last_modified: 2026-07-01 10:40
 lang: zh-TW
 type: tutorial
 status: 
@@ -24,13 +24,10 @@ sites:
   - TW
 tnb: branch
 plans:
-  - 企業
-  - 專業
   - 專業PLUS
-  - 進階
   - 進階PLUS
-  - 高手
   - 高手PLUS
+  - 企業
 cyb_extensions: []
 audiences:
   - admin
@@ -165,8 +162,14 @@ reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動�
 ??? quote "此 reCAPTCHA 功能是否適用於所有版型網站？"
     此功能僅限拖拉版型網站使用。
 
-## 延伸閱讀
+## 後續操作
 
-- [設定商品評論功能](../../products/engagement/manage-product-reviews.md#設定商品評論功能){ title="管理商品評論" }
+<div class="grid cards" markdown>
+
+- :lucide-message-square-text:{ .lg }  
+  [__設定商品評論功能__](../../products/engagement/manage-product-reviews.md#manage-product-reviews){ title="管理商品評論" }  
+  啟用商品評論、設定審核機制與贈送點數。
+
+</div>
 
 [^invisible-recaptcha]: 隱形 reCAPTCHA 可在顧客互動時自動判斷是否為機器人，通常不會打斷顧客操作，僅在系統判斷為可疑時才出現驗證題目。這能同時減少顧客操作干擾，並提升網站防護力。

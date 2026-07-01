@@ -2,7 +2,7 @@
 title: 設定宅配通託運單
 description: 管理宅配通託運單指南，包含設定寄件人資訊、加印託運單、建立宅配通逆物流，以及查詢託運單號使用紀錄與 Cyber 幣扣款對帳。
 created: 2026-05-20 12:21
-last_modified: 2026-07-01 19:06
+last_modified: 2026-07-01 22:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -42,7 +42,7 @@ features:
   - 宅配通逆物流
 prerequisites: []
 related:
-  - "[[pelican-shipping]]"
+  - "[[pelican-shipping-v2]]"
   - "[[宅配逆物流（黑貓宅配通新竹物流）]]"
   - "[[points-deposits]]"
 tags:
@@ -62,7 +62,7 @@ paths:
   - 金物流 > 宅配通託運單
 layouts: []
 wp_url: []
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-pelican-waybill-v2
 comments: false
 search:
   exclude: false
@@ -81,7 +81,7 @@ hide: []
 * **宅配通逆物流**：建立退貨託運單，由宅配通到府收件並送回您的逆物流地址。
 * **轉單紀錄、單號使用紀錄**：查詢所有託運單號的扣費、狀態與對帳資訊。
 
-一般出貨流程(批次下載、單筆出貨、部分出貨、補印託運單)請見 [如何使用宅配通出貨](../orders/home-delivery/pelican-shipping.md)。
+一般出貨流程(批次下載、單筆出貨、部分出貨、補印託運單)請見 [如何使用宅配通出貨](../orders/home-delivery/pelican-shipping-v2.md)。
 
 !!! info "提示"
     頁面最上方會顯示計費資訊：一般版商家會看到「目前 Cyber 幣餘額」；PLUS版 / 企業版商家則顯示對帳單說明文字。
@@ -117,7 +117,7 @@ hide: []
 !!! info "提示"
     * 加印託運單只會印出 **「純配送」** 託運單，即使原訂單為貨到付款，加印出來的單也不會帶代收款。
     * 若需要為貨到付款訂單拆箱寄送代收款，請聯繫 CYBERBIZ 客服協助處理。
-    * 加印 **必定** 產生新單號並扣費。若您只是印壞了想重印同一張單，請改用 [補印託運單](../orders/home-delivery/pelican-shipping.md#operate-pelican-reprint){ title="使用宅配通出貨" } (從訂單列表操作，不會扣費)。
+    * 加印 **必定** 產生新單號並扣費。若您只是印壞了想重印同一張單，請改用 [補印託運單](../orders/home-delivery/pelican-shipping-v2.md#operate-pelican-reprint){ title="使用宅配通出貨" } (從訂單列表操作，不會扣費)。
 
 [^1]: 例如分 3 箱寄送則選 3。
 
@@ -191,7 +191,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-package:{ .lg }  
-  [__使用宅配通出貨__](../orders/home-delivery/pelican-shipping.md)  
+  [__使用宅配通出貨__](../orders/home-delivery/pelican-shipping-v2.md)  
   批次下載託運單、單筆 / 部分出貨、補印託運單等日常出貨流程。
 
 - :lucide-undo-2:{ .lg }  

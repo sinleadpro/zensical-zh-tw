@@ -139,7 +139,7 @@ hide:
   管理與設定 Email 通知訊息樣板。
 
 - :lucide-message-square-text:{ .lg }   
-  [__簡訊通知樣板設定__](../../notifications/manage-sms-templates.md){ title="設定與管理簡訊通知樣板" }       
+  [__簡訊通知樣板設定__](../../notifications/manage-sms-templates-v2.md){ title="設定與管理簡訊通知樣板" }       
   設定簡訊提醒訊息的顯示樣式。
 
 - :simple-line:{ .lg }   

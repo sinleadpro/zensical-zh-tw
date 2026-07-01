@@ -17,7 +17,7 @@ hide:
 
     建立 EDM 內容、選擇發送對象並發送電子報給會員。
 
-    [:octicons-arrow-right-24: 前往](send-edm-newsletters.md)
+    [:octicons-arrow-right-24: 前往](send-edm-newsletters-v2.md)
 
 -   :lucide-file-text: __設定與管理 Email 通知樣板__
 
@@ -41,7 +41,7 @@ hide:
 
     如何在 CYBERBIZ 後台設定與發送簡訊，包含發送方式與操作步驟。
 
-    [:octicons-arrow-right-24: 前往](send-sms-notifications.md)
+    [:octicons-arrow-right-24: 前往](send-sms-notifications-v2.md)
 
 -   :lucide-pen-tool: __設定與管理簡訊通知樣板__
 
@@ -49,7 +49,7 @@ hide:
 
     設定與管理簡訊通知樣板，包含樣板編輯規則、阻擋風險與實際應用情境。
 
-    [:octicons-arrow-right-24: 前往](manage-sms-templates.md)
+    [:octicons-arrow-right-24: 前往](manage-sms-templates-v2.md)
 
 -   :lucide-search: __查詢與追蹤簡訊發送紀錄__
 

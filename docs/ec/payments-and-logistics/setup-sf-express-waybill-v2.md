@@ -2,7 +2,7 @@
 title: 設定順豐託運單
 description: 設定順豐託運單，包括建立寄件人資訊、加印託運單及查詢單號使用紀錄。
 created: 2026-05-20 21:23
-last_modified: 2026-07-01 19:45
+last_modified: 2026-07-01 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -38,7 +38,7 @@ prerequisites:
   - 須先開通順豐託運單（一般版以上方案）
   - "[[順豐海外物流]]"
 related:
-  - "[[sf-express-shipping]]"
+  - "[[sf-express-shipping-v2]]"
   - "[[順豐海外物流]]"
 tags:
   - 順豐
@@ -58,7 +58,7 @@ paths:
   - 訂單 > 所有訂單
 layouts: []
 wp_url: []
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-sf-express-waybill-v2
 comments: false
 search:
   exclude: false
@@ -133,7 +133,7 @@ hide: []
 ![加印順豐託運單](../../assets/images/EC-金物流-順豐託運單-加印託運單.png){ title="加印順豐託運單" }
 
 !!! note "註釋"
-     加印託運單 **只會印出「純配送」託運單**，即使原訂單是貨到付款，本功能也只能產生不含代收款的單號。需要列印貨到付款託運單，請改回「訂單」>「所有訂單」勾選訂單後執行 [下載順豐託運單](../orders/home-delivery/sf-express-shipping.md#operate-sf-bulk-shipping){ title="使用順豐出貨" }。
+     加印託運單 **只會印出「純配送」託運單**，即使原訂單是貨到付款，本功能也只能產生不含代收款的單號。需要列印貨到付款託運單，請改回「訂單」>「所有訂單」勾選訂單後執行 [下載順豐託運單](../orders/home-delivery/sf-express-shipping-v2.md#operate-sf-bulk-shipping){ title="使用順豐出貨" }。
 
 [^5]: 順豐 OpenAPI
 
@@ -177,7 +177,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-package:{ .lg }  
-  [__使用順豐宅配出貨__](../orders/home-delivery/sf-express-shipping.md){ title="使用順豐出貨" }  
+  [__使用順豐宅配出貨__](../orders/home-delivery/sf-express-shipping-v2.md){ title="使用順豐出貨" }  
   批次或單筆下載順豐託運單，完成完整出貨流程。
 
 </div>

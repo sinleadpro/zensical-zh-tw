@@ -2,7 +2,7 @@
 title: 設定與加印黑貓快速到店託運單
 description: 黑貓快速到店(超商取貨)託運單完整指南，包含設定寄件人資訊、加印純配送託運單，以及查詢託運單號使用紀錄與 Cyber 幣扣款對帳。
 created: 2026-05-19 10:00
-last_modified: 2026-07-01 19:04
+last_modified: 2026-07-01 21:45
 lang: zh-TW
 type: tutorial
 status: ""
@@ -40,7 +40,7 @@ features:
   - 加印託運單
 prerequisites: []
 related:
-  - "[[setup-print-tcat-waybill]]"
+  - "[[setup-print-tcat-waybill-v2]]"
   - "[[points-deposits]]"
 tags:
   - 金物流
@@ -59,7 +59,7 @@ paths:
   - 金物流 > 黑貓託運單
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-print-tcat-quick-store-waybill
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-print-tcat-quick-store-waybill-v2
 comments: false
 search:
   exclude: false
@@ -82,7 +82,7 @@ hide: []
 * **單號使用紀錄**：列出本店所有黑貓快速到店託運單與 Cyber幣 扣抵金額，供對帳查詢。
 
 !!! info "提示"
-    此頁僅適用於 **黑貓快速到店(超商取貨)** 託運單。如需操作 **黑貓宅急便(宅配)** 託運單，請改至[設定與加印黑貓託運單](setup-print-tcat-waybill.md){ title="設定與加印黑貓託運單" }頁面。
+    此頁僅適用於 **黑貓快速到店(超商取貨)** 託運單。如需操作 **黑貓宅急便(宅配)** 託運單，請改至[設定與加印黑貓託運單](setup-print-tcat-waybill-v2.md){ title="設定與加印黑貓託運單" }頁面。
 
 ## 頁面區塊總覽 { #ezcat-cvs-shipping-note-overview }
 
@@ -194,7 +194,7 @@ hide: []
 加印託運單會即時扣抵 Cyber 幣，餘額不足時系統將擋下操作，請先至儲值中心儲值。
 
 - :lucide-truck:{ .lg }  
-[__設定與加印黑貓託運單__](setup-print-tcat-waybill.md){ title="設定與加印黑貓託運單" }  
+[__設定與加印黑貓託運單__](setup-print-tcat-waybill-v2.md){ title="設定與加印黑貓託運單" }  
 若您同時使用黑貓 **宅配** ，請至黑貓託運單頁面設定寄件人資訊與加印宅配託運單。
 
 </div>
@@ -218,7 +218,7 @@ hide: []
 ??? quote "顯示「此訂單運送方式非黑貓快速到店，不可加印」"
     [](){ #faq-ezcat-cvs-shipping-note-shipping-type-not-match }
 
-    訂單的配送方式不是 **黑貓快速到店—常溫 / 冷凍 / 冷藏** (含先付 / 貨到付款兩種變體)。例如訂單原本走宅配、其他超商、等，請改至 [設定與加印黑貓託運單](setup-print-tcat-waybill.md){ title="設定與加印黑貓託運單" } 頁面操作。
+    訂單的配送方式不是 **黑貓快速到店—常溫 / 冷凍 / 冷藏** (含先付 / 貨到付款兩種變體)。例如訂單原本走宅配、其他超商、等，請改至 [設定與加印黑貓託運單](setup-print-tcat-waybill-v2.md){ title="設定與加印黑貓託運單" } 頁面操作。
 
 ??? quote "顯示「黑貓快速到店—XX 的訂單只能選擇 XX 的溫層」"
     [](){ #faq-ezcat-cvs-shipping-note-rate-mismatch }

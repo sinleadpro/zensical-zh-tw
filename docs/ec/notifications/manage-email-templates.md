@@ -192,7 +192,7 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-message-square-text:{ .lg }   
-  [__簡訊通知樣板管理__](manage-sms-templates.md){ title="設定與管理簡訊通知樣板" }     
+  [__簡訊通知樣板管理__](manage-sms-templates-v2.md){ title="設定與管理簡訊通知樣板" }     
   設定與管理簡訊通知樣板，包含編輯規則與阻擋風險。
 
 - :simple-line:{ .lg }     

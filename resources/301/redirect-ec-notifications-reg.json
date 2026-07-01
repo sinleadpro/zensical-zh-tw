@@ -107,7 +107,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/notifications/manage-sms-templates"
+                "url": "https://help.cyberbiz.io/ec/notifications/manage-sms-templates-v2"
             },
             "match_type": "url",
             "title": "",
@@ -133,7 +133,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/notifications/send-edm-newsletters"
+                "url": "https://help.cyberbiz.io/ec/notifications/send-edm-newsletters-v2"
             },
             "match_type": "url",
             "title": "",
@@ -159,7 +159,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/notifications/send-sms-notifications"
+                "url": "https://help.cyberbiz.io/ec/notifications/send-sms-notifications-v2"
             },
             "match_type": "url",
             "title": "",

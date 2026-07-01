@@ -2,7 +2,7 @@
 title: 設定與加印黑貓託運單
 description: 管理黑貓宅急便託運單的完整指南，包含設定寄件人資訊、加印純配送託運單、建立黑貓逆物流退貨取件，以及查詢託運單號使用紀錄與 Cyber 幣扣款對帳。
 created: 2026-05-15 14:21
-last_modified: 2026-07-01 19:34
+last_modified: 2026-07-01 21:35
 lang: zh-TW
 type: tutorial
 status: ""
@@ -44,7 +44,7 @@ features:
   - 呼叫黑貓司機取件
 prerequisites: []
 related:
-  - "[[tcat-auto-call-driver]]"
+  - "[[tcat-auto-call-driver-v2]]"
   - "[[points-deposits]]"
   - "[[order-return-process]]"
 tags:
@@ -66,7 +66,7 @@ paths:
   - 金物流 > 黑貓託運單
 layouts: []
 wp_url: []
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-print-tcat-waybill-v2
 comments: false
 search:
   exclude: false
@@ -89,7 +89,7 @@ hide: []
 * **建立黑貓逆物流**：由黑貓上門至顧客處收件並寄回您指定的逆物流地址。
 
 !!! info "提示"
-    此頁僅適用於 **黑貓宅急便(宅配)** 託運單。如需操作 **黑貓快速到店(常溫 / 冷藏 / 冷凍)** 託運單，請改至「[黑貓快速到店託運單](setup-print-tcat-quick-store-waybill.md){ title="設定與加印黑貓快速到店託運單" data-preview }」頁面。
+    此頁僅適用於 **黑貓宅急便(宅配)** 託運單。如需操作 **黑貓快速到店(常溫 / 冷藏 / 冷凍)** 託運單，請改至「[黑貓快速到店託運單](setup-print-tcat-quick-store-waybill-v2.md){ title="設定與加印黑貓快速到店託運單" data-preview }」頁面。
 
 ## 頁面區塊總覽 { #ezcat-shipping-note-overview }
 
@@ -104,7 +104,7 @@ hide: []
 
 !!! plan "方案 / 加值功能"
     * **黑貓宅配**：需店家方案內含「黑貓宅配」功能；若入口未顯示，請聯繫您的 CYBERBIZ 業務窗口確認方案開通狀態。
-    * **[呼叫黑貓](../orders/home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" data-preview }** (加值功能)：啟用後，加印託運單時可選擇「呼叫黑貓」，由黑貓司機自動到府取件；未開通則需自行交件。
+    * **[呼叫黑貓](../orders/home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" data-preview }** (加值功能)：啟用後，加印託運單時可選擇「呼叫黑貓」，由黑貓司機自動到府取件；未開通則需自行交件。
 
 ## 計費規則 { #ezcat-shipping-note-billing }
 
@@ -133,7 +133,7 @@ hide: []
 ![寄件人資訊](../../assets/images/EC-金物流-黑貓託運單-寄件人資訊.png){ title="寄件人資訊" }
 
 !!! note "註釋"
-    「[呼叫黑貓](../orders/home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" data-preview }」加值功能啟用時，寄件人地址會作為 **黑貓司機到府取件的地址** ，寄件人電話會作為 **黑貓與您聯絡的電話** 。
+    「[呼叫黑貓](../orders/home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" data-preview }」加值功能啟用時，寄件人地址會作為 **黑貓司機到府取件的地址** ，寄件人電話會作為 **黑貓與您聯絡的電話** 。
 
 [^1]: 寄件人名稱不得含特殊符號；若儲存時提示「收件人名稱...」錯誤訊息，請依提示移除無效字元後再試。
 [^5]: 例如「網購商品」。
@@ -262,7 +262,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-bell:{ .lg }  
-  [__自動呼叫黑貓司機取件__](../orders/home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" data-preview }  
+  [__自動呼叫黑貓司機取件__](../orders/home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" data-preview }  
   啟用加值功能後，加印託運單時可選擇由黑貓司機自動到府取件，不需自行交件。
 
 - :lucide-wallet:{ .lg }  
@@ -340,6 +340,6 @@ hide: []
 
     加印託運單頁面本身沒有「自動呼叫司機」選項。若您希望黑貓司機到府收取這些包裹，請擇一處理：
 
-    * 同一天在「訂單列表」對任一筆當日要出貨的訂單啟用 [自動呼叫黑貓司機取件](../orders/home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" data-preview }；司機到場後會一併收走當天所有待寄包裹（含加印的部分），不需逐張綁定託運單。
+    * 同一天在「訂單列表」對任一筆當日要出貨的訂單啟用 [自動呼叫黑貓司機取件](../orders/home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" data-preview }；司機到場後會一併收走當天所有待寄包裹（含加印的部分），不需逐張綁定託運單。
     * 自行致電黑貓客服安排取件，或將包裹送至黑貓營業所交件。
 

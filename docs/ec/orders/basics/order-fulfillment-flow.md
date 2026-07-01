@@ -142,10 +142,10 @@ icon: lucide/workflow
 
 <div class="grid cards" markdown>
 
-- :lucide-cat: [**黑貓宅配**](../home-delivery/tcat-home-delivery.md){ title="使用黑貓宅配出貨" }
-- :lucide-bird: [**宅配通**](../home-delivery/pelican-shipping.md){ title="使用宅配通出貨" }
-- :lucide-truck: [**新竹物流**](../home-delivery/hct-shipping.md){ title="使用新竹物流出貨" }
-- :lucide-box: [**順豐速運**](../home-delivery/sf-express-shipping.md){ title="使用順豐出貨" }
+- :lucide-cat: [**黑貓宅配**](../home-delivery/tcat-home-delivery-v2.md){ title="使用黑貓宅配出貨" }
+- :lucide-bird: [**宅配通**](../home-delivery/pelican-shipping-v2.md){ title="使用宅配通出貨" }
+- :lucide-truck: [**新竹物流**](../home-delivery/hct-shipping-v2.md){ title="使用新竹物流出貨" }
+- :lucide-box: [**順豐速運**](../home-delivery/sf-express-shipping-v2.md){ title="使用順豐出貨" }
 
 </div>
 
@@ -207,7 +207,7 @@ icon: lucide/workflow
 
 ### 逐項與部分出貨 { #operate-fulfillment-partial }
 
-若一筆訂單只想先寄出部分有現貨的商品，需在訂單詳情頁的「出貨」區塊逐項勾選，而非在列表批次出貨。詳細流程請見 [訂單部分出貨](../home-delivery/partial-shipment.md){ title="設定訂單部分出貨" }。
+若一筆訂單只想先寄出部分有現貨的商品，需在訂單詳情頁的「出貨」區塊逐項勾選，而非在列表批次出貨。詳細流程請見 [訂單部分出貨](../home-delivery/partial-shipment-v2.md){ title="設定訂單部分出貨" }。
 
 ---
 
@@ -238,7 +238,7 @@ icon: lucide/workflow
 
 -->
 
-!!! tip "**黑貓專屬：** 下載黑貓託運單壓縮檔的同時，系統會一併送出 **[叫車（司機收件）](../home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }** 需求，您不需另外手動叫車[^tcat-call-driver]。"
+!!! tip "**黑貓專屬：** 下載黑貓託運單壓縮檔的同時，系統會一併送出 **[叫車（司機收件）](../home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" }** 需求，您不需另外手動叫車[^tcat-call-driver]。"
 
 [^tcat-call-driver]: 此功能需 **專業PLUS / 進階 PLUS / 高手 PLUS / 企業** 方案，並向 CYBERBIZ 客服申請開通。
 
@@ -258,7 +258,7 @@ icon: lucide/workflow
 <div class="grid cards" markdown>
 
 - :lucide-package-open:{ .lg }  
-  [__訂單部分出貨__](../home-delivery/partial-shipment.md){ title="設定訂單部分出貨" }  
+  [__訂單部分出貨__](../home-delivery/partial-shipment-v2.md){ title="設定訂單部分出貨" }  
   同一筆訂單先寄出有現貨的商品，剩餘的稍後再出。
 
 </div>
@@ -508,29 +508,29 @@ graph LR
 
     ---
 
-    - [__黑貓宅配__](../home-delivery/tcat-home-delivery.md){ title="使用黑貓宅配出貨" }
+    - [__黑貓宅配__](../home-delivery/tcat-home-delivery-v2.md){ title="使用黑貓宅配出貨" }
     - [__黑貓快速到店__](../tcat-quick-store/tcat-quick-store-shipping.md){ title="使用黑貓快速到店出貨" }
 
 -   :lucide-bird:{ .lg .middle } __宅配通__
 
     ---
 
-    - [__宅配通出貨__](../home-delivery/pelican-shipping.md){ title="使用宅配通出貨" }
-    - [__設定宅配通託運單__](../../payments-and-logistics/setup-pelican-waybill.md){ title="設定宅配通託運單" }
+    - [__宅配通出貨__](../home-delivery/pelican-shipping-v2.md){ title="使用宅配通出貨" }
+    - [__設定宅配通託運單__](../../payments-and-logistics/setup-pelican-waybill-v2.md){ title="設定宅配通託運單" }
 
 -   :lucide-truck:{ .lg } __新竹物流__
 
     ---
 
-    - [__新竹物流出貨__](../home-delivery/hct-shipping.md){ title="使用新竹物流出貨" }
-    - [__設定新竹物流託運單__](../../payments-and-logistics/setup-hct-waybill.md){ title="設定新竹物流託運單" }
+    - [__新竹物流出貨__](../home-delivery/hct-shipping-v2.md){ title="使用新竹物流出貨" }
+    - [__設定新竹物流託運單__](../../payments-and-logistics/setup-hct-waybill-v2.md){ title="設定新竹物流託運單" }
 
 -   :lucide-truck:{ .lg } __順豐__
 
     ---
 
-    - [__順豐出貨__](../home-delivery/sf-express-shipping.md){ title="使用順豐出貨" }
-    - [__設定順豐託運單__](../../payments-and-logistics/setup-sf-express-waybill.md){ title="設定順豐託運單" }
+    - [__順豐出貨__](../home-delivery/sf-express-shipping-v2.md){ title="使用順豐出貨" }
+    - [__設定順豐託運單__](../../payments-and-logistics/setup-sf-express-waybill-v2.md){ title="設定順豐託運單" }
 
 </div>
 

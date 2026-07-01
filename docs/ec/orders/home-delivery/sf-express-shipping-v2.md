@@ -2,7 +2,7 @@
 title: 使用順豐出貨
 description: 使用順豐託運單批次或單筆下載出貨，系統自動與順豐即時取號，將訂單貨態更新為已出貨，支援國內台灣本島及海外配送。
 created: 2026-05-20 20:25
-last_modified: 2026-07-01 17:58
+last_modified: 2026-07-01 20:35
 lang: zh-TW
 type: tutorial
 status: ""
@@ -48,7 +48,7 @@ prerequisites:
 related:
   - "[[順豐海外物流]]"
   - "[[補印與加印託運單]]"
-  - "[[partial-shipment]]"
+  - "[[partial-shipment-v2]]"
 tags:
   - 順豐
   - 出貨
@@ -68,7 +68,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=384
   - https://www.cyberbiz.io/support/?p=3760
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/sf-express-shipping
+permalink: https://help.cyberbiz.io/ec/orders/home-delivery/sf-express-shipping-v2
 comments: false
 search:
   exclude: false
@@ -106,9 +106,9 @@ hide: []
 
 第一次使用順豐託運單前，請先完成以下設定，缺一項都會導致託運單無法順利產生或寄件人資訊不完整：
 
-- [x] **順豐寄件人地址**：至「金物流」>「[順豐託運單](../../payments-and-logistics/setup-sf-express-waybill.md#configure-sf-waybill-sender){ title="設定順豐託運單" }」設定寄件人地址，若無設定則會導致出貨時出現「寄件人資訊不完整」的通知。
+- [x] **順豐寄件人地址**：至「金物流」>「[順豐託運單](../../payments-and-logistics/setup-sf-express-waybill-v2.md#configure-sf-waybill-sender){ title="設定順豐託運單" }」設定寄件人地址，若無設定則會導致出貨時出現「寄件人資訊不完整」的通知。
 - [x] **公司統一編號**：至「一般設定」>「[公司聯絡資訊](../../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="設定網站基本資訊" }」輸入統編。**寄送海外件時為必填欄位[^1]**。
-- [x] **順豐寄件人資訊**(選用)：若您希望託運單上的寄件人聯絡電話與「公司聯絡資訊」不同，可在 **順豐託運單設定頁** 另行指定寄件人姓名與電話。詳情參考 [設定順豐託運單寄件人資訊](../../payments-and-logistics/setup-sf-express-waybill.md#configure-sf-waybill-sender){ title="順豐設定" data-preview }。
+- [x] **順豐寄件人資訊**(選用)：若您希望託運單上的寄件人聯絡電話與「公司聯絡資訊」不同，可在 **順豐託運單設定頁** 另行指定寄件人姓名與電話。詳情參考 [設定順豐託運單寄件人資訊](../../payments-and-logistics/setup-sf-express-waybill-v2.md#configure-sf-waybill-sender){ title="順豐設定" data-preview }。
 
 [^1]: 缺少統編將無法產生海外託運單。
 
@@ -139,7 +139,7 @@ hide: []
     * **訂單清單**：顯示本次勾選的訂單編號與配送方式，確認無誤後再繼續。
     * **配送商品尺寸與費用**：視窗中會顯示一張價目表，列出各規格對應的 Cyber 幣費用供參考[^3]。
     - **預估 Cyber 幣**：一般版[^4] 商家會在視窗中看到本次預扣的 Cyber 幣、目前帳戶餘額，以及「儲值」按鈕。
-    * **寄件人地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [順豐設定](../../payments-and-logistics/setup-sf-express-waybill.md#configure-sf-waybill-sender){ title="設定順豐託運單" } 中的地址），如需更改可於視窗內點擊 **「更改」** 按鈕編輯[^6]。
+    * **寄件人地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [順豐設定](../../payments-and-logistics/setup-sf-express-waybill-v2.md#configure-sf-waybill-sender){ title="設定順豐託運單" } 中的地址），如需更改可於視窗內點擊 **「更改」** 按鈕編輯[^6]。
 5. **閱讀注意事項**：視窗會列出出貨提醒[^5]，請務必確認後再進行下一步。
 6. **同意條款**：勾選 **「我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 順豐合約規範」**(預設已勾選)，確認按鈕方會啟用。
 7. **點擊「下載」**：系統會呼叫順豐依勾選的訂單數量逐筆取得託運單號，並下載一份 ZIP [壓縮檔](#reference-sf-bulk-shipping-files)。
@@ -175,9 +175,9 @@ hide: []
 當一筆訂單只有部分商品可先寄出時，可進入該筆 **訂單詳情頁**，於「出貨」區塊勾選本次要出貨的商品後，在「選擇出貨方式」下拉中選擇 **「順豐託運單」**，點擊「確認出貨」即可。
 
 * 順豐部分出貨 **僅支援一般訂單**，**不支援順豐貨到付款**(分箱寄送會讓代收款分散在多張託運單，結帳對帳會錯亂)。
-* 若需貨到付款分箱，請改用 [加印託運單](../../payments-and-logistics/setup-sf-express-waybill.md#operate-sf-waybill-reprint){ title="加印託運單" data-preview } 功能於同一張訂單產生多組單號。
+* 若需貨到付款分箱，請改用 [加印託運單](../../payments-and-logistics/setup-sf-express-waybill-v2.md#operate-sf-waybill-reprint){ title="加印託運單" data-preview } 功能於同一張訂單產生多組單號。
 
-部分出貨的完整流程(各物流共用)請參考 [訂單部分出貨](partial-shipment.md){ title="設定訂單部分出貨" }。
+部分出貨的完整流程(各物流共用)請參考 [訂單部分出貨](partial-shipment-v2.md){ title="設定訂單部分出貨" }。
 
 ---
 
@@ -224,7 +224,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-printer:{ .lg }   
-  [__加印託運單(一單多包)__](../../payments-and-logistics/setup-sf-express-waybill.md#operate-sf-waybill-reprint){ title="加印託運單" }  
+  [__加印託運單(一單多包)__](../../payments-and-logistics/setup-sf-express-waybill-v2.md#operate-sf-waybill-reprint){ title="加印託運單" }  
   若商品超過單一包裹材積限制(建議超過 170 cm 拆箱)或貨到付款訂單需要分箱寄送，可使用「加印託運單」。
 
 <!-- - :lucide-refresh-ccw:{ .lg }     
@@ -278,12 +278,12 @@ hide: []
 ??? quote "包裹超過 170 cm 該怎麼辦？"
     [](){ #faq-sf-oversize }
 
-     若包裹超過 170 cm，各順豐站所司機 **有不收取的可能**，建議拆分成兩個包裹寄送。系統提供 80 / 110 / 140 / 170 / 210 cm 五種國內尺寸選項，拆分後分別為各包裹產生託運單即可。如需一單多包，可使用 [加印託運單](../../payments-and-logistics/setup-sf-express-waybill.md#operate-sf-waybill-reprint){ title="加印託運單" data-preview } 功能。
+     若包裹超過 170 cm，各順豐站所司機 **有不收取的可能**，建議拆分成兩個包裹寄送。系統提供 80 / 110 / 140 / 170 / 210 cm 五種國內尺寸選項，拆分後分別為各包裹產生託運單即可。如需一單多包，可使用 [加印託運單](../../payments-and-logistics/setup-sf-express-waybill-v2.md#operate-sf-waybill-reprint){ title="加印託運單" data-preview } 功能。
 
 ??? quote "如何重新下載已遺失的託運單？"
     [](){ #faq-sf-redownload }
 
-     託運單檔案若不慎遺失，可至後台「金物流」>「順豐託運單」搜尋對應訂單，於該筆紀錄旁點擊重新下載，**不需要再扣一次 Cyber 幣**。補印的完整說明請參考 [補印託運單](../../payments-and-logistics/setup-sf-express-waybill.md#operate-sf-waybill-reprint){ title="加印託運單" }。
+     託運單檔案若不慎遺失，可至後台「金物流」>「順豐託運單」搜尋對應訂單，於該筆紀錄旁點擊重新下載，**不需要再扣一次 Cyber 幣**。補印的完整說明請參考 [補印託運單](../../payments-and-logistics/setup-sf-express-waybill-v2.md#operate-sf-waybill-reprint){ title="加印託運單" }。
 
 ## 參考資料 { #reference-sf }
 

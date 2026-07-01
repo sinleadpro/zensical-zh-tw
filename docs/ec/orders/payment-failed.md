@@ -50,7 +50,7 @@ related:
   - "[[provide-payment-link]]"
   - "[[unpaid-reminder-settings]]"
   - "[[manage-email-templates]]"
-  - "[[manage-sms-templates]]"
+  - "[[manage-sms-templates-v2]]"
   - "[[auto-close-order-settings]]"
   - "[[cancel-order]]"
   - "[[定期定額活動頁]]"
@@ -176,7 +176,7 @@ hide: []
   [__管理 Email 通知樣板__](../notifications/manage-email-templates.md){ title="設定與管理 Email 通知樣板" }
 
 - :lucide-message-square:{ .lg }
-  [__管理簡訊通知樣板__](../notifications/manage-sms-templates.md){ title="設定與管理簡訊通知樣板" }
+  [__管理簡訊通知樣板__](../notifications/manage-sms-templates-v2.md){ title="設定與管理簡訊通知樣板" }
 
 </div>
 

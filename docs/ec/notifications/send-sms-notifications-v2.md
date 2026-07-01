@@ -2,7 +2,7 @@
 title: 設定與發送簡訊通知
 description: 如何在 CYBERBIZ 後台設定與發送簡訊，包含發送方式與操作步驟。
 created: 2026-04-27 17:09
-last_modified: 2026-07-01 12:00
+last_modified: 2026-07-01 20:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -44,7 +44,7 @@ features:
 prerequisites:
   - 一般用戶需先儲值 Cyber 幣（PLUS / 企業版用戶不須額外儲值）
 related:
-  - "[[manage-sms-templates]]"
+  - "[[manage-sms-templates-v2]]"
   - "[[track-sms-records]]"
 tags:
   - 簡訊
@@ -61,7 +61,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=621
   - https://www.cyberbiz.io/support/?p=1529
-permalink: https://help.cyberbiz.io/ec/notifications/send-sms-notifications
+permalink: https://help.cyberbiz.io/ec/notifications/send-sms-notifications-v2
 comments: false
 search:
   exclude: false
@@ -196,7 +196,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-message-square-text:{ .lg }  
-  [__簡訊通知樣板管理__](manage-sms-templates.md){ title="設定與管理簡訊通知樣板" }  
+  [__簡訊通知樣板管理__](manage-sms-templates-v2.md){ title="設定與管理簡訊通知樣板" }  
   自訂系統自動發送的簡訊內容，支援短網址功能節省字數。
 
 - :lucide-zap:{ .lg }  

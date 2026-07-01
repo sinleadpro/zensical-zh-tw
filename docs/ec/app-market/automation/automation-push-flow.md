@@ -41,11 +41,11 @@ features:
   - 會員分群
   - 成效追蹤
 prerequisites:
-  - /ec/notifications/send-edm-newsletters
+  - /ec/notifications/send-edm-newsletters-v2
   - /ec/integrations/line/account-integration/setup-line-quick-login
   - /ec/integrations/line/account-integration/bind-line-oa-store-members
 related:
-  - /ec/notifications/send-edm-newsletters
+  - /ec/notifications/send-edm-newsletters-v2
 tags:
   - Automation
   - 自動化行銷
@@ -123,7 +123,7 @@ comments: false
 
 ### EDM 發送設定
 
-*   **必要前提**：必須先完成 [EDM 基礎設定](../../notifications/send-edm-newsletters.md){ title="設定與發送 EDM 電子報" }。
+*   **必要前提**：必須先完成 [EDM 基礎設定](../../notifications/send-edm-newsletters-v2.md){ title="設定與發送 EDM 電子報" }。
 *   **操作步驟**：流程可參照[簡訊發送設定](#簡訊發送設定)。
     1.  選擇 EDM 預設模板（如：發送 EDM 給 VIP 或自訂分群）。
     2.  設定排程與會員篩選。

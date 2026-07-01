@@ -2,7 +2,7 @@
 title: 使用新竹物流出貨
 description: 透過訂單列表批次選取訂單，下載新竹物流託運單並將貨態更新為已出貨。
 created: 2026-05-22 17:21
-last_modified: 2026-07-01 12:00
+last_modified: 2026-07-01 21:25
 lang: zh-TW
 type: tutorial
 status: ""
@@ -40,9 +40,9 @@ features:
   - 補印託運單
   - 加印託運單
 prerequisites:
-  - "[[setup-hct-waybill]]"
-  - "[[setup-hct-waybill]]"
-  - "[[partial-shipment]]"
+  - "[[setup-hct-waybill-v2]]"
+  - "[[setup-hct-waybill-v2]]"
+  - "[[partial-shipment-v2]]"
   - "[[search-filter-orders]]"
 tags:
   - 新竹物流
@@ -65,7 +65,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10646
   - https://www.cyberbiz.io/support/?p=46278
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/hct-shipping
+permalink: https://help.cyberbiz.io/ec/orders/home-delivery/hct-shipping-v2
 comments: false
 search:
   exclude: false
@@ -85,8 +85,8 @@ hide: []
 
 於訂單列表看到「下載新竹物流託運單」這個選項之前，以下事項需先完成：
 
-- [x] **完成新竹物流託運單設定**：至「金物流」>「[新竹物流託運單](../../payments-and-logistics/setup-hct-waybill.md){ title="設定新竹物流託運單" }」填寫寄件人資訊[^1]。
-- [x] **新竹物流寄件人地址**：至「金物流」>「[新竹物流託運單](../../payments-and-logistics/setup-hct-waybill.md#operate-hct-setup-sender){ title="設定新竹物流託運單" }」設定寄件人地址，若無設定則會導致出貨時出現「寄件人資訊不完整」的通知。
+- [x] **完成新竹物流託運單設定**：至「金物流」>「[新竹物流託運單](../../payments-and-logistics/setup-hct-waybill-v2.md){ title="設定新竹物流託運單" }」填寫寄件人資訊[^1]。
+- [x] **新竹物流寄件人地址**：至「金物流」>「[新竹物流託運單](../../payments-and-logistics/setup-hct-waybill-v2.md#operate-hct-setup-sender){ title="設定新竹物流託運單" }」設定寄件人地址，若無設定則會導致出貨時出現「寄件人資訊不完整」的通知。
 
 !!! plan "扣費方式依方案而定"
     新竹物流託運單的扣費方式分為兩類，操作前請先確認您的方案歸屬：
@@ -165,7 +165,7 @@ hide: []
         - 提供出貨地、電話、聯絡人。
         - 寄件客代：0577349。
 
-- **寄件人地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [新竹物流設定](../../payments-and-logistics/setup-hct-waybill.md#operate-hct-setup-sender){ title="設定新竹物流託運單" } 中的地址），如需更改可於視窗內點擊 **「更改」** 按鈕編輯[^2]。
+- **寄件人地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [新竹物流設定](../../payments-and-logistics/setup-hct-waybill-v2.md#operate-hct-setup-sender){ title="設定新竹物流託運單" } 中的地址），如需更改可於視窗內點擊 **「更改」** 按鈕編輯[^2]。
 
 ![下載新竹物流託運單-確認彈窗](../../../assets/images/EC-訂單-所有訂單-下載新竹物流託運單-確認彈窗.png){ title="下載新竹物流託運單-確認彈窗" }
 
@@ -249,7 +249,7 @@ hide: []
 
 ### 分箱寄送需用「加印託運單」 { #specs-hct-shipping-extra-label }
 
-若一筆訂單需 **拆成多箱寄送**(例如商品數量多、單一紙箱裝不下)，請改用 [加印託運單](../../payments-and-logistics/setup-hct-waybill.md#operate-hct-waybill-reprint){ title="設定新竹物流託運單" } 功能，在「新竹物流託運單」頁面輸入同一訂單編號，產生新的單號與託運單。
+若一筆訂單需 **拆成多箱寄送**(例如商品數量多、單一紙箱裝不下)，請改用 [加印託運單](../../payments-and-logistics/setup-hct-waybill-v2.md#operate-hct-waybill-reprint){ title="設定新竹物流託運單" } 功能，在「新竹物流託運單」頁面輸入同一訂單編號，產生新的單號與託運單。
 
 !!! note "註釋"
     「加印託運單」只能列印 **純配送** 的託運單。若訂單為貨到付款且需分箱，請聯繫客服協助處理代收款分配。
@@ -259,11 +259,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-printer:{ .lg }  
-  [__新竹物流託運單管理__](../../payments-and-logistics/setup-hct-waybill.md){ title="設定新竹物流託運單" }  
+  [__新竹物流託運單管理__](../../payments-and-logistics/setup-hct-waybill-v2.md){ title="設定新竹物流託運單" }  
   寄件人資訊、加印託運單、新竹逆物流流程設定。
 
 - :lucide-package-open:{ .lg }  
-  [__訂單部分出貨__](partial-shipment.md){ title="設定訂單部分出貨" }  
+  [__訂單部分出貨__](partial-shipment-v2.md){ title="設定訂單部分出貨" }  
   同一筆訂單分次出貨的操作方式。
 
 </div>
@@ -309,7 +309,7 @@ hide: []
 ??? quote "一筆訂單需要分多箱寄送，怎麼辦？"
     [](){ #faq-hct-shipping-multi-box }
 
-     請使用 **加印託運單** 功能：至「金物流」>「新竹物流託運單」>「加印託運單」，輸入同一訂單編號即可產生新的單號與託運單。每張[加印託運單](../../payments-and-logistics/setup-hct-waybill.md#operate-hct-waybill-reprint){ title="設定新竹物流託運單" }。
+     請使用 **加印託運單** 功能：至「金物流」>「新竹物流託運單」>「加印託運單」，輸入同一訂單編號即可產生新的單號與託運單。每張[加印託運單](../../payments-and-logistics/setup-hct-waybill-v2.md#operate-hct-waybill-reprint){ title="設定新竹物流託運單" }。
 
 ??? quote "補印託運單和一般下載託運單有什麼不同？"
     [](){ #faq-hct-shipping-reprint-vs-download }
