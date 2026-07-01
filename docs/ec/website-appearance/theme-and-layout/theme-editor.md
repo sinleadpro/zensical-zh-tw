@@ -2,7 +2,7 @@
 title: 拖拉版型網站設定
 description: 使用拖拉版型編輯器建立與調整官網外觀，包含全站設定、頁面內容編輯、商品頁面配置等。
 created:
-last_modified: 2026-07-01 13:48
+last_modified: 2026-07-01 14:10
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/theme-editor
 type: tutorial
@@ -153,8 +153,8 @@ comments: false
 開始之前，請先確認以下條件，這會影響您能不能使用拖拉編輯器，以及哪些頁面可以編輯：
 
 - [x] **版型須為「拖拉版型」：** 只有標示 **「拖拉設定」** 的版型才能使用本文的拖拉編輯器。舊的「預設版型」走另一套網站設定流程，不在本文範圍。
-- [x] **可拖拉的頁面有限：** 目前支援拖拉編輯的頁面為首頁、商品頁面與自訂頁面等，並非每個頁面都能拖拉。完整清單請見 [可拖拉編輯的頁面](../references/theme-editor-pages.md){ title="可拖拉編輯的頁面對照表" data-preview }。
-- [x] **部分區塊需加值功能：** 多數區塊所有拖拉版型皆可使用，少數區塊(如商品評論、門市據點列表)需另外開通對應加值功能才會出現，請見 [可新增區塊類型](../references/theme-editor-sections.md){ title="可新增區塊類型對照表" data-preview }。
+- [x] **可拖拉的頁面有限：** 目前支援拖拉編輯的頁面為首頁、商品頁面與自訂頁面等，並非每個頁面都能拖拉。完整清單請見 [可拖拉編輯的頁面](../references/theme-editor-pages.md#theme-editor-pages){ title="可拖拉編輯的頁面對照表" data-preview }。
+- [x] **部分區塊需加值功能：** 多數區塊所有拖拉版型皆可使用，少數區塊(如商品評論、門市據點列表)需另外開通對應加值功能才會出現，請見 [可新增區塊類型](../references/theme-editor-sections.md#theme-editor-sections){ title="可新增區塊類型對照表" data-preview }。
 
 ---
 
