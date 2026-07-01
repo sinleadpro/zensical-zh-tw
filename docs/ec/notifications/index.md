@@ -39,7 +39,7 @@ hide:
 
     ---
 
-    如何在 CYBERBIZ 後台設定與發送簡訊，包含發送方式、費用計算與操作步驟。
+    如何在 CYBERBIZ 後台設定與發送簡訊，包含發送方式與操作步驟。
 
     [:octicons-arrow-right-24: 前往](send-sms-notifications.md)
 

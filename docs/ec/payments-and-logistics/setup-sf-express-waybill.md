@@ -2,7 +2,7 @@
 title: 設定順豐託運單
 description: 設定順豐託運單，包括建立寄件人資訊、加印託運單及查詢單號使用紀錄。
 created: 2026-05-20 21:23
-last_modified: 2026-06-28 12:57
+last_modified: 2026-07-01 10:30
 lang: zh-TW
 type: tutorial
 status: ""
@@ -183,12 +183,6 @@ hide: []
 * **21 天失效規則**：託運單下載後，若 **超過 21 天(約 3 週)未實際寄件**，系統會依順豐回傳貨態判定為失效，單號狀態改為「取消寄件」並自動退回 Cyber 幣(對帳單方案則不會列入該期帳單)。
 * **超過 170cm 拆箱建議**：單一包裹建議不超過 170cm。順豐司機可能不收取超大件包裹，屆時需要重新加印託運單。
 
----
-
-### 春節繁盛期加收 { #specs-sf-waybill-busy-fee }
-
-春節假期 **每張託運單加收 60 元**，以順豐官方公告為準。後續若有其他加收項目，以順豐公告為準。
-
 ## 後續操作 { #next-steps-sf-waybill }
 
 <div class="grid cards" markdown>
@@ -196,10 +190,6 @@ hide: []
 - :lucide-package:{ .lg }  
   [__使用順豐宅配出貨__](../orders/home-delivery/sf-express-shipping.md){ title="使用順豐出貨" }  
   批次或單筆下載順豐託運單，完成完整出貨流程。
-
-- :lucide-ruler:{ .lg }  
-  [__順豐配送商品尺寸與運費對照表__](../orders/home-delivery/sf-express-shipping.md#reference-sf-shipment-sizes){ title="使用順豐出貨" data-preview }  
-  查看各配送尺寸對應的運費資訊，選擇適合的方案。
 
 </div>
 
