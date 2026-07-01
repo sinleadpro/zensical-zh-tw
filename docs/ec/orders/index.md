@@ -89,7 +89,7 @@ hide:
 
     批次下載黑貓宅配託運單、扣除運費並將訂單貨態更新為已出貨。
 
-    [:octicons-arrow-right-24: 前往](home-delivery/tcat-home-delivery.md)
+    [:octicons-arrow-right-24: 前往](home-delivery/tcat-home-delivery-v2.md)
 
 -   :lucide-truck: __使用宅配通出貨__
 
@@ -97,7 +97,7 @@ hide:
 
     使用宅配通出貨。包含批次下載託運單、單筆與部分出貨、補印託運單等操作，以及運費計價規則與常見問題。
 
-    [:octicons-arrow-right-24: 前往](home-delivery/pelican-shipping.md)
+    [:octicons-arrow-right-24: 前往](home-delivery/pelican-shipping-v2.md)
 
 -   :lucide-globe: __使用順豐出貨__
 
@@ -105,7 +105,7 @@ hide:
 
     使用順豐託運單批次或單筆下載出貨，系統自動與順豐即時取號，將訂單貨態更新為已出貨，支援國內台灣本島及海外配送。
 
-    [:octicons-arrow-right-24: 前往](home-delivery/sf-express-shipping.md)
+    [:octicons-arrow-right-24: 前往](home-delivery/sf-express-shipping-v2.md)
 
 -   :lucide-box: __使用新竹物流出貨__
 
@@ -113,7 +113,7 @@ hide:
 
     透過訂單列表批次選取訂單，下載新竹物流託運單並將貨態更新為已出貨。
 
-    [:octicons-arrow-right-24: 前往](home-delivery/hct-shipping.md)
+    [:octicons-arrow-right-24: 前往](home-delivery/hct-shipping-v2.md)
 
 -   :lucide-package: __如何使用自訂物流出貨__
 
@@ -249,7 +249,7 @@ hide:
 
     設定訂單部分出貨，包含操作步驟與不同物流的特殊情境說明。
 
-    [:octicons-arrow-right-24: 前往](home-delivery/partial-shipment.md)
+    [:octicons-arrow-right-24: 前往](home-delivery/partial-shipment-v2.md)
 
 -   :lucide-package-check: __處理超商訂單部分出貨__
 
@@ -281,7 +281,7 @@ hide:
 
     在批次下載黑貓託運單時，同步自動通知黑貓派車取件，省去人工聯絡時間。
 
-    [:octicons-arrow-right-24: 前往](home-delivery/tcat-auto-call-driver.md)
+    [:octicons-arrow-right-24: 前往](home-delivery/tcat-auto-call-driver-v2.md)
 
 -   :lucide-info: __出貨狀態物流提示文字說明__
 

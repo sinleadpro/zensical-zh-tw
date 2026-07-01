@@ -46,10 +46,10 @@ prerequisites:
   - 設定黑貓寄件人地址
   - 確認 CYBER 幣餘額
 related:
-  - "[[tcat-home-delivery]]"
-  - "[[tcat-auto-call-driver]]"
+  - "[[tcat-home-delivery-v2]]"
+  - "[[tcat-auto-call-driver-v2]]"
   - "[[補印與加印託運單]]"
-  - "[[partial-shipment]]"
+  - "[[partial-shipment-v2]]"
 tags:
   - EC
   - 黑貓快速到店
@@ -91,8 +91,8 @@ hide: []
 「黑貓快速到店」是商家將商品委由黑貓物流送至消費者指定的 7-11 門市進行取貨的服務，依商品溫層分為常溫、冷藏、冷凍三種。本文將引導您如何在新版訂單列表中批次處理訂單、下載託運單，並將貨態變更為「已出貨」。
 
 !!! info "其他黑貓服務"
-    * 若顧客選擇宅配，請見 [使用黑貓宅配出貨](../home-delivery/tcat-home-delivery.md){ title="使用黑貓宅配出貨" }。
-    * 自動呼叫黑貓司機到府收件，請見 [自動呼叫黑貓司機取件](../home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }。
+    * 若顧客選擇宅配，請見 [使用黑貓宅配出貨](../home-delivery/tcat-home-delivery-v2.md){ title="使用黑貓宅配出貨" }。
+    * 自動呼叫黑貓司機到府收件，請見 [自動呼叫黑貓司機取件](../home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" }。
 
 ## 使用前提與限制 { #prerequisites-tcat-cvs }
 
@@ -140,7 +140,7 @@ hide: []
 
 執行黑貓快速到店出貨前，請完成以下準備：
 
-- [x] **黑貓寄件人地址**： 至「金物流」>「[黑貓託運單](../../payments-and-logistics/setup-print-tcat-quick-store-waybill.md#configure-ezcat-cvs-shipping-note-sender-setup){ title="設定寄件人資訊" }」設定寄件人地址，否則託運單上的寄件人資訊將不完整。
+- [x] **黑貓寄件人地址**： 至「金物流」>「[黑貓託運單](../../payments-and-logistics/setup-print-tcat-quick-store-waybill-v2.md#configure-ezcat-cvs-shipping-note-sender-setup){ title="設定寄件人資訊" }」設定寄件人地址，否則託運單上的寄件人資訊將不完整。
 - [x] **耗材與設備**： 已備妥「黑貓三聯空白託運單貼紙」（可致電黑貓客服 02-412-8888 取得），並建議使用雷射印表機列印，以確保條碼清晰。
 - [x] **商品預冷（低溫包裹）**： 冷藏商品須預冷 6 小時以上；冷凍商品須預冷 12 小時以上。
 - [x] **確認餘額**：一般版商家請至 [儲值中心查看 Cyber 幣餘額](../../website-management/points-deposits.md){ data-preview }，確認餘額充足；PLUS版 / 企業版商家無此限制。
@@ -159,21 +159,21 @@ hide: []
     ![下載黑貓快速到店常溫託運單](../../../assets/images/EC-訂單-所有訂單-下載黑貓快速到店託運單.png){ title="下載黑貓快速到店常溫託運單" }
 
 4. **檢視託運資訊**：系統將彈出「下載黑貓快速到店 - 常溫／冷凍／冷藏 託運單」視窗，視窗內會列出本次出貨的訂單清單，請確認無誤。
-5. **（選用）設定自動呼叫司機取件**：若商店已開通「[呼叫黑貓](../home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }」加值功能，視窗中會出現「是否自動呼叫黑貓司機取件」選項，選擇 **是** 後會展開以下三個欄位：
+5. **（選用）設定自動呼叫司機取件**：若商店已開通「[呼叫黑貓](../home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" }」加值功能，視窗中會出現「是否自動呼叫黑貓司機取件」選項，選擇 **是** 後會展開以下三個欄位：
 
-    * **是否需在取件前事先電話聯絡**：選「是」時，司機抵達前會撥打「[黑貓寄取件設定頁](../../payments-and-logistics/setup-print-tcat-quick-store-waybill.md#configure-ezcat-cvs-shipping-note-sender-setup){ data-preview }」中的聯絡電話與您確認。
+    * **是否需在取件前事先電話聯絡**：選「是」時，司機抵達前會撥打「[黑貓寄取件設定頁](../../payments-and-logistics/setup-print-tcat-quick-store-waybill-v2.md#configure-ezcat-cvs-shipping-note-sender-setup){ data-preview }」中的聯絡電話與您確認。
     * **是否需黑貓司機準備推車**：若包裹數量較多，可請司機自備推車。
     * **備註**：可填寫特殊收件指示(例如門禁、樓層)，上限 **100 字**。
 
     ??? warning "呼叫截止時間"
-        每日 **16:30** 為[呼叫截止時間](../home-delivery/tcat-auto-call-driver.md#tcat-auto-call-driver-deadtime){ data-preview }，超過後此選項將自動鎖定為「否」，當天無法再透過系統呼叫，需自行致電黑貓安排。
+        每日 **16:30** 為[呼叫截止時間](../home-delivery/tcat-auto-call-driver-v2.md#tcat-auto-call-driver-deadtime){ data-preview }，超過後此選項將自動鎖定為「否」，當天無法再透過系統呼叫，需自行致電黑貓安排。
 
 6. **確認寄件地址**：視窗下方會顯示後台已設定的公司物流地址；若需臨時調整，可點擊「更改」覆寫此次出貨寄件地址。
 
     ![更改寄件地址](../../../assets/images/EC-訂單-所有訂單-下載黑貓快速到店常溫託運單-更改地址.png){ title="更改寄件地址" }
 
     ??? quote "需要自訂黑貓寄件資訊？"
-        若你的黑貓寄件地址需要不同於公司物流地址(例如倉庫地址)，或需要自訂寄件人姓名、電話、託運單預設品名，請另到 **金物流 > 黑貓託運單** 於「[黑貓設定](../../payments-and-logistics/setup-print-tcat-quick-store-waybill.md#configure-ezcat-cvs-shipping-note-sender-setup){ data-preview }」區塊填寫並儲存。
+        若你的黑貓寄件地址需要不同於公司物流地址(例如倉庫地址)，或需要自訂寄件人姓名、電話、託運單預設品名，請另到 **金物流 > 黑貓託運單** 於「[黑貓設定](../../payments-and-logistics/setup-print-tcat-quick-store-waybill-v2.md#configure-ezcat-cvs-shipping-note-sender-setup){ data-preview }」區塊填寫並儲存。
 
 7. **勾選並同意服務條款** ：確認已勾選「我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 黑貓合約規範」（預設為勾選狀態），按鈕「確認」才會啟用。
 8. **確認下載**：點擊 **確認** ，系統會自動下載[^1] [託運單 ZIP 壓縮檔](#tcat-cvs-zip-contents){ title="託運單 ZIP 內容物" }。
@@ -189,7 +189,7 @@ hide: []
 下載託運單後，需聯繫黑貓司機到貨取件:
 
 * **電話呼叫**：撥打黑貓客服專線 (02-412-8888) 安排取件。
-* **從後台直接呼叫**：若已開通 [呼叫黑貓功能](../home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }，可在下載託運單時於彈出視窗內預約司機取件。
+* **從後台直接呼叫**：若已開通 [呼叫黑貓功能](../home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" }，可在下載託運單時於彈出視窗內預約司機取件。
 
 ---
 
@@ -244,15 +244,15 @@ hide: []
   若須重新列印（例如標籤受潮、列印不清），回到訂單列表勾選同筆訂單，於「更多操作」選擇補印託運單。 -->
 
 - :lucide-truck:{ .lg }  
-  [__自動呼叫司機__](../home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }  
+  [__自動呼叫司機__](../home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" }  
   開通「呼叫黑貓」加值功能者可於列印託運單時自動呼叫司機。
 
 - :lucide-package-check:{ .lg }  
-  [__部分出貨__](../home-delivery/partial-shipment.md){ title="處理訂單部分出貨" }  
+  [__部分出貨__](../home-delivery/partial-shipment-v2.md){ title="處理訂單部分出貨" }  
   若一筆訂單中只想先寄出部分商品，可改從訂單詳情頁勾選指定品項。
 
 - :lucide-copy-plus:{ .lg }  
-  [__加印託運單__](../../payments-and-logistics/setup-print-tcat-waybill.md){ title="設定與加印黑貓託運單" }  
+  [__加印託運單__](../../payments-and-logistics/setup-print-tcat-waybill-v2.md){ title="設定與加印黑貓託運單" }  
   若一筆訂單因商品多需拆分為多箱寄出，每箱需各自一張託運單。
 
 </div>

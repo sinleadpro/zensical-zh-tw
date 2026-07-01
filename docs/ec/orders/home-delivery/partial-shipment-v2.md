@@ -2,7 +2,7 @@
 title: 設定訂單部分出貨
 description: 設定訂單部分出貨，包含操作步驟與不同物流的特殊情境說明。
 created: 2026-05-12 15:11
-last_modified: 2026-07-01 18:01
+last_modified: 2026-07-01 22:30
 lang: zh-TW
 type: tutorial
 status: ""
@@ -60,7 +60,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=93
   - https://www.cyberbiz.io/support/?p=43635
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/partial-shipment-settings
+permalink: https://help.cyberbiz.io/ec/orders/home-delivery/partial-shipment-v2
 comments: false
 search:
   exclude: false

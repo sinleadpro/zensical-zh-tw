@@ -1,7 +1,7 @@
 ---
 title: "設定網站標題與 SEO"
 description: "設定網站標題、簡述與關鍵字，以優化搜尋引擎 (SEO) 排名並提升社群分享時的品牌辨識度。"
-last_modified: 2026-06-30 11:01
+last_modified: 2026-07-01 19:52
 lang: "zh-TW"
 type: "tutorial"
 status: ""
@@ -106,7 +106,7 @@ hide:
 
 ![社群平台分享縮圖](../../../assets/images/ec-網站外觀-網站標題-社交媒體分享縮圖.png){ title="社群平台分享縮圖" }
 
-**網站標題**（TITLE）設定與修改方式，會根據您使用 **版型類型**（一般版型或拖拉版型）而有所不同。
+- **網站標題**（TITLE）設定與修改方式，會根據您使用 **版型類型**（一般版型或拖拉版型）而有所不同。
 
 以下為網站設定中「網站標題」與相關 SEO 資訊的詳細教學：
 
@@ -117,7 +117,7 @@ hide:
 - **後台路徑**：登入 CYBERBIZ 管理後台，前往 **管理中心 > 一般設定 > 網站名**。
 - **設定規範**：中文字請勿超過 15 字，英文字請勿超過 30 字。此名稱預設為您網址中的英文字串，建議修改為品牌名稱或公司名稱以利消費者辨識。
 
-!!! note "詳細設定流程，請參考 [如何設定網站名稱](../../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="設定網站基本資訊" }。"
+!!! info "詳細設定流程，請參考 [如何設定網站名稱](../../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="設定網站基本資訊" }。"
 
 ## 修改「網站標題」<small>依版型設定</small>
 
@@ -169,7 +169,7 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-trending-up:{ .lg }   
-  [__SEO 建議__]()     
+  [__SEO 建議__](../../website-management/seo/seo-guide.md){ title="SEO 設定與優化指南" }     
   商家可參考相關 SEO 優化文件，設定適當的標籤來加強網頁在搜尋引擎上的排名。
 
 - :lucide-share-2:{ .lg }     

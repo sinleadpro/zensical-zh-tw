@@ -2,7 +2,7 @@
 title: 設定新竹物流託運單
 description: 設定新竹物流託運單完整教學，包含寄件人資訊設定、加印託運單、逆物流建立、單號查詢與常見問題。
 created: 2026-05-22 17:28
-last_modified: 2026-07-01 19:11
+last_modified: 2026-07-01 22:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -46,7 +46,7 @@ prerequisites:
   - 領取新竹物流託運貼紙
   - 了解 Cyber 幣扣費方式
 related:
-  - "[[hct-shipping]]"
+  - "[[hct-shipping-v2]]"
   - "[[setup-store-basic-info]]"
 tags:
   - 新竹物流
@@ -64,7 +64,7 @@ paths:
   - 金物流 > 新竹物流託運單
 layouts: []
 wp_url: []
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-hct-waybill-v2
 comments: false
 search:
   exclude: false
@@ -108,8 +108,8 @@ hide: []
 
 | 紙張規格 | 適用列印模式 |
 | :-- | :-- |
-| 10cm x 10cm 熱感應紙 | 訂單列表[下載](../orders/home-delivery/hct-shipping.md#operate-hct-shipping-modal){ title="使用新竹物流出貨" }時選擇「熱感列印」、加印託運單時選擇對應紙張 |
-| A4 六模託運單貼紙 | 訂單列表[下載](../orders/home-delivery/hct-shipping.md#operate-hct-shipping-modal){ title="使用新竹物流出貨" }時選擇「一般列印(A4)」、加印託運單時選擇對應紙張 |
+| 10cm x 10cm 熱感應紙 | 訂單列表[下載](../orders/home-delivery/hct-shipping-v2.md#operate-hct-shipping-modal){ title="使用新竹物流出貨" }時選擇「熱感列印」、加印託運單時選擇對應紙張 |
+| A4 六模託運單貼紙 | 訂單列表[下載](../orders/home-delivery/hct-shipping-v2.md#operate-hct-shipping-modal){ title="使用新竹物流出貨" }時選擇「一般列印(A4)」、加印託運單時選擇對應紙張 |
 
 聯繫所屬營業所時請提供 **寄件客代：`0577349`**，告知已串接 CYBERBIZ 系統並需要列印紙。
 
@@ -228,7 +228,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-truck:{ .lg }  
-  [__使用新竹物流出貨__](../orders/home-delivery/hct-shipping.md){ title="使用新竹物流出貨" }  
+  [__使用新竹物流出貨__](../orders/home-delivery/hct-shipping-v2.md){ title="使用新竹物流出貨" }  
   從訂單列表批次下載託運單並更新訂單貨態。
 
 - :lucide-map-pin:{ .lg }  

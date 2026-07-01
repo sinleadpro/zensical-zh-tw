@@ -80,7 +80,7 @@ hide: []
 
 | 物流類型 | 系統串接物流 | 說明 | 列印託運單方式 |
 | ------- | ---- | ---- | ------------- |
-| 宅配貨到不付款物流 | 黑貓<br>宅配通<br>順豐<br>新竹物流 | 此物流選項與系統串接，可自動更新訂單出貨後貨態 | **需使用系統託運單出貨**<br>[使用黑貓宅配出貨](../orders/home-delivery/tcat-home-delivery.md)<br>[使用宅配通出貨](../orders/home-delivery/pelican-shipping.md)<br>[使用順豐出貨](../orders/home-delivery/sf-express-shipping.md)<br>[使用新竹物流出貨](../orders/home-delivery/hct-shipping.md) | 
+| 宅配貨到不付款物流 | 黑貓<br>宅配通<br>順豐<br>新竹物流 | 此物流選項與系統串接，可自動更新訂單出貨後貨態 | **需使用系統託運單出貨**<br>[使用黑貓宅配出貨](../orders/home-delivery/tcat-home-delivery-v2.md)<br>[使用宅配通出貨](../orders/home-delivery/pelican-shipping-v2.md)<br>[使用順豐出貨](../orders/home-delivery/sf-express-shipping-v2.md)<br>[使用新竹物流出貨](../orders/home-delivery/hct-shipping-v2.md) | 
 | 自訂物流 | - | 此物流不與系統串接，出貨後訂單貨態不予更新 | [使用自訂物流出貨](../orders/home-delivery/custom-logistic-shipping.md) | 
 
 ### 新竹物流貨到不付款場勘流程

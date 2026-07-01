@@ -2,7 +2,7 @@
 title: 設置網站客服視窗
 description: 透過 GetButton、Facebook 即時客服或 Omnichat 在官網設置客服視窗，提升品牌與顧客溝通效率。
 created: 2025-03-03 10:00
-last_modified: 2026-06-30 11:01
+last_modified: 2026-07-01 20:07
 lang: zh-TW
 type: tutorial
 status: ""
@@ -150,7 +150,7 @@ GetButton 是一款能同時整合 Messenger、LINE 等多種通訊軟體的第�
 	- **Omnichat：** 支援進階的顯示規則設定（例如：僅在商品頁顯示、或顧客停留 30 秒後才彈出），建議有此需求的商家優先考慮 Omnichat 方案。
 
 ??? quote "如果我發現客服按鈕遮擋了官網原有的「回到頂部」按鈕怎麼辦？" 
-	您可以透過 GetButton 的設定頁面調整 **Position**（位置）： * 嘗試將位置從 `Right` 改為 `Left`。 * 或是在設定中的 `Pro` 選項（需付費）調整垂直/水平間距（Offsets），以避開官網原有的排版元件。
+	您可以透過 GetButton 的設定頁面調整 **Position**（位置）： **嘗試將位置從 `Right` 改為 `Left`。** 或是在設定中的 `Pro` 選項（需付費）調整垂直/水平間距（Offsets），以避開官網原有的排版元件。
 
 ??? quote "使用 GetButton 會影響網站載入速度嗎？" 
 	由於 GetButton 屬於外部載入的輕量級 Script，對網站載入速度影響極微。但為確保最佳效能，建議 **不要同時安裝多個性質相同的客服外掛**。

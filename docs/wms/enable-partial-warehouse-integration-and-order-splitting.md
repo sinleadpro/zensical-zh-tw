@@ -177,7 +177,7 @@ hide: []
     3. **自行出貨單**：勾選訂單，點選 **更多操作 > 列印 XXX 託運單**。
         - 自訂出貨訂單支援部分出貨。
 
-             > 參閱[超商部分出貨](../ec/orders/cvs-shipping/cvs-partial-shipment.md)、[宅配部分出貨](../ec/orders/home-delivery/partial-shipment.md)
+             > 參閱[超商部分出貨](../ec/orders/cvs-shipping/cvs-partial-shipment.md)、[宅配部分出貨](../ec/orders/home-delivery/partial-shipment-v2.md)
 
         - 自訂出貨訂單恕不支援貨到付款。
     4. **倉庫出貨單**：系統會自動將訂單推送至 WMS，商家僅需觀察貨態更新。

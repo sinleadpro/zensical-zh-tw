@@ -151,7 +151,7 @@ hide: []
   查看自動結案、自動取消、未付款提醒等同一頁面的其他訂單規則。
 
 - :lucide-list-ordered:{ .lg }  
-  [__訂單部分出貨__](../../ec/orders/home-delivery/partial-shipment.md){ title="設定訂單部分出貨" }  
+  [__訂單部分出貨__](../../ec/orders/home-delivery/partial-shipment-v2.md){ title="設定訂單部分出貨" }  
   了解訂單的出貨與狀態流程，掌握結案前的訂單處理。
 
 </div>

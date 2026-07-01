@@ -107,7 +107,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/orders/home-delivery/pelican-shipping"
+                "url": "https://help.cyberbiz.io/ec/orders/home-delivery/pelican-shipping-v2"
             },
             "match_type": "url",
             "title": "",
@@ -133,7 +133,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/orders/home-delivery/tcat-home-delivery"
+                "url": "https://help.cyberbiz.io/ec/orders/home-delivery/tcat-home-delivery-v2"
             },
             "match_type": "url",
             "title": "",
@@ -159,7 +159,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/orders/home-delivery/partial-shipment"
+                "url": "https://help.cyberbiz.io/ec/orders/home-delivery/partial-shipment-v2"
             },
             "match_type": "url",
             "title": "",
@@ -341,7 +341,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/orders/home-delivery/sf-express-shipping"
+                "url": "https://help.cyberbiz.io/ec/orders/home-delivery/sf-express-shipping-v2"
             },
             "match_type": "url",
             "title": "",
@@ -705,7 +705,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/orders/home-delivery/hct-shipping"
+                "url": "https://help.cyberbiz.io/ec/orders/home-delivery/hct-shipping-v2"
             },
             "match_type": "url",
             "title": "",
@@ -757,7 +757,7 @@
             "action_code": 301,
             "action_type": "url",
             "action_data": {
-                "url": "https://help.cyberbiz.io/ec/orders/home-delivery/tcat-auto-call-driver"
+                "url": "https://help.cyberbiz.io/ec/orders/home-delivery/tcat-auto-call-driver-v2"
             },
             "match_type": "url",
             "title": "",

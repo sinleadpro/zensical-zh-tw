@@ -2,7 +2,7 @@
 title: 使用黑貓宅配出貨
 description: 批次下載黑貓宅配託運單、扣除運費並將訂單貨態更新為已出貨。
 created: 2026-05-12 15:53
-last_modified: 2026-07-01 17:55
+last_modified: 2026-07-01 20:10
 lang: zh-TW
 type: tutorial
 status: ""
@@ -46,9 +46,9 @@ prerequisites:
   - 領取黑貓三聯空白託運單貼紙
   - 完成黑貓設定（寄件人地址）
 related:
-  - "[[tcat-auto-call-driver]]"
+  - "[[tcat-auto-call-driver-v2]]"
   - "[[tcat-express-payment-settings]]"
-  - "[[partial-shipment]]"
+  - "[[partial-shipment-v2]]"
   - "[[訂單出貨流程]]"
 tags:
   - 黑貓宅配
@@ -73,7 +73,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=84
   - https://www.cyberbiz.io/support/?p=973
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/tcat-home-delivery
+permalink: https://help.cyberbiz.io/ec/orders/home-delivery/tcat-home-delivery-v2
 comments: false
 search:
   exclude: false
@@ -89,7 +89,7 @@ hide: []
 
 !!! info "其他黑貓服務"
     * 若顧客選擇超商取貨，請見 [使用黑貓快速到店出貨](../tcat-quick-store/tcat-quick-store-shipping.md){ title="使用黑貓快速到店出貨" }。
-    * 自動呼叫黑貓司機到府收件，請見 [自動呼叫黑貓司機取件](tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }。
+    * 自動呼叫黑貓司機到府收件，請見 [自動呼叫黑貓司機取件](tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" }。
 
 ## 計費與規則 { #tcat-home-pricing }
 
@@ -125,7 +125,7 @@ hide: []
 
 - [x] **領取黑貓三聯空白託運單貼紙**：致電黑貓宅急便 (02-412-8888) 領取「三聯空白託運單貼紙」(俗稱 A4 三模託運單)。若選擇 A4
 一般列印，系統列印的內容必須印在這款貼紙上，司機才會收件。
-- [x] **黑貓寄件人地址**：至「金物流」>「[黑貓託運單](../../payments-and-logistics/setup-print-tcat-waybill.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" }」設定寄件人地址，若無設定則會導致出貨時出現「寄件人資訊不完整」的通知。
+- [x] **黑貓寄件人地址**：至「金物流」>「[黑貓託運單](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" }」設定寄件人地址，若無設定則會導致出貨時出現「寄件人資訊不完整」的通知。
 - [x] **確認餘額或對帳狀態**：一般版商家請至 [儲值中心查看 Cyber幣餘額](../../website-management/points-deposits.md#cyber-coin-balance){ title="查詢 Cyber 幣餘額" data-preview }，確認足以支付運費；PLUS版 /
 企業版商家無此限制。
 - [x] **列印設備建議**：建議使用 **雷射印表機** 列印託運單，避免出貨條碼判讀異常。
@@ -145,16 +145,16 @@ hide: []
 4. **設定彈出視窗內欄位**：在跳出的「下載黑貓託運單」視窗中依序設定
     * **請選擇溫層**：選擇 **常溫** 、 **低溫(冷藏)** 或 **低溫(冷凍)** 。請確保 **規格與實寄包裹一致**。
     * **是否為易碎品**：選擇 **是** 或 **否** 。
-    * **寄件地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [黑貓設定](../../payments-and-logistics/setup-print-tcat-waybill.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" } 中的地址），如需更改可於視窗內點擊 **「更改」** 按鈕編輯[^3]。
+    * **寄件地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [黑貓設定](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" } 中的地址），如需更改可於視窗內點擊 **「更改」** 按鈕編輯[^3]。
 
 
     * **同意條款**：勾選 **我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 黑貓合約規範** 。未勾選時下載按鈕無法點擊。
 
     ??? quote "需要自訂黑貓寄件人姓名 / 電話？"
-         若您希望託運單上的寄件人聯絡電話與姓名不同於預設值，可至 **金物流 > 黑貓託運單** 的「[黑貓設定](../../payments-and-logistics/setup-print-tcat-waybill.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" data-preview }」區塊填寫並儲存。
+         若您希望託運單上的寄件人聯絡電話與姓名不同於預設值，可至 **金物流 > 黑貓託運單** 的「[黑貓設定](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" data-preview }」區塊填寫並儲存。
 
     !!! plan "從彈出視窗直接呼叫黑貓司機"
-        若你的店家已開通呼叫黑貓功能，視窗下方會出現「自動呼叫黑貓司機取件」區塊，可在下載託運單的同時預約司機到府收件。詳細操作請見 [如何自動呼叫黑貓司機取件](tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }。
+        若你的店家已開通呼叫黑貓功能，視窗下方會出現「自動呼叫黑貓司機取件」區塊，可在下載託運單的同時預約司機到府收件。詳細操作請見 [如何自動呼叫黑貓司機取件](tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" }。
 
 5. **確認下載與扣費**：點擊 **確認** ，系統會自動下載[^2] [託運單 ZIP 壓縮檔](#reference-tcat-home-zip-contents) 並 [扣除運費](#tcat-home-shipping-fee)。
 
@@ -174,7 +174,7 @@ hide: []
 下載託運單後，需聯繫黑貓司機到貨取件:
 
 * **電話呼叫**：撥打黑貓客服專線 (02-412-8888) 安排取件。
-* **從後台直接呼叫**：若已開通 [呼叫黑貓功能](tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }，可在下載託運單時於彈出視窗內預約司機取件。
+* **從後台直接呼叫**：若已開通 [呼叫黑貓功能](tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" }，可在下載託運單時於彈出視窗內預約司機取件。
 
 ---
 
@@ -208,7 +208,7 @@ hide: []
 <div class="grid cards" markdown>
   
 - :lucide-package-check:{ .lg }  
-  [__部分出貨__](partial-shipment.md){ title="設定訂單部分出貨" }  
+  [__部分出貨__](partial-shipment-v2.md){ title="設定訂單部分出貨" }  
   若一筆訂單中只想先寄出部分商品，可改從訂單詳情頁勾選指定品項。
 
 <!-- - :lucide-printer:{ .lg }  
@@ -216,12 +216,12 @@ hide: []
   若已下載過的託運單檔案遺失(例如貼紙印壞、檔案不見)，可在訂單列表批次補印。 -->
 
 - :lucide-copy-plus:{ .lg }  
-  [__加印託運單__](../../payments-and-logistics/setup-print-tcat-waybill.md#ezcat-shipping-note-create){ title="加印託運單" }  
+  [__加印託運單__](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#ezcat-shipping-note-create){ title="加印託運單" }  
   若一筆宅配訂單因商品多需拆分為多箱寄出，每箱需各自一張託運單。
 
 - :lucide-receipt:{ .lg }  
-  [__查看對帳明細__](../../payments-and-logistics/setup-print-tcat-waybill.md#ezcat-shipping-note-records){ title="查詢紀錄與對帳" }  
-  若訂單有運費調整（如補收差額或繁盛期加收），系統會將詳細資訊記錄於「[對帳備註](../../payments-and-logistics/setup-print-tcat-waybill.md#ezcat-shipping-note-usage-records){ title="單號使用紀錄" }」中。
+  [__查看對帳明細__](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#ezcat-shipping-note-records){ title="查詢紀錄與對帳" }  
+  若訂單有運費調整（如補收差額或繁盛期加收），系統會將詳細資訊記錄於「[對帳備註](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#ezcat-shipping-note-usage-records){ title="單號使用紀錄" }」中。
 
 </div>
 
@@ -235,7 +235,7 @@ hide: []
 
     * **瀏覽器阻擋彈跳視窗**：請檢查瀏覽器是否阻擋了彈跳視窗或廣告，允許本站彈跳視窗後重新點擊下載。
     * **Cyber 幣不足(一般版商家)**：請至 [儲值中心](../../website-management/points-deposits.md#cyber-coin-balance){ title="查詢 Cyber 幣餘額" data-preview } 儲值。
-    * **黑貓寄件人地址未設定**：至 金物流 > [黑貓託運單](../../payments-and-logistics/setup-print-tcat-waybill.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" } 完成設定。
+    * **黑貓寄件人地址未設定**：至 金物流 > [黑貓託運單](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" } 完成設定。
     * **未勾選同意條款**：確認彈出視窗下方「我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 黑貓合約規範」已勾選。
 
 ??? quote "沒有「下載黑貓託運單」選項"
@@ -260,13 +260,13 @@ hide: []
 ??? quote "同一筆訂單可以同時用兩家物流出貨嗎?"
     [](){ #faq-tcat-home-mixed-shipping }
 
-     不可以。一筆訂單只能搭配一種物流商。若需拆分品項出貨，請參考 [部分出貨](partial-shipment.md){ title="設定訂單部分出貨" }
+     不可以。一筆訂單只能搭配一種物流商。若需拆分品項出貨，請參考 [部分出貨](partial-shipment-v2.md){ title="設定訂單部分出貨" }
      流程，或聯繫業務團隊。
 
 ??? quote "補印託運單會額外扣費嗎?"
     [](){ #faq-tcat-home-reprint-fee }
 
-     不會。補印使用原來的單號，系統不會再次扣除 Cyber 幣。若需要 **新單號** (例如同一筆訂單拆成多箱)，請使用「[加印託運單](../../payments-and-logistics/setup-print-tcat-waybill.md#ezcat-shipping-note-create){ title="加印託運單" }」，加印會依張數扣費。
+     不會。補印使用原來的單號，系統不會再次扣除 Cyber 幣。若需要 **新單號** (例如同一筆訂單拆成多箱)，請使用「[加印託運單](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#ezcat-shipping-note-create){ title="加印託運單" }」，加印會依張數扣費。
 
 ??? quote "我是峰潮物流商家，可以用這個流程嗎?"
     [](){ #faq-tcat-home-honeycomb }

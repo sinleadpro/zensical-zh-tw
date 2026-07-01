@@ -84,9 +84,9 @@ notes:
 	    
 	    [會員優惠券、紅利到期提醒](../marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification.md)  
 	    [會員 Email 通知](../notifications/manage-email-templates.md)  
-		[會員簡訊通知](../notifications/send-sms-notifications.md)
+		[會員簡訊通知](../notifications/send-sms-notifications-v2.md)
 		[會員 LINE 通知](../notifications/manage-line-oa-templates.md)
-		[發送會員 EDM](../notifications/send-edm-newsletters.md) 
+		[發送會員 EDM](../notifications/send-edm-newsletters-v2.md) 
 	    
 	    </div>
 	

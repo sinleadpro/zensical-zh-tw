@@ -185,7 +185,7 @@ hide:
 
     管理黑貓宅急便託運單的完整指南，包含設定寄件人資訊、加印純配送託運單、建立黑貓逆物流退貨取件，以及查詢託運單號使用紀錄與 Cyber 幣扣款對帳。
 
-    [:octicons-arrow-right-24: 前往](setup-print-tcat-waybill.md)
+    [:octicons-arrow-right-24: 前往](setup-print-tcat-waybill-v2.md)
 
 -   :lucide-printer: __設定與加印黑貓快速到店託運單__
 
@@ -193,7 +193,7 @@ hide:
 
     黑貓快速到店(超商取貨)託運單完整指南，包含設定寄件人資訊、加印純配送託運單，以及查詢託運單號使用紀錄與 Cyber 幣扣款對帳。
 
-    [:octicons-arrow-right-24: 前往](setup-print-tcat-quick-store-waybill.md)
+    [:octicons-arrow-right-24: 前往](setup-print-tcat-quick-store-waybill-v2.md)
 
 -   :lucide-printer: __設定宅配通託運單__
 
@@ -201,7 +201,7 @@ hide:
 
     管理宅配通託運單指南，包含設定寄件人資訊、加印託運單、建立宅配通逆物流，以及查詢託運單號使用紀錄與 Cyber 幣扣款對帳。
 
-    [:octicons-arrow-right-24: 前往](setup-pelican-waybill.md)
+    [:octicons-arrow-right-24: 前往](setup-pelican-waybill-v2.md)
 
 -   :lucide-printer: __設定順豐託運單__
 
@@ -209,7 +209,7 @@ hide:
 
     設定順豐託運單，包括建立寄件人資訊、加印託運單及查詢單號使用紀錄。
 
-    [:octicons-arrow-right-24: 前往](setup-sf-express-waybill.md)
+    [:octicons-arrow-right-24: 前往](setup-sf-express-waybill-v2.md)
 
 -   :lucide-printer: __設定新竹物流託運單__
 
@@ -217,7 +217,7 @@ hide:
 
     設定新竹物流託運單完整教學，包含寄件人資訊設定、加印託運單、逆物流建立、單號查詢與常見問題。
 
-    [:octicons-arrow-right-24: 前往](setup-hct-waybill.md)
+    [:octicons-arrow-right-24: 前往](setup-hct-waybill-v2.md)
 
 </div>
 

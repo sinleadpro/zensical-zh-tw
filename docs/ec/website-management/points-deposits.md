@@ -44,8 +44,8 @@ features:
   - EDM計費
 prerequisites: []
 related:
-  - "[[manage-sms-templates]]"
-  - "[[send-edm-newsletters]]"
+  - "[[manage-sms-templates-v2]]"
+  - "[[send-edm-newsletters-v2]]"
 tags:
   - Cyber幣
   - 儲值中心
@@ -133,7 +133,7 @@ Cyber幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項加值�
 |------|------|
 | 50 封 | 1 Cyber 幣 |
 
-!!! info "EDM 發送相關設定請參閱「[如何發送 EDM 電子報](../notifications/send-edm-newsletters.md){ title="設定與發送 EDM 電子報" }」。"
+!!! info "EDM 發送相關設定請參閱「[如何發送 EDM 電子報](../notifications/send-edm-newsletters-v2.md){ title="設定與發送 EDM 電子報" }」。"
 
 ![EDM發送服務](../../assets/images/ec-管理中心-儲值中心-edm發送服務.png)
 
@@ -285,11 +285,11 @@ Cyber幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項加值�
 <div class="grid cards" markdown>
 
 - :lucide-message-square-text:{ .lg }   
-  [__簡訊樣板設定__](../notifications/manage-sms-templates.md){ title="簡訊樣板設定" }   
+  [__簡訊樣板設定__](../notifications/manage-sms-templates-v2.md){ title="簡訊樣板設定" }   
    設定自動發送的簡訊內容與樣板。
 
 - :lucide-mail:{ .lg }   
-  [__EDM 電子報設定__](../notifications/send-edm-newsletters.md){ title="EDM 電子報設定" }   
+  [__EDM 電子報設定__](../notifications/send-edm-newsletters-v2.md){ title="EDM 電子報設定" }   
   設定電子報發送內容，並查看 EDM 計費方式。
 
 </div>

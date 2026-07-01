@@ -762,23 +762,23 @@
     },
     {
       "title": "設定新竹物流託運單",
-      "file": "docs/ec/payments-and-logistics/setup-hct-waybill.md"
+      "file": "docs/ec/payments-and-logistics/setup-hct-waybill-v2.md"
     },
     {
       "title": "設定宅配通託運單",
-      "file": "docs/ec/payments-and-logistics/setup-pelican-waybill.md"
+      "file": "docs/ec/payments-and-logistics/setup-pelican-waybill-v2.md"
     },
     {
       "title": "設定與加印黑貓快速到店託運單",
-      "file": "docs/ec/payments-and-logistics/setup-print-tcat-quick-store-waybill.md"
+      "file": "docs/ec/payments-and-logistics/setup-print-tcat-quick-store-waybill-v2.md"
     },
     {
       "title": "設定與加印黑貓託運單",
-      "file": "docs/ec/payments-and-logistics/setup-print-tcat-waybill.md"
+      "file": "docs/ec/payments-and-logistics/setup-print-tcat-waybill-v2.md"
     },
     {
       "title": "設定順豐託運單",
-      "file": "docs/ec/payments-and-logistics/setup-sf-express-waybill.md"
+      "file": "docs/ec/payments-and-logistics/setup-sf-express-waybill-v2.md"
     },
     {
       "title": "開啟門市取貨服務",

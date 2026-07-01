@@ -40,7 +40,7 @@ features:
   - 發送紀錄列表
 prerequisites: []
 related:
-  - "[[send-sms-notifications]]"
+  - "[[send-sms-notifications-v2]]"
 tags:
   - 簡訊
   - 發送紀錄
@@ -121,11 +121,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-message-square-plus:{ .lg }  
-  [__設定與發送簡訊__](send-sms-notifications.md){ title="設定與發送簡訊通知" }  
+  [__設定與發送簡訊__](send-sms-notifications-v2.md){ title="設定與發送簡訊通知" }  
    了解簡訊發送的三種方法（顧客群組、手動、匯入 Excel）。
 
 - :lucide-message-square-text:{ .lg }  
-  [__簡訊通知樣板管理__](manage-sms-templates.md){ title="設定與管理簡訊通知樣板" }  
+  [__簡訊通知樣板管理__](manage-sms-templates-v2.md){ title="設定與管理簡訊通知樣板" }  
   自訂系統在特定情境下自動發送的簡訊內容。
 
 </div>
@@ -138,7 +138,7 @@ hide: []
 
 ??? quote "簡訊發送失敗怎麼辦？"
 
-    簡訊發送若因「號碼錯誤」或「電信商端問題」導致失敗，簡訊將無法成功送達。詳細發送規範請參閱[簡訊發送規範](send-sms-notifications.md#簡訊發送規範){ title="設定與發送簡訊通知" }。
+    簡訊發送若因「號碼錯誤」或「電信商端問題」導致失敗，簡訊將無法成功送達。詳細發送規範請參閱[簡訊發送規範](send-sms-notifications-v2.md#簡訊發送規範){ title="設定與發送簡訊通知" }。
 
 ??? quote "可以查詢多久以前的發送紀錄？"
 

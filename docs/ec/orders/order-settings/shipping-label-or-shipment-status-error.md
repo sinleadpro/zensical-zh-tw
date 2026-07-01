@@ -153,8 +153,8 @@ hide: []
 
 <div class="grid cards" markdown>
 
-- :lucide-truck:{ .ig .middle } [__使用黑貓宅配出貨__](../home-delivery/tcat-home-delivery.md)
-- :lucide-settings:{ .ig .middle } [__設定與加印黑貓託運單__](../../payments-and-logistics/setup-print-tcat-waybill.md)
+- :lucide-truck:{ .ig .middle } [__使用黑貓宅配出貨__](../home-delivery/tcat-home-delivery-v2.md)
+- :lucide-settings:{ .ig .middle } [__設定與加印黑貓託運單__](../../payments-and-logistics/setup-print-tcat-waybill-v2.md)
 
 </div>
 
@@ -264,7 +264,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-package-check:{ .lg }  
-  [__訂單部分出貨__](../home-delivery/partial-shipment.md)  
+  [__訂單部分出貨__](../home-delivery/partial-shipment-v2.md)  
   一筆訂單只想先寄出部分商品時的操作方式。
 
 - :lucide-banknote-x:{ .lg }  

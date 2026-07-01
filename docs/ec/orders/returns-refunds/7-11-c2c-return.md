@@ -39,7 +39,7 @@ features:
 prerequisites:
   - 需先向 CYBERBIZ 客服申請開通「7-ELEVEN C2C 退貨便」加值功能
 related:
-  - "[[partial-shipment]]"
+  - "[[partial-shipment-v2]]"
   - "[[setup-store-basic-info]]"
 tags:
   - 7-11 C2C 退貨便
@@ -179,7 +179,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-truck:{ .lg }  
-  [__部分出貨操作__](../home-delivery/partial-shipment.md){ title="設定訂單部分出貨" }  
+  [__部分出貨操作__](../home-delivery/partial-shipment-v2.md){ title="設定訂單部分出貨" }  
   退貨完成後若需要重新出貨剩餘品項，可參考部分出貨流程。
 
 - :lucide-settings:{ .lg }  

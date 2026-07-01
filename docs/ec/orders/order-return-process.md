@@ -157,15 +157,15 @@ hide: []
     <div class="grid cards" markdown>
 
     - :lucide-dollar-sign:{ .lg }   
-      [__建立黑貓逆物流__](../payments-and-logistics/setup-print-tcat-waybill.md#ezcat-shipping-note-reverse)       
+      [__建立黑貓逆物流__](../payments-and-logistics/setup-print-tcat-waybill-v2.md#ezcat-shipping-note-reverse)       
       設定黑貓寄件資訊、加印單號與建立逆物流。
 
     - :lucide-dollar-sign:{ .lg }   
-      [__建立宅配通逆物流__](../payments-and-logistics/setup-pelican-waybill.md#operate-pelican-shipping-reverse)       
+      [__建立宅配通逆物流__](../payments-and-logistics/setup-pelican-waybill-v2.md#operate-pelican-shipping-reverse)       
       設定宅配通寄件資訊、加印單號與建立逆物流。
 
     - :lucide-dollar-sign:{ .lg }   
-      [__建立新竹物流逆物流__](../payments-and-logistics/setup-hct-waybill.md#operate-hct-setup-reverse)       
+      [__建立新竹物流逆物流__](../payments-and-logistics/setup-hct-waybill-v2.md#operate-hct-setup-reverse)       
       設定新竹寄件資訊、加印單號與建立逆物流。
 
     </div>
