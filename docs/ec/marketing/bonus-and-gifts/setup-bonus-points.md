@@ -2,7 +2,7 @@
 title: 設定紅利點數
 description: 透過紅利點數建立會員回饋機制，吸引新客首購並提升舊客回購率。
 created: 2026-05-27 15:20
-last_modified: 2026-05-27 15:20
+last_modified: 2026-07-01 10:40
 lang: zh-TW
 type: tutorial
 status: ""
@@ -179,9 +179,6 @@ hide: []
     ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/設定紅利購物金說明03.png){ .screenshot }
 
 ## 結帳頁自動帶入紅利
-
-!!! info "適用版本"
-    **結帳頁自動帶入紅利開關** 僅供 **企業版** 使用。
 
 系統預設 **開啟** 結帳頁自動帶入會員紅利，商家可設定當會員進入結帳頁面時，系統是否自動帶入該會員目前可使用的紅利點數上限。
 

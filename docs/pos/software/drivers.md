@@ -2,7 +2,7 @@
 title: 驅動程式
 description: POS 驅動程式是串接硬體設備（如發票機、掃碼槍）的關鍵核心，確保在啟動 POS 前台前已正確安裝並執行。
 created: 2026-04-21 12:15
-last_modified: 2026-05-28 14:48
+last_modified: 2026-07-01 10:40
 lang: zh-TW
 type: tutorial
 status: ""
@@ -78,12 +78,11 @@ POS 驅動程式是串接硬體設備（如發票機、掃碼槍）的關鍵核�
 
 請點擊下方連結下載最新版驅動程式：
 
-- [**POS APP 下載 (V.7.9.2)**](https://drive.google.com/file/u/1/d/1Ewhb9v9Pwr7LKdijNDQkWUVkotVPj1bb/view)
+- [**POS APP 下載 (V.7.9.96)**](https://drive.google.com/file/d/1SeLpr3mQifNvrbdic_RNVKcKZnkgGN1J/view?usp=sharing)
 
 `備註：`
 
-`- 修正客顯商品件數顯示，改為顯示總數量而不是品項數`
-`- 支援 epson TM-m30III 發票機`
+`- 支援寄存商品提領明細`
 
 
 ### 步驟 2：執行安裝程式
