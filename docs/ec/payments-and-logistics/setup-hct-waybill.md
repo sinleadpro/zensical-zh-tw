@@ -2,7 +2,7 @@
 title: 設定新竹物流託運單
 description: 設定新竹物流託運單完整教學，包含寄件人資訊設定、加印託運單、逆物流建立、單號查詢與常見問題。
 created: 2026-05-22 17:28
-last_modified: 2026-06-28 14:15
+last_modified: 2026-07-01 12:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -47,7 +47,6 @@ prerequisites:
   - 了解 Cyber 幣扣費方式
 related:
   - "[[hct-shipping]]"
-  - "[[hct-size-fee-reference]]"
   - "[[setup-store-basic-info]]"
 tags:
   - 新竹物流
@@ -291,9 +290,3 @@ hide: []
     [](){ #faq-hct-setup-reconcile-note }
 
      對帳備註會顯示系統與新竹物流對帳的結果，例如「超過時間未寄件，回補 Cyber 幣」、實際尺寸與預估不符的補扣金額等。若欄位為空，代表此筆單號尚未進入對帳流程。
-
-## 參考資料
-
-- [新竹物流配送尺寸與運費對照表](../orders/references/hct-size-fee-reference.md){ title="新竹物流配送尺寸與運費對照表" }
-
-

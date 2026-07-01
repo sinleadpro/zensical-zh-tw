@@ -2,7 +2,7 @@
 title: 使用新竹物流出貨
 description: 透過訂單列表批次選取訂單，下載新竹物流託運單並將貨態更新為已出貨。
 created: 2026-05-22 17:21
-last_modified: 2026-07-01 09:39
+last_modified: 2026-07-01 12:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -42,7 +42,6 @@ features:
 prerequisites:
   - "[[setup-hct-waybill]]"
   - "[[setup-hct-waybill]]"
-  - "[[hct-size-fee-reference]]"
   - "[[partial-shipment]]"
   - "[[search-filter-orders]]"
 tags:
@@ -113,9 +112,7 @@ hide: []
 
 ## 計費規則 { #pricing-hct-shipping }
 
-新竹物流託運單以 **Cyber 幣** 計價，依包裹尺寸與溫層而定，詳細費率請參考 [運費對照表](../references/hct-size-fee-reference.md#hct-rate-card){ title="新竹物流配送尺寸與運費對照表" data-preview }。
-
-扣費時點：
+扣費方式依方案而定：
 
 - **一般版**：確認下載當下立即扣除[^pricing-deposit]。若 Cyber 幣不足，系統會擋下列印，請先至「儲值中心」儲值。
 - **PLUS版 / 企業版**：不擋下列印，費用於每期對帳單一併結算。
@@ -214,17 +211,23 @@ hide: []
 
 ### 配送尺寸、重量與不受理品項 { #specs-hct-shipping-restrictions }
 
-新竹物流有 [尺寸 / 重量上限](../references/hct-size-fee-reference.md#hct-rate-card-limits){ title="新竹物流配送尺寸與運費對照表" data-preview } 與 [低溫不受理品項](../references/hct-size-fee-reference.md#hct-rate-card-restricted){ title="新竹物流配送尺寸與運費對照表" data-preview } 限制，出貨前請逐一檢查您的包裹是否符合，完整內容請參考：
+新竹物流的尺寸與重量上限依溫層而異，超出範圍將無法寄送：
 
-- [新竹物流配送尺寸與運費對照表](../references/hct-size-fee-reference.md){ title="新竹物流配送尺寸與運費對照表" }
+| 溫層 | 三邊總和上限 | 單邊上限 | 重量上限 |
+| :-- | :-- | :-- | :-- |
+| 常溫 | 180cm | — | 20kg |
+| 低溫(冷藏 / 冷凍) | 120cm | 60cm | 20kg |
 
-!!! warning "常見不受理品項摘要"
-    低溫包裹中，以下品項新竹物流 **不受理**(完整清單見上方對照表):
+!!! warning "低溫不受理品項"
+    下列品項新竹物流 **不受理** 低溫配送：
     
     - 疫苗、血液 / 尿液檢體、冷藏藥品
     - 鮮奶油蛋糕、母奶、冰淇淋
     - 未密封包裝之榴槤 / 鹹魚
     - 保存期短於 3 天之商品
+
+!!! warning "若包裹被退回"
+    若新竹物流發現包裹含不受理品項，可能 **退回寄件人** 或拒絕配送，且不退回 Cyber 幣。出貨前請確認商品符合規範。
 
 ---
 
@@ -324,7 +327,4 @@ hide: []
 
     不行。訂單貨態一旦變更為「已出貨」，**無法再修改收貨人資訊**。請於下載託運單前，務必確認訂單中的收件人姓名、電話、地址皆正確。
 
-## 參考資料
-
-* [新竹物流配送尺寸與運費對照表](../references/hct-size-fee-reference.md){ title="新竹物流配送尺寸與運費對照表" }
 

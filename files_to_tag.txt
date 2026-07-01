@@ -147,7 +147,6 @@ docs/ec/orders/references/return-refund-status-reference.md
 docs/ec/orders/references/order-report-fields.md
 docs/ec/orders/references/c2c-return-conditions.md
 docs/ec/orders/references/fulfillment-statuses.md
-docs/ec/orders/references/hct-size-fee-reference.md
 docs/ec/orders/references/shipping-methods.md
 docs/ec/orders/references/order-list-features.md
 docs/ec/orders/references/payment-statuses.md

@@ -168,7 +168,6 @@ copyright = """
                 {"配送方式分類對照表" = "ec/orders/references/shipping-methods.md"},
                 {"配送狀態對照表" = "ec/orders/references/fulfillment-statuses.md"},
                 {"付款狀態對照表" = "ec/orders/references/payment-statuses.md"},
-                {"新竹物流運費" = "ec/orders/references/hct-size-fee-reference.md"},
                 {"C2C 退貨便條件" = "ec/orders/references/c2c-return-conditions.md"},
                 {"自動刷退時效" = "ec/orders/references/auto-refund-timeline.md"},
                 {"方案功能(退貨相關)" = "ec/orders/references/plan-features-return-reference.md"},
