@@ -2,7 +2,7 @@
 title: 使用黑貓宅配出貨
 description: 批次下載黑貓宅配託運單、扣除運費並將訂單貨態更新為已出貨。
 created: 2026-05-12 15:53
-last_modified: 2026-07-01 10:30
+last_modified: 2026-07-01 17:51
 lang: zh-TW
 type: tutorial
 status: ""
@@ -143,7 +143,7 @@ hide: []
     ![黑貓宅配下載托運單](../../../assets/images/EC-訂單-所有訂單-更多操作-黑貓宅配下載托運單.png){ title="黑貓宅配下載托運單" }
 
 4. **設定彈出視窗內欄位**：在跳出的「下載黑貓託運單」視窗中依序設定
-    * **請選擇溫層**：選擇 **常溫** 、 **低溫(冷藏)** 或 **低溫(冷凍)** 。請確保 [規格與實寄包裹一致](#tcat-home-specs-mismatch)
+    * **請選擇溫層**：選擇 **常溫** 、 **低溫(冷藏)** 或 **低溫(冷凍)** 。請確保 **規格與實寄包裹一致**。
     * **是否為易碎品**：選擇 **是** 或 **否** 。
     * **寄件地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [黑貓設定](../../payments-and-logistics/setup-print-tcat-waybill.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" } 中的地址），如需更改可於視窗內點擊 **「更改」** 按鈕編輯[^3]。
 
@@ -152,8 +152,6 @@ hide: []
 
     ??? quote "需要自訂黑貓寄件人姓名 / 電話？"
          若您希望託運單上的寄件人聯絡電話與姓名不同於預設值，可至 **金物流 > 黑貓託運單** 的「[黑貓設定](../../payments-and-logistics/setup-print-tcat-waybill.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" data-preview }」區塊填寫並儲存。
-
-    ![黑貓宅配下載托運單-確認](../../../assets/images/EC-訂單-所有訂單-下載黑貓托運單-確認視窗.png){ title="黑貓宅配下載托運單-確認" }
 
     !!! plan "從彈出視窗直接呼叫黑貓司機"
         若你的店家已開通呼叫黑貓功能，視窗下方會出現「自動呼叫黑貓司機取件」區塊，可在下載託運單的同時預約司機到府收件。詳細操作請見 [如何自動呼叫黑貓司機取件](tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }。
