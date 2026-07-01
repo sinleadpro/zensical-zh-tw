@@ -2,7 +2,7 @@
 title: 設定與發送 EDM 電子報
 description: 建立 EDM 內容、選擇發送對象並發送電子報給會員。
 created: 2026-03-10 00:28
-last_modified: 2026-06-26 06:12
+last_modified: 2026-07-01 10:30
 lang: zh-TW
 type: tutorial
 status: ""
@@ -34,7 +34,7 @@ plans:
 cyb_extensions: []
 intents:
   - 如何發送 EDM
-  - EDM 費用計算
+  - EDM 發送限制
   - 測試信沒收到
 features:
   - EDM 發送
@@ -76,7 +76,6 @@ hide:
 ## EDM 發送有哪些限制 
 
 *   **免費額度**：系統每月 1 號凌晨 12 點會自動重置贈送 **5,000 封** 免費 EDM。
-*   **費用計算**：超過免費封數後，每發送 50 封扣除 **1 點 Cyber 幣**（不足 50 封仍扣 1 點）。
 *   **對象限制**：系統僅能發送給「已註冊且勾選願意接受電子報」的官網會員。
 
 

@@ -2,7 +2,7 @@
 title: 設定黑貓快速到店付款方式
 description: 設定黑貓快速到店的付款方式，包含貨到付款與取貨不付款的設定步驟。
 created:
-last_modified: 2026-06-30 11:33
+last_modified: 2026-07-01 10:30
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/tcat-quick-store/tcat-express-payment-settings
 type: tutorial
@@ -108,17 +108,6 @@ tags:
 4. 點擊 **儲存**，套用變更。
 
 ![黑貓快速到店-貨到付款](../../../assets/images/ec-金物流-超商物流-黑貓快速到店-貨到付款.png){ title="黑貓快速到店-貨到付款" }
-
-??? note "黑貓快速到店代收金額表"
-
-	|**貨到付款手續費 (TWD)**|**代收金額 (TWD)**|
-	|---|---|
-	| 30 |0 ~ 2,000 |
-	| 60 |2,001 ~ 5,000 |
-	| 90 |5,001 ~ 10,000 |
-	| 120 |10,001 ~ 20,000 |
-	| 150 |20,001 ~ 50,000 |
-	| 300 |50,001 ~ 100,000 |
 
 ---
 
