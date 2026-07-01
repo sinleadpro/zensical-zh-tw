@@ -1,5 +1,12 @@
 var driverObj = null
 var tourResumed = false
+var tourCompleted = false
+
+function sendGA4Event(action, params) {
+  if (typeof gtag === 'function') {
+    gtag('event', action, Object.assign({ tour_name: 'help_center_intro' }, params))
+  }
+}
 
 document$.subscribe(function () {
   var params = new URLSearchParams(location.search)
@@ -62,6 +69,23 @@ function startDocTour() {
   driverObj = d({
     showProgress: true,
     showButtons: ['next', 'previous', 'close'],
+    onHighlightStarted: function (step) {
+      sendGA4Event('tour_step_view', {
+        step_index: step.options.stepIndex,
+        step_title: step.options.title
+      })
+      if (step.options.stepIndex === steps.length - 1) {
+        tourCompleted = true
+      }
+    },
+    onNextClick: function () {
+      sendGA4Event('tour_next')
+      driverObj.moveNext()
+    },
+    onPrevClick: function () {
+      sendGA4Event('tour_prev')
+      driverObj.movePrev()
+    },
     steps: [
       {
         element: '.md-content',
@@ -137,9 +161,11 @@ function startDocTour() {
       },
     ],
     onDestroyed: function () {
+      sendGA4Event('tour_ended', { completed: tourCompleted })
       closeSearchIfNeeded()
       driverObj = null
       tourResumed = false
+      tourCompleted = false
     },
   })
 
