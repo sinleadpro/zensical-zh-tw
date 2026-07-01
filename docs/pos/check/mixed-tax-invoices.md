@@ -2,7 +2,7 @@
 title: 混稅發票
 description: 瞭解如何設定商品應稅或免稅屬性，並在 POS 結帳時自動計算並開立包含應稅與免稅項目的混稅發票。
 created: 2026-04-16 11:15
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -61,7 +61,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/support/?p=37151
   - https://www.cyberbiz.io/support/?p=37500
-permalink: ""
+permalink: https://help.cyberbiz.io/pos/check/mixed-tax-invoices
 comments: false
 search:
   exclude: false

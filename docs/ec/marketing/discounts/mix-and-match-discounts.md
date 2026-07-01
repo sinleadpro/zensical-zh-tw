@@ -2,7 +2,7 @@
 title: 任選折扣
 description: 建立「任選折扣群組」，設定件數門檻與折扣計價方式（固定金額、折數或折固定金額），並管理活動商品與有效期間。
 created: 2026-01-21 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 10:56
 lang: zh-TW
 type: tutorial
 status: ""
@@ -22,7 +22,11 @@ audiences:
   - admin
 difficulty: beginner
 tnb: trunk
-plans: []
+plans:
+  - 企業
+  - 專業
+  - 進階
+  - 高手
 cyb_extensions: []
 intents:
   - 設定任選折扣
@@ -42,11 +46,10 @@ paths:
   - 行銷活動 > 任選折扣
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/helpcenter/?p=1060
+  - https://www.cyberbiz.io/helpcenter/?p=1004
   - https://www.cyberbiz.io/helpcenter/?p=1065
   - https://www.cyberbiz.io/helpcenter/?p=1069
   - https://www.cyberbiz.io/helpcenter/?p=1072
-  - https://www.cyberbiz.io/helpcenter/?p=1004
   - https://www.cyberbiz.io/support/?p=1304
   - https://www.cyberbiz.io/support/?p=1335
   - https://www.cyberbiz.io/support/?p=1357

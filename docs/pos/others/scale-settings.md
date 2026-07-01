@@ -2,7 +2,7 @@
 title: 秤重商品條碼
 description: 針對販售散裝、秤重商品的商家，POS 支援與磅秤標籤機產出的條碼對接。透過掃描含有金額資訊的專屬條碼，店員可快速完成精確結帳。
 created: 2026-03-25 16:45
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -63,7 +63,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=47792
-permalink: ""
+permalink: https://help.cyberbiz.io/pos/others/scale-settings
 comments: false
 search:
   exclude: false

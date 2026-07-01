@@ -2,7 +2,7 @@
 title: 認識 POS 營收分析
 description: 在同一頁比較各 POS 門市的營業表現，從年度、月份、星期時段到分店排名，多角度掌握實體門市的經營績效。
 created: 2026-06-23 16:30
-last_modified: 2026-06-30 14:00
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -61,7 +61,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=28244
-permalink: "https://help.cyberbiz.io/pos/business-intelligence/pos-revenue-analysis/"
+permalink: https://help.cyberbiz.io/pos/business-intelligence/pos-revenue-analysis
 comments: false
 search:
   exclude: false

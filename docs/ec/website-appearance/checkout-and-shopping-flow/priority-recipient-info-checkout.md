@@ -2,9 +2,9 @@
 title: 修改結帳流程為優先填寫收件人資訊
 description: 修改程式碼檔案，將結帳流程預設的「購買人優先」調整為「收件人優先」，以優化跨境電商的填單體驗。
 created: 2026-03-04 00:00
-last_modified: 2026-06-24 18:02
+last_modified: 2026-06-30 11:01
 lang: zh-TW
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-appearance/checkout-and-shopping-flow/priority-recipient-info-checkout
 type: tutorial
 status: ""
 version: ""
@@ -22,10 +22,13 @@ sites:
   - TW
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 audiences:
   - developer

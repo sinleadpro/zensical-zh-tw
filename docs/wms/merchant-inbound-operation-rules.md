@@ -2,7 +2,7 @@
 title: 商家進倉作業規範
 description: 商家商品進入 CYBERBIZ 電商倉儲的標準作業流程與規範，包含預約進倉、驗收標準、包裝條碼規格及現場作業安全守則。
 created: 2026-03-16 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -52,7 +52,8 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5730
-permalink: ""
+  - https://www.cyberbiz.io/support/?p=8770
+permalink: https://help.cyberbiz.io/wms/merchant-inbound-operation-rules
 comments: false
 search:
   exclude: false

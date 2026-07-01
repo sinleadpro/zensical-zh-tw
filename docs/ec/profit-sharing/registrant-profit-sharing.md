@@ -2,7 +2,7 @@
 title: 註冊人分潤
 description: 註冊人分潤採「永久綁定」機制。當顧客在註冊時填入特定的註冊人代碼，該顧客未來不論在官網或門市消費，系統皆會自動計算分潤給該代碼擁有者。
 created: 2026-02-06 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 10:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -24,11 +24,8 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 高手
 cyb_extensions: []
 intents:
   - 建立註冊分潤方案
@@ -52,7 +49,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1182
   - https://www.cyberbiz.io/support/?p=1720
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/profit-sharing/registrant-profit-sharing
 comments: false
 search:
   exclude: false

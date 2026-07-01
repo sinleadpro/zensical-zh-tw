@@ -2,7 +2,7 @@
 title: 設定前台商品篩選器
 description: 設定並管理顧客可使用的商品篩選器，改善前台購物體驗。
 created: 2026-01-16 00:00
-last_modified: 2026-06-29 15:21
+last_modified: 2026-06-30 11:26
 lang: zh-TW
 type: tutorial
 status:
@@ -23,11 +23,11 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 進階
-  - 高手
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 feature_badges: []
 intents:

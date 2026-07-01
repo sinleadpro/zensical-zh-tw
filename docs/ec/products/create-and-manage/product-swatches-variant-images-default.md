@@ -2,7 +2,7 @@
 title: 設定商品色票與款式圖片-預設版型
 description: 設定預設版型商品的色票與款式圖片，讓消費者能直觀瀏覽並選擇款式。
 created: 2026-04-17 10:50
-last_modified: 2026-06-29 10:46
+last_modified: 2026-06-30 11:26
 lang: zh-TW
 type: tutorial
 status: ""
@@ -22,14 +22,14 @@ audiences:
   - admin
 difficulty: intermediate
 tnb: trunk
-plans: 
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
+plans:
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 設定商品色票功能
@@ -63,7 +63,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=958
   - https://www.cyberbiz.io/support/?p=2018
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/products/create-and-manage/product-swatches-variant-images-default
 comments: false
 search:
   exclude: false

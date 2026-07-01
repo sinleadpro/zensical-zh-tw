@@ -2,7 +2,7 @@
 title: 修改訂單明細頁「店長改價」的顯示名稱
 description: 修改程式碼檔案，將前台訂單明細頁顯示的「店長改價」更名為「商品改價」，避免消費者誤解。
 created: 2026-03-05 16:07
-last_modified: 2026-06-30 15:39
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 permalink: https://help.cyberbiz.io/pos/check/customize-manager-price-override-display
 type: tutorial

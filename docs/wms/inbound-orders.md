@@ -2,7 +2,7 @@
 title: 進倉單
 description: 在實體貨物送達前，商家必須先於後台建立進倉單，精確填寫預定入庫的品項、數量與效期，並通知倉庫行政人員。
 created: 2026-03-16 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -52,8 +52,13 @@ paths:
   - 進倉單
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=5739
+  - https://www.cyberbiz.io/support/?p=4750
+  - https://www.cyberbiz.io/support/?p=4781
+  - https://www.cyberbiz.io/support/?p=4799
+  - https://www.cyberbiz.io/support/?p=4814
   - https://www.cyberbiz.io/support/?p=9088
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/inbound-orders
 comments: false
 search:
   exclude: false

@@ -2,7 +2,7 @@
 title: 設定商品(現貨、限量、預購)
 description: 串接電商倉儲（WMS）時，針對不同銷售策略（現貨、限量、預購）設定庫存同步機制。
 created: 2026-03-19 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: guide
 status: ""
@@ -55,8 +55,10 @@ paths:
   - 商品管理 > 商品列表 > 編輯商品
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=5714
+  - https://www.cyberbiz.io/helpcenter/?p=5720
   - https://www.cyberbiz.io/support/?p=9658
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/setup-products-stock-limit-preorder
 comments: false
 search:
   exclude: false

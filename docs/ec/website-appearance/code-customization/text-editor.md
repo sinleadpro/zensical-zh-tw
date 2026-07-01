@@ -2,7 +2,7 @@
 title: 使用文字編輯器編輯內容
 description: 認識新舊版文字編輯器，在商品描述、自訂頁面與部落格編輯圖文內容、插入圖片與 YouTube 影片。
 created: "2026-03-19 11:51"
-last_modified: 2026-06-30 16:28
+last_modified: 2026-06-30 11:01
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,13 +23,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 feature_badges: []
 intents:
@@ -68,10 +68,11 @@ paths:
   - 網站外觀 > 部落格管理
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/helpcenter/?p=3938
   - https://www.cyberbiz.io/helpcenter/?p=1330
+  - https://www.cyberbiz.io/helpcenter/?p=3938
   - https://www.cyberbiz.io/support/?p=21070
-permalink: https://help.cyberbiz.io/ec/website-appearance/code-customization/text-editor/
+  - https://www.cyberbiz.io/support/?p=51521
+permalink: https://help.cyberbiz.io/ec/website-appearance/code-customization/text-editor
 comments: false
 search:
   exclude: false
@@ -205,6 +206,9 @@ CYBERBIZ 目前有 **新版文字編輯器** 與 **舊版文字編輯器** 兩�
 以下功能僅新版文字編輯器提供：
 
 - **斜線指令（/）：** 在內文輸入「/」即可叫出快捷選單，快速插入標題、清單、表格、水平線、圖片、YouTube 影片、特殊符號或表情符號。完整清單見[斜線指令對照表](../references/text-editor-toolbar.md#reference-text-editor-slash-commands){ data-preview }。
+
+    ![斜線指令快捷選單畫面](../../../assets/images/ec-website-appearance-text-editor-slash-command.png)
+
 - **Markdown 語法：** 輸入 `#` 加空格可建立標題、`-` 加空格可建立項目符號清單、`---` 可插入水平線。
 - **懸浮工具列：** 選取文字後會自動浮出工具列，方便快速調整粗體、斜體、底線、顏色與連結。
 - **建立錨點：** 可對段落或圖片建立錨點並複製錨點連結，貼到其他文字或圖片上即可在頁面內跳轉。

@@ -2,7 +2,7 @@
 title: 管理商品評論
 description: 啟用並管理商品評論功能。
 created: 2026-03-05 16:00
-last_modified: 2026-06-29 19:38
+last_modified: 2026-06-30 11:26
 lang: zh-TW
 type: tutorial
 status:
@@ -22,10 +22,13 @@ sites:
   - TW
 tnb: branch
 plans:
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 audiences:
   - admin
@@ -66,7 +69,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7894
   - https://www.cyberbiz.io/support/?p=30610
-permalink:
+permalink: https://help.cyberbiz.io/ec/products/engagement/manage-product-reviews
 comments: false
 search:
   exclude: false

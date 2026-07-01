@@ -2,7 +2,7 @@
 title: 新增與更新商品
 description: 完成一支商品從新增、設定款式與價格、撰寫商品描述，到後續編輯、複製、上下架，以及多國語系與跨境銷售的相關設定。
 created: 2026-03-08 17:15
-last_modified: 2026-06-28 23:05
+last_modified: 2026-06-30 11:26
 lang: zh-TW
 type: tutorial
 status: ""
@@ -27,13 +27,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 新增單一商品
@@ -75,9 +75,13 @@ paths:
   - 商品 > 所有商品 > 新增商品
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/support/?p=1958
+  - https://www.cyberbiz.io/helpcenter/?p=11161
   - https://www.cyberbiz.io/helpcenter/?p=894
-permalink: add-single-product
+  - https://www.cyberbiz.io/support/?p=1958
+  - https://www.cyberbiz.io/support/?p=20111
+  - https://www.cyberbiz.io/support/?p=31357
+  - https://www.cyberbiz.io/support/?p=7565
+permalink: https://help.cyberbiz.io/ec/products/create-and-manage/create-update-products
 comments: false
 search:
   exclude: false

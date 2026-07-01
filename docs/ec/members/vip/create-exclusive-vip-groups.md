@@ -2,7 +2,7 @@
 title: 建立專屬VIP群組
 description: 透過 VIP 群組標籤功能，針對特定客層綁定標籤並設定專屬 VIP 規則，實現分群經營與精準行銷。
 created: 2026-01-23 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 12:30
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,7 +23,11 @@ audiences:
   - admin
 difficulty: intermediate
 tnb: trunk
-plans: []
+plans:
+  - 企業
+  - 專業
+  - 進階
+  - 高手
 cyb_extensions: []
 intents:
   - 建立 VIP 群組標籤
@@ -48,7 +52,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8621
   - https://www.cyberbiz.io/support/?p=32733
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/members/vip/create-exclusive-vip-groups
 comments: false
 search:
   exclude: false

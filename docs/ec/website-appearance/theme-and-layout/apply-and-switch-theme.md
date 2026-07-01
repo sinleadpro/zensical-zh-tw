@@ -2,7 +2,7 @@
 title: 套用與更換網站主題
 description: 透過套版主題管理隨時下載、切換與發布不同的網站主題，無需重新設計即可改變官網前台視覺風格。
 created: 2026-06-22 10:00
-last_modified: 2026-06-22 11:05
+last_modified: 2026-06-30 11:01
 lang: zh-TW
 type: tutorial
 status: ""
@@ -24,13 +24,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 feature_badges: []
 intents:
@@ -70,7 +70,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=410
   - https://www.cyberbiz.io/support/?p=2807
-permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/apply-and-switch-theme/
+permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/apply-and-switch-theme
 comments: false
 search:
   exclude: false

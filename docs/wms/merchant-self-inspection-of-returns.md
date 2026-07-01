@@ -2,7 +2,7 @@
 title: 商家自行驗收退貨
 description: 電商倉儲的商家希望自行處理退貨包裹（不退回總倉），可引導消費者將商品寄至指定地址。由商家自行驗收後，再於官網後台執行退貨退款指令。
 created: 2026-03-19 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: guide
 status: ""
@@ -51,8 +51,9 @@ paths:
   - 訂單 > 所有訂單
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=10497
   - https://www.cyberbiz.io/support/?p=4414
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/merchant-self-inspection-of-returns
 comments: false
 search:
   exclude: false

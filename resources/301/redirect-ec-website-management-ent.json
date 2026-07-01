@@ -7,7 +7,7 @@
         {
             "id": 5,
             "name": "ec-website-management",
-            "redirects": 29,
+            "redirects": 30,
             "module_id": 1,
             "moduleName": "WordPress",
             "enabled": false
@@ -765,6 +765,32 @@
             "regex": false,
             "group_id": 5,
             "position": 28,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 30,
+            "url": "/support/?p=13847",
+            "match_url": "/support",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/orders/quick-delivery-shipping-fee-calculation-and-reconciliation"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 5,
+            "position": 29,
             "last_access": "-",
             "enabled": false
         }

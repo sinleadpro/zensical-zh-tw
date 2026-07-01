@@ -1,7 +1,7 @@
 ---
 title: 設定電子票券優惠
 version: ""
-last_modified: 2026-06-24 21:14
+last_modified: 2026-06-30 11:05
 description: 建立電子票券的任選折扣優惠活動，設定折扣層級與計價規則，並瞭解退票與撥款的計算方式。
 product:
   - EC
@@ -28,10 +28,13 @@ features:
   - 電子票券
 tnb: branch
 plans:
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions:
   - TICKET
 prerequisites: []

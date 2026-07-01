@@ -2,7 +2,7 @@
 title: 日本站官網需建立特定商取引法頁面
 description: 根據日本《特定商取引法》，日本站商家需建立法定公開頁面，涵蓋必要商家資訊，確保網站合法營運。
 created: 2026-03-16 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 11:01
 lang: zh-TW
 type: guide
 status: update
@@ -50,7 +50,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=50470
-permalink: jp-legal-compliance-page
+permalink: https://help.cyberbiz.io/ec/website-appearance/site-settings/jp-legal-compliance-page
 comments: false
 search:
   exclude: false

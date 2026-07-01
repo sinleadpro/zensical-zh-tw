@@ -7,7 +7,7 @@
         {
             "id": 8,
             "name": "ec-integrations",
-            "redirects": 48,
+            "redirects": 51,
             "module_id": 1,
             "moduleName": "WordPress",
             "enabled": false
@@ -1259,6 +1259,84 @@
             "regex": false,
             "group_id": 8,
             "position": 47,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 49,
+            "url": "/helpcenter/?p=4002",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/integrations/line/"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 48,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 50,
+            "url": "/helpcenter/?p=3872",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/products/categories-and-tags/secret-collection"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 49,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 51,
+            "url": "/helpcenter/?p=11972",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/app-market/install-meta-ads-app"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 8,
+            "position": 50,
             "last_access": "-",
             "enabled": false
         }

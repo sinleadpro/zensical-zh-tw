@@ -2,7 +2,7 @@
 title: 會員分析
 description: 掌握會員規模、成長趨勢與首購後的留存及回購表現，評估會員經營健康度。
 created: 2026-06-16
-last_modified: 2026-06-17 14:01
+last_modified: 2026-06-30 21:21
 lang: zh-TW
 type: tutorial
 status: ""
@@ -61,8 +61,9 @@ ui_components: []
 paths:
   - 分析報表 > 會員分析
 layouts: []
-wp_url: []
-permalink: "https://help.cyberbiz.io/ec/business-intelligence/member-analysis/"
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=5050
+permalink: https://help.cyberbiz.io/ec/business-intelligence/member-analysis
 comments: false
 search:
   exclude: false

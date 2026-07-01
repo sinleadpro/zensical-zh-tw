@@ -2,9 +2,9 @@
 title: 樣板編輯器操作全攻略
 description: 樣版編輯器的操作說明、常見特殊語法應用及重要注意事項。
 created: 2026-03-05 20:55
-last_modified: 2026-06-24 18:08
+last_modified: 2026-06-30 11:01
 lang: zh-TW
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-appearance/code-customization/theme-editor-complete-guide
 type: guide
 status: ""
 version: ""
@@ -21,13 +21,13 @@ sites:
   - TW
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 audiences:
   - developer

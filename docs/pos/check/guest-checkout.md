@@ -2,7 +2,7 @@
 title: 訪客結帳
 description: 訪客結帳功能讓商家能為「非會員」且「無意願註冊」的顧客完成交易。系統會自動套用預設帳號，協助門市在不強迫入會的前提下順利結帳。
 created: 2026-04-23 11:55
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -59,7 +59,7 @@ layouts:
   - 
 wp_url:
   - https://www.cyberbiz.io/support/?p=12638
-permalink: ""
+permalink: https://help.cyberbiz.io/pos/check/guest-checkout
 comments: false
 search:
   exclude: false

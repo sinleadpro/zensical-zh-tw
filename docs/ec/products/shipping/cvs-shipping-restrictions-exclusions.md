@@ -2,7 +2,7 @@
 title: 設定超商配送限制與物流排除
 description: 設定商品的材積與重量，讓系統自動判斷訂單是否符合超商物流（B2C／C2C）的配送限制。
 created: 2026-03-08 10:00
-last_modified: 2026-06-29 20:46
+last_modified: 2026-06-30 11:26
 lang: zh-TW
 type: guide
 status: ""
@@ -23,13 +23,13 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS 
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 feature_badges: []
 intents:
