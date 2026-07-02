@@ -2,7 +2,7 @@
 title: "設定 Google 快速登入"
 description: "設定 Google 快速登入功能，讓消費者能使用 Google 帳戶一鍵註冊或登入會員。"
 created: "2026-03-17 12:26"
-last_modified: 2026-06-26 10:05
+last_modified: 2026-07-02 14:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -74,7 +74,9 @@ hide: []
 
 **「Google 快速登入」** 功能讓消費者在註冊或登入會員時，可以直接使用其 Google 帳戶進行一鍵操作，系統會自動根據消費者輸入的電子郵件信箱新增會員資料，或將其 Google 帳戶與現有會員資訊進行綁定。
 
-## Google Cloud Platform 端設定
+## 操作步驟
+
+### Google Cloud Platform 端設定
 
 商家需先在 Google 開發者平台建立專案並取得串接所需的憑證資訊。
 
@@ -98,7 +100,9 @@ hide: []
 
     ![OAuth 用戶端完成畫面](../../../assets/images/ec-第三方整合-google設定-oauth用戶端完成.png){ title="OAuth 用戶端完成畫面" }
 
-## CYBERBIZ 後台串接設定
+---
+
+### CYBERBIZ 後台串接設定
 
 取得金鑰後，需回到官網後台完成最後的開啟動作。
 
