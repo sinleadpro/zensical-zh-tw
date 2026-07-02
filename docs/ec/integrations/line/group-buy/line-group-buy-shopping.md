@@ -2,7 +2,7 @@
 title: "使用 LINE 團購進行購物"
 description: 顧客如何在 LINE 群組中透過團購機器人瀏覽商品、加入購物車並完成訂單結帳流程。 
 created: "2026-03-12 15:40"
-last_modified: 2026-06-26 10:05
+last_modified: 2026-07-02 10:30
 lang: zh-TW
 type: tutorial
 status:
@@ -64,8 +64,6 @@ hide: []
 ## LINE 團購購物說明
 
 LINE 團購功能的顧客即為 **LINE 群組或多人聊天室的成員**。顧客主要透過與 **團購機器人** 互動來進行選購與結帳。
-
-以下為顧客操作 LINE 團購的詳細教學：
 
 ## 前置需求
 

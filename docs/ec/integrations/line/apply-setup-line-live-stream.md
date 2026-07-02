@@ -1,9 +1,8 @@
 ---
-
 title: "申請與設定 LINE 直播功能"
 description: 如何申請 LINE 直播功能，並完成後台參數設定與商品串接。 
 created: "2026-03-13 10:35"
-last_modified: 2026-06-26 10:05
+last_modified: 2026-07-02 10:34
 lang: zh-TW
 type: tutorial
 status: 
@@ -78,22 +77,12 @@ hide: []
     *   **一般帳號（灰色盾牌）**：目前不開放申請。
     *   **企業帳號（綠色盾牌）**：為邀請制，亦具備資格。
 - **官方帳號好友數**：建議好友數達 **1000 人以上**，以確保觀看與轉單成效。
-- **顧客限制**：顧客必須是官方帳號好友，且 [**已完成官網會員與 LINE OA 的綁定**](account-integration/bind-line-oa-store-members.md){ title="綁定 LINE 官方帳號與官網會員" }，方可進入直播間並下單。
+- **顧客限制**：顧客必須是官方帳號好友，且 [已完成官網會員與 LINE OA 的綁定](account-integration/bind-line-oa-store-members.md){ title="綁定 LINE 官方帳號與官網會員" }，方可進入直播間並下單。
 - **直播頻率建議**：建議每月至少直播 4 場以上，以培養與好友的觀看默契。
 
 ## 申請與上線流程
 
 1.  **填寫表單**：向 CYBERBIZ 索取並填寫 [直播資格申請表 :lucide-external-link:](https://docs.google.com/forms/d/e/1FAIpQLSeaMKpcK0DOaTvZDy_229oV3mV_k50-oKKTljdGh9sUXuRD1A/viewform)。
-
-    ??? abstract "LINE 直播開通申請表單"
-        <div style="position: relative; padding-bottom: 120%; height: 0; overflow: hidden;">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeaMKpcK0DOaTvZDy_229oV3mV_k50-oKKTljdGh9sUXuRD1A/viewform?embedded=true" 
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-            frameborder="0">
-          </iframe>
-        </div>
-
-
 2.  **資格開通等待期**：確認申請後，CYBERBIZ 會協助開啟後台串接並請 LINE 核發參數，此過程 **約需 30 天**。
 3.  **權限開啟**：商家需前往後台 **管理中心 > 網站權限 > 管理者列表**，**開啟「後台小幫手權限」**，由 CYBERBIZ 專員協助後台參數設定。
 4.  **正式開通**：LINE 官方會發信通知開通完成。商家收到信後即可開始直播，LINE 同時會提供直播後台的教學課程。
