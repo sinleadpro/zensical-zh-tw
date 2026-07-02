@@ -2,7 +2,7 @@
 title: 設定與使用 LINE 顯示會員條碼（串接 POS 結帳）
 description: 啟用並設定 LINE 官方帳號會員條碼，讓門市人員可透過 POS 掃描條碼快速識別會員並套用紅利與優惠券折抵。
 created:
-last_modified: 2026-06-30 21:55
+last_modified: 2026-07-02 20:59
 lang: zh-TW
 permalink: https://help.cyberbiz.io/pos/integrations/line/line-member-barcode-pos-checkout
 type: tutorial
@@ -79,37 +79,41 @@ hide:
 
 **LINE 顯示會員條碼** 功能主要用於優化線下門市的結帳體驗。顧客只需在門市出示 LINE 官方帳號中的會員條碼，店員即可透過 POS 機掃描完成會員認證，進而執行紅利點數或優惠券的折抵。
 
-以下為此功能的詳細說明與設定教學：
-
-## 功能前提與準備事項
+## 使用條件與限制
 
 - **適用對象**：此功能僅限於有使用 **CYBERBIZ POS 系統** 的商家。
 - **前置設定**：
-    - [x] 商家必須先完成 [**LINE Messaging API** 串接](../../../ec/integrations/line/account-integration/connect-line-messaging-api.md){ title="串接 LINE Messaging API" }，並設定好 [**LINE 圖文選單**](../../../ec/integrations/line/marketing/setup-line-rich-menu.md){ title="設定 LINE 圖文選單" }。
-    - [x] 建議引導顧客先完成 [**LINE 官方帳號綁定官網會員**](../../../ec/integrations/line/account-integration/bind-line-oa-store-members.md){ title="綁定 LINE 官方帳號與官網會員" }，以便掃描後直接帶入會員資料。
+    - [x] 商家必須先完成 [LINE Messaging API 串接](../../../ec/integrations/line/account-integration/connect-line-messaging-api.md){ title="串接 LINE Messaging API" }，並設定好 [LINE 圖文選單](../../../ec/integrations/line/marketing/setup-line-rich-menu.md){ title="設定 LINE 圖文選單" }。
+    - [x] 建議引導顧客先完成 [LINE 官方帳號綁定官網會員](../../../ec/integrations/line/account-integration/bind-line-oa-store-members.md){ title="綁定 LINE 官方帳號與官網會員" }，以便掃描後直接帶入會員資料。
 
-## 後台設定步驟：配置圖文選單
+## 操作步驟
+
+### 後台設定步驟 <small>配置圖文選單</small>
 
 若要使消費者能顯示會員條碼，商家必須在 LINE 官方帳號的圖文選單中建立對應連結：
 
-1. 進入 [**LINE Official Account Manager** :lucide-external-link:](https://manager.line.biz/) 後台，選擇 **聊天室相關 > 圖文選單**。
+1. 進入 [LINE Official Account Manager :lucide-external-link:](https://manager.line.biz/) 後台，選擇 **聊天室相關 > 圖文選單**。
 2. 建立或編輯選單項目，將其中一個區塊設定為 **「我的會員卡」**。
 3. **設定動作連結**：在連結欄位輸入專屬代碼：
     - 連結網址：`https://您的網址/account/id_barcode`。
 4. 儲存選單後，顧客點擊此區塊即可在手機上呼叫出個人會員條碼。
 
-!!! note "LINE 圖文選單詳細設定說明，請參閱 [如何設定 LINE 圖文選單](../../../ec/integrations/line/marketing/setup-line-rich-menu.md){ title="設定 LINE 圖文選單" }。"
+!!! info "LINE 圖文選單詳細設定說明，請參閱 [如何設定 LINE 圖文選單](../../../ec/integrations/line/marketing/setup-line-rich-menu.md){ title="設定 LINE 圖文選單" }。"
 
-## 前台操作流程
+---
 
-### 顧客端操作
+### 前台操作流程
+
+#### 顧客端操作
 
 - 消費者於門市結帳時，打開品牌的 LINE 官方帳號。
 - 點選圖文選單中的 **「我的會員卡」**，手機畫面會顯示專屬的 **【會員條碼】** 與編號。
 
 ![LINE會員卡畫面](../../../assets/images/pos-line oa-會員卡.png){ title="LINE會員卡畫面" }
 
-### 店員端操作 <small>POS 機</small>
+---
+
+#### 店員端操作 <small>POS 機</small>
 
 1. 店員登入 POS 前台，點選 **結帳** 鍵。
 2. 在會員登入介面，使用條碼槍掃描消費者的手機條碼，或是手動輸入條碼編號進行登入。

@@ -2,7 +2,7 @@
 title: 詞彙表
 description: 收錄 CYBERBIZ 系統專業詞彙的定義與說明，涵蓋商品管理、訂單物流、行銷分析、平台方案等面向。每個詞彙附有英文註解與相關文件參閱連結。
 icon: lucide/book-marked
-last_modified: 2026-06-30 15:00
+last_modified: 2026-07-02 21:20
 type: reference
 author: Jase
 tags:
@@ -15,7 +15,7 @@ tags:
   - 詞彙表
   - 系統名詞
 ---
-[PDF :lucide-download:](#){ .md-button .md-button--primary }
+<!-- [PDF :lucide-download:](#){ .md-button .md-button--primary } -->
 
 ## 商品
 
@@ -383,7 +383,7 @@ tags:
 
 ### Cyber幣
 
-**Cyber Coin**，CYBERBIZ 系統內用於支付金物流相關服務費用及特定系統功能的虛擬計費點數，與新台幣採 1:1 固定匯率兌換。
+**Cyber Coin**，CYBERBIZ 系統內用於支付金物流相關服務費用及特定系統功能的虛擬計費點數。
 
 ### EC
 

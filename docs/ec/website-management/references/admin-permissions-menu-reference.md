@@ -2,7 +2,7 @@
 title: "管理者權限與後台選單對照表"
 description: 管理者權限與後台功能選單的對應關係，協助商家在新增或設定管理員帳號時，快速了解各權限可存取的後台功能。
 created: "2026-03-16 15:22"
-last_modified: 
+last_modified: 2026-07-02 19:32
 lang: zh-TW
 type: reference
 status: ""
@@ -28,14 +28,11 @@ features: []
 prerequisites: []
 related: []
 tags:
-  - EC
   - 管理員權限
   - 網站管理員
   - 後台選單
   - 權限設定
-  - Reference
   - 對照表
-  - Security
 acoiv: ""
 apis: []
 devices: 
