@@ -1,8 +1,8 @@
 ---
-title: 排除商品不同步至 Facebook 與 Instagram 商店
+title: 排除商品不同步至 FB 與 IG 商店
 description: 透過商品標籤設定或商務管理工具，排除特定商品不同步至 Facebook 與 Instagram 商店。
 created: 2026-04-14 11:25
-last_modified: 2026-06-26 10:05
+last_modified: 2026-07-02 11:33
 lang: zh-TW
 type: tutorial
 status: ""
@@ -74,23 +74,25 @@ hide: []
 !!! info "系統更新時間"
     官網商品資訊通常於每日 **凌晨 2 點或 2 點半** 自動同步至 Facebook 商店，當日更新的內容需等候同步完成才會呈現。
 
-## 前置作業
+## 使用條件與限制
 
 - [x] 完成 [Facebook 跟 Instagram 商店串接](setup-fb-instagram-shop.md){ title="設定 Facebook 跟 Instagram 商店" }。
 
-## 透過官網後台標籤排除 <small>自動化</small>
+## 操作步驟
+
+### 透過官網後台標籤排除 <small>自動化</small>
 
 若您有特定商品（如贈品或測試品）不希望同步至第三方平台，最直接的方法是利用標籤過濾：
 
 <div class="grid cards" markdown>
 
-- :lucide-package-x:{ .lg }   
-  [__設定商品排除標籤__](../../../products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }     
-  在商品標籤輸入「排除 product feed」或「贈品」，系統自動過濾不同步的商品。
+- :lucide-package-x:{ .lg } [__設定商品排除標籤__](../../../products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }     
 
 </div>
 
-## 於商務管理工具中調整 <small>手動調整</small>
+---
+
+### 於商務管理工具中調整 <small>手動調整</small>
 
 若串接已完成，您也可以直接在 Meta 商務管理工具的管理介面調整能見度：
 
@@ -103,6 +105,8 @@ hide: []
 ![設定FB-IG商店能見度](../../../../assets/images/ec-第三方整合-fb-fb-ig商店-設定商店能見度.png)
 
 !!! note "更多流程及相關說明，請參閱 Meta 官方文件：[管理商店在 Facebook 和 Instagram 上的能見度 :lucide-external-link:](https://zh-tw.facebook.com/business/help/23907275388927202)。"
+
+---
 
 #### 隱藏單一或部分商品
 
