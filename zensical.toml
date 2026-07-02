@@ -784,7 +784,7 @@ copyright = """
         { "詞彙表" = "resources/glossary.md" },
         { "圖示慣例" = "resources/conventions.md" },
         { "下載資源" = "resources/downloads.md" },
-        { "回報問題" = "resources/use-jam-to-report-issues.md" }
+        { "回報問題" = "resources/use-jam-to-report-issues.md" },
     ]}
  ]
 # With the "extra_css" option you can add your own CSS styling to customize
