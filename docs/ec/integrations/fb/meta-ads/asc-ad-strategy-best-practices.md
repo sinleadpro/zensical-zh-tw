@@ -2,7 +2,7 @@
 title: ASC 廣告投放策略與最佳實務
 description: 了解 Meta ASC（高效速成購物行銷活動）廣告投放策略與實務技巧，包含前置條件設定、預算配置建議與優化策略。
 created: 2026-04-24 17:48
-last_modified: 2026-06-26 10:05
+last_modified: 2026-07-02 13:44
 lang: zh-TW
 type: guide
 status: ""
@@ -82,7 +82,7 @@ hide:
 - [x] **快速學習與收斂**：新廣告帳號也能在短時間內累積數據，迅速達到理想的投放表現。
 - [x] **個人化動態推薦**：根據不同用戶的行為模式，自動調整商品展示順序，大幅提升轉單率。
 
-!!! tip "實戰成效數據分享"
+??? tip "實戰成效數據分享"
 
     根據 CYBERBIZ 統計近 50 個商家帳號的實際投放數據顯示：
 
@@ -97,32 +97,6 @@ hide:
 - [x] **數據深度整合**：完整串接官網訂單、商品庫存與消費者行為數據，幫助 AI 做出更精準的投放決策。
 - [x] **一站式管理效率**：從預算儲值、目錄商品組合挑選到成效分析，全流程皆可在官網後台完成。
 
-## 分享會影片
-
-??? note "廣告功能線上分享"
-    <div style="position: relative; padding-bottom: 56.25%; height: 0;">
-      <iframe src="https://www.loom.com/embed/e89ebb2ab1b640c8931338187a70234c" 
-              frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen 
-              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-      </iframe>
-    </div>
-
-??? note "廣告設定全攻略：官網後台輕鬆上手"
-    <div style="position: relative; padding-bottom: 56.25%; height: 0;">
-      <iframe src="https://www.loom.com/embed/e14760a47226416b910a6279c8f712b8" 
-              frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen 
-              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-      </iframe>
-    </div>
-
-??? note "廣告高效指南：Q4購物旺季勝出關鍵"
-    <div style="position: relative; padding-bottom: 56.25%; height: 0;">
-      <iframe src="https://www.loom.com/embed/4ddc811071924948aa8f302a8c78421b" 
-              frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen 
-              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
-      </iframe>
-    </div>
-
 ## 投放前置必要條件
 
 <div class="grid cards" markdown>
@@ -135,7 +109,7 @@ hide:
 -   :material-numeric-2-circle:{ .lg }
     **[建立廣告帳號並儲值](create-meta-ad-account-top-up.md){ title="建立 Meta 廣告帳號並完成儲值" }**
 
-    必須先於後台建立 Meta 廣告帳號，且 **首次儲值金額需大於新台幣 15,000 元**。
+    必須先於後台建立 Meta 廣告帳號，且完成儲值。
 
 -   :material-numeric-3-circle:{ .lg }
     **[綁定 Facebook 像素](create-meta-ad-account-top-up.md#像素設定-pixel){ title="建立 Meta 廣告帳號並完成儲值" }**
@@ -144,6 +118,31 @@ hide:
 
 </div>
 
+## 分享會影片
+
+??? quote-clean "廣告功能線上分享"
+    <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+      <iframe src="https://www.loom.com/embed/e89ebb2ab1b640c8931338187a70234c" 
+              frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen 
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+      </iframe>
+    </div>
+
+??? quote-clean "廣告設定全攻略：官網後台輕鬆上手"
+    <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+      <iframe src="https://www.loom.com/embed/e14760a47226416b910a6279c8f712b8" 
+              frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen 
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+      </iframe>
+    </div>
+
+??? quote-clean "廣告高效指南：Q4購物旺季勝出關鍵"
+    <div style="position: relative; padding-bottom: 56.25%; height: 0;">
+      <iframe src="https://www.loom.com/embed/4ddc811071924948aa8f302a8c78421b" 
+              frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen 
+              style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;">
+      </iframe>
+    </div>
 
 ## 後續操作
 
@@ -154,22 +153,23 @@ hide:
 
     完成上述設定後，您即可進入後台的「廣告活動設定」，點擊「立即串接」安裝 Meta Ads App 並開始創建您的第一波 ASC 廣告。
 
+    ??? tip "投放實戰策略建議"
+
+        為了讓 AI 發揮最佳學習效果，建議新手商家採取以下策略：
+
+        1.  **初期預算配置**：在廣告上線的第一至二週設定較高的每日預算，以縮短 AI 的學習週期。
+        2.  **累積轉換目標**：目標是在 **前兩週內累積至少 30-50 次購買轉換**，讓系統擁有足夠的數據進行優化。
+        3.  **預算推算公式**：若不確定如何設定金額，建議可使用 **「商品客單價的 30%」作為預估 CPA（獲客成本）**，再回推每日預算。
+        4.  **創意多樣化**：在同一個廣告活動下設定多個廣告創意（至多 20 個），並支援圖片搭配商品目錄的組合，提升品牌溝通彈性。
+
 </div>
 
-??? tip "投放實戰策略建議"
-
-    為了讓 AI 發揮最佳學習效果，建議新手商家採取以下策略：
-
-    1.  **初期預算配置**：在廣告上線的第一至二週設定較高的每日預算，以縮短 AI 的學習週期。
-    2.  **累積轉換目標**：目標是在 **前兩週內累積至少 30-50 次購買轉換**，讓系統擁有足夠的數據進行優化。
-    3.  **預算推算公式**：若不確定如何設定金額，建議可使用 **「商品客單價的 30%」作為預估 CPA（獲客成本）**，再回推每日預算。
-    4.  **創意多樣化**：在同一個廣告活動下設定多個廣告創意（至多 20 個），並支援圖片搭配商品目錄的組合，提升品牌溝通彈性。
 
 ## 常見問題
 
 ??? quote "ASC 廣告需要多少預算才能開始投放？"
 
-    - 首次儲值金額需大於新台幣 15,000 元
+    - 首次儲值金額需大於新台幣 9,000 元
     - 建議上線第一至二週設定較高的每日預算，以縮短 AI 學習週期
     - 可參考「商品客單價的 30%」作為預估 CPA 回推每日預算
 
