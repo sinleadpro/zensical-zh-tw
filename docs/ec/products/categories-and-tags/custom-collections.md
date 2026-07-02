@@ -2,7 +2,7 @@
 title: 設定商品自訂分類群組
 description: 依照行銷活動或主題手動挑選商品建立群組，作為店面分類頁、選單連結或廣告活動的著陸頁。
 created: 2026-01-08 00:00
-last_modified: 2026-06-29 11:54
+last_modified: 2026-06-30 11:26
 lang: zh-TW
 type: tutorial
 status:
@@ -26,13 +26,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS 
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 如何建立商品分類群組
@@ -61,11 +61,14 @@ paths:
   - 商品 > 商品自訂分類
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=11167
   - https://www.cyberbiz.io/helpcenter/?p=9175
   - https://www.cyberbiz.io/helpcenter/?p=985
-  - https://www.cyberbiz.io/support/?p=43330
+  - https://www.cyberbiz.io/support/?p=20142
+  - https://www.cyberbiz.io/support/?p=31938
   - https://www.cyberbiz.io/support/?p=3330
-permalink:
+  - https://www.cyberbiz.io/support/?p=43330
+permalink: https://help.cyberbiz.io/ec/products/categories-and-tags/custom-collections
 comments: false
 search:
   exclude: false

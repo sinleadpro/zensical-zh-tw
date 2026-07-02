@@ -2,7 +2,7 @@
 title: 推薦人分潤
 description: 透過建立推薦人分潤方案，您可以針對不同合作對象（如網紅、會員或員工）設定專屬的業績抽成比例與消費者回饋。
 created: 2026-02-06 00:00
-last_modified: 2026-06-22 11:15
+last_modified: 2026-06-30 10:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -24,12 +24,9 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
+  - 企業
   - 進階
   - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
 cyb_extensions: []
 intents:
   - 建立分潤方案
@@ -56,15 +53,15 @@ paths:
   - 行銷活動 > 推薦人分潤
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=4116
+  - https://www.cyberbiz.io/helpcenter/?p=579
   - https://www.cyberbiz.io/helpcenter/?p=597
   - https://www.cyberbiz.io/helpcenter/?p=608
-  - https://www.cyberbiz.io/helpcenter/?p=579
-  - https://www.cyberbiz.io/helpcenter/?p=4116
+  - https://www.cyberbiz.io/support/?p=1833
   - https://www.cyberbiz.io/support/?p=1864
   - https://www.cyberbiz.io/support/?p=23951
-  - https://www.cyberbiz.io/support/?p=1833
   - https://www.cyberbiz.io/support/?p=39234
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/profit-sharing/referrer-profit-sharing
 comments: false
 search:
   exclude: false
@@ -151,7 +148,7 @@ hide: []
 1. **結帳享優惠 (會員)**：使用推薦碼的消費者可享有的當次折扣。
     - **優惠種類**：可選「金額」或「百分比」折扣。
     - **消費門檻**：可指定金額門檻或不限金額。
-    - **與全館折扣、任選折扣併用**：選擇是否與 [全館折扣]()、[任選折扣]() 一起使用。
+    - **與全館折扣、任選折扣併用**：選擇是否與 [全館折扣](../marketing/discounts/storewide-discounts.md)、[任選折扣](../marketing/discounts/mix-and-match-discounts.md) 一起使用。
 
         !!! warning "適用範圍限制"
             此處僅限設定是否與 **全館折扣**、**任選折扣** 兩項行銷活動併用，此設定 **並非針對全站所有行銷活動**，恕無法排除或指定其他未列出的活動項目。

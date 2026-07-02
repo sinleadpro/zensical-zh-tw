@@ -2,7 +2,7 @@
 title: 單一品項
 description: 在電商倉儲中建立與管理單一品項，包含新增商品資訊、批次匯入、設定供應商以及匯出庫存報表。
 created: 2026-03-18 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -53,8 +53,9 @@ paths:
   - 供應商
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=5733
   - https://www.cyberbiz.io/support/?p=8920
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/single-items
 comments: false
 search:
   exclude: false

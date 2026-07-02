@@ -2,9 +2,9 @@
 title: 設定首頁商品群組排序
 description: 調整前台首頁「商品列表」區塊中，各個商品群組的顯示先後順序。
 created:
-last_modified: 2026-06-24 15:43
+last_modified: 2026-07-01 10:35
 lang: zh-TW
-permalink:
+permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/storefront-collection-sorting
 type: tutorial
 status:
 version:
@@ -26,13 +26,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 調整前台商品群組排序
@@ -63,7 +63,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=995
-  - https://www.cyberbiz.io/support/?p=23826
+  - https://www.cyberbiz.io/support/?p=2382
 comments: false
 search:
   exclude: false
@@ -71,14 +71,14 @@ icon: lucide/arrow-up-down
 hide:
 ---
 
-![全站商品列表群組排序頁面](../../../assets/images/ec-website-appearance-collection-sorting-storefront.zh-tw.png){ .hero-page }
+![全站商品列表群組排序頁面](../../../assets/images/ec-website-appearance-collection-sorting-storefront.zh-tw.png){ title="全站商品列表群組排序頁面" .hero-page }
 
 ## 首頁商品群組排序介紹
 
 「全站商品列表群組排序」可以決定顧客在前台首頁「商品列表」區塊看到群組時，哪一個群組排在最前面、哪一個排在後面。把主打活動或熱門分類往前移，就能讓顧客一進首頁就先看到您想優先曝光的商品群組。
 
 !!! info "提示"
-    這個頁面排的是「群組之間的順序」，不是群組裡面商品的順序。群組內的商品要怎麼排，請到各群組的編輯頁面設定。兩者的差異請見 [群組排序與群組內商品排序的差異][faq-collection-order-vs-product-order]。
+    這個頁面排的是「群組之間的順序」，不是群組裡面商品的順序。群組內的商品要怎麼排，請到各群組的編輯頁面設定。兩者的差異請見 [群組排序與群組內商品排序的差異](#faq-collection-order-vs-product-order)。
 
 ---
 
@@ -106,7 +106,7 @@ hide:
 
 前台首頁的「商品列表」將依照群組列表頁面設定的排序順序，依序顯示商品群組。
 
-![](../../../assets/images/ec-collection-sorting-storefront-zh-tw.png)
+![前台群組排序顯示](../../../assets/images/ec-collection-sorting-storefront-zh-tw.png){ title="前台群組排序顯示" }
 
 ---
 
@@ -119,7 +119,7 @@ hide:
     
     - **範例**：若群組數量設定為 `4`，即使目前有 `8` 個群組設為公開，首頁仍僅顯示前 `4` 個群組。
 
- ![導覽列選單-群組數量-舊版](../../../assets/images/EC-網站外觀-網站設定-導覽列選單-群組數量-舊版.png)
+ ![導覽列選單-群組數量-舊版](../../../assets/images/EC-網站外觀-網站設定-導覽列選單-群組數量-舊版.png){ title="導覽列選單-群組數量-舊版" }
 
 ## 重要規範與限制 { #specs-collection-order }
 

@@ -3,9 +3,9 @@
 title: 設定網站基本資訊
 description: 進行網站基本資訊、公司聯繫方式、物流地址及後台語系等核心設置。
 created:
-last_modified: 2026-06-26 13:03
+last_modified: 2026-06-30 08:02
 lang: zh-TW
-permalink:
+permalink: https://help.cyberbiz.io/ec/website-management/setup-store-basic-info
 type: tutorial
 status:
 version:
@@ -26,13 +26,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 設定網站名稱
@@ -77,8 +77,8 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8314
-  - https://www.cyberbiz.io/support/?p=5598
   - https://www.cyberbiz.io/support/?p=33987
+  - https://www.cyberbiz.io/support/?p=5598
 comments: false
 search:
   exclude: false
@@ -171,7 +171,7 @@ hide:
 
 ### 設定退貨退件地址 { #operate-general-preferences-return-address }
 
-「公司物流地址」用於當您的店到店超商包裹退回原寄件門市卻未取件時，系統將以宅配到付退回的收件地址。此地址也會作為 [黑貓宅急便](../orders/home-delivery/tcat-home-delivery.md){ title="使用黑貓宅配出貨" } 或宅配通配送時的預設寄件地址。若未設定，則會使用您的公司地址[^b]。
+「公司物流地址」用於當您的店到店超商包裹退回原寄件門市卻未取件時，系統將以宅配到付退回的收件地址。此地址也會作為 [黑貓宅急便](../orders/home-delivery/tcat-home-delivery-v2.md){ title="使用黑貓宅配出貨" } 或宅配通配送時的預設寄件地址。若未設定，則會使用您的公司地址[^b]。
 
 1. **進入一般設定：** 前往「管理中心」>「一般設定」，找到「公司物流地址」區塊。
 2. **填寫退件地址：** 於地址欄位選擇縣市、區域並填入詳細地址，作為包裹退回的收件處。

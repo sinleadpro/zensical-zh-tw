@@ -2,7 +2,7 @@
 title: 建立含指定商品的購物車連結
 description: 建立特殊的購物車連結，自動將預設商品與數量加入購物車，適用於社群導購、EDM 行銷等情境
 created: 2026-04-29 14:06
-last_modified: 2026-06-24 11:34
+last_modified: 2026-07-01 21:53
 lang: zh-TW
 type: tutorial
 status: ""
@@ -24,10 +24,10 @@ difficulty: beginner
 tnb: trunk
 plans:
   - 專業
-  - 進階
-  - 高手
   - 專業PLUS
+  - 進階
   - 進階PLUS
+  - 高手
   - 高手PLUS
   - 企業
 cyb_extensions: []
@@ -54,7 +54,7 @@ ui_components: []
 paths:
   - 商品 > 所有商品
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/support/?p=2369
 permalink: https://help.cyberbiz.io/ec/marketing/one-page-store/create-cart-link-specific-products
 comments: ""
@@ -128,7 +128,7 @@ hide:
 
 ## 進階用法
                                                                    
-### 使用商品 ID（單一款式商品適用）
+### 使用商品 ID <small>單一款式商品適用</small>
                                                                   
 加上 `type=product` 參數，直接帶入 A 欄的商品 ID：                 
 

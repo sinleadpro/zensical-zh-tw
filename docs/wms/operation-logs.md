@@ -2,7 +2,7 @@
 title: 操作紀錄列表
 description: 「操作紀錄列表」記錄所有使用者在電商倉儲後台的行為軌跡，管理人員可追蹤各帳號的操作動作、來源 IP 與時間。
 created: 2026-03-19 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -47,7 +47,7 @@ paths:
   - 操作紀錄列表
 layouts: []
 wp_url: []
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/operation-logs
 comments: false
 search:
   exclude: false

@@ -2,7 +2,7 @@
 title: 無法下載託運單或更新貨態
 description: 託運單下載失敗、貨態未更新常見原因與處理方式，包含綠界預付物流款儲值、瀏覽器封鎖、地址錯誤、門市關轉等排解步驟。
 created: 2026-06-08 20:12
-last_modified: 2026-06-14 12:12
+last_modified: 2026-06-30 10:08
 lang: zh-TW
 type: tutorial
 status: ""
@@ -80,7 +80,7 @@ search:
 icon: lucide/triangle-alert
 hide: []
 ---
-![下載託運單異常](../../../assets/images/ec-訂單-所有訂單-下載託運單異常-hero.png){ .hero-page }
+![下載託運單異常](../../../assets/images/ec-訂單-所有訂單-下載託運單異常-hero.png){ title="下載託運單異常" .hero-page }
 
 ## 託運單異常說明 { #intro-shipping-issue }
 
@@ -118,7 +118,7 @@ hide: []
 
 <div class="grid cards" markdown>
 
-- :lucide-credit-card:{ .ig .middle } [__申請綠界金流與超商取貨付款__](../../payments-and-logistics/申請綠界金流與超商取貨付款.md)
+- :lucide-credit-card:{ .ig .middle } [__申請綠界金流與超商取貨付款__](../../payments-and-logistics/apply-for-ecpay-payment-and-cvs-cod.md){ title="申請綠界金流與超商取貨付款" }
 
 </div>
 
@@ -153,8 +153,8 @@ hide: []
 
 <div class="grid cards" markdown>
 
-- :lucide-truck:{ .ig .middle } [__使用黑貓宅配出貨__](../home-delivery/tcat-home-delivery.md)
-- :lucide-settings:{ .ig .middle } [__設定與加印黑貓託運單__](../../payments-and-logistics/setup-print-tcat-waybill.md)
+- :lucide-truck:{ .ig .middle } [__使用黑貓宅配出貨__](../home-delivery/tcat-home-delivery-v2.md)
+- :lucide-settings:{ .ig .middle } [__設定與加印黑貓託運單__](../../payments-and-logistics/setup-print-tcat-waybill-v2.md)
 
 </div>
 
@@ -162,7 +162,7 @@ hide: []
 
 ### 託運單逾期失效 { #operate-shipping-issue-label-expired }
 
-託運單產生後若未在時效內實際交寄，單號會失效，後續貨態將無法追蹤，狀態可能轉為 [運送異常](../references/fulfillment-statuses.md#fulfillment-statuses-table){ data-preview } 或「取消寄件」。
+託運單產生後若未在時效內實際交寄，單號會失效，後續貨態將無法追蹤，狀態可能轉為 [運送異常](../references/fulfillment-statuses.md#fulfillment-statuses-table){ title="配送狀態對照表" data-preview } 或「取消寄件」。
 
 * **宅配（順豐）：** 下載託運單後即扣除 Cyber幣，若超過 **21 天** 未實際出貨，單號會失效，預扣的 Cyber幣將於單號失效後退回帳戶。
 * **宅配（黑貓、宅配通、新竹）：** 託運單產出後若長時間未寄件，單號會失效並轉為「取消寄件」，預扣的 Cyber幣將退回[^1]。
@@ -195,7 +195,7 @@ hide: []
 
 <div class="grid cards" markdown>
 
-- :lucide-store:{ .ig .middle } [__超商 C2C 門市關轉（閉店）__](../cvs-shipping/cvs-c2c-shipping.md#門市關轉閉店)
+- :lucide-store:{ .ig .middle } [__超商 C2C 門市關轉（閉店）__](../cvs-shipping/cvs-c2c-shipping.md#operate-cvs-c2c-exception-store-closed)
 - :lucide-package:{ .ig .middle } [__超商 B2C 門市關轉處理__](../cvs-shipping/cvs-b2c-bulk-shipping.md#operate-cvs-b2c-shipping-store-change)
 - :lucide-rotate-ccw:{ .ig .middle } [__7-11 C2C 退貨門市關轉__](../returns-refunds/7-11-c2c-return.md#operate-seven-eleven-c2c-return-pickup)
 
@@ -213,11 +213,11 @@ hide: []
 !!! note "註釋"
     補印取得的是原本的單號與託運單，不會重複計費，請放心使用。
 
-<div class="grid cards" markdown>
+<!-- <div class="grid cards" markdown>
 
 - :lucide-printer:{ .ig .middle } [__補印與加印託運單__](../../payments-and-logistics/reprint-waybills.md)
 
-</div>
+</div> -->
 
 ---
 
@@ -227,7 +227,7 @@ hide: []
 
 <div class="grid cards" markdown>
 
-- :lucide-globe:{ .ig .middle } [__DHL 跨境物流__](../../payments-and-logistics/DHL 跨境物流.md)
+- :lucide-globe:{ .ig .middle } [__DHL 跨境物流__](../../payments-and-logistics/dhl-cross-border-logistics.md){ title="DHL 跨境物流" }
 
 </div>
 
@@ -264,7 +264,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-package-check:{ .lg }  
-  [__訂單部分出貨__](../home-delivery/partial-shipment.md)  
+  [__訂單部分出貨__](../home-delivery/partial-shipment-v2.md)  
   一筆訂單只想先寄出部分商品時的操作方式。
 
 - :lucide-banknote-x:{ .lg }  

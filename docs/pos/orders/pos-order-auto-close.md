@@ -2,7 +2,7 @@
 title: 設定 POS 訂單自動結案
 description: 讓門市結帳完成的訂單依您的設定自動進入「已結案」狀態，系統才會正式發放紅利、生效贈送的優惠券並認列分潤獎金。
 created: 2026-06-25 10:00
-last_modified: 2026-06-29 12:35
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -62,7 +62,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=23628
-permalink: https://help.cyberbiz.io/pos/orders/pos-order-auto-close/
+permalink: https://help.cyberbiz.io/pos/orders/pos-order-auto-close
 comments: false
 search:
   exclude: false
@@ -73,7 +73,7 @@ hide: []
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
-![POS 訂單自動結案設定](../../assets/images/pos-auto-close-hero.png){ .hero-page }
+![POS 訂單自動結案設定](../../assets/images/pos-auto-close-hero.png){ title="POS 訂單自動結案設定" .hero-page }
 
 ## POS 訂單自動結案說明 { #intro-pos-auto-close }
 
@@ -96,7 +96,7 @@ hide: []
 1. **進入設定頁：** 前往後台路徑：「金物流」>「結帳頁 & 物流設定」> 捲動至 **「訂單相關設定」** 區塊，找到 **「POS 訂單自動結案設定」** 並點擊展開。
 2. **開啟功能：** 勾選 **「開啟POS 訂單自動結案」**，下方才會出現結案方式的選項。
 
-    ![開啟自動結案功能畫面](../../assets/images/pos-auto-close-enable.png)
+    ![開啟自動結案功能畫面](../../assets/images/pos-auto-close-enable.png){ title="開啟自動結案功能畫面" }
 
 3. **選擇結案方式：** 於下列兩種方式 **二擇一** 設定[^mode]。
 
@@ -104,7 +104,7 @@ hide: []
 
         勾選 **「結帳後立即結案訂單」**。顧客在門市結帳完成的當下，該筆訂單即自動結案，紅利與優惠券能最快發放給顧客。
 
-        ![立即結案設定畫面](../../assets/images/pos-auto-close-immediate.png)
+        ![立即結案設定畫面](../../assets/images/pos-auto-close-immediate.png){ title="立即結案設定畫面" }
 
         !!! tip "建議門市優先採用"
             立即結案能讓顧客現場結帳後馬上拿到紅利或優惠券，提升回購便利性，適合多數實體門市。
@@ -113,7 +113,7 @@ hide: []
 
         不要勾選立即結案，於 **「當結帳後 ＿ 天訂單自動結案」** 欄位填入天數（例如 `7`）。系統會在訂單付款滿指定天數後，於每日批次時間自動將其結案。
 
-        ![指定天數結案設定畫面](../../assets/images/pos-auto-close-delay.png)
+        ![指定天數結案設定畫面](../../assets/images/pos-auto-close-delay.png){ title="指定天數結案設定畫面" }
 
 4. **儲存設定：** 完成後點擊 **「儲存」**，設定即時生效。
 
@@ -147,11 +147,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-check-check:{ .lg }  
-  [__訂單相關設定總覽__](../../ec/payments-and-logistics/order-settings.md)  
+  [__訂單相關設定總覽__](../../ec/payments-and-logistics/payments/order-settings.md){ title="訂單相關設定" }  
   查看自動結案、自動取消、未付款提醒等同一頁面的其他訂單規則。
 
 - :lucide-list-ordered:{ .lg }  
-  [__訂單部分出貨__](../../ec/orders/home-delivery/partial-shipment.md)  
+  [__訂單部分出貨__](../../ec/orders/home-delivery/partial-shipment-v2.md){ title="設定訂單部分出貨" }  
   了解訂單的出貨與狀態流程，掌握結案前的訂單處理。
 
 </div>

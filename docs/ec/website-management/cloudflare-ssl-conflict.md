@@ -2,7 +2,7 @@
 title: Cloudflare SSL 衝突
 description: Cloudflare 是全球知名的 DNS 代管與 CDN 加速服務商。若您的網域代管於 Cloudflare，在將網址指向 CYBERBIZ 時，必須針對 Proxy 功能進行特定設定，以確保網站能順利載入並正確套用 SSL 安全憑證。
 created: 2026-03-10 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 08:02
 lang: zh-TW
 type: reference
 status: ""
@@ -50,7 +50,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4598
   - https://www.cyberbiz.io/support/?p=28727
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-management/cloudflare-ssl-conflict
 comments: false
 search:
   exclude: false
@@ -87,6 +87,8 @@ Cloudflare 是全球知名的 DNS 代管與 CDN 加速服務商。若您的網�
 4. 將開關切換為 **僅限 DNS (DNS only)**。
     - 此時圖示應由「橘色雲朵」變更為「**灰色雲朵**」。
 5. 點擊 **儲存**。
+
+![](https://www.cyberbiz.io/support/wp-content/uploads/CloudFlare注意事項1.png){ .screenshot }
 
 
 

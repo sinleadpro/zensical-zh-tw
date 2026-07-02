@@ -12,6 +12,7 @@
 
 ### Tutorial Doc
 - Frontmatter **包含完整操作性欄位**：`devices`、`intents`、`prerequisites`、`plans`、`ui_components`、`paths` 等
+- **`icon` 不應留空**：教學文件需指定 Lucide 圖示（如 `lucide/file-spreadsheet`、`lucide/package`），以正確顯示於導覽與卡片
 - Type: `tutorial`
 - 適合：步驟流程、操作指南、設定教學
 
@@ -55,12 +56,31 @@
 - `data-preview` 僅在目標含表格時保留，否則移除
 - Anchor ID 使用英文 kebab-case：`#operate-{module}-{feature}-{section}`
 - 所有 `.md` 連結需包含副檔名
+- Frontmatter `related`/`prerequisites` wikilink 使用目標文件的英文檔名 stem（不含副檔名），例如 `"[[manage-product-tags]]"`，而非 `title:` 值或相對路徑
 
 ## 參考資料章節規範
 
 - 從 `後續操作` grid cards 提取非操作類連結時，改置於文末 `## 參考資料`
 - 參考資料使用純 bullet（非 grid card），無 icon、無 `__bold__`、無 `data-preview`、無描述文字
 - 位置：文件最尾端（`## 常見問題` 之後）
+
+## 禁止內容規範
+
+以下資訊**不可寫入**教學或參考文件：
+
+| 類型 | 說明 | 範例 |
+|:-----|:-----|:-----|
+| 收費資訊 | 任何費率、單價、計費標準、費用表格 | 「每封 NT$1」「1 Cyber 幣」「70 字計費」 |
+| 運費資訊 | 運費數字、運費計算公式、含運費欄位的截圖 | 託運單確認視窗、單號使用紀錄截圖 |
+| 內部資訊 | 僅供內部查看的方案差異、加值功能對照、API 細節 | `{% if is_internal %}` 區塊內容 |
+| 私人通訊 | 客服對話、內部通訊內容 | Slack 訊息、客服回覆截圖 |
+| 舊版方案名稱 | 已停用的方案命名 | 達人版、尊爵版、旗艦版、白金版 |
+
+**允許保留的相關內容**：
+- 操作前提（如「需先儲值 Cyber 幣」「PLUS/企業版不須額外儲值」）
+- 字數限制與拆分機制等操作提醒（如「上限 70 字」「將拆分為多封」）
+- UI 欄位說明（如紀錄頁的「費用」欄位名稱）
+- 「客製化」作為操作動詞（如「客製化官網頁面」）
 
 ## 常見注意事項
 - `last_modified` 於每次編輯後更新為 `YYYY-MM-DD HH:mm`

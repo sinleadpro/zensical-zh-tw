@@ -70,7 +70,7 @@ icon: lucide/users
 hide: []
 ---
 
-![會員總覽頁](../../assets/images/ec-bi-customer-summary-hero.png){ .hero-page }
+![會員總覽頁](../../assets/images/ec-bi-customer-summary-hero.png){ title="會員總覽頁" .hero-page }
 
 ## 會員總覽介紹 { #intro-member-overview }
 
@@ -110,7 +110,7 @@ hide: []
 | [期間別會員等級銷售狀況](#operate-member-overview-levels) | 表格 | VIP 會員與普通會員的銷售貢獻對比 | 企業版 |
 | [來自LINE購物銷售狀況](#operate-member-overview-line) | 表格 | 來自 LINE 購物通路的銷售狀況 | 需開通 LINE 購物功能 |
 
-各分類的詳細意義，請參考[會員現況與註冊來源對照表](references/member-status-registration-sources-reference.md#reference-member-registration-sources)、[會員年齡分群對照表](references/member-age-groups-reference.md#reference-member-age-groups) 與[會員等級銷售狀況對照表](references/member-level-sales-status-reference.md#reference-member-levels)。
+各分類的詳細意義，請參考[會員現況與註冊來源對照表](references/member-status-registration-sources-reference.md#reference-member-registration-sources){ title="會員現況與註冊來源對照表" data-preview }、[會員年齡分群對照表](references/member-age-groups-reference.md#reference-member-age-groups){ title="會員年齡分群對照表" data-preview } 與[會員等級銷售狀況對照表](references/member-level-sales-status-reference.md#reference-member-levels){ title="會員等級銷售狀況對照表" data-preview }。
 
 ## 操作步驟 { #operate-member-overview }
 
@@ -187,11 +187,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-chart-line:{ .lg }  
-  [__會員分析__](member-analysis.md)  
+  [__會員分析__](member-analysis.md){ title="會員分析" }  
   回到預設分頁，掌握會員規模、成長與回購趨勢。
 
 - :lucide-repeat:{ .lg }  
-  [__消費顧客分析__](customer-analysis.md)  
+  [__消費顧客分析__](customer-analysis.md){ title="消費顧客分析" }  
   以新舊客切分，深入看訂單貢獻與回購表現。
 
 </div>

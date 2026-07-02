@@ -2,7 +2,7 @@
 title: 加工商品
 description: 「加工商品」即為電商官網常見的「組合商品」。商家將多個單一品項綁定為一個新的銷售單位，當訂單成立時，系統將自動扣除各個子品項的庫存。
 created: 2026-03-19 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -56,9 +56,10 @@ paths:
   - 商品 > 加工商品
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=5717
   - https://www.cyberbiz.io/support/?p=8920
   - https://www.cyberbiz.io/support/?p=9749
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/processed-products
 comments: false
 search:
   exclude: false
@@ -78,7 +79,7 @@ hide: []
 ## 使用須知
 
 - **CYBERBIZ 官網庫存連動**：若您的倉儲系統已串接 CYBERBIZ 官網 (EC)，請務必遵循以下對接規範：
-    - **建立順序**：於 WMS 倉儲系統完成 **加工品** 建立後，需同步至官網後台 [建立對應商品](../ec/products/creation/create-update-products.md)。
+    - **建立順序**：於 WMS 倉儲系統完成 **加工品** 建立後，需同步至官網後台 [建立對應商品](../ec/products/create-and-manage/create-update-products.md)。
     - **關鍵對照**：官網商品的 **商品 SKU** 必須與 WMS 的 **品號** 完全一致。
     - **自動同步**：資訊對應成功後，系統將啟動自動化邏輯，確保兩端庫存即時同步。
 - **組合庫存邏輯**
@@ -143,9 +144,5 @@ hide: []
 - :lucide-square-chart-gantt:{ .lg }   
   [__單一品項管理__](single-items.md)     
   新增個別商品至 WMS 系統，並完成基本屬性設定。
-
-- :lucide-barcode:{ .lg }   
-  [__EC 官網商品 SKU 設定指引__](連結)     
-  查詢並設定 EC 官網 SKU，確保與 WMS 品號成功同步。
 
 </div>

@@ -1,8 +1,8 @@
 ---
-title: theme-editor-pages
+title: 可拖拉編輯的頁面對照表
 description: ""
 created: 2026-06-10 17:15
-last_modified: 2026-06-11 14:10
+last_modified: 2026-07-01 14:08
 lang: zh-TW
 type: tutorial
 status: ""
@@ -44,8 +44,6 @@ search:
 icon: lucide/table
 hide:
 ---
-{ .hero-page }
-
 
 本對照表彙整拖拉版型中,各頁面的編輯能力,供「拖拉版型網站設定」等說明引用。
 

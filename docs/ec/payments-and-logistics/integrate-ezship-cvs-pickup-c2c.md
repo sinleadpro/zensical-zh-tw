@@ -156,18 +156,3 @@ ezShip 串接需以 Email 作為關聯，請務必先完成此設定。
 ??? quote "如果消費者沒有收到簡訊通知，我可以在哪裡查看包裹狀態？"
     您可以前往 ezShip 後台查詢。ezShip 與 CYBERBIZ 的狀態同步可能有些微延遲，最準確的狀態應以 ezShip 後台為準。
 
-
-
-## 延伸閱讀
-
-<div class="grid cards" markdown>
-
-- :lucide-package:{ .lg }   
-  [__超商物流 C2C 出貨流程__](../shipping/超商出貨流程)       
-  了解如何處理店到店寄件與後台狀態變更。
-
-- :lucide-credit-card:{ .lg }     
-  [__申請 CYBERBIZ PAYMENTS__](../payments/cyberbiz-payments)  
-  若需更完整的 7-11 與 B2C 物流支援，建議升級至官方支付工具。
-
-</div>

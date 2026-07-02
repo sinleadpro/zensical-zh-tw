@@ -2,7 +2,7 @@
 title: 複製商品至 POS 商店
 description: 學習如何將官網商品批次複製到 POS 門市，包含批量操作流程與新增商品時直接指定門市兩種方式。
 created: 2026-06-28 00:00
-last_modified: 2026-06-28 17:23
+last_modified: 2026-06-30 11:26
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,9 +23,9 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
+  - 企業
   - 進階PLUS
   - 高手PLUS
-  - 企業
 cyb_extensions: []
 feature_badges:
   - POS
@@ -57,8 +57,9 @@ paths:
   - 商品 > 所有商品
   - 商品 > 新增商品
 layouts: []
-wp_url: []
-permalink: https://help.cyberbiz.io/ec/products/bulk-operations/copy-products-to-pos-stores/
+wp_url:
+  - https://www.cyberbiz.io/support/?p=11985
+permalink: https://help.cyberbiz.io/ec/products/bulk-operations/copy-products-to-pos-stores
 comments: false
 search:
   exclude: false
@@ -84,34 +85,43 @@ hide: []
 - [x] **商品款式已設定 SKU**：SKU 是每個商品款式的唯一識別碼，請先確認要複製的商品都已填寫 SKU。
 
 !!! plan "兩種使用方式與適用方案"
-    * **批次複製既有商品**：適用所有已開通 POS 功能的商店。於商品列表勾選商品後批次複製，詳見 [批次複製既有商品至 POS 商店][operate-copy-to-pos-bulk]。
-    * **建立商品時直接指定門市**：僅 **POS 獨賣** 方案適用。在新增商品頁面即可直接選擇要同步販售的門市，詳見 [建立新商品時直接指定 POS 門市][operate-copy-to-pos-on-create]。
+    * **批次複製既有商品**：適用所有已開通 POS 功能的商店。於商品列表勾選商品後批次複製，詳見 [批次複製既有商品至 POS 商店](#operate-copy-to-pos-bulk)。
+    * **建立商品時直接指定門市**：僅 **POS 獨賣** 方案適用。在新增商品頁面即可直接選擇要同步販售的門市，詳見 [建立新商品時直接指定 POS 門市](#operate-copy-to-pos-on-create)。
 
 ## 操作步驟 { #operate-copy-to-pos }
 
 ### 批次複製既有商品至 POS 商店 { #operate-copy-to-pos-bulk }
 
-**後台路徑：** 「商品」→「所有商品」
+!!! path "後台路徑：「商品」>「所有商品」"
 
 1. **勾選商品：** 於商品列表勾選要複製的商品，可勾選單筆、整頁，或選取符合目前搜尋條件的全部商品。
 2. **開啟複製選單：** 點選列表上方的批量操作選單，選擇 **「複製商品至 POS 商店」**。
+
+    ![開啟複製選單](../../../assets/images/ec-products-copy-to-pos-open-menu.png)
+
 3. **選擇目標門市：** 於彈出視窗的 **「POS 商店」** 欄位選擇要複製到的門市，可同時複選多間；若要一次選取全部，勾選 **「所有 POS 商店」** 即可。
+
+    ![選擇目標門市](../../../assets/images/ec-products-copy-to-pos-select-stores.png)
+
 4. **決定是否複製圖片：** 視需求勾選 **「連帶複製商品所有圖片」**[^media]。若不勾選，門市端的商品將沒有圖片，建議開啟以利門市人員辨識。
+
+    ![決定是否複製圖片](../../../assets/images/ec-products-copy-to-pos-include-images.png)
+
 5. **送出複製：** 點擊 **「確認」**，系統會把作業排入排程處理[^queued]，完成後寄送通知信到您的帳號信箱。
 6. **查看結果：** 收到通知信後，回到商品列表重新整理，即可看到已隸屬於該門市的新商品。若有商品複製失敗，通知信會附上 **「複製商品失敗列表」** 檔案，逐筆列出失敗原因[^failreason]。
 
 [^media]: 若商店另有開通「商品影片」功能，此選項會顯示為「連帶複製商品所有圖片與影片」，可一併複製商品影片。
 [^queued]: 送出後系統會提示「複製商品已加入排程，請勿重複操作」，請勿重複點擊以免重複建立。
-[^failreason]: 最常見的失敗原因是目標門市已存在相同 SKU 的商品，詳見 [重要規範與限制][specs-copy-to-pos]。
+[^failreason]: 最常見的失敗原因是目標門市已存在相同 SKU 的商品，詳見 [重要規範與限制](#specs-copy-to-pos)。
 
 ---
 
 ### 建立新商品時直接指定 POS 門市 { #operate-copy-to-pos-on-create }
 
 !!! plan "方案限制"
-    此方式僅 **POS 獨賣** 方案適用。其他方案請改用上方的 [批次複製][operate-copy-to-pos-bulk] 方式。
+    此方式僅 **POS 獨賣** 方案適用。其他方案請改用上方的 [批次複製](#operate-copy-to-pos-bulk) 方式。
 
-**後台路徑：** 「商品」→ 新增商品
+!!! path "後台路徑：「商品」> 新增商品"
 
 1. **新增商品：** 進入新增商品頁面，填寫商品名稱、款式與 SKU 等基本資料。
 2. **指定販售門市：** 在 **「欲同步販售的 POS 門市」** 區塊，選擇 **「指定 POS 門市」** 後挑選門市，或選擇 **「全部 POS 門市」** 同步給所有門市。
@@ -136,15 +146,15 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-package-plus:{ .lg }  
-  [__建立門市庫存__](../../../pos/inventory/index.md)  
+  [__建立門市庫存__](../../../pos/inventory/index.md){ title="全通路庫存管理指南" data-preview }   
   複製後庫存為 0，請透過進倉單等進銷存流程補齊門市實際庫存。
 
 - :lucide-eye:{ .lg }  
-  [__上架商品__](../../products/create-and-manage/create-update-products.md)  
+  [__上架商品__](../../products/create-and-manage/create-update-products.md){ title="新增與更新商品" }   
   複製後預設為不公開，確認資料無誤後將商品設為公開。
 
 - :lucide-tag:{ .lg }  
-  [__大量填補商品 SKU__](../../../pos/get-started/bulk-update-product-skus.md)  
+  [__大量填補商品 SKU__](../../../pos/get-started/bulk-update-product-skus.md){ title="大量填補商品 SKU" }   
   若有商品因缺少或重複 SKU 而複製失敗，可先批次整理 SKU 再重新複製。
 
 </div>
@@ -180,10 +190,3 @@ hide: []
     [](){ #faq-copy-to-pos-duplicate-submit }
     不建議。送出後作業會進入排程，畫面會提示「複製商品已加入排程，請勿重複操作」。重複點擊可能造成重複建立，請耐心等候通知信。
 
----
-
-## 參考資料 { #reference-copy-to-pos }
-
-- [POS 庫存管理](../../../pos/inventory/index.md)
-- [商品上架與公開設定](../../products/create-and-manage/create-update-products.md)
-- [大量填補商品 SKU](../../../pos/get-started/bulk-update-product-skus.md)

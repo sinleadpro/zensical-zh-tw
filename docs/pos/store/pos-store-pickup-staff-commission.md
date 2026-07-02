@@ -2,7 +2,7 @@
 title: POS 門市取貨店員分潤
 description: 透過分潤機制激勵門市人員處理「門市取貨」訂單的效率。您可以自訂到店與取貨的報酬，並自動化統計員工的分潤金額。
 created: 2026-04-23 11:45
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -59,7 +59,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=10507
-permalink: ""
+permalink: https://help.cyberbiz.io/pos/store/pos-store-pickup-staff-commission
 comments: false
 search:
   exclude: false
@@ -133,16 +133,15 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-truck:{ .lg }   
-  [__POS 門市取貨功能說明__](連結)     
-  了解如何開啟 POS 門市取貨功能。<br>
+  [__門市取貨功能說明__](../../ec/payments-and-logistics/store-pickup/index.md)     
   了解如何處理官網下單、門市取貨的訂單流程。
 
 - :lucide-chart-column-increasing:{ .lg }   
-  [__查看與管理分潤報表__](連結)     
-  掌握員工分潤數據與業績表現，支援匯出詳細報表以利帳務核銷與績效評估。
+  [__查看與管理分潤報表__](../../ec/profit-sharing/export-profit-sharing-reports.md)     
+  匯出詳細報表以利帳務核銷與績效評估。
 
 - :lucide-search:{ .lg }   
-  [__查詢員工所屬分潤方案__](連結)     
+  [__查詢員工所屬分潤方案__](../../ec/profit-sharing/query-profit-sharing-partners-and-codes.md)     
   快速檢索個別員工目前的綁定狀態與分潤比例，確保配置正確無誤。
 
 </div>

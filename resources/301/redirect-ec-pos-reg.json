@@ -1,0 +1,278 @@
+{
+    "plugin": {
+        "version": "5.5.2",
+        "date": "Sat, 27 Jun 2026 13:40:12 +0000"
+    },
+    "groups": [
+        {
+            "id": 1,
+            "name": "pos",
+            "redirects": 10,
+            "module_id": 1,
+            "moduleName": "WordPress",
+            "enabled": false
+        }
+    ],
+    "redirects": [
+        {
+            "id": 1,
+            "url": "/helpcenter/?p=579",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/profit-sharing/referrer-profit-sharing"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 0,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 2,
+            "url": "/helpcenter/?p=597",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/profit-sharing/referrer-profit-sharing"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 1,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 3,
+            "url": "/helpcenter/?p=608",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/profit-sharing/referrer-profit-sharing"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 2,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 4,
+            "url": "/helpcenter/?p=1182",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/profit-sharing/registrant-profit-sharing"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 3,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 5,
+            "url": "/helpcenter/?p=4051",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/profit-sharing/referral-link-applications"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 4,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 6,
+            "url": "/helpcenter/?p=4116",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/profit-sharing/referrer-profit-sharing"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 5,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 7,
+            "url": "/helpcenter/?p=5804",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/marketing/other-tools/interactive-games"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 6,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 8,
+            "url": "/helpcenter/?p=7800",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/business-intelligence/omo-analysis-report"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 7,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 9,
+            "url": "/helpcenter/?p=8058",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/marketing/purchase-restrictions/exclude-products-from-promotions"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 8,
+            "last_access": "-",
+            "enabled": false
+        },
+        {
+            "id": 10,
+            "url": "/helpcenter/?p=11192",
+            "match_url": "/helpcenter",
+            "match_data": {
+                "source": {
+                    "flag_query": "exact",
+                    "flag_case": true,
+                    "flag_trailing": true,
+                    "flag_regex": false
+                }
+            },
+            "action_code": 301,
+            "action_type": "url",
+            "action_data": {
+                "url": "https://help.cyberbiz.io/ec/marketing/other-tools/interactive-games"
+            },
+            "match_type": "url",
+            "title": "",
+            "hits": 0,
+            "regex": false,
+            "group_id": 1,
+            "position": 9,
+            "last_access": "-",
+            "enabled": false
+        }
+    ]
+}

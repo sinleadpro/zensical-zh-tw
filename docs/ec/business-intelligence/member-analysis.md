@@ -2,7 +2,7 @@
 title: 會員分析
 description: 掌握會員規模、成長趨勢與首購後的留存及回購表現，評估會員經營健康度。
 created: 2026-06-16
-last_modified: 2026-06-17 14:01
+last_modified: 2026-06-30 21:21
 lang: zh-TW
 type: tutorial
 status: ""
@@ -61,8 +61,9 @@ ui_components: []
 paths:
   - 分析報表 > 會員分析
 layouts: []
-wp_url: []
-permalink: "https://help.cyberbiz.io/ec/business-intelligence/member-analysis/"
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=5050
+permalink: https://help.cyberbiz.io/ec/business-intelligence/member-analysis
 comments: false
 search:
   exclude: false
@@ -70,7 +71,7 @@ icon: lucide/user-cog
 hide: []
 ---
 
-![會員分析頁面](../../assets/images/ec-bi-member-analysis-hero.png){ .hero-page }
+![會員分析頁面](../../assets/images/ec-bi-member-analysis-hero.png){ title="會員分析頁面" .hero-page }
 
 ## 會員分析介紹 { #intro-member-analysis }
 
@@ -231,11 +232,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-users:{ .lg }  
-  [__會員總覽__](member-overview.md)  
+  [__會員總覽__](member-overview.md){ title="會員總覽" }  
   進一步查看性別、年齡、註冊來源與會員等級的輪廓分析。
 
 - :lucide-repeat:{ .lg }  
-  [__消費顧客分析__](customer-analysis.md)  
+  [__消費顧客分析__](customer-analysis.md){ title="消費顧客分析" }  
   以「第一次下單時間」切分新舊客，深入看訂單貢獻與回購表現。
 
 </div>

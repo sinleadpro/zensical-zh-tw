@@ -2,7 +2,7 @@
 title: 調倉單
 description: 在電商倉儲中，庫存分布於多個不同的「倉別」。透過「調倉單」，商家能將商品庫存從原始倉別轉移至目標倉別。
 created: 2026-03-19 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -53,8 +53,11 @@ paths:
   - 調倉單
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=5737
+  - https://www.cyberbiz.io/support/?p=3006
+  - https://www.cyberbiz.io/support/?p=4825
   - https://www.cyberbiz.io/support/?p=9068
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/transfer-orders
 comments: false
 search:
   exclude: false

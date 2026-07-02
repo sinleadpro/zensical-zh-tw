@@ -87,8 +87,8 @@ hide: []
     !!! tip "小建議"
         商品管理以EC網站為主作編輯，POS店主要作庫存管理使用。
 
-2. EC網站商品建置方式，建議參考 [新增與更新商品](../../ec/products/create-and-manage/新增與更新商品.md)。
-3. 單筆建置熟悉後，若欲批次建置商品，建議參考 [Excel 大量匯入商品](../../ec/products/bulk-operations/Excel%20大量匯入商品.md)。
+2. EC網站商品建置方式，建議參考 [新增與更新商品](../../ec/products/create-and-manage/create-update-products/)。
+3. 單筆建置熟悉後，若欲批次建置商品，建議參考 [Excel 大量匯入商品](../../ec/products/bulk-operations/excel-import-products/)。
 
 ### 複製 EC 商品至 POS 商店
 

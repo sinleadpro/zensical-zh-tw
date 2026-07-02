@@ -2,7 +2,7 @@
 title: 紅利商城 (EC)
 description: 建立專屬的線上紅利兌換商城，設定商品兌換所需點數，透過紅利積點機制提升會員回訪與品牌忠誠度。
 created: 2026-01-21 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 10:56
 lang: zh-TW
 type: tutorial
 status: ""
@@ -24,9 +24,6 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -56,8 +53,8 @@ paths:
   - 行銷活動 > 紅利商城
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/helpcenter/?p=7882
   - https://www.cyberbiz.io/helpcenter/?p=7880
+  - https://www.cyberbiz.io/helpcenter/?p=7882
   - https://www.cyberbiz.io/support/?p=10679
   - https://www.cyberbiz.io/support/?p=10711
 permalink: https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/bonus-point-mall
@@ -99,6 +96,7 @@ hide: []
 - **訂單退貨**：系統將自動返還紅利點數。
 
     適用於以下情境：
+
     - 純紅利商品訂單退貨。
     - 一般商品與紅利商品混購訂單（全部退貨、部分退貨皆適用）。
 
@@ -128,27 +126,29 @@ hide: []
     3. 點擊商品右側的 **未加入商城** 按鈕（加入後文字會變更為已加入）。
     4. 若需一次加入多項商品，可勾選左側核取方塊後，點擊 **加入商城**。
 
+        ![](../../../assets/images/EC-後台-行銷活動-紅利商城-選擇EC商品01.png)
+    
+    5.於 **選擇商品** 頁籤，捲動至下方的 **已選取的商品** 區塊。
+    6. 在 **紅利點數** 欄位中，輸入該商品兌換所需的點數數值（系統預設會帶入商品原價）。
+    7. 按下 **Enter** 或點擊空白處，系統將自動儲存設定。
+
+        ![](../../../assets/images/EC-後台-行銷活動-紅利商城-設定EC商品紅利兌換值01.png)
+
 === "EXCEL批次匯入"
 
     1. 若需加入大量商品、批次編輯或移除，可點擊右上角選單的 **Excel 匯入商品**：
+
+        ![](../../../assets/images/EC-後台-行銷活動-紅利商城-選擇EC商品01.png)
+        
     2. 選擇操作行為，依照格式填入商品 **SKU** 與對應的 **紅利換購金額**。
         - 檔案格式僅限 **.xlsx**。
         - 單一檔案大小不得超過 **2MB**。
         - 每次上傳上限為 **200 行**（若超過請分批上傳）。
     3. 系統將於背景執行，完成後會寄送 Email 通知。
 
-![](../../../assets/images/EC-後台-行銷活動-紅利商城-選擇EC商品01.png)
-
-### 步驟 3：設定兌換所需點數 (僅限手動勾選加入)
-
-1. 於 **選擇商品** 頁籤，捲動至下方的 **已選取的商品** 區塊。
-2. 在 **紅利點數** 欄位中，輸入該商品兌換所需的點數數值（系統預設會帶入商品原價）。
-3. 按下 **Enter** 或點擊空白處，系統將自動儲存設定。
-
-![](../../../assets/images/EC-後台-行銷活動-紅利商城-設定EC商品紅利兌換值01.png)
 
 
-### 步驟 4：測試並公開商城
+### 步驟 3：測試並公開商城
 
 1. 確認所有商品與點數設定無誤。
 2. 點擊頁面右上角的 **未公開** 按鈕，切換為 **公開** 狀態。

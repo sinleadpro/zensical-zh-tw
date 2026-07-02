@@ -2,7 +2,7 @@
 title: 設定商品影片
 description: 上傳並管理商品影片，提升前台商品頁及彈窗的視覺吸引力，並支援 Meta 目錄型廣告同步。
 created: 2026-03-08 17:10
-last_modified: 2026-06-29 10:52
+last_modified: 2026-07-02 12:56
 lang: zh-TW
 type: tutorial
 status:
@@ -66,7 +66,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1830
   - https://www.cyberbiz.io/support/?p=984
-permalink: set-product-videos
+permalink: https://help.cyberbiz.io/ec/products/create-and-manage/setup-product-videos
 comments: false
 search:
   exclude: false

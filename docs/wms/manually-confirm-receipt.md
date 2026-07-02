@@ -2,7 +2,7 @@
 title: 手動確認收貨
 description: 在超商端漏傳收貨狀態時，手動更新電商倉儲訂單為「已收貨」狀態，以利後續帳務結案與退貨流程執行。
 created: 2026-02-25 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: troubleshooting
 status: ""
@@ -51,7 +51,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=9105
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/manually-confirm-receipt
 comments: false
 search:
   exclude: false

@@ -2,7 +2,7 @@
 title: 公告系統
 description: 透過 POS 公告系統，總公司可快速將重要資訊同步給各門市，門市間也能進行高效的資訊溝通。
 created: 2026-04-07 17:15
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -19,8 +19,11 @@ modules:
   - 公告系統
 sites:
   - TW
-tnb: trunk
-plans: []
+tnb: branch
+plans:
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 cyb_extensions: []
 audiences:
   - admin
@@ -53,7 +56,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3065
-permalink: ""
+permalink: https://help.cyberbiz.io/pos/store/announcement-system
 comments: false
 search:
   exclude: false
@@ -119,7 +122,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-shield-check:{ .lg }   
-  [__管理員帳號與權限設定__](../others/staff-permissions-and-account-management.md){ data-preview }       
+  [__管理員帳號與權限設定__](staff-permissions-and-account-management.md){ data-preview }       
   配置員工或門市人員的後台登入帳號，並賦予正確的權限等級，以便進行 POS 商店的進階設定。
 
 </div>

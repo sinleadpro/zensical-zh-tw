@@ -2,7 +2,7 @@
 title: POS 商品分析
 description: 掌握各 POS 實體門市的商品銷售表現，從銷售額、銷售量、購物人次到回購與退貨狀況，快速找出明星商品與需要關注的滯銷或高退貨商品。
 created: 2026-06-23 14:30
-last_modified: 2026-06-24 21:02
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -60,9 +60,9 @@ ui_components: []
 paths:
   - POS 功能 > 商品分析
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/support/?p=28253
-permalink: "https://help.cyberbiz.io/pos/business-intelligence/pos-product-analysis/"
+permalink: https://help.cyberbiz.io/pos/business-intelligence/pos-product-analysis
 comments: false
 search:
   exclude: false
@@ -70,7 +70,7 @@ icon: lucide/package
 hide:
 ---
 
-![POS 商品分析頁面](../../assets/images/pos-bi-pos-product-hero.png){ .hero-page }
+![POS 商品分析頁面](../../assets/images/pos-bi-pos-product-hero.png){ title="POS 商品分析頁面" .hero-page }
 
 ## POS 商品分析說明 { #intro-pos-product }
 
@@ -79,7 +79,7 @@ hide:
 報表依分析主題分為三張排名表：「商品銷售排名」、「商品回購排名」與「商品退貨排名」。您可以指定時間區間並選擇一家或多家 POS 門市，系統會列出符合條件的商品排名。
 
 !!! info "提示"
-    本頁數據為每日批次更新、非即時，當天剛成立的訂單可能要等下次更新才會出現。報表所有數字僅計入非取消訂單，詳見[認列訂單定義](#specs-pos-product-order-recognition){ title="認列訂單定義" data-preview }。
+    本頁數據為每日批次更新、非即時，當天剛成立的訂單可能要等下次更新才會出現。報表所有數字僅計入非取消訂單，詳見[認列訂單定義](#specs-pos-product-order-recognition){ title="認列訂單定義" }。
 
 ## 頁面功能總覽 { #overview-pos-product }
 
@@ -103,7 +103,7 @@ hide:
 
 ### 數據基準 { #prerequisites-pos-product-basis }
 
-- **僅計非取消訂單**：報表所有數字僅計入非取消訂單，已取消的訂單會從取消當日的營業額扣除。詳見[認列訂單定義](#specs-pos-product-order-recognition){ title="認列訂單定義" data-preview }。
+- **僅計非取消訂單**：報表所有數字僅計入非取消訂單，已取消的訂單會從取消當日的營業額扣除。詳見[認列訂單定義](#specs-pos-product-order-recognition){ title="認列訂單定義" }。
 - **每日批次更新**：數據為每日批次更新、非即時，當天剛成立的訂單與退貨可能尚未反映在報表中。
 
 ## 操作步驟 { #operate-pos-product }
@@ -115,11 +115,11 @@ hide:
 1. **進入報表：** 前往後台「**POS 功能**」>「**商品分析**」。
 2. **選取時間區間：** 點擊「請選取時間區間」的日期欄位，選擇要分析的起訖日期。系統提供「今日」、「昨日」、「最近 7 日」、「最近 30 日」、「這個月」、「上個月」等快捷選項，也可在行事曆上自訂區間，選好後按 **「套用」**。
 
-    ![選取時間區間](../../assets/images/pos-bi-product-select-date-range.png)
+    ![選取時間區間](../../assets/images/pos-bi-product-select-date-range.png){ title="選取時間區間" }
 
 3. **選擇 POS 門市：** 在「請選取或搜尋您的POS店」欄位點選或輸入門市名稱，可同時選擇多家門市一起比較；若不選任何門市，系統會自動納入全部 POS 門市[^allstores]。
 
-    ![選擇 POS 門市](../../assets/images/pos-bi-product-select-store.png)
+    ![選擇 POS 門市](../../assets/images/pos-bi-product-select-store.png){ title="選擇 POS 門市" }
 
 4. **執行查詢：** 點擊 **「確定」**，系統即依設定條件重新載入下方三張排名報表。
 5. **檢視排名報表：** 下方會依序顯示三張報表，每張每頁顯示 30 筆，可使用表格下方的頁碼翻頁：
@@ -175,15 +175,15 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-store:{ .lg }  
-  [__OMO 分析報表__](../../ec/business-intelligence/omo-analysis-report.md)  
+  [__OMO 分析報表__](../../ec/business-intelligence/omo-analysis-report.md){ title="OMO 分析報表" }  
   比較線上官網（EC）與實體門市（POS）的營收、訂單與商品表現。
 
 - :lucide-package:{ .lg }  
-  [__商品圖表__](../../ec/business-intelligence/product-chart.md)  
+  [__商品圖表__](../../ec/business-intelligence/product-chart.md){ title="商品圖表" }  
   觀察單一商品每日的瀏覽、購買與成交轉換趨勢。
 
 - :lucide-clipboard-list:{ .lg }  
-  [__訂單分析__](../../ec/business-intelligence/order-analysis.md)  
+  [__訂單分析__](../../ec/business-intelligence/order-analysis.md){ title="訂單分析" }  
   從訂單角度檢視門市與通路的整體經營健康度。
 
 </div>
@@ -201,11 +201,11 @@ hide:
 
 ??? quote "報表數字和「訂單管理」看到的金額對不起來？"
     [](){ #faq-pos-product-number-mismatch }
-    本報表有固定的[認列訂單定義][specs-pos-product-order-recognition]{ title="認列訂單定義" }：僅計入非取消訂單，且被取消的訂單會從取消當日的營業額扣除，因此營業額會與即時的訂單列表略有差異，屬於正常現象。此外數據為每日批次更新，當天剛成立的訂單可能尚未反映。
+    本報表有固定的[認列訂單定義](#specs-pos-product-order-recognition){ title="認列訂單定義" data-preview }：僅計入非取消訂單，且被取消的訂單會從取消當日的營業額扣除，因此營業額會與即時的訂單列表略有差異，屬於正常現象。此外數據為每日批次更新，當天剛成立的訂單可能尚未反映。
 
 ??? quote "「期間商品回購率」是怎麼計算的？"
     [](){ #faq-pos-product-repurchase-rate }
-    回購率的計算方式為：購買此商品兩次以上之顧客數 ÷ 購買過此商品之顧客數。詳見[回購率定義][specs-pos-product-repurchase]{ title="回購率定義" }。
+    回購率的計算方式為：購買此商品兩次以上之顧客數 ÷ 購買過此商品之顧客數。詳見[回購率定義](#specs-pos-product-repurchase){ title="回購率定義" }。
 
 ??? quote "要怎麼一次看到所有門市的銷售？"
     [](){ #faq-pos-product-select-all }

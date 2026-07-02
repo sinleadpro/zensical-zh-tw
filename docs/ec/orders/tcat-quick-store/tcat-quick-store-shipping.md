@@ -1,9 +1,8 @@
 ---
-
 title: 使用黑貓快速到店出貨
-description: 批次下載黑貓快速到店託運單、扣除運費並將訂單貨態更新為已出貨。
+description: 批次下載黑貓快速到店託運單並將訂單貨態更新為已出貨。
 created: 2026-05-18 15:26
-last_modified: 2026-06-14 14:00
+last_modified: 2026-07-01 18:32
 lang: zh-TW
 type: tutorial
 status: ""
@@ -44,13 +43,13 @@ features:
   - 補印託運單
 prerequisites:
   - 領取黑貓三聯空白託運單貼紙
-  - 設定公司物流地址
+  - 設定黑貓寄件人地址
   - 確認 CYBER 幣餘額
 related:
-  - "[[tcat-home-delivery]]"
-  - "[[tcat-auto-call-driver]]"
+  - "[[tcat-home-delivery-v2]]"
+  - "[[tcat-auto-call-driver-v2]]"
   - "[[補印與加印託運單]]"
-  - "[[partial-shipment]]"
+  - "[[partial-shipment-v2]]"
 tags:
   - EC
   - 黑貓快速到店
@@ -70,7 +69,7 @@ ui_components:
   - 補印託運單
 paths:
   - 訂單 > 所有訂單
-  - 金物流 > 黑貓快速到店託運單
+  - 金物流 > 黑貓託運單
   - 管理中心 > 一般設定
   - 儲值中心
 layouts: []
@@ -85,18 +84,17 @@ icon: lucide/truck
 hide: []
 ---
 
-
-![下載黑貓快速到店常溫託運單](../../../assets/images/EC-訂單-所有訂單-下載黑貓快速到店託運單-hero.png){ .hero-page }
+![下載黑貓快速到店常溫託運單](../../../assets/images/EC-訂單-所有訂單-下載黑貓快速到店託運單-hero.png){ title="下載黑貓快速到店常溫託運單" .hero-page }
 
 ## 黑貓快速到店出貨說明 { #intro-tcat-cvs }
 
 「黑貓快速到店」是商家將商品委由黑貓物流送至消費者指定的 7-11 門市進行取貨的服務，依商品溫層分為常溫、冷藏、冷凍三種。本文將引導您如何在新版訂單列表中批次處理訂單、下載託運單，並將貨態變更為「已出貨」。
 
 !!! info "其他黑貓服務"
-    * 若顧客選擇宅配，請見 [使用黑貓宅配出貨](../home-delivery/tcat-home-delivery.md){ title="使用黑貓宅配出貨" }。
-    * 自動呼叫黑貓司機到府收件，請見 [自動呼叫黑貓司機取件](../home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }。
+    * 若顧客選擇宅配，請見 [使用黑貓宅配出貨](../home-delivery/tcat-home-delivery-v2.md){ title="使用黑貓宅配出貨" }。
+    * 自動呼叫黑貓司機到府收件，請見 [自動呼叫黑貓司機取件](../home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" }。
 
-## 使用前提 { #prerequisites-tcat-cvs }
+## 使用前提與限制 { #prerequisites-tcat-cvs }
 
 在執行黑貓快速到店出貨前，請確保您的系統設定、訂單狀態與硬體設備皆符合以下規範。
 
@@ -104,9 +102,9 @@ hide: []
 
 系統僅允許符合以下條件的訂單執行出貨：
 
-- **配送方式**： 結帳選用對應的「黑貓快速到店」。
-- **付款狀態**： 顯示為「已收到款項」或「貨到付款」。
-- **配送狀態**： 顯示為「未出貨」、「部分出貨」或「準備出貨中」。
+- [x] **配送方式**： 結帳選用對應的「黑貓快速到店」。
+- [x] **付款狀態**： 顯示為「已收到款項」或「貨到付款」。
+- [x] **配送狀態**： 顯示為「未出貨」、「部分出貨」或「準備出貨中」。
 
 ---
 
@@ -121,7 +119,7 @@ hide: []
 | 配送區域 | 僅支援台灣本島，不支援離島 |
 | 取貨期限 | 商品抵達超商後，常溫可放置 7 日；冷藏／冷凍僅可放置 4 日。黑貓會於 **包裹到店第一日** 與 **退貨前一日** 各發 1 封簡訊通知消費者，共 2 封。 |
 | 託運單時效 | 產出託運單後須於 7 日內聯繫黑貓完成收貨，逾期單號將失效 |
-| [逾期未取][tcat-cvs-overdue-pickup]{ data-preview } | 包裹退回商家，黑貓將 **加收一次回程運費** |
+| [逾期未取](#tcat-cvs-overdue-pickup){ title="到店逾期未取" } | 包裹退回商家，黑貓將 **加收一次回程運費** |
 
 !!! tip "冷藏／冷凍出貨的包裝建議"
     * **預冷時間** ：冷藏商品建議預冷 6 小時以上、冷凍商品建議預冷 12 小時以上，以維持溫層至門市取貨時。
@@ -142,13 +140,10 @@ hide: []
 
 執行黑貓快速到店出貨前，請完成以下準備：
 
-- [x] **物流地址設定**：進入 **金物流 > 黑貓託運單**，完成公司物流地址設定。
-
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-金物流-黑貓託運單-建立物流資訊01.png)
-
+- [x] **黑貓寄件人地址**： 至「金物流」>「[黑貓託運單](../../payments-and-logistics/setup-print-tcat-quick-store-waybill-v2.md#configure-ezcat-cvs-shipping-note-sender-setup){ title="設定寄件人資訊" }」設定寄件人地址，否則託運單上的寄件人資訊將不完整。
 - [x] **耗材與設備**： 已備妥「黑貓三聯空白託運單貼紙」（可致電黑貓客服 02-412-8888 取得），並建議使用雷射印表機列印，以確保條碼清晰。
 - [x] **商品預冷（低溫包裹）**： 冷藏商品須預冷 6 小時以上；冷凍商品須預冷 12 小時以上。
-- [x] **確認餘額**：一般版商家請至 [儲值中心查看 Cyber 幣餘額][cyber-coin-balance]{ data-preview }，確認足以支付運費；PLUS版 / 企業版商家無此限制。
+- [x] **確認餘額**：一般版商家請至 [儲值中心查看 Cyber 幣餘額](../../website-management/points-deposits.md){ data-preview }，確認餘額充足；PLUS版 / 企業版商家無此限制。
 
 --- 
 
@@ -161,36 +156,28 @@ hide: []
 3. **展開「更多操作」並選擇下載動作** ：點擊列表上方的 **更多操作** 下拉選單，依勾選的訂單溫層擇一：
     * 下載黑貓快速到店常溫 / 冷藏 / 冷凍託運單並將貨態改為「已出貨」
 
-    ![下載黑貓快速到店常溫託運單](../../../assets/images/EC-訂單-所有訂單-下載黑貓快速到店託運單.png)
+    ![下載黑貓快速到店常溫託運單](../../../assets/images/EC-訂單-所有訂單-下載黑貓快速到店託運單.png){ title="下載黑貓快速到店常溫託運單" }
 
-4. **檢視託運資訊與運費**：系統將彈出「下載黑貓快速到店 - 常溫／冷凍／冷藏 託運單」視窗，視窗內會列出本次出貨的訂單清單與運費試算，請確認無誤。
+4. **檢視託運資訊**：系統將彈出「下載黑貓快速到店 - 常溫／冷凍／冷藏 託運單」視窗，視窗內會列出本次出貨的訂單清單，請確認無誤。
+5. **（選用）設定自動呼叫司機取件**：若商店已開通「[呼叫黑貓](../home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" }」加值功能，視窗中會出現「是否自動呼叫黑貓司機取件」選項，選擇 **是** 後會展開以下三個欄位：
 
-    ![下載黑貓快速到店常溫託運單-確認視窗](../../../assets/images/EC-訂單-所有訂單-下載黑貓快速到店託運單-確認視窗.png)
-
-    !!! warning "費用注意事項"
-        * 端午、中秋、春節等物流繁盛期間，黑貓將加收服務費 10 Cyber 幣。
-        * 若涉及特殊材積、特殊商品內容或特殊寄送地點（例如離島、偏遠地區），將依物流商之特殊規定另行計價。
-        * **貨到付款訂單**：黑貓將另外酌收代收款項手續費，費率依黑貓合約規範計算。
-
-5. **（選用）設定自動呼叫司機取件**：若商店已開通「[呼叫黑貓](../home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }」加值功能，視窗中會出現「是否自動呼叫黑貓司機取件」選項，選擇 **是** 後會展開以下三個欄位：
-
-    * **是否需在取件前事先電話聯絡**：選「是」時，司機抵達前會撥打「[黑貓寄取件設定頁][configure-ezcat-cvs-shipping-note-sender]{ data-preview }」中的聯絡電話與您確認。
+    * **是否需在取件前事先電話聯絡**：選「是」時，司機抵達前會撥打「[黑貓寄取件設定頁](../../payments-and-logistics/setup-print-tcat-quick-store-waybill-v2.md#configure-ezcat-cvs-shipping-note-sender-setup){ data-preview }」中的聯絡電話與您確認。
     * **是否需黑貓司機準備推車**：若包裹數量較多，可請司機自備推車。
     * **備註**：可填寫特殊收件指示(例如門禁、樓層)，上限 **100 字**。
 
     ??? warning "呼叫截止時間"
-        每日 **16:30** 為[呼叫截止時間][tcat-auto-call-driver-deadtime]{ data-preview }，超過後此選項將自動鎖定為「否」，當天無法再透過系統呼叫，需自行致電黑貓安排。
+        每日 **16:30** 為[呼叫截止時間](../home-delivery/tcat-auto-call-driver-v2.md#tcat-auto-call-driver-deadtime){ data-preview }，超過後此選項將自動鎖定為「否」，當天無法再透過系統呼叫，需自行致電黑貓安排。
 
 6. **確認寄件地址**：視窗下方會顯示後台已設定的公司物流地址；若需臨時調整，可點擊「更改」覆寫此次出貨寄件地址。
 
-    ![更改寄件地址](../../../assets/images/EC-訂單-所有訂單-下載黑貓快速到店常溫託運單-更改地址.png)
+    ![更改寄件地址](../../../assets/images/EC-訂單-所有訂單-下載黑貓快速到店常溫託運單-更改地址.png){ title="更改寄件地址" }
 
     ??? quote "需要自訂黑貓寄件資訊？"
-        若你的黑貓寄件地址需要不同於公司物流地址(例如倉庫地址)，或需要自訂寄件人姓名、電話、託運單預設品名，請另到 **金物流 > 黑貓快速到店託運單** 於「[黑貓設定][configure-ezcat-cvs-shipping-note-sender]{ data-preview }」區塊填寫並儲存。
+        若你的黑貓寄件地址需要不同於公司物流地址(例如倉庫地址)，或需要自訂寄件人姓名、電話、託運單預設品名，請另到 **金物流 > 黑貓託運單** 於「[黑貓設定](../../payments-and-logistics/setup-print-tcat-quick-store-waybill-v2.md#configure-ezcat-cvs-shipping-note-sender-setup){ data-preview }」區塊填寫並儲存。
 
 7. **勾選並同意服務條款** ：確認已勾選「我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 黑貓合約規範」（預設為勾選狀態），按鈕「確認」才會啟用。
-8. **確認下載與扣費**：點擊 **確認** ，系統會自動下載[^1] [託運單 ZIP 壓縮檔][tcat-cvs-zip-contents]{ data-preview } 並扣除運費。
-9. **確認貨態已變更**：操作完成後，被勾選訂單的配送狀態會自動轉為 **已出貨** 。(詳見 [確認貨態變更][tcat-cvs-verify-status]{ data-preview })
+8. **確認下載**：點擊 **確認** ，系統會自動下載[^1] [託運單 ZIP 壓縮檔](#tcat-cvs-zip-contents){ title="託運單 ZIP 內容物" }。
+9. **確認貨態已變更**：操作完成後，被勾選訂單的配送狀態會自動轉為 **已出貨** 。(詳見 [確認貨態變更](#tcat-cvs-verify-status){ title="確認貨態變更" })
 
 
 [^1]: 若沒有正常下載，請確認瀏覽器是否阻擋了彈跳視窗或廣告，允許本站彈跳視窗後重新點擊下載。更多疑難排解參考 [常見問題：無法下載托運單](#faq-tcat-cvs-download-no-response)
@@ -202,7 +189,7 @@ hide: []
 下載託運單後，需聯繫黑貓司機到貨取件:
 
 * **電話呼叫**：撥打黑貓客服專線 (02-412-8888) 安排取件。
-* **從後台直接呼叫**：若已開通 [呼叫黑貓功能](../home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }，可在下載託運單時於彈出視窗內預約司機取件。
+* **從後台直接呼叫**：若已開通 [呼叫黑貓功能](../home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" }，可在下載託運單時於彈出視窗內預約司機取件。
 
 ---
 
@@ -211,7 +198,7 @@ hide: []
 成功下載託運單後，可在兩個地方確認貨態：
 
 - **訂單列表頁**：配送狀態欄位顯示 **已出貨**
-- **訂單詳情頁**：狀態顯示為 [已出貨(待物流收件)][shipping-status-text-type]{ data-preview }，表示託運單已產生但黑貓尚未收件
+- **訂單詳情頁**：狀態顯示為 [已出貨(待物流收件)](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ data-preview }，表示託運單已產生但黑貓尚未收件
 
 若貨態未更新，請檢查：
 
@@ -224,7 +211,7 @@ hide: []
 
 下載託運單時若出現「寄件人資訊不完整提示」，代表黑貓寄件地址未設定或不完整：
 
-1. 前往 **金物流 > 黑貓快速到店託運單**，確認「黑貓快速到店設定」區塊內的 **寄件地址** 完整填寫(含縣市、區域)，儲存後系統會自動向黑貓查詢寄件人區碼。
+1. 前往 **金物流 > 黑貓託運單**，確認「黑貓快速到店設定」區塊內的 **寄件地址** 完整填寫(含縣市、區域)，儲存後系統會自動向黑貓查詢寄件人區碼。
 2. 儲存後重新執行下載。
 
 ??? info "關於地址來源的優先順序"
@@ -248,39 +235,25 @@ hide: []
 | 第 1 封 | 包裹到店當日 |
 | 第 2 封 | 退貨前 1 日(常溫第 6 日、冷藏/冷凍第 3 日) |
 
-??? warning "退貨會以「一趟出貨運費」加收回程運費"
-    退貨運費 = 與當初出貨同等金額的運費，等同這趟總共付兩趟。
-
-    !!! example "範例"
-
-        寄出 60cm 常溫包裹(出貨運費 98 Cyber 幣)，消費者未於 7 日內取貨，第 8 日由黑貓收回。  
-        本趟總運費為：`98(出貨)+ 98(退回)= 196 Cyber 幣`
-
-        冷藏 / 冷凍規則相同，但因每趟單價較高，逾期退貨成本顯著放大。
-
 ## 後續操作 { #nextstep-tcat-cvs }
 
 <div class="grid cards" markdown>
 
-- :lucide-printer:{ .lg }  
+<!-- - :lucide-printer:{ .lg }  
   [__補印託運單__](../../payments-and-logistics/reprint-waybills.md){ title="補印與加印託運單" }  
-  若須重新列印（例如標籤受潮、列印不清），回到訂單列表勾選同筆訂單，於「更多操作」選擇補印託運單。
+  若須重新列印（例如標籤受潮、列印不清），回到訂單列表勾選同筆訂單，於「更多操作」選擇補印託運單。 -->
 
 - :lucide-truck:{ .lg }  
-  [__自動呼叫司機__](../home-delivery/tcat-auto-call-driver.md){ title="自動呼叫黑貓司機取件" }  
+  [__自動呼叫司機__](../home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" }  
   開通「呼叫黑貓」加值功能者可於列印託運單時自動呼叫司機。
 
 - :lucide-package-check:{ .lg }  
-  [__部分出貨__](../home-delivery/partial-shipment-settings.md)  
+  [__部分出貨__](../home-delivery/partial-shipment-v2.md){ title="處理訂單部分出貨" }  
   若一筆訂單中只想先寄出部分商品，可改從訂單詳情頁勾選指定品項。
 
 - :lucide-copy-plus:{ .lg }  
-  [__加印託運單__](../../payments-and-logistics/setup-print-tcat-waybill.md){ title="設定與加印黑貓託運單" }  
+  [__加印託運單__](../../payments-and-logistics/setup-print-tcat-waybill-v2.md){ title="設定與加印黑貓託運單" }  
   若一筆訂單因商品多需拆分為多箱寄出，每箱需各自一張託運單。
-
-- :lucide-receipt:{ .lg }  
-  [__查看對帳明細__]()  
-  若訂單有運費調整（如補收差額或繁盛期加收），系統會將詳細資訊記錄於對帳備註中。
 
 </div>
 
@@ -292,7 +265,7 @@ hide: []
     通常為以下原因之一：
 
     * **瀏覽器阻擋彈跳視窗**：請檢查瀏覽器是否阻擋了彈跳視窗或廣告，允許本站彈跳視窗後重新點擊下載。
-    * **Cyber 幣不足(一般版商家)**：請至 [儲值中心][cyber-coin-balance]{ data-preview } 儲值。
+    * **Cyber 幣不足(一般版商家)**：請至 [儲值中心](../../website-management/points-deposits.md){ data-preview } 儲值。
     * **公司物流地址未設定**：至 管理中心 > 一般設定 > [公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" } 完成設定。
     * **未勾選同意條款**：確認彈出視窗下方「我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 黑貓合約規範」已勾選。
 
@@ -322,7 +295,7 @@ hide: []
 ??? quote "託運單列印壞掉或遺失，可以重印嗎？"
     [](){ #faq-tcat-cvs-redownload }
 
-    可以。請在訂單列表勾選該筆訂單，於「更多操作」選擇 **補印託運單** ，系統會以原託運單號重新產出檔案，不會重複建立單號或扣費。
+    可以。請在訂單列表勾選該筆訂單，於「更多操作」選擇 **補印託運單** ，系統會以原託運單號重新產出檔案，不會重複建立單號。
 
 ??? quote "同一批訂單可以混合常溫與冷凍一起出貨嗎？"
     [](){ #faq-tcat-cvs-mixed-temperature }
@@ -342,15 +315,7 @@ hide: []
 
 ??? quote "一般版商家 Cyber 幣餘額不足時可以下載託運單嗎？"
 
-    不行。下載託運單時系統會即時從 Cyber 幣餘額扣除運費，餘額不足時下載會失敗。請先至 [儲值中心][cyber-coin-balance]{ data-preview } 儲值後再重新操作。
-
----
-
-## 參考資料 { #tcat-cvs-reference }
-
-* [CYBERBIZ 物流串接服務條款 :lucide-external-link:](https://www.cyberbiz.io/docs/logistics_cyberbiz_2023.pdf)
-* [黑貓合約規範 :lucide-external-link:](https://cyberbiz.io/docs/logistics_ezcat.pdf)
-* 黑貓宅急便客服專線：02-412-8888（領取三聯空白託運單貼紙、查詢取件狀態）
+    不行。下載託運單時系統會即時從 Cyber 幣餘額扣款，餘額不足時下載會失敗。請先至 [儲值中心](../../website-management/points-deposits.md){ data-preview } 儲值後再重新操作。
 
 ### 託運單 ZIP 內容物 { #tcat-cvs-zip-contents }
 

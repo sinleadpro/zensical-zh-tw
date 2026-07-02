@@ -2,7 +2,7 @@
 title: 設定未付款提醒
 description: 如何配置自動化未付款提醒機制，透過 Email、簡訊及 LINE OA 多管道推播，引導顧客完成後續支付並有效提升訂單轉換率。
 created:
-last_modified: 2026-02-08
+last_modified: 2026-07-01 12:00
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/order-settings/unpaid-reminder-settings
 type: tutorial
@@ -30,6 +30,9 @@ plans:
   - 專業
   - 進階
   - 高手
+  - 專業PLUS 
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -79,72 +82,70 @@ icon: lucide/timer
 hide:
 ---
 
-
-![](../../../assets/images/ec-訂單-未付款提醒.png){ .hero-page }
+![未付款提醒設定](../../../assets/images/ec-訂單-未付款提醒.png){ title="未付款提醒設定" .hero-page }
 
 
 ## 未付款提醒說明
 
 在 CYBERBIZ 系統中，**未付款提醒** 功能主要針對下單後尚未完成付款的訂單（不含貨到付款），自動發送通知引導顧客完成支付，以提升轉換率。
 
-
-### 功能啟閉與間隔設定
+## 功能啟閉與間隔設定
 
 商家可自訂發送提醒的時間頻率，系統最多會寄發 **3 次** 提醒。
 
-> :lucide-navigation: 設定路徑：**金物流 > 結帳頁 & 物流設定 > 訂單相關設定 > 訂單未付款提醒設定**。
+!!! path "設定路徑：**金物流 > 結帳頁 & 物流設定 > 訂單相關設定 > 訂單未付款提醒設定**。"
 
 **設定規則**：
 
 - **開啟功能**：設定發送的 **間隔天數**（例如每隔 1 天發送一次）。
-
 - **關閉功能**：將間隔天數設定為 **0** 即代表關閉。
-
 - **自動停止**：若顧客在提醒期間完成付款，系統將自動停止後續的提醒發送。
+
+---
 
 ## 三大通知管道設定
 
 未付款提醒支援 Email、簡訊及 LINE OA 三種管道，商家可依需求個別設定與編輯樣板內容。
 
-### 樣板編輯注意事項
+!!! warning "樣板編輯注意事項"
 
-- **樣板變數**：編輯內文時，請勿更動 **{{ }}** 大括號內的樣板變數（如 `{{shop_name}}`、`{{customer_name}}` 等），這些代碼會自動代入網站名稱、顧客姓名或訂單編號。
+    - **樣板變數**：編輯內文時，請勿更動 **{{ }}** 大括號內的樣板變數（如 `{{shop_name}}`、`{{customer_name}}` 等），這些代碼會自動代入網站名稱、顧客姓名或訂單編號。
+    - **避免違禁詞**：發送簡訊時應避免使用電信商容易攔截的字眼（如：領取、連結、LINE 等），以免發送失敗但仍被計費。
+    - **短網址功能**：建議開啟短網址設定，自動將提醒訊息中的連結縮短，以節省簡訊字數（每封上限 70 字）並使 Email 內容更精簡。
 
-- **避免違禁詞**：發送簡訊時應避免使用電信商容易攔截的字眼（如：領取、連結、LINE 等），以免發送失敗但仍被計費。
+### Email 提醒 <small>系統預設開啟</small>
 
-- **短網址功能**：建議開啟短網址設定，自動將提醒訊息中的連結縮短，以節省簡訊字數（每封上限 70 字）並使 Email 內容更精簡。
-
-### Email 提醒（系統預設開啟）
-
-> :lucide-navigation: **路徑：** 訊息推播 > Email 通知樣板 > 顧客相關 > **顧客訂單未付款提醒信**。
-
-**編輯說明**：
+!!! path "**路徑：** 訊息推播 > Email 通知樣板 > 顧客相關 > **顧客訂單未付款提醒信**。"
 
 - 點擊標題進入後，可編輯信件主旨與內文（支援 HTML 或純文字），並可透過右上角「預覽」按鈕查看實際畫面。
 - 若有修改內容，點擊 **儲存** 以套用變更。
 
-![](../../../assets/images/ec-訊息推播-email 樣板-顧客訂單未付款提醒信.gif)
+![Email未付款提醒樣板](../../../assets/images/ec-訊息推播-email 樣板-顧客訂單未付款提醒信.gif){ title="Email未付款提醒樣板" }
 
-### 簡訊提醒（需手動開啟）
+---
 
-> :lucide-navigation: **路徑：** 訊息推播 > 簡訊樣板設定 > 顧客相關 > **顧客訂單未付款通知**。
+### 簡訊提醒 <small>需手動開啟</small>
+
+!!! path "**路徑：** 訊息推播 > 簡訊樣板設定 > 顧客相關 > **顧客訂單未付款通知**。"
 
 - **功能設定**：將「狀態」切換為 **開啟 (ON)**，即可啟用自動化簡訊提醒。
-- **費用說明**：發送簡訊會扣除 **1 點 Cyber 幣**，使用前須確保帳戶額度充足（PLUS版 / 企業版 以外之商家需預先儲值）。
+- **使用前提**：使用前須確保帳戶額度充足（PLUS版 / 企業版 以外之商家需預先儲值）。
 
-![](../../../assets/images/ec-訊息推播-簡訊樣板-顧客訂單未付款通知.gif)
+![簡訊未付款提醒樣板](../../../assets/images/ec-訊息推播-簡訊樣板-顧客訂單未付款通知.gif){ title="簡訊未付款提醒樣板" }
 
-### LINE OA 提醒（需手動開啟）
+---
 
-!!! info "本功能僅適用 PLUS版 / 企業版 方案。"
+### LINE OA 提醒 <small>需手動開啟</small>
 
-> :lucide-navigation: **路徑：** 訊息推播 > LINE OA 通知樣板 > 顧客相關 > **顧客訂單未付款提醒信**
+!!! plan "本功能僅適用 PLUS版 / 企業版 方案。"
+
+!!! path "**路徑：** 訊息推播 > LINE OA 通知樣板 > 顧客相關 > **顧客訂單未付款提醒信**"
 
 **前置條件**：發送前請確保已完成以下設定：
 
-- 商家端：完成 [**LINE OA Messaging API 串接**](../../integrations/line/串接 LINE OA Messaging API.md){ data-preview } 。
+- [x] 商家端：完成 [**LINE OA Messaging API 串接**](../../integrations/line/account-integration/connect-line-messaging-api.md){ title="串接 LINE Messaging API" } 。
     
-- 顧客端：會員須完成 **[LINE 帳號綁定](#)** 並加入商家官方帳號好友。
+- [x] 顧客端：會員須完成 **[LINE 帳號綁定](../../integrations/line/account-integration/bind-line-oa-store-members.md){ title="綁定 LINE 官方帳號與官網會員" }** 並加入商家官方帳號好友。
 
 **功能設定**：
 
@@ -154,18 +155,18 @@ hide:
     
 - **即時預覽**：編輯內容將同步顯示於右方預覽視窗，供商家確認顯示樣式。
 
-![](../../../assets/images/ec-訊息推播-LINE OA 樣板-顧客訂單未付款提醒信.gif)
+![LINE OA未付款提醒樣板](../../../assets/images/ec-訊息推播-LINE OA 樣板-顧客訂單未付款提醒信.gif){ title="LINE OA未付款提醒樣板" }
 
 ## 相關操作
 
 <div class="grid cards" markdown>
 
 - :simple-line:{ .lg }   
-  [__串接 LINE OA Messaging API__](../integrations/line/串接 LINE OA Messaging API)     
+  [__串接 LINE OA Messaging API__](../../integrations/line/account-integration/connect-line-messaging-api.md){ title="串接 LINE Messaging API" }     
  建立 LINE OA 並串接 Messaging API。
 
 - :lucide-link-2:{ .lg }     
-  [__LINE 會員綁定整合__](串接 LINE 官方帳號與官網會員系統)  
+  [__LINE 會員綁定整合__](../../integrations/line/account-integration/bind-line-oa-store-members.md){ title="綁定 LINE 官方帳號與官網會員" }  
   設定商品的配送物流條件，限制特定物流方式於結帳流程中的顯示與使用。
 
 </div>
@@ -248,13 +249,9 @@ hide:
     
 	任一條件未符合，系統將無法發送 LINE OA 提醒。
 
-??? quote "簡訊提醒發送失敗但仍被扣點數怎麼辦"
+??? quote "簡訊提醒發送失敗怎麼辦"
 
-	簡訊發送是否成功，最終仍取決於電信商回傳結果。若內容包含易被攔截關鍵字（如：連結、免費、領取、LINE 等），可能會：
-
-	- 發送失敗
-    
-	- 但仍被電信商計費
+	簡訊發送是否成功，最終仍取決於電信商回傳結果。若內容包含易被攔截關鍵字（如：連結、免費、領取、LINE 等），可能會發送失敗。
 
 	建議避免使用敏感字詞，並搭配短網址功能降低風險。
 

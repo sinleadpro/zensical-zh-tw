@@ -2,7 +2,7 @@
 title: 管理會員檔案
 description: 當特定會員有資料與權限異動、點數與優惠券配置調整、或需要下單協助時，管理員可透過 會員明細頁 進行一站式的客服處理與資料維護。
 created: 2026-02-11 00:00
-last_modified: 2026-06-22 11:15
+last_modified: 2026-06-30 12:30
 lang: zh-TW
 type: tutorial
 status: ""
@@ -29,7 +29,11 @@ audiences:
   - admin
 difficulty: intermediate
 tnb: trunk
-plans: []
+plans:
+  - 企業
+  - 專業
+  - 進階
+  - 高手
 cyb_extensions: []
 intents:
   - 編輯會員基本資料
@@ -66,7 +70,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=2289
   - https://www.cyberbiz.io/support/?p=2549
   - https://www.cyberbiz.io/support/?p=2635
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/members/manage-member-profiles
 comments: false
 search:
   exclude: false

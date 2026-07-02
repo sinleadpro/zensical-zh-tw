@@ -2,7 +2,7 @@
 title: 設定商品加價購
 description: 設定商品加價購及多款式加購商品的價格與前台顯示規則。
 created: 2026-01-12 00:00
-last_modified: 2026-06-24 11:03
+last_modified: 2026-06-30 10:56
 lang: zh-TW
 type: tutorial
 status:
@@ -23,11 +23,11 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 進階
-  - 高手
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 如何設定商品加價購
@@ -55,8 +55,8 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1008
   - https://www.cyberbiz.io/helpcenter/?p=11189
-  - https://www.cyberbiz.io/support/?p=953
   - https://www.cyberbiz.io/support/?p=7356
+  - https://www.cyberbiz.io/support/?p=953
 permalink: https://help.cyberbiz.io/ec/marketing/upsells/setup-product-upsell
 comments: false
 search:

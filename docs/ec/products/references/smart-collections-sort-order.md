@@ -2,7 +2,7 @@
 title: 條件分類商品排序方式對照表
 description: ""
 created: 2026-06-03 22:01
-last_modified: 2026-06-04 11:04
+last_modified: 2026-07-02 10:08
 lang: zh-TW
 type: reference
 status: ""
@@ -28,14 +28,9 @@ features: []
 prerequisites: []
 related: []
 tags:
-  - EC
   - 商品管理
   - 條件分類
-  - Smart Collections
   - 排序方式
-  - Reference
-  - 對照表
-  - 手動排序
 acoiv: ""
 apis: []
 devices:

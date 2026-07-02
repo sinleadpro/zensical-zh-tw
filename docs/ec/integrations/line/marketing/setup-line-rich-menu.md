@@ -2,7 +2,7 @@
 title: 設定 LINE 圖文選單
 description: 建立與設定 LINE 圖文選單，讓顧客可透過官方帳號快速導覽商品、會員中心與導購頁面。
 created:
-last_modified: 2026-06-26 10:05
+last_modified: 2026-07-02 10:17
 lang: zh-TW
 type: tutorial
 status:
@@ -78,21 +78,16 @@ hide: []
 
 ![LINE 圖文選單設定](../../../../assets/images/ec-第三方整合-line 圖文選單.png){ title="LINE 圖文選單設定" .hero-page }
 
-
 ## 什麼是 LINE 圖文選單
 
  **LINE 圖文選單** 是推廣商品與引導消費者快速查找資料的重要工具。您可以透過選單配置「關鍵字搜尋商品」、「會員資料查看」或「導購連結」等功能。
-
-以下為 LINE 圖文選單的詳細設定說明與教學：
 
 ## 設定前置準備
 
 在開始設定前，請確保完成以下事項：
 
 - [x] **方案確認**：確認您目前使用的 LINE OA 方案 **支援 API 串接**。
-
 - [x] **API 串接**：須先完成  [**LINE Messaging API**  的串接](../account-integration/connect-line-messaging-api.md){ title="串接 LINE Messaging API" }  設定。
-
 - [x] **連結規範**：圖文選單的連結 **請勿使用短網址**，以免導致代碼失效。
 
 ## 建立圖文選單步驟
@@ -189,7 +184,7 @@ hide: []
 
 ---
 
-### 會員帳號綁定機制（建議）
+### 會員帳號綁定機制 <small>建議</small>
 
 為了確保系統能發送自動化的 **訂單通知** 與 **物流狀態更新**，建議將選單中具備會員性質的區塊（如：會員中心）設定為「自動綁定連結」。
 

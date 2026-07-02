@@ -2,7 +2,7 @@
 title: 營收分析
 description: 透過數據卡與多種圖表，快速掌握全店營收表現、獲利狀況與營收高峰時段
 created: 2026-06-15
-last_modified: 2026-06-15 21:20
+last_modified: 2026-06-30 21:21
 lang: zh-TW
 type: tutorial
 status: ""
@@ -46,12 +46,12 @@ apis: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5041
   - https://www.cyberbiz.io/support/?p=8368
-permalink: "https://help.cyberbiz.io/ec/business-intelligence/revenue-analysis/"
+permalink: https://help.cyberbiz.io/ec/business-intelligence/revenue-analysis
 icon: lucide/trending-up
 hide:
 ---
 
-![營收分析頁面](../../../assets/images/ec-bi-revenue-hero.zh-tw.png){ .hero-page }
+![營收分析頁面](../../assets/images/ec-bi-revenue-hero.zh-tw.png){ title="營收分析頁面" .hero-page }
 
 ## 營收分析說明 { #intro-revenue }
 
@@ -117,7 +117,7 @@ hide:
 [^3]: 平均營收計算方式：指定日期區間內，週間各日所有訂單的總額 ÷ 總週數。
 [^4]: 平均營收計算方式：指定日期區間內，所有月份中各日的所有訂單總額 ÷ 總月份數。
 
-![關鍵數據卡](../../../assets/images/ec-bi-revenue-cards.zh-tw.png)
+![關鍵數據卡](../../assets/images/ec-bi-revenue-cards.zh-tw.png){ title="關鍵數據卡" }
 
 ---
 
@@ -129,7 +129,7 @@ hide:
 2. **查看項目說明：** 將滑鼠移到圖例（圖表上方的項目名稱）上，系統會顯示該項目的定義說明。
 3. **比對趨勢：** 透過同一張圖中多條線的相對高低，觀察營收、成本與毛利之間隨時間的變化關係。
 
-![營收總覽折線圖](../../../assets/images/ec-bi-revenue-overview-chart.zh-tw.png)
+![營收總覽折線圖](../../assets/images/ec-bi-revenue-overview-chart.zh-tw.png){ title="營收總覽折線圖" }
 
 各條線的完整定義請見[營收指標定義對照表](references/revenue-analysis-metrics-reference.md#reference-revenue-metrics){ title="營收分析指標定義對照表" data-preview }。
 
@@ -143,7 +143,7 @@ hide:
 2. **選擇預設區間或自訂：** 可直接選擇預設區間（今日、昨日、最近 7 日、最近 30 日、這個月、上個月），或在月曆上自行框選起訖日期。
 3. **套用：** 點擊 **「套用」**，該圖表即會依新的時間區間重新載入。
 
-![調整日期區間](../../../assets/images/ec-bi-revenue-date-range.zh-tw.png)
+![調整日期區間](../../assets/images/ec-bi-revenue-date-range.zh-tw.png){ title="調整日期區間" }
 
 !!! tip "技巧"
     每張圖表的日期區間是 **各自獨立** 的，調整其中一張不會影響其他圖表。頁面初次載入時，各圖表預設顯示最近約半年的資料。若要做整體比較，記得逐一將各圖表調整為相同區間。
@@ -160,7 +160,7 @@ hide:
 
 將滑鼠移到圖塊上，即會顯示該項目的營收金額與占比百分比。
 
-![訂單存活狀態營收占比](../../../assets/images/ec-bi-revenue-order-status.zh-tw.png)
+![訂單存活狀態營收占比](../../assets/images/ec-bi-revenue-order-status.zh-tw.png){ title="訂單存活狀態營收占比" }
 
 ---
 
@@ -170,7 +170,7 @@ hide:
 
 將滑鼠移到圖塊上，即會顯示該付款方式的營收金額與占比百分比。
 
-![付款方式營收占比](../../../assets/images/ec-bi-revenue-payment-method.zh-tw.png)
+![付款方式營收占比](../../assets/images/ec-bi-revenue-payment-method.zh-tw.png){ title="付款方式營收占比" }
 
 ---
 
@@ -180,7 +180,7 @@ hide:
 
 將滑鼠移到圖塊上，即會顯示該出貨方式的營收金額與占比百分比。
 
-![出貨方式營收占比](../../../assets/images/ec-bi-revenue-shipping-method.zh-tw.png)
+![出貨方式營收占比](../../assets/images/ec-bi-revenue-shipping-method.zh-tw.png){ title="出貨方式營收占比" }
 
 ---
 
@@ -190,7 +190,7 @@ hide:
 
 將滑鼠移到長條上，即會顯示各會員類型的營收金額。
 
-![新舊會員營收占比](../../../assets/images/ec-bi-revenue-member-type.zh-tw.png)
+![新舊會員營收占比](../../assets/images/ec-bi-revenue-member-type.zh-tw.png){ title="新舊會員營收占比" }
 
 ---
 
@@ -203,7 +203,7 @@ hide:
 
 將滑鼠移到資料點上，即會顯示該時段的營收金額。
 
-![各時平均營收](../../../assets/images/ec-bi-revenue-hourly.zh-tw.png)
+![各時平均營收](../../assets/images/ec-bi-revenue-hourly.zh-tw.png){ title="各時平均營收" }
 
 ---
 
@@ -216,7 +216,7 @@ hide:
 
 將滑鼠移到長條上，即會顯示該日的營收金額。
 
-![週間各日平均營收](../../../assets/images/ec-bi-revenue-weekly.zh-tw.png)
+![週間各日平均營收](../../assets/images/ec-bi-revenue-weekly.zh-tw.png){ title="週間各日平均營收" }
 
 ---
 
@@ -229,7 +229,7 @@ hide:
 
 將滑鼠移到長條上，即會顯示該日的營收金額。
 
-![各日平均營收](../../../assets/images/ec-bi-revenue-daily.zh-tw.png)
+![各日平均營收](../../assets/images/ec-bi-revenue-daily.zh-tw.png){ title="各日平均營收" }
 
 ## 重要規範與限制 { #specs-revenue }
 

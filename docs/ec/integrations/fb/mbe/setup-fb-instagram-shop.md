@@ -1,8 +1,8 @@
 ---
-title: 設定 Facebook 跟 Instagram 商店
+title: 設定 FB 跟 IG 商店
 description: 設定 Facebook 與 Instagram 商店，建立社群銷售管道並同步商品。
 created: 2026-04-13 16:31
-last_modified: 2026-06-26 10:05
+last_modified: 2026-07-02 11:29
 lang: zh-TW
 type: tutorial
 status: ""
@@ -73,13 +73,13 @@ icon: lucide/store
 hide: []
 ---
 
-## Facebook 與 Instagram 商店設定說明
+## FB 與 IG 商店設定說明
 
 **FB、IG 商店設定** 的主要目的是建立社群商店，讓品牌能透過 Facebook 與 Instagram 觸及更多流量，並將潛在顧客導流至官網消費。
 
 !!! note "相關說明請參閱 Meta 官方教學：[在 Facebook 和 Instagram 上設定商店 :lucide-external-link:](https://zh-tw.facebook.com/business/help/268860861184453)。"
 
-## 前置作業
+## 使用條件與限制
 
 在開始串接 Facebook 與 Instagram 商店前，請先依序完成以下設定：
 
@@ -88,7 +88,9 @@ hide: []
 
 完成上述兩項設定後，串接商店時系統會自動帶入相關資料（如已連結的目錄），您只需依畫面引導完成商店設定即可。
 
-## 串接 Facebook 商店
+## 操作步驟
+
+### 串接 Facebook 商店
 
 請先登入您的 Facebook 帳號，並確保擁有企業管理平台的相關管理權限。
 
@@ -117,7 +119,9 @@ hide: []
 
     ![檢視商店](../../../../assets/images/ec-第三方整合-fbe-串接fb-ig商店-檢視商店.png)
 
-## 串接 IG 商店
+---
+
+### 串接 IG 商店
 
 Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專頁及目錄建立連結。
 

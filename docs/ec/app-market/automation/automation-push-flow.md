@@ -2,7 +2,7 @@
 title: 使用 AUTOMATION 建立自動化推播流程
 description: 在 CYBERBIZ AUTOMATION 中建立自動化流程，設定會員分群並發送簡訊、EDM 或 LINE OA 訊息。
 created: 2026-03-09 14:48
-last_modified: 2026-06-27 21:51
+last_modified: 2026-07-01 12:00
 lang: zh-TW
 type: tutorial
 status:
@@ -41,11 +41,11 @@ features:
   - 會員分群
   - 成效追蹤
 prerequisites:
-  - /ec/notifications/send-edm-newsletters
+  - /ec/notifications/send-edm-newsletters-v2
   - /ec/integrations/line/account-integration/setup-line-quick-login
   - /ec/integrations/line/account-integration/bind-line-oa-store-members
 related:
-  - /ec/notifications/send-edm-newsletters
+  - /ec/notifications/send-edm-newsletters-v2
 tags:
   - Automation
   - 自動化行銷
@@ -123,7 +123,7 @@ comments: false
 
 ### EDM 發送設定
 
-*   **必要前提**：必須先完成 [EDM 基礎設定](../../notifications/send-edm-newsletters.md){ title="設定與發送 EDM 電子報" }。
+*   **必要前提**：必須先完成 [EDM 基礎設定](../../notifications/send-edm-newsletters-v2.md){ title="設定與發送 EDM 電子報" }。
 *   **操作步驟**：流程可參照[簡訊發送設定](#簡訊發送設定)。
     1.  選擇 EDM 預設模板（如：發送 EDM 給 VIP 或自訂分群）。
     2.  設定排程與會員篩選。
@@ -149,7 +149,7 @@ comments: false
 !!! tip "提示"
     建立流程時，一個完整的自動化工作流將由觸發節點（時間/事件）、條件節點（篩選判斷）與行動節點（具體動作）組裝而成。
 
-1.  **開始流程**：設定完成後點擊「開始流程」，系統會提示預計花費的 Cyber 幣或發送人數。
+1.  **開始流程**：設定完成後點擊「開始流程」，系統會提示預計發送人數。
 
     ![開始流程](../../../assets/images/ec-app-market-automation-lineoa-開始流程.png){ title="開始流程" }
 

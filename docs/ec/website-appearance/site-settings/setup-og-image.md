@@ -2,7 +2,7 @@
 title: 設定轉貼連結縮圖 OG Image
 description: 於商品、分類、文章或全站設定中指定 Open Graph（OG）分享圖片，控制社群平台轉貼連結時顯示的縮圖與預覽資訊。
 created: 2025-03-03
-last_modified: 2026-06-24 17:24
+last_modified: 2026-06-30 11:01
 lang: zh-TW
 type: tutorial
 status: ""
@@ -26,13 +26,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 設定社群分享縮圖
@@ -68,7 +68,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3843
   - https://www.cyberbiz.io/support/?p=19718
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-og-image
 comments: false
 search:
   exclude: false
@@ -131,7 +131,7 @@ hide:
 
 ![全站OG Image設定](../../../assets/images/ec-網站外觀-全站設定-og-image.png){ title="全站OG Image設定" }
 
-## 分享連結時縮圖無法即時更新解決方案
+## 分享連結時縮圖無法即時更新解決方案 { #og-image-cache-fix }
 
 當您更新了網頁圖片，但在 Facebook 或 LINE 上分享時仍顯示舊資訊，這是因為平台會暫存（Cache）一份舊的快取紀錄。
 
@@ -158,7 +158,7 @@ hide:
 
 	這通常有兩個原因：
 
-	1. **快取問題**：社群平台會暫存舊的資料。請參考本文件 [分享連結時縮圖無法即時更新的解決方案](#分享連結時縮圖無法即時更新的解決方案) 使用偵錯工具強制更新。
+	1. **快取問題**：社群平台會暫存舊的資料。請參考本文件 [分享連結時縮圖無法即時更新的解決方案](#og-image-cache-fix) 使用偵錯工具強制更新。
 	
 	2. **圖片尺寸不符**：若圖片檔案過大（超過 8MB）或解析度過低，平台可能會抓取失敗。建議使用建議規格。
 

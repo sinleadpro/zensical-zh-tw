@@ -2,7 +2,7 @@
 title: 設定選單與導覽列
 description: 設定網站的選單、導覽列與頁腳。
 created: 2026-02-03 17:00
-last_modified: 2026-06-24 16:39
+last_modified: 2026-07-02 07:20
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,13 +23,13 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 設定網站選單內容
@@ -68,9 +68,9 @@ paths:
   - 網站外觀 > 套版主題管理 > 網站設定 > 頁腳
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/helpcenter/?p=5917
-  - https://www.cyberbiz.io/support/?p=33935
-permalink: ""
+  - https://www.cyberbiz.io/helpcenter/?p=11200
+  - https://www.cyberbiz.io/support/?p=19955
+permalink: https://help.cyberbiz.io/ec/website-appearance/navigation/setup-menus-navigation
 search:
   exclude: false
 icon: lucide/menu
@@ -143,20 +143,6 @@ comments: false
 ![導覽列-網站logo](../../../assets/images/ec-網站外觀-拖拉版型編輯器-導覽列-網站logo.png){ title="導覽列-網站logo" }
 
 ---
-{% if is_internal %}
-
-#### 頂部導覽列設定
-
-> 此區塊需開通 **四層選單** 相關方案／外掛才會出現。
-
-位於主導覽列上方的細長公告列，可放一段公告文字與一組連結選單：
-
-- **啟用頂部導覽列：** 開啟後才會顯示此區塊。
-- **公告內容：** 顯示於頂部的文字。
-- **連結選單：** 挑選一組已建立的選單，顯示於頂部導覽列。
-
----
-{% endif %}
 
 #### 導覽列樣式
 
@@ -172,10 +158,6 @@ comments: false
 
 #### 導覽列字體
 
-{% if is_internal %}
-> 此區塊需開通 **字體大小設定** 相關方案／外掛才會出現。
-{% endif %}
-
 可分別調整 **電腦版** 與 **平板/手機版** 的字體縮放比例，標題與內文各自獨立：
 
 - **標題字體大小／內文字體大小：** 可選 **80%／90%／100%（預設）／110%／120%**。
@@ -190,10 +172,6 @@ comments: false
 - **電腦版選單樣式：**
     - **次選單不同步展開（三維選單，預設）：** 第二、三層選單分開顯示。
     - **次選單同步展開（二維選單）：** 第二、三層選單同步一起展開。
-
-    {% if is_internal %}
-    - **四層選單：** 需開通四層選單方案／外掛才會出現。
-    {% endif %}
 
 - **平板版、手機版選單：** 挑選要顯示在行動裝置側邊選單的選單。
 - **非電腦版選單預設展開：** 勾選後，平板／手機的側邊選單預設為展開狀態。

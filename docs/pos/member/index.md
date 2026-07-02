@@ -148,7 +148,7 @@ hide: []
 
 ### 管理推薦分潤方案
 
-查詢顧客適用的 [推薦分潤](../../ec/profit-sharing/設定推薦人分潤方案/) 方案細節。
+查詢顧客適用的 [推薦分潤](../../ec/profit-sharing/referrer-profit-sharing.md) 方案細節。
 
 1. 在 POS 前台點擊 **會員 > 分潤方案**。
     ![](../../assets/images/POS-前台-會員-畫面總覽01.png){ .screenshot }

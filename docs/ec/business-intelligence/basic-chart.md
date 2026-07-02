@@ -2,7 +2,7 @@
 title: 基本報表
 description: 在後台一頁掌握商店銷售與流量概況，包含商品銷售排行、訂單數量、總銷售額及近七日瀏覽人次。
 created: 2026-06-21
-last_modified: 2026-06-22 00:19
+last_modified: 2026-06-30 21:21
 lang: zh-TW
 type: tutorial
 status: ""
@@ -58,8 +58,9 @@ ui_components: []
 paths:
   - 分析報表 > 基本報表
 layouts: []
-wp_url: []
-permalink: "https://help.cyberbiz.io/ec/business-intelligence/basic-chart/"
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=3023
+permalink: https://help.cyberbiz.io/ec/business-intelligence/basic-chart
 comments: false
 search:
   exclude: false
@@ -67,7 +68,7 @@ icon: lucide/chart-bar
 hide:
 ---
 
-![基本報表頁面](../../assets/images/ec-business-intelligence-basic-chart-hero.png){ .hero-page }
+![基本報表頁面](../../assets/images/ec-business-intelligence-basic-chart-hero.png){ title="基本報表頁面" .hero-page }
 
 ## 基本報表說明 { #intro-basic-chart }
 
@@ -101,17 +102,17 @@ hide:
 1. **進入報表頁面：** 前往後台「分析報表」>「基本報表」。
 2. **選擇時間區間：** 在頁面右上角的下拉選單，選擇「半年」「一年」「三年」或「五年」(預設為半年)。
 
-    ![選擇時間區間](../../assets/images/ec-business-intelligence-basic-chart-date-range.png)
+    ![選擇時間區間](../../assets/images/ec-business-intelligence-basic-chart-date-range.png){ title="選擇時間區間" }
 
 3. **檢視趨勢：** 「訂單數量」與「總銷售額」兩張圖表會依所選區間，以每月為單位重新繪製。
 
     === "訂單數量"
 
-        ![訂單數量趨勢圖](../../assets/images/ec-business-intelligence-basic-chart-order-count.png)
+        ![訂單數量趨勢圖](../../assets/images/ec-business-intelligence-basic-chart-order-count.png){ title="訂單數量趨勢圖" }
 
     === "總銷售額"
 
-        ![總銷售額趨勢圖](../../assets/images/ec-business-intelligence-basic-chart-total-sales.png)
+        ![總銷售額趨勢圖](../../assets/images/ec-business-intelligence-basic-chart-total-sales.png){ title="總銷售額趨勢圖" }
 
 4. **查看單月數值：** 將滑鼠移到折線圖的任一節點，即可看到該月份的詳細數字。
 
@@ -131,7 +132,7 @@ hide:
 
 [^export-sheets]: 若商店有開通 POS(門市銷售)功能，匯出的 Excel 會額外分成「全部」「線上」「實體門市」以及各門市的工作表；未開通則只有「全部」一張工作表。
 
-![商品銷售排行報表全區](../../assets/images/ec-business-intelligence-basic-chart-export-section.png)
+![商品銷售排行報表全區](../../assets/images/ec-business-intelligence-basic-chart-export-section.png){ title="商品銷售排行報表全區" }
 
 ---
 
@@ -151,15 +152,15 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-line-chart:{ .lg }  
-  [__商品圖表__](product-chart.md)  
+  [__商品圖表__](product-chart.md){ title="商品圖表" }  
   深入分析單一商品的瀏覽、購買與成交率表現。
 
 - :lucide-file-spreadsheet:{ .lg }  
-  [__訂單報表匯出__](../orders/reports/export-order-report.md)  
+  [__訂單報表匯出__](../orders/reports/export-order-report.md){ title="匯出訂單報表" }  
   匯出更完整的訂單明細，做進一步的對帳與分析。
 
 - :lucide-bar-chart-3:{ .lg }  
-  [__營運圖表分析__](business-intelligence-overview.md)  
+  [__營運圖表分析__](business-intelligence-overview.md){ title="圖表總覽" }  
   查看含轉換率、客單價等指標的進階營運分析。
 
 </div>
@@ -180,7 +181,7 @@ hide:
     兩者的統計基礎不同，本來就不會相等：
 
     - 「商品銷售排行報表」算的是「實際成交金額」，只計入未退貨的有效訂單。
-    - 「[商品圖表](product-chart.md)」算的是每日彙整的「瀏覽次數」與「購買次數」，購買次數只記錄產單當下的數量，不再判斷後續的付款、取消或退貨。
+    - 「[商品圖表](product-chart.md){ title="商品圖表" }」算的是每日彙整的「瀏覽次數」與「購買次數」，購買次數只記錄產單當下的數量，不再判斷後續的付款、取消或退貨。
 
 ??? quote "左側選單找不到「基本報表」？"
     [](){ #faq-basic-chart-menu-missing }

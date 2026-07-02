@@ -2,7 +2,7 @@
 title: 續購與加購方案
 description: 直接於管理後台辦理 POS 系統續約或加購子機，無需聯繫顧問即可快速完成合約展延與設備擴充。
 created: 2026-04-10 10:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -52,7 +52,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=24441
-permalink: ""
+permalink: https://help.cyberbiz.io/pos/store/renewal-and-add-on-plans
 comments: false
 search:
   exclude: false

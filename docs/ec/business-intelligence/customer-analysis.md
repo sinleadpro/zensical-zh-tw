@@ -2,7 +2,7 @@
 title: 消費顧客分析
 description: 以第一次下單時間切分新客與舊客，深入比較顧客數、訂單貢獻與回購表現。
 created: 2026-06-16
-last_modified: 2026-06-17 16:12
+last_modified: 2026-06-30 21:21
 lang: zh-TW
 type: tutorial
 status: ""
@@ -53,8 +53,9 @@ ui_components: []
 paths:
   - 分析報表 > 會員分析
 layouts: []
-wp_url: []
-permalink: "https://help.cyberbiz.io/ec/business-intelligence/customer-analysis/"
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=8261
+permalink: https://help.cyberbiz.io/ec/business-intelligence/customer-analysis
 comments: false
 search:
   exclude: false
@@ -62,7 +63,7 @@ icon: lucide/user-search
 hide: []
 ---
 
-![消費顧客分析頁面](../../assets/images/ec-bi-customer-analysis-hero.png){ .hero-page }
+![消費顧客分析頁面](../../assets/images/ec-bi-customer-analysis-hero.png){ title="消費顧客分析頁面" .hero-page }
 
 ## 消費顧客介紹 { #intro-customer-analysis }
 
@@ -287,11 +288,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-chart-line:{ .lg }  
-  [__會員分析__](member-analysis.md)  
+  [__會員分析__](member-analysis.md){ title="會員分析" }  
   掌握會員規模、成長趨勢與整體回購率。
 
 - :lucide-users:{ .lg }  
-  [__會員總覽__](member-overview.md)  
+  [__會員總覽__](member-overview.md){ title="會員總覽" }  
   查看性別、年齡、註冊來源與會員等級的輪廓分析。
 
 </div>

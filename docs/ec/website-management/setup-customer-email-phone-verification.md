@@ -2,7 +2,7 @@
 title: 設定顧客 Email 與手機雙重驗證
 description: 要求新註冊顧客同時通過 Email 與簡訊驗證，確保會員資料真實性，降低空帳號與惡意註冊風險。
 created: 2026-05-27 14:58
-last_modified: 2026-06-22 09:52
+last_modified: 2026-07-01 12:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -22,13 +22,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 設定 Email 驗證
@@ -48,7 +48,7 @@ related:
   - "[[customer-registration-modes-reference]]"
   - "[[customer-field-validation-reference]]"
   - "[[manage-email-templates]]"
-  - "[[manage-sms-templates]]"
+  - "[[manage-sms-templates-v2]]"
   - "[[設定顧客註冊流程與欄位]]"
   - "[[管理會員檔案]]"
 tags:
@@ -76,10 +76,10 @@ paths:
   - 管理中心 > 顧客註冊設定
   - 訊息推播 > Email / 簡訊通知樣板 > 顧客相關 > 顧客帳號啟用提醒
 layouts: []
-wp_url: 
-    - https://www.cyberbiz.io/helpcenter/?p=1865
-    - https://www.cyberbiz.io/helpcenter/?p=1871
-permalink: ""
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=1865
+  - https://www.cyberbiz.io/helpcenter/?p=1871
+permalink: https://help.cyberbiz.io/ec/website-management/setup-customer-email-phone-verification
 comments: false
 search:
   exclude: false
@@ -113,11 +113,7 @@ hide: []
 ## 計費規則 { #pricing-customer-verification }
 
 * **電子郵件驗證**：免費。
-* **手機驗證**：每次發送簡訊驗證碼會收取 **Cyber幣**，費用依簡訊內容長度計算。
 * 簡訊與 Email 樣板內容皆可於 **訊息推播** > **Email / 簡訊通知樣板** > **顧客相關** > **顧客帳號啟用提醒** 自訂。
-
-!!! tip "技巧"
-    精簡簡訊樣板的文字長度可有效降低 Cyber幣 消耗，建議僅保留驗證碼與必要說明。
 
 ## 操作步驟 { #operate-customer-verification }
 
@@ -245,7 +241,7 @@ LINE 登入因帳號本身已綁定手機，系統會自動跳過 OTP 簡訊驗�
 <div class="grid cards" markdown>
 
 - :lucide-mail:{ .lg }  
-  [__自訂啟用信內容__](../notifications/manage-email-templates.md){ title="設定與管理 Email 通知樣板" } ·[__自訂簡訊內容__](../notifications/manage-sms-templates.md){ title="設定與管理簡訊通知樣板" }  
+  [__自訂啟用信內容__](../notifications/manage-email-templates.md){ title="設定與管理 Email 通知樣板" } ·[__自訂簡訊內容__](../notifications/manage-sms-templates-v2.md){ title="設定與管理簡訊通知樣板" }  
   到「訊息推播 > Email / 簡訊通知樣板 > 顧客相關 > 顧客帳號啟用提醒」編輯。
 
 - :lucide-user-cog:{ .lg }  
@@ -269,13 +265,6 @@ LINE 登入因帳號本身已綁定手機，系統會自動跳過 OTP 簡訊驗�
     * 該地區簡訊服務未開通(部分海外國碼可能不支援)
 
     建議顧客確認門號正確後，至會員頁重新點擊「點此發送驗證簡訊」。
-
-??? quote "為什麼開啟手機驗證會被收 Cyber幣？"
-    [](){ #faq-customer-verification-cyber-coin }
-    手機驗證透過簡訊發送驗證碼，屬於電信費用，每封簡訊依內容長度收取 Cyber幣。建議：
-
-    * 在簡訊樣板中精簡訊息內容，降低費用
-    * 若僅需 Email 驗證即可，可只開啟「電子郵件驗證」單項
 
 ??? quote "可以只要求新顧客驗證 Email，不驗證手機嗎？"
     [](){ #faq-customer-verification-email-only }

@@ -2,7 +2,7 @@
 title: 季別群組
 description: 指引商家如何在電商倉儲中建立與管理「季別群組」，將同屬性或同銷售波段的商品進行歸類，優化「庫齡報表」的監控效率。
 created: 2026-03-19 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -55,7 +55,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=8920
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/seasonal-groups
 comments: false
 search:
   exclude: false

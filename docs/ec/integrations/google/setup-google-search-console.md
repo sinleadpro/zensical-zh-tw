@@ -2,7 +2,7 @@
 title: "註冊並驗證 Google Search Console"
 description: "在 Google Search Console 註冊並驗證網站擁有權，以監測網站搜尋表現。"
 created: "2026-03-20 14:28"
-last_modified: 2026-06-26 10:05
+last_modified: 2026-07-02 13:58
 lang: zh-TW
 type: tutorial
 status: ""
@@ -77,9 +77,9 @@ hide: []
 - **診斷 SEO 問題**：偵測爬蟲錯誤、行動裝置可用性問題與網頁索引狀態。
 - **優化網站效能**：根據搜尋數據調整內容策略，提升自然流量。
 
-!!! note "更多 Google Search Console 資訊，請參考 [官方說明 :lucide-external-link:](https://support.google.com/webmasters/answer/9128668?hl=zh-Hant)。"
+!!! info "更多 Google Search Console 資訊，請參考 [官方說明 :lucide-external-link:](https://support.google.com/webmasters/answer/9128668?hl=zh-Hant)。"
 
-## 操作前準備
+## 使用條件與限制
 
 - [x] **帳號統一**：請確保登入 Google Search Console 帳號與您的 Google Analytics (GA) 帳號為同一組，且具備該帳號管理員權限。
 - [x] **網域設定**：建議先將官網後台的主網域設定為「自有網域」，並開啟「總是導向」功能，以確保搜尋引擎收錄的一致性。

@@ -2,7 +2,7 @@
 title: 日本站金流服務
 description: 日本站提供在地化的金流解決方案，包含主流信用卡支付與日本特有的 Pay-Easy 便利服務，幫助商家順利進軍日本電商市場。
 created: 2026-03-03 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 08:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -24,8 +24,8 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - Pro
   - Business
+  - Pro
 cyb_extensions: []
 intents:
   - 開通日本信用卡支付
@@ -48,11 +48,11 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=33442
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/japan-payment-services
 comments: false
 search:
   exclude: false
-icon: lucide/lock
+icon: lucide/globe
 hide: []
 ---
 

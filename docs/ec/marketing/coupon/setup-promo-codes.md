@@ -2,7 +2,7 @@
 title: 設定優惠碼
 description: 設定優惠碼（折扣、免運、贈品），包含基本設定、使用門檻、發送規則及結帳頁自動套用功能。
 created: 2026-05-27 13:55
-last_modified: 2026-05-27 13:55
+last_modified: 2026-06-30 10:56
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,7 +23,11 @@ audiences:
   - admin
 difficulty: beginner
 tnb: trunk
-plans: []
+plans:
+  - 企業
+  - 專業
+  - 進階
+  - 高手
 cyb_extensions: []
 intents: 
   - 設定優惠碼
@@ -60,7 +64,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10457
   - https://www.cyberbiz.io/support/?p=1533
   - https://www.cyberbiz.io/support/?p=6228
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/marketing/coupon/setup-promo-codes
 comments: false
 search:
   exclude: false
@@ -227,7 +231,7 @@ hide: []
 ??? quote "如何發送贈品券？"
     您可以透過以下兩種主要方式發送贈品券：
     1. **[會員列表手動發送](../../members/manage-member-profiles.md#2-優惠券派發與管理)**：在 **會員 > 所有會員** 中勾選指定對象，點選「發送贈品券」。
-    2. **[互動遊戲獎勵](../interactive-games.md)**：在「行銷活動 > 互動遊戲」中，將贈品券設定為中獎獎勵，讓消費者參與活動後自動獲得。
+    2. **[互動遊戲獎勵](../other-tools/interactive-games.md)**：在「行銷活動 > 互動遊戲」中，將贈品券設定為中獎獎勵，讓消費者參與活動後自動獲得。
 
 
 ## 更多操作
@@ -240,7 +244,7 @@ hide: []
   設定單筆訂單可使用的優惠券數量上限。
 
 - :lucide-bell-ring:{ .lg }
-  [__設定優惠券到期通知__](../coupon-and-bonus-points-expiry-notification.md)
+  [__設定優惠券到期通知__](../purchase-restrictions/coupon-and-bonus-points-expiry-notification.md)
   設定系統自動發送 Email、簡訊或 LINE 通知，提醒顧客及時使用即將到期的優惠。
 
 </div>

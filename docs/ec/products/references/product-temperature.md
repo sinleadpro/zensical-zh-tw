@@ -2,7 +2,7 @@
 title: 運送溫層對照表
 description: ""
 created: 2026-06-05 13:49
-last_modified: 2026-06-05 13:49
+last_modified: 2026-07-02 10:09
 lang: zh-TW
 type: reference
 status: ""
@@ -28,14 +28,11 @@ features: []
 prerequisites: []
 related: []
 tags:
-  - EC
   - 商品管理
   - 運送溫層
   - 冷凍
   - 冷藏
   - 物流設定
-  - Reference
-  - 對照表
 acoiv: ""
 apis: []
 devices:

@@ -2,9 +2,9 @@
 title: 使用「店長改價」在 POS 前台調整單品價格
 description: 在 POS 前台針對單一商品調整價格，並設定改價原因與權限管理。
 created: 2026-03-05 18:40
-last_modified: 2026-06-25 12:18
+last_modified: 2026-06-30 21:55
 lang: zh-TW
-permalink: ""
+permalink: https://help.cyberbiz.io/pos/check/pos-manager-price-override
 type: tutorial
 status: ""
 version: ""
@@ -68,7 +68,7 @@ hide:
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
-![店長改價頁面](../../assets/images/pos-manager-price-override-hero.png){ .hero-page }
+![店長改價頁面](../../assets/images/pos-manager-price-override-hero.png){ title="店長改價頁面" .hero-page }
 
 ## 店長改價說明
 
@@ -86,10 +86,10 @@ hide:
     - **百分比（折數）：** 例如輸入 90 代表打 9 折。
 
     === "金額"
-        ![金額折價畫面](../../assets/images/pos-price-override-amount.png)
+        ![金額折價畫面](../../assets/images/pos-price-override-amount.png){ title="金額折價畫面" }
 
     === "百分比"
-        ![百分比折價畫面](../../assets/images/pos-price-override-percentage.png)
+        ![百分比折價畫面](../../assets/images/pos-price-override-percentage.png){ title="百分比折價畫面" }
 
 4. **設定改價備註：** 為了便於後續對帳，必須輸入改價原因。系統會自動記錄最新的 5 筆備註供您快速選取。
 5. **確認完成：** 按下「確認」後，該商品的價格即會變動，隨後即可繼續完成後續收款流程。

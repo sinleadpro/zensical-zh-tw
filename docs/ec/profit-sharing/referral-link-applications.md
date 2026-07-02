@@ -2,7 +2,7 @@
 title: 推薦碼連結的應用
 description: 取得推薦碼後，您可以透過製作短網址、QR Code 或設置 UTM 參數，將推薦連結整合至各種行銷管道（如 FB、IG、LINE 或實體文宣），並精確追蹤不同來源的導購成效。
 created: 2026-02-06 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 10:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -24,12 +24,9 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
+  - 企業
   - 進階
   - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
 cyb_extensions: []
 intents:
   - 製作推薦連結
@@ -59,9 +56,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4051
-  - https://www.cyberbiz.io/support/?p=1833
-  - https://www.cyberbiz.io/support/?p=39234
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/profit-sharing/referral-link-applications
 comments: false
 search:
   exclude: false
@@ -102,27 +97,27 @@ hide: []
 3. 點選連結旁的 **複製分享連結** 圖示。
 4. 根據推廣需求進行以下應用製作：
 
-=== "產生短網址"
+    === "產生短網址"
 
-    若連結過長不便於社群分享，可使用外部短網址工具。
+        若連結過長不便於社群分享，可使用外部短網址工具。
 
-    - **步驟**：將複製的 **完整推薦連結** 貼入工具產出。
-    - **注意**：絕對不可先縮短網址再手動拼接推薦碼。
+        - **步驟**：將複製的 **完整推薦連結** 貼入工具產出。
+        - **注意**：絕對不可先縮短網址再手動拼接推薦碼。
 
-=== "產生 QR Code"
+    === "產生 QR Code"
 
-    適用於線下印刷或直播畫面。
+        適用於線下印刷或直播畫面。
 
-    - **步驟**：將連結貼入任何 QR Code 產生器，即可生成對應圖像。
-    - **應用**：建議將 QR Code 放置於結帳櫃檯、包裹隨附小卡或雜誌廣告中。
+        - **步驟**：將連結貼入任何 QR Code 產生器，即可生成對應圖像。
+        - **應用**：建議將 QR Code 放置於結帳櫃檯、包裹隨附小卡或雜誌廣告中。
 
-=== "設置 UTM 參數"
+    === "設置 UTM 參數"
 
-    用於區分同一個推薦人在不同管道的表現。
+        用於區分同一個推薦人在不同管道的表現。
 
-    - **手動設定規則**：在推薦連結（如 `.../?rcode=xxx`）後方加上 `&` 符號，接著填入 UTM 參數。
-    - **正確範例**：`https://.../?rcode=xxx&utm_medium=fb&utm_source=kol_a`
-    - **錯誤範例**：`https://.../?rcode=xxx?utm_medium=fb`（不可使用兩個問號）
+        - **手動設定規則**：在推薦連結（如 `.../?rcode=xxx`）後方加上 `&` 符號，接著填入 UTM 參數。
+        - **正確範例**：`https://.../?rcode=xxx&utm_medium=fb&utm_source=kol_a`
+        - **錯誤範例**：`https://.../?rcode=xxx?utm_medium=fb`（不可使用兩個問號）
 
 
 ### 步驟 2：測試推薦連結有效性

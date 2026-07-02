@@ -1,0 +1,310 @@
+---
+title: 使用黑貓宅配出貨
+description: 批次下載黑貓宅配託運單、扣除運費並將訂單貨態更新為已出貨。
+created: 2026-05-12 15:53
+last_modified: 2026-07-02 07:14
+lang: zh-TW
+type: tutorial
+status: ""
+version: ""
+author: Jase
+reviewers: []
+notes:
+  - 補 金物流 > 黑貓托運單設定 sib
+ga_views: 0
+feedback: 0
+products:
+  - EC
+modules:
+  - 訂單
+sites:
+  - TW
+audiences:
+  - admin
+difficulty: beginner
+tnb: trunk
+plans:
+  - 專業
+  - 進階
+  - 高手
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
+cyb_extensions: []
+intents:
+  - 批次下載黑貓託運單
+  - 黑貓宅配出貨
+  - 補印託運單
+features:
+  - 黑貓宅配
+  - 部分出貨
+  - 補印託運單
+  - 加印託運單
+  - CYBER_幣扣款
+prerequisites:
+  - 領取黑貓三聯空白託運單貼紙
+  - 完成黑貓設定（寄件人地址）
+related:
+  - "[[tcat-auto-call-driver-v2]]"
+  - "[[tcat-express-payment-settings]]"
+  - "[[partial-shipment-v2]]"
+  - "[[訂單出貨流程]]"
+tags:
+  - 黑貓宅配
+  - 託運單
+  - 出貨
+  - 宅急便
+  - 物流
+acoiv: operation
+apis: []
+devices:
+  - desktop
+  - mobile
+ui_components:
+  - 更多操作
+  - 下載黑貓託運單
+  - 補印託運單
+paths:
+  - 訂單 > 所有訂單
+  - 金物流 > 黑貓託運單
+  - 儲值中心
+layouts: []
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=84
+  - https://www.cyberbiz.io/support/?p=973
+permalink: https://help.cyberbiz.io/ec/orders/home-delivery/tcat-home-delivery-v2
+comments: false
+search:
+  exclude: false
+icon: lucide/cat
+hide: []
+---
+
+![訂單列表-下載黑貓托運單改為已出貨](../../../assets/images/EC-訂單列表-下載黑貓托運單-hero.png){ title="訂單列表-下載黑貓托運單改為已出貨" .hero-page }
+
+## 黑貓宅配出貨說明
+
+後台與黑貓宅急便系統整合，商家可從訂單列表批次產出黑貓宅配託運單、自動扣除運費(Cyber 幣)，並將訂單貨態同步更新為「已出貨」。本文聚焦於 **黑貓宅配(B2C 宅配到府)** 的出貨流程。
+
+!!! info "其他黑貓服務"
+    * 若顧客選擇超商取貨，請見 [使用黑貓快速到店出貨](../tcat-quick-store/tcat-quick-store-shipping.md){ title="使用黑貓快速到店出貨" }。
+    * 自動呼叫黑貓司機到府收件，請見 [自動呼叫黑貓司機取件](tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" }。
+
+## 計費與規則 { #tcat-home-pricing }
+
+### 運費扣款方式 <small>依方案</small> { #tcat-home-shipping-fee }
+
+商家方案不同，黑貓運費的扣款方式也不同：
+
+=== "一般版"
+    需先[儲值 Cyber幣](../../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="如何儲值Cyber幣" }。下載託運單時系統會即時從 Cyber 幣餘額扣除運費，餘額不足時下載會失敗。
+
+=== "PLUS版 / 企業版"
+    無須事先儲值。每筆運費將計入「對帳中心」，於每期對帳單一次結清。
+
+??? tip "如何查詢扣款明細"
+     一般版商家可至 **儲值中心 > 明細紀錄** [查詢扣款歷程](../../website-management/points-deposits.md#cyber-coin-transaction-history){ title="查詢 Cyber 幣使用明細" data-preview }；PLUS版 / 企業版 商家可至 **對帳中心** 查詢月結帳單。
+
+---
+
+### 託運單有效期 { #tcat-home-label-expiry }
+
+下載託運單後即會扣除 Cyber幣。如 **產出托運單後 14 天未實際出貨** ，系統會將該單號認列為失效並執行以下動作：
+
+- 所扣的 Cyber 幣會自動退回帳戶。
+- 訂單列表頁內，訂單的 **配送狀態** 保留在「已出貨」，不會更改。
+- 訂單詳情頁內，狀態會保留在「[已出貨(待物流收件)](shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }」。
+- 託運單單號狀態更改為「取消寄件」。
+
+## 操作步驟 { #operate-tcat-home }
+
+### 出貨前準備 { #prerequisites-tcat-home }
+
+執行黑貓宅配出貨前，請完成以下準備：
+
+- [x] **領取黑貓三聯空白託運單貼紙**：致電黑貓宅急便 (02-412-8888) 領取「三聯空白託運單貼紙」(俗稱 A4 三模託運單)。若選擇 A4
+一般列印，系統列印的內容必須印在這款貼紙上，司機才會收件。
+- [x] **黑貓寄件人地址**：至「金物流」>「[黑貓託運單](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" }」設定寄件人地址，若無設定則會導致出貨時出現「寄件人資訊不完整」的通知。
+- [x] **確認餘額或對帳狀態**：一般版商家請至 [儲值中心查看 Cyber幣餘額](../../website-management/points-deposits.md#cyber-coin-balance){ title="查詢 Cyber 幣餘額" data-preview }，確認足以支付運費；PLUS版 /
+企業版商家無此限制。
+- [x] **列印設備建議**：建議使用 **雷射印表機** 列印託運單，避免出貨條碼判讀異常。
+
+---
+
+### 批次下載黑貓宅配託運單 { #tcat-home-shipping-label-batch }
+
+以下為最常見的批次出貨流程：
+
+1. **進入訂單列表**：登入後台，前往 **訂單 > 所有訂單**。
+2. **勾選訂單**：在列表中勾選欲出貨的訂單，需確認所選訂單的配送方式皆為「黑貓宅配」。
+3. **點擊「更多操作」**：於列表上方點擊 **更多操作** ，在下拉選單中選擇 **下載黑貓託運單並將貨態改為'已出貨'**[^1]。
+
+    ![黑貓宅配下載托運單](../../../assets/images/EC-訂單-所有訂單-更多操作-黑貓宅配下載托運單.png){ title="黑貓宅配下載托運單" }
+
+4. **設定彈出視窗內欄位**：在跳出的「下載黑貓託運單」視窗中依序設定
+    * **請選擇溫層**：選擇 **常溫** 、 **低溫(冷藏)** 或 **低溫(冷凍)** 。請確保 **規格與實寄包裹一致**。
+    * **是否為易碎品**：選擇 **是** 或 **否** 。
+    * **寄件地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [黑貓設定](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" } 中的地址），如需更改可於視窗內點擊 **「更改」** 按鈕編輯[^3]。
+
+
+    * **同意條款**：勾選 **我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 黑貓合約規範** 。未勾選時下載按鈕無法點擊。
+
+    ??? quote "需要自訂黑貓寄件人姓名 / 電話？"
+         若您希望託運單上的寄件人聯絡電話與姓名不同於預設值，可至 **金物流 > 黑貓託運單** 的「[黑貓設定](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" data-preview }」區塊填寫並儲存。
+
+    !!! plan "從彈出視窗直接呼叫黑貓司機"
+        若你的店家已開通呼叫黑貓功能，視窗下方會出現「自動呼叫黑貓司機取件」區塊，可在下載託運單的同時預約司機到府收件。詳細操作請見 [如何自動呼叫黑貓司機取件](tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" }。
+
+5. **確認下載與扣費**：點擊 **確認** ，系統會自動下載[^2] [託運單 ZIP 壓縮檔](#reference-tcat-home-zip-contents) 並 [扣除運費](#tcat-home-shipping-fee)。
+
+6. **貨態自動更新**：下載完成後，所選訂單的貨態自動變更為 **已出貨**。(詳見 [確認貨態變更](#tcat-home-verify-status))
+
+    ??? warning "出貨後無法修改收貨資訊"
+        標記為「已出貨」後，後台就無法再修改收件地址或聯絡資訊。地址有誤時的處理見 [地址錯誤排除](#tcat-home-address-error)。
+
+[^1]: 若未出現選項，可能是因為訂單狀態不符或物流設定未完成。詳情參考 [常見問題：沒有下載托運單選項](#faq-tcat-home-missing-option)。 
+[^2]: 若沒有正常下載，請確認瀏覽器是否阻擋了彈跳視窗或廣告，允許本站彈跳視窗後重新點擊下載。更多疑難排解參考 [常見問題：無法下載托運單](#faq-tcat-home-download-no-response)
+[^3]: 修改後會同步更新該物流頁面地址，不同物流間及公司物流地址互不影響。
+
+---
+
+### 呼叫黑貓司機取件 { #tcat-home-call-driver-pickup }
+
+下載託運單後，需聯繫黑貓司機到貨取件:
+
+* **電話呼叫**：撥打黑貓客服專線 (02-412-8888) 安排取件。
+* **從後台直接呼叫**：若已開通 [呼叫黑貓功能](tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" }，可在下載託運單時於彈出視窗內預約司機取件。
+
+---
+
+### 確認貨態變更 { #tcat-home-verify-status }
+
+成功下載託運單後，可在兩個地方確認貨態：
+
+- **訂單列表頁**：配送狀態欄位顯示 **已出貨**
+- **訂單詳情頁**：狀態顯示為 [已出貨(待物流收件)](shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }，表示託運單已產生但黑貓尚未收件
+
+若貨態未更新，請檢查：
+
+* 是否實際完成下載(瀏覽器是否阻擋了下載對話框)
+* 是否所有勾選的訂單配送方式都符合「黑貓宅配」(例如：不小心勾選了黑貓快速到店或其他物流商的訂單)
+
+---
+
+### 地址錯誤排除 { #tcat-home-address-error }
+
+下載託運單時若出現「寄件人資訊不完整提示」，代表黑貓寄件地址未設定或不完整：
+
+1. 前往 **金物流 > 黑貓託運單**，確認「黑貓設定」區塊內的 **寄件地址** 完整填寫(含縣市、區域)，儲存後系統會自動向黑貓查詢寄件人區碼。
+2. 儲存後重新執行下載。
+
+??? info "關於地址來源的優先順序"
+    彈窗中的寄件地址預設帶入該物流上一次使用的地址（首次帶入「黑貓設定」中的地址）。修改「公司物流地址」將 **不會** 影響黑貓出貨的寄件地址，請至「金物流 > 黑貓託運單」頁面直接修改。
+
+
+## 後續操作 { #tcat-home-next-steps }
+
+<div class="grid cards" markdown>
+  
+- :lucide-package-check:{ .lg }  
+  [__部分出貨__](partial-shipment-v2.md){ title="設定訂單部分出貨" }  
+  若一筆訂單中只想先寄出部分商品，可改從訂單詳情頁勾選指定品項。
+
+<!-- - :lucide-printer:{ .lg }  
+  [__補印託運單__](../../payments-and-logistics/reprint-waybills.md){ title="補印與加印託運單" }  
+  若已下載過的託運單檔案遺失(例如貼紙印壞、檔案不見)，可在訂單列表批次補印。 -->
+
+- :lucide-copy-plus:{ .lg }  
+  [__加印託運單__](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#ezcat-shipping-note-create){ title="加印託運單" }  
+  若一筆宅配訂單因商品多需拆分為多箱寄出，每箱需各自一張託運單。
+
+- :lucide-receipt:{ .lg }  
+  [__查看對帳明細__](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#ezcat-shipping-note-records){ title="查詢紀錄與對帳" }  
+  若訂單有運費調整（如補收差額或繁盛期加收），系統會將詳細資訊記錄於「[對帳備註](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#ezcat-shipping-note-usage-records){ title="單號使用紀錄" }」中。
+
+</div>
+
+
+## 常見問題 { #faq-tcat-home }
+
+??? quote "下載沒反應 / 無法下載託運單" 
+    [](){ #faq-tcat-home-download-no-response }
+
+    通常為以下原因之一：
+
+    * **瀏覽器阻擋彈跳視窗**：請檢查瀏覽器是否阻擋了彈跳視窗或廣告，允許本站彈跳視窗後重新點擊下載。
+    * **Cyber 幣不足(一般版商家)**：請至 [儲值中心](../../website-management/points-deposits.md#cyber-coin-balance){ title="查詢 Cyber 幣餘額" data-preview } 儲值。
+    * **黑貓寄件人地址未設定**：至 金物流 > [黑貓託運單](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" } 完成設定。
+    * **未勾選同意條款**：確認彈出視窗下方「我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 黑貓合約規範」已勾選。
+
+??? quote "沒有「下載黑貓託運單」選項"
+    [](){ #faq-tcat-home-missing-option }
+
+    下拉選單會依訂單的配送方式自動篩選，可能原因:
+
+    * 訂單配送方式不是黑貓宅配(可能是黑貓快速到店、宅配通、順豐、新竹物流或其他物流)。
+    * 訂單付款狀態尚未到位(例如未付款、待轉帳)。
+    * 訂單已是「已出貨」狀態，此時應改用 **補印託運單** 而非「下載」。
+
+??? quote "託運單下載後可以修改地址嗎?"
+    [](){ #faq-tcat-home-edit-address }
+
+    不可以。已下載的託運單地址無法在系統內修改，需在託運單上 **手寫更正** ，並於交件時告知司機。
+
+??? quote "託運單下載後幾天內必須寄出?"
+    [](){ #faq-tcat-home-expiry }
+
+    產出托運單後，**14 天內** 須完成實際出貨，否則單號會被認列為失效， Cyber 幣會自動退回。
+
+??? quote "同一筆訂單可以同時用兩家物流出貨嗎?"
+    [](){ #faq-tcat-home-mixed-shipping }
+
+     不可以。一筆訂單只能搭配一種物流商。若需拆分品項出貨，請參考 [部分出貨](partial-shipment-v2.md){ title="設定訂單部分出貨" }
+     流程，或聯繫業務團隊。
+
+??? quote "補印託運單會額外扣費嗎?"
+    [](){ #faq-tcat-home-reprint-fee }
+
+     不會。補印使用原來的單號，系統不會再次扣除 Cyber 幣。若需要 **新單號** (例如同一筆訂單拆成多箱)，請使用「[加印託運單](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#ezcat-shipping-note-create){ title="加印託運單" }」，加印會依張數扣費。
+
+??? quote "我是峰潮物流商家，可以用這個流程嗎?"
+    [](){ #faq-tcat-home-honeycomb }
+
+    不能。峰潮物流商家的出貨由峰潮代為處理，訂單會自動進入峰潮倉儲，由峰潮端產生黑貓託運單。商家無需自行下載託運單，
+
+??? quote "出現「地址有誤，無法查詢區碼，請至訂單頁面修改」該如何解決?"
+    [](){ #faq-tcat-home-address-error }
+
+    異常原因為黑貓系統不支援模糊搜尋地址，訂單地址須與黑貓系統內的地址資料一致（非 Google 地圖上的地址），否則無法提供寄送及託運單列印服務。
+
+    !!! example "常見錯誤舉例"
+
+        - 錯字：如新竹縣「**峨眉鄉**」誤填為「**峨嵋鄉**」
+        - 地址不完整：缺少路名、街名或巷弄名，導致黑貓無法判讀
+
+    依出貨狀態處理方式如下：
+
+    - **尚未出貨**：可先向顧客確認正確地址，前往 **訂單 > 所有訂單** 點擊該筆訂單，於「聯絡資訊」區塊修改收貨地址後重新下載託運單。
+    - **已出貨**：無法在系統上直接修改地址。請列印出託運單，**手寫** 將地址改為正確資訊，並於交貨時告知物流司機。
+
+??? quote "如何查看對帳明細？"
+    [](){ #faq-tcat-home-view-account-details }
+
+    若訂單有運費調整（如補收差額或繁盛期加收），系統會將詳細資訊記錄於「對帳備註」中。後台路徑：金物流 > 黑貓託運單 > 單號使用紀錄（此路徑亦適用於宅配通）。
+
+## 參考資料 { #tcat-home-references }
+
+### 託運單 ZIP 內容物 { #reference-tcat-home-zip-contents }
+
+下載完成後，zip 內包含四份 PDF，分別供不同流程使用：
+
+| 檔案 | 用途 | 收件對象 |
+|---|---|---|
+| **託運單** | 黑貓收件、配送依據；以黑貓三聯空白託運單貼紙列印後黏貼於包裹表面 | 司機 |
+| **出貨明細** | 出貨包裹內附的明細單，含品項與數量 | 消費者(隨包裹) |
+| **揀貨單** | 倉庫揀貨用的清單，依品項彙整方便揀料 | 內部倉務人員 |
+| **訂單明細** | 訂單完整資訊，含金額、付款方式、消費者資料 | 內部存檔 / 客服 |
+
+
+

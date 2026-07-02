@@ -1,9 +1,8 @@
 ---
-
 title: 設定站內搜尋功能
 description: 設定站內搜尋功能，說明搜尋範圍、分詞邏輯、後台管理與 GA4 追蹤設定。
 created: 2026-04-15 10:20
-last_modified: 2026-06-08 17:15
+last_modified: 2026-06-30 11:26
 lang: zh-TW
 type: tutorial
 status: ""
@@ -25,13 +24,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 設定站內搜尋
@@ -49,7 +48,7 @@ tags:
   - 站內搜尋
   - 商品搜尋
   - 分詞搜尋
-  - GA4_追蹤
+  - GA4 追蹤
   - 排除搜尋
   - 站內搜尋追蹤
 acoiv: configure
@@ -65,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8765
   - https://www.cyberbiz.io/support/?p=23999
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/products/discoverability/setup-site-search
 comments: ""
 search:
   exclude: false
@@ -73,9 +72,7 @@ icon: lucide/search
 hide:
 ---
 
-
-
-![站內搜尋-前台](../../../assets/images/ec-商品-站內搜尋-前台.png){ .hero-page }
+![站內搜尋-前台](../../../assets/images/ec-商品-站內搜尋-前台.png){ title="站內搜尋-前台" .hero-page }
 
 ## 站內搜尋功能說明
 
@@ -85,19 +82,19 @@ CYBERBIZ 平台的前台介面中，**搜尋（放大鏡）功能** 是協助消
 
 *   **功能位置**：消費者欲搜尋商品時，可點擊前台介面上的 **放大鏡圖示** :lucide-search: 並輸入關鍵字進行查找。
 
-    ![搜尋站內商品](../../../assets/images/ec-商品-站內搜尋-前台輸入關鍵字.png)
+    ![搜尋站內商品](../../../assets/images/ec-商品-站內搜尋-前台輸入關鍵字.png){ title="搜尋站內商品" }
 
 *   **搜尋範圍**：系統預設的搜尋結果包含以下欄位：
 
     | 搜尋欄位 | 說明 | 設定位置 |
     |---|---|---|
-    | 商品名稱 | 商品的主要識別名稱 | [商品基本設定](../create-and-manage/新增單一商品.md#基本設定){ data-preview } |
-    | 商品群組名稱 | 包含自訂分類跟條件分類等商品群組的名稱。<br> （ 如商品網址 `https://xxx/collections/mygroup` 中的 `mygroup`) | [自訂分類設定](../categories-and-tags/custom-collections.md#加入與移出商品){ title="設定商品自訂分類群組" }、[條件分類設定](../categories-and-tags/設定商品條件分類群組.md#建立商品條件分類){ data-preview }。 |
+    | 商品名稱 | 商品的主要識別名稱 | [商品基本設定](../create-and-manage/create-update-products.md#operate-product-create-basic){ title="新增與更新商品" } |
+    | 商品群組名稱 | 包含自訂分類跟條件分類等商品群組的名稱。<br> （ 如商品網址 `https://xxx/collections/mygroup` 中的 `mygroup`) | [自訂分類設定](../categories-and-tags/custom-collections.md#operate-custom-collections-add-products){ title="設定商品自訂分類群組" }、[條件分類設定](../categories-and-tags/smart-collections.md#operate-smart-collections-create){ title="設定商品條件分類群組" }。 |
     | 商品廠商 | 商品的廠商名稱，會顯示於前台 | [商品編輯頁 > 設定](../create-and-manage/edit-product-description-settings.md#進階設定){ title="編輯商品描述與商品設定" } |
     | 商品類型 | 商品的類型標籤 | [商品編輯頁 > 設定](../create-and-manage/edit-product-description-settings.md#進階設定){ title="編輯商品描述與商品設定" } |
     | 商品通路 | 商品的通路標籤（預購、現貨、常溫等）| [商品編輯頁 > 設定](../create-and-manage/edit-product-description-settings.md#進階設定){ title="編輯商品描述與商品設定" } |
-    | 商品款式 | 款式名稱（如顏色 M、尺寸 XL）| [商品款式設定](../create-and-manage/新增單一商品.md#款式管理){ data-preview } |
-    | SKU | 商品的庫存管理編號 | [商品款式設定](../create-and-manage/新增單一商品.md#款式管理){ data-preview } |
+    | 商品款式 | 款式名稱（如顏色 M、尺寸 XL）| [商品款式設定](../create-and-manage/create-update-products.md#operate-product-create-variants){ title="新增與更新商品" } |
+    | SKU | 商品的庫存管理編號 | [商品款式設定](../create-and-manage/create-update-products.md#operate-product-create-variants){ title="新增與更新商品" } |
     | 商品介紹 | 商品的詳細說明文字，包含文字編輯器中原始碼的內容。 | [商品編輯頁 > 商品描述](../create-and-manage/edit-product-description-settings.md#商品描述){ title="編輯商品描述與商品設定" } |
 
 *   **搜尋邏輯與分詞**：
@@ -111,15 +108,15 @@ CYBERBIZ 平台的前台介面中，**搜尋（放大鏡）功能** 是協助消
 
 <div class="grid cards" markdown>
 
-- :lucide-toggle-left:{ .lg .middle } [__全站搜尋欄位開關__](../../website-appearance/theme-and-layout/theme-editor.md#導覽列){ data-preview }       
+- :lucide-toggle-left:{ .lg .middle } [__全站搜尋欄位開關__](../../website-appearance/navigation/setup-menus-navigation.md#搜尋欄位設定){ title="設定選單與導覽列" }       
 
-- :lucide-package-x:{ .lg .middle } [__個別商品排除搜尋__](../create-and-manage/product-management-interface.md#商品搜尋與能見度管理){ title="使用商品管理介面管理商品" }       
+- :lucide-package-x:{ .lg .middle } [__個別商品排除搜尋__](../create-and-manage/product-management-interface.md#商品搜尋與能見度管理){ title="商品管理介面總覽" }       
 
 - :lucide-code:{ .lg .middle } [__透過關鍵字排除（進階）__](exclude-keyword-products-search.md){ title="設定搜尋結果中排除特定關鍵字商品" }       
 
 </div>
 
-## 站內搜尋數據追蹤 (GA4)
+## 站內搜尋數據追蹤 <small>GA4</small>
 
 商家可以透過 **Google Analytics 4 (GA4)** 監控消費者的搜尋行為，以優化選品或 SEO：
 
@@ -127,17 +124,7 @@ CYBERBIZ 平台的前台介面中，**搜尋（放大鏡）功能** 是協助消
 
 - :lucide-toggle-left:{ .lg .middle } [__開啟站內搜尋追蹤__](../../integrations/google/ga/setup-ga4-site-search-tracking.md){ title="設定 GA4 站內搜尋追蹤" }       
 
-- :lucide-bar-chart-2:{ .lg .mid](../../integrations/google/ga/setup-ga4-site-search-tracking.md#如何查看追蹤成果)搜尋追蹤.md#如何查看追蹤成果){ title="設定 GA4 站內搜尋追蹤" }    
-
-</div>
-
-## 後續操作
-
-<div class="grid cards" markdown>
-
-- :lucide-smartphone:{ .lg }   
-  [__行動 APP 搜尋功能__]()       
-  若有使用 CYBERBIZ APP行動版應用程式，首頁亦設有搜尋欄位，讓消費者隨時查找品項。
+- :lucide-bar-chart-2:{ .lg .middle } [__查看追蹤成果__](../../integrations/google/ga/setup-ga4-site-search-tracking.md#如何查看追蹤成果){ title="設定 GA4 站內搜尋追蹤" }    
 
 </div>
 
@@ -147,8 +134,8 @@ CYBERBIZ 平台的前台介面中，**搜尋（放大鏡）功能** 是協助消
 
     可能原因包括：
 
-    - 關鍵字包含**特殊符號**（如 `@`、`#`、`$` 等），系統無法辨識，建議移除後再搜尋
-    - 商品標題使用了**分詞**（如「ER-1410」會被切分為「ER」與「1410」），搜尋時必須完全符合分詞內容
+    - 關鍵字包含 **特殊符號**（如 `@`、`#`、`$` 等），系統無法辨識，建議移除後再搜尋
+    - 商品標題使用了 **分詞**（如「ER-1410」會被切分為「ER」與「1410」），搜尋時必須完全符合分詞內容
     - 若要搜尋部分關鍵字，可改用 SKU 欄位輸入完整型號查詢
 
 ??? quote "CYBERBIZ APP 也有搜尋功能嗎？"

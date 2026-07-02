@@ -18,7 +18,7 @@ notes:
 全面掌握會員資料與互動。  
 設定會員資訊、等級與權益，追蹤行為，提升顧客忠誠度與回購率。  
 <br>
-[快速上手 :lucide-circle-arrow-right:](quickstart.md)
+
 
 ![](../../assets/images/ec-members-hero.zh-tw.png)
 
@@ -35,9 +35,8 @@ notes:
 	    ---
 	    <div class="grid" markdown>
 	    
-	    [新增單一會員](新增單一會員.md)  
-	    [批次匯入會員資料](匯入會員資料.md)  
-	    [編輯會員資訊](編輯會員資訊.md)  
+	    [大量匯入新會員](batch-import-and-edit-members.md#任務一大量匯入新會員)  
+	    [批次修改既有資料](batch-import-and-edit-members.md#任務二批次修改既有會員資料) 
 	    
 	    </div>
 	
@@ -46,18 +45,9 @@ notes:
 	    ---
 	    <div class="grid" markdown>
 	    
-	    [依條件篩選會員](篩選會員.md)  
-	    [查詢會員消費行為](查詢會員消費.md)  
-	    
-	    </div>
-	
-	-   :lucide-file-text: __資料匯出__
-	    
-	    ---
-	    <div class="grid" markdown>
-	    
-	    [匯出會員清單](匯出會員清單.md)  
-	    [匯出會員消費紀錄](匯出會員消費.md)  
+	    [查看會員數據](manage-member-profiles.md#任務一查看會員行為與資產數據)  
+	    [編輯基本資料](manage-member-profiles.md#1-編輯會員基本資料)  
+	    [代客下單](manage-member-profiles.md#任務六代客下單)  
 	    
 	    </div>
 	
@@ -72,8 +62,8 @@ notes:
 	    ---
 	    <div class="grid" markdown>
 	    
-	    [設定會員等級規則](設定會員等級.md)  
-	    [自動升級與降級規則](會員等級自動調整.md)  
+	    [設定會員等級規則](../members/vip/index.md)  
+	    [升等降等與續會規則](../members/vip/vip-upgrade-downgrade-renewal-rules.md)  
 	    
 	    </div>
 	
@@ -82,8 +72,8 @@ notes:
 	    ---
 	    <div class="grid" markdown>
 	    
-	    [設定 VIP 會員專屬價格](VIP會員優惠.md)  
-	    [會員專屬折扣群組](會員折扣群組.md)  
+	    [設定 VIP 會員專屬價格](../products/pricing/setup-vip-member-pricing.md)  
+	    [設定 VIP 會員專屬折扣優惠](../members/vip/setup-exclusive-vip-discounts.md)  
 	    
 	    </div>
 	
@@ -92,8 +82,11 @@ notes:
 	    ---
 	    <div class="grid" markdown>
 	    
-	    [會員到期提醒](會員到期提醒.md)  
-	    [會員活動通知](會員活動通知.md)  
+	    [會員優惠券、紅利到期提醒](../marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification.md)  
+	    [會員 Email 通知](../notifications/manage-email-templates.md)  
+		[會員簡訊通知](../notifications/send-sms-notifications-v2.md)
+		[會員 LINE 通知](../notifications/manage-line-oa-templates.md)
+		[發送會員 EDM](../notifications/send-edm-newsletters-v2.md) 
 	    
 	    </div>
 	
@@ -108,18 +101,17 @@ notes:
 	    ---
 	    <div class="grid" markdown>
 	    
-	    [管理會員評論](管理會員評論.md)  
-	    [啟用前台評價功能](前台會員評價.md)  
+	    [管理會員商品評論](../products/engagement/manage-product-reviews.md)  
 	    
 	    </div>
 	
-	-   :lucide-chat: __留言與訊息__
+	-   :lucide-messages-square: __留言與訊息__
 	    
 	    ---
 	    <div class="grid" markdown>
 	    
-	    [啟用會員留言區](會員留言區.md)  
-	    [會員訊息管理](會員訊息管理.md)  
+	    [會員留言客服區](../members/member-customer-service-system.md)  
+	    [會員訊息管理](../members/member-customer-service-system.md#四訊息回覆與管理)  
 	    
 	    </div>
 	
@@ -128,8 +120,7 @@ notes:
 	    ---
 	    <div class="grid" markdown>
 	    
-	    [建立會員分類群組](建立會員群組.md)  
-	    [自動分類會員群組](自動會員分群.md)  
+	    [建立會員分群](../members/member-filters-and-groups.md#使用會員分群)    
 	    
 	    </div>
 	
@@ -144,8 +135,7 @@ notes:
 	    ---
 	    <div class="grid" markdown>
 	    
-	    [設定管理員查看會員權限](管理員會員權限.md)  
-	    [控制前台會員可見資訊](前台會員權限.md)  
+	    [設定管理員查看會員權限](../website-management/add-admin-set-permissions.md)  
 	    
 	    </div>
 	
@@ -154,8 +144,8 @@ notes:
 	    ---
 	    <div class="grid" markdown>
 	    
-	    [啟用會員登入驗證](會員登入驗證.md)  
-	    [設定會員密碼規則](會員密碼規則.md)  
+	    [啟用會員登入驗證](../website-management/setup-customer-email-phone-verification.md)  
+	    [設定會員密碼規則](../website-management/security-settings.md#operate-security-website-password)  
 	    
 	    </div>
 	

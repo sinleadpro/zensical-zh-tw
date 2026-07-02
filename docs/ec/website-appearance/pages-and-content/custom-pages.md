@@ -2,7 +2,7 @@
 title: "設定與管理自訂頁面"
 description: "建立、設定與管理自訂頁面，包含基本設定、區塊設計與前台顯示方式。"
 created: "2025-03-03 15:30"
-last_modified: 2026-06-24 16:55
+last_modified: 2026-07-01 19:48
 lang: "zh-TW"
 type: "tutorial"
 status: ""
@@ -23,13 +23,13 @@ audiences:
 difficulty: beingger
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 建立自訂頁面
@@ -60,7 +60,8 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12570
   - https://www.cyberbiz.io/support/?p=40485
-permalink: ""
+  - https://www.cyberbiz.io/support/?p=5649
+permalink: https://help.cyberbiz.io/ec/website-appearance/pages-and-content/custom-pages
 comments: ""
 search:
   exclude: ""
@@ -223,7 +224,7 @@ hide:
   了解新版拖拉式頁面各區塊的詳細設定與應用範例。
 
 - :lucide-globe:{ .lg }  
-  [__多國語言設定__](../../website-management/setup-multi-language-and-multi-currency.md) 
+  [__多國語言設定__](../../website-management/setup-multi-language-and-multi-currency.md)     
   開通多國語系後，可為自訂頁面填寫各語言的對應內容。
 
 - :lucide-square-code:{ .lg }  
@@ -282,7 +283,6 @@ hide:
     [](){ #faq-custom-pages-image-optimize }
 
     - **解析度**：請確保圖片寬度符合區塊需求。
-
     - **檔案大小**：單張圖片建議控制在 **500KB 以內**。您可以使用 TinyPNG 等工具壓縮後再上傳，以確保消費者開啟網頁的速度。
 
 ---

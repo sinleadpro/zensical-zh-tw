@@ -2,7 +2,7 @@
 title: 一頁式商店
 description: 一頁式商店將商品資訊、特色介紹與結帳流程整合於單一網頁，大幅減少頁面切換造成的流失，是提升廣告轉換率與行動購物體驗的高效工具。
 created: 2026-02-11 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 10:56
 lang: zh-TW
 type: tutorial
 status: ""
@@ -25,9 +25,6 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -245,7 +242,7 @@ hide: []
 
         - 插入圖片：上傳商品圖或行銷海報。
         - 插入影片：貼入影片 YouTube 連結。
-        - 插入文字編輯：運用[文字編輯器](../../website-appearance/code-customization/edit-content-text-editor.md)撰寫商品描述、規格說明或品牌故事。
+        - 插入文字編輯：運用[文字編輯器](../../website-appearance/code-customization/text-editor.md)撰寫商品描述、規格說明或品牌故事。
         - 插入前往購買按鈕：自定義按鈕名稱（如：立即搶購、查看詳情），引導消費者快速轉換。
     3. **調整配置順序**：利用滑鼠拖曳左側的 :lucide-move: 圖示，即可調整各區塊的先後排序。
 
@@ -360,7 +357,7 @@ event.stopPropagation(); }
   學習如何熟練使用編輯器中的各項設計元件。
 
 - :lucide-users:{ .lg }     
-  [__設定註冊人分潤__](../../profit-sharing/registrant-profit-sharing.md)  
+  [__設定推薦人分潤__](../../profit-sharing/referrer-profit-sharing.md)  
   了解如何搭配一頁式商店與分潤系統擴大銷售網絡。
 
 </div>

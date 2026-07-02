@@ -2,7 +2,7 @@
 title: 使用 Meta 廣告成效分析
 description: 透過 Meta Ads App 掌握廣告成效數據，分析指標，並使用 AI Insights 獲取數據洞察與優化建議。
 created: 2026-04-21 11:29
-last_modified: 2026-06-26 10:05
+last_modified: 2026-07-02 13:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -78,12 +78,12 @@ hide: []
 
 「**Meta 廣告成效分析**」是專為 CYBERBIZ 商家設計的分析工具，旨在協助商家精準掌握 Meta 廣告（如 Facebook、Instagram）的投放成效，評估哪些商品值得加碼推廣，並判斷廣告策略是否具備效益。
 
-## 前提條件
+## 使用條件與限制
 
 在開始分析成效前，請確保您已完成以下準備工作，以確保數據能正確回傳與顯示：
 
-- [x] **完成廣告投放設定**：本功能需在廣告活動正式啟動後方可產生數據。若您尚未建立廣告，請先參閱 [**設定 Meta 廣告活動**](setup-meta-ad-campaign.md){ title="設定 Meta 廣告活動" }。
-- [x] **確保資產正確連結**：確認已透過 [**Facebook 商業擴充套件 (FBE)**](../mbe/setup-fbe-authorization.md){ title="設定 FBE 帳號授權與資產連結" } 完成授權，並正確埋設 Meta Pixel 與轉換 API (CAPI)。
+- [x] **完成廣告投放設定**：本功能需在廣告活動正式啟動後方可產生數據。若您尚未建立廣告，請先參閱 [設定 Meta 廣告活動](setup-meta-ad-campaign.md){ title="設定 Meta 廣告活動" }。
+- [x] **確保資產正確連結**：確認已透過 [Facebook 商業擴充套件 (FBE)](../mbe/setup-fbe-authorization.md){ title="設定 FBE 帳號授權與資產連結" } 完成授權，並正確埋設 Meta Pixel 與轉換 API (CAPI)。
 - [x] **確認帳戶餘額**：廣告帳戶需有足夠餘額或有效的支付方式，否則成效數據將顯示為「異常」或停止更新。
 
 ## 掌握整體成效 <small>總覽指標</small>

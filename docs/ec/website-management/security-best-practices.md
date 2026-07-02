@@ -2,7 +2,7 @@
 title: 資安防護總覽與最佳實務
 description: 概述各項安全措施、後台設定路徑及資安事件應變指南，全面保障您的網站與顧客個資。
 created: 2026-06-09 17:07
-last_modified: 2026-06-26 13:21
+last_modified: 2026-06-30 08:02
 lang: zh-TW
 type: guide
 status: ""
@@ -23,13 +23,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 盤點網站安全防護項目
@@ -71,7 +71,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3549
   - https://www.cyberbiz.io/support/?p=14216
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-management/security-best-practices
 comments: false
 search:
   exclude: false

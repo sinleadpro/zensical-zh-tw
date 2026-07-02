@@ -2,7 +2,7 @@
 title: Excel 大量匯入商品
 description: 使用 Excel 範本一次新增或更新大量商品、批次上架多筆商品。
 created: 2026-01-08 00:00
-last_modified: 2026-03-08 23:50
+last_modified: 2026-06-30 11:26
 lang: zh-TW
 type: tutorial
 status:
@@ -25,11 +25,15 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
+feature_badges: []
 intents:
   - 如何使用 Excel 大量匯入商品
   - 批次上架商品
@@ -58,20 +62,20 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=924
   - https://www.cyberbiz.io/support/?p=1960
   - https://www.cyberbiz.io/support/?p=33323
-permalink:
+  - https://www.cyberbiz.io/support/?p=6603
+permalink: https://help.cyberbiz.io/ec/products/bulk-operations/excel-import-products
 comments: false
 search:
   exclude: false
-icon:
+icon: lucide/file-spreadsheet
 hide: []
 ---
 
-# Excel 大量匯入商品
+![Excel 大量匯入商品](../../../assets/images/ec-import-products-from-excel.zh-tw.png){ title="Excel 大量匯入商品：商品 > Excel 大量匯入商品" .hero-page }
 
-使用 Excel 範本一次新增或更新大量商品、批次上架多筆商品。
-{ .subtitle }
+## Excel 匯入商品說明
 
-![](../../assets/images/ec-import-products-from-excel.zh-tw.png){ title="Excel 大量匯入商品：商品 > Excel 大量匯入商品" .hero-page }
+使用 Excel 範本可一次新增或更新大量商品，適合批次上架或批次調整商品資訊。匯入前請留意以下功能限制與圖床連結注意事項。
 
 !!! info "北美站功能限制"
 	- 北美站系統會以英文為系統預設的編輯語言，目前大量匯入商品僅能批次上傳、更新商品的英文頁面。
@@ -79,23 +83,25 @@ hide: []
 	
 ### 圖床連結使用
 		
-透過 *圖床* 連結快速建立圖片時，請注意以下資訊：
+透過 **圖床** 連結快速建立圖片時，請注意以下資訊：
 
 - 圖片格式：僅支援 `jpg`, `jpeg`, `png`, `gif`, `webp` 等格式，且圖片大小最大不得超過 10 MB。
 - 圖床權限：請務必將圖床權限設定為公開，才能成功上傳。
 - 中文名稱：目前不支援中文名稱的圖床，建議先將圖片名稱轉為 UTF 格式再貼到 Excel 上傳。
 - 匯入失敗：若上傳過程中因圖片大小或格式不符導致匯入失敗，整個匯入作業將停止。已上傳成功的圖片不會消失，但失敗後的圖片需另行上傳。
 - 服務平台：可使用第三方圖床服務（例如：Imgur）進行圖片上傳。  
-> :lucide-info: 請依實際需求評估並選擇圖床服務，CYBERBIZ 不提供第三方圖床之設定、操作或技術支援。
 
-## 下載 Excel 範本或匯出商品
+!!! info "請依實際需求評估並選擇圖床服務，CYBERBIZ 不提供第三方圖床之設定、操作或技術支援。"
+
+## 操作步驟
+### 下載 Excel 範本或匯出商品
 
 === "新增大量商品"
 
 	1. 登入 CYBERBIZ 管理後台，前往 **商品 > Excel 大量匯入商品**。
 	2. 點擊 **進階大量建立商品範本.xlsx** 下載範本。
 
-	![](../../assets/images/ec-advance-mass-import.zh-tw.png)
+	![下載大量建立範本](../../../assets/images/ec-advance-mass-import.zh-tw.png){ title="下載大量建立範本" }
 
 === "更新大量商品"
 
@@ -103,9 +109,11 @@ hide: []
 	2. 選取所有欲更新的商品。
 	3. 點擊 **Select**，選擇 **匯出商品**。
 
-	![](../../assets/images/ec-export-product.zh-tw.png)
+	![匯出商品操作](../../../assets/images/ec-export-product.zh-tw.png){ title="匯出商品操作" }
 
-## 判斷 Excel 上傳商品是新增還是更新
+---
+
+### 判斷 Excel 上傳商品是新增還是更新 { #determine-add-or-update }
 
 商品 Excel 檔案中的 A (`商品 id`)、B (`商品款式 id`) 欄位預設為隱藏。系統會根據這兩個欄位是否帶有系統數值，在上傳 Excel 檔案後判斷為新增商品或更新既有商品。
 
@@ -113,15 +121,17 @@ hide: []
 
 	下載的 Excel 範本，其 A、B 欄位為空值。上傳後將視為新增商品。
 
-	![](../../assets/images/ec-product-excel-empty-inventory.zh-tw.png)
+	![新增商品空值欄位](../../../assets/images/ec-product-excel-empty-inventory.zh-tw.png){ title="新增商品空值欄位" }
 
 === "更新大量商品"
 
 	匯出的商品 Excel 表格，其 A、B 欄位會帶有系統數值。上傳後將視為更新既有商品。
 
-	![](../../assets/images/ec-product-excel-existing-inventory.zh-tw.png)
+	![更新商品數值欄位](../../../assets/images/ec-product-excel-existing-inventory.zh-tw.png){ title="更新商品數值欄位" }
 
-## 填寫商品 Excel 欄位
+---
+
+### 填寫商品 Excel 欄位
 
 請依據 Excel 範本中的欄位及說明，填寫對應的商品資訊。以下為必填項目：
 
@@ -141,7 +151,9 @@ hide: []
 	- 請勿使用粗體，會導致上傳格式錯誤。  
 	- 部分欄位支援性質不同，例如：限第一次上傳、可重複多次上傳、單一欄位、可逗號複選欄位、支援 HTML 等。
 
-## 匯入 Excel 檔案
+---
+
+### 匯入 Excel 檔案
 
 1. 在 CYBERBIZ 管理後台，前往 **商品 > Excel 大量匯入商品**。
 2. 點擊 **選擇檔案**，選擇編輯完的商品 Excel 檔。
@@ -159,5 +171,5 @@ hide: []
 ??? quote "為什麼我上傳 Excel 後，商品沒有成功新增或更新？"
     - 請檢查 Excel 檔案中是否有使用粗體字或商品名稱包含特殊符號。
     - 確認圖片連結是否符合格式與大小限制，且圖床權限已公開。
-    - 檢查 A、B 欄位，是否正確[區分新增或更新商品](#區分新增與更新商品)。
+    - 檢查 A、B 欄位，是否正確[判斷 Excel 上傳商品是新增還是更新](#determine-add-or-update)。
     - 系統匯入需要時間，請耐心等候完成信件通知，避免重複上傳。

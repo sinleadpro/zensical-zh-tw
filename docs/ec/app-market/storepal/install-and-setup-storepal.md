@@ -2,7 +2,7 @@
 title: 門市助理安裝與導入
 description: 了解門市助理（Store Assistant）的安裝流程與前置設定，包含 LINE 認證、會員註冊規範及門市資料準備，協助商家順利完成 OMO 整合。
 created: 2026-06-18 16:00
-last_modified: 2026-06-18 16:00
+last_modified: 2026-07-01 12:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -87,7 +87,7 @@ hide: []
 - **申請方式**：若您尚未購買門市助理服務，請聯繫您的 CYBERBIZ 客服顧問或填寫[申請表單](https://docs.google.com/forms/d/e/1FAIpQLScAzqU3OckpsS-XBy3yvioKksDBazronFTuEl_RBonxCATHaQ/viewform)。
 - **系統限制**：門市助理僅支援 **新版 VIP 制度**，舊版 VIP 商家不適用。
 - **LINE 認證建議**：強烈建議申請 **LINE Certified Provider**。具備此認證後，顧客掃碼可直接觸發 LIFF 網址，大幅簡化註冊與綁定流程。
-- **費用提醒**：啟用手機驗證功能將產生簡訊發送費用（每封 NT$ 1 元）。
+- **簡訊提醒**：啟用手機驗證功能將發送簡訊。
 
 
 

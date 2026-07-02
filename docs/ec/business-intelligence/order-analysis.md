@@ -2,7 +2,7 @@
 title: 訂單分析
 description: 使用訂單分析頁面查看銷售趨勢、金物流偏好與業績報表
 created: 2026-06-15
-last_modified: 2026-06-24 09:36
+last_modified: 2026-06-30 21:21
 lang: zh-TW
 type: tutorial
 status: ""
@@ -64,10 +64,10 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5043
-  - https://www.cyberbiz.io/support/?p=9602
   - https://www.cyberbiz.io/support/?p=8473
   - https://www.cyberbiz.io/support/?p=8714
-permalink: "https://help.cyberbiz.io/ec/business-intelligence/order-analysis/"
+  - https://www.cyberbiz.io/support/?p=9602
+permalink: https://help.cyberbiz.io/ec/business-intelligence/order-analysis
 comments: false
 search:
   exclude: false
@@ -75,7 +75,7 @@ icon: lucide/shopping-cart
 hide:
 ---
 
-![訂單分析頁](../../../assets/images/ec-bi-order-hero.png){ .hero-page }
+![訂單分析頁](../../assets/images/ec-bi-order-hero.png){ title="訂單分析頁" .hero-page }
 
 ## 訂單分析說明 { #intro-order-analysis }
 
@@ -151,10 +151,10 @@ hide:
     | 退貨率（月趨勢） | 各月各來源的退貨率。 | [前往](#第三方導購退貨率月趨勢) |
     | 退貨率（區間） | 區間各來源的退貨率。 | [前往](#第三方導購退貨率區間) |
 
-各圖表的詳細定義，請見 [訂單金物流分析圖表對照](references/order-analysis-finance-logistics-reference.md#reference-order-analysis-finance-logistics){ data-preview }。
+各圖表的詳細定義，請見 [訂單金物流分析圖表對照](references/order-analysis-finance-logistics-reference.md#reference-order-analysis-finance-logistics){ title="訂單金物流分析圖表對照" }。
 
 !!! note "母數差異"
-    付款方式的占比以 **總訂單數** 為母數；出貨方式、第三方導購的占比與平均客單價以 [認列訂單][prerequisites-order-analysis-recognized-order]{ data-preview } 為母數。各維度退貨率分母一律為「非取消訂單」。
+    付款方式的占比以 **總訂單數** 為母數；出貨方式、第三方導購的占比與平均客單價以 [認列訂單](#prerequisites-order-analysis-recognized-order){ title="認列訂單定義" } 為母數。各維度退貨率分母一律為「非取消訂單」。
 
 <!---->
 <!-- ### 訂單總體分析的圖表 { #overview-order-analysis-overall } -->
@@ -194,7 +194,7 @@ hide:
 | 時間別業績狀況 | 各時段的業績表現。 |
 | 每日業績狀況 | 每日的業績表現。 |
 
-各表的欄位意義請見 [訂單報表欄位對照](references/order-analysis-report-fields-reference.md)。
+各表的欄位意義請見 [訂單報表欄位對照](references/order-analysis-report-fields-reference.md){ title="訂單報表欄位對照" }。
 
 ## 使用前提與限制 { #prerequisites-order-analysis }
 
@@ -254,10 +254,10 @@ hide:
 2. 點選 **「訂單金物流分析」**，查看付款方式、出貨方式與第三方導購的表現。
 3. 點選 **「訂單報表」**，查看並下載業績明細表。
 
-![切換分析分頁](../../../assets/images/ec-bi-order-switch-tab.zh-tw.png)
+![切換分析分頁](../../assets/images/ec-bi-order-switch-tab.zh-tw.png){ title="切換分析分頁" }
 
 !!! info "提示"
-    若您只看得到「訂單總體分析」一個分頁，屬於方案差異，請見 [方案差異](#prerequisites-order-analysis-plan){ data-preview }。
+    若您只看得到「訂單總體分析」一個分頁，屬於方案差異，請見 [方案差異](#prerequisites-order-analysis-plan){ title="方案差異" }。
 
 ---
 
@@ -269,7 +269,7 @@ hide:
 2. 選擇預設區間(最近 7 日、最近 30 日、這個月、上個月)或選「自訂」自行框選起訖日期。
 3. 點選 **「套用」**，該圖表即依新的區間重新整理。
 
-![調整日期區間](../../../assets/images/ec-bi-order-date-range.zh-tw.png)
+![調整日期區間](../../assets/images/ec-bi-order-date-range.zh-tw.png){ title="調整日期區間" }
 
 !!! note "註釋"
     日期格式為 MM/DD/YYYY。每張圖表是獨立調整的，調整其中一張不會影響其他圖表。
@@ -286,19 +286,19 @@ hide:
 
 === "日期區間對比"
 
-    ![日期區間對比](../../../assets/images/ec-bi-order-report-compare.zh-tw.png)
+    ![日期區間對比](../../assets/images/ec-bi-order-report-compare.zh-tw.png){ title="日期區間對比" }
 
     欄位說明請見 [訂單報表欄位對照](references/order-analysis-report-fields-reference.md#reference-order-analysis-report-compare){ data-preview }。
 
 === "時間別業績狀況"
 
-    ![時間別業績狀況](../../../assets/images/ec-bi-order-report-by-time.zh-tw.png)
+    ![時間別業績狀況](../../assets/images/ec-bi-order-report-by-time.zh-tw.png){ title="時間別業績狀況" }
 
     欄位說明請見 [訂單報表欄位對照](references/order-analysis-report-fields-reference.md#reference-order-analysis-report-by-time){ data-preview }。
 
 === "每日業績狀況"
 
-    ![每日業績狀況](../../../assets/images/ec-bi-order-report-daily.zh-tw.png)
+    ![每日業績狀況](../../assets/images/ec-bi-order-report-daily.zh-tw.png){ title="每日業績狀況" }
 
     欄位說明請見 [訂單報表欄位對照](references/order-analysis-report-fields-reference.md#reference-order-analysis-report-daily){ data-preview }。
 
@@ -309,7 +309,7 @@ hide:
 
 ## 看懂訂單總體分析 { #read-order-analysis-overall }
 
-??? plan "企業版專用"
+!!! plan "企業版專用"
     本章節的圖表僅適用於 **企業版** 方案。
 
 「訂單總體分析」以數據卡與多張趨勢、占比圖呈現全店訂單的整體健康度。各圖表的完整定義與計算公式請見 [訂單總體分析指標對照](references/order-analysis-overview-metrics-reference.md#reference-order-analysis-overview-metrics){ data-preview }。
@@ -320,25 +320,25 @@ hide:
 
     網站開店以來累計的認列訂單總數。
 
-    ![總訂單數](../../../assets/images/ec-bi-order-total-orders.zh-tw.png)
+    ![總訂單數](../../assets/images/ec-bi-order-total-orders.zh-tw.png){ title="總訂單數" }
 
 === "近 30 日訂單數"
 
     當下日期往前推 30 天的訂單數；卡片上的 **變動值**[^1] 比較過去 30 日與開站以來長期平均，正值代表成長。
 
-    ![近 30 日訂單數](../../../assets/images/ec-bi-order-30d-orders.zh-tw.png)
+    ![近 30 日訂單數](../../assets/images/ec-bi-order-30d-orders.zh-tw.png){ title="近 30 日訂單數" }
 
 === "訂單數月趨勢"
 
     時間區間內每月的訂單數量（依訂單成立時間）。預設顯示當日往前推算 6 個月。
 
-    ![訂單數月趨勢](../../../assets/images/ec-bi-order-monthly-orders.zh-tw.png)
+    ![訂單數月趨勢](../../assets/images/ec-bi-order-monthly-orders.zh-tw.png){ title="訂單數月趨勢" }
 
 === "每日平均訂單數量（月趨勢）"
 
     各月的每日平均訂單數（當月總訂單數 ÷ 當月天數），另含 **近 30 日日均訂單數**[^6] 與 **變動值**[^2]。
 
-    ![每日平均訂單數量（月趨勢）](../../../assets/images/ec-bi-order-daily-avg-orders.zh-tw.png)
+    ![每日平均訂單數量（月趨勢）](../../assets/images/ec-bi-order-daily-avg-orders.zh-tw.png){ title="每日平均訂單數量（月趨勢）" }
 
 ---
 
@@ -348,31 +348,31 @@ hide:
 
     各月依訂單金額級距分組的訂單筆數。例：2020 年 2 月，金額 0~1000 元的訂單有 3 筆。
 
-    ![單筆訂單金額月趨勢](../../../assets/images/ec-bi-order-amount-monthly.zh-tw.png)
+    ![單筆訂單金額月趨勢](../../assets/images/ec-bi-order-amount-monthly.zh-tw.png){ title="單筆訂單金額月趨勢" }
 
 === "單筆訂單金額月趨勢 比例"
 
     所選月份各金額級距的訂單占比。例：2020 年 5 月，金額 3001~5000 元佔當月 32.1%。
 
-    ![單筆訂單金額月趨勢 比例](../../../assets/images/ec-bi-order-amount-monthly-ratio.zh-tw.png)
+    ![單筆訂單金額月趨勢 比例](../../assets/images/ec-bi-order-amount-monthly-ratio.zh-tw.png){ title="單筆訂單金額月趨勢 比例" }
 
 === "單筆訂單金額（占比）"
 
     時間區間內各金額級距占總訂單數的比例（不分月）。
 
-    ![單筆訂單金額（占比）](../../../assets/images/ec-bi-order-amount-ratio.zh-tw.png)
+    ![單筆訂單金額（占比）](../../assets/images/ec-bi-order-amount-ratio.zh-tw.png){ title="單筆訂單金額（占比）" }
 
 === "單筆訂單商品數（占比）"
 
     各商品數量級距的訂單占比。商品數量 **含加價購及滿額贈**。
 
-    ![單筆訂單商品數（占比）](../../../assets/images/ec-bi-order-item-count-ratio.zh-tw.png)
+    ![單筆訂單商品數（占比）](../../assets/images/ec-bi-order-item-count-ratio.zh-tw.png){ title="單筆訂單商品數（占比）" }
 
 === "每日平均訂單金額（月趨勢）"
 
     各月的每日平均訂單金額，另含 **近 30 日平均訂單金額**[^7] 與 **變動值**[^3]。
 
-    ![每日平均訂單金額（月趨勢）](../../../assets/images/ec-bi-order-daily-avg-amount.zh-tw.png)
+    ![每日平均訂單金額（月趨勢）](../../assets/images/ec-bi-order-daily-avg-amount.zh-tw.png){ title="每日平均訂單金額（月趨勢）" }
 
 ---
 
@@ -382,13 +382,13 @@ hide:
 
     各月的訂單取消率（當月已取消訂單 ÷ 當月所有訂單），另含 **近 30 日取消率**[^8] 與 **變動值**[^4]。
 
-    ![訂單取消率月趨勢](../../../assets/images/ec-bi-order-cancel-rate.zh-tw.png)
+    ![訂單取消率月趨勢](../../assets/images/ec-bi-order-cancel-rate.zh-tw.png){ title="訂單取消率月趨勢" }
 
 === "訂單退貨率月趨勢"
 
     各月的訂單退貨率（當月已退貨訂單 ÷ 非「已取消」訂單；已取消無法出貨故排除），另含 **近 30 日退貨率**[^9] 與 **變動值**[^5]。
 
-    ![訂單退貨率月趨勢](../../../assets/images/ec-bi-order-return-rate.zh-tw.png)
+    ![訂單退貨率月趨勢](../../assets/images/ec-bi-order-return-rate.zh-tw.png){ title="訂單退貨率月趨勢" }
 
 [^1]: 近 30 日數值 − 開站以來長期平均數值
 [^2]: 過去 30 天平均訂單數 − 開站以來訂單平均數
@@ -404,10 +404,10 @@ hide:
 
 ## 看懂訂單金物流分析 { #read-order-analysis-finance-logistics }
 
-??? plan "企業版專用"
+!!! plan "企業版專用"
     本章節的圖表僅適用於 **企業版** 方案。
 
-「訂單金物流分析」把訂單依 **付款方式、出貨方式、第三方導購** 三個維度拆解，從訂單數、占比、平均客單價、退貨率等角度觀察。各圖表的完整計算公式請見 [訂單金物流分析圖表對照](references/order-analysis-finance-logistics-reference.md#reference-order-analysis-finance-logistics){ data-preview }。
+「訂單金物流分析」把訂單依 **付款方式、出貨方式、第三方導購** 三個維度拆解，從訂單數、占比、平均客單價、退貨率等角度觀察。各圖表的完整計算公式請見 [訂單金物流分析圖表對照](references/order-analysis-finance-logistics-reference.md#reference-order-analysis-finance-logistics){ title="訂單金物流分析圖表對照" }。
 
 ### 付款方式 { #read-order-analysis-read-payment }
 
@@ -415,43 +415,43 @@ hide:
 
     各月各付款方式的訂單數。
 
-    ![付款方式訂單數月趨勢](../../../assets/images/ec-bi-order-payment-count-trend.zh-tw.png)
+    ![付款方式訂單數月趨勢](../../assets/images/ec-bi-order-payment-count-trend.zh-tw.png){ title="付款方式訂單數月趨勢" }
 
 === "占比（月趨勢）"
 
     各月各付款方式的訂單占比。例：2020 年 4 月，信用卡 468 筆，佔當月 47.3%。
 
-    ![付款方式占比月趨勢](../../../assets/images/ec-bi-order-payment-ratio-trend.zh-tw.png)
+    ![付款方式占比月趨勢](../../assets/images/ec-bi-order-payment-ratio-trend.zh-tw.png){ title="付款方式占比月趨勢" }
 
 === "占比（區間）"
 
     時間區間內各付款方式的訂單占比。例：信用卡 3427 筆，佔 47%。
 
-    ![付款方式占比](../../../assets/images/ec-bi-order-payment-ratio.zh-tw.png)
+    ![付款方式占比](../../assets/images/ec-bi-order-payment-ratio.zh-tw.png){ title="付款方式占比" }
 
 === "平均訂單金額（月趨勢）"
 
     各月各付款方式的平均訂單金額（該付款方式訂單總金額 ÷ 該付款方式訂單數）。
 
-    ![付款方式平均金額月趨勢](../../../assets/images/ec-bi-order-payment-aov-trend.zh-tw.png)
+    ![付款方式平均金額月趨勢](../../assets/images/ec-bi-order-payment-aov-trend.zh-tw.png){ title="付款方式平均金額月趨勢" }
 
 === "平均訂單金額（區間）"
 
     時間區間內各付款方式的平均訂單金額。
 
-    ![付款方式平均金額](../../../assets/images/ec-bi-order-payment-aov.zh-tw.png)
+    ![付款方式平均金額](../../assets/images/ec-bi-order-payment-aov.zh-tw.png){ title="付款方式平均金額" }
 
 === "退貨率（月趨勢）"
 
     各月各付款方式的退貨率（該付款方式已退貨訂單 ÷ 該付款方式非取消訂單）。
 
-    ![付款方式退貨率月趨勢](../../../assets/images/ec-bi-order-payment-return-trend.zh-tw.png)
+    ![付款方式退貨率月趨勢](../../assets/images/ec-bi-order-payment-return-trend.zh-tw.png){ title="付款方式退貨率月趨勢" }
 
 === "退貨率（區間）"
 
     時間區間內各付款方式的退貨率。
 
-    ![付款方式退貨率](../../../assets/images/ec-bi-order-payment-return.zh-tw.png)
+    ![付款方式退貨率](../../assets/images/ec-bi-order-payment-return.zh-tw.png){ title="付款方式退貨率" }
 
 ### 出貨方式 { #read-order-analysis-read-shipping }
 
@@ -459,92 +459,92 @@ hide:
 
     各月各出貨方式的訂單數。例：2020 年 5 月，黑貓 751 筆。
 
-    ![出貨方式訂單數月趨勢](../../../assets/images/ec-bi-order-shipping-count-trend.zh-tw.png)
+    ![出貨方式訂單數月趨勢](../../assets/images/ec-bi-order-shipping-count-trend.zh-tw.png){ title="出貨方式訂單數月趨勢" }
 
 === "占比（月趨勢）"
 
     各月各出貨方式的認列訂單占當月所有認列訂單的比率。例：2020 年 5 月，黑貓佔 62.6%。
 
-    ![出貨方式占比月趨勢](../../../assets/images/ec-bi-order-shipping-ratio-trend.zh-tw.png)
+    ![出貨方式占比月趨勢](../../assets/images/ec-bi-order-shipping-ratio-trend.zh-tw.png){ title="出貨方式占比月趨勢" }
 
 === "占比（區間）"
 
     時間區間內各出貨方式的認列訂單比率。例：黑貓 4845 筆，佔 62%。
 
-    ![出貨方式占比](../../../assets/images/ec-bi-order-shipping-ratio.zh-tw.png)
+    ![出貨方式占比](../../assets/images/ec-bi-order-shipping-ratio.zh-tw.png){ title="出貨方式占比" }
 
 === "平均客單價（月趨勢）"
 
     各月各出貨方式的平均訂單金額（以該出貨方式的認列訂單計）。例：黑貓 3575.96 元。
 
-    ![出貨方式平均客單價月趨勢](../../../assets/images/ec-bi-order-shipping-aov-trend.zh-tw.png)
+    ![出貨方式平均客單價月趨勢](../../assets/images/ec-bi-order-shipping-aov-trend.zh-tw.png){ title="出貨方式平均客單價月趨勢" }
 
 === "平均客單價（區間）"
 
     時間區間內各出貨方式的平均訂單金額。例：黑貓 3799.98 元。
 
-    ![出貨方式平均客單價](../../../assets/images/ec-bi-order-shipping-aov.zh-tw.png)
+    ![出貨方式平均客單價](../../assets/images/ec-bi-order-shipping-aov.zh-tw.png){ title="出貨方式平均客單價" }
 
 === "退貨率（月趨勢）"
 
     各月各出貨方式的退貨率（該出貨方式已退貨訂單 ÷ 該出貨方式非取消訂單）。
 
-    ![出貨方式退貨率月趨勢](../../../assets/images/ec-bi-order-shipping-return-trend.zh-tw.png)
+    ![出貨方式退貨率月趨勢](../../assets/images/ec-bi-order-shipping-return-trend.zh-tw.png){ title="出貨方式退貨率月趨勢" }
 
 === "退貨率（區間）"
 
     時間區間內各出貨方式的退貨率。
 
-    ![出貨方式退貨率](../../../assets/images/ec-bi-order-shipping-return.zh-tw.png)
+    ![出貨方式退貨率](../../assets/images/ec-bi-order-shipping-return.zh-tw.png){ title="出貨方式退貨率" }
 
 ---
 
 ### 第三方導購 { #read-order-analysis-read-third-party }
 
 !!! info "顯示條件"
-    此組圖表需已串接導購平台才會出現，並依實際串接的平台呈現各來源，詳見 [第三方導購圖表的顯示條件](#prerequisites-order-analysis-third-party){ data-preview }。
+    此組圖表需已串接導購平台才會出現，並依實際串接的平台呈現各來源，詳見 [第三方導購圖表的顯示條件](#prerequisites-order-analysis-third-party){ title="第三方導購圖表的顯示條件" }。
 
 === "訂單數（月趨勢）"
 
     各月各訂單來源的訂單數。例：2020 年 4 月，LINE 購物 90 筆。
 
-    ![第三方導購訂單數月趨勢](../../../assets/images/ec-bi-order-referral-count-trend.zh-tw.png)
+    ![第三方導購訂單數月趨勢](../../assets/images/ec-bi-order-referral-count-trend.zh-tw.png){ title="第三方導購訂單數月趨勢" }
 
 === "占比（區間）"
 
     時間區間內各來源的認列訂單占所有認列訂單的比例。
 
-    ![第三方導購占比](../../../assets/images/ec-bi-order-referral-ratio.zh-tw.png)
+    ![第三方導購占比](../../assets/images/ec-bi-order-referral-ratio.zh-tw.png){ title="第三方導購占比" }
 
 === "平均客單價（月趨勢）"
 
     各月各來源的平均訂單金額（該來源認列訂單總金額 ÷ 該來源認列訂單數）。例：2020 年 5 月，LINE 購物 3312.93 元。
 
-    ![第三方導購平均客單價月趨勢](../../../assets/images/ec-bi-order-referral-aov-trend.zh-tw.png)
+    ![第三方導購平均客單價月趨勢](../../assets/images/ec-bi-order-referral-aov-trend.zh-tw.png){ title="第三方導購平均客單價月趨勢" }
 
 === "平均客單價（區間）"
 
     時間區間內各來源的平均訂單金額。例：LINE 購物 3222.52 元。
 
-    ![第三方導購平均客單價](../../../assets/images/ec-bi-order-referral-aov.zh-tw.png)
+    ![第三方導購平均客單價](../../assets/images/ec-bi-order-referral-aov.zh-tw.png){ title="第三方導購平均客單價" }
 
 === "退貨率（月趨勢）"
 
     各月各來源的退貨率（該來源已退貨訂單 ÷ 該來源非取消訂單）。
 
-    ![第三方導購退貨率月趨勢](../../../assets/images/ec-bi-order-referral-return-trend.zh-tw.png)
+    ![第三方導購退貨率月趨勢](../../assets/images/ec-bi-order-referral-return-trend.zh-tw.png){ title="第三方導購退貨率月趨勢" }
 
 === "退貨率（區間）"
 
     時間區間內各來源的退貨率。
 
-    ![第三方導購退貨率](../../../assets/images/ec-bi-order-referral-return.zh-tw.png)
+    ![第三方導購退貨率](../../assets/images/ec-bi-order-referral-return.zh-tw.png){ title="第三方導購退貨率" }
 
 ---
 
 ## 重要規範與限制 { #specs-order-analysis }
 
-* **只計算認列訂單**：所有數據都以 [認列訂單](#prerequisites-order-analysis-recognized-order){ data-preview } 為基礎，已取消與退貨成立的訂單不列入。
+* **只計算認列訂單**：所有數據都以 [認列訂單](#prerequisites-order-analysis-recognized-order){ title="認列訂單定義" data-preview } 為基礎，已取消與退貨成立的訂單不列入。
 * **數據為定時更新、非即時**：報表數據為定時批次計算，並非即時；系統會定時把已取消、已退貨的訂單排除後重新統計，因此與即時的「所有訂單」列表可能略有落差。
 * **退貨率以排除取消後計算**：計算退貨率時，會先排除已取消的訂單，再以認列訂單為母數統計。
 * **圖表各自獨立**：每張圖表的日期區間是分開設定的，看數據時請留意各圖表目前套用的期間是否一致。
@@ -557,12 +557,12 @@ hide:
     [](){ #faq-order-analysis-data-mismatch }
     有兩個主要原因：
 
-    * 訂單分析只計算 [認列訂單](#prerequisites-order-analysis-recognized-order){ data-preview }，已取消與退貨成立的訂單不會被算進去。
+    * 訂單分析只計算 [認列訂單](#prerequisites-order-analysis-recognized-order){ title="認列訂單定義" data-preview }，已取消與退貨成立的訂單不會被算進去。
     * 報表數據是定時批次更新的，並非即時，因此會比「所有訂單」列表略有延遲。
 
 ??? quote "為什麼我看不到「訂單金物流分析」或「訂單報表」分頁？"
     [](){ #faq-order-analysis-missing-tabs }
-    這是方案差異。高手版、高手PLUS版、專業PLUS版、進階PLUS版這四種方案只會顯示「訂單總體分析」。如需完整三個分頁，請洽詢開店顧問升級方案，詳見 [方案差異](#prerequisites-order-analysis-plan){ data-preview }。
+    這是方案差異。高手版、高手PLUS版、專業PLUS版、進階PLUS版這四種方案只會顯示「訂單總體分析」。如需完整三個分頁，請洽詢開店顧問升級方案，詳見 [方案差異](#prerequisites-order-analysis-plan){ title="方案差異" }。
 
 ??? quote "卡片上的「變動值」是什麼意思？"
     [](){ #faq-order-analysis-variation }
@@ -570,7 +570,7 @@ hide:
 
 ??? quote "為什麼看不到「第三方導購」的圖表？"
     [](){ #faq-order-analysis-no-third-party }
-    第三方導購圖表需要商店已串接導購平台才會出現。請確認是否已設定「美安夥伴商店」、串接「通路王」或「LINE購物」其中之一，詳見 [第三方導購圖表的顯示條件](#prerequisites-order-analysis-third-party){ data-preview }。
+    第三方導購圖表需要商店已串接導購平台才會出現。請確認是否已設定「美安夥伴商店」、串接「通路王」或「LINE購物」其中之一，詳見 [第三方導購圖表的顯示條件](#prerequisites-order-analysis-third-party){ title="第三方導購圖表的顯示條件" }。
 
 ??? quote "訂單分析的資料可以匯出嗎？"
     [](){ #faq-order-analysis-export }

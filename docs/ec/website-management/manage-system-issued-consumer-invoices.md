@@ -2,7 +2,7 @@
 title: 管理系統代開消費者發票
 description: 了解 CYBERBIZ 代開消費者發票服務，包含發票開立方式、顧客與商家查詢流程，以及發票資訊修改的申請期限與費用說明。
 created: 2026-06-10 16:30
-last_modified: 2026-06-12 14:40
+last_modified: 2026-07-01 12:00
 lang: zh-TW
 type: guide
 status: ""
@@ -22,7 +22,7 @@ audiences:
   - admin
 difficulty: beginner
 tnb: branch
-plans: 
+plans:
   - 企業
 cyb_extensions: []
 intents: 
@@ -53,10 +53,10 @@ ui_components:
 paths: 
   - 訂單 > 所有訂單
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/support/?p=2319
   - https://www.cyberbiz.io/support/?p=5769
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-management/manage-system-issued-consumer-invoices
 comments: false
 search:
   exclude: false
@@ -199,7 +199,6 @@ hide: []
 !!! tip "簡訊通知設定"
     若您的商店設定為「手機必填、Email 選填」，請前往 **訊息推播 > 簡訊通知樣板**，開啟 **發票開立通知**。系統將於中獎時發送簡訊通知顧客。
     
-    > **簡訊費用**：每封 NT$ 1 元（限 70 字元）。
 
 ### 領獎與列印方式
 

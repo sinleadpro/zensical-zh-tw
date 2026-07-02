@@ -1,9 +1,8 @@
 ---
-
 title: 設定與列印訂單明細
 description: 自訂訂單明細的顯示內容、套用列印模板、啟用訂單明細列印個資遮罩，以及從訂單列表列印或下載 PDF。
 created: 2026-05-08 14:21
-last_modified: 2026-06-08 17:50
+last_modified: 2026-07-02 07:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -74,8 +73,7 @@ icon: lucide/file-text
 hide: []
 ---
 
-
-![列印訂單明細設定](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-hero.png){ .hero-page }
+![列印訂單明細設定](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-hero.png){ title="列印訂單明細設定" .hero-page }
 
 ## 訂單明細說明
 
@@ -97,19 +95,6 @@ hide: []
     *   **訂單明細 (顧客)**：通常包含完整的商品內容、單價、金額與配送方式。
     *   **出貨明細 (員工)**：主要提供給倉儲或出貨人員，通常僅包含商品數量與配送地址，**不含訂單金額**，以精簡資訊並節省成本。
 
-{% if is_internal %}
-
-??? plan "點此查看各方案差異"
-
-    | 功能 | 開通條件 |
-    | :-- | :-- |
-    | 訂單明細列印基本功能（勾選欄位、開頭提醒、儲存） | 全方案皆有（POS 限定方案除外） |
-    | 進階設定：Liquid 模板與 CSS 自訂 | 全方案皆有 |
-    | 訂單明細多語言列印 | 需加購 **多國語系與多幣別加值功能** |
-    | 訂單明細列印個資隱碼 | **專業PLUS** / **高手 PLUS** / **進階 PLUS** / **企業版**  |
-
-{% endif %}
-
 ## 訂單明細內容設定 { #orders-print }
 
 ### 1. 進入訂單明細列印設定 { #orders-print-activate }
@@ -123,9 +108,9 @@ hide: []
 
 ### 2. 勾選要呈現的項目 { #orders-print-configure }
 
-面板提供多個勾選項目，可依營運需求自由組合（預設皆未勾選）。[完整欄位說明][orders-print-fields]{ data-preview }
+面板提供多個勾選項目，可依營運需求自由組合（預設皆未勾選）。[完整欄位說明](#orders-print-fields){ data-preview }
 
-![訂單明細列印設定](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-configure.png)
+![訂單明細列印設定](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-configure.png){ title="訂單明細列印設定" }
 
 ??? example "常見組合範例"
 
@@ -140,9 +125,9 @@ hide: []
 
 ---
 
-### 3. 設定開頭提醒文字與圖片（選用）
+### 3. 設定開頭提醒文字與圖片 <small>選用</small>
 
-當您勾選 **「開頭提醒文字」** 後，需於 [步驟五][orders-print-advanced-settings-alert-text]{ data-preview } 的進階設定頁填入「標題」與「內容」，否則將無法儲存。
+當您勾選 **「開頭提醒文字」** 後，需於 [步驟五](#orders-print-advanced-settings-alert-text) 的進階設定頁填入「標題」與「內容」，否則將無法儲存。
 
 !!! example "適用情境"
 
@@ -163,7 +148,7 @@ hide: []
     - LINE 官方帳號 QR Code
 4. 如需移除，點選 **「刪除圖片」**
 
-![訂單明細-開頭圖片-設定](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-開頭圖片.png)
+![訂單明細-開頭圖片-設定](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-開頭圖片.png){ title="訂單明細-開頭圖片-設定" }
 
 !!! tip "快速建立 QR Code"
 
@@ -186,20 +171,20 @@ hide: []
 
 於設定區塊底部點選 **「進階設定」**，進入 **「編輯列印訂單明細樣板」** 頁面。
 
-![訂單明細設定-進階設定](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-進階設定按鈕.png)
+![訂單明細設定-進階設定](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-進階設定按鈕.png){ title="訂單明細設定-進階設定" }
 
 您可於此頁：
 
 <div class="grid cards" markdown>
 
 - :lucide-pencil:{ .ig  }
-  [__編輯提醒文字__][orders-print-advanced-settings-alert-text]{ data-preview }
+  [__編輯提醒文字__](#orders-print-advanced-settings-alert-text)
 - :lucide-code:{ .ig  }
-  [__自訂樣板__][orders-print-template]{ data-preview }
+  [__自訂樣板__](#orders-print-template)
 - :lucide-eye:{ .ig  }
-  [__預覽列印效果__][orders-print-preview]{ data-preview }
+  [__預覽列印效果__](#orders-print-preview)
 - :lucide-rotate-ccw:{ .ig  }
-  [__回復預設樣板__][orders-print-templates-revert]{ data-preview }
+  [__回復預設樣板__](#orders-print-templates-revert)
 
 </div>
 
@@ -214,7 +199,7 @@ hide: []
 
 兩欄皆為必填。
 
-![訂單明細進階設定-提醒文字](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-進階設定-提醒文字.png)
+![訂單明細進階設定-提醒文字](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-進階設定-提醒文字.png){ title="訂單明細進階設定-提醒文字" }
 
 ---
 
@@ -229,9 +214,9 @@ hide: []
 
 一般情況建議使用預設模板。若需大幅客製化，建議由熟悉 HTML / CSS 的人員協助。
 
-![訂單明細進階設定-樣板](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-進階設定-樣板.png)
+![訂單明細進階設定-樣板](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-進階設定-樣板.png){ title="訂單明細進階設定-樣板" }
 
-!!! note "儲存前請先[預覽][orders-print-preview]（需至少一筆「已出貨」訂單）。"
+!!! note "儲存前請先[預覽](#orders-print-preview)（需至少一筆「已出貨」訂單）。"
 
 ---
 
@@ -244,15 +229,15 @@ hide: []
 
 可直接預覽實際列印結果。
 
-![訂單明細進階設定-預覽](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-進階設定-訂單明細預覽.png)
+![訂單明細進階設定-預覽](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-進階設定-訂單明細預覽.png){ title="訂單明細進階設定-預覽" }
 
 ??? example "訂單明細預覽範例"
 
     <div class="grid" markdown>
 
-    ![訂單明細預覽範例-1](../../../assets/images/訂單明細預覽-1.png)
+    ![訂單明細預覽範例-1](../../../assets/images/訂單明細預覽-1.png){ title="訂單明細預覽範例-1" }
 
-    ![訂單明細預覽範例-2](../../../assets/images/訂單明細預覽-2.png)
+    ![訂單明細預覽範例-2](../../../assets/images/訂單明細預覽-2.png){ title="訂單明細預覽範例-2" }
 
     </div>
 
@@ -262,7 +247,7 @@ hide: []
 
 若需還原樣板：點選 **「回復預設樣板」**，即可恢復系統預設版本。
 
-![訂單明細樣板-回復預設](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-進階設定-回覆預設樣板按鈕.png)
+![訂單明細樣板-回復預設](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-進階設定-回覆預設樣板按鈕.png){ title="訂單明細樣板-回復預設" }
 
 !!! note "已儲存的勾選選項不會受到影響。"
 
@@ -270,7 +255,7 @@ hide: []
 
 ## 如何列印訂單明細 { #orders-print-operate }
 
-完成 [訂單明細內容設定][orders-print] 後，可於訂單列表執行列印：
+完成 [訂單明細內容設定](#orders-print) 後，可於訂單列表執行列印：
 
 
 1. **進入訂單列表**：登入 CYBERBIZ 後台，前往 「訂單」 > 「所有訂單」。
@@ -280,9 +265,9 @@ hide: []
     - 紙本列印：選擇連接的印表機進行輸出。
     - 另存為 PDF：將明細檔案儲存至電腦中。
 
-![訂單列表-列印訂單明細](../../../assets/images/EC-訂單-所有訂單-更多操作-列印訂單明細.png)
+![訂單列表-列印訂單明細](../../../assets/images/EC-訂單-所有訂單-更多操作-列印訂單明細.png){ title="訂單列表-列印訂單明細" }
 
-!!! note "若您執行「確認出貨」並下載物流託運單，系統產生的 [壓縮檔][orders-print-fulfillment-zip]{ data-preview } 內亦會自動包含該筆訂單的明細檔案。"
+!!! note "若您執行「確認出貨」並下載物流託運單，系統產生的 [壓縮檔](#orders-print-fulfillment-zip) 內亦會自動包含該筆訂單的明細檔案。"
 
 ---
 
@@ -302,7 +287,7 @@ hide: []
 
 設定完成後會立即生效。
 
-![訂單明細列印-會員個資隱碼](../../../assets/images/EC-管理中心-安全性設定-會員個資隱碼-訂單明細列印.png)
+![訂單明細列印-會員個資隱碼](../../../assets/images/EC-管理中心-安全性設定-會員個資隱碼-訂單明細列印.png){ title="訂單明細列印-會員個資隱碼" }
 
 ---
 
@@ -334,7 +319,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-receipt:{ .lg }  
-  [__日本站發票與收據下載__]()  
+  日本站發票與收據下載  
   日本站商家可在此路徑下載符合日本法令格式的發票（Invoice）、收據（Receipt）及對應的退款文件。
 
 </div>
@@ -387,5 +372,5 @@ hide: []
 
     - 勾選項皆為「附加顯示」，未勾選的欄位不會列印，但不影響原始資料儲存。
     - 勾選「開頭提醒文字」後，必須於進階設定頁填入標題與內容，否則無法儲存。
-    - 若您的方案包含 [個資隱碼功能][orders-print-pii-masking]，訂購人資訊中的姓名、手機與地址將依設定自動遮罩。
+    - 若您的方案包含 [個資隱碼功能](#orders-print-pii-masking)，訂購人資訊中的姓名、手機與地址將依設定自動遮罩。
                                          

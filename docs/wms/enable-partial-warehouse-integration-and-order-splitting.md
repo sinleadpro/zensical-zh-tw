@@ -2,7 +2,7 @@
 title: 啟用部分串倉與拆單
 description: 「部分串倉」功能適用於部分商品存放於 CYBERBIZ 合作倉庫（如峰潮、昶捷），部分則由商家自行出貨的情境。在「拆單模式」下，若顧客同時購買兩類商品，系統將自動將購物車拆分為多筆訂單獨立結帳。
 created: 2026-03-12 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -63,8 +63,9 @@ paths:
   - 訂單 > 所有訂單
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=5723
   - https://www.cyberbiz.io/support/?p=22981
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/enable-partial-warehouse-integration-and-order-splitting
 comments: false
 search:
   exclude: false
@@ -176,7 +177,7 @@ hide: []
     3. **自行出貨單**：勾選訂單，點選 **更多操作 > 列印 XXX 託運單**。
         - 自訂出貨訂單支援部分出貨。
 
-             > 參閱[超商部分出貨](../ec/orders/cvs-shipping/cvs-partial-shipment.md)、[宅配部分出貨](../ec/orders/home-delivery/partial-shipment.md)
+             > 參閱[超商部分出貨](../ec/orders/cvs-shipping/cvs-partial-shipment.md)、[宅配部分出貨](../ec/orders/home-delivery/partial-shipment-v2.md)
 
         - 自訂出貨訂單恕不支援貨到付款。
     4. **倉庫出貨單**：系統會自動將訂單推送至 WMS，商家僅需觀察貨態更新。

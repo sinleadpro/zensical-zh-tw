@@ -2,7 +2,7 @@
 title: 指定物流送紅利
 description: 透過「指定物流送紅利」工具，您可以針對特定配送方式提供紅利點數回饋，有效引導消費者選擇低成本或特定合作物流。
 created: 2026-02-05 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 10:56
 lang: zh-TW
 type: tutorial
 status: ""

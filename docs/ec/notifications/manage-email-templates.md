@@ -2,7 +2,7 @@
 title: 設定與管理 Email 通知樣板
 description: 管理與編輯系統自動發送的 Email 通知樣板，包括內容自訂、啟用控制、收件者設定與多國語系配置。
 created:
-last_modified: 2026-06-26 06:12
+last_modified: 2026-07-01 21:55
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/notifications/manage-email-templates
 type: tutorial
@@ -166,6 +166,8 @@ hide:
 !!! tip "多通路發送原則"
 	若商家同時開啟多種通訊管道（如 Email 與 LINE），系統將根據設定同步發送。建議重要資訊（如出貨通知）開啟多通路以確保送達。
 
+---
+
 ### 管理端內部通知 
 
 此類通知僅發送至「商家通知設定」中指定的信箱（如倉庫人員或財務），不會發送給顧客。
@@ -192,8 +194,8 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-message-square-text:{ .lg }   
-  [__簡訊通知樣板管理__](manage-sms-templates.md){ title="設定與管理簡訊通知樣板" }     
-  設定與管理簡訊通知樣板，包含編輯規則、計費機制與阻擋風險。
+  [__簡訊通知樣板管理__](manage-sms-templates-v2.md){ title="設定與管理簡訊通知樣板" }     
+  設定與管理簡訊通知樣板，包含編輯規則與阻擋風險。
 
 - :simple-line:{ .lg }     
   [__LINE OA 通知樣板管理__](manage-line-oa-templates.md){ title="設定與管理 LINE OA 通知樣板" }  

@@ -98,7 +98,7 @@ CYBERBIZ EXPRESS 是專為日台電商設計的一站式跨境物流服務。您
 5. **本地配送**：包裹抵台後由本地物流送達消費者手中。
 
     !!! warning "關稅支付提醒"
-        單筆包裹價值若超過NT$2000元，海關可能課徵關稅與相關稅費；稅金將由物流商派送包裹時，向收件人收取。
+        單筆包裹價值若超過NT 2000 元，海關可能課徵關稅與相關稅費；稅金將由物流商派送包裹時，向收件人收取。
 
 
 ## 申請啟用
@@ -145,9 +145,9 @@ CYBERBIZ EXPRESS 是專為日台電商設計的一站式跨境物流服務。您
 
 === "批次編輯"
 
-    1. [匯出商品 Excel](../../products/bulk-operations/Excel%20大量匯入商品.md#下載-excel-範本或匯出商品)。
+    1. [匯出商品 Excel](../../products/bulk-operations/excel-import-products/#下載-excel-範本或匯出商品)。
     2. 填寫報關用對應欄位，儲存檔案。
-    3. [匯入商品 Excel](../../products/bulk-operations/excel-import-products.md#匯入-excel-檔案)，完成批次編輯。
+    3. [匯入商品 Excel](../../products/bulk-operations/excel-import-products/#匯入-excel-檔案)，完成批次編輯。
 
     ![](../../assets/images/EC-後台-商品-所有商品-日到台站台報關用商品欄位02.png){ .screenshot }
 

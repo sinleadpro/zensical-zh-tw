@@ -118,9 +118,6 @@ hide: []
 4. 點擊 **更新身分** 完成儲存。
 
 ![](../../assets/images/POS-後台-權限管理-建立身分權限01.png){ .screenshot }
-
-!!! tip "權限配置參考指引"
-    設定權限時，若不確定各功能對應的控制範疇，請參閱 [POS人員權限欄位參考表](../reference/staff-permission-fields-reference.md)。您可以依此表對照系統內各項操作（如：退貨、折扣、刪單）的開通範圍，快速建立職位模板。
     
 
 ### 步驟二：建立與管理員工帳號
@@ -169,13 +166,3 @@ hide: []
 
 ??? quote "更換店長需要注意什麼？"
     由於每間店僅限一位店長，指派新店長時，原店長將自動降為店員。此操作僅限網站擁有者執行。
-
-## 更多操作
-
-<div class="grid cards" markdown>
-
-- :lucide-user-round-key:{ .lg }   
-  [__人員權限欄位參考表__](../reference/staff-permission-fields-reference.md)     
-  了解權限類型與系統功能對應關係。
-
-</div>

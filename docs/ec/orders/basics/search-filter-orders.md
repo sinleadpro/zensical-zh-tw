@@ -2,7 +2,7 @@
 title: 如何搜尋與篩選訂單
 description: 使用關鍵字搜尋、條件篩選、檢視群組與訂單標籤等功能，快速找出目標訂單。
 created: 2026-05-07 11:23
-last_modified: 2026-06-14 17:01
+last_modified: 2026-07-02 07:16
 lang: zh-TW
 type: tutorial
 status: ""
@@ -70,7 +70,7 @@ hide: []
 ---
 
 
-![搜尋與篩選訂單](../../../assets/images/EC-訂單-所有定單-搜尋與篩選-hero.png){ .hero-page }
+![搜尋與篩選訂單](../../../assets/images/EC-訂單-所有定單-搜尋與篩選-hero.png){ title="搜尋與篩選訂單" .hero-page }
 
 
 ## 訂單搜尋與篩選說明
@@ -81,11 +81,11 @@ hide: []
 
 登入 CYBERBIZ 管理後台，點選左側選單 **「訂單」** > **「所有訂單」**。
 
-![進入所有訂單](../../../assets/images/EC-所有訂單-路徑.png)
+![進入所有訂單](../../../assets/images/EC-所有訂單-路徑.png){ title="進入所有訂單" }
 
 ## 關鍵字搜尋 { #orders-search }
 
-搜尋欄位支援多種關鍵字，但需注意搜尋的 [匹配規則][orders-match-mode]{ data-preview }：
+搜尋欄位支援多種關鍵字，但需注意搜尋的 [匹配規則](../references/order-filter-status-reference.md#orders-match-mode){ title="訂單篩選條件與狀態對照表" }：
 
 === "新版訂單列表"
 
@@ -93,7 +93,7 @@ hide: []
     2. **檢視結果**：符合條件的訂單將即時顯示於列表中。
     3. **調整分頁筆數**：透過列表下方的下拉選單，可切換每頁顯示筆數（10 / 25 / 50 / 100 / 200 筆）。
 
-    ![訂單列表-搜尋](../../../assets/images/EC-所有訂單-搜尋操作.png)
+    ![訂單列表-搜尋](../../../assets/images/EC-所有訂單-搜尋操作.png){ title="訂單列表-搜尋" }
 
 === "舊版訂單列表"
 
@@ -101,33 +101,33 @@ hide: []
     2. **檢視結果**：符合條件的訂單將顯示於下方列表中。
     3. **調整分頁筆數**：透過列表 **右上角** 的下拉選單，可調整單頁顯示訂單數量。
 
-    ![訂單列表-搜尋-舊版](../../../assets/images/EC-所有訂單-搜尋操作-舊版.png)
+    ![訂單列表-搜尋-舊版](../../../assets/images/EC-所有訂單-搜尋操作-舊版.png){ title="訂單列表-搜尋-舊版" }
 
 ## 條件篩選 { #orders-filter }
 
-商家可疊加多個條件，並可搭配 [關鍵字搜尋][orders-search]{ data-preview } 再縮小範圍。
+商家可疊加多個條件，並可搭配 [關鍵字搜尋](#orders-search) 再縮小範圍。
 
 === "新版訂單列表" 
 
     篩選條件以 **可疊加的篩選條件** 呈現，透過 **「+新增篩選條件」** 加入。   
 
-    1.  **新增篩選條件**：點選列表上方 **「+新增篩選條件」**，從下拉中挑選欲 [套用的欄位][orders-v2-filters]{ data-preview }。已新增的條件將以標籤形式顯示。
+    1.  **新增篩選條件**：點選列表上方 **「+新增篩選條件」**，從下拉中挑選欲 [套用的欄位](../references/order-filter-status-reference.md#orders-v2-filters){ title="訂單篩選條件與狀態對照表" data-preview }。已新增的條件將以標籤形式顯示。
 
-        ![訂單列表-篩選條件標籤](../../../assets/images/EC-所有訂單-已新增篩選條件.png)
+        ![訂單列表-篩選條件標籤](../../../assets/images/EC-所有訂單-已新增篩選條件.png){ title="訂單列表-篩選條件標籤" }
 
     2.  **設定篩選值**：點擊篩選條件標籤展開下拉選單，可選擇多個值。同一篩選條件內的多選結果為「任一符合即可顯示」。
 
-        ![訂單列表-設定篩選條件值](../../../assets/images/EC-所有訂單-篩選條件值設定.png)
+        ![訂單列表-設定篩選條件值](../../../assets/images/EC-所有訂單-篩選條件值設定.png){ title="訂單列表-設定篩選條件值" }
 
     3.  **設定時間區間**：**訂單成立日期** 與 **訂單配送日期** 支援兩種模式：                              
       
         - **介於**：指定明確的起訖日期                                                                     
         - **過去**：指定「過去 N 天」的滾動式區間（適合存成檢視群組）
                                                                                     
-        ![訂單列表-篩選時區-介於](../../../assets/images/EC-所有訂單-篩選時區-介於.png){ .screenshot }    
+        ![訂單列表-篩選時區-介於](../../../assets/images/EC-所有訂單-篩選時區-介於.png){ title="訂單列表-篩選時區-介於" .screenshot }    
                                                                                                                 
     4.  **清除條件**：移除單一條件 > 點條件標籤旁的 ✕；一次清空所有條件 > 點 **「清除全部」**。              
-    5.  **儲存篩選結果**：若此篩選組合會頻繁使用，點擊 「儲存」 即可將其建立為 [訂單檢視群組][orders-groups-tabs]{ data-preview }，方便日後一鍵切換。
+    5.  **儲存篩選結果**：若此篩選組合會頻繁使用，點擊 「儲存」 即可將其建立為 [訂單檢視群組](#orders-groups-tabs)，方便日後一鍵切換。
                                                                                                           
 
     ??? plan "篩選器的開通條件"
@@ -147,44 +147,27 @@ hide: []
 
     篩選條件以 **固定下拉選單** 呈現，每個篩選條件僅能選擇一個值；不同篩選條件之間需同時符合。
 
-    1.  **狀態條件**：提供 **「[付款狀態][orders-financial-status]{ data-preview }」**、**「[配送狀態][orders-fulfillment-status]{ data-preview }」**、**「[退貨狀態][orders-return-status]{ data-preview }」** 及 **「[訂單狀態][orders-status]{ data-preview }」** 四個下拉選單。                                                                       
+    1.  **狀態條件**：提供 「[付款狀態](../references/payment-statuses.md#payment-statuses){ title="訂單付款狀態對照表" data-preview }」、「[配送狀態](../references/fulfillment-statuses.md#fulfillment-statuses-table){ title="配送狀態對照表" data-preview }」、「[退貨狀態](../references/order-filter-status-reference.md#orders-return-status){ title="訂單篩選條件與狀態對照表" data-preview }」 及 「[訂單狀態](../references/order-filter-status-reference.md#orders-status){ title="訂單篩選條件與狀態對照表" data-preview }」 四個下拉選單。                                                                       
                   
-        ![訂單篩選條件-舊版](../../../assets/images/EC-所有訂單-篩選條件-舊版.png)                         
+        ![訂單篩選條件-舊版](../../../assets/images/EC-所有訂單-篩選條件-舊版.png){ title="訂單篩選條件-舊版" }                         
    
     2.  **時間篩選**：可依 **「訂單成立時間」** 設定起訖區間。
         
-        ![訂單篩選時間-舊版](../../../assets/images/EC-所有訂單-篩選時間-舊版.png)                         
+        ![訂單篩選時間-舊版](../../../assets/images/EC-所有訂單-篩選時間-舊版.png){ title="訂單篩選時間-舊版" }                         
        
         !!! info "若已開通 POS 系統，會額外出現 **「確認時間」** 篩選器，可依店員結帳／確認的時間點查詢 POS 訂單。                                                       "
     3.  **來源與配送條件**：依您開通的加值功能而定，可能出現以下篩選器:
                                                                                                           
-        - **「[訂單來源][orders-store]{ data-preview }」**：在 EC 主站與各 POS 門市之間切換             
-        - **「[配送方式][orders-shipping-name]{ data-preview }」**：篩選店取、超商、宅配等配送管道      
-        - **「[訂單類型][orders-line-group-buy]{ data-preview }」**：單獨抓出 LINE 團購訂單             
-        - **「[商家來源/收款方][orders-merchant-from]{ data-preview }」**：依金流收款方篩選                    
-        - **「[倉庫類型][orders-warehouse-type]{ data-preview }」**：開通多倉庫的店家可依出貨倉切換
+        - **「[訂單來源](../references/order-filter-status-reference.md#orders-store){ title="訂單篩選條件與狀態對照表" data-preview }」**：在 EC 主站與各 POS 門市之間切換             
+        - **「[配送方式](../references/shipping-methods.md#shipping-methods){ title="配送方式分類對照表" data-preview }」**：篩選店取、超商、宅配等配送管道      
+        - **「[訂單類型](../references/order-filter-status-reference.md#orders-line-group-buy){ title="訂單篩選條件與狀態對照表" data-preview }」**：單獨抓出 LINE 團購訂單             
+        - **「[商家來源/收款方](../references/order-filter-status-reference.md#orders-merchant-from){ title="訂單篩選條件與狀態對照表" data-preview }」**：依金流收款方篩選                    
+        - **「[倉庫類型](../references/order-filter-status-reference.md#orders-warehouse-type){ title="訂單篩選條件與狀態對照表" data-preview }」**：開通多倉庫的店家可依出貨倉切換
                                                                                                           
     4.  **進階搜尋**（需開通「進階訂單搜尋」加值功能）：搜尋框上方會出現                                
                                                                                                           
         - **搜尋類型下拉**：指定只在訂單編號、客戶 Email、商品 SKU 等特定欄位內搜尋                     
         - **「完全符合」勾選框**：勾選後改為精確比對，預設為模糊匹配                                    
-
-    {% if is_internal %}
-
-    ??? plan "功能可用性對照"
-
-        看不到對應篩選器代表您的方案尚未開通相關功能。
-
-        | 看到這個篩選器需要 | 需要開通 |                                                               
-        | :-- | :-- |                                                                                   
-        | 訂單來源（POS 門市）、確認時間 | POS 系統 |                                                   
-        | 配送方式（含店取選項） | 門市取貨 |                                                           
-        | 訂單類型（LINE 團購） | LINE 團購 |                                                           
-        | 倉庫類型 | 多倉庫 |                                                                           
-        | 進階搜尋（搜尋類型下拉、完全符合） | 進階訂單搜尋 |                                           
-        | 商家來源 | 企業版／PLUS版，或未啟用「自有金流」 |                                          
-
-    {% endif %}
 
 ### 篩選條件組合邏輯 { #orders-filter-logic }                                                                
                  
@@ -208,24 +191,24 @@ hide: []
 
 ## 訂單檢視群組 { #orders-groups-tabs }
 
-「檢視群組」能將複雜的 [篩選條件][orders-v2-filters]{ data-preview } 組合（如：特定物流 + 已收款 + 未出貨）儲存為頁面頂端的快捷標籤，實現一鍵切換，大幅提升批次處理訂單的效率。
+「檢視群組」能將複雜的 [篩選條件](../references/order-filter-status-reference.md#orders-v2-filters){ title="訂單篩選條件與狀態對照表" data-preview } 組合（如：特定物流 + 已收款 + 未出貨）儲存為頁面頂端的快捷標籤，實現一鍵切換，大幅提升批次處理訂單的效率。
 
 **操作步驟**
 
-1. **[設定篩選條件][orders-filter]**：點擊 「+ 新增篩選條件」，勾選欲組合的欄位與數值。
+1. **[設定篩選條件](#orders-filter)**：點擊 「+ 新增篩選條件」，勾選欲組合的欄位與數值。
 2. **點擊儲存**：設定完成後，點擊搜尋列右側的 儲存 按鈕。
 3. **選擇儲存模式**：在彈出視窗中根據需求選擇：
     - **建立新檢視群組**：輸入新名稱（如：今日待出貨），建立後將產生新頁籤。
     - **更新檢視群組**：將目前的條件覆寫至既有頁籤（此選項僅在調整現有群組時出現）。
 
-    ![訂單列表-儲存訂單檢視群組](../../../assets/images/EC-所有訂單-儲存訂單檢視群組.png)
+    ![訂單列表-儲存訂單檢視群組](../../../assets/images/EC-所有訂單-儲存訂單檢視群組.png){ title="訂單列表-儲存訂單檢視群組" }
 
 4. **管理頁籤**：將滑鼠移至自定義頁籤，點擊文字旁的 :lucide-chevron-down: 圖示，可進行 刪除。
 5. **搜尋與快速跳轉**：若建立的群組較多，可點擊頁籤末端的 「更多檢視群組」：
     - **關鍵字搜尋**：在下拉選單的搜尋框中輸入名稱，快速定位特定群組。
     - **一鍵跳轉**：點選搜尋結果即可直接切換至該群組的訂單列表。
 
-    ![訂單列表-更多檢視群組](../../../assets/images/EC-訂單-所有訂單-更多檢視群組.png)
+    ![訂單列表-更多檢視群組](../../../assets/images/EC-訂單-所有訂單-更多檢視群組.png){ title="訂單列表-更多檢視群組" }
 
 ??? example "常用檢視群組範例"
 
@@ -237,12 +220,12 @@ hide: []
 
 ## 編輯列表欄位 { #orders-edit-columns }
 
-您可依據作業需求，[自訂顯示哪些欄位][orders-columns-configure]、調整欄位順序，或在欄位過多時切換為 [適應寬度][orders-list-adjust-width] 模式，將表格壓縮在畫面內檢視。
+您可依據作業需求，[自訂顯示哪些欄位](#orders-columns-configure)、調整欄位順序，或在欄位過多時切換為 [適應寬度](#orders-list-adjust-width) 模式，將表格壓縮在畫面內檢視。
 
 ### 自訂顯示欄位與排序 { #orders-columns-configure }
   
 1. **開啟設定**：點選列表右上方的 **編輯欄位** 按鈕，畫面右側將展開設定面板。
-2. **勾選欄位**：於面板中勾選欲顯示的[欄位](../references/order-list-columns.md){ title="訂單列表欄位參考表" }；取消勾選即從列表中隱藏。                         
+2. **勾選欄位**：於面板中勾選欲顯示的[欄位](../references/order-list-columns.md#orders-columns){ title="訂單列表欄位參考表" data-preview }；取消勾選即從列表中隱藏。                         
     - **訂單編號** 欄位為主要識別欄，固定顯示無法取消。
     - 點選面板底部的 **全選 / 取消全選** 可一次切換所有欄位。    
 3. **調整順序**：長按欄位左側的 :lucide-grip-vertical: 圖示，上下拖曳即可變更欄位在列表中的左右順序。                   
@@ -251,7 +234,7 @@ hide: []
     - 點擊 **重置** 還原為系統預設配置。                         
     - 若直接關閉面板而未儲存，所有變更將被取消。
 
-![訂單列表-編輯欄位](../../../assets/images/EC-訂單-所有訂單-編輯欄位.gif)
+![訂單列表-編輯欄位](../../../assets/images/EC-訂單-所有訂單-編輯欄位.gif){ title="訂單列表-編輯欄位" }
 
 !!! tip "優化定期購追蹤"
     若經營定期購業務，建議開啟 **母訂單編號** 與 **已成立期數** 欄位，以便在列表中快速掌握子訂單的計畫歸屬與週期進度。   
@@ -266,14 +249,14 @@ hide: []
 2. 表頭文字會轉為 **直書**、欄位寬度自動縮窄，整張表格不需橫向捲動即可全覽。                                                       
 3. 再次點選按鈕（此時顯示為 **取消適應寬度** ）即可還原為預設寬度。                           
 
-![訂單列表-適應寬度](../../../assets/images/EC-訂單-所有訂單-適應寬度.png)
+![訂單列表-適應寬度](../../../assets/images/EC-訂單-所有訂單-適應寬度.png){ title="訂單列表-適應寬度" }
 
 !!! tip "快速比對多個欄位"                                                   
     需要比對多個狀態欄位（例如同時看「付款狀態」「配送狀態」「退貨狀態」「發票狀態」），開啟適應寬度可避免左右捲動、加速作業判讀。
 
 ## 訂單標籤註記 { #orders-tag-annotation }
                                                                    
-「訂單標籤」是您可以 **手動** 貼附在訂單上的分類註記，用來補足系統狀態無法表達的內部資訊，例如「需手寫卡片」「VIP 客戶」「待客服回覆」等。標籤可在訂單列表中作為篩選條件使用，也可與 [檢視群組][orders-groups-tabs]{ data-preview } 搭配儲存常用組合。
+「訂單標籤」是您可以 **手動** 貼附在訂單上的分類註記，用來補足系統狀態無法表達的內部資訊，例如「需手寫卡片」「VIP 客戶」「待客服回覆」等。標籤可在訂單列表中作為篩選條件使用，也可與 [檢視群組](#orders-groups-tabs) 搭配儲存常用組合。
 
 !!! example "標籤的使用情境"
 
@@ -293,7 +276,7 @@ hide: []
                                                                   
 若需移除標籤，同樣於 **更多操作** 中選擇 **移除標籤**，於彈窗選擇要移除的標籤即可。                                    
                                                                  
-![所有訂單-標籤設定](../../../assets/images/EC-訂單-所有訂單-更多操作-訂單標籤設定.png)
+![所有訂單-標籤設定](../../../assets/images/EC-訂單-所有訂單-更多操作-訂單標籤設定.png){ title="所有訂單-標籤設定" }
 
 ## 其他特定搜尋路徑
 
@@ -304,11 +287,11 @@ hide: []
   需至「訂單」>「定期定額訂單」中搜尋，支援定期單號、收貨資訊或備註搜尋。
 
 - :material-point-of-sale:{ .lg }  
-  [__POS 訂單__](../../../pos/orders/index.md){ data-preview }  
+  [__POS 訂單__](../../../pos/orders/manage-general-orders.md#查詢訂單){ title="管理一般訂單" }    
   在 POS 前台可透過輸入訂單號碼、掃描發票或進階篩選（如成立時間、認單時間）來查找。
 
 - :lucide-user:{ .lg }  
-  [__會員專屬搜尋__](../../members/管理會員檔案.md){ title="管理會員檔案" }  
+  [__會員專屬搜尋__](../../members/manage-member-profiles.md){ title="管理會員檔案" }  
   進入特定會員頁面後，點選其「訂單」分頁，可查看該會員在 EC 與 POS 的所有有效消費紀錄。
 
 </div>
@@ -320,10 +303,6 @@ hide: []
 - :lucide-package:{ .lg }  
   [__批次出貨__](order-fulfillment-flow.md){ title="訂單出貨流程" }  
   勾選多筆訂單，透過上方「批次操作」選擇對應物流（黑貓、全家、7-11、宅配通等）進行出貨。
-
-- :lucide-printer:{ .lg }  
-  [__列印揀貨單／出貨單／發票__]()  
-  批次操作中選擇列印，一次產出多筆訂單的揀貨單、出貨單或發票。
 
 - :lucide-edit:{ .lg }  
   [__修改訂單狀態__](edit-order-content.md){ title="編輯訂單內容" }  

@@ -2,7 +2,7 @@
 title: 排除未收到商家通知信件
 description: 若 CYBERBIZ 寄出的訂單通知、系統公告等信件被誤歸類至「垃圾郵件」，本篇指南將協助您透過設定，確保能準時接收重要通知。
 created: 2026-06-01 15:25
-last_modified: 2026-06-01 15:25
+last_modified: 2026-06-30 08:02
 lang: zh-TW
 type: troubleshooting
 status: ""
@@ -47,10 +47,10 @@ ui_components:
 paths: 
   - Gmail > 設定 > 篩選器和封鎖的地址
 layouts: []
-wp_url: 
+wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4964
   - https://www.cyberbiz.io/support/?p=31664
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-management/troubleshoot-not-receiving-merchant-notifications
 comments: false
 search:
   exclude: false
@@ -64,7 +64,7 @@ hide: []
 
 ## 使用須知
 
-- 此教學文件僅提供初步設定，詳情 Google 官方文件 [在 Gmail 中回報垃圾郵件](https://support.google.com/mail/answer/1366858) 。
+- 此教學文件僅提供初步設定，詳情可參考 Google 官方文件 [在 Gmail 中回報垃圾郵件](https://support.google.com/mail/answer/1366858) 。
 
 
 ## 方法一：回報為非垃圾郵件

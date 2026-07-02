@@ -2,9 +2,9 @@
 title: 設定超商大宗寄倉 B2C
 description: 申請、設定超商大宗寄倉 B2C 服務。
 created:
-last_modified: 2026-06-28 11:31
+last_modified: 2026-07-01 12:30
 lang: zh-TW
-permalink:
+permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping
 type: tutorial
 status:
 version:
@@ -24,12 +24,12 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions:
   - PAYMENTS
 intents:
@@ -65,8 +65,8 @@ ui_components: []
 paths: []
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/helpcenter/?p=6852
   - https://www.cyberbiz.io/helpcenter/?p=5064
+  - https://www.cyberbiz.io/helpcenter/?p=6852
   - https://www.cyberbiz.io/support/?p=1921
 comments: false
 search:
@@ -95,7 +95,7 @@ hide:
 
 ## 使用前提與限制 { #prerequisites-cvs-b2c-setup }
 
-- [x] **方案支援**：限定方案才能申請 B2C 大宗寄倉，詳見 [方案開通對照](references/cvs-b2c-plans-pricing-reference.md#reference-cvs-b2c-plans-eligibility){ title="超商大宗寄倉B2C方案與計費對照" data-preview }。
+- [x] **方案支援**：限定方案才能申請 B2C 大宗寄倉。
 - [x] **真實出貨環境**：申請過程包含「測標」步驟，需使用實際出貨用的雷射印表機與貼紙列印標籤寄至各超商審核。
 - [x] **退貨方式**：商家須事先決定一種固定退貨方式（如自取或指定貨運），不可混用，否則審核會被退件。
 - [x] **串接綠界的商家**：請改透過綠界 B2C 大宗寄倉服務申請，相關設定不在此頁面完成。
@@ -167,7 +167,7 @@ hide:
 
 * **重量與材積上限**：依通路不同，請見[超商大宗寄倉B2C通路規格](references/cvs-b2c-channel-spec-reference.md#reference-cvs-b2c-channels-specs){ title="超商大宗寄倉B2C通路規格" data-preview }。商品建檔時若超出上限，前台會自動阻擋消費者選擇該通路。
 * **退貨方式不可混用**：申請時填寫的退貨方式（如「自取」或「指定貨運」）一經審核通過即固定，調整需重新發起申請。
-* **方案差異**：可開通的通路依方案，請見[超商大宗寄倉B2C方案與計費對照](references/cvs-b2c-plans-pricing-reference.md#reference-cvs-b2c-plans-eligibility){ title="超商大宗寄倉B2C方案與計費對照" }。
+* **方案差異**：可開通的通路依方案，若不確定請聯絡 CYBERBIZ 客服確認。
 * **出貨作業**：商家需自行聯絡物流單位（如黑貓、新竹物流等）將包裹寄至超商物流總倉。貨品必須以 **紙箱保護，不可散裝**，否則若損壞遺失由商家負責。
 * **收貨時間**：
 	* **7-11 (大智通)**：週一至週六 08:00 - 14:00。
@@ -233,7 +233,7 @@ hide:
     串接綠界金物流的商家無法透過後台「B2C 超商大宗」頁面申請，請直接洽詢綠界科技辦理，相關運費計算與託運單下載皆由綠界端處理。
 
 ??? quote "我的方案有支援 B2C 嗎？"
-    [](){ #faq-cvs-b2c-setup-plan-support }請見[超商大宗寄倉B2C方案與計費對照](references/cvs-b2c-plans-pricing-reference.md#reference-cvs-b2c-plans-eligibility){ title="超商大宗寄倉B2C方案與計費對照" }。若您目前的方案不支援，請聯絡 CYBERBIZ 客服了解升級方案。
+    [](){ #faq-cvs-b2c-setup-plan-support }請聯絡 CYBERBIZ 客服確認您的方案是否支援。
 
 ??? quote "一定要做測標（驗標）嗎？可以跳過嗎？"
     [](){ #faq-cvs-b2c-setup-mandatory-testing }
@@ -306,7 +306,6 @@ hide:
 
 - [超商大宗寄倉B2C通路規格](references/cvs-b2c-channel-spec-reference.md){ title="超商大宗寄倉B2C通路規格" }
 - [物流中心收貨資訊](references/cvs-b2c-logistics-center-reference.md){ title="物流中心收貨資訊" }
-- [超商大宗寄倉B2C方案與計費對照](references/cvs-b2c-plans-pricing-reference.md){ title="超商大宗寄倉B2C方案與計費對照" }
 
 <!---->
 <!-- ## 超商大宗寄倉 B2C 說明 -->

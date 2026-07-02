@@ -2,7 +2,7 @@
 title: 串倉申請流程與開通
 description: 在正式開通串接前，商家需完成合約簽訂、系統環境建置以及商品資料同步，以確保訂單能正確拋轉至倉庫執行。
 created: 2026-03-18 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -55,8 +55,9 @@ paths:
   - WMS：設定 > 系統設定 > 電商倉儲設定
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=5708
   - https://www.cyberbiz.io/support/?p=28967
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/application-process-and-activation
 comments: false
 search:
   exclude: false

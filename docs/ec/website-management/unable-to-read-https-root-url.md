@@ -2,7 +2,7 @@
 title: 無法讀取 HTTPS 根網址
 description: 當網站從其他平台遷移至 CYBERBIZ 後，若出現 http://您的網址 可正常開啟，但 https://您的網址 無法讀取的情況，通常與網域商對「根網域（Naked Domain）」的轉址支援度有關。
 created: 2026-03-10 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 08:02
 lang: zh-TW
 type: reference
 status: ""
@@ -52,7 +52,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=29144
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-management/unable-to-read-https-root-url
 comments: false
 search:
   exclude: false
@@ -79,22 +79,26 @@ hide: []
 
 ## 解決方案：移轉網域至支援完善的網域商
 
-目前相對簡易且穩定的解決方案，是將網域移轉至對 HTTPS 轉址支援較完善的網域商（例如：Gandi）。以下以 GoDaddy 轉移至 Gandi 為範例：
+目前相對簡易且穩定的解決方案，是將網域移轉至對 HTTPS 轉址支援較完善的網域商（例如：Gandi）。**以下以 GoDaddy 轉移至 Gandi 為範例：**
 
-### 步驟 1：從原網域商申請轉出（以 GoDaddy 為例）
+### 步驟 1：從原網域商申請轉出
 
 1. 登入 **GoDaddy 管理介面**，進入 **網域管理**。
 2. 找到欲轉移的網域，點選 **轉出網域**。
 3. 依照系統提示點擊 **繼續轉移**。
 4. 點擊 **按一下這裡即可檢視授權碼**，並將產生的 **授權碼** 複製備用。
 
-### 步驟 2：於新網域商發起轉入（以 Gandi 為例）
+![](https://www.cyberbiz.io/support/wp-content/uploads/https開頭網址無法順利讀取1.png){ .screenshot }
+
+### 步驟 2：於新網域商發起轉入
 
 1. 登入 **Gandi 管理介面**，選擇 **域名 > 移轉**。
 2. 輸入您的網域並進行搜尋。
 3. 在移轉流程中，填入第一步取得的 **授權碼**。
 4. 完成結帳。
 5. 依照 Gandi 指引完成後續的 **Email 驗證**。
+
+![](https://www.cyberbiz.io/support/wp-content/uploads/https開頭網址無法順利讀取2.png){ .screenshot }
 
 ### 步驟 3：重新設定 DNS
 

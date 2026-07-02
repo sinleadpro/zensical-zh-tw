@@ -2,7 +2,7 @@
 title: 編輯商品簡述與商品標語
 description: 客製商品標語與商品簡述文字樣式、修改商品文案
 created: 2026-01-08 00:00
-last_modified: 2026-06-29 00:28
+last_modified: 2026-06-30 11:26
 lang: zh-TW
 type: tutorial
 status:
@@ -27,10 +27,13 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 如何客製化商品簡述文字樣式
@@ -61,6 +64,7 @@ paths:
   - 網站外觀 > 套版主題管理
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=1060
   - https://www.cyberbiz.io/helpcenter/?p=3545
   - https://www.cyberbiz.io/support/?p=16893
 permalink: https://help.cyberbiz.io/ec/products/create-and-manage/edit-product-slogan-and-description

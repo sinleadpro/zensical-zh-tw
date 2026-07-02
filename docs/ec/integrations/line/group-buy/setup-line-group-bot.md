@@ -2,7 +2,7 @@
 title: 設定 LINE 團購機器人
 description: 建立並設定 LINE 團購機器人，完成 Messaging API、Webhook 與 LIFF 串接，讓使用者可在 LINE 群組內進行團購購物。
 created: 2026-03-11 17:27
-last_modified: 2026-06-26 10:05
+last_modified: 2026-07-02 11:17
 lang: zh-TW
 type: tutorial
 status:
@@ -44,10 +44,10 @@ related:
   - 團購商品設定
   - 團購群組設定
 tags:
-  - LINE_OA
-  - LINE_團購
+  - LINE OA
+  - LINE 團購
   - LIFF
-  - Messaging_API
+  - Messaging line-group-buy-shoppingAPI
   - Webhook
 acoiv:
 apis: []
@@ -81,7 +81,7 @@ hide: []
 *   **適用環境**：僅限於 **LINE 群組** 或 **多人聊天室**。由於匿名性限制，不支援 LINE 社群 (OpenChat)。
 *   **建議做法**：建議將「品牌官方帳號」與「團購機器人帳號」分開建立，以避免功能干擾。兩者應選擇 **同一個服務提供者 (LINE Provider)**，以便用戶資料流通。
 
-???+ note "LINE 官方帳號與團購機器人分流架構圖"
+??? info-clean "LINE 官方帳號與團購機器人分流架構圖"
     ```mermaid
         graph LR
             %% Define Node Styles
