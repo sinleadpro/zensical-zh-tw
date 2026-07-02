@@ -2,7 +2,7 @@
 title: "將 Sitemap 提交至 Google Search Console"
 description: "將 CYBERBIZ 自動產生的 Sitemap 提交至 Google Search Console，加快網頁收錄速度並優化 SEO 表現。"
 created: "2026-03-20 13:43"
-last_modified: 2026-06-14 11:59
+last_modified: 2026-07-02 19:55
 lang: "zh-TW"
 type: "tutorial"
 status: ""
@@ -71,9 +71,9 @@ icon: "lucide/map"
 hide: []
 ---
 
-![](../../../assets/images/ec-第三方整合-google-gsc-sitemap.png){ .hero-page }
+![Sitemap 提交設定](../../../assets/images/ec-第三方整合-google-gsc-sitemap.png){ title="Sitemap 提交設定" .hero-page }
 
-## 什麼是 Sitemap
+## Sitemap 說明
 
 Sitemap（網站地圖）是一份以 XML 格式呈現的檔案，用來列出網站中所有重要頁面的網址，提供搜尋引擎（如 Google）作為爬取與索引的依據。
 
@@ -81,31 +81,35 @@ Sitemap（網站地圖）是一份以 XML 格式呈現的檔案，用來列出�
 
 !!! note "更多 sitemap 相關資訊，請參考 [Google 官方說明 :lucide-external-link:](https://developers.google.com/search/docs/crawling-indexing/sitemaps/overview?hl=zh-tw)。"
 
-## 為什麼要提交 Sitemap
+!!! tip "為什麼要提交 Sitemap"
 
-透過提交 sitemap 網站地圖，您可以：
+    透過提交 sitemap 網站地圖，您可以：
 
-*   **加快新頁面被收錄的速度**：讓搜尋引擎更快發現您的新商品或活動頁。
-*   **加速內容更新**：當您修改了網頁內容，搜尋引擎能更有效率地抓取更新。
-*   **優化 SEO 表現**：幫助搜尋引擎理解您的網站架構。
+    *   **加快新頁面被收錄的速度**：讓搜尋引擎更快發現您的新商品或活動頁。
+    *   **加速內容更新**：當您修改了網頁內容，搜尋引擎能更有效率地抓取更新。
+    *   **優化 SEO 表現**：幫助搜尋引擎理解您的網站架構。
 
-## 操作前準備
+## 使用條件與限制
 
 在開始上傳之前，請務必確認已完成以下設定：
 
 - [x] [**註冊 Google Search Console**](../../integrations/google/setup-google-search-console.md){ title="註冊並驗證 Google Search Console" }：並完成網站所有權驗證。
 - [x] [**串接 Google Analytics (GA4)**](../../integrations/google/ga/setup-google-analytics.md){ title="建立並串接 Google Analytics" }：建議 GSC 與 GA4 使用同一組 Google 帳號管理。
 
-## 檢測您的 Sitemap 檔案
+## 操作步驟
+
+### 檢測您的 Sitemap 檔案
 
 您可以在瀏覽器網址列輸入您的官網網址，並在最後加上 `/sitemap.xml` 來確認檔案是否存在。
 
 *   例如：`www.yourname.com/sitemap.xml`。
 *   若頁面顯示正確的 XML 代碼畫面，代表您的網站已擁有 Sitemap。
 
-![](../../../assets/images/ec-行銷活動-seo-sitemap-url.png)
+![Sitemap 網址檢測](../../../assets/images/ec-行銷活動-seo-sitemap-url.png){ title="Sitemap 網址檢測" }
 
-## 提交步驟教學
+---
+
+### 提交步驟教學
 
 1.  **登入 GSC**：進入 [Google Search Console :lucide-external-link:](https://search.google.com/search-console/) 頁面。
 2.  **進入 Sitemap 頁面**：點擊左側選單中的「**產生索引**」>「**Sitemap**」。
@@ -113,7 +117,7 @@ Sitemap（網站地圖）是一份以 XML 格式呈現的檔案，用來列出�
 4.  **執行提交**：點擊「**提交**」按鈕。
 5.  **完成設定**：系統若顯示「**已成功提交 Sitemap**」的彈窗，即代表設定完成。
 
-![提交 sitemap](../../../assets/images/ec-行銷活動-googlesearchconsole-提交sitemap.png)
+![提交 sitemap](../../../assets/images/ec-行銷活動-googlesearchconsole-提交sitemap.png){ title="提交 sitemap" }
 
 ## 重要提醒
 

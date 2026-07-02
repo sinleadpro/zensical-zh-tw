@@ -1,9 +1,8 @@
 ---
-
 title: 顧客註冊模式對照表
 description: 比較「快速結帳並註冊」與「必須註冊」兩種模式的差異，包含加入購物車、註冊時機與適用情境。
 created: 2026-05-27 16:30
-last_modified: 2026-06-08 17:15
+last_modified: 2026-07-02 18:56
 lang: zh-TW
 type: reference
 status: ""
@@ -21,15 +20,6 @@ sites:
 audiences:
   - admin
 difficulty: beginner
-tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
 cyb_extensions: []
 intents:
   - 比較註冊模式差異
@@ -68,7 +58,6 @@ icon: lucide/table
 hide: []
 comments: false
 ---
-
 
 「顧客註冊設定」頁面最上方的「**顧客註冊**」設定，決定顧客是否必須先註冊才能下單，有兩種模式可選。
 

@@ -2,7 +2,7 @@
 title: 保護後台帳號與顧客資料
 description: 管理後台登入防護與顧客資料保護，從 IP 白名單、自動登出到網站密碼，一頁完成你的網站資安設定。
 created:
-last_modified: 2026-06-30 08:02
+last_modified: 2026-07-02 19:08
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-management/security-settings
 type: tutorial
@@ -200,6 +200,8 @@ hide:
 ---
 
 ### 會員安全｜訪問限制地區黑名單 { #operate-security-restricted-locations }
+
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 企業 / 跨境
 
 封鎖特定地區的顧客造訪網站前台，常用於跨境經營時排除特定市場。此功能為企業版／跨境電商方案專屬。
 
