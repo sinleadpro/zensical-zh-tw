@@ -2,7 +2,7 @@
 title: 設定 FBE 網域驗證
 description: 在企業管理平台中完成網域驗證。
 created: 2026-04-10 14:50
-last_modified: 2026-06-26 10:05
+last_modified: 2026-07-02 11:24
 lang: zh-TW
 type: tutorial
 status: ""
@@ -45,7 +45,7 @@ related:
   - "[[網域管理]]"
 tags:
   - FBE
-  - Facebook_企業管理平台
+  - Facebook 企業管理平台
   - 網域驗證
   - 事件追蹤
   - DNS
@@ -76,17 +76,19 @@ hide: []
 
 **Facebook 網域驗證** 的主要目的是讓使用者在企業管理平台中認領網域所有權，進而控制連結編輯權限、優化廣告投放效果，並避免網站被他人盜用。
 
-## 前置作業
+## 使用條件與限制
 
 - [x] 需先 [啟用 Facebook 商業擴充功能與相關資產連結](setup-fbe-authorization.md){ title="設定 FBE 帳號授權與資產連結" }。
 
 ## 網域驗證方式選擇
 
-網域驗證主要分為 [**DNS 驗證**](#dns-驗證-建議使用) 與 [**中繼標籤驗證**](#中繼標籤驗證-meta-tag) 兩種方式。
+網域驗證主要分為 [DNS 驗證](#dns-驗證-建議使用) 與 [中繼標籤驗證](#中繼標籤驗證-meta-tag) 兩種方式。
 
 !!! info "建議優先使用 DNS 系統進行驗證；操作後台程式碼的中繼標籤驗證，若有失誤，系統商不負後台程式修改責任。更多驗證方式資訊與說明，請參考 [官方說明 :lucide-external-link:](https://zh-tw.facebook.com/business/help/321167023127050)。"
 
-## DNS 驗證 <small>建議使用</small>
+## 操作步驟
+
+### DNS 驗證 <small>建議使用</small>
 
 1.  **進入企業管理平台**：登入[企業管理平台 :lucide-external-link:](https://business.facebook.com/latest/settings)，點選「設定」>「品牌安全與適用性」>「網域」，新增您的主網域名稱。
 
@@ -141,7 +143,7 @@ hide: []
 
     ![企業管理平台-驗證成功](../../../../assets/images/ec-第三方整合-meta商家資產管理平台-驗證成功.png)
 
-## 中繼標籤驗證 <small>Meta-tag</small>
+### 中繼標籤驗證 <small>Meta-tag</small>
 
 1.  **取得代碼**：在企業管理平台中「品牌安全和適用性」裡的「網域」頁面點選「中繼標籤驗證」，複製整段代碼。
 
