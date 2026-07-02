@@ -2,7 +2,7 @@
 title: 設定與加印黑貓託運單
 description: 管理黑貓宅急便託運單的完整指南，包含設定寄件人資訊、加印純配送託運單、建立黑貓逆物流退貨取件，以及查詢託運單號使用紀錄與 Cyber 幣扣款對帳。
 created: 2026-05-15 14:21
-last_modified: 2026-07-01 21:35
+last_modified: 2026-07-02 08:43
 lang: zh-TW
 type: tutorial
 status: ""
@@ -95,7 +95,7 @@ hide: []
 
 | 區塊 | 用途 | 觸發時機 |
 | :-- | :-- | :-- |
-| [黑貓設定][configure-ezcat-shipping-note-sender-setup] | 設定寄件人姓名、地址、聯絡電話與逆物流收件地址 | 首次使用、寄件人資訊變更 |
+| [黑貓設定](#configure-ezcat-shipping-note-sender-setup) | 設定寄件人姓名、地址、聯絡電話與逆物流收件地址 | 首次使用、寄件人資訊變更 |
 | [加印託運單](#ezcat-shipping-note-create) | 針對單一訂單再列印 1 至 8 張「純配送」託運單 | 需分箱寄送、託運單損毀重印 |
 | [黑貓逆物流](#ezcat-shipping-note-reverse) | 由黑貓上門至顧客處取件並送回您的逆物流地址 | 顧客退貨且訂單已出貨 |
 | [黑貓轉單紀錄](#ezcat-shipping-note-transfer-records) | 系統自動將原訂單未使用的單號轉用至新訂單的歷程 | 對帳查詢用 |
@@ -188,7 +188,7 @@ hide: []
 
 | 條件 | 系統要求 |
 | :-- | :-- |
-| 已完成黑貓設定 | 寄件人區碼必須存在(來自 [設定寄件人資訊][configure-ezcat-shipping-note-sender-setup]的寄件地址) |
+| 已完成黑貓設定 | 寄件人區碼必須存在(來自 [設定寄件人資訊](#configure-ezcat-shipping-note-sender-setup)的寄件地址) |
 | 訂單存在 | 訂單編號正確 |
 | 非 POS 訂單 | 門市 POS 訂單無法於此頁面建立逆物流 |
 | 訂單配送狀態 | 須為 **已出貨** 或更後階段；尚未出貨、準備出貨的訂單不允許 |
@@ -301,11 +301,6 @@ hide: []
 
      您的 Cyber 幣餘額小於「每張費用 × 加印張數」。請至 **後台面板 > 儲值中心** 完成[儲值](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="如何儲值 Cyber 幣" data-preview }後再回此頁操作。頁面上方藍色數字即為目前餘額。
 
-??? quote "為什麼貨到付款訂單加印後變成「純配送」?"
-    [](){ #faq-ezcat-cod-not-supported }
-
-    **加印託運單功能僅會印出「純配送」單號** ，不會將代收貨款金額綁到新單上。若您需要分箱且仍要黑貓代收貨款，請至訂單詳情頁操作出貨，並聯繫客服協助。
-
 ??? quote "建立逆物流時顯示「缺少寄件人區碼」"
     [](){ #faq-ezcat-reverse-no-suda5 }
 
@@ -340,6 +335,6 @@ hide: []
 
     加印託運單頁面本身沒有「自動呼叫司機」選項。若您希望黑貓司機到府收取這些包裹，請擇一處理：
 
-    * 同一天在「訂單列表」對任一筆當日要出貨的訂單啟用 [自動呼叫黑貓司機取件](../orders/home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" data-preview }；司機到場後會一併收走當天所有待寄包裹（含加印的部分），不需逐張綁定託運單。
+    * 同一天在「訂單列表」對任一筆當日要出貨的訂單啟用 [自動呼叫黑貓司機取件](../orders/home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" }；司機到場後會一併收走當天所有待寄包裹（含加印的部分），不需逐張綁定託運單。
     * 自行致電黑貓客服安排取件，或將包裹送至黑貓營業所交件。
 

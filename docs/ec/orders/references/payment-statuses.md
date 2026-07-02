@@ -2,7 +2,7 @@
 title: 訂單付款狀態對照表
 description: ""
 created: 2026-06-08 14:21
-last_modified: 2026-06-08 15:18
+last_modified: 2026-07-02 08:52
 lang: zh-TW
 type: reference
 status: ""
@@ -28,14 +28,12 @@ features: []
 prerequisites: []
 related: []
 tags:
-  - EC
   - 付款狀態
   - 訂單管理
   - 貨到付款
   - 退款狀態
   - 付款失敗
   - 會員棄單
-  - Reference
 acoiv: ""
 apis: []
 devices:

@@ -2,7 +2,7 @@
 title: 超商物流部分出貨支援對照表
 description: ""
 created: 2026-05-26 18:41
-last_modified:
+last_modified: 2026-07-02 08:51
 lang: zh-TW
 type: tutorial
 status: ""
@@ -28,14 +28,12 @@ features: []
 prerequisites: []
 related: []
 tags:
-  - EC
   - 超商取貨
   - 部分出貨
   - C2C
   - B2C
   - 物流支援
   - 訂單管理
-  - Reference
 acoiv: ""
 apis: []
 devices:
@@ -65,13 +63,6 @@ hide:
 | 萊爾富超商取貨（B2C） | 商家透過超商物流配送至指定門市，顧客前往取貨（含貨到付款） | 第一筆超商出單，剩餘改自訂出貨 |
 | 萊爾富冷凍取貨 | 冷凍商品超商取貨 | 第一筆超商出單，剩餘改自訂出貨 |
 
-### 不支援部分出貨的物流 { #cvs-partial-support-unsupported }
-
-| 物流類型 | 說明 | 系統提示 |
-| :-- | :-- | :-- |
-| 全家冷鏈 | 冷鏈宅配 | 「全家冷鏈不支援部分出貨，請勾選全部商品！」 |
-| 全家冷凍店到店 | 冷凍店到店 | 「全家冷凍店到店不支援部分出貨，請勾選全部商品！」 |
-
 ### 走獨立流程的物流 { #cvs-partial-support-other }
 
 以下物流雖屬「超商取貨」，但屬於 CYBERBIZ 託管託運單流程，**可以正常多次出貨**（每次重新列印一張託運單），不適用「第二筆改自訂出貨」規則：
@@ -79,29 +70,4 @@ hide:
 - 黑貓快速到店－常溫
 - 黑貓快速到店－冷藏
 - 黑貓快速到店－冷凍
-
-!!! note "註釋"
-    * 「部分出貨」功能本身無方案限制，所有方案皆內建。各超商物流的開通條件請另見 [物流開通對照表][logistics-plugins]{ data-preview }。
-    * 「自訂出貨方式」於 CVS 部分出貨情境中為系統自動開放，無需額外開通 plugin。
-
-[logistics-plugins]: ./logistics-plugins.md
-
-
-## 後續操作
-
-<div class="grid cards" markdown>
-
-- :lucide-import:{ .lg }
-  [____]()
-  。
-
-- :lucide-ban:{ .lg }
-  [____]()
-  。
-
-</div>
-
-## 常見問題
-
-??? quote ""
 

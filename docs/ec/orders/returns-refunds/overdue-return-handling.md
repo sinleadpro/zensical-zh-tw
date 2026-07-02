@@ -89,7 +89,7 @@ hide: []
 ## 使用前提與限制 { #prerequisites-overdue-returns }
 
 - [x] **後台手動退貨流程**：所有方案皆可使用。
-- [x] **退貨時間調整設定**：PLUS版 以上方案才能調整可退貨天數，一般版 維持預設值。詳見 [方案對照表](../references/plan-features-return-reference.md){ data-preview }。
+- [x] **退貨時間調整設定**：PLUS版 以上方案才能調整可退貨天數，一般版 維持預設值。
 - [x] **部分退款**：PLUS版 以上方案才可使用。
 - [x] **系統逆物流(黑貓 C2B、宅配通退貨便、7-11 C2B 退貨便)**：需另行申請開通，並非方案內預設功能。
 
@@ -282,6 +282,5 @@ hide: []
 ## 參考資料 { #reference-overdue-returns }
 
 - [自動退刷時效對照表](../references/auto-refund-timeline.md){ title="自動退刷時效對照表" }
-- [方案功能對照表](../references/plan-features-return-reference.md){ title="方案功能對照表（退貨相關）" }
 
 
