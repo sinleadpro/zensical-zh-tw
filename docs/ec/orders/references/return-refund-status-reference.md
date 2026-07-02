@@ -2,7 +2,7 @@
 title: 退貨與退款狀態對照（超商訂單逾期未取）
 description: 超商訂單逾期未取時的配送狀態、退貨狀態、付款狀態流轉對照表
 created: 2026-05-27 10:45
-last_modified: 2026-07-02 09:59
+last_modified: 2026-07-02 12:31
 lang: zh-TW
 type: reference
 status: ""
