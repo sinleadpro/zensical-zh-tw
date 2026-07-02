@@ -2,7 +2,7 @@
 title: 使用 Google 安全瀏覽工具檢查並排除網站安全性風險 
 description: 了解如何使用 Google 安全瀏覽網站狀態檢查工具，主動檢測官網是否存在安全性風險，並透過 GSC 申請審核解除警示。
 created: 2026-03-25 21:29
-last_modified: 2026-06-26 10:05
+last_modified: 2026-07-02 17:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -73,7 +73,7 @@ hide:
 
 ![Google 安全瀏覽網站工具](../../../assets/images/ec-google-安全瀏覽網站狀態工具.png){ .hero-page }
 
-## 什麼是安全瀏覽網站狀態
+## 安全瀏覽網站狀態說明
 
 Google 提供「安全瀏覽網站狀態檢查工具」，可協助商家主動檢測官網是否存在安全性風險，避免因被判定為不安全網站，而影響品牌信任度與搜尋排名。
 
@@ -82,7 +82,7 @@ Google 提供「安全瀏覽網站狀態檢查工具」，可協助商家主動�
     - **Google Safe Browsing** 是一套網站安全防護機制，負責偵測惡意網站（如釣魚網站、惡意軟體、木馬程式），並在使用者造訪風險頁面時顯示警告，以降低資安威脅。[了解更多 :lucide-external-link:](https://safebrowsing.google.com/)
     - **Google 透明報告**（Transparency Report） 則是基於 Safe Browsing 的偵測結果，提供公開的安全數據與查詢工具，讓網站管理員檢查網站是否被標記為風險網站。[了解更多 :lucide-external-link:](https://transparencyreport.google.com/?hl=zh_TW)
 
-## 如何查詢網站是否有安全風險
+## 查詢網站是否有安全風險
 
 1.  **前往工具頁面**：進入 [Google 檢查網站狀態 :lucide-external-link:](https://transparencyreport.google.com/safe-browsing/search?hl=zh_TW) 工具頁面。
 2.  **輸入網址**：在搜尋框內輸入您欲查詢的官網網址並執行搜尋。

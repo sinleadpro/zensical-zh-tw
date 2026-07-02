@@ -2,7 +2,7 @@
 title: 主題類型對照表
 description: 比較拖拉版型、預設版型與多國版型的差異，協助商家選擇適合的網站主題類型。
 created: 2026-06-22 10:00
-last_modified: 2026-06-22 10:39
+last_modified: 2026-07-02 16:00
 lang: zh-TW
 type: reference
 status: ""
@@ -29,8 +29,6 @@ features: []
 prerequisites: []
 related: []
 tags:
-  - EC
-  - 參考資料
   - 拖拉版型
   - 預設版型
   - 多國版型

@@ -2,7 +2,7 @@
 title: 設定 Google Ads 轉換追蹤
 description: 設定 Google Ads 轉換追蹤與再行銷功能，追蹤廣告成效並優化投放策略。
 created: 2026-03-25 11:23
-last_modified: 2026-06-26 10:05
+last_modified: 2026-07-02 16:10
 lang: zh-TW
 type: tutorial
 status: ""
@@ -72,7 +72,7 @@ hide: []
 
 ![Google Ads 轉換追蹤](../../../assets/images/ec-第三方整合-google設定-ads轉換追蹤.png){ .hero-page }
 
-## 什麼是 Google Ads
+## Google Ads 說明
 
 Google Ads（原名 Google AdWords）是 Google 提供的線上廣告平台，商家可透過競價方式在 Google 搜尋結果、Google 合作網站及 YouTube 等管道投放廣告。Google Ads 提供多種廣告形式，包括搜尋廣告、多媒體廣告、購物廣告和影片廣告，商家可依據產品特性和行銷目標選擇適合的廣告類型。[瞭解詳情 :lucide-external-link:](https://support.google.com/google-ads/answer/6146252)。
 
@@ -81,7 +81,7 @@ Google Ads（原名 Google AdWords）是 Google 提供的線上廣告平台，�
 「轉換」是指使用者點擊廣告後，在網站上完成的關鍵動作（如：結帳、註冊會員、填寫表單）。
 在 Google Ads 建立轉換追蹤，能協助商家觀測廣告成效、了解客戶行為，並進一步優化廣告精準度。CYBERBIZ 提供與 Google 轉換代碼的串接功能，以下為詳細的設定步驟：
 
-## 開始前的準備
+## 使用條件與限制
 
 - [x] **建立廣告活動**：商家必須先[建立第一個 Google 廣告活動 :lucide-external-link:](https://ads.google.com/aw/campaigns?supportResource=google-ads/answer/10207423)，方可開始建立轉換追蹤。設定詳情，請參考[官方說明 :lucide-external-link:](https://support.google.com/google-ads/answer/6324971?hl=zh-Hant)。
 
@@ -123,7 +123,7 @@ Google Ads（原名 Google AdWords）是 Google 提供的線上廣告平台，�
     *   點擊「**新增轉換追蹤事件**」。
     *   **轉換追蹤事件**：根據您在 Google 端設定的「目標類別」，選擇後台對應的事件（如：購買對應「顧客完成訂單」）。
 
-        ??? note "目標類別與轉換追蹤事件對應表"
+        ??? info "目標類別與轉換追蹤事件對應表"
             
             | Google Ads 目標類別 | CYBERBIZ 後台追蹤事件 |
             |------------------|------------------|

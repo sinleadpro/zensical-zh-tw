@@ -2,7 +2,7 @@
 title: 使用 UTM 參數追蹤行銷流量與分析成效
 description: 使用 UTM 參數標記行銷連結，追蹤流量來源並在 GA4 中分析各渠道成效。
 created: 2026-03-25 19:22
-last_modified: 2026-06-26 10:05
+last_modified: 2026-07-02 16:17
 lang: zh-TW
 type: tutorial
 status: ""
@@ -72,7 +72,7 @@ hide: []
 
 ![G4A 流量開發](../../../assets/images/ec-第三方整合-google-ga4-流量開發.png){ .hero-page }
 
-## 什麼是 UTM
+## UTM 說明
 
 **UTM (Urchin Tracking Module)** 是一種附加在網址後方的小型參數，用於標記流量來源資訊。透過 UTM，商家能讓 Google Analytics (GA4) 準確記錄使用者是從哪個廣告、社群平台或電子郵件進入網站，這對於分析行銷成效與流量歸因至關重要。
 
@@ -89,7 +89,19 @@ hide: []
 | `utm_term` | - | 多用於付費搜尋廣告中的關鍵字標記 | `跑步鞋`、`iPhone15` |
 | `utm_content` | - | 用於 A/B 測試<br>區分同一活動中不同的素材或連結位置 | `banner1`、`textlink_a` |
 
-## UTM 設定工具 <small>Campaign URL Builder</small>
+
+## 使用條件與限制
+
+為了確保數據能被 GA4 正確統計，請務必遵守以下規範：
+
+- [x] **英文大小寫需一致**：GA4 會區分大小寫，若同時使用 `Facebook` 與 `facebook`，系統會將其視為兩個不同的來源。
+- [x] **禁止空格與特殊符號**：空格會導致網址產生亂碼。建議以 **底線 (_)** 或 **短橫線 (-)** 代替空格。
+- [x] **統一使用英文字母**：避免使用中文字以防止編譯錯誤導致亂碼。
+- [x] **建立 UTM 命名總表**：建議商家建立一份綜合大表記錄所有設定過的名稱，方便團隊成員遵循統一命名規則。
+
+## 操作步驟
+
+### UTM 設定工具 <small>Campaign URL Builder</small>
 
 您可以使用 Google 官方提供的 [**Campaign URL Builder** :lucide-external-link:](https://ga-dev-tools.google/campaign-url-builder/) 快速生成連結：
 
@@ -102,16 +114,9 @@ hide: []
 
     ![Generated UTM URL](../../../assets/images/ec-第三方整合-utm-campaignurlbuilder-generatedurl.png)
 
-## UTM 參數格式與使用技巧
+---
 
-為了確保數據能被 GA4 正確統計，請務必遵守以下規範：
-
-- [x] **英文大小寫需一致**：GA4 會區分大小寫，若同時使用 `Facebook` 與 `facebook`，系統會將其視為兩個不同的來源。
-- [x] **禁止空格與特殊符號**：空格會導致網址產生亂碼。建議以 **底線 (_)** 或 **短橫線 (-)** 代替空格。
-- [x] **統一使用英文字母**：避免使用中文字以防止編譯錯誤導致亂碼。
-- [x] **建立 UTM 命名總表**：建議商家建立一份綜合大表記錄所有設定過的名稱，方便團隊成員遵循統一命名規則。
-
-## 於 GA4 報表中查看數據
+### 於 GA4 報表中查看數據
 
 !!! warning "請先確定完成 [GA4 與官網的串接](ga/setup-google-analytics.md){ title="建立並串接 Google Analytics" }，方可於 GA4 查看官網流量資訊。"
 
@@ -124,7 +129,7 @@ hide: []
 
 ![GA4 流量開發來源媒介](../../../assets/images/ec-第三方整合-ga4-流量開發-工作階段來源或媒介.gif)
 
-## CYBERBIZ 系統特殊整合應用
+## 後續操作
 
 <div class="grid cards" markdown>
 

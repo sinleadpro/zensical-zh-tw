@@ -1,8 +1,8 @@
 ---
 title: 串接美安通路
-description: 串接CYBERBIZ 官網與美安 (SHOP.COM)，透過經銷商會員管道銷售商品並增加品牌曝光。
+description: 串接 CYBERBIZ 官網與美安 (SHOP.COM)，透過經銷商會員管道銷售商品並增加品牌曝光。
 created: 2026-03-30 22:08
-last_modified: 2026-06-26 10:05
+last_modified: 2026-07-02 17:32
 lang: zh-TW
 type: tutorial
 status: ""
@@ -72,15 +72,16 @@ hide: []
 
 將您的 CYBERBIZ 官網與 **美安 (SHOP.COM)** 串接，能有效增加品牌曝光並透過其活躍的經銷商會員管道銷售商品。
 
-
-## 串接前準備與簽約
+## 使用條件與限制
 
 1.  **完成簽約**：店家需先與美安夥伴商店部門聯繫並完成簽約。
 2.  **提供基本資料**：店家需提供以下資訊給美安：統編、通訊地址、聯絡人資訊、佣金比例、網站名稱與 **網站網址**。
     *   **注意**：網址必須是 **獨立的自有網域**（如 `https://www.yourname.com.tw`），不可使用 CYBERBIZ 的子網域（如 `xxx.cyberbiz.co`）。
 3.  **取得參數**：美安會在收到資料後約 5 個工作天內提供專屬的 **OFFER_ID** 與 **Advertiser_id**。
 
-## 後台設定步驟
+## 操作步驟
+
+### 後台設定
 
 !!! warning "若您是在 2022 年前即串接美安的老客戶，請先聯繫 CYBERBIZ 客服開啟 **美安 API** 功能方可運作。"
 
@@ -92,7 +93,7 @@ hide: []
     *   **必填欄位**：商品名稱、網址、簡述、圖片、售價、定價、產品編號 (SKU) 與群組。
     *   **網址規範**：網址部分僅限 **英文與數字**，不能包含中文。
     *   **圖片規範**：必須使用 **RGB 模式的 JPG 檔**。
-    !!! info "欄位填寫設定，請參閱 [商品基本設定](../products/create-and-manage/create-update-products.md){ title="新增與更新商品" } 或 [Excel 大量匯入商品](../products/bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }。"
+    !!! info "欄位填寫設定，請參閱 [商品基本設定](../products/create-and-manage/create-update-products.md#operate-product-create-basic){ title="新增與更新商品" } 或 [Excel 大量匯入商品](../products/bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }。"
 3.  **提供 XML 檔案**：在同一個後台頁面複製「**產品資料 XML 表**」網址並提供給美安。
 
     ![第三方整合-美安-產品xml](../../assets/images/ec-第三方整合-美安-productxml.png){ title="第三方整合-美安-產品xml" }
@@ -105,7 +106,9 @@ hide: []
         - 直接預覽：將 XML 網址貼至瀏覽器，檢查是否能正常讀取。
         - 離線檢視：下載 XML 檔並轉換為 Excel 格式，以便快速核對大量商品的必填欄位。
 
-## 排除不欲上傳的商品
+---
+
+### 排除不欲上傳商品
 
 若有商品（如贈品或不適合美安銷售的品項）不希望在美安顯示，請在商品標籤欄位輸入「**贈品**」，可達成以下效果：
 
@@ -118,7 +121,9 @@ hide: []
 
 !!! warning "美安串接目前 **不支援**「排除product feed」標籤，僅能透過「贈品」標籤進行排除。"
 
-## 訂單測試流程
+---
+
+### 訂單測試流程
 
 在正式上線前，美安會進行訂單測試：
 
