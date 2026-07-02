@@ -2,7 +2,7 @@
 title: 電子票券設定指南
 description: 建立、販售、核銷與管理電子票券商品的完整操作手冊，涵蓋後台設定、顧客購買流程及門市操作。
 created: 2026-01-20 00:00
-last_modified: 2026-06-24 21:37
+last_modified: 2026-06-30 11:05
 lang: zh-TW
 type: guide
 status:
@@ -23,10 +23,13 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions:
   - TICKET
 intents:

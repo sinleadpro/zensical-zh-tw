@@ -2,7 +2,7 @@
 title: 建立與管理排程跑馬燈
 description: 在網站版面放上會自動輪播的橫幅廣告，並為每張廣告設定上架與下架時間，讓素材依檔期自動換檔，不必人工手動替換。
 created: 2026-06-10 15:31
-last_modified: 2026-06-24 12:17
+last_modified: 2026-06-30 11:01
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,13 +23,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 建立排程跑馬燈
@@ -63,7 +63,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5760
   - https://www.cyberbiz.io/support/?p=7863
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/configure-scheduled-carousels
 comments: false
 search:
   exclude: false

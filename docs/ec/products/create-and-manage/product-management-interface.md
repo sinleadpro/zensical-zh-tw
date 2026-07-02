@@ -2,7 +2,7 @@
 title: 商品管理介面總覽
 description: 快速了解 CYBERBIZ 商品管理後台功能，搜尋、篩選、批次操作與商品可見性設定。
 created: 2026-06-14 13:09
-last_modified: 2026-06-28 17:06
+last_modified: 2026-06-30 11:26
 lang: zh-TW
 type: quickstart
 status: ""
@@ -25,13 +25,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS 
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 商品管理介面總覽
@@ -67,9 +67,10 @@ paths:
   - 商品 > 所有商品
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=2017
   - https://www.cyberbiz.io/helpcenter/?p=2789
   - https://www.cyberbiz.io/support/?p=7424
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/products/create-and-manage/product-management-interface
 comments: false
 search:
   exclude: false

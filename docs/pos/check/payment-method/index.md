@@ -2,7 +2,7 @@
 title: 付款方式
 description: 管理 POS 前台提供的支付工具，包含現金、信用卡串接及行動支付。
 created: 2026-04-10 16:30
-last_modified: 2026-06-08 17:50
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -55,7 +55,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3060
-permalink: ""
+permalink: https://help.cyberbiz.io/pos/check/payment-method
 comments: false
 search:
   exclude: false

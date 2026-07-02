@@ -2,7 +2,7 @@
 title: 設定秘密商品群組
 description: 建立隱藏商品群組，透過專屬連結提供給特定顧客購買
 created: 2026-01-08 00:00
-last_modified: 2026-06-29 12:07
+last_modified: 2026-06-30 11:26
 lang: zh-TW
 type: tutorial
 status:
@@ -28,13 +28,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 如何設定秘密商品群組
@@ -62,9 +62,9 @@ paths:
   - 商品 > 所有商品
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/support/?p=25441#b
-  - https://www.cyberbiz.io/support/?p=1874
-permalink:
+  - https://www.cyberbiz.io/helpcenter/?p=3872
+  - https://www.cyberbiz.io/support/?p=20280
+permalink: https://help.cyberbiz.io/ec/products/categories-and-tags/secret-collection
 comments: false
 search:
   exclude: false

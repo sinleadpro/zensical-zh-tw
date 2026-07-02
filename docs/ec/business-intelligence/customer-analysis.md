@@ -2,7 +2,7 @@
 title: 消費顧客分析
 description: 以第一次下單時間切分新客與舊客，深入比較顧客數、訂單貢獻與回購表現。
 created: 2026-06-16
-last_modified: 2026-06-17 16:12
+last_modified: 2026-06-30 21:21
 lang: zh-TW
 type: tutorial
 status: ""
@@ -53,8 +53,9 @@ ui_components: []
 paths:
   - 分析報表 > 會員分析
 layouts: []
-wp_url: []
-permalink: "https://help.cyberbiz.io/ec/business-intelligence/customer-analysis/"
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=8261
+permalink: https://help.cyberbiz.io/ec/business-intelligence/customer-analysis
 comments: false
 search:
   exclude: false

@@ -2,7 +2,7 @@
 title: 設定導覽選單滑鼠移入自動展開
 description: 修改樣板程式碼，讓前台導覽選單在滑鼠移入時自動展開二層列表。
 created: 2025-03-03 16:40
-last_modified: 2026-06-24 16:46
+last_modified: 2026-06-30 11:01
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,10 +23,13 @@ audiences:
 difficulty: advanced
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 修改樣板程式碼以實現導覽選單自動展開
@@ -57,7 +60,7 @@ layouts:
   - 拖拉版型
 wp_url:
   - https://www.cyberbiz.io/support/?p=28145
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-appearance/navigation/setup-nav-menu-hover-expand
 comments: ""
 search:
   exclude: ""

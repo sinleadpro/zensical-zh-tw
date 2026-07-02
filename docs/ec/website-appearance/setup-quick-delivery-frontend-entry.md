@@ -2,7 +2,7 @@
 title: 設定快速到貨前台入口與專區
 description: 學習如何配置快速到貨專區的前台入口、自訂導覽列視覺樣式，以及透過版型編輯器優化專區內容展示。
 created: 2026-02-03 00:00
-last_modified: 2026-06-24 11:50
+last_modified: 2026-06-30 11:01
 lang: zh-TW
 type: tutorial
 status: ""
@@ -24,10 +24,10 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
+  - 企業
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
-  - 企業
 cyb_extensions:
   - NOW!
 intents:
@@ -59,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=12861
   - https://www.cyberbiz.io/support/?p=24278
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/website-appearance/setup-quick-delivery-frontend-entry
 comments: false
 search:
   exclude: false

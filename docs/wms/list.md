@@ -2,7 +2,7 @@
 title: 列表
 description: 電商倉儲（WMS）的訂單列表是商家管理出貨進度與庫存調度的核心介面，讓商家掌握每一筆訂單在倉庫內的作業階段。
 created: 2026-03-12 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -52,7 +52,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=9105
   - https://www.cyberbiz.io/helpcenter/?p=5744
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/list
 comments: false
 search:
   exclude: false

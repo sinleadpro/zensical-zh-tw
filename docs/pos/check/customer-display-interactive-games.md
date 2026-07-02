@@ -2,7 +2,7 @@
 title: 客顯互動遊戲
 description: 說明如何設定 POS 客顯螢幕的互動遊戲（如輪盤、抽紅包），透過趣味促銷活動吸引顧客並刺激特定商品銷售。
 created: 2026-04-07 17:30
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -59,7 +59,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=7666
-permalink: ""
+permalink: https://help.cyberbiz.io/pos/check/customer-display-interactive-games
 comments: false
 search:
   exclude: false

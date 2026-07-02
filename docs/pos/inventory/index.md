@@ -2,7 +2,7 @@
 title: 全通路庫存管理指南
 description: 本指南將引導您了解 CYBERBIZ POS 與 EC 系統的庫存協作機制，並提供進倉、調倉、出倉及盤點的標準操作流程。
 created: 2026-04-08 11:36
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: guide
 status: ""
@@ -63,8 +63,9 @@ paths:
   - 後台 > POS 功能 > 盤點單
   - 前台 > 庫存 > 庫存盤點
 layouts: []
-wp_url: []
-permalink: ""
+wp_url:
+  - https://www.cyberbiz.io/support/?p=27443
+permalink: https://help.cyberbiz.io/pos/inventory
 comments: false
 search:
   exclude: false

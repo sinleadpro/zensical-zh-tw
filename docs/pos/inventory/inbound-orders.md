@@ -2,7 +2,7 @@
 title: 進倉單
 description: 管理商品撥入倉庫的單據，支援手動發起、接收出倉請求或第三方供應商進貨等多種情境。
 created: 2026-04-09 18:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -62,8 +62,12 @@ paths:
   - 後台 > POS 功能 > 所有 POS 商店
   - 前台 > 庫存
 layouts: []
-wp_url: []
-permalink: ""
+wp_url:
+  - https://www.cyberbiz.io/support/?p=4750
+  - https://www.cyberbiz.io/support/?p=4781
+  - https://www.cyberbiz.io/support/?p=4799
+  - https://www.cyberbiz.io/support/?p=4814
+permalink: https://help.cyberbiz.io/pos/inventory/inbound-orders
 comments: false
 search:
   exclude: false

@@ -2,7 +2,7 @@
 title: 設定紅利點數
 description: 透過紅利點數建立會員回饋機制，吸引新客首購並提升舊客回購率。
 created: 2026-05-27 15:20
-last_modified: 2026-07-01 10:40
+last_modified: 2026-06-30 10:56
 lang: zh-TW
 type: tutorial
 status: ""

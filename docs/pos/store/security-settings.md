@@ -2,7 +2,7 @@
 title: 安全性設定
 description: 設定跨店訂單與顧客資訊查看權限、IP 白名單限制以及訂單來源通知，確保門市營運資料安全。
 created: 2026-04-17 11:30
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -61,7 +61,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/support/?p=27199
   - https://www.cyberbiz.io/support/?p=5231
-permalink: ""
+permalink: https://help.cyberbiz.io/pos/store/security-settings
 comments: false
 search:
   exclude: false

@@ -2,7 +2,7 @@
 title: 會員客服系統
 description: 學習如何配置官網內建的客服問答系統，包含設定問題主題、處理會員與訪客留言，以及管理訂單內的諮詢訊息。
 created: 2026-02-12 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 12:30
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,7 +23,11 @@ audiences:
   - admin
 difficulty: beginner
 tnb: trunk
-plans: []
+plans:
+  - 企業
+  - 專業
+  - 進階
+  - 高手
 cyb_extensions: []
 intents:
   - 設定客服問題主題
@@ -53,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=275
   - https://www.cyberbiz.io/support/?p=2754
-permalink: manage-member-customer-service
+permalink: https://help.cyberbiz.io/ec/members/member-customer-service-system
 comments: false
 search:
   exclude: false

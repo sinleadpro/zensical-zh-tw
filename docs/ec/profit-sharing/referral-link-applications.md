@@ -2,7 +2,7 @@
 title: 推薦碼連結的應用
 description: 取得推薦碼後，您可以透過製作短網址、QR Code 或設置 UTM 參數，將推薦連結整合至各種行銷管道（如 FB、IG、LINE 或實體文宣），並精確追蹤不同來源的導購成效。
 created: 2026-02-06 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 10:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -24,12 +24,9 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
+  - 企業
   - 進階
   - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
 cyb_extensions: []
 intents:
   - 製作推薦連結
@@ -59,9 +56,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4051
-  - https://www.cyberbiz.io/support/?p=1833
-  - https://www.cyberbiz.io/support/?p=39234
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/profit-sharing/referral-link-applications
 comments: false
 search:
   exclude: false

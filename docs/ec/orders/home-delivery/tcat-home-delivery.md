@@ -2,7 +2,7 @@
 title: 使用黑貓宅配出貨
 description: 批次下載黑貓宅配託運單、扣除運費並將訂單貨態更新為已出貨。
 created: 2026-05-12 15:53
-last_modified: 2026-06-30 10:18
+last_modified: 2026-07-01 09:39
 lang: zh-TW
 type: tutorial
 status: ""
@@ -44,7 +44,7 @@ features:
   - CYBER_幣扣款
 prerequisites:
   - 領取黑貓三聯空白託運單貼紙
-  - 設定公司物流地址
+  - 完成黑貓設定（寄件人地址）
 related:
   - "[[tcat-auto-call-driver]]"
   - "[[tcat-express-payment-settings]]"
@@ -68,7 +68,6 @@ ui_components:
 paths:
   - 訂單 > 所有訂單
   - 金物流 > 黑貓託運單
-  - 管理中心 > 一般設定 > 公司物流地址
   - 儲值中心
 layouts: []
 wp_url:
@@ -150,7 +149,7 @@ hide: []
 
 - [x] **領取黑貓三聯空白託運單貼紙**：致電黑貓宅急便 (02-412-8888) 領取「三聯空白託運單貼紙」(俗稱 A4 三模託運單)。若選擇 A4
 一般列印，系統列印的內容必須印在這款貼紙上，司機才會收件。
-- [x] **設定公司物流地址**：進入 管理中心 > 一般設定 > [公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" }，完整填寫縣市、區域與地址。未設定或地址不完整時，下載託運單會出現「缺少相關資訊」的錯誤。
+- [x] **黑貓寄件人地址**：至「金物流」>「[黑貓託運單](../../payments-and-logistics/setup-print-tcat-waybill.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" }」設定寄件人地址，若無設定則會導致出貨時出現「寄件人資訊不完整」的通知。
 - [x] **確認餘額或對帳狀態**：一般版商家請至 [儲值中心查看 Cyber幣餘額](../../website-management/points-deposits.md#cyber-coin-balance){ title="查詢 Cyber 幣餘額" data-preview }，確認足以支付運費；PLUS版 /
 企業版商家無此限制。
 - [x] **列印設備建議**：建議使用 **雷射印表機** 列印託運單，避免出貨條碼判讀異常。
@@ -170,13 +169,13 @@ hide: []
 4. **設定彈出視窗內欄位**：在跳出的「下載黑貓託運單」視窗中依序設定
     * **請選擇溫層**：選擇 **常溫** 、 **低溫(冷藏)** 或 **低溫(冷凍)** 。請確保 [規格與實寄包裹一致](#tcat-home-specs-mismatch)
     * **是否為易碎品**：選擇 **是** 或 **否** 。
-    * **寄件地址**：自動帶入 [公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" }，需要時可點 **更改** 臨時調整(僅本次有效)。
+    * **寄件地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [黑貓設定](../../payments-and-logistics/setup-print-tcat-waybill.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" } 中的地址），如需更改可於視窗內點擊 **「更改」** 按鈕編輯[^3]。
 
 
     * **同意條款**：勾選 **我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 黑貓合約規範** 。未勾選時下載按鈕無法點擊。
 
-    ??? quote "需要自訂黑貓寄件資訊？"
-         若你的黑貓寄件地址需要不同於公司物流地址(例如倉庫地址)，或需要自訂寄件人姓名、電話，請另到 **金物流 > 黑貓託運單** 於「[黑貓設定](../../payments-and-logistics/setup-print-tcat-waybill.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" data-preview }」區塊填寫並儲存。
+    ??? quote "需要自訂黑貓寄件人姓名 / 電話？"
+         若您希望託運單上的寄件人聯絡電話與姓名不同於預設值，可至 **金物流 > 黑貓託運單** 的「[黑貓設定](../../payments-and-logistics/setup-print-tcat-waybill.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" data-preview }」區塊填寫並儲存。
 
     ![黑貓宅配下載托運單-確認](../../../assets/images/EC-訂單-所有訂單-下載黑貓托運單-確認視窗.png){ title="黑貓宅配下載托運單-確認" }
 
@@ -192,6 +191,7 @@ hide: []
 
 [^1]: 若未出現選項，可能是因為訂單狀態不符或物流設定未完成。詳情參考 [常見問題：沒有下載托運單選項](#faq-tcat-home-missing-option)。 
 [^2]: 若沒有正常下載，請確認瀏覽器是否阻擋了彈跳視窗或廣告，允許本站彈跳視窗後重新點擊下載。更多疑難排解參考 [常見問題：無法下載托運單](#faq-tcat-home-download-no-response)
+[^3]: 修改後會同步更新該物流頁面地址，不同物流間及公司物流地址互不影響。
 
 ---
 
@@ -226,9 +226,7 @@ hide: []
 2. 儲存後重新執行下載。
 
 ??? info "關於地址來源的優先順序"
-    若您是首次使用，系統會自動帶入 管理中心 > 一般設定 > [公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" } 的資訊。
-
-    > **注意**：一旦「黑貓設定」頁面已有獨立地址資訊，修改「公司物流地址」將 **不會** 同步更新至黑貓設定。請務必在「黑貓託運單」頁面直接進行修改。
+    彈窗中的寄件地址預設帶入該物流上一次使用的地址（首次帶入「黑貓設定」中的地址）。修改「公司物流地址」將 **不會** 影響黑貓出貨的寄件地址，請至「金物流 > 黑貓託運單」頁面直接修改。
 
 
 ## 後續操作 { #tcat-home-next-steps }
@@ -263,7 +261,7 @@ hide: []
 
     * **瀏覽器阻擋彈跳視窗**：請檢查瀏覽器是否阻擋了彈跳視窗或廣告，允許本站彈跳視窗後重新點擊下載。
     * **Cyber 幣不足(一般版商家)**：請至 [儲值中心](../../website-management/points-deposits.md#cyber-coin-balance){ title="查詢 Cyber 幣餘額" data-preview } 儲值。
-    * **公司物流地址未設定**：至 管理中心 > 一般設定 > [公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" } 完成設定。
+    * **黑貓寄件人地址未設定**：至 金物流 > [黑貓託運單](../../payments-and-logistics/setup-print-tcat-waybill.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" } 完成設定。
     * **未勾選同意條款**：確認彈出視窗下方「我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 黑貓合約規範」已勾選。
 
 ??? quote "沒有「下載黑貓託運單」選項"

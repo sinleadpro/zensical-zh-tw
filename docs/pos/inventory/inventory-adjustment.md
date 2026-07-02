@@ -2,7 +2,7 @@
 title: 庫存調整
 description: 當實際商品數量與系統帳面庫存不符時，您可以透過盤盈、盤虧、銷貨或退貨等類別，快速更新 EC 或 POS 的庫存數據。
 created: 2026-04-08 15:30
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -65,9 +65,9 @@ paths:
   - POS 後台 > POS 功能 > 所有 POS 商店
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/support/?p=4911
   - https://www.cyberbiz.io/support/?p=3025
-permalink: ""
+  - https://www.cyberbiz.io/support/?p=4911
+permalink: https://help.cyberbiz.io/pos/inventory/inventory-adjustment
 comments: false
 search:
   exclude: false

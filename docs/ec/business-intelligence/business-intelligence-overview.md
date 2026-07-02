@@ -2,7 +2,7 @@
 title: 圖表總覽
 description: 透過圖表總覽在單一頁面掌握網路商店與實體門市的關鍵經營數據，並與同業基準互相對照，快速找出可優化的項目。
 created: 2026-06-15 10:01
-last_modified: 2026-06-30 12:11
+last_modified: 2026-06-30 21:21
 lang: zh-TW
 type: tutorial
 status: ""
@@ -44,7 +44,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2974
   - https://www.cyberbiz.io/support/?p=8275
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/business-intelligence/business-intelligence-overview
 comments: ""
 search:
   exclude: ""

@@ -2,7 +2,7 @@
 title: 設定商品配送條件（物流、溫層與出貨通路）
 description: 設定商品的配送溫層與物流，並以一般宅配與貨到付款為例，說明運費設定、商品綁定及結帳拆單行為。
 created: 2026-01-06 00:00
-last_modified: 2026-06-29 20:27
+last_modified: 2026-06-30 11:26
 lang: zh-TW
 type: tutorial
 status:
@@ -27,13 +27,13 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 feature_badges: []
 intents:
@@ -75,7 +75,9 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2221
+  - https://www.cyberbiz.io/helpcenter/?p=2249
   - https://www.cyberbiz.io/support/?p=2107
+  - https://www.cyberbiz.io/support/?p=2131
 permalink: https://help.cyberbiz.io/ec/products/shipping/setup-product-shipping-conditions
 comments: false
 search:

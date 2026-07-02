@@ -2,7 +2,7 @@
 title: 指定商品送優惠券
 description: 建立「優惠券群組」，當會員購買指定商品並完成訂單後，系統自動發送優惠券至其帳戶，提升回購率與客戶忠誠度。
 created: 2026-01-21 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 10:56
 lang: zh-TW
 type: tutorial
 status: ""

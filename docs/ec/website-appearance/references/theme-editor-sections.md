@@ -1,8 +1,8 @@
 ---
-title: theme-editor-sections
+title: 可新增區塊類型對照表
 description: ""
 created: 2026-06-10 17:20
-last_modified: 2026-06-11 17:22
+last_modified: 2026-06-30 22:17
 lang: zh-TW
 type: reference
 status: ""
@@ -66,9 +66,9 @@ hide:
 
 !!! note "註釋"
     * 上表為常見的可新增區塊,**實際可新增的區塊與其名稱會依您安裝的拖拉版型與方案而不同**,請以編輯器內「新增區塊」清單顯示的為準。
-    * 各區塊的詳細欄位(圖片尺寸、輪播秒數、商品欄數、邊距等)請見 [各頁面設定](../theme-editor-page-settings.md){ title="各頁面設定" }。
-    * **商品頁面為固定區塊**(商品資訊、商品介紹、相關商品、商品評論,其中商品評論需開通加值功能),不會出現在「新增區塊」清單中,設定方式見 [各頁面設定](../theme-editor-page-settings.md#product){ title="各頁面設定" }。
-    * **彈窗廣告、頁首選單、頁尾屬於全站共用設定**,不是可新增區塊;彈窗廣告的設定見 [全站共用設定](../theme-editor-global-settings.md#popup){ title="全站共用設定" }。
+    * 各區塊的詳細欄位(圖片尺寸、輪播秒數、商品欄數、邊距等)請見 [各頁面設定](../theme-and-layout/theme-editor.md#各頁面設定){ title="拖拉版型網站設定" }。
+    * **商品頁面為固定區塊**(商品資訊、商品介紹、相關商品、商品評論,其中商品評論需開通加值功能),不會出現在「新增區塊」清單中,設定方式見 [各頁面設定](../theme-and-layout/theme-editor.md#product){ title="拖拉版型網站設定" }。
+    * **彈窗廣告、頁首選單、頁尾屬於全站共用設定**,不是可新增區塊;彈窗廣告的設定見 [全站共用設定](../theme-and-layout/theme-editor.md#全站共用設定){ title="拖拉版型網站設定" }。
     * 部分區塊底下還包含多個小區塊(如輪播素材的每一張圖片、自訂排版設計的每個元件),可點入後逐一設定。
 
 

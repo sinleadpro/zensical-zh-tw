@@ -2,7 +2,7 @@
 title: POS 系統串倉庫存轉調
 description: 同時使用 EC、POS 與 WMS 服務時，執行門市調貨、查看 WMS 庫存配置以及在線上/線下倉別間進行庫存轉調。
 created: 2026-03-20 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: guide
 status: ""
@@ -58,7 +58,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=28494
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/pos-warehouse-inventory-transfer
 comments: false
 search:
   exclude: false

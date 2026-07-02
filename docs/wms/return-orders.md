@@ -2,7 +2,7 @@
 title: 退貨單
 description: 在電商倉儲系統處理退貨申請，包含派車取件、驗收狀態說明以及後續退款流程執行。
 created: 2026-03-19 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -55,8 +55,9 @@ paths:
   - 退貨單 > 新增退貨單
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=5747
   - https://www.cyberbiz.io/support/?p=9139
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/return-orders
 comments: false
 search:
   exclude: false

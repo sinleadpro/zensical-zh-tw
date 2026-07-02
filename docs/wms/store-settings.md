@@ -2,7 +2,7 @@
 title: 商店設定
 description: 定義商店的識別名稱、簡訊發送人與聯繫資訊，確保電商倉儲系統的物流與通訊流程具備正確的基礎資料。
 created: 2026-03-25 20:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -50,7 +50,7 @@ paths:
   - 設定 > 商店設定
 layouts: []
 wp_url: []
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/store-settings
 comments: false
 search:
   exclude: false

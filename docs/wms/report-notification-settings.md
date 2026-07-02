@@ -2,7 +2,7 @@
 title: 報表通知設定
 description: 重要的營運數據與庫存警示主動送達指定信箱。商家無需每日登入後台手動匯出，相關人員即可掌握關鍵資訊。
 created: 2026-03-19 00:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -53,7 +53,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=48336
-permalink: ""
+permalink: https://help.cyberbiz.io/wms/report-notification-settings
 comments: false
 search:
   exclude: false

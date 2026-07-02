@@ -2,7 +2,7 @@
 title: 推薦人分潤
 description: 透過建立推薦人分潤方案，您可以針對不同合作對象（如網紅、會員或員工）設定專屬的業績抽成比例與消費者回饋。
 created: 2026-02-06 00:00
-last_modified: 2026-06-22 11:15
+last_modified: 2026-06-30 10:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -24,12 +24,9 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
+  - 企業
   - 進階
   - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
 cyb_extensions: []
 intents:
   - 建立分潤方案
@@ -56,15 +53,15 @@ paths:
   - 行銷活動 > 推薦人分潤
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=4116
+  - https://www.cyberbiz.io/helpcenter/?p=579
   - https://www.cyberbiz.io/helpcenter/?p=597
   - https://www.cyberbiz.io/helpcenter/?p=608
-  - https://www.cyberbiz.io/helpcenter/?p=579
-  - https://www.cyberbiz.io/helpcenter/?p=4116
+  - https://www.cyberbiz.io/support/?p=1833
   - https://www.cyberbiz.io/support/?p=1864
   - https://www.cyberbiz.io/support/?p=23951
-  - https://www.cyberbiz.io/support/?p=1833
   - https://www.cyberbiz.io/support/?p=39234
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/profit-sharing/referrer-profit-sharing
 comments: false
 search:
   exclude: false

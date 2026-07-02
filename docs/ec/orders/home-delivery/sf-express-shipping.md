@@ -2,7 +2,7 @@
 title: 使用順豐出貨
 description: 使用順豐託運單批次或單筆下載出貨，系統自動與順豐即時取號，將訂單貨態更新為已出貨，支援國內台灣本島及海外配送。
 created: 2026-05-20 20:25
-last_modified: 2026-06-30 10:31
+last_modified: 2026-07-01 09:39
 lang: zh-TW
 type: tutorial
 status: ""
@@ -42,7 +42,7 @@ features:
   - 順豐貨到付款
   - 順豐OpenAPI
 prerequisites:
-  - 需先完成公司物流地址設定
+  - 需先完成順豐設定（寄件人地址）
   - 需先完成公司統一編號設定
   - 需先開通順豐託運單加值功能
 related:
@@ -63,7 +63,6 @@ ui_components: []
 paths:
   - 訂單 > 所有訂單
   - 金物流 > 順豐託運單
-  - 一般設定 > 公司物流地址
   - 一般設定 > 公司聯絡資訊
 layouts: []
 wp_url:
@@ -107,7 +106,7 @@ hide: []
 
 第一次使用順豐託運單前，請先完成以下設定，缺一項都會導致託運單無法順利產生或寄件人資訊不完整：
 
-- [x] **公司物流地址**：至「一般設定」>「[公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" }」設定寄件地址(縣市、鄉鎮市區、郵遞區號、詳細地址)。
+- [x] **順豐寄件人地址**：至「金物流」>「[順豐託運單](../../payments-and-logistics/setup-sf-express-waybill.md#configure-sf-waybill-sender){ title="設定順豐託運單" }」設定寄件人地址，若無設定則會導致出貨時出現「寄件人資訊不完整」的通知。
 - [x] **公司統一編號**：至「一般設定」>「[公司聯絡資訊](../../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="設定網站基本資訊" }」輸入統編。**寄送海外件時為必填欄位[^1]**。
 - [x] **順豐寄件人資訊**(選用)：若您希望託運單上的寄件人聯絡電話與「公司聯絡資訊」不同，可在 **順豐託運單設定頁** 另行指定寄件人姓名與電話。詳情參考 [設定順豐託運單寄件人資訊](../../payments-and-logistics/setup-sf-express-waybill.md#configure-sf-waybill-sender){ title="順豐設定" data-preview }。
 
@@ -157,7 +156,7 @@ hide: []
     * **訂單清單**：顯示本次勾選的訂單編號與配送方式，確認無誤後再繼續。
     * **配送商品尺寸與費用**：視窗中會顯示一張價目表，列出各規格對應的 Cyber 幣費用供參考[^3]。
     - **預估 Cyber 幣**：一般版[^4] 商家會在視窗中看到本次預扣的 Cyber 幣、目前帳戶餘額，以及「儲值」按鈕。
-    * **寄件人地址**：預設帶入「[公司物流地址](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="設定網站基本資訊" }」，如本次出貨需使用不同地址，可在視窗內 **「更改」** 按鈕直接編輯縣市 / 鄉鎮市區 / 郵遞區號 / 地址。
+    * **寄件人地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [順豐設定](../../payments-and-logistics/setup-sf-express-waybill.md#configure-sf-waybill-sender){ title="設定順豐託運單" } 中的地址），如需更改可於視窗內點擊 **「更改」** 按鈕編輯[^6]。
 5. **閱讀注意事項**：視窗會列出出貨提醒[^5]，請務必確認後再進行下一步。
 6. **同意條款**：勾選 **「我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 順豐合約規範」**(預設已勾選)，確認按鈕方會啟用。
 7. **點擊「下載」**：系統會呼叫順豐依勾選的訂單數量逐筆取得託運單號，並下載一份 ZIP [壓縮檔](#reference-sf-bulk-shipping-files)。
@@ -169,6 +168,7 @@ hide: []
 [^3]: 實際扣抵的尺寸由系統依訂單品項的材積自動判定，不需手動選擇。
 [^4]: PLUS版 / 企業版不會顯示此區塊，費用直接列入對帳單，不需在印單前確認餘額。
 [^5]: 超尺寸建議拆箱、託運單失效規則、繁盛期加收、消費者拒收費用、特殊地點規定。
+[^6]: 修改後會同步更新該物流頁面地址，不同物流間及公司物流地址互不影響。
 
 ---
 

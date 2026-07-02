@@ -2,7 +2,7 @@
 title: 設定站內搜尋功能
 description: 設定站內搜尋功能，說明搜尋範圍、分詞邏輯、後台管理與 GA4 追蹤設定。
 created: 2026-04-15 10:20
-last_modified: 2026-06-29 14:46
+last_modified: 2026-06-30 11:26
 lang: zh-TW
 type: tutorial
 status: ""
@@ -24,13 +24,13 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
+  - 專業
+  - 專業PLUS
+  - 進階
+  - 進階PLUS
+  - 高手
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 設定站內搜尋
@@ -64,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8765
   - https://www.cyberbiz.io/support/?p=23999
-permalink: ""
+permalink: https://help.cyberbiz.io/ec/products/discoverability/setup-site-search
 comments: ""
 search:
   exclude: false

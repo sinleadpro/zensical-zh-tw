@@ -2,7 +2,7 @@
 title: 紅利商城 (EC)
 description: 建立專屬的線上紅利兌換商城，設定商品兌換所需點數，透過紅利積點機制提升會員回訪與品牌忠誠度。
 created: 2026-01-21 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-06-30 10:56
 lang: zh-TW
 type: tutorial
 status: ""
@@ -24,9 +24,6 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -56,8 +53,8 @@ paths:
   - 行銷活動 > 紅利商城
 layouts: []
 wp_url:
-  - https://www.cyberbiz.io/helpcenter/?p=7882
   - https://www.cyberbiz.io/helpcenter/?p=7880
+  - https://www.cyberbiz.io/helpcenter/?p=7882
   - https://www.cyberbiz.io/support/?p=10679
   - https://www.cyberbiz.io/support/?p=10711
 permalink: https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/bonus-point-mall
