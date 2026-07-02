@@ -2,7 +2,7 @@
 title: 7-11 C2C 退貨便 — 訂單發送條件對照表
 description: ""
 created: 2026-05-26 14:24
-last_modified: 2026-05-26 14:52
+last_modified: 2026-07-02 08:52
 lang: zh-TW
 type: reference
 status: ""
@@ -89,21 +89,6 @@ hide:
 
 !!! note "註釋"
     若訂單已進入「退貨審查」或「已退貨」階段，系統會視為退貨流程已啟動或完成，不允許再次發送代碼。如需重新發送(例如代碼已過期)，請先聯繫 CYBERBIZ 客服協助處理訂單狀態。
-
-
-## 後續操作
-
-<div class="grid cards" markdown>
-
-- :lucide-import:{ .lg }
-[____]()
-。
-
-- :lucide-ban:{ .lg }
-[____]()
-。
-
-</div>
 
 ## 常見問題
 
