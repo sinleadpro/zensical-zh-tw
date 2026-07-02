@@ -2,7 +2,7 @@
 title: 申請與設定 LINE 購物導購
 description: 申請 LINE 購物導購並完成後台串接設定，將 LINE 購物流量導入官網下單。
 created: 2026-03-13 10:46
-last_modified: 2026-06-26 10:05
+last_modified: 2026-07-02 10:38
 lang: zh-TW
 type: tutorial
 status:
@@ -65,8 +65,6 @@ hide: []
 
 **LINE 購物** 是一個結合導購、點數回饋、比價的電商平台。透過將官網與 LINE 購物串接，商家可以利用 LINE 購物 APP 或其官方帳號入口，將顧客導購至官網下單。
 
-以下為 LINE 購物的申請流程、後台設定及相關注意事項：
-
 ## 重要提醒
 
 *   **適用版本**：此功能僅提供給 **PLUS版 及企業版** 用戶使用。
@@ -75,16 +73,7 @@ hide: []
 
 ## 申請開通流程
 
-1.  **填寫申請表**：商家需先填寫申請表以取得更多資訊，後續將有 LINE 專人聯繫說明。
-
-    ??? abstract "LINE 購物開通申請表單"
-        <div style="position: relative; padding-bottom: 120%; height: 0; overflow: hidden;">
-          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeaMKpcK0DOaTvZDy_229oV3mV_k50-oKKTljdGh9sUXuRD1A/viewform?embedded=true" 
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" 
-            frameborder="0">
-          </iframe>
-        </div>
-
+1.  **填寫申請表**：商家需先填寫[申請表 :lucide-external-link:](https://docs.google.com/forms/d/e/1FAIpQLSeaMKpcK0DOaTvZDy_229oV3mV_k50-oKKTljdGh9sUXuRD1A/viewform)以取得更多資訊，後續將有 LINE 專人聯繫說明。
 2.  **資格審核**：由 LINE 進行前期接洽與資格審核，審核通過後 LINE 會通知 CYBERBIZ 開通資格。
 3.  **開啟協助權限**：商家需在 CYBERBIZ 後台開啟協助權限，以便專員協助設定參數。
     *   **路徑**：「管理中心」>「網站權限」>「管理者列表」。
