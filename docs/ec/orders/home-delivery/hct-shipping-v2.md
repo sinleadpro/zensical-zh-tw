@@ -167,9 +167,6 @@ hide: []
 
 - **寄件人地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [新竹物流設定](../../payments-and-logistics/setup-hct-waybill-v2.md#operate-hct-setup-sender){ title="設定新竹物流託運單" } 中的地址），如需更改可於視窗內點擊 **「更改」** 按鈕編輯[^2]。
 
-![下載新竹物流託運單-確認彈窗](../../../assets/images/EC-訂單-所有訂單-下載新竹物流託運單-確認彈窗.png){ title="下載新竹物流託運單-確認彈窗" }
-
-
 ---
 
 ### 四、確認下載 { #operate-hct-shipping-download }
