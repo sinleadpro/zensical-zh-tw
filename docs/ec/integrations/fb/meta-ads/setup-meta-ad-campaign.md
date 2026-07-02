@@ -2,7 +2,7 @@
 title: 設定 Meta 廣告活動
 description: 透過 CYBERBIZ Meta Ads App 管理 Meta 廣告活動，設定廣告預算、目標受眾與素材，掌握廣告投放成效。
 created: 2026-04-20 14:54
-last_modified: 2026-06-26 10:05
+last_modified: 2026-07-02 11:48
 lang: zh-TW
 type: tutorial
 status: ""
@@ -85,12 +85,12 @@ hide: []
 
 在 CYBERBIZ 後台完成 Meta 廣告活動配置。透過此整合功能，您可以直接管理廣告預算、目標與素材，無需頻繁切換至 Meta 後台進行操作。
 
-## 使用前提
+## 使用條件與限制
 
 在開始設定之前，請確認已完成以下前置作業：
 
 - [x] **重新 [串接 Facebook 商業擴充套件](../mbe/setup-fbe-authorization.md){ title="設定 FBE 帳號授權與資產連結" }**：因應 Meta 系統更新，建議商家務必重新串接一次，以確保資料同步正常。
-- [x] **完成 [廣告帳號建立與儲值](create-meta-ad-account-top-up.md){ title="建立 Meta 廣告帳號並完成儲值" }**：必須先完成廣告帳號申請，且 **廣告金儲值需大於新台幣 15,000 元** 後方可開始投放。
+- [x] **完成 [廣告帳號建立與儲值](create-meta-ad-account-top-up.md){ title="建立 Meta 廣告帳號並完成儲值" }**：必須先完成廣告帳號申請，且儲值後方可開始投放。
 
 ## 創建廣告活動流程
 
