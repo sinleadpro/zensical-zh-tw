@@ -1,9 +1,8 @@
 ---
-
 title: 設定網站基本資訊
 description: 進行網站基本資訊、公司聯繫方式、物流地址及後台語系等核心設置。
 created:
-last_modified: 2026-06-30 08:02
+last_modified: 2026-07-02 18:12
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-management/setup-store-basic-info
 type: tutorial
@@ -86,11 +85,6 @@ icon: lucide/store
 hide:
 ---
 
-# 設定網站基本資訊
-
-集中設定網站名稱、公司聯絡與發票資訊、訂單編號格式，以及後台與前台的語言、幣別顯示方式。
-{ .subtitle }
-
 ![一般設定頁面](../../assets/images/ec-general-preferences-hero.png){ title="一般設定頁面" .hero-page }
 
 ## 一般設定說明 { #intro-general-preferences }
@@ -146,7 +140,7 @@ hide:
 填寫顯示在官網與發票上的基本資料。
 
 1. **進入一般設定：** 前往後台路徑「管理中心」>「一般設定」。
-2. **填寫網站名稱：** 在「關於您的網站」區塊，於「網站名」填入品牌或商店名稱（中文字請勿超過 15 字，英文字請勿超過 30 字）[^e]；並填入聯絡用的「Email」[^f]。
+2. **填寫網站名稱：** 在「關於您的網站」區塊，於「網站名」填入品牌或商店名稱[^e]（中文字請勿超過 15 字，英文字請勿超過 30 字）；並填入聯絡用的「Email」[^f]。
 
     ![關於您的網站](../../assets/images/ec-管理中心-一般設定-關於網站.png){ title="關於您的網站" }
 
@@ -171,7 +165,7 @@ hide:
 
 ### 設定退貨退件地址 { #operate-general-preferences-return-address }
 
-「公司物流地址」用於當您的店到店超商包裹退回原寄件門市卻未取件時，系統將以宅配到付退回的收件地址。此地址也會作為 [黑貓宅急便](../orders/home-delivery/tcat-home-delivery-v2.md){ title="使用黑貓宅配出貨" } 或宅配通配送時的預設寄件地址。若未設定，則會使用您的公司地址[^b]。
+「公司物流地址」用於當您的店到店超商包裹退回原寄件門市卻未取件時，系統將以宅配到付退回的收件地址。
 
 1. **進入一般設定：** 前往「管理中心」>「一般設定」，找到「公司物流地址」區塊。
 2. **填寫退件地址：** 於地址欄位選擇縣市、區域並填入詳細地址，作為包裹退回的收件處。

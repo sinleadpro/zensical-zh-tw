@@ -2,7 +2,7 @@
 title: 操作超商退貨便 C2B
 description: 設定及操作 7-11 超商退貨便 (C2B)
 created:
-last_modified: 2026-07-01 12:00
+last_modified: 2026-07-02 18:50
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/returns-refunds/cvs-c2b-return
 type: tutorial
@@ -68,7 +68,7 @@ icon: lucide/corner-down-left
 hide:
 ---
 
-![超商退貨便](../../../assets/images/ec-金物流-超商物流-退貨便.png){ title="超商退貨便" .hero-page }
+![超商退貨便 C2B](../../../assets/images/ec-logistics-cvs-c2b-return.png){ title="超商退貨便 C2B" .hero-page }
 
 ## 超商取貨退貨便 C2B 說明
 
@@ -91,13 +91,15 @@ hide:
         end
     ```
 
-## 使用前提與費用
+## 使用前提與限制
 
 - [x] **版本限制：** 此功能主要供 **企業版** 或 **高手 PLUS版** 商家使用。
 - [x] **開通條件：** 若要使用 7-11 C2B 退貨便，商家必須 [先申請開通「超商大宗寄倉 (B2C)」](../../payments-and-logistics/setup-cvs-b2c-bulk-shipping.md)服務。
 - [x] **原訂單限制：** 使用退貨便收回包裹的 **原訂單不一定要使用超商出貨**；不論原配送方式為何，皆可使用超商退貨逆物流。
 - [x] **服務費用：** 目前退貨便價格固定為 **$40**（不論由商家或消費者負擔）。若選擇以簡訊發送代碼，將額外發送一封簡訊。
-- [x] **代碼時效：** 退貨便代碼有效期限為 **申請當日加六天（共七天）**，逾期將失效。
+- [x] **代碼時效：** 退貨便代碼有效期限為 **申請當日加六天（共七天）**[^code-valid]，逾期將失效。
+
+[^code-valid]: 例如：商家於 7 月 1 日產生退貨便代碼，則有效期至 7 月 7 日（含申請當日共 7 天）。
 
 ## 步驟一：後台設定收款方式
 
@@ -118,16 +120,16 @@ hide:
 當顧客提出退貨申請後，商家可依以下步驟產出代碼：
 
 1. 進入後台 **訂單 > 所有訂單**，找到該筆訂單。
-
 2. 確認訂單貨態為 **已收貨**（串接物流）或 **已出貨**（自訂物流）。
-
 3. 勾選訂單後，點擊右上方 **更多操作**，選擇 **發送超商退貨便代碼並將貨態改為退貨中**。
+
+    ![發送 C2B 超商退貨便代碼](../../../assets/images/ec-orders-cvs-c2b-return-send-code.png){ title="發送 C2B 超商退貨便代碼" }
 
 4. 在彈跳視窗中選擇是否要透過 **簡訊** 或 **Email** 將代碼寄送給消費者，然後點擊 **確認**。
 
-5. 商家可在 **訂單備註** 中查看已產出的退貨便代碼。
+    ![C2B 超商退貨便發送方式彈跳視窗](../../../assets/images/ec-orders-cvs-c2b-return-send-method-dialog.png){ title="C2B 超商退貨便發送方式彈跳視窗" }
 
-![發送超商退貨代碼](../../../assets/images/ec-訂單-發送超商退貨代碼.png){ title="發送超商退貨代碼" }
+<!-- 5. 商家可在 **訂單備註** 中查看已產出的退貨便代碼。 -->
 
 ## 步驟三：消費者端寄件流程
 
