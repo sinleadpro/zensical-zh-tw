@@ -2,7 +2,7 @@
 title: 設定與管理 LINE Tag
 description: 設定 LINE Tag ID，並追蹤 LINE OA 訊息推播或 LINE LAP 廣告帶來的轉換成效。
 created: 2026-03-10 15:13
-last_modified: 2026-06-26 10:05
+last_modified: 2026-07-02 10:19
 lang: zh-TW
 type: tutorial
 status: ""
@@ -213,7 +213,7 @@ LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，�
 ??? quote "LINE Tag 的數據會跟 Google Analytics (GA4) 有落差嗎？"
     會的。這是正常的現象。兩者的 **歸因模型** 不同（例如 LINE 可能採計點擊後 30 天內的轉換，而 GA4 有其定義），且若消費者在 LINE 內置瀏覽器開啟後切換到 Safari/Chrome 完成購買，可能會導致追蹤遺失。
 
-??? quote "我需要手動在每個商品頁埋設 ViewContent 代碼嗎？"
+??? quote "我需要手動在每個商品頁埋設 `ViewContent` 代碼嗎？"
     不需要。CYBERBIZ 系統已完成深度整合，只要您在後台填入正確的 Tag ID，系統會自動在對應頁面發送 `ViewContent`、`AddToCart` 與 `Purchase` 等事件，並帶入金額與商品資訊。
 
 ??? quote "如果我同時有兩個 LINE 官方帳號，可以填兩個 Account ID 嗎？"

@@ -2,7 +2,7 @@
 title: "設定 LINE 團購群組"
 description: "設定 LINE 團購群組的分潤方案、商品分類與活動時間，讓團購主在 LINE 群組內進行團購活動"
 created: "2026-03-12 12:14"
-last_modified: 2026-06-30 00:00
+last_modified: 2026-07-02 10:26
 lang: zh-TW
 type: tutorial
 status:
@@ -67,8 +67,6 @@ hide: []
 ## LINE 團購群組說明
 
 **「LINE 團購群組設定」** 是 LINE 團購功能的核心環節，商家可在此設定群組對應的分潤方案、代碼，管理活動內容並查看歷史紀錄。
-
-以下為 LINE 團購群組設定的詳細操作說明：
 
 ## 前置必要作業
 

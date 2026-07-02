@@ -2,7 +2,7 @@
 title: 商品多國語系可翻譯欄位對照表
 description: ""
 created: 2026-06-04 09:42
-last_modified: 2026-06-04 11:03
+last_modified: 2026-07-02 10:05
 lang: zh-TW
 type: reference
 status: ""
@@ -28,14 +28,9 @@ features: []
 prerequisites: []
 related: []
 tags:
-  - EC
   - 多國語系
   - 支援語言
   - 翻譯
-  - Multi-language
-  - Reference
-  - 對照表
-  - 全球化
 acoiv: ""
 apis: []
 devices:
