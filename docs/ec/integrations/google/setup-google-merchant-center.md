@@ -2,7 +2,7 @@
 title: 設定 Google Merchant Center 並同步 CYBERBIZ 商品
 description: 串接 Google Merchant Center、同步商品資料至 Google 搜尋與購物廣告。
 created: 2026-03-05 10:00
-last_modified: 2026-06-26 10:05
+last_modified: 2026-07-02 14:16
 lang: zh-TW
 type: tutorial
 status: ""
@@ -75,7 +75,7 @@ comments: false
 
 **Google Merchant Center (GMC)** [:lucide-external-link:](https://www.google.com/retail/solutions/merchant-center/) 是 Google 提供的商品資料管理平台，可將商品資訊同步至 Google 搜尋結果中的購物區塊及 Google 購物廣告，藉此提升商品曝光與轉換成效。[了解更多 :lucide-external-link:](https://support.google.com/merchants/answer/12159157?hl=zh-Hant)
 
-!!! note "為什麼要使用 GMC"
+!!! tip "為什麼要使用 GMC"
     - **提升商品曝光**：商品會出現在 Google 搜尋結果的購物區塊，增加潛在顧客瀏覽量。
     - **精準投放廣告**：搭配 Google Ads 推廣商品，鎖定目標受眾，提高轉換率。
     - **自動化管理**：自動同步商品庫存、價格與圖片，減少手動維護工作。
@@ -113,7 +113,7 @@ comments: false
 
     ![GMC 複製HTML標記](../../../assets/images/ec-gmc-複製html標記.png){ title="GMC 複製HTML標記" }
 
-3.  **貼至 CYBERBIZ 後台**：進入「網站外觀」>「套版主題管理」>「CSS/HTML 編輯器」> 將標籤貼在 `</head>` 上方
+3.  **貼至 CYBERBIZ 後台**：進入「網站外觀」>「套版主題管理」>「CSS/HTML 編輯器」，搜尋 `theme.liquid` 檔案，將標籤貼在 `</head>` 上方
 
     ![GMC 埋HTML標記](../../../assets/images/ec-網站外觀-樣板編輯器-theme-liquid-埋gmchtml標記.png){ title="GMC 埋HTML標記" }
 
