@@ -2,7 +2,7 @@
 title: "建立並串接 Google Analytics"
 description: "串接 Google Analytics 4 (GA4)，包括 Google 端帳號建立、取得評估 ID，以及在 CYBERBIZ 後台填入追蹤 ID 的完整步驟。" 
 created: "2026-03-20 14:54"
-last_modified: 2026-06-26 10:05
+last_modified: 2026-07-02 16:28
 lang: zh-TW
 type: tutorial
 status: ""
@@ -72,11 +72,13 @@ hide: []
 
 ![GA4 串接設定](../../../../assets/images/ec-第三方整合-google-ga4設定.png){ .hero-page title="GA4 串接設定" }
 
-## 什麼是 Google Analytics
+## Google Analytics 說明
 
 Google Analytics (GA4) 是經營品牌網站必備的分析工具，能協助行銷人員追蹤流量與使用者行為。串接程序主要分為 **Google 後台帳號建立** 與 **官網後台編號填入** 兩大步驟。
 
-## 建立 Google Analytics 帳號 <small>Google 端操作</small>
+## 操作步驟
+
+### 建立 Google Analytics 帳號 <small>Google 端操作</small>
 
 1.  **登入 GA 後台**：進入 [Google Analytics :lucide-external-link:](https://analytics.google.com/)，點擊「開始評估」。
 
@@ -102,8 +104,9 @@ Google Analytics (GA4) 是經營品牌網站必備的分析工具，能協助行
 
 !!! info "詳細設定說明，可參考[官方說明 :lucide-external-link:](https://support.google.com/analytics/answer/9304153?hl=zh-Hant&ref_topic=14088998&sjid=385438859130631159-NC)。"
 
-## 將 GA4 帳號串連至官網 <small>CYBERBIZ 後台操作</small>
+---
 
+### 將 GA4 帳號串連至官網 <small>CYBERBIZ 後台操作</small>
 
 !!! warning "注意事項"
 

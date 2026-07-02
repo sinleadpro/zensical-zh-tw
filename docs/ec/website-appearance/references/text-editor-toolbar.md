@@ -2,7 +2,7 @@
 title: 文字編輯器對照表
 description: 彙整文字編輯器的斜線指令、YouTube 影片設定選項與圖片規格，供編輯內容時快速查閱。
 created: 2026-06-30 15:19
-last_modified: 2026-06-30 15:19
+last_modified: 2026-07-02 16:02
 lang: zh-TW
 type: reference
 status: ""
@@ -30,8 +30,6 @@ prerequisites: []
 related:
   - "[[text-editor]]"
 tags:
-  - EC
-  - 參考資料
   - 文字編輯器
   - 斜線指令
   - YouTube

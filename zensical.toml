@@ -584,7 +584,7 @@ copyright = """
             ]}
         ]},
         { "管理中心" = [
-            { "overview" = "ec/website-management/index.md" },
+            { "管理中心總覽" = "ec/website-management/index.md" },
             { "網站設定" = [
                 { "網站基本資訊" = "ec/website-management/setup-store-basic-info.md" },
                 { "設定多國語言與多幣別" = "ec/website-management/setup-multi-language-and-multi-currency.md" },

@@ -2,7 +2,7 @@
 title: 頁腳聯絡資訊欄位對照表
 description: 官網頁腳「聯絡資訊」區塊可顯示的各項欄位與用途對照，包含統一編號、電話、地址等揭露資訊。
 created: 2026-06-22 10:00
-last_modified: 2026-06-24 12:09
+last_modified: 2026-07-02 16:01
 lang: zh-TW
 type: reference
 status: ""
@@ -33,8 +33,6 @@ tags:
   - 聯絡資訊
   - 統一編號
   - 營業人名稱
-  - 揭露
-  - 參考資料
 acoiv: ""
 apis: []
 devices:
@@ -50,10 +48,6 @@ search:
 icon: lucide/table
 hide:
 ---
-
-# 頁腳聯絡資訊欄位對照表
-
-官網頁腳的「聯絡資訊」區塊可顯示下列欄位。每個資訊欄位都搭配一個「顯示」開關，需開啟開關該項才會出現在前台頁腳。
 
 ### 頁腳聯絡資訊欄位 { #footer-contact-fields }
 

@@ -2,7 +2,7 @@
 title: 操作全家冷凍店到店 C2C 出貨
 description: 操作全家冷凍店到店 C2C 出貨，包括設定流程、訂單出貨、包裝規範、寄件時效及異常處理。
 created:
-last_modified: 2026-07-01 18:08
+last_modified: 2026-07-02 15:21
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/cvs-shipping/family-mart-frozen-c2c
 type: tutorial
@@ -86,7 +86,7 @@ hide:
 - 提供消費者更多取貨選擇
 - 擴大冷凍商品銷售、提升業績
 
-!!! info "使用本服務寄送冷凍包裹，最高貨損賠償金額為 **TWD 5,000**。"
+<!-- !!! info "使用本服務寄送冷凍包裹，最高貨損賠償金額為 **TWD 5,000**。" -->
 
 ## 後台設定流程
 
