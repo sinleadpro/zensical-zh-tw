@@ -2,7 +2,7 @@
 title: 設定商品影片
 description: 上傳並管理商品影片，提升前台商品頁及彈窗的視覺吸引力，並支援 Meta 目錄型廣告同步。
 created: 2026-03-08 17:10
-last_modified: 2026-06-30 11:26
+last_modified: 2026-07-02 12:56
 lang: zh-TW
 type: tutorial
 status:
@@ -23,13 +23,10 @@ sites:
   - TW
 tnb: branch
 plans:
-  - 企業
-  - 專業
   - 專業PLUS
-  - 進階
   - 進階PLUS
-  - 高手
   - 高手PLUS
+  - 企業
 cyb_extensions: []
 audiences:
   - admin

@@ -2,7 +2,7 @@
 title: 設定 Meta 廣告活動
 description: 透過 CYBERBIZ Meta Ads App 管理 Meta 廣告活動，設定廣告預算、目標受眾與素材，掌握廣告投放成效。
 created: 2026-04-20 14:54
-last_modified: 2026-07-02 11:48
+last_modified: 2026-07-02 11:59
 lang: zh-TW
 type: tutorial
 status: ""
@@ -126,7 +126,7 @@ hide: []
 
 ![活動目標設定](../../../../assets/images/ec-appmarket-maa-活動目標設定.png)
 
-??? note "目標差異與預算規範參考"
+??? example "目標差異與預算規範參考"
 
     | 項目 | 流量廣告 | 銷售量廣告 |
     | :--- | :--- | :--- |
@@ -144,7 +144,7 @@ hide: []
 | 欄位名稱 | 說明 | 備註 |
 | :--- | :--- | :--- |
 | **廣告活動名稱** | 建議包含日期與產品名，方便後續對照。 | 必填 |
-| **每日預算** | - [新手：未投放過廣告](meta-ad-daily-budget-guide.md#未投放過廣告的商家新手){ title="Meta 廣告每日預算設定指南" }<br>- [商家已知平均 CPA](meta-ad-daily-budget-guide.md#已投放過廣告的商家已知平均-cpa){ title="Meta 廣告每日預算設定指南" }。 | 必填 |
+| **每日預算** | - [新手：未投放過廣告](meta-ad-daily-budget-guide.md#未投放過廣告的商家新手){ title="Meta 廣告每日預算設定指南" }<br>- [商家已知平均 CPA](meta-ad-daily-budget-guide.md#已投放過廣告的商家-已知平均-cpa){ title="Meta 廣告每日預算設定指南" }。 | 必填 |
 | **開始時間** | 預設為立即開始，亦可預排時程。 | — |
 | **結束時間** | 預設為持續投放，亦可設定預計停止日期。 | — |
 
@@ -251,7 +251,7 @@ hide: []
 
 ??? quote "廣告受眾是誰？"
 
-    系統搭配 Meta 的[**高效速成行銷活動 (ASC)** :lucide-external-link:](https://zh-tw.facebook.com/business/help/1362234537597370){ target="_blank" }，透過 AI 自動挑選 CPA 最低、ROAS 最高的受眾群體進行收斂，商家無需手動設定參數。
+    系統搭配 Meta 的[高效速成行銷活動 (ASC) :lucide-external-link:](https://zh-tw.facebook.com/business/help/1362234537597370){ target="_blank" }，透過 AI 自動挑選 CPA 最低、ROAS 最高的受眾群體進行收斂，商家無需手動設定參數。
 
 ??? quote "廣告版位在哪裡？"
 
@@ -265,7 +265,9 @@ hide: []
 
 ??? quote "流量廣告與銷售量廣告的差異為何？"
 
-    流量廣告旨在將消費者導流至官網特定頁面（如首頁，品牌介紹頁），適合品牌起步期或新品上市；銷售量廣告則將廣告綁定官網商品群，適合具備穩定流量的商家，針對特定商品提高購買機會。每日預算部分，流量廣告建議大於 150 TWD，銷售量廣告建議大於 50 TWD。
+    - 流量廣告旨在將消費者導流至官網特定頁面（如首頁，品牌介紹頁），適合品牌起步期或新品上市
+    - 銷售量廣告則將廣告綁定官網商品群，適合具備穩定流量的商家，針對特定商品提高購買機會。
+    - 每日預算部分，流量廣告建議大於 150 TWD，銷售量廣告建議大於 50 TWD。
 
 ??? quote "單一廣告活動最多可設定多少組廣告創意？"
 
