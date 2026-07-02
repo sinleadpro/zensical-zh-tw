@@ -790,10 +790,6 @@ copyright = """
         { "圖示慣例" = "resources/conventions.md" },
         { "下載資源" = "resources/downloads.md" },
         { "回報問題" = "resources/use-jam-to-report-issues.md" },
-        { "新功能報報" = [
-            { "2026 年 5 月" = "resources/new-release/2026-05.md" },
-            { "2026 年 6 月" = "resources/new-release/2026-06.md" },
-        ]},
     ]}
  ]
 # With the "extra_css" option you can add your own CSS styling to customize
