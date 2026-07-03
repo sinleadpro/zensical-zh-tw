@@ -123,6 +123,14 @@ Cyber幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項加值�
 
 ## 服務計費說明
 
+### 簡訊 <small>SMS</small> { #sms }
+
+簡訊依發送對象分為國內簡訊與國外簡訊，分別以不同的 Cyber 幣計費。
+
+!!! info "簡訊發送相關設定請參閱「[如何管理簡訊樣板](../notifications/manage-sms-templates-v2.md){ title="簡訊樣板管理" }」。"
+
+---
+
 ### 電子報 <small>EDM</small> { #edm }
 
 !!! info "EDM 發送相關設定請參閱「[如何發送 EDM 電子報](../notifications/send-edm-newsletters-v2.md){ title="設定與發送 EDM 電子報" }」。"
