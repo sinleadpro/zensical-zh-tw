@@ -1,7 +1,7 @@
 ---
 title: "設定網站標題與 SEO"
 description: "設定網站標題、簡述與關鍵字，以優化搜尋引擎 (SEO) 排名並提升社群分享時的品牌辨識度。"
-last_modified: 2026-07-01 19:52
+last_modified: 2026-07-03 17:41
 lang: "zh-TW"
 type: "tutorial"
 status: ""
@@ -99,7 +99,7 @@ hide:
 
 ---
 
-#### 社群平台分享 <small>Social Media Sharing</small>
+### 社群平台分享 <small>Social Media Sharing</small>
     
 - **顯示內容：** 當連結貼至 LINE 或 Facebook 時，會抓取標題與簡述。
 - **注意：** 若有設定 **OG Image (分享縮圖)**，效果會更佳。
@@ -108,9 +108,11 @@ hide:
 
 - **網站標題**（TITLE）設定與修改方式，會根據您使用 **版型類型**（一般版型或拖拉版型）而有所不同。
 
+## 操作步驟
+
 以下為網站設定中「網站標題」與相關 SEO 資訊的詳細教學：
 
-## 設定基礎「網站名」
+### 設定基礎「網站名」
 
 在修改標題文字前，應先設定好品牌的基本名稱，此名稱會與網站標題連動。
 
@@ -119,9 +121,11 @@ hide:
 
 !!! info "詳細設定流程，請參考 [如何設定網站名稱](../../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="設定網站基本資訊" }。"
 
-## 修改「網站標題」<small>依版型設定</small>
+---
 
-### 預設版型 <small>一般版型</small>
+### 修改「網站標題」<small>依版型設定</small>
+
+#### 預設版型 <small>一般版型</small>
 
 預設版型僅能設定「網站標題」，且需透過程式碼編輯器修改。
 
@@ -145,14 +149,13 @@ hide:
 </title>
 ```
 
-
 !!! tip "更新時間與復原機制" 
 	- **Google 搜尋結果不會立即更新**：新設定的標題需等待 Google 完成下一次排程抓取與更新後才會顯示。 
 	- **程式碼復原機制**：若修改後導致版面異常，請善用編輯器內的 **查看之前版本** 功能，[回溯至先前版本](../code-customization/restore-code-theme-editor.md#操作步驟){ title="使用樣板編輯器恢復網頁代碼" }。
 
 ---
 
-### 拖拉版型
+#### 拖拉版型
 
 拖拉版型不需修改程式碼，可直接在視覺化介面填入資訊。
 

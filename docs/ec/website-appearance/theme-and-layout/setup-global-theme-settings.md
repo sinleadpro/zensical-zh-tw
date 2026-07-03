@@ -2,7 +2,7 @@
 title: 全站共用設定
 description: 設定拖拉版型的全站共用設定，包含彈窗廣告、顏色、品牌識別、SEO、商品顯示行為與動態標籤。
 created:
-last_modified: 2026-07-03 14:40
+last_modified: 2026-07-03 17:54
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-global-theme-settings
 type: tutorial
@@ -124,6 +124,8 @@ comments: false
 1. 在編輯器左側面板下方，點選「彈窗廣告」。
 2. 選擇彈窗內容形式：
 
+![彈窗廣告](../../../assets/images/ec-網站外觀-拖拉版型編輯器-彈窗廣告.png)
+
 === "圖片彈窗"
 
     1. 上傳電腦版、平板版與手機版圖片（電腦版為必填；平板與手機版未上傳時自動沿用電腦版圖片）。
@@ -131,22 +133,24 @@ comments: false
     3. 設定 **圖片連結**，點擊彈窗後前往指定頁面或網址。
     4. 若希望顧客在不離開官網的情況下開啟連結，勾選「在新分頁開啟連結」。
 
-    ![彈窗廣告-圖片](../../../assets/images/ec-網站外觀-拖拉版型編輯器-彈窗廣告-圖片.png)
+    ![彈窗廣告-圖片](../../../assets/images/ec-網站外觀-拖拉版型編輯器-彈窗廣告-圖片顯示.png)
 
-    !!! note "彈窗的顯示與收合行為"
+    ??? note "彈窗的顯示與收合行為"
         圖片彈窗沒有「顯示頻率」欄位，顯示邏輯由系統自動處理：進站時自動展開，顧客縮小後會記憶 **24 小時** 不再自動彈出；購物車／結帳頁則不會顯示彈窗。
+
+        ![彈窗廣告-圖片收合](../../../assets/images/ec-網站外觀-拖拉版型編輯器-彈窗廣告-圖片收合.png)
 
 === "影片彈窗"
 
     1. 貼入 YouTube 影片連結。
+    2. 按 ++enter++ 套用變更。
 
     ![彈窗廣告-影片](../../../assets/images/ec-網站外觀-拖拉版型編輯器-彈窗廣告-影片.png)
 
 === "互動遊戲"
 
     1. 從下拉選單選擇已建立的「輪盤遊戲」或「紅包抽獎」。
-    2. 設定獎勵發放方式（紅利或優惠券）。
-    3. 前往 [互動遊戲設定指南](../../marketing/other-tools/interactive-games.md){ title="互動遊戲 (EC)" } 建立輪盤遊戲或紅包抽獎活動。
+    2. 前往 [互動遊戲設定指南](../../marketing/other-tools/interactive-games.md){ title="互動遊戲 (EC)" } 建立輪盤遊戲或紅包抽獎活動。
 
     !!! info "參與限制"
         此功能為官網會員專屬，需登入才可參與。
@@ -173,7 +177,7 @@ comments: false
 
 ![顏色設定](../../../assets/images/ec-網站外觀-拖拉版型-顏色設定.png)
 
-??? note "強調色的應用範圍"
+??? info "強調色的應用範圍"
     當商家在顏色設定中選定「強調色」後，系統會自動將該顏色應用於：
 
     - **商品標籤(Labels)：** 包含系統自動顯示的 **定期定額**、 **特價**、 **缺貨** 標籤，以及商家自定義的 **5 組標籤**。
@@ -196,25 +200,36 @@ comments: false
 #### 視覺識別與品牌資產 { #brand }
 
 1. 在「全站設定」中，設定 **網站圖示**：
-   - 上傳 **Favicon**，作為瀏覽器分頁標籤上的小圖示。
-   - 上傳 **OG Image**（轉貼連結預設圖片），設定網站連結分享至 Facebook 或 LINE 時顯示的預設縮圖。[查看設定教學](../site-settings/setup-og-image.md){ title="設定轉貼連結縮圖 OG Image" }
+    - 上傳 **Favicon**，作為瀏覽器分頁標籤上的小圖示。
+
+        ![全站設定-favicon](../../../assets/images/ec-網站外觀-全站設定-favicon.png)
+
+    - 上傳 **OG Image**（轉貼連結預設圖片），設定網站連結分享至 Facebook 或 LINE 時顯示的預設縮圖。[查看設定教學](../site-settings/setup-og-image.md){ title="設定轉貼連結縮圖 OG Image" }
+    
+        ![全站設定-ig-image](../../../assets/images/ec-網站外觀-全站設定-og-image.png)
+
 2. 選擇 **導覽列圖示** 樣式（系統預設 3 種樣式），或上傳自定義圖示檔案。
 
-    !!! info "一頁式商店限制"
+    ![全站設定-導覽列圖示](../../../assets/images/ec-網站外觀-全站設定-navbar-icon.png)
+
+    ??? info "一頁式商店限制"
         自訂導覽列圖示僅支援 **2025 年 7 月後** 建立的一頁式商店。
 
 3. 在「字型設定」中選擇全站網頁的字體樣式。
 
-![品牌識別](../../../assets/images/ec-網站外觀-品牌識別.gif)
+    ![全站設定-字型設定](../../../assets/images/ec-網站外觀-全站設定-fonts.png)
 
 ---
 
 #### 網站 SEO 與安全保護 { #seo-security }
 
 1. 在「全站設定」中，填寫網站的 **標題**、 **簡述** 與 **關鍵字**，優化搜尋引擎對網站的收錄與排名。若標題欄位留空，系統會預設以商店名稱作為標題。[查看設定教學](../site-settings/setup-site-title-seo.md){ title="設定網站標題與 SEO" }
+
+    ![全站設定-網站SEO](../../../assets/images/ec-網站外觀-全站設定-網站seo.png)
+
 2. 若需保護原創內容，勾選 **「網頁鎖右鍵」**，禁止使用者透過點擊滑鼠右鍵下載圖片或複製文字。[查看設定教學](../site-settings/setup-right-click-protection.md){ title="設定網頁鎖右鍵保護圖文版權" }
 
-![SEO 設定](../../../assets/images/ec-網站外觀-seo.png)
+    ![全站設定-右鍵鎖定](../../../assets/images/ec-網站外觀-全站設定-右鍵鎖定.png)
 
 ---
 
