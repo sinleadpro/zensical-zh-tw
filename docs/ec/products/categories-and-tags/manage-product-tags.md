@@ -2,7 +2,7 @@
 title: 管理商品標籤
 description: 為商品建立與管理自訂標籤，以便分類、篩選、行銷應用及控制第三方平台同步。
 created: 2026-03-08 10:00
-last_modified: 2026-06-30 11:26
+last_modified: 2026-07-03 17:57
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/products/categories-and-tags/manage-product-tags
 type: tutorial
@@ -94,7 +94,9 @@ hide:
 - 搜尋與操作效率提升：透過標籤快速定位商品，加快後台操作與管理流程。
 - 排除第三方平台同步：設定特定標籤，將商品排除於系統的第三方平台資料同步（如 GMC、Facebook DPA、LINE、美安等）。
 
-## 新增商品標籤
+## 操作步驟
+
+### 新增商品標籤
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 商品標籤管理**。
 2. 點擊 **新增標籤** 按鈕，在標籤名稱欄位輸入欲建立的標籤名稱（例如：衣服）。若畫面未顯示新增按鈕，請向下捲動至標籤列表底部。
@@ -102,7 +104,9 @@ hide:
 
 ![新增商品標籤](../../../assets/images/ec-add-product-tag.zh-tw.png){ title="新增商品標籤" }
 
-## 將商品加入標籤群組
+---
+
+### 將商品加入標籤群組
 
 您可以透過兩種方式將商品加入標籤群組：
 
@@ -135,7 +139,7 @@ hide:
 
 ---
 
-### 從編輯頁設定商品標籤
+#### 從編輯頁設定商品標籤
 
 1.  登入 CYBERBIZ 管理後台，前往 **商品 > 所有商品**。
 2.  點選您要設定的商品，進入 **設定** 頁面。
@@ -143,7 +147,9 @@ hide:
 
 ![從編輯頁設定商品標籤](../../../assets/images/ec-product-settings-tag.zh-tw.png){ title="從編輯頁設定商品標籤" }
 
-## 從標籤群組移出商品
+---
+
+### 從標籤群組移出商品
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 商品標籤管理**。
 2. 在右方標籤列表中點擊展開欲編輯的標籤群組，或使用搜尋跟篩選功能定位欲編輯的商品。
@@ -151,7 +157,9 @@ hide:
 
 ![從標籤群組移出商品](../../../assets/images/ec-remove-product-from-tag-collection.zh-tw.png){ title="從標籤群組移出商品" }
 
-## 刪除商品標籤
+---
+
+### 刪除商品標籤
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 商品標籤管理**。
 2. 在標籤群組列表中找到欲刪除的標籤群組。
@@ -161,7 +169,9 @@ hide:
 
 !!! warning "刪除標籤後，所有已綁定此標籤的商品將會自動取消綁定。"
 
-## 排除上傳至第三方平台標籤
+---
+
+### 排除上傳至第三方平台標籤
 
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions.md#conventions-plans) | 企業
 
