@@ -2,7 +2,7 @@
 title: 使用 Meta 廣告成效分析
 description: 透過 Meta Ads App 掌握廣告成效數據，分析指標，並使用 AI Insights 獲取數據洞察與優化建議。
 created: 2026-04-21 11:29
-last_modified: 2026-07-02 13:52
+last_modified: 2026-07-03T11:45:03+08:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -78,7 +78,7 @@ hide: []
 
 「**Meta 廣告成效分析**」是專為 CYBERBIZ 商家設計的分析工具，旨在協助商家精準掌握 Meta 廣告（如 Facebook、Instagram）的投放成效，評估哪些商品值得加碼推廣，並判斷廣告策略是否具備效益。
 
-## 使用條件與限制
+## 使用前提與限制
 
 在開始分析成效前，請確保您已完成以下準備工作，以確保數據能正確回傳與顯示：
 

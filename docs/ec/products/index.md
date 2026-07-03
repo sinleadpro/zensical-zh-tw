@@ -38,6 +38,14 @@ hide:
 
     [:octicons-arrow-right-24: 前往](create-and-manage/create-and-setup-combo-products.md)
 
+-   :lucide-shopping-cart: __預購商品設定__
+
+    ---
+
+    設定商品在庫存不足時繼續銷售以開放預購，可搭配結帳自動拆單讓 [預購與現貨分開結帳](checkout/checkout-split-multi-cart.md#設定預購商品通路){ title="將預購與現貨自動分開結帳" }。
+
+    [:octicons-arrow-right-24: 前往](create-and-manage/create-update-products.md#setup-preorder-products){ title="預購商品設定" }
+
 </div>
 
 ---

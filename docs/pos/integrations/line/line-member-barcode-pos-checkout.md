@@ -2,7 +2,7 @@
 title: 設定與使用 LINE 顯示會員條碼（串接 POS 結帳）
 description: 啟用並設定 LINE 官方帳號會員條碼，讓門市人員可透過 POS 掃描條碼快速識別會員並套用紅利與優惠券折抵。
 created:
-last_modified: 2026-07-02 20:59
+last_modified: 2026-07-03T11:43:52+08:00
 lang: zh-TW
 permalink: https://help.cyberbiz.io/pos/integrations/line/line-member-barcode-pos-checkout
 type: tutorial
@@ -79,7 +79,7 @@ hide:
 
 **LINE 顯示會員條碼** 功能主要用於優化線下門市的結帳體驗。顧客只需在門市出示 LINE 官方帳號中的會員條碼，店員即可透過 POS 機掃描完成會員認證，進而執行紅利點數或優惠券的折抵。
 
-## 使用條件與限制
+## 使用前提與限制
 
 - **適用對象**：此功能僅限於有使用 **CYBERBIZ POS 系統** 的商家。
 - **前置設定**：

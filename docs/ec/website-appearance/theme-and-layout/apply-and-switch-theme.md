@@ -2,7 +2,7 @@
 title: 套用與更換網站主題
 description: 透過套版主題管理隨時下載、切換與發布不同的網站主題，無需重新設計即可改變官網前台視覺風格。
 created: 2026-06-22 10:00
-last_modified: 2026-07-01 14:14
+last_modified: 2026-07-03 15:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -234,6 +234,10 @@ hide: []
 - :lucide-languages:{ .lg }  
   [__多國語系設定__](../site-settings/setup-storefront-language-text-customization.md){ title="設定前台語系與文字自定義" }  
   搭配多國版型，設定不同語言的前台呈現。
+
+- :lucide-cookie:{ .lg }  
+  [__設定 Cookie 提示彈窗__](../code-customization/setup-cookie-consent-banner.md){ title="設定 Cookie 提示彈窗" }  
+  透過 CSS/HTML 編輯器貼入 Cookie 同意彈窗程式碼，符合 GDPR 規範。
 
 </div>
 

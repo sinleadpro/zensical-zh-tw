@@ -2,7 +2,7 @@
 title: 設定 Google Ads 強化轉換
 description: 設定 Google Ads 強化轉換功能，讓系統收到更詳細的行為資料以優化廣告成效。
 created: 2026-03-25 18:07
-last_modified: 2026-07-02 16:13
+last_modified: 2026-07-03T11:44:57+08:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -69,7 +69,7 @@ comments: false
     *   **數據補全**：當使用者與您的廣告互動後在網站上完成轉換，強化轉換能更準確地連結跨裝置的行為，補足因為隱私規範或 Cookie 限制而流失的追蹤數據。
     *   **優化廣告出價**：藉由回傳更精確的轉換訊號，協助 Google Ads 的 AI 機器學習更有效地優化廣告投遞與出價策略。
 
-## 使用條件與限制
+## 使用前提與限制
 
 1.  **適用版本限制**：此功能為 **CYBERBIZ 企業版商家專用**。
 2.  **前置需求**：在設定強化轉換之前，請務必確保已根據教學文件完成在 [Google Ads 建立轉換追蹤](setup-google-ads-conversion-tracking.md){ title="設定 Google Ads 轉換追蹤" } 的基本設定。

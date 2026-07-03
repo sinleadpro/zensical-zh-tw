@@ -2,7 +2,7 @@
 title: 修改訂單明細頁「店長改價」的顯示名稱
 description: 修改程式碼檔案，將前台訂單明細頁顯示的「店長改價」更名為「商品改價」，避免消費者誤解。
 created: 2026-03-05 16:07
-last_modified: 2026-06-30 21:55
+last_modified: 2026-07-03T11:44:07+08:00
 lang: zh-TW
 permalink: https://help.cyberbiz.io/pos/check/customize-manager-price-override-display
 type: tutorial
@@ -72,7 +72,7 @@ hide:
 
 POS 系統支援「店長改價」功能，但消費者在線上查詢訂單時也會看到該折扣明細。**為避免消費者誤解店長權限高而要求折扣，商家可以透過修改程式碼來更改前台顯示的名稱（例如改為「商品改價」）**。
 
-## 使用條件與限制
+## 使用前提與限制
 
 -   **責任說明**：官方提供公開版型程式碼供商家自行修改，但 **不提供現有文件外的語法教學或代碼撰寫服務**，建議委託專業工程師處理。
 -   **恢復機制**：樣版編輯器具備「**查看之前版本**」功能， [回溯至先前版本](../../ec/website-appearance/code-customization/restore-code-theme-editor.md#操作步驟){ title="使用樣板編輯器恢復網頁代碼" }。

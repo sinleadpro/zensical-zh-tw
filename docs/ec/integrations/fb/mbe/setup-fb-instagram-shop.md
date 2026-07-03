@@ -2,7 +2,7 @@
 title: 設定 FB 跟 IG 商店
 description: 設定 Facebook 與 Instagram 商店，建立社群銷售管道並同步商品。
 created: 2026-04-13 16:31
-last_modified: 2026-07-02 11:29
+last_modified: 2026-07-03T11:45:01+08:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -59,7 +59,7 @@ devices:
   - mobile
 ui_components: []
 paths:
-  - "第三方整合 > 臉書_Facebook_設定"
+  - 第三方整合 > 臉書_Facebook_設定
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3113
@@ -79,7 +79,7 @@ hide: []
 
 !!! note "相關說明請參閱 Meta 官方教學：[在 Facebook 和 Instagram 上設定商店 :lucide-external-link:](https://zh-tw.facebook.com/business/help/268860861184453)。"
 
-## 使用條件與限制
+## 使用前提與限制
 
 在開始串接 Facebook 與 Instagram 商店前，請先依序完成以下設定：
 

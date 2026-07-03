@@ -399,6 +399,8 @@ copyright = """
             { "版型與版面" = [
                 { "設定快速到貨前台入口與專區" = "ec/website-appearance/setup-quick-delivery-frontend-entry.md" },
                 { "拖拉版型設定" = "ec/website-appearance/theme-and-layout/theme-editor.md" },
+                { "全站共用設定" = "ec/website-appearance/theme-and-layout/setup-global-theme-settings.md" },
+                { "各頁面設定" = "ec/website-appearance/theme-and-layout/setup-theme-page-settings.md" },
                 { "套用與更換主題" = "ec/website-appearance/theme-and-layout/apply-and-switch-theme.md" },
                 { "排程跑馬燈設定" = "ec/website-appearance/theme-and-layout/configure-scheduled-carousels.md" },
                 { "首頁跑馬燈轉場時間" = "ec/website-appearance/theme-and-layout/adjust-carousel-transition-duration.md" },
@@ -431,6 +433,7 @@ copyright = """
                 { "優先填寫收件人設定" = "ec/website-appearance/checkout-and-shopping-flow/priority-recipient-info-checkout.md" }
             ]},
             { "程式碼自訂" = [
+                { "Cookie 提示彈窗" = "ec/website-appearance/code-customization/setup-cookie-consent-banner.md" },
                 { "文字編輯器教學" = "ec/website-appearance/code-customization/text-editor.md" },
                 { "樣板編輯器" = "ec/website-appearance/code-customization/theme-editor-complete-guide.md" },
                 { "恢復樣板版本" = "ec/website-appearance/code-customization/restore-code-theme-editor.md" }

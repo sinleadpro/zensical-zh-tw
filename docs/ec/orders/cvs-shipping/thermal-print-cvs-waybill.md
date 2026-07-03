@@ -2,7 +2,7 @@
 title: 熱感列印超商托運單
 description: 使用超商熱感列印功能列印 A6 託運單
 created:
-last_modified: 2026-06-30 11:25
+last_modified: 2026-07-03T11:44:11+08:00
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/cvs-shipping/thermal-print-cvs-waybill
 type: tutorial
@@ -90,7 +90,7 @@ hide:
 - **一般列印（A4）**
 - **熱感列印（A6）**
 
-## 使用條件與限制
+## 使用前提與限制
 
 **適用物流**
 

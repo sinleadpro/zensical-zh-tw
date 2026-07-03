@@ -2,7 +2,7 @@
 title: 設定 Google Ads 轉換追蹤
 description: 設定 Google Ads 轉換追蹤與再行銷功能，追蹤廣告成效並優化投放策略。
 created: 2026-03-25 11:23
-last_modified: 2026-07-02 16:10
+last_modified: 2026-07-03T11:45:00+08:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -39,7 +39,7 @@ intents:
 features:
   - Google Ads 轉換追蹤
   - Google Ads 再行銷
-prerequisites: 
+prerequisites:
   - 需先於 Google Ads 建立廣告活動
 related:
   - "[[setup-google-merchant-center]]"
@@ -81,7 +81,7 @@ Google Ads（原名 Google AdWords）是 Google 提供的線上廣告平台，�
 「轉換」是指使用者點擊廣告後，在網站上完成的關鍵動作（如：結帳、註冊會員、填寫表單）。
 在 Google Ads 建立轉換追蹤，能協助商家觀測廣告成效、了解客戶行為，並進一步優化廣告精準度。CYBERBIZ 提供與 Google 轉換代碼的串接功能，以下為詳細的設定步驟：
 
-## 使用條件與限制
+## 使用前提與限制
 
 - [x] **建立廣告活動**：商家必須先[建立第一個 Google 廣告活動 :lucide-external-link:](https://ads.google.com/aw/campaigns?supportResource=google-ads/answer/10207423)，方可開始建立轉換追蹤。設定詳情，請參考[官方說明 :lucide-external-link:](https://support.google.com/google-ads/answer/6324971?hl=zh-Hant)。
 

@@ -2,7 +2,7 @@
 title: 編輯商品簡述與商品標語
 description: 客製商品標語與商品簡述文字樣式、修改商品文案
 created: 2026-01-08 00:00
-last_modified: 2026-06-30 11:26
+last_modified: 2026-07-03T11:44:11+08:00
 lang: zh-TW
 type: tutorial
 status:
@@ -90,7 +90,7 @@ hide: []
       ![商品簡述與標語前台顯示位置](../../../assets/images/ec-product-slogan-product-brief.zh-tw.png){ title="商品簡述與標語前台顯示位置" }
 
 
-## 使用條件與限制
+## 使用前提與限制
 
 - **版型限制**：**拖拉版型** 可能不支援部分程式碼編輯，請以您的後台實際開放功能為主。
 - **責任說明**：CYBERBIZ 提供開放的程式碼編輯權限，但 **不提供現有文件外的修改指導、語法教學或代碼撰寫服務**，建議委託專業工程師處理。

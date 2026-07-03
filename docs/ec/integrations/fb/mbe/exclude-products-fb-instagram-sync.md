@@ -2,7 +2,7 @@
 title: 排除商品不同步至 FB 與 IG 商店
 description: 透過商品標籤設定或商務管理工具，排除特定商品不同步至 Facebook 與 Instagram 商店。
 created: 2026-04-14 11:25
-last_modified: 2026-07-02 11:33
+last_modified: 2026-07-03T11:45:02+08:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -53,7 +53,7 @@ devices:
   - mobile
 ui_components: []
 paths:
-  - "第三方整合 > 臉書_Facebook_設定"
+  - 第三方整合 > 臉書_Facebook_設定
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=28419
@@ -74,7 +74,7 @@ hide: []
 !!! info "系統更新時間"
     官網商品資訊通常於每日 **凌晨 2 點或 2 點半** 自動同步至 Facebook 商店，當日更新的內容需等候同步完成才會呈現。
 
-## 使用條件與限制
+## 使用前提與限制
 
 - [x] 完成 [Facebook 跟 Instagram 商店串接](setup-fb-instagram-shop.md){ title="設定 Facebook 跟 Instagram 商店" }。
 

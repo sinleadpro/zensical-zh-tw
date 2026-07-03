@@ -61,10 +61,13 @@
 - [網站外觀 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-appearance/): 設定官網前台外觀、導覽列、語系與版型樣式。
 - [揭露營業人名稱與統一編號 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-appearance/site-settings/business-disclosure/): 在 CYBERBIZ 後台完成公司資料填寫，並於官網頁腳揭露營業人名稱與統一編號，符合財政部法規要求。
 - [套用與更換網站主題 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/apply-and-switch-theme/): 透過套版主題管理隨時下載、切換與發布不同的網站主題，無需重新設計即可改變官網前台視覺風格。
+- [全站共用設定 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-global-theme-settings/): 設定拖拉版型的全站共用設定，包含彈窗廣告、顏色、品牌識別、SEO、商品顯示行為與動態標籤。
+- [各頁面設定 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings/): 依頁面類型說明拖拉版型的各項設定，包含首頁區塊、商品頁面、部落格、客服頁等。
 - [使用文字編輯器編輯內容 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-appearance/code-customization/text-editor/): 認識新舊版文字編輯器，在商品描述、自訂頁面與部落格編輯圖文內容、插入圖片與 YouTube 影片。
 - [頁腳聯絡資訊欄位對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-appearance/references/business-disclosure-footer-fields/): 官網頁腳「聯絡資訊」區塊可顯示的各項欄位與用途對照，包含統一編號、電話、地址等揭露資訊。
 - [主題類型對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-appearance/references/theme-types/): 比較拖拉版型、預設版型與多國版型的差異，協助商家選擇適合的網站主題類型。
 - [文字編輯器對照表 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-appearance/references/text-editor-toolbar/): 彙整文字編輯器的斜線指令、YouTube 影片設定選項與圖片規格，供編輯內容時快速查閱。
+- [設定 Cookie 提示彈窗 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-appearance/code-customization/setup-cookie-consent-banner/): 透過第三方工具產生 Cookie 同意彈窗程式碼，貼入版型 theme.liquid，協助商店符合 GDPR 與歐盟 Cookie 法規範。
 - [管理中心 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/website-management/): 管理後台帳號權限、員工帳號與系統設定。
 - [APP MARKET - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/app-market/): CYBERBIZ 擴充服務與第三方應用市集。
 - [整合串接 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/integrations/): 串接第三方平台、API 與服務，提升商店功能與自動化能力。

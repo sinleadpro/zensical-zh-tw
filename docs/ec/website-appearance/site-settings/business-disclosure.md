@@ -2,7 +2,7 @@
 title: 揭露營業人名稱與統一編號
 description: 在 CYBERBIZ 後台完成公司資料填寫，並於官網頁腳揭露營業人名稱與統一編號，符合財政部法規要求。
 created: 2026-06-22 10:00
-last_modified: 2026-06-30 11:01
+last_modified: 2026-07-03 00:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -42,7 +42,8 @@ features:
   - 統一編號揭露
 prerequisites:
   - 已套用並發布官網主題
-related: []
+related:
+  - "[[setup-cookie-consent-banner]]"
 tags:
   - 營業人名稱
   - 統一編號
@@ -184,6 +185,10 @@ hide: []
 - :lucide-palette:{ .lg }  
   [__套用與更換網站主題__](../theme-and-layout/apply-and-switch-theme.md)  
   更換或切換官網版型，調整整體視覺風格。
+
+- :lucide-cookie:{ .lg }  
+  [__設定 Cookie 提示彈窗__](../code-customization/setup-cookie-consent-banner.md){ title="設定 Cookie 提示彈窗" }  
+  透過第三方工具產生 Cookie 同意彈窗，與隱私權政策頁面互相搭配。
 
 </div>
 

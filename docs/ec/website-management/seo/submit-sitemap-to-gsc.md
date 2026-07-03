@@ -1,45 +1,45 @@
 ---
-title: "將 Sitemap 提交至 Google Search Console"
-description: "將 CYBERBIZ 自動產生的 Sitemap 提交至 Google Search Console，加快網頁收錄速度並優化 SEO 表現。"
-created: "2026-03-20 13:43"
-last_modified: 2026-07-02 19:55
-lang: "zh-TW"
-type: "tutorial"
+title: 將 Sitemap 提交至 Google Search Console
+description: 將 CYBERBIZ 自動產生的 Sitemap 提交至 Google Search Console，加快網頁收錄速度並優化 SEO 表現。
+created: 2026-03-20 13:43
+last_modified: 2026-07-03T11:44:11+08:00
+lang: zh-TW
+type: tutorial
 status: ""
 version: ""
-author: "Jase"
+author: Jase
 reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
 products:
-  - "EC"
+  - EC
 modules:
-  - "管理中心"
+  - 管理中心
 sites:
-  - "TW"
+  - TW
 audiences:
-  - "admin"
+  - admin
 difficulty: ""
-tnb: "trunk"
+tnb: trunk
 plans:
-  - "專業"
-  - "進階"
-  - "高手"
-  - "專業PLUS"
-  - "進階PLUS"
-  - "高手PLUS"
-  - "企業"
+  - 專業
+  - 進階
+  - 高手
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 cyb_extensions: []
 intents:
-  - "提交_Sitemap"
-  - "Google_Search_Console"
-  - "加快網頁收錄"
-  - "SEO_優化"
+  - 提交_Sitemap
+  - Google_Search_Console
+  - 加快網頁收錄
+  - SEO_優化
 features:
-  - "Sitemap"
-  - "Google_Search_Console"
-  - "XML"
+  - Sitemap
+  - Google_Search_Console
+  - XML
 prerequisites:
   - "[[setup-google-search-console]]"
   - "[[setup-google-analytics]]"
@@ -47,27 +47,27 @@ related:
   - "[[setup-google-search-console]]"
   - "[[seo-guide]]"
 tags:
-  - "Sitemap"
-  - "SEO"
-  - "Google Search Console"
-  - "網站收錄"
-acoiv: "configure"
+  - Sitemap
+  - SEO
+  - Google Search Console
+  - 網站收錄
+acoiv: configure
 apis: []
 devices:
-  - "desktop"
-  - "mobile"
+  - desktop
+  - mobile
 ui_components: []
 paths:
-  - "行銷活動 > SEO"
+  - 行銷活動 > SEO
 layouts: []
 wp_url:
-  - "https://www.cyberbiz.io/helpcenter/?p=467"
-  - "https://www.cyberbiz.io/support/?p=3807"
-permalink: "submit-sitemap-to-google-search-console"
+  - https://www.cyberbiz.io/helpcenter/?p=467
+  - https://www.cyberbiz.io/support/?p=3807
+permalink: submit-sitemap-to-google-search-console
 comments: false
 search:
   exclude: false
-icon: "lucide/map"
+icon: lucide/map
 hide: []
 ---
 
@@ -89,7 +89,7 @@ Sitemap（網站地圖）是一份以 XML 格式呈現的檔案，用來列出�
     *   **加速內容更新**：當您修改了網頁內容，搜尋引擎能更有效率地抓取更新。
     *   **優化 SEO 表現**：幫助搜尋引擎理解您的網站架構。
 
-## 使用條件與限制
+## 使用前提與限制
 
 在開始上傳之前，請務必確認已完成以下設定：
 
