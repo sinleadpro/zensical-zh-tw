@@ -2,7 +2,7 @@
 title: 使用順豐出貨
 description: 使用順豐託運單批次或單筆下載出貨，系統自動與順豐即時取號，將訂單貨態更新為已出貨，支援國內台灣本島及海外配送。
 created: 2026-05-20 20:25
-last_modified: 2026-07-02 08:35
+last_modified: 2026-07-03 11:06
 lang: zh-TW
 type: tutorial
 status: ""
@@ -280,8 +280,4 @@ hide: []
     [](){ #faq-sf-redownload }
 
      託運單檔案若不慎遺失，可至後台「金物流」>「順豐託運單」搜尋對應訂單，於該筆紀錄旁點擊重新下載，**不需要再扣一次 Cyber 幣**。補印的完整說明請參考 [補印託運單](../../payments-and-logistics/setup-sf-express-waybill-v2.md#operate-sf-waybill-reprint){ title="加印託運單" }。
-
-## 參考資料 { #reference-sf }
-
-
 
