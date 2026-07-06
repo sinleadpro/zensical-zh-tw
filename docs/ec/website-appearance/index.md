@@ -258,3 +258,11 @@ hide:
     透過程式碼編輯器的版本管理功能，快速回溯 HTML/CSS 至先前時間點或初始狀態，確保網頁修改後的穩定性。
 
     [:octicons-arrow-right-24: 前往](code-customization/restore-code-theme-editor.md)
+
+-   :lucide-cookie: __設定 Cookie 提示彈窗__
+
+    ---
+
+    透過第三方工具產生 Cookie 同意彈窗程式碼，貼入版型 theme.liquid，協助商店符合 GDPR 與歐盟 Cookie 法規範。
+
+    [:octicons-arrow-right-24: 前往](code-customization/setup-cookie-consent-banner.md)

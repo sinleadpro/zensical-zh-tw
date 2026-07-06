@@ -130,7 +130,7 @@ hide:
     1. 點選「新增區塊」並點擊編輯。
     2. **上傳圖片**：上傳設計好的 LINE 推廣圖（電腦版圖片為必傳）。
     3. **SEO 優化**：務必填寫「圖片替代文字」以優化搜尋引擎功能。
-    4. **停留設定**：在「其他版面設定」中可 [調整素材停留秒數與邊距](../../../website-appearance/theme-and-layout/theme-editor.md#section-main-slider){ title="拖拉版型網站設定" }。
+    4. **停留設定**：在「其他版面設定」中可 [調整素材停留秒數與邊距](../../../website-appearance/theme-and-layout/setup-theme-page-settings.md#section-main-slider){ title="各頁面設定指南" }。
 
 	![輪播素材-新增](../../../../assets/images/ec-網站外觀-輪播素材-新增.gif){ title="輪播素材-新增" }
 
@@ -138,7 +138,7 @@ hide:
 
 	![輪播素材-前台畫面](../../../../assets/images/ec-網站外觀-輪播素材-前台畫面.gif){ title="輪播素材-前台畫面" }
 
-!!! note "更多輪播素材相關設定，請參閱 [輪播素材設定說明](../../../website-appearance/theme-and-layout/theme-editor.md#section-main-slider){ title="拖拉版型網站設定" }。"
+!!! note "更多輪播素材相關設定，請參閱 [輪播素材設定說明](../../../website-appearance/theme-and-layout/setup-theme-page-settings.md#section-main-slider){ title="各頁面設定指南" }。"
 
 ---
 

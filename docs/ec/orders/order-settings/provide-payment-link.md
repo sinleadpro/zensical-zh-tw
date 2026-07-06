@@ -1,13 +1,13 @@
 ---
 title: 提供顧客付款連結
 description: 訂單尚未完成付款時，商家可透過付款連結引導顧客重新進行線上結帳，無需取消訂單重建流程。
-created: 
-last_modified: 2026-06-30 09:26
+created:
+last_modified: 2026-07-03T11:44:11+08:00
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/order-settings/provide-payment-link
 type: tutorial
-status: 
-version: 
+status:
+version:
 author: Jase
 reviewers: []
 notes: []
@@ -55,7 +55,7 @@ tags:
   - 信用卡付款
   - 電子錢包
   - 訂單管理
-acoiv: 
+acoiv:
 apis: []
 devices:
   - desktop
@@ -71,7 +71,7 @@ comments: false
 search:
   exclude: false
 icon: lucide/link
-hide: 
+hide:
 ---
 
 ![付款連結入口](../../../assets/images/ec-訂單明細-付款連結.png){ title="付款連結入口" .hero-page }
@@ -85,7 +85,7 @@ hide:
     - **付款失敗處理**：當訂單狀態顯示「付款失敗」時，商家可透過此連結請顧客再次嘗試付款。
     - **超商條碼失效**：若訂單因「逾時未付款」被自動取消，或條碼因每 3 小時的自動更新而失效，商家可重新提供連結供顧客取得新條碼。
 
-## 使用條件與限制
+## 使用前提與限制
 
 - [x] **訂單編輯限制**：
 

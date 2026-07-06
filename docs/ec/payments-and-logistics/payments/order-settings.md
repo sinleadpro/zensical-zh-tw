@@ -101,8 +101,8 @@ icon: lucide/receipt
 | [訂單自動取消](#operate-order-settings-auto-cancel) | 逾期未付款訂單自動取消 | 所有方案 |
 | [顧客取消訂單、申請退貨設定](#operate-order-settings-customer-cancel) | 開放前台會員自行取消或申請退貨 | 拖拉版型 |
 | [訂單取消退貨相關紅利設定](#operate-order-settings-return-bonus) | 退貨 / 取消時是否返還或發送紅利 | 需加值功能 |
-| [列印訂單明細相關文件設定](#operate-order-settings-print) | 設定訂單明細列印欄位 | 所有方案 |
-| [列印揀貨單相關文件設定](#operate-order-settings-print) | 設定揀貨單組合商品呈現方式 | 所有方案 |
+| [列印訂單明細相關文件設定](#operate-order-settings-print-detail) | 設定訂單明細列印欄位 | 所有方案 |
+| [列印揀貨單相關文件設定](#operate-order-settings-print-picking) | 設定揀貨單組合商品呈現方式 | 所有方案 |
 
 ---
 

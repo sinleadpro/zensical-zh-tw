@@ -2,7 +2,7 @@
 title: 星益欣電子發票設定
 version: ""
 author: Jase
-last_modified: 2026-07-02 20:22
+last_modified: 2026-07-03T11:44:08+08:00
 description: 教您在 CYBERBIZ 後台完成星益欣電子發票的購買、串接啟用、多站台共用與對帳發票設定。
 permalink: https://help.cyberbiz.io/ec/website-management/wixtar-e-invoice-setup
 product:
@@ -83,7 +83,7 @@ hide:
 !!! info "「美麗科技」已與「星益欣」合併"
 	美麗科技已與星益欣合併，本文後續以星益欣指稱相關服務。星益欣相關設定，請依[星益欣官網公告 :lucide-external-link:](https://www.wixtar.com/product/e-invoice)為準，電話: 02-2711-9528 #240。若需將字軌匯入星益欣後台，請參考[匯入字軌教學文件](https://www.cyberbiz.io/helpcenter/wp-content/uploads/美麗科技-增加字軌數量_匯入教學使用手冊-20230511.pdf)。
 
-## 使用條件與限制
+## 使用前提與限制
 
 購買方案後，系統會依統一編號自動建立星益欣帳戶，**帳戶綁定統編，開立同統編發票**。此帳戶可支援以下開立發票情境：
 

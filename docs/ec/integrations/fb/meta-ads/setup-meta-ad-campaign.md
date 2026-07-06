@@ -2,7 +2,7 @@
 title: 設定 Meta 廣告活動
 description: 透過 CYBERBIZ Meta Ads App 管理 Meta 廣告活動，設定廣告預算、目標受眾與素材，掌握廣告投放成效。
 created: 2026-04-20 14:54
-last_modified: 2026-07-02 11:59
+last_modified: 2026-07-03T11:45:03+08:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -85,7 +85,7 @@ hide: []
 
 在 CYBERBIZ 後台完成 Meta 廣告活動配置。透過此整合功能，您可以直接管理廣告預算、目標與素材，無需頻繁切換至 Meta 後台進行操作。
 
-## 使用條件與限制
+## 使用前提與限制
 
 在開始設定之前，請確認已完成以下前置作業：
 
@@ -144,7 +144,7 @@ hide: []
 | 欄位名稱 | 說明 | 備註 |
 | :--- | :--- | :--- |
 | **廣告活動名稱** | 建議包含日期與產品名，方便後續對照。 | 必填 |
-| **每日預算** | - [新手：未投放過廣告](meta-ad-daily-budget-guide.md#未投放過廣告的商家新手){ title="Meta 廣告每日預算設定指南" }<br>- [商家已知平均 CPA](meta-ad-daily-budget-guide.md#已投放過廣告的商家-已知平均-cpa){ title="Meta 廣告每日預算設定指南" }。 | 必填 |
+| **每日預算** | - [新手：未投放過廣告](meta-ad-daily-budget-guide.md#未投放過廣告的商家-新手){ title="Meta 廣告每日預算設定指南" }<br>- [商家已知平均 CPA](meta-ad-daily-budget-guide.md#已投放過廣告的商家-已知平均-cpa){ title="Meta 廣告每日預算設定指南" }。 | 必填 |
 | **開始時間** | 預設為立即開始，亦可預排時程。 | — |
 | **結束時間** | 預設為持續投放，亦可設定預計停止日期。 | — |
 

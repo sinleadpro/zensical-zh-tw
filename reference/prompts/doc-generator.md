@@ -546,8 +546,8 @@ Markdown 表格的單一儲存格內容必須保持一行,不要為了原始檔�
 文件 A:
   category: {{產品/功能 kebab-case，用於錨點前綴與檔名}}
   module: {{website-appearance}}
-  頁面: {{https://demo005.cyberbiz.co/admin/products/69132755/descriptions}} 
-  主題: {{使用文字編輯器編輯內容}}
+  頁面: {{https://demo005.cyberbiz.co/admin/themes/131295/assets}} 
+  主題: {{設定 Cookie 提示彈窗}}
   檔案路徑: docs/{{pos}}/{{topic-kebab-case}}.md
 ```
 

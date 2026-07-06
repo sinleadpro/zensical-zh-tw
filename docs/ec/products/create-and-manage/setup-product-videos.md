@@ -120,7 +120,7 @@ hide:
 	1. 登入 CYBERBIZ 管理後台，前往 **商品 > 所有商品 > 新增商品**。
 	2. 在商品影片區塊點擊 **上傳** 按鈕，選擇本機影片檔案。
 	3. 確認影片與商品資訊無誤後，點擊 **儲存**，系統將處理影片上傳，請耐心等待完成。
-	4. 上傳後的影片可在[媒體庫影片管理](#媒體庫影片管理)統一管理。
+	4. 上傳後的影片可在[媒體庫影片管理](#media)統一管理。
 
 === "為既有商品新增影片"
 
@@ -157,6 +157,10 @@ hide:
 ## 後續操作
 
 <div class="grid cards" markdown>
+
+- :lucide-settings-2:{ .lg }   
+  [__全站共用設定__](../../website-appearance/theme-and-layout/setup-global-theme-settings.md#product-display-layout){ title="全站共用設定" }     
+  前往全站共用設定調整商品影片在彈窗中的顯示順序
 
 - :lucide-video:{ .lg }   
   [__同步商品影片至 Meta 目錄__](../../integrations/fb/meta-ads/sync-product-videos-meta-catalog.md){ title="同步商品影片至 Meta 目錄" }     

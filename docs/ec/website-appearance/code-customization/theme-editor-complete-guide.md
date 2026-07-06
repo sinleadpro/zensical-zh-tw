@@ -2,7 +2,7 @@
 title: 樣板編輯器操作全攻略
 description: 樣版編輯器的操作說明、常見特殊語法應用及重要注意事項。
 created: 2026-03-05 20:55
-last_modified: 2026-06-30 11:01
+last_modified: 2026-07-03 15:00
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/code-customization/theme-editor-complete-guide
 type: guide
@@ -52,7 +52,8 @@ features:
   - 結帳流程優化
   - 訂單頁客製化
 prerequisites: []
-related: []
+related:
+  - "[[setup-cookie-consent-banner]]"
 tags:
   - 樣板編輯器
   - 程式碼

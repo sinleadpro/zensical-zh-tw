@@ -2,7 +2,7 @@
 title: 管理商品評論
 description: 啟用並管理商品評論功能。
 created: 2026-03-05 16:00
-last_modified: 2026-06-30 11:26
+last_modified: 2026-07-03T11:44:11+08:00
 lang: zh-TW
 type: tutorial
 status:
@@ -123,7 +123,7 @@ hide: []
 
     ```
 
-## 使用條件與限制
+## 使用前提與限制
 
 - [x] 需先洽客服人員開通商品評論功能。	
 - [x] FB分享功能 : 需至「第三方整合」→「臉書 Facebook 設定」→「設定 應用程式ID (APP ID) 及 應用程式密鑰 (App Secret)」填寫完畢，才可以使用。

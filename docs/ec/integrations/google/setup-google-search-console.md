@@ -1,8 +1,8 @@
 ---
-title: "註冊並驗證 Google Search Console"
-description: "在 Google Search Console 註冊並驗證網站擁有權，以監測網站搜尋表現。"
-created: "2026-03-20 14:28"
-last_modified: 2026-07-02 13:58
+title: 註冊並驗證 Google Search Console
+description: 在 Google Search Console 註冊並驗證網站擁有權，以監測網站搜尋表現。
+created: 2026-03-20 14:28
+last_modified: 2026-07-03T11:44:40+08:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -32,9 +32,9 @@ plans:
   - 企業
 cyb_extensions: []
 intents:
-  - "Google Search Console 驗證"
-  - "網站擁有權驗證"
-  - "GSC 設定"
+  - Google Search Console 驗證
+  - 網站擁有權驗證
+  - GSC 設定
 features:
   - Google_Search_Console
   - GSC_驗證
@@ -53,7 +53,7 @@ devices:
   - mobile
 ui_components: []
 paths:
-  - "第三方整合 > Google Search Console 設定"
+  - 第三方整合 > Google Search Console 設定
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3375
@@ -79,7 +79,7 @@ hide: []
 
 !!! info "更多 Google Search Console 資訊，請參考 [官方說明 :lucide-external-link:](https://support.google.com/webmasters/answer/9128668?hl=zh-Hant)。"
 
-## 使用條件與限制
+## 使用前提與限制
 
 - [x] **帳號統一**：請確保登入 Google Search Console 帳號與您的 Google Analytics (GA) 帳號為同一組，且具備該帳號管理員權限。
 - [x] **網域設定**：建議先將官網後台的主網域設定為「自有網域」，並開啟「總是導向」功能，以確保搜尋引擎收錄的一致性。

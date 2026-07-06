@@ -1,70 +1,70 @@
 ---
-title: "設定 301 重定向網站轉址"
-description: "設定 301 轉址，當網頁網址失效或變更時將流量導向新網址，以維護 SEO 排名。"
-created: "2026-03-20 13:59"
-last_modified: 2026-07-02 20:00
-lang: "zh-TW"
-type: "tutorial"
+title: 設定 301 重定向網站轉址
+description: 設定 301 轉址，當網頁網址失效或變更時將流量導向新網址，以維護 SEO 排名。
+created: 2026-03-20 13:59
+last_modified: 2026-07-03T11:44:11+08:00
+lang: zh-TW
+type: tutorial
 status: ""
 version: ""
-author: "Jase"
+author: Jase
 reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
 products:
-  - "EC"
+  - EC
 modules:
-  - "管理中心"
+  - 管理中心
 sites:
-  - "TW"
+  - TW
 audiences:
-  - "admin"
+  - admin
 difficulty: ""
-tnb: "trunk"
+tnb: trunk
 plans:
-  - "專業"
-  - "進階"
-  - "高手"
-  - "專業PLUS"
-  - "進階PLUS"
-  - "高手PLUS"
-  - "企業"
+  - 專業
+  - 進階
+  - 高手
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 cyb_extensions: []
 intents:
-  - "設定_301_轉址"
-  - "網站轉址"
-  - "維護_SEO_排名"
+  - 設定_301_轉址
+  - 網站轉址
+  - 維護_SEO_排名
 features:
-  - "301_重定向"
-  - "網站轉址"
-  - "Excel_匯入"
+  - 301_重定向
+  - 網站轉址
+  - Excel_匯入
 prerequisites: []
 related:
   - "[[submit-sitemap-to-gsc]]"
   - "[[seo-guide]]"
 tags:
   - "301"
-  - "轉址"
-  - "SEO"
-  - "網站搬家"
-acoiv: "configure"
+  - 轉址
+  - SEO
+  - 網站搬家
+acoiv: configure
 apis: []
 devices:
-  - "desktop"
-  - "mobile"
+  - desktop
+  - mobile
 ui_components: []
 paths:
-  - "管理中心 > 網站轉址"
+  - 管理中心 > 網站轉址
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3490
   - https://www.cyberbiz.io/support/?p=15390
-permalink: "301-redirect"
+permalink: 301-redirect
 comments: false
 search:
   exclude: false
-icon: "lucide/signpost"
+icon: lucide/signpost
 hide: []
 ---
 
@@ -78,7 +78,7 @@ hide: []
 
     此功能特別適用於 **「網站搬家」** 或 **「活動頁面失效」** 時，將舊有的熱門文章或商品流量引導至新的對應頁面，是維護網站自然搜尋排名的最佳解決方案。
 
-## 使用條件與限制
+## 使用前提與限制
 
 - [x] **網域限制**：設定 301 轉址時，您的網域必須是 **「自有網域」**。
 - [x] **生效條件**：系統邏輯規定，**當舊網址呈現為「404 頁面」時，轉址功能才會啟動並導向新網址**。

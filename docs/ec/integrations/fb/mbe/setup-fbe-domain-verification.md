@@ -2,7 +2,7 @@
 title: 設定 FBE 網域驗證
 description: 在企業管理平台中完成網域驗證。
 created: 2026-04-10 14:50
-last_modified: 2026-07-02 11:24
+last_modified: 2026-07-03T11:45:02+08:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -57,7 +57,7 @@ devices:
   - mobile
 ui_components: []
 paths:
-  - "網站外觀 > 套版主題管理 > 程式碼編輯器"
+  - 網站外觀 > 套版主題管理 > 程式碼編輯器
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3228
@@ -76,7 +76,7 @@ hide: []
 
 **Facebook 網域驗證** 的主要目的是讓使用者在企業管理平台中認領網域所有權，進而控制連結編輯權限、優化廣告投放效果，並避免網站被他人盜用。
 
-## 使用條件與限制
+## 使用前提與限制
 
 - [x] 需先 [啟用 Facebook 商業擴充功能與相關資產連結](setup-fbe-authorization.md){ title="設定 FBE 帳號授權與資產連結" }。
 

@@ -2,7 +2,7 @@
 title: 設定結帳自動拆分多購物車
 description: 依據商品的通路、溫層、物流及預購屬性設定拆單規則，讓系統在結帳時自動將商品分配至多個購物車。
 created: 2026-03-05 15:00
-last_modified: 2026-06-30 11:26
+last_modified: 2026-07-03 13:11
 lang: zh-TW
 type: tutorial
 status:
@@ -20,11 +20,11 @@ sites:
   - TW
 tnb: branch
 plans:
-  - 企業
+  - 高手
   - 專業PLUS
   - 進階PLUS
-  - 高手
   - 高手PLUS
+  - 企業
 cyb_extensions: []
 audiences:
   - admin
@@ -98,7 +98,7 @@ comments: false
 
           當顧客同時購買 A、B、C 商品時，*系統會依物流限制自動拆分為 2 個購物車，並分別進行結帳*。
 
-??? warning "評估結帳複雜度"
+!!! warning "評估結帳複雜度"
     多重配送屬性會增加結帳流程的複雜度，可能影響顧客體驗，請在設定前審慎評估實際使用情境。
 
     ??? info-clean "商品配送條件如何影響購結帳流程"
@@ -150,7 +150,7 @@ comments: false
 
 ---
 
-### 設定預購商品
+### 設定預購商品通路
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 所有商品**。
 2. 點擊目標商品進入編輯頁面，並切換至 **設定** 分頁。

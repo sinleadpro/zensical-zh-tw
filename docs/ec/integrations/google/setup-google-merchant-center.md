@@ -117,7 +117,7 @@ comments: false
 
     ![GMC 埋HTML標記](../../../assets/images/ec-網站外觀-樣板編輯器-theme-liquid-埋gmchtml標記.png){ title="GMC 埋HTML標記" }
 
-4.  **完成驗證**：回到 GMC 點擊「驗證網路商店」以完成驗證程序。完成驗證後，可點擊 **繼續** 接續[新增/同步商品資料](#同步商品資料-Product-Feed-設定)步驟。
+4.  **完成驗證**：回到 GMC 點擊「驗證網路商店」以完成驗證程序。完成驗證後，可點擊 **繼續** 接續[新增/同步商品資料](#同步商品資料-product-feed-設定)步驟。
 
     ![GMC 驗證成功](../../../assets/images/ec-gmc-p3-驗證網站成功.png){ title="GMC 驗證成功" }
 

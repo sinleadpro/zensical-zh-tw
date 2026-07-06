@@ -114,7 +114,7 @@ hide: []
     *   **LINE 自動同步**：每日 5:00 AM 將目錄資訊同步至 LINE 直播後台。
     *   **手動更新**：若急需同步修改後的商品資訊，可至「LINE購物設定」點擊 **「手動更新目錄」**（一小時僅限點擊一次）。
 4.  **搜尋商品建議**：於直播後台搜尋商品時，建議使用 **Product ID (PID)** 最為精準。
-    *   *PID 取得方式：點開後台商品編輯頁（商品資訊頁籤）網址最後方的數字，或從[匯出商品列表中查看 ID 欄位](../../products/bulk-operations/excel-import-products.md#判斷-excel-上傳商品是新增還是更新){ title="Excel 大量匯入商品" }。*
+    *   *PID 取得方式：點開後台商品編輯頁（商品資訊頁籤）網址最後方的數字，或從[匯出商品列表中查看 ID 欄位](../../products/bulk-operations/excel-import-products.md#determine-add-or-update){ title="Excel 大量匯入商品" }。*
 
     ![商品編輯頁 PID](../../../assets/images/ec-商品-商品編輯頁-pid-slug.png){ title="商品編輯頁 PID" }
 
