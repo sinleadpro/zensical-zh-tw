@@ -2,7 +2,7 @@
 title: 購物車相關設定
 description: 調整顧客在正式結帳前的購物車行為，包含購物車啟用、未結帳提醒、優惠券設定、額外資訊欄位與定期定額購物車設定。
 created: 2026-06-16
-last_modified: 2026-06-27 22:55
+last_modified: 2026-07-06T17:15:38+08:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -26,7 +26,7 @@ plans:
   - 專業
   - 進階
   - 高手
-  - 專業PLUS 
+  - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
@@ -86,10 +86,10 @@ icon: lucide/shopping-cart
 | 設定區塊 | 用途 | 開通條件 |
 | :-- | :-- | :-- |
 | [購物車啟用設定](#operate-cart-settings-activation) | 決定網站是否開放線上購買 | 所有方案 |
-| [顧客購物車未結帳商品自動提醒](#operate-cart-settings-reminder) | 自動提醒購物車有遺留商品的顧客回來結帳 | 需加值功能(見下) |
+| [顧客購物車未結帳商品自動提醒](#operate-cart-settings-reminder) | 自動提醒購物車有遺留商品的顧客回來結帳 | 需開通功能(見下) |
 | [結帳頁優惠券設定](#operate-cart-settings-coupon) | 是否在結帳頁顯示優惠券按鈕、自動套用全館優惠碼 | 所有方案 |
 | [額外資訊](#operate-cart-settings-extra-info) | 在結帳流程新增自訂詢問欄位 | 所有方案 |
-| [定期定額購物車設定](#operate-cart-settings-periodic) | 設定定期定額活動的購物車預設商品數量 | 需加值功能(見下) |
+| [定期定額購物車設定](#operate-cart-settings-periodic) | 設定定期定額活動的購物車預設商品數量 | 需開通功能(見下) |
 
 !!! note "註釋"
     依您的方案與店家設定不同，部分區塊可能不會顯示。若找不到下列某個區塊，代表您的方案尚未開通該功能。
@@ -98,7 +98,7 @@ icon: lucide/shopping-cart
 
 ## 使用前提與限制 { #prerequisites-cart-settings }
 
-部分設定需要對應的加值功能才會出現在頁面上。
+部分設定需要開通相應功能才會出現在頁面上。
 
 !!! plan "方案 / 開通條件"
     * **顧客購物車未結帳商品自動提醒**：多數付費方案皆內建，其中 **LINE OA 提醒** 管道需 PLUS版以上 或 企業版。
@@ -226,7 +226,7 @@ icon: lucide/shopping-cart
 
 ??? quote "為什麼我的後台沒有「定期定額購物車設定」或「未結帳提醒」區塊？"
     [](){ #faq-cart-settings-section-missing }
-    這些區塊需要對應的加值功能才會顯示。請參考 [使用前提與限制][prerequisites-cart-settings]{ data-preview }，或聯繫您的 CYBERBIZ 業務窗口確認方案是否已開通。
+    這些區塊需要對應的功能開通才會顯示。請參考 [使用前提與限制][prerequisites-cart-settings]{ data-preview }，或聯繫您的 CYBERBIZ 業務窗口確認方案是否已開通。
 
 ??? quote "結帳頁優惠券一次最多能用幾張？"
     [](){ #faq-cart-settings-coupon-limit }

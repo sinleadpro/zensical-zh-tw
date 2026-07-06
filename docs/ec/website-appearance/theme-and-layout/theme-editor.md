@@ -2,7 +2,7 @@
 title: 拖拉版型網站設定
 description: 使用拖拉版型編輯器調整官網版面，包含新增區塊、編輯內容、排序、發布等操作。
 created:
-last_modified: 2026-07-03 14:05
+last_modified: 2026-07-06T17:42:27+08:00
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/theme-editor
 type: tutorial
@@ -128,7 +128,7 @@ comments: false
 
 - [x] **版型須為「拖拉版型」：** 只有標示 **「拖拉設定」** 的版型才能使用本文的拖拉編輯器。舊的「預設版型」走另一套網站設定流程，不在本文範圍。
 - [x] **可拖拉的頁面有限：** 目前支援拖拉編輯的頁面為首頁、商品頁面與自訂頁面等，並非每個頁面都能拖拉。完整清單請見 [可拖拉編輯的頁面](../references/theme-editor-pages.md#theme-editor-pages){ title="可拖拉編輯的頁面對照表" data-preview }。
-- [x] **部分區塊需加值功能：** 多數區塊所有拖拉版型皆可使用，少數區塊(如商品評論、門市據點列表)需另外開通對應加值功能才會出現，請見 [可新增區塊類型](../references/theme-editor-sections.md#theme-editor-sections){ title="可新增區塊類型對照表" data-preview }。
+- [x] **部分區塊需開通功能：** 多數區塊所有拖拉版型皆可使用，少數區塊(如商品評論、門市據點列表)需另外開通對應功能才會出現，請見 [可新增區塊類型](../references/theme-editor-sections.md#theme-editor-sections){ title="可新增區塊類型對照表" data-preview }。
 
 ---
 
@@ -309,7 +309,7 @@ comments: false
 
 - **拖拉版型才能拖拉編輯：** 只有標示「拖拉設定」的版型適用本文的編輯器，預設版型請改用舊版網站設定。
 - **可編輯頁面有限：** 僅首頁、商品頁面、自訂頁面等支援拖拉，商品群組頁、部落格頁、搜尋頁等不可拖拉編輯，完整清單見 [可拖拉編輯的頁面](../references/theme-editor-pages.md){ title="可拖拉編輯的頁面對照表" }。
-- **部分區塊需加值功能：** 少數區塊需開通對應加值功能才會出現在新增清單中，詳見 [可新增區塊類型](../references/theme-editor-sections.md){ title="可新增區塊類型對照表" }。
+- **部分區塊需開通功能：** 少數區塊需開通對應功能才會出現在新增清單中，詳見 [可新增區塊類型](../references/theme-editor-sections.md){ title="可新增區塊類型對照表" }。
 - **部分區塊有數量上限：** 某些區塊或其內含的小區塊有數量上限，達到上限後就無法再新增。
 - **檔期設定(選配)：** 部分版型支援為區塊設定上架與下架時間，讓區塊只在指定期間顯示於前台，此功能需另外開通。
 
@@ -354,7 +354,7 @@ comments: false
 
 ??? quote "想要的區塊在新增清單中找不到"
     [](){ #faq-theme-editor-missing-section }
-    可新增的區塊會依您安裝的版型而不同，且少數區塊(如商品評論、門市據點列表)需開通對應加值功能才會出現。詳見 [可新增區塊類型](../references/theme-editor-sections.md){ title="可新增區塊類型對照表" data-preview }，或聯繫業務窗口確認開通狀態。
+    可新增的區塊會依您安裝的版型而不同，且少數區塊(如商品評論、門市據點列表)需開通對應功能才會出現。詳見 [可新增區塊類型](../references/theme-editor-sections.md){ title="可新增區塊類型對照表" data-preview }，或聯繫業務窗口確認開通狀態。
 
 ??? quote "隱藏區塊和移除區塊有什麼差別？"
     [](){ #faq-theme-editor-hide-vs-remove }
