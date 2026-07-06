@@ -277,6 +277,10 @@ graph LR
         - [商品加價購](../../ec/marketing/upsells/setup-product-upsell.md)
 
     - :lucide-plug:{ .lg }
+    [__建立滿額贈滿件贈活動__](../../ec/marketing/discounts/threshold-gifts-and-quantity-gifts.md)<br>
+    引導顧客多買，達成門檻即自動送禮品。
+
+    - :lucide-plug:{ .lg }
     [__設定庫存不足提醒方式__](low-stock-notifications/)<br>
     即時掌握庫存狀態，確保銷售流程順暢。
 
