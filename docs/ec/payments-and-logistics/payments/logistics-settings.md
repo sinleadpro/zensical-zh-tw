@@ -2,7 +2,7 @@
 title: 物流相關設定
 description: 調整配送過程中的細節規範與顧客可指定的送貨偏好，包含超商取貨姓名與離島、出貨明細列印、指定配送日期/時段、退貨天數與 Uber Direct 優物流。
 created: 2026-06-16
-last_modified: 2026-06-27 23:59
+last_modified: 2026-07-06T17:28:29+08:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -26,7 +26,7 @@ plans:
   - 專業
   - 進階
   - 高手
-  - 專業PLUS 
+  - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
@@ -100,10 +100,10 @@ hide: []
 | [超商取貨姓名規範](#operate-logistics-settings-cvs) | 取件人姓名是否允許含英文數字 | 所有方案 |
 | [超商啟用離島設定](#operate-logistics-settings-cvs) | 是否開放 7-11 離島配送 | 所有方案 |
 | [出貨明細列印相關設定](#operate-logistics-settings-fulfillment-print) | 設定託運單出貨明細的顯示欄位 | 所有方案 |
-| [配送指定日期設定](#operate-logistics-settings-delivery-date) | 開放顧客指定配送日期(含進階規則) | 基本功能所有方案 / 進階需加值 |
+| [配送指定日期設定](#operate-logistics-settings-delivery-date) | 開放顧客指定配送日期(含進階規則) | 基本功能所有方案 / 進階需開通 |
 | [配送指定時段設定](#operate-logistics-settings-delivery-time) | 開放顧客指定配送時段 | 所有方案 |
-| [退貨時間調整設定](#operate-logistics-settings-return-timing) | 設定前台可申請退貨的天數 | 需加值功能 |
-| [Uber Direct 優物流](#operate-logistics-settings-uber-direct) | 串接快速到貨配送服務 | 需加值功能 |
+| [退貨時間調整設定](#operate-logistics-settings-return-timing) | 設定前台可申請退貨的天數 | 需開通功能 |
+| [Uber Direct 優物流](#operate-logistics-settings-uber-direct) | 串接快速到貨配送服務 | 需開通功能 |
 
 ---
 
