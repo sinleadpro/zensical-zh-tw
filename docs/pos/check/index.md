@@ -2,7 +2,7 @@
 title: 結帳
 description: 掌握 CYBERBIZ 智能 POS 的完整結帳流程，包含會員登入、商品選購、套用行銷活動及收款開立發票的操作引導。
 created: 2026-04-17 12:30
-last_modified: 2026-06-08 17:50
+last_modified: 2026-07-06 17:00
 lang: zh-TW
 type: tutorial
 status: ""
