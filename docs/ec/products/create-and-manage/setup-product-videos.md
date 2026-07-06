@@ -158,6 +158,10 @@ hide:
 
 <div class="grid cards" markdown>
 
+- :lucide-settings-2:{ .lg }   
+  [__全站共用設定__](../../website-appearance/theme-and-layout/setup-global-theme-settings.md#product-display-layout){ title="全站共用設定" }     
+  前往全站共用設定調整商品影片在彈窗中的顯示順序
+
 - :lucide-video:{ .lg }   
   [__同步商品影片至 Meta 目錄__](../../integrations/fb/meta-ads/sync-product-videos-meta-catalog.md){ title="同步商品影片至 Meta 目錄" }     
   將影片同步至 Meta 目錄並建立目錄型廣告

@@ -2,7 +2,7 @@
 title: 各頁面設定指南
 description: 依頁面類型說明拖拉版型的各項設定，包含首頁區塊、商品頁面、部落格、客服頁等。
 created:
-last_modified: 2026-07-03 12:10
+last_modified: 2026-07-06 12:13
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings
 type: tutorial
@@ -86,14 +86,28 @@ hide:
 comments: false
 ---
 
-## 各頁面設定 { #page-settings }
+## 各頁面設定說明 { #page-settings }
 
 拖拉版型透過上方工具列的 **頁面下拉選單** 切換不同頁面。除了首頁、自訂頁面、單頁式頁面以「新增區塊」的方式自由組合外，其餘頁面的版面由系統固定，僅提供各自的設定項目。
+
+各頁面設定需在拖拉版型編輯器中進行，請先參閱 [拖拉版型網站設定](theme-editor.md){ title="拖拉版型網站設定" } 了解如何進入編輯器。
 
 !!! note "註釋"
     下拉選單實際出現的頁面，會依您安裝的版型與已開通的功能而不同，請以編輯器內顯示的為準。
 
----
+## 使用前提與限制 { #prerequisites-page-settings }
+
+開始之前，請先確認以下條件：
+
+- [x] **已進入拖拉版型編輯器：** 需先開啟拖拉版型編輯器，請見 [進入拖拉版型編輯器](theme-editor.md#operate-theme-editor-enter){ title="進入拖拉版型編輯器" }。
+- [x] **已使用拖拉版型：** 只有標示「拖拉設定」的版型才適用本文的設定。
+- [x] **後台管理員權限：** 您需具備足夠的後台權限方可進行設定。
+- [x] **部分頁面需先完成前置設定：** 例如多層級分類、客服功能開通、門市設定等，請依各頁面章節的說明確認。
+
+!!! plan "方案顯示差異"
+     實際可編輯的頁面與區塊依您的方案與已開通功能而定。
+
+## 操作步驟
 
 ### 首頁 { #homepage }
 
@@ -495,9 +509,21 @@ comments: false
 
 ---
 
+## 後續操作 { #next-steps-page-settings }
+
+<div class="grid cards" markdown>
+
+- :lucide-palette:{ .lg }   
+  [__拖拉版型網站設定__](theme-editor.md){ title="拖拉版型網站設定" }     
+  了解如何進入拖拉版型編輯器進行網站設定
+
+- :lucide-settings-2:{ .lg }   
+  [__全站共用設定__](setup-global-theme-settings.md){ title="全站共用設定" }     
+  設定彈窗廣告、顏色、品牌識別、SEO、商品顯示行為與動態標籤
+
+</div>
+
 ## 參考資料 { #reference-page-settings }
 
-- [拖拉版型網站設定](theme-editor.md)
-- [全站共用設定指南](setup-global-theme-settings.md)
 - [可新增區塊類型對照表](../references/theme-editor-sections.md)
 - [可拖拉編輯的頁面對照表](../references/theme-editor-pages.md)
