@@ -2,7 +2,7 @@
 title: 各頁面設定指南
 description: 依頁面類型說明拖拉版型的各項設定，包含首頁區塊、商品頁面、部落格、客服頁等。
 created:
-last_modified: 2026-07-06 12:13
+last_modified: 2026-07-06 12:24
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings
 type: tutorial
@@ -62,7 +62,6 @@ prerequisites:
   - 門市設定 (快速到貨)
 related: []
 tags:
-  - EC
   - 拖拉版型
   - 首頁區塊
   - 商品頁面
@@ -236,7 +235,6 @@ comments: false
 
     ![自訂排版設計 - 影片](../../../assets/images/ec-website-appearance-custom-blocks-video.png)
 
-<span id="section-carousel"></span>
 === "排程跑馬燈"
 
     1. 載入預先製作好的跑馬燈群組。
