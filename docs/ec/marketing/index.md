@@ -43,6 +43,14 @@ hide:
 
     [:octicons-arrow-right-24: 前往](discounts/red-and-green-bundle-discounts.md)
 
+-   :lucide-gift: __滿額贈 / 滿件贈__
+
+    ---
+
+    建立滿額贈與滿件贈活動，設定訂單或特定標籤商品的金額/件數門檻，自動發送贈品並管理贈送規則。
+
+    [:octicons-arrow-right-24: 前往](discounts/threshold-gifts-and-quantity-gifts.md)
+
 -   :lucide-layers: __設定商品多層級分類滿額折扣__
 
     ---
