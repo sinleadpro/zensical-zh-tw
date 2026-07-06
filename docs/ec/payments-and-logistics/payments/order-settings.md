@@ -2,7 +2,7 @@
 title: 訂單相關設定
 description: 設定訂單成立的金額門檻、未付款與付款失敗提醒、自動結案與自動取消規則、顧客前台取消退貨權限，以及訂單明細與揀貨單的列印內容。
 created: 2026-06-16
-last_modified: 2026-06-27 23:55
+last_modified: 2026-07-06 16:58
 lang: zh-TW
 type: tutorial
 status: ""
@@ -93,14 +93,14 @@ icon: lucide/receipt
 
 | 設定區塊 | 用途 | 開通條件 |
 | :-- | :-- | :-- |
-| [訂單最低消費金額](#operate-order-settings-amount-threshold) | 設定可下單的金額門檻 | 需加值功能 |
-| [訂單累計金額防護設定](#operate-order-settings-amount-threshold) | 限制特定期間內的訂單累計金額 | 需加值功能 |
+| [訂單最低消費金額](#operate-order-settings-amount-threshold) | 設定可下單的金額門檻 | 企業版 |
+| [訂單累計金額防護設定](#operate-order-settings-amount-threshold) | 限制特定期間內的訂單累計金額 | 不限特定方案 |
 | [訂單未付款提醒設定](#operate-order-settings-payment-reminder) | 自動寄發未付款提醒信 | 所有方案 |
 | [訂單付款失敗提醒設定](#operate-order-settings-payment-reminder) | 自動寄發付款失敗提醒信 | 所有方案 |
 | [訂單自動結案設定](#operate-order-settings-auto-close) | 依配送狀態達 N 天後自動結案 | 所有方案 |
 | [訂單自動取消](#operate-order-settings-auto-cancel) | 逾期未付款訂單自動取消 | 所有方案 |
 | [顧客取消訂單、申請退貨設定](#operate-order-settings-customer-cancel) | 開放前台會員自行取消或申請退貨 | 拖拉版型 |
-| [訂單取消退貨相關紅利設定](#operate-order-settings-return-bonus) | 退貨 / 取消時是否返還或發送紅利 | 需加值功能 |
+| [訂單取消退貨相關紅利設定](#operate-order-settings-return-bonus) | 退貨 / 取消時是否返還或發送紅利 | PLUS版 / 企業版 |
 | [列印訂單明細相關文件設定](#operate-order-settings-print-detail) | 設定訂單明細列印欄位 | 所有方案 |
 | [列印揀貨單相關文件設定](#operate-order-settings-print-picking) | 設定揀貨單組合商品呈現方式 | 所有方案 |
 
