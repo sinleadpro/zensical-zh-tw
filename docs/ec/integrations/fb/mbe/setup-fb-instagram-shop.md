@@ -162,7 +162,7 @@ Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專
   若有特定商品（如贈品或測試品）不希望同步至 Facebook 與 Instagram 商店，可透過設定商品標籤進行過濾。
 
 - :lucide-eye-off:{ .lg }   
-  [__隱藏商店或商品__](exclude-products-fb-instagram-sync.md#於商務管理工具中調整手動調整){ title="排除商品不同步至 Facebook 與 Instagram 商店" }       
+  [__隱藏商店或商品__](exclude-products-fb-instagram-sync.md#於商務管理工具中調整-手動調整){ title="排除商品不同步至 Facebook 與 Instagram 商店" }       
   可在商務管理工具中隱藏整個商店或隱藏單一商品。
 
 </div>

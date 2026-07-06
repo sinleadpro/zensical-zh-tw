@@ -2,7 +2,7 @@
 title: 各頁面設定指南
 description: 依頁面類型說明拖拉版型的各項設定，包含首頁區塊、商品頁面、部落格、客服頁等。
 created:
-last_modified: 2026-07-06 12:24
+last_modified: 2026-07-06 13:50
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings
 type: tutorial
@@ -100,7 +100,6 @@ comments: false
 
 - [x] **已進入拖拉版型編輯器：** 需先開啟拖拉版型編輯器，請見 [進入拖拉版型編輯器](theme-editor.md#operate-theme-editor-enter){ title="進入拖拉版型編輯器" }。
 - [x] **已使用拖拉版型：** 只有標示「拖拉設定」的版型才適用本文的設定。
-- [x] **後台管理員權限：** 您需具備足夠的後台權限方可進行設定。
 - [x] **部分頁面需先完成前置設定：** 例如多層級分類、客服功能開通、門市設定等，請依各頁面章節的說明確認。
 
 !!! plan "方案顯示差異"
@@ -495,7 +494,7 @@ comments: false
 
 1. 在頁面下拉選單選擇「搜尋頁」。
 2. 指定搜尋頁面左側要套用的 **選單**（需先 [建立選單](../navigation/setup-menus-navigation.md){ title="設定選單與導覽列" }）。
-3. 搜尋結果中的商品會同步套用「[全站共用設定](../theme-and-layout/setup-global-theme-settings.md#shop-product-display){ title="全站共用設定" }」中的顯示規範（價格區間、商品標語、已銷售數量等）。
+3. 搜尋結果中的商品會同步套用「[全站共用設定](setup-global-theme-settings.md#shop-product-display){ title="全站共用設定" }」中的顯示規範（價格區間、商品標語、已銷售數量等）。
 4. 搜尋結果頁支援顯示定期定額、特價、缺貨以及自定義標籤。
 
 ??? info "搜尋範圍與邏輯說明"

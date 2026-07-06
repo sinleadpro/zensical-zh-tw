@@ -188,7 +188,7 @@ flowchart LR
 <div class="grid cards" markdown>
 
 - :lucide-menu:{ .lg }
-  [__設定選單與導覽列__](../website-appearance/navigation/setup-menus-navigation.md#導覽列外觀設定){ title="導覽列外觀設定" }
+  [__設定選單與導覽列__](../website-appearance/navigation/setup-menus-navigation.md#導覽列外觀設定-navbar){ title="導覽列外觀設定" }
 
 </div>
 

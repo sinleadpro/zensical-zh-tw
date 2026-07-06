@@ -242,7 +242,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-layout-dashboard:{ .lg }  
-  [__自訂排版設計（拖拉版型）__](setup-theme-page-settings.md#section-carousel)  
+  [__自訂排版設計（拖拉版型）__](setup-theme-page-settings.md#section-custom-blocks)  
   將排程跑馬燈加入首頁版面，調整顯示位置。
 
 <!--

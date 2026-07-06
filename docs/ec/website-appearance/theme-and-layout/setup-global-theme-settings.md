@@ -2,7 +2,7 @@
 title: 全站共用設定
 description: 設定拖拉版型的全站共用設定，包含彈窗廣告、顏色、品牌識別、SEO、商品顯示行為與動態標籤。
 created:
-last_modified: 2026-07-06 11:44
+last_modified: 2026-07-06 13:49
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-global-theme-settings
 type: tutorial
@@ -90,7 +90,6 @@ comments: false
 
 - [x] **已進入拖拉版型編輯器：** 需先開啟拖拉版型編輯器，請見 [進入拖拉版型編輯器](theme-editor.md#operate-theme-editor-enter){ title="進入拖拉版型編輯器" }。
 - [x] **已使用拖拉版型：** 只有標示「拖拉設定」的版型才適用本文的設定。
-- [x] **後台管理員權限：** 您需具備足夠的後台權限方可進行設定。
 
 !!! plan "方案顯示差異"
     部分設定(如顏色設定)在 POS 獨賣方案不會顯示；實際項目依您的方案與已開通功能而定。
@@ -248,7 +247,7 @@ comments: false
 
     ![顯示商品標語](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-顯示商品標語.png)
 
-- **顯示商品色票小圖 `企業版`：** 在商品群組頁與多層級分類頁顯示款式顏色小圖。[查看設定教學](../../products/create-and-manage/product-swatches-variant-images-drag-drop.md){ title="設定商品色票與款式圖片" }
+- **顯示商品色票小圖 `企業版`：** 在商品群組頁與多層級分類頁顯示款式顏色小圖。[查看設定教學](../../products/create-and-manage/product-swatches-variant-images-drag-drop.md){ title="設定商品色票與款式圖片-拖拉版型" }
 
     ![顯示商品色票小圖](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-顯示商品色票小圖.png)
 
@@ -344,7 +343,7 @@ comments: false
 
     ![商品標籤列表](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-商品標籤列表-入口.png)
 
-2. 依需求[啟用](theme-editor.md#operate-theme-editor-visibility){ title="顯示或隱藏區塊" data-preview }各類標籤：
+2. 依需求[啟用](theme-editor.md#operate-theme-editor-visibility){ title="拖拉版型網站設定" }各類標籤：
 
     - **特價標籤：** 商品售價低於定價時自動顯示。
     - **缺貨標籤：** 商品庫存為 0 且設為停止銷售時自動顯示。

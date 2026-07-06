@@ -187,7 +187,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-user-plus:{ .lg }   
-  [__大量匯入新會員__](../members/batch-import-and-edit-members.md/#任務一大量匯入新會員)       
+  [__大量匯入新會員__](../members/batch-import-and-edit-members.md#任務一大量匯入新會員)       
   了解如何下載 Excel 範本並批次上傳會員名單。
 
 - :lucide-mail:{ .lg }     
