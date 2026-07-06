@@ -58,7 +58,7 @@ wp_url:
 permalink: https://help.cyberbiz.io/ec/marketing/discounts/threshold-gifts-and-quantity-gifts
 comments: false
 search:
-  exclude: false
+  exclude: true
 icon: lucide/package-plus
 hide: []
 ---

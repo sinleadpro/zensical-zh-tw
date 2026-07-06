@@ -148,7 +148,7 @@ graph LR
     ![YouTube Studio 營利頁面](../../../assets/images/yt-ypp-營利頁面-blurred.png){ .screenshot }
 
 2.  **線上申請**：當訂閱人數達 1,000 人且觀看時數達 4,000 小時（或 Shorts 觀看次數達 1,000 萬次）時，即可直接透過 YouTube Studio 申請 YPP 資格。資格與申請詳情，請參考[官方說明 :lucide-external-link:](https://support.google.com/youtube/answer/72851?hl=zh-hk&co=GENIE.Platform%3DDesktop)。
-3.  **完成 AdSense 驗證**：申請通過後，在 YouTube Studio 後台點選「收取款項」並開始使用，填寫個人資訊以完成 AdSense 註冊。[瞭解詳情 :lucide-external-link:](https://support.google.com/youtube/answer/11602441?hl=zh-Hant&ref_topic=11449917&sjid=3703724191269892924-NC)。
+
 
 ---
 
@@ -156,12 +156,14 @@ graph LR
 
 當上述帳號與資格皆準備完成後，即可進行最後的連結步驟。
 
-1.  **連結 GMC 與 GA4**：在 Merchant Center 設定中啟用自動標記，並將 [GA4 連結至 Merchant Center](setup-gmc-conversion-tracking.md#將-ga4-連結至-merchant-center){ title="設定 GMC 重要事件來源追蹤與自動標記" }。
-2.  **連結 YouTube 頻道與官網**：進入 [YouTube Studio :lucide-external-link:](https://studio.youtube.com/) 的「營利」>「購物」分頁，點選「連結商店」，並選擇「其他商店」後指定您的 GMC 帳號。設定詳情，看參考[官方說明 :lucide-external-link:](https://support.google.com/youtube/answer/12258186?sjid=15941351074417695736-NC#)
+1.  **申請資格**：填寫 [YouTube Shopping 資格申請表](https://docs.google.com/forms/d/e/1FAIpQLSeC92YTZOl0E-SO03SAv-QF_rRaWXNWdYLABZXEFwnfeXhzdQ/viewform)，由 CYBERBIZ 統一遞交至 YouTube。
+    - 申請通過後，CYBERBIZ 將依據您於申請表單中所留的 Email 地址，寄送開通通知信。請於收到信件後，再繼續後續操作。
+2.  **連結 GMC 與 GA4**：在 Merchant Center 設定中啟用自動標記，並將 [GA4 連結至 Merchant Center](setup-gmc-conversion-tracking.md#將-ga4-連結至-merchant-center){ title="設定 GMC 重要事件來源追蹤與自動標記" }。
+3.  **連結 YouTube 頻道與官網**：進入 [YouTube Studio :lucide-external-link:](https://studio.youtube.com/) 的「營利」>「購物」分頁，點選「連結商店」，並選擇「其他商店」後指定您的 GMC 帳號。設定詳情，看參考[官方說明 :lucide-external-link:](https://support.google.com/youtube/answer/12258186?sjid=15941351074417695736-NC#)
 
     ![YouTube Studio 連結商店 GIF](../../../assets/images/yt-第三階段-連結Youtube商店.gif){ .screenshot }
 
-3.  **上傳產品動態饋給 (Product Feed)**：
+4.  **上傳產品動態饋給 (Product Feed)**：
     - **獲取連結**：登入 CYBERBIZ 管理後台，前往 第三方整合 > 谷歌 Google 設定 > Google Merchant Center，複製「產品動態饋給連結」。
 
         ![GMC CYB 產品動態饋給](../../../assets/images/ec-第三方整合-google-gmcproductfeed.png)
