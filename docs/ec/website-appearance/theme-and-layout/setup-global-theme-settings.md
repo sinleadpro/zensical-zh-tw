@@ -2,7 +2,7 @@
 title: 全站共用設定
 description: 設定拖拉版型的全站共用設定，包含彈窗廣告、顏色、品牌識別、SEO、商品顯示行為與動態標籤。
 created:
-last_modified: 2026-07-06 13:49
+last_modified: 2026-07-06 15:40
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-global-theme-settings
 type: tutorial
@@ -186,9 +186,9 @@ comments: false
 ??? note "特定區塊的個別顏色設定"
     除了全站統一的顏色設定外，某些功能區塊允許更細緻的顏色自訂：
 
-    - **置頂公告：** 可分別設定置頂公告欄位的 **圖片連結底色** 及 **時間倒數的文字與背景顏色**。
-    - **折疊內容：** 用於 FAQ 或購物須知的區塊，可個別設定該區塊的顯示顏色。
-    - **圖文介紹：** 此區塊內的 **按鈕顏色** 可依需求自訂。
+    - **[置頂公告](../navigation/setup-menus-navigation.md#置頂公告){ title="設定選單與導覽列" }：** 可分別設定置頂公告欄位的 **圖片連結底色** 及 **時間倒數的文字與背景顏色**。
+    - **[折疊內容](setup-theme-page-settings.md#section-collapsible){ title="各頁面設定指南" }：** 用於 FAQ 或購物須知的區塊，可個別設定該區塊的顯示顏色。
+    - **[圖文介紹](setup-theme-page-settings.md#section-graphic-intro){ title="各頁面設定指南" }：** 此區塊內的 **按鈕顏色** 可依需求自訂。
 
 ---
 
