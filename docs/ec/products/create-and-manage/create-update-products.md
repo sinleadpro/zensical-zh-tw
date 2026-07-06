@@ -2,7 +2,7 @@
 title: 新增與更新商品
 description: 完成一支商品從新增、設定款式與價格、撰寫商品描述，到後續編輯、複製、上下架，以及多國語系與跨境銷售的相關設定。
 created: 2026-03-08 17:15
-last_modified: 2026-07-06 19:16
+last_modified: 2026-07-06 19:39
 lang: zh-TW
 type: tutorial
 status: ""
@@ -234,9 +234,9 @@ hide: []
     - **停止銷售：** 一般商品建議選此，避免超賣。若需配合使用 [**商品到貨通知**](../engagement/setup-back-in-stock-notifications.md){ title="設定商品到貨通知" }，亦須選擇此項。
     - **繼續銷售：** 開放 **預購商品** 時選此。
 
-    !!! tip "預購商品設定"
-        [](){ #setup-preorder-products }
-        將「庫存不足時的處理」設為 **繼續銷售**，即可讓商品在庫存歸零時仍開放顧客下單，達到預購模式的效果。無需另外建立預購商品類型，直接使用現有商品即可運作。若需將預購與現貨在結帳時自動拆分，請見 [設定結帳自動拆分多購物車](../../products/checkout/checkout-split-multi-cart.md#設定預購商品通路){ title="將預購與現貨自動分開結帳" }。
+!!! tip "預購商品設定"
+    [](){ #setup-preorder-products }
+    將「庫存不足時的處理」設為 **繼續銷售**，即可讓商品在庫存歸零時仍開放顧客下單，達到預購模式的效果。無需另外建立預購商品類型，直接使用現有商品即可運作。若需將預購與現貨在結帳時自動拆分，請見 [設定結帳自動拆分多購物車](../../products/checkout/checkout-split-multi-cart.md#設定預購商品通路){ title="將預購與現貨自動分開結帳" }。
 
 ![管理庫存設定](../../../assets/images/ec-inventory-stop-selling.zh-tw.png){ title="管理庫存設定" }
 

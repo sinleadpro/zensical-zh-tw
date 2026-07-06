@@ -2,7 +2,7 @@
 title: 各頁面設定指南
 description: 依頁面類型說明拖拉版型的各項設定，包含首頁區塊、商品頁面、部落格、客服頁等。
 created:
-last_modified: 2026-07-06T17:39:38+08:00
+last_modified: 2026-07-06 20:13
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings
 type: tutorial
@@ -167,36 +167,35 @@ comments: false
 3. 為 **每張素材** 設定圖片：
 
     - 上傳 **電腦版（建議寬 1920px）／平板版（960px）／手機版（480px）** 圖片，單張不超過 1MB，支援 JPG／PNG／JPEG／GIF。
+
+        === "電腦版"
+
+            ![輪播素材-電腦版-設定圖片](../../../assets/images/ec-website-appearance-image-desktop.png){ title="電腦版-上傳圖片" }
+ 
+        === "平板版"
+
+            ![輪播素材-平板版-設定圖片](../../../assets/images/ec-website-appearance-image-tablet.png){ title="平板版-上傳圖片" }
+
+        === "手機版"
+
+            ![輪播素材-手機版-設定圖片](../../../assets/images/ec-website-appearance-image-mobile.png){ title="手機版-上傳圖片" }
+
     - **僅上傳電腦版時，平板與手機會自動沿用同一張。**
     - 設定 **圖片連結**（可勾選「在新分頁開啟連結」）與 **圖片替代文字（alt）**（有助 SEO）。
 
-    ![每張素材設定](../../../assets/images/ec-website-appearance-slider-per-slide-settings.png)
+        ![輪播素材-圖片連結](../../../assets/images/ec-website-appearance-image-link.png){ title="輪播素材-圖片連結" }
+
+        ??? info "圖片連結可連往哪裡"
+            **圖片連結** 為下拉選單，先選目的地類型再指定目標：商店首頁、全部商品、指定商品、商品群組（自訂／條件分類、任選折扣）、部落格、其它頁面、查詢頁面、客服表單，或選 **外部連結** 貼上站外網址。
+
+            !!! warning-clean "使用前提"
+                商品多層級分類、紅配綠組合優惠活動、紅利商城等選項，需先開通對應功能才會出現在下拉選單中。
 
 4. 設定 **素材文字**（同樣是每張素材各自設定）：
 
     - **內容位置**：置左／置中／置右。
     - 填入 **標題文字、內文文字、按鈕文字、按鈕連結**（按鈕連結亦可勾選新分頁開啟）。
     - 分別設定 **標題、內文、按鈕底色、按鈕文字** 的顏色。
-
-    ![素材文字設定](../../../assets/images/ec-website-appearance-slider-text-overlay-settings.png)
-
-
-
----
-
-1. 新增「輪播素材」區塊。
-2. 在右側面板中點擊 **其他版面設定**，展開後設定以下 **區塊層級** 屬性：
-
-    - 圖片停留秒數、切換速度。
-    - 電腦／手機版可各自設定圖片數量與間距。
-
-    ![區塊層級 - 其他版面設計](../../../assets/images/ec-website-appearance-slider-block-level-settings.png)
-
-3. 為 **每張素材** 上傳電腦／平板／手機版圖片，設定圖片連結（可開啟新分頁）與圖片替代文字（alt）。
-
-    ![每張素材設定](../../../assets/images/ec-website-appearance-slider-per-slide-settings.png)
-
-4. 設定 **素材文字**：選擇內容位置，填入標題、內文、按鈕文字與連結，並設定標題／內文／按鈕的顏色。
 
     ![素材文字設定](../../../assets/images/ec-website-appearance-slider-text-overlay-settings.png)
 
