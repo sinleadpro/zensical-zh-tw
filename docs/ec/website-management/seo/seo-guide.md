@@ -114,14 +114,14 @@ CYBERBIZ 系統提供的 SEO 優化範圍涵蓋了 **首頁、商品頁、商品
 
 - **網站名**：前往「管理中心」>「一般設定」[設定網站名稱](../../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="設定網站基本資訊" }（中文字 15 字/英文字 30 字以內）。
 - **Meta Tag 設定**：包含 **標題**、**簡述** 跟 **關鍵字**。
-    *   **一般版型**：前往「網站外觀」>「套版主題管理」>「網站設定」>「公司品牌」。瞭解[一般版型如何設定網站標題](../../website-appearance/site-settings/setup-site-title-seo.md#預設版型-一般版型){ title="一般版型設定網站標題" }。
+    *   **一般版型**：前往「網站外觀」>「套版主題管理」>「網站設定」>「公司品牌」。瞭解[一般版型如何設定網站標題](../../website-appearance/site-settings/setup-site-title-seo.md#site-title-default-theme){ title="一般版型設定網站標題" }。
 
         ![](../../../assets/images/ec-網站外觀-套版主題-網站設定-網站簡述與關鍵字-一般版型.png)
 
-    *   **拖拉版型**：前往「網站外觀」>「套版主題管理」>「網站設定」>「全站設定」。瞭解[拖拉版型如何設定網站標題](../../website-appearance/site-settings/setup-site-title-seo.md#拖拉版型){ title="拖拉版型設定網站標題" }。
+    *   **拖拉版型**：前往「網站外觀」>「套版主題管理」>「網站設定」>「全站設定」。瞭解[拖拉版型如何設定網站標題](../../website-appearance/site-settings/setup-site-title-seo.md#site-title-drag-theme){ title="拖拉版型設定網站標題" }。
 
 !!! note "延伸閱讀"
-    關於網站標題與 SEO 的詳細設定，請參考[設定網站標題與 SEO](../../website-appearance/site-settings/setup-site-title-seo.md){ title="設定網站標題與 SEO" }或直接前往[搜尋引擎結果頁(SERP)設定](../../website-appearance/site-settings/setup-site-title-seo.md#搜尋引擎結果頁-serp){ title="搜尋引擎結果頁(SERP)" }。
+    關於網站標題與 SEO 的詳細設定，請參考[設定網站標題與 SEO](../../website-appearance/site-settings/setup-site-title-seo.md){ title="設定網站標題與 SEO" }或直接前往[搜尋引擎結果頁(SERP)設定](../../website-appearance/site-settings/setup-site-title-seo.md#site-title-serp){ title="搜尋引擎結果頁(SERP)" }。
 
 ## 部落格與其他自訂頁面 SEO
 

@@ -70,18 +70,18 @@ hide:
 
 ![網站標題與SEO設定](../../../assets/images/ec-網站外觀-網站設定-全站設定-網站標題seo.png){ title="網站標題與SEO設定" .hero-page }
 
-## 網站標題與 SEO 說明
+## 網站標題與 SEO 說明 { #intro-site-title-seo }
 
 網站標題與網站簡述有什麼差異
 
 - **網站標題 (Title)**：網頁的核心名稱。應包含「品牌名」與「核心關鍵字」。
 - **網站簡述 (Description)**：網頁內容的摘要。建議以吸引點擊的文案為主，包含主要服務項目。
 
-## 網站標題會顯示在哪裡
+## 網站標題顯示位置 { #where-title-appears }
 
 這兩項設定主要會出現在以下三個地方：
 
-### 瀏覽器頁籤 <small>Browser Tabs</small>
+### 瀏覽器頁籤 <small>Browser Tabs</small> { #browser-tab-display }
     
 - **顯示內容：** 網站標題 (Title)。
 - **作用：** 幫助使用者在開啟多個視窗時，快速辨識您的品牌。
@@ -90,7 +90,7 @@ hide:
 
 ---
 
-### 搜尋引擎結果頁 <small>SERP</small>
+### 搜尋引擎結果頁 <small>SERP</small> { #site-title-serp }
     
 - **顯示內容：** 標題（藍色大字）與 簡述（下方灰色小字）。
 - **作用：** 此區塊會直接影響搜尋結果點擊率（CTR）。
@@ -99,7 +99,7 @@ hide:
 
 ---
 
-### 社群平台分享 <small>Social Media Sharing</small>
+### 社群平台分享 <small>Social Media Sharing</small> { #site-title-social-media }
     
 - **顯示內容：** 當連結貼至 LINE 或 Facebook 時，會抓取標題與簡述。
 - **注意：** 若有設定 **OG Image (分享縮圖)**，效果會更佳。
@@ -108,11 +108,11 @@ hide:
 
 - **網站標題**（TITLE）設定與修改方式，會根據您使用 **版型類型**（一般版型或拖拉版型）而有所不同。
 
-## 操作步驟
+## 操作步驟 { #operate-site-title-seo }
 
 以下為網站設定中「網站標題」與相關 SEO 資訊的詳細教學：
 
-### 設定基礎「網站名」
+### 設定基礎「網站名」 { #operate-set-site-name }
 
 在修改標題文字前，應先設定好品牌的基本名稱，此名稱會與網站標題連動。
 
@@ -123,9 +123,9 @@ hide:
 
 ---
 
-### 修改「網站標題」<small>依版型設定</small>
+### 修改「網站標題」<small>依版型設定</small> { #operate-modify-site-title }
 
-#### 預設版型 <small>一般版型</small>
+#### 預設版型 <small>一般版型</small> { #site-title-default-theme }
 
 預設版型僅能設定「網站標題」，且需透過程式碼編輯器修改。
 
@@ -155,7 +155,7 @@ hide:
 
 ---
 
-#### 拖拉版型
+#### 拖拉版型 { #site-title-drag-theme }
 
 拖拉版型不需修改程式碼，可直接在視覺化介面填入資訊。
 
@@ -167,7 +167,7 @@ hide:
 
 ![全站設定-網站SEO](../../../assets/images/ec-網站外觀-全站設定-網站seo.png){ title="全站設定-網站SEO" }
 
-## 後續操作
+## 後續操作 { #next-steps-site-title-seo }
 
 <div class="grid cards" markdown>
 
@@ -181,7 +181,7 @@ hide:
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-site-title-seo }
 
 ??? quote "為什麼我修改了標題，但在 Google 搜尋結果上還是顯示舊的名稱？" 
 	這屬於正常現象。Google 的搜尋結果是基於其資料庫中的「索引快取」： 
