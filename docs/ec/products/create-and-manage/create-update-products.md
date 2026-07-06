@@ -2,7 +2,7 @@
 title: 新增與更新商品
 description: 完成一支商品從新增、設定款式與價格、撰寫商品描述，到後續編輯、複製、上下架，以及多國語系與跨境銷售的相關設定。
 created: 2026-03-08 17:15
-last_modified: 2026-07-06 19:12
+last_modified: 2026-07-06 19:16
 lang: zh-TW
 type: tutorial
 status: ""
@@ -406,10 +406,6 @@ hide: []
 ??? quote "找不到語言切換選單？"
     [](){ #faq-product-no-language-switch }
     語言切換僅在開通 **前台多國功能** 後才會出現在商品編輯頁標題右側。若沒有看到，代表店家尚未開通此功能，請聯繫 CYBERBIZ 客服。
-
-??? quote "改了價格，為什麼其他語言的價格沒跟著變？"
-    [](){ #faq-product-shared-fields }
-    這是正常的。價格、款式、庫存、圖片屬於 **所有語言共用** 的欄位，只需設定一次。需要逐語言分別填寫的只有文字類欄位(商品名稱、標語、簡述、描述)。
 
 ??? quote "商品設為「不公開」和「排除搜尋」有什麼不同？"
     [](){ #faq-product-hidden-vs-search }
