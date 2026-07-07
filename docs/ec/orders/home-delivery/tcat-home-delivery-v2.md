@@ -2,7 +2,7 @@
 title: 使用黑貓宅配出貨
 description: 批次下載黑貓宅配託運單、扣除運費並將訂單貨態更新為已出貨。
 created: 2026-05-12 15:53
-last_modified: 2026-07-02 07:14
+last_modified: 2026-07-07 09:07
 lang: zh-TW
 type: tutorial
 status: ""
@@ -149,9 +149,6 @@ hide: []
 
 
     * **同意條款**：勾選 **我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 黑貓合約規範** 。未勾選時下載按鈕無法點擊。
-
-    ??? quote "需要自訂黑貓寄件人姓名 / 電話？"
-         若您希望託運單上的寄件人聯絡電話與姓名不同於預設值，可至 **金物流 > 黑貓託運單** 的「[黑貓設定](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" data-preview }」區塊填寫並儲存。
 
     !!! plan "從彈出視窗直接呼叫黑貓司機"
         若你的店家已開通呼叫黑貓功能，視窗下方會出現「自動呼叫黑貓司機取件」區塊，可在下載託運單的同時預約司機到府收件。詳細操作請見 [如何自動呼叫黑貓司機取件](tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" }。
