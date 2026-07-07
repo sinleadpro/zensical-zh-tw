@@ -2,7 +2,7 @@
 title: 設定宅配通託運單
 description: 管理宅配通託運單指南，包含設定寄件人資訊、加印託運單、建立宅配通逆物流，以及查詢託運單號使用紀錄與 Cyber 幣扣款對帳。
 created: 2026-05-20 12:21
-last_modified: 2026-07-01 22:15
+last_modified: 2026-07-07 14:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -72,7 +72,7 @@ hide: []
 
 ![宅配通託運單頁面](../../assets/images/EC-金物流-宅配通託運單-hero.png){ title="宅配通託運單頁面" .hero-page }
 
-## 功能介紹 { #intro-pelican-shipping-note }
+## 宅配通託運單設定說明 { #intro-pelican-shipping-note }
 
 「宅配通託運單」管理頁位於 **後台左側選單「金物流」>「宅配通託運單」**。這個頁面集中處理 **日常出貨流程之外** 的宅配通操作：
 
@@ -86,7 +86,9 @@ hide: []
 !!! info "提示"
     頁面最上方會顯示計費資訊：一般版商家會看到「目前 Cyber 幣餘額」；PLUS版 / 企業版商家則顯示對帳單說明文字。
 
-## 設定寄件人資料 { #configure-pelican-shipping-note-sender }
+## 操作步驟
+
+### 設定寄件人資料 { #configure-pelican-shipping-note-sender }
 
 首次使用「加印託運單」或「宅配通逆物流」前，請先設定寄件人資料。日後若公司地址或聯絡人變更，也回到這裡修改。
 
@@ -102,7 +104,9 @@ hide: []
     * 寄件人欄位皆為 **必填** (品名、名稱、電話、地址)，漏填會跳出錯誤訊息。
     * 此處的寄件人資料僅用於 **加印託運單** 與 **逆物流** ；從訂單列表批次下載託運單時，系統會使用「管理中心」>「一般設定」中設定的公司物流地址。
 
-## 加印託運單 <small>同訂單多箱寄送</small> { #operate-pelican-shipping-note-add-print }
+---
+
+### 加印託運單 <small>同訂單多箱寄送</small> { #operate-pelican-shipping-note-add-print }
 
 當一筆訂單需要拆成多個包裹寄送(例如商品太多裝不下一箱)，使用「加印託運單」可以為 **同一筆訂單建立額外的託運單號** ，每箱各貼一張。
 
@@ -121,7 +125,9 @@ hide: []
 
 [^1]: 例如分 3 箱寄送則選 3。
 
-## 建立宅配通逆物流 <small>退貨</small> { #operate-pelican-shipping-reverse }
+---
+
+### 建立宅配通逆物流 <small>退貨</small> { #operate-pelican-shipping-reverse }
 
 當顧客需要退貨，且您希望由宅配通到府收件時，可從這裡建立逆物流託運單。
 
@@ -142,11 +148,13 @@ hide: []
 
 [^2]: 若留空，系統會自動帶入原訂單的配送地址。
 
-## 查詢紀錄與對帳 { #operate-pelican-shipping-records }
+---
+
+### 查詢紀錄與對帳 { #operate-pelican-shipping-records }
 
 頁面下方提供三份歷史紀錄表，所有資料皆可使用右上角搜尋框關鍵字過濾。
 
-### 宅配通轉單紀錄 { #pelican-shipping-transfer-records }
+#### 宅配通轉單紀錄 { #pelican-shipping-transfer-records }
 
 顯示曾經啟用「轉單」機制的單號紀錄，作為對帳查詢用。
 
@@ -165,9 +173,11 @@ hide: []
 
 ---
 
-### 單號使用紀錄 <small>正物流 / 逆物流</small> { #pelican-shipping-usage-records }
+#### 單號使用紀錄 <small>正物流 / 逆物流</small> { #pelican-shipping-usage-records }
 
 「正物流」記錄出貨用單號，「逆物流」記錄退貨用單號，兩者欄位結構相同。
+
+![宅配通單號紀錄-正物流](../../../assets/images/ec-payments-and-logistics-pelican-records-forward.png){ title="宅配通單號紀錄-正物流" }
 
 ??? info-clean "欄位說明"
 
