@@ -2,7 +2,7 @@
 title: 設定 VIP 會員專屬價格
 description: 為不同等級的 VIP 會員設定差異化商品售價，並透過前台標籤引導訪客登入以提升轉換率。
 created: 2026-03-08 17:45
-last_modified: 2026-07-07 15:52
+last_modified: 2026-07-07 16:13
 lang: zh-TW
 type: tutorial
 status:
@@ -23,6 +23,8 @@ sites:
 tnb: branch
 plans:
   - 高手
+  - 專業PLUS
+  - 進階PLUS
   - 高手PLUS
   - 企業
 cyb_extensions: []
