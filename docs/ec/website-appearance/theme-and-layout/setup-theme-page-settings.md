@@ -2,7 +2,7 @@
 title: 各頁面設定指南
 description: 依頁面類型說明拖拉版型的各項設定，包含首頁區塊、商品頁面、部落格、客服頁等。
 created:
-last_modified: 2026-07-06 20:13
+last_modified: 2026-07-07 16:26
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings
 type: tutorial
@@ -122,14 +122,14 @@ comments: false
     | 手機版-版面左右外邊距 | 同上，套用於平板／手機 | 0 |
     | 手機版-版面底部外邊距 | 同上，套用於平板／手機 | 24 或 50 |
 
-    ??? note "特例"
+    ??? note-clean "特例"
         - **主打商品** 預設邊距較大（電腦左右 80px、手機左右 16px）。
         - **折疊內容** 用的是 **內邊距（padding）** 而非外邊距，且多一組上下內邊距。
         - **應用程式、CMS** 這類區塊沒有版面邊距設定。
 
 通用操作方式：
 
-1. 在頁面下拉選單中選擇「首頁」，可參考[切換編輯頁面與預覽](theme-editor.md#operate-theme-editor-preview){ title="切換編輯頁面與預覽" }了解預覽方式。
+1. 在頁面下拉選單中選擇「首頁」，可參考[切換編輯頁面與預覽](theme-editor.md#operate-theme-editor-preview){ title="切換編輯頁面與預覽" data-preview }了解預覽方式。
 2. 在左側區塊列表點擊「新增區塊」，選擇要新增的區塊類型。
 3. 點選區塊，在右側面板中編輯其內容與設定。
 4. 完成後點擊「儲存」保存變更。

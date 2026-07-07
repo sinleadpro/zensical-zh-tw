@@ -2,7 +2,7 @@
 title: 使用黑貓快速到店出貨
 description: 批次下載黑貓快速到店託運單並將訂單貨態更新為已出貨。
 created: 2026-05-18 15:26
-last_modified: 2026-07-07 16:18
+last_modified: 2026-07-07 16:20
 lang: zh-TW
 type: tutorial
 status: ""
@@ -142,7 +142,7 @@ hide: []
 - [x] **黑貓寄件人地址**： 至「金物流」>「[黑貓快速到店託運單](../../payments-and-logistics/setup-print-tcat-quick-store-waybill-v2.md#configure-ezcat-cvs-shipping-note-sender-setup){ title="設定寄件人資訊" }」設定寄件人地址，否則託運單上的寄件人資訊將不完整。
 - [x] **耗材與設備**： 已備妥「黑貓三聯空白託運單貼紙」（可致電黑貓客服 02-412-8888 取得），並建議使用雷射印表機列印，以確保條碼清晰。
 - [x] **商品預冷（低溫包裹）**： 冷藏商品須預冷 6 小時以上；冷凍商品須預冷 12 小時以上。
-- [x] **確認餘額**：一般版商家請至 [儲值中心查看 Cyber 幣餘額](../../website-management/points-deposits.md){ data-preview }，確認餘額充足；PLUS版 / 企業版商家無此限制。
+- [x] **確認餘額**：一般版商家請至 [儲值中心查看 Cyber 幣餘額](../../website-management/points-deposits.md#cyber-coin-balance){ data-preview }，確認餘額充足；PLUS版 / 企業版商家無此限制。
 
 --- 
 
