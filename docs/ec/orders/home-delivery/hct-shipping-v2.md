@@ -2,7 +2,7 @@
 title: 使用新竹物流出貨
 description: 透過訂單列表批次選取訂單，下載新竹物流託運單並將貨態更新為已出貨。
 created: 2026-05-22 17:21
-last_modified: 2026-07-01 21:25
+last_modified: 2026-07-07 13:53
 lang: zh-TW
 type: tutorial
 status: ""
@@ -109,8 +109,9 @@ hide: []
 | 配送方式 | **必須全部為新竹物流**(混合其他物流方式時不會出現) |
 | 付款方式 | 非黑貓貨到付款 / 宅配通貨到付款 / 順豐貨到付款 |
 
+---
 
-## 計費規則 { #pricing-hct-shipping }
+### 計費規則 { #pricing-hct-shipping }
 
 扣費方式依方案而定：
 
@@ -167,6 +168,8 @@ hide: []
 
 - **寄件人地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [新竹物流設定](../../payments-and-logistics/setup-hct-waybill-v2.md#operate-hct-setup-sender){ title="設定新竹物流託運單" } 中的地址），如需更改可於視窗內點擊 **「更改」** 按鈕編輯[^2]。
 
+![下載新竹物流託運單-彈窗](../../../assets/images/ec-orders-hct-waybill-download-popup.png){ title="下載新竹物流託運單-彈窗" }
+
 ---
 
 ### 四、確認下載 { #operate-hct-shipping-download }
@@ -215,7 +218,7 @@ hide: []
 | 常溫 | 180cm | — | 20kg |
 | 低溫(冷藏 / 冷凍) | 120cm | 60cm | 20kg |
 
-!!! warning "低溫不受理品項"
+!!! info "低溫不受理品項"
     下列品項新竹物流 **不受理** 低溫配送：
     
     - 疫苗、血液 / 尿液檢體、冷藏藥品

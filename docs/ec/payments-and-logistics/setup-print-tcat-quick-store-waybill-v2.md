@@ -2,7 +2,7 @@
 title: 設定與加印黑貓快速到店託運單
 description: 黑貓快速到店(超商取貨)託運單完整指南，包含設定寄件人資訊、加印純配送託運單，以及查詢託運單號使用紀錄與 Cyber 幣扣款對帳。
 created: 2026-05-19 10:00
-last_modified: 2026-07-03 10:12
+last_modified: 2026-07-07 14:07
 lang: zh-TW
 type: tutorial
 status: ""
@@ -93,11 +93,15 @@ hide: []
 | [單號使用紀錄](#ezcat-cvs-shipping-note-usage-records) | 列出本店所有黑貓快速到店託運單與扣抵金額 | 對帳、查詢單號狀態 |
 
 
+## 使用條件與限制
+
 ### 託運單貼紙規定 { #ezcat-cvs-shipping-note-sticker }
 
 列印託運單請務必使用 **「黑貓三聯空白託運單貼紙」**。如未持有，請先致電黑貓客服索取。使用其他規格紙張可能造成黑貓系統無法掃描。
 
-## 設定寄件人資訊 { #configure-ezcat-cvs-shipping-note-sender-setup }
+## 操作步驟
+
+### 設定寄件人資訊 { #configure-ezcat-cvs-shipping-note-sender-setup }
 
 首次使用黑貓快速到店託運單功能前， **必須** 完成「黑貓快速到店設定」區塊。寄件人姓名、地址、電話會被代入後續所有託運單。
 
@@ -116,11 +120,13 @@ hide: []
 
 [^1]: 寄件人名稱不得含特殊符號；若儲存時系統提示錯誤訊息，請依提示移除無效字元後再試。
 
-## 加印託運單 { #ezcat-cvs-shipping-note-create }
+---
+
+### 加印託運單 { #ezcat-cvs-shipping-note-create }
 
 「加印」是針對 **已存在於系統的訂單** ，再產生額外的託運單號；典型情境為一筆訂單需分多箱寄送、或原本的託運單損毀需重新列印。
 
-### 適用條件 { #prerequisites-ezcat-cvs-shipping-note-create }
+#### 適用條件 { #prerequisites-ezcat-cvs-shipping-note-create }
 
 每張加印託運單會即時扣抵 Cyber 幣，系統會在送出前進行下列檢查，任一項不符即會中止:
 
@@ -138,7 +144,7 @@ hide: []
 
 ---
 
-### 操作步驟 { #operate-ezcat-cvs-shipping-note-create }
+#### 操作步驟 { #operate-ezcat-cvs-shipping-note-create }
 
 1. **進入頁面**：登入後台，前往 **金物流 > 黑貓快速到店託運單** ，捲動至「加印託運單」區塊。
 2. **填入訂單編號**：在「訂單編號」欄位，輸入要加印的訂單編號(**不需重複輸入** 訂單編號格式前綴)。
@@ -157,13 +163,15 @@ hide: []
 
 ---
 
-## 查詢紀錄與對帳 { #ezcat-cvs-shipping-note-records }
+### 查詢紀錄與對帳 { #ezcat-cvs-shipping-note-records }
 
 頁面下方提供「單號使用紀錄」表，可使用右上角搜尋框關鍵字過濾，點擊欄位標題可切換排序。
 
-### 單號使用紀錄 { #ezcat-cvs-shipping-note-usage-records }
+#### 單號使用紀錄 { #ezcat-cvs-shipping-note-usage-records }
 
 紀錄本店所有黑貓快速到店託運單的扣抵情形與單號狀態。
+
+![黑貓快速到店單號使用紀錄](../../assets/images/ec-payments-and-logistics-ezcat-cvs-records.png){ title="黑貓快速到店單號使用紀錄" }
 
 ??? info-clean "欄位說明"
 
@@ -177,7 +185,6 @@ hide: []
     | 確認扣除 Cyber 幣額度 | 實際對帳後最終扣除的 Cyber 幣金額 |
     | 對帳備註 | 系統或客服備註，多為客服協助處理時的內部說明 |
     | 單號狀態 | 託運單目前狀態(已使用、待寄件等) |
-
 
 !!! note "註釋"
     * 「客戶選定 Cyber 幣額度」與「確認扣除 Cyber 幣額度」差值會發生於溫層誤標、繁盛期等特殊情境。

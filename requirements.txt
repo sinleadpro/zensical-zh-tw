@@ -26,4 +26,4 @@ tabulate==0.10.0
 tomli==2.4.1
 typing-extensions==4.15.0
 watchdog==6.0.0
-zensical==0.0.46
+zensical==0.0.47

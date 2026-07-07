@@ -2,7 +2,7 @@
 title: 設定與加印黑貓託運單
 description: 管理黑貓宅急便託運單的完整指南，包含設定寄件人資訊、加印純配送託運單、建立黑貓逆物流退貨取件，以及查詢託運單號使用紀錄與 Cyber 幣扣款對帳。
 created: 2026-05-15 14:21
-last_modified: 2026-07-06T17:36:57+08:00
+last_modified: 2026-07-07 11:43
 lang: zh-TW
 type: tutorial
 status: ""
@@ -48,7 +48,6 @@ related:
   - "[[points-deposits]]"
   - "[[order-return-process]]"
 tags:
-  - EC
   - 金物流
   - 黑貓宅急便
   - 黑貓宅配
@@ -212,7 +211,7 @@ hide: []
 ![黑貓逆物流](../../assets/images/EC-金物流-黑貓託運單-黑貓逆物流.png){ title="黑貓逆物流" }
 
 !!! info "提示"
-         系統送出後，**黑貓會直接列印託運單給消費者** ，您與消費者皆不需印單。
+    系統送出後，**黑貓會直接列印託運單給消費者**，您與消費者皆不需印單。
 
 ## 查詢紀錄與對帳 { #ezcat-shipping-note-records }
 
@@ -220,10 +219,12 @@ hide: []
 
 ### 黑貓轉單紀錄 { #ezcat-shipping-note-transfer-records }
 
-!!! info "提示"
+!!! warning "注意"
       黑貓宅配商已不再支援託運單轉單機制，新的加印與出貨操作一律向黑貓索取新單號；本表僅列出停用前所累積的歷史紀錄，新操作不會再產生新資料。
 
 呈現過去系統將「未使用之黑貓單號」自動沿用至新訂單的歷史紀錄，作為對帳查詢用。
+
+![黑貓轉單紀錄](../../assets/images/ec-payments-and-logistics-ezcat-transfer-records.png){ title="黑貓轉單紀錄" }
 
 ??? info-clean "欄位說明"
     | 欄位 | 說明 |
@@ -239,6 +240,8 @@ hide: []
 ### 單號使用紀錄 <small>正物流 / 逆物流</small> { #ezcat-shipping-note-usage-records }
 
 「正物流」記錄出貨用單號，「逆物流」記錄退貨用單號，兩者欄位相同。
+
+![黑貓單號使用紀錄-正物流](../../assets/images/ec-payments-and-logistics-ezcat-waybill-records-forward.png){ title="黑貓單號使用紀錄-正物流" }
 
 ??? info-clean "欄位說明"
     | 欄位 | 說明 |

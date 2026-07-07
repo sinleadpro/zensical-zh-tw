@@ -2,7 +2,7 @@
 title: 設定順豐託運單
 description: 設定順豐託運單，包括建立寄件人資訊、加印託運單及查詢單號使用紀錄。
 created: 2026-05-20 21:23
-last_modified: 2026-07-06T17:37:36+08:00
+last_modified: 2026-07-07 14:19
 lang: zh-TW
 type: tutorial
 status: ""
@@ -142,6 +142,8 @@ hide: []
 ### 單號使用紀錄 { #sf-waybill-history }
 
 頁面最下方的「單號使用記錄」表格，列出所有曾為該店家產生過的順豐託運單。資料以 **建立時間倒序** 排列(最新在最上)。
+
+![順豐單號紀錄](../../../assets/images/ec-payments-and-logistics-sf-waybill-records.png){ title="順豐單號紀錄" }
 
 ??? info-clean "欄位說明"
 
