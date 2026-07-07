@@ -2,7 +2,7 @@
 title: 設定 VIP 會員專屬價格
 description: 為不同等級的 VIP 會員設定差異化商品售價，並透過前台標籤引導訪客登入以提升轉換率。
 created: 2026-03-08 17:45
-last_modified: 2026-07-07 15:51
+last_modified: 2026-07-07 15:52
 lang: zh-TW
 type: tutorial
 status:
@@ -85,7 +85,7 @@ hide: []
 - [x] 已設定 VIP 群組。詳見 [建立專屬VIP群組](../../members/vip/create-exclusive-vip-groups.md)。
 - [x] 若新增 VIP 規則，請重新設定會員專屬價格以確保價格正確套用。
 
-!!! plan "方案差異"
+!!! plan "方案限制"
     **會員專屬價格** 為 **企業版、高手版、高手PLUS版** 內建功能；專業PLUS、進階PLUS 需另行選配後才可使用。
 
 ## 操作步驟
