@@ -2,7 +2,7 @@
 title: 使用黑貓快速到店出貨
 description: 批次下載黑貓快速到店託運單並將訂單貨態更新為已出貨。
 created: 2026-05-18 15:26
-last_modified: 2026-07-07 19:27
+last_modified: 2026-07-07 19:28
 lang: zh-TW
 type: tutorial
 status: ""
@@ -51,7 +51,6 @@ related:
   - "[[補印與加印託運單]]"
   - "[[partial-shipment-v2]]"
 tags:
-  - EC
   - 黑貓快速到店
   - 7-11
   - 託運單
