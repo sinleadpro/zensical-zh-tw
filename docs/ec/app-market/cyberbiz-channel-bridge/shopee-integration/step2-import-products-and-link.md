@@ -2,10 +2,10 @@
 title: Step 2 導入商品與建立關聯
 description: 完成商店授權後，您可以批次將蝦皮商品資訊匯入至官網，並透過系統自動對應功能，快速完成分類歸類與商品上架。
 created: 2026-02-25 00:00
-last_modified: 2026-06-27 13:40
+last_modified: 2026-07-07 12:00
 lang: zh-TW
 type: tutorial
-status: update
+status: ""
 version: 1.1.1
 author: Ann
 reviewers: []

@@ -2,7 +2,7 @@
 title: 結帳
 description: 掌握 CYBERBIZ 智能 POS 的完整結帳流程，包含會員登入、商品選購、套用行銷活動及收款開立發票的操作引導。
 created: 2026-04-17 12:30
-last_modified: 2026-06-08 17:50
+last_modified: 2026-07-06 17:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -275,6 +275,10 @@ graph LR
     增加客單價，在結帳時推薦超值加購品。
         - [訂單加價購](../../ec/marketing/upsells/setup-order-upsell.md)
         - [商品加價購](../../ec/marketing/upsells/setup-product-upsell.md)
+
+    - :lucide-plug:{ .lg }
+    [__建立滿額贈滿件贈活動__](../../ec/marketing/discounts/threshold-gifts-and-quantity-gifts.md)<br>
+    引導顧客多買，達成門檻即自動送禮品。
 
     - :lucide-plug:{ .lg }
     [__設定庫存不足提醒方式__](low-stock-notifications/)<br>

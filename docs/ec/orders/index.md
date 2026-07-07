@@ -171,14 +171,6 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :lucide-zap: __使用黑貓快速到店出貨__
-
-    ---
-
-    批次下載黑貓快速到店託運單、扣除運費並將訂單貨態更新為已出貨。
-
-    [:octicons-arrow-right-24: 前往](tcat-quick-store/tcat-quick-store-shipping.md)
-
 -   :lucide-shopping-cart: __消費者購買流程__
 
     ---
@@ -226,14 +218,6 @@ hide:
     本文件說明快速到貨服務的運費計價標準，系統自動化對帳的詳細規則。
 
     [:octicons-arrow-right-24: 前往](quick-delivery-shipping-fee-calculation-and-reconciliation.md)
-
--   :lucide-clock: __黑貓快速到店逾期說明__
-
-    ---
-
-    逾期未取的判定天數與退貨運費計算機制。
-
-    [:octicons-arrow-right-24: 前往](tcat-quick-store/tcat-quick-store-overdue.md)
 
 </div>
 

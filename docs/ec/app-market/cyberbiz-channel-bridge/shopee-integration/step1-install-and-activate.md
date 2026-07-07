@@ -2,7 +2,7 @@
 title: Step 1 安裝與授權商店
 description: 透過「全通路管理助手」，您可以將蝦皮商店的商品快速同步至 CYBERBIZ 官網，省去手動建立商品的時間。
 created: 2026-02-25 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-07-07 12:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -79,7 +79,6 @@ hide: []
 
 ## 使用須知
 
-- **開通方式**：本功能非預設開啟，**請先洽詢您的 CYBERBIZ 客服**。
 - **帳號限制**：目前僅支援 **蝦皮台灣站 (TW)** 帳號。
 - **資料安全**：授權過程透過官方 API 進行，系統不會取得您的蝦皮帳號密碼。
 - **多帳號操作**：單一官網後台一次僅能與一個蝦皮帳號連結。若有多店搬站需求，請完成一家搬移後，先 **取消授權** 再連結下一個帳號。
@@ -89,13 +88,14 @@ hide: []
 
 ### 步驟 1：安裝全通路管理助手
 
-1. 點擊由 CYBERBIZ 專員提供的啟用連結，輸入您的 **官網前台網址**，點選 **前往**。
+1. 登入 CYBERBIZ 管理後台，前往 **App Market > 擴充服務市集**，點擊 **CYBERBIZ CHANNEL BRIDGE**。
     ![](../../../../assets/images/EC-後台-APPMARKET-蝦皮商品-授權商店01.png)
-2. 進入安裝頁面，勾選授權選項並點選 **安裝**。
+2. 點擊 **安裝應用程式**。
     ![](../../../../assets/images/EC-後台-APPMARKET-蝦皮商品-授權商店02.png)
-3. 登入 CYBERBIZ 管理後台，前往 **App Market > 我的擴充服務**。
-4. 確認已出現 **CYBERBIZ CHANNEL BRIDGE**，點選 **設定** 進入管理介面。
+3. 進入安裝頁面，勾選授權選項並點選 **確認安裝**。
     ![](../../../../assets/images/EC-後台-APPMARKET-蝦皮商品-授權商店03.png)
+4. 確認已出現 **CYBERBIZ CHANNEL BRIDGE**，點選 **設定** 進入管理介面。
+    ![](../../../../assets/images/EC-後台-APPMARKET-蝦皮商品-授權商店04.png)
 
 ### 步驟 2：授權蝦皮商店帳號
 

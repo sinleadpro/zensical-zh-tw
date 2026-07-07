@@ -2,7 +2,7 @@
 title: 滿額贈 / 滿件贈
 description: 建立滿額贈與滿件贈活動，設定訂單或特定標籤商品的金額/件數門檻，自動發送贈品並管理贈送規則。
 created: 2026-01-21 00:00
-last_modified: 2026-06-30 10:56
+last_modified: 2026-07-06 17:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -58,7 +58,7 @@ wp_url:
 permalink: https://help.cyberbiz.io/ec/marketing/discounts/threshold-gifts-and-quantity-gifts
 comments: false
 search:
-  exclude: true
+  exclude: false
 icon: lucide/package-plus
 hide: []
 ---

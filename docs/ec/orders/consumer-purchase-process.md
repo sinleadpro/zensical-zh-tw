@@ -2,7 +2,7 @@
 title: 消費者購買流程
 description: 指引消費者如何搜尋地址、選擇門市、選購商品並完成快速到貨訂單的結帳與收貨驗證。
 created: 2026-02-06 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-07-06 17:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -95,10 +95,10 @@ hide: []
 1. 進入商店前台，點擊 **CYBERBIZ NOW 快速到貨專區**。
 
     === "拖拉版型"
-        ![](../../../assets/images/EC-前台-首頁-拖拉版型快速到貨入口01.png){ .screenshot }
+        ![](../../assets/images/EC-前台-首頁-拖拉版型快速到貨入口01.png){ .screenshot }
 
     === "預設版型"
-        ![](../../../assets/images/EC-前台-首頁-預設版型快速到貨入口01.png){ .screenshot }
+        ![](../../assets/images/EC-前台-首頁-預設版型快速到貨入口01.png){ .screenshot }
 
 2. 在地址搜尋欄輸入詳細配送地址。
     - 或點擊搜尋框右側的 :lucide-send:，使用當前位置。
@@ -118,7 +118,7 @@ hide: []
     - 若同時加入不同門市的商品，結帳前會進入 **多購物車** 選擇頁面。
     - 消費者一次僅能針對一家門市的購物車進行結帳。
 
-![](../../../assets/images/EC-前台-首頁-快速到貨頁面01.png){ .screenshot }
+![](../../assets/images/EC-前台-首頁-快速到貨頁面01.png){ .screenshot }
 
 ### 步驟 3：結帳與備註
 
