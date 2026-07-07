@@ -2,7 +2,7 @@
 title: 使用宅配通出貨
 description: 使用宅配通出貨。包含批次下載託運單、單筆與部分出貨、補印託運單等操作，以及運費計價規則與常見問題。
 created: 2026-05-19 21:30
-last_modified: 2026-07-06T17:31:13+08:00
+last_modified: 2026-07-07 12:25
 lang: zh-TW
 type: tutorial
 status: ""
@@ -152,8 +152,7 @@ hide: []
 5. **檢視運費明細**：彈窗 中段會列出本批次要扣除的 Cyber 幣或對帳金額，請確認與預期相符。
 6. **確認寄件地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [宅配通設定](../../payments-and-logistics/setup-pelican-waybill-v2.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" } 中的地址），如需更改可點擊 **「更改」** 按鈕編輯[^4]。
 
-    ??? tip "需要自訂寄件人姓名 / 電話？"
-         若您希望託運單上的寄件人聯絡電話與姓名不同於預設值，可至 **金物流 > 宅配通託運單** 的「[宅配通設定](../../payments-and-logistics/setup-pelican-waybill-v2.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" }」區塊填寫並儲存。
+    ![確認寄件地址](../../../assets/images/ec-orders-pelican-waybill-popup-address.png){ title="確認宅配通託運單地址" }
 
 7. **同意條款**：勾選頁面底部的 **「我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 宅配通合約規範」** 。
 8. **確認下載**：點擊 **「確認」**。系統會建立託運單、扣除運費，並將訂單貨態更新為「[已出貨(待物流收件)](shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }」。

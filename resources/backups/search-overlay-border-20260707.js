@@ -25,11 +25,6 @@ window.addEventListener("load", () => {
 
       }
 
-      /* SEARCH RESULT ENTRY SPACING */
-      .i {
-        margin-bottom: 12px !important;
-      }
-
     `;
 
     el.shadowRoot.appendChild(style);
