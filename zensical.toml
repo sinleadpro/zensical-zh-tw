@@ -463,7 +463,7 @@ copyright = """
                 { "Chat Box AI 建議回覆" = "ec/app-market/chatbox/chat-box-ai-suggested-replies.md" },
                 { "官網整合對話入口" = "ec/app-market/chatbox/integrated-chat-widget.md" },
             ]},
-            {"全通路管理助手" = [
+            {"CHANNEL BRIDGE" = [
                 { "Step 1 安裝啟用" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md" },
                 { "Step 2 導入商品與建立關聯" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step2-import-products-and-link.md" },
                 { "Step 3 庫存同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee.md" },
