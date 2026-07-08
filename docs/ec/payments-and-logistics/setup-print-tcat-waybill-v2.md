@@ -2,7 +2,7 @@
 title: 設定與加印黑貓託運單
 description: 管理黑貓宅急便託運單的完整指南，包含設定寄件人資訊、加印純配送託運單、建立黑貓逆物流退貨取件，以及查詢託運單號使用紀錄與 Cyber 幣扣款對帳。
 created: 2026-05-15 14:21
-last_modified: 2026-07-02 08:43
+last_modified: 2026-07-07 11:43
 lang: zh-TW
 type: tutorial
 status: ""
@@ -14,7 +14,7 @@ ga_views: 0
 feedback: 0
 products:
   - EC
-modules: 
+modules:
   - 金物流
 sites:
   - TW
@@ -22,7 +22,7 @@ audiences:
   - admin
 difficulty: beginner
 tnb: trunk
-plans: 
+plans:
   - 專業
   - 進階
   - 高手
@@ -48,7 +48,6 @@ related:
   - "[[points-deposits]]"
   - "[[order-return-process]]"
 tags:
-  - EC
   - 金物流
   - 黑貓宅急便
   - 黑貓宅配
@@ -102,9 +101,9 @@ hide: []
 | [單號使用紀錄(正物流)](#ezcat-shipping-note-usage-records) | 列出本店所有黑貓宅急便正物流託運單與扣抵金額 | 對帳、查詢轉單狀態 |
 | [單號使用紀錄(逆物流)](#ezcat-shipping-note-usage-records) | 列出本店所有黑貓宅急便逆物流託運單與扣抵金額 | 對帳、查詢轉單狀態 |
 
-!!! plan "方案 / 加值功能"
+!!! plan "方案 / 開通功能"
     * **黑貓宅配**：需店家方案內含「黑貓宅配」功能；若入口未顯示，請聯繫您的 CYBERBIZ 業務窗口確認方案開通狀態。
-    * **[呼叫黑貓](../orders/home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" data-preview }** (加值功能)：啟用後，加印託運單時可選擇「呼叫黑貓」，由黑貓司機自動到府取件；未開通則需自行交件。
+    * **[呼叫黑貓](../orders/home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" data-preview }** (方案開通功能)：啟用後，加印託運單時可選擇「呼叫黑貓」，由黑貓司機自動到府取件；未開通則需自行交件。
 
 ## 計費規則 { #ezcat-shipping-note-billing }
 
@@ -133,7 +132,7 @@ hide: []
 ![寄件人資訊](../../assets/images/EC-金物流-黑貓託運單-寄件人資訊.png){ title="寄件人資訊" }
 
 !!! note "註釋"
-    「[呼叫黑貓](../orders/home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" data-preview }」加值功能啟用時，寄件人地址會作為 **黑貓司機到府取件的地址** ，寄件人電話會作為 **黑貓與您聯絡的電話** 。
+    「[呼叫黑貓](../orders/home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" data-preview }」方案開通功能啟用時，寄件人地址會作為 **黑貓司機到府取件的地址** ，寄件人電話會作為 **黑貓與您聯絡的電話** 。
 
 [^1]: 寄件人名稱不得含特殊符號；若儲存時提示「收件人名稱...」錯誤訊息，請依提示移除無效字元後再試。
 [^5]: 例如「網購商品」。
@@ -212,7 +211,7 @@ hide: []
 ![黑貓逆物流](../../assets/images/EC-金物流-黑貓託運單-黑貓逆物流.png){ title="黑貓逆物流" }
 
 !!! info "提示"
-         系統送出後，**黑貓會直接列印託運單給消費者** ，您與消費者皆不需印單。
+    系統送出後，**黑貓會直接列印託運單給消費者**，您與消費者皆不需印單。
 
 ## 查詢紀錄與對帳 { #ezcat-shipping-note-records }
 
@@ -220,10 +219,12 @@ hide: []
 
 ### 黑貓轉單紀錄 { #ezcat-shipping-note-transfer-records }
 
-!!! info "提示"
+!!! warning "注意"
       黑貓宅配商已不再支援託運單轉單機制，新的加印與出貨操作一律向黑貓索取新單號；本表僅列出停用前所累積的歷史紀錄，新操作不會再產生新資料。
 
 呈現過去系統將「未使用之黑貓單號」自動沿用至新訂單的歷史紀錄，作為對帳查詢用。
+
+![黑貓轉單紀錄](../../assets/images/ec-payments-and-logistics-ezcat-transfer-records.png){ title="黑貓轉單紀錄" }
 
 ??? info-clean "欄位說明"
     | 欄位 | 說明 |
@@ -239,6 +240,8 @@ hide: []
 ### 單號使用紀錄 <small>正物流 / 逆物流</small> { #ezcat-shipping-note-usage-records }
 
 「正物流」記錄出貨用單號，「逆物流」記錄退貨用單號，兩者欄位相同。
+
+![黑貓單號使用紀錄-正物流](../../assets/images/ec-payments-and-logistics-ezcat-waybill-records-forward.png){ title="黑貓單號使用紀錄-正物流" }
 
 ??? info-clean "欄位說明"
     | 欄位 | 說明 |
@@ -263,7 +266,7 @@ hide: []
 
 - :lucide-bell:{ .lg }  
   [__自動呼叫黑貓司機取件__](../orders/home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" data-preview }  
-  啟用加值功能後，加印託運單時可選擇由黑貓司機自動到府取件，不需自行交件。
+  開通功能後，加印託運單時可選擇由黑貓司機自動到府取件，不需自行交件。
 
 - :lucide-wallet:{ .lg }  
   [__Cyber 幣儲值__](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="如何儲值 Cyber 幣" }  

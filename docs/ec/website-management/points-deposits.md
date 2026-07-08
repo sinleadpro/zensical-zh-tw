@@ -2,7 +2,7 @@
 title: Cyber 幣儲值中心使用指南
 description: Cyber 幣儲值中心使用指南，包含儲值步驟、發票資訊填寫、付款方式與使用明細查詢。
 created: 2026-04-28 10:38
-last_modified: 2026-07-02 20:36
+last_modified: 2026-07-06T17:31:38+08:00
 lang: zh-TW
 type: guide
 status: ""
@@ -75,7 +75,7 @@ hide:
 
 ## Cyber幣說明
 
-Cyber幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項加值服務，包含：
+Cyber幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務，包含：
 
 - 發送簡訊通知（SMS）
 - 發送電子報（EDM）

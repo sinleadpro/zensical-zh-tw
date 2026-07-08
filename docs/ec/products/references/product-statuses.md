@@ -2,7 +2,7 @@
 title: 商品狀態對照表
 description: ""
 created: 2026-06-05 13:40
-last_modified: 2026-06-05 13:40
+last_modified: 2026-07-06 19:08
 lang: zh-TW
 type: reference
 status: ""
@@ -28,13 +28,10 @@ features: []
 prerequisites: []
 related: []
 tags:
-  - EC
   - 商品管理
   - 商品狀態
   - 上架狀態
   - 公開狀態
-  - Reference
-  - 對照表
   - 站內搜尋
 acoiv: ""
 apis: []

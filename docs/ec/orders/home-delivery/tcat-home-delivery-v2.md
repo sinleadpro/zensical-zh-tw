@@ -2,7 +2,7 @@
 title: 使用黑貓宅配出貨
 description: 批次下載黑貓宅配託運單、扣除運費並將訂單貨態更新為已出貨。
 created: 2026-05-12 15:53
-last_modified: 2026-07-02 07:14
+last_modified: 2026-07-07 11:04
 lang: zh-TW
 type: tutorial
 status: ""
@@ -97,11 +97,8 @@ hide: []
 
 商家方案不同，黑貓運費的扣款方式也不同：
 
-=== "一般版"
-    需先[儲值 Cyber幣](../../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="如何儲值Cyber幣" }。下載託運單時系統會即時從 Cyber 幣餘額扣除運費，餘額不足時下載會失敗。
-
-=== "PLUS版 / 企業版"
-    無須事先儲值。每筆運費將計入「對帳中心」，於每期對帳單一次結清。
+- **一般版**：需先[儲值 Cyber幣](../../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="如何儲值Cyber幣" }。下載託運單時系統會即時從 Cyber 幣餘額扣除運費，餘額不足時下載會失敗。
+- **PLUS版 / 企業版**：無須事先儲值。每筆運費將計入「對帳中心」，於每期對帳單一次結清。
 
 ??? tip "如何查詢扣款明細"
      一般版商家可至 **儲值中心 > 明細紀錄** [查詢扣款歷程](../../website-management/points-deposits.md#cyber-coin-transaction-history){ title="查詢 Cyber 幣使用明細" data-preview }；PLUS版 / 企業版 商家可至 **對帳中心** 查詢月結帳單。
@@ -117,9 +114,7 @@ hide: []
 - 訂單詳情頁內，狀態會保留在「[已出貨(待物流收件)](shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }」。
 - 託運單單號狀態更改為「取消寄件」。
 
-## 操作步驟 { #operate-tcat-home }
-
-### 出貨前準備 { #prerequisites-tcat-home }
+## 使用前提與限制 { #prerequisites-tcat-home }
 
 執行黑貓宅配出貨前，請完成以下準備：
 
@@ -130,7 +125,7 @@ hide: []
 企業版商家無此限制。
 - [x] **列印設備建議**：建議使用 **雷射印表機** 列印託運單，避免出貨條碼判讀異常。
 
----
+## 操作步驟 { #operate-tcat-home }
 
 ### 批次下載黑貓宅配託運單 { #tcat-home-shipping-label-batch }
 
@@ -147,11 +142,9 @@ hide: []
     * **是否為易碎品**：選擇 **是** 或 **否** 。
     * **寄件地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [黑貓設定](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" } 中的地址），如需更改可於視窗內點擊 **「更改」** 按鈕編輯[^3]。
 
-
     * **同意條款**：勾選 **我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 黑貓合約規範** 。未勾選時下載按鈕無法點擊。
 
-    ??? quote "需要自訂黑貓寄件人姓名 / 電話？"
-         若您希望託運單上的寄件人聯絡電話與姓名不同於預設值，可至 **金物流 > 黑貓託運單** 的「[黑貓設定](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" data-preview }」區塊填寫並儲存。
+    ![下載黑貓託運單彈窗](../../../assets/images/ec-orders-tcat-waybill-download-popup.png)
 
     !!! plan "從彈出視窗直接呼叫黑貓司機"
         若你的店家已開通呼叫黑貓功能，視窗下方會出現「自動呼叫黑貓司機取件」區塊，可在下載託運單的同時預約司機到府收件。詳細操作請見 [如何自動呼叫黑貓司機取件](tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" }。

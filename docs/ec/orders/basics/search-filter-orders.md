@@ -2,7 +2,7 @@
 title: 如何搜尋與篩選訂單
 description: 使用關鍵字搜尋、條件篩選、檢視群組與訂單標籤等功能，快速找出目標訂單。
 created: 2026-05-07 11:23
-last_modified: 2026-07-02 07:16
+last_modified: 2026-07-06T17:34:47+08:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -156,7 +156,7 @@ hide: []
         ![訂單篩選時間-舊版](../../../assets/images/EC-所有訂單-篩選時間-舊版.png){ title="訂單篩選時間-舊版" }                         
        
         !!! info "若已開通 POS 系統，會額外出現 **「確認時間」** 篩選器，可依店員結帳／確認的時間點查詢 POS 訂單。                                                       "
-    3.  **來源與配送條件**：依您開通的加值功能而定，可能出現以下篩選器:
+    1.  **來源與配送條件**：依您開通的功能而定，可能出現以下篩選器:
                                                                                                           
         - **「[訂單來源](../references/order-filter-status-reference.md#orders-store){ title="訂單篩選條件與狀態對照表" data-preview }」**：在 EC 主站與各 POS 門市之間切換             
         - **「[配送方式](../references/shipping-methods.md#shipping-methods){ title="配送方式分類對照表" data-preview }」**：篩選店取、超商、宅配等配送管道      
@@ -164,7 +164,7 @@ hide: []
         - **「[商家來源/收款方](../references/order-filter-status-reference.md#orders-merchant-from){ title="訂單篩選條件與狀態對照表" data-preview }」**：依金流收款方篩選                    
         - **「[倉庫類型](../references/order-filter-status-reference.md#orders-warehouse-type){ title="訂單篩選條件與狀態對照表" data-preview }」**：開通多倉庫的店家可依出貨倉切換
                                                                                                           
-    4.  **進階搜尋**（需開通「進階訂單搜尋」加值功能）：搜尋框上方會出現                                
+    2.  **進階搜尋**（需開通「進階訂單搜尋」功能）：搜尋框上方會出現                                
                                                                                                           
         - **搜尋類型下拉**：指定只在訂單編號、客戶 Email、商品 SKU 等特定欄位內搜尋                     
         - **「完全符合」勾選框**：勾選後改為精確比對，預設為模糊匹配                                    

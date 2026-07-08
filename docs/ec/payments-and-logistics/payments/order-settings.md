@@ -2,7 +2,7 @@
 title: 訂單相關設定
 description: 設定訂單成立的金額門檻、未付款與付款失敗提醒、自動結案與自動取消規則、顧客前台取消退貨權限，以及訂單明細與揀貨單的列印內容。
 created: 2026-06-16
-last_modified: 2026-06-27 23:55
+last_modified: 2026-07-06 17:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -93,14 +93,14 @@ icon: lucide/receipt
 
 | 設定區塊 | 用途 | 開通條件 |
 | :-- | :-- | :-- |
-| [訂單最低消費金額](#operate-order-settings-amount-threshold) | 設定可下單的金額門檻 | 需加值功能 |
-| [訂單累計金額防護設定](#operate-order-settings-amount-threshold) | 限制特定期間內的訂單累計金額 | 需加值功能 |
+| [訂單最低消費金額](#operate-order-settings-amount-threshold) | 設定可下單的金額門檻 | 企業版 |
+| [訂單累計金額防護設定](#operate-order-settings-amount-threshold) | 限制特定期間內的訂單累計金額 | 不限特定方案 |
 | [訂單未付款提醒設定](#operate-order-settings-payment-reminder) | 自動寄發未付款提醒信 | 所有方案 |
 | [訂單付款失敗提醒設定](#operate-order-settings-payment-reminder) | 自動寄發付款失敗提醒信 | 所有方案 |
 | [訂單自動結案設定](#operate-order-settings-auto-close) | 依配送狀態達 N 天後自動結案 | 所有方案 |
 | [訂單自動取消](#operate-order-settings-auto-cancel) | 逾期未付款訂單自動取消 | 所有方案 |
 | [顧客取消訂單、申請退貨設定](#operate-order-settings-customer-cancel) | 開放前台會員自行取消或申請退貨 | 拖拉版型 |
-| [訂單取消退貨相關紅利設定](#operate-order-settings-return-bonus) | 退貨 / 取消時是否返還或發送紅利 | 需加值功能 |
+| [訂單取消退貨相關紅利設定](#operate-order-settings-return-bonus) | 退貨 / 取消時是否返還或發送紅利 | PLUS版 / 企業版 |
 | [列印訂單明細相關文件設定](#operate-order-settings-print-detail) | 設定訂單明細列印欄位 | 所有方案 |
 | [列印揀貨單相關文件設定](#operate-order-settings-print-picking) | 設定揀貨單組合商品呈現方式 | 所有方案 |
 
@@ -111,7 +111,7 @@ icon: lucide/receipt
 !!! plan "方案 / 開通條件"
     * **訂單最低消費金額**：需開通「最低消費金額」功能(企業版)。
     * **訂單累計金額防護設定**：需另行加購，請洽 CYBERBIZ 業務窗口。
-    * **訂單取消退貨相關紅利設定**：依您開通的紅利相關加值功能(返還消費紅利、部分退貨返還 / 發送紅利、紅利商城等)顯示對應選項，多需 PLUS 版以上或企業版。
+    * **訂單取消退貨相關紅利設定**：依您開通的紅利相關功能(返還消費紅利、部分退貨返還 / 發送紅利、紅利商城等)顯示對應選項，多需 PLUS 版以上或企業版。
     * **顧客取消訂單、申請退貨設定**：僅適用於拖拉版型；非拖拉版型時此區塊會呈灰階且無法編輯。
     * 如不確定店家是否已開通，請聯繫您的 CYBERBIZ 業務窗口確認。
 
@@ -256,7 +256,7 @@ icon: lucide/receipt
 當訂單退貨或取消時，決定系統要不要自動返還顧客折抵掉的紅利，或補發應得的紅利。
 
 1. **展開區塊：** 點擊「訂單取消退貨相關紅利設定」區塊標題展開內容。
-2. **依需求開啟對應開關：** 您會看到以下幾種選項(依開通的加值功能顯示)[^bonus-options]:
+2. **依需求開啟對應開關：** 您會看到以下幾種選項(依開通的功能顯示)[^bonus-options]:
     * **開啟「退貨訂單」返還折抵的紅利**：整筆退貨時，返還顧客原折抵的紅利。
     * **開啟「部分退貨訂單」返還折抵的紅利**：部分退貨時，返還該商品折抵的紅利。
     * **開啟「部分退貨訂單」發送紅利**：部分退貨結案後，補發顧客應得的紅利。
@@ -305,7 +305,7 @@ icon: lucide/receipt
 
 ??? quote "訂單結案後才退貨，先前發的紅利會自動扣回嗎？"
     [](){ #faq-order-settings-bonus-after-close }
-    不會。訂單一旦結案，消費紅利與分潤即結算發放。若後續退貨，系統不會自動扣回已發送的紅利，需商家至會員頁面手動處理。若希望退貨時自動返還顧客折抵的紅利，請於「訂單取消退貨相關紅利設定」開啟對應功能(需加值)。
+    不會。訂單一旦結案，消費紅利與分潤即結算發放。若後續退貨，系統不會自動扣回已發送的紅利，需商家至會員頁面手動處理。若希望退貨時自動返還顧客折抵的紅利，請於「訂單取消退貨相關紅利設定」開啟對應功能。
 
 ??? quote "貨到付款的訂單會被自動取消嗎？"
     [](){ #faq-order-settings-cod-auto-cancel }

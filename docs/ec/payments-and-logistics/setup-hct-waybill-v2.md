@@ -2,7 +2,7 @@
 title: 設定新竹物流託運單
 description: 設定新竹物流託運單完整教學，包含寄件人資訊設定、加印託運單、逆物流建立、單號查詢與常見問題。
 created: 2026-05-22 17:28
-last_modified: 2026-07-01 22:05
+last_modified: 2026-07-07 14:22
 lang: zh-TW
 type: tutorial
 status: ""
@@ -191,6 +191,8 @@ hide: []
 ### 查詢單號使用紀錄 { #operate-hct-setup-records }
 
 頁面最下方提供「正物流」與「逆物流」兩張表，可查詢[^records-query]過往的託運單號、扣費紀錄、單號狀態：
+
+![新竹物流託運單-單號使用紀錄](../../../assets/images/ec-payments-and-logistics-hct-waybill-records.png){ title="新竹物流託運單-單號使用紀錄" }
 
 ??? info-clean "欄位說明"
 

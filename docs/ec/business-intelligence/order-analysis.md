@@ -2,7 +2,7 @@
 title: 訂單分析
 description: 使用訂單分析頁面查看銷售趨勢、金物流偏好與業績報表
 created: 2026-06-15
-last_modified: 2026-07-02 16:56
+last_modified: 2026-07-07 16:51
 lang: zh-TW
 type: tutorial
 status: ""
@@ -230,7 +230,6 @@ hide:
 「訂單金物流分析」中的 **第三方導購** 圖表，需要商店已串接導購平台才會出現。只要符合以下任一條件即會顯示：
 
 * 已設定「美安夥伴商店」
-* 已串接「通路王」
 * 已串接「LINE購物」
 
 三者皆未啟用時，整組第三方導購圖表不會顯示。
@@ -570,7 +569,7 @@ hide:
 
 ??? quote "為什麼看不到「第三方導購」的圖表？"
     [](){ #faq-order-analysis-no-third-party }
-    第三方導購圖表需要商店已串接導購平台才會出現。請確認是否已設定「美安夥伴商店」、串接「通路王」或「LINE購物」其中之一，詳見 [第三方導購圖表的顯示條件](#prerequisites-order-analysis-third-party){ title="第三方導購圖表的顯示條件" }。
+    第三方導購圖表需要商店已串接導購平台才會出現。請確認是否已設定「美安夥伴商店」、「LINE購物」其中之一，詳見 [第三方導購圖表的顯示條件](#prerequisites-order-analysis-third-party){ title="第三方導購圖表的顯示條件" }。
 
 ??? quote "訂單分析的資料可以匯出嗎？"
     [](){ #faq-order-analysis-export }

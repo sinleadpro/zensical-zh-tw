@@ -2,7 +2,7 @@
 title: 設定商品自訂分類群組
 description: 依照行銷活動或主題手動挑選商品建立群組，作為店面分類頁、選單連結或廣告活動的著陸頁。
 created: 2026-01-08 00:00
-last_modified: 2026-06-30 11:26
+last_modified: 2026-07-06T17:24:39+08:00
 lang: zh-TW
 type: tutorial
 status:
@@ -109,7 +109,7 @@ hide: []
 ## 使用前提與限制 { #prerequisites-custom-collections }
 
 - [x] **方案群組數量上限**：依商家方案不同，自訂分類群組總數可能有上限。若達上限，新增群組時系統會擋下並提示。
-- [x] **多國語系（選用）**：若需要在不同語系的店面前台顯示不同的群組名稱、描述與 SEO，需另行開通多國語系加值功能。詳見 [多國語系設定](#operate-custom-collections-multilingual)。
+- [x] **多國語系（選用）**：若需要在不同語系的店面前台顯示不同的群組名稱、描述與 SEO，需另行開通多國語系功能。詳見 [多國語系設定](#operate-custom-collections-multilingual)。
 
 ## 操作步驟 { #operate-custom-collections }
 
@@ -319,7 +319,7 @@ hide: []
 { .doc-badge }
 
 !!! plan "開通條件"
-    多國語系為加值功能，**不分方案皆需另行開通**，請聯繫專屬客戶顧問。開通後頁面右上角會出現 **「選擇語言」** 下拉選單；未開通的商家不會看到此選單，亦無法進行多語系編輯。
+    多國語系功能，**不分方案皆需另行開通**，請聯繫專屬客戶顧問。開通後頁面右上角會出現 **「選擇語言」** 下拉選單；未開通的商家不會看到此選單，亦無法進行多語系編輯。
 
 #### 各欄位的語系行為 { #operate-custom-collections-multilingual-fields }
 
@@ -382,7 +382,7 @@ hide: []
 
 - :lucide-languages:{ .lg }  
   [**多國語系開通**](../../website-management/setup-multi-language-and-multi-currency.md){ title="設定前台多國語言與多幣別" }  
-  多國語系為加值功能，請聯繫專屬客戶顧問。
+  開通多國語系功能。
 
 </div>
 
@@ -409,7 +409,7 @@ hide: []
 
 ??? quote "為什麼我看不到頁面右上角的「選擇語言」下拉？"
     [](){ #faq-custom-collections-no-language-selector }
-    多國語系為加值功能，**不分方案皆需另行開通**。請聯繫專屬客戶顧問開通多國語系後，畫面右上角才會出現「選擇語言」選單，方可進行多語系編輯。
+    多國語系功能，**不分方案皆需另行開通**。開通多國語系後，畫面右上角才會出現「選擇語言」選單，方可進行多語系編輯。
 
 ??? quote "切換語系後填的 SEO，為什麼前台還是空白？"
     [](){ #faq-custom-collections-seo-empty }

@@ -2,7 +2,7 @@
 title: 自動呼叫黑貓司機取件
 description: 在批次下載黑貓託運單時，同步自動通知黑貓派車取件，省去人工聯絡時間。
 created: 2026-05-13 16:18
-last_modified: 2026-07-01 20:25
+last_modified: 2026-07-07 12:11
 lang: zh-TW
 type: tutorial
 status: ""
@@ -86,10 +86,10 @@ hide: []
 | 條件 | 說明 |
 | :-- | :-- |
 | 後台版型 | 必須使用 **新版訂單列表**，舊版訂單列表不支援此功能 |
-| 加值功能 | 「自動呼叫黑貓司機」屬加值功能，請聯繫 **CYBERBIZ 客服** 申請開通 |
+| 開通功能 | 「自動呼叫黑貓司機」屬開通功能，請聯繫 **CYBERBIZ 客服** 申請開通 |
 | 寄件人資訊 | 必須先至 **[黑貓寄取件設定頁](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" data-preview }**(金物流 > 黑貓託運單 > 黑貓設定)完整填寫寄件人姓名、地址與聯絡電話，系統才會接受呼叫請求 |
 
-!!! info "若彈窗下半部未出現「是否自動呼叫黑貓司機取件」的選項區塊，代表此商店尚未開通該加值功能。"
+!!! info "若彈窗下半部未出現「是否自動呼叫黑貓司機取件」的選項區塊，代表此商店尚未開通該功能。"
 
 ---
 
@@ -127,6 +127,8 @@ hide: []
     * **是否需在取件前事先電話聯絡**：選「是」時，司機抵達前會撥打「[黑貓寄取件設定頁](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" }」中填寫的聯絡電話與您確認。
     * **是否需黑貓司機準備推車**：若包裹數量較多，可請司機自備推車。
     * **備註**：可填寫特殊收件指示(例如門禁、樓層)，上限 **100 字**。
+
+    ![自動呼叫黑貓司機](../../../assets/images/ec-payments-and-logistics-ezcat-auto-call-driver.png){ title="黑貓自動呼叫司機設定" }
 
 6. **確認同意條款並送出**：勾選頁面下方的物流契約同意項目，點擊 **確認**。系統會同步列印託運單 PDF、將該批訂單貨態改為「已出貨」，並向黑貓送出司機取件通知（[如何避免重複呼叫](#tcat-auto-call-driver-multiple-calls)）。
 
@@ -185,7 +187,7 @@ hide: []
 ??? quote "彈窗中找不到「是否自動呼叫黑貓司機取件」這個區塊?"
     [](){ #faq-tcat-auto-call-driver-cannot-find-option }
 
-    此功能為加值申請項目。請確認：
+    此功能為開通申請項目。請確認：
 
     1. 您使用的是 **新版訂單列表**。
     2. 商店已向 CYBERBIZ 客服申請開通「**自動呼叫黑貓司機**」。

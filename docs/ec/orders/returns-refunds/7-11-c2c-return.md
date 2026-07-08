@@ -2,7 +2,7 @@
 title: 使用 7-11 C2C 退貨便
 description: 開通 7-11 C2C 退貨便、設定收貨人資料、發送退貨寄件代碼給消費者，以及完整的退貨審查與退款流程。
 created: 2026-05-26 12:25
-last_modified: 2026-07-01 10:30
+last_modified: 2026-07-06T17:13:47+08:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -77,7 +77,7 @@ hide: []
 ## 使用前提與限制 { #prerequisites-seven-eleven-c2c-return }
 
 !!! plan "方案 / 開通條件"
-    「7-ELEVEN C2C 退貨便」屬於 **加值購買功能**，非任何方案預設包含。商店需先向 CYBERBIZ 客服申請開通，完成後才會在後台「金物流 > 超商物流」清單中出現此服務。
+    「7-ELEVEN C2C 退貨便」，非任何方案預設包含。商店需先向 CYBERBIZ 客服申請開通，完成後才會在後台「金物流 > 超商物流」清單中出現此服務。
 
 訂單必須同時符合以下條件，才能在訂單列表點選發送退貨代碼：
 
@@ -202,7 +202,7 @@ hide: []
     [](){ #faq-seven-eleven-c2c-return-action-missing }
     請依序檢查：
 
-    - 商店是否已向 CYBERBIZ 客服申請開通「7-ELEVEN C2C 退貨便」加值功能
+    - 商店是否已向 CYBERBIZ 客服申請開通「7-ELEVEN C2C 退貨便」功能
     - 勾選的訂單是否符合所有發送條件 — 詳見 [訂單發送條件對照表](../references/c2c-return-conditions.md){ title="7-11 C2C 退貨便 — 訂單發送條件對照表" }
     - 是否同時勾選了不同狀態的訂單(批次動作要求所選訂單狀態一致)
 
