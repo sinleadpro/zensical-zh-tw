@@ -2,7 +2,7 @@
 title: 7-11 C2C 退貨便 — 訂單發送條件對照表
 description: ""
 created: 2026-05-26 14:24
-last_modified: 2026-07-06T17:14:44+08:00
+last_modified: 2026-07-08 11:13
 lang: zh-TW
 type: reference
 status: ""
@@ -100,7 +100,6 @@ hide:
     - [x] **訂單金額超過 NT$20,000**：超過 7-11 物流系統的硬性限制，需改用其他退貨方式
     - [x] **訂單使用多重配送方式**：僅支援單一配送方式的訂單，拆單訂單無法批次發送
     - [x] **訂單已處於「退貨審查」或「已退貨」**：一筆訂單僅能申請一次退貨代碼
-    - [x] **未開通功能**：商店需先向 CYBERBIZ 客服申請開通，否則選單中不會出現此選項
 
 ??? quote "為什麼 CYBERBIZ 物流與其他物流的配送進度條件不同？"
     [](){ #faq-seven-eleven-c2c-return-eligibility-logistics-diff }
