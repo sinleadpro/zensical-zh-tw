@@ -1,7 +1,7 @@
 ---
 title: 快速開店指南
 description: CYBERBIZ 網站初步設定與基本功能導覽，協助商家快速完成開店準備。
-last_modified: 2026-07-08 17:00
+last_modified: 2026-07-08 18:07
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/get-started
 type: tutorial
@@ -51,7 +51,7 @@ tags:
 icon: lucide/rocket
 hide:
 search: 
-    exclude: true 
+  exclude: 
 ---
 
 本指南將帶您從基本資訊填寫、網域設定、金物流串接、商品上架、網站外觀設計，一路到行銷活動、第三方整合與訂單管理，協助您快速完成 CYBERBIZ EC 網站的初步設定。
@@ -75,6 +75,8 @@ search:
 !!! tip "發票提醒"
     若在後台儲值或續約，開立發票後將以您設定的發票類型寄送至您的信箱。
 
+---
+
 ### 步驟二：網域 & SSL 安全憑證設定
 
 - 【管理中心】>【網域管理】確認主網域名稱
@@ -91,6 +93,8 @@ search:
 !!! tip "SSL 不支援遠傳 Seednet"
     本公司提供之 SSL 安全憑證不支援遠傳 Seednet（seed.net.tw）購買之網域，若您是於該網域商購買，請洽您的開店顧問，協助您另外加購安裝其他 SSL 安全憑證。
 
+---
+
 ### 步驟三：設定金流
 
 【金物流】>【結帳頁 & 物流設定】
@@ -98,13 +102,15 @@ search:
 <div class="grid cards" markdown>
 
 - :lucide-credit-card:{ .lg } [__金流設定說明__](payments-and-logistics/payments/index.md){ title="結帳頁與物流設定總覽" }
-- :lucide-wallet:{ .lg } [__指定付款方式限定金額設定__](payments-and-logistics/index.md){ title="付款金流" }
-- :lucide-coins:{ .lg } [__全館最低消費金額功能設定__](payments-and-logistics/payments/order-settings.md){ title="訂單相關設定" }
+<!-- - :lucide-wallet:{ .lg } [__指定付款方式限定金額設定__](payments-and-logistics/index.md){ title="付款金流" } -->
+<!-- - :lucide-coins:{ .lg } [__全館最低消費金額功能設定__](payments-and-logistics/payments/order-settings.md){ title="訂單相關設定" } -->
 
 </div>
 
 !!! tip "什麼是金流"
     金流意即您向消費者收錢的各種支付方式，如信用卡、虛擬 ATM、超商代碼繳費、LINE Pay、街口…等。您可以自由選擇想提供的支付方式。
+
+---
 
 ### 步驟四：設定物流
 
@@ -125,6 +131,8 @@ search:
 !!! tip "什麼是物流"
     物流意即您將商品寄送到客人手上並使對方收取貨物的運送方式，如宅配、超商取貨…等。您可以自由選擇想提供的運送方式及合作廠商，如黑貓、宅配通、7-11、全家…等。
 
+---
+
 ### 步驟五：建立商品
 
 - 【商品】>【所有商品】新增您的商品
@@ -144,11 +152,13 @@ search:
 !!! tip "行銷活動搭配"
     許多指定商品優惠活動如任選折扣、加價購、滿額贈、紅配綠組合、紅利加碼送、限購商品、紅利商城、首購禮…等皆於【行銷活動】設定，可根據您的商品特性設計適合的活動。
 
+---
+
 ### 步驟六：網站外觀 & 內容設計
 
 - 【網站外觀】>【套版主題管理】選擇您喜歡的網站設計
 - 【網站外觀】>【套版主題管理】>【網站設定】編輯首頁圖片 / 文字內容
-- 【網站外觀】>【程式碼編輯器】修改語法內容（非必要）
+- 【網站外觀】>【CSS/HTML 編輯器】修改語法內容（非必要）
 - 首頁上方選單連結內容，請至【網站外觀】>【選單 / 導覽列設定】設定
 
 <div class="grid cards" markdown>
@@ -164,6 +174,8 @@ search:
 !!! tip "加值服務需求"
     若有素材設計、網站語法修改等需求，CYBERBIZ 提供第三方合作廠商媒合服務，請洽您的開店顧問。
 
+---
+
 ### 步驟七：設定全館行銷活動
 
 - 【行銷活動】>【全館折扣-紅利 & 優惠券】設定全館活動（折扣 / 折價券 / 會員紅利點數…等）
@@ -173,7 +185,7 @@ search:
 <div class="grid cards" markdown>
 
 - :lucide-percent:{ .lg } [__設定全館折扣__](marketing/discounts/storewide-discounts.md){ title="設定全館折扣" }
-- :lucide-truck:{ .lg } [__設定全館免運__](payments-and-logistics/setup-home-delivery-non-cod-custom-logistics.md){ title="建立宅配貨到不付款/自訂物流" }
+<!-- - :lucide-truck:{ .lg } [__設定全館免運__](payments-and-logistics/setup-home-delivery-non-cod-custom-logistics.md){ title="建立宅配貨到不付款/自訂物流" } -->
 - :lucide-ticket:{ .lg } [__設定全館贈送優惠券__](marketing/coupon/setup-coupons.md){ title="設定優惠券" }
 - :lucide-gift:{ .lg } [__設定全館贈送會員紅利__](marketing/bonus-and-gifts/setup-bonus-points.md){ title="設定紅利點數" }
 - :lucide-cake:{ .lg } [__設定生日禮送紅利__](marketing/bonus-and-gifts/setup-birthday-gift.md){ title="設定生日禮" }
@@ -182,6 +194,8 @@ search:
 
 </div>
 
+---
+
 ### 步驟八：設定第三方廠商串接
 
 【第三方整合】選擇您需要設定的項目：
@@ -189,7 +203,7 @@ search:
 <div class="grid cards" markdown>
 
 - :lucide-share-2:{ .lg } [__Facebook 相關設定__](integrations/fb/index.md){ title="Facebook 總覽" }
-- :lucide-search:{ .lg } [__Google 相關設定__](integrations/google/index.md){ title="Google 整合" }
+- :simple-google:{ .lg } [__Google 相關設定__](integrations/google/index.md){ title="Google 整合" }
 - :lucide-message-circle:{ .lg } [__LINE 相關設定__](integrations/line/index.md){ title="LINE 整合總覽" }
 - :lucide-shopping-bag:{ .lg } [__美安 Shop.com 相關設定__](integrations/connect-marketamerica-channel.md){ title="串接美安通路" }
 
@@ -221,6 +235,8 @@ search:
 
 </div>
 
+---
+
 ### 步驟十：了解客服問答功能
 
 【會員】>【所有客服問題】客人透過前台「聯絡我們」發送訊息及訂單下方留言將收集至此處，您可於此區回覆顧客並管理訊息。
@@ -230,6 +246,8 @@ search:
 - :lucide-headset:{ .lg } [__客服問答功能說明__](members/member-customer-service-system.md){ title="會員客服系統" }
 
 </div>
+
+---
 
 ### 步驟十一：了解推播工具 EDM & 簡訊
 
@@ -241,6 +259,8 @@ search:
 - :lucide-mail:{ .lg } [__EDM 發送設定教學__](notifications/send-edm-newsletters-v2.md){ title="設定與發送 EDM 電子報" }
 
 </div>
+
+---
 
 ### 步驟十二：了解分析報表
 

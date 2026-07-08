@@ -48,7 +48,7 @@ copyright = """
  nav = [ 
     { "主頁" = "index.md" },
     { "品牌官網" = [
-        # { "快速上手" = "ec/get-started.md" },
+        { "快速上手" = "ec/get-started.md" },
         { "品牌官網" = "ec/index.md" },
         { "分析報表" = [
             {"分析報表總覽" = "ec/business-intelligence/index.md"},
@@ -819,7 +819,7 @@ extra_javascript = [
     "https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js",
     "javascripts/tablesort.js",
     "javascripts/search-overlay-border.js",
-    "javascripts/feature-tour.js"
+    "javascripts/feature-tour.js",
 ]
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
