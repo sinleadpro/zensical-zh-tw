@@ -2,7 +2,7 @@
 title: 各頁面設定指南
 description: 依頁面類型說明拖拉版型的各項設定，包含首頁區塊、商品頁面、部落格、客服頁等。
 created:
-last_modified: 2026-07-08 10:32
+last_modified: 2026-07-08 17:05
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings
 type: tutorial
@@ -232,9 +232,9 @@ comments: false
 1. 新增「橫幅廣告」區塊。 
 2. 上傳 **電腦版（建議寬 1920px）／平板版（960px）／手機版（480px）** 圖片，單張不超過 1MB，支援 JPG／PNG／JPEG／GIF。**僅上傳電腦版時，平板與手機會自動沿用同一張。** 
 
-    === "電腦版"
-
-        ![橫幅廣告-電腦版-設定圖片](../../../assets/images/ec-banner-image-desktop.png){ title="電腦版-上傳圖片" }
+    <!-- === "電腦版" -->
+    <!---->
+    <!--     ![橫幅廣告-電腦版-設定圖片](../../../assets/images/ec-banner-image-desktop.png){ title="電腦版-上傳圖片" } -->
 
     === "平板版"
 

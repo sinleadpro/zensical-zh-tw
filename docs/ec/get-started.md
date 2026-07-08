@@ -1,7 +1,7 @@
 ---
 title: 快速開店指南
 description: CYBERBIZ 網站初步設定與基本功能導覽，協助商家快速完成開店準備。
-last_modified: 2026-07-08 15:42
+last_modified: 2026-07-08 17:00
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/get-started
 type: tutorial
@@ -62,9 +62,9 @@ search:
 
 ### 步驟一：設定基本資訊
 
-- 【管理中心】>【一般設定】填寫「公司聯絡資訊」
-- 【管理中心】>【網站權限 / 續約管理】設定「發票類型」、「管理員列表」
-- 【訊息推播】>【Email 通知樣版】可設定其他管理員收到訂單成立等相關通知信件
+- 【管理中心】>【一般設定】填寫「[公司聯絡資訊](../ec/website-management/setup-store-basic-info.md#operate-general-preferences-company-info)」
+- 【管理中心】>【網站權限 / 方案】設定「發票類型」、「管理員列表」
+- 【訊息推播】>【[Email 通知樣版](../ec/notifications/manage-email-templates.md)】可設定其他管理員收到訂單成立等相關通知信件
 
 <div class="grid cards" markdown>
 
@@ -93,7 +93,7 @@ search:
 
 ### 步驟三：設定金流
 
-【金物流】>【結帳頁 & 金物流設定】
+【金物流】>【結帳頁 & 物流設定】
 
 <div class="grid cards" markdown>
 
@@ -108,8 +108,8 @@ search:
 
 ### 步驟四：設定物流
 
-- 【金物流】>【宅配運費設定】設定「宅配」運費規則
-- 【金物流】>【結帳頁 & 金物流設定】設定「超商取貨」功能
+- 【金物流】>【宅配物流】設定「宅配」運費規則
+- 【金物流】>【超商物流】設定「超商取貨」功能
 
 <div class="grid cards" markdown>
 
@@ -156,7 +156,7 @@ search:
 - :lucide-palette:{ .lg } [__如何套用 / 更換主題套版__](website-appearance/theme-and-layout/apply-and-switch-theme.md){ title="套用與更換網站主題" }
 - :lucide-menu:{ .lg } [__首頁上方選單連結設定（連結列表）__](website-appearance/navigation/setup-menus-navigation.md){ title="設定選單與導覽列" }
 - :lucide-map-pin:{ .lg } [__如何設定網站下方 Google Map 地圖__](website-appearance/customer-interaction/setup-edit-customer-service-info.md){ title="設定與修改客服中心資訊" }
-- :lucide-sitemap:{ .lg } [__如何設定 SiteMap 增加網站曝光機會__](website-management/seo/submit-sitemap-to-gsc.md){ title="將 Sitemap 提交至 Google Search Console" }
+- :material-sitemap:{ .lg } [__如何設定 SiteMap 增加網站曝光機會__](website-management/seo/submit-sitemap-to-gsc.md){ title="將 Sitemap 提交至 Google Search Console" }
 - :lucide-file-text:{ .lg } [__如何編輯部落格文章__](website-appearance/pages-and-content/blog-management-publishing-guide.md){ title="部落格管理與文章發佈指南" }
 
 </div>
