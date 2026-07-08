@@ -55,7 +55,7 @@ paths:
   - APP MARKET > 我的擴充服務 > 門市助理
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/storepal/index"
 comments: false
 search:
   exclude: false

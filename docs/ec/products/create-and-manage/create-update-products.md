@@ -2,7 +2,7 @@
 title: 新增與更新商品
 description: 完成一支商品從新增、設定款式與價格、撰寫商品描述，到後續編輯、複製、上下架，以及多國語系與跨境銷售的相關設定。
 created: 2026-03-08 17:15
-last_modified: 2026-07-08 10:28
+last_modified: 2026-07-08 13:06
 lang: zh-TW
 type: tutorial
 status: ""

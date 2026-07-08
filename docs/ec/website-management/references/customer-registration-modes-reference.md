@@ -51,7 +51,7 @@ paths:
   - 管理中心 > 顧客註冊設定
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/website-management/references/customer-registration-modes-reference"
 search:
   exclude: false
 icon: lucide/table

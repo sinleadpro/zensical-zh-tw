@@ -68,7 +68,7 @@ paths:
   - 分潤 > 門市取貨店員分潤
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/store-pickup/index"
 comments: false
 search:
   exclude: false

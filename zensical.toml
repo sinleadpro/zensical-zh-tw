@@ -48,6 +48,7 @@ copyright = """
  nav = [ 
     { "主頁" = "index.md" },
     { "品牌官網" = [
+        { "快速上手" = "ec/get-started.md" },
         { "品牌官網" = "ec/index.md" },
         { "分析報表" = [
             {"分析報表總覽" = "ec/business-intelligence/index.md"},
