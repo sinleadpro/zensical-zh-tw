@@ -820,7 +820,6 @@ extra_javascript = [
     "javascripts/tablesort.js",
     "javascripts/search-overlay-border.js",
     "javascripts/feature-tour.js",
-    # "javascripts/permalink-copy.js"
 ]
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
@@ -1136,7 +1135,6 @@ auto_append = ["includes/abbreviations.md"]
 [project.markdown_extensions.md_in_html]
 [project.markdown_extensions.toc]
 permalink = true
-permalink_title = "複製段落連結"
 toc_depth = 5
 [project.markdown_extensions.toc.slugify]
 object = "pymdownx.slugs.slugify"
