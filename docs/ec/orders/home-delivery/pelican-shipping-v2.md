@@ -2,7 +2,7 @@
 title: 使用宅配通出貨
 description: 使用宅配通出貨。包含批次下載託運單、單筆與部分出貨、補印託運單等操作，以及運費計價規則與常見問題。
 created: 2026-05-19 21:30
-last_modified: 2026-07-07 12:25
+last_modified: 2026-07-08 11:11
 lang: zh-TW
 type: tutorial
 status: ""
@@ -44,11 +44,7 @@ features:
   - 加印託運單
   - 逆物流退貨
 prerequisites:
-  - 需先開通宅配通託運單功能（聯繫 CYBERBIZ 業務窗口）
   - "[[setup-pelican-waybill-v2]]"
-  - - - setup-pelican-waybill-v2
-  - "[[設定宅配通託運單]]"
-  - "[[partial-shipment-v2]]"
 tags:
   - 宅配通
   - 出貨

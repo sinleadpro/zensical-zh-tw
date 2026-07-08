@@ -2,7 +2,7 @@
 title: 消費顧客分析
 description: 以第一次下單時間切分新客與舊客，深入比較顧客數、訂單貢獻與回購表現。
 created: 2026-06-16
-last_modified: 2026-06-30 21:21
+last_modified: 2026-07-08 10:51
 lang: zh-TW
 type: tutorial
 status: ""
@@ -21,9 +21,12 @@ sites:
 audiences:
   - admin
 difficulty: beginner
-tnb: ""
+tnb: branch
 plans:
-  - 高手
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 cyb_extensions: []
 feature_badges: []
 intents:
@@ -79,10 +82,7 @@ hide: []
 
 ### 方案開通條件 { #prerequisites-customer-analysis-plan }
 
-「消費顧客分析」需要額外開通，且限定特定方案。
-
-!!! plan "方案 / 開通條件"
-    「消費顧客分析」分頁僅 **企業版** 與 **PLUS方案(專業PLUS版、進階PLUS版、高手PLUS版)** 可使用，並需開通此功能後才會出現。若您的方案符合但未看到此分頁，請聯絡客服或您的開店顧問協助開通。
+「消費顧客分析」限定特定方案，僅 **企業版** 與 **PLUS方案(專業PLUS版、進階PLUS版、高手PLUS版)** 可使用。
 
 ---
 
