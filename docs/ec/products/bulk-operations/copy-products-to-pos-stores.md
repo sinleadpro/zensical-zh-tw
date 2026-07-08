@@ -2,7 +2,7 @@
 title: 複製商品至 POS 商店
 description: 學習如何將官網商品批次複製到 POS 門市，包含批量操作流程與新增商品時直接指定門市兩種方式。
 created: 2026-06-28 00:00
-last_modified: 2026-06-30 11:26
+last_modified: 2026-07-08 12:43
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,9 +23,9 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 企業
   - 進階PLUS
   - 高手PLUS
+  - 企業
 cyb_extensions: []
 feature_badges:
   - POS
