@@ -2,7 +2,7 @@
 title: 使用再次購買功能
 description: 前台會員的再次購買功能，讓會員能輕鬆重新下單過去購買過的產品，包含使用前提、操作流程及特殊情境說明。
 created: 2026-05-06 21:15
-last_modified: 2026-06-29 22:08
+last_modified: 2026-07-06 17:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,9 +23,8 @@ audiences:
   - admin
   - customer
 difficulty: beginner
-tnb: branch
-plans:
-  - 企業
+tnb: trunk
+plans: []
 cyb_extensions: []
 intents:
   - 使用再次購買功能

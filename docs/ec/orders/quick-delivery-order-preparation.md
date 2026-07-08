@@ -2,7 +2,7 @@
 title: 快速到貨訂單接單準備
 description: 指引門市人員如何識別、準備並接收快速到貨訂單，確保配送服務的即時性。
 created: 2026-02-06 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-07-06 17:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -70,7 +70,7 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有PLUS / 企業
 { .doc-badge }
 
-![](../../../assets/images/EC-後台-訂單-門市訂單-畫面總覽01.png){ .hero-page }
+![](../../assets/images/EC-後台-訂單-門市訂單-畫面總覽01.png){ .hero-page }
 
 !!! tip "應用情境"
 	- **門市即時接單**：當消費者透過快速到貨下單，門市人員需第一時間響應並確認庫存。
@@ -92,11 +92,11 @@ hide: []
 1. 登入 CYBERBIZ 管理後台，前往 **訂單 > 門市訂單**。
 2. 維持頁面開啟，當有新訂單成立時，系統會播放新訂單鈴聲並跳出彈窗。
 3. 點選彈窗中的 **知道了** 關閉通知。
-    ![](../../../assets/images/EC-後台-訂單-門市訂單-接單01.png){ .screenshot }
+    ![](../../assets/images/EC-後台-訂單-門市訂單-接單01.png){ .screenshot }
 
 4. 點擊 **訂單編號** 進入明細頁，核對商品種類、數量與庫存。
 5. 點選 **準備出貨**。
-    ![](../../../assets/images/EC-後台-訂單-門市訂單-準備出貨01.png){ .screenshot }
+    ![](../../assets/images/EC-後台-訂單-門市訂單-準備出貨01.png){ .screenshot }
 
 
 !!! info "系統行為說明"

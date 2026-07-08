@@ -2,7 +2,7 @@
 title: 定期訂購訂單管理
 description: 當消費者在定期定額活動頁下單後，系統會產生一筆「母訂單」，並依據設定的週期（如每月、每週）自動產生「子訂單」。商家可透過後台管理這些訂閱關係與各期配送進度。
 created: 2026-06-01 14:54
-last_modified: 2026-06-01 15:16
+last_modified: 2026-07-07 15:00
 lang: zh-TW
 type: tutorial
 status: ""
