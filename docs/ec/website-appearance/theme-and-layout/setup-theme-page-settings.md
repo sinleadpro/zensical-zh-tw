@@ -2,7 +2,7 @@
 title: 各頁面設定指南
 description: 依頁面類型說明拖拉版型的各項設定，包含首頁區塊、商品頁面、部落格、客服頁等。
 created:
-last_modified: 2026-07-08 08:54
+last_modified: 2026-07-08 10:16
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings
 type: tutorial
@@ -300,7 +300,7 @@ comments: false
 
             ![商品分類 - 分類樣式-全顯示](../../../assets/images/ec-website-appearance-collection-category-style-all.png) 
 
-    - **商品圖游標懸停效果**：共 5 種，快速加入購物車按鈕／圖片切換／陰影／邊框強調／放大效果。
+    - **商品圖游標懸停效果**：快速加入購物車按鈕、圖片切換、陰影／邊框強調、放大效果。
 
         === "快速加入購物車按鈕"
 
@@ -312,53 +312,41 @@ comments: false
         === "圖片切換"
             ![商品分類-懸停效果-圖片切換](../../../assets/images/ec-website-appearance-collection-hover-image-switch.gif){ title="圖片切換" }
 
-        === "陰影"
-            ![商品分類-懸停效果-陰影](../../../assets/images/ec-website-appearance-collection-hover-shadow.png){ title="陰影" }
-
-        === "邊框強調"
-            ![商品分類-懸停效果-邊框](../../../assets/images/ec-website-appearance-collection-hover-border.png){ title="邊框強調" }
+        === "陰影/邊框強調"
+            ![商品分類-懸停效果-陰影](../../../assets/images/ec-website-appearance-collection-hover-shadow.png){ title="陰影/邊框強調" }
 
         === "放大效果"
-            ![商品分類-懸停效果-放大](../../../assets/images/ec-website-appearance-collection-hover-zoom.png){ title="放大效果" }
+            ![商品分類-懸停效果-放大](../../../assets/images/ec-website-appearance-collection-hover-zoom.gif){ title="放大效果" }
 
-    - **商品圖圓角**（預設 15px）。 
+    - **商品圖圓角**（預設 15px）。
 
-
-    ![商品分類 - 懸停效果與圓角](../../../assets/images/ec-website-appearance-collection-hover-radius.png) 
-
-
-
-#### 商品分類 { #section-collection-blocks }
-
-從指定商品分類帶入商品的列表區塊。
-
-1. 新增「商品分類」區塊。
-2. 填寫 **標題**，點擊 **選擇商品分類** 挑選要顯示的分類。
-3. 設定商品數量上限與商品展開方式。
-
-    ![商品分類 - 基本設定](../../../assets/images/ec-website-appearance-collection-basic.png)
-
-4. 在 **版面設定** 中調整電腦／手機版的商品欄數、商品排列、文字排列。
-
-    ![商品分類 - 版面設定](../../../assets/images/ec-website-appearance-collection-layout.png)
-
-5. 在 **樣式設定** 中選擇電腦版商品分類樣式、商品圖游標懸停效果、商品圖圓角。
-
-    ![商品分類 - 分類樣式](../../../assets/images/ec-website-appearance-collection-category-style.png)
-
-    ![商品分類 - 懸停效果與圓角](../../../assets/images/ec-website-appearance-collection-hover-radius.png)
+        ![商品分類-商品圖圓角](../../../assets/images/ec-website-appearance-collection-border-radius.png){ title="商品圖圓角設定" }
 
 ---
 
-#### 影片設定 { #section-video }
+#### 影片設定 { #section-video } 
 
-嵌入單支影片。
+嵌入單支影片。 
 
-1. 新增「影片設定」區塊。
-2. 填寫 **標題** 與 **影片連結**。
-3. 設定自動播放、隱藏外框、重複播放等選項。
+1. 新增「影片設定」區塊。 
+2. 填寫 **標題** 與 **影片連結**。 
 
-![影片設定介面](../../../assets/images/ec-website-appearance-video.png)
+    ![影片設定-標題與連結](../../../assets/images/ec-website-appearance-video-title-link.png){ title="影片標題與連結" }
+
+    !!! info "僅支援 YouTube 影片"
+        請貼上完整影片連結，例：https://www.youtube.com/watch?
+
+3. 設定播放行為（皆為是／否）： 
+
+    - **自動播放**（預設關閉）：訪客瀏覽至頁面影片區塊時影片將自動播放。因瀏覽器限制，開啟自動播放時影片將自動轉為靜音播放。
+    - **隱藏外框**（預設關閉）：當影片開啟自動播放，且啟用隱藏外框，該 YouTube 無法暫停影片
+    - **重複播放**（**預設開啟**）。 
+
+    ![影片設定-播放行為](../../../assets/images/ec-website-appearance-video-playback-settings.png){ title="影片播放行為設定" }
+
+4. 調整電腦／手機版面邊距（此區塊四組邊距預設皆為 0）。
+
+    ![影片設定-版面邊距](../../../assets/images/ec-website-appearance-video-margins.png){ title="影片版面邊距設定" }
 
 ---
 
@@ -367,7 +355,7 @@ comments: false
 以頁籤呈現多個部落格的文章。
 
 1. 新增「分頁頁籤」區塊。
-2. 在 **其他版面設定** 中填寫標題，設定文章欄數。
+2. 在 **其他版面設定** 中填寫標題、調整版型邊距、設定文章欄數。
 
     ![分頁頁籤 - 基本設定](../../../assets/images/ec-website-appearance-blog-tabs-basic.png)
 
@@ -377,12 +365,75 @@ comments: false
 
 ---
 
+#### 自訂排版設計 { #section-custom-blocks } 
+
+自由組合多種小區塊的彈性版面。 
+
+1. 新增「自訂排版設計」區塊。 
+2. 在 **其他版面設定** 設定版面： 
+
+    - 電腦版／手機版的 **版面邊距**。 
+    - **區塊間距**：小區塊之間的距離，電腦版與手機版可各自設定（預設 10px）。 
+    - **手機版排版**：控制小區塊在手機上的排列方式。 
+
+3. 點擊 **新增小區塊**，選擇要加入的元件類型。**每一種小區塊都可設定「版面螢幕占比」** 來控制寬度： 
+
+    ![自訂排版設計-新增小區塊](../../../assets/images/ec-website-appearance-custom-blocks-add-block.png){ title="新增小區塊" }
+
+=== "圖片" 
+
+    1. 上傳電腦／平板／手機版圖片（僅傳電腦版時自動沿用）。 
+    2. 填寫 **圖片標題、圖片說明（進階文字）、圖片連結（可新分頁開啟）、圖片替代文字**。 
+    3. 設定 **版面螢幕占比**。 
+
+    ![自訂排版設計 - 圖片](../../../assets/images/ec-website-appearance-custom-blocks-image.png) 
+
+=== "影片" 
+
+    1. 貼入 **影片連結**。 
+    2. 設定 **自動播放／隱藏外框／重複播放**（重複播放預設開啟）。 
+    3. 設定 **版面螢幕占比**。 
+
+    ![自訂排版設計 - 影片](../../../assets/images/ec-website-appearance-custom-blocks-video.png) 
+
+=== "排程跑馬燈" 
+
+    1. 載入預先製作好的 **跑馬燈群組**。 
+    2. 設定 **版面螢幕占比**。 
+    3. 詳見 [排程跑馬燈設定指南](configure-scheduled-carousels.md){ title="建立與管理排程跑馬燈" }。 
+
+    ![自訂排版設計 - 排程跑馬燈](../../../assets/images/ec-website-appearance-custom-blocks-carousel.png) 
+
+=== "自訂 HTML" 
+
+    1. 點擊「編輯」進入 HTML 編輯頁面。 
+    2. 貼入自訂 HTML／CSS 程式碼。 
+    3. 設定 **版面螢幕占比**。 
+
+    ![自訂排版設計 - 自訂 HTML](../../../assets/images/ec-website-appearance-custom-blocks-html.png) 
+
+=== "商品" 
+
+    1. 點擊「選擇商品」找出商品（僅能選單一商品）。 
+    2. 設定 **電腦版商品分類樣式** 及 **版面螢幕占比**。 
+
+    ![自訂排版設計 - 選擇商品](../../../assets/images/ec-website-appearance-custom-blocks-product-select.png) 
+
+    ![自訂排版設計 - 分類樣式與版面占比](../../../assets/images/ec-website-appearance-custom-blocks-product-layout.png) 
+
+!!! tip "設計模組的版面比例" 
+    透過「**版面螢幕占比**」控制每個小區塊的寬度，讓多個小區塊在同一橫列並排。每列總占比上限 100%，超過即自動換行。 
+
+
+
 #### 自訂排版設計 { #section-custom-blocks }
 
 自由組合多種小區塊的彈性版面，可設定區塊間距與手機版排版。
 
 1. 新增「自訂排版設計」區塊。
 2. 點擊 **新增小區塊**，選擇要加入的元件類型：
+
+    ![自訂排版設計-新增小區塊](../../../assets/images/ec-website-appearance-custom-blocks-add-block.png){ title="新增小區塊" }
 
 === "圖片"
 
@@ -700,95 +751,12 @@ comments: false
 
  --- 
 
- #### 影片設定 { #section-video } 
-
- 嵌入單支影片。 
-
- 1. 新增「影片設定」區塊。 
- 2. 填寫 **標題** 與 **影片連結**。 
- 3. 設定播放行為（皆為是／否）： 
-
-     - **自動播放**（預設關閉）。 
-     - **隱藏外框**（預設關閉）。 
-     - **重複播放**（**預設開啟**）。 
-
- 4. 在 **其他版面設定** 調整電腦／手機版面邊距（此區塊四組邊距預設皆為 0）。 
-
- ![影片設定介面](../../../assets/images/ec-website-appearance-video.png) 
 
  --- 
 
- #### 分頁頁籤 { #section-blog-tabs } 
-
- 以頁籤呈現多個部落格的文章。 
-
- 1. 新增「分頁頁籤」區塊。 
- 2. 在 **其他版面設定** 中填寫 **標題**，並設定 **文章欄數**（**2～5 欄**，預設 4）。 
-
-     ![分頁頁籤 - 基本設定](../../../assets/images/ec-website-appearance-blog-tabs-basic.png) 
-
- 3. 在 **部落格** 小區塊中新增／管理頁籤，**每個小區塊各自選擇一個要顯示的部落格**（可加入多個小區塊形成多頁籤）。 
-
-     ![分頁頁籤 - 部落格選擇](../../../assets/images/ec-website-appearance-blog-tabs-select.png) 
 
  --- 
 
- #### 自訂排版設計 { #section-custom-blocks } 
-
- 自由組合多種小區塊的彈性版面。 
-
- 1. 新增「自訂排版設計」區塊。 
- 2. 在 **其他版面設定** 設定版面： 
-
-     - 電腦版／手機版的 **版面邊距**。 
-     - **區塊間距**：小區塊之間的距離，電腦版與手機版可各自設定（預設 10px）。 
-     - **手機版排版**：控制小區塊在手機上的排列方式。 
-
- 3. 點擊 **新增小區塊**，選擇要加入的元件類型。**每一種小區塊都可設定「版面螢幕占比」** 來控制寬度： 
-
- === "圖片" 
-
-     1. 上傳電腦／平板／手機版圖片（僅傳電腦版時自動沿用）。 
-     2. 填寫 **圖片標題、圖片說明（進階文字）、圖片連結（可新分頁開啟）、圖片替代文字**。 
-     3. 設定 **版面螢幕占比**。 
-
-     ![自訂排版設計 - 圖片](../../../assets/images/ec-website-appearance-custom-blocks-image.png) 
-
- === "影片" 
-
-     1. 貼入 **影片連結**。 
-     2. 設定 **自動播放／隱藏外框／重複播放**（重複播放預設開啟）。 
-     3. 設定 **版面螢幕占比**。 
-
-     ![自訂排版設計 - 影片](../../../assets/images/ec-website-appearance-custom-blocks-video.png) 
-
- === "排程跑馬燈" 
-
-     1. 載入預先製作好的 **跑馬燈群組**。 
-     2. 設定 **版面螢幕占比**。 
-     3. 詳見 [排程跑馬燈設定指南](configure-scheduled-carousels.md){ title="建立與管理排程跑馬燈" }。 
-
-     ![自訂排版設計 - 排程跑馬燈](../../../assets/images/ec-website-appearance-custom-blocks-carousel.png) 
-
- === "自訂 HTML" 
-
-     1. 點擊「編輯」進入 HTML 編輯頁面。 
-     2. 貼入自訂 HTML／CSS 程式碼。 
-     3. 設定 **版面螢幕占比**。 
-
-     ![自訂排版設計 - 自訂 HTML](../../../assets/images/ec-website-appearance-custom-blocks-html.png) 
-
- === "商品" 
-
-     1. 點擊「選擇商品」找出商品（僅能選單一商品）。 
-     2. 設定 **電腦版商品分類樣式** 及 **版面螢幕占比**。 
-
-     ![自訂排版設計 - 選擇商品](../../../assets/images/ec-website-appearance-custom-blocks-product-select.png) 
-
-     ![自訂排版設計 - 分類樣式與版面占比](../../../assets/images/ec-website-appearance-custom-blocks-product-layout.png) 
-
- !!! tip "設計模組的版面比例" 
-     透過「**版面螢幕占比**」控制每個小區塊的寬度，讓多個小區塊在同一橫列並排。每列總占比上限 100%，超過即自動換行。 
 
  --- 
 
