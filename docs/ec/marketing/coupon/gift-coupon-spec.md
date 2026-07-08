@@ -2,7 +2,7 @@
 title: 贈品券規格
 description: 說明 CYBERBIZ 贈品券的規格、商品限制、建立方式及結帳流程。
 created: 2026-06-17 10:39
-last_modified: 2026-06-17 10:39
+last_modified: 2026-07-06 17:00
 lang: zh-TW
 type: reference
 status: ""
@@ -23,6 +23,9 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
+    - 專業PLUS
+    - 進階PLUS
+    - 高手PLUS
     - 企業
 cyb_extensions: []
 intents: 
@@ -70,8 +73,11 @@ hide: []
 說明 CYBERBIZ 贈品券的規格、商品限制、建立方式及結帳流程。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有PLUS / 企業
 { .doc-badge }
+
+!!! info "版本差異說明"
+    - 「贈品券」在 PLUS 方案中屬於選配模組（11 選 2），商家需確認已選配該模組方可使用。企業版則直接內建此功能。
 
 ## 使用須知
 
@@ -84,7 +90,7 @@ hide: []
     - API / webhook 的訂單商品裡會出現。
     - 支援透過 API 方式，新增贈品券。
 
-        > VIP（生日/升等/會員日）贈品券無法透過 API 的方式新增。
+        > VIP 生日禮/升等禮/會員日發送之贈品券，則無法透過 API 的方式新增。
 
 - **空購物車判定**：系統不支援「購物車內僅有贈品券商品」的情境。若購物車中未包含任何一般付費商品，系統將判定該購物車為「空購物車」，進而無法執行後續結帳流程。
 
@@ -148,3 +154,12 @@ hide: []
 3. 若贈品庫存足夠，消費者可選擇套用該贈品券。
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠碼09.png){ .screenshot }
+
+
+## 常見問題
+
+??? quote "為什麼我的贈品券無法套用？"
+    請檢查以下幾點：
+    1. 贈品商品是否有庫存。
+    2. 贈品商品是否已填寫 SKU（針對串倉商家）。
+    3. 購物車內是否已有其他商品（購物車不能僅有贈品）。

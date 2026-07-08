@@ -73,7 +73,6 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有PLUS / 企業
 { .doc-badge }
 
-![](../../assets/images/placeholder.png){ .hero-page }
 
 !!! tip "應用情境"
 	- **顧客教育**：商家可參考本文件製作消費者版的操作手冊。

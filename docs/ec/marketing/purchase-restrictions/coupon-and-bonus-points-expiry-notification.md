@@ -2,7 +2,7 @@
 title: 優惠券（碼）與紅利點數到期通知
 description: 商家可設定優惠券（碼）/ 紅利點數的到期提醒，透過 Email、簡訊或 LINE OA 通知消費者盡早使用，有效提升行銷活動的回購率。
 created: 2026-05-27 18:04
-last_modified: 2026-06-04 17:59
+last_modified: 2026-07-06 17:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -23,6 +23,8 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans: 
+  - 專業PLUS
+  - 進階PLUS
   - 高手PLUS
   - 企業
 cyb_extensions: []
@@ -62,7 +64,7 @@ hide: []
 商家可設定優惠券（碼）/ 紅利點數的到期提醒，透過 Email、簡訊或 LINE OA 通知消費者盡早使用，有效提升行銷活動的回購率。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 高手PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 所有PLUS / 企業
 { .doc-badge }
 
 
