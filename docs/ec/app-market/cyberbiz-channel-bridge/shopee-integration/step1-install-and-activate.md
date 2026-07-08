@@ -2,7 +2,7 @@
 title: Step 1 安裝與授權商店
 description: 透過「全通路管理助手」，您可以將蝦皮商店的商品快速同步至 CYBERBIZ 官網，省去手動建立商品的時間。
 created: 2026-02-25 00:00
-last_modified: 2026-07-07 12:00
+last_modified: 2026-07-08 17:32
 lang: zh-TW
 type: tutorial
 status: ""
@@ -138,7 +138,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-arrow-right-circle:{ .lg }   
-  [__蝦皮商品搬站 Step 2：導入商品__](連結)     
+  [__蝦皮商品搬站 Step 2：導入商品__](step2-import-products-and-link.md)     
   完成授權後，開始挑選並搬移商品至官網。
 
 </div>
