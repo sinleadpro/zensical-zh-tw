@@ -1,7 +1,7 @@
 ---
 title: 快速開店指南
 description: CYBERBIZ 網站初步設定與基本功能導覽，協助商家快速完成開店準備。
-last_modified: 2026-07-08 15:30
+last_modified: 2026-07-08 15:42
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/get-started
 type: tutorial
@@ -50,6 +50,8 @@ tags:
   - 快速設定
 icon: lucide/rocket
 hide:
+search: 
+    exclude: true 
 ---
 
 本指南將帶您從基本資訊填寫、網域設定、金物流串接、商品上架、網站外觀設計，一路到行銷活動、第三方整合與訂單管理，協助您快速完成 CYBERBIZ EC 網站的初步設定。
