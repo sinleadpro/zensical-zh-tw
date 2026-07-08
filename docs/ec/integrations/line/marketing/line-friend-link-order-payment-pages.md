@@ -2,7 +2,7 @@
 title: 設定訂單成立頁與付款完成頁顯示 LINE 加入好友連結
 description: 透過編輯 Liquid 樣板檔案，在結帳完成後的關鍵轉換點嵌入 LINE 導流元件，以提升會員回流率。
 created: 2026-02-24
-last_modified: 2026-07-02 10:11
+last_modified: 2026-07-08 19:11
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/integrations/line/marketing/line-friend-link-order-payment-pages
 type: tutorial
@@ -122,9 +122,7 @@ hide:
 ??? quote "為什麼我修改了 `order_done_extra_content.liquid` 卻沒在頁面上看到變化"
 
 	- **確認快取：** 請嘗試開啟無痕視窗或清除瀏覽器快取後重新整理。
-    
 	- **檢查方案與權限：** 請確認您的方案為「高手 PLUS」或「企業版」，且已聯繫客服完成功能開通。
-    
 	- **檢查版型類型：** 本功能僅支援「拖拉版型」，若使用傳統舊版型（非拖拉式）將無法正常運作。"
 
 ??? quote "更換佈景主題後，設定會保留嗎"
