@@ -54,7 +54,7 @@ paths:
   - POS 功能 > 所有 POS 商店
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/hardware/hprt-n130-barcode-scanner"
 search:
   exclude: false
 icon: lucide/barcode

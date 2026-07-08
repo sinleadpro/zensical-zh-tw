@@ -49,7 +49,7 @@ paths:
   - 金物流 > 結帳頁 & 物流設定
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/references/cvs-pickup-name-rules"
 search:
   exclude: false
 icon: lucide/user-check

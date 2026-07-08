@@ -54,7 +54,7 @@ paths:
   - POS 功能 > 所有 POS 商店 > [店名]
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/check/low-stock-notifications"
 comments: false
 search:
   exclude: false

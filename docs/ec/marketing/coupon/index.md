@@ -51,7 +51,7 @@ paths:
   - 行銷活動 > 優惠碼設定
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/marketing/coupon/index"
 search:
   exclude: false
 icon: lucide/split

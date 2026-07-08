@@ -65,7 +65,7 @@ paths:
   - APP MARKET > 我的擴充服務 > Chat Box > 官網整合對話入口
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/chatbox/integrated-chat-widget"
 search:
   exclude: false
 icon: lucide/message-square-plus
