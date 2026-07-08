@@ -2,7 +2,7 @@
 title: 各頁面設定指南
 description: 依頁面類型說明拖拉版型的各項設定，包含首頁區塊、商品頁面、部落格、客服頁等。
 created:
-last_modified: 2026-07-07 22:16
+last_modified: 2026-07-08 08:54
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings
 type: tutorial
@@ -290,17 +290,37 @@ comments: false
 
         === "預設"
 
-            ![商品分類 - 分類樣式](../../../assets/images/ec-website-appearance-collection-category-style.png) 
+            ![商品分類 - 分類樣式-預設](../../../assets/images/ec-website-appearance-collection-category-style.png) 
 
         === "顯示部分內容"
 
-            ![商品分類 - 分類樣式](../../../assets/images/ec-website-appearance-collection-category-style.png) 
+            ![商品分類 - 分類樣式-顯示部分](../../../assets/images/ec-website-appearance-collection-category-style-partial.png) 
 
         === "全顯示"
 
-            ![商品分類 - 分類樣式](../../../assets/images/ec-website-appearance-collection-category-style.png) 
+            ![商品分類 - 分類樣式-全顯示](../../../assets/images/ec-website-appearance-collection-category-style-all.png) 
 
-    - **商品圖游標懸停效果**：共 5 種 —— 快速加入購物車按鈕／圖片切換／陰影／邊框強調／放大效果。 
+    - **商品圖游標懸停效果**：共 5 種，快速加入購物車按鈕／圖片切換／陰影／邊框強調／放大效果。
+
+        === "快速加入購物車按鈕"
+
+            ![商品分類-懸停效果-加入購物車](../../../assets/images/ec-website-appearance-collection-hover-addtocart.png){ title="快速加入購物車按鈕" }
+
+            !!! info "提示"
+                若「電腦版商品分類樣式」選擇「全顯示」，已直接顯示購買按鈕，此懸停效果將不會產生作用。
+
+        === "圖片切換"
+            ![商品分類-懸停效果-圖片切換](../../../assets/images/ec-website-appearance-collection-hover-image-switch.gif){ title="圖片切換" }
+
+        === "陰影"
+            ![商品分類-懸停效果-陰影](../../../assets/images/ec-website-appearance-collection-hover-shadow.png){ title="陰影" }
+
+        === "邊框強調"
+            ![商品分類-懸停效果-邊框](../../../assets/images/ec-website-appearance-collection-hover-border.png){ title="邊框強調" }
+
+        === "放大效果"
+            ![商品分類-懸停效果-放大](../../../assets/images/ec-website-appearance-collection-hover-zoom.png){ title="放大效果" }
+
     - **商品圖圓角**（預設 15px）。 
 
 
