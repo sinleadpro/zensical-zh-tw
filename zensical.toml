@@ -819,7 +819,7 @@ extra_javascript = [
     "javascripts/tablesort.js",
     "javascripts/search-overlay-border.js",
     "javascripts/feature-tour.js",
-    "javascripts/permalink-copy.js"
+    # "javascripts/permalink-copy.js"
 ]
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
