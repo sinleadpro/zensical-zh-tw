@@ -1,7 +1,7 @@
 ---
-title: 快速開店指南
+title: 快速開店新手指南
 description: CYBERBIZ 網站初步設定與基本功能導覽，協助商家快速完成開店準備。
-last_modified: 2026-07-08 18:07
+last_modified: 2026-07-08 18:38
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/get-started
 type: tutorial
@@ -56,7 +56,7 @@ search:
 
 本指南將帶您從基本資訊填寫、網域設定、金物流串接、商品上架、網站外觀設計，一路到行銷活動、第三方整合與訂單管理，協助您快速完成 CYBERBIZ EC 網站的初步設定。
 
-想看影音版教學文件，請至 [影片教學資源總覽](../resources/video-tutorials.md){ title="影片教學資源總覽" }。在您使用 CYBERBIZ 系統服務期間，CYBERBIZ 提供一組「客戶專屬登入帳號」，透過此組帳號即可免費觀看部分付費課程。
+<!-- 想看影音版教學文件，請至 [影片教學資源總覽](../resources/video-tutorials.md){ title="影片教學資源總覽" }。在您使用 CYBERBIZ 系統服務期間，CYBERBIZ 提供一組「客戶專屬登入帳號」，透過此組帳號即可免費觀看部分付費課程。 -->
 
 ## 初步設定
 

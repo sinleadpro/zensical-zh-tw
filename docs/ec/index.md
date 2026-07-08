@@ -19,7 +19,7 @@ hide:
 從官網設定到商品管理、訂單出貨到數據分析，一站式管理您的品牌官網。
 </p>
 
-[:lucide-rocket: 新增商品](products/create-and-manage/create-update-products.md){ title="新增與更新商品" .md-button .md-button--primary }
+[:lucide-rocket: 快速上手](get-started.md){ title="新手上路指南" .md-button .md-button--primary }
 
 </div>
 
