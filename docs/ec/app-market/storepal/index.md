@@ -2,7 +2,7 @@
 title: 門市助理
 description: 專為線下門市設計的 OMO 銷售工具，整合官網會員數據與資產，協助店員實現精準識客、深度洞察與價值變現。
 created: 2026-05-05 11:20
-last_modified: 2026-06-08 17:50
+last_modified: 2026-07-09 10:29
 lang: zh-TW
 type: guide
 status: ""
@@ -54,7 +54,8 @@ ui_components: []
 paths:
   - APP MARKET > 我的擴充服務 > 門市助理
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/support/?page_id=42126
 permalink: "https://help.cyberbiz.io/ec/app-market/storepal/index"
 comments: false
 search:

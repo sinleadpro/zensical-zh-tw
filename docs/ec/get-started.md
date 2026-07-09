@@ -1,9 +1,14 @@
 ---
 title: 快速開店新手指南
 description: CYBERBIZ 網站初步設定與基本功能導覽，協助商家快速完成開店準備。
-last_modified: 2026-07-08 18:38
+last_modified: 2026-07-09 10:29
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/get-started
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?page_id=3610
+  - https://www.cyberbiz.io/helpcenter/?page_id=1933
+  - https://www.cyberbiz.io/support/?page_id=17972
+  - https://www.cyberbiz.io/support/?page_id=29441 
 type: tutorial
 status:
 author:
