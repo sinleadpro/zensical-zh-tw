@@ -49,6 +49,6 @@ hide:
 
     串接CYBERBIZ 官網與美安 (SHOP.COM)，透過經銷商會員管道銷售商品並增加品牌曝光。
 
-    [:octicons-arrow-right-24: 前往](connect-marketamerica-channel.md)
+    [:octicons-arrow-right-24: 前往](setup-shop-com.md)
 
 </div>

@@ -2,7 +2,7 @@
 title: 串接美安通路
 description: 串接 CYBERBIZ 官網與美安 (SHOP.COM)，透過經銷商會員管道銷售商品並增加品牌曝光。
 created: 2026-03-30 22:08
-last_modified: 2026-07-03T11:44:34+08:00
+last_modified: 2026-07-09 08:40
 lang: zh-TW
 type: tutorial
 status: ""
@@ -58,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=850
   - https://www.cyberbiz.io/support/?p=647
-permalink: https://help.cyberbiz.io/ec/integrations/connect-marketamerica-channel
+permalink: https://help.cyberbiz.io/ec/integrations/setup-shop-com
 comments: ""
 search:
   exclude: false
@@ -78,6 +78,10 @@ hide: []
 2.  **提供基本資料**：店家需提供以下資訊給美安：統編、通訊地址、聯絡人資訊、佣金比例、網站名稱與 **網站網址**。
     *   **注意**：網址必須是 **獨立的自有網域**（如 `https://www.yourname.com.tw`），不可使用 CYBERBIZ 的子網域（如 `xxx.cyberbiz.co`）。
 3.  **取得參數**：美安會在收到資料後約 5 個工作天內提供專屬的 **OFFER_ID** 與 **Advertiser_id**。
+
+!!! info "美安導購訂單歸因機制"
+    - 顧客點擊美安導購連結後，**僅第一筆完成的訂單** 會認列為導購訂單，若顧客之後未重新點擊連結就再次購買，該筆訂單 **不會** 認列。
+    - 若希望每筆訂單都認列，請提醒顧客 **每次下單前** 重新點擊美安導購連結，再前往您的網站完成購買。
 
 ## 操作步驟
 
@@ -145,6 +149,14 @@ hide: []
     * **服務時間**：週一至週五 09:30 – 18:30 (週末及國定假日休息)
 
 ## 常見問題
+
+<!-- ??? quote "已完成美安串接測試，後續訂單卻沒有成功被計算" -->
+<!--     [](){ #faq-shop-com-attribution } -->
+<!--     這是美安導購的「單次點擊歸因」機制所導致，並非串接異常： -->
+<!---->
+<!--     1. **僅認列第一筆完成的訂單**：顧客每次點擊美安導購連結跳轉至官網後，系統 **僅會認列該次點擊後的第一筆完成的訂單**。若顧客在同一瀏覽階段連續下單多筆，只有第一筆會被認列，剩餘的不會。 -->
+<!---->
+<!--     2. **需重新點擊連結**：若希望每筆訂單都成功認列，請提醒顧客在 **每次下單（結帳）前**，都必須重新點擊美安導購連結，再前往您的網站完成購買。 -->
 
 ??? quote "上傳產品資料 XML 檔出現失敗該如何處理？"
 
