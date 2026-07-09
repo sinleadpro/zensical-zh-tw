@@ -2,7 +2,7 @@
 title: 使用順豐出貨
 description: 使用順豐託運單批次或單筆下載出貨，系統自動與順豐即時取號，將訂單貨態更新為已出貨，支援國內台灣本島及海外配送。
 created: 2026-05-20 20:25
-last_modified: 2026-07-09 15:00
+last_modified: 2026-07-09 15:05
 lang: zh-TW
 type: tutorial
 status: ""

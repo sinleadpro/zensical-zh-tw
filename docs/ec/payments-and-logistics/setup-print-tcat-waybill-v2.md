@@ -2,7 +2,7 @@
 title: 設定與加印黑貓託運單
 description: 管理黑貓宅急便託運單的完整指南，包含設定寄件人資訊、加印純配送託運單、建立黑貓逆物流退貨取件，以及查詢託運單號使用紀錄與 Cyber 幣扣款對帳。
 created: 2026-05-15 14:21
-last_modified: 2026-07-07 11:43
+last_modified: 2026-07-09 15:14
 lang: zh-TW
 type: tutorial
 status: ""
@@ -101,9 +101,6 @@ hide: []
 | [單號使用紀錄(正物流)](#ezcat-shipping-note-usage-records) | 列出本店所有黑貓宅急便正物流託運單與扣抵金額 | 對帳、查詢轉單狀態 |
 | [單號使用紀錄(逆物流)](#ezcat-shipping-note-usage-records) | 列出本店所有黑貓宅急便逆物流託運單與扣抵金額 | 對帳、查詢轉單狀態 |
 
-!!! plan "方案 / 開通功能"
-    * **黑貓宅配**：需店家方案內含「黑貓宅配」功能；若入口未顯示，請聯繫您的 CYBERBIZ 業務窗口確認方案開通狀態。
-    * **[呼叫黑貓](../orders/home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" data-preview }** (方案開通功能)：啟用後，加印託運單時可選擇「呼叫黑貓」，由黑貓司機自動到府取件；未開通則需自行交件。
 
 ## 計費規則 { #ezcat-shipping-note-billing }
 
@@ -132,7 +129,7 @@ hide: []
 ![寄件人資訊](../../assets/images/EC-金物流-黑貓託運單-寄件人資訊.png){ title="寄件人資訊" }
 
 !!! note "註釋"
-    「[呼叫黑貓](../orders/home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" data-preview }」方案開通功能啟用時，寄件人地址會作為 **黑貓司機到府取件的地址** ，寄件人電話會作為 **黑貓與您聯絡的電話** 。
+    「[呼叫黑貓](../orders/home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" data-preview }」功能啟用時，寄件人地址會作為 **黑貓司機到府取件的地址** ，寄件人電話會作為 **黑貓與您聯絡的電話** 。
 
 [^1]: 寄件人名稱不得含特殊符號；若儲存時提示「收件人名稱...」錯誤訊息，請依提示移除無效字元後再試。
 [^5]: 例如「網購商品」。
