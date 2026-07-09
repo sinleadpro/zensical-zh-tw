@@ -2,7 +2,7 @@
 title: 拖拉版型網站設定
 description: 使用拖拉版型編輯器調整官網版面，包含新增區塊、編輯內容、排序、發布等操作。
 created:
-last_modified: 2026-07-08 13:42
+last_modified: 2026-07-09 14:35
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/theme-editor
 type: tutorial
@@ -354,7 +354,7 @@ comments: false
 
 ??? quote "想要的區塊在新增清單中找不到"
     [](){ #faq-theme-editor-missing-section }
-    可新增的區塊會依您安裝的版型而不同，且少數區塊(如商品評論、門市據點列表)需開通對應功能才會出現。詳見 [可新增區塊類型](../references/theme-editor-sections.md){ title="可新增區塊類型對照表" data-preview }，或聯繫業務窗口確認開通狀態。
+    可新增的區塊會依您安裝的版型而不同，且少數區塊(如商品評論、門市據點列表)需啟用對應功能才會出現。詳見 [可新增區塊類型](../references/theme-editor-sections.md){ title="可新增區塊類型對照表" data-preview }。
 
 ??? quote "隱藏區塊和移除區塊有什麼差別？"
     [](){ #faq-theme-editor-hide-vs-remove }
