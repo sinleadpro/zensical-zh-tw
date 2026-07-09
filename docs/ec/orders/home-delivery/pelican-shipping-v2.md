@@ -2,7 +2,7 @@
 title: 使用宅配通出貨
 description: 使用宅配通出貨。包含批次下載託運單、單筆與部分出貨、補印託運單等操作，以及運費計價規則與常見問題。
 created: 2026-05-19 21:30
-last_modified: 2026-07-09 14:41
+last_modified: 2026-07-09 14:47
 lang: zh-TW
 type: tutorial
 status: ""
