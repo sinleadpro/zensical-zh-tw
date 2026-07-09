@@ -2,7 +2,7 @@
 title: 設定與加印黑貓託運單
 description: 管理黑貓宅急便託運單的完整指南，包含設定寄件人資訊、加印純配送託運單、建立黑貓逆物流退貨取件，以及查詢託運單號使用紀錄與 Cyber 幣扣款對帳。
 created: 2026-05-15 14:21
-last_modified: 2026-07-09 15:14
+last_modified: 2026-07-09 15:17
 lang: zh-TW
 type: tutorial
 status: ""
@@ -129,7 +129,7 @@ hide: []
 ![寄件人資訊](../../assets/images/EC-金物流-黑貓託運單-寄件人資訊.png){ title="寄件人資訊" }
 
 !!! note "註釋"
-    「[呼叫黑貓](../orders/home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" data-preview }」功能啟用時，寄件人地址會作為 **黑貓司機到府取件的地址** ，寄件人電話會作為 **黑貓與您聯絡的電話** 。
+    「[呼叫黑貓](../orders/home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" }」功能啟用時，寄件人地址會作為 **黑貓司機到府取件的地址** ，寄件人電話會作為 **黑貓與您聯絡的電話** 。
 
 [^1]: 寄件人名稱不得含特殊符號；若儲存時提示「收件人名稱...」錯誤訊息，請依提示移除無效字元後再試。
 [^5]: 例如「網購商品」。
