@@ -205,7 +205,7 @@ search:
 - :lucide-share-2:{ .lg } [__Facebook 相關設定__](integrations/fb/index.md){ title="Facebook 總覽" }
 - :simple-google:{ .lg } [__Google 相關設定__](integrations/google/index.md){ title="Google 整合" }
 - :lucide-message-circle:{ .lg } [__LINE 相關設定__](integrations/line/index.md){ title="LINE 整合總覽" }
-- :lucide-shopping-bag:{ .lg } [__美安 Shop.com 相關設定__](integrations/connect-marketamerica-channel.md){ title="串接美安通路" }
+- :lucide-shopping-bag:{ .lg } [__美安 Shop.com 相關設定__](integrations/setup-shop-com.md){ title="串接美安通路" }
 
 </div>
 

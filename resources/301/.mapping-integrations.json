@@ -3,9 +3,9 @@
   "doc_dir": "docs/ec/integrations",
   "confirmed": [
     {
-      "doc_file": "docs/ec/integrations/connect-marketamerica-channel.md",
+      "doc_file": "docs/ec/integrations/setup-shop-com.md",
       "doc_title": "串接美安通路",
-      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/connect-marketamerica-channel",
+      "expected_permalink": "https://help.cyberbiz.io/ec/integrations/setup-shop-com",
       "expected_wp_urls": [
         "https://www.cyberbiz.io/helpcenter/?p=850",
         "https://www.cyberbiz.io/support/?p=647"

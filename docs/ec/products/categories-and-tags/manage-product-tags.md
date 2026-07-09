@@ -182,7 +182,7 @@ hide:
 - :lucide-tags: [__Google Merchant Center__](../../integrations/google/setup-google-merchant-center.md){ title="設定 Google Merchant Center 並同步 CYBERBIZ 商品" }    
 - :simple-facebook: [__FB 動態產品目錄__](../../integrations/fb/meta-ads/sync-product-videos-meta-catalog.md){ title="同步商品影片至 Meta 目錄" }
 - :simple-line: [__LINE 購物__](../../integrations/line/apply-setup-line-shopping-guide.md){ title="申請與設定 LINE 購物導購" }
-- :simple-stryker: [__美安 SHOP.COM__](../../integrations/connect-marketamerica-channel.md){ title="串接美安通路" } 僅支援 `贈品` 標籤
+- :simple-stryker: [__美安 SHOP.COM__](../../integrations/setup-shop-com.md){ title="串接美安通路" } 僅支援 `贈品` 標籤
 </div>
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 所有商品**。

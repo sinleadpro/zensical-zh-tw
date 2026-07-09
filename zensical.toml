@@ -582,7 +582,7 @@ copyright = """
                 {"LINE 直播" = "ec/integrations/line/apply-setup-line-live-stream.md"},
                 {"LINE 購物導購" = "ec/integrations/line/apply-setup-line-shopping-guide.md"}
             ]},
-            {"美安 SHOP.COM" = "ec/integrations/connect-marketamerica-channel.md"},
+            {"美安 SHOP.COM" = "ec/integrations/setup-shop-com.md"},
             {"參考資料" = [
                 {"自動化廣告投放與開通狀態對照表" = "ec/integrations/references/automated-ads-statuses.md"}
             ]}

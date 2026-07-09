@@ -1,3 +1,15 @@
-# dummy wrangler test
+# ==============================================================================
+# ⚠️ DO NOT DELETE / 請勿刪除
+# ------------------------------------------------------------------------------
+# This is a dummy configuration file created to bypass a strict Cloudflare Wrangler 
+# telemetry/safety guard update. 
+# 
+# Since this repository natively uses `zensical.toml`, Cloudflare's CI/CD pipeline 
+# throws an overwrite error if it doesn't see a matching `wrangler.toml` in the root.
+# 
+# 這是為了繞過 Cloudflare Wrangler 新版安全檢查而設立的虛擬設定檔。
+# 由於專案使用 `zensical.toml`，自動化部署（CI/CD）需要此檔案來確認部署目標名稱。
+# ==============================================================================
+
 name = "zensical-zh-tw"
 compatibility_date = "2026-07-08"
