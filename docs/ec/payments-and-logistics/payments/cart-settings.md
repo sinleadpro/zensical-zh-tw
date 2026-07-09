@@ -2,7 +2,7 @@
 title: 購物車相關設定
 description: 調整顧客在正式結帳前的購物車行為，包含購物車啟用、未結帳提醒、優惠券設定、額外資訊欄位與定期定額購物車設定。
 created: 2026-06-16
-last_modified: 2026-07-08 21:01
+last_modified: 2026-07-09 10:49
 lang: zh-TW
 type: tutorial
 status: ""
@@ -83,13 +83,13 @@ icon: lucide/shopping-cart
 
 ## 頁面功能總覽 { #overview-cart-settings }
 
-| 設定區塊 | 用途 | 開通條件 |
+| 設定區塊 | 用途 | 方案限制 |
 | :-- | :-- | :-- |
 | [購物車啟用設定](#operate-cart-settings-activation) | 決定網站是否開放線上購買 | 所有方案 |
-| [顧客購物車未結帳商品自動提醒](#operate-cart-settings-reminder) | 自動提醒購物車有遺留商品的顧客回來結帳 | 需開通功能(見下) |
+| [顧客購物車未結帳商品自動提醒](#operate-cart-settings-reminder) | 自動提醒購物車有遺留商品的顧客回來結帳 | PLUS版 / 企業版 |
 | [結帳頁優惠券設定](#operate-cart-settings-coupon) | 是否在結帳頁顯示優惠券按鈕、自動套用全館優惠碼 | 所有方案 |
 | [額外資訊](#operate-cart-settings-extra-info) | 在結帳流程新增自訂詢問欄位 | 所有方案 |
-| [定期定額購物車設定](#operate-cart-settings-periodic) | 設定定期定額活動的購物車預設商品數量 | 需開通功能(見下) |
+| [定期定額購物車設定](#operate-cart-settings-periodic) | 設定定期定額活動的購物車預設商品數量 | 企業版 |
 
 !!! note "註釋"
     依您的方案與店家設定不同，部分區塊可能不會顯示。若找不到下列某個區塊，代表您的方案尚未開通該功能。
@@ -102,7 +102,7 @@ icon: lucide/shopping-cart
 
 !!! plan "方案 / 開通條件"
     * **顧客購物車未結帳商品自動提醒**：多數付費方案皆內建，其中 **LINE OA 提醒** 管道需 PLUS版以上 或 企業版。
-    * **定期定額購物車設定**：需開通「定期定額」功能(企業版)。
+    * **定期定額購物車設定**：企業版。
 
 ---
 
@@ -133,7 +133,7 @@ icon: lucide/shopping-cart
 
 1. **展開區塊：** 點擊「顧客購物車未結帳商品自動提醒」區塊標題展開內容。
 2. **選擇提醒管道：** 勾選要啟用的通知管道 —— **啟用 Email 提醒**、 **啟用簡訊提醒**，或 **啟用 LINE OA 提醒**[^line-plan]。各管道的通知內容可至對應的「Email & 提醒」「簡訊設定」「LINE@設定」頁面修改。
-3. **設定提醒頻率：** 啟用任一管道後，下方會出現「提醒頻率」設定，最多可設定三次提醒，並各自填入「於第幾天送出」的天數。提醒天數依顧客身份有不同上限：**會員** 最長 40 天，**訪客** 最長 14 天。
+3. **設定提醒頻率：** 啟用任一管道後，下方會出現「提醒頻率」設定，最多可設定三次提醒，並各自填入「於第幾天送出」的天數。
 4. **完成：** 點擊 **「儲存」** 套用設定。
 
 各提醒管道的開通條件請見 [購物車未結帳提醒管道對照表](../references/cart-reminder-channels-reference.md#cart-reminder-channels){ data-preview }。
