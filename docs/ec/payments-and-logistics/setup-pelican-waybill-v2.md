@@ -2,7 +2,7 @@
 title: 設定宅配通託運單
 description: 管理宅配通託運單指南，包含設定寄件人資訊、加印託運單、建立宅配通逆物流，以及查詢託運單號使用紀錄與 Cyber 幣扣款對帳。
 created: 2026-05-20 12:21
-last_modified: 2026-07-09 14:12
+last_modified: 2026-07-09 14:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -50,7 +50,7 @@ tags:
   - 配送
   - 託運單
   - 逆物流
-  - CYBER_幣
+  - CYBER幣
   - 加印託運單
 acoiv: operation
 apis: []

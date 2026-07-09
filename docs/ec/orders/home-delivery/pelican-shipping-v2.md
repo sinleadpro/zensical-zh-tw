@@ -2,7 +2,7 @@
 title: 使用宅配通出貨
 description: 使用宅配通出貨。包含批次下載託運單、單筆與部分出貨、補印託運單等操作，以及運費計價規則與常見問題。
 created: 2026-05-19 21:30
-last_modified: 2026-07-09 13:52
+last_modified: 2026-07-09 14:41
 lang: zh-TW
 type: tutorial
 status: ""
@@ -86,13 +86,6 @@ hide: []
     * **冷鏈商品**：宅配通低溫配送目前暫不開放，請改用其他物流方案。
 
 ## 使用前提與限制 { #prerequisites-pelican }
-
-### 方案與開通 { #activate-pelican }
-
-- 宅配通託運單為開通功能，需先聯繫您的 CYBERBIZ 業務窗口開通。
-* 開通後，後台左側選單會出現「宅配託運單管理」>「宅配通託運單」入口，訂單列表的「選擇操作」也會出現「下載宅配通託運單並將貨態改為『已出貨』」選項。
-
----
 
 ### 計費方式 { #prerequisites-pelican-billing-mode }
 
