@@ -2,7 +2,7 @@
 title: 各頁面設定指南
 description: 依頁面類型說明拖拉版型的各項設定，包含首頁區塊、商品頁面、部落格、客服頁等。
 created:
-last_modified: 2026-07-08 17:15
+last_modified: 2026-07-09 11:03
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings
 type: tutorial
@@ -548,13 +548,13 @@ comments: false
 
 ---
 
-#### CMS `方案限定` { #section-cms }
-
-進階自訂區塊，提供 HTML／CSS／JS／Import 程式碼編輯器，並可帶入指定商品分類與商品數量上限。
-
-1. 新增「CMS」區塊（需開通 CMS 功能）。
-2. 在程式碼編輯器中編寫或貼入 HTML／CSS／JS 程式碼。
-3. 設定要帶入的商品分類與商品數量上限。
+<!-- #### CMS `方案限定` { #section-cms } -->
+<!---->
+<!-- 進階自訂區塊，提供 HTML／CSS／JS／Import 程式碼編輯器，並可帶入指定商品分類與商品數量上限。 -->
+<!---->
+<!-- 1. 新增「CMS」區塊（需開通 CMS 功能）。 -->
+<!-- 2. 在程式碼編輯器中編寫或貼入 HTML／CSS／JS 程式碼。 -->
+<!-- 3. 設定要帶入的商品分類與商品數量上限。 -->
 
 ---
 

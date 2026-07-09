@@ -2,7 +2,7 @@
 title: 購物車相關設定
 description: 調整顧客在正式結帳前的購物車行為，包含購物車啟用、未結帳提醒、優惠券設定、額外資訊欄位與定期定額購物車設定。
 created: 2026-06-16
-last_modified: 2026-07-09 10:49
+last_modified: 2026-07-09 10:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -129,6 +129,10 @@ icon: lucide/shopping-cart
 
 ### 設定未結帳商品自動提醒 { #operate-cart-settings-reminder }
 
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | PLUS / 企業
+
+提醒天數依顧客身份有不同上限：**會員** 最長 40 天，**訪客** 最長 14 天。
+
 當顧客把商品加入購物車卻沒有完成結帳時，系統可以自動發送提醒，引導顧客回來完成訂單。
 
 1. **展開區塊：** 點擊「顧客購物車未結帳商品自動提醒」區塊標題展開內容。
@@ -190,6 +194,8 @@ icon: lucide/shopping-cart
 
 ### 定期定額購物車預設數量 { #operate-cart-settings-periodic }
 
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 企業
+
 使用定期定額活動時，可設定會員進入購物車時的商品預設數量。
 
 1. **展開區塊：** 點擊「定期定額購物車設定」區塊標題展開內容。
@@ -197,9 +203,6 @@ icon: lucide/shopping-cart
 3. **完成：** 系統即時儲存您的選擇。
 
 ![定期定額購物車預設數量](../../../assets/images/ec-cart-settings-periodic.png){ title="定期定額購物車預設數量" }
-
-!!! info "提示"
-    此區塊僅在開通「定期定額」功能時顯示。
 
 ---
 
