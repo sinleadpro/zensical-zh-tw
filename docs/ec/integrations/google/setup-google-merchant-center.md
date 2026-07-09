@@ -2,7 +2,7 @@
 title: 設定 Google Merchant Center 並同步 CYBERBIZ 商品
 description: 串接 Google Merchant Center、同步商品資料至 Google 搜尋與購物廣告。
 created: 2026-03-05 10:00
-last_modified: 2026-07-02 14:16
+last_modified: 2026-07-09 13:56
 lang: zh-TW
 type: tutorial
 status: ""
@@ -71,7 +71,7 @@ comments: false
 
 ![Google Merchant Center 串接設定](../../../assets/images/ec-integrations-gmc.zh-tw.png){ title="串接 GMC：第三方整合 > Google > Google Merchant Center" .hero-page }
 
-## 什麼是 Google Merchant Center
+## Google Merchant Center 說明
 
 **Google Merchant Center (GMC)** [:lucide-external-link:](https://www.google.com/retail/solutions/merchant-center/) 是 Google 提供的商品資料管理平台，可將商品資訊同步至 Google 搜尋結果中的購物區塊及 Google 購物廣告，藉此提升商品曝光與轉換成效。[了解更多 :lucide-external-link:](https://support.google.com/merchants/answer/12159157?hl=zh-Hant)
 
@@ -81,7 +81,7 @@ comments: false
     - **自動化管理**：自動同步商品庫存、價格與圖片，減少手動維護工作。
     - **數據追蹤與優化**：收集使用者互動與廣告成效資料，支援後續分析與優化。
 
-## 如何申請 Google Merchant Center <small>Google 端操作</small>
+## 申請 Google Merchant Center <small>Google 端操作</small>
 
 ### 建立帳戶
 
