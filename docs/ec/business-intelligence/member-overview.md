@@ -2,7 +2,7 @@
 title: 會員總覽
 description: 從性別、年齡、註冊來源到會員等級描繪會員輪廓，協助調整商品文案、廣告受眾與會員制度。
 created: 2026-06-16
-last_modified: 2026-07-10 14:13
+last_modified: 2026-07-10 15:01
 lang: zh-TW
 type: tutorial
 status: ""
@@ -159,7 +159,7 @@ hide: []
 
 ### 查看 LINE 購物 { #operate-member-overview-line }
 
-「來自 LINE 購物銷售狀況」區塊列出來自 LINE 購物通路的銷售數據。此區塊需開通 LINE 購物功能才會出現，未開通則不顯示。
+「來自 LINE 購物銷售狀況」區塊列出來自 LINE 購物通路的銷售數據。此區塊需啟用 LINE 購物功能才會出現。
 
 ![LINE 購物銷售狀況表格](../../assets/images/ec-bi-customer-line-shopping.zh-tw.png){ title="LINE 購物銷售狀況" }
 
@@ -176,7 +176,7 @@ hide: []
 
 - **僅計入有效訂單：** 銷售相關數字不含已取消、已退貨的訂單。
 - **數據為隔日更新：** 當天的下單與註冊不會即時反映。
-- **LINE 購物區塊為動態顯示：** 「來自Line購物銷售狀況」需開通 LINE 購物功能才會出現，未開通則不顯示。
+- **LINE 購物區塊為動態顯示：** 「來自Line購物銷售狀況」需啟用 LINE 購物功能才會出現。
 - **年齡依生日即時換算：** 未填寫生日的會員會歸入「未填寫」。
 
 ## 後續操作 { #next-steps-member-overview }
@@ -194,20 +194,6 @@ hide: []
 </div>
 
 ## 常見問題 { #faq-member-overview }
-
-??? quote "找不到「會員總覽」分頁"
-    [](){ #faq-member-overview-missing-tab }
-    「會員總覽」只在企業版顯示。
-
-    - 若您的方案未包含，進入會員分析頁面只會看到「會員分析」分頁。
-    - 如需使用，請聯絡客服或您的開店顧問確認方案。
-
-??? quote "沒有「來自Line購物銷售狀況」區塊"
-    [](){ #faq-member-overview-line-shopping }
-    這個區塊需要先開通 LINE 購物功能才會出現。
-
-    - 未開通 LINE 購物的商店不會顯示此區塊。
-    - 若需串接 LINE 購物通路，請聯絡客服或您的開店顧問。
 
 ??? quote "「未填寫」的會員人數很多"
     [](){ #faq-member-overview-unfilled }
