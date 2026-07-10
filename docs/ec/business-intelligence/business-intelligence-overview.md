@@ -2,7 +2,7 @@
 title: 圖表總覽
 description: 透過圖表總覽在單一頁面掌握網路商店與實體門市的關鍵經營數據，並與同業基準互相對照，快速找出可優化的項目。
 created: 2026-06-15 10:01
-last_modified: 2026-07-09 17:31
+last_modified: 2026-07-10 08:42
 lang: zh-TW
 type: tutorial
 status: ""
@@ -199,7 +199,7 @@ hide:
 
 ### 查看 POS 總覽 { #operate-chart-overview-pos }
 
-!!! plan "方案 / 功能"
+!!! plan "方案 / 功能條件"
     POS 總覽分頁僅在商家已串接 CYBERBIZ POS 系統時才會顯示。
 
 1. **切換分頁：** 點選頁面上方「POS總覽」分頁。

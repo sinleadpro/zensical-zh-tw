@@ -2,7 +2,7 @@
 title: 營收分析
 description: 透過數據卡與多種圖表，快速掌握全店營收表現、獲利狀況與營收高峰時段
 created: 2026-06-15
-last_modified: 2026-06-30 21:21
+last_modified: 2026-07-10 08:42
 lang: zh-TW
 type: tutorial
 status: ""
@@ -64,15 +64,6 @@ hide:
 - **多維度占比與時段圖表**：從訂單狀態、付款方式、會員類型、出貨方式、以及小時 / 星期 / 日等角度，觀察營收的組成與高峰。
 
 ## 使用前提與限制 { #prerequisites-revenue }
-
-### 方案開通條件 { #prerequisites-revenue-plan }
-
-營收分析屬於進階數據分析功能，需要您的方案有支援才能使用。
-
-!!! plan "方案 / 開通條件"
-    若您的方案未包含此功能，進入頁面時會看到「您目前方案不支援，請聯絡客服或開店顧問詢問」的提示。此時請洽客服或您的開店顧問，確認方案是否可升級或加購數據分析功能。
-
----
 
 ### 認列訂單定義 { #prerequisites-revenue-counted-orders }
 
