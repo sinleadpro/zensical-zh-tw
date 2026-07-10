@@ -2,7 +2,7 @@
 title: 消費顧客分析
 description: 以第一次下單時間切分新客與舊客，深入比較顧客數、訂單貢獻與回購表現。
 created: 2026-06-16
-last_modified: 2026-07-08 10:51
+last_modified: 2026-07-10 15:52
 lang: zh-TW
 type: tutorial
 status: ""
@@ -79,12 +79,6 @@ hide: []
 - **回購概況**：回購顧客數與回購率，以及回購的新舊客組成。
 
 ## 使用前提與限制 { #prerequisites-customer-analysis }
-
-### 方案開通條件 { #prerequisites-customer-analysis-plan }
-
-「消費顧客分析」限定特定方案，僅 **企業版** 與 **PLUS方案(專業PLUS版、進階PLUS版、高手PLUS版)** 可使用。
-
----
 
 ### 新舊客的判定 { #prerequisites-customer-analysis-definition }
 
@@ -298,13 +292,6 @@ hide: []
 </div>
 
 ## 常見問題 { #faq-customer-analysis }
-
-??? quote "找不到「消費顧客分析」分頁"
-    [](){ #faq-customer-analysis-missing-tab }
-    這個分頁需要符合方案並開通後才會出現。
-
-    - 僅企業版與 PLUS方案(專業PLUS版、進階PLUS版、高手PLUS版)可使用。
-    - 若方案符合卻未看到，請聯絡客服或您的開店顧問協助開通。
 
 ??? quote "這裡的新客數和「會員分析」的新會員對不起來"
     [](){ #faq-customer-analysis-new-definition }
