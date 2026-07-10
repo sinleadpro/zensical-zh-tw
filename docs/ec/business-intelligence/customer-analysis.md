@@ -2,7 +2,7 @@
 title: 消費顧客分析
 description: 以第一次下單時間切分新客與舊客，深入比較顧客數、訂單貢獻與回購表現。
 created: 2026-06-16
-last_modified: 2026-07-10 15:52
+last_modified: 2026-07-10 15:58
 lang: zh-TW
 type: tutorial
 status: ""
@@ -125,6 +125,8 @@ hide: []
 
     === "折線圖"
 
+        將滑鼠移到資料點上，即會顯示該月的顧客數；點擊項目名稱，可隱藏或顯示該項目資料。
+
         ![新舊客數區間分析](../../assets/images/ec-bi-customer-analysis-line-chart.zh-tw.png){ title="新舊客數區間分析" }
 
         !!! note "註釋"
@@ -132,6 +134,8 @@ hide: []
             一位顧客在區間內下單多次，只會被計入一次消費顧客數。因此折線圖中各月（或每日）的消費新客數與消費舊客數加總，不一定等於上方數據卡的累計數值。
 
     === "圓餅圖"
+
+        將滑鼠移到圖塊上，即會顯示該項目的佔比；點擊項目名稱，可隱藏或顯示該項目資料。
 
         ![新舊客數佔比](../../assets/images/ec-bi-customer-analysis-pie-chart.zh-tw.png){ title="新舊客數佔比" }
 
@@ -158,6 +162,8 @@ hide: []
 
     === "訂單數"
 
+        將滑鼠移到圖塊上，即會顯示該項目的佔比；點擊項目名稱，可隱藏或顯示該項目資料。
+
         ![訂單概況-訂單數檢視](../../assets/images/ec-bi-customer-analysis-order-count-view.zh-tw.png){ title="訂單概況-訂單數檢視" }
 
         ??? info "佔比算法"
@@ -166,6 +172,8 @@ hide: []
             - **舊客訂單數佔比：** 舊客訂單數 ÷ 總訂單數
 
     === "訂單金額"
+
+        將滑鼠移到圖塊上，即會顯示該項目的佔比；點擊項目名稱，可隱藏或顯示該項目資料。
 
         ![訂單概況-訂單金額檢視](../../assets/images/ec-bi-customer-analysis-order-amount-view.zh-tw.png){ title="訂單概況-訂單金額檢視" }
 
@@ -205,6 +213,8 @@ hide: []
     === "回購顧客數"
         數據卡顯示 **回購率** 百分比[^1]、 **回購新客數**[^7] 與 **回購舊客數**[^6]。
 
+        將滑鼠移到資料點上查看數值，移到圖塊上查看佔比；點擊項目名稱，可隱藏或顯示該項目資料。
+
         ![回購概況-回購率](../../assets/images/ec-bi-customer-analysis-repurchase-rate.zh-tw.png){ title="回購概況-回購率" }
 
         ??? info "回購率算法"
@@ -215,6 +225,8 @@ hide: []
     === "回購訂單數"
         數據卡顯示 **回購訂單數**[^4]、 **新客回購訂單數**[^5] 與 **舊客回購訂單數**[^8]。
 
+        將滑鼠移到資料點上查看數值，移到圖塊上查看佔比；點擊項目名稱，可隱藏或顯示該項目資料。
+
         ![回購概況-回購訂單數檢視](../../assets/images/ec-bi-customer-analysis-repurchase-order-count-view.zh-tw.png){ title="回購概況-回購訂單數檢視" }
 
         ??? info "首購訂單數推算"
@@ -223,6 +235,8 @@ hide: []
 
     === "回購訂單金額"
         數據卡顯示 **回購訂單金額**[^4]、 **新客回購訂單金額**[^5] 與 **舊客回購訂單金額**[^9]。
+
+        將滑鼠移到資料點上查看數值，移到圖塊上查看佔比；點擊項目名稱，可隱藏或顯示該項目資料。
 
         ![回購概況-回購訂單金額檢視](../../assets/images/ec-bi-customer-analysis-repurchase-order-amount-view.zh-tw.png){ title="回購概況-回購訂單金額檢視" }
 
