@@ -2,7 +2,7 @@
 title: 訂單分析
 description: 使用訂單分析頁面查看銷售趨勢、金物流偏好與業績報表
 created: 2026-06-15
-last_modified: 2026-07-10 13:10
+last_modified: 2026-07-10 13:12
 lang: zh-TW
 type: tutorial
 status: ""
@@ -597,9 +597,9 @@ hide:
     * 訂單分析只計算 [認列訂單](#prerequisites-order-analysis-recognized-order){ title="認列訂單定義" data-preview }，已取消與退貨成立的訂單不會被算進去。
     * 報表數據是定時批次更新的，並非即時，因此會比「所有訂單」列表略有延遲。
 
-??? quote "為什麼我看不到「訂單金物流分析」或「訂單報表」分頁？"
-    [](){ #faq-order-analysis-missing-tabs }
-    這是方案差異。高手版、高手PLUS版、專業PLUS版、進階PLUS版這四種方案只會顯示「訂單總體分析」。
+<!-- ??? quote "為什麼我看不到「訂單金物流分析」或「訂單報表」分頁？" -->
+<!--     [](){ #faq-order-analysis-missing-tabs } -->
+<!--     這是方案差異。高手版、高手PLUS版、專業PLUS版、進階PLUS版這四種方案只會顯示「訂單總體分析」。 -->
 
 ??? quote "卡片上的「變動值」是什麼意思？"
     [](){ #faq-order-analysis-variation }
