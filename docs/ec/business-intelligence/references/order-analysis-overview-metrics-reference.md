@@ -2,7 +2,7 @@
 title: 訂單總體分析指標對照
 description: 訂單總體分析分頁中各項關鍵指標與趨勢圖的定義對照
 created: 2026-06-15
-last_modified: 2026-06-16 15:19
+last_modified: 2026-07-10 11:23
 lang: zh-TW
 type: reference
 status: ""
@@ -25,8 +25,6 @@ tags:
   - 取消率
   - 退貨率
   - 變動值
-  - EC
-  - 參考資料
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-overview-metrics-reference/"
 icon: lucide/table
 hide:
