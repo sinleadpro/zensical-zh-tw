@@ -2,7 +2,7 @@
 title: 訂單分析
 description: 使用訂單分析頁面查看銷售趨勢、金物流偏好與業績報表
 created: 2026-06-15
-last_modified: 2026-07-07 16:51
+last_modified: 2026-07-10 10:50
 lang: zh-TW
 type: tutorial
 status: ""
@@ -41,7 +41,6 @@ features:
 prerequisites:
   - 已開通 CYBERBIZ 商店後台
 related:
-  - "[[order-analysis-tabs-reference]]"
   - "[[order-analysis-overview-metrics-reference]]"
   - "[[order-analysis-finance-logistics-reference]]"
   - "[[order-analysis-report-fields-reference]]"
@@ -87,13 +86,11 @@ hide:
 
 ## 頁面功能總覽 { #overview-order-analysis }
 
-| 分頁 | 用途 |
-| :-- | :-- |
-| 訂單總體分析 | 總訂單數、近 30 日訂單數、訂單金額與商品數分布，以及取消率、退貨率等趨勢。 |
-| 訂單金物流分析 | 依付款方式、出貨方式、第三方導購拆解的訂單數、占比、平均客單價與退貨率。 |
-| 訂單報表 | 日期區間對比、各時段業績、每日業績三張可下載成 Excel 的表格。 |
-
-完整的分頁顯示條件與方案差異，請見 [訂單分析分頁與方案對照](references/order-analysis-tabs-reference.md#reference-order-analysis-tabs){ data-preview }。
+| 分頁 | 商家可看到的內容 | 顯示條件 |
+| :-- | :-- | :-- |
+| 訂單總體分析 | 商店整體的訂單量、客單價、單筆訂單金額與商品數分布，以及取消率、退貨率等健康度指標。 | 高手版、PLUS版、企業版。 |
+| 訂單金物流分析 | 依付款方式、出貨方式、第三方導購拆解的訂單數趨勢、占比、平均客單價與退貨率。 | 企業版 |
+| 訂單報表 | 日期區間對比、各時段業績、每日業績三張可下載成 Excel 的表格。 | 企業版 |
 
 ---
 
@@ -220,8 +217,6 @@ hide:
     * 高手PLUS版
     * 專業PLUS版
     * 進階PLUS版
-
-    如需升級方案以解鎖完整報表，請洽詢您的開店顧問。
 
 ---
 
@@ -579,7 +574,6 @@ hide:
 
 ## 參考資料 { #reference-order-analysis }
 
-* [訂單分析分頁與方案對照](references/order-analysis-tabs-reference.md)
 * [訂單總體分析指標對照](references/order-analysis-overview-metrics-reference.md)
 * [訂單金物流分析圖表對照](references/order-analysis-finance-logistics-reference.md)
 * [訂單報表欄位對照](references/order-analysis-report-fields-reference.md)

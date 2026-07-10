@@ -75,7 +75,6 @@ copyright = """
                 {"圖表總覽指標" = "ec/business-intelligence/references/bi-overview-metrics-reference.md"},
                 {"基本報表計算規則" = "ec/business-intelligence/references/basic-chart-metrics-reference.md"},
                 {"基準參考範圍狀態" = "ec/business-intelligence/references/benchmark-reference-range-status-reference.md"},
-                {"訂單分析分頁" = "ec/business-intelligence/references/order-analysis-tabs-reference.md"},
                 {"訂單總體分析指標" = "ec/business-intelligence/references/order-analysis-overview-metrics-reference.md"},
                 {"商品分析欄位" = "ec/business-intelligence/references/product-analysis-metrics-reference.md"},
                 {"商品圖表指標" = "ec/business-intelligence/references/product-chart-metrics-reference.md"},

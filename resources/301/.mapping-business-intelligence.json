@@ -544,10 +544,6 @@
       "file": "docs/ec/business-intelligence/references/order-analysis-report-fields-reference.md"
     },
     {
-      "title": "訂單分析分頁與方案對照",
-      "file": "docs/ec/business-intelligence/references/order-analysis-tabs-reference.md"
-    },
-    {
       "title": "定期定額分析指標定義對照表",
       "file": "docs/ec/business-intelligence/references/periodic-order-analysis-metrics-reference.md"
     },
