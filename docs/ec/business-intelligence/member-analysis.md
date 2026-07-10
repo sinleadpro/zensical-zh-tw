@@ -2,7 +2,7 @@
 title: 會員分析
 description: 掌握會員規模、成長趨勢與首購後的留存及回購表現，評估會員經營健康度。
 created: 2026-06-16
-last_modified: 2026-06-30 21:21
+last_modified: 2026-07-10 15:21
 lang: zh-TW
 type: tutorial
 status: ""
@@ -84,15 +84,6 @@ hide: []
 - **回購與貢獻**：會員平均回購週期、會員人均消費額、會員平均認列訂單數、會員回購率。
 
 ## 使用前提與限制 { #prerequisites-member-analysis }
-
-### 方案開通條件 { #prerequisites-member-analysis-plan }
-
-「會員分析」分頁多數方案皆可使用，僅少數入門方案不支援。
-
-!!! plan "方案 / 開通條件"
-    專業版、進階版，以及體驗 / 試用版不支援會員分析。若您使用這些方案，進入後會看到方案不支援的提示，請聯絡客服或您的開店顧問，確認是否可升級。
-
----
 
 ### 數據基準 { #prerequisites-member-analysis-basis }
 

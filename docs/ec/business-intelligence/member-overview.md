@@ -2,14 +2,15 @@
 title: 會員總覽
 description: 從性別、年齡、註冊來源到會員等級描繪會員輪廓，協助調整商品文案、廣告受眾與會員制度。
 created: 2026-06-16
-last_modified: 2026-07-10 15:01
+last_modified: 2026-07-10 15:20
 lang: zh-TW
 type: tutorial
 status: ""
 version: ""
 author: Jase
 reviewers: []
-notes: []
+notes: 
+  - verify 適用方案是否包括專業跟進階
 ga_views: 0
 feedback: 0
 products:
