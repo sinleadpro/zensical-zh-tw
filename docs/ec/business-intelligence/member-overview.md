@@ -86,11 +86,11 @@ hide: []
 
 ## 使用前提與限制 { #prerequisites-member-overview }
 
-<!-- ### 方案開通條件 { #prerequisites-member-overview-plan } -->
-<!---->
-<!-- 「會員總覽」屬於進階的會員輪廓分析，僅在企業版顯示。 -->
-<!---->
-<!-- --- -->
+### 方案開通條件 { #prerequisites-member-overview-plan }
+
+「會員總覽」屬於進階的會員輪廓分析，僅在 **企業版** 顯示。
+
+---
 
 ### 數據基準 { #prerequisites-member-overview-basis }
 
@@ -99,13 +99,13 @@ hide: []
 
 ## 頁面功能總覽 { #overview-member-overview }
 
-| 區塊 | 類型 | 看什麼 | 出現條件 |
-| :-- | :-- | :-- | :-- |
-| [會員性別分群](#operate-member-overview-gender) | 表格 | 男性、女性、未填寫的會員人數 | 企業版 |
-| [會員年齡分群](#operate-member-overview-age) | 表格 | 各年齡區間的會員人數 | 企業版 |
-| [會員現況](#operate-member-overview-status) | 表格 | 依註冊狀態與登入來源分類的會員數 | 企業版 |
-| [期間別會員等級銷售狀況](#operate-member-overview-levels) | 表格 | VIP 會員與普通會員的銷售貢獻對比 | 企業版 |
-| [來自LINE購物銷售狀況](#operate-member-overview-line) | 表格 | 來自 LINE 購物通路的銷售狀況 | 需啟用 LINE 購物功能 |
+| 區塊 | 類型 | 看什麼 |
+| :-- | :-- | :-- |
+| [會員性別分群](#operate-member-overview-gender) | 表格 | 男性、女性、未填寫的會員人數 |
+| [會員年齡分群](#operate-member-overview-age) | 表格 | 各年齡區間的會員人數 |
+| [會員現況](#operate-member-overview-status) | 表格 | 依註冊狀態與登入來源分類的會員數 |
+| [期間別會員等級銷售狀況](#operate-member-overview-levels) | 表格 | VIP 會員與普通會員的銷售貢獻對比 |
+| [來自LINE購物銷售狀況](#operate-member-overview-line) | 表格 | 來自 LINE 購物通路的銷售狀況 |
 
 各分類的詳細意義，請參考[會員現況與註冊來源對照表](references/member-status-registration-sources-reference.md#reference-member-registration-sources){ title="會員現況與註冊來源對照表" data-preview }、[會員年齡分群對照表](references/member-age-groups-reference.md#reference-member-age-groups){ title="會員年齡分群對照表" data-preview } 與[會員等級銷售狀況對照表](references/member-level-sales-status-reference.md#reference-member-levels){ title="會員等級銷售狀況對照表" data-preview }。
 
