@@ -2,7 +2,7 @@
 title: 會員總覽
 description: 從性別、年齡、註冊來源到會員等級描繪會員輪廓，協助調整商品文案、廣告受眾與會員制度。
 created: 2026-06-16
-last_modified: 2026-07-10 13:48
+last_modified: 2026-07-10 13:55
 lang: zh-TW
 type: tutorial
 status: ""
@@ -89,8 +89,8 @@ hide: []
 <!-- ### 方案開通條件 { #prerequisites-member-overview-plan } -->
 <!---->
 <!-- 「會員總覽」屬於進階的會員輪廓分析，僅在企業版顯示。 -->
-
----
+<!---->
+<!-- --- -->
 
 ### 數據基準 { #prerequisites-member-overview-basis }
 
