@@ -2,7 +2,7 @@
 title: 會員總覽
 description: 從性別、年齡、註冊來源到會員等級描繪會員輪廓，協助調整商品文案、廣告受眾與會員制度。
 created: 2026-06-16
-last_modified: 2026-07-10 13:55
+last_modified: 2026-07-10 14:13
 lang: zh-TW
 type: tutorial
 status: ""
@@ -82,7 +82,7 @@ hide: []
 - **會員年齡分群**：不同年齡區間的會員人數。
 - **會員現況**：依註冊狀態與登入來源(FB、LINE 等)分類的會員數。
 - **期間別會員等級銷售狀況**：VIP 會員與普通會員的銷售貢獻對比。
-- **來自 LINE 購物銷售狀況**：來自 LINE 購物通路的銷售(需開通 LINE 購物功能才會出現)。
+- **來自 LINE 購物銷售狀況**：來自 LINE 購物通路的銷售(需啟用 LINE 購物功能才會出現)。
 
 ## 使用前提與限制 { #prerequisites-member-overview }
 
@@ -105,7 +105,7 @@ hide: []
 | [會員年齡分群](#operate-member-overview-age) | 表格 | 各年齡區間的會員人數 | 企業版 |
 | [會員現況](#operate-member-overview-status) | 表格 | 依註冊狀態與登入來源分類的會員數 | 企業版 |
 | [期間別會員等級銷售狀況](#operate-member-overview-levels) | 表格 | VIP 會員與普通會員的銷售貢獻對比 | 企業版 |
-| [來自LINE購物銷售狀況](#operate-member-overview-line) | 表格 | 來自 LINE 購物通路的銷售狀況 | 需開通 LINE 購物功能 |
+| [來自LINE購物銷售狀況](#operate-member-overview-line) | 表格 | 來自 LINE 購物通路的銷售狀況 | 需啟用 LINE 購物功能 |
 
 各分類的詳細意義，請參考[會員現況與註冊來源對照表](references/member-status-registration-sources-reference.md#reference-member-registration-sources){ title="會員現況與註冊來源對照表" data-preview }、[會員年齡分群對照表](references/member-age-groups-reference.md#reference-member-age-groups){ title="會員年齡分群對照表" data-preview } 與[會員等級銷售狀況對照表](references/member-level-sales-status-reference.md#reference-member-levels){ title="會員等級銷售狀況對照表" data-preview }。
 
