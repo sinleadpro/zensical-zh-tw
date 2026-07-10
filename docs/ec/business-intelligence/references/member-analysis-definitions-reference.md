@@ -2,7 +2,7 @@
 title: 會員分析共用定義
 description: 會員分析頁面共用的統計基準與名詞定義，包含有效訂單定義、數據更新時間及新會員與新客判定方式。
 created: 2026-06-16
-last_modified: 2026-06-16
+last_modified: 2026-07-10 15:26
 lang: zh-TW
 type: reference
 status: ""
@@ -26,8 +26,6 @@ tags:
   - 消費顧客分析
   - 數據更新
   - 認列訂單
-  - EC
-  - 參考資料
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/member-analysis-definitions-reference/"
 icon: lucide/table
 hide:
