@@ -2,7 +2,7 @@
 title: 廣告分析
 description: 不必登入 Google Ads 後台，在 CYBERBIZ 就能看懂 Google 購物廣告的曝光、點擊、轉換與 ROAS 成效。
 created: 2026-06-15
-last_modified: 2026-06-15 19:30
+last_modified: 2026-07-12 19:51
 lang: zh-TW
 type: tutorial
 status: ""
@@ -60,7 +60,7 @@ hide:
 
 「廣告分析」會把您透過「自動化廣告系統」投放的 **Google 購物廣告** 成效，整理成數據卡片與每日趨勢圖。從廣告花了多少錢、帶來多少曝光與點擊，到最後換回多少訂單營收，都能在同一頁掌握，協助您判斷廣告投得值不值得、要不要調整。
 
-!!! path "進入路徑：後台左側選單「分析報表」>「廣告分析」。"
+!!! path "後台路徑：後台左側選單「分析報表」>「廣告分析」。"
 
 !!! info "提示"
     此頁面前僅呈現 **Google 購物廣告** 的成效，不包含其他廣告管道的數據。
@@ -121,7 +121,7 @@ hide:
 
 1. 捲動到頁面下方的 **每日趨勢圖**。
 2. 點選圖表上方的指標頁籤，切換要觀察的指標；可選「全部指標」一次綜覽，或單一指標看細節。
-3. 將滑鼠移到折線上的任一點，即可看到該日期的實際數值。
+3. 將滑鼠移到折線上的任一點，即可看到該日期的實際數值；點擊項目名稱，可隱藏或顯示該項目資料。
 
 ![查看每日趨勢圖](../../assets/images/ec-bi-ad-analytics-trend.zh-tw.png){ title="查看每日趨勢圖" }
 
@@ -148,10 +148,6 @@ hide:
 ??? quote "日期區間選太長，無法查詢？"
     [](){ #faq-advertising-analytics-date-range-limit }
     單次查詢的區間最長為 180 天。若需要看更長期間的趨勢，請分段查詢。
-
-??? quote "這裡看得到 Facebook(Meta)廣告的成效嗎？"
-    [](){ #faq-advertising-analytics-google-only }
-    目前「廣告分析」僅呈現 Google 購物廣告的數據，不包含 Facebook(Meta)等其他廣告管道。
 
 ??? quote "數據和 Google Ads 後台對不起來？"
     [](){ #faq-advertising-analytics-data-diff }

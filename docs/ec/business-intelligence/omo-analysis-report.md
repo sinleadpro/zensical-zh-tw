@@ -2,7 +2,7 @@
 title: OMO 分析報表
 description: 整合線上官網（EC）與線下實體門市（POS）的經營數據，在同一頁比較兩個通路的營收、訂單、會員、商品與行銷表現。
 created: 2026-06-23 10:00
-last_modified: 2026-06-30 21:21
+last_modified: 2026-07-12 20:16
 lang: zh-TW
 type: tutorial
 status: ""
@@ -55,7 +55,6 @@ tags:
   - POS
   - 線上官網
   - 實體門市
-  - CYBERBIZ_POS
 acoiv: operation
 apis: []
 devices:
@@ -88,7 +87,7 @@ hide:
 ### 開通條件 { #prerequisites-omo-plan }
 
 !!! plan "方案 / 開通條件"
-    「OMO分析報表」需要您的商店已開通並使用 **CYBERBIZ POS**，報表才會在後台選單出現並可進入，也才能呈現線下門市的數據。未開通 POS 的商店不會看到此報表。如需開通，請聯絡客服或您的開店顧問。
+    「OMO分析報表」需要您的商店已開通並使用 **CYBERBIZ POS**，報表才會在後台選單出現並可進入，也才能呈現線下門市的數據。未啟用 POS 的商店不會看到此報表。
 
 ---
 
@@ -127,9 +126,13 @@ hide:
     === "註冊會員數"
         ![註冊會員數指標卡](../../assets/images/ec-bi-omo-member-count-card.png){ title="註冊會員數指標卡" }
 
+    !!! tip "將滑鼠移到圖塊上，即會顯示該區塊的數據明細；點擊項目名稱，可隱藏或顯示該項目資料。"
+
 - **平均訂單金額**：以「總營業額 ÷ 總訂單數」呈現 EC 與 POS 的客單價。詳見[名詞定義對照表](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO 分析報表共用定義" data-preview }。
 
     ![平均訂單金額](../../assets/images/ec-bi-omo-aov-card.png){ title="平均訂單金額" }
+
+    !!! tip "將滑鼠移到長條上，即會顯示該長條的數值明細；點擊項目名稱，可隱藏或顯示該項目資料。"
 
 - **商品銷量 TOP10**：分別列出 EC 與 POS 銷量前 10 名的商品。
 
@@ -144,12 +147,20 @@ hide:
 - **EC/POS 營業額與趨勢圖**：看兩個通路的營業額隨時間的變化。
 
     === "營業額指標"
+
+        將滑鼠移到圖塊上，即會顯示該區塊的數據明細；點擊項目名稱，可隱藏或顯示該項目資料。
+
         ![營業額指標](../../assets/images/ec-bi-omo-ec-revenue-trend.png){ title="營業額指標" }
 
     === "營業額趨勢圖"
+
+        將滑鼠移到折線上的任一點，即會顯示該日期的數值；點擊項目名稱，可隱藏或顯示該項目資料。
+
         ![營業額趨勢圖](../../assets/images/ec-bi-omo-pos-revenue-trend.png){ title="營業額趨勢圖" }
 
 - **EC/POS 營收熱點圖**：以顏色深淺呈現各時段營收高低，顏色越深代表該時段營收越高，可作為安排行銷活動或直播時段的參考。詳見[名詞定義對照表](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO 分析報表共用定義" data-preview }。
+
+    將滑鼠移到時間區塊上，即會顯示該時段的營收數值。
 
     ![營收熱點圖](../../assets/images/ec-bi-omo-revenue-heatmap.png){ title="營收熱點圖" }
 
@@ -162,10 +173,15 @@ hide:
 - **EC/POS 訂單數與平均訂單金額趨勢**：看兩個通路的單量與客單價變化。
 
     === "訂單數"
+
+        將滑鼠移到圖塊或折線上的任一點，即會顯示該數據的詳細數值；點擊項目名稱，可隱藏或顯示該項目資料。
+
         ![訂單數指標卡](../../assets/images/ec-bi-omo-order-detail-card.png){ title="訂單數指標卡" }
         ![訂單數趨勢圖](../../assets/images/ec-bi-omo-order-count-trend.png){ title="訂單數趨勢圖" }
 
     === "平均訂單金額"
+
+        將滑鼠移到長條或折線上的任一點，即會顯示該數據的詳細數值；點擊項目名稱，可隱藏或顯示該項目資料。
 
         ![平均訂單金額指標卡](../../assets/images/ec-bi-omo-aov-detail-card.png){ title="平均訂單金額指標卡" }
         
@@ -174,6 +190,8 @@ hide:
 - **門市取貨/POS門市取貨分析**：統計門市取貨與 POS 門市取貨的訂單數與訂單金額，掌握線上線下導購轉單成效。詳見[名詞定義對照表](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO 分析報表共用定義" data-preview }。
 
     ![門市取貨/POS門市取貨](../../assets/images/ec-bi-omo-store-pickup.png){ title="門市取貨／POS門市取貨" }
+
+    !!! tip "將滑鼠移到長條上，即會顯示該長條的數值明細；點擊項目名稱，可隱藏或顯示該項目資料。"
 
 ---
 
@@ -184,6 +202,9 @@ hide:
 - **註冊會員數與完成註冊率**：EC 與 POS 的註冊會員數，以及 POS快速登入會員完成註冊率。詳見[名詞定義對照表](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO 分析報表共用定義" data-preview }。
 
     === "會員數"
+
+        將滑鼠移到圖塊或折線上的任一點，即會顯示該數據的詳細數值；點擊項目名稱，可隱藏或顯示該項目資料。
+
         ![會員數指標卡](../../assets/images/ec-bi-omo-member-detail-card.png){ title="會員數指標卡" }
         
         ![會員數趨勢圖](../../assets/images/ec-bi-omo-member-registration-trend.png){ title="會員數趨勢圖" }
@@ -194,16 +215,25 @@ hide:
 - **會員平均消費金額比對**：比較 EC 註冊與 POS 註冊會員在各通路的平均消費，判斷哪種來源的客群貢獻較高。
 
     === "全部會員"
+
+        將滑鼠移到長條上，即會顯示該長條的數值明細；點擊項目名稱，可隱藏或顯示該項目資料。
+
         ![平均消費金額長條圖](../../assets/images/ec-bi-omo-aov-bar-chart-all.png){ title="各註冊來源會員平均消費金額比較" }
         
         ![全部會員平均消費金額](../../assets/images/ec-bi-omo-aov-card-all.png){ title="全部會員平均消費金額" }
 
     === "EC平均消費金額"
+
+        將滑鼠移到長條上，即會顯示該長條的數值明細；點擊項目名稱，可隱藏或顯示該項目資料。
+
         ![EC平均消費金額長條圖](../../assets/images/ec-bi-omo-aov-bar-chart-ec.png){ title="EC各註冊來源會員平均消費金額比較" }
         
         ![EC平均消費金額](../../assets/images/ec-bi-omo-aov-card-ec.png){ title="EC平均消費金額" }
 
     === "POS平均消費金額"
+
+        將滑鼠移到長條上，即會顯示該長條的數值明細；點擊項目名稱，可隱藏或顯示該項目資料。
+
         ![POS平均消費金額長條圖](../../assets/images/ec-bi-omo-aov-bar-chart-pos.png){ title="POS各註冊來源會員平均消費金額比較" }
         
         ![POS平均消費金額](../../assets/images/ec-bi-omo-aov-card-pos.png){ title="POS平均消費金額" }
@@ -211,9 +241,15 @@ hide:
 - **會員購買與回購狀況**：以會員首次註冊來源區分，看其在 EC、POS 的購買與回購表現，並提供整體回購率。詳見[名詞定義對照表](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO 分析報表共用定義" data-preview }。
 
     === "購買狀況"
+
+        將滑鼠移到圖塊上，即會顯示該區塊的數據明細；點擊項目名稱，可隱藏或顯示該項目資料。
+
         ![購買狀況](../../assets/images/ec-bi-omo-purchase-status.png){ title="購買狀況" }
 
     === "回購狀況"
+
+        將滑鼠移到圖塊上，即會顯示該區塊的數據明細；點擊項目名稱，可隱藏或顯示該項目資料。
+
         ![回購狀況](../../assets/images/ec-bi-omo-repurchase-status.png){ title="回購狀況" }
 
 ---
@@ -246,9 +282,15 @@ hide:
 - **紅利使用數與趨勢圖**：指定時間內 EC 與 POS 的紅利點數折抵與使用狀況。
 
 === "使用數指標"
+
+    將滑鼠移到圖塊上，即會顯示該區塊的數據明細；點擊項目名稱，可隱藏或顯示該項目資料。
+
     ![紅利使用數指標](../../assets/images/ec-bi-omo-bonus-usage-card.png){ title="紅利使用數指標" }
 
 === "趨勢圖"
+
+    將滑鼠移到折線上的任一點，即會顯示該日期的數值；點擊項目名稱，可隱藏或顯示該項目資料。
+
     ![紅利使用數趨勢圖](../../assets/images/ec-bi-omo-bonus-usage-trend.png){ title="紅利使用數趨勢圖" }
 
 ## 操作步驟 { #operate-omo }
@@ -289,7 +331,7 @@ hide:
 
 - **僅計入有效訂單：** 報表所有數字不含已取消、已退貨的訂單，因此可能與訂單列表的總金額不一致。
 - **數據為隔日更新：** 流量、轉換率數據於隔日下午五點半更新，其餘數據於隔日凌晨零點更新，取消與退貨訂單會定時更新排除。
-- **需有 CYBERBIZ POS 才會顯示：** 未開通 POS 的商店看不到此報表，也無法呈現線下門市數據。
+- **需有 CYBERBIZ POS 才會顯示：** 未啟用 POS 的商店看不到此報表，也無法呈現線下門市數據。
 - **商品需同 SKU 才會合併統計：** 「商品」頁籤的商品銷售列表依 SKU 比對 EC 與 POS 的銷售，若同一商品在兩通路的 SKU 設定不一致，將無法合併為同一列統計。
 
 ## 後續操作 { #next-steps-omo }
@@ -315,13 +357,6 @@ hide:
 </div>
 
 ## 常見問題 { #faq-omo }
-
-??? quote "後台選單找不到「OMO分析報表」"
-    [](){ #faq-omo-missing-menu }
-    「OMO分析報表」需要先開通並使用 CYBERBIZ POS 才會顯示。
-
-    - 未開通 POS 的商店不會在「分析報表」下看到此項目。
-    - 如需開通，請聯絡客服或您的開店顧問。
 
 ??? quote "數據對不上 / 今天的訂單還沒出現"
     [](){ #faq-omo-data-delay }
