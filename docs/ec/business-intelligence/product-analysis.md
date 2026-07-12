@@ -2,14 +2,15 @@
 title: 商品分析
 description: 掌握店內商品的銷售表現，找出熱賣商品、滯銷品與回購行為，為進貨、行銷與定價決策提供數據參考。
 created: 2026-06-15 00:00
-last_modified: 2026-07-12 19:06
+last_modified: 2026-07-12 19:45
 lang: zh-TW
 type: tutorial
 status: ""
 version: ""
 author: Jase
 reviewers: []
-notes: []
+notes:
+  - 商品報表分頁限企業版但商品報表下載適用plus跟企業版？看不到要怎麼下載？
 ga_views: 0
 feedback: 0
 products:
