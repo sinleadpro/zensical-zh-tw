@@ -2,7 +2,7 @@
 title: 行銷活動分析
 description: 一次掌握折扣、優惠券與紅利的成效，了解哪些行銷活動真正帶動訂單與營收
 created: 2026-06-16
-last_modified: 2026-07-06T17:29:19+08:00
+last_modified: 2026-07-12 19:37
 lang: zh-TW
 type: tutorial
 status: ""
@@ -83,7 +83,7 @@ hide: []
 
 ## 行銷活動分析說明 { #intro-marketing-activity }
 
-這個頁面位於後台左側選單「**經營分析**」之下，整合了三個分析分頁，協助您回答「這檔活動到底有沒有效」這類問題：
+這個頁面位於後台左側選單「**行銷活動分析**」之下，整合了三個分析分頁，協助您回答「這檔活動到底有沒有效」這類問題：
 
 - **折扣活動分析**：看全站折扣訂單的整體概況、各折扣種類的貢獻，以及單檔折扣活動的成效排名。
 - **優惠券分析**：看各類優惠券與單張優惠券的使用狀況、營收與使用週期。
@@ -109,17 +109,10 @@ hide: []
 
 [](){ #prerequisites-marketing-activity-plan }
 
-### 方案開通條件 { #prerequisites-marketing-activity-plan-tier }
-
-- [x] **需要方案支援**：「行銷活動分析」屬於「經營分析」的進階報表，部分入門方案不提供。若您在左側選單的「經營分析」中找不到「行銷活動分析」，代表目前方案未包含此功能[^plan]，可升級方案或洽詢客服。
+- [x] **需要方案支援**：「行銷活動分析」屬於進階報表，部分入門方案不提供。若您在左側選單找不到「行銷活動分析」，代表目前方案未包含此功能[^plan]。
+- [x] **匯出紅利圖表開通功能 `企業版`**：「紅利分析」分頁右上角的 **「匯出紅利圖表」** 按鈕，只有在您的方案包含「紅利報表匯出」時才會出現。若按鈕未顯示，仍可正常瀏覽紅利分析的圖表，只是無法匯出報表。
 
 [^plan]: 專業級、進階版不提供本功能；高手版(含)以上方案才會顯示。
-
----
-
-### 紅利報表匯出的額外條件 { #prerequisites-marketing-activity-bonus-export }
-
-- [x] **匯出紅利圖表開通功能**：「紅利分析」分頁右上角的 **「匯出紅利圖表」** 按鈕，只有在您的方案或開通功能包含「紅利報表匯出」時才會出現。若按鈕未顯示，仍可正常瀏覽紅利分析的圖表，只是無法匯出報表。
 
 ## 操作步驟 { #operate-marketing-activity }
 
@@ -140,6 +133,8 @@ hide: []
 3. **檢視佔比圖：** 下方兩個圓餅圖分別呈現 **折扣訂單數佔比** 與 **折扣訂單金額佔比**，讓您一眼看出折扣訂單在整體中的比重。
 
     ![檢視佔比圖](../../assets/images/ec-bi-mkt-act-pie-chart.png){ title="檢視佔比圖" }
+
+    !!! tip "將滑鼠移到圖塊上，即會顯示該項目的佔比；點擊項目名稱，可隱藏或顯示該項目資料。"
 
 ??? info "折扣訂單概觀指標定義"
 
@@ -177,7 +172,7 @@ hide: []
     | 訂單金額 | 選取期間套用到該「折扣種類」的有效訂單金額 |
     | 訂單金額占比 | 選取期間套用到該「折扣種類」的有效訂單金額 ÷ 使用折扣訂單金額 |
 
-??? note "折扣種類佔比加總可能超過 100%"
+??? warning "折扣種類佔比加總可能超過 100%"
     由於一個訂單可套用多個折扣種類，將各折扣種類的訂單數／訂單金額佔比相加，有可能會超過 100%。完整範例請見 [常見問題](#faq-marketing-activity-over-100)。
 
 ---
@@ -237,9 +232,13 @@ hide: []
 
         此頁籤顯示優惠券的 **發放數量**[^coupon-distribution-count] 與 **已使用數量**[^coupon-used-count] 趨勢圖，數字卡則呈現各項指標。
 
+        將滑鼠移到資料點上，即會顯示該日的數量；點擊項目名稱，可隱藏或顯示該項目資料。
+
         ![使用狀況分析](../../assets/images/ec-bi-mkt-act-coupon-usage.png){ title="使用狀況分析" }
 
     === "優惠券營收分析"
+
+        將滑鼠移到資料點上，即會顯示該日的營收；點擊項目名稱，可隱藏或顯示該項目資料。
 
         ![優惠券營收分析](../../assets/images/ec-bi-mkt-act-coupon-revenue.png){ title="優惠券營收分析" }
 
@@ -278,6 +277,8 @@ hide: []
     === "AOV分析"
 
         ![AOV分析](../../assets/images/ec-bi-mkt-act-specific-aov.png){ title="AOV分析" }
+
+    !!! tip "將滑鼠移到資料點上，即會顯示該日的數值；點擊項目名稱，可隱藏或顯示該項目資料。"
 
 4. **檢視指標數字卡：** 區塊會顯示該張優惠券的折扣金額、平均折扣比例、平均訂單金額、優惠券訂單營業額、優惠券使用次數、使用率、平均使用週期、目標客群數、目標客群總營業額等數字卡。各指標的精確算法請見 [優惠券指標定義對照表](references/marketing-activity-coupon-metrics-reference.md#reference-marketing-activity-coupon-metrics-specific){ data-preview }。
 
@@ -338,6 +339,8 @@ hide: []
 
         ![紅利折扣比率](../../assets/images/ec-bi-mkt-act-bonus-discount-ratio.png){ title="紅利折扣比率" }
 
+    !!! tip "將滑鼠移到圖表上查看數值；點擊項目名稱，可隱藏或顯示該項目資料。"
+
 ??? info "紅利分析指標定義"
 
     | 指標 | 說明 |
@@ -360,6 +363,8 @@ hide: []
 
 #### 匯出紅利報表 { #bonus-export }
 
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 企業
+
 1. **點擊匯出：** 點擊分頁右上角的 **「匯出紅利圖表」** 按鈕[^bonus-export-plugin]，開啟匯出視窗。
 
     ![點擊匯出](../../assets/images/ec-bi-mkt-act-click-export.png){ title="點擊匯出" }
@@ -374,7 +379,7 @@ hide: []
 
 4. **送出匯出：** 點擊 **「確認」**，系統會在背景產製報表，完成後寄送至您的後台帳號信箱。
 
-[^bonus-export-plugin]: 此按鈕僅在方案或開通功能包含「紅利報表匯出」時顯示。
+[^bonus-export-plugin]: 此按鈕僅在方案包含「紅利報表匯出」時顯示。
 [^bonus-export-days]: 匯出起訖時間以紅利發送時間計算，且區間不得超過 180 天。
 
 ## 重要規範與限制 { #specs-marketing-activity }
@@ -406,13 +411,6 @@ hide: []
 
 ## 常見問題 { #faq-marketing-activity }
 
-??? quote "為什麼左側選單找不到「行銷活動分析」？"
-    [](){ #faq-marketing-activity-menu-missing }
-    「行銷活動分析」屬於「經營分析」的進階報表，部分入門方案不提供。
-
-    - 請確認您的方案是否包含此功能，必要時升級方案或洽詢客服。
-    - 若方案包含此功能，請確認是在左側選單的「經營分析」分類下尋找。
-
 ??? quote "為什麼折扣種類分析的佔比加總會超過 100%？"
     [](){ #faq-marketing-activity-over-100 }
 
@@ -442,10 +440,6 @@ hide: []
     部分折扣種類需要先啟用對應的行銷活動功能才會出現。
 
     - 各折扣種類的開通條件請見 [折扣種類對照表](references/marketing-activity-discount-categories-reference.md){ data-preview }。
-
-??? quote "「匯出紅利圖表」按鈕沒有出現？"
-    [](){ #faq-marketing-activity-bonus-export-missing }
-    此按鈕只在方案或開通功能包含「紅利報表匯出」時才會顯示。若未顯示，您仍可正常瀏覽紅利分析的圖表，只是無法匯出報表。
 
 ??? quote "什麼是「有效訂單」？為什麼數字和我實際的訂單數對不起來？"
     [](){ #faq-marketing-activity-valid-order }
