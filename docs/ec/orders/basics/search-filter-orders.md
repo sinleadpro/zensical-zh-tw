@@ -2,7 +2,7 @@
 title: 如何搜尋與篩選訂單
 description: 使用關鍵字搜尋、條件篩選、檢視群組與訂單標籤等功能，快速找出目標訂單。
 created: 2026-05-07 11:23
-last_modified: 2026-07-13 09:21
+last_modified: 2026-07-13 09:34
 lang: zh-TW
 type: tutorial
 status: ""
@@ -85,7 +85,7 @@ hide: []
 
 ## 關鍵字搜尋 { #orders-search }
 
-搜尋欄位支援多種關鍵字，但需注意搜尋的 [匹配規則](../references/order-filter-status-reference.md#orders-match-mode){ title="訂單篩選條件與狀態對照表" }：
+搜尋欄位支援多種關鍵字，但需注意搜尋的 [匹配規則](../references/order-filter-status-reference.md#orders-match-mode){ title="訂單篩選條件與狀態對照表" data-preview }：
 
 === "新版訂單列表"
 
