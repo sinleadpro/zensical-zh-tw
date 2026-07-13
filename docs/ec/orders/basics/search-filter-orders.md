@@ -2,7 +2,7 @@
 title: 如何搜尋與篩選訂單
 description: 使用關鍵字搜尋、條件篩選、檢視群組與訂單標籤等功能，快速找出目標訂單。
 created: 2026-05-07 11:23
-last_modified: 2026-07-13 09:34
+last_modified: 2026-07-13 09:53
 lang: zh-TW
 type: tutorial
 status: ""
@@ -236,7 +236,7 @@ hide: []
 
 ![訂單列表-編輯欄位](../../../assets/images/EC-訂單-所有訂單-編輯欄位.gif){ title="訂單列表-編輯欄位" }
 
-!!! tip "優化定期購追蹤"
+!!! tip "追蹤定期購"
     若經營定期購業務，建議開啟 **母訂單編號** 與 **已成立期數** 欄位，以便在列表中快速掌握子訂單的計畫歸屬與週期進度。   
 
 ---
@@ -282,17 +282,11 @@ hide: []
 
 <div class="grid cards" markdown>
 
-- :lucide-repeat:{ .lg }  
-  [__定期定額訂單__](../reports/export-subscription-forecast.md){ title="匯出定期定額子訂單預測報表" }  
-  需至「訂單」>「定期定額訂單」中搜尋，支援定期單號、收貨資訊或備註搜尋。
+<!-- - :lucide-repeat:{ .lg } [__定期定額訂單__](../reports/export-subscription-forecast.md){ title="匯出定期定額子訂單預測報表" }   -->
 
-- :material-point-of-sale:{ .lg }  
-  [__POS 訂單__](../../../pos/orders/manage-general-orders.md#查詢訂單){ title="管理一般訂單" }    
-  在 POS 前台可透過輸入訂單號碼、掃描發票或進階篩選（如成立時間、認單時間）來查找。
+- :material-point-of-sale:{ .lg } [__POS 訂單__](../../../pos/orders/manage-general-orders.md#查詢訂單){ title="管理一般訂單" }    
 
-- :lucide-user:{ .lg }  
-  [__會員專屬搜尋__](../../members/manage-member-profiles.md){ title="管理會員檔案" }  
-  進入特定會員頁面後，點選其「訂單」分頁，可查看該會員在 EC 與 POS 的所有有效消費紀錄。
+- :lucide-user:{ .lg } [__會員專屬搜尋__](../../members/manage-member-profiles.md){ title="管理會員檔案" }  
 
 </div>
 
@@ -322,8 +316,7 @@ hide: []
 
     1. 訂單成立時商品名稱與您現在輸入的不一致（例如後來改名）。系統紀錄的是 **下單當下** 的品項名稱。
     2. 該商品被列為「贈品」或「加購」，且設定不納入搜尋。
-    3. 已開啟「完全符合」但關鍵字非完整名稱，取消勾選再試一次。
-    4. 訂單已被刪除（非關閉），列表只顯示未刪除的訂單。
+    3. 訂單已被刪除（非關閉），列表只顯示未刪除的訂單。
 
 ??? quote "如何儲存常用的篩選條件組合？"
 
