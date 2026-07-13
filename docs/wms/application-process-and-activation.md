@@ -2,7 +2,7 @@
 title: 串倉申請流程與開通
 description: 在正式開通串接前，商家需完成合約簽訂、系統環境建置以及商品資料同步，以確保訂單能正確拋轉至倉庫執行。
 created: 2026-03-18 00:00
-last_modified: 2026-06-30 22:04
+last_modified: 2026-07-13 11:45
 lang: zh-TW
 type: tutorial
 status: ""
