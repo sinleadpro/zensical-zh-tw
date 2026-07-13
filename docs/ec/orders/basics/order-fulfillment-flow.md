@@ -3,7 +3,7 @@ title: 訂單出貨流程
 permalink: https://help.cyberbiz.io/ec/orders/basics/order-fulfillment-flow
 version: ""
 author: Jase
-last_modified: 2026-07-13 11:53
+last_modified: 2026-07-13 12:02
 description: ""
 product:
   - EC
@@ -268,13 +268,7 @@ icon: lucide/workflow
 
 ??? quote "超商出貨後遇到「門市關轉」，怎麼處理"
     [](){ #faq-fulfillment-store-closed }
-    依超商不同處理方式不同（詳見 [超商 C2C 門市關轉說明](../cvs-shipping/cvs-c2c-shipping.md#operate-cvs-c2c-exception-store-closed){ title="操作超商店到店 C2C 出貨" }）：
-
-    - **7-11：** 可在期限內（依超商規定，通常為關轉後兩天內、且上午 10：30 前）至後台 **重新選擇退回門市** 並 **上傳通知 7-11**。
-    - **全家 / 萊爾富：** 直接走退貨流程，包裹退回物流總倉後，再退到店家填寫的退貨地址。
-
-    !!! note "提醒"
-        7-11 的可處理時間窗（兩天內 / 10:30 前）為超商營運規則，實際期限請以物流商最新公告為準。
+    依超商不同處理方式不同（詳見 [超商 C2C 門市關轉說明](../cvs-shipping/cvs-c2c-shipping.md#operate-cvs-c2c-exception-store-closed){ title="操作超商店到店 C2C 出貨" }）。
 
 ??? quote "同一位顧客有多筆訂單，可以合併出貨嗎"
     [](){ #faq-fulfillment-merge }
