@@ -141,11 +141,14 @@ icon: lucide/receipt
 
     ![訂單未付款提醒設定](../../../assets/images/ec-order-settings-payment-reminder-unpaid.png){ title="訂單未付款提醒設定" }
 
-2. **訂單付款失敗提醒設定：** 展開區塊，於「設定天數」填入間隔天數，點擊 **「送出」**。同一張付款失敗訂單最多 **寄發三次** 提醒。
+2. **訂單付款失敗提醒設定：** 展開區塊，於「設定天數」填入間隔天數，點擊 **「送出」**。同一張付款失敗訂單最多 **寄發三次** 提醒[^set-rule]。
 
     ![訂單付款失敗提醒設定](../../../assets/images/ec-order-settings-payment-reminder-failed.png){ title="訂單付款失敗提醒設定" }
 
 [^reminder-rule]: 例：設定為 3 天，1 月 1 號的訂單會在 1 月的 4 號、7 號、10 號寄發。若顧客中途完成付款，提醒會自動停止。
+
+[^set-rule]: 填入 0 代表不啟用付款失敗提醒。
+
 
 ---
 
