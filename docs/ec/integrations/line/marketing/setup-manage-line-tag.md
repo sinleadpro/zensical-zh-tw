@@ -2,7 +2,7 @@
 title: 設定與管理 LINE Tag
 description: 設定 LINE Tag ID，並追蹤 LINE OA 訊息推播或 LINE LAP 廣告帶來的轉換成效。
 created: 2026-03-10 15:13
-last_modified: 2026-07-02 10:19
+last_modified: 2026-07-14 17:10
 lang: zh-TW
 type: tutorial
 status: ""
@@ -88,6 +88,9 @@ LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，�
 
 - [x] 設定前請務必先建立好 LINE OA 官方帳號。
 - [x] 若您的瀏覽器有安裝 **AdBlock（廣告攔截器）**，設定或檢查時請先將其關閉，以免干擾數據追蹤。
+- [x] 操作人員需具備 **管理中心 > 網站權限** 的 **設置** 權限，方可進行串接設定。 
+
+    [修改管理者權限](../../../website-management/add-admin-set-permissions/#管理者權限設定與修改){ data-preview }
 
 
 ## 取得與設定 LINE Tag ID
