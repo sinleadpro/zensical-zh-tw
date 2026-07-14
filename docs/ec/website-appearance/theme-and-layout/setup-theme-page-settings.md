@@ -2,7 +2,7 @@
 title: 各頁面設定指南
 description: 依頁面類型說明拖拉版型的各項設定，包含首頁區塊、商品頁面、部落格、客服頁等。
 created:
-last_modified: 2026-07-14 17:08
+last_modified: 2026-07-14 16:59
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings
 type: tutorial
@@ -632,7 +632,7 @@ comments: false
 
 3. 點擊 **商品設定** 下拉選單，設定以下項目：
 
-    - **選擇商品**：挑選要顯示的商品。
+    - **選擇商品**：點擊 **新增商品** 挑選要顯示的商品。
     - **商品圖片位置**：選擇圖片置於左側或右側。
 
     ![商品設定](../../../assets/images/ec-website-appearance-flagship-product-settings.png)
@@ -674,10 +674,32 @@ comments: false
 可展開／收合的內容區塊，適合 FAQ 或購物須知。
 
 1. 新增「折疊內容」區塊。
-2. 填寫 **標題**，設定背景／容器／邊框／文字顏色、內外邊距。
+2. 點擊 **其他版面設計**，設定以下項目：
+
+    - **標題**：輸入區塊標題（預設「折疊內容」），輸入後按 Enter 套用。
+    - **顏色**：點擊色塊設定背景、項目底色、項目外框、文字與圖示顏色。
+
+    ![其他版面設計](../../../assets/images/ec-website-appearance-collapsible-layout.png)
+
+    === "電腦版"
+
+        - **版面左右內邊距**：輸入後按 Enter 套用（預設 160px）。
+        - **版面上下內邊距**：同上（預設 48px）。
+        - **版面底部外邊距**：與下方區塊的距離（預設 30px）。
+
+        ![折疊內容-電腦版-版面邊距](../../../assets/images/ec-website-appearance-collapsible-margins-desktop.png)
+
+    === "平板版、手機版"
+
+        - **版面左右內邊距**：輸入後按 Enter 套用（預設 16px）。
+        - **版面上下內邊距**：同上（預設 24px）。
+        - **版面底部外邊距**：與下方區塊的距離（預設 10px）。
+
+        ![折疊內容-平板手機版-版面邊距](../../../assets/images/ec-website-appearance-collapsible-margins-mobile.png)
+
 3. 在 **折疊項目** 小區塊中，編輯項目標題、標題圖示、內容（進階文字編輯器）。
 
-![折疊內容區塊設定](../../../assets/images/ec-website-appearance-collapsible.png)
+    ![折疊內容區塊設定](../../../assets/images/ec-website-appearance-collapsible.png)
 
 ---
 
@@ -691,14 +713,53 @@ comments: false
 
     主要控管商品在前台呈現的庫存狀態、價格標籤顯示邏輯以及購買行為。
 
-    1. 設定是否 **顯示商品價格(SKU)**。
-    2. 啟用 **會員專屬價格標籤**：商品設定會員專屬價格時，未登入會員或訪客瀏覽時會在價格旁顯示此標籤。
-    3. 勾選 **商品價格標籤**：可顯示「優惠售價」或「建議售價」文字。
-    4. 設定 **多款式價格** 顯示方式。
-    5. 選擇 **無庫存狀態** 時款式按鈕的行為（不可點選／可點選並顯示聯絡店家）。
-    6. 勾選 **顯示優惠活動區**。
+    - 設定是否 **顯示商品價格(SKU)**。
 
-    ![商品頁面-基本設定](../../../assets/images/ec-網站外觀-拖拉版型-商品頁面-基本設定.png)
+        ![商品編號SKU設定](../../../assets/images/ec-product-page-basic-sku.png)
+
+    - 啟用 **會員專屬價格標籤**：商品設定會員專屬價格時，未登入會員或訪客瀏覽時會在價格旁顯示此標籤。啟用後可設定以下項目：
+
+        - **說明標籤**：輸入標籤顯示文字，輸入後按 Enter 套用。
+        - **說明標籤連結**：輸入網址後按 Enter 套用，點擊標籤可跳轉至指定頁面。
+
+        ![會員專屬價格標籤設定](../../../assets/images/ec-product-page-basic-member-price.png)
+
+    - 勾選 **商品價格標籤**：可顯示「優惠售價」或「建議售價」文字。
+
+        === "優惠售價"
+
+            ![優惠售價](../../../assets/images/ec-product-page-price-label-sale.png)
+
+        === "建議售價"
+
+            ![建議售價](../../../assets/images/ec-product-page-price-label-retail.png)
+
+    - **商品款式設定**：
+
+        - 勾選 **預設點選商品款式第一個**。
+
+            ![預設點選商品款式第一個](../../../assets/images/ec-product-page-basic-variant-default.png)
+
+        - 無庫存時樣式行為：
+
+            === "款式不可點選"
+
+                ![款式不可點選](../../../assets/images/ec-product-page-basic-variant-disabled.png)
+
+            === "款式可點選"
+
+                ![款式可點選](../../../assets/images/ec-product-page-basic-variant-contact.png)
+
+    - **其他設定**：
+
+        - **顯示商品廠商**：勾選後在前台顯示商品廠商名稱。
+        - **顯示優惠活動區**：勾選後顯示優惠活動區塊。
+
+            ![顯示優惠活動區](../../../assets/images/ec-product-page-basic-promo-area.png)
+
+        - **顯示商品庫存**：勾選後在前台顯示商品庫存數量。
+
+            ![顯示商品庫存](../../../assets/images/ec-product-page-basic-stock.png)
 
 === "商品介紹"
 
