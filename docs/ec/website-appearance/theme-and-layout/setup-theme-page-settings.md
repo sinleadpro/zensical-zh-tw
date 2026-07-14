@@ -2,7 +2,7 @@
 title: 各頁面設定指南
 description: 依頁面類型說明拖拉版型的各項設定，包含首頁區塊、商品頁面、部落格、客服頁等。
 created:
-last_modified: 2026-07-09 11:03
+last_modified: 2026-07-14 16:59
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings
 type: tutorial
@@ -195,9 +195,9 @@ comments: false
 
     - **內容位置**：控制標題／內文／按鈕在圖片上的對齊方式，可選 **置左（預設）／置中／置右**。
 
-        <!-- === "置左" -->
-        <!---->
-        <!--     ![輪播素材-內容位置-置左](../../../assets/images/ec-slider-left-align.png){ title="輪播素材內容位置-置左" } -->
+        === "置左"
+
+            ![輪播素材-內容位置-置左](../../../assets/images/ec-slider-left-align.png){ title="輪播素材內容位置-置左" }
 
         === "置中"
 
@@ -216,7 +216,7 @@ comments: false
         ??? info "按鈕連結可連往哪裡"
             按鈕連結為下拉選單，先選目的地類型再指定目標：商店首頁、全部商品、指定商品、商品群組（自訂／條件分類、任選折扣）、部落格、其它頁面、查詢頁面、客服表單，或選 **外部連結** 貼上站外網址。
 
-            !!! warning-clean "使用前提"
+            !!! warning "使用前提"
                 商品多層級分類、紅配綠組合優惠活動、紅利商城等選項，需先開通對應功能才會出現在下拉選單中。
 
     - **文字顏色**：分別設定四個元素的顏色（點色塊選色）。
@@ -232,9 +232,9 @@ comments: false
 1. 新增「橫幅廣告」區塊。 
 2. 上傳 **電腦版（建議寬 1920px）／平板版（960px）／手機版（480px）** 圖片，單張不超過 1MB，支援 JPG／PNG／JPEG／GIF。**僅上傳電腦版時，平板與手機會自動沿用同一張。** 
 
-    <!-- === "電腦版" -->
-    <!---->
-    <!--     ![橫幅廣告-電腦版-設定圖片](../../../assets/images/ec-banner-image-desktop.png){ title="電腦版-上傳圖片" } -->
+    === "電腦版"
+
+        ![橫幅廣告-電腦版-設定圖片](../../../assets/images/ec-banner-image-desktop.png){ title="電腦版-上傳圖片" }
 
     === "平板版"
 
@@ -415,11 +415,12 @@ comments: false
 === "商品" 
 
     1. 點擊「選擇商品」找出商品（僅能選單一商品）。 
+
+        ![自訂排版設計 - 選擇商品](../../../assets/images/ec-website-appearance-custom-blocks-product-select.png) 
+
     2. 設定 **電腦版商品分類樣式** 及 **版面螢幕占比**。 
 
-    ![自訂排版設計 - 選擇商品](../../../assets/images/ec-website-appearance-custom-blocks-product-select.png) 
-
-    ![自訂排版設計 - 分類樣式與版面占比](../../../assets/images/ec-website-appearance-custom-blocks-product-layout.png) 
+        ![自訂排版設計 - 分類樣式與版面占比](../../../assets/images/ec-website-appearance-custom-blocks-product-layout.png) 
 
 !!! tip "設計模組的版面比例" 
     透過「**版面螢幕占比**」控制每個小區塊的寬度，讓多個小區塊在同一橫列並排。每列總占比上限 100%，超過即自動換行。 
@@ -507,11 +508,61 @@ comments: false
 圖片搭配文字與按鈕的介紹區塊。
 
 1. 新增「圖文介紹」區塊。
-2. 設定文字排版、文字色／背景色。
-3. 上傳電腦／平板／手機版圖片，選擇圖片位置與電腦版版面占比。
+2. 點擊 **其他版面設計**，設定以下項目：
+
+    - **文字排版**：選擇文字對齊方式（靠左／置中／靠右）。
+    - **文字**：設定文字顏色（點色塊選色）。
+    - **背景**：設定區塊背景顏色。
+
+    ![其他版面設計](../../../assets/images/ec-website-appearance-graphic-intro-layout.png)
+
+    === "電腦版"
+
+        - **版面左右外邊距**：設 0px 即滿版（預設 0px），輸入後按 Enter 套用。
+        - **版面底部外邊距**：與下方區塊的距離（預設 0px）。
+
+        ![電腦版-版面邊距](../../../assets/images/ec-website-appearance-graphic-intro-margins-desktop.png)
+
+    === "平板版、手機版"
+
+        - **版面左右外邊距**：同電腦版（預設 0px）。
+        - **版面底部外邊距**：同電腦版（預設 0px）。
+
+        ![平板手機版-版面邊距](../../../assets/images/ec-website-appearance-graphic-intro-margins-mobile.png)
+
+3. 點擊 **圖片設計**，上傳電腦版（建議寬 1920px）／平板版（960px）／手機版（480px）圖片。**僅上傳電腦版時，平板與手機會自動沿用同一張。**
+
+    - **圖片位置**：選擇圖片置於區塊的左側或右側。
+    - **圖片替代文字**：輸入圖片描述（有助 SEO），輸入後按 Enter 套用。
+    - **電腦版版面占比**：控制圖片在區塊中的寬度比例。
+
+      ![圖片設計設定](../../../assets/images/ec-website-appearance-graphic-intro-settings.png)
+
 4. 在 **小區塊** 中編輯標題（可設字級）、內文（可設字級）、按鈕（文字、底色／文字色、連結）。
 
-![圖文介紹區塊設定](../../../assets/images/ec-website-appearance-graphic-intro.png)
+    ![小區塊設定](../../../assets/images/ec-website-appearance-graphic-intro-block.png)
+
+    === "標題"
+
+        ![標題設定](../../../assets/images/ec-website-appearance-graphic-intro-title.png)
+
+    === "內文"
+
+        ![內文設定](../../../assets/images/ec-website-appearance-graphic-intro-content.png)
+
+    === "按鈕"
+
+        - **按鈕文字**：輸入按鈕顯示文字（預設「了解更多」），輸入後按 Enter 套用。可點擊色塊設定按鈕 **底色** 與 **文字色**。
+        - **按鈕連結**：下拉選單選擇連結目標，可勾選 **在新分頁開啟連結**。
+
+        ![按鈕設定](../../../assets/images/ec-website-appearance-graphic-intro-button.png)
+
+        ??? info "按鈕連結可連往哪裡"
+            按鈕連結為下拉選單，先選目的地類型再指定目標：商店首頁、全部商品、指定商品、商品群組（自訂／條件分類、任選折扣）、部落格、其它頁面、查詢頁面、客服表單，或選 **外部連結** 貼上站外網址。
+
+            !!! warning "使用前提"
+                商品多層級分類、紅配綠組合優惠活動、紅利商城等選項，需先開通對應功能才會出現在下拉選單中。
+
 
 ---
 
@@ -563,11 +614,58 @@ comments: false
 聚焦呈現單一商品並提供購買操作。
 
 1. 新增「主打商品」區塊。
-2. 點擊 **選擇商品** 挑選要顯示的商品。
-3. 選擇商品圖片位置。
+2. 點擊 **其他版面設計**，調整版面邊距。
+
+    === "電腦版"
+
+        - **版面左右外邊距**：設 0px 即滿版（預設 80px），輸入後按 Enter 套用。
+        - **版面底部外邊距**：與下方區塊的距離（預設 50px）。
+
+        ![主打商品-電腦版-版面邊距](../../../assets/images/ec-website-appearance-flagship-margins-desktop.png)
+
+    === "平板版、手機版"
+
+        - **版面左右外邊距**：同電腦版（預設 16px）。
+        - **版面底部外邊距**：同電腦版（預設 24px）。
+
+        ![主打商品-平板手機版-版面邊距](../../../assets/images/ec-website-appearance-flagship-margins-mobile.png)
+
+3. 點擊 **商品設定** 下拉選單，設定以下項目：
+
+    - **選擇商品**：點擊 **新增商品** 挑選要顯示的商品。
+    - **商品圖片位置**：選擇圖片置於左側或右側。
+
+    ![商品設定](../../../assets/images/ec-website-appearance-flagship-product-settings.png)
+
 4. 在 **小區塊** 中設定商品標題（字級、可帶商品連結）、文字、購買按鈕、價格、款式選單、數量選擇器。
 
-![主打商品區塊設定](../../../assets/images/ec-website-appearance-flagship-product.png)
+    ![小區塊設定](../../../assets/images/ec-website-appearance-flagship-block.png)
+
+    === "商品標題"
+
+        - **字級**：設定標題字級大小（預設 24px）。
+        - **帶入商品連結**：勾選後標題將連結至商品頁面（預設開啟）。
+        - **新分頁開啟商品連結**：勾選後在新分頁開啟（預設開啟）。
+
+        ![商品標題](../../../assets/images/ec-website-appearance-flagship-title.png)
+
+    === "價格"
+
+        ![價格](../../../assets/images/ec-website-appearance-flagship-price.png)
+
+    === "款式選單"
+
+        ![款式選單](../../../assets/images/ec-website-appearance-flagship-variant.png)
+
+    === "數量選擇器"
+
+        ![數量選擇器](../../../assets/images/ec-website-appearance-flagship-quantity.png)
+
+    === "購買按鈕"
+
+        - **顯示立即購買按鈕**：勾選後顯示購買按鈕（預設開啟）。
+
+        ![購買按鈕](../../../assets/images/ec-website-appearance-flagship-buy-button.png)
 
 ---
 
@@ -576,10 +674,32 @@ comments: false
 可展開／收合的內容區塊，適合 FAQ 或購物須知。
 
 1. 新增「折疊內容」區塊。
-2. 填寫 **標題**，設定背景／容器／邊框／文字顏色、內外邊距。
+2. 點擊 **其他版面設計**，設定以下項目：
+
+    - **標題**：輸入區塊標題（預設「折疊內容」），輸入後按 Enter 套用。
+    - **顏色**：點擊色塊設定背景、項目底色、項目外框、文字與圖示顏色。
+
+    ![其他版面設計](../../../assets/images/ec-website-appearance-collapsible-layout.png)
+
+    === "電腦版"
+
+        - **版面左右內邊距**：輸入後按 Enter 套用（預設 160px）。
+        - **版面上下內邊距**：同上（預設 48px）。
+        - **版面底部外邊距**：與下方區塊的距離（預設 30px）。
+
+        ![折疊內容-電腦版-版面邊距](../../../assets/images/ec-website-appearance-collapsible-margins-desktop.png)
+
+    === "平板版、手機版"
+
+        - **版面左右內邊距**：輸入後按 Enter 套用（預設 16px）。
+        - **版面上下內邊距**：同上（預設 24px）。
+        - **版面底部外邊距**：與下方區塊的距離（預設 10px）。
+
+        ![折疊內容-平板手機版-版面邊距](../../../assets/images/ec-website-appearance-collapsible-margins-mobile.png)
+
 3. 在 **折疊項目** 小區塊中，編輯項目標題、標題圖示、內容（進階文字編輯器）。
 
-![折疊內容區塊設定](../../../assets/images/ec-website-appearance-collapsible.png)
+    ![折疊內容區塊設定](../../../assets/images/ec-website-appearance-collapsible.png)
 
 ---
 
@@ -593,14 +713,53 @@ comments: false
 
     主要控管商品在前台呈現的庫存狀態、價格標籤顯示邏輯以及購買行為。
 
-    1. 設定是否 **顯示商品價格(SKU)**。
-    2. 啟用 **會員專屬價格標籤**：商品設定會員專屬價格時，未登入會員或訪客瀏覽時會在價格旁顯示此標籤。
-    3. 勾選 **商品價格標籤**：可顯示「優惠售價」或「建議售價」文字。
-    4. 設定 **多款式價格** 顯示方式。
-    5. 選擇 **無庫存狀態** 時款式按鈕的行為（不可點選／可點選並顯示聯絡店家）。
-    6. 勾選 **顯示優惠活動區**。
+    - 設定是否 **顯示商品價格(SKU)**。
 
-    ![商品頁面-基本設定](../../../assets/images/ec-網站外觀-拖拉版型-商品頁面-基本設定.png)
+        ![商品編號SKU設定](../../../assets/images/ec-product-page-basic-sku.png)
+
+    - 啟用 **會員專屬價格標籤**：商品設定會員專屬價格時，未登入會員或訪客瀏覽時會在價格旁顯示此標籤。啟用後可設定以下項目：
+
+        - **說明標籤**：輸入標籤顯示文字，輸入後按 Enter 套用。
+        - **說明標籤連結**：輸入網址後按 Enter 套用，點擊標籤可跳轉至指定頁面。
+
+        ![會員專屬價格標籤設定](../../../assets/images/ec-product-page-basic-member-price.png)
+
+    - 勾選 **商品價格標籤**：可顯示「優惠售價」或「建議售價」文字。
+
+        === "優惠售價"
+
+            ![優惠售價](../../../assets/images/ec-product-page-price-label-sale.png)
+
+        === "建議售價"
+
+            ![建議售價](../../../assets/images/ec-product-page-price-label-retail.png)
+
+    - **商品款式設定**：
+
+        - 勾選 **預設點選商品款式第一個**。
+
+            ![預設點選商品款式第一個](../../../assets/images/ec-product-page-basic-variant-default.png)
+
+        - 無庫存時樣式行為：
+
+            === "款式不可點選"
+
+                ![款式不可點選](../../../assets/images/ec-product-page-basic-variant-disabled.png)
+
+            === "款式可點選"
+
+                ![款式可點選](../../../assets/images/ec-product-page-basic-variant-contact.png)
+
+    - **其他設定**：
+
+        - **顯示商品廠商**：勾選後在前台顯示商品廠商名稱。
+        - **顯示優惠活動區**：勾選後顯示優惠活動區塊。
+
+            ![顯示優惠活動區](../../../assets/images/ec-product-page-basic-promo-area.png)
+
+        - **顯示商品庫存**：勾選後在前台顯示商品庫存數量。
+
+            ![顯示商品庫存](../../../assets/images/ec-product-page-basic-stock.png)
 
 === "商品介紹"
 
