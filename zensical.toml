@@ -309,6 +309,7 @@ copyright = """
                 { "互動遊戲" = "ec/marketing/other-tools/interactive-games.md" },
                 { "定期訂購活動頁" = "ec/marketing/other-tools/subscription-campaign-page.md" },
             ] },
+            { "免運費" = "ec/marketing/free-shipping-settings.md" },
             { "參考資料" = [
                 { "帳號狀態與購買權限對照表" = "ec/marketing/references/purchase-limit-account-status.md" }
             ] }

@@ -2,7 +2,7 @@
 title: 設定結帳自動拆分多購物車
 description: 依據商品的通路、溫層、物流及預購屬性設定拆單規則，讓系統在結帳時自動將商品分配至多個購物車。
 created: 2026-03-05 15:00
-last_modified: 2026-07-15 11:26
+last_modified: 2026-07-15 13:58
 lang: zh-TW
 type: tutorial
 status:
