@@ -275,4 +275,12 @@ hide:
 
     [:octicons-arrow-right-24: 前往](discounts/checkout-discount-calculation-order.md)
 
+-   :lucide-truck: __免運費設定__
+
+    ---
+
+    透過全館門檻、指定商品等多種方式，設定符合行銷策略的免運優惠，提升顧客下單意願與客單價。
+
+    [:octicons-arrow-right-24: 前往](free-shipping-settings.md)
+
 </div>

@@ -50,6 +50,7 @@
 - [商品管理 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/products/): 輕鬆管理商品資訊、分類與庫存，提升上架效率。
 - [電子票券 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/e-ticket/): 電子票券功能設定與管理。
 - [行銷推廣 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/marketing/): 提升商店曝光與銷售，管理行銷活動、優惠策略與顧客互動。
+- [免運費設定 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/marketing/free-shipping-settings/): 透過全館門檻、指定商品、免運券與 VIP 專屬免運等多種方式，設定符合行銷策略的免運優惠，提升顧客下單意願與客單價。
 - [訊息推播 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/notifications/): 管理 EDM 電子報、簡訊與 LINE 通知等訊息推播設定。
 - [付款金流 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/payments-and-logistics/): 管理支付方式、金流設定與訂單收款，確保交易安全與順暢。
 - [購物車相關設定 - CYBERBIZ DOCS](https://help.cyberbiz.io/ec/payments-and-logistics/cart-settings/): 調整顧客在正式結帳前的購物車行為，包含購物車啟用、未結帳提醒、優惠券設定、額外資訊欄位與定期定額購物車設定。
