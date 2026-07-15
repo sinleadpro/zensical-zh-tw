@@ -775,6 +775,7 @@ copyright = """
             { "人員登入" = "pos/store/staff-login.md" },
         ]},
         { "報表分析" = [
+            { "庫存管理" = "pos/inventory/pos-reports-list-guide.md" },
             { "營收分析" = "pos/business-intelligence/pos-revenue-analysis.md" },
             { "商品分析" = "pos/business-intelligence/pos-product-analysis.md" },
             { "參考資料" = [
