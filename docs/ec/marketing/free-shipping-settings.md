@@ -2,7 +2,7 @@
 title: 免運費設定
 description: 透過全館門檻、指定商品等多種方式，設定符合行銷策略的免運優惠，提升顧客下單意願與客單價。
 created: 2026-07-15
-last_modified: 2026-07-15 19:09
+last_modified: 2026-07-15 19:31
 lang: zh-TW
 type: tutorial
 status: ""
@@ -65,7 +65,9 @@ paths:
   - 金物流 > 宅配物流 > 串接物流
   - 商品 > 編輯商品
 layouts: []
-wp_url: []
+wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=5139
+  - https://www.cyberbiz.io/support/?p=6257
 permalink: https://help.cyberbiz.io/ec/marketing/free-shipping-settings/
 comments: false
 search:
