@@ -2,7 +2,7 @@
 title: 設定商品配送條件（物流、溫層與出貨通路）
 description: 設定商品的配送溫層與物流，並以一般宅配與貨到付款為例，說明運費設定、商品綁定及結帳拆單行為。
 created: 2026-01-06 00:00
-last_modified: 2026-06-30 11:26
+last_modified: 2026-07-15 17:47
 lang: zh-TW
 type: tutorial
 status:
@@ -178,7 +178,7 @@ hide: []
 ## 設定商品配送方式
 
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions.md#conventions-plans){ title="圖示慣例" } | 
-高手 / PLUS / 企業
+高手 / PLUS版 / 企業
 
 您可以為個別商品設定其可使用的配送物流方式。如需了解綁定機制，請先參閱 [什麼是綁定配送條件](#配送條件綁定說明)。
 

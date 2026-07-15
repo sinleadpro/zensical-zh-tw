@@ -2,7 +2,7 @@
 title: 新增與更新商品
 description: 完成一支商品從新增、設定款式與價格、撰寫商品描述，到後續編輯、複製、上下架，以及多國語系與跨境銷售的相關設定。
 created: 2026-03-08 17:15
-last_modified: 2026-07-15 11:38
+last_modified: 2026-07-15 15:15
 lang: zh-TW
 type: tutorial
 status: ""
@@ -273,23 +273,33 @@ hide: []
 
 ![商品進階設定](../../../assets/images/ec-product-settings.zh-tw.png){ title="商品進階設定" }
 
-- **商品類型 / 商品通路 / 商品廠商：** 用於後台分類與管理。此三項新增後無法刪除或改名，請謹慎命名。
+=== "商品類型 / 商品通路 / 商品廠商"
+
+    用於後台分類與管理。此三項新增後無法刪除或改名，請謹慎命名。
 
     ![商品類型通路廠商設定](../../../assets/images/ec-product-settings-type-channel-vendor.png){ title="商品類型通路廠商設定" }
 
-- **標籤：** 為商品加上標籤，方便後台管理與前台分類。
+=== "標籤"
+
+    為商品加上標籤，方便後台管理與前台分類。
 
     ![商品標籤設定](../../../assets/images/ec-product-settings-tags.png){ title="商品標籤設定" }
 
-- **運送溫層與物流配送：** 設定常溫、冷藏或冷凍，並勾選此商品可使用的物流[^temperature]。
+=== "運送溫層與物流配送"
+
+    設定常溫、冷藏或冷凍，並勾選此商品可使用的物流[^temperature]。
 
     ![商品運送溫層設定](../../../assets/images/ec-product-settings-temperature-zone.png){ title="商品運送溫層設定" }
 
-- **SEO 設定：** 依商品特性填寫，有助於提升搜尋引擎排名。
+=== "SEO 設定"
+
+    依商品特性填寫，有助於提升搜尋引擎排名。
 
     ![商品SEO設定](../../../assets/images/ec-product-settings-seo.png){ title="商品SEO設定" }
 
-- **商品關聯群組：** 選擇既有的 [**商品自訂分類**](../categories-and-tags/custom-collections.md){ title="設定商品自訂分類群組" } 或 [**商品條件分類**](../categories-and-tags/smart-collections.md){ title="設定商品條件分類群組" }，設定後該群組商品會顯示在商品頁下方的 [**相關商品區**](../../website-appearance/theme-and-layout/setup-theme-page-settings.md#相關商品){ title="設定相關商品顯示" }。
+=== "商品關聯群組"
+
+    選擇既有的 [**商品自訂分類**](../categories-and-tags/custom-collections.md){ title="設定商品自訂分類群組" } 或 [**商品條件分類**](../categories-and-tags/smart-collections.md){ title="設定商品條件分類群組" }，設定後該群組商品會顯示在商品頁下方的 [**相關商品區**](../../website-appearance/theme-and-layout/setup-theme-page-settings.md#相關商品){ title="設定相關商品顯示" }。
 
     ![商品關聯群組設定](../../../assets/images/ec-product-settings-related-products.png){ title="商品關聯群組設定" }
 
