@@ -2,7 +2,7 @@
 title: 新增與更新商品
 description: 完成一支商品從新增、設定款式與價格、撰寫商品描述，到後續編輯、複製、上下架，以及多國語系與跨境銷售的相關設定。
 created: 2026-03-08 17:15
-last_modified: 2026-07-15 13:55
+last_modified: 2026-07-15 11:38
 lang: zh-TW
 type: tutorial
 status: ""
@@ -274,14 +274,17 @@ hide: []
 ![商品進階設定](../../../assets/images/ec-product-settings.zh-tw.png){ title="商品進階設定" }
 
 - **商品類型 / 商品通路 / 商品廠商：** 用於後台分類與管理。此三項新增後無法刪除或改名，請謹慎命名。
-- **標籤：** 為商品加上標籤，方便後台管理與前台分類。
-- **出貨方式：** 選擇 **自行出貨** 或已啟用的倉儲物流[^warehouse]。
 
-    ![商品出貨方式設定](../../../assets/images/ec-product-settings-shipping-method.png){ title="商品出貨方式設定" }
+    ![商品類型通路廠商設定](../../../assets/images/ec-product-settings-type-channel-vendor.png){ title="商品類型通路廠商設定" }
+
+- **標籤：** 為商品加上標籤，方便後台管理與前台分類。
+
+    ![商品標籤設定](../../../assets/images/ec-product-settings-tags.png){ title="商品標籤設定" }
 
 - **運送溫層與物流配送：** 設定常溫、冷藏或冷凍，並勾選此商品可使用的物流[^temperature]。
 
     ![商品運送溫層設定](../../../assets/images/ec-product-settings-temperature-zone.png){ title="商品運送溫層設定" }
+
 - **SEO 設定：** 依商品特性填寫，有助於提升搜尋引擎排名。
 
     ![商品SEO設定](../../../assets/images/ec-product-settings-seo.png){ title="商品SEO設定" }
@@ -290,8 +293,6 @@ hide: []
 
     ![商品關聯群組設定](../../../assets/images/ec-product-settings-related-products.png){ title="商品關聯群組設定" }
 
-
-[^warehouse]: 可選的出貨倉庫依已啟用的物流功能動態顯示，詳見 [出貨方式對照表](../references/product-warehouse.md){ title="出貨方式對照表" }。
 [^temperature]: 各溫層意義詳見 [運送溫層對照表](../references/product-temperature.md){ title="運送溫層對照表" }。
 
 ---
