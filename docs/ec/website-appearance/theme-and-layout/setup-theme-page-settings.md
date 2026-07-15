@@ -2,7 +2,7 @@
 title: 各頁面設定指南
 description: 依頁面類型說明拖拉版型的各項設定，包含首頁區塊、商品頁面、部落格、客服頁等。
 created:
-last_modified: 2026-07-14 16:59
+last_modified: 2026-07-15 10:40
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings
 type: tutorial
@@ -111,7 +111,7 @@ comments: false
 
 ### 首頁 { #homepage }
 
-首頁可新增以下 13 種區塊。多數區塊的設定面板會提供一個 **其他版面設定** 展開面板，裡面除了各區塊的特有項目外，都包含一組共通的 **版面邊距**（單位 px），以下各區塊章節 **只列出其特有設定**，共通的版面邊距不再重複說明。
+首頁可新增以下 13 種區塊。多數區塊的設定面板會提供一個 **其他版面設定** 展開面板，裡面除了各區塊的特有項目外，都包含一組共通的 **版面邊距**（單位 px），以下各區塊章節 **列出其特有設定**。
 
 ??? info "版面邊距設定"
 
@@ -380,50 +380,50 @@ comments: false
 
     ![自訂排版設計-新增小區塊](../../../assets/images/ec-website-appearance-custom-blocks-add-block.png){ title="新增小區塊" }
 
-=== "圖片" 
+    === "圖片" 
 
-    1. 上傳電腦／平板／手機版圖片（僅傳電腦版時自動沿用）。 
-    2. 填寫 **圖片標題、圖片說明（進階文字）、圖片連結（可新分頁開啟）、圖片替代文字**。 
-    3. 設定 **版面螢幕占比**。 
+        1. 上傳電腦／平板／手機版圖片（僅傳電腦版時自動沿用）。 
+        2. 填寫 **圖片標題、圖片說明（進階文字）、圖片連結（可新分頁開啟）、圖片替代文字**。 
+        3. 設定 **版面螢幕占比**。 
 
-    ![自訂排版設計 - 圖片](../../../assets/images/ec-website-appearance-custom-blocks-image.png) 
+        ![自訂排版設計 - 圖片](../../../assets/images/ec-website-appearance-custom-blocks-image.png) 
 
-=== "影片" 
+    === "影片" 
 
-    1. 貼入 **影片連結**。 
-    2. 設定 **自動播放／隱藏外框／重複播放**（重複播放預設開啟）。 
-    3. 設定 **版面螢幕占比**。 
+        1. 貼入 **影片連結**。 
+        2. 設定 **自動播放／隱藏外框／重複播放**（重複播放預設開啟）。 
+        3. 設定 **版面螢幕占比**。 
 
-    ![自訂排版設計 - 影片](../../../assets/images/ec-website-appearance-custom-blocks-video.png) 
+        ![自訂排版設計 - 影片](../../../assets/images/ec-website-appearance-custom-blocks-video.png) 
 
-=== "排程跑馬燈" 
+    === "排程跑馬燈" 
 
-    1. 載入預先製作好的 **跑馬燈群組**。 
-    2. 設定 **版面螢幕占比**。 
-    3. 詳見 [排程跑馬燈設定指南](configure-scheduled-carousels.md){ title="建立與管理排程跑馬燈" }。 
+        1. 載入預先製作好的 **跑馬燈群組**。 
+        2. 設定 **版面螢幕占比**。 
+        3. 詳見 [排程跑馬燈設定指南](configure-scheduled-carousels.md){ title="建立與管理排程跑馬燈" }。 
 
-    ![自訂排版設計 - 排程跑馬燈](../../../assets/images/ec-website-appearance-custom-blocks-carousel.png) 
+        ![自訂排版設計 - 排程跑馬燈](../../../assets/images/ec-website-appearance-custom-blocks-carousel.png) 
 
-=== "自訂 HTML" 
+    === "自訂 HTML" 
 
-    1. 點擊「編輯」進入 HTML 編輯頁面。 
-    2. 貼入自訂 HTML／CSS 程式碼。 
-    3. 設定 **版面螢幕占比**。 
+        1. 點擊「編輯」進入 HTML 編輯頁面。 
+        2. 貼入自訂 HTML／CSS 程式碼。 
+        3. 設定 **版面螢幕占比**。 
 
-    ![自訂排版設計 - 自訂 HTML](../../../assets/images/ec-website-appearance-custom-blocks-html.png) 
+        ![自訂排版設計 - 自訂 HTML](../../../assets/images/ec-website-appearance-custom-blocks-html.png) 
 
-=== "商品" 
+    === "商品" 
 
-    1. 點擊「選擇商品」找出商品（僅能選單一商品）。 
+        1. 點擊「選擇商品」找出商品（僅能選單一商品）。 
 
-        ![自訂排版設計 - 選擇商品](../../../assets/images/ec-website-appearance-custom-blocks-product-select.png) 
+            ![自訂排版設計 - 選擇商品](../../../assets/images/ec-website-appearance-custom-blocks-product-select.png) 
 
-    2. 設定 **電腦版商品分類樣式** 及 **版面螢幕占比**。 
+        2. 設定 **電腦版商品分類樣式** 及 **版面螢幕占比**。 
 
-        ![自訂排版設計 - 分類樣式與版面占比](../../../assets/images/ec-website-appearance-custom-blocks-product-layout.png) 
+            ![自訂排版設計 - 分類樣式與版面占比](../../../assets/images/ec-website-appearance-custom-blocks-product-layout.png) 
 
-!!! tip "設計模組的版面比例" 
-    透過「**版面螢幕占比**」控制每個小區塊的寬度，讓多個小區塊在同一橫列並排。每列總占比上限 100%，超過即自動換行。 
+    !!! tip "設計模組的版面比例" 
+        透過「**版面螢幕占比**」控制每個小區塊的寬度，讓多個小區塊在同一橫列並排。每列總占比上限 100%，超過即自動換行。 
 
 
 <!---->
@@ -518,15 +518,15 @@ comments: false
 
     === "電腦版"
 
-        - **版面左右外邊距**：設 0px 即滿版（預設 0px），輸入後按 Enter 套用。
-        - **版面底部外邊距**：與下方區塊的距離（預設 0px）。
+        - **版面左右外邊距**：設 0px 即滿版，輸入後按 Enter 套用。
+        - **版面底部外邊距**：與下方區塊的距離。
 
         ![電腦版-版面邊距](../../../assets/images/ec-website-appearance-graphic-intro-margins-desktop.png)
 
     === "平板版、手機版"
 
-        - **版面左右外邊距**：同電腦版（預設 0px）。
-        - **版面底部外邊距**：同電腦版（預設 0px）。
+        - **版面左右外邊距**：同電腦版。
+        - **版面底部外邊距**：同電腦版。
 
         ![平板手機版-版面邊距](../../../assets/images/ec-website-appearance-graphic-intro-margins-mobile.png)
 
@@ -562,7 +562,6 @@ comments: false
 
             !!! warning "使用前提"
                 商品多層級分類、紅配綠組合優惠活動、紅利商城等選項，需先開通對應功能才會出現在下拉選單中。
-
 
 ---
 
@@ -618,15 +617,15 @@ comments: false
 
     === "電腦版"
 
-        - **版面左右外邊距**：設 0px 即滿版（預設 80px），輸入後按 Enter 套用。
-        - **版面底部外邊距**：與下方區塊的距離（預設 50px）。
+        - **版面左右外邊距**：設 0px 即滿版，輸入後按 Enter 套用。
+        - **版面底部外邊距**：與下方區塊的距離。
 
         ![主打商品-電腦版-版面邊距](../../../assets/images/ec-website-appearance-flagship-margins-desktop.png)
 
     === "平板版、手機版"
 
-        - **版面左右外邊距**：同電腦版（預設 16px）。
-        - **版面底部外邊距**：同電腦版（預設 24px）。
+        - **版面左右外邊距**：同電腦版。
+        - **版面底部外邊距**：同電腦版。
 
         ![主打商品-平板手機版-版面邊距](../../../assets/images/ec-website-appearance-flagship-margins-mobile.png)
 
@@ -753,6 +752,9 @@ comments: false
     - **其他設定**：
 
         - **顯示商品廠商**：勾選後在前台顯示商品廠商名稱。
+
+            ![顯示商品廠商](../../../assets/images/ec-product-page-basic-manufacturer.png)
+
         - **顯示優惠活動區**：勾選後顯示優惠活動區塊。
 
             ![顯示優惠活動區](../../../assets/images/ec-product-page-basic-promo-area.png)
@@ -771,14 +773,25 @@ comments: false
 
     此功能需先洽客服申請開通。開通後可設定是否需審核留言、隱藏部分姓名，並可搭配 Google reCAPTCHA 防止機器人攻擊。
 
-    - [如何管理商品評論](../../products/engagement/manage-product-reviews.md){ title="管理商品評論" }
-    - [如何啟用 reCAPTCHA](../customer-interaction/enable-comment-recaptcha.md){ title="啟用留言區 reCAPTCHA" }
+    <div class="grid cards" markdown>
+
+    - :lucide-message-square:{ .lg } [__管理商品評論__](../../products/engagement/manage-product-reviews.md){ title="管理商品評論" }
+
+    - :lucide-shield-check:{ .lg } [__啟用留言區 reCAPTCHA__](../customer-interaction/enable-comment-recaptcha.md){ title="啟用留言區 reCAPTCHA" }
+
+    </div>
 
     ![商品頁面-商品評論](../../../assets/images/ec-網站外觀-拖拉版型-商品頁面-商品評論.png)
 
 === "相關商品"
+    [](){ #相關商品 }
 
     選擇顯示「商品群組其他商品」(同分類隨機顯示)或「自訂關聯群組商品」。
+
+    - **顯示同商品群組其他商品**：隨機顯示此商品所屬商品群組的其他品項。
+    - **顯示自訂關聯群組商品**：排序顯示此商品於商品頁設定之相關群組品項（[商品關聯群組](../../products/create-and-manage/create-update-products.md#operate-product-edit-settings){ title="設定商品關聯群組" }）。
+    - **相關商品標籤文字**：輸入標籤顯示文字，輸入後按 Enter 套用。
+    - **選擇商品數量上限**：設定顯示的商品數量。
 
     ![商品頁面-相關商品](../../../assets/images/ec-網站外觀-拖拉版型-商品頁面-相關商品.png)
 
