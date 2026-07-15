@@ -86,3 +86,48 @@
 - `last_modified` 於每次編輯後更新為 `YYYY-MM-DD HH:mm`
 - `permalink` 預設為空，使用前需產生
 - frontmatter `icon` 使用 `lucide/` 或 `simple/` 前綴
+
+## Tabbed Content 與圖片慣例
+
+### 其他版面設計 pattern
+區塊設定中若有「其他版面設計」面板，應使用獨立 step 描述：
+
+```markdown
+2. 點擊 **其他版面設計**，設定以下項目：
+
+    - **文字排版**：選擇文字對齊方式（靠左／置中／靠右）。
+    - **文字**：設定文字顏色（點色塊選色）。
+    - **背景**：設定區塊背景顏色。
+
+    === "電腦版"
+
+        - **版面左右外邊距**：設 0px 即滿版（預設 0px）。
+        - **版面底部外邊距**：與下方區塊的距離（預設 0px）。
+
+        ![電腦版-版面邊距](../../../assets/images/{filename})
+
+    === "平板版、手機版"
+
+        - **版面左右外邊距**：同電腦版（預設 0px）。
+        - **版面底部外邊距**：同電腦版（預設 0px）。
+
+        ![平板手機版-版面邊距](../../../assets/images/{filename})
+```
+
+### 圖片縮排規則
+| 位置 | 縮排 |
+|------|------|
+| Tab 內圖片 | 8-space（tab 4 + content 4） |
+| Bullet list 後圖片 | 4-space（list continuation） |
+| Step 後圖片（非 nested） | 無縮排（頂層） |
+
+### Simple Grid Card
+簡單的 grid card 格式：icon 與 title 在同一行，無描述文字：
+
+```markdown
+<div class="grid cards" markdown>
+
+- :lucide-icon:{ .lg } [__Title__](link.md){ title="Title" }
+
+</div>
+```
