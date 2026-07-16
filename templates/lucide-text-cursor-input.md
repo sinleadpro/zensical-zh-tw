@@ -1,1 +1,0 @@
-:lucide-text-cursor-input:

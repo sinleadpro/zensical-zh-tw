@@ -2,7 +2,7 @@
 title: 免運費設定
 description: 透過全館門檻、指定商品等多種方式，設定符合行銷策略的免運優惠，提升顧客下單意願與客單價。
 created: 2026-07-15
-last_modified: 2026-07-15 19:31
+last_modified: 2026-07-16 08:54
 lang: zh-TW
 type: tutorial
 status: ""
@@ -228,6 +228,9 @@ hide: []
         完成匯入後，可透過以下方式確認是否設定成功（此為檢查步驟，若不需檢查即可跳過）：
 
         1. 進入商品編輯頁的 [「設定」分頁](../products/create-and-manage/create-update-products.md#運送溫層與物流配送)，確認「物流綁定狀態」是否已正確套用免運配送方式。
+
+            ![單一商品綁定免運物流](../../assets/images/ec-product-free-shipping-single-bind.png){ title="單一商品綁定免運物流" }
+
         2. 前往官網商店頁面，點選已綁定免運配送方式的商品，將商品加入購物車並進入結帳流程，確認結帳時是否顯示免運。
 
             ![前台結帳免運驗證](../../assets/images/ec-product-free-shipping-frontend-checkout.png){ title="前台結帳免運驗證" }
