@@ -1,1 +1,0 @@
-:lucide-arrow-left-from-line:

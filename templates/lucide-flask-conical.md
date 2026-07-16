@@ -1,1 +1,0 @@
-:lucide-flask-conical:

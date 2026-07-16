@@ -1,1 +1,0 @@
-:material-numeric-circle-outline:

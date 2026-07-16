@@ -1,1 +1,0 @@
-:lucide-settings-2:

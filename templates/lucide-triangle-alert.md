@@ -1,1 +1,0 @@
-:lucide-triangle-alert:
