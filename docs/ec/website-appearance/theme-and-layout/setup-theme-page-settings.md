@@ -2,7 +2,7 @@
 title: 各頁面設定指南
 description: 依頁面類型說明拖拉版型的各項設定，包含首頁區塊、商品頁面、部落格、客服頁等。
 created:
-last_modified: 2026-07-17 11:00
+last_modified: 2026-07-17 14:20
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings
 type: tutorial
@@ -783,6 +783,8 @@ comments: false
 
     此功能需先洽客服申請開通。開通後可設定是否需審核留言、隱藏部分姓名，並可搭配 Google reCAPTCHA 防止機器人攻擊。
 
+    ![商品頁面-商品評論](../../../assets/images/ec-網站外觀-拖拉版型-商品頁面-商品評論.png)
+
     <div class="grid cards" markdown>
 
     - :lucide-message-square:{ .lg } [__管理商品評論__](../../products/engagement/manage-product-reviews.md){ title="管理商品評論" }
@@ -790,8 +792,6 @@ comments: false
     - :lucide-shield-check:{ .lg } [__啟用留言區 reCAPTCHA__](../customer-interaction/enable-comment-recaptcha.md){ title="啟用留言區 reCAPTCHA" }
 
     </div>
-
-    ![商品頁面-商品評論](../../../assets/images/ec-網站外觀-拖拉版型-商品頁面-商品評論.png)
 
 === "相關商品"
     [](){ #相關商品 }
