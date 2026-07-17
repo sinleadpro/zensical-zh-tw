@@ -2,7 +2,7 @@
 title: 各頁面設定指南
 description: 依頁面類型說明拖拉版型的各項設定，包含首頁區塊、商品頁面、部落格、客服頁等。
 created:
-last_modified: 2026-07-15 15:53
+last_modified: 2026-07-17 10:30
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings
 type: tutorial
@@ -93,6 +93,16 @@ comments: false
 
 !!! note "註釋"
     下拉選單實際出現的頁面，會依您安裝的版型與已開通的功能而不同，請以編輯器內顯示的為準。
+
+!!! example "適用情境"
+    | 情境 | 適用區塊 |
+    |:-----|:---------|
+    | 在首頁放 FAQ 或常見問題 | [折疊內容](#section-collapsible) |
+    | 建立購物須知、退換貨說明 | [折疊內容](#section-collapsible) |
+    | 展示商品使用步驟或注意事項 | [折疊內容](#section-collapsible) |
+    | 首頁放活動入口大圖 | [橫幅廣告](#section-banner) |
+    | 嵌入 YouTube 影片 | [影片設定](#section-video) |
+    | 顯示商品列表 | [商品分類](#section-collection-blocks) |
 
 ## 使用前提與限制 { #prerequisites-page-settings }
 
@@ -668,9 +678,9 @@ comments: false
 
 ---
 
-#### 折疊內容 { #section-collapsible }
+#### 折疊內容 <small>FAQ / 購物須知</small> { #section-collapsible }
 
-可展開／收合的內容區塊，適合 FAQ 或購物須知。
+可展開／收合的內容區塊，是建立 **FAQ 常見問題**、購物須知、退換貨說明等功能的主要工具。
 
 1. 新增「折疊內容」區塊。
 2. 點擊 **其他版面設計**，設定以下項目：
