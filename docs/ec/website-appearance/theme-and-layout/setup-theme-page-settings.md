@@ -2,7 +2,7 @@
 title: 各頁面設定指南
 description: 依頁面類型說明拖拉版型的各項設定，包含首頁區塊、商品頁面、部落格、客服頁等。
 created:
-last_modified: 2026-07-17 10:30
+last_modified: 2026-07-17 11:00
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings
 type: tutorial
@@ -235,7 +235,7 @@ comments: false
 
 ---
 
-#### 橫幅廣告 { #section-banner } 
+#### 橫幅廣告 <small>活動入口大圖</small> { #section-banner }
 
 單張橫幅圖片，常用於活動入口。 
 
@@ -270,7 +270,7 @@ comments: false
 
 ---
 
-#### 商品分類 { #section-collection-blocks } 
+#### 商品分類 <small>商品列表展示</small> { #section-collection-blocks }
 
 從指定商品分類帶入商品的列表區塊。 
 
@@ -334,7 +334,7 @@ comments: false
 
 ---
 
-#### 影片設定 { #section-video } 
+#### 影片設定 <small>YouTube 嵌入</small> { #section-video }
 
 嵌入單支影片。 
 
@@ -896,7 +896,7 @@ comments: false
 
 ---
 
-### 客服頁 { #contact }
+### 客服頁 <small>聯絡我們表單</small> { #contact }
 
 客服頁面在前台主要以「聯絡我們」表單形式呈現，供訪客留言諮詢。
 
@@ -908,7 +908,7 @@ comments: false
 
 ---
 
-### 404 頁 { #not-found }
+### 404 頁 <small>失效連結提示</small> { #not-found }
 
 當消費者訪問到失效連結時的顯示畫面，可自訂視覺以緩解負面體驗。
 
@@ -946,7 +946,7 @@ comments: false
 
 ---
 
-### 搜尋頁 { #search }
+### 搜尋頁 <small>站內搜尋結果</small> { #search }
 
 1. 在頁面下拉選單選擇「搜尋頁」。
 2. 指定搜尋頁面左側要套用的 **選單**（需先 [建立選單](../navigation/setup-menus-navigation.md){ title="設定選單與導覽列" }）。
