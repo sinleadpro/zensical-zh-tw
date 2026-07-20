@@ -1,0 +1,65 @@
+name: Auto Translate PR Docs (TESTING)
+
+on:
+  pull_request:
+    branches:
+      # ──────────【測試替代欄位 1】──────────
+      # 測試時：設定為你的模擬 main 分支（例如 translate-main）
+      # 上線前修改：改回 - main
+      - translate-main       
+    types: [opened, synchronize]
+
+jobs:
+  translate:
+    if: startsWith(github.head_ref, 'Ann/')
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref }}
+          fetch-depth: 0 
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Dependencies
+        run: |
+          pip install google-cloud-translate beautifulsoup4 markdown
+
+      - name: Detect PR Changes and Translate
+        env:
+          # ──────────【測試替代欄位 2】──────────
+          # 測試時：指定比對的基準為遠端的 translate-main 分支
+          # 上線前修改：改回 ${{ github.base_ref }}（讓它自動抓取正式 PR 的目標分支）
+          BASE_BRANCH: "translate-main"
+        run: |
+          python .github/scripts/google_translate_changes.py
+
+      - name: Create Pull Request for Translation Review
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "docs: 🤖 [TEST] 自動精準翻譯更新段落"
+          branch: "bot/test-translate-${{ github.head_ref }}" 
+          
+          # ──────────【測試替代欄位 3】──────────
+          # 測試時：加上 [TEST] 標籤，方便你在 GitHub 上辨識
+          # 上線前修改：拿掉 [TEST] 字樣，恢復正式標題
+          title: "[TEST] 翻譯確認：${{ github.event.pull_request.title }}"
+          body: |
+            ## 這是自動翻譯【測試】通知
+            目前正在測試 `translate-main` 的局部段落翻譯流程。
+          base: ${{ github.head_ref }}
