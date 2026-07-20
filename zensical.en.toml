@@ -181,13 +181,13 @@ copyright = """
                 {"自動結案類型對照" = "ec/orders/references/order-auto-close-types-reference.md"}
             ]},
         ]},
-        { "會員" = [
-            { "overview" = "ec/members/index.md"},
-
-            { "批次匯入與編輯會員" = "ec/members/batch-import-and-edit-members.md"},
-            { "管理會員檔案" = "ec/members/manage-member-profiles.md"},
-            { "篩選器與會員分群" = "ec/members/member-filters-and-groups.md" },
-            { "會員客服系統" = "ec/members/member-customer-service-system.md"},
+        { "Members" = [
+            { "overview" = "ec/members/index.en.md"},
+            { "Batch Import and Edit Members" = "ec/members/batch-import-and-edit-members.en.md"},
+            { "Manage Member Profiles" = "ec/members/manage-member-profiles.en.md"},
+            { "Filters and Member Groups" = "ec/members/member-filters-and-groups.en.md" },
+            { "Member Customer Service System" = "ec/members/member-customer-service-system.en.md"},
+        ]},
             { "新版VIP設定" = [
                 {"overview" = "ec/members/vip/index.md"},
                 {"建立全館VIP制度" = "ec/members/vip/setup-store-wide-vip-system.md"},
@@ -868,7 +868,7 @@ favicon = "assets/images/favicon.png"
 # Read more:
 # - https://zensical.org/docs/setup/language/
 #
-language = "zh-TW"
+language = "en"
 
 # Zensical provides a number of feature toggles that change the behavior
 # of the documentation site.
@@ -1069,9 +1069,9 @@ plan = "lucide/tag"
 
 [project.extra]
 alternate = [
-   { name = "English", link = "/en/", lang = "en" },
-   { name = "日本語", link = "/ja/", lang = "ja" },
-   { name = "繁體中文", link = "/zh-TW/", lang = "zh-TW" }
+    { name = "English", link = "/en/", lang = "en" },
+    { name = "日本語", link = "/ja/", lang = "ja" },
+    { name = "繁體中文", link = "/zh-TW/", lang = "zh-TW" }
  ]
 
 [[project.extra.social]]
