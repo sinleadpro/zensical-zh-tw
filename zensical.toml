@@ -75,7 +75,6 @@ copyright = """
                 {"圖表總覽指標" = "ec/business-intelligence/references/bi-overview-metrics-reference.md"},
                 {"基本報表計算規則" = "ec/business-intelligence/references/basic-chart-metrics-reference.md"},
                 {"基準參考範圍狀態" = "ec/business-intelligence/references/benchmark-reference-range-status-reference.md"},
-                {"訂單分析分頁" = "ec/business-intelligence/references/order-analysis-tabs-reference.md"},
                 {"訂單總體分析指標" = "ec/business-intelligence/references/order-analysis-overview-metrics-reference.md"},
                 {"商品分析欄位" = "ec/business-intelligence/references/product-analysis-metrics-reference.md"},
                 {"商品圖表指標" = "ec/business-intelligence/references/product-chart-metrics-reference.md"},
@@ -94,7 +93,7 @@ copyright = """
         ]},
         { "訂單" = [
             {"orders" = "ec/orders/index.md"},
-            {"訂單管理基礎" = [
+            {"管理基礎" = [
                 {"介面總覽" = "ec/orders/basics/order-management-interface.md"},
                 {"搜尋與篩選" = "ec/orders/basics/search-filter-orders.md"},
                 {"編輯訂單" = "ec/orders/basics/edit-order-content.md"},
@@ -102,7 +101,7 @@ copyright = """
                 {"再次購買" = "ec/orders/basics/repurchase-order.md"},
                 {"出貨流程" = "ec/orders/basics/order-fulfillment-flow.md"},
             ]},
-            {"訂單設定與流程" = [
+            {"設定與流程" = [
                 {"訂單明細設定" = "ec/orders/order-settings/order-detail-print.md"},
                 {"出貨明細設定" = "ec/orders/order-settings/shipping-detail-print.md"},
                 {"自動結案" = "ec/orders/order-settings/auto-close-order-settings.md"},
@@ -310,6 +309,7 @@ copyright = """
                 { "互動遊戲" = "ec/marketing/other-tools/interactive-games.md" },
                 { "定期訂購活動頁" = "ec/marketing/other-tools/subscription-campaign-page.md" },
             ] },
+            { "免運費" = "ec/marketing/free-shipping-settings.md" },
             { "參考資料" = [
                 { "帳號狀態與購買權限對照表" = "ec/marketing/references/purchase-limit-account-status.md" }
             ] }
@@ -824,6 +824,7 @@ extra_javascript = [
     "javascripts/tablesort.js",
     "javascripts/search-overlay-border.js",
     "javascripts/feature-tour.js",
+    "javascripts/permalink-copy.js",
 ]
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
@@ -1138,6 +1139,7 @@ auto_append = ["includes/abbreviations.md"]
 [project.markdown_extensions.footnotes]
 [project.markdown_extensions.md_in_html]
 [project.markdown_extensions.toc]
+permalink_title = "複製段落連結"
 permalink = true
 toc_depth = 5
 [project.markdown_extensions.toc.slugify]

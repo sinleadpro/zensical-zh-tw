@@ -2,7 +2,7 @@
 title: 圖表總覽
 description: 透過圖表總覽在單一頁面掌握網路商店與實體門市的關鍵經營數據，並與同業基準互相對照，快速找出可優化的項目。
 created: 2026-06-15 10:01
-last_modified: 2026-06-30 21:21
+last_modified: 2026-07-10 12:25
 lang: zh-TW
 type: tutorial
 status: ""
@@ -32,7 +32,16 @@ intents: []
 features: []
 prerequisites: []
 related: []
-tags: []
+tags:
+  - 分析報表
+  - 圖表總覽
+  - 基準化分析
+  - 基準參考範圍
+  - EC 分析
+  - POS 分析
+  - 趨勢圖
+  - 指標卡
+  - 營業額
 acoiv: ""
 apis: []
 devices:
@@ -99,12 +108,10 @@ hide:
         - **後台登入頁→總覽：** 沒有被取消的訂單（包含退貨／拒絕退貨訂單），且會即時更新。
         - **分析圖表→圖表總覽：** 有效訂單，且固定時段更新。
 
-<!--
 === "POS總覽"
     實體門市(POS)的營業額、訂單、消費人數等數據
 
     ![POS總覽](../../assets/images/ec-bi-overview-pos.png){ title="POS總覽" }
--->
 
 ## 使用前提與限制 { #prerequisites-chart-overview }
 
@@ -115,7 +122,7 @@ hide:
 - [x] **產業類別判定**：基準參考範圍會依商家的商品屬性自動判定所屬產業，無法手動指定。
 
 !!! plan "方案差異"
-    基準參考範圍為企業版專屬功能。若您的方案未包含此功能，指標卡將不會顯示基準參考範圍與狀態標籤；如需了解升級方式，請洽您的開店顧問或客服。
+    基準參考範圍為企業版專屬功能。若您的方案未包含此功能，指標卡將不會顯示基準參考範圍與狀態標籤。
 
 ## 操作步驟 { #operate-chart-overview }
 
@@ -141,7 +148,7 @@ hide:
 ### 切換指標趨勢圖 { #operate-chart-overview-switch-chart }
 
 1. **選擇指標：** 在趨勢圖上方的指標切換列，點選要檢視的指標：流量、轉換率(%)、訂單數、平均客單價、營業額、註冊會員數。
-2. **檢視趨勢：** 圖表會顯示該指標在所選時段內的變化趨勢，將滑鼠移至曲線上可查看每個資料點的詳細數值。
+2. **檢視趨勢：** 圖表會顯示該指標在所選時段內的變化趨勢，將滑鼠移至曲線上可查看每個資料點的詳細數值，點擊項目名稱，可隱藏或顯示該項目資料。
 3. **檢視每日明細：** 圖表下方的數據表會以每日為單位列出明細，可用分頁瀏覽(每頁 100 筆)。
 
 ![切換指標趨勢圖](../../assets/images/ec-bi-overview-switch-trend-chart.gif){ title="切換指標趨勢圖" }
@@ -160,7 +167,7 @@ hide:
         - **淺藍曲線：** 時間範圍為 2024-06-01 ~ 2024-07-31，為期 2 個月。
         - **粉紅曲線：** 時間範圍為 2025-04-01 ~ 2025-05-31，為期 2 個月。
 
-??? tip "使用情境"
+??? example "使用情境"
     您可選擇特定行銷檔期作為時間區間，如：過年檔期、母親節檔期、暑假檔期。
 
     - **深藍曲線：** 幫助您了解今年此檔期的銷售狀況。
@@ -177,6 +184,8 @@ hide:
 2. **判讀狀態標籤：** 狀態分為 **優於基準**、**符合基準**、**低於基準** 三種[^bm-status]，其中「低於基準」會以紅色標示，代表該指標的優化效益較高。
 3. **查看資料來源：** 將滑鼠移至卡片上的提示圖示，會看到「此數值來自於相似類別、同等表現商家之統計」，並附上對應的「教學資源」連結。
 
+![指標卡基準參考範圍](../../assets/images/ec-bi-overview-metric-cards-small.png){ title="指標卡基準參考範圍" }
+
 [^bm-status]: 各狀態的詳細意義與建議動作，請見 [基準參考範圍狀態對照表](references/benchmark-reference-range-status-reference.md#reference-chart-overview-benchmark-status){ data-preview }。
 
 <div class="grid cards" markdown>
@@ -190,8 +199,47 @@ hide:
 
 ### 查看 POS 總覽 { #operate-chart-overview-pos }
 
-1. **切換分頁：** 點選 **「POS總覽」** 分頁。
-2. **檢視門市概況：** 此分頁顯示「本月POS概況」，包含營業額、訂單數、消費人數、人均消費額等實體門市指標。
+!!! plan "方案 / 功能條件"
+    POS 總覽分頁僅在商家已串接 CYBERBIZ POS 系統時才會顯示。
+
+1. **切換分頁：** 點選頁面上方「POS總覽」分頁。
+2. **檢視門市概況指標卡：** 上方「本月POS概況」以指標卡呈現營業額、訂單數、消費人數、人均消費額等實體門市彙總數字。
+
+    ![本月POS概況指標卡](../../assets/images/ec-bi-overview-pos-metric-cards.png){ title="本月POS概況指標卡" }
+
+3. **切換指標趨勢圖：** 指標卡下方的趨勢圖可切換 **營業額、訂單數、消費人數、平均訂單金額、人均消費額** 五種指標，檢視所選時段的變化；滑鼠移至曲線可看單點數值。
+
+    === "營業額"
+        ![營業額趨勢圖](../../assets/images/ec-bi-overview-pos-trend-revenue.png){ title="營業額趨勢圖" }
+
+    === "訂單數"
+        ![訂單數趨勢圖](../../assets/images/ec-bi-overview-pos-trend-orders.png){ title="訂單數趨勢圖" }
+
+    === "消費人數"
+        ![消費人數趨勢圖](../../assets/images/ec-bi-overview-pos-trend-customers.png){ title="消費人數趨勢圖" }
+
+    === "平均客單價"
+        ![平均客單價趨勢圖](../../assets/images/ec-bi-overview-pos-trend-aov.png){ title="平均客單價趨勢圖" }
+
+    === "人均消費額"
+        ![人均消費額趨勢圖](../../assets/images/ec-bi-overview-pos-trend-per-customer.png){ title="人均消費額趨勢圖" }
+
+4. **查看各門市排行：** 頁面下方的門市明細表以每間門市為一列，欄位包含：
+
+    ![各門市排行表](../../assets/images/ec-bi-overview-pos-ranking-table.png){ title="各門市排行表" }
+
+??? info "欄位說明"
+
+    | 欄位 | 說明 |
+    | :-- | :-- |
+    | 排名 | 依本月營業額高至低排序 |
+    | 門市 | 門市名稱 |
+    | 本月營業額 | 該門市本月累計營業額 |
+    | 本月訂單數 | 該門市本月訂單筆數 |
+    | 本月消費人數 | 該門市本月消費人數 |
+    | 本月日均營業額 | 本月營業額 ÷ 天數 |
+    | 本月平均訂單金額 | 本月營業額 ÷ 訂單數 |
+    | 本月人均消費額 | 本月營業額 ÷ 消費人數 |
 
 ## 重要規範與限制 { #specs-chart-overview }
 

@@ -2,7 +2,7 @@
 title: 會員年齡分群對照表
 description: 會員總覽分頁中會員年齡分群區間的統計分類對照，包含各年齡層定義及未填寫生日的處理方式。
 created: 2026-06-16
-last_modified: 2026-06-16
+last_modified: 2026-07-10 14:24
 lang: zh-TW
 type: reference
 status: ""
@@ -24,8 +24,6 @@ tags:
   - 會員分群
   - 會員總覽
   - 生日
-  - EC
-  - 參考資料
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/member-age-groups-reference/"
 icon: lucide/table
 hide:

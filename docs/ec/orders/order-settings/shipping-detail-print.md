@@ -2,7 +2,7 @@
 title: 設定與列印出貨明細
 description: 自訂出貨明細的顯示內容、套用列印模板，以及從訂單列表批次下載出貨明細。
 created: 2026-05-08 16:00
-last_modified: 2026-07-02 07:19
+last_modified: 2026-07-13 12:36
 lang: zh-TW
 type: tutorial
 status: ""
@@ -78,35 +78,32 @@ hide: []
 
 本頁說明如何在後台
 
-- [x] 自訂出貨明細的呈現內容
-- [x] 如何在實際出貨流程中取得出貨明細。
+- 自訂出貨明細的呈現內容
+- 如何在實際出貨流程中取得出貨明細。
 
 如需設定隨包裹寄給顧客的「訂單明細」，請參考另一份文件 [設定與列印訂單明細](order-detail-print.md){ title="設定與列印訂單明細" }。
 
-??? note "出貨明細與訂單明細差異"
+??? info "出貨明細與訂單明細差異"
 
     系統將明細分為兩種用途，您可以分別設定其內容以符合需求：
 
     *   **訂單明細 (顧客)**：通常包含完整的商品內容、單價、金額與配送方式。
     *   **出貨明細 (員工)**：主要提供給倉儲或出貨人員，通常僅包含商品數量與配送地址，**不含訂單金額**，以精簡資訊並節省成本。
 
-!!! info "個資隱碼不適用於出貨明細"
-    後台「安全性設定」中的「訂單明細列印」[遮罩規則](order-detail-print.md#orders-print-pii-masking-rules){ title="遮罩規則" data-preview } 功能僅作用於 **訂單明細**，不會套用到出貨明細上。出貨明細因為是內部使用，設計上不會遮蓋顧客個資。
+## 操作步驟
 
-## 出貨明細內容設定 { #fulfillment-print }
+### 出貨明細內容設定 { #fulfillment-print }
 
-### 1. 進入出貨明細列印設定 { #fulfillment-print-activate }
+#### 1. 進入出貨明細列印設定 { #fulfillment-print-activate }
 
 於後台側邊選單尋找以下路徑（依您的後台選單版本略有不同）：
 
 - 新版選單：**金物流** > **結帳頁 & 物流設定** > 找到 **「出貨明細列印相關設定」** 區塊
 - 舊版選單：**線上購物設定** > **購物車與金流** > 找到 **「出貨明細列印相關設定」** 區塊
 
-!!! info "進入後，該區塊的副標說明為「設定託運單列印的出貨明細顯示項目」。"
-
 ---
 
-### 2. 勾選要呈現的項目 { #fulfillment-print-configure }
+#### 2. 勾選要呈現的項目 { #fulfillment-print-configure }
 
 面板提供 9 個勾選項，可依您的內部出貨流程需求自由組合（預設皆未勾選）。[完整欄位說明](#fulfillment-print-fields){ title="出貨明細欄位對照表" data-preview }
 
@@ -124,7 +121,7 @@ hide: []
 
 ---
 
-### 3. 儲存設定
+#### 3. 儲存設定
 
 於設定區塊底部點選 **「儲存」** 完成基本設定。
 
@@ -132,41 +129,30 @@ hide: []
 
 ---
 
-### 4. 進階設定 { #fulfillment-print-advanced-settings }
+#### 4. 進階設定 { #fulfillment-print-advanced-settings }
 
 於設定區塊底部點選 **「進階設定」**，進入 **「編輯列印出貨明細樣板」** 頁面。
 
 ![出貨明細設定-進階設定](../../../assets/images/EC-金物流-結帳頁物流設定-列印出貨明細-進階設定.png){ title="出貨明細設定-進階設定" }
 
-您可於此頁：
-
-<div class="grid cards" markdown>
-
-- :lucide-code:{ .ig }
-  [__自訂樣板__](#fulfillment-print-template){ title="自訂樣板" }
-- :lucide-eye:{ .ig }
-  [__預覽列印效果__](#fulfillment-print-preview){ title="預覽列印效果" }
-- :lucide-rotate-ccw:{ .ig }
-  [__回復預設樣板__](#fulfillment-print-revert){ title="回復預設樣板" }
-
-</div>
+您可於此頁：[自訂樣板](#fulfillment-print-template){ title="自訂樣板" }、[預覽列印效果](#fulfillment-print-preview){ title="預覽列印效果" }、[回復預設樣板](#fulfillment-print-revert){ title="回復預設樣板" }。
 
 ---
 
-#### 自訂樣板 { #fulfillment-print-template }
+##### 自訂樣板 { #fulfillment-print-template }
 
 「樣板」區塊是 Liquid 程式碼，可調整版面排版、字型大小、邊距等。一般情況下使用預設模板即可。
 
 ![出貨明細-樣板設定](../../../assets/images/EC-金物流-結帳頁物流設定-列印出貨明細-進階設定-樣板.png){ title="出貨明細-樣板設定" }
 
-!!! note "提醒"
+!!! warning "提醒"
 
     - 儲存前請務必先預覽是否正常顯示。
     - 預覽時必須有「已經出貨」的訂單，否則樣板可能無法正常渲染。
 
 ---
 
-#### 預覽列印效果 { #fulfillment-print-preview }
+##### 預覽列印效果 { #fulfillment-print-preview }
 
 點選 **「出貨明細預覽」**，系統會以最近一筆已出貨訂單套用您目前的樣板，即時呼叫瀏覽器的列印對話框。
 
@@ -174,7 +160,7 @@ hide: []
 
 ---
 
-#### 回復預設樣板 { #fulfillment-print-revert }
+##### 回復預設樣板 { #fulfillment-print-revert }
 
 若調整後想還原，點選 **「回復預設樣板」** 即可重置為系統預設版本（已儲存的勾選項不會被影響）。
 
@@ -184,7 +170,7 @@ hide: []
 
     與訂單明細不同，出貨明細的進階設定頁不提供「開頭提醒文字標題 / 內容」欄位。這是因為出貨明細是內部文件，不需要顧客面的文案。
 
-## 如何列印出貨明細 { #fulfillment-print-operate }
+### 列印出貨明細 { #fulfillment-print-operate }
 
 完成 [明細內容設定](#fulfillment-print) 後，出貨明細不會像訂單明細那樣可單獨列印，而是在 **批次出貨打包** 流程中與其他出貨文件一併產生：
 
@@ -205,7 +191,7 @@ hide: []
 
     ![出貨明細範例圖片](../../../assets/images/出貨明細範例.png){ title="出貨明細範例圖片" }
 
-!!! warning "為什麼沒有「列印出貨明細」這個獨立選項？"
+??? quote "為什麼沒有「列印出貨明細」這個獨立選項？"
 
     出貨明細的設計是與「託運單」綁在一起產生的。商家通常會在準備出貨的同一動作中，需要託運單、出貨明細、揀貨單三份文件。系統因此設計成同批產生一份 ZIP，而非每份獨立列印。如僅需顧客面的明細，請參考 [訂單明細列印](order-detail-print.md){ title="設定與列印訂單明細" } 流程。
 

@@ -1,1 +1,0 @@
-:lucide-message-square-text:

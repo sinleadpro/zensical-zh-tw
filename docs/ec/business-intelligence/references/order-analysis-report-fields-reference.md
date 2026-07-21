@@ -2,7 +2,7 @@
 title: 訂單報表欄位對照
 description: 訂單報表分頁中三張 Excel 表格的欄位定義與說明對照
 created: 2026-06-15
-last_modified: 2026-06-23 20:40
+last_modified: 2026-07-10 11:39
 lang: zh-TW
 type: reference
 status: ""
@@ -25,8 +25,6 @@ tags:
   - 成長率
   - 時段別業績
   - 每日業績
-  - EC
-  - 參考資料
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-report-fields-reference/"
 icon: lucide/table
 hide:

@@ -1,1 +1,0 @@
-:lucide-undo-2:

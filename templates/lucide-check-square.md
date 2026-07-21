@@ -1,1 +1,0 @@
-:lucide-check-square:

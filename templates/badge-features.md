@@ -1,1 +1,0 @@
-[:lucide-bolt:{ title="適用功能" }](../../resources/conventions#適用功能) | 

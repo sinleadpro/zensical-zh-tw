@@ -1,8 +1,0 @@
-專業 = https://app.notion.com/p/cyberbiz/23b24ee0f33c80009ef1fc21c42a1055?v=38b24ee0f33c80b18eeb000c0a2fe381&source=copy_link
-進階 = https://app.notion.com/p/cyberbiz/23b24ee0f33c807a94a3d681ff970cc6?v=38b24ee0f33c80b18eeb000c0a2fe381&source=copy_link
-高手 = https://app.notion.com/p/cyberbiz/23b24ee0f33c8032872ce1663e8b210d?v=38b24ee0f33c80b18eeb000c0a2fe381&source=copy_link
-專業PLUS = https://app.notion.com/p/cyberbiz/PLUS-23b24ee0f33c8012811dd1806920767b?v=38b24ee0f33c80b18eeb000c0a2fe381&source=copy_link
-進階PLUS = https://app.notion.com/p/cyberbiz/PLUS-23b24ee0f33c8092bbddc34398a259f7?v=38b24ee0f33c80b18eeb000c0a2fe381&source=copy_link
-高手PLUS = https://app.notion.com/p/cyberbiz/PLUS-23b24ee0f33c8085a187f6bebb799990?v=38b24ee0f33c80b18eeb000c0a2fe381&source=copy_link
-企業 = https://app.notion.com/p/cyberbiz/23b24ee0f33c80d9aed4e1c445c39e0e?v=38b24ee0f33c80b18eeb000c0a2fe381&source=copy_link
-

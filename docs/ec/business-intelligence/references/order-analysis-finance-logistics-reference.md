@@ -2,7 +2,7 @@
 title: 訂單金物流分析圖表對照
 description: 訂單金物流分析分頁中三個分析群組的圖表類型與顯示條件對照
 created: 2026-06-15
-last_modified: 2026-06-16 16:16
+last_modified: 2026-07-10 11:23
 lang: zh-TW
 type: reference
 status: ""
@@ -26,8 +26,6 @@ tags:
   - 第三方導購
   - 客單價
   - 退貨率
-  - EC
-  - 參考資料
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/order-analysis-finance-logistics-reference/"
 icon: lucide/table
 hide:
