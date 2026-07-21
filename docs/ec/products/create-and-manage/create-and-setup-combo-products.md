@@ -22,13 +22,10 @@ sites:
   - TW
 tnb: branch
 plans:
-  - 企業
-  - 專業
   - 專業PLUS
-  - 進階
   - 進階PLUS
-  - 高手
   - 高手PLUS
+  - 企業
 cyb_extensions: []
 feature_badges: []
 audiences:
@@ -68,6 +65,15 @@ search:
 icon: lucide/boxes
 hide: []
 ---
+# 新增與設定組合商品
+建立指定或任選組合商品，設定子商品內容、價格、庫存與銷售規則。
+{ .subtitle }
+
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 所有 PLUS / 企業
+{ .doc-badge }
+
+!!! info "版本差異說明"
+    「組合商品」在 PLUS 方案中屬於「行銷 A」選配模組（11 選 2），商家需確認已選配該模組方可使用。企業版則直接內建此功能。
 
 ![新增組合商品](../../../assets/images/ec-create-new-product-combo.zh-tw.png){ title="新增組合商品：商品 > 新增組合商品" .hero-page }
 

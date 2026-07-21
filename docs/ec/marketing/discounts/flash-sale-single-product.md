@@ -26,13 +26,10 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 企業
-  - 專業
   - 專業PLUS
-  - 進階
   - 進階PLUS
-  - 高手
   - 高手PLUS
+  - 企業
 cyb_extensions: []
 intents:
   - 如何設定單品限時折扣群組
@@ -66,6 +63,17 @@ search:
 icon: lucide/clock
 hide: []
 ---
+# 設定單品限時折扣群組
+建立「單品限時折扣群組」，並設定折扣計價方式（固定金額、百分比或活動價格）、活動商品與有效期間。
+{ .subtitle }
+
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 所有 PLUS / 企業
+{ .doc-badge }
+
+!!! info "版本差異說明"
+    單品限時折扣群組」在 PLUS 方案中屬於「行銷 A」選配模組（11 選 2），商家需確認已選配該模組方可使用。企業版則直接內建此功能。
+
+
 
 ![單品限時折扣群組](../../../assets/images/ec-marketing-flash-sale-single-product-hero.zh-tw.png){ title="單品限時折扣群組" .hero-page }
 

@@ -26,6 +26,7 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
+  - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
@@ -71,6 +72,15 @@ search:
 icon: lucide/network
 hide: []
 ---
+# 設定商品多層級分類
+建立多層級商品分類（最多三層），整理群組、支援行銷活動與導覽列設定。
+{ .subtitle }
+
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 所有 PLUS 版 / 企業版
+{ .doc-badge }
+
+!!! info "版本差異說明"
+    「商品多層級分類」在 PLUS 方案中屬於選配模組（11 選 2），商家需確認已選配該模組方可使用。企業版則直接內建此功能。
 
 ![商品多層級分類設定](../../../assets/images/ec-product-multi-level-product-cateogry-hero.zh-tw.png){ title="商品多層級分類設定" .hero-page }
 
