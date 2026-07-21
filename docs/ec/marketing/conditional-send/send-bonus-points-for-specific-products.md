@@ -23,6 +23,9 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -55,12 +58,14 @@ icon: lucide/coins
 hide: []
 ---
 # 指定商品送紅利
-
 建立「指定商品送紅利」群組，針對特定商品設定滿額贈送紅利點數，提升回購率與客單價。
 { .subtitle }
 
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 所有 PLUS / 企業
 { .doc-badge }
+
+!!! info "版本差異說明"
+    「指定商品送紅利」在 PLUS 方案中屬於「行銷 A」選配模組（11 選 2），商家需確認已選配該模組方可使用。企業版則直接內建此功能。
 
 ![](../../../assets/images/EC-後台-行銷活動-指定商品送紅利-畫面總覽01.png){ .hero-page }
 

@@ -72,6 +72,9 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 所有 PLUS / 企業
 { .doc-badge }
 
+!!! info "版本差異說明"
+    「生日禮」在 PLUS 方案中屬於「行銷 B」選配模組（11 選 2），商家需確認已選配該模組方可使用。企業版則直接內建此功能。
+
 ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-生日禮01.png){ .hero-page }
 
 !!! tip "應用情境"
