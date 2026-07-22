@@ -1,8 +1,8 @@
 ---
-title: points-deposits
+title: Cyber 幣儲值中心使用指南
 description: Cyber 幣儲值中心使用指南，包含儲值步驟、發票資訊填寫、付款方式與使用明細查詢。
 created: 2026-04-28 10:38
-last_modified: 2026-07-22 15:14
+last_modified: 2026-07-22 15:51
 lang: zh-TW
 type: guide
 status: ""

@@ -1,8 +1,8 @@
 ---
-title: setup-line-oa-audience
+title: 設定 LINE OA 受眾串接
 description: 將篩選出的會員 UID 同步至 LINE OA 建立受眾，用於訊息推播與 LAP 廣告投放。
 created: 2026-03-06 11:46
-last_modified: 2026-07-22T15:19:09+08:00
+last_modified: 2026-07-22 15:48
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/integrations/line/marketing/setup-line-oa-audience
 type: tutorial

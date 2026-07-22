@@ -1,8 +1,8 @@
 ---
-title: security-best-practices
+title: 資安防護總覽與最佳實務
 description: 概述各項安全措施、後台設定路徑及資安事件應變指南，全面保障您的網站與顧客個資。
 created: 2026-06-09 17:07
-last_modified: 2026-07-22 15:18
+last_modified: 2026-07-22 15:51
 lang: zh-TW
 type: guide
 status: ""

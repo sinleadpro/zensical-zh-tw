@@ -1,8 +1,8 @@
 ---
-title: setup-menus-navigation
+title: 設定選單與導覽列
 description: 設定網站的選單、導覽列與頁腳。
 created: 2026-02-03 17:00
-last_modified: 2026-07-22T15:20:04+08:00
+last_modified: 2026-07-22 15:49
 lang: zh-TW
 type: tutorial
 status: ""
