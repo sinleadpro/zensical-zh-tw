@@ -1,8 +1,8 @@
 ---
-title: 設定商品限購數量
+title: purchase-limit
 description: 限制每位會員可購買特定商品的數量，用於限量商品、防止囤貨、確保更多顧客買得到熱銷品。
 created: 2026-06-08 14:19
-last_modified: 2026-06-30 10:56
+last_modified: 2026-07-22T15:16:04+08:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -15,7 +15,7 @@ feedback: 0
 products:
   - EC
 modules:
-  - 行銷
+  - 行銷活動
 sites:
   - TW
 audiences:
