@@ -2,12 +2,12 @@
 title: 設定商品條件分類群組
 description: 依商品屬性與條件，自動將符合規則的商品分類至指定群組。
 created: 2026-01-15 00:00
-last_modified: 2026-06-30 11:26
+last_modified: 2026-07-22 17:40
 lang: zh-TW
 type: tutorial
 status:
 version:
-author:
+author: Jase
 reviewers: []
 notes:
   - POS 前台選單設定

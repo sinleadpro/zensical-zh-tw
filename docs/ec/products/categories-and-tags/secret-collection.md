@@ -2,12 +2,12 @@
 title: 設定秘密商品群組
 description: 建立隱藏商品群組，透過專屬連結提供給特定顧客購買
 created: 2026-01-08 00:00
-last_modified: 2026-06-30 11:26
+last_modified: 2026-07-22 17:37
 lang: zh-TW
 type: tutorial
 status:
 version:
-author:
+author: Jase
 reviewers: []
 notes:
   - verify FAQ

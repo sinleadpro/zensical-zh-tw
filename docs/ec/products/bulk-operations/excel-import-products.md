@@ -2,12 +2,12 @@
 title: Excel 大量匯入商品
 description: 使用 Excel 範本一次新增或更新大量商品、批次上架多筆商品。
 created: 2026-01-08 00:00
-last_modified: 2026-07-02 21:16
+last_modified: 2026-07-22 17:26
 lang: zh-TW
 type: tutorial
 status:
 version:
-author:
+author: Jase
 reviewers: []
 notes:
   - verify FAQ

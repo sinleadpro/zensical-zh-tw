@@ -2,12 +2,12 @@
 title: 設定商品配送條件（物流、溫層與出貨通路）
 description: 設定商品的配送溫層與物流，並以一般宅配與貨到付款為例，說明運費設定、商品綁定及結帳拆單行為。
 created: 2026-01-06 00:00
-last_modified: 2026-07-15 17:47
+last_modified: 2026-07-22 17:40
 lang: zh-TW
 type: tutorial
 status:
 version:
-author:
+author: Jase
 reviewers: []
 notes:
   - verify FAQ

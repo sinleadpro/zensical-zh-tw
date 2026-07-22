@@ -1,8 +1,9 @@
 ---
 title: 影片教學資源總覽
 description: 彙整影片教學資源，包含課程平台、線上工作坊錄影與快速教學影片，方便一站式查找。
-last_modified: 2026-06-01 11:05
+last_modified: 2026-07-22 17:40
 type: hub
+author: Jase
 tags:
   - 影片教學
   - 工作坊
