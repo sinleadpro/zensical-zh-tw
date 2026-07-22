@@ -1,8 +1,8 @@
 ---
-title: provide-payment-link
+title: 提供顧客付款連結
 description: 訂單尚未完成付款時，商家可透過付款連結引導顧客重新進行線上結帳，無需取消訂單重建流程。
 created:
-last_modified: 2026-07-22T15:15:37+08:00
+last_modified: 2026-07-22 15:49
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/order-settings/provide-payment-link
 type: tutorial

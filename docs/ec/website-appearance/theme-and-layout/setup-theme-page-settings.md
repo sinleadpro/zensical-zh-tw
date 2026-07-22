@@ -2,10 +2,10 @@
 acoiv:
 apis:
 search:
-title: setup-theme-page-settings
+title: 各頁面設定指南
 description: 依頁面類型說明拖拉版型的各項設定，包含首頁區塊、商品頁面、部落格、客服頁等。
 created:
-last_modified: 2026-07-22T15:20:48+08:00
+last_modified: 2026-07-22 15:51
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings
 type: tutorial
