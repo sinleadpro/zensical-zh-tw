@@ -2,10 +2,10 @@
 acoiv:
 apis:
 search:
-title: setup-global-theme-settings
+title: 拖拉版型全站共用設定
 description: 設定拖拉版型的全站共用設定，包含彈窗廣告、顏色、品牌識別、SEO、商品顯示行為與動態標籤。
 created:
-last_modified: 2026-07-22T15:17:40+08:00
+last_modified: 2026-07-22 15:37
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-global-theme-settings
 type: tutorial
@@ -57,7 +57,7 @@ related: []
 tags:
   - 拖拉版型
   - 全站共用設定
-  - 彈窗廣告
+ ㄜ - 彈窗廣告
   - 顏色設定
   - SEO
   - 商品顯示
