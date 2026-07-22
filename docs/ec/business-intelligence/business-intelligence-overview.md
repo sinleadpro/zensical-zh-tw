@@ -2,7 +2,7 @@
 title: 圖表總覽
 description: 透過圖表總覽在單一頁面掌握網路商店與實體門市的關鍵經營數據，並與同業基準互相對照，快速找出可優化的項目。
 created: 2026-06-15 10:01
-last_modified: 2026-07-10 12:25
+last_modified: 2026-07-22 17:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -14,7 +14,8 @@ ga_views:
 feedback:
 products:
   - EC
-modules: []
+modules:
+  - 分析報表
 sites:
   - TW
 audiences:
@@ -29,7 +30,15 @@ plans:
   - 企業
 cyb_extensions: []
 intents: []
-features: []
+features:
+  - 圖表總覽
+  - EC 總覽
+  - POS 總覽
+  - 指標趨勢圖
+  - 指標卡
+  - 每日數據表
+  - 基準參考範圍
+  - 門市排行表
 prerequisites: []
 related: []
 tags:
