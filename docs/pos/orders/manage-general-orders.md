@@ -57,14 +57,13 @@ ui_components:
   - 結案訂單
 paths:
   - POS 前台 > 訂單
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=2940
 permalink: ""
 comments: false
 search:
-  exclude: false
+  exclude: true
 icon: lucide/clipboard-list
 hide: []
 ---
@@ -81,17 +80,25 @@ hide: []
     - **訂單資訊核對**：每日結帳前核對訂單狀態，確保已結案或取消的訂單數量正確。
     - **發票錯誤修正**：若結帳當下發現發票開立錯誤，可立即取消訂單以作廢發票。
 
+## 使用須知
+
+- **跨門市訂單查詢**：若需查詢其他門市訂單，需前往 **安全性設定** 開啟 [**店家查看他店訂單** 權限](../store/security-settings.md#設定門市權限){ data-preview }。未開啟此權限前，人員僅能查看目前登入門市的訂單資料。
 
 ## 查詢訂單
 
 1. 在 POS 前台點擊 **訂單**。
 2. 您可指定查詢 **一般訂單**、**門市取貨訂單** 或 **預購訂單**：
     - **搜尋**：輸入訂單號碼或直接掃描發票上的條碼。
-    - **篩選**：點擊進階篩選，設定 **訂單成立時間** 或 **認單日期**。
-    - **狀態過濾**：勾選是否顯示已取消的訂單。
+
+        ![](../../assets/images/POS-前台-訂單-查詢01.png){ .screenshot }
+      
+    - **進階篩選**：可透過 **訂單狀態**、**門市與子機** 或 **指定時間區間** 等維度篩選訂單。
+
+        ![](../../assets/images/POS-前台-訂單-查詢02.png){ .screenshot }
+
 3. 點選目標訂單進入詳細頁面。
 
-![](../../assets/images/POS-前台-訂單-查詢01.png){ .screenshot }
+
 
 ## 取消訂單
 

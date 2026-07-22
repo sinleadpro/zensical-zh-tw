@@ -29,13 +29,10 @@ features:
   - 電子票券
 tnb: branch
 plans:
-  - 企業
-  - 專業
   - 專業PLUS
-  - 進階
   - 進階PLUS
-  - 高手
   - 高手PLUS
+  - 企業
 cyb_extensions:
   - TICKET
 prerequisites: []
@@ -61,6 +58,15 @@ icon: lucide/percent
 hide:
 permalink: https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions
 ---
+# 設定電子票券優惠
+建立電子票券的任選折扣優惠活動，設定折扣層級與計價規則，並瞭解退票與撥款的計算方式。
+{ .subtitle }
+
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 所有 PLUS 版 / 企業版
+{ .doc-badge }
+
+!!! info "版本差異說明"
+    - 「電子票券」在 PLUS 方案中屬於選配模組（11 選 2），商家需確認已選配該模組方可使用。企業版則直接內建此功能。
 
 ![](../../assets/images/ec-e-ticket-discount-hero.zh-tw.png){ .hero-page }
 

@@ -654,7 +654,10 @@ copyright = """
             { "手動確認收貨" = "wms/manually-confirm-receipt.md"},
             { "退貨與派車" = "wms/returns-and-vehicle-dispatch.md"},
             { "商家自行驗收退貨" = "wms/merchant-self-inspection-of-returns.md"},
-            { "POS 系統串倉庫存轉調" = "wms/pos-warehouse-inventory-transfer.md"},
+            { "POS 轉調串倉庫存" = "wms/pos-warehouse-inventory-transfer.md"},
+        ]},
+        { "參考資料" = [
+            { "宅配物流設定位置對照" = "wms/logistics-settings-reference.md"},
         ]},
         {"divider" = "divider"},
         { "公告" = "wms/announcements.md"},
@@ -773,6 +776,7 @@ copyright = """
             { "人員登入" = "pos/store/staff-login.md" },
         ]},
         { "報表分析" = [
+            { "庫存管理" = "pos/inventory/pos-reports-list-guide.md" },
             { "營收分析" = "pos/business-intelligence/pos-revenue-analysis.md" },
             { "商品分析" = "pos/business-intelligence/pos-product-analysis.md" },
             { "參考資料" = [

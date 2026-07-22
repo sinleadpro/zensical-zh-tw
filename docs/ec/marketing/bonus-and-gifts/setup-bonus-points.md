@@ -2,15 +2,14 @@
 title: 設定紅利點數
 description: 透過紅利點數建立會員回饋機制，吸引新客首購並提升舊客回購率。
 created: 2026-05-27 15:20
-last_modified: 2026-06-30 10:56
+last_modified: 2026-07-21 11:00
 lang: zh-TW
 type: tutorial
 status: ""
-version: 1.1.1
+version: 1.1.2
 author: Ann
 reviewers: []
-notes:
-  - 內部連結
+notes: []
 ga_views: 0
 feedback: 0
 products: 
@@ -89,6 +88,7 @@ hide: []
 - **匯入限制**：紅利點數一旦發送或刪除，系統無法自動撤回或復原，請謹慎操作。
 - **歸戶時間**：訂單狀態須變更為「已結案」，紅利點數才會正式匯入會員帳戶供其使用。
 
+    > 退貨狀態為「不須退貨」時，亦適用此規則。
 
 ## 操作流程
 

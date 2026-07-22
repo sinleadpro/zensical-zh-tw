@@ -23,13 +23,10 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 企業
-  - 專業
   - 專業PLUS
-  - 進階
   - 進階PLUS
-  - 高手
   - 高手PLUS
+  - 企業
 cyb_extensions:
   - TICKET
 intents:
@@ -67,8 +64,18 @@ search:
 icon: lucide/user-check
 hide: []
 ---
+# 設定電子票券門市權限
+設定電子票券在不同門市與合作品牌下的核銷權限、綁定規則及門市店員帳號管理。
+{ .subtitle }
+
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 所有 PLUS 版 / 企業版
+{ .doc-badge }
+
+!!! info "版本差異說明"
+    - 「電子票券」在 PLUS 方案中屬於選配模組（11 選 2），商家需確認已選配該模組方可使用。企業版則直接內建此功能。
 
 ![](../../assets/images/ec-電子票券-綁定門市.png){ .hero-page }
+
 
 ## 電子票券門市權限說明
 

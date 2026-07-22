@@ -27,6 +27,7 @@ plans:
   - 企業
   - 專業PLUS
   - 進階PLUS
+  - 高手PLUS
 cyb_extensions: []
 intents:
   - 如何設定商品多層級分類滿額折扣
@@ -63,6 +64,15 @@ search:
 icon: lucide/layers
 hide: []
 ---
+# 設定商品多層級分類滿額折扣
+設定針對商品多層級分類的滿額折扣活動，當訂單符合條件時，對該分類內每件商品獨立套用折扣。
+{ .subtitle }
+
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 所有 PLUS 版 / 企業版
+{ .doc-badge }
+
+!!! info "版本差異說明"
+    「商品多層級分類滿額折扣」在 PLUS 方案中屬於選配模組（11 選 2），商家需確認已選配該模組方可使用。企業版則直接內建此功能。
 
 ![商品多層級分類滿額折扣](../../../assets/images/ec-marketing-product-multi-level-full-discount-hero.zh-tw.png){ title="商品多層級分類滿額折扣" .hero-page }
 
