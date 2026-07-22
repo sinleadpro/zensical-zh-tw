@@ -1,8 +1,8 @@
 ---
-title: 建立含指定商品的購物車連結
+title: create-cart-link-specific-products
 description: 建立特殊的購物車連結，自動將預設商品與數量加入購物車，適用於社群導購、EDM 行銷等情境
 created: 2026-04-29 14:06
-last_modified: 2026-07-01 21:53
+last_modified: 2026-07-22T15:13:49+08:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -15,7 +15,7 @@ feedback:
 products:
   - EC
 modules:
-  - 行銷
+  - 行銷活動
 sites:
   - TW
 audiences:
