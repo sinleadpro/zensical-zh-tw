@@ -2,12 +2,12 @@
 title: 電子票券設定指南
 description: 建立、販售、核銷與管理電子票券商品的完整操作手冊，涵蓋後台設定、顧客購買流程及門市操作。
 created: 2026-01-20 00:00
-last_modified: 2026-06-30 11:05
+last_modified: 2026-07-22 17:25
 lang: zh-TW
 type: guide
 status:
 version:
-author:
+author: Jase
 reviewers: []
 notes: []
 ga_views: 0

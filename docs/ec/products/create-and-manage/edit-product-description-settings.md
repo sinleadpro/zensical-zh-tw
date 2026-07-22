@@ -2,12 +2,12 @@
 title: 編輯商品描述與商品設定
 description: 設定商品內容、通路與物流屬性，確保前台呈現正確並支援搜尋與行銷需求。
 created: 2026-03-08 10:00
-last_modified: 2026-06-30 11:26
+last_modified: 2026-07-22 17:21
 lang: zh-TW
 type: tutorial
 status: ""
 version: ""
-author: ""
+author: Jase
 reviewers: []
 notes: []
 ga_views: 0

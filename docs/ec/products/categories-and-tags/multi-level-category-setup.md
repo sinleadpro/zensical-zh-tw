@@ -2,12 +2,12 @@
 title: 設定商品多層級分類
 description: 建立多層級商品分類（最多三層），整理群組、支援行銷活動與導覽列設定。
 created: 2026-01-13 00:00
-last_modified: 2026-07-03 09:22
+last_modified: 2026-07-22 17:36
 lang: zh-TW
 type: tutorial
 status:
 version:
-author:
+author: Jase
 reviewers: []
 notes:
   - verify FAQ

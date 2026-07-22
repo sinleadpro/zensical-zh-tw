@@ -1,10 +1,11 @@
 ---
 title: 設定商品搜尋可見性
 description: 控制商品是否顯示於站內與 Google 搜尋結果，避免不必要的曝光。
+author: Jase
 product:
   - EC
 module:
-  - product
+  - 商品
 activ: configure
 paths:
   - 管理後台 > 商品 > 所有商品
