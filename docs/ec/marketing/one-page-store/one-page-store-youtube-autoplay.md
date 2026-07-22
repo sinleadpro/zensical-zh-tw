@@ -22,11 +22,8 @@ sites:
 audiences:
   - merchant
 difficulty: advanced
-tnb: trunk
+tnb: branch
 plans:
-  - 專業
-  - 進階
-  - 高手
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
@@ -70,8 +67,17 @@ search:
 icon: lucide/video
 hide: []
 ---
+# 設定一頁式商店 YouTube 影片自動播放與起始秒數
+調整 YouTube 影片網址參數，在一頁式商店中設定自動播放、循環播放與指定播放起始秒數。
+{ .subtitle }
+
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 所有PLUS / 企業
+{ .doc-badge }
 
 ![一頁式商店影片設定](../../../assets/images/ec-行銷活動-一頁式商店-影片設定.png){ title="一頁式商店影片設定" .hero-page }
+
+!!! info "版本差異說明"
+    - 「一頁式商店」在 PLUS 方案中屬於選配模組（11 選 2），商家需確認已選配該模組方可使用。企業版則直接內建此功能。
 
 ## 影片自動播放功能說明
 
