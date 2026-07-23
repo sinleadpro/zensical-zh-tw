@@ -1,1 +1,0 @@
-:lucide-book-open-text:

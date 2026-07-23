@@ -2,14 +2,15 @@
 title: 商品分析
 description: 掌握店內商品的銷售表現，找出熱賣商品、滯銷品與回購行為，為進貨、行銷與定價決策提供數據參考。
 created: 2026-06-15 00:00
-last_modified: 2026-07-08 11:04
+last_modified: 2026-07-12 19:45
 lang: zh-TW
 type: tutorial
 status: ""
 version: ""
 author: Jase
 reviewers: []
-notes: []
+notes:
+  - 商品報表分頁限企業版但商品報表下載適用plus跟企業版？看不到要怎麼下載？
 ga_views: 0
 feedback: 0
 products:
@@ -104,7 +105,7 @@ hide: []
 - [x] **需有實際訂單資料**：各圖表與表格依有效訂單計算，新開店或查詢期間內沒有訂單時，對應區塊會顯示空白。
 
 !!! plan "方案差異"
-    高手版方案不會顯示「 **商品報表** 」分頁(即「商品期間別購買狀況」)。若您在頁面上只看到「商品銷售概況」、沒有「商品報表」分頁，代表目前方案未提供此區塊。
+    高手版 / PLUS版 方案不會顯示「 **商品報表** 」分頁(即「商品期間別購買狀況」)。若您在頁面上只看到「商品銷售概況」、沒有「商品報表」分頁，代表目前方案未提供此區塊。
 
 ## 操作步驟 { #operate-product-analysis }
 
@@ -172,6 +173,8 @@ hide: []
 ---
 
 ### 用「商品報表」查期間別購買狀況並匯出 { #operate-product-analysis-period-report }
+
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 企業
 
 1. **切換分頁：** 點選上方「 **商品報表** 」分頁，等待「 **商品期間別購買狀況** 」表格載入。
 
@@ -242,14 +245,6 @@ hide: []
 ??? quote "報表數字和訂單列表對不起來"
     [](){ #faq-product-analysis-number-mismatch }
     本頁只計算 **有效訂單**(非取消、且不需退貨或拒絕退貨)，而訂單列表會包含取消與退貨訂單，因此筆數與金額可能不同。這是預期行為，屬於統計口徑差異。
-
-??? quote "找不到「商品報表」分頁"
-    [](){ #faq-product-analysis-no-product-report-tab }
-    部分方案不提供「商品報表」分頁。若您的頁面上只有「商品銷售概況」，代表目前方案未包含此區塊，請洽開店顧問了解升級方式。
-
-??? quote "整個頁面顯示「您目前方案不支援」"
-    [](){ #faq-product-analysis-unauthorized }
-    代表您的方案尚未開通「圖表分析」相關功能。請聯絡客服或開店顧問協助確認與開通。
 
 ## 參考資料 { #reference-product-analysis }
 

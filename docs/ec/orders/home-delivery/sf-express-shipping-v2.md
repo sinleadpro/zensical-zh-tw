@@ -2,7 +2,7 @@
 title: 使用順豐出貨
 description: 使用順豐託運單批次或單筆下載出貨，系統自動與順豐即時取號，將訂單貨態更新為已出貨，支援國內台灣本島及海外配送。
 created: 2026-05-20 20:25
-last_modified: 2026-07-09 14:54
+last_modified: 2026-07-09 15:05
 lang: zh-TW
 type: tutorial
 status: ""
@@ -86,16 +86,6 @@ hide: []
 
 ## 使用前提與限制 { #prerequisites-sf }
 
-### 開通條件 { #prerequisites-sf-plan }
-
-| 開通功能 | 用途 | 適用方案 |
-| :-- | :-- | :-- |
-| 順豐託運單 | 國內(台灣本島)順豐出貨 | 一般版以上方案皆可使用 |
-| 順豐海外宅配 | 寄送至海外(中港澳及其他支援國家) | 僅 **企業版** 及 Pro / Business |
-
-
----
-
 ### 必要前置設定 { #prerequisites-sf-config }
 
 第一次使用順豐託運單前，請先完成以下設定，缺一項都會導致託運單無法順利產生或寄件人資訊不完整：
@@ -111,7 +101,7 @@ hide: []
 ### 配送範圍 { #prerequisites-sf-coverage }
 
 * **國內**：僅支援 **台灣本島**。系統會依收件地址自動判斷，**離島地區(澎湖、金門、馬祖、綠島、蘭嶼等)無法產生託運單**，需改用其他配送方式。
-* **海外**：已開通「[順豐海外宅配](../../payments-and-logistics/sf-express-overseas-logistics.md){ title="順豐海外物流" }」者可寄送至中國、香港、澳門及其他順豐支援國家。系統會依收件國家自動切換為英文託運單。
+* **海外**：已啟用「[順豐海外宅配](../../payments-and-logistics/sf-express-overseas-logistics.md){ title="順豐海外物流" }」者可寄送至中國、香港、澳門及其他順豐支援國家。系統會依收件國家自動切換為英文託運單。
 
 ---
 

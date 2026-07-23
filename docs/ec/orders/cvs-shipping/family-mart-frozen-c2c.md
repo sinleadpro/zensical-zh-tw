@@ -1,8 +1,8 @@
 ---
-title: 操作全家冷凍店到店 C2C 出貨
+title: family-mart-frozen-c2c
 description: 操作全家冷凍店到店 C2C 出貨，包括設定流程、訂單出貨、包裝規範、寄件時效及異常處理。
 created:
-last_modified: 2026-07-07 13:57
+last_modified: 2026-07-22 15:03
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/orders/cvs-shipping/family-mart-frozen-c2c
 type: tutorial
@@ -16,7 +16,8 @@ ga_views: 0
 feedback: 0
 products:
   - EC
-modules: []
+modules:
+  - 訂單
 sites:
   - TW
 audiences:

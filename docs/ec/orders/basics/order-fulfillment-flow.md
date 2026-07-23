@@ -3,7 +3,7 @@ title: 訂單出貨流程
 permalink: https://help.cyberbiz.io/ec/orders/basics/order-fulfillment-flow
 version: ""
 author: Jase
-last_modified: 2026-07-02 08:21
+last_modified: 2026-07-13 12:02
 description: ""
 product:
   - EC
@@ -43,7 +43,7 @@ prerequisites:
   - 完成物流設定
   - 填寫公司物流地址
   - 確認儲值中心餘額充足_一般版
-lang: en-US
+lang: zh-TW
 sites: []
 status: 
 difficulty: ""
@@ -90,7 +90,7 @@ icon: lucide/workflow
 正式出貨前，請先確認以下準備事項：
 
 - [x] **Cyber幣 餘額：** 系統串接物流的運費由系統代收，出貨前請確認餘額充足[^billing]。
-- [x] **寄件人地址：** 至「管理中心/一般設定」設定「公司物流地址」，否則產出的託運單寄件人資訊將不完整。
+- [x] **寄件人地址：** 請至後台「金物流」左側選單下，各物流的託運單設定頁面填寫寄件人資訊（如黑貓託運單設定、新竹物流託運單設定等），否則產出的託運單寄件人資訊將不完整。
 - [x] **印表機與耗材：** 建議使用雷射印表機，並備妥 A4 紙與託運單 / 超商標籤貼紙，以確保條碼清晰可判讀。
 
 [^billing]: 一般版於下載託運單時即時預扣 Cyber幣；具備對帳中心的方案(PLUS版、企業版)則改為列入對帳單，於帳期結算。
@@ -149,7 +149,7 @@ icon: lucide/workflow
 
 </div>
 
-!!! tip "批次出貨請勾選同一種超商類型"
+!!! warning "批次出貨請勾選同一種超商類型"
     超商的 B2C、C2C、冷鏈是不同的出貨動作。批次出貨時，請一次只勾選 **同一家超商、同一種類型** 的訂單（例如全部為「7-11 取貨付款」），系統才能用同一個動作完成整批出貨。
 
 ---
@@ -217,10 +217,6 @@ icon: lucide/workflow
 !!! info "為什麼是壓縮檔"
     批次出貨可能一次涵蓋多筆訂單與多份文件，系統統一打包成 ZIP，避免逐筆、逐份分開下載。下載完成後請先解壓縮，再列印所需的託運單與明細。
 
-!!! tip "**黑貓專屬：** 下載黑貓託運單壓縮檔的同時，系統會一併送出 **[叫車（司機收件）](../home-delivery/tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" }** 需求，您不需另外手動叫車[^tcat-call-driver]。"
-
-[^tcat-call-driver]: 此功能需 **專業PLUS / 進階 PLUS / 高手 PLUS / 企業** 方案，並向 CYBERBIZ 客服申請開通。
-
 ---
 
 ## 重要規範與限制 { #specs-fulfillment }
@@ -258,10 +254,6 @@ icon: lucide/workflow
     [](){ #faq-fulfillment-zip-contents }
     系統串接物流的託運單會打包成 ZIP 壓縮檔，內含託運單、出貨明細、揀貨單與訂單明細。請先解壓縮，再列印需要的文件。詳見 [託運單壓縮檔內容](#operate-fulfillment-zip)。
 
-??? quote "出貨後顧客會收到通知嗎"
-    [](){ #faq-fulfillment-notify }
-    自訂物流出貨時可勾選「發送郵件通知顧客」；以大量匯入方式出貨時，系統會在匯入成功後自動發信通知消費者。詳細可參考 [設定與管理 Email 通知樣板](../../notifications/manage-email-templates.md){ title="設定與管理 Email 通知樣板" }。
-
 ??? quote "運費怎麼計算？在哪裡查看"
     [](){ #faq-fulfillment-shipping-fee }
     出貨視窗中的「運費收費表」會列出各材積的費率。實際金額依出貨材積而定；一般版即時預扣 Cyber幣，具備對帳中心的方案則列入對帳單結算。
@@ -276,13 +268,7 @@ icon: lucide/workflow
 
 ??? quote "超商出貨後遇到「門市關轉」，怎麼處理"
     [](){ #faq-fulfillment-store-closed }
-    依超商不同處理方式不同（詳見 [超商 C2C 門市關轉說明](../cvs-shipping/cvs-c2c-shipping.md#operate-cvs-c2c-exception-store-closed){ title="操作超商店到店 C2C 出貨" }）：
-
-    - **7-11：** 可在期限內（依超商規定，通常為關轉後兩天內、且上午 10：30 前）至後台 **重新選擇退回門市** 並 **上傳通知 7-11**。
-    - **全家 / 萊爾富：** 直接走退貨流程，包裹退回物流總倉後，再退到店家填寫的退貨地址。
-
-    !!! note "提醒"
-        7-11 的可處理時間窗（兩天內 / 10:30 前）為超商營運規則，實際期限請以物流商最新公告為準。
+    依超商不同處理方式不同（詳見 [超商 C2C 門市關轉說明](../cvs-shipping/cvs-c2c-shipping.md#operate-cvs-c2c-exception-store-closed){ title="操作超商店到店 C2C 出貨" }）。
 
 ??? quote "同一位顧客有多筆訂單，可以合併出貨嗎"
     [](){ #faq-fulfillment-merge }

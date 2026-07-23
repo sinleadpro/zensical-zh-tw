@@ -2,12 +2,12 @@
 title: 編輯商品描述與商品設定
 description: 設定商品內容、通路與物流屬性，確保前台呈現正確並支援搜尋與行銷需求。
 created: 2026-03-08 10:00
-last_modified: 2026-06-30 11:26
+last_modified: 2026-07-22 17:21
 lang: zh-TW
 type: tutorial
 status: ""
 version: ""
-author: ""
+author: Jase
 reviewers: []
 notes: []
 ga_views: 0
@@ -119,7 +119,7 @@ comments: false
 - **任選折扣群組**：將商品加入已建立的任選折扣群組。詳見 [任選折扣](../../marketing/discounts/mix-and-match-discounts.md){ title="任選折扣" }。
 - **標籤**：為商品添加標籤，用於行銷活動（例如指定商品優惠券）瞭解 [如何設定商品標籤](../categories-and-tags/manage-product-tags.md){ title="管理商品標籤" }。
 - **商品類型**：為商品設定類型標籤，以便管理與篩選。此資訊也會顯示於前台，標籤內容可自訂。
-- **商品通路**：設定商品可銷售的通路。不同通路（預購、現貨、常溫）的商品在結帳時會自動[拆分為多購物車](../checkout/checkout-split-multi-cart.md#多購物車結帳說明){ title="設定結帳自動拆分多購物車" }。
+- **商品通路**：設定商品可銷售的通路。不同通路（預購、現貨、常溫）的商品在結帳時會自動[拆分為多購物車](../checkout/checkout-split-multi-cart.md#結帳拆分多購物車說明){ title="設定結帳自動拆分多購物車" }。
 - **商品廠商**：為商品添加廠商標籤，以便管理與篩選。此資訊也會顯示於前台，內容可自訂。
 - **Google 產品類別**：設定商品類別以覆蓋 Google 自動判斷結果，提升廣告投放精準度。瞭解 [如何將商品同步至 GMC](../../integrations/google/setup-google-merchant-center.md){ title="設定 Google Merchant Center 並同步 CYBERBIZ 商品" }。
 

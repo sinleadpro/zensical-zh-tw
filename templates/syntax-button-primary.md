@@ -1,1 +1,0 @@
-{ .md-button .md-button--primary }

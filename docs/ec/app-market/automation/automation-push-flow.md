@@ -2,7 +2,7 @@
 title: 使用 AUTOMATION 建立自動化推播流程
 description: 在 CYBERBIZ AUTOMATION 中建立自動化流程，設定會員分群並發送簡訊、EDM 或 LINE OA 訊息。
 created: 2026-03-09 14:48
-last_modified: 2026-07-01 12:00
+last_modified: 2026-07-22 15:47
 lang: zh-TW
 type: tutorial
 status:
@@ -16,7 +16,7 @@ products:
   - EC
 modules:
   - app-market
-  - marketing
+  - 行銷活動
 sites:
   - TW
 audiences:
@@ -41,11 +41,11 @@ features:
   - 會員分群
   - 成效追蹤
 prerequisites:
-  - /ec/notifications/send-edm-newsletters-v2
-  - /ec/integrations/line/account-integration/setup-line-quick-login
-  - /ec/integrations/line/account-integration/bind-line-oa-store-members
+  - "[[send-edm-newsletters-v2]]"
+  - "[[setup-line-quick-login]]"
+  - "[[bind-line-oa-store-members]]"
 related:
-  - /ec/notifications/send-edm-newsletters-v2
+  - "[[send-edm-newsletters-v2]]"
 tags:
   - Automation
   - 自動化行銷

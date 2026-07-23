@@ -2,7 +2,7 @@
 title: 設定與列印訂單明細
 description: 自訂訂單明細的顯示內容、套用列印模板、啟用訂單明細列印個資遮罩，以及從訂單列表列印或下載 PDF。
 created: 2026-05-08 14:21
-last_modified: 2026-07-02 07:15
+last_modified: 2026-07-13 12:24
 lang: zh-TW
 type: tutorial
 status: ""
@@ -81,10 +81,10 @@ hide: []
 
 本篇說明如何在後台：
 
-- [x] 自訂訂單明細的顯示內容
-- [x] 套用列印模板
-- [x] 啟用訂單明細列印個資遮罩
-- [x] 從訂單列表列印或下載 PDF
+- 自訂訂單明細的顯示內容
+- 套用列印模板
+- 啟用訂單明細列印個資遮罩
+- 從訂單列表列印或下載 PDF
 
 如需設定提供給內部出貨人員使用的「出貨明細」，請參考另一篇文件：[設定與列印出貨明細](shipping-detail-print.md){ title="設定與列印出貨明細" }。
 
@@ -95,9 +95,11 @@ hide: []
     *   **訂單明細 (顧客)**：通常包含完整的商品內容、單價、金額與配送方式。
     *   **出貨明細 (員工)**：主要提供給倉儲或出貨人員，通常僅包含商品數量與配送地址，**不含訂單金額**，以精簡資訊並節省成本。
 
-## 訂單明細內容設定 { #orders-print }
+## 操作步驟
 
-### 1. 進入訂單明細列印設定 { #orders-print-activate }
+### 訂單明細內容設定 { #orders-print }
+
+#### 1. 進入訂單明細列印設定 { #orders-print-activate }
 
 於後台側邊選單依版本進入以下路徑：
 
@@ -106,7 +108,7 @@ hide: []
 
 ---
 
-### 2. 勾選要呈現的項目 { #orders-print-configure }
+#### 2. 勾選要呈現的項目 { #orders-print-configure }
 
 面板提供多個勾選項目，可依營運需求自由組合（預設皆未勾選）。[完整欄位說明](#orders-print-fields){ data-preview }
 
@@ -125,7 +127,7 @@ hide: []
 
 ---
 
-### 3. 設定開頭提醒文字與圖片 <small>選用</small>
+#### 3. 設定開頭提醒文字與圖片 <small>選用</small>
 
 當您勾選 **「開頭提醒文字」** 後，需於 [步驟五](#orders-print-advanced-settings-alert-text) 的進階設定頁填入「標題」與「內容」，否則將無法儲存。
 
@@ -134,9 +136,7 @@ hide: []
     - **購物須知**：退換貨期限、客服聯絡方式
     - **感謝訊息**：回購折扣碼、社群帳號邀請
 
----
-
-#### 開頭提醒圖片 { #orders-print-alert-image }
+**開頭提醒圖片**
 
 您可於主面板下方上傳圖片：
 
@@ -157,7 +157,7 @@ hide: []
 
 ---
 
-### 4. 儲存設定
+#### 4. 儲存設定
 
 於設定區塊底部點選 **「儲存」** 完成基本設定。
 
@@ -167,30 +167,17 @@ hide: []
 
 ---
 
-### 5. 進階設定 { #orders-print-advanced-settings }
+#### 5. 進階設定 { #orders-print-advanced-settings }
 
 於設定區塊底部點選 **「進階設定」**，進入 **「編輯列印訂單明細樣板」** 頁面。
 
 ![訂單明細設定-進階設定](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-進階設定按鈕.png){ title="訂單明細設定-進階設定" }
 
-您可於此頁：
-
-<div class="grid cards" markdown>
-
-- :lucide-pencil:{ .ig  }
-  [__編輯提醒文字__](#orders-print-advanced-settings-alert-text)
-- :lucide-code:{ .ig  }
-  [__自訂樣板__](#orders-print-template)
-- :lucide-eye:{ .ig  }
-  [__預覽列印效果__](#orders-print-preview)
-- :lucide-rotate-ccw:{ .ig  }
-  [__回復預設樣板__](#orders-print-templates-revert)
-
-</div>
+您可於此頁：[編輯提醒文字](#orders-print-advanced-settings-alert-text)、[自訂樣板](#orders-print-template)、[預覽列印效果](#orders-print-preview)、[回復預設樣板](#orders-print-templates-revert)。
 
 ---
 
-#### 編輯開頭提醒文字 { #orders-print-advanced-settings-alert-text }
+##### 編輯開頭提醒文字 { #orders-print-advanced-settings-alert-text }
 
 若步驟二有勾選「開頭提醒文字」，此頁會出現：
 
@@ -203,7 +190,7 @@ hide: []
 
 ---
 
-#### 自訂樣板 { #orders-print-template }
+##### 自訂樣板 { #orders-print-template }
 
 「樣板」區塊為 Liquid 程式碼，可調整：
 
@@ -220,7 +207,7 @@ hide: []
 
 ---
 
-#### 預覽列印效果 { #orders-print-preview }
+##### 預覽列印效果 { #orders-print-preview }
 
 點選 **「訂單明細預覽」** 後：
 
@@ -243,7 +230,7 @@ hide: []
 
 ---
 
-#### 回復預設樣板 { #orders-print-templates-revert }
+##### 回復預設樣板 { #orders-print-templates-revert }
 
 若需還原樣板：點選 **「回復預設樣板」**，即可恢復系統預設版本。
 
@@ -253,7 +240,7 @@ hide: []
 
 ---
 
-## 如何列印訂單明細 { #orders-print-operate }
+### 列印訂單明細 { #orders-print-operate }
 
 完成 [訂單明細內容設定](#orders-print) 後，可於訂單列表執行列印：
 
@@ -271,14 +258,12 @@ hide: []
 
 ---
 
-## 個資隱碼 { #orders-print-pii-masking }
+### 個資隱碼 { #orders-print-pii-masking }
 
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案){ title="圖示慣例" } | 專業PLUS / 高手 PLUS / 進階 PLUS / 企業版
 { doc-badge }
 
 若您的方案支援此功能，可於列印時遮罩部分會員資訊。
-
-### 開啟方式 { #orders-print-pii-masking-activate }
 
 1. 登入 CYBERBIZ 後台，前往 **安全性設定** > **會員安全**
 2. 找到 **「會員個資部分隱碼」**
@@ -289,16 +274,13 @@ hide: []
 
 ![訂單明細列印-會員個資隱碼](../../../assets/images/EC-管理中心-安全性設定-會員個資隱碼-訂單明細列印.png){ title="訂單明細列印-會員個資隱碼" }
 
----
+??? info "遮罩規則"
 
-### 遮罩規則 { #orders-print-pii-masking-rules }
-
-| 欄位 | 遮罩規則 | 範例 |
-| :-- | :-- | :-- |
-| 姓名 | 保留首字與末字 | 劉 \*\*\*\* 權 |
-| 手機 | 保留前三碼與末一碼 | 093 \*\*\*\*\* 3 |
-| 地址 | 保留郵遞區號、前段與末字 | 10001 台北市松山 \*\*\*\*\* 路 |
-
+    | 欄位 | 遮罩規則 | 範例 |
+    | :-- | :-- | :-- |
+    | 姓名 | 保留首字與末字 | 劉 \*\*\*\* 權 |
+    | 手機 | 保留前三碼與末一碼 | 093 \*\*\*\*\* 3 |
+    | 地址 | 保留郵遞區號、前段與末字 | 10001 台北市松山 \*\*\*\*\* 路 |
 
 ## 出貨壓縮檔內含的訂單明細 { #orders-print-fulfillment-zip }
 
@@ -314,15 +296,15 @@ hide: []
 - 勾選項目
 - 列印樣板
 
-## 後續操作
-
-<div class="grid cards" markdown>
-
-- :lucide-receipt:{ .lg }  
-  日本站發票與收據下載  
-  日本站商家可在此路徑下載符合日本法令格式的發票（Invoice）、收據（Receipt）及對應的退款文件。
-
-</div>
+<!-- ## 後續操作 -->
+<!---->
+<!-- <div class="grid cards" markdown> -->
+<!---->
+<!-- - :lucide-receipt:{ .lg }   -->
+<!--   日本站發票與收據下載   -->
+<!--   日本站商家可在此路徑下載符合日本法令格式的發票（Invoice）、收據（Receipt）及對應的退款文件。 -->
+<!---->
+<!-- </div> -->
 
 ## 常見問題
 
@@ -337,10 +319,6 @@ hide: []
 ??? quote "上傳的提醒圖片變模糊？"
 
     建議使用 90px × 90px 圖檔。若原圖過大，系統縮圖後可能導致模糊。
-
-??? quote "我想隱藏顧客地址中間段，但找不到設定？"
-
-    請確認您的方案是否支援「訂單明細列印個資隱碼」。若支援，請至：**管理中心 > 安全性設定 > 會員安全** 開啟相關功能。
 
 ??? quote "出貨明細與訂單明細是同一份嗎？"
 

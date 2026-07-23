@@ -1,8 +1,12 @@
 ---
+acoiv:
+apis:
+search:
+  exclude: false
 title: 全站共用設定
 description: 設定拖拉版型的全站共用設定，包含彈窗廣告、顏色、品牌識別、SEO、商品顯示行為與動態標籤。
 created:
-last_modified: 2026-07-06 15:40
+last_modified: 2026-07-22 16:23
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-global-theme-settings
 type: tutorial
@@ -17,8 +21,6 @@ products:
   - EC
 modules:
   - 網站外觀
-  - 套版主題管理
-  - 商品管理
 sites:
   - TW
 audiences:
