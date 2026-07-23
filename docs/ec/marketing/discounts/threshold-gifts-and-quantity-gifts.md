@@ -23,12 +23,12 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans:
-  - 企業
   - 專業PLUS
   - 進階
   - 進階PLUS
   - 高手
   - 高手PLUS
+  - 企業
 cyb_extensions: []
 intents:
   - 設定滿額贈
@@ -66,6 +66,9 @@ hide: []
 
 建立滿額贈與滿件贈活動，設定訂單或特定標籤商品的金額/件數門檻，自動發送贈品並管理累贈規則。
 { .subtitle }
+
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 進階 / 高手 / 所有PLUS / 企業
+{ .doc-badge }
 
 ![](../../../assets/images/EC-後台-行銷活動-滿額贈滿件贈-畫面總覽01.png){ .hero-page }
 
