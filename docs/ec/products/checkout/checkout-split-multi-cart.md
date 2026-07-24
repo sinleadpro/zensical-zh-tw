@@ -2,7 +2,7 @@
 title: 設定結帳自動拆分多購物車
 description: 依據商品的通路、溫層、物流及預購屬性設定拆單規則，讓系統在結帳時自動將商品分配至多個購物車。
 created: 2026-03-05 15:00
-last_modified: 2026-07-03 13:11
+last_modified: 2026-07-15 13:58
 lang: zh-TW
 type: tutorial
 status:
@@ -74,7 +74,7 @@ comments: false
 
 ![結帳分拆多購物車](../../../assets/images/ec-split-checkout-multi-cart-frontend.zh-tw.png){ .hero-page title="結帳分拆多購物車" }
 
-## 多購物車結帳說明
+## 結帳拆分多購物車說明
 
 當顧客購物車內的商品屬於不同的 「配送條件」（如配送通路、配送溫層或物流方式）時，**系統會在結帳流程中自動將商品拆分為多個獨立購物車**。每個購物車將：
     
@@ -111,20 +111,22 @@ comments: false
         ```
 
 ## 操作流程
+
 ### 設定商品通路
+
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions.md#conventions-plans) | 高手 / PLUS / 企業
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 所有商品**。
 2. 點擊目標商品進入編輯頁面，並切換至 **設定** 頁籤。
 3. 在「商品通路」區塊，新增或管理商品通路。預設值為空，表示該商品適用所有通路。
 
+![商品通路設定](../../../assets/images/ec-product-distribution-channel-setting.zh-tw.png){ title="商品通路設定" }	
+
 !!! tip "通路新增與命名規則"
     可直接輸入通路名稱以新增，**新增後不可刪除**。不可新增重複名稱的通路，如需相同名稱，請透過編號區分。每個商品僅能綁定 **一個通路**。
 
 ??? info "商品通路的運作邏輯"
     可將 商品通路 視作一種標籤，自行建立名稱套用至商品。系統會依據通路自動拆分成多個購物車，獨立計算優惠與運費。
-
-![商品通路設定](../../../assets/images/ec-product-distribution-channel-setting.zh-tw.png){ title="商品通路設定" }	
 
 ---
 

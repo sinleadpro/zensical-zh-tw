@@ -2,7 +2,7 @@
 title: 會員等級銷售狀況對照表
 description: 會員總覽分頁中會員等級銷售狀況的統計分類對照，說明 VIP 會員與普通會員的定義及銷售貢獻比較。
 created: 2026-06-16
-last_modified: 2026-06-17 10:37
+last_modified: 2026-07-10 14:25
 lang: zh-TW
 type: reference
 status: ""
@@ -24,8 +24,6 @@ tags:
   - 普通會員
   - 銷售狀況
   - 會員總覽
-  - EC
-  - 參考資料
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/member-level-sales-status-reference/"
 icon: lucide/table
 hide:

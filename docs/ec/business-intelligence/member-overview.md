@@ -2,14 +2,15 @@
 title: 會員總覽
 description: 從性別、年齡、註冊來源到會員等級描繪會員輪廓，協助調整商品文案、廣告受眾與會員制度。
 created: 2026-06-16
-last_modified: 2026-06-25 16:08
+last_modified: 2026-07-10 15:20
 lang: zh-TW
 type: tutorial
 status: ""
 version: ""
 author: Jase
 reviewers: []
-notes: []
+notes: 
+  - verify 適用方案是否包括專業跟進階
 ga_views: 0
 feedback: 0
 products:
@@ -82,16 +83,13 @@ hide: []
 - **會員年齡分群**：不同年齡區間的會員人數。
 - **會員現況**：依註冊狀態與登入來源(FB、LINE 等)分類的會員數。
 - **期間別會員等級銷售狀況**：VIP 會員與普通會員的銷售貢獻對比。
-- **來自Line購物銷售狀況**：來自 LINE 購物通路的銷售(需開通 LINE 購物功能才會出現)。
+- **來自 LINE 購物銷售狀況**：來自 LINE 購物通路的銷售(需啟用 LINE 購物功能才會出現)。
 
 ## 使用前提與限制 { #prerequisites-member-overview }
 
 ### 方案開通條件 { #prerequisites-member-overview-plan }
 
-「會員總覽」屬於進階的會員輪廓分析，僅在企業版顯示。
-
-!!! plan "方案 / 開通條件"
-    「會員總覽」分頁僅在 **企業版** 中出現。若您的方案未包含此功能，進入會員分析頁面時不會看到「會員總覽」分頁，只會看到「會員分析」分頁。如需使用，請聯絡客服或您的開店顧問確認方案。
+「會員總覽」屬於進階的會員輪廓分析，僅在 **企業版** 顯示。
 
 ---
 
@@ -102,13 +100,13 @@ hide: []
 
 ## 頁面功能總覽 { #overview-member-overview }
 
-| 區塊 | 類型 | 看什麼 | 出現條件 |
-| :-- | :-- | :-- | :-- |
-| [會員性別分群](#operate-member-overview-gender) | 表格 | 男性、女性、未填寫的會員人數 | 企業版 |
-| [會員年齡分群](#operate-member-overview-age) | 表格 | 各年齡區間的會員人數 | 企業版 |
-| [會員現況](#operate-member-overview-status) | 表格 | 依註冊狀態與登入來源分類的會員數 | 企業版 |
-| [期間別會員等級銷售狀況](#operate-member-overview-levels) | 表格 | VIP 會員與普通會員的銷售貢獻對比 | 企業版 |
-| [來自LINE購物銷售狀況](#operate-member-overview-line) | 表格 | 來自 LINE 購物通路的銷售狀況 | 需開通 LINE 購物功能 |
+| 區塊 | 類型 | 看什麼 |
+| :-- | :-- | :-- |
+| [會員性別分群](#operate-member-overview-gender) | 表格 | 男性、女性、未填寫的會員人數 |
+| [會員年齡分群](#operate-member-overview-age) | 表格 | 各年齡區間的會員人數 |
+| [會員現況](#operate-member-overview-status) | 表格 | 依註冊狀態與登入來源分類的會員數 |
+| [期間別會員等級銷售狀況](#operate-member-overview-levels) | 表格 | VIP 會員與普通會員的銷售貢獻對比 |
+| [來自LINE購物銷售狀況](#operate-member-overview-line) | 表格 | 來自 LINE 購物通路的銷售狀況 |
 
 各分類的詳細意義，請參考[會員現況與註冊來源對照表](references/member-status-registration-sources-reference.md#reference-member-registration-sources){ title="會員現況與註冊來源對照表" data-preview }、[會員年齡分群對照表](references/member-age-groups-reference.md#reference-member-age-groups){ title="會員年齡分群對照表" data-preview } 與[會員等級銷售狀況對照表](references/member-level-sales-status-reference.md#reference-member-levels){ title="會員等級銷售狀況對照表" data-preview }。
 
@@ -162,7 +160,7 @@ hide: []
 
 ### 查看 LINE 購物 { #operate-member-overview-line }
 
-「來自 LINE 購物銷售狀況」區塊列出來自 LINE 購物通路的銷售數據。此區塊需開通 LINE 購物功能才會出現，未開通則不顯示。
+「來自 LINE 購物銷售狀況」區塊列出來自 LINE 購物通路的銷售數據。此區塊需啟用 LINE 購物功能才會出現。
 
 ![LINE 購物銷售狀況表格](../../assets/images/ec-bi-customer-line-shopping.zh-tw.png){ title="LINE 購物銷售狀況" }
 
@@ -179,7 +177,7 @@ hide: []
 
 - **僅計入有效訂單：** 銷售相關數字不含已取消、已退貨的訂單。
 - **數據為隔日更新：** 當天的下單與註冊不會即時反映。
-- **LINE 購物區塊為動態顯示：** 「來自Line購物銷售狀況」需開通 LINE 購物功能才會出現，未開通則不顯示。
+- **LINE 購物區塊為動態顯示：** 「來自Line購物銷售狀況」需啟用 LINE 購物功能才會出現。
 - **年齡依生日即時換算：** 未填寫生日的會員會歸入「未填寫」。
 
 ## 後續操作 { #next-steps-member-overview }
@@ -197,20 +195,6 @@ hide: []
 </div>
 
 ## 常見問題 { #faq-member-overview }
-
-??? quote "找不到「會員總覽」分頁"
-    [](){ #faq-member-overview-missing-tab }
-    「會員總覽」只在企業版顯示。
-
-    - 若您的方案未包含，進入會員分析頁面只會看到「會員分析」分頁。
-    - 如需使用，請聯絡客服或您的開店顧問確認方案。
-
-??? quote "沒有「來自Line購物銷售狀況」區塊"
-    [](){ #faq-member-overview-line-shopping }
-    這個區塊需要先開通 LINE 購物功能才會出現。
-
-    - 未開通 LINE 購物的商店不會顯示此區塊。
-    - 若需串接 LINE 購物通路，請聯絡客服或您的開店顧問。
 
 ??? quote "「未填寫」的會員人數很多"
     [](){ #faq-member-overview-unfilled }

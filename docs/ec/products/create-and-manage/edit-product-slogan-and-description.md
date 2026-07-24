@@ -2,12 +2,12 @@
 title: 編輯商品簡述與商品標語
 description: 客製商品標語與商品簡述文字樣式、修改商品文案
 created: 2026-01-08 00:00
-last_modified: 2026-07-03T11:44:11+08:00
+last_modified: 2026-07-22 17:25
 lang: zh-TW
 type: tutorial
 status:
 version:
-author:
+author: Jase
 reviewers: []
 notes:
   - verify FAQ

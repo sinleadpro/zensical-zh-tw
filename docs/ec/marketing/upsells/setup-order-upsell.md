@@ -2,12 +2,12 @@
 title: 設定訂單加價購
 description: 設定訂單加價購可依訂單金額或條件作為觸發門檻，於結帳流程中提供顧客以優惠價格加購指定商品。
 created: 2026-01-12 00:00
-last_modified: 2026-06-30 10:56
+last_modified: 2026-07-22 17:39
 lang: zh-TW
 type: tutorial
 status:
 version:
-author:
+author: Jase
 reviewers: []
 notes: []
 ga_views: 0

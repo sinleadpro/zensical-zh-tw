@@ -2,7 +2,7 @@
 title: 拖拉版型網站設定
 description: 使用拖拉版型編輯器調整官網版面，包含新增區塊、編輯內容、排序、發布等操作。
 created:
-last_modified: 2026-07-09 14:35
+last_modified: 2026-07-22 16:23
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/theme-editor
 type: tutorial
@@ -19,7 +19,6 @@ products:
   - EC
 modules:
   - 網站外觀
-  - 套版主題管理
 sites:
   - TW
 audiences:
@@ -56,6 +55,10 @@ devices:
   - tablet
   - mobile
 ui_components: []
+acoiv:
+apis:
+search:
+  exclude: false
 paths:
   - 網站外觀 > 套版主題管理
 layouts:

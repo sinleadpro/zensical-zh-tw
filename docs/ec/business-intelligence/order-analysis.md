@@ -2,7 +2,7 @@
 title: 訂單分析
 description: 使用訂單分析頁面查看銷售趨勢、金物流偏好與業績報表
 created: 2026-06-15
-last_modified: 2026-07-07 16:51
+last_modified: 2026-07-10 13:12
 lang: zh-TW
 type: tutorial
 status: ""
@@ -41,7 +41,6 @@ features:
 prerequisites:
   - 已開通 CYBERBIZ 商店後台
 related:
-  - "[[order-analysis-tabs-reference]]"
   - "[[order-analysis-overview-metrics-reference]]"
   - "[[order-analysis-finance-logistics-reference]]"
   - "[[order-analysis-report-fields-reference]]"
@@ -81,21 +80,16 @@ hide:
 
 「訂單分析」是商店掌握經營成效的報表頁面，從宏觀的銷售趨勢到細部的取消率、退貨率、導購來源，協助您快速看懂訂單的整體健康度。
 
-整個頁面分為三個分頁： **訂單總體分析** 看整體銷售趨勢與健康度指標、 **訂單金物流分析** 看付款與出貨的偏好、 **訂單報表** 提供可下載的業績明細表。部分方案僅會看到「訂單總體分析」，詳見 [使用前提與限制](#prerequisites-order-analysis)。
-
----
+整個頁面分為三個分頁： **訂單總體分析**(整體銷售趨勢與健康度指標)、 **訂單金物流分析**(付款與出貨的偏好)、 **訂單報表**(提供可下載業績明細表)。
 
 ## 頁面功能總覽 { #overview-order-analysis }
 
-| 分頁 | 用途 |
+| 分頁 | 商家可看到的內容 |
 | :-- | :-- |
-| 訂單總體分析 | 總訂單數、近 30 日訂單數、訂單金額與商品數分布，以及取消率、退貨率等趨勢。 |
-| 訂單金物流分析 | 依付款方式、出貨方式、第三方導購拆解的訂單數、占比、平均客單價與退貨率。 |
+| 訂單總體分析 | 商店整體的訂單量、客單價、單筆訂單金額與商品數分布，以及取消率、退貨率等健康度指標。 |
+| 訂單金物流分析 | 依付款方式、出貨方式、第三方導購拆解的訂單數趨勢、占比、平均客單價與退貨率。 |
 | 訂單報表 | 日期區間對比、各時段業績、每日業績三張可下載成 Excel 的表格。 |
 
-完整的分頁顯示條件與方案差異，請見 [訂單分析分頁與方案對照](references/order-analysis-tabs-reference.md#reference-order-analysis-tabs){ data-preview }。
-
----
 
 ### 訂單總體分析的圖表 { #overview-order-analysis-overall }
 
@@ -151,7 +145,7 @@ hide:
     | 退貨率（月趨勢） | 各月各來源的退貨率。 | [前往](#read-order-analysis-read-third-party) |
     | 退貨率（區間） | 區間各來源的退貨率。 | [前往](#read-order-analysis-read-third-party) |
 
-各圖表的詳細定義，請見 [訂單金物流分析圖表對照](references/order-analysis-finance-logistics-reference.md#reference-order-analysis-finance-logistics){ title="訂單金物流分析圖表對照" }。
+各圖表的詳細定義，請見 [訂單金物流分析圖表對照](references/order-analysis-finance-logistics-reference.md#reference-order-analysis-finance-logistics){ title="訂單金物流分析圖表對照" data-preview }。
 
 !!! note "母數差異"
     付款方式的占比以 **總訂單數** 為母數；出貨方式、第三方導購的占比與平均客單價以 [認列訂單](#prerequisites-order-analysis-recognized-order){ title="認列訂單定義" } 為母數。各維度退貨率分母一律為「非取消訂單」。
@@ -211,7 +205,7 @@ hide:
 
 ### 方案差異 { #prerequisites-order-analysis-plan }
 
-「訂單金物流分析」與「訂單報表」兩個分頁，只在部分方案開放。若您只看得到「訂單總體分析」一個分頁，代表您目前的方案不含另外兩個分頁。
+「訂單金物流分析」與「訂單報表」兩個分頁，只適用 **企業版**。若您只看得到「訂單總體分析」一個分頁，代表您目前的方案不含另外兩個分頁。
 
 ??? plan "哪些方案只看得到「訂單總體分析」？"
     以下四種方案 **只會顯示「訂單總體分析」**，不會出現「訂單金物流分析」與「訂單報表」分頁：
@@ -220,8 +214,6 @@ hide:
     * 高手PLUS版
     * 專業PLUS版
     * 進階PLUS版
-
-    如需升級方案以解鎖完整報表，請洽詢您的開店顧問。
 
 ---
 
@@ -308,9 +300,6 @@ hide:
 
 ## 看懂訂單總體分析 { #read-order-analysis-overall }
 
-!!! plan "企業版專用"
-    本章節的圖表僅適用於 **企業版** 方案。
-
 「訂單總體分析」以數據卡與多張趨勢、占比圖呈現全店訂單的整體健康度。各圖表的完整定義與計算公式請見 [訂單總體分析指標對照](references/order-analysis-overview-metrics-reference.md#reference-order-analysis-overview-metrics){ data-preview }。
 
 ### 訂單數量 { #read-order-analysis-read-volume }
@@ -347,11 +336,15 @@ hide:
 
     各月依訂單金額級距分組的訂單筆數。例：2020 年 2 月，金額 0~1000 元的訂單有 3 筆。
 
+    將滑鼠移到資料點上，即會顯示該金額級距的訂單筆數；點擊項目名稱，可隱藏或顯示該項目資料。
+
     ![單筆訂單金額月趨勢](../../assets/images/ec-bi-order-amount-monthly.zh-tw.png){ title="單筆訂單金額月趨勢" }
 
 === "單筆訂單金額月趨勢 比例"
 
     所選月份各金額級距的訂單占比。例：2020 年 5 月，金額 3001~5000 元佔當月 32.1%。
+
+    將滑鼠移到長條上，即會顯示該金額級距的占比；點擊項目名稱，可隱藏或顯示該項目資料。
 
     ![單筆訂單金額月趨勢 比例](../../assets/images/ec-bi-order-amount-monthly-ratio.zh-tw.png){ title="單筆訂單金額月趨勢 比例" }
 
@@ -359,17 +352,23 @@ hide:
 
     時間區間內各金額級距占總訂單數的比例（不分月）。
 
+    將滑鼠移到圖塊上，即會顯示該金額級距的占比；點擊項目名稱，可隱藏或顯示該項目資料。
+
     ![單筆訂單金額（占比）](../../assets/images/ec-bi-order-amount-ratio.zh-tw.png){ title="單筆訂單金額（占比）" }
 
 === "單筆訂單商品數（占比）"
 
     各商品數量級距的訂單占比。商品數量 **含加價購及滿額贈**。
 
+    將滑鼠移到圖塊上，即會顯示該商品數級距的占比；點擊項目名稱，可隱藏或顯示該項目資料。
+
     ![單筆訂單商品數（占比）](../../assets/images/ec-bi-order-item-count-ratio.zh-tw.png){ title="單筆訂單商品數（占比）" }
 
 === "每日平均訂單金額（月趨勢）"
 
     各月的每日平均訂單金額，另含 **近 30 日平均訂單金額**[^7] 與 **變動值**[^3]。
+
+    將滑鼠移到資料點上，即會顯示該月的平均訂單金額。
 
     ![每日平均訂單金額（月趨勢）](../../assets/images/ec-bi-order-daily-avg-amount.zh-tw.png){ title="每日平均訂單金額（月趨勢）" }
 
@@ -381,11 +380,15 @@ hide:
 
     各月的訂單取消率（當月已取消訂單 ÷ 當月所有訂單），另含 **近 30 日取消率**[^8] 與 **變動值**[^4]。
 
+    將滑鼠移到資料點上，即會顯示該月的取消率。
+
     ![訂單取消率月趨勢](../../assets/images/ec-bi-order-cancel-rate.zh-tw.png){ title="訂單取消率月趨勢" }
 
 === "訂單退貨率月趨勢"
 
     各月的訂單退貨率（當月已退貨訂單 ÷ 非「已取消」訂單；已取消無法出貨故排除），另含 **近 30 日退貨率**[^9] 與 **變動值**[^5]。
+
+    將滑鼠移到資料點上，即會顯示該月的退貨率。
 
     ![訂單退貨率月趨勢](../../assets/images/ec-bi-order-return-rate.zh-tw.png){ title="訂單退貨率月趨勢" }
 
@@ -403,8 +406,7 @@ hide:
 
 ## 看懂訂單金物流分析 { #read-order-analysis-finance-logistics }
 
-!!! plan "企業版專用"
-    本章節的圖表僅適用於 **企業版** 方案。
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 企業
 
 「訂單金物流分析」把訂單依 **付款方式、出貨方式、第三方導購** 三個維度拆解，從訂單數、占比、平均客單價、退貨率等角度觀察。各圖表的完整計算公式請見 [訂單金物流分析圖表對照](references/order-analysis-finance-logistics-reference.md#reference-order-analysis-finance-logistics){ title="訂單金物流分析圖表對照" }。
 
@@ -414,11 +416,15 @@ hide:
 
     各月各付款方式的訂單數。
 
+    將滑鼠移到資料點上，即會顯示該月的訂單數；點擊項目名稱，可隱藏或顯示該項目資料。
+
     ![付款方式訂單數月趨勢](../../assets/images/ec-bi-order-payment-count-trend.zh-tw.png){ title="付款方式訂單數月趨勢" }
 
 === "占比（月趨勢）"
 
     各月各付款方式的訂單占比。例：2020 年 4 月，信用卡 468 筆，佔當月 47.3%。
+
+    將滑鼠移到資料點上，即會顯示該月的占比；點擊項目名稱，可隱藏或顯示該項目資料。
 
     ![付款方式占比月趨勢](../../assets/images/ec-bi-order-payment-ratio-trend.zh-tw.png){ title="付款方式占比月趨勢" }
 
@@ -426,17 +432,23 @@ hide:
 
     時間區間內各付款方式的訂單占比。例：信用卡 3427 筆，佔 47%。
 
+    將滑鼠移到圖塊上，即會顯示該付款方式的占比；點擊項目名稱，可隱藏或顯示該項目資料。
+
     ![付款方式占比](../../assets/images/ec-bi-order-payment-ratio.zh-tw.png){ title="付款方式占比" }
 
 === "平均訂單金額（月趨勢）"
 
     各月各付款方式的平均訂單金額（該付款方式訂單總金額 ÷ 該付款方式訂單數）。
 
+    將滑鼠移到資料點上，即會顯示該月的平均訂單金額；點擊項目名稱，可隱藏或顯示該項目資料。
+
     ![付款方式平均金額月趨勢](../../assets/images/ec-bi-order-payment-aov-trend.zh-tw.png){ title="付款方式平均金額月趨勢" }
 
 === "平均訂單金額（區間）"
 
     時間區間內各付款方式的平均訂單金額。
+
+    將滑鼠移到長條上，即會顯示該付款方式的平均訂單金額。
 
     ![付款方式平均金額](../../assets/images/ec-bi-order-payment-aov.zh-tw.png){ title="付款方式平均金額" }
 
@@ -458,11 +470,15 @@ hide:
 
     各月各出貨方式的訂單數。例：2020 年 5 月，黑貓 751 筆。
 
+    將滑鼠移到資料點上，即會顯示該月的訂單數；點擊項目名稱，可隱藏或顯示該項目資料。
+
     ![出貨方式訂單數月趨勢](../../assets/images/ec-bi-order-shipping-count-trend.zh-tw.png){ title="出貨方式訂單數月趨勢" }
 
 === "占比（月趨勢）"
 
     各月各出貨方式的認列訂單占當月所有認列訂單的比率。例：2020 年 5 月，黑貓佔 62.6%。
+
+    將滑鼠移到資料點上，即會顯示該月的占比；點擊項目名稱，可隱藏或顯示該項目資料。
 
     ![出貨方式占比月趨勢](../../assets/images/ec-bi-order-shipping-ratio-trend.zh-tw.png){ title="出貨方式占比月趨勢" }
 
@@ -470,11 +486,15 @@ hide:
 
     時間區間內各出貨方式的認列訂單比率。例：黑貓 4845 筆，佔 62%。
 
+    將滑鼠移到圖塊上，即會顯示該出貨方式的占比；點擊項目名稱，可隱藏或顯示該項目資料。
+
     ![出貨方式占比](../../assets/images/ec-bi-order-shipping-ratio.zh-tw.png){ title="出貨方式占比" }
 
 === "平均客單價（月趨勢）"
 
     各月各出貨方式的平均訂單金額（以該出貨方式的認列訂單計）。例：黑貓 3575.96 元。
+
+    將滑鼠移到資料點上，即會顯示該月的平均訂單金額；點擊項目名稱，可隱藏或顯示該項目資料。
 
     ![出貨方式平均客單價月趨勢](../../assets/images/ec-bi-order-shipping-aov-trend.zh-tw.png){ title="出貨方式平均客單價月趨勢" }
 
@@ -482,11 +502,15 @@ hide:
 
     時間區間內各出貨方式的平均訂單金額。例：黑貓 3799.98 元。
 
+    將滑鼠移到長條上，即會顯示該出貨方式的平均訂單金額。
+
     ![出貨方式平均客單價](../../assets/images/ec-bi-order-shipping-aov.zh-tw.png){ title="出貨方式平均客單價" }
 
 === "退貨率（月趨勢）"
 
     各月各出貨方式的退貨率（該出貨方式已退貨訂單 ÷ 該出貨方式非取消訂單）。
+
+    將滑鼠移到資料點上，即會顯示該月的退貨率；點擊項目名稱，可隱藏或顯示該項目資料。
 
     ![出貨方式退貨率月趨勢](../../assets/images/ec-bi-order-shipping-return-trend.zh-tw.png){ title="出貨方式退貨率月趨勢" }
 
@@ -494,18 +518,22 @@ hide:
 
     時間區間內各出貨方式的退貨率。
 
+    將滑鼠移到長條上，即會顯示該出貨方式的退貨率。
+
     ![出貨方式退貨率](../../assets/images/ec-bi-order-shipping-return.zh-tw.png){ title="出貨方式退貨率" }
 
 ---
 
 ### 第三方導購 { #read-order-analysis-read-third-party }
 
-!!! info "顯示條件"
-    此組圖表需已串接導購平台才會出現，並依實際串接的平台呈現各來源，詳見 [第三方導購圖表的顯示條件](#prerequisites-order-analysis-third-party){ title="第三方導購圖表的顯示條件" }。
+!!! plan "顯示條件"
+    此組圖表需已串接導購平台才會出現，並依實際串接的平台呈現各來源，詳見 [第三方導購圖表的顯示條件](#prerequisites-order-analysis-third-party){ title="第三方導購圖表的顯示條件" data-preview }。
 
 === "訂單數（月趨勢）"
 
     各月各訂單來源的訂單數。例：2020 年 4 月，LINE 購物 90 筆。
+
+    將滑鼠移到資料點上，即會顯示該月的訂單數；點擊項目名稱，可隱藏或顯示該項目資料。
 
     ![第三方導購訂單數月趨勢](../../assets/images/ec-bi-order-referral-count-trend.zh-tw.png){ title="第三方導購訂單數月趨勢" }
 
@@ -513,11 +541,15 @@ hide:
 
     時間區間內各來源的認列訂單占所有認列訂單的比例。
 
+    將滑鼠移到圖塊上，即會顯示該來源的占比；點擊項目名稱，可隱藏或顯示該項目資料。
+
     ![第三方導購占比](../../assets/images/ec-bi-order-referral-ratio.zh-tw.png){ title="第三方導購占比" }
 
 === "平均客單價（月趨勢）"
 
     各月各來源的平均訂單金額（該來源認列訂單總金額 ÷ 該來源認列訂單數）。例：2020 年 5 月，LINE 購物 3312.93 元。
+
+    將滑鼠移到資料點上，即會顯示該月的平均訂單金額；點擊項目名稱，可隱藏或顯示該項目資料。
 
     ![第三方導購平均客單價月趨勢](../../assets/images/ec-bi-order-referral-aov-trend.zh-tw.png){ title="第三方導購平均客單價月趨勢" }
 
@@ -525,17 +557,23 @@ hide:
 
     時間區間內各來源的平均訂單金額。例：LINE 購物 3222.52 元。
 
+    將滑鼠移到長條上，即會顯示該來源的平均訂單金額。
+
     ![第三方導購平均客單價](../../assets/images/ec-bi-order-referral-aov.zh-tw.png){ title="第三方導購平均客單價" }
 
 === "退貨率（月趨勢）"
 
     各月各來源的退貨率（該來源已退貨訂單 ÷ 該來源非取消訂單）。
 
+    將滑鼠移到資料點上，即會顯示該月的退貨率；點擊項目名稱，可隱藏或顯示該項目資料。
+
     ![第三方導購退貨率月趨勢](../../assets/images/ec-bi-order-referral-return-trend.zh-tw.png){ title="第三方導購退貨率月趨勢" }
 
 === "退貨率（區間）"
 
     時間區間內各來源的退貨率。
+
+    將滑鼠移到長條上，即會顯示該來源的退貨率。
 
     ![第三方導購退貨率](../../assets/images/ec-bi-order-referral-return.zh-tw.png){ title="第三方導購退貨率" }
 
@@ -559,9 +597,9 @@ hide:
     * 訂單分析只計算 [認列訂單](#prerequisites-order-analysis-recognized-order){ title="認列訂單定義" data-preview }，已取消與退貨成立的訂單不會被算進去。
     * 報表數據是定時批次更新的，並非即時，因此會比「所有訂單」列表略有延遲。
 
-??? quote "為什麼我看不到「訂單金物流分析」或「訂單報表」分頁？"
-    [](){ #faq-order-analysis-missing-tabs }
-    這是方案差異。高手版、高手PLUS版、專業PLUS版、進階PLUS版這四種方案只會顯示「訂單總體分析」。如需完整三個分頁，請洽詢開店顧問升級方案，詳見 [方案差異](#prerequisites-order-analysis-plan){ title="方案差異" }。
+<!-- ??? quote "為什麼我看不到「訂單金物流分析」或「訂單報表」分頁？" -->
+<!--     [](){ #faq-order-analysis-missing-tabs } -->
+<!--     這是方案差異。高手版、高手PLUS版、專業PLUS版、進階PLUS版這四種方案只會顯示「訂單總體分析」。 -->
 
 ??? quote "卡片上的「變動值」是什麼意思？"
     [](){ #faq-order-analysis-variation }
@@ -579,7 +617,6 @@ hide:
 
 ## 參考資料 { #reference-order-analysis }
 
-* [訂單分析分頁與方案對照](references/order-analysis-tabs-reference.md)
 * [訂單總體分析指標對照](references/order-analysis-overview-metrics-reference.md)
 * [訂單金物流分析圖表對照](references/order-analysis-finance-logistics-reference.md)
 * [訂單報表欄位對照](references/order-analysis-report-fields-reference.md)

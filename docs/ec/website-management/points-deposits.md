@@ -2,7 +2,7 @@
 title: Cyber 幣儲值中心使用指南
 description: Cyber 幣儲值中心使用指南，包含儲值步驟、發票資訊填寫、付款方式與使用明細查詢。
 created: 2026-04-28 10:38
-last_modified: 2026-07-06T17:31:38+08:00
+last_modified: 2026-07-22 15:51
 lang: zh-TW
 type: guide
 status: ""
@@ -15,7 +15,7 @@ feedback: 0
 products:
   - EC
 modules:
-  - 官網設定
+  - 管理中心
 sites:
   - TW
 audiences:

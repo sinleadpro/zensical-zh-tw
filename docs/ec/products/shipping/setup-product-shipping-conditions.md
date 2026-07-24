@@ -2,12 +2,12 @@
 title: 設定商品配送條件（物流、溫層與出貨通路）
 description: 設定商品的配送溫層與物流，並以一般宅配與貨到付款為例，說明運費設定、商品綁定及結帳拆單行為。
 created: 2026-01-06 00:00
-last_modified: 2026-06-30 11:26
+last_modified: 2026-07-22 17:40
 lang: zh-TW
 type: tutorial
 status:
 version:
-author:
+author: Jase
 reviewers: []
 notes:
   - verify FAQ
@@ -178,7 +178,7 @@ hide: []
 ## 設定商品配送方式
 
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions.md#conventions-plans){ title="圖示慣例" } | 
-高手 / PLUS / 企業
+高手 / PLUS版 / 企業
 
 您可以為個別商品設定其可使用的配送物流方式。如需了解綁定機制，請先參閱 [什麼是綁定配送條件](#配送條件綁定說明)。
 
@@ -309,7 +309,7 @@ hide: []
 !!! info "若各購物車未達免運門檻，將分別計算並收取運費。"
 
 !!! tip "簡化配送條件設定以降低棄單風險"
-	當商品同時設定多個配送條件（商品通路、配送溫層、配送物流）時，系統會在結帳時依配送條件自動將商品拆分為多個購物車，*增加顧客結帳的複雜度及運費負擔*。瞭解[多購物車結帳說明](../checkout/checkout-split-multi-cart.md#多購物車結帳說明){ title="設定結帳自動拆分多購物車" }。
+	當商品同時設定多個配送條件（商品通路、配送溫層、配送物流）時，系統會在結帳時依配送條件自動將商品拆分為多個購物車，*增加顧客結帳的複雜度及運費負擔*。瞭解[多購物車結帳說明](../checkout/checkout-split-multi-cart.md#結帳拆分多購物車說明){ title="設定結帳自動拆分多購物車" }。
 
 ## 後續步驟
 
@@ -319,7 +319,7 @@ hide: []
    [__批次修改配送設定__](../bulk-operations/batch-update-product-descriptions-shipping.md){ title="批次修改商品描述與配送設定" }   
    使用 Excel 批次修改多筆商品的配送設定。
 - :lucide-shopping-cart:{ .lg }  
-   [__結帳拆分多購物車__](../checkout/checkout-split-multi-cart.md#多購物車結帳說明){ title="設定結帳自動拆分多購物車" }   
+   [__結帳拆分多購物車__](../checkout/checkout-split-multi-cart.md#結帳拆分多購物車說明){ title="設定結帳自動拆分多購物車" }   
    瞭解商品的多種配送條件如何在結帳時形成多購物車。
 
 </div>
@@ -333,4 +333,4 @@ hide: []
     可以。在商品編輯頁面的「設定」頁籤中，您可以勾選多個溫層來綁定商品。
 
 ??? quote "為什麼顧客結帳時會出現多個購物車？"
-    當顧客購買的商品包含不同溫層、配送物流或出貨通路時，系統會自動拆分為多個購物車進行結帳。瞭解[多購物車結帳說明](../checkout/checkout-split-multi-cart.md#多購物車結帳說明){ title="設定結帳自動拆分多購物車" }。
+    當顧客購買的商品包含不同溫層、配送物流或出貨通路時，系統會自動拆分為多個購物車進行結帳。瞭解[多購物車結帳說明](../checkout/checkout-split-multi-cart.md#結帳拆分多購物車說明){ title="設定結帳自動拆分多購物車" }。

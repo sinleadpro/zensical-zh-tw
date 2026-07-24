@@ -2,7 +2,7 @@
 title: 會員現況與註冊來源對照表
 description: 會員總覽分頁中會員現況區塊的分類意義對照，包含新舊會員、註冊狀態及第三方登入來源說明。
 created: 2026-06-16
-last_modified: 2026-06-16
+last_modified: 2026-07-10 14:20
 lang: zh-TW
 type: reference
 status: ""
@@ -26,8 +26,6 @@ tags:
   - 註冊會員
   - FB 登入
   - LINE 登入
-  - EC
-  - 參考資料
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/member-status-registration-sources-reference/"
 icon: lucide/table
 hide:

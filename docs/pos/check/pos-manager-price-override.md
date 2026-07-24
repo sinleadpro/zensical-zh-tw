@@ -2,7 +2,7 @@
 title: 使用「店長改價」在 POS 前台調整單品價格
 description: 在 POS 前台針對單一商品調整價格，並設定改價原因與權限管理。
 created: 2026-03-05 18:40
-last_modified: 2026-07-02 21:02
+last_modified: 2026-07-22 15:52
 lang: zh-TW
 permalink: https://help.cyberbiz.io/pos/check/pos-manager-price-override
 type: tutorial
@@ -15,8 +15,7 @@ ga_views: 0
 feedback: 0
 products:
   - POS
-modules:
-  - POS 前台
+modules: []
 sites:
   - TW
 tnb: branch

@@ -2,7 +2,7 @@
 title: 黑貓快速到店逾期說明
 description: ""
 created: 2026-05-27 10:50
-last_modified: 2026-06-30 11:34
+last_modified: 2026-07-22 16:16
 lang: zh-TW
 type: reference
 status: ""
@@ -14,7 +14,8 @@ ga_views:
 feedback:
 products:
   - EC
-modules: []
+modules:
+  - 訂單
 sites:
   - TW
 audiences:
@@ -48,7 +49,7 @@ wp_url: []
 permalink: https://help.cyberbiz.io/ec/orders/tcat-quick-store/tcat-quick-store-overdue
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/clock-alert
 hide:
 ---

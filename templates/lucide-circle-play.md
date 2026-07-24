@@ -1,1 +1,0 @@
-:lucide-circle-play:
