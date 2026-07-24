@@ -1,8 +1,8 @@
 ---
-title: setup-customer-email-phone-verification
+title: 設定顧客 Email 與手機雙重驗證
 description: 要求新註冊顧客同時通過 Email 與簡訊驗證，確保會員資料真實性，降低空帳號與惡意註冊風險。
 created: 2026-05-27 14:58
-last_modified: 2026-07-22 14:59
+last_modified: 2026-07-24 14:12
 lang: zh-TW
 type: tutorial
 status: ""
