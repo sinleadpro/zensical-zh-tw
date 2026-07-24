@@ -4,11 +4,28 @@
   {{ super() }}
 
   <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-N2R352F8');</script>
+  <!-- 僅在使用者同意 Cookie 政策中的「分析 (analytics)」類別後才載入，
+       與站內原生 Google Analytics 整合 (__md_analytics) 採用相同的同意機制。 -->
+  <script>
+  (function () {
+    function loadGtm(w, d, s, l, i) {
+      w[l] = w[l] || [];
+      w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+      var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s),
+        dl = l != 'dataLayer' ? '&l=' + l : '';
+      j.async = true;
+      j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+      f.parentNode.insertBefore(j, f);
+    }
+    if (typeof __md_get === "function") {
+      var consent = __md_get("__consent");
+      if (consent && consent.analytics) {
+        loadGtm(window, document, 'script', 'dataLayer', 'GTM-N2R352F8');
+      }
+    }
+  })();
+  </script>
   <!-- End Google Tag Manager -->
 
   <meta name="google-site-verification" content="VafOIrV-IaHgE7NNZ8VJ8QeoV-7rkNzbeD6hTPFjx9w" />

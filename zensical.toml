@@ -828,6 +828,7 @@ extra_javascript = [
     "javascripts/search-overlay-border.js",
     "javascripts/feature-tour.js",
     "javascripts/permalink-copy.js",
+    "javascripts/gtm-search-tracking.js",
 ]
 # ----------------------------------------------------------------------------
 # Section for configuring theme options
