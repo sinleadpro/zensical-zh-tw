@@ -2,7 +2,7 @@
 title: 結帳
 description: 掌握 CYBERBIZ 智能 POS 的完整結帳流程，包含會員登入、商品選購、套用行銷活動及收款開立發票的操作引導。
 created: 2026-04-17 12:30
-last_modified: 2026-07-06 17:00
+last_modified: 2026-07-27 14:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -337,11 +337,11 @@ graph LR
         ![](../../assets/images/POS-前台-結帳-開立發票01.png){ .screenshot }
 
         - **會員載具 (個人/公司)**：配合發票機，輸入統編或載具碼開立電子發票。
-        - **自行開立 (手開發票)**：若無串接發票機，選擇此項並於結帳後補填發票號碼。
+        - **自行開立 (手開發票)**：若無串接發票機，選擇此項並於結帳後補填發票號碼、統一編號。
 
             ![](../../assets/images/POS-前台-結帳-手開發票號碼01.png){ .screenshot }
 
-            > 您也可於 **訂單** 頁 [補開發票](../orders/manage-general-orders.md/#補開發票--列印明細)。
+            > 您也可於 **訂單** 頁 [補開發票](../orders/manage-general-orders/#補開發票--列印明細)。
 
         - **其他載具**：手機條碼、自然人憑證或捐贈代碼。
 
@@ -360,6 +360,10 @@ graph LR
     - :lucide-plug:{ .lg }
     [__開立混稅發票__](mixed-tax-invoices/)<br>
     處理不同稅率商品，準確計算並開立。
+
+    - :lucide-plug:{ .lg }
+    [__匯出訂單報表__](../../ec/orders/reports/export-order-report.md)<br>
+    匯出訂單的發票號碼與統一編號欄位資訊。
 
     - :lucide-plug:{ .lg }
     [__全通路庫存管理__](../inventory/index.md)<br>
