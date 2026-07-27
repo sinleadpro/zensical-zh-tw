@@ -183,6 +183,7 @@ hide:
     <!-- Latest -->
     <div id="latest" role="tabpanel" class="tab-content" style="display:flex">
       <a href="processed-products.md"><span class="badge">更新</span>加工商品</a>
+	  <a href="duplicate-order.md"><span class="badge">新增</span>複製訂單</a>
     </div>
 
     <!-- Popular -->

@@ -2,7 +2,7 @@
 title: 複製訂單
 description: 在 WMS 複製由電商平台（如 CYBERBIZ、Shopline）串接進來的訂單時，系統提供 **關聯 EC 平台** 選項。這讓商家能決定新訂單的貨態是否要回拋至原平台，或是作為一張完全獨立的 WMS 訂單處理。
 created: 2026-07-17 11:20
-last_modified: 2026-07-17 11:20
+last_modified: 2026-07-27 17:00
 lang: zh-TW
 type: tutorial
 status: ""
@@ -50,8 +50,8 @@ wp_url: []
 permalink: ""
 comments: false
 search:
-  exclude: true
-icon: lucide/copy
+  exclude: false
+icon: ""
 hide: []
 ---
 # 複製訂單

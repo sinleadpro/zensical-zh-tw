@@ -674,6 +674,7 @@ copyright = """
         { "訂單" = [
             { "列表" = "wms/list.md"},
             { "手動建單" = "wms/manual-order-creation.md"},
+            { "複製訂單" = "wms/duplicate-order.md"},
         ]},
         { "POD列表" = "wms/pod-list.md"},
         { "退貨單" = "wms/return-orders.md"},
@@ -795,6 +796,7 @@ copyright = """
         { "回報問題" = "resources/use-jam-to-report-issues.md" },
         { "新功能報報" = [
             { "2026年5月" = "resources/new-release/2026-05.md" },
+            { "2026年6月" = "resources/new-release/2026-06.md" },
         ]},
     ]}
  ]
