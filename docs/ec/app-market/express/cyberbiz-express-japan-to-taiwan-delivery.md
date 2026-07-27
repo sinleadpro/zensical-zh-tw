@@ -2,11 +2,11 @@
 title: CYBERBIZ EXPRESS 日到台跨境宅配
 description: 一站式日本跨境直送台灣物流服務，涵蓋開通設定、跨境商品報關資訊填寫及訂單出貨流程。
 created: 2026-03-03 00:00
-last_modified: 2026-07-06 17:00
+last_modified: 2026-07-27 14:30
 lang: zh-TW
 type: tutorial
 status: ""
-version: 1.1.1
+version: 1.1.2
 author: Ann
 reviewers: []
 notes:
@@ -25,7 +25,7 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 日到台
+  - global_advanced
 cyb_extensions:
   - EXPRESS
 intents:
