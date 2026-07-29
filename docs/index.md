@@ -168,7 +168,7 @@ hide:
   </div>
 
   <div id="latest" role="tabpanel" class="tab-content">
-    <!-- <a href="#"><span class="badge">新增</span>門市助理快速上手指南</a> -->
+    <a href="/resources/new-release/2026-07/"><span class="badge">新增</span>2026 年 7 月新功能報報 <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-right" viewBox="0 0 24 24" width="1em" height="1em" style="vertical-align:middle;margin-left:2px"><circle cx="12" cy="12" r="10"/><path d="m12 16 4-4-4-4M8 12h8"/></svg> </a> 
     <!-- <a href="#"><span class="badge">更新</span>EC 商品上架流程</a> -->
     <!-- <a href="#"><span class="badge">新增</span>全新金物流設定說明</a> -->
   </div>

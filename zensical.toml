@@ -797,6 +797,7 @@ copyright = """
         { "新功能報報" = [
             { "2026年5月" = "resources/new-release/2026-05.md" },
             { "2026年6月" = "resources/new-release/2026-06.md" },
+            { "2026年7月" = "resources/new-release/2026-07.md" },
         ]},
     ]}
  ]
