@@ -1,4 +1,5 @@
 ---
+status: update
 title: 管理中心
 description: 管理商店基本設定、網域、顧客註冊、管理員權限、資安防護、發票對帳與方案續約。
 lang: zh-TW

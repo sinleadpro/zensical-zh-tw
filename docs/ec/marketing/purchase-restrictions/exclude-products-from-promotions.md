@@ -6,7 +6,7 @@ last_modified: 2026-06-30 10:56
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/marketing/purchase-restrictions/exclude-products-from-promotions/"
 type: tutorial
-status:
+status: update
 version:
 author: Jase
 reviewers: []

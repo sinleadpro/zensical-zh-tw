@@ -6,7 +6,7 @@ last_modified: 2026-07-01 21:55
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/notifications/manage-email-templates/"
 type: tutorial
-status:
+status: update
 version:
 author: Jase
 reviewers: []

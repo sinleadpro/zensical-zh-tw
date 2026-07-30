@@ -4,6 +4,7 @@ description: 彙整 CYBERBIZ 各類可下載資源，包含商家手冊、操作
 lang: zh-TW
 last_modified: 2026-06-23 19:49
 type: hub
+status: update
 tags:
   - 下載
   - PDF

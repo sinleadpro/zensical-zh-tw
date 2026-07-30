@@ -6,7 +6,7 @@ last_modified: 2026-07-22 17:32
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/products/categories-and-tags/manage-product-tags/"
 type: tutorial
-status: ""
+status: update
 version: ""
 author: Jase
 reviewers: []

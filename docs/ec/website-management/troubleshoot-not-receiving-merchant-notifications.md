@@ -5,7 +5,7 @@ created: 2026-06-01 15:25
 last_modified: 2026-06-30 08:02
 lang: zh-TW
 type: troubleshooting
-status: ""
+status: update
 version: 1.1.1
 author: Ann
 reviewers: []

@@ -5,7 +5,7 @@ created: 2026-06-04 15:15
 last_modified: 2026-07-13 09:43
 lang: zh-TW
 type: reference
-status: ""
+status: update
 author: Jase
 tags:
   - 配送方式

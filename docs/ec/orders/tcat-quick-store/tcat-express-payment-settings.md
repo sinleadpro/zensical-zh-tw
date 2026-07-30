@@ -6,7 +6,7 @@ last_modified: 2026-07-01 10:30
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/orders/tcat-quick-store/tcat-express-payment-settings/"
 type: tutorial
-status:
+status: update
 version:
 author: Jase
 reviewers: []

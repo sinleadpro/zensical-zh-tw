@@ -1,4 +1,5 @@
 ---
+status: update
 title: 品牌官網
 lang: zh-TW
 author: Jase

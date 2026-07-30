@@ -41,7 +41,7 @@ prerequisites:
 lang: zh-TW
 sites:
   - 台灣
-status: ""
+status: update
 tags:
   - Google
   - GMC

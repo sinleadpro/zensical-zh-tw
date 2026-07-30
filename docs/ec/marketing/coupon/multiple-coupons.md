@@ -5,7 +5,7 @@ created: 2026-05-27 18:04
 last_modified: 2026-05-27 18:04
 lang: zh-TW
 type: guide
-status: ""
+status: update
 version: 1.1.1
 author: Ann
 reviewers: []

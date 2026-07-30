@@ -45,7 +45,7 @@ prerequisites:
   - 確認儲值中心餘額充足_一般版
 lang: zh-TW
 sites: []
-status: 
+status: update
 difficulty: ""
 audiences: []
 wp_url:

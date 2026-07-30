@@ -5,7 +5,7 @@ created:
 last_modified: 2026-07-02 10:17
 lang: zh-TW
 type: tutorial
-status:
+status: update
 version:
 author: Jase
 reviewers: []

@@ -6,7 +6,7 @@ last_modified: 2026-07-22 15:52
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/pos/check/pos-manager-price-override/"
 type: tutorial
-status: ""
+status: update
 version: ""
 author: Jase
 reviewers: []

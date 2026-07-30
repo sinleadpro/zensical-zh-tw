@@ -5,7 +5,7 @@ created: 2026-06-14 13:09
 last_modified: 2026-07-03T11:44:47+08:00
 lang: zh-TW
 type: quickstart
-status: ""
+status: update
 version: ""
 author: Jase
 reviewers: []

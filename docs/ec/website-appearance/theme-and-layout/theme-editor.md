@@ -6,7 +6,7 @@ last_modified: 2026-07-22 16:23
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/theme-editor/"
 type: tutorial
-status:
+status: update
 version:
 author: Jase
 reviewers: []

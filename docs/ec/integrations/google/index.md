@@ -1,4 +1,5 @@
 ---
+status: update
 title: Google 整合
 description: 串接 Google 各項服務，涵蓋帳號驗證、Merchant Center、廣告追蹤、流量分析與搜尋管理。
 lang: zh-TW

@@ -5,7 +5,7 @@ created: 2026-07-17 11:20
 last_modified: 2026-07-27 17:00
 lang: zh-TW
 type: tutorial
-status: ""
+status: update
 version: 1.1.1
 author: Ann
 reviewers: []

@@ -6,7 +6,7 @@ last_modified: 2026-07-08 15:00
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/website-management/security-settings/"
 type: tutorial
-status:
+status: update
 version:
 author: Jase
 reviewers: []

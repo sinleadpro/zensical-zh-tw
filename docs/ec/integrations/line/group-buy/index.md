@@ -1,4 +1,5 @@
 ---
+status: update
 title: LINE 團購總覽
 description: LINE 團購功能的運作方式，以及商家如何在 LINE 群組中建立團購活動並讓成員瀏覽商品與完成結帳。
 lang: zh-TW

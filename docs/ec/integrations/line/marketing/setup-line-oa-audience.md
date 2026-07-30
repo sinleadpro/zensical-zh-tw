@@ -6,7 +6,7 @@ last_modified: 2026-07-22 15:48
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/integrations/line/marketing/setup-line-oa-audience/"
 type: tutorial
-status: ""
+status: update
 version: ""
 author: Jase
 reviewers: []

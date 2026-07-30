@@ -6,7 +6,7 @@ last_modified: 2026-07-01 21:05
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/notifications/manage-sms-templates-v2/"
 type: tutorial
-status:
+status: update
 version:
 author: Jase
 reviewers: []

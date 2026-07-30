@@ -6,7 +6,7 @@ last_modified: 2026-07-01 12:00
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/orders/order-settings/unpaid-reminder-settings/"
 type: tutorial
-status:
+status: update
 version:
 author: Jase
 reviewers: []

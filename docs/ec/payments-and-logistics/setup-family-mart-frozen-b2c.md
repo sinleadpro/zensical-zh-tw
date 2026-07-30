@@ -6,7 +6,7 @@ last_modified: 2026-07-08 12:30
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-family-mart-frozen-b2c/"
 type: tutorial
-status:
+status: update
 version:
 author: Jase
 reviewers: []

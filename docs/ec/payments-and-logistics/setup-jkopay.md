@@ -6,7 +6,7 @@ last_modified: 2026-06-30 08:52
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-jkopay/"
 type: tutorial
-status:
+status: update
 version:
 author: Jase
 reviewers: []

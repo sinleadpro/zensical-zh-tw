@@ -6,7 +6,7 @@ last_modified: 2026-07-26 19:55
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/orders/cvs-shipping/family-mart-frozen-c2c/"
 type: tutorial
-status:
+status: update
 version:
 author: Jase
 reviewers: []

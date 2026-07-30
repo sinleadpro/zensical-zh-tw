@@ -39,7 +39,7 @@ prerequisites: []
 lang: zh-TW
 sites:
   - TW
-status:
+status: update
 tags:
   - 電子票券
   - 任選折扣
