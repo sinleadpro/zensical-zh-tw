@@ -4,7 +4,7 @@ description: "完整說明 SEO 設定功能，包含圖片 ALT 屬性、商品�
 created: "2026-03-18 16:19"
 last_modified: 2026-06-26 14:53
 lang: "zh-TW"
-type: "guide"
+type: guide
 status: ""
 version: ""
 author: "Jase"
@@ -63,7 +63,7 @@ layouts: []
 wp_url:
   - "https://www.cyberbiz.io/helpcenter/?p=3512"
   - "https://www.cyberbiz.io/support/?p=16944"
-permalink: "seo-guide"
+permalink: "https://help.cyberbiz.io/ec/website-management/seo/seo-guide"
 comments: false
 search:
   exclude: false

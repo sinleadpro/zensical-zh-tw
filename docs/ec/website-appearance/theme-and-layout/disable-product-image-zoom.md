@@ -4,7 +4,7 @@ description: "修改程式碼關閉商品頁圖片放大預覽功能，包含操
 created: "2025-03-03 17:15"
 last_modified: 2026-06-30 11:01
 lang: "zh-TW"
-type: "tutorial"
+type: tutorial
 status: ""
 version: ""
 author: Jase

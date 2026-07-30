@@ -4,7 +4,7 @@ description: 了解如何將 CYBERBIZ 系統與綠界科技（ECPay）電子發�
 created: 2026-06-26 18:40
 last_modified: 2026-06-26 18:40
 lang: zh-TW
-type: tutorial 
+type: tutorial
 status: ""
 version: 1.1.1
 author: Ann
@@ -59,7 +59,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=3274
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/website-management/ecpay-invoice"
 search:
   exclude: false
 icon: lucide/receipt-text

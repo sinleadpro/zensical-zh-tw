@@ -4,7 +4,7 @@ description: 了解如何在官網整合 LINE 與 Facebook Messenger 對話入�
 created: 2026-06-25 10:10
 last_modified: 2026-06-25 10:10
 lang: zh-TW
-type: tutorial 
+type: tutorial
 status: ""
 version: 1.1.1
 author: Ann

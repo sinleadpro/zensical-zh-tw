@@ -4,7 +4,7 @@ description: 針對不同串倉模式，系統對「倉庫出貨」與「商家�
 created: 2026-07-13 12:00
 last_modified: 2026-07-13 12:00
 lang: zh-TW
-type: refernce
+type: reference
 status: ""
 version: 1.1.1
 author: Ann
@@ -44,7 +44,7 @@ paths:
   - EC：金物流 > 宅配物流 > 串接物流
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/wms/logistics-settings-reference"
 comments: false
 search:
   exclude: false

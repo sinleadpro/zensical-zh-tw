@@ -3,7 +3,7 @@ title: "設定網站標題與 SEO"
 description: "設定網站標題、簡述與關鍵字，以優化搜尋引擎 (SEO) 排名並提升社群分享時的品牌辨識度。"
 last_modified: 2026-07-03 17:41
 lang: "zh-TW"
-type: "tutorial"
+type: tutorial
 status: ""
 version: ""
 author: Jase

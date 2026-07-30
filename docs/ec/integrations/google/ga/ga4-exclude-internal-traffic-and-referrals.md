@@ -4,7 +4,7 @@ description: "在 GA4 中設定排除 company 內部 IP 流量，以及排除第
 created: "2026-03-23 17:38"
 last_modified: 2026-07-02 16:57
 lang: "zh-TW"
-type: "tutorial"
+type: tutorial
 status: ""
 version: ""
 author: "Jase"
