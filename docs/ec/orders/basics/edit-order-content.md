@@ -68,7 +68,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12382
   - https://www.cyberbiz.io/support/?p=51419
   - https://www.cyberbiz.io/support/?p=50824
-permalink: https://help.cyberbiz.io/ec/orders/basics/edit-order-content
+permalink: "https://help.cyberbiz.io/ec/orders/basics/edit-order-content/"
 comments: ""
 search:
   exclude: ""

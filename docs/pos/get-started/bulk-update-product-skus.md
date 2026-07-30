@@ -59,7 +59,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=3296
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/get-started/bulk-update-product-skus/"
 search:
   exclude: false
 icon: lucide/file-spreadsheet

@@ -56,7 +56,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=12814
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/products/copy-products-to-quick-delivery-stores/"
 comments: false
 search:
   exclude: false

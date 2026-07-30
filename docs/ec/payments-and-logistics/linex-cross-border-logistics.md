@@ -65,7 +65,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8214
   - https://www.cyberbiz.io/support/?p=38562
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/linex-cross-border-logistics
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/linex-cross-border-logistics/"
 comments: false
 search:
   exclude: false

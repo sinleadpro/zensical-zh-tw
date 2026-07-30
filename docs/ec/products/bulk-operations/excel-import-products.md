@@ -63,7 +63,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=1960
   - https://www.cyberbiz.io/support/?p=33323
   - https://www.cyberbiz.io/support/?p=6603
-permalink: https://help.cyberbiz.io/ec/products/bulk-operations/excel-import-products
+permalink: "https://help.cyberbiz.io/ec/products/bulk-operations/excel-import-products/"
 comments: false
 search:
   exclude: false

@@ -63,7 +63,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=47792
-permalink: https://help.cyberbiz.io/pos/others/scale-settings
+permalink: "https://help.cyberbiz.io/pos/others/scale-settings/"
 comments: false
 search:
   exclude: false

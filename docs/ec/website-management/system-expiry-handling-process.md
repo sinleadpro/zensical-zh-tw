@@ -51,7 +51,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3988
   - https://www.cyberbiz.io/support/?p=21601
-permalink: https://help.cyberbiz.io/ec/website-management/system-expiry-handling-process
+permalink: "https://help.cyberbiz.io/ec/website-management/system-expiry-handling-process/"
 comments: false
 search:
   exclude: false

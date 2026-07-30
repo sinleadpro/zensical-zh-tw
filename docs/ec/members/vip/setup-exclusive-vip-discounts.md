@@ -54,7 +54,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7498
   - https://www.cyberbiz.io/support/?p=12426
-permalink: https://help.cyberbiz.io/ec/members/vip/setup-exclusive-vip-discounts
+permalink: "https://help.cyberbiz.io/ec/members/vip/setup-exclusive-vip-discounts/"
 comments: false
 search:
   exclude: false

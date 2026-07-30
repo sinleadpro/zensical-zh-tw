@@ -60,7 +60,7 @@ layouts:
   - 拖拉版型
 wp_url:
   - https://www.cyberbiz.io/support/?p=28145
-permalink: https://help.cyberbiz.io/ec/website-appearance/navigation/setup-nav-menu-hover-expand
+permalink: "https://help.cyberbiz.io/ec/website-appearance/navigation/setup-nav-menu-hover-expand/"
 comments: ""
 search:
   exclude: ""

@@ -50,7 +50,7 @@ paths:
   - 設定 > 商店設定
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/wms/store-settings
+permalink: "https://help.cyberbiz.io/wms/store-settings/"
 comments: false
 search:
   exclude: false

@@ -58,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=850
   - https://www.cyberbiz.io/support/?p=647
-permalink: https://help.cyberbiz.io/ec/integrations/setup-shop-com
+permalink: "https://help.cyberbiz.io/ec/integrations/setup-shop-com/"
 comments: ""
 search:
   exclude: false

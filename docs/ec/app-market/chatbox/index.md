@@ -66,7 +66,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12960
   - https://www.cyberbiz.io/support/?p=52916
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/chatbox/"
 comments: false
 search:
   exclude: false

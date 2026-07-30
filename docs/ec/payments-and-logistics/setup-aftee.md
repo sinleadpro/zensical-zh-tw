@@ -59,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6847
   - https://www.cyberbiz.io/support/?p=5525
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-aftee
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-aftee/"
 comments: false
 search:
   exclude: false

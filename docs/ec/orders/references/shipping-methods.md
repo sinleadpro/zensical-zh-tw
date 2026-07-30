@@ -43,7 +43,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/references/shipping-methods/"
 comments: ""
 search:
   exclude: ""

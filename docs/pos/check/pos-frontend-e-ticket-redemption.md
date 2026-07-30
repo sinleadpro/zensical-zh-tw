@@ -59,7 +59,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=31866
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/check/pos-frontend-e-ticket-redemption/"
 comments: false
 search:
   exclude: false

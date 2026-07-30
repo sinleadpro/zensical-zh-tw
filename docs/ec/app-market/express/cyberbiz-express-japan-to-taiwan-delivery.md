@@ -55,7 +55,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=51481
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery/"
 comments: false
 search:
   exclude: false

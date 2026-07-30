@@ -54,7 +54,7 @@ layouts:
   - 拖拉版型
 wp_url:
   - https://www.cyberbiz.io/support/?p=42098
-permalink: https://help.cyberbiz.io/ec/orders/basics/repurchase-order
+permalink: "https://help.cyberbiz.io/ec/orders/basics/repurchase-order/"
 comments: false
 search:
   exclude: false

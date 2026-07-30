@@ -61,7 +61,7 @@ paths:
   - 訂單管理 > 退貨/退款 > 建立逆物流
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/wms/returns-and-vehicle-dispatch
+permalink: "https://help.cyberbiz.io/wms/returns-and-vehicle-dispatch/"
 comments: false
 search:
   exclude: false

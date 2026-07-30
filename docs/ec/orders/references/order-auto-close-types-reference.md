@@ -23,7 +23,7 @@ tags:
   - 結案類型
   - 訂單狀態
   - 參考資料
-permalink: https://help.cyberbiz.io/ec/orders/references/order-auto-close-types-reference/
+permalink: "https://help.cyberbiz.io/ec/orders/references/order-auto-close-types-reference/"
 icon: lucide/check-circle-2
 hide:
 ---

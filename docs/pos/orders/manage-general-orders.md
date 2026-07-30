@@ -60,7 +60,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=2940
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/orders/manage-general-orders/"
 comments: false
 search:
   exclude: true

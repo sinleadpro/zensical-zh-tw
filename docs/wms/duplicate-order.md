@@ -47,7 +47,7 @@ paths:
   - 訂單 > 列表
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/wms/duplicate-order/"
 comments: false
 search:
   exclude: false

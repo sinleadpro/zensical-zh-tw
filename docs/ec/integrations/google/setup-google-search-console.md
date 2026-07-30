@@ -58,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3375
   - https://www.cyberbiz.io/support/?p=15362
-permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-search-console
+permalink: "https://help.cyberbiz.io/ec/integrations/google/setup-google-search-console/"
 comments: false
 search:
   exclude: false

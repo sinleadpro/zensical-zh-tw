@@ -59,7 +59,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6174
   - https://www.cyberbiz.io/helpcenter/?p=6738
   - https://www.cyberbiz.io/support/?p=34623
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/apply-cyberbiz-payments
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/apply-cyberbiz-payments-new/"
 comments: false
 search:
   exclude: true

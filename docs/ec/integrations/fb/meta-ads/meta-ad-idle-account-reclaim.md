@@ -59,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12881
   - https://www.cyberbiz.io/support/?p=52679
-permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/meta-ad-idle-account-reclaim
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/meta-ad-idle-account-reclaim/"
 comments: ""
 search:
   exclude: ""

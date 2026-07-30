@@ -60,7 +60,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=2962
   - https://www.cyberbiz.io/support/?p=4623
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/inventory/outbound-complete-process/"
 comments: false
 search:
   exclude: false

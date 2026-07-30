@@ -62,7 +62,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4833
   - https://www.cyberbiz.io/support/?p=31319
-permalink: https://help.cyberbiz.io/ec/products/create-and-manage/product-swatches-variant-images-drag-drop
+permalink: "https://help.cyberbiz.io/ec/products/create-and-manage/product-swatches-variant-images-drag-drop/"
 comments: false
 search:
   exclude: false

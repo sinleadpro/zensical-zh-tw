@@ -62,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12966
   - https://www.cyberbiz.io/support/?p=52927
-permalink:
+permalink: "https://help.cyberbiz.io/ec/app-market/chatbox/connect-chat-box-to-line-oa/"
 comments: false
 search:
   exclude: false

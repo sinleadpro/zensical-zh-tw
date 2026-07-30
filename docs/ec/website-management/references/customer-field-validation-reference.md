@@ -65,7 +65,7 @@ paths:
   - 管理中心 > 顧客註冊設定
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/ec/website-management/references/customer-field-validation-reference"
+permalink: "https://help.cyberbiz.io/ec/website-management/references/customer-field-validation-reference/"
 search:
   exclude: false
 icon: lucide/table

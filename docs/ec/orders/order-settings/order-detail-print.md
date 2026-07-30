@@ -65,7 +65,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=6358
   - https://www.cyberbiz.io/support/?p=47677
   - https://www.cyberbiz.io/helpcenter/?p=12661
-permalink: https://help.cyberbiz.io/ec/orders/order-settings/order-detail-print
+permalink: "https://help.cyberbiz.io/ec/orders/order-settings/order-detail-print/"
 comments: false
 search:
   exclude: false

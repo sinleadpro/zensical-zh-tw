@@ -57,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5708
   - https://www.cyberbiz.io/support/?p=28967
-permalink: https://help.cyberbiz.io/wms/application-process-and-activation
+permalink: "https://help.cyberbiz.io/wms/application-process-and-activation/"
 comments: false
 search:
   exclude: false

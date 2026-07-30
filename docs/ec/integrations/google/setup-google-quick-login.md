@@ -60,7 +60,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4728
   - https://www.cyberbiz.io/support/?p=30252
-permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-quick-login
+permalink: "https://help.cyberbiz.io/ec/integrations/google/setup-google-quick-login/"
 comments: false
 search:
   exclude: false

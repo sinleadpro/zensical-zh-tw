@@ -59,7 +59,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=3274
-permalink: "https://help.cyberbiz.io/ec/website-management/ecpay-invoice"
+permalink: "https://help.cyberbiz.io/ec/website-management/ecpay-invoice/"
 search:
   exclude: false
 icon: lucide/receipt-text

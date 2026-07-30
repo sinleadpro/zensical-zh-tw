@@ -54,7 +54,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12688
   - https://www.cyberbiz.io/support/?p=51554
-permalink: https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step4-create-shopee-products-from-site
+permalink: "https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step4-create-shopee-products-from-site/"
 comments: false
 search:
   exclude: false

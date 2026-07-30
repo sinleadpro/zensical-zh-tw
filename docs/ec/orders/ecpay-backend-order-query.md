@@ -54,7 +54,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3966
   - https://www.cyberbiz.io/support/?p=21450
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/ecpay-backend-order-query/"
 comments: false
 search:
   exclude: false

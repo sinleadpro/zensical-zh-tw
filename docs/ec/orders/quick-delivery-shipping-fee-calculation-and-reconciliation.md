@@ -60,7 +60,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=13847
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/quick-delivery-shipping-fee-calculation-and-reconciliation/"
 comments: false
 search:
   exclude: false

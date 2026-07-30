@@ -53,7 +53,7 @@ paths:
   - 設定 > 權限設定
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/wms/permission-settings
+permalink: "https://help.cyberbiz.io/wms/permission-settings/"
 comments: false
 search:
   exclude: false

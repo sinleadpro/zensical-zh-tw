@@ -57,7 +57,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=1756
   - https://www.cyberbiz.io/support/?p=1758
   - https://www.cyberbiz.io/support/?p=51896
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/order-return-process/"
 comments: false
 search:
   exclude: false

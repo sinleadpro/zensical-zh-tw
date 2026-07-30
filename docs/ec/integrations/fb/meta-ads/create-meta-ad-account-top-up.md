@@ -61,7 +61,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5621
   - https://www.cyberbiz.io/support/?p=17882
-permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/create-meta-ad-account-top-up
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/create-meta-ad-account-top-up/"
 comments: false
 search:
   exclude: false

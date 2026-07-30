@@ -54,7 +54,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8113
   - https://www.cyberbiz.io/support/?p=39973
-permalink: https://help.cyberbiz.io/wms/pod-list
+permalink: "https://help.cyberbiz.io/wms/pod-list/"
 comments: false
 search:
   exclude: false

@@ -59,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5641
   - https://www.cyberbiz.io/support/?p=15619
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/store-pickup/enable-store-pickup-service/"
 comments: false
 search:
   exclude: false

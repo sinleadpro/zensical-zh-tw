@@ -60,7 +60,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7882
   - https://www.cyberbiz.io/support/?p=10679
   - https://www.cyberbiz.io/support/?p=10711
-permalink: https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/bonus-point-mall
+permalink: "https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/bonus-point-mall/"
 comments: false
 search:
   exclude: false

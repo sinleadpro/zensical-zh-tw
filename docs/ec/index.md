@@ -5,6 +5,7 @@ hide:
   - toc
   - path
   - feedback
+permalink: "https://help.cyberbiz.io/ec/"
 ---
 
 <div style="display: flex; gap: 2rem; flex-wrap: wrap; padding: 2rem 0 2.5rem;" markdown>

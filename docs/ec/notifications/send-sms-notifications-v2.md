@@ -61,7 +61,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=621
   - https://www.cyberbiz.io/support/?p=1529
-permalink: https://help.cyberbiz.io/ec/notifications/send-sms-notifications-v2
+permalink: "https://help.cyberbiz.io/ec/notifications/send-sms-notifications-v2/"
 comments: false
 search:
   exclude: false

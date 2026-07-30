@@ -57,7 +57,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=3006
   - https://www.cyberbiz.io/support/?p=4825
   - https://www.cyberbiz.io/support/?p=9068
-permalink: https://help.cyberbiz.io/wms/transfer-orders
+permalink: "https://help.cyberbiz.io/wms/transfer-orders/"
 comments: false
 search:
   exclude: false

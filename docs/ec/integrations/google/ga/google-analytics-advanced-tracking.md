@@ -66,7 +66,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7099
   - https://www.cyberbiz.io/support/?p=36980
-permalink: https://help.cyberbiz.io/ec/integrations/google/ga/google-analytics-advanced-tracking
+permalink: "https://help.cyberbiz.io/ec/integrations/google/ga/google-analytics-advanced-tracking/"
 search:
   exclude: false
 icon: lucide/chart-column-increasing

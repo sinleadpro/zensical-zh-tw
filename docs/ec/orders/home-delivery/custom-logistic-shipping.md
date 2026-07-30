@@ -64,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=105
   - https://www.cyberbiz.io/support/?p=982
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/custom-logistic-shipping
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/custom-logistic-shipping/"
 comments: false
 search:
   exclude: false

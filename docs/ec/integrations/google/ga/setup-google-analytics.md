@@ -62,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=678
   - https://www.cyberbiz.io/support/?p=165
-permalink: https://help.cyberbiz.io/ec/integrations/google/ga/setup-google-analytics
+permalink: "https://help.cyberbiz.io/ec/integrations/google/ga/setup-google-analytics/"
 comments: false
 search:
   exclude: false

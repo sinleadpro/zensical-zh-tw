@@ -63,7 +63,7 @@ paths:
   - 管理中心 > 儲值中心
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/ec/website-management/points-deposits"
+permalink: "https://help.cyberbiz.io/ec/website-management/points-deposits/"
 comments: false
 search:
   exclude: false

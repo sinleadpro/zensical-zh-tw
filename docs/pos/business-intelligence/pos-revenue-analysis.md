@@ -61,7 +61,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=28244
-permalink: https://help.cyberbiz.io/pos/business-intelligence/pos-revenue-analysis
+permalink: "https://help.cyberbiz.io/pos/business-intelligence/pos-revenue-analysis/"
 comments: false
 search:
   exclude: false

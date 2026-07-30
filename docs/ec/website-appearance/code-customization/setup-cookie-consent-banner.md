@@ -57,7 +57,7 @@ paths:
   - 網站外觀 > 套版主題管理
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/website-appearance/code-customization/setup-cookie-consent-banner/
+permalink: "https://help.cyberbiz.io/ec/website-appearance/code-customization/setup-cookie-consent-banner/"
 comments: false
 search:
   exclude: false

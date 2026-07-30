@@ -52,7 +52,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=29144
-permalink: https://help.cyberbiz.io/ec/website-management/unable-to-read-https-root-url
+permalink: "https://help.cyberbiz.io/ec/website-management/unable-to-read-https-root-url/"
 comments: false
 search:
   exclude: false

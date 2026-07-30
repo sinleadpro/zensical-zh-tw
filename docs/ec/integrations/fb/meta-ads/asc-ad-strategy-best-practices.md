@@ -64,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10820
   - https://www.cyberbiz.io/support/?p=46743
-permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/asc-ad-strategy-best-practices
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/asc-ad-strategy-best-practices/"
 comments: ""
 search:
   exclude: ""

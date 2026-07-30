@@ -54,7 +54,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11186
   - https://www.cyberbiz.io/support/?p=7367
-permalink: https://help.cyberbiz.io/ec/marketing/upsells/setup-order-upsell
+permalink: "https://help.cyberbiz.io/ec/marketing/upsells/setup-order-upsell/"
 comments: false
 search:
   exclude: false

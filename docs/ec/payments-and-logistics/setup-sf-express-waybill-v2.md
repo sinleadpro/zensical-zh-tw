@@ -58,7 +58,7 @@ paths:
   - 訂單 > 所有訂單
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-sf-express-waybill-v2
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-sf-express-waybill-v2/"
 comments: false
 search:
   exclude: false

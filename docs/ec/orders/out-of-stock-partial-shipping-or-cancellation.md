@@ -56,7 +56,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=13193
   - https://www.cyberbiz.io/support/?p=13344
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/out-of-stock-partial-shipping-or-cancellation/"
 comments: false
 search:
   exclude: false

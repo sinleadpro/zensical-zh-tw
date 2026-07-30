@@ -51,7 +51,7 @@ paths:
   - 訂單 > 所有訂單
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/orders/references/order-list-columns
+permalink: "https://help.cyberbiz.io/ec/orders/references/order-list-columns/"
 comments: false
 search:
   exclude: false

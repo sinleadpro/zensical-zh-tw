@@ -61,7 +61,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3221
   - https://www.cyberbiz.io/support/?p=11341
   - https://www.cyberbiz.io/support/?p=13747
-permalink: https://help.cyberbiz.io/ec/integrations/fb/mbe/setup-fbe-authorization
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/mbe/setup-fbe-authorization/"
 comments: ""
 search:
   exclude: ""

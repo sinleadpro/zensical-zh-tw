@@ -56,7 +56,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?page_id=42126
-permalink: "https://help.cyberbiz.io/ec/app-market/storepal/index"
+permalink: "https://help.cyberbiz.io/ec/app-market/storepal/"
 comments: false
 search:
   exclude: false

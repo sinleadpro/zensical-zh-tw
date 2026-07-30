@@ -66,7 +66,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7955
   - https://www.cyberbiz.io/support/?p=38638
   - https://www.cyberbiz.io/support/?p=38837
-permalink: https://help.cyberbiz.io/ec/app-market/automation/automation-push-flow
+permalink: "https://help.cyberbiz.io/ec/app-market/automation/automation-push-flow/"
 search:
   exclude: false
 icon: lucide/zap

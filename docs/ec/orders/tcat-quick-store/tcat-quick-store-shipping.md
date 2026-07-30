@@ -74,7 +74,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2678
   - https://www.cyberbiz.io/support/?p=8844
-permalink: https://help.cyberbiz.io/ec/orders/tcat-quick-store/tcat-quick-store-shipping
+permalink: "https://help.cyberbiz.io/ec/orders/tcat-quick-store/tcat-quick-store-shipping/"
 comments: false
 search:
   exclude: false

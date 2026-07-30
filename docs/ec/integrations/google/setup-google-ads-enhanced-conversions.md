@@ -50,7 +50,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=39654
-permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-ads-enhanced-conversions
+permalink: "https://help.cyberbiz.io/ec/integrations/google/setup-google-ads-enhanced-conversions/"
 search:
   exclude: false
 icon: lucide/rocket

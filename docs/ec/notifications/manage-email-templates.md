@@ -4,7 +4,7 @@ description: 管理與編輯系統自動發送的 Email 通知樣板，包括內
 created:
 last_modified: 2026-07-01 21:55
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/notifications/manage-email-templates
+permalink: "https://help.cyberbiz.io/ec/notifications/manage-email-templates/"
 type: tutorial
 status:
 version:

@@ -69,7 +69,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7894
   - https://www.cyberbiz.io/support/?p=30610
-permalink: https://help.cyberbiz.io/ec/products/engagement/manage-product-reviews
+permalink: "https://help.cyberbiz.io/ec/products/engagement/manage-product-reviews/"
 comments: false
 search:
   exclude: false

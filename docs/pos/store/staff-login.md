@@ -60,7 +60,7 @@ layouts:
   - 
 wp_url:
   - https://www.cyberbiz.io/support/?p=2915
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/store/staff-login/"
 comments: false
 search:
   exclude: false

@@ -70,7 +70,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2017
   - https://www.cyberbiz.io/helpcenter/?p=2789
   - https://www.cyberbiz.io/support/?p=7424
-permalink: https://help.cyberbiz.io/ec/products/create-and-manage/product-management-interface
+permalink: "https://help.cyberbiz.io/ec/products/create-and-manage/product-management-interface/"
 comments: false
 search:
   exclude: false

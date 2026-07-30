@@ -59,7 +59,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=7666
-permalink: https://help.cyberbiz.io/pos/check/customer-display-interactive-games
+permalink: "https://help.cyberbiz.io/pos/check/customer-display-interactive-games/"
 comments: false
 search:
   exclude: false

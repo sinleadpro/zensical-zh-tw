@@ -64,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12099
   - https://www.cyberbiz.io/support/?p=28483
-permalink: https://help.cyberbiz.io/ec/integrations/google/ga/setup-ga4-site-search-tracking
+permalink: "https://help.cyberbiz.io/ec/integrations/google/ga/setup-ga4-site-search-tracking/"
 search:
   exclude: false
 icon: lucide/search-code

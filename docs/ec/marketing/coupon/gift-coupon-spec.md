@@ -62,7 +62,7 @@ paths:
 layouts: []
 wp_url: 
     - https://www.cyberbiz.io/support/?p=41796
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/marketing/coupon/gift-coupon-spec/"
 comments: false
 search:
   exclude: false

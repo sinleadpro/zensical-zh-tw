@@ -4,7 +4,7 @@ description: 使用拖拉版型編輯器調整官網版面，包含新增區塊�
 created:
 last_modified: 2026-07-22 16:23
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/theme-editor
+permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/theme-editor/"
 type: tutorial
 status:
 version:

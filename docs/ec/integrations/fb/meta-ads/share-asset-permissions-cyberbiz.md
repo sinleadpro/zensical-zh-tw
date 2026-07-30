@@ -59,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10681
   - https://www.cyberbiz.io/support/?p=44556
-permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/share-asset-permissions-cyberbiz
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/share-asset-permissions-cyberbiz/"
 comments: false
 search:
   exclude: false

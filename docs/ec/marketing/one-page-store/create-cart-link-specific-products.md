@@ -56,7 +56,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=2369
-permalink: https://help.cyberbiz.io/ec/marketing/one-page-store/create-cart-link-specific-products
+permalink: "https://help.cyberbiz.io/ec/marketing/one-page-store/create-cart-link-specific-products/"
 comments: ""
 search:
   exclude: false

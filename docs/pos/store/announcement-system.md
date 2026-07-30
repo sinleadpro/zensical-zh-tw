@@ -56,7 +56,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3065
-permalink: https://help.cyberbiz.io/pos/store/announcement-system
+permalink: "https://help.cyberbiz.io/pos/store/announcement-system/"
 comments: false
 search:
   exclude: false

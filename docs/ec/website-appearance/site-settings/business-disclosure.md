@@ -67,7 +67,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6773
   - https://www.cyberbiz.io/support/?p=36327
-permalink: https://help.cyberbiz.io/ec/website-appearance/site-settings/business-disclosure
+permalink: "https://help.cyberbiz.io/ec/website-appearance/site-settings/business-disclosure/"
 comments: false
 search:
   exclude: false

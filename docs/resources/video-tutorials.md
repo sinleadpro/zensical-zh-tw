@@ -9,7 +9,7 @@ tags:
   - 工作坊
   - 快速入門
   - 課程
-permalink: "https://help.cyberbiz.io/video-tutorials"
+permalink: "https://help.cyberbiz.io/resources/video-tutorials/"
 icon: lucide/play
 ---
 ## 課程平台 { #course-platforms }

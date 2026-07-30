@@ -25,7 +25,7 @@ tags:
   - 簡訊提醒
   - LINE OA 提醒
   - 參考資料
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/references/cart-reminder-channels-reference/
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/references/cart-reminder-channels-reference/"
 icon: lucide/table
 hide:
 ---

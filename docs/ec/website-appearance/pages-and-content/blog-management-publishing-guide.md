@@ -61,7 +61,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=631
   - https://www.cyberbiz.io/support/?p=1510
-permalink: https://help.cyberbiz.io/ec/website-appearance/pages-and-content/blog-management-publishing-guide
+permalink: "https://help.cyberbiz.io/ec/website-appearance/pages-and-content/blog-management-publishing-guide/"
 comments: false
 search:
   exclude: false

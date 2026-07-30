@@ -58,7 +58,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/orders/references/order-list-features
+permalink: "https://help.cyberbiz.io/ec/orders/references/order-list-features/"
 comments: ""
 search:
   exclude: ""

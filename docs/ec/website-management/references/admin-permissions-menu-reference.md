@@ -44,7 +44,7 @@ layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=1209
   - https://www.cyberbiz.io/support/?p=2881
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/website-management/references/admin-permissions-menu-reference/"
 comments: ""
 search:
   exclude: ""

@@ -71,7 +71,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=41868
   - https://www.cyberbiz.io/support/?p=41923
-permalink: https://help.cyberbiz.io/ec/app-market/storepal/sales-conversion
+permalink: "https://help.cyberbiz.io/ec/app-market/storepal/sales-conversion/"
 comments: false
 search:
   exclude: false

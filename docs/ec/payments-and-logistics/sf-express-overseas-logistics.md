@@ -58,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11280
   - https://www.cyberbiz.io/support/?p=8060
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/sf-express-overseas-logistics
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/sf-express-overseas-logistics/"
 comments: false
 search:
   exclude: false

@@ -61,7 +61,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3268
   - https://www.cyberbiz.io/support/?p=7844
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/check/payment-method/multiple-payment-methods/"
 comments: false
 search:
   exclude: false

@@ -4,7 +4,7 @@ description: 進行網站基本資訊、公司聯繫方式、物流地址及後�
 created:
 last_modified: 2026-07-06T17:39:00+08:00
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/website-management/setup-store-basic-info
+permalink: "https://help.cyberbiz.io/ec/website-management/setup-store-basic-info/"
 type: tutorial
 status:
 version:

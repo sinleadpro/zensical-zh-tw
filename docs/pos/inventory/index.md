@@ -65,7 +65,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=27443
-permalink: https://help.cyberbiz.io/pos/inventory
+permalink: "https://help.cyberbiz.io/pos/inventory/"
 comments: false
 search:
   exclude: false

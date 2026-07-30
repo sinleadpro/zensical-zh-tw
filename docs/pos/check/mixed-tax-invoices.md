@@ -61,7 +61,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/support/?p=37151
   - https://www.cyberbiz.io/support/?p=37500
-permalink: https://help.cyberbiz.io/pos/check/mixed-tax-invoices
+permalink: "https://help.cyberbiz.io/pos/check/mixed-tax-invoices/"
 comments: false
 search:
   exclude: false

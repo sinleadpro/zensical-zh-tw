@@ -45,7 +45,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/orders/references/c2c-return-conditions
+permalink: "https://help.cyberbiz.io/ec/orders/references/c2c-return-conditions/"
 comments: ""
 search:
   exclude: ""

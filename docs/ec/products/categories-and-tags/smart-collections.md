@@ -54,7 +54,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9185
   - https://www.cyberbiz.io/support/?p=43379
   - https://www.cyberbiz.io/support/?p=7291
-permalink: https://help.cyberbiz.io/ec/products/categories-and-tags/smart-collections
+permalink: "https://help.cyberbiz.io/ec/products/categories-and-tags/smart-collections/"
 search:
   exclude: false
 icon: lucide/sparkles

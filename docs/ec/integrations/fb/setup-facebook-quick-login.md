@@ -64,7 +64,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=776
   - https://www.cyberbiz.io/support/?p=26854
   - https://www.cyberbiz.io/support/?p=507
-permalink: https://help.cyberbiz.io/ec/integrations/fb/setup-facebook-quick-login
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/setup-facebook-quick-login/"
 comments: false
 search:
   exclude: false

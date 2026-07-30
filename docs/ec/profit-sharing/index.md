@@ -54,7 +54,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=28632
-permalink: https://help.cyberbiz.io/ec/profit-sharing
+permalink: "https://help.cyberbiz.io/ec/profit-sharing/"
 comments: false
 search:
   exclude: false

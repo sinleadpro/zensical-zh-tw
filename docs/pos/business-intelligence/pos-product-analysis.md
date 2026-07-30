@@ -62,7 +62,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=28253
-permalink: https://help.cyberbiz.io/pos/business-intelligence/pos-product-analysis
+permalink: "https://help.cyberbiz.io/pos/business-intelligence/pos-product-analysis/"
 comments: false
 search:
   exclude: false

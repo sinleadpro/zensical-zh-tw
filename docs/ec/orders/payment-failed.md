@@ -85,7 +85,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=2402
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/payment-failed/"
 comments: false
 search:
   exclude: false

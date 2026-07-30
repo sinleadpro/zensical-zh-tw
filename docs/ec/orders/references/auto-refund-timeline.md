@@ -48,7 +48,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/orders/references/auto-refund-timeline
+permalink: "https://help.cyberbiz.io/ec/orders/references/auto-refund-timeline/"
 comments: false
 search:
   exclude: false

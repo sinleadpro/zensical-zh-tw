@@ -62,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5156
   - https://www.cyberbiz.io/support/?p=6434
-permalink: https://help.cyberbiz.io/ec/integrations/google/utm-parameter-tracking-guide
+permalink: "https://help.cyberbiz.io/ec/integrations/google/utm-parameter-tracking-guide/"
 comments: false
 search:
   exclude: false

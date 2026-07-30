@@ -66,7 +66,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6996
   - https://www.cyberbiz.io/support/?p=2041
-permalink: https://help.cyberbiz.io/ec/orders/returns-refunds/cvs-unclaimed-order
+permalink: "https://help.cyberbiz.io/ec/orders/returns-refunds/cvs-unclaimed-order/"
 comments: false
 search:
   exclude: false

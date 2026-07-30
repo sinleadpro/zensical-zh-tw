@@ -54,7 +54,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9285
   - https://www.cyberbiz.io/support/?p=44090
   - https://www.cyberbiz.io/support/?p=46371
-permalink: https://help.cyberbiz.io/ec/website-management/renewal-and-auto-subscription
+permalink: "https://help.cyberbiz.io/ec/website-management/renewal-and-auto-subscription/"
 comments: false
 search:
   exclude: false

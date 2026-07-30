@@ -71,7 +71,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7388
   - https://www.cyberbiz.io/support/?p=41333
-permalink: https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-liff-auto-login-member-binding
+permalink: "https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-liff-auto-login-member-binding/"
 comments: false
 search:
   exclude: false

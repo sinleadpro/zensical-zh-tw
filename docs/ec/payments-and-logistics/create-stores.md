@@ -63,7 +63,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=15619
   - https://www.cyberbiz.io/support/?p=10454
   - https://www.cyberbiz.io/support/?p=12804
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/create-stores/"
 comments: false
 search:
   exclude: false

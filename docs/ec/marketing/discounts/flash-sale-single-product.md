@@ -56,7 +56,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9101
   - https://www.cyberbiz.io/support/?p=3368
-permalink: https://help.cyberbiz.io/ec/marketing/discounts/flash-sale-single-product
+permalink: "https://help.cyberbiz.io/ec/marketing/discounts/flash-sale-single-product/"
 comments: false
 search:
   exclude: false

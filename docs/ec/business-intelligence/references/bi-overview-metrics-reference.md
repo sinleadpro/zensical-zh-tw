@@ -24,7 +24,7 @@ tags:
   - 客單價
   - 回購率
   - 指標對照
-permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/chart-overview-metrics-reference/"
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/bi-overview-metrics-reference/"
 icon: lucide/table
 hide:
 ---

@@ -53,7 +53,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=48336
-permalink: https://help.cyberbiz.io/wms/report-notification-settings
+permalink: "https://help.cyberbiz.io/wms/report-notification-settings/"
 comments: false
 search:
   exclude: false

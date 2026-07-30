@@ -69,7 +69,7 @@ paths:
   - 金物流 > 結帳頁 & 物流設定
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/logistics-settings/
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/payments/logistics-settings/"
 comments: false
 search:
   exclude: false

@@ -61,7 +61,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=41626
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/storepal/install-and-setup-storepal/"
 search:
   exclude: false
 icon: lucide/store

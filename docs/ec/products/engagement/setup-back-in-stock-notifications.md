@@ -63,7 +63,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5661
   - https://www.cyberbiz.io/support/?p=18529
-permalink: https://help.cyberbiz.io/ec/products/engagement/setup-back-in-stock-notifications
+permalink: "https://help.cyberbiz.io/ec/products/engagement/setup-back-in-stock-notifications/"
 comments: false
 search:
   exclude: false

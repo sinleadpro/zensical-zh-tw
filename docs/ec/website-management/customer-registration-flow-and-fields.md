@@ -49,7 +49,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7209
   - https://www.cyberbiz.io/support/?p=36853
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/website-management/customer-registration-flow-and-fields/"
 comments: false
 search:
   exclude: false

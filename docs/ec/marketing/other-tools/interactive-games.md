@@ -56,7 +56,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5804
   - https://www.cyberbiz.io/support/?p=6429
   - https://www.cyberbiz.io/support/?p=9803
-permalink: https://help.cyberbiz.io/ec/marketing/other-tools/interactive-games
+permalink: "https://help.cyberbiz.io/ec/marketing/other-tools/interactive-games/"
 comments: false
 search:
   exclude: false

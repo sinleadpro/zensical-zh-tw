@@ -60,7 +60,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3490
   - https://www.cyberbiz.io/support/?p=15390
-permalink: 301-redirect
+permalink: "https://help.cyberbiz.io/ec/website-management/seo/setup-301-redirects/"
 comments: false
 search:
   exclude: false

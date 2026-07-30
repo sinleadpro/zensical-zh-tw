@@ -4,6 +4,7 @@ hide:
   - toc
   - path
   - feedback
+permalink: "https://help.cyberbiz.io/pos/"
 ---
 
 <div class="hero-wrapper" style="

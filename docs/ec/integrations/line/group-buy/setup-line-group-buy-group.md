@@ -54,7 +54,7 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=29174&page=4
-permalink: https://help.cyberbiz.io/ec/integrations/line/group-buy/setup-line-group-buy-group
+permalink: "https://help.cyberbiz.io/ec/integrations/line/group-buy/setup-line-group-buy-group/"
 comments: false
 search:
   exclude: false

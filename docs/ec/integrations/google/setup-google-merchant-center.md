@@ -62,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=718
   - https://www.cyberbiz.io/support/?p=230
-permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-merchant-center
+permalink: "https://help.cyberbiz.io/ec/integrations/google/setup-google-merchant-center/"
 search:
   exclude: false
 icon: lucide/tags

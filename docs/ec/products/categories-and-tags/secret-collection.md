@@ -64,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3872
   - https://www.cyberbiz.io/support/?p=20280
-permalink: https://help.cyberbiz.io/ec/products/categories-and-tags/secret-collection
+permalink: "https://help.cyberbiz.io/ec/products/categories-and-tags/secret-collection/"
 comments: false
 search:
   exclude: false

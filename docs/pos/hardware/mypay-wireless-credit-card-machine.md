@@ -64,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=51450
   - https://www.cyberbiz.io/support/?p=21480
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/hardware/mypay-wireless-credit-card-machine/"
 comments: false
 search:
   exclude: false

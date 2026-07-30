@@ -63,7 +63,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3129
   - https://www.cyberbiz.io/support/?p=24812
-permalink: https://help.cyberbiz.io/ec/integrations/google/google-safe-browsing-security-check
+permalink: "https://help.cyberbiz.io/ec/integrations/google/google-safe-browsing-security-check/"
 comments: ""
 search:
   exclude: ""

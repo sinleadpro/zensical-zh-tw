@@ -64,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12968
   - https://www.cyberbiz.io/support/?p=53089
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/chatbox/chat-box-ai-suggested-replies/"
 comments: false
 search:
   exclude: false

@@ -59,7 +59,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=10507
-permalink: https://help.cyberbiz.io/pos/store/pos-store-pickup-staff-commission
+permalink: "https://help.cyberbiz.io/pos/store/pos-store-pickup-staff-commission/"
 comments: false
 search:
   exclude: false

@@ -65,7 +65,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=41786
   - https://www.cyberbiz.io/support/?p=41951
-permalink: https://help.cyberbiz.io/ec/app-market/storepal/member-identification
+permalink: "https://help.cyberbiz.io/ec/app-market/storepal/member-identification/"
 comments: false
 search:
   exclude: false

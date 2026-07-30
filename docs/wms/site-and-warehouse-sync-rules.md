@@ -57,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5711
   - https://www.cyberbiz.io/support/?p=9638
-permalink: https://help.cyberbiz.io/wms/site-and-warehouse-sync-rules
+permalink: "https://help.cyberbiz.io/wms/site-and-warehouse-sync-rules/"
 comments: false
 search:
   exclude: false

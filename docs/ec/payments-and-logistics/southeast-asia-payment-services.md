@@ -51,7 +51,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=37692
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/southeast-asia-payment-services
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/southeast-asia-payment-services/"
 comments: false
 search:
   exclude: false

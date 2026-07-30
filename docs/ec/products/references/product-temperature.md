@@ -42,7 +42,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/products/references/product-temperature/"
 comments: ""
 search:
   exclude: ""

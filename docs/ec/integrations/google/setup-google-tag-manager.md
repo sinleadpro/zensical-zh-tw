@@ -58,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=689
   - https://www.cyberbiz.io/support/?p=228
-permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-tag-manager
+permalink: "https://help.cyberbiz.io/ec/integrations/google/setup-google-tag-manager/"
 comments: false
 search:
   exclude: false

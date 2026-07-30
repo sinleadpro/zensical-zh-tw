@@ -59,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12993
   - https://www.cyberbiz.io/support/?p=5246
-permalink: https://help.cyberbiz.io/ec/orders/returns-refunds/7-11-c2c-return
+permalink: "https://help.cyberbiz.io/ec/orders/returns-refunds/7-11-c2c-return/"
 comments: false
 search:
   exclude: false

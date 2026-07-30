@@ -51,7 +51,7 @@ paths:
   - 訂單 > 訂單報表匯出
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/orders/references/order-report-fields
+permalink: "https://help.cyberbiz.io/ec/orders/references/order-report-fields/"
 comments: false
 search:
   exclude: false

@@ -9,7 +9,7 @@ tags:
   - 指南
   - 手冊
 icon: lucide/download
-permalink: "https://help.cyberbiz.io/downloads"
+permalink: "https://help.cyberbiz.io/resources/downloads/"
 ---
 ## 系統檔案 { #system-files }
 

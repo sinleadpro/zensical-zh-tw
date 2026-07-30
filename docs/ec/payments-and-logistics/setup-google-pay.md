@@ -57,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3900
   - https://www.cyberbiz.io/support/?p=2620
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-google-pay
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-google-pay/"
 comments: false
 search:
   exclude: false

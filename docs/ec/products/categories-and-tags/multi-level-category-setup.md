@@ -65,7 +65,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9204
   - https://www.cyberbiz.io/support/?p=43450
-permalink: https://help.cyberbiz.io/ec/products/categories-and-tags/multi-level-category-setup
+permalink: "https://help.cyberbiz.io/ec/products/categories-and-tags/multi-level-category-setup/"
 comments: false
 search:
   exclude: false

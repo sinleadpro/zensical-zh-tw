@@ -71,7 +71,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10374
   - https://www.cyberbiz.io/support/?p=1755
-permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/setup-meta-ad-campaign
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/setup-meta-ad-campaign/"
 comments: ""
 search:
   exclude: false

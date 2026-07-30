@@ -60,7 +60,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7803
   - https://www.cyberbiz.io/support/?p=23611
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/revert-to-unshipped
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/revert-to-unshipped/"
 comments: false
 search:
   exclude: false

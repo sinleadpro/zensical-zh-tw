@@ -56,7 +56,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=4201
-permalink: https://help.cyberbiz.io/pos/check/product-not-found-after-scanner-scan
+permalink: "https://help.cyberbiz.io/pos/check/product-not-found-after-scanner-scan/"
 comments: false
 search:
   exclude: false

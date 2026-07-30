@@ -58,7 +58,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=28494
-permalink: https://help.cyberbiz.io/wms/pos-warehouse-inventory-transfer
+permalink: "https://help.cyberbiz.io/wms/pos-warehouse-inventory-transfer/"
 comments: false
 search:
   exclude: false

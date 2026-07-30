@@ -61,7 +61,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=4570
   - https://www.cyberbiz.io/support/?p=6824
   - https://www.cyberbiz.io/support/?p=6816
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/subscription-orders/"
 comments: false
 search:
   exclude: false

@@ -43,7 +43,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/resources/use-jam-to-report-issues"
+permalink: "https://help.cyberbiz.io/resources/use-jam-to-report-issues/"
 comments: false
 search:
   exclude: false

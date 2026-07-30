@@ -58,7 +58,7 @@ layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=5773
   - https://www.cyberbiz.io/support/?p=6893
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/members/member-filters-and-groups/"
 comments: false
 search:
   exclude: false

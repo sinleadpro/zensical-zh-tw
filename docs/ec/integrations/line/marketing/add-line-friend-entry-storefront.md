@@ -4,7 +4,7 @@ description: 在拖拉版型網站中新增 LINE 官方帳號加入好友入口�
 created: 2026-02-24
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/integrations/line/marketing/add-line-friend-entry-storefront
+permalink: "https://help.cyberbiz.io/ec/integrations/line/marketing/add-line-friend-entry-storefront/"
 type: tutorial
 status: ""
 version: ""

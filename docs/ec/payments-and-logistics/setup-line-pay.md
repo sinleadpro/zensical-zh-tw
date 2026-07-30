@@ -57,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2127
   - https://www.cyberbiz.io/support/?p=35122
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-line-pay
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-line-pay/"
 comments: false
 search:
   exclude: false

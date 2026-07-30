@@ -8,7 +8,7 @@ tags:
   - 慣例
   - 符號
 icon: lucide/clipboard
-permalink: "https://help.cyberbiz.io/resources/conventions"
+permalink: "https://help.cyberbiz.io/resources/conventions/"
 ---
 本節說明本文件中使用的幾個慣例。
 

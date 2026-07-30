@@ -51,7 +51,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7462
   - https://www.cyberbiz.io/support/?p=36752
-permalink: https://help.cyberbiz.io/ec/integrations/line/apply-setup-line-shopping-guide
+permalink: "https://help.cyberbiz.io/ec/integrations/line/apply-setup-line-shopping-guide/"
 comments: false
 search:
   exclude: false

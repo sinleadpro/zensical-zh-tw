@@ -54,7 +54,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12109
   - https://www.cyberbiz.io/support/?p=24764
-permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-business-profile
+permalink: "https://help.cyberbiz.io/ec/integrations/google/setup-google-business-profile/"
 comments: false
 search:
   exclude: false

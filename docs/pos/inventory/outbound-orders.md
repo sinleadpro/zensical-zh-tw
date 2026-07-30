@@ -64,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=2962
   - https://www.cyberbiz.io/support/?p=4623
-permalink: https://help.cyberbiz.io/pos/inventory/outbound-orders
+permalink: "https://help.cyberbiz.io/pos/inventory/outbound-orders/"
 comments: false
 search:
   exclude: false

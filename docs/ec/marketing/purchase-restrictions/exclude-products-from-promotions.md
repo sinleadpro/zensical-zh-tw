@@ -4,7 +4,7 @@ description: 設定特定商品無法參與「全館活動」、「優惠券」�
 created: 2026-01-13 00:00
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/marketing/purchase-restrictions/exclude-products-from-promotions
+permalink: "https://help.cyberbiz.io/ec/marketing/purchase-restrictions/exclude-products-from-promotions/"
 type: tutorial
 status:
 version:

@@ -23,7 +23,7 @@ tags:
   - 出貨方式
   - 可退貨天數
   - 參考資料
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/references/return-eligible-days-reference/
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/references/return-eligible-days-reference/"
 icon: lucide/table
 hide:
 ---

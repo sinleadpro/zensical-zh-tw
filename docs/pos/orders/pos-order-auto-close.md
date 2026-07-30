@@ -62,7 +62,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=23628
-permalink: https://help.cyberbiz.io/pos/orders/pos-order-auto-close
+permalink: "https://help.cyberbiz.io/pos/orders/pos-order-auto-close/"
 comments: false
 search:
   exclude: false

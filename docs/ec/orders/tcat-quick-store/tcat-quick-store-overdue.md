@@ -46,7 +46,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/orders/tcat-quick-store/tcat-quick-store-overdue
+permalink: "https://help.cyberbiz.io/ec/orders/tcat-quick-store/tcat-quick-store-overdue/"
 comments: ""
 search:
   exclude: false

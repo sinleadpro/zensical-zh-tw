@@ -48,7 +48,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7973
   - https://www.cyberbiz.io/support/?p=39940
-permalink: https://help.cyberbiz.io/wms/announcements
+permalink: "https://help.cyberbiz.io/wms/announcements/"
 comments: false
 search:
   exclude: false

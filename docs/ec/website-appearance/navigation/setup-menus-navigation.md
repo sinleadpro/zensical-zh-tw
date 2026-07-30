@@ -70,7 +70,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11200
   - https://www.cyberbiz.io/support/?p=19955
-permalink: https://help.cyberbiz.io/ec/website-appearance/navigation/setup-menus-navigation
+permalink: "https://help.cyberbiz.io/ec/website-appearance/navigation/setup-menus-navigation/"
 search:
   exclude: false
 icon: lucide/menu

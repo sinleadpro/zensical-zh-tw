@@ -61,7 +61,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=11171
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/check/line-pay-scan-payment/"
 comments: false
 search:
   exclude: false

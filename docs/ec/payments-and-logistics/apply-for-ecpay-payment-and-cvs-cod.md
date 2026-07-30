@@ -55,7 +55,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4872
   - https://www.cyberbiz.io/helpcenter/?p=2430
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/apply-for-ecpay-payment-and-cvs-cod/"
 comments: false
 search:
   exclude: false

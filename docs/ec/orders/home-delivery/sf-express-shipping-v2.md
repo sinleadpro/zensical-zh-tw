@@ -68,7 +68,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=384
   - https://www.cyberbiz.io/support/?p=3760
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/sf-express-shipping-v2
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/sf-express-shipping-v2/"
 comments: false
 search:
   exclude: false

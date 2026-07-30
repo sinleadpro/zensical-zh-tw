@@ -60,7 +60,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3812
   - https://www.cyberbiz.io/support/?p=42367
   - https://www.cyberbiz.io/support/?p=6103
-permalink: https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/setup-bonus-points
+permalink: "https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/setup-bonus-points/"
 comments: false
 search:
   exclude: false

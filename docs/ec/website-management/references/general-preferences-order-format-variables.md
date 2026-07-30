@@ -42,7 +42,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/website-management/references/general-preferences-order-format-variables/
+permalink: "https://help.cyberbiz.io/ec/website-management/references/general-preferences-order-format-variables/"
 comments: false
 search:
   exclude: false

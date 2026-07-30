@@ -61,7 +61,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=4507
-permalink:
+permalink: "https://help.cyberbiz.io/ec/website-management/auto-confirm-reconciliation-accounts/"
 comments: false
 search:
   exclude: false

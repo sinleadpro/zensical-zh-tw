@@ -73,7 +73,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=84
   - https://www.cyberbiz.io/support/?p=973
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/tcat-home-delivery-v2
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/tcat-home-delivery-v2/"
 comments: false
 search:
   exclude: false

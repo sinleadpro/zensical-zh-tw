@@ -59,7 +59,7 @@ layouts:
   - 
 wp_url:
   - https://www.cyberbiz.io/support/?p=10522
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/store-pickup-orders/"
 comments: false
 search:
   exclude: false

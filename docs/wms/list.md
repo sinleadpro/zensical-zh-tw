@@ -52,7 +52,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=9105
   - https://www.cyberbiz.io/helpcenter/?p=5744
-permalink: https://help.cyberbiz.io/wms/list
+permalink: "https://help.cyberbiz.io/wms/list/"
 comments: false
 search:
   exclude: false

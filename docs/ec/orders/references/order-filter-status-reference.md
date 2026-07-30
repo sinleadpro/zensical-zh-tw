@@ -59,7 +59,7 @@ paths:
   - 訂單 > 所有訂單
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/orders/references/order-filter-status-reference
+permalink: "https://help.cyberbiz.io/ec/orders/references/order-filter-status-reference/"
 comments: false
 search:
   exclude: false

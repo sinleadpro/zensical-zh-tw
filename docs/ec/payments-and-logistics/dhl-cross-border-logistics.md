@@ -68,7 +68,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=393
   - https://www.cyberbiz.io/support/?p=29664
   - https://www.cyberbiz.io/support/?p=29736
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/dhl-cross-border-logistics
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/dhl-cross-border-logistics/"
 comments: false
 search:
   exclude: false

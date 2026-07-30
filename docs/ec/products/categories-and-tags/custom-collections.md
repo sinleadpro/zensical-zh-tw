@@ -68,7 +68,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=31938
   - https://www.cyberbiz.io/support/?p=3330
   - https://www.cyberbiz.io/support/?p=43330
-permalink: https://help.cyberbiz.io/ec/products/categories-and-tags/custom-collections
+permalink: "https://help.cyberbiz.io/ec/products/categories-and-tags/custom-collections/"
 comments: false
 search:
   exclude: false

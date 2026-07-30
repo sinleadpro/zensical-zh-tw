@@ -4,7 +4,7 @@ description: 透過修改 Liquid 模板語法，在官網搜尋結果中排除�
 created: 2026-02-25
 last_modified: 2026-06-30 11:26
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/products/discoverability/exclude-keyword-products-search
+permalink: "https://help.cyberbiz.io/ec/products/discoverability/exclude-keyword-products-search/"
 type: tutorial
 status: ""
 version: ""

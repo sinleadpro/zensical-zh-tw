@@ -58,7 +58,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=53134
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/hardware/epson-tm-m30iii-invoice-printer/"
 comments: false
 search:
   exclude: false

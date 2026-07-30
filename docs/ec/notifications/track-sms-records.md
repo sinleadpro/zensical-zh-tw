@@ -55,7 +55,7 @@ paths:
   - "訊息推播 > 簡訊發送紀錄"
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/ec/notifications/track-sms-records"
+permalink: "https://help.cyberbiz.io/ec/notifications/track-sms-records/"
 comments: false
 search:
   exclude: false

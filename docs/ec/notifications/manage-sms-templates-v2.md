@@ -4,7 +4,7 @@ description: 設定與管理簡訊通知樣板，包含樣板編輯規則、阻�
 created:
 last_modified: 2026-07-01 21:05
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/notifications/manage-sms-templates-v2
+permalink: "https://help.cyberbiz.io/ec/notifications/manage-sms-templates-v2/"
 type: tutorial
 status:
 version:

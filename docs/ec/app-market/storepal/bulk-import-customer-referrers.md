@@ -57,7 +57,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3865
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/storepal/bulk-import-customer-referrers/"
 comments: false
 search:
   exclude: false

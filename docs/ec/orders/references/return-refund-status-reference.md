@@ -59,7 +59,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/orders/references/return-refund-status-reference
+permalink: "https://help.cyberbiz.io/ec/orders/references/return-refund-status-reference/"
 comments: false
 search:
   exclude: false

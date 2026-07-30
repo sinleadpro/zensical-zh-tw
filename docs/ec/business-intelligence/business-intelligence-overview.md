@@ -62,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2974
   - https://www.cyberbiz.io/support/?p=8275
-permalink: https://help.cyberbiz.io/ec/business-intelligence/business-intelligence-overview
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/business-intelligence-overview/"
 comments: ""
 search:
   exclude: ""

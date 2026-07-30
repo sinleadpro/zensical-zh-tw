@@ -52,7 +52,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2524
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/integrate-ezship-cvs-pickup-c2c/"
 comments: false
 search:
   exclude: false

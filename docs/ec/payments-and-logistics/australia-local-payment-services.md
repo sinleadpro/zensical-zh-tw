@@ -51,7 +51,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=51285
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/australia-local-payment-services
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/australia-local-payment-services/"
 comments: false
 search:
   exclude: false

@@ -53,7 +53,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5730
   - https://www.cyberbiz.io/support/?p=8770
-permalink: https://help.cyberbiz.io/wms/merchant-inbound-operation-rules
+permalink: "https://help.cyberbiz.io/wms/merchant-inbound-operation-rules/"
 comments: false
 search:
   exclude: false

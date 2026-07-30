@@ -68,7 +68,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5726
   - https://www.cyberbiz.io/support/?p=23149
-permalink: https://help.cyberbiz.io/wms/enable-partial-warehouse-integration-and-mixed-orders
+permalink: "https://help.cyberbiz.io/wms/enable-partial-warehouse-integration-and-mixed-orders/"
 comments: false
 search:
   exclude: false

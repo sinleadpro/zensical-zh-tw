@@ -65,7 +65,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5723
   - https://www.cyberbiz.io/support/?p=22981
-permalink: https://help.cyberbiz.io/wms/enable-partial-warehouse-integration-and-order-splitting
+permalink: "https://help.cyberbiz.io/wms/enable-partial-warehouse-integration-and-order-splitting/"
 comments: false
 search:
   exclude: false

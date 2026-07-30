@@ -54,7 +54,7 @@ paths:
   - 設定 > 帳號管理
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/wms/account-management
+permalink: "https://help.cyberbiz.io/wms/account-management/"
 comments: false
 search:
   exclude: false

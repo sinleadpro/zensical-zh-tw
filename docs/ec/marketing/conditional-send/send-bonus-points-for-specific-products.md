@@ -50,7 +50,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1006
   - https://www.cyberbiz.io/support/?p=3489
-permalink: https://help.cyberbiz.io/ec/marketing/conditional-send/send-bonus-points-for-specific-products
+permalink: "https://help.cyberbiz.io/ec/marketing/conditional-send/send-bonus-points-for-specific-products/"
 comments: false
 search:
   exclude: false

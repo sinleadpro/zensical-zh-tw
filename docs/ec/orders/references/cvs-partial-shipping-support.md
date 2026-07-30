@@ -43,7 +43,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/orders/references/cvs-partial-shipping-support
+permalink: "https://help.cyberbiz.io/ec/orders/references/cvs-partial-shipping-support/"
 comments: ""
 search:
   exclude: ""

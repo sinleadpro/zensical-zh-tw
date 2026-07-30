@@ -55,7 +55,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12765
   - https://www.cyberbiz.io/support/?p=52159
-permalink: https://help.cyberbiz.io/ec/orders/order-settings/cvs-barcode-payment
+permalink: "https://help.cyberbiz.io/ec/orders/order-settings/cvs-barcode-payment/"
 search:
   exclude: false
 icon: lucide/barcode

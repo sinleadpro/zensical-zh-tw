@@ -61,7 +61,7 @@ layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=12964
   - https://www.cyberbiz.io/support/?p=53079
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/chatbox/meta-message-format-spec/"
 comments: false
 search:
   exclude: false

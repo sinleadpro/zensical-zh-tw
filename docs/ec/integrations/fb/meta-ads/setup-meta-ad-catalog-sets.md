@@ -66,7 +66,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10789
   - https://www.cyberbiz.io/support/?p=46480
-permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/setup-meta-ad-catalog-sets
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/setup-meta-ad-catalog-sets/"
 comments: false
 search:
   exclude: false

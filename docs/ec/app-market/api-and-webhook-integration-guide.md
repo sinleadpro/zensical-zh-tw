@@ -63,7 +63,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8544
   - https://www.cyberbiz.io/support/?p=20739
   - https://www.cyberbiz.io/support/?p=40162
-permalink: https://help.cyberbiz.io/ec/app-market/api-and-webhook-integration-guide
+permalink: "https://help.cyberbiz.io/ec/app-market/api-and-webhook-integration-guide/"
 search:
   exclude: false
 icon: lucide/code-2

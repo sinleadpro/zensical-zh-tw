@@ -64,7 +64,7 @@ paths:
   - 金物流 > 新竹物流託運單
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-hct-waybill-v2
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-hct-waybill-v2/"
 comments: false
 search:
   exclude: false

@@ -66,7 +66,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7800
   - https://www.cyberbiz.io/support/?p=33261
-permalink: https://help.cyberbiz.io/ec/business-intelligence/omo-analysis-report
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/omo-analysis-report/"
 comments: false
 search:
   exclude: false

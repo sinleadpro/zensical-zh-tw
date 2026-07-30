@@ -62,7 +62,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=41036
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/storepal/performance-reports/"
 comments: false
 search:
   exclude: false

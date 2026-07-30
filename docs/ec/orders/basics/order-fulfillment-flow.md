@@ -1,6 +1,6 @@
 ---
 title: 訂單出貨流程
-permalink: https://help.cyberbiz.io/ec/orders/basics/order-fulfillment-flow
+permalink: "https://help.cyberbiz.io/ec/orders/basics/order-fulfillment-flow/"
 version: ""
 author: Jase
 last_modified: 2026-07-13 12:02

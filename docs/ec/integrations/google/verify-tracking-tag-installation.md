@@ -56,7 +56,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=741
   - https://www.cyberbiz.io/support/?p=234
-permalink: https://help.cyberbiz.io/ec/integrations/google/verify-tracking-tag-installation
+permalink: "https://help.cyberbiz.io/ec/integrations/google/verify-tracking-tag-installation/"
 comments: false
 search:
   exclude: false

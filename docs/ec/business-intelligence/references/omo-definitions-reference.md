@@ -48,7 +48,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/business-intelligence/references/omo-definitions-reference/
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/omo-definitions-reference/"
 comments: false
 search:
   exclude: false

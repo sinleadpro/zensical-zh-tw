@@ -66,7 +66,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1830
   - https://www.cyberbiz.io/support/?p=984
-permalink: https://help.cyberbiz.io/ec/products/create-and-manage/setup-product-videos
+permalink: "https://help.cyberbiz.io/ec/products/create-and-manage/setup-product-videos/"
 comments: false
 search:
   exclude: false

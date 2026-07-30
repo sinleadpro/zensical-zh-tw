@@ -58,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1209
   - https://www.cyberbiz.io/support/?p=2881
-permalink: https://help.cyberbiz.io/ec/website-management/add-admin-set-permissions
+permalink: "https://help.cyberbiz.io/ec/website-management/add-admin-set-permissions/"
 comments: false
 search:
   exclude: false

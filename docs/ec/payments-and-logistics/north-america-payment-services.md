@@ -53,7 +53,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=30595
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/north-america-payment-services
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/north-america-payment-services/"
 comments: false
 search:
   exclude: false

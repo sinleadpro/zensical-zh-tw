@@ -62,7 +62,7 @@ layouts: []
 wp_url: 
     - https://www.cyberbiz.io/helpcenter/?p=7960
     - https://www.cyberbiz.io/support/?p=28947
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/marketing/coupon/free-shipping-coupon-spec/"
 comments: false
 search:
   exclude: false

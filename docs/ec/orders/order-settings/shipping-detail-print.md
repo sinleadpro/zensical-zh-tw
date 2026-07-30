@@ -62,7 +62,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=6364
-permalink: https://help.cyberbiz.io/ec/orders/order-settings/shipping-detail-print
+permalink: "https://help.cyberbiz.io/ec/orders/order-settings/shipping-detail-print/"
 comments: false
 search:
   exclude: false

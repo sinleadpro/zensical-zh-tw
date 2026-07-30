@@ -58,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=192
   - https://www.cyberbiz.io/support/?p=1677
-permalink: https://help.cyberbiz.io/ec/orders/order-settings/manual-order-close
+permalink: "https://help.cyberbiz.io/ec/orders/order-settings/manual-order-close/"
 comments: false
 search:
   exclude: false

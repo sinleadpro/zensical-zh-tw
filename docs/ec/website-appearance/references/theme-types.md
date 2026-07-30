@@ -40,7 +40,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/website-appearance/references/theme-types/
+permalink: "https://help.cyberbiz.io/ec/website-appearance/references/theme-types/"
 comments: false
 search:
   exclude: false

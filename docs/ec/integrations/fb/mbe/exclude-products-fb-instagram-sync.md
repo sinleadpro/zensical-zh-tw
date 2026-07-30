@@ -57,7 +57,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=28419
-permalink: https://help.cyberbiz.io/ec/integrations/fb/mbe/exclude-products-fb-instagram-sync
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/mbe/exclude-products-fb-instagram-sync/"
 comments: false
 search:
   exclude: false

@@ -8,7 +8,7 @@ description: 設定拖拉版型的全站共用設定，包含彈窗廣告、顏�
 created:
 last_modified: 2026-07-22 16:23
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-global-theme-settings
+permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-global-theme-settings/"
 type: tutorial
 status:
 version:

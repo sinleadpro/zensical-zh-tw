@@ -52,7 +52,7 @@ paths:
   - APP MARKET > 我的擴充服務 > 門市助理
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/ec/app-market/storepal/view-sales-performance"
+permalink: "https://help.cyberbiz.io/ec/app-market/storepal/view-sales-performance/"
 comments: false
 search:
   exclude: false

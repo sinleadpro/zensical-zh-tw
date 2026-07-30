@@ -58,7 +58,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=13166
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/quick-delivery-shipping-and-distribution/"
 comments: false
 search:
   exclude: false

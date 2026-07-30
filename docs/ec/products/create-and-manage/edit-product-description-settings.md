@@ -69,7 +69,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7701
   - https://www.cyberbiz.io/support/?p=7497
-permalink: https://help.cyberbiz.io/ec/products/create-and-manage/edit-product-description-settings
+permalink: "https://help.cyberbiz.io/ec/products/create-and-manage/edit-product-description-settings/"
 search:
   exclude: false
 icon: lucide/file-text

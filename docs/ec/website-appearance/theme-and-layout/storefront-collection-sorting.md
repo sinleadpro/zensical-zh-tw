@@ -4,7 +4,7 @@ description: 調整前台首頁「商品列表」區塊中，各個商品群組�
 created:
 last_modified: 2026-07-01 10:35
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/storefront-collection-sorting
+permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/storefront-collection-sorting/"
 type: tutorial
 status:
 version:

@@ -64,7 +64,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=40979
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/storepal/staff-accounts-and-role/"
 comments: false
 search:
   exclude: false

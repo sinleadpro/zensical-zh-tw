@@ -62,7 +62,7 @@ paths:
   - 金物流 > 宅配通託運單
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-pelican-waybill-v2
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-pelican-waybill-v2/"
 comments: false
 search:
   exclude: false

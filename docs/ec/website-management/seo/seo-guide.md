@@ -63,7 +63,7 @@ layouts: []
 wp_url:
   - "https://www.cyberbiz.io/helpcenter/?p=3512"
   - "https://www.cyberbiz.io/support/?p=16944"
-permalink: "https://help.cyberbiz.io/ec/website-management/seo/seo-guide"
+permalink: "https://help.cyberbiz.io/ec/website-management/seo/seo-guide/"
 comments: false
 search:
   exclude: false

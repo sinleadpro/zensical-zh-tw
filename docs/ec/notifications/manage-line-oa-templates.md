@@ -73,7 +73,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8156
   - https://www.cyberbiz.io/support/?p=728
-permalink: https://help.cyberbiz.io/ec/notifications/manage-line-oa-templates
+permalink: "https://help.cyberbiz.io/ec/notifications/manage-line-oa-templates/"
 comments: false
 search:
   exclude: false

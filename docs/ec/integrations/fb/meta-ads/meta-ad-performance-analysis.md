@@ -64,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1737
   - https://www.cyberbiz.io/support/?p=48371
-permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/meta-ad-performance-analysis
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/meta-ad-performance-analysis/"
 comments: false
 search:
   exclude: false

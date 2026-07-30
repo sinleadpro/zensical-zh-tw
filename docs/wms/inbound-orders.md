@@ -58,7 +58,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=4799
   - https://www.cyberbiz.io/support/?p=4814
   - https://www.cyberbiz.io/support/?p=9088
-permalink: https://help.cyberbiz.io/wms/inbound-orders
+permalink: "https://help.cyberbiz.io/wms/inbound-orders/"
 comments: false
 search:
   exclude: false

@@ -64,7 +64,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8632
   - https://www.cyberbiz.io/support/?p=2142
-permalink: https://help.cyberbiz.io/ec/products/checkout/checkout-split-multi-cart
+permalink: "https://help.cyberbiz.io/ec/products/checkout/checkout-split-multi-cart/"
 search:
   exclude: false
 icon: lucide/shopping-cart

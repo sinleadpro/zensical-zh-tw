@@ -52,7 +52,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=39872
-permalink: manual-refund-for-third-party-payments
+permalink: "https://help.cyberbiz.io/ec/orders/manual-refund-for-third-party-payment-orders/"
 comments: false
 search:
   exclude: false

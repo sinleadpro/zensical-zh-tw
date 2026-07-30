@@ -51,6 +51,7 @@ comments: ""
 search:
   exclude: ""
 icon: ""
+permalink: "https://help.cyberbiz.io/resources/backups/articles/AFTEE先享後付 金流說明/"
 ---
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/適用站別.png)

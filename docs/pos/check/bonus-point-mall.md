@@ -57,7 +57,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=35526
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/check/bonus-point-mall/"
 comments: false
 search:
   exclude: false

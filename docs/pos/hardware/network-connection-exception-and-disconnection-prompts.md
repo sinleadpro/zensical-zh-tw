@@ -58,7 +58,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=27029
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/hardware/network-connection-exception-and-disconnection-prompts/"
 comments: false
 search:
   exclude: false

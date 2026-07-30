@@ -61,7 +61,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8048
   - https://www.cyberbiz.io/support/?p=2166
-permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/meta-ad-daily-budget-guide
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/meta-ad-daily-budget-guide/"
 comments: false
 search:
   exclude: false

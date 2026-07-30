@@ -62,7 +62,7 @@ layouts:
   - 
 wp_url:
   - https://www.cyberbiz.io/support/?p=10488
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/orders/store-pickup-orders-inbound-and-pickup/"
 comments: false
 search:
   exclude: false

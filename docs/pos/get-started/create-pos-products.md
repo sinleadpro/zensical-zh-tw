@@ -58,7 +58,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=5138
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/get-started/create-pos-products/"
 search:
   exclude: false
 icon: lucide/package-plus

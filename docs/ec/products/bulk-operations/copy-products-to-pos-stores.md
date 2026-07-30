@@ -59,7 +59,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=11985
-permalink: https://help.cyberbiz.io/ec/products/bulk-operations/copy-products-to-pos-stores
+permalink: "https://help.cyberbiz.io/ec/products/bulk-operations/copy-products-to-pos-stores/"
 comments: false
 search:
   exclude: false

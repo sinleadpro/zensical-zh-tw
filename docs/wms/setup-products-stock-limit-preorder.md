@@ -58,7 +58,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5714
   - https://www.cyberbiz.io/helpcenter/?p=5720
   - https://www.cyberbiz.io/support/?p=9658
-permalink: https://help.cyberbiz.io/wms/setup-products-stock-limit-preorder
+permalink: "https://help.cyberbiz.io/wms/setup-products-stock-limit-preorder/"
 comments: false
 search:
   exclude: false

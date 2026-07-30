@@ -65,7 +65,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6791
   - https://www.cyberbiz.io/support/?p=3962
-permalink: https://help.cyberbiz.io/ec/integrations/google/ga/ga4-exclude-internal-traffic-and-referrals
+permalink: "https://help.cyberbiz.io/ec/integrations/google/ga/ga4-exclude-internal-traffic-and-referrals/"
 comments: false
 search:
   exclude: false

@@ -68,7 +68,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9397
   - https://www.cyberbiz.io/support/?p=44199
-permalink: https://help.cyberbiz.io/ec/products/bulk-operations/batch-update-product-descriptions-shipping
+permalink: "https://help.cyberbiz.io/ec/products/bulk-operations/batch-update-product-descriptions-shipping/"
 comments: false
 search:
   exclude: false

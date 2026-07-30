@@ -50,7 +50,7 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=9556
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/software/drivers/"
 comments: false
 search:
   exclude: false

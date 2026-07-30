@@ -63,7 +63,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5760
   - https://www.cyberbiz.io/support/?p=7863
-permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/configure-scheduled-carousels
+permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/configure-scheduled-carousels/"
 comments: false
 search:
   exclude: false

@@ -64,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3006
   - https://www.cyberbiz.io/support/?p=4825
-permalink: https://help.cyberbiz.io/pos/inventory/transfer-orders
+permalink: "https://help.cyberbiz.io/pos/inventory/transfer-orders/"
 comments: false
 search:
   exclude: false

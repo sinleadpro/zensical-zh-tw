@@ -71,7 +71,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3549
   - https://www.cyberbiz.io/support/?p=14216
-permalink: https://help.cyberbiz.io/ec/website-management/security-best-practices
+permalink: "https://help.cyberbiz.io/ec/website-management/security-best-practices/"
 comments: false
 search:
   exclude: false

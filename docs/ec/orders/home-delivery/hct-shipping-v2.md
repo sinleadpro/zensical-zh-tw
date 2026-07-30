@@ -65,7 +65,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10646
   - https://www.cyberbiz.io/support/?p=46278
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/hct-shipping-v2
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/hct-shipping-v2/"
 comments: false
 search:
   exclude: false

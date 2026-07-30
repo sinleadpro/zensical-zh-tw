@@ -50,7 +50,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4964
   - https://www.cyberbiz.io/support/?p=31664
-permalink: https://help.cyberbiz.io/ec/website-management/troubleshoot-not-receiving-merchant-notifications
+permalink: "https://help.cyberbiz.io/ec/website-management/troubleshoot-not-receiving-merchant-notifications/"
 comments: false
 search:
   exclude: false

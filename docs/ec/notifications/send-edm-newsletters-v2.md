@@ -57,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4412
   - https://www.cyberbiz.io/support/?p=23782
-permalink: https://help.cyberbiz.io/ec/notifications/send-edm-newsletters-v2
+permalink: "https://help.cyberbiz.io/ec/notifications/send-edm-newsletters-v2/"
 comments: ""
 search:
   exclude: ""

@@ -4,7 +4,7 @@ description: 設定 LINE 官方帳號綁定會員後自動發送優惠券，以�
 created: 2026-02-24 14:26
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-line-binding-coupon-gift
+permalink: "https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-line-binding-coupon-gift/"
 type: tutorial
 status: ""
 version: ""

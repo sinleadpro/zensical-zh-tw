@@ -59,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=12978
   - https://www.cyberbiz.io/support/?p=13166
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/consumer-purchase-process/"
 comments: false
 search:
   exclude: false

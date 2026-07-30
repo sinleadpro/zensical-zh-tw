@@ -56,7 +56,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=2196
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/website-management/one-click-invoice-issuance/"
 comments: false
 search:
   exclude: false

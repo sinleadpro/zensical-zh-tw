@@ -4,7 +4,7 @@ description: 將 Google 表單嵌入 CYBERBIZ 自訂頁面，並針對手機版�
 created: 2024-05-23
 last_modified: 2026-06-30 11:01
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/website-appearance/pages-and-content/embed-google-form-custom-page
+permalink: "https://help.cyberbiz.io/ec/website-appearance/pages-and-content/embed-google-form-custom-page/"
 type: tutorial
 status: ""
 version: ""

@@ -7,6 +7,7 @@ hide:
   - feedback
 notes:
   - 會員系統設定 link
+permalink: "https://help.cyberbiz.io/ec/members/"
 ---
 
 # 會員管理

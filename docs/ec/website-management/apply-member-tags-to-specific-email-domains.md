@@ -48,7 +48,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=11515
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/website-management/apply-member-tags-to-specific-email-domains/"
 comments: false
 search:
   exclude: false

@@ -57,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5747
   - https://www.cyberbiz.io/support/?p=9139
-permalink: https://help.cyberbiz.io/wms/return-orders
+permalink: "https://help.cyberbiz.io/wms/return-orders/"
 comments: false
 search:
   exclude: false

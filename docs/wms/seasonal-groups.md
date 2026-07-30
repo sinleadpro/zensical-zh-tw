@@ -55,7 +55,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=8920
-permalink: https://help.cyberbiz.io/wms/seasonal-groups
+permalink: "https://help.cyberbiz.io/wms/seasonal-groups/"
 comments: false
 search:
   exclude: false

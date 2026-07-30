@@ -47,7 +47,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=11460
-permalink: https://help.cyberbiz.io/ec/marketing/conditional-send/send-coupons-for-specific-products
+permalink: "https://help.cyberbiz.io/ec/marketing/conditional-send/send-coupons-for-specific-products/"
 comments: false
 search:
   exclude: false

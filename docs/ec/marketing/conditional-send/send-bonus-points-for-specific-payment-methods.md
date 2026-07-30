@@ -45,7 +45,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3470
-permalink: https://help.cyberbiz.io/ec/marketing/conditional-send/send-bonus-points-for-specific-payment-methods
+permalink: "https://help.cyberbiz.io/ec/marketing/conditional-send/send-bonus-points-for-specific-payment-methods/"
 comments: false
 search:
   exclude: false

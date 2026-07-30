@@ -49,7 +49,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7505
   - https://www.cyberbiz.io/support/?p=11860
-permalink: https://help.cyberbiz.io/ec/members/vip
+permalink: "https://help.cyberbiz.io/ec/members/vip/"
 comments: false
 search:
   exclude: false

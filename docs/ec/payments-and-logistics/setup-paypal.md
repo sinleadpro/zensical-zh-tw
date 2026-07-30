@@ -4,7 +4,7 @@ description: 串接 PayPal 金流，讓海外信用卡顧客於結帳時可使�
 created:
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-paypal
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-paypal/"
 type: tutorial
 status:
 version:

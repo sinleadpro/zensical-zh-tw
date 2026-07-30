@@ -60,7 +60,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3006
   - https://www.cyberbiz.io/support/?p=4825
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/inventory/transfer-complete-process/"
 comments: false
 search:
   exclude: false

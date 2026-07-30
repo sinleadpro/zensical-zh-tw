@@ -53,7 +53,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5735
   - https://www.cyberbiz.io/support/?p=9043
-permalink: https://help.cyberbiz.io/wms/channels
+permalink: "https://help.cyberbiz.io/wms/channels/"
 comments: false
 search:
   exclude: false

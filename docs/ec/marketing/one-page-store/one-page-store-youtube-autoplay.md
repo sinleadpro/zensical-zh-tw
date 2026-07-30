@@ -60,7 +60,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3838
   - https://www.cyberbiz.io/support/?p=19650
-permalink: https://help.cyberbiz.io/ec/marketing/one-page-store/one-page-store-youtube-autoplay
+permalink: "https://help.cyberbiz.io/ec/marketing/one-page-store/one-page-store-youtube-autoplay/"
 comments: false
 search:
   exclude: false

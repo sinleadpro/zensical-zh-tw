@@ -67,7 +67,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10991
   - https://www.cyberbiz.io/helpcenter/?p=5054
   - https://www.cyberbiz.io/support/?p=9791
-permalink: https://help.cyberbiz.io/ec/business-intelligence/product-analysis
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/product-analysis/"
 comments: false
 search:
   exclude: false

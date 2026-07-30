@@ -50,7 +50,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4598
   - https://www.cyberbiz.io/support/?p=28727
-permalink: https://help.cyberbiz.io/ec/website-management/cloudflare-ssl-conflict
+permalink: "https://help.cyberbiz.io/ec/website-management/cloudflare-ssl-conflict/"
 comments: false
 search:
   exclude: false

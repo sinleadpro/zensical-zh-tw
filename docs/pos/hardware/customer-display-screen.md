@@ -61,7 +61,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=5578
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/hardware/customer-display-screen/"
 comments: false
 search:
   exclude: false

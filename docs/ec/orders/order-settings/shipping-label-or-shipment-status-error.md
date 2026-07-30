@@ -73,7 +73,7 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4407
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/order-settings/shipping-label-or-shipment-status-error/"
 comments: false
 search:
   exclude: false

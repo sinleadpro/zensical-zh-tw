@@ -63,7 +63,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=958
   - https://www.cyberbiz.io/support/?p=2018
-permalink: https://help.cyberbiz.io/ec/products/create-and-manage/product-swatches-variant-images-default
+permalink: "https://help.cyberbiz.io/ec/products/create-and-manage/product-swatches-variant-images-default/"
 comments: false
 search:
   exclude: false

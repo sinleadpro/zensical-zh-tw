@@ -58,7 +58,7 @@ layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=12961
   - https://www.cyberbiz.io/support/?p=52921
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/chatbox/line-message-format-spec/"
 comments: false
 search:
   exclude: false

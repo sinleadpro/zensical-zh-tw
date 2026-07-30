@@ -65,7 +65,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3461
   - https://www.cyberbiz.io/support/?p=16750
-permalink: https://help.cyberbiz.io/ec/website-appearance/customer-interaction/setup-customer-service-widget
+permalink: "https://help.cyberbiz.io/ec/website-appearance/customer-interaction/setup-customer-service-widget/"
 comments: ""
 search:
   exclude: ""

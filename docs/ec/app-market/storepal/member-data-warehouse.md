@@ -73,7 +73,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=41833
   - https://www.cyberbiz.io/support/?p=41853
   - https://www.cyberbiz.io/support/?p=41889
-permalink: https://help.cyberbiz.io/ec/app-market/storepal/member-data-warehouse
+permalink: "https://help.cyberbiz.io/ec/app-market/storepal/member-data-warehouse/"
 comments: false
 search:
   exclude: false

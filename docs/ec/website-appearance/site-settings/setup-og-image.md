@@ -68,7 +68,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3843
   - https://www.cyberbiz.io/support/?p=19718
-permalink: https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-og-image
+permalink: "https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-og-image/"
 comments: false
 search:
   exclude: false

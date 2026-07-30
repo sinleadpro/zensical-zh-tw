@@ -55,7 +55,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2076
   - https://www.cyberbiz.io/support/?p=1701
-permalink: https://help.cyberbiz.io/ec/marketing/one-page-store/one-page-store
+permalink: "https://help.cyberbiz.io/ec/marketing/one-page-store/one-page-store/"
 comments: false
 search:
   exclude: false

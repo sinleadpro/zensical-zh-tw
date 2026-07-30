@@ -57,7 +57,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=12650
-permalink: https://help.cyberbiz.io/ec/website-management/setup-manage-two-factor-auth
+permalink: "https://help.cyberbiz.io/ec/website-management/setup-manage-two-factor-auth/"
 comments: false
 search:
   exclude: false

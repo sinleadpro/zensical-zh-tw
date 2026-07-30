@@ -66,7 +66,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9359
   - https://www.cyberbiz.io/support/?p=44069
-permalink: https://help.cyberbiz.io/ec/orders/cvs-shipping/cvs-partial-shipment
+permalink: "https://help.cyberbiz.io/ec/orders/cvs-shipping/cvs-partial-shipment/"
 comments: false
 search:
   exclude: false

@@ -61,7 +61,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7324
   - https://www.cyberbiz.io/support/?p=25964
-permalink: https://help.cyberbiz.io/ec/integrations/line/marketing/line-oa-segment-messaging
+permalink: "https://help.cyberbiz.io/ec/integrations/line/marketing/line-oa-segment-messaging/"
 comments: false
 search:
   exclude: false

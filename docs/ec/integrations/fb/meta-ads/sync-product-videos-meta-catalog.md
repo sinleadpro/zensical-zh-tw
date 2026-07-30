@@ -58,7 +58,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7886
   - https://www.cyberbiz.io/support/?p=2175
-permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/sync-product-videos-meta-catalog
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/sync-product-videos-meta-catalog/"
 comments: ""
 search:
   exclude: ""

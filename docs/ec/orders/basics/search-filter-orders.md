@@ -61,7 +61,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=622
-permalink: https://help.cyberbiz.io/ec/orders/basics/search-filter-orders
+permalink: "https://help.cyberbiz.io/ec/orders/basics/search-filter-orders/"
 comments: false
 search:
   exclude: false

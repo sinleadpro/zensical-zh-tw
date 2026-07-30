@@ -49,7 +49,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7509
   - https://www.cyberbiz.io/support/?p=12291
-permalink: https://help.cyberbiz.io/ec/members/vip/setup-store-wide-vip-system
+permalink: "https://help.cyberbiz.io/ec/members/vip/setup-store-wide-vip-system/"
 comments: false
 search:
   exclude: false

@@ -4,7 +4,7 @@ description: 依頁面類型說明拖拉版型的各項設定，包含首頁區�
 created:
 last_modified: 2026-07-22 16:24
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings
+permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings/"
 type: tutorial
 status:
 version:

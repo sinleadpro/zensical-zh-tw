@@ -59,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8162
   - https://www.cyberbiz.io/support/?p=40622
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-apple-pay
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-apple-pay/"
 comments: false
 search:
   exclude: false

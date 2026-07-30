@@ -58,7 +58,7 @@ paths:
 layouts: []
 wp_url: 
     - https://www.cyberbiz.io/support/?p=35401
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/check/storewide-order-discounts/"
 comments: false
 search:
   exclude: false

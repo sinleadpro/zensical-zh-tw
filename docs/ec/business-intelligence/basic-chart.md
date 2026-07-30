@@ -59,7 +59,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3023
-permalink: https://help.cyberbiz.io/ec/business-intelligence/basic-chart
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/basic-chart/"
 comments: false
 search:
   exclude: false

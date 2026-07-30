@@ -51,7 +51,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=9105
-permalink: https://help.cyberbiz.io/wms/manually-confirm-receipt
+permalink: "https://help.cyberbiz.io/wms/manually-confirm-receipt/"
 comments: false
 search:
   exclude: false

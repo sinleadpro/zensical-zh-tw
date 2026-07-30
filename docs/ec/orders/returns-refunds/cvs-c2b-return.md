@@ -4,7 +4,7 @@ description: 設定及操作 7-11 超商退貨便 (C2B)
 created:
 last_modified: 2026-07-02 21:42
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/orders/returns-refunds/cvs-c2b-return
+permalink: "https://help.cyberbiz.io/ec/orders/returns-refunds/cvs-c2b-return/"
 type: tutorial
 status:
 version:

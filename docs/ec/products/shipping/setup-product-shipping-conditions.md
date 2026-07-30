@@ -78,7 +78,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2249
   - https://www.cyberbiz.io/support/?p=2107
   - https://www.cyberbiz.io/support/?p=2131
-permalink: https://help.cyberbiz.io/ec/products/shipping/setup-product-shipping-conditions
+permalink: "https://help.cyberbiz.io/ec/products/shipping/setup-product-shipping-conditions/"
 comments: false
 search:
   exclude: false

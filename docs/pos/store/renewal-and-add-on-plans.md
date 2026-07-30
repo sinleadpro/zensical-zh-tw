@@ -52,7 +52,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=24441
-permalink: https://help.cyberbiz.io/pos/store/renewal-and-add-on-plans
+permalink: "https://help.cyberbiz.io/pos/store/renewal-and-add-on-plans/"
 comments: false
 search:
   exclude: false

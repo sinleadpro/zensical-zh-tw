@@ -56,7 +56,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=6626
-permalink: https://help.cyberbiz.io/ec/products/bulk-operations/exclude-products-from-third-party-platforms
+permalink: "https://help.cyberbiz.io/ec/products/bulk-operations/exclude-products-from-third-party-platforms/"
 comments: false
 search:
   exclude: false

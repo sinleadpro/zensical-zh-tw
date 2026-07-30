@@ -63,7 +63,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12371
   - https://www.cyberbiz.io/support/?p=50193
-permalink: https://help.cyberbiz.io/ec/website-appearance/customer-interaction/enable-comment-recaptcha
+permalink: "https://help.cyberbiz.io/ec/website-appearance/customer-interaction/enable-comment-recaptcha/"
 comments: false
 search:
   exclude: false

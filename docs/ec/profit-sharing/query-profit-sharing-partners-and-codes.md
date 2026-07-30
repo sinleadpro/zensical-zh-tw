@@ -59,7 +59,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=1833
   - https://www.cyberbiz.io/support/?p=1864
   - https://www.cyberbiz.io/support/?p=39234
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/profit-sharing/query-profit-sharing-partners-and-codes/"
 comments: false
 search:
   exclude: false

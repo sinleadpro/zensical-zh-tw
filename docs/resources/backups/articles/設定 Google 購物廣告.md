@@ -63,6 +63,7 @@ tasks:
   - Google Merchant Center
 system:
   - 後台
+permalink: "https://help.cyberbiz.io/resources/backups/articles/設定 Google 購物廣告/"
 ---
 
 

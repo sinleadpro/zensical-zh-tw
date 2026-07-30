@@ -73,7 +73,7 @@ icon: lucide/eye
 modules:
   - 商品
   - 行銷活動
-permalink: https://help.cyberbiz.io/ec/products/discoverability/product-search-visibility
+permalink: "https://help.cyberbiz.io/ec/products/discoverability/product-search-visibility/"
 ---
 
 ![商品搜尋可見性設定](../../../assets/images/ec-product-search-toggle.zh-tw.png){ title="商品搜尋可見性設定" .hero-page }

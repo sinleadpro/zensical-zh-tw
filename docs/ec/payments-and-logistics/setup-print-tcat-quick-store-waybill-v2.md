@@ -59,7 +59,7 @@ paths:
   - 金物流 > 黑貓快速到店託運單
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-print-tcat-quick-store-waybill-v2
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-print-tcat-quick-store-waybill-v2/"
 comments: false
 search:
   exclude: false

@@ -57,7 +57,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=30948
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/cross-border-return-process/"
 comments: false
 search:
   exclude: false

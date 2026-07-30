@@ -67,7 +67,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3025
   - https://www.cyberbiz.io/support/?p=4911
-permalink: https://help.cyberbiz.io/pos/inventory/inventory-adjustment
+permalink: "https://help.cyberbiz.io/pos/inventory/inventory-adjustment/"
 comments: false
 search:
   exclude: false

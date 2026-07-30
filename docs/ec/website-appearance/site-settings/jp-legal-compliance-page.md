@@ -50,7 +50,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=50470
-permalink: https://help.cyberbiz.io/ec/website-appearance/site-settings/jp-legal-compliance-page
+permalink: "https://help.cyberbiz.io/ec/website-appearance/site-settings/jp-legal-compliance-page/"
 comments: false
 search:
   exclude: false

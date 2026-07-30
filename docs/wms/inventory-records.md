@@ -57,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5742
   - https://www.cyberbiz.io/support/?p=9159
-permalink: https://help.cyberbiz.io/wms/inventory-records
+permalink: "https://help.cyberbiz.io/wms/inventory-records/"
 comments: false
 search:
   exclude: false

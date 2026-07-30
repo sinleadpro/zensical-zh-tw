@@ -59,7 +59,7 @@ paths:
   - 第三方整合 > 谷歌 Google 設定 > Google Merchant Center
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/ec/integrations/google/setup-gmc-conversion-tracking"
+permalink: "https://help.cyberbiz.io/ec/integrations/google/setup-gmc-conversion-tracking/"
 comments: false
 search:
   exclude: false

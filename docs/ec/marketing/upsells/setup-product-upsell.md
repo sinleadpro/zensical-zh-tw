@@ -57,7 +57,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11189
   - https://www.cyberbiz.io/support/?p=7356
   - https://www.cyberbiz.io/support/?p=953
-permalink: https://help.cyberbiz.io/ec/marketing/upsells/setup-product-upsell
+permalink: "https://help.cyberbiz.io/ec/marketing/upsells/setup-product-upsell/"
 comments: false
 search:
   exclude: false

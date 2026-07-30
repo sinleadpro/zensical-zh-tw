@@ -64,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11013
   - https://www.cyberbiz.io/support/?p=47125
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/tcat-auto-call-driver-v2
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/tcat-auto-call-driver-v2/"
 comments: false
 search:
   exclude: false

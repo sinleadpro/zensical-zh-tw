@@ -69,7 +69,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=410
   - https://www.cyberbiz.io/support/?p=2807
-permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/apply-and-switch-theme
+permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/apply-and-switch-theme/"
 comments: false
 search:
   exclude: false

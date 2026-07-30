@@ -42,7 +42,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/website-appearance/references/text-editor-toolbar/
+permalink: "https://help.cyberbiz.io/ec/website-appearance/references/text-editor-toolbar/"
 comments: false
 search:
   exclude: false

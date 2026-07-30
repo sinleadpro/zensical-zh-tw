@@ -50,7 +50,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7884
   - https://www.cyberbiz.io/support/?p=10419
-permalink: https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/limited-time-first-purchase-gift
+permalink: "https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/limited-time-first-purchase-gift/"
 comments: false
 search:
   exclude: false

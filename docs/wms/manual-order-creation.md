@@ -53,7 +53,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5744
   - https://www.cyberbiz.io/support/?p=9105
-permalink: https://help.cyberbiz.io/wms/manual-order-creation
+permalink: "https://help.cyberbiz.io/wms/manual-order-creation/"
 comments: false
 search:
   exclude: false

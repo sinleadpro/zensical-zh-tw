@@ -55,7 +55,7 @@ layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=1165
   - https://www.cyberbiz.io/support/?p=30011
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/marketing/discounts/storewide-discounts/"
 search:
   exclude: false
 icon: lucide/percent

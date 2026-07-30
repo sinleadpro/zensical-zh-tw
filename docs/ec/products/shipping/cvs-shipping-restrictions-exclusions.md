@@ -70,7 +70,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=950
   - https://www.cyberbiz.io/support/?p=2025
-permalink: https://help.cyberbiz.io/ec/products/shipping/cvs-shipping-restrictions-exclusions
+permalink: "https://help.cyberbiz.io/ec/products/shipping/cvs-shipping-restrictions-exclusions/"
 comments: false
 search:
   exclude: false

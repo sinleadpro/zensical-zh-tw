@@ -61,7 +61,7 @@ layouts:
   - 
 wp_url:
   - https://www.cyberbiz.io/support/?p=25293
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/check/sub-device-checkout-binding/"
 comments: false
 search:
   exclude: false

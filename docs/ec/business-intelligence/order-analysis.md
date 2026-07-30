@@ -66,7 +66,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=8473
   - https://www.cyberbiz.io/support/?p=8714
   - https://www.cyberbiz.io/support/?p=9602
-permalink: https://help.cyberbiz.io/ec/business-intelligence/order-analysis
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/order-analysis/"
 comments: false
 search:
   exclude: false

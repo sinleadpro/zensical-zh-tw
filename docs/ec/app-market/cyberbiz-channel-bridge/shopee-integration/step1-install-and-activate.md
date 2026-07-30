@@ -52,7 +52,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=365
   - https://www.cyberbiz.io/support/?p=3532
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate/"
 comments: false
 search:
   exclude: false

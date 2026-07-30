@@ -56,7 +56,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=41747
-permalink: https://help.cyberbiz.io/ec/app-market/storepal/search-and-create-members
+permalink: "https://help.cyberbiz.io/ec/app-market/storepal/search-and-create-members/"
 comments: false
 search:
   exclude: false

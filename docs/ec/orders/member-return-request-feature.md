@@ -50,7 +50,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=51897
   - https://www.cyberbiz.io/support/?p=47627
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/member-return-request-feature/"
 comments: false
 search:
   exclude: false

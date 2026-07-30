@@ -59,7 +59,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/support/?p=5189
   - https://www.cyberbiz.io/support/?p=12155
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/third-party/monolith-e-invoice/"
 comments: false
 search:
   exclude: false

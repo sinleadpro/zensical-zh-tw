@@ -62,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3228
   - https://www.cyberbiz.io/support/?p=13973
-permalink: https://help.cyberbiz.io/ec/integrations/fb/mbe/setup-fbe-domain-verification
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/mbe/setup-fbe-domain-verification/"
 comments: false
 search:
   exclude: false

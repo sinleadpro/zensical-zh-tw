@@ -54,7 +54,7 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=5012
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/get-started/"
 comments: false
 search:
   exclude: false

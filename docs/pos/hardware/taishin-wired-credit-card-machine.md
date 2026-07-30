@@ -65,7 +65,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=4518
   - https://www.cyberbiz.io/support/?p=21480
   - https://www.cyberbiz.io/support/?p=51450
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/hardware/taishin-wired-credit-card-machine/"
 comments: false
 search:
   exclude: false

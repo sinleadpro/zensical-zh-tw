@@ -4,7 +4,7 @@ description: 包裝商品並透過超商店到店（C2C）寄件至消費者指�
 created:
 last_modified: 2026-06-30 11:11
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/orders/cvs-shipping/cvs-c2c-shipping
+permalink: "https://help.cyberbiz.io/ec/orders/cvs-shipping/cvs-c2c-shipping/"
 type: tutorial
 status:
 version:

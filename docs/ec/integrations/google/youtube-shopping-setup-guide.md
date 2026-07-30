@@ -65,7 +65,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=1979
   - https://www.cyberbiz.io/support/?p=6118
   - https://www.cyberbiz.io/support/?p=6149
-permalink: https://help.cyberbiz.io/ec/integrations/google/youtube-shopping-setup-guide
+permalink: "https://help.cyberbiz.io/ec/integrations/google/youtube-shopping-setup-guide/"
 comments: ""
 search:
   exclude: false

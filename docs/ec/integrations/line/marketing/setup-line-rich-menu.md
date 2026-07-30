@@ -68,7 +68,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5858
   - https://www.cyberbiz.io/support/?p=855
-permalink: https://help.cyberbiz.io/ec/integrations/line/marketing/setup-line-rich-menu
+permalink: "https://help.cyberbiz.io/ec/integrations/line/marketing/setup-line-rich-menu/"
 comments: false
 search:
   exclude: false

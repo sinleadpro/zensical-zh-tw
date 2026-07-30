@@ -55,7 +55,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3060
-permalink: https://help.cyberbiz.io/pos/check/payment-method
+permalink: "https://help.cyberbiz.io/pos/check/payment-method/"
 comments: false
 search:
   exclude: false

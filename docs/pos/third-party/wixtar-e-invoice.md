@@ -57,7 +57,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=46379
-permalink: https://help.cyberbiz.io/pos/third-party/wixtar-e-invoice
+permalink: "https://help.cyberbiz.io/pos/third-party/wixtar-e-invoice/"
 search:
   exclude: false
 icon: lucide/receipt

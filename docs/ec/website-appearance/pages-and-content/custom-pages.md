@@ -61,7 +61,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12570
   - https://www.cyberbiz.io/support/?p=40485
   - https://www.cyberbiz.io/support/?p=5649
-permalink: https://help.cyberbiz.io/ec/website-appearance/pages-and-content/custom-pages
+permalink: "https://help.cyberbiz.io/ec/website-appearance/pages-and-content/custom-pages/"
 comments: ""
 search:
   exclude: ""

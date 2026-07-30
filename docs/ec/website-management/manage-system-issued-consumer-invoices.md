@@ -56,7 +56,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=2319
   - https://www.cyberbiz.io/support/?p=5769
-permalink: https://help.cyberbiz.io/ec/website-management/manage-system-issued-consumer-invoices
+permalink: "https://help.cyberbiz.io/ec/website-management/manage-system-issued-consumer-invoices/"
 comments: false
 search:
   exclude: false

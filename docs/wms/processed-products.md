@@ -59,7 +59,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5717
   - https://www.cyberbiz.io/support/?p=8920
   - https://www.cyberbiz.io/support/?p=9749
-permalink: https://help.cyberbiz.io/wms/processed-products
+permalink: "https://help.cyberbiz.io/wms/processed-products/"
 comments: false
 search:
   exclude: false

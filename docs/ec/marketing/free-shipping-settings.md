@@ -68,7 +68,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5139
   - https://www.cyberbiz.io/support/?p=6257
-permalink: https://help.cyberbiz.io/ec/marketing/free-shipping-settings/
+permalink: "https://help.cyberbiz.io/ec/marketing/free-shipping-settings/"
 comments: false
 search:
   exclude: false

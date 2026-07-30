@@ -59,7 +59,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6170
   - https://www.cyberbiz.io/support/?p=31470
-permalink: https://help.cyberbiz.io/ec/products/discoverability/setup-product-filters
+permalink: "https://help.cyberbiz.io/ec/products/discoverability/setup-product-filters/"
 comments: false
 search:
   exclude: false

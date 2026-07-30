@@ -44,7 +44,7 @@ paths:
   - EC：金物流 > 宅配物流 > 串接物流
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/wms/logistics-settings-reference"
+permalink: "https://help.cyberbiz.io/wms/logistics-settings-reference/"
 comments: false
 search:
   exclude: false

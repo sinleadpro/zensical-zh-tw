@@ -57,7 +57,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2746
   - https://www.cyberbiz.io/support/?p=10652
   - https://www.cyberbiz.io/support/?p=5983
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-home-delivery-non-cod-custom-logistics
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-home-delivery-non-cod-custom-logistics/"
 comments: false
 search:
   exclude: false

@@ -61,7 +61,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=13988
-permalink: https://help.cyberbiz.io/pos/check/print-product-labels
+permalink: "https://help.cyberbiz.io/pos/check/print-product-labels/"
 comments: false
 search:
   exclude: false

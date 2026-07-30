@@ -58,7 +58,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8261
-permalink: https://help.cyberbiz.io/ec/business-intelligence/customer-analysis
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/customer-analysis/"
 comments: false
 search:
   exclude: false

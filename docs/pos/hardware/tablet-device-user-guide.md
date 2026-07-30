@@ -58,7 +58,7 @@ paths:
 layouts: ""
 wp_url:
   - https://www.cyberbiz.io/support/?p=21520
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/hardware/tablet-device-user-guide/"
 comments: false
 search:
   exclude: false

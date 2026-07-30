@@ -54,7 +54,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3052
-permalink: https://help.cyberbiz.io/ec/business-intelligence/product-chart
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/product-chart/"
 comments: false
 search:
   exclude: false

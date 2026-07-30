@@ -65,7 +65,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3680
   - https://www.cyberbiz.io/support/?p=18122
-permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/disable-product-image-zoom
+permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/disable-product-image-zoom/"
 comments: ""
 search:
   exclude: ""

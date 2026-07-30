@@ -64,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=63
   - https://www.cyberbiz.io/support/?p=975
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/pelican-shipping-v2
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/pelican-shipping-v2/"
 comments: false
 search:
   exclude: false

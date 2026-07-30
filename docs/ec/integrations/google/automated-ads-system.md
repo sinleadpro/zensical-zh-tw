@@ -63,7 +63,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8203
   - https://www.cyberbiz.io/support/?p=34930
-permalink: https://help.cyberbiz.io/ec/integrations/google/automated-ads-system
+permalink: "https://help.cyberbiz.io/ec/integrations/google/automated-ads-system/"
 comments: false
 search:
   exclude: false

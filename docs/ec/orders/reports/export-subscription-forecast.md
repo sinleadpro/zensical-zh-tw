@@ -52,7 +52,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=6794
-permalink: https://help.cyberbiz.io/ec/orders/reports/export-subscription-forecast
+permalink: "https://help.cyberbiz.io/ec/orders/reports/export-subscription-forecast/"
 comments: false
 search:
   exclude: false

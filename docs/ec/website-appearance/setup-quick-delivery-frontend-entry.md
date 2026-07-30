@@ -59,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=12861
   - https://www.cyberbiz.io/support/?p=24278
-permalink: https://help.cyberbiz.io/ec/website-appearance/setup-quick-delivery-frontend-entry
+permalink: "https://help.cyberbiz.io/ec/website-appearance/setup-quick-delivery-frontend-entry/"
 comments: false
 search:
   exclude: false

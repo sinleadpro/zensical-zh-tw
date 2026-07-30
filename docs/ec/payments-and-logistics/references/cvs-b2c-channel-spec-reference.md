@@ -45,7 +45,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/references/cvs-b2c-channel-spec-reference/"
 comments: ""
 search:
   exclude: ""

@@ -4,7 +4,7 @@ description: 申請、設定超商大宗寄倉 B2C 服務。
 created:
 last_modified: 2026-07-01 12:30
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping/"
 type: tutorial
 status:
 version:

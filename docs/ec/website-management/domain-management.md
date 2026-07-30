@@ -85,7 +85,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=43182
   - https://www.cyberbiz.io/support/?p=43442
   - https://www.cyberbiz.io/support/?p=4540
-permalink: https://help.cyberbiz.io/ec/website-management/domain-management
+permalink: "https://help.cyberbiz.io/ec/website-management/domain-management/"
 comments: false
 search:
   exclude: false

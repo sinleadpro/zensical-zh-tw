@@ -66,7 +66,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5855
   - https://www.cyberbiz.io/support/?p=706
-permalink: https://help.cyberbiz.io/ec/integrations/line/account-integration/connect-line-messaging-api
+permalink: "https://help.cyberbiz.io/ec/integrations/line/account-integration/connect-line-messaging-api/"
 comments: false
 search:
   exclude: false

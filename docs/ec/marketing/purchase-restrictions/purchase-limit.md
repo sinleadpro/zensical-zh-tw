@@ -60,7 +60,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6451
   - https://www.cyberbiz.io/support/?p=3354
-permalink: https://help.cyberbiz.io/ec/marketing/purchase-restrictions/purchase-limit
+permalink: "https://help.cyberbiz.io/ec/marketing/purchase-restrictions/purchase-limit/"
 comments: false
 search:
   exclude: false

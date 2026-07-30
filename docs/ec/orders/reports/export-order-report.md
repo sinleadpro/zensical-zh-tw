@@ -60,7 +60,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1266
   - https://www.cyberbiz.io/support/?p=25244
-permalink: https://help.cyberbiz.io/ec/orders/reports/export-order-report
+permalink: "https://help.cyberbiz.io/ec/orders/reports/export-order-report/"
 comments: false
 search:
   exclude: false

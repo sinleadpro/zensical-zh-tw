@@ -72,7 +72,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3938
   - https://www.cyberbiz.io/support/?p=21070
   - https://www.cyberbiz.io/support/?p=51521
-permalink: https://help.cyberbiz.io/ec/website-appearance/code-customization/text-editor
+permalink: "https://help.cyberbiz.io/ec/website-appearance/code-customization/text-editor/"
 comments: false
 search:
   exclude: false

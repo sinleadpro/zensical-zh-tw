@@ -61,7 +61,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5807
   - https://www.cyberbiz.io/support/?p=23413
-permalink: https://help.cyberbiz.io/ec/e-ticket/e-ticket-setup-guide
+permalink: "https://help.cyberbiz.io/ec/e-ticket/e-ticket-setup-guide/"
 comments: false
 search:
   exclude: false

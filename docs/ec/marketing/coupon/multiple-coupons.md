@@ -51,7 +51,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=37637
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/marketing/coupon/multiple-coupons/"
 comments: false
 search:
   exclude: false

@@ -4,7 +4,7 @@ description: 建立指定或任選組合商品，設定子商品內容、價格�
 created: 2026-01-08 00:00
 last_modified: 2026-06-30 11:26
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/products/create-and-manage/create-and-setup-combo-products
+permalink: "https://help.cyberbiz.io/ec/products/create-and-manage/create-and-setup-combo-products/"
 type: guide
 status:
 version:

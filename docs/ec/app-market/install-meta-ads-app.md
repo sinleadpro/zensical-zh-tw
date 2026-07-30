@@ -62,7 +62,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11972
-permalink: https://help.cyberbiz.io/ec/app-market/install-meta-ads-app
+permalink: "https://help.cyberbiz.io/ec/app-market/install-meta-ads-app/"
 comments: ""
 search:
   exclude: ""

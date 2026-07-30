@@ -67,7 +67,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=4781
   - https://www.cyberbiz.io/support/?p=4799
   - https://www.cyberbiz.io/support/?p=4814
-permalink: https://help.cyberbiz.io/pos/inventory/inbound-orders
+permalink: "https://help.cyberbiz.io/pos/inventory/inbound-orders/"
 comments: false
 search:
   exclude: false

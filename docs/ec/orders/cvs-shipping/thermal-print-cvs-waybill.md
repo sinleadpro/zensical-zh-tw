@@ -4,7 +4,7 @@ description: 使用超商熱感列印功能列印 A6 託運單
 created:
 last_modified: 2026-07-07 13:59
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/orders/cvs-shipping/thermal-print-cvs-waybill
+permalink: "https://help.cyberbiz.io/ec/orders/cvs-shipping/thermal-print-cvs-waybill/"
 type: tutorial
 status:
 version:

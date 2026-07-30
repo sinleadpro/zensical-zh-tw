@@ -4,7 +4,7 @@ description: 申請街口支付帳號，並在 CYBERBIZ 後台完成串接設定
 created:
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-jkopay
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-jkopay/"
 type: tutorial
 status:
 version:

@@ -55,7 +55,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7458
   - https://www.cyberbiz.io/support/?p=32529
-permalink: https://help.cyberbiz.io/ec/integrations/line/apply-setup-line-live-stream
+permalink: "https://help.cyberbiz.io/ec/integrations/line/apply-setup-line-live-stream/"
 comments: false
 search:
   exclude: false

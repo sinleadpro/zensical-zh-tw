@@ -62,7 +62,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=9723
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/hardware/label-printer/"
 comments: false
 search:
   exclude: false

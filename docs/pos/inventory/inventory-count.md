@@ -65,7 +65,7 @@ layouts:
   - 
 wp_url:
   - https://www.cyberbiz.io/support/?p=39410
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/inventory/inventory-count/"
 comments: false
 search:
   exclude: false

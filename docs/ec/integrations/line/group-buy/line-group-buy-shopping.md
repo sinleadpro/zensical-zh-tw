@@ -53,7 +53,7 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=29461
-permalink: https://help.cyberbiz.io/ec/integrations/line/group-buy/line-group-buy-shopping
+permalink: "https://help.cyberbiz.io/ec/integrations/line/group-buy/line-group-buy-shopping/"
 comments: false
 search:
   exclude: false

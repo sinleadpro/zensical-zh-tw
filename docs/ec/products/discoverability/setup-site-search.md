@@ -64,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8765
   - https://www.cyberbiz.io/support/?p=23999
-permalink: https://help.cyberbiz.io/ec/products/discoverability/setup-site-search
+permalink: "https://help.cyberbiz.io/ec/products/discoverability/setup-site-search/"
 comments: ""
 search:
   exclude: false

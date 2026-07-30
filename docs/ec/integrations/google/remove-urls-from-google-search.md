@@ -58,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12105
   - https://www.cyberbiz.io/support/?p=25441
-permalink: https://help.cyberbiz.io/ec/integrations/google/remove-urls-from-google-search
+permalink: "https://help.cyberbiz.io/ec/integrations/google/remove-urls-from-google-search/"
 comments: false
 search:
   exclude: false

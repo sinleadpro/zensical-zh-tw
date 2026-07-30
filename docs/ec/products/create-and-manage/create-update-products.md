@@ -84,7 +84,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=20111
   - https://www.cyberbiz.io/support/?p=31357
   - https://www.cyberbiz.io/support/?p=7565
-permalink: https://help.cyberbiz.io/ec/products/create-and-manage/create-update-products
+permalink: "https://help.cyberbiz.io/ec/products/create-and-manage/create-update-products/"
 comments: false
 search:
   exclude: false

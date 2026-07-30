@@ -4,7 +4,7 @@ description: 在 POS 前台針對單一商品調整價格，並設定改價原�
 created: 2026-03-05 18:40
 last_modified: 2026-07-22 15:52
 lang: zh-TW
-permalink: https://help.cyberbiz.io/pos/check/pos-manager-price-override
+permalink: "https://help.cyberbiz.io/pos/check/pos-manager-price-override/"
 type: tutorial
 status: ""
 version: ""

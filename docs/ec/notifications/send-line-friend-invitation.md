@@ -61,7 +61,7 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=739
-permalink: https://help.cyberbiz.io/ec/notifications/send-line-friend-invitation
+permalink: "https://help.cyberbiz.io/ec/notifications/send-line-friend-invitation/"
 comments: false
 search:
   exclude: false

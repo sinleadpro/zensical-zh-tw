@@ -66,7 +66,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5794
   - https://www.cyberbiz.io/support/?p=10289
-permalink: https://help.cyberbiz.io/ec/products/pricing/setup-vip-member-pricing
+permalink: "https://help.cyberbiz.io/ec/products/pricing/setup-vip-member-pricing/"
   - https://www.cyberbiz.io/helpcenter/?p=5794
   - https://www.cyberbiz.io/support/?p=10289
 comments: false

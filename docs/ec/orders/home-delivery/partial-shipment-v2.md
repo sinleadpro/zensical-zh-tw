@@ -60,7 +60,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=93
   - https://www.cyberbiz.io/support/?p=43635
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/partial-shipment-v2
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/partial-shipment-v2/"
 comments: false
 search:
   exclude: false

@@ -55,7 +55,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8276
   - https://www.cyberbiz.io/support/?p=41132
   - https://www.cyberbiz.io/support/?p=7345
-permalink: https://help.cyberbiz.io/ec/marketing/discounts/threshold-gifts-and-quantity-gifts
+permalink: "https://help.cyberbiz.io/ec/marketing/discounts/threshold-gifts-and-quantity-gifts/"
 comments: false
 search:
   exclude: false

@@ -62,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4769
   - https://www.cyberbiz.io/support/?p=28602
-permalink: https://help.cyberbiz.io/ec/integrations/line/marketing/setup-manage-line-tag
+permalink: "https://help.cyberbiz.io/ec/integrations/line/marketing/setup-manage-line-tag/"
 search:
   exclude: false
 icon: lucide/code

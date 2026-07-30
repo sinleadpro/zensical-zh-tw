@@ -57,7 +57,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=13253
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/pandago-delivery-exception-rules/"
 comments: false
 search:
   exclude: false

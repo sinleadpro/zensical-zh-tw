@@ -58,7 +58,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=12873
-permalink: https://help.cyberbiz.io/ec/website-management/authy-two-factor-authentication
+permalink: "https://help.cyberbiz.io/ec/website-management/authy-two-factor-authentication/"
 comments: false
 search:
   exclude: false

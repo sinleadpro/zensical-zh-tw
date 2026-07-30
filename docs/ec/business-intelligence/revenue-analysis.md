@@ -46,7 +46,7 @@ apis: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5041
   - https://www.cyberbiz.io/support/?p=8368
-permalink: https://help.cyberbiz.io/ec/business-intelligence/revenue-analysis
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/revenue-analysis/"
 icon: lucide/trending-up
 hide:
 ---

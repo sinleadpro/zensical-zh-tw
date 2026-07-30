@@ -5,6 +5,7 @@ hide:
   - feedback
   - navigation
   - toc
+permalink: "https://help.cyberbiz.io/"
 ---
 
 <div style="display: flex; gap: 2rem; flex-wrap: wrap; padding: 3rem 0 4rem;" markdown>

@@ -52,7 +52,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10656
   - https://www.cyberbiz.io/support/?p=46272
   - https://www.cyberbiz.io/support/?p=5967
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/home-delivery-cash-on-delivery
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/home-delivery-cash-on-delivery/"
 comments: false
 search:
   exclude: false

@@ -48,7 +48,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=33442
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/japan-payment-services
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/japan-payment-services/"
 comments: false
 search:
   exclude: false

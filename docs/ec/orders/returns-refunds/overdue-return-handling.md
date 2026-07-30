@@ -71,7 +71,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=2034
-permalink: https://help.cyberbiz.io/ec/orders/returns-refunds/overdue-return-handling
+permalink: "https://help.cyberbiz.io/ec/orders/returns-refunds/overdue-return-handling/"
 comments: false
 search:
   exclude: false

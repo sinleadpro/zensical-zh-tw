@@ -4,7 +4,7 @@ description: 依物流狀態與設定天數，透過系統批次機制自動將�
 created:
 last_modified: 2026-07-13 14:43
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/orders/order-settings/auto-close-order-settings
+permalink: "https://help.cyberbiz.io/ec/orders/order-settings/auto-close-order-settings/"
 type: tutorial
 status:
 version:

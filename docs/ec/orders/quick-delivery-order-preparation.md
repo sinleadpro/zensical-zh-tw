@@ -55,7 +55,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=13134
   - https://www.cyberbiz.io/support/?p=13744
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/quick-delivery-order-preparation/"
 comments: false
 search:
   exclude: false

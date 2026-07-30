@@ -41,7 +41,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/website-appearance/references/business-disclosure-footer-fields/
+permalink: "https://help.cyberbiz.io/ec/website-appearance/references/business-disclosure-footer-fields/"
 comments: false
 search:
   exclude: false

@@ -60,7 +60,7 @@ layouts:
   - 
 wp_url:
   - https://www.cyberbiz.io/support/?p=27954
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/member/"
 comments: false
 search:
   exclude: false

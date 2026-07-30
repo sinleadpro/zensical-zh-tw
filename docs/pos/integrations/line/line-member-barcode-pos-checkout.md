@@ -4,7 +4,7 @@ description: 啟用並設定 LINE 官方帳號會員條碼，讓門市人員可�
 created:
 last_modified: 2026-07-03T11:43:52+08:00
 lang: zh-TW
-permalink: https://help.cyberbiz.io/pos/integrations/line/line-member-barcode-pos-checkout
+permalink: "https://help.cyberbiz.io/pos/integrations/line/line-member-barcode-pos-checkout/"
 type: tutorial
 status:
 version:

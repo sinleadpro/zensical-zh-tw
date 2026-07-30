@@ -23,7 +23,7 @@ tags:
   - 指標定義
   - 圖表對照
   - 數據卡
-permalink: https://help.cyberbiz.io/ec/business-intelligence/references/periodic-order-analysis-metrics-reference/
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/periodic-order-analysis-metrics-reference/"
 icon: lucide/table
 hide:
 ---

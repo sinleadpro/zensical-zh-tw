@@ -74,7 +74,7 @@ ui_components: []
 paths:
   - 金物流 > 結帳頁 & 物流設定
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/order-settings/
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/payments/order-settings/"
 icon: lucide/receipt
 ---
 

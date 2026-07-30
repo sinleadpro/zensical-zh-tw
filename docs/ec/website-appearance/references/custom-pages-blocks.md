@@ -37,7 +37,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/website-appearance/references/custom-pages-blocks/"
 comments: ""
 search:
   exclude: ""

@@ -4,7 +4,7 @@ description: 管理後台登入防護與顧客資料保護，從 IP 白名單、
 created:
 last_modified: 2026-07-08 15:00
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/website-management/security-settings
+permalink: "https://help.cyberbiz.io/ec/website-management/security-settings/"
 type: tutorial
 status:
 version:

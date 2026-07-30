@@ -47,7 +47,7 @@ paths:
   - 操作紀錄列表
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/wms/operation-logs
+permalink: "https://help.cyberbiz.io/wms/operation-logs/"
 comments: false
 search:
   exclude: false

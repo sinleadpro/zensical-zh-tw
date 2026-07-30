@@ -60,7 +60,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6844
   - https://www.cyberbiz.io/support/?p=5450
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-credit-card-3d-verification
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-credit-card-3d-verification/"
 comments: false
 search:
   exclude: false

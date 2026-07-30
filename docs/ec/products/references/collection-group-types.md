@@ -42,7 +42,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/products/references/collection-group-types/"
 comments: ""
 search:
   exclude: ""

@@ -63,7 +63,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=467
   - https://www.cyberbiz.io/support/?p=3807
-permalink: submit-sitemap-to-google-search-console
+permalink: "https://help.cyberbiz.io/ec/website-management/seo/submit-sitemap-to-gsc/"
 comments: false
 search:
   exclude: false

@@ -65,7 +65,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5686
   - https://www.cyberbiz.io/support/?p=11928
   - https://www.cyberbiz.io/support/?p=6207
-permalink: https://help.cyberbiz.io/ec/marketing/coupon/setup-coupons
+permalink: "https://help.cyberbiz.io/ec/marketing/coupon/setup-coupons/"
 comments: false
 search:
   exclude: false

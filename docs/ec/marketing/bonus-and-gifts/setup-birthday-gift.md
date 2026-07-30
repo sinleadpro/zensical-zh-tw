@@ -57,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8752
   - https://www.cyberbiz.io/support/?p=1461
-permalink: https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/setup-birthday-gift
+permalink: "https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/setup-birthday-gift/"
 comments: false
 search:
   exclude: false

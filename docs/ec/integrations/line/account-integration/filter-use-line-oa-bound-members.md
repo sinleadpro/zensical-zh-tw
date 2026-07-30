@@ -4,7 +4,7 @@ description: 使用會員篩選器找出 LINE OA 綁定會員，並匯出或用�
 created: 2026-03-06 11:20
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/integrations/line/account-integration/filter-use-line-oa-bound-members
+permalink: "https://help.cyberbiz.io/ec/integrations/line/account-integration/filter-use-line-oa-bound-members/"
 type: tutorial
 status: ""
 version: ""

@@ -14,6 +14,7 @@ tags:
   - Glossary
   - 詞彙表
   - 系統名詞
+permalink: "https://help.cyberbiz.io/resources/glossary/"
 ---
 <!-- [PDF :lucide-download:](#){ .md-button .md-button--primary } -->
 

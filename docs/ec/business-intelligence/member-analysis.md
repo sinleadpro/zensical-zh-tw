@@ -63,7 +63,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5050
-permalink: https://help.cyberbiz.io/ec/business-intelligence/member-analysis
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/member-analysis/"
 comments: false
 search:
   exclude: false

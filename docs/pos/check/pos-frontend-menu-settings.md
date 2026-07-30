@@ -58,7 +58,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=11224
-permalink:
+permalink: "https://help.cyberbiz.io/pos/check/pos-frontend-menu-settings/"
 comments: false
 search:
   exclude: false

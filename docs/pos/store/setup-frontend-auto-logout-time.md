@@ -52,7 +52,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=4259
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/store/setup-frontend-auto-logout-time/"
 comments: false
 search:
   exclude: false

@@ -61,7 +61,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1643
   - https://www.cyberbiz.io/helpcenter/?p=3558
   - https://www.cyberbiz.io/support/?p=17225
-permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/adjust-carousel-transition-duration
+permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/adjust-carousel-transition-duration/"
 comments: ""
 search:
   exclude: ""

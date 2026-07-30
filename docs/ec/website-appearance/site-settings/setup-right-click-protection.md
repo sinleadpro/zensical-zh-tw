@@ -4,7 +4,7 @@ description: 在版型檔案中加入 CSS 與 JavaScript 限制語法，停用�
 created: 2025-03-03
 last_modified: 2026-07-06 09:13
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-right-click-protection
+permalink: "https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-right-click-protection/"
 type: tutorial
 status: ""
 version: ""

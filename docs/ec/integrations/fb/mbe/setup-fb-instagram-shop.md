@@ -65,7 +65,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3113
   - https://www.cyberbiz.io/support/?p=11757
   - https://www.cyberbiz.io/support/?p=24676
-permalink: https://help.cyberbiz.io/ec/integrations/fb/mbe/setup-fb-instagram-shop
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/mbe/setup-fb-instagram-shop/"
 comments: false
 search:
   exclude: false

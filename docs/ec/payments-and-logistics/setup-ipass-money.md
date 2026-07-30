@@ -53,7 +53,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12633
   - https://www.cyberbiz.io/support/?p=51378
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-ipass-money
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-ipass-money/"
 comments: false
 search:
   exclude: false

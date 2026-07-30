@@ -56,7 +56,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=4623
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/inventory/product-query/"
 comments: false
 search:
   exclude: false

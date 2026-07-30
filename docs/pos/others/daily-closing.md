@@ -53,7 +53,7 @@ paths:
   - 其他功能 > 小結關帳
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/pos/others/daily-closing"
+permalink: "https://help.cyberbiz.io/pos/others/daily-closing/"
 comments: false
 search:
   exclude: false

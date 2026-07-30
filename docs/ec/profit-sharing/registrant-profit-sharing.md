@@ -49,7 +49,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1182
   - https://www.cyberbiz.io/support/?p=1720
-permalink: https://help.cyberbiz.io/ec/profit-sharing/registrant-profit-sharing
+permalink: "https://help.cyberbiz.io/ec/profit-sharing/registrant-profit-sharing/"
 comments: false
 search:
   exclude: false

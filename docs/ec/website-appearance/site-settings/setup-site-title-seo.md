@@ -60,7 +60,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3572
   - https://www.cyberbiz.io/support/?p=16627
-permalink: https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-site-title-seo
+permalink: "https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-site-title-seo/"
 comments: ""
 search:
   exclude: ""

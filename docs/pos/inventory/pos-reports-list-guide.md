@@ -49,7 +49,7 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=25099
-permalink: https://help.cyberbiz.io/pos/orders/pos-reports-list-guide
+permalink: "https://help.cyberbiz.io/pos/inventory/pos-reports-list-guide/"
 comments: ""
 search:
   exclude: ""

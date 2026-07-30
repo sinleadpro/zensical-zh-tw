@@ -61,7 +61,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=1864
   - https://www.cyberbiz.io/support/?p=23951
   - https://www.cyberbiz.io/support/?p=39234
-permalink: https://help.cyberbiz.io/ec/profit-sharing/referrer-profit-sharing
+permalink: "https://help.cyberbiz.io/ec/profit-sharing/referrer-profit-sharing/"
 comments: false
 search:
   exclude: false

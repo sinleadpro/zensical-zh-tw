@@ -53,7 +53,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10497
   - https://www.cyberbiz.io/support/?p=4414
-permalink: https://help.cyberbiz.io/wms/merchant-self-inspection-of-returns
+permalink: "https://help.cyberbiz.io/wms/merchant-self-inspection-of-returns/"
 comments: false
 search:
   exclude: false

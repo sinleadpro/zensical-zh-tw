@@ -62,7 +62,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=13010
   - https://www.cyberbiz.io/support/?p=52927
   - https://www.cyberbiz.io/support/?p=53334
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/chatbox/connect-chat-box-to-facebook-page/"
 comments: false
 search:
   exclude: false

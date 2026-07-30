@@ -60,7 +60,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=52249
-permalink: https://help.cyberbiz.io/pos/hardware/epson-tm-t82iii-invoice-printer
+permalink: "https://help.cyberbiz.io/pos/hardware/epson-tm-t82iii-invoice-printer/"
 comments: false
 search:
   exclude: false

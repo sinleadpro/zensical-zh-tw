@@ -62,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=4225
   - https://www.cyberbiz.io/support/?p=5064
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/hardware/posiflex-wired-invoice-printer/"
 comments: false
 search:
   exclude: false

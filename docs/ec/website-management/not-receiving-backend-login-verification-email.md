@@ -53,7 +53,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12859
   - https://www.cyberbiz.io/support/?p=52847
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/website-management/not-receiving-backend-login-verification-email/"
 comments: false
 search:
   exclude: false

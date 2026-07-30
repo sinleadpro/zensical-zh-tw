@@ -9,7 +9,7 @@ tags:
   - 直播
   - 整合
 icon: lucide/book-open
-permalink: "https://help.cyberbiz.io/guidebook"
+permalink: "https://help.cyberbiz.io/resources/guidebook/"
 ---
 ## 手冊 { #handbooks }
 

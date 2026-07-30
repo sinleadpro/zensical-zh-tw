@@ -61,7 +61,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/support/?p=27199
   - https://www.cyberbiz.io/support/?p=5231
-permalink: https://help.cyberbiz.io/pos/store/security-settings
+permalink: "https://help.cyberbiz.io/pos/store/security-settings/"
 comments: false
 search:
   exclude: false

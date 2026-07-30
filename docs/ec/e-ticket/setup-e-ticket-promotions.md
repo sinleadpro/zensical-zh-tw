@@ -56,7 +56,7 @@ search:
   exclude: ""
 icon: lucide/percent
 hide:
-permalink: https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions
+permalink: "https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions/"
 ---
 # 設定電子票券優惠
 建立電子票券的任選折扣優惠活動，設定折扣層級與計價規則，並瞭解退票與撥款的計算方式。

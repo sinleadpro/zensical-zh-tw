@@ -7,6 +7,7 @@ hide:
   - feedback
 search:
   exclude: true
+permalink: "https://help.cyberbiz.io/index-old/"
 ---
 
 <div class="hero-wrapper" style="

@@ -61,7 +61,7 @@ layouts:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12005
   - https://www.cyberbiz.io/support/?p=48029
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/shipping-status-tooltip
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/shipping-status-tooltip/"
 comments: false
 search:
   exclude: false

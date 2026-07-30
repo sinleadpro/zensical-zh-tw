@@ -52,7 +52,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8621
   - https://www.cyberbiz.io/support/?p=32733
-permalink: https://help.cyberbiz.io/ec/members/vip/create-exclusive-vip-groups
+permalink: "https://help.cyberbiz.io/ec/members/vip/create-exclusive-vip-groups/"
 comments: false
 search:
   exclude: false

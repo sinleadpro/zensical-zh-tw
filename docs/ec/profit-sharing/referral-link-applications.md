@@ -56,7 +56,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4051
-permalink: https://help.cyberbiz.io/ec/profit-sharing/referral-link-applications
+permalink: "https://help.cyberbiz.io/ec/profit-sharing/referral-link-applications/"
 comments: false
 search:
   exclude: false

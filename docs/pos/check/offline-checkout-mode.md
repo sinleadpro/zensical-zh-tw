@@ -62,7 +62,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=12654
-permalink: []
+permalink: "https://help.cyberbiz.io/pos/check/offline-checkout-mode/"
 comments: false
 search:
   exclude: false

@@ -70,7 +70,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=2289
   - https://www.cyberbiz.io/support/?p=2549
   - https://www.cyberbiz.io/support/?p=2635
-permalink: https://help.cyberbiz.io/ec/members/manage-member-profiles
+permalink: "https://help.cyberbiz.io/ec/members/manage-member-profiles/"
 comments: false
 search:
   exclude: false

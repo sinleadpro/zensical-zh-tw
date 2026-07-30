@@ -4,7 +4,7 @@ description: 透過編輯 Liquid 樣板檔案，在結帳完成後的關鍵轉�
 created: 2026-02-24
 last_modified: 2026-07-08 19:11
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/integrations/line/marketing/line-friend-link-order-payment-pages
+permalink: "https://help.cyberbiz.io/ec/integrations/line/marketing/line-friend-link-order-payment-pages/"
 type: tutorial
 status: ""
 version: ""

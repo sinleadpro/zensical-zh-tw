@@ -5,7 +5,7 @@ description: 啟用超商店到店（C2C）物流服務，讓顧客可於結帳�
 created:
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-cvs-c2c-shipping
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-cvs-c2c-shipping/"
 type: tutorial
 status:
 version:

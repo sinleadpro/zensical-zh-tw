@@ -57,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=275
   - https://www.cyberbiz.io/support/?p=2754
-permalink: https://help.cyberbiz.io/ec/members/member-customer-service-system
+permalink: "https://help.cyberbiz.io/ec/members/member-customer-service-system/"
 comments: false
 search:
   exclude: false

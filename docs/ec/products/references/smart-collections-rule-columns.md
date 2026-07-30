@@ -41,7 +41,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/products/references/smart-collections-rule-columns/"
 comments: ""
 search:
   exclude: ""

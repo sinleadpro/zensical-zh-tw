@@ -4,7 +4,7 @@ description: 訂單尚未完成付款時，商家可透過付款連結引導顧�
 created:
 last_modified: 2026-07-22 15:49
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/orders/order-settings/provide-payment-link
+permalink: "https://help.cyberbiz.io/ec/orders/order-settings/provide-payment-link/"
 type: tutorial
 status:
 version:

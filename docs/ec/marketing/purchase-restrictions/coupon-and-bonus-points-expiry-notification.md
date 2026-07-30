@@ -53,7 +53,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=11115
-permalink: https://help.cyberbiz.io/ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification
+permalink: "https://help.cyberbiz.io/ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification/"
 comments: false
 search:
   exclude: false

@@ -5,6 +5,7 @@ icon: lucide/badge-percent
 hide:
   - feedback
 notes: []
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/cyberbiz-now/"
 ---
 
 # CYBERBIZ NOW 快速到貨：即時營運導航

@@ -46,7 +46,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=43726
-permalink: https://help.cyberbiz.io/ec/marketing/conditional-send/send-event-serials-for-specific-products
+permalink: "https://help.cyberbiz.io/ec/marketing/conditional-send/send-event-serials-for-specific-products/"
 comments: false
 search:
   exclude: false

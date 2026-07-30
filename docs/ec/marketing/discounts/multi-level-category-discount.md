@@ -57,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9212
   - https://www.cyberbiz.io/support/?p=43281
-permalink: https://help.cyberbiz.io/ec/marketing/discounts/multi-level-category-discount
+permalink: "https://help.cyberbiz.io/ec/marketing/discounts/multi-level-category-discount/"
 comments: false
 search:
   exclude: false

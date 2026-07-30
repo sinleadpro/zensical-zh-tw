@@ -54,7 +54,7 @@ layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=969
   - https://www.cyberbiz.io/support/?p=46501
-permalink:
+permalink: "https://help.cyberbiz.io/ec/website-management/auto-deduction-of-arrears/"
 comments: false
 search:
   exclude: false
