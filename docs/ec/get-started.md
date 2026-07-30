@@ -12,6 +12,8 @@ wp_url:
 type: tutorial
 status: update
 author: Jase
+reviewers: []
+notes: []
 products:
   - EC
 modules:

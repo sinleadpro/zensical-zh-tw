@@ -8,8 +8,8 @@ type: tutorial
 status: update
 author: Jase
 version: 
-reviewers: 
-notes: 
+reviewers: []
+notes: []
 ga_views: 0
 feedback: 0
 products:

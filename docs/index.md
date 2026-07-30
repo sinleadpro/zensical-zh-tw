@@ -3,6 +3,8 @@ status: update
 title: 主頁
 lang: zh-TW
 author: Jase
+reviewers: []
+notes: []
 hide:
   - feedback
   - navigation

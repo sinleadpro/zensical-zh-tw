@@ -1,5 +1,8 @@
 ---
 status: update
+author: ""
+reviewers: []
+notes: []
 title: 整合串接第三方平台服務
 description: 串接第三方平台、API 與服務，提升商店功能與自動化能力。
 lang: zh-TW

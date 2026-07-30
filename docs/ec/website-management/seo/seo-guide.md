@@ -7,7 +7,7 @@ lang: zh-TW
 type: guide
 status: update
 version: ""
-author: "Jase"
+author: Jase
 reviewers: []
 notes: []
 ga_views: 0

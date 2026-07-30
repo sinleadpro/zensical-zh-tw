@@ -1,5 +1,8 @@
 ---
 status: update
+author: ""
+reviewers: []
+notes: []
 title: LINE 整合總覽
 description: 串接 LINE 官方帳號與電商系統，達成會員自動化管理、精準分眾行銷及線上線下（OMO）導購與支付整合。
 lang: zh-TW

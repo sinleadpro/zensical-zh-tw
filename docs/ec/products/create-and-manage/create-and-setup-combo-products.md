@@ -8,7 +8,7 @@ permalink: "https://help.cyberbiz.io/ec/products/create-and-manage/create-and-se
 type: guide
 status: update
 version:
-author:
+author: ""
 reviewers: []
 notes:
   - 新增商品可選任選或指定組合商品 功能待下放

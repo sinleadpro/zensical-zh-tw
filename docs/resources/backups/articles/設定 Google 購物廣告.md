@@ -1,6 +1,8 @@
 ---
 title: 設定 Google 購物廣告
 version: ""
+author: ""
+reviewers: []
 last_modified: 2026-03-11 12:18
 description: 串接 Google Merchant Center、同步商品資料至 Google 搜尋與購物廣告。
 product:
