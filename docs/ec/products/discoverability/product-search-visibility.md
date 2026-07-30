@@ -64,6 +64,7 @@ audiences:
   - 網店管理員
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1527
+products: [EC]
 notes:
   - add guide 商品可見性
   - verify

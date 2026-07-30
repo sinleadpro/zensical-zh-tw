@@ -52,6 +52,7 @@ audiences: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=24829
   - https://www.cyberbiz.io/support/?p=952
+products: [EC]
 notes:
   - verify 宅配跟超取出貨流程
   - 篩選群組可以做出快結案訂單群組嗎

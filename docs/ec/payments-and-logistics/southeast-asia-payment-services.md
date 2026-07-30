@@ -17,7 +17,7 @@ products:
 modules:
   - 金物流
 sites:
-  - 東南亞
+  - SEA
 audiences:
   - admin
 difficulty: intermediate

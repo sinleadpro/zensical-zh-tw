@@ -2,6 +2,7 @@
 status: update
 author: ""
 reviewers: []
+products: [WMS]
 notes: []
 title: 智慧倉儲 (WMS) 產品中心
 lang: zh-TW

@@ -50,7 +50,7 @@ prerequisites:
   - 需準備公司統一編號
 lang: zh-TW
 sites:
-  - 台灣
+  - TW
 status: update
 tags:
   - 資安
@@ -65,6 +65,7 @@ audiences:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4068
   - https://www.cyberbiz.io/support/?p=2693
+products: [EC]
 notes:
   - verify FAQ
   - update internal links

@@ -2,6 +2,7 @@
 status: update
 author: ""
 reviewers: []
+products: [EC, POS, WMS]
 notes: []
 title: 主頁
 lang: zh-TW

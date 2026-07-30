@@ -2,6 +2,7 @@
 status: update
 author: ""
 reviewers: []
+products: [POS]
 notes: []
 title: 智能 POS 產品中心
 lang: zh-TW

@@ -13,7 +13,7 @@ notes: []
 ga_views: 0
 feedback: 0
 products:
-  - ec
+  - EC
 modules:
   - 金物流
 sites:

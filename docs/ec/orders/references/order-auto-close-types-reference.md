@@ -11,7 +11,7 @@ version: ""
 reviewers: []
 notes: []
 products:
-  - ec
+  - EC
 modules: []
 sites:
   - TW

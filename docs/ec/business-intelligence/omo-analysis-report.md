@@ -13,8 +13,8 @@ notes: []
 ga_views: 0
 feedback: 0
 products:
-  - ec
-  - pos
+  - EC
+  - POS
 modules:
   - 分析報表
 sites:

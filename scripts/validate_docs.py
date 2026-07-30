@@ -197,8 +197,11 @@ def validate_file(filepath: Path, schema):
         return [("[frontmatter] missing or invalid YAML", "ERROR")]
     results = []
     fields = schema.get("fields", {})
+    rel = str(filepath.relative_to(DOCS_DIR))
 
     for field_name, field_def in fields.items():
+        if field_name == "products" and rel.startswith("resources/"):
+            continue
         value = fm.get(field_name)
         errors, warnings = validate_field(
             value, field_def, field_name, filepath, schema

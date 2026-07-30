@@ -50,6 +50,7 @@ audiences: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5812
   - https://www.cyberbiz.io/support/?p=27477
+products: [EC]
 notes:
   - 電子票券左側選單之後改版
 comments: ""

@@ -4,6 +4,7 @@ title: 品牌官網
 lang: zh-TW
 author: Jase
 reviewers: []
+products: [EC]
 notes: []
 hide:
   - toc

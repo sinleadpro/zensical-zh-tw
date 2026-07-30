@@ -42,7 +42,7 @@ prerequisites:
   - 商品圖片符合 Google 規範
 lang: zh-TW
 sites:
-  - 台灣
+  - TW
 status: update
 tags:
   - Google

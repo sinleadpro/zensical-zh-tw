@@ -4,6 +4,7 @@ title: 主頁
 lang: zh-TW
 author: Jase
 reviewers: []
+products: [EC, POS, WMS]
 notes: []
 hide:
   - feedback

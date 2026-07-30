@@ -2,6 +2,7 @@
 status: update
 author: ""
 reviewers: []
+products: [EC]
 notes: []
 title: 報表分析
 description: 一目了然掌握商店經營數據，快速分析銷售、訂單與會員行為。

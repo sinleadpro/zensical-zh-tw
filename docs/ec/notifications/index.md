@@ -2,6 +2,7 @@
 status: update
 author: ""
 reviewers: []
+products: [EC]
 notes: []
 title: 訊息推播
 description: 掌握 Email、簡訊與 LINE 多元推播管道，有效觸及會員並提升行銷轉換。

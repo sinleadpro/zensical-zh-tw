@@ -2,6 +2,7 @@
 status: update
 author: ""
 reviewers: []
+products: [EC]
 notes: []
 title: Meta 廣告
 description: 透過 CYBERBIZ 後台完成 Meta 廣告帳號建立、活動設定、投放策略與成效分析。

@@ -9,6 +9,7 @@ icon: lucide/user
 hide:
   - toc
   - feedback
+products: [EC]
 notes:
   - 會員系統設定 link
 permalink: "https://help.cyberbiz.io/ec/members/"

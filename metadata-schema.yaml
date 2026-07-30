@@ -107,7 +107,7 @@ fields:
   sites:
     type: enum[]
     required: false
-    values: [TW, JP, US]
+    values: [TW, JP, US, MY, SG, AU, SEA]
 
   # trunk (全方案適用) 或 branch (特定方案)
   tnb:
