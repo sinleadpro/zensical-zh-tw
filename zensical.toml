@@ -486,7 +486,11 @@ copyright = """
             ]},
             {"CYBERBIZ EXPRESS " = [
                 {"日到台宅配" = "ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery.md"},
+                {"日到台日本郵局(EMS) " = "ec/app-market/express/cyberbiz-express-ems.md"},
                 {"日到台 7-11 超取" = "ec/app-market/express/cyberbiz-express-711.md"},
+                {"EZWAY 訂閱服務" = "ec/app-market/express/ezway.md"},
+                {"商品資訊設定" = "ec/app-market/express/product-info-setting.md"},
+                {"貨態追蹤與查詢" = "ec/app-market/express/order-tracking-and-query.md"},
             ]},
             {"CYBERBIZ Meta Ads" = "ec/app-market/install-meta-ads-app.md"}
         ]},
