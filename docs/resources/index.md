@@ -1,5 +1,6 @@
 ---
 title: 資源中心
+lang: zh-TW
 notes: []
 hide:
   - toc

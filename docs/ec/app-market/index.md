@@ -1,6 +1,7 @@
 ---
 title: APP MARKET 總覽
 description: 在 CYBERBIZ APP MARKET 中探索並安裝各類擴充服務，實現自動化行銷、全通路管理與門市銷售整合。
+lang: zh-TW
 icon: lucide/grid-2x2-plus
 permalink: "https://help.cyberbiz.io/ec/app-market/"
 hide:

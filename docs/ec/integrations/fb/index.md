@@ -1,6 +1,7 @@
 ---
 title: Facebook 總覽
 description: 串接 Facebook 與 Meta 廣告生態系，涵蓋快速登入、Meta 廣告投放、商品目錄同步與粉絲專頁整合。
+lang: zh-TW
 icon: simple/facebook
 permalink: "https://help.cyberbiz.io/ec/integrations/fb/"
 hide:

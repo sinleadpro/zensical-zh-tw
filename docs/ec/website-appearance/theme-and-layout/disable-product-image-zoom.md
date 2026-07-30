@@ -3,7 +3,7 @@ title: "關閉商品圖片放大預覽功能"
 description: "修改程式碼關閉商品頁圖片放大預覽功能，包含操作步驟、註解方式及恢復機制說明。"
 created: "2025-03-03 17:15"
 last_modified: 2026-06-30 11:01
-lang: "zh-TW"
+lang: zh-TW
 type: tutorial
 status: ""
 version: ""

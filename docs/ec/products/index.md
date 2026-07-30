@@ -1,6 +1,7 @@
 ---
 title: 商品管理
 description: 輕鬆管理商品資訊、分類與庫存，提升上架效率。
+lang: zh-TW
 icon: lucide/package
 permalink: "https://help.cyberbiz.io/ec/products/"
 notes:

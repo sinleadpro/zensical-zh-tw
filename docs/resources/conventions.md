@@ -1,6 +1,7 @@
 ---
 title: 圖示慣例
 description: 了解 CYBERBIZ 文件中使用的符號與圖示慣例，包含適用產品、方案、功能與擴充的標示說明。
+lang: zh-TW
 last_modified: 2026-06-29 19:30
 type: reference
 tags:

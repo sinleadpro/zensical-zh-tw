@@ -1,6 +1,7 @@
 ---
 title: 行銷活動
 description: 提升商店曝光與銷售，管理行銷活動、優惠策略與顧客互動。
+lang: zh-TW
 icon: lucide/badge-percent
 permalink: "https://help.cyberbiz.io/ec/marketing/"
 hide:

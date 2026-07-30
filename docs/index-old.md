@@ -1,5 +1,6 @@
 ---
 title: 主頁
+lang: zh-TW
 hide:
   - feedback
   - navigation

@@ -3,7 +3,7 @@ title: "設定 GA4 排除內部流量與第三方參照來源"
 description: "在 GA4 中設定排除 company 內部 IP 流量，以及排除第三方金物流的參照連結，避免轉換來源被誤判。"
 created: "2026-03-23 17:38"
 last_modified: 2026-07-02 16:57
-lang: "zh-TW"
+lang: zh-TW
 type: tutorial
 status: ""
 version: ""

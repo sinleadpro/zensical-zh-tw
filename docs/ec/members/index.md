@@ -1,6 +1,7 @@
 ---
 title: 會員管理
 description: 管理會員資料、等級與互動，提升會員體驗與忠誠度。
+lang: zh-TW
 icon: lucide/user
 hide:
   - toc

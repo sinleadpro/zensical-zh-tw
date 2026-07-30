@@ -1,6 +1,7 @@
 ---
 title: 結帳頁與物流設定總覽
 description: 設定購物車、訂單與物流的相關規則，控管結帳流程與配送細節。
+lang: zh-TW
 icon: lucide/settings
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=329

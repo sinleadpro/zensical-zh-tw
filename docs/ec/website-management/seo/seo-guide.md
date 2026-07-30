@@ -3,7 +3,7 @@ title: "SEO 設定與優化指南"
 description: "完整說明 SEO 設定功能，包含圖片 ALT 屬性、商品頁與分類頁 SEO、全站 Meta Tag 設定以及 Sitemap 提交與 301 轉址教學。"
 created: "2026-03-18 16:19"
 last_modified: 2026-06-26 14:53
-lang: "zh-TW"
+lang: zh-TW
 type: guide
 status: ""
 version: ""

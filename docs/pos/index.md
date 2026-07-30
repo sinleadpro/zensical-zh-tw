@@ -1,5 +1,6 @@
 ---
 title: 智能 POS 產品中心
+lang: zh-TW
 hide:
   - toc
   - path
