@@ -2,8 +2,8 @@
 """Validate Zensical docs frontmatter metadata against frontmatter-schema.yaml.
 
 Usage:
-    python scripts/validate_docs.py [files...]
-    python scripts/validate_docs.py  # validates all docs/**/*.md
+    python scripts/validate_docs_frontmatter.py [files...]
+    python scripts/validate_docs_frontmatter.py  # validates all docs/**/*.md
 """
 
 import re

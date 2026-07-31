@@ -3,7 +3,7 @@ repos:
     hooks:
       - id: validate-docs-frontmatter
         name: Validate Zensical docs frontmatter
-        entry: python scripts/validate_docs.py
+        entry: python scripts/validate_docs_frontmatter.py
         language: python
         files: ^docs/.*\.md$
         pass_filenames: true

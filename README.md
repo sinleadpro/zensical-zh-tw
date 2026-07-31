@@ -42,13 +42,13 @@ graph TD
 
 ```bash
 # 檢查所有文件
-python scripts/validate_docs.py
+python scripts/validate_docs_frontmatter.py
 
 # 檢查單一文件
-python scripts/validate_docs.py docs/ec/app-market/chatbox/connect-chat-box-to-facebook-page.md
+python scripts/validate_docs_frontmatter.py docs/ec/app-market/chatbox/connect-chat-box-to-facebook-page.md
 
 # 檢查多個文件
-python scripts/validate_docs.py docs/ec/app-market/**/*.md
+python scripts/validate_docs_frontmatter.py docs/ec/app-market/**/*.md
 ```
 
 Pre-commit hook 會在 `git commit` 時自動執行檢查，阻擋不符合 schema 的檔案。
@@ -75,5 +75,5 @@ pre-commit install
 zensical serve -f zensical.toml -a 127.0.0.1:8000
 ```
 
-Pre-commit hook 會在每次 `git commit` 時自動執行 `validate_docs.py`，若 frontmatter 不符 schema 則阻擋提交。
+Pre-commit hook 會在每次 `git commit` 時自動執行 `validate_docs_frontmatter.py`，若 frontmatter 不符 schema 則阻擋提交。
 
