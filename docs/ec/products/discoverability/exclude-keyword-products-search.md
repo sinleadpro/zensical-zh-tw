@@ -6,7 +6,6 @@ last_modified: 2026-06-30 11:26
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/products/discoverability/exclude-keyword-products-search/"
 type: guide
-status: update
 author: Jase
 reviewers: []
 notes:

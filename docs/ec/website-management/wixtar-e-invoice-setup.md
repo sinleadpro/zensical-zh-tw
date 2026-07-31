@@ -41,7 +41,6 @@ prerequisites:
 lang: zh-TW
 sites:
   - TW
-status: update
 tags:
   - 資安
   - 金流

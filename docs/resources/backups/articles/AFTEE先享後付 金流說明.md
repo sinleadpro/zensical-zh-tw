@@ -31,7 +31,6 @@ prerequisites:
 lang: zh-TW
 sites:
   - TW
-status: update
 tags: []
 difficulty: beginner
 audiences:

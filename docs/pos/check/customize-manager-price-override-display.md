@@ -6,7 +6,6 @@ last_modified: 2026-07-03 11:44
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/pos/check/customize-manager-price-override-display/"
 type: guide
-status: update
 author: Jase
 reviewers: []
 notes: []

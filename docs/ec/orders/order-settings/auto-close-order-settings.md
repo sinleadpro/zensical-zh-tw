@@ -6,7 +6,6 @@ last_modified: 2026-07-13 14:43
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/orders/order-settings/auto-close-order-settings/"
 type: guide
-status: update
 author: Jase
 reviewers: []
 notes:

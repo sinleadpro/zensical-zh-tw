@@ -1,5 +1,4 @@
 ---
-status: update
 author: ""
 reviewers: []
 title: 商品管理

@@ -10,7 +10,6 @@ last_modified: 2026-07-22 16:23
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-global-theme-settings/"
 type: guide
-status: update
 author: Jase
 reviewers: []
 notes: []

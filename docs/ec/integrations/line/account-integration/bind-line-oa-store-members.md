@@ -6,7 +6,6 @@ last_modified: 2026-06-26 10:05
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/integrations/line/account-integration/bind-line-oa-store-members/"
 type: guide
-status: update
 author: Jase
 reviewers: []
 notes:

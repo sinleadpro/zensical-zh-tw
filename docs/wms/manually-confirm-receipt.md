@@ -5,7 +5,6 @@ created: 2026-02-25 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: troubleshooting
-status: update
 author: Ann
 reviewers: []
 notes:

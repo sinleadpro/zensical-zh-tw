@@ -1,6 +1,5 @@
 ---
 description: "CYBERBIZ 智能 POS 產品中心，提供硬體安裝、結帳功能與庫存管理等操作說明。"
-status: update
 author: ""
 reviewers: []
 products: [POS]

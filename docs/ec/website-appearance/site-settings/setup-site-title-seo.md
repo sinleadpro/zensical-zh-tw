@@ -4,7 +4,6 @@ description: "設定網站標題、簡述與關鍵字，以優化搜尋引擎 (S
 last_modified: 2026-07-03 17:41
 lang: zh-TW
 type: guide
-status: update
 author: Jase
 reviewers: []
 notes: []

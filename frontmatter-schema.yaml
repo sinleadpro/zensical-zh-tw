@@ -51,7 +51,7 @@ fields:
   status:
     type: enum
     required: false
-    values: [new, update, deprecated]
+    values: [new, deprecated]
 
 
   # 文件主要負責人

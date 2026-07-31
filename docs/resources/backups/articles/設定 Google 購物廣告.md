@@ -37,7 +37,6 @@ prerequisites:
 lang: zh-TW
 sites:
   - TW
-status: update
 tags:
   - Google
   - GMC

@@ -1,5 +1,4 @@
 ---
-status: update
 author: ""
 reviewers: []
 products: [EC]

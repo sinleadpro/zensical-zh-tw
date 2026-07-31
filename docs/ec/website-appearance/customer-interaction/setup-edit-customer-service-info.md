@@ -6,7 +6,6 @@ last_modified: 2026-06-30 11:01
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/website-appearance/customer-interaction/setup-edit-customer-service-info/"
 type: guide
-status: update
 author: Jase
 reviewers: []
 notes:

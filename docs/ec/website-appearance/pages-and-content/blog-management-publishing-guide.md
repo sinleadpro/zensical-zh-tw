@@ -5,7 +5,6 @@ created: "2026-03-19 11:27"
 last_modified: 2026-06-30 11:01
 lang: zh-TW
 type: guide
-status: update
 author: Jase
 reviewers: []
 notes: []

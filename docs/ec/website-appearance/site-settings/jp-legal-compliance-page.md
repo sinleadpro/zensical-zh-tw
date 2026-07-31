@@ -4,8 +4,8 @@ description: 根據日本《特定商取引法》，日本站商家需建立法�
 created: 2026-03-16 00:00
 last_modified: 2026-06-30 11:01
 lang: zh-TW
+status: new
 type: guide
-status: update
 author: Ann
 reviewers: []
 notes: []

@@ -34,7 +34,6 @@ prerequisites:
 lang: zh-TW
 sites:
   - TW
-status: update
 tags:
   - 商品可見性
   - 排除搜尋

@@ -4,7 +4,6 @@ description: 了解 CYBERBIZ 文件中使用的符號與圖示慣例，包含適
 lang: zh-TW
 last_modified: 2026-06-29 19:30
 type: reference
-status: update
 author: ""
 reviewers: []
 notes: []

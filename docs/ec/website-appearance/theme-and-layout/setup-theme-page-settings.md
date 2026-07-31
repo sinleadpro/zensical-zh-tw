@@ -6,7 +6,6 @@ last_modified: 2026-07-22 16:24
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings/"
 type: guide
-status: update
 author: Jase
 reviewers: []
 notes: []

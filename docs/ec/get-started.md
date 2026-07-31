@@ -10,7 +10,6 @@ wp_url:
   - https://www.cyberbiz.io/support/?page_id=17972
   - https://www.cyberbiz.io/support/?page_id=29441 
 type: guide
-status: update
 author: Jase
 reviewers: []
 notes: []

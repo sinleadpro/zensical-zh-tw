@@ -6,7 +6,6 @@ last_modified: 2026-07-06 09:13
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-right-click-protection/"
 type: guide
-status: update
 author: Jase
 reviewers: []
 notes: []

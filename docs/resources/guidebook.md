@@ -4,7 +4,6 @@ description: 彙整 CYBERBIZ 商家指南手冊，提供 PDF 下載。
 lang: zh-TW
 last_modified: 2026-06-01 11:15
 type: hub
-status: update
 author: ""
 reviewers: []
 notes: []

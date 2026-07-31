@@ -1,5 +1,4 @@
 ---
-status: update
 author: ""
 reviewers: []
 title: CYBERBIZ NOW 快速到貨

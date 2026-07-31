@@ -4,7 +4,6 @@ description: 彙整影片教學資源，包含課程平台、線上工作坊錄�
 lang: zh-TW
 last_modified: 2026-07-22 17:40
 type: hub
-status: update
 author: Jase
 reviewers: []
 notes: []

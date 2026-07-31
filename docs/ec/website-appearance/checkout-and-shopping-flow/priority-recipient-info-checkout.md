@@ -6,7 +6,6 @@ last_modified: 2026-07-22 15:49
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/website-appearance/checkout-and-shopping-flow/priority-recipient-info-checkout/"
 type: guide
-status: update
 author: Jase
 reviewers: []
 notes: []

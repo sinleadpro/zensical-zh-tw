@@ -1,5 +1,4 @@
 ---
-status: update
 author: ""
 reviewers: []
 title: 會員管理
