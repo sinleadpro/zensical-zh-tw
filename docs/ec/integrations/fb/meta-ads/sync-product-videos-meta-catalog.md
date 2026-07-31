@@ -54,7 +54,7 @@ ui_components: []
 paths:
   - 第三方整合 > 臉書 Facebook 設定
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7886
   - https://www.cyberbiz.io/support/?p=2175

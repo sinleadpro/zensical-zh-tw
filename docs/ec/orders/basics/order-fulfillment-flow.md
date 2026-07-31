@@ -6,14 +6,9 @@ author: Jase
 reviewers: []
 last_modified: 2026-07-13 12:02
 description: ""
-product:
-  - EC
 modules:
   - 訂單
-activ: ""
 paths: []
-surfaces: []
-ends: []
 devices:
   - desktop
   - mobile

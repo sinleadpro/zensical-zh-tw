@@ -58,7 +58,7 @@ paths:
   - 商品 > 所有商品
   - 網站外觀 > 套版主題管理 > 網站設定 > 全站設定
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4833
   - https://www.cyberbiz.io/support/?p=31319

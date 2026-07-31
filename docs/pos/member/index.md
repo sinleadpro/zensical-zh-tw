@@ -10,7 +10,6 @@ version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
-aliases: []
 ga_views: 0
 feedback: 0
 products:
@@ -56,8 +55,7 @@ ui_components:
   - QR Code
 paths:
   - POS 前台 > 會員
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=27954
 permalink: "https://help.cyberbiz.io/pos/member/"

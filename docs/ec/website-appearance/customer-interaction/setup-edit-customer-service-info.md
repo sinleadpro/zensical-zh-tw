@@ -56,7 +56,7 @@ paths:
   - 網站外觀 > 套版主題管理 > 網站設定 > 客服中心
   - 網站外觀 > 套版主題管理 > CSS/HTML 編輯器
 layouts:
-  - 預設版型
+  - classic
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3683
   - https://www.cyberbiz.io/helpcenter/?p=420

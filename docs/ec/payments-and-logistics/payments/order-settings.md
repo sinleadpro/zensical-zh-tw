@@ -27,7 +27,6 @@ plans:
   - 進階
   - 高手
 cyb_extensions: []
-feature_badges: []
 intents:
   - 設定訂單最低消費金額與累計金額防護
   - 設定未付款與付款失敗提醒

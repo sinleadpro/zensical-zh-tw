@@ -29,7 +29,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 查看 POS 商品銷售排名
   - 分析商品回購表現

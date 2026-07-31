@@ -26,7 +26,6 @@ tnb: branch
 plans:
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 查看會員性別年齡分群
   - 了解會員註冊來源分布

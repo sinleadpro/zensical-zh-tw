@@ -59,7 +59,7 @@ ui_components:
 paths:
   - 網站外觀 > 管理商品評論
   - 會員 > 顧客回饋&建議
-layouts:
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12371
   - https://www.cyberbiz.io/support/?p=50193

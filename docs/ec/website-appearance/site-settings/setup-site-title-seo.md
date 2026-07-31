@@ -55,8 +55,8 @@ paths:
   - 管理中心 > 一般設定 > 網站名
   - 網站外觀 > 套版主題管理 > 網站設定 > 全站設定
 layouts:
-  - 預設版型
-  - 拖拉版型
+  - classic
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3572
   - https://www.cyberbiz.io/support/?p=16627

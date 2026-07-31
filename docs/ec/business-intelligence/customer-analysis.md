@@ -28,7 +28,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 比較新舊客銷售貢獻
   - 查看顧客回購率

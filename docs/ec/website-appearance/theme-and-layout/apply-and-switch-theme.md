@@ -31,7 +31,6 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions: []
-feature_badges: []
 intents:
   - 下載新的網站主題
   - 切換網站主題

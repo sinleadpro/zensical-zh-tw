@@ -14,6 +14,7 @@ ga_views: 0
 feedback: 0
 products:
   - EC
+  - POS
 modules:
   - 商品
 sites:
@@ -27,8 +28,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges:
-  - POS
 intents:
   - 批次複製商品至 POS 門市
   - 建立新商品時直接指定 POS 門市

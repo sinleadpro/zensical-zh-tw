@@ -6,22 +6,13 @@ reviewers: []
 last_modified: 2026-07-03T11:44:08+08:00
 description: 教您在 CYBERBIZ 後台完成星益欣電子發票的購買、串接啟用、多站台共用與對帳發票設定。
 permalink: "https://help.cyberbiz.io/ec/website-management/wixtar-e-invoice-setup/"
-product:
-  - EC
-  - POS
 modules:
   - 管理中心
   - 金物流
-activ: configure
+acoiv: configure
 paths:
   - 管理中心 > 發票設定
   - 管理中心 > 對帳中心 > 對帳發票設定
-surfaces:
-  - 管理中心 > 發票設定
-  - 管理中心 > 對帳中心 > 對帳發票設定
-ends:
-  - 成功啟用星益欣電子發票服務
-  - 實現自動化發票開立
 devices:
   - desktop
   - mobile

@@ -27,7 +27,6 @@ tnb: branch
 plans:
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 排除商品上傳至第三方平台
   - 設定商品排除標籤

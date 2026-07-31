@@ -54,7 +54,7 @@ ui_components: []
 paths:
   - 網站外觀 > 套版主題管理 > 選擇操作 > CSS/HTML編輯器
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10871
   - https://www.cyberbiz.io/support/?p=30333

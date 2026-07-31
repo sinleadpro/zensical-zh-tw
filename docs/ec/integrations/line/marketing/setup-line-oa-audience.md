@@ -66,9 +66,7 @@ search:
   exclude: false
 icon: lucide/split
 hide:
-aliases: []
 comments: false
-id: 設定 LINE OA 受眾串接
 ---
 
 ![LINE受眾串接](../../../../assets/images/ec-會員-所有會員-line受眾.png){ .hero-page title="LINE受眾串接" }

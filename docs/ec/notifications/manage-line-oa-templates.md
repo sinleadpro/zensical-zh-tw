@@ -29,7 +29,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 設定 LINE OA 通知樣板
   - 管理 LINE OA 訊息

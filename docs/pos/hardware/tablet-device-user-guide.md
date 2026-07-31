@@ -55,7 +55,7 @@ ui_components:
   - 全螢幕模式
 paths:
   - POS 前台
-layouts: ""
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=21520
 permalink: "https://help.cyberbiz.io/pos/hardware/tablet-device-user-guide/"

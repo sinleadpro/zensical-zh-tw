@@ -50,8 +50,7 @@ devices:
   - tablet
 ui_components: []
 paths: []
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=9439
 permalink: "https://help.cyberbiz.io/pos/hardware/"

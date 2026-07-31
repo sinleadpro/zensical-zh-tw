@@ -31,7 +31,6 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions: []
-feature_badges: []
 intents:
   - 設定超商物流限制
   - 排除超商物流

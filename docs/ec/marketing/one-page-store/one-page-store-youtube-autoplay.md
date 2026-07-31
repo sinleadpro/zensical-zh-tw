@@ -29,7 +29,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 設定 YouTube 影片自動播放
   - 設定 YouTube 影片開始秒數

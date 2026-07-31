@@ -32,7 +32,6 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions: []
-feature_badges: []
 intents:
   - 批次更新商品資訊
   - 節省大量商品編輯時間
@@ -64,7 +63,7 @@ paths:
   - 商品 > 所有商品
   - 商品 > Excel 大量匯入商品
 layouts:
-  - 預設版型
+  - classic
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9397
   - https://www.cyberbiz.io/support/?p=44199

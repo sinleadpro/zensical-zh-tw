@@ -33,7 +33,6 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions: []
-feature_badges: []
 intents:
   - 如何使用 Excel 大量匯入商品
   - 批次上架商品

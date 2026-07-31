@@ -28,7 +28,6 @@ plans:
   - 高手
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 在官網顯示 Cookie 同意提示彈窗
   - 符合 GDPR 與歐盟 Cookie 法規範

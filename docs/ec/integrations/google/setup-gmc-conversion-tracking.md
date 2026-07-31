@@ -31,7 +31,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 設定重要事件來源追蹤
   - 開啟自動標記

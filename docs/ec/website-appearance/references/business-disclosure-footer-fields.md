@@ -23,7 +23,6 @@ difficulty: ""
 tnb: ""
 plans: []
 cyb_extensions: []
-feature_badges: []
 intents: []
 features: []
 prerequisites: []

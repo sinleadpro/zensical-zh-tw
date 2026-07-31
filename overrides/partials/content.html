@@ -57,7 +57,7 @@
       {%- endif %}
       {%- if page.meta.layouts %}
         {%- if page.meta.tnb or page.meta.cyb_extensions or page.meta.feature_badges %}<br>{% endif %}
-        <a href="/resources/conventions/#適用版型" title="適用版型"><span class="twemoji">{% include ".icons/lucide/layout-dashboard.svg" %}</span></a> | {{ page.meta.layouts | join(" / ") }}
+        <a href="/resources/conventions/#適用版型" title="適用版型"><span class="twemoji">{% include ".icons/lucide/layout-dashboard.svg" %}</span></a> | {{ page.meta.layouts | map('replace', 'draggable', '拖拉版型') | map('replace', 'classic', '預設版型') | join(" / ") }}
       {%- endif %}
     </p>
   {% endif %}
@@ -78,7 +78,7 @@
     {%- endif %}
     {%- if page.meta.layouts %}
       {%- if page.meta.tnb or page.meta.cyb_extensions or page.meta.feature_badges %}<br>{% endif %}
-      <a href="/resources/conventions/#適用版型" title="適用版型"><span class="twemoji">{% include ".icons/lucide/layout-dashboard.svg" %}</span></a> | {{ page.meta.layouts | join(" / ") }}
+      <a href="/resources/conventions/#適用版型" title="適用版型"><span class="twemoji">{% include ".icons/lucide/layout-dashboard.svg" %}</span></a> | {{ page.meta.layouts | map('replace', 'draggable', '拖拉版型') | map('replace', 'classic', '預設版型') | join(" / ") }}
     {%- endif %}
   </p>
 {% endif %}

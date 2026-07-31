@@ -10,7 +10,6 @@ version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
-aliases: []
 ga_views: 0
 feedback: 0
 products:
@@ -58,8 +57,7 @@ ui_components:
   - 申請退貨
 paths:
   - POS 前台 > 訂單 > 門市取貨訂單
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=10488
 permalink: "https://help.cyberbiz.io/pos/orders/store-pickup-orders-inbound-and-pickup/"

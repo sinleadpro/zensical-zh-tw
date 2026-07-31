@@ -29,7 +29,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 了解會員經營健康度
   - 查看會員規模

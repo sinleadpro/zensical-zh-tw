@@ -35,7 +35,6 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions: []
-feature_badges: []
 intents:
   - 如何設定物流運費
   - 如何建立自訂宅配物流

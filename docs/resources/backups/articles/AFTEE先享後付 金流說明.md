@@ -5,19 +5,12 @@ author: ""
 reviewers: []
 last_modified: "2024-05-23"
 description: "提供 AFTEE 先享後付金流的申請流程、消費者付款步驟及後台設定說明。"
-product:
+products:
   - EC
 modules:
   - 金流設定
-activ: ""
 paths:
   - 金流設定 > CYBERBIZ PAYMENTS > AFTEE
-surfaces:
-  - backend
-  - frontend
-ends:
-  - 完成 AFTEE 申請開通
-  - 消費者使用先享後付完成結帳
 devices:
   - desktop
   - mobile

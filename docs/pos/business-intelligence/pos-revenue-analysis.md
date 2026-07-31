@@ -29,7 +29,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 比較 POS 門市營業表現
   - 分析營收趨勢

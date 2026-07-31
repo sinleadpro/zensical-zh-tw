@@ -26,7 +26,6 @@ plans:
   - 專業
   - 進階
 cyb_extensions: []
-feature_badges: []
 intents:
   - 查看商店銷售與流量概況
   - 匯出商品銷售排行報表

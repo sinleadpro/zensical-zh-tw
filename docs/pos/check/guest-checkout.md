@@ -55,8 +55,7 @@ ui_components:
 paths:
   - POS 功能 > 所有 POS 商店
   - POS 前台 > 登入頁面
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=12638
 permalink: "https://help.cyberbiz.io/pos/check/guest-checkout/"

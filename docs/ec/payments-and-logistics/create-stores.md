@@ -57,8 +57,7 @@ ui_components:
   - POS 商店
 paths:
   - 金物流 > 所有門市
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=15619
   - https://www.cyberbiz.io/support/?p=10454

@@ -56,8 +56,7 @@ ui_components:
   - 所有商品
 paths:
   - 管理後台 > 商品 > 所有商品
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=37151
   - https://www.cyberbiz.io/support/?p=37500

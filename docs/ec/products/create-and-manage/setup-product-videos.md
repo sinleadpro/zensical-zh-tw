@@ -62,7 +62,7 @@ paths:
   - 商品 > 所有商品
   - 網站外觀 > 套版主題管理 > 網站設定
   - 商品 > 媒體庫
-layouts:
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1830
   - https://www.cyberbiz.io/support/?p=984

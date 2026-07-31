@@ -30,7 +30,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 查看商品銷售排行
   - 分析商品回購頻率

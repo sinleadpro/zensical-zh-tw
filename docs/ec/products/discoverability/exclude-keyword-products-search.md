@@ -59,7 +59,7 @@ paths:
   - 網站外觀 > 套版主題管理
   - 商品 > 所有商品
 layouts:
-  - 預設版型
+  - classic
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3852
 search:

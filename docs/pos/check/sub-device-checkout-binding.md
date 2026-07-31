@@ -57,8 +57,7 @@ ui_components:
 paths:
   - POS 前台 > 選擇 POS 機
   - 管理後台 > POS > 所有 POS 商店
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=25293
 permalink: "https://help.cyberbiz.io/pos/check/sub-device-checkout-binding/"

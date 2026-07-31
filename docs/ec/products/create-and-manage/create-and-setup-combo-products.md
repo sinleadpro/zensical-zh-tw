@@ -27,7 +27,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 audiences:
   - merchant
 difficulty: beginner
@@ -53,7 +52,7 @@ ui_components: []
 paths:
   - 商品 > 組合商品
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5717
   - https://www.cyberbiz.io/helpcenter/?p=8055

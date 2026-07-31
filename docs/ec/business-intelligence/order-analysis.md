@@ -29,7 +29,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 查看訂單銷售趨勢
   - 分析付款與出貨偏好

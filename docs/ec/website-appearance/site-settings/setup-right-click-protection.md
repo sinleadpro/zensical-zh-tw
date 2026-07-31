@@ -60,8 +60,8 @@ devices:
 ui_components: []
 paths: []
 layouts:
-  - 預設版型
-  - 拖拉版型
+  - classic
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3561
   - https://www.cyberbiz.io/support/?p=17072

@@ -31,7 +31,6 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions: []
-feature_badges: []
 intents:
   - 揭露營業人名稱與統一編號
   - 設定頁腳統一編號
@@ -62,8 +61,8 @@ paths:
   - 網站外觀 > 套版主題管理
   - 網站外觀 > 套版主題管理 > 網站設定
 layouts:
-  - 預設版型
-  - 拖拉版型
+  - classic
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6773
   - https://www.cyberbiz.io/support/?p=36327

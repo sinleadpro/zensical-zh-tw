@@ -10,7 +10,6 @@ version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
-aliases: []
 ga_views: 0
 feedback: 0
 products:
@@ -54,8 +53,7 @@ ui_components:
   - 電子發票整合服務平台
 paths:
   - 管理後台 > POS > 續約與加購方案 > 電子發票
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=5189
   - https://www.cyberbiz.io/support/?p=12155

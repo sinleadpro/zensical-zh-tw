@@ -29,7 +29,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 查看行銷活動成效
   - 分析折扣活動與優惠券表現

@@ -31,7 +31,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 設定購物車啟用與關閉
   - 設定未結帳商品自動提醒

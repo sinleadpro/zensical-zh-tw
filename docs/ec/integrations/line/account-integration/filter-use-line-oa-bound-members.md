@@ -60,7 +60,7 @@ ui_components: []
 paths:
   - 會員 > 所有會員
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/support/?p=721
 comments: false

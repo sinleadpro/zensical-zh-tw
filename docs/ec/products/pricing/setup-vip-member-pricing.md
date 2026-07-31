@@ -62,7 +62,7 @@ ui_components:
 paths:
   - 商品 > 所有商品 > 編輯會員專屬價格
   - 網站外觀 > 套版主題管理 > 網站設定
-layouts:
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5794
   - https://www.cyberbiz.io/support/?p=10289

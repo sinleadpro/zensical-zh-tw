@@ -10,7 +10,6 @@ version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
-aliases: []
 ga_views: 0
 feedback: 0
 products:
@@ -55,8 +54,7 @@ ui_components:
   - 退貨審查
 paths:
   - 訂單 > 門市訂單
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=10522
 permalink: "https://help.cyberbiz.io/ec/orders/store-pickup-orders/"

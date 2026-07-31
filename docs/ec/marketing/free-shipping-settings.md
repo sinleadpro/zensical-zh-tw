@@ -31,7 +31,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 設定全館運費門檻免運
   - 設定超商取貨免運

@@ -57,7 +57,7 @@ ui_components: []
 paths:
   - 網站外觀 > 套版主題管理 > CSS/HTML 編輯器
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/support/?p=28145
 permalink: "https://help.cyberbiz.io/ec/website-appearance/navigation/setup-nav-menu-hover-expand/"

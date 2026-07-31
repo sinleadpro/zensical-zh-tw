@@ -27,7 +27,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 設定 POS 訂單自動結案
   - 自動化訂單結案流程

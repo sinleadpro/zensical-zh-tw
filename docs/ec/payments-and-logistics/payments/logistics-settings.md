@@ -31,7 +31,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 設定超商取貨姓名規範與離島配送
   - 設定顧客禁用超商取貨付款

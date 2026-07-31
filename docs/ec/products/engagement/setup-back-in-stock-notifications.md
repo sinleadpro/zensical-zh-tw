@@ -59,7 +59,7 @@ paths:
   - 商品 > 所有商品
   - 網站外觀 > 套版主題管理 > 網站設定
   - 訊息推播 > Email 通知樣板
-layouts:
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5661
   - https://www.cyberbiz.io/support/?p=18529

@@ -28,8 +28,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges:
-  - POS
 intents:
   - 查看 OMO 全通路經營數據
   - 比較 EC 與 POS 的營收與銷售表現

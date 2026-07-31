@@ -71,7 +71,7 @@ ui_components: []
 paths:
   - 網站外觀 > 套版主題管理
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url: []
 icon: lucide/settings-2
 hide:

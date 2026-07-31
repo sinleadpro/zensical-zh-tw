@@ -25,7 +25,6 @@ tnb: branch
 plans:
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 進行基準化分析
   - 比對同業經營數據

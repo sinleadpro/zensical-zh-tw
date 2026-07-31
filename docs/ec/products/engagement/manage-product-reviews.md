@@ -65,7 +65,7 @@ paths:
   - 網站外觀 > 管理商品評論
   - 會員 > 商品待審核評論
   - 網站外觀 > 套版主題管理
-layouts:
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7894
   - https://www.cyberbiz.io/support/?p=30610

@@ -61,8 +61,7 @@ ui_components:
 paths:
   - POS 前台 > 庫存 > 庫存盤點
   - POS 後台 > POS 功能 > 盤點單
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=39410
 permalink: "https://help.cyberbiz.io/pos/inventory/inventory-count/"

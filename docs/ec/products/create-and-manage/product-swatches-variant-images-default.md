@@ -59,7 +59,7 @@ paths:
   - 商品 > 所有商品
   - 網站外觀 > 套版主題管理 > 網站設定 > 商品群組與商品頁設定 > 商品頁設定
 layouts:
-  - 預設版型
+  - classic
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=958
   - https://www.cyberbiz.io/support/?p=2018

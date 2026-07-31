@@ -22,7 +22,6 @@ difficulty: beginner
 tnb: ""
 plans: []
 cyb_extensions: []
-feature_badges: []
 intents:
   - 使用_Jam_回報操作問題
   - 錄製畫面提供給客服

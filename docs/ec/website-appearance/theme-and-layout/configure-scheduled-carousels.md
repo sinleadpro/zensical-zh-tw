@@ -58,8 +58,8 @@ ui_components: []
 paths:
   - 網站外觀 > 排程跑馬燈設定
 layouts:
-  - 預設版型
-  - 拖拉版型
+  - classic
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5760
   - https://www.cyberbiz.io/support/?p=7863

@@ -3,26 +3,12 @@ title: 設定商品搜尋可見性
 description: 控制商品是否顯示於站內與 Google 搜尋結果，避免不必要的曝光。
 author: Jase
 reviewers: []
-product:
-  - EC
-module:
-  - 商品
-activ: configure
+acoiv: configure
 paths:
   - 管理後台 > 商品 > 所有商品
   - 管理後台 > 商品 > Excel 大量匯入商品
-surfaces:
-  - backend
-  - frontend
-  - 商品列表頁面
-  - 商品編輯頁面
-  - 商品操作選單
-  - Excel 範本
-ends:
-  - Google 搜尋結果
-  - CYBERBIZ 站內搜尋
-  - 前台全部商品群組頁面
-  - 商品分類頁
+  - 管理後台 > 商品 > 新增與更新商品
+  - 管理後台 > 商品 > 所有商品 > 操作選單
 devices:
   - desktop
   - mobile

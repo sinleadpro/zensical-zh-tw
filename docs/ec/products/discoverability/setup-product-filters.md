@@ -29,7 +29,6 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions: []
-feature_badges: []
 intents:
   - 如何設定前台商品篩選器
   - 商品篩選器設定
@@ -55,7 +54,7 @@ ui_components: []
 paths:
   - 商品 > 所有商品
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6170
   - https://www.cyberbiz.io/support/?p=31470

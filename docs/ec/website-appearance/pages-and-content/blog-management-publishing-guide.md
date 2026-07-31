@@ -57,8 +57,8 @@ ui_components: []
 paths:
   - 網站外觀 > 部落格管理
 layouts:
-  - 預設版型
-  - 拖拉版型
+  - classic
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=631
   - https://www.cyberbiz.io/support/?p=1510

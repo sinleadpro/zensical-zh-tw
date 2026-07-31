@@ -32,8 +32,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges:
-  - 多國語系
 intents:
   - 管理 Email 樣板
   - 自訂 Email 通知

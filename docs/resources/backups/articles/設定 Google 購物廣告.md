@@ -5,19 +5,14 @@ author: ""
 reviewers: []
 last_modified: 2026-03-11 12:18
 description: 串接 Google Merchant Center、同步商品資料至 Google 搜尋與購物廣告。
-product:
+products:
   - EC
 modules:
   - 第三方整合
-activ: configure
+acoiv: configure
 paths:
   - 第三方整合 > 谷歌 Google 設定 > Google Merchant Center
   - 商品 > 所有商品 > 設定
-surfaces:
-  - 後台
-ends:
-  - 成功同步商品資料至 GMC
-  - 完成 GMC 與 Google Ads 連結
 devices:
   - desktop
   - mobile
@@ -61,10 +56,6 @@ comments: ""
 search:
   exclude: false
 icon: lucide/shopping-cart
-tasks:
-  - Google Merchant Center
-system:
-  - 後台
 permalink: "https://help.cyberbiz.io/resources/backups/articles/設定 Google 購物廣告/"
 ---
 

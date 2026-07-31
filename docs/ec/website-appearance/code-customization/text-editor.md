@@ -31,7 +31,6 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions: []
-feature_badges: []
 intents:
   - 編輯商品描述與自訂頁面內容
   - 在內容中插入圖片與 YouTube 影片

@@ -61,7 +61,7 @@ ui_components: []
 paths:
   - 商品 > 商品多層級分類
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9204
   - https://www.cyberbiz.io/support/?p=43450

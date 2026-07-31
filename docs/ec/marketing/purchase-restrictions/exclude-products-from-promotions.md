@@ -35,9 +35,6 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions: []
-feature_badges:
-  - EC
-  - POS
 intents:
   - 如何設定商品排除指定優惠
   - 商品排除優惠設定

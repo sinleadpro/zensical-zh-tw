@@ -67,8 +67,6 @@ search:
   exclude: false
 icon: lucide/code
 hide: []
-aliases: []
-id: 設定與管理 LINE Tag
 comments: false
 ---
 

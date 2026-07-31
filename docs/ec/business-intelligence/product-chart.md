@@ -26,7 +26,6 @@ plans:
   - 專業
   - 進階
 cyb_extensions: []
-feature_badges: []
 intents:
   - 觀察商品瀏覽與購買趨勢
   - 分析商品成交率
