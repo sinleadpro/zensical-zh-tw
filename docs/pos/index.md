@@ -307,6 +307,6 @@ permalink: "https://help.cyberbiz.io/pos/"
     
     [:octicons-arrow-right-24: 員工權限管理](store/staff-permissions-and-account-management.md)<br>
     [:octicons-arrow-right-24: 建立公告](store/announcement-system.md)<br>
-    [:octicons-arrow-right-24: 安全性與系統設定](store/security-settings.md)<b>
+    [:octicons-arrow-right-24: 安全性與系統設定](store/pos-security-settings.md)<b>
 
 </div>
