@@ -23,7 +23,7 @@ sites:
   - SG
   - MY
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:

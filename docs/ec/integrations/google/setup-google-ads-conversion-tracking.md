@@ -20,7 +20,7 @@ sites:
   - TW
   - US
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:

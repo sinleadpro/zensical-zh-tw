@@ -20,7 +20,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: ""
 plans: []

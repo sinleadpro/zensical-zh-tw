@@ -16,7 +16,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 plans: []
 tags:
   - 退貨天數

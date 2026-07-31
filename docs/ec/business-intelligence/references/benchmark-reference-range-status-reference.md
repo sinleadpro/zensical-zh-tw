@@ -19,7 +19,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 tags:
   - EC
   - 報表分析

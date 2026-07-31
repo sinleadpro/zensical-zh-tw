@@ -20,7 +20,7 @@ modules:
   - 第三方整合
 sites: []
 audiences:
-  - admin
+  - merchant
 difficulty: medium
 tnb: branch
 plans:

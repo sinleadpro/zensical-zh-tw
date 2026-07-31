@@ -20,7 +20,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
   - developer
 difficulty: intermediate
 tnb: branch

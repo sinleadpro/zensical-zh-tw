@@ -21,7 +21,7 @@ sites:
   - "US"
   - "JP"
 audiences:
-  - "admin"
+  - merchant
 difficulty: ""
 tnb: "trunk"
 plans:

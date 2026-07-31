@@ -16,7 +16,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 tags:
   - 報表分析
   - 商品圖表

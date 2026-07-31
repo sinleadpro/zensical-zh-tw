@@ -23,8 +23,8 @@ tnb: trunk
 plans: []
 cyb_extensions: []
 audiences:
-  - clerk
-  - admin
+  - merchant
+  - merchant
 difficulty: beginner
 intents:
   - 執行 POS 小結

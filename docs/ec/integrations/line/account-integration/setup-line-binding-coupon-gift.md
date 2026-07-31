@@ -22,7 +22,7 @@ modules:
   - 會員
 sites: []
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:

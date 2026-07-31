@@ -21,7 +21,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: advanced
 tnb: branch
 plans:

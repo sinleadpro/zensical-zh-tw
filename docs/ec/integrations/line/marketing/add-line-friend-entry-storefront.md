@@ -30,7 +30,7 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 intents:
   - 在官網新增 LINE 加入好友入口

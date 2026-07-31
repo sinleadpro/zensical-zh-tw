@@ -60,8 +60,8 @@ tags:
   - 商品設定
 difficulty: low
 audiences:
-  - 商家
-  - 網店管理員
+  - merchant
+  - merchant
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1527
 products: [EC]

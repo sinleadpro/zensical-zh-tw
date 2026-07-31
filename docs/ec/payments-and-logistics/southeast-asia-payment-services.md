@@ -19,7 +19,7 @@ modules:
 sites:
   - SEA
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:

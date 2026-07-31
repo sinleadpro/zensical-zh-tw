@@ -17,7 +17,7 @@ products:
 modules: []
 sites: []
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: ""
 plans: []

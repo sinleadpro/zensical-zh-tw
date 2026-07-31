@@ -30,7 +30,7 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 intents:
   - 防止機器人垃圾留言

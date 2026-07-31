@@ -22,7 +22,7 @@ sites:
   - SG
   - MY
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:

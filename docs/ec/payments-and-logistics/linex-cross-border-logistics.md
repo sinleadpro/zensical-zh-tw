@@ -26,7 +26,7 @@ sites:
   - US
   - JP
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:

@@ -28,7 +28,7 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - enginner
+  - developer
 difficulty: advanced
 intents:
   - 修改店長改價顯示名稱

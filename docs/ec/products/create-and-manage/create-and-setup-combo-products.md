@@ -29,7 +29,7 @@ plans:
 cyb_extensions: []
 feature_badges: []
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 intents:
   - 如何新增組合商品

@@ -19,7 +19,7 @@ modules:
 sites:
   - TW
 audiences:
-  - 商家
+  - merchant
 difficulty: medium
 tnb: trunk
 plans:

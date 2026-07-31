@@ -25,8 +25,8 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: beginner
 intents:
   - 在 POS 前台調整單品價格

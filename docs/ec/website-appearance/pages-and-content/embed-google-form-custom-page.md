@@ -30,7 +30,7 @@ plans:
   - 高手PLUS
 cyb_extensions: []
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 intents:
   - 嵌入 Google 表單至自訂頁面

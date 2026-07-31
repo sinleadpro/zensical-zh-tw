@@ -19,7 +19,7 @@ modules:
 sites: []
 audiences:
   - merchant
-  - 管理員
+  - merchant
 difficulty: medium
 tnb: branch
 plans:

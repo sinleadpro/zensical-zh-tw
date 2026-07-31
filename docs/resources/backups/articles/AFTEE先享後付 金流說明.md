@@ -43,7 +43,7 @@ status: update
 tags: []
 difficulty: easy
 audiences:
-  - 商家
+  - merchant
 wp_url:
   - "https://www.cyberbiz.io/support/?p=5525"
 notes:

@@ -19,7 +19,7 @@ modules:
 sites:
   - JP
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans: []

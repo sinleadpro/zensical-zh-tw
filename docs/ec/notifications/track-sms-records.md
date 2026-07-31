@@ -19,7 +19,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: 

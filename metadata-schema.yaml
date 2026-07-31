@@ -133,7 +133,7 @@ fields:
   audiences:
     type: enum[]
     required: false
-    values: [admin, clerk, customer, developer, merchant, staff]
+    values: [merchant, customer, developer]
 
   # 難易度
   difficulty:

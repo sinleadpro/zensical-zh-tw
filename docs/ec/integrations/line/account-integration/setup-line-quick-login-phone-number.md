@@ -20,8 +20,8 @@ modules:
   - 第三方整合
 sites: []
 audiences:
-  - 商家
-  - 管理員
+  - merchant
+  - merchant
 difficulty: medium
 tnb: trunk
 plans:

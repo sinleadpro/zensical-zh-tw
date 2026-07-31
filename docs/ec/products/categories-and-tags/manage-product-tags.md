@@ -30,7 +30,7 @@ plans:
   - 高手PLUS
 cyb_extensions: []
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 intents:
   - 建立商品標籤

@@ -19,7 +19,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 cyb_extensions: []
 intents: []

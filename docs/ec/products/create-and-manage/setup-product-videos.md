@@ -29,7 +29,7 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 intents:
   - 上傳商品影片

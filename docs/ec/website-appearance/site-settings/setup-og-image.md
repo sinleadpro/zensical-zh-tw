@@ -22,7 +22,7 @@ modules:
   - 商品
 sites: []
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:

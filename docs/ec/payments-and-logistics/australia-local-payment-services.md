@@ -20,7 +20,7 @@ modules:
 sites:
   - AU
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans: []

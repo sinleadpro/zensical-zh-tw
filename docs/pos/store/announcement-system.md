@@ -26,8 +26,8 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: beginner
 intents:
   - 發送門市公告

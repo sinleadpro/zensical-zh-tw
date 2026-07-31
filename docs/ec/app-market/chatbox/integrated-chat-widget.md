@@ -20,7 +20,7 @@ sites:
   - TW
   - MY
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans: 

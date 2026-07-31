@@ -27,7 +27,7 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 intents:
   - 結帳自動拆分購物車

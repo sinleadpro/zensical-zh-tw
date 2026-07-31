@@ -19,7 +19,7 @@ modules:
 sites:
   - TW
 audiences:
-  - clerk
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:

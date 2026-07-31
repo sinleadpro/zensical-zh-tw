@@ -29,7 +29,7 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 intents:
   - 設定會員等級價

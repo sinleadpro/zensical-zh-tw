@@ -16,7 +16,7 @@ surfaces:
   - 行銷活動 > 電子票券任選折扣
 ends:
   - customer
-  - admin
+  - merchant
 devices:
   - desktop
   - mobile

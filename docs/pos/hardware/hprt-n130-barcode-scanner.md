@@ -19,8 +19,8 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
-  - staff
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans: 

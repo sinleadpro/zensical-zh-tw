@@ -27,7 +27,7 @@ plans:
   - 高手PLUS
 cyb_extensions: []
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 intents:
   - 設定商品貨到通知

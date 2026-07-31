@@ -61,7 +61,7 @@ tags:
   - 電子發票
 difficulty: ""
 audiences:
-  - 商家
+  - merchant
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4068
   - https://www.cyberbiz.io/support/?p=2693
