@@ -214,7 +214,7 @@ def validate_file(filepath: Path, schema):
 
     for key in fm:
         if key not in fields:
-            results.append((f"[{key}] unknown field, not defined in schema", "WARNING"))
+            results.append((f"[{key}] unknown field, not defined in schema", "ERROR"))
 
     return results
 
