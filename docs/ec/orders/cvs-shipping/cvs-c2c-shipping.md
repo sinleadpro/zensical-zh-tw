@@ -41,13 +41,13 @@ intents:
   - 處理物流異常
   - 了解超商寄件規範
 features:
-  - 超商店到店C2C
-  - 7-ELEVEN交貨便
+  - 超商店到店 C2C
+  - 7-ELEVEN 交貨便
   - 全家店到店
   - 萊爾富超商取貨
   - 貨到付款
   - 熱感列印
-  - ibon列印
+  - ibon 列印
   - FamiPort列印
 prerequisites:
   - 開通CYBERBIZ PAYMENTS (貨到付款)

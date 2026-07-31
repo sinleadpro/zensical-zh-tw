@@ -42,7 +42,7 @@ features:
   - 定期定額重新扣款
   - AFTEE 先享後付
   - 信用卡 3D 驗證
-  - 美安 Shop.com 導購
+  - 美安 shop.com
 prerequisites: []
 related:
   - "ec/orders/order-settings/provide-payment-link"

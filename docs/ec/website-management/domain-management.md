@@ -32,7 +32,7 @@ intents:
   - 根網域轉址
 features:
   - 網域管理
-  - DNS設定
+  - DNS 設定
   - CNAME
 prerequisites: []
 related: []

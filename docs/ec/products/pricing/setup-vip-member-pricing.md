@@ -36,7 +36,8 @@ intents:
 features:
   - 會員專屬價格
   - 批次操作
-  - Excel 匯入/匯出
+  - Excel 匯入
+  - Excel 匯出
   - 商品 VIP 標籤連結
 prerequisites:
   - 建立專屬VIP群組

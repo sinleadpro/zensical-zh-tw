@@ -43,7 +43,7 @@ features:
   - 文字敘述自訂
   - 多國語言功能 (i18n)
   - 字典檔編輯
-  - draggable
+  - 拖拉版型
 prerequisites: []
 related: []
 tags:

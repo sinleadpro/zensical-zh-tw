@@ -41,10 +41,10 @@ features:
   - 網站密碼
   - 會員密碼規則
   - 會員個資部分隱碼
-  - IP白名單
+  - IP 白名單
   - 瀏覽器Cookie驗證
   - 自動登出時間
-  - reCAPTCHA驗證
+  - reCAPTCHA 驗證
   - 二階段驗證(2FA)
 prerequisites: []
 related: []

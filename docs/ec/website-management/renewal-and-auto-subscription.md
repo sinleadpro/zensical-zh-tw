@@ -34,7 +34,7 @@ intents:
 features:
   - 方案續購
   - 自動續約
-  - SSL憑證
+  - SSL 憑證
 prerequisites: []
 related: []
 tags: []

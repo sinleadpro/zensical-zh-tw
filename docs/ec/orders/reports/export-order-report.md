@@ -32,7 +32,7 @@ intents:
   - 訂單查詢
 features:
   - 訂單報表匯出
-  - Excel匯出
+  - Excel 匯出
   - 篩選功能
 prerequisites: []
 related:

@@ -37,7 +37,7 @@ features:
   - 排程跑馬燈
   - 橫幅廣告版位
   - 廣告檔期排程
-  - Liquid語法嵌入
+  - Liquid 樣板編輯
 prerequisites: []
 related:
   - "ec/website-appearance/theme-and-layout/theme-editor"

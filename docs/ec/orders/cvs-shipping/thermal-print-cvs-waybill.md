@@ -42,7 +42,7 @@ features:
   - A6尺寸
   - 7-11 物流
   - 全家物流
-  - B2C大宗寄倉
+  - B2C 大宗寄倉
   - C2C店到店
   - 黑貓快速到店
 prerequisites:

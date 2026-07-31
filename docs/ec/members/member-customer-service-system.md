@@ -35,7 +35,7 @@ intents:
 features:
   - 客服問答系統
   - 訂單留言
-  - 顧客回饋建議
+  - 顧客回饋與建議
 prerequisites: []
 related: []
 tags:

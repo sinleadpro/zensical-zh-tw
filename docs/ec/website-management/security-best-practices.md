@@ -42,7 +42,7 @@ features:
   - 訪問限制地區黑名單
   - 網站密碼
   - 信用卡 3D 驗證
-  - SSL 安全性憑證
+  - SSL 憑證
 prerequisites: []
 related:
   - "ec/website-management/admin-security-settings"

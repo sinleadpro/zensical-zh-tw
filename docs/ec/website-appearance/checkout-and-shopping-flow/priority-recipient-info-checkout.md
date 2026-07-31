@@ -35,7 +35,7 @@ intents:
   - 優化跨境電商填單體驗
 features:
   - 結帳頁 v3
-  - js/main.js
+  - 結帳頁客製化設定
   - 收件人優先
 prerequisites: []
 related:

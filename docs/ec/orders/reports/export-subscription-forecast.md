@@ -29,7 +29,7 @@ intents:
   - 備貨預測
 features:
   - 定期定額子訂單匯出
-  - Excel匯出
+  - Excel 匯出
   - 預測報表
 prerequisites: []
 related:
