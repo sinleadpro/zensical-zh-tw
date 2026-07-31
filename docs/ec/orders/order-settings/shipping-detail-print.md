@@ -42,7 +42,7 @@ features:
   - 批次出貨打包
 prerequisites: []
 related:
-  - "[[order-detail-print]]"
+  - "ec/orders/order-settings/order-detail-print"
 tags:
   - 出貨明細
   - 列印設定

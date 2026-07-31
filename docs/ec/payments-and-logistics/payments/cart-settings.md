@@ -47,9 +47,9 @@ prerequisites:
   - 若需使用未結帳提醒功能，請確認方案已開通對應管道（Email、簡訊、LINE OA）
   - 若需使用定期定額購物車設定，請確認已開通定期定額功能（企業版）
 related:
-  - "[[cart-reminder-channels-reference]]"
-  - "[[order-settings]]"
-  - "[[logistics-settings]]"
+  - "ec/payments-and-logistics/references/cart-reminder-channels-reference"
+  - "ec/payments-and-logistics/payments/order-settings"
+  - "ec/payments-and-logistics/payments/logistics-settings"
 tags:
   - 購物車設定
   - 購物車啟用

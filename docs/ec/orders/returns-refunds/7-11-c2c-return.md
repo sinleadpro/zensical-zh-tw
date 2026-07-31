@@ -38,8 +38,8 @@ features:
 prerequisites:
   - 需先向 CYBERBIZ 客服申請開通「7-ELEVEN C2C 退貨便」加值功能
 related:
-  - "[[partial-shipment-v2]]"
-  - "[[setup-store-basic-info]]"
+  - "ec/orders/home-delivery/partial-shipment-v2"
+  - "ec/website-management/setup-store-basic-info"
 tags:
   - 7-11 C2C 退貨便
   - 退貨流程

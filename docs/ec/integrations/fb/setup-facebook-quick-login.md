@@ -43,8 +43,8 @@ features:
   - OAuth 重新導向
 prerequisites: []
 related:
-  - "[[setup-line-quick-login]]"
-  - "[[setup-google-quick-login]]"
+  - "ec/integrations/line/account-integration/setup-line-quick-login"
+  - "ec/integrations/google/setup-google-quick-login"
 tags:
   - FB 快速登入
   - Meta

@@ -40,10 +40,10 @@ features:
   - 補印託運單
   - 加印託運單
 prerequisites:
-  - "[[setup-hct-waybill-v2]]"
-  - "[[setup-hct-waybill-v2]]"
-  - "[[partial-shipment-v2]]"
-  - "[[search-filter-orders]]"
+  - "ec/payments-and-logistics/setup-hct-waybill-v2"
+  - "ec/payments-and-logistics/setup-hct-waybill-v2"
+  - "ec/orders/home-delivery/partial-shipment-v2"
+  - "ec/orders/basics/search-filter-orders"
 tags:
   - 新竹物流
   - 託運單

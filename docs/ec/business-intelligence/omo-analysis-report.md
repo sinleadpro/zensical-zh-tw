@@ -43,9 +43,9 @@ features:
 prerequisites:
   - 已開通 CYBERBIZ POS
 related:
-  - "[[revenue-analysis]]"
-  - "[[member-analysis]]"
-  - "[[customer-analysis]]"
+  - "ec/business-intelligence/revenue-analysis"
+  - "ec/business-intelligence/member-analysis"
+  - "ec/business-intelligence/customer-analysis"
 tags:
   - OMO
   - 全通路

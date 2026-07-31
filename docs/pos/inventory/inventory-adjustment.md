@@ -42,8 +42,8 @@ features:
   - 庫存調整報表
 prerequisites: []
 related:
-  - [[庫存盤點]]
-  - [[全通路庫存管理]]
+  - "pos/inventory/inventory-count"
+  - "pos/inventory/index"
 tags:
   - 庫存調整
   - 盤盈盤虧

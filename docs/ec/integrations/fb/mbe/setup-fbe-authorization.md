@@ -40,7 +40,7 @@ features:
   - 像素 Pixel
 prerequisites: []
 related: 
-  - "[[setup-fbe-domain-verification]]"
+  - "ec/integrations/fb/mbe/setup-fbe-domain-verification"
 tags:
   - FB 整合
   - FBE

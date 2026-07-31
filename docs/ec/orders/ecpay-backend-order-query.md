@@ -36,7 +36,7 @@ features:
   - 綠界物流
   - 訂單查詢
 prerequisites:
-  - [[已開通綠界金流或物流服務]]
+  - "已開通綠界金流或物流服務"
 related: []
 tags:
   - 綠界科技

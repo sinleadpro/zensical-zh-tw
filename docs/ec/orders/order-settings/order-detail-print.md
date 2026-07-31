@@ -42,7 +42,7 @@ features:
   - 個資隱碼
 prerequisites: []
 related:
-  - "[[shipping-detail-print]]"
+  - "ec/orders/order-settings/shipping-detail-print"
 tags:
   - 訂單明細
   - 列印設定

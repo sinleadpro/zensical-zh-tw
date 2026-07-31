@@ -44,8 +44,8 @@ features:
 prerequisites:
   - 一般用戶需先儲值 Cyber 幣（PLUS / 企業版用戶不須額外儲值）
 related:
-  - "[[manage-sms-templates-v2]]"
-  - "[[track-sms-records]]"
+  - "ec/notifications/manage-sms-templates-v2"
+  - "ec/notifications/track-sms-records"
 tags:
   - 簡訊
   - 訊息推播

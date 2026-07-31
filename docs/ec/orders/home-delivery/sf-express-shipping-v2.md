@@ -46,9 +46,9 @@ prerequisites:
   - 需先完成公司統一編號設定
   - 需先開通順豐託運單功能
 related:
-  - "[[順豐海外物流]]"
-  - "[[補印與加印託運單]]"
-  - "[[partial-shipment-v2]]"
+  - "ec/payments-and-logistics/sf-express-overseas-logistics"
+  - "補印與加印託運單"
+  - "ec/orders/home-delivery/partial-shipment-v2"
 tags:
   - 順豐
   - 出貨

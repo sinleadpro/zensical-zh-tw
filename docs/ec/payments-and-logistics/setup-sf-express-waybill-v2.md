@@ -36,10 +36,10 @@ features:
   - 海外報關
 prerequisites:
   - 須先開通順豐託運單（一般版以上方案）
-  - "[[順豐海外物流]]"
+  - "ec/payments-and-logistics/sf-express-overseas-logistics"
 related:
-  - "[[sf-express-shipping-v2]]"
-  - "[[順豐海外物流]]"
+  - "ec/orders/home-delivery/sf-express-shipping-v2"
+  - "ec/payments-and-logistics/sf-express-overseas-logistics"
 tags:
   - 順豐
   - 託運單

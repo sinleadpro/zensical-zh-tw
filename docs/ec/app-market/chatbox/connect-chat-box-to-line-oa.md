@@ -42,8 +42,8 @@ features:
 prerequisites:
   - 需擁有 LINE 官方帳號管理員權限
 related:
-  - "[[Chat Box 訊息通]]"
-  - "[[LINE 訊息格式規範]]"
+  - "ec/app-market/chatbox/index"
+  - "ec/app-market/chatbox/line-message-format-spec"
 tags:
   - LINE 串接
   - ChatBox

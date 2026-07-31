@@ -39,8 +39,8 @@ prerequisites:
   - 操作帳號具備「可複製商品到 POS 商店」權限
   - 商品款式已設定 SKU
 related:
-  - "[[pos/inventory/index]]"
-  - "[[create-and-manage/create-update-products]]"
+  - "pos/inventory/index"
+  - "ec/products/create-and-manage/create-update-products"
 tags:
   - POS
   - 門市商品

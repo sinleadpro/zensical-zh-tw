@@ -40,10 +40,10 @@ features:
   - AI Insights
   - 廣告活動列表
 prerequisites:
-  - "[[setup-fbe-authorization]]"
-  - "[[setup-meta-ad-campaign]]"
-  - "[[setup-meta-ad-campaign]]"
-  - "[[create-meta-ad-account-top-up]]"
+  - "ec/integrations/fb/mbe/setup-fbe-authorization"
+  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
+  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
+  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
 tags:
   - Meta 廣告
   - ROAS

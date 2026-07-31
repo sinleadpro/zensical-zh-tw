@@ -39,7 +39,7 @@ features:
 prerequisites:
   - 建議先完成「設定與管理會員退貨申請」以利會員主動提交
 related:
-  - [[跨境電商退款流程]]
+  - "ec/orders/cross-border-refund-process"
 tags:
   - 售後服務
   - 逆物流

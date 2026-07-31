@@ -39,8 +39,8 @@ features:
   - 批量建立門市
 prerequisites: []
 related:
-  - - - 設定門市取貨服務
-  - - - 開啟 CYBERBIZ NOW 快速到貨服務
+  - 設定門市取貨服務
+  - 開啟 CYBERBIZ NOW 快速到貨服務
 tags:
   - 建立門市
   - 一般門市

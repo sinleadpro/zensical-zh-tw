@@ -45,14 +45,14 @@ features:
   - 目錄型廣告
   - 圖片型廣告
 prerequisites:
-  - "[[setup-fbe-authorization]]"
-  - "[[create-meta-ad-account-top-up]]"
-  - "[[install-meta-ads-app]]"
+  - "ec/integrations/fb/mbe/setup-fbe-authorization"
+  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
+  - "ec/app-market/install-meta-ads-app"
 related:
-  - "[[meta-ad-performance-analysis]]"
-  - "[[設定 Meta 廣告每日預算]]"
-  - "[[setup-meta-ad-catalog-sets]]"
-  - "[[share-asset-permissions-cyberbiz]]"
+  - "ec/integrations/fb/meta-ads/meta-ad-performance-analysis"
+  - "ec/integrations/fb/meta-ads/meta-ad-daily-budget-guide"
+  - "ec/integrations/fb/meta-ads/setup-meta-ad-catalog-sets"
+  - "ec/integrations/fb/meta-ads/share-asset-permissions-cyberbiz"
 tags:
   - Meta Ads
   - FB 廣告

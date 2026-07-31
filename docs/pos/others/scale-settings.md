@@ -40,7 +40,6 @@ features:
   - 不定重商品結帳
   - 13位金額碼
 prerequisites:
-  - 
 related: []
 tags:
   - POS 前台

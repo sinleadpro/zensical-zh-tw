@@ -32,8 +32,8 @@ features:
   - 網域管理
   - DNS 設定
 prerequisites:
-  - [[需具備 Cloudflare 帳戶管理權限]]
-  - [[網域已完成 Cloudflare 代管設定]]
+  - "需具備 Cloudflare 帳戶管理權限"
+  - "網域已完成 Cloudflare 代管設定"
 related: []
 tags:
   - 疑難排解

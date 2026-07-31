@@ -33,7 +33,7 @@ features:
   - 部分退貨
 prerequisites: []
 related:
-  - [[訂單退貨流程]]
+  - "ec/orders/order-return-process"
 tags:
   - 會員退貨流程
   - 售後服務

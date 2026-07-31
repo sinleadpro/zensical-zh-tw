@@ -48,10 +48,10 @@ prerequisites:
   - 若需使用進階指定配送功能，請確認已啟用「進階指定配送」(PLUS版以上或企業版)
   - 若需使用退貨時間調整設定，請確認已啟用對應功能
 related:
-  - "[[購物車相關設定]]"
-  - "[[訂單相關設定]]"
-  - "[[設定與列印出貨明細]]"
-  - "[[前台可退貨天數對照表]]"
+  - "ec/payments-and-logistics/payments/cart-settings"
+  - "ec/payments-and-logistics/payments/order-settings"
+  - "ec/orders/order-settings/shipping-detail-print"
+  - "ec/payments-and-logistics/references/return-eligible-days-reference"
 tags:
   - 物流設定
   - 超商取貨

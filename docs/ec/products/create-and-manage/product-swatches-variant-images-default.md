@@ -40,9 +40,9 @@ features:
   - 款式圖片
   - 預設版型
 prerequisites:
-  - "[[新增與更新商品#基本設定]]"
+  - "新增與更新商品#基本設定"
 related:
-  - "[[product-swatches-variant-images-drag-drop]]"
+  - "ec/products/create-and-manage/product-swatches-variant-images-drag-drop"
 tags:
   - 色票
   - 款式圖片

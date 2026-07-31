@@ -41,10 +41,10 @@ features:
   - 安全性問題審核
   - 安全警示解除
 prerequisites:
-  - "[[setup-google-search-console]]"
+  - "ec/integrations/google/setup-google-search-console"
 related:
-  - "[[setup-manage-two-factor-auth]]"
-  - "[[security-settings]]"
+  - "ec/website-management/setup-manage-two-factor-auth"
+  - "ec/website-management/admin-security-settings"
 tags:
   - Google 安全瀏覽
   - 網站安全性
@@ -118,7 +118,7 @@ Google 提供「安全瀏覽網站狀態檢查工具」，可協助商家主動�
   開啟 2FA 驗證機制，防止帳號被盜用，降低網站被植入惡意內容的風險。
 
 - :lucide-brick-wall-shield:{ .lg }  
-  [__IP 白名單__](../../website-management/security-settings.md#operate-security-ip-whitelist){ title="保護後台帳號與顧客資料" }       
+  [__IP 白名單__](../../website-management/admin-security-settings.md#operate-security-ip-whitelist){ title="保護後台帳號與顧客資料" }       
   限制後台登入的 IP 來源，確保只有授權的 IP 才能存取管理介面。
 
 </div>

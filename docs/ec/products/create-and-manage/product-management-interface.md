@@ -48,10 +48,10 @@ features:
   - 庫存列表
 prerequisites: []
 related:
-  - "[[create-update-products]]"
-  - "[[batch-update-product-descriptions-shipping]]"
-  - "[[product-search-visibility]]"
-  - "[[setup-site-search]]"
+  - "ec/products/create-and-manage/create-update-products"
+  - "ec/products/bulk-operations/batch-update-product-descriptions-shipping"
+  - "ec/products/discoverability/product-search-visibility"
+  - "ec/products/discoverability/setup-site-search"
 tags:
   - 商品管理
   - 商品搜尋

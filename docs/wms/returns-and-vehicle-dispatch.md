@@ -37,11 +37,11 @@ features:
   - 入庫驗收作業
   - 逾期未取自動退款
 prerequisites:
-  - [[帳號管理與角色指派]]
-  - [[設定商店基本資訊]]
+  - "帳號管理與角色指派"
+  - "ec/website-management/setup-store-basic-info"
 related:
-  - [[帳號管理與角色指派]]
-  - [[設定角色權限]]
+  - "帳號管理與角色指派"
+  - "設定角色權限"
 tags:
   - 退貨管理
   - 逆物流

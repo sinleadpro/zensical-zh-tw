@@ -43,8 +43,8 @@ features:
 prerequisites:
   - 方案已包含行銷活動分析功能
 related:
-  - "[[設定紅利點數]]"
-  - "[[設定優惠碼]]"
+  - "ec/marketing/bonus-and-gifts/setup-bonus-points"
+  - "ec/marketing/coupon/setup-promo-codes"
 tags:
   - 行銷活動分析
   - 折扣活動

@@ -42,7 +42,7 @@ features:
   - 拖拉版型
 prerequisites: []
 related:
-  - "[[setup-og-image]]"
+  - "ec/website-appearance/site-settings/setup-og-image"
 tags:
   - 部落格
   - 內容行銷

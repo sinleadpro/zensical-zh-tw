@@ -39,8 +39,8 @@ features:
   - 庫存自動同步
   - 商品關聯管理
 prerequisites:
-  - [[Step 1 安裝與授權商店]]
-  - [[確認官網商品已具備唯一且正確的 SKU (商品編號)]]
+  - "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate"
+  - "確認官網商品已具備唯一且正確的 SKU (商品編號)"
 related: []
 tags: []
 acoiv: configure

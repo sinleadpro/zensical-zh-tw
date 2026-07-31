@@ -36,7 +36,7 @@ features:
   - 商品多層級分類滿額折扣
   - 商品多層級分類
 prerequisites:
-  - "[[multi-level-category-setup]]"
+  - "ec/products/categories-and-tags/multi-level-category-setup"
 related: []
 tags:
   - 行銷活動

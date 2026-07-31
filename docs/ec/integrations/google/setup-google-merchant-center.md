@@ -42,8 +42,8 @@ prerequisites:
   - 擁有 Google 帳戶
   - 商品圖片符合 Google 規範
 related:
-  - "[[setup-google-ads-conversion-tracking]]"
-  - "[[google-analytics-advanced-tracking]]"
+  - "ec/integrations/google/setup-google-ads-conversion-tracking"
+  - "ec/integrations/google/ga/google-analytics-advanced-tracking"
 tags:
   - GMC
   - 產品動態饋給

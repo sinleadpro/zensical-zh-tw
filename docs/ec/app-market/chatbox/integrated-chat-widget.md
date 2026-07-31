@@ -41,10 +41,10 @@ features:
   - LINE 整合
   - Messenger 整合
 prerequisites:
-  - "[[Chat Box 串接 LINE 官方帳號]]"
-  - "[[Chat Box 串接 Facebook 粉絲專頁]]"
+  - "ec/app-market/chatbox/connect-chat-box-to-line-oa"
+  - "ec/app-market/chatbox/connect-chat-box-to-facebook-page"
 related:
-  - "[[Chat Box 訊息通]]"
+  - "ec/app-market/chatbox/index"
 tags: 
   - 對話入口
   - Chat Box

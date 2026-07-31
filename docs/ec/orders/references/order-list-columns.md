@@ -37,7 +37,7 @@ intents:
 features: []
 prerequisites: []
 related:
-  - "[[order-filter-status-reference]]"
+  - "ec/orders/references/order-filter-status-reference"
 tags:
   - 訂單列表
   - 欄位

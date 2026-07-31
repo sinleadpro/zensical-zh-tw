@@ -41,10 +41,10 @@ features:
   - Campaign URL Builder
   - GA4 流量報表
 prerequisites:
-  - "[[setup-google-analytics]]"
+  - "ec/integrations/google/ga/setup-google-analytics"
 related:
-  - "[[setup-google-analytics]]"
-  - "[[google-analytics-advanced-tracking]]"
+  - "ec/integrations/google/ga/setup-google-analytics"
+  - "ec/integrations/google/ga/google-analytics-advanced-tracking"
 tags:
   - UTM
   - 流量追蹤

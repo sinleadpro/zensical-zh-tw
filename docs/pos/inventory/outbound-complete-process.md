@@ -40,7 +40,7 @@ features:
   - 出倉單
   - 進倉單
 prerequisites:
-  - [[出倉單]]
+  - "pos/inventory/outbound-orders"
 related: []
 tags:
   - 出倉流程

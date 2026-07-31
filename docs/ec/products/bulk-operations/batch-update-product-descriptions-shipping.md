@@ -42,8 +42,8 @@ features:
   - 配送設定批次修改
 prerequisites: []
 related:
-  - "[[excel-import-products]]"
-  - "[[edit-product-description-settings]]"
+  - "ec/products/bulk-operations/excel-import-products"
+  - "ec/products/create-and-manage/edit-product-description-settings"
 tags:
   - 批次修改
   - Excel 匯入

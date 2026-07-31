@@ -41,7 +41,7 @@ features:
   - 庫存點收
 prerequisites: []
 related:
-  - [[進倉完整流程]]
+  - "pos/inventory/inbound-complete-process"
 tags:
   - 進倉單
   - 庫存管理

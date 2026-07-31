@@ -42,11 +42,11 @@ features:
   - 店員分潤
 prerequisites: []
 related:
-  - [[建立門市]]
-  - [[開啟門市取貨服務]]
-  - [[門市取貨訂單出貨]]
-  - [[門市取貨訂單(入庫取貨)]]
-  - [[POS 門市取貨店員分潤]]
+  - "ec/payments-and-logistics/create-stores"
+  - "ec/payments-and-logistics/store-pickup/enable-store-pickup-service"
+  - "ec/orders/store-pickup-orders"
+  - "pos/orders/store-pickup-orders-inbound-and-pickup"
+  - "pos/store/pos-store-pickup-staff-commission"
 tags:
   - 門市取貨
   - OMO

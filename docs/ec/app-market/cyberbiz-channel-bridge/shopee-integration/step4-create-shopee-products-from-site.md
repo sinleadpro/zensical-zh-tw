@@ -38,8 +38,8 @@ features:
   - 蝦皮商品搬站
   - 關聯自動建立
 prerequisites:
-  - [[Step 1 安裝與授權商店]]
-  - [[商品需為官網手動建立且未關聯過蝦皮]]
+  - "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate"
+  - "商品需為官網手動建立且未關聯過蝦皮"
 related: []
 tags: []
 acoiv: configure

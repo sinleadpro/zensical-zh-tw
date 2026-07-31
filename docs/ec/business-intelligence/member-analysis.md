@@ -43,8 +43,8 @@ prerequisites:
   - 了解有效訂單定義
   - 了解數據更新時間與新舊會員判定方式
 related:
-  - "[[member-overview]]"
-  - "[[customer-analysis]]"
+  - "ec/business-intelligence/member-overview"
+  - "ec/business-intelligence/customer-analysis"
 tags:
   - 會員分析
   - 會員規模

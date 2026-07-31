@@ -34,7 +34,7 @@ features:
 prerequisites:
   - 方案需包含「商品圖表」功能
 related:
-  - "[[訂單分析]]"
+  - "ec/business-intelligence/order-analysis"
 tags:
   - 商品圖表
   - 瀏覽數

@@ -34,8 +34,8 @@ features:
   - 優惠券
 prerequisites: []
 related: 
-  - "[[設定紅利購物金說明]]"
-  - "[[設定生日禮]]"
+  - "設定紅利購物金說明"
+  - "ec/marketing/bonus-and-gifts/setup-birthday-gift"
 tags: 
   - 註冊禮
   - 紅利點數

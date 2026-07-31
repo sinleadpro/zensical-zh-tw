@@ -33,7 +33,7 @@ features:
   - Google Ads 強化轉換
   - 轉換追蹤優化
 prerequisites:
-  - "[[setup-google-ads-conversion-tracking[[setup-google-ads-conversion-tracking]] Google Ads 轉換追蹤]]"
+  - "ec/integrations/google/setup-google-ads-conversion-tracking"
 tags:
   - Google Ads
   - 強化轉換

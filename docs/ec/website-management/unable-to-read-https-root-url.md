@@ -32,8 +32,8 @@ features:
   - 根網域轉址
   - 網域移轉
 prerequisites:
-  - [[需具備第三方網域商的管理權限]]
-  - [[網域需已指向 CYBERBIZ]]
+  - "需具備第三方網域商的管理權限"
+  - "網域需已指向 CYBERBIZ"
 related: []
 tags:
   - 疑難排解

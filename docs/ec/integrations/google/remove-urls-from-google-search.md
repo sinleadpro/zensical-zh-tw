@@ -38,9 +38,9 @@ features:
   - Google Search Console
   - 移除網址工具
 prerequisites:
-  - "[[setup-google-search-console]]"
+  - "ec/integrations/google/setup-google-search-console"
 related:
-  - "[[setup-google-search-console]]"
+  - "ec/integrations/google/setup-google-search-console"
 tags:
   - Google Search Console
   - 移除網址

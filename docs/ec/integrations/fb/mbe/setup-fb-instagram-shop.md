@@ -40,12 +40,12 @@ features:
   - Instagram 商店
   - 商品同步
 prerequisites:
-  - "[[setup-fbe-authorization]]"
-  - "[[setup-fbe-domain-verification]]"
+  - "ec/integrations/fb/mbe/setup-fbe-authorization"
+  - "ec/integrations/fb/mbe/setup-fbe-domain-verification"
 related:
-  - "[[setup-fbe-domain-verification]]"
-  - "[[product-swatches-variant-images-drag-drop]]"
-  - "[[product-swatches-variant-images-default]]"
+  - "ec/integrations/fb/mbe/setup-fbe-domain-verification"
+  - "ec/products/create-and-manage/product-swatches-variant-images-drag-drop"
+  - "ec/products/create-and-manage/product-swatches-variant-images-default"
 tags:
   - FB 商店
   - IG 商店

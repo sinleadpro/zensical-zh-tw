@@ -46,12 +46,12 @@ features:
   - 必須註冊
 prerequisites: []
 related:
-  - "[[customer-registration-modes-reference]]"
-  - "[[customer-field-validation-reference]]"
-  - "[[manage-email-templates]]"
-  - "[[manage-sms-templates-v2]]"
-  - "[[設定顧客註冊流程與欄位]]"
-  - "[[管理會員檔案]]"
+  - "ec/website-management/references/customer-registration-modes-reference"
+  - "ec/website-management/references/customer-field-validation-reference"
+  - "ec/notifications/manage-email-templates"
+  - "ec/notifications/manage-sms-templates-v2"
+  - "ec/website-management/customer-registration-flow-and-fields"
+  - "ec/members/manage-member-profiles"
 tags:
   - 雙重驗證
   - Email 驗證

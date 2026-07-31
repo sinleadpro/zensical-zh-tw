@@ -39,10 +39,10 @@ features:
   - 自訂出貨方式
 prerequisites: []
 related:
-  - "[[custom-logistic-shipping]]"
-  - "[[補印與加印託運單]]"
-  - "[[cvs-partial-shipping-support]]"
-  - "[[order-filter-status-reference]]"
+  - "ec/orders/home-delivery/custom-logistic-shipping"
+  - "補印與加印託運單"
+  - "ec/orders/references/cvs-partial-shipping-support"
+  - "ec/orders/references/order-filter-status-reference"
 tags:
   - 超商部分出貨
   - 超商取貨

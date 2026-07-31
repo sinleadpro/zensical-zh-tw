@@ -45,10 +45,10 @@ features:
   - "內部流量"
   - "不適用的參照連結網址"
 prerequisites:
-  - "[[setup-google-analytics]]"
+  - "ec/integrations/google/ga/setup-google-analytics"
 related:
-  - "[[setup-google-analytics]]"
-  - "[[google-analytics-advanced-tracking]]"
+  - "ec/integrations/google/ga/setup-google-analytics"
+  - "ec/integrations/google/ga/google-analytics-advanced-tracking"
 tags:
   - "GA4"
   - "內部流量"

@@ -40,7 +40,7 @@ features:
   - 發送紀錄列表
 prerequisites: []
 related:
-  - "[[send-sms-notifications-v2]]"
+  - "ec/notifications/send-sms-notifications-v2"
 tags:
   - 簡訊
   - 發送紀錄

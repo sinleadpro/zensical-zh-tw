@@ -601,7 +601,7 @@ copyright = """
             ]},
             { "資安防護" = [
                 { "資安防護總覽" = "ec/website-management/security-best-practices.md" },
-                { "安全性設定" = "ec/website-management/security-settings.md" },
+                { "安全性設定" = "ec/website-management/admin-security-settings.md" },
                 { "二階段驗證 (2FA)" = "ec/website-management/setup-manage-two-factor-auth.md" },
                 { "Authy 二階段驗證" = "ec/website-management/authy-two-factor-authentication.md" },
                 { "管理員與權限" = "ec/website-management/add-admin-set-permissions.md" },
@@ -767,7 +767,7 @@ copyright = """
         {"divider" = "divider"},
         { "商店管理" = [
             { "公告系統" = "pos/store/announcement-system.md" },
-            { "安全性設定" = "pos/store/security-settings.md" },
+            { "安全性設定" = "pos/store/pos-security-settings.md" },
             { "續購與加購方案" = "pos/store/renewal-and-add-on-plans.md" },
             { "POS 門市取貨店員分潤" = "pos/store/pos-store-pickup-staff-commission.md" },
         ]},

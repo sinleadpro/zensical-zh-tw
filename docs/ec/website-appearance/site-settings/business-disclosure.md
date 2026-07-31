@@ -42,7 +42,7 @@ features:
 prerequisites:
   - 已套用並發布官網主題
 related:
-  - "[[setup-cookie-consent-banner]]"
+  - "ec/website-appearance/code-customization/setup-cookie-consent-banner"
 tags:
   - 營業人名稱
   - 統一編號

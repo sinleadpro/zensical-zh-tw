@@ -44,8 +44,8 @@ features:
   - EDM計費
 prerequisites: []
 related:
-  - "[[manage-sms-templates-v2]]"
-  - "[[send-edm-newsletters-v2]]"
+  - "ec/notifications/manage-sms-templates-v2"
+  - "ec/notifications/send-edm-newsletters-v2"
 tags:
   - Cyber幣
   - 儲值中心

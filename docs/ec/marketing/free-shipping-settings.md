@@ -45,7 +45,7 @@ features:
 prerequisites:
   - 若需使用「指定商品免運」，需高手版、各 PLUS 版或企業版
 related:
-  - "[[order-settings]]"
+  - "ec/payments-and-logistics/payments/order-settings"
 tags:
   - 免運
   - 運費設定

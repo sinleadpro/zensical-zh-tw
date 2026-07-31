@@ -36,10 +36,10 @@ features:
   - Meta 目錄
   - CPV 廣告
 prerequisites:
-  - "[[setup-product-videos]]"
-  - "[[setup-fbe-authorization]]"
+  - "ec/products/create-and-manage/setup-product-videos"
+  - "ec/integrations/fb/mbe/setup-fbe-authorization"
 related:
-  - "[[setup-meta-ad-campaign]]"
+  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
 tags:
   - Meta 目錄
   - 商品影片

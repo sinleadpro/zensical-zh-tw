@@ -39,7 +39,7 @@ features:
   - 調倉管理
   - 自動轉單
 prerequisites:
-  - [[調倉單]]
+  - "pos/inventory/transfer-orders"
 related: []
 tags:
   - 調倉流程

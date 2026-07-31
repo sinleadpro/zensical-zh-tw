@@ -38,10 +38,10 @@ features:
   - Meta 整合
   - 訊息格式
 prerequisites: 
-  - "[[Chat Box 訊息通]]"
+  - "ec/app-market/chatbox/index"
 related: 
-  - "[[LINE 訊息格式規範]]"
-  - "[[Chat Box 串接第三方平台 (LINE•Meta)]]"
+  - "ec/app-market/chatbox/line-message-format-spec"
+  - "Chat Box 串接第三方平台 (LINE•Meta)"
 tags: 
   - Meta
   - Facebook

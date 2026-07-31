@@ -42,9 +42,9 @@ features:
   - 單筆訂單手動出貨
 prerequisites: []
 related:
-  - "[[manual-order-close]]"
-  - "[[auto-close-order-settings]]"
-  - "[[訂單退貨流程]]"
+  - "ec/orders/order-settings/manual-order-close"
+  - "ec/orders/order-settings/auto-close-order-settings"
+  - "ec/orders/order-return-process"
 tags:
   - 自訂物流
   - 出貨

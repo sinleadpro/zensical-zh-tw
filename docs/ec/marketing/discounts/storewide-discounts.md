@@ -34,8 +34,8 @@ features:
   - 累計折抵
 prerequisites: []
 related: 
-  - "[[設定優惠券]]"
-  - "[[設定任選折扣]]"
+  - "ec/marketing/coupon/setup-coupons"
+  - "ec/marketing/discounts/mix-and-match-discounts"
 tags: 
   - 全館折扣
   - 促銷活動

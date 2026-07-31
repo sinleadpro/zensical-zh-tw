@@ -41,7 +41,7 @@ features:
   - HTML 標記驗證
 prerequisites: []
 related:
-  - "[[submit-sitemap-to-gsc]]"
+  - "ec/website-management/seo/submit-sitemap-to-gsc"
 tags:
   - GSC
   - SEO

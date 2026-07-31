@@ -44,8 +44,8 @@ features:
   - "301 轉址"
 prerequisites: []
 related:
-  - "[[submit-sitemap-to-gsc]]"
-  - "[[setup-301-redirects]]"
+  - "ec/website-management/seo/submit-sitemap-to-gsc"
+  - "ec/website-management/seo/setup-301-redirects"
 tags:
   - "SEO"
   - "Meta Tag"

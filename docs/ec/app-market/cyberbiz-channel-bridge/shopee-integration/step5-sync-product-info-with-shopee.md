@@ -37,8 +37,8 @@ features:
   - 蝦皮商品搬站
   - 商品資訊同步
 prerequisites:
-  - [[Step 1~4，確保商品已建立關聯]]
-  - [[官網商品欄位需符合蝦皮規範]]
+  - "Step 1~4，確保商品已建立關聯"
+  - "官網商品欄位需符合蝦皮規範"
 related: []
 tags: []
 acoiv: configure

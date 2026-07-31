@@ -41,8 +41,8 @@ features:
   - 會員綁定
 prerequisites: []
 related:
-  - "[[setup-line-quick-login]]"
-  - "[[bind-line-oa-store-members]]"
+  - "ec/integrations/line/account-integration/setup-line-quick-login"
+  - "ec/integrations/line/account-integration/bind-line-oa-store-members"
 tags:
   - Google 快速登入
   - 第三方登入

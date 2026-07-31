@@ -39,7 +39,7 @@ features:
 prerequisites:
   - 需已開通 CYBERBIZ PAYMENTS 金流服務
 related:
-  - [[北美站金流服務]]
+  - "ec/payments-and-logistics/north-america-payment-services"
 tags:
   - 行動支付
   - CYBERBIZ PAYMENTS

@@ -39,8 +39,8 @@ prerequisites:
   - 支援程式碼編輯的版型
   - 後台操作權限（外觀編輯權限）
 related:
-  - "[[apply-and-switch-theme]]"
-  - "[[business-disclosure]]"
+  - "ec/website-appearance/theme-and-layout/apply-and-switch-theme"
+  - "ec/website-appearance/site-settings/business-disclosure"
 tags:
   - Cookie 同意提示
   - GDPR

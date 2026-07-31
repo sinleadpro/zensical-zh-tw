@@ -37,7 +37,7 @@ features:
   - 批次修改
   - Excel範本
 prerequisites:
-  - [[需準備 Excel 軟體或支援 .xlsx 之工具]]
+  - "需準備 Excel 軟體或支援 .xlsx 之工具"
 related: []
 tags:
   - Excel匯入

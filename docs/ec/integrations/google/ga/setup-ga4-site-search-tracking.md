@@ -41,10 +41,10 @@ features:
   - view search results 事件
   - search term 參數
 prerequisites:
-  - "[[setup-google-analytics]]"
+  - "ec/integrations/google/ga/setup-google-analytics"
 related:
-  - "[[google-analytics-advanced-tracking]]"
-  - "[[ga4-exclude-internal-traffic-and-referrals]]"
+  - "ec/integrations/google/ga/google-analytics-advanced-tracking"
+  - "ec/integrations/google/ga/ga4-exclude-internal-traffic-and-referrals"
 tags:
   - GA4
   - 站內搜尋

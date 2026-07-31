@@ -41,7 +41,7 @@ features:
   - 強制開啟
 prerequisites: []
 related:
-  - "[[add-admin-set-permissions]]"
+  - "ec/website-management/add-admin-set-permissions"
 tags:
   - 二階段驗證
   - 資安

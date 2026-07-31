@@ -39,7 +39,7 @@ features:
   - 分潤查詢
 prerequisites: []
 related:
-  - [[推薦碼連結的應用]]
+  - "ec/profit-sharing/referral-link-applications"
 tags:
   - 分潤查詢
   - 推薦碼查詢

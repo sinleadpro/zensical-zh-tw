@@ -46,7 +46,7 @@ features:
 prerequisites:
   - 需先洽客服人員開通商品評論功能
 related:
-  - "[[enable-comment-recaptcha]]"
+  - "ec/website-appearance/customer-interaction/enable-comment-recaptcha"
 tags:
   - 商品評論
   - 顧客回饋

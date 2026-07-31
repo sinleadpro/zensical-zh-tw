@@ -41,9 +41,9 @@ features:
   - 站內搜尋追蹤
 prerequisites: []
 related:
-  - "設定 GA4 站內搜尋追蹤.md"
-  - "快速上手商品管理.md"
-  - "設定搜尋結果中排除特定關鍵字商品.md"
+  - "ec/integrations/google/ga/setup-ga4-site-search-tracking"
+  - "ec/products/create-and-manage/create-update-products"
+  - "ec/products/discoverability/exclude-keyword-products-search"
 tags:
   - 站內搜尋
   - 商品搜尋

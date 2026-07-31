@@ -42,12 +42,12 @@ features:
   - 逆物流
   - 單號使用紀錄
 prerequisites:
-  - "[[home-delivery-cash-on-delivery#2-新竹物流]]"
+  - "ec/payments-and-logistics/home-delivery-cash-on-delivery"
   - 領取新竹物流託運貼紙
   - 了解 Cyber 幣扣費方式
 related:
-  - "[[hct-shipping-v2]]"
-  - "[[setup-store-basic-info]]"
+  - "ec/orders/home-delivery/hct-shipping-v2"
+  - "ec/website-management/setup-store-basic-info"
 tags:
   - 新竹物流
   - 託運單

@@ -35,9 +35,9 @@ features:
   - 批次發送紅利
 prerequisites: []
 related: 
-  - "[[設定註冊禮]]"
-  - "[[設定生日禮]]"
-  - "[[紅利商城設定]]"
+  - "ec/marketing/bonus-and-gifts/setup-registration-gift"
+  - "ec/marketing/bonus-and-gifts/setup-birthday-gift"
+  - "紅利商城設定"
 tags: 
   - 紅利點數
   - 購物金

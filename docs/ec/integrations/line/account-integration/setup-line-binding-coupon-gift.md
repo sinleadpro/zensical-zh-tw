@@ -51,11 +51,11 @@ features:
   - 歡迎訊息整合
   - LINE OA 加入好友邀請
 prerequisites:
-  - "[[connect-line-messaging-api]]"
-  - "[[bind-line-oa-store-members]]"
+  - "ec/integrations/line/account-integration/connect-line-messaging-api"
+  - "ec/integrations/line/account-integration/bind-line-oa-store-members"
 related:
-  - "[[setup-line-rich-menu]]"
-  - "[[send-line-friend-invitation]]"
+  - "ec/integrations/line/marketing/setup-line-rich-menu"
+  - "ec/notifications/send-line-friend-invitation"
 tags:
   - LINE
   - 優惠券

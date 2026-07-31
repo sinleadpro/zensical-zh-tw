@@ -37,10 +37,10 @@ features:
   - SKU 管理
   - POS 串接
 prerequisites: 
-  - "[[所有商品-新增商品]]"
+  - "所有商品-新增商品"
 related: 
-  - "[[EXCEL大量匯入商品]]"
-  - "[[建立 POS 商品]]"
+  - "EXCEL大量匯入商品"
+  - "pos/get-started/create-pos-products"
 tags: 
   - SKU
   - 批次更新

@@ -41,7 +41,7 @@ features:
   - 二階段驗證
 prerequisites: []
 related:
-  - "[[admin-permissions-menu-reference]]"
+  - "ec/website-management/references/admin-permissions-menu-reference"
 tags:
   - 網站管理員
   - 權限設定

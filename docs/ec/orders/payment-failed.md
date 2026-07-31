@@ -47,16 +47,16 @@ features:
   - 美安 Shop.com 導購
 prerequisites: []
 related:
-  - "[[provide-payment-link]]"
-  - "[[unpaid-reminder-settings]]"
-  - "[[manage-email-templates]]"
-  - "[[manage-sms-templates-v2]]"
-  - "[[auto-close-order-settings]]"
-  - "[[cancel-order]]"
-  - "[[定期定額活動頁]]"
-  - "[[setup-aftee]]"
-  - "[[setup-credit-card-3d-verification]]"
-  - "[[payment-statuses]]"
+  - "ec/orders/order-settings/provide-payment-link"
+  - "ec/orders/order-settings/unpaid-reminder-settings"
+  - "ec/notifications/manage-email-templates"
+  - "ec/notifications/manage-sms-templates-v2"
+  - "ec/orders/order-settings/auto-close-order-settings"
+  - "ec/orders/basics/cancel-order"
+  - "定期定額活動頁"
+  - "ec/payments-and-logistics/setup-aftee"
+  - "ec/payments-and-logistics/setup-credit-card-3d-verification"
+  - "ec/orders/references/payment-statuses"
 tags:
   - 付款失敗
   - 重新付款

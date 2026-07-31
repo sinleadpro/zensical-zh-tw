@@ -34,9 +34,9 @@ features:
   - CYBERBIZ PAYMENTS
 prerequisites: []
 related:
-  - "[[provide-payment-link]]"
-  - "[[unpaid-reminder-settings]]"
-  - "[[manage-email-templates]]"
+  - "ec/orders/order-settings/provide-payment-link"
+  - "ec/orders/order-settings/unpaid-reminder-settings"
+  - "ec/notifications/manage-email-templates"
 tags:
   - 超商條碼
   - 便利商店付款

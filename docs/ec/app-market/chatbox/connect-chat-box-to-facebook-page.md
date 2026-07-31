@@ -40,8 +40,8 @@ features:
 prerequisites:
   - 需擁有 Facebook 粉絲專頁管理員權限
 related:
-  - "[[Chat Box 訊息通]]"
-  - "[[Meta 訊息格式規範]]"
+  - "ec/app-market/chatbox/index"
+  - "ec/app-market/chatbox/meta-message-format-spec"
 tags:
   - Facebook 串接
   - Meta 授權

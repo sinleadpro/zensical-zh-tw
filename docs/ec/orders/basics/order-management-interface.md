@@ -234,7 +234,7 @@ hide:
 	
 - **發票：** 發票資訊。
 
-- **個資隱碼：** 若後台開啟了[會員個資部分隱碼](../../website-management/security-settings.md#operate-security-pdpa){ title="保護後台帳號與顧客資料" }，列印明細時系統會自動遮蓋會員姓名、手機及地址部分字元以保護隱私。
+- **個資隱碼：** 若後台開啟了[會員個資部分隱碼](../../website-management/admin-security-settings.md#operate-security-pdpa){ title="保護後台帳號與顧客資料" }，列印明細時系統會自動遮蓋會員姓名、手機及地址部分字元以保護隱私。
 
 ![訂購人與收貨人資訊](../../../assets/images/ec-訂單明細頁-訂購人與收貨人資訊.png){ title="訂購人與收貨人資訊" }
 

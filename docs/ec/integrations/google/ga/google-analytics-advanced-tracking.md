@@ -44,10 +44,10 @@ features:
   - 資料保留
   - 報表識別資訊
 prerequisites:
-  - "[[setup-google-analytics]]"
+  - "ec/integrations/google/ga/setup-google-analytics"
 related:
-  - "[[setup-google-analytics]]"
-  - "[[ga4-exclude-internal-traffic-and-referrals]]"
+  - "ec/integrations/google/ga/setup-google-analytics"
+  - "ec/integrations/google/ga/ga4-exclude-internal-traffic-and-referrals"
 tags:
   - GA4
   - Google Analytics

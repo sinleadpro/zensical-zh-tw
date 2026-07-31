@@ -41,7 +41,7 @@ features:
 prerequisites:
   - 需先完成門市建立
 related:
-  - [[處理門市取貨訂單]]
+  - "處理門市取貨訂單"
 tags:
   - 門市取貨
   - 門市管理

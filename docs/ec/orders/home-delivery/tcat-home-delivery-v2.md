@@ -46,10 +46,10 @@ prerequisites:
   - 領取黑貓三聯空白託運單貼紙
   - 完成黑貓設定（寄件人地址）
 related:
-  - "[[tcat-auto-call-driver-v2]]"
-  - "[[tcat-express-payment-settings]]"
-  - "[[partial-shipment-v2]]"
-  - "[[訂單出貨流程]]"
+  - "ec/orders/home-delivery/tcat-auto-call-driver-v2"
+  - "ec/orders/tcat-quick-store/tcat-express-payment-settings"
+  - "ec/orders/home-delivery/partial-shipment-v2"
+  - "ec/orders/basics/order-fulfillment-flow"
 tags:
   - 黑貓宅配
   - 託運單

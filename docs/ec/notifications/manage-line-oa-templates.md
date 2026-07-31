@@ -45,12 +45,12 @@ features:
   - 未付款提醒
   - 行銷通知
 prerequisites:
-  - "[[串接 LINE Messaging API]]"
-  - "[[綁定 LINE 官方帳號與官網會員]]"
+  - "ec/integrations/line/account-integration/connect-line-messaging-api"
+  - "ec/integrations/line/account-integration/bind-line-oa-store-members"
 related:
-  - "[[設定與管理 Email 通知樣板]]"
-  - "[[設定與管理簡訊通知樣板]]"
-  - "[[設定與發送簡訊通知]]"
+  - "ec/notifications/manage-email-templates"
+  - "ec/notifications/manage-sms-templates-v2"
+  - "ec/notifications/send-sms-notifications-v2"
 tags:
   - 訊息推播
   - LINE OA

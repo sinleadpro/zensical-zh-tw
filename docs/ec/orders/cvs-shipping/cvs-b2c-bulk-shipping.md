@@ -38,9 +38,9 @@ features:
   - B2C 大宗寄倉
   - 託運單批次下載
 prerequisites:
-  - "[[setup-cvs-b2c-bulk-shipping]]"
+  - "ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping"
 related:
-  - "[[cvs-b2c-channel-spec-reference]]"
+  - "ec/payments-and-logistics/references/cvs-b2c-channel-spec-reference"
 tags:
   - 超商大宗寄倉
   - B2C 出貨

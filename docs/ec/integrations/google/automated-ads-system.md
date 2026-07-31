@@ -44,7 +44,7 @@ prerequisites:
   - 需有 Google 帳號
   - 需完成廣告儲值
 related:
-  - "[[setup-google-merchant-center]]"
+  - "ec/integrations/google/setup-google-merchant-center"
 tags:
   - GMC
   - Google

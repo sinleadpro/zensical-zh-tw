@@ -35,7 +35,7 @@ features:
   - 預測報表
 prerequisites: []
 related:
-  - "[[export-order-report]]"
+  - "ec/orders/reports/export-order-report"
 tags:
   - 定期定額
   - 子訂單

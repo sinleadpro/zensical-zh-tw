@@ -36,7 +36,7 @@ features:
   - 蝦皮商品搬站
   - 全通路管理助手
 prerequisites:
-  - [[需具備蝦皮台灣站 (TW) 賣家帳號]]
+  - "需具備蝦皮台灣站 (TW) 賣家帳號"
 related: []
 tags:
   - 商品匯入

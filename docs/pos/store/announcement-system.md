@@ -38,7 +38,7 @@ features:
 prerequisites:
   - 需具備網站擁有者或店長權限方可發送公告
 related:
-  - [[員工權限與帳號管理]]
+  - "pos/store/staff-permissions-and-account-management"
 tags:
   - 公告
   - 訊息發送

@@ -36,9 +36,9 @@ features:
   - 員工切換
   - 系統公告
 prerequisites:
-  - [[帳號權限管理]]
+  - "pos/store/staff-permissions-and-account-management"
 related:
-  - [[公告]]
+  - "wms/announcements"
 tags:
   - POS 登入
   - 員工切換

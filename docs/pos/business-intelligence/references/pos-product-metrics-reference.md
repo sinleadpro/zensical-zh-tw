@@ -27,7 +27,7 @@ intents: []
 features: []
 prerequisites: []
 related:
-  - "[[pos-product-analysis]]"
+  - "pos/business-intelligence/pos-product-analysis"
 tags:
   - POS
   - 商品分析

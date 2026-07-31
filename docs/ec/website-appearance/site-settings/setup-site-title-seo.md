@@ -40,7 +40,7 @@ features:
 prerequisites:
   - 已設定網站基本名稱
 related:
-  - "[[設定轉貼連結縮圖 (OG Image)]]"
+  - "ec/website-appearance/site-settings/setup-og-image"
 tags:
   - SEO
   - 網站標題

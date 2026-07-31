@@ -39,8 +39,8 @@ features:
   - 訂單取消功能
 prerequisites: []
 related:
-  - "[[訂單出貨流程]]"
-  - "[[cancel-order]]"
+  - "ec/orders/basics/order-fulfillment-flow"
+  - "ec/orders/basics/cancel-order"
 tags:
   - 訂單管理
   - 配送狀態

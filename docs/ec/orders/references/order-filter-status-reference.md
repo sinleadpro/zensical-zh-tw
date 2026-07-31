@@ -42,7 +42,7 @@ features:
   - 關鍵字匹配
 prerequisites: []
 related:
-  - "[[search-filter-orders]]"
+  - "ec/orders/basics/search-filter-orders"
 tags:
   - 訂單篩選
   - 訂單狀態

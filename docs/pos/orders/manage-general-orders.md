@@ -37,7 +37,7 @@ features:
   - 庫存自動回補
 prerequisites: []
 related:
-  - [[庫存盤點]]
+  - "pos/inventory/inventory-count"
 tags:
   - POS 訂單
   - 退換貨流程
@@ -81,7 +81,7 @@ hide: []
 
 ## 使用須知
 
-- **跨門市訂單查詢**：若需查詢其他門市訂單，需前往 **安全性設定** 開啟 [**店家查看他店訂單** 權限](../store/security-settings.md#設定門市權限){ data-preview }。未開啟此權限前，人員僅能查看目前登入門市的訂單資料。
+- **跨門市訂單查詢**：若需查詢其他門市訂單，需前往 **安全性設定** 開啟 [**店家查看他店訂單** 權限](../store/pos-security-settings.md#設定門市權限){ data-preview }。未開啟此權限前，人員僅能查看目前登入門市的訂單資料。
 
 ## 查詢訂單
 

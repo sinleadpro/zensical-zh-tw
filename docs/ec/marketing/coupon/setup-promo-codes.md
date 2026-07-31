@@ -40,7 +40,7 @@ features:
   - 免運折扣
 prerequisites: []
 related: 
-  - "[[設定全館折扣 – 紅利&優惠券]]"
+  - "設定全館折扣 – 紅利&優惠券"
 tags: 
   - 優惠碼
   - 贈品券

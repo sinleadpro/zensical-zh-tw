@@ -36,10 +36,10 @@ features:
   - 色票功能
   - 款式圖片
 prerequisites:
-  - "[[新增與更新商品#基本設定]]"
+  - "新增與更新商品#基本設定"
 related:
-  - "[[../../integrations/fb/mbe/設定 Facebook 跟 Instagram 商店]]"
-  - "[[product-swatches-variant-images-default]]"
+  - "ec/integrations/fb/mbe/setup-fb-instagram-shop"
+  - "ec/products/create-and-manage/product-swatches-variant-images-default"
 tags:
   - 色票
   - 款式圖片

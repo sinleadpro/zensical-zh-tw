@@ -37,7 +37,7 @@ features:
 prerequisites: 
   - "需先完成金流串接設定"
 related: 
-  - "[[home-delivery-cash-on-delivery]]"
+  - "ec/payments-and-logistics/home-delivery-cash-on-delivery"
 tags: 
   - 物流設定
   - 運費

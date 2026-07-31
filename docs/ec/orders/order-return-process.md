@@ -32,9 +32,9 @@ features:
   - 訂單退貨
   - 逆物流
 prerequisites:
-  - [[設定與管理會員退貨申請]]
+  - "設定與管理會員退貨申請"
 related:
-  - [[訂單退款流程]]
+  - "ec/orders/order-refund-process"
 tags:
   - 售後服務
   - 逆物流

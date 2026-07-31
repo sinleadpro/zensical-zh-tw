@@ -46,8 +46,8 @@ prerequisites:
   - 方案需包含「圖表分析」功能
   - 需有實際訂單資料
 related:
-  - "[[business-intelligence-overview]]"
-  - "[[benchmarking]]"
+  - "ec/business-intelligence/business-intelligence-overview"
+  - "ec/business-intelligence/benchmarking"
 tags:
   - 商品分析
   - 商品銷售排行

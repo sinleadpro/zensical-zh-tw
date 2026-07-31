@@ -37,7 +37,7 @@ features:
   - 跨店資料權限
 prerequisites: []
 related:
-  - [[設定與管理 POS 子機結帳綁定]]
+  - "設定與管理 POS 子機結帳綁定"
 tags:
   - POS 安全性
   - IP 白名單
@@ -59,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=27199
   - https://www.cyberbiz.io/support/?p=5231
-permalink: "https://help.cyberbiz.io/pos/store/security-settings/"
+permalink: "https://help.cyberbiz.io/pos/store/pos-security-settings/"
 comments: false
 search:
   exclude: false

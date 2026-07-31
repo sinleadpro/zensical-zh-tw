@@ -37,8 +37,8 @@ prerequisites:
   - "需為企業版方案商家"
   - "需由 CYBERBIZ 代為開立發票"
 related: 
-  - "[[自動確認對帳帳款設定]]"
-  - "[[對帳中心管理指南]]"
+  - "ec/website-management/auto-confirm-reconciliation-accounts"
+  - "對帳中心管理指南"
 tags: 
   - 請款發票
   - 星益欣

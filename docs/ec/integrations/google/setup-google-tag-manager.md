@@ -41,7 +41,7 @@ features:
   - 標籤管理
 prerequisites: []
 related:
-  - "[[verify-tracking-tag-installation]]"
+  - "ec/integrations/google/verify-tracking-tag-installation"
 tags:
   - GTM
   - 追蹤代碼

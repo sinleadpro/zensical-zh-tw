@@ -37,10 +37,10 @@ intents:
 features:
   - 商品排除標籤
 prerequisites:
-  - "[[setup-fb-instagram-shop]]"
+  - "ec/integrations/fb/mbe/setup-fb-instagram-shop"
 related:
-  - "[[setup-fb-instagram-shop]] "
-  - "[[manage-product-tags]]"
+  - "ec/integrations/fb/mbe/setup-fb-instagram-shop"
+  - "ec/products/categories-and-tags/manage-product-tags"
 tags:
   - FBE
   - FB 商店

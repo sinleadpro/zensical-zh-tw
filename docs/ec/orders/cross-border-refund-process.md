@@ -38,7 +38,7 @@ features:
 prerequisites:
   - 需先完成「商家執行訂單退貨流程」並將狀態切換為已退貨
 related:
-  - [[跨境電商退貨流程]]
+  - "ec/orders/cross-border-return-process"
 tags:
   - 退款流程
   - 售後服務

@@ -40,8 +40,8 @@ features:
   - 加印託運單
 prerequisites: []
 related:
-  - "[[setup-print-tcat-waybill-v2]]"
-  - "[[points-deposits]]"
+  - "ec/payments-and-logistics/setup-print-tcat-waybill-v2"
+  - "ec/website-management/points-deposits"
 tags:
   - 金物流
   - 黑貓快速到店

@@ -38,7 +38,7 @@ features:
   - 優惠券
 prerequisites: []
 related: 
-  - "[[VIP 等級與專屬生日禮設定]]"
+  - "VIP 等級與專屬生日禮設定"
 tags: 
   - 生日禮
   - 紅利點數

@@ -30,8 +30,8 @@ features:
   - 雙重驗證
 prerequisites: []
 related:
-  - "[[setup-customer-email-phone-verification]]"
-  - "[[customer-field-validation-reference]]"
+  - "ec/website-management/setup-customer-email-phone-verification"
+  - "ec/website-management/references/customer-field-validation-reference"
 tags:
   - EC
   - 顧客註冊

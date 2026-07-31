@@ -42,7 +42,7 @@ features:
 prerequisites:
   - 需先擁有 Meta 企業管理帳號 (Business Manager)
 related:
-  - "[[setup-meta-ad-campaign]]"
+  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
 tags:
   - Meta
   - Facebook

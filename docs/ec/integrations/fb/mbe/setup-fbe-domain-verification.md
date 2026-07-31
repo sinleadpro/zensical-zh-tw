@@ -40,9 +40,9 @@ features:
   - DNS 驗證
   - 中繼標籤驗證
 prerequisites:
-  - "[[setup-fbe-authorization]]"
+  - "ec/integrations/fb/mbe/setup-fbe-authorization"
 related:
-  - "[[網域管理]]"
+  - "ec/website-management/domain-management"
 tags:
   - FBE
   - Facebook 企業管理平台

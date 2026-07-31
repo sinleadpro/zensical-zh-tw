@@ -40,11 +40,11 @@ features:
   - AI 建議回覆
   - 會員資料同步
 prerequisites: 
-  - "[[Chat Box 串接第三方平台 (LINE•Meta)]]"
+  - "Chat Box 串接第三方平台 (LINE•Meta)"
 related: 
-  - "[[Chat Box AI 建議回覆]]"
-  - "[[LINE 訊息格式規範]]"
-  - "[[Meta 訊息格式規範]]"
+  - "ec/app-market/chatbox/chat-box-ai-suggested-replies"
+  - "ec/app-market/chatbox/line-message-format-spec"
+  - "ec/app-market/chatbox/meta-message-format-spec"
 tags: 
   - 客服管理
   - 訊息通

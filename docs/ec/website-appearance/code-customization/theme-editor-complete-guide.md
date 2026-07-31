@@ -53,7 +53,7 @@ features:
   - 訂單頁客製化
 prerequisites: []
 related:
-  - "[[setup-cookie-consent-banner]]"
+  - "ec/website-appearance/code-customization/setup-cookie-consent-banner"
 tags:
   - 樣板編輯器
   - 程式碼

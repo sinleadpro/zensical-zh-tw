@@ -39,11 +39,11 @@ features:
   - AI 建議回覆
   - 知識庫管理
 prerequisites:
-  - "[[Chat Box 訊息通]]"
+  - "ec/app-market/chatbox/index"
 related:
-  - "[[Chat Box 串接第三方平台 (LINE•Meta)]]"
-  - "[[LINE 訊息格式規範]]"
-  - "[[Meta 訊息格式規範]]"
+  - "Chat Box 串接第三方平台 (LINE•Meta)"
+  - "ec/app-market/chatbox/line-message-format-spec"
+  - "ec/app-market/chatbox/meta-message-format-spec"
 tags:
   - AI
   - 客服助手

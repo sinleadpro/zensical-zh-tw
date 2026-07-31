@@ -45,8 +45,8 @@ features:
 prerequisites:
   - 具備後台管理員帳號
 related:
-  - "[[create-update-products]]"
-  - "[[apply-and-switch-theme]]"
+  - "ec/products/create-and-manage/create-update-products"
+  - "ec/website-appearance/theme-and-layout/apply-and-switch-theme"
 tags:
   - 文字編輯器
   - 網頁編輯

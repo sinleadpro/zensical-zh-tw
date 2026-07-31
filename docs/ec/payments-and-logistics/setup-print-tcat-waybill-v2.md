@@ -44,9 +44,9 @@ features:
   - 呼叫黑貓司機取件
 prerequisites: []
 related:
-  - "[[tcat-auto-call-driver-v2]]"
-  - "[[points-deposits]]"
-  - "[[order-return-process]]"
+  - "ec/orders/home-delivery/tcat-auto-call-driver-v2"
+  - "ec/website-management/points-deposits"
+  - "ec/orders/order-return-process"
 tags:
   - 金物流
   - 黑貓宅急便

@@ -40,7 +40,7 @@ features:
   - 最低購買數量
 prerequisites: []
 related:
-  - "[[upsells/setup-product-upsell]]"
+  - "ec/marketing/upsells/setup-product-upsell"
 tags:
   - EC
   - 行銷活動

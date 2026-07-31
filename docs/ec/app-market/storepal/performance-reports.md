@@ -39,10 +39,10 @@ features:
   - 業績歸因
   - 推薦人綁定
 prerequisites:
-  - "[門市助理安裝與導入]"
+  - "ec/app-market/storepal/install-and-setup-storepal"
 related:
   - "[功能與帳號設定]"
-  - "[批量匯入顧客門市推薦人]"
+  - "ec/app-market/storepal/bulk-import-customer-referrers"
 tags: 
   - 門市助理
   - 績效報表

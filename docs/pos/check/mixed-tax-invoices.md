@@ -39,7 +39,6 @@ features:
   - 混稅發票
   - 商品稅別設定
 prerequisites:
-  - 
 related: []
 tags:
   - POS 混稅發票

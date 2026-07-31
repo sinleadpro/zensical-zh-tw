@@ -42,9 +42,9 @@ features:
 prerequisites:
   - 需先於 Google Ads 建立廣告活動
 related:
-  - "[[setup-google-merchant-center]]"
-  - "[[setup-google-tag-manager]]"
-  - "[[automated-ads-system]]"
+  - "ec/integrations/google/setup-google-merchant-center"
+  - "ec/integrations/google/setup-google-tag-manager"
+  - "ec/integrations/google/automated-ads-system"
 tags:
   - Google Ads
   - 轉換追蹤

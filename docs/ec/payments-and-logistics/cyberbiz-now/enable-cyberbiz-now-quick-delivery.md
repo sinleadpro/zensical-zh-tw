@@ -43,9 +43,9 @@ features:
 prerequisites:
   - 需完成門市建立且地址填寫正確
 related:
-  - [[複製商品到快速到貨門市]]
-  - [[設定快速到貨前台入口與專區]]
-  - [[快速到貨訂單接單準備]]
+  - "ec/products/copy-products-to-quick-delivery-stores"
+  - "ec/website-appearance/setup-quick-delivery-frontend-entry"
+  - "ec/orders/quick-delivery-order-preparation"
 tags:
   - 快速到貨
   - 門市管理

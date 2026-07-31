@@ -40,9 +40,9 @@ features:
   - 發票離線開立
   - SKU手動輸入
 prerequisites:
-  - [[更新 POS 驅動程式]]
+  - "更新 POS 驅動程式"
 related:
-  - [[POS 網路連線異常與斷線提示說明]]
+  - "POS 網路連線異常與斷線提示說明"
 tags:
   - 離線結帳
   - 斷線應急

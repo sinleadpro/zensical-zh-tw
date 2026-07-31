@@ -41,9 +41,9 @@ prerequisites:
   - 已開通並使用 CYBERBIZ POS
   - 方案需包含圖表分析功能
 related:
-  - "[[omo-analysis-report]]"
-  - "[[product-chart]]"
-  - "[[order-analysis]]"
+  - "ec/business-intelligence/omo-analysis-report"
+  - "ec/business-intelligence/product-chart"
+  - "ec/business-intelligence/order-analysis"
 tags:
   - POS
   - 商品分析

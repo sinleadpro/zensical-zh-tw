@@ -40,7 +40,7 @@ features:
   - 第三方分潤
 prerequisites: []
 related:
-  - "[[auto-close-order-settings]]"
+  - "ec/orders/order-settings/auto-close-order-settings"
 tags:
   - 訂單結案
   - 手動結案

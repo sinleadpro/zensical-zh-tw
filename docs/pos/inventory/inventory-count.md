@@ -42,7 +42,7 @@ features:
   - 盤點單管理
 prerequisites: []
 related:
-  - [[全通路庫存管理]]
+  - "pos/inventory/index"
 tags:
   - 庫存盤點
   - POS 前台操作

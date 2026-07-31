@@ -40,9 +40,9 @@ features:
   - 帳號釋出流程
   - 儲值激活機制
 prerequisites:
-  - "「[[create-meta-ad-account-top-up]]」"
-  - "[[create-meta-ad-account-top-up]]"
-  - "「[[setup-meta-ad-campaign]]」"
+  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
+  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
+  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
 tags:
   - Meta 廣告
   - 閒置帳號

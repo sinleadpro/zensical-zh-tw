@@ -42,8 +42,8 @@ features:
   - 資料欄位設定
 prerequisites: []
 related:
-  - "[[setup-customer-email-phone-verification]]"
-  - "[[customer-registration-modes-reference]]"
+  - "ec/website-management/setup-customer-email-phone-verification"
+  - "ec/website-management/references/customer-registration-modes-reference"
 tags:
   - EC
   - 顧客註冊

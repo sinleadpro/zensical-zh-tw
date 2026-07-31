@@ -38,7 +38,7 @@ features:
   - LINE 整合
   - 訊息格式
 prerequisites: 
-  - "[[Chat Box 訊息通]]"
+  - "ec/app-market/chatbox/index"
 related: []
 tags: 
   - LINE

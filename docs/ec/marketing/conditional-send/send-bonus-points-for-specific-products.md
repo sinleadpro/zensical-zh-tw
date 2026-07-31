@@ -35,7 +35,7 @@ features:
   - 商品群組
   - 商品標籤
 prerequisites:
-  - [[開啟商城紅利點數功能]]
+  - "開啟商城紅利點數功能"
 related: []
 tags: []
 acoiv: configure

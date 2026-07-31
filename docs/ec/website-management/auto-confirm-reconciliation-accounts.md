@@ -42,8 +42,8 @@ features:
 prerequisites: 
   - "需開通 CYBERBIZ PAYMENTS 金流服務"
 related: 
-  - "[[對帳中心管理指南]]"
-  - "[[欠款自動扣繳設定指南]]"
+  - "對帳中心管理指南"
+  - "ec/website-management/auto-deduction-of-arrears"
 tags: 
   - 自動對帳
   - 撥款流程

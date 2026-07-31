@@ -37,7 +37,7 @@ features:
   - 字軌管理
 prerequisites: []
 related:
-  - [[設定與開立 POS 混稅發票]]
+  - "pos/third-party/monolith-e-invoice"
 tags:
   - 盟立電子發票
   - 發票申請

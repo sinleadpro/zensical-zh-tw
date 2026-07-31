@@ -52,9 +52,9 @@ prerequisites:
   - 若需使用訂單取消退貨相關紅利設定，請確認已開通對應加值功能
   - 顧客取消訂單與申請退貨設定僅適用於拖拉版型
 related:
-  - "[[order-auto-close-types-reference]]"
-  - "[[cart-settings]]"
-  - "[[logistics-settings]]"
+  - "ec/orders/references/order-auto-close-types-reference"
+  - "ec/payments-and-logistics/payments/cart-settings"
+  - "ec/payments-and-logistics/payments/logistics-settings"
 tags:
   - 訂單設定
   - 訂單最低消費金額

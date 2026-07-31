@@ -37,10 +37,10 @@ features:
   - 註冊人分潤
 prerequisites: []
 related:
-  - [[設定推薦人分潤方案]]
-  - [[設定註冊人分潤方案]]
-  - [[匯出分潤報表]]
-  - [[查詢分潤夥伴與代碼資訊]]
+  - "設定推薦人分潤方案"
+  - "設定註冊人分潤方案"
+  - "ec/profit-sharing/export-profit-sharing-reports"
+  - "ec/profit-sharing/query-profit-sharing-partners-and-codes"
 tags: []
 acoiv: activate
 apis: []

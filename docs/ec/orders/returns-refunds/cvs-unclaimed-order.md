@@ -43,11 +43,11 @@ features:
   - 部分出貨退款
 prerequisites: []
 related:
-  - "[[return-refund-status-reference]]"
-  - "[[auto-refund-timeline]]"
-  - "[[tcat-quick-store-overdue]]"
-  - "[[cvs-partial-shipping-support]]"
-  - "[[cvs-partial-shipment]]"
+  - "ec/orders/references/return-refund-status-reference"
+  - "ec/orders/references/auto-refund-timeline"
+  - "ec/orders/tcat-quick-store/tcat-quick-store-overdue"
+  - "ec/orders/references/cvs-partial-shipping-support"
+  - "ec/orders/cvs-shipping/cvs-partial-shipment"
 tags:
   - 超商逾期未取
   - 自動退款

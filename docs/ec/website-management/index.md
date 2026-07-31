@@ -95,7 +95,7 @@ hide:
 
     管理後台登入防護與顧客資料保護，從 IP 白名單、自動登出到網站密碼，一頁完成你的網站資安設定。
 
-    [:octicons-arrow-right-24: 前往](security-settings.md)
+    [:octicons-arrow-right-24: 前往](admin-security-settings.md)
 
 -   :lucide-shield: __資安防護總覽與最佳實務__
 

@@ -36,8 +36,8 @@ features:
   - 購物車結帳
 prerequisites: []
 related:
-  - "[[order-management-interface]]"
-  - "[[setup-order-upsell]]"
+  - "ec/orders/basics/order-management-interface"
+  - "ec/marketing/upsells/setup-order-upsell"
 tags:
   - 再次購買
   - 回購

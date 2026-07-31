@@ -40,9 +40,9 @@ features:
   - 移動式POS
   - Webhook回報
 prerequisites:
-  - [[POS 前台登入與基礎操作]]
+  - "POS 前台登入與基礎操作"
 related:
-  - [[POS 網路連線異常與斷線提示說明]]
+  - "POS 網路連線異常與斷線提示說明"
 tags:
   - 商米
   - SUNMI

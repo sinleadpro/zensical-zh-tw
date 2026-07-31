@@ -40,7 +40,7 @@ features:
   - 庫存點收
   - 自動轉單
 prerequisites:
-  - [[進倉單]]
+  - "pos/inventory/inbound-orders"
 related: []
 tags:
   - 進倉流程

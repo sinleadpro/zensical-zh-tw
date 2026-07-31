@@ -44,17 +44,17 @@ features:
   - DHL 跨境物流
 prerequisites: []
 related:
-  - "[[配送狀態對照表]]"
-  - "[[設定訂單部分出貨]]"
-  - "[[處理付款失敗訂單]]"
-  - "[[申請綠界金流與超商取貨付款]]"
-  - "[[使用黑貓宅配出貨]]"
-  - "[[設定與加印黑貓託運單]]"
-  - "[[操作超商店到店 C2C 出貨]]"
-  - "[[使用超商大宗寄倉（B2C）出貨]]"
-  - "[[使用 7-11 C2C 退貨便]]"
-  - "[[補印與加印託運單]]"
-  - "[[DHL 跨境物流]]"
+  - "ec/orders/references/fulfillment-statuses"
+  - "ec/orders/home-delivery/partial-shipment-v2"
+  - "ec/orders/payment-failed"
+  - "ec/payments-and-logistics/apply-for-ecpay-payment-and-cvs-cod"
+  - "ec/orders/home-delivery/tcat-home-delivery-v2"
+  - "ec/payments-and-logistics/setup-print-tcat-waybill-v2"
+  - "ec/orders/cvs-shipping/cvs-c2c-shipping"
+  - "ec/orders/cvs-shipping/cvs-b2c-bulk-shipping"
+  - "ec/orders/returns-refunds/7-11-c2c-return"
+  - "補印與加印託運單"
+  - "ec/payments-and-logistics/dhl-cross-border-logistics"
 tags:
   - 託運單
   - 貨態異常

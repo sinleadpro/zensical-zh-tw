@@ -45,9 +45,9 @@ features:
   - 峰潮串倉退貨
 prerequisites: []
 related:
-  - "[[訂單退貨流程]]"
-  - "[[cvs-c2b-return]]"
-  - "[[訂單退款流程]]"
+  - "ec/orders/order-return-process"
+  - "ec/orders/returns-refunds/cvs-c2b-return"
+  - "ec/orders/order-refund-process"
 tags:
   - 退貨
   - 退貨期限

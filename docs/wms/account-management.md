@@ -34,7 +34,7 @@ features:
   - 角色指派
   - 帳號狀態控管
 prerequisites:
-  - [[權限設定]]
+  - "wms/permission-settings"
 related: []
 tags:
   - 帳號維護

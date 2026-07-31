@@ -39,9 +39,9 @@ features:
   - 綠界串接
   - 自動開立
 prerequisites: 
-  - "[[申請綠界科技帳戶]]"
+  - "申請綠界科技帳戶"
 related: 
-  - "[[管理系統代開消費者發票]]"
+  - "ec/website-management/manage-system-issued-consumer-invoices"
 tags: 
   - 綠界
   - 電子發票

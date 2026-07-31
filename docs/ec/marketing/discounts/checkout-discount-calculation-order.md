@@ -34,8 +34,8 @@ features:
   - 紅利點數
 prerequisites: []
 related: 
-  - "[[了解優惠券與優惠碼的差異]]"
-  - "[[設定紅利點數]]"
+  - "ec/marketing/coupon/index"
+  - "ec/marketing/bonus-and-gifts/setup-bonus-points"
 tags: 
   - 優惠計算
   - 折扣順序

@@ -35,7 +35,7 @@ features:
   - UTM 參數
 prerequisites: []
 related:
-  - "[[export-order-report]]"
+  - "ec/orders/reports/export-order-report"
 tags:
   - 訂單報表
   - 折扣 欄位

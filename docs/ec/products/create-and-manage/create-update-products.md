@@ -53,10 +53,10 @@ features:
   - 物流材積計算
 prerequisites: []
 related:
-  - "[[excel-import-products]]"
-  - "[[edit-product-description-settings]]"
-  - "[[setup-product-videos]]"
-  - "[[setup-back-in-stock-notifications]]"
+  - "ec/products/bulk-operations/excel-import-products"
+  - "ec/products/create-and-manage/edit-product-description-settings"
+  - "ec/products/create-and-manage/setup-product-videos"
+  - "ec/products/engagement/setup-back-in-stock-notifications"
 tags:
   - 商品設定
   - 新增商品

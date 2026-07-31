@@ -35,7 +35,7 @@ features:
   - 紅配綠多組合優惠
   - 組合優惠
 prerequisites:
-  - [[需先準備好欲參與活動的商品]]
+  - "需先準備好欲參與活動的商品"
 related: []
 tags:
   - 多國

@@ -41,7 +41,7 @@ features:
   - 2FA
 prerequisites: []
 related:
-  - "[[setup-manage-two-factor-auth]]"
+  - "ec/website-management/setup-manage-two-factor-auth"
 tags:
   - 二階段驗證
   - Authy

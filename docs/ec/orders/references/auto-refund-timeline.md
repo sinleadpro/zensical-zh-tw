@@ -30,9 +30,9 @@ features:
   - 人工退款
 prerequisites: []
 related:
-  - "[[訂單退款流程]]"
-  - "[[overdue-return-handling]]"
-  - "[[第三方支付訂單人工退款]]"
+  - "ec/orders/order-refund-process"
+  - "ec/orders/returns-refunds/overdue-return-handling"
+  - "ec/orders/manual-refund-for-third-party-payment-orders"
 tags:
   - 自動退刷
   - 退款

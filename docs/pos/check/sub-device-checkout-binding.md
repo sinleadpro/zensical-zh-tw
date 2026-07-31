@@ -37,7 +37,7 @@ features:
   - POS 子機綁定
   - 裝置鎖定機制
 prerequisites:
-  - [[登入 POS 前台系統]]
+  - "pos/store/staff-login"
 related: []
 tags:
   - POS 綁定

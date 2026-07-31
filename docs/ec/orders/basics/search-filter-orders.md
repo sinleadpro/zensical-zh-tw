@@ -44,7 +44,7 @@ features:
   - 適應寬度
 prerequisites: []
 related:
-  - "[[order-filter-status-reference]]"
+  - "ec/orders/references/order-filter-status-reference"
 tags:
   - 訂單搜尋
   - 訂單篩選

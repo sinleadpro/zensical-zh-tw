@@ -41,12 +41,12 @@ features:
   - 高效速成行銷活動
   - 目錄型廣告
 prerequisites:
-  - "[[setup-fbe-authorization]]"
-  - "[[create-meta-ad-account-top-up]]"
+  - "ec/integrations/fb/mbe/setup-fbe-authorization"
+  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
 related:
-  - "[[setup-meta-ad-campaign]]"
-  - "[[meta-ad-performance-analysis]]"
-  - "[[meta-ad-daily-budget-guide]]"
+  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
+  - "ec/integrations/fb/meta-ads/meta-ad-performance-analysis"
+  - "ec/integrations/fb/meta-ads/meta-ad-daily-budget-guide"
 tags:
   - ASC
   - 高效速成行銷活動

@@ -44,7 +44,7 @@ features:
   - 加印託運單
   - 逆物流退貨
 prerequisites:
-  - "[[setup-pelican-waybill-v2]]"
+  - "ec/payments-and-logistics/setup-pelican-waybill-v2"
 tags:
   - 宅配通
   - 出貨

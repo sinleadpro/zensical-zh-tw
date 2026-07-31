@@ -38,8 +38,8 @@ features:
   - 超商取貨
   - C2C 寄件
 prerequisites:
-  - [[申請 ezShip 帳號]]
-  - [[確保會員註冊欄位已將「電子郵件」設為必填]]
+  - "申請 ezShip 帳號"
+  - "確保會員註冊欄位已將「電子郵件」設為必填"
 related: []
 tags: []
 acoiv: configure

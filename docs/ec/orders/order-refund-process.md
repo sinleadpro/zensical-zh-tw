@@ -34,9 +34,9 @@ features:
   - CYBERBIZ PAYMENTS
   - 金流退刷
 prerequisites:
-  - [[商家執行訂單退貨流程]]
+  - "商家執行訂單退貨流程"
 related:
-  - [[訂單退貨流程]]
+  - "ec/orders/order-return-process"
 tags:
   - 退款流程
   - 售後服務

@@ -27,7 +27,7 @@ intents: []
 features: []
 prerequisites: []
 related:
-  - "[[omo-analysis-report]]"
+  - "ec/business-intelligence/omo-analysis-report"
 tags:
   - OMO
   - 全通路

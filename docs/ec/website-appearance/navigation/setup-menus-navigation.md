@@ -44,10 +44,10 @@ features:
   - 頁腳選單與外觀設定
   - 多國語系選單編輯
 prerequisites:
-  - "[[create-update-products]]"
+  - "ec/products/create-and-manage/create-update-products"
 related:
-  - "[[setup-nav-menu-hover-expand]]"
-  - "[[設定首頁商品群組排序]]"
+  - "ec/website-appearance/navigation/setup-nav-menu-hover-expand"
+  - "ec/website-appearance/theme-and-layout/storefront-collection-sorting"
 tags:
   - 網站選單
   - 導覽列設定

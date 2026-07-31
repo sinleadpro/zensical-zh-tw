@@ -38,11 +38,11 @@ features:
   - 重要事件來源追蹤
   - 自動標記
 prerequisites:
-  - "[[setup-google-merchant-center]]"
-  - "[[setup-google-analytics]]"
+  - "ec/integrations/google/setup-google-merchant-center"
+  - "ec/integrations/google/ga/setup-google-analytics"
 related:
-  - "[[setup-google-merchant-center]]"
-  - "[[youtube-shopping-setup-guide]]"
+  - "ec/integrations/google/setup-google-merchant-center"
+  - "ec/integrations/google/youtube-shopping-setup-guide"
 tags:
   - GMC
   - 自動標記

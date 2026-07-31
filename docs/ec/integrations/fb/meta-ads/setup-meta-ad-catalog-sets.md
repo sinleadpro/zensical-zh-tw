@@ -40,11 +40,11 @@ features:
   - 手動更新目錄
   - 商品排除機制
 prerequisites:
-  - "[[setup-fbe-authorization]]"
-  - "[[create-meta-ad-account-top-up]]"
+  - "ec/integrations/fb/mbe/setup-fbe-authorization"
+  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
 related:
-  - "[[setup-meta-ad-campaign]]"
-  - "[[exclude-products-fb-instagram-sync]]"
+  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
+  - "ec/integrations/fb/mbe/exclude-products-fb-instagram-sync"
 tags:
   - Meta Ads
   - Facebook 整合

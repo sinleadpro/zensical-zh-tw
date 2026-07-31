@@ -38,9 +38,9 @@ features:
   - POS 獨賣商品
   - 庫存管理
 prerequisites: 
-  - "[[所有商品-新增商品]]"
+  - "所有商品-新增商品"
 related: 
-  - "[[EXCEL大量匯入商品]]"
+  - "EXCEL大量匯入商品"
 tags: 
   - POS
   - 商品建立

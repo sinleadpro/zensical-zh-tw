@@ -43,8 +43,8 @@ features:
   - 消費分析
 prerequisites: []
 related:
-  - [[會員身份識別]]
-  - [[導購轉化]]
+  - "ec/app-market/storepal/member-identification"
+  - "ec/app-market/storepal/sales-conversion"
 tags:
   - 門市助理
   - 數據洞察

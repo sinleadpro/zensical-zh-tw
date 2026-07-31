@@ -42,9 +42,9 @@ features:
   - 宅配通逆物流
 prerequisites: []
 related:
-  - "[[pelican-shipping-v2]]"
-  - "[[宅配逆物流（黑貓宅配通新竹物流）]]"
-  - "[[points-deposits]]"
+  - "ec/orders/home-delivery/pelican-shipping-v2"
+  - "ec/payments-and-logistics/setup-pelican-waybill-v2"
+  - "ec/website-management/points-deposits"
 tags:
   - 宅配通
   - 配送

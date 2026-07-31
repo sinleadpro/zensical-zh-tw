@@ -41,11 +41,11 @@ features:
   - Google Search Console
   - XML
 prerequisites:
-  - "[[setup-google-search-console]]"
-  - "[[setup-google-analytics]]"
+  - "ec/integrations/google/setup-google-search-console"
+  - "ec/integrations/google/ga/setup-google-analytics"
 related:
-  - "[[setup-google-search-console]]"
-  - "[[seo-guide]]"
+  - "ec/integrations/google/setup-google-search-console"
+  - "ec/website-management/seo/seo-guide"
 tags:
   - Sitemap
   - SEO

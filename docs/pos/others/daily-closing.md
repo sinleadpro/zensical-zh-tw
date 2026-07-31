@@ -36,7 +36,7 @@ features:
 prerequisites:
   - 需先完成當班的所有交易訂單
 related:
-  - [[員工權限與帳號管理]]
+  - "pos/store/staff-permissions-and-account-management"
 tags:
   - 小結
   - 關帳

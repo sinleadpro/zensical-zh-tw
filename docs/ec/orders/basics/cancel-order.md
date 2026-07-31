@@ -39,9 +39,9 @@ features:
   - 訂單自動取消
 prerequisites: []
 related:
-  - "[[訂單退貨流程]]"
-  - "[[訂單退款流程]]"
-  - "[[order-management-interface#order-history]]"
+  - "ec/orders/order-return-process"
+  - "ec/orders/order-refund-process"
+  - "ec/orders/basics/order-management-interface"
 tags:
   - 取消訂單
   - 訂單管理

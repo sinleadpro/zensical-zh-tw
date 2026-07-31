@@ -39,11 +39,11 @@ features:
   - 加印託運單
 prerequisites: []
 related:
-  - "[[啟用部分串倉與拆單]]"
-  - "[[manual-order-close]]"
-  - "[[custom-logistic-shipping]]"
-  - "[[補印與加印託運單]]"
-  - "[[缺貨訂單部分出貨或取消流程]]"
+  - "wms/enable-partial-warehouse-integration-and-order-splitting"
+  - "ec/orders/order-settings/manual-order-close"
+  - "ec/orders/home-delivery/custom-logistic-shipping"
+  - "補印與加印託運單"
+  - "ec/orders/out-of-stock-partial-shipping-or-cancellation"
 tags:
   - 部分出貨
   - 訂單管理

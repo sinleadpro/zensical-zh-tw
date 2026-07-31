@@ -44,8 +44,8 @@ features:
   - 業績歸因
 prerequisites: []
 related:
-  - [[會員身份識別]]
-  - [[會員數據智庫]]
+  - "ec/app-market/storepal/member-identification"
+  - "ec/app-market/storepal/member-data-warehouse"
 tags:
   - 門市助理
   - 價值變現

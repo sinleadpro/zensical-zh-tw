@@ -10,7 +10,7 @@ permalink: "https://help.cyberbiz.io/ec/products/"
 products: [EC]
 notes:
   - 蝦皮商品搬站 link
-  - add doc [[折扣類型指南]]
+  - add doc 折扣類型指南
 hide:
   - feedback
 ---

@@ -39,8 +39,8 @@ features:
   - 庫存管理自動化
 prerequisites:
 related:
-  - "[[edit-product-description-settings]]"
-  - "[[create-update-products]]"
+  - "ec/products/create-and-manage/edit-product-description-settings"
+  - "ec/products/create-and-manage/create-update-products"
 tags:
   - 商品貨到通知
   - 補貨通知

@@ -41,8 +41,8 @@ prerequisites:
   - 方案為企業版
   - 所屬產業為支援類別
 related:
-  - "[[圖表總覽]]"
-  - "[[基準參考範圍狀態對照表]]"
+  - "ec/business-intelligence/business-intelligence-overview"
+  - "ec/business-intelligence/references/benchmark-reference-range-status-reference"
 tags:
   - 基準化分析
   - AI 機器學習

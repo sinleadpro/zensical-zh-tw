@@ -41,7 +41,7 @@ features:
   - 出倉單
 prerequisites: []
 related:
-  - [[出倉完整流程]]
+  - "pos/inventory/outbound-complete-process"
 tags:
   - 出倉單
   - 庫存管理

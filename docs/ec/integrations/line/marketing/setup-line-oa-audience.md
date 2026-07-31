@@ -39,7 +39,7 @@ features:
   - 會員分群
   - LINE Messaging API
 prerequisites:
-  - "[[connect-line-messaging-api]]"
+  - "ec/integrations/line/account-integration/connect-line-messaging-api"
 related: []
 tags:
   - LINE OA

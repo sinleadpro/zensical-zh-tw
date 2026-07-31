@@ -37,9 +37,9 @@ features:
   - 包裹入庫
   - 會員條碼取貨
 prerequisites:
-  - [[門市取貨訂單出貨]]
+  - "ec/orders/store-pickup-orders"
 related:
-  - [[POS 門市取貨店員分潤]]
+  - "pos/store/pos-store-pickup-staff-commission"
 tags:
   - POS 門市取貨
   - 到店入庫

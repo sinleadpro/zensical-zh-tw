@@ -40,9 +40,9 @@ features:
 prerequisites:
   - 已開通 CYBERBIZ 商店後台
 related:
-  - "[[order-analysis-overview-metrics-reference]]"
-  - "[[order-analysis-finance-logistics-reference]]"
-  - "[[order-analysis-report-fields-reference]]"
+  - "ec/business-intelligence/references/order-analysis-overview-metrics-reference"
+  - "ec/business-intelligence/references/order-analysis-finance-logistics-reference"
+  - "ec/business-intelligence/references/order-analysis-report-fields-reference"
 tags:
   - 訂單分析
   - 訂單總體分析

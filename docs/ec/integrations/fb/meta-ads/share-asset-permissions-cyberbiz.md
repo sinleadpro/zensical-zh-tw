@@ -39,9 +39,9 @@ features:
   - Meta Ads
   - 資產權限
 prerequisites:
-  - "[[create-meta-ad-account-top-up]]"
+  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
 related:
-  - "[[setup-meta-ad-campaign]]"
+  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
 tags:
   - Meta Ads
   - 資產權限

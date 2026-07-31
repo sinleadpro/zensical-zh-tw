@@ -39,9 +39,9 @@ prerequisites:
   - 已開通 POS 功能
   - 網站擁有者權限
 related:
-  - "[[訂單相關設定]]"
-  - "[[設定訂單部分出貨]]"
-  - "[[訂單付款狀態對照表]]"
+  - "ec/payments-and-logistics/payments/order-settings"
+  - "ec/orders/home-delivery/partial-shipment-v2"
+  - "ec/orders/references/payment-statuses"
 tags:
   - POS 訂單
   - 自動結案

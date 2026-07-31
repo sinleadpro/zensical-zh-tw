@@ -40,8 +40,8 @@ prerequisites:
   - 了解有效訂單定義
   - 了解新會員與新客的定義差異
 related:
-  - "[[member-analysis]]"
-  - "[[member-overview]]"
+  - "ec/business-intelligence/member-analysis"
+  - "ec/business-intelligence/member-overview"
 tags:
   - 消費顧客分析
   - 新舊客分析

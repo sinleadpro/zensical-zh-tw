@@ -37,12 +37,12 @@ features:
     - 優惠券
     - 庫存管理
 prerequisites: 
-    - [[setup-coupons]]
-    - [[setup-promo-codes]]
+    - "ec/marketing/coupon/setup-coupons"
+    - "ec/marketing/coupon/setup-promo-codes"
 related: 
-    - [[setup-coupons]]
-    - [[setup-promo-codes]]
-    - [[multiple-coupons]]
+    - "ec/marketing/coupon/setup-coupons"
+    - "ec/marketing/coupon/setup-promo-codes"
+    - "ec/marketing/coupon/multiple-coupons"
 tags:
     - 贈品券
     - 優惠券

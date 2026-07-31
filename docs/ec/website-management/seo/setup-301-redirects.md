@@ -41,8 +41,8 @@ features:
   - Excel 匯入
 prerequisites: []
 related:
-  - "[[submit-sitemap-to-gsc]]"
-  - "[[seo-guide]]"
+  - "ec/website-management/seo/submit-sitemap-to-gsc"
+  - "ec/website-management/seo/seo-guide"
 tags:
   - "301"
   - 轉址

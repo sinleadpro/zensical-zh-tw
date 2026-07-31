@@ -41,9 +41,9 @@ features:
   - 部分出貨退款
 prerequisites: []
 related:
-  - "[[cvs-unclaimed-order]]"
-  - "[[auto-refund-timeline]]"
-  - "[[tcat-quick-store-overdue]]"
+  - "ec/orders/returns-refunds/cvs-unclaimed-order"
+  - "ec/orders/references/auto-refund-timeline"
+  - "ec/orders/tcat-quick-store/tcat-quick-store-overdue"
 tags:
   - 超商逾期未取
   - 退貨狀態

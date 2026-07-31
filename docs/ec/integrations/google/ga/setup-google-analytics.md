@@ -43,7 +43,7 @@ features:
   - 資料串流
 prerequisites: []
 related:
-  - "[[google-analytics-advanced-tracking]]"
+  - "ec/integrations/google/ga/google-analytics-advanced-tracking"
 tags:
   - Google Analytics
   - GA4

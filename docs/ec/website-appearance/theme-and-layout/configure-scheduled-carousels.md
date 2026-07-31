@@ -42,7 +42,7 @@ features:
   - Liquid語法嵌入
 prerequisites: []
 related:
-  - "[[theme-editor]]"
+  - "ec/website-appearance/theme-and-layout/theme-editor"
 tags:
   - 排程跑馬燈
   - 橫幅廣告

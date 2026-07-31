@@ -34,7 +34,7 @@ features:
   - 讀取/寫入/刪除維度
 prerequisites: []
 related:
-  - [[帳號管理]]
+  - "wms/account-management"
 tags:
   - 權限設定
   - 角色管理

@@ -32,8 +32,8 @@ features:
   - 優惠碼
 prerequisites: []
 related: 
-  - "[設定優惠券](setup-coupons.md)"
-  - "[[設定優惠碼]]"
+  - "ec/marketing/coupon/setup-coupons"
+  - "ec/marketing/coupon/setup-promo-codes"
 tags: 
   - 優惠券
   - 優惠碼

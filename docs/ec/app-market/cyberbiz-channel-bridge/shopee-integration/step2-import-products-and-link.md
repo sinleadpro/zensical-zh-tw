@@ -39,8 +39,8 @@ features:
   - 全通路管理助手
   - 商品自動關聯
 prerequisites:
-  - [[Step 1 安裝與授權商店]]
-  - [[建議預先整理蝦皮端的 SKU (商品選項貨號)]]
+  - "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate"
+  - "建議預先整理蝦皮端的 SKU (商品選項貨號)"
 related: []
 tags: []
 acoiv: configure

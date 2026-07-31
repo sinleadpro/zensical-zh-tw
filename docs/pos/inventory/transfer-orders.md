@@ -41,7 +41,7 @@ features:
   - 跨店調撥
 prerequisites: []
 related:
-  - [[調倉完整流程]]
+  - "pos/inventory/transfer-complete-process"
 tags:
   - 調倉單
   - 跨店調撥

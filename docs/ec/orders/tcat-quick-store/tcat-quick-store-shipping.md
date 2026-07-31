@@ -46,10 +46,10 @@ prerequisites:
   - 設定黑貓寄件人地址
   - 確認 CYBER 幣餘額
 related:
-  - "[[tcat-home-delivery-v2]]"
-  - "[[tcat-auto-call-driver-v2]]"
-  - "[[補印與加印託運單]]"
-  - "[[partial-shipment-v2]]"
+  - "ec/orders/home-delivery/tcat-home-delivery-v2"
+  - "ec/orders/home-delivery/tcat-auto-call-driver-v2"
+  - "補印與加印託運單"
+  - "ec/orders/home-delivery/partial-shipment-v2"
 tags:
   - 黑貓快速到店
   - 7-11

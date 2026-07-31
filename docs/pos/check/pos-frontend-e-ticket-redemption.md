@@ -39,8 +39,8 @@ features:
 prerequisites: 
   - "需先完成電子票券商品設定"
 related: 
-  - "[[e-ticket-setup-guide]]"
-  - "[[電子票券優惠設定]]"
+  - "ec/e-ticket/e-ticket-setup-guide"
+  - "電子票券優惠設定"
 tags: 
   - POS
   - 電子票券

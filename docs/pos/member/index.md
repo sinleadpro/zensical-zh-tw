@@ -37,7 +37,7 @@ features:
   - 分潤方案
 prerequisites: []
 related:
-  - [[設定推薦人分潤方案]]
+  - "設定推薦人分潤方案"
 tags:
   - POS 會員管理
   - 會員註冊
