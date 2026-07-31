@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Validate Zensical docs frontmatter metadata against metadata-schema.yaml.
+"""Validate Zensical docs frontmatter metadata against frontmatter-schema.yaml.
 
 Usage:
     python scripts/validate_docs.py [files...]
@@ -13,7 +13,7 @@ from pathlib import Path
 import yaml
 
 ROOT = Path(__file__).resolve().parent.parent
-SCHEMA_PATH = ROOT / "metadata-schema.yaml"
+SCHEMA_PATH = ROOT / "frontmatter-schema.yaml"
 DOCS_DIR = ROOT / "docs"
 PERMALINK_BASE_URL = "https://help.cyberbiz.io"
 
