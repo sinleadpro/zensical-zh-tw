@@ -31,7 +31,6 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions:
-  - PAYMENTS
 intents:
   - 申請超商大宗寄倉 B2C 服務
   - 進行測標與驗標

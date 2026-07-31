@@ -28,7 +28,6 @@ plans:
   - 高手
   - 企業
 cyb_extensions:
-  - PAYMENTS
 intents:
   - 執行人工退款操作
   - 手動更新訂單狀態

@@ -32,7 +32,7 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions:
-  - PAYMENTS
+  - CYBERBIZ PAYMENTS
 intents:
   - 如何申請 CYBERBIZ PAYMENTS
   - 申請金流服務

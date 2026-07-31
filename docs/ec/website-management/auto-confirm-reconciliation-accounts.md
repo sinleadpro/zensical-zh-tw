@@ -30,7 +30,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
 cyb_extensions:
-  - - CYBERBIZ PAYMENTS
+  - CYBERBIZ PAYMENTS
 intents: 
   - 設定自動確認帳款
   - 避免漏確認撥款

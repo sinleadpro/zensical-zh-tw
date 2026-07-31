@@ -32,7 +32,7 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions:
-  - PAYMENTS
+  - CYBERBIZ PAYMENTS
 intents:
   - 啟用 PayPal 金流
   - 串接 PayPal 至 CYBERBIZ 後台

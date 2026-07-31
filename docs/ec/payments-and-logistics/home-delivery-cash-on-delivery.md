@@ -25,7 +25,6 @@ difficulty: beginner
 tnb: trunk
 plans: []
 cyb_extensions:
-  - PAYMENTS
 intents:
   - 申請新竹物流串接
   - 設定運費門檻

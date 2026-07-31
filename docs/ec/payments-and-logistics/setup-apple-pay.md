@@ -31,7 +31,7 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions:
-  - PAYMENTS
+  - CYBERBIZ PAYMENTS
 feature_badges: []
 intents:
   - 如何設定 Apple Pay

@@ -31,7 +31,6 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions:
-  - PAYMENTS
 intents:
   - 申請街口支付帳號
   - 串接街口支付金流

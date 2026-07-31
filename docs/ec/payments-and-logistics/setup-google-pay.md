@@ -26,7 +26,7 @@ difficulty: intermediate
 tnb: trunk
 plans: []
 cyb_extensions:
-  - PAYMENTS
+  - CYBERBIZ PAYMENTS
 intents:
   - 開啟_Google_Pay_支付
   - 設定金流使用門檻

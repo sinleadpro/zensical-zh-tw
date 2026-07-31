@@ -33,7 +33,7 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions:
-  - PAYMENTS
+  - CYBERBIZ PAYMENTS
 intents:
   - 設定超商物流串接
   - 開啟超商免運

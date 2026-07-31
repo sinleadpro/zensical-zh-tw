@@ -25,7 +25,7 @@ difficulty: beginner
 tnb: trunk
 plans: []
 cyb_extensions:
-  - PAYMENTS
+  - CYBERBIZ PAYMENTS
 intents:
   - 使用超商條碼繳費
   - 開啟超商條碼付款功能

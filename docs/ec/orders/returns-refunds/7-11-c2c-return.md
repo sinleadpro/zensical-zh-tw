@@ -31,7 +31,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions:
-  - PAYMENTS
 intents:
   - 使用 7-11 C2C 退貨便退貨
 features:

@@ -31,7 +31,7 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions:
-  - PAYMENTS
+  - CYBERBIZ PAYMENTS
 intents:
   - 如何設定 3D 驗證門檻
   - 信用卡安全設定

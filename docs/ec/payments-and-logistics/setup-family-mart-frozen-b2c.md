@@ -28,7 +28,7 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions:
-  - PAYMENTS
+  - CYBERBIZ PAYMENTS
 intents:
   - 申請全家冷凍 B2C 物流服務
   - 設定全家冷凍 B2C 物流功能

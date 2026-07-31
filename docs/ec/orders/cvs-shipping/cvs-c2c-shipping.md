@@ -35,7 +35,7 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions:
-  - PAYMENTS
+  - CYBERBIZ PAYMENTS
 intents:
   - 超商店到店出貨
   - 超商寄件
