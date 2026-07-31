@@ -58,7 +58,7 @@ paths:
   - POS 前台 > 登入
 layouts:
   - 
-wp url:
+wp_url:
   - https://www.cyberbiz.io/support/?p=2915
 permalink: "https://help.cyberbiz.io/pos/store/staff-login/"
 comments: false

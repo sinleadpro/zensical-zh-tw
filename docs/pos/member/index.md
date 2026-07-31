@@ -58,7 +58,7 @@ paths:
   - POS 前台 > 會員
 layouts:
   - 
-wp url:
+wp_url:
   - https://www.cyberbiz.io/support/?p=27954
 permalink: "https://help.cyberbiz.io/pos/member/"
 comments: false

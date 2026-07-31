@@ -58,7 +58,7 @@ paths:
   - POS 功能 > 所有 POS 商店
 layouts:
   - 
-wp url:
+wp_url:
   - https://www.cyberbiz.io/support/?p=27199
   - https://www.cyberbiz.io/support/?p=5231
 permalink: "https://help.cyberbiz.io/pos/store/security-settings/"

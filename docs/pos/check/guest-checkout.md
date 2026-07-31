@@ -57,7 +57,7 @@ paths:
   - POS 前台 > 登入頁面
 layouts:
   - 
-wp url:
+wp_url:
   - https://www.cyberbiz.io/support/?p=12638
 permalink: "https://help.cyberbiz.io/pos/check/guest-checkout/"
 comments: false

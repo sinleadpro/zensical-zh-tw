@@ -59,7 +59,7 @@ paths:
   - 管理後台 > POS > 所有 POS 商店
 layouts:
   - 
-wp url:
+wp_url:
   - https://www.cyberbiz.io/support/?p=25293
 permalink: "https://help.cyberbiz.io/pos/check/sub-device-checkout-binding/"
 comments: false

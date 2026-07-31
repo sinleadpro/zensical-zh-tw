@@ -52,7 +52,7 @@ ui_components: []
 paths: []
 layouts:
   - 
-wp url:
+wp_url:
   - https://www.cyberbiz.io/support/?p=9439
 permalink: "https://help.cyberbiz.io/pos/hardware/"
 comments: false

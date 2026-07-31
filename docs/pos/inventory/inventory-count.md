@@ -63,7 +63,7 @@ paths:
   - POS 後台 > POS 功能 > 盤點單
 layouts:
   - 
-wp url:
+wp_url:
   - https://www.cyberbiz.io/support/?p=39410
 permalink: "https://help.cyberbiz.io/pos/inventory/inventory-count/"
 comments: false
