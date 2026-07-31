@@ -1,8 +1,8 @@
 repos:
   - repo: local
     hooks:
-      - id: validate-docs-metadata
-        name: Validate Zensical docs metadata
+      - id: validate-docs-frontmatter
+        name: Validate Zensical docs frontmatter
         entry: python scripts/validate_docs.py
         language: python
         files: ^docs/.*\.md$
