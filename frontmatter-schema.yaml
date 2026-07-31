@@ -88,7 +88,7 @@ fields:
 
   # === 產品與商業範疇 (Product & Commercial) ===
 
-  # 產品線歸屬，RAG metadata filter
+  # 產品線歸屬
   products:
     type: enum[]
     required: true
@@ -111,13 +111,13 @@ fields:
     required: false
     values: [trunk, branch]
 
-  # 適用方案，RAG metadata filter
+  # 適用方案
   plans:
     type: enum[]
     required: false
     values: [企業, 高手, 高手PLUS, 進階, 進階PLUS, 專業, 專業PLUS, Business, Pro, global_advanced]
 
-  # 官方外掛歸屬，RAG metadata filter
+  # 官方外掛歸屬
   cyb_extensions:
     type: enum[]
     required: false
@@ -137,12 +137,12 @@ fields:
     required: false
     values: [beginner, intermediate, advanced]
 
-  # 搜尋意圖，使用者想解決什麼問題，Embedding context prefix
+  # 搜尋意圖，使用者想解決什麼問題
   intents:
     type: string[]
     required: false
 
-  # 功能特性，文中提到的特定系統功能，Embedding context prefix
+  # 功能特性，文中提到的特定系統功能
   features:
     type: string[]
     required: false
