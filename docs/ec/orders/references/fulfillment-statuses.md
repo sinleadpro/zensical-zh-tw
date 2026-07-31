@@ -44,7 +44,7 @@ wp_url: []
 permalink: "https://help.cyberbiz.io/ec/orders/references/fulfillment-statuses/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide:
 ---

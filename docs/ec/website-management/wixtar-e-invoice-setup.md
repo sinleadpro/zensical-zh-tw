@@ -73,7 +73,7 @@ notes:
   - add doc link [POS – 星益欣(美麗科技)電子發票(https://www.cyberbiz.io/support/?p=46379)
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/receipt
 hide:
 ---

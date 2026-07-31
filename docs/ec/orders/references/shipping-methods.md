@@ -46,7 +46,7 @@ wp_url: []
 permalink: "https://help.cyberbiz.io/ec/orders/references/shipping-methods/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide:
 ---

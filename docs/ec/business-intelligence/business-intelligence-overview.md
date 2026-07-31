@@ -65,7 +65,7 @@ wp_url:
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/business-intelligence-overview/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/gauge
 hide:
 ---

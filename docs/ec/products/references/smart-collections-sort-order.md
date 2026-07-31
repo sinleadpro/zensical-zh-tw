@@ -43,7 +43,7 @@ wp_url: []
 permalink: "https://help.cyberbiz.io/ec/products/references/smart-collections-sort-order/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide:
 ---

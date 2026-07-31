@@ -64,7 +64,7 @@ wp_url:
 permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/adjust-carousel-transition-duration/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/gallery-horizontal
 hide:
 ---

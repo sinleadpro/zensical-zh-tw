@@ -61,7 +61,7 @@ wp_url: []
 permalink: "https://help.cyberbiz.io/ec/orders/references/order-list-features/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide: []
 ---

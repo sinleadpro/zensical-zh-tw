@@ -48,7 +48,7 @@ wp_url: []
 permalink: "https://help.cyberbiz.io/ec/marketing/references/purchase-limit-account-status/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide:
 ---

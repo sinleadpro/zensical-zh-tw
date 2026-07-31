@@ -55,7 +55,7 @@ notes:
   - 電子票券左側選單之後改版
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/percent
 hide:
 permalink: "https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions/"

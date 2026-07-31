@@ -48,7 +48,7 @@ wp_url: []
 permalink: "https://help.cyberbiz.io/ec/orders/references/c2c-return-conditions/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide:
 ---

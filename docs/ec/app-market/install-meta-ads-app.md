@@ -65,7 +65,7 @@ wp_url:
 permalink: "https://help.cyberbiz.io/ec/app-market/install-meta-ads-app/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: simple/meta
 hide: []
 ---

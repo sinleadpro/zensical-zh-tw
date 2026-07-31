@@ -61,7 +61,7 @@ wp_url:
 permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/sync-product-videos-meta-catalog/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/play
 hide:
 ---

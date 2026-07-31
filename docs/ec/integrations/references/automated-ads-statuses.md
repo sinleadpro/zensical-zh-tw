@@ -40,7 +40,7 @@ wp_url: []
 permalink: "https://help.cyberbiz.io/ec/integrations/references/automated-ads-statuses/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide:
 ---

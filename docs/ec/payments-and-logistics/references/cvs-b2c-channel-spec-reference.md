@@ -48,7 +48,7 @@ wp_url: []
 permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/references/cvs-b2c-channel-spec-reference/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide:
 ---

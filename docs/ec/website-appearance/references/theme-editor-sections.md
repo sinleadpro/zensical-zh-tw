@@ -40,7 +40,7 @@ wp_url: []
 permalink: "https://help.cyberbiz.io/ec/website-appearance/references/theme-editor-sections/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide:
 ---

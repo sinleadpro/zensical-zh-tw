@@ -68,7 +68,7 @@ wp_url:
 permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/disable-product-image-zoom/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/zoom-out
 hide: 
 ---

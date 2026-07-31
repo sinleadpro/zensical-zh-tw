@@ -64,7 +64,7 @@ wp_url:
 permalink: "https://help.cyberbiz.io/ec/website-appearance/pages-and-content/custom-pages/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/files
 hide: 
 ---

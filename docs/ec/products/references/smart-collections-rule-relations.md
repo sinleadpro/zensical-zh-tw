@@ -43,7 +43,7 @@ wp_url: []
 permalink: "https://help.cyberbiz.io/ec/products/references/smart-collections-rule-relations/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide:
 ---

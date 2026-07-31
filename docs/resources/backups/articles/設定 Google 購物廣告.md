@@ -59,7 +59,7 @@ notes:
   - update internal links
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/shopping-cart
 tasks:
   - Google Merchant Center

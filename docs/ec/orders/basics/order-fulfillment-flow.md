@@ -59,7 +59,7 @@ notes:
   - verify 批次出貨的確認條件步驟。
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/workflow
 ---
 

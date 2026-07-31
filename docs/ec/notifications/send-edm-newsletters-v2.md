@@ -60,7 +60,7 @@ wp_url:
 permalink: "https://help.cyberbiz.io/ec/notifications/send-edm-newsletters-v2/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/mail-plus
 hide:
 ---

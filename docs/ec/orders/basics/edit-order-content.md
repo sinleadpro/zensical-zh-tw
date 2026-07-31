@@ -71,7 +71,7 @@ wp_url:
 permalink: "https://help.cyberbiz.io/ec/orders/basics/edit-order-content/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/square-pen
 hide:
 ---

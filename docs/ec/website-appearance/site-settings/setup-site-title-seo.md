@@ -63,7 +63,7 @@ wp_url:
 permalink: "https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-site-title-seo/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/search-code
 hide: 
 ---

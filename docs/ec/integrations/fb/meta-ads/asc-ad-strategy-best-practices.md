@@ -67,7 +67,7 @@ wp_url:
 permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/asc-ad-strategy-best-practices/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/megaphone
 hide:
 ---

@@ -51,7 +51,7 @@ notes:
   - 預購商品不受 90 天出貨限制
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: ""
 permalink: "https://help.cyberbiz.io/resources/backups/articles/AFTEE先享後付 金流說明/"
 ---

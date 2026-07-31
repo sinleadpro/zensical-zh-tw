@@ -47,7 +47,7 @@ wp_url:
 permalink: "https://help.cyberbiz.io/ec/website-management/references/admin-permissions-menu-reference/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table-properties
 hide:
 ---

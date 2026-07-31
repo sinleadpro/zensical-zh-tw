@@ -62,7 +62,7 @@ wp_url:
 permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/meta-ad-idle-account-reclaim/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/user-x
 hide:
 ---

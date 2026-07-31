@@ -66,7 +66,7 @@ wp_url:
 permalink: "https://help.cyberbiz.io/ec/integrations/google/google-safe-browsing-security-check/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/shield-alert
 hide:
 ---

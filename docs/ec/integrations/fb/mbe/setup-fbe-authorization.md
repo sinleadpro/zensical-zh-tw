@@ -64,7 +64,7 @@ wp_url:
 permalink: "https://help.cyberbiz.io/ec/integrations/fb/mbe/setup-fbe-authorization/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/share-2
 hide:
 ---

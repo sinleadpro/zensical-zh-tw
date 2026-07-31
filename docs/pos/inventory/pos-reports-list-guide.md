@@ -52,7 +52,7 @@ wp_url:
 permalink: "https://help.cyberbiz.io/pos/inventory/pos-reports-list-guide/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/chart-bar
 hide:
 ---
