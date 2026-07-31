@@ -20,7 +20,7 @@ sites:
   - TW
 audiences:
   - merchant
-difficulty: beingger
+difficulty: beginner
 tnb: trunk
 plans:
   - 企業

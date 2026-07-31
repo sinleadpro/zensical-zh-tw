@@ -41,7 +41,7 @@ sites:
   - TW
 status: update
 tags: []
-difficulty: easy
+difficulty: beginner
 audiences:
   - merchant
 wp_url:

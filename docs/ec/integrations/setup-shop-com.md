@@ -22,7 +22,7 @@ sites:
   - TW
 audiences:
   - merchant
-difficulty: medium
+difficulty: intermediate
 tnb: branch
 plans:
   - 進階

@@ -48,7 +48,7 @@ tags:
   - Google
   - GMC
   - 購物廣告
-difficulty: medium
+difficulty: intermediate
 audiences:
   - merchant
 wp_url:

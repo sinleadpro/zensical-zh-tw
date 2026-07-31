@@ -22,7 +22,7 @@ sites: []
 audiences:
   - merchant
   - merchant
-difficulty: medium
+difficulty: intermediate
 tnb: trunk
 plans:
   - 專業

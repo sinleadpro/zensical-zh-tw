@@ -21,7 +21,7 @@ modules:
 sites: []
 audiences:
   - merchant
-difficulty: medium
+difficulty: intermediate
 tnb: branch
 plans:
   - 專業PLUS

@@ -45,7 +45,7 @@ tags:
   - 電子票券
   - 任選折扣
   - 優惠活動
-difficulty: medium
+difficulty: intermediate
 audiences: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5812

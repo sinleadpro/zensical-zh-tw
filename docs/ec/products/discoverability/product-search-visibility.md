@@ -58,7 +58,7 @@ tags:
   - 站內搜尋
   - 商品管理
   - 商品設定
-difficulty: low
+difficulty: beginner
 audiences:
   - merchant
   - merchant
