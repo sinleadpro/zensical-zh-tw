@@ -192,6 +192,7 @@ def validate_field(value, field_def, field_name, filepath, schema):
 
 
 def validate_file(filepath: Path, schema):
+    filepath = filepath.resolve()
     fm, _ = parse_frontmatter(filepath)
     if fm is None:
         return [("[frontmatter] missing or invalid YAML", "ERROR")]

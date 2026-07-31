@@ -1,0 +1,13 @@
+repos:
+  - repo: local
+    hooks:
+      - id: validate-docs-metadata
+        name: Validate Zensical docs metadata
+        entry: python scripts/validate_docs.py
+        language: python
+        files: ^docs/.*\.md$
+        pass_filenames: true
+        additional_dependencies:
+          - pyyaml>=6.0.0
+          - python-frontmatter>=1.0.0
+          - jsonschema>=4.0.0
