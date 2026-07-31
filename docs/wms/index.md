@@ -10,7 +10,6 @@ lang: zh-TW
 permalink: "https://help.cyberbiz.io/wms/"
 hide:
   - toc
-  - path
   - feedback
 ---
 

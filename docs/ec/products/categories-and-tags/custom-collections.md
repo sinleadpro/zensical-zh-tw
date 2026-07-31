@@ -12,7 +12,7 @@ reviewers: []
 notes:
   - verify FAQ
   - update internal links
-  - next steps 整合串接: POS 前台選單設定 link
+  - "next steps 整合串接: POS 前台選單設定 link"
 ga_views: 0
 feedback: 0
 products:

@@ -51,7 +51,7 @@ tags:
   - LINE OA 串接
   - 名單匯出
   - 會員標籤
-acoiv: operate
+acoiv: operation
 apis: []
 devices:
   - desktop

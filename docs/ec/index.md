@@ -9,7 +9,6 @@ products: [EC]
 notes: []
 hide:
   - toc
-  - path
   - feedback
 permalink: "https://help.cyberbiz.io/ec/"
 ---

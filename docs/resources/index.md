@@ -8,7 +8,6 @@ lang: zh-TW
 notes: []
 hide:
   - toc
-  - path
   - feedback
 permalink: "https://help.cyberbiz.io/resources/"
 ---

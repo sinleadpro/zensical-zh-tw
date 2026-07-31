@@ -57,8 +57,8 @@ tags:
   - 快速設定
 icon: lucide/rocket
 hide:
-search: 
-  exclude: 
+search:
+  exclude: false
 ---
 
 本指南將帶您從基本資訊填寫、網域設定、金物流串接、商品上架、網站外觀設計，一路到行銷活動、第三方整合與訂單管理，協助您快速完成 CYBERBIZ EC 網站的初步設定。

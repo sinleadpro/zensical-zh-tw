@@ -7,7 +7,7 @@ lang: zh-TW
 type: tutorial
 status: update
 author: Jase
-version: 1
+version: "1"
 reviewers: []
 notes: []
 ga_views: 0

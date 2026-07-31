@@ -49,7 +49,7 @@ tags:
   - 訊息規範
   - 檔案限制
   - ChatBox
-acoiv: reference
+acoiv: integration
 apis: []
 devices: 
   - desktop

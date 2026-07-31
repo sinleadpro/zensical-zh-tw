@@ -15,8 +15,7 @@ ga_views: 0
 feedback: 0
 products:
   - POS
-modules:
-  - 
+modules: []
 sites:
   - TW
 audiences:
