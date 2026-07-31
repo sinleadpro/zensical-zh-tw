@@ -2,7 +2,7 @@
 title: 使用 Meta 廣告成效分析
 description: 透過 Meta Ads App 掌握廣告成效數據，分析指標，並使用 AI Insights 獲取數據洞察與優化建議。
 created: 2026-04-21 11:29
-last_modified: 2026-07-03T11:45:03+08:00
+last_modified: 2026-07-03 11:45
 lang: zh-TW
 type: tutorial
 status: update

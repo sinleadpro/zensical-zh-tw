@@ -1,8 +1,8 @@
 ---
 title: 前台可退貨天數對照表
 description: 彙整退貨時間調整設定中各出貨方式的預設可退貨天數與計算起點，供結帳頁與金物流相關設定引用。
-created: 2026-06-16
-last_modified: 2026-07-06T17:33:13+08:00
+created: 2026-06-16 00:00
+last_modified: 2026-07-06 17:33
 lang: zh-TW
 type: reference
 status: update

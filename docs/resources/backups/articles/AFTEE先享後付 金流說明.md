@@ -3,7 +3,7 @@ title: "AFTEE先享後付 金流說明"
 version: ""
 author: ""
 reviewers: []
-last_modified: "2024-05-23"
+last_modified: 2024-05-23 00:00
 description: "提供 AFTEE 先享後付金流的申請流程、消費者付款步驟及後台設定說明。"
 products:
   - EC

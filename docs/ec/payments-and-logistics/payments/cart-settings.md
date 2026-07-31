@@ -1,7 +1,7 @@
 ---
 title: 購物車相關設定
 description: 調整顧客在正式結帳前的購物車行為，包含購物車啟用、未結帳提醒、優惠券設定、額外資訊欄位與定期定額購物車設定。
-created: 2026-06-16
+created: 2026-06-16 00:00
 last_modified: 2026-07-09 12:16
 lang: zh-TW
 type: tutorial

@@ -1,7 +1,7 @@
 ---
 title: 全站功能與業績歸因設定
 description: 協助總部管理者配置全品牌統一的門市助理功能開關，並引導各級管理員設定個別門市的業績歸因層級。
-created: 2026-06-22  10:11
+created: 2026-06-22 10:11
 last_modified: 2026-06-22 10:11
 lang: zh-TW
 type: tutorial

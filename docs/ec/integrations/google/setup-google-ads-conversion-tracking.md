@@ -2,7 +2,7 @@
 title: 設定 Google Ads 轉換追蹤
 description: 設定 Google Ads 轉換追蹤與再行銷功能，追蹤廣告成效並優化投放策略。
 created: 2026-03-25 11:23
-last_modified: 2026-07-03T11:45:00+08:00
+last_modified: 2026-07-03 11:45
 lang: zh-TW
 type: tutorial
 status: update

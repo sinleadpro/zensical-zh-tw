@@ -1,7 +1,7 @@
 ---
 title: 物流相關設定
 description: 調整配送過程中的細節規範與顧客可指定的送貨偏好，包含超商取貨姓名與離島、出貨明細列印、指定配送日期/時段、退貨天數。
-created: 2026-06-16
+created: 2026-06-16 00:00
 last_modified: 2026-07-09 11:20
 lang: zh-TW
 type: tutorial

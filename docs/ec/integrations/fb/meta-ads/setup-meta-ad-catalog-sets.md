@@ -2,7 +2,7 @@
 title: 設定 Meta 廣告的目錄商品組合
 description: 透過 CYBERBIZ Meta Ads App 建立目錄商品組合，篩選特定商品並投放到 Meta 目錄型或圖片型廣告。
 created: 2026-04-20 21:10
-last_modified: 2026-07-03T11:45:03+08:00
+last_modified: 2026-07-03 11:45
 lang: zh-TW
 type: tutorial
 status: update

@@ -1,7 +1,7 @@
 ---
 title: 購物車未結帳提醒管道對照表
 description: 彙整顧客購物車未結帳商品自動提醒可使用的通知管道與開通條件，供結帳頁與金物流相關設定引用。
-created: 2026-06-16
+created: 2026-06-16 00:00
 last_modified: 2026-06-27 22:03
 lang: zh-TW
 type: reference

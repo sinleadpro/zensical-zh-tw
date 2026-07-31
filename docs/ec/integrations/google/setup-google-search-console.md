@@ -2,7 +2,7 @@
 title: 註冊並驗證 Google Search Console
 description: 在 Google Search Console 註冊並驗證網站擁有權，以監測網站搜尋表現。
 created: 2026-03-20 14:28
-last_modified: 2026-07-03T11:44:40+08:00
+last_modified: 2026-07-03 11:44
 lang: zh-TW
 type: tutorial
 status: update

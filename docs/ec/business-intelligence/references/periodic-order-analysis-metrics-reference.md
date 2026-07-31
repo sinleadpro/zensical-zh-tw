@@ -1,7 +1,7 @@
 ---
 title: 定期定額分析指標定義對照表
 description: 說明「定期定額分析」頁面上各項數據卡與圖表的指標意義與定義。
-created: 2026-06-16
+created: 2026-06-16 00:00
 last_modified: 2026-07-12 20:30
 lang: zh-TW
 type: reference

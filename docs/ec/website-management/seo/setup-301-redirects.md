@@ -2,7 +2,7 @@
 title: 設定 301 重定向網站轉址
 description: 設定 301 轉址，當網頁網址失效或變更時將流量導向新網址，以維護 SEO 排名。
 created: 2026-03-20 13:59
-last_modified: 2026-07-03T11:44:11+08:00
+last_modified: 2026-07-03 11:44
 lang: zh-TW
 type: tutorial
 status: update

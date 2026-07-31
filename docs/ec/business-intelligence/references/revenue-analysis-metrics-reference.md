@@ -1,8 +1,8 @@
 ---
 title: 營收分析指標定義對照表
 description: 營收分析頁面各項數據卡與營收總覽圖表的指標意義與計算基礎對照，含總營收、毛利、成長率等定義。
-created: 2026-06-15
-last_modified: 2026-06-15
+created: 2026-06-15 00:00
+last_modified: 2026-06-15 00:00
 lang: zh-TW
 type: reference
 status: update

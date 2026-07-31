@@ -1,7 +1,7 @@
 ---
 title: 訂單分析
 description: 使用訂單分析頁面查看銷售趨勢、金物流偏好與業績報表
-created: 2026-06-15
+created: 2026-06-15 00:00
 last_modified: 2026-07-10 13:12
 lang: zh-TW
 type: tutorial

@@ -1,7 +1,7 @@
 ---
 title: 免運費設定
 description: 透過全館門檻、指定商品等多種方式，設定符合行銷策略的免運優惠，提升顧客下單意願與客單價。
-created: 2026-07-15
+created: 2026-07-15 00:00
 last_modified: 2026-07-16 08:54
 lang: zh-TW
 type: tutorial

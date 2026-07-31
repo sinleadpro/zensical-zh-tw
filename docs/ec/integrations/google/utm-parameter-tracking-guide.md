@@ -2,7 +2,7 @@
 title: 使用 UTM 參數追蹤行銷流量與分析成效
 description: 使用 UTM 參數標記行銷連結，追蹤流量來源並在 GA4 中分析各渠道成效。
 created: 2026-03-25 19:22
-last_modified: 2026-07-03T11:44:54+08:00
+last_modified: 2026-07-03 11:44
 lang: zh-TW
 type: tutorial
 status: update

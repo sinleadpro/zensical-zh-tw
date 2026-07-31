@@ -1,7 +1,7 @@
 ---
 title: 訂單總體分析指標對照
 description: 訂單總體分析分頁中各項關鍵指標與趨勢圖的定義對照
-created: 2026-06-15
+created: 2026-06-15 00:00
 last_modified: 2026-07-10 11:35
 lang: zh-TW
 type: reference

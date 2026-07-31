@@ -3,7 +3,7 @@ title: 星益欣電子發票設定
 version: ""
 author: Jase
 reviewers: []
-last_modified: 2026-07-03T11:44:08+08:00
+last_modified: 2026-07-03 11:44
 description: 教您在 CYBERBIZ 後台完成星益欣電子發票的購買、串接啟用、多站台共用與對帳發票設定。
 permalink: "https://help.cyberbiz.io/ec/website-management/wixtar-e-invoice-setup/"
 modules:

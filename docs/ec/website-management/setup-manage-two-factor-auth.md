@@ -2,7 +2,7 @@
 title: 設定與管理二階段驗證
 description: 啟用與管理二階段驗證（2FA），包含驗證器綁定、備用碼使用，以及員工驗證重設與強制啟用。
 created: 2026-03-16 20:06
-last_modified: 2026-07-03T11:44:09+08:00
+last_modified: 2026-07-03 11:44
 lang: zh-TW
 type: tutorial
 status: update

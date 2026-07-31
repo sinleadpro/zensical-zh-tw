@@ -1,7 +1,7 @@
 ---
 title: 行銷活動分析
 description: 一次掌握折扣、優惠券與紅利的成效，了解哪些行銷活動真正帶動訂單與營收
-created: 2026-06-16
+created: 2026-06-16 00:00
 last_modified: 2026-07-12 19:37
 lang: zh-TW
 type: tutorial

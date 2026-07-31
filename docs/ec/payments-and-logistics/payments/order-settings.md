@@ -1,7 +1,7 @@
 ---
 title: 訂單相關設定
 description: 設定訂單成立的金額門檻、未付款與付款失敗提醒、自動結案與自動取消規則、顧客前台取消退貨權限，以及訂單明細與揀貨單的列印內容。
-created: 2026-06-16
+created: 2026-06-16 00:00
 last_modified: 2026-07-09 11:41
 lang: zh-TW
 type: tutorial

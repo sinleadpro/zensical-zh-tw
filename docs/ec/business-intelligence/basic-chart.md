@@ -1,7 +1,7 @@
 ---
 title: 基本報表
 description: 在後台一頁掌握商店銷售與流量概況，包含商品銷售排行、訂單數量、總銷售額及近七日瀏覽人次。
-created: 2026-06-21
+created: 2026-06-21 00:00
 last_modified: 2026-07-13 09:00
 lang: zh-TW
 type: tutorial

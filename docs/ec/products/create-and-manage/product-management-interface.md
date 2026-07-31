@@ -2,7 +2,7 @@
 title: 商品管理介面總覽
 description: 快速了解 CYBERBIZ 商品管理後台功能，搜尋、篩選、批次操作與商品可見性設定。
 created: 2026-06-14 13:09
-last_modified: 2026-07-03T11:44:47+08:00
+last_modified: 2026-07-03 11:44
 lang: zh-TW
 type: quickstart
 status: update

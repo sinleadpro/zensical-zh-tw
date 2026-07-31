@@ -1,7 +1,7 @@
 ---
 title: 商品圖表指標對照表
 description: 認識商品圖表的三項核心指標：瀏覽數、購買數、成交率，以及計算方式與使用限制。
-created: 2026-06-21
+created: 2026-06-21 00:00
 last_modified: 2026-07-12 20:49
 lang: zh-TW
 type: reference

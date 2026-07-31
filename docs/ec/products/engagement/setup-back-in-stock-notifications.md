@@ -2,7 +2,7 @@
 title: 設定商品到貨通知
 description: 學習如何開啟商品貨到通知功能，當缺貨商品補庫存時，系統將自動發送 Email 提醒已登記追蹤的顧客，提升回購率。
 created: 2026-03-05 14:20
-last_modified: 2026-07-03T11:44:11+08:00
+last_modified: 2026-07-03 11:44
 lang: zh-TW
 type: tutorial
 status: update

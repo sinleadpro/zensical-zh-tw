@@ -2,7 +2,7 @@
 title: 運送溫層對照表
 description: ""
 created: 2026-06-05 13:49
-last_modified: 2026-07-06T17:32:14+08:00
+last_modified: 2026-07-06 17:32
 lang: zh-TW
 type: reference
 status: update

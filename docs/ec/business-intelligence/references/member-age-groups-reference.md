@@ -1,7 +1,7 @@
 ---
 title: 會員年齡分群對照表
 description: 會員總覽分頁中會員年齡分群區間的統計分類對照，包含各年齡層定義及未填寫生日的處理方式。
-created: 2026-06-16
+created: 2026-06-16 00:00
 last_modified: 2026-07-10 14:24
 lang: zh-TW
 type: reference
