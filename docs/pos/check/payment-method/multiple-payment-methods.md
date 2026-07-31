@@ -34,7 +34,7 @@ intents:
   - 拆分訂單支付金額
   - 設定不累計紅利的付款方式
 features:
-  - POS_多付款方式
+  - POS 多付款方式
   - 紅利累計規則
   - 補差額功能
 prerequisites:

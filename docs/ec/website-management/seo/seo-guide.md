@@ -38,10 +38,10 @@ intents:
   - "商品頁_SEO"
 features:
   - "SEO"
-  - "Meta_Tag"
-  - "ALT_屬性"
+  - "Meta Tag"
+  - "ALT 屬性"
   - "Sitemap"
-  - "301_轉址"
+  - "301 轉址"
 prerequisites: []
 related:
   - "[[submit-sitemap-to-gsc]]"

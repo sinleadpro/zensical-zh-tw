@@ -38,7 +38,7 @@ intents:
   - 顧客到店取貨
 features:
   - 門市取貨
-  - POS_門市取貨
+  - POS 門市取貨
   - 店員分潤
 prerequisites: []
 related:

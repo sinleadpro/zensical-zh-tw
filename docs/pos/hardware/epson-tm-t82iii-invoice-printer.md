@@ -36,7 +36,7 @@ intents:
   - 調整發票列印寬度
 features:
   - 發票機串接
-  - TM_Virtual_Port_Driver
+  - TM Virtual Port Driver
   - 58mm發票列印
   - 自動裁刀
 prerequisites: []

@@ -33,13 +33,13 @@ intents:
     - POS 前台彈性改價
     - 管理 POS 店員改價權限
 features: 
-    - POS_整筆訂單折扣
+    - POS 整筆訂單折扣
     - 店長改價權限
     - 改價備註記錄
 prerequisites: []
 related: []
 tags: 
-    - POS_折扣
+    - POS 折扣
     - 整筆改價
     - 權限管理
     - 結帳優惠

@@ -38,11 +38,11 @@ intents:
   - 匯出商品期間報表
 features:
   - 商品銷售概況
-  - 商品銷量_TOP_10_/_LAST_10
+  - 商品銷量 TOP 10 / LAST 10
   - 商品回購頻率
   - 無銷量商品清單
   - 商品期間別購買狀況
-  - Excel_匯出
+  - Excel 匯出
 prerequisites:
   - 方案需包含「圖表分析」功能
   - 需有實際訂單資料

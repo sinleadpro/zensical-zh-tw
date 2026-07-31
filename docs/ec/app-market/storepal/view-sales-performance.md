@@ -34,7 +34,7 @@ intents:
   - 分析綁定會員數
   - 核對業績歸因
 features:
-  - 門市助理_業績報表
+  - 門市助理 業績報表
   - 業績歸因
 prerequisites: []
 related: []

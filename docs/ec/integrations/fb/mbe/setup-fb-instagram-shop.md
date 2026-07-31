@@ -36,8 +36,8 @@ intents:
   - 設定_IG_商店
   - Facebook_Instagram_商店同步
 features:
-  - Facebook_商店
-  - Instagram_商店
+  - Facebook 商店
+  - Instagram 商店
   - 商品同步
 prerequisites:
   - "[[setup-fbe-authorization]]"

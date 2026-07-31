@@ -35,8 +35,8 @@ intents:
   - 設定_LINE_直播
   - LINE_直播購物
 features:
-  - LINE_直播
-  - LINE_購物
+  - LINE 直播
+  - LINE 購物
 prerequisites: []
 related: []
 tags:

@@ -38,7 +38,7 @@ intents:
 features: 
   - 自動確認帳款
   - 對帳中心
-  - CYBERBIZ_PAYMENTS
+  - CYBERBIZ PAYMENTS
 prerequisites: 
   - "需開通 CYBERBIZ PAYMENTS 金流服務"
 related: 

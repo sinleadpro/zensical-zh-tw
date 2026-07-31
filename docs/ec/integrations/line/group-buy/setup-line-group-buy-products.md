@@ -33,7 +33,7 @@ intents:
   - LINE_團購商品管理
   - 團購價設定
 features:
-  - LINE_團購
+  - LINE 團購
   - 團購商品分類
   - 團購價
 prerequisites:

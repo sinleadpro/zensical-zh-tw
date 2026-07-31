@@ -31,7 +31,7 @@ intents:
   - 處理發票作廢與折讓
 features:
   - 訂單退款
-  - CYBERBIZ_PAYMENTS
+  - CYBERBIZ PAYMENTS
   - 金流退刷
 prerequisites:
   - [[商家執行訂單退貨流程]]

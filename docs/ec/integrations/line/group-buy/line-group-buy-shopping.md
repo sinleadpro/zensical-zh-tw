@@ -30,7 +30,7 @@ intents:
   - LINE_團購操作流程
   - LINE_團購結帳
 features:
-  - LINE_團購
+  - LINE 團購
   - 團購機器人
   - LIFF
   - 購物車

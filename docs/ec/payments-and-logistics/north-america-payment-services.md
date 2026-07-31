@@ -33,7 +33,7 @@ intents:
   - 配置購物車結帳規則
 features:
   - 北美站
-  - Stripe_支付
+  - Stripe 支付
   - PayPal
   - 電子錢包支付
 prerequisites: []

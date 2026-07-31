@@ -34,8 +34,8 @@ intents:
   - 了解_LINE_檔案限制
   - LINE_客服規格
 features: 
-  - Chat_Box
-  - LINE_整合
+  - Chat Box
+  - LINE 整合
   - 訊息格式
 prerequisites: 
   - "[[Chat Box 訊息通]]"

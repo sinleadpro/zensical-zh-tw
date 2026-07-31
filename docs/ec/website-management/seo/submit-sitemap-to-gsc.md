@@ -38,7 +38,7 @@ intents:
   - SEO_優化
 features:
   - Sitemap
-  - Google_Search_Console
+  - Google Search Console
   - XML
 prerequisites:
   - "[[setup-google-search-console]]"

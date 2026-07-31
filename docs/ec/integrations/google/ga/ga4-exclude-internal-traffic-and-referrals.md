@@ -39,7 +39,7 @@ intents:
   - "提升_GA4_數據準確度"
   - "設定_GA4_資料篩選器"
 features:
-  - "Google_Analytics_4"
+  - "Google Analytics 4"
   - "資料串流"
   - "資料篩選器"
   - "內部流量"

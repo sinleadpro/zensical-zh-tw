@@ -28,9 +28,9 @@ intents:
   - 解決_Cloudflare_SSL_衝突
   - 關閉_Cloudflare_Proxy
 features:
-  - SSL_憑證
+  - SSL 憑證
   - 網域管理
-  - DNS_設定
+  - DNS 設定
 prerequisites:
   - [[需具備 Cloudflare 帳戶管理權限]]
   - [[網域已完成 Cloudflare 代管設定]]

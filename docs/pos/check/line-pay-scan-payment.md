@@ -35,7 +35,7 @@ intents:
   - POS前台LINE_Pay結帳教學
   - LINE_Pay手續費查詢
 features:
-  - LINE_Pay_掃碼支付
+  - LINE Pay 掃碼支付
   - 行動支付
   - 商店立牌
   - 自動對帳

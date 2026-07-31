@@ -35,10 +35,10 @@ intents:
   - 同步_LINE_對話至_Chat_Box
   - 設定_LINE_Messaging_API
 features:
-  - Chat_Box
-  - LINE_整合
-  - Messaging_API
-  - Webhook_設定
+  - Chat Box
+  - LINE 整合
+  - Messaging API
+  - Webhook 設定
 prerequisites:
   - 需擁有 LINE 官方帳號管理員權限
 related:

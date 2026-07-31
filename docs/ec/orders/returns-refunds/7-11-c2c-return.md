@@ -34,7 +34,7 @@ cyb_extensions:
 intents:
   - 使用 7-11 C2C 退貨便退貨
 features:
-  - 7-11_C2C_退貨便
+  - 7-11 C2C 退貨便
 prerequisites:
   - 需先向 CYBERBIZ 客服申請開通「7-ELEVEN C2C 退貨便」加值功能
 related:

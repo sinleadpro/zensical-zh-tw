@@ -34,11 +34,11 @@ intents:
   - LIFF_設定
   - Webhook_設定
 features:
-  - LINE_團購機器人
-  - Messaging_API
+  - LINE 團購機器人
+  - Messaging API
   - Webhook
   - LIFF
-  - LINE_Provider
+  - LINE Provider
 prerequisites: []
 related:
   - 團購商品設定

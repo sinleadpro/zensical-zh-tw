@@ -32,7 +32,7 @@ intents:
 features:
   - 澳洲落地版
   - 跨境金流
-  - Airwallex_收單
+  - Airwallex 收單
 prerequisites:
   - 需為澳洲落地版商家
   - 需先聯繫開店顧問取得申請連結

@@ -32,7 +32,7 @@ intents:
 features: 
   - 欠款自動扣繳
   - 對帳中心
-  - CYBERBIZ_PAYMENTS
+  - CYBERBIZ PAYMENTS
 prerequisites: 
   - "需開通 CYBERBIZ PAYMENTS 金流服務"
 related: []

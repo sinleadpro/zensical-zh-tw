@@ -34,8 +34,8 @@ intents:
   - 了解_Facebook_檔案限制
   - Meta_客服規格
 features: 
-  - Chat_Box
-  - Meta_整合
+  - Chat Box
+  - Meta 整合
   - 訊息格式
 prerequisites: 
   - "[[Chat Box 訊息通]]"

@@ -28,7 +28,7 @@ intents:
   - 診斷_HTTPS_連線問題
   - 執行網域移轉流程
 features:
-  - SSL_憑證
+  - SSL 憑證
   - 根網域轉址
   - 網域移轉
 prerequisites:

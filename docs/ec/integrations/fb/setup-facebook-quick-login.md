@@ -36,11 +36,11 @@ intents:
   - 建立_Meta_應用程式
   - 完成商家驗證
 features:
-  - Facebook_快速登入
-  - Meta_應用程式
+  - Facebook 快速登入
+  - Meta 應用程式
   - 商家驗證
   - 應用程式審查
-  - OAuth_重新導向
+  - OAuth 重新導向
 prerequisites: []
 related:
   - "[[setup-line-quick-login]]"

@@ -29,7 +29,7 @@ intents:
   - 管理_EC_訂單關聯
 features: 
   - 複製訂單
-  - 關聯_EC_平台
+  - 關聯 EC 平台
 prerequisites: []
 related: []
 tags: 

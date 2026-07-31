@@ -33,8 +33,8 @@ intents:
   - 配置_IP_白名單
   - 監控_POS_訂單來源
 features:
-  - POS_安全性設定
-  - IP_白名單
+  - POS 安全性設定
+  - IP 白名單
   - 跨店資料權限
 prerequisites: []
 related:

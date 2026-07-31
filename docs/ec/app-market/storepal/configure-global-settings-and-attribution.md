@@ -36,7 +36,7 @@ features:
   - 門市助理
   - 權限管理
   - 業績歸因
-  - QR_Code
+  - QR Code
 prerequisites: []
 related: []
 tags:

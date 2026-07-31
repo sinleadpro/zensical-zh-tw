@@ -38,9 +38,9 @@ intents:
   - 調整資料保留期限
   - 報表識別資訊設定
 features:
-  - Google_Analytics_4
+  - Google Analytics 4
   - 加強型評估
-  - Google_信號
+  - Google 信號
   - 資料保留
   - 報表識別資訊
 prerequisites:

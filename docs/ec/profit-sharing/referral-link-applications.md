@@ -35,7 +35,7 @@ intents:
   - 測試推薦連結
 features:
   - 推薦人分潤
-  - UTM_追蹤
+  - UTM 追蹤
 prerequisites: []
 related: []
 tags:

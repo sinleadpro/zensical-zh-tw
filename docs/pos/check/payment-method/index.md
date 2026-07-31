@@ -33,7 +33,7 @@ intents:
   - 串接信用卡機
   - 設定行動支付
 features:
-  - POS_付款方式
+  - POS 付款方式
   - 信用卡機串接
   - 多付款方式
 prerequisites: []

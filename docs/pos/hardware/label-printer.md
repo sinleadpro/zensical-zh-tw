@@ -36,8 +36,8 @@ intents:
   - 標籤機碳帶安裝教學
 features:
   - 商品標籤列印
-  - TSC_TTP-323
-  - POS_APP_整合
+  - TSC TTP-323
+  - POS APP 整合
   - 條碼標籤
 prerequisites:
   - 設定 POS 商店與機台

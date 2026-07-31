@@ -31,7 +31,7 @@ intents:
   - LINE_團購分潤設定
   - 團購活動管理
 features:
-  - LINE_團購
+  - LINE 團購
   - 團購群組
   - 分潤方案
   - 推薦碼

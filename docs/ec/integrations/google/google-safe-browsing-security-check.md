@@ -36,8 +36,8 @@ intents:
   - 申請解除不安全警示
   - 預防網站被標記為不安全
 features:
-  - Google_安全瀏覽
-  - Google_Search_Console
+  - Google 安全瀏覽
+  - Google Search Console
   - 安全性問題審核
   - 安全警示解除
 prerequisites:

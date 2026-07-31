@@ -33,9 +33,9 @@ intents:
   - 瞭解系統環境需求
   - 挑選 POS 設備
 features:
-  - POS_系統環境
-  - Windows_支援
-  - Chrome_瀏覽器
+  - POS 系統環境
+  - Windows 支援
+  - Chrome 瀏覽器
 prerequisites: []
 related: []
 tags:

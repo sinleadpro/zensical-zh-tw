@@ -35,7 +35,7 @@ intents:
   - 區分一般門市與POS門市
 features:
   - 門市管理
-  - POS_整合
+  - POS 整合
   - 批量建立門市
 prerequisites: []
 related:

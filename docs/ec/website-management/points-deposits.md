@@ -37,7 +37,7 @@ intents:
   - 查詢儲值紀錄
   - 匯出使用明細
 features:
-  - CYBER_幣儲值
+  - CYBER 幣儲值
   - 信用卡付款
   - 虛擬ATM轉帳
   - 簡訊計費

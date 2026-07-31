@@ -38,8 +38,8 @@ intents:
 features:
   - GA4 加強型評估
   - 站內搜尋追蹤
-  - view_search_results 事件
-  - search_term 參數
+  - view search results 事件
+  - search term 參數
 prerequisites:
   - "[[setup-google-analytics]]"
 related:

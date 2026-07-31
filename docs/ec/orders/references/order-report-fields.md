@@ -32,7 +32,7 @@ intents:
 features:
   - 折扣拆分
   - 導購來源
-  - UTM_參數
+  - UTM 參數
 prerequisites: []
 related:
   - "[[export-order-report]]"

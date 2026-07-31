@@ -27,9 +27,9 @@ intents:
   - 使用_Jam_回報操作問題
   - 錄製畫面提供給客服
 features:
-  - Jam_截圖
-  - Jam_錄影
-  - Instant_Replay
+  - Jam 截圖
+  - Jam 錄影
+  - Instant Replay
 prerequisites: []
 related: []
 tags:

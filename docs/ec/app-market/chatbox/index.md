@@ -35,9 +35,9 @@ intents:
   - 查看會員訂單
   - 跨平台客服
 features: 
-  - Chat_Box
+  - Chat Box
   - 訊息整合
-  - AI_建議回覆
+  - AI 建議回覆
   - 會員資料同步
 prerequisites: 
   - "[[Chat Box 串接第三方平台 (LINE•Meta)]]"

@@ -33,7 +33,7 @@ intents:
   - 再行銷名單
 features: 
   - 會員篩選器
-  - ORFM_分析
+  - ORFM 分析
   - 智慧篩選
   - 會員標籤
 prerequisites: []

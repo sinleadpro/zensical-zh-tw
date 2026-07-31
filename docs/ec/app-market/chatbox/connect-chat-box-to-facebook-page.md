@@ -34,9 +34,9 @@ intents:
   - 授權_Meta_帳號
   - 管理_Facebook_訊息
 features:
-  - Meta_授權
-  - Facebook_Messenger_整合
-  - Chat_Box
+  - Meta 授權
+  - Facebook Messenger 整合
+  - Chat Box
 prerequisites:
   - 需擁有 Facebook 粉絲專頁管理員權限
 related:

@@ -35,9 +35,9 @@ intents:
   - 設定_FBE_帳號授權
   - 連結_Facebook_資產
 features:
-  - Facebook_商業擴充套件
-  - FBE_設定
-  - 像素_Pixel
+  - Facebook 商業擴充套件
+  - FBE 設定
+  - 像素 Pixel
 prerequisites: []
 related: 
   - "[[setup-fbe-domain-verification]]"

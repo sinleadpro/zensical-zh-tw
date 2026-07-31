@@ -31,8 +31,8 @@ intents:
   - 解決收不到驗證信問題
   - 了解後台登入安全機制
 features: 
-  - MFA_驗證
-  - 2FA_驗證
+  - MFA 驗證
+  - 2FA 驗證
   - 資安防護
 prerequisites: []
 related: []

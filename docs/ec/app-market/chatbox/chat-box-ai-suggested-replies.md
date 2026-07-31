@@ -35,8 +35,8 @@ intents:
   - AI_自動回覆建議
   - 提升客服效率
 features:
-  - Chat_Box
-  - AI_建議回覆
+  - Chat Box
+  - AI 建議回覆
   - 知識庫管理
 prerequisites:
   - "[[Chat Box 訊息通]]"

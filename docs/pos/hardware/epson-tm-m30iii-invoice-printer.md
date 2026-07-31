@@ -35,7 +35,7 @@ intents:
   - Wi-Fi_連接發票機
 features: 
   - 發票機安裝
-  - Wi-Fi_設定
+  - Wi-Fi 設定
 prerequisites: []
 related: 
   - "[[EPSON TM-T82III 發票機安裝教學]]"

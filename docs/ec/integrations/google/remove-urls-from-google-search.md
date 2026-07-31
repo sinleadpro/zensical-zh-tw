@@ -35,7 +35,7 @@ intents:
   - 移除 Google 搜尋結果
   - 排除網頁索引
 features:
-  - Google_Search_Console
+  - Google Search Console
   - 移除網址工具
 prerequisites:
   - "[[setup-google-search-console]]"

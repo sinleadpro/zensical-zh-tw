@@ -33,7 +33,7 @@ features:
   - 東南亞站
   - 馬來西亞金流
   - 新加坡金流
-  - Fiuu_支付
+  - Fiuu 支付
 prerequisites: []
 related: []
 tags:

@@ -36,9 +36,9 @@ intents:
   - 網站轉址
   - 維護_SEO_排名
 features:
-  - 301_重定向
+  - 301 重定向
   - 網站轉址
-  - Excel_匯入
+  - Excel 匯入
 prerequisites: []
 related:
   - "[[submit-sitemap-to-gsc]]"

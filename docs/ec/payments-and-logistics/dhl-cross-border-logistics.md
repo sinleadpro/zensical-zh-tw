@@ -46,7 +46,7 @@ features:
   - DHL 跨境物流
   - 自動化產單
   - 取件預約
-  - DDP_完稅交貨
+  - DDP 完稅交貨
 prerequisites:
   - 需具備國貿局登記之英文公司名稱
 related: []

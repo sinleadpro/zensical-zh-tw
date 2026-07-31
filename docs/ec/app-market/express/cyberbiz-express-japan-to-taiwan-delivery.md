@@ -34,7 +34,7 @@ intents:
   - 建立跨境託運單
 features:
   - 日到台跨境物流
-  - EZWAY_報關
+  - EZWAY 報關
   - 跨境運費自動計算
 prerequisites:
   - 需向開店顧問團隊申請開通服務

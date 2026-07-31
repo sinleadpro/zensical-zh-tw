@@ -36,7 +36,7 @@ intents:
   - 電子票券管理
 features:
   - 電子票券
-  - QR_Code
+  - QR Code
   - 核銷
 prerequisites:
   - 新版物流

@@ -37,7 +37,7 @@ intents:
   - 排除商品搜尋
 features:
   - 分詞搜尋
-  - GA4_加強型評估
+  - GA4 加強型評估
   - 站內搜尋追蹤
 prerequisites: []
 related:

@@ -36,9 +36,9 @@ intents:
   - 網站擁有權驗證
   - GSC 設定
 features:
-  - Google_Search_Console
-  - GSC_驗證
-  - HTML_標記驗證
+  - Google Search Console
+  - GSC 驗證
+  - HTML 標記驗證
 prerequisites: []
 related:
   - "[[submit-sitemap-to-gsc]]"

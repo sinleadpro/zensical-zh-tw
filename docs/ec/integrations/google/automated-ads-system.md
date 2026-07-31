@@ -37,8 +37,8 @@ intents:
   - 管理廣告預算與儲值
 features:
   - 自動化廣告系統
-  - Google_購物廣告
-  - GMC_帳號代管
+  - Google 購物廣告
+  - GMC 帳號代管
   - 廣告成效分析
 prerequisites:
   - 需有 Google 帳號

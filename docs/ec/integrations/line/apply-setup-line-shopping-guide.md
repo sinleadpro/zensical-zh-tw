@@ -32,7 +32,7 @@ intents:
   - 申請_LINE_購物導購
   - 設定_LINE_購物導購
 features:
-  - LINE_購物
+  - LINE 購物
 prerequisites: []
 related:
   - 匯出訂單報表

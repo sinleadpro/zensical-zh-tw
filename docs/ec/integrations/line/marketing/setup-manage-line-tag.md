@@ -35,9 +35,9 @@ intents:
   - 如何追蹤 LINE 廣告成效
   - 如何建立 LINE 網站流量受眾
 features:
-  - LINE_Tag
-  - LINE_OA 整合
-  - LINE_LAP 廣告追蹤
+  - LINE Tag
+  - LINE OA 整合
+  - LINE LAP 廣告追蹤
   - 網站流量受眾
 prerequisites:
   - 建立 LINE 官方帳號

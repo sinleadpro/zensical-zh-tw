@@ -34,7 +34,7 @@ intents:
   - POS_訪客登入
   - 查詢訪客訂單
 features:
-  - POS_訪客結帳
+  - POS 訪客結帳
   - 預設訪客帳號
 prerequisites: []
 related: []

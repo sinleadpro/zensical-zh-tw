@@ -36,9 +36,9 @@ intents:
   - GA4 串接步驟
   - Google Analytics 設定教學
 features:
-  - Google_Analytics
+  - Google Analytics
   - GA4
-  - 評估_ID
+  - 評估 ID
   - 加強型評估
   - 資料串流
 prerequisites: []

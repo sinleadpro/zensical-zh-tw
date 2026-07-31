@@ -36,15 +36,15 @@ intents:
   - 了解資安事件應變流程
 features:
   - 二階段驗證
-  - IP_白名單
+  - IP 白名單
   - reCAPTCHA
-  - Cookie_驗證_IP_白名單
+  - Cookie 驗證 IP 白名單
   - 自動登出時間
   - 會員個資部分隱碼
   - 訪問限制地區黑名單
   - 網站密碼
-  - 信用卡_3D_驗證
-  - SSL_安全性憑證
+  - 信用卡 3D 驗證
+  - SSL 安全性憑證
 prerequisites: []
 related:
   - "[[保護後台帳號與顧客資料]]"
