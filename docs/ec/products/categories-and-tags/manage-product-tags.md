@@ -63,7 +63,7 @@ tags:
   - 排除product feed
   - 商品分類
   - 行銷活動
-acoiv: operation
+acoiv: manage
 apis: []
 devices:
   - desktop

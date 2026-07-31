@@ -46,7 +46,7 @@ tags:
   - 檔案限制
   - 客服規格
   - ChatBox
-acoiv: integration
+acoiv: reference
 apis: []
 devices: 
   - desktop
