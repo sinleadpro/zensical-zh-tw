@@ -4,9 +4,8 @@ description: 直接於管理後台辦理 POS 系統續約或加購子機，無�
 created: 2026-04-10 10:00
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

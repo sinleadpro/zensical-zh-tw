@@ -5,9 +5,8 @@ created: 2026-02-24 00:00
 last_modified: 2026-07-08 19:11
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/integrations/line/marketing/line-friend-link-order-payment-pages/"
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes:

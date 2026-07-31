@@ -5,9 +5,8 @@ created:
 last_modified: 2026-07-13 09:32
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/orders/basics/order-management-interface/"
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes:

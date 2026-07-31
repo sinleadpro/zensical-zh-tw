@@ -5,9 +5,8 @@ created: 2026-02-24 14:26
 last_modified: 2026-06-26 10:05
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-line-binding-coupon-gift/"
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes:

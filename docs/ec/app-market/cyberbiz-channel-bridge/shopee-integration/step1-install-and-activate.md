@@ -4,9 +4,8 @@ description: 透過「全通路管理助手」，您可以將蝦皮商店的商�
 created: 2026-02-25 00:00
 last_modified: 2026-07-08 17:32
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

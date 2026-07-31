@@ -4,10 +4,9 @@ description: 設定站內搜尋功能，說明搜尋範圍、分詞邏輯、後�
 created: 2026-04-15 10:20
 last_modified: 2026-06-30 11:26
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes:
   - verify 商品群組名稱url/slug的問題

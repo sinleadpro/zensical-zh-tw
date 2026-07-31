@@ -4,9 +4,8 @@ description: 建立「單品限時折扣群組」，並設定折扣計價方式�
 created: 2026-01-13 00:00
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: ""
 reviewers: []
 notes:

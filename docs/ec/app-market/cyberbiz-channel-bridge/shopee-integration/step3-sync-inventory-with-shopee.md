@@ -4,9 +4,8 @@ description: 透過建立商品關聯與開啟同步功能，您可以讓官網�
 created: 2026-02-26 00:00
 last_modified: 2026-06-27 13:40
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

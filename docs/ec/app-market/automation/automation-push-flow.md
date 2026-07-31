@@ -4,9 +4,8 @@ description: 在 CYBERBIZ AUTOMATION 中建立自動化流程，設定會員分�
 created: 2026-03-09 14:48
 last_modified: 2026-07-22 15:47
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes: []

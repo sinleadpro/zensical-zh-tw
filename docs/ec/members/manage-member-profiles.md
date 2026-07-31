@@ -4,9 +4,8 @@ description: 當特定會員有資料與權限異動、點數與優惠券配置�
 created: 2026-02-11 00:00
 last_modified: 2026-06-30 12:30
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

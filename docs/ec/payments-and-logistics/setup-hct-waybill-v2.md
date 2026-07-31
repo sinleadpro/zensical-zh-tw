@@ -4,9 +4,8 @@ description: 設定新竹物流託運單完整教學，包含寄件人資訊設�
 created: 2026-05-22 17:28
 last_modified: 2026-07-07 14:22
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

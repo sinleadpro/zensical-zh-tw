@@ -4,10 +4,9 @@ description: 透過 YouTube Shopping 在影片、直播、短影音中植入商�
 created: 2026-03-27 10:49
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0

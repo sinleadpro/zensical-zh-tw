@@ -1,7 +1,6 @@
 ---
 title: 訂單出貨流程
 permalink: "https://help.cyberbiz.io/ec/orders/basics/order-fulfillment-flow/"
-version: ""
 author: Jase
 reviewers: []
 last_modified: 2026-07-13 12:02
@@ -13,7 +12,7 @@ devices:
   - desktop
   - mobile
 apis: []
-type: tutorial
+type: guide
 intents:
   - 執行單筆或批次訂單出貨
   - 下載並列印物流託運單與揀貨單

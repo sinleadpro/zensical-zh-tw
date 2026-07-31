@@ -4,10 +4,9 @@ description: 設定 Google Ads 強化轉換功能，讓系統收到更詳細的�
 created: 2026-03-25 18:07
 last_modified: 2026-07-03 11:44
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0

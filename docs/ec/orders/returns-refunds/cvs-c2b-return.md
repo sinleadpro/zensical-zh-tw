@@ -5,9 +5,8 @@ created:
 last_modified: 2026-07-02 21:42
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/orders/returns-refunds/cvs-c2b-return/"
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes: []

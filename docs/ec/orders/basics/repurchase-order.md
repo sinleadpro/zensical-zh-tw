@@ -4,9 +4,8 @@ description: 前台會員的再次購買功能，讓會員能輕鬆重新下單�
 created: 2026-05-06 21:15
 last_modified: 2026-07-13 11:40
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

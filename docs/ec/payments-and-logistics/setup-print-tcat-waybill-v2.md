@@ -4,9 +4,8 @@ description: 管理黑貓宅急便託運單的完整指南，包含設定寄件�
 created: 2026-05-15 14:21
 last_modified: 2026-07-09 15:17
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

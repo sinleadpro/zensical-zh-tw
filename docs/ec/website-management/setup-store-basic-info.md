@@ -5,9 +5,8 @@ created:
 last_modified: 2026-07-06 17:39
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/website-management/setup-store-basic-info/"
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes:

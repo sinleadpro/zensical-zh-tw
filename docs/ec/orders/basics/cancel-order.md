@@ -4,9 +4,8 @@ description: 介紹商家手動取消、會員前台取消與系統自動取消�
 created: 2026-05-04 12:24
 last_modified: 2026-07-13 11:32
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

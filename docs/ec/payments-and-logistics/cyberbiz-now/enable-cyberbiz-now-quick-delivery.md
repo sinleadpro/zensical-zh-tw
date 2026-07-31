@@ -4,9 +4,8 @@ description: 完成門市快速到貨 (CYBERBIZ NOW) 服務設定，包含啟用
 created: 2026-01-26 00:00
 last_modified: 2026-06-04 17:59
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

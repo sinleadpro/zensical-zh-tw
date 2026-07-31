@@ -4,9 +4,8 @@ description: 透過 GetButton、Facebook 即時客服或 Omnichat 在官網設�
 created: 2025-03-03 10:00
 last_modified: 2026-07-01 20:07
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes:

@@ -4,9 +4,8 @@ description: 設定網站的選單、導覽列與頁腳。
 created: 2026-02-03 17:00
 last_modified: 2026-07-22 15:49
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

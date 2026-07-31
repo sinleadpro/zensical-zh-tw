@@ -4,9 +4,8 @@ description: "使用 Authy App 設定 CYBERBIZ 帳號的二階段驗證 (2FA)，
 created: "2026-03-16 21:41"
 last_modified: 2026-07-02 19:21
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

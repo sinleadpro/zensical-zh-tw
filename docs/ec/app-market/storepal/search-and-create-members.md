@@ -4,9 +4,8 @@ description: 線下人員可透過門市助理查詢會員資訊、協助顧客�
 created: 2026-05-04 14:14
 last_modified: 2026-07-01 12:00
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

@@ -4,10 +4,9 @@ description: 透過數據卡與圖表，掌握店內定期定額訂單的數量�
 created: 2026-06-16 00:00
 last_modified: 2026-07-12 20:35
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0

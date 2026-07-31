@@ -4,9 +4,8 @@ description: 「操作紀錄列表」記錄所有使用者在電商倉儲後台�
 created: 2026-03-19 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

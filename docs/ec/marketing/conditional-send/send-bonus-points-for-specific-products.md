@@ -4,9 +4,8 @@ description: 建立「指定商品送紅利」群組，針對特定商品設定�
 created: 2026-01-21 00:00
 last_modified: 2026-07-07 12:00
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

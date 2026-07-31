@@ -4,9 +4,8 @@ description: 瞭解盟立電子發票加值中心的申請流程、字軌管理�
 created: 2026-04-16 11:45
 last_modified: 2026-06-22 11:15
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

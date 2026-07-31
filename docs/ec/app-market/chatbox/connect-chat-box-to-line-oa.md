@@ -4,9 +4,8 @@ description: 將 LINE 官方帳號連結至 Chat Box，實現即時對話同步�
 created: 2026-05-28 13:50
 last_modified: 2026-05-28 13:50
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

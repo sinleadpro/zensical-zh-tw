@@ -4,9 +4,8 @@ description: 透過 POS 前台快速註冊新會員、查詢顧客資料與管�
 created: 2026-04-16 10:00
 last_modified: 2026-06-22 11:15
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

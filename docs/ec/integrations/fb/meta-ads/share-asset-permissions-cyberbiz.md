@@ -5,9 +5,8 @@ description: 當 Meta 廣告創建失敗時，透過手動分享資產權限（�
 created: 2026-04-21 16:01
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

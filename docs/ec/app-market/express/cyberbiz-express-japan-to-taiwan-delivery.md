@@ -4,9 +4,8 @@ description: 一站式日本跨境直送台灣物流服務，涵蓋開通設定�
 created: 2026-03-03 00:00
 last_modified: 2026-07-27 14:30
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.2
 author: Ann
 reviewers: []
 notes:

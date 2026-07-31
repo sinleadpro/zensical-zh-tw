@@ -6,7 +6,6 @@ last_modified: 2026-06-04 17:59
 lang: zh-TW
 type: troubleshooting
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

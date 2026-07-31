@@ -4,9 +4,8 @@ description: 透過分潤機制激勵門市人員處理「門市取貨」訂單�
 created: 2026-04-23 11:45
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

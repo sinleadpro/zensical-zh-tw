@@ -5,9 +5,8 @@ created:
 last_modified: 2026-06-30 11:11
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/orders/cvs-shipping/cvs-c2c-shipping/"
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes:

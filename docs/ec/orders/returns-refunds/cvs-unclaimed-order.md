@@ -4,9 +4,8 @@ description: 超商訂單逾期未取的處理流程，包含自動退款條件�
 created: 2026-05-26 20:51
 last_modified: 2026-07-09 11:51
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes:

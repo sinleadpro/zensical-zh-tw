@@ -4,9 +4,8 @@ description: 串接 LINE Pay 掃碼支付，POS 店員可使用掃碼槍直接�
 created: 2026-03-25 17:15
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

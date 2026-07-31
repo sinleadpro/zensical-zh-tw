@@ -4,9 +4,8 @@ description: 商家可根據門市作業習慣，彈性設定 POS 前台在商�
 created: 2026-04-17 11:30
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

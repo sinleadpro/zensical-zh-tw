@@ -4,9 +4,8 @@ description: 透過 CYBERBIZ 後台整合順豐海外物流，您可以直接產
 created: 2026-03-05 00:00
 last_modified: 2026-07-03 10:50
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

@@ -4,9 +4,8 @@ description: 透過 AFTEE 先享後付提供顧客快速便利的付款方式，
 created: 2026-01-26 00:00
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes: []

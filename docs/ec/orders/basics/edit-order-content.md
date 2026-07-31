@@ -4,10 +4,9 @@ description: 使用編輯訂單功能，包含增減商品、新增自訂品項/
 created: 2026-04-29 12:14
 last_modified: 2026-07-13 11:01
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: "1.0.0"
 reviewers: []
 notes: []
 ga_views:

@@ -4,9 +4,8 @@ description: 掌握會員規模、成長趨勢與首購後的留存及回購表�
 created: 2026-06-16 00:00
 last_modified: 2026-07-10 15:39
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

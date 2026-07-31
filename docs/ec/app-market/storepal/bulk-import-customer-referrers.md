@@ -4,9 +4,8 @@ description: 總部管理員可透過批次匯入功能，快速為現有會員�
 created: 2026-05-07 18:35
 last_modified: 2026-06-18 18:35
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

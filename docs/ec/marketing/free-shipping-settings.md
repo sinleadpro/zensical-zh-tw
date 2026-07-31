@@ -4,9 +4,8 @@ description: 透過全館門檻、指定商品等多種方式，設定符合行�
 created: 2026-07-15 00:00
 last_modified: 2026-07-16 08:54
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

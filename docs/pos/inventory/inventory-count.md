@@ -4,9 +4,8 @@ description: 了解如何執行門市商品盤點，並追蹤盤點進度與結�
 created: 2026-04-08 15:00
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

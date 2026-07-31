@@ -4,9 +4,8 @@ description: 一頁式商店將商品資訊、特色介紹與結帳流程整合�
 created: 2026-02-11 00:00
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

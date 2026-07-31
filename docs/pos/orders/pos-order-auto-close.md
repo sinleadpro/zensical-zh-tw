@@ -4,9 +4,8 @@ description: 讓門市結帳完成的訂單依您的設定自動進入「已結�
 created: 2026-06-25 10:00
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

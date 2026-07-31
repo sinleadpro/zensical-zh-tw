@@ -4,9 +4,8 @@ description: 商家可以自行印製含有條碼、價格、保存期限等資�
 created: 2026-03-25 16:20
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

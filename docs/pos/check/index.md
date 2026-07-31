@@ -4,9 +4,8 @@ description: 掌握 CYBERBIZ 智能 POS 的完整結帳流程，包含會員登�
 created: 2026-04-17 12:30
 last_modified: 2026-07-27 14:00
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.2
 author: Ann
 reviewers: []
 notes: []

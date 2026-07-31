@@ -4,10 +4,9 @@ description: 自訂物流的三種出貨方式：批次標記為已出貨、Exce
 created: 2026-05-11 21:44
 last_modified: 2026-06-30 10:12
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0

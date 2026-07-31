@@ -4,9 +4,8 @@ description: 串接 Google Merchant Center、同步商品資料至 Google 搜尋
 created: 2026-03-05 10:00
 last_modified: 2026-07-09 13:56
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

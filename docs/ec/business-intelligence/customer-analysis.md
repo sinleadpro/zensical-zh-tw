@@ -4,9 +4,8 @@ description: 以第一次下單時間切分新客與舊客，深入比較顧客�
 created: 2026-06-16 00:00
 last_modified: 2026-07-10 15:58
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

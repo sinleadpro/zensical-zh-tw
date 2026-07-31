@@ -4,9 +4,8 @@ description: 透過 VIP 群組標籤功能，針對特定客層綁定標籤並�
 created: 2026-01-23 00:00
 last_modified: 2026-06-30 12:30
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

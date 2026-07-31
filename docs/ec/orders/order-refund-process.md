@@ -4,9 +4,8 @@ description: 當訂單完成退貨流程後，最終步驟即是將款項退還�
 created: 2026-02-23 00:00
 last_modified: 2026-07-14 17:40
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

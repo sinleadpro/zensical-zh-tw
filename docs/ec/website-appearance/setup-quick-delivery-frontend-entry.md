@@ -4,9 +4,8 @@ description: 學習如何配置快速到貨專區的前台入口、自訂導覽�
 created: 2026-02-03 00:00
 last_modified: 2026-06-30 11:01
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

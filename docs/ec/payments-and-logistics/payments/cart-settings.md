@@ -4,9 +4,8 @@ description: 調整顧客在正式結帳前的購物車行為，包含購物車�
 created: 2026-06-16 00:00
 last_modified: 2026-07-09 12:16
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

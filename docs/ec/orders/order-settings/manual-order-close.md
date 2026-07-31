@@ -4,9 +4,8 @@ description: 手動結案訂單，包含單筆與批次操作方式，以及結�
 created: 2026-05-06 15:57
 last_modified: 2026-06-30 09:20
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

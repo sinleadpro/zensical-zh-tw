@@ -4,9 +4,8 @@ description: 建立隱藏商品群組，透過專屬連結提供給特定顧客�
 created: 2026-01-08 00:00
 last_modified: 2026-07-22 17:37
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes:

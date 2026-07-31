@@ -4,9 +4,8 @@ description: POS 客戶顯示器（簡稱「客顯」）是 POS 系統的輔助�
 created: 2026-03-25 15:30
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

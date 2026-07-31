@@ -14,7 +14,6 @@ tags:
   - 超商取貨
   - 門市自取
   - 跨境配送
-version: ""
 reviewers: []
 notes: []
 ga_views:

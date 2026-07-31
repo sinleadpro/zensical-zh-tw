@@ -4,10 +4,9 @@ description: 透過 Facebook 商業擴充套件將像素、粉絲專頁、目錄
 created: 2026-04-07 23:59
 last_modified: 2026-07-02 11:19
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:

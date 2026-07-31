@@ -45,7 +45,7 @@ fields:
   type:
     type: enum
     required: false
-    values: [tutorial, guide, reference, hub, quickstart, troubleshooting, explanation, concept]
+    values: [guide, reference, hub, quickstart, troubleshooting, explanation]
 
   # 文件狀態
   status:
@@ -53,10 +53,6 @@ fields:
     required: false
     values: [new, update, deprecated]
 
-  # 語義化版本或變更類型 (如 Refactor, Rewrite, Revise)
-  version:
-    type: string
-    required: false
 
   # 文件主要負責人
   author:

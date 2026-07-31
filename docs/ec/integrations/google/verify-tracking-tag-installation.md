@@ -4,7 +4,7 @@ description: "使用 Google Tag Assistant 驗證 GA4、GTM、Google Ads 等追�
 created: "2026-03-17 21:36"
 last_modified: 2026-07-02 16:19
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
 reviewers: []

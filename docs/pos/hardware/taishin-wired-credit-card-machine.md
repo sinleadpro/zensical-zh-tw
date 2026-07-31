@@ -4,9 +4,8 @@ description: 申請與安裝有線信用卡刷卡機，包含硬體轉接線選�
 created: 2026-03-25 17:45
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

@@ -5,9 +5,8 @@ created: 2026-03-08 10:00
 last_modified: 2026-07-22 17:32
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/products/categories-and-tags/manage-product-tags/"
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

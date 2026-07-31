@@ -4,9 +4,8 @@ description: 透過商米（Sunmi）無線刷卡發票機，商家可以結合�
 created: 2026-03-25 17:30
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

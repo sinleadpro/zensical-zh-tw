@@ -4,9 +4,8 @@ description: 在提供實體門市相關服務前，您需要先在管理後台�
 created: 2026-04-17 12:15
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

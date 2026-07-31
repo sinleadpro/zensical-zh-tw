@@ -4,9 +4,8 @@ description: 設定商品內容、通路與物流屬性，確保前台呈現正�
 created: 2026-03-08 10:00
 last_modified: 2026-07-22 17:21
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

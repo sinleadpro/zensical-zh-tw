@@ -4,9 +4,8 @@ description: "設定 LINE 團購群組的分潤方案、商品分類與活動時
 created: "2026-03-12 12:14"
 last_modified: 2026-07-02 10:26
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes: 

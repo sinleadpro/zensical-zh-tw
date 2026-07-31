@@ -4,9 +4,8 @@ description: 註冊人分潤採「永久綁定」機制。當顧客在註冊時�
 created: 2026-02-06 00:00
 last_modified: 2026-06-30 10:52
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

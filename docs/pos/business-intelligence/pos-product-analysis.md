@@ -4,9 +4,8 @@ description: 掌握各 POS 實體門市的商品銷售表現，從銷售額、�
 created: 2026-06-23 14:30
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

@@ -4,9 +4,8 @@ description: 透過 Amazon FBA 服務，您可以將官網訂單交由 Amazon �
 created: 2026-03-03 00:00
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

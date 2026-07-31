@@ -4,9 +4,8 @@ description: 在同一頁比較各 POS 門市的營業表現，從年度、月�
 created: 2026-06-23 16:30
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

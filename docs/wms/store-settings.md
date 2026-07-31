@@ -4,9 +4,8 @@ description: 定義商店的識別名稱、簡訊發送人與聯繫資訊，確�
 created: 2026-03-25 20:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

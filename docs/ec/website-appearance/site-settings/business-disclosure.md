@@ -4,10 +4,9 @@ description: 在 CYBERBIZ 後台完成公司資料填寫，並於官網頁腳揭
 created: 2026-06-22 10:00
 last_modified: 2026-07-03 00:00
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0

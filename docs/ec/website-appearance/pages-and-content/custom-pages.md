@@ -4,9 +4,8 @@ description: "建立、設定與管理自訂頁面，包含基本設定、區塊
 created: "2025-03-03 15:30"
 last_modified: 2026-07-01 19:48
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

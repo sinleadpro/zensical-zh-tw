@@ -5,9 +5,8 @@ created: 2026-02-16 00:00
 last_modified: 2026-07-01 12:00
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-line-quick-login-phone-number/"
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes:

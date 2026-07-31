@@ -4,9 +4,8 @@ description: 自訂出貨明細的顯示內容、套用列印模板，以及從�
 created: 2026-05-08 16:00
 last_modified: 2026-07-13 12:36
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes:

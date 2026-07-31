@@ -4,9 +4,8 @@ description: 瞭解如何在 POS 前台處理官網訂單的包裹到店入庫�
 created: 2026-04-27 14:15
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

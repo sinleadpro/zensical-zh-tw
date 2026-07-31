@@ -4,9 +4,8 @@ description: 澳洲落地版透過與 Airwallex 合作，提供商家穩定且�
 created: 2026-03-03 00:00
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

@@ -4,9 +4,8 @@ description: 訂單付款失敗時，商家可採取的處理方式，包含引�
 created: 2026-06-08 13:52
 last_modified: 2026-07-09 15:31
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

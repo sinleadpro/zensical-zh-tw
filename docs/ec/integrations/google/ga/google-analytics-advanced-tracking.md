@@ -4,9 +4,8 @@ description: 加強型評估、Google 信號、資料保留期限調整及報表
 created: 2026-03-20 17:50
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

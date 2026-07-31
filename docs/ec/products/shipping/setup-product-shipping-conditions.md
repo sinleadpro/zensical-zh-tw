@@ -4,9 +4,8 @@ description: 設定商品的配送溫層與物流，並以一般宅配與貨到�
 created: 2026-01-06 00:00
 last_modified: 2026-07-22 17:40
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes:

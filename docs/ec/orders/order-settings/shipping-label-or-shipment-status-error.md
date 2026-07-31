@@ -4,9 +4,8 @@ description: 託運單下載失敗、貨態未更新常見原因與處理方式�
 created: 2026-06-08 20:12
 last_modified: 2026-06-30 10:08
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

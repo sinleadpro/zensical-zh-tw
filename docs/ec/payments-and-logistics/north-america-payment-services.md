@@ -4,9 +4,8 @@ description: 北美站整合了國際主流的金流解決方案，包含信用�
 created: 2026-03-03 00:00
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

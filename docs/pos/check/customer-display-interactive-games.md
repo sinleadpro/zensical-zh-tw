@@ -4,9 +4,8 @@ description: 說明如何設定 POS 客顯螢幕的互動遊戲（如輪盤、�
 created: 2026-04-07 17:30
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

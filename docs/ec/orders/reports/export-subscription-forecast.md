@@ -4,9 +4,8 @@ description: "匯出定期定額子訂單預測報表，查核未來預計出貨
 created: "2026-03-16 00:15"
 last_modified: 2026-06-08 17:50
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

@@ -4,9 +4,8 @@ description: 掌握 POS 前台的訂單查詢、取消與換貨流程，並瞭�
 created: 2026-04-16 13:45
 last_modified: 2026-06-22 11:15
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

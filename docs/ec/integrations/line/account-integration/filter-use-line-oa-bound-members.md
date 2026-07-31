@@ -5,9 +5,8 @@ created: 2026-03-06 11:20
 last_modified: 2026-06-26 10:05
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/integrations/line/account-integration/filter-use-line-oa-bound-members/"
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes:

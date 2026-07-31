@@ -4,9 +4,8 @@ description: 綠界科技（ECPay）是台灣普及度極高的第三方支付�
 created: 2026-02-13 00:00
 last_modified: 2026-06-04 17:59
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

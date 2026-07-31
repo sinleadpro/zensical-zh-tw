@@ -4,9 +4,8 @@ description: POS 驅動程式是串接硬體設備（如發票機、掃碼槍）
 created: 2026-04-21 12:15
 last_modified: 2026-07-01 10:40
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

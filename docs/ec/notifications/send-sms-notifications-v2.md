@@ -4,10 +4,9 @@ description: 如何在 CYBERBIZ 後台設定與發送簡訊，包含發送方式
 created: 2026-04-27 17:09
 last_modified: 2026-07-01 20:55
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes:
   - add link for 顧客/會員標籤

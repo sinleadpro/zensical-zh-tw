@@ -4,9 +4,8 @@ description: 針對販售散裝、秤重商品的商家，POS 支援與磅秤標
 created: 2026-03-25 16:45
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

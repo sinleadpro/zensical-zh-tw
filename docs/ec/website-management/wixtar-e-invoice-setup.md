@@ -1,6 +1,5 @@
 ---
 title: 星益欣電子發票設定
-version: ""
 author: Jase
 reviewers: []
 last_modified: 2026-07-03 11:44

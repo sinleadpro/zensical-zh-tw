@@ -4,9 +4,8 @@ description: 將 CYBERBIZ 自動產生的 Sitemap 提交至 Google Search Consol
 created: 2026-03-20 13:43
 last_modified: 2026-07-03 11:44
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

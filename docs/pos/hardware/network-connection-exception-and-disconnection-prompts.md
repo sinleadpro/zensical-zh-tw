@@ -4,9 +4,8 @@ description: 了解當 POS 前台偵測到網路連線不穩或中斷時的系�
 created: 2026-03-25 17:00
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

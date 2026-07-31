@@ -4,9 +4,8 @@ description: 設定交易金額門檻以決定何時觸發 3D 驗證
 created: 2026-01-26 00:00
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes: []

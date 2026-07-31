@@ -4,9 +4,8 @@ description: 透過將不同群組商品進行組合（如 A 群組 + B 群組�
 created: 2026-01-21 00:00
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

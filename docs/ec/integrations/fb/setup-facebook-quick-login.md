@@ -4,9 +4,8 @@ description: 設定 Facebook 快速登入功能，讓消費者能使用 Facebook
 created: 2026-03-31 11:23
 last_modified: 2026-07-02 10:44
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

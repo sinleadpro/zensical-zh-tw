@@ -5,9 +5,8 @@ created:
 last_modified: 2026-07-07 13:59
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/orders/cvs-shipping/thermal-print-cvs-waybill/"
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes:

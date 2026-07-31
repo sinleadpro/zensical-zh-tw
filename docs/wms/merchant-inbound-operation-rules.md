@@ -4,9 +4,8 @@ description: 商家商品進入 CYBERBIZ 電商倉儲的標準作業流程與規
 created: 2026-03-16 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

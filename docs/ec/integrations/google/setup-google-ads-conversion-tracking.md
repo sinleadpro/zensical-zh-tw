@@ -4,10 +4,9 @@ description: 設定 Google Ads 轉換追蹤與再行銷功能，追蹤廣告成�
 created: 2026-03-25 11:23
 last_modified: 2026-07-03 11:45
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0

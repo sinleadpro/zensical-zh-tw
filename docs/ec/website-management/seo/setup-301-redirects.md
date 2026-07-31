@@ -4,9 +4,8 @@ description: 設定 301 轉址，當網頁網址失效或變更時將流量導�
 created: 2026-03-20 13:59
 last_modified: 2026-07-03 11:44
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

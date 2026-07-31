@@ -4,9 +4,8 @@ description: 透過訂單列表批次選取訂單，下載新竹物流託運單�
 created: 2026-05-22 17:21
 last_modified: 2026-07-07 13:53
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

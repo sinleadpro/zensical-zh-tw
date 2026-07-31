@@ -4,9 +4,8 @@ description: 了解如何啟用並使用一鍵開立請款發票功能。企業�
 created: 2026-06-09 18:45
 last_modified: 2026-06-12 14:40
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

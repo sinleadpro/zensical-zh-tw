@@ -4,9 +4,8 @@ description: 透過轉盤、紅包或寶箱等趣味遊戲，發放優惠券、�
 created: 2026-01-21 00:00
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

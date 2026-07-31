@@ -4,9 +4,8 @@ description: 瞭解如何透過專屬帳號登入 POS 前台，並掌握員工�
 created: 2026-04-16 10:30
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

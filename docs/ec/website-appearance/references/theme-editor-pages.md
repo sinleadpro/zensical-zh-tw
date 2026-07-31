@@ -4,10 +4,9 @@ description: "彙整拖拉版型中各頁面的編輯能力(可自由增減區�
 created: 2026-06-10 17:15
 last_modified: 2026-07-03 14:06
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:

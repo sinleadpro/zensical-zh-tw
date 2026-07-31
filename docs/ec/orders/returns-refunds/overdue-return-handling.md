@@ -4,9 +4,8 @@ description: 訂單超過退貨期限時，商家可從後台手動發起退貨�
 created: 2026-05-26 20:52
 last_modified: 2026-06-30 11:37
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

@@ -6,7 +6,6 @@ last_modified: 2026-06-29 21:30
 lang: zh-TW
 type: reference
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

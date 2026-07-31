@@ -4,9 +4,8 @@ description: 門市店長與店員可透過業績報表，快速掌握特定時�
 created: 2026-05-04 14:14
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

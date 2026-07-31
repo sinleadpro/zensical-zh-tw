@@ -4,9 +4,8 @@ description: 本文件指引門市人員如何發起出貨請求、媒合司機�
 created: 2026-02-06 00:00
 last_modified: 2026-07-06 17:00
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

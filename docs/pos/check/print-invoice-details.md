@@ -4,9 +4,8 @@ description: 您可於 POS 子機設定中啟用 「自動開立發票」 功能
 created: 2026-04-17 11:45
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

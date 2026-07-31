@@ -4,9 +4,8 @@ description: 透過 POS 公告系統，總公司可快速將重要資訊同步�
 created: 2026-04-07 17:15
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

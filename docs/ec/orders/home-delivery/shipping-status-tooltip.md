@@ -4,9 +4,8 @@ description: 串接物流訂單出貨後，系統如何依物流貨態自動顯�
 created:
 last_modified: 2026-06-30 10:54
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes:

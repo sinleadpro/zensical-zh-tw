@@ -4,9 +4,8 @@ description: 一次掌握折扣、優惠券與紅利的成效，了解哪些行�
 created: 2026-06-16 00:00
 last_modified: 2026-07-12 19:37
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

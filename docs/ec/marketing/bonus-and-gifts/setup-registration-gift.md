@@ -4,9 +4,8 @@ description: 設定會員註冊禮，包含紅利點數與優惠券的發送規�
 created: 2026-05-27 12:30
 last_modified: 2026-05-27 12:30
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

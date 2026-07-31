@@ -4,9 +4,8 @@ description: 申請 LINE 購物導購並完成後台串接設定，將 LINE 購�
 created: 2026-03-13 10:46
 last_modified: 2026-07-02 10:38
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

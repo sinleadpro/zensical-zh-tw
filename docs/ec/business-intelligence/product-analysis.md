@@ -4,9 +4,8 @@ description: 掌握店內商品的銷售表現，找出熱賣商品、滯銷品�
 created: 2026-06-15 00:00
 last_modified: 2026-07-12 19:45
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes:

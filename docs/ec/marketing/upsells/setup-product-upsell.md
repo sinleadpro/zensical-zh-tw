@@ -4,9 +4,8 @@ description: 設定商品加價購及多款式加購商品的價格與前台顯�
 created: 2026-01-12 00:00
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes: []

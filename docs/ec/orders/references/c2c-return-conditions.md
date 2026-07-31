@@ -16,7 +16,6 @@ tags:
   - 訂單狀態
   - 配送進度
   - Reference
-version: ""
 reviewers: []
 notes: []
 ga_views:

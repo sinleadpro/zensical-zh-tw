@@ -4,9 +4,8 @@ description: 即時掌握電商倉儲（WMS）的系統更新進度、倉庫端�
 created: 2026-03-19 11:53
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

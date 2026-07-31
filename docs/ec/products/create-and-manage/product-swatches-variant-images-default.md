@@ -4,10 +4,9 @@ description: 設定預設版型商品的色票與款式圖片，讓消費者能�
 created: 2026-04-17 10:50
 last_modified: 2026-06-30 11:26
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0

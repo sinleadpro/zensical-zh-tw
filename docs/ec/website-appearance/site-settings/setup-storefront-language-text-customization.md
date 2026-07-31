@@ -5,9 +5,8 @@ created: 2026-03-01 00:00
 last_modified: 2026-06-30 11:01
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-storefront-language-text-customization/"
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes:

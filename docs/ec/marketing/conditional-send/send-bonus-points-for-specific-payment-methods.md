@@ -4,9 +4,8 @@ description: 建立「指定金流送紅利」群組，針對特定付款方式�
 created: 2026-01-21 00:00
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

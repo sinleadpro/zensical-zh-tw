@@ -4,9 +4,8 @@ description: 學習如何將官網商品批次複製到 POS 門市，包含批�
 created: 2026-06-28 00:00
 last_modified: 2026-07-08 12:43
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

@@ -7,7 +7,6 @@ lang: zh-TW
 type: reference
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes: []
 products:

@@ -4,9 +4,8 @@ description: 透過網域信箱設定，您可以讓特定組織（如：企業�
 created: 2026-02-03 00:00
 last_modified: 2026-06-04 17:59
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

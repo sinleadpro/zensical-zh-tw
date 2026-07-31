@@ -4,9 +4,8 @@ description: 在網站版面放上會自動輪播的橫幅廣告，並為每張�
 created: 2026-06-10 15:31
 last_modified: 2026-06-30 11:01
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

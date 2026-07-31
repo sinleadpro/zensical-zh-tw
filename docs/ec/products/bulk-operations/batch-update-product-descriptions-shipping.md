@@ -4,9 +4,8 @@ description: 透過 Excel 批次匯出、編輯與上傳，一次更新多筆商
 created: 2026-03-05 10:50
 last_modified: 2026-06-30 11:26
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

@@ -4,10 +4,9 @@ description: 透過 Meta Ads App 掌握廣告成效數據，分析指標，並�
 created: 2026-04-21 11:29
 last_modified: 2026-07-03 11:45
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0

@@ -4,9 +4,8 @@ description: 訪客結帳功能讓商家能為「非會員」且「無意願註�
 created: 2026-04-23 11:55
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

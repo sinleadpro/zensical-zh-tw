@@ -6,7 +6,6 @@ last_modified: 2026-07-03 11:44
 lang: zh-TW
 type: quickstart
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes:

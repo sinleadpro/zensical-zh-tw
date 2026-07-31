@@ -4,9 +4,8 @@ description: 使用 LIFF 實現會員自動登入，並同步完成官方帳號�
 created:
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes:

@@ -4,9 +4,8 @@ description: 處理門市間的庫存調撥需求，由缺貨方發起請求，�
 created: 2026-04-09 18:00
 last_modified: 2026-07-27 17:00
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.2.1
 author: Ann
 reviewers: []
 notes: []

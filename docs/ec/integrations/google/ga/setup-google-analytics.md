@@ -4,9 +4,8 @@ description: "串接 Google Analytics 4 (GA4)，包括 Google 端帳號建立、
 created: "2026-03-20 14:54"
 last_modified: 2026-07-02 16:28
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

@@ -4,9 +4,8 @@ description: 了解 CYBERBIZ POS 與星益欣電子發票的串接流程，包�
 created: 2026-06-10 17:50
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

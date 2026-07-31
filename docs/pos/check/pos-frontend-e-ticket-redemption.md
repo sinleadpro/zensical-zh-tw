@@ -4,9 +4,8 @@ description: 說明如何使用 CYBERBIZ POS 前台進行電子票券核銷、�
 created: 2026-06-01 15:36
 last_modified: 2026-06-01 15:36
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

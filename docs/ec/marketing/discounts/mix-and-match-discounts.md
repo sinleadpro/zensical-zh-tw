@@ -4,9 +4,8 @@ description: 建立「任選折扣群組」，設定件數門檻與折扣計價�
 created: 2026-01-21 00:00
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

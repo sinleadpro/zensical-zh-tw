@@ -4,9 +4,8 @@ description: 了解如何建立全站促銷活動，包含金額折扣、百分�
 created: 2026-06-26 18:30
 last_modified: 2026-06-26 18:30
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

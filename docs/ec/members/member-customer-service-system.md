@@ -4,9 +4,8 @@ description: 學習如何配置官網內建的客服問答系統，包含設定�
 created: 2026-02-12 00:00
 last_modified: 2026-06-30 12:30
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

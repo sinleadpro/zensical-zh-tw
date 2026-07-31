@@ -4,9 +4,8 @@ description: 建立並設定 LINE 團購機器人，完成 Messaging API、Webho
 created: 2026-03-11 17:27
 last_modified: 2026-07-02 11:17
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes:

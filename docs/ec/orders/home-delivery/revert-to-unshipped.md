@@ -4,9 +4,8 @@ description: 將訂單從「準備出貨」調整回「未出貨」狀態，讓�
 created: 2026-05-11 18:51
 last_modified: 2026-06-30 15:25
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

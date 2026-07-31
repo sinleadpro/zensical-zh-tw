@@ -4,9 +4,8 @@ description: 指引商家申請並串接 iPASS MONEY（一卡通）支付服務�
 created: 2026-03-16 00:00
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

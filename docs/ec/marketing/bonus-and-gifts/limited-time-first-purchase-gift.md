@@ -4,9 +4,8 @@ description: 期間限定首購禮是專為新會員首次消費設計的促銷�
 created: 2026-02-05 00:00
 last_modified: 2026-07-07 12:00
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

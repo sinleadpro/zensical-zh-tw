@@ -4,9 +4,8 @@ description: 設定 LINE Tag ID，並追蹤 LINE OA 訊息推播或 LINE LAP 廣
 created: 2026-03-10 15:13
 last_modified: 2026-07-14 17:10
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

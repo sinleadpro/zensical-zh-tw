@@ -4,9 +4,8 @@ description: 當商家使用 CYBERBIZ PAYMENTS 金流服務時，系統預設需
 created: 2026-06-01 16:06
 last_modified: 2026-06-01 16:06
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

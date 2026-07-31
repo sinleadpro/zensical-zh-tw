@@ -4,9 +4,8 @@ description: 說明如何建立訂閱制活動頁面，包含基本設定、期�
 created: 2026-05-29 18:01
 last_modified: 2026-07-20 18:50
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

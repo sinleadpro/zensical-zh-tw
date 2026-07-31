@@ -4,9 +4,8 @@ description: 在電商倉儲（WMS）中利用 POD 列表追蹤「專車派車�
 created: 2026-03-19 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

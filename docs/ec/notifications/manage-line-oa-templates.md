@@ -4,9 +4,8 @@ description: 設定與管理 LINE 官方帳號（LINE OA）的自動化通知樣
 created: 2026-02-13 23:26
 last_modified: 2026-06-26 06:12
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes:

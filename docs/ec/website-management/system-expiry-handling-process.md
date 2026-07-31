@@ -4,9 +4,8 @@ description: 說明系統服務到期提醒規則、續約方式及不續約的�
 created: 2026-05-27 11:40
 last_modified: 2026-06-30 08:02
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

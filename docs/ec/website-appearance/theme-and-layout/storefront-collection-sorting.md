@@ -5,9 +5,8 @@ created:
 last_modified: 2026-07-01 10:35
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/storefront-collection-sorting/"
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes:

@@ -4,9 +4,8 @@ description: 在電商倉儲中建立供應商資料，能讓商家更清晰地�
 created: 2026-03-16 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

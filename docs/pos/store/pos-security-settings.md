@@ -4,9 +4,8 @@ description: 設定跨店訂單與顧客資訊查看權限、IP 白名單限制�
 created: 2026-04-17 11:30
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

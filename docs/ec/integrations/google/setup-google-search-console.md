@@ -4,9 +4,8 @@ description: 在 Google Search Console 註冊並驗證網站擁有權，以監�
 created: 2026-03-20 14:28
 last_modified: 2026-07-03 11:44
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

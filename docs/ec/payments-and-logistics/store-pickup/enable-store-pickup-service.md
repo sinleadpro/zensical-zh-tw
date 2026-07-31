@@ -4,9 +4,8 @@ description: 完整的門市取貨功能設定流程，包含啟用功能、設�
 created: 2026-01-26 00:00
 last_modified: 2026-06-22 11:15
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

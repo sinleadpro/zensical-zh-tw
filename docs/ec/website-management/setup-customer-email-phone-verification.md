@@ -4,9 +4,8 @@ description: 要求新註冊顧客同時通過 Email 與簡訊驗證，確保會
 created: 2026-05-27 14:58
 last_modified: 2026-07-24 14:12
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

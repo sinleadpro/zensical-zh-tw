@@ -4,9 +4,8 @@ description: 當消費者在定期定額活動頁下單後，系統會產生一�
 created: 2026-06-01 14:54
 last_modified: 2026-07-07 15:00
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: 

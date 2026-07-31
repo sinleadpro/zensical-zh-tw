@@ -4,9 +4,8 @@ description: 使用 CYBERBIZ PAYMENTS 金流服務時，若當期帳單餘額為
 created: 2026-06-01 15:54
 last_modified: 2026-06-26 16:29
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

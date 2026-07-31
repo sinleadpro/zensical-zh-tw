@@ -4,9 +4,8 @@ description: 依商品屬性與條件，自動將符合規則的商品分類至�
 created: 2026-01-15 00:00
 last_modified: 2026-07-22 17:40
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes:

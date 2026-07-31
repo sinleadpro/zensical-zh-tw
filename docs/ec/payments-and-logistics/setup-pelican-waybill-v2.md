@@ -4,9 +4,8 @@ description: 管理宅配通託運單指南，包含設定寄件人資訊、加�
 created: 2026-05-20 12:21
 last_modified: 2026-07-09 14:15
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

@@ -4,10 +4,9 @@ description: 透過數據卡與多種圖表，快速掌握全店營收表現、�
 created: 2026-06-15 00:00
 last_modified: 2026-07-20 18:40
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0

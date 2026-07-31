@@ -4,9 +4,8 @@ description: 透過 CYBERBIZ Meta Ads App 建立目錄商品組合，篩選特�
 created: 2026-04-20 21:10
 last_modified: 2026-07-03 11:45
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

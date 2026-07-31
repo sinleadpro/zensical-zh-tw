@@ -4,9 +4,8 @@ description: 建立多層級商品分類（最多三層），整理群組、支�
 created: 2026-01-13 00:00
 last_modified: 2026-07-22 17:36
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes:

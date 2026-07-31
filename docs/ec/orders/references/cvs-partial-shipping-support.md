@@ -4,10 +4,9 @@ description: "彙整支援部分出貨的超商物流類型，說明哪些可正
 created: 2026-05-26 18:41
 last_modified: 2026-07-02 08:51
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:

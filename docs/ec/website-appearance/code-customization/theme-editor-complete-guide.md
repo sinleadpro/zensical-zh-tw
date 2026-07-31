@@ -7,7 +7,6 @@ lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/website-appearance/code-customization/theme-editor-complete-guide/"
 type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

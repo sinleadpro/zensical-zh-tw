@@ -4,9 +4,8 @@ description: 完成商店授權後，您可以批次將蝦皮商品資訊匯入�
 created: 2026-02-25 00:00
 last_modified: 2026-07-07 12:00
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

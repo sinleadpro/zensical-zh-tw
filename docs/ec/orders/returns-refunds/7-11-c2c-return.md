@@ -4,9 +4,8 @@ description: 開通 7-11 C2C 退貨便、設定收貨人資料、發送退貨寄
 created: 2026-05-26 12:25
 last_modified: 2026-07-06 17:13
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

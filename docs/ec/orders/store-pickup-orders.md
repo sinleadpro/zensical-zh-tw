@@ -4,9 +4,8 @@ description: 當顧客選擇「門市取貨」下單後，管理員需透過後�
 created: 2026-04-24 14:00
 last_modified: 2026-07-15 16:40
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

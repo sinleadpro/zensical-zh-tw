@@ -5,9 +5,8 @@ created:
 last_modified: 2026-07-08 15:00
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/website-management/admin-security-settings/"
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes: []

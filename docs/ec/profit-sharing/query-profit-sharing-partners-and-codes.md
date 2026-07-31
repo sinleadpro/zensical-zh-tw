@@ -4,9 +4,8 @@ description: 您可以隨時在後台查詢所有分潤合作夥伴（包括外�
 created: 2026-02-06 00:00
 last_modified: 2026-06-22 11:15
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

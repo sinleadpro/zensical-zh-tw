@@ -1,6 +1,5 @@
 ---
 title: "AFTEE先享後付 金流說明"
-version: ""
 author: ""
 reviewers: []
 last_modified: 2024-05-23 00:00
@@ -15,7 +14,7 @@ devices:
   - desktop
   - mobile
 apis: []
-type: tutorial
+type: guide
 intents:
   - 申請開通 AFTEE 金流
   - 了解先享後付付款流程

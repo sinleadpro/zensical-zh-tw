@@ -4,9 +4,8 @@ description: 在正式開通串接前，商家需完成合約簽訂、系統環�
 created: 2026-03-18 00:00
 last_modified: 2026-07-13 11:45
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

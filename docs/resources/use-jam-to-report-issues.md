@@ -4,9 +4,8 @@ description: 用 Jam 錄製畫面，提供連結給客服，協助排查問題�
 created: 2026-06-23 16:45
 last_modified: 2026-06-23 17:04
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

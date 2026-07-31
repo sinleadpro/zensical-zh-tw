@@ -4,9 +4,8 @@ description: 串接 LINE Pay 付款，顧客於結帳時可選用 LINE Pay 進�
 created: 2026-01-27 00:00
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes: []

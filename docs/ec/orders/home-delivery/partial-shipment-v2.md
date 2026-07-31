@@ -4,9 +4,8 @@ description: 設定訂單部分出貨，包含操作步驟與不同物流的特�
 created: 2026-05-12 15:11
 last_modified: 2026-07-01 22:30
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

@@ -4,9 +4,8 @@ description: 當會員提出退貨申請或商家需手動啟動退貨程序時�
 created: 2026-02-23 00:00
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

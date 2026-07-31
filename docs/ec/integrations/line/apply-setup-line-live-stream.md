@@ -4,9 +4,8 @@ description: 如何申請 LINE 直播功能，並完成後台參數設定與商�
 created: "2026-03-13 10:35"
 last_modified: 2026-07-02 10:34
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: 

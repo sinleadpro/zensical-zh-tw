@@ -4,10 +4,9 @@ description: 啟用超商條碼繳費功能，顧客如何取得條碼與前往 
 created: 2026-05-04 10:27
 last_modified: 2026-06-30 09:30
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes:
   - modularize 啟用超商條碼 step 1 into a section in cyberbiz payments doc

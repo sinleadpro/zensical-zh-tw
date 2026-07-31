@@ -4,9 +4,8 @@ description: 在批次下載黑貓託運單時，同步自動通知黑貓派車�
 created: 2026-05-13 16:18
 last_modified: 2026-07-09 12:30
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

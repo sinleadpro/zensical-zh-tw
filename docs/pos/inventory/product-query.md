@@ -4,9 +4,8 @@ description: 門市人員可透過 POS 前台快速檢索商品資訊與庫存�
 created: 2026-04-10 10:30
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

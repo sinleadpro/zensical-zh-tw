@@ -4,9 +4,8 @@ description: 了解如何連接 HPRT N130 條碼掃描器至 POS 系統，並進
 created: 2026-06-12 18:55
 last_modified: 2026-06-12 18:55
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

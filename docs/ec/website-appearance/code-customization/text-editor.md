@@ -4,9 +4,8 @@ description: 認識新舊版文字編輯器，在商品描述、自訂頁面與�
 created: "2026-03-19 11:51"
 last_modified: 2026-06-30 11:01
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

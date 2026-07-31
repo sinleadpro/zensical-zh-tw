@@ -4,9 +4,8 @@ description: 自訂訂單明細的顯示內容、套用列印模板、啟用訂�
 created: 2026-05-08 14:21
 last_modified: 2026-07-13 12:24
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes:

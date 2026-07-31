@@ -4,9 +4,8 @@ description: 說明如何自行設定宅配物流選項、運費門檻與溫層�
 created: 2026-06-04 10:02
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

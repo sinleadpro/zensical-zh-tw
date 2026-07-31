@@ -4,9 +4,8 @@ description: 解決在使用掃描槍掃描商品條碼時，系統無法辨識�
 created: 2026-04-07 15:30
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

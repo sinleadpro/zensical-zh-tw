@@ -4,10 +4,9 @@ description: 將 CYBERBIZ 商品影片同步至 Meta 目錄，放置目錄型廣
 created: 2026-04-21 14:27
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:

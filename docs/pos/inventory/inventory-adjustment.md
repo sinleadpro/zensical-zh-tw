@@ -4,9 +4,8 @@ description: 當實際商品數量與系統帳面庫存不符時，您可以透�
 created: 2026-04-08 15:30
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

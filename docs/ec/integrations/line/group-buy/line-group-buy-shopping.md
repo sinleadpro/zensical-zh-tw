@@ -4,9 +4,8 @@ description: 顧客如何在 LINE 群組中透過團購機器人瀏覽商品、�
 created: "2026-03-12 15:40"
 last_modified: 2026-07-02 10:30
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes: []

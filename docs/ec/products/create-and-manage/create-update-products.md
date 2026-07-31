@@ -4,9 +4,8 @@ description: 完成一支商品從新增、設定款式與價格、撰寫商品�
 created: 2026-03-08 17:15
 last_modified: 2026-07-15 15:15
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

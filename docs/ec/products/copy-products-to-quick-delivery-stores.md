@@ -4,9 +4,8 @@ description: 學習如何將適合快速配送的商品複製到門市專區，�
 created: 2026-02-03 00:00
 last_modified: 2026-06-04 17:59
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

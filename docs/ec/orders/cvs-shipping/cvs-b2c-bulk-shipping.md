@@ -4,9 +4,8 @@ description: 於訂單列表批次下載託運單、產生託運單號，並將�
 created: 2026-05-25 20:35
 last_modified: 2026-07-01 12:30
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

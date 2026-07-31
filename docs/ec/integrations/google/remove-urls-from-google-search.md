@@ -4,9 +4,8 @@ description: 透過 Google Search Console 移除網址工具，排除特定網�
 created: 2026-03-24 17:04
 last_modified: 2026-07-02 17:02
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

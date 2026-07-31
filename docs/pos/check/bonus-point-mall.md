@@ -4,9 +4,8 @@ description: 建立專屬的線上紅利兌換商城，設定商品兌換所需�
 created: 2026-04-10 10:00
 last_modified: 2026-06-22 11:15
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

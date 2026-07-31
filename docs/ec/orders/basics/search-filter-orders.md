@@ -4,9 +4,8 @@ description: 使用關鍵字搜尋、條件篩選、檢視群組與訂單標籤�
 created: 2026-05-07 11:23
 last_modified: 2026-07-13 09:53
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

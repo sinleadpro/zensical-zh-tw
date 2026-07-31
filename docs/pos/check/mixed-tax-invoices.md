@@ -4,9 +4,8 @@ description: 瞭解如何設定商品應稅或免稅屬性，並在 POS 結帳�
 created: 2026-04-16 11:15
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

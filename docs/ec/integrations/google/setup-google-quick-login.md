@@ -4,9 +4,8 @@ description: "設定 Google 快速登入功能，讓消費者能使用 Google �
 created: "2026-03-17 12:26"
 last_modified: 2026-07-02 14:04
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

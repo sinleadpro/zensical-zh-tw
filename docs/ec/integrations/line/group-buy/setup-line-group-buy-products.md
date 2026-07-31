@@ -4,9 +4,8 @@ description: 設定 LINE 團購商品分類，從官網公開商品建立團購�
 created: "2026-03-12 10:29"
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes:

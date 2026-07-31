@@ -4,9 +4,8 @@ description: 當門市遇到網路斷線或不穩時，CYBERBIZ 提供「離線�
 created: 2026-03-25 18:00
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

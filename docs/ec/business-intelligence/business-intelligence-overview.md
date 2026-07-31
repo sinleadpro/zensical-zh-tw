@@ -4,10 +4,9 @@ description: 透過圖表總覽在單一頁面掌握網路商店與實體門市�
 created: 2026-06-15 10:01
 last_modified: 2026-07-22 17:05
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:

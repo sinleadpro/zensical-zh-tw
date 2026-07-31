@@ -4,9 +4,8 @@ description: 設定針對商品多層級分類的滿額折扣活動，當訂單�
 created: 2024-05-23 00:00
 last_modified: 2026-07-22 17:36
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: ""
 reviewers: []
 notes: []

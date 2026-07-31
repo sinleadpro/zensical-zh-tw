@@ -4,9 +4,8 @@ description: 啟用與管理二階段驗證（2FA），包含驗證器綁定、�
 created: 2026-03-16 20:06
 last_modified: 2026-07-03 11:44
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

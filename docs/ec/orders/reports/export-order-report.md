@@ -4,9 +4,8 @@ description: "匯出訂單報表並以 Excel 格式寄送至管理員信箱，�
 created: "2026-03-13 23:45"
 last_modified: 2026-06-30 15:50
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

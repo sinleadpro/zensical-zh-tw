@@ -4,10 +4,9 @@ description: 設定拖拉版型商品的色票功能，讓前台消費者能透�
 created: 2026-04-14 14:55
 last_modified: 2026-07-06 10:22
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: 
 reviewers: []
 notes: []
 ga_views: 0

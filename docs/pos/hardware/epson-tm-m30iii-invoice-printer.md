@@ -4,9 +4,8 @@ description: 透過 Wi-Fi 無線連接方式安裝 EPSON TM-M30III 發票機，�
 created: 2026-05-27 12:20
 last_modified: 2026-05-27 12:20
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

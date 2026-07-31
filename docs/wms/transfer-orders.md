@@ -4,9 +4,8 @@ description: 在電商倉儲中，庫存分布於多個不同的「倉別」。�
 created: 2026-03-19 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

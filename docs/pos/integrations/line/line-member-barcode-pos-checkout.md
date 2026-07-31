@@ -5,9 +5,8 @@ created:
 last_modified: 2026-07-03 11:43
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/pos/integrations/line/line-member-barcode-pos-checkout/"
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes: []

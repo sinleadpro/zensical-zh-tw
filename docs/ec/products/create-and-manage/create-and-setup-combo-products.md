@@ -7,7 +7,6 @@ lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/products/create-and-manage/create-and-setup-combo-products/"
 type: guide
 status: update
-version:
 author: ""
 reviewers: []
 notes:

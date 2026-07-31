@@ -4,9 +4,8 @@ description: 依照行銷活動或主題手動挑選商品建立群組，作為�
 created: 2026-01-08 00:00
 last_modified: 2026-07-22 17:23
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes:

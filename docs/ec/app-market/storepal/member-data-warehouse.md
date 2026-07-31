@@ -4,9 +4,8 @@ description: 深入分析會員的消費歷史、VIP 等級與現有資產，運
 created: 2026-05-05 11:15
 last_modified: 2026-06-27 13:40
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

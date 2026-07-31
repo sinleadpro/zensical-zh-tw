@@ -4,9 +4,8 @@ description: 透過 Meta 授權流程將 Facebook 粉絲專頁與 Chat Box 連�
 created: 2026-05-28 13:41
 last_modified: 2026-05-28 13:41
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

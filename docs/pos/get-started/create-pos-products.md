@@ -4,9 +4,8 @@ description: 了解如何將 EC 網站商品同步至 POS 商店，或為 POS �
 created: 2026-06-24 16:50
 last_modified: 2026-06-24 16:50
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

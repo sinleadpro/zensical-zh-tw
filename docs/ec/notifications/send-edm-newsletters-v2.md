@@ -4,9 +4,8 @@ description: 建立 EDM 內容、選擇發送對象並發送電子報給會員�
 created: 2026-03-10 00:28
 last_modified: 2026-07-02 13:02
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

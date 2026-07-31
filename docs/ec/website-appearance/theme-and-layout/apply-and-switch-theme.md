@@ -4,10 +4,9 @@ description: 透過套版主題管理隨時下載、切換與發布不同的網�
 created: 2026-06-22 10:00
 last_modified: 2026-07-22 15:50
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0

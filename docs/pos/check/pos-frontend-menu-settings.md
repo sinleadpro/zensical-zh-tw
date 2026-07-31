@@ -4,9 +4,8 @@ description: 說明如何設定 POS 前台的圖形化商品選單，透過多�
 created: 2026-06-01 16:22
 last_modified: 2026-06-01 16:22
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: 

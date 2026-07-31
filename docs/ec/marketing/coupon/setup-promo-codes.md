@@ -4,9 +4,8 @@ description: 設定優惠碼（折扣、免運、贈品），包含基本設定�
 created: 2026-05-27 13:55
 last_modified: 2026-07-20 14:50
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

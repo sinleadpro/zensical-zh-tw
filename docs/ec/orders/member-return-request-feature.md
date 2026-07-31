@@ -4,9 +4,8 @@ description: 學習如何開啟前台退貨申請功能，包含全單退貨與�
 created: 2026-02-23 00:00
 last_modified: 2026-06-04 17:59
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

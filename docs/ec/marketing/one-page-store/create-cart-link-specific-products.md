@@ -4,10 +4,9 @@ description: 建立特殊的購物車連結，自動將預設商品與數量加�
 created: 2026-04-29 14:06
 last_modified: 2026-07-22 16:22
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:

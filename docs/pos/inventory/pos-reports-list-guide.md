@@ -4,9 +4,8 @@ description: "報表列表提供了多維度的數據分析工具，協助管理
 created: "2026-03-15 23:01"
 last_modified: 
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

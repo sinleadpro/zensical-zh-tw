@@ -4,9 +4,8 @@ description: 透過紅利點數建立會員回饋機制，吸引新客首購並�
 created: 2026-05-27 15:20
 last_modified: 2026-07-21 11:00
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.2
 author: Ann
 reviewers: []
 notes: []

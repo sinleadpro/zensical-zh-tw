@@ -4,9 +4,8 @@ description: 透過商品標籤設定或商務管理工具，排除特定商品�
 created: 2026-04-14 11:25
 last_modified: 2026-07-03 11:45
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

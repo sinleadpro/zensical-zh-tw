@@ -4,9 +4,8 @@ description: 協助總部管理者配置全品牌統一的門市助理功能開�
 created: 2026-06-22 10:11
 last_modified: 2026-06-22 10:11
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

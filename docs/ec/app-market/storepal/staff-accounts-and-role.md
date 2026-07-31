@@ -4,9 +4,8 @@ description: 了解如何設定門市助理後台的基本功能、帳號權限�
 created: 2026-05-08 10:11
 last_modified: 2026-06-18 10:11
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

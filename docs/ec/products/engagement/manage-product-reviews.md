@@ -4,9 +4,8 @@ description: 啟用並管理商品評論功能。
 created: 2026-03-05 16:00
 last_modified: 2026-07-06 18:40
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes: []

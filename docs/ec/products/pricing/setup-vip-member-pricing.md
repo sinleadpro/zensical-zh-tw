@@ -4,9 +4,8 @@ description: 為不同等級的 VIP 會員設定差異化商品售價，並透�
 created: 2026-03-08 17:45
 last_modified: 2026-07-07 16:13
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes:

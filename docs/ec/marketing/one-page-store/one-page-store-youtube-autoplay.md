@@ -4,9 +4,8 @@ description: 調整 YouTube 影片網址參數，在一頁式商店中設定自�
 created: 2024-05-23 11:30
 last_modified: 2026-06-24 11:30
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes:

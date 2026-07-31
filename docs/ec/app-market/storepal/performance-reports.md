@@ -4,9 +4,8 @@ description: 了解門市助理提供的推薦人報表與業績歸因報表，�
 created: 2026-06-22 11:15
 last_modified: 2026-06-22 11:15
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

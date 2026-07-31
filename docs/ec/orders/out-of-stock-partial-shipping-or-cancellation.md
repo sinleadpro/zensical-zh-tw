@@ -4,9 +4,8 @@ description: 當快速到貨訂單發生商品缺貨、訂單超出材積限制�
 created: 2026-02-06 00:00
 last_modified: 2026-07-06 17:00
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

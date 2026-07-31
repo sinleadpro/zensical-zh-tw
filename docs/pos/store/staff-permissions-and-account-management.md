@@ -4,9 +4,8 @@ description: 建立標準化的「身分模板」並指派給對應的「員工�
 created: 2026-03-25 19:15
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

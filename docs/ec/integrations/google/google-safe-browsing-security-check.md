@@ -4,10 +4,9 @@ description: 了解如何使用 Google 安全瀏覽網站狀態檢查工具，�
 created: 2026-03-25 21:29
 last_modified: 2026-07-02 17:05
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:

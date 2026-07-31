@@ -4,9 +4,8 @@ description: 整合 LINE OA 與 CYBERBIZ 系統，實現自動化訂單通知、
 created: 2026-02-09 00:00
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes: []

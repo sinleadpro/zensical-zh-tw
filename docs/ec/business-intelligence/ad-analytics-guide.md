@@ -4,10 +4,9 @@ description: 不必登入 Google Ads 後台，在 CYBERBIZ 就能看懂 Google �
 created: 2026-06-15 00:00
 last_modified: 2026-07-12 19:51
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0

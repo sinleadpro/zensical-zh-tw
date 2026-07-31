@@ -4,9 +4,8 @@ description: 依據商品的通路、溫層、物流及預購屬性設定拆單�
 created: 2026-03-05 15:00
 last_modified: 2026-07-15 13:58
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes: []

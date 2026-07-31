@@ -4,9 +4,8 @@ description: 批次下載黑貓宅配託運單、扣除運費並將訂單貨態�
 created: 2026-05-12 15:53
 last_modified: 2026-07-07 11:04
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes:

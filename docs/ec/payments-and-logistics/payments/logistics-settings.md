@@ -4,9 +4,8 @@ description: 調整配送過程中的細節規範與顧客可指定的送貨偏�
 created: 2026-06-16 00:00
 last_modified: 2026-07-09 11:20
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

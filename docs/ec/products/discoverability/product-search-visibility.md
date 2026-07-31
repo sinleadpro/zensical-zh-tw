@@ -13,7 +13,7 @@ devices:
   - desktop
   - mobile
 apis: []
-type: tutorial
+type: guide
 intents:
   - 控制商品搜尋可見性
   - 隱藏商品

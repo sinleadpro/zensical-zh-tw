@@ -4,9 +4,8 @@ description: 管理商品撥入倉庫的單據，支援手動發起、接收出�
 created: 2026-04-09 18:00
 last_modified: 2026-07-27 17:00
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.2.1
 author: Ann
 reviewers: []
 notes: []

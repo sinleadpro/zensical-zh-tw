@@ -4,9 +4,8 @@ description: 本文件說明快速到貨服務的運費計價標準，系統自�
 created: 2026-02-06 00:00
 last_modified: 2026-07-15 14:20
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

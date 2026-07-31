@@ -4,9 +4,8 @@ description: 設定訂單加價購可依訂單金額或條件作為觸發門檻�
 created: 2026-01-12 00:00
 last_modified: 2026-07-22 17:39
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes: []

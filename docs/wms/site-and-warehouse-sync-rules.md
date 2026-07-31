@@ -6,7 +6,6 @@ last_modified: 2026-07-21 11:00
 lang: zh-TW
 type: guide
 status: update
-version: 1.1.2
 author: Ann
 reviewers: []
 notes:

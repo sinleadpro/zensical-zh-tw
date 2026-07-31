@@ -4,9 +4,8 @@ description: 管理 POS 前台提供的支付工具，包含現金、信用卡�
 created: 2026-04-10 16:30
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

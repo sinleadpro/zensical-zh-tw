@@ -4,9 +4,8 @@ description: CYBERBIZ 提供標準信用卡服務，更整合了在地龍頭金�
 created: 2026-03-03 00:00
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

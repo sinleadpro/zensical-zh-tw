@@ -4,9 +4,8 @@ description: 學習如何開啟商品貨到通知功能，當缺貨商品補庫�
 created: 2026-03-05 14:20
 last_modified: 2026-07-03 11:44
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes: []

@@ -4,9 +4,8 @@ description: 透過 Excel 檔案，您可以快速完成大量會員的資料建
 created: 2026-02-11 00:00
 last_modified: 2026-06-30 12:30
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

@@ -4,9 +4,8 @@ description: 門市人員在結帳時能針對整筆訂單進行彈性改價。�
 created: 2026-04-27 15:00
 last_modified: 2026-04-27 15:00
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

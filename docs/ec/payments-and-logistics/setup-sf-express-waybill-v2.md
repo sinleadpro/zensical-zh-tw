@@ -4,9 +4,8 @@ description: 設定順豐託運單，包括建立寄件人資訊、加印託運�
 created: 2026-05-20 21:23
 last_modified: 2026-07-07 14:19
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

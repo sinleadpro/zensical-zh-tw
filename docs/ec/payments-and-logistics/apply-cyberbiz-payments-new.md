@@ -4,9 +4,8 @@ description: 設定網站、提交商店資訊，並啟用 CYBERBIZ PAYMENTS。
 created: 2026-01-26 00:00
 last_modified: 2026-06-30 16:54
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes:

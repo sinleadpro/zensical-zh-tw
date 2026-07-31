@@ -4,9 +4,8 @@ description: 設定排除標籤，讓商品不上傳至第三方平台。
 created: 2026-06-29 16:30
 last_modified: 2026-06-30 11:26
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes:

@@ -4,9 +4,8 @@ description: 了解門市助理（Store Assistant）的安裝流程與前置設�
 created: 2026-06-18 16:00
 last_modified: 2026-07-01 12:00
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

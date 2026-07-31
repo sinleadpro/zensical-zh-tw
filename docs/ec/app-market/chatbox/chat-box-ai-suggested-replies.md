@@ -4,9 +4,8 @@ description: 透過 AI 助手自動學習您的品牌政策與商品資訊，為
 created: 2026-05-28 12:10
 last_modified: 2026-05-28 12:08
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

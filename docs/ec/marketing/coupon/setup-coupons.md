@@ -4,9 +4,8 @@ description: 說明如何設定優惠券，包含全館發送、批次匯入發�
 created: 2026-05-27 16:30
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

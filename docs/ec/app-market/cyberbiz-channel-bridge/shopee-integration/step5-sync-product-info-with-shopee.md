@@ -4,9 +4,8 @@ description: 建立關聯後，您可以透過 商品資訊同步 機制，讓�
 created: 2026-02-25 00:00
 last_modified: 2026-06-27 13:40
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

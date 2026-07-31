@@ -4,9 +4,8 @@ description: 於商品、分類、文章或全站設定中指定 Open Graph（OG
 created: 2025-03-03 00:00
 last_modified: 2026-06-30 11:01
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes:

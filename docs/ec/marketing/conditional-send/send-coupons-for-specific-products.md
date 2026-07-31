@@ -4,9 +4,8 @@ description: 建立「優惠券群組」，當會員購買指定商品並完成�
 created: 2026-01-21 00:00
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []

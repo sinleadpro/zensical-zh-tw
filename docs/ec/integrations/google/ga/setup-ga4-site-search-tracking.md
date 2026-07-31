@@ -4,10 +4,9 @@ description: 透過 GA4 加強型評估功能，追蹤使用者在官網上的�
 created: 2026-03-24 20:05
 last_modified: 2026-07-03 11:45
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
-version: "1"
 reviewers: []
 notes: []
 ga_views: 0

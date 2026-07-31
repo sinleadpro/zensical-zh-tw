@@ -4,9 +4,8 @@ description: 修改樣板檔案中的 delay 參數，調整首頁跑馬燈（輪
 created: 2025-03-03 14:20
 last_modified: 2026-06-30 21:35
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

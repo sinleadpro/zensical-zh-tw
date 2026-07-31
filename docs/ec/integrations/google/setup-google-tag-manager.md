@@ -4,9 +4,8 @@ description: "建立 Google Tag Manager 帳戶與容器，並將 GTM 程式碼�
 created: "2026-03-17 16:31"
 last_modified: 2026-07-02 14:03
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: ""
 author: Jase
 reviewers: []
 notes: []

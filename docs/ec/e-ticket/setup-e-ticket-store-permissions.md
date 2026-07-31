@@ -4,9 +4,8 @@ description: 設定電子票券在不同門市與合作品牌下的核銷權限�
 created: 2026-01-22 00:00
 last_modified: 2026-07-22 17:38
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version:
 author: Jase
 reviewers: []
 notes: []

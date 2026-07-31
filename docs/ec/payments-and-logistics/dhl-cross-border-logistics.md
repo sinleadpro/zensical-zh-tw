@@ -4,9 +4,8 @@ description: 透過 CYBERBIZ 後台串接 DHL 國際快遞，您可以直接產�
 created: 2026-03-05 00:00
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:

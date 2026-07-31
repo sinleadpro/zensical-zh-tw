@@ -4,7 +4,7 @@ description: "建立與驗證 Google 商家檔案，讓實體店面在 Google �
 created: "2026-03-18 15:16"
 last_modified: 2026-07-02 14:00
 lang: zh-TW
-type: tutorial
+type: guide
 status: update
 author: Jase
 reviewers: []
