@@ -38,7 +38,7 @@ prerequisites: []
 related: []
 tags:
   - 驅動程式
-  - POS_App
+  - POS App
   - 安裝教學
   - 故障排除
 acoiv: activate

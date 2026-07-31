@@ -46,7 +46,7 @@ tags:
   - 出倉單
   - 庫存管理
   - 全通路庫存
-  - POS_出倉
+  - POS 出倉
 acoiv: operation
 apis: []
 devices:

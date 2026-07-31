@@ -30,8 +30,8 @@ plans:
 cyb_extensions: []
 intents:
   - 製作推薦連結
-  - 產生_QR_Code
-  - 設定_UTM_參數
+  - 產生 QR Code
+  - 設定 UTM 參數
   - 測試推薦連結
 features:
   - 推薦人分潤
@@ -40,7 +40,7 @@ prerequisites: []
 related: []
 tags:
   - 推薦連結
-  - QR_Code
+  - QR Code
   - UTM
   - 短網址
   - 行銷追蹤
@@ -116,8 +116,8 @@ hide: []
         用於區分同一個推薦人在不同管道的表現。
 
         - **手動設定規則**：在推薦連結（如 `.../?rcode=xxx`）後方加上 `&` 符號，接著填入 UTM 參數。
-        - **正確範例**：`https://.../?rcode=xxx&utm_medium=fb&utm_source=kol_a`
-        - **錯誤範例**：`https://.../?rcode=xxx?utm_medium=fb`（不可使用兩個問號）
+        - **正確範例**：`https://.../?rcode=xxx&utm medium=fb&utm source=kol a`
+        - **錯誤範例**：`https://.../?rcode=xxx?utm medium=fb`（不可使用兩個問號）
 
 
 ### 步驟 2：測試推薦連結有效性

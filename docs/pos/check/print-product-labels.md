@@ -43,7 +43,7 @@ prerequisites:
 related:
   - [[標籤機安裝與後台列印教學]]
 tags:
-  - POS_前台
+  - POS 前台
   - 標籤列印
   - 門市效率
   - 商品標籤

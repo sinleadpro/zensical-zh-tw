@@ -31,9 +31,9 @@ plans:
 cyb_extensions:
   - CHAT BOX
 intents:
-  - 串接_LINE_官方帳號
-  - 同步_LINE_對話至_Chat_Box
-  - 設定_LINE_Messaging_API
+  - 串接 LINE 官方帳號
+  - 同步 LINE 對話至 Chat Box
+  - 設定 LINE Messaging API
 features:
   - Chat Box
   - LINE 整合
@@ -45,9 +45,9 @@ related:
   - "[[Chat Box 訊息通]]"
   - "[[LINE 訊息格式規範]]"
 tags:
-  - LINE_串接
+  - LINE 串接
   - ChatBox
-  - Messaging_API
+  - Messaging API
   - 第三方整合
 acoiv: configure
 apis: []

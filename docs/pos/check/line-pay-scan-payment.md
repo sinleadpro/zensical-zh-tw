@@ -30,10 +30,10 @@ plans:
   - 企業
 cyb_extensions: []
 intents:
-  - 如何申請POS_LINE_Pay
-  - POS_LINE_Pay金鑰設定
-  - POS前台LINE_Pay結帳教學
-  - LINE_Pay手續費查詢
+  - 如何申請POS LINE Pay
+  - POS LINE Pay金鑰設定
+  - POS前台LINE Pay結帳教學
+  - LINE Pay手續費查詢
 features:
   - LINE Pay 掃碼支付
   - 行動支付
@@ -42,9 +42,9 @@ features:
 prerequisites: []
 related: []
 tags:
-  - LINE_Pay
+  - LINE Pay
   - 行動支付
-  - POS_結帳
+  - POS 結帳
   - 門市收款
   - 掃碼槍
 acoiv: configure

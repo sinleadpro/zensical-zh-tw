@@ -32,8 +32,8 @@ plans:
   - 企業
 cyb_extensions: []
 intents:
-  - 建立_Google_購物廣告活動
-  - 串接_GMC_帳號
+  - 建立 Google 購物廣告活動
+  - 串接 GMC 帳號
   - 管理廣告預算與儲值
 features:
   - 自動化廣告系統
@@ -48,7 +48,7 @@ related:
 tags:
   - GMC
   - Google
-  - Google_Ads
+  - Google Ads
   - 廣告推播
   - ROAS
 acoiv: ""

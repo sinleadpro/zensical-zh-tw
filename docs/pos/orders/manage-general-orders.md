@@ -40,7 +40,7 @@ prerequisites: []
 related:
   - [[庫存盤點]]
 tags:
-  - POS_訂單
+  - POS 訂單
   - 退換貨流程
   - 發票作廢
   - 訂單取消

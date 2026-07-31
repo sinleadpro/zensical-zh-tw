@@ -42,7 +42,7 @@ prerequisites:
 related:
   - [[POS 門市取貨店員分潤]]
 tags:
-  - POS_門市取貨
+  - POS 門市取貨
   - 到店入庫
   - 客戶取貨
   - 逾期處理
@@ -60,7 +60,7 @@ paths:
   - POS 前台 > 訂單 > 門市取貨訂單
 layouts:
   - 
-wp_url:
+wp url:
   - https://www.cyberbiz.io/support/?p=10488
 permalink: "https://help.cyberbiz.io/pos/orders/store-pickup-orders-inbound-and-pickup/"
 comments: false

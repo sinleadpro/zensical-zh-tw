@@ -31,7 +31,7 @@ plans:
 cyb_extensions: []
 intents:
   - 啟用訪客結帳
-  - POS_訪客登入
+  - POS 訪客登入
   - 查詢訪客訂單
 features:
   - POS 訪客結帳
@@ -39,7 +39,7 @@ features:
 prerequisites: []
 related: []
 tags:
-  - POS_訪客
+  - POS 訪客
   - 不加入會員結帳
   - 快速結帳
   - 訪客訂單查詢
@@ -57,7 +57,7 @@ paths:
   - POS 前台 > 登入頁面
 layouts:
   - 
-wp_url:
+wp url:
   - https://www.cyberbiz.io/support/?p=12638
 permalink: "https://help.cyberbiz.io/pos/check/guest-checkout/"
 comments: false

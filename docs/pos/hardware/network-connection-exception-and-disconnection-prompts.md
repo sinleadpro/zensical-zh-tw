@@ -42,9 +42,9 @@ related: []
 tags:
   - 網路不穩
   - 斷線提示
-  - POS_前台
+  - POS 前台
   - 疑難排解
-  - Chrome_擴充套件
+  - Chrome 擴充套件
 acoiv: operation
 apis: []
 devices:

@@ -47,8 +47,8 @@ tags:
   - 離線結帳
   - 斷線應急
   - 訂單同步
-  - POS_前台
-  - SKU_掃碼
+  - POS 前台
+  - SKU 掃碼
 acoiv: operation
 apis: []
 devices:

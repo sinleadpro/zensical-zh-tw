@@ -47,7 +47,7 @@ related:
   - "[[edit-product-description-settings]]"
 tags:
   - 批次修改
-  - Excel_匯入
+  - Excel 匯入
   - 商品描述
   - 溫層設定
   - 物流通路

@@ -39,7 +39,7 @@ features:
 prerequisites: []
 related: []
 tags:
-  - POS_硬體需求
+  - POS 硬體需求
   - 系統規格
   - Windows
   - Chrome
@@ -52,7 +52,7 @@ ui_components: []
 paths: []
 layouts:
   - 
-wp_url:
+wp url:
   - https://www.cyberbiz.io/support/?p=9439
 permalink: "https://help.cyberbiz.io/pos/hardware/"
 comments: false

@@ -46,7 +46,7 @@ tags:
   - 進倉流程
   - 庫存點收
   - 全通路管理
-  - POS_庫存
+  - POS 庫存
 acoiv: operation
 apis: []
 devices:

@@ -30,9 +30,9 @@ plans:
   - 企業
 cyb_extensions: []
 intents:
-  - 如何設定_POS_客顯螢幕
-  - POS_廣告牆設定教學
-  - POS_加價購如何顯示在客顯
+  - 如何設定 POS 客顯螢幕
+  - POS 廣告牆設定教學
+  - POS 加價購如何顯示在客顯
   - 解決客顯影片無法播放問題
 features:
   - POS 客戶顯示器
@@ -43,9 +43,9 @@ features:
 prerequisites: []
 related: []
 tags:
-  - POS_客顯
+  - POS 客顯
   - 數位看板
-  - YouTube_版權排除
+  - YouTube 版權排除
   - 門市行銷
 acoiv: configure
 apis: []

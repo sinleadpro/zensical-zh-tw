@@ -42,7 +42,7 @@ prerequisites:
   - 
 related: []
 tags:
-  - POS_混稅發票
+  - POS 混稅發票
   - 免稅商品
   - 發票設定
   - 稅別管理
@@ -58,7 +58,7 @@ paths:
   - 管理後台 > 商品 > 所有商品
 layouts:
   - 
-wp_url:
+wp url:
   - https://www.cyberbiz.io/support/?p=37151
   - https://www.cyberbiz.io/support/?p=37500
 permalink: "https://help.cyberbiz.io/pos/check/mixed-tax-invoices/"

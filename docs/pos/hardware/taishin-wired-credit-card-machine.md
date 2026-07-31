@@ -48,7 +48,7 @@ tags:
   - 信用卡機
   - 台新金流
   - RS232
-  - POS_硬體
+  - POS 硬體
   - 刷卡結帳
 acoiv: configure
 apis: []

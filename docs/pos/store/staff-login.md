@@ -41,9 +41,9 @@ prerequisites:
 related:
   - [[公告]]
 tags:
-  - POS_登入
+  - POS 登入
   - 員工切換
-  - POS_介面導覽
+  - POS 介面導覽
 acoiv: activate
 apis: []
 devices:
@@ -58,7 +58,7 @@ paths:
   - POS 前台 > 登入
 layouts:
   - 
-wp_url:
+wp url:
   - https://www.cyberbiz.io/support/?p=2915
 permalink: "https://help.cyberbiz.io/pos/store/staff-login/"
 comments: false
@@ -95,7 +95,7 @@ hide: []
 
 1. 在瀏覽器輸入商店登入網址。（以下擇一輸入）
     - `https://[您的商店名稱].cyberbiz.co/admin`
-    - `https://[您的商店名稱].cyberbiz.co/user/sign_in`
+    - `https://[您的商店名稱].cyberbiz.co/user/sign in`
 2. 在登入頁面輸入 **電子郵件** 與 **密碼**。
 3. 點擊 **登入**。
 4. 登入成功後，系統將自動導向 POS 前台預設畫面。

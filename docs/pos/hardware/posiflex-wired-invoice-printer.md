@@ -45,7 +45,7 @@ tags:
   - Posiflex
   - 發票機
   - 盟立發票
-  - POS_硬體
+  - POS 硬體
   - 電子發票
 acoiv: configure
 apis: []

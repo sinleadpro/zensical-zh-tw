@@ -44,7 +44,7 @@ related:
 tags:
   - 建立門市
   - 一般門市
-  - POS_門市
+  - POS 門市
   - 門市清單
 acoiv: configure
 apis: []
@@ -59,7 +59,7 @@ paths:
   - 金物流 > 所有門市
 layouts:
   - 
-wp_url:
+wp url:
   - https://www.cyberbiz.io/support/?p=15619
   - https://www.cyberbiz.io/support/?p=10454
   - https://www.cyberbiz.io/support/?p=12804

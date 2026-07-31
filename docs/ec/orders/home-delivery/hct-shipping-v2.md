@@ -48,7 +48,7 @@ tags:
   - 新竹物流
   - 託運單
   - 批次出貨
-  - Cyber_幣
+  - Cyber 幣
 acoiv: operation
 apis: []
 devices:

@@ -29,7 +29,7 @@ plans:
   - 企業
 cyb_extensions: []
 intents:
-  - 設定_POS_付款方式
+  - 設定 POS 付款方式
   - 串接信用卡機
   - 設定行動支付
 features:
@@ -39,9 +39,9 @@ features:
 prerequisites: []
 related: []
 tags:
-  - POS_付款方式
+  - POS 付款方式
   - 信用卡
-  - LINE_Pay
+  - LINE Pay
   - 行動支付
 acoiv: configure
 apis: []

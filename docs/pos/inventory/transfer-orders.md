@@ -46,7 +46,7 @@ tags:
   - 調倉單
   - 跨店調撥
   - 庫存管理
-  - POS_調倉
+  - POS 調倉
 acoiv: operation
 apis: []
 devices:

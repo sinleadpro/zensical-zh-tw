@@ -31,7 +31,7 @@ plans:
 cyb_extensions: []
 intents:
   - 管理全通路庫存
-  - POS_進出倉操作
+  - POS 進出倉操作
   - 執行庫存盤點
   - 申請門市調倉
 features:
@@ -43,7 +43,7 @@ prerequisites: []
 related: []
 tags:
   - 全通路庫存
-  - POS_庫存管理
+  - POS 庫存管理
   - 進倉
   - 出倉
   - 庫存盤點

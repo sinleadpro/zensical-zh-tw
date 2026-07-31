@@ -40,7 +40,7 @@ prerequisites:
   - [[登入 POS 前台系統]]
 related: []
 tags:
-  - POS_綁定
+  - POS 綁定
   - 重複登入防止
   - 子機管理
   - 結帳安全
@@ -59,7 +59,7 @@ paths:
   - 管理後台 > POS > 所有 POS 商店
 layouts:
   - 
-wp_url:
+wp url:
   - https://www.cyberbiz.io/support/?p=25293
 permalink: "https://help.cyberbiz.io/pos/check/sub-device-checkout-binding/"
 comments: false

@@ -46,7 +46,7 @@ tags:
   - 進倉單
   - 庫存管理
   - 收貨清點
-  - POS_進倉
+  - POS 進倉
 acoiv: operation
 apis: []
 devices:

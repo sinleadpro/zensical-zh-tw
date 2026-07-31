@@ -47,8 +47,8 @@ related:
 tags:
   - 分眾訊息
   - 訊息推播
-  - LINE_Messaging_API
-  - LINE_OA
+  - LINE Messaging API
+  - LINE OA
 acoiv: operation
 apis: []
 devices:

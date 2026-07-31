@@ -47,7 +47,7 @@ related:
 tags:
   - 庫存調整
   - 盤盈盤虧
-  - POS_前台操作
+  - POS 前台操作
   - 後台管理
   - 庫存報表
 acoiv: operation

@@ -47,7 +47,7 @@ related:
   - "[[Chat Box 訊息通]]"
 tags: 
   - 對話入口
-  - Chat_Box
+  - Chat Box
   - LINE
   - Messenger
   - 客服整合

@@ -29,9 +29,9 @@ plans:
   - 企業
 cyb_extensions: []
 intents:
-  - 設定_POS_跨店權限
-  - 配置_IP_白名單
-  - 監控_POS_訂單來源
+  - 設定 POS 跨店權限
+  - 配置 IP 白名單
+  - 監控 POS 訂單來源
 features:
   - POS 安全性設定
   - IP 白名單
@@ -40,8 +40,8 @@ prerequisites: []
 related:
   - [[設定與管理 POS 子機結帳綁定]]
 tags:
-  - POS_安全性
-  - IP_白名單
+  - POS 安全性
+  - IP 白名單
   - 權限管理
   - 跨店查看
 acoiv: configure
@@ -58,7 +58,7 @@ paths:
   - POS 功能 > 所有 POS 商店
 layouts:
   - 
-wp_url:
+wp url:
   - https://www.cyberbiz.io/support/?p=27199
   - https://www.cyberbiz.io/support/?p=5231
 permalink: "https://help.cyberbiz.io/pos/store/security-settings/"

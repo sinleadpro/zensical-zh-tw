@@ -37,7 +37,7 @@ tags:
   - POS 續約
   - 加購子機
   - 合約管理
-  - POS_方案
+  - POS 方案
 acoiv: operation
 apis: []
 devices:

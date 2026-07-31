@@ -38,7 +38,7 @@ features:
 prerequisites: []
 related: []
 tags:
-  - POS_分潤
+  - POS 分潤
   - 門市取貨
   - 店員獎金
   - 勞務處理費

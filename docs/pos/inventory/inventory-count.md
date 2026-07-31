@@ -45,7 +45,7 @@ related:
   - [[全通路庫存管理]]
 tags:
   - 庫存盤點
-  - POS_前台操作
+  - POS 前台操作
   - 庫存校正
   - 盤盈盤虧
   - 門市管理
@@ -63,7 +63,7 @@ paths:
   - POS 後台 > POS 功能 > 盤點單
 layouts:
   - 
-wp_url:
+wp url:
   - https://www.cyberbiz.io/support/?p=39410
 permalink: "https://help.cyberbiz.io/pos/inventory/inventory-count/"
 comments: false

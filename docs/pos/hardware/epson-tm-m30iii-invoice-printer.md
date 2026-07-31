@@ -31,8 +31,8 @@ plans:
 cyb_extensions: []
 intents: 
   - 安裝發票機
-  - EPSON_TM-m30III_安裝
-  - Wi-Fi_連接發票機
+  - EPSON TM-m30III 安裝
+  - Wi-Fi 連接發票機
 features: 
   - 發票機安裝
   - Wi-Fi 設定
@@ -42,7 +42,7 @@ related:
 tags: 
   - EPSON
   - 發票機
-  - POS_硬體
+  - POS 硬體
   - TM-m30III
   - Wi-Fi
 acoiv: activate

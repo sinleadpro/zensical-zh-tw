@@ -40,7 +40,7 @@ prerequisites: []
 related:
   - [[設定推薦人分潤方案]]
 tags:
-  - POS_會員管理
+  - POS 會員管理
   - 會員註冊
   - 分潤方案
 acoiv: operation
@@ -58,7 +58,7 @@ paths:
   - POS 前台 > 會員
 layouts:
   - 
-wp_url:
+wp url:
   - https://www.cyberbiz.io/support/?p=27954
 permalink: "https://help.cyberbiz.io/pos/member/"
 comments: false

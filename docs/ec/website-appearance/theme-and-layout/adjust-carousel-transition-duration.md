@@ -47,7 +47,7 @@ tags:
   - 輪播圖
   - 轉場時間
   - 樣板編輯器
-  - _main_slider.liquid
+  -  main slider.liquid
 acoiv: ""
 apis: []
 devices:

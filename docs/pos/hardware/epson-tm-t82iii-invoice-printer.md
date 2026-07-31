@@ -32,7 +32,7 @@ cyb_extensions: []
 intents:
   - 如何安裝EPSON發票機
   - TM-T82III驅動程式下載
-  - 解決EPSON發票機COM_Port衝突
+  - 解決EPSON發票機COM Port衝突
   - 調整發票列印寬度
 features:
   - 發票機串接
@@ -45,7 +45,7 @@ tags:
   - EPSON
   - 發票機
   - TM-T82III
-  - POS_硬體
+  - POS 硬體
   - 驅動程式
 acoiv: configure
 apis: []

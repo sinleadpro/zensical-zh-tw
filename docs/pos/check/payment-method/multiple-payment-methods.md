@@ -30,7 +30,7 @@ plans:
   - 企業
 cyb_extensions: []
 intents:
-  - 設定_POS_多付款方式
+  - 設定 POS 多付款方式
   - 拆分訂單支付金額
   - 設定不累計紅利的付款方式
 features:
@@ -42,7 +42,7 @@ prerequisites:
 related:
   - [[付款方式]]
 tags:
-  - POS_多付款方式
+  - POS 多付款方式
   - 禮券
   - 振興券
   - 紅利計算
