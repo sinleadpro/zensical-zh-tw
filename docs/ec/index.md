@@ -7,6 +7,8 @@ reviewers: []
 products: [EC]
 notes: []
 hide:
+  - description
+  - path
   - toc
   - feedback
 permalink: "https://help.cyberbiz.io/ec/"

@@ -231,4 +231,4 @@ fields:
   hide:
     type: enum[]
     required: false
-    values: [navigation, toc, feedback]
+    values: [navigation, path, toc, feedback, description]

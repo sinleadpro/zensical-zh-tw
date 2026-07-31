@@ -7,6 +7,8 @@ notes: []
 title: 智能 POS 產品中心
 lang: zh-TW
 hide:
+  - description
+  - path
   - toc
   - feedback
 permalink: "https://help.cyberbiz.io/pos/"

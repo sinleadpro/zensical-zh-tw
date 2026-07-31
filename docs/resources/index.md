@@ -6,6 +6,8 @@ title: 資源中心
 lang: zh-TW
 notes: []
 hide:
+  - description
+  - path
   - toc
   - feedback
 permalink: "https://help.cyberbiz.io/resources/"

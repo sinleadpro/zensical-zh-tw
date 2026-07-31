@@ -7,6 +7,7 @@ reviewers: []
 products: [EC, POS, WMS]
 notes: []
 hide:
+  - description
   - feedback
   - navigation
   - toc

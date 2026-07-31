@@ -21,10 +21,10 @@
   {% endif %}
   {% if _sub_content is defined %}
     <p class="subtitle">{{ _sub_content | safe }}</p>
-  {% elif page.meta.description %}
+  {% elif page.meta.description and "description" not in page.meta.hide %}
     <p class="subtitle">{{ page.meta.description }}</p>
   {% endif %}
-{% elif page.meta.description %}
+{% elif page.meta.description and "description" not in page.meta.hide %}
   <p class="subtitle">{{ page.meta.description }}</p>
 {% endif %}
 
