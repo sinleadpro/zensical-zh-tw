@@ -91,7 +91,7 @@ hide: []
 
 1. 在瀏覽器輸入商店登入網址。（以下擇一輸入）
     - `https://[您的商店名稱].cyberbiz.co/admin`
-    - `https://[您的商店名稱].cyberbiz.co/user/sign in`
+    - `https://[您的商店名稱].cyberbiz.co/user/sign_in`
 2. 在登入頁面輸入 **電子郵件** 與 **密碼**。
 3. 點擊 **登入**。
 4. 登入成功後，系統將自動導向 POS 前台預設畫面。

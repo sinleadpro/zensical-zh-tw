@@ -114,8 +114,8 @@ hide: []
         用於區分同一個推薦人在不同管道的表現。
 
         - **手動設定規則**：在推薦連結（如 `.../?rcode=xxx`）後方加上 `&` 符號，接著填入 UTM 參數。
-        - **正確範例**：`https://.../?rcode=xxx&utm medium=fb&utm source=kol a`
-        - **錯誤範例**：`https://.../?rcode=xxx?utm medium=fb`（不可使用兩個問號）
+        - **正確範例**：`https://.../?rcode=xxx&utm_medium=fb&utm_source=kol_a`
+        - **錯誤範例**：`https://.../?rcode=xxx?utm_medium=fb`（不可使用兩個問號）
 
 
 ### 步驟 2：測試推薦連結有效性
