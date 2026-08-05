@@ -273,7 +273,11 @@ copyright = """
                 { "贈品券規格" = "ec/marketing/coupon/gift-coupon-spec.md" },
             ] },
             { "單品限時折扣" = "ec/marketing/discounts/flash-sale-single-product.md" },
-            { "任選折扣" = "ec/marketing/discounts/mix-and-match-discounts.md" },
+            { "任選折扣" =[
+                { "新版介面" = "ec/marketing/discounts/mix-and-match-discounts-v2.md" },
+                { "舊版介面" = "ec/marketing/discounts/mix-and-match-discounts.md" },
+            ]},
+            
             { "紅配綠多組合優惠" = "ec/marketing/discounts/red-and-green-bundle-discounts.md" },
             { "滿額贈滿件贈" = "ec/marketing/discounts/threshold-gifts-and-quantity-gifts.md" },
             { "加價購" = [

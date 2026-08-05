@@ -62,10 +62,16 @@ search:
 icon: lucide/tags
 hide: []
 ---
-# 任選折扣
+# 舊版任選折扣
 
 建立「任選折扣群組」，設定件數門檻與折扣計價方式（固定金額、折數或折固定金額），並管理活動商品與有效期間。
 { .subtitle }
+
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 專業 / 進階 / 高手 / 所有 PLUS 版
+{ .doc-badge }
+
+!!! tip "介面改版說明"
+    **任選折扣** 已推出新版介面，目前僅開放 **企業版**。其餘方案將陸續開放，敬請期待。
 
 ![](../../../assets/images/EC-後台-行銷活動-任選折扣-畫面總覽01.png){ .hero-page }
 
