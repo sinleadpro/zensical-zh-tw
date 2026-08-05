@@ -72,7 +72,7 @@ permalink: https://help.cyberbiz.io/ec/marketing/free-shipping-settings/
 comments: false
 search:
   exclude: false
-icon: 
+icon: lucide/store
 hide: []
 ---
 
