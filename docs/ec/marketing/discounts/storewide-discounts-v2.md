@@ -68,7 +68,7 @@ search:
 icon: lucide/percent
 hide: []
 ---
-# 舊版全館折扣
+# 新版全館折扣
 對全站所有商品統一套用折扣優惠。此活動同步支援 EC 與 POS，可依方案指定線上、線下或全通路開啟。
 { .subtitle }
 
