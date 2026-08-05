@@ -259,10 +259,6 @@ graph LR
     管理優惠券，自動套用或供顧客選取。
 
     - :lucide-plug:{ .lg }
-    [__設定多優惠券__](../../ec/marketing/coupon/multiple-coupons.md)<br>
-    開放單筆訂單併用多張優惠券，提升結帳折抵彈性。
-
-    - :lucide-plug:{ .lg }
     [__建立推薦人分潤__](../../ec/profit-sharing/referrer-profit-sharing.md)<br>
     設定推薦分潤，獎勵介紹新客的現有客戶、員工與第三方。
 

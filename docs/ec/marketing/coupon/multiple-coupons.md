@@ -2,11 +2,11 @@
 title: 多張優惠券（碼）併用設定指南
 description: 設定單筆訂單使用多張優惠券或優惠碼，包含張數上限設定、折抵邏輯計算範例及前台操作流程。
 created: 2026-05-27 18:04
-last_modified: 2026-07-29 14:30
+last_modified: 2026-05-27 18:04
 lang: zh-TW
 type: guide
 status: ""
-version: 1.2.1
+version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -14,7 +14,6 @@ ga_views: 0
 feedback: 0
 products: 
   - EC
-  - POS
 modules: 
   - 金物流
 sites: 
@@ -64,36 +63,23 @@ hide: []
  設定單筆訂單使用多張優惠券或優惠碼，包含張數上限設定、折抵邏輯計算範例及前台操作流程。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品){ title="圖示慣例" } | 品牌官網
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 PLUS / 企業 <br>
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品){ title="圖示慣例" } | 智能 POS
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 高手 PLUS / 企業
 { .doc-badge }
 
 ## 使用須知
 
-- **通路限制**：多張優惠券併用功能支援 **EC 官網** 與 **POS 系統**，兩通路須分別設定張數上限。
+- **通路限制**：多張優惠券併用功能僅支援 **EC 官網**，POS 系統暫不支援。
 - **併用規則**：多張優惠券併用不影響其與「紅利點數」或其他「行銷活動」的併用設定。
     
 
 ## 操作流程
 
-=== "EC"
+1. 前往 **金物流 > 結帳頁 & 物流設定 > 結帳頁優惠券設定**。
+2. 設定 **每張訂單至多可使用的優惠券/碼數量**。
 
-    1. 前往 **金物流 > 結帳頁 & 物流設定 > 結帳頁優惠券設定**。
-    2. 設定 **每張訂單至多可使用的優惠券/碼數量**。
+    > 此數量為優惠券與優惠碼的合併總數，系統不支援分開設定各自的使用上限。
 
-        > 此數量為優惠券與優惠碼的合併總數，系統不支援分開設定各自的使用上限。
-
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/優惠券-多張優惠券設定01.png){ .screenshot }
-
-=== "POS"
-
-    1. 前往 **金物流 > 結帳頁 & 物流設定 > POS 結帳頁優惠券設定**。
-    2. 設定 **每張訂單至多可使用的優惠券/碼數量**。
-
-        > 此數量為優惠券與優惠碼的合併總數，系統不支援分開設定各自的使用上限。
-
-        ![](../../../assets/images/EC-後台-金物流-結帳頁物流設定-pos多張優惠券設定01.png){ .screenshot }
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/優惠券-多張優惠券設定01.png){ .screenshot }
 
 ## 多優惠券折抵邏輯
 
@@ -127,39 +113,15 @@ hide: []
 
 ## 前台結帳操作
 
+1. 顧客在結帳頁點擊 **選擇優惠券或輸入優惠碼**。
 
-=== "EC"
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/優惠券-多張優惠券設定03.png){ .screenshot }
 
-    1. 顧客在結帳頁點擊 **選擇優惠券或輸入優惠碼**。
+2. 彈窗將預設顯示該會員擁有的個人優惠券（依到期日排序）。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/優惠券-多張優惠券設定03.png){ .screenshot }
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/優惠券-多張優惠券設定04.png){ .screenshot }
 
-    2. 彈窗將預設顯示該會員擁有的個人優惠券（依到期日排序）。
+3. 顧客可勾選多張欲使用的優惠券，若達張數上限，其餘選項將變更為不可勾選。
+4. 套用後可即時檢視各券的折抵金額，並支援隨時更換或刪除。
 
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/優惠券-多張優惠券設定04.png){ .screenshot }
-
-    3. 顧客可勾選多張欲使用的優惠券，若達張數上限，其餘選項將變更為不可勾選。
-    4. 套用後可即時檢視各券的折抵金額，並支援隨時更換或刪除。
-
-        ![](https://www.cyberbiz.io/support/wp-content/uploads/優惠券-多張優惠券設定05.png){ .screenshot }
-
-
-=== "POS"
-
-    1. 店員在結帳頁點擊 **請選擇優惠碼**。
-
-        ![](../../../assets/images/POS-前台-結帳-多優惠券01.png){ .screenshot }
-
-    2. 彈窗將預設顯示 **門市優惠券** 列表。
-
-        ![](../../../assets/images/POS-前台-結帳-多優惠券02.png){ .screenshot }
-
-    3. 店員可勾選多張欲使用的優惠券；若達張數上限，其餘選項將變更為不可勾選。
-
-        > 可切換至 **已選取優惠券** 頁籤，檢視目前已勾選的優惠券。
-
-        ![](../../../assets/images/POS-前台-結帳-多優惠券03.png){ .screenshot }
-
-    4. 確認後套用，即可即時查看各券折抵金額，並可隨時更換或取消。
-
-        ![](../../../assets/images/POS-前台-結帳-多優惠券04.png){ .screenshot }
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/優惠券-多張優惠券設定05.png){ .screenshot }
