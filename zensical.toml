@@ -634,6 +634,12 @@ copyright = """
                 { "Cloudflare SSL 衝突" = "ec/website-management/cloudflare-ssl-conflict.md" }
             ]},
         ]},
+        { "APP 功能" = [
+            { "核心功能導覽" = "ec/app/cyberbiz-app-core-features-guide.md" },
+            { "建置與管理" = "ec/app/cyberbiz-app-feature-overview.md" },
+            { "申請 Apple 開發者帳號" = "ec/app/apply-apple-developer-account.md" },
+            { "首登禮設定" = "ec/app/first-login-gift.md" },
+        ]},
     ]},
     { "智慧倉儲" = [
         { "智慧倉儲" = "wms/index.md"},
