@@ -2,7 +2,7 @@
 title: 資安防護總覽與最佳實務
 description: 概述各項安全措施、後台設定路徑及資安事件應變指南，全面保障您的網站與顧客個資。
 created: 2026-06-09 17:07
-last_modified: 2026-07-22 15:51
+last_modified: 2026-08-05 17:29
 lang: zh-TW
 type: guide
 status: ""
@@ -38,6 +38,7 @@ features:
   - 二階段驗證
   - IP_白名單
   - reCAPTCHA
+  - 會員註冊簡訊機器人防護
   - Cookie_驗證_IP_白名單
   - 自動登出時間
   - 會員個資部分隱碼
@@ -66,6 +67,7 @@ ui_components: []
 paths:
   - 管理中心/安全性設定 > 管理員登入
   - 管理中心/安全性設定 > 會員安全
+  - 管理中心/安全性設定 > 機器人防護設定
   - 管理中心/網站權限 > 帳戶權限設定
 layouts: []
 wp_url:
@@ -93,6 +95,7 @@ hide: []
 | [二階段驗證（2FA）](security-settings.md#operate-security-2fa) | 登入時加上動態驗證碼，防止帳號被盜用 | 管理中心/安全性設定 > 管理員登入 |
 | [IP 白名單](security-settings.md#operate-security-ip-whitelist) | 只允許名單內 IP 登入後台 | 管理中心/安全性設定 > 管理員登入 |
 | [後台登入 reCAPTCHA](security-settings.md#operate-security-recaptcha) | 後台登入加上機器人驗證 | 管理中心/安全性設定 > 管理員登入 |
+| [會員註冊簡訊驗證](security-settings.md#operate-security-sms-bot-protection) | 註冊發送簡訊前加入機器人驗證，降低惡意觸發簡訊費用風險 | 管理中心/安全性設定 > 機器人防護設定 |
 | [瀏覽器 Cookie 驗證 IP 白名單](security-settings.md#operate-security-cookie-whitelist) | 避免同瀏覽器 IP 跳動被強制登出 | 管理中心/安全性設定 > 管理員登入 |
 | [自動登出時間](security-settings.md#operate-security-logout-timer) | 後台閒置自動登出 | 管理中心/安全性設定 > 管理員登入 |
 | [會員個資部分隱碼](security-settings.md#operate-security-pdpa) | 於訂單明細中遮蔽顧客姓名、手機、地址等個資 | 管理中心/安全性設定 > 會員安全 |
@@ -202,7 +205,7 @@ hide: []
 
 ## 交易與網域安全 { #operate-security-guide-transaction }
 
-保護交易過程與網站傳輸安全。
+保護交易過程、簡訊費用與網站傳輸安全。
 
 <div class="grid cards" markdown>
 
@@ -213,6 +216,14 @@ hide: []
     消費者需輸入簡訊驗證碼才能完成付款，可降低盜刷風險。是否開通與適用的金流，建議向 CYBERBIZ 客服確認。
 
     [:lucide-arrow-right: 設定教學](../payments-and-logistics/setup-credit-card-3d-verification.md)
+
+-   :lucide-bot:{ .lg .middle } __會員註冊簡訊驗證__
+
+    ---
+
+    在會員註冊發送驗證碼前加入 Cloudflare Turnstile 機器人驗證，降低惡意腳本大量觸發簡訊（尤其是海外簡訊）造成的費用損失。
+
+    [:lucide-arrow-right: 設定步驟](security-settings.md#operate-security-sms-bot-protection)
 
 -   :lucide-lock:{ .lg .middle } __SSL 安全性憑證__
 
@@ -294,6 +305,7 @@ hide: []
 
     - 影響「你與員工登入後台」：二階段驗證、IP 白名單、自動登出、後台登入 reCAPTCHA。
     - 影響「顧客瀏覽前台」：網站密碼、訪問限制地區黑名單。
+    - 影響「顧客註冊流程」：會員註冊簡訊驗證（發送驗證碼前需先通過機器人驗證）。
     - 設定前請先確認影響範圍，例如啟用 IP 白名單前務必先把自己的 IP 加入名單。
 
 ??? quote "如何簡單檢查帳號是否被盜用？"

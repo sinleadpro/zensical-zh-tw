@@ -2,7 +2,7 @@
 title: 保護後台帳號與顧客資料
 description: 管理後台登入防護與顧客資料保護，從 IP 白名單、自動登出到網站密碼，一頁完成你的網站資安設定。
 created:
-last_modified: 2026-07-08 15:00
+last_modified: 2026-08-05 16:56
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-management/security-settings
 type: tutorial
@@ -48,6 +48,7 @@ features:
   - 自動登出時間
   - reCAPTCHA驗證
   - 二階段驗證(2FA)
+  - 會員註冊簡訊機器人防護
 prerequisites: []
 related: []
 tags:
@@ -103,6 +104,7 @@ hide:
     | 會員密碼規則 | 規範會員密碼的長度與組成 | 選配 |
     | 會員個資部分隱碼 | 將顧客姓名、手機、地址等以隱碼遮蔽 | PLUS版 / 企業版 |
     | 訪問限制地區黑名單 | 封鎖特定地區顧客造訪前台 | 企業版／跨境電商方案 |
+    | 會員註冊簡訊驗證 | 發送註冊簡訊前加入機器人驗證，降低惡意觸發簡訊費用風險 | 所有方案 |
 
 === "管理員登入"
 
@@ -138,6 +140,7 @@ hide:
     | 管理員／會員密碼規則 | 選配 |
     | 會員個資部分隱碼 | PLUS版 / 企業版 |
     | 訪問限制地區黑名單 | 企業版，或跨境電商相關方案 |
+    | 會員註冊簡訊驗證（機器人防護） | 所有方案 |
 
 ## 操作步驟 { #operate-security }
 
@@ -310,6 +313,34 @@ hide:
 ![管理員密碼規則](../../assets/images/ec-管理中心-安全性設定-管理員登入-管理員密碼規則.png)
 
 [^special-char]: 特殊符號不含空白、星號、單引號與雙引號。
+
+---
+
+### 機器人防護 | 會員註冊簡訊驗證 { #operate-security-sms-bot-protection }
+
+在會員註冊 **發送驗證碼** 前加入 Cloudflare Turnstile 機器人驗證，降低惡意腳本大量觸發簡訊（尤其是海外簡訊）所造成的費用損失。
+
+1. **取得驗證金鑰：** 至 Cloudflare Turnstile [建立 Turnstile 工具](https://scribehow.com/o/SsrwdW3RQnCjqEHWv0uyXQ/viewer/How_to_Integrate_Cloudflare_Turnstile_CAPTCHA_Into_Cyberbiz__XaL8bPVFQia5xzMh4W9n3w){ target="_blank" }，取得 **Site key** 與 **Secret key**。
+2. **進入設定頁：** 前往 **管理中心 > 安全性設定 > 機器人防護設定**。
+3. **填入金鑰：** 分別輸入 **Site key** 與 **Secret key**。
+
+    ![](../../assets/images/EC-後台-管理中心-安全性設定-會員註冊簡訊機器人防護01.png)
+
+4. **測試金鑰：** 點擊 **驗證金鑰**，確認顯示 `驗證成功`；若顯示 `驗證失敗：無效金鑰`，請重新核對後再儲存。
+
+    ![](../../assets/images/EC-後台-管理中心-安全性設定-會員註冊簡訊機器人防護02.png)
+
+5. **啟用防護：** 開啟 **啟用驗證** 開關後儲存。
+
+!!! note "清除金鑰"
+    若清除已儲存的金鑰，**啟用驗證** 開關會同步關閉，前台將不再顯示機器人驗證。
+    
+
+啟用後，顧客於註冊頁點擊 **發送驗證碼** 時，會先出現機器人驗證小彈窗；驗證成功後彈窗自動關閉，系統才會發送簡訊驗證碼。
+
+![](../../assets/images/EC-前台-管理中心-安全性設定-會員註冊簡訊機器人防護01.png)
+
+
 
 ## 重要規範與限制 { #specs-security }
 
