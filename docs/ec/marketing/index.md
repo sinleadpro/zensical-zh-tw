@@ -220,7 +220,7 @@ hide:
 
 ---
 
-## 一頁式商店與導購連結
+## 一頁式商店
 
 <div class="grid cards" markdown>
 
@@ -240,13 +240,6 @@ hide:
 
     [:octicons-arrow-right-24: 前往](one-page-store/one-page-store-youtube-autoplay.md)
 
--   :lucide-link: __建立含指定商品的購物車連結__
-
-    ---
-
-    建立特殊的購物車連結，自動將預設商品與數量加入購物車，適用於社群導購、EDM 行銷等情境。
-
-    [:octicons-arrow-right-24: 前往](one-page-store/create-cart-link-specific-products.md)
 
 </div>
 
@@ -287,5 +280,13 @@ hide:
     透過全館門檻、指定商品等多種方式，設定符合行銷策略的免運優惠，提升顧客下單意願與客單價。
 
     [:octicons-arrow-right-24: 前往](free-shipping-settings.md)
+
+-   :lucide-link: __建立含指定商品的購物車連結__
+
+    ---
+
+    建立特殊的購物車連結，自動將預設商品與數量加入購物車，適用於社群導購、EDM 行銷等情境。
+
+    [:octicons-arrow-right-24: 前往](references/create-cart-link-specific-products.md)
 
 </div>

@@ -93,7 +93,7 @@ hide: []
 | [後台登入 reCAPTCHA](admin-security-settings.md#operate-security-recaptcha) | 後台登入加上機器人驗證 | 管理中心/安全性設定 > 管理員登入 |
 | [瀏覽器 Cookie 驗證 IP 白名單](admin-security-settings.md#operate-security-cookie-whitelist) | 避免同瀏覽器 IP 跳動被強制登出 | 管理中心/安全性設定 > 管理員登入 |
 | [自動登出時間](admin-security-settings.md#operate-security-logout-timer) | 後台閒置自動登出 | 管理中心/安全性設定 > 管理員登入 |
-| [會員個資部分隱碼](admin-security-settings.md#operate-security-pdpa) | 遮蔽顧客姓名、手機、地址等個資 | 管理中心/安全性設定 > 會員安全 |
+| [會員個資部分隱碼](admin-security-settings.md#operate-security-pdpa) | 於訂單明細中遮蔽顧客姓名、手機、地址等個資 | 管理中心/安全性設定 > 會員安全 |
 | [訪問限制地區黑名單](admin-security-settings.md#operate-security-restricted-locations) | 封鎖特定地區顧客造訪前台 | 管理中心/安全性設定 > 會員安全 |
 | [網站密碼](admin-security-settings.md#operate-security-website-password) | 顧客需輸入密碼才能瀏覽網站 | 管理中心/安全性設定 > 會員安全 |
 | [匯出權限控管](add-admin-set-permissions.md#管理者權限設定與修改) | 將顧客匯出、訂單匯出權限縮到最小 | 管理中心/網站權限 > 帳戶權限設定 |
@@ -184,7 +184,7 @@ hide: []
 
     ---
 
-    在網站前台、後台或訂單明細列印時，將會員姓名、手機、地址等以隱碼遮蔽。
+    列印訂單明細時，將會員姓名、手機、地址等以隱碼遮蔽。
 
     [:lucide-arrow-right: 設定步驟](admin-security-settings.md#operate-security-pdpa)
 
@@ -291,7 +291,7 @@ hide: []
     視功能而定：
 
     - 影響「你與員工登入後台」：二階段驗證、IP 白名單、自動登出、後台登入 reCAPTCHA。
-    - 影響「顧客瀏覽前台」：網站密碼、訪問限制地區黑名單、會員個資部分隱碼。
+    - 影響「顧客瀏覽前台」：網站密碼、訪問限制地區黑名單。
     - 設定前請先確認影響範圍，例如啟用 IP 白名單前務必先把自己的 IP 加入名單。
 
 ??? quote "如何簡單檢查帳號是否被盜用？"

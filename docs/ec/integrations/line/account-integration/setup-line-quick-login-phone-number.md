@@ -2,7 +2,7 @@
 title: 設定 LINE 快速登入時取得會員手機號碼
 description: 串接 LINE 認證權限，在快速登入流程中自動取得並驗證會員手機號碼，以提升帳號比對精準度與資料完整性。
 created: 2026-02-16 00:00
-last_modified: 2026-07-01 12:00
+last_modified: 2026-08-05 11:20
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-line-quick-login-phone-number/"
 type: guide
@@ -221,5 +221,3 @@ hide: []
 ??? quote "使用此功能是否會產生額外費用" 
 	功能本身免費，但若商家開啟了「註冊時驗證電話」設定，系統在建立新會員帳號時會發送驗證簡訊。
 
-??? quote "後台顯示的手機號碼為何部分被遮蔽（如 `0912***456`）"
-	這是系統的 **隱碼保護機制**。若商家啟用了個資安全設定，系統會自動在報表與明細中隱藏部分號碼以符合合規要求。
