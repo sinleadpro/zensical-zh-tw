@@ -282,10 +282,9 @@ copyright = """
             ] },
             { "期間限定首購禮" = "ec/marketing/bonus-and-gifts/limited-time-first-purchase-gift.md" },
             { "互動遊戲" = "ec/marketing/other-tools/interactive-games.md" },
-            { "一頁式商店與導購連結" = [
-                { "一頁式商店" = "ec/marketing/one-page-store/one-page-store.md" },
+            { "一頁式商店" = [
+                { "建立一頁式商店" = "ec/marketing/one-page-store/one-page-store.md" },
                 { "一頁式影片自動播放" = "ec/marketing/one-page-store/one-page-store-youtube-autoplay.md" },
-                { "預填商品導購連結" = "ec/marketing/one-page-store/create-cart-link-specific-products.md" },
             ] },
             { "指定條件贈送" = [
                 { "指定商品送優惠券" = "ec/marketing/conditional-send/send-coupons-for-specific-products.md" },
@@ -303,6 +302,7 @@ copyright = """
                 { "結帳優惠計算順序" = "ec/marketing/discounts/checkout-discount-calculation-order.md" },
                 { "優惠碼紅利到期通知" = "ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification.md" },
                 { "免運費設定" = "ec/marketing/free-shipping-settings.md" },
+                { "預填商品導購連結" = "ec/marketing/references/create-cart-link-specific-products.md" },
                 { "帳號狀態與購買權限對照表" = "ec/marketing/references/purchase-limit-account-status.md" }
             ] }
         ]},  
