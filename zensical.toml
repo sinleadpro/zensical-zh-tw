@@ -476,7 +476,10 @@ copyright = """
                 {"查看業績" = "ec/app-market/storepal/view-sales-performance.md"},
                 {"績效報表" = "ec/app-market/storepal/performance-reports.md"},
             ]},
-            {"CYBERBIZ EXPRESS 日到台宅配" = "ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery.md"},
+            {"CYBERBIZ EXPRESS " = [
+                {"日到台宅配" = "ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery.md"},
+                {"日到台 7-11 超取" = "ec/app-market/express/cyberbiz-express-711.md"},
+            ]},
             {"CYBERBIZ Meta Ads" = "ec/app-market/install-meta-ads-app.md"}
         ]},
         { "第三方整合" = [
@@ -820,6 +823,7 @@ extra_javascript = [
     "javascripts/search-overlay-border.js",
     "javascripts/feature-tour.js",
     "javascripts/permalink-copy.js",
+    "javascripts/gtm-search-tracking.js",
 ]
 # ----------------------------------------------------------------------------
 # Section for configuring theme options

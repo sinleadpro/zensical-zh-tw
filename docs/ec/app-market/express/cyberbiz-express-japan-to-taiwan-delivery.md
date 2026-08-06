@@ -106,11 +106,11 @@ CYBERBIZ EXPRESS 是專為日台電商設計的一站式跨境物流服務。您
 1. 聯繫您的開店顧問申請開通。
 2. 前往 **APP MARKET > 我的擴充服務 > CYBERBIZ EXPRESS**。
 
-    ![](../../assets/images/EC-後台-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-開始設定01.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-開始設定01.png){ .screenshot }
 
 3. 勾選同意 **跨境運送服務契約**。
 
-    ![](../../assets/images/EC-後台-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-開始設定02.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-開始設定02.png){ .screenshot }
 
 4. 選擇託運單列印方式。
 
@@ -118,7 +118,7 @@ CYBERBIZ EXPRESS 是專為日台電商設計的一站式跨境物流服務。您
     - **建議以中文填寫**，以利台灣海關審核。
     - 若未填寫此地址，系統將無法產出報關發票與提單清單。
 
-    ![](../../assets/images/EC-後台-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-開始設定03.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-開始設定03.png){ .screenshot }
 
 
 ## 跨境商品資訊設定
@@ -141,7 +141,7 @@ CYBERBIZ EXPRESS 是專為日台電商設計的一站式跨境物流服務。您
 
     前往 **商品 > 所有商品** ，進入明細頁填寫。
 
-    ![](../../assets/images/EC-後台-商品-所有商品-日到台站台報關用商品欄位01.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-商品-所有商品-日到台站台報關用商品欄位01.png){ .screenshot }
 
 === "批次編輯"
 
@@ -149,7 +149,7 @@ CYBERBIZ EXPRESS 是專為日台電商設計的一站式跨境物流服務。您
     2. 填寫報關用對應欄位，儲存檔案。
     3. [匯入商品 Excel](../../products/bulk-operations/excel-import-products/#匯入-excel-檔案)，完成批次編輯。
 
-    ![](../../assets/images/EC-後台-商品-所有商品-日到台站台報關用商品欄位02.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-商品-所有商品-日到台站台報關用商品欄位02.png){ .screenshot }
 
 ## 訂單出貨操作
 
@@ -162,7 +162,7 @@ CYBERBIZ EXPRESS 是專為日台電商設計的一站式跨境物流服務。您
     - `退貨狀態`須為 `不需退貨`
 3. 點選 **更多操作 > 建立託運單**。
 
-    ![](../../assets/images/EC-後台-訂單-所有訂單-建立EXPRESS託運單01.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-訂單-所有訂單-建立EXPRESS託運單01.png){ .screenshot }
 
 4. 於彈出視窗中指定所需的配送管道。
 
@@ -174,7 +174,7 @@ CYBERBIZ EXPRESS 是專為日台電商設計的一站式跨境物流服務。您
     - **自動排序邏輯**：執行批次建立時，系統會產出包含所有訂單明細的單一 PDF 檔案，並自動依「訂單編號」由小至大進行排序。
     - **即時資料校驗**：系統會針對訂單中商品進行欄位檢查，若缺少重量、跨境商品必填欄位，請先補填後再操作出貨。
 
-    ![](../../assets/images/EC-後台-訂單-所有訂單-建立EXPRESS託運單02.png){ .small-image }
+    ![](../../../assets/images/EC-後台-訂單-所有訂單-建立EXPRESS託運單02.png){ .small-image }
 
 5. 建立成功後，訂單狀態將自動轉為 `已出貨`。
 
@@ -188,7 +188,7 @@ CYBERBIZ EXPRESS 是專為日台電商設計的一站式跨境物流服務。您
 
         > 日幣：台幣=5：1
 
-    ![](../../assets/images/EC-後台-訂單-所有訂單-建立EXPRESS託運單03.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-訂單-所有訂單-建立EXPRESS託運單03.png){ .screenshot }
 
 2. 通知物流商前往收件前，請將當天出貨訂單對應的提單清單與報關發票檔案，以 E-mail 寄送至 `manifest_express@cyberbiz.io`。
 
@@ -198,7 +198,7 @@ CYBERBIZ EXPRESS 是專為日台電商設計的一站式跨境物流服務。您
 
 在 **訂單列表** 勾選狀態為 `已出貨` 的訂單，選擇 **補印託運單** 即可重新下載相關文件。
 
-![](../../assets/images/EC-後台-訂單-所有訂單-補印EXPRESS託運單01.png){ .screenshot }
+![](../../../assets/images/EC-後台-訂單-所有訂單-補印EXPRESS託運單01.png){ .screenshot }
 
 ## 運費計費與對帳
 
@@ -206,7 +206,7 @@ CYBERBIZ EXPRESS 是專為日台電商設計的一站式跨境物流服務。您
 - **多退少補**：每月 5 號依物流商實際收取的運費進行結算，多退少補至您的 CYBER 幣帳戶。
 - **費用對帳查詢**：前往 **APP MARKET > 我的擴充服務 > CYBERBIZ EXPRESS**，進入 **物流單號** 頁籤，即可核對各筆託運單之預定收取與實際收取運費。
 
-    ![](../../assets/images/EC-後台-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-查看託運單運費01.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-查看託運單運費01.png){ .screenshot }
 
 ## 貨態追蹤
 
@@ -223,12 +223,12 @@ CYBERBIZ EXPRESS 是專為日台電商設計的一站式跨境物流服務。您
 
     1. 登入 **會員中心**，在 **訂單明細** 頁點擊 **託運單號**。
 
-        ![](../../assets/images/EC-前台-訂單查詢-訂單明細-查看託運單號01.png){ .screenshot }
+        ![](../../../assets/images/EC-前台-訂單查詢-訂單明細-查看託運單號01.png){ .screenshot }
 
     2. 進入 [CYBERBIZ EXPRESS 貨態查詢頁面](https://www.cyberbiz.express/zh-TW)，輸入託運單號。
         - 單次可查詢至多10筆託運單。
         - 系統支援中/英/日語言。
 
-        ![](../../assets/images/EC-後台-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-查看託運單配送狀態02.png){ .screenshot }
+        ![](../../../assets/images/EC-後台-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-查看託運單配送狀態02.png){ .screenshot }
 
     
