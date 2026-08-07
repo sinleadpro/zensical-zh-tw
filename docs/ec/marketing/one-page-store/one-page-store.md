@@ -276,6 +276,8 @@ hide: []
 - **推薦碼**： `abc123`
 - **最終連結**：`https://store.com/events/spring-sale?rcode=abc123`
 
+> :lucide-info: [查詢分潤夥伴的推薦碼](../../profit-sharing/query-profit-sharing-partners-and-codes/#任務四一鍵複製推薦碼)
+
 ### 2. 新增頁面鎖右鍵功能
 
 為了保護頁面圖片不被輕易下載，您可以在 **自訂 HTML** 區塊中貼入鎖右鍵腳本：
