@@ -402,6 +402,7 @@ copyright = """
             ]},
             { "導覽選單" = [
                 { "選單與導覽列" = "ec/website-appearance/navigation/setup-menus-navigation.md" },
+                { "設定置頂公告" = "ec/website-appearance/navigation/setup-pinned-post.md" },
                 { "選單滑鼠移入自動展開" = "ec/website-appearance/navigation/setup-nav-menu-hover-expand.md" }
             ]},
             { "頁面與內容" = [
