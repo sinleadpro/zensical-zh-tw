@@ -14,7 +14,7 @@
 (function () {
   "use strict";
 
-  var DEBOUNCE_MS = 900;
+  var DEBOUNCE_MS = 500;
   var EVENT_NAME = "site_search";
   var lastValue = "";
   var debounceTimer = null;
