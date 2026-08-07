@@ -62,6 +62,9 @@ hide: []
 根據日本《特定商取引法》，日本站商家需建立法定公開頁面，涵蓋必要商家資訊，確保網站合法營運。
 { .subtitle }
 
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用方案) | 跨境電商（日本站）
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Pro / Business
+{ .doc-badge }
 
 
 ## 使用須知
