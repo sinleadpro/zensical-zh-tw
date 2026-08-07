@@ -2,7 +2,7 @@
 title: 管理商品評論
 description: 啟用並管理商品評論功能。
 created: 2026-03-05 16:00
-last_modified: 2026-07-06 18:40
+last_modified: 2026-08-07 18:00
 lang: zh-TW
 type: tutorial
 status:
@@ -22,13 +22,10 @@ sites:
   - TW
 tnb: branch
 plans:
-  - 企業
-  - 專業
   - 專業PLUS
-  - 進階
   - 進階PLUS
-  - 高手
   - 高手PLUS
+  - 企業
 cyb_extensions: []
 audiences:
   - admin
@@ -76,6 +73,12 @@ search:
 icon: lucide/message-square-quote
 hide: []
 ---
+# 管理商品評論
+啟用並管理商品評論功能。
+{ .subtitle }
+
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 所有PLUS / 企業
+{ .doc-badge }
 
 ![管理商品評論](../../../assets/images/ec-product-review-hero.zh-tw.png){ title="管理商品評論" .hero-page }
 
