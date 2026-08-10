@@ -260,7 +260,10 @@ copyright = """
         ]},
          { "行銷活動" = [
             { "overview" = "ec/marketing/index.md" }, 
-            { "全館折扣" = "ec/marketing/discounts/storewide-discounts.md" },
+            { "全館折扣" =[
+                { "新版介面" = "ec/marketing/discounts/storewide-discounts-v2.md" },
+                { "舊版介面" = "ec/marketing/discounts/storewide-discounts.md" },
+            ]},
             { "紅利點數" = "ec/marketing/bonus-and-gifts/setup-bonus-points.md" },
             { "註冊禮" = "ec/marketing/bonus-and-gifts/setup-registration-gift.md" },
             { "生日禮" = "ec/marketing/bonus-and-gifts/setup-birthday-gift.md" },
