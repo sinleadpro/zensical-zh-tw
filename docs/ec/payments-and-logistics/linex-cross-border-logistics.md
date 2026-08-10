@@ -2,7 +2,7 @@
 title: LINEX 跨境物流
 description: LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到府取件」或「自行送倉」模式，並透過後台自動產出報關所需之託運單與相關文件。
 created: 2026-03-04 00:00
-last_modified: 2026-06-30 08:52
+last_modified: 2026-08-10 11:20
 lang: zh-TW
 type: tutorial
 status: ""
@@ -88,7 +88,8 @@ LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到�
 
 - **服務範圍**：僅支援 **台灣出貨至國外**。
 - **批次限制**：因報關資訊需逐筆核對，目前 **不支援批次列印** 託運單。
-
+- **操作建議**：此功能建議搭配 **多國** 功能，系統方能自動將商品英文資訊帶入託運單明細中，提升作業效率。如有需求可洽 CYBERBIZ 客服。
+- **列印設備建議**：建議可使用雷射印表機來產出託運單，以降低因資訊辨識錯誤導致的配送異常。
 
 ## 前置設定
 
@@ -99,13 +100,21 @@ LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到�
 3. 輸入貴司在 [商工登記](https://findbiz.nat.gov.tw/fts/query/QueryBar/queryInit.do) 上的正式英文名稱。
 4. 儲存後此欄位將鎖定，系統會自動將此名稱帶入報關文件。
 
+![](../../assets/images/EC-後台-管理中心-一般設定-填寫國貿局進出口廠商英文名01.png){ .screenshot }
+
 ### 步驟 2：設定運送模式與寄件人
 
 1. 前往 **金物流 > LINEX 託運單**。
 2. **選擇模式**：勾選 **取件預約** 或 **自行運送**。
     - **設定後無法修改**，請務必謹慎選擇。
+
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定01.png){ .screenshot }
+
 3. **設定基本資料**：設定常用寄件人資訊。
     - 須為 **全英文**，建立託運單時將自動帶入。
+
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定02.png){ .screenshot }
+
 
 ### 步驟 3：設置物流與運費
 
@@ -127,6 +136,7 @@ LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到�
     - **選項顯示門檻**：訂單金額須達設定之起始門檻；若未達標，系統將自動於結帳頁面隱藏該物流選項。
     - **不限金額設定**：如需開放不限金額皆可使用，請將任一項條件區間之 **起始金額** 配置為 0 元。
 
+![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定03.png){ .screenshot }
 
 ## 送件模式詳細規範
 
@@ -160,7 +170,12 @@ LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到�
 
 1. 前往 **訂單 > 所有訂單**，勾選欲出貨訂單。
 2. 點選 **選擇操作 > 建立 LINEX 託運單**。
+
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定04.png){ .screenshot }
+
 3. **核對基本資訊**：確認所有欄位均以 **英文** 填寫。
+
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定05.png){ .screenshot }
 
 ### 步驟 2：填寫報關資訊與稅費
 
@@ -178,27 +193,34 @@ LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到�
     - **未完稅交貨（DDU Delivered Duty Unpaid）**：由消費者負擔清關的稅費與手續費。
     - **完稅後交貨（DDP Delivered Duty Paid ）**：由商家負擔清關的稅費與手續費。
 
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定06.png){ .screenshot }
+
 3. **選擇報關方式**：
     - **簡易報關 (樣品)**：離岸價格 (FOB) ≤ NT$50,000。
     - **簡易報關 (銷售)**：離岸價格 (FOB) ≤ NT$50,000，且需申報外銷貨物零稅率。
     - **正式報關**：離岸價格 (FOB) > NT$50,000。
 
-4. 點選 **試算運費** 後 **建立託運單**。
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定08.png){ .screenshot }
 
-!!! info "取件預約模式限定欄位"
-    若選擇取件模式選擇 **取件預約**，請務必完成以下欄位配置：
+    !!! info "取件預約模式限定欄位"
+        若選擇取件模式選擇 **取件預約**，請務必完成以下欄位配置：
 
-    - **取件時間**：請參閱 LINEX 取件政策，並於派送服務時段內選取時間。
-    - **取件備註**：此欄位為 **必填**，請勿留空。
+        - **取件時間**：請參閱 LINEX 取件政策，並於派送服務時段內選取時間。
+        - **取件備註**：此欄位為 **必填**，請勿留空。
+
+        ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定07.png){ .small-image }
+
 
 ### 步驟 3：列印託運文件與 POA
 
-1. 點擊 **下載託運單**。
+1. **試算運費** 無誤後，點擊 **建立託運單**。
     - `配送狀態`將自動更改為`已出貨`。
 2. 解壓縮託運文件並列印明細。
 3. 將 **LINEX_waybill**、**orders_printed_details** 文件貼至包裹表面。
 4. 若商家未與 LINEX 簽署 **長期委任關係**，每筆出貨皆需隨貨附上填妥的 [POA 範本](https://drive.google.com/file/d/1MwQ04jG3eDJUY33zORsszPYRXPvRTt6J/view)。
     - 最新範本請以 LINEX 為主，如需空白檔可向 LINEX 客服索取。
+
+![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定09.png){ .screenshot }
 
 ## 常見問題
 
