@@ -58,7 +58,7 @@ fields:
   author:
     type: string
     required: false
-    default: "Jase"
+    default: "Ann"
 
   # 審核者清單
   reviewers:
