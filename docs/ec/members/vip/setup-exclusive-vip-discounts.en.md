@@ -61,9 +61,9 @@ search:
 icon: lucide/ticket
 hide: []
 ---
-# Set Up VIP Exclusive Offers
+# Set Up Exclusive VIP Benefits
 
-Set up exclusive discounts, bonus rewards, and differentiated pricing for VIP members, and master the rules for their use in conjunction with store-wide marketing activities.
+Set up exclusive discounts, bonus rewards, and differentiated pricing for VIP members, and master the rules for using them in conjunction with store-wide marketing activities.
 
 { .subtitle }
 
@@ -73,83 +73,84 @@ Set up exclusive discounts, bonus rewards, and differentiated pricing for VIP me
 
 ![](../../../assets/images/EC-後台-會員-VIP設定-優惠設定01.en.png){ .hero-page }
 
-The core appeal of the VIP system lies in its "sense of prestige" and "tangible rewards." The new VIP system offers a variety of offer combinations to help you design differentiated benefits that members will appreciate.
+The core appeal of the VIP system lies in its "sense of prestige" and "tangible rewards." The new VIP system offers a variety of benefit combinations to help you design differentiated benefits that members will appreciate.
 
 ## VIP discounts and rules
-When setting up VIP offers, please define the rules for combining the offer with "Designated Marketing Activities". The system provides three different strengths of stacking logic:
+When setting up VIP offers, please define the rules for combining the offer with designated marketing activities. The system provides three different strengths of stacking logic:
 
 - **Unrestricted**
 
-**3.** VIP offers can be directly stacked with all activities.
+     VIP offers can be directly stacked with all activities.
 
 - **Combined with other activities (product-level exclusion)**
 
-**4.** If a single product already enjoys a selected activity discount, that product will not enjoy the VIP offer; other products in the order that are not participating in the activity will not be affected.
+     If a single product already enjoys a selected activity discount, that product will not enjoy the VIP offer; other products in the order that are not participating in activities will not be affected.
 
 - **No discount during activities (order-level exclusion)**
 
-**5.** If the shopping cart contains any product that qualifies for a selected activity, the entire order will have its VIP offer completely canceled.
+     If the shopping cart contains any product eligible for a selected activity, the entire order will have its VIP offer completely canceled.
 
-When setting up various offers, if you encounter a section on **Rules for combining with other marketing activities**, please refer to the explanations here to select the appropriate logic.
+When setting up various offers, if you encounter a section on **Rules for combining with other marketing activities**, please refer to the instructions here to select the appropriate logic.
 
 ![](../../../assets/images/EC-後台-會員-VIP設定-與其他行銷活動的併用規則01.en.png){ .screenshot }
 
-!!! info "Bonus Points Activation Switch"
+!!! info "Bonus Points Enable Switch"
 
-     To award bonus points, please go to **Marketing Activities > store-wide Discounts - Bonuses & Coupons**, [Activate Bonus Points Function](../../marketing/bonus-and-gifts/setup-bonus-points/#操作流程).
+     To award bonus points, please go to **Marketing Activities > store-wide Discounts - Bonuses & Coupons**, and [Enable Bonus Points Function](../../marketing/bonus-and-gifts/setup-bonus-points/#操作流程).
 
 ## 1. Enjoy discounts
 1. Enter the **specified discount**. This VIP member will enjoy a specified discount on their entire order.
 
-**(3)** Set the discount value to 1-99. For example, 90 represents a 10% discount, and 70 represents a 30% discount.
+    > Set the discount value to 1-99. For example, 90 represents a 10% discount, and 70 represents a 30% discount.
 
 2. **Set the rules for using this rule with other marketing activities**
+            
+     First, select [**Use Logic**](#vip-優惠併用規則), then select the marketing activities from the list to which you want to apply this rule.
 
-**(4)**
+     supports the following marketing campaigns with matching rules:
 
-**(5)** First, select [**Use logic**](0), then select the marketing activities from the list to which you want to apply this rule.
+    
 
-6. Marketing activities that can be linked and used with rules:
+     - Member Exclusive Pricing
 
-7.
-8. Member-only pricing
+     - Single Item Discount
 
-9. Single item discounts
+     - Red & Green (Combination Discount)
 
-10. Red and green (combination discount)
+     - Optional Discount
 
-11. Optional discounts
+     - Multi-level Product Category Discount (Advanced Product Category Discount)
 
-12. Multi-level product category discounts (advanced product category discounts)
+     - store-wide Discount
 
-13. store-wide discount
-
-![](1)2
+![](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠01.png){ .screenshot }
 
 ## 2. Free shipping on orders.
 1. Enter the **Free Shipping Threshold**. VIP members who reach the threshold will enjoy free shipping on their entire order.
 
 2. **Set Rules for Using with Other Marketing Activities**
 
-3.
-4. First, select [**Use Logic**](0), then select the marketing activities from the list to apply this rule to.
+            
 
-5. Marketing activities available for binding and using rules:
+     First, select [**Use Logic**](#vip-優惠併用規則), then select the marketing activities from the list to apply this rule to.
 
-6.
-7. - Member Exclusive Price
+     Marketing activities that can be bound to use rules:
 
-8. - Single Item Discount
+    
 
-9. - Red & Green (Combination Discount)
+     - Member Exclusive Price
 
-10. - Optional Discount
+     - Single Item Discount
 
-11. - Multi-level Product Category Discount (Advanced Product Category Discount)
+     - Red & Green (Combination Discount)
 
-12. - store-wide Discount
+     - Optional Discount
 
-![](1)2.
+     - Multi-level Product Category Discount (Advanced Product Category Discount)
+
+     - store-wide Discount
+
+![](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠02.png){ .screenshot }
 
 ## 3. Bonus multiplier setting
 
@@ -157,7 +158,7 @@ When setting up various offers, if you encounter a section on **Rules for combin
 * **Stacked Bonus:** If you have set up both "store-wide Bonus" and "VIP Extra Bonus" simultaneously, members will **receive both** when placing an order.
 
 ### Setting method
-Enter the **spending threshold, bonus amount, and validity period**. This VIP member will receive extra bonus points after placing an order.
+Enter the **spending threshold, bonus amount, and validity period**. This VIP tier member will receive extra bonus points after placing an order.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠03.png){ .screenshot }
 
@@ -166,24 +167,23 @@ Enter the **spending threshold, bonus amount, and validity period**. This VIP me
 ### Send Schedule
 - **Sending Time**: The system defaults to sending the monthly birthday gift on the 1st of each month.
 
-- **Early Sending**: You can customize to send the birthday gift **N days in advance**.
+- **Early Sending**: You can customize **sending the birthday gift N days in advance**.
 
-**0**
-**1** Sending is based on the member's current level. If the sending time is earlier than the member's Upgrade date, the member will not receive the birthday gift for levels after Upgrade. You can manually send the birthday gift to the member according to the store's VIP policy.
+    
+    : Sending the gift depends on the member's current level. If the sending time is earlier than the member's Upgrade date, the member will not receive the birthday gift for levels after Upgrade. You can manually send the birthday gift to the member according to the store's VIP policy.
 
-**2**!!! example "Scenario Example"
+    !!! example "Scenario Example"
+        : Customer A's birthday is in May, and they reached VIP1 on April 27th via Upgrade.
 
-**3** Customer A's birthday is in May, and they Upgrade to VIP1 on April 27th.
+        : The system is set to send the monthly birthday gift 5 days in advance, so the sending time for VIP1's May birthday gift is April 26th.
 
-**4** The system is set to send the monthly birthday gift 5 days in advance, so the sending time for VIP1's May birthday gift is April 26th.
+The          system sent out May birthday gifts on April 26th. Customer A did not yet have an Upgrade at that time and therefore could not receive the VIP1 birthday gift.
 
-5. The system sent out May birthday gifts on April 26th. Customer A did not yet have Upgrade at that time and therefore could not receive the VIP1 birthday gift.
+- **Check Time**: The system began checking eligible members at 5:00 AM that day and sent gifts in sequence.
 
-- **Check Time**: The system began checking eligible members at 5:00 AM that day and sent gifts in order.
+**    > The exact time members receive their birthday gifts may vary slightly depending on system processing time.
 
-6. The exact time a member receives their birthday gift may vary slightly depending on system processing time.
-
-- **Notification Sending Time**: If birthday gift notifications have been enabled in **Push Notifications > Email Notification Template** or **SMS Notification Template**, the system will send a notification to the member at 12:00 PM that day.
+- **Notification Sending Time**: If birthday gift notifications have been enabled in **Push Notifications > Email Notification Template** or **SMS Notification Template**, the system will send a notification to members at 12:00 PM that day.
 
 ### Membership Claiming Rules
 - **Register during your birthday month:** If the initial VIP level threshold is 0 yuan, the birthday person will be automatically granted that level and receive a birthday gift upon registration, without being subject to the **birthday gift sent N days in advance** restriction.
@@ -193,18 +193,19 @@ Enter the **spending threshold, bonus amount, and validity period**. This VIP me
 ### Related operations
 - **Stacked Gifts**: If you set up an store-wide member birthday gift in **Marketing Activities > store-wide Discount - Bonuses & Coupons**, the consumer will **receive both**. Please plan your birthday gift distribution policy carefully.
 
-- **Delete Birthday Gift**: Please go to **Members > All Members**, select your personal page, and [Manually Reclaim] (0 points) coupons or bonus points.
+- **Delete Birthday Gift**: Please go to **Members > All Members**, select your personal page, and [Manually Reclaim] (../manage-member-profiles.md#任務四資產配置) coupons or bonus points.
 
 ### Setting method
-1. Enter the **Birthday Gift Name and Number of Days to Receive in Advance**. VIP members will receive their birthday gift on the specified date.
+1. Enter the **Birthday Gift Name and Number of Days to Receive in Advance**. This VIP member will receive the birthday gift on the specified date.
 
     ![](../../../assets/images/EC-後台-會員-VIP設定-設定生日禮01.en.png){ .screenshot }
 
-2. Select the Birthday Gift Type (all can be selected):
+2. Select the Birthday Gift Type (select all):
 
     === "Bonus"
 
         
+
          Enter the **Number of Bonus Points to Receive and Validity Period**.
 
         ![](../../../assets/images/EC-後台-會員-VIP設定-設定生日禮02.en.png){ .screenshot }
@@ -215,129 +216,144 @@ Enter the **spending threshold, bonus amount, and validity period**. This VIP me
 
             > Multiple coupons can be added.
 
-16.2. Select Coupon Type:
+        2. Select Coupon Type:
 
-17. - Amount
+             - Amount
 
-18. - Percentage
+             - Percentage
 
-19. - Gift **(Enterprise Edition Only)**
+             - Gift **(Enterprise Edition Only)**
 
-20. !!! info "VIP Gift Coupon Usage Rules"
+                !!! info "VIP Gift Coupon Usage Rules"
 
-21.1. Product Binding Rules: Each gift coupon can only be bound to one product, and the style cannot be specified.
+                    1. Product Binding Rules: Each gift coupon can only be bound to one product, and the style cannot be specified.
 
-22.2. Multiple Gift Setting Method: If you wish to give away multiple different items at once, please create multiple gift coupons.
+                    2. Multiple Gift Setting Method: If you want to give away multiple different items at once, please create multiple gift coupons.
 
-23.3. Sending Mechanism: The system will send all bound gift coupons. Consumers cannot choose one to receive on the front end.
+                    3. Sending Mechanism: The system will send all bound gift coupons. Consumers cannot choose one to receive on the front end.
 
-24. → Learn about [Complete Gift Coupon Specifications](2).
+                     → Learn about [Complete Gift Coupon Specifications](../../marketing/coupon/gift-coupon-spec/#使用須知).
 
-25.
-26.3. Set Relevant Parameters.
+        
+        3. Set Relevant Parameters.         4. **Setting Rules for Use with Other Marketing Campaigns**
 
-27.4. **Setting Rules for Use with Other Marketing Activities**
+            
 
-28.
-29. First, select [**Using Logic**](3), then check the marketing activities from the list to which you want to apply this rule.
+             First, select [**Using Logic**](#vip-優惠併用規則), then select the marketing campaigns from the list to which you want to apply this rule.
 
-30. Marketing activities that can be linked and used with rules:
+             offers the following marketing activities that can be linked and used with the rules:
 
-31. Member-only pricing
+            
 
-32. Single item discounts
+             - Member Exclusive Pricing
 
-33. Red and green (combination discount)
+             - Single Item Discount
 
-35. Optional discounts
+             - Red & Green (Combination Discount)
 
-36. Multi-level product category discounts
+             - Optional Discount
 
-37. store-wide discount
+             - Multi-level Product Category Discount
 
-38. VIP discounts
+             - store-wide Discount
 
-39. Add-on purchases
+             - VIP Discount
 
-40. Referral code discounts
+             - Add-on Purchase
 
-41. ![](../../../assets/images/EC-後台-會員-VIP設定-設定生日禮03.en.png){ .screenshot }
+             - Referral Code Discount
+
+        ![](../../../assets/images/EC-後台-會員-VIP設定-設定生日禮03.en.png){ .screenshot }
 
 ## 5. Member Day Settings
 
 ### Instructions for Use
 * **Valid Date Restriction**: If the set Member Day is outside the valid date range of the month, the Member Day feature will not be activated for that month.
 
-**0** If you set the 30th of each month as Member Day, February will not automatically apply the Member Day activity because the longest possible date is the 29th (or 28th).
+
+    > If you set the 30th of each month as Member Day, February will not automatically apply the Member Day activity because the longest possible date is the 29th (or 28th).
+
 
 * **Exclusion of Other VIP Offers**: On Member Day, other VIP offers are not included in the calculation.
 
-**1** If Member Day **Order Discounts** are enabled, the **Discount Offer** setting will not be effective on Member Day.
 
-**2** If Member Day **Free Shipping** is enabled, the **Free Shipping** setting will not be effective on Member Day.
+     - If Member Day **Order Discounts** are enabled, the **Discount Offer** setting will not be effective on Member Day.
 
-**3** If Member Day **Bonus** is enabled, the **Bonus Multiplier** setting will not be effective on Member Day.
+
+     - If Member Day **Free Shipping** is enabled, the **Free Shipping** setting will not be effective on Member Day.
+
+
+     - If Member Day **Bonus** is enabled, the **Bonus Multiplier** setting will not be effective on Member Day.
+
 
 ### Setting method
 1. Select Member Day.
 
-14. !!! info "**Multiple Member Days per Month Functionality** Applicable Versions"
+    !!! info "**Multiple Member Days per Month Functionality** Applicable Versions"
 
-15. This function is exclusive to the **Enterprise Edition**. You can select multiple dates, and members will receive a member gift on each designated date within that month.
+         This function is exclusive to the **Enterprise Edition**. You can select multiple dates, and members will receive a member gift on each designated date within that month.
 
-16. ![](../../../assets/images/EC-後台-會員-VIP設定-設定會員日01.en.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-會員-VIP設定-設定會員日01.en.png){ .screenshot }
 
 2. Select Member Gift:
 
-17. === "Order Discount"
+    === "Order Discount"
 
-18. 1. Enter the **Specified Discount**. VIP members will enjoy a specified discount on their entire order.
+        1. Enter the **specified discount**. VIP members will enjoy a specified discount on their entire order.
 
-19. > Please set the discount value from 1 to 99. For example, 90 represents a 10% discount, and 70 represents a 30% discount.
+            > Please set the discount value between 1 and 99. For example: 90 represents a 10% discount, and 70 represents a 30% discount.
 
-20. **Setting Rules for Use with Other Marketing Activities**
-21.
-22. First, select [**Using Logic**](1), then select the marketing activities from the list to which you want to apply this rule.
+        2. **Setting Rules for Use with Other Marketing Campaigns**
+            
+             First, select [**Using Logic**](#vip-優惠併用規則), then select the marketing campaigns from the list to which you want to apply this rule.
 
-23. Marketing activities that can be bound to and used with rules:
-24.
-25. - Member Exclusive Price
-26. - Single Item Discount
-27. - Red and Green (Combination Discount)
-28. - Optional Discount
-29. - Multi-level Product Category Discount (Advanced Product Category Discount)
-30. - store-wide Discount
-31. ![](2)10
+             offers the following marketing campaigns that can be linked and used with rules:
 
-32. === "Free Shipping"
+            
 
-33. 1. Enter the **Free Shipping Threshold**. Once this VIP tier member reaches the threshold, the entire order will receive free shipping.
+             - Member Exclusive Pricing
 
-34. 2. **Setting Rules for Use with Other Marketing Campaigns**
+             - Single Item Discount
 
-35.
-36. First, select [**Using Logic**](3), then check the marketing campaigns from the list to which you want to apply this rule.
+             - Red & Green (Combination Discount)
 
-37. Marketing activities that can be linked and used with rules:
+             - Optional Discount
 
-38.
-39. - Member-exclusive pricing
+             - Multi-level Product Category Discount (Advanced Product Category Discount)
 
-40. - Single item discounts
+             - store-wide Discount
 
-41. - Red and green (combination discount)
+          ![](../../../assets/images/EC-後台-會員-VIP設定-設定會員日02.en.png){ .screenshot }
 
-42. - Optional discounts
+    === "Free Shipping"
 
-43. - Multi-level product category discounts (advanced product category discounts)
+        1. Enter the **Free Shipping Threshold**. VIP members who reach the threshold will enjoy free shipping on their entire order.
 
-44. - store-wide discount
+        2. **Setting the Combination Rule with Other Marketing Activities**
+            
+             First, select [**Combination Logic**](#vip-優惠併用規則), then check the marketing activities you want to apply this rule to from the list.
 
-45. ![](../../../assets/images/EC-後台-會員-VIP設定-設定會員日03.en.png){ .screenshot }
+             offers the following marketing activities that can be linked and used with the rules:
 
-46. === "Bonus"
+            
 
-47. Set **spending threshold, bonus reward, validity period, and cumulative reward rules**. Bonus points are awarded based on the order amount for purchases made on Member Day.
+             - Member Exclusive Price
+
+             - Single Item Discount
+
+             - Red & Green (Combination Discount)
+
+             - Optional Discount
+
+             - Multi-level Product Category Discount (Advanced Product Category Discount)
+
+             - store-wide Discount
+
+          ![](../../../assets/images/EC-後台-會員-VIP設定-設定會員日03.en.png){ .screenshot }
+
+    === "Bonus"
+
+         sets **spending threshold, bonus rewards, validity period, and cumulative reward rules**. Bonus points are awarded based on the order amount for purchases made on Member Day.
 
         ![](../../../assets/images/EC-後台-會員-VIP設定-設定會員日04.en.png){ .screenshot }
 
@@ -359,41 +375,43 @@ Enter the **spending threshold, bonus amount, and validity period**. This VIP me
 
                     2. Multiple Gift Setting Method: If you want to give away multiple different items at once, please create multiple gift coupons.
 
-                    3. Sending Mechanism: The system will send all bound gift coupons. Consumers cannot choose one to receive on the front end.
+                    3. Distribution Mechanism: The system will send all bound gift vouchers; consumers cannot choose one to claim on the front end.
 
-59 → Learn about the [Complete Specifications of the Gift Certificate] (6).
+                     → Learn about [Complete Gift Voucher Specifications](../../marketing/coupon/gift-coupon-spec/#使用須知).
 
-60
-61 → 3. Set the relevant parameters.
+        
+        3. Setting Relevant Parameters.
 
-62 → 4. **Set the rules for using this rule with other marketing activities**
+        4. **Setting the Combination Rule with Other Marketing Activities**
 
-63
-64 → First, select [**Use Logic**] (7), then select the marketing activities from the list to which you want to apply this rule.
+            
+             First, select [**Combination Logic**](#vip-優惠併用規則), then check the marketing activities you want to apply this rule to from the list.
 
-65. Marketing activities that can be linked and used with rules:
+             offers the following marketing activities that can be linked and used with the rules:
 
-66.
-67. - Member-only pricing
+            
 
-68. - Single item discount
+             - Member Exclusive Pricing
 
-69. - Red and green (combination discount)
+             - Single Item Discount
 
-70. - Optional discount
+             - Red & Green (Combination Discount)
 
-71. - Multi-level product category discount (advanced product category discount)
+             - Optional Discount
 
-72. - store-wide discount
+             - Multi-level Product Category Discount (Advanced Product Category Discount)
 
-73. - VIP discount
+             - store-wide Discount
 
-74. - Add-on purchase
+             - VIP Discount
 
-75. - Referral code discount
+             - Add-on Purchase
 
-76.
-77. ![](../../../assets/images/EC-後台-會員-VIP設定-設定會員日05.en.png){ .screenshot }
+             - Referral Code Discount
+
+        
+
+          ![](../../../assets/images/EC-後台-會員-VIP設定-設定會員日05.en.png){ .screenshot }
 
 ## 6. Upgrade Gift Settings
 
@@ -403,65 +421,66 @@ Enter the **spending threshold, bonus amount, and validity period**. This VIP me
 * **Version Switching:** Switching from the old VIP version to the new VIP version will not trigger the sending of the Upgrade gift.
 
 ### Setting method
-1. Choose whether to accumulate Upgrade gifts across different Upgrade levels.
+1. Choose whether to accumulate Upgrade gifts across different levels.
 
 2. Select Upgrade Gifts
 
-4. === "Bonus"
+     === "Bonus"
 
-5. Set **Bonus Gift and Validity Period**. Bonus points will be awarded after purchasing Upgrade on Member Day.
+         sets **bonus gift distribution and validity period**. Bonus points will be awarded after the Member's Day Upgrade.
 
-6. === "Coupons"
+     === "Coupons"
 
-7. 1. Click **Add Coupon**.
+         1. Click **Add Coupon**.
 
-8. > Multiple coupons can be added.
+             > Multiple coupons can be added.
 
-9. 2. Select Coupon Type:
+        2. Select Coupon Type:
 
-10. - Amount
+             - Amount
 
-11. - Percentage
+             - Percentage
 
-12. - Gift **(Enterprise Edition Only)**
+             - Gift **(Enterprise Edition Only)**
 
-13. !!! info "VIP Gift Coupon Usage Rules"
+                !!! info "VIP Gift Coupon Usage Rules"
 
-14. 1. Product Binding Rules: Each gift coupon can only be bound to one product, and the style cannot be specified.
+                    1. Product Binding Rules: Each gift coupon can only be bound to one product, and the style cannot be specified.
 
-15. 2. Multiple Gift Item Setup: To give away multiple different items at once, please create multiple gift vouchers.
+                    2. Multiple Gift Setting Method: If you want to give away multiple different items at once, please create multiple gift coupons.
 
-16. 3. Distribution Mechanism: The system will distribute all bound gift vouchers. Consumers cannot choose one to claim on the front end.
+                    3. Sending Mechanism: The system will send all bound gift coupons. Consumers cannot choose one to receive on the front end.
 
-17. → Learn about [Full Gift Voucher Specifications](0).
+                     → Learn about [Complete Gift Coupon Specifications](../../marketing/coupon/gift-coupon-spec/#使用須知).
 
-18.
-19. 3. Set Relevant Parameters.
+        
 
-20. 4. **Setting Rules for Use with Other Marketing Activities**
+        3. Set Relevant Parameters.
 
-21.
-22. First, select [**Using Logic**](1), then check the marketing activities from the list to which you want to apply this rule.
+        4. **Setting Rules for Use with Other Marketing Campaigns**
+            
+             First, select [**Using Logic**](#vip-優惠併用規則), then select the marketing campaigns from the list to which you want to apply this rule.
 
-23. Marketing activities that can be linked and used with rules:
+             offers the following marketing activities that can be linked and used with the rules:
 
-24.
-25. Member-only pricing
+            
 
-26. Single item discounts
+             - Member Exclusive Pricing
 
-27. Red and green (combination discount)
+             - Single Item Discount
 
-28. Optional discounts
+             - Red & Green (Combination Discount)
 
-29. Multi-level product category discounts (advanced product category discounts)
+             - Optional Discount
 
-30. store-wide discount
+             - Multi-level Product Category Discount (Advanced Product Category Discount)
 
-31. VIP discounts
+             - store-wide Discount
 
-32. Add-on purchases
+             - VIP Discount (VIP Discount)
 
-33. Referral code discounts
+             - Add-on Purchase
 
-![](2)3
+             - Referral Code Discount
+
+![](../../../assets/images/EC-後台-會員-VIP設定-設定Upgrade禮01.en.png){ .screenshot }

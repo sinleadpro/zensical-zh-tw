@@ -61,28 +61,31 @@ hide: []
 
 * **Validity Calculation:** The VIP start date displayed on the front end is calculated from the "next day" of the Upgrade activation date.
 
-* **Cross-Level Upgrade Activation:**
+* **Cross-Level Upgrade:**
 
-* 0 === "Cross-Level Activation within the Same Group"
+     === "Cross-Level Within the Same Group"
 
-* 1 Assume the store-wide VIP group has three levels: Gold Member (Lv1), Platinum Member (Lv2), and Diamond Member (Lv3).
+         Assumption: The store-wide VIP group has three levels: Gold Member (Lv1), Platinum Member (Lv2), and Diamond Member (Lv3).
 
-2. If a member was originally a "Gold Member" and directly upgraded to a "Diamond Member" through a single large purchase, the reward distribution logic will depend on your backend settings:
+If a member was originally a "Gold Member" and made a large single purchase that directly upgrades them to a "Diamond Member," the reward distribution logic will depend on your backend settings:
 
-3. **Backend Path:** Member > VIP Settings > Edit VIP > Discount Settings tab
+         - **Backend Path**: Members > VIP Settings > Edit VIP > Discount Settings tab
 
-4. **Function Location:** In the **Upgrade Gift Settings** section, enable "Whether to accumulate Upgrade gifts when crossing levels."
+         - **Function Location**: In the **Upgrade Gift Settings** section, enable "Whether to accumulate Upgrade gifts when crossing levels."
 
-5. **Enabled:** The member will receive both the "Platinum Member" and "Diamond Member" Upgrade gifts simultaneously.
+             - Enabled: The member will receive both the "Platinum Member" and "Diamond Member" Upgrade gifts simultaneously.
 
-6. **Disabled:** The member will only receive the Upgrade gift for the target "Diamond Member" level. 7. === "Cross-Group Upgrade"
+             - Disabled: The member will only receive the Upgrade gift for the target "Diamond Member" level.
 
-8. Assume the system has two independent groups: **store-wide VIP** and **VIP**.
+     === "Cross-Group Upgrade"
 
-9. If a member was originally in "store-wide VIP (Level 1)" and has the "VIP" tag, but remains in store-wide VIP because they haven't met the "VIP" Upgrade threshold,
+         Assume the system has two independent groups: **store-wide VIP** and **VIP**.
 
-10.
-11. When a large purchase occurs, making the member meet the thresholds for both "store-wide VIP (Level 2)" and "VIP (Level 1)", the member will be upgraded to "VIP (Level 1)" across groups and will only receive the "VIP (Level 1)" Upgrade gift. The system will not issue rewards for other store-wide VIP levels.
+         If a member was originally in "store-wide VIP (Level 1)" and had the "VIP" tag, but remained in store-wide VIP because they did not meet the "VIP" Upgrade threshold,
+
+        
+
+         When a large purchase occurs, making the member meet the thresholds for both "store-wide VIP (Level 2)" and "VIP (Level 1)", the member will be upgraded to "VIP (Level 1)" across groups and will only receive the "VIP (Level 1)" Upgrade gift; the system will not issue rewards for other store-wide VIP levels.
 
 ### Downgrade Mechanism
 * **Instant Correction:** When an order becomes invalid, the system immediately recalculates. If the remaining amount is insufficient, Downgrade will be executed.
@@ -116,32 +119,32 @@ These two considerations are set up in different versions as follows:
 
 | :--- | :--- | :--- | :--- |
 
-| **Looking Back** | Number of Days to Reverse | **Membership Validity** | Upgrade: **Upgrade Condition Calculation Period** 0 ≠ Renewal: **Membership Tier Validity Period** |
+| **Looking Back** | Number of Days to Reverse | **Membership Validity** | Upgrade: **Upgrade Condition Calculation Period** <br>Renewal: **Membership Tier Validity Period** |
 
 | **For the Future** | Number of Days to Extend | **Membership Validity** | **Membership Tier Validity Period** |
 
-| **Setting Characteristics** | - | Set a uniform number of days | Can set separate values ​​for reverse and validity periods |
+| **Setting Features** | - | Set a Unique Number of Days | Can be Set Separately for Reverse Validity and Validity Period |
 
 ### Different operational methods
 Having understood the field correspondence, let's look at how the system calculates time when performing different actions:
 
-**12** "Other Versions"
+=== "Other Versions"
 
-**0** **Simplest logic: Set a number of days, applicable to both versions.**
+     **Simplest logic:** Set a number of days, applicable to both systems.
 
-**1** The number of days you set in "Member Validity" determines how many days the system looks back, and the same number of days will be given after Upgrade.
+    : The number of days you set in "Member Validity" determines how many days the system looks back on. The same number of days is given after Upgrade.
 
-**2** | Perform Action | How long does the system look back? | How long is the validity period after Upgrade? |     | :--- | :--- | :--- |
+     | Perform Action | How long does the system look back? | How long is the validity period after Upgrade? |     | :--- | :--- | :--- |
 
-    | **Upgrade / Downgrade** | Membership Validity Period | Membership Validity Period |
+    | **Upgrade / Downgrade** | Membership Validity | Membership Validity |
 
-    | **Renewal** | Membership Validity Period | Membership Validity Period |
+    | **Renewal** | Membership Validity | Membership Validity |
 
 === "Enterprise Edition"
 
-     **Most Flexible Logic: Retrospective time and validity period can be set separately.**
+    ** Most flexible logic: Retrospective time and validity period can be set separately. **
 
-     For example: You can have the system look back one year (365 days), but only give a six-month validity period (180 days) after Upgrade.
+     For example: You can have the system look back one year (365 days), but after Upgrade, only a six-month validity period (180 days) is given.
 
     | Execute Action | How long does the system look back? | How long is the validity period after Upgrade? |     | :--- | :--- | :--- |
 
@@ -152,7 +155,7 @@ Having understood the field correspondence, let's look at how the system calcula
 ### Upgrade Example
 === "Other Versions"
 
-       If a member places a valid order on 2020/04/01, the system needs to determine if they meet the "Gold Card" Upgrade requirements.
+An        member placed a valid order on April 1, 2020. The system needs to determine if the member meets the "Gold Card" Upgrade requirements.
 
        **Prerequisites**
 
@@ -162,46 +165,46 @@ Having understood the field correspondence, let's look at how the system calcula
 
        **System Judgment Steps**
 
-       1. **Triggering Event**: A valid order is placed on 2020/04/01.
+       1. **Triggering Event**: A valid order was placed on April 1, 2020.
 
-       2. **Backtracking Period**: Counting back 360 days from 2020/04/01, the calculation period is 2019/04/07 ~ 2020/04/01. Check if the total spending within this period is ≥ 10,000 yuan.
+       2. **Backtracking Period**: Counting back 360 days from April 1, 2020, the calculation period is from April 7, 2019 to April 1, 2020. Check if the total spending within this period is ≥ 10,000 yuan.
 
-9.3. **Calculation of New Validity Period**: If it meets the requirement, the new validity period will be extended from now until 2021/03/27, 360 days from 2020/04/01.
+      3. **Calculate the new validity period**: If it meets the requirement, the new validity period will be extended to 2021/03/27, 360 days from 2020/04/01.
 
-10. ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/05/new_vip04.png)
+        ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/05/new_vip04.png)
 
-23. "Enterprise Edition"
+=== "Enterprise Edition"
 
-11. If a member establishes a valid order on 2026/05/01, the system needs to determine if it meets the "Gold Card" Upgrade conditions.
+     If a member places a valid order on 2026/05/01, the system needs to determine if they meet the "Gold Card" Upgrade requirements.
 
-12.
-
-13. **Prerequisites**
-
-14. * Upgrade Threshold: Accumulated spending of 10,000 yuan or more.
-
-15. * Upgrade Condition Calculation Period: 365 days (retroactive period).     * Membership Tier Validity Period: 180 days (New Benefit Period).
-
-    **System Judgment Steps**
-
-    1. **Triggering Event**: A valid order was established on 2026/05/01.
-
-    2. **Backtracking Interval**: Count back 365 days from 2026/05/01, calculating the interval as 2025/05/01 ~ 2026/05/01. Calculate whether the total consumption within this interval is ≥ 10,000 yuan.
-
-    3. **Calculate New Validity Period**: If it meets the requirement, then calculate 180 days from 2026/05/01.
-
-    ![](https://www.cyberbiz.io/support/wp-content/uploads/圖示範例-EC-會員-VIP-Upgrade機制01.png)
-
-### Downgrade Example
-=== "Other Versions"
-
-     If a member placed an "invalid order" (e.g., a full refund) on 2021/05/06, the system needs to reassess the member's level.
+      
 
      **Prerequisites**
 
-     * Membership Level Threshold: A cumulative spending of 10,000 yuan must be maintained during the retrospective period.
+    * Upgrade Threshold: Accumulated spending of 10,000 yuan or more.
 
-     * Membership Validity: 360 days.
+    * Upgrade Calculation Period: 365 days (look-back period).
+
+    * Membership Tier Validity Period: 180 days (New Benefit Period).
+
+     **System Judgment Steps**
+
+     1. **Trigger Event**: A valid order was established on 2026/05/01.
+
+     2. **Look-back Interval**: Count back 365 days from 2026/05/01, the calculation interval is 2025/05/01 ~ 2026/05/01. Check if the total consumption within this interval is ≥ 10,000 yuan.
+
+     3. **Calculate New Validity Period**: If it meets the criteria, then calculate 180 days from 2026/05/01.
+
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/圖示範例-EC-會員-VIP-Upgrade機制01.png)### Downgrade Example
+=== "Other Versions"
+
+     members who placed an "invalid order" (e.g., a full return) on 2021/05/06 will have their membership level reassessed by the system.
+
+     **Prerequisites**
+
+    * Membership level threshold: A cumulative spending of NT$10,000 must be maintained during the retrospective period.
+
+    * Membership validity: 360 days.
 
      **System Judgment Steps**
 
@@ -209,87 +212,83 @@ Having understood the field correspondence, let's look at how the system calcula
 
      1. **Triggering Event**: An invalid order was placed on 2021/05/06, resulting in the deduction of the original cumulative amount. The last valid order placed by the retrospective member is on 2026/04/30.
 
-9.2. **Backtracking Period**: Count back 30 days from April 30, 2021, calculating the period from April 1, 2021 to April 30, 2021. Check if the total spending within this period is ≥ 10,000 yuan. If, after deducting refunds, the total amount is below the threshold, a downgrade will be applied.
+    2. **Backtracking Period**: Count back 30 days from April 30, 2021, calculating the period from April 1, 2021 to April 30, 2021. Check if the total spending within this period is ≥ 10,000 NTD. If, after deducting refunds, the total amount is below the threshold, a downgrade will be applied.
 
-10.3. **Setting a New Level Validity Period**: The system will downgrade the customer back to VIP1 and recalculate the validity period from the "last valid order (i.e., the order on April 30th)," with the new expiration date adjusted to May 31, 2021.
+    3. **Setting a New VIP Level Expiry Date**: The system will downgrade the customer back to VIP1 and recalculate the expiry date from the "last valid order (i.e., the order placed on April 30th)". The new expiry date will be adjusted to May 31, 2021.
 
-11. ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/05/new_vip23-2.png)
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/05/new_vip23-2.png)
 
-24. "Enterprise Edition"
+=== "Enterprise Edition"
 
-12. If a member places an "invalid order" (such as a full refund) on May 15, 2026, the system needs to re-evaluate the member's level. 13
+     If a member has an "invalid order" (e.g., a full return) on 2026/05/15, the system needs to reassess the member's level.
 
-14
-**Prerequisites**
+  
 
-15
-* Membership Level Threshold: A cumulative spending of 10,000 RMB must be maintained during the retrospective period.
+    **Prerequisites**
 
-16
-* Upgrade Calculation Period: 365 days (Retrospective Period).
+    * Membership level threshold: Accumulated spending of NT$10,000 must be maintained during the retrospective period.
 
-17
-* Membership Level Validity Period: 180 days (New Benefits Period).
+    * Upgrade Calculation period: 365 days (retrospective period).
 
-18
-**System Judgment Steps**
+    * Membership level validity period: 180 days (new benefit period).
 
-19
-1. **Triggering Event**: An invalid order was established on 2026/05/15, resulting in the deduction of the original cumulative amount. The last valid order established by the retrospective member was on 2026/05/01.
+    **System Judgment Steps**
 
-20. **Backtracking Period**: Count back 365 days from May 1, 2026, calculating the period from May 1, 2025 to May 1, 2026. Check if the total spending within this period is ≥ 10,000 yuan. If, after deducting refunds, the total amount is below the threshold, a downgrade will be applied.
+     1. **Triggering Event**: An invalid order was established on 2026/05/15, resulting in the deduction of the original accumulated amount. The last valid order placed by the member is dated May 1, 2026.
 
-21. **Setting the New Level Validity Period**: The downgraded level will be valid for 180 days starting from May 1, 2026.
+    2. **Backtracking Period**: Counting back 365 days from May 1, 2026, the calculated period is May 1, 2025 to May 1, 2026. The total spending within this period is checked to see if it is ≥ 10,000 RMB. If, after deducting refunds, the total amount is below the threshold, a downgrade will be applied.
 
-22. [Establishing the store-wide VIP System](1)
+    3. **Setting the New Level Validity Period**: The downgraded level will be valid for 180 days starting from May 1, 2026.
+
+    ![Establish store-wide VIP System](https://www.cyberbiz.io/support/wp-content/uploads/圖示範例-EC-會員-VIP-Downgrade機制01.png)
 
 ### Renewal Example
 === "Other Versions"
 
-     The original membership level was scheduled to expire on February 28, 2021. The system automatically performed the Renewal check the following day, March 1, 2021.
+The      membership level was originally scheduled to expire on February 28, 2021. The system automatically performed the Renewal check the following day, March 1, 2021.
 
      **Prerequisites**
 
-     * VIP Level Renewal Threshold: Accumulated spending of 1,500 RMB or more.
+    * VIP Level Renewal Threshold: Accumulated spending of 1,500 RMB.
 
-     * MEMBER Level Renewal Threshold: Accumulated spending of 500 RMB or more.
+    * MEMBER Level Renewal Threshold: Accumulated spending of 500 RMB.
 
-     * Membership Validity: 360 days (retroactive period / new benefit period).
+    * Membership Validity: 360 days (retroactive period / new benefits period).
 
      **System Check Steps**
 
-     1. **Triggering Event**: The membership validity expired on March 1, 2021, and the system re-checked the membership validity.
+     1. **Triggering Event**: Membership expires on March 1, 2021; the system re-checks membership validity.
 
-9.2. **Backtracking Period**: Calculates spending within the membership period, i.e., March 6, 2020 to March 1, 2021. Checks whether the customer has met the Renewal threshold within these 360 ​​days.
+    2. **Backtracking Period**: Calculates spending within the membership period, i.e., March 6, 2020 to March 1, 2021. Checks whether the customer has met the Renewal threshold within these 360 ​​days.
 
-10.3. **Multi-level Comparison and Extension**:
+    3. **Multi-level Comparison and Extension**:
 
-11. * **Check VIP Threshold**: If the customer's cumulative spending is 800 yuan, which is less than the 1,500 yuan threshold, Renewal fails.
+        * **Check VIP Threshold**: If the customer's accumulated spending is 800 yuan, which is less than the 1,500 yuan threshold, Renewal fails.
 
-12. * **Check MEMBER Threshold**: If the customer's cumulative spending is 800 yuan, which is more than the 500 yuan threshold, Renewal succeeds.
+        * **Check MEMBER Threshold**: If the customer's accumulated spending is 800 yuan, which is more than the 500 yuan threshold, Renewal succeeds.
 
-13.4. **Effective Result**: The system will automatically upgrade the customer's Renewal to the **MEMBER** level, with the new validity period extended for 360 days from March 1, 2021.
+    4. **Effective Result**: The system will automatically upgrade the customer's Renewal to the **MEMBER** level, with the new validity period extended for 360 days starting from 2021/03/01.
 
-14. ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/05/new_vip09.png)
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/05/new_vip09.png)
 
-26. "Enterprise Edition"
+=== "Enterprise Edition"
 
-15. The membership level was originally scheduled to expire on April 30, 2026. The system will automatically perform the Renewal determination on May 1, 2026, the day after the expiration date.
+     The membership level was originally scheduled to expire on 2026/04/30. The system will automatically perform the Renewal determination the day after the expiration date, 2026/05/01.
 
-16.
+      
 
-17. **Prerequisites**
+     **Prerequisites**
 
-18. * Membership level threshold: A cumulative spending of NT$10,000 must be maintained during the retrospective period.
+    * This membership level threshold: A cumulative spending of NT$10,000 must be maintained during the rollback period.
 
-19. * Membership level validity period (Y): 180 days (retrospective period / new benefit period).
+    * Membership level validity period (Y): 180 days (rollback period / new benefits period).
 
-20. **System Judgment Steps**
+     **System Judgment Steps**
 
-21. **Triggering Event**: Membership expires on April 30, 2026; membership validity is reassessed on May 1, 2026.
+     1. **Triggering Event**: Membership expires on April 30, 2026; membership validity is reassessed on May 1, 2026.
 
-22. **Backtracking Period**: Unlike the previous two, Renewal only calculates consumption within the "valid period of this level," i.e., November 2, 2025 to May 1, 2026, checking whether the accumulated consumption within these 180 days meets the requirements.
+     2. **Backtracking Period**: Unlike the previous two, Renewal only calculates consumption within the "valid period of this level," i.e., November 2, 2025 to May 1, 2026, checking whether the accumulated consumption within these 180 days meets the requirements.
 
-23. **Extension of Validity Period**: If it meets the requirements, the validity period is extended by 180 days (Y) from the original expiration date.
+     3. **Extend Validity Period**: If it meets the requirements, the validity period is extended by 180 days (Y) from the original expiration date.
 
-24. [Establishing the store-wide VIP System](1)
+    ![Establish store-wide VIP System](https://www.cyberbiz.io/support/wp-content/uploads/圖示範例-EC-會員-VIP-Renewal機制01.png)

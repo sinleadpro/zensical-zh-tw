@@ -61,7 +61,7 @@ hide: []
 Through a flexible tiered system and automated calculation engine, we help you accurately identify high-value customers and provide them with differentiated, exclusive treatment, building long-term customer loyalty.
 
 ## Choose your membership system
-Based on your operational strategy, you can choose to establish a universal system applicable to the entire site, and design exclusive thresholds and benefits for specific customer groups.
+Depending on your operational strategy, you can choose to establish a universal system applicable to the entire site, and design exclusive thresholds and benefits for specific customer groups.
 
 <div class="grid cards" markdown>
 
@@ -89,7 +89,7 @@ Not all orders will be counted towards your VIP accumulated spending. The system
 
 * **Shipped and Closed Orders**: Orders with a **Closed** status and a delivery status other than **Not Shipped or Preparing to Ship**.
 
-For the above three types of orders, the order status cannot be **Cancelled**, and the return status must be **No Return Required**; otherwise, the order is considered invalid.
+For >  orders of the above three types, the order status cannot be **Cancelled**, and the return status must be **No Return Required**; otherwise, the order is considered invalid.
 
 * **Rejected Return Orders**: If this order had a return dispute but was ultimately marked as **Rejected Return**.
 
@@ -118,9 +118,7 @@ The system doesn't consider the "calendar year," but instead traces back a speci
 
 * **Metabolism**: New orders "enter the interval," increasing the total; orders older than 365 days are "moved out of the interval" and no longer counted in the total.
 
-*7. "Why does a member's accumulated spending amount decrease?"
-
-*4. If a "large order" from a year ago has just expired and moved out of the calculation interval, while a new order is smaller, the member's accumulated spending amount may decrease.
+!!! info "Why does a member's accumulated spending amount decrease?"      If a "large order" from a year ago has just expired and moved out of the calculation interval, while a new order is smaller, the member's accumulated spending amount may decrease.
 
 <div class="grid cards" markdown>
 
@@ -128,7 +126,7 @@ The system doesn't consider the "calendar year," but instead traces back a speci
 
   [__Upgrade / Downgrade / Renewal Rules__](vip-upgrade-downgrade-renewal-rules.md)
 
-  Understand the calculation of VIP Upgrade expiration date, the retrospective recalculation of Downgrade, and the timing of Renewal determination.
+   Understand VIP Upgrade expiration date calculation, Downgrade retrospective recalculation, and Renewal determination timing.
 
 </div>
 
@@ -150,12 +148,13 @@ Transform the VIP system into a tangible marketing driver, increasing average or
 
   [__VIP Exclusive Offers__](setup-exclusive-vip-discounts.md)
 
-  Set up full order discounts, exclusive free shipping thresholds, bonus multipliers, and distribute VIP birthday gifts and Upgrade gifts.
+   Offers whole-order discounts, exclusive free shipping thresholds, bonus multipliers, and VIP birthday gifts and Upgrade gifts.
 
 - :lucide-banknote:{ .lg }
 
   [__Member Exclusive Prices__](../../products/pricing/setup-vip-member-pricing.md)
 
-  Set exclusive prices for different VIP levels for specific products, allowing higher-level members to enjoy the most direct price advantages.
+   Sets exclusive prices for different VIP levels for specific products, allowing higher-level members to enjoy the most direct price advantages.
 
 </div>
+

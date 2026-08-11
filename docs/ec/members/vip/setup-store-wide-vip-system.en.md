@@ -58,7 +58,7 @@ hide: []
 ---
 # Establishing the store-wideVIP System
 
-Gradually set VIP membership levels, Upgrade thresholds, and Renewal conditions to construct a membership system that aligns with the store's brand image.
+Gradually set VIP membership levels, Upgrade thresholds, and Renewal conditions to build a membership system that aligns with the store's brand image.
 
 { .subtitle }
 
@@ -69,118 +69,116 @@ After completing the initial planning, you can begin building the VIP tiers in t
 ## Step 1: Basic Data Setup
 Go to the backend, select **Membership > VIP Settings**, and click **Add Membership Tier** under **store-wideVIP**.
 
-11. "Other Versions"
+=== "Other Versions"
 
-2. 1. **Tier Name**: Enter an easy-to-understand name (e.g., Silver Card Member, Premium VIP).
+    1. **Tier Name**: Enter an easy-to-understand name (e.g., Silver Member, Premium VIP).
 
-3. 2. **Membership Validity Period**: It is recommended to set a consistent validity period for all tiers (commonly 365 days) for easy management.
+    2. **Membership Validity Period**: It is recommended to set a consistent validity period for all tiers (commonly 365 days) for easy management.
 
-4. 3. **Member Card Image**: This image will be displayed on the front end of the Membership Center, enhancing brand exclusivity.
+    3. **Membership Card Image**: This image will be displayed on the front-end screen of the Membership Center, enhancing brand exclusivity.
 
-5. **Recommended Size**: 320x210px (within 1MB).
+        * **Suggested Size**: 320x210px (within 1MB).
 
-6. ![](../../../assets/images/EC-後台-會員-VIP設定-新增會員層級01.en.png)
+    ![](../../../assets/images/EC-後台-會員-VIP設定-新增會員層級01.en.png)
 
-12. "Enterprise Version"
+=== "Enterprise Edition"
 
-7. 1. **Tier Name**: Enter an easy-to-understand name (e.g., Silver Card Member, Premium VIP). 8.2. **Member Card Image**: This image will be displayed on the front-end screen of the member center, enhancing the brand's exclusivity.
+    1. **Tier Name**: Enter an easy-to-understand name (e.g., Silver Member, Premium VIP).     2. **Member Card Image**: This image will be displayed on the front end of the member center, enhancing brand exclusivity.
 
-9. **Suggested Size**: 320x210px (within 1MB).
+        * **Suggested Size**: 320x210px (within 1MB).
 
-10. ![](1)
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-會員-VIP設定-新增會員層級01.png)
 
 ## Step 2: Set the Upgrade threshold
-17. "Other Versions"
+=== "Other Versions"
 
-0. The Upgrade threshold determines how a member obtains this level of status.
+    Upgrade thresholds determine how members achieve this level of membership.
 
-1. **Single Transaction Amount:** The amount a customer spends in a single checkout. Suitable for attracting high-spending customers for direct promotion.
+    * **Single Transaction Amount**: The amount a customer spends in a single checkout. Suitable for attracting high-spending customers for direct promotion.
 
-2. **Total Spending During Validity Period:** The sum of all valid orders within your set validity period (e.g., the past 365 days).
+    * **Total Spending During Validity Period**: The sum of all valid orders within your set validity period (e.g., the past 365 days).
 
-18. "Enterprise Edition"
+=== "Enterprise Edition"
 
-3. 1. Set the **Upgrade Calculation Period**
+    1. Setting **Upgrade Calculation Period**
 
-4. **Within Validity Period (Default):** Select the number of days for the validity period from the drop-down menu.
+         - **Validity Period (Default)**: Select the validity period in days from the drop-down menu.
 
-5. **No Validity Period:** Uses all of the member's historical records as the calculation period for the member's Upgrade criteria. 6
+         - **Unlimited Validity Period**: Uses all of the member's historical records as the calculation period for the member's Upgrade criteria.
 
-7
-2. Setting **Upgrade Eligibility Thresholds**
+          
+    2. Setting **Upgrade Threshold Conditions**
 
-8
-- **Single Transaction Amount**: The amount a customer reaches in a single checkout within the validity period you set.
+         - **Single Transaction Amount**: The total amount a customer spends in a single checkout within your set validity period.
 
-9
-- **Total Transactions within the Validity Period**: The sum of all valid orders within the validity period you set.
+         - **Total Transactions Within the Validity Period**: The sum of all valid orders within your set validity period.
 
-10
+        
 
-11
-!!! tip "Building a Cumulative Upgrade Mechanism"
+    !!! Tip "Creating a Cumulative Upgrade Mechanism"
 
-12
-- **Setting Method**: Set the Upgrade period to **Unlimited**
+         - **Setting Method**: Set the Upgrade period to **unlimited**
 
-13
-**Operating Mechanism**: The system will automatically retrieve all historical transaction records of the member since their **first order on this website**, and determine Upgrade eligibility based on the threshold you specify:
+         - **Operating Mechanism**: The system will automatically retrieve all historical transaction records of the member since **their first order on this website**, and determine Upgrade eligibility based on your specified thresholds:
 
-14
-- Single Transaction Amount: Detects whether the amount of any single order placed by the member since their first order on this website meets the threshold.
+             - Single Transaction Amount: Detects whether the amount of any single order placed by the member since their first order on this website meets the threshold.
 
-15 - Total Spending During the Validity Period: This checks whether the member's total spending since their first order on the website has met the target.
+             - Total Amount Consumption During the Validity Period: Retrospectively checks whether the member's total consumption amount since their first order on this website meets the threshold.
 
-19 - "Priority Decision"
+!!! note "Priority Determination"
 
-16 - If you have set both "Single Transaction" and "Cumulative" thresholds, the system will use the result that is **most beneficial to the consumer** for Upgrade determination.
+     If you set both "single transaction" and "cumulative" thresholds, the system will use the **most beneficial to the consumer** result for Upgrade determination.
 
 ## Step 3: Set the Renewal threshold
 === "Other Versions"
 
-     Renewal conditions are used to determine whether a member can maintain their original level after the expiration of their membership period.
+    Renewal conditions are used to determine whether a member can maintain their original level after the expiration of their membership period.
 
-     * **Single Transaction Amount**: The amount a customer reaches in a single checkout. Suitable for attracting "high-spending" customers to upgrade directly.
+    * **Single Transaction Amount**: The amount a customer spends in a single checkout. Suitable for attracting "high-spending" customers for direct promotion.
 
-     * **Total Spending During the Validity Period**: The sum of all valid orders within the validity period you set (e.g., the past 365 days).
+    * **Total Spending During the Validity Period**: The sum of all valid orders within the validity period you set (e.g., the past 365 days).
 
-     ![](../../../assets/images/EC-後台-會員-VIP設定-新增會員層級02.en.png)
+    ![](../../../assets/images/EC-後台-會員-VIP設定-新增會員層級02.en.png)
 
 === "Enterprise Edition"
 
-     1. Setting the **Membership Level Validity Period**
+    1. Setting the **Membership Level Validity Period**
 
       
-         The **Membership Level Validity Period** is the **Membership Validity Period** for that level. The system will also use the spending records within this period to calculate whether a member meets the **Renewal eligibility**. 9. ****** ****** ****Expiration Date (Default):** Select the membership validity period in days from the drop-down menu.
+         The **Membership Level Validity Period** is the **Membership Validity Period** for that level. The system will also use the spending records within this period to calculate whether the member meets the **Renewal eligibility**.       
 
-11. ****** ****No Expiration Date:** Membership validity has no expiration date; the system will not check Renewal eligibility.
+         - **Expired Date (Default)**: Select the membership validity period in days from the drop-down menu.
 
-12. ****** ****** **Setting Renewal Eligibility Threshold****
+         - **Unlimited Date**: Membership validity has no expiration date; the system will not check Renewal eligibility.
 
-13. Based on the previous step's setting for "Membership Level Validity Period," determine how to fill in the Renewal threshold:
+    2. Setting **Renewal Threshold Requirements**
 
-14. ****** ****Expiration Date (Default):** **Please be sure to fill in the Renewal threshold.** If no Renewal threshold is set, the system will not perform Renewal eligibility checks when the membership expires, and the member will lose VIP status. 15 - **Unlimited**: The Renewal threshold can be left blank (the system will not perform an Renewal check, and the Renewal condition threshold will not take effect).
+         Based on the previous step's setting for the membership level's validity period, determine how to fill in the Renewal threshold:
 
-16 - Set Threshold:
+         - **Expired Date (Default)**: **Please be sure to fill in the Renewal threshold.** If no Renewal threshold is set, the system will not perform Renewal condition checks when the membership expires, and the member will lose VIP status.
 
-17 - **Single Transaction Amount**: The amount a customer reaches in a single checkout within the validity period you set.
+         - **Unlimited**: The Renewal threshold can be left blank (the system will not perform Renewal checks, and the Renewal condition threshold will not take effect).
 
-18 - **Total Transactions within the Validity Period**: The sum of all valid orders within the validity period you set.
+         Threshold Setting:
 
-19 - !!! tip "Creating a Permanent Renewal Mechanism"
+         - **Single Transaction Amount**: The amount a customer reaches in a single checkout within the validity period you set.
 
-20 - **Setting Method**: Set the Renewal period to **Unlimited**.
+         - **Total Transactions Within Validity Period**: The sum of all valid orders within the validity period you set.
 
-21 - **Operation Method**: The system will not initiate an **Expiration Renewal Check** for this level. Once a member has upgraded to this level using Upgrade, they will not be downgraded by the system due to an Renewal check.
+    !!! tip "Creating a Permanent Renewal Mechanism"
+
+         - **Setting Method**: Set the Renewal period to **Unlimited**.
+
+         - **Operation Method**: The system will not initiate **Expiration Renewal Checks** for this level. Once a member reaches this membership level (Upgrade), they will not be downgraded by the system due to Renewal checks.
 
           
-        :lucide-triangle-alert: If a member generates an invalid order (e.g., order cancellation or return), the Downgrade mechanism will still be triggered for screening, and the member may still be subject to Downgrade processing.
+        :lucide-triangle-alert: If a member places an invalid order (e.g., order cancellation or return), the Downgrade mechanism will still be triggered for screening, and the member may still be subject to Downgrade processing.
 
     
     ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-會員-VIP設定-新增會員層級03.png)
 
         
   
-!!! note "Judgment Priority"
+!!! note "Priority Judgment"
 
-     If you set both "single" and "cumulative" thresholds, the system will use the result that is **most beneficial to the consumer** for Upgrade judgment.
+     If you set both "single order" and "cumulative" thresholds, the system will use the result that is **most beneficial to the consumer** for Upgrade judgment.
