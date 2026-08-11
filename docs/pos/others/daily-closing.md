@@ -147,7 +147,7 @@ hide: []
 
 - **帳條範例**：
 
-    ![](../../assets/images/POS-前台-其他功能-小結關帳-列印紙本帳條02.jpg){ .small-image }
+    ![](../../assets/images/POS-前台-其他功能-小結關帳-列印紙本帳條02.jpeg){ .small-image }
 
 
 
