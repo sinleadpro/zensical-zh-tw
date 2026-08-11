@@ -1,6 +1,6 @@
 ---
-title: VIP Feature Operation Guide
-description: This article provides an in-depth analysis of the new VIP system's rolling calculations, real-time trigger judgments, and backtracking logic for upgrades and downgrades, helping merchants establish a precise membership operation concept.
+title: VIP 功能運作指南
+description: 深度解析新版 VIP 系統的滾動式計算、即時觸發判定以及升降等回溯邏輯，協助商家建立精準的會員營運觀念。
 created: 2026-01-23 00:00
 last_modified: 2026-06-30 12:30
 lang: zh-TW
@@ -67,18 +67,17 @@ Based on your operational strategy, you can choose to establish a universal syst
 
 - :lucide-users:{ .lg }
 
-[__Site-wide VIP System__](setup-store-wide-vip-system.md)
+  [__store-wide VIP System__](setup-store-wide-vip-system.md)
 
-Establish a unified tiered system across the entire site, allowing all members to gradually advance through accumulated spending.
+   Establish a unified tiered system across the entire site, allowing all members to gradually advance through accumulated spending.
 
 - :lucide-tag:{ .lg }
 
-[__Exclusive VIP Groups__](create-exclusive-vip-groups.md)
+  [__Exclusive VIP Group__](create-exclusive-vip-groups.md)
 
-Set independent level rules and thresholds for members with specific tags (such as: KOLs, employee purchasers, high-spending customers).
+   Set independent level rules and thresholds for members with specific tags (such as: KOLs, employee purchasers, high-spending customers).
 
 </div>
-
 
 ## Which expenses will be included?
 Not all orders will be counted towards your VIP accumulated spending. The system only calculates orders that are "transactions that have been substantially completed" and "have no return concerns":
@@ -113,30 +112,30 @@ The system will immediately recalculate a member's VIP level whenever the follow
 * **Version Activation:** When a merchant releases a new VIP system version and it reaches its effective date.
 
 ### 2. Rolling Backtracking Calculation Method
-The system doesn't consider the "calendar year," but instead traces back a specific validity period from the "triggering moment."
+The system doesn't consider the "calendar year," but instead traces back a specific expiration period from the "triggering moment."
 
-* **Moving Interval**: Imagine a fixed-width time interval (e.g., 365 days). Whenever membership level is recalculated, all orders within that time interval are traced back to the current point in time.
+* **Moving Interval**: Imagine a fixed-width time interval (e.g., 365 days). Whenever membership levels are recalculated, all orders within that time interval are traced back to the current time.
 
-* **Metabolism**: New orders "enter the interval," increasing the total amount; orders older than 365 days are "moved out of the interval" and no longer counted in the total.
+* **Metabolism**: New orders "enter the interval," increasing the total; orders older than 365 days are "moved out of the interval" and no longer counted in the total.
 
-4. "Why does a member's accumulated spending decrease?"
+*7. "Why does a member's accumulated spending amount decrease?"
 
-If a "large order" from a year ago has just expired and moved out of the calculation interval, while a new order is smaller, the member's accumulated spending total may decrease.
+*4. If a "large order" from a year ago has just expired and moved out of the calculation interval, while a new order is smaller, the member's accumulated spending amount may decrease.
 
-1.
+<div class="grid cards" markdown>
 
-- :lucide-ticket: 3.
+- :lucide-ticket:{ .lg }
 
-[__Upgrade/Downgrade/Renewal Rules__](0.)
+  [__Upgrade / Downgrade / Renewal Rules__](vip-upgrade-downgrade-renewal-rules.md)
 
-Understand the VIP upgrade validity period calculation, downgrade recalculation, and renewal determination timing.
+  Understand the calculation of VIP Upgrade expiration date, the retrospective recalculation of Downgrade, and the timing of Renewal determination.
 
 </div>
 
 ## Rule activation and version management
-To protect consumer rights and provide merchants with a grace period for announcements, the system has restrictions on the effectiveness of changes to core rules.
+To protect consumer rights and provide merchants with a grace period for announcements, the system has an effective restriction on changes to core rules.
 
-* **Basic Settings (D+2 Specification)**: Modifications to core logic such as tier names, upgrade/renewal thresholds, etc., will take effect **after 2 days** (except for initial releases).
+* **Basic Settings (D+2 Specification)**: Modifications to core logic such as tier names and Upgrade/Renewal thresholds will take effect **after 2 days** (except for initial releases).
 
 * **Discount Settings (Immediate Effect)**: Modifications to discount rates, bonus points, and other reward content will take effect immediately after saving.
 
@@ -149,15 +148,14 @@ Transform the VIP system into a tangible marketing driver, increasing average or
 
 - :lucide-ticket:{ .lg }
 
-[__VIP Exclusive Offers__](setup-exclusive-vip-discounts.md)
+  [__VIP Exclusive Offers__](setup-exclusive-vip-discounts.md)
 
-Set discounts on entire orders, exclusive free shipping thresholds, bonus multipliers, and VIP birthday and upgrade gifts.
+  Set up full order discounts, exclusive free shipping thresholds, bonus multipliers, and distribute VIP birthday gifts and Upgrade gifts.
 
 - :lucide-banknote:{ .lg }
 
-[__Member Exclusive Prices__](../../products/pricing/setup-vip-member-pricing.md)
+  [__Member Exclusive Prices__](../../products/pricing/setup-vip-member-pricing.md)
 
-Set exclusive prices for different VIP levels for specific products, allowing higher-level members to enjoy the most direct price advantages.
+  Set exclusive prices for different VIP levels for specific products, allowing higher-level members to enjoy the most direct price advantages.
 
 </div>
-

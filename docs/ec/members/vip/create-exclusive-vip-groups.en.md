@@ -1,6 +1,6 @@
 ---
-title: Create an exclusive VIP group
-description: By using the VIP group tagging feature, you can bind tags to specific customer segments and set exclusive VIP rules to achieve segmented management and precise marketing.
+title: 建立專屬VIP群組
+description: 透過 VIP 群組標籤功能，針對特定客層綁定標籤並設定專屬 VIP 規則，實現分群經營與精準行銷。
 created: 2026-01-23 00:00
 last_modified: 2026-06-30 12:30
 lang: zh-TW
@@ -65,15 +65,15 @@ Through the VIP group tagging feature, you can bind tags to specific customer se
 
 { .subtitle }
 
-![](../../../assets/images/EC-後台-會員-VIP設定-新增VIP群組01.png){ .hero-page }
+![](../../../assets/images/EC-後台-會員-VIP設定-新增VIP群組01.en.png){ .hero-page }
 
 ## Function Description
-The "VIP Group Tagging" feature allows merchants to apply a separate set of tiered rules, distinct from the "All-Store VIP" system, to members with specific **membership tags**. This is extremely useful for managing specific customer groups (such as sales staff, KOLs, and high-net-worth individuals).
+The "VIP Group Tag" allows merchants to apply a separate set of tiered rules, independent of "store-wide VIP," to members with specific **membership tags**. This is extremely useful for managing specific customer groups (such as sales staff, KOLs, and high-net-worth individuals).
 
 ### VIP type distinction
-1. **All VIP Membership**: Applicable to all members not categorized into a specific group.
+1. **store-wide VIP**: Applicable to all members not categorized into a specific group.
 
-2. **VIP Group**: Linked to a specific **member tag**, only members with that tag can participate.
+2. **VIP Group**: Binds to a specific **member tag**; participation is limited to members with that tag.
 
 ## Operating procedures
 
@@ -114,13 +114,14 @@ If a member has multiple customer tags, and these tags are linked to different V
 * **Recommendation:** Please place the group with the strictest criteria and highest benefits at the bottom of the list.
 
 ### 3. Determine membership eligibility
-The system will review the upgrade requirements for the lowest tier (entry level) within the VIP group.
+The system will review the lowest-level (entry-level) Upgrade requirements within the VIP group.
 
-- **Meeting the requirements:** Members will officially enter the VIP group and be assigned a corresponding level based on their spending power (direct upgrade to the highest level is supported).
+- **Meets the requirements:** Officially enters the VIP group and is assigned a corresponding level based on their spending power (supports direct jump to the highest level).
 
-- **Not meeting the requirements:** Even if a member has the tag, the system will still determine that they do not possess VIP status for this group. The member will maintain their original status (e.g., VIP or regular member) until the next event is triggered and the spending requirement is met.
+- **Does not meet the requirements:** Even with the tag, the system will still determine that they do not possess VIP status for this group. The member will maintain their original status (e.g., store-wide VIP or regular member) until the next event is triggered and the spending requirement is met.
 
-**Key Concept Reminder:** The tag only represents eligibility for **entry tickets**, not **direct access**. Members must meet the group's spending requirements in addition to holding the tag for the system to officially upgrade them to VIP status in that group.
+**1. Core Concept Reminder:**
+**0. The tag only represents the qualification for **entry ticket**, not a **direct pass**. Members must meet the group's spending requirements in addition to holding the tag for the system to officially classify their Upgrade as a VIP in that group.
 
 ## Calculation details when adding or subtracting labels
 When merchants manually adjust member tags, the system's calculation logic is as follows:
@@ -129,20 +130,21 @@ When merchants manually adjust member tags, the system's calculation logic is as
 
 | :--- | :--- | :--- |
 
-| **Adding a Tag** | Considered a **Valid Order** event, the validity period calculation threshold is calculated retroactively from the current date. | The start date is the **day the tag was added**. |
+| **Add Tag** | Considered a **Valid Order** event, the validity period calculation threshold is calculated retroactively from the current date. | The start date is the **day the tag was added**. |
 
-| **Removing a Tag** | Considered an **Invalid Order** event, the calculation is performed retroactively from the most recent valid event. | The start date is the date of the most recent valid event. |
+| **Remove Tag** | Considered an **Invalid Order** event, the calculation is performed retroactively from the most recent valid event. | The start date is the date of the most recent valid event. |
 
-**0. Manual Adjustment Risk**
+!!! warning "Manual Adjustment Risk"
 
-It is not recommended to frequently perform the "decrease tag then add tag" operation on members for testing purposes. Because "adding a tag" triggers a new retroactive calculation, if the member's spending is insufficient within the new retroactive period, it may lead to an unexpected downgrade of the member's status.
+     It is not recommended to frequently perform the "decrease tag first, then add tag" operation on members for the purpose of testing the logic. Because "adding a tag" will trigger a new retroactive calculation, if the member's consumption is insufficient in the new retroactive period, it may lead to unexpected Downgrade for the member.
+
 
 ## Frequently Asked Questions
-0. Quote "Why does the member have a tag but not join the corresponding VIP group?"
+2. Quote "Why does the member have a tag but not join the corresponding VIP group?"
 
-Please check if the member has met the upgrade threshold for the "lowest level" in the VIP group. Even with a tag, members still need to meet spending thresholds (single transaction or cumulative) to officially upgrade.
+0. Please check if the member has reached the minimum Upgrade threshold for that VIP group. Even with a tag, members still need to meet a spending threshold (single transaction or cumulative) to officially join Upgrade.
 
-1. Quote "Can I delete the tag currently being used in the VIP group?"
+3. Quote "Can I delete the tag currently being used in the VIP group?"
 
-No. For a tag to be deleted, it must simultaneously meet the following conditions: no customer use, no product use, **no VIP group binding**, and no member-exclusive product use.
+1. No. For a tag to be deleted, it must simultaneously meet the following conditions: no customer use, no product use, **no VIP group binding**, and no member-exclusive product use.
 
