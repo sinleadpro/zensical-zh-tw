@@ -183,7 +183,8 @@ hide:
     <!-- Latest -->
     <div id="latest" role="tabpanel" class="tab-content" style="display:flex">
       <a href="hardware/epson-tm-m30iii-invoice-printer.md"><span class="badge">新增</span>EPSON TM-M30III 發票機安裝教學 (Wi-Fi 連接)</a>
-      <a href="others/daily-closing.md"><span class="badge">更新</span>小結關帳時可列印紙本帳條</a>
+      <a href="others/daily-closing.md"><span class="badge">更新</span>小結關帳可列印紙本帳條</a>
+	  <a href="../ec/marketing/coupon/multiple-coupons.md"><span class="badge">新增</span>POS 多優惠券結帳功能</a>
     </div>
 
     <!-- Popular -->
