@@ -1,13 +1,11 @@
 ---
 title: 訂單付款狀態對照表
-description: ""
+description: "說明訂單付款狀態(等待付款、已收到款項、貨到付款、付款失敗等)的意義與訂單自動取消機制。"
 created: 2026-06-08 14:21
 last_modified: 2026-07-02 08:52
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:
@@ -18,7 +16,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: ""
 plans:
@@ -43,10 +41,10 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/references/payment-statuses/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide:
 ---

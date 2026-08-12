@@ -4,9 +4,7 @@ description: 澳洲落地版透過與 Airwallex 合作，提供商家穩定且�
 created: 2026-03-03 00:00
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - AU
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans: []
@@ -32,7 +30,7 @@ intents:
 features:
   - 澳洲落地版
   - 跨境金流
-  - Airwallex_收單
+  - Airwallex 收單
 prerequisites:
   - 需為澳洲落地版商家
   - 需先聯繫開店顧問取得申請連結
@@ -51,7 +49,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=51285
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/australia-local-payment-services
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/australia-local-payment-services/"
 comments: false
 search:
   exclude: false

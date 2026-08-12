@@ -4,9 +4,7 @@ description: 了解如何啟用並使用一鍵開立請款發票功能。企業�
 created: 2026-06-09 18:45
 last_modified: 2026-06-12 14:40
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans: 
@@ -37,8 +35,8 @@ prerequisites:
   - "需為企業版方案商家"
   - "需由 CYBERBIZ 代為開立發票"
 related: 
-  - "[[自動確認對帳帳款設定]]"
-  - "[[對帳中心管理指南]]"
+  - "ec/website-management/auto-confirm-reconciliation-accounts"
+  - "對帳中心管理指南"
 tags: 
   - 請款發票
   - 星益欣
@@ -56,7 +54,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=2196
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/website-management/one-click-invoice-issuance/"
 comments: false
 search:
   exclude: false

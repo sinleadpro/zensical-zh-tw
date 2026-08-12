@@ -4,15 +4,13 @@ description: 依照行銷活動或主題手動挑選商品建立群組，作為�
 created: 2026-01-08 00:00
 last_modified: 2026-07-22 17:23
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes:
   - verify FAQ
   - update internal links
-  - next steps 整合串接: POS 前台選單設定 link
+  - "next steps 整合串接: POS 前台選單設定 link"
 ga_views: 0
 feedback: 0
 products:
@@ -22,7 +20,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -68,7 +66,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=31938
   - https://www.cyberbiz.io/support/?p=3330
   - https://www.cyberbiz.io/support/?p=43330
-permalink: https://help.cyberbiz.io/ec/products/categories-and-tags/custom-collections
+permalink: "https://help.cyberbiz.io/ec/products/categories-and-tags/custom-collections/"
 comments: false
 search:
   exclude: false

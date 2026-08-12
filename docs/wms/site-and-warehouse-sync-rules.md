@@ -5,8 +5,6 @@ created: 2026-03-20 00:00
 last_modified: 2026-07-21 11:00
 lang: zh-TW
 type: guide
-status: ""
-version: 1.1.2
 author: Ann
 reviewers: []
 notes:
@@ -57,7 +55,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5711
   - https://www.cyberbiz.io/support/?p=9638
-permalink: https://help.cyberbiz.io/wms/site-and-warehouse-sync-rules
+permalink: "https://help.cyberbiz.io/wms/site-and-warehouse-sync-rules/"
 comments: false
 search:
   exclude: false

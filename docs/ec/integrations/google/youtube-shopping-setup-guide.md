@@ -4,10 +4,8 @@ description: 透過 YouTube Shopping 在影片、直播、短影音中植入商�
 created: 2026-03-27 10:49
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: branch
 plans:
@@ -38,10 +36,10 @@ features:
   - 產品動態饋給
   - YouTube 合作夥伴計畫
 prerequisites:
-  - "[[setup-google-merchant-center]]"
-  - "[[setup-google-analytics]]"
+  - "ec/integrations/google/setup-google-merchant-center"
+  - "ec/integrations/google/ga/setup-google-analytics"
 related:
-  - "[[setup-gmc-conversion-tracking]]"
+  - "ec/integrations/google/setup-gmc-conversion-tracking"
 tags:
   - YouTube Shopping
   - GMC
@@ -65,7 +63,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=1979
   - https://www.cyberbiz.io/support/?p=6118
   - https://www.cyberbiz.io/support/?p=6149
-permalink: https://help.cyberbiz.io/ec/integrations/google/youtube-shopping-setup-guide
+permalink: "https://help.cyberbiz.io/ec/integrations/google/youtube-shopping-setup-guide/"
 comments: ""
 search:
   exclude: false

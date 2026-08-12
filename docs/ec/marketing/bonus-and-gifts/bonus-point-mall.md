@@ -4,9 +4,7 @@ description: 建立專屬的線上紅利兌換商城，設定商品兌換所需�
 created: 2026-01-21 00:00
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -38,8 +36,8 @@ features:
   - 紅利商城
   - 紅利點數
 prerequisites:
-  - - - 需先於「全館折扣 > 紅利 & 優惠券」開啟會員紅利點數功能
-  - - - 需先建立欲參與兌換的商品
+  - 需先於「全館折扣 > 紅利 & 優惠券」開啟會員紅利點數功能
+  - 需先建立欲參與兌換的商品
 related: []
 tags:
   - 行銷活動
@@ -60,7 +58,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7882
   - https://www.cyberbiz.io/support/?p=10679
   - https://www.cyberbiz.io/support/?p=10711
-permalink: https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/bonus-point-mall
+permalink: "https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/bonus-point-mall/"
 comments: false
 search:
   exclude: false

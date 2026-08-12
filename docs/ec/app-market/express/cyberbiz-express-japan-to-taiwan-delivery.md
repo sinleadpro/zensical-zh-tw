@@ -4,9 +4,7 @@ description: 一站式日本跨境直送台灣物流服務，涵蓋開通設定�
 created: 2026-03-03 00:00
 last_modified: 2026-07-27 14:30
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.2
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -21,7 +19,7 @@ modules:
 sites:
   - JP
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -34,7 +32,7 @@ intents:
   - 建立跨境託運單
 features:
   - 日到台跨境物流
-  - EZWAY_報關
+  - EZWAY 報關
   - 跨境運費自動計算
 prerequisites:
   - 需向開店顧問團隊申請開通服務
@@ -55,7 +53,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=51481
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery/"
 comments: false
 search:
   exclude: false

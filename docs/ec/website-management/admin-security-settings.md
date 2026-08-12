@@ -4,10 +4,8 @@ description: 管理後台登入防護與顧客資料保護，從 IP 白名單、
 created:
 last_modified: 2026-07-08 15:00
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/website-management/security-settings
-type: tutorial
-status:
-version:
+permalink: "https://help.cyberbiz.io/ec/website-management/admin-security-settings/"
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -43,10 +41,10 @@ features:
   - 網站密碼
   - 會員密碼規則
   - 會員個資部分隱碼
-  - IP白名單
+  - IP 白名單
   - 瀏覽器Cookie驗證
   - 自動登出時間
-  - reCAPTCHA驗證
+  - reCAPTCHA 驗證
   - 二階段驗證(2FA)
 prerequisites: []
 related: []

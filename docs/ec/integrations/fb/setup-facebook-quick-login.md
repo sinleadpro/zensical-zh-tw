@@ -4,9 +4,7 @@ description: 設定 Facebook 快速登入功能，讓消費者能使用 Facebook
 created: 2026-03-31 11:23
 last_modified: 2026-07-02 10:44
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: trunk
 plans:
@@ -36,15 +34,15 @@ intents:
   - 建立_Meta_應用程式
   - 完成商家驗證
 features:
-  - Facebook_快速登入
-  - Meta_應用程式
+  - Facebook 快速登入
+  - Meta 應用程式
   - 商家驗證
   - 應用程式審查
-  - OAuth_重新導向
+  - OAuth 重新導向
 prerequisites: []
 related:
-  - "[[setup-line-quick-login]]"
-  - "[[setup-google-quick-login]]"
+  - "ec/integrations/line/account-integration/setup-line-quick-login"
+  - "ec/integrations/google/setup-google-quick-login"
 tags:
   - FB 快速登入
   - Meta
@@ -64,7 +62,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=776
   - https://www.cyberbiz.io/support/?p=26854
   - https://www.cyberbiz.io/support/?p=507
-permalink: https://help.cyberbiz.io/ec/integrations/fb/setup-facebook-quick-login
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/setup-facebook-quick-login/"
 comments: false
 search:
   exclude: false

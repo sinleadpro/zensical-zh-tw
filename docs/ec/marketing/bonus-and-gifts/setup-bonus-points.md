@@ -4,9 +4,7 @@ description: 透過紅利點數建立會員回饋機制，吸引新客首購並�
 created: 2026-05-27 15:20
 last_modified: 2026-07-21 11:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.2
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: []
@@ -35,9 +33,9 @@ features:
   - 批次發送紅利
 prerequisites: []
 related: 
-  - "[[設定註冊禮]]"
-  - "[[設定生日禮]]"
-  - "[[紅利商城設定]]"
+  - "ec/marketing/bonus-and-gifts/setup-registration-gift"
+  - "ec/marketing/bonus-and-gifts/setup-birthday-gift"
+  - "紅利商城設定"
 tags: 
   - 紅利點數
   - 購物金
@@ -60,7 +58,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3812
   - https://www.cyberbiz.io/support/?p=42367
   - https://www.cyberbiz.io/support/?p=6103
-permalink: https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/setup-bonus-points
+permalink: "https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/setup-bonus-points/"
 comments: false
 search:
   exclude: false

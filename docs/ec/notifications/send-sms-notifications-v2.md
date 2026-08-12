@@ -4,10 +4,8 @@ description: 如何在 CYBERBIZ 後台設定與發送簡訊，包含發送方式
 created: 2026-04-27 17:09
 last_modified: 2026-07-01 20:55
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes:
   - add link for 顧客/會員標籤
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -44,8 +42,8 @@ features:
 prerequisites:
   - 一般用戶需先儲值 Cyber 幣（PLUS / 企業版用戶不須額外儲值）
 related:
-  - "[[manage-sms-templates-v2]]"
-  - "[[track-sms-records]]"
+  - "ec/notifications/manage-sms-templates-v2"
+  - "ec/notifications/track-sms-records"
 tags:
   - 簡訊
   - 訊息推播
@@ -61,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=621
   - https://www.cyberbiz.io/support/?p=1529
-permalink: https://help.cyberbiz.io/ec/notifications/send-sms-notifications-v2
+permalink: "https://help.cyberbiz.io/ec/notifications/send-sms-notifications-v2/"
 comments: false
 search:
   exclude: false

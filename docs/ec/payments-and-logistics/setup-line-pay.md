@@ -4,9 +4,7 @@ description: 串接 LINE Pay 付款，顧客於結帳時可選用 LINE Pay 進�
 created: 2026-01-27 00:00
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -57,7 +55,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2127
   - https://www.cyberbiz.io/support/?p=35122
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-line-pay
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-line-pay/"
 comments: false
 search:
   exclude: false

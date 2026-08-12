@@ -1,13 +1,11 @@
 ---
 title: 超商大宗寄倉B2C通路規格
-description: ""
+description: "彙整超商大宗寄倉 B2C 各通路的重量與材積限制，供設定配送方式與商品建檔時參考。"
 created: 2026-05-25 21:42
 last_modified: 2026-07-01 11:28
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:
@@ -18,7 +16,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: ""
 plans:
@@ -45,14 +43,13 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/references/cvs-b2c-channel-spec-reference/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide:
 ---
-
 
 ## 重量與材積限制 { #reference-cvs-b2c-channels-specs }
 
@@ -95,4 +92,3 @@ hide:
     * 7-ELEVEN 因額外要求公司基本資料與商品類型驗證，必填欄位最多。
     * 全家冷凍因涉及冷鏈倉儲，需額外填寫倉庫資訊。
     * 欄位送出後將同步至各超商系統，請務必填寫正確。
-

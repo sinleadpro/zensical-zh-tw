@@ -4,10 +4,8 @@ description: 使用會員篩選器找出 LINE OA 綁定會員，並匯出或用�
 created: 2026-03-06 11:20
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/integrations/line/account-integration/filter-use-line-oa-bound-members
-type: tutorial
-status: ""
-version: ""
+permalink: "https://help.cyberbiz.io/ec/integrations/line/account-integration/filter-use-line-oa-bound-members/"
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -51,7 +49,7 @@ tags:
   - LINE OA 串接
   - 名單匯出
   - 會員標籤
-acoiv: operate
+acoiv: operation
 apis: []
 devices:
   - desktop
@@ -60,7 +58,7 @@ ui_components: []
 paths:
   - 會員 > 所有會員
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/support/?p=721
 comments: false

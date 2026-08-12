@@ -4,9 +4,7 @@ description: 透過 Excel 批次匯出、編輯與上傳，一次更新多筆商
 created: 2026-03-05 10:50
 last_modified: 2026-06-30 11:26
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -32,7 +30,6 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions: []
-feature_badges: []
 intents:
   - 批次更新商品資訊
   - 節省大量商品編輯時間
@@ -43,11 +40,11 @@ features:
   - 配送設定批次修改
 prerequisites: []
 related:
-  - "[[excel-import-products]]"
-  - "[[edit-product-description-settings]]"
+  - "ec/products/bulk-operations/excel-import-products"
+  - "ec/products/create-and-manage/edit-product-description-settings"
 tags:
   - 批次修改
-  - Excel_匯入
+  - Excel 匯入
   - 商品描述
   - 溫層設定
   - 物流通路
@@ -64,11 +61,11 @@ paths:
   - 商品 > 所有商品
   - 商品 > Excel 大量匯入商品
 layouts:
-  - 預設版型
+  - classic
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9397
   - https://www.cyberbiz.io/support/?p=44199
-permalink: https://help.cyberbiz.io/ec/products/bulk-operations/batch-update-product-descriptions-shipping
+permalink: "https://help.cyberbiz.io/ec/products/bulk-operations/batch-update-product-descriptions-shipping/"
 comments: false
 search:
   exclude: false

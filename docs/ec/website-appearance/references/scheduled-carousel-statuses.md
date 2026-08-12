@@ -1,13 +1,11 @@
 ---
 title: 排程跑馬燈對照表
-description: ""
+description: "說明排程跑馬燈版位的檔期狀態(預設、已上架、未上架、已下架)，由系統依目前時間自動判定。"
 created: 2026-06-10 15:45
 last_modified: 2026-06-10 15:49
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:
@@ -18,7 +16,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: ""
 plans:
@@ -37,13 +35,14 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/website-appearance/references/scheduled-carousel-statuses/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide:
 ---
+
 
 ### 廣告檔期狀態對照表 { #reference-scheduled-carousel-statuses }
 
@@ -57,4 +56,3 @@ hide:
 !!! note "註釋"
     * 狀態由系統依「目前時間」與檔期的開始／結束時間自動判定，無須手動切換。
     * 「預設」圖片不受時間限制，與其他排程檔期可並存於同一版位。
-

@@ -5,8 +5,6 @@ created: 2026-05-28 11:55
 last_modified: 2026-05-28 11:52
 lang: zh-TW
 type: reference
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans: 
@@ -34,11 +32,11 @@ intents:
   - 了解_LINE_檔案限制
   - LINE_客服規格
 features: 
-  - Chat_Box
-  - LINE_整合
+  - Chat Box
+  - LINE 整合
   - 訊息格式
 prerequisites: 
-  - "[[Chat Box 訊息通]]"
+  - "ec/app-market/chatbox/index"
 related: []
 tags: 
   - LINE
@@ -46,7 +44,7 @@ tags:
   - 檔案限制
   - 客服規格
   - ChatBox
-acoiv: reference
+acoiv: integration
 apis: []
 devices: 
   - desktop
@@ -58,7 +56,7 @@ layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=12961
   - https://www.cyberbiz.io/support/?p=52921
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/chatbox/line-message-format-spec/"
 comments: false
 search:
   exclude: false

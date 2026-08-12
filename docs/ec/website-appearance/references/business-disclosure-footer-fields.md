@@ -5,9 +5,7 @@ created: 2026-06-22 10:00
 last_modified: 2026-07-02 16:01
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0
@@ -18,12 +16,11 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: ""
 plans: []
 cyb_extensions: []
-feature_badges: []
 intents: []
 features: []
 prerequisites: []
@@ -41,7 +38,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/website-appearance/references/business-disclosure-footer-fields/
+permalink: "https://help.cyberbiz.io/ec/website-appearance/references/business-disclosure-footer-fields/"
 comments: false
 search:
   exclude: false

@@ -4,9 +4,7 @@ description: 設定網站的選單、導覽列與頁腳。
 created: 2026-02-03 17:00
 last_modified: 2026-07-22 15:49
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -44,10 +42,10 @@ features:
   - 頁腳選單與外觀設定
   - 多國語系選單編輯
 prerequisites:
-  - "[[create-update-products]]"
+  - "ec/products/create-and-manage/create-update-products"
 related:
-  - "[[setup-nav-menu-hover-expand]]"
-  - "[[設定首頁商品群組排序]]"
+  - "ec/website-appearance/navigation/setup-nav-menu-hover-expand"
+  - "ec/website-appearance/theme-and-layout/storefront-collection-sorting"
 tags:
   - 網站選單
   - 導覽列設定
@@ -70,7 +68,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11200
   - https://www.cyberbiz.io/support/?p=19955
-permalink: https://help.cyberbiz.io/ec/website-appearance/navigation/setup-menus-navigation
+permalink: "https://help.cyberbiz.io/ec/website-appearance/navigation/setup-menus-navigation/"
 search:
   exclude: false
 icon: lucide/menu

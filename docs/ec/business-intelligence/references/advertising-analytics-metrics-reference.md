@@ -1,13 +1,11 @@
 ---
 title: 廣告分析指標對照表
 description: 廣告分析頁面的 11 項成效指標定義與計算方式對照，包含費用、曝光、點擊、轉換與 ROAS。
-created: 2026-06-15
+created: 2026-06-15 00:00
 last_modified: 2026-07-12 19:49
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 products:
@@ -16,7 +14,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 plans: []
 tags:
   - 廣告分析

@@ -4,10 +4,8 @@ description: 設定 LINE 官方帳號綁定會員後自動發送優惠券，以�
 created: 2026-02-24 14:26
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-line-binding-coupon-gift
-type: tutorial
-status: ""
-version: ""
+permalink: "https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-line-binding-coupon-gift/"
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -22,7 +20,7 @@ modules:
   - 會員
 sites: []
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -51,11 +49,11 @@ features:
   - 歡迎訊息整合
   - LINE OA 加入好友邀請
 prerequisites:
-  - "[[connect-line-messaging-api]]"
-  - "[[bind-line-oa-store-members]]"
+  - "ec/integrations/line/account-integration/connect-line-messaging-api"
+  - "ec/integrations/line/account-integration/bind-line-oa-store-members"
 related:
-  - "[[setup-line-rich-menu]]"
-  - "[[send-line-friend-invitation]]"
+  - "ec/integrations/line/marketing/setup-line-rich-menu"
+  - "ec/notifications/send-line-friend-invitation"
 tags:
   - LINE
   - 優惠券

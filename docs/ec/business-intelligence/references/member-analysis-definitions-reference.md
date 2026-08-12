@@ -1,13 +1,11 @@
 ---
 title: 會員分析共用定義
 description: 會員分析頁面共用的統計基準與名詞定義，包含有效訂單定義、數據更新時間及新會員與新客判定方式。
-created: 2026-06-16
+created: 2026-06-16 00:00
 last_modified: 2026-07-10 15:26
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 products:
@@ -16,7 +14,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 plans: []
 tags:
   - 有效訂單

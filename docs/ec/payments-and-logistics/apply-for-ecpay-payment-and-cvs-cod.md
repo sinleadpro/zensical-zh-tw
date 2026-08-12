@@ -4,9 +4,7 @@ description: 綠界科技（ECPay）是台灣普及度極高的第三方支付�
 created: 2026-02-13 00:00
 last_modified: 2026-06-04 17:59
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -38,8 +36,8 @@ features:
   - 綠界物流
   - 超商取貨付款
 prerequisites:
-  - [[準備負責人證件影本]]
-  - [[準備公司登記證照或變更事項登記表]]
+  - "準備負責人證件影本"
+  - "準備公司登記證照或變更事項登記表"
 related: []
 tags:
   - 特約會員
@@ -55,7 +53,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4872
   - https://www.cyberbiz.io/helpcenter/?p=2430
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/apply-for-ecpay-payment-and-cvs-cod/"
 comments: false
 search:
   exclude: false

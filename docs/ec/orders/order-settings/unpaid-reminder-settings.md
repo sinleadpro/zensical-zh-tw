@@ -4,10 +4,8 @@ description: 如何配置自動化未付款提醒機制，透過 Email、簡訊�
 created:
 last_modified: 2026-07-01 12:00
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/orders/order-settings/unpaid-reminder-settings
-type: tutorial
-status:
-version:
+permalink: "https://help.cyberbiz.io/ec/orders/order-settings/unpaid-reminder-settings/"
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -23,7 +21,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:

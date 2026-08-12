@@ -4,9 +4,7 @@ description: 了解如何在官網整合 LINE 與 Facebook Messenger 對話入�
 created: 2026-06-25 10:10
 last_modified: 2026-06-25 10:10
 lang: zh-TW
-type: tutorial 
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ sites:
   - TW
   - MY
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans: 
@@ -41,13 +39,13 @@ features:
   - LINE 整合
   - Messenger 整合
 prerequisites:
-  - "[[Chat Box 串接 LINE 官方帳號]]"
-  - "[[Chat Box 串接 Facebook 粉絲專頁]]"
+  - "ec/app-market/chatbox/connect-chat-box-to-line-oa"
+  - "ec/app-market/chatbox/connect-chat-box-to-facebook-page"
 related:
-  - "[[Chat Box 訊息通]]"
+  - "ec/app-market/chatbox/index"
 tags: 
   - 對話入口
-  - Chat_Box
+  - Chat Box
   - LINE
   - Messenger
   - 客服整合
@@ -65,7 +63,7 @@ paths:
   - APP MARKET > 我的擴充服務 > Chat Box > 官網整合對話入口
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/ec/app-market/chatbox/integrated-chat-widget"
+permalink: "https://help.cyberbiz.io/ec/app-market/chatbox/integrated-chat-widget/"
 search:
   exclude: false
 icon: lucide/message-square-plus

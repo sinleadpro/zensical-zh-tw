@@ -4,9 +4,7 @@ description: 透過小結與關帳作業，門市人員可定期清點營收、�
 created: 2026-04-07 17:00
 last_modified: 2026-07-29 14:10
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.2.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -25,8 +23,8 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - clerk
-  - admin
+  - merchant
+  - merchant
 difficulty: beginner
 intents:
   - 執行 POS 小結
@@ -38,7 +36,7 @@ features:
 prerequisites:
   - 需先完成當班的所有交易訂單
 related:
-  - [[員工權限與帳號管理]]
+  - "pos/store/staff-permissions-and-account-management"
 tags:
   - 小結
   - 關帳
@@ -56,7 +54,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=3036
-permalink: "https://help.cyberbiz.io/pos/others/daily-closing"
+permalink: "https://help.cyberbiz.io/pos/others/daily-closing/"
 comments: false
 search:
   exclude: false

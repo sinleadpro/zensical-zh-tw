@@ -4,9 +4,7 @@ description: 瞭解 POS 子機綁定機制，防止多個裝置同時使用同�
 created: 2026-04-16 14:30
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,8 +18,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -37,10 +35,10 @@ features:
   - POS 子機綁定
   - 裝置鎖定機制
 prerequisites:
-  - [[登入 POS 前台系統]]
+  - "pos/store/staff-login"
 related: []
 tags:
-  - POS_綁定
+  - POS 綁定
   - 重複登入防止
   - 子機管理
   - 結帳安全
@@ -57,11 +55,10 @@ ui_components:
 paths:
   - POS 前台 > 選擇 POS 機
   - 管理後台 > POS > 所有 POS 商店
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=25293
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/check/sub-device-checkout-binding/"
 comments: false
 search:
   exclude: false

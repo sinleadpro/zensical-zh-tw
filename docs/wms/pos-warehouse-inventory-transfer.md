@@ -5,8 +5,6 @@ created: 2026-03-20 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: guide
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:
@@ -58,7 +56,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=28494
-permalink: https://help.cyberbiz.io/wms/pos-warehouse-inventory-transfer
+permalink: "https://help.cyberbiz.io/wms/pos-warehouse-inventory-transfer/"
 comments: false
 search:
   exclude: false

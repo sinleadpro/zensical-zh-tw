@@ -4,9 +4,7 @@ description: 在提供實體門市相關服務前，您需要先在管理後台�
 created: 2026-04-17 12:15
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -21,7 +19,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -35,16 +33,16 @@ intents:
   - 區分一般門市與POS門市
 features:
   - 門市管理
-  - POS_整合
+  - POS 整合
   - 批量建立門市
 prerequisites: []
 related:
-  - - - 設定門市取貨服務
-  - - - 開啟 CYBERBIZ NOW 快速到貨服務
+  - 設定門市取貨服務
+  - 開啟 CYBERBIZ NOW 快速到貨服務
 tags:
   - 建立門市
   - 一般門市
-  - POS_門市
+  - POS 門市
   - 門市清單
 acoiv: configure
 apis: []
@@ -57,13 +55,12 @@ ui_components:
   - POS 商店
 paths:
   - 金物流 > 所有門市
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=15619
   - https://www.cyberbiz.io/support/?p=10454
   - https://www.cyberbiz.io/support/?p=12804
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/create-stores/"
 comments: false
 search:
   exclude: false

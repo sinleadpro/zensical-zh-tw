@@ -1,25 +1,23 @@
 ---
 title: 購物車相關設定
 description: 調整顧客在正式結帳前的購物車行為，包含購物車啟用、未結帳提醒、優惠券設定、額外資訊欄位與定期定額購物車設定。
-created: 2026-06-16
+created: 2026-06-16 00:00
 last_modified: 2026-07-09 12:16
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
 products:
-  - ec
+  - EC
 modules:
   - 金物流
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -31,7 +29,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 設定購物車啟用與關閉
   - 設定未結帳商品自動提醒
@@ -48,9 +45,9 @@ prerequisites:
   - 若需使用未結帳提醒功能，請確認方案已開通對應管道（Email、簡訊、LINE OA）
   - 若需使用定期定額購物車設定，請確認已開通定期定額功能（企業版）
 related:
-  - "[[cart-reminder-channels-reference]]"
-  - "[[order-settings]]"
-  - "[[logistics-settings]]"
+  - "ec/payments-and-logistics/references/cart-reminder-channels-reference"
+  - "ec/payments-and-logistics/payments/order-settings"
+  - "ec/payments-and-logistics/payments/logistics-settings"
 tags:
   - 購物車設定
   - 購物車啟用
@@ -66,7 +63,7 @@ ui_components: []
 paths:
   - 金物流 > 結帳頁 & 物流設定
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/cart-settings/
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/payments/cart-settings/"
 icon: lucide/shopping-cart
 ---
 

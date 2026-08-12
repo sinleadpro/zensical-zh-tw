@@ -4,9 +4,7 @@ description: 了解 CYBERBIZ 電商倉儲系統（WMS）與 EC 後台的退貨�
 created: 2026-03-31 13:40
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: ""
 plans: []
@@ -37,11 +35,11 @@ features:
   - 入庫驗收作業
   - 逾期未取自動退款
 prerequisites:
-  - [[帳號管理與角色指派]]
-  - [[設定商店基本資訊]]
+  - "帳號管理與角色指派"
+  - "ec/website-management/setup-store-basic-info"
 related:
-  - [[帳號管理與角色指派]]
-  - [[設定角色權限]]
+  - "帳號管理與角色指派"
+  - "設定角色權限"
 tags:
   - 退貨管理
   - 逆物流
@@ -61,7 +59,7 @@ paths:
   - 訂單管理 > 退貨/退款 > 建立逆物流
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/wms/returns-and-vehicle-dispatch
+permalink: "https://help.cyberbiz.io/wms/returns-and-vehicle-dispatch/"
 comments: false
 search:
   exclude: false

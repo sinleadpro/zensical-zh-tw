@@ -4,9 +4,7 @@ description: 設定與管理 LINE 官方帳號（LINE OA）的自動化通知樣
 created: 2026-02-13 23:26
 last_modified: 2026-06-26 06:12
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -29,7 +27,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 設定 LINE OA 通知樣板
   - 管理 LINE OA 訊息
@@ -46,12 +43,12 @@ features:
   - 未付款提醒
   - 行銷通知
 prerequisites:
-  - "[[串接 LINE Messaging API]]"
-  - "[[綁定 LINE 官方帳號與官網會員]]"
+  - "ec/integrations/line/account-integration/connect-line-messaging-api"
+  - "ec/integrations/line/account-integration/bind-line-oa-store-members"
 related:
-  - "[[設定與管理 Email 通知樣板]]"
-  - "[[設定與管理簡訊通知樣板]]"
-  - "[[設定與發送簡訊通知]]"
+  - "ec/notifications/manage-email-templates"
+  - "ec/notifications/manage-sms-templates-v2"
+  - "ec/notifications/send-sms-notifications-v2"
 tags:
   - 訊息推播
   - LINE OA
@@ -73,7 +70,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8156
   - https://www.cyberbiz.io/support/?p=728
-permalink: https://help.cyberbiz.io/ec/notifications/manage-line-oa-templates
+permalink: "https://help.cyberbiz.io/ec/notifications/manage-line-oa-templates/"
 comments: false
 search:
   exclude: false

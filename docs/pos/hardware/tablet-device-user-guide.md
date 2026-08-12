@@ -5,8 +5,6 @@ created: 2026-03-25 18:30
 last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: guide
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:
@@ -15,13 +13,12 @@ ga_views: 0
 feedback: 0
 products:
   - POS
-modules:
-  - 
+modules: []
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -55,10 +52,10 @@ ui_components:
   - 全螢幕模式
 paths:
   - POS 前台
-layouts: ""
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=21520
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/hardware/tablet-device-user-guide/"
 comments: false
 search:
   exclude: false

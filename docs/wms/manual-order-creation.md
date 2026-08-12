@@ -4,9 +4,7 @@ description: 當商家有來自非串接通路的出貨需求，或需要將商�
 created: 2026-03-12 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -53,7 +51,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5744
   - https://www.cyberbiz.io/support/?p=9105
-permalink: https://help.cyberbiz.io/wms/manual-order-creation
+permalink: "https://help.cyberbiz.io/wms/manual-order-creation/"
 comments: false
 search:
   exclude: false

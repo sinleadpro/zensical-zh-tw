@@ -4,13 +4,11 @@ description: 申請街口支付帳號，並在 CYBERBIZ 後台完成串接設定
 created:
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-jkopay
-type: tutorial
-status:
-version:
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-jkopay/"
+type: guide
 author: Jase
 reviewers: []
-notes:
+notes: []
 ga_views: 0
 feedback: 0
 products:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -31,7 +29,6 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions:
-  - PAYMENTS
 intents:
   - 申請街口支付帳號
   - 串接街口支付金流

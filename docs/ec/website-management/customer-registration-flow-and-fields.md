@@ -4,9 +4,7 @@ description: 良好的註冊流程能大幅提升新客轉換率。您可以依�
 created: 2026-02-12 00:00
 last_modified: 2026-06-04 17:59
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans: []
@@ -49,7 +47,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7209
   - https://www.cyberbiz.io/support/?p=36853
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/website-management/customer-registration-flow-and-fields/"
 comments: false
 search:
   exclude: false

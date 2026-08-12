@@ -1,13 +1,11 @@
 ---
 title: 設定網頁鎖右鍵保護圖文版權
 description: 在版型檔案中加入 CSS 與 JavaScript 限制語法，停用右鍵選單與文字選取功能，以降低網頁圖片與文字內容被複製或下載的風險。
-created: 2025-03-03
+created: 2025-03-03 00:00
 last_modified: 2026-07-06 09:13
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-right-click-protection
-type: tutorial
-status: ""
-version: ""
+permalink: "https://help.cyberbiz.io/ec/website-appearance/site-settings/setup-right-click-protection/"
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -60,8 +58,8 @@ devices:
 ui_components: []
 paths: []
 layouts:
-  - 預設版型
-  - 拖拉版型
+  - classic
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3561
   - https://www.cyberbiz.io/support/?p=17072

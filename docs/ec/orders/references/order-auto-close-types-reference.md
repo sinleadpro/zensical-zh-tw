@@ -1,29 +1,27 @@
 ---
 title: 訂單自動結案類型對照表
 description: 彙整訂單自動結案設定的各種結案類型、觸發條件與訂單狀態要求，供結帳頁與金物流相關設定引用。
-created: 2026-06-16
+created: 2026-06-16 00:00
 last_modified: 2026-06-27 23:07
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 products:
-  - ec
+  - EC
 modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 plans: []
 tags:
   - 自動結案
   - 結案類型
   - 訂單狀態
   - 參考資料
-permalink: https://help.cyberbiz.io/ec/orders/references/order-auto-close-types-reference/
+permalink: "https://help.cyberbiz.io/ec/orders/references/order-auto-close-types-reference/"
 icon: lucide/check-circle-2
 hide:
 ---

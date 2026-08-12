@@ -4,9 +4,7 @@ description: 說明如何建立訂閱制活動頁面，包含基本設定、期�
 created: 2026-05-29 18:01
 last_modified: 2026-07-20 18:50
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans: 
@@ -58,7 +56,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=53869
   - https://www.cyberbiz.io/support/?p=16465
   - https://www.cyberbiz.io/support/?p=1618
-permalink: https://help.cyberbiz.io/ec/marketing/other-tools/subscription-campaign-page
+permalink: "https://help.cyberbiz.io/ec/marketing/other-tools/subscription-campaign-page/"
 comments: false
 search:
   exclude: false

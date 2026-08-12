@@ -294,17 +294,17 @@
   /* Adds space between tag and following text */
 }
 
-/* Custom Page Status: update */
+/* Custom Page Status: new */
 :root {
   /* Zensical New Status - FOSS (Material Design Icons - Apache 2.0) */
   /* 圖示內容是一個帶有 'NEW' 字樣的標籤徽章 */
-  --md-status--update: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 10"><path d="M0 10V0h2l3.5 5.5V0h2v10H5.5L2 4.5V10H0m9 0V0h5v2h-3v2h2.5v2H11v2h3.5v2H9m6.5 0l-1-10h2l.5 5.5L17.5 0h2l-.5 5.5.5 4.5h-1.5l-.5-4.5-.5 4.5h-1.5z"/></svg>');
+  --md-status--new: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 10"><path d="M0 10V0h2l3.5 5.5V0h2v10H5.5L2 4.5V10H0m9 0V0h5v2h-3v2h2.5v2H11v2h3.5v2H9m6.5 0l-1-10h2l.5 5.5L17.5 0h2l-.5 5.5.5 4.5h-1.5l-.5-4.5-.5 4.5h-1.5z"/></svg>');
 }
 
 /* 針對 Z-NEW 的樣式設定 */
-.md-status--update::after {
-  mask-image: var(--md-status--update);
-  -webkit-mask-image: var(--md-status--update);
+.md-status--new::after {
+  mask-image: var(--md-status--new);
+  -webkit-mask-image: var(--md-status--new);
   background-color: #1E88E5;
 }
 

@@ -4,10 +4,8 @@ description: 透過 LINE Official Account、LINE Login 與 LIFF，完成官網�
 created: 2026-02-15 00:00
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/integrations/line/account-integration/bind-line-oa-store-members
-type: tutorial
-status: ""
-version: ""
+permalink: "https://help.cyberbiz.io/ec/integrations/line/account-integration/bind-line-oa-store-members/"
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -20,8 +18,8 @@ modules:
   - 第三方整合
 sites: []
 audiences:
-  - admin
-difficulty: medium
+  - merchant
+difficulty: intermediate
 tnb: branch
 plans:
   - 專業PLUS

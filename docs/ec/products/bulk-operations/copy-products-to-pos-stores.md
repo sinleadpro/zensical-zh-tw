@@ -4,9 +4,7 @@ description: 學習如何將官網商品批次複製到 POS 門市，包含批�
 created: 2026-06-28 00:00
 last_modified: 2026-07-08 12:43
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -14,12 +12,13 @@ ga_views: 0
 feedback: 0
 products:
   - EC
+  - POS
 modules:
   - 商品
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -27,8 +26,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges:
-  - POS
 intents:
   - 批次複製商品至 POS 門市
   - 建立新商品時直接指定 POS 門市
@@ -40,8 +37,8 @@ prerequisites:
   - 操作帳號具備「可複製商品到 POS 商店」權限
   - 商品款式已設定 SKU
 related:
-  - "[[pos/inventory/index]]"
-  - "[[create-and-manage/create-update-products]]"
+  - "pos/inventory/index"
+  - "ec/products/create-and-manage/create-update-products"
 tags:
   - POS
   - 門市商品
@@ -59,7 +56,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=11985
-permalink: https://help.cyberbiz.io/ec/products/bulk-operations/copy-products-to-pos-stores
+permalink: "https://help.cyberbiz.io/ec/products/bulk-operations/copy-products-to-pos-stores/"
 comments: false
 search:
   exclude: false

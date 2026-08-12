@@ -4,9 +4,7 @@ description: 當消費者在定期定額活動頁下單後，系統會產生一�
 created: 2026-06-01 14:54
 last_modified: 2026-07-07 15:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: 
@@ -21,7 +19,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans: 
@@ -39,9 +37,9 @@ features:
   - 訂閱制
   - 母子訂單
 prerequisites: 
-  - "[[定期定額活動頁]]"
+  - "定期定額活動頁"
 related: 
-  - "[[定期定額活動頁]]"
+  - "定期定額活動頁"
 tags: 
   - 定期定額
   - 訂閱制
@@ -61,7 +59,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=4570
   - https://www.cyberbiz.io/support/?p=6824
   - https://www.cyberbiz.io/support/?p=6816
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/subscription-orders/"
 comments: false
 search:
   exclude: false

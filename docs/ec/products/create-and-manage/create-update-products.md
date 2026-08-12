@@ -4,9 +4,7 @@ description: 完成一支商品從新增、設定款式與價格、撰寫商品�
 created: 2026-03-08 17:15
 last_modified: 2026-07-15 15:15
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -23,7 +21,7 @@ sites:
   - SG
   - MY
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -53,10 +51,10 @@ features:
   - 物流材積計算
 prerequisites: []
 related:
-  - "[[excel-import-products]]"
-  - "[[edit-product-description-settings]]"
-  - "[[setup-product-videos]]"
-  - "[[setup-back-in-stock-notifications]]"
+  - "ec/products/bulk-operations/excel-import-products"
+  - "ec/products/create-and-manage/edit-product-description-settings"
+  - "ec/products/create-and-manage/setup-product-videos"
+  - "ec/products/engagement/setup-back-in-stock-notifications"
 tags:
   - 商品設定
   - 新增商品
@@ -84,7 +82,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=20111
   - https://www.cyberbiz.io/support/?p=31357
   - https://www.cyberbiz.io/support/?p=7565
-permalink: https://help.cyberbiz.io/ec/products/create-and-manage/create-update-products
+permalink: "https://help.cyberbiz.io/ec/products/create-and-manage/create-update-products/"
 comments: false
 search:
   exclude: false

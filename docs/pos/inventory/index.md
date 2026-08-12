@@ -5,8 +5,6 @@ created: 2026-04-08 11:36
 last_modified: 2026-06-30 21:55
 lang: zh-TW
 type: guide
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -20,8 +18,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -31,11 +29,11 @@ plans:
 cyb_extensions: []
 intents:
   - 管理全通路庫存
-  - POS_進出倉操作
+  - POS 進出倉操作
   - 執行庫存盤點
   - 申請門市調倉
 features:
-  - EC_POS_庫存同步
+  - EC POS 庫存同步
   - 第三方進倉
   - 自動產生出倉單
   - 庫存校正
@@ -43,7 +41,7 @@ prerequisites: []
 related: []
 tags:
   - 全通路庫存
-  - POS_庫存管理
+  - POS 庫存管理
   - 進倉
   - 出倉
   - 庫存盤點
@@ -65,7 +63,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=27443
-permalink: https://help.cyberbiz.io/pos/inventory
+permalink: "https://help.cyberbiz.io/pos/inventory/"
 comments: false
 search:
   exclude: false

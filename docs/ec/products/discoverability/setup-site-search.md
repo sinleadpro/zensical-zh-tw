@@ -4,10 +4,8 @@ description: 設定站內搜尋功能，說明搜尋範圍、分詞邏輯、後�
 created: 2026-04-15 10:20
 last_modified: 2026-06-30 11:26
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes:
   - verify 商品群組名稱url/slug的問題
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -37,13 +35,13 @@ intents:
   - 排除商品搜尋
 features:
   - 分詞搜尋
-  - GA4_加強型評估
+  - GA4 加強型評估
   - 站內搜尋追蹤
 prerequisites: []
 related:
-  - "設定 GA4 站內搜尋追蹤.md"
-  - "快速上手商品管理.md"
-  - "設定搜尋結果中排除特定關鍵字商品.md"
+  - "ec/integrations/google/ga/setup-ga4-site-search-tracking"
+  - "ec/products/create-and-manage/create-update-products"
+  - "ec/products/discoverability/exclude-keyword-products-search"
 tags:
   - 站內搜尋
   - 商品搜尋
@@ -64,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8765
   - https://www.cyberbiz.io/support/?p=23999
-permalink: https://help.cyberbiz.io/ec/products/discoverability/setup-site-search
+permalink: "https://help.cyberbiz.io/ec/products/discoverability/setup-site-search/"
 comments: ""
 search:
   exclude: false

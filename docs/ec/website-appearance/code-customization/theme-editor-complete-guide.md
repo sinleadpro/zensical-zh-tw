@@ -4,13 +4,11 @@ description: 樣版編輯器的操作說明、常見特殊語法應用及重要�
 created: 2026-03-05 20:55
 last_modified: 2026-07-03 15:00
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/website-appearance/code-customization/theme-editor-complete-guide
+permalink: "https://help.cyberbiz.io/ec/website-appearance/code-customization/theme-editor-complete-guide/"
 type: guide
-status: ""
-version: ""
 author: Jase
 reviewers: []
-notes:
+notes: []
 ga_views: 0
 feedback: 0
 products:
@@ -41,7 +39,7 @@ features:
   - 程式碼修改
   - 網頁前端設定
   - 內容保護
-  - SEO標題自訂
+  - SEO 設定
   - 輪播圖控制
   - 選單自動展開
   - 搜尋結果篩選
@@ -53,7 +51,7 @@ features:
   - 訂單頁客製化
 prerequisites: []
 related:
-  - "[[setup-cookie-consent-banner]]"
+  - "ec/website-appearance/code-customization/setup-cookie-consent-banner"
 tags:
   - 樣板編輯器
   - 程式碼
@@ -75,8 +73,8 @@ ui_components: []
 paths:
   - 網站外觀 > 套版主題管理 > 選擇操作 > CSS/HTML 編輯器
 layouts:
-  - 預設版型
-  - 拖拉版型
+  - classic
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3579
   - https://www.cyberbiz.io/support/?p=17612

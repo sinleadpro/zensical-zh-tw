@@ -2,12 +2,10 @@
 title: 設定 Google Ads 轉換追蹤
 description: 設定 Google Ads 轉換追蹤與再行銷功能，追蹤廣告成效並優化投放策略。
 created: 2026-03-25 11:23
-last_modified: 2026-07-03T11:45:00+08:00
+last_modified: 2026-07-03 11:45
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0
@@ -20,7 +18,7 @@ sites:
   - TW
   - US
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -42,9 +40,9 @@ features:
 prerequisites:
   - 需先於 Google Ads 建立廣告活動
 related:
-  - "[[setup-google-merchant-center]]"
-  - "[[setup-google-tag-manager]]"
-  - "[[automated-ads-system]]"
+  - "ec/integrations/google/setup-google-merchant-center"
+  - "ec/integrations/google/setup-google-tag-manager"
+  - "ec/integrations/google/automated-ads-system"
 tags:
   - Google Ads
   - 轉換追蹤
@@ -62,7 +60,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=756
   - https://www.cyberbiz.io/support/?p=232
-permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-ads-conversion-tracking
+permalink: "https://help.cyberbiz.io/ec/integrations/google/setup-google-ads-conversion-tracking/"
 comments: false
 search:
   exclude: false

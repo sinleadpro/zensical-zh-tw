@@ -4,9 +4,7 @@ description: 如何申請 LINE 直播功能，並完成後台參數設定與商�
 created: "2026-03-13 10:35"
 last_modified: 2026-07-02 10:34
 lang: zh-TW
-type: tutorial
-status: 
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: 
@@ -21,7 +19,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -35,8 +33,8 @@ intents:
   - 設定_LINE_直播
   - LINE_直播購物
 features:
-  - LINE_直播
-  - LINE_購物
+  - LINE 直播
+  - LINE 購物
 prerequisites: []
 related: []
 tags:
@@ -55,7 +53,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7458
   - https://www.cyberbiz.io/support/?p=32529
-permalink: https://help.cyberbiz.io/ec/integrations/line/apply-setup-line-live-stream
+permalink: "https://help.cyberbiz.io/ec/integrations/line/apply-setup-line-live-stream/"
 comments: false
 search:
   exclude: false

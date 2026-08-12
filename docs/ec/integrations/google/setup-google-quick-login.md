@@ -4,9 +4,7 @@ description: "設定 Google 快速登入功能，讓消費者能使用 Google �
 created: "2026-03-17 12:26"
 last_modified: 2026-07-02 14:04
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -41,8 +39,8 @@ features:
   - 會員綁定
 prerequisites: []
 related:
-  - "[[setup-line-quick-login]]"
-  - "[[bind-line-oa-store-members]]"
+  - "ec/integrations/line/account-integration/setup-line-quick-login"
+  - "ec/integrations/line/account-integration/bind-line-oa-store-members"
 tags:
   - Google 快速登入
   - 第三方登入
@@ -60,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4728
   - https://www.cyberbiz.io/support/?p=30252
-permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-quick-login
+permalink: "https://help.cyberbiz.io/ec/integrations/google/setup-google-quick-login/"
 comments: false
 search:
   exclude: false

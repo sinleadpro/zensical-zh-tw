@@ -4,9 +4,7 @@ description: "建立 Google Tag Manager 帳戶與容器，並將 GTM 程式碼�
 created: "2026-03-17 16:31"
 last_modified: 2026-07-02 14:03
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -41,7 +39,7 @@ features:
   - 標籤管理
 prerequisites: []
 related:
-  - "[[verify-tracking-tag-installation]]"
+  - "ec/integrations/google/verify-tracking-tag-installation"
 tags:
   - GTM
   - 追蹤代碼
@@ -58,7 +56,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=689
   - https://www.cyberbiz.io/support/?p=228
-permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-tag-manager
+permalink: "https://help.cyberbiz.io/ec/integrations/google/setup-google-tag-manager/"
 comments: false
 search:
   exclude: false

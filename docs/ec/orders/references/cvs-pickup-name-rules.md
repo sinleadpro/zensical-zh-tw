@@ -5,8 +5,6 @@ created: 2026-06-12 16:20
 last_modified: 2026-06-12 16:20
 lang: zh-TW
 type: guide
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
   - customer
 difficulty: beginner
 tnb: trunk
@@ -49,7 +47,7 @@ paths:
   - 金物流 > 結帳頁 & 物流設定
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/ec/orders/references/cvs-pickup-name-rules"
+permalink: "https://help.cyberbiz.io/ec/orders/references/cvs-pickup-name-rules/"
 search:
   exclude: false
 icon: lucide/user-check

@@ -4,9 +4,7 @@ description: 依據商品的通路、溫層、物流及預購屬性設定拆單�
 created: 2026-03-05 15:00
 last_modified: 2026-07-15 13:58
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -27,7 +25,7 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 intents:
   - 結帳自動拆分購物車
@@ -60,11 +58,11 @@ ui_components:
   - 溫層與物流配送設定
 paths:
   - 商品 > 所有商品
-layouts:
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8632
   - https://www.cyberbiz.io/support/?p=2142
-permalink: https://help.cyberbiz.io/ec/products/checkout/checkout-split-multi-cart
+permalink: "https://help.cyberbiz.io/ec/products/checkout/checkout-split-multi-cart/"
 search:
   exclude: false
 icon: lucide/shopping-cart

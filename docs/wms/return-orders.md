@@ -4,9 +4,7 @@ description: 在電商倉儲系統處理退貨申請，包含派車取件、驗�
 created: 2026-03-19 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -57,7 +55,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5747
   - https://www.cyberbiz.io/support/?p=9139
-permalink: https://help.cyberbiz.io/wms/return-orders
+permalink: "https://help.cyberbiz.io/wms/return-orders/"
 comments: false
 search:
   exclude: false

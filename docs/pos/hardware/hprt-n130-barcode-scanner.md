@@ -4,9 +4,7 @@ description: 了解如何連接 HPRT N130 條碼掃描器至 POS 系統，並進
 created: 2026-06-12 18:55
 last_modified: 2026-06-12 18:55
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,8 +17,8 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
-  - staff
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans: 
@@ -54,7 +52,7 @@ paths:
   - POS 功能 > 所有 POS 商店
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/pos/hardware/hprt-n130-barcode-scanner"
+permalink: "https://help.cyberbiz.io/pos/hardware/hprt-n130-barcode-scanner/"
 search:
   exclude: false
 icon: lucide/barcode

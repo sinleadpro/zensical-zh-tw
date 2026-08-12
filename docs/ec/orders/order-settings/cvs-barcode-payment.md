@@ -4,10 +4,8 @@ description: 啟用超商條碼繳費功能，顧客如何取得條碼與前往 
 created: 2026-05-04 10:27
 last_modified: 2026-06-30 09:30
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes:
   - modularize 啟用超商條碼 step 1 into a section in cyberbiz payments doc
@@ -20,12 +18,12 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: []
 cyb_extensions:
-  - PAYMENTS
+  - CYBERBIZ PAYMENTS
 intents:
   - 使用超商條碼繳費
   - 開啟超商條碼付款功能
@@ -34,9 +32,9 @@ features:
   - CYBERBIZ PAYMENTS
 prerequisites: []
 related:
-  - "[[provide-payment-link]]"
-  - "[[unpaid-reminder-settings]]"
-  - "[[manage-email-templates]]"
+  - "ec/orders/order-settings/provide-payment-link"
+  - "ec/orders/order-settings/unpaid-reminder-settings"
+  - "ec/notifications/manage-email-templates"
 tags:
   - 超商條碼
   - 便利商店付款
@@ -55,7 +53,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12765
   - https://www.cyberbiz.io/support/?p=52159
-permalink: https://help.cyberbiz.io/ec/orders/order-settings/cvs-barcode-payment
+permalink: "https://help.cyberbiz.io/ec/orders/order-settings/cvs-barcode-payment/"
 search:
   exclude: false
 icon: lucide/barcode

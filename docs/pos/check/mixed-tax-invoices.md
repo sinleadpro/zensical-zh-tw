@@ -4,9 +4,7 @@ description: 瞭解如何設定商品應稅或免稅屬性，並在 POS 結帳�
 created: 2026-04-16 11:15
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -23,7 +21,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -39,10 +37,9 @@ features:
   - 混稅發票
   - 商品稅別設定
 prerequisites:
-  - 
 related: []
 tags:
-  - POS_混稅發票
+  - POS 混稅發票
   - 免稅商品
   - 發票設定
   - 稅別管理
@@ -56,12 +53,11 @@ ui_components:
   - 所有商品
 paths:
   - 管理後台 > 商品 > 所有商品
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=37151
   - https://www.cyberbiz.io/support/?p=37500
-permalink: https://help.cyberbiz.io/pos/check/mixed-tax-invoices
+permalink: "https://help.cyberbiz.io/pos/check/mixed-tax-invoices/"
 comments: false
 search:
   exclude: false

@@ -4,9 +4,7 @@ description: 當 POS 前台在指定時間內未進行任何操作時，系統�
 created: 2026-04-07 16:30
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: []
@@ -34,7 +32,7 @@ features:
 prerequisites:
   - 需具備「網站擁有者」權限身份
 related:
-  - [[員工權限與帳號管理]]
+  - "pos/store/staff-permissions-and-account-management"
 tags:
   - POS
   - 自動登出
@@ -52,7 +50,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=4259
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/store/setup-frontend-auto-logout-time/"
 comments: false
 search:
   exclude: false

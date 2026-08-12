@@ -4,9 +4,7 @@ description: 使用宅配通出貨。包含批次下載託運單、單筆與部�
 created: 2026-05-19 21:30
 last_modified: 2026-07-09 14:47
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -44,7 +42,7 @@ features:
   - 加印託運單
   - 逆物流退貨
 prerequisites:
-  - "[[setup-pelican-waybill-v2]]"
+  - "ec/payments-and-logistics/setup-pelican-waybill-v2"
 tags:
   - 宅配通
   - 出貨
@@ -64,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=63
   - https://www.cyberbiz.io/support/?p=975
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/pelican-shipping-v2
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/pelican-shipping-v2/"
 comments: false
 search:
   exclude: false

@@ -4,9 +4,7 @@ description: 透過訂單列表批次選取訂單，下載新竹物流託運單�
 created: 2026-05-22 17:21
 last_modified: 2026-07-07 13:53
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: 
@@ -40,15 +38,15 @@ features:
   - 補印託運單
   - 加印託運單
 prerequisites:
-  - "[[setup-hct-waybill-v2]]"
-  - "[[setup-hct-waybill-v2]]"
-  - "[[partial-shipment-v2]]"
-  - "[[search-filter-orders]]"
+  - "ec/payments-and-logistics/setup-hct-waybill-v2"
+  - "ec/payments-and-logistics/setup-hct-waybill-v2"
+  - "ec/orders/home-delivery/partial-shipment-v2"
+  - "ec/orders/basics/search-filter-orders"
 tags:
   - 新竹物流
   - 託運單
   - 批次出貨
-  - Cyber_幣
+  - Cyber 幣
 acoiv: operation
 apis: []
 devices:
@@ -65,7 +63,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10646
   - https://www.cyberbiz.io/support/?p=46278
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/hct-shipping-v2
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/hct-shipping-v2/"
 comments: false
 search:
   exclude: false

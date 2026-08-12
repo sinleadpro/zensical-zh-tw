@@ -5,8 +5,6 @@ created: 2026-05-28 12:05
 last_modified: 2026-05-28 12:00
 lang: zh-TW
 type: reference
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans: 
@@ -34,14 +32,14 @@ intents:
   - 了解_Facebook_檔案限制
   - Meta_客服規格
 features: 
-  - Chat_Box
-  - Meta_整合
+  - Chat Box
+  - Meta 整合
   - 訊息格式
 prerequisites: 
-  - "[[Chat Box 訊息通]]"
+  - "ec/app-market/chatbox/index"
 related: 
-  - "[[LINE 訊息格式規範]]"
-  - "[[Chat Box 串接第三方平台 (LINE•Meta)]]"
+  - "ec/app-market/chatbox/line-message-format-spec"
+  - "Chat Box 串接第三方平台 (LINE•Meta)"
 tags: 
   - Meta
   - Facebook
@@ -49,7 +47,7 @@ tags:
   - 訊息規範
   - 檔案限制
   - ChatBox
-acoiv: reference
+acoiv: integration
 apis: []
 devices: 
   - desktop
@@ -61,7 +59,7 @@ layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=12964
   - https://www.cyberbiz.io/support/?p=53079
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/chatbox/meta-message-format-spec/"
 comments: false
 search:
   exclude: false

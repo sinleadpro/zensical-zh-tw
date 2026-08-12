@@ -4,9 +4,7 @@ description: 透過分潤機制激勵門市人員處理「門市取貨」訂單�
 created: 2026-04-23 11:45
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -38,7 +36,7 @@ features:
 prerequisites: []
 related: []
 tags:
-  - POS_分潤
+  - POS 分潤
   - 門市取貨
   - 店員獎金
   - 勞務處理費
@@ -59,7 +57,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=10507
-permalink: https://help.cyberbiz.io/pos/store/pos-store-pickup-staff-commission
+permalink: "https://help.cyberbiz.io/pos/store/pos-store-pickup-staff-commission/"
 comments: false
 search:
   exclude: false

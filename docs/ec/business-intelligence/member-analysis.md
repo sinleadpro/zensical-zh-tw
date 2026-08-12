@@ -1,12 +1,10 @@
 ---
 title: 會員分析
 description: 掌握會員規模、成長趨勢與首購後的留存及回購表現，評估會員經營健康度。
-created: 2026-06-16
+created: 2026-06-16 00:00
 last_modified: 2026-07-10 15:39
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -29,7 +27,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 了解會員經營健康度
   - 查看會員規模
@@ -44,8 +41,8 @@ prerequisites:
   - 了解有效訂單定義
   - 了解數據更新時間與新舊會員判定方式
 related:
-  - "[[member-overview]]"
-  - "[[customer-analysis]]"
+  - "ec/business-intelligence/member-overview"
+  - "ec/business-intelligence/customer-analysis"
 tags:
   - 會員分析
   - 會員規模
@@ -63,7 +60,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5050
-permalink: https://help.cyberbiz.io/ec/business-intelligence/member-analysis
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/member-analysis/"
 comments: false
 search:
   exclude: false

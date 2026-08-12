@@ -4,9 +4,7 @@ description: 整合 LINE OA 與 CYBERBIZ 系統，實現自動化訂單通知、
 created: 2026-02-09 00:00
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -66,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5855
   - https://www.cyberbiz.io/support/?p=706
-permalink: https://help.cyberbiz.io/ec/integrations/line/account-integration/connect-line-messaging-api
+permalink: "https://help.cyberbiz.io/ec/integrations/line/account-integration/connect-line-messaging-api/"
 comments: false
 search:
   exclude: false

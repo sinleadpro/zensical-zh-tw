@@ -4,9 +4,7 @@ description: 管理黑貓宅急便託運單的完整指南，包含設定寄件�
 created: 2026-05-15 14:21
 last_modified: 2026-07-09 15:17
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -44,9 +42,9 @@ features:
   - 呼叫黑貓司機取件
 prerequisites: []
 related:
-  - "[[tcat-auto-call-driver-v2]]"
-  - "[[points-deposits]]"
-  - "[[order-return-process]]"
+  - "ec/orders/home-delivery/tcat-auto-call-driver-v2"
+  - "ec/website-management/points-deposits"
+  - "ec/orders/order-return-process"
 tags:
   - 金物流
   - 黑貓宅急便
@@ -65,7 +63,7 @@ paths:
   - 金物流 > 黑貓託運單
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-print-tcat-waybill-v2
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-print-tcat-waybill-v2/"
 comments: false
 search:
   exclude: false

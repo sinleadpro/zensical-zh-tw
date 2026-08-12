@@ -4,10 +4,8 @@ description: 透過 Facebook 商業擴充套件將像素、粉絲專頁、目錄
 created: 2026-04-07 23:59
 last_modified: 2026-07-02 11:19
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -35,12 +33,12 @@ intents:
   - 設定_FBE_帳號授權
   - 連結_Facebook_資產
 features:
-  - Facebook_商業擴充套件
-  - FBE_設定
-  - 像素_Pixel
+  - Facebook 商業擴充套件
+  - FBE 設定
+  - 像素 Pixel
 prerequisites: []
 related: 
-  - "[[setup-fbe-domain-verification]]"
+  - "ec/integrations/fb/mbe/setup-fbe-domain-verification"
 tags:
   - FB 整合
   - FBE
@@ -61,10 +59,10 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3221
   - https://www.cyberbiz.io/support/?p=11341
   - https://www.cyberbiz.io/support/?p=13747
-permalink: https://help.cyberbiz.io/ec/integrations/fb/mbe/setup-fbe-authorization
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/mbe/setup-fbe-authorization/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/share-2
 hide:
 ---
