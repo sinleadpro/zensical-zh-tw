@@ -1,2 +1,3 @@
-/redirect-test-old/ /redirect-test-new/ 301
-/ec/website-management/security-best-practices/ /ec/website-management/admin-security-settings/ 301
+/ec/website-management/security-settings/ /ec/website-management/bot-protection-settings/ 301
+/pos/store/security-settings/ /pos/store/pos-security-settings/ 301
+/ec/marketing/one-page-store/create-cart-link-specific-products/ ec/marketing/references/create-cart-link-specific-products/ 301
