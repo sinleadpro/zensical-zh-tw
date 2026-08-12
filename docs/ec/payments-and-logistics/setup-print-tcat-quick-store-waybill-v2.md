@@ -4,9 +4,7 @@ description: 黑貓快速到店(超商取貨)託運單完整指南，包含設�
 created: 2026-05-19 10:00
 last_modified: 2026-07-09 14:16
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -40,8 +38,8 @@ features:
   - 加印託運單
 prerequisites: []
 related:
-  - "[[setup-print-tcat-waybill-v2]]"
-  - "[[points-deposits]]"
+  - "ec/payments-and-logistics/setup-print-tcat-waybill-v2"
+  - "ec/website-management/points-deposits"
 tags:
   - 金物流
   - 黑貓快速到店
@@ -59,7 +57,7 @@ paths:
   - 金物流 > 黑貓快速到店託運單
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-print-tcat-quick-store-waybill-v2
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-print-tcat-quick-store-waybill-v2/"
 comments: false
 search:
   exclude: false

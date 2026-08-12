@@ -4,9 +4,7 @@ description: 透過建立自定義職務角色並配置模組化權限，您可�
 created: 2026-03-25 20:15
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans: []
@@ -34,7 +32,7 @@ features:
   - 讀取/寫入/刪除維度
 prerequisites: []
 related:
-  - [[帳號管理]]
+  - "wms/account-management"
 tags:
   - 權限設定
   - 角色管理
@@ -53,7 +51,7 @@ paths:
   - 設定 > 權限設定
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/wms/permission-settings
+permalink: "https://help.cyberbiz.io/wms/permission-settings/"
 comments: false
 search:
   exclude: false

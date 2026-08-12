@@ -2,11 +2,9 @@
 title: 使用順豐出貨
 description: 使用順豐託運單批次或單筆下載出貨，系統自動與順豐即時取號，將訂單貨態更新為已出貨，支援國內台灣本島及海外配送。
 created: 2026-05-20 20:25
-last_modified: 2026-07-09 15:05
+last_modified: 2026-08-10 12:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -46,9 +44,9 @@ prerequisites:
   - 需先完成公司統一編號設定
   - 需先開通順豐託運單功能
 related:
-  - "[[順豐海外物流]]"
-  - "[[補印與加印託運單]]"
-  - "[[partial-shipment-v2]]"
+  - "ec/payments-and-logistics/sf-express-overseas-logistics"
+  - "補印與加印託運單"
+  - "ec/orders/home-delivery/partial-shipment-v2"
 tags:
   - 順豐
   - 出貨
@@ -68,7 +66,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=384
   - https://www.cyberbiz.io/support/?p=3760
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/sf-express-shipping-v2
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/sf-express-shipping-v2/"
 comments: false
 search:
   exclude: false
@@ -156,7 +154,7 @@ hide: []
 | 商業發票(僅海外件) | 報關用，英文版 | **海外件必須列印** |
 
 !!! info "提示"
-     建議使用 **雷射印表機** 列印託運單，避免條碼因噴墨暈染或熱感紙褪色導致順豐系統無法辨識，需要重新加印。
+     建議使用 **雷射印表機** 列印託運單，避免條碼因噴墨暈染或熱感紙褪色導致順豐系統無法辨識，需要重新列印。
 
 ---
 

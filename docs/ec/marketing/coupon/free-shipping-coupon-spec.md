@@ -5,8 +5,6 @@ created: 2026-06-17 10:39
 last_modified: 2026-06-17 10:39
 lang: zh-TW
 type: reference
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
     - TW
 audiences: 
-    - admin
+    - merchant
 difficulty: beginner
 tnb: branch
 plans: 
@@ -37,12 +35,12 @@ features:
     - 優惠券
     - 紅利商城
 prerequisites: 
-    - [[setup-coupons]]
-    - [[setup-promo-codes]]
+    - "ec/marketing/coupon/setup-coupons"
+    - "ec/marketing/coupon/setup-promo-codes"
 related: 
-    - [[setup-coupons]]
-    - [[setup-promo-codes]]
-    - [[multiple-coupons]]
+    - "ec/marketing/coupon/setup-coupons"
+    - "ec/marketing/coupon/setup-promo-codes"
+    - "ec/marketing/coupon/multiple-coupons"
 tags: 
     - 免運券
     - 優惠券
@@ -62,7 +60,7 @@ layouts: []
 wp_url: 
     - https://www.cyberbiz.io/helpcenter/?p=7960
     - https://www.cyberbiz.io/support/?p=28947
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/marketing/coupon/free-shipping-coupon-spec/"
 comments: false
 search:
   exclude: false

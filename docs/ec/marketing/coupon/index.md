@@ -5,8 +5,6 @@ created: 2026-06-11 12:20
 last_modified: 2026-06-22 11:15
 lang: zh-TW
 type: guide
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: []
@@ -32,8 +30,8 @@ features:
   - 優惠碼
 prerequisites: []
 related: 
-  - "[設定優惠券](setup-coupons.md)"
-  - "[[設定優惠碼]]"
+  - "ec/marketing/coupon/setup-coupons"
+  - "ec/marketing/coupon/setup-promo-codes"
 tags: 
   - 優惠券
   - 優惠碼
@@ -51,7 +49,7 @@ paths:
   - 行銷活動 > 優惠碼設定
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/ec/marketing/coupon/index"
+permalink: "https://help.cyberbiz.io/ec/marketing/coupon/"
 search:
   exclude: false
 icon: lucide/split

@@ -4,9 +4,7 @@ description: 自訂出貨明細的顯示內容、套用列印模板，以及從�
 created: 2026-05-08 16:00
 last_modified: 2026-07-13 12:36
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -42,7 +40,7 @@ features:
   - 批次出貨打包
 prerequisites: []
 related:
-  - "[[order-detail-print]]"
+  - "ec/orders/order-settings/order-detail-print"
 tags:
   - 出貨明細
   - 列印設定
@@ -62,7 +60,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=6364
-permalink: https://help.cyberbiz.io/ec/orders/order-settings/shipping-detail-print
+permalink: "https://help.cyberbiz.io/ec/orders/order-settings/shipping-detail-print/"
 comments: false
 search:
   exclude: false
@@ -221,7 +219,7 @@ hide: []
 
 ??? quote "出貨明細上會顯示顧客姓名 / 地址嗎？"
 
-    會顯示（從託運單抓取的收件人資訊），但出貨明細 **不適用個資隱碼** 功能。如果出貨明細會被顧客看到（例如黏貼在包裹外側），建議於樣板中自訂遮罩，或乾脆不要把出貨明細放在包裹外。
+    會顯示（從託運單抓取的收件人資訊）。如果出貨明細會被顧客看到（例如黏貼在包裹外側），建議於樣板中自訂遮罩，或乾脆不要把出貨明細放在包裹外。
 
 ??? quote "為什麼按了「儲存」後，下次出貨產生的 ZIP 內容沒變？"
 
@@ -265,7 +263,7 @@ hide: []
 !!! note "註釋"
 
     - 勾選項皆為「附加顯示」，未勾選的欄位不會印出，但不影響資料儲存。
-    - 出貨明細不支援個資隱碼，亦無「開頭提醒文字 / 圖片」設定。                                      
+    - 出貨明細無「開頭提醒文字 / 圖片」設定。                                      
 
 ---
 

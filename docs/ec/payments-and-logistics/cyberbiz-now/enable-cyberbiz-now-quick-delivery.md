@@ -4,9 +4,7 @@ description: 完成門市快速到貨 (CYBERBIZ NOW) 服務設定，包含啟用
 created: 2026-01-26 00:00
 last_modified: 2026-06-04 17:59
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -23,7 +21,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -43,9 +41,9 @@ features:
 prerequisites:
   - 需完成門市建立且地址填寫正確
 related:
-  - [[複製商品到快速到貨門市]]
-  - [[設定快速到貨前台入口與專區]]
-  - [[快速到貨訂單接單準備]]
+  - "ec/products/copy-products-to-quick-delivery-stores"
+  - "ec/website-appearance/setup-quick-delivery-frontend-entry"
+  - "ec/orders/quick-delivery-order-preparation"
 tags:
   - 快速到貨
   - 門市管理
@@ -63,7 +61,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=12783
   - https://www.cyberbiz.io/support/?p=12967
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/cyberbiz-now/enable-cyberbiz-now-quick-delivery/"
 comments: false
 search:
   exclude: false

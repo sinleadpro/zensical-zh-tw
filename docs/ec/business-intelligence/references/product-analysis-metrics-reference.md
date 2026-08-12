@@ -1,13 +1,11 @@
 ---
 title: 商品分析欄位對照表
 description: 商品分析各區塊的欄位與指標定義，包含銷量排名、回購頻率、無銷量商品與期間別購買狀況。
-created: 2026-06-15
+created: 2026-06-15 00:00
 last_modified: 2026-07-12 19:43
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 products:
@@ -16,7 +14,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 plans: []
 tags:
   - 報表分析

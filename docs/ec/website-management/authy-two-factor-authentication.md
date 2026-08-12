@@ -4,9 +4,7 @@ description: "使用 Authy App 設定 CYBERBIZ 帳號的二階段驗證 (2FA)，
 created: "2026-03-16 21:41"
 last_modified: 2026-07-02 19:21
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -41,7 +39,7 @@ features:
   - 2FA
 prerequisites: []
 related:
-  - "[[setup-manage-two-factor-auth]]"
+  - "ec/website-management/setup-manage-two-factor-auth"
 tags:
   - 二階段驗證
   - Authy
@@ -58,7 +56,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=12873
-permalink: https://help.cyberbiz.io/ec/website-management/authy-two-factor-authentication
+permalink: "https://help.cyberbiz.io/ec/website-management/authy-two-factor-authentication/"
 comments: false
 search:
   exclude: false

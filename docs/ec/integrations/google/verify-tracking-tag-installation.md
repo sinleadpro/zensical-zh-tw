@@ -4,7 +4,7 @@ description: "使用 Google Tag Assistant 驗證 GA4、GTM、Google Ads 等追�
 created: "2026-03-17 21:36"
 last_modified: 2026-07-02 16:19
 lang: zh-TW
-type: tutorial
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -17,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -56,7 +56,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=741
   - https://www.cyberbiz.io/support/?p=234
-permalink: https://help.cyberbiz.io/ec/integrations/google/verify-tracking-tag-installation
+permalink: "https://help.cyberbiz.io/ec/integrations/google/verify-tracking-tag-installation/"
 comments: false
 search:
   exclude: false

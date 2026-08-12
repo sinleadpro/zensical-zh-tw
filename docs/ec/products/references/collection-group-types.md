@@ -1,13 +1,11 @@
 ---
 title: 商品群組類型對照表
-description: ""
+description: "整理可於全站商品列表群組排序的三種商品群組，說明商品加入方式、典型用途與顯示條件。"
 created: 2026-06-03 18:42
 last_modified: 2026-07-01 20:11
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 cyb_extensions: []
 intents: []
@@ -42,13 +40,14 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/products/references/collection-group-types/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide:
 ---
+
 
 本對照表整理可在「全站商品列表群組排序」中排序的三種商品群組，說明各類型的商品加入方式、典型用途，以及要出現在排序清單(前台首頁「商品列表」)所需符合的條件。
 
@@ -64,4 +63,3 @@ hide:
     * 「出現在排序清單的條件」指的是該群組要顯示在後台排序清單與前台首頁「商品列表」所需符合的條件；不符合條件的群組不會列入排序，也不會在前台顯示。
     * 自定群組與商品條件分類只要狀態為「公開」即會列入；任選折扣群組除了「公開」外，還需在活動期間內且有有效的折扣規則才會顯示。
     * 此頁僅排序「群組與群組之間」的順序；群組內部商品的排序需在各群組編輯頁另行設定。
-

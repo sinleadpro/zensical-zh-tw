@@ -2,11 +2,9 @@
 title: 出倉單
 description: 管理商品從目前倉庫撥出的單據，支援手動發起、接收請求或調倉轉單等多種情境。
 created: 2026-04-09 18:00
-last_modified: 2026-06-30 21:55
+last_modified: 2026-07-27 17:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -22,8 +20,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -41,12 +39,12 @@ features:
   - 出倉單
 prerequisites: []
 related:
-  - [[出倉完整流程]]
+  - "pos/inventory/outbound-complete-process"
 tags:
   - 出倉單
   - 庫存管理
   - 全通路庫存
-  - POS_出倉
+  - POS 出倉
 acoiv: operation
 apis: []
 devices:
@@ -64,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=2962
   - https://www.cyberbiz.io/support/?p=4623
-permalink: https://help.cyberbiz.io/pos/inventory/outbound-orders
+permalink: "https://help.cyberbiz.io/pos/inventory/outbound-orders/"
 comments: false
 search:
   exclude: false
@@ -221,11 +219,13 @@ hide: []
 
 ## 出倉單列表
 
-### 篩選與搜尋
+- **搜尋單號**：可依 **日期** 搜尋或依 **來源店家** 篩選。
+- **了解歷程**：點擊 **詳情**，即可查看單據變更狀態的 **時間紀錄**。
 
-- **搜尋單號**：可依 **日期** 搜尋或依 **目的店家** 篩選。
+    !!! info "歷史紀錄顯示說明" 
+        系統自 2026/07/02 10:00 AM 起開始記錄狀態變更時間。此時間點前的單據，狀態歷程將統一顯示為 `系統升級前歷史進程`，恕無法回溯顯示確切的變更時間。
 
-
+    ![](../../assets/images/POS-後台-全通路庫存管理-出倉單-單號歷程01.png){ .screenshot }
 
 ## 後續操作
 

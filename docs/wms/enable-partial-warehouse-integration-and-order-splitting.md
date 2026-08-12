@@ -4,9 +4,7 @@ description: 「部分串倉」功能適用於部分商品存放於 CYBERBIZ 合
 created: 2026-03-12 00:00
 last_modified: 2026-07-13 11:45
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -65,7 +63,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5723
   - https://www.cyberbiz.io/support/?p=22981
-permalink: https://help.cyberbiz.io/wms/enable-partial-warehouse-integration-and-order-splitting
+permalink: "https://help.cyberbiz.io/wms/enable-partial-warehouse-integration-and-order-splitting/"
 comments: false
 search:
   exclude: false

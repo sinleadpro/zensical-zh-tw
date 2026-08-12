@@ -1,9 +1,17 @@
 ---
+description: "CYBERBIZ 智能 POS 產品中心，提供硬體安裝、結帳功能與庫存管理等操作說明。"
+author: ""
+reviewers: []
+products: [POS]
+notes: []
 title: 智能 POS 產品中心
+lang: zh-TW
 hide:
-  - toc
+  - description
   - path
+  - toc
   - feedback
+permalink: "https://help.cyberbiz.io/pos/"
 ---
 
 <div class="hero-wrapper" style="
@@ -300,6 +308,6 @@ hide:
     
     [:octicons-arrow-right-24: 員工權限管理](store/staff-permissions-and-account-management.md)<br>
     [:octicons-arrow-right-24: 建立公告](store/announcement-system.md)<br>
-    [:octicons-arrow-right-24: 安全性與系統設定](store/security-settings.md)<b>
+    [:octicons-arrow-right-24: 安全性與系統設定](store/pos-security-settings.md)<b>
 
 </div>

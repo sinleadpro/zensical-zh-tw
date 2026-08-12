@@ -5,8 +5,6 @@ created: 2026-05-27 18:04
 last_modified: 2026-07-29 14:30
 lang: zh-TW
 type: guide
-status: ""
-version: 1.2.1
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans: 
@@ -52,7 +50,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=37637
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/marketing/coupon/multiple-coupons/"
 comments: false
 search:
   exclude: false

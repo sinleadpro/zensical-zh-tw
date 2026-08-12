@@ -4,13 +4,10 @@ description: 掌握 POS 前台的訂單查詢、取消與換貨流程，並瞭�
 created: 2026-04-16 13:45
 last_modified: 2026-06-22 11:15
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
-aliases: []
 ga_views: 0
 feedback: 0
 products:
@@ -20,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - clerk
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -38,9 +35,9 @@ features:
   - 庫存自動回補
 prerequisites: []
 related:
-  - [[庫存盤點]]
+  - "pos/inventory/inventory-count"
 tags:
-  - POS_訂單
+  - POS 訂單
   - 退換貨流程
   - 發票作廢
   - 訂單取消
@@ -60,7 +57,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=2940
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/orders/manage-general-orders/"
 comments: false
 search:
   exclude: true
@@ -82,7 +79,7 @@ hide: []
 
 ## 使用須知
 
-- **跨門市訂單查詢**：若需查詢其他門市訂單，需前往 **安全性設定** 開啟 [**店家查看他店訂單** 權限](../store/security-settings.md#設定門市權限){ data-preview }。未開啟此權限前，人員僅能查看目前登入門市的訂單資料。
+- **跨門市訂單查詢**：若需查詢其他門市訂單，需前往 **安全性設定** 開啟 [**店家查看他店訂單** 權限](../store/pos-security-settings.md#設定門市權限){ data-preview }。未開啟此權限前，人員僅能查看目前登入門市的訂單資料。
 
 ## 查詢訂單
 

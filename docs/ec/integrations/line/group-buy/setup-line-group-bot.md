@@ -4,9 +4,7 @@ description: 建立並設定 LINE 團購機器人，完成 Messaging API、Webho
 created: 2026-03-11 17:27
 last_modified: 2026-07-02 11:17
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -21,7 +19,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: advanced
 tnb: branch
 plans:
@@ -34,11 +32,11 @@ intents:
   - LIFF_設定
   - Webhook_設定
 features:
-  - LINE_團購機器人
-  - Messaging_API
+  - LINE 團購機器人
+  - Messaging API
   - Webhook
   - LIFF
-  - LINE_Provider
+  - LINE Provider
 prerequisites: []
 related:
   - 團購商品設定
@@ -59,7 +57,7 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=29174&page=2
-permalink: https://help.cyberbiz.io/ec/integrations/line/group-buy/setup-line-group-bot
+permalink: "https://help.cyberbiz.io/ec/integrations/line/group-buy/setup-line-group-bot/"
 comments: false
 search:
   exclude: false

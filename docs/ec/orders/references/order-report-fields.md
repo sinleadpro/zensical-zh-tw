@@ -5,8 +5,6 @@ created: "2026-03-15 16:58"
 last_modified: 2026-06-02 13:47
 lang: zh-TW
 type: reference
-status: ""
-version: ""
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: ""
 plans: []
@@ -32,15 +30,15 @@ intents:
 features:
   - 折扣拆分
   - 導購來源
-  - UTM_參數
+  - UTM 參數
 prerequisites: []
 related:
-  - "[[export-order-report]]"
+  - "ec/orders/reports/export-order-report"
 tags:
   - 訂單報表
-  - 折扣_欄位
+  - 折扣 欄位
   - 導購來源
-  - UTM_參數
+  - UTM 參數
 acoiv: ""
 apis: []
 devices:
@@ -51,7 +49,7 @@ paths:
   - 訂單 > 訂單報表匯出
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/orders/references/order-report-fields
+permalink: "https://help.cyberbiz.io/ec/orders/references/order-report-fields/"
 comments: false
 search:
   exclude: false

@@ -4,9 +4,7 @@ description: 批次下載黑貓宅配託運單、扣除運費並將訂單貨態�
 created: 2026-05-12 15:53
 last_modified: 2026-07-07 11:04
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -41,15 +39,15 @@ features:
   - 部分出貨
   - 補印託運單
   - 加印託運單
-  - CYBER_幣扣款
+  - CYBER 幣扣款
 prerequisites:
   - 領取黑貓三聯空白託運單貼紙
   - 完成黑貓設定（寄件人地址）
 related:
-  - "[[tcat-auto-call-driver-v2]]"
-  - "[[tcat-express-payment-settings]]"
-  - "[[partial-shipment-v2]]"
-  - "[[訂單出貨流程]]"
+  - "ec/orders/home-delivery/tcat-auto-call-driver-v2"
+  - "ec/orders/tcat-quick-store/tcat-express-payment-settings"
+  - "ec/orders/home-delivery/partial-shipment-v2"
+  - "ec/orders/basics/order-fulfillment-flow"
 tags:
   - 黑貓宅配
   - 託運單
@@ -73,7 +71,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=84
   - https://www.cyberbiz.io/support/?p=973
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/tcat-home-delivery-v2
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/tcat-home-delivery-v2/"
 comments: false
 search:
   exclude: false

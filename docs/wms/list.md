@@ -4,9 +4,7 @@ description: 電商倉儲（WMS）的訂單列表是商家管理出貨進度與�
 created: 2026-03-12 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -52,7 +50,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=9105
   - https://www.cyberbiz.io/helpcenter/?p=5744
-permalink: https://help.cyberbiz.io/wms/list
+permalink: "https://help.cyberbiz.io/wms/list/"
 comments: false
 search:
   exclude: false

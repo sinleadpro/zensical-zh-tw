@@ -4,9 +4,7 @@ description: 設定訂單部分出貨，包含操作步驟與不同物流的特�
 created: 2026-05-12 15:11
 last_modified: 2026-07-01 22:30
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: 
@@ -39,11 +37,11 @@ features:
   - 加印託運單
 prerequisites: []
 related:
-  - "[[啟用部分串倉與拆單]]"
-  - "[[manual-order-close]]"
-  - "[[custom-logistic-shipping]]"
-  - "[[補印與加印託運單]]"
-  - "[[缺貨訂單部分出貨或取消流程]]"
+  - "wms/enable-partial-warehouse-integration-and-order-splitting"
+  - "ec/orders/order-settings/manual-order-close"
+  - "ec/orders/home-delivery/custom-logistic-shipping"
+  - "補印與加印託運單"
+  - "ec/orders/out-of-stock-partial-shipping-or-cancellation"
 tags:
   - 部分出貨
   - 訂單管理
@@ -60,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=93
   - https://www.cyberbiz.io/support/?p=43635
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/partial-shipment-v2
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/partial-shipment-v2/"
 comments: false
 search:
   exclude: false

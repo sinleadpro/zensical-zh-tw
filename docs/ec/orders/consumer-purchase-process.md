@@ -4,9 +4,7 @@ description: 指引消費者如何搜尋地址、選擇門市、選購商品並�
 created: 2026-02-06 00:00
 last_modified: 2026-07-06 17:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -59,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=12978
   - https://www.cyberbiz.io/support/?p=13166
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/consumer-purchase-process/"
 comments: false
 search:
   exclude: false

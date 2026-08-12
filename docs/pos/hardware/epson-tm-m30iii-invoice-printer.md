@@ -4,9 +4,7 @@ description: 透過 Wi-Fi 無線連接方式安裝 EPSON TM-M30III 發票機，�
 created: 2026-05-27 12:20
 last_modified: 2026-05-27 12:20
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,8 +18,8 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans: 
@@ -31,18 +29,18 @@ plans:
 cyb_extensions: []
 intents: 
   - 安裝發票機
-  - EPSON_TM-m30III_安裝
-  - Wi-Fi_連接發票機
+  - EPSON TM-m30III 安裝
+  - Wi-Fi 連接發票機
 features: 
   - 發票機安裝
-  - Wi-Fi_設定
+  - Wi-Fi 設定
 prerequisites: []
 related: 
-  - "[[EPSON TM-T82III 發票機安裝教學]]"
+  - "pos/hardware/epson-tm-t82iii-invoice-printer"
 tags: 
   - EPSON
   - 發票機
-  - POS_硬體
+  - POS 硬體
   - TM-m30III
   - Wi-Fi
 acoiv: activate
@@ -58,7 +56,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=53134
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/hardware/epson-tm-m30iii-invoice-printer/"
 comments: false
 search:
   exclude: false

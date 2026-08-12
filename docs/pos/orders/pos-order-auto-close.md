@@ -4,9 +4,7 @@ description: 讓門市結帳完成的訂單依您的設定自動進入「已結�
 created: 2026-06-25 10:00
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -27,7 +25,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 設定 POS 訂單自動結案
   - 自動化訂單結案流程
@@ -40,11 +37,11 @@ prerequisites:
   - 已開通 POS 功能
   - 網站擁有者權限
 related:
-  - "[[訂單相關設定]]"
-  - "[[設定訂單部分出貨]]"
-  - "[[訂單付款狀態對照表]]"
+  - "ec/payments-and-logistics/payments/order-settings"
+  - "ec/orders/home-delivery/partial-shipment-v2"
+  - "ec/orders/references/payment-statuses"
 tags:
-  - POS_訂單
+  - POS 訂單
   - 自動結案
   - 紅利發放
   - 優惠券
@@ -62,7 +59,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=23628
-permalink: https://help.cyberbiz.io/pos/orders/pos-order-auto-close
+permalink: "https://help.cyberbiz.io/pos/orders/pos-order-auto-close/"
 comments: false
 search:
   exclude: false

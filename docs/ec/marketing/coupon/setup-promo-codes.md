@@ -4,9 +4,7 @@ description: 設定優惠碼（折扣、免運、贈品），包含基本設定�
 created: 2026-05-27 13:55
 last_modified: 2026-07-20 14:50
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -40,7 +38,7 @@ features:
   - 免運折扣
 prerequisites: []
 related: 
-  - "[[設定全館折扣 – 紅利&優惠券]]"
+  - "設定全館折扣 – 紅利&優惠券"
 tags: 
   - 優惠碼
   - 贈品券
@@ -63,7 +61,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10457
   - https://www.cyberbiz.io/support/?p=1533
   - https://www.cyberbiz.io/support/?p=6228
-permalink: https://help.cyberbiz.io/ec/marketing/coupon/setup-promo-codes
+permalink: "https://help.cyberbiz.io/ec/marketing/coupon/setup-promo-codes/"
 comments: false
 search:
   exclude: false

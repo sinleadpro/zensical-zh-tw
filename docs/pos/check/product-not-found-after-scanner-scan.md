@@ -4,9 +4,7 @@ description: 解決在使用掃描槍掃描商品條碼時，系統無法辨識�
 created: 2026-04-07 15:30
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -22,8 +20,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -56,7 +54,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=4201
-permalink: https://help.cyberbiz.io/pos/check/product-not-found-after-scanner-scan
+permalink: "https://help.cyberbiz.io/pos/check/product-not-found-after-scanner-scan/"
 comments: false
 search:
   exclude: false

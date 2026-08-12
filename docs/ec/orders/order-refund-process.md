@@ -2,11 +2,9 @@
 title: 訂單退款流程
 description: 當訂單完成退貨流程後，最終步驟即是將款項退還給消費者。系統會依據您的金流服務與消費者的支付方式，開始自動或手動退款流程。 
 created: 2026-02-23 00:00
-last_modified: 2026-07-14 17:40
+last_modified: 2026-08-05 11:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans: []
@@ -31,12 +29,12 @@ intents:
   - 處理發票作廢與折讓
 features:
   - 訂單退款
-  - CYBERBIZ_PAYMENTS
+  - CYBERBIZ PAYMENTS
   - 金流退刷
 prerequisites:
-  - [[商家執行訂單退貨流程]]
+  - "商家執行訂單退貨流程"
 related:
-  - [[訂單退貨流程]]
+  - "ec/orders/order-return-process"
 tags:
   - 退款流程
   - 售後服務
@@ -59,7 +57,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=1756
   - https://www.cyberbiz.io/support/?p=1758
   - https://www.cyberbiz.io/support/?p=51911
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/order-refund-process/"
 comments: false
 search:
   exclude: false
@@ -82,27 +80,9 @@ hide: []
     - **其他（綠界/星益欣）**：依退款日期，當月 5 號前執行發票 **作廢** ，5 號後執行發票 **折讓**。
 
 ## 步驟 1：判定退款方式
-
-
-=== "企業版"
-
-    | 支付方式 | 系統自動退款 | 系統人工退款 | 備註 |
-    | ------- | ----------- | ----------- | -----|
-    | **信用卡** | ✓ | 付款超過 180 天時 | |
-    | **Apple Pay<br>Google Pay<br>銀聯卡** | ✓ | ✕ | |
-    | **AFTEE** | ✓ | ✕ | 自動刷退至 AFTEE 帳戶 |
-    | **虛擬 ATM<br>超商代碼<br>貨到付款** | ✕ | ✓ | 若會員並未提供帳戶資訊，需先行向會員索取 |
-    | **LINE Pay** | ✓ | 付款超過 60 天時 | |
-    | **PayPal** | ✓ | 付款超過 180 天時 | |
-    | **街口支付** | ✓ | 付款超過 180 天時 | 街口聯名卡：直接刷退<br>銀行帳戶扣款：退至街口帳戶 | 
-    | **iPASS 一卡通** | ✓ | 付款超過 60 天時 | | 
-
-    !!! warning "系統人工退款注意事項"
-        - **必要操作**：商家需向顧客索取退款帳戶資料，由 CYBERBIZ 進行人工退款。
-        - **處理費用**：每筆人工退款將酌收 **30 元** 帳務處理費。
         
 
-=== "PLUS 版"
+=== "企業版/PLUS 版"
 
     | 支付方式 | 系統自動退款 | 系統人工退款 | 備註 |
     | ------- | ----------- | ----------- | -----|
@@ -111,9 +91,9 @@ hide: []
     | **AFTEE** | ✓ | ✕ | 自動刷退至AFTEE帳戶 |
     | **虛擬 ATM<br>超商代碼<br>貨到付款** | ✕ | ✓ | 若會員並未提供帳戶資訊，需先行向會員索取 |
     | **LINE Pay** | ✓ | **✕** | :lucide-triangle-alert: 付款超過 **60 天** 後，無法透過金流商進行退款，需由商家 **自行匯款** 給消費者 |
-    | **PayPal** | ✓ | 付款超過 180 天時 | |
+    | **PayPal** | ✓ | **✕** | :lucide-triangle-alert: 付款超過 **180 天** 後，無法透過金流商進行退款，需由商家 **自行匯款** 給消費者 |
     | **街口支付** | ✓ | **✕** | 街口聯名卡：直接刷退<br>銀行帳戶扣款：退至街口帳戶<hr>:lucide-triangle-alert: 付款超過 **180 天** 後，無法透過金流商進行退款，需由商家 **自行匯款** 給消費者 | 
-    | **iPASS 一卡通** | ✓ | 付款超過 60 天時 | | 
+    | **iPASS 一卡通** | ✓ | **✕** | :lucide-triangle-alert: 付款超過 **60 天** 後，無法透過金流商進行退款，需由商家 **自行匯款** 給消費者 | 
 
     !!! warning "**系統人工退款** 注意事項"
         - **必要操作**：商家需向顧客索取退款帳戶資料，由 CYBERBIZ 進行人工退款。

@@ -2,11 +2,9 @@
 title: 進倉單
 description: 管理商品撥入倉庫的單據，支援手動發起、接收出倉請求或第三方供應商進貨等多種情境。
 created: 2026-04-09 18:00
-last_modified: 2026-06-30 21:55
+last_modified: 2026-07-27 17:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -22,8 +20,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -41,12 +39,12 @@ features:
   - 庫存點收
 prerequisites: []
 related:
-  - [[進倉完整流程]]
+  - "pos/inventory/inbound-complete-process"
 tags:
   - 進倉單
   - 庫存管理
   - 收貨清點
-  - POS_進倉
+  - POS 進倉
 acoiv: operation
 apis: []
 devices:
@@ -67,7 +65,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=4781
   - https://www.cyberbiz.io/support/?p=4799
   - https://www.cyberbiz.io/support/?p=4814
-permalink: https://help.cyberbiz.io/pos/inventory/inbound-orders
+permalink: "https://help.cyberbiz.io/pos/inventory/inbound-orders/"
 comments: false
 search:
   exclude: false
@@ -290,10 +288,14 @@ hide: []
 
 ## 進倉單列表
 
-### 篩選與搜尋
 
 - **搜尋單號**：可依 **日期** 搜尋或依 **來源店家** 篩選。
+- **了解歷程**：點擊 **詳情**，即可查看單據變更狀態的 **時間紀錄**。
 
+    !!! info "歷史紀錄顯示說明" 
+        系統自 2026/07/02 10:00 AM 起開始記錄狀態變更時間。此時間點前的單據，狀態歷程將統一顯示為 `系統升級前歷史進程`，恕無法回溯顯示確切的變更時間。
+
+    ![](../../assets/images/POS-後台-全通路庫存管理-進倉單-單號歷程01.png){ .screenshot }
 
 ## 後續操作
 

@@ -1,13 +1,11 @@
 ---
 title: 商品多國語系可翻譯欄位對照表
-description: ""
+description: "彙整商品在多國語系商店中可逐語言填寫的欄位，其餘欄位(價格、SKU、庫存等)所有語言共用。"
 created: 2026-06-04 09:42
 last_modified: 2026-07-02 10:05
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:
@@ -18,7 +16,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: ""
 plans:
@@ -40,13 +38,14 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/products/references/product-multilang-fields/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide:
 ---
+
 
 本對照表彙整商品在多國語系商店中，**可以逐語言分別填寫** 的欄位，供新增商品、多語系建置等說明引用。未列於下表的欄位(如價格、款式、SKU、庫存、圖片)為所有語言共用，只需設定一次。
 
@@ -67,4 +66,3 @@ hide:
     * 切換語言後，上述欄位旁會顯示目前編輯的語言標籤，提醒您正在編輯哪一個語言的內容。
     * 切換語言前請先儲存，否則系統會跳出「編輯多國語言前，請先儲存變更中的內容」的提示。
     * 部分語言為 AI 翻譯，商家可手動檢查並修正用詞。
-

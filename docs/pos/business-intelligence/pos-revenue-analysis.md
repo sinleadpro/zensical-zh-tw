@@ -4,9 +4,7 @@ description: 在同一頁比較各 POS 門市的營業表現，從年度、月�
 created: 2026-06-23 16:30
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -29,7 +27,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 比較 POS 門市營業表現
   - 分析營收趨勢
@@ -41,9 +38,9 @@ features:
 prerequisites:
   - 已開通並使用 CYBERBIZ POS
 related:
-  - "[[pos-product-analysis]]"
-  - "[[omo-analysis-report]]"
-  - "[[revenue-analysis]]"
+  - "pos/business-intelligence/pos-product-analysis"
+  - "ec/business-intelligence/omo-analysis-report"
+  - "ec/business-intelligence/revenue-analysis"
 tags:
   - POS
   - 營收分析
@@ -61,7 +58,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=28244
-permalink: https://help.cyberbiz.io/pos/business-intelligence/pos-revenue-analysis
+permalink: "https://help.cyberbiz.io/pos/business-intelligence/pos-revenue-analysis/"
 comments: false
 search:
   exclude: false

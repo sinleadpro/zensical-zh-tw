@@ -2,11 +2,9 @@
 title: 將 Sitemap 提交至 Google Search Console
 description: 將 CYBERBIZ 自動產生的 Sitemap 提交至 Google Search Console，加快網頁收錄速度並優化 SEO 表現。
 created: 2026-03-20 13:43
-last_modified: 2026-07-03T11:44:11+08:00
+last_modified: 2026-07-03 11:44
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: trunk
 plans:
@@ -38,14 +36,14 @@ intents:
   - SEO_優化
 features:
   - Sitemap
-  - Google_Search_Console
+  - Google Search Console
   - XML
 prerequisites:
-  - "[[setup-google-search-console]]"
-  - "[[setup-google-analytics]]"
+  - "ec/integrations/google/setup-google-search-console"
+  - "ec/integrations/google/ga/setup-google-analytics"
 related:
-  - "[[setup-google-search-console]]"
-  - "[[seo-guide]]"
+  - "ec/integrations/google/setup-google-search-console"
+  - "ec/website-management/seo/seo-guide"
 tags:
   - Sitemap
   - SEO
@@ -63,7 +61,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=467
   - https://www.cyberbiz.io/support/?p=3807
-permalink: submit-sitemap-to-google-search-console
+permalink: "https://help.cyberbiz.io/ec/website-management/seo/submit-sitemap-to-gsc/"
 comments: false
 search:
   exclude: false

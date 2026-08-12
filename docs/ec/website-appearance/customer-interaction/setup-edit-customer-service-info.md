@@ -1,13 +1,11 @@
 ---
 title: 設定與修改客服中心資訊
 description: 透過後台網站設定與樣板檔編輯，調整客服頁面聯絡資訊、標題文字，並嵌入 Google Maps 地圖與自訂 HTML 內容。
-created: 2026-03-04
+created: 2026-03-04 00:00
 last_modified: 2026-06-30 11:01
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/website-appearance/customer-interaction/setup-edit-customer-service-info
-type: tutorial
-status: ""
-version: ""
+permalink: "https://help.cyberbiz.io/ec/website-appearance/customer-interaction/setup-edit-customer-service-info/"
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -45,7 +43,7 @@ prerequisites: []
 related: []
 tags:
   - 客服中心
-  - Google_Map
+  - Google Map
 acoiv: ""
 apis: []
 devices:
@@ -56,7 +54,7 @@ paths:
   - 網站外觀 > 套版主題管理 > 網站設定 > 客服中心
   - 網站外觀 > 套版主題管理 > CSS/HTML 編輯器
 layouts:
-  - 預設版型
+  - classic
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3683
   - https://www.cyberbiz.io/helpcenter/?p=420

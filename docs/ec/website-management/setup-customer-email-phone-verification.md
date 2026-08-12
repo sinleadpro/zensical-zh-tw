@@ -4,9 +4,7 @@ description: 要求新註冊顧客同時通過 Email 與簡訊驗證，確保會
 created: 2026-05-27 14:58
 last_modified: 2026-07-24 14:12
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -46,12 +44,12 @@ features:
   - 必須註冊
 prerequisites: []
 related:
-  - "[[customer-registration-modes-reference]]"
-  - "[[customer-field-validation-reference]]"
-  - "[[manage-email-templates]]"
-  - "[[manage-sms-templates-v2]]"
-  - "[[設定顧客註冊流程與欄位]]"
-  - "[[管理會員檔案]]"
+  - "ec/website-management/references/customer-registration-modes-reference"
+  - "ec/website-management/references/customer-field-validation-reference"
+  - "ec/notifications/manage-email-templates"
+  - "ec/notifications/manage-sms-templates-v2"
+  - "ec/website-management/customer-registration-flow-and-fields"
+  - "ec/members/manage-member-profiles"
 tags:
   - 雙重驗證
   - Email 驗證
@@ -80,7 +78,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1865
   - https://www.cyberbiz.io/helpcenter/?p=1871
-permalink: https://help.cyberbiz.io/ec/website-management/setup-customer-email-phone-verification
+permalink: "https://help.cyberbiz.io/ec/website-management/setup-customer-email-phone-verification/"
 comments: false
 search:
   exclude: false

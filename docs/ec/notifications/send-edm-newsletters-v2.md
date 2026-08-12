@@ -4,9 +4,7 @@ description: 建立 EDM 內容、選擇發送對象並發送電子報給會員�
 created: 2026-03-10 00:28
 last_modified: 2026-07-02 13:02
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: trunk
 plans:
@@ -57,10 +55,10 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4412
   - https://www.cyberbiz.io/support/?p=23782
-permalink: https://help.cyberbiz.io/ec/notifications/send-edm-newsletters-v2
+permalink: "https://help.cyberbiz.io/ec/notifications/send-edm-newsletters-v2/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/mail-plus
 hide:
 ---

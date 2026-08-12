@@ -4,9 +4,7 @@ description: 「加工商品」即為電商官網常見的「組合商品」。�
 created: 2026-03-19 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -59,7 +57,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5717
   - https://www.cyberbiz.io/support/?p=8920
   - https://www.cyberbiz.io/support/?p=9749
-permalink: https://help.cyberbiz.io/wms/processed-products
+permalink: "https://help.cyberbiz.io/wms/processed-products/"
 comments: false
 search:
   exclude: false

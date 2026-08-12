@@ -1,25 +1,23 @@
 ---
 title: 免運費設定
 description: 透過全館門檻、指定商品等多種方式，設定符合行銷策略的免運優惠，提升顧客下單意願與客單價。
-created: 2026-07-15
+created: 2026-07-15 00:00
 last_modified: 2026-07-16 08:54
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
 products:
-  - ec
+  - EC
 modules:
   - 行銷活動
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -31,7 +29,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 設定全館運費門檻免運
   - 設定超商取貨免運
@@ -46,7 +43,7 @@ features:
 prerequisites:
   - 若需使用「指定商品免運」，需高手版、各 PLUS 版或企業版
 related:
-  - "[[order-settings]]"
+  - "ec/payments-and-logistics/payments/order-settings"
 tags:
   - 免運
   - 運費設定
@@ -68,11 +65,11 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5139
   - https://www.cyberbiz.io/support/?p=6257
-permalink: https://help.cyberbiz.io/ec/marketing/free-shipping-settings/
+permalink: "https://help.cyberbiz.io/ec/marketing/free-shipping-settings/"
 comments: false
 search:
   exclude: false
-icon: 
+icon: lucide/store
 hide: []
 ---
 

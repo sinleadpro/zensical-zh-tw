@@ -1,13 +1,11 @@
 ---
 title: 折扣種類對照表
 description: 折扣活動分析中的 5 種折扣種類說明與開通條件對照，包含加價購、紅配綠、優惠碼折扣與任選折扣。
-created: 2026-06-16
+created: 2026-06-16 00:00
 last_modified: 2026-07-12 19:20
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 products:
@@ -16,7 +14,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 plans: []
 tags:
   - 報表分析

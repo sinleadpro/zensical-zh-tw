@@ -2,11 +2,9 @@
 title: 使用 7-11 C2C 退貨便
 description: 開通 7-11 C2C 退貨便、設定收貨人資料、發送退貨寄件代碼給消費者，以及完整的退貨審查與退款流程。
 created: 2026-05-26 12:25
-last_modified: 2026-07-06T17:13:47+08:00
+last_modified: 2026-07-06 17:13
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -31,16 +29,15 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions:
-  - PAYMENTS
 intents:
   - 使用 7-11 C2C 退貨便退貨
 features:
-  - 7-11_C2C_退貨便
+  - 7-11 C2C 退貨便
 prerequisites:
   - 需先向 CYBERBIZ 客服申請開通「7-ELEVEN C2C 退貨便」加值功能
 related:
-  - "[[partial-shipment-v2]]"
-  - "[[setup-store-basic-info]]"
+  - "ec/orders/home-delivery/partial-shipment-v2"
+  - "ec/website-management/setup-store-basic-info"
 tags:
   - 7-11 C2C 退貨便
   - 退貨流程
@@ -59,7 +56,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12993
   - https://www.cyberbiz.io/support/?p=5246
-permalink: https://help.cyberbiz.io/ec/orders/returns-refunds/7-11-c2c-return
+permalink: "https://help.cyberbiz.io/ec/orders/returns-refunds/7-11-c2c-return/"
 comments: false
 search:
   exclude: false

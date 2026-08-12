@@ -1,15 +1,19 @@
 ---
 title: 商家指南
 description: 彙整 CYBERBIZ 商家指南手冊，提供 PDF 下載。
+lang: zh-TW
 last_modified: 2026-06-01 11:15
 type: hub
+author: ""
+reviewers: []
+notes: []
 tags:
   - 指南
   - LINE
   - 直播
   - 整合
 icon: lucide/book-open
-permalink: "https://help.cyberbiz.io/guidebook"
+permalink: "https://help.cyberbiz.io/resources/guidebook/"
 ---
 ## 手冊 { #handbooks }
 

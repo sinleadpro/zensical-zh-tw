@@ -4,9 +4,7 @@ description: 訂單超過退貨期限時，商家可從後台手動發起退貨�
 created: 2026-05-26 20:52
 last_modified: 2026-06-30 11:37
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: 
@@ -45,9 +43,9 @@ features:
   - 峰潮串倉退貨
 prerequisites: []
 related:
-  - "[[訂單退貨流程]]"
-  - "[[cvs-c2b-return]]"
-  - "[[訂單退款流程]]"
+  - "ec/orders/order-return-process"
+  - "ec/orders/returns-refunds/cvs-c2b-return"
+  - "ec/orders/order-refund-process"
 tags:
   - 退貨
   - 退貨期限
@@ -71,7 +69,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=2034
-permalink: https://help.cyberbiz.io/ec/orders/returns-refunds/overdue-return-handling
+permalink: "https://help.cyberbiz.io/ec/orders/returns-refunds/overdue-return-handling/"
 comments: false
 search:
   exclude: false

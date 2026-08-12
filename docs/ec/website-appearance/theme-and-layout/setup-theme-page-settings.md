@@ -4,10 +4,8 @@ description: 依頁面類型說明拖拉版型的各項設定，包含首頁區�
 created:
 last_modified: 2026-07-22 16:24
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings
-type: tutorial
-status:
-version:
+permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-theme-page-settings/"
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -77,7 +75,7 @@ ui_components: []
 paths:
   - 網站外觀 > 套版主題管理
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url: []
 icon: lucide/panel-top
 hide:

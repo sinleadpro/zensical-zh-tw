@@ -3,10 +3,8 @@ title: "設定與管理自訂頁面"
 description: "建立、設定與管理自訂頁面，包含基本設定、區塊設計與前台顯示方式。"
 created: "2025-03-03 15:30"
 last_modified: 2026-07-01 19:48
-lang: "zh-TW"
-type: "tutorial"
-status: ""
-version: ""
+lang: zh-TW
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,8 +17,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-difficulty: beingger
+  - merchant
+difficulty: beginner
 tnb: trunk
 plans:
   - 企業
@@ -61,10 +59,10 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12570
   - https://www.cyberbiz.io/support/?p=40485
   - https://www.cyberbiz.io/support/?p=5649
-permalink: https://help.cyberbiz.io/ec/website-appearance/pages-and-content/custom-pages
+permalink: "https://help.cyberbiz.io/ec/website-appearance/pages-and-content/custom-pages/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/files
 hide: 
 ---

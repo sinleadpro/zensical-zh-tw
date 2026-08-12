@@ -4,10 +4,8 @@ description: 建立「單品限時折扣群組」，並設定折扣計價方式�
 created: 2026-01-13 00:00
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-type: tutorial
-status:
-version:
-author:
+type: guide
+author: ""
 reviewers: []
 notes:
   - verify FAQ
@@ -22,7 +20,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -56,7 +54,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9101
   - https://www.cyberbiz.io/support/?p=3368
-permalink: https://help.cyberbiz.io/ec/marketing/discounts/flash-sale-single-product
+permalink: "https://help.cyberbiz.io/ec/marketing/discounts/flash-sale-single-product/"
 comments: false
 search:
   exclude: false

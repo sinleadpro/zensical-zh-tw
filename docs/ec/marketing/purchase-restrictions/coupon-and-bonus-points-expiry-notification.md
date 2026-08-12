@@ -4,9 +4,7 @@ description: 商家可設定優惠券（碼）/ 紅利點數的到期提醒，�
 created: 2026-05-27 18:04
 last_modified: 2026-07-06 17:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans: 
@@ -53,7 +51,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=11115
-permalink: https://help.cyberbiz.io/ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification
+permalink: "https://help.cyberbiz.io/ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification/"
 comments: false
 search:
   exclude: false

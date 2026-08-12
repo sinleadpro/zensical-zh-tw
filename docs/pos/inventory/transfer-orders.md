@@ -2,11 +2,9 @@
 title: 調倉單
 description: 處理門市間的庫存調撥需求，由缺貨方發起請求，待對方核准後啟動後續撥貨流程。
 created: 2026-04-09 18:00
-last_modified: 2026-06-30 21:55
+last_modified: 2026-07-27 17:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -22,8 +20,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -41,12 +39,12 @@ features:
   - 跨店調撥
 prerequisites: []
 related:
-  - [[調倉完整流程]]
+  - "pos/inventory/transfer-complete-process"
 tags:
   - 調倉單
   - 跨店調撥
   - 庫存管理
-  - POS_調倉
+  - POS 調倉
 acoiv: operation
 apis: []
 devices:
@@ -64,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3006
   - https://www.cyberbiz.io/support/?p=4825
-permalink: https://help.cyberbiz.io/pos/inventory/transfer-orders
+permalink: "https://help.cyberbiz.io/pos/inventory/transfer-orders/"
 comments: false
 search:
   exclude: false
@@ -232,10 +230,13 @@ hide: []
 
 ## 調倉單列表
 
-### 篩選與搜尋
-
 - **搜尋單號**：可依 **日期** 搜尋或依 **出貨店家** 篩選。
+- **了解歷程**：點擊 **詳情**，即可查看單據變更狀態的 **時間紀錄**。
 
+    !!! info "歷史紀錄顯示說明" 
+        系統自 2026/07/02 10:00 AM 起開始記錄狀態變更時間。此時間點前的單據，狀態歷程將統一顯示為 `系統升級前歷史進程`，恕無法回溯顯示確切的變更時間。
+
+    ![](../../assets/images/POS-後台-全通路庫存管理-調倉單-單號歷程01.png){ .screenshot }
 
 ## 後續操作
 

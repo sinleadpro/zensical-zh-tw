@@ -4,9 +4,7 @@ description: 透過 Amazon FBA 服務，您可以將官網訂單交由 Amazon �
 created: 2026-03-03 00:00
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -21,7 +19,7 @@ sites:
   - US
   - JP
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -51,7 +49,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=20676
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/amazon-fba-cross-border-logistics
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/amazon-fba-cross-border-logistics/"
 comments: false
 search:
   exclude: false

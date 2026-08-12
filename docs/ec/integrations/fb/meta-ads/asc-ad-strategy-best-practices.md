@@ -5,8 +5,6 @@ created: 2026-04-24 17:48
 last_modified: 2026-07-02 13:44
 lang: zh-TW
 type: guide
-status: ""
-version: ""
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -41,12 +39,12 @@ features:
   - 高效速成行銷活動
   - 目錄型廣告
 prerequisites:
-  - "[[setup-fbe-authorization]]"
-  - "[[create-meta-ad-account-top-up]]"
+  - "ec/integrations/fb/mbe/setup-fbe-authorization"
+  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
 related:
-  - "[[setup-meta-ad-campaign]]"
-  - "[[meta-ad-performance-analysis]]"
-  - "[[meta-ad-daily-budget-guide]]"
+  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
+  - "ec/integrations/fb/meta-ads/meta-ad-performance-analysis"
+  - "ec/integrations/fb/meta-ads/meta-ad-daily-budget-guide"
 tags:
   - ASC
   - 高效速成行銷活動
@@ -64,10 +62,10 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10820
   - https://www.cyberbiz.io/support/?p=46743
-permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/asc-ad-strategy-best-practices
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/asc-ad-strategy-best-practices/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/megaphone
 hide:
 ---

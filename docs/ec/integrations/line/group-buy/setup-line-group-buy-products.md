@@ -4,9 +4,7 @@ description: 設定 LINE 團購商品分類，從官網公開商品建立團購�
 created: "2026-03-12 10:29"
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -22,7 +20,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -33,7 +31,7 @@ intents:
   - LINE_團購商品管理
   - 團購價設定
 features:
-  - LINE_團購
+  - LINE 團購
   - 團購商品分類
   - 團購價
 prerequisites:
@@ -55,7 +53,7 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=29174&page=3
-permalink: https://help.cyberbiz.io/ec/integrations/line/group-buy/setup-line-group-buy-products
+permalink: "https://help.cyberbiz.io/ec/integrations/line/group-buy/setup-line-group-buy-products/"
 comments: false
 search:
   exclude: false

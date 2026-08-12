@@ -4,9 +4,7 @@ description: 安裝 Posiflex 發票機，包含驅動程式安裝、硬體連線
 created: 2026-03-25 18:45
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,8 +18,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -45,7 +43,7 @@ tags:
   - Posiflex
   - 發票機
   - 盟立發票
-  - POS_硬體
+  - POS 硬體
   - 電子發票
 acoiv: configure
 apis: []
@@ -62,7 +60,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=4225
   - https://www.cyberbiz.io/support/?p=5064
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/hardware/posiflex-wired-invoice-printer/"
 comments: false
 search:
   exclude: false

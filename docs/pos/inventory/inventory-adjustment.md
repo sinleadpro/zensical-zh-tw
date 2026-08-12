@@ -4,9 +4,7 @@ description: 當實際商品數量與系統帳面庫存不符時，您可以透�
 created: 2026-04-08 15:30
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -21,8 +19,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -36,18 +34,18 @@ intents:
   - 查看庫存異動紀錄
   - 下載盤點清單
 features:
-  - POS_庫存調整
+  - POS 庫存調整
   - 手動調整
   - 匯入調整
   - 庫存調整報表
 prerequisites: []
 related:
-  - [[庫存盤點]]
-  - [[全通路庫存管理]]
+  - "pos/inventory/inventory-count"
+  - "pos/inventory/index"
 tags:
   - 庫存調整
   - 盤盈盤虧
-  - POS_前台操作
+  - POS 前台操作
   - 後台管理
   - 庫存報表
 acoiv: operation
@@ -67,7 +65,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3025
   - https://www.cyberbiz.io/support/?p=4911
-permalink: https://help.cyberbiz.io/pos/inventory/inventory-adjustment
+permalink: "https://help.cyberbiz.io/pos/inventory/inventory-adjustment/"
 comments: false
 search:
   exclude: false

@@ -4,9 +4,7 @@ description: 商家可以自行印製含有條碼、價格、保存期限等資�
 created: 2026-03-25 16:20
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,8 +18,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -36,8 +34,8 @@ intents:
   - 標籤機碳帶安裝教學
 features:
   - 商品標籤列印
-  - TSC_TTP-323
-  - POS_APP_整合
+  - TSC TTP-323
+  - POS APP 整合
   - 條碼標籤
 prerequisites:
   - 設定 POS 商店與機台
@@ -62,7 +60,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=9723
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/hardware/label-printer/"
 comments: false
 search:
   exclude: false

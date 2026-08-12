@@ -4,9 +4,7 @@ description: 顧客如何在 LINE 群組中透過團購機器人瀏覽商品、�
 created: "2026-03-12 15:40"
 last_modified: 2026-07-02 10:30
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -30,7 +28,7 @@ intents:
   - LINE_團購操作流程
   - LINE_團購結帳
 features:
-  - LINE_團購
+  - LINE 團購
   - 團購機器人
   - LIFF
   - 購物車
@@ -53,7 +51,7 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=29461
-permalink: https://help.cyberbiz.io/ec/integrations/line/group-buy/line-group-buy-shopping
+permalink: "https://help.cyberbiz.io/ec/integrations/line/group-buy/line-group-buy-shopping/"
 comments: false
 search:
   exclude: false

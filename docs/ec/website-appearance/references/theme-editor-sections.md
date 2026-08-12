@@ -1,13 +1,11 @@
 ---
 title: 可新增區塊類型對照表
-description: ""
+description: "彙整拖拉版型中可新增的區塊類型及其用途、適用頁面與開通條件。"
 created: 2026-06-10 17:20
-last_modified: 2026-07-06T17:42:42+08:00
+last_modified: 2026-07-06 17:42
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:
@@ -18,7 +16,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: ""
 plans:
@@ -37,13 +35,14 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/website-appearance/references/theme-editor-sections/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide:
 ---
+
 
 本對照表彙整拖拉版型中可新增的區塊及其用途，供「拖拉版型網站設定」等說明引用。
 

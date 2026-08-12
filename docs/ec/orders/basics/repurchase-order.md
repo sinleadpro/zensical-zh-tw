@@ -4,9 +4,7 @@ description: 前台會員的再次購買功能，讓會員能輕鬆重新下單�
 created: 2026-05-06 21:15
 last_modified: 2026-07-13 11:40
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
   - customer
 difficulty: beginner
 tnb: trunk
@@ -36,8 +34,8 @@ features:
   - 購物車結帳
 prerequisites: []
 related:
-  - "[[order-management-interface]]"
-  - "[[setup-order-upsell]]"
+  - "ec/orders/basics/order-management-interface"
+  - "ec/marketing/upsells/setup-order-upsell"
 tags:
   - 再次購買
   - 回購
@@ -51,10 +49,10 @@ devices:
 ui_components: []
 paths: []
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/support/?p=42098
-permalink: https://help.cyberbiz.io/ec/orders/basics/repurchase-order
+permalink: "https://help.cyberbiz.io/ec/orders/basics/repurchase-order/"
 comments: false
 search:
   exclude: false

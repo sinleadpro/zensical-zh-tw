@@ -1,6 +1,11 @@
 ---
+author: ""
+reviewers: []
+products: [EC]
+notes: []
 title: 付款金流
 description: 管理支付方式、金流設定與訂單收款，確保交易安全與順暢。
+lang: zh-TW
 icon: lucide/credit-card
 permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/"
 hide:

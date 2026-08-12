@@ -4,10 +4,8 @@ description: 修改程式碼檔案，將結帳流程預設的「購買人優先�
 created: 2026-03-04 00:00
 last_modified: 2026-07-22 15:49
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/website-appearance/checkout-and-shopping-flow/priority-recipient-info-checkout
-type: tutorial
-status: ""
-version: ""
+permalink: "https://help.cyberbiz.io/ec/website-appearance/checkout-and-shopping-flow/priority-recipient-info-checkout/"
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -37,7 +35,7 @@ intents:
   - 優化跨境電商填單體驗
 features:
   - 結帳頁 v3
-  - js/main.js
+  - 結帳頁客製化設定
   - 收件人優先
 prerequisites: []
 related:
@@ -56,8 +54,8 @@ ui_components: []
 paths:
   - 網站外觀 > 套版主題管理 > CSS/HTML 編輯器
 layouts:
-  - 預設版型
-  - 拖拉版型
+  - classic
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/support/?p=26454
 comments: false

@@ -4,10 +4,8 @@ description: 使用拖拉版型編輯器調整官網版面，包含新增區塊�
 created:
 last_modified: 2026-07-22 16:23
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/theme-editor
-type: tutorial
-status:
-version:
+permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/theme-editor/"
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -22,7 +20,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -62,7 +60,7 @@ search:
 paths:
   - 網站外觀 > 套版主題管理
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9153
   - https://www.cyberbiz.io/support/?p=39903

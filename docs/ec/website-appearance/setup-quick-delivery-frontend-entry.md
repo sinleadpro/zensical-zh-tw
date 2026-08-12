@@ -4,9 +4,7 @@ description: 學習如何配置快速到貨專區的前台入口、自訂導覽�
 created: 2026-02-03 00:00
 last_modified: 2026-06-30 11:01
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -59,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=12861
   - https://www.cyberbiz.io/support/?p=24278
-permalink: https://help.cyberbiz.io/ec/website-appearance/setup-quick-delivery-frontend-entry
+permalink: "https://help.cyberbiz.io/ec/website-appearance/setup-quick-delivery-frontend-entry/"
 comments: false
 search:
   exclude: false

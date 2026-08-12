@@ -4,9 +4,7 @@ description: 介紹商家手動取消、會員前台取消與系統自動取消�
 created: 2026-05-04 12:24
 last_modified: 2026-07-13 11:32
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -39,9 +37,9 @@ features:
   - 訂單自動取消
 prerequisites: []
 related:
-  - "[[訂單退貨流程]]"
-  - "[[訂單退款流程]]"
-  - "[[order-management-interface#order-history]]"
+  - "ec/orders/order-return-process"
+  - "ec/orders/order-refund-process"
+  - "ec/orders/basics/order-management-interface"
 tags:
   - 取消訂單
   - 訂單管理
@@ -58,7 +56,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=174
   - https://www.cyberbiz.io/support/?p=52159
-permalink: https://help.cyberbiz.io/ec/orders/basics/cancel-order
+permalink: "https://help.cyberbiz.io/ec/orders/basics/cancel-order/"
 comments: false
 search:
   exclude: false

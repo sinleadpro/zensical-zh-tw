@@ -4,12 +4,10 @@ description: 設定拖拉版型商品的色票功能，讓前台消費者能透�
 created: 2026-04-14 14:55
 last_modified: 2026-07-06 10:22
 lang: zh-TW
-type: tutorial
-status: 
+type: guide
 author: Jase
-version: 
-reviewers: 
-notes: 
+reviewers: []
+notes: []
 ga_views: 0
 feedback: 0
 products:
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -36,10 +34,10 @@ features:
   - 色票功能
   - 款式圖片
 prerequisites:
-  - "[[新增與更新商品#基本設定]]"
+  - "新增與更新商品#基本設定"
 related:
-  - "[[../../integrations/fb/mbe/設定 Facebook 跟 Instagram 商店]]"
-  - "[[product-swatches-variant-images-default]]"
+  - "ec/integrations/fb/mbe/setup-fb-instagram-shop"
+  - "ec/products/create-and-manage/product-swatches-variant-images-default"
 tags:
   - 色票
   - 款式圖片
@@ -58,11 +56,11 @@ paths:
   - 商品 > 所有商品
   - 網站外觀 > 套版主題管理 > 網站設定 > 全站設定
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4833
   - https://www.cyberbiz.io/support/?p=31319
-permalink: https://help.cyberbiz.io/ec/products/create-and-manage/product-swatches-variant-images-drag-drop
+permalink: "https://help.cyberbiz.io/ec/products/create-and-manage/product-swatches-variant-images-drag-drop/"
 comments: false
 search:
   exclude: false

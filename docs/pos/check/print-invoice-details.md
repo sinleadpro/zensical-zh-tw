@@ -4,9 +4,7 @@ description: 您可於 POS 子機設定中啟用 「自動開立發票」 功能
 created: 2026-04-17 11:45
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -56,7 +54,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=27199
   - https://www.cyberbiz.io/support/?p=5231
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/check/print-invoice-details/"
 comments: false
 search:
   exclude: false

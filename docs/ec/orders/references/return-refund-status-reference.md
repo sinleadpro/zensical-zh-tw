@@ -5,8 +5,6 @@ created: 2026-05-27 10:45
 last_modified: 2026-07-09 12:04
 lang: zh-TW
 type: reference
-status: ""
-version: ""
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -41,9 +39,9 @@ features:
   - 部分出貨退款
 prerequisites: []
 related:
-  - "[[cvs-unclaimed-order]]"
-  - "[[auto-refund-timeline]]"
-  - "[[tcat-quick-store-overdue]]"
+  - "ec/orders/returns-refunds/cvs-unclaimed-order"
+  - "ec/orders/references/auto-refund-timeline"
+  - "ec/orders/tcat-quick-store/tcat-quick-store-overdue"
 tags:
   - 超商逾期未取
   - 退貨狀態
@@ -59,7 +57,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/orders/references/return-refund-status-reference
+permalink: "https://help.cyberbiz.io/ec/orders/references/return-refund-status-reference/"
 comments: false
 search:
   exclude: false

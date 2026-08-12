@@ -2,11 +2,9 @@
 title: "匯出訂單報表"
 description: "匯出訂單報表並以 Excel 格式寄送至管理員信箱，方便查詢與分析訂單資料。"
 created: "2026-03-13 23:45"
-last_modified: 2026-06-30 15:50
+last_modified: 2026-08-05 11:20
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: trunk
 plans:
@@ -34,16 +32,16 @@ intents:
   - 訂單查詢
 features:
   - 訂單報表匯出
-  - Excel匯出
+  - Excel 匯出
   - 篩選功能
 prerequisites: []
 related:
-  - "[[order-report-fields]]"
-  - "[[cvs-shipping-restrictions-exclusions]]"
-  - "[[export-subscription-forecast]]"
-  - "[[security-settings]]"
-  - "[[add-admin-set-permissions]]"
-  - "[[pos-reports-list-guide]]"
+  - "ec/orders/references/order-report-fields"
+  - "ec/products/shipping/cvs-shipping-restrictions-exclusions"
+  - "ec/orders/reports/export-subscription-forecast"
+  - "ec/website-management/admin-security-settings"
+  - "ec/website-management/add-admin-set-permissions"
+  - "pos/inventory/pos-reports-list-guide"
 tags:
   - 訂單
   - 匯出
@@ -60,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1266
   - https://www.cyberbiz.io/support/?p=25244
-permalink: https://help.cyberbiz.io/ec/orders/reports/export-order-report
+permalink: "https://help.cyberbiz.io/ec/orders/reports/export-order-report/"
 comments: false
 search:
   exclude: false
@@ -173,8 +171,7 @@ hide: []
 ## 重要注意事項
 
 1.  **信箱檢查**：若未收到報表郵件，請檢查垃圾信件夾，或避免使用 Hinet 信箱，因其阻擋機制較強。
-2.  **資料隱碼**：若後台有開啟「[會員個資部分隱碼](../../website-management/security-settings.md#operate-security-pdpa){ title="設定網站安全性" }」，匯出的報表可能會對姓名、手機、地址等個資進行遮蓋處理，以保護會員資料安全。
-3.  **匯出權限**：網站擁有者可於「網站權限」中[限制特定管理員執行「訂單匯出」的權限](../../website-management/add-admin-set-permissions.md#權限分類與細節說明){ title="新增網站管理員並設定權限" }，以降低資安風險。
+2.  **匯出權限**：網站擁有者可於「網站權限」中[限制特定管理員執行「訂單匯出」的權限](../../website-management/add-admin-set-permissions.md#權限分類與細節說明){ title="新增網站管理員並設定權限" }，以降低資安風險。
 
 ## 常見問題
 
@@ -186,6 +183,3 @@ hide: []
 
 ??? quote "可以匯出超過一年前的訂單嗎？"
     可以，只要訂單未被刪除，您都可以透過自定義時間區間進行匯出。但請注意，若資料量龐大（超過萬筆），系統處理時間會較長。
-
-??? quote "為什麼報表裡的個資都是星號（*）？"
-    這是因為您的後台開啟了「個資隱碼」功能。請聯繫網站最高權限擁有者，前往「網站安全性設定」檢查是否需暫時關閉此限制以取得完整資料。

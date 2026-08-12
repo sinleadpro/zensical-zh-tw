@@ -1,13 +1,11 @@
 ---
 title: 訂單金物流分析圖表對照
 description: 訂單金物流分析分頁中三個分析群組的圖表類型與顯示條件對照
-created: 2026-06-15
+created: 2026-06-15 00:00
 last_modified: 2026-07-10 11:23
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 products:
@@ -16,7 +14,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 plans: []
 tags:
   - 訂單分析

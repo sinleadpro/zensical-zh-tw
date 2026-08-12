@@ -4,9 +4,7 @@ description: 完成商店授權後，您可以批次將蝦皮商品資訊匯入�
 created: 2026-02-25 00:00
 last_modified: 2026-07-07 12:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -39,8 +37,8 @@ features:
   - 全通路管理助手
   - 商品自動關聯
 prerequisites:
-  - [[Step 1 安裝與授權商店]]
-  - [[建議預先整理蝦皮端的 SKU (商品選項貨號)]]
+  - "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate"
+  - "建議預先整理蝦皮端的 SKU (商品選項貨號)"
 related: []
 tags: []
 acoiv: configure
@@ -54,7 +52,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5923
   - https://www.cyberbiz.io/support/?p=46486
-permalink: https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step2-import-products-and-link
+permalink: "https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step2-import-products-and-link/"
 comments: false
 search:
   exclude: false

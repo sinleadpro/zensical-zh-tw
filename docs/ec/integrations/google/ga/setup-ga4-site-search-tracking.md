@@ -2,12 +2,10 @@
 title: 設定 GA4 站內搜尋追蹤
 description: 透過 GA4 加強型評估功能，追蹤使用者在官網上的站內搜尋行為，分析消費者的資訊需求與查找意圖。
 created: 2026-03-24 20:05
-last_modified: 2026-07-03T11:45:00+08:00
+last_modified: 2026-07-03 11:45
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: 1
 reviewers: []
 notes: []
 ga_views: 0
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -38,13 +36,13 @@ intents:
 features:
   - GA4 加強型評估
   - 站內搜尋追蹤
-  - view_search_results 事件
-  - search_term 參數
+  - view search results 事件
+  - search term 參數
 prerequisites:
-  - "[[setup-google-analytics]]"
+  - "ec/integrations/google/ga/setup-google-analytics"
 related:
-  - "[[google-analytics-advanced-tracking]]"
-  - "[[ga4-exclude-internal-traffic-and-referrals]]"
+  - "ec/integrations/google/ga/google-analytics-advanced-tracking"
+  - "ec/integrations/google/ga/ga4-exclude-internal-traffic-and-referrals"
 tags:
   - GA4
   - 站內搜尋
@@ -64,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12099
   - https://www.cyberbiz.io/support/?p=28483
-permalink: https://help.cyberbiz.io/ec/integrations/google/ga/setup-ga4-site-search-tracking
+permalink: "https://help.cyberbiz.io/ec/integrations/google/ga/setup-ga4-site-search-tracking/"
 search:
   exclude: false
 icon: lucide/search-code

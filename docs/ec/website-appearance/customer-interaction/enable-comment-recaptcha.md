@@ -4,9 +4,7 @@ description: 申請並綁定 Google reCAPTCHA 金鑰，防止機器人攻擊與�
 created: 2026-03-05 17:15
 last_modified: 2026-07-01 10:40
 lang: zh-TW
-type: tutorial
-status: 
-version:
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -30,7 +28,7 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 intents:
   - 防止機器人垃圾留言
@@ -59,11 +57,11 @@ ui_components:
 paths:
   - 網站外觀 > 管理商品評論
   - 會員 > 顧客回饋&建議
-layouts:
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12371
   - https://www.cyberbiz.io/support/?p=50193
-permalink: https://help.cyberbiz.io/ec/website-appearance/customer-interaction/enable-comment-recaptcha
+permalink: "https://help.cyberbiz.io/ec/website-appearance/customer-interaction/enable-comment-recaptcha/"
 comments: false
 search:
   exclude: false

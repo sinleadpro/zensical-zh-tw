@@ -4,9 +4,7 @@ description: 了解如何將 CYBERBIZ 系統與綠界科技（ECPay）電子發�
 created: 2026-06-26 18:40
 last_modified: 2026-06-26 18:40
 lang: zh-TW
-type: tutorial 
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,16 +17,16 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans: 
   - 專業
   - 進階
   - 高手
-  - 專業 PLUS
-  - 進階 PLUS
-  - 高手 PLUS
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
 cyb_extensions: []
 intents: 
   - 串接綠界電子發票
@@ -39,9 +37,9 @@ features:
   - 綠界串接
   - 自動開立
 prerequisites: 
-  - "[[申請綠界科技帳戶]]"
+  - "申請綠界科技帳戶"
 related: 
-  - "[[管理系統代開消費者發票]]"
+  - "ec/website-management/manage-system-issued-consumer-invoices"
 tags: 
   - 綠界
   - 電子發票
@@ -59,7 +57,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=3274
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/website-management/ecpay-invoice/"
 search:
   exclude: false
 icon: lucide/receipt-text

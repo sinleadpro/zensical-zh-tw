@@ -1,13 +1,11 @@
 ---
 title: 基準參考範圍狀態對照表
 description: 認識圖表總覽中的基準參考範圍三種狀態：優於基準、符合基準、低於基準，以及對應的建議動作。
-created: 2026-06-15
+created: 2026-06-15 00:00
 last_modified: 2026-06-15 17:19
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 tnb: branch
 plans:
   - 企業
@@ -19,7 +17,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 tags:
   - EC
   - 報表分析

@@ -1,9 +1,16 @@
 ---
+description: "CYBERBIZ 智慧倉儲(WMS) 產品中心，提供申請開通、商品管理、進出倉作業與庫存管理說明。"
+author: ""
+reviewers: []
+products: [WMS]
+notes: []
 title: 智慧倉儲 (WMS) 產品中心
-permalink: https://help.cyberbiz.io/wms
+lang: zh-TW
+permalink: "https://help.cyberbiz.io/wms/"
 hide:
-  - toc
+  - description
   - path
+  - toc
   - feedback
 ---
 
@@ -183,6 +190,7 @@ hide:
     <!-- Latest -->
     <div id="latest" role="tabpanel" class="tab-content" style="display:flex">
       <a href="processed-products.md"><span class="badge">更新</span>加工商品</a>
+	  <a href="duplicate-order.md"><span class="badge">新增</span>複製訂單</a>
     </div>
 
     <!-- Popular -->

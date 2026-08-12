@@ -1,6 +1,11 @@
 ---
+author: ""
+reviewers: []
+products: [EC]
+notes: []
 title: 管理中心
 description: 管理商店基本設定、網域、顧客註冊、管理員權限、資安防護、發票對帳與方案續約。
+lang: zh-TW
 icon: lucide/settings
 permalink: "https://help.cyberbiz.io/ec/website-management/"
 hide:
@@ -89,7 +94,7 @@ hide:
 
     管理後台登入防護與顧客資料保護，從 IP 白名單、自動登出到網站密碼，一頁完成你的網站資安設定。
 
-    [:octicons-arrow-right-24: 前往](security-settings.md)
+    [:octicons-arrow-right-24: 前往](admin-security-settings.md)
 
 -   :lucide-shield: __資安防護總覽與最佳實務__
 

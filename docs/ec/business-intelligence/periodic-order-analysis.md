@@ -1,13 +1,11 @@
 ---
 title: 定期定額分析
 description: 透過數據卡與圖表，掌握店內定期定額訂單的數量、價值、持續期數與取消狀況，看出顧客訂閱的續訂與流失趨勢。
-created: 2026-06-16
+created: 2026-06-16 00:00
 last_modified: 2026-07-12 20:35
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:

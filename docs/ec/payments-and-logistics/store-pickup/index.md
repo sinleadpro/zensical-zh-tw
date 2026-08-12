@@ -5,8 +5,6 @@ created: 2026-04-27 16:55
 last_modified: 2026-06-22 11:15
 lang: zh-TW
 type: guide
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -22,8 +20,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -38,15 +36,15 @@ intents:
   - 顧客到店取貨
 features:
   - 門市取貨
-  - POS_門市取貨
+  - POS 門市取貨
   - 店員分潤
 prerequisites: []
 related:
-  - [[建立門市]]
-  - [[開啟門市取貨服務]]
-  - [[門市取貨訂單出貨]]
-  - [[門市取貨訂單(入庫取貨)]]
-  - [[POS 門市取貨店員分潤]]
+  - "ec/payments-and-logistics/create-stores"
+  - "ec/payments-and-logistics/store-pickup/enable-store-pickup-service"
+  - "ec/orders/store-pickup-orders"
+  - "pos/orders/store-pickup-orders-inbound-and-pickup"
+  - "pos/store/pos-store-pickup-staff-commission"
 tags:
   - 門市取貨
   - OMO
@@ -68,7 +66,7 @@ paths:
   - 分潤 > 門市取貨店員分潤
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/store-pickup/index"
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/store-pickup/"
 comments: false
 search:
   exclude: false

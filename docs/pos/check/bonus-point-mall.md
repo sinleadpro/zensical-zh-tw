@@ -4,9 +4,7 @@ description: 建立專屬的線上紅利兌換商城，設定商品兌換所需�
 created: 2026-04-10 10:00
 last_modified: 2026-06-22 11:15
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -57,7 +55,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=35526
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/check/bonus-point-mall/"
 comments: false
 search:
   exclude: false
