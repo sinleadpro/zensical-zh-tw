@@ -596,9 +596,11 @@ copyright = """
             ]},
             { "資安防護" = [
                 { "資安防護總覽" = "ec/website-management/security-best-practices.md" },
-                { "安全性設定" = "ec/website-management/security-settings.md" },
+                { "會員安全" = "ec/website-management/member-security-settings.md" },
+                { "管理者登入" = "ec/website-management/admin-security-settings.md" },
+                { "機器人防護" = "ec/website-management/bot-protection-settings.md" },
                 { "二階段驗證 (2FA)" = "ec/website-management/setup-manage-two-factor-auth.md" },
-                { "Authy 二階段驗證" = "ec/website-management/authy-two-factor-authentication.md" },
+                { "安裝 Authy 驗證器" = "ec/website-management/authy-two-factor-authentication.md" },
                 { "管理員與權限" = "ec/website-management/add-admin-set-permissions.md" },
             ]},
             {"搜尋引擎最佳化" = [

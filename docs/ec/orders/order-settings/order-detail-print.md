@@ -331,6 +331,6 @@ hide: []
 
 <div class="grid cards" markdown>
 
-- :lucide-eye-off:{ .lg } [__訂單明細個資隱碼設定__](../../website-management/security-settings/#operate-security-pdpa)
+- :lucide-eye-off:{ .lg } [__訂單明細個資隱碼設定__](../../website-management/member-security-settings/#operate-security-pdpa)
 
 </div>

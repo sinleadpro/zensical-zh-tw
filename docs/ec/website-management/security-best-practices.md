@@ -7,7 +7,7 @@ lang: zh-TW
 type: guide
 status: ""
 version: ""
-author: Jase
+author: Ann
 reviewers: []
 notes: []
 ga_views: 0
@@ -85,29 +85,13 @@ hide: []
 
 資訊安全需要商家一起配合執行各項設定，才能有效降低風險。本頁屬「總覽與最佳實務」，協助你一次掌握該做哪些防護。各功能的詳細操作步驟，請點對應連結前往教學。多數功能集中在後台「管理中心」>「安全性設定」，部分則位於「網站權限」、付款或網域相關設定。
 
-!!! tip "建議優先順序"
-    若你剛開始盤點資安，建議先完成三件事：開啟 **二階段驗證**、設定 **IP 白名單**、開啟 **後台登入 reCAPTCHA**，這三項對防止帳號被盜用最有效。
 
-## 資安防護總覽 { #overview-security-guide }
-
-| 防護措施 | 用途 | 設定位置 |
-| :-- | :-- | :-- |
-| [二階段驗證（2FA）](security-settings.md#operate-security-2fa) | 登入時加上動態驗證碼，防止帳號被盜用 | 管理中心/安全性設定 > 管理員登入 |
-| [IP 白名單](security-settings.md#operate-security-ip-whitelist) | 只允許名單內 IP 登入後台 | 管理中心/安全性設定 > 管理員登入 |
-| [後台登入 reCAPTCHA](security-settings.md#operate-security-recaptcha) | 後台登入加上機器人驗證 | 管理中心/安全性設定 > 管理員登入 |
-| [會員註冊簡訊驗證](security-settings.md#operate-security-sms-bot-protection) | 註冊發送簡訊前加入機器人驗證，降低惡意觸發簡訊費用風險 | 管理中心/安全性設定 > 機器人防護設定 |
-| [瀏覽器 Cookie 驗證 IP 白名單](security-settings.md#operate-security-cookie-whitelist) | 避免同瀏覽器 IP 跳動被強制登出 | 管理中心/安全性設定 > 管理員登入 |
-| [自動登出時間](security-settings.md#operate-security-logout-timer) | 後台閒置自動登出 | 管理中心/安全性設定 > 管理員登入 |
-| [會員個資部分隱碼](security-settings.md#operate-security-pdpa) | 於訂單明細中遮蔽顧客姓名、手機、地址等個資 | 管理中心/安全性設定 > 會員安全 |
-| [訪問限制地區黑名單](security-settings.md#operate-security-restricted-locations) | 封鎖特定地區顧客造訪前台 | 管理中心/安全性設定 > 會員安全 |
-| [網站密碼](security-settings.md#operate-security-website-password) | 顧客需輸入密碼才能瀏覽網站 | 管理中心/安全性設定 > 會員安全 |
-| [匯出權限控管](add-admin-set-permissions.md#管理者權限設定與修改) | 將顧客匯出、訂單匯出權限縮到最小 | 管理中心/網站權限 > 帳戶權限設定 |
-| [信用卡 3D 驗證](../payments-and-logistics/setup-credit-card-3d-verification.md) | 消費者需簡訊驗證，降低盜刷 | 付款設定（開通） |
-| SSL 安全性憑證 | 加密網站與顧客間的資料傳輸 | 隨方案提供或於網域設定 |
 
 ## 核心登入防護 { #operate-security-guide-core }
 
-這三項是防止帳號被盜用與惡意攻擊最有效的防線，建議優先全部開啟。
+
+!!! tip "建議優先順序"
+    若你剛開始盤點資安，建議先完成三件事：開啟 **二階段驗證**、設定 **IP 白名單**、開啟 **後台登入 reCAPTCHA**，這三項對防止帳號被盜用最有效。
 
 <div class="grid cards" markdown>
 
@@ -117,7 +101,7 @@ hide: []
 
     輸入帳密後，還需手機驗證器產生的動態驗證碼才能登入。即使密碼外洩，駭客也無法突破第二層驗證。
 
-    [:lucide-arrow-right: 設定步驟](security-settings.md#operate-security-2fa)
+    [:lucide-arrow-right: 設定步驟](admin-security-settings.md#operate-security-2fa)
 
 -   :lucide-network:{ .lg .middle } __IP 白名單__
 
@@ -125,7 +109,7 @@ hide: []
 
     限制只有名單內的 IP 位址才能登入後台。請勿使用手機 WiFi 分享等浮動 IP，否則可能導致無法登入。
 
-    [:lucide-arrow-right: 設定步驟](security-settings.md#operate-security-ip-whitelist)
+    [:lucide-arrow-right: 設定步驟](admin-security-settings.md#operate-security-ip-whitelist)
 
 -   :lucide-bot:{ .lg .middle } __後台登入 reCAPTCHA__
 
@@ -133,7 +117,7 @@ hide: []
 
     在後台登入頁加上機器人驗證，減少自動化腳本攻擊。
 
-    [:lucide-arrow-right: 設定步驟](security-settings.md#operate-security-recaptcha)
+    [:lucide-arrow-right: 設定步驟](admin-security-settings.md#operate-security-recaptcha)
 
 </div>
 
@@ -151,7 +135,7 @@ hide: []
 
     當同一瀏覽器操作時 IP 變動，系統會要求重新登入，防止他人盜取 Cookie 偽裝身分；若你的網路 IP 頻繁跳動造成困擾，可把可信任 IP 加入此名單。
 
-    [:lucide-arrow-right: 設定步驟](security-settings.md#operate-security-cookie-whitelist)
+    [:lucide-arrow-right: 設定步驟](admin-security-settings.md#operate-security-cookie-whitelist)
 
 -   :lucide-clock:{ .lg .middle } __自動登出時間__
 
@@ -159,13 +143,21 @@ hide: []
 
     設定後台閒置多久自動登出（可選 4 小時至 7 天），降低電腦遭他人誤用的風險。
 
-    [:lucide-arrow-right: 設定步驟](security-settings.md#operate-security-logout-timer)
+    [:lucide-arrow-right: 設定步驟](admin-security-settings.md#operate-security-logout-timer)
 
 -   :lucide-globe-off:{ .lg .middle } __境外 IP 登入限制__
 
     ---
 
     若你有跨境經營或海外登入需求，可評估限制境外登入。此項涉及帳號授權，建議直接聯繫 CYBERBIZ 客服確認開通方式。
+
+-   :lucide-bot:{ .lg .middle } __會員註冊簡訊驗證__
+
+    ---
+
+    在會員註冊發送驗證碼前加入 Cloudflare Turnstile 機器人驗證，降低惡意腳本大量觸發簡訊（尤其是海外簡訊）造成的費用損失。
+
+    [:lucide-arrow-right: 設定步驟](bot-protection-settings.md#operate-security-sms-bot-protection)
 
 </div>
 
@@ -191,7 +183,7 @@ hide: []
 
     列印訂單明細時，將會員姓名、手機、地址等以隱碼遮蔽。
 
-    [:lucide-arrow-right: 設定步驟](security-settings.md#operate-security-pdpa)
+    [:lucide-arrow-right: 設定步驟](member-security-settings.md#operate-security-pdpa)
 
 -   :lucide-search:{ .lg .middle } __定期稽核登入者__
 
@@ -217,13 +209,6 @@ hide: []
 
     [:lucide-arrow-right: 設定教學](../payments-and-logistics/setup-credit-card-3d-verification.md)
 
--   :lucide-bot:{ .lg .middle } __會員註冊簡訊驗證__
-
-    ---
-
-    在會員註冊發送驗證碼前加入 Cloudflare Turnstile 機器人驗證，降低惡意腳本大量觸發簡訊（尤其是海外簡訊）造成的費用損失。
-
-    [:lucide-arrow-right: 設定步驟](security-settings.md#operate-security-sms-bot-protection)
 
 -   :lucide-lock:{ .lg .middle } __SSL 安全性憑證__
 
@@ -269,7 +254,7 @@ hide: []
 1. **檢視操作紀錄**：至後台 **總覽** 檢查是否有異常 IP 登入，並保留相關紀錄。詳見[檢查方法](#faq-security-guide-check)。
 2. **變更密碼**：立即更改所有後台帳號密碼。
 3. **清除瀏覽器資料**：清除 Cookie 與暫存，避免 Session 遭盜用。
-4. **確認防護已開啟**：確認[二階段驗證](security-settings.md#operate-security-2fa)與 [IP 白名單](security-settings.md#operate-security-ip-whitelist)皆已啟用。
+4. **確認防護已開啟**：確認[二階段驗證](admin-security-settings.md#operate-security-2fa)與 [IP 白名單](admin-security-settings.md#operate-security-ip-whitelist)皆已啟用。
 5. **移除不明管理員**：至 **管理中心 > 網站權限** 檢視並移除非授權帳號。
 
 ??? example "案例說明：釣魚信件導致的資料外洩風險"
@@ -327,7 +312,4 @@ hide: []
     - 保留異常登入紀錄，於官網張貼防詐騙提醒，通報 165 並報警。
     - 聯繫 CYBERBIZ 客服協助確認帳號狀態。
 
-## 參考資料 { #reference-security-guide }
-
-- [安全性設定：保護後台帳號與顧客資料](security-settings.md)
 
