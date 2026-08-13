@@ -115,7 +115,14 @@ hide: []
 
         ![](../../assets/images/cloudflare-後台-建立Turnstile05.png){ .screenshot }
 
-        在 **新增自訂主機名稱** 欄位，輸入您的您的商店站台網域；例如：`www.xxx.com`、`xxx.cyberbiz.co`。
+        在 **新增自訂主機名稱** 欄位，輸入您的您的商店站台網域。
+        
+        !!! tip "兩種網域皆須加入"
+            新增主機名稱時，請同時加入商店的 **自有網域** 與 **CYBERBIZ 網域**：
+
+            - **自有網域**：`https://www.你的網域.com/`
+            - **CYBERBIZ 網域**：`https://你的店名.cyberbiz.co/`
+
 
         ![](../../assets/images/cloudflare-後台-建立Turnstile08.png){ .screenshot }
 
