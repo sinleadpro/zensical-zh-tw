@@ -4,9 +4,7 @@ description: 說明如何使用 CYBERBIZ POS 前台進行電子票券核銷、�
 created: 2026-06-01 15:36
 last_modified: 2026-06-01 15:36
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - clerk
+  - merchant
 difficulty: beginner
 tnb: branch
 plans: 
@@ -39,8 +37,8 @@ features:
 prerequisites: 
   - "需先完成電子票券商品設定"
 related: 
-  - "[[e-ticket-setup-guide]]"
-  - "[[電子票券優惠設定]]"
+  - "ec/e-ticket/e-ticket-setup-guide"
+  - "電子票券優惠設定"
 tags: 
   - POS
   - 電子票券
@@ -59,7 +57,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=31866
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/check/pos-frontend-e-ticket-redemption/"
 comments: false
 search:
   exclude: false

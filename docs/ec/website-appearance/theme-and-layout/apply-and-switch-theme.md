@@ -4,10 +4,8 @@ description: 透過套版主題管理隨時下載、切換與發布不同的網�
 created: 2026-06-22 10:00
 last_modified: 2026-07-22 15:50
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -31,7 +29,6 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions: []
-feature_badges: []
 intents:
   - 下載新的網站主題
   - 切換網站主題
@@ -69,7 +66,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=410
   - https://www.cyberbiz.io/support/?p=2807
-permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/apply-and-switch-theme
+permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/apply-and-switch-theme/"
 comments: false
 search:
   exclude: false

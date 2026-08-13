@@ -4,9 +4,7 @@ description: 使用關鍵字搜尋、條件篩選、檢視群組與訂單標籤�
 created: 2026-05-07 11:23
 last_modified: 2026-07-13 09:53
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -44,7 +42,7 @@ features:
   - 適應寬度
 prerequisites: []
 related:
-  - "[[order-filter-status-reference]]"
+  - "ec/orders/references/order-filter-status-reference"
 tags:
   - 訂單搜尋
   - 訂單篩選
@@ -61,7 +59,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=622
-permalink: https://help.cyberbiz.io/ec/orders/basics/search-filter-orders
+permalink: "https://help.cyberbiz.io/ec/orders/basics/search-filter-orders/"
 comments: false
 search:
   exclude: false

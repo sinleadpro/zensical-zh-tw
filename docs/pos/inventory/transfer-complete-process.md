@@ -5,8 +5,6 @@ created: 2026-04-09 18:00
 last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: guide
-status: ""
-version: 1.0.0
 author: Ann
 reviewers: []
 notes: []
@@ -22,8 +20,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -39,13 +37,13 @@ features:
   - 調倉管理
   - 自動轉單
 prerequisites:
-  - [[調倉單]]
+  - "pos/inventory/transfer-orders"
 related: []
 tags:
   - 調倉流程
   - 跨店調撥
   - 庫存移轉
-  - POS_調倉
+  - POS 調倉
 acoiv: operation
 apis: []
 devices:
@@ -60,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3006
   - https://www.cyberbiz.io/support/?p=4825
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/inventory/transfer-complete-process/"
 comments: false
 search:
   exclude: false

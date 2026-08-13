@@ -285,10 +285,9 @@ copyright = """
             ] },
             { "期間限定首購禮" = "ec/marketing/bonus-and-gifts/limited-time-first-purchase-gift.md" },
             { "互動遊戲" = "ec/marketing/other-tools/interactive-games.md" },
-            { "一頁式商店與導購連結" = [
-                { "一頁式商店" = "ec/marketing/one-page-store/one-page-store.md" },
+            { "一頁式商店" = [
+                { "建立一頁式商店" = "ec/marketing/one-page-store/one-page-store.md" },
                 { "一頁式影片自動播放" = "ec/marketing/one-page-store/one-page-store-youtube-autoplay.md" },
-                { "預填商品導購連結" = "ec/marketing/one-page-store/create-cart-link-specific-products.md" },
             ] },
             { "指定條件贈送" = [
                 { "指定商品送優惠券" = "ec/marketing/conditional-send/send-coupons-for-specific-products.md" },
@@ -306,6 +305,7 @@ copyright = """
                 { "結帳優惠計算順序" = "ec/marketing/discounts/checkout-discount-calculation-order.md" },
                 { "優惠碼紅利到期通知" = "ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification.md" },
                 { "免運費設定" = "ec/marketing/free-shipping-settings.md" },
+                { "預填商品導購連結" = "ec/marketing/references/create-cart-link-specific-products.md" },
                 { "帳號狀態與購買權限對照表" = "ec/marketing/references/purchase-limit-account-status.md" }
             ] }
         ]},  
@@ -405,6 +405,7 @@ copyright = """
             ]},
             { "導覽選單" = [
                 { "選單與導覽列" = "ec/website-appearance/navigation/setup-menus-navigation.md" },
+                { "設定置頂公告" = "ec/website-appearance/navigation/setup-pinned-post.md" },
                 { "選單滑鼠移入自動展開" = "ec/website-appearance/navigation/setup-nav-menu-hover-expand.md" }
             ]},
             { "頁面與內容" = [
@@ -479,7 +480,14 @@ copyright = """
                 {"查看業績" = "ec/app-market/storepal/view-sales-performance.md"},
                 {"績效報表" = "ec/app-market/storepal/performance-reports.md"},
             ]},
-            {"CYBERBIZ EXPRESS 日到台宅配" = "ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery.md"},
+            {"CYBERBIZ EXPRESS " = [
+                {"日到台宅配" = "ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery.md"},
+                {"日到台日本郵局(EMS) " = "ec/app-market/express/cyberbiz-express-ems.md"},
+                {"日到台 7-11 超取" = "ec/app-market/express/cyberbiz-express-711.md"},
+                {"EZWAY 訂閱服務" = "ec/app-market/express/ezway.md"},
+                {"商品資訊設定" = "ec/app-market/express/product-info-setting.md"},
+                {"貨態追蹤與查詢" = "ec/app-market/express/order-tracking-and-query.md"},
+            ]},
             {"CYBERBIZ Meta Ads" = "ec/app-market/install-meta-ads-app.md"}
         ]},
         { "第三方整合" = [
@@ -764,7 +772,7 @@ copyright = """
         {"divider" = "divider"},
         { "商店管理" = [
             { "公告系統" = "pos/store/announcement-system.md" },
-            { "安全性設定" = "pos/store/security-settings.md" },
+            { "安全性設定" = "pos/store/pos-security-settings.md" },
             { "續購與加購方案" = "pos/store/renewal-and-add-on-plans.md" },
             { "POS 門市取貨店員分潤" = "pos/store/pos-store-pickup-staff-commission.md" },
         ]},
@@ -825,6 +833,7 @@ extra_javascript = [
     "javascripts/search-overlay-border.js",
     "javascripts/feature-tour.js",
     "javascripts/permalink-copy.js",
+    "javascripts/gtm-search-tracking.js",
 ]
 # ----------------------------------------------------------------------------
 # Section for configuring theme options

@@ -4,9 +4,7 @@ description: 了解如何執行門市商品盤點，並追蹤盤點進度與結�
 created: 2026-04-08 15:00
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -21,8 +19,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -36,16 +34,16 @@ intents:
   - 查看盤點報告
   - 處理盤盈盤虧
 features:
-  - POS_庫存盤點
+  - POS 庫存盤點
   - 庫存校正
   - 複盤功能
   - 盤點單管理
 prerequisites: []
 related:
-  - [[全通路庫存管理]]
+  - "pos/inventory/index"
 tags:
   - 庫存盤點
-  - POS_前台操作
+  - POS 前台操作
   - 庫存校正
   - 盤盈盤虧
   - 門市管理
@@ -61,11 +59,10 @@ ui_components:
 paths:
   - POS 前台 > 庫存 > 庫存盤點
   - POS 後台 > POS 功能 > 盤點單
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=39410
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/inventory/inventory-count/"
 comments: false
 search:
   exclude: false

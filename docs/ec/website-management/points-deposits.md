@@ -5,8 +5,6 @@ created: 2026-04-28 10:38
 last_modified: 2026-07-22 15:51
 lang: zh-TW
 type: guide
-status: ""
-version: ""
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -37,15 +35,15 @@ intents:
   - 查詢儲值紀錄
   - 匯出使用明細
 features:
-  - CYBER_幣儲值
+  - CYBER 幣儲值
   - 信用卡付款
   - 虛擬ATM轉帳
   - 簡訊計費
   - EDM計費
 prerequisites: []
 related:
-  - "[[manage-sms-templates-v2]]"
-  - "[[send-edm-newsletters-v2]]"
+  - "ec/notifications/manage-sms-templates-v2"
+  - "ec/notifications/send-edm-newsletters-v2"
 tags:
   - Cyber幣
   - 儲值中心
@@ -63,7 +61,7 @@ paths:
   - 管理中心 > 儲值中心
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/ec/website-management/points-deposits"
+permalink: "https://help.cyberbiz.io/ec/website-management/points-deposits/"
 comments: false
 search:
   exclude: false

@@ -4,9 +4,7 @@ description: 在網站版面放上會自動輪播的橫幅廣告，並為每張�
 created: 2026-06-10 15:31
 last_modified: 2026-06-30 11:01
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -39,10 +37,10 @@ features:
   - 排程跑馬燈
   - 橫幅廣告版位
   - 廣告檔期排程
-  - Liquid語法嵌入
+  - Liquid 樣板編輯
 prerequisites: []
 related:
-  - "[[theme-editor]]"
+  - "ec/website-appearance/theme-and-layout/theme-editor"
 tags:
   - 排程跑馬燈
   - 橫幅廣告
@@ -58,12 +56,12 @@ ui_components: []
 paths:
   - 網站外觀 > 排程跑馬燈設定
 layouts:
-  - 預設版型
-  - 拖拉版型
+  - classic
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5760
   - https://www.cyberbiz.io/support/?p=7863
-permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/configure-scheduled-carousels
+permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/configure-scheduled-carousels/"
 comments: false
 search:
   exclude: false

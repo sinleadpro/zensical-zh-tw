@@ -4,9 +4,7 @@ description: 透過網域信箱設定，您可以讓特定組織（如：企業�
 created: 2026-02-03 00:00
 last_modified: 2026-06-04 17:59
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -33,7 +31,7 @@ features:
   - 自動貼標
   - 網域限制
 prerequisites:
-  - [[需預先規劃欲使用的會員標籤名稱]]
+  - "需預先規劃欲使用的會員標籤名稱"
 related: []
 tags:
   - 員工團購
@@ -48,7 +46,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=11515
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/website-management/apply-member-tags-to-specific-email-domains/"
 comments: false
 search:
   exclude: false

@@ -4,9 +4,7 @@ description: 為了確保您的商店營運不中斷，您需要定期維護商�
 created: 2026-02-25 00:00
 last_modified: 2026-06-30 08:02
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -36,7 +34,7 @@ intents:
 features:
   - 方案續購
   - 自動續約
-  - SSL憑證
+  - SSL 憑證
 prerequisites: []
 related: []
 tags: []
@@ -54,7 +52,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9285
   - https://www.cyberbiz.io/support/?p=44090
   - https://www.cyberbiz.io/support/?p=46371
-permalink: https://help.cyberbiz.io/ec/website-management/renewal-and-auto-subscription
+permalink: "https://help.cyberbiz.io/ec/website-management/renewal-and-auto-subscription/"
 comments: false
 search:
   exclude: false

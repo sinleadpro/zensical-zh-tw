@@ -12,3 +12,10 @@ dependencies = [
     "tabulate>=0.10.0",
     "zensical>=0.0.42",
 ]
+
+[project.optional-dependencies]
+dev = [
+    "pre-commit>=4.0.0",
+    "python-frontmatter>=1.0.0",
+    "jsonschema>=4.0.0",
+]

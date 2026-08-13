@@ -4,10 +4,8 @@ description: 申請、設定與操作全家冷凍物流 B2C 服務。
 created:
 last_modified: 2026-07-08 12:30
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-family-mart-frozen-b2c
-type: tutorial
-status:
-version:
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-family-mart-frozen-b2c/"
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -28,7 +26,7 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions:
-  - PAYMENTS
+  - CYBERBIZ PAYMENTS
 intents:
   - 申請全家冷凍 B2C 物流服務
   - 設定全家冷凍 B2C 物流功能

@@ -4,9 +4,7 @@ description: 在電商倉儲中建立供應商資料，能讓商家更清晰地�
 created: 2026-03-16 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -52,7 +50,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7975
   - https://www.cyberbiz.io/support/?p=39949
-permalink: https://help.cyberbiz.io/wms/suppliers
+permalink: "https://help.cyberbiz.io/wms/suppliers/"
 comments: false
 search:
   exclude: false

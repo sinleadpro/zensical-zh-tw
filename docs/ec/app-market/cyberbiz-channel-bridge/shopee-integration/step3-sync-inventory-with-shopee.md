@@ -4,9 +4,7 @@ description: 透過建立商品關聯與開啟同步功能，您可以讓官網�
 created: 2026-02-26 00:00
 last_modified: 2026-06-27 13:40
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -39,8 +37,8 @@ features:
   - 庫存自動同步
   - 商品關聯管理
 prerequisites:
-  - [[Step 1 安裝與授權商店]]
-  - [[確認官網商品已具備唯一且正確的 SKU (商品編號)]]
+  - "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate"
+  - "確認官網商品已具備唯一且正確的 SKU (商品編號)"
 related: []
 tags: []
 acoiv: configure
@@ -55,7 +53,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12648
   - https://www.cyberbiz.io/support/?p=51142
-permalink: https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee
+permalink: "https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee/"
 comments: false
 search:
   exclude: false

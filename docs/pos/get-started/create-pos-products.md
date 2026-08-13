@@ -4,9 +4,7 @@ description: 了解如何將 EC 網站商品同步至 POS 商店，或為 POS �
 created: 2026-06-24 16:50
 last_modified: 2026-06-24 16:50
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -21,7 +19,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans: 
@@ -38,9 +36,9 @@ features:
   - POS 獨賣商品
   - 庫存管理
 prerequisites: 
-  - "[[所有商品-新增商品]]"
+  - "所有商品-新增商品"
 related: 
-  - "[[EXCEL大量匯入商品]]"
+  - "EXCEL大量匯入商品"
 tags: 
   - POS
   - 商品建立
@@ -58,7 +56,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=5138
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/get-started/create-pos-products/"
 search:
   exclude: false
 icon: lucide/package-plus

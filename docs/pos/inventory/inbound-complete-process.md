@@ -5,8 +5,6 @@ created: 2026-04-09 18:00
 last_modified: 2026-05-28 14:48
 lang: zh-TW
 type: guide
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -22,8 +20,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -40,13 +38,13 @@ features:
   - 庫存點收
   - 自動轉單
 prerequisites:
-  - [[進倉單]]
+  - "pos/inventory/inbound-orders"
 related: []
 tags:
   - 進倉流程
   - 庫存點收
   - 全通路管理
-  - POS_庫存
+  - POS 庫存
 acoiv: operation
 apis: []
 devices:
@@ -62,7 +60,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=2962
   - https://www.cyberbiz.io/support/?p=4623
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/inventory/inbound-complete-process/"
 comments: false
 search:
   exclude: false

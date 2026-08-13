@@ -4,9 +4,7 @@ description: 申請與安裝有線信用卡刷卡機，包含硬體轉接線選�
 created: 2026-03-25 17:45
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,8 +18,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -40,15 +38,15 @@ features:
   - 感應支付
   - 自動對帳
 prerequisites:
-  - [[設定 POS 商店與機台]]
+  - "設定 POS 商店與機台"
 related:
-  - [[商米無線刷卡機安裝教學]]
-  - [[POS LINE PAY 掃碼支付]]
+  - "商米無線刷卡機安裝教學"
+  - "POS LINE PAY 掃碼支付"
 tags:
   - 信用卡機
   - 台新金流
   - RS232
-  - POS_硬體
+  - POS 硬體
   - 刷卡結帳
 acoiv: configure
 apis: []
@@ -65,7 +63,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=4518
   - https://www.cyberbiz.io/support/?p=21480
   - https://www.cyberbiz.io/support/?p=51450
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/hardware/taishin-wired-credit-card-machine/"
 comments: false
 search:
   exclude: false

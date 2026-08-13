@@ -3,11 +3,9 @@ title: "SEO 設定與優化指南"
 description: "完整說明 SEO 設定功能，包含圖片 ALT 屬性、商品頁與分類頁 SEO、全站 Meta Tag 設定以及 Sitemap 提交與 301 轉址教學。"
 created: "2026-03-18 16:19"
 last_modified: 2026-06-26 14:53
-lang: "zh-TW"
-type: "guide"
-status: ""
-version: ""
-author: "Jase"
+lang: zh-TW
+type: guide
+author: Jase
 reviewers: []
 notes: []
 ga_views: 0
@@ -19,7 +17,7 @@ modules:
 sites:
   - "TW"
 audiences:
-  - "admin"
+  - merchant
 difficulty: ""
 tnb: "trunk"
 plans:
@@ -38,14 +36,14 @@ intents:
   - "商品頁_SEO"
 features:
   - "SEO"
-  - "Meta_Tag"
-  - "ALT_屬性"
+  - "Meta Tag"
+  - "ALT 屬性"
   - "Sitemap"
-  - "301_轉址"
+  - "301 轉址"
 prerequisites: []
 related:
-  - "[[submit-sitemap-to-gsc]]"
-  - "[[setup-301-redirects]]"
+  - "ec/website-management/seo/submit-sitemap-to-gsc"
+  - "ec/website-management/seo/setup-301-redirects"
 tags:
   - "SEO"
   - "Meta Tag"
@@ -63,7 +61,7 @@ layouts: []
 wp_url:
   - "https://www.cyberbiz.io/helpcenter/?p=3512"
   - "https://www.cyberbiz.io/support/?p=16944"
-permalink: "seo-guide"
+permalink: "https://help.cyberbiz.io/ec/website-management/seo/seo-guide/"
 comments: false
 search:
   exclude: false

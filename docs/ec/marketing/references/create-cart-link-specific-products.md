@@ -2,12 +2,10 @@
 title: 建立含指定商品的購物車連結
 description: 建立特殊的購物車連結，自動將預設商品與數量加入購物車，適用於社群導購、EDM 行銷等情境
 created: 2026-04-29 14:06
-last_modified: 2026-07-22 16:22
+last_modified: 2026-08-06 11:20
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -56,7 +54,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=2369
-permalink: https://help.cyberbiz.io/ec/marketing/one-page-store/create-cart-link-specific-products
+permalink: "https://help.cyberbiz.io/ec/marketing/references/create-cart-link-specific-products/"
 comments: ""
 search:
   exclude: false
@@ -78,7 +76,12 @@ hide:
     *   **EDM 快速下單**：在電子報中針對熱門組合加入連結，讓顧客一鍵完成加購。
     *   **分眾導流活動**：針對不同的會員受眾設定專屬的購物車內容，搭配行銷策略推廣。
 
-    !!! warning "在正式對外發布前，**請務必先自行測試網址**，確認點擊後是否能正確引導至購物車並載入指定的商品與數量。"
+
+## 使用須知
+
+- **適用範圍**：僅支援官網購物車連結，不適用於一頁式商店。
+
+!!! warning "在正式對外發布前，**請務必先自行測試網址**，確認點擊後是否能正確引導至購物車並載入指定的商品與數量。"
 
 ## 如何取得商品 ID 與款式 ID
                                

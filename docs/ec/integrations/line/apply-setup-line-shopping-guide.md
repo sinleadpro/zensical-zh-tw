@@ -4,9 +4,7 @@ description: 申請 LINE 購物導購並完成後台串接設定，將 LINE 購�
 created: 2026-03-13 10:46
 last_modified: 2026-07-02 10:38
 lang: zh-TW
-type: tutorial
-status:
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -32,7 +30,7 @@ intents:
   - 申請_LINE_購物導購
   - 設定_LINE_購物導購
 features:
-  - LINE_購物
+  - LINE 購物
 prerequisites: []
 related:
   - 匯出訂單報表
@@ -51,7 +49,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7462
   - https://www.cyberbiz.io/support/?p=36752
-permalink: https://help.cyberbiz.io/ec/integrations/line/apply-setup-line-shopping-guide
+permalink: "https://help.cyberbiz.io/ec/integrations/line/apply-setup-line-shopping-guide/"
 comments: false
 search:
   exclude: false

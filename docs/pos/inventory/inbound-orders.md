@@ -4,9 +4,7 @@ description: 管理商品撥入倉庫的單據，支援手動發起、接收出�
 created: 2026-04-09 18:00
 last_modified: 2026-07-27 17:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.2.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -22,8 +20,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -41,12 +39,12 @@ features:
   - 庫存點收
 prerequisites: []
 related:
-  - [[進倉完整流程]]
+  - "pos/inventory/inbound-complete-process"
 tags:
   - 進倉單
   - 庫存管理
   - 收貨清點
-  - POS_進倉
+  - POS 進倉
 acoiv: operation
 apis: []
 devices:
@@ -67,7 +65,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=4781
   - https://www.cyberbiz.io/support/?p=4799
   - https://www.cyberbiz.io/support/?p=4814
-permalink: https://help.cyberbiz.io/pos/inventory/inbound-orders
+permalink: "https://help.cyberbiz.io/pos/inventory/inbound-orders/"
 comments: false
 search:
   exclude: false

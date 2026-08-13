@@ -4,9 +4,7 @@ description: 了解當 POS 前台偵測到網路連線不穩或中斷時的系�
 created: 2026-03-25 17:00
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,8 +17,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -42,9 +40,9 @@ related: []
 tags:
   - 網路不穩
   - 斷線提示
-  - POS_前台
+  - POS 前台
   - 疑難排解
-  - Chrome_擴充套件
+  - Chrome 擴充套件
 acoiv: operation
 apis: []
 devices:
@@ -58,7 +56,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=27029
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/hardware/network-connection-exception-and-disconnection-prompts/"
 comments: false
 search:
   exclude: false

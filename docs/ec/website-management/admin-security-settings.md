@@ -18,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -64,6 +64,7 @@ paths:
   - 管理中心 > 安全性設定 > 管理員登入
 layouts: []
 wp_url:
+  - https://www.cyberbiz.io/helpcenter/?p=3214
   - https://www.cyberbiz.io/support/?p=14334
   - https://www.cyberbiz.io/support/?p=472
 comments: false

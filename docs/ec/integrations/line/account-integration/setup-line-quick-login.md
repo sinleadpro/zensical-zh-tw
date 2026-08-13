@@ -4,10 +4,8 @@ description: 啟用 LINE 快速登入，簡化會員註冊流程，整合官方�
 created: 2026-02-16 00:00
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-line-quick-login
-type: tutorial
-status: ""
-version: ""
+permalink: "https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-line-quick-login/"
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,8 +17,8 @@ modules:
   - 第三方整合
 sites: []
 audiences:
-  - admin
-difficulty: medium
+  - merchant
+difficulty: intermediate
 tnb: trunk
 plans:
   - 專業

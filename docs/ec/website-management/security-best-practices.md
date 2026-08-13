@@ -5,9 +5,7 @@ created: 2026-06-09 17:07
 last_modified: 2026-08-05 17:29
 lang: zh-TW
 type: guide
-status: ""
-version: ""
-author: Ann
+author: Jase
 reviewers: []
 notes: []
 ga_views: 0
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -36,7 +34,7 @@ intents:
   - 了解資安事件應變流程
 features:
   - 二階段驗證
-  - IP_白名單
+  - IP 白名單
   - reCAPTCHA
   - 會員註冊簡訊機器人防護
   - Cookie_驗證_IP_白名單
@@ -44,13 +42,13 @@ features:
   - 會員個資部分隱碼
   - 訪問限制地區黑名單
   - 網站密碼
-  - 信用卡_3D_驗證
-  - SSL_安全性憑證
+  - 信用卡 3D 驗證
+  - SSL 憑證
 prerequisites: []
 related:
-  - "[[保護後台帳號與顧客資料]]"
-  - "[[setup-credit-card-3d-verification]]"
-  - "[[setup-right-click-protection]]"
+  - "ec/website-management/admin-security-settings"
+  - "ec/payments-and-logistics/setup-credit-card-3d-verification"
+  - "ec/website-appearance/site-settings/setup-right-click-protection"
 tags:
   - 資安防護
   - 二階段驗證
@@ -73,7 +71,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3549
   - https://www.cyberbiz.io/support/?p=14216
-permalink: https://help.cyberbiz.io/ec/website-management/security-best-practices
+permalink: "https://help.cyberbiz.io/ec/website-management/security-best-practices/"
 comments: false
 search:
   exclude: false

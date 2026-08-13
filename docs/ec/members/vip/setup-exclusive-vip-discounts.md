@@ -4,9 +4,7 @@ description: 設定 VIP 會員專屬折扣、紅利獎勵與差異化定價，�
 created: 2026-01-23 00:00
 last_modified: 2026-07-14 17:10
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -54,7 +52,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7498
   - https://www.cyberbiz.io/support/?p=12426
-permalink: https://help.cyberbiz.io/ec/members/vip/setup-exclusive-vip-discounts
+permalink: "https://help.cyberbiz.io/ec/members/vip/setup-exclusive-vip-discounts/"
 comments: false
 search:
   exclude: false

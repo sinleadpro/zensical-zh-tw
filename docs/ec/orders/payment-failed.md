@@ -4,9 +4,7 @@ description: 訂單付款失敗時，商家可採取的處理方式，包含引�
 created: 2026-06-08 13:52
 last_modified: 2026-07-09 15:31
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -44,19 +42,19 @@ features:
   - 定期定額重新扣款
   - AFTEE 先享後付
   - 信用卡 3D 驗證
-  - 美安 Shop.com 導購
+  - 美安 shop.com
 prerequisites: []
 related:
-  - "[[provide-payment-link]]"
-  - "[[unpaid-reminder-settings]]"
-  - "[[manage-email-templates]]"
-  - "[[manage-sms-templates-v2]]"
-  - "[[auto-close-order-settings]]"
-  - "[[cancel-order]]"
-  - "[[定期定額活動頁]]"
-  - "[[setup-aftee]]"
-  - "[[setup-credit-card-3d-verification]]"
-  - "[[payment-statuses]]"
+  - "ec/orders/order-settings/provide-payment-link"
+  - "ec/orders/order-settings/unpaid-reminder-settings"
+  - "ec/notifications/manage-email-templates"
+  - "ec/notifications/manage-sms-templates-v2"
+  - "ec/orders/order-settings/auto-close-order-settings"
+  - "ec/orders/basics/cancel-order"
+  - "定期定額活動頁"
+  - "ec/payments-and-logistics/setup-aftee"
+  - "ec/payments-and-logistics/setup-credit-card-3d-verification"
+  - "ec/orders/references/payment-statuses"
 tags:
   - 付款失敗
   - 重新付款
@@ -85,7 +83,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=2402
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/payment-failed/"
 comments: false
 search:
   exclude: false

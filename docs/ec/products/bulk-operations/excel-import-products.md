@@ -4,9 +4,7 @@ description: 使用 Excel 範本一次新增或更新大量商品、批次上架
 created: 2026-01-08 00:00
 last_modified: 2026-07-22 17:26
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -21,7 +19,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -33,7 +31,6 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions: []
-feature_badges: []
 intents:
   - 如何使用 Excel 大量匯入商品
   - 批次上架商品
@@ -63,7 +60,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=1960
   - https://www.cyberbiz.io/support/?p=33323
   - https://www.cyberbiz.io/support/?p=6603
-permalink: https://help.cyberbiz.io/ec/products/bulk-operations/excel-import-products
+permalink: "https://help.cyberbiz.io/ec/products/bulk-operations/excel-import-products/"
 comments: false
 search:
   exclude: false

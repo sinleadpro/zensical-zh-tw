@@ -5,8 +5,6 @@ created: "2026-03-16 15:22"
 last_modified: 2026-07-14 17:10
 lang: zh-TW
 type: reference
-status: ""
-version: ""
 author: Jase
 reviewers: []
 notes: []
@@ -18,7 +16,7 @@ modules: []
 sites:
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: ""
 tnb: ""
 plans: 
@@ -44,10 +42,10 @@ layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=1209
   - https://www.cyberbiz.io/support/?p=2881
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/website-management/references/admin-permissions-menu-reference/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table-properties
 hide:
 ---

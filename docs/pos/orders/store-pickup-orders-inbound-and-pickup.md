@@ -4,13 +4,10 @@ description: 瞭解如何在 POS 前台處理官網訂單的包裹到店入庫�
 created: 2026-04-27 14:15
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
-aliases: []
 ga_views: 0
 feedback: 0
 products:
@@ -20,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - clerk
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -33,16 +30,16 @@ intents:
   - 辦理客戶到店取貨
   - 處理逾期未取訂單
 features:
-  - POS_門市取貨
+  - POS 門市取貨
   - 下載到店條碼
   - 包裹入庫
   - 會員條碼取貨
 prerequisites:
-  - [[門市取貨訂單出貨]]
+  - "ec/orders/store-pickup-orders"
 related:
-  - [[POS 門市取貨店員分潤]]
+  - "pos/store/pos-store-pickup-staff-commission"
 tags:
-  - POS_門市取貨
+  - POS 門市取貨
   - 到店入庫
   - 客戶取貨
   - 逾期處理
@@ -58,11 +55,10 @@ ui_components:
   - 申請退貨
 paths:
   - POS 前台 > 訂單 > 門市取貨訂單
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=10488
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/orders/store-pickup-orders-inbound-and-pickup/"
 comments: false
 search:
   exclude: false

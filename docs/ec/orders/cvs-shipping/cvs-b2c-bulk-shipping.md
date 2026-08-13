@@ -4,9 +4,7 @@ description: 於訂單列表批次下載託運單、產生託運單號，並將�
 created: 2026-05-25 20:35
 last_modified: 2026-07-01 12:30
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -38,9 +36,9 @@ features:
   - B2C 大宗寄倉
   - 託運單批次下載
 prerequisites:
-  - "[[setup-cvs-b2c-bulk-shipping]]"
+  - "ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping"
 related:
-  - "[[cvs-b2c-channel-spec-reference]]"
+  - "ec/payments-and-logistics/references/cvs-b2c-channel-spec-reference"
 tags:
   - 超商大宗寄倉
   - B2C 出貨
@@ -58,7 +56,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=122
   - https://www.cyberbiz.io/support/?p=977
-permalink: https://help.cyberbiz.io/ec/orders/cvs-shipping/cvs-b2c-bulk-shipping
+permalink: "https://help.cyberbiz.io/ec/orders/cvs-shipping/cvs-b2c-bulk-shipping/"
 comments: false
 search:
   exclude: false

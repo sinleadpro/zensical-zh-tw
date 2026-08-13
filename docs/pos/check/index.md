@@ -4,9 +4,7 @@ description: 掌握 CYBERBIZ 智能 POS 的完整結帳流程，包含會員登�
 created: 2026-04-17 12:30
 last_modified: 2026-07-27 14:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.2
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - clerk
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -60,7 +58,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=5012
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/check/"
 comments: false
 search:
   exclude: false
@@ -257,6 +255,10 @@ graph LR
     - :lucide-plug:{ .lg }
     [__建立優惠券__](../../ec/marketing/coupon/setup-coupons.md)<br>
     管理優惠券，自動套用或供顧客選取。
+
+    - :lucide-plug:{ .lg }
+    [__設定多優惠券__](../../ec/marketing/coupon/multiple-coupons.md)<br>
+    開放單筆訂單併用多張優惠券，提升結帳折抵彈性。
 
     - :lucide-plug:{ .lg }
     [__建立推薦人分潤__](../../ec/profit-sharing/referrer-profit-sharing.md)<br>

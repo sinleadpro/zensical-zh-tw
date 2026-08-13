@@ -4,12 +4,10 @@ description: 設定交易金額門檻以決定何時觸發 3D 驗證
 created: 2026-01-26 00:00
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
-notes:
+notes: []
 ga_views: 0
 feedback: 0
 products:
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -31,7 +29,7 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions:
-  - PAYMENTS
+  - CYBERBIZ PAYMENTS
 intents:
   - 如何設定 3D 驗證門檻
   - 信用卡安全設定
@@ -60,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6844
   - https://www.cyberbiz.io/support/?p=5450
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-credit-card-3d-verification
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-credit-card-3d-verification/"
 comments: false
 search:
   exclude: false

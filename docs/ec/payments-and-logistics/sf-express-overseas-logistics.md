@@ -2,11 +2,9 @@
 title: 順豐海外物流
 description: 透過 CYBERBIZ 後台整合順豐海外物流，您可以直接產出跨境託運單，並依據收件地址自動切換中英文格式。
 created: 2026-03-05 00:00
-last_modified: 2026-07-03 10:50
+last_modified: 2026-08-10 11:20
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -21,7 +19,7 @@ sites:
   - US
   - JP
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -58,7 +56,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11280
   - https://www.cyberbiz.io/support/?p=8060
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/sf-express-overseas-logistics
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/sf-express-overseas-logistics/"
 comments: false
 search:
   exclude: false
@@ -80,12 +78,12 @@ hide: []
 ## 使用須知
 
 - **支援站點**：主要為台灣出貨至中港澳及國際地區。可運送的國家可能會因應國際情勢而有所異動，任何異動可參考 [收寄件資訊查詢](https://htm.sf-express.com/tw/tc/dynamic_function/range/)。
+- **前提條件**：若想配送 **中港澳以外地區**，需搭配 **多國** 功能方可使用，如有需求可洽 CYBERBIZ 客服。
 - **寄件規範與文件**：各個國家寄件標準，以及需要提供的文件，請詳閱 [順豐官網](https://htm.sf-express.com/tw/tc/dynamic_function/accept/)，或是聯繫順豐客服412-8830(手機加02)。
     - **特殊文件審核**：若出口品項需要提供 **產品分類表** 和 **MSDS** 等文件，可以在出貨前 1~2天 Email 至順豐客服信箱 twsf@sf-express.com。順豐人員審核完成後，若於信件回覆可以，請商家於出貨時將文件和包裹一起給司機。
     - **澳門地區特別規範**：寄往澳門的商品，若非准照所載貨物，或超出准照所載數量的貨物，商家必須自行向澳門衛生局取得 [產品分類表](https://www.gov.mo/zh-hant/services/ps-1574/ps-1574a/) 證明該貨物 **非藥物**，始得委託物流業者進口。
 - **配送時效**：約 D+1~3（不含假日），具體依地區而異，詳情可參考 [國際標準快遞時效查詢](https://htm.sf-express.com/tw/en/dynamic_function/price/time_internal.html)。
 - **最新資訊**：最新規範請以順豐官網公告為準。
-- **前提條件**：此功能需搭配多國功能方可使用，如有需求可洽 CYBERBIZ 客服。
 
 
 ## 前置設定

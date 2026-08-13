@@ -4,9 +4,7 @@ description: 設定網站的選單、導覽列與頁腳。
 created: 2026-02-03 17:00
 last_modified: 2026-07-22 15:49
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -44,10 +42,10 @@ features:
   - 頁腳選單與外觀設定
   - 多國語系選單編輯
 prerequisites:
-  - "[[create-update-products]]"
+  - "ec/products/create-and-manage/create-update-products"
 related:
-  - "[[setup-nav-menu-hover-expand]]"
-  - "[[設定首頁商品群組排序]]"
+  - "ec/website-appearance/navigation/setup-nav-menu-hover-expand"
+  - "ec/website-appearance/theme-and-layout/storefront-collection-sorting"
 tags:
   - 網站選單
   - 導覽列設定
@@ -70,7 +68,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11200
   - https://www.cyberbiz.io/support/?p=19955
-permalink: https://help.cyberbiz.io/ec/website-appearance/navigation/setup-menus-navigation
+permalink: "https://help.cyberbiz.io/ec/website-appearance/navigation/setup-menus-navigation/"
 search:
   exclude: false
 icon: lucide/menu
@@ -189,6 +187,13 @@ comments: false
 ---
 
 #### 置頂公告
+
+!!! tip "功能改版過渡說明"
+    **置頂公告** 已改為獨立設定頁，不再內嵌於導覽列；新版正陸續開放中。請依後台畫面選擇教學：
+
+    - **導覽列內仍可見置頂公告設定**：您使用的是原版，請依本頁說明操作。
+    - **導覽列內已無此設定**：站台已改版，請改至 [新版置頂公告設定教學](setup-pinned-post.md)。
+
 
 顯示於網站最上方的公告橫幅，可設定為圖片或文字，並支援上下架時間與倒數計時。
 

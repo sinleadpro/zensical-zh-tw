@@ -4,9 +4,7 @@ description: 設定新竹物流託運單完整教學，包含寄件人資訊設�
 created: 2026-05-22 17:28
 last_modified: 2026-07-07 14:22
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -42,12 +40,12 @@ features:
   - 逆物流
   - 單號使用紀錄
 prerequisites:
-  - "[[home-delivery-cash-on-delivery#2-新竹物流]]"
+  - "ec/payments-and-logistics/home-delivery-cash-on-delivery"
   - 領取新竹物流託運貼紙
   - 了解 Cyber 幣扣費方式
 related:
-  - "[[hct-shipping-v2]]"
-  - "[[setup-store-basic-info]]"
+  - "ec/orders/home-delivery/hct-shipping-v2"
+  - "ec/website-management/setup-store-basic-info"
 tags:
   - 新竹物流
   - 託運單
@@ -64,7 +62,7 @@ paths:
   - 金物流 > 新竹物流託運單
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-hct-waybill-v2
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-hct-waybill-v2/"
 comments: false
 search:
   exclude: false

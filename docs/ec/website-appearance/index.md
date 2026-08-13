@@ -1,6 +1,11 @@
 ---
+author: ""
+reviewers: []
+products: [EC]
+notes: []
 title: 網站外觀
 description: 透過拖拉版型、選單設定與程式碼自訂，打造品牌專屬的官網風格。
+lang: zh-TW
 icon: lucide/store
 permalink: "https://help.cyberbiz.io/ec/website-appearance/"
 hide:

@@ -4,9 +4,7 @@ description: 了解 CYBERBIZ POS 與星益欣電子發票的串接流程，包�
 created: 2026-06-10 17:50
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans: 
@@ -57,7 +55,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=46379
-permalink: https://help.cyberbiz.io/pos/third-party/wixtar-e-invoice
+permalink: "https://help.cyberbiz.io/pos/third-party/wixtar-e-invoice/"
 search:
   exclude: false
 icon: lucide/receipt

@@ -4,9 +4,7 @@ description: 一頁式商店將商品資訊、特色介紹與結帳流程整合�
 created: 2026-02-11 00:00
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -21,7 +19,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -36,7 +34,7 @@ features:
   - 一頁式商店
   - 網頁鎖右鍵
 prerequisites:
-  - [[需準備欲推廣的商品與活動圖文素材]]
+  - "需準備欲推廣的商品與活動圖文素材"
 related: []
 tags:
   - 轉單優化
@@ -55,7 +53,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2076
   - https://www.cyberbiz.io/support/?p=1701
-permalink: https://help.cyberbiz.io/ec/marketing/one-page-store/one-page-store
+permalink: "https://help.cyberbiz.io/ec/marketing/one-page-store/one-page-store/"
 comments: false
 search:
   exclude: false
@@ -275,6 +273,8 @@ hide: []
 - **推薦碼後綴格式**：`?rcode=[推薦碼]`
 - **推薦碼**： `abc123`
 - **最終連結**：`https://store.com/events/spring-sale?rcode=abc123`
+
+> :lucide-info: [查詢分潤夥伴的推薦碼](../../profit-sharing/query-profit-sharing-partners-and-codes/#任務四一鍵複製推薦碼)
 
 ### 2. 新增頁面鎖右鍵功能
 

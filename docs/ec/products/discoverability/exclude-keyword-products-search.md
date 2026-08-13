@@ -1,13 +1,11 @@
 ---
 title: 設定搜尋結果中排除特定關鍵字商品
 description: 透過修改 Liquid 模板語法，在官網搜尋結果中排除特定關鍵字商品。
-created: 2026-02-25
+created: 2026-02-25 00:00
 last_modified: 2026-06-30 11:26
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/products/discoverability/exclude-keyword-products-search
-type: tutorial
-status: ""
-version: ""
+permalink: "https://help.cyberbiz.io/ec/products/discoverability/exclude-keyword-products-search/"
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -59,7 +57,7 @@ paths:
   - 網站外觀 > 套版主題管理
   - 商品 > 所有商品
 layouts:
-  - 預設版型
+  - classic
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3852
 search:

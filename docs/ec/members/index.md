@@ -1,12 +1,17 @@
 ---
+author: ""
+reviewers: []
 title: 會員管理
 description: 管理會員資料、等級與互動，提升會員體驗與忠誠度。
+lang: zh-TW
 icon: lucide/user
 hide:
   - toc
   - feedback
+products: [EC]
 notes:
   - 會員系統設定 link
+permalink: "https://help.cyberbiz.io/ec/members/"
 ---
 
 # 會員管理

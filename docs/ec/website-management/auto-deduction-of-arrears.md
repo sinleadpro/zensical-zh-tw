@@ -4,9 +4,7 @@ description: 使用 CYBERBIZ PAYMENTS 金流服務時，若當期帳單餘額為
 created: 2026-06-01 15:54
 last_modified: 2026-06-26 16:29
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: []
@@ -32,7 +30,7 @@ intents:
 features: 
   - 欠款自動扣繳
   - 對帳中心
-  - CYBERBIZ_PAYMENTS
+  - CYBERBIZ PAYMENTS
 prerequisites: 
   - "需開通 CYBERBIZ PAYMENTS 金流服務"
 related: []
@@ -54,7 +52,7 @@ layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=969
   - https://www.cyberbiz.io/support/?p=46501
-permalink:
+permalink: "https://help.cyberbiz.io/ec/website-management/auto-deduction-of-arrears/"
 comments: false
 search:
   exclude: false

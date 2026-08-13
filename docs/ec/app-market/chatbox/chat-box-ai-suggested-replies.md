@@ -4,9 +4,7 @@ description: 透過 AI 助手自動學習您的品牌政策與商品資訊，為
 created: 2026-05-28 12:10
 last_modified: 2026-05-28 12:08
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -35,15 +33,15 @@ intents:
   - AI_自動回覆建議
   - 提升客服效率
 features:
-  - Chat_Box
-  - AI_建議回覆
+  - Chat Box
+  - AI 建議回覆
   - 知識庫管理
 prerequisites:
-  - "[[Chat Box 訊息通]]"
+  - "ec/app-market/chatbox/index"
 related:
-  - "[[Chat Box 串接第三方平台 (LINE•Meta)]]"
-  - "[[LINE 訊息格式規範]]"
-  - "[[Meta 訊息格式規範]]"
+  - "Chat Box 串接第三方平台 (LINE•Meta)"
+  - "ec/app-market/chatbox/line-message-format-spec"
+  - "ec/app-market/chatbox/meta-message-format-spec"
 tags:
   - AI
   - 客服助手
@@ -64,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12968
   - https://www.cyberbiz.io/support/?p=53089
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/chatbox/chat-box-ai-suggested-replies/"
 comments: false
 search:
   exclude: false

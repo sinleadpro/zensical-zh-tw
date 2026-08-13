@@ -5,8 +5,6 @@ created: 2026-01-23 00:00
 last_modified: 2026-06-30 12:30
 lang: zh-TW
 type: guide
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -49,7 +47,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7505
   - https://www.cyberbiz.io/support/?p=11860
-permalink: https://help.cyberbiz.io/ec/members/vip
+permalink: "https://help.cyberbiz.io/ec/members/vip/"
 comments: false
 search:
   exclude: false

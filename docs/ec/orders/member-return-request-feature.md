@@ -4,9 +4,7 @@ description: 學習如何開啟前台退貨申請功能，包含全單退貨與�
 created: 2026-02-23 00:00
 last_modified: 2026-06-04 17:59
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: []
@@ -33,7 +31,7 @@ features:
   - 部分退貨
 prerequisites: []
 related:
-  - [[訂單退貨流程]]
+  - "ec/orders/order-return-process"
 tags:
   - 會員退貨流程
   - 售後服務
@@ -50,7 +48,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=51897
   - https://www.cyberbiz.io/support/?p=47627
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/member-return-request-feature/"
 comments: false
 search:
   exclude: false

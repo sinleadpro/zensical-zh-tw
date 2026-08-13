@@ -4,10 +4,8 @@ description: 設定預設版型商品的色票與款式圖片，讓消費者能�
 created: 2026-04-17 10:50
 last_modified: 2026-06-30 11:26
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -40,9 +38,9 @@ features:
   - 款式圖片
   - 預設版型
 prerequisites:
-  - "[[新增與更新商品#基本設定]]"
+  - "新增與更新商品#基本設定"
 related:
-  - "[[product-swatches-variant-images-drag-drop]]"
+  - "ec/products/create-and-manage/product-swatches-variant-images-drag-drop"
 tags:
   - 色票
   - 款式圖片
@@ -59,11 +57,11 @@ paths:
   - 商品 > 所有商品
   - 網站外觀 > 套版主題管理 > 網站設定 > 商品群組與商品頁設定 > 商品頁設定
 layouts:
-  - 預設版型
+  - classic
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=958
   - https://www.cyberbiz.io/support/?p=2018
-permalink: https://help.cyberbiz.io/ec/products/create-and-manage/product-swatches-variant-images-default
+permalink: "https://help.cyberbiz.io/ec/products/create-and-manage/product-swatches-variant-images-default/"
 comments: false
 search:
   exclude: false

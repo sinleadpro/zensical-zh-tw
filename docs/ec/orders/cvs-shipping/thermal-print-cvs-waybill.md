@@ -4,10 +4,8 @@ description: 使用超商熱感列印功能列印 A6 託運單
 created:
 last_modified: 2026-07-07 13:59
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/orders/cvs-shipping/thermal-print-cvs-waybill
-type: tutorial
-status:
-version:
+permalink: "https://help.cyberbiz.io/ec/orders/cvs-shipping/thermal-print-cvs-waybill/"
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -25,7 +23,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -44,7 +42,7 @@ features:
   - A6尺寸
   - 7-11 物流
   - 全家物流
-  - B2C大宗寄倉
+  - B2C 大宗寄倉
   - C2C店到店
   - 黑貓快速到店
 prerequisites:

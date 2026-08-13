@@ -5,8 +5,6 @@ created: 2026-06-23 16:00
 last_modified: 2026-06-23 18:47
 lang: zh-TW
 type: reference
-status: ""
-version: ""
 author: Jase
 reviewers: []
 notes: []
@@ -18,17 +16,16 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: ""
 plans: []
 cyb_extensions: []
-feature_badges: []
 intents: []
 features: []
 prerequisites: []
 related:
-  - "[[pos-revenue-analysis]]"
+  - "pos/business-intelligence/pos-revenue-analysis"
 tags:
   - POS
   - 營收分析

@@ -4,9 +4,7 @@ description: 當會員提出退貨申請或商家需手動啟動退貨程序時�
 created: 2026-02-23 00:00
 last_modified: 2026-06-04 17:59
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans: []
@@ -32,9 +30,9 @@ features:
   - 訂單退貨
   - 逆物流
 prerequisites:
-  - [[設定與管理會員退貨申請]]
+  - "設定與管理會員退貨申請"
 related:
-  - [[訂單退款流程]]
+  - "ec/orders/order-refund-process"
 tags:
   - 售後服務
   - 逆物流
@@ -57,7 +55,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=1756
   - https://www.cyberbiz.io/support/?p=1758
   - https://www.cyberbiz.io/support/?p=51896
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/order-return-process/"
 comments: false
 search:
   exclude: false

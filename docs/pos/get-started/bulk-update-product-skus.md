@@ -5,8 +5,6 @@ created: 2026-06-24 17:25
 last_modified: 2026-06-24 17:25
 lang: zh-TW
 type: guide
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans: 
@@ -37,10 +35,10 @@ features:
   - SKU 管理
   - POS 串接
 prerequisites: 
-  - "[[所有商品-新增商品]]"
+  - "所有商品-新增商品"
 related: 
-  - "[[EXCEL大量匯入商品]]"
-  - "[[建立 POS 商品]]"
+  - "EXCEL大量匯入商品"
+  - "pos/get-started/create-pos-products"
 tags: 
   - SKU
   - 批次更新
@@ -59,7 +57,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=3296
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/get-started/bulk-update-product-skus/"
 search:
   exclude: false
 icon: lucide/file-spreadsheet

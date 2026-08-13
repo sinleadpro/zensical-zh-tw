@@ -4,9 +4,7 @@ description: 管理商品從目前倉庫撥出的單據，支援手動發起、�
 created: 2026-04-09 18:00
 last_modified: 2026-07-27 17:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.2.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -22,8 +20,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -41,12 +39,12 @@ features:
   - 出倉單
 prerequisites: []
 related:
-  - [[出倉完整流程]]
+  - "pos/inventory/outbound-complete-process"
 tags:
   - 出倉單
   - 庫存管理
   - 全通路庫存
-  - POS_出倉
+  - POS 出倉
 acoiv: operation
 apis: []
 devices:
@@ -64,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=2962
   - https://www.cyberbiz.io/support/?p=4623
-permalink: https://help.cyberbiz.io/pos/inventory/outbound-orders
+permalink: "https://help.cyberbiz.io/pos/inventory/outbound-orders/"
 comments: false
 search:
   exclude: false

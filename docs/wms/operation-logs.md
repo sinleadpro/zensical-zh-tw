@@ -4,9 +4,7 @@ description: 「操作紀錄列表」記錄所有使用者在電商倉儲後台�
 created: 2026-03-19 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -47,7 +45,7 @@ paths:
   - 操作紀錄列表
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/wms/operation-logs
+permalink: "https://help.cyberbiz.io/wms/operation-logs/"
 comments: false
 search:
   exclude: false

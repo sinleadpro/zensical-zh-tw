@@ -4,9 +4,7 @@ description: 透過 AFTEE 先享後付提供顧客快速便利的付款方式，
 created: 2026-01-26 00:00
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -31,7 +29,7 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions:
-  - PAYMENTS
+  - CYBERBIZ PAYMENTS
 intents:
   - 如何設定 AFTEE
   - 如何設定先享後付
@@ -59,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6847
   - https://www.cyberbiz.io/support/?p=5525
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-aftee
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-aftee/"
 comments: false
 search:
   exclude: false

@@ -4,10 +4,8 @@ description: 透過圖表總覽在單一頁面掌握網路商店與實體門市�
 created: 2026-06-15 10:01
 last_modified: 2026-07-22 17:05
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: branch
 plans:
@@ -62,10 +60,10 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2974
   - https://www.cyberbiz.io/support/?p=8275
-permalink: https://help.cyberbiz.io/ec/business-intelligence/business-intelligence-overview
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/business-intelligence-overview/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/gauge
 hide:
 ---

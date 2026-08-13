@@ -4,9 +4,7 @@ description: 串接物流訂單出貨後，系統如何依物流貨態自動顯�
 created:
 last_modified: 2026-06-30 10:54
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -22,7 +20,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -57,11 +55,11 @@ devices:
 ui_components: []
 paths: []
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12005
   - https://www.cyberbiz.io/support/?p=48029
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/shipping-status-tooltip
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/shipping-status-tooltip/"
 comments: false
 search:
   exclude: false

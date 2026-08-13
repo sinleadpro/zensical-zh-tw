@@ -4,9 +4,7 @@ description: 透過將不同群組商品進行組合（如 A 群組 + B 群組�
 created: 2026-01-21 00:00
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -35,7 +33,7 @@ features:
   - 紅配綠多組合優惠
   - 組合優惠
 prerequisites:
-  - [[需先準備好欲參與活動的商品]]
+  - "需先準備好欲參與活動的商品"
 related: []
 tags:
   - 多國
@@ -51,7 +49,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8226
   - https://www.cyberbiz.io/support/?p=23847
   - https://www.cyberbiz.io/support/?p=7378
-permalink: https://help.cyberbiz.io/ec/marketing/discounts/red-and-green-bundle-discounts
+permalink: "https://help.cyberbiz.io/ec/marketing/discounts/red-and-green-bundle-discounts/"
 comments: false
 search:
   exclude: false

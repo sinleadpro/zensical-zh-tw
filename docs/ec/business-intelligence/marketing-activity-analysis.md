@@ -1,12 +1,10 @@
 ---
 title: 行銷活動分析
 description: 一次掌握折扣、優惠券與紅利的成效，了解哪些行銷活動真正帶動訂單與營收
-created: 2026-06-16
+created: 2026-06-16 00:00
 last_modified: 2026-07-12 19:37
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -29,7 +27,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 查看行銷活動成效
   - 分析折扣活動與優惠券表現
@@ -44,8 +41,8 @@ features:
 prerequisites:
   - 方案已包含行銷活動分析功能
 related:
-  - "[[設定紅利點數]]"
-  - "[[設定優惠碼]]"
+  - "ec/marketing/bonus-and-gifts/setup-bonus-points"
+  - "ec/marketing/coupon/setup-promo-codes"
 tags:
   - 行銷活動分析
   - 折扣活動
@@ -71,7 +68,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5056
   - https://www.cyberbiz.io/helpcenter/?p=8101
-permalink: https://help.cyberbiz.io/ec/business-intelligence/marketing-activity-analysis
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/marketing-activity-analysis/"
 comments: false
 search:
   exclude: false

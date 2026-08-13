@@ -1,12 +1,10 @@
 ---
 title: 基準化分析
 description: 透過 AI 機器學習比對同業基準，找出商店流量、轉換率、客單價、回購率的優化方向。
-created: 2026-06-15
+created: 2026-06-15 00:00
 last_modified: 2026-07-09 17:42
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,13 +17,12 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 進行基準化分析
   - 比對同業經營數據
@@ -42,8 +39,8 @@ prerequisites:
   - 方案為企業版
   - 所屬產業為支援類別
 related:
-  - "[[圖表總覽]]"
-  - "[[基準參考範圍狀態對照表]]"
+  - "ec/business-intelligence/business-intelligence-overview"
+  - "ec/business-intelligence/references/benchmark-reference-range-status-reference"
 tags:
   - 基準化分析
   - AI 機器學習

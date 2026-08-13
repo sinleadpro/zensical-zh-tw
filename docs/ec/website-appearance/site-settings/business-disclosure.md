@@ -4,10 +4,8 @@ description: 在 CYBERBIZ 後台完成公司資料填寫，並於官網頁腳揭
 created: 2026-06-22 10:00
 last_modified: 2026-07-03 00:00
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -31,7 +29,6 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions: []
-feature_badges: []
 intents:
   - 揭露營業人名稱與統一編號
   - 設定頁腳統一編號
@@ -43,7 +40,7 @@ features:
 prerequisites:
   - 已套用並發布官網主題
 related:
-  - "[[setup-cookie-consent-banner]]"
+  - "ec/website-appearance/code-customization/setup-cookie-consent-banner"
 tags:
   - 營業人名稱
   - 統一編號
@@ -62,12 +59,12 @@ paths:
   - 網站外觀 > 套版主題管理
   - 網站外觀 > 套版主題管理 > 網站設定
 layouts:
-  - 預設版型
-  - 拖拉版型
+  - classic
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6773
   - https://www.cyberbiz.io/support/?p=36327
-permalink: https://help.cyberbiz.io/ec/website-appearance/site-settings/business-disclosure
+permalink: "https://help.cyberbiz.io/ec/website-appearance/site-settings/business-disclosure/"
 comments: false
 search:
   exclude: false

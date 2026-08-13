@@ -5,8 +5,6 @@ created: 2026-01-20 00:00
 last_modified: 2026-07-22 17:25
 lang: zh-TW
 type: guide
-status:
-version:
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -36,7 +34,7 @@ intents:
   - 電子票券管理
 features:
   - 電子票券
-  - QR_Code
+  - QR Code
   - 核銷
 prerequisites:
   - 新版物流
@@ -61,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5807
   - https://www.cyberbiz.io/support/?p=23413
-permalink: https://help.cyberbiz.io/ec/e-ticket/e-ticket-setup-guide
+permalink: "https://help.cyberbiz.io/ec/e-ticket/e-ticket-setup-guide/"
 comments: false
 search:
   exclude: false

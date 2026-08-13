@@ -4,9 +4,7 @@ description: 透過單一介面整合多渠道訊息，即時掌握顧客背景�
 created: 2026-05-28 11:45
 last_modified: 2026-07-13 11:45
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans: 
@@ -35,16 +33,16 @@ intents:
   - 查看會員訂單
   - 跨平台客服
 features: 
-  - Chat_Box
+  - Chat Box
   - 訊息整合
-  - AI_建議回覆
+  - AI 建議回覆
   - 會員資料同步
 prerequisites: 
-  - "[[Chat Box 串接第三方平台 (LINE•Meta)]]"
+  - "Chat Box 串接第三方平台 (LINE•Meta)"
 related: 
-  - "[[Chat Box AI 建議回覆]]"
-  - "[[LINE 訊息格式規範]]"
-  - "[[Meta 訊息格式規範]]"
+  - "ec/app-market/chatbox/chat-box-ai-suggested-replies"
+  - "ec/app-market/chatbox/line-message-format-spec"
+  - "ec/app-market/chatbox/meta-message-format-spec"
 tags: 
   - 客服管理
   - 訊息通
@@ -66,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12960
   - https://www.cyberbiz.io/support/?p=52916
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/chatbox/"
 comments: false
 search:
   exclude: false

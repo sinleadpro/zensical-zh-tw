@@ -4,9 +4,7 @@ description: 逐步設定 VIP 會員層級、升等門檻與續會條件，建�
 created: 2026-01-23 00:00
 last_modified: 2026-07-21 10:45
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.3
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -49,7 +47,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7509
   - https://www.cyberbiz.io/support/?p=12291
-permalink: https://help.cyberbiz.io/ec/members/vip/setup-store-wide-vip-system
+permalink: "https://help.cyberbiz.io/ec/members/vip/setup-store-wide-vip-system/"
 comments: false
 search:
   exclude: false

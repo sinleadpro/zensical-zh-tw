@@ -4,9 +4,8 @@ description: 根據日本《特定商取引法》，日本站商家需建立法�
 created: 2026-03-16 00:00
 last_modified: 2026-06-30 11:01
 lang: zh-TW
+status: new
 type: guide
-status: update
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +18,7 @@ modules:
 sites:
   - JP
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans: []
@@ -50,7 +49,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=50470
-permalink: https://help.cyberbiz.io/ec/website-appearance/site-settings/jp-legal-compliance-page
+permalink: "https://help.cyberbiz.io/ec/website-appearance/site-settings/jp-legal-compliance-page/"
 comments: false
 search:
   exclude: false
@@ -62,6 +61,9 @@ hide: []
 根據日本《特定商取引法》，日本站商家需建立法定公開頁面，涵蓋必要商家資訊，確保網站合法營運。
 { .subtitle }
 
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用方案) | 跨境電商（日本站）
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Pro / Business
+{ .doc-badge }
 
 
 ## 使用須知

@@ -4,9 +4,7 @@ description: 透過 POS 公告系統，總公司可快速將重要資訊同步�
 created: 2026-04-07 17:15
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -26,8 +24,8 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: beginner
 intents:
   - 發送門市公告
@@ -38,7 +36,7 @@ features:
 prerequisites:
   - 需具備網站擁有者或店長權限方可發送公告
 related:
-  - [[員工權限與帳號管理]]
+  - "pos/store/staff-permissions-and-account-management"
 tags:
   - 公告
   - 訊息發送
@@ -56,7 +54,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3065
-permalink: https://help.cyberbiz.io/pos/store/announcement-system
+permalink: "https://help.cyberbiz.io/pos/store/announcement-system/"
 comments: false
 search:
   exclude: false

@@ -5,8 +5,6 @@ created: 2026-03-30 10:00
 last_modified: 2026-07-08 15:19
 lang: zh-TW
 type: guide
-status: ""
-version: ""
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -31,7 +29,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 設定重要事件來源追蹤
   - 開啟自動標記
@@ -39,11 +36,11 @@ features:
   - 重要事件來源追蹤
   - 自動標記
 prerequisites:
-  - "[[setup-google-merchant-center]]"
-  - "[[setup-google-analytics]]"
+  - "ec/integrations/google/setup-google-merchant-center"
+  - "ec/integrations/google/ga/setup-google-analytics"
 related:
-  - "[[setup-google-merchant-center]]"
-  - "[[youtube-shopping-setup-guide]]"
+  - "ec/integrations/google/setup-google-merchant-center"
+  - "ec/integrations/google/youtube-shopping-setup-guide"
 tags:
   - GMC
   - 自動標記
@@ -59,7 +56,7 @@ paths:
   - 第三方整合 > 谷歌 Google 設定 > Google Merchant Center
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/ec/integrations/google/setup-gmc-conversion-tracking"
+permalink: "https://help.cyberbiz.io/ec/integrations/google/setup-gmc-conversion-tracking/"
 comments: false
 search:
   exclude: false

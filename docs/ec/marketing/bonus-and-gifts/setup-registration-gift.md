@@ -4,9 +4,7 @@ description: 設定會員註冊禮，包含紅利點數與優惠券的發送規�
 created: 2026-05-27 12:30
 last_modified: 2026-05-27 12:30
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: []
@@ -34,8 +32,8 @@ features:
   - 優惠券
 prerequisites: []
 related: 
-  - "[[設定紅利購物金說明]]"
-  - "[[設定生日禮]]"
+  - "設定紅利購物金說明"
+  - "ec/marketing/bonus-and-gifts/setup-birthday-gift"
 tags: 
   - 註冊禮
   - 紅利點數
@@ -55,7 +53,7 @@ layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=3816
   - https://www.cyberbiz.io/support/?p=6234
-permalink: https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/setup-registration-gift
+permalink: "https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/setup-registration-gift/"
 comments: false
 search:
   exclude: false

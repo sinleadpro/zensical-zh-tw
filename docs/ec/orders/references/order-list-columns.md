@@ -1,12 +1,10 @@
 ---
 title: 訂單列表欄位參考表
 description: 訂單列表可選欄位一覽，包含名稱、用途說明與開通條件。
-created: 2026-06-14
+created: 2026-06-14 00:00
 last_modified: 2026-07-13 09:09
 lang: zh-TW
 type: reference
-status: ""
-version: ""
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: ""
 plans:
@@ -37,7 +35,7 @@ intents:
 features: []
 prerequisites: []
 related:
-  - "[[order-filter-status-reference]]"
+  - "ec/orders/references/order-filter-status-reference"
 tags:
   - 訂單列表
   - 欄位
@@ -51,7 +49,7 @@ paths:
   - 訂單 > 所有訂單
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/orders/references/order-list-columns
+permalink: "https://help.cyberbiz.io/ec/orders/references/order-list-columns/"
 comments: false
 search:
   exclude: false

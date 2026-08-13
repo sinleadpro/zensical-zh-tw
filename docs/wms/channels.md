@@ -4,9 +4,7 @@ description: 透過設定通路，商家可以為不同銷售平台管理庫存�
 created: 2026-03-12 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -53,7 +51,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5735
   - https://www.cyberbiz.io/support/?p=9043
-permalink: https://help.cyberbiz.io/wms/channels
+permalink: "https://help.cyberbiz.io/wms/channels/"
 comments: false
 search:
   exclude: false

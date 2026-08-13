@@ -1,13 +1,11 @@
 ---
 title: 廣告分析
 description: 不必登入 Google Ads 後台，在 CYBERBIZ 就能看懂 Google 購物廣告的曝光、點擊、轉換與 ROAS 成效。
-created: 2026-06-15
+created: 2026-06-15 00:00
 last_modified: 2026-07-12 19:51
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -49,7 +47,7 @@ wp_url: []
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/ad-analytics-guide/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/megaphone
 hide:
 ---

@@ -4,9 +4,7 @@ description: POS 客戶顯示器（簡稱「客顯」）是 POS 系統的輔助�
 created: 2026-03-25 15:30
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,8 +18,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -30,12 +28,12 @@ plans:
   - 企業
 cyb_extensions: []
 intents:
-  - 如何設定_POS_客顯螢幕
-  - POS_廣告牆設定教學
-  - POS_加價購如何顯示在客顯
+  - 如何設定 POS 客顯螢幕
+  - POS 廣告牆設定教學
+  - POS 加價購如何顯示在客顯
   - 解決客顯影片無法播放問題
 features:
-  - POS_客戶顯示器
+  - POS 客戶顯示器
   - 廣告牆
   - 互動遊戲
   - 結帳加價購
@@ -43,9 +41,9 @@ features:
 prerequisites: []
 related: []
 tags:
-  - POS_客顯
+  - POS 客顯
   - 數位看板
-  - YouTube_版權排除
+  - YouTube 版權排除
   - 門市行銷
 acoiv: configure
 apis: []
@@ -61,7 +59,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=5578
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/hardware/customer-display-screen/"
 comments: false
 search:
   exclude: false

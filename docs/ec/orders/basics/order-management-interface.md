@@ -4,10 +4,8 @@ description: 說明「所有訂單」介面的各項管理功能，協助商家�
 created:
 last_modified: 2026-07-13 09:32
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/orders/basics/order-management-interface
-type: tutorial
-status:
-version:
+permalink: "https://help.cyberbiz.io/ec/orders/basics/order-management-interface/"
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -21,7 +19,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:

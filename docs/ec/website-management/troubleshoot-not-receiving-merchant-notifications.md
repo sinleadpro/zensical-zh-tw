@@ -5,8 +5,6 @@ created: 2026-06-01 15:25
 last_modified: 2026-06-30 08:02
 lang: zh-TW
 type: troubleshooting
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -18,7 +16,7 @@ modules: []
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: []
@@ -50,7 +48,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4964
   - https://www.cyberbiz.io/support/?p=31664
-permalink: https://help.cyberbiz.io/ec/website-management/troubleshoot-not-receiving-merchant-notifications
+permalink: "https://help.cyberbiz.io/ec/website-management/troubleshoot-not-receiving-merchant-notifications/"
 comments: false
 search:
   exclude: false

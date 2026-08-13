@@ -4,9 +4,7 @@ description: 您可以隨時在後台查詢所有分潤合作夥伴（包括外�
 created: 2026-02-06 00:00
 last_modified: 2026-06-22 11:15
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -39,7 +37,7 @@ features:
   - 分潤查詢
 prerequisites: []
 related:
-  - [[推薦碼連結的應用]]
+  - "ec/profit-sharing/referral-link-applications"
 tags:
   - 分潤查詢
   - 推薦碼查詢
@@ -59,7 +57,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=1833
   - https://www.cyberbiz.io/support/?p=1864
   - https://www.cyberbiz.io/support/?p=39234
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/profit-sharing/query-profit-sharing-partners-and-codes/"
 comments: false
 search:
   exclude: false
@@ -104,7 +102,7 @@ hide: []
     - **分潤代碼**：該對象在該方案中的專屬推薦碼或註冊代碼。
     - **分潤比例**：對應的線上/線下抽成趴數。
 
-![](../../../assets/images/EC-後台-分潤-分潤查詢-畫面總覽01.png){ .screenshot }
+![](../../assets/images/EC-後台-分潤-分潤查詢-畫面總覽01.png){ .screenshot }
 
 ### 任務二：員工自我查詢分潤資訊
 
@@ -119,18 +117,38 @@ hide: []
 
 ### 任務三：提供第三方推薦人外部查詢連結
 
-針對外部合作夥伴（如團媽、網紅），您可以提供專屬連結，讓其在不進入後台的情況下即時查看成效。
+=== "商家"
+
+    針對外部合作夥伴（如團媽、網紅），您可以提供專屬連結，讓其在不進入後台的情況下即時查看成效。
+
+    1. 前往 **分潤 > 推薦人分潤**，點擊 **第三方總表** 頁籤。
+    2. 找到指定合作夥伴，複製頁面中的 **報表連結** 與 **密碼**，提供給推薦人。
+
+    ![](../../assets/images/EC-後台-分潤-推薦人分潤-查看第三方分潤夥伴名單01.png){ .screenshot }
+
+=== "外部合作夥伴（如團媽、網紅）"
+
+    收到商家提供的查詢資訊後，依下列步驟查看推廣成效：
+
+    1. 開啟商家提供的 **報表連結**，輸入對應的 **報表密碼**。
+    2. 進入報表頁面，即可查看透過您推薦碼成立的訂單資訊與狀態。
+
+    ![](../../assets/images/EC-前台-分潤-推薦人分潤-查看第三方分潤夥伴名單01.png){ .screenshot }
+
+!!! info "使用提醒"
+    此報表會列出所有透過推薦碼成立的訂單（**包含未付款、未結案等狀態訂單**），方便推薦人即時掌握推廣動態。
+            
+    此報表僅供「業績追蹤」參考，**最終分潤金額仍須以訂單「已結案」後的結算數據為準**。
+
+
+### 任務四：一鍵複製推薦碼
+
+於 **第三方總表** 可一次檢視所有第三方分潤推薦人。
 
 1. 前往 **分潤 > 推薦人分潤**，點擊 **第三方總表** 頁籤。
-2. 找到指定合作夥伴，複製頁面中的 **報表連結** 與 **密碼**，提供給推薦人。
-  
+2. 點擊複製圖示，即可一鍵複製該推薦人的推薦碼。
 
-    !!! info "使用提醒"
-        此報表會列出所有透過推薦碼成立的訂單（**包含未付款、未結案等狀態訂單**），方便推薦人即時掌握推廣動態。
-        
-        在提供報表連結給推薦人前，請務必事先溝通，說明此報表僅供「業績追蹤」參考，**最終分潤金額仍須以訂單「已結案」後的結算數據為準**。
-
-![](../../../assets/images/EC-後台-分潤-推薦人分潤-查看第三方分潤夥伴名單01.png){ .screenshot }
+![](../../assets/images/EC-後台-分潤-推薦人分潤-查看第三方分潤夥伴名單02.png){ .screenshot }
 
 ## 後續步驟
 

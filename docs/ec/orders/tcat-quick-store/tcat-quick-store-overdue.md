@@ -1,13 +1,11 @@
 ---
 title: 黑貓快速到店逾期說明
-description: ""
+description: "說明黑貓快速到店(常溫/冷藏/冷凍)的逾期判定時間點與退貨計費規則。"
 created: 2026-05-27 10:50
 last_modified: 2026-07-22 16:16
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: ""
 plans:
@@ -46,7 +44,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/orders/tcat-quick-store/tcat-quick-store-overdue
+permalink: "https://help.cyberbiz.io/ec/orders/tcat-quick-store/tcat-quick-store-overdue/"
 comments: ""
 search:
   exclude: false
@@ -111,4 +109,3 @@ hide:
 
 * [處理超商訂單逾期未取](../returns-refunds/cvs-unclaimed-order.md){ title="處理超商訂單逾期未取" }
 * [退貨與退款狀態對照](../references/return-refund-status-reference.md){ title="退貨與退款狀態對照（超商訂單逾期未取）" }
-

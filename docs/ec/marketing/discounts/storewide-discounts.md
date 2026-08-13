@@ -4,9 +4,7 @@ description: 了解如何建立全站促銷活動，包含金額折扣、百分�
 created: 2026-06-26 18:30
 last_modified: 2026-06-26 18:30
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: []
@@ -34,8 +32,8 @@ features:
   - 累計折抵
 prerequisites: []
 related: 
-  - "[[設定優惠券]]"
-  - "[[設定任選折扣]]"
+  - "ec/marketing/coupon/setup-coupons"
+  - "ec/marketing/discounts/mix-and-match-discounts"
 tags: 
   - 全館折扣
   - 促銷活動
@@ -55,7 +53,7 @@ layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=1165
   - https://www.cyberbiz.io/support/?p=30011
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/marketing/discounts/storewide-discounts/"
 search:
   exclude: false
 icon: lucide/percent

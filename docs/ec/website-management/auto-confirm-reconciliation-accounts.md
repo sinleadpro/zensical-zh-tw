@@ -4,9 +4,7 @@ description: 當商家使用 CYBERBIZ PAYMENTS 金流服務時，系統預設需
 created: 2026-06-01 16:06
 last_modified: 2026-06-01 16:06
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans: 
@@ -30,7 +28,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
 cyb_extensions:
-  - - CYBERBIZ PAYMENTS
+  - CYBERBIZ PAYMENTS
 intents: 
   - 設定自動確認帳款
   - 避免漏確認撥款
@@ -38,12 +36,12 @@ intents:
 features: 
   - 自動確認帳款
   - 對帳中心
-  - CYBERBIZ_PAYMENTS
+  - CYBERBIZ PAYMENTS
 prerequisites: 
   - "需開通 CYBERBIZ PAYMENTS 金流服務"
 related: 
-  - "[[對帳中心管理指南]]"
-  - "[[欠款自動扣繳設定指南]]"
+  - "對帳中心管理指南"
+  - "ec/website-management/auto-deduction-of-arrears"
 tags: 
   - 自動對帳
   - 撥款流程
@@ -61,7 +59,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=4507
-permalink:
+permalink: "https://help.cyberbiz.io/ec/website-management/auto-confirm-reconciliation-accounts/"
 comments: false
 search:
   exclude: false

@@ -4,9 +4,7 @@ description: 透過「指定物流送紅利」工具，您可以針對特定配�
 created: 2026-02-05 00:00
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -33,8 +31,8 @@ features:
   - 紅利點數
   - 物流紅利群組
 prerequisites:
-  - [[商店已開啟紅利點數功能]]
-  - [[已完成基本物流方式設定]]
+  - "商店已開啟紅利點數功能"
+  - "已完成基本物流方式設定"
 related: []
 tags:
   - 行銷活動
@@ -51,7 +49,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3480
-permalink: https://help.cyberbiz.io/ec/marketing/conditional-send/send-bonus-points-for-specific-logistics
+permalink: "https://help.cyberbiz.io/ec/marketing/conditional-send/send-bonus-points-for-specific-logistics/"
 comments: false
 search:
   exclude: false
