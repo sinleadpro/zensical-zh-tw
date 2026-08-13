@@ -62,8 +62,7 @@ search:
 icon: lucide/package-x
 hide: []
 ---
-
-## 排除商品上傳第三方平台說明
+# 排除商品上傳第三方平台
 設定排除標籤，讓商品不上傳至第三方平台。
 { .subtitle }
 
