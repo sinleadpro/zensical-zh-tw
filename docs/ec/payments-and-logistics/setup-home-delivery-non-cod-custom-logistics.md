@@ -68,7 +68,7 @@ hide: []
 「自訂物流」允許商家自行設定宅配選項與運費規則。您可以根據訂單金額或重量設定多階層運費，並支援常溫、冷藏、冷凍等不同溫層的配送需求。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 全方案適用
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 全版本
 { .doc-badge }
 
 

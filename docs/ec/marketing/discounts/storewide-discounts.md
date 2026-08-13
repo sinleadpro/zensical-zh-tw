@@ -66,7 +66,7 @@ hide: []
 了解如何建立全站促銷活動，包含金額折扣、百分比折抵及滿額贈送優惠券，提升官網客單價與回購率。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 全方案
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 全版本
 { .doc-badge }
 
 !!! tip "應用情境"
