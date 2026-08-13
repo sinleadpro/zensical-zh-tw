@@ -150,7 +150,7 @@ permalink: "https://help.cyberbiz.io/ec/members/"
 	    <div class="grid" markdown>
 	    
 	    [啟用會員登入驗證](../website-management/setup-customer-email-phone-verification.md)  
-	    [設定會員密碼規則](../website-management/admin-security-settings.md#operate-security-website-password)  
+	    [設定會員密碼規則](../website-management/member-security-settings.md#operate-security-website-password)  
 	    
 	    </div>
 	

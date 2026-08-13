@@ -88,13 +88,22 @@ hide:
 
     [:octicons-arrow-right-24: 前往](add-admin-set-permissions.md)
 
--   :lucide-shield-check: __保護後台帳號與顧客資料__
+-   :lucide-shield-check: __保護後台帳號__
 
     ---
 
-    管理後台登入防護與顧客資料保護，從 IP 白名單、自動登出到網站密碼，一頁完成你的網站資安設定。
+    管理後台登入防護，從 IP 白名單、自動登出到網站密碼，完成你的網站資安設定。
 
     [:octicons-arrow-right-24: 前往](admin-security-settings.md)
+
+
+-   :lucide-user-check: __保護網站與顧客資料__
+
+    ---
+
+    設定前台網站密碼、強化會員密碼規則，並啟用個資隱碼與訪問地區限制。
+
+    [:octicons-arrow-right-24: 前往](member-security-settings.md)
 
 -   :lucide-shield: __資安防護總覽與最佳實務__
 
