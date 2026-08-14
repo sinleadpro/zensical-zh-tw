@@ -1,13 +1,11 @@
 ---
 title: 出貨方式對照表
-description: ""
+description: "說明商品出貨方式對照：自行出貨與第三方倉儲、跨境物流的差異與適用條件。"
 created: 2026-06-05 13:47
 last_modified: 2026-07-15 11:12
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:
@@ -18,7 +16,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: ""
 plans:
@@ -42,10 +40,10 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/products/references/product-warehouse/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide:
 ---

@@ -4,9 +4,7 @@ description: 重要的營運數據與庫存警示主動送達指定信箱。商�
 created: 2026-03-19 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -53,7 +51,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=48336
-permalink: https://help.cyberbiz.io/wms/report-notification-settings
+permalink: "https://help.cyberbiz.io/wms/report-notification-settings/"
 comments: false
 search:
   exclude: false

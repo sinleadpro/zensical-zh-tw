@@ -1,11 +1,15 @@
 ---
+author: ""
+reviewers: []
 title: 商品管理
 description: 輕鬆管理商品資訊、分類與庫存，提升上架效率。
+lang: zh-TW
 icon: lucide/package
 permalink: "https://help.cyberbiz.io/ec/products/"
+products: [EC]
 notes:
   - 蝦皮商品搬站 link
-  - add doc [[折扣類型指南]]
+  - add doc 折扣類型指南
 hide:
   - feedback
 ---

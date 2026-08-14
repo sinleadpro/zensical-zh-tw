@@ -4,13 +4,10 @@ description: 設定跨店訂單與顧客資訊查看權限、IP 白名單限制�
 created: 2026-04-17 11:30
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
-aliases: []
 ga_views: 0
 feedback: 0
 products:
@@ -20,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -29,19 +26,19 @@ plans:
   - 企業
 cyb_extensions: []
 intents:
-  - 設定_POS_跨店權限
-  - 配置_IP_白名單
-  - 監控_POS_訂單來源
+  - 設定 POS 跨店權限
+  - 配置 IP 白名單
+  - 監控 POS 訂單來源
 features:
-  - POS_安全性設定
-  - IP_白名單
+  - POS 安全性設定
+  - IP 白名單
   - 跨店資料權限
 prerequisites: []
 related:
-  - [[設定與管理 POS 子機結帳綁定]]
+  - "設定與管理 POS 子機結帳綁定"
 tags:
-  - POS_安全性
-  - IP_白名單
+  - POS 安全性
+  - IP 白名單
   - 權限管理
   - 跨店查看
 acoiv: configure
@@ -56,12 +53,11 @@ ui_components:
   - 訂單 IP 來源通知
 paths:
   - POS 功能 > 所有 POS 商店
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=27199
   - https://www.cyberbiz.io/support/?p=5231
-permalink: https://help.cyberbiz.io/pos/store/security-settings
+permalink: "https://help.cyberbiz.io/pos/store/pos-security-settings/"
 comments: false
 search:
   exclude: false

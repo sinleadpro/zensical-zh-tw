@@ -4,9 +4,7 @@ description: 透過轉盤、紅包或寶箱等趣味遊戲，發放優惠券、�
 created: 2026-01-21 00:00
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -35,7 +33,7 @@ features:
   - 轉盤抽獎
   - 紅包抽獎
 prerequisites:
-  - [[需先建立欲作為獎項的優惠券或贈品商品]]
+  - "需先建立欲作為獎項的優惠券或贈品商品"
 related: []
 tags:
   - 行銷活動
@@ -56,7 +54,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5804
   - https://www.cyberbiz.io/support/?p=6429
   - https://www.cyberbiz.io/support/?p=9803
-permalink: https://help.cyberbiz.io/ec/marketing/other-tools/interactive-games
+permalink: "https://help.cyberbiz.io/ec/marketing/other-tools/interactive-games/"
 comments: false
 search:
   exclude: false

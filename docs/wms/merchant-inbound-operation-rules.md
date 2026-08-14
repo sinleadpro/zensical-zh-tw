@@ -4,9 +4,7 @@ description: 商家商品進入 CYBERBIZ 電商倉儲的標準作業流程與規
 created: 2026-03-16 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -53,7 +51,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5730
   - https://www.cyberbiz.io/support/?p=8770
-permalink: https://help.cyberbiz.io/wms/merchant-inbound-operation-rules
+permalink: "https://help.cyberbiz.io/wms/merchant-inbound-operation-rules/"
 comments: false
 search:
   exclude: false

@@ -4,10 +4,8 @@ description: 透過 CYBERBIZ 管理後台安裝 Meta Ads App。
 created: 2026-04-20 15:30
 last_modified: 2026-06-27 13:40
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: trunk
 plans:
@@ -39,10 +37,10 @@ features:
   - Meta Ads App
   - 高效速成行銷活動
 prerequisites:
-  - "[[setup-fbe-authorization]]"
-  - "[[create-meta-ad-account-top-up]]"
+  - "ec/integrations/fb/mbe/setup-fbe-authorization"
+  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
 related:
-  - "[[setup-meta-ad-campaign]]"
+  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
 tags:
   - Meta Ads
   - Facebook
@@ -62,10 +60,10 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11972
-permalink: https://help.cyberbiz.io/ec/app-market/install-meta-ads-app
+permalink: "https://help.cyberbiz.io/ec/app-market/install-meta-ads-app/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: simple/meta
 hide: []
 ---

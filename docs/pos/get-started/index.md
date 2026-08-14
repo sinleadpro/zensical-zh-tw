@@ -5,8 +5,6 @@ created: 2026-04-17 12:00
 last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: guide
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -54,7 +52,7 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=5012
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/get-started/"
 comments: false
 search:
   exclude: false

@@ -4,9 +4,7 @@ description: 使用 LIFF 實現會員自動登入，並同步完成官方帳號�
 created:
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites: []
 audiences:
   - merchant
-difficulty: medium
+difficulty: intermediate
 tnb: branch
 plans:
   - 專業PLUS
@@ -71,7 +69,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7388
   - https://www.cyberbiz.io/support/?p=41333
-permalink: https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-liff-auto-login-member-binding
+permalink: "https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-liff-auto-login-member-binding/"
 comments: false
 search:
   exclude: false

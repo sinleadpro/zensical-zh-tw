@@ -4,9 +4,7 @@ description: 透過 CYBERBIZ 串接黑貓宅急便、宅配通與新竹物流的
 created: 2026-03-05 00:00
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,12 +18,11 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: []
 cyb_extensions:
-  - PAYMENTS
 intents:
   - 申請新竹物流串接
   - 設定運費門檻
@@ -52,7 +49,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10656
   - https://www.cyberbiz.io/support/?p=46272
   - https://www.cyberbiz.io/support/?p=5967
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/home-delivery-cash-on-delivery
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/home-delivery-cash-on-delivery/"
 comments: false
 search:
   exclude: false

@@ -1,29 +1,27 @@
 ---
 title: 定期定額分析指標定義對照表
 description: 說明「定期定額分析」頁面上各項數據卡與圖表的指標意義與定義。
-created: 2026-06-16
+created: 2026-06-16 00:00
 last_modified: 2026-07-12 20:30
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 products:
-  - ec
+  - EC
 modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 plans: []
 tags:
   - 定期定額分析
   - 指標定義
   - 圖表對照
   - 數據卡
-permalink: https://help.cyberbiz.io/ec/business-intelligence/references/periodic-order-analysis-metrics-reference/
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/periodic-order-analysis-metrics-reference/"
 icon: lucide/table
 hide:
 ---

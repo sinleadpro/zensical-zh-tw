@@ -5,8 +5,6 @@ created: 2026-03-10 00:00
 last_modified: 2026-06-30 08:02
 lang: zh-TW
 type: reference
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans: []
@@ -28,12 +26,12 @@ intents:
   - 診斷_HTTPS_連線問題
   - 執行網域移轉流程
 features:
-  - SSL_憑證
+  - SSL 憑證
   - 根網域轉址
   - 網域移轉
 prerequisites:
-  - [[需具備第三方網域商的管理權限]]
-  - [[網域需已指向 CYBERBIZ]]
+  - "需具備第三方網域商的管理權限"
+  - "網域需已指向 CYBERBIZ"
 related: []
 tags:
   - 疑難排解
@@ -52,7 +50,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=29144
-permalink: https://help.cyberbiz.io/ec/website-management/unable-to-read-https-root-url
+permalink: "https://help.cyberbiz.io/ec/website-management/unable-to-read-https-root-url/"
 comments: false
 search:
   exclude: false

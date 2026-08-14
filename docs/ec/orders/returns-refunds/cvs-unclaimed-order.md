@@ -4,9 +4,7 @@ description: 超商訂單逾期未取的處理流程，包含自動退款條件�
 created: 2026-05-26 20:51
 last_modified: 2026-07-09 11:51
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -43,11 +41,11 @@ features:
   - 部分出貨退款
 prerequisites: []
 related:
-  - "[[return-refund-status-reference]]"
-  - "[[auto-refund-timeline]]"
-  - "[[tcat-quick-store-overdue]]"
-  - "[[cvs-partial-shipping-support]]"
-  - "[[cvs-partial-shipment]]"
+  - "ec/orders/references/return-refund-status-reference"
+  - "ec/orders/references/auto-refund-timeline"
+  - "ec/orders/tcat-quick-store/tcat-quick-store-overdue"
+  - "ec/orders/references/cvs-partial-shipping-support"
+  - "ec/orders/cvs-shipping/cvs-partial-shipment"
 tags:
   - 超商逾期未取
   - 自動退款
@@ -66,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6996
   - https://www.cyberbiz.io/support/?p=2041
-permalink: https://help.cyberbiz.io/ec/orders/returns-refunds/cvs-unclaimed-order
+permalink: "https://help.cyberbiz.io/ec/orders/returns-refunds/cvs-unclaimed-order/"
 comments: false
 search:
   exclude: false

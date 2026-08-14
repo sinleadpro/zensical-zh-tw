@@ -5,8 +5,6 @@ created: 2026-05-05 11:20
 last_modified: 2026-07-09 10:29
 lang: zh-TW
 type: guide
-status: ""
-version: 1.0.0
 author: Ann
 reviewers: []
 notes: []
@@ -19,8 +17,8 @@ modules:
 sites:
   - TW
 audiences:
-  - clerk
-  - admin
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -56,7 +54,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?page_id=42126
-permalink: "https://help.cyberbiz.io/ec/app-market/storepal/index"
+permalink: "https://help.cyberbiz.io/ec/app-market/storepal/"
 comments: false
 search:
   exclude: false

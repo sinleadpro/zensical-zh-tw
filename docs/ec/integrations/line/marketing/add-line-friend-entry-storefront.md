@@ -1,13 +1,11 @@
 ---
 title: 在官網新增 LINE 加入好友入口
 description: 在拖拉版型網站中新增 LINE 官方帳號加入好友入口，透過彈窗、輪播、頁腳或導覽列引導訪客加入好友。
-created: 2026-02-24
+created: 2026-02-24 00:00
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/integrations/line/marketing/add-line-friend-entry-storefront
-type: tutorial
-status: ""
-version: ""
+permalink: "https://help.cyberbiz.io/ec/integrations/line/marketing/add-line-friend-entry-storefront/"
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -30,7 +28,7 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 intents:
   - 在官網新增 LINE 加入好友入口
@@ -63,7 +61,7 @@ paths:
   - 網站外觀 > 套版主題管理 > 網站設定
   - 網站外觀 > 選單/導覽列設定
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7435
   - https://www.cyberbiz.io/support/?p=38439

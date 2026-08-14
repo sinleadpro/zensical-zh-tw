@@ -4,9 +4,7 @@ description: 本文件說明快速到貨服務的運費計價標準，系統自�
 created: 2026-02-06 00:00
 last_modified: 2026-07-15 14:20
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -24,7 +22,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -60,7 +58,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=13847
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/quick-delivery-shipping-fee-calculation-and-reconciliation/"
 comments: false
 search:
   exclude: false

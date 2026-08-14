@@ -4,9 +4,7 @@ description: 設定電子票券在不同門市與合作品牌下的核銷權限�
 created: 2026-01-22 00:00
 last_modified: 2026-07-22 17:38
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -57,7 +55,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8118
   - https://www.cyberbiz.io/support/?p=40429
-permalink: https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-store-permissions
+permalink: "https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-store-permissions/"
 comments: false
 search:
   exclude: false

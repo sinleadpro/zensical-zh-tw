@@ -4,9 +4,7 @@ description: 串接 Google 購物廣告，透過 CYBERBIZ 自動化廣告系統�
 created: 2026-01-15 10:00
 last_modified: 2026-07-02 14:22
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: trunk
 plans:
@@ -32,23 +30,23 @@ plans:
   - 企業
 cyb_extensions: []
 intents:
-  - 建立_Google_購物廣告活動
-  - 串接_GMC_帳號
+  - 建立 Google 購物廣告活動
+  - 串接 GMC 帳號
   - 管理廣告預算與儲值
 features:
   - 自動化廣告系統
-  - Google_購物廣告
-  - GMC_帳號代管
+  - Google 購物廣告
+  - GMC 帳號代管
   - 廣告成效分析
 prerequisites:
   - 需有 Google 帳號
   - 需完成廣告儲值
 related:
-  - "[[setup-google-merchant-center]]"
+  - "ec/integrations/google/setup-google-merchant-center"
 tags:
   - GMC
   - Google
-  - Google_Ads
+  - Google Ads
   - 廣告推播
   - ROAS
 acoiv: ""
@@ -63,7 +61,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8203
   - https://www.cyberbiz.io/support/?p=34930
-permalink: https://help.cyberbiz.io/ec/integrations/google/automated-ads-system
+permalink: "https://help.cyberbiz.io/ec/integrations/google/automated-ads-system/"
 comments: false
 search:
   exclude: false

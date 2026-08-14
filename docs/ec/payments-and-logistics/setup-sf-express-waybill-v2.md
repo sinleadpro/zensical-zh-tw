@@ -4,9 +4,7 @@ description: 設定順豐託運單，包括建立寄件人資訊、加印託運�
 created: 2026-05-20 21:23
 last_modified: 2026-08-10 12:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: []
@@ -36,10 +34,10 @@ features:
   - 海外報關
 prerequisites:
   - 須先開通順豐託運單（一般版以上方案）
-  - "[[順豐海外物流]]"
+  - "ec/payments-and-logistics/sf-express-overseas-logistics"
 related:
-  - "[[sf-express-shipping-v2]]"
-  - "[[順豐海外物流]]"
+  - "ec/orders/home-delivery/sf-express-shipping-v2"
+  - "ec/payments-and-logistics/sf-express-overseas-logistics"
 tags:
   - 順豐
   - 託運單
@@ -58,7 +56,7 @@ paths:
   - 訂單 > 所有訂單
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-sf-express-waybill-v2
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-sf-express-waybill-v2/"
 comments: false
 search:
   exclude: false

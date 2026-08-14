@@ -4,9 +4,7 @@ description: 啟用並管理商品評論功能。
 created: 2026-03-05 16:00
 last_modified: 2026-08-07 18:00
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -28,7 +26,7 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 intents:
   - 設定商品評論功能
@@ -43,7 +41,7 @@ features:
 prerequisites:
   - 需先洽客服人員開通商品評論功能
 related:
-  - "[[enable-comment-recaptcha]]"
+  - "ec/website-appearance/customer-interaction/enable-comment-recaptcha"
 tags:
   - 商品評論
   - 顧客回饋
@@ -62,11 +60,11 @@ paths:
   - 網站外觀 > 管理商品評論
   - 會員 > 商品待審核評論
   - 網站外觀 > 套版主題管理
-layouts:
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7894
   - https://www.cyberbiz.io/support/?p=30610
-permalink: https://help.cyberbiz.io/ec/products/engagement/manage-product-reviews
+permalink: "https://help.cyberbiz.io/ec/products/engagement/manage-product-reviews/"
 comments: false
 search:
   exclude: false

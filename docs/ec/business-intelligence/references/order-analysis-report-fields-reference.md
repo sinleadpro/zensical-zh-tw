@@ -1,13 +1,11 @@
 ---
 title: 訂單報表欄位對照
 description: 訂單報表分頁中三張 Excel 表格的欄位定義與說明對照
-created: 2026-06-15
+created: 2026-06-15 00:00
 last_modified: 2026-07-10 11:39
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 products:
@@ -16,7 +14,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 plans: []
 tags:
   - 訂單分析

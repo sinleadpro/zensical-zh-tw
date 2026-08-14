@@ -4,9 +4,7 @@ description: 了解如何建立全站促銷活動，包含金額折扣、百分�
 created: 2026-06-26 18:30
 last_modified: 2026-06-26 18:30
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: []
@@ -34,8 +32,8 @@ features:
   - 累計折抵
 prerequisites: []
 related: 
-  - "[[設定優惠券]]"
-  - "[[設定任選折扣]]"
+  - "ec/marketing/coupon/setup-coupons"
+  - "ec/marketing/discounts/mix-and-match-discounts"
 tags: 
   - 全館折扣
   - 促銷活動
@@ -55,19 +53,23 @@ layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=1165
   - https://www.cyberbiz.io/support/?p=30011
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/marketing/discounts/storewide-discounts/"
 search:
   exclude: false
 icon: lucide/percent
 hide: []
 ---
 
-# 設定全館折扣
+# 舊版全館折扣
 了解如何建立全站促銷活動，包含金額折扣、百分比折抵及滿額贈送優惠券，提升官網客單價與回購率。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 全版本
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 專業 / 進階 / 高手 / 所有 PLUS
 { .doc-badge }
+
+!!! tip "介面改版說明"
+    **全館折扣** 已推出新版介面，目前僅開放 **企業版**。其餘方案將陸續開放，敬請期待。
+
 
 !!! tip "應用情境"
 	- **節慶促銷**：舉辦「全站結帳 85 折」或「全站消費滿千享 8 折」活動。

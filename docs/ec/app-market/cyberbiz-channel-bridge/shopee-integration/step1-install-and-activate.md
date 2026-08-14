@@ -4,9 +4,7 @@ description: 透過「全通路管理助手」，您可以將蝦皮商店的商�
 created: 2026-02-25 00:00
 last_modified: 2026-07-08 17:32
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -36,7 +34,7 @@ features:
   - 蝦皮商品搬站
   - 全通路管理助手
 prerequisites:
-  - [[需具備蝦皮台灣站 (TW) 賣家帳號]]
+  - "需具備蝦皮台灣站 (TW) 賣家帳號"
 related: []
 tags:
   - 商品匯入
@@ -52,7 +50,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=365
   - https://www.cyberbiz.io/support/?p=3532
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate/"
 comments: false
 search:
   exclude: false

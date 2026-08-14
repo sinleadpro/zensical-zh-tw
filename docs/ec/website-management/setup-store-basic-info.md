@@ -2,12 +2,10 @@
 title: 設定網站基本資訊
 description: 進行網站基本資訊、公司聯繫方式、物流地址及後台語系等核心設置。
 created:
-last_modified: 2026-07-06T17:39:00+08:00
+last_modified: 2026-07-06 17:39
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/website-management/setup-store-basic-info
-type: tutorial
-status:
-version:
+permalink: "https://help.cyberbiz.io/ec/website-management/setup-store-basic-info/"
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -21,7 +19,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:

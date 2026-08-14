@@ -4,9 +4,7 @@ description: 設定排除標籤，讓商品不上傳至第三方平台。
 created: 2026-06-29 16:30
 last_modified: 2026-08-13 15:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -21,12 +19,11 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: []
 cyb_extensions: []
-feature_badges: []
 intents:
   - 排除商品上傳至第三方平台
   - 設定商品排除標籤
@@ -35,8 +32,8 @@ features:
   - 商品標籤
 prerequisites: []
 related:
-  - "[[manage-product-tags]]"
-  - "[[edit-product-description-settings]]"
+  - "ec/products/categories-and-tags/manage-product-tags"
+  - "ec/products/create-and-manage/edit-product-description-settings"
 tags:
   - 排除標籤
   - Product Feed
@@ -55,7 +52,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=6626
-permalink: https://help.cyberbiz.io/ec/products/bulk-operations/exclude-products-from-third-party-platforms
+permalink: "https://help.cyberbiz.io/ec/products/bulk-operations/exclude-products-from-third-party-platforms/"
 comments: false
 search:
   exclude: false

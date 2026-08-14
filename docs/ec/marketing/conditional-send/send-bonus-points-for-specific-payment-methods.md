@@ -4,9 +4,7 @@ description: 建立「指定金流送紅利」群組，針對特定付款方式�
 created: 2026-01-21 00:00
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -45,7 +43,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3470
-permalink: https://help.cyberbiz.io/ec/marketing/conditional-send/send-bonus-points-for-specific-payment-methods
+permalink: "https://help.cyberbiz.io/ec/marketing/conditional-send/send-bonus-points-for-specific-payment-methods/"
 comments: false
 search:
   exclude: false

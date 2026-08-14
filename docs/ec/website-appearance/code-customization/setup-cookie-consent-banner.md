@@ -4,22 +4,20 @@ description: 透過第三方工具產生 Cookie 同意彈窗，將程式碼貼�
 created: 2026-07-03 00:00
 last_modified: 2026-07-03 15:56
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
 products:
-  - ec
+  - EC
 modules:
   - 網站外觀
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: advanced
 tnb: trunk
 plans:
@@ -28,7 +26,6 @@ plans:
   - 高手
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 在官網顯示 Cookie 同意提示彈窗
   - 符合 GDPR 與歐盟 Cookie 法規範
@@ -40,8 +37,8 @@ prerequisites:
   - 支援程式碼編輯的版型
   - 後台操作權限（外觀編輯權限）
 related:
-  - "[[apply-and-switch-theme]]"
-  - "[[business-disclosure]]"
+  - "ec/website-appearance/theme-and-layout/apply-and-switch-theme"
+  - "ec/website-appearance/site-settings/business-disclosure"
 tags:
   - Cookie 同意提示
   - GDPR
@@ -57,7 +54,7 @@ paths:
   - 網站外觀 > 套版主題管理
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/website-appearance/code-customization/setup-cookie-consent-banner/
+permalink: "https://help.cyberbiz.io/ec/website-appearance/code-customization/setup-cookie-consent-banner/"
 comments: false
 search:
   exclude: false

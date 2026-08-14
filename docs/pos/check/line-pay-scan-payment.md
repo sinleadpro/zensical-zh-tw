@@ -4,9 +4,7 @@ description: 串接 LINE Pay 掃碼支付，POS 店員可使用掃碼槍直接�
 created: 2026-03-25 17:15
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,8 +18,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -30,21 +28,21 @@ plans:
   - 企業
 cyb_extensions: []
 intents:
-  - 如何申請POS_LINE_Pay
-  - POS_LINE_Pay金鑰設定
-  - POS前台LINE_Pay結帳教學
-  - LINE_Pay手續費查詢
+  - 如何申請POS LINE Pay
+  - POS LINE Pay金鑰設定
+  - POS前台LINE Pay結帳教學
+  - LINE Pay手續費查詢
 features:
-  - LINE_Pay_掃碼支付
+  - LINE Pay 掃碼支付
   - 行動支付
   - 商店立牌
   - 自動對帳
 prerequisites: []
 related: []
 tags:
-  - LINE_Pay
+  - LINE Pay
   - 行動支付
-  - POS_結帳
+  - POS 結帳
   - 門市收款
   - 掃碼槍
 acoiv: configure
@@ -61,7 +59,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=11171
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/check/line-pay-scan-payment/"
 comments: false
 search:
   exclude: false

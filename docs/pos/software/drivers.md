@@ -4,9 +4,7 @@ description: POS 驅動程式是串接硬體設備（如發票機、掃碼槍）
 created: 2026-04-21 12:15
 last_modified: 2026-08-05 19:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -38,7 +36,7 @@ prerequisites: []
 related: []
 tags:
   - 驅動程式
-  - POS_App
+  - POS App
   - 安裝教學
   - 故障排除
 acoiv: activate
@@ -50,7 +48,7 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=9556
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/software/drivers/"
 comments: false
 search:
   exclude: false

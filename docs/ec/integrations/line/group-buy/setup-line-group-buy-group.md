@@ -4,9 +4,7 @@ description: "設定 LINE 團購群組的分潤方案、商品分類與活動時
 created: "2026-03-12 12:14"
 last_modified: 2026-07-02 10:26
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes: 
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -31,7 +29,7 @@ intents:
   - LINE_團購分潤設定
   - 團購活動管理
 features:
-  - LINE_團購
+  - LINE 團購
   - 團購群組
   - 分潤方案
   - 推薦碼
@@ -54,7 +52,7 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=29174&page=4
-permalink: https://help.cyberbiz.io/ec/integrations/line/group-buy/setup-line-group-buy-group
+permalink: "https://help.cyberbiz.io/ec/integrations/line/group-buy/setup-line-group-buy-group/"
 comments: false
 search:
   exclude: false

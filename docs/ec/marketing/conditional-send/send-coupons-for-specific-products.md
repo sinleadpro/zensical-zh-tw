@@ -4,9 +4,7 @@ description: 建立「優惠券群組」，當會員購買指定商品並完成�
 created: 2026-01-21 00:00
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -47,7 +45,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=11460
-permalink: https://help.cyberbiz.io/ec/marketing/conditional-send/send-coupons-for-specific-products
+permalink: "https://help.cyberbiz.io/ec/marketing/conditional-send/send-coupons-for-specific-products/"
 comments: false
 search:
   exclude: false

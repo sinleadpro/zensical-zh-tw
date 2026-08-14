@@ -4,9 +4,7 @@ description: 針對販售散裝、秤重商品的商家，POS 支援與磅秤標
 created: 2026-03-25 16:45
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,8 +17,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -40,7 +38,6 @@ features:
   - 不定重商品結帳
   - 13位金額碼
 prerequisites:
-  - 
 related: []
 tags:
   - POS 前台
@@ -63,7 +60,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=47792
-permalink: https://help.cyberbiz.io/pos/others/scale-settings
+permalink: "https://help.cyberbiz.io/pos/others/scale-settings/"
 comments: false
 search:
   exclude: false

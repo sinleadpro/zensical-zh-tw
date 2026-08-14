@@ -1,26 +1,17 @@
 ---
 title: 星益欣電子發票設定
-version: ""
 author: Jase
-last_modified: 2026-07-03T11:44:08+08:00
+reviewers: []
+last_modified: 2026-07-03 11:44
 description: 教您在 CYBERBIZ 後台完成星益欣電子發票的購買、串接啟用、多站台共用與對帳發票設定。
-permalink: https://help.cyberbiz.io/ec/website-management/wixtar-e-invoice-setup
-product:
-  - EC
-  - POS
+permalink: "https://help.cyberbiz.io/ec/website-management/wixtar-e-invoice-setup/"
 modules:
   - 管理中心
   - 金物流
-activ: configure
+acoiv: configure
 paths:
   - 管理中心 > 發票設定
   - 管理中心 > 對帳中心 > 對帳發票設定
-surfaces:
-  - 管理中心 > 發票設定
-  - 管理中心 > 對帳中心 > 對帳發票設定
-ends:
-  - 成功啟用星益欣電子發票服務
-  - 實現自動化發票開立
 devices:
   - desktop
   - mobile
@@ -49,8 +40,7 @@ prerequisites:
   - 需準備公司統一編號
 lang: zh-TW
 sites:
-  - 台灣
-status: ""
+  - TW
 tags:
   - 資安
   - 金流
@@ -60,10 +50,11 @@ tags:
   - 電子發票
 difficulty: ""
 audiences:
-  - 商家
+  - merchant
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4068
   - https://www.cyberbiz.io/support/?p=2693
+products: [EC]
 notes:
   - verify FAQ
   - update internal links
@@ -71,7 +62,7 @@ notes:
   - add doc link [POS – 星益欣(美麗科技)電子發票(https://www.cyberbiz.io/support/?p=46379)
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/receipt
 hide:
 ---

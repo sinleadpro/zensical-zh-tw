@@ -4,9 +4,7 @@ description: 透過 VIP 群組標籤功能，針對特定客層綁定標籤並�
 created: 2026-01-23 00:00
 last_modified: 2026-06-30 12:30
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -52,7 +50,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8621
   - https://www.cyberbiz.io/support/?p=32733
-permalink: https://help.cyberbiz.io/ec/members/vip/create-exclusive-vip-groups
+permalink: "https://help.cyberbiz.io/ec/members/vip/create-exclusive-vip-groups/"
 comments: false
 search:
   exclude: false

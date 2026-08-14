@@ -4,9 +4,7 @@ description: 線下人員可透過門市助理查詢會員資訊、協助顧客�
 created: 2026-05-04 14:14
 last_modified: 2026-07-01 12:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,8 +17,8 @@ modules:
 sites:
   - TW
 audiences:
-  - clerk
-  - admin
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -34,7 +32,7 @@ intents:
   - 協助顧客註冊
   - 建立推薦人綁定
 features:
-  - 門市助理_會員查詢
+  - 門市助理 會員查詢
   - 快速註冊
   - 推薦人綁定
 prerequisites: []
@@ -56,7 +54,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=41747
-permalink: https://help.cyberbiz.io/ec/app-market/storepal/search-and-create-members
+permalink: "https://help.cyberbiz.io/ec/app-market/storepal/search-and-create-members/"
 comments: false
 search:
   exclude: false

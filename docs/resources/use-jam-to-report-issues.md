@@ -4,9 +4,7 @@ description: 用 Jam 錄製畫面，提供連結給客服，協助排查問題�
 created: 2026-06-23 16:45
 last_modified: 2026-06-23 17:04
 lang: zh-TW
-type: tutorial
-status: 
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -17,19 +15,18 @@ products:
 modules: []
 sites: []
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: ""
 plans: []
 cyb_extensions: []
-feature_badges: []
 intents:
   - 使用_Jam_回報操作問題
   - 錄製畫面提供給客服
 features:
-  - Jam_截圖
-  - Jam_錄影
-  - Instant_Replay
+  - Jam 截圖
+  - Jam 錄影
+  - Instant Replay
 prerequisites: []
 related: []
 tags:
@@ -43,7 +40,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/resources/use-jam-to-report-issues"
+permalink: "https://help.cyberbiz.io/resources/use-jam-to-report-issues/"
 comments: false
 search:
   exclude: false

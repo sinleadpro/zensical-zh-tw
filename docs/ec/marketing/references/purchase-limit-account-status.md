@@ -1,11 +1,10 @@
 ---
 title: 帳號狀態與購買權限對照表
-description: ""
+description: "說明顧客帳號狀態(未登入、已啟用、警示、禁用)對限購商品購買權限的影響與結帳時的系統提示。"
 created: 2026-06-08 17:46
 last_modified: 2026-06-08 20:11
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
 tags:
   - EC
@@ -16,7 +15,6 @@ tags:
   - 登入限制
   - Reference
   - 對照表
-version: ""
 reviewers: []
 notes: []
 ga_views:
@@ -27,7 +25,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: ""
 plans:
@@ -45,13 +43,14 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/marketing/references/purchase-limit-account-status/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide:
 ---
+
 
 ### 帳號狀態與購買權限對照表 { #reference-purchase-limit-account }
 
@@ -72,4 +71,3 @@ hide:
     * 只有「帳號已啟用」與「已列為警示帳號」兩種狀態能購買限購商品；「警示帳號」雖被標記，但仍可正常購買。
     * 其餘狀態(含未登入訪客)皆無法購買限購商品，並會在結帳時看到上方對應提示。
     * 此限制僅適用於已加入限購群組的商品，一般商品不受影響。
-

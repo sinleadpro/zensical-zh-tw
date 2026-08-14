@@ -4,9 +4,7 @@ description: 註冊人分潤採「永久綁定」機制。當顧客在註冊時�
 created: 2026-02-06 00:00
 last_modified: 2026-06-30 10:52
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -49,7 +47,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1182
   - https://www.cyberbiz.io/support/?p=1720
-permalink: https://help.cyberbiz.io/ec/profit-sharing/registrant-profit-sharing
+permalink: "https://help.cyberbiz.io/ec/profit-sharing/registrant-profit-sharing/"
 comments: false
 search:
   exclude: false

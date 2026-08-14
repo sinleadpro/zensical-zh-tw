@@ -4,9 +4,7 @@ description: 掌握店內商品的銷售表現，找出熱賣商品、滯銷品�
 created: 2026-06-15 00:00
 last_modified: 2026-07-12 19:45
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -30,7 +28,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 查看商品銷售排行
   - 分析商品回購頻率
@@ -38,17 +35,17 @@ intents:
   - 匯出商品期間報表
 features:
   - 商品銷售概況
-  - 商品銷量_TOP_10_/_LAST_10
+  - 商品銷量 TOP 10 / LAST 10
   - 商品回購頻率
   - 無銷量商品清單
   - 商品期間別購買狀況
-  - Excel_匯出
+  - Excel 匯出
 prerequisites:
   - 方案需包含「圖表分析」功能
   - 需有實際訂單資料
 related:
-  - "[[business-intelligence-overview]]"
-  - "[[benchmarking]]"
+  - "ec/business-intelligence/business-intelligence-overview"
+  - "ec/business-intelligence/benchmarking"
 tags:
   - 商品分析
   - 商品銷售排行
@@ -67,7 +64,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10991
   - https://www.cyberbiz.io/helpcenter/?p=5054
   - https://www.cyberbiz.io/support/?p=9791
-permalink: https://help.cyberbiz.io/ec/business-intelligence/product-analysis
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/product-analysis/"
 comments: false
 search:
   exclude: false

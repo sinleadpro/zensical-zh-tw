@@ -4,7 +4,7 @@ description: "透過部落格管理功能建立品牌文章，運用分類主題
 created: "2026-03-19 11:27"
 last_modified: 2026-06-30 11:01
 lang: zh-TW
-type: tutorial
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -18,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -41,7 +41,7 @@ features:
   - 拖拉版型
 prerequisites: []
 related:
-  - "[[setup-og-image]]"
+  - "ec/website-appearance/site-settings/setup-og-image"
 tags:
   - 部落格
   - 內容行銷
@@ -56,12 +56,12 @@ ui_components: []
 paths:
   - 網站外觀 > 部落格管理
 layouts:
-  - 預設版型
-  - 拖拉版型
+  - classic
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=631
   - https://www.cyberbiz.io/support/?p=1510
-permalink: https://help.cyberbiz.io/ec/website-appearance/pages-and-content/blog-management-publishing-guide
+permalink: "https://help.cyberbiz.io/ec/website-appearance/pages-and-content/blog-management-publishing-guide/"
 comments: false
 search:
   exclude: false

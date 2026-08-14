@@ -4,9 +4,7 @@ description: 在電商倉儲中，庫存分布於多個不同的「倉別」。�
 created: 2026-03-19 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -57,7 +55,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=3006
   - https://www.cyberbiz.io/support/?p=4825
   - https://www.cyberbiz.io/support/?p=9068
-permalink: https://help.cyberbiz.io/wms/transfer-orders
+permalink: "https://help.cyberbiz.io/wms/transfer-orders/"
 comments: false
 search:
   exclude: false

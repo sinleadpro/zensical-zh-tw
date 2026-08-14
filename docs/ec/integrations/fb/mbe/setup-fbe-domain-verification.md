@@ -2,12 +2,10 @@
 title: 設定 FBE 網域驗證
 description: 在企業管理平台中完成網域驗證。
 created: 2026-04-10 14:50
-last_modified: 2026-07-03T11:45:02+08:00
+last_modified: 2026-07-03 11:45
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -40,9 +38,9 @@ features:
   - DNS 驗證
   - 中繼標籤驗證
 prerequisites:
-  - "[[setup-fbe-authorization]]"
+  - "ec/integrations/fb/mbe/setup-fbe-authorization"
 related:
-  - "[[網域管理]]"
+  - "ec/website-management/domain-management"
 tags:
   - FBE
   - Facebook 企業管理平台
@@ -62,7 +60,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3228
   - https://www.cyberbiz.io/support/?p=13973
-permalink: https://help.cyberbiz.io/ec/integrations/fb/mbe/setup-fbe-domain-verification
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/mbe/setup-fbe-domain-verification/"
 comments: false
 search:
   exclude: false

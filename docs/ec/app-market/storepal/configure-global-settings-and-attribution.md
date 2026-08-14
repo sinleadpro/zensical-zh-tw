@@ -1,12 +1,10 @@
 ---
 title: 全站功能與業績歸因設定
 description: 協助總部管理者配置全品牌統一的門市助理功能開關，並引導各級管理員設定個別門市的業績歸因層級。
-created: 2026-06-22  10:11
+created: 2026-06-22 10:11
 last_modified: 2026-06-22 10:11
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -36,7 +34,7 @@ features:
   - 門市助理
   - 權限管理
   - 業績歸因
-  - QR_Code
+  - QR Code
 prerequisites: []
 related: []
 tags:
@@ -57,7 +55,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=40979
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/storepal/configure-global-settings-and-attribution/"
 comments: false
 search:
   exclude: false

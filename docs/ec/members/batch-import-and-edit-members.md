@@ -4,9 +4,7 @@ description: 透過 Excel 檔案，您可以快速完成大量會員的資料建
 created: 2026-02-11 00:00
 last_modified: 2026-08-13 17:30
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -37,7 +35,7 @@ features:
   - 批次修改
   - Excel範本
 prerequisites:
-  - [[需準備 Excel 軟體或支援 .xlsx 之工具]]
+  - "需準備 Excel 軟體或支援 .xlsx 之工具"
 related: []
 tags:
   - Excel匯入
@@ -55,7 +53,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6879
   - https://www.cyberbiz.io/support/?p=24549
   - https://www.cyberbiz.io/support/?p=36678
-permalink: https://help.cyberbiz.io/ec/members/batch-import-and-edit-members
+permalink: "https://help.cyberbiz.io/ec/members/batch-import-and-edit-members/"
 comments: false
 search:
   exclude: false

@@ -5,8 +5,6 @@ created: 2026-02-05 00:00
 last_modified: 2026-06-30 08:02
 lang: zh-TW
 type: guide
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:
@@ -21,7 +19,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -59,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11202
   - https://www.cyberbiz.io/support/?p=47292
-permalink: https://help.cyberbiz.io/ec/website-management/setup-multi-language-and-multi-currency
+permalink: "https://help.cyberbiz.io/ec/website-management/setup-multi-language-and-multi-currency/"
 comments: false
 search:
   exclude: false

@@ -1,13 +1,11 @@
 ---
 title: 營收分析
 description: 透過數據卡與多種圖表，快速掌握全店營收表現、獲利狀況與營收高峰時段
-created: 2026-06-15
+created: 2026-06-15 00:00
 last_modified: 2026-07-20 18:40
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -46,7 +44,7 @@ apis: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5041
   - https://www.cyberbiz.io/support/?p=8368
-permalink: https://help.cyberbiz.io/ec/business-intelligence/revenue-analysis
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/revenue-analysis/"
 icon: lucide/trending-up
 hide:
 ---

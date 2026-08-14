@@ -4,9 +4,7 @@ description: 透過門市助理快速識別會員身份，掌握標籤特徵，�
 created: 2026-05-05 11:15
 last_modified: 2026-06-27 13:40
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,8 +18,8 @@ modules:
 sites:
   - TW
 audiences:
-  - clerk
-  - admin
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -38,10 +36,10 @@ features:
   - 會員標籤
   - 門市助理
 prerequisites:
-  - [[註冊與綁定官網會員]]
+  - "註冊與綁定官網會員"
 related:
-  - [[02-數據洞察：消費概況與會員權益分析]]
-  - [[03-成交引導：資產核銷與商品推薦工具]]
+  - "02-數據洞察：消費概況與會員權益分析"
+  - "03-成交引導：資產核銷與商品推薦工具"
 tags:
   - 門市助理
   - 精準識客
@@ -65,7 +63,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=41786
   - https://www.cyberbiz.io/support/?p=41951
-permalink: https://help.cyberbiz.io/ec/app-market/storepal/member-identification
+permalink: "https://help.cyberbiz.io/ec/app-market/storepal/member-identification/"
 comments: false
 search:
   exclude: false

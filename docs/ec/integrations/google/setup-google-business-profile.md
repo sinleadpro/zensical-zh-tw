@@ -4,7 +4,7 @@ description: "建立與驗證 Google 商家檔案，讓實體店面在 Google �
 created: "2026-03-18 15:16"
 last_modified: 2026-07-02 14:00
 lang: zh-TW
-type: tutorial
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -17,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -54,7 +54,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12109
   - https://www.cyberbiz.io/support/?p=24764
-permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-business-profile
+permalink: "https://help.cyberbiz.io/ec/integrations/google/setup-google-business-profile/"
 comments: false
 search:
   exclude: false

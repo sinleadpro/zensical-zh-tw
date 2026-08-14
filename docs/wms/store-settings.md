@@ -4,9 +4,7 @@ description: 定義商店的識別名稱、簡訊發送人與聯繫資訊，確�
 created: 2026-03-25 20:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: []
@@ -50,7 +48,7 @@ paths:
   - 設定 > 商店設定
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/wms/store-settings
+permalink: "https://help.cyberbiz.io/wms/store-settings/"
 comments: false
 search:
   exclude: false

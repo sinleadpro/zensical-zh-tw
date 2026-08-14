@@ -4,10 +4,8 @@ description: 串接 PayPal 金流，讓海外信用卡顧客於結帳時可使�
 created:
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-paypal
-type: tutorial
-status:
-version:
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-paypal/"
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -32,7 +30,7 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions:
-  - PAYMENTS
+  - CYBERBIZ PAYMENTS
 intents:
   - 啟用 PayPal 金流
   - 串接 PayPal 至 CYBERBIZ 後台

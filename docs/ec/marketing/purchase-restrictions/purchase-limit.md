@@ -4,9 +4,7 @@ description: 限制每位會員可購買特定商品的數量，用於限量商�
 created: 2026-06-08 14:19
 last_modified: 2026-07-22 15:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -40,7 +38,7 @@ features:
   - 最低購買數量
 prerequisites: []
 related:
-  - "[[upsells/setup-product-upsell]]"
+  - "ec/marketing/upsells/setup-product-upsell"
 tags:
   - EC
   - 行銷活動
@@ -60,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6451
   - https://www.cyberbiz.io/support/?p=3354
-permalink: https://help.cyberbiz.io/ec/marketing/purchase-restrictions/purchase-limit
+permalink: "https://help.cyberbiz.io/ec/marketing/purchase-restrictions/purchase-limit/"
 comments: false
 search:
   exclude: false

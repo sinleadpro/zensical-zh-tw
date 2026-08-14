@@ -5,8 +5,6 @@ created: 2026-04-17 12:05
 last_modified: 2026-06-08 17:50
 lang: zh-TW
 type: reference
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -19,8 +17,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -33,13 +31,13 @@ intents:
   - 瞭解系統環境需求
   - 挑選 POS 設備
 features:
-  - POS_系統環境
-  - Windows_支援
-  - Chrome_瀏覽器
+  - POS 系統環境
+  - Windows 支援
+  - Chrome 瀏覽器
 prerequisites: []
 related: []
 tags:
-  - POS_硬體需求
+  - POS 硬體需求
   - 系統規格
   - Windows
   - Chrome
@@ -50,11 +48,10 @@ devices:
   - tablet
 ui_components: []
 paths: []
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=9439
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/hardware/"
 comments: false
 search:
   exclude: false

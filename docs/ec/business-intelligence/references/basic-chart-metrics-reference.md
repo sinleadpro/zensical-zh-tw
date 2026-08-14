@@ -1,13 +1,11 @@
 ---
 title: 基本報表計算規則對照表
 description: 認識基本報表四項核心區塊的計算規則：訂單數量、總銷售額、商品銷售排行、近七日瀏覽人次。
-created: 2026-06-21
+created: 2026-06-21 00:00
 last_modified: 2026-07-09 15:55
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 products:
@@ -16,7 +14,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 tags:
   - 報表分析
   - 基本報表

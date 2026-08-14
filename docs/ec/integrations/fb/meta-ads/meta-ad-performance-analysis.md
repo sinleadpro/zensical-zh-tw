@@ -2,12 +2,10 @@
 title: 使用 Meta 廣告成效分析
 description: 透過 Meta Ads App 掌握廣告成效數據，分析指標，並使用 AI Insights 獲取數據洞察與優化建議。
 created: 2026-04-21 11:29
-last_modified: 2026-07-03T11:45:03+08:00
+last_modified: 2026-07-03 11:45
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -40,10 +38,10 @@ features:
   - AI Insights
   - 廣告活動列表
 prerequisites:
-  - "[[setup-fbe-authorization]]"
-  - "[[setup-meta-ad-campaign]]"
-  - "[[setup-meta-ad-campaign]]"
-  - "[[create-meta-ad-account-top-up]]"
+  - "ec/integrations/fb/mbe/setup-fbe-authorization"
+  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
+  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
+  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
 tags:
   - Meta 廣告
   - ROAS
@@ -64,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1737
   - https://www.cyberbiz.io/support/?p=48371
-permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/meta-ad-performance-analysis
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/meta-ad-performance-analysis/"
 comments: false
 search:
   exclude: false

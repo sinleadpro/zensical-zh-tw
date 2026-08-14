@@ -5,8 +5,6 @@ created: 2026-04-27 14:15
 last_modified: 2026-07-02 11:44
 lang: zh-TW
 type: explanation
-status: ""
-version: ""
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -40,9 +38,9 @@ features:
   - 帳號釋出流程
   - 儲值激活機制
 prerequisites:
-  - "「[[create-meta-ad-account-top-up]]」"
-  - "[[create-meta-ad-account-top-up]]"
-  - "「[[setup-meta-ad-campaign]]」"
+  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
+  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
+  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
 tags:
   - Meta 廣告
   - 閒置帳號
@@ -59,10 +57,10 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12881
   - https://www.cyberbiz.io/support/?p=52679
-permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/meta-ad-idle-account-reclaim
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/meta-ad-idle-account-reclaim/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/user-x
 hide:
 ---

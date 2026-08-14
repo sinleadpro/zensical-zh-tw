@@ -4,9 +4,7 @@ description: "匯出訂單報表並以 Excel 格式寄送至管理員信箱，�
 created: "2026-03-13 23:45"
 last_modified: 2026-08-05 11:20
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: trunk
 plans:
@@ -34,16 +32,16 @@ intents:
   - 訂單查詢
 features:
   - 訂單報表匯出
-  - Excel匯出
+  - Excel 匯出
   - 篩選功能
 prerequisites: []
 related:
-  - "[[order-report-fields]]"
-  - "[[cvs-shipping-restrictions-exclusions]]"
-  - "[[export-subscription-forecast]]"
-  - "[[security-settings]]"
-  - "[[add-admin-set-permissions]]"
-  - "[[pos-reports-list-guide]]"
+  - "ec/orders/references/order-report-fields"
+  - "ec/products/shipping/cvs-shipping-restrictions-exclusions"
+  - "ec/orders/reports/export-subscription-forecast"
+  - "ec/website-management/admin-security-settings"
+  - "ec/website-management/add-admin-set-permissions"
+  - "pos/inventory/pos-reports-list-guide"
 tags:
   - 訂單
   - 匯出
@@ -60,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1266
   - https://www.cyberbiz.io/support/?p=25244
-permalink: https://help.cyberbiz.io/ec/orders/reports/export-order-report
+permalink: "https://help.cyberbiz.io/ec/orders/reports/export-order-report/"
 comments: false
 search:
   exclude: false

@@ -4,9 +4,7 @@ description: 期間限定首購禮是專為新會員首次消費設計的促銷�
 created: 2026-02-05 00:00
 last_modified: 2026-07-07 12:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -34,8 +32,8 @@ features:
   - 期間限定首購禮
   - 會員行銷
 prerequisites:
-  - [[已建立欲作為贈品的商品或標籤]]
-  - [[已規劃會員分類標籤（如需針對特定對象）]]
+  - "已建立欲作為贈品的商品或標籤"
+  - "已規劃會員分類標籤（如需針對特定對象）"
 related: []
 tags: []
 acoiv: configure
@@ -50,7 +48,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7884
   - https://www.cyberbiz.io/support/?p=10419
-permalink: https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/limited-time-first-purchase-gift
+permalink: "https://help.cyberbiz.io/ec/marketing/bonus-and-gifts/limited-time-first-purchase-gift/"
 comments: false
 search:
   exclude: false

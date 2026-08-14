@@ -2,11 +2,9 @@
 title: 設定 Meta 廣告活動
 description: 透過 CYBERBIZ Meta Ads App 管理 Meta 廣告活動，設定廣告預算、目標受眾與素材，掌握廣告投放成效。
 created: 2026-04-20 14:54
-last_modified: 2026-07-03T11:45:03+08:00
+last_modified: 2026-07-03 11:45
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -45,14 +43,14 @@ features:
   - 目錄型廣告
   - 圖片型廣告
 prerequisites:
-  - "[[setup-fbe-authorization]]"
-  - "[[create-meta-ad-account-top-up]]"
-  - "[[install-meta-ads-app]]"
+  - "ec/integrations/fb/mbe/setup-fbe-authorization"
+  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
+  - "ec/app-market/install-meta-ads-app"
 related:
-  - "[[meta-ad-performance-analysis]]"
-  - "[[設定 Meta 廣告每日預算]]"
-  - "[[setup-meta-ad-catalog-sets]]"
-  - "[[share-asset-permissions-cyberbiz]]"
+  - "ec/integrations/fb/meta-ads/meta-ad-performance-analysis"
+  - "ec/integrations/fb/meta-ads/meta-ad-daily-budget-guide"
+  - "ec/integrations/fb/meta-ads/setup-meta-ad-catalog-sets"
+  - "ec/integrations/fb/meta-ads/share-asset-permissions-cyberbiz"
 tags:
   - Meta Ads
   - FB 廣告
@@ -71,7 +69,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10374
   - https://www.cyberbiz.io/support/?p=1755
-permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/setup-meta-ad-campaign
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/setup-meta-ad-campaign/"
 comments: ""
 search:
   exclude: false

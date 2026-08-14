@@ -4,9 +4,7 @@ description: 處理門市間的庫存調撥需求，由缺貨方發起請求，�
 created: 2026-04-09 18:00
 last_modified: 2026-07-27 17:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.2.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -22,8 +20,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -41,12 +39,12 @@ features:
   - 跨店調撥
 prerequisites: []
 related:
-  - [[調倉完整流程]]
+  - "pos/inventory/transfer-complete-process"
 tags:
   - 調倉單
   - 跨店調撥
   - 庫存管理
-  - POS_調倉
+  - POS 調倉
 acoiv: operation
 apis: []
 devices:
@@ -64,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3006
   - https://www.cyberbiz.io/support/?p=4825
-permalink: https://help.cyberbiz.io/pos/inventory/transfer-orders
+permalink: "https://help.cyberbiz.io/pos/inventory/transfer-orders/"
 comments: false
 search:
   exclude: false

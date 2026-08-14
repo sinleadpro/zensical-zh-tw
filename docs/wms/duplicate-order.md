@@ -4,9 +4,7 @@ description: 在 WMS 複製由電商平台（如 CYBERBIZ、Shopline）串接進
 created: 2026-07-17 11:20
 last_modified: 2026-07-27 17:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -29,7 +27,7 @@ intents:
   - 管理_EC_訂單關聯
 features: 
   - 複製訂單
-  - 關聯_EC_平台
+  - 關聯 EC 平台
 prerequisites: []
 related: []
 tags: 
@@ -47,7 +45,7 @@ paths:
   - 訂單 > 列表
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/wms/duplicate-order/"
 comments: false
 search:
   exclude: false

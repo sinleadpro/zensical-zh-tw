@@ -4,9 +4,7 @@ description: 透過 CYBERBIZ 後台串接 DHL 國際快遞，您可以直接產�
 created: 2026-03-05 00:00
 last_modified: 2026-08-10 11:20
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -27,7 +25,7 @@ sites:
   - US
   - JP
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -46,7 +44,7 @@ features:
   - DHL 跨境物流
   - 自動化產單
   - 取件預約
-  - DDP_完稅交貨
+  - DDP 完稅交貨
 prerequisites:
   - 需具備國貿局登記之英文公司名稱
 related: []
@@ -68,7 +66,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=393
   - https://www.cyberbiz.io/support/?p=29664
   - https://www.cyberbiz.io/support/?p=29736
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/dhl-cross-border-logistics
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/dhl-cross-border-logistics/"
 comments: false
 search:
   exclude: false

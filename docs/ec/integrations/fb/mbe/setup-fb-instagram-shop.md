@@ -4,9 +4,7 @@ description: 設定 Facebook 與 Instagram 商店，建立社群銷售管道並�
 created: 2026-04-13 16:31
 last_modified: 2026-07-20 17:30
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -36,16 +34,16 @@ intents:
   - 設定_IG_商店
   - Facebook_Instagram_商店同步
 features:
-  - Facebook_商店
-  - Instagram_商店
+  - Facebook 商店
+  - Instagram 商店
   - 商品同步
 prerequisites:
-  - "[[setup-fbe-authorization]]"
-  - "[[setup-fbe-domain-verification]]"
+  - "ec/integrations/fb/mbe/setup-fbe-authorization"
+  - "ec/integrations/fb/mbe/setup-fbe-domain-verification"
 related:
-  - "[[setup-fbe-domain-verification]]"
-  - "[[product-swatches-variant-images-drag-drop]]"
-  - "[[product-swatches-variant-images-default]]"
+  - "ec/integrations/fb/mbe/setup-fbe-domain-verification"
+  - "ec/products/create-and-manage/product-swatches-variant-images-drag-drop"
+  - "ec/products/create-and-manage/product-swatches-variant-images-default"
 tags:
   - FB 商店
   - IG 商店
@@ -65,7 +63,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3113
   - https://www.cyberbiz.io/support/?p=11757
   - https://www.cyberbiz.io/support/?p=24676
-permalink: https://help.cyberbiz.io/ec/integrations/fb/mbe/setup-fb-instagram-shop
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/mbe/setup-fb-instagram-shop/"
 comments: false
 search:
   exclude: false

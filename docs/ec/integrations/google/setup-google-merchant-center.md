@@ -4,9 +4,7 @@ description: 串接 Google Merchant Center、同步商品資料至 Google 搜尋
 created: 2026-03-05 10:00
 last_modified: 2026-07-09 13:56
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,8 +17,8 @@ modules:
 sites:
   - TW
 audiences:
-  - 商家
-difficulty: medium
+  - merchant
+difficulty: intermediate
 tnb: trunk
 plans:
   - 專業
@@ -42,8 +40,8 @@ prerequisites:
   - 擁有 Google 帳戶
   - 商品圖片符合 Google 規範
 related:
-  - "[[setup-google-ads-conversion-tracking]]"
-  - "[[google-analytics-advanced-tracking]]"
+  - "ec/integrations/google/setup-google-ads-conversion-tracking"
+  - "ec/integrations/google/ga/google-analytics-advanced-tracking"
 tags:
   - GMC
   - 產品動態饋給
@@ -62,7 +60,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=718
   - https://www.cyberbiz.io/support/?p=230
-permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-merchant-center
+permalink: "https://help.cyberbiz.io/ec/integrations/google/setup-google-merchant-center/"
 search:
   exclude: false
 icon: lucide/tags

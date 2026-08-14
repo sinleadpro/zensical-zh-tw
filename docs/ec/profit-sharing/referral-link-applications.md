@@ -4,9 +4,7 @@ description: 取得推薦碼後，您可以透過製作短網址、QR Code 或�
 created: 2026-02-06 00:00
 last_modified: 2026-06-30 10:52
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -30,17 +28,17 @@ plans:
 cyb_extensions: []
 intents:
   - 製作推薦連結
-  - 產生_QR_Code
-  - 設定_UTM_參數
+  - 產生 QR Code
+  - 設定 UTM 參數
   - 測試推薦連結
 features:
   - 推薦人分潤
-  - UTM_追蹤
+  - UTM 追蹤
 prerequisites: []
 related: []
 tags:
   - 推薦連結
-  - QR_Code
+  - QR Code
   - UTM
   - 短網址
   - 行銷追蹤
@@ -56,7 +54,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4051
-permalink: https://help.cyberbiz.io/ec/profit-sharing/referral-link-applications
+permalink: "https://help.cyberbiz.io/ec/profit-sharing/referral-link-applications/"
 comments: false
 search:
   exclude: false

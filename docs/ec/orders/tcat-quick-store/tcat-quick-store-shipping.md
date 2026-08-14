@@ -4,9 +4,7 @@ description: 批次下載黑貓快速到店託運單並將訂單貨態更新為�
 created: 2026-05-18 15:26
 last_modified: 2026-07-15 14:40
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -46,10 +44,10 @@ prerequisites:
   - 設定黑貓寄件人地址
   - 確認 CYBER 幣餘額
 related:
-  - "[[tcat-home-delivery-v2]]"
-  - "[[tcat-auto-call-driver-v2]]"
-  - "[[補印與加印託運單]]"
-  - "[[partial-shipment-v2]]"
+  - "ec/orders/home-delivery/tcat-home-delivery-v2"
+  - "ec/orders/home-delivery/tcat-auto-call-driver-v2"
+  - "補印與加印託運單"
+  - "ec/orders/home-delivery/partial-shipment-v2"
 tags:
   - 黑貓快速到店
   - 7-11
@@ -74,7 +72,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2678
   - https://www.cyberbiz.io/support/?p=8844
-permalink: https://help.cyberbiz.io/ec/orders/tcat-quick-store/tcat-quick-store-shipping
+permalink: "https://help.cyberbiz.io/ec/orders/tcat-quick-store/tcat-quick-store-shipping/"
 comments: false
 search:
   exclude: false

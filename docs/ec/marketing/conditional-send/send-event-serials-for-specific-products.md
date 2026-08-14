@@ -4,9 +4,7 @@ description: 建立「序號群組」，當顧客購買指定商品並付款後�
 created: 2026-01-21 00:00
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -46,7 +44,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=43726
-permalink: https://help.cyberbiz.io/ec/marketing/conditional-send/send-event-serials-for-specific-products
+permalink: "https://help.cyberbiz.io/ec/marketing/conditional-send/send-event-serials-for-specific-products/"
 comments: false
 search:
   exclude: false

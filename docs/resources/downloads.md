@@ -1,15 +1,19 @@
 ---
 title: 下載資源
 description: 彙整 CYBERBIZ 各類可下載資源，包含商家手冊、操作指南、白皮書等 PDF 檔案，提供一站式下載。
+lang: zh-TW
 last_modified: 2026-06-23 19:49
 type: hub
+author: ""
+reviewers: []
+notes: []
 tags:
   - 下載
   - PDF
   - 指南
   - 手冊
 icon: lucide/download
-permalink: "https://help.cyberbiz.io/downloads"
+permalink: "https://help.cyberbiz.io/resources/downloads/"
 ---
 ## 系統檔案 { #system-files }
 

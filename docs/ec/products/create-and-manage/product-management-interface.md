@@ -2,11 +2,9 @@
 title: 商品管理介面總覽
 description: 快速了解 CYBERBIZ 商品管理後台功能，搜尋、篩選、批次操作與商品可見性設定。
 created: 2026-06-14 13:09
-last_modified: 2026-07-03T11:44:47+08:00
+last_modified: 2026-07-03 11:44
 lang: zh-TW
 type: quickstart
-status: ""
-version: ""
 author: Jase
 reviewers: []
 notes:
@@ -21,7 +19,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -48,10 +46,10 @@ features:
   - 庫存列表
 prerequisites: []
 related:
-  - "[[create-update-products]]"
-  - "[[batch-update-product-descriptions-shipping]]"
-  - "[[product-search-visibility]]"
-  - "[[setup-site-search]]"
+  - "ec/products/create-and-manage/create-update-products"
+  - "ec/products/bulk-operations/batch-update-product-descriptions-shipping"
+  - "ec/products/discoverability/product-search-visibility"
+  - "ec/products/discoverability/setup-site-search"
 tags:
   - 商品管理
   - 商品搜尋
@@ -70,7 +68,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2017
   - https://www.cyberbiz.io/helpcenter/?p=2789
   - https://www.cyberbiz.io/support/?p=7424
-permalink: https://help.cyberbiz.io/ec/products/create-and-manage/product-management-interface
+permalink: "https://help.cyberbiz.io/ec/products/create-and-manage/product-management-interface/"
 comments: false
 search:
   exclude: false

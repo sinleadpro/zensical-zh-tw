@@ -4,9 +4,7 @@ description: 當會員提出退貨申請或商家需手動啟動退貨程序時�
 created: 2026-02-23 00:00
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -22,7 +20,7 @@ sites:
   - SG
   - MY
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -39,7 +37,7 @@ features:
 prerequisites:
   - 建議先完成「設定與管理會員退貨申請」以利會員主動提交
 related:
-  - [[跨境電商退款流程]]
+  - "ec/orders/cross-border-refund-process"
 tags:
   - 售後服務
   - 逆物流
@@ -57,7 +55,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=30948
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/cross-border-return-process/"
 comments: false
 search:
   exclude: false

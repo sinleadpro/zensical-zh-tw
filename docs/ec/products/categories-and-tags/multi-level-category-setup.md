@@ -4,9 +4,7 @@ description: 建立多層級商品分類（最多三層），整理群組、支�
 created: 2026-01-13 00:00
 last_modified: 2026-07-22 17:36
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -22,7 +20,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -61,11 +59,11 @@ ui_components: []
 paths:
   - 商品 > 商品多層級分類
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9204
   - https://www.cyberbiz.io/support/?p=43450
-permalink: https://help.cyberbiz.io/ec/products/categories-and-tags/multi-level-category-setup
+permalink: "https://help.cyberbiz.io/ec/products/categories-and-tags/multi-level-category-setup/"
 comments: false
 search:
   exclude: false

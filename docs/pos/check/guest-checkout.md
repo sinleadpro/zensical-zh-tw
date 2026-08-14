@@ -4,9 +4,7 @@ description: 訪客結帳功能讓商家能為「非會員」且「無意願註�
 created: 2026-04-23 11:55
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,8 +18,8 @@ modules:
 sites:
   - TW
 audiences:
-  - clerk
-  - admin
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -31,15 +29,15 @@ plans:
 cyb_extensions: []
 intents:
   - 啟用訪客結帳
-  - POS_訪客登入
+  - POS 訪客登入
   - 查詢訪客訂單
 features:
-  - POS_訪客結帳
+  - POS 訪客結帳
   - 預設訪客帳號
 prerequisites: []
 related: []
 tags:
-  - POS_訪客
+  - POS 訪客
   - 不加入會員結帳
   - 快速結帳
   - 訪客訂單查詢
@@ -55,11 +53,10 @@ ui_components:
 paths:
   - POS 功能 > 所有 POS 商店
   - POS 前台 > 登入頁面
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=12638
-permalink: https://help.cyberbiz.io/pos/check/guest-checkout
+permalink: "https://help.cyberbiz.io/pos/check/guest-checkout/"
 comments: false
 search:
   exclude: false

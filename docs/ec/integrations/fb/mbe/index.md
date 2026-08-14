@@ -1,6 +1,11 @@
 ---
+author: ""
+reviewers: []
+products: [EC]
+notes: []
 title: FB 商業擴充總覽
 description: 完成 FBE 帳號授權、網域驗證及 Facebook／Instagram 商店串接設定。
+lang: zh-TW
 icon: lucide/blocks
 permalink: "https://help.cyberbiz.io/ec/integrations/fb/mbe/"
 hide:
