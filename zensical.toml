@@ -353,7 +353,7 @@ copyright = """
             ]},
             {"超商物流" = [
                 {"超商大宗寄倉 B2C" = "ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping.md"},
-                {"超商店到店 C2C 串接" = "ec/payments-and-logistics/setup-cvs-c2c-shipping.md"},
+                {"超商店到店 C2C" = "ec/payments-and-logistics/setup-cvs-c2c-shipping.md"},
                 {"ezShip超商取貨(C2C)" = "ec/payments-and-logistics/integrate-ezship-cvs-pickup-c2c.md"},
                 {"綠界金流與超商取貨付款" = "ec/payments-and-logistics/apply-for-ecpay-payment-and-cvs-cod.md"},
             ]},
