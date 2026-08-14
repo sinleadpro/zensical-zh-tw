@@ -4,9 +4,7 @@ description: 建立關聯後，您可以透過 商品資訊同步 機制，讓�
 created: 2026-02-25 00:00
 last_modified: 2026-06-27 13:40
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -37,8 +35,8 @@ features:
   - 蝦皮商品搬站
   - 商品資訊同步
 prerequisites:
-  - [[Step 1~4，確保商品已建立關聯]]
-  - [[官網商品欄位需符合蝦皮規範]]
+  - "Step 1~4，確保商品已建立關聯"
+  - "官網商品欄位需符合蝦皮規範"
 related: []
 tags: []
 acoiv: configure
@@ -53,7 +51,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12690
   - https://www.cyberbiz.io/support/?p=5362
-permalink: https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step5-sync-product-info-with-shopee
+permalink: "https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step5-sync-product-info-with-shopee/"
 comments: false
 search:
   exclude: false

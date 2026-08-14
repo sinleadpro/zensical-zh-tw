@@ -4,9 +4,7 @@ description: 將訂單從「準備出貨」調整回「未出貨」狀態，讓�
 created: 2026-05-11 18:51
 last_modified: 2026-06-30 15:25
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -39,8 +37,8 @@ features:
   - 訂單取消功能
 prerequisites: []
 related:
-  - "[[訂單出貨流程]]"
-  - "[[cancel-order]]"
+  - "ec/orders/basics/order-fulfillment-flow"
+  - "ec/orders/basics/cancel-order"
 tags:
   - 訂單管理
   - 配送狀態
@@ -60,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7803
   - https://www.cyberbiz.io/support/?p=23611
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/revert-to-unshipped
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/revert-to-unshipped/"
 comments: false
 search:
   exclude: false

@@ -4,9 +4,7 @@ description: 透過商米（Sunmi）無線刷卡發票機，商家可以結合�
 created: 2026-03-25 17:30
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,8 +18,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -40,9 +38,9 @@ features:
   - 移動式POS
   - Webhook回報
 prerequisites:
-  - [[POS 前台登入與基礎操作]]
+  - "POS 前台登入與基礎操作"
 related:
-  - [[POS 網路連線異常與斷線提示說明]]
+  - "POS 網路連線異常與斷線提示說明"
 tags:
   - 商米
   - SUNMI
@@ -64,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=51450
   - https://www.cyberbiz.io/support/?p=21480
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/hardware/mypay-wireless-credit-card-machine/"
 comments: false
 search:
   exclude: false

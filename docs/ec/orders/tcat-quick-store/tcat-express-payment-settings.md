@@ -4,10 +4,8 @@ description: 設定黑貓快速到店的付款方式，包含貨到付款與取�
 created:
 last_modified: 2026-07-01 10:30
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/orders/tcat-quick-store/tcat-express-payment-settings
-type: tutorial
-status:
-version:
+permalink: "https://help.cyberbiz.io/ec/orders/tcat-quick-store/tcat-express-payment-settings/"
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -21,7 +19,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:

@@ -4,9 +4,7 @@ description: 透過建立推薦人分潤方案，您可以針對不同合作對�
 created: 2026-02-06 00:00
 last_modified: 2026-06-30 10:52
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -61,7 +59,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=1864
   - https://www.cyberbiz.io/support/?p=23951
   - https://www.cyberbiz.io/support/?p=39234
-permalink: https://help.cyberbiz.io/ec/profit-sharing/referrer-profit-sharing
+permalink: "https://help.cyberbiz.io/ec/profit-sharing/referrer-profit-sharing/"
 comments: false
 search:
   exclude: false

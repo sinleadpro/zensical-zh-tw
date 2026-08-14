@@ -4,9 +4,7 @@ description: 學習如何將適合快速配送的商品複製到門市專區，�
 created: 2026-02-03 00:00
 last_modified: 2026-06-04 17:59
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -56,7 +54,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=12814
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/products/copy-products-to-quick-delivery-stores/"
 comments: false
 search:
   exclude: false

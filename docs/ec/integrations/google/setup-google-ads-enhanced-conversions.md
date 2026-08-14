@@ -2,12 +2,10 @@
 title: 設定 Google Ads 強化轉換
 description: 設定 Google Ads 強化轉換功能，讓系統收到更詳細的行為資料以優化廣告成效。
 created: 2026-03-25 18:07
-last_modified: 2026-07-03T11:44:57+08:00
+last_modified: 2026-07-03 11:44
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: advanced
 tnb: branch
 plans:
@@ -33,7 +31,7 @@ features:
   - Google Ads 強化轉換
   - 轉換追蹤優化
 prerequisites:
-  - "[[setup-google-ads-conversion-tracking[[setup-google-ads-conversion-tracking]] Google Ads 轉換追蹤]]"
+  - "ec/integrations/google/setup-google-ads-conversion-tracking"
 tags:
   - Google Ads
   - 強化轉換
@@ -50,7 +48,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=39654
-permalink: https://help.cyberbiz.io/ec/integrations/google/setup-google-ads-enhanced-conversions
+permalink: "https://help.cyberbiz.io/ec/integrations/google/setup-google-ads-enhanced-conversions/"
 search:
   exclude: false
 icon: lucide/rocket

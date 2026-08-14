@@ -4,9 +4,7 @@ description: 深入分析會員的消費歷史、VIP 等級與現有資產，運
 created: 2026-05-05 11:15
 last_modified: 2026-06-27 13:40
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -21,8 +19,8 @@ modules:
 sites:
   - TW
 audiences:
-  - clerk
-  - admin
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -43,8 +41,8 @@ features:
   - 消費分析
 prerequisites: []
 related:
-  - [[會員身份識別]]
-  - [[導購轉化]]
+  - "ec/app-market/storepal/member-identification"
+  - "ec/app-market/storepal/sales-conversion"
 tags:
   - 門市助理
   - 數據洞察
@@ -73,7 +71,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=41833
   - https://www.cyberbiz.io/support/?p=41853
   - https://www.cyberbiz.io/support/?p=41889
-permalink: https://help.cyberbiz.io/ec/app-market/storepal/member-data-warehouse
+permalink: "https://help.cyberbiz.io/ec/app-market/storepal/member-data-warehouse/"
 comments: false
 search:
   exclude: false

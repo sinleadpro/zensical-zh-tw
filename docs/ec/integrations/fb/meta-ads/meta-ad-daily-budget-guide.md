@@ -5,8 +5,6 @@ created: 2026-04-20 19:52
 last_modified: 2026-07-02 13:48
 lang: zh-TW
 type: guide
-status: ""
-version: ""
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -41,9 +39,9 @@ features:
   - ASC
   - 每日預算
 prerequisites:
-  - "[[create-meta-ad-account-top-up]]"
+  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
 related:
-  - "[[setup-meta-ad-campaign]]"
+  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
 tags:
   - Meta Ads
   - 每日預算
@@ -61,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8048
   - https://www.cyberbiz.io/support/?p=2166
-permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/meta-ad-daily-budget-guide
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/meta-ad-daily-budget-guide/"
 comments: false
 search:
   exclude: false

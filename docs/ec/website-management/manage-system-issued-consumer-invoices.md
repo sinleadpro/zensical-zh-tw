@@ -5,8 +5,6 @@ created: 2026-06-10 16:30
 last_modified: 2026-07-01 12:00
 lang: zh-TW
 type: guide
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -56,7 +54,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=2319
   - https://www.cyberbiz.io/support/?p=5769
-permalink: https://help.cyberbiz.io/ec/website-management/manage-system-issued-consumer-invoices
+permalink: "https://help.cyberbiz.io/ec/website-management/manage-system-issued-consumer-invoices/"
 comments: false
 search:
   exclude: false

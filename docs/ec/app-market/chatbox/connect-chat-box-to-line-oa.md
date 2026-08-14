@@ -4,9 +4,7 @@ description: 將 LINE 官方帳號連結至 Chat Box，實現即時對話同步�
 created: 2026-05-28 13:50
 last_modified: 2026-05-28 13:50
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -31,23 +29,23 @@ plans:
 cyb_extensions:
   - CHAT BOX
 intents:
-  - 串接_LINE_官方帳號
-  - 同步_LINE_對話至_Chat_Box
-  - 設定_LINE_Messaging_API
+  - 串接 LINE 官方帳號
+  - 同步 LINE 對話至 Chat Box
+  - 設定 LINE Messaging API
 features:
-  - Chat_Box
-  - LINE_整合
-  - Messaging_API
-  - Webhook_設定
+  - Chat Box
+  - LINE 整合
+  - Messaging API
+  - Webhook 設定
 prerequisites:
   - 需擁有 LINE 官方帳號管理員權限
 related:
-  - "[[Chat Box 訊息通]]"
-  - "[[LINE 訊息格式規範]]"
+  - "ec/app-market/chatbox/index"
+  - "ec/app-market/chatbox/line-message-format-spec"
 tags:
-  - LINE_串接
+  - LINE 串接
   - ChatBox
-  - Messaging_API
+  - Messaging API
   - 第三方整合
 acoiv: configure
 apis: []
@@ -62,7 +60,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12966
   - https://www.cyberbiz.io/support/?p=52927
-permalink:
+permalink: "https://help.cyberbiz.io/ec/app-market/chatbox/connect-chat-box-to-line-oa/"
 comments: false
 search:
   exclude: false

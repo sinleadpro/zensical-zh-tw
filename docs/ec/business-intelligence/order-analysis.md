@@ -1,12 +1,10 @@
 ---
 title: 訂單分析
 description: 使用訂單分析頁面查看銷售趨勢、金物流偏好與業績報表
-created: 2026-06-15
+created: 2026-06-15 00:00
 last_modified: 2026-07-10 13:12
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -29,7 +27,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 查看訂單銷售趨勢
   - 分析付款與出貨偏好
@@ -41,9 +38,9 @@ features:
 prerequisites:
   - 已開通 CYBERBIZ 商店後台
 related:
-  - "[[order-analysis-overview-metrics-reference]]"
-  - "[[order-analysis-finance-logistics-reference]]"
-  - "[[order-analysis-report-fields-reference]]"
+  - "ec/business-intelligence/references/order-analysis-overview-metrics-reference"
+  - "ec/business-intelligence/references/order-analysis-finance-logistics-reference"
+  - "ec/business-intelligence/references/order-analysis-report-fields-reference"
 tags:
   - 訂單分析
   - 訂單總體分析
@@ -66,7 +63,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=8473
   - https://www.cyberbiz.io/support/?p=8714
   - https://www.cyberbiz.io/support/?p=9602
-permalink: https://help.cyberbiz.io/ec/business-intelligence/order-analysis
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/order-analysis/"
 comments: false
 search:
   exclude: false

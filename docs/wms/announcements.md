@@ -4,9 +4,7 @@ description: 即時掌握電商倉儲（WMS）的系統更新進度、倉庫端�
 created: 2026-03-19 11:53
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -48,7 +46,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7973
   - https://www.cyberbiz.io/support/?p=39940
-permalink: https://help.cyberbiz.io/wms/announcements
+permalink: "https://help.cyberbiz.io/wms/announcements/"
 comments: false
 search:
   exclude: false

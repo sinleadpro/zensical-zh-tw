@@ -4,9 +4,7 @@ description: 指引門市人員如何識別、準備並接收快速到貨訂單�
 created: 2026-02-06 00:00
 last_modified: 2026-07-06 17:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -55,7 +53,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=13134
   - https://www.cyberbiz.io/support/?p=13744
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/quick-delivery-order-preparation/"
 comments: false
 search:
   exclude: false

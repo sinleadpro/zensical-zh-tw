@@ -4,9 +4,7 @@ description: 當快速到貨訂單發生商品缺貨、訂單超出材積限制�
 created: 2026-02-06 00:00
 last_modified: 2026-07-06 17:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -56,7 +54,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=13193
   - https://www.cyberbiz.io/support/?p=13344
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/out-of-stock-partial-shipping-or-cancellation/"
 comments: false
 search:
   exclude: false

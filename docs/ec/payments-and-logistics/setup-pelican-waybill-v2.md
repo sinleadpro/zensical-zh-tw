@@ -4,9 +4,7 @@ description: 管理宅配通託運單指南，包含設定寄件人資訊、加�
 created: 2026-05-20 12:21
 last_modified: 2026-07-09 14:15
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -42,9 +40,9 @@ features:
   - 宅配通逆物流
 prerequisites: []
 related:
-  - "[[pelican-shipping-v2]]"
-  - "[[宅配逆物流（黑貓宅配通新竹物流）]]"
-  - "[[points-deposits]]"
+  - "ec/orders/home-delivery/pelican-shipping-v2"
+  - "ec/payments-and-logistics/setup-pelican-waybill-v2"
+  - "ec/website-management/points-deposits"
 tags:
   - 宅配通
   - 配送
@@ -62,7 +60,7 @@ paths:
   - 金物流 > 宅配通託運單
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-pelican-waybill-v2
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-pelican-waybill-v2/"
 comments: false
 search:
   exclude: false

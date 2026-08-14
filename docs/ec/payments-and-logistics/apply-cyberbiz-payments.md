@@ -4,9 +4,7 @@ description: 設定網站、提交商店資訊，並啟用 CYBERBIZ PAYMENTS。
 created: 2026-01-26 00:00
 last_modified: 2026-06-30 16:54
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -32,7 +30,7 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions:
-  - PAYMENTS
+  - CYBERBIZ PAYMENTS
 intents:
   - 如何申請 CYBERBIZ PAYMENTS
   - 申請金流服務
@@ -59,7 +57,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6174
   - https://www.cyberbiz.io/helpcenter/?p=6738
   - https://www.cyberbiz.io/support/?p=34623
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/apply-cyberbiz-payments
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/apply-cyberbiz-payments/"
 comments: false
 search:
   exclude: false

@@ -1,13 +1,11 @@
 ---
 title: 多國語系支援語言對照表
-description: ""
+description: "彙整 CYBERBIZ 前台多國語系功能目前支援的語言，供商品、頁面等內容翻譯時共用參考。"
 created: 2026-06-03 22:03
 last_modified: 2026-07-02 10:05
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:
@@ -18,7 +16,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: ""
 plans:
@@ -40,13 +38,14 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/products/references/multi-language-supported/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide:
 ---
+
 
 本對照表彙整 CYBERBIZ 前台多國語系功能目前支援的語言，供商品條件分類、商品、頁面等內容翻譯時共用參考。
 ## 支援語言對照表 { #multi-language-supported }

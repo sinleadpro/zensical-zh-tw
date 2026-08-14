@@ -5,8 +5,6 @@ created: 2026-03-08 10:00
 last_modified: 2026-07-22 17:24
 lang: zh-TW
 type: guide
-status: ""
-version: ""
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -31,7 +29,6 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions: []
-feature_badges: []
 intents:
   - 設定超商物流限制
   - 排除超商物流
@@ -70,7 +67,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=950
   - https://www.cyberbiz.io/support/?p=2025
-permalink: https://help.cyberbiz.io/ec/products/shipping/cvs-shipping-restrictions-exclusions
+permalink: "https://help.cyberbiz.io/ec/products/shipping/cvs-shipping-restrictions-exclusions/"
 comments: false
 search:
   exclude: false

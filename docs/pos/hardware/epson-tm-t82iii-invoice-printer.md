@@ -4,9 +4,7 @@ description: 了解如何安裝 EPSON TM-T82III 發票機，包含硬體整備�
 created: 2026-03-25 20:45
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,8 +18,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -32,11 +30,11 @@ cyb_extensions: []
 intents:
   - 如何安裝EPSON發票機
   - TM-T82III驅動程式下載
-  - 解決EPSON發票機COM_Port衝突
+  - 解決EPSON發票機COM Port衝突
   - 調整發票列印寬度
 features:
   - 發票機串接
-  - TM_Virtual_Port_Driver
+  - TM Virtual Port Driver
   - 58mm發票列印
   - 自動裁刀
 prerequisites: []
@@ -45,7 +43,7 @@ tags:
   - EPSON
   - 發票機
   - TM-T82III
-  - POS_硬體
+  - POS 硬體
   - 驅動程式
 acoiv: configure
 apis: []
@@ -60,7 +58,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=52249
-permalink: https://help.cyberbiz.io/pos/hardware/epson-tm-t82iii-invoice-printer
+permalink: "https://help.cyberbiz.io/pos/hardware/epson-tm-t82iii-invoice-printer/"
 comments: false
 search:
   exclude: false

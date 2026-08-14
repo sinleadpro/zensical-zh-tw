@@ -4,10 +4,8 @@ description: 將篩選出的會員 UID 同步至 LINE OA 建立受眾，用於�
 created: 2026-03-06 11:46
 last_modified: 2026-07-22 15:48
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/integrations/line/marketing/setup-line-oa-audience
-type: tutorial
-status: ""
-version: ""
+permalink: "https://help.cyberbiz.io/ec/integrations/line/marketing/setup-line-oa-audience/"
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -39,7 +37,7 @@ features:
   - 會員分群
   - LINE Messaging API
 prerequisites:
-  - "[[connect-line-messaging-api]]"
+  - "ec/integrations/line/account-integration/connect-line-messaging-api"
 related: []
 tags:
   - LINE OA
@@ -66,9 +64,7 @@ search:
   exclude: false
 icon: lucide/split
 hide:
-aliases: []
 comments: false
-id: 設定 LINE OA 受眾串接
 ---
 
 ![LINE受眾串接](../../../../assets/images/ec-會員-所有會員-line受眾.png){ .hero-page title="LINE受眾串接" }

@@ -4,9 +4,7 @@ description: 指引商家申請並串接 iPASS MONEY（一卡通）支付服務�
 created: 2026-03-16 00:00
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans: []
@@ -53,7 +51,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12633
   - https://www.cyberbiz.io/support/?p=51378
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-ipass-money
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-ipass-money/"
 comments: false
 search:
   exclude: false

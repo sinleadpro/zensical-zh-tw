@@ -4,9 +4,7 @@ description: 說明如何設定優惠券，包含全館發送、批次匯入發�
 created: 2026-05-27 16:30
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -40,8 +38,8 @@ features:
   - 註冊贈禮
 prerequisites: []
 related: 
-  - "[[設定優惠碼與贈品券]]"
-  - "[[設定紅利點數與發送指南]]"
+  - "設定優惠碼與贈品券"
+  - "設定紅利點數與發送指南"
 tags: 
   - 優惠券
   - 折價券
@@ -65,7 +63,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5686
   - https://www.cyberbiz.io/support/?p=11928
   - https://www.cyberbiz.io/support/?p=6207
-permalink: https://help.cyberbiz.io/ec/marketing/coupon/setup-coupons
+permalink: "https://help.cyberbiz.io/ec/marketing/coupon/setup-coupons/"
 comments: false
 search:
   exclude: false

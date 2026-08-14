@@ -4,9 +4,7 @@ description: LINEX 提供彈性的跨境物流解決方案，商家可依需求�
 created: 2026-03-04 00:00
 last_modified: 2026-08-10 11:20
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -26,7 +24,7 @@ sites:
   - US
   - JP
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -65,7 +63,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8214
   - https://www.cyberbiz.io/support/?p=38562
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/linex-cross-border-logistics
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/linex-cross-border-logistics/"
 comments: false
 search:
   exclude: false

@@ -4,10 +4,8 @@ description: 串接 LINE 認證權限，在快速登入流程中自動取得並�
 created: 2026-02-16 00:00
 last_modified: 2026-08-05 11:20
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-line-quick-login-phone-number
-type: tutorial
-status: ""
-version: ""
+permalink: "https://help.cyberbiz.io/ec/integrations/line/account-integration/setup-line-quick-login-phone-number/"
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -20,9 +18,9 @@ modules:
   - 第三方整合
 sites: []
 audiences:
-  - 商家
-  - 管理員
-difficulty: medium
+  - merchant
+  - merchant
+difficulty: intermediate
 tnb: trunk
 plans:
   - 專業

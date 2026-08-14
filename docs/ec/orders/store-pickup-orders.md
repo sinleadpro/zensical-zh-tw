@@ -4,13 +4,10 @@ description: 當顧客選擇「門市取貨」下單後，管理員需透過後�
 created: 2026-04-24 14:00
 last_modified: 2026-07-15 16:40
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
-aliases: []
 ga_views: 0
 feedback: 0
 products:
@@ -20,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -35,10 +32,10 @@ features:
   - 到店條碼
   - 退回總倉
 prerequisites:
-  - [[建立與管理門市]]
-  - [[設定門市取貨服務]]
+  - "建立與管理門市"
+  - "設定門市取貨服務"
 related:
-  - [[建立與管理門市]]
+  - "建立與管理門市"
 tags:
   - 門市取貨
   - 出貨流程
@@ -55,11 +52,10 @@ ui_components:
   - 退貨審查
 paths:
   - 訂單 > 門市訂單
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=10522
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/store-pickup-orders/"
 comments: false
 search:
   exclude: false

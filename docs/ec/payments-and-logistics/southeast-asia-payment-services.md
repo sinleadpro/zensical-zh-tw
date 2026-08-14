@@ -4,9 +4,7 @@ description: CYBERBIZ 提供標準信用卡服務，更整合了在地龍頭金�
 created: 2026-03-03 00:00
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -17,9 +15,9 @@ products:
 modules:
   - 金物流
 sites:
-  - 東南亞
+  - SEA
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -33,7 +31,7 @@ features:
   - 東南亞站
   - 馬來西亞金流
   - 新加坡金流
-  - Fiuu_支付
+  - Fiuu 支付
 prerequisites: []
 related: []
 tags:
@@ -51,7 +49,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=37692
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/southeast-asia-payment-services
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/southeast-asia-payment-services/"
 comments: false
 search:
   exclude: false

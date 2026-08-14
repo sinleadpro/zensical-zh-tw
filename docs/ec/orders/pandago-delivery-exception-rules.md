@@ -5,8 +5,6 @@ created: 2026-02-06 00:00
 last_modified: 2026-06-04 17:59
 lang: zh-TW
 type: troubleshooting
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -57,7 +55,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=13253
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/pandago-delivery-exception-rules/"
 comments: false
 search:
   exclude: false

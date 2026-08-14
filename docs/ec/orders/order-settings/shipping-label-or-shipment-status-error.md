@@ -4,9 +4,7 @@ description: 託運單下載失敗、貨態未更新常見原因與處理方式�
 created: 2026-06-08 20:12
 last_modified: 2026-06-30 10:08
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: 
@@ -44,17 +42,17 @@ features:
   - DHL 跨境物流
 prerequisites: []
 related:
-  - "[[配送狀態對照表]]"
-  - "[[設定訂單部分出貨]]"
-  - "[[處理付款失敗訂單]]"
-  - "[[申請綠界金流與超商取貨付款]]"
-  - "[[使用黑貓宅配出貨]]"
-  - "[[設定與加印黑貓託運單]]"
-  - "[[操作超商店到店 C2C 出貨]]"
-  - "[[使用超商大宗寄倉（B2C）出貨]]"
-  - "[[使用 7-11 C2C 退貨便]]"
-  - "[[補印與加印託運單]]"
-  - "[[DHL 跨境物流]]"
+  - "ec/orders/references/fulfillment-statuses"
+  - "ec/orders/home-delivery/partial-shipment-v2"
+  - "ec/orders/payment-failed"
+  - "ec/payments-and-logistics/apply-for-ecpay-payment-and-cvs-cod"
+  - "ec/orders/home-delivery/tcat-home-delivery-v2"
+  - "ec/payments-and-logistics/setup-print-tcat-waybill-v2"
+  - "ec/orders/cvs-shipping/cvs-c2c-shipping"
+  - "ec/orders/cvs-shipping/cvs-b2c-bulk-shipping"
+  - "ec/orders/returns-refunds/7-11-c2c-return"
+  - "補印與加印託運單"
+  - "ec/payments-and-logistics/dhl-cross-border-logistics"
 tags:
   - 託運單
   - 貨態異常
@@ -73,7 +71,7 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4407
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/order-settings/shipping-label-or-shipment-status-error/"
 comments: false
 search:
   exclude: false

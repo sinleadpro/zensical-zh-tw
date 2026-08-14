@@ -4,9 +4,7 @@ description: 手動結案訂單，包含單筆與批次操作方式，以及結�
 created: 2026-05-06 15:57
 last_modified: 2026-06-30 09:20
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: 
@@ -40,7 +38,7 @@ features:
   - 第三方分潤
 prerequisites: []
 related:
-  - "[[auto-close-order-settings]]"
+  - "ec/orders/order-settings/auto-close-order-settings"
 tags:
   - 訂單結案
   - 手動結案
@@ -58,7 +56,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=192
   - https://www.cyberbiz.io/support/?p=1677
-permalink: https://help.cyberbiz.io/ec/orders/order-settings/manual-order-close
+permalink: "https://help.cyberbiz.io/ec/orders/order-settings/manual-order-close/"
 comments: false
 search:
   exclude: false

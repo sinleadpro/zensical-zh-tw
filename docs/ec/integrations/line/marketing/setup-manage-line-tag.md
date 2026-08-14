@@ -4,9 +4,7 @@ description: 設定 LINE Tag ID，並追蹤 LINE OA 訊息推播或 LINE LAP 廣
 created: 2026-03-10 15:13
 last_modified: 2026-07-14 17:10
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -35,9 +33,9 @@ intents:
   - 如何追蹤 LINE 廣告成效
   - 如何建立 LINE 網站流量受眾
 features:
-  - LINE_Tag
-  - LINE_OA 整合
-  - LINE_LAP 廣告追蹤
+  - LINE Tag
+  - LINE OA 整合
+  - LINE LAP 廣告追蹤
   - 網站流量受眾
 prerequisites:
   - 建立 LINE 官方帳號
@@ -62,13 +60,11 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4769
   - https://www.cyberbiz.io/support/?p=28602
-permalink: https://help.cyberbiz.io/ec/integrations/line/marketing/setup-manage-line-tag
+permalink: "https://help.cyberbiz.io/ec/integrations/line/marketing/setup-manage-line-tag/"
 search:
   exclude: false
 icon: lucide/code
 hide: []
-aliases: []
-id: 設定與管理 LINE Tag
 comments: false
 ---
 

@@ -2,15 +2,12 @@
 title: 小結與關帳作業
 description: 透過小結與關帳作業，門市人員可定期清點營收、記錄現金差額，並完成每日的帳務結算。
 created: 2026-04-07 17:00
-last_modified: 2026-05-28 14:48
+last_modified: 2026-07-29 14:10
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
-notes:
-  - 常見問題ai製需確認
+notes: []
 ga_views: 0
 feedback: 0
 products:
@@ -19,12 +16,15 @@ modules:
   - 其他功能
 sites:
   - TW
-tnb: trunk
-plans: []
+tnb: branch
+plans:
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 cyb_extensions: []
 audiences:
-  - clerk
-  - admin
+  - merchant
+  - merchant
 difficulty: beginner
 intents:
   - 執行 POS 小結
@@ -36,7 +36,7 @@ features:
 prerequisites:
   - 需先完成當班的所有交易訂單
 related:
-  - [[員工權限與帳號管理]]
+  - "pos/store/staff-permissions-and-account-management"
 tags:
   - 小結
   - 關帳
@@ -52,8 +52,9 @@ ui_components:
 paths:
   - 其他功能 > 小結關帳
 layouts: []
-wp_url: []
-permalink: "https://help.cyberbiz.io/pos/others/daily-closing"
+wp_url: 
+  - https://www.cyberbiz.io/support/?p=3036
+permalink: "https://help.cyberbiz.io/pos/others/daily-closing/"
 comments: false
 search:
   exclude: false
@@ -130,6 +131,23 @@ hide: []
 3. 點選 **儲存** 完成設定。
 
 ![](../../assets/images/POS-前台-其他功能-小結關帳-零用金設定01.png){ .screenshot }
+
+
+### 列印紙本帳條
+
+完成小結或關帳後，可透過 **發票機** 列印帳條，作為交班與財務對帳憑證。
+
+- **列印內容**：**前台當下顯示的小結／關帳資訊**。
+
+- **操作方式**：完成小結或關帳作業後，點選 **列印帳條**，由發票機輸出紙本帳條。
+
+    ![](../../assets/images/POS-前台-其他功能-小結關帳-列印紙本帳條01.png){ .screenshot }
+
+- **帳條範例**：
+
+    ![](../../assets/images/POS-前台-其他功能-小結關帳-列印紙本帳條02.jpg){ .small-image }
+
+
 
 
 ## 常見問題

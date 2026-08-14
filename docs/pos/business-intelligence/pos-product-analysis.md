@@ -4,9 +4,7 @@ description: 掌握各 POS 實體門市的商品銷售表現，從銷售額、�
 created: 2026-06-23 14:30
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -29,7 +27,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 查看 POS 商品銷售排名
   - 分析商品回購表現
@@ -42,9 +39,9 @@ prerequisites:
   - 已開通並使用 CYBERBIZ POS
   - 方案需包含圖表分析功能
 related:
-  - "[[omo-analysis-report]]"
-  - "[[product-chart]]"
-  - "[[order-analysis]]"
+  - "ec/business-intelligence/omo-analysis-report"
+  - "ec/business-intelligence/product-chart"
+  - "ec/business-intelligence/order-analysis"
 tags:
   - POS
   - 商品分析
@@ -62,7 +59,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=28253
-permalink: https://help.cyberbiz.io/pos/business-intelligence/pos-product-analysis
+permalink: "https://help.cyberbiz.io/pos/business-intelligence/pos-product-analysis/"
 comments: false
 search:
   exclude: false

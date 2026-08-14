@@ -4,9 +4,7 @@ description: 自訂出貨明細的顯示內容、套用列印模板，以及從�
 created: 2026-05-08 16:00
 last_modified: 2026-07-13 12:36
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -42,7 +40,7 @@ features:
   - 批次出貨打包
 prerequisites: []
 related:
-  - "[[order-detail-print]]"
+  - "ec/orders/order-settings/order-detail-print"
 tags:
   - 出貨明細
   - 列印設定
@@ -62,7 +60,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=6364
-permalink: https://help.cyberbiz.io/ec/orders/order-settings/shipping-detail-print
+permalink: "https://help.cyberbiz.io/ec/orders/order-settings/shipping-detail-print/"
 comments: false
 search:
   exclude: false

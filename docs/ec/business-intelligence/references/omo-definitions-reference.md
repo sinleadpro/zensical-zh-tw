@@ -5,30 +5,27 @@ created: 2026-06-23 10:00
 last_modified: 2026-06-23 10:00
 lang: zh-TW
 type: reference
-status: ""
-version: ""
 author: Jase
 reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
 products:
-  - ec
+  - EC
 modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: ""
 plans: []
 cyb_extensions: []
-feature_badges: []
 intents: []
 features: []
 prerequisites: []
 related:
-  - "[[omo-analysis-report]]"
+  - "ec/business-intelligence/omo-analysis-report"
 tags:
   - OMO
   - 全通路
@@ -48,7 +45,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/business-intelligence/references/omo-definitions-reference/
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/omo-definitions-reference/"
 comments: false
 search:
   exclude: false

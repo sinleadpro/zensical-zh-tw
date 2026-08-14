@@ -4,9 +4,7 @@ description: "報表列表提供了多維度的數據分析工具，協助管理
 created: "2026-03-15 23:01"
 last_modified: 
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -18,7 +16,7 @@ modules: []
 sites:
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: ""
 tnb: branch
 plans: 
@@ -49,10 +47,10 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=25099
-permalink: https://help.cyberbiz.io/pos/orders/pos-reports-list-guide
+permalink: "https://help.cyberbiz.io/pos/inventory/pos-reports-list-guide/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/chart-bar
 hide:
 ---

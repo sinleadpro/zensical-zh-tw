@@ -4,9 +4,7 @@ description: 說明如何在 CYBERBIZ POS 設定「多付款方式」，讓單�
 created: 2026-04-10 17:00
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,8 +18,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -30,19 +28,19 @@ plans:
   - 企業
 cyb_extensions: []
 intents:
-  - 設定_POS_多付款方式
+  - 設定 POS 多付款方式
   - 拆分訂單支付金額
   - 設定不累計紅利的付款方式
 features:
-  - POS_多付款方式
+  - POS 多付款方式
   - 紅利累計規則
   - 補差額功能
 prerequisites:
-  - [[付款方式]]
+  - "index"
 related:
-  - [[付款方式]]
+  - "index"
 tags:
-  - POS_多付款方式
+  - POS 多付款方式
   - 禮券
   - 振興券
   - 紅利計算
@@ -61,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3268
   - https://www.cyberbiz.io/support/?p=7844
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/check/payment-method/multiple-payment-methods/"
 comments: false
 search:
   exclude: false

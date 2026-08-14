@@ -4,9 +4,7 @@ description: 透過 Meta 授權流程將 Facebook 粉絲專頁與 Chat Box 連�
 created: 2026-05-28 13:41
 last_modified: 2026-05-28 13:41
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -30,21 +28,21 @@ plans:
 cyb_extensions:
   - CHAT BOX
 intents:
-  - 串接_Facebook_粉絲專頁
-  - 授權_Meta_帳號
-  - 管理_Facebook_訊息
+  - 串接 Facebook 粉絲專頁
+  - 授權 Meta 帳號
+  - 管理 Facebook 訊息
 features:
-  - Meta_授權
-  - Facebook_Messenger_整合
-  - Chat_Box
+  - Meta 授權
+  - Facebook Messenger 整合
+  - Chat Box
 prerequisites:
   - 需擁有 Facebook 粉絲專頁管理員權限
 related:
-  - "[[Chat Box 訊息通]]"
-  - "[[Meta 訊息格式規範]]"
+  - "ec/app-market/chatbox/index"
+  - "ec/app-market/chatbox/meta-message-format-spec"
 tags:
-  - Facebook_串接
-  - Meta_授權
+  - Facebook 串接
+  - Meta 授權
   - ChatBox
   - Messenger
 acoiv: configure
@@ -62,7 +60,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=13010
   - https://www.cyberbiz.io/support/?p=52927
   - https://www.cyberbiz.io/support/?p=53334
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/chatbox/connect-chat-box-to-facebook-page/"
 comments: false
 search:
   exclude: false

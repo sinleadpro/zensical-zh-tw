@@ -1,25 +1,23 @@
 ---
 title: 訂單相關設定
 description: 設定訂單成立的金額門檻、未付款與付款失敗提醒、自動結案與自動取消規則、顧客前台取消退貨權限，以及訂單明細與揀貨單的列印內容。
-created: 2026-06-16
+created: 2026-06-16 00:00
 last_modified: 2026-07-09 11:41
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
 products:
-  - ec
+  - EC
 modules:
   - 金物流
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: ""
 plans:
@@ -27,7 +25,6 @@ plans:
   - 進階
   - 高手
 cyb_extensions: []
-feature_badges: []
 intents:
   - 設定訂單最低消費金額與累計金額防護
   - 設定未付款與付款失敗提醒
@@ -53,9 +50,9 @@ prerequisites:
   - 若需使用訂單取消退貨相關紅利設定，請確認已開通對應加值功能
   - 顧客取消訂單與申請退貨設定僅適用於拖拉版型
 related:
-  - "[[order-auto-close-types-reference]]"
-  - "[[cart-settings]]"
-  - "[[logistics-settings]]"
+  - "ec/orders/references/order-auto-close-types-reference"
+  - "ec/payments-and-logistics/payments/cart-settings"
+  - "ec/payments-and-logistics/payments/logistics-settings"
 tags:
   - 訂單設定
   - 訂單最低消費金額
@@ -74,7 +71,7 @@ ui_components: []
 paths:
   - 金物流 > 結帳頁 & 物流設定
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/order-settings/
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/payments/order-settings/"
 icon: lucide/receipt
 ---
 

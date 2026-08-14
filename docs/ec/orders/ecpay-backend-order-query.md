@@ -5,8 +5,6 @@ created: 2026-02-13 00:00
 last_modified: 2026-06-04 17:59
 lang: zh-TW
 type: reference
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -36,7 +34,7 @@ features:
   - 綠界物流
   - 訂單查詢
 prerequisites:
-  - [[已開通綠界金流或物流服務]]
+  - "已開通綠界金流或物流服務"
 related: []
 tags:
   - 綠界科技
@@ -54,7 +52,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3966
   - https://www.cyberbiz.io/support/?p=21450
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/ecpay-backend-order-query/"
 comments: false
 search:
   exclude: false

@@ -4,9 +4,7 @@ description: 設定商品加價購及多款式加購商品的價格與前台顯�
 created: 2026-01-12 00:00
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -57,7 +55,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11189
   - https://www.cyberbiz.io/support/?p=7356
   - https://www.cyberbiz.io/support/?p=953
-permalink: https://help.cyberbiz.io/ec/marketing/upsells/setup-product-upsell
+permalink: "https://help.cyberbiz.io/ec/marketing/upsells/setup-product-upsell/"
 comments: false
 search:
   exclude: false

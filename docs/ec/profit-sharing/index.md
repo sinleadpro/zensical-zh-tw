@@ -5,8 +5,6 @@ created: 2026-02-06 00:00
 last_modified: 2026-06-30 10:52
 lang: zh-TW
 type: guide
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -37,10 +35,10 @@ features:
   - 註冊人分潤
 prerequisites: []
 related:
-  - [[設定推薦人分潤方案]]
-  - [[設定註冊人分潤方案]]
-  - [[匯出分潤報表]]
-  - [[查詢分潤夥伴與代碼資訊]]
+  - "設定推薦人分潤方案"
+  - "設定註冊人分潤方案"
+  - "ec/profit-sharing/export-profit-sharing-reports"
+  - "ec/profit-sharing/query-profit-sharing-partners-and-codes"
 tags: []
 acoiv: activate
 apis: []
@@ -54,7 +52,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=28632
-permalink: https://help.cyberbiz.io/ec/profit-sharing
+permalink: "https://help.cyberbiz.io/ec/profit-sharing/"
 comments: false
 search:
   exclude: false

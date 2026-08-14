@@ -1,13 +1,11 @@
 ---
 title: 超商物流部分出貨支援對照表
-description: ""
+description: "彙整支援部分出貨的超商物流類型，說明哪些可正常多次出貨、哪些需改以自訂出貨。"
 created: 2026-05-26 18:41
 last_modified: 2026-07-02 08:51
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:
@@ -18,7 +16,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: ""
 plans:
@@ -43,13 +41,14 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/orders/references/cvs-partial-shipping-support
+permalink: "https://help.cyberbiz.io/ec/orders/references/cvs-partial-shipping-support/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide:
 ---
+
 
 ### 支援部分出貨的超商物流 { #cvs-partial-support-supported }
 
@@ -70,4 +69,3 @@ hide:
 - 黑貓快速到店－常溫
 - 黑貓快速到店－冷藏
 - 黑貓快速到店－冷凍
-

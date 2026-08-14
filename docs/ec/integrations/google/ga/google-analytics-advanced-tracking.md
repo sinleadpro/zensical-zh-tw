@@ -4,9 +4,7 @@ description: 加強型評估、Google 信號、資料保留期限調整及報表
 created: 2026-03-20 17:50
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: trunk
 plans:
@@ -38,16 +36,16 @@ intents:
   - 調整資料保留期限
   - 報表識別資訊設定
 features:
-  - Google_Analytics_4
+  - Google Analytics 4
   - 加強型評估
-  - Google_信號
+  - Google 信號
   - 資料保留
   - 報表識別資訊
 prerequisites:
-  - "[[setup-google-analytics]]"
+  - "ec/integrations/google/ga/setup-google-analytics"
 related:
-  - "[[setup-google-analytics]]"
-  - "[[ga4-exclude-internal-traffic-and-referrals]]"
+  - "ec/integrations/google/ga/setup-google-analytics"
+  - "ec/integrations/google/ga/ga4-exclude-internal-traffic-and-referrals"
 tags:
   - GA4
   - Google Analytics
@@ -66,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7099
   - https://www.cyberbiz.io/support/?p=36980
-permalink: https://help.cyberbiz.io/ec/integrations/google/ga/google-analytics-advanced-tracking
+permalink: "https://help.cyberbiz.io/ec/integrations/google/ga/google-analytics-advanced-tracking/"
 search:
   exclude: false
 icon: lucide/chart-column-increasing

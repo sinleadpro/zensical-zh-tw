@@ -4,9 +4,7 @@ description: 直接於管理後台辦理 POS 系統續約或加購子機，無�
 created: 2026-04-10 10:00
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: []
@@ -37,7 +35,7 @@ tags:
   - POS 續約
   - 加購子機
   - 合約管理
-  - POS_方案
+  - POS 方案
 acoiv: operation
 apis: []
 devices:
@@ -52,7 +50,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=24441
-permalink: https://help.cyberbiz.io/pos/store/renewal-and-add-on-plans
+permalink: "https://help.cyberbiz.io/pos/store/renewal-and-add-on-plans/"
 comments: false
 search:
   exclude: false

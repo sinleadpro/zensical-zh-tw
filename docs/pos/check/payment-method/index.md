@@ -4,9 +4,7 @@ description: 管理 POS 前台提供的支付工具，包含現金、信用卡�
 created: 2026-04-10 16:30
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -29,19 +27,19 @@ plans:
   - 企業
 cyb_extensions: []
 intents:
-  - 設定_POS_付款方式
+  - 設定 POS 付款方式
   - 串接信用卡機
   - 設定行動支付
 features:
-  - POS_付款方式
+  - POS 付款方式
   - 信用卡機串接
   - 多付款方式
 prerequisites: []
 related: []
 tags:
-  - POS_付款方式
+  - POS 付款方式
   - 信用卡
-  - LINE_Pay
+  - LINE Pay
   - 行動支付
 acoiv: configure
 apis: []
@@ -55,7 +53,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3060
-permalink: https://help.cyberbiz.io/pos/check/payment-method
+permalink: "https://help.cyberbiz.io/pos/check/payment-method/"
 comments: false
 search:
   exclude: false

@@ -4,10 +4,8 @@ description: 管理與編輯系統自動發送的 Email 通知樣板，包括內
 created:
 last_modified: 2026-07-01 21:55
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/notifications/manage-email-templates
-type: tutorial
-status:
-version:
+permalink: "https://help.cyberbiz.io/ec/notifications/manage-email-templates/"
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -32,8 +30,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges:
-  - 多國語系
 intents:
   - 管理 Email 樣板
   - 自訂 Email 通知

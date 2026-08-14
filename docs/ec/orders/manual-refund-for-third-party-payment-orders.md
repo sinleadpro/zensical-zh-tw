@@ -4,9 +4,7 @@ description: 當 LINE Pay、街口支付或 PayPal 訂單因商家金流帳戶�
 created: 2026-03-03 00:00
 last_modified: 2026-07-14 17:40
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -28,7 +26,6 @@ plans:
   - 高手
   - 企業
 cyb_extensions:
-  - PAYMENTS
 intents:
   - 執行人工退款操作
   - 手動更新訂單狀態
@@ -52,7 +49,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=39872
-permalink: manual-refund-for-third-party-payments
+permalink: "https://help.cyberbiz.io/ec/orders/manual-refund-for-third-party-payment-orders/"
 comments: false
 search:
   exclude: false

@@ -4,9 +4,7 @@ description: "匯出定期定額子訂單預測報表，查核未來預計出貨
 created: "2026-03-16 00:15"
 last_modified: 2026-06-08 17:50
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: branch
 plans:
@@ -31,11 +29,11 @@ intents:
   - 備貨預測
 features:
   - 定期定額子訂單匯出
-  - Excel匯出
+  - Excel 匯出
   - 預測報表
 prerequisites: []
 related:
-  - "[[export-order-report]]"
+  - "ec/orders/reports/export-order-report"
 tags:
   - 定期定額
   - 子訂單
@@ -52,7 +50,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=6794
-permalink: https://help.cyberbiz.io/ec/orders/reports/export-subscription-forecast
+permalink: "https://help.cyberbiz.io/ec/orders/reports/export-subscription-forecast/"
 comments: false
 search:
   exclude: false

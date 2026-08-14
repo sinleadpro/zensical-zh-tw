@@ -5,8 +5,6 @@ created: 2026-05-28 10:15
 last_modified: 2026-05-28 10:20
 lang: zh-TW
 type: guide
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:
@@ -21,7 +19,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans: []
@@ -33,7 +31,7 @@ intents:
   - 再行銷名單
 features: 
   - 會員篩選器
-  - ORFM_分析
+  - ORFM 分析
   - 智慧篩選
   - 會員標籤
 prerequisites: []
@@ -58,7 +56,7 @@ layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=5773
   - https://www.cyberbiz.io/support/?p=6893
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/members/member-filters-and-groups/"
 comments: false
 search:
   exclude: false

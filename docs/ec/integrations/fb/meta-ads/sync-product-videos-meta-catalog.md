@@ -4,10 +4,8 @@ description: 將 CYBERBIZ 商品影片同步至 Meta 目錄，放置目錄型廣
 created: 2026-04-21 14:27
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -36,10 +34,10 @@ features:
   - Meta 目錄
   - CPV 廣告
 prerequisites:
-  - "[[setup-product-videos]]"
-  - "[[setup-fbe-authorization]]"
+  - "ec/products/create-and-manage/setup-product-videos"
+  - "ec/integrations/fb/mbe/setup-fbe-authorization"
 related:
-  - "[[setup-meta-ad-campaign]]"
+  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
 tags:
   - Meta 目錄
   - 商品影片
@@ -54,14 +52,14 @@ ui_components: []
 paths:
   - 第三方整合 > 臉書 Facebook 設定
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7886
   - https://www.cyberbiz.io/support/?p=2175
-permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/sync-product-videos-meta-catalog
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/sync-product-videos-meta-catalog/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/play
 hide:
 ---

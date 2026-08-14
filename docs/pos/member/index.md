@@ -4,13 +4,10 @@ description: 透過 POS 前台快速註冊新會員、查詢顧客資料與管�
 created: 2026-04-16 10:00
 last_modified: 2026-06-22 11:15
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
-aliases: []
 ga_views: 0
 feedback: 0
 products:
@@ -20,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - clerk
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -38,9 +35,9 @@ features:
   - 分潤方案
 prerequisites: []
 related:
-  - [[設定推薦人分潤方案]]
+  - "設定推薦人分潤方案"
 tags:
-  - POS_會員管理
+  - POS 會員管理
   - 會員註冊
   - 分潤方案
 acoiv: operation
@@ -56,11 +53,10 @@ ui_components:
   - QR Code
 paths:
   - POS 前台 > 會員
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=27954
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/member/"
 comments: false
 search:
   exclude: false

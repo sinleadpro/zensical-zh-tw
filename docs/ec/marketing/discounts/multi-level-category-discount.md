@@ -4,10 +4,8 @@ description: 設定針對商品多層級分類的滿額折扣活動，當訂單�
 created: 2024-05-23 00:00
 last_modified: 2026-07-22 17:36
 lang: zh-TW
-type: tutorial
-status:
-version:
-author: 
+type: guide
+author: ""
 reviewers: []
 notes: []
 ga_views: 0
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -36,7 +34,7 @@ features:
   - 商品多層級分類滿額折扣
   - 商品多層級分類
 prerequisites:
-  - "[[multi-level-category-setup]]"
+  - "ec/products/categories-and-tags/multi-level-category-setup"
 related: []
 tags:
   - 行銷活動
@@ -57,7 +55,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9212
   - https://www.cyberbiz.io/support/?p=43281
-permalink: https://help.cyberbiz.io/ec/marketing/discounts/multi-level-category-discount
+permalink: "https://help.cyberbiz.io/ec/marketing/discounts/multi-level-category-discount/"
 comments: false
 search:
   exclude: false

@@ -5,9 +5,7 @@ description: 當 Meta 廣告創建失敗時，透過手動分享資產權限（�
 created: 2026-04-21 16:01
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -39,9 +37,9 @@ features:
   - Meta Ads
   - 資產權限
 prerequisites:
-  - "[[create-meta-ad-account-top-up]]"
+  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
 related:
-  - "[[setup-meta-ad-campaign]]"
+  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
 tags:
   - Meta Ads
   - 資產權限
@@ -59,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10681
   - https://www.cyberbiz.io/support/?p=44556
-permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/share-asset-permissions-cyberbiz
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/share-asset-permissions-cyberbiz/"
 comments: false
 search:
   exclude: false

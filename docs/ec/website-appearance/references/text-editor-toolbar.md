@@ -5,8 +5,6 @@ created: 2026-06-30 15:19
 last_modified: 2026-07-02 16:02
 lang: zh-TW
 type: reference
-status: ""
-version: ""
 author: Jase
 reviewers: []
 notes: []
@@ -18,17 +16,16 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: ""
 plans: []
 cyb_extensions: []
-feature_badges: []
 intents: []
 features: []
 prerequisites: []
 related:
-  - "[[text-editor]]"
+  - "ec/website-appearance/code-customization/text-editor"
 tags:
   - 文字編輯器
   - 斜線指令
@@ -42,7 +39,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/website-appearance/references/text-editor-toolbar/
+permalink: "https://help.cyberbiz.io/ec/website-appearance/references/text-editor-toolbar/"
 comments: false
 search:
   exclude: false

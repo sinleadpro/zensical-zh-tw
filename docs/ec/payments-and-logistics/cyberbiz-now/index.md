@@ -1,10 +1,15 @@
 ---
+author: ""
+reviewers: []
 title: CYBERBIZ NOW 快速到貨
 description: 即時外送服務，1-2 小時內將門市商品配送到消費者手中，提升購物體驗。
+lang: zh-TW
 icon: lucide/badge-percent
 hide:
   - feedback
+products: [EC]
 notes: []
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/cyberbiz-now/"
 ---
 
 # CYBERBIZ NOW 快速到貨：即時營運導航

@@ -4,9 +4,7 @@ description: 說明如何設定 POS 前台的圖形化商品選單，透過多�
 created: 2026-06-01 16:22
 last_modified: 2026-06-01 16:22
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: 
@@ -20,7 +18,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -58,7 +56,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=11224
-permalink:
+permalink: "https://help.cyberbiz.io/pos/check/pos-frontend-menu-settings/"
 comments: false
 search:
   exclude: false

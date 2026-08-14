@@ -4,9 +4,7 @@ description: 設定訂單加價購可依訂單金額或條件作為觸發門檻�
 created: 2026-01-12 00:00
 last_modified: 2026-07-22 17:39
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -54,7 +52,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11186
   - https://www.cyberbiz.io/support/?p=7367
-permalink: https://help.cyberbiz.io/ec/marketing/upsells/setup-order-upsell
+permalink: "https://help.cyberbiz.io/ec/marketing/upsells/setup-order-upsell/"
 comments: false
 search:
   exclude: false

@@ -4,10 +4,8 @@ description: 自訂物流的三種出貨方式：批次標記為已出貨、Exce
 created: 2026-05-11 21:44
 last_modified: 2026-06-30 10:12
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: 
@@ -42,9 +40,9 @@ features:
   - 單筆訂單手動出貨
 prerequisites: []
 related:
-  - "[[manual-order-close]]"
-  - "[[auto-close-order-settings]]"
-  - "[[訂單退貨流程]]"
+  - "ec/orders/order-settings/manual-order-close"
+  - "ec/orders/order-settings/auto-close-order-settings"
+  - "ec/orders/order-return-process"
 tags:
   - 自訂物流
   - 出貨
@@ -64,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=105
   - https://www.cyberbiz.io/support/?p=982
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/custom-logistic-shipping
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/custom-logistic-shipping/"
 comments: false
 search:
   exclude: false

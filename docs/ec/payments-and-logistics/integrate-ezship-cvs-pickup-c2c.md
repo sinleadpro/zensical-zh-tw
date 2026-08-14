@@ -4,9 +4,7 @@ description: 透過 ezShip 便利配串接，商家可以一次開啟全家、�
 created: 2026-02-03 00:00
 last_modified: 2026-06-04 17:59
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -38,8 +36,8 @@ features:
   - 超商取貨
   - C2C 寄件
 prerequisites:
-  - [[申請 ezShip 帳號]]
-  - [[確保會員註冊欄位已將「電子郵件」設為必填]]
+  - "申請 ezShip 帳號"
+  - "確保會員註冊欄位已將「電子郵件」設為必填"
 related: []
 tags: []
 acoiv: configure
@@ -52,7 +50,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2524
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/integrate-ezship-cvs-pickup-c2c/"
 comments: false
 search:
   exclude: false

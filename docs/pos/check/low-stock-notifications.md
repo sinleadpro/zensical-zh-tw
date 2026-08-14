@@ -4,9 +4,7 @@ description: 商家可根據門市作業習慣，彈性設定 POS 前台在商�
 created: 2026-04-17 11:30
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -54,7 +52,7 @@ paths:
   - POS 功能 > 所有 POS 商店 > [店名]
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/pos/check/low-stock-notifications"
+permalink: "https://help.cyberbiz.io/pos/check/low-stock-notifications/"
 comments: false
 search:
   exclude: false

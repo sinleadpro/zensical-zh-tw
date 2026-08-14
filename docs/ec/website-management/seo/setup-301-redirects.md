@@ -2,11 +2,9 @@
 title: 設定 301 重定向網站轉址
 description: 設定 301 轉址，當網頁網址失效或變更時將流量導向新網址，以維護 SEO 排名。
 created: 2026-03-20 13:59
-last_modified: 2026-07-03T11:44:11+08:00
+last_modified: 2026-07-03 11:44
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: trunk
 plans:
@@ -36,13 +34,13 @@ intents:
   - 網站轉址
   - 維護_SEO_排名
 features:
-  - 301_重定向
+  - 301 重定向
   - 網站轉址
-  - Excel_匯入
+  - Excel 匯入
 prerequisites: []
 related:
-  - "[[submit-sitemap-to-gsc]]"
-  - "[[seo-guide]]"
+  - "ec/website-management/seo/submit-sitemap-to-gsc"
+  - "ec/website-management/seo/seo-guide"
 tags:
   - "301"
   - 轉址
@@ -60,7 +58,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3490
   - https://www.cyberbiz.io/support/?p=15390
-permalink: 301-redirect
+permalink: "https://help.cyberbiz.io/ec/website-management/seo/setup-301-redirects/"
 comments: false
 search:
   exclude: false

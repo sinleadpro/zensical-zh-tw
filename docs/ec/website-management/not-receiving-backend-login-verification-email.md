@@ -5,8 +5,6 @@ created: 2026-05-27 11:55
 last_modified: 2026-05-27 12:00
 lang: zh-TW
 type: troubleshooting
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:
@@ -22,7 +20,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: []
@@ -31,8 +29,8 @@ intents:
   - 解決收不到驗證信問題
   - 了解後台登入安全機制
 features: 
-  - MFA_驗證
-  - 2FA_驗證
+  - MFA 驗證
+  - 2FA 驗證
   - 資安防護
 prerequisites: []
 related: []
@@ -53,7 +51,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12859
   - https://www.cyberbiz.io/support/?p=52847
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/website-management/not-receiving-backend-login-verification-email/"
 comments: false
 search:
   exclude: false
@@ -116,7 +114,7 @@ hide: []
 
 ### 2. 進階登入安全防護
 利用 **IP 白名單** 與 **reCAPTCHA 驗證機制**，有效阻斷自動化腳本攻擊。
-> 前往設定：[安全性設定](security-settings.md)
+> 前往設定：[安全性設定](admin-security-settings.md)
 
 ### 3. 定期稽核與監測
 養成定期檢查「網站登入者名單」與「登入紀錄」的習慣，監測是否有不明 IP 或非授權人員存取。

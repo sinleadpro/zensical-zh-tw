@@ -4,10 +4,8 @@ description: 串接 CYBERBIZ 官網與美安 (SHOP.COM)，透過經銷商會員�
 created: 2026-03-30 22:08
 last_modified: 2026-07-21 10:00
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes:
   - 回報 IP verify
@@ -21,8 +19,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-difficulty: medium
+  - merchant
+difficulty: intermediate
 tnb: branch
 plans:
   - 進階
@@ -58,7 +56,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=850
   - https://www.cyberbiz.io/support/?p=647
-permalink: https://help.cyberbiz.io/ec/integrations/setup-shop-com
+permalink: "https://help.cyberbiz.io/ec/integrations/setup-shop-com/"
 comments: ""
 search:
   exclude: false

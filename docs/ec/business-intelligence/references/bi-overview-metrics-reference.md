@@ -1,13 +1,11 @@
 ---
 title: 圖表總覽指標對照表
 description: 認識 Business Intelligence 圖表總覽的四項核心指標：總流量、平均轉換率、平均客單價、回購率。
-created: 2026-06-15
+created: 2026-06-15 00:00
 last_modified: 2026-07-09 16:07
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 products:
@@ -16,7 +14,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 tags:
   - 報表分析
   - 流量分析
@@ -24,7 +22,7 @@ tags:
   - 客單價
   - 回購率
   - 指標對照
-permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/chart-overview-metrics-reference/"
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/bi-overview-metrics-reference/"
 icon: lucide/table
 hide:
 ---

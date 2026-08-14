@@ -4,9 +4,7 @@ description: 說明如何設定 POS 客顯螢幕的互動遊戲（如輪盤、�
 created: 2026-04-07 17:30
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -27,7 +25,7 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 intents:
   - 設定 POS 互動遊戲
@@ -39,7 +37,7 @@ features:
 prerequisites:
   - 需具備 POS 客顯螢幕設備
 related:
-  - - - 客顯螢幕
+  - 客顯螢幕
 tags:
   - POS
   - 客顯螢幕
@@ -59,7 +57,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=7666
-permalink: https://help.cyberbiz.io/pos/check/customer-display-interactive-games
+permalink: "https://help.cyberbiz.io/pos/check/customer-display-interactive-games/"
 comments: false
 search:
   exclude: false

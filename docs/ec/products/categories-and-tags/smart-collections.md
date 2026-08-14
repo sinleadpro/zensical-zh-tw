@@ -4,9 +4,7 @@ description: 依商品屬性與條件，自動將符合規則的商品分類至�
 created: 2026-01-15 00:00
 last_modified: 2026-07-22 17:40
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -54,7 +52,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9185
   - https://www.cyberbiz.io/support/?p=43379
   - https://www.cyberbiz.io/support/?p=7291
-permalink: https://help.cyberbiz.io/ec/products/categories-and-tags/smart-collections
+permalink: "https://help.cyberbiz.io/ec/products/categories-and-tags/smart-collections/"
 search:
   exclude: false
 icon: lucide/sparkles

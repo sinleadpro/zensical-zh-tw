@@ -5,8 +5,6 @@ created: 2026-06-11 16:05
 last_modified: 2026-06-30 10:56
 lang: zh-TW
 type: guide
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans: []
@@ -34,8 +32,8 @@ features:
   - 紅利點數
 prerequisites: []
 related: 
-  - "[[了解優惠券與優惠碼的差異]]"
-  - "[[設定紅利點數]]"
+  - "ec/marketing/coupon/index"
+  - "ec/marketing/bonus-and-gifts/setup-bonus-points"
 tags: 
   - 優惠計算
   - 折扣順序
@@ -54,7 +52,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=537
   - https://www.cyberbiz.io/support/?p=1141
-permalink: https://help.cyberbiz.io/ec/marketing/discounts/checkout-discount-calculation-order
+permalink: "https://help.cyberbiz.io/ec/marketing/discounts/checkout-discount-calculation-order/"
 search:
   exclude: false
 icon: lucide/calculator

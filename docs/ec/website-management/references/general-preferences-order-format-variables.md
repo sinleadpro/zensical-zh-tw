@@ -5,8 +5,6 @@ created: 2026-06-26 10:00
 last_modified: 2026-06-26 10:00
 lang: zh-TW
 type: reference
-status: ""
-version: ""
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: ""
 plans: []
@@ -42,7 +40,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/website-management/references/general-preferences-order-format-variables/
+permalink: "https://help.cyberbiz.io/ec/website-management/references/general-preferences-order-format-variables/"
 comments: false
 search:
   exclude: false

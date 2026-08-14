@@ -4,9 +4,7 @@ description: 上傳並管理商品影片，提升前台商品頁及彈窗的視�
 created: 2026-03-08 17:10
 last_modified: 2026-07-12 18:49
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -29,7 +27,7 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 intents:
   - 上傳商品影片
@@ -62,11 +60,11 @@ paths:
   - 商品 > 所有商品
   - 網站外觀 > 套版主題管理 > 網站設定
   - 商品 > 媒體庫
-layouts:
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1830
   - https://www.cyberbiz.io/support/?p=984
-permalink: https://help.cyberbiz.io/ec/products/create-and-manage/setup-product-videos
+permalink: "https://help.cyberbiz.io/ec/products/create-and-manage/setup-product-videos/"
 comments: false
 search:
   exclude: false

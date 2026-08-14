@@ -4,9 +4,7 @@ description: 學習如何配置官網內建的客服問答系統，包含設定�
 created: 2026-02-12 00:00
 last_modified: 2026-06-30 12:30
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -37,7 +35,7 @@ intents:
 features:
   - 客服問答系統
   - 訂單留言
-  - 顧客回饋建議
+  - 顧客回饋與建議
 prerequisites: []
 related: []
 tags:
@@ -57,7 +55,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=275
   - https://www.cyberbiz.io/support/?p=2754
-permalink: https://help.cyberbiz.io/ec/members/member-customer-service-system
+permalink: "https://help.cyberbiz.io/ec/members/member-customer-service-system/"
 comments: false
 search:
   exclude: false

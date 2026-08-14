@@ -4,9 +4,7 @@ description: 透過 CYBERBIZ 後台整合順豐海外物流，您可以直接產
 created: 2026-03-05 00:00
 last_modified: 2026-08-10 11:20
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -21,7 +19,7 @@ sites:
   - US
   - JP
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -58,7 +56,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11280
   - https://www.cyberbiz.io/support/?p=8060
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/sf-express-overseas-logistics
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/sf-express-overseas-logistics/"
 comments: false
 search:
   exclude: false

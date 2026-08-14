@@ -4,9 +4,7 @@ description: 建立「指定商品送紅利」群組，針對特定商品設定�
 created: 2026-01-21 00:00
 last_modified: 2026-07-07 12:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -35,7 +33,7 @@ features:
   - 商品群組
   - 商品標籤
 prerequisites:
-  - [[開啟商城紅利點數功能]]
+  - "開啟商城紅利點數功能"
 related: []
 tags: []
 acoiv: configure
@@ -50,7 +48,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1006
   - https://www.cyberbiz.io/support/?p=3489
-permalink: https://help.cyberbiz.io/ec/marketing/conditional-send/send-bonus-points-for-specific-products
+permalink: "https://help.cyberbiz.io/ec/marketing/conditional-send/send-bonus-points-for-specific-products/"
 comments: false
 search:
   exclude: false

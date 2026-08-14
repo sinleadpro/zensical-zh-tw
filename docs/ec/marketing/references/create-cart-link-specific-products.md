@@ -4,10 +4,8 @@ description: 建立特殊的購物車連結，自動將預設商品與數量加�
 created: 2026-04-29 14:06
 last_modified: 2026-08-06 11:20
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -56,7 +54,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=2369
-permalink: https://help.cyberbiz.io/ec/marketing/one-page-store/create-cart-link-specific-products
+permalink: "https://help.cyberbiz.io/ec/marketing/references/create-cart-link-specific-products/"
 comments: ""
 search:
   exclude: false

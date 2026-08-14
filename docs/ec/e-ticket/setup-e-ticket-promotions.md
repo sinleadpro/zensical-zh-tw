@@ -1,26 +1,19 @@
 ---
 title: 設定電子票券優惠
-version: ""
 last_modified: 2026-07-22 17:38
 description: 建立電子票券的任選折扣優惠活動，設定折扣層級與計價規則，並瞭解退票與撥款的計算方式。
 author: Jase
-product:
-  - EC
+reviewers: []
 modules:
   - 商品
-activ: configure
+acoiv: configure
 paths:
   - 行銷活動 > 電子票券任選折扣
-surfaces:
-  - 行銷活動 > 電子票券任選折扣
-ends:
-  - customer
-  - admin
 devices:
   - desktop
   - mobile
 apis: []
-type: tutorial
+type: guide
 intents:
   - configure
   - create
@@ -39,24 +32,24 @@ prerequisites: []
 lang: zh-TW
 sites:
   - TW
-status:
 tags:
   - 電子票券
   - 任選折扣
   - 優惠活動
-difficulty: medium
+difficulty: intermediate
 audiences: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5812
   - https://www.cyberbiz.io/support/?p=27477
+products: [EC]
 notes:
   - 電子票券左側選單之後改版
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/percent
 hide:
-permalink: https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions
+permalink: "https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions/"
 ---
 # 設定電子票券優惠
 建立電子票券的任選折扣優惠活動，設定折扣層級與計價規則，並瞭解退票與撥款的計算方式。

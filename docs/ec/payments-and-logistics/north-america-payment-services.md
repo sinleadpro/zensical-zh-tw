@@ -4,9 +4,7 @@ description: 北美站整合了國際主流的金流解決方案，包含信用�
 created: 2026-03-03 00:00
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - US
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -33,7 +31,7 @@ intents:
   - 配置購物車結帳規則
 features:
   - 北美站
-  - Stripe_支付
+  - Stripe 支付
   - PayPal
   - 電子錢包支付
 prerequisites: []
@@ -53,7 +51,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=30595
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/north-america-payment-services
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/north-america-payment-services/"
 comments: false
 search:
   exclude: false

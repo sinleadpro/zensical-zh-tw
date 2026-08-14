@@ -4,9 +4,7 @@ description: 門市人員在結帳時能針對整筆訂單進行彈性改價。�
 created: 2026-04-27 15:00
 last_modified: 2026-04-27 15:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,8 +17,8 @@ modules:
 sites: 
     - TW
 audiences: 
-    - admin
-    - clerk
+    - merchant
+    - merchant
 difficulty: beginner
 tnb: branch
 plans: 
@@ -33,13 +31,13 @@ intents:
     - POS 前台彈性改價
     - 管理 POS 店員改價權限
 features: 
-    - POS_整筆訂單折扣
+    - POS 整筆訂單折扣
     - 店長改價權限
     - 改價備註記錄
 prerequisites: []
 related: []
 tags: 
-    - POS_折扣
+    - POS 折扣
     - 整筆改價
     - 權限管理
     - 結帳優惠
@@ -58,7 +56,7 @@ paths:
 layouts: []
 wp_url: 
     - https://www.cyberbiz.io/support/?p=35401
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/check/storewide-order-discounts/"
 comments: false
 search:
   exclude: false

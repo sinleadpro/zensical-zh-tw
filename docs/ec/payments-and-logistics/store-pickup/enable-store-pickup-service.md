@@ -4,9 +4,7 @@ description: 完整的門市取貨功能設定流程，包含啟用功能、設�
 created: 2026-01-26 00:00
 last_modified: 2026-06-22 11:15
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -22,7 +20,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -41,7 +39,7 @@ features:
 prerequisites:
   - 需先完成門市建立
 related:
-  - [[處理門市取貨訂單]]
+  - "處理門市取貨訂單"
 tags:
   - 門市取貨
   - 門市管理
@@ -59,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5641
   - https://www.cyberbiz.io/support/?p=15619
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/store-pickup/enable-store-pickup-service/"
 comments: false
 search:
   exclude: false

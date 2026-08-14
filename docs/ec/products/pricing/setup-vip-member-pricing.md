@@ -4,9 +4,7 @@ description: 為不同等級的 VIP 會員設定差異化商品售價，並透�
 created: 2026-03-08 17:45
 last_modified: 2026-07-07 16:13
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -29,7 +27,7 @@ plans:
   - 企業
 cyb_extensions: []
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 intents:
   - 設定會員等級價
@@ -38,7 +36,8 @@ intents:
 features:
   - 會員專屬價格
   - 批次操作
-  - Excel 匯入/匯出
+  - Excel 匯入
+  - Excel 匯出
   - 商品 VIP 標籤連結
 prerequisites:
   - 建立專屬VIP群組
@@ -62,13 +61,11 @@ ui_components:
 paths:
   - 商品 > 所有商品 > 編輯會員專屬價格
   - 網站外觀 > 套版主題管理 > 網站設定
-layouts:
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5794
   - https://www.cyberbiz.io/support/?p=10289
-permalink: https://help.cyberbiz.io/ec/products/pricing/setup-vip-member-pricing
-  - https://www.cyberbiz.io/helpcenter/?p=5794
-  - https://www.cyberbiz.io/support/?p=10289
+permalink: "https://help.cyberbiz.io/ec/products/pricing/setup-vip-member-pricing/"
 comments: false
 search:
   exclude: false

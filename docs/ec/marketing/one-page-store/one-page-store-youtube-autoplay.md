@@ -4,9 +4,7 @@ description: 調整 YouTube 影片網址參數，在一頁式商店中設定自�
 created: 2024-05-23 11:30
 last_modified: 2026-06-24 11:30
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -29,7 +27,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 設定 YouTube 影片自動播放
   - 設定 YouTube 影片開始秒數
@@ -60,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3838
   - https://www.cyberbiz.io/support/?p=19650
-permalink: https://help.cyberbiz.io/ec/marketing/one-page-store/one-page-store-youtube-autoplay
+permalink: "https://help.cyberbiz.io/ec/marketing/one-page-store/one-page-store-youtube-autoplay/"
 comments: false
 search:
   exclude: false

@@ -4,9 +4,7 @@ description: 說明如何自行設定宅配物流選項、運費門檻與溫層�
 created: 2026-06-04 10:02
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans: []
@@ -37,7 +35,7 @@ features:
 prerequisites: 
   - "需先完成金流串接設定"
 related: 
-  - "[[home-delivery-cash-on-delivery]]"
+  - "ec/payments-and-logistics/home-delivery-cash-on-delivery"
 tags: 
   - 物流設定
   - 運費
@@ -57,7 +55,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2746
   - https://www.cyberbiz.io/support/?p=10652
   - https://www.cyberbiz.io/support/?p=5983
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-home-delivery-non-cod-custom-logistics
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-home-delivery-non-cod-custom-logistics/"
 comments: false
 search:
   exclude: false

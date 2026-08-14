@@ -4,9 +4,7 @@ description: 使用順豐託運單批次或單筆下載出貨，系統自動與�
 created: 2026-05-20 20:25
 last_modified: 2026-08-10 12:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -46,9 +44,9 @@ prerequisites:
   - 需先完成公司統一編號設定
   - 需先開通順豐託運單功能
 related:
-  - "[[順豐海外物流]]"
-  - "[[補印與加印託運單]]"
-  - "[[partial-shipment-v2]]"
+  - "ec/payments-and-logistics/sf-express-overseas-logistics"
+  - "補印與加印託運單"
+  - "ec/orders/home-delivery/partial-shipment-v2"
 tags:
   - 順豐
   - 出貨
@@ -68,7 +66,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=384
   - https://www.cyberbiz.io/support/?p=3760
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/sf-express-shipping-v2
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/sf-express-shipping-v2/"
 comments: false
 search:
   exclude: false

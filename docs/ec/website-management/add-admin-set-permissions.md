@@ -4,9 +4,7 @@ description: "新增網站管理員、設定管理者權限，並管理帳號安
 created: "2026-03-13 12:29"
 last_modified: 2026-07-02 19:47
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: trunk
 plans:
@@ -41,7 +39,7 @@ features:
   - 二階段驗證
 prerequisites: []
 related:
-  - "[[admin-permissions-menu-reference]]"
+  - "ec/website-management/references/admin-permissions-menu-reference"
 tags:
   - 網站管理員
   - 權限設定
@@ -58,7 +56,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1209
   - https://www.cyberbiz.io/support/?p=2881
-permalink: https://help.cyberbiz.io/ec/website-management/add-admin-set-permissions
+permalink: "https://help.cyberbiz.io/ec/website-management/add-admin-set-permissions/"
 comments: false
 search:
   exclude: false

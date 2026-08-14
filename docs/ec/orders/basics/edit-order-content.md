@@ -4,10 +4,8 @@ description: 使用編輯訂單功能，包含增減商品、新增自訂品項/
 created: 2026-04-29 12:14
 last_modified: 2026-07-13 11:01
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: "1.0.0"
 reviewers: []
 notes: []
 ga_views:
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: "beginner"
 tnb: trunk
 plans:
@@ -68,10 +66,10 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12382
   - https://www.cyberbiz.io/support/?p=51419
   - https://www.cyberbiz.io/support/?p=50824
-permalink: https://help.cyberbiz.io/ec/orders/basics/edit-order-content
+permalink: "https://help.cyberbiz.io/ec/orders/basics/edit-order-content/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/square-pen
 hide:
 ---
