@@ -129,7 +129,7 @@ hide:
 
 2. **填寫單據**：
 
-	- 下載 [取貨明細表](https://docs.google.com/spreadsheets/d/19d8q4v86k9dNHovERuFNoakaUxBth_eY/edit?gid=879537903#gid=879537903) 並填寫相關內容。（務必在收貨前填寫完成）
+	- 下載 [取貨明細表](https://www.cyberbiz.co/support/wp-content/uploads/2021/01/%E5%86%B7%E5%87%8DEC%E5%8F%96%E8%B2%A8%E6%98%8E%E7%B4%B0%E8%A1%A8S105.xlsx) 並填寫相關內容。（務必在收貨前填寫完成）
 	- 司機現場點收、確認清單內容，並填寫 貨運溫度/取貨溫度紀錄。
 	
 !!! tip "建議保留明細表至少兩個月以備查驗。"

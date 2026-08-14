@@ -126,6 +126,7 @@ copyright = """
             {"超商出貨" = [
                 {"大宗寄倉 B2C" = "ec/orders/cvs-shipping/cvs-b2c-bulk-shipping.md"},
                 {"超商店到店 C2C" = "ec/orders/cvs-shipping/cvs-c2c-shipping.md"},
+                {"全家冷凍寄倉 B2C" = "ec/payments-and-logistics/setup-family-mart-frozen-b2c.md"},
                 {"全家冷凍店到店 C2C" = "ec/orders/cvs-shipping/family-mart-frozen-c2c.md"},
                 {"超商部分出貨" = "ec/orders/cvs-shipping/cvs-partial-shipment.md"},
                 {"熱感列印超商托運單" = "ec/orders/cvs-shipping/thermal-print-cvs-waybill.md"},
@@ -353,7 +354,6 @@ copyright = """
             {"超商物流" = [
                 {"超商大宗寄倉 B2C" = "ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping.md"},
                 {"超商店到店 C2C 串接" = "ec/payments-and-logistics/setup-cvs-c2c-shipping.md"},
-                {"全家冷凍 B2C" = "ec/payments-and-logistics/setup-family-mart-frozen-b2c.md"},
                 {"ezShip超商取貨(C2C)" = "ec/payments-and-logistics/integrate-ezship-cvs-pickup-c2c.md"},
                 {"綠界金流與超商取貨付款" = "ec/payments-and-logistics/apply-for-ecpay-payment-and-cvs-cod.md"},
             ]},
