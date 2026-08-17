@@ -2,7 +2,7 @@
 title: 管理會員檔案
 description: 當特定會員有資料與權限異動、點數與優惠券配置調整、或需要下單協助時，管理員可透過 會員明細頁 進行一站式的客服處理與資料維護。
 created: 2026-02-11 00:00
-last_modified: 2026-06-30 12:30
+last_modified: 2026-08-17 14:22
 lang: zh-TW
 type: tutorial
 status: ""
@@ -17,6 +17,7 @@ notes:
   - 訊息推播內部連結
   - 測試搜尋能力與標籤關鍵字
   - 會員篩選器內部連結
+  - 其他通路訂單前台名稱字典檔連結
 ga_views: 0
 feedback: 0
 products:
@@ -47,7 +48,8 @@ features:
   - 帳號權限控管
 prerequisites:
   - [[需具備管理員權限以編輯會員敏感資訊]]
-related: []
+related:
+  - ec/website-appearance/code-customization/customize-other-channel-order-label
 tags:
   - 會員明細
   - 代客下單
@@ -211,6 +213,9 @@ hide: []
     -   **限制**：支援編輯或刪除單筆紀錄；但 **訂單來源** 經確認後不可更改。
 
     ![](../../assets/images/EC-後台-會員-所有會員-查看會員其他通路訂單-企業版01.png)
+
+!!! tip "前台顯示名稱"
+    會員於前台看到的「其他通路有效訂單」名稱，可透過字典檔自行變更。詳見[變更「其他通路有效訂單」前台顯示名稱](../website-appearance/code-customization/customize-other-channel-order-label.md)。
 
 
 ## 任務四：資產配置

@@ -2,7 +2,7 @@
 title: 樣板編輯器操作全攻略
 description: 樣版編輯器的操作說明、常見特殊語法應用及重要注意事項。
 created: 2026-03-05 20:55
-last_modified: 2026-07-03 15:00
+last_modified: 2026-08-17 14:22
 lang: zh-TW
 permalink: https://help.cyberbiz.io/ec/website-appearance/code-customization/theme-editor-complete-guide
 type: guide
@@ -133,6 +133,10 @@ hide:
 - :lucide-globe:{ .lg }  
   [__前台語系與文字呈現__](../site-settings/setup-storefront-language-text-customization.md){ title="設定前台語系與文字自定義" }  
   自訂全站顯示文字與多國語系字典檔 (i18n)。
+
+- :lucide-text-cursor-input:{ .lg }  
+  [__變更其他通路訂單名稱__](customize-other-channel-order-label.md){ title="變更其他通路有效訂單前台顯示名稱" }  
+  於字典檔 `general` 新增 `customize_other_valid_order`，自訂前台顯示名稱。
 
 - :lucide-message-square:{ .lg }  
   [__多元客服管道串接__](../customer-interaction/setup-customer-service-widget.md){ title="設置網站客服視窗" }  
