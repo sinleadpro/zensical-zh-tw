@@ -32,7 +32,7 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :lucide-message-square: __Chat Box 訊息通__
+-   :lucide-message-square: __CHAT BOX 訊息通__
 
     ---
 

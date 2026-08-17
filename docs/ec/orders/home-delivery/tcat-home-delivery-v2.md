@@ -83,7 +83,7 @@ hide: []
 
 ## 黑貓宅配出貨說明
 
-後台與黑貓宅急便系統整合，商家可從訂單列表批次產出黑貓宅配託運單、自動扣除運費(Cyber 幣)，並將訂單貨態同步更新為「已出貨」。本文聚焦於 **黑貓宅配(B2C 宅配到府)** 的出貨流程。
+後台與黑貓宅急便系統整合，商家可從訂單列表批次產出黑貓宅配託運單、自動扣除運費(CYBER 幣)，並將訂單貨態同步更新為「已出貨」。本文聚焦於 **黑貓宅配(B2C 宅配到府)** 的出貨流程。
 
 !!! info "其他黑貓服務"
     * 若顧客選擇超商取貨，請見 [使用黑貓快速到店出貨](../tcat-quick-store/tcat-quick-store-shipping.md){ title="使用黑貓快速到店出貨" }。
@@ -95,19 +95,19 @@ hide: []
 
 商家方案不同，黑貓運費的扣款方式也不同：
 
-- **一般版**：需先[儲值 Cyber幣](../../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="如何儲值Cyber幣" }。下載託運單時系統會即時從 Cyber 幣餘額扣除運費，餘額不足時下載會失敗。
+- **一般版**：需先[儲值 CYBER 幣](../../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="如何儲值CYBER 幣" }。下載託運單時系統會即時從 CYBER 幣餘額扣除運費，餘額不足時下載會失敗。
 - **PLUS版 / 企業版**：無須事先儲值。每筆運費將計入「對帳中心」，於每期對帳單一次結清。
 
 ??? tip "如何查詢扣款明細"
-     一般版商家可至 **儲值中心 > 明細紀錄** [查詢扣款歷程](../../website-management/points-deposits.md#cyber-coin-transaction-history){ title="查詢 Cyber 幣使用明細" data-preview }；PLUS版 / 企業版 商家可至 **對帳中心** 查詢月結帳單。
+     一般版商家可至 **儲值中心 > 明細紀錄** [查詢扣款歷程](../../website-management/points-deposits.md#cyber-coin-transaction-history){ title="查詢 CYBER 幣使用明細" data-preview }；PLUS版 / 企業版 商家可至 **對帳中心** 查詢月結帳單。
 
 ---
 
 ### 託運單有效期 { #tcat-home-label-expiry }
 
-下載託運單後即會扣除 Cyber幣。如 **產出托運單後 14 天未實際出貨** ，系統會將該單號認列為失效並執行以下動作：
+下載託運單後即會扣除 CYBER 幣。如 **產出托運單後 14 天未實際出貨** ，系統會將該單號認列為失效並執行以下動作：
 
-- 所扣的 Cyber 幣會自動退回帳戶。
+- 所扣的 CYBER 幣會自動退回帳戶。
 - 訂單列表頁內，訂單的 **配送狀態** 保留在「已出貨」，不會更改。
 - 訂單詳情頁內，狀態會保留在「[已出貨(待物流收件)](shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }」。
 - 託運單單號狀態更改為「取消寄件」。
@@ -119,7 +119,7 @@ hide: []
 - [x] **領取黑貓三聯空白託運單貼紙**：致電黑貓宅急便 (02-412-8888) 領取「三聯空白託運單貼紙」(俗稱 A4 三模託運單)。若選擇 A4
 一般列印，系統列印的內容必須印在這款貼紙上，司機才會收件。
 - [x] **黑貓寄件人地址**：至「金物流」>「[黑貓託運單](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" }」設定寄件人地址，若無設定則會導致出貨時出現「寄件人資訊不完整」的通知。
-- [x] **確認餘額或對帳狀態**：一般版商家請至 [儲值中心查看 Cyber幣餘額](../../website-management/points-deposits.md#cyber-coin-balance){ title="查詢 Cyber 幣餘額" data-preview }，確認足以支付運費；PLUS版 /
+- [x] **確認餘額或對帳狀態**：一般版商家請至 [儲值中心查看 CYBER 幣餘額](../../website-management/points-deposits.md#cyber-coin-balance){ title="查詢 CYBER 幣餘額" data-preview }，確認足以支付運費；PLUS版 /
 企業版商家無此限制。
 - [x] **列印設備建議**：建議使用 **雷射印表機** 列印託運單，避免出貨條碼判讀異常。
 
@@ -225,7 +225,7 @@ hide: []
     通常為以下原因之一：
 
     * **瀏覽器阻擋彈跳視窗**：請檢查瀏覽器是否阻擋了彈跳視窗或廣告，允許本站彈跳視窗後重新點擊下載。
-    * **Cyber 幣不足(一般版商家)**：請至 [儲值中心](../../website-management/points-deposits.md#cyber-coin-balance){ title="查詢 Cyber 幣餘額" data-preview } 儲值。
+    * **CYBER 幣不足(一般版商家)**：請至 [儲值中心](../../website-management/points-deposits.md#cyber-coin-balance){ title="查詢 CYBER 幣餘額" data-preview } 儲值。
     * **黑貓寄件人地址未設定**：至 金物流 > [黑貓託運單](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" } 完成設定。
     * **未勾選同意條款**：確認彈出視窗下方「我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 黑貓合約規範」已勾選。
 
@@ -246,7 +246,7 @@ hide: []
 ??? quote "託運單下載後幾天內必須寄出?"
     [](){ #faq-tcat-home-expiry }
 
-    產出托運單後，**14 天內** 須完成實際出貨，否則單號會被認列為失效， Cyber 幣會自動退回。
+    產出托運單後，**14 天內** 須完成實際出貨，否則單號會被認列為失效， CYBER 幣會自動退回。
 
 ??? quote "同一筆訂單可以同時用兩家物流出貨嗎?"
     [](){ #faq-tcat-home-mixed-shipping }
@@ -257,7 +257,7 @@ hide: []
 ??? quote "補印託運單會額外扣費嗎?"
     [](){ #faq-tcat-home-reprint-fee }
 
-     不會。補印使用原來的單號，系統不會再次扣除 Cyber 幣。若需要 **新單號** (例如同一筆訂單拆成多箱)，請使用「[加印託運單](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#ezcat-shipping-note-create){ title="加印託運單" }」，加印會依張數扣費。
+     不會。補印使用原來的單號，系統不會再次扣除 CYBER 幣。若需要 **新單號** (例如同一筆訂單拆成多箱)，請使用「[加印託運單](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#ezcat-shipping-note-create){ title="加印託運單" }」，加印會依張數扣費。
 
 ??? quote "我是峰潮物流商家，可以用這個流程嗎?"
     [](){ #faq-tcat-home-honeycomb }

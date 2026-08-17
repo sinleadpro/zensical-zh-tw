@@ -44,7 +44,7 @@ devices:
   - desktop
 ui_components: []
 paths:
-  - App Market > 我的應用程式
+  - APP MARKET > 我的應用程式
   - 商品 > 所有商品
 layouts: []
 wp_url:
@@ -62,7 +62,8 @@ hide: []
 透過「全通路管理助手」，您可以將蝦皮商店的商品快速同步至 CYBERBIZ 官網，省去手動建立商品的時間。
 { .subtitle }
 
-[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業<br>
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ CHANNEL BRIDGE
 { .doc-badge }
 
 ![](../../../../assets/images/EC-後台-APPMARKET-蝦皮商品-畫面總覽01.png){ .hero-page }

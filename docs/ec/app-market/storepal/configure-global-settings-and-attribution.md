@@ -66,7 +66,7 @@ hide: []
 協助總部管理者配置全品牌統一的門市助理功能開關，並引導各級管理員設定個別門市的業績歸因層級。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業<br>
 [:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | 門市助理
 { .doc-badge }
 

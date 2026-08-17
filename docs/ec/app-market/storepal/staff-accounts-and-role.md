@@ -74,7 +74,7 @@ hide: []
 門市助理讓您管理門市業績歸因、帳號權限及人員帳號，協助商家建構完整的門市營運體系。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業<br>
 [:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | 門市助理
 { .doc-badge }
 

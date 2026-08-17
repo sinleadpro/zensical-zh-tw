@@ -66,7 +66,7 @@ hide: []
 線下人員可透過門市助理查詢會員資訊、協助顧客註冊帳號，並建立門市推薦人綁定關係以進行後續導購分潤。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業<br>
 [:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | 門市助理
 { .doc-badge }
 

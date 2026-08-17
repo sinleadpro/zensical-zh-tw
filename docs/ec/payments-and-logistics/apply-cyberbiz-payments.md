@@ -41,9 +41,7 @@ prerequisites:
   - 可辨識的品牌或公司名稱
   - 至少一項已上架的商品或服務
 related: []
-tags:
-  - Payments
-  - 申請
+tags: []
 acoiv: activate
 apis: []
 devices:

@@ -42,7 +42,7 @@ prerequisites:
 related: []
 tags:
   - Apple Pay
-  - Payments
+  - PAYMENTS
   - CYBERBIZ PAYMENTS
 acoiv: configure
 apis: []

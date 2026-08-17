@@ -337,11 +337,11 @@ hide: []
     
         ![](../../assets/images/ec-e-ticket-multiple-kinds-redemped-partial-returen.zh-tw.png)
     
-        !!! tip "若消費者只想退「Cyber 音樂祭 - 單日票」，則只需勾選該項目即可。"
+        !!! tip "若消費者只想退「CYBER 音樂祭 - 單日票」，則只需勾選該項目即可。"
 
     4. 點擊 **確認**，完成退款。
         !!! example "範例說明"
-          「Cyber 音樂祭 - 單日票」剩餘3張全數退款，QR Code 作廢。「皮卡丘體驗券 - 早鳥體驗」沒有退款，則可繼續照常使用。
+          「CYBER 音樂祭 - 單日票」剩餘3張全數退款，QR Code 作廢。「皮卡丘體驗券 - 早鳥體驗」沒有退款，則可繼續照常使用。
 
 ## 電子票券分票 <small>顧客端</small>
 

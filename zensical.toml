@@ -447,26 +447,9 @@ copyright = """
         ]},
         { "APP MARKET" = [
             {"APP MARKET 總覽" = "ec/app-market/index.md"},
-            {"AUTOMATION" = [
-              {"自動化行銷" = "ec/app-market/automation/automation-push-flow.md"}
-            ]},
             { "API 與 Webhook 串接指南" = "ec/app-market/api-and-webhook-integration-guide.md"},
-            {"Chat Box" = [
-                { "overview" = "ec/app-market/chatbox/index.md" },
-                { "串接 LINE 官方帳號" = "ec/app-market/chatbox/connect-chat-box-to-line-oa.md" },
-                { "串接 Facebook 粉絲專頁" = "ec/app-market/chatbox/connect-chat-box-to-facebook-page.md" },
-                { "LINE 訊息格式規範" = "ec/app-market/chatbox/line-message-format-spec.md" },
-                { "Meta 訊息格式規範" = "ec/app-market/chatbox/meta-message-format-spec.md" },
-                { "Chat Box AI 建議回覆" = "ec/app-market/chatbox/chat-box-ai-suggested-replies.md" },
-                { "官網整合對話入口" = "ec/app-market/chatbox/integrated-chat-widget.md" },
-            ]},
-            {"CHANNEL BRIDGE" = [
-                { "Step 1 安裝啟用" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md" },
-                { "Step 2 導入商品與建立關聯" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step2-import-products-and-link.md" },
-                { "Step 3 庫存同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee.md" },
-                { "Step 4 官網商品建立為蝦皮商品" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step4-create-shopee-products-from-site.md" },
-                { "Step 5 資訊同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step5-sync-product-info-with-shopee.md" },
-            ]},
+            {"CYBERBIZ Meta Ads" = "ec/app-market/install-meta-ads-app.md"},
+            {"AUTOMATION" =  "ec/app-market/automation/automation-push-flow.md"},
             {"門市助理" = [
                 {"overview" = "ec/app-market/storepal/index.md"},
                 {"安裝與導入" = "ec/app-market/storepal/install-and-setup-storepal.md"},
@@ -480,6 +463,22 @@ copyright = """
                 {"查看業績" = "ec/app-market/storepal/view-sales-performance.md"},
                 {"績效報表" = "ec/app-market/storepal/performance-reports.md"},
             ]},
+            {"CHAT BOX" = [
+                { "overview" = "ec/app-market/chatbox/index.md" },
+                { "串接 LINE 官方帳號" = "ec/app-market/chatbox/connect-chat-box-to-line-oa.md" },
+                { "串接 Facebook 粉絲專頁" = "ec/app-market/chatbox/connect-chat-box-to-facebook-page.md" },
+                { "LINE 訊息格式規範" = "ec/app-market/chatbox/line-message-format-spec.md" },
+                { "Meta 訊息格式規範" = "ec/app-market/chatbox/meta-message-format-spec.md" },
+                { "CHAT BOX AI 建議回覆" = "ec/app-market/chatbox/chat-box-ai-suggested-replies.md" },
+                { "官網整合對話入口" = "ec/app-market/chatbox/integrated-chat-widget.md" },
+            ]},
+            {"CHANNEL BRIDGE" = [
+                { "Step 1 安裝啟用" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md" },
+                { "Step 2 導入商品與建立關聯" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step2-import-products-and-link.md" },
+                { "Step 3 庫存同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee.md" },
+                { "Step 4 官網商品建立為蝦皮商品" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step4-create-shopee-products-from-site.md" },
+                { "Step 5 資訊同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step5-sync-product-info-with-shopee.md" },
+            ]},
             {"CYBERBIZ EXPRESS " = [
                 {"日到台宅配" = "ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery.md"},
                 {"日到台日本郵局(EMS) " = "ec/app-market/express/cyberbiz-express-ems.md"},
@@ -488,7 +487,6 @@ copyright = """
                 {"商品資訊設定" = "ec/app-market/express/product-info-setting.md"},
                 {"貨態追蹤與查詢" = "ec/app-market/express/order-tracking-and-query.md"},
             ]},
-            {"CYBERBIZ Meta Ads" = "ec/app-market/install-meta-ads-app.md"}
         ]},
         { "第三方整合" = [
             {"第三方整合總覽" = "ec/integrations/index.md"},  

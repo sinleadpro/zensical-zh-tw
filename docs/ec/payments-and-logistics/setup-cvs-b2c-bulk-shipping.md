@@ -197,7 +197,7 @@ hide:
   完成設定後，於訂單列表批次下載託運單並寄送至物流中心。
 
 - :lucide-coins:{ .lg }  
-  [__儲值 CYBER 幣__](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="Cyber 幣儲值中心使用指南" }  
+  [__儲值 CYBER 幣__](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="CYBER 幣儲值中心使用指南" }  
   一般版商家於下載託運單前需先儲值 CYBER 幣，避免餘額不足而被阻擋。
 
 - :lucide-package:{ .lg }  

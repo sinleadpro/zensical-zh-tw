@@ -45,7 +45,7 @@ prerequisites:
 related:
   - "ec/notifications/send-edm-newsletters-v2"
 tags:
-  - Automation
+  - AUTOMATION
   - 自動化行銷
   - 推播流程
   - 會員分群

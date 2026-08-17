@@ -122,6 +122,6 @@ Google Pay 的交易安全邏輯將繼承商家在後台的信用卡設定：
 
 - :lucide-badge-dollar-sign:{ .lg }   
   [__北美站金流設定__](north-america-payment-services.md)     
-  若您經營的是 **Global 北美站**，其 Google Pay 設定與費率邏輯不同，請參閱相關專屬指南。
+  若您經營的是 **GLOBAL 北美站**，其 Google Pay 設定與費率邏輯不同，請參閱相關專屬指南。
 
 </div>

@@ -393,9 +393,9 @@ permalink: "https://help.cyberbiz.io/resources/glossary/"
 
 - **參閱**：[一般版](#一般版) | [PLUS版](#plus版) | [高手版以上](#高手版以上)
 
-### Cyber幣
+### CYBER 幣
 
-**Cyber Coin**，CYBERBIZ 系統內用於支付金物流相關服務費用及特定系統功能的虛擬計費點數。
+**CYBER COIN**，CYBERBIZ 系統內用於支付金物流相關服務費用及特定系統功能的虛擬計費點數。
 
 ### EC
 

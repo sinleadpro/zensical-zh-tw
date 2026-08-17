@@ -63,7 +63,8 @@ hide: []
 建立關聯後，您可以透過 商品資訊同步 機制，讓官網與蝦皮賣場的商品資料維持一致。當您在官網修改圖文或價格後，可一鍵同步至蝦皮，無需重複編輯。
 { .subtitle }
 
-[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業<br>
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ CHANNEL BRIDGE
 { .doc-badge }
 
 ![](../../../../assets/images/EC-後台-APPMARKET-蝦皮商品-畫面總覽01.png){ .hero-page }

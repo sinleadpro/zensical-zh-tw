@@ -32,7 +32,7 @@ intents:
   - 了解_LINE_檔案限制
   - LINE_客服規格
 features: 
-  - Chat Box
+  - CHAT BOX
   - LINE 整合
   - 訊息格式
 prerequisites: 
@@ -43,7 +43,7 @@ tags:
   - 訊息規範
   - 檔案限制
   - 客服規格
-  - ChatBox
+  - CHAT BOX
 acoiv: integration
 apis: []
 devices: 
@@ -51,7 +51,7 @@ devices:
 ui_components: 
   - 訊息聊天室
 paths: 
-  - APP MARKET > ChatBox
+  - APP MARKET > CHAT BOX
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=12961
@@ -68,7 +68,8 @@ hide: []
 掌握 LINE 平台的訊息支援規格與多媒體檔案限制，確保客服溝通順暢無阻。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業<br>
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ CHAT BOX
 { .doc-badge }
 
 
@@ -80,14 +81,14 @@ hide: []
 
 ## 使用須知
 
-- **版權限制**：受限於 LINE 官方政策，部分版權貼圖可能無法在第三方介面（如 ChatBox）中完整顯示。
+- **版權限制**：受限於 LINE 官方政策，部分版權貼圖可能無法在第三方介面（如 CHAT BOX）中完整顯示。
 - **自動轉換**：部分接收的圖片格式（如 GIF）會由系統自動轉換為 JPG 格式以確保相容性。
 
 
 
 ## 支援格式覽表
 
-下表彙整了 Chat Box 訊息通與 LINE 顧客對話時的支援狀況：
+下表彙整了 CHAT BOX 訊息通與 LINE 顧客對話時的支援狀況：
 
 | 訊息類型 | 接收 <br>(顧客➔商家) | 發送 <br>(商家➔顧客) | 規格與限制 |
 | :--- | :---: | :---: | :--- |

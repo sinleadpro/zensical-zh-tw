@@ -32,21 +32,21 @@ intents:
   - 了解_Facebook_檔案限制
   - Meta_客服規格
 features: 
-  - Chat Box
+  - CHAT BOX
   - Meta 整合
   - 訊息格式
 prerequisites: 
   - "ec/app-market/chatbox/index"
 related: 
   - "ec/app-market/chatbox/line-message-format-spec"
-  - "Chat Box 串接第三方平台 (LINE•Meta)"
+  - "CHAT BOX 串接第三方平台 (LINE•Meta)"
 tags: 
   - Meta
   - Facebook
   - Messenger
   - 訊息規範
   - 檔案限制
-  - ChatBox
+  - CHAT BOX
 acoiv: integration
 apis: []
 devices: 
@@ -54,7 +54,7 @@ devices:
 ui_components: 
   - 訊息聊天室
 paths: 
-  - APP MARKET > ChatBox
+  - APP MARKET > CHAT BOX
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=12964
@@ -71,7 +71,8 @@ hide: []
 掌握 Meta (Facebook Messenger) 平台的訊息支援規格與多媒體檔案限制，確保客服溝通順暢無阻。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業<br>
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ CHAT BOX
 { .doc-badge }
 
 
@@ -91,7 +92,7 @@ hide: []
 
 ## 支援格式覽表
 
-下表彙整了 Chat Box 訊息通與 Meta 顧客對話時的支援狀況：
+下表彙整了 CHAT BOX 訊息通與 Meta 顧客對話時的支援狀況：
 
 | 訊息類型 | 接收 <br>(顧客➔商家) | 發送<br> (商家➔顧客) | 規格與限制 |
 | :--- | :---: | :---: | :--- |

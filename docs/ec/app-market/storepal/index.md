@@ -66,7 +66,7 @@ hide: []
 專為線下門市設計的 OMO 銷售工具，整合官網會員數據與資產，協助店員實現精準識客、深度洞察與價值變現。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業<br>
 [:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | 門市助理
 { .doc-badge }
 
