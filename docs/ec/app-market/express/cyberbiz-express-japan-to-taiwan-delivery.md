@@ -47,7 +47,7 @@ devices:
   - desktop
 ui_components: []
 paths:
-  - App Market > 我的擴充服務 > CYBERBIZ EXPRESS
+  - APP MARKET > 我的擴充服務 > CYBERBIZ EXPRESS
   - 商品 > 所有商品
   - 訂單 > 所有訂單
 layouts: []
@@ -66,7 +66,8 @@ hide: []
 CYBERBIZ EXPRESS 是專為日台電商設計的一站式跨境物流服務。您可以輕鬆將日本製產品送達台灣消費者手中，系統並自動整合 EZWAY 報關流程與運費自動核帳。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 跨境電商 (日到台)
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 跨境電商 (日到台)<br>
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ EXPRESS
 { .doc-badge }
 
 ## 使用須知

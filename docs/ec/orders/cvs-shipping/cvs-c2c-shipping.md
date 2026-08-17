@@ -9,7 +9,7 @@ type: guide
 author: Jase
 reviewers: []
 notes:
-  - add 儲值 Cyber幣 doc link
+  - add 儲值 CYBER 幣 doc link
   - add 熱感列印 doc link
 ga_views: 0
 feedback: 0
@@ -102,7 +102,7 @@ hide:
 出貨前請先確認下列前提皆已完成設定：
 
 - [x] **公司寄件人姓名與手機**：請於後台設定正確的寄件人真實姓名與手機；若消費者逾期未取退貨，門市人員須核對寄件人身分證件才可領回包裹。
-- [x] **儲值 Cyber幣（一般版）**：一般版商家列印託運單前，請先至「管理中心 > 儲值中心」[儲值 Cyber幣](../../website-management/points-deposits.md#operate-cyber-coin-deposit)，餘額不足將無法列印；PLUS版 / 企業版無需手動儲值，系統依每期對帳單收取。
+- [x] **儲值 CYBER 幣（一般版）**：一般版商家列印託運單前，請先至「管理中心 > 儲值中心」[儲值 CYBER 幣](../../website-management/points-deposits.md#operate-cyber-coin-deposit)，餘額不足將無法列印；PLUS版 / 企業版無需手動儲值，系統依每期對帳單收取。
 - [x] **開通 CYBERBIZ PAYMENTS（使用貨到付款時）**：超商「貨到付款」收款功能僅限已開通 CYBERBIZ PAYMENTS 的商家使用，開通條件見下方說明。
 
 ??? plan "超商「貨到付款」開通條件"
@@ -398,7 +398,7 @@ hide:
     若遇到列印託運單失敗，請依照以下方式檢查與處理：
 
     1. 確認瀏覽器是否阻擋彈跳視窗。
-    2. 一般版商家請確認帳戶是否已儲值 Cyber幣。
+    2. 一般版商家請確認帳戶是否已儲值 CYBER 幣。
     3. 若仍無法下載或列印，可嘗試更換瀏覽器，或聯繫客服協助。
 
     !!! tip "建議使用 Chrome 或 Edge 最新版本，通常能減少列印問題。"

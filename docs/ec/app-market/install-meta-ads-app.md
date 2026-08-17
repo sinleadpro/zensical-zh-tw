@@ -46,7 +46,7 @@ tags:
   - Facebook
   - Instagram
   - 廣告投放
-  - App Market
+  - APP MARKET
   - FBE
   - 第三方整合
 acoiv: integration

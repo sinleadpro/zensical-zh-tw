@@ -65,7 +65,8 @@ hide: []
 透過建立商品關聯與開啟同步功能，您可以讓官網與蝦皮商店的庫存維持連動。當任一端產生訂單或在官網修改庫存時，系統將自動更新兩端的剩餘數量。
 { .subtitle }
 
-[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業<br>
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ CHANNEL BRIDGE
 { .doc-badge }
 
 ![](../../../../assets/images/EC-後台-APPMARKET-蝦皮商品-畫面總覽01.png){ .hero-page }

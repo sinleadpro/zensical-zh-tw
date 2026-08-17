@@ -139,7 +139,7 @@ hide: []
 - [x] **黑貓寄件人地址**： 至「金物流」>「[黑貓快速到店託運單](../../payments-and-logistics/setup-print-tcat-quick-store-waybill-v2.md#configure-ezcat-cvs-shipping-note-sender-setup){ title="設定寄件人資訊" }」設定寄件人地址，否則託運單上的寄件人資訊將不完整。
 - [x] **耗材與設備**： 已備妥「黑貓三聯空白託運單貼紙」（可致電黑貓客服 02-412-8888 取得），並建議使用雷射印表機列印，以確保條碼清晰。
 - [x] **商品預冷（低溫包裹）**： 冷藏商品須預冷 6 小時以上；冷凍商品須預冷 12 小時以上。
-- [x] **確認餘額**：一般版商家請至 [儲值中心查看 Cyber 幣餘額](../../website-management/points-deposits.md#cyber-coin-balance){ data-preview }，確認餘額充足；PLUS版 / 企業版商家無此限制。
+- [x] **確認餘額**：一般版商家請至 [儲值中心查看 CYBER 幣餘額](../../website-management/points-deposits.md#cyber-coin-balance){ data-preview }，確認餘額充足；PLUS版 / 企業版商家無此限制。
 
 --- 
 
@@ -258,7 +258,7 @@ hide: []
     通常為以下原因之一：
 
     * **瀏覽器阻擋彈跳視窗**：請檢查瀏覽器是否阻擋了彈跳視窗或廣告，允許本站彈跳視窗後重新點擊下載。
-    * **Cyber 幣不足(一般版商家)**：請至 [儲值中心](../../website-management/points-deposits.md){ data-preview } 儲值。
+    * **CYBER 幣不足(一般版商家)**：請至 [儲值中心](../../website-management/points-deposits.md){ data-preview } 儲值。
     * **黑貓快速到店寄件地址未設定**：至 **金物流 > 黑貓快速到店託運單** 的「黑貓快速到店設定」區塊完成寄件地址填寫。
     * **未勾選同意條款**：確認彈出視窗下方「我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 黑貓合約規範」已勾選。
 
@@ -301,9 +301,9 @@ hide: []
     - **預冷時間**：冷藏商品建議預冷 6 小時以上，冷凍商品建議預冷 12 小時以上，以維持溫層至門市取貨時
     - **託運單防水**：建議使用防水貼紙列印託運單，或將託運單放入透明防水袋後再黏貼於包裹表面，避免因冷凝水使條碼模糊導致司機無法掃描
 
-??? quote "一般版商家 Cyber 幣餘額不足時可以下載託運單嗎？"
+??? quote "一般版商家 CYBER 幣餘額不足時可以下載託運單嗎？"
 
-    不行。下載託運單時系統會即時從 Cyber 幣餘額扣款，餘額不足時下載會失敗。請先至 [儲值中心](../../website-management/points-deposits.md){ data-preview } 儲值後再重新操作。
+    不行。下載託運單時系統會即時從 CYBER 幣餘額扣款，餘額不足時下載會失敗。請先至 [儲值中心](../../website-management/points-deposits.md){ data-preview } 儲值後再重新操作。
 
 ### 託運單 ZIP 內容物 { #tcat-cvs-zip-contents }
 

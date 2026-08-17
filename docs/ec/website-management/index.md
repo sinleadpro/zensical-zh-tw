@@ -201,11 +201,11 @@ hide:
 
     [:octicons-arrow-right-24: 前往](system-expiry-handling-process.md)
 
--   :lucide-wallet: __Cyber 幣儲值中心使用指南__
+-   :lucide-wallet: __CYBER 幣儲值中心使用指南__
 
     ---
 
-    Cyber 幣儲值中心使用指南，包含儲值步驟、發票資訊填寫、付款方式與使用明細查詢。
+    CYBER 幣儲值中心使用指南，包含儲值步驟、發票資訊填寫、付款方式與使用明細查詢。
 
     [:octicons-arrow-right-24: 前往](points-deposits.md)
 

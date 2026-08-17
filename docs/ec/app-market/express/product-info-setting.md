@@ -59,7 +59,8 @@ hide: []
 欲使用日到台站台物流服務，需補齊商品報關資訊。本指南詳解單筆與批次編輯 JANCODE、成分、原產國等欄位之操作。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 跨境電商 (日到台)
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 跨境電商 (日到台)<br>
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ EXPRESS
 { .doc-badge }
 
 

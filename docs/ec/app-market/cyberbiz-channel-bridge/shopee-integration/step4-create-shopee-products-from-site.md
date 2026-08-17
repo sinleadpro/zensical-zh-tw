@@ -64,7 +64,8 @@ hide: []
 您也可以將官網既有的商品快速發佈至蝦皮賣場。發佈成功後，系統將自動完成雙端關聯，方便您後續進行庫存與資訊的自動化同步。
 { .subtitle }
 
-[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業<br>
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ CHANNEL BRIDGE
 { .doc-badge }
 
 ![](../../../../assets/images/EC-後台-APPMARKET-蝦皮商品-畫面總覽01.png){ .hero-page }

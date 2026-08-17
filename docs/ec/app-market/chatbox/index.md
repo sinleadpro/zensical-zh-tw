@@ -1,5 +1,5 @@
 ---
-title: Chat Box 訊息通
+title: CHAT BOX 訊息通
 description: 透過單一介面整合多渠道訊息，即時掌握顧客背景與消費紀錄，打造無縫的客服體驗。
 created: 2026-05-28 11:45
 last_modified: 2026-07-13 11:45
@@ -33,12 +33,12 @@ intents:
   - 查看會員訂單
   - 跨平台客服
 features: 
-  - Chat Box
+  - CHAT BOX
   - 訊息整合
   - AI 建議回覆
   - 會員資料同步
 prerequisites: 
-  - "Chat Box 串接第三方平台 (LINE•Meta)"
+  - "CHAT BOX 串接第三方平台 (LINE•Meta)"
 related: 
   - "ec/app-market/chatbox/chat-box-ai-suggested-replies"
   - "ec/app-market/chatbox/line-message-format-spec"
@@ -46,7 +46,7 @@ related:
 tags: 
   - 客服管理
   - 訊息通
-  - ChatBox
+  - CHAT BOX
   - 社群整合
   - CRM
 acoiv: operation
@@ -59,7 +59,7 @@ ui_components:
   - 訊息聊天室
   - 會員資訊欄位
 paths: 
-  - APP MARKET > ChatBox
+  - APP MARKET > CHAT BOX
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12960
@@ -72,11 +72,12 @@ icon: lucide/message-square-text
 hide: []
 ---
 
-# Chat Box 訊息通
+# CHAT BOX 訊息通
 透過單一介面整合多渠道訊息，即時掌握顧客背景與消費紀錄，打造無縫的客服體驗。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業<br>
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ CHAT BOX
 { .doc-badge }
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-介面導覽01.png){ .hero-page }
@@ -95,12 +96,12 @@ hide: []
 - **支援平台**：目前支援 LINE 與 Facebook。
     - [串接 LINE 官方帳號](connect-chat-box-to-line-oa.md)
     - [串接 Facebook 粉絲專頁](connect-chat-box-to-facebook-page.md)
-- **資料同步**：在會員明細頁編輯的資料將即時同步至 Chat Box 介面。
+- **資料同步**：在會員明細頁編輯的資料將即時同步至 CHAT BOX 介面。
 
 
 ## 介面導覽
 
-前往 **APP MARKET > ChatBox** 即可進入管理介面。介面分為四大核心區塊：
+前往 **APP MARKET > CHAT BOX** 即可進入管理介面。介面分為四大核心區塊：
 
 | 區塊 | **左側** | **中間(上方)** | **中間(下方)** | **右側** |
 | ---- | -------- | --------- | ---------- | ------- | 
@@ -129,7 +130,7 @@ hide: []
 </div>
 
 !!! info "已讀狀態同步說明" 
-    Chatbox 內的 **已讀** 狀態僅供客服內部管理使用，系統不會自動將此狀態同步至消費者的 LINE 對話端。
+    CHAT BOX 內的 **已讀** 狀態僅供客服內部管理使用，系統不會自動將此狀態同步至消費者的 LINE 對話端。
     
     若需控制消費者端是否顯示已讀，可至 LINE OA 後台調整： 
 
@@ -144,7 +145,7 @@ hide: []
 在聊天室中，您可以：
 
 - **發送多媒體**：點擊圖示上傳圖片、影片或檔案。
-- **使用 AI 助手**：搭配 [Chat Box AI 建議回覆](chat-box-ai-suggested-replies.md)，由 AI 根據您的資料庫生成客製化回覆草稿。
+- **使用 AI 助手**：搭配 [CHAT BOX AI 建議回覆](chat-box-ai-suggested-replies.md)，由 AI 根據您的資料庫生成客製化回覆草稿。
 - **查閱歷史紀錄**：向上捲動即可查看過往所有對話軌跡。
 
 !!! warning "訊息規格限制"

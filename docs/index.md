@@ -349,7 +349,7 @@ function openTab(evt, tabName) {
     [__金流支付__](ec/payments-and-logistics/){ title="付款金流" }
 
 -   :lucide-message-circle:{ .lg }
-    [__訊息通__](ec/app-market/chatbox/){ title="Chat Box 訊息通" }
+    [__訊息通__](ec/app-market/chatbox/){ title="CHAT BOX 訊息通" }
 
 -   :lucide-link-2:{ .lg }
     [__全通路管理助手__](ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md){ title="Step 1 安裝與授權商店" }

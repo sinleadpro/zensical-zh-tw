@@ -1,5 +1,5 @@
 ---
-title: Chat Box AI 建議回覆
+title: CHAT BOX AI 建議回覆
 description: 透過 AI 助手自動學習您的品牌政策與商品資訊，為顧客諮詢提供即時、精準的回覆建議。
 created: 2026-05-28 12:10
 last_modified: 2026-05-28 12:08
@@ -33,20 +33,20 @@ intents:
   - AI_自動回覆建議
   - 提升客服效率
 features:
-  - Chat Box
+  - CHAT BOX
   - AI 建議回覆
   - 知識庫管理
 prerequisites:
   - "ec/app-market/chatbox/index"
 related:
-  - "Chat Box 串接第三方平台 (LINE•Meta)"
+  - "CHAT BOX 串接第三方平台 (LINE•Meta)"
   - "ec/app-market/chatbox/line-message-format-spec"
   - "ec/app-market/chatbox/meta-message-format-spec"
 tags:
   - AI
   - 客服助手
   - 自動回覆
-  - ChatBox
+  - CHAT BOX
   - 知識庫
 acoiv: operation
 apis: []
@@ -57,7 +57,7 @@ ui_components:
   - 上傳文件
   - AI 建議回覆按鈕
 paths:
-  - APP MARKET > ChatBox
+  - APP MARKET > CHAT BOX
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12968
@@ -70,12 +70,14 @@ icon: lucide/bot
 hide: []
 ---
 
-# Chat Box AI 建議回覆
+# CHAT BOX AI 建議回覆
 透過 AI 助手自動學習您的品牌政策與商品資訊，為顧客諮詢提供即時、精準的回覆建議。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業<br>
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ CHAT BOX
 { .doc-badge }
+
 
 !!! tip "應用情境"
     - **加速常見問題回覆**：將退換貨政策、運費說明上傳至資料庫，AI 即可自動擬稿，無需手動輸入重複內容。
@@ -92,7 +94,7 @@ hide: []
 
 ## 建立 AI 助手
 
-前往 **APP MARKET > ChatBox**，點擊介面上的 **AI 中心** 進行設定。
+前往 **APP MARKET > CHAT BOX**，點擊介面上的 **AI 中心** 進行設定。
 
 ### 1. 啟用功能
 
