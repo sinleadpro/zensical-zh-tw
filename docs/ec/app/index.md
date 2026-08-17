@@ -6,30 +6,46 @@ last_modified: 2026-08-17 13:58
 lang: zh-TW
 type: guide
 status: ""
-version: 1.0.0
 author: Ann
 reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: ["EC"]
-modules: ["APP 功能"]
-sites: ["TW"]
-audiences: ["admin"]
+products: 
+  - EC
+modules: 
+  - APP 功能
+sites: 
+  - TW
+audiences: 
+  - admin
 difficulty: beginner
 tnb: trunk
 plans: []
 cyb_extensions: []
-intents: ["了解_CYBERBIZ_APP", "建置官網_APP", "設定_APP_推播與首登禮"]
-features: ["CYBERBIZ_APP", "門市地圖", "推播通知", "APP_首登禮"]
+intents: 
+  - 了解_CYBERBIZ_APP
+  - 建置官網_APP
+  - 設定_APP_推播與首登禮
+features: 
+  - CYBERBIZ_APP
+  - 門市地圖
+  - 推播通知
+  - APP_首登禮
 prerequisites: []
-related: ["[[cyberbiz-app-feature-overview]]", "[[setup-cyberbiz-app]]", "[[apply-apple-developer-account]]", "[[first-login-gift]]"]
-tags: ["CYBERBIZ_APP", "官網_APP", "推播通知", "首登禮"]
+related: 
+  - cyberbiz-app-feature-overview.md
+  - setup-cyberbiz-app.md
+  - apply-apple-developer-account.md
+  - first-login-gift.md
+tags: 
+  - CYBERBIZ_APP
 acoiv: venture
 apis: []
-devices: ["desktop", "mobile"]
+devices: []
 ui_components: []
-paths: ["APP 功能"]
+paths: 
+  - APP 功能
 layouts: []
 wp_url: []
 permalink: https://help.cyberbiz.io/ec/app/
@@ -37,7 +53,7 @@ comments: false
 search:
   exclude: false
 icon: lucide/smartphone
-hide: ["feedback"]
+hide: []
 ---
 
 # CYBERBIZ APP
