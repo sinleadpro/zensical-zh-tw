@@ -8,8 +8,7 @@ permalink: "https://help.cyberbiz.io/ec/products/create-and-manage/create-and-se
 type: guide
 author: ""
 reviewers: []
-notes:
-  - 新增商品可選任選或指定組合商品 功能待下放
+notes: []
 ga_views: 0
 feedback: 0
 products:
@@ -104,9 +103,18 @@ hide: []
 
 組合商品在系統中的限制如下：
 
+- **有條件支援的屬性設定**
+
+    - **商品標籤**
+
+    !!! info "適用條件"
+        - **適用方案**：企業版
+        - **不適用方案**：專業、進階、高手及各 PLUS 版
+        - **說明**：僅企業版可為組合商品設定商品標籤；其餘版本建立組合商品時無法使用此屬性。
+
 - **不支援的屬性設定**：
     
-    - 商品標籤、商品類型、商品廠商    
+    - 商品類型、商品廠商    
     - Google 產品類別
     - SEO 設定    
     - 快速到貨      
