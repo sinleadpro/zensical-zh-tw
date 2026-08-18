@@ -433,6 +433,7 @@ copyright = """
                 { "Cookie 提示彈窗" = "ec/website-appearance/code-customization/setup-cookie-consent-banner.md" },
                 { "文字編輯器教學" = "ec/website-appearance/code-customization/text-editor.md" },
                 { "樣板編輯器" = "ec/website-appearance/code-customization/theme-editor-complete-guide.md" },
+                { "變更其他通路訂單名稱" = "ec/website-appearance/code-customization/customize-other-channel-order-label.md" },
                 { "恢復樣板版本" = "ec/website-appearance/code-customization/restore-code-theme-editor.md" }
             ]},
             { "參考資料" = [
