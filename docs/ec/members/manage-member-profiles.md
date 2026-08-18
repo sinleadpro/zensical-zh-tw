@@ -219,10 +219,12 @@ hide: []
 
     ![](../../assets/images/EC-後台-會員-所有會員-查看會員其他通路訂單-企業版01.png)
 
-!!! tip "前台顯示名稱"
-    會員於前台看到的「其他通路有效訂單」名稱，可透過字典檔自行變更。詳見[變更「其他通路有效訂單」前台顯示名稱](../website-appearance/code-customization/customize-other-channel-order-label.md)。
+    !!! tip "前台顯示名稱"
+        會員於前台看到的「其他通路有效訂單」名稱，可透過字典檔自行變更。詳見[變更「其他通路有效訂單」前台顯示名稱](../website-appearance/code-customization/customize-other-channel-order-label.md)。
 
-    ![](../../assets/images/EC-前台-會員中心-編輯其他通路有效訂單名稱01.png)
+        [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 企業
+
+        ![](../../assets/images/EC-前台-會員中心-編輯其他通路有效訂單名稱01.png)
 
 
 ## 任務四：資產配置
