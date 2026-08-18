@@ -5,8 +5,6 @@ created: 2026-05-08 09:38
 last_modified: 2026-07-13 09:58
 lang: zh-TW
 type: reference
-status: ""
-version: ""
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -42,7 +40,7 @@ features:
   - 關鍵字匹配
 prerequisites: []
 related:
-  - "[[search-filter-orders]]"
+  - "ec/orders/basics/search-filter-orders"
 tags:
   - 訂單篩選
   - 訂單狀態
@@ -59,7 +57,7 @@ paths:
   - 訂單 > 所有訂單
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/orders/references/order-filter-status-reference
+permalink: "https://help.cyberbiz.io/ec/orders/references/order-filter-status-reference/"
 comments: false
 search:
   exclude: false

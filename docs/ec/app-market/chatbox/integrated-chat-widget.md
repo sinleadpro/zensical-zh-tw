@@ -1,12 +1,10 @@
 ---
 title: 設定官網整合對話入口
-description: 了解如何在官網整合 LINE 與 Facebook Messenger 對話入口，透過 Chat Box 集中管理顧客訊息，提升溝通效率。
+description: 了解如何在官網整合 LINE 與 Facebook Messenger 對話入口，透過 CHAT BOX 集中管理顧客訊息，提升溝通效率。
 created: 2026-06-25 10:10
 last_modified: 2026-06-25 10:10
 lang: zh-TW
-type: tutorial 
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ sites:
   - TW
   - MY
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans: 
@@ -37,17 +35,17 @@ intents:
   - 集中管理顧客訊息
 features: 
   - 官網整合對話入口
-  - Chat Box
+  - CHAT BOX
   - LINE 整合
   - Messenger 整合
 prerequisites:
-  - "[[Chat Box 串接 LINE 官方帳號]]"
-  - "[[Chat Box 串接 Facebook 粉絲專頁]]"
+  - "ec/app-market/chatbox/connect-chat-box-to-line-oa"
+  - "ec/app-market/chatbox/connect-chat-box-to-facebook-page"
 related:
-  - "[[Chat Box 訊息通]]"
+  - "ec/app-market/chatbox/index"
 tags: 
   - 對話入口
-  - Chat_Box
+  - CHAT BOX
   - LINE
   - Messenger
   - 客服整合
@@ -62,10 +60,10 @@ ui_components:
   - 外觀設定
   - 功能設定
 paths: 
-  - APP MARKET > 我的擴充服務 > Chat Box > 官網整合對話入口
+  - APP MARKET > 我的擴充服務 > CHAT BOX > 官網整合對話入口
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/ec/app-market/chatbox/integrated-chat-widget"
+permalink: "https://help.cyberbiz.io/ec/app-market/chatbox/integrated-chat-widget/"
 search:
   exclude: false
 icon: lucide/message-square-plus
@@ -73,14 +71,15 @@ hide: []
 ---
 
 # 設定官網整合對話入口
-了解如何在官網整合 LINE 與 Facebook Messenger 對話入口，透過 Chat Box 集中管理顧客訊息，提升溝通效率。
+了解如何在官網整合 LINE 與 Facebook Messenger 對話入口，透過 CHAT BOX 集中管理顧客訊息，提升溝通效率。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業<br>
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ CHAT BOX
 { .doc-badge }
 
 !!! tip "應用情境"
-	- **訊息集中管理**：顧客透過官網從 LINE 或 Messenger 聯繫，訊息皆統一匯入 Chat Box，避免遺漏。
+	- **訊息集中管理**：顧客透過官網從 LINE 或 Messenger 聯繫，訊息皆統一匯入 CHAT BOX，避免遺漏。
 	- **提升詢問轉換**：在官網顯眼位置提供即時聯繫管道，降低顧客詢問門檻。
 	- **品牌一致性**：自訂對話按鈕的外觀與位置，確保小工具符合品牌視覺風格。
 
@@ -98,7 +97,7 @@ hide: []
 
 選擇要在官網顯示的聯繫工具。
 
-1. 登入 CYBERBIZ 管理後台，前往 **APP MARKET > 我的擴充服務 > Chat Box**。
+1. 登入 CYBERBIZ 管理後台，前往 **APP MARKET > 我的擴充服務 > CHAT BOX**。
 2. 進入 **官網整合對話入口**，點選 **功能設定** 分頁。
 3. **LINE**：從下拉選單選擇目標帳號，並將開關切換為 `開啟 (ON)`。
 4. **Facebook Messenger**：從下拉選單選擇目標粉絲專頁，並將開關切換為 `開啟 (ON)`。

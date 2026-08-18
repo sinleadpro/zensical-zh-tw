@@ -4,9 +4,7 @@ description: 除了在後台批次列印，CYBERBIZ POS 支援在結帳前台直
 created: 2026-03-25 16:30
 last_modified: 2026-06-30 21:55
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,8 +17,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -34,16 +32,16 @@ intents:
   - 開啟POS前台標籤列印功能
   - POS標籤列印設定
 features:
-  - POS_前台列印
+  - POS 前台列印
   - 商品標籤
   - 條碼列印
   - 結帳流程優化
 prerequisites:
-  - [[標籤機安裝與後台列印教學]]
+  - "標籤機安裝與後台列印教學"
 related:
-  - [[標籤機安裝與後台列印教學]]
+  - "標籤機安裝與後台列印教學"
 tags:
-  - POS_前台
+  - POS 前台
   - 標籤列印
   - 門市效率
   - 商品標籤
@@ -61,7 +59,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=13988
-permalink: https://help.cyberbiz.io/pos/check/print-product-labels
+permalink: "https://help.cyberbiz.io/pos/check/print-product-labels/"
 comments: false
 search:
   exclude: false

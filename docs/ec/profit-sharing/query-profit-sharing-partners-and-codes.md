@@ -4,9 +4,7 @@ description: 您可以隨時在後台查詢所有分潤合作夥伴（包括外�
 created: 2026-02-06 00:00
 last_modified: 2026-06-22 11:15
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -39,7 +37,7 @@ features:
   - 分潤查詢
 prerequisites: []
 related:
-  - [[推薦碼連結的應用]]
+  - "ec/profit-sharing/referral-link-applications"
 tags:
   - 分潤查詢
   - 推薦碼查詢
@@ -59,7 +57,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=1833
   - https://www.cyberbiz.io/support/?p=1864
   - https://www.cyberbiz.io/support/?p=39234
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/profit-sharing/query-profit-sharing-partners-and-codes/"
 comments: false
 search:
   exclude: false

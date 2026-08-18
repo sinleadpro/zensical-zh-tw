@@ -1,25 +1,23 @@
 ---
 title: 物流相關設定
 description: 調整配送過程中的細節規範與顧客可指定的送貨偏好，包含超商取貨姓名與離島、出貨明細列印、指定配送日期/時段、退貨天數。
-created: 2026-06-16
+created: 2026-06-16 00:00
 last_modified: 2026-07-09 11:20
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
 products:
-  - ec
+  - EC
 modules:
   - 金物流
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -31,7 +29,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 設定超商取貨姓名規範與離島配送
   - 設定顧客禁用超商取貨付款
@@ -49,10 +46,10 @@ prerequisites:
   - 若需使用進階指定配送功能，請確認已啟用「進階指定配送」(PLUS版以上或企業版)
   - 若需使用退貨時間調整設定，請確認已啟用對應功能
 related:
-  - "[[購物車相關設定]]"
-  - "[[訂單相關設定]]"
-  - "[[設定與列印出貨明細]]"
-  - "[[前台可退貨天數對照表]]"
+  - "ec/payments-and-logistics/payments/cart-settings"
+  - "ec/payments-and-logistics/payments/order-settings"
+  - "ec/orders/order-settings/shipping-detail-print"
+  - "ec/payments-and-logistics/references/return-eligible-days-reference"
 tags:
   - 物流設定
   - 超商取貨
@@ -69,7 +66,7 @@ paths:
   - 金物流 > 結帳頁 & 物流設定
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/logistics-settings/
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/payments/logistics-settings/"
 comments: false
 search:
   exclude: false

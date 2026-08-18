@@ -4,9 +4,7 @@ description: 當門市遇到網路斷線或不穩時，CYBERBIZ 提供「離線�
 created: 2026-03-25 18:00
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,8 +18,8 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
-  - clerk
+  - merchant
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -40,15 +38,15 @@ features:
   - 發票離線開立
   - SKU手動輸入
 prerequisites:
-  - [[更新 POS 驅動程式]]
+  - "更新 POS 驅動程式"
 related:
-  - [[POS 網路連線異常與斷線提示說明]]
+  - "POS 網路連線異常與斷線提示說明"
 tags:
   - 離線結帳
   - 斷線應急
   - 訂單同步
-  - POS_前台
-  - SKU_掃碼
+  - POS 前台
+  - SKU 掃碼
 acoiv: operation
 apis: []
 devices:
@@ -62,7 +60,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=12654
-permalink: []
+permalink: "https://help.cyberbiz.io/pos/check/offline-checkout-mode/"
 comments: false
 search:
   exclude: false

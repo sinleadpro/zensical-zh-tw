@@ -4,13 +4,11 @@ description: 本文件說明快速到貨服務的運費計價標準，系統自�
 created: 2026-02-06 00:00
 last_modified: 2026-07-15 14:20
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
-  - 以 Cyber幣的方式收取；可在「Cyber幣使用明細」查看->是否屬實
+  - 以 CYBER 幣的方式收取；可在「CYBER 幣使用明細」查看->是否屬實
   - 不須儲值CYBER幣
   - 價格表
 ga_views: 0
@@ -24,7 +22,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -60,7 +58,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=13847
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/quick-delivery-shipping-fee-calculation-and-reconciliation/"
 comments: false
 search:
   exclude: false
@@ -79,7 +77,7 @@ hide: []
 !!! tip "應用情境"
 	- **運費成本規劃**：商家在開通服務前，評估 Pandago 與 Uber Direct 的成本支出。
 	- **行銷活動設定**：設定快速到貨的免運門檻或運費加價，以平衡物流成本。
-	- **財務對帳**：每月核對 Cyber 幣扣款明細與實際出貨紀錄。
+	- **財務對帳**：每月核對 CYBER 幣扣款明細與實際出貨紀錄。
 
 
 

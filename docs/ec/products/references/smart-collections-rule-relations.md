@@ -1,13 +1,11 @@
 ---
 title: 條件分類篩選條件對照表
-description: ""
+description: "說明「商品條件分類」中每個篩選條件(運算子)的意義，供設定規則時參考。"
 created: 2026-06-03 21:55
 last_modified: 2026-07-02 10:07
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:
@@ -18,7 +16,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: ""
 plans:
@@ -40,13 +38,14 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/products/references/smart-collections-rule-relations/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide:
 ---
+
 
 本對照表說明「商品條件分類」中每個篩選條件(運算子)的意義，供設定規則時參考。
   

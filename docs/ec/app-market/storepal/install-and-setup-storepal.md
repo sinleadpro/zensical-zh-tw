@@ -1,12 +1,10 @@
 ---
 title: 門市助理安裝與導入
-description: 了解門市助理（Store Assistant）的安裝流程與前置設定，包含 LINE 認證、會員註冊規範及門市資料準備，協助商家順利完成 OMO 整合。
+description: 了解門市助理的安裝流程與前置設定，包含 LINE 認證、會員註冊規範及門市資料準備，協助商家順利完成 OMO 整合。
 created: 2026-06-18 16:00
 last_modified: 2026-07-01 12:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans: 
@@ -40,7 +38,7 @@ prerequisites:
   - "需為企業版方案商家"
   - "需啟用新版 VIP 制度"
 related: 
-  - "[[門市助理 – 會員等級]]"
+  - "門市助理 – 會員等級"
 tags: 
   - 門市助理
   - 安裝導引
@@ -61,7 +59,7 @@ paths:
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=41626
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/storepal/install-and-setup-storepal/"
 search:
   exclude: false
 icon: lucide/store
@@ -69,7 +67,7 @@ hide: []
 ---
 
 # 門市助理安裝與導入
-了解門市助理（Store Assistant）的安裝流程與前置設定，包含 LINE 認證、會員註冊規範及門市資料準備，協助商家順利完成 OMO 整合。
+了解門市助理的安裝流程與前置設定，包含 LINE 認證、會員註冊規範及門市資料準備，協助商家順利完成 OMO 整合。
 { .subtitle }
 
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業

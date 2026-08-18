@@ -4,9 +4,7 @@ description: 指引商家在官網啟用並管理 Google Pay™ 支付選項，�
 created: 2026-03-16 00:00
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -21,12 +19,12 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans: []
 cyb_extensions:
-  - PAYMENTS
+  - CYBERBIZ PAYMENTS
 intents:
   - 開啟_Google_Pay_支付
   - 設定金流使用門檻
@@ -39,7 +37,7 @@ features:
 prerequisites:
   - 需已開通 CYBERBIZ PAYMENTS 金流服務
 related:
-  - [[北美站金流服務]]
+  - "ec/payments-and-logistics/north-america-payment-services"
 tags:
   - 行動支付
   - CYBERBIZ PAYMENTS
@@ -57,7 +55,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3900
   - https://www.cyberbiz.io/support/?p=2620
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-google-pay
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-google-pay/"
 comments: false
 search:
   exclude: false
@@ -124,6 +122,6 @@ Google Pay 的交易安全邏輯將繼承商家在後台的信用卡設定：
 
 - :lucide-badge-dollar-sign:{ .lg }   
   [__北美站金流設定__](north-america-payment-services.md)     
-  若您經營的是 **Global 北美站**，其 Google Pay 設定與費率邏輯不同，請參閱相關專屬指南。
+  若您經營的是 **GLOBAL 北美站**，其 Google Pay 設定與費率邏輯不同，請參閱相關專屬指南。
 
 </div>

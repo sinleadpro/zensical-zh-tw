@@ -4,9 +4,7 @@ description: 透過建立商品關聯與開啟同步功能，您可以讓官網�
 created: 2026-02-26 00:00
 last_modified: 2026-06-27 13:40
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -39,8 +37,8 @@ features:
   - 庫存自動同步
   - 商品關聯管理
 prerequisites:
-  - [[Step 1 安裝與授權商店]]
-  - [[確認官網商品已具備唯一且正確的 SKU (商品編號)]]
+  - "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate"
+  - "確認官網商品已具備唯一且正確的 SKU (商品編號)"
 related: []
 tags: []
 acoiv: configure
@@ -55,7 +53,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12648
   - https://www.cyberbiz.io/support/?p=51142
-permalink: https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee
+permalink: "https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee/"
 comments: false
 search:
   exclude: false
@@ -67,7 +65,8 @@ hide: []
 透過建立商品關聯與開啟同步功能，您可以讓官網與蝦皮商店的庫存維持連動。當任一端產生訂單或在官網修改庫存時，系統將自動更新兩端的剩餘數量。
 { .subtitle }
 
-[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業<br>
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ CHANNEL BRIDGE
 { .doc-badge }
 
 ![](../../../../assets/images/EC-後台-APPMARKET-蝦皮商品-畫面總覽01.png){ .hero-page }

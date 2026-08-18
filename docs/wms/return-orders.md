@@ -4,9 +4,7 @@ description: 在電商倉儲系統處理退貨申請，包含派車取件、驗�
 created: 2026-03-19 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -57,7 +55,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5747
   - https://www.cyberbiz.io/support/?p=9139
-permalink: https://help.cyberbiz.io/wms/return-orders
+permalink: "https://help.cyberbiz.io/wms/return-orders/"
 comments: false
 search:
   exclude: false
@@ -107,7 +105,7 @@ hide: []
 
     - **支援物流**：目前僅支援 **黑貓宅急便** 與 **宅配通**。
     - **必要資訊**：須確實填寫買家的 **取件地址**（不可填寫超商地址）。
-    - **注意**：**高手版** 已開通 **CYBERBIZ PAYMENTS** 的商家，WMS 介面將自動隱藏此按鈕，請務必返回 **EC 後台** 提出 [逆物流申請](../ec/orders/訂單退貨流程/#步驟-1啟動退貨與安排逆物流)，以利金流自動退款。
+    - **注意**：**高手版** 已開通 **CYBERBIZ PAYMENTS** 的商家，WMS 介面將自動隱藏此按鈕，請務必返回 **EC 後台** 提出 [逆物流申請](../ec/orders/order-return-process/#步驟-1啟動退貨與安排逆物流)，以利金流自動退款。
     
     ![](../assets/images/WMS-後台-訂單-列表-訂單執行退貨02.png){ .screenshot }
 

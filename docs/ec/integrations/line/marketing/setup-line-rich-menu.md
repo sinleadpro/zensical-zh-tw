@@ -4,9 +4,7 @@ description: 建立與設定 LINE 圖文選單，讓顧客可透過官方帳號�
 created:
 last_modified: 2026-07-02 10:17
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,8 +17,8 @@ modules:
 sites: []
 audiences:
   - merchant
-  - 管理員
-difficulty: medium
+  - merchant
+difficulty: intermediate
 tnb: branch
 plans:
   - 專業PLUS
@@ -68,7 +66,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5858
   - https://www.cyberbiz.io/support/?p=855
-permalink: https://help.cyberbiz.io/ec/integrations/line/marketing/setup-line-rich-menu
+permalink: "https://help.cyberbiz.io/ec/integrations/line/marketing/setup-line-rich-menu/"
 comments: false
 search:
   exclude: false

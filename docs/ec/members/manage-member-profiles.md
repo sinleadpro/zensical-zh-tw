@@ -4,9 +4,7 @@ description: 當特定會員有資料與權限異動、點數與優惠券配置�
 created: 2026-02-11 00:00
 last_modified: 2026-08-17 14:22
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -27,7 +25,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -47,7 +45,7 @@ features:
   - 紅利優惠券派發
   - 帳號權限控管
 prerequisites:
-  - [[需具備管理員權限以編輯會員敏感資訊]]
+  - 需具備管理員權限以編輯會員敏感資訊
 related:
   - ec/website-appearance/code-customization/customize-other-channel-order-label
 tags:
@@ -72,7 +70,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=2289
   - https://www.cyberbiz.io/support/?p=2549
   - https://www.cyberbiz.io/support/?p=2635
-permalink: https://help.cyberbiz.io/ec/members/manage-member-profiles
+permalink: "https://help.cyberbiz.io/ec/members/manage-member-profiles/"
 comments: false
 search:
   exclude: false

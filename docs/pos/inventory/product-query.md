@@ -4,9 +4,7 @@ description: 門市人員可透過 POS 前台快速檢索商品資訊與庫存�
 created: 2026-04-10 10:30
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - clerk
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -56,7 +54,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=4623
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/inventory/product-query/"
 comments: false
 search:
   exclude: false

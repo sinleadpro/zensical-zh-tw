@@ -4,10 +4,8 @@ description: 訂單尚未完成付款時，商家可透過付款連結引導顧�
 created:
 last_modified: 2026-07-22 15:49
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/orders/order-settings/provide-payment-link
-type: tutorial
-status:
-version:
+permalink: "https://help.cyberbiz.io/ec/orders/order-settings/provide-payment-link/"
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -101,7 +99,7 @@ hide:
 1. 登入 CYBERBIZ 後台，由左側選單進入 **訂單 > 所有訂單**。
 2. 點擊該筆訂單編號，進入 **訂單明細頁**。
 3. 在頁面中的 **貨款** 區塊，找到 **付款連結** 欄位。
-4. 複製該連結地址，並透過 Email、簡訊或社群通訊軟體提供給消費者。ㄛ
+4. 複製該連結地址，並透過 Email、簡訊或社群通訊軟體提供給消費者。
 
 ![付款連結流程](../../../assets/images/ec-訂單-付款連結頁面.gif){ title="付款連結流程" }
 

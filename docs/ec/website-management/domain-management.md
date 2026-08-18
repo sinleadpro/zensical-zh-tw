@@ -4,9 +4,7 @@ description: 當您在第三方平台購買了專屬網域後，需要透過 DNS
 created: 2026-03-02 00:00
 last_modified: 2026-06-30 08:02
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -34,7 +32,7 @@ intents:
   - 根網域轉址
 features:
   - 網域管理
-  - DNS設定
+  - DNS 設定
   - CNAME
 prerequisites: []
 related: []
@@ -85,7 +83,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=43182
   - https://www.cyberbiz.io/support/?p=43442
   - https://www.cyberbiz.io/support/?p=4540
-permalink: https://help.cyberbiz.io/ec/website-management/domain-management
+permalink: "https://help.cyberbiz.io/ec/website-management/domain-management/"
 comments: false
 search:
   exclude: false

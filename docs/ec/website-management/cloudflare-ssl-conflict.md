@@ -5,8 +5,6 @@ created: 2026-03-10 00:00
 last_modified: 2026-06-30 08:02
 lang: zh-TW
 type: reference
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans: []
@@ -28,12 +26,12 @@ intents:
   - 解決_Cloudflare_SSL_衝突
   - 關閉_Cloudflare_Proxy
 features:
-  - SSL_憑證
+  - SSL 憑證
   - 網域管理
-  - DNS_設定
+  - DNS 設定
 prerequisites:
-  - [[需具備 Cloudflare 帳戶管理權限]]
-  - [[網域已完成 Cloudflare 代管設定]]
+  - "需具備 Cloudflare 帳戶管理權限"
+  - "網域已完成 Cloudflare 代管設定"
 related: []
 tags:
   - 疑難排解
@@ -50,7 +48,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4598
   - https://www.cyberbiz.io/support/?p=28727
-permalink: https://help.cyberbiz.io/ec/website-management/cloudflare-ssl-conflict
+permalink: "https://help.cyberbiz.io/ec/website-management/cloudflare-ssl-conflict/"
 comments: false
 search:
   exclude: false

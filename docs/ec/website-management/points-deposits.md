@@ -1,12 +1,10 @@
 ---
-title: Cyber 幣儲值中心使用指南
-description: Cyber 幣儲值中心使用指南，包含儲值步驟、發票資訊填寫、付款方式與使用明細查詢。
+title: CYBER 幣儲值中心使用指南
+description: CYBER 幣儲值中心使用指南，包含儲值步驟、發票資訊填寫、付款方式與使用明細查詢。
 created: 2026-04-28 10:38
 last_modified: 2026-07-22 15:51
 lang: zh-TW
 type: guide
-status: ""
-version: ""
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -37,17 +35,17 @@ intents:
   - 查詢儲值紀錄
   - 匯出使用明細
 features:
-  - CYBER_幣儲值
+  - CYBER 幣儲值
   - 信用卡付款
   - 虛擬ATM轉帳
   - 簡訊計費
   - EDM計費
 prerequisites: []
 related:
-  - "[[manage-sms-templates-v2]]"
-  - "[[send-edm-newsletters-v2]]"
+  - "ec/notifications/manage-sms-templates-v2"
+  - "ec/notifications/send-edm-newsletters-v2"
 tags:
-  - Cyber幣
+  - CYBER 幣
   - 儲值中心
   - 儲值教學
   - 發票設定
@@ -63,7 +61,7 @@ paths:
   - 管理中心 > 儲值中心
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/ec/website-management/points-deposits"
+permalink: "https://help.cyberbiz.io/ec/website-management/points-deposits/"
 comments: false
 search:
   exclude: false
@@ -73,15 +71,15 @@ hide:
 
 ![儲值中心](../../assets/images/ec-管理中心-儲值中心.png){ .hero-page }
 
-## Cyber幣說明
+## CYBER 幣說明
 
-Cyber幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務，包含：
+CYBER 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務，包含：
 
 - 發送簡訊通知（SMS）
 - 發送電子報（EDM）
 - 其他平台付費功能
 
-!!! warning "Cyber 幣購買後 *無法退費*，購買前請確認需求並詳閱 [CYBERBIZ 使用條款](https://www.cyberbiz.io/terms-of-service/)。"
+!!! warning "CYBER 幣購買後 *無法退費*，購買前請確認需求並詳閱 [CYBERBIZ 使用條款](https://www.cyberbiz.io/terms-of-service/)。"
 
 ## 頁面功能總覽
 
@@ -90,7 +88,7 @@ Cyber幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
 <div class="grid cards" markdown>
 
 - :lucide-wallet:
-  [__Cyber 幣購買中心__](#cyber-coin-balance)  
+  [__CYBER 幣購買中心__](#cyber-coin-balance)  
 
 - :lucide-message-square:
   [__簡訊追蹤服務__](#sms)   
@@ -99,7 +97,7 @@ Cyber幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
   [__EDM 發送服務__](#edm)   
 
 - :lucide-credit-card:
-  [__立即購買 Cyber 幣__](#operate-cyber-coin-deposit)  
+  [__立即購買 CYBER 幣__](#operate-cyber-coin-deposit)  
 
 - :lucide-receipt:
   [__儲值紀錄__](#cyber-coin-deposit-history)   
@@ -112,7 +110,7 @@ Cyber幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
 
 </div>
 
-## 查詢 Cyber 幣餘額 { #cyber-coin-balance }
+## 查詢 CYBER 幣餘額 { #cyber-coin-balance }
 
 顯示目前餘額，提供儲值入口
 
@@ -125,7 +123,7 @@ Cyber幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
 
 ### 簡訊 <small>SMS</small> { #sms }
 
-簡訊依發送對象分為國內簡訊與國外簡訊，分別以不同的 Cyber 幣計費。
+簡訊依發送對象分為國內簡訊與國外簡訊，分別以不同的 CYBER 幣計費。
 
 !!! info "簡訊發送相關設定請參閱「[如何管理簡訊樣板](../notifications/manage-sms-templates-v2.md){ title="簡訊樣板管理" }」。"
 
@@ -135,14 +133,14 @@ Cyber幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
 
 !!! info "EDM 發送相關設定請參閱「[如何發送 EDM 電子報](../notifications/send-edm-newsletters-v2.md){ title="設定與發送 EDM 電子報" }」。"
 
-## 如何儲值 Cyber 幣 { #operate-cyber-coin-deposit }
+## 如何儲值 CYBER 幣 { #operate-cyber-coin-deposit }
 
 !!! plan "方案差異"
     若您的帳號為 PLUS版  / 企業版，系統將顯示「無需儲值」提示。相關費用將自動列入對帳單，不需手動操作儲值流程。 
 
 ### 步驟一：輸入儲值金額
 
-1. 登入 CYBERBIZ 後台，前往 **管理中心 > 儲值中心**，往下捲動至「**立即購買 Cyber 幣**」區塊。
+1. 登入 CYBERBIZ 後台，前往 **管理中心 > 儲值中心**，往下捲動至「**立即購買 CYBER 幣**」區塊。
 2. 在輸入框填入欲儲值的金額（台幣）。
     - **最低儲值金額：** 1,200 元
     - **最高儲值金額：** 40,000 元
@@ -207,7 +205,7 @@ Cyber幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
     2. 在信用卡輸入框填寫卡號、有效期限、CVV。
     3. 勾選同意服務條款後，點擊「**確認**」。
     4. 系統將導向 3D 驗證頁面，完成銀行身份驗證。
-    5. 驗證成功後，Cyber 幣將 **立即入帳** 至您的帳戶。
+    5. 驗證成功後，CYBER 幣將 **立即入帳** 至您的帳戶。
 
     ![信用卡付款](../../assets/images/ec-管理中心-儲值中心-CYBER幣購買視窗-付款方式-信用卡.png)
 
@@ -227,7 +225,7 @@ Cyber幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
         - 請 **單次轉帳全數金額**，請勿分次轉帳。
         - 請勿設定由收款人承擔匯費。
         - 可透過網路銀行、網路 ATM 或實體 ATM 進行轉帳。
-        - 轉帳完成後，系統確認款項後 Cyber 幣將自動入帳。
+        - 轉帳完成後，系統確認款項後 CYBER 幣將自動入帳。
 
 ## 查詢儲值紀錄 { #cyber-coin-deposit-history }
 
@@ -237,7 +235,7 @@ Cyber幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
 |------|------|
 | 付款時間 | 交易完成的日期與時間 |
 | 金額 | 實際付款金額（含稅） |
-| Cyber 幣 | 本次儲值取得的點數 |
+| CYBER 幣 | 本次儲值取得的點數 |
 | 發票號碼 | 電子發票號碼（點擊可開啟發票連結） |
 
 
@@ -246,22 +244,22 @@ Cyber幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
     表格右上角搜尋框支援對 **當前頁** 所有欄位做 **部分比對**（不分大小寫）。例如輸入 `AB12` 可比對到發票號碼含此字串的列。                   
     *搜尋僅作用於已載入的當前頁資料，不支援跨頁搜尋。*
 
-## 查詢 Cyber 幣使用明細 { #cyber-coin-transaction-history }
+## 查詢 CYBER 幣使用明細 { #cyber-coin-transaction-history }
 
-頁面下方「**明細紀錄**」表格顯示 Cyber 幣的消費記錄：
+頁面下方「**明細紀錄**」表格顯示 CYBER 幣的消費記錄：
 
 | 欄位 | 說明 |
 |------|------|
 | 種類 | 使用服務的類型（如：簡訊、EDM） |
 | 時間 | 消費發生的時間 |
-| Cyber 幣 | 本次消費的點數數量 |
+| CYBER 幣 | 本次消費的點數數量 |
 | 明細 | 消費項目的詳細說明 |
 
 可使用下方分頁按鈕瀏覽更多紀錄。
 
 ![明細紀錄](../../assets/images/ec-管理中心-儲值中心-明細紀錄.png)
 
-## 匯出 Cyber 幣使用明細 { #cyber-coin-transactions-export }
+## 匯出 CYBER 幣使用明細 { #cyber-coin-transactions-export }
 
 如需下載報表進行對帳或分析，可使用「**明細匯出**」功能：
 
@@ -289,13 +287,13 @@ Cyber幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
 
 ## 常見問題
 
-??? quote "儲值後 Cyber 幣多久會入帳？"
+??? quote "儲值後 CYBER 幣多久會入帳？"
 
     信用卡付款驗證完成後 **立即入帳**；ATM 轉帳於系統確認款項後入帳（通常為轉帳後數小時內）。
 
-??? quote "Cyber 幣可以退費嗎？"
+??? quote "CYBER 幣可以退費嗎？"
 
-    Cyber 幣購買後 **不提供退費**，購買前請確認需求。
+    CYBER 幣購買後 **不提供退費**，購買前請確認需求。
 
 ??? quote "發票可以更改嗎？"
 
@@ -303,7 +301,7 @@ Cyber幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
 
 ??? quote "PLUS版  / 企業版為什麼顯示「無需儲值」？"
 
-    若您的帳號為 PLUS版 或企業版，相關費用將自動列入對帳單，不需手動操作儲值流程。系統會在「Cyber 幣購買中心」區塊顯示「無需儲值」提示。
+    若您的帳號為 PLUS版 或企業版，相關費用將自動列入對帳單，不需手動操作儲值流程。系統會在「CYBER 幣購買中心」區塊顯示「無需儲值」提示。
 
 ??? quote "匯出時顯示「已有匯出排程進行中」怎麼辦？"
 

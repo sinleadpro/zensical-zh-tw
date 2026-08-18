@@ -1,6 +1,11 @@
 ---
+author: ""
+reviewers: []
+products: [EC]
+notes: []
 title: APP MARKET 總覽
 description: 在 CYBERBIZ APP MARKET 中探索並安裝各類擴充服務，實現自動化行銷、全通路管理與門市銷售整合。
+lang: zh-TW
 icon: lucide/grid-2x2-plus
 permalink: "https://help.cyberbiz.io/ec/app-market/"
 hide:
@@ -27,7 +32,7 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :lucide-message-square: __Chat Box 訊息通__
+-   :lucide-message-square: __CHAT BOX 訊息通__
 
     ---
 

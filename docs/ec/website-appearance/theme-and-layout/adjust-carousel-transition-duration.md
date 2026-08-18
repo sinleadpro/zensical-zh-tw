@@ -4,9 +4,7 @@ description: 修改樣板檔案中的 delay 參數，調整首頁跑馬燈（輪
 created: 2025-03-03 14:20
 last_modified: 2026-06-30 21:35
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -47,7 +45,7 @@ tags:
   - 輪播圖
   - 轉場時間
   - 樣板編輯器
-  - _main_slider.liquid
+  -  main slider.liquid
 acoiv: ""
 apis: []
 devices:
@@ -61,10 +59,10 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1643
   - https://www.cyberbiz.io/helpcenter/?p=3558
   - https://www.cyberbiz.io/support/?p=17225
-permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/adjust-carousel-transition-duration
+permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/adjust-carousel-transition-duration/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/gallery-horizontal
 hide:
 ---

@@ -59,7 +59,8 @@ hide: []
 說明商家與消費者如何透過 CYBERBIZ EXPRESS 追蹤物流狀態，並查看託運單預估與實際運費。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 跨境電商 (日到台)
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 跨境電商 (日到台)<br>
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ EXPRESS
 { .doc-badge }
 ## 貨態追蹤
 

@@ -5,8 +5,6 @@ created: 2026-02-25 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: troubleshooting
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:
@@ -51,7 +49,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=9105
-permalink: https://help.cyberbiz.io/wms/manually-confirm-receipt
+permalink: "https://help.cyberbiz.io/wms/manually-confirm-receipt/"
 comments: false
 search:
   exclude: false

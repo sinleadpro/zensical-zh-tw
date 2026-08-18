@@ -4,9 +4,7 @@ description: 建立「任選折扣群組」，設定件數門檻與折扣計價�
 created: 2026-01-21 00:00
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -55,7 +53,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=1357
   - https://www.cyberbiz.io/support/?p=1380
   - https://www.cyberbiz.io/support/?p=7316
-permalink: https://help.cyberbiz.io/ec/marketing/discounts/mix-and-match-discounts
+permalink: "https://help.cyberbiz.io/ec/marketing/discounts/mix-and-match-discounts/"
 comments: false
 search:
   exclude: false

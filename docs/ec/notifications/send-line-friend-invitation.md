@@ -4,9 +4,7 @@ description: 透過簡訊或 Email 向未綁定會員發送 LINE 官方帳號加
 created: 2026-02-22 00:00
 last_modified: 2026-07-01 12:00
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -61,7 +59,7 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=739
-permalink: https://help.cyberbiz.io/ec/notifications/send-line-friend-invitation
+permalink: "https://help.cyberbiz.io/ec/notifications/send-line-friend-invitation/"
 comments: false
 search:
   exclude: false

@@ -5,8 +5,6 @@ created: 2026-03-19 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
 type: guide
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:
@@ -53,7 +51,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10497
   - https://www.cyberbiz.io/support/?p=4414
-permalink: https://help.cyberbiz.io/wms/merchant-self-inspection-of-returns
+permalink: "https://help.cyberbiz.io/wms/merchant-self-inspection-of-returns/"
 comments: false
 search:
   exclude: false

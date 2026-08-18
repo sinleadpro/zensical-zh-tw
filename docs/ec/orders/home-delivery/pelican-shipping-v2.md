@@ -4,9 +4,7 @@ description: 使用宅配通出貨。包含批次下載託運單、單筆與部�
 created: 2026-05-19 21:30
 last_modified: 2026-07-09 14:47
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -44,7 +42,7 @@ features:
   - 加印託運單
   - 逆物流退貨
 prerequisites:
-  - "[[setup-pelican-waybill-v2]]"
+  - "ec/payments-and-logistics/setup-pelican-waybill-v2"
 tags:
   - 宅配通
   - 出貨
@@ -64,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=63
   - https://www.cyberbiz.io/support/?p=975
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/pelican-shipping-v2
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/pelican-shipping-v2/"
 comments: false
 search:
   exclude: false
@@ -91,11 +89,11 @@ hide: []
 
 | 商家類型 | 計費方式 | 印單前提 |
 | :-- | :-- | :-- |
-| 一般版 | 預扣 **Cyber 幣** ，自帳戶餘額扣除 | 餘額不足時無法列印，需先至儲值中心儲值 |
+| 一般版 | 預扣 **CYBER 幣** ，自帳戶餘額扣除 | 餘額不足時無法列印，需先至儲值中心儲值 |
 | PLUS版 / 企業版 | 列入每期 **對帳單** 統一收款 | 無須預先儲值 |
 
 !!! info "提示"
-    若不確定自家屬於哪一種計費方式，進入「宅配通託運單」頁面後，頁面上方若顯示「目前 Cyber 幣 餘額」即為一般版；若顯示對帳單說明文字即為 PLUS版 / 企業版。
+    若不確定自家屬於哪一種計費方式，進入「宅配通託運單」頁面後，頁面上方若顯示「目前 CYBER 幣 餘額」即為一般版；若顯示對帳單說明文字即為 PLUS版 / 企業版。
 
 ---
 
@@ -138,7 +136,7 @@ hide: []
 
     ![下載宅配通託運單](../../../assets/images/EC-訂單-所有訂單-下載宅配通託運單.png){ title="下載宅配通託運單" }
 
-5. **檢視運費明細**：彈窗 中段會列出本批次要扣除的 Cyber 幣或對帳金額，請確認與預期相符。
+5. **檢視運費明細**：彈窗 中段會列出本批次要扣除的 CYBER 幣或對帳金額，請確認與預期相符。
 6. **確認寄件地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [宅配通設定](../../payments-and-logistics/setup-pelican-waybill-v2.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" } 中的地址），如需更改可點擊 **「更改」** 按鈕編輯[^4]。
 
     ![確認寄件地址](../../../assets/images/ec-orders-pelican-waybill-popup-address.png){ title="確認宅配通託運單地址" }
@@ -214,25 +212,15 @@ hide: []
     * 勾選的訂單是否包含 **非宅配通** 的物流類型(混合勾選時系統無法批次處理)
     * 訂單付款狀態是否為「已付款」或「貨到付款」
 
-??? quote "Cyber 幣不足時要怎麼處理？"
+??? quote "CYBER 幣不足時要怎麼處理？"
     [](){ #faq-pelican-insufficient-points }
 
-    若您是一般版商家，須先至「儲值中心」儲值 Cyber 幣後才能列印託運單。PLUS / 企業版商家無此限制，運費會列入每期對帳單。
+    若您是一般版商家，須先至「儲值中心」儲值 CYBER 幣後才能列印託運單。PLUS / 企業版商家無此限制，運費會列入每期對帳單。
 
-??? quote "託運單下載後沒寄出，Cyber 幣會自動退嗎？"
+??? quote "託運單下載後沒寄出，CYBER 幣會自動退嗎？"
     [](){ #faq-pelican-unused-refund }
 
-    會。下載後 **兩週(14 日)內未實際寄出** ，系統會自動退回該張託運單的運費，並將單號狀態標記為「取消寄件」。若退費後仍使用該張託運單，系統會再次記錄運費。
-
-??? quote "已經出貨了才發現收件地址打錯，怎麼辦？"
-    [](){ #faq-pelican-modify-address }
-
-    託運單一旦下載，後台 **無法自行修改** 收件資訊。如包裹尚未交付物流，建議：
-
-    * 聯繫 CYBERBIZ 客服協助取消該張託運單
-    * 修改訂單收件資料後，以新訂單資料重新下載託運單
-
-    若包裹已被宅配通收走，請直接聯繫宅配通客服處理。
+    會。下載後 **兩週(14 日)內未實際寄出** ，系統會自動退回該張託運單的運費，並將單號狀態標記為「取消寄件」。
 
 ??? quote "一筆訂單要分多箱寄，應該用「部分出貨」還是「加印託運單」？"
     [](){ #faq-pelican-multibox }

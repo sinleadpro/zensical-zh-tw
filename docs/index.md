@@ -1,10 +1,17 @@
 ---
+description: "CYBERBIZ 幫助中心首頁，彙整品牌官網、智慧倉儲、智能 POS、擴充功能與資源中心的說明文件入口。"
 title: 主頁
+lang: zh-TW
 author: Jase
+reviewers: []
+products: [EC, POS, WMS]
+notes: []
 hide:
+  - description
   - feedback
   - navigation
   - toc
+permalink: "https://help.cyberbiz.io/"
 ---
 
 <div style="display: flex; gap: 2rem; flex-wrap: wrap; padding: 3rem 0 4rem;" markdown>
@@ -162,7 +169,7 @@ hide:
 
   <div id="announcement" role="tabpanel" class="tab-content" style="display:flex">
     <a href="/ec/products/create-and-manage/create-update-products/?tour=1"><span class="badge">新功能</span>全新幫助中心導覽功能上線 <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-right" viewBox="0 0 24 24" width="1em" height="1em" style="vertical-align:middle;margin-left:2px"><circle cx="12" cy="12" r="10"/><path d="m12 16 4-4-4-4M8 12h8"/></svg></a>
-    <!-- <a href="#"><span class="badge">重要</span>2026 年 6 月系統排程維護公告</a> -->
+    <a href="/ec/website-management/security-settings/#operate-security-sms-bot-protection"><span class="badge">新功能</span>會員註冊簡訊新增機器人防護</a> 
     <!-- <a href="#"><span class="badge">通知</span>CYBERBIZ 金流服務升級通知</a> -->
     <!-- <a href="#"><span class="badge">新功能</span>全通路庫存同步功能正式上線</a> -->
   </div>
@@ -342,7 +349,7 @@ function openTab(evt, tabName) {
     [__金流支付__](ec/payments-and-logistics/){ title="付款金流" }
 
 -   :lucide-message-circle:{ .lg }
-    [__訊息通__](ec/app-market/chatbox/){ title="Chat Box 訊息通" }
+    [__訊息通__](ec/app-market/chatbox/){ title="CHAT BOX 訊息通" }
 
 -   :lucide-link-2:{ .lg }
     [__全通路管理助手__](ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md){ title="Step 1 安裝與授權商店" }

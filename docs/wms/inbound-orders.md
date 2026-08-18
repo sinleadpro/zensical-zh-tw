@@ -4,9 +4,7 @@ description: 在實體貨物送達前，商家必須先於後台建立進倉單�
 created: 2026-03-16 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -58,7 +56,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=4799
   - https://www.cyberbiz.io/support/?p=4814
   - https://www.cyberbiz.io/support/?p=9088
-permalink: https://help.cyberbiz.io/wms/inbound-orders
+permalink: "https://help.cyberbiz.io/wms/inbound-orders/"
 comments: false
 search:
   exclude: false
@@ -164,7 +162,7 @@ hide: []
     - **下載進倉單明細**
     - **下載歷史紀錄**
 
-> 進倉單建立完成後，必須隨貨檢附 **箱外明細** 單據，以利倉庫識別貨物並加速驗收流程。完整流程可參考 [商家進倉規範](商家進倉作業規範/#2-貨品標籤)。
+> 進倉單建立完成後，必須隨貨檢附 **箱外明細** 單據，以利倉庫識別貨物並加速驗收流程。完整流程可參考 [商家進倉規範](merchant-inbound-operation-rules/#2-貨品標籤)。
 
 ### 查看進倉單資訊
 

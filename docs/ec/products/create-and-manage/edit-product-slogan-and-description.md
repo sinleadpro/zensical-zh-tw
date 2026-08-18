@@ -4,9 +4,7 @@ description: 客製商品標語與商品簡述文字樣式、修改商品文案
 created: 2026-01-08 00:00
 last_modified: 2026-07-22 17:25
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -23,7 +21,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -67,7 +65,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1060
   - https://www.cyberbiz.io/helpcenter/?p=3545
   - https://www.cyberbiz.io/support/?p=16893
-permalink: https://help.cyberbiz.io/ec/products/create-and-manage/edit-product-slogan-and-description
+permalink: "https://help.cyberbiz.io/ec/products/create-and-manage/edit-product-slogan-and-description/"
 comments: false
 search:
   exclude: false

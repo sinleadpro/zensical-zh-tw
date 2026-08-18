@@ -4,9 +4,7 @@ description: 說明如何自行設定宅配物流選項、運費門檻與溫層�
 created: 2026-06-04 10:02
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans: []
@@ -37,7 +35,7 @@ features:
 prerequisites: 
   - "需先完成金流串接設定"
 related: 
-  - "[[home-delivery-cash-on-delivery]]"
+  - "ec/payments-and-logistics/home-delivery-cash-on-delivery"
 tags: 
   - 物流設定
   - 運費
@@ -57,7 +55,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2746
   - https://www.cyberbiz.io/support/?p=10652
   - https://www.cyberbiz.io/support/?p=5983
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-home-delivery-non-cod-custom-logistics
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-home-delivery-non-cod-custom-logistics/"
 comments: false
 search:
   exclude: false
@@ -68,7 +66,7 @@ hide: []
 「自訂物流」允許商家自行設定宅配選項與運費規則。您可以根據訂單金額或重量設定多階層運費，並支援常溫、冷藏、冷凍等不同溫層的配送需求。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 全方案適用
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 全版本
 { .doc-badge }
 
 

@@ -4,9 +4,7 @@ description: 於訂單列表批次下載託運單、產生託運單號，並將�
 created: 2026-05-25 20:35
 last_modified: 2026-07-01 12:30
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -38,9 +36,9 @@ features:
   - B2C 大宗寄倉
   - 託運單批次下載
 prerequisites:
-  - "[[setup-cvs-b2c-bulk-shipping]]"
+  - "ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping"
 related:
-  - "[[cvs-b2c-channel-spec-reference]]"
+  - "ec/payments-and-logistics/references/cvs-b2c-channel-spec-reference"
 tags:
   - 超商大宗寄倉
   - B2C 出貨
@@ -58,7 +56,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=122
   - https://www.cyberbiz.io/support/?p=977
-permalink: https://help.cyberbiz.io/ec/orders/cvs-shipping/cvs-b2c-bulk-shipping
+permalink: "https://help.cyberbiz.io/ec/orders/cvs-shipping/cvs-b2c-bulk-shipping/"
 comments: false
 search:
   exclude: false
@@ -82,7 +80,7 @@ hide: []
 - [x] **通路已設定並啟用**：需先於「[設定超商大宗寄倉 B2C](../../payments-and-logistics/setup-cvs-b2c-bulk-shipping.md){ title="設定超商大宗寄倉 B2C" }」完成申請、測標、啟用。
 - [x] **訂單狀態符合**：付款狀態需為「**已收到款項**」或「**貨到付款**」，配送狀態需為「**未出貨**」或「**處理中**」。
 - [x] **同一批次需同通路**：勾選的訂單必須屬於同一家超商（例：皆為 7-ELEVEN），不同通路需分批操作。
-- [x] **Cyber 幣餘額充足**：一般版 商家需確認餘額足以扣除運費。
+- [x] **CYBER 幣餘額充足**：一般版 商家需確認餘額足以扣除運費。
 
 ## 操作步驟 { #operate-cvs-b2c-shipping }
 
@@ -196,7 +194,7 @@ hide: []
   尚未開通通路？先完成申請與啟用。
 
 - :lucide-coins:{ .lg }  
-  [__儲值 CYBER 幣__](../../website-management/points-deposits.md){ title="Cyber 幣儲值中心使用指南" }  
+  [__儲值 CYBER 幣__](../../website-management/points-deposits.md){ title="CYBER 幣儲值中心使用指南" }  
   一般版商家確保餘額足以扣除大量訂單運費。
 
 </div>
@@ -228,7 +226,7 @@ hide: []
     
     託運單號將自動失效，且 **無法補印或退費**。若仍需出貨，須請消費者重新下單。
 
-??? quote "補印託運單會再扣 Cyber 幣嗎？"
+??? quote "補印託運單會再扣 CYBER 幣嗎？"
     [](){ #faq-cvs-b2c-shipping-reprint-cost }
     
     不會。補印僅是重新下載已產生的託運單號 PDF，不會建立新單號，也不會重複扣款或改變訂單狀態。

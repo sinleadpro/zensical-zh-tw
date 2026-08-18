@@ -1,12 +1,10 @@
 ---
 title: 會員總覽
 description: 從性別、年齡、註冊來源到會員等級描繪會員輪廓，協助調整商品文案、廣告受眾與會員制度。
-created: 2026-06-16
+created: 2026-06-16 00:00
 last_modified: 2026-07-10 15:20
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: 
@@ -20,13 +18,12 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
   - 企業
 cyb_extensions: []
-feature_badges: []
 intents:
   - 查看會員性別年齡分群
   - 了解會員註冊來源分布
@@ -42,8 +39,8 @@ prerequisites:
   - 了解有效訂單定義
   - 了解數據更新時間
 related:
-  - "[[member-analysis]]"
-  - "[[customer-analysis]]"
+  - "ec/business-intelligence/member-analysis"
+  - "ec/business-intelligence/customer-analysis"
 tags:
   - 會員總覽
   - 會員分析

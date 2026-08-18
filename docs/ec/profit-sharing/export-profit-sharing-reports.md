@@ -4,9 +4,7 @@ description: 透過分潤報表，您可以精確統計各類推廣對象的業�
 created: 2026-02-06 00:00
 last_modified: 2026-06-04 17:59
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -61,7 +59,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=1833
   - https://www.cyberbiz.io/support/?p=1864
   - https://www.cyberbiz.io/support/?p=39234
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/profit-sharing/export-profit-sharing-reports/"
 comments: false
 search:
   exclude: false

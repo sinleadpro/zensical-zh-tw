@@ -8,10 +8,8 @@ description: 設定拖拉版型的全站共用設定，包含彈窗廣告、顏�
 created:
 last_modified: 2026-07-22 16:23
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-global-theme-settings
-type: tutorial
-status:
-version:
+permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-global-theme-settings/"
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -24,7 +22,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -47,7 +45,7 @@ features:
   - 彈窗廣告
   - 導覽列與頁腳
   - 顏色設定
-  - SEO設定
+  - SEO 設定
   - 商品顯示設定
   - 動態標籤
   - 品牌識別
@@ -71,7 +69,7 @@ ui_components: []
 paths:
   - 網站外觀 > 套版主題管理
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url: []
 icon: lucide/settings-2
 hide:

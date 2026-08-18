@@ -53,7 +53,7 @@ ui_components:
   - 物流單號
   - 逾期處理
 paths: 
-  - App Market > 我的擴充服務 > CYBERBIZ EXPRESS
+  - APP MARKET > 我的擴充服務 > CYBERBIZ EXPRESS
   - 金物流 > 物流設定 > 超商物流
 layouts: []
 wp_url: []
@@ -69,7 +69,8 @@ hide: []
 CYBERBIZ EXPRESS 提供的 7-11 跨境超取服務，讓海外商家不須自行與 7-11 簽約，即可提供台灣消費者「超商取貨不付款」的便捷配送選項。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 跨境電商 (日到台)
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 跨境電商 (日到台)<br>
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ EXPRESS
 { .doc-badge }
 
 ## 服務定位與優勢

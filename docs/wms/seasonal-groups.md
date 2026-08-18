@@ -4,9 +4,7 @@ description: 指引商家如何在電商倉儲中建立與管理「季別群組�
 created: 2026-03-19 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -55,7 +53,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=8920
-permalink: https://help.cyberbiz.io/wms/seasonal-groups
+permalink: "https://help.cyberbiz.io/wms/seasonal-groups/"
 comments: false
 search:
   exclude: false
@@ -104,7 +102,7 @@ hide: []
 
 - **編輯/刪除群組**：在 **季別群組** 明細頁面，點擊群組旁的 **編輯** 修改名稱，或點擊 **刪除** 移除整個群組（不會影響實體商品）。
 - **移除商品**：在群組明細中，將特定商品從該群組中移除。
-- **資料檢視**：前往 **庫存紀錄 > [庫齡報表](庫存紀錄/#庫齡報表分析週轉健康度)**，即可看到已設定的季別資訊出現在對應的欄位中。
+- **資料檢視**：前往 **庫存紀錄 > [庫齡報表](inventory-records/#庫齡報表分析週轉健康度)**，即可看到已設定的季別資訊出現在對應的欄位中。
 
 ![](../assets/images/WMS-後台-商品-季別群組-編輯與刪除01.png){ .screenshot }
 
@@ -113,7 +111,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-file-chart-pie:{ .lg }   
-  [__查看庫存分析報表數據__](庫存紀錄)     
+  [__查看庫存分析報表數據__](inventory-records/)     
   了解庫存周轉情況與歷史異動紀錄。
 
 </div>

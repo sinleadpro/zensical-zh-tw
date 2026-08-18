@@ -4,10 +4,8 @@ description: 設定與管理簡訊通知樣板，包含樣板編輯規則、阻�
 created:
 last_modified: 2026-07-01 21:05
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/notifications/manage-sms-templates-v2
-type: tutorial
-status:
-version:
+permalink: "https://help.cyberbiz.io/ec/notifications/manage-sms-templates-v2/"
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -140,7 +138,7 @@ hide:
 
 ??? quote "顧客反應沒有收到「貨物到店」簡訊，該如何排查"
 
-	1. **檢查餘額**：確認後台「儲值中心」的 Cyber 幣是否充足。
+	1. **檢查餘額**：確認後台「儲值中心」的 CYBER 幣是否充足。
 	2. **檢查物流狀態**：僅當物流狀態轉為「已到店」時才會觸發；若為跨境或非支援物流則不適用。
 	3. **確認內容標籤**：檢查樣板是否誤用了 emoji 或毀損了 `{{ }}` 參數格式。
 	4. **阻擋機制**：顧客手機是否安裝過濾軟體（如 Whoscall），或內容是否包含「LINE」、「連結」等關鍵字而被電信商攔截。

@@ -1,0 +1,234 @@
+# Zensical Docs Frontmatter Schema
+# 所有 Markdown 文件 frontmatter 欄位的完整定義
+
+fields:
+  # === 標誌與語系 (Identity & Localization) ===
+
+  # 文件標題，SEO 與 H1 的主要來源
+  title:
+    type: string
+    required: true
+
+  # 內容摘要，用於 Zensical Social Cards，建議 160 字內
+  description:
+    type: string
+    required: true
+    max_length: 160
+
+  # 建立日期，文件最初產生的時間，由核心模板於建立時填入，後續不應更改
+  created:
+    type: date
+    required: false
+    format: "YYYY-MM-DD HH:mm"
+
+  # 最後更新日期
+  last_modified:
+    type: date
+    required: false
+    format: "YYYY-MM-DD HH:mm"
+
+  # 語系
+  lang:
+    type: enum
+    required: true
+    values: [zh-TW, en-US, ja-JP]
+
+  # 固定連結，Zensical 產出的 URL Slug
+  permalink:
+    type: url
+    required: true
+    base_url: "https://help.cyberbiz.io"
+
+  # === 文件生產流程 (DDLC) ===
+
+  # 文件類型
+  type:
+    type: enum
+    required: false
+    values: [guide, reference, hub, quickstart, troubleshooting, explanation]
+
+  # 文件狀態
+  status:
+    type: enum
+    required: false
+    values: [new, deprecated]
+
+
+  # 文件主要負責人
+  author:
+    type: string
+    required: false
+    default: "Ann"
+
+  # 審核者清單
+  reviewers:
+    type: string[]
+    required: false
+    default: []
+
+  # 內部筆記，僅供編輯者閱讀，不對外發佈
+  notes:
+    type: string[]
+    required: false
+    default: []
+
+  # === 數據統計 (Metrics & Performance) ===
+
+  # 累積瀏覽量，由系統定期從 GA4 同步
+  ga_views:
+    type: integer
+    required: false
+    default: 0
+
+  # 回饋淨值，正負評抵銷後的整數得分 (Upvotes - Downvotes)
+  feedback:
+    type: integer
+    required: false
+    default: 0
+
+  # === 產品與商業範疇 (Product & Commercial) ===
+
+  # 產品線歸屬
+  products:
+    type: enum[]
+    required: true
+    values: [EC, POS, WMS]
+
+  # 功能模組，須對照 CYB 後台左側選單名稱
+  modules:
+    type: string[]
+    required: false
+
+  # 適用站點
+  sites:
+    type: enum[]
+    required: false
+    values: [TW, JP, US, MY, SG, AU, SEA]
+
+  # trunk (全方案適用) 或 branch (特定方案)
+  tnb:
+    type: enum
+    required: false
+    values: [trunk, branch]
+
+  # 適用方案
+  plans:
+    type: enum[]
+    required: false
+    values: [企業, 高手, 高手PLUS, 進階, 進階PLUS, 專業, 專業PLUS, Business, Pro, global_advanced]
+
+  # 官方外掛歸屬
+  cyb_extensions:
+    type: enum[]
+    required: false
+    values: [APP MARKET, AUTOMATION, CHANNEL BRIDGE, CHAT BOX, CYBERBIZ PAYMENTS, EXPRESS, "NOW!", STORE PAL, TICKET]
+
+  # === 使用者情境 (User Context) ===
+
+  # 目標對象
+  audiences:
+    type: enum[]
+    required: false
+    values: [merchant, customer, developer]
+
+  # 難易度
+  difficulty:
+    type: enum
+    required: false
+    values: [beginner, intermediate, advanced]
+
+  # 搜尋意圖，使用者想解決什麼問題
+  intents:
+    type: string[]
+    required: false
+
+  # 功能特性，文中提到的特定系統功能
+  features:
+    type: string[]
+    required: false
+
+  # === 內容關聯 (Content Relations) ===
+
+  # 前置作業，開始此教學前必須先完成的事項或閱讀的文檔
+  prerequisites:
+    type: string[]
+    required: false
+
+  # 延伸閱讀，相關文件
+  related:
+    type: string[]
+    required: false
+
+  # 標籤，SEO 與搜尋引擎內部的輔助關鍵字
+  tags:
+    type: string[]
+    required: false
+
+  # 維度分類
+  acoiv:
+    type: enum
+    required: false
+    values: [activate, configure, operation, integration, venture]
+
+  # === 技術架構 (Technical Metadata) ===
+
+  # 文件中調用的 API Endpoints 列表
+  apis:
+    type: string[]
+    required: false
+
+  # 適用設備
+  devices:
+    type: enum[]
+    required: false
+    values: [desktop, mobile, tablet]
+
+  # 文中提到的介面元素名稱
+  ui_components:
+    type: string[]
+    required: false
+
+  # 後台路徑，文中提到的後台介面操作路徑
+  paths:
+    type: string[]
+    required: false
+
+  # 頁面佈局，classic (一般版型) 或 draggable (拖拉版型)
+  layouts:
+    type: enum[]
+    required: false
+    values: [classic, draggable]
+
+  # === 外部整合與系統 (Zensical / WP) ===
+
+  # 對應 WordPress 的原始文件網址
+  wp_url:
+    type: string[]
+    required: false
+
+  # 是否開啟頁面評論功能
+  comments:
+    type: boolean
+    required: false
+    default: false
+
+  # 搜尋設定
+  search:
+    type: object
+    required: false
+    properties:
+      # 是否從搜尋結果中排除此頁
+      exclude:
+        type: boolean
+        default: false
+
+  # Lucide 圖示，格式如 lucide/braces 或 lucide/book
+  icon:
+    type: string
+    required: false
+
+  # 隱藏頁面元素
+  hide:
+    type: enum[]
+    required: false
+    values: [navigation, path, toc, feedback, description]

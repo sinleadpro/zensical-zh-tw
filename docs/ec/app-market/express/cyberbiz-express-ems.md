@@ -51,7 +51,7 @@ ui_components:
   - 建立託運單
   - 物流管理
 paths: 
-  - App Market > 我的擴充服務 > CYBERBIZ EXPRESS
+  - APP MARKET > 我的擴充服務 > CYBERBIZ EXPRESS
   - 商品 > 所有商品
 layouts: []
 wp_url: []
@@ -66,7 +66,8 @@ hide: []
 串接日本郵局 (Japan Post) EMS 服務，協助商家高效建立託運單、處理國際報關文件，並支援自備郵局簽約帳號以享有運費優惠。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 跨境電商 (日到台)
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 跨境電商 (日到台)<br>
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ EXPRESS
 { .doc-badge }
 
 

@@ -2,11 +2,9 @@
 title: 使用 7-11 C2C 退貨便
 description: 開通 7-11 C2C 退貨便、設定收貨人資料、發送退貨寄件代碼給消費者，以及完整的退貨審查與退款流程。
 created: 2026-05-26 12:25
-last_modified: 2026-07-06T17:13:47+08:00
+last_modified: 2026-07-06 17:13
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -31,16 +29,15 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions:
-  - PAYMENTS
 intents:
   - 使用 7-11 C2C 退貨便退貨
 features:
-  - 7-11_C2C_退貨便
+  - 7-11 C2C 退貨便
 prerequisites:
   - 需先向 CYBERBIZ 客服申請開通「7-ELEVEN C2C 退貨便」加值功能
 related:
-  - "[[partial-shipment-v2]]"
-  - "[[setup-store-basic-info]]"
+  - "ec/orders/home-delivery/partial-shipment-v2"
+  - "ec/website-management/setup-store-basic-info"
 tags:
   - 7-11 C2C 退貨便
   - 退貨流程
@@ -59,7 +56,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12993
   - https://www.cyberbiz.io/support/?p=5246
-permalink: https://help.cyberbiz.io/ec/orders/returns-refunds/7-11-c2c-return
+permalink: "https://help.cyberbiz.io/ec/orders/returns-refunds/7-11-c2c-return/"
 comments: false
 search:
   exclude: false
@@ -124,13 +121,13 @@ hide: []
     ![發送7-11-C2C退貨便代碼-確認視窗](../../../assets/images/EC-訂單-所有訂單-發送7-11-c2c退貨便代碼-確認視窗.png)
 
 5. **確認送出**：確認後系統會即時：
-    * 預扣 Cyber 幣作為退貨運費
+    * 預扣 CYBER 幣作為退貨運費
     * 取得 7-ELEVEN 退貨代碼
     * 依勾選的通知方式發送代碼與託運單給消費者
     * 將該筆訂單貨態改為 **「退貨中」**
 
 !!! tip "代碼有效期限"
-    退貨便代碼自申請當日起 **7 天內** 有效，逾期將自動失效；若 2 週內消費者仍未持代碼至門市寄件，系統會自動取消代碼並返還預扣的 Cyber 幣。
+    退貨便代碼自申請當日起 **7 天內** 有效，逾期將自動失效；若 2 週內消費者仍未持代碼至門市寄件，系統會自動取消代碼並返還預扣的 CYBER 幣。
 
 ---
 
@@ -206,9 +203,9 @@ hide: []
     - 勾選的訂單是否符合所有發送條件 — 詳見 [訂單發送條件對照表](../references/c2c-return-conditions.md){ title="7-11 C2C 退貨便 — 訂單發送條件對照表" }
     - 是否同時勾選了不同狀態的訂單(批次動作要求所選訂單狀態一致)
 
-??? quote "Cyber 幣什麼時候會扣款？消費者沒寄件還會被扣嗎？"
+??? quote "CYBER 幣什麼時候會扣款？消費者沒寄件還會被扣嗎？"
     [](){ #faq-seven-eleven-c2c-return-cyber-charge }
-    商家點選 **「確認」** 送出退貨代碼的當下，系統會立即預扣 Cyber 幣作為退貨運費。若消費者在 2 週內未持代碼至門市寄件，系統會自動取消該代碼並把預扣的 Cyber 幣補回帳戶，並在備註中記錄返還明細。
+    商家點選 **「確認」** 送出退貨代碼的當下，系統會立即預扣 CYBER 幣作為退貨運費。若消費者在 2 週內未持代碼至門市寄件，系統會自動取消該代碼並把預扣的 CYBER 幣補回帳戶，並在備註中記錄返還明細。
 
 ??? quote "商家忘了去門市取退貨包裹會怎麼樣？"
     [](){ #faq-seven-eleven-c2c-return-pickup-overdue }

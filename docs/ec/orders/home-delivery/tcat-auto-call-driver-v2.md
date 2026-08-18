@@ -4,9 +4,7 @@ description: 在批次下載黑貓託運單時，同步自動通知黑貓派車�
 created: 2026-05-13 16:18
 last_modified: 2026-07-09 12:30
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -42,7 +40,7 @@ prerequisites:
   - 向 CYBERBIZ 客服申請開通「自動呼叫黑貓司機」
   - 至黑貓寄取件設定頁完整填寫寄件人姓名、地址、聯絡電話
 related:
-  - "[[tcat-home-delivery-v2]]"
+  - "ec/orders/home-delivery/tcat-home-delivery-v2"
 tags:
   - 黑貓宅急便
   - 呼叫司機
@@ -64,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11013
   - https://www.cyberbiz.io/support/?p=47125
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/tcat-auto-call-driver-v2
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/tcat-auto-call-driver-v2/"
 comments: false
 search:
   exclude: false

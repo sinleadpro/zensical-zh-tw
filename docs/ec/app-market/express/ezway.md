@@ -65,7 +65,8 @@ hide: []
 啟用 EZWAY 訂閱服務以掌握跨境訂單申報進度。設定自動化簡訊提醒引導消費者完成實名認證，並透過後台即時追蹤報關貨態與發送紀錄。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 跨境電商 (日到台)
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 跨境電商 (日到台)<br>
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ EXPRESS
 { .doc-badge }
 
 ## 使用須知 

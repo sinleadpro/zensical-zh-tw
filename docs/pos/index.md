@@ -1,9 +1,17 @@
 ---
+description: "CYBERBIZ 智能 POS 產品中心，提供硬體安裝、結帳功能與庫存管理等操作說明。"
+author: ""
+reviewers: []
+products: [POS]
+notes: []
 title: 智能 POS 產品中心
+lang: zh-TW
 hide:
-  - toc
+  - description
   - path
+  - toc
   - feedback
+permalink: "https://help.cyberbiz.io/pos/"
 ---
 
 <div class="hero-wrapper" style="
@@ -183,7 +191,8 @@ hide:
     <!-- Latest -->
     <div id="latest" role="tabpanel" class="tab-content" style="display:flex">
       <a href="hardware/epson-tm-m30iii-invoice-printer.md"><span class="badge">新增</span>EPSON TM-M30III 發票機安裝教學 (Wi-Fi 連接)</a>
-      <a href="others/daily-closing.md"><span class="badge">更新</span>小結關帳時可列印紙本帳條</a>
+      <a href="others/daily-closing.md"><span class="badge">更新</span>小結關帳可列印紙本帳條</a>
+	  <a href="../ec/marketing/coupon/multiple-coupons.md"><span class="badge">新增</span>POS 多優惠券結帳功能</a>
     </div>
 
     <!-- Popular -->
@@ -299,6 +308,6 @@ hide:
     
     [:octicons-arrow-right-24: 員工權限管理](store/staff-permissions-and-account-management.md)<br>
     [:octicons-arrow-right-24: 建立公告](store/announcement-system.md)<br>
-    [:octicons-arrow-right-24: 安全性與系統設定](store/security-settings.md)<b>
+    [:octicons-arrow-right-24: 安全性與系統設定](store/pos-security-settings.md)<b>
 
 </div>

@@ -4,9 +4,7 @@ description: 說明系統服務到期提醒規則、續約方式及不續約的�
 created: 2026-05-27 11:40
 last_modified: 2026-06-30 08:02
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: []
@@ -51,7 +49,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3988
   - https://www.cyberbiz.io/support/?p=21601
-permalink: https://help.cyberbiz.io/ec/website-management/system-expiry-handling-process
+permalink: "https://help.cyberbiz.io/ec/website-management/system-expiry-handling-process/"
 comments: false
 search:
   exclude: false
@@ -66,7 +64,7 @@ hide: []
 
 !!! tip "應用情境"
 	- **掌握續約時機**：了解系統何時發出到期通知，避免因忙碌遺漏續約資訊。
-	- **管理網域移轉**：將 Cyberbiz 代管的網域移轉至商家自有帳戶，實現自主管理。
+	- **管理網域移轉**：將 CYBERBIZ 代管的網域移轉至商家自有帳戶，實現自主管理。
 	- **處理緊急故障**：當 SSL 或網域過期導致網站無法進入時，快速切換備用網域恢復營運。
 
 

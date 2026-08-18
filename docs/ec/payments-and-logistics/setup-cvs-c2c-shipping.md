@@ -5,10 +5,8 @@ description: 啟用超商店到店（C2C）物流服務，讓顧客可於結帳�
 created:
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-cvs-c2c-shipping
-type: tutorial
-status:
-version:
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-cvs-c2c-shipping/"
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -21,7 +19,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -33,7 +31,7 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions:
-  - PAYMENTS
+  - CYBERBIZ PAYMENTS
 intents:
   - 設定超商物流串接
   - 開啟超商免運

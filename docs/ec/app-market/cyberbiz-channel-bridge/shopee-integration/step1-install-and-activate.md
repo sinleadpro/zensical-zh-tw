@@ -4,9 +4,7 @@ description: 透過「全通路管理助手」，您可以將蝦皮商店的商�
 created: 2026-02-25 00:00
 last_modified: 2026-07-08 17:32
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -36,7 +34,7 @@ features:
   - 蝦皮商品搬站
   - 全通路管理助手
 prerequisites:
-  - [[需具備蝦皮台灣站 (TW) 賣家帳號]]
+  - "需具備蝦皮台灣站 (TW) 賣家帳號"
 related: []
 tags:
   - 商品匯入
@@ -46,13 +44,13 @@ devices:
   - desktop
 ui_components: []
 paths:
-  - App Market > 我的應用程式
+  - APP MARKET > 我的應用程式
   - 商品 > 所有商品
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=365
   - https://www.cyberbiz.io/support/?p=3532
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate/"
 comments: false
 search:
   exclude: false
@@ -64,7 +62,8 @@ hide: []
 透過「全通路管理助手」，您可以將蝦皮商店的商品快速同步至 CYBERBIZ 官網，省去手動建立商品的時間。
 { .subtitle }
 
-[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業<br>
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ CHANNEL BRIDGE
 { .doc-badge }
 
 ![](../../../../assets/images/EC-後台-APPMARKET-蝦皮商品-畫面總覽01.png){ .hero-page }

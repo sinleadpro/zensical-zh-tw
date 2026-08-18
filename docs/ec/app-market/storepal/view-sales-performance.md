@@ -4,9 +4,7 @@ description: 門市店長與店員可透過業績報表，快速掌握特定時�
 created: 2026-05-04 14:14
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,8 +17,8 @@ modules:
 sites:
   - TW
 audiences:
-  - clerk
-  - admin
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -34,7 +32,7 @@ intents:
   - 分析綁定會員數
   - 核對業績歸因
 features:
-  - 門市助理_業績報表
+  - 門市助理 業績報表
   - 業績歸因
 prerequisites: []
 related: []
@@ -52,7 +50,7 @@ paths:
   - APP MARKET > 我的擴充服務 > 門市助理
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/ec/app-market/storepal/view-sales-performance"
+permalink: "https://help.cyberbiz.io/ec/app-market/storepal/view-sales-performance/"
 comments: false
 search:
   exclude: false
@@ -64,7 +62,7 @@ hide: []
 門市店長與店員可透過業績報表，快速掌握特定時間區間內的綁定會員數、線上與線下業績歸因資料。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業<br>
 [:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | 門市助理
 { .doc-badge }
 

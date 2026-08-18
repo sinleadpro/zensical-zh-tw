@@ -1,12 +1,10 @@
 ---
 title: 設定與加印黑貓託運單
-description: 管理黑貓宅急便託運單的完整指南，包含設定寄件人資訊、加印純配送託運單、建立黑貓逆物流退貨取件，以及查詢託運單號使用紀錄與 Cyber 幣扣款對帳。
+description: 管理黑貓宅急便託運單的完整指南，包含設定寄件人資訊、加印純配送託運單、建立黑貓逆物流退貨取件，以及查詢託運單號使用紀錄與 CYBER 幣扣款對帳。
 created: 2026-05-15 14:21
 last_modified: 2026-07-09 15:17
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -44,16 +42,16 @@ features:
   - 呼叫黑貓司機取件
 prerequisites: []
 related:
-  - "[[tcat-auto-call-driver-v2]]"
-  - "[[points-deposits]]"
-  - "[[order-return-process]]"
+  - "ec/orders/home-delivery/tcat-auto-call-driver-v2"
+  - "ec/website-management/points-deposits"
+  - "ec/orders/order-return-process"
 tags:
   - 金物流
   - 黑貓宅急便
   - 黑貓宅配
   - 託運單
   - 逆物流
-  - Cyber 幣
+  - CYBER 幣
   - 加印託運單
 acoiv: operation
 apis: []
@@ -65,7 +63,7 @@ paths:
   - 金物流 > 黑貓託運單
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-print-tcat-waybill-v2
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-print-tcat-waybill-v2/"
 comments: false
 search:
   exclude: false
@@ -81,10 +79,10 @@ hide: []
 
 「黑貓託運單」頁面是您管理 **黑貓宅急便** 寄件資料、加印託運單、建立逆物流以及查詢扣款紀錄的單一入口。
 
-頁面整合下列三項商家最常用的動作，並提供兩份歷史紀錄供您核對 Cyber 幣扣抵情形:
+頁面整合下列三項商家最常用的動作，並提供兩份歷史紀錄供您核對 CYBER 幣扣抵情形:
 
 * **設定寄件人資訊**：將會帶入正物流出貨與逆物流取件單上。
-* **加印託運單**：以 Cyber 幣為單筆訂單再列印一張或多張「純配送」託運單。
+* **加印託運單**：以 CYBER 幣為單筆訂單再列印一張或多張「純配送」託運單。
 * **建立黑貓逆物流**：由黑貓上門至顧客處收件並寄回您指定的逆物流地址。
 
 !!! info "提示"
@@ -104,12 +102,12 @@ hide: []
 
 ## 計費規則 { #ezcat-shipping-note-billing }
 
-黑貓託運單採 **Cyber 幣預扣** 制，於列印或建立逆物流時即時扣抵。
+黑貓託運單採 **CYBER 幣預扣** 制，於列印或建立逆物流時即時扣抵。
 
 !!! info "頁面最上方計費資訊"
     頁面頂端會依您的方案顯示對應的計費資訊：
 
-    * **一般版**：看到「目前 Cyber 幣餘額」與藍色數字餘額。
+    * **一般版**：看到「目前 CYBER 幣餘額」與藍色數字餘額。
     * **PLUS版 / 企業版**：顯示對帳單說明文字，請依對帳單週期結算。
 
 ## 設定寄件人資訊 { #configure-ezcat-shipping-note-sender-setup }
@@ -140,14 +138,14 @@ hide: []
 
 ### 適用條件 { #prerequisites-ezcat-shipping-note-create }
 
-每張加印託運單會即時扣抵 Cyber 幣，系統會在送出前進行下列檢查，任一項不符即會中止：
+每張加印託運單會即時扣抵 CYBER 幣，系統會在送出前進行下列檢查，任一項不符即會中止：
 
 | 條件 | 系統要求 |
 | :-- | :-- |
 | 訂單存在 | 須輸入正確的訂單編號(不含店家編號前綴) |
 | 訂單配送方式 | 必須為 **黑貓宅急便** 或 **黑貓貨到付款** ；其他物流(超商、自訂、快速到貨等)無法加印 |
 | 訂單付款狀態 | 必須為 **已付款** 或 **貨到付款** |
-| Cyber 幣餘額 | 須大於「每張費用 × 加印張數」 |
+| CYBER 幣餘額 | 須大於「每張費用 × 加印張數」 |
 | 加印張數 | 最多 **8 張** |
 
 !!! note "註釋"
@@ -159,10 +157,10 @@ hide: []
 
 1. **進入頁面**：登入後台，前往 **金物流 > 黑貓託運單**，捲動至「加印託運單」區塊。
 2. **填入訂單編號**：在「訂單編號」欄位，輸入要加印的訂單編號(系統提示框會顯示您店家的訂單編號格式前綴，**不需重複輸入** )。
-3. **選擇貨品大小**：於下拉選單選擇對應的 **常溫 / 低溫 + 尺寸** 規格，選項旁會即時顯示扣抵的 Cyber 幣金額。
+3. **選擇貨品大小**：於下拉選單選擇對應的 **常溫 / 低溫 + 尺寸** 規格，選項旁會即時顯示扣抵的 CYBER 幣金額。
 4. **選擇加印張數**：在下拉選單選擇要列印的張數(1 至 8 張)。
 5. **勾選同意條款**：勾選「我同意 CYBERBIZ 與黑貓的物流條款」核取方塊，**確認下載** 按鈕方會啟用。
-6. **點擊確認下載**：點擊 **確認下載** 按鈕，系統會彈出確認視窗顯示「確認要消費 Cyber 幣列印黑貓託運單?」並列出本次扣抵金額。
+6. **點擊確認下載**：點擊 **確認下載** 按鈕，系統會彈出確認視窗顯示「確認要消費 CYBER 幣列印黑貓託運單?」並列出本次扣抵金額。
 7. **(低溫貨品)選擇溫層與易碎標示**：若您在步驟 3 選擇低溫規格，確認視窗會多出 **是否為冷藏?** 、 **是否為冷凍?** 、 **是否為易碎?** 三個核取方塊。請依實際包裹狀況勾選。
     * 「冷藏」與「冷凍」不可同時勾選，系統會自動排除。
     * 勾選結果會印在託運單的右上角(冷藏 / 冷凍)與右下角(易碎)。
@@ -203,7 +201,7 @@ hide: []
 5. **勾選同意條款**：勾選「我同意 CYBERBIZ 與黑貓的物流條款」核取方塊。
 6. **點擊確認送出**：點擊 **確認送出** 按鈕，系統會彈出確認視窗。
 7. **再次確認**：於確認視窗點擊 **確認** ，系統將資訊送至黑貓並等待回覆。
-8. **完成**：成功後畫面會顯示扣抵 Cyber 幣金額與剩餘餘額，該筆紀錄會出現在下方「[單號使用紀錄(逆物流)](#ezcat-shipping-note-usage-records)」表格中。
+8. **完成**：成功後畫面會顯示扣抵 CYBER 幣金額與剩餘餘額，該筆紀錄會出現在下方「[單號使用紀錄(逆物流)](#ezcat-shipping-note-usage-records)」表格中。
 
 ![黑貓逆物流](../../assets/images/EC-金物流-黑貓託運單-黑貓逆物流.png){ title="黑貓逆物流" }
 
@@ -228,7 +226,7 @@ hide: []
     | :-- | :-- |
     | 時間 | 轉單發生的日期與時間 |
     | 黑貓託運單號 | 該筆被轉用的黑貓託運單號 |
-    | 客戶選定 Cyber 幣額度 | 當初下載託運單時客戶選擇的扣抵金額 |
+    | 客戶選定 CYBER 幣額度 | 當初下載託運單時客戶選擇的扣抵金額 |
     | 原訂單編號 | 原本綁定該單號的訂單，點擊可跳至訂單詳情頁 |
     | 轉單訊息 | 轉單過程的系統備註 |
 
@@ -247,15 +245,15 @@ hide: []
     | 訂單編號 | 對應訂單編號，點擊可跳至訂單詳情頁；若訂單已刪除會顯示「訂單已刪除」 |
     | 黑貓託運單號 | 黑貓配給的託運單號 |
     | 配送方案 | 託運單規格 |
-    | 客戶選定 Cyber 幣額度 | 當下下載時所選的扣抵金額 |
-    | 確認扣除 Cyber 幣額度 | 實際對帳後最終扣除的 Cyber 幣金額 |
+    | 客戶選定 CYBER 幣額度 | 當下下載時所選的扣抵金額 |
+    | 確認扣除 CYBER 幣額度 | 實際對帳後最終扣除的 CYBER 幣金額 |
     | 對帳備註 | 系統或客服備註，多為客服協助處理時的內部說明。 |
     | 單號狀態 | 託運單目前狀態(已使用、轉單、待對帳等) |
     | 轉單狀態 | **可轉單** 或 **不可轉單** ，顯示該單號是否還能被自動轉用至下一筆訂單 |
 
 
 !!! note "註釋"
-    「客戶選定 Cyber 幣額度」與「確認扣除 Cyber 幣額度」差值會發生於溫層誤標、繁盛期等特殊情境。
+    「客戶選定 CYBER 幣額度」與「確認扣除 CYBER 幣額度」差值會發生於溫層誤標、繁盛期等特殊情境。
 
 ## 後續操作
 
@@ -266,8 +264,8 @@ hide: []
   開通功能後，加印託運單時可選擇由黑貓司機自動到府取件，不需自行交件。
 
 - :lucide-wallet:{ .lg }  
-  [__Cyber 幣儲值__](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="如何儲值 Cyber 幣" }  
-  加印託運單會即時扣抵 Cyber 幣，餘額不足時系統將擋下操作，請先至儲值中心儲值。
+  [__CYBER 幣儲值__](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="如何儲值 CYBER 幣" }  
+  加印託運單會即時扣抵 CYBER 幣，餘額不足時系統將擋下操作，請先至儲值中心儲值。
 
 - :lucide-package:{ .lg }  
   [__訂單退貨流程__](../orders/order-return-process.md){ title="訂單退貨流程" }  
@@ -296,10 +294,10 @@ hide: []
 
     訂單的配送方式不是 **黑貓宅急便** 或 **黑貓貨到付款** 。例如訂單原本走超商、自訂出貨、快速到貨等，皆無法在此頁加印黑貓單。
 
-??? quote "顯示「Cyber幣不足，請至儲值中心進行儲值」"
+??? quote "顯示「CYBER 幣不足，請至儲值中心進行儲值」"
     [](){ #faq-ezcat-points-insufficient }
 
-     您的 Cyber 幣餘額小於「每張費用 × 加印張數」。請至 **後台面板 > 儲值中心** 完成[儲值](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="如何儲值 Cyber 幣" data-preview }後再回此頁操作。頁面上方藍色數字即為目前餘額。
+     您的 CYBER 幣餘額小於「每張費用 × 加印張數」。請至 **後台面板 > 儲值中心** 完成[儲值](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="如何儲值 CYBER 幣" data-preview }後再回此頁操作。頁面上方藍色數字即為目前餘額。
 
 ??? quote "建立逆物流時顯示「缺少寄件人區碼」"
     [](){ #faq-ezcat-reverse-no-suda5 }

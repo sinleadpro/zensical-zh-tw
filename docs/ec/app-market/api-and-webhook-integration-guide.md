@@ -5,8 +5,6 @@ created: 2026-06-11 14:45
 last_modified: 2026-06-27 13:40
 lang: zh-TW
 type: guide
-status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
   - developer
 difficulty: intermediate
 tnb: branch
@@ -63,7 +61,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8544
   - https://www.cyberbiz.io/support/?p=20739
   - https://www.cyberbiz.io/support/?p=40162
-permalink: https://help.cyberbiz.io/ec/app-market/api-and-webhook-integration-guide
+permalink: "https://help.cyberbiz.io/ec/app-market/api-and-webhook-integration-guide/"
 search:
   exclude: false
 icon: lucide/code-2

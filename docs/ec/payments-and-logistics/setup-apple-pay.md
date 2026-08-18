@@ -4,9 +4,7 @@ description: 透過 CYBERBIZ PAYMENTS 啟用並設定 Apple Pay 為支付選項�
 created: 2026-01-26 00:00
 last_modified: 2026-06-30 08:52
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -31,8 +29,7 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions:
-  - PAYMENTS
-feature_badges: []
+  - CYBERBIZ PAYMENTS
 intents:
   - 如何設定 Apple Pay
   - Apple Pay 付款設定
@@ -45,7 +42,7 @@ prerequisites:
 related: []
 tags:
   - Apple Pay
-  - Payments
+  - PAYMENTS
   - CYBERBIZ PAYMENTS
 acoiv: configure
 apis: []
@@ -59,7 +56,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8162
   - https://www.cyberbiz.io/support/?p=40622
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-apple-pay
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-apple-pay/"
 comments: false
 search:
   exclude: false

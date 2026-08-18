@@ -4,9 +4,7 @@ description: 要求新註冊顧客同時通過 Email 與簡訊驗證，確保會
 created: 2026-05-27 14:58
 last_modified: 2026-07-24 14:12
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -46,19 +44,19 @@ features:
   - 必須註冊
 prerequisites: []
 related:
-  - "[[customer-registration-modes-reference]]"
-  - "[[customer-field-validation-reference]]"
-  - "[[manage-email-templates]]"
-  - "[[manage-sms-templates-v2]]"
-  - "[[設定顧客註冊流程與欄位]]"
-  - "[[管理會員檔案]]"
+  - "ec/website-management/references/customer-registration-modes-reference"
+  - "ec/website-management/references/customer-field-validation-reference"
+  - "ec/notifications/manage-email-templates"
+  - "ec/notifications/manage-sms-templates-v2"
+  - "ec/website-management/customer-registration-flow-and-fields"
+  - "ec/members/manage-member-profiles"
 tags:
   - 雙重驗證
   - Email 驗證
   - 手機驗證
   - 顧客驗證
   - 會員註冊
-  - Cyber幣
+  - CYBER 幣
   - 簡訊驗證
   - 帳號安全
   - OTP
@@ -80,7 +78,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1865
   - https://www.cyberbiz.io/helpcenter/?p=1871
-permalink: https://help.cyberbiz.io/ec/website-management/setup-customer-email-phone-verification
+permalink: "https://help.cyberbiz.io/ec/website-management/setup-customer-email-phone-verification/"
 comments: false
 search:
   exclude: false
@@ -171,7 +169,7 @@ hide: []
 
 ![顧客驗證方式](../../assets/images/EC-管理中心-顧客註冊設定-顧客驗證方式.png){ title="顧客驗證方式" }
 
-[^1]: 開啟手機驗證會同時開啟簡訊樣板的「顧客請求發送驗證碼通知」，發送簡訊會收取 Cyber幣，費用依內容長度計算。
+[^1]: 開啟手機驗證會同時開啟簡訊樣板的「顧客請求發送驗證碼通知」，發送簡訊會收取 CYBER 幣，費用依內容長度計算。
 [^2]: 預設情境下，顧客先註冊建立帳號，再到會員頁完成手機驗證。勾選此選項後改為在註冊頁直接輸入驗證碼，通過後才能完成註冊。
 
 ---
@@ -272,7 +270,7 @@ LINE 登入因帳號本身已綁定手機，系統會自動跳過 OTP 簡訊驗�
     可以。「電子郵件驗證」與「手機驗證」兩個開關是 **獨立** 的，可任意組合：
 
     * 僅 Email 驗證(免費，適合不需手機資料的店家)
-    * 僅手機驗證(需 Cyber幣)
+    * 僅手機驗證(需 CYBER 幣)
     * Email + 手機雙重驗證(最嚴格)
 
 ??? quote "Excel 匯入大量會員時會發大量簡訊嗎？"

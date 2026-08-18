@@ -4,9 +4,7 @@ description: 您也可以將官網既有的商品快速發佈至蝦皮賣場。�
 created: 2026-02-26 00:00
 last_modified: 2026-07-23 15:10
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -38,8 +36,8 @@ features:
   - 蝦皮商品搬站
   - 關聯自動建立
 prerequisites:
-  - [[Step 1 安裝與授權商店]]
-  - [[商品需為官網手動建立且未關聯過蝦皮]]
+  - "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate"
+  - "商品需為官網手動建立且未關聯過蝦皮"
 related: []
 tags: []
 acoiv: configure
@@ -54,7 +52,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12688
   - https://www.cyberbiz.io/support/?p=51554
-permalink: https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step4-create-shopee-products-from-site
+permalink: "https://help.cyberbiz.io/ec/app-market/cyberbiz-channel-bridge/shopee-integration/step4-create-shopee-products-from-site/"
 comments: false
 search:
   exclude: false
@@ -66,7 +64,8 @@ hide: []
 您也可以將官網既有的商品快速發佈至蝦皮賣場。發佈成功後，系統將自動完成雙端關聯，方便您後續進行庫存與資訊的自動化同步。
 { .subtitle }
 
-[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-lock:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業<br>
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ CHANNEL BRIDGE
 { .doc-badge }
 
 ![](../../../../assets/images/EC-後台-APPMARKET-蝦皮商品-畫面總覽01.png){ .hero-page }

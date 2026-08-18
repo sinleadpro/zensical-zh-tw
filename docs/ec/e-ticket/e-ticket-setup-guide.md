@@ -5,8 +5,6 @@ created: 2026-01-20 00:00
 last_modified: 2026-07-22 17:25
 lang: zh-TW
 type: guide
-status:
-version:
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -36,7 +34,7 @@ intents:
   - 電子票券管理
 features:
   - 電子票券
-  - QR_Code
+  - QR Code
   - 核銷
 prerequisites:
   - 新版物流
@@ -61,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5807
   - https://www.cyberbiz.io/support/?p=23413
-permalink: https://help.cyberbiz.io/ec/e-ticket/e-ticket-setup-guide
+permalink: "https://help.cyberbiz.io/ec/e-ticket/e-ticket-setup-guide/"
 comments: false
 search:
   exclude: false
@@ -339,11 +337,11 @@ hide: []
     
         ![](../../assets/images/ec-e-ticket-multiple-kinds-redemped-partial-returen.zh-tw.png)
     
-        !!! tip "若消費者只想退「Cyber 音樂祭 - 單日票」，則只需勾選該項目即可。"
+        !!! tip "若消費者只想退「CYBER 音樂祭 - 單日票」，則只需勾選該項目即可。"
 
     4. 點擊 **確認**，完成退款。
         !!! example "範例說明"
-          「Cyber 音樂祭 - 單日票」剩餘3張全數退款，QR Code 作廢。「皮卡丘體驗券 - 早鳥體驗」沒有退款，則可繼續照常使用。
+          「CYBER 音樂祭 - 單日票」剩餘3張全數退款，QR Code 作廢。「皮卡丘體驗券 - 早鳥體驗」沒有退款，則可繼續照常使用。
 
 ## 電子票券分票 <small>顧客端</small>
 

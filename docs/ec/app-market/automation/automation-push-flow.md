@@ -4,9 +4,7 @@ description: 在 CYBERBIZ AUTOMATION 中建立自動化流程，設定會員分�
 created: 2026-03-09 14:48
 last_modified: 2026-07-22 15:47
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty:
 tnb: branch
 plans:
@@ -41,13 +39,13 @@ features:
   - 會員分群
   - 成效追蹤
 prerequisites:
-  - "[[send-edm-newsletters-v2]]"
-  - "[[setup-line-quick-login]]"
-  - "[[bind-line-oa-store-members]]"
+  - "ec/notifications/send-edm-newsletters-v2"
+  - "ec/integrations/line/account-integration/setup-line-quick-login"
+  - "ec/integrations/line/account-integration/bind-line-oa-store-members"
 related:
-  - "[[send-edm-newsletters-v2]]"
+  - "ec/notifications/send-edm-newsletters-v2"
 tags:
-  - Automation
+  - AUTOMATION
   - 自動化行銷
   - 推播流程
   - 會員分群
@@ -66,7 +64,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7955
   - https://www.cyberbiz.io/support/?p=38638
   - https://www.cyberbiz.io/support/?p=38837
-permalink: https://help.cyberbiz.io/ec/app-market/automation/automation-push-flow
+permalink: "https://help.cyberbiz.io/ec/app-market/automation/automation-push-flow/"
 search:
   exclude: false
 icon: lucide/zap

@@ -4,10 +4,8 @@ description: 申請、設定超商大宗寄倉 B2C 服務。
 created:
 last_modified: 2026-07-01 12:30
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping
-type: tutorial
-status:
-version:
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping/"
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -31,7 +29,6 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions:
-  - PAYMENTS
 intents:
   - 申請超商大宗寄倉 B2C 服務
   - 進行測標與驗標
@@ -200,7 +197,7 @@ hide:
   完成設定後，於訂單列表批次下載託運單並寄送至物流中心。
 
 - :lucide-coins:{ .lg }  
-  [__儲值 CYBER 幣__](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="Cyber 幣儲值中心使用指南" }  
+  [__儲值 CYBER 幣__](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="CYBER 幣儲值中心使用指南" }  
   一般版商家於下載託運單前需先儲值 CYBER 幣，避免餘額不足而被阻擋。
 
 - :lucide-package:{ .lg }  

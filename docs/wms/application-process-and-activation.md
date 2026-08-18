@@ -4,9 +4,7 @@ description: 在正式開通串接前，商家需完成合約簽訂、系統環�
 created: 2026-03-18 00:00
 last_modified: 2026-07-13 11:45
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -57,7 +55,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5708
   - https://www.cyberbiz.io/support/?p=28967
-permalink: https://help.cyberbiz.io/wms/application-process-and-activation
+permalink: "https://help.cyberbiz.io/wms/application-process-and-activation/"
 comments: false
 search:
   exclude: false
@@ -94,7 +92,7 @@ hide: []
 
 ### 1. 商品 SKU 同步
 
-- 入倉商品於電商倉儲後台[建立品項](單一品項/#新增單一品項)。
+- 入倉商品於電商倉儲後台[建立品項](single-items/#新增單一品項)。
 - 確保官網（EC）與電商倉儲（WMS）後台的商品 SKU **皆已填寫且完全一致**。
 - 每個規格分項（如顏色、尺寸）都必須有 **獨立且唯一** 的 SKU 碼，不可留空。
 

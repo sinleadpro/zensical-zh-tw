@@ -1,12 +1,10 @@
 ---
 title: "訂單列表操作功能說明"
-description: ""
+description: "說明訂單列表的操作功能，包括更改訂單狀態、配送狀態、批次處理與篩選群組等。"
 created: 2026-02-10 22:11
 last_modified: 2026-06-29 21:30
 lang: zh-TW
 type: reference
-status: ""
-version: ""
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: ""
 plans: []
@@ -41,7 +39,7 @@ features:
   - 再次購買
 prerequisites: []
 related:
-  - "[[order-management-interface]]"
+  - "ec/orders/basics/order-management-interface"
 tags:
   - 訂單管理
   - 訂單狀態
@@ -58,10 +56,10 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/orders/references/order-list-features
+permalink: "https://help.cyberbiz.io/ec/orders/references/order-list-features/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/table
 hide: []
 ---

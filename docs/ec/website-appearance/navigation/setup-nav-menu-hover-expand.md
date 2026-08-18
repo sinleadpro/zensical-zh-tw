@@ -4,9 +4,7 @@ description: 修改樣板程式碼，讓前台導覽選單在滑鼠移入時自�
 created: 2025-03-03 16:40
 last_modified: 2026-06-30 11:01
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -57,13 +55,13 @@ ui_components: []
 paths:
   - 網站外觀 > 套版主題管理 > CSS/HTML 編輯器
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/support/?p=28145
-permalink: https://help.cyberbiz.io/ec/website-appearance/navigation/setup-nav-menu-hover-expand
+permalink: "https://help.cyberbiz.io/ec/website-appearance/navigation/setup-nav-menu-hover-expand/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/mouse-pointer-click
 hide: 
 ---

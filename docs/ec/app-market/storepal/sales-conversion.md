@@ -4,9 +4,7 @@ description: 運用資產核銷、推薦商品連結與手動紀錄門市消費�
 created: 2026-05-05 11:15
 last_modified: 2026-06-27 13:40
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -22,8 +20,8 @@ modules:
 sites:
   - TW
 audiences:
-  - clerk
-  - admin
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -44,8 +42,8 @@ features:
   - 業績歸因
 prerequisites: []
 related:
-  - [[會員身份識別]]
-  - [[會員數據智庫]]
+  - "ec/app-market/storepal/member-identification"
+  - "ec/app-market/storepal/member-data-warehouse"
 tags:
   - 門市助理
   - 價值變現
@@ -71,7 +69,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=41868
   - https://www.cyberbiz.io/support/?p=41923
-permalink: https://help.cyberbiz.io/ec/app-market/storepal/sales-conversion
+permalink: "https://help.cyberbiz.io/ec/app-market/storepal/sales-conversion/"
 comments: false
 search:
   exclude: false
@@ -83,7 +81,7 @@ hide: []
 運用資產核銷、推薦商品連結與手動紀錄門市消費，直接促成現場成交並確保業績精準歸因。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業<br>
 [:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | 門市助理
 { .doc-badge }
 

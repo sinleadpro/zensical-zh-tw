@@ -4,9 +4,7 @@ description: 建立標準化的「身分模板」並指派給對應的「員工�
 created: 2026-03-25 19:15
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -61,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3168
   - https://www.cyberbiz.io/support/?p=3046
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/store/staff-permissions-and-account-management/"
 comments: false
 search:
   exclude: false

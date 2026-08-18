@@ -4,9 +4,7 @@ description: 當訂單完成退貨流程後，最終步驟即是將款項退還�
 created: 2026-02-23 00:00
 last_modified: 2026-08-05 11:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans: []
@@ -31,12 +29,12 @@ intents:
   - 處理發票作廢與折讓
 features:
   - 訂單退款
-  - CYBERBIZ_PAYMENTS
+  - CYBERBIZ PAYMENTS
   - 金流退刷
 prerequisites:
-  - [[商家執行訂單退貨流程]]
+  - "商家執行訂單退貨流程"
 related:
-  - [[訂單退貨流程]]
+  - "ec/orders/order-return-process"
 tags:
   - 退款流程
   - 售後服務
@@ -59,7 +57,7 @@ wp_url:
   - https://www.cyberbiz.io/support/?p=1756
   - https://www.cyberbiz.io/support/?p=1758
   - https://www.cyberbiz.io/support/?p=51911
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/order-refund-process/"
 comments: false
 search:
   exclude: false

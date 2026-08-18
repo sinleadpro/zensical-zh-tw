@@ -1,13 +1,11 @@
 ---
 title: 黑貓快速到店逾期說明
-description: ""
+description: "說明黑貓快速到店(常溫/冷藏/冷凍)的逾期判定時間點與退貨計費規則。"
 created: 2026-05-27 10:50
 last_modified: 2026-07-22 16:16
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: ""
 plans:
@@ -34,7 +32,7 @@ tags:
   - 快速到店
   - 逾期未取
   - 退貨運費
-  - Cyber幣
+  - CYBER 幣
   - 物流規則
   - Reference
 acoiv: ""
@@ -46,7 +44,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/orders/tcat-quick-store/tcat-quick-store-overdue
+permalink: "https://help.cyberbiz.io/ec/orders/tcat-quick-store/tcat-quick-store-overdue/"
 comments: ""
 search:
   exclude: false
@@ -79,7 +77,7 @@ hide:
 
 > **出貨運費 + 退貨運費**
 
-* **出貨運費：** 顧客下單時即依材積扣抵 Cyber 幣的運費
+* **出貨運費：** 顧客下單時即依材積扣抵 CYBER 幣的運費
 * **退貨運費：** 顧客逾期未取後，由黑貓再扣抵一筆運費
 
 ---
@@ -97,10 +95,10 @@ hide:
 
 ---
 
-### Cyber 幣扣抵 { #reference-tcat-quick-store-overdue-coin }
+### CYBER 幣扣抵 { #reference-tcat-quick-store-overdue-coin }
 
-* 出貨與退貨運費皆以 **Cyber 幣** 扣抵商家帳戶
-* 每筆扣抵都會記錄在後台的 Cyber 幣使用紀錄中，可供日後對帳
+* 出貨與退貨運費皆以 **CYBER 幣** 扣抵商家帳戶
+* 每筆扣抵都會記錄在後台的 CYBER 幣使用紀錄中，可供日後對帳
 
 ## 注意事項 { #specs-tcat-quick-store-overdue-notes }
 
@@ -111,4 +109,3 @@ hide:
 
 * [處理超商訂單逾期未取](../returns-refunds/cvs-unclaimed-order.md){ title="處理超商訂單逾期未取" }
 * [退貨與退款狀態對照](../references/return-refund-status-reference.md){ title="退貨與退款狀態對照（超商訂單逾期未取）" }
-

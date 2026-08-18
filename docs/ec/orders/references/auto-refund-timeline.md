@@ -4,9 +4,7 @@ description: 各金流商允許自動退刷的天數上限對照表
 created: 2026-05-26 21:36
 last_modified: 2026-07-02 09:03
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 cyb_extensions: []
 intents:
@@ -30,9 +28,9 @@ features:
   - 人工退款
 prerequisites: []
 related:
-  - "[[訂單退款流程]]"
-  - "[[overdue-return-handling]]"
-  - "[[第三方支付訂單人工退款]]"
+  - "ec/orders/order-refund-process"
+  - "ec/orders/returns-refunds/overdue-return-handling"
+  - "ec/orders/manual-refund-for-third-party-payment-orders"
 tags:
   - 自動退刷
   - 退款
@@ -48,7 +46,7 @@ ui_components: []
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/orders/references/auto-refund-timeline
+permalink: "https://help.cyberbiz.io/ec/orders/references/auto-refund-timeline/"
 comments: false
 search:
   exclude: false
@@ -63,7 +61,7 @@ hide: []
 | LINE Pay | 60 天 | 改走人工退款 |
 | Pay2Go(綠界)信用卡 | 90 天 | 改走人工退款 |
 | GMO 信用卡 | 90 天 | 改走人工退款 |
-| CyberBiz Pay(台灣卡) | 179 天 | 改走人工退款 |
+| CYBERBIZ Pay(台灣卡) | 179 天 | 改走人工退款 |
 | PayPal | 180 天 | 改走人工退款 |
 | 街口支付(JKO Pay) | 180 天 | 改走人工退款 |
 

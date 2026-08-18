@@ -126,6 +126,7 @@ copyright = """
             {"超商出貨" = [
                 {"大宗寄倉 B2C" = "ec/orders/cvs-shipping/cvs-b2c-bulk-shipping.md"},
                 {"超商店到店 C2C" = "ec/orders/cvs-shipping/cvs-c2c-shipping.md"},
+                {"全家冷凍寄倉 B2C" = "ec/payments-and-logistics/setup-family-mart-frozen-b2c.md"},
                 {"全家冷凍店到店 C2C" = "ec/orders/cvs-shipping/family-mart-frozen-c2c.md"},
                 {"超商部分出貨" = "ec/orders/cvs-shipping/cvs-partial-shipment.md"},
                 {"熱感列印超商托運單" = "ec/orders/cvs-shipping/thermal-print-cvs-waybill.md"},
@@ -260,7 +261,10 @@ copyright = """
         ]},
          { "行銷活動" = [
             { "overview" = "ec/marketing/index.md" }, 
-            { "全館折扣" = "ec/marketing/discounts/storewide-discounts.md" },
+            { "全館折扣" =[
+                { "新版介面" = "ec/marketing/discounts/storewide-discounts-v2.md" },
+                { "舊版介面" = "ec/marketing/discounts/storewide-discounts.md" },
+            ]},
             { "紅利點數" = "ec/marketing/bonus-and-gifts/setup-bonus-points.md" },
             { "註冊禮" = "ec/marketing/bonus-and-gifts/setup-registration-gift.md" },
             { "生日禮" = "ec/marketing/bonus-and-gifts/setup-birthday-gift.md" },
@@ -349,8 +353,7 @@ copyright = """
             ]},
             {"超商物流" = [
                 {"超商大宗寄倉 B2C" = "ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping.md"},
-                {"超商店到店 C2C 串接" = "ec/payments-and-logistics/setup-cvs-c2c-shipping.md"},
-                {"全家冷凍 B2C" = "ec/payments-and-logistics/setup-family-mart-frozen-b2c.md"},
+                {"超商店到店 C2C" = "ec/payments-and-logistics/setup-cvs-c2c-shipping.md"},
                 {"ezShip超商取貨(C2C)" = "ec/payments-and-logistics/integrate-ezship-cvs-pickup-c2c.md"},
                 {"綠界金流與超商取貨付款" = "ec/payments-and-logistics/apply-for-ecpay-payment-and-cvs-cod.md"},
             ]},
@@ -445,26 +448,9 @@ copyright = """
         ]},
         { "APP MARKET" = [
             {"APP MARKET 總覽" = "ec/app-market/index.md"},
-            {"AUTOMATION" = [
-              {"自動化行銷" = "ec/app-market/automation/automation-push-flow.md"}
-            ]},
             { "API 與 Webhook 串接指南" = "ec/app-market/api-and-webhook-integration-guide.md"},
-            {"Chat Box" = [
-                { "overview" = "ec/app-market/chatbox/index.md" },
-                { "串接 LINE 官方帳號" = "ec/app-market/chatbox/connect-chat-box-to-line-oa.md" },
-                { "串接 Facebook 粉絲專頁" = "ec/app-market/chatbox/connect-chat-box-to-facebook-page.md" },
-                { "LINE 訊息格式規範" = "ec/app-market/chatbox/line-message-format-spec.md" },
-                { "Meta 訊息格式規範" = "ec/app-market/chatbox/meta-message-format-spec.md" },
-                { "Chat Box AI 建議回覆" = "ec/app-market/chatbox/chat-box-ai-suggested-replies.md" },
-                { "官網整合對話入口" = "ec/app-market/chatbox/integrated-chat-widget.md" },
-            ]},
-            {"CHANNEL BRIDGE" = [
-                { "Step 1 安裝啟用" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md" },
-                { "Step 2 導入商品與建立關聯" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step2-import-products-and-link.md" },
-                { "Step 3 庫存同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee.md" },
-                { "Step 4 官網商品建立為蝦皮商品" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step4-create-shopee-products-from-site.md" },
-                { "Step 5 資訊同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step5-sync-product-info-with-shopee.md" },
-            ]},
+            {"CYBERBIZ Meta Ads" = "ec/app-market/install-meta-ads-app.md"},
+            {"AUTOMATION" =  "ec/app-market/automation/automation-push-flow.md"},
             {"門市助理" = [
                 {"overview" = "ec/app-market/storepal/index.md"},
                 {"安裝與導入" = "ec/app-market/storepal/install-and-setup-storepal.md"},
@@ -478,6 +464,22 @@ copyright = """
                 {"查看業績" = "ec/app-market/storepal/view-sales-performance.md"},
                 {"績效報表" = "ec/app-market/storepal/performance-reports.md"},
             ]},
+            {"CHAT BOX" = [
+                { "overview" = "ec/app-market/chatbox/index.md" },
+                { "串接 LINE 官方帳號" = "ec/app-market/chatbox/connect-chat-box-to-line-oa.md" },
+                { "串接 Facebook 粉絲專頁" = "ec/app-market/chatbox/connect-chat-box-to-facebook-page.md" },
+                { "LINE 訊息格式規範" = "ec/app-market/chatbox/line-message-format-spec.md" },
+                { "Meta 訊息格式規範" = "ec/app-market/chatbox/meta-message-format-spec.md" },
+                { "CHAT BOX AI 建議回覆" = "ec/app-market/chatbox/chat-box-ai-suggested-replies.md" },
+                { "官網整合對話入口" = "ec/app-market/chatbox/integrated-chat-widget.md" },
+            ]},
+            {"CHANNEL BRIDGE" = [
+                { "Step 1 安裝啟用" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md" },
+                { "Step 2 導入商品與建立關聯" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step2-import-products-and-link.md" },
+                { "Step 3 庫存同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee.md" },
+                { "Step 4 官網商品建立為蝦皮商品" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step4-create-shopee-products-from-site.md" },
+                { "Step 5 資訊同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step5-sync-product-info-with-shopee.md" },
+            ]},
             {"CYBERBIZ EXPRESS " = [
                 {"日到台宅配" = "ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery.md"},
                 {"日到台日本郵局(EMS) " = "ec/app-market/express/cyberbiz-express-ems.md"},
@@ -486,7 +488,6 @@ copyright = """
                 {"商品資訊設定" = "ec/app-market/express/product-info-setting.md"},
                 {"貨態追蹤與查詢" = "ec/app-market/express/order-tracking-and-query.md"},
             ]},
-            {"CYBERBIZ Meta Ads" = "ec/app-market/install-meta-ads-app.md"}
         ]},
         { "第三方整合" = [
             {"第三方整合總覽" = "ec/integrations/index.md"},  
@@ -602,9 +603,11 @@ copyright = """
             ]},
             { "資安防護" = [
                 { "資安防護總覽" = "ec/website-management/security-best-practices.md" },
-                { "安全性設定" = "ec/website-management/security-settings.md" },
+                { "會員安全" = "ec/website-management/member-security-settings.md" },
+                { "管理者登入" = "ec/website-management/admin-security-settings.md" },
+                { "機器人防護" = "ec/website-management/bot-protection-settings.md" },
                 { "二階段驗證 (2FA)" = "ec/website-management/setup-manage-two-factor-auth.md" },
-                { "Authy 二階段驗證" = "ec/website-management/authy-two-factor-authentication.md" },
+                { "安裝 Authy 驗證器" = "ec/website-management/authy-two-factor-authentication.md" },
                 { "管理員與權限" = "ec/website-management/add-admin-set-permissions.md" },
             ]},
             {"搜尋引擎最佳化" = [
@@ -768,7 +771,7 @@ copyright = """
         {"divider" = "divider"},
         { "商店管理" = [
             { "公告系統" = "pos/store/announcement-system.md" },
-            { "安全性設定" = "pos/store/security-settings.md" },
+            { "安全性設定" = "pos/store/pos-security-settings.md" },
             { "續購與加購方案" = "pos/store/renewal-and-add-on-plans.md" },
             { "POS 門市取貨店員分潤" = "pos/store/pos-store-pickup-staff-commission.md" },
         ]},

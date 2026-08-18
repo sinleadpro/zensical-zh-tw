@@ -1,23 +1,18 @@
 ---
 title: 訂單出貨流程
-permalink: https://help.cyberbiz.io/ec/orders/basics/order-fulfillment-flow
-version: ""
+permalink: "https://help.cyberbiz.io/ec/orders/basics/order-fulfillment-flow/"
 author: Jase
+reviewers: []
 last_modified: 2026-07-13 12:02
-description: ""
-product:
-  - EC
+description: "說明訂單出貨流程：系統串接物流、自訂物流、大量匯入單號與逐項部分出貨的操作步驟與規範。"
 modules:
   - 訂單
-activ: ""
 paths: []
-surfaces: []
-ends: []
 devices:
   - desktop
   - mobile
 apis: []
-type: tutorial
+type: guide
 intents:
   - 執行單筆或批次訂單出貨
   - 下載並列印物流託運單與揀貨單
@@ -28,7 +23,7 @@ features:
   - 批次出貨
   - 託運單產出
   - 揀貨單與出貨明細
-  - 自動呼叫司機_黑貓
+  - 自動呼叫司機 黑貓
   - 儲值中心
 tnb: trunk
 plans:
@@ -45,19 +40,19 @@ prerequisites:
   - 確認儲值中心餘額充足_一般版
 lang: zh-TW
 sites: []
-status: 
 difficulty: ""
 audiences: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=24829
   - https://www.cyberbiz.io/support/?p=952
+products: [EC]
 notes:
   - verify 宅配跟超取出貨流程
   - 篩選群組可以做出快結案訂單群組嗎
   - verify 批次出貨的確認條件步驟。
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/workflow
 ---
 
@@ -89,11 +84,11 @@ icon: lucide/workflow
 
 正式出貨前，請先確認以下準備事項：
 
-- [x] **Cyber幣 餘額：** 系統串接物流的運費由系統代收，出貨前請確認餘額充足[^billing]。
+- [x] **CYBER 幣餘額：** 系統串接物流的運費由系統代收，出貨前請確認餘額充足[^billing]。
 - [x] **寄件人地址：** 請至後台「金物流」左側選單下，各物流的託運單設定頁面填寫寄件人資訊（如黑貓託運單設定、新竹物流託運單設定等），否則產出的託運單寄件人資訊將不完整。
 - [x] **印表機與耗材：** 建議使用雷射印表機，並備妥 A4 紙與託運單 / 超商標籤貼紙，以確保條碼清晰可判讀。
 
-[^billing]: 一般版於下載託運單時即時預扣 Cyber幣；具備對帳中心的方案(PLUS版、企業版)則改為列入對帳單，於帳期結算。
+[^billing]: 一般版於下載託運單時即時預扣 CYBER 幣；具備對帳中心的方案(PLUS版、企業版)則改為列入對帳單，於帳期結算。
 
 ---
 
@@ -103,7 +98,7 @@ icon: lucide/workflow
 
 在出貨視窗中，您可以查看 **「運費收費表」** 了解各材積的費率。實際收取的金額會依您出貨給物流商的材積而定，並非固定金額。
 
-- **一般版：** 下載託運單時即時預扣 Cyber幣。
+- **一般版：** 下載託運單時即時預扣 CYBER 幣。
 - **具備對帳中心的方案：** 運費列入對帳單，於帳期結算，出貨當下不扣款。
 
 
@@ -256,7 +251,7 @@ icon: lucide/workflow
 
 ??? quote "運費怎麼計算？在哪裡查看"
     [](){ #faq-fulfillment-shipping-fee }
-    出貨視窗中的「運費收費表」會列出各材積的費率。實際金額依出貨材積而定；一般版即時預扣 Cyber幣，具備對帳中心的方案則列入對帳單結算。
+    出貨視窗中的「運費收費表」會列出各材積的費率。實際金額依出貨材積而定；一般版即時預扣 CYBER 幣，具備對帳中心的方案則列入對帳單結算。
 
 ??? quote "已經下載過託運單，還能再列印嗎"
     [](){ #faq-fulfillment-redownload }

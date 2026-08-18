@@ -4,9 +4,7 @@ description: 了解 CYBERBIZ 電商倉儲系統（WMS）與 EC 後台的退貨�
 created: 2026-03-31 13:40
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: ""
 plans: []
@@ -37,11 +35,11 @@ features:
   - 入庫驗收作業
   - 逾期未取自動退款
 prerequisites:
-  - [[帳號管理與角色指派]]
-  - [[設定商店基本資訊]]
+  - "帳號管理與角色指派"
+  - "ec/website-management/setup-store-basic-info"
 related:
-  - [[帳號管理與角色指派]]
-  - [[設定角色權限]]
+  - "帳號管理與角色指派"
+  - "設定角色權限"
 tags:
   - 退貨管理
   - 逆物流
@@ -61,7 +59,7 @@ paths:
   - 訂單管理 > 退貨/退款 > 建立逆物流
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/wms/returns-and-vehicle-dispatch
+permalink: "https://help.cyberbiz.io/wms/returns-and-vehicle-dispatch/"
 comments: false
 search:
   exclude: false
@@ -147,7 +145,7 @@ hide: []
                 | | 7-11 C2B | 7-11 C2B | | |
                 | 逆物流送貨地址 | 倉庫地址 | 倉庫地址 | 商家公司地址 | 商家公司地址 |
 
-            - 建立宅配逆物流： [黑貓](../ec/payments-and-logistics/設定與加印黑貓託運單/#ezcat-shipping-note-reverse)、[宅配通](../ec/payments-and-logistics/設定宅配通託運單/#operate-pelican-shipping-reverse)、[新竹物流](../ec/payments-and-logistics/設定新竹物流託運單/#operate-hct-setup-reverse)
+            - 建立宅配逆物流： [黑貓](../ec/payments-and-logistics/setup-print-tcat-waybill-v2/#ezcat-shipping-note-reverse)、[宅配通](../ec/payments-and-logistics/setup-pelican-waybill-v2/#operate-pelican-shipping-reverse)、[新竹物流](../ec/payments-and-logistics/setup-hct-waybill-v2/#operate-hct-setup-reverse)
             - 建立 [7-11 C2B逆物流](../ec/orders/returns-refunds/cvs-c2b-return.md)
 
         2. **狀態切換**：訂單 **退貨狀態** 自動轉為 **退貨中**。

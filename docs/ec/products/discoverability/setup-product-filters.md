@@ -4,9 +4,7 @@ description: 設定並管理顧客可使用的商品篩選器，改善前台購�
 created: 2026-01-16 00:00
 last_modified: 2026-07-22 17:39
 lang: zh-TW
-type: tutorial
-status:
-version:
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -29,7 +27,6 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions: []
-feature_badges: []
 intents:
   - 如何設定前台商品篩選器
   - 商品篩選器設定
@@ -55,11 +52,11 @@ ui_components: []
 paths:
   - 商品 > 所有商品
 layouts:
-  - 拖拉版型
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6170
   - https://www.cyberbiz.io/support/?p=31470
-permalink: https://help.cyberbiz.io/ec/products/discoverability/setup-product-filters
+permalink: "https://help.cyberbiz.io/ec/products/discoverability/setup-product-filters/"
 comments: false
 search:
   exclude: false

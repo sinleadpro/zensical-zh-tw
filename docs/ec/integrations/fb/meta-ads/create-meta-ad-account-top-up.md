@@ -4,10 +4,8 @@ description: 透過 CYBERBIZ 建立 Meta 廣告帳號並完成儲值。
 created: 2026-04-17 17:10
 last_modified: 2026-07-02 11:38
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -42,7 +40,7 @@ features:
 prerequisites:
   - 需先擁有 Meta 企業管理帳號 (Business Manager)
 related:
-  - "[[setup-meta-ad-campaign]]"
+  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
 tags:
   - Meta
   - Facebook
@@ -61,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5621
   - https://www.cyberbiz.io/support/?p=17882
-permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/create-meta-ad-account-top-up
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/create-meta-ad-account-top-up/"
 comments: false
 search:
   exclude: false

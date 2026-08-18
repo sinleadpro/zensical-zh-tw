@@ -1,13 +1,11 @@
 ---
 title: 優惠券指標定義對照表
 description: 優惠券分析頁面的種類分析與特定優惠券分析指標定義與計算方式對照，包含折扣金額、使用率、平均使用週期等。
-created: 2026-06-16
+created: 2026-06-16 00:00
 last_modified: 2026-07-12 19:18
 lang: zh-TW
 type: reference
-status: ""
 author: Jase
-version: ""
 reviewers: []
 notes: []
 products:
@@ -16,7 +14,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 plans: []
 tags:
   - 報表分析

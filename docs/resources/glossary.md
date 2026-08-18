@@ -1,10 +1,13 @@
 ---
 title: 詞彙表
 description: 收錄 CYBERBIZ 系統專業詞彙的定義與說明，涵蓋商品管理、訂單物流、行銷分析、平台方案等面向。每個詞彙附有英文註解與相關文件參閱連結。
+lang: zh-TW
 icon: lucide/book-marked
 last_modified: 2026-07-15 13:30
 type: reference
 author: Jase
+reviewers: []
+notes: []
 tags:
   - EC
   - POS
@@ -14,6 +17,7 @@ tags:
   - Glossary
   - 詞彙表
   - 系統名詞
+permalink: "https://help.cyberbiz.io/resources/glossary/"
 ---
 <!-- [PDF :lucide-download:](#){ .md-button .md-button--primary } -->
 
@@ -389,9 +393,9 @@ tags:
 
 - **參閱**：[一般版](#一般版) | [PLUS版](#plus版) | [高手版以上](#高手版以上)
 
-### Cyber幣
+### CYBER 幣
 
-**Cyber Coin**，CYBERBIZ 系統內用於支付金物流相關服務費用及特定系統功能的虛擬計費點數。
+**CYBER COIN**，CYBERBIZ 系統內用於支付金物流相關服務費用及特定系統功能的虛擬計費點數。
 
 ### EC
 

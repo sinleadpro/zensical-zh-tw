@@ -5,8 +5,6 @@ created: 2026-05-05 11:20
 last_modified: 2026-07-09 10:29
 lang: zh-TW
 type: guide
-status: ""
-version: 1.0.0
 author: Ann
 reviewers: []
 notes: []
@@ -19,8 +17,8 @@ modules:
 sites:
   - TW
 audiences:
-  - clerk
-  - admin
+  - merchant
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -56,7 +54,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?page_id=42126
-permalink: "https://help.cyberbiz.io/ec/app-market/storepal/index"
+permalink: "https://help.cyberbiz.io/ec/app-market/storepal/"
 comments: false
 search:
   exclude: false
@@ -68,7 +66,7 @@ hide: []
 專為線下門市設計的 OMO 銷售工具，整合官網會員數據與資產，協助店員實現精準識客、深度洞察與價值變現。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業<br>
 [:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | 門市助理
 { .doc-badge }
 

@@ -4,9 +4,7 @@ description: 當訂單完成退貨流程後，最終步驟即是將款項退還�
 created: 2026-03-05 00:00
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -22,7 +20,7 @@ sites:
   - SG
   - MY
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -38,7 +36,7 @@ features:
 prerequisites:
   - 需先完成「商家執行訂單退貨流程」並將狀態切換為已退貨
 related:
-  - [[跨境電商退貨流程]]
+  - "ec/orders/cross-border-return-process"
 tags:
   - 退款流程
   - 售後服務
@@ -55,7 +53,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=30948
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/cross-border-refund-process/"
 comments: false
 search:
   exclude: false

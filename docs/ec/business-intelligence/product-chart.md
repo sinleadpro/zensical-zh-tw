@@ -4,9 +4,7 @@ description: 協助您觀察單一商品在指定期間內的瀏覽與購買表�
 created: 2026-06-21 00:00
 last_modified: 2026-07-12 20:51
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,14 +17,13 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
   - 專業
   - 進階
 cyb_extensions: []
-feature_badges: []
 intents:
   - 觀察商品瀏覽與購買趨勢
   - 分析商品成交率
@@ -35,7 +32,7 @@ features:
 prerequisites:
   - 方案需包含「商品圖表」功能
 related:
-  - "[[訂單分析]]"
+  - "ec/business-intelligence/order-analysis"
 tags:
   - 商品圖表
   - 瀏覽數
@@ -54,7 +51,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3052
-permalink: https://help.cyberbiz.io/ec/business-intelligence/product-chart
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/product-chart/"
 comments: false
 search:
   exclude: false

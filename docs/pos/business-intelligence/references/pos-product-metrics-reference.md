@@ -5,8 +5,6 @@ created: 2026-06-23 15:40
 last_modified: 2026-06-23 21:53
 lang: zh-TW
 type: reference
-status: ""
-version: ""
 author: Jase
 reviewers: []
 notes: []
@@ -18,17 +16,16 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: ""
 tnb: ""
 plans: []
 cyb_extensions: []
-feature_badges: []
 intents: []
 features: []
 prerequisites: []
 related:
-  - "[[pos-product-analysis]]"
+  - "pos/business-intelligence/pos-product-analysis"
 tags:
   - POS
   - 商品分析

@@ -4,10 +4,8 @@ description: 如何在 CYBERBIZ 後台設定與發送簡訊，包含發送方式
 created: 2026-04-27 17:09
 last_modified: 2026-07-01 20:55
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes:
   - add link for 顧客/會員標籤
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -42,10 +40,10 @@ features:
   - 簡訊通知樣板
   - 自動化發送
 prerequisites:
-  - 一般用戶需先儲值 Cyber 幣（PLUS / 企業版用戶不須額外儲值）
+  - 一般用戶需先儲值 CYBER 幣（PLUS / 企業版用戶不須額外儲值）
 related:
-  - "[[manage-sms-templates-v2]]"
-  - "[[track-sms-records]]"
+  - "ec/notifications/manage-sms-templates-v2"
+  - "ec/notifications/track-sms-records"
 tags:
   - 簡訊
   - 訊息推播
@@ -61,7 +59,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=621
   - https://www.cyberbiz.io/support/?p=1529
-permalink: https://help.cyberbiz.io/ec/notifications/send-sms-notifications-v2
+permalink: "https://help.cyberbiz.io/ec/notifications/send-sms-notifications-v2/"
 comments: false
 search:
   exclude: false
@@ -100,8 +98,8 @@ hide: []
 ## 發送簡訊的三種方法
 
 !!! info "開始之前"
-    - **一般版** 用戶使用前請先 [儲值 Cyber 幣](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="Cyber 幣儲值中心使用指南" }。
-    - **PLUS / 企業版 用戶** 不須額外儲值 Cyber 幣即可使用。
+    - **一般版** 用戶使用前請先 [儲值 CYBER 幣](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="CYBER 幣儲值中心使用指南" }。
+    - **PLUS / 企業版 用戶** 不須額外儲值 CYBER 幣即可使用。
 
 商家可依據需求，登入 CYBERBIZ 管理後台後，前往 **訊息推播 > 發送簡訊**，選擇合適的發送方式：
 

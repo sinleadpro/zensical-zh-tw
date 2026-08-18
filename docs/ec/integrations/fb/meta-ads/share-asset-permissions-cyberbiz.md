@@ -5,9 +5,7 @@ description: 當 Meta 廣告創建失敗時，透過手動分享資產權限（�
 created: 2026-04-21 16:01
 last_modified: 2026-06-26 10:05
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -39,9 +37,9 @@ features:
   - Meta Ads
   - 資產權限
 prerequisites:
-  - "[[create-meta-ad-account-top-up]]"
+  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
 related:
-  - "[[setup-meta-ad-campaign]]"
+  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
 tags:
   - Meta Ads
   - 資產權限
@@ -59,7 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10681
   - https://www.cyberbiz.io/support/?p=44556
-permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/share-asset-permissions-cyberbiz
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/share-asset-permissions-cyberbiz/"
 comments: false
 search:
   exclude: false
@@ -109,7 +107,7 @@ hide: []
 ??? failure "出現「已建立合作夥伴企業管理平台關係」錯誤"
 
     1. 請改點選左側選單「用戶」>「**合作夥伴**」。
-    2. 找到「**Cyberbiz1**」這個 BM 帳號。
+    2. 找到「**CYBERBIZ1**」這個 BM 帳號。
     3. 點擊「**分享資產**」。
     4. 在「資料集」或「像素」中找到對應像素，勾選「**使用事件資料集**」權限並點擊「指派資產」。
 

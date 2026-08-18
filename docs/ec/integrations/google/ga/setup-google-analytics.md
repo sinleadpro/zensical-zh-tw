@@ -4,9 +4,7 @@ description: "串接 Google Analytics 4 (GA4)，包括 Google 端帳號建立、
 created: "2026-03-20 14:54"
 last_modified: 2026-07-02 16:28
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: 
@@ -36,14 +34,14 @@ intents:
   - GA4 串接步驟
   - Google Analytics 設定教學
 features:
-  - Google_Analytics
+  - Google Analytics
   - GA4
-  - 評估_ID
+  - 評估 ID
   - 加強型評估
   - 資料串流
 prerequisites: []
 related:
-  - "[[google-analytics-advanced-tracking]]"
+  - "ec/integrations/google/ga/google-analytics-advanced-tracking"
 tags:
   - Google Analytics
   - GA4
@@ -62,7 +60,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=678
   - https://www.cyberbiz.io/support/?p=165
-permalink: https://help.cyberbiz.io/ec/integrations/google/ga/setup-google-analytics
+permalink: "https://help.cyberbiz.io/ec/integrations/google/ga/setup-google-analytics/"
 comments: false
 search:
   exclude: false

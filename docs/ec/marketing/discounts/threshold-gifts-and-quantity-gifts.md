@@ -4,9 +4,7 @@ description: 建立滿額贈與滿件贈活動，設定訂單或特定標籤商�
 created: 2026-01-21 00:00
 last_modified: 2026-07-06 17:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -55,7 +53,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8276
   - https://www.cyberbiz.io/support/?p=41132
   - https://www.cyberbiz.io/support/?p=7345
-permalink: https://help.cyberbiz.io/ec/marketing/discounts/threshold-gifts-and-quantity-gifts
+permalink: "https://help.cyberbiz.io/ec/marketing/discounts/threshold-gifts-and-quantity-gifts/"
 comments: false
 search:
   exclude: false

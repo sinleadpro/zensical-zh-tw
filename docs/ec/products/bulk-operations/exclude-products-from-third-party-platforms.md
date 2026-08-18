@@ -2,11 +2,9 @@
 title: 排除商品上傳至第三方平台
 description: 設定排除標籤，讓商品不上傳至第三方平台。
 created: 2026-06-29 16:30
-last_modified: 2026-06-30 11:26
+last_modified: 2026-08-13 15:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -21,13 +19,11 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
-tnb: branch
-plans:
-  - 企業
+tnb: trunk
+plans: []
 cyb_extensions: []
-feature_badges: []
 intents:
   - 排除商品上傳至第三方平台
   - 設定商品排除標籤
@@ -36,8 +32,8 @@ features:
   - 商品標籤
 prerequisites: []
 related:
-  - "[[manage-product-tags]]"
-  - "[[edit-product-description-settings]]"
+  - "ec/products/categories-and-tags/manage-product-tags"
+  - "ec/products/create-and-manage/edit-product-description-settings"
 tags:
   - 排除標籤
   - Product Feed
@@ -56,15 +52,19 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=6626
-permalink: https://help.cyberbiz.io/ec/products/bulk-operations/exclude-products-from-third-party-platforms
+permalink: "https://help.cyberbiz.io/ec/products/bulk-operations/exclude-products-from-third-party-platforms/"
 comments: false
 search:
   exclude: false
 icon: lucide/package-x
 hide: []
 ---
+# 排除商品上傳第三方平台
+設定排除標籤，讓商品不上傳至第三方平台。
+{ .subtitle }
 
-## 排除商品上傳第三方平台說明
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 全方案
+{ .doc-badge }
 
 CYBERBIZ 會自動將商品資料同步至第三方銷售與廣告平台（如 Google Merchant Center、Facebook DPA、LINE 購物、美安等），以擴大商品曝光。若某些商品不適合出現在這些平台[^exclude-examples]，您可以透過商品標籤將其排除，系統即不會將該商品資料上傳至指定平台。
 

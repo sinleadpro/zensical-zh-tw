@@ -4,23 +4,21 @@ description: 整合線上官網（EC）與線下實體門市（POS）的經營�
 created: 2026-06-23 10:00
 last_modified: 2026-07-12 20:16
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
 products:
-  - ec
-  - pos
+  - EC
+  - POS
 modules:
   - 分析報表
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -28,8 +26,6 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
-feature_badges:
-  - POS
 intents:
   - 查看 OMO 全通路經營數據
   - 比較 EC 與 POS 的營收與銷售表現
@@ -45,9 +41,9 @@ features:
 prerequisites:
   - 已開通 CYBERBIZ POS
 related:
-  - "[[revenue-analysis]]"
-  - "[[member-analysis]]"
-  - "[[customer-analysis]]"
+  - "ec/business-intelligence/revenue-analysis"
+  - "ec/business-intelligence/member-analysis"
+  - "ec/business-intelligence/customer-analysis"
 tags:
   - OMO
   - 全通路
@@ -66,7 +62,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7800
   - https://www.cyberbiz.io/support/?p=33261
-permalink: https://help.cyberbiz.io/ec/business-intelligence/omo-analysis-report
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/omo-analysis-report/"
 comments: false
 search:
   exclude: false

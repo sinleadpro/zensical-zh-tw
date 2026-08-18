@@ -4,9 +4,7 @@ description: 認識新舊版文字編輯器，在商品描述、自訂頁面與�
 created: "2026-03-19 11:51"
 last_modified: 2026-06-30 11:01
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -31,7 +29,6 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions: []
-feature_badges: []
 intents:
   - 編輯商品描述與自訂頁面內容
   - 在內容中插入圖片與 YouTube 影片
@@ -46,8 +43,8 @@ features:
 prerequisites:
   - 具備後台管理員帳號
 related:
-  - "[[create-update-products]]"
-  - "[[apply-and-switch-theme]]"
+  - "ec/products/create-and-manage/create-update-products"
+  - "ec/website-appearance/theme-and-layout/apply-and-switch-theme"
 tags:
   - 文字編輯器
   - 網頁編輯
@@ -72,7 +69,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3938
   - https://www.cyberbiz.io/support/?p=21070
   - https://www.cyberbiz.io/support/?p=51521
-permalink: https://help.cyberbiz.io/ec/website-appearance/code-customization/text-editor
+permalink: "https://help.cyberbiz.io/ec/website-appearance/code-customization/text-editor/"
 comments: false
 search:
   exclude: false

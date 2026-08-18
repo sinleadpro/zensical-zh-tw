@@ -4,9 +4,7 @@ description: 設定新竹物流託運單完整教學，包含寄件人資訊設�
 created: 2026-05-22 17:28
 last_modified: 2026-07-07 14:22
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -42,18 +40,18 @@ features:
   - 逆物流
   - 單號使用紀錄
 prerequisites:
-  - "[[home-delivery-cash-on-delivery#2-新竹物流]]"
+  - "ec/payments-and-logistics/home-delivery-cash-on-delivery"
   - 領取新竹物流託運貼紙
-  - 了解 Cyber 幣扣費方式
+  - 了解 CYBER 幣扣費方式
 related:
-  - "[[hct-shipping-v2]]"
-  - "[[setup-store-basic-info]]"
+  - "ec/orders/home-delivery/hct-shipping-v2"
+  - "ec/website-management/setup-store-basic-info"
 tags:
   - 新竹物流
   - 託運單
   - 逆物流
   - 出貨
-  - Cyber幣
+  - CYBER 幣
 acoiv: ""
 apis: []
 devices:
@@ -64,7 +62,7 @@ paths:
   - 金物流 > 新竹物流託運單
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/payments-and-logistics/setup-hct-waybill-v2
+permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/setup-hct-waybill-v2/"
 comments: false
 search:
   exclude: false
@@ -115,12 +113,12 @@ hide: []
 
 ---
 
-### Cyber 幣 vs 對帳單 { #prerequisites-hct-setup-billing }
+### CYBER 幣 vs 對帳單 { #prerequisites-hct-setup-billing }
 
 新竹物流託運單的扣費方式依方案而定：
 
-- **一般版**：建立託運單時 **立即扣除 Cyber 幣**，餘額不足將擋下加印或逆物流。頁面上方會顯示「目前 Cyber 幣」餘額，請至「管理中心」>「儲值中心」儲值。
-- **PLUS版 / 企業版**：不需儲值，費用 **列入每期對帳單**。頁面上方不會顯示 Cyber 幣餘額。
+- **一般版**：建立託運單時 **立即扣除 CYBER 幣**，餘額不足將擋下加印或逆物流。頁面上方會顯示「目前 CYBER 幣」餘額，請至「管理中心」>「儲值中心」儲值。
+- **PLUS版 / 企業版**：不需儲值，費用 **列入每期對帳單**。頁面上方不會顯示 CYBER 幣餘額。
 
 ---
 
@@ -148,12 +146,12 @@ hide: []
 當一筆訂單需要 **拆成多箱寄送** 時，可使用此功能產生額外的託運單號：
 
 1. **輸入訂單編號**：填入訂單編號(不需要輸入訂單編號的英文前綴)。
-2. **選擇貨品大小**：由下拉選單選擇對應的尺寸。下拉選單會即時顯示對應的 Cyber 幣費用。
+2. **選擇貨品大小**：由下拉選單選擇對應的尺寸。下拉選單會即時顯示對應的 CYBER 幣費用。
 3. **選擇紙張**：選擇「A4 紙張」或「10cm x 10cm 熱感應紙」。
 4. **加印張數**：選擇要產生幾張(1~8張)新單號。
 5. **同意條款**：勾選同意 CYBERBIZ 與新竹物流的物流服務條款。
-6. 點擊 **「確認下載」**，系統會跳出二次確認視窗顯示「訂單編號 XXX，N Cyber 幣」，按 **「確認」** 即會[^reprint-deduct]：
-    - 扣除 Cyber 幣(或列入對帳單)
+6. 點擊 **「確認下載」**，系統會跳出二次確認視窗顯示「訂單編號 XXX，N CYBER 幣」，按 **「確認」** 即會[^reprint-deduct]：
+    - 扣除 CYBER 幣(或列入對帳單)
     - 呼叫新竹物流取得新單號
     - 自動下載託運單 PDF
     - 將該訂單與新單號寫入下方「單號使用紀錄」
@@ -163,7 +161,7 @@ hide: []
 !!! warning "加印託運單只列印純配送"
     本功能只會印出 **「純配送」** 的託運單。若原訂單為 **貨到付款**，加印的託運單也 **不會** 帶上代收款資訊。若需列印「貨到付款」的託運單，請至訂單列表透過「下載新竹物流託運單」操作。
 
-[^reprint-deduct]: 一般版若 Cyber 幣餘額不足會直接擋下，並提示「Cyber 幣不足，請至儲值中心進行儲值」。
+[^reprint-deduct]: 一般版若 CYBER 幣餘額不足會直接擋下，並提示「CYBER 幣不足，請至儲值中心進行儲值」。
 
 ---
 
@@ -202,9 +200,9 @@ hide: []
     | 訂單編號 | 對應的訂單編號 |
     | 新竹物流託運單號 | 新竹物流回傳的單號(可向新竹物流查詢貨態) |
     | 配送方案 |  |
-    | 客戶選定 Cyber 幣額度 | 建立時預扣的金額 |
-    | 確認扣除 Cyber 幣額度 | 對帳後實際扣除的金額(可能與預扣不同) |
-    | 對帳備註 | 系統對帳時的補充說明(例如「超過時間未寄件，回補 Cyber 幣」) |
+    | 客戶選定 CYBER 幣額度 | 建立時預扣的金額 |
+    | 確認扣除 CYBER 幣額度 | 對帳後實際扣除的金額(可能與預扣不同) |
+    | 對帳備註 | 系統對帳時的補充說明(例如「超過時間未寄件，回補 CYBER 幣」) |
     | 單號狀態 | 待物流收件 / 已收件 / 取消寄件 等 |
 
 [^records-query]: 可使用上方的「搜尋」框依訂單編號或單號快速過濾紀錄。
@@ -222,7 +220,7 @@ hide: []
 加印或訂單下載產生的託運單，**14 天內未實際寄件** 會自動失效：
 
 - 單號狀態改為「取消寄件」
-- 一般版預扣的 Cyber 幣會 **全額回補**(可於「單號使用紀錄」確認對帳備註)
+- 一般版預扣的 CYBER 幣會 **全額回補**(可於「單號使用紀錄」確認對帳備註)
 - 失效後若仍要寄件，需重新加印或重新從訂單下載
 
 ## 後續操作 { #next-steps-hct-setup }
@@ -254,7 +252,7 @@ hide: []
 ??? quote "加印託運單需要扣費嗎？"
     [](){ #faq-hct-setup-reprint-fee }
 
-    需要。**每張** 加印託運單都會 **個別扣費**，費用以您於下拉選單選擇的「貨品大小」對應的 Cyber 幣為準。一般版立即扣除；PLUS版 / 企業版列入對帳單。
+    需要。**每張** 加印託運單都會 **個別扣費**，費用以您於下拉選單選擇的「貨品大小」對應的 CYBER 幣為準。一般版立即扣除；PLUS版 / 企業版列入對帳單。
 
 ??? quote "貨到付款訂單要怎麼加印託運單？"
     [](){ #faq-hct-setup-cod-reprint }
@@ -269,14 +267,14 @@ hide: []
 ??? quote "已建立的單號可以撤銷嗎？"
     [](){ #faq-hct-setup-cancel-tracking }
 
-    商家後台 **無法自行撤銷** 已建立的單號。若您沒有實際寄件，系統會於 **14 天後** 自動將單號改為「取消寄件」並回補 Cyber 幣(僅一般版)。如需提前撤銷請聯繫 CYBERBIZ 客服。
+    商家後台 **無法自行撤銷** 已建立的單號。若您沒有實際寄件，系統會於 **14 天後** 自動將單號改為「取消寄件」並回補 CYBER 幣(僅一般版)。如需提前撤銷請聯繫 CYBERBIZ 客服。
 
-??? quote "Cyber 幣不足怎麼辦？"
+??? quote "CYBER 幣不足怎麼辦？"
     [](){ #faq-hct-setup-insufficient-balance }
 
-    請至「管理中心」>「儲值中心」儲值。一般版商家必須先儲值 Cyber 幣才能加印託運單或建立逆物流。若您是 PLUS版 / 企業版，則不需儲值，費用列入對帳單。
+    請至「管理中心」>「儲值中心」儲值。一般版商家必須先儲值 CYBER 幣才能加印託運單或建立逆物流。若您是 PLUS版 / 企業版，則不需儲值，費用列入對帳單。
 
 ??? quote "單號使用紀錄的「對帳備註」是什麼？"
     [](){ #faq-hct-setup-reconcile-note }
 
-     對帳備註會顯示系統與新竹物流對帳的結果，例如「超過時間未寄件，回補 Cyber 幣」、實際尺寸與預估不符的補扣金額等。若欄位為空，代表此筆單號尚未進入對帳流程。
+     對帳備註會顯示系統與新竹物流對帳的結果，例如「超過時間未寄件，回補 CYBER 幣」、實際尺寸與預估不符的補扣金額等。若欄位為空，代表此筆單號尚未進入對帳流程。

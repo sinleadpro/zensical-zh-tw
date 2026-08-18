@@ -4,9 +4,7 @@ description: 透過訂單列表批次選取訂單，下載新竹物流託運單�
 created: 2026-05-22 17:21
 last_modified: 2026-07-07 13:53
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: 
@@ -40,15 +38,15 @@ features:
   - 補印託運單
   - 加印託運單
 prerequisites:
-  - "[[setup-hct-waybill-v2]]"
-  - "[[setup-hct-waybill-v2]]"
-  - "[[partial-shipment-v2]]"
-  - "[[search-filter-orders]]"
+  - "ec/payments-and-logistics/setup-hct-waybill-v2"
+  - "ec/payments-and-logistics/setup-hct-waybill-v2"
+  - "ec/orders/home-delivery/partial-shipment-v2"
+  - "ec/orders/basics/search-filter-orders"
 tags:
   - 新竹物流
   - 託運單
   - 批次出貨
-  - Cyber_幣
+  - CYBER 幣
 acoiv: operation
 apis: []
 devices:
@@ -65,7 +63,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10646
   - https://www.cyberbiz.io/support/?p=46278
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/hct-shipping-v2
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/hct-shipping-v2/"
 comments: false
 search:
   exclude: false
@@ -91,7 +89,7 @@ hide: []
 !!! plan "扣費方式依方案而定"
     新竹物流託運單的扣費方式分為兩類，操作前請先確認您的方案歸屬：
 
-    - **一般版**：列印託運單時 **立即扣除 Cyber 幣**，餘額不足將擋下列印。請先至「管理中心」>「儲值中心」儲值。
+    - **一般版**：列印託運單時 **立即扣除 CYBER 幣**，餘額不足將擋下列印。請先至「管理中心」>「儲值中心」儲值。
     - **PLUS版 / 企業版**：不需儲值，費用 **列入每期對帳單**。
 
 [^1]: 若尚未設定，訂單列表的下載動作不會出現。
@@ -115,10 +113,10 @@ hide: []
 
 扣費方式依方案而定：
 
-- **一般版**：確認下載當下立即扣除[^pricing-deposit]。若 Cyber 幣不足，系統會擋下列印，請先至「儲值中心」儲值。
+- **一般版**：確認下載當下立即扣除[^pricing-deposit]。若 CYBER 幣不足，系統會擋下列印，請先至「儲值中心」儲值。
 - **PLUS版 / 企業版**：不擋下列印，費用於每期對帳單一併結算。
 
-[^pricing-deposit]: 託運單建立後若於 14 天內未實際寄件，系統會自動回補 Cyber 幣(詳見 [託運單時效](#specs-hct-shipping-expiry))。
+[^pricing-deposit]: 託運單建立後若於 14 天內未實際寄件，系統會自動回補 CYBER 幣(詳見 [託運單時效](#specs-hct-shipping-expiry))。
 
 ## 操作步驟 { #operate-hct-shipping }
 
@@ -138,7 +136,7 @@ hide: []
 ![下載新竹物流託運單](../../../assets/images/EC-訂單-所有訂單-下載新竹物流託運單.png){ title="下載新竹物流託運單" }
 
 !!! info "提示"
-    若您是補印已下載過的託運單(不想再次扣款)，請選擇 **「補印託運單」**，流程相同，但 **不會** 再次扣除 Cyber 幣或產生新單號。
+    若您是補印已下載過的託運單(不想再次扣款)，請選擇 **「補印託運單」**，流程相同，但 **不會** 再次扣除 CYBER 幣或產生新單號。
 
 ---
 
@@ -177,7 +175,7 @@ hide: []
 點擊 **「確認」** 後，系統會：
 
 - 依您選擇的溫層產生新竹物流託運單號
-- **一般版** 立即扣除 Cyber 幣；**PLUS版 / 企業版** 列入對帳單
+- **一般版** 立即扣除 CYBER 幣；**PLUS版 / 企業版** 列入對帳單
 - 自動下載一個壓縮檔，內含 **5 份 PDF** 文件
 - 將訂單貨態變更為 **「已出貨(待物流收件)」**
 
@@ -227,7 +225,7 @@ hide: []
     - 保存期短於 3 天之商品
 
 !!! warning "若包裹被退回"
-    若新竹物流發現包裹含不受理品項，可能 **退回寄件人** 或拒絕配送，且不退回 Cyber 幣。出貨前請確認商品符合規範。
+    若新竹物流發現包裹含不受理品項，可能 **退回寄件人** 或拒絕配送，且不退回 CYBER 幣。出貨前請確認商品符合規範。
 
 ---
 
@@ -236,7 +234,7 @@ hide: []
 託運單產出後 **14 日內** 若未實際寄件，單號將會失效：
 
 - 系統會將該筆託運單狀態改為 **「取消寄件」**。
-- **一般版** 已扣除的 Cyber 幣會自動全額回補(可至「金物流」>「新竹物流託運單」的「單號使用紀錄」確認)。
+- **一般版** 已扣除的 CYBER 幣會自動全額回補(可至「金物流」>「新竹物流託運單」的「單號使用紀錄」確認)。
 - 失效後若仍要寄件，需重新進入訂單下載新單號，並重新扣費。
 
 --- 
@@ -290,19 +288,19 @@ hide: []
 
     商家後台 **無法自行取消** 已產生的託運單。如需取消請聯繫 CYBERBIZ 客服協助。
 
-    若您 **沒有實際寄件**，系統會於建立後 **14 天** 自動將單號改為「取消寄件」並回補 Cyber 幣(僅一般版)，您不需要額外操作。
+    若您 **沒有實際寄件**，系統會於建立後 **14 天** 自動將單號改為「取消寄件」並回補 CYBER 幣(僅一般版)，您不需要額外操作。
 
 ??? quote "託運單失效了怎麼補？"
     [](){ #faq-hct-shipping-expired }
 
-    託運單失效後，系統會將 **Cyber 幣回補** 至您的儲值中心(僅一般版)，並將單號狀態改為「取消寄件」。若仍要寄出該訂單，請重新進入訂單列表，再次執行下載託運單流程，系統會產生新的單號與重新扣費。
+    託運單失效後，系統會將 **CYBER 幣回補** 至您的儲值中心(僅一般版)，並將單號狀態改為「取消寄件」。若仍要寄出該訂單，請重新進入訂單列表，再次執行下載託運單流程，系統會產生新的單號與重新扣費。
 
 ??? quote "下載按鈕點了沒反應 / 一直在轉？"
     [](){ #faq-hct-shipping-download-stuck }
 
     請依序檢查：
 
-    - **Cyber 幣餘額是否足夠**(僅一般版) 若不足，請先至「儲值中心」儲值。
+    - **CYBER 幣餘額是否足夠**(僅一般版) 若不足，請先至「儲值中心」儲值。
     - **寄件人地址是否完整** 請至「金物流」>「新竹物流託運單」確認寄件人地址已填寫完整。
     - **瀏覽器是否阻擋下載彈窗** 請允許網站下載檔案後重試。
 
@@ -314,12 +312,12 @@ hide: []
 ??? quote "補印託運單和一般下載託運單有什麼不同？"
     [](){ #faq-hct-shipping-reprint-vs-download }
 
-    一般下載託運單會產生新的單號、依方案扣除 Cyber 幣，並將貨態改為「已出貨」。**補印託運單** 則不會產生新單號也不會再次扣款，流程與一般下載相同，適合紙張毀損或遺失時重新列印。
+    一般下載託運單會產生新的單號、依方案扣除 CYBER 幣，並將貨態改為「已出貨」。**補印託運單** 則不會產生新單號也不會再次扣款，流程與一般下載相同，適合紙張毀損或遺失時重新列印。
 
 ??? quote "一般版和 PLUS版 /企業版的扣費方式有什麼差別？"
     [](){ #faq-hct-shipping-plan-pricing }
 
-    - **一般版**：下載託運單時 **立即扣除 Cyber 幣**，餘額不足將擋下列印。若 14 天內未實際寄件，系統會自動回補。
+    - **一般版**：下載託運單時 **立即扣除 CYBER 幣**，餘額不足將擋下列印。若 14 天內未實際寄件，系統會自動回補。
     - **PLUS版 /企業版**：不需預先儲值，費用 **列入每期對帳單**，不會擋下列印。
 
 ??? quote "貨態變更為「已出貨」後還能修改收件人資訊嗎？"

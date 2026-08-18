@@ -4,13 +4,10 @@ description: 瞭解如何透過專屬帳號登入 POS 前台，並掌握員工�
 created: 2026-04-16 10:30
 last_modified: 2026-05-28 14:48
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
-aliases: []
 ga_views: 0
 feedback: 0
 products:
@@ -20,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - clerk
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -37,13 +34,13 @@ features:
   - 員工切換
   - 系統公告
 prerequisites:
-  - [[帳號權限管理]]
+  - "pos/store/staff-permissions-and-account-management"
 related:
-  - [[公告]]
+  - "wms/announcements"
 tags:
-  - POS_登入
+  - POS 登入
   - 員工切換
-  - POS_介面導覽
+  - POS 介面導覽
 acoiv: activate
 apis: []
 devices:
@@ -56,11 +53,10 @@ ui_components:
   - 設定
 paths:
   - POS 前台 > 登入
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=2915
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/store/staff-login/"
 comments: false
 search:
   exclude: false

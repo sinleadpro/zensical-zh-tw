@@ -4,10 +4,8 @@ description: 了解如何使用 Google 安全瀏覽網站狀態檢查工具，�
 created: 2026-03-25 21:29
 last_modified: 2026-07-02 17:05
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views:
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -36,15 +34,15 @@ intents:
   - 申請解除不安全警示
   - 預防網站被標記為不安全
 features:
-  - Google_安全瀏覽
-  - Google_Search_Console
+  - Google 安全瀏覽
+  - Google Search Console
   - 安全性問題審核
   - 安全警示解除
 prerequisites:
-  - "[[setup-google-search-console]]"
+  - "ec/integrations/google/setup-google-search-console"
 related:
-  - "[[setup-manage-two-factor-auth]]"
-  - "[[security-settings]]"
+  - "ec/website-management/setup-manage-two-factor-auth"
+  - "ec/website-management/admin-security-settings"
 tags:
   - Google 安全瀏覽
   - 網站安全性
@@ -63,10 +61,10 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3129
   - https://www.cyberbiz.io/support/?p=24812
-permalink: https://help.cyberbiz.io/ec/integrations/google/google-safe-browsing-security-check
+permalink: "https://help.cyberbiz.io/ec/integrations/google/google-safe-browsing-security-check/"
 comments: ""
 search:
-  exclude: ""
+  exclude: false
 icon: lucide/shield-alert
 hide:
 ---
@@ -118,7 +116,7 @@ Google 提供「安全瀏覽網站狀態檢查工具」，可協助商家主動�
   開啟 2FA 驗證機制，防止帳號被盜用，降低網站被植入惡意內容的風險。
 
 - :lucide-brick-wall-shield:{ .lg }  
-  [__IP 白名單__](../../website-management/security-settings.md#operate-security-ip-whitelist){ title="保護後台帳號與顧客資料" }       
+  [__IP 白名單__](../../website-management/admin-security-settings.md#operate-security-ip-whitelist){ title="保護後台帳號與顧客資料" }       
   限制後台登入的 IP 來源，確保只有授權的 IP 才能存取管理介面。
 
 </div>

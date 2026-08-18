@@ -6,8 +6,6 @@ created: 2026-05-27 16:04
 last_modified: 2026-05-27 18:00
 lang: zh-TW
 type: reference
-status: ""
-version: ""
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -42,8 +40,8 @@ features:
   - 資料欄位設定
 prerequisites: []
 related:
-  - "[[setup-customer-email-phone-verification]]"
-  - "[[customer-registration-modes-reference]]"
+  - "ec/website-management/setup-customer-email-phone-verification"
+  - "ec/website-management/references/customer-registration-modes-reference"
 tags:
   - EC
   - 顧客註冊
@@ -65,7 +63,7 @@ paths:
   - 管理中心 > 顧客註冊設定
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/ec/website-management/references/customer-field-validation-reference"
+permalink: "https://help.cyberbiz.io/ec/website-management/references/customer-field-validation-reference/"
 search:
   exclude: false
 icon: lucide/table

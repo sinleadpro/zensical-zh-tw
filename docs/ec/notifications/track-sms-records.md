@@ -4,10 +4,8 @@ description: 在 CYBERBIZ 後台查詢與追蹤簡訊發送紀錄，包含日期
 created: 2026-04-27 19:16
 last_modified: 2026-07-01 12:00
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes: []
 ga_views: 0
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: 
@@ -40,7 +38,7 @@ features:
   - 發送紀錄列表
 prerequisites: []
 related:
-  - "[[send-sms-notifications-v2]]"
+  - "ec/notifications/send-sms-notifications-v2"
 tags:
   - 簡訊
   - 發送紀錄
@@ -55,7 +53,7 @@ paths:
   - "訊息推播 > 簡訊發送紀錄"
 layouts: []
 wp_url: []
-permalink: "https://help.cyberbiz.io/ec/notifications/track-sms-records"
+permalink: "https://help.cyberbiz.io/ec/notifications/track-sms-records/"
 comments: false
 search:
   exclude: false
@@ -107,7 +105,7 @@ hide: []
 | 建立時間 | 簡訊發送的時間 |
 | 手機號碼 | 收件人手機號碼 |
 | 發送次數 | 該筆簡訊的發送次數 |
-| 費用 | 該次發送扣除的 Cyber 幣數量 |
+| 費用 | 該次發送扣除的 CYBER 幣數量 |
 | 訊息內容 | 實際發送的簡訊文字 |
 
                  

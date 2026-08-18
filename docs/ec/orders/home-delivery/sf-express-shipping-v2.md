@@ -2,11 +2,9 @@
 title: 使用順豐出貨
 description: 使用順豐託運單批次或單筆下載出貨，系統自動與順豐即時取號，將訂單貨態更新為已出貨，支援國內台灣本島及海外配送。
 created: 2026-05-20 20:25
-last_modified: 2026-07-09 15:05
+last_modified: 2026-08-10 12:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -46,9 +44,9 @@ prerequisites:
   - 需先完成公司統一編號設定
   - 需先開通順豐託運單功能
 related:
-  - "[[順豐海外物流]]"
-  - "[[補印與加印託運單]]"
-  - "[[partial-shipment-v2]]"
+  - "ec/payments-and-logistics/sf-express-overseas-logistics"
+  - "補印與加印託運單"
+  - "ec/orders/home-delivery/partial-shipment-v2"
 tags:
   - 順豐
   - 出貨
@@ -68,7 +66,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=384
   - https://www.cyberbiz.io/support/?p=3760
-permalink: https://help.cyberbiz.io/ec/orders/home-delivery/sf-express-shipping-v2
+permalink: "https://help.cyberbiz.io/ec/orders/home-delivery/sf-express-shipping-v2/"
 comments: false
 search:
   exclude: false
@@ -124,8 +122,8 @@ hide: []
 
 4. **設定下載條件**：系統開啟「下載順豐託運單」視窗，依序確認
     * **訂單清單**：顯示本次勾選的訂單編號與配送方式，確認無誤後再繼續。
-    * **配送商品尺寸與費用**：視窗中會顯示一張價目表，列出各規格對應的 Cyber 幣費用供參考[^3]。
-    - **預估 Cyber 幣**：一般版[^4] 商家會在視窗中看到本次預扣的 Cyber 幣、目前帳戶餘額，以及「儲值」按鈕。
+    * **配送商品尺寸與費用**：視窗中會顯示一張價目表，列出各規格對應的 CYBER 幣費用供參考[^3]。
+    - **預估 CYBER 幣**：一般版[^4] 商家會在視窗中看到本次預扣的 CYBER 幣、目前帳戶餘額，以及「儲值」按鈕。
     * **寄件人地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [順豐設定](../../payments-and-logistics/setup-sf-express-waybill-v2.md#configure-sf-waybill-sender){ title="設定順豐託運單" } 中的地址），如需更改可於視窗內點擊 **「更改」** 按鈕編輯[^6]。
 
     ![下載順豐託運單彈窗](../../../assets/images/ec-orders-sf-waybill-download-popup.png){ title="下載順豐託運單彈窗"}
@@ -156,7 +154,7 @@ hide: []
 | 商業發票(僅海外件) | 報關用，英文版 | **海外件必須列印** |
 
 !!! info "提示"
-     建議使用 **雷射印表機** 列印託運單，避免條碼因噴墨暈染或熱感紙褪色導致順豐系統無法辨識，需要重新加印。
+     建議使用 **雷射印表機** 列印託運單，避免條碼因噴墨暈染或熱感紙褪色導致順豐系統無法辨識，需要重新列印。
 
 ---
 
@@ -183,10 +181,10 @@ hide: []
 
 ### 託運單失效與退費 { #specs-sf-expiration }
 
-下載託運單後即扣除 Cyber 幣(或列入帳單)，**14 天內** 未實際寄件者，系統會依順豐回傳的貨態自動判定為「客戶已取消寄件」，單號狀態改為 **「取消寄件」**，並將原本扣除的 Cyber 幣全額退回帳戶(對帳單方案則該筆不會列入帳單)。
+下載託運單後即扣除 CYBER 幣(或列入帳單)，**14 天內** 未實際寄件者，系統會依順豐回傳的貨態自動判定為「客戶已取消寄件」，單號狀態改為 **「取消寄件」**，並將原本扣除的 CYBER 幣全額退回帳戶(對帳單方案則該筆不會列入帳單)。
 
 * 退款時機 **依順豐系統回傳貨態為準**，並非剛好滿 14 天即立即退回。
-* 退款入帳時，後台「CYBER 幣異動紀錄」會註記 **「訂單 XXX，順豐單號 XXX 超過兩週未寄件，補回 X Cyber 幣」**。
+* 退款入帳時，後台「CYBER 幣異動紀錄」會註記 **「訂單 XXX，順豐單號 XXX 超過兩週未寄件，補回 X CYBER 幣」**。
 
 ---
 
@@ -198,14 +196,13 @@ hide: []
 
 ### 消費者拒收 { #specs-sf-reject }
 
-若消費者拒收包裹，順豐將於 **退回店家時當面跟店家收取退件運費**，該筆退件運費 **不會** 從 Cyber 幣扣除或併入對帳單，需現場付現給司機。
+若消費者拒收包裹，順豐將於 **退回店家時當面跟店家收取退件運費**，該筆退件運費 **不會** 從 CYBER 幣扣除或併入對帳單，需現場付現給司機。
 
 ---
 
 ### 必須使用系統產出的託運單 { #specs-sf-no-handwritten }
 
 * **請勿手寫託運單**。手寫單無法被 CYBERBIZ 系統追蹤，訂單貨態不會自動更新，且順豐系統也無法回傳即時運送狀態。
-* 已下載的託運單若不慎遺失，可至「金物流」>「順豐託運單」搜尋對應訂單，於該筆紀錄旁重新下載，**不需要再扣一次 Cyber 幣**。
 
 
 ## 後續操作 { #next-steps-sf }
@@ -233,10 +230,10 @@ hide: []
     * 訂單的 **付款狀態** 是否為「已付款」或「貨到付款」，等待付款的訂單無法出貨。
     * 訂單的 **配送地址** 是否為台灣本島，離島地區會被擋下。
 
-??? quote "Cyber 幣不足時無法列印，但我是 PLUS / 企業版，為什麼還是被擋？"
+??? quote "CYBER 幣不足時無法列印，但我是 PLUS / 企業版，為什麼還是被擋？"
     [](){ #faq-sf-points-insufficient }
 
-    PLUS / 企業版方案的順豐運費 **列入對帳單**，不會在印單時即時扣 Cyber 幣，理論上不應出現「餘額不足」的提示。若您看到此提示，請聯繫業務窗口確認 **方案類型是否正確** 或檢查 **功能設定是否同步**。
+    PLUS / 企業版方案的順豐運費 **列入對帳單**，不會在印單時即時扣 CYBER 幣，理論上不應出現「餘額不足」的提示。若您看到此提示，請聯繫業務窗口確認 **方案類型是否正確** 或檢查 **功能設定是否同步**。
 
 ??? quote "可以一次出貨海外件和國內件嗎？"
     [](){ #faq-sf-mixed-shipment }
@@ -251,7 +248,7 @@ hide: []
 ??? quote "拒收訂單的退件運費要怎麼處理？"
     [](){ #faq-sf-reject-fee }
 
-    順豐將包裹退回店家時，司機會 **當面跟店家收取退件運費**，以 **現金** 支付，該費用 **不會** 由 Cyber 幣扣抵或併入對帳單。建議事先準備現金備用，並與顧客溝通退貨退款流程。
+    順豐將包裹退回店家時，司機會 **當面跟店家收取退件運費**，以 **現金** 支付，該費用 **不會** 由 CYBER 幣扣抵或併入對帳單。建議事先準備現金備用，並與顧客溝通退貨退款流程。
 
 ??? quote "海外訂單為什麼一定要填統一編號？"
     [](){ #faq-sf-vat-required }
@@ -261,7 +258,7 @@ hide: []
 ??? quote "下載託運單後想取消，可以自行刪除嗎？"
     [](){ #faq-sf-cancel-waybill }
 
-    商家後台 **無法自行取消** 已產生的順豐單號。若印錯尺寸、選錯訂單或不再需要出貨，只需 **不要將包裹交給順豐司機**，等待 14 天後系統會自動判定為「客戶已取消寄件」並退回 Cyber 幣 / 不列入帳單。
+    商家後台 **無法自行取消** 已產生的順豐單號。若印錯尺寸、選錯訂單或不再需要出貨，只需 **不要將包裹交給順豐司機**，等待 14 天後系統會自動判定為「客戶已取消寄件」並退回 CYBER 幣 / 不列入帳單。
 
 ??? quote "包裹超過 170 cm 該怎麼辦？"
     [](){ #faq-sf-oversize }
@@ -271,5 +268,5 @@ hide: []
 ??? quote "如何重新下載已遺失的託運單？"
     [](){ #faq-sf-redownload }
 
-     託運單檔案若不慎遺失，可至後台「金物流」>「順豐託運單」搜尋對應訂單，於該筆紀錄旁點擊重新下載，**不需要再扣一次 Cyber 幣**。補印的完整說明請參考 [補印託運單](../../payments-and-logistics/setup-sf-express-waybill-v2.md#operate-sf-waybill-reprint){ title="加印託運單" }。
+     託運單檔案若不慎遺失，可至後台「金物流」>「順豐託運單」搜尋對應訂單，於該筆紀錄旁點擊重新下載，**不需要再扣一次 CYBER 幣**。補印的完整說明請參考 [補印託運單](../../payments-and-logistics/setup-sf-express-waybill-v2.md#operate-sf-waybill-reprint){ title="加印託運單" }。
 

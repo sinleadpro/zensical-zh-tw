@@ -4,9 +4,7 @@ description: 商家商品進入 CYBERBIZ 電商倉儲的標準作業流程與規
 created: 2026-03-16 00:00
 last_modified: 2026-06-30 22:04
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes:
@@ -53,7 +51,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5730
   - https://www.cyberbiz.io/support/?p=8770
-permalink: https://help.cyberbiz.io/wms/merchant-inbound-operation-rules
+permalink: "https://help.cyberbiz.io/wms/merchant-inbound-operation-rules/"
 comments: false
 search:
   exclude: false
@@ -127,7 +125,7 @@ hide: []
     - **黏貼位置**：須朝向外側，嚴禁朝內重疊或遮蔽，確保驗收人員無需翻動貨件即可掃描。
     - **疊放原則**：不同規格（尺寸）的箱體請勿混雜疊放於同一側面，應依規格分類整齊排列。
     - **範本下載與參考**：
-        - **進倉單箱外明細**：請至後台[下載進倉單箱外明細](進倉單/#下載與列印進倉文件)。
+        - **進倉單箱外明細**：請至後台[下載進倉單箱外明細](inbound-orders/#下載與列印進倉文件)。
         - **外箱標籤**：請參考以下範本進行製作列印。
             ![](../assets/images/WMS-外箱標籤範本01.png){ .screenshot }
     - **黏貼範例**

@@ -4,10 +4,8 @@ description: 設定特定商品無法參與「全館活動」、「優惠券」�
 created: 2026-01-13 00:00
 last_modified: 2026-06-30 10:56
 lang: zh-TW
-permalink: https://help.cyberbiz.io/ec/marketing/purchase-restrictions/exclude-products-from-promotions
-type: tutorial
-status:
-version:
+permalink: "https://help.cyberbiz.io/ec/marketing/purchase-restrictions/exclude-products-from-promotions/"
+type: guide
 author: Jase
 reviewers: []
 notes:
@@ -23,7 +21,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
@@ -35,9 +33,6 @@ plans:
   - 高手
   - 高手PLUS
 cyb_extensions: []
-feature_badges:
-  - EC
-  - POS
 intents:
   - 如何設定商品排除指定優惠
   - 商品排除優惠設定

@@ -4,9 +4,7 @@ description: 處理超商訂單（7-11、全家、萊爾富）的部分出貨流
 created: 2026-05-26 16:14
 last_modified: 2026-07-02 07:15
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans:
@@ -39,10 +37,10 @@ features:
   - 自訂出貨方式
 prerequisites: []
 related:
-  - "[[custom-logistic-shipping]]"
-  - "[[補印與加印託運單]]"
-  - "[[cvs-partial-shipping-support]]"
-  - "[[order-filter-status-reference]]"
+  - "ec/orders/home-delivery/custom-logistic-shipping"
+  - "補印與加印託運單"
+  - "ec/orders/references/cvs-partial-shipping-support"
+  - "ec/orders/references/order-filter-status-reference"
 tags:
   - 超商部分出貨
   - 超商取貨
@@ -66,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9359
   - https://www.cyberbiz.io/support/?p=44069
-permalink: https://help.cyberbiz.io/ec/orders/cvs-shipping/cvs-partial-shipment
+permalink: "https://help.cyberbiz.io/ec/orders/cvs-shipping/cvs-partial-shipment/"
 comments: false
 search:
   exclude: false

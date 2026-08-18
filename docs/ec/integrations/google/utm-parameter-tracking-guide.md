@@ -2,12 +2,10 @@
 title: 使用 UTM 參數追蹤行銷流量與分析成效
 description: 使用 UTM 參數標記行銷連結，追蹤流量來源並在 GA4 中分析各渠道成效。
 created: 2026-03-25 19:22
-last_modified: 2026-07-03T11:44:54+08:00
+last_modified: 2026-07-03 11:44
 lang: zh-TW
-type: tutorial
-status: ""
+type: guide
 author: Jase
-version: ""
 reviewers: []
 notes:
   - 1st grid card pending, 推薦人分潤 doc missing content
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -41,10 +39,10 @@ features:
   - Campaign URL Builder
   - GA4 流量報表
 prerequisites:
-  - "[[setup-google-analytics]]"
+  - "ec/integrations/google/ga/setup-google-analytics"
 related:
-  - "[[setup-google-analytics]]"
-  - "[[google-analytics-advanced-tracking]]"
+  - "ec/integrations/google/ga/setup-google-analytics"
+  - "ec/integrations/google/ga/google-analytics-advanced-tracking"
 tags:
   - UTM
   - 流量追蹤
@@ -62,7 +60,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5156
   - https://www.cyberbiz.io/support/?p=6434
-permalink: https://help.cyberbiz.io/ec/integrations/google/utm-parameter-tracking-guide
+permalink: "https://help.cyberbiz.io/ec/integrations/google/utm-parameter-tracking-guide/"
 comments: false
 search:
   exclude: false

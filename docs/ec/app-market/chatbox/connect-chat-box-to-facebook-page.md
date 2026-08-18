@@ -1,12 +1,10 @@
 ---
-title: Chat Box 串接 Facebook 粉絲專頁
-description: 透過 Meta 授權流程將 Facebook 粉絲專頁與 Chat Box 連結，實現即時訊息同步與會員資料比對。
+title: CHAT BOX 串接 Facebook 粉絲專頁
+description: 透過 Meta 授權流程將 Facebook 粉絲專頁與 CHAT BOX 連結，實現即時訊息同步與會員資料比對。
 created: 2026-05-28 13:41
 last_modified: 2026-05-28 13:41
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -30,22 +28,22 @@ plans:
 cyb_extensions:
   - CHAT BOX
 intents:
-  - 串接_Facebook_粉絲專頁
-  - 授權_Meta_帳號
-  - 管理_Facebook_訊息
+  - 串接 Facebook 粉絲專頁
+  - 授權 Meta 帳號
+  - 管理 Facebook 訊息
 features:
-  - Meta_授權
-  - Facebook_Messenger_整合
-  - Chat_Box
+  - Meta 授權
+  - Facebook Messenger 整合
+  - CHAT BOX
 prerequisites:
   - 需擁有 Facebook 粉絲專頁管理員權限
 related:
-  - "[[Chat Box 訊息通]]"
-  - "[[Meta 訊息格式規範]]"
+  - "ec/app-market/chatbox/index"
+  - "ec/app-market/chatbox/meta-message-format-spec"
 tags:
-  - Facebook_串接
-  - Meta_授權
-  - ChatBox
+  - Facebook 串接
+  - Meta 授權
+  - CHAT BOX
   - Messenger
 acoiv: configure
 apis: []
@@ -55,14 +53,14 @@ ui_components:
   - Meta Business Suite
   - Facebook 授權視窗
 paths:
-  - APP MARKET > ChatBox > 設定
+  - APP MARKET > CHAT BOX > 設定
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12966
   - https://www.cyberbiz.io/helpcenter/?p=13010
   - https://www.cyberbiz.io/support/?p=52927
   - https://www.cyberbiz.io/support/?p=53334
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/chatbox/connect-chat-box-to-facebook-page/"
 comments: false
 search:
   exclude: false
@@ -70,11 +68,12 @@ icon: simple/facebook
 hide: []
 ---
 
-# Chat Box 串接 Facebook 粉絲專頁
-透過 Meta 授權流程將 Facebook 粉絲專頁與 Chat Box 連結，實現即時訊息同步與會員資料比對。
+# CHAT BOX 串接 Facebook 粉絲專頁
+透過 Meta 授權流程將 Facebook 粉絲專頁與 CHAT BOX 連結，實現即時訊息同步與會員資料比對。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業<br>
+[:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ CHAT BOX
 { .doc-badge }
 
 !!! tip "應用情境"
@@ -134,7 +133,7 @@ hide: []
 
 ### 第一步：開啟後台設定
 
-1. 登入 CYBERBIZ 管理後台，前往 **APP MARKET > ChatBox**。
+1. 登入 CYBERBIZ 管理後台，前往 **APP MARKET > CHAT BOX**。
 2. 點擊左側選單最下方的 **設定** 圖示。
 3. 找到 Facebook 區塊，點擊右側的 **設定** 按鈕。
 
@@ -158,7 +157,7 @@ hide: []
 
 ### 第三步：綁定粉絲專頁
 
-1. 授權完成後，頁面將自動跳回 ChatBox 後台。
+1. 授權完成後，頁面將自動跳回 CHAT BOX 後台。
 2. 勾選您欲正式串接的粉專，點擊 **確認綁定**。
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-FB串接04.png){ .screenshot }
@@ -174,6 +173,6 @@ hide: []
 ## 常見問題
 
 ??? quote "串接前的歷史對話會同步嗎？"
-    **不會。** 系統僅同步串接完成後新產生的對話紀錄。過往在 Facebook 粉絲專頁產生的歷史訊息目前不會匯入 Chat Box。
+    **不會。** 系統僅同步串接完成後新產生的對話紀錄。過往在 Facebook 粉絲專頁產生的歷史訊息目前不會匯入 CHAT BOX。
 
 

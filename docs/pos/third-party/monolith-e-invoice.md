@@ -4,23 +4,19 @@ description: 瞭解盟立電子發票加值中心的申請流程、字軌管理�
 created: 2026-04-16 11:45
 last_modified: 2026-06-22 11:15
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
-aliases: []
 ga_views: 0
 feedback: 0
 products:
   - POS
-modules:
-  - 
+modules: []
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -38,7 +34,7 @@ features:
   - 字軌管理
 prerequisites: []
 related:
-  - [[設定與開立 POS 混稅發票]]
+  - "pos/third-party/monolith-e-invoice"
 tags:
   - 盟立電子發票
   - 發票申請
@@ -54,12 +50,11 @@ ui_components:
   - 電子發票整合服務平台
 paths:
   - 管理後台 > POS > 續約與加購方案 > 電子發票
-layouts:
-  - 
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=5189
   - https://www.cyberbiz.io/support/?p=12155
-permalink: ""
+permalink: "https://help.cyberbiz.io/pos/third-party/monolith-e-invoice/"
 comments: false
 search:
   exclude: false

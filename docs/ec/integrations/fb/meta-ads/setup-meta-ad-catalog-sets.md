@@ -2,11 +2,9 @@
 title: 設定 Meta 廣告的目錄商品組合
 description: 透過 CYBERBIZ Meta Ads App 建立目錄商品組合，篩選特定商品並投放到 Meta 目錄型或圖片型廣告。
 created: 2026-04-20 21:10
-last_modified: 2026-07-03T11:45:03+08:00
+last_modified: 2026-07-03 11:45
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans:
@@ -40,11 +38,11 @@ features:
   - 手動更新目錄
   - 商品排除機制
 prerequisites:
-  - "[[setup-fbe-authorization]]"
-  - "[[create-meta-ad-account-top-up]]"
+  - "ec/integrations/fb/mbe/setup-fbe-authorization"
+  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
 related:
-  - "[[setup-meta-ad-campaign]]"
-  - "[[exclude-products-fb-instagram-sync]]"
+  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
+  - "ec/integrations/fb/mbe/exclude-products-fb-instagram-sync"
 tags:
   - Meta Ads
   - Facebook 整合
@@ -66,7 +64,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10789
   - https://www.cyberbiz.io/support/?p=46480
-permalink: https://help.cyberbiz.io/ec/integrations/fb/meta-ads/setup-meta-ad-catalog-sets
+permalink: "https://help.cyberbiz.io/ec/integrations/fb/meta-ads/setup-meta-ad-catalog-sets/"
 comments: false
 search:
   exclude: false

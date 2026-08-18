@@ -1,12 +1,10 @@
 ---
 title: 基本報表
 description: 在後台一頁掌握商店銷售與流量概況，包含商品銷售排行、訂單數量、總銷售額及近七日瀏覽人次。
-created: 2026-06-21
+created: 2026-06-21 00:00
 last_modified: 2026-07-13 09:00
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,14 +17,13 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: branch
 plans:
   - 專業
   - 進階
 cyb_extensions: []
-feature_badges: []
 intents:
   - 查看商店銷售與流量概況
   - 匯出商品銷售排行報表
@@ -39,9 +36,9 @@ features:
   - 近七日瀏覽人次
 prerequisites: []
 related:
-  - "[[product-chart]]"
-  - "[[business-intelligence-overview]]"
-  - "[[basic-chart-metrics-reference]]"
+  - "ec/business-intelligence/product-chart"
+  - "ec/business-intelligence/business-intelligence-overview"
+  - "ec/business-intelligence/references/basic-chart-metrics-reference"
 tags:
   - 基本報表
   - 報表分析
@@ -59,7 +56,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3023
-permalink: https://help.cyberbiz.io/ec/business-intelligence/basic-chart
+permalink: "https://help.cyberbiz.io/ec/business-intelligence/basic-chart/"
 comments: false
 search:
   exclude: false

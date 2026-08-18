@@ -4,9 +4,7 @@ description: 總部管理員可透過批次匯入功能，快速為現有會員�
 created: 2026-05-07 18:35
 last_modified: 2026-06-18 18:35
 lang: zh-TW
-type: tutorial
-status: ""
-version: 1.1.1
+type: guide
 author: Ann
 reviewers: []
 notes: []
@@ -20,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -57,7 +55,7 @@ paths:
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=3865
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/storepal/bulk-import-customer-referrers/"
 comments: false
 search:
   exclude: false
@@ -69,7 +67,7 @@ hide: []
 總部管理員可透過批次匯入功能，快速為現有會員綁定指定門市與店員，確保業績精準歸因。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有 PLUS / 企業<br>
 [:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | 門市助理
 { .doc-badge }
 

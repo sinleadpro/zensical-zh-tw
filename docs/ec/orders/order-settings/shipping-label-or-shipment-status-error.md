@@ -4,9 +4,7 @@ description: 託運單下載失敗、貨態未更新常見原因與處理方式�
 created: 2026-06-08 20:12
 last_modified: 2026-06-30 10:08
 lang: zh-TW
-type: tutorial
-status: ""
-version: ""
+type: guide
 author: Jase
 reviewers: []
 notes: []
@@ -19,7 +17,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: 
@@ -44,17 +42,17 @@ features:
   - DHL 跨境物流
 prerequisites: []
 related:
-  - "[[配送狀態對照表]]"
-  - "[[設定訂單部分出貨]]"
-  - "[[處理付款失敗訂單]]"
-  - "[[申請綠界金流與超商取貨付款]]"
-  - "[[使用黑貓宅配出貨]]"
-  - "[[設定與加印黑貓託運單]]"
-  - "[[操作超商店到店 C2C 出貨]]"
-  - "[[使用超商大宗寄倉（B2C）出貨]]"
-  - "[[使用 7-11 C2C 退貨便]]"
-  - "[[補印與加印託運單]]"
-  - "[[DHL 跨境物流]]"
+  - "ec/orders/references/fulfillment-statuses"
+  - "ec/orders/home-delivery/partial-shipment-v2"
+  - "ec/orders/payment-failed"
+  - "ec/payments-and-logistics/apply-for-ecpay-payment-and-cvs-cod"
+  - "ec/orders/home-delivery/tcat-home-delivery-v2"
+  - "ec/payments-and-logistics/setup-print-tcat-waybill-v2"
+  - "ec/orders/cvs-shipping/cvs-c2c-shipping"
+  - "ec/orders/cvs-shipping/cvs-b2c-bulk-shipping"
+  - "ec/orders/returns-refunds/7-11-c2c-return"
+  - "補印與加印託運單"
+  - "ec/payments-and-logistics/dhl-cross-border-logistics"
 tags:
   - 託運單
   - 貨態異常
@@ -73,7 +71,7 @@ paths: []
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4407
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/orders/order-settings/shipping-label-or-shipment-status-error/"
 comments: false
 search:
   exclude: false
@@ -164,15 +162,11 @@ hide: []
 
 託運單產生後若未在時效內實際交寄，單號會失效，後續貨態將無法追蹤，狀態可能轉為 [運送異常](../references/fulfillment-statuses.md#fulfillment-statuses-table){ title="配送狀態對照表" data-preview } 或「取消寄件」。
 
-* **宅配（順豐）：** 下載託運單後即扣除 Cyber幣，若超過 **21 天** 未實際出貨，單號會失效，預扣的 Cyber幣將於單號失效後退回帳戶。
-* **宅配（黑貓、宅配通、新竹）：** 託運單產出後若長時間未寄件，單號會失效並轉為「取消寄件」，預扣的 Cyber幣將退回[^1]。
+* **宅配：** 下載託運單後即扣除 CYBER 幣，若超過 **14 天** 未實際出貨，單號會失效，預扣的 CYBER 幣將於單號失效後退回帳戶。
 * **超商大宗寄倉 B2C：** 須於託運單產出後的隔天起數日內將貨品送達超商物流中心，逾期狀態會轉為「運送異常」，該單號將永久失效且無法補印[^2]。
 * **超商店到店 C2C：** 建議盡早完成交寄，逾期單號會由系統自動刪除[^3]。
 
-!!! note "註釋"
-    各物流商的實際時效與假日計算方式以物流商最新公告為準。單號一旦失效，請重新下載託運單取得新單號後再交寄。
 
-[^1]: 一般約為產出後兩週內未寄件即失效，實際天數依各物流商規定。
 [^2]: 超商大宗寄倉 B2C 一般為隔天起 5 天內（含假日）須送達物流中心。
 [^3]: 超商店到店 C2C 一般建議 5～7 日內交寄（各通路略有差異）。
 
@@ -247,9 +241,9 @@ hide: []
     [](){ #faq-shipping-issue-leave-page }
     下載多筆託運單時若中途離開頁面，下載會中斷，部分訂單可能已變更為「已出貨」但檔案尚未取得。這些訂單一律改用 [補印託運單](#operate-shipping-issue-reprint) 重新下載即可，不會重複扣款。
 
-??? quote "單號失效，預扣的 Cyber幣會退回嗎"
+??? quote "單號失效，預扣的 CYBER 幣會退回嗎"
     [](){ #faq-shipping-issue-cyber-coin-refund }
-    會。以順豐為例，下載託運單時即扣除 Cyber幣，若超過 21 天未實際出貨，單號失效後預扣的 Cyber幣將自動退回帳戶。其他宅配物流的退回機制依各物流商規定。
+    會。以順豐為例，下載託運單時即扣除 CYBER 幣，若超過 21 天未實際出貨，單號失效後預扣的 CYBER 幣將自動退回帳戶。其他宅配物流的退回機制依各物流商規定。
 
 ??? quote "補印託運單要再收費嗎"
     [](){ #faq-shipping-issue-reprint-fee }
