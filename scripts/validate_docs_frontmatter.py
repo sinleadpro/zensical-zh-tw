@@ -23,7 +23,7 @@ def load_schema():
         return yaml.safe_load(f)
 
 
-FRONTMATTER_RE = re.compile(r"^---\s*\n(.*?)\n---\s*\n", re.DOTALL)
+FRONTMATTER_RE = re.compile(r"^---[ \t]*\r?\n(.*?)\r?\n---[ \t]*\r?\n", re.DOTALL)
 
 
 def parse_frontmatter(filepath: Path):
@@ -42,13 +42,13 @@ def parse_frontmatter(filepath: Path):
 
 def relative_path(filepath: Path):
     try:
-        return str(filepath.relative_to(ROOT))
+        return filepath.relative_to(ROOT).as_posix()
     except ValueError:
-        return str(filepath)
+        return Path(filepath).as_posix()
 
 
 def expected_permalink(filepath: Path):
-    rel = str(filepath.relative_to(DOCS_DIR))
+    rel = filepath.relative_to(DOCS_DIR).as_posix()
     rel = rel.removesuffix(".md")
     if rel == "index":
         return f"{PERMALINK_BASE_URL}/"
@@ -200,7 +200,7 @@ def validate_file(filepath: Path, schema):
         return [("[frontmatter] missing or invalid YAML", "ERROR")]
     results = []
     fields = schema.get("fields", {})
-    rel = str(filepath.relative_to(DOCS_DIR))
+    rel = filepath.relative_to(DOCS_DIR).as_posix()
 
     for field_name, field_def in fields.items():
         if field_name == "products" and rel.startswith("resources/"):
