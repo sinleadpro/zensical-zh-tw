@@ -289,4 +289,12 @@ hide:
 
     [:octicons-arrow-right-24: 前往](references/create-cart-link-specific-products.md)
 
+-   :lucide-link-2: __商品連結帶入 SKU 自動選取款式__
+
+    ---
+
+    在商品頁網址加上 `?sku=` 參數，消費者點擊後自動選取對應款式，適合指定規格的社群與 EDM 導購。
+
+    [:octicons-arrow-right-24: 前往](references/product-link-sku-auto-select-variant.md)
+
 </div>
