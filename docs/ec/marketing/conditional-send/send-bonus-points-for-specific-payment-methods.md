@@ -100,3 +100,14 @@ hide: []
 
 !!! info "金流啟用狀態"
     僅有在 **金流設定** 中已啟用的金流方式才會出現在清單中。若未見到特定金流，請先至後台設定啟用。
+
+
+## 更多操作
+
+<div class="grid cards" markdown>
+
+- :lucide-wallet:{ .lg }
+  [__優惠券／紅利歸戶規則__](../references/coupon-and-bonus-credit-rules.md)
+  說明消費回饋何時匯入會員帳戶，以及結案、退貨流程對紅利與優惠券歸戶的影響。
+
+</div>
