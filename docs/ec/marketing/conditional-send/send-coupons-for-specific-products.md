@@ -114,3 +114,14 @@ hide: []
 
 1. 選擇 **無限制**（可疊加所有優惠）或 **指定活動不得使用優惠券**。
 2. 若選後者，請勾選欲禁止併用的活動類型（如：全館折扣、單品折扣、VIP 折扣等）。
+
+
+## 更多操作
+
+<div class="grid cards" markdown>
+
+- :lucide-wallet:{ .lg }
+  [__優惠券／紅利歸戶規則__](../references/coupon-and-bonus-credit-rules.md)
+  說明消費回饋何時匯入會員帳戶，以及結案、退貨流程對紅利與優惠券歸戶的影響。
+
+</div>

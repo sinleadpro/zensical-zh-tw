@@ -2,7 +2,7 @@
 title: 設定紅利點數
 description: 透過紅利點數建立會員回饋機制，吸引新客首購並提升舊客回購率。
 created: 2026-05-27 15:20
-last_modified: 2026-07-21 11:00
+last_modified: 2026-08-19 12:25
 lang: zh-TW
 type: guide
 author: Ann
@@ -33,9 +33,9 @@ features:
   - 批次發送紅利
 prerequisites: []
 related: 
-  - "ec/marketing/bonus-and-gifts/setup-registration-gift"
-  - "ec/marketing/bonus-and-gifts/setup-birthday-gift"
-  - "紅利商城設定"
+  - "ec/marketing/references/coupon-and-bonus-credit-rules.md"
+  - "ec/marketing/bonus-and-gifts/setup-registration-gift.md"
+  - "ec/marketing/bonus-and-gifts/setup-birthday-gift.md"
 tags: 
   - 紅利點數
   - 購物金
@@ -81,12 +81,17 @@ hide: []
 
 ## 使用須知
 
-- **發送計算基準**：紅利點數贈送以「不含運費」的結帳金額計算。
-- **生效時間**：修改紅利發送規則後，僅適用於「設定後」產生的行為，不影響已發送的點數。
+- **發送計算基準**：紅利點數贈送以 **不含運費** 的結帳金額計算。
+- **生效時間**：修改紅利發送規則後，僅適用於 **設定後** 產生的行為，不影響已發送的點數。
 - **匯入限制**：紅利點數一旦發送或刪除，系統無法自動撤回或復原，請謹慎操作。
-- **歸戶時間**：訂單狀態須變更為「已結案」，紅利點數才會正式匯入會員帳戶供其使用。
 
-    > 退貨狀態為「不須退貨」時，亦適用此規則。
+
+### 訂單紅利歸戶規則
+
+
+消費回饋的紅利須在訂單 **已結案**、且退貨狀態為 **不需退貨** 時才會歸戶；退貨中、退貨審查、拒絕退貨等情境則不歸戶。
+
+完整條件與情境說明，請見[優惠券／紅利歸戶規則](../references/coupon-and-bonus-credit-rules.md)。
 
 ## 操作流程
 
@@ -229,17 +234,16 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明17.png){ .screenshot }
 
+!!! warning "串倉商家注意"
+    此自動返還功能不支援串倉商家。串倉訂單退貨時，系統皆不會自動返還或發送紅利點數。
+
 ### 結案後執行退貨
 
 若訂單已結案才進行退貨，購物所獲得的紅利點數 **不會自動從會員帳戶中扣除**。
 
 !!! tip "建議操作"
     - 商家需前往會員個人頁面 [手動刪除該筆紅利](../../members/manage-member-profiles.md#1-紅利點數派發與管理)。
-    - 建議等訂單過退換貨期間，確定已無退貨需求後，再按下 **結案訂單**，以確保紅利發放的準確性。
-
-
-!!! warning "串倉商家注意"
-    此自動返還功能不支援串倉商家。串倉訂單退貨時，系統皆不會自動返還或發送紅利點數。
+    - 建議等訂單過退換貨期間，確定已無退貨需求後，再按下 **結案訂單**，以確保紅利發放的準確性。結案與退貨狀態對歸戶的完整規則，請見[優惠券／紅利歸戶規則](../references/coupon-and-bonus-credit-rules.md)。
 
 
 
