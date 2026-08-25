@@ -252,10 +252,11 @@ hide: []
 
 ### 分箱寄送需用「加印託運單」 { #specs-hct-shipping-extra-label }
 
-若一筆訂單需 **拆成多箱寄送**(例如商品數量多、單一紙箱裝不下)，請改用 [加印託運單](../../payments-and-logistics/setup-hct-waybill-v2.md#operate-hct-waybill-reprint){ title="設定新竹物流託運單" } 功能，在「新竹物流託運單」頁面輸入同一訂單編號，產生新的單號與託運單。
+若一筆訂單需 **拆成多箱寄送**(例如商品數量多、單一紙箱裝不下)，請先從訂單列表下載 **原始託運單**，再使用 [加印託運單](../../payments-and-logistics/setup-hct-waybill-v2.md#operate-hct-waybill-reprint){ title="設定新竹物流託運單" } 功能，在「新竹物流託運單」頁面輸入同一訂單編號，為其餘包裹產生多張託運單。
 
-!!! note "註釋"
-    「加印託運單」只能列印 **純配送** 的託運單。
+!!! note "貼單建議"
+    「加印託運單」只能列印 **純配送** 的託運單，無收款權限。請將 **原始託運單** 貼在主要包裹上，其餘包裹則貼上加印的純配送單。
+
 
 ## 後續操作 { #next-steps-hct-shipping }
 
