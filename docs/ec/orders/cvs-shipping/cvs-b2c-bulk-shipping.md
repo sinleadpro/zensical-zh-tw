@@ -68,8 +68,6 @@ hide: []
 
 ## 超商大宗寄倉 B2C 出貨說明 { #intro-cvs-b2c-shipping }
 
-相較於店到店 C2C 需逐筆至超商門市寄件，**B2C 大宗寄倉** 讓商家可一次批次處理多筆訂單：
-
 1. 在訂單列表勾選同通路、同付款狀態的訂單
 2. 透過「更多操作」批次下載託運單 PDF
 3. 將商品集中打包並逐件貼上標籤
@@ -147,11 +145,23 @@ hide: []
 
 ### 補印託運單 { #operate-cvs-b2c-shipping-reprint }
 
-若標籤遺失或損毀，可於下載後 **5 日內** 於後台補印。
+若標籤遺失或損毀，可於期限內前往後台補印。
 
 1. 於訂單列表勾選需補印的訂單。
-2. 點擊「**更多操作**」下拉，選擇「**補印託運單**」。
+2. 點擊 **更多操作** 下拉，選擇 **補印託運單**。
 3. 系統會重新下載相同託運單號的 PDF，**不會重複扣除運費**，訂單狀態也不會再次變動。
+
+<div class="grid cards" markdown>
+
+- :lucide-calendar-search:{ .lg }
+  [__查詢各超商託運單失效期限__](../references/cvs-waybill-expiration-reference.md#reference-cvs-waybill-expiration){ data-preview }
+  查看各超商物流的補印期限與失效判定時間。
+
+- :lucide-refresh-cw:{ .lg }
+  [__處理託運單逾期重新取號__](../renew-waybill-after-expiration.md#operate-renew-waybill-after-expiration){ data-preview }
+  原託運單超過補印期限時，重新取得託運單號並下載新託運單。
+
+</div>
 
 ---
 

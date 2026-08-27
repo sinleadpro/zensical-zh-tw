@@ -190,6 +190,29 @@ hide: []
 - **無法透過超商系統部分退貨**：超商系統的退貨流程是針對整筆訂單，不接受拆單退貨。
 - 顧客需聯繫商家，由商家依實際情況與顧客協調退款金額、退貨方式（例如：請顧客自行寄回、商家派物流取件等）。
 
+---
+
+## 補印託運單
+
+若遇託運單遺失或損毀，可於期限內補印託運單。
+
+1. 於訂單列表勾選需補印的訂單。
+2. 點擊 **更多操作** 下拉，選擇 **補印託運單**。
+3. 系統會重新下載相同託運單號的 PDF，不會重複扣除運費，訂單狀態也不會再次變動。
+
+<div class="grid cards" markdown>
+
+- :lucide-calendar-search:{ .lg }
+  [__查詢各超商託運單失效期限__](../references/cvs-waybill-expiration-reference.md#reference-cvs-waybill-expiration){ data-preview }
+  查看各超商物流的補印期限與失效判定時間。
+
+- :lucide-refresh-cw:{ .lg }
+  [__處理託運單逾期重新取號__](../renew-waybill-after-expiration.md#operate-renew-waybill-after-expiration){ data-preview }
+  原託運單超過補印期限時，重新取得託運單號並下載新託運單。
+
+</div>
+
+
 ## 後續操作 { #next-steps-cvs-partial-shipment }
 
 <div class="grid cards" markdown>
