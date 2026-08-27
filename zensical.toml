@@ -131,7 +131,7 @@ copyright = """
                 {"超商部分出貨" = "ec/orders/cvs-shipping/cvs-partial-shipment.md"},
                 {"熱感列印超商託運單" = "ec/orders/cvs-shipping/thermal-print-cvs-waybill.md"},
                 {"託運單逾期重新取號" = "ec/orders/renew-waybill-after-expiration.md"},
-                {"超商託運單失效期限" = "ec/orders/references/cvs-waybill-expiration-reference.md"},
+                {"超商託運單有效期限" = "ec/orders/references/cvs-waybill-expiration-reference.md"},
             ]},
             {"黑貓快速到店" = [
                 {"快速到店出貨" = "ec/orders/tcat-quick-store/tcat-quick-store-shipping.md"},
