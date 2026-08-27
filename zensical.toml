@@ -129,7 +129,9 @@ copyright = """
                 {"全家冷凍寄倉 B2C" = "ec/payments-and-logistics/setup-family-mart-frozen-b2c.md"},
                 {"全家冷凍店到店 C2C" = "ec/orders/cvs-shipping/family-mart-frozen-c2c.md"},
                 {"超商部分出貨" = "ec/orders/cvs-shipping/cvs-partial-shipment.md"},
-                {"熱感列印超商托運單" = "ec/orders/cvs-shipping/thermal-print-cvs-waybill.md"},
+                {"熱感列印超商託運單" = "ec/orders/cvs-shipping/thermal-print-cvs-waybill.md"},
+                {"託運單逾期重新取號" = "ec/orders/renew-waybill-after-expiration.md"},
+                {"超商託運單失效期限" = "ec/orders/references/cvs-waybill-expiration-reference.md"},
             ]},
             {"黑貓快速到店" = [
                 {"快速到店出貨" = "ec/orders/tcat-quick-store/tcat-quick-store-shipping.md"},
