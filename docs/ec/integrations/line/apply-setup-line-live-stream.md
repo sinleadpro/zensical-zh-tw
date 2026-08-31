@@ -61,8 +61,6 @@ icon: lucide/radio
 hide: []
 ---
 
-![LINE 直播功能](../../../assets/images/ec-第三方整合-line購物設定-lineoa導購-hero.png){ title="LINE 直播功能" .hero-page }
-
 ## LINE 直播說明
 
 **「LINE 直播」**（邊看邊買模式）讓商家能直接在 LINE 官方帳號進行購物直播，並導購至官網下單。
