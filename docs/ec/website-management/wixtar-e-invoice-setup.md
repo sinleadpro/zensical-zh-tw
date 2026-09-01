@@ -66,9 +66,11 @@ icon: lucide/receipt
 hide:
 ---
 # 星益欣電子發票設定
-教您在 CYBERBIZ 後台完成星益欣電子發票的購買、串接啟用、多站台共用與對帳發票設定。{ .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 所有PLUS / 企業
+教您在 CYBERBIZ 後台完成星益欣電子發票的購買、串接啟用、多站台共用與對帳發票設定。
+{ .subtitle }
+
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 所有 PLUS / 企業
 { .doc-badge }
 
 ## 星益欣電子發票說明
