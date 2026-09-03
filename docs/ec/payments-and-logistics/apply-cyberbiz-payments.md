@@ -94,7 +94,8 @@ hide: []
 | 銀聯卡 | UnionPay |  |
 | 行動支付 | Apple Pay / Google Pay | 與信用卡相同費率，免額外申請 |
 | 先享後付 | AFTEE | 顧客僅需手機驗證即可結帳 |
-| 超商支付 | 7-11 / 全家 | 下單後手機取得條碼，至門市掃碼付款 |
+| 超商條碼 | 7-11 / 全家 | 下單後手機取得條碼，至門市掃碼付款 |
+| 超商代碼 | 7-11 / 全家 / 萊爾富 | 下單後取得繳費代碼，至門市機台列印繳費單後付款 |
 | ATM 轉帳 | 虛擬 ATM | 取得專屬虛擬帳號後，透過網銀或實體 ATM 轉帳付款 |
 
 ---
@@ -269,9 +270,18 @@ flowchart LR
 - :simple-applepay:{ .lg }     
   [__設定 Apple Pay__](setup-apple-pay.md){ title="設定 Apple Pay" }  
   啟用 Apple Pay 支付選項。
+- :lucide-credit-card:{ .lg }     
+  [__設定 Google Pay__](setup-google-pay.md){ title="設定 Google Pay" }  
+  啟用 Google Pay 支付選項。
 - :lucide-clock:{ .lg }     
   [__設定 AFTEE__](setup-aftee.md){ title="設定 AFTEE" }  
   啟用 AFTEE 先享後付支付選項。
+- :lucide-hash:{ .lg }     
+  [__使用超商代碼完成付款__](../orders/order-settings/cvs-code-payment.md){ title="使用超商代碼完成付款" }  
+  啟用超商代碼繳費，顧客至 7-11、全家、萊爾富機台列印繳費單後完成付款。
+- :lucide-barcode:{ .lg }     
+  [__使用超商條碼完成付款__](../orders/order-settings/cvs-barcode-payment.md){ title="使用超商條碼完成付款" }  
+  啟用超商條碼繳費，顧客以手機條碼至 7-11、全家掃碼付款。
 
 </div>
 
@@ -293,7 +303,7 @@ flowchart LR
     3. 重新進入審核流程，等待風控審核。
 
 ??? quote "已開通後，可立即收款嗎？"
-    - 開通後即可使用支援的支付方式收款，包括信用卡、行動支付、超商支付、ATM 轉帳及先享後付。
+    - 開通後即可使用支援的支付方式收款，包括信用卡、行動支付、超商條碼、超商代碼、ATM 轉帳及先享後付。
 
 ??? quote "行動支付需要額外申請嗎？"
     不需要。系統開通 CYBERBIZ PAYMENTS 後，**自動啟用 Google Pay 與 Apple Pay**。手續費通常與信用卡一次付清相同。

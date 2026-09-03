@@ -108,6 +108,7 @@ copyright = """
                 {"手動結案" = "ec/orders/order-settings/manual-order-close.md"},
                 {"提供付款連結" = "ec/orders/order-settings/provide-payment-link.md"},
                 {"超商條碼付款" = "ec/orders/order-settings/cvs-barcode-payment.md"},
+                {"超商代碼付款" = "ec/orders/order-settings/cvs-code-payment.md"},
                 {"未付款提醒" = "ec/orders/order-settings/unpaid-reminder-settings.md"},
                 {"處理付款失敗" = "ec/orders/payment-failed.md"},
                 {"託運單與貨態異常" = "ec/orders/order-settings/shipping-label-or-shipment-status-error.md"},
