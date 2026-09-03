@@ -48,7 +48,14 @@ prerequisites:
   - 完成 LINE Messaging API 串接
   - 完成 LINE Login 設定
   - 啟用 LINE 快速登入
-related: []
+related:
+  - ec/integrations/line/account-integration/connect-line-messaging-api/
+  - ec/integrations/line/account-integration/setup-line-quick-login/
+  - ec/integrations/line/marketing/setup-line-rich-menu/
+  - ec/integrations/line/account-integration/setup-liff-auto-login-member-binding/
+  - ec/notifications/manage-line-oa-templates/
+  - ec/integrations/line/account-integration/setup-line-binding-coupon-gift/
+  - ec/integrations/line/marketing/setup-line-oa-audience/
 tags:
   - LINE
   - LINE OA

@@ -27,7 +27,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
-cyb_extensions: []
+cyb_extensions:
+  - STORE PAL
 intents:
   - 識別會員身份
   - 查看會員標籤
@@ -37,9 +38,7 @@ features:
   - 門市助理
 prerequisites:
   - "註冊與綁定官網會員"
-related:
-  - "02-數據洞察：消費概況與會員權益分析"
-  - "03-成交引導：資產核銷與商品推薦工具"
+related: []
 tags:
   - 門市助理
   - 精準識客
@@ -56,9 +55,7 @@ ui_components:
   - 儲存變更
   - 會員標籤
 paths:
-  - 門市管理 > 角色與權限
-  - 設定 > 功能設定 > 會員標籤
-  - 會員 > 所有會員
+  - 設定 > 功能設定
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=41786

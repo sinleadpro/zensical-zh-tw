@@ -21,14 +21,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 發送簡訊
@@ -39,11 +32,15 @@ features:
   - 匯入 Excel 發送
   - 簡訊通知樣板
   - 自動化發送
-prerequisites:
-  - 一般用戶需先儲值 CYBER 幣（PLUS / 企業版用戶不須額外儲值）
+prerequisites: []
 related:
-  - "ec/notifications/manage-sms-templates-v2"
-  - "ec/notifications/track-sms-records"
+  - ec/website-management/points-deposits/
+  - ec/notifications/manage-sms-templates-v2/
+  - ec/app-market/automation/automation-push-flow/
+  - ec/notifications/track-sms-records/
+  - ec/notifications/send-line-friend-invitation/
+  - ec/orders/order-settings/unpaid-reminder-settings/
+  - ec/app-market/storepal/configure-global-settings-and-attribution/
 tags:
   - 簡訊
   - 訊息推播

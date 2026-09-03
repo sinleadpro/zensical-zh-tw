@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 建立目錄商品組合
@@ -38,11 +31,15 @@ features:
   - 手動更新目錄
   - 商品排除機制
 prerequisites:
-  - "ec/integrations/fb/mbe/setup-fbe-authorization"
-  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
+  - ec/integrations/fb/mbe/setup-fbe-authorization/
+  - ec/integrations/fb/meta-ads/create-meta-ad-account-top-up/
 related:
-  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
-  - "ec/integrations/fb/mbe/exclude-products-fb-instagram-sync"
+  - ec/integrations/fb/meta-ads/setup-meta-ad-campaign/
+  - ec/integrations/fb/mbe/setup-fbe-authorization/
+  - ec/integrations/fb/meta-ads/create-meta-ad-account-top-up/
+  - ec/app-market/install-meta-ads-app/
+  - ec/products/categories-and-tags/manage-product-tags/
+  - ec/products/create-and-manage/product-management-interface/
 tags:
   - Meta Ads
   - Facebook 整合
@@ -58,8 +55,8 @@ ui_components:
   - 創建目錄商品組合
   - 選取限制
 paths:
-  - 第三方整合 > 臉書 Facebook 設定 > 目錄商品組合
-  - 第三方整合 > 臉書 Facebook 設定 > 基本設定
+  - 第三方整合 > 臉書 Facebook 設定（廣告/註冊登入） > 目錄商品組合
+  - 第三方整合 > 臉書 Facebook 設定（廣告/註冊登入） > 基本設定
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10789

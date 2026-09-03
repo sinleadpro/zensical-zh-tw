@@ -41,7 +41,7 @@ features:
 prerequisites:
   - 需先洽客服人員開通商品評論功能
 related:
-  - "ec/website-appearance/customer-interaction/enable-comment-recaptcha"
+  - ec/website-appearance/customer-interaction/enable-comment-recaptcha/
 tags:
   - 商品評論
   - 顧客回饋
@@ -57,9 +57,7 @@ ui_components:
   - CSS/HTML編輯器
   - 彈跳視窗
 paths:
-  - 網站外觀 > 管理商品評論
   - 會員 > 商品待審核評論
-  - 網站外觀 > 套版主題管理
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7894

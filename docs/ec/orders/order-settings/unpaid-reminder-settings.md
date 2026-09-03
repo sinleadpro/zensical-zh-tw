@@ -18,20 +18,14 @@ products:
   - EC
 modules:
   - 訂單
+  - 金物流
 sites:
   - TW
 audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS 
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 自動提醒顧客付款
@@ -51,7 +45,9 @@ features:
 prerequisites:
   - 完成 LINE OA Messaging API 串接
   - 顧客完成 LINE 帳號綁定並加入商家官方帳號好友
-related: []
+related:
+  - ec/integrations/line/account-integration/connect-line-messaging-api/
+  - ec/integrations/line/account-integration/bind-line-oa-store-members/
 tags:
   - 未付款提醒
   - 未付款訂單

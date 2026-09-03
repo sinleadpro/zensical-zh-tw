@@ -33,7 +33,8 @@ features:
 prerequisites:
   - 需已開通 CYBERBIZ 電商倉儲服務
   - 需已完成商品進倉作業
-related: []
+related:
+  - wms/seasonal-groups/
 tags:
   - WMS
   - 庫齡

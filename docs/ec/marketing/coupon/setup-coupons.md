@@ -12,19 +12,16 @@ ga_views: 0
 feedback: 0
 products: 
   - EC
-modules: 
+modules:
   - 行銷活動
+  - 會員
 sites: 
   - TW
 audiences: 
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 進階
-  - 高手
+plans: []
 cyb_extensions: []
 intents: 
   - 設定優惠券
@@ -37,9 +34,10 @@ features:
   - 消費回饋
   - 註冊贈禮
 prerequisites: []
-related: 
-  - "設定優惠碼與贈品券"
-  - "設定紅利點數與發送指南"
+related:
+  - ec/members/manage-member-profiles/
+  - ec/marketing/coupon/multiple-coupons/
+  - ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification/
 tags: 
   - 優惠券
   - 折價券
@@ -52,9 +50,9 @@ devices:
 ui_components: 
   - 優惠券設定欄位
   - 會員列表
-paths: 
+paths:
   - 行銷活動 > 全館折扣-紅利 & 優惠券
-  - 行銷活動 > 促銷活動
+  - 會員 > 所有會員
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1779

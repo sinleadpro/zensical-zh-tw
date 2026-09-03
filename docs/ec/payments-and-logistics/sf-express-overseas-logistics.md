@@ -14,6 +14,8 @@ products:
   - EC
 modules:
   - 金物流
+  - 管理中心
+  - 商品
 sites:
   - TW
   - US
@@ -23,12 +25,12 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - Business
-  - Pro
-  - 企業
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
+  - 企業
+  - Pro
+  - Business
 cyb_extensions: []
 intents:
   - 開通順豐海外功能
@@ -39,7 +41,8 @@ features:
   - 自動產單
 prerequisites:
   - 需具備國貿局登記之英文公司名稱
-related: []
+related:
+  - ec/orders/home-delivery/sf-express-shipping-v2/
 tags:
   - 跨境物流
   - 中港澳出貨
@@ -51,7 +54,8 @@ devices:
 ui_components: []
 paths:
   - 管理中心 > 一般設定
-  - 訂單 > 所有訂單
+  - 商品 > 所有商品
+  - 金物流 > 順豐託運單 >順豐託運單說明
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11280

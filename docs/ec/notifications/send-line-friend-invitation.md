@@ -38,7 +38,7 @@ features:
 prerequisites:
   - LINE 官方帳號
 related:
-  - ../integrations/line/account-integration/setup-line-binding-coupon-gift.md
+  - ec/integrations/line/account-integration/setup-line-binding-coupon-gift/
 tags:
   - LINE
   - 好友邀請

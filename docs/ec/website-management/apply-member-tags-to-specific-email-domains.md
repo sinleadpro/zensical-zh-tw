@@ -14,6 +14,7 @@ products:
   - EC
 modules:
   - 管理中心
+  - 會員
 sites:
   - TW
 audiences:
@@ -32,7 +33,9 @@ features:
   - 網域限制
 prerequisites:
   - "需預先規劃欲使用的會員標籤名稱"
-related: []
+related:
+  - ec/members/batch-import-and-edit-members/
+  - ec/members/manage-member-profiles/
 tags:
   - 員工團購
   - 特約廠商
@@ -43,6 +46,7 @@ devices:
 ui_components: []
 paths:
   - 管理中心 > 網域信箱標籤設定
+  - 會員 > 所有會員
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=11515

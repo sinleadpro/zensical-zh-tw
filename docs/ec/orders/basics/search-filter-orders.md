@@ -12,6 +12,7 @@ ga_views: 0
 feedback: 0
 products:
   - EC
+  - POS
 modules:
   - 訂單
 sites:
@@ -20,14 +21,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 搜尋訂單
@@ -42,7 +36,17 @@ features:
   - 適應寬度
 prerequisites: []
 related:
-  - "ec/orders/references/order-filter-status-reference"
+  - ec/orders/references/order-filter-status-reference/
+  - ec/orders/references/payment-statuses/
+  - ec/orders/references/fulfillment-statuses/
+  - ec/orders/references/shipping-methods/
+  - ec/orders/references/order-list-columns/
+  - ec/orders/reports/export-subscription-forecast/
+  - pos/orders/manage-general-orders/
+  - ec/members/manage-member-profiles/
+  - ec/orders/basics/order-fulfillment-flow/
+  - ec/orders/basics/edit-order-content/
+  - ec/orders/reports/export-order-report/
 tags:
   - 訂單搜尋
   - 訂單篩選

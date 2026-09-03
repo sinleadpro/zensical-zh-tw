@@ -13,11 +13,12 @@ notes:
 ga_views: 0
 feedback: 0
 products:
+  - WMS
   - EC
   - POS
-  - WMS
 modules:
-  - (POS)庫存
+  - 庫存
+  - 商品
 sites:
   - TW
 audiences: []
@@ -37,7 +38,8 @@ features:
 prerequisites:
   - 需同時開通 CYBERBIZ EC、POS 與 WMS 三項服務
   - 需完成門市與總倉之關聯設定
-related: []
+related:
+  - wms/transfer-orders/
 tags:
   - POS 調貨
   - WMS 庫存
@@ -51,8 +53,7 @@ ui_components:
   - POS 前台
   - WMS 管理後台
 paths:
-  - POS 前台 > 庫存
-  - WMS 後台 > 商品 > 單一品項
+  - 商品 > 單一品項
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=28494

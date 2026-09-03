@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 設定_FB_商店
@@ -38,12 +31,14 @@ features:
   - Instagram 商店
   - 商品同步
 prerequisites:
-  - "ec/integrations/fb/mbe/setup-fbe-authorization"
-  - "ec/integrations/fb/mbe/setup-fbe-domain-verification"
+  - ec/integrations/fb/mbe/setup-fbe-authorization/
+  - ec/integrations/fb/mbe/setup-fbe-domain-verification/
 related:
-  - "ec/integrations/fb/mbe/setup-fbe-domain-verification"
-  - "ec/products/create-and-manage/product-swatches-variant-images-drag-drop"
-  - "ec/products/create-and-manage/product-swatches-variant-images-default"
+  - ec/integrations/fb/mbe/setup-fbe-authorization/
+  - ec/integrations/fb/mbe/setup-fbe-domain-verification/
+  - ec/products/categories-and-tags/manage-product-tags/
+  - ec/integrations/fb/mbe/exclude-products-fb-instagram-sync/
+  - ec/products/create-and-manage/product-swatches-variant-images-drag-drop/
 tags:
   - FB 商店
   - IG 商店
@@ -58,7 +53,8 @@ devices:
 ui_components: []
 paths:
   - 第三方整合 > 臉書_Facebook_設定
-layouts: []
+layouts:
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3113
   - https://www.cyberbiz.io/support/?p=11757

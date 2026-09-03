@@ -21,14 +21,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 設定 Google Ads 轉換追蹤
@@ -40,9 +33,7 @@ features:
 prerequisites:
   - 需先於 Google Ads 建立廣告活動
 related:
-  - "ec/integrations/google/setup-google-merchant-center"
-  - "ec/integrations/google/setup-google-tag-manager"
-  - "ec/integrations/google/automated-ads-system"
+  - ec/integrations/google/automated-ads-system/
 tags:
   - Google Ads
   - 轉換追蹤

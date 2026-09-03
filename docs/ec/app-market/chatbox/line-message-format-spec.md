@@ -20,7 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: branch
-plans: 
+plans:
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
@@ -35,8 +35,8 @@ features:
   - CHAT BOX
   - LINE 整合
   - 訊息格式
-prerequisites: 
-  - "ec/app-market/chatbox/index"
+prerequisites:
+  - ec/app-market/chatbox/
 related: []
 tags: 
   - LINE

@@ -28,7 +28,8 @@ intents:
 features:
   - 優惠券
 prerequisites: []
-related: []
+related:
+  - ec/marketing/references/coupon-and-bonus-credit-rules/
 tags:
   - 優惠券
   - 優惠券群組列表

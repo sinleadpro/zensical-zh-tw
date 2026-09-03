@@ -40,8 +40,8 @@ features:
 prerequisites:
   - "設定 POS 商店與機台"
 related:
-  - "商米無線刷卡機安裝教學"
-  - "POS LINE PAY 掃碼支付"
+  - pos/software/drivers/
+  - pos/hardware/mypay-wireless-credit-card-machine/
 tags:
   - 信用卡機
   - 台新金流

@@ -15,6 +15,7 @@ products:
   - EC
 modules:
   - 行銷活動
+  - 金物流
 sites:
   - TW
 audiences:
@@ -38,7 +39,8 @@ features:
 prerequisites:
   - 需先於「全館折扣 > 紅利 & 優惠券」開啟會員紅利點數功能
   - 需先建立欲參與兌換的商品
-related: []
+related:
+  - pos/check/bonus-point-mall/
 tags:
   - 行銷活動
   - 會員經營
@@ -52,7 +54,9 @@ devices:
 ui_components: []
 paths:
   - 行銷活動 > 紅利商城
-layouts: []
+  - 金物流 > 結帳頁 & 物流設定 > 訂單相關設定
+layouts:
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7880
   - https://www.cyberbiz.io/helpcenter/?p=7882

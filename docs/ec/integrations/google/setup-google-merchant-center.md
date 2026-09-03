@@ -14,20 +14,14 @@ products:
   - EC
 modules:
   - 第三方整合
+  - 商品
 sites:
   - TW
 audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 intents:
   - 串接 Google Merchant Center
   - 同步商品資料至 Google 搜尋
@@ -40,8 +34,11 @@ prerequisites:
   - 擁有 Google 帳戶
   - 商品圖片符合 Google 規範
 related:
-  - "ec/integrations/google/setup-google-ads-conversion-tracking"
-  - "ec/integrations/google/ga/google-analytics-advanced-tracking"
+  - ec/integrations/google/automated-ads-system/
+  - ec/products/create-and-manage/edit-product-description-settings/
+  - ec/products/create-and-manage/create-update-products/
+  - ec/integrations/google/setup-gmc-conversion-tracking/
+  - ec/integrations/google/setup-google-ads-conversion-tracking/
 tags:
   - GMC
   - 產品動態饋給

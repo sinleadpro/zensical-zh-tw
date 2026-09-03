@@ -12,6 +12,7 @@ ga_views: 0
 feedback: 0
 products:
   - EC
+  - WMS
 modules:
   - 商品
   - APP MARKET
@@ -37,9 +38,10 @@ features:
   - 庫存自動同步
   - 商品關聯管理
 prerequisites:
-  - "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate"
-  - "確認官網商品已具備唯一且正確的 SKU (商品編號)"
-related: []
+  - ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate/
+  - 確認官網商品已具備唯一且正確的 SKU (商品編號)
+related:
+  - ec/app-market/cyberbiz-channel-bridge/shopee-integration/step2-import-products-and-link/
 tags: []
 acoiv: configure
 apis: []
@@ -48,7 +50,7 @@ devices:
 ui_components: []
 paths:
   - 商品 > 所有商品
-  - App Market > 我的擴充服務 > CYBERBIZ CHANNEL BRIDGE
+  - APP MARKET > 我的擴充服務 > CYBERBIZ CHANNEL BRIDGE
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12648

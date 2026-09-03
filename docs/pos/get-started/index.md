@@ -20,7 +20,7 @@ sites:
 audiences:
   - merchant
 difficulty: beginner
-tnb: trunk
+tnb: branch
 plans:
   - 進階PLUS
   - 高手PLUS
@@ -36,7 +36,23 @@ features:
   - 庫存連動
   - 帳號管理
 prerequisites: []
-related: []
+related:
+  - pos/hardware/
+  - pos/hardware/epson-tm-t82iii-invoice-printer/
+  - pos/hardware/epson-tm-m30iii-invoice-printer/
+  - pos/hardware/posiflex-wired-invoice-printer/
+  - pos/hardware/taishin-wired-credit-card-machine/
+  - pos/hardware/mypay-wireless-credit-card-machine/
+  - pos/hardware/label-printer/
+  - pos/hardware/customer-display-screen/
+  - pos/hardware/hprt-n130-barcode-scanner/
+  - pos/software/drivers/
+  - pos/third-party/monolith-e-invoice/
+  - pos/check/line-pay-scan-payment/
+  - ec/products/create-and-manage/create-update-products/
+  - pos/get-started/bulk-update-product-skus/
+  - pos/inventory/
+  - pos/store/staff-permissions-and-account-management/
 tags:
   - 開始使用
   - 硬體清單

@@ -22,14 +22,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 如何使用 Excel 大量匯入商品

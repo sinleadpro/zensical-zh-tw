@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 建立自訂頁面
@@ -41,7 +34,12 @@ features:
   - 自訂 HTML
   - 多語系設定
 prerequisites: []
-related: []
+related:
+  - ec/website-appearance/references/custom-pages-blocks/
+  - ec/website-appearance/theme-and-layout/theme-editor/
+  - ec/website-appearance/navigation/setup-menus-navigation/
+  - ec/website-management/setup-multi-language-and-multi-currency/
+  - ec/website-appearance/pages-and-content/embed-google-form-custom-page/
 tags:
   - 自訂頁面
   - SEO

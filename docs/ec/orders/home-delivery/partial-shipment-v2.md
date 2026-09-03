@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans: 
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 如何設定部分出貨
@@ -37,11 +30,10 @@ features:
   - 加印託運單
 prerequisites: []
 related:
-  - "wms/enable-partial-warehouse-integration-and-order-splitting"
-  - "ec/orders/order-settings/manual-order-close"
-  - "ec/orders/home-delivery/custom-logistic-shipping"
-  - "補印與加印託運單"
-  - "ec/orders/out-of-stock-partial-shipping-or-cancellation"
+  - wms/enable-partial-warehouse-integration-and-order-splitting/
+  - ec/orders/order-settings/manual-order-close/
+  - ec/orders/home-delivery/custom-logistic-shipping/
+  - ec/orders/out-of-stock-partial-shipping-or-cancellation/
 tags:
   - 部分出貨
   - 訂單管理

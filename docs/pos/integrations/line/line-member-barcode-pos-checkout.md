@@ -44,7 +44,10 @@ prerequisites:
   - LINE Messaging API 串接
   - LINE 圖文選單設定
   - LINE OA 會員綁定（建議）
-related: []
+related:
+  - ec/integrations/line/account-integration/connect-line-messaging-api/
+  - ec/integrations/line/marketing/setup-line-rich-menu/
+  - ec/integrations/line/account-integration/bind-line-oa-store-members/
 tags:
   - 紅利點數
   - 優惠券折抵

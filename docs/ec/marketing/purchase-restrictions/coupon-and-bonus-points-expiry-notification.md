@@ -20,7 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: branch
-plans: 
+plans:
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS

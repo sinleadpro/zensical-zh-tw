@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans: 
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 手動結案訂單
@@ -38,7 +31,9 @@ features:
   - 第三方分潤
 prerequisites: []
 related:
-  - "ec/orders/order-settings/auto-close-order-settings"
+  - ec/orders/basics/search-filter-orders/
+  - ec/orders/basics/order-management-interface/
+  - ec/orders/order-settings/auto-close-order-settings/
 tags:
   - 訂單結案
   - 手動結案

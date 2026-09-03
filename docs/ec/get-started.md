@@ -33,14 +33,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 devices:
   - desktop
 paths: []
@@ -49,7 +42,56 @@ intents:
   - 系統初步設定
 features: []
 prerequisites: []
-related: []
+related:
+  - ec/website-management/setup-store-basic-info/
+  - ec/notifications/manage-email-templates/
+  - ec/website-management/domain-management/
+  - ec/payments-and-logistics/payments/
+  - ec/payments-and-logistics/
+  - ec/payments-and-logistics/payments/order-settings/
+  - ec/payments-and-logistics/setup-home-delivery-non-cod-custom-logistics/
+  - ec/payments-and-logistics/setup-cvs-c2c-shipping/
+  - ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping/
+  - ec/payments-and-logistics/home-delivery-cash-on-delivery/
+  - ec/orders/tcat-quick-store/tcat-express-payment-settings/
+  - ec/products/create-and-manage/create-update-products/
+  - ec/products/bulk-operations/excel-import-products/
+  - ec/products/shipping/cvs-shipping-restrictions-exclusions/
+  - ec/products/categories-and-tags/custom-collections/
+  - ec/products/categories-and-tags/smart-collections/
+  - ec/website-appearance/theme-and-layout/apply-and-switch-theme/
+  - ec/website-appearance/navigation/setup-menus-navigation/
+  - ec/website-appearance/customer-interaction/setup-edit-customer-service-info/
+  - ec/website-management/seo/submit-sitemap-to-gsc/
+  - ec/website-appearance/pages-and-content/blog-management-publishing-guide/
+  - ec/marketing/discounts/storewide-discounts/
+  - ec/marketing/coupon/setup-coupons/
+  - ec/marketing/bonus-and-gifts/setup-bonus-points/
+  - ec/marketing/bonus-and-gifts/setup-birthday-gift/
+  - ec/marketing/bonus-and-gifts/setup-registration-gift/
+  - ec/members/vip/setup-store-wide-vip-system/
+  - ec/integrations/fb/
+  - ec/integrations/google/
+  - ec/integrations/line/
+  - ec/integrations/setup-shop-com/
+  - ec/orders/basics/order-fulfillment-flow/
+  - ec/orders/basics/search-filter-orders/
+  - ec/orders/basics/order-management-interface/
+  - ec/payments-and-logistics/setup-print-tcat-waybill-v2/
+  - ec/orders/basics/cancel-order/
+  - ec/orders/order-settings/manual-order-close/
+  - ec/orders/order-return-process/
+  - ec/orders/order-refund-process/
+  - ec/orders/returns-refunds/cvs-unclaimed-order/
+  - ec/orders/returns-refunds/overdue-return-handling/
+  - ec/members/member-customer-service-system/
+  - ec/notifications/send-sms-notifications-v2/
+  - ec/notifications/send-edm-newsletters-v2/
+  - ec/business-intelligence/
+  - ec/marketing/one-page-store/one-page-store/
+  - ec/marketing/other-tools/subscription-campaign-page/
+  - ec/profit-sharing/referrer-profit-sharing/
+  - ec/profit-sharing/registrant-profit-sharing/
 tags:
   - 開店指南
   - 新手教學

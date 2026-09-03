@@ -10,8 +10,7 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: 
-  - EC
+products:
   - POS
 modules: 
   - POS 前台
@@ -36,9 +35,8 @@ features:
   - POS 核銷
 prerequisites: 
   - "需先完成電子票券商品設定"
-related: 
-  - "ec/e-ticket/e-ticket-setup-guide"
-  - "電子票券優惠設定"
+related:
+  - ec/e-ticket/setup-e-ticket-store-permissions/
 tags: 
   - POS
   - 電子票券

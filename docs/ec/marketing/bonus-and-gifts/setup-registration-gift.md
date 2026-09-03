@@ -12,8 +12,9 @@ ga_views: 0
 feedback: 0
 products: 
   - EC
-modules: 
+modules:
   - 行銷活動
+  - 會員
 sites: 
   - TW
 audiences: 
@@ -31,9 +32,7 @@ features:
   - 紅利點數
   - 優惠券
 prerequisites: []
-related: 
-  - "設定紅利購物金說明"
-  - "ec/marketing/bonus-and-gifts/setup-birthday-gift"
+related: []
 tags: 
   - 註冊禮
   - 紅利點數
@@ -46,9 +45,10 @@ devices:
 ui_components: 
   - 優惠券
   - 紅利點數
-paths: 
+paths:
   - 行銷活動 > 全館折扣-紅利 & 優惠券 > 會員註冊贈送優惠券
   - 行銷活動 > 全館折扣-紅利 & 優惠券 > 會員紅利點數
+  - 會員 > 所有會員
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=3816

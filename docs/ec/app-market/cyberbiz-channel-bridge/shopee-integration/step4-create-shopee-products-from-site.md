@@ -12,6 +12,7 @@ ga_views: 0
 feedback: 0
 products:
   - EC
+  - WMS
 modules:
   - 商品
   - APP MARKET
@@ -36,9 +37,11 @@ features:
   - 蝦皮商品搬站
   - 關聯自動建立
 prerequisites:
-  - "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate"
-  - "商品需為官網手動建立且未關聯過蝦皮"
-related: []
+  - ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate/
+  - 商品需為官網手動建立且未關聯過蝦皮
+related:
+  - ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee/
+  - ec/app-market/cyberbiz-channel-bridge/shopee-integration/step5-sync-product-info-with-shopee/
 tags: []
 acoiv: configure
 apis: []
@@ -47,7 +50,7 @@ devices:
 ui_components: []
 paths:
   - 商品 > 所有商品
-  - App Market > 我的擴充服務 > CYBERBIZ CHANNEL BRIDGE
+  - App MARKET > 我的擴充服務 > CYBERBIZ CHANNEL BRIDGE
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12688

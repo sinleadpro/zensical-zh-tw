@@ -21,14 +21,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 管理 Email 樣板
@@ -43,7 +36,11 @@ features:
   - 短網址功能
   - 商家通知
 prerequisites: []
-related: []
+related:
+  - ec/website-management/setup-store-basic-info/
+  - ec/orders/home-delivery/shipping-status-tooltip/
+  - ec/notifications/manage-sms-templates-v2/
+  - ec/notifications/manage-line-oa-templates/
 tags:
   - Email 通知樣板
   - Email 樣板管理

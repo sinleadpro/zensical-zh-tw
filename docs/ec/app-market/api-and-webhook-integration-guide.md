@@ -22,7 +22,7 @@ audiences:
   - developer
 difficulty: intermediate
 tnb: branch
-plans: 
+plans:
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
@@ -39,7 +39,8 @@ features:
 prerequisites: 
   - "需為企業版方案或 PLUS 版加購 API 服務"
   - "需具備技術開發人員進行程式串接"
-related: []
+related:
+  - ec/website-management/add-admin-set-permissions/
 tags: 
   - API
   - Webhook
@@ -52,9 +53,9 @@ devices:
 ui_components: 
   - 我的擴充服務
   - 網站權限
-paths: 
-  - APP MARKET > 我的擴充服務 > 自訂
+paths:
   - 管理中心 > 網站權限
+  - APP MARKET > 我的擴充服務
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7875

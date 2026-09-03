@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 建立 Meta 廣告帳號
@@ -40,7 +33,7 @@ features:
 prerequisites:
   - 需先擁有 Meta 企業管理帳號 (Business Manager)
 related:
-  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
+  - ec/integrations/fb/meta-ads/setup-meta-ad-campaign/
 tags:
   - Meta
   - Facebook
@@ -54,7 +47,7 @@ devices:
   - mobile
 ui_components: []
 paths:
-  - 第三方整合 > 臉書 Facebook 設定（廣告/註冊登入） > 廣告帳號設定
+  - 第三方整合 > 臉書 Facebook 設定（廣告/註冊登入）> 廣告帳戶設定
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5621

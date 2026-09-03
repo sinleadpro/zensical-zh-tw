@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 設定商品色票功能
@@ -38,9 +31,10 @@ features:
   - 款式圖片
   - 預設版型
 prerequisites:
-  - "新增與更新商品#基本設定"
+  - ec/products/create-and-manage/create-update-products/
 related:
-  - "ec/products/create-and-manage/product-swatches-variant-images-drag-drop"
+  - ec/products/create-and-manage/product-swatches-variant-images-drag-drop/
+  - ec/products/create-and-manage/create-update-products/
 tags:
   - 色票
   - 款式圖片

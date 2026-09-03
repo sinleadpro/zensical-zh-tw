@@ -23,14 +23,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 設定社群分享縮圖
@@ -61,8 +54,11 @@ devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
-layouts: []
+paths:
+  - 商品 > 所有商品
+  - 商品 > 商品自訂分類 >
+layouts:
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3843
   - https://www.cyberbiz.io/support/?p=19718
@@ -123,7 +119,7 @@ hide:
 	- **一般版型**：「網站外觀」>「套版主題管理」>「網站設定」>「細部設定(首頁設定)」>「轉貼連結預設圖片(OG image)」。
 	-->
 	
-	- **拖拉版型**：登入 CYBERBIZ 管理後台，前往 **網站外觀 > 套版主題管理 > 網站設定 > 全站設定 >「圖示設定」中的「轉貼分享圖片 OG image**。
+	- **拖拉版型**：登入 CYBERBIZ 管理後台，前往 **網站外觀 > 套版主題管理 > 網站設定 > 全站設定 >「圖示設定」中的「轉貼分享圖片 OG image」**。
 
 - **功能**：若分享的頁面不屬於上述商品、群組或文章（例如首頁、分頁），則會顯示此處設定的通用縮圖。
 

@@ -24,7 +24,9 @@ cyb_extensions: []
 intents: []
 features: []
 prerequisites: []
-related: []
+related:
+  - ec/website-appearance/theme-and-layout/setup-theme-page-settings/
+  - ec/website-appearance/theme-and-layout/setup-global-theme-settings/
 tags: []
 acoiv: ""
 apis: []
@@ -33,7 +35,8 @@ devices:
   - mobile
 ui_components: []
 paths: []
-layouts: []
+layouts:
+  - draggable
 wp_url: []
 permalink: "https://help.cyberbiz.io/ec/website-appearance/references/theme-editor-sections/"
 comments: ""

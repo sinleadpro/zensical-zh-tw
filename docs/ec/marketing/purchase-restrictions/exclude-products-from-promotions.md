@@ -15,7 +15,6 @@ ga_views: 0
 feedback: 0
 products:
   - EC
-  - POS
 modules:
   - 行銷活動
 sites:
@@ -25,13 +24,13 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 企業
   - 專業
-  - 專業PLUS
   - 進階
-  - 進階PLUS
   - 高手
+  - 專業PLUS
+  - 進階PLUS
   - 高手PLUS
+  - 企業
 cyb_extensions: []
 intents:
   - 如何設定商品排除指定優惠
@@ -119,7 +118,7 @@ hide: []
   將商品排除於多層級分類滿額折扣活動。
 
 - :lucide-crown:{ .lg }   
-  [__VIP 優惠__](../設定 VIP 優惠.md)  
+  [__VIP 優惠__](../../members/vip/setup-exclusive-vip-discounts.md.md)  
   將商品排除於會員專屬折扣優惠。
 
 </div>

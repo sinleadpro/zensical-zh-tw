@@ -36,7 +36,10 @@ features:
   - 單品限時折扣
   - 商品群組
 prerequisites: []
-related: []
+related:
+  - ec/marketing/discounts/checkout-discount-calculation-order/
+  - ec/products/categories-and-tags/custom-collections/
+  - ec/marketing/purchase-restrictions/exclude-products-from-promotions/
 tags:
   - 商品群組
   - 單品折扣

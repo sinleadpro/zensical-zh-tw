@@ -21,7 +21,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: branch
-plans: 
+plans:
   - 高手PLUS
   - 企業
 cyb_extensions: []
@@ -45,8 +45,9 @@ apis: []
 devices: 
   - desktop
 ui_components: []
-paths: 
+paths:
   - 金物流 > 結帳頁 & 物流設定 > 結帳頁優惠券設定
+  - 金物流 > 結帳頁 & 物流設定 > POS 結帳頁優惠券設定
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=37637

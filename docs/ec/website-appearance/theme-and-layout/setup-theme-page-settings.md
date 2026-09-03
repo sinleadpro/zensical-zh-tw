@@ -21,14 +21,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 設定各頁面顯示
@@ -53,7 +46,17 @@ prerequisites:
   - 商品多層級分類架構 (設定)
   - 客服功能開通 (商品評論)
   - 門市設定 (快速到貨)
-related: []
+related:
+  - ec/website-appearance/theme-and-layout/theme-editor/
+  - ec/website-appearance/theme-and-layout/configure-scheduled-carousels/
+  - ec/products/engagement/manage-product-reviews/
+  - ec/website-appearance/customer-interaction/enable-comment-recaptcha/
+  - ec/products/create-and-manage/create-update-products/
+  - ec/website-appearance/navigation/setup-menus-navigation/
+  - ec/products/categories-and-tags/multi-level-category-setup/
+  - ec/website-appearance/theme-and-layout/setup-global-theme-settings/
+  - ec/website-appearance/references/theme-editor-sections/
+  - ec/website-appearance/references/theme-editor-pages/
 tags:
   - 拖拉版型
   - 首頁區塊

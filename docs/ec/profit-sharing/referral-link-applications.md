@@ -14,7 +14,7 @@ products:
   - EC
   - POS
 modules:
-  - 行銷活動
+  - 分潤
 sites:
   - TW
 audiences:
@@ -22,9 +22,12 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 企業
   - 進階
   - 高手
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 cyb_extensions: []
 intents:
   - 製作推薦連結

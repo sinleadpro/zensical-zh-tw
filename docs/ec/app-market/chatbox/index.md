@@ -12,7 +12,7 @@ ga_views: 0
 feedback: 0
 products: 
   - EC
-modules: 
+modules:
   - APP MARKET
 sites: 
   - TW
@@ -20,7 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: branch
-plans: 
+plans:
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
@@ -39,10 +39,12 @@ features:
   - 會員資料同步
 prerequisites: 
   - "CHAT BOX 串接第三方平台 (LINE•Meta)"
-related: 
-  - "ec/app-market/chatbox/chat-box-ai-suggested-replies"
-  - "ec/app-market/chatbox/line-message-format-spec"
-  - "ec/app-market/chatbox/meta-message-format-spec"
+related:
+  - ec/app-market/chatbox/connect-chat-box-to-line-oa/
+  - ec/app-market/chatbox/connect-chat-box-to-facebook-page/
+  - ec/app-market/chatbox/chat-box-ai-suggested-replies/
+  - ec/app-market/chatbox/line-message-format-spec/
+  - ec/app-market/chatbox/meta-message-format-spec/
 tags: 
   - 客服管理
   - 訊息通
@@ -58,8 +60,9 @@ ui_components:
   - 對話列表
   - 訊息聊天室
   - 會員資訊欄位
-paths: 
+paths:
   - APP MARKET > CHAT BOX
+  - LINE OA > 設定 > 回應設定
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12960

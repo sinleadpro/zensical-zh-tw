@@ -10,10 +10,12 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: 
-    - EC
-modules: 
-    - 行銷活動
+products:
+  - EC
+  - WMS
+modules:
+  - 行銷活動
+  - 會員
 sites: 
     - TW
 audiences: 
@@ -21,10 +23,10 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-    - 專業PLUS
-    - 進階PLUS
-    - 高手PLUS
-    - 企業
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 cyb_extensions: []
 intents: 
     - 瞭解贈品券規格
@@ -34,13 +36,14 @@ features:
     - 贈品券
     - 優惠券
     - 庫存管理
-prerequisites: 
-    - "ec/marketing/coupon/setup-coupons"
-    - "ec/marketing/coupon/setup-promo-codes"
-related: 
-    - "ec/marketing/coupon/setup-coupons"
-    - "ec/marketing/coupon/setup-promo-codes"
-    - "ec/marketing/coupon/multiple-coupons"
+prerequisites:
+  - ec/marketing/coupon/setup-coupons/
+  - ec/marketing/coupon/setup-promo-codes/
+related:
+  - ec/members/manage-member-profiles/
+  - ec/marketing/other-tools/interactive-games/
+  - ec/marketing/coupon/setup-promo-codes/
+  - ec/members/vip/setup-exclusive-vip-discounts/
 tags:
     - 贈品券
     - 優惠券

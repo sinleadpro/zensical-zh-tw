@@ -4,7 +4,7 @@ description: CYBERBIZ APP 上架前的環境準備、官網預建置，以及門
 created: 2026-08-17 12:06
 last_modified: 2026-08-17 12:06
 lang: zh-TW
-type: tutorial
+type: guide
 status: ""
 author: Ann
 reviewers: []
@@ -13,12 +13,13 @@ ga_views: 0
 feedback: 0
 products: 
   - EC
+  - POS
 modules: 
   - APP 功能
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans: []
@@ -33,12 +34,26 @@ features:
   - 通知樣板
   - 活動推播
 prerequisites: 
-  - apply-apple-developer-account.md
-  - cyberbiz-app-feature-overview.md
-related: 
-  - first-login-gift
-  - create-update-products
-  - setup-menus-navigation
+  - ec/app/apply-apple-developer-account/
+  - ec/app/cyberbiz-app-feature-overview/
+  - ec/products/create-and-manage/create-update-products/
+  - ec/marketing/
+  - ec/website-appearance/
+  - ec/website-appearance/navigation/setup-menus-navigation/
+  - ec/payments-and-logistics/
+  - ec/integrations/google/setup-google-quick-login/
+  - ec/integrations/line/account-integration/setup-line-quick-login/
+  - ec/integrations/fb/setup-facebook-quick-login/
+related:
+  - ec/app/apply-apple-developer-account/
+  - ec/products/create-and-manage/create-update-products/
+  - ec/marketing/
+  - ec/website-appearance/
+  - ec/website-appearance/navigation/setup-menus-navigation/
+  - ec/payments-and-logistics/
+  - ec/integrations/google/setup-google-quick-login/
+  - ec/integrations/line/account-integration/setup-line-quick-login/
+  - ec/integrations/fb/setup-facebook-quick-login/
 tags: 
   - 門市地圖
   - 推播通知
@@ -58,7 +73,7 @@ paths:
   - APP 功能 > APP推播通知設定 > 活動推播列表
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/app/setup-cyberbiz-app
+permalink: "https://help.cyberbiz.io/ec/app/setup-cyberbiz-app/"
 comments: false
 search:
   exclude: false

@@ -4,7 +4,7 @@ description: 申請 Apple Developer Program、取得鄧白氏編碼，並於 App
 created: 2026-08-17 12:06
 last_modified: 2026-08-17 12:06
 lang: zh-TW
-type: tutorial
+type: guide
 status: ""
 author: Ann
 reviewers: []
@@ -18,7 +18,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: trunk
 plans: []
@@ -32,9 +32,7 @@ features:
   - 鄧白氏環球編碼
   - App_Store_Connect
 prerequisites: []
-related: 
-  - setup-cyberbiz-app.md
-  - cyberbiz-app-feature-overview.md
+related: []
 tags: 
   - CYBERBIZ APP
 acoiv: activate
@@ -47,7 +45,7 @@ paths:
   - App Store Connect > 使用者與存取權限
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/app/apply-apple-developer-account
+permalink: "https://help.cyberbiz.io/ec/app/apply-apple-developer-account/"
 comments: false
 search:
   exclude: false

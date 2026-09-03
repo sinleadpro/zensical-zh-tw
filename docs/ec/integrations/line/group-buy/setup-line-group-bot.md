@@ -39,8 +39,8 @@ features:
   - LINE Provider
 prerequisites: []
 related:
-  - 團購商品設定
-  - 團購群組設定
+  - ec/integrations/line/group-buy/setup-line-group-buy-products/
+  - ec/integrations/line/group-buy/setup-line-group-buy-group/
 tags:
   - LINE OA
   - LINE 團購

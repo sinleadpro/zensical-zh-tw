@@ -32,7 +32,8 @@ features:
 prerequisites:
   - "需具備第三方網域商的管理權限"
   - "網域需已指向 CYBERBIZ"
-related: []
+related:
+  - ec/website-management/domain-management/
 tags:
   - 疑難排解
   - HTTPS

@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans: 
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 如何串接 Google Analytics
@@ -41,7 +34,8 @@ features:
   - 資料串流
 prerequisites: []
 related:
-  - "ec/integrations/google/ga/google-analytics-advanced-tracking"
+  - ec/integrations/google/ga/ga4-exclude-internal-traffic-and-referrals/
+  - ec/integrations/google/ga/google-analytics-advanced-tracking/
 tags:
   - Google Analytics
   - GA4

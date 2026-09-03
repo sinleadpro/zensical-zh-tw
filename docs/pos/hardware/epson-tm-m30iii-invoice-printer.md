@@ -35,8 +35,8 @@ features:
   - 發票機安裝
   - Wi-Fi 設定
 prerequisites: []
-related: 
-  - "pos/hardware/epson-tm-t82iii-invoice-printer"
+related:
+  - pos/hardware/epson-tm-t82iii-invoice-printer/
 tags: 
   - EPSON
   - 發票機

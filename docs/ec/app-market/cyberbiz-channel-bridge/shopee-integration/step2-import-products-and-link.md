@@ -37,8 +37,8 @@ features:
   - 全通路管理助手
   - 商品自動關聯
 prerequisites:
-  - "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate"
-  - "建議預先整理蝦皮端的 SKU (商品選項貨號)"
+  - ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate/
+  - 建議預先整理蝦皮端的 SKU (商品選項貨號)
 related: []
 tags: []
 acoiv: configure
@@ -47,7 +47,7 @@ devices:
   - desktop
 ui_components: []
 paths:
-  - APP MARKET > 我的應用程式 > CYBERBIZ CHANNEL BRIDGE
+  - APP MARKET > 我的擴充功能
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5923

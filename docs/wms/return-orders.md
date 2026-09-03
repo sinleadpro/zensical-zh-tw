@@ -17,6 +17,7 @@ products:
   - WMS
 modules:
   - 退貨單
+  - 訂單
 sites:
   - TW
 audiences: []
@@ -36,7 +37,9 @@ features:
 prerequisites:
   - 需已開通 CYBERBIZ 電商倉儲服務
   - 訂單需已完成出貨作業
-related: []
+related:
+  - ec/orders/order-return-process/
+  - wms/returns-and-vehicle-dispatch/
 tags:
   - WMS
   - 驗收
@@ -50,7 +53,6 @@ ui_components:
   - 新增退貨單頁面
 paths:
   - 訂單 > 列表
-  - 退貨單 > 新增退貨單
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5747

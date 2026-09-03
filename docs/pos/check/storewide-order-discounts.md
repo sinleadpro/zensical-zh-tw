@@ -12,8 +12,9 @@ ga_views: 0
 feedback: 0
 products: 
     - POS
-modules: 
-    - 結帳
+modules:
+  - 結帳
+  - 訂單
 sites: 
     - TW
 audiences: 
@@ -35,7 +36,9 @@ features:
     - 店長改價權限
     - 改價備註記錄
 prerequisites: []
-related: []
+related:
+  - ec/orders/reports/export-order-report/
+  - pos/store/staff-permissions-and-account-management/
 tags: 
     - POS 折扣
     - 整筆改價
@@ -50,9 +53,8 @@ ui_components:
     - 新增整筆訂單折扣
     - 改價備註
     - POS 權限管理
-paths: 
-    - POS 前台 > 結帳頁面
-    - POS 後台 > POS 功能 > POS 權限管理
+paths:
+  - 訂單 > 訂單報表匯出
 layouts: []
 wp_url: 
     - https://www.cyberbiz.io/support/?p=35401

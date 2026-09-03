@@ -14,7 +14,7 @@ products:
   - EC
   - POS
 modules:
-  - 行銷活動
+  - 分潤
 sites:
   - TW
 audiences:
@@ -22,9 +22,12 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 企業
   - 進階
   - 高手
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 cyb_extensions: []
 intents:
   - 建立分潤方案
@@ -35,7 +38,9 @@ features:
   - 指定商品分潤
   - 推薦回饋
 prerequisites: []
-related: []
+related:
+  - ec/marketing/discounts/storewide-discounts/
+  - ec/marketing/discounts/mix-and-match-discounts/
 tags:
   - 團媽
   - 推薦碼
@@ -48,7 +53,7 @@ devices:
   - mobile
 ui_components: []
 paths:
-  - 行銷活動 > 推薦人分潤
+  - 分潤 > 推薦人分潤
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4116

@@ -11,10 +11,10 @@ notes: []
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - POS
 modules:
   - 全通路庫存管理
+  - 商品
 sites:
   - TW
 audiences:
@@ -38,7 +38,12 @@ features:
   - 自動產生出倉單
   - 庫存校正
 prerequisites: []
-related: []
+related:
+  - pos/inventory/outbound-orders/
+  - pos/inventory/inbound-orders/
+  - pos/inventory/transfer-orders/
+  - pos/inventory/inventory-adjustment/
+  - pos/inventory/inventory-count/
 tags:
   - 全通路庫存
   - POS 庫存管理
@@ -56,10 +61,9 @@ ui_components:
   - 調倉單
   - 盤點單
 paths:
-  - 後台 > POS 功能 > 全通路庫存管理
-  - 後台 > POS 功能 > 所有 POS 商店
-  - 後台 > POS 功能 > 盤點單
-  - 前台 > 庫存 > 庫存盤點
+  - 商品 > 所有商品
+  - 商品 > 所有商品 > 點擊指定商品
+  - 商品 > Excel 大量匯入商品
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=27443

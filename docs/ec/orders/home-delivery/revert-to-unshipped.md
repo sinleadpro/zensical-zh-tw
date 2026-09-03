@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 調整訂單配送狀態
@@ -37,8 +30,9 @@ features:
   - 訂單取消功能
 prerequisites: []
 related:
-  - "ec/orders/basics/order-fulfillment-flow"
-  - "ec/orders/basics/cancel-order"
+  - ec/orders/basics/search-filter-orders/
+  - ec/orders/basics/cancel-order/
+  - ec/orders/basics/order-fulfillment-flow/
 tags:
   - 訂單管理
   - 配送狀態

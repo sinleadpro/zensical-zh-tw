@@ -12,20 +12,24 @@ ga_views: 0
 feedback: 0
 products: 
   - EC
-modules: 
+modules:
   - 門市助理
+  - APP MARKET
+  - 管理中心
+  - 訊息推播
 sites: 
   - TW
 audiences: 
   - merchant
 difficulty: intermediate
 tnb: branch
-plans: 
+plans:
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
-cyb_extensions: []
+cyb_extensions:
+  - STORE PAL
 intents: 
   - 安裝門市助理
   - 設定門市助理前置資料
@@ -37,8 +41,7 @@ features:
 prerequisites: 
   - "需為企業版方案商家"
   - "需啟用新版 VIP 制度"
-related: 
-  - "門市助理 – 會員等級"
+related: []
 tags: 
   - 門市助理
   - 安裝導引
@@ -52,10 +55,9 @@ ui_components:
   - 我的擴充服務
   - 顧客註冊設定
   - 簡訊通知樣板
-paths: 
-  - APP MARKET > 我的擴充服務 > 門市助理
+paths:
+  - APP MARKET > 我的擴充服務
   - 管理中心 > 顧客註冊設定
-  - 訊息推播 > 簡訊通知樣板
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=41626

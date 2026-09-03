@@ -14,6 +14,7 @@ products:
   - EC
 modules:
   - 訂單
+  - 金物流
 sites:
   - TW
 audiences:
@@ -32,7 +33,16 @@ features:
 prerequisites:
   - "設定與管理會員退貨申請"
 related:
-  - "ec/orders/order-refund-process"
+  - ec/payments-and-logistics/payments/order-settings/
+  - wms/returns-and-vehicle-dispatch/
+  - ec/orders/member-return-request-feature/
+  - ec/orders/returns-refunds/cvs-c2b-return/
+  - ec/orders/returns-refunds/7-11-c2c-return/
+  - ec/payments-and-logistics/setup-print-tcat-waybill-v2/
+  - ec/payments-and-logistics/setup-pelican-waybill-v2/
+  - ec/payments-and-logistics/setup-hct-waybill-v2/
+  - ec/orders/order-refund-process/
+  - ec/orders/returns-refunds/cvs-unclaimed-order/
 tags:
   - 售後服務
   - 逆物流
@@ -44,7 +54,9 @@ devices:
   - desktop
 ui_components: []
 paths:
+  - 金物流 > 結帳頁 & 物流設定
   - 訂單 > 所有訂單
+  - 金物流 > XX 託運單
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=200

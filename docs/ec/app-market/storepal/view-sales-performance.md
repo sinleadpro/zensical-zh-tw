@@ -26,7 +26,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
-cyb_extensions: []
+cyb_extensions:
+  - STORE PAL
 intents:
   - 查看業績報表
   - 分析綁定會員數
@@ -47,7 +48,7 @@ ui_components:
   - 業績報表
   - 時間區間
 paths:
-  - APP MARKET > 我的擴充服務 > 門市助理
+  - 設定 > 功能設定 > 前台功能設定
 layouts: []
 wp_url: []
 permalink: "https://help.cyberbiz.io/ec/app-market/storepal/view-sales-performance/"

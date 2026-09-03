@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 超商訂單部分出貨
@@ -37,10 +30,11 @@ features:
   - 自訂出貨方式
 prerequisites: []
 related:
-  - "ec/orders/home-delivery/custom-logistic-shipping"
-  - "補印與加印託運單"
-  - "ec/orders/references/cvs-partial-shipping-support"
-  - "ec/orders/references/order-filter-status-reference"
+  - ec/orders/references/cvs-partial-shipping-support/
+  - ec/orders/references/cvs-waybill-expiration-reference/
+  - ec/orders/renew-waybill-after-expiration/
+  - ec/orders/home-delivery/custom-logistic-shipping/
+  - ec/orders/references/order-filter-status-reference/
 tags:
   - 超商部分出貨
   - 超商取貨

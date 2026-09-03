@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: "beginner"
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 編輯訂單內容
@@ -41,7 +34,8 @@ features:
   - 自訂折扣
   - 商家備註
 prerequisites: []
-related: []
+related:
+  - ec/products/create-and-manage/product-management-interface/
 tags:
   - 訂單管理
   - 編輯訂單

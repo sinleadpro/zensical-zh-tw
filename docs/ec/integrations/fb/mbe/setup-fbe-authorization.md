@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 設定_FBE_帳號授權
@@ -37,8 +30,8 @@ features:
   - FBE 設定
   - 像素 Pixel
 prerequisites: []
-related: 
-  - "ec/integrations/fb/mbe/setup-fbe-domain-verification"
+related:
+  - ec/integrations/fb/mbe/setup-fbe-domain-verification/
 tags:
   - FB 整合
   - FBE

@@ -12,6 +12,7 @@ ga_views: 0
 feedback: 0
 products:
   - EC
+  - POS
 modules:
   - 商品
 sites:
@@ -24,14 +25,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 新增單一商品
@@ -51,10 +45,24 @@ features:
   - 物流材積計算
 prerequisites: []
 related:
-  - "ec/products/bulk-operations/excel-import-products"
-  - "ec/products/create-and-manage/edit-product-description-settings"
-  - "ec/products/create-and-manage/setup-product-videos"
-  - "ec/products/engagement/setup-back-in-stock-notifications"
+  - ec/products/bulk-operations/excel-import-products/
+  - ec/products/create-and-manage/edit-product-slogan-and-description/
+  - ec/products/discoverability/product-search-visibility/
+  - ec/products/references/product-statuses/
+  - ec/products/create-and-manage/setup-product-videos/
+  - ec/products/engagement/setup-back-in-stock-notifications/
+  - ec/products/checkout/checkout-split-multi-cart/
+  - ec/products/categories-and-tags/custom-collections/
+  - ec/products/categories-and-tags/smart-collections/
+  - ec/website-appearance/theme-and-layout/setup-theme-page-settings/
+  - ec/products/references/product-temperature/
+  - ec/website-management/setup-multi-language-and-multi-currency/
+  - ec/products/pricing/setup-vip-member-pricing/
+  - ec/integrations/google/setup-google-merchant-center/
+  - ec/products/references/product-warehouse/
+  - ec/products/create-and-manage/edit-product-description-settings/
+  - ec/products/create-and-manage/create-and-setup-combo-products/
+  - ec/products/bulk-operations/batch-update-product-descriptions-shipping/
 tags:
   - 商品設定
   - 新增商品

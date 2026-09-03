@@ -12,7 +12,6 @@ notes:
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - POS
 modules:
   - 商品
@@ -39,9 +38,7 @@ features:
   - 匯入調整
   - 庫存調整報表
 prerequisites: []
-related:
-  - "pos/inventory/inventory-count"
-  - "pos/inventory/index"
+related: []
 tags:
   - 庫存調整
   - 盤盈盤虧

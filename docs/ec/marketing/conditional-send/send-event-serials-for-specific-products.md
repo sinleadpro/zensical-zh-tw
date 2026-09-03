@@ -15,6 +15,7 @@ products:
   - EC
 modules:
   - 行銷活動
+  - 訂單
 sites:
   - TW
 audiences:
@@ -41,6 +42,7 @@ devices:
 ui_components: []
 paths:
   - 行銷活動 > 指定商品送活動序號
+  - 訂單 > 所有訂單
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=43726

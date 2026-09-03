@@ -35,11 +35,16 @@ features:
   - 入庫驗收作業
   - 逾期未取自動退款
 prerequisites:
-  - "帳號管理與角色指派"
-  - "ec/website-management/setup-store-basic-info"
+  - 帳號管理與角色指派
 related:
-  - "帳號管理與角色指派"
-  - "設定角色權限"
+  - wms/merchant-self-inspection-of-returns/
+  - ec/orders/member-return-request-feature/
+  - ec/payments-and-logistics/setup-print-tcat-waybill-v2/
+  - ec/payments-and-logistics/setup-pelican-waybill-v2/
+  - ec/payments-and-logistics/setup-hct-waybill-v2/
+  - ec/orders/returns-refunds/cvs-c2b-return/
+  - ec/orders/order-refund-process/
+  - ec/members/member-customer-service-system/
 tags:
   - 退貨管理
   - 逆物流
@@ -99,7 +104,7 @@ hide: []
 
 === "關閉前台退貨"
 
-    - **流程**：消費者透過 [訂單客服對話](../ec/members/官網會員客服問答系統/#2-專屬訂單詢問) 功能向商家提出需求。
+    - **流程**：消費者透過 [訂單客服對話](../ec/members/member-customer-service-system/#2-專屬訂單詢問) 功能向商家提出需求。
     - **狀態變化**：由商家確認原因後，手動在 EC 後台操作。
     - **優點**：商家可先行過濾退貨原因，減少不必要的退貨成本。
 

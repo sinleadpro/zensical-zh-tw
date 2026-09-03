@@ -4,7 +4,7 @@ description: 設定會員首次於 CYBERBIZ APP 登入時自動發放的優惠�
 created: 2026-08-17 11:41
 last_modified: 2026-08-17 11:41
 lang: zh-TW
-type: tutorial
+type: guide
 status: ""
 author: Ann
 reviewers: []
@@ -18,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: []
@@ -33,9 +33,10 @@ features:
   - 紅利點數
   - APP_引導彈窗
 prerequisites:
-  - setup-cyberbiz-app.md
+  - ec/app/setup-cyberbiz-app/
 related:
-  - cyberbiz-app-feature-overview.md
+  - ec/marketing/bonus-and-gifts/limited-time-first-purchase-gift/
+  - ec/marketing/bonus-and-gifts/setup-registration-gift/
 tags:
   - 優惠券
   - 紅利點數
@@ -55,7 +56,7 @@ paths:
   - APP 功能 > APP 首登禮
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/app/first-login-gift
+permalink: "https://help.cyberbiz.io/ec/app/first-login-gift/"
 comments: false
 search:
   exclude: false

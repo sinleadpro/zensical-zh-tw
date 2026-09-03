@@ -21,14 +21,7 @@ audiences:
   - merchant
 difficulty: ""
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 如何發送 EDM
@@ -39,7 +32,8 @@ features:
   - 訊息推播
   - 會員標籤
 prerequisites: []
-related: []
+related:
+  - ec/app-market/automation/automation-push-flow/
 tags:
   - 電子報
   - 行銷

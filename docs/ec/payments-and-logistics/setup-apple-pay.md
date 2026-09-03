@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions:
   - CYBERBIZ PAYMENTS
 intents:
@@ -39,7 +32,10 @@ features:
   - 金流串接
 prerequisites:
   - 已開通 CYBERBIZ PAYMENTS
-related: []
+related:
+  - ec/payments-and-logistics/apply-cyberbiz-payments/
+  - ec/payments-and-logistics/setup-credit-card-3d-verification/
+  - ec/products/shipping/cvs-shipping-restrictions-exclusions/
 tags:
   - Apple Pay
   - PAYMENTS

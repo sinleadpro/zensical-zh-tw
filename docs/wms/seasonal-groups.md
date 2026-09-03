@@ -33,7 +33,8 @@ features:
   - 商品歸類
 prerequisites:
   - 需已開通 CYBERBIZ 電商倉儲服務
-related: []
+related:
+  - wms/inventory-records/
 tags:
   - WMS
   - 庫存管理

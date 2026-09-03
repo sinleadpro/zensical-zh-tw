@@ -36,9 +36,10 @@ features:
   - 近七日瀏覽人次
 prerequisites: []
 related:
-  - "ec/business-intelligence/product-chart"
-  - "ec/business-intelligence/business-intelligence-overview"
-  - "ec/business-intelligence/references/basic-chart-metrics-reference"
+  - ec/business-intelligence/references/basic-chart-metrics-reference/
+  - ec/business-intelligence/product-chart/
+  - ec/orders/reports/export-order-report/
+  - ec/business-intelligence/business-intelligence-overview/
 tags:
   - 基本報表
   - 報表分析

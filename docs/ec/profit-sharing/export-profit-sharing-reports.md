@@ -15,6 +15,8 @@ products:
   - POS
 modules:
   - 行銷活動
+  - 分潤
+  - 訂單
 sites:
   - TW
 audiences:
@@ -49,7 +51,6 @@ devices:
 ui_components: []
 paths:
   - 分潤 > 分潤報表
-  - 分潤 > 分潤查詢
   - 訂單 > 訂單報表匯出
 layouts: []
 wp_url:

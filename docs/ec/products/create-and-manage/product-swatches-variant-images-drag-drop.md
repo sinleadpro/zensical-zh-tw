@@ -34,10 +34,11 @@ features:
   - 色票功能
   - 款式圖片
 prerequisites:
-  - "新增與更新商品#基本設定"
+  - ec/products/create-and-manage/create-update-products/
 related:
-  - "ec/integrations/fb/mbe/setup-fb-instagram-shop"
-  - "ec/products/create-and-manage/product-swatches-variant-images-default"
+  - ec/products/create-and-manage/product-swatches-variant-images-default/
+  - ec/products/create-and-manage/create-update-products/
+  - ec/integrations/fb/mbe/setup-fb-instagram-shop/
 tags:
   - 色票
   - 款式圖片

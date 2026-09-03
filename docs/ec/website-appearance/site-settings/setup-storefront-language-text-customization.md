@@ -21,14 +21,7 @@ audiences:
   - developer
 difficulty: advanced
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 修改前台系統預設文字
@@ -45,7 +38,8 @@ features:
   - 字典檔編輯
   - 拖拉版型
 prerequisites: []
-related: []
+related:
+  - ec/website-appearance/code-customization/restore-code-theme-editor/
 tags:
   - 前台語系
   - 文字自訂

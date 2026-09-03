@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 設定黑貓託運單寄件人資訊
@@ -42,9 +35,10 @@ features:
   - 呼叫黑貓司機取件
 prerequisites: []
 related:
-  - "ec/orders/home-delivery/tcat-auto-call-driver-v2"
-  - "ec/website-management/points-deposits"
-  - "ec/orders/order-return-process"
+  - ec/payments-and-logistics/setup-print-tcat-quick-store-waybill-v2/
+  - ec/orders/home-delivery/tcat-auto-call-driver-v2/
+  - ec/website-management/points-deposits/
+  - ec/orders/order-return-process/
 tags:
   - 金物流
   - 黑貓宅急便

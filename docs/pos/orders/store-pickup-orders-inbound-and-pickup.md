@@ -14,6 +14,7 @@ products:
   - POS
 modules:
   - 訂單
+  - 金物流
 sites:
   - TW
 audiences:
@@ -35,9 +36,17 @@ features:
   - 包裹入庫
   - 會員條碼取貨
 prerequisites:
-  - "ec/orders/store-pickup-orders"
+  - ec/orders/store-pickup-orders/
 related:
-  - "pos/store/pos-store-pickup-staff-commission"
+  - ec/orders/store-pickup-orders/
+  - pos/store/pos-store-pickup-staff-commission/
+  - ec/orders/order-return-process/
+  - ec/orders/returns-refunds/cvs-c2b-return/
+  - ec/orders/returns-refunds/7-11-c2c-return/
+  - ec/payments-and-logistics/setup-print-tcat-waybill-v2/
+  - ec/payments-and-logistics/setup-pelican-waybill-v2/
+  - ec/payments-and-logistics/setup-hct-waybill-v2/
+  - pos/inventory/inbound-orders/
 tags:
   - POS 門市取貨
   - 到店入庫
@@ -54,7 +63,8 @@ ui_components:
   - 客戶到店取貨
   - 申請退貨
 paths:
-  - POS 前台 > 訂單 > 門市取貨訂單
+  - 訂單 > 所有訂單
+  - 金物流 > 結帳頁與物流設定
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=10488

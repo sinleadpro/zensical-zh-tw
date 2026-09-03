@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 分析廣告成效
@@ -38,10 +31,9 @@ features:
   - AI Insights
   - 廣告活動列表
 prerequisites:
-  - "ec/integrations/fb/mbe/setup-fbe-authorization"
-  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
-  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
-  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
+  - ec/integrations/fb/mbe/setup-fbe-authorization/
+  - ec/integrations/fb/meta-ads/setup-meta-ad-campaign/
+  - ec/integrations/fb/meta-ads/create-meta-ad-account-top-up/
 tags:
   - Meta 廣告
   - ROAS

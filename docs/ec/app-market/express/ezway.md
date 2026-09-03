@@ -4,9 +4,8 @@ description: 啟用 EZWAY 訂閱服務以掌握跨境訂單申報進度。設定
 created: 2026-07-23 17:45
 last_modified: 2026-07-23 17:45
 lang: zh-TW
-type: tutorial
+type: guide
 status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +18,7 @@ modules:
 sites:
   - JP
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -35,9 +34,9 @@ features:
   - 海關申報相符
 prerequisites: 
   - 需具備台灣手機門號與身分證件
-related: 
-  - "[[cyberbiz-express-711]]"
-  - "[[cyberbiz-express-japan-to-taiwan-delivery]]"
+related:
+  - ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery/
+  - ec/app-market/express/cyberbiz-express-711/
 tags: 
   - EZWAY
   - 實名認證
@@ -49,12 +48,11 @@ devices: []
 ui_components: 
   - 申報相符
   - 實名註冊
-paths: 
+paths:
   - APP MARKET > 我的擴充功能 > CYBERBIZ EXPRESS
-  - 消費者端操作 > EZWAY APP
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/express/ezway/"
 comments: false
 search:
   exclude: false

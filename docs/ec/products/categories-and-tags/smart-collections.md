@@ -21,14 +21,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 如何設定商品條件分類群組
@@ -37,7 +30,12 @@ features:
   - 商品群組
   - 商品條件分類
 prerequisites: []
-related: []
+related:
+  - ec/products/references/smart-collections-rule-columns/
+  - ec/products/references/smart-collections-rule-relations/
+  - ec/products/references/smart-collections-sort-order/
+  - ec/products/references/multi-language-supported/
+  - ec/website-appearance/navigation/setup-menus-navigation/
 acoiv: configure
 apis: []
 devices:

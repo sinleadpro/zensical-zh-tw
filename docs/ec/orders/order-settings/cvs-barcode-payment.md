@@ -15,6 +15,7 @@ products:
   - EC
 modules:
   - 訂單
+  - 金物流
 sites:
   - TW
 audiences:
@@ -32,9 +33,10 @@ features:
   - CYBERBIZ PAYMENTS
 prerequisites: []
 related:
-  - "ec/orders/order-settings/provide-payment-link"
-  - "ec/orders/order-settings/unpaid-reminder-settings"
-  - "ec/notifications/manage-email-templates"
+  - ec/payments-and-logistics/payments/order-settings/
+  - ec/notifications/manage-email-templates/
+  - ec/orders/order-settings/provide-payment-link/
+  - ec/orders/order-settings/unpaid-reminder-settings/
 tags:
   - 超商條碼
   - 便利商店付款
@@ -77,8 +79,8 @@ comments: false
 ### 步驟 1：編輯 CYBERBIZ PAYMENTS 金流設定
 
 1.  登入 CYBERBIZ 管理後台，前往 **金物流 > 金流設定**。
-2.  在金流設定列表中，找到「**CYBERBIZ PAYMENTS**」選項。
-3.  點擊右側的「**編輯** :lucide-file-pen:」按鈕進入設定頁面。
+2.  在金流設定列表中，找到 **CYBERBIZ PAYMENTS** 選項。
+3.  點擊右側的 **編輯** :lucide-file-pen: 按鈕進入設定頁面。
 
 ![編輯CYBERBIZ PAYMENTS](../../../assets/images/EC-後台-金物流-金流設定-CYBERBIZ-PAYMENTS-編輯.png){ title="編輯CYBERBIZ PAYMENTS" .screenshot }
 
@@ -86,8 +88,8 @@ comments: false
 
 ### 步驟 2：開啟超商條碼繳費功能
 
-1.  在 CYBERBIZ PAYMENTS 設定頁面中，找到「**7-11 / 全家 超商條碼繳費**」選項。
-2.  將開關切換至「**開啟**」狀態。
+1.  在 CYBERBIZ PAYMENTS 設定頁面中，找到 **7-11 / 全家 超商條碼繳費** 選項。
+2.  將開關切換至 **開啟** 狀態。
 
 ![開啟超商條碼繳費](../../../assets/images/EC-後台-金物流-金流設定-開啟超商條碼繳費.png){ title="開啟超商條碼繳費" .screenshot }
 
@@ -95,7 +97,7 @@ comments: false
 
 ### 步驟 3：儲存設定
 
-1.  確認開啟後，點擊頁面下方的「**確認**」按鈕。
+1.  確認開啟後，點擊頁面下方的 **確認** 按鈕。
 2.  系統顯示儲存成功訊息後，可在金流設定列表中確認完成功能開啟。
 
 ![已開啟超商條碼繳費](../../../assets/images/EC-後台-金物流-金流設定-已開啟超商條碼繳費.png){ title="已開啟超商條碼繳費" .screenshot }
@@ -103,6 +105,7 @@ comments: false
 !!! warning "重要提醒"
     - 開啟超商條碼繳費功能後，請確認您同時有搭配支援的物流方式（如超商取貨），消費者才能在結帳時正常選擇此付款方式。
     - 若商家有設定「[訂單自動取消](../../payments-and-logistics/payments/order-settings.md#operate-order-settings-auto-cancel){ title="訂單相關設定" }」的天數限制，一旦超過時限，條碼將會失效且無法進行繳費。
+    - 若商家 [手動取消訂單](../basics/cancel-order/#orders-cancel-merchant)，超商條碼不會自動失效，顧客仍可在效期內繳費。繳費後，訂單會重新成立，商家可繼續出貨或辦理退款。
 
 ## 取得超商條碼的步驟 <small>顧客端</small>
 

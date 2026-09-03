@@ -7,7 +7,10 @@ lang: zh-TW
 icon: lucide/badge-percent
 hide:
   - feedback
-products: [EC]
+products:
+  - EC
+  - POS
+  - WMS
 notes: []
 permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/cyberbiz-now/"
 ---

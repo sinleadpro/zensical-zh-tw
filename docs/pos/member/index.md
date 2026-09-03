@@ -35,7 +35,7 @@ features:
   - 分潤方案
 prerequisites: []
 related:
-  - "設定推薦人分潤方案"
+  - ec/profit-sharing/referrer-profit-sharing/
 tags:
   - POS 會員管理
   - 會員註冊

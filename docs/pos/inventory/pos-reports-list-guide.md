@@ -27,7 +27,9 @@ cyb_extensions: []
 intents: []
 features: []
 prerequisites: []
-related: []
+related:
+  - pos/check/
+  - pos/orders/manage-general-orders/
 tags:
   - POS
   - 銷售報表

@@ -18,14 +18,7 @@ modules:
 sites:
   - TW
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 audiences:
   - merchant

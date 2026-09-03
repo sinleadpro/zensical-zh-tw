@@ -28,11 +28,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 進階
-  - 高手
+plans: []
 cyb_extensions: []
 intents:
   - 編輯會員基本資料
@@ -47,7 +43,10 @@ features:
 prerequisites:
   - 需具備管理員權限以編輯會員敏感資訊
 related:
-  - ec/website-appearance/code-customization/customize-other-channel-order-label
+  - ec/website-management/customer-registration-flow-and-fields/
+  - ec/website-appearance/code-customization/customize-other-channel-order-label/
+  - ec/marketing/coupon/free-shipping-coupon-spec/
+  - ec/marketing/coupon/gift-coupon-spec/
 tags:
   - 會員明細
   - 代客下單

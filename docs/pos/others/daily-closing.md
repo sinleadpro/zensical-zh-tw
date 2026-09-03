@@ -35,8 +35,7 @@ features:
   - 錢櫃管理
 prerequisites:
   - 需先完成當班的所有交易訂單
-related:
-  - "pos/store/staff-permissions-and-account-management"
+related: []
 tags:
   - 小結
   - 關帳

@@ -13,12 +13,13 @@ ga_views: 0
 feedback: 0
 products: 
   - EC
+  - POS
 modules: 
   - APP 功能
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: []
@@ -34,10 +35,7 @@ features:
   - 門市地圖
   - 會員條碼
 prerequisites: []
-related: 
-  - setup-cyberbiz-app.md
-  - apply-apple-developer-account.md
-  - first-login-gift.md
+related: []
 tags: 
   - CYBERBIZ APP
 acoiv: venture
@@ -51,7 +49,7 @@ ui_components:
 paths: []
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/app/cyberbiz-app-feature-overview
+permalink: "https://help.cyberbiz.io/ec/app/cyberbiz-app-feature-overview/"
 comments: false
 search:
   exclude: false

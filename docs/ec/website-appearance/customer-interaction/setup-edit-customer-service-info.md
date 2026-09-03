@@ -19,14 +19,7 @@ modules:
 sites:
   - TW
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 audiences:
   - developer
@@ -40,7 +33,8 @@ features:
   - Google Map 嵌入
   - CSS/HTML 編輯器
 prerequisites: []
-related: []
+related:
+  - ec/website-appearance/code-customization/restore-code-theme-editor/
 tags:
   - 客服中心
   - Google Map

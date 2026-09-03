@@ -24,7 +24,8 @@ cyb_extensions: []
 intents: []
 features: []
 prerequisites: []
-related: []
+related:
+  - ec/products/references/smart-collections-rule-relations/
 tags:
   - 商品管理
   - 條件分類

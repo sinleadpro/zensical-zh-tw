@@ -21,14 +21,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 使用 UTM 追蹤流量
@@ -39,10 +32,11 @@ features:
   - Campaign URL Builder
   - GA4 流量報表
 prerequisites:
-  - "ec/integrations/google/ga/setup-google-analytics"
+  - ec/integrations/google/ga/setup-google-analytics/
 related:
-  - "ec/integrations/google/ga/setup-google-analytics"
-  - "ec/integrations/google/ga/google-analytics-advanced-tracking"
+  - ec/integrations/google/ga/setup-google-analytics/
+  - ec/profit-sharing/referral-link-applications/
+  - ec/orders/reports/export-order-report/
 tags:
   - UTM
   - 流量追蹤

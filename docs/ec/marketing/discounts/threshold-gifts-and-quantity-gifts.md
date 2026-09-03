@@ -14,6 +14,8 @@ products:
   - EC
 modules:
   - 行銷活動
+  - 商品
+  - 會員
 sites:
   - TW
 audiences:
@@ -21,10 +23,10 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 專業PLUS
   - 進階
-  - 進階PLUS
   - 高手
+  - 專業PLUS
+  - 進階PLUS
   - 高手PLUS
   - 企業
 cyb_extensions: []
@@ -35,7 +37,8 @@ features:
   - 滿額贈
   - 滿件贈
 prerequisites: []
-related: []
+related:
+  - ec/members/member-filters-and-groups/
 tags:
   - 贈品設定
   - 商品標籤
@@ -47,7 +50,10 @@ devices:
   - mobile
 ui_components: []
 paths:
+  - 商品 > 所有商品
   - 行銷活動 > 滿額贈/滿件贈
+  - 會員 > 所有會員
+  - 行銷活動 > 滿額贈滿件贈
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8276

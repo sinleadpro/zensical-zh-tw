@@ -18,14 +18,7 @@ modules:
 sites:
   - TW
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 audiences:
   - developer
@@ -39,7 +32,7 @@ features:
   - 收件人優先
 prerequisites: []
 related:
-  - ec/website-appearance/code-customization/restore-code-theme-editor.md
+  - ec/website-appearance/code-customization/restore-code-theme-editor/
 tags:
   - 結帳流程優化
   - 跨境電商
@@ -53,9 +46,7 @@ devices:
 ui_components: []
 paths:
   - 網站外觀 > 套版主題管理 > CSS/HTML 編輯器
-layouts:
-  - classic
-  - draggable
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=26454
 comments: false

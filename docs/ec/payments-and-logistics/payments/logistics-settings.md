@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 設定超商取貨姓名規範與離島配送
@@ -46,10 +39,11 @@ prerequisites:
   - 若需使用進階指定配送功能，請確認已啟用「進階指定配送」(PLUS版以上或企業版)
   - 若需使用退貨時間調整設定，請確認已啟用對應功能
 related:
-  - "ec/payments-and-logistics/payments/cart-settings"
-  - "ec/payments-and-logistics/payments/order-settings"
-  - "ec/orders/order-settings/shipping-detail-print"
-  - "ec/payments-and-logistics/references/return-eligible-days-reference"
+  - ec/marketing/other-tools/subscription-campaign-page/
+  - ec/orders/order-settings/shipping-detail-print/
+  - ec/payments-and-logistics/references/return-eligible-days-reference/
+  - ec/payments-and-logistics/payments/cart-settings/
+  - ec/payments-and-logistics/payments/order-settings/
 tags:
   - 物流設定
   - 超商取貨

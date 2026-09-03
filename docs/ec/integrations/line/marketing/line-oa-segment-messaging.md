@@ -37,11 +37,14 @@ features:
   - 文字訊息發送
   - 圖片訊息發送
 prerequisites:
-  - 串接 LINE Messaging API
-  - 設定 LINE 快速登入
-  - 綁定 LINE 官方帳號與官網會員
+  - ec/integrations/line/account-integration/connect-line-messaging-api/
+  - ec/integrations/line/account-integration/setup-line-quick-login/
+  - ec/integrations/line/account-integration/bind-line-oa-store-members/
 related:
-  - 使用 AUTOMATION 建立自動化推播流程
+  - ec/integrations/line/account-integration/connect-line-messaging-api/
+  - ec/integrations/line/account-integration/setup-line-quick-login/
+  - ec/integrations/line/account-integration/bind-line-oa-store-members/
+  - ec/app-market/automation/automation-push-flow/
 tags:
   - 分眾訊息
   - 訊息推播

@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - Google Search Console 驗證
@@ -39,7 +32,7 @@ features:
   - HTML 標記驗證
 prerequisites: []
 related:
-  - "ec/website-management/seo/submit-sitemap-to-gsc"
+  - ec/website-management/seo/submit-sitemap-to-gsc/
 tags:
   - GSC
   - SEO

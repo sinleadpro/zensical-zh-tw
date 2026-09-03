@@ -14,6 +14,7 @@ products:
   - EC
 modules:
   - 會員
+  - 行銷活動
 sites:
   - TW
 audiences:
@@ -21,10 +22,11 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 企業
-  - 專業
-  - 進階
   - 高手
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 cyb_extensions: []
 intents:
   - 如何設定 VIP 專屬優惠
@@ -34,7 +36,10 @@ features:
   - 會員專屬價格
   - 紅利倍數
 prerequisites: []
-related: []
+related:
+  - ec/marketing/bonus-and-gifts/setup-bonus-points/
+  - ec/members/manage-member-profiles/
+  - ec/marketing/coupon/gift-coupon-spec/
 tags:
   - VIP
   - 會員
@@ -47,7 +52,7 @@ devices:
 ui_components: []
 paths:
   - 會員 > VIP 設定
-  - 商品 > 所有商品
+  - 行銷活動 > 全館折扣-紅利 & 優惠券
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7498

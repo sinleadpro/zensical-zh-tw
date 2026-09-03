@@ -21,14 +21,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions:
   - APP MARKET
 intents:
@@ -43,14 +36,19 @@ features:
   - 目錄型廣告
   - 圖片型廣告
 prerequisites:
-  - "ec/integrations/fb/mbe/setup-fbe-authorization"
-  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
-  - "ec/app-market/install-meta-ads-app"
+  - ec/integrations/fb/mbe/setup-fbe-authorization/
+  - ec/integrations/fb/meta-ads/create-meta-ad-account-top-up/
+  - ec/app-market/install-meta-ads-app/
 related:
-  - "ec/integrations/fb/meta-ads/meta-ad-performance-analysis"
-  - "ec/integrations/fb/meta-ads/meta-ad-daily-budget-guide"
-  - "ec/integrations/fb/meta-ads/setup-meta-ad-catalog-sets"
-  - "ec/integrations/fb/meta-ads/share-asset-permissions-cyberbiz"
+  - ec/integrations/fb/mbe/setup-fbe-authorization/
+  - ec/integrations/fb/meta-ads/create-meta-ad-account-top-up/
+  - ec/app-market/install-meta-ads-app/
+  - ec/integrations/fb/meta-ads/meta-ad-daily-budget-guide/
+  - ec/products/create-and-manage/setup-product-videos/
+  - ec/integrations/fb/meta-ads/sync-product-videos-meta-catalog/
+  - ec/integrations/fb/meta-ads/setup-meta-ad-catalog-sets/
+  - ec/integrations/fb/meta-ads/meta-ad-performance-analysis/
+  - ec/integrations/fb/meta-ads/share-asset-permissions-cyberbiz/
 tags:
   - Meta Ads
   - FB 廣告
@@ -64,7 +62,7 @@ devices:
   - mobile
 ui_components: []
 paths:
-  - 第三方整合 > Facebook 整合_廣告_註冊登入 > 廣告活動設定
+  - 第三方整合 > 臉書 Facebook 設定 > 廣告活動設定
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10374

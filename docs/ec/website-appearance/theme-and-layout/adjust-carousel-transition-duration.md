@@ -20,14 +20,7 @@ audiences:
   - developer
 difficulty: advanced
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 調整跑馬燈轉場時間
@@ -39,7 +32,8 @@ features:
   - 樣板編輯器
 prerequisites:
   - 登入 CYBERBIZ 管理後台
-related: []
+related:
+  - ec/website-appearance/code-customization/restore-code-theme-editor/
 tags:
   - 跑馬燈
   - 輪播圖
@@ -54,7 +48,8 @@ devices:
 ui_components: []
 paths:
   - 網站外觀 > 套版主題管理 > CSS/HTML 編輯器
-layouts: []
+layouts:
+  - classic
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1643
   - https://www.cyberbiz.io/helpcenter/?p=3558

@@ -21,6 +21,7 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
+  - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
@@ -35,7 +36,7 @@ prerequisites:
   - "建立與管理門市"
   - "設定門市取貨服務"
 related:
-  - "建立與管理門市"
+  - pos/orders/store-pickup-orders-inbound-and-pickup/
 tags:
   - 門市取貨
   - 出貨流程
@@ -51,7 +52,7 @@ ui_components:
   - 退回總倉
   - 退貨審查
 paths:
-  - 訂單 > 門市訂單
+  - 訂單 > 所有訂單
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=10522

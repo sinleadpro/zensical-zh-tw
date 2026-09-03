@@ -40,7 +40,9 @@ features:
   - 影片規格限制
   - Meta 目錄型廣告同步
 prerequisites:
-related: []
+related:
+  - ec/website-appearance/theme-and-layout/setup-global-theme-settings/
+  - ec/integrations/fb/meta-ads/sync-product-videos-meta-catalog/
 tags:
   - 商品影片
   - 媒體庫
@@ -57,10 +59,11 @@ ui_components:
   - 商品編輯頁
   - 全站設定
 paths:
+  - 商品 > 所有商品 > 新增商品
   - 商品 > 所有商品
-  - 網站外觀 > 套版主題管理 > 網站設定
   - 商品 > 媒體庫
-layouts: []
+layouts:
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1830
   - https://www.cyberbiz.io/support/?p=984

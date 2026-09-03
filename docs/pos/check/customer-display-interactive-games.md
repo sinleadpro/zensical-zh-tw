@@ -37,7 +37,7 @@ features:
 prerequisites:
   - 需具備 POS 客顯螢幕設備
 related:
-  - 客顯螢幕
+  - pos/hardware/customer-display-screen/
 tags:
   - POS
   - 客顯螢幕

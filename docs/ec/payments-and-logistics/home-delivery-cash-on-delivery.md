@@ -33,7 +33,8 @@ features:
   - 新竹物流廠勘
 prerequisites:
   - 站台需使用 CYBERBIZ PAYMENTS 金流服務
-related: []
+related:
+  - ec/payments-and-logistics/setup-home-delivery-non-cod-custom-logistics/
 tags:
   - 串接物流
 acoiv: configure
@@ -42,6 +43,7 @@ devices:
   - desktop
 ui_components: []
 paths:
+  - 金物流 > 宅配物流 > 串接物流 > 新竹物流貨到付款
   - 金物流 > 宅配物流 > 串接物流
 layouts: []
 wp_url:

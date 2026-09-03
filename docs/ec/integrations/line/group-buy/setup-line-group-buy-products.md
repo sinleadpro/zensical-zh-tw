@@ -35,9 +35,9 @@ features:
   - 團購商品分類
   - 團購價
 prerequisites:
-  - 設定 LINE 團購機器人
+  - ec/integrations/line/group-buy/setup-line-group-bot/
 related:
-  - 團購群組設定
+  - ec/integrations/line/group-buy/setup-line-group-buy-group/
 tags:
   - LINE OA
   - LINE 團購
@@ -49,7 +49,8 @@ devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
+paths:
+  - 第三方整合 > LINE 團購設定
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=29174&page=3

@@ -20,14 +20,7 @@ modules:
 sites:
   - TW
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 audiences:
   - developer
@@ -39,7 +32,9 @@ features:
   - Liquid 語法修改
   - 商品名稱設定
 prerequisites: []
-related: []
+related:
+  - ec/website-appearance/code-customization/restore-code-theme-editor/
+  - ec/products/categories-and-tags/secret-collection/
 tags: 
   - 搜尋排除
   - 關鍵字排除

@@ -32,8 +32,8 @@ features:
   - 商品標籤
 prerequisites: []
 related:
-  - "ec/products/categories-and-tags/manage-product-tags"
-  - "ec/products/create-and-manage/edit-product-description-settings"
+  - ec/products/categories-and-tags/manage-product-tags/
+  - ec/products/create-and-manage/edit-product-description-settings/
 tags:
   - 排除標籤
   - Product Feed

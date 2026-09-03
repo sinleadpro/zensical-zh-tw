@@ -20,14 +20,7 @@ audiences:
   - developer
 difficulty: advanced
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 修改樣板程式碼以實現導覽選單自動展開
@@ -37,7 +30,8 @@ features:
   - 程式碼修改
   - 網頁前端設定
 prerequisites: []
-related: []
+related:
+  - ec/website-appearance/code-customization/restore-code-theme-editor/
 tags:
   - 導覽選單
   - 自動展開

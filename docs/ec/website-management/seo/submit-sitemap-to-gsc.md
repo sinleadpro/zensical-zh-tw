@@ -14,20 +14,14 @@ products:
   - EC
 modules:
   - 管理中心
+  - 行銷活動
 sites:
   - TW
 audiences:
   - merchant
 difficulty: ""
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 提交_Sitemap
@@ -39,11 +33,11 @@ features:
   - Google Search Console
   - XML
 prerequisites:
-  - "ec/integrations/google/setup-google-search-console"
-  - "ec/integrations/google/ga/setup-google-analytics"
+  - ec/integrations/google/setup-google-search-console/
+  - ec/integrations/google/ga/setup-google-analytics/
 related:
-  - "ec/integrations/google/setup-google-search-console"
-  - "ec/website-management/seo/seo-guide"
+  - ec/integrations/google/setup-google-search-console/
+  - ec/integrations/google/ga/setup-google-analytics/
 tags:
   - Sitemap
   - SEO

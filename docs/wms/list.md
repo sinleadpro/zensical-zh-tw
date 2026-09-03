@@ -11,10 +11,10 @@ notes: []
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - WMS
 modules:
   - 電商倉儲
+  - 訂單
 sites:
   - TW
 audiences: []

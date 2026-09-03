@@ -4,9 +4,8 @@ description: 串接日本郵局 (Japan Post) EMS 服務，協助商家高效建�
 created: 2026-07-23 18:30
 last_modified: 2026-07-23 18:30
 lang: zh-TW
-type: tutorial
+type: guide
 status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -16,10 +15,11 @@ products:
   - EC
 modules:
   - APP MARKET
+  - 訂單
 sites:
   - JP
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -38,7 +38,9 @@ prerequisites:
   - 需向開店顧問團隊申請開通服務
   - 需安裝 CYBERBIZ EXPRESS APP
   - 需具備商品英文名稱
-related: []
+related:
+  - ec/app-market/express/product-info-setting/
+  - ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery/
 tags: 
   - EMS
   - 日本郵局
@@ -52,10 +54,10 @@ ui_components:
   - 物流管理
 paths: 
   - APP MARKET > 我的擴充服務 > CYBERBIZ EXPRESS
-  - 商品 > 所有商品
+  - 訂單 > 所有訂單
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/express/cyberbiz-express-ems/"
 comments: false
 search:
   exclude: false

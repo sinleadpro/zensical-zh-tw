@@ -41,9 +41,9 @@ features:
 prerequisites:
   - 需完成門市建立且地址填寫正確
 related:
-  - "ec/products/copy-products-to-quick-delivery-stores"
-  - "ec/website-appearance/setup-quick-delivery-frontend-entry"
-  - "ec/orders/quick-delivery-order-preparation"
+  - ec/products/copy-products-to-quick-delivery-stores/
+  - ec/website-appearance/setup-quick-delivery-frontend-entry/
+  - ec/orders/store-pickup-orders/
 tags:
   - 快速到貨
   - 門市管理
@@ -56,7 +56,7 @@ devices:
 ui_components:
   - backend
 paths:
-  - 金物流 > 所有門市 > 快速到貨設定
+  - 金物流 > 所有門市
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=12783

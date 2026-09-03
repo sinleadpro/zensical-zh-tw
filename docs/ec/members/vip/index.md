@@ -20,11 +20,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 進階
-  - 高手
+plans: []
 cyb_extensions: []
 intents:
   - 規劃 VIP 制度
@@ -33,7 +29,12 @@ features:
   - VIP 制度
   - 會員分級
 prerequisites: []
-related: []
+related:
+  - ec/members/vip/setup-store-wide-vip-system/
+  - ec/members/vip/create-exclusive-vip-groups/
+  - ec/members/vip/vip-upgrade-downgrade-renewal-rules/
+  - ec/members/vip/setup-exclusive-vip-discounts/
+  - ec/products/pricing/setup-vip-member-pricing/
 tags: []
 acoiv: activate
 apis: []

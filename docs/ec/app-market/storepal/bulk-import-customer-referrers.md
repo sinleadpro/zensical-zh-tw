@@ -26,7 +26,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
-cyb_extensions: []
+cyb_extensions:
+  - STORE PAL
 intents:
   - 批量綁定門市推薦人
   - 更換會員推薦人

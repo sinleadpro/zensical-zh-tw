@@ -31,9 +31,7 @@ features:
   - 優惠券
   - 紅利點數
 prerequisites: []
-related: 
-  - "ec/marketing/coupon/index"
-  - "ec/marketing/bonus-and-gifts/setup-bonus-points"
+related: []
 tags: 
   - 優惠計算
   - 折扣順序

@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - Google 快速登入
@@ -38,9 +31,7 @@ features:
   - 快速登入
   - 會員綁定
 prerequisites: []
-related:
-  - "ec/integrations/line/account-integration/setup-line-quick-login"
-  - "ec/integrations/line/account-integration/bind-line-oa-store-members"
+related: []
 tags:
   - Google 快速登入
   - 第三方登入

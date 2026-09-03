@@ -16,20 +16,14 @@ products:
   - EC
 modules:
   - 訂單
+  - 金物流
 sites:
   - TW
 audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 啟用冷凍店到店服務
@@ -46,7 +40,10 @@ prerequisites:
   - 於CYBERBIZ後台啟用全家冷凍店到店服務
   - 同意相關服務條款
   - 填寫寄件人資訊
-related: []
+related:
+  - ec/orders/cvs-shipping/cvs-c2c-shipping/
+  - ec/orders/references/cvs-waybill-expiration-reference/
+  - ec/orders/renew-waybill-after-expiration/
 tags:
   - 全家冷凍店到店
   - 冷凍物流
@@ -60,7 +57,8 @@ devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
+paths:
+  - 金物流 > 超商物流
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8221

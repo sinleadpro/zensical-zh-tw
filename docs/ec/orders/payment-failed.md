@@ -14,20 +14,14 @@ products:
   - EC
 modules:
   - 訂單
+  - 金物流
 sites:
   - TW
 audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 處理付款失敗訂單
@@ -45,16 +39,15 @@ features:
   - 美安 shop.com
 prerequisites: []
 related:
-  - "ec/orders/order-settings/provide-payment-link"
-  - "ec/orders/order-settings/unpaid-reminder-settings"
-  - "ec/notifications/manage-email-templates"
-  - "ec/notifications/manage-sms-templates-v2"
-  - "ec/orders/order-settings/auto-close-order-settings"
-  - "ec/orders/basics/cancel-order"
-  - "定期定額活動頁"
-  - "ec/payments-and-logistics/setup-aftee"
-  - "ec/payments-and-logistics/setup-credit-card-3d-verification"
-  - "ec/orders/references/payment-statuses"
+  - ec/orders/order-settings/provide-payment-link/
+  - ec/payments-and-logistics/payments/order-settings/
+  - ec/notifications/manage-email-templates/
+  - ec/notifications/manage-sms-templates-v2/
+  - ec/orders/basics/cancel-order/
+  - ec/marketing/other-tools/subscription-campaign-page/
+  - ec/payments-and-logistics/setup-aftee/
+  - ec/payments-and-logistics/setup-credit-card-3d-verification/
+  - ec/orders/references/payment-statuses/
 tags:
   - 付款失敗
   - 重新付款

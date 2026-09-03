@@ -11,7 +11,7 @@ notes: []
 ga_views: 0
 feedback: 0
 products:
-  - EC
+  - WMS
 modules:
   - 設定
 sites:

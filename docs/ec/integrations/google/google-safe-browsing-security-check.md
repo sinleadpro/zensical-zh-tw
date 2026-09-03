@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 檢查網站安全性
@@ -39,10 +32,11 @@ features:
   - 安全性問題審核
   - 安全警示解除
 prerequisites:
-  - "ec/integrations/google/setup-google-search-console"
+  - ec/integrations/google/setup-google-search-console/
 related:
-  - "ec/website-management/setup-manage-two-factor-auth"
-  - "ec/website-management/admin-security-settings"
+  - ec/integrations/google/setup-google-search-console/
+  - ec/website-management/setup-manage-two-factor-auth/
+  - ec/website-management/admin-security-settings/
 tags:
   - Google 安全瀏覽
   - 網站安全性

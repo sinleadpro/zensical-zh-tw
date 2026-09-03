@@ -22,12 +22,12 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 企業
-  - 專業PLUS
   - 進階
-  - 進階PLUS
   - 高手
+  - 專業PLUS
+  - 進階PLUS
   - 高手PLUS
+  - 企業
 cyb_extensions:
 intents:
   - 申請街口支付帳號
@@ -53,7 +53,8 @@ devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
+paths:
+  - 金物流 > 金流設定
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2933

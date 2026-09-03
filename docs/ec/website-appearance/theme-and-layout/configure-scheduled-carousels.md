@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 建立排程跑馬燈
@@ -40,7 +33,9 @@ features:
   - Liquid 樣板編輯
 prerequisites: []
 related:
-  - "ec/website-appearance/theme-and-layout/theme-editor"
+  - ec/website-appearance/references/scheduled-carousel-statuses/
+  - ec/website-appearance/theme-and-layout/setup-theme-page-settings/
+  - ec/website-appearance/theme-and-layout/theme-editor/
 tags:
   - 排程跑馬燈
   - 橫幅廣告
@@ -55,9 +50,7 @@ devices:
 ui_components: []
 paths:
   - 網站外觀 > 排程跑馬燈設定
-layouts:
-  - classic
-  - draggable
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5760
   - https://www.cyberbiz.io/support/?p=7863

@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: ""
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 設定_Facebook_快速登入
@@ -41,8 +34,7 @@ features:
   - OAuth 重新導向
 prerequisites: []
 related:
-  - "ec/integrations/line/account-integration/setup-line-quick-login"
-  - "ec/integrations/google/setup-google-quick-login"
+  - ec/website-management/domain-management/
 tags:
   - FB 快速登入
   - Meta

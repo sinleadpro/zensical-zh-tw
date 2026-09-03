@@ -32,8 +32,7 @@ features:
   - Excel 匯出
   - 預測報表
 prerequisites: []
-related:
-  - "ec/orders/reports/export-order-report"
+related: []
 tags:
   - 定期定額
   - 子訂單

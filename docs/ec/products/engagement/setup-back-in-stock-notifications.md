@@ -18,11 +18,11 @@ sites:
   - TW
 tnb: branch
 plans:
-  - 企業
   - 進階
-  - 進階PLUS
   - 高手
+  - 進階PLUS
   - 高手PLUS
+  - 企業
 cyb_extensions: []
 audiences:
   - merchant
@@ -37,8 +37,9 @@ features:
   - 庫存管理自動化
 prerequisites:
 related:
-  - "ec/products/create-and-manage/edit-product-description-settings"
-  - "ec/products/create-and-manage/create-update-products"
+  - ec/notifications/manage-email-templates/
+  - ec/products/create-and-manage/edit-product-description-settings/
+  - ec/products/create-and-manage/create-update-products/
 tags:
   - 商品貨到通知
   - 補貨通知
@@ -55,8 +56,6 @@ ui_components:
   - 套版主題管理
 paths:
   - 商品 > 所有商品
-  - 網站外觀 > 套版主題管理 > 網站設定
-  - 訊息推播 > Email 通知樣板
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5661

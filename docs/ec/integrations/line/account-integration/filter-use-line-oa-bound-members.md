@@ -40,7 +40,10 @@ features:
   - LINE 受眾打包
   - LINE OA 同步
 prerequisites: []
-related: []
+related:
+  - ec/integrations/line/account-integration/bind-line-oa-store-members/
+  - ec/integrations/line/marketing/setup-line-oa-audience/
+  - ec/notifications/send-line-friend-invitation/
 tags:
   - LINE 綁定
   - 會員篩選
@@ -57,8 +60,7 @@ devices:
 ui_components: []
 paths:
   - 會員 > 所有會員
-layouts:
-  - draggable
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=721
 comments: false

@@ -15,6 +15,7 @@ products:
   - POS
 modules:
   - 所有 POS 商店
+  - 商品
 sites:
   - TW
 audiences:
@@ -55,7 +56,7 @@ ui_components:
   - LINE Pay Channel ID
   - 付款方式
 paths:
-  - POS 功能 > 所有 POS 商店 > POS 結帳設定
+  - 商品 > 所有商品
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=11171

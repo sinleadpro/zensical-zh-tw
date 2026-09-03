@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans: 
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 下載託運單
@@ -42,17 +35,16 @@ features:
   - DHL 跨境物流
 prerequisites: []
 related:
-  - "ec/orders/references/fulfillment-statuses"
-  - "ec/orders/home-delivery/partial-shipment-v2"
-  - "ec/orders/payment-failed"
-  - "ec/payments-and-logistics/apply-for-ecpay-payment-and-cvs-cod"
-  - "ec/orders/home-delivery/tcat-home-delivery-v2"
-  - "ec/payments-and-logistics/setup-print-tcat-waybill-v2"
-  - "ec/orders/cvs-shipping/cvs-c2c-shipping"
-  - "ec/orders/cvs-shipping/cvs-b2c-bulk-shipping"
-  - "ec/orders/returns-refunds/7-11-c2c-return"
-  - "補印與加印託運單"
-  - "ec/payments-and-logistics/dhl-cross-border-logistics"
+  - ec/payments-and-logistics/apply-for-ecpay-payment-and-cvs-cod/
+  - ec/orders/home-delivery/tcat-home-delivery-v2/
+  - ec/payments-and-logistics/setup-print-tcat-waybill-v2/
+  - ec/orders/references/fulfillment-statuses/
+  - ec/orders/cvs-shipping/cvs-c2c-shipping/
+  - ec/orders/cvs-shipping/cvs-b2c-bulk-shipping/
+  - ec/orders/returns-refunds/7-11-c2c-return/
+  - ec/payments-and-logistics/dhl-cross-border-logistics/
+  - ec/orders/home-delivery/partial-shipment-v2/
+  - ec/orders/payment-failed/
 tags:
   - 託運單
   - 貨態異常

@@ -40,10 +40,9 @@ features:
   - Excel 匯出
   - 商品 VIP 標籤連結
 prerequisites:
-  - 建立專屬VIP群組
+  - ec/members/vip/create-exclusive-vip-groups/
 related:
-  - 管理商品標籤
-  - 新增與更新商品
+  - ec/members/vip/create-exclusive-vip-groups/
 tags:
   - VIP
   - 會員行銷
@@ -59,8 +58,7 @@ ui_components:
   - 操作選單
   - 網站設定
 paths:
-  - 商品 > 所有商品 > 編輯會員專屬價格
-  - 網站外觀 > 套版主題管理 > 網站設定
+  - 商品 > 所有商品
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5794

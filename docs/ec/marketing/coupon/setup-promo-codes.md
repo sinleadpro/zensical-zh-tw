@@ -12,19 +12,16 @@ ga_views: 0
 feedback: 0
 products: 
   - EC
-modules: 
+modules:
   - 行銷活動
+  - 金物流
 sites: 
   - TW
 audiences: 
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 進階
-  - 高手
+plans: []
 cyb_extensions: []
 intents: 
   - 設定優惠碼
@@ -37,8 +34,9 @@ features:
   - 自動套用優惠
   - 免運折扣
 prerequisites: []
-related: 
-  - "設定全館折扣 – 紅利&優惠券"
+related:
+  - ec/marketing/coupon/multiple-coupons/
+  - ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification/
 tags: 
   - 優惠碼
   - 贈品券

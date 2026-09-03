@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans: 
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 查詢簡訊發送紀錄
@@ -38,7 +31,8 @@ features:
   - 發送紀錄列表
 prerequisites: []
 related:
-  - "ec/notifications/send-sms-notifications-v2"
+  - ec/notifications/send-sms-notifications-v2/
+  - ec/notifications/manage-sms-templates-v2/
 tags:
   - 簡訊
   - 發送紀錄

@@ -12,6 +12,7 @@ ga_views:
 feedback:
 products:
   - EC
+  - POS
 modules:
   - 分析報表
 sites:
@@ -38,7 +39,10 @@ features:
   - 基準參考範圍
   - 門市排行表
 prerequisites: []
-related: []
+related:
+  - ec/business-intelligence/references/bi-overview-metrics-reference/
+  - ec/business-intelligence/references/benchmark-reference-range-status-reference/
+  - ec/business-intelligence/benchmarking/
 tags:
   - 分析報表
   - 圖表總覽

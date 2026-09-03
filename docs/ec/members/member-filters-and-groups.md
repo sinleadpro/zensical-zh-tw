@@ -12,8 +12,9 @@ notes:
   - 內部連結
 ga_views: 0
 feedback: 0
-products: 
+products:
   - EC
+  - POS
 modules: 
   - 會員
 sites: 
@@ -35,7 +36,8 @@ features:
   - 智慧篩選
   - 會員標籤
 prerequisites: []
-related: []
+related:
+  - ec/website-management/customer-registration-flow-and-fields/
 tags: 
   - 會員管理
   - 會員篩選

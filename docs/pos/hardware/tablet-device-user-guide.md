@@ -36,7 +36,15 @@ features:
   - 跨平台支援
   - Web應用程式
 prerequisites: []
-related: []
+related:
+  - pos/hardware/taishin-wired-credit-card-machine/
+  - pos/hardware/epson-tm-t82iii-invoice-printer/
+  - pos/hardware/mypay-wireless-credit-card-machine/
+  - pos/hardware/customer-display-screen/
+  - pos/hardware/label-printer/
+  - pos/hardware/hprt-n130-barcode-scanner/
+  - pos/check/offline-checkout-mode/
+  - pos/software/drivers/
 tags:
   - 平板POS
   - iPad

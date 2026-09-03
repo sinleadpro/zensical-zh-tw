@@ -11,52 +11,53 @@ notes: []
 ga_views: 0
 feedback: 0
 products:
-  - "EC"
+  - EC
 modules:
-  - "管理中心"
+  - 管理中心
+  - 行銷活動
 sites:
-  - "TW"
+  - TW
 audiences:
   - merchant
 difficulty: ""
-tnb: "trunk"
-plans:
-  - "專業"
-  - "進階"
-  - "高手"
-  - "專業PLUS"
-  - "進階PLUS"
-  - "高手PLUS"
-  - "企業"
+tnb: trunk
+plans: []
 cyb_extensions: []
 intents:
-  - "SEO_優化"
-  - "設定_Meta_Tag"
-  - "圖片_ALT_屬性"
-  - "商品頁_SEO"
+  - SEO_優化
+  - 設定_Meta_Tag
+  - 圖片_ALT_屬性
+  - 商品頁_SEO
 features:
-  - "SEO"
-  - "Meta Tag"
-  - "ALT 屬性"
-  - "Sitemap"
-  - "301 轉址"
+  - SEO
+  - Meta Tag
+  - ALT 屬性
+  - Sitemap
+  - 301 轉址
 prerequisites: []
 related:
-  - "ec/website-management/seo/submit-sitemap-to-gsc"
-  - "ec/website-management/seo/setup-301-redirects"
+  - ec/website-management/setup-store-basic-info/
+  - ec/website-appearance/site-settings/setup-site-title-seo/
+  - ec/website-appearance/pages-and-content/blog-management-publishing-guide/
+  - ec/website-appearance/pages-and-content/custom-pages/
+  - ec/website-management/seo/submit-sitemap-to-gsc/
+  - ec/website-management/seo/setup-301-redirects/
 tags:
-  - "SEO"
-  - "Meta Tag"
-  - "搜尋引擎優化"
-  - "網站排名"
-acoiv: "configure"
+  - SEO
+  - Meta Tag
+  - 搜尋引擎優化
+  - 網站排名
+acoiv: configure
 apis: []
 devices:
-  - "desktop"
-  - "mobile"
+  - desktop
+  - mobile
 ui_components: []
 paths:
-  - "行銷活動 > SEO"
+  - 商品 > 所有商品
+  - 商品 > 商品自訂分類
+  - 管理中心 > 一般設定
+  - 網站外觀 > 套版主題管理
 layouts: []
 wp_url:
   - "https://www.cyberbiz.io/helpcenter/?p=3512"

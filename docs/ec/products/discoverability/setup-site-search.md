@@ -21,14 +21,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 設定站內搜尋
@@ -39,9 +32,14 @@ features:
   - 站內搜尋追蹤
 prerequisites: []
 related:
-  - "ec/integrations/google/ga/setup-ga4-site-search-tracking"
-  - "ec/products/create-and-manage/create-update-products"
-  - "ec/products/discoverability/exclude-keyword-products-search"
+  - ec/products/create-and-manage/create-update-products/
+  - ec/products/categories-and-tags/custom-collections/
+  - ec/products/categories-and-tags/smart-collections/
+  - ec/products/create-and-manage/edit-product-description-settings/
+  - ec/website-appearance/navigation/setup-menus-navigation/
+  - ec/products/create-and-manage/product-management-interface/
+  - ec/products/discoverability/exclude-keyword-products-search/
+  - ec/integrations/google/ga/setup-ga4-site-search-tracking/
 tags:
   - 站內搜尋
   - 商品搜尋

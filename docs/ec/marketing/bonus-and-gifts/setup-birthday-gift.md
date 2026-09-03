@@ -21,10 +21,10 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
-  - 專業
-  - 進階
-  - 高手
 cyb_extensions: []
 intents: 
   - 設定生日禮
@@ -35,8 +35,9 @@ features:
   - 紅利點數
   - 優惠券
 prerequisites: []
-related: 
-  - "VIP 等級與專屬生日禮設定"
+related:
+  - ec/members/vip/setup-exclusive-vip-discounts/
+  - ec/members/manage-member-profiles/
 tags: 
   - 生日禮
   - 紅利點數

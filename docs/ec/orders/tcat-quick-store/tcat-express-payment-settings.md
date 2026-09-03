@@ -22,14 +22,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 設定黑貓快速到店付款方式
@@ -49,14 +42,17 @@ features:
   - 代收手續費
 prerequisites:
   - 開通 CYBERBIZ PAYMENTS (若需使用貨到付款功能)
-related: []
+related:
+  - ec/orders/tcat-quick-store/tcat-quick-store-shipping/
+  - ec/products/shipping/cvs-shipping-restrictions-exclusions/
 acoiv:
 apis: []
 devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
+paths:
+  - 金物流 > 超商物流
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2655

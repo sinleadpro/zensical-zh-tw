@@ -6,6 +6,7 @@ author: Jase
 reviewers: []
 modules:
   - 商品
+  - 行銷活動
 acoiv: configure
 paths:
   - 行銷活動 > 電子票券任選折扣

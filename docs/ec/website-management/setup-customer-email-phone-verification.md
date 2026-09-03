@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 設定 Email 驗證
@@ -44,12 +37,12 @@ features:
   - 必須註冊
 prerequisites: []
 related:
-  - "ec/website-management/references/customer-registration-modes-reference"
-  - "ec/website-management/references/customer-field-validation-reference"
-  - "ec/notifications/manage-email-templates"
-  - "ec/notifications/manage-sms-templates-v2"
-  - "ec/website-management/customer-registration-flow-and-fields"
-  - "ec/members/manage-member-profiles"
+  - ec/website-management/references/customer-field-validation-reference/
+  - ec/website-management/references/customer-registration-modes-reference/
+  - ec/notifications/manage-email-templates/
+  - ec/notifications/manage-sms-templates-v2/
+  - ec/website-management/customer-registration-flow-and-fields/
+  - ec/members/manage-member-profiles/
 tags:
   - 雙重驗證
   - Email 驗證

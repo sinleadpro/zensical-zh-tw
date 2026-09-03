@@ -15,6 +15,7 @@ products:
 modules:
   - app-market
   - 行銷活動
+  - APP MARKET
 sites:
   - TW
 audiences:
@@ -39,11 +40,13 @@ features:
   - 會員分群
   - 成效追蹤
 prerequisites:
-  - "ec/notifications/send-edm-newsletters-v2"
-  - "ec/integrations/line/account-integration/setup-line-quick-login"
-  - "ec/integrations/line/account-integration/bind-line-oa-store-members"
+  - ec/notifications/send-edm-newsletters-v2/
+  - ec/integrations/line/account-integration/setup-line-quick-login/
+  - ec/integrations/line/account-integration/bind-line-oa-store-members/
 related:
-  - "ec/notifications/send-edm-newsletters-v2"
+  - ec/notifications/send-edm-newsletters-v2/
+  - ec/integrations/line/account-integration/setup-line-quick-login/
+  - ec/integrations/line/account-integration/bind-line-oa-store-members/
 tags:
   - AUTOMATION
   - 自動化行銷
@@ -58,7 +61,8 @@ devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
+paths:
+  - APP MARKET > 我的擴充服務 > CYBERBIZ AUTOMATION
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7955

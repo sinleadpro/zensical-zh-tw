@@ -33,7 +33,8 @@ features:
 prerequisites:
   - "商店已開啟紅利點數功能"
   - "已完成基本物流方式設定"
-related: []
+related:
+  - ec/marketing/references/coupon-and-bonus-credit-rules/
 tags:
   - 行銷活動
   - 紅利回饋

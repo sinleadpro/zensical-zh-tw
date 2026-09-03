@@ -39,8 +39,12 @@ prerequisites:
   - 了解有效訂單定義
   - 了解數據更新時間
 related:
-  - "ec/business-intelligence/member-analysis"
-  - "ec/business-intelligence/customer-analysis"
+  - ec/business-intelligence/references/member-analysis-definitions-reference/
+  - ec/business-intelligence/references/member-status-registration-sources-reference/
+  - ec/business-intelligence/references/member-age-groups-reference/
+  - ec/business-intelligence/references/member-level-sales-status-reference/
+  - ec/business-intelligence/member-analysis/
+  - ec/business-intelligence/customer-analysis/
 tags:
   - 會員總覽
   - 會員分析

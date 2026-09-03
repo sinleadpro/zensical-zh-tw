@@ -31,7 +31,7 @@ features:
   - Google Ads 強化轉換
   - 轉換追蹤優化
 prerequisites:
-  - "ec/integrations/google/setup-google-ads-conversion-tracking"
+  - ec/integrations/google/setup-google-ads-conversion-tracking/
 tags:
   - Google Ads
   - 強化轉換

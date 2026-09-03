@@ -18,20 +18,14 @@ products:
   - EC
 modules:
   - 商品
+  - 金物流
 sites:
   - TW
 audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 如何設定物流運費
@@ -48,7 +42,9 @@ features:
   - 貨到付款設定
 prerequisites:
   - 登入 CYBERBIZ 管理後台
-related: []
+related:
+  - ec/products/checkout/checkout-split-multi-cart/
+  - ec/products/bulk-operations/batch-update-product-descriptions-shipping/
 tags:
   - 配送溫層
   - 物流設定

@@ -12,6 +12,7 @@ ga_views: 0
 feedback: 0
 products:
   - EC
+  - POS
 modules:
   - 金物流
 sites:
@@ -20,10 +21,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: ""
-plans:
-  - 專業
-  - 進階
-  - 高手
+plans: []
 cyb_extensions: []
 intents:
   - 設定訂單最低消費金額與累計金額防護
@@ -50,9 +48,12 @@ prerequisites:
   - 若需使用訂單取消退貨相關紅利設定，請確認已開通對應加值功能
   - 顧客取消訂單與申請退貨設定僅適用於拖拉版型
 related:
-  - "ec/orders/references/order-auto-close-types-reference"
-  - "ec/payments-and-logistics/payments/cart-settings"
-  - "ec/payments-and-logistics/payments/logistics-settings"
+  - ec/orders/references/order-auto-close-types-reference/
+  - ec/orders/order-settings/auto-close-order-settings/
+  - pos/orders/pos-order-auto-close/
+  - ec/orders/order-settings/order-detail-print/
+  - ec/payments-and-logistics/payments/logistics-settings/
+  - ec/payments-and-logistics/payments/cart-settings/
 tags:
   - 訂單設定
   - 訂單最低消費金額

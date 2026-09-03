@@ -4,7 +4,7 @@ description: 當官網已開通會員簡訊驗證（尤其含海外簡訊）時�
 created: 2026-08-12 10:59
 last_modified: 2026-08-12 10:59
 lang: zh-TW
-type: tutorial
+type: guide
 status: ""
 author: Ann
 reviewers: []
@@ -18,17 +18,10 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 防止機器人攻擊
@@ -43,9 +36,9 @@ features:
 prerequisites:
   - 需具備「設置」權限
 related:
-  - ec/website-management/member-security-settings.md
-  - ec/website-management/admin-security-settings.md
-  - ec/website-management/add-admin-set-permissions.md
+  - ec/website-management/member-security-settings/
+  - ec/website-management/admin-security-settings/
+  - ec/website-management/add-admin-set-permissions/
 tags:
   - 機器人防護
   - 簡訊驗證
@@ -61,6 +54,7 @@ paths:
   - 管理中心 > 安全性設定 > 機器人防護
 layouts: []
 wp_url: []
+permalink: "https://help.cyberbiz.io/ec/website-management/bot-protection-settings/"
 comments: false
 search:
   exclude: false
@@ -81,7 +75,7 @@ hide: []
 
 「安全性設定」是 CYBERBIZ 後台的資安控制中心，協助你降低帳號被盜用、顧客個資外洩與惡意造訪的風險。頁面位於後台「管理中心」>「安全性設定」，並分為三個主要防護領域：
 
-- **[會員安全](member-protection-settings/)**：負責保護網站與顧客資料。
+- **[會員安全](member-security-settings/)**：負責保護網站與顧客資料。
 - **[管理員登入](admin-security-settings/)**：負責保護你與員工登入後台的安全。
 - **機器人防護**：負責過濾惡意訪客，在簡訊發送前建立第一道防線。
 

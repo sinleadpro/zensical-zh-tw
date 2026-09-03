@@ -34,7 +34,10 @@ features:
   - 分潤方案管理
   - 分潤報表
 prerequisites: []
-related: []
+related:
+  - ec/payments-and-logistics/store-pickup/
+  - ec/profit-sharing/export-profit-sharing-reports/
+  - ec/profit-sharing/query-profit-sharing-partners-and-codes/
 tags:
   - POS 分潤
   - 門市取貨
@@ -52,8 +55,7 @@ ui_components:
   - 加入方案
   - 分潤報表
 paths:
-  - 分潤機制 > 門市取貨店員分潤
-  - 分潤機制 > 分潤報表
+  - 分潤 > 門市取貨店員分潤
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=10507

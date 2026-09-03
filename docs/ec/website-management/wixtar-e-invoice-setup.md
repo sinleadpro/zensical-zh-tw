@@ -11,7 +11,6 @@ modules:
 acoiv: configure
 paths:
   - 管理中心 > 發票設定
-  - 管理中心 > 對帳中心 > 對帳發票設定
 devices:
   - desktop
   - mobile
@@ -30,10 +29,10 @@ features:
 tnb: trunk
 plans:
   - 專業
-  - 專業PLUS
   - 進階
-  - 進階PLUS
   - 高手
+  - 專業PLUS
+  - 進階PLUS
   - 高手PLUS
   - 企業
 prerequisites:
@@ -54,7 +53,9 @@ audiences:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4068
   - https://www.cyberbiz.io/support/?p=2693
-products: [EC]
+products:
+  - EC
+  - POS
 notes:
   - verify FAQ
   - update internal links

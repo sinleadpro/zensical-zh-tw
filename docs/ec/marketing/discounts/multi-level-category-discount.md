@@ -22,10 +22,10 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 企業
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
+  - 企業
 cyb_extensions: []
 intents:
   - 如何設定商品多層級分類滿額折扣
@@ -34,8 +34,9 @@ features:
   - 商品多層級分類滿額折扣
   - 商品多層級分類
 prerequisites:
-  - "ec/products/categories-and-tags/multi-level-category-setup"
-related: []
+  - ec/products/categories-and-tags/multi-level-category-setup/
+related:
+  - ec/products/categories-and-tags/multi-level-category-setup/
 tags:
   - 行銷活動
   - 商品多層級分類

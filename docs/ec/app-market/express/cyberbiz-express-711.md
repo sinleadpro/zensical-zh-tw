@@ -4,9 +4,8 @@ description: 海外商家不須自行申請 7-11 跨境帳號，即可串接日�
 created: 2026-07-23 15:45
 last_modified: 2026-08-06 15:20
 lang: zh-TW
-type: tutorial
+type: guide
 status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -14,12 +13,14 @@ ga_views: 0
 feedback: 0
 products: 
   - EC
-modules: 
+modules:
   - APP MARKET
+  - 金物流
+  - 訂單
 sites: 
   - JP
 audiences: 
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans: 
@@ -37,8 +38,8 @@ features:
 prerequisites: 
   - 需向開店顧問團隊申請開通服務
   - 需安裝 CYBERBIZ EXPRESS APP
-related: 
-  - "[[cyberbiz-express-japan-to-taiwan-delivery]]"
+related:
+  - ec/app-market/express/product-info-setting/
 tags: 
   - 7-11 
   - 跨境物流
@@ -52,12 +53,12 @@ ui_components:
   - 建立託運單
   - 物流單號
   - 逾期處理
-paths: 
-  - APP MARKET > 我的擴充服務 > CYBERBIZ EXPRESS
+paths:
   - 金物流 > 物流設定 > 超商物流
+  - 訂單 > 所有訂單
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/express/cyberbiz-express-711/"
 comments: false
 search:
   exclude: false

@@ -21,14 +21,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 部落格
@@ -41,7 +34,9 @@ features:
   - 拖拉版型
 prerequisites: []
 related:
-  - "ec/website-appearance/site-settings/setup-og-image"
+  - ec/website-appearance/code-customization/text-editor/
+  - ec/products/categories-and-tags/custom-collections/
+  - ec/website-appearance/site-settings/setup-og-image/
 tags:
   - 部落格
   - 內容行銷
@@ -56,8 +51,8 @@ ui_components: []
 paths:
   - 網站外觀 > 部落格管理
 layouts:
-  - classic
   - draggable
+  - classic
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=631
   - https://www.cyberbiz.io/support/?p=1510

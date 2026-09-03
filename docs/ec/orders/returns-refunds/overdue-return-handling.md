@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans: 
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 後台手動退貨
@@ -43,9 +36,9 @@ features:
   - 峰潮串倉退貨
 prerequisites: []
 related:
-  - "ec/orders/order-return-process"
-  - "ec/orders/returns-refunds/cvs-c2b-return"
-  - "ec/orders/order-refund-process"
+  - ec/orders/references/auto-refund-timeline/
+  - ec/orders/returns-refunds/cvs-c2b-return/
+  - ec/orders/order-refund-process/
 tags:
   - 退貨
   - 退貨期限

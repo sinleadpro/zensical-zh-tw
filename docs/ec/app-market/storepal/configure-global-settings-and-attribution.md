@@ -14,7 +14,6 @@ products:
   - EC
 modules:
   - APP MARKET
-  - 門市助理
 sites:
   - TW
 audiences:
@@ -26,7 +25,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
-cyb_extensions: []
+cyb_extensions:
+  - STORE PAL
 intents:
   - 設定業績歸因規則
   - 編輯簡訊通知模板
@@ -48,10 +48,10 @@ ui_components:
   - 業績歸因設定
   - 通知設定
 paths:
-  - 門市管理 > 特定門市
   - 設定 > 功能設定 > 前台功能設定
   - 設定 > 功能設定 > 業績歸因設定
   - 設定 > 通知設定
+  - 設定 > 操作紀錄
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=40979

@@ -34,8 +34,7 @@ intents:
   - 了解欄位用途與開通條件
 features: []
 prerequisites: []
-related:
-  - "ec/orders/references/order-filter-status-reference"
+related: []
 tags:
   - 訂單列表
   - 欄位

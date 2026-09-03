@@ -12,8 +12,8 @@ notes:
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - WMS
+  - EC
 modules:
   - 商品
 sites:

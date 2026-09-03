@@ -14,7 +14,6 @@ notes:
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - WMS
 modules:
   - 商品
@@ -38,7 +37,9 @@ features:
 prerequisites:
   - 需已開通 CYBERBIZ 電商倉儲服務
   - 子品項需已在 WMS 單一品項完成建檔
-related: []
+related:
+  - ec/products/create-and-manage/create-update-products/
+  - wms/single-items/
 tags:
   - WMS
   - 組合品

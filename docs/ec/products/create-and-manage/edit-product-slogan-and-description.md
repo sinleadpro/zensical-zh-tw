@@ -24,14 +24,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 如何客製化商品簡述文字樣式
@@ -45,7 +38,8 @@ features:
   - 樣板編輯器
   - 版本回溯功能
 prerequisites: []
-related: []
+related:
+  - ec/website-appearance/code-customization/restore-code-theme-editor/
 tags:
   - CSS
   - HTML

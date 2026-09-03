@@ -18,14 +18,7 @@ modules:
 sites:
   - TW
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 audiences:
   - merchant
@@ -48,7 +41,14 @@ features:
   - 商品分類與篩選應用
   - 行銷活動應用 (促銷, 組合)
 prerequisites:
-related: []
+related:
+  - ec/integrations/google/setup-google-merchant-center/
+  - ec/integrations/fb/meta-ads/sync-product-videos-meta-catalog/
+  - ec/integrations/line/apply-setup-line-shopping-guide/
+  - ec/integrations/setup-shop-com/
+  - pos/check/print-product-labels/
+  - ec/products/bulk-operations/batch-update-product-descriptions-shipping/
+  - ec/products/create-and-manage/edit-product-description-settings/
 tags:
   - 商品標籤
   - 商品管理
@@ -68,8 +68,8 @@ devices:
   - mobile
 ui_components: []
 paths:
-  - 管理後台 > 商品 > 商品標籤管理
-  - 管理後台 > 商品 > 所有商品
+  - 商品 > 商品標籤管理
+  - 商品 > 所有商品
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8576

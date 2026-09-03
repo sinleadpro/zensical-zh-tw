@@ -32,7 +32,9 @@ features:
 prerequisites:
   - 方案需包含「商品圖表」功能
 related:
-  - "ec/business-intelligence/order-analysis"
+  - ec/business-intelligence/references/product-chart-metrics-reference/
+  - ec/business-intelligence/product-analysis/
+  - ec/business-intelligence/basic-chart/
 tags:
   - 商品圖表
   - 瀏覽數

@@ -15,6 +15,7 @@ products:
   - POS
 modules:
   - 結帳
+  - 行銷活動
 sites:
   - TW
 audiences:
@@ -34,7 +35,8 @@ features:
   - 紅利商城
   - 點數兌換
 prerequisites: []
-related: []
+related:
+  - ec/marketing/bonus-and-gifts/bonus-point-mall/
 tags:
   - 紅利商城
   - POS 結帳
@@ -50,8 +52,7 @@ ui_components:
   - 行銷活動
   - 小計
 paths:
-  - 後台 > 行銷活動 > POS 紅利商城
-  - 前台 > 結帳
+  - 行銷活動 > 紅利商城
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=35526

@@ -21,11 +21,11 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 企業
   - 進階
-  - 進階PLUS
   - 高手
+  - 進階PLUS
   - 高手PLUS
+  - 企業
 cyb_extensions: []
 intents:
   - 如何設定訂單加價購
@@ -48,6 +48,7 @@ devices:
 ui_components: []
 paths:
   - 行銷活動 > 訂單加價購
+  - 行銷活動 > 商品加價購
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11186

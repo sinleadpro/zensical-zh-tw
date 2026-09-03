@@ -1,5 +1,4 @@
 ---
-
 title: 設定超商店到店 C2C 物流串接
 description: 啟用超商店到店（C2C）物流服務，讓顧客可於結帳時選擇指定超商門市取貨。
 created:
@@ -22,14 +21,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions:
   - CYBERBIZ PAYMENTS
 intents:
@@ -42,7 +34,10 @@ features:
   - 全家店到店
   - 萊爾富超商取貨
 prerequisites: []
-related: []
+related:
+  - ec/payments-and-logistics/apply-cyberbiz-payments/
+  - ec/orders/cvs-shipping/cvs-c2c-shipping/
+  - ec/products/shipping/cvs-shipping-restrictions-exclusions/
 tags:
   - 超商物流
   - C2C

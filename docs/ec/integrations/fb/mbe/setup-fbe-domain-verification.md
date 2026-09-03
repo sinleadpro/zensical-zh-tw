@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 設定 FBE 網域驗證
@@ -38,9 +31,11 @@ features:
   - DNS 驗證
   - 中繼標籤驗證
 prerequisites:
-  - "ec/integrations/fb/mbe/setup-fbe-authorization"
+  - ec/integrations/fb/mbe/setup-fbe-authorization/
 related:
-  - "ec/website-management/domain-management"
+  - ec/integrations/fb/mbe/setup-fbe-authorization/
+  - ec/website-management/domain-management/
+  - ec/integrations/fb/mbe/setup-fb-instagram-shop/
 tags:
   - FBE
   - Facebook 企業管理平台

@@ -15,6 +15,7 @@ products:
   - EC
 modules:
   - 行銷活動
+  - 會員
 sites:
   - TW
 audiences:
@@ -22,6 +23,9 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -34,7 +38,8 @@ features:
 prerequisites:
   - "已建立欲作為贈品的商品或標籤"
   - "已規劃會員分類標籤（如需針對特定對象）"
-related: []
+related:
+  - ec/marketing/references/coupon-and-bonus-credit-rules/
 tags: []
 acoiv: configure
 apis: []
@@ -44,6 +49,7 @@ devices:
 ui_components: []
 paths:
   - 行銷活動 > 期間限定首購禮
+  - 會員 > 會員管理
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7884

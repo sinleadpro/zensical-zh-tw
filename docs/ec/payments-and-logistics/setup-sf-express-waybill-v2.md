@@ -14,6 +14,7 @@ products:
   - EC
 modules:
   - 金物流
+  - 訂單
 sites:
   - TW
 audiences:
@@ -34,10 +35,11 @@ features:
   - 海外報關
 prerequisites:
   - 須先開通順豐託運單（一般版以上方案）
-  - "ec/payments-and-logistics/sf-express-overseas-logistics"
+  - ec/payments-and-logistics/sf-express-overseas-logistics/
 related:
-  - "ec/orders/home-delivery/sf-express-shipping-v2"
-  - "ec/payments-and-logistics/sf-express-overseas-logistics"
+  - ec/payments-and-logistics/sf-express-overseas-logistics/
+  - ec/website-management/points-deposits/
+  - ec/orders/home-delivery/sf-express-shipping-v2/
 tags:
   - 順豐
   - 託運單

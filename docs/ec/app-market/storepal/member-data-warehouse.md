@@ -28,7 +28,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
-cyb_extensions: []
+cyb_extensions:
+  - STORE PAL
 intents:
   - 查看會員等級
   - 分析消費數據
@@ -41,8 +42,14 @@ features:
   - 消費分析
 prerequisites: []
 related:
-  - "ec/app-market/storepal/member-identification"
-  - "ec/app-market/storepal/sales-conversion"
+  - ec/marketing/bonus-and-gifts/setup-registration-gift/
+  - ec/marketing/bonus-and-gifts/limited-time-first-purchase-gift/
+  - ec/marketing/bonus-and-gifts/setup-birthday-gift/
+  - ec/profit-sharing/referrer-profit-sharing/
+  - ec/members/vip/setup-exclusive-vip-discounts/
+  - ec/marketing/conditional-send/send-coupons-for-specific-products/
+  - ec/marketing/other-tools/interactive-games/
+  - ec/members/manage-member-profiles/
 tags:
   - 門市助理
   - 數據洞察
@@ -62,8 +69,6 @@ ui_components:
   - 購物車未結商品
 paths:
   - 設定 > 功能設定 > 前台功能設定
-  - 門市管理 > 角色與權限
-  - 訂單 > 所有訂單
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8669

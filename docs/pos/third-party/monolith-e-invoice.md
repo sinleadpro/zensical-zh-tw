@@ -34,7 +34,9 @@ features:
   - 字軌管理
 prerequisites: []
 related:
-  - "pos/third-party/monolith-e-invoice"
+  - pos/hardware/taishin-wired-credit-card-machine/
+  - pos/hardware/posiflex-wired-invoice-printer/
+  - pos/check/mixed-tax-invoices/
 tags:
   - 盟立電子發票
   - 發票申請
@@ -185,7 +187,7 @@ hide: []
     > :lucide-triangle-alert: 切換期間若門市仍在營業，請先確認切換期間的訂單發票可自行處理。
 
 ??? quote "申請完成後，若想加購盟立帳號，可以直接在後台購買嗎？"
-    若想取得新的盟立帳號，需經過國稅局審核流程，並完成門市綁定，無法直接在後台購買。請從 [步驟二：取得國稅局核准](盟立電子發票/#步驟二取得國稅局核准) 開始申請。
+    若想取得新的盟立帳號，需經過國稅局審核流程，並完成門市綁定，無法直接在後台購買。請從 [步驟二：取得國稅局核准](#步驟二取得國稅局核准) 開始申請。
 
 ??? quote "申請文件 **電子發票申請書** 的委任期間可以短一點嗎？"
     如果要取消授權，可以自行到財政部網頁取消授權，取消授權很快速方便，但每次委任授權申請都需要走用印 > 寄出 > 確認授權 > 盟立檢核 > 設定的流程。所以建議不要修改委任年份，委任時間到期都需要 **自行記得再次申請授權**。

@@ -4,9 +4,8 @@ description: 對全站所有商品統一套用折扣優惠。此活動同步支�
 created: 2026-06-24 16:30
 last_modified: 2026-06-24 16:30
 lang: zh-TW
-type: tutorial
+type: guide
 status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -20,10 +19,11 @@ modules:
 sites: 
     - TW
 audiences: 
-    - admin
+    - merchant
 difficulty: beginner
-tnb: trunk
-plans: []
+tnb: branch
+plans:
+  - 企業
 cyb_extensions: []
 intents: 
     - 了解全館折扣規格
@@ -61,7 +61,7 @@ layouts: []
 wp_url:
     - https://www.cyberbiz.io/helpcenter/?p=1165
     - https://www.cyberbiz.io/support/?p=30011
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/marketing/discounts/storewide-discounts-v2/"
 comments: false
 search:
   exclude: false

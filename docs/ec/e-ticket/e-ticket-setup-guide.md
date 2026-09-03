@@ -14,6 +14,9 @@ products:
   - EC
 modules:
   - 商品
+  - 管理中心
+  - 訂單
+  - 金物流
 sites:
   - TW
 audiences:
@@ -38,7 +41,11 @@ features:
   - 核銷
 prerequisites:
   - 新版物流
-related: []
+related:
+  - ec/e-ticket/setup-e-ticket-promotions/
+  - ec/profit-sharing/
+  - ec/e-ticket/setup-e-ticket-store-permissions/
+  - ec/marketing/purchase-restrictions/purchase-limit/
 tags:
   - 電子票券
   - QR-Code
@@ -52,9 +59,14 @@ devices:
   - mobile
 ui_components: []
 paths:
-  - 商品 > 電子票券列表
+  - 商品 > 電子票券列表 > 新增票券
+  - 管理中心 > 顧客註冊設定
   - 商品 > 核銷票券頁
   - 商品 > 票券核銷列表
+  - 管理中心 > 網站權限 > 管理者列表
+  - 訂單 > 電子票券訂單
+  - 訂單 > 所有訂單
+  - 金物流 > 結帳頁&金物流設定 > 訂單相關設定 > 訂單自動結案設定
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5807
@@ -81,7 +93,7 @@ hide: []
 
 ## 電子票券使用限制與規則
 
-- 可加入 [限購群組](../marketing/purchase-restrictions/)，限制每位消費者可購買張數  
+- 可加入 [限購群組](../marketing/purchase-restrictions/purchase-limit/)，限制每位消費者可購買張數  
 - 僅支援 [電子票券任選折扣](setup-e-ticket-promotions.md) 與 [分潤](../profit-sharing/index.md)，不可與其他優惠併用  
 - 付款方式僅支援 **信用卡一次付清**
 

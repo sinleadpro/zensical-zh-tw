@@ -4,7 +4,7 @@ description: 透過字典檔新增鍵值，自訂前台「其他通路有效訂�
 created: 2026-08-17 14:22
 last_modified: 2026-08-17 14:22
 lang: zh-TW
-type: tutorial
+type: guide
 status: ""
 author: Ann
 reviewers: []
@@ -15,9 +15,10 @@ products:
   - EC
 modules: 
   - 網站外觀
-sites: ["TW"]
+sites: 
+  - TW
 audiences: 
-  - admin
+  - merchant
   - developer
 difficulty: intermediate
 tnb: branch
@@ -34,9 +35,10 @@ features:
 prerequisites:
   - "商店已啟用其他通路有效訂單功能"
 related:
-  - theme-editor-complete-guide.md
-  - manage-member-profiles.md
-  - restore-code-theme-editor.md
+  - ec/members/manage-member-profiles/
+  - ec/website-appearance/code-customization/restore-code-theme-editor/
+  - ec/website-appearance/site-settings/setup-storefront-language-text-customization/
+  - ec/website-appearance/code-customization/theme-editor-complete-guide/
 tags: 
   - 字典檔
   - 前台文字
@@ -51,7 +53,7 @@ paths:
   - 網站外觀 > 套版主題管理 > 選擇操作 > CSS/HTML 編輯器
 layouts: []
 wp_url: []
-permalink: https://help.cyberbiz.io/ec/website-appearance/code-customization/customize-other-channel-order-label
+permalink: "https://help.cyberbiz.io/ec/website-appearance/code-customization/customize-other-channel-order-label/"
 comments: false
 search:
   exclude: false

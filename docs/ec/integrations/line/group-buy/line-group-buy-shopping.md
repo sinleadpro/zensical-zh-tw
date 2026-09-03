@@ -33,10 +33,13 @@ features:
   - LIFF
   - 購物車
 prerequisites:
-  - 設定 LINE 團購機器人
-  - 設定 LINE 團購商品
-  - 設定 LINE 團購群組
-related: []
+  - ec/integrations/line/group-buy/setup-line-group-bot/
+  - ec/integrations/line/group-buy/setup-line-group-buy-products/
+  - ec/integrations/line/group-buy/setup-line-group-buy-group/
+related:
+  - ec/integrations/line/group-buy/setup-line-group-bot/
+  - ec/integrations/line/group-buy/setup-line-group-buy-products/
+  - ec/integrations/line/group-buy/setup-line-group-buy-group/
 tags:
   - LINE OA
   - LINE 團購

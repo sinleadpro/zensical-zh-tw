@@ -19,8 +19,14 @@ sites:
 audiences: 
   - merchant
 difficulty: beginner
-tnb: trunk
-plans: []
+tnb: branch
+plans:
+  - 專業
+  - 進階
+  - 高手
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
 cyb_extensions: []
 intents: 
   - 設定全館折扣活動
@@ -31,9 +37,7 @@ features:
   - 滿額贈券
   - 累計折抵
 prerequisites: []
-related: 
-  - "ec/marketing/coupon/setup-coupons"
-  - "ec/marketing/discounts/mix-and-match-discounts"
+related: []
 tags: 
   - 全館折扣
   - 促銷活動
@@ -47,8 +51,8 @@ devices:
 ui_components: 
   - 舉辦全館活動
   - 新增全館活動
-paths: 
-  - 行銷活動 > 全館折扣-紅利 & 優惠券 > 舉辦全館活動
+paths:
+  - 行銷活動 > 全館折扣-紅利 & 優惠券
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/helpcenter/?p=1165

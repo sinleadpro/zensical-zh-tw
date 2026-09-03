@@ -115,7 +115,7 @@ fields:
   plans:
     type: enum[]
     required: false
-    values: [企業, 高手, 高手PLUS, 進階, 進階PLUS, 專業, 專業PLUS, Business, Pro, global_advanced]
+    values: [專業, 進階, 高手, 專業PLUS, 進階PLUS, 高手PLUS, 企業, Pro, Business, global_advanced]
 
   # 官方外掛歸屬
   cyb_extensions:

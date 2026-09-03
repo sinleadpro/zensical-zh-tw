@@ -41,8 +41,11 @@ features:
 prerequisites:
   - 方案已包含行銷活動分析功能
 related:
-  - "ec/marketing/bonus-and-gifts/setup-bonus-points"
-  - "ec/marketing/coupon/setup-promo-codes"
+  - ec/business-intelligence/references/marketing-activity-coupon-metrics-reference/
+  - ec/marketing/
+  - ec/marketing/coupon/setup-coupons/
+  - ec/marketing/bonus-and-gifts/setup-bonus-points/
+  - ec/business-intelligence/references/marketing-activity-discount-categories-reference/
 tags:
   - 行銷活動分析
   - 折扣活動

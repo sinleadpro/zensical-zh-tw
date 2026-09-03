@@ -4,7 +4,7 @@ description: 將線上官網延伸至手機裝置，透過推播、門市地圖�
 created: 2026-08-17 13:58
 last_modified: 2026-08-17 13:58
 lang: zh-TW
-type: guide
+type: hub
 status: ""
 author: Ann
 reviewers: []
@@ -18,7 +18,7 @@ modules:
 sites: 
   - TW
 audiences: 
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: []
@@ -34,10 +34,10 @@ features:
   - APP_首登禮
 prerequisites: []
 related: 
-  - cyberbiz-app-feature-overview.md
-  - setup-cyberbiz-app.md
-  - apply-apple-developer-account.md
-  - first-login-gift.md
+  - ec/app/cyberbiz-app-feature-overview/
+  - ec/app/setup-cyberbiz-app/
+  - ec/app/apply-apple-developer-account/
+  - ec/app/first-login-gift/
 tags: 
   - CYBERBIZ_APP
 acoiv: venture

@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 設定宅配通託運單寄件人資訊
@@ -40,9 +33,8 @@ features:
   - 宅配通逆物流
 prerequisites: []
 related:
-  - "ec/orders/home-delivery/pelican-shipping-v2"
-  - "ec/payments-and-logistics/setup-pelican-waybill-v2"
-  - "ec/website-management/points-deposits"
+  - ec/orders/home-delivery/pelican-shipping-v2/
+  - ec/website-management/points-deposits/
 tags:
   - 宅配通
   - 配送

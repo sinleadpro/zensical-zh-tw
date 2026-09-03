@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 設定每日預算
@@ -39,9 +32,10 @@ features:
   - ASC
   - 每日預算
 prerequisites:
-  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
+  - ec/integrations/fb/meta-ads/create-meta-ad-account-top-up/
 related:
-  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
+  - ec/integrations/fb/meta-ads/setup-meta-ad-campaign/
+  - ec/integrations/fb/meta-ads/create-meta-ad-account-top-up/
 tags:
   - Meta Ads
   - 每日預算

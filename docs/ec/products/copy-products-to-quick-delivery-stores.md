@@ -39,7 +39,8 @@ features:
 prerequisites:
   - 門市已開啟快速到貨功能
   - 商品已完成上架且官網庫存充足
-related: []
+related:
+  - ec/website-appearance/setup-quick-delivery-frontend-entry/
 tags:
   - 快速到貨
   - 多購物車

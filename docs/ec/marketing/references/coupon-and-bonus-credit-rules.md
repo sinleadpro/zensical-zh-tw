@@ -35,10 +35,9 @@ features:
   - 退貨狀態
 prerequisites: []
 related:
-  - "ec/marketing/bonus-and-gifts/setup-bonus-points.md"
-  - "docs/ec/marketing/coupon/setup-coupons.md"
-  - "docs/ec/payments-and-logistics/payments/order-settings.md"
-  - "docs/ec/members/manage-member-profiles.md"
+  - ec/marketing/discounts/storewide-discounts/
+  - ec/marketing/bonus-and-gifts/setup-bonus-points/
+  - ec/members/manage-member-profiles/
 tags: 
   - 紅利
   - 優惠券

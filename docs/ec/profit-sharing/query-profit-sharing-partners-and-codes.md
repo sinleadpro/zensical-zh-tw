@@ -14,7 +14,7 @@ products:
   - EC
   - POS
 modules:
-  - 行銷活動
+  - 分潤
 sites:
   - TW
 audiences:
@@ -37,7 +37,7 @@ features:
   - 分潤查詢
 prerequisites: []
 related:
-  - "ec/profit-sharing/referral-link-applications"
+  - ec/profit-sharing/referral-link-applications/
 tags:
   - 分潤查詢
   - 推薦碼查詢
@@ -49,6 +49,7 @@ devices:
 ui_components: []
 paths:
   - 分潤 > 分潤查詢
+  - 分潤 > 推薦人分潤
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=579

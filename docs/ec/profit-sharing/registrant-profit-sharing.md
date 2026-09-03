@@ -14,7 +14,7 @@ products:
   - EC
   - POS
 modules:
-  - 行銷活動
+  - 分潤
 sites:
   - TW
 audiences:
@@ -22,8 +22,11 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 企業
   - 高手
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 cyb_extensions: []
 intents:
   - 建立註冊分潤方案
@@ -42,7 +45,7 @@ devices:
   - mobile
 ui_components: []
 paths:
-  - 行銷活動 > 註冊人分潤
+  - 分潤 > 註冊人分潤
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1182

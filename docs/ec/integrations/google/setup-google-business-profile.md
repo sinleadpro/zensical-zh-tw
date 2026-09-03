@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - Google 商家檔案
@@ -37,7 +30,8 @@ features:
   - Google 商家檔案
   - Google 地圖
 prerequisites: []
-related: []
+related:
+  - ec/website-management/seo/seo-guide/
 tags:
   - Google 商家檔案
   - 在地商家

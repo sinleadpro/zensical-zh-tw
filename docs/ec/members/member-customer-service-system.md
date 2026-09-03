@@ -21,11 +21,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 進階
-  - 高手
+plans: []
 cyb_extensions: []
 intents:
   - 設定客服問題主題
@@ -49,8 +45,10 @@ devices:
   - mobile
 ui_components: []
 paths:
-  - 會員 > 客服問題分類
   - 會員 > 所有客服問題
+  - 會員 > 客服問題分類
+  - 會員 > 顧客回饋 & 建議
+  - 會員 > 客服問題 – 依會員分類
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=275
