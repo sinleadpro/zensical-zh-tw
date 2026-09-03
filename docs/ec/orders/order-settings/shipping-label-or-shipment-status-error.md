@@ -163,12 +163,22 @@ hide: []
 託運單產生後若未在時效內實際交寄，單號會失效，後續貨態將無法追蹤，狀態可能轉為 [運送異常](../references/fulfillment-statuses.md#fulfillment-statuses-table){ title="配送狀態對照表" data-preview } 或「取消寄件」。
 
 * **宅配：** 下載託運單後即扣除 CYBER 幣，若超過 **14 天** 未實際出貨，單號會失效，預扣的 CYBER 幣將於單號失效後退回帳戶。
-* **超商大宗寄倉 B2C：** 須於託運單產出後的隔天起數日內將貨品送達超商物流中心，逾期狀態會轉為「運送異常」，該單號將永久失效且無法補印[^2]。
-* **超商店到店 C2C：** 建議盡早完成交寄，逾期單號會由系統自動刪除[^3]。
+* **超商大宗寄倉 B2C：** 須於託運單產出後期限內將貨品送達超商物流中心，逾期狀態會轉為「運送異常」，該單號將失效，需重新取號。
+* **超商店到店 C2C：** 須於託運單產出後期限內將貨品送達超商門市，逾期狀態會轉為「運送異常」，該單號將失效，需重新取號。
+
+<div class="grid cards" markdown>
+
+- :lucide-calendar-search:{ .lg }
+  [__查詢各超商託運單失效期限__](../references/cvs-waybill-expiration-reference.md#reference-cvs-waybill-expiration){ data-preview }
+  查看各超商物流的補印期限與失效判定時間。
+
+- :lucide-refresh-cw:{ .lg }
+  [__處理託運單逾期重新取號__](../renew-waybill-after-expiration.md#operate-renew-waybill-after-expiration){ data-preview }
+  原託運單失效或超過補印期限時，重新取得託運單號並下載新託運單。
+
+</div>
 
 
-[^2]: 超商大宗寄倉 B2C 一般為隔天起 5 天內（含假日）須送達物流中心。
-[^3]: 超商店到店 C2C 一般建議 5～7 日內交寄（各通路略有差異）。
 
 ---
 
@@ -207,12 +217,6 @@ hide: []
 !!! note "註釋"
     補印取得的是原本的單號與託運單，不會重複計費，請放心使用。
 
-<!-- <div class="grid cards" markdown>
-
-- :lucide-printer:{ .ig .middle } [__補印與加印託運單__](../../payments-and-logistics/reprint-waybills.md)
-
-</div> -->
-
 ---
 
 ### DHL 運送異常 { #operate-shipping-issue-dhl-problem }
@@ -240,10 +244,6 @@ hide: []
 ??? quote "下載到一半離開頁面會怎樣"
     [](){ #faq-shipping-issue-leave-page }
     下載多筆託運單時若中途離開頁面，下載會中斷，部分訂單可能已變更為「已出貨」但檔案尚未取得。這些訂單一律改用 [補印託運單](#operate-shipping-issue-reprint) 重新下載即可，不會重複扣款。
-
-??? quote "單號失效，預扣的 CYBER 幣會退回嗎"
-    [](){ #faq-shipping-issue-cyber-coin-refund }
-    會。以順豐為例，下載託運單時即扣除 CYBER 幣，若超過 21 天未實際出貨，單號失效後預扣的 CYBER 幣將自動退回帳戶。其他宅配物流的退回機制依各物流商規定。
 
 ??? quote "補印託運單要再收費嗎"
     [](){ #faq-shipping-issue-reprint-fee }

@@ -118,7 +118,7 @@ hide: []
 
 ### 交寄物流中心 { #operate-cvs-b2c-shipping-deliver }
 
-商家須於「**託運單產出隔日起 5 天(含假日)內**」將貨品送達物流中心，逾期單號自動失效且無法補印[^waybill-expired]。
+商家須於期限內將貨品送達物流中心，逾期單號自動失效，需重新取號。
 
 1. **包裹封裝**：將個別貼好標籤的商品 **集中裝入大紙箱**，不可散裝。若因無外箱保護導致損壞，需由商家承擔。
 2. **聯絡貨運**：自行聯絡第三方物流（如黑貓、宅配通、新竹物流）將大紙箱寄至對應物流中心。
@@ -130,16 +130,18 @@ hide: []
 !!! tip "取貨簡訊通知"
     商品送達消費者指定門市後，系統會於第 **1 天**、第 **4 天** 自動發送取貨簡訊通知消費者。
 
-??? example "寄貨期限計算範例"
+<div class="grid cards" markdown>
 
-    若商家於 **5/1** 產生託運單（此時訂單狀態會變更為「已出貨」）：
-    
-    * **起算日 (5/1)**：產生託運單當日。
-    * **物流中心收貨期限**：5/2 ～ 5/6（含假日共 5 天）。
-    * **最後截止日**：貨品最晚必須在 **5/6** 結束前送達超商物流中心，否則該單號將自動失效。
+- :lucide-calendar-search:{ .lg }
+  [__查詢各超商託運單失效期限__](../references/cvs-waybill-expiration-reference.md#reference-cvs-waybill-expiration){ data-preview }
+  查看各超商物流的補印期限與失效判定時間。
 
-[^waybill-expired]: 若貨品未在「有效的收貨時間」送達超商物流中心，貨態會轉為「運送異常」。
-該筆託運單將自動失效，且無法重新補印托運單，只能請顧客重新下單。
+- :lucide-refresh-cw:{ .lg }
+  [__處理託運單逾期重新取號__](../renew-waybill-after-expiration.md#operate-renew-waybill-after-expiration){ data-preview }
+  原託運單失效或超過補印期限時，重新取得託運單號並下載新託運單。
+
+</div>
+
 
 ---
 
@@ -159,7 +161,7 @@ hide: []
 
 - :lucide-refresh-cw:{ .lg }
   [__處理託運單逾期重新取號__](../renew-waybill-after-expiration.md#operate-renew-waybill-after-expiration){ data-preview }
-  原託運單超過補印期限時，重新取得託運單號並下載新託運單。
+  原託運單失效或超過補印期限時，重新取得託運單號並下載新託運單。
 
 </div>
 
@@ -190,7 +192,6 @@ hide: []
 * **CYBER 幣餘額不足將擋下載**：一般版 商家若 CYBER 幣不足，系統會直接擋下載並提示「CYBER 幣餘額不足」。
 * **重量與材積限制**：訂單總重量 / 材積若超過該通路上限將無法產生託運單，詳見
 [重量與材積限制](../../payments-and-logistics/references/cvs-b2c-channel-spec-reference.md#reference-cvs-b2c-channels-specs){ title="超商大宗寄倉B2C通路規格" data-preview }。
-* **5 天交寄期限**：託運單產生隔日起 5 天內未送達物流中心將自動失效，且無法補印或退費。
 * **到貨驗收規範**：[各通路對應的到倉驗收規範](../../payments-and-logistics/references/cvs-b2c-logistics-center-reference.md#reference-cvs-b2c-acceptance-rules){ title="物流中心收貨資訊" data-preview }。
 
 ---
@@ -229,12 +230,8 @@ hide: []
 ??? quote "下載中離開頁面會怎樣？"
     [](){ #faq-cvs-b2c-shipping-leave }
     
-    系統會中斷下載，**部分訂單可能已變更為「已出貨」但託運單尚未下載完成**。請於 5 日內以「補印託運單」重新取得 PDF。
+    系統會中斷下載，**部分訂單可能已變更為「已出貨」但託運單尚未下載完成**。請補印託運單以重新取得 PDF。
 
-??? quote "5 天內沒交寄會怎樣？"
-    [](){ #faq-cvs-b2c-shipping-overdue }
-    
-    託運單號將自動失效，且 **無法補印或退費**。若仍需出貨，須請消費者重新下單。
 
 ??? quote "補印託運單會再扣 CYBER 幣嗎？"
     [](){ #faq-cvs-b2c-shipping-reprint-cost }
