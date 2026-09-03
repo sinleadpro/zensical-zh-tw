@@ -111,3 +111,14 @@ hide: []
 1. 在 **商品列表** 區塊，點擊 **加入群組**。
 2. 透過搜尋名稱、SKU 或標籤，勾選欲參加活動的商品。
 3. 點擊 **加入**，確認商品出現在群組清單中。
+
+
+## 更多操作
+
+<div class="grid cards" markdown>
+
+- :lucide-wallet:{ .lg }
+  [__優惠券／紅利歸戶規則__](../references/coupon-and-bonus-credit-rules.md)
+  說明消費回饋何時匯入會員帳戶，以及結案、退貨流程對紅利與優惠券歸戶的影響。
+
+</div>
