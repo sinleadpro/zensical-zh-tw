@@ -22,7 +22,8 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans: []
-cyb_extensions: []
+cyb_extensions: 
+  - CYBERBIZ APP
 intents: 
   - 申請_Apple_開發者帳號
   - 申請_鄧白氏環球編碼

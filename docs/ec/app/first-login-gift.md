@@ -22,7 +22,8 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
-cyb_extensions: []
+cyb_extensions: 
+  - CYBERBIZ APP
 intents:
   - 設定_APP_首登禮
   - APP_首次登入發放優惠券

@@ -22,7 +22,8 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
-cyb_extensions: []
+cyb_extensions: 
+  - CYBERBIZ APP
 intents: 
   - 了解_CYBERBIZ_APP
   - 建置官網_APP

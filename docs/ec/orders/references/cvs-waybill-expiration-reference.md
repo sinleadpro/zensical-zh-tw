@@ -20,7 +20,7 @@ sites:
 audiences: 
   - merchant
 difficulty: ""
-tnb: ""
+tnb: trunk
 plans: []
 cyb_extensions: []
 intents: 

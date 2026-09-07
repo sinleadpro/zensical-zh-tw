@@ -13,7 +13,6 @@ feedback:
 products:
   - EC
 modules:
-  - app-market
   - 行銷活動
   - APP MARKET
 sites:

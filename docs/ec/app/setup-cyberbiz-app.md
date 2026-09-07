@@ -23,7 +23,8 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans: []
-cyb_extensions: []
+cyb_extensions: 
+  - CYBERBIZ APP
 intents: 
   - 建置_CYBERBIZ_APP
   - 設定_APP_門市地圖
