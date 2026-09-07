@@ -26,9 +26,9 @@ features:
   - 自動開立發票
   - 多站台共用帳戶
   - 對帳發票設定
-tnb: trunk
+tnb: branch
 plans:
-  - 專業
+  - 專業PLUS
   - 進階
   - 高手
   - 專業PLUS
@@ -67,6 +67,13 @@ search:
 icon: lucide/receipt
 hide:
 ---
+# 星益欣電子發票設定
+
+教您在 CYBERBIZ 後台完成星益欣電子發票的購買、串接啟用、多站台共用與對帳發票設定。
+{ .subtitle }
+
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 所有 PLUS / 企業
+{ .doc-badge }
 
 ## 星益欣電子發票說明
 
