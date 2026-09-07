@@ -46,6 +46,61 @@ copyright = """
 # Read more: https://zensical.org/docs/setup/navigation/
 
  nav = [ 
+    { "翻譯預覽" = [
+        { "紅利與贈禮" = [
+            { "紅利點數" = [
+                {"中文" = "ec/marketing/bonus-and-gifts/setup-bonus-points.md"},
+                {"Google 翻譯" = "english/setup-bonus-points-google.md"},
+                {"LLM 翻譯" = "english/setup-bonus-points-llm.md"},
+            ]},
+            { "紅利商城" = [
+                {"中文" = "ec/marketing/bonus-and-gifts/bonus-point-mall.md"},
+                {"Google 翻譯" = "english/bonus-point-mall-google.md"},
+                {"LLM 翻譯" = "english/bonus-point-mall-llm.md"},
+            ]},
+            { "註冊禮" = [
+                {"中文" = "ec/marketing/bonus-and-gifts/setup-registration-gift.md"},
+                {"Google 翻譯" = "english/setup-registration-gift-google.md"},
+                {"LLM 翻譯" = "english/setup-registration-gift-llm.md"},
+            ]},
+            { "生日禮" = [
+                {"中文" = "ec/marketing/bonus-and-gifts/setup-birthday-gift.md"},
+                {"Google 翻譯" = "english/setup-birthday-gift-google.md"},
+                {"LLM 翻譯" = "english/setup-birthday-gift-llm.md"},
+            ]},
+            { "期間限定首購禮" = [
+                {"中文" = "ec/marketing/bonus-and-gifts/limited-time-first-purchase-gift.md"},
+                {"Google 翻譯" = "english/limited-time-first-purchase-gift-google.md"},
+                {"LLM 翻譯" = "english/limited-time-first-purchase-gift-llm.md"},
+            ]},
+        ]},
+        { "分潤" = [
+            { "了解分潤" = [
+                {"中文" = "ec/profit-sharing/index.md"},
+                {"LLM 翻譯" = "en/index-llm.md"},
+            ]},
+            { "推薦人分潤" = [
+                {"中文" = "ec/profit-sharing/referrer-profit-sharing.md"},
+                {"LLM 翻譯" = "english/referrer-profit-sharing-llm.md"},
+            ]},
+            { "註冊人分潤" = [
+                {"中文" = "ec/profit-sharing/registrant-profit-sharing.md"},
+                {"LLM 翻譯" = "english/registrant-profit-sharing-llm.md"},
+            ]},
+            { "匯出分潤報表" = [
+                {"中文" = "ec/profit-sharing/export-profit-sharing-reports.md"},
+                {"LLM 翻譯" = "english/export-profit-sharing-reports-llm.md"},
+            ]},
+            { "查詢分潤夥伴與代碼" = [
+                {"中文" = "ec/profit-sharing/query-profit-sharing-partners-and-codes.md"},
+                {"LLM 翻譯" = "english/query-profit-sharing-partners-and-codes-llm.md"},
+            ]},
+            { "推薦碼連結的應用" = [
+                {"中文" = "ec/profit-sharing/referral-link-applications.md"},
+                {"LLM 翻譯" = "english/referral-link-applications-llm.md"},
+            ]},
+        ]},
+    ] },
     { "主頁" = "index.md" },
     { "品牌官網" = [
         { "快速上手" = "ec/get-started.md" },
