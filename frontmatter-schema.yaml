@@ -121,7 +121,7 @@ fields:
   cyb_extensions:
     type: enum[]
     required: false
-    values: [APP MARKET, AUTOMATION, CHANNEL BRIDGE, CHAT BOX, CYBERBIZ PAYMENTS, EXPRESS, "NOW!", STORE PAL, TICKET,"CYBERBIZ APP"]
+    values: [APP MARKET, AUTOMATION, CHANNEL BRIDGE, CHAT BOX, CYBERBIZ PAYMENTS, EXPRESS, NOW!, STORE PAL, TICKET, CYBERBIZ APP]
 
   # === 使用者情境 (User Context) ===
 
