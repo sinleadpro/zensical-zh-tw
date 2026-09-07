@@ -80,7 +80,7 @@ hide: []
 
 - [x] **串接 [Meta 商業擴充套件](../integrations/fb/mbe/setup-fbe-authorization.md){ title="設定 FBE 帳號授權與資產連結" }**：確保 EC 後台已與 Facebook 相關資產（粉專、像素、目錄）連結成功。
 - [x] **建立 [Meta 廣告帳號](../integrations/fb/meta-ads/create-meta-ad-account-top-up.md){ title="建立 Meta 廣告帳號並完成儲值" }**：需先於後台建立專屬廣告帳號。
-- [](../integrations/fb/meta-ads/create-meta-ad-account-top-up.md#儲值廣告金)號並儲值.md#儲值廣告金){ title="建立 Meta 廣告帳號並完成儲值" }**：商家需預先儲值廣告預算至後台方可開始投放（最低門檻為 NT$15,000）。
+- [x] **[儲值廣告金](../integrations/fb/meta-ads/create-meta-ad-account-top-up.md#儲值廣告金){ title="建立 Meta 廣告帳號並完成儲值" }**：商家需預先儲值廣告預算至後台方可開始投放。
 
 ## 安裝步驟教學
 
