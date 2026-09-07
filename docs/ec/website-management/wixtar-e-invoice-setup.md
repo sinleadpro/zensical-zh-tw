@@ -28,7 +28,6 @@ features:
   - 對帳發票設定
 tnb: branch
 plans:
-  - 專業PLUS
   - 進階
   - 高手
   - 專業PLUS
