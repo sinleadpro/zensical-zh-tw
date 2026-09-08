@@ -77,26 +77,32 @@ copyright = """
         { "分潤" = [
             { "了解分潤" = [
                 {"中文" = "ec/profit-sharing/index.md"},
+                {"Google 翻譯" = "en/index-google.md"},
                 {"LLM 翻譯" = "en/index-llm.md"},
             ]},
             { "推薦人分潤" = [
                 {"中文" = "ec/profit-sharing/referrer-profit-sharing.md"},
+                {"Google 翻譯" = "english/referrer-profit-sharing-google.md"},
                 {"LLM 翻譯" = "english/referrer-profit-sharing-llm.md"},
             ]},
             { "註冊人分潤" = [
                 {"中文" = "ec/profit-sharing/registrant-profit-sharing.md"},
+                {"Google 翻譯" = "english/registrant-profit-sharing-google.md"},
                 {"LLM 翻譯" = "english/registrant-profit-sharing-llm.md"},
             ]},
             { "匯出分潤報表" = [
                 {"中文" = "ec/profit-sharing/export-profit-sharing-reports.md"},
+                {"Google 翻譯" = "english/export-profit-sharing-reports-google.md"},
                 {"LLM 翻譯" = "english/export-profit-sharing-reports-llm.md"},
             ]},
             { "查詢分潤夥伴與代碼" = [
                 {"中文" = "ec/profit-sharing/query-profit-sharing-partners-and-codes.md"},
+                {"Google 翻譯" = "english/query-profit-sharing-partners-and-codes-google.md"},
                 {"LLM 翻譯" = "english/query-profit-sharing-partners-and-codes-llm.md"},
             ]},
             { "推薦碼連結的應用" = [
                 {"中文" = "ec/profit-sharing/referral-link-applications.md"},
+                {"Google 翻譯" = "english/referral-link-applications-google.md"},
                 {"LLM 翻譯" = "english/referral-link-applications-llm.md"},
             ]},
         ]},
