@@ -14,19 +14,21 @@ products:
   - EC
 modules:
   - 門市助理
+  - APP MARKET
 sites:
   - TW
 audiences:
   - merchant
   - merchant
 difficulty: beginner
-tnb: trunk
+tnb: branch
 plans:
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
-cyb_extensions: []
+cyb_extensions:
+  - STORE PAL
 intents:
   - 了解門市助理功能
   - 開始使用門市助理
@@ -37,7 +39,12 @@ features:
   - 會員數據
   - 資產核銷
 prerequisites: []
-related: []
+related:
+  - ec/app-market/storepal/search-and-create-members/
+  - ec/app-market/storepal/member-identification/
+  - ec/app-market/storepal/member-data-warehouse/
+  - ec/app-market/storepal/sales-conversion/
+  - ec/app-market/storepal/view-sales-performance/
 tags:
   - 門市助理
   - OMO

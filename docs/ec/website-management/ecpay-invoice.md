@@ -37,8 +37,7 @@ features:
   - 自動開立
 prerequisites: 
   - "申請綠界科技帳戶"
-related: 
-  - "ec/website-management/manage-system-issued-consumer-invoices"
+related: []
 tags: 
   - 綠界
   - 電子發票

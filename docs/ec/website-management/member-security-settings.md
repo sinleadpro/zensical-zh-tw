@@ -18,7 +18,7 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
 plans: []
@@ -37,9 +37,9 @@ features:
 prerequisites:
   - 需具備「設置」權限
 related:
-  - ec/website-management/admin-security-settings.md
-  - ec/website-management/security-settings.md
-  - ec/website-management/add-admin-set-permissions.md
+  - ec/website-management/admin-security-settings/
+  - ec/website-management/bot-protection-settings/
+  - ec/website-management/add-admin-set-permissions/
 tags:
   - 會員安全
   - 網站密碼
@@ -57,6 +57,7 @@ layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3214
 comments: false
+permalink: "https://help.cyberbiz.io/ec/website-management/member-security-settings/"
 search:
   exclude: false
 icon: lucide/user-check
@@ -68,7 +69,7 @@ hide: []
 透過「會員安全」設定，您可以有效保護網站前台的存取權限，並加強顧客個資的隱私保護與密碼強度。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 全方案
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 全版本
 { .doc-badge }
 
 ![安全性設定頁面-hero](../../assets/images/ec-管理中心-安全性設定.png){ .hero-page }

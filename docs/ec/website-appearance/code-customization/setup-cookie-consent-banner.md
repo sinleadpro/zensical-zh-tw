@@ -20,11 +20,7 @@ audiences:
   - merchant
 difficulty: advanced
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 在官網顯示 Cookie 同意提示彈窗
@@ -37,8 +33,8 @@ prerequisites:
   - 支援程式碼編輯的版型
   - 後台操作權限（外觀編輯權限）
 related:
-  - "ec/website-appearance/theme-and-layout/apply-and-switch-theme"
-  - "ec/website-appearance/site-settings/business-disclosure"
+  - ec/website-appearance/theme-and-layout/apply-and-switch-theme/
+  - ec/website-appearance/site-settings/business-disclosure/
 tags:
   - Cookie 同意提示
   - GDPR

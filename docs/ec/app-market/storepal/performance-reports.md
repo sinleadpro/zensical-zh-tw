@@ -20,7 +20,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: branch
-plans: 
+plans:
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
@@ -37,10 +37,8 @@ features:
   - 業績歸因
   - 推薦人綁定
 prerequisites:
-  - "ec/app-market/storepal/install-and-setup-storepal"
-related:
-  - "[功能與帳號設定]"
-  - "ec/app-market/storepal/bulk-import-customer-referrers"
+  - ec/app-market/storepal/install-and-setup-storepal/
+related: []
 tags: 
   - 門市助理
   - 績效報表
@@ -54,9 +52,9 @@ ui_components:
   - 績效報表
   - 推薦人報表
   - 業績歸因報表
-paths: 
-  - 門市助理後台 > 績效報表
-  - 門市助理後台 > 門市管理 > 匯出報表
+paths:
+  - 績效報表 > 推薦人報表/業績報表
+  - 門市管理 > 匯出報表
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=41036

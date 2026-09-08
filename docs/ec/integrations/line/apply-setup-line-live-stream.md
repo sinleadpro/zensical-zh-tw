@@ -36,7 +36,9 @@ features:
   - LINE 直播
   - LINE 購物
 prerequisites: []
-related: []
+related:
+  - ec/integrations/line/account-integration/bind-line-oa-store-members/
+  - ec/products/bulk-operations/excel-import-products/
 tags:
   - LINE 直播
   - LINE OA
@@ -48,7 +50,8 @@ devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
+paths:
+  - 第三方整合 > LINE購物設定 > 頁面下半部 「LINE OA 導購」 區塊
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7458

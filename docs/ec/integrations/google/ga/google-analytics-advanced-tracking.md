@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: ""
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 進階資料分析
@@ -42,10 +35,10 @@ features:
   - 資料保留
   - 報表識別資訊
 prerequisites:
-  - "ec/integrations/google/ga/setup-google-analytics"
+  - ec/integrations/google/ga/setup-google-analytics/
 related:
-  - "ec/integrations/google/ga/setup-google-analytics"
-  - "ec/integrations/google/ga/ga4-exclude-internal-traffic-and-referrals"
+  - ec/integrations/google/ga/ga4-exclude-internal-traffic-and-referrals/
+  - ec/integrations/google/ga/setup-ga4-site-search-tracking/
 tags:
   - GA4
   - Google Analytics

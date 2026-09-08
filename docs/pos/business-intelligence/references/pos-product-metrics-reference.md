@@ -24,8 +24,7 @@ cyb_extensions: []
 intents: []
 features: []
 prerequisites: []
-related:
-  - "pos/business-intelligence/pos-product-analysis"
+related: []
 tags:
   - POS
   - 商品分析

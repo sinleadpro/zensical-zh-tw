@@ -20,14 +20,7 @@ audiences:
   - developer
 difficulty: advanced
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 關閉商品頁圖片放大預覽功能
@@ -39,7 +32,8 @@ features:
   - Liquid 樣板編輯
   - CSS/HTML 編輯器
 prerequisites: []
-related: []
+related:
+  - ec/website-appearance/code-customization/restore-code-theme-editor/
 tags:
   - 商品圖片
   - 放大預覽
@@ -58,8 +52,7 @@ devices:
 ui_components: []
 paths:
   - 網站外觀 > 套版主題管理 > 選擇操作 > CSS/HTML 編輯器
-layouts:
-  - classic
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3680
   - https://www.cyberbiz.io/support/?p=18122

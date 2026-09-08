@@ -1,5 +1,5 @@
 ---
-title: 操作超商退貨便 C2B
+title: 操作 7-11 退貨便 C2B
 description: 設定及操作 7-11 超商退貨便 (C2B)
 created:
 last_modified: 2026-07-02 21:42
@@ -38,9 +38,11 @@ features:
   - 退貨便代碼
   - 退貨運費設定
 prerequisites:
-  - 使用高手PLUS / 企業版
   - 已申請開通「超商大宗寄倉 (B2C)」服務
-related: []
+related:
+  - ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping/
+  - ec/orders/order-return-process/
+  - ec/orders/order-refund-process/
 tags:
   - 超商退貨
   - 7-11

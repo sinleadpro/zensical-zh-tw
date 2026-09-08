@@ -37,7 +37,8 @@ features:
   - 指定播放時間
 prerequisites:
   - 登入 CYBERBIZ 管理後台
-related: []
+related:
+  - ec/website-appearance/code-customization/restore-code-theme-editor/
 tags:
   - YouTube
   - 影片
@@ -52,8 +53,10 @@ devices:
   - mobile
 ui_components: []
 paths:
-  - 行銷活動 > 一頁式商店頁面
-layouts: []
+  - 行銷活動 > 一頁式商店頁面 > 選擇您要設定的活動頁
+  - 行銷活動 > 一頁式商店頁面 > 選擇您要設定的新版活動頁 > 頁面設定
+layouts:
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3838
   - https://www.cyberbiz.io/support/?p=19650

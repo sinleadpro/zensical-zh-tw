@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions:
   - CYBERBIZ PAYMENTS
 intents:
@@ -39,7 +32,8 @@ features:
 prerequisites:
   - 已成功開通 CYBERBIZ PAYMENTS
   - 商店前台可正常瀏覽並完成結帳流程
-related: []
+related:
+  - ec/payments-and-logistics/apply-cyberbiz-payments/
 tags:
   - 3D 驗證
   - 信用卡

@@ -12,21 +12,21 @@ ga_views: 0
 feedback: 0
 products: 
   - EC
-modules: 
+modules:
   - APP MARKET
-  - 門市助理
 sites: 
   - TW
 audiences: 
   - merchant
 difficulty: intermediate
 tnb: branch
-plans: 
+plans:
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
-cyb_extensions: []
+cyb_extensions:
+  - STORE PAL
 intents:
   - 設定門市助理帳號權限
   - 建立門市人員帳號
@@ -54,11 +54,9 @@ ui_components:
   - 前台功能設定
   - 業績歸因設定
   - 通知設定
-paths: 
-  - 門市管理 > 特定門市
-  - 設定 > 功能設定 > 前台功能設定
-  - 設定 > 功能設定 > 業績歸因設定
-  - 設定 > 通知設定
+paths:
+  - 設定 > 管理帳號設定
+  - 設定 > 操作紀錄
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=40979

@@ -21,11 +21,7 @@ audiences:
   - developer
 difficulty: advanced
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 如何設定 LINE_Tag
@@ -39,7 +35,9 @@ features:
   - 網站流量受眾
 prerequisites:
   - 建立 LINE 官方帳號
-related: []
+related:
+  - ec/website-management/add-admin-set-permissions/
+  - ec/integrations/line/marketing/setup-line-oa-audience/
 tags:
   - LINE Tag
   - 廣告追蹤

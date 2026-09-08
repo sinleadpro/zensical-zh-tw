@@ -15,7 +15,7 @@ feedback: 0
 products:
   - EC
 modules:
-  - 網站設定
+  - 管理中心
 sites:
   - TW
 audiences:
@@ -23,10 +23,10 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 企業
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
+  - 企業
 cyb_extensions: []
 intents:
   - 啟用多國語言與幣別
@@ -39,7 +39,8 @@ features:
 prerequisites:
   - 需使用支援「拖拉設定」與「多國版型」之主題
   - PLUS 版商家需聯絡客服開通功能
-related: []
+related:
+  - ec/website-management/setup-store-basic-info/
 tags:
   - 多國語系
   - 跨境電商
@@ -53,7 +54,8 @@ ui_components:
   - 後台 > 管理中心 > 一般設定
 paths:
   - 管理中心 > 一般設定
-layouts: []
+layouts:
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11202
   - https://www.cyberbiz.io/support/?p=47292

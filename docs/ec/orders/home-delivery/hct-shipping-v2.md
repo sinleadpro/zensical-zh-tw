@@ -14,20 +14,15 @@ products:
   - EC
 modules:
   - 訂單
+  - 金物流
+  - 管理中心
 sites:
   - TW
 audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans: 
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 批次下載新竹物流託運單
@@ -38,10 +33,9 @@ features:
   - 補印託運單
   - 加印託運單
 prerequisites:
-  - "ec/payments-and-logistics/setup-hct-waybill-v2"
-  - "ec/payments-and-logistics/setup-hct-waybill-v2"
-  - "ec/orders/home-delivery/partial-shipment-v2"
-  - "ec/orders/basics/search-filter-orders"
+  - ec/payments-and-logistics/setup-hct-waybill-v2/
+  - ec/orders/home-delivery/partial-shipment-v2/
+  - ec/orders/basics/search-filter-orders/
 tags:
   - 新竹物流
   - 託運單

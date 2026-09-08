@@ -14,6 +14,7 @@ ga_views: 0
 feedback: 0
 products:
   - EC
+  - POS
 modules:
   - 商品
 sites:
@@ -22,14 +23,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 商品管理介面總覽
@@ -46,10 +40,13 @@ features:
   - 庫存列表
 prerequisites: []
 related:
-  - "ec/products/create-and-manage/create-update-products"
-  - "ec/products/bulk-operations/batch-update-product-descriptions-shipping"
-  - "ec/products/discoverability/product-search-visibility"
-  - "ec/products/discoverability/setup-site-search"
+  - ec/products/bulk-operations/batch-update-product-descriptions-shipping/
+  - ec/products/pricing/setup-vip-member-pricing/
+  - ec/products/bulk-operations/copy-products-to-pos-stores/
+  - ec/products/bulk-operations/excel-import-products/
+  - ec/products/create-and-manage/create-update-products/
+  - ec/products/discoverability/setup-site-search/
+  - ec/products/discoverability/product-search-visibility/
 tags:
   - 商品管理
   - 商品搜尋

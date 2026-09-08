@@ -20,7 +20,7 @@ sites:
 audiences: 
   - merchant
 difficulty: ""
-tnb: ""
+tnb: trunk
 plans: []
 cyb_extensions: []
 intents: 
@@ -31,7 +31,8 @@ features:
   - 補印託運單
   - 逾期重新取號
 prerequisites: []
-related: []
+related:
+  - ec/orders/renew-waybill-after-expiration/
 tags: []
 acoiv: ""
 apis: []

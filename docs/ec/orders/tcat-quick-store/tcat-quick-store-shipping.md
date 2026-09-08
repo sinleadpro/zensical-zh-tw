@@ -15,20 +15,14 @@ products:
   - EC
 modules:
   - 訂單
+  - 金物流
 sites:
   - TW
 audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 批次下載黑貓快速到店託運單
@@ -44,10 +38,13 @@ prerequisites:
   - 設定黑貓寄件人地址
   - 確認 CYBER 幣餘額
 related:
-  - "ec/orders/home-delivery/tcat-home-delivery-v2"
-  - "ec/orders/home-delivery/tcat-auto-call-driver-v2"
-  - "補印與加印託運單"
-  - "ec/orders/home-delivery/partial-shipment-v2"
+  - ec/orders/home-delivery/tcat-home-delivery-v2/
+  - ec/orders/home-delivery/tcat-auto-call-driver-v2/
+  - ec/payments-and-logistics/setup-print-tcat-quick-store-waybill-v2/
+  - ec/website-management/points-deposits/
+  - ec/orders/home-delivery/shipping-status-tooltip/
+  - ec/orders/home-delivery/partial-shipment-v2/
+  - ec/payments-and-logistics/setup-print-tcat-waybill-v2/
 tags:
   - 黑貓快速到店
   - 7-11
@@ -65,9 +62,7 @@ ui_components:
   - 下載黑貓快速到店託運單
   - 補印託運單
 paths:
-  - 訂單 > 所有訂單
   - 金物流 > 黑貓快速到店託運單
-  - 儲值中心
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2678

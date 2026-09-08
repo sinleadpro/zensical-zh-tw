@@ -21,11 +21,11 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 企業
   - 進階
-  - 進階PLUS
   - 高手
+  - 進階PLUS
   - 高手PLUS
+  - 企業
 cyb_extensions: []
 intents:
   - 如何設定前台商品篩選器
@@ -51,8 +51,7 @@ devices:
 ui_components: []
 paths:
   - 商品 > 所有商品
-layouts:
-  - draggable
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6170
   - https://www.cyberbiz.io/support/?p=31470

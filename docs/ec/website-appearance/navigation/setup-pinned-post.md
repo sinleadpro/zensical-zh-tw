@@ -4,9 +4,8 @@ description: 在商店頁面最上方顯示行銷訊息。類型涵蓋文字、�
 created: 2026-08-06 14:44
 last_modified: 2026-08-06 14:44
 lang: zh-TW
-type: tutorial
+type: guide
 status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes:
@@ -20,17 +19,10 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 設定多組置頂公告
@@ -59,7 +51,7 @@ paths:
   - 網站外觀 > 置頂公告
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/website-appearance/navigation/setup-pinned-post/"
 comments: false
 search:
   exclude: false
@@ -67,8 +59,7 @@ icon: lucide/megaphone
 hide: []
 prerequisites: []
 related:
-  - "[[setup-menus-navigation]]"
-  - "[[setup-global-theme-settings]]"
+  - ec/website-appearance/navigation/setup-menus-navigation/
 ---
 
 # 設定置頂公告

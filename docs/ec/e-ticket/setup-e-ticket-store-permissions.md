@@ -14,6 +14,8 @@ products:
   - EC
 modules:
   - 商品
+  - 金物流
+  - 管理中心
 sites:
   - TW
 audiences:

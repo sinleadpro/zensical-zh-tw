@@ -40,7 +40,8 @@ prerequisites:
   - 向 CYBERBIZ 客服申請開通「自動呼叫黑貓司機」
   - 至黑貓寄取件設定頁完整填寫寄件人姓名、地址、聯絡電話
 related:
-  - "ec/orders/home-delivery/tcat-home-delivery-v2"
+  - ec/orders/home-delivery/tcat-home-delivery-v2/
+  - ec/payments-and-logistics/setup-print-tcat-waybill-v2/
 tags:
   - 黑貓宅急便
   - 呼叫司機

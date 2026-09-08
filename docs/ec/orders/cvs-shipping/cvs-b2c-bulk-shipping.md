@@ -36,9 +36,15 @@ features:
   - B2C 大宗寄倉
   - 託運單批次下載
 prerequisites:
-  - "ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping"
+  - ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping/
 related:
-  - "ec/payments-and-logistics/references/cvs-b2c-channel-spec-reference"
+  - ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping/
+  - ec/orders/home-delivery/shipping-status-tooltip/
+  - ec/payments-and-logistics/references/cvs-b2c-logistics-center-reference/
+  - ec/orders/references/cvs-waybill-expiration-reference/
+  - ec/orders/renew-waybill-after-expiration/
+  - ec/payments-and-logistics/references/cvs-b2c-channel-spec-reference/
+  - ec/website-management/points-deposits/
 tags:
   - 超商大宗寄倉
   - B2C 出貨

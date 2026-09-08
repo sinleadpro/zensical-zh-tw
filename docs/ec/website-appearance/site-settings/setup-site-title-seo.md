@@ -11,20 +11,14 @@ products:
   - EC
 modules:
   - 網站外觀
+  - 管理中心
 sites:
   - TW
 audiences:
   - developer
 difficulty: advanced
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 設定網站標題與簡述
@@ -38,7 +32,10 @@ features:
 prerequisites:
   - 已設定網站基本名稱
 related:
-  - "ec/website-appearance/site-settings/setup-og-image"
+  - ec/website-management/setup-store-basic-info/
+  - ec/website-appearance/code-customization/restore-code-theme-editor/
+  - ec/website-management/seo/seo-guide/
+  - ec/website-appearance/site-settings/setup-og-image/
 tags:
   - SEO
   - 網站標題
@@ -52,9 +49,7 @@ ui_components: []
 paths:
   - 管理中心 > 一般設定 > 網站名
   - 網站外觀 > 套版主題管理 > 網站設定 > 全站設定
-layouts:
-  - classic
-  - draggable
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3572
   - https://www.cyberbiz.io/support/?p=16627

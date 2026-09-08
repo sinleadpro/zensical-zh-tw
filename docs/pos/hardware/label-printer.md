@@ -39,7 +39,9 @@ features:
   - 條碼標籤
 prerequisites:
   - 設定 POS 商店與機台
-related: []
+related:
+  - pos/software/drivers/
+  - pos/check/print-product-labels/
 tags:
   - 標籤機
   - TSC

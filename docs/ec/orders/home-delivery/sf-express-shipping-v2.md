@@ -14,20 +14,14 @@ products:
   - EC
 modules:
   - 訂單
+  - 金物流
 sites:
   - TW
 audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 批次下載順豐託運單
@@ -43,9 +37,12 @@ prerequisites:
   - 需先完成公司統一編號設定
   - 需先開通順豐託運單功能
 related:
-  - "ec/payments-and-logistics/sf-express-overseas-logistics"
-  - "補印與加印託運單"
-  - "ec/orders/home-delivery/partial-shipment-v2"
+  - ec/payments-and-logistics/setup-sf-express-waybill-v2/
+  - ec/website-management/setup-store-basic-info/
+  - ec/payments-and-logistics/sf-express-overseas-logistics/
+  - ec/payments-and-logistics/home-delivery-cash-on-delivery/
+  - ec/orders/home-delivery/shipping-status-tooltip/
+  - ec/orders/home-delivery/partial-shipment-v2/
 tags:
   - 順豐
   - 出貨

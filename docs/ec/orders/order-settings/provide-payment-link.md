@@ -44,7 +44,9 @@ features:
   - 電子錢包
   - 超商條碼
 prerequisites: []
-related: []
+related:
+  - ec/orders/order-settings/unpaid-reminder-settings/
+  - ec/products/shipping/cvs-shipping-restrictions-exclusions/
 tags:
   - 付款連結
   - 訂單付款

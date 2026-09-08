@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 儲值CYBER_幣
@@ -42,8 +35,8 @@ features:
   - EDM計費
 prerequisites: []
 related:
-  - "ec/notifications/manage-sms-templates-v2"
-  - "ec/notifications/send-edm-newsletters-v2"
+  - ec/notifications/manage-sms-templates-v2/
+  - ec/notifications/send-edm-newsletters-v2/
 tags:
   - CYBER 幣
   - 儲值中心

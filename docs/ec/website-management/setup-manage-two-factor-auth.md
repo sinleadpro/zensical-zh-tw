@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: ""
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 設定二階段驗證
@@ -39,7 +32,7 @@ features:
   - 強制開啟
 prerequisites: []
 related:
-  - "ec/website-management/add-admin-set-permissions"
+  - ec/website-management/authy-two-factor-authentication/
 tags:
   - 二階段驗證
   - 資安

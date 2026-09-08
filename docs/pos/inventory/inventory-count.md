@@ -39,8 +39,7 @@ features:
   - 複盤功能
   - 盤點單管理
 prerequisites: []
-related:
-  - "pos/inventory/index"
+related: []
 tags:
   - 庫存盤點
   - POS 前台操作

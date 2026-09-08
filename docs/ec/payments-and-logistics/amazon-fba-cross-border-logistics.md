@@ -15,6 +15,8 @@ products:
   - EC
 modules:
   - 金物流
+  - 第三方整合
+  - 商品
 sites:
   - US
   - JP
@@ -23,8 +25,8 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - Business
   - Pro
+  - Business
 cyb_extensions: []
 intents:
   - 安裝_FBA_插件

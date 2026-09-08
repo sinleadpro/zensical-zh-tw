@@ -22,9 +22,9 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 企業
   - 高手
   - 高手PLUS
+  - 企業
 cyb_extensions:
   - CYBERBIZ PAYMENTS
 intents:
@@ -42,7 +42,9 @@ prerequisites:
   - 聯繫客服申請開通物流功能
   - 符合適用版本（高手版需搭配 CYBERBIZ PAYMENTS）
   - 需進行場勘評估
-related: []
+related:
+  - ec/orders/references/cvs-waybill-expiration-reference/
+  - ec/orders/renew-waybill-after-expiration/
 tags:
   - 全家冷凍物流
   - 冷凍物流
@@ -57,7 +59,8 @@ devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
+paths:
+  - 金物流 > 超商物流
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5068

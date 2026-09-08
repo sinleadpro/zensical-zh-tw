@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: ""
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 建立 Google 購物廣告活動
@@ -42,7 +35,11 @@ prerequisites:
   - 需有 Google 帳號
   - 需完成廣告儲值
 related:
-  - "ec/integrations/google/setup-google-merchant-center"
+  - ec/website-management/setup-store-basic-info/
+  - ec/integrations/google/setup-google-merchant-center/
+  - ec/integrations/references/automated-ads-statuses/
+  - ec/products/create-and-manage/create-update-products/
+  - ec/business-intelligence/ad-analytics-guide/
 tags:
   - GMC
   - Google
@@ -56,7 +53,7 @@ devices:
   - mobile
 ui_components: []
 paths:
-  - 第三方整合 > 自動化廣告系統
+  - 第三方整合 > 自動化廣告系統。
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8203

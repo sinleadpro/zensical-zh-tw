@@ -33,7 +33,15 @@ intents:
 features:
   - 組合商品
 prerequisites: []
-related: []
+related:
+  - ec/marketing/coupon/setup-promo-codes/
+  - ec/marketing/coupon/setup-coupons/
+  - ec/marketing/discounts/threshold-gifts-and-quantity-gifts/
+  - ec/marketing/upsells/setup-product-upsell/
+  - ec/products/shipping/setup-product-shipping-conditions/
+  - ec/products/create-and-manage/create-update-products/
+  - ec/products/create-and-manage/edit-product-slogan-and-description/
+  - wms/processed-products/
 tags:
   - 組合商品
   - 指定組合商品
@@ -48,8 +56,7 @@ devices:
 ui_components: []
 paths:
   - 商品 > 組合商品
-layouts:
-  - draggable
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5717
   - https://www.cyberbiz.io/helpcenter/?p=8055
@@ -390,7 +397,6 @@ hide: []
 - 組合商品僅支援單一溫層，不支援[多通路觸發多購物車](../shipping/setup-product-shipping-conditions.md#多通路購物車拆分){ title="設定商品配送條件（物流、溫層與出貨通路）" }。
 
 ![組合商品購物車](../../../assets/images/ec-product-combo-optional-quantity-cart.zh-tw.png){ title="組合商品購物車" }
-
 ## 組合商品出貨
 
 當組合商品訂單成立後，系統在產生超商或宅配託運單時，會同時生成以下四份文件。所有文件皆包含組合商品中所有子商品的詳細資訊：

@@ -22,14 +22,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 取得 LINE 用戶手機號碼
@@ -49,7 +42,9 @@ prerequisites:
   - 完成 LINE 快速登入串接
   - LINE Provider 認證 (LINE Certified Provider)
   - LINE 官方帳號認證 (藍色盾牌或綠色盾牌)
-related: []
+related:
+  - ec/integrations/line/account-integration/setup-line-quick-login/
+  - ec/integrations/line/account-integration/setup-liff-auto-login-member-binding/
 tags:
   - LINE
   - 快速登入

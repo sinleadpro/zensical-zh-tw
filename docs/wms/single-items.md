@@ -33,7 +33,9 @@ features:
   - 供應商綁定
 prerequisites:
   - 需已開通 CYBERBIZ 電商倉儲服務
-related: []
+related:
+  - wms/suppliers/
+  - wms/seasonal-groups/
 tags:
   - WMS
   - 商品管理
@@ -48,7 +50,7 @@ ui_components:
   - 商品編輯頁面
 paths:
   - 商品 > 單一品項
-  - 供應商
+  - 商品 > 所有商品
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5733

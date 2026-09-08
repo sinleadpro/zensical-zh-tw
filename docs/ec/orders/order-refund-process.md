@@ -33,8 +33,7 @@ features:
   - 金流退刷
 prerequisites:
   - "商家執行訂單退貨流程"
-related:
-  - "ec/orders/order-return-process"
+related: []
 tags:
   - 退款流程
   - 售後服務

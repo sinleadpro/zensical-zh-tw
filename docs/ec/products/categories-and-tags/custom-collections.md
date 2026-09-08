@@ -23,14 +23,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 如何建立商品分類群組
@@ -42,7 +35,11 @@ features:
   - 分類群組 SEO 設定
   - 多國語系
 prerequisites: []
-related: []
+related:
+  - ec/products/categories-and-tags/smart-collections/
+  - ec/products/categories-and-tags/secret-collection/
+  - ec/website-appearance/theme-and-layout/storefront-collection-sorting/
+  - ec/website-management/setup-multi-language-and-multi-currency/
 tags:
   - 商品群組
   - 自訂分類

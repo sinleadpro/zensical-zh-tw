@@ -21,8 +21,9 @@ sites:
 audiences: 
     - merchant
 difficulty: beginner
-tnb: trunk
-plans: []
+tnb: branch
+plans:
+  - 企業
 cyb_extensions: []
 intents: 
     - 了解全館折扣規格

@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 設定網站選單內容
@@ -42,10 +35,14 @@ features:
   - 頁腳選單與外觀設定
   - 多國語系選單編輯
 prerequisites:
-  - "ec/products/create-and-manage/create-update-products"
+  - ec/products/create-and-manage/create-update-products/
 related:
-  - "ec/website-appearance/navigation/setup-nav-menu-hover-expand"
-  - "ec/website-appearance/theme-and-layout/storefront-collection-sorting"
+  - ec/website-appearance/navigation/setup-pinned-post/
+  - ec/integrations/fb/mbe/setup-fbe-authorization/
+  - ec/website-appearance/navigation/setup-nav-menu-hover-expand/
+  - ec/website-appearance/theme-and-layout/storefront-collection-sorting/
+  - ec/products/categories-and-tags/custom-collections/
+  - ec/products/categories-and-tags/smart-collections/
 tags:
   - 網站選單
   - 導覽列設定

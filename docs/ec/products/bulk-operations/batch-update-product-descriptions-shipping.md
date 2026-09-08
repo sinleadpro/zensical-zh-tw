@@ -21,14 +21,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 批次更新商品資訊
@@ -40,8 +33,10 @@ features:
   - 配送設定批次修改
 prerequisites: []
 related:
-  - "ec/products/bulk-operations/excel-import-products"
-  - "ec/products/create-and-manage/edit-product-description-settings"
+  - ec/products/create-and-manage/product-management-interface/
+  - ec/products/create-and-manage/edit-product-description-settings/
+  - ec/products/bulk-operations/excel-import-products/
+  - ec/products/shipping/setup-product-shipping-conditions/
 tags:
   - 批次修改
   - Excel 匯入
@@ -59,9 +54,9 @@ ui_components:
   - 操作選單
 paths:
   - 商品 > 所有商品
+  - 商品 > 所有商品 > 點擊特定商品 >「商品描述」頁籤
   - 商品 > Excel 大量匯入商品
-layouts:
-  - classic
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9397
   - https://www.cyberbiz.io/support/?p=44199

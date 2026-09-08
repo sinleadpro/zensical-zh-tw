@@ -17,20 +17,15 @@ products:
 modules:
   - 網站外觀
   - 第三方整合
+  - 行銷活動
+  - APP MARKET
 sites:
   - TW
 audiences:
   - developer
 difficulty: advanced
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 建立品牌與客戶溝通管道
@@ -43,7 +38,9 @@ features:
   - Omnichat 整合
   - 客服按鈕自訂化
 prerequisites: []
-related: []
+related:
+  - ec/integrations/line/marketing/add-line-friend-entry-storefront/
+  - ec/website-appearance/code-customization/restore-code-theme-editor/
 tags:
   - 客服視窗
   - GetButton

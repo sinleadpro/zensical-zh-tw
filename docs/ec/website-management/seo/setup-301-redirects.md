@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: ""
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 設定_301_轉址
@@ -39,8 +32,8 @@ features:
   - Excel 匯入
 prerequisites: []
 related:
-  - "ec/website-management/seo/submit-sitemap-to-gsc"
-  - "ec/website-management/seo/seo-guide"
+  - ec/website-management/seo/submit-sitemap-to-gsc/
+  - ec/website-management/seo/seo-guide/
 tags:
   - "301"
   - 轉址

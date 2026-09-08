@@ -15,17 +15,14 @@ products:
   - EC
 modules:
   - 管理中心
+  - APP MARKET
 sites:
   - TW
 audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 進階
-  - 高手
+plans: []
 cyb_extensions: []
 intents:
   - 設定付款資訊
@@ -44,7 +41,9 @@ devices:
   - desktop
 ui_components: []
 paths:
-  - 管理中心 > 方案
+  - 管理中心 > 方案 > 付款設定頁籤
+  - 管理中心 > 方案 > 購買資訊
+  - APP MARKET > 我的擴充服務
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2020

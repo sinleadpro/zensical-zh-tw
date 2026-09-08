@@ -21,12 +21,12 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 企業
-  - 專業PLUS
   - 進階
-  - 進階PLUS
   - 高手
+  - 專業PLUS
+  - 進階PLUS
   - 高手PLUS
+  - 企業
 cyb_extensions: []
 intents:
   - 設定商品購買上限
@@ -38,7 +38,8 @@ features:
   - 最低購買數量
 prerequisites: []
 related:
-  - "ec/marketing/upsells/setup-product-upsell"
+  - ec/marketing/references/purchase-limit-account-status/
+  - ec/marketing/upsells/setup-product-upsell/
 tags:
   - EC
   - 行銷活動

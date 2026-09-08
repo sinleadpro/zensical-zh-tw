@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: ""
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 移除 Google 搜尋結果
@@ -36,9 +29,10 @@ features:
   - Google Search Console
   - 移除網址工具
 prerequisites:
-  - "ec/integrations/google/setup-google-search-console"
+  - ec/integrations/google/setup-google-search-console/
 related:
-  - "ec/integrations/google/setup-google-search-console"
+  - ec/integrations/google/setup-google-search-console/
+  - ec/products/discoverability/product-search-visibility/
 tags:
   - Google Search Console
   - 移除網址

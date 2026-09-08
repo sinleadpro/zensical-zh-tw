@@ -18,14 +18,7 @@ modules:
 sites:
   - TW
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 audiences:
   - developer
@@ -51,7 +44,21 @@ features:
   - 訂單頁客製化
 prerequisites: []
 related:
-  - "ec/website-appearance/code-customization/setup-cookie-consent-banner"
+  - ec/website-appearance/site-settings/setup-right-click-protection/
+  - ec/website-appearance/site-settings/setup-site-title-seo/
+  - ec/website-appearance/theme-and-layout/adjust-carousel-transition-duration/
+  - ec/website-appearance/navigation/setup-nav-menu-hover-expand/
+  - ec/products/discoverability/exclude-keyword-products-search/
+  - ec/website-appearance/site-settings/setup-storefront-language-text-customization/
+  - ec/website-appearance/code-customization/customize-other-channel-order-label/
+  - ec/website-appearance/customer-interaction/setup-customer-service-widget/
+  - ec/website-appearance/customer-interaction/setup-edit-customer-service-info/
+  - ec/website-appearance/theme-and-layout/disable-product-image-zoom/
+  - ec/marketing/one-page-store/one-page-store-youtube-autoplay/
+  - ec/products/create-and-manage/edit-product-slogan-and-description/
+  - ec/website-appearance/checkout-and-shopping-flow/priority-recipient-info-checkout/
+  - ec/integrations/line/marketing/line-friend-link-order-payment-pages/
+  - pos/check/pos-manager-price-override/
 tags:
   - 樣板編輯器
   - 程式碼
@@ -72,9 +79,7 @@ devices:
 ui_components: []
 paths:
   - 網站外觀 > 套版主題管理 > 選擇操作 > CSS/HTML 編輯器
-layouts:
-  - classic
-  - draggable
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3579
   - https://www.cyberbiz.io/support/?p=17612

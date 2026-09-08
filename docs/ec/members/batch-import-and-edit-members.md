@@ -20,11 +20,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 進階
-  - 高手
+plans: []
 cyb_extensions: []
 intents:
   - 大量導入新會員
@@ -36,7 +32,9 @@ features:
   - Excel範本
 prerequisites:
   - "需準備 Excel 軟體或支援 .xlsx 之工具"
-related: []
+related:
+  - ec/website-management/customer-registration-flow-and-fields/
+  - ec/members/manage-member-profiles/
 tags:
   - Excel匯入
   - 批次操作

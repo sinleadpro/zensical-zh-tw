@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 編輯商品描述
@@ -44,7 +37,19 @@ features:
   - 相關商品設定
   - 快速操作按鈕 (公開, 前往, 複製, 刪除)
 prerequisites: []
-related: []
+related:
+  - ec/products/create-and-manage/create-update-products/
+  - ec/website-appearance/code-customization/text-editor/
+  - ec/products/categories-and-tags/custom-collections/
+  - ec/marketing/discounts/mix-and-match-discounts/
+  - ec/products/categories-and-tags/manage-product-tags/
+  - ec/products/checkout/checkout-split-multi-cart/
+  - ec/integrations/google/setup-google-merchant-center/
+  - ec/products/shipping/setup-product-shipping-conditions/
+  - ec/payments-and-logistics/home-delivery-cash-on-delivery/
+  - ec/products/shipping/cvs-shipping-restrictions-exclusions/
+  - ec/website-management/seo/seo-guide/
+  - ec/products/bulk-operations/batch-update-product-descriptions-shipping/
 tags:
   - 商品描述
   - 商品設定

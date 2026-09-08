@@ -37,7 +37,8 @@ features:
 prerequisites:
   - 需已開通 CYBERBIZ PAYMENTS 金流服務
 related:
-  - "ec/payments-and-logistics/north-america-payment-services"
+  - ec/payments-and-logistics/setup-credit-card-3d-verification/
+  - ec/payments-and-logistics/north-america-payment-services/
 tags:
   - 行動支付
   - CYBERBIZ PAYMENTS

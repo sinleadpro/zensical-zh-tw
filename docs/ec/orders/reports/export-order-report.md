@@ -20,11 +20,7 @@ audiences:
   - merchant
 difficulty: ""
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 匯出訂單
@@ -36,12 +32,12 @@ features:
   - 篩選功能
 prerequisites: []
 related:
-  - "ec/orders/references/order-report-fields"
-  - "ec/products/shipping/cvs-shipping-restrictions-exclusions"
-  - "ec/orders/reports/export-subscription-forecast"
-  - "ec/website-management/admin-security-settings"
-  - "ec/website-management/add-admin-set-permissions"
-  - "pos/inventory/pos-reports-list-guide"
+  - ec/orders/references/order-report-fields/
+  - pos/inventory/pos-reports-list-guide/
+  - ec/products/shipping/cvs-shipping-restrictions-exclusions/
+  - ec/profit-sharing/export-profit-sharing-reports/
+  - ec/orders/reports/export-subscription-forecast/
+  - ec/website-management/add-admin-set-permissions/
 tags:
   - 訂單
   - 匯出

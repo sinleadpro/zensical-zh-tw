@@ -12,8 +12,10 @@ ga_views: 0
 feedback: 0
 products:
   - EC
+  - WMS
 modules:
   - APP MARKET
+  - 商品
 sites:
   - TW
 audiences:
@@ -37,7 +39,9 @@ features:
 prerequisites:
   - "Step 1~4，確保商品已建立關聯"
   - "官網商品欄位需符合蝦皮規範"
-related: []
+related: 
+  - ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee/
+  - ec/app-market/cyberbiz-channel-bridge/shopee-integration/step4-create-shopee-products-from-site/
 tags: []
 acoiv: configure
 apis: []
@@ -45,8 +49,9 @@ devices:
   - desktop
 ui_components: []
 paths:
+  - APP MARKET > 我的擴充服務 > CYBERBIZ CHANNEL BRIDGE
+  - 商品 > 所有商品 > 點擊商品 > 商品資訊頁籤
   - 商品 > 所有商品
-  - App Market > 我的擴充服務 > CYBERBIZ CHANNEL BRIDGE
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12690

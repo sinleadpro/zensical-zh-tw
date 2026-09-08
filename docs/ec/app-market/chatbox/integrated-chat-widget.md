@@ -21,7 +21,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: branch
-plans: 
+plans:
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
@@ -39,10 +39,11 @@ features:
   - LINE 整合
   - Messenger 整合
 prerequisites:
-  - "ec/app-market/chatbox/connect-chat-box-to-line-oa"
-  - "ec/app-market/chatbox/connect-chat-box-to-facebook-page"
+  - ec/app-market/chatbox/connect-chat-box-to-line-oa/
+  - ec/app-market/chatbox/connect-chat-box-to-facebook-page/
 related:
-  - "ec/app-market/chatbox/index"
+  - ec/app-market/chatbox/connect-chat-box-to-line-oa/
+  - ec/app-market/chatbox/connect-chat-box-to-facebook-page/
 tags: 
   - 對話入口
   - CHAT BOX
@@ -59,8 +60,8 @@ ui_components:
   - 對話小工具
   - 外觀設定
   - 功能設定
-paths: 
-  - APP MARKET > 我的擴充服務 > CHAT BOX > 官網整合對話入口
+paths:
+  - APP MARKET > 我的擴充服務 > CHAT BOX
 layouts: []
 wp_url: []
 permalink: "https://help.cyberbiz.io/ec/app-market/chatbox/integrated-chat-widget/"

@@ -17,6 +17,8 @@ products:
   - EC
 modules:
   - 電商倉儲
+  - 商品
+  - 金物流
 sites:
   - TW
 audiences: []
@@ -36,7 +38,10 @@ features:
   - B2C 大宗寄倉
 prerequisites:
   - 需完成商品 SKU 編碼規劃（不可為空值）
-related: []
+related:
+  - wms/single-items/
+  - wms/merchant-inbound-operation-rules/
+  - wms/logistics-settings-reference/
 tags:
   - WMS
 acoiv: activate
@@ -48,9 +53,11 @@ ui_components:
   - 商品編輯頁面
   - 金物流設定頁面
 paths:
-  - EC：金物流 > 宅配物流
-  - EC：金物流 > 超商物流
-  - WMS：設定 > 系統設定 > 電商倉儲設定
+  - 商品 > 所有商品
+  - 商品 > 單一品項
+  - 金物流 > CYBERBIZ 電商倉儲設定
+  - 金物流 > 超商物流
+  - 金物流 > 宅配物流
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5708

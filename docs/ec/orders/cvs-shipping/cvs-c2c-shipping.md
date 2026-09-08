@@ -24,14 +24,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions:
   - CYBERBIZ PAYMENTS
 intents:
@@ -53,7 +46,14 @@ prerequisites:
   - 開通CYBERBIZ PAYMENTS (貨到付款)
   - 一般版商家需儲值CYBER幣
   - 正確設定寄件人資訊
-related: []
+related:
+  - ec/website-management/points-deposits/
+  - ec/orders/basics/order-fulfillment-flow/
+  - ec/orders/cvs-shipping/thermal-print-cvs-waybill/
+  - ec/orders/references/cvs-waybill-expiration-reference/
+  - ec/orders/renew-waybill-after-expiration/
+  - ec/orders/cvs-shipping/family-mart-frozen-c2c/
+  - ec/website-management/setup-store-basic-info/
 tags:
   - 超商店到店
   - C2C
@@ -71,7 +71,6 @@ devices:
 ui_components: []
 paths:
   - 訂單 > 所有訂單
-  - 管理中心 > 儲值中心
   - 訂單 > 訂單報表匯出
 layouts: []
 wp_url:

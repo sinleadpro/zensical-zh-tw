@@ -22,12 +22,12 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 企業
-  - 專業PLUS
   - 進階
-  - 進階PLUS
   - 高手
+  - 專業PLUS
+  - 進階PLUS
   - 高手PLUS
+  - 企業
 cyb_extensions:
 intents:
   - 申請超商大宗寄倉 B2C 服務
@@ -44,7 +44,13 @@ prerequisites:
   - 具備高手版或 PLUS版 以上系統版本
   - 準備雷射印表機及防水材質標籤
   - 登入 CYBERBIZ 管理後台
-related: []
+related:
+  - ec/orders/cvs-shipping/cvs-b2c-bulk-shipping/
+  - ec/payments-and-logistics/references/cvs-b2c-channel-spec-reference/
+  - ec/payments-and-logistics/references/cvs-b2c-logistics-center-reference/
+  - ec/website-management/points-deposits/
+  - ec/products/shipping/cvs-shipping-restrictions-exclusions/
+  - ec/orders/cvs-shipping/cvs-c2c-shipping/
 tags:
   - 超商大宗寄倉
   - B2C
@@ -59,7 +65,8 @@ devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
+paths:
+  - 金物流 > 超商物流
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5064

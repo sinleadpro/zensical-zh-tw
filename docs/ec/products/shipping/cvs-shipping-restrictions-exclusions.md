@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 設定超商物流限制
@@ -61,8 +54,7 @@ devices:
   - mobile
 ui_components: []
 paths:
-  - 管理後台 > 商品 > 所有商品
-  - 管理後台 > 商品 > 所有商品 > 編輯商品
+  - 商品 > 所有商品
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=950

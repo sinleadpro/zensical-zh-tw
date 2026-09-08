@@ -16,6 +16,7 @@ products:
   - EC
 modules:
   - APP MARKET
+  - 訂單
 sites:
   - JP
 audiences:
@@ -37,7 +38,8 @@ features:
 prerequisites:
   - 需向開店顧問團隊申請開通服務
   - 需具備日本出貨地址 (倉庫或商家處)
-related: []
+related:
+  - ec/app-market/express/product-info-setting/
 tags:
   - 跨境電商
   - EZWAY 報關
@@ -48,7 +50,6 @@ devices:
 ui_components: []
 paths:
   - APP MARKET > 我的擴充服務 > CYBERBIZ EXPRESS
-  - 商品 > 所有商品
   - 訂單 > 所有訂單
 layouts: []
 wp_url:

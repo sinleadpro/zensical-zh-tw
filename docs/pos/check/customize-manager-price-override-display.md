@@ -12,7 +12,6 @@ notes: []
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - POS
 modules:
   - 網站外觀
@@ -37,7 +36,7 @@ features:
   - Liquid 樣板編輯
 prerequisites: []
 related:
-  - docs/ec/website-appearance/使用樣板編輯器恢復網頁代碼.md
+  - ec/website-appearance/code-customization/restore-code-theme-editor/
 tags:
   - 店長改價
   - 訂單查詢
@@ -50,8 +49,7 @@ ui_components:
   - CSS/HTML 編輯器
 paths:
   - 網站外觀 > 套版主題管理 > CSS/HTML 編輯器
-layouts:
-  - classic
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=26950
 comments: false

@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 盤點網站安全防護項目
@@ -46,9 +39,12 @@ features:
   - SSL 憑證
 prerequisites: []
 related:
-  - "ec/website-management/admin-security-settings"
-  - "ec/payments-and-logistics/setup-credit-card-3d-verification"
-  - "ec/website-appearance/site-settings/setup-right-click-protection"
+  - ec/website-management/admin-security-settings/
+  - ec/website-management/bot-protection-settings/
+  - ec/website-management/add-admin-set-permissions/
+  - ec/website-management/member-security-settings/
+  - ec/payments-and-logistics/setup-credit-card-3d-verification/
+  - ec/website-appearance/site-settings/setup-right-click-protection/
 tags:
   - 資安防護
   - 二階段驗證
@@ -63,10 +59,7 @@ devices:
   - mobile
 ui_components: []
 paths:
-  - 管理中心/安全性設定 > 管理員登入
-  - 管理中心/安全性設定 > 會員安全
-  - 管理中心/安全性設定 > 機器人防護設定
-  - 管理中心/網站權限 > 帳戶權限設定
+  - 管理中心 > 網站權限
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3549

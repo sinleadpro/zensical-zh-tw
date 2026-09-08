@@ -15,6 +15,7 @@ products:
   - EC
 modules:
   - 電商倉儲
+  - 金物流
 sites:
   - TW
 audiences: []
@@ -27,7 +28,10 @@ features:
   - 電商倉儲
   - 建立物流選項
 prerequisites: []
-related: []
+related:
+  - wms/application-process-and-activation/
+  - wms/enable-partial-warehouse-integration-and-mixed-orders/
+  - wms/enable-partial-warehouse-integration-and-order-splitting/
 tags:
   - WMS
 acoiv: activate
@@ -38,8 +42,7 @@ ui_components:
   - 自訂物流頁籤
   - 串接物流頁籤
 paths:
-  - EC：金物流 > 宅配物流 > 自訂物流
-  - EC：金物流 > 宅配物流 > 串接物流
+  - 金物流 > 宅配物流
 layouts: []
 wp_url: []
 permalink: "https://help.cyberbiz.io/wms/logistics-settings-reference/"

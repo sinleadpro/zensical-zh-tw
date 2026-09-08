@@ -40,7 +40,7 @@ features:
 prerequisites:
   - "POS 前台登入與基礎操作"
 related:
-  - "POS 網路連線異常與斷線提示說明"
+  - pos/check/line-pay-scan-payment/
 tags:
   - 商米
   - SUNMI

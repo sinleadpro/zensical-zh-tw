@@ -10,10 +10,15 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: 
+products:
   - EC
-modules: 
+  - WMS
+modules:
   - 行銷活動
+  - 會員
+  - 商品
+  - 金物流
+  - 分析報表
 sites: 
   - TW
 audiences: 
@@ -32,10 +37,12 @@ features:
   - 消費回饋
   - 批次發送紅利
 prerequisites: []
-related: 
-  - "ec/marketing/references/coupon-and-bonus-credit-rules.md"
-  - "ec/marketing/bonus-and-gifts/setup-registration-gift.md"
-  - "ec/marketing/bonus-and-gifts/setup-birthday-gift.md"
+related:
+  - ec/marketing/references/coupon-and-bonus-credit-rules/
+  - ec/members/manage-member-profiles/
+  - ec/products/bulk-operations/batch-update-product-descriptions-shipping/
+  - ec/orders/reports/export-order-report/
+  - ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification/
 tags: 
   - 紅利點數
   - 購物金
@@ -48,9 +55,13 @@ devices:
 ui_components: 
   - 紅利設定欄位
   - 會員列表
-paths: 
-  - 行銷活動 > 全館折扣-紅利 & 優惠券 > 會員紅利點數
-  - 金物流 > 結帳頁 & 物流設定 > 訂單相關設定 > 訂單取消退貨相關紅利設定
+paths:
+  - 行銷活動 > 全館折扣-紅利 & 優惠券
+  - 會員 > 所有會員
+  - 商品 > 所有商品
+  - 金物流 > 結帳頁 & 物流設定
+  - 金物流 > 結帳頁 & 物流設定 > 訂單相關設定
+  - 分析報表 > 行銷活動分析 > 紅利分析
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3805

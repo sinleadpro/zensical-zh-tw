@@ -17,6 +17,7 @@ products:
   - EC
 modules:
   - 金物流
+  - 商品
 sites:
   - TW
 audiences:
@@ -39,7 +40,8 @@ features:
 prerequisites:
   - 需先完成門市建立
 related:
-  - "處理門市取貨訂單"
+  - ec/orders/store-pickup-orders/
+  - ec/products/copy-products-to-quick-delivery-stores/
 tags:
   - 門市取貨
   - 門市管理
@@ -52,7 +54,8 @@ devices:
 ui_components:
   - backend
 paths:
-  - 金物流 > 所有門市 > 門市取貨設定
+  - 金物流 > 所有門市
+  - 商品 > 所有商品
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5641

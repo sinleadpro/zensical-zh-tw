@@ -14,20 +14,14 @@ products:
   - EC
 modules:
   - 網站外觀
+  - 商品
 sites:
   - TW
 audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 編輯商品描述與自訂頁面內容
@@ -43,8 +37,9 @@ features:
 prerequisites:
   - 具備後台管理員帳號
 related:
-  - "ec/products/create-and-manage/create-update-products"
-  - "ec/website-appearance/theme-and-layout/apply-and-switch-theme"
+  - ec/website-appearance/references/text-editor-toolbar/
+  - ec/products/create-and-manage/create-update-products/
+  - ec/website-appearance/theme-and-layout/apply-and-switch-theme/
 tags:
   - 文字編輯器
   - 網頁編輯

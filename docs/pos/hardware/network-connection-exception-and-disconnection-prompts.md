@@ -36,7 +36,8 @@ features:
   - 離線模式
   - 廣告阻擋排除
 prerequisites: []
-related: []
+related:
+  - pos/check/offline-checkout-mode/
 tags:
   - 網路不穩
   - 斷線提示

@@ -1,5 +1,4 @@
 ---
-
 title: 顧客欄位驗證模式對照表
 description: 說明 Email 與手機欄位的三種驗證模式：選填、必填、必填且必須驗證。
 created: 2026-05-27 16:04
@@ -13,21 +12,15 @@ ga_views: 0
 feedback: 0
 products:
   - EC
-modules: []
+modules:
+  - 管理中心
 sites:
   - TW
 audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 了解欄位驗證模式
@@ -39,9 +32,7 @@ features:
   - 雙重驗證
   - 資料欄位設定
 prerequisites: []
-related:
-  - "ec/website-management/setup-customer-email-phone-verification"
-  - "ec/website-management/references/customer-registration-modes-reference"
+related: []
 tags:
   - EC
   - 顧客註冊

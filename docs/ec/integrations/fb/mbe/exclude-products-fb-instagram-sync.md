@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 排除_FB_商店商品
@@ -35,10 +28,10 @@ intents:
 features:
   - 商品排除標籤
 prerequisites:
-  - "ec/integrations/fb/mbe/setup-fb-instagram-shop"
+  - ec/integrations/fb/mbe/setup-fb-instagram-shop/
 related:
-  - "ec/integrations/fb/mbe/setup-fb-instagram-shop"
-  - "ec/products/categories-and-tags/manage-product-tags"
+  - ec/integrations/fb/mbe/setup-fb-instagram-shop/
+  - ec/products/categories-and-tags/manage-product-tags/
 tags:
   - FBE
   - FB 商店

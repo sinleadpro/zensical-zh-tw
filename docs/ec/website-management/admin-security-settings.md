@@ -21,14 +21,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 加強後台安全性
@@ -46,9 +39,10 @@ features:
 prerequisites:
   - 先確認自己的 IP
 related:
-  - ec/website-management/member-security-settings.md
-  - ec/website-management/bot-protection-settings.md
-  - ec/website-management/add-admin-set-permissions.md
+  - ec/website-management/member-security-settings/
+  - ec/website-management/bot-protection-settings/
+  - ec/website-management/add-admin-set-permissions/
+  - ec/website-management/setup-manage-two-factor-auth/
 tags:
   - 管理員安全
   - IP 白名單
@@ -67,6 +61,7 @@ wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3214
   - https://www.cyberbiz.io/support/?p=14334
   - https://www.cyberbiz.io/support/?p=472
+permalink: "https://help.cyberbiz.io/ec/website-management/admin-security-settings/"
 comments: false
 search:
   exclude: false

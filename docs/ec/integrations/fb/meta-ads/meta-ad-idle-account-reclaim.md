@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 避免廣告帳號被釋出
@@ -38,9 +31,8 @@ features:
   - 帳號釋出流程
   - 儲值激活機制
 prerequisites:
-  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
-  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
-  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
+  - ec/integrations/fb/meta-ads/create-meta-ad-account-top-up/
+  - ec/integrations/fb/meta-ads/setup-meta-ad-campaign/
 tags:
   - Meta 廣告
   - 閒置帳號

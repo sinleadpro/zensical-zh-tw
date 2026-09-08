@@ -37,9 +37,7 @@ features:
   - CHAT BOX
 prerequisites:
   - 需擁有 Facebook 粉絲專頁管理員權限
-related:
-  - "ec/app-market/chatbox/index"
-  - "ec/app-market/chatbox/meta-message-format-spec"
+related: []
 tags:
   - Facebook 串接
   - Meta 授權
@@ -53,7 +51,9 @@ ui_components:
   - Meta Business Suite
   - Facebook 授權視窗
 paths:
-  - APP MARKET > CHAT BOX > 設定
+  - Meta Business Suite > 設定 > 用戶 > 用戶
+  - Meta Business Suite > 設定 > 帳號 > 粉絲專頁
+  - APP MARKET > CHAT BOX
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12966

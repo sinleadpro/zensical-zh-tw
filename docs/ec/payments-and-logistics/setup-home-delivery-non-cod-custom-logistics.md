@@ -12,8 +12,9 @@ ga_views: 0
 feedback: 0
 products: 
   - EC
-modules: 
+modules:
   - 金物流
+  - 商品
 sites: 
   - TW
 audiences: 
@@ -34,8 +35,13 @@ features:
   - 配送國家設定
 prerequisites: 
   - "需先完成金流串接設定"
-related: 
-  - "ec/payments-and-logistics/home-delivery-cash-on-delivery"
+related:
+  - ec/orders/home-delivery/tcat-home-delivery-v2/
+  - ec/orders/home-delivery/pelican-shipping-v2/
+  - ec/orders/home-delivery/sf-express-shipping-v2/
+  - ec/orders/home-delivery/hct-shipping-v2/
+  - ec/orders/home-delivery/custom-logistic-shipping/
+  - ec/payments-and-logistics/home-delivery-cash-on-delivery/
 tags: 
   - 物流設定
   - 運費
@@ -48,8 +54,10 @@ devices:
 ui_components: 
   - 自訂物流列表
   - 配送國家設定
-paths: 
+paths:
+  - 金物流 > 自訂物流
   - 金物流 > 宅配物流 > 自訂物流
+  - 商品 > 所有商品 > [特定商品] > 設定
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2746

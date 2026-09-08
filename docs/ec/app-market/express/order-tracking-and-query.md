@@ -4,9 +4,8 @@ description: 說明商家與消費者如何透過 CYBERBIZ EXPRESS 追蹤物流�
 created: 2026-07-24 15:03
 last_modified: 2026-07-24 15:03
 lang: zh-TW
-type: tutorial
+type: guide
 status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -19,7 +18,7 @@ modules:
 sites:
   - JP
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
@@ -44,11 +43,11 @@ devices: []
 ui_components: 
   - 物流單號頁籤
   - 託運單號連結
-paths: 
+paths:
   - APP MARKET > 我的擴充服務 > CYBERBIZ EXPRESS
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/express/order-tracking-and-query/"
 comments: false
 search:
   exclude: false

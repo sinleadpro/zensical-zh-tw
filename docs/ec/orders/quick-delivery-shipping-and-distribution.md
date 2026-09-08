@@ -39,7 +39,8 @@ features:
 prerequisites:
   - 訂單狀態已變更為「準備出貨」
   - 商品已依材積規範完成打包
-related: []
+related:
+  - ec/orders/pandago-delivery-exception-rules/
 tags:
   - Pandago
   - UberDirect

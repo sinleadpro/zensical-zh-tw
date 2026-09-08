@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 設定黑貓快速到店託運單寄件人資訊
@@ -38,8 +31,8 @@ features:
   - 加印託運單
 prerequisites: []
 related:
-  - "ec/payments-and-logistics/setup-print-tcat-waybill-v2"
-  - "ec/website-management/points-deposits"
+  - ec/payments-and-logistics/setup-print-tcat-waybill-v2/
+  - ec/website-management/points-deposits/
 tags:
   - 金物流
   - 黑貓快速到店

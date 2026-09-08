@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: ""
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions:
   - APP MARKET
 intents:
@@ -37,10 +30,13 @@ features:
   - Meta Ads App
   - 高效速成行銷活動
 prerequisites:
-  - "ec/integrations/fb/mbe/setup-fbe-authorization"
-  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
+  - ec/integrations/fb/mbe/setup-fbe-authorization/
+  - ec/integrations/fb/meta-ads/create-meta-ad-account-top-up/
 related:
-  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
+  - ec/integrations/fb/mbe/setup-fbe-authorization/
+  - ec/integrations/fb/meta-ads/create-meta-ad-account-top-up/
+  - ec/integrations/fb/meta-ads/setup-meta-ad-campaign/
+  - ec/integrations/fb/meta-ads/setup-meta-ad-catalog-sets/
 tags:
   - Meta Ads
   - Facebook

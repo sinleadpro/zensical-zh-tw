@@ -22,6 +22,9 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -48,7 +51,8 @@ devices:
 ui_components: []
 paths:
   - 行銷活動 > 互動遊戲
-layouts: []
+layouts:
+  - classic
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=11192
   - https://www.cyberbiz.io/helpcenter/?p=5804

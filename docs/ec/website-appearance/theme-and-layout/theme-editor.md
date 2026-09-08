@@ -23,14 +23,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 設定網站外觀
@@ -42,7 +35,13 @@ features:
   - 頁面區塊編輯
 prerequisites:
   - 後台管理員權限
-related: []
+related:
+  - ec/website-appearance/references/theme-editor-pages/
+  - ec/website-appearance/references/theme-editor-sections/
+  - ec/website-appearance/theme-and-layout/setup-theme-page-settings/
+  - ec/website-management/setup-multi-language-and-multi-currency/
+  - ec/website-appearance/theme-and-layout/setup-global-theme-settings/
+  - ec/products/create-and-manage/create-update-products/
 tags:
   - EC
   - 拖拉版型

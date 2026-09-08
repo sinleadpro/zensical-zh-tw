@@ -38,8 +38,7 @@ features:
   - 補印託運單
   - 再次購買
 prerequisites: []
-related:
-  - "ec/orders/basics/order-management-interface"
+related: []
 tags:
   - 訂單管理
   - 訂單狀態

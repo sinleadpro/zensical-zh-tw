@@ -35,8 +35,7 @@ features:
   - 金流退刷
 prerequisites:
   - 需先完成「商家執行訂單退貨流程」並將狀態切換為已退貨
-related:
-  - "ec/orders/cross-border-return-process"
+related: []
 tags:
   - 退款流程
   - 售後服務

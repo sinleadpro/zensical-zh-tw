@@ -27,10 +27,7 @@ features:
   - 自動退刷
   - 人工退款
 prerequisites: []
-related:
-  - "ec/orders/order-refund-process"
-  - "ec/orders/returns-refunds/overdue-return-handling"
-  - "ec/orders/manual-refund-for-third-party-payment-orders"
+related: []
 tags:
   - 自動退刷
   - 退款

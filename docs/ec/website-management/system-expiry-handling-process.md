@@ -13,8 +13,9 @@ feedback: 0
 products: 
   - EC
   - POS
-modules: 
+modules:
   - 官網設定
+  - 管理中心
 sites: 
   - TW
 audiences: 
@@ -32,7 +33,9 @@ features:
   - 網域移轉
   - 緊急網域切換
 prerequisites: []
-related: []
+related:
+  - ec/website-management/renewal-and-auto-subscription/
+  - pos/store/renewal-and-add-on-plans/
 tags: 
   - 系統到期
   - 續約

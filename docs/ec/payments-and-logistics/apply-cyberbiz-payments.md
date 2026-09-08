@@ -2,7 +2,7 @@
 title: 申請 CYBERBIZ PAYMENTS
 description: 設定網站、提交商店資訊，並啟用 CYBERBIZ PAYMENTS。
 created: 2026-01-26 00:00
-last_modified: 2026-06-30 16:54
+last_modified: 2026-09-01 11:30
 lang: zh-TW
 type: guide
 author: Jase
@@ -15,20 +15,14 @@ products:
   - EC
 modules:
   - 金物流
+  - 管理中心
 sites:
   - TW
 audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS 
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions:
   - CYBERBIZ PAYMENTS
 intents:
@@ -36,11 +30,20 @@ intents:
   - 申請金流服務
 features:
   - CYBERBIZ PAYMENTS
+  - 超商代碼繳費
+  - 超商條碼繳費
 prerequisites:
   - 可正常瀏覽的前台網站
   - 可辨識的品牌或公司名稱
   - 至少一項已上架的商品或服務
-related: []
+related:
+  - ec/payments-and-logistics/setup-credit-card-3d-verification/
+  - ec/website-appearance/navigation/setup-menus-navigation/
+  - ec/website-management/setup-store-basic-info/
+  - ec/products/create-and-manage/create-update-products/
+  - ec/website-appearance/pages-and-content/custom-pages/
+  - ec/payments-and-logistics/setup-apple-pay/
+  - ec/payments-and-logistics/setup-aftee/
 tags: []
 acoiv: activate
 apis: []
@@ -49,7 +52,7 @@ devices:
   - mobile
 ui_components: []
 paths:
-  - 金物流 > 金流設定
+  - 管理中心 > 一般設定 > 網站名
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6174

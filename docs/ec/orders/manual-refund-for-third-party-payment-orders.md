@@ -20,11 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 企業
+plans: []
 cyb_extensions:
 intents:
   - 執行人工退款操作
@@ -34,7 +30,6 @@ features:
   - 金流狀態管理
 prerequisites:
   - 需先與顧客確認線下退款方式 (如匯款)
-  - 確認該訂單為第三方支付 (LINE Pay / 街口 / PayPal)
 related: []
 tags:
   - 人工退款
