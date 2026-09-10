@@ -813,6 +813,7 @@ copyright = """
             { "2026年5月" = "resources/new-release/2026-05.md" },
             { "2026年6月" = "resources/new-release/2026-06.md" },
             { "2026年7月" = "resources/new-release/2026-07.md" },
+            { "2026年8月" = "resources/new-release/2026-08.md" },
         ]},
     ]}
  ]
