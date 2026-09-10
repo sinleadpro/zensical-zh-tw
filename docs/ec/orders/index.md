@@ -319,6 +319,14 @@ hide:
     啟用超商條碼繳費功能，顧客如何取得條碼與前往 7-11、全家完成付款的完整流程。
 
     [:octicons-arrow-right-24: 前往](order-settings/cvs-barcode-payment.md)
+    
+-   :lucide-hash: __使用超商代碼完成付款__
+
+    ---
+
+    啟用超商代碼繳費功能，顧客如何取得繳費代碼並前往 7-11、全家、萊爾富完成付款。
+
+    [:octicons-arrow-right-24: 前往](order-settings/cvs-code-payment.md)
 
 -   :lucide-printer: __設定與列印訂單明細__
 
