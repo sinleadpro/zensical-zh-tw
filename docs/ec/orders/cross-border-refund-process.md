@@ -134,9 +134,7 @@ hide: []
     | | ShoppePay | 系統自動退款 | 付款後 180 天內 | 商家自行於 Fiuu 錢包退款 | 
     | | DuitNow QR | 系統自動退款 | 付款後 60 天內 | 商家自行於 Fiuu 錢包退款 | 
     | | Fiuu Cash(7-11) | 商家自行退款 | - | - |
-    | Fiuu(Singapore) | PayNow | 系統自動退款 | 付款後 30 天內 | 商家自行於 Fiuu 錢包退款 |
-    | | GrabPay SG | 系統自動退款 | 付款後 90 天內 | 商家自行於 Fiuu 錢包退款 | 
-    | | ShopeePay SG | 系統自動退款 | 付款後 180 天內 | 商家自行於 Fiuu 錢包退款 | 
+
 
 === "澳洲落地版"
 
