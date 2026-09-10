@@ -104,6 +104,14 @@ hide:
 
     [:octicons-arrow-right-24: 前往](bonus-and-gifts/setup-bonus-points.md)
 
+-   :lucide-wallet: __優惠券／紅利歸戶規則__
+
+    ---
+
+    說明消費回饋的優惠券與紅利何時入帳，以及結案、退貨狀態對歸戶的影響。
+
+    [:octicons-arrow-right-24: 前往](references/coupon-and-bonus-credit-rules.md)
+
 -   :lucide-store: __紅利商城 (EC)__
 
     ---

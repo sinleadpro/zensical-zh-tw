@@ -21,7 +21,6 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans: 
-  - 專業
   - 進階
   - 高手
   - 專業PLUS
@@ -68,7 +67,7 @@ hide: []
 了解如何將 CYBERBIZ 系統與綠界科技（ECPay）電子發票服務串接，設定自動開立時機與管理發票作廢規則。
 { .subtitle }
 
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 專業 / 進階 / 高手 / 所有 PLUS
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 所有 PLUS
 { .doc-badge }
 
 ## 申請條件

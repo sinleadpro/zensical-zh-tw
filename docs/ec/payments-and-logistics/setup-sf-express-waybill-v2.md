@@ -2,7 +2,7 @@
 title: 設定順豐託運單
 description: 設定順豐託運單，包括建立寄件人資訊、加印託運單及查詢單號使用紀錄。
 created: 2026-05-20 21:23
-last_modified: 2026-08-10 12:00
+last_modified: 2026-08-20 16:00
 lang: zh-TW
 type: guide
 author: Jase
@@ -84,7 +84,7 @@ hide: []
 - [x] 須先開通 **順豐託運單**(一般版 以上方案皆可)。
 - [x] 寄送海外件另需開通 [順豐海外宅配](sf-express-overseas-logistics.md){ title="順豐海外物流" }，畫面才會出現「託運單預設品名(海外)」與「報關方式」欄位。
 - [x] 加印託運單採 **預扣 CYBER 幣** 機制，**一般版商家若 CYBER 幣餘額不足將無法列印**，需先至「[儲值中心](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="CYBER 幣儲值中心使用指南" }」儲值。
-- [x] 加印託運單 **只會印出「純配送」託運單**；貨到付款的託運單請至訂單列表操作，本頁無法產生順豐貨到付款託運單。
+- [x] 加印託運單 **只會印出「純配送」託運單**。
 
 ## 操作步驟 { #operate-sf-waybill }
 
