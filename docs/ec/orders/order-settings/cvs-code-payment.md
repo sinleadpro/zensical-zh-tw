@@ -98,8 +98,8 @@ comments: false
 2.  系統顯示儲存成功訊息後，可在金流設定列表中確認完成功能開啟。
 
 !!! warning "重要提醒"
-    - 開啟超商條碼繳費功能後，請確認您同時有搭配支援的物流方式（如超商取貨），消費者才能在結帳時正常選擇此付款方式。
-    - 若商家有設定「[訂單自動取消](../../payments-and-logistics/payments/order-settings.md#operate-order-settings-auto-cancel){ title="訂單相關設定" }」的天數限制，一旦超過時限，條碼將會失效且無法進行繳費。
+    - 開啟超商代碼繳費功能後，請確認您同時有搭配支援的物流方式（如超商取貨），消費者才能在結帳時正常選擇此付款方式。
+    - 若商家有設定「[訂單自動取消](../../payments-and-logistics/payments/order-settings.md#operate-order-settings-auto-cancel){ title="訂單相關設定" }」的天數限制，一旦超過時限，代碼將會失效且無法進行繳費。
     - 若商家 [手動取消訂單](../basics/cancel-order/#orders-cancel-merchant)，超商代碼不會自動失效，顧客仍可在效期內繳費。繳費後，訂單會重新成立，商家可繼續出貨或辦理退款。
 
 ## 取得超商代碼的步驟 <small>顧客端</small>
@@ -129,7 +129,7 @@ comments: false
 <div class="grid cards" markdown>
 
 - :lucide-monitor:{ .lg }  
-  [__7-11 ibon__ :lucide-external-link:](https://doc.mail2000.com.tw/news/0808/7-11.html){ target="_blank" }  
+  [__7-11 ibon__ :lucide-external-link:](https://www.ibon.com.tw/operate.aspx?fromPage=paymentcode.aspx&routeIDListInfo=4;100002;0,179#gsc.tab=0){ target="_blank" }  
   於 ibon 輸入繳費代碼、列印繳費單，再持單至櫃檯繳費。
 
 - :lucide-monitor:{ .lg }  
@@ -137,7 +137,7 @@ comments: false
   於 FamiPort 選擇代碼繳費、列印繳款單，再持單至櫃檯繳費。
 
 - :lucide-monitor:{ .lg }  
-  [__萊爾富 Life-ET__ :lucide-external-link:](https://www.newebpay.com/info/site_description/hilife_embedded){ target="_blank" }  
+  [__萊爾富 Life-ET__ :lucide-external-link:](../../../assets/docs/ec-cvs-life-et-code-payment-flow.pdf){ target="_blank" }  
   於 Life-ET 選擇代碼輸入繳費、列印繳費單，再持單至櫃檯繳費。
 
 </div>
