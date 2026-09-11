@@ -10,8 +10,7 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: 
-  - EC
+products:
   - POS
 modules: 
   - 商品
@@ -36,9 +35,8 @@ features:
   - POS 串接
 prerequisites: 
   - "所有商品-新增商品"
-related: 
-  - "EXCEL大量匯入商品"
-  - "pos/get-started/create-pos-products"
+related:
+  - ec/products/bulk-operations/excel-import-products/
 tags: 
   - SKU
   - 批次更新
@@ -131,7 +129,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-arrow-right:{ .lg }   
-  [__判斷 Excel 上傳商品是新增還是更新__](../../ec/products/bulk-operations/Excel%20大量匯入商品/#判斷-excel-上傳商品是新增還是更新)       
+  [__判斷 Excel 上傳商品是新增還是更新__](../../ec/products/bulk-operations/excel-import-products/#determine-add-or-update)       
   認識「新增商品」與「覆蓋既有商品」差異。
 
 </div>

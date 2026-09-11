@@ -34,7 +34,8 @@ features:
   - 商品標籤
 prerequisites:
   - "開啟商城紅利點數功能"
-related: []
+related:
+  - ec/marketing/references/coupon-and-bonus-credit-rules/
 tags: []
 acoiv: configure
 apis: []

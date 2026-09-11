@@ -23,14 +23,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 查詢物流狀態
@@ -41,7 +34,10 @@ features:
   - 出貨狀態顯示
   - 拖拉版型
 prerequisites: []
-related: []
+related:
+  - ec/notifications/manage-email-templates/
+  - ec/notifications/manage-sms-templates-v2/
+  - ec/notifications/manage-line-oa-templates/
 tags:
   - 物流狀態
   - 出貨進度

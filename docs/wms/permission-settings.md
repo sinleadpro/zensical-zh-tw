@@ -31,8 +31,7 @@ features:
   - 模組化權限控管
   - 讀取/寫入/刪除維度
 prerequisites: []
-related:
-  - "wms/account-management"
+related: []
 tags:
   - 權限設定
   - 角色管理

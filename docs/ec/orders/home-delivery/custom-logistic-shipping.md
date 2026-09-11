@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans: 
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 如何使用自訂物流出貨
@@ -40,9 +33,9 @@ features:
   - 單筆訂單手動出貨
 prerequisites: []
 related:
-  - "ec/orders/order-settings/manual-order-close"
-  - "ec/orders/order-settings/auto-close-order-settings"
-  - "ec/orders/order-return-process"
+  - ec/orders/order-settings/manual-order-close/
+  - ec/orders/order-settings/auto-close-order-settings/
+  - ec/orders/order-return-process/
 tags:
   - 自訂物流
   - 出貨

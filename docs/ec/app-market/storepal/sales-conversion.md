@@ -13,6 +13,7 @@ ga_views: 0
 feedback: 0
 products:
   - EC
+  - POS
 modules:
   - APP MARKET
   - 訂單
@@ -29,7 +30,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
-cyb_extensions: []
+cyb_extensions:
+  - STORE PAL
 intents:
   - 核銷優惠券
   - 生成推薦商品連結
@@ -42,8 +44,7 @@ features:
   - 業績歸因
 prerequisites: []
 related:
-  - "ec/app-market/storepal/member-identification"
-  - "ec/app-market/storepal/member-data-warehouse"
+  - ec/members/vip/vip-upgrade-downgrade-renewal-rules/
 tags:
   - 門市助理
   - 價值變現
@@ -63,8 +64,8 @@ ui_components:
   - QR Code
 paths:
   - 設定 > 功能設定 > 前台功能設定
-  - 門市管理 > 角色與權限
   - 設定 > 通知設定
+  - 會員中心 > 訂單查詢 > 其他通路有效訂單
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=41868

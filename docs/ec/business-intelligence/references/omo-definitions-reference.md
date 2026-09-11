@@ -24,8 +24,7 @@ cyb_extensions: []
 intents: []
 features: []
 prerequisites: []
-related:
-  - "ec/business-intelligence/omo-analysis-report"
+related: []
 tags:
   - OMO
   - 全通路

@@ -2,7 +2,7 @@
 title: 建立 Meta 廣告帳號並儲值
 description: 透過 CYBERBIZ 建立 Meta 廣告帳號並完成儲值。
 created: 2026-04-17 17:10
-last_modified: 2026-07-02 11:38
+last_modified: 2026-09-07 10:15
 lang: zh-TW
 type: guide
 author: Jase
@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 建立 Meta 廣告帳號
@@ -40,7 +33,7 @@ features:
 prerequisites:
   - 需先擁有 Meta 企業管理帳號 (Business Manager)
 related:
-  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
+  - ec/integrations/fb/meta-ads/setup-meta-ad-campaign/
 tags:
   - Meta
   - Facebook
@@ -54,7 +47,7 @@ devices:
   - mobile
 ui_components: []
 paths:
-  - 第三方整合 > 臉書 Facebook 設定（廣告/註冊登入） > 廣告帳號設定
+  - 第三方整合 > 臉書 Facebook 設定（廣告/註冊登入）> 廣告帳戶設定
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5621
@@ -140,9 +133,9 @@ hide: []
 !!! info "儲值規範與費用計算"
 
     - **儲值限制**：**最低儲值門檻為新台幣 9,000 元**。
-    - **費用計算**：扣款總計 = 廣告預算 × (1 + 服務費% + 5% 稅金)。
-        - **企業版**：4% 手續費 + 5% 稅金
-        - **一般版**：5% 手續費 + 5% 稅金
+    - **費用計算**：扣款總計 = 廣告預算 ×  手續費 N% × 稅金 5%。
+        - **企業版**：4% 手續費
+        - **一般版**：5% 手續費
     - **時效說明**：廣告預算儲值後 **沒有時間限制**，不會因一個月未用完而被洗掉。
     - **閒置帳號提醒**：若帳號建立後 **滿六個月未曾儲值**，將被視為「閒置帳號」並被系統釋出，屆時商家將失去該帳號操作權限。
 

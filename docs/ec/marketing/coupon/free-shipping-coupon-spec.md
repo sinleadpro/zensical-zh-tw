@@ -20,11 +20,11 @@ audiences:
     - merchant
 difficulty: beginner
 tnb: branch
-plans: 
-    - 專業PLUS
-    - 進階PLUS
-    - 高手PLUS
-    - 企業
+plans:
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 cyb_extensions: []
 intents: 
     - 瞭解免運券規格
@@ -34,13 +34,12 @@ features:
     - 免運券
     - 優惠券
     - 紅利商城
-prerequisites: 
-    - "ec/marketing/coupon/setup-coupons"
-    - "ec/marketing/coupon/setup-promo-codes"
-related: 
-    - "ec/marketing/coupon/setup-coupons"
-    - "ec/marketing/coupon/setup-promo-codes"
-    - "ec/marketing/coupon/multiple-coupons"
+prerequisites:
+  - ec/marketing/coupon/setup-coupons/
+  - ec/marketing/coupon/setup-promo-codes/
+related:
+  - ec/members/manage-member-profiles/
+  - ec/marketing/coupon/setup-promo-codes/
 tags: 
     - 免運券
     - 優惠券

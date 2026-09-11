@@ -40,11 +40,11 @@ features:
   - 店員分潤
 prerequisites: []
 related:
-  - "ec/payments-and-logistics/create-stores"
-  - "ec/payments-and-logistics/store-pickup/enable-store-pickup-service"
-  - "ec/orders/store-pickup-orders"
-  - "pos/orders/store-pickup-orders-inbound-and-pickup"
-  - "pos/store/pos-store-pickup-staff-commission"
+  - ec/payments-and-logistics/create-stores/
+  - ec/payments-and-logistics/store-pickup/enable-store-pickup-service/
+  - ec/orders/store-pickup-orders/
+  - pos/orders/store-pickup-orders-inbound-and-pickup/
+  - pos/store/pos-store-pickup-staff-commission/
 tags:
   - 門市取貨
   - OMO

@@ -22,12 +22,12 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 企業
-  - 專業PLUS
   - 進階
-  - 進階PLUS
   - 高手
+  - 專業PLUS
+  - 進階PLUS
   - 高手PLUS
+  - 企業
 cyb_extensions:
 intents:
   - 申請超商大宗寄倉 B2C 服務
@@ -44,7 +44,13 @@ prerequisites:
   - 具備高手版或 PLUS版 以上系統版本
   - 準備雷射印表機及防水材質標籤
   - 登入 CYBERBIZ 管理後台
-related: []
+related:
+  - ec/orders/cvs-shipping/cvs-b2c-bulk-shipping/
+  - ec/payments-and-logistics/references/cvs-b2c-channel-spec-reference/
+  - ec/payments-and-logistics/references/cvs-b2c-logistics-center-reference/
+  - ec/website-management/points-deposits/
+  - ec/products/shipping/cvs-shipping-restrictions-exclusions/
+  - ec/orders/cvs-shipping/cvs-c2c-shipping/
 tags:
   - 超商大宗寄倉
   - B2C
@@ -59,7 +65,8 @@ devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
+paths:
+  - 金物流 > 超商物流
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5064
@@ -172,19 +179,6 @@ hide:
 	* **萊爾富**：週一至週日 08:30 - 14:00。
 
     !!! info "以上收貨時間僅為參考用，實際收貨時間以官方提供資訊為主。"
-
----
-
-## 異常處理 { #exception-cvs-b2c-setup }
-
-### 補印託運單
-
-限於「已出貨」狀態下的 5 日內操作，補印不會產生新單號，亦不會重複扣費。
-
-### 門市關轉
-
-- **7-11**：商家需於 2 日內聯繫消費者並於後台重新選擇門市。
-- **全家/萊爾富**：通常直接轉為退貨流程，退回商家指定的退貨地址。
 
 ---
 
@@ -389,8 +383,6 @@ hide:
 <!-- |**萊爾富**|238 新北市樹林區味王街1-25號|萊爾富物流中心 EC 服務課|測試標籤，順立智慧(025)的子廠商(廠商代號+廠商名稱)| -->
 <!---->
 <!-- ## 異常處理與補印 -->
-<!---->
-<!-- - **補印託運單**：限於「已出貨」狀態下的 5 日內操作，補印不會產生新單號，亦不會重複扣費。 -->
 <!---->
 <!-- - **門市關轉**： -->
 <!---->

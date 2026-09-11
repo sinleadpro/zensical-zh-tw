@@ -38,7 +38,8 @@ features:
 prerequisites:
   - "準備負責人證件影本"
   - "準備公司登記證照或變更事項登記表"
-related: []
+related:
+  - ec/orders/ecpay-backend-order-query/
 tags:
   - 特約會員
 acoiv: configure
@@ -48,6 +49,7 @@ devices:
 ui_components: []
 paths:
   - 金物流 > 金流設定 > 綠界金流
+  - 金物流 > 宅配物流
   - 金物流 > 超商物流 > 綠界超商取貨
 layouts: []
 wp_url:

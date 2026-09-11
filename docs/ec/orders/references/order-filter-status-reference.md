@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 查詢訂單狀態
@@ -40,7 +33,9 @@ features:
   - 關鍵字匹配
 prerequisites: []
 related:
-  - "ec/orders/basics/search-filter-orders"
+  - ec/orders/references/payment-statuses/
+  - ec/orders/references/fulfillment-statuses/
+  - ec/orders/references/shipping-methods/
 tags:
   - 訂單篩選
   - 訂單狀態

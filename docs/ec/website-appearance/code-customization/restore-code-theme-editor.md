@@ -18,14 +18,7 @@ modules:
 sites:
   - TW
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 audiences:
   - developer
@@ -45,7 +38,8 @@ features:
   - 系統自動存檔點  
   - 災難恢復
 prerequisites: []
-related: []
+related:
+  - ec/integrations/line/marketing/line-friend-link-order-payment-pages/
 tags:
   - 網頁回溯
   - 版本控制
@@ -62,7 +56,8 @@ devices:
   - mobile
 ui_components: []
 paths: []
-layouts: []
+layouts:
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3474
   - https://www.cyberbiz.io/support/?p=16146

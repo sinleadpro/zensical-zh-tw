@@ -15,20 +15,14 @@ products:
   - EC
 modules:
   - 訂單
+  - 金物流
 sites:
   - TW
 audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 自訂訂單明細列印項目
@@ -40,7 +34,8 @@ features:
   - 個資隱碼
 prerequisites: []
 related:
-  - "ec/orders/order-settings/shipping-detail-print"
+  - ec/orders/order-settings/shipping-detail-print/
+  - ec/website-management/member-security-settings/
 tags:
   - 訂單明細
   - 列印設定

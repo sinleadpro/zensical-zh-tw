@@ -29,7 +29,8 @@ features:
   - 紅利點數
   - 金流設定
 prerequisites: []
-related: []
+related:
+  - ec/marketing/references/coupon-and-bonus-credit-rules/
 tags:
   - 金流紅利群組
 acoiv: configure

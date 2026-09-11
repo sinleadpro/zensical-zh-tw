@@ -23,6 +23,9 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
 cyb_extensions: []
 intents:
@@ -35,7 +38,11 @@ features:
   - 網頁鎖右鍵
 prerequisites:
   - "需準備欲推廣的商品與活動圖文素材"
-related: []
+related:
+  - ec/website-appearance/theme-and-layout/theme-editor/
+  - ec/website-appearance/code-customization/text-editor/
+  - ec/profit-sharing/query-profit-sharing-partners-and-codes/
+  - ec/profit-sharing/referrer-profit-sharing/
 tags:
   - 轉單優化
   - 單頁設計
@@ -48,8 +55,9 @@ devices:
   - mobile
 ui_components: []
 paths:
-  - 行銷活動 > 一頁式商店頁面
-layouts: []
+  - 行銷活動 > 一頁式商店
+layouts:
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=2076
   - https://www.cyberbiz.io/support/?p=1701

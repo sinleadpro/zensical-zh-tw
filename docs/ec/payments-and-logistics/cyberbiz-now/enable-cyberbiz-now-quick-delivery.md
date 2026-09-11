@@ -41,9 +41,9 @@ features:
 prerequisites:
   - 需完成門市建立且地址填寫正確
 related:
-  - "ec/products/copy-products-to-quick-delivery-stores"
-  - "ec/website-appearance/setup-quick-delivery-frontend-entry"
-  - "ec/orders/quick-delivery-order-preparation"
+  - ec/products/copy-products-to-quick-delivery-stores/
+  - ec/website-appearance/setup-quick-delivery-frontend-entry/
+  - ec/orders/store-pickup-orders/
 tags:
   - 快速到貨
   - 門市管理
@@ -56,7 +56,7 @@ devices:
 ui_components:
   - backend
 paths:
-  - 金物流 > 所有門市 > 快速到貨設定
+  - 金物流 > 所有門市
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=12783
@@ -105,8 +105,24 @@ hide: []
 
 1. **付款方式設定**：點擊選單並勾選允許使用的付款方式（如：信用卡、LINE Pay）。
 2. **運費規則**：
-    - **運費加計/減計**：可在基礎外送費上額外加價或減價（如偏遠地區加價）。
-    - **免運門檻**：輸入滿額免運金額，若不開放免運請留白。
+
+    - **欄位說明**
+
+        - **運費加計/減計**：可在基礎外送費上額外加價或減價（如偏遠地區加價）。
+        - **免運門檻**：輸入滿額免運金額，若不開放免運請留白。
+
+    - **運費計算方式**
+
+        | 設定項目 | 消費者結帳運費計算方式 |
+        | :--- | :--- |
+        | **加計運費** | Pandago 或 Uber Direct 實際運費 ＋ 加計運費 |
+        | **減計運費** | Pandago 或 Uber Direct 實際運費 － 減計運費 |
+        | **免運門檻** | 商品總金額達門檻時，整筆運費 = 0 |
+
+    - **運費調整範圍**
+      
+        加計或減計只調整消費者結帳時看到的運費。CYBERBIZ 向商家收取的實際運費金額不變。
+
 3. **接單時間**：
     - **全時段接單**：適用於 24 小時營業門市。
     - **自訂接單時段**：建議設定早於門市打烊時間 1-2 小時（如營業至 22:00，接單設至 20:00），預留處理最後訂單的時間。

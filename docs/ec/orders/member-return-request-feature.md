@@ -14,6 +14,8 @@ products:
   - EC
 modules:
   - 會員
+  - 金物流
+  - 訂單
 sites:
   - TW
 audiences:
@@ -31,7 +33,8 @@ features:
   - 部分退貨
 prerequisites: []
 related:
-  - "ec/orders/order-return-process"
+  - ec/orders/order-return-process/
+  - ec/notifications/manage-email-templates/
 tags:
   - 會員退貨流程
   - 售後服務
@@ -44,6 +47,7 @@ devices:
 ui_components: []
 paths:
   - 金物流 > 結帳頁 & 物流設定
+  - 訂單 > 所有訂單
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=51897
@@ -221,7 +225,7 @@ hide: []
   了解收到會員申請後，如何在後台執行實際的退貨與退款作業。
 
 - :lucide-mail:{ .lg }     
-  [__編輯 EMAIL 通知樣板__](../../communications/郵件樣板自訂)  
+  [__編輯 EMAIL 通知樣板__](../notifications/manage-email-template/)  
   調整退貨通知內容，提供更詳盡的寄回說明。
 
 </div>

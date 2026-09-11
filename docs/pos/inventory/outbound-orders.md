@@ -11,7 +11,6 @@ notes: []
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - POS
 modules:
   - 庫存
@@ -39,7 +38,8 @@ features:
   - 出倉單
 prerequisites: []
 related:
-  - "pos/inventory/outbound-complete-process"
+  - pos/inventory/outbound-complete-process/
+  - pos/inventory/transfer-complete-process/
 tags:
   - 出倉單
   - 庫存管理

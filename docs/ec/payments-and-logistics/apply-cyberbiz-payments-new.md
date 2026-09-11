@@ -15,20 +15,14 @@ products:
   - EC
 modules:
   - 金物流
+  - 管理中心
 sites:
   - TW
 audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS 
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions:
   - CYBERBIZ PAYMENTS
 intents:
@@ -40,7 +34,14 @@ prerequisites:
   - 可正常瀏覽的前台網站
   - 可辨識的品牌或公司名稱
   - 至少一項已上架的商品或服務
-related: []
+related:
+  - ec/payments-and-logistics/setup-credit-card-3d-verification/
+  - ec/website-appearance/navigation/setup-menus-navigation/
+  - ec/website-management/setup-store-basic-info/
+  - ec/products/create-and-manage/create-update-products/
+  - ec/website-appearance/pages-and-content/custom-pages/
+  - ec/payments-and-logistics/setup-apple-pay/
+  - ec/payments-and-logistics/setup-aftee/
 tags: []
 acoiv: activate
 apis: []
@@ -49,7 +50,8 @@ devices:
   - mobile
 ui_components: []
 paths:
-  - 金物流 > 金流設定
+  - 金物流 > 金流設定 > CYBERBIZ PAYMENTS > 開始申請
+  - 管理中心 > 一般設定 > 網站名
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6174

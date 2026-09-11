@@ -38,7 +38,8 @@ features:
   - 盟立加值中心整合
   - 硬體連線診斷
 prerequisites: []
-related: []
+related:
+  - pos/software/drivers/
 tags:
   - Posiflex
   - 發票機

@@ -24,14 +24,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions:
   - CYBERBIZ PAYMENTS
 intents:
@@ -53,7 +46,14 @@ prerequisites:
   - 開通CYBERBIZ PAYMENTS (貨到付款)
   - 一般版商家需儲值CYBER幣
   - 正確設定寄件人資訊
-related: []
+related:
+  - ec/website-management/points-deposits/
+  - ec/orders/basics/order-fulfillment-flow/
+  - ec/orders/cvs-shipping/thermal-print-cvs-waybill/
+  - ec/orders/references/cvs-waybill-expiration-reference/
+  - ec/orders/renew-waybill-after-expiration/
+  - ec/orders/cvs-shipping/family-mart-frozen-c2c/
+  - ec/website-management/setup-store-basic-info/
 tags:
   - 超商店到店
   - C2C
@@ -71,7 +71,6 @@ devices:
 ui_components: []
 paths:
   - 訂單 > 所有訂單
-  - 管理中心 > 儲值中心
   - 訂單 > 訂單報表匯出
 layouts: []
 wp_url:
@@ -209,10 +208,7 @@ hide:
 
         - 憑單據至櫃檯領取「交貨便塑膠套袋」，將單據放入並貼在包裹上。
         - 若為賣貨便賣家，多筆訂單可使用 APP 批次產生 QR Code 進行快速列印。
-
-    !!! info "注意事項"
-
-        - 取號後需在四天內至 7-11 寄出，逾期訂單會取消。
+        
 
 === "FamiPort"
 
@@ -246,14 +242,17 @@ hide:
 
 商家當日寄件，若該店物流車當日尚未取件，則通常消費者可於後天（寄件日 +2 天）取貨。部分門市除外，查看 [7-11 排外門市名單 :lucide-external-link:](https://www.7-11.com.tw/form/store.pdf)，全家不限。
 
-!!! info "寄件時效"
-	下載託運單並更改為已出貨後，需依各超商規定期限內完成交寄：
-	
-	- **7-ELEVEN**：5 日內
-	- **全家**：6 日內
-	- **萊爾富**：7 日內
-	
-	逾期該筆託運單將由系統自動刪除，**無法再寄送**。若欲再次出貨，需代客下單或請消費者重新下單。
+<div class="grid cards" markdown>
+
+- :lucide-calendar-search:{ .lg }
+  [__查詢各超商託運單失效期限__](../references/cvs-waybill-expiration-reference.md#reference-cvs-waybill-expiration){ data-preview }
+  查看各超商物流的補印期限與失效判定時間。
+
+- :lucide-refresh-cw:{ .lg }
+  [__處理託運單逾期重新取號__](../renew-waybill-after-expiration.md#operate-renew-waybill-after-expiration){ data-preview }
+  原託運單失效或超過補印期限時，重新取得託運單號並下載新託運單。
+
+</div>
 
 ---
 
@@ -329,7 +328,7 @@ hide:
 
 - :lucide-refresh-cw:{ .lg }
   [__處理託運單逾期重新取號__](../renew-waybill-after-expiration.md#operate-renew-waybill-after-expiration){ data-preview }
-  原託運單超過補印期限時，重新取得託運單號並下載新託運單。
+  原託運單失效或超過補印期限時，重新取得託運單號並下載新託運單。
 
 </div>
 

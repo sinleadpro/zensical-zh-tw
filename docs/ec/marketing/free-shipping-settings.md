@@ -14,15 +14,15 @@ products:
   - EC
 modules:
   - 行銷活動
+  - 金物流
+  - 商品
 sites:
   - TW
 audiences:
   - merchant
 difficulty: intermediate
-tnb: trunk
+tnb: branch
 plans:
-  - 專業
-  - 進階
   - 高手
   - 專業PLUS
   - 進階PLUS
@@ -43,7 +43,8 @@ features:
 prerequisites:
   - 若需使用「指定商品免運」，需高手版、各 PLUS 版或企業版
 related:
-  - "ec/payments-and-logistics/payments/order-settings"
+  - ec/products/create-and-manage/create-update-products/
+  - ec/products/bulk-operations/excel-import-products/
 tags:
   - 免運
   - 運費設定

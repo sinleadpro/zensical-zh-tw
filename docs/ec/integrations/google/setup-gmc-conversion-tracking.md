@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 設定重要事件來源追蹤
@@ -36,11 +29,13 @@ features:
   - 重要事件來源追蹤
   - 自動標記
 prerequisites:
-  - "ec/integrations/google/setup-google-merchant-center"
-  - "ec/integrations/google/ga/setup-google-analytics"
+  - ec/integrations/google/setup-google-merchant-center/
+  - ec/integrations/google/ga/setup-google-analytics/
 related:
-  - "ec/integrations/google/setup-google-merchant-center"
-  - "ec/integrations/google/youtube-shopping-setup-guide"
+  - ec/integrations/google/setup-google-merchant-center/
+  - ec/integrations/google/ga/setup-google-analytics/
+  - ec/integrations/google/youtube-shopping-setup-guide/
+  - ec/integrations/google/setup-google-ads-conversion-tracking/
 tags:
   - GMC
   - 自動標記

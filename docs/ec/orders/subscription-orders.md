@@ -22,7 +22,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: branch
-plans: 
+plans:
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
@@ -38,8 +38,9 @@ features:
   - 母子訂單
 prerequisites: 
   - "定期定額活動頁"
-related: 
-  - "定期定額活動頁"
+related:
+  - ec/orders/basics/order-management-interface/
+  - ec/marketing/other-tools/subscription-campaign-page/
 tags: 
   - 定期定額
   - 訂閱制
@@ -52,8 +53,9 @@ devices:
 ui_components: 
   - 定期定額訂單列表
   - 定期訂單明細
-paths: 
+paths:
   - 訂單 > 定期定額訂單
+  - 訂單 > 所有訂單
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=4570

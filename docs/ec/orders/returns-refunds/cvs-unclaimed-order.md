@@ -21,14 +21,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 了解超商訂單逾期未取處理流程
@@ -41,11 +34,11 @@ features:
   - 部分出貨退款
 prerequisites: []
 related:
-  - "ec/orders/references/return-refund-status-reference"
-  - "ec/orders/references/auto-refund-timeline"
-  - "ec/orders/tcat-quick-store/tcat-quick-store-overdue"
-  - "ec/orders/references/cvs-partial-shipping-support"
-  - "ec/orders/cvs-shipping/cvs-partial-shipment"
+  - ec/orders/references/auto-refund-timeline/
+  - ec/orders/references/return-refund-status-reference/
+  - ec/orders/tcat-quick-store/tcat-quick-store-overdue/
+  - ec/orders/cvs-shipping/cvs-partial-shipment/
+  - ec/orders/references/cvs-partial-shipping-support/
 tags:
   - 超商逾期未取
   - 自動退款

@@ -15,20 +15,14 @@ products:
   - EC
 modules:
   - 訂單
+  - 金物流
 sites:
   - TW
 audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 批次下載黑貓託運單
@@ -44,10 +38,12 @@ prerequisites:
   - 領取黑貓三聯空白託運單貼紙
   - 完成黑貓設定（寄件人地址）
 related:
-  - "ec/orders/home-delivery/tcat-auto-call-driver-v2"
-  - "ec/orders/tcat-quick-store/tcat-express-payment-settings"
-  - "ec/orders/home-delivery/partial-shipment-v2"
-  - "ec/orders/basics/order-fulfillment-flow"
+  - ec/orders/tcat-quick-store/tcat-quick-store-shipping/
+  - ec/orders/home-delivery/tcat-auto-call-driver-v2/
+  - ec/website-management/points-deposits/
+  - ec/orders/home-delivery/shipping-status-tooltip/
+  - ec/payments-and-logistics/setup-print-tcat-waybill-v2/
+  - ec/orders/home-delivery/partial-shipment-v2/
 tags:
   - 黑貓宅配
   - 託運單
@@ -66,7 +62,6 @@ ui_components:
 paths:
   - 訂單 > 所有訂單
   - 金物流 > 黑貓託運單
-  - 儲值中心
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=84

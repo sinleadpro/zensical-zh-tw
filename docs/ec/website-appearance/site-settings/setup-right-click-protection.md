@@ -15,19 +15,13 @@ products:
   - EC
 modules:
   - 網站外觀
+  - 行銷活動
 sites: []
 audiences:
   - developer
 difficulty: advanced
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 防止網站圖片被另存下載
@@ -37,14 +31,9 @@ intents:
   - 開啟一頁式商店防盜功能
   - 停用瀏覽器右鍵選單
 features:
-- 網頁鎖右鍵 (Right-Click Lock) 
-- 禁止選取 (Select-Start Disable)
-- 禁止拖曳 (Drag-Start Disable) 
-- CSS User-Select 限制
-- 一頁式商店自訂 HTML
-- theme.liquid 程式碼編輯
 prerequisites: []
-related: []
+related:
+  - ec/website-appearance/code-customization/restore-code-theme-editor/
 tags:
   - 版權保護
   - CSS
@@ -56,10 +45,9 @@ devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
-layouts:
-  - classic
-  - draggable
+paths:
+  - 行銷活動 > 一頁式商店
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3561
   - https://www.cyberbiz.io/support/?p=17072
@@ -214,7 +202,7 @@ hide:
 
     === "新版（拖拉介面）"
     
-	    1. 登入 CYBERBIZ 管理後台，前往 **行銷活動 > 一頁式商** > 選擇欲編輯的一頁式活動頁。
+	    1. 登入 CYBERBIZ 管理後台，前往 **行銷活動 > 一頁式商店** > 選擇欲編輯的一頁式活動頁。
 	    2. 在該活動頁的 **頁面設定** 中新增一個 **自訂HTML** 區塊，點擊編輯並貼上代碼。
 	    3. 點擊 **儲存** 套用變更。
 	    
@@ -222,7 +210,7 @@ hide:
 
     === "舊版介面"
     
-	    1. 登入 CYBERBIZ 管理後台，前往 **行銷活動 > 一頁式商** > 選擇欲編輯的一頁式活動頁。
+	    1. 登入 CYBERBIZ 管理後台，前往 **行銷活動 > 一頁式商店** > 選擇欲編輯的一頁式活動頁。
 	    2. 點擊 **銷售內容設定 > 插入文字編輯**，點擊編輯器內的 **原始碼** 並貼上代碼。
 	    3. 點擊 **儲存** 套用變更。
 

@@ -45,7 +45,6 @@ devices:
 ui_components: []
 paths:
   - 金物流 > 金流設定
-  - Airwallex 管理後台
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=51285

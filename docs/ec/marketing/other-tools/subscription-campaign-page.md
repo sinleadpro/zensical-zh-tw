@@ -12,8 +12,9 @@ ga_views: 0
 feedback: 0
 products: 
   - EC
-modules: 
+modules:
   - 行銷活動
+  - 金物流
 sites: 
   - TW
 audiences: 
@@ -49,8 +50,10 @@ devices:
 ui_components: 
   - 定期定額活動頁
   - 進階優惠設定
-paths: 
+paths:
+  - 金物流 > 結帳頁 & 物流設定 > 定期定額購物車設定
   - 行銷活動 > 定期訂購活動頁
+  - 金物流 > 宅配物流 / 超商物流
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=53869

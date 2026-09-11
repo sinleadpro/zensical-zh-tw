@@ -35,7 +35,10 @@ features:
   - 庫存自動回補
 prerequisites: []
 related:
-  - "pos/inventory/inventory-count"
+  - pos/store/pos-security-settings/
+  - pos/inventory/inventory-adjustment/
+  - pos/orders/pos-order-auto-close/
+  - ec/orders/basics/order-management-interface/
 tags:
   - POS 訂單
   - 退換貨流程

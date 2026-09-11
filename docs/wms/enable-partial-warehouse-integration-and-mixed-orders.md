@@ -16,8 +16,8 @@ notes:
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - WMS
+  - EC
 modules:
   - 訂單
   - 商品
@@ -46,7 +46,15 @@ features:
 prerequisites:
   - 需已開通 CYBERBIZ 電商倉儲服務
   - 需聯繫開店顧問或客服開通「部分串倉」功能
-related: []
+related:
+  - wms/enable-partial-warehouse-integration-and-order-splitting/
+  - ec/orders/cvs-shipping/cvs-partial-shipment/
+  - ec/orders/home-delivery/partial-shipment-v2/
+  - ec/orders/basics/order-management-interface/
+  - ec/orders/order-return-process/
+  - wms/return-orders/
+  - ec/orders/member-return-request-feature/
+  - wms/logistics-settings-reference/
 tags:
   - 合併結帳
 acoiv: configure
@@ -59,8 +67,7 @@ ui_components:
   - 訂單列表篩選器
   - 商品列表篩選器
 paths:
-  - 金物流 > 宅配物流
-  - 商品 > 所有商品
+  - 金物流 > 宅配物流 > 混合物流
   - 訂單 > 所有訂單
 layouts: []
 wp_url:

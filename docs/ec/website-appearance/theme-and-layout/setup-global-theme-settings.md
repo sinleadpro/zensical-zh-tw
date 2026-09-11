@@ -25,14 +25,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 設定全站共用設定
@@ -52,7 +45,20 @@ features:
 prerequisites:
   - 已使用拖拉版型
   - 後台管理員權限
-related: []
+related:
+  - ec/website-appearance/theme-and-layout/theme-editor/
+  - ec/website-appearance/navigation/setup-menus-navigation/
+  - ec/marketing/other-tools/interactive-games/
+  - ec/website-appearance/theme-and-layout/configure-scheduled-carousels/
+  - ec/website-appearance/theme-and-layout/setup-theme-page-settings/
+  - ec/website-appearance/site-settings/setup-og-image/
+  - ec/website-appearance/site-settings/setup-site-title-seo/
+  - ec/website-appearance/site-settings/setup-right-click-protection/
+  - ec/products/create-and-manage/edit-product-slogan-and-description/
+  - ec/products/create-and-manage/product-swatches-variant-images-drag-drop/
+  - ec/products/create-and-manage/setup-product-videos/
+  - ec/products/categories-and-tags/manage-product-tags/
+  - ec/website-appearance/references/theme-editor-sections/
 tags:
   - 拖拉版型
   - 全站共用設定

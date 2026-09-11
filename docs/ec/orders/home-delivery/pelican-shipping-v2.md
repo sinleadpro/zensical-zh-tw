@@ -14,20 +14,14 @@ products:
   - EC
 modules:
   - 訂單
+  - 金物流
 sites:
   - TW
 audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 宅配通出貨操作
@@ -42,7 +36,7 @@ features:
   - 加印託運單
   - 逆物流退貨
 prerequisites:
-  - "ec/payments-and-logistics/setup-pelican-waybill-v2"
+  - ec/payments-and-logistics/setup-pelican-waybill-v2/
 tags:
   - 宅配通
   - 出貨

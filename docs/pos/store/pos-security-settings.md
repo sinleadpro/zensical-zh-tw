@@ -34,8 +34,7 @@ features:
   - IP 白名單
   - 跨店資料權限
 prerequisites: []
-related:
-  - "設定與管理 POS 子機結帳綁定"
+related: []
 tags:
   - POS 安全性
   - IP 白名單

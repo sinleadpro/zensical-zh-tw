@@ -12,6 +12,7 @@ ga_views: 0
 feedback: 0
 products:
   - EC
+  - POS
 modules:
   - 金物流
 sites:
@@ -20,14 +21,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 設定購物車啟用與關閉
@@ -45,9 +39,9 @@ prerequisites:
   - 若需使用未結帳提醒功能，請確認方案已開通對應管道（Email、簡訊、LINE OA）
   - 若需使用定期定額購物車設定，請確認已開通定期定額功能（企業版）
 related:
-  - "ec/payments-and-logistics/references/cart-reminder-channels-reference"
-  - "ec/payments-and-logistics/payments/order-settings"
-  - "ec/payments-and-logistics/payments/logistics-settings"
+  - ec/payments-and-logistics/references/cart-reminder-channels-reference/
+  - ec/payments-and-logistics/payments/order-settings/
+  - ec/payments-and-logistics/payments/logistics-settings/
 tags:
   - 購物車設定
   - 購物車啟用

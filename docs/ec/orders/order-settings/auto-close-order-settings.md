@@ -16,20 +16,14 @@ products:
   - EC
 modules:
   - 訂單
+  - 金物流
 sites:
   - TW
 audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 自動結案訂單
@@ -47,7 +41,11 @@ features:
   - 優惠券生效
   - 分潤計算
 prerequisites: []
-related: []
+related:
+  - ec/orders/basics/order-management-interface/
+  - pos/orders/pos-order-auto-close/
+  - ec/e-ticket/e-ticket-setup-guide/
+  - ec/orders/basics/cancel-order/
 tags:
   - 訂單自動結案
   - 自動結案設定

@@ -12,10 +12,10 @@ notes:
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - WMS
+  - EC
 modules:
-  - (EC)金物流
+  - 金物流
 sites:
   - TW
 audiences: []
@@ -35,7 +35,9 @@ prerequisites:
   - 需已開通 CYBERBIZ 電商倉儲服務
   - 僅限使用拖拉版型之商家
   - 需使用新版訂單列表介面
-related: []
+related:
+  - ec/orders/order-return-process/
+  - ec/orders/order-refund-process/
 tags:
   - 自行退貨
 acoiv: configure
@@ -45,8 +47,7 @@ devices:
 ui_components:
   - 官網管理後台
 paths:
-  - 金物流 > 結帳頁&物流設定 > 訂單相關設定
-  - 訂單 > 所有訂單
+  - 金物流 > 結帳頁&物流設定
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=10497

@@ -35,7 +35,11 @@ features:
   - 信用卡機串接
   - 多付款方式
 prerequisites: []
-related: []
+related:
+  - pos/hardware/taishin-wired-credit-card-machine/
+  - pos/hardware/mypay-wireless-credit-card-machine/
+  - pos/check/line-pay-scan-payment/
+  - pos/check/payment-method/multiple-payment-methods/
 tags:
   - POS 付款方式
   - 信用卡

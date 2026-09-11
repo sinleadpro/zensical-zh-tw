@@ -36,9 +36,8 @@ features:
   - 紅利累計規則
   - 補差額功能
 prerequisites:
-  - "index"
-related:
-  - "index"
+  - pos/check/payment-method/
+related: []
 tags:
   - POS 多付款方式
   - 禮券

@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 啟用 LINE 快速登入
@@ -47,7 +40,9 @@ prerequisites:
   - LINE 帳號（開發者用）
   - 顧客 LINE 帳號已綁定 Email
   - LINE Login 與 Messaging API Channel 使用相同的 Provider
-related: []
+related:
+  - ec/integrations/line/account-integration/setup-line-quick-login-phone-number/
+  - ec/integrations/line/account-integration/setup-liff-auto-login-member-binding/
 tags:
   - LINE
   - 快速登入

@@ -9,7 +9,6 @@ type: guide
 author: Jase
 reviewers: []
 notes:
-  - 7-11託運單產出後5日內需完成交寄
   - 需使用支援A6熱感應標籤機
   - 條碼不可凹折、裁切或縮放
   - 批次列印需勾選相同物流商訂單
@@ -124,7 +123,6 @@ hide:
 
 !!! warning "注意事項"
 	- **瀏覽器設定提示：** 若無法下載檔案，請確認未啟用「阻擋彈出視窗」。
-	- **時效限制（7-11）：** 託運單產出後需於 **5 日內完成交寄**，逾期單號失效。
 
 ### 單張列印 <small>單筆訂單</small>
 
@@ -180,7 +178,19 @@ hide:
     - 一般列印（A4）  
     - 熱感列印（A6）
         
-- 補印期限：託運單產出後 **5 日內** 可補印。
+## 更多操作
+
+<div class="grid cards" markdown>
+
+- :lucide-calendar-search:{ .lg }
+  [__查詢各超商託運單失效期限__](../references/cvs-waybill-expiration-reference.md#reference-cvs-waybill-expiration){ data-preview }
+  查看各超商物流的補印期限與失效判定時間。
+
+- :lucide-refresh-cw:{ .lg }
+  [__處理託運單逾期重新取號__](../renew-waybill-after-expiration.md#operate-renew-waybill-after-expiration){ data-preview }
+  原託運單失效或超過補印期限時，重新取得託運單號並下載新託運單。
+
+</div>
 
 
 ## 常見問題
@@ -201,15 +211,6 @@ hide:
 ??? quote "可以用一般印表機列印熱感託運單嗎？"  
 	不建議。熱感列印需使用支援 **熱感應標籤紙的專用列印機**。一般雷射或噴墨印表機僅適用於 A4 格式託運單。
 
-??? quote "託運單產出後多久內一定要交寄？"  
-	- **7-11：** 託運單需於 **5 日內完成交寄**，逾期單號將失效。  
-	- 其他物流依各物流商實際規範為準。
-
-??? quote "託運單遺失或印壞可以補印嗎？"  
-	可以。託運單產出後 **5 日內可補印**，且補印時可重新選擇：
-
-	- 一般列印（A4） 
-	- 熱感列印（A6）
 
 ??? quote "為什麼下載託運單時瀏覽器沒有反應？"  
 	可能是瀏覽器啟用了「阻擋彈出視窗」或下載被攔截。

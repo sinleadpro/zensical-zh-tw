@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: ""
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 新增管理員
@@ -39,7 +32,7 @@ features:
   - 二階段驗證
 prerequisites: []
 related:
-  - "ec/website-management/references/admin-permissions-menu-reference"
+  - ec/website-management/references/admin-permissions-menu-reference/
 tags:
   - 網站管理員
   - 權限設定

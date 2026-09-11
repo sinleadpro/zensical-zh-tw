@@ -36,12 +36,13 @@ features:
 prerequisites: 
   - 原託運單已完成取號並操作出貨
   - 原託運單已逾期且沒有配送記錄
-related: 
-  - "docs/ec/orders/cvs-shipping/cvs-b2c-bulk-shipping"
-  - "docs/ec/orders/cvs-shipping/cvs-c2c-shipping"
-  - "docs/ec/orders/cvs-shipping/cvs-partial-shipment"
-  - "docs/ec/orders/cvs-shipping/setup-family-mart-frozen-b2c"
-  - "docs/ec/orders/cvs-shipping/family-mart-frozen-c2c"
+related:
+  - ec/orders/cvs-shipping/cvs-b2c-bulk-shipping/
+  - ec/orders/cvs-shipping/cvs-c2c-shipping/
+  - ec/payments-and-logistics/setup-family-mart-frozen-b2c/
+  - ec/orders/cvs-shipping/family-mart-frozen-c2c/
+  - ec/orders/cvs-shipping/cvs-partial-shipment/
+  - ec/orders/references/cvs-waybill-expiration-reference/
 tags: 
   - 超商託運單
   - 重新取號
@@ -62,6 +63,8 @@ icon: lucide/refresh-cw
 hide: []
 ---
 
+!!! tip "功能上線說明"
+    **託運單重新取號** 為新上線功能，目前僅開放 **企業版**。其餘方案將陸續開放，敬請稍待。
 
 ## 使用須知 { #prerequisites-renew-waybill-after-expiration }
 

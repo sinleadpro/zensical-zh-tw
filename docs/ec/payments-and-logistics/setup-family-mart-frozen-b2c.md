@@ -22,9 +22,9 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 企業
   - 高手
   - 高手PLUS
+  - 企業
 cyb_extensions:
   - CYBERBIZ PAYMENTS
 intents:
@@ -42,7 +42,9 @@ prerequisites:
   - 聯繫客服申請開通物流功能
   - 符合適用版本（高手版需搭配 CYBERBIZ PAYMENTS）
   - 需進行場勘評估
-related: []
+related:
+  - ec/orders/references/cvs-waybill-expiration-reference/
+  - ec/orders/renew-waybill-after-expiration/
 tags:
   - 全家冷凍物流
   - 冷凍物流
@@ -57,7 +59,8 @@ devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
+paths:
+  - 金物流 > 超商物流
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5068
@@ -135,7 +138,7 @@ hide:
 !!! tip "建議保留明細表至少兩個月以備查驗。"
 
 !!! info "低消門檻"
-    全家原定單次收件未達 10 件需加收處理費，但自 **2024/02/01 起，未達 10 件之處理費優惠免收**（如有異動以公告為主）。"
+    全家原定單次收件未達 10 件需加收處理費，但自 **2024/02/01 起，未達 10 件之處理費優惠免收**（如有異動以公告為主）。
 
 ## 包裹規格與限制
 
@@ -225,7 +228,7 @@ hide:
 
 - :lucide-refresh-cw:{ .lg }
   [__處理託運單逾期重新取號__](../orders/renew-waybill-after-expiration.md#operate-renew-waybill-after-expiration){ data-preview }
-  原託運單超過補印期限時，重新取得託運單號並下載新託運單。
+  原託運單失效或超過補印期限時，重新取得託運單號並下載新託運單。
 
 </div>
 

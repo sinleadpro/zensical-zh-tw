@@ -40,8 +40,7 @@ features:
 prerequisites:
   - 需擁有 LINE 官方帳號管理員權限
 related:
-  - "ec/app-market/chatbox/index"
-  - "ec/app-market/chatbox/line-message-format-spec"
+  - ec/integrations/line/account-integration/connect-line-messaging-api/
 tags:
   - LINE 串接
   - CHAT BOX
@@ -55,7 +54,7 @@ ui_components:
   - LINE Official Account Manager
   - LINE Developers 控制台
 paths:
-  - APP MARKET > CHAT BOX > 設定
+  - APP MARKET > CHAT BOX
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12966

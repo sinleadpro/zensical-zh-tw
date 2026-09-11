@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 取消訂單
@@ -37,9 +30,10 @@ features:
   - 訂單自動取消
 prerequisites: []
 related:
-  - "ec/orders/order-return-process"
-  - "ec/orders/order-refund-process"
-  - "ec/orders/basics/order-management-interface"
+  - ec/orders/order-return-process/
+  - ec/orders/order-refund-process/
+  - ec/orders/basics/order-management-interface/
+  - pos/orders/manage-general-orders/
 tags:
   - 取消訂單
   - 訂單管理

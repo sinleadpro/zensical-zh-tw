@@ -38,7 +38,8 @@ features:
   - 58mm發票列印
   - 自動裁刀
 prerequisites: []
-related: []
+related:
+  - pos/software/drivers/
 tags:
   - EPSON
   - 發票機

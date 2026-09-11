@@ -39,7 +39,10 @@ features:
   - 結帳加價購
   - 顧客資訊確認
 prerequisites: []
-related: []
+related:
+  - pos/software/drivers/
+  - pos/check/customer-display-interactive-games/
+  - ec/marketing/upsells/setup-order-upsell/
 tags:
   - POS 客顯
   - 數位看板

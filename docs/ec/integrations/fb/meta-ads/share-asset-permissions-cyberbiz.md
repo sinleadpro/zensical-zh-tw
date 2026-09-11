@@ -1,5 +1,4 @@
 ---
-
 title: 手動分享資產權限給 CYBERBIZ
 description: 當 Meta 廣告創建失敗時，透過手動分享資產權限（粉絲專頁、像素、目錄）給 CYBERBIZ 企業管理平台來排除問題。
 created: 2026-04-21 16:01
@@ -21,14 +20,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 解決廣告創建失敗
@@ -37,9 +29,11 @@ features:
   - Meta Ads
   - 資產權限
 prerequisites:
-  - "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up"
+  - ec/integrations/fb/meta-ads/create-meta-ad-account-top-up/
 related:
-  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
+  - ec/integrations/fb/meta-ads/create-meta-ad-account-top-up/
+  - ec/integrations/fb/mbe/setup-fbe-authorization/
+  - ec/integrations/fb/meta-ads/setup-meta-ad-campaign/
 tags:
   - Meta Ads
   - 資產權限

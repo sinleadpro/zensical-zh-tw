@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 查看超商逾期未取退款流程
@@ -39,9 +32,9 @@ features:
   - 部分出貨退款
 prerequisites: []
 related:
-  - "ec/orders/returns-refunds/cvs-unclaimed-order"
-  - "ec/orders/references/auto-refund-timeline"
-  - "ec/orders/tcat-quick-store/tcat-quick-store-overdue"
+  - ec/orders/references/auto-refund-timeline/
+  - ec/orders/returns-refunds/cvs-unclaimed-order/
+  - ec/orders/tcat-quick-store/tcat-quick-store-overdue/
 tags:
   - 超商逾期未取
   - 退貨狀態

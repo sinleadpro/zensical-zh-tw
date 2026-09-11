@@ -14,20 +14,14 @@ products:
   - EC
 modules:
   - 行銷活動
+  - 商品
 sites:
   - TW
 audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 建立商品導購連結

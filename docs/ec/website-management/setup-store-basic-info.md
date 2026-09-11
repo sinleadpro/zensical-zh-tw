@@ -22,14 +22,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 設定網站名稱
@@ -53,7 +46,10 @@ features:
   - 前台商店幣值顯示
 prerequisites:
   - 後台管理員權限
-related: []
+related:
+  - ec/website-management/references/general-preferences-order-format-variables/
+  - ec/website-appearance/site-settings/business-disclosure/
+  - ec/website-appearance/theme-and-layout/apply-and-switch-theme/
 tags:
   - 網站基本資訊
   - 網站設定

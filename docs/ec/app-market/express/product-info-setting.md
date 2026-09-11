@@ -4,9 +4,8 @@ description: 欲使用日到台站台物流服務，需補齊商品報關資訊�
 created: 2026-07-24 15:03
 last_modified: 2026-07-24 15:03
 lang: zh-TW
-type: tutorial
+type: guide
 status: ""
-version: 1.1.1
 author: Ann
 reviewers: []
 notes: []
@@ -15,14 +14,15 @@ products:
   - EC
 modules:
   - APP MARKET
+  - 商品
 sites:
   - JP
 audiences:
-  - admin
+  - merchant
 difficulty: intermediate
 tnb: branch
 plans:
-  - 日到台
+  - global_advanced
 cyb_extensions:
   - EXPRESS
 intents: 
@@ -32,7 +32,8 @@ features:
   - 跨境物流
   - EXPRESS
 prerequisites: []
-related: []
+related:
+  - ec/products/bulk-operations/excel-import-products/
 tags: 
   - 日到台
   - 跨境電商
@@ -48,7 +49,7 @@ paths:
   - 商品 > 所有商品
 layouts: []
 wp_url: []
-permalink: ""
+permalink: "https://help.cyberbiz.io/ec/app-market/express/product-info-setting/"
 comments: false
 search:
   exclude: false

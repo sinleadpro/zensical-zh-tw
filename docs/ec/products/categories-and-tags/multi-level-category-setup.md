@@ -36,10 +36,16 @@ features:
   - 商品多層級分類
   - 拖拉版型
 prerequisites:
-  - 設定自訂分類群組
-  - 設定商品條件分類群組
+  - ec/products/categories-and-tags/custom-collections/
+  - ec/products/categories-and-tags/smart-collections/
   - 商品類型
-related: []
+related:
+  - ec/products/categories-and-tags/custom-collections/
+  - ec/products/categories-and-tags/smart-collections/
+  - ec/products/create-and-manage/edit-product-description-settings/
+  - ec/website-appearance/navigation/setup-menus-navigation/
+  - ec/marketing/discounts/multi-level-category-discount/
+  - pos/check/pos-frontend-menu-settings/
 tags:
   - 商品群組
   - 多層級分類
@@ -58,8 +64,7 @@ devices:
 ui_components: []
 paths:
   - 商品 > 商品多層級分類
-layouts:
-  - draggable
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9204
   - https://www.cyberbiz.io/support/?p=43450

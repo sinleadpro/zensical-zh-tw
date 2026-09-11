@@ -37,7 +37,7 @@ features:
 prerequisites:
   - 建議先完成「設定與管理會員退貨申請」以利會員主動提交
 related:
-  - "ec/orders/cross-border-refund-process"
+  - ec/orders/cross-border-refund-process/
 tags:
   - 售後服務
   - 逆物流

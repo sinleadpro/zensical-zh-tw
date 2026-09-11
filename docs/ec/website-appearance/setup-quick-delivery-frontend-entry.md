@@ -22,10 +22,10 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 企業
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
+  - 企業
 cyb_extensions:
   - NOW!
 intents:

@@ -12,8 +12,9 @@ ga_views: 0
 feedback: 0
 products: 
   - EC
-modules: 
+modules:
   - 行銷活動
+  - 金物流
 sites: 
   - TW
 audiences: 
@@ -29,9 +30,18 @@ features:
   - 優惠券
   - 優惠碼
 prerequisites: []
-related: 
-  - "ec/marketing/coupon/setup-coupons"
-  - "ec/marketing/coupon/setup-promo-codes"
+related:
+  - ec/marketing/bonus-and-gifts/setup-registration-gift/
+  - ec/marketing/bonus-and-gifts/setup-birthday-gift/
+  - ec/marketing/bonus-and-gifts/limited-time-first-purchase-gift/
+  - ec/marketing/other-tools/interactive-games/
+  - ec/marketing/conditional-send/send-coupons-for-specific-products/
+  - ec/marketing/coupon/setup-coupons/
+  - ec/marketing/coupon/setup-promo-codes/
+  - ec/marketing/coupon/free-shipping-coupon-spec/
+  - ec/marketing/coupon/gift-coupon-spec/
+  - ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification/
+  - ec/marketing/coupon/multiple-coupons/
 tags: 
   - 優惠券
   - 優惠碼
@@ -44,9 +54,8 @@ devices:
 ui_components: 
   - 結帳頁面
   - 會員中心
-paths: 
-  - 行銷活動 > 優惠券設定
-  - 行銷活動 > 優惠碼設定
+paths:
+  - 金物流 > 結帳頁 & 物流設定
 layouts: []
 wp_url: []
 permalink: "https://help.cyberbiz.io/ec/marketing/coupon/"

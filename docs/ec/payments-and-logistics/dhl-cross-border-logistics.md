@@ -20,6 +20,9 @@ products:
   - EC
 modules:
   - 金物流
+  - 管理中心
+  - 商品
+  - 訂單
 sites:
   - TW
   - US
@@ -29,12 +32,12 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - Business
-  - Pro
-  - 企業
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
+  - 企業
+  - Pro
+  - Business
 cyb_extensions: []
 intents:
   - 驗證出口英文公司名
@@ -58,7 +61,9 @@ devices:
 ui_components: []
 paths:
   - 管理中心 > 一般設定
-  - 金物流 > DHL 託運單
+  - 金物流 > DHL 託運單 > 基本資料設定
+  - 金物流 > 宅配物流
+  - 商品 > 所有商品
   - 訂單 > 所有訂單
 layouts: []
 wp_url:

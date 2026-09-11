@@ -20,14 +20,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 揭露營業人名稱與統一編號
@@ -40,7 +33,11 @@ features:
 prerequisites:
   - 已套用並發布官網主題
 related:
-  - "ec/website-appearance/code-customization/setup-cookie-consent-banner"
+  - ec/website-management/setup-store-basic-info/
+  - ec/website-appearance/references/business-disclosure-footer-fields/
+  - ec/website-appearance/site-settings/jp-legal-compliance-page/
+  - ec/website-appearance/theme-and-layout/apply-and-switch-theme/
+  - ec/website-appearance/code-customization/setup-cookie-consent-banner/
 tags:
   - 營業人名稱
   - 統一編號
@@ -58,9 +55,7 @@ paths:
   - 網站功能設定 > 一般設定
   - 網站外觀 > 套版主題管理
   - 網站外觀 > 套版主題管理 > 網站設定
-layouts:
-  - classic
-  - draggable
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6773
   - https://www.cyberbiz.io/support/?p=36327

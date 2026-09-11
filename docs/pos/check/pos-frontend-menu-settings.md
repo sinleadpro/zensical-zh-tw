@@ -13,8 +13,9 @@ ga_views: 0
 feedback: 0
 products: 
   - POS
-modules: 
+modules:
   - POS 前台
+  - 商品
 sites: 
   - TW
 audiences: 
@@ -36,7 +37,9 @@ features:
   - 圖形化介面
 prerequisites: 
   - "建議先完成「自訂群組」或「商品類型」設定"
-related: []
+related:
+  - ec/products/categories-and-tags/custom-collections/
+  - ec/products/create-and-manage/edit-product-description-settings/
 tags: 
   - POS
   - 商品選單
@@ -50,9 +53,8 @@ devices:
 ui_components: 
   - POS 選單設定
   - 商品多層級分類
-paths: 
+paths:
   - 商品 > 商品多層級分類
-  - POS 功能 > 所有 POS 商店
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=11224

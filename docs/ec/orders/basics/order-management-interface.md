@@ -22,14 +22,7 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
 cyb_extensions: []
 intents:
   - 管理訂單
@@ -45,7 +38,20 @@ features:
   - 訂單出貨
   - 批次操作
 prerequisites: []
-related: []
+related:
+  - ec/orders/references/order-list-columns/
+  - ec/orders/references/order-filter-status-reference/
+  - ec/orders/basics/search-filter-orders/
+  - ec/orders/order-settings/manual-order-close/
+  - ec/orders/basics/cancel-order/
+  - ec/orders/basics/edit-order-content/
+  - ec/orders/order-settings/provide-payment-link/
+  - ec/orders/home-delivery/shipping-status-tooltip/
+  - ec/website-management/member-security-settings/
+  - ec/orders/references/order-list-features/
+  - ec/orders/reports/export-order-report/
+  - ec/orders/order-return-process/
+  - ec/orders/order-refund-process/
 tags:
   - 訂單管理
   - 訂單列表

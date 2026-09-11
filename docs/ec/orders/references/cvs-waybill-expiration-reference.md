@@ -20,7 +20,7 @@ sites:
 audiences: 
   - merchant
 difficulty: ""
-tnb: ""
+tnb: trunk
 plans: []
 cyb_extensions: []
 intents: 
@@ -31,7 +31,8 @@ features:
   - 補印託運單
   - 逾期重新取號
 prerequisites: []
-related: []
+related:
+  - ec/orders/renew-waybill-after-expiration/
 tags: []
 acoiv: ""
 apis: []
@@ -50,21 +51,21 @@ hide: []
 
 ## 各物流託運單期限 { #reference-cvs-waybill-expiration }
 
-建立託運單後，請於有效期限內完成出貨。若超過期限且尚無配送記錄，原託運單會自動失效。
+建立託運單後，請於有效期限內完成出貨；託運單僅可在 **有效期限內補印**。若超過期限且尚無配送記錄，原託運單會自動失效，無法再補印，**需重新取號取得新託運單**。
 
-下表列出各超商物流的託運單失效判定期限：
+下表列出各超商物流的託運單效期：
 
 > 表中的 **D** 代表第一次列印託運單的當日
 
 
-| 服務類型 | 超商 | 託運單時效 |
-| :--- | :--- | :--- |
-| B2C | 7-11 | D+14 天 |
-| B2C | 全家（常溫 / 冷凍） | D+6 天 |
-| B2C | 萊爾富 | D+6 天 |
-| C2C | 7-11 | D+8 天 |
-| C2C | 全家（常溫 / 冷凍） | D+8 天 |
-| C2C | 萊爾富 | D+8 天 |
+| 服務類型 | 超商 | 託運單有效期限 | 超商交寄期限 | 
+| :--- | :--- | :--- | :--- |
+| B2C | 7-11 | D+14 天 | D+15 天 | 
+| B2C | 全家（常溫 / 冷凍） | D+6 天 | D+7 天 |
+| B2C | 萊爾富 | D+6 天 | D+7 天 |
+| C2C | 7-11 | D+7 天 | D+7 天 |
+| C2C | 全家（常溫 / 冷凍） | D+7 天 | D+7 天 |
+| C2C | 萊爾富 | D+7 天 | D+7 天 |
 
 ## 相關操作
 
@@ -73,6 +74,6 @@ hide: []
 
 - :lucide-refresh-cw:{ .lg }
   [__處理託運單逾期重新取號__](../renew-waybill-after-expiration.md#operate-renew-waybill-after-expiration){ data-preview }
-  原託運單超過補印期限時，重新取得託運單號並下載新託運單。
+  原託運單失效或超過補印期限時，重新取得託運單號並下載新託運單。
 
 </div>

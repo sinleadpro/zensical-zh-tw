@@ -22,8 +22,8 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - Business
   - Pro
+  - Business
 cyb_extensions: []
 intents:
   - 開通北美信用卡支付

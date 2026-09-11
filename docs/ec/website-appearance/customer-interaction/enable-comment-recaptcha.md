@@ -40,7 +40,7 @@ features:
   - 顧客回饋與建議
 prerequisites: []
 related:
-  - 管理商品評論
+  - ec/products/engagement/manage-product-reviews/
 tags:
   - 資安
   - Google
@@ -55,8 +55,8 @@ ui_components:
   - reCAPTCHA 管理控制台
   - 聯絡我們表單
 paths:
-  - 網站外觀 > 管理商品評論
   - 會員 > 顧客回饋&建議
+  - 網站外觀 > 管理商品評論
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=12371

@@ -11,7 +11,6 @@ notes: []
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - POS
 modules:
   - 庫存
@@ -38,7 +37,7 @@ features:
   - 出倉單
   - 進倉單
 prerequisites:
-  - "pos/inventory/outbound-orders"
+  - pos/inventory/outbound-orders/
 related: []
 tags:
   - 出倉流程

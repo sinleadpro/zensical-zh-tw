@@ -23,14 +23,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 調整前台商品群組排序
@@ -39,10 +32,14 @@ features:
   - 商品列表群組排序
   - 首頁商品列表顯示數量
 prerequisites:
-  - 設定商品自訂分類群組
-  - 設定商品條件分類群組
+  - ec/products/categories-and-tags/custom-collections/
+  - ec/products/categories-and-tags/smart-collections/
   - 設定任選折扣群組
-related: []
+related:
+  - ec/products/categories-and-tags/custom-collections/
+  - ec/products/categories-and-tags/smart-collections/
+  - ec/marketing/discounts/mix-and-match-discounts/
+  - ec/products/references/collection-group-types/
 tags:
   - 商品群組排序
   - 首頁商品群組

@@ -10,8 +10,9 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: 
+products:
   - EC
+  - POS
 modules: 
   - 管理中心
 sites: 
@@ -34,9 +35,9 @@ features:
 prerequisites: 
   - "需為企業版方案商家"
   - "需由 CYBERBIZ 代為開立發票"
-related: 
-  - "ec/website-management/auto-confirm-reconciliation-accounts"
-  - "對帳中心管理指南"
+related:
+  - pos/third-party/wixtar-e-invoice/
+  - ec/website-management/auto-deduction-of-arrears/
 tags: 
   - 請款發票
   - 星益欣
@@ -49,8 +50,8 @@ devices:
 ui_components: 
   - 對帳中心
   - 請款發票設定
-paths: 
-  - 管理中心 > 對帳中心 > 對帳發票設定
+paths:
+  - 管理中心 > 對帳中心
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=2196

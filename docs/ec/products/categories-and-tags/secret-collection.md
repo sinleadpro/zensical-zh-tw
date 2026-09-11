@@ -25,14 +25,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
 cyb_extensions: []
 intents:
   - 如何設定秘密商品群組
@@ -41,7 +34,11 @@ features:
   - 商品自訂分類
   - 商品排除搜尋
 prerequisites: []
-related: []
+related:
+  - ec/profit-sharing/referrer-profit-sharing/
+  - ec/products/categories-and-tags/custom-collections/
+  - ec/products/discoverability/exclude-keyword-products-search/
+  - ec/website-appearance/code-customization/restore-code-theme-editor/
 tags:
   - 秘密商品群組
   - 隱藏商品

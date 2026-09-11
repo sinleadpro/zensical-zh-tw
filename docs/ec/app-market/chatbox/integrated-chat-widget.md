@@ -2,7 +2,7 @@
 title: 設定官網整合對話入口
 description: 了解如何在官網整合 LINE 與 Facebook Messenger 對話入口，透過 CHAT BOX 集中管理顧客訊息，提升溝通效率。
 created: 2026-06-25 10:10
-last_modified: 2026-06-25 10:10
+last_modified: 2026-09-10 14:20
 lang: zh-TW
 type: guide
 author: Ann
@@ -21,7 +21,7 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: branch
-plans: 
+plans:
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
@@ -39,10 +39,11 @@ features:
   - LINE 整合
   - Messenger 整合
 prerequisites:
-  - "ec/app-market/chatbox/connect-chat-box-to-line-oa"
-  - "ec/app-market/chatbox/connect-chat-box-to-facebook-page"
+  - ec/app-market/chatbox/connect-chat-box-to-line-oa/
+  - ec/app-market/chatbox/connect-chat-box-to-facebook-page/
 related:
-  - "ec/app-market/chatbox/index"
+  - ec/app-market/chatbox/connect-chat-box-to-line-oa/
+  - ec/app-market/chatbox/connect-chat-box-to-facebook-page/
 tags: 
   - 對話入口
   - CHAT BOX
@@ -59,8 +60,8 @@ ui_components:
   - 對話小工具
   - 外觀設定
   - 功能設定
-paths: 
-  - APP MARKET > 我的擴充服務 > CHAT BOX > 官網整合對話入口
+paths:
+  - APP MARKET > 我的擴充服務 > CHAT BOX
 layouts: []
 wp_url: []
 permalink: "https://help.cyberbiz.io/ec/app-market/chatbox/integrated-chat-widget/"
@@ -113,7 +114,15 @@ hide: []
     - **主要標題**：輸入對話視窗最上方的標題（必填）。
     - **次要標題**：輸入標題下方的招呼語（必填）。
 3. **顏色設定**：設定 **主題色** 與 **標題色**，建議參考品牌視覺色系。
-4. **按鈕位置**：
+4. **按鈕提示文字**：
+
+    - 在 **是否顯示按鈕提示文字** 中，選擇 **是** 或 **否**。
+    - 選擇 **是** 後，於 **按鈕提示文字** 欄位輸入顯示在懸浮按鈕旁的引導文字，例如「有需要協助嗎？」。
+    - 啟用後，顧客瀏覽官網時，懸浮對話按鈕旁會顯示提示氣泡。顧客開啟對話視窗後，提示氣泡會自動隱藏，也可以點擊氣泡上的 **✕** 手動關閉。
+
+    ![](../../../assets/images/EC-後台-APPMARKET-chatbox-整合對話入口07.png){ .small-image }
+
+5. **按鈕位置**：
     - 選擇顯示於網站的 **右下角** 或 **左下角**。
     - 分別設定 **電腦版** 與 **手機版** 與網頁邊緣的間距（必填）。
 

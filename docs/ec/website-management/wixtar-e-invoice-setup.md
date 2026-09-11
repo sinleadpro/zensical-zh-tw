@@ -11,7 +11,6 @@ modules:
 acoiv: configure
 paths:
   - 管理中心 > 發票設定
-  - 管理中心 > 對帳中心 > 對帳發票設定
 devices:
   - desktop
   - mobile
@@ -27,13 +26,12 @@ features:
   - 自動開立發票
   - 多站台共用帳戶
   - 對帳發票設定
-tnb: trunk
+tnb: branch
 plans:
-  - 專業
-  - 專業PLUS
   - 進階
-  - 進階PLUS
   - 高手
+  - 專業PLUS
+  - 進階PLUS
   - 高手PLUS
   - 企業
 prerequisites:
@@ -54,7 +52,9 @@ audiences:
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4068
   - https://www.cyberbiz.io/support/?p=2693
-products: [EC]
+products:
+  - EC
+  - POS
 notes:
   - verify FAQ
   - update internal links
@@ -66,6 +66,13 @@ search:
 icon: lucide/receipt
 hide:
 ---
+# 星益欣電子發票設定
+
+教您在 CYBERBIZ 後台完成星益欣電子發票的購買、串接啟用、多站台共用與對帳發票設定。
+{ .subtitle }
+
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 所有 PLUS / 企業
+{ .doc-badge }
 
 ## 星益欣電子發票說明
 
