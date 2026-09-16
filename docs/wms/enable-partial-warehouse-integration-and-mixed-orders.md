@@ -48,6 +48,7 @@ prerequisites:
   - 需聯繫開店顧問或客服開通「部分串倉」功能
 related:
   - wms/enable-partial-warehouse-integration-and-order-splitting/
+  - ec/products/bulk-operations/set-product-shipping-method/
   - ec/orders/cvs-shipping/cvs-partial-shipment/
   - ec/orders/home-delivery/partial-shipment-v2/
   - ec/orders/basics/order-management-interface/
@@ -85,7 +86,7 @@ hide: []
 顧客將「入倉商品」與「不入倉商品」加入同一個購物車，並透過「混合物流」在同一筆訂單中合併結帳。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲
+[:lucide-layers:{ title="適用產品" }](../resources/conventions.md) | 電商官網 / 智慧倉儲
 { .doc-badge }
 
 ![](../assets/images/EC-後台-金物流-宅配物流-混單畫面總覽01.png){ .hero-page }
@@ -108,7 +109,7 @@ hide: []
     - 將所有現有的物流運費設定改為 **串倉（倉庫出貨）**。
     - 將所有商品的預設出貨方式改為 **倉庫出貨**。
 3. **自訂物流準備**：請先至 **金物流 > 宅配物流 > 自訂物流**，完成 [物流選項設定](enable-partial-warehouse-integration-and-order-splitting/#步驟-2物流選項設定)。
-4. [更改商品出貨方式](enable-partial-warehouse-integration-and-order-splitting/#步驟-3更改商品出貨方式)：將自行出貨商品綁定 **自行出貨** 的物流選項。
+4. [設定商品出貨方式](../ec/products/bulk-operations/set-product-shipping-method.md)：將自行出貨商品綁定 **自行出貨** 的物流選項，倉庫商品維持對應的倉庫出貨方式。
 
 
 ### 步驟 2：設定混合物流
