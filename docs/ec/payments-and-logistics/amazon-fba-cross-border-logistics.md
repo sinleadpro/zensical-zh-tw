@@ -47,7 +47,8 @@ devices:
   - desktop
 ui_components: []
 paths:
-  - 第三方整合 > 我的擴充服務
+  - APP MARKET > 擴充服務市集
+  - APP MARKET > 我的擴充服務
   - 商品 > 所有商品
 layouts: []
 wp_url:
@@ -81,7 +82,7 @@ hide: []
 ### 步驟 1：安裝 FBA 擴充應用
 
 
-1. 登入 CYBERBIZ 後台，前往 **第三方整合 > 擴充服務市集**。
+1. 登入 CYBERBIZ 後台，前往 **APP MARKET > 擴充服務市集**。
 2. 找到 **CYBERBIZ CHANNEL BRIDGE** 並點擊 **安裝應用程式**。[快捷連結 :lucide-external-link:](https://appmarket.cyberbiz.io/application/eb67e6a5-d38f-4a86-a1a4-8d5727dae0db)
 
     ![](../../assets/images/EC-後台-APPMARKET-全通路庫存管理-安裝Amazon通路01.png)
@@ -90,7 +91,7 @@ hide: []
 
 ### 步驟 2：完成帳號授權
 
-1. 登入 CYBERBIZ 後台，前往 **第三方整合 > 我的擴充服務**。
+1. 登入 CYBERBIZ 後台，前往 **APP MARKET > 我的擴充服務**。
 
     ![](../../assets/images/EC-後台-APPMARKET-全通路庫存管理-安裝Amazon通路02.png)
 
