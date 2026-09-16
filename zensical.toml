@@ -484,6 +484,7 @@ copyright = """
                 { "Step 3 庫存同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee.md" },
                 { "Step 4 官網商品建立為蝦皮商品" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step4-create-shopee-products-from-site.md" },
                 { "Step 5 資訊同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step5-sync-product-info-with-shopee.md" },
+                { "POS 與官網商品共庫" = "ec/app-market/cyberbiz-channel-bridge/sync-inventory-with-pos.md" },
             ]},
             {"CYBERBIZ EXPRESS " = [
                 {"日到台宅配" = "ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery.md"},

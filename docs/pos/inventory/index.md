@@ -2,7 +2,7 @@
 title: 全通路庫存管理指南
 description: 本指南將引導您了解 CYBERBIZ POS 與 EC 系統的庫存協作機制，並提供進倉、調倉、出倉及盤點的標準操作流程。
 created: 2026-04-08 11:36
-last_modified: 2026-06-30 21:55
+last_modified: 2026-09-16 16:35
 lang: zh-TW
 type: guide
 author: Ann
@@ -44,6 +44,7 @@ related:
   - pos/inventory/transfer-orders/
   - pos/inventory/inventory-adjustment/
   - pos/inventory/inventory-count/
+  - ec/app-market/cyberbiz-channel-bridge/sync-inventory-with-pos/
 tags:
   - 全通路庫存
   - POS 庫存管理
@@ -99,6 +100,9 @@ CYBERBIZ 系統將 **EC 官網庫存** 與 **POS 門市庫存** 視為獨立倉�
 
 1. **EC 倉**：管理官網訂單的出貨庫存。
 2. **POS 門市倉**：各實體門市擁有獨立庫存，互不干涉。
+
+!!! info "POS 與官網商品共庫"
+    已向客服申請開啟共庫時，指定門市與官網的相同 SKU 會共享同一包庫存。設定方式請見 [設定 POS 與官網商品共庫](../../ec/app-market/cyberbiz-channel-bridge/sync-inventory-with-pos.md){ title="設定 POS 與官網商品共庫" }。
 
 !!! tip "虛實庫存管理"
 

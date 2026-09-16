@@ -56,6 +56,14 @@ hide:
 
     [:octicons-arrow-right-24: 前往](cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md)
 
+-   :lucide-warehouse: __設定 POS 與官網商品共庫__
+
+    ---
+
+    讓指定 POS 門市與官網的相同 SKU 共享同一包庫存。
+
+    [:octicons-arrow-right-24: 前往](cyberbiz-channel-bridge/sync-inventory-with-pos.md)
+
 </div>
 
 ---
