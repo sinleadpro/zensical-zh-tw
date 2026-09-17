@@ -229,6 +229,7 @@ copyright = """
                 {"排除商品上傳至第三方平台" = "ec/products/bulk-operations/exclude-products-from-third-party-platforms.md"},
                 {"複製商品到快速到貨門市" = "ec/products/copy-products-to-quick-delivery-stores.md"},
                 {"複製商品至 POS 商店" = "ec/products/bulk-operations/copy-products-to-pos-stores.md"},
+                {"設定商品出貨方式" = "ec/products/bulk-operations/set-product-shipping-method.md"},
             ]},
             { "價格設定" = [
                 {"VIP 會員專屬價格" = "ec/products/pricing/setup-vip-member-pricing.md"}

@@ -37,7 +37,8 @@ features:
 prerequisites:
   - 需具備 Amazon Seller Central 賣家帳號
   - 商品需已入 Amazon FBA 倉庫
-related: []
+related:
+  - ec/products/bulk-operations/set-product-shipping-method/
 tags:
   - 跨境物流
 acoiv: configure
@@ -46,7 +47,8 @@ devices:
   - desktop
 ui_components: []
 paths:
-  - 第三方整合 > 我的擴充服務
+  - APP MARKET > 擴充服務市集
+  - APP MARKET > 我的擴充服務
   - 商品 > 所有商品
 layouts: []
 wp_url:
@@ -77,23 +79,37 @@ hide: []
 
 ## 啟用物流
 
-### 步驟 1：安裝 FBA 擴充應用與帳號授權
+### 步驟 1：安裝 FBA 擴充應用
 
-#### 1. 安裝應用程式
 
-1. 登入 CYBERBIZ 後台，前往 **第三方整合 > 我的擴充服務**。
-2. 找到 **Fulfillment by Amazon (FBA)** 並點擊 **立即安裝**。
-    ![](../../assets/images/北美站-後台-APPMARKET-我的擴充服務-啟用AmazonFBA01.png)
+1. 登入 CYBERBIZ 後台，前往 **APP MARKET > 擴充服務市集**。
+2. 找到 **CYBERBIZ CHANNEL BRIDGE** 並點擊 **安裝應用程式**。[快捷連結 :lucide-external-link:](https://appmarket.cyberbiz.io/application/eb67e6a5-d38f-4a86-a1a4-8d5727dae0db)
 
-#### 2. 完成帳號授權
+    ![](../../assets/images/EC-後台-APPMARKET-全通路庫存管理-安裝Amazon通路01.png)
 
-1. 點擊 **前往設定**。
-    ![](../../assets/images/北美站-後台-APPMARKET-我的擴充服務-啟用AmazonFBA02.png)
-2. 系統將導向 Amazon 授權頁面。
-3. 輸入您的 Amazon Seller Central 帳號與密碼完成綁定。
+
+
+### 步驟 2：完成帳號授權
+
+1. 登入 CYBERBIZ 後台，前往 **APP MARKET > 我的擴充服務**。
+
+    ![](../../assets/images/EC-後台-APPMARKET-全通路庫存管理-安裝Amazon通路02.png)
+
+2. 找到 **CYBERBIZ CHANNEL BRIDGE** 並點擊 **設定**。
+3. 於 **Amazon** 通路點擊 **前往授權**，系統將導向 Amazon 授權頁面。
+
+    ![](../../assets/images/EC-後台-APPMARKET-全通路庫存管理-安裝Amazon通路03.png)
+
+4. 輸入您的 Amazon Seller Central 帳號與密碼完成綁定。
     - 建議使用管理者帳號 (Admin User) 進行操作，以確保權限完整。
 
-### 步驟 2：商品 SKU 綁定
+5. 綁定完成後，系統將自動導向 Amazon 設定頁面，請檢查串接資訊：
+
+    - **檢查狀態**：在 **商店設定** 頁籤中可查看目前的 **商店狀態** 與 **到期日期**。
+    - **到期提醒**：系統將於授權到期日前 15、7、3、1 日寄送 Email 通知。
+    - **重新授權**：若授權過期，點選 **重新授權** 即可恢復功能。
+
+### 步驟 3：綁定商品 SKU 
 
 若要讓 Amazon 正確識別官網訂單對應的商品，**CYBERBIZ 的商品 SKU 必須與 Amazon 的商品 SKU 完全一致**。
 
@@ -106,7 +122,7 @@ hide: []
 3. 紀錄下該商品的 **Seller SKU**。
     ![](../../assets/images/Amazon-後台-查看Amazon商品SKU02.png)
 
-#### 2. 在 CYBERBIZ 設定對應
+#### 2. 在 CYBERBIZ 設定 SKU 對應
 
 1. 前往 **商品 > 所有商品**，進入目標商品的編輯頁。
 2. 下滑至 **款式管理** 區塊。
@@ -114,6 +130,19 @@ hide: []
 4. 點擊儲存。
 
 ![](../../assets/images/EC-後台-商品-所有商品-編輯商品SKU01.png)
+
+### 步驟 4：設定 Amazon 出貨方式
+
+由 **Amazon物流** 出貨的商品，指定出貨方式：
+
+1. 依照[設定商品出貨方式](../products/bulk-operations/set-product-shipping-method.md)，設定商品的出貨方式。
+2. **出貨方式** 選擇 **Amazon物流**，完成設定並儲存。
+3. 回到商品編輯頁確認 **SKU** 與 **出貨方式** 均已正確顯示。
+
+![](../../assets/images/EC-後台-商品-所有商品-指定出貨方式Amazon物流01.png)
+
+!!! warning "Amazon SKU 與出貨方式限制"
+    只有已啟用對應 Amazon 功能的商店，**Amazon物流** 才會出現在出貨方式選單。SKU 若與 Amazon Seller SKU 不一致，系統無法正確拋轉訂單或同步庫存。
 
 ## 訂單監控與貨態追蹤
 
