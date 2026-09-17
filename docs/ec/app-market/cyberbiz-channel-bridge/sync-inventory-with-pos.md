@@ -24,7 +24,6 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
@@ -75,7 +74,6 @@ hide: []
 { .subtitle }
 
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions.md#適用產品) | 品牌官網 / 智能 POS<br>
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions.md#適用方案) | 所有 PLUS / 企業<br>
 [:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions.md#適用擴充) | CYBERBIZ CHANNEL BRIDGE
 { .doc-badge }
 
@@ -96,27 +94,29 @@ hide: []
 ### 啟動共庫設定
 
 1. 登入 CYBERBIZ 管理後台，前往 **APP MARKET > 我的擴充服務**。
-2. 點擊 Channel Bridge APP 後方的 **設定**。
+2. 點擊 CYBERBIZ CHANNEL BRIDGE 旁的 **設定**。
 3. 在 **CYBERBIZ POS門市** 區塊，點擊 **前往同步**。
 4. 進入商店設定後，勾選欲與官網共庫的 POS 門市。
-5. 點擊 **更多操作**，選擇 **同步庫存**。系統完成該門市與官網商品的庫存同步。
+5. 點擊 **更多操作**，選擇 **同步庫存**。系統完成該門市與官網商品的庫存同步。+
 
 ### 確認共庫狀態
 
-1. 前往商品列表。
-2. 已與官網共庫的 POS 商品，**關聯平台**欄位顯示藍色 POS icon。
+1. 前往 **商品 > 所有商品**。
+2. 已與官網共庫的 POS 商品，**關聯平台** 欄位顯示藍色 POS icon。
 3. 尚未共庫的 POS 商品，POS icon 顯示灰色。
 
 ### 取消共庫設定
 
-1. 進入商店設定，勾選欲取消共庫的 POS 門市。
-2. 點擊 **更多操作**，選擇 **取消同步庫存**。系統取消該門市與官網商品的共庫設定。
+1. 前往 **APP MARKET > 我的擴充服務**，前往 **CYBERBIZ CHANNEL BRIDGE > CYBERBIZ POS門市**。
+2. 進入 **商店設定** 頁籤，勾選欲取消共庫的 POS 門市。
+3. 點擊 **更多操作**，選擇 **取消同步庫存**。系統取消該門市與官網商品的共庫設定。
 
 ### 查看操作紀錄
 
-1. 開啟 **操作紀錄** 分頁。
-2. 查看 **同步庫存** 與 **取消同步庫存** 紀錄。
-3. **進度狀態**顯示同步執行狀況。點擊 **明細內容**，查看未完成同步的商品與原因。
+1. 開啟 **操作紀錄** 分頁，查看 **同步庫存** 與 **取消同步庫存** 紀錄。
+
+    - **進度狀態**：顯示同步執行狀況。
+    - **明細內容**：查看未完成同步的商品與原因。
 
 ## 共庫邏輯說明
 
@@ -133,7 +133,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-warehouse:{ .lg }
-  [__全通路庫存管理__](../../../pos/inventory/index.md){ title="全通路庫存管理指南" }
+  [__庫存管理__](../../../pos/inventory/index.md){ title="全通路庫存管理指南" }
   查看官網與門市分倉、進銷調撥與盤點。
 
 - :lucide-copy:{ .lg }
