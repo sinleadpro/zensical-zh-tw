@@ -2,7 +2,7 @@
 title: 互動遊戲 (EC)
 description: 透過轉盤、紅包或寶箱等趣味遊戲，發放優惠券、紅利點數 or 贈品，提升會員參與度與轉單率，支援 EC 與 POS 雙通路。
 created: 2026-01-21 00:00
-last_modified: 2026-06-30 10:56
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -26,6 +26,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions: []
 intents:
   - 建立互動遊戲
@@ -37,7 +39,8 @@ features:
   - 紅包抽獎
 prerequisites:
   - "需先建立欲作為獎項的優惠券或贈品商品"
-related: []
+related: 
+  - pos/check/customer-display-interactive-games/
 tags:
   - 行銷活動
   - 抽獎
@@ -77,7 +80,7 @@ hide: []
     
 
 !!! info "版本差異說明"
-    - **電商官網 (EC)** 與 **實體門市 (POS)** 皆支援互動遊戲功能，此文件僅適用 **電商官網 (EC)** 互動遊戲之設定方式。
+    - **電商官網 (EC)** 與 **[實體門市 (POS)](../../../pos/check/customer-display-interactive-games.md)** 皆支援互動遊戲功能，此文件僅適用 **電商官網 (EC)** 互動遊戲之設定方式。
     - 「互動遊戲」在 PLUS 方案中屬於「行銷 B」選配模組（11 選 2），商家需確認已選配該模組方可使用。企業版則直接內建此功能。
 
 
