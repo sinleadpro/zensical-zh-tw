@@ -2,7 +2,7 @@
 title: 查詢分潤夥伴與代碼
 description: 您可以隨時在後台查詢所有分潤合作夥伴（包括外部網紅、站內會員與內部員工）所擁有的分潤方案與專屬代碼，以便隨時提供推廣資訊給合作夥伴。
 created: 2026-02-06 00:00
-last_modified: 2026-06-22 11:15
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -28,6 +28,9 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - standard
+  - optional
 cyb_extensions: []
 intents:
   - 查詢推薦人代碼
