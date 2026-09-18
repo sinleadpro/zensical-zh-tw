@@ -2,7 +2,7 @@
 title: 設定紅利商城 (POS)
 description: 建立專屬的線上紅利兌換商城，設定商品兌換所需點數，透過紅利積點機制提升會員回訪與品牌忠誠度。
 created: 2026-04-10 10:00
-last_modified: 2026-06-22 11:15
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -26,6 +26,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions: []
 intents:
   - 設定紅利商城
