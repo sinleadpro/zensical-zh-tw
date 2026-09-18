@@ -22,6 +22,7 @@ difficulty: beginner
 tnb: branch
 plans:
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 使用_LINE_團購購物

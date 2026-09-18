@@ -9,6 +9,7 @@ permalink: "https://help.cyberbiz.io/ec/products/"
 products:
   - EC
   - POS
+plan_options: []
 notes:
   - 蝦皮商品搬站 link
   - add doc 折扣類型指南

@@ -22,6 +22,7 @@ difficulty: ""
 tnb: branch
 plans:
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 匯出定期訂單

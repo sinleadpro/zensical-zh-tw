@@ -24,6 +24,7 @@ difficulty: intermediate
 tnb: branch
 plans: 
   - 企業
+plan_options: []
 cyb_extensions: []
 intents: 
   - 變更其他通路有效訂單名稱

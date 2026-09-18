@@ -25,6 +25,7 @@ plans:
   - 專業
   - 進階
   - 高手
+plan_options: []
 cyb_extensions: []
 intents:
   - 註冊綠界帳號

@@ -25,6 +25,7 @@ difficulty: intermediate
 tnb: branch
 plans:
   - global_advanced
+plan_options: []
 cyb_extensions:
   - EXPRESS
 intents:

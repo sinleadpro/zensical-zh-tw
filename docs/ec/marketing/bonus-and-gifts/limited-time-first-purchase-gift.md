@@ -2,7 +2,7 @@
 title: 期間限定首購禮
 description: 期間限定首購禮是專為新會員首次消費設計的促銷工具。當符合條件的會員完成首筆付款訂單時，系統將自動贈送指定禮物。
 created: 2026-02-05 00:00
-last_modified: 2026-07-07 12:00
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -27,6 +27,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions: []
 intents:
   - 建立首購禮活動

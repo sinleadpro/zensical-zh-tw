@@ -28,6 +28,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions:
 intents:
   - 申請超商大宗寄倉 B2C 服務

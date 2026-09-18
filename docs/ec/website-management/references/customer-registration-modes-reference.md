@@ -19,6 +19,7 @@ sites:
 audiences:
   - merchant
 difficulty: beginner
+plan_options: []
 cyb_extensions: []
 intents:
   - 比較註冊模式差異

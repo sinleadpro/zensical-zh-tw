@@ -14,6 +14,7 @@ tags:
   - 課程
 permalink: "https://help.cyberbiz.io/resources/video-tutorials/"
 icon: lucide/play
+plan_options: []
 ---
 ## 課程平台 { #course-platforms }
 

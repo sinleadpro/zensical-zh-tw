@@ -34,6 +34,7 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
+plan_options: []
 devices:
   - desktop
 paths: []

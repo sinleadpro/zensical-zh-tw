@@ -23,6 +23,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions: []
 audiences:
   - merchant
@@ -38,6 +40,7 @@ prerequisites:
   - 需具備 POS 客顯螢幕設備
 related:
   - pos/hardware/customer-display-screen/
+  - ec/marketing/other-tools/interactive-games/
 tags:
   - POS
   - 客顯螢幕
@@ -71,6 +74,10 @@ hide: []
 
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
+
+!!! info "版本差異說明"
+    - **[電商官網 (EC)](../../ec/marketing/other-tools/interactive-games.md)** 與 **實體門市 (POS)** 皆支援互動遊戲功能，此文件僅適用 **電商官網 (POS)** 互動遊戲之設定方式。
+    - 「互動遊戲」在 PLUS 方案中屬於「行銷 B」選配模組（11 選 2），商家需確認已選配該模組方可使用。企業版則直接內建此功能。
 
 ![](../../assets/images/POS-後台-互動遊戲-畫面總覽01.png){ .hero-page }
 

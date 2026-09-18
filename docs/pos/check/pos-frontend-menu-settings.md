@@ -26,6 +26,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents: 
   - 設定 POS 前台選單

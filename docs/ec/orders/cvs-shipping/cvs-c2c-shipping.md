@@ -25,6 +25,7 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions:
   - CYBERBIZ PAYMENTS
 intents:

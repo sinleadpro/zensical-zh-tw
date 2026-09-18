@@ -21,6 +21,7 @@ audiences:
 difficulty: advanced
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 調整跑馬燈轉場時間

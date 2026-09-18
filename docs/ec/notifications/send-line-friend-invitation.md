@@ -22,6 +22,7 @@ difficulty: intermediate
 tnb: branch
 plans:
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 如何發送 LINE 加入好友邀請

@@ -16,6 +16,7 @@ sites:
 audiences:
   - merchant
 plans: []
+plan_options: []
 tags:
   - 自動結案
   - 結案類型

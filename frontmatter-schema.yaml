@@ -117,6 +117,12 @@ fields:
     required: false
     values: [專業, 進階, 高手, 專業PLUS, 進階PLUS, 高手PLUS, 企業, Pro, Business, global_advanced]
 
+  # 標配／選配：PLUS 11 選 2 模組內含方式。無則空陣列
+  plan_options:
+    type: enum[]
+    required: false
+    values: [standard, optional]
+
   # 官方外掛歸屬
   cyb_extensions:
     type: enum[]
