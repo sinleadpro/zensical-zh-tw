@@ -26,6 +26,7 @@ plans:
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
+plan_options: []
 cyb_extensions: []
 intents: 
   - 串接綠界電子發票

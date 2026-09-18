@@ -18,6 +18,7 @@ sites:
 audiences:
   - merchant
 difficulty: ""
+plan_options: []
 cyb_extensions: []
 intents: []
 features: []

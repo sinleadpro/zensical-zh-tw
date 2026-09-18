@@ -16,6 +16,7 @@ sites:
 audiences:
   - merchant
 plans: []
+plan_options: []
 tags:
   - 未結帳提醒
   - 通知管道

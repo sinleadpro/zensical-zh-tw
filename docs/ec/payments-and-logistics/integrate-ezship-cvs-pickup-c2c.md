@@ -26,6 +26,7 @@ plans:
   - 專業
   - 進階
   - 高手
+plan_options: []
 cyb_extensions: []
 intents:
   - 申請 ezShip 會員

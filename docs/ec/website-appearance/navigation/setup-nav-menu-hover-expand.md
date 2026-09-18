@@ -21,6 +21,7 @@ audiences:
 difficulty: advanced
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 修改樣板程式碼以實現導覽選單自動展開

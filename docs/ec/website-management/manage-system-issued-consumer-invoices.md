@@ -23,6 +23,7 @@ difficulty: beginner
 tnb: branch
 plans:
   - 企業
+plan_options: []
 cyb_extensions: []
 intents: 
   - 了解系統代開發票服務

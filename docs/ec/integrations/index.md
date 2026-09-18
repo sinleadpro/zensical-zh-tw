@@ -2,6 +2,7 @@
 author: ""
 reviewers: []
 products: [EC]
+plan_options: []
 notes: []
 title: 整合串接第三方平台服務
 description: 串接第三方平台、API 與服務，提升商店功能與自動化能力。
