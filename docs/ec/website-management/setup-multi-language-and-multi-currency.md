@@ -2,7 +2,7 @@
 title: 設定前台多國語言與多幣別
 description: 多國語言與多幣別功能可協助商家建立本地化的官方網站，透過提供母語介面與熟悉幣別，提升品牌國際化形象並優化海外消費者的購物體驗。
 created: 2026-02-05 00:00
-last_modified: 2026-06-30 08:02
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -27,6 +27,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions: []
 intents:
   - 啟用多國語言與幣別
