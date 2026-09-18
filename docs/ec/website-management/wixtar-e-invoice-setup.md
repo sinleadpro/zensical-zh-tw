@@ -1,21 +1,39 @@
 ---
 title: 星益欣電子發票設定
+description: 教您在 CYBERBIZ 後台完成星益欣電子發票的購買、串接啟用、多站台共用與對帳發票設定。
+created: 2025-11-19 15:07
+last_modified: 2026-07-03 11:44
+lang: zh-TW
+type: guide
 author: Jase
 reviewers: []
-last_modified: 2026-07-03 11:44
-description: 教您在 CYBERBIZ 後台完成星益欣電子發票的購買、串接啟用、多站台共用與對帳發票設定。
-permalink: "https://help.cyberbiz.io/ec/website-management/wixtar-e-invoice-setup/"
+notes:
+  - verify FAQ
+  - update internal links
+  - add doc link [一鍵開立請款發票](https://www.cyberbiz.io/support/?p=2196)
+  - add doc link [POS – 星益欣(美麗科技)電子發票(https://www.cyberbiz.io/support/?p=46379)
+ga_views: 0
+feedback: 0
+products:
+  - EC
+  - POS
 modules:
   - 管理中心
   - 金物流
-acoiv: configure
-paths:
-  - 管理中心 > 發票設定
-devices:
-  - desktop
-  - mobile
-apis: []
-type: guide
+sites:
+  - TW
+audiences:
+  - merchant
+difficulty: advanced
+tnb: branch
+plans:
+  - 進階
+  - 高手
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
+cyb_extensions: []
 intents:
   - 購買電子發票方案
   - 串接星益欣發票服務
@@ -26,19 +44,11 @@ features:
   - 自動開立發票
   - 多站台共用帳戶
   - 對帳發票設定
-tnb: branch
-plans:
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
 prerequisites:
   - 需準備公司統一編號
-lang: zh-TW
-sites:
-  - TW
+related:
+  - ec/website-management/one-click-invoice-issuance/
+  - pos/third-party/wixtar-e-invoice/
 tags:
   - 資安
   - 金流
@@ -46,20 +56,17 @@ tags:
   - 星益欣
   - 美麗科技
   - 電子發票
-difficulty: ""
-audiences:
-  - merchant
+acoiv: configure
+apis: []
+devices:
+  - desktop
+  - mobile
+paths:
+  - 管理中心 > 發票設定
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=4068
   - https://www.cyberbiz.io/support/?p=2693
-products:
-  - EC
-  - POS
-notes:
-  - verify FAQ
-  - update internal links
-  - add doc link [一鍵開立請款發票](https://www.cyberbiz.io/support/?p=2196)
-  - add doc link [POS – 星益欣(美麗科技)電子發票(https://www.cyberbiz.io/support/?p=46379)
+permalink: "https://help.cyberbiz.io/ec/website-management/wixtar-e-invoice-setup/"
 comments: ""
 search:
   exclude: false
@@ -156,15 +163,19 @@ hide:
 5. 選擇發票開立時間（可複選）：
 
     - **付款時**：訂單付款狀態為「已收到款項」時，自動開立發票。  
-    - **出貨時（建議）**：訂單配送狀態為「已出貨」時，自動開立發票。  
-    - **取貨時**：訂單配送狀態為「已收貨」時，自動開立發票。  
+    - **出貨時（建議）**：訂單配送狀態為「部分出貨」／「已出貨」時，自動開立發票。  
 
-	??? tip "建議勾選 *出貨時* 開立發票"  
-		建議選擇 *出貨時* 作為發票開立時間，避免客戶在出貨前取消訂單而導致發票作廢。
+        !!! note "出貨情境說明"
+            - **規則**：只要執行訂單 **出貨**，系統即自動開立整張訂單的電子發票。若 **部分出貨** 後，剩餘未出貨商品執行退貨，則系統自動進行發票部分折讓。
+            - **範例**：訂單分兩次出貨：第一次於 9/11 18:48 以自訂出貨方式出貨，第二次於 9/14 13:42 出貨 3 個商品。選擇 **出貨時** 開立發票，系統會在第一次執行出貨時（9/11 18:48）開立整張訂單的電子發票，不必等到所有商品出貨完成。
+            - **建議**：建議選擇 *出貨時* 作為發票開立時間，避免客戶在出貨前取消訂單而導致發票作廢。
+
+    - **取貨時**：訂單配送狀態為「已收貨」時，自動開立發票。   
+		
 	
-	??? info " *取貨時* 限制"  
-		- 僅適用於 CYBERBIZ 已串接貨態的運送方式，例如：黑貓、宅配通、順豐、綠界/EZShip 超取。  
-		- 若使用自訂物流，系統無法串接貨態，配送狀態會停留在 *已出貨*。若發票開立時間僅勾選 *取貨時* 將無法自動開立發票，建議同時勾選 *出貨時* 開立發票。
+        ??? info " *取貨時* 限制"  
+          - 僅適用於 CYBERBIZ 已串接貨態的運送方式，例如：黑貓、宅配通、順豐、綠界/EZShip 超取。  
+          - 若使用自訂物流，系統無法串接貨態，配送狀態會停留在 *已出貨*。若發票開立時間僅勾選 *取貨時* 將無法自動開立發票，建議同時勾選 *出貨時* 開立發票。
 
 6. 前往星益欣後台設定公司發票章圖片，開立發票將自動帶入發票章  
 
