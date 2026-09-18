@@ -30,7 +30,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
-plan_options: []
+plan_options: 
+  - optional
 cyb_extensions:
   - NOW!
 intents:
