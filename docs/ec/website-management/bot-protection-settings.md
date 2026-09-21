@@ -2,7 +2,7 @@
 title: 設定機器人防護與簡訊驗證
 description: 當官網已開通會員簡訊驗證（尤其含海外簡訊）時，可在發送驗證碼前加入機器人驗證，避免惡意程式短時間大量觸發簡訊，造成簡訊費用暴增。
 created: 2026-08-12 10:59
-last_modified: 2026-08-12 10:59
+last_modified: 2026-09-21 10:20
 lang: zh-TW
 type: guide
 status: ""
@@ -114,9 +114,12 @@ hide: []
         !!! tip "兩種網域皆須加入"
             新增主機名稱時，請同時加入商店的 **自有網域** 與 **CYBERBIZ 網域**：
 
-            - **自有網域**：`https://www.你的網域.com/`
-            - **CYBERBIZ 網域**：`https://你的店名.cyberbiz.co/`
-
+            - **自有網域**：
+                - 範例網址： `https://www.你的網域.com/`
+                - **填寫格式**： `www.你的網域.com`
+            - **CYBERBIZ 網域**：
+                - 範例網址： `https://你的店名.cyberbiz.co/`
+                - **填寫格式**： `你的店名.cyberbiz.co`
 
         ![](../../assets/images/cloudflare-後台-建立Turnstile08.png){ .screenshot }
 
