@@ -17,13 +17,13 @@ document$.subscribe(function () {
   }
 })
 
-function findSearchNElement() {
+function findSearchInput() {
   var all = document.querySelectorAll('*')
   for (var i = 0; i < all.length; i++) {
     var el = all[i]
     if (el.shadowRoot) {
-      var n = el.shadowRoot.querySelector('.n')
-      if (n) return n
+      var input = el.shadowRoot.querySelector('input[role="combobox"]')
+      if (input) return input
     }
   }
   return null
@@ -64,7 +64,7 @@ function startDocTour() {
   if (!d) return
 
   var faqTocItem = findFaqTocItem()
-  var searchN = findSearchNElement()
+  var searchInput = findSearchInput()
 
   var stepDefs = [
     {
@@ -91,7 +91,7 @@ function startDocTour() {
       },
     },
     {
-      element: searchN || '.md-search__button',
+      element: searchInput || '.md-search__button',
       onHighlighted: function () {
         if (!isSearchOpen()) {
           var btn = document.querySelector('.md-search__button')
