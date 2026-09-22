@@ -812,6 +812,7 @@ copyright = """
         { "下載資源" = "resources/downloads.md" },
         { "回報問題" = "resources/use-jam-to-report-issues.md" },
         { "新功能報報" = [
+            { "總覽" = "resources/new-release/index.md" },
             { "2026年5月" = "resources/new-release/2026-05.md" },
             { "2026年6月" = "resources/new-release/2026-06.md" },
             { "2026年7月" = "resources/new-release/2026-07.md" },
