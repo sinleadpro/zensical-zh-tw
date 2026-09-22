@@ -114,11 +114,16 @@ hide: []
         !!! tip "兩種網域皆須加入"
             新增主機名稱時，請同時加入商店的 **自有網域** 與 **CYBERBIZ 網域**：
 
-            - **自有網域**：
-                - 範例網址： `https://www.你的網域.com/`
+            - **自有網域**：若商店綁定多個自有網域，請將 **所有網域逐一加入**。輸入時請移除網址開頭的 `https://`，僅保留完整網域名稱。
+
+                - 範例網址： `https://www.你的網域.com`
                 - **填寫格式**： `www.你的網域.com`
+                - 範例網址： `https://www.你的網域.com.tw`
+                - **填寫格式**： `www.你的網域.com.tw`
+
+                
             - **CYBERBIZ 網域**：
-                - 範例網址： `https://你的店名.cyberbiz.co/`
+                - 範例網址： `https://你的店名.cyberbiz.co`
                 - **填寫格式**： `你的店名.cyberbiz.co`
 
         ![](../../assets/images/cloudflare-後台-建立Turnstile08.png){ .screenshot }
@@ -153,3 +158,22 @@ hide: []
 
 !!! note "清除金鑰"
     若清除已儲存的金鑰，**啟用驗證** 開關會同步關閉，前台將不再顯示機器人驗證。
+
+
+## 常見問題
+
+??? quote "設定時出現 **目前網域未授權，請至 Cloudflare 後台舊網域加入允許清單** 錯誤訊息？"
+    1. 登入 Cloudflare 後台，前往 **主機名稱管理**。
+    2. 將商店使用的所有網域逐一加入。
+    3. 輸入網域時，移除開頭的 `http://` 或 `https://`，僅保留完整網域名稱。
+        
+        **填寫範例**：`abc.cyberbiz.co`、`www.abc.com.tw`、`www.abc.com`
+
+??? quote "設定時出現 **Site Key 無效** 錯誤訊息？" 
+    請重新比對 Cloudflare 後台與 CYBERBIZ 後台的 **Site Key**，確認金鑰內容完全一致後，再重新填入。
+
+??? quote "設定時出現 **此 Site Key 已停用** 錯誤訊息？"
+    登入 Cloudflare 後台，找到對應的 Site Key，將其重新啟用後，再回到 CYBERBIZ 後台重新填入金鑰。
+
+??? quote "設定時出現 **找不到此 Site Key，請確認金鑰或 Cloudflare 後台設定** 錯誤訊息？"
+    請確認 Cloudflare 後台的 **Site Key** 與 **Secret Key**，是否都已正確填入 CYBERBIZ 後台，並確認兩組金鑰屬於同一個 Turnstile 工具。
