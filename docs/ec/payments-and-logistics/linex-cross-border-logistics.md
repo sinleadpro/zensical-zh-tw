@@ -36,6 +36,7 @@ plans:
   - 企業
   - Pro
   - Business
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定_LINEX_運送模式

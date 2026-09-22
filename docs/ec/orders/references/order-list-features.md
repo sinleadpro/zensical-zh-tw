@@ -21,6 +21,7 @@ audiences:
 difficulty: beginner
 tnb: ""
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 批次處理訂單

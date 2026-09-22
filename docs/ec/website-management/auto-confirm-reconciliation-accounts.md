@@ -27,6 +27,7 @@ plans:
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
+plan_options: []
 cyb_extensions:
   - CYBERBIZ PAYMENTS
 intents: 

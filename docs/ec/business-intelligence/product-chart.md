@@ -23,6 +23,7 @@ tnb: branch
 plans:
   - 專業
   - 進階
+plan_options: []
 cyb_extensions: []
 intents:
   - 觀察商品瀏覽與購買趨勢

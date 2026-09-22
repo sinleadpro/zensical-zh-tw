@@ -3,6 +3,7 @@ description: "CYBERBIZ 智能 POS 產品中心，提供硬體安裝、結帳功�
 author: ""
 reviewers: []
 products: [POS]
+plan_options: []
 notes: []
 title: 智能 POS 產品中心
 lang: zh-TW

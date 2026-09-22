@@ -2,7 +2,7 @@
 title: 設定商品多層級分類
 description: 建立多層級商品分類（最多三層），整理群組、支援行銷活動與導覽列設定。
 created: 2026-01-13 00:00
-last_modified: 2026-07-22 17:36
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Jase
@@ -28,6 +28,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions: []
 intents:
   - 如何設定商品多層級分類

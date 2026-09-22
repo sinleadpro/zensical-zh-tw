@@ -24,6 +24,7 @@ plans:
   - 專業
   - 進階
   - 高手
+plan_options: []
 cyb_extensions: []
 intents:
   - 查詢信用卡交易明細

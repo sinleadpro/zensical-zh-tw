@@ -11,6 +11,8 @@ products:
   - EC
   - POS
   - WMS
+plan_options:
+  - optional
 notes: []
 permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/cyberbiz-now/"
 ---

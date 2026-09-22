@@ -20,6 +20,7 @@ audiences:
 difficulty: ""
 tnb: ""
 plans:
+plan_options: []
 cyb_extensions: []
 intents: []
 features: []

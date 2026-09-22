@@ -76,6 +76,26 @@ def define_env(env):
             )
 
         # =====================================================
+        # 5. plan_options (same paragraph, space-separated)
+        # =====================================================
+        if meta.get("plan_options"):
+            labels = []
+            for value in meta["plan_options"]:
+                if value == "standard":
+                    labels.append("標配")
+                elif value == "optional":
+                    labels.append("選配")
+            if labels:
+                po_text = " / ".join(labels)
+                po_md = (
+                    f'[:lucide-puzzle:{{ title="標配／選配" }}](../../resources/conventions#conventions-plan-options) | {po_text}  '
+                )
+                if parts:
+                    parts[-1] = parts[-1].rstrip() + "  " + po_md
+                else:
+                    parts.append(po_md)
+
+        # =====================================================
         # IMPORTANT: CSS wrapper class
         # =====================================================
         if parts:

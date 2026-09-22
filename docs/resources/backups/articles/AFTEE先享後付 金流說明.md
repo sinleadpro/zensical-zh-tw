@@ -26,6 +26,7 @@ features:
   - 超商/ATM 付款
 tnb: ""
 plans: []
+plan_options: []
 prerequisites:
   - 需完成 AFTEE 端審核
 lang: zh-TW

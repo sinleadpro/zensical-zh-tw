@@ -2,7 +2,7 @@
 title: 紅配綠多組合優惠
 description: 透過將不同群組商品進行組合（如 A 群組 + B 群組），設定固定金額、折扣或折價規則，提升客單價與跨品類銷售。
 created: 2026-01-21 00:00
-last_modified: 2026-06-30 10:56
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -26,6 +26,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions: []
 intents:
   - 建立紅配綠活動

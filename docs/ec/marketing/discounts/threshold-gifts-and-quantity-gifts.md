@@ -2,7 +2,7 @@
 title: 滿額贈 / 滿件贈
 description: 建立滿額贈與滿件贈活動，設定訂單或特定標籤商品的金額/件數門檻，自動發送贈品並管理贈送規則。
 created: 2026-01-21 00:00
-last_modified: 2026-07-06 17:00
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -29,6 +29,9 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - standard
+  - optional
 cyb_extensions: []
 intents:
   - 設定滿額贈
