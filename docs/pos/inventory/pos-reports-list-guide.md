@@ -24,8 +24,18 @@ plans:
   - 高手PLUS
   - 企業
 cyb_extensions: [] 
-intents: []
-features: []
+intents:
+  - 查看每日出金報表
+  - 查詢訂單匯總報表
+  - 查看商品銷售報表
+  - 查詢商品庫存與銷售狀況
+  - 查詢全通路庫存與商品流向
+features:
+  - 每日出金報表
+  - 訂單匯總報表
+  - 商品銷售報表
+  - 商品庫存銷售報表
+  - 全通路庫存流向報表
 prerequisites: []
 related:
   - pos/check/

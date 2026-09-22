@@ -22,8 +22,15 @@ difficulty: ""
 tnb: ""
 plans:
 cyb_extensions: []
-intents: []
-features: []
+intents:
+  - 了解黑貓快速到店逾期判定
+  - 了解黑貓快速到店退貨運費計算
+  - 查詢黑貓快速到店 CYBER 幣扣抵規則
+features:
+  - 黑貓快速到店
+  - 逾期未取判定
+  - 退貨運費
+  - CYBER 幣扣抵
 prerequisites: []
 related:
   - ec/orders/references/return-refund-status-reference/
