@@ -147,10 +147,10 @@ hide:
     align-items: center;
     min-height: 28px;
     padding: 0 12px;
-    border: 1px solid rgba(1, 46, 158, .16);
+    border: 1px solid rgba(222, 130, 24, .20);
     border-radius: 999px;
-    background: rgba(1, 46, 158, .06);
-    color: var(--release-blue);
+    background: rgba(222, 130, 24, .08);
+    color: #de8218;
     font-size: 13px;
     font-weight: 900;
     line-height: 1;
@@ -163,10 +163,10 @@ hide:
     align-items: center;
     min-height: 28px;
     padding: 0 12px;
-    border: 1px solid rgba(222, 130, 24, .20);
+    border: 1px solid rgba(1, 46, 158, .16);
     border-radius: 999px;
-    background: rgba(222, 130, 24, .08);
-    color: #de8218;
+    background: rgba(1, 46, 158, .06);
+    color: var(--release-blue);
     font-size: 13px;
     font-weight: 900;
     line-height: 1;
