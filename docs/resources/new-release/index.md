@@ -157,6 +157,22 @@ hide:
     white-space: nowrap;
   }
 
+  .release-version-tag-2 {
+    flex: 0 0 auto;
+    display: inline-flex;
+    align-items: center;
+    min-height: 28px;
+    padding: 0 12px;
+    border: 1px solid rgba(222, 130, 24, .20);
+    border-radius: 999px;
+    background: rgba(222, 130, 24, .08);
+    color: #de8218;
+    font-size: 13px;
+    font-weight: 900;
+    line-height: 1;
+    white-space: nowrap;
+  }
+
   .release-arrow {
     display: grid;
     place-items: center;
@@ -183,6 +199,7 @@ hide:
   .release-index .release-month,
   .release-index .release-feature-name,
   .release-index .release-version-tag,
+  .release-index .release-version-tag-2,
   .release-index .release-arrow {
     text-decoration: none;
   }
@@ -274,15 +291,18 @@ hide:
             <span class="release-version-tag">#拖拉版型</span>
           </li>
           <li class="release-feature-row">
-            <span class="release-feature-name">CHAT BOX｜手機版後台檢視</span>
+            <span class="release-feature-name">CHAT BOX｜支援手機版後台檢視、自訂前台對話提示文字</span>
             <span class="release-version-tag">#企業版</span>
             <span class="release-version-tag">#PLUS版</span>
           </li>
           <li class="release-feature-row">
-            <span class="release-feature-name">超商逾期未取訂單自動退款</span>
+            <span class="release-feature-name">超商逾期未取訂單可設定是否自動退款</span>
+            <span class="release-version-tag">#企業版</span>
+            <span class="release-version-tag">#PLUS版</span>
+            <span class="release-version-tag-2">#CYBERBIZ PAYMENTS｜收款入帳</span>
           </li>
           <li class="release-feature-row">
-            <span class="release-feature-name">編輯進行中全館型優惠碼</span>
+            <span class="release-feature-name">支援編輯進行中全館型優惠碼</span>
             <span class="release-version-tag">#企業版</span>
           </li>
         </ul>
@@ -302,7 +322,7 @@ hide:
             <span class="release-feature-name">消費者再次購買功能</span>
           </li>
           <li class="release-feature-row">
-            <span class="release-feature-name">手機版多列並排顯示</span>
+            <span class="release-feature-name">自訂排版設計支援手機版多列並排顯示</span>
             <span class="release-version-tag">#拖拉版型</span>
           </li>
           <li class="release-feature-row">
@@ -322,13 +342,13 @@ hide:
             <span class="release-version-tag">#企業版</span>
           </li>
           <li class="release-feature-row">
-            <span class="release-feature-name">VIP 會員層級效期新增無期限</span>
+            <span class="release-feature-name">VIP 會員層級效期新增無期限設定</span>
           </li>
           <li class="release-feature-row">
             <span class="release-feature-name">結帳頁自動帶入紅利點數開關</span>
           </li>
           <li class="release-feature-row">
-            <span class="release-feature-name">商品圖游標懸停效果擴充</span>
+            <span class="release-feature-name">電腦版商品圖游標懸停效果：擴充適用頁面</span>
           </li>
         </ul>
         <span class="release-arrow" aria-hidden="true">›</span>
@@ -344,11 +364,19 @@ hide:
             <span class="release-version-tag">#PLUS版</span>
           </li>
           <li class="release-feature-row">
-            <span class="release-feature-name">組合品支援固定及任選情境</span>
+            <span class="release-feature-name">組合品可同時支援指定及任選情境</span>
             <span class="release-version-tag">#企業版</span>
           </li>
           <li class="release-feature-row">
-            <span class="release-feature-name">7-11 C2C 退貨便</span>
+            <span class="release-feature-name">後台發動 7-11 C2C 退貨便功能</span>
+            <span class="release-version-tag-2">#CYBERBIZ PAYMENTS</span>
+          </li>
+          <li class="release-feature-row">
+            <span class="release-feature-name">滿額/滿件贈可自選贈品款式</span>
+            <span class="release-version-tag">#企業版</span>
+          </li>
+          <li class="release-feature-row">
+            <span class="release-feature-name">前台導覽列支援字體大小設定</span>
           </li>
           <li class="release-feature-row">
             <span class="release-feature-name">前台商品圖圓角設定</span>
