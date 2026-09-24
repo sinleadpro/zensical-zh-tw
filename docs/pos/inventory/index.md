@@ -101,12 +101,23 @@ CYBERBIZ 系統將 **EC 官網庫存** 與 **POS 門市庫存** 視為獨立倉�
 1. **EC 倉**：管理官網訂單的出貨庫存。
 2. **POS 門市倉**：各實體門市擁有獨立庫存，互不干涉。
 
-!!! info "POS 與官網商品共庫"
-    已向客服申請開啟共庫時，指定門市與官網的相同 SKU 會共享同一包庫存。設定方式請見 [設定 POS 與官網商品共庫](../../ec/app-market/cyberbiz-channel-bridge/sync-inventory-with-pos.md){ title="設定 POS 與官網商品共庫" }。
 
 !!! tip "虛實庫存管理"
 
     建議在倉庫或門市後場將 **官網待出貨商品** 與 **門市待售商品** 實體分區擺放，以避免人員在揀貨或盤點時發生混淆。
+
+---
+
+您也可以選擇將 **EC 官網庫存** 與 **POS 門市庫存** 視為單一倉儲，設定方式請參閱下方：
+
+<div class="grid cards" markdown>
+
+- :lucide-shield-check:{ .lg }   
+  [__POS 與官網商品共庫__](../../ec/app-market/cyberbiz-channel-bridge/sync-inventory-with-pos.md){ data-preview }       
+  向客服申請開啟共庫，指定門市與官網中 SKU 相同的商品共用庫存。
+
+</div>
+
 
 
 ### 選擇庫存管理模式

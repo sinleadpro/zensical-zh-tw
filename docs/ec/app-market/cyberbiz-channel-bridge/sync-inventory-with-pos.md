@@ -160,20 +160,6 @@ hide: []
 - **步驟 2｜** 官網銷售 1 件 ➔ 官網庫存降至 9；POS 門市庫存維持 10（不再同步扣減）
 
 
-## 後續步驟
-
-<div class="grid cards" markdown>
-
-- :lucide-warehouse:{ .lg }
-  [__庫存管理__](../../../pos/inventory/index.md){ title="全通路庫存管理指南" }
-  查看官網與門市分倉、進銷調撥與盤點。
-
-- :lucide-copy:{ .lg }
-  [__複製商品至 POS 商店__](../../products/bulk-operations/copy-products-to-pos-stores.md){ title="複製商品至 POS 商店" }
-  門市需先有相同 SKU，才能納入共庫。
-
-</div>
-
 ## 常見問題
 
 ??? quote "庫存同步會套用到哪些商品？"
@@ -184,3 +170,24 @@ hide: []
 
 ??? quote "如何判斷 POS 商品是否已共庫？"
     前往商品列表，查看 **關聯平台** 欄位。藍色 POS icon 代表已與官網共庫；灰色代表尚未共庫。
+
+
+## 更多操作
+
+<div class="grid cards" markdown>
+
+- :lucide-warehouse:{ .lg }
+  [__庫存管理__](../../../pos/inventory/index.md)<br>
+  查看官網與門市分倉、進銷調撥與盤點。
+
+- :lucide-copy:{ .lg }
+  [__建立 POS 商品__](../../../pos/get-started/create-pos-products.md)<br>
+  將 EC 商品同步建立至 POS 商店，完成共庫前的商品建置。
+  
+
+- :lucide-file-spreadsheet:{ .lg }
+  [__大量填補商品 SKU__](../../../pos/get-started/bulk-update-product-skus.md)<br>
+  透過 Excel 批次補齊商品 SKU，確保官網與 POS 商品可依一致 SKU 進行庫存同步。
+  
+</div>
+

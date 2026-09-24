@@ -176,3 +176,13 @@ hide: []
 ??? quote "調整後可以撤回嗎？"
     庫存調整一旦送出即生效。若輸入錯誤，請再次執行一筆反向的調整。例如：誤加了 5 個，請再執行一筆「盤虧」並輸入 5 個。
 
+## 更多操作
+
+
+<div class="grid cards" markdown>
+
+- :lucide-shield-check:{ .lg }   
+  [__POS 與官網商品共庫__](../../ec/app-market/cyberbiz-channel-bridge/sync-inventory-with-pos.md){ data-preview }       
+  向客服申請開啟共庫，指定門市與官網中 SKU 相同的商品共用庫存。
+
+</div>

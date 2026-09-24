@@ -479,12 +479,14 @@ copyright = """
                 { "官網整合對話入口" = "ec/app-market/chatbox/integrated-chat-widget.md" },
             ]},
             {"CHANNEL BRIDGE" = [
-                { "Step 1 安裝啟用" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md" },
-                { "Step 2 導入商品與建立關聯" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step2-import-products-and-link.md" },
-                { "Step 3 庫存同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee.md" },
-                { "Step 4 官網商品建立為蝦皮商品" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step4-create-shopee-products-from-site.md" },
-                { "Step 5 資訊同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step5-sync-product-info-with-shopee.md" },
-                { "POS 與官網商品共庫" = "ec/app-market/cyberbiz-channel-bridge/sync-inventory-with-pos.md" },
+                {"蝦皮與官網共庫" = [
+                    { "Step 1 安裝啟用" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md" },
+                    { "Step 2 導入商品與建立關聯" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step2-import-products-and-link.md" },
+                    { "Step 3 庫存同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee.md" },
+                    { "Step 4 官網商品建立為蝦皮商品" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step4-create-shopee-products-from-site.md" },
+                    { "Step 5 資訊同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step5-sync-product-info-with-shopee.md" },
+                ]},
+                { "POS 與官網共庫" = "ec/app-market/cyberbiz-channel-bridge/sync-inventory-with-pos.md" },
             ]},
             {"CYBERBIZ EXPRESS " = [
                 {"日到台宅配" = "ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery.md"},
@@ -818,7 +820,7 @@ copyright = """
             { "2026年8月" = "resources/new-release/2026-08.md" },
         ]},
     ]}
- ]
+]
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
 # CSS files.
