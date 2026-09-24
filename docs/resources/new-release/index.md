@@ -73,12 +73,12 @@ hide:
     display: grid;
     grid-template-columns: 265px 1px minmax(0, 1fr) 64px;
     column-gap: 28px;
-    align-items: center;
+    align-items: start;
     width: 100%;
     min-height: 156px;
-    padding: 30px 28px;
+    padding: 32px;
     border: 1px solid rgba(1, 46, 158, .08);
-    border-radius: 34px;
+    border-radius: 28px;
     background: rgba(255, 255, 255, .98);
     box-shadow: 0 16px 42px rgba(1, 46, 158, .07);
     color: inherit;
@@ -121,15 +121,28 @@ hide:
   .release-feature-row {
     display: flex;
     align-items: center;
-    gap: 12px;
-    /* 空間足夠時同行；不足時自然換行，不產生水平捲動。 */
     flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 8px;
+    min-width: 0;
+    padding: 0;
+  }
+
+  .release-feature-tags {
+    display: flex;
+    flex: 0 1 auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 8px;
+    margin-left: auto;
+    width: max-content;
     min-width: 0;
     max-width: 100%;
   }
 
   .release-feature-name {
-    flex: 0 1 auto;
+    flex: 1 1 auto;
     min-width: 0;
     max-width: 100%;
     white-space: normal;
@@ -145,7 +158,7 @@ hide:
     flex: 0 0 auto;
     display: inline-flex;
     align-items: center;
-    min-height: 28px;
+    min-height: 32px;
     padding: 0 12px;
     border: 1px solid rgba(222, 130, 24, .20);
     border-radius: 999px;
@@ -161,7 +174,7 @@ hide:
     flex: 0 0 auto;
     display: inline-flex;
     align-items: center;
-    min-height: 28px;
+    min-height: 32px;
     padding: 0 12px;
     border: 1px solid rgba(1, 46, 158, .16);
     border-radius: 999px;
@@ -240,7 +253,8 @@ hide:
     }
 
     .release-month {
-      grid-column: 1 / -1;
+      grid-column: 1;
+      grid-row: 1;
       font-size: 22px;
       letter-spacing: 3px;
     }
@@ -250,8 +264,18 @@ hide:
     }
 
     .release-features {
-      grid-column: 1;
+      grid-column: 1 / -1;
+      grid-row: 2;
       gap: 12px;
+    }
+
+    .release-feature-row {
+      column-gap: 10px;
+      row-gap: 6px;
+    }
+
+    .release-feature-tags {
+      gap: 6px;
     }
 
     .release-feature-name {
@@ -259,12 +283,22 @@ hide:
     }
 
     .release-version-tag {
+      min-height: 29px;
+      padding-right: 9px;
+      padding-left: 9px;
+      font-size: 12px;
+    }
+
+    .release-version-tag-2 {
+      min-height: 29px;
+      padding-right: 9px;
+      padding-left: 9px;
       font-size: 12px;
     }
 
     .release-arrow {
       grid-column: 2;
-      grid-row: 2;
+      grid-row: 1;
       width: 48px;
       height: 48px;
       font-size: 30px;
@@ -288,22 +322,30 @@ hide:
         <ul class="release-features">
           <li class="release-feature-row">
             <span class="release-feature-name">置頂公告｜多版位排程輪播功能</span>
-            <span class="release-version-tag">#拖拉版型</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag">#拖拉版型</span>
+            </span>
           </li>
           <li class="release-feature-row">
             <span class="release-feature-name">CHAT BOX｜支援手機版後台檢視、自訂前台對話提示文字</span>
-            <span class="release-version-tag">#企業版</span>
-            <span class="release-version-tag">#PLUS版</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag">#企業版</span>
+              <span class="release-version-tag">#PLUS版</span>
+            </span>
           </li>
           <li class="release-feature-row">
             <span class="release-feature-name">超商逾期未取訂單可設定是否自動退款</span>
-            <span class="release-version-tag">#企業版</span>
-            <span class="release-version-tag">#PLUS版</span>
-            <span class="release-version-tag-2">#CYBERBIZ PAYMENTS｜收款入帳</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag">#企業版</span>
+              <span class="release-version-tag">#PLUS版</span>
+              <span class="release-version-tag-2">#CYBERBIZ PAYMENTS｜收款入帳</span>
+            </span>
           </li>
           <li class="release-feature-row">
             <span class="release-feature-name">支援編輯進行中全館型優惠碼</span>
-            <span class="release-version-tag">#企業版</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag">#企業版</span>
+            </span>
           </li>
         </ul>
         <span class="release-arrow" aria-hidden="true">›</span>
@@ -315,19 +357,25 @@ hide:
         <ul class="release-features">
           <li class="release-feature-row">
             <span class="release-feature-name">CHAT BOX｜官網整合對話入口</span>
-            <span class="release-version-tag">#企業版</span>
-            <span class="release-version-tag">#PLUS版</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag">#企業版</span>
+              <span class="release-version-tag">#PLUS版</span>
+            </span>
           </li>
           <li class="release-feature-row">
             <span class="release-feature-name">消費者再次購買功能</span>
           </li>
           <li class="release-feature-row">
             <span class="release-feature-name">自訂排版設計支援手機版多列並排顯示</span>
-            <span class="release-version-tag">#拖拉版型</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag">#拖拉版型</span>
+            </span>
           </li>
           <li class="release-feature-row">
             <span class="release-feature-name">可編輯進行中的優惠碼</span>
-            <span class="release-version-tag">#企業版</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag">#企業版</span>
+            </span>
           </li>
         </ul>
         <span class="release-arrow" aria-hidden="true">›</span>
@@ -339,7 +387,9 @@ hide:
         <ul class="release-features">
           <li class="release-feature-row">
             <span class="release-feature-name">滿額／滿件贈支援限定會員分群</span>
-            <span class="release-version-tag">#企業版</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag">#企業版</span>
+            </span>
           </li>
           <li class="release-feature-row">
             <span class="release-feature-name">VIP 會員層級效期新增無期限設定</span>
@@ -360,20 +410,28 @@ hide:
         <ul class="release-features">
           <li class="release-feature-row">
             <span class="release-feature-name">CHAT BOX 訊息通</span>
-            <span class="release-version-tag">#企業版</span>
-            <span class="release-version-tag">#PLUS版</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag">#企業版</span>
+              <span class="release-version-tag">#PLUS版</span>
+            </span>
           </li>
           <li class="release-feature-row">
             <span class="release-feature-name">組合品可同時支援指定及任選情境</span>
-            <span class="release-version-tag">#企業版</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag">#企業版</span>
+            </span>
           </li>
           <li class="release-feature-row">
             <span class="release-feature-name">後台發動 7-11 C2C 退貨便功能</span>
-            <span class="release-version-tag-2">#CYBERBIZ PAYMENTS</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag-2">#CYBERBIZ PAYMENTS</span>
+            </span>
           </li>
           <li class="release-feature-row">
             <span class="release-feature-name">滿額/滿件贈可自選贈品款式</span>
-            <span class="release-version-tag">#企業版</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag">#企業版</span>
+            </span>
           </li>
           <li class="release-feature-row">
             <span class="release-feature-name">前台導覽列支援字體大小設定</span>
