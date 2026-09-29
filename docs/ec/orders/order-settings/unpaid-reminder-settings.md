@@ -26,6 +26,7 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 自動提醒顧客付款

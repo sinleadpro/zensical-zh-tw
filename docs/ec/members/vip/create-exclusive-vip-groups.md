@@ -22,6 +22,7 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 建立 VIP 群組標籤

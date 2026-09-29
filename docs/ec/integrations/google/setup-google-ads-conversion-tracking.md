@@ -22,6 +22,7 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定 Google Ads 轉換追蹤

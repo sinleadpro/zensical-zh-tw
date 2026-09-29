@@ -26,6 +26,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions: []
 intents: 
   - 建立定期定額活動頁

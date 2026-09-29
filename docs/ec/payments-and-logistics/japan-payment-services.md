@@ -24,6 +24,7 @@ tnb: branch
 plans:
   - Pro
   - Business
+plan_options: []
 cyb_extensions: []
 intents:
   - 開通日本信用卡支付

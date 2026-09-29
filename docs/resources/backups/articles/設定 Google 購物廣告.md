@@ -31,6 +31,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 prerequisites:
   - 擁有 Google 帳戶
   - 商品圖片符合 Google 規範

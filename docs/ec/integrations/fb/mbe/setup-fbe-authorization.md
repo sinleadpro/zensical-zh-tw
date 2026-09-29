@@ -21,6 +21,7 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定_FBE_帳號授權

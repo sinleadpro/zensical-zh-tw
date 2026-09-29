@@ -30,6 +30,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 自訂出貨明細列印項目

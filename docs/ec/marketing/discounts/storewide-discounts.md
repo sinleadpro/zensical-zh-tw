@@ -27,6 +27,7 @@ plans:
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
+plan_options: []
 cyb_extensions: []
 intents: 
   - 設定全館折扣活動

@@ -23,6 +23,7 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents: 
   - 了解超商取貨姓名規則

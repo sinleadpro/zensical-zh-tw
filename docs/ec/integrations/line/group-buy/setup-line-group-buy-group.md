@@ -23,6 +23,7 @@ difficulty: intermediate
 tnb: branch
 plans:
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定_LINE_團購群組

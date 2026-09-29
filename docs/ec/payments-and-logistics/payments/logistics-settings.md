@@ -21,6 +21,7 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定超商取貨姓名規範與離島配送

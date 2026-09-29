@@ -21,6 +21,7 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents: 
   - 了解優惠計算順序

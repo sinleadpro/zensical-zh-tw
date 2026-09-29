@@ -23,6 +23,7 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents: 
   - 解決收不到驗證信問題

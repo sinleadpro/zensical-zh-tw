@@ -23,6 +23,7 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 如何使用 Excel 大量匯入商品

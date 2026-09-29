@@ -22,6 +22,7 @@ audiences:
 difficulty: beginner
 tnb: ""
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定訂單最低消費金額與累計金額防護

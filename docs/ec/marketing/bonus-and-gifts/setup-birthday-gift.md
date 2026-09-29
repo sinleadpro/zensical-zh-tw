@@ -2,7 +2,7 @@
 title: 設定生日禮
 description: 設定會員生日禮，包含紅利點數與優惠券的發送規則、自動排程邏輯及提前發送設定。
 created: 2026-05-27 12:35
-last_modified: 2026-07-14 17:10
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -25,6 +25,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions: []
 intents: 
   - 設定生日禮

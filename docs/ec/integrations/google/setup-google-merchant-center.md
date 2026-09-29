@@ -22,6 +22,7 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans: []
+plan_options: []
 intents:
   - 串接 Google Merchant Center
   - 同步商品資料至 Google 搜尋
