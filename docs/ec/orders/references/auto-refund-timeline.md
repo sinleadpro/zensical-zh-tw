@@ -19,6 +19,7 @@ sites:
 audiences:
   - merchant
 difficulty: beginner
+plan_options: []
 cyb_extensions: []
 intents:
   - 查看自動退刷期限

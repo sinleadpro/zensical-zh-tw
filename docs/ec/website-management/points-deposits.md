@@ -21,6 +21,7 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 儲值CYBER_幣
@@ -217,7 +218,10 @@ CYBER 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
         - 請於繳款期限前完成轉帳（預設為下單後 **29 天**）。逾期需重新下單。
         - 請 **單次轉帳全數金額**，請勿分次轉帳。
         - 請勿設定由收款人承擔匯費。
-        - 可透過網路銀行、網路 ATM 或實體 ATM 進行轉帳。
+        - 可透過網路銀行、網路 ATM 、實體 ATM 、銀行臨櫃轉帳付款。
+            
+            >  **銀行臨櫃轉帳**：除玉山銀行外，其餘金融機構均可臨櫃繳款。
+
         - 轉帳完成後，系統確認款項後 CYBER 幣將自動入帳。
 
 ## 查詢儲值紀錄 { #cyber-coin-deposit-history }

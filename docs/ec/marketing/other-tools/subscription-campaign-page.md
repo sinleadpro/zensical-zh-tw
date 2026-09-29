@@ -2,7 +2,7 @@
 title: 定期訂購活動頁
 description: 說明如何建立訂閱制活動頁面，包含基本設定、期數優惠、金流限制及備貨期配置，協助品牌創造穩定營收。
 created: 2026-05-29 18:01
-last_modified: 2026-07-20 18:50
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -26,6 +26,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions: []
 intents: 
   - 建立定期定額活動頁

@@ -38,6 +38,7 @@ plans:
   - 企業
   - Pro
   - Business
+plan_options: []
 cyb_extensions: []
 intents:
   - 驗證出口英文公司名

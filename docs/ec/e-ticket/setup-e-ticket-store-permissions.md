@@ -2,7 +2,7 @@
 title: 設定電子票券門市權限
 description: 設定電子票券在不同門市與合作品牌下的核銷權限、綁定規則及門市店員帳號管理。
 created: 2026-01-22 00:00
-last_modified: 2026-07-22 17:38
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Jase
@@ -27,6 +27,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions:
   - TICKET
 intents:

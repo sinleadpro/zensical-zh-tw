@@ -2,7 +2,7 @@
 title: 了解分潤功能
 description: 了解分潤功能的運作機制、適用對象與情境，協助您選擇最適合的行銷分潤方案。
 created: 2026-02-06 00:00
-last_modified: 2026-06-30 10:52
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -28,6 +28,9 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - standard
+  - optional
 cyb_extensions: []
 intents:
   - 了解分潤機制

@@ -2,26 +2,61 @@
 title: 定期定額分析指標定義對照表
 description: 說明「定期定額分析」頁面上各項數據卡與圖表的指標意義與定義。
 created: 2026-06-16 00:00
-last_modified: 2026-07-12 20:30
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: reference
 author: Jase
 reviewers: []
 notes: []
+ga_views: 0
+feedback: 0
 products:
   - EC
-modules: []
+modules: 
+  - 分析報表
+  - 行銷活動
 sites:
   - TW
 audiences:
   - merchant
-plans: []
+difficulty: advanced
+tnb: branch
+plans:
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
+plan_options: 
+  - optional
+cyb_extensions: []
+intents:
+  - 查詢定期定額分析數據卡指標
+  - 查詢定期定額分析圖表指標
+  - 了解定期訂單取消統計方式
+features:
+  - 定期訂單數據卡
+  - 定期訂單持續長度圖表
+  - 定期訂單取消圖表
+  - 定期訂單取消比率
+prerequisites: []
+related: []
 tags:
   - 定期定額分析
   - 指標定義
   - 圖表對照
   - 數據卡
+acoiv: operation
+apis: []
+devices:
+  - desktop
+ui_components: []
+paths: []
+layouts: []
+wp_url: []
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/references/periodic-order-analysis-metrics-reference/"
+comments: false
+search:
+  exclude: false
 icon: lucide/table
 hide:
 ---

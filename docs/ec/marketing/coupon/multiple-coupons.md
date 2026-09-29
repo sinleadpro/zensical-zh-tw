@@ -24,6 +24,7 @@ tnb: branch
 plans:
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents: 
   - 設定單筆訂單使用多張優惠券

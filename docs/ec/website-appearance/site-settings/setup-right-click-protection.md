@@ -22,6 +22,7 @@ audiences:
 difficulty: advanced
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 防止網站圖片被另存下載
