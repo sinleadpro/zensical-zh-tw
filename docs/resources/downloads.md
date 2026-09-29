@@ -14,6 +14,7 @@ tags:
   - 手冊
 icon: lucide/download
 permalink: "https://help.cyberbiz.io/resources/downloads/"
+plan_options: []
 ---
 ## 系統檔案 { #system-files }
 

@@ -23,6 +23,7 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents: 
   - 了解系統到期通知規則

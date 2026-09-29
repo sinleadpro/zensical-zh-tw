@@ -25,6 +25,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 批次複製商品至 POS 門市

@@ -28,6 +28,10 @@
   <p class="subtitle">{{ page.meta.description }}</p>
 {% endif %}
 
+{% set _plan_options_html %}
+{%- if page.meta.plan_options %}  <a href="/resources/conventions/#conventions-plan-options" title="標配／選配"><span class="twemoji">{% include ".icons/lucide/puzzle.svg" %}</span></a> | {{ page.meta.plan_options | map('replace', 'standard', '標配') | map('replace', 'optional', '選配') | join(' / ') }}{%- endif %}
+{% endset %}
+
 {% if '<p class="doc-badge">' in _rest and '<h2' not in (_rest | split('<p class="doc-badge">') | first) and '<h3' not in (_rest | split('<p class="doc-badge">') | first) %}
   {% set _badge_parts = _rest | split('<p class="doc-badge">') | list %}
   {% if _badge_parts | length > 1 %}
@@ -39,7 +43,7 @@
     {% endif %}
   {% endif %}
   {% if _badge_content is defined %}
-    <p class="doc-badge">{{ _badge_content | safe }}</p>
+    <p class="doc-badge">{{ _badge_content | safe }}{{ _plan_options_html }}</p>
   {% elif page.meta.tnb == "trunk" or page.meta.tnb == "branch" and page.meta.plans or page.meta.cyb_extensions or page.meta.layouts or page.meta.feature_badges %}
     <p class="doc-badge">
       {%- if page.meta.tnb == "trunk" %}
@@ -59,7 +63,10 @@
         {%- if page.meta.tnb or page.meta.cyb_extensions or page.meta.feature_badges %}<br>{% endif %}
         <a href="/resources/conventions/#適用版型" title="適用版型"><span class="twemoji">{% include ".icons/lucide/layout-dashboard.svg" %}</span></a> | {{ page.meta.layouts | map('replace', 'draggable', '拖拉版型') | map('replace', 'classic', '預設版型') | join(" / ") }}
       {%- endif %}
+      {{- _plan_options_html -}}
     </p>
+  {% elif page.meta.plan_options %}
+    <p class="doc-badge">{{ _plan_options_html | trim }}</p>
   {% endif %}
 {% elif page.meta.tnb == "trunk" or page.meta.tnb == "branch" and page.meta.plans or page.meta.cyb_extensions or page.meta.layouts or page.meta.feature_badges %}
   <p class="doc-badge">
@@ -80,7 +87,10 @@
       {%- if page.meta.tnb or page.meta.cyb_extensions or page.meta.feature_badges %}<br>{% endif %}
       <a href="/resources/conventions/#適用版型" title="適用版型"><span class="twemoji">{% include ".icons/lucide/layout-dashboard.svg" %}</span></a> | {{ page.meta.layouts | map('replace', 'draggable', '拖拉版型') | map('replace', 'classic', '預設版型') | join(" / ") }}
     {%- endif %}
+    {{- _plan_options_html -}}
   </p>
+{% elif page.meta.plan_options %}
+  <p class="doc-badge">{{ _plan_options_html | trim }}</p>
 {% endif %}
 
 {{ _rest | safe }}

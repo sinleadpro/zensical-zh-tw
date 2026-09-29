@@ -21,6 +21,7 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 超商訂單部分出貨

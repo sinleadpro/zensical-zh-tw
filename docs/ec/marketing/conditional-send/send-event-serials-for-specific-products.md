@@ -24,6 +24,7 @@ difficulty: beginner
 tnb: branch
 plans:
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定指定商品送活動序號

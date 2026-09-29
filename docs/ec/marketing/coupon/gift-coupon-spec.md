@@ -2,7 +2,7 @@
 title: 贈品券規格
 description: 說明 CYBERBIZ 贈品券的規格、商品限制、建立方式及結帳流程。
 created: 2026-06-17 10:39
-last_modified: 2026-07-06 17:00
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: reference
 author: Ann
@@ -27,6 +27,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: ["optional"]
 cyb_extensions: []
 intents: 
     - 瞭解贈品券規格

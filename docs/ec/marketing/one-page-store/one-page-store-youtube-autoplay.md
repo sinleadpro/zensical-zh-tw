@@ -2,7 +2,7 @@
 title: 設定一頁式商店 YouTube 影片自動播放與起始秒數
 description: 調整 YouTube 影片網址參數，在一頁式商店中設定自動播放、循環播放與指定播放起始秒數。
 created: 2024-05-23 11:30
-last_modified: 2026-06-24 11:30
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Jase
@@ -26,6 +26,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions: []
 intents:
   - 設定 YouTube 影片自動播放

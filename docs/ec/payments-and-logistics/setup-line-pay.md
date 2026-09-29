@@ -27,6 +27,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 如何設定 LINE Pay

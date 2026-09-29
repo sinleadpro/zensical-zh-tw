@@ -2,7 +2,7 @@
 title: 指定商品送紅利
 description: 建立「指定商品送紅利」群組，針對特定商品設定滿額贈送紅利點數，提升回購率與客單價。
 created: 2026-01-21 00:00
-last_modified: 2026-07-07 12:00
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -25,6 +25,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions: []
 intents:
   - 設定指定商品送紅利

@@ -2,7 +2,7 @@
 title: 圖示慣例
 description: 了解 CYBERBIZ 文件中使用的符號與圖示慣例，包含適用產品、方案、功能與擴充的標示說明。
 lang: zh-TW
-last_modified: 2026-06-29 19:30
+last_modified: 2026-09-18 14:10
 type: reference
 author: ""
 reviewers: []
@@ -39,3 +39,7 @@ permalink: "https://help.cyberbiz.io/resources/conventions/"
 ### :lucide-grid-2x2-plus: 適用擴充 { #conventions-extensions }
 
 表示內容適用特定的 CYBERBIZ 擴充功能。
+
+### :lucide-puzzle: 標配／選配 { #conventions-plan-options }
+
+表示內容在 PLUS 方案中屬於標配或選配模組。選配模組採 11 選 2，企業版通常直接內建。

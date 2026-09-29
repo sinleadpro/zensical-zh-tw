@@ -2,7 +2,7 @@
 title: API 與 Webhook 串接指南
 description: 了解如何透過 API 與 Webhook 服務串接外部系統（如 ERP、CRM），實現自動化數據同步與即時通知。
 created: 2026-06-11 14:45
-last_modified: 2026-06-27 13:40
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -27,6 +27,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions: 
   - APP MARKET
 intents: 

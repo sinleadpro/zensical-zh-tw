@@ -21,6 +21,7 @@ audiences:
 difficulty: advanced
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 關閉商品頁圖片放大預覽功能

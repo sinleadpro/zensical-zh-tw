@@ -19,6 +19,7 @@ audiences: []
 difficulty: ""
 tnb: trunk
 plans: []
+plan_options: []
 intents:
   - 執行單筆或批次訂單出貨
   - 下載並列印物流託運單與揀貨單

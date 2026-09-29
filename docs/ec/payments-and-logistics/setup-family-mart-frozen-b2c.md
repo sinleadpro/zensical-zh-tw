@@ -25,6 +25,7 @@ plans:
   - 高手
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions:
   - CYBERBIZ PAYMENTS
 intents:

@@ -24,6 +24,9 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - standard
+  - optional
 cyb_extensions: []
 intents:
   - 設定門市取貨分潤

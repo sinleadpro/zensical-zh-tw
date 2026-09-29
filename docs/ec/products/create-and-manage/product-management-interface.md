@@ -24,6 +24,7 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 商品管理介面總覽

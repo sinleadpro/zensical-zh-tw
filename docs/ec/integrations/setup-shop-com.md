@@ -28,6 +28,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 串接美安通路
