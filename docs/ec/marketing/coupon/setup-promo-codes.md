@@ -37,6 +37,7 @@ features:
 prerequisites: []
 related:
   - ec/marketing/coupon/multiple-coupons/
+  - ec/marketing/references/coupon-and-bonus-credit-rules/
   - ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification/
 tags: 
   - 優惠碼
@@ -267,6 +268,10 @@ hide: []
 - :lucide-layers-2:{ .lg }
   [__設定多張優惠券(碼)併用__](multiple-coupons.md)
   設定單筆訂單可使用的優惠券數量上限。
+
+- :lucide-wallet:{ .lg }
+  [__查看優惠券／紅利歸戶規則__](../references/coupon-and-bonus-credit-rules.md)
+  了解優惠券發送至會員帳戶的歸戶規則，以及訂單結案與退貨狀態對歸戶的影響。
 
 - :lucide-bell-ring:{ .lg }
   [__設定優惠券到期通知__](../purchase-restrictions/coupon-and-bonus-points-expiry-notification.md)
