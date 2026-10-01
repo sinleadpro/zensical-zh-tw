@@ -22,6 +22,7 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 管理 Email 樣板
@@ -41,6 +42,7 @@ related:
   - ec/orders/home-delivery/shipping-status-tooltip/
   - ec/notifications/manage-sms-templates-v2/
   - ec/notifications/manage-line-oa-templates/
+  - ec/website-management/setup-customer-email-phone-verification/
 tags:
   - Email 通知樣板
   - Email 樣板管理
@@ -233,3 +235,9 @@ hide:
 ??? quote "門市管理者（或非主帳號人員）可以收到安全庫存通知嗎"
 	
 	可以。由於門市管理者受限於權限，僅能查看所屬門市資訊，若需接收「安全庫存」或其他全域通知，必須由 **網站擁有者 (Owner)** 手動將該人員的 Email 加入「商家通知設定」的收件清單中。
+
+??? quote "為什麼未開啟通知樣板，會員於結帳頁登入時，系統仍顯示「發送驗證碼」？"
+
+    「發送驗證碼」選項是否顯示，取決於 **電子郵件驗證** 是否啟用，不受通知樣板是否開啟影響。啟用驗證後，結帳頁即會顯示該選項；若未開啟對應通知樣板，系統不會寄出驗證信件。
+
+    [設定顧客 Email 與手機雙重驗證 :lucide-arrow-right:](../website-management/setup-customer-email-phone-verification/)

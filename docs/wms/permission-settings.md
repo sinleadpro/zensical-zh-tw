@@ -21,6 +21,7 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans: []
+plan_options: []
 intents:
   - 如何建立WMS角色
   - 設定員工功能權限

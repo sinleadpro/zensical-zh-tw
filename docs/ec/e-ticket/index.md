@@ -2,6 +2,8 @@
 author: ""
 reviewers: []
 products: [EC]
+plan_options: 
+  - optional
 notes: []
 title: 電子票券總覽
 description: 電子票券是可線上販售、線下核銷的數位商品，支援課程、活動門票、服務項目或商品兌換，提供 OMO 銷售與會員導流情境。

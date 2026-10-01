@@ -2,7 +2,7 @@
 title: 定期定額分析
 description: 透過數據卡與圖表，掌握店內定期定額訂單的數量、價值、持續期數與取消狀況，看出顧客訂閱的續訂與流失趨勢。
 created: 2026-06-16 00:00
-last_modified: 2026-07-12 20:35
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Jase
@@ -25,6 +25,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 intents:
   - 檢視定期定額訂單數量與價值
   - 分析定期訂單持續長度與取消狀況
@@ -43,7 +45,7 @@ apis: []
 wp_url: []
 permalink: "https://help.cyberbiz.io/ec/business-intelligence/periodic-order-analysis/"
 icon: lucide/calendar-clock
-hide:
+hide: []
 ---
 
 ![定期定額分析頁面](../../assets/images/ec-bi-periodic-order-analysis-hero.png){ title="定期定額分析頁面" }

@@ -11,6 +11,7 @@ hide:
   - toc
   - feedback
 permalink: "https://help.cyberbiz.io/resources/"
+plan_options: []
 ---
 
 <div style="display: flex; gap: 2rem; flex-wrap: wrap; padding: 2rem 0 2.5rem;" markdown>

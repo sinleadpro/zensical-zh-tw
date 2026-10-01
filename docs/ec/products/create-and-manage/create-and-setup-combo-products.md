@@ -2,7 +2,7 @@
 title: 新增與設定組合商品
 description: 建立指定或任選組合商品，設定子商品內容、價格、庫存與銷售規則。
 created: 2026-01-08 00:00
-last_modified: 2026-06-30 11:26
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/products/create-and-manage/create-and-setup-combo-products/"
 type: guide
@@ -23,6 +23,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions: []
 audiences:
   - merchant

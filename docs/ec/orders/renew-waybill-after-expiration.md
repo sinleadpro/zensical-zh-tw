@@ -22,6 +22,7 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents: 
   - 重新取得超商託運單
@@ -62,9 +63,6 @@ search:
 icon: lucide/refresh-cw
 hide: []
 ---
-
-!!! tip "功能上線說明"
-    **託運單重新取號** 為新上線功能，目前僅開放 **企業版**。其餘方案將陸續開放，敬請稍待。
 
 ## 使用須知 { #prerequisites-renew-waybill-after-expiration }
 

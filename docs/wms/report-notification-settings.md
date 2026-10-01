@@ -20,6 +20,7 @@ audiences: []
 difficulty: ""
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定報表接收對象

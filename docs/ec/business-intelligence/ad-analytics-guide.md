@@ -21,6 +21,7 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
+plan_options: []
 intents:
   - 查看 Google 購物廣告成效
   - 分析廣告 ROAS 與轉換數據

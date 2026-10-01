@@ -47,6 +47,7 @@ duckops/
 .stignore
 
 # Ann's files
+.cursorignore
 .cursorindexingignore
 .cursor/
 .vscode/

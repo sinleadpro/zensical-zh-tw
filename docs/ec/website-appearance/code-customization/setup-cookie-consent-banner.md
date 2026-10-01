@@ -21,6 +21,7 @@ audiences:
 difficulty: advanced
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 在官網顯示 Cookie 同意提示彈窗

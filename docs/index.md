@@ -5,6 +5,7 @@ lang: zh-TW
 author: Jase
 reviewers: []
 products: [EC, POS, WMS]
+plan_options: []
 notes: []
 hide:
   - description

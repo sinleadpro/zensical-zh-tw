@@ -26,6 +26,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 防止 POS 重複登入

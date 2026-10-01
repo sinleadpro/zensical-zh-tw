@@ -2,7 +2,7 @@
 title: 設定快速到貨前台入口與專區
 description: 學習如何配置快速到貨專區的前台入口、自訂導覽列視覺樣式，以及透過版型編輯器優化專區內容展示。
 created: 2026-02-03 00:00
-last_modified: 2026-06-30 11:01
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -26,6 +26,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions:
   - NOW!
 intents:

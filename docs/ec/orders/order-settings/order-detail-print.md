@@ -23,6 +23,7 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 自訂訂單明細列印項目
