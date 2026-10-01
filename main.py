@@ -18,10 +18,12 @@ def define_env(env):
     # This allows you to use {% if is_internal %}
     env.variables['is_internal'] = is_internal
 
-    # 4. (Optional) Debugging: This prints in your terminal 
-    # to confirm the gate status during 'uv run zensical serve'
-    status_icon = "🔓" if is_internal else "🔒"
-    print(f"--- Zensical Macro: Internal Gate is {status_icon} ({is_internal}) ---")
+    # 4. (Optional) Debugging: This prints in your terminal
+    # to confirm the gate status during 'uv run zensical serve'.
+    # ASCII only: Windows cp950 cannot encode lock emojis and 0.0.62+
+    # surfaces that UnicodeEncodeError as a fatal Python error.
+    status = "open" if is_internal else "closed"
+    print(f"--- Zensical Macro: Internal Gate is {status} ({is_internal}) ---")
 
     # =========================================================
     # Metadata renderer (plans / extensions / function)
