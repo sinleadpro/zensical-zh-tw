@@ -2,7 +2,7 @@
 title: 一頁式商店
 description: 一頁式商店將商品資訊、特色介紹與結帳流程整合於單一網頁，大幅減少頁面切換造成的流失，是提升廣告轉換率與行動購物體驗的高效工具。
 created: 2026-02-11 00:00
-last_modified: 2026-09-18 14:10
+last_modified: 2026-10-01 11:30
 lang: zh-TW
 type: guide
 author: Ann
@@ -45,6 +45,7 @@ related:
   - ec/website-appearance/code-customization/text-editor/
   - ec/profit-sharing/query-profit-sharing-partners-and-codes/
   - ec/profit-sharing/referrer-profit-sharing/
+  - ec/profit-sharing/referral-link-applications/
 tags:
   - 轉單優化
   - 單頁設計
@@ -277,14 +278,13 @@ hide: []
 
 ### 1. 生成分潤推薦碼連結
 
-一頁式商店可結合分潤功能，透過製作帶有推薦碼的網址，當消費者點擊含推薦碼之連結後，系統將自動於購物車帶入推薦碼。
+<div class="grid cards" markdown>
 
-- **原始網址**：`https://store.com/events/spring-sale`
-- **推薦碼後綴格式**：`?rcode=[推薦碼]`
-- **推薦碼**： `abc123`
-- **最終連結**：`https://store.com/events/spring-sale?rcode=abc123`
+- :lucide-share-2:{ .lg }     
+  [__製作一頁式商店推薦碼連結__](../../profit-sharing/referral-link-applications.md#referral-link-applications-example)  
+  了解如何製作帶有推薦碼的網址連結。
 
-> :lucide-info: [查詢分潤夥伴的推薦碼](../../profit-sharing/query-profit-sharing-partners-and-codes/#任務四一鍵複製推薦碼)
+</div>
 
 ### 2. 新增頁面鎖右鍵功能
 
