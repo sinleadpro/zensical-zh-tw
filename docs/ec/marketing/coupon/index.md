@@ -41,8 +41,9 @@ related:
   - ec/marketing/coupon/setup-promo-codes/
   - ec/marketing/coupon/free-shipping-coupon-spec/
   - ec/marketing/coupon/gift-coupon-spec/
-  - ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification/
   - ec/marketing/coupon/multiple-coupons/
+  - ec/marketing/references/coupon-and-bonus-credit-rules/
+  - ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification/
 tags: 
   - 優惠券
   - 優惠碼
@@ -177,13 +178,18 @@ hide: []
 
 <div class="grid cards" markdown>
 
-- :lucide-ticket:{ .lg }
-  [__優惠券（碼）與紅利點數到期通知__](../purchase-restrictions/coupon-and-bonus-points-expiry-notification.md)
-  設定系統自動發送 Email、簡訊或 LINE 通知，提醒顧客及時使用即將到期的優惠券與紅利點數。
 
 - :lucide-hash:{ .lg }
   [__多優惠券（碼）__](multiple-coupons.md)
   設定單筆訂單可使用的優惠券（碼）數量上限，並了解多重折扣的折抵邏輯。
+
+- :lucide-wallet:{ .lg }
+  [__查看優惠券／紅利歸戶規則__](../references/coupon-and-bonus-credit-rules.md)
+  了解優惠券發送至會員帳戶的歸戶規則，以及訂單結案與退貨狀態對歸戶的影響。
+
+- :lucide-ticket:{ .lg }
+  [__優惠券（碼）與紅利點數到期通知__](../purchase-restrictions/coupon-and-bonus-points-expiry-notification.md)
+  設定系統自動發送 Email、簡訊或 LINE 通知，提醒顧客及時使用即將到期的優惠券與紅利點數。
 
 </div>
 

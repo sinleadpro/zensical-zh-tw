@@ -40,6 +40,7 @@ features:
 prerequisites: []
 related:
   - ec/marketing/references/coupon-and-bonus-credit-rules/
+  - ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification/
   - ec/members/manage-member-profiles/
   - ec/products/bulk-operations/batch-update-product-descriptions-shipping/
   - ec/orders/reports/export-order-report/
@@ -127,6 +128,14 @@ hide: []
 
 - **範例**：設定每消費 100 元贈送 10 點。
 - **邏輯**：系統會依比例累計。消費 1000 元得 100 點；消費 999 元則得 90 點。
+
+<div class="grid cards" markdown>
+
+- :lucide-wallet:{ .lg }
+  [__查看優惠券／紅利歸戶規則__](../references/coupon-and-bonus-credit-rules.md)
+  了解紅利發送至會員帳戶的歸戶規則，以及訂單結案與退貨狀態對歸戶的影響。
+
+</div>
 
 ### B. 全館發送（針對所有會員）
 
@@ -338,8 +347,11 @@ hide: []
 
 <div class="grid cards" markdown>
 
+- :lucide-wallet:{ .lg }
+  [__查看優惠券／紅利歸戶規則__](../references/coupon-and-bonus-credit-rules.md)
+  確認消費回饋紅利在訂單結案、退貨與其他訂單狀態下的歸戶規則。
+
 - :lucide-bell-ring:{ .lg }
   [__設定紅利點數到期通知__](../purchase-restrictions/coupon-and-bonus-points-expiry-notification.md)
   設定紅利點數到期提醒，引導顧客在點數失效前回到官網進行折抵消費。
-
 </div>

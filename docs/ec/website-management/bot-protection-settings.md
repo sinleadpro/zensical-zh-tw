@@ -106,11 +106,10 @@ hide: []
 
         ![](../../assets/images/cloudflare-後台-建立Turnstile04.png){ .screenshot }
 
-    - **主題名稱管理**：點擊 **新增主機名稱**，將您的商店站台 **所有網域** 加入。
+    - **主題名稱管理**：在 **主機名稱** 欄位，輸入您的您的商店站台網域。
 
         ![](../../assets/images/cloudflare-後台-建立Turnstile05.png){ .screenshot }
 
-        在 **新增自訂主機名稱** 欄位，輸入您的您的商店站台網域。
         
         !!! tip "兩種網域皆須加入"
             新增主機名稱時，請同時加入商店的 **自有網域** 與 **CYBERBIZ 網域**：
@@ -126,8 +125,6 @@ hide: []
             - **CYBERBIZ 網域**：
                 - 範例網址： `https://你的店名.cyberbiz.co`
                 - **填寫格式**： `你的店名.cyberbiz.co`
-
-        ![](../../assets/images/cloudflare-後台-建立Turnstile08.png){ .screenshot }
 
     - **小工具模式**：依需求選擇即可。
 
