@@ -88,7 +88,7 @@ hide: []
 1. 由商家主動提供退貨地址與寄送方式給消費者。
 2. 商家收到包裹並完成實體驗收後，請至訂單列表執行以下操作。
 
-    - [執行退貨審查](../ec/orders/order-return-process/#步驟-2執行退貨審查)
+    - [執行退貨審查](../ec/orders/order-return-process/#operate-order-return-reverse)
     - [執行退款流程](../ec/orders/order-refund-process.md)
 
 !!! info "退貨物流自主管理"
@@ -100,11 +100,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-chart-bar-increasing:{ .lg }   
-  [__訂單退貨流程__](../ec/orders/order-return-process.md)     
+  [__訂單退貨退款流程__](../ec/orders/order-return-process.md)     
   了解系統退貨政策、操作須知與相關規則。
 
 - :lucide-square-chart-gantt:{ .lg }   
-  [__訂單退款流程__](../ec/orders/order-refund-process.md)     
+  [__退款方式與作業__](../ec/orders/order-refund-process.md)     
   了解退款審核時程、金額計算與帳務處理須知。
 
 

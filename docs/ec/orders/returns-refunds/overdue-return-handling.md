@@ -225,7 +225,7 @@ hide: []
   設定 7-11 C2B 退貨便逆物流服務，讓顧客可至超商門市寄回退貨商品。
 
 - :lucide-credit-card:{ .lg }  
-  [__訂單退款流程__](../order-refund-process.md){ title="訂單退款流程" }  
+  [__退款方式與作業__](../order-refund-process.md){ title="退款方式與作業" }  
   了解訂單退款的完整流程，包含自動退刷與人工退款的判斷方式與操作步驟。
 
 </div>

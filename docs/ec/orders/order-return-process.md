@@ -1,8 +1,8 @@
 ---
-title: 訂單退貨流程
+title: 訂單退貨退款流程
 description: 當會員提出退貨申請或商家需手動啟動退貨程序時，您可以透過後台進行「逆物流安排」與「退貨審核」。
 created: 2026-02-23 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-10-02 11:00
 lang: zh-TW
 type: guide
 author: Ann
@@ -75,13 +75,13 @@ search:
 icon: lucide/package-minus
 hide: []
 ---
-# 訂單退貨流程
+# 訂單退貨退款流程
 
 當會員提出退貨申請或商家需手動啟動退貨程序時，您可以透過後台進行「逆物流安排」與「退貨審核」。
 { .subtitle }
 
 
-## 使用須知
+## 使用須知 { #prerequisites-order-return }
 
 - **次數限制**：每筆訂單僅接受 **一次** 退貨退款申請。若已完成部分退貨，該訂單剩餘商品無法再次申請。
 - **紅利與優惠券**：
@@ -95,7 +95,7 @@ hide: []
 - **串倉訂單退貨**：使用 CYBERBIZ 電商倉儲者，退貨流程請參閱 [退貨與派車](../../wms/returns-and-vehicle-dispatch.md)。
 
 
-## 步驟 1：啟動退貨與安排逆物流
+## 步驟 1：啟動退貨 { #operate-order-return-start }
 
 依據退貨發起方，訂單列表中的 **退貨狀態** 會有不同顯示：
 
@@ -103,8 +103,7 @@ hide: []
     - 若想開啟前台消費者申請退貨功能，請參閱 [會員退貨申請功能](member-return-request-feature.md)。
 - **商家發起**：初始顯示為 `不須退貨`。
 
-
-### 1. 手動切換狀態
+---
 
 手動切換切換狀態，代表已收到包裹進入驗收階段。
 
@@ -114,7 +113,7 @@ hide: []
 ![](../../assets/images/EC-後台-訂單-所有訂單-操作退貨審查01.png)
 
 
-### 2. 安排逆物流寄回
+## 步驟 2：安排逆物流寄回 { #operate-order-return-reverse }
 
 - 出貨物流與逆物流獨立運作，兩者 **不需綁定相同物流商**。
 
@@ -181,7 +180,7 @@ hide: []
 
     </div>
 
-## 步驟 2：執行退貨審查
+## 步驟 3：退貨審查與退款 { #operate-order-return-review }
 
 收到包裹並檢查品項無誤後，請依據情況選擇審查結論。
 
@@ -192,13 +191,18 @@ hide: []
     1. 前往 **訂單 > 所有訂單**。
     2. 勾選指定訂單，點選 **退貨審查** > **已退貨**。
 
+        !!! danger "部分退款請勿點擊「已退貨」"
+            若使用 **CYBERBIZ PAYMENTS** 且訂單符合自動退款條件，點擊 **已退貨** 後，系統會自動執行 **全額退款**。若只需退還部分金額，請勿點擊 **已退貨**，改點擊 **退貨審查**，再前往訂單明細頁選取退貨商品並輸入退款金額。
+
+            詳細操作方式請參考 **部分退貨** 頁籤。
+
         ![](../../assets/images/EC-後台-訂單-所有訂單-操作已退貨拒絕退貨01.png)
 
     3. 訂單若由 CYBERBIZ 人工退款，請依照顧客提供的退款資料填寫 **人工退款資料**。
 
         ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/CYBERBIZ-PAYMENTS-退貨退款09.png){ .small-image }
 
-    4. 狀態更動後，請接續進行 [退款操作](order-refund-process.md)。
+    4. 完成退貨審查後，請依站台版本與訂單付款方式，前往[退款方式與作業](order-refund-process.md)，查閱並執行適用的退款流程。
 
     
 
@@ -208,6 +212,11 @@ hide: []
 
     1. 前往 **訂單 > 所有訂單**。
     2. 勾選指定訂單，點選 **退貨審查** 後，進入訂單明細頁。
+
+        !!! danger "部分退款請勿點擊「已退貨」"
+            若使用 **CYBERBIZ PAYMENTS** 且訂單符合自動退款條件，點擊 **已退貨** 後，系統會自動執行 **全額退款**。若只需退還部分金額，請勿點擊 **已退貨**，改點擊 **退貨審查**，再前往訂單明細頁選取退貨商品並輸入退款金額。
+
+
     3. 找到 **部分退款** 區塊，勾選核准退回的商品與輸入退款數量。
 
         ![](../../assets/images/EC-後台-訂單-所有訂單-操作部分退款01.png)
@@ -221,7 +230,7 @@ hide: []
 
         ![](https://www.cyberbiz.io/support/wp-content/uploads/部分退貨退款08.png){ .small-image }
 
-    7. 狀態更動後，請接續進行 [退款操作](order-refund-process.md)。
+    7. 完成退貨審查後，請依站台版本與訂單付款方式，前往[退款方式與作業](order-refund-process.md)，查閱並執行適用的退款流程。
 
         ![](https://www.cyberbiz.io/support/wp-content/uploads/部分退貨退款09.png){ .small-image }
 
@@ -245,7 +254,7 @@ hide: []
 
 
 
-## 常見問題
+## 常見問題 { #faq-order-return }
 
 ??? quote "為什麼使用了逆物流，訂單狀態會自動變更？"
     若使用系統整合的逆物流，當會員將包裹交給物流人員後，系統接收到物流訊號，會自動將狀態從 `退貨中` 更新為 `退貨審查`，方便商家追蹤進度。
@@ -255,12 +264,12 @@ hide: []
 
 ---
 
-## 後續步驟
+## 後續步驟 { #next-steps-order-return }
 
 <div class="grid cards" markdown>
 
 - :lucide-dollar-sign:{ .lg }   
-  [__執行金流退款操作__](order-refund-process.md)       
+  [__訂單退款方式與流程__](order-refund-process.md)
   了解如何針對不同金流管道完成最後的撥款或退刷動作。
 
 - :lucide-clipboard-check:{ .lg }     

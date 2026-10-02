@@ -159,11 +159,11 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-coins:{ .lg }   
-  [__訂單退款流程__](../order-refund-process.md)     
+  [__退款方式與作業__](../order-refund-process.md)     
    設定退貨款的政策說明，讓顧客了解相關操作與費用。
 
 - :lucide-package-minus:{ .lg }     
-  [__訂單退貨流程__](../order-return-process.md)  
+  [__訂單退貨退款流程__](../order-return-process.md)  
    操作訂單退貨退款的流程。
 
 </div>

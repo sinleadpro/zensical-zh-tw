@@ -273,8 +273,8 @@ search:
 - :lucide-printer:{ .lg } [__如何補印託運單__](payments-and-logistics/setup-print-tcat-waybill-v2.md){ title="設定與加印黑貓託運單" }
 - :lucide-x-circle:{ .lg } [__取消訂單說明__](orders/basics/cancel-order.md){ title="如何取消訂單" }
 - :lucide-check-circle:{ .lg } [__結案訂單說明__](orders/order-settings/manual-order-close.md){ title="如何手動結案訂單" }
-- :lucide-undo-2:{ .lg } [__一般退貨退款流程說明__](orders/order-return-process.md){ title="訂單退貨流程" }
-- :lucide-rotate-ccw:{ .lg } [__部份退貨退款流程說明__](orders/order-refund-process.md){ title="訂單退款流程" }
+- :lucide-undo-2:{ .lg } [__一般退貨退款流程說明__](orders/order-return-process.md){ title="訂單退貨退款流程" }
+- :lucide-rotate-ccw:{ .lg } [__退款方式與作業__](orders/order-refund-process.md){ title="退款方式與作業" }
 - :lucide-truck:{ .lg } [__如何透過後台系統請物流人員收取退貨（黑貓 / 宅配通）__](orders/order-return-process.md){ title="訂單退貨流程" }
 - :lucide-clock-alert:{ .lg } [__超商訂單逾期未取退貨流程__](orders/returns-refunds/cvs-unclaimed-order.md){ title="處理超商訂單逾期未取" }
 - :lucide-calendar-x:{ .lg } [__超過您設定之退貨申請期限的退貨流程__](orders/returns-refunds/overdue-return-handling.md){ title="處理超過退貨期限的訂單" }
