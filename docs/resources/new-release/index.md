@@ -1,7 +1,7 @@
 ---
 title: 新功能報報
 description: "CYBERBIZ 新功能報報，依月份彙整最新上線功能與功能優化內容。"
-last_modified: 2026-09-21 11:15
+last_modified: 2026-10-02 16:01
 type: hub
 lang: zh-TW
 author: Ann
@@ -95,6 +95,7 @@ hide:
   }
 
   .release-month {
+    align-self: center;
     color: var(--release-blue);
     font-size: 26px;
     font-weight: 900;
@@ -104,6 +105,7 @@ hide:
   }
 
   .release-divider {
+    align-self: center;
     width: 1px;
     height: 104px;
     border-left: 4px dashed rgba(1, 46, 158, .14);
@@ -125,6 +127,7 @@ hide:
     column-gap: 20px;
     row-gap: 8px;
     min-width: 0;
+    min-height: 32px;
     padding: 0;
   }
 
@@ -188,6 +191,7 @@ hide:
 
   .release-arrow {
     display: grid;
+    align-self: center;
     place-items: center;
     width: 64px;
     height: 64px;
@@ -272,6 +276,7 @@ hide:
     .release-feature-row {
       column-gap: 10px;
       row-gap: 6px;
+      min-height: 29px;
     }
 
     .release-feature-tags {
@@ -327,7 +332,7 @@ hide:
             </span>
           </li>
           <li class="release-feature-row">
-            <span class="release-feature-name">CHAT BOX｜支援手機版後台檢視、自訂前台對話提示文字</span>
+            <span class="release-feature-name">CHAT BOX｜支援手機版後台檢視</span>
             <span class="release-feature-tags">
               <span class="release-version-tag">#企業版</span>
               <span class="release-version-tag">#PLUS版</span>
@@ -338,7 +343,7 @@ hide:
             <span class="release-feature-tags">
               <span class="release-version-tag">#企業版</span>
               <span class="release-version-tag">#PLUS版</span>
-              <span class="release-version-tag-2">#CYBERBIZ PAYMENTS｜收款入帳</span>
+              <span class="release-version-tag-2">#CYBERBIZ PAYMENTS</span>
             </span>
           </li>
           <li class="release-feature-row">
