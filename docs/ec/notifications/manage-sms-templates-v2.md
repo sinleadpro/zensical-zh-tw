@@ -21,14 +21,8 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 管理簡訊樣板
@@ -44,7 +38,8 @@ features:
   - 防阻擋提醒
   - 應用範例
 prerequisites: []
-related: []
+related: 
+  - ec/website-management/setup-customer-email-phone-verification/
 tags:
   - 簡訊通知樣板
   - 簡訊樣板管理
@@ -148,3 +143,9 @@ hide:
 
 ??? quote "修改簡訊樣板後，已經產生的訂單會適用新樣板嗎" 
 	會的。簡訊通知是在「觸發條件達成（如狀態更動）」的當下，抓取當前最新的樣板內容進行發送。因此儲存變更後，後續發出的通知皆會套用新內容。
+
+??? quote "為什麼未開啟通知樣板，會員於結帳頁登入時，系統仍顯示「發送驗證碼」？"
+
+    「發送驗證碼」選項是否顯示，取決於 **手機驗證** 是否啟用，不受通知樣板是否開啟影響。啟用驗證後，結帳頁即會顯示該選項；若未開啟對應通知樣板，系統不會寄出驗證簡訊。
+
+    [設定顧客 Email 與手機雙重驗證 :lucide-arrow-right:](../website-management/setup-customer-email-phone-verification/)

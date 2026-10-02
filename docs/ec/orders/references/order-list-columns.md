@@ -28,14 +28,14 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 查看訂單列表欄位
   - 了解欄位用途與開通條件
 features: []
 prerequisites: []
-related:
-  - "ec/orders/references/order-filter-status-reference"
+related: []
 tags:
   - 訂單列表
   - 欄位

@@ -11,7 +11,7 @@ notes: []
 ga_views: 0
 feedback: 0
 products:
-  - EC
+  - WMS
 modules:
   - 設定
 sites:
@@ -20,6 +20,7 @@ audiences: []
 difficulty: ""
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定報表接收對象

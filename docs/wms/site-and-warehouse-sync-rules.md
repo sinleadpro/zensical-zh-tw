@@ -13,8 +13,8 @@ notes:
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - WMS
+  - EC
 modules:
   - 訂單
   - 商品
@@ -24,6 +24,7 @@ audiences: []
 difficulty: ""
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定同步開關
@@ -36,7 +37,9 @@ features:
 prerequisites:
   - 需已開通 CYBERBIZ 電商倉儲服務
   - 商品必須已填寫唯一的商品 SKU（不可為空）
-related: []
+related:
+  - wms/single-items/
+  - wms/setup-products-stock-limit-preorder/
 tags:
   - 同步規則
   - 拋單

@@ -26,6 +26,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents: 
   - 安裝發票機
@@ -35,8 +36,8 @@ features:
   - 發票機安裝
   - Wi-Fi 設定
 prerequisites: []
-related: 
-  - "pos/hardware/epson-tm-t82iii-invoice-printer"
+related:
+  - pos/hardware/epson-tm-t82iii-invoice-printer/
 tags: 
   - EPSON
   - 發票機

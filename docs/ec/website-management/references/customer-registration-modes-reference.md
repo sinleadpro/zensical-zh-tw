@@ -12,12 +12,14 @@ ga_views: 0
 feedback: 0
 products:
   - EC
-modules: []
+modules:
+  - 管理中心
 sites:
   - TW
 audiences:
   - merchant
 difficulty: beginner
+plan_options: []
 cyb_extensions: []
 intents:
   - 比較註冊模式差異
@@ -28,8 +30,7 @@ features:
   - 雙重驗證
 prerequisites: []
 related:
-  - "ec/website-management/setup-customer-email-phone-verification"
-  - "ec/website-management/references/customer-field-validation-reference"
+  - ec/website-management/setup-customer-email-phone-verification/
 tags:
   - EC
   - 顧客註冊

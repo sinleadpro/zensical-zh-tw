@@ -14,7 +14,6 @@ notes:
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - WMS
 modules:
   - 訂單
@@ -24,6 +23,7 @@ audiences: []
 difficulty: ""
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 建立非串接通路訂單
@@ -35,7 +35,8 @@ features:
 prerequisites:
   - 需已開通 CYBERBIZ 電商倉儲服務
   - 商品已入庫並有可用庫存
-related: []
+related:
+  - wms/channels/
 tags:
   - 手動建單
   - 倉庫出貨

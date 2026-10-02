@@ -20,11 +20,13 @@ audiences:
 difficulty: ""
 tnb: ""
 plans:
+plan_options: []
 cyb_extensions: []
 intents: []
 features: []
 prerequisites: []
-related: []
+related:
+  - ec/website-appearance/references/theme-editor-sections/
 tags: []
 acoiv: ""
 apis: []
@@ -33,7 +35,8 @@ devices:
   - mobile
 ui_components: []
 paths: []
-layouts: []
+layouts:
+  - draggable
 wp_url: []
 permalink: "https://help.cyberbiz.io/ec/website-appearance/references/theme-editor-pages/"
 comments: ""

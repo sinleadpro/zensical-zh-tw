@@ -12,8 +12,8 @@ notes:
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - WMS
+  - EC
 modules:
   - 商品
 sites:
@@ -22,6 +22,7 @@ audiences: []
 difficulty: ""
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定限量銷售

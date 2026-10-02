@@ -20,11 +20,13 @@ audiences:
 difficulty: ""
 tnb: ""
 plans:
+plan_options: []
 cyb_extensions: []
 intents: []
 features: []
 prerequisites: []
-related: []
+related:
+  - ec/products/references/smart-collections-rule-columns/
 tags:
   - 商品管理
   - 條件分類

@@ -21,6 +21,7 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents: 
   - 了解優惠計算順序
@@ -31,9 +32,7 @@ features:
   - 優惠券
   - 紅利點數
 prerequisites: []
-related: 
-  - "ec/marketing/coupon/index"
-  - "ec/marketing/bonus-and-gifts/setup-bonus-points"
+related: []
 tags: 
   - 優惠計算
   - 折扣順序

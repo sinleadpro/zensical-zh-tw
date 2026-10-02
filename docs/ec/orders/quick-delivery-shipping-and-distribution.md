@@ -26,6 +26,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions:
   - NOW!
 intents:
@@ -39,7 +41,8 @@ features:
 prerequisites:
   - 訂單狀態已變更為「準備出貨」
   - 商品已依材積規範完成打包
-related: []
+related:
+  - ec/orders/pandago-delivery-exception-rules/
 tags:
   - Pandago
   - UberDirect

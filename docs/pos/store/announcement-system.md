@@ -22,6 +22,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 audiences:
   - merchant
@@ -36,7 +37,7 @@ features:
 prerequisites:
   - 需具備網站擁有者或店長權限方可發送公告
 related:
-  - "pos/store/staff-permissions-and-account-management"
+  - pos/store/staff-permissions-and-account-management/
 tags:
   - 公告
   - 訊息發送

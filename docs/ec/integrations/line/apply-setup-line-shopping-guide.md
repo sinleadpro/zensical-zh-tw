@@ -25,6 +25,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 申請_LINE_購物導購
@@ -33,7 +34,9 @@ features:
   - LINE 購物
 prerequisites: []
 related:
-  - 匯出訂單報表
+  - ec/integrations/line/apply-setup-line-live-stream/
+  - ec/integrations/line/group-buy/setup-line-group-buy-group/
+  - ec/orders/reports/export-order-report/
 tags:
   - LINE 購物
   - 購物導購

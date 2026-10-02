@@ -12,8 +12,9 @@ ga_views: 0
 feedback: 0
 products: 
   - EC
-modules: 
+modules:
   - 訂單
+  - 金物流
 sites: 
   - TW
 audiences: 
@@ -22,6 +23,7 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents: 
   - 了解超商取貨姓名規則

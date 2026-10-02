@@ -23,6 +23,7 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 排除商品上傳至第三方平台
@@ -32,8 +33,8 @@ features:
   - 商品標籤
 prerequisites: []
 related:
-  - "ec/products/categories-and-tags/manage-product-tags"
-  - "ec/products/create-and-manage/edit-product-description-settings"
+  - ec/products/categories-and-tags/manage-product-tags/
+  - ec/products/create-and-manage/edit-product-description-settings/
 tags:
   - 排除標籤
   - Product Feed

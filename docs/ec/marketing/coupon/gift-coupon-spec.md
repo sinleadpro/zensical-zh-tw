@@ -2,7 +2,7 @@
 title: 贈品券規格
 description: 說明 CYBERBIZ 贈品券的規格、商品限制、建立方式及結帳流程。
 created: 2026-06-17 10:39
-last_modified: 2026-07-06 17:00
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: reference
 author: Ann
@@ -10,10 +10,12 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: 
-    - EC
-modules: 
-    - 行銷活動
+products:
+  - EC
+  - WMS
+modules:
+  - 行銷活動
+  - 會員
 sites: 
     - TW
 audiences: 
@@ -21,10 +23,12 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-    - 專業PLUS
-    - 進階PLUS
-    - 高手PLUS
-    - 企業
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
+plan_options: 
+  - optional
 cyb_extensions: []
 intents: 
     - 瞭解贈品券規格
@@ -34,13 +38,16 @@ features:
     - 贈品券
     - 優惠券
     - 庫存管理
-prerequisites: 
-    - "ec/marketing/coupon/setup-coupons"
-    - "ec/marketing/coupon/setup-promo-codes"
-related: 
-    - "ec/marketing/coupon/setup-coupons"
-    - "ec/marketing/coupon/setup-promo-codes"
-    - "ec/marketing/coupon/multiple-coupons"
+prerequisites:
+  - ec/marketing/coupon/setup-coupons/
+  - ec/marketing/coupon/setup-promo-codes/
+related:
+  - ec/members/manage-member-profiles/
+  - ec/marketing/other-tools/interactive-games/
+  - ec/marketing/coupon/setup-promo-codes/
+  - ec/members/vip/setup-exclusive-vip-discounts/
+  - ec/marketing/references/coupon-and-bonus-credit-rules/
+  - ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification/
 tags:
     - 贈品券
     - 優惠券
@@ -161,3 +168,17 @@ hide: []
     1. 贈品商品是否有庫存。
     2. 贈品商品是否已填寫 SKU（針對串倉商家）。
     3. 購物車內是否已有其他商品（購物車不能僅有贈品）。
+
+## 更多操作
+
+<div class="grid cards" markdown>
+
+- :lucide-wallet:{ .lg }
+  [__查看優惠券／紅利歸戶規則__](../references/coupon-and-bonus-credit-rules.md)
+  了解優惠券發送至會員帳戶的歸戶規則，以及訂單結案與退貨狀態對歸戶的影響。
+
+- :lucide-ticket:{ .lg }
+  [__優惠券（碼）與紅利點數到期通知__](../purchase-restrictions/coupon-and-bonus-points-expiry-notification.md)
+  設定系統自動發送 Email、簡訊或 LINE 通知，提醒顧客及時使用即將到期的優惠券與紅利點數。
+
+</div>

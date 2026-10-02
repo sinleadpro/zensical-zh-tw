@@ -16,20 +16,15 @@ products:
   - EC
 modules:
   - 訂單
+  - 金物流
 sites:
   - TW
 audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 啟用冷凍店到店服務
@@ -46,7 +41,10 @@ prerequisites:
   - 於CYBERBIZ後台啟用全家冷凍店到店服務
   - 同意相關服務條款
   - 填寫寄件人資訊
-related: []
+related:
+  - ec/orders/cvs-shipping/cvs-c2c-shipping/
+  - ec/orders/references/cvs-waybill-expiration-reference/
+  - ec/orders/renew-waybill-after-expiration/
 tags:
   - 全家冷凍店到店
   - 冷凍物流
@@ -60,7 +58,8 @@ devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
+paths:
+  - 金物流 > 超商物流
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8221
@@ -102,7 +101,18 @@ hide:
 ### 寄件與時效限制
 
 - **寄件方法**：商家可自行列印託運單貼上，或[記下託運單號至全家門市 **FamiPort** 機台列印](cvs-c2c-shipping.md#famiport){ title="操作超商店到店 C2C 出貨" }服務單（繳費單）。
-- **期限**：產出託運單後，必須在 **6 日內** 完成寄件，否則單號將自動失效。
+
+<div class="grid cards" markdown>
+
+- :lucide-calendar-search:{ .lg }
+  [__查詢各超商託運單失效期限__](../references/cvs-waybill-expiration-reference.md#reference-cvs-waybill-expiration){ data-preview }
+  查看各超商物流的補印期限與失效判定時間。
+
+- :lucide-refresh-cw:{ .lg }
+  [__處理託運單逾期重新取號__](../renew-waybill-after-expiration.md#operate-renew-waybill-after-expiration){ data-preview }
+  原託運單失效或超過補印期限時，重新取得託運單號並下載新託運單。
+
+</div>
 
 ## 操作步驟
 
@@ -137,6 +147,26 @@ hide:
 
 !!! info "**重要提醒：** 冷凍店到店包裹遺失或損壞的 **最高賠償金額為 TWD 5,000 元**。"
 
+### 補印託運單 { #operate-cvs-b2c-shipping-reprint }
+
+若標籤遺失或損毀，可於期限內前往後台補印。
+
+1. 於訂單列表勾選需補印的訂單。
+2. 點擊 **更多操作** 下拉，選擇 **補印託運單**。
+3. 系統會重新下載相同託運單號的 PDF，**不會重複扣除運費**，訂單狀態也不會再次變動。
+
+<div class="grid cards" markdown>
+
+- :lucide-calendar-search:{ .lg }
+  [__查詢各超商託運單失效期限__](../references/cvs-waybill-expiration-reference.md#reference-cvs-waybill-expiration){ data-preview }
+  查看各超商物流的補印期限與失效判定時間。
+
+- :lucide-refresh-cw:{ .lg }
+  [__處理託運單逾期重新取號__](../renew-waybill-after-expiration.md#operate-renew-waybill-after-expiration){ data-preview }
+  原託運單失效或超過補印期限時，重新取得託運單號並下載新託運單。
+
+</div>
+
 ## 常見問題
 
 ??? quote "消費者逾期未取，包裹會怎麼處理？"  
@@ -155,5 +185,5 @@ hide:
 ??? quote "如何重新選擇取件門市？"  
 	若門市關閉或無法取件，商家需在收到通知後 **6 日內** 登入後台重新選擇可取件門市。
 
-??? quote "如果託運單號失效或寄件異常，該怎麼處理？"  
+??? quote "如果託運單號寄件異常，該怎麼處理？"  
 	使用[全家 FamiPort 查詢貨物狀態](https://fmec.famiport.com.tw/FP_Entrance/QueryBox)。若仍有問題，聯繫 CYBERBIZ 後台客服處理。

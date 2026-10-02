@@ -2,7 +2,7 @@
 title: 購物車相關設定
 description: 調整顧客在正式結帳前的購物車行為，包含購物車啟用、未結帳提醒、優惠券設定、額外資訊欄位與定期定額購物車設定。
 created: 2026-06-16 00:00
-last_modified: 2026-07-09 12:16
+last_modified: 2026-10-01 15:01
 lang: zh-TW
 type: guide
 author: Jase
@@ -12,6 +12,7 @@ ga_views: 0
 feedback: 0
 products:
   - EC
+  - POS
 modules:
   - 金物流
 sites:
@@ -20,14 +21,8 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定購物車啟用與關閉
@@ -45,9 +40,11 @@ prerequisites:
   - 若需使用未結帳提醒功能，請確認方案已開通對應管道（Email、簡訊、LINE OA）
   - 若需使用定期定額購物車設定，請確認已開通定期定額功能（企業版）
 related:
-  - "ec/payments-and-logistics/references/cart-reminder-channels-reference"
-  - "ec/payments-and-logistics/payments/order-settings"
-  - "ec/payments-and-logistics/payments/logistics-settings"
+  - ec/payments-and-logistics/references/cart-reminder-channels-reference/
+  - ec/payments-and-logistics/payments/order-settings/
+  - ec/payments-and-logistics/payments/logistics-settings/
+  - ec/marketing/coupon/setup-promo-codes/
+  - ec/marketing/coupon/multiple-coupons/
 tags:
   - 購物車設定
   - 購物車啟用
@@ -152,10 +149,20 @@ icon: lucide/shopping-cart
 1. **展開區塊：** 點擊「結帳頁優惠券設定」區塊標題展開內容。
 2. **顯示優惠券按鈕：** 開啟後，顧客在結帳頁可看到優惠券按鈕，點擊即可套用優惠券或優惠碼。
 3. **設定每筆可用張數：** 在「每筆訂單可使用優惠券張數」填入數字，上限為 **10 張**。
-4. **(選用)指定自動套用的全館優惠碼：** 在「指定全館優惠碼」設定中填入優惠碼序號，顧客進入結帳頁後系統會自動套用[^coupon-auto]。
+
+    !!! info "" 
+        此數量為優惠券與優惠碼的合併總數，無法分開設定各自的使用上限。
+
+        多張優惠券（碼）併用適用於 **高手 PLUS** 與 **企業**，EC 官網與 POS 系統需分別設定；詳細規則請見[多張優惠券併用設定指南](../../marketing/coupon/multiple-coupons.md){ title="多張優惠券併用設定指南" }。
+
+4. **指定自動套用的全館優惠碼：** 在「指定全館優惠碼」設定中填入優惠碼序號，顧客進入結帳頁且符合優惠條件時，系統會自動套用[^coupon-auto]。
+
+    !!! info ""
+        此功能適用於 **高手 PLUS** 與 **企業**；高手 PLUS 可綁定 1 組優惠碼，企業可綁定至多 5 組。詳細設定方式請見[設定結帳頁自動套用優惠碼](../../marketing/coupon/setup-promo-codes.md#operate-promo-codes-auto-apply){ title="設定結帳頁自動套用優惠碼" }。
+
 5. **完成：** 點擊 **「儲存」** 或 **「送出」** 套用設定。
 
-[^coupon-auto]: 自動套用每筆訂單最多五組，並依您設定的排序與每筆可用張數上限套用；個人專屬優惠券因會員而異，不納入自動套用範圍。若指定的優惠碼失效，將不會自動套用，請記得更新設定。
+[^coupon-auto]: 自動套用數量仍受「每筆訂單可使用優惠券張數」設定限制；個人專屬優惠券不納入自動套用。若指定優惠碼失效，系統不會自動套用。
 
 ![結帳頁優惠券設定](../../../assets/images/ec-cart-settings-coupon.png){ title="結帳頁優惠券設定" }
 

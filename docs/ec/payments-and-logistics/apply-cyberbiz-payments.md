@@ -2,7 +2,7 @@
 title: 申請 CYBERBIZ PAYMENTS
 description: 設定網站、提交商店資訊，並啟用 CYBERBIZ PAYMENTS。
 created: 2026-01-26 00:00
-last_modified: 2026-06-30 16:54
+last_modified: 2026-09-01 11:30
 lang: zh-TW
 type: guide
 author: Jase
@@ -15,20 +15,15 @@ products:
   - EC
 modules:
   - 金物流
+  - 管理中心
 sites:
   - TW
 audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS 
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
+plan_options: []
 cyb_extensions:
   - CYBERBIZ PAYMENTS
 intents:
@@ -36,11 +31,20 @@ intents:
   - 申請金流服務
 features:
   - CYBERBIZ PAYMENTS
+  - 超商代碼繳費
+  - 超商條碼繳費
 prerequisites:
   - 可正常瀏覽的前台網站
   - 可辨識的品牌或公司名稱
   - 至少一項已上架的商品或服務
-related: []
+related:
+  - ec/payments-and-logistics/setup-credit-card-3d-verification/
+  - ec/website-appearance/navigation/setup-menus-navigation/
+  - ec/website-management/setup-store-basic-info/
+  - ec/products/create-and-manage/create-update-products/
+  - ec/website-appearance/pages-and-content/custom-pages/
+  - ec/payments-and-logistics/setup-apple-pay/
+  - ec/payments-and-logistics/setup-aftee/
 tags: []
 acoiv: activate
 apis: []
@@ -49,7 +53,7 @@ devices:
   - mobile
 ui_components: []
 paths:
-  - 金物流 > 金流設定
+  - 管理中心 > 一般設定 > 網站名
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=6174
@@ -94,7 +98,8 @@ hide: []
 | 銀聯卡 | UnionPay |  |
 | 行動支付 | Apple Pay / Google Pay | 與信用卡相同費率，免額外申請 |
 | 先享後付 | AFTEE | 顧客僅需手機驗證即可結帳 |
-| 超商支付 | 7-11 / 全家 | 下單後手機取得條碼，至門市掃碼付款 |
+| 超商條碼 | 7-11 / 全家 | 下單後手機取得條碼，至門市掃碼付款 |
+| 超商代碼 | 7-11 / 全家 / 萊爾富 | 下單後取得繳費代碼，至門市機台列印繳費單後付款 |
 | ATM 轉帳 | 虛擬 ATM | 取得專屬虛擬帳號後，透過網銀或實體 ATM 轉帳付款 |
 
 ---
@@ -269,9 +274,18 @@ flowchart LR
 - :simple-applepay:{ .lg }     
   [__設定 Apple Pay__](setup-apple-pay.md){ title="設定 Apple Pay" }  
   啟用 Apple Pay 支付選項。
+- :lucide-credit-card:{ .lg }     
+  [__設定 Google Pay__](setup-google-pay.md){ title="設定 Google Pay" }  
+  啟用 Google Pay 支付選項。
 - :lucide-clock:{ .lg }     
   [__設定 AFTEE__](setup-aftee.md){ title="設定 AFTEE" }  
   啟用 AFTEE 先享後付支付選項。
+- :lucide-hash:{ .lg }     
+  [__使用超商代碼完成付款__](../orders/order-settings/cvs-code-payment.md){ title="使用超商代碼完成付款" }  
+  啟用超商代碼繳費，顧客至 7-11、全家、萊爾富機台列印繳費單後完成付款。
+- :lucide-barcode:{ .lg }     
+  [__使用超商條碼完成付款__](../orders/order-settings/cvs-barcode-payment.md){ title="使用超商條碼完成付款" }  
+  啟用超商條碼繳費，顧客以手機條碼至 7-11、全家掃碼付款。
 
 </div>
 
@@ -293,7 +307,7 @@ flowchart LR
     3. 重新進入審核流程，等待風控審核。
 
 ??? quote "已開通後，可立即收款嗎？"
-    - 開通後即可使用支援的支付方式收款，包括信用卡、行動支付、超商支付、ATM 轉帳及先享後付。
+    - 開通後即可使用支援的支付方式收款，包括信用卡、行動支付、超商條碼、超商代碼、ATM 轉帳及先享後付。
 
 ??? quote "行動支付需要額外申請嗎？"
     不需要。系統開通 CYBERBIZ PAYMENTS 後，**自動啟用 Google Pay 與 Apple Pay**。手續費通常與信用卡一次付清相同。

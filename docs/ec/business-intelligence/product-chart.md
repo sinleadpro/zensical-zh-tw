@@ -23,6 +23,7 @@ tnb: branch
 plans:
   - 專業
   - 進階
+plan_options: []
 cyb_extensions: []
 intents:
   - 觀察商品瀏覽與購買趨勢
@@ -32,7 +33,9 @@ features:
 prerequisites:
   - 方案需包含「商品圖表」功能
 related:
-  - "ec/business-intelligence/order-analysis"
+  - ec/business-intelligence/references/product-chart-metrics-reference/
+  - ec/business-intelligence/product-analysis/
+  - ec/business-intelligence/basic-chart/
 tags:
   - 商品圖表
   - 瀏覽數

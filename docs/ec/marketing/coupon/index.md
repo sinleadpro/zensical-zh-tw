@@ -12,8 +12,9 @@ ga_views: 0
 feedback: 0
 products: 
   - EC
-modules: 
+modules:
   - 行銷活動
+  - 金物流
 sites: 
   - TW
 audiences: 
@@ -21,6 +22,7 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents: 
   - 了解優惠券與優惠碼的差異
@@ -29,9 +31,19 @@ features:
   - 優惠券
   - 優惠碼
 prerequisites: []
-related: 
-  - "ec/marketing/coupon/setup-coupons"
-  - "ec/marketing/coupon/setup-promo-codes"
+related:
+  - ec/marketing/bonus-and-gifts/setup-registration-gift/
+  - ec/marketing/bonus-and-gifts/setup-birthday-gift/
+  - ec/marketing/bonus-and-gifts/limited-time-first-purchase-gift/
+  - ec/marketing/other-tools/interactive-games/
+  - ec/marketing/conditional-send/send-coupons-for-specific-products/
+  - ec/marketing/coupon/setup-coupons/
+  - ec/marketing/coupon/setup-promo-codes/
+  - ec/marketing/coupon/free-shipping-coupon-spec/
+  - ec/marketing/coupon/gift-coupon-spec/
+  - ec/marketing/coupon/multiple-coupons/
+  - ec/marketing/references/coupon-and-bonus-credit-rules/
+  - ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification/
 tags: 
   - 優惠券
   - 優惠碼
@@ -44,9 +56,8 @@ devices:
 ui_components: 
   - 結帳頁面
   - 會員中心
-paths: 
-  - 行銷活動 > 優惠券設定
-  - 行銷活動 > 優惠碼設定
+paths:
+  - 金物流 > 結帳頁 & 物流設定
 layouts: []
 wp_url: []
 permalink: "https://help.cyberbiz.io/ec/marketing/coupon/"
@@ -167,13 +178,18 @@ hide: []
 
 <div class="grid cards" markdown>
 
-- :lucide-ticket:{ .lg }
-  [__優惠券（碼）與紅利點數到期通知__](../purchase-restrictions/coupon-and-bonus-points-expiry-notification.md)
-  設定系統自動發送 Email、簡訊或 LINE 通知，提醒顧客及時使用即將到期的優惠券與紅利點數。
 
 - :lucide-hash:{ .lg }
   [__多優惠券（碼）__](multiple-coupons.md)
   設定單筆訂單可使用的優惠券（碼）數量上限，並了解多重折扣的折抵邏輯。
+
+- :lucide-wallet:{ .lg }
+  [__查看優惠券／紅利歸戶規則__](../references/coupon-and-bonus-credit-rules.md)
+  了解優惠券發送至會員帳戶的歸戶規則，以及訂單結案與退貨狀態對歸戶的影響。
+
+- :lucide-ticket:{ .lg }
+  [__優惠券（碼）與紅利點數到期通知__](../purchase-restrictions/coupon-and-bonus-points-expiry-notification.md)
+  設定系統自動發送 Email、簡訊或 LINE 通知，提醒顧客及時使用即將到期的優惠券與紅利點數。
 
 </div>
 

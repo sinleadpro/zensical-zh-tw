@@ -20,12 +20,13 @@ audiences:
 difficulty: ""
 tnb: ""
 plans: []
+plan_options: []
 cyb_extensions: []
 intents: []
 features: []
 prerequisites: []
 related:
-  - "ec/website-appearance/code-customization/text-editor"
+  - ec/website-appearance/code-customization/text-editor/
 tags:
   - 文字編輯器
   - 斜線指令

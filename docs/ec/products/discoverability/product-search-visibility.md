@@ -5,10 +5,8 @@ author: Jase
 reviewers: []
 acoiv: configure
 paths:
-  - 管理後台 > 商品 > 所有商品
-  - 管理後台 > 商品 > Excel 大量匯入商品
-  - 管理後台 > 商品 > 新增與更新商品
-  - 管理後台 > 商品 > 所有商品 > 操作選單
+  - 商品 > 所有商品
+  - 商品 > Excel 大量匯入商品
 devices:
   - desktop
   - mobile
@@ -29,6 +27,7 @@ features:
   - 常見問題
 tnb: trunk
 plans: []
+plan_options: []
 prerequisites:
   - 登入 CYBERBIZ 電商後台
 lang: zh-TW

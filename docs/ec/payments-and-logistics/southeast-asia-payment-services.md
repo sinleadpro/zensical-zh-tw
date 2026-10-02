@@ -21,8 +21,9 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - Business
   - Pro
+  - Business
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定東南亞信用卡支付
@@ -45,7 +46,6 @@ devices:
 ui_components: []
 paths:
   - 金物流 > 金流設定
-  - Fiuu 管理後台
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=37692

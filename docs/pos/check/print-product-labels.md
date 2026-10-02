@@ -25,6 +25,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 如何從POS前台列印標籤
@@ -39,7 +40,7 @@ features:
 prerequisites:
   - "標籤機安裝與後台列印教學"
 related:
-  - "標籤機安裝與後台列印教學"
+  - pos/hardware/label-printer/
 tags:
   - POS 前台
   - 標籤列印

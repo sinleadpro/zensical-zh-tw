@@ -21,11 +21,12 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 企業
   - 進階
-  - 進階PLUS
   - 高手
+  - 進階PLUS
   - 高手PLUS
+  - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 如何設定商品加價購
@@ -34,7 +35,8 @@ features:
   - 商品加價購
 prerequisites:
   - 設定商品標籤
-related: []
+related:
+  - ec/products/categories-and-tags/manage-product-tags/
 tags:
   - 加價購
   - 商品加價購

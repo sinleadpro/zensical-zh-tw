@@ -22,6 +22,7 @@ difficulty: intermediate
 tnb: branch
 plans:
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 如何發送 LINE 加入好友邀請
@@ -38,7 +39,7 @@ features:
 prerequisites:
   - LINE 官方帳號
 related:
-  - ../integrations/line/account-integration/setup-line-binding-coupon-gift.md
+  - ec/integrations/line/account-integration/setup-line-binding-coupon-gift/
 tags:
   - LINE
   - 好友邀請

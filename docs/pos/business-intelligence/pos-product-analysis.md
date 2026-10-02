@@ -26,6 +26,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 查看 POS 商品銷售排名
@@ -39,9 +40,10 @@ prerequisites:
   - 已開通並使用 CYBERBIZ POS
   - 方案需包含圖表分析功能
 related:
-  - "ec/business-intelligence/omo-analysis-report"
-  - "ec/business-intelligence/product-chart"
-  - "ec/business-intelligence/order-analysis"
+  - pos/business-intelligence/references/pos-product-metrics-reference/
+  - ec/business-intelligence/omo-analysis-report/
+  - ec/business-intelligence/product-chart/
+  - ec/business-intelligence/order-analysis/
 tags:
   - POS
   - 商品分析

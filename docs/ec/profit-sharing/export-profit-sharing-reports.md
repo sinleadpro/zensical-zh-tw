@@ -2,7 +2,7 @@
 title: 匯出分潤報表
 description: 透過分潤報表，您可以精確統計各類推廣對象的業績成效與應分潤金額。系統提供「結案後」的正式報表，以及「結案前」的即時訂單覽表。
 created: 2026-02-06 00:00
-last_modified: 2026-06-04 17:59
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -15,6 +15,8 @@ products:
   - POS
 modules:
   - 行銷活動
+  - 分潤
+  - 訂單
 sites:
   - TW
 audiences:
@@ -28,6 +30,9 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - standard
+  - optional
 cyb_extensions: []
 intents:
   - 匯出分潤報表
@@ -49,7 +54,6 @@ devices:
 ui_components: []
 paths:
   - 分潤 > 分潤報表
-  - 分潤 > 分潤查詢
   - 訂單 > 訂單報表匯出
 layouts: []
 wp_url:

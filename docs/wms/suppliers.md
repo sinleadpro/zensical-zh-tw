@@ -15,12 +15,14 @@ products:
   - WMS
 modules:
   - 供應商
+  - 商品
 sites:
   - TW
 audiences: []
 difficulty: ""
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 建立供應商帳號
@@ -45,7 +47,7 @@ ui_components:
   - 供應商編輯頁面
   - 商品編輯頁面
 paths:
-  - 供應商
+  - 商品 > 單一品項
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7975

@@ -26,6 +26,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 intents:
   - 查看全店營收表現
   - 分析營收趨勢與獲利狀況

@@ -2,7 +2,7 @@
 title: 紅利商城 (EC)
 description: 建立專屬的線上紅利兌換商城，設定商品兌換所需點數，透過紅利積點機制提升會員回訪與品牌忠誠度。
 created: 2026-01-21 00:00
-last_modified: 2026-06-30 10:56
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -15,6 +15,7 @@ products:
   - EC
 modules:
   - 行銷活動
+  - 金物流
 sites:
   - TW
 audiences:
@@ -26,6 +27,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions: []
 intents:
   - 建立紅利商城
@@ -38,7 +41,8 @@ features:
 prerequisites:
   - 需先於「全館折扣 > 紅利 & 優惠券」開啟會員紅利點數功能
   - 需先建立欲參與兌換的商品
-related: []
+related:
+  - pos/check/bonus-point-mall/
 tags:
   - 行銷活動
   - 會員經營
@@ -52,7 +56,9 @@ devices:
 ui_components: []
 paths:
   - 行銷活動 > 紅利商城
-layouts: []
+  - 金物流 > 結帳頁 & 物流設定 > 訂單相關設定
+layouts:
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7880
   - https://www.cyberbiz.io/helpcenter/?p=7882
@@ -129,7 +135,7 @@ hide: []
 
         ![](../../../assets/images/EC-後台-行銷活動-紅利商城-選擇EC商品01.png)
     
-    5.於 **選擇商品** 頁籤，捲動至下方的 **已選取的商品** 區塊。
+    5. 於 **選擇商品** 頁籤，捲動至下方的 **已選取的商品** 區塊。
     6. 在 **紅利點數** 欄位中，輸入該商品兌換所需的點數數值（系統預設會帶入商品原價）。
     7. 按下 **Enter** 或點擊空白處，系統將自動儲存設定。
 

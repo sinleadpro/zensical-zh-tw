@@ -19,6 +19,7 @@ audiences:
 difficulty: beginner
 tnb: ""
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 使用_Jam_回報操作問題

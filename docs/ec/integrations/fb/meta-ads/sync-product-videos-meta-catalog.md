@@ -25,6 +25,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 同步商品影片
@@ -34,10 +35,12 @@ features:
   - Meta 目錄
   - CPV 廣告
 prerequisites:
-  - "ec/products/create-and-manage/setup-product-videos"
-  - "ec/integrations/fb/mbe/setup-fbe-authorization"
+  - ec/products/create-and-manage/setup-product-videos/
+  - ec/integrations/fb/mbe/setup-fbe-authorization/
 related:
-  - "ec/integrations/fb/meta-ads/setup-meta-ad-campaign"
+  - ec/integrations/fb/meta-ads/setup-meta-ad-campaign/
+  - ec/products/create-and-manage/setup-product-videos/
+  - ec/integrations/fb/mbe/setup-fbe-authorization/
 tags:
   - Meta 目錄
   - 商品影片

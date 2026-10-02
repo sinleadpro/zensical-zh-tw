@@ -27,6 +27,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 申請_LINE_直播
@@ -36,7 +37,9 @@ features:
   - LINE 直播
   - LINE 購物
 prerequisites: []
-related: []
+related:
+  - ec/integrations/line/account-integration/bind-line-oa-store-members/
+  - ec/products/bulk-operations/excel-import-products/
 tags:
   - LINE 直播
   - LINE OA
@@ -48,7 +51,8 @@ devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
+paths:
+  - 第三方整合 > LINE購物設定 > 頁面下半部 「LINE OA 導購」 區塊
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7458
@@ -60,8 +64,6 @@ search:
 icon: lucide/radio
 hide: []
 ---
-
-![LINE 直播功能](../../../assets/images/ec-第三方整合-line購物設定-lineoa導購-hero.png){ title="LINE 直播功能" .hero-page }
 
 ## LINE 直播說明
 

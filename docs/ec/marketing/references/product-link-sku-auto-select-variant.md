@@ -24,6 +24,7 @@ difficulty: beginner
 tnb: branch
 plans: 
   - 企業
+plan_options: []
 cyb_extensions: []
 intents: 
   - 商品連結自動選款式
@@ -36,8 +37,8 @@ features:
 prerequisites:
   - 商品各款式已填寫商品編號(SKU)
 related:
-  - "[[create-cart-link-specific-products]]"
-  - "[[create-update-products]]"
+  - ec/marketing/references/create-cart-link-specific-products/
+  - ec/products/create-and-manage/create-update-products/
 tags: []
 acoiv: configure
 apis: []

@@ -21,6 +21,7 @@ audiences: []
 difficulty: ""
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 手動更新收貨狀態
@@ -32,7 +33,10 @@ features:
 prerequisites:
   - 需已開通 CYBERBIZ 電商倉儲服務
   - 僅限超商出貨訂單
-related: []
+related:
+  - ec/orders/order-return-process/
+  - wms/returns-and-vehicle-dispatch/
+  - ec/orders/order-refund-process/
 tags:
   - WMS
   - 手動收貨

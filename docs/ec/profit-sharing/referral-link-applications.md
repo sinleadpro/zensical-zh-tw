@@ -1,8 +1,8 @@
 ---
 title: 推薦碼連結的應用
-description: 取得推薦碼後，您可以透過製作短網址、QR Code 或設置 UTM 參數，將推薦連結整合至各種行銷管道（如 FB、IG、LINE 或實體文宣），並精確追蹤不同來源的導購成效。
+description: 為指定頁面建立分潤推薦連結，並透過短網址、QR Code 或 UTM 參數應用於社群、實體文宣與廣告等推廣管道，追蹤不同來源的導購成效。
 created: 2026-02-06 00:00
-last_modified: 2026-06-30 10:52
+last_modified: 2026-10-01 11:30
 lang: zh-TW
 type: guide
 author: Ann
@@ -14,7 +14,7 @@ products:
   - EC
   - POS
 modules:
-  - 行銷活動
+  - 分潤
 sites:
   - TW
 audiences:
@@ -22,9 +22,15 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 企業
   - 進階
   - 高手
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
+plan_options: 
+  - standard
+  - optional
 cyb_extensions: []
 intents:
   - 製作推薦連結
@@ -35,7 +41,9 @@ features:
   - 推薦人分潤
   - UTM 追蹤
 prerequisites: []
-related: []
+related: 
+  - ec/profit-sharing/query-profit-sharing-partners-and-codes/
+  - ec/marketing/one-page-store/one-page-store/
 tags:
   - 推薦連結
   - QR Code
@@ -63,20 +71,15 @@ hide: []
 ---
 # 推薦碼連結的應用
 
-取得推薦碼後，您可以透過製作短網址、QR Code 或設置 UTM 參數，將推薦連結整合至各種行銷管道（如 FB、IG、LINE 或實體文宣），並精確追蹤不同來源的導購成效。
+為指定頁面建立分潤推薦連結，並透過短網址、QR Code 或 UTM 參數應用於社群、實體文宣與廣告等推廣管道，追蹤不同來源的導購成效。
 { .subtitle }
 
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 品牌官網 / 智能 POS
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 所有PLUS / 企業
 { .doc-badge }
 
-!!! tip "應用情境"
-	- **社群媒體推廣**：將長網址縮短後放入 IG 資訊欄或 FB 貼文，美化視覺並增加點擊率。
-	- **實體活動引流**：製作專屬 QR Code 印刷於店內海報或商品吊牌，導引顧客掃碼領取優惠。
-	- **精準廣告追蹤**：透過 UTM 參數區分不同網紅（KOL）或不同廣告版位的轉單成效。
 
-
-## 什麼是推薦碼連結
+## 什麼是推薦碼連結 { #referral-link-applications-definition }
 
 推薦碼連結是指在官網網址後方嵌入專屬「推薦碼（rcode）」參數的特殊連結。
 
@@ -84,41 +87,88 @@ hide: []
 - **自動帶入**：當透過連結結帳時，系統會自動將推薦碼帶入欄位，無需消費者手動輸入。
 
 
-## 操作流程
+## 為指定頁面建立分潤推薦連結 { #referral-link-applications-specific-page }
 
-### 步驟 1：取得並加工推薦碼連結
+若要將消費者導向官網的特定商品頁、活動頁或一頁式商店，可在目標網址中加入推薦碼，建立對應的分潤推薦連結。
 
-在開始推廣前，請先從後台複製帶有推薦碼的原始連結。
+### 取得推薦碼 { #referral-link-applications-get-code }
 
-1. 登入 CYBERBIZ 管理後台，前往 **分潤 > 分潤查詢**。
-2. 搜尋並點選目標夥伴，找到其專屬的 **分潤代碼/連結**。
-3. 點選連結旁的 **複製分享連結** 圖示。
-4. 根據推廣需求進行以下應用製作：
+製作連結前，請先查詢並取得分潤夥伴的推薦碼：
 
-    === "產生短網址"
+<div class="grid cards" markdown>
 
-        若連結過長不便於社群分享，可使用外部短網址工具。
+- :lucide-copy:{ .lg }
+  [__一鍵複製推薦碼__](query-profit-sharing-partners-and-codes.md#任務三一鍵複製推薦碼)<br>
+  前往 **分潤 > 推薦人分潤 > 第三方總表**，點擊複製圖示取得推薦人的推薦碼。
 
-        - **步驟**：將複製的 **完整推薦連結** 貼入工具產出。
-        - **注意**：絕對不可先縮短網址再手動拼接推薦碼。
+</div>
 
-    === "產生 QR Code"
+### 製作方式 { #referral-link-applications-create-link }
 
-        適用於線下印刷或直播畫面。
-
-        - **步驟**：將連結貼入任何 QR Code 產生器，即可生成對應圖像。
-        - **應用**：建議將 QR Code 放置於結帳櫃檯、包裹隨附小卡或雜誌廣告中。
-
-    === "設置 UTM 參數"
-
-        用於區分同一個推薦人在不同管道的表現。
-
-        - **手動設定規則**：在推薦連結（如 `.../?rcode=xxx`）後方加上 `&` 符號，接著填入 UTM 參數。
-        - **正確範例**：`https://.../?rcode=xxx&utm_medium=fb&utm_source=kol_a`
-        - **錯誤範例**：`https://.../?rcode=xxx?utm_medium=fb`（不可使用兩個問號）
+- **原始網址**：`https://store.com/xxx/yyy`
+- **推薦碼後綴格式**：`?rcode=[推薦碼]`
+- **推薦碼**：`abc123`
+- **最終連結**：`https://store.com/xxx/yyy?rcode=abc123`
 
 
-### 步驟 2：測試推薦連結有效性
+### 情境範例 { #referral-link-applications-example }
+
+[一頁式商店](../marketing/one-page-store/one-page-store.md)可結合分潤功能，透過製作帶有推薦碼的網址，當消費者點擊含推薦碼之連結後，系統將自動於購物車帶入推薦碼。
+
+- **原始網址**：`https://store.com/events/spring-sale`
+- **推薦碼後綴格式**：`?rcode=[推薦碼]`
+- **推薦碼**：`abc123`
+- **最終連結**：`https://store.com/events/spring-sale?rcode=abc123`
+
+
+
+## 加工推薦碼連結 { #referral-link-applications-processing }
+
+在開始推廣前，請先從後台複製帶有推薦碼的原始連結，系統提供以下查詢方式：
+
+<div class="grid cards" markdown>
+
+- :lucide-search:{ .lg }
+  [__查詢合作夥伴的分潤資訊__](query-profit-sharing-partners-and-codes.md#任務一查詢合作夥伴的分潤資訊)<br>
+  適合查詢特定合作夥伴參與的分潤方案、分潤比例與推薦碼。
+
+- :lucide-user-round-search:{ .lg }
+  [__員工自我查詢分潤資訊__](query-profit-sharing-partners-and-codes.md#任務二員工自我查詢分潤資訊)<br>
+  適合內部員工查詢所屬的分潤方案，取得個人推廣連結。
+
+- :lucide-copy:{ .lg }
+  [__一鍵複製推薦碼__](query-profit-sharing-partners-and-codes.md#任務三一鍵複製推薦碼)<br>
+  適合從第三方推薦人名單快速取得合作夥伴的推薦碼。
+
+</div>
+
+### 製作方式 { #referral-link-applications-processing-methods }
+
+
+=== "產生短網址"
+
+    若連結過長不便於社群分享，可使用外部短網址工具。
+
+    - **步驟**：將複製的 **完整推薦連結** 貼入工具產出。
+    - **注意**：絕對不可先縮短網址再手動拼接推薦碼。
+
+=== "產生 QR Code"
+
+    適用於線下印刷或直播畫面。
+
+    - **步驟**：將連結貼入任何 QR Code 產生器，即可生成對應圖像。
+    - **應用**：建議將 QR Code 放置於結帳櫃檯、包裹隨附小卡或雜誌廣告中。
+
+=== "設置 UTM 參數"
+
+    用於區分同一個推薦人在不同管道的表現。
+
+    - **手動設定規則**：在推薦連結（如 `.../?rcode=xxx`）後方加上 `&` 符號，接著填入 UTM 參數。
+    - **正確範例**：`https://.../?rcode=xxx&utm_medium=fb&utm_source=kol_a`
+    - **錯誤範例**：`https://.../?rcode=xxx?utm_medium=fb`（不可使用兩個問號）
+
+
+## 測試推薦連結有效性 { #referral-link-applications-testing }
 
 在正式發布連結前，請務必依以下步驟測試追蹤功能是否正常。
 
@@ -132,7 +182,7 @@ hide: []
 
 
 
-## 常見問題
+## 常見問題 { #referral-link-applications-faq }
 
 ??? quote "為什麼我縮短網址後，推薦碼就失效了？"
     通常是因為您在縮網址工具中輸入的是 **不含推薦碼的官網首頁網址**。請務必確認縮網址工具的輸入來源是包含 `?rcode=...` 的完整字串。

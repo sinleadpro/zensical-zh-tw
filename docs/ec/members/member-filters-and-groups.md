@@ -2,7 +2,7 @@
 title: 篩選器與會員分群
 description: 透過多維度條件精準鎖定目標客群，建立分眾名單以進行高效再行銷。
 created: 2026-05-28 10:15
-last_modified: 2026-05-28 10:20
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -12,8 +12,9 @@ notes:
   - 內部連結
 ga_views: 0
 feedback: 0
-products: 
+products:
   - EC
+  - POS
 modules: 
   - 會員
 sites: 
@@ -23,6 +24,9 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans: []
+plan_options: 
+  - standard
+  - optional
 cyb_extensions: []
 intents: 
   - 篩選會員
@@ -35,7 +39,8 @@ features:
   - 智慧篩選
   - 會員標籤
 prerequisites: []
-related: []
+related:
+  - ec/website-management/customer-registration-flow-and-fields/
 tags: 
   - 會員管理
   - 會員篩選

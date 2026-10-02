@@ -28,6 +28,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - LINE 會員綁定
@@ -49,11 +50,13 @@ features:
   - 歡迎訊息整合
   - LINE OA 加入好友邀請
 prerequisites:
-  - "ec/integrations/line/account-integration/connect-line-messaging-api"
-  - "ec/integrations/line/account-integration/bind-line-oa-store-members"
+  - ec/integrations/line/account-integration/connect-line-messaging-api/
+  - ec/integrations/line/account-integration/bind-line-oa-store-members/
 related:
-  - "ec/integrations/line/marketing/setup-line-rich-menu"
-  - "ec/notifications/send-line-friend-invitation"
+  - ec/integrations/line/account-integration/connect-line-messaging-api/
+  - ec/integrations/line/account-integration/bind-line-oa-store-members/
+  - ec/integrations/line/marketing/setup-line-rich-menu/
+  - ec/notifications/send-line-friend-invitation/
 tags:
   - LINE
   - 優惠券

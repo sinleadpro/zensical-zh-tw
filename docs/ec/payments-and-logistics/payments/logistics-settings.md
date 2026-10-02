@@ -20,14 +20,8 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定超商取貨姓名規範與離島配送
@@ -46,10 +40,11 @@ prerequisites:
   - 若需使用進階指定配送功能，請確認已啟用「進階指定配送」(PLUS版以上或企業版)
   - 若需使用退貨時間調整設定，請確認已啟用對應功能
 related:
-  - "ec/payments-and-logistics/payments/cart-settings"
-  - "ec/payments-and-logistics/payments/order-settings"
-  - "ec/orders/order-settings/shipping-detail-print"
-  - "ec/payments-and-logistics/references/return-eligible-days-reference"
+  - ec/marketing/other-tools/subscription-campaign-page/
+  - ec/orders/order-settings/shipping-detail-print/
+  - ec/payments-and-logistics/references/return-eligible-days-reference/
+  - ec/payments-and-logistics/payments/cart-settings/
+  - ec/payments-and-logistics/payments/order-settings/
 tags:
   - 物流設定
   - 超商取貨
@@ -150,8 +145,11 @@ hide: []
 3. **設定備貨天數：** 在「顧客指定配送日期時，只能選擇下單日後特定天數」填入備貨天數(最多 90 天)[^prepare-day]。
 4. **設定進階規則：** 設定 **每週固定日期不出貨** 與 **特定日期不出貨**。
 
-    !!! info "適用版本"
-        進階規則適用進階(PLUS)、高手(PLUS)、企業版。
+    !!! info "進階規則適用版本"
+        - **每週固定日期不出貨**：適用 PLUS、企業版。
+        - **特定日期不出貨**：適用進階(含 PLUS)、高手(含 PLUS)、企業版。
+
+            > 若您為 **專業 PLUS** 且選配 [定期定額功能](../../marketing/other-tools/subscription-campaign-page.md)，系統會一併開放 **特定日期不出貨** 功能。
 
 
 [^prepare-day]: 例：備貨天數設為 2 天，顧客於 1/1 下單時，最早可選 1 / 3 之後的配送日(不含 1 / 3 當天)。

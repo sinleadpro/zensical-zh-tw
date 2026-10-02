@@ -15,6 +15,7 @@ products:
 modules:
   - 所有POS商店
   - 結帳
+  - 訂單
 sites:
   - TW
 audiences:
@@ -26,6 +27,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 啟用訪客結帳
@@ -35,7 +37,8 @@ features:
   - POS 訪客結帳
   - 預設訪客帳號
 prerequisites: []
-related: []
+related:
+  - pos/check/
 tags:
   - POS 訪客
   - 不加入會員結帳
@@ -52,7 +55,7 @@ ui_components:
   - 會員查詢
 paths:
   - POS 功能 > 所有 POS 商店
-  - POS 前台 > 登入頁面
+  - 訂單 > 所有訂單
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=12638

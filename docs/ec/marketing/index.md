@@ -2,6 +2,7 @@
 author: ""
 reviewers: []
 products: [EC]
+plan_options: []
 notes: []
 title: 行銷活動
 description: 提升商店曝光與銷售，管理行銷活動、優惠策略與顧客互動。
@@ -103,6 +104,14 @@ hide:
     透過紅利點數建立會員回饋機制，吸引新客首購並提升舊客回購率。
 
     [:octicons-arrow-right-24: 前往](bonus-and-gifts/setup-bonus-points.md)
+
+-   :lucide-wallet: __優惠券／紅利歸戶規則__
+
+    ---
+
+    說明消費回饋的優惠券與紅利何時入帳，以及結案、退貨狀態對歸戶的影響。
+
+    [:octicons-arrow-right-24: 前往](references/coupon-and-bonus-credit-rules.md)
 
 -   :lucide-store: __紅利商城 (EC)__
 

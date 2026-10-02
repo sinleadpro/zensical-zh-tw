@@ -27,6 +27,7 @@ plans:
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
+plan_options: []
 cyb_extensions:
   - CYBERBIZ PAYMENTS
 intents: 
@@ -39,9 +40,7 @@ features:
   - CYBERBIZ PAYMENTS
 prerequisites: 
   - "需開通 CYBERBIZ PAYMENTS 金流服務"
-related: 
-  - "對帳中心管理指南"
-  - "ec/website-management/auto-deduction-of-arrears"
+related: []
 tags: 
   - 自動對帳
   - 撥款流程

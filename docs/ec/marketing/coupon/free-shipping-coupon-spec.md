@@ -20,11 +20,12 @@ audiences:
     - merchant
 difficulty: beginner
 tnb: branch
-plans: 
-    - 專業PLUS
-    - 進階PLUS
-    - 高手PLUS
-    - 企業
+plans:
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
+plan_options: []
 cyb_extensions: []
 intents: 
     - 瞭解免運券規格
@@ -34,13 +35,14 @@ features:
     - 免運券
     - 優惠券
     - 紅利商城
-prerequisites: 
-    - "ec/marketing/coupon/setup-coupons"
-    - "ec/marketing/coupon/setup-promo-codes"
-related: 
-    - "ec/marketing/coupon/setup-coupons"
-    - "ec/marketing/coupon/setup-promo-codes"
-    - "ec/marketing/coupon/multiple-coupons"
+prerequisites:
+  - ec/marketing/coupon/setup-coupons/
+  - ec/marketing/coupon/setup-promo-codes/
+related:
+  - ec/members/manage-member-profiles/
+  - ec/marketing/coupon/setup-promo-codes/
+  - ec/marketing/references/coupon-and-bonus-credit-rules/
+  - ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification/
 tags: 
     - 免運券
     - 優惠券
@@ -112,3 +114,16 @@ hide: []
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/免運券05.png){ .screenshot }
 
+## 更多操作
+
+<div class="grid cards" markdown>
+
+- :lucide-wallet:{ .lg }
+  [__查看優惠券／紅利歸戶規則__](../references/coupon-and-bonus-credit-rules.md)
+  了解優惠券發送至會員帳戶的歸戶規則，以及訂單結案與退貨狀態對歸戶的影響。
+
+- :lucide-ticket:{ .lg }
+  [__優惠券（碼）與紅利點數到期通知__](../purchase-restrictions/coupon-and-bonus-points-expiry-notification.md)
+  設定系統自動發送 Email、簡訊或 LINE 通知，提醒顧客及時使用即將到期的優惠券與紅利點數。
+
+</div>

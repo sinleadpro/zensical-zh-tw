@@ -11,16 +11,17 @@ notes: []
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - WMS
 modules:
   - 電商倉儲
+  - 訂單
 sites:
   - TW
 audiences: []
 difficulty: ""
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 查看訂單狀態

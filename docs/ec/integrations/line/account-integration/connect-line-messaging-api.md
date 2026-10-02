@@ -24,6 +24,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 如何串接 LINE Messaging API
@@ -43,8 +44,8 @@ prerequisites:
   - 配置服務提供者 (Provider)
   - 取得頻道憑證 (Channel Credentials)
 related:
-  - ../../../notifications/manage-line-oa-templates.md
-  - bind-line-oa-store-members.md
+  - ec/notifications/manage-line-oa-templates/
+  - ec/integrations/line/account-integration/bind-line-oa-store-members/
 tags:
   - LINE
   - Messaging API
@@ -59,7 +60,8 @@ devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
+paths:
+  - 第三方整合 > LINE OA 設定
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5855

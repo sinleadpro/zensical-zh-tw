@@ -21,14 +21,8 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 批次更新商品資訊
@@ -40,8 +34,10 @@ features:
   - 配送設定批次修改
 prerequisites: []
 related:
-  - "ec/products/bulk-operations/excel-import-products"
-  - "ec/products/create-and-manage/edit-product-description-settings"
+  - ec/products/create-and-manage/product-management-interface/
+  - ec/products/create-and-manage/edit-product-description-settings/
+  - ec/products/bulk-operations/excel-import-products/
+  - ec/products/shipping/setup-product-shipping-conditions/
 tags:
   - 批次修改
   - Excel 匯入
@@ -59,9 +55,9 @@ ui_components:
   - 操作選單
 paths:
   - 商品 > 所有商品
+  - 商品 > 所有商品 > 點擊特定商品 >「商品描述」頁籤
   - 商品 > Excel 大量匯入商品
-layouts:
-  - classic
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9397
   - https://www.cyberbiz.io/support/?p=44199
@@ -140,13 +136,13 @@ hide: []
 #### 商品溫層
 - 請輸入 `常溫`、`冷藏` 或 `冷凍`。
 - 留空表示 **預設為常溫**。
-- 可複選多溫層，輸入時請使用 **英文逗號** 分隔，例如：常溫、冷藏、冷凍。
+- 可複選多溫層，輸入時請使用 **英文逗號** 分隔，例如：`常溫,冷藏,冷凍`。
 
 ---
 
 #### 商品運送名稱
 - 請輸入配送物流名稱。請勿輸入後台未設定的物流名稱。
-- 可複選多物流配送，輸入時請使用 **英文逗號** 分隔，例如：黑貓、宅配通。
+- 可複選多物流配送，輸入時請使用 **英文逗號** 分隔，例如：`黑貓,宅配通`。
 - 留空表示 **適用全部配送方式**。
 
 ## 上傳 Excel 檔案

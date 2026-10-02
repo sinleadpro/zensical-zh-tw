@@ -15,6 +15,7 @@ products:
   - EC
 modules:
   - 金物流
+  - 管理中心
 sites:
   - TW
 audiences:
@@ -25,6 +26,7 @@ plans:
   - 專業
   - 進階
   - 高手
+plan_options: []
 cyb_extensions: []
 intents:
   - 申請 ezShip 會員
@@ -46,6 +48,7 @@ devices:
   - desktop
 ui_components: []
 paths:
+  - 管理中心 > 顧客註冊設定 > 顧客註冊欄位設定
   - 金物流 > 超商物流 > ezShip 台灣便利配
 layouts: []
 wp_url:

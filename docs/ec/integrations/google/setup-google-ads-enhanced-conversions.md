@@ -22,6 +22,7 @@ difficulty: advanced
 tnb: branch
 plans:
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定 Google Ads 強化轉換
@@ -31,7 +32,7 @@ features:
   - Google Ads 強化轉換
   - 轉換追蹤優化
 prerequisites:
-  - "ec/integrations/google/setup-google-ads-conversion-tracking"
+  - ec/integrations/google/setup-google-ads-conversion-tracking/
 tags:
   - Google Ads
   - 強化轉換

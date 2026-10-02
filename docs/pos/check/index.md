@@ -14,6 +14,7 @@ products:
   - POS
 modules:
   - POS 前台
+  - 行銷活動
 sites:
   - TW
 audiences:
@@ -24,6 +25,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - POS 結帳流程
@@ -36,7 +38,30 @@ features:
   - 行銷活動
   - 發票管理
 prerequisites: []
-related: []
+related:
+  - pos/check/guest-checkout/
+  - pos/check/offline-checkout-mode/
+  - ec/profit-sharing/registrant-profit-sharing/
+  - pos/check/low-stock-notifications/
+  - ec/marketing/bonus-and-gifts/setup-bonus-points/
+  - ec/marketing/coupon/setup-promo-codes/
+  - ec/marketing/coupon/setup-coupons/
+  - ec/marketing/coupon/multiple-coupons/
+  - ec/profit-sharing/referrer-profit-sharing/
+  - pos/check/storewide-order-discounts/
+  - pos/check/pos-manager-price-override/
+  - ec/marketing/upsells/setup-order-upsell/
+  - ec/marketing/upsells/setup-product-upsell/
+  - ec/marketing/discounts/threshold-gifts-and-quantity-gifts/
+  - pos/check/bonus-point-mall/
+  - pos/inventory/pos-reports-list-guide/
+  - pos/check/payment-method/
+  - pos/check/payment-method/multiple-payment-methods/
+  - pos/orders/manage-general-orders/
+  - pos/check/print-invoice-details/
+  - pos/check/mixed-tax-invoices/
+  - ec/orders/reports/export-order-report/
+  - pos/inventory/
 tags:
   - 結帳流程
   - POS 前台
@@ -54,7 +79,7 @@ ui_components:
   - 行銷活動
   - 會員載具
 paths:
-  - POS 前台 > 結帳
+  - 行銷活動 > 全館折扣 – 紅利 & 優惠券
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=5012

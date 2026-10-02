@@ -12,6 +12,7 @@ ga_views: 0
 feedback: 0
 products:
   - EC
+  - POS
 modules:
   - 分析報表
 sites:
@@ -22,6 +23,7 @@ difficulty: intermediate
 tnb: branch
 plans:
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 進行基準化分析
@@ -38,9 +40,7 @@ features:
 prerequisites:
   - 方案為企業版
   - 所屬產業為支援類別
-related:
-  - "ec/business-intelligence/business-intelligence-overview"
-  - "ec/business-intelligence/references/benchmark-reference-range-status-reference"
+related: []
 tags:
   - 基準化分析
   - AI 機器學習

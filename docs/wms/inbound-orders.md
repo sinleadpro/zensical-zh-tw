@@ -20,6 +20,7 @@ audiences: []
 difficulty: ""
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 建立實體進貨預約
@@ -33,7 +34,8 @@ prerequisites:
   - 需已開通 CYBERBIZ 電商倉儲服務
   - 商品主檔需先建立完成
   - 若需指定效期，商品需先設定原始效期
-related: []
+related:
+  - wms/merchant-inbound-operation-rules/
 tags:
   - 入庫管理
   - 標籤列印

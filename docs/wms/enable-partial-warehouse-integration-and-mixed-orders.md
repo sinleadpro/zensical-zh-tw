@@ -16,8 +16,8 @@ notes:
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - WMS
+  - EC
 modules:
   - 訂單
   - 商品
@@ -33,6 +33,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定混合物流
@@ -46,7 +47,16 @@ features:
 prerequisites:
   - 需已開通 CYBERBIZ 電商倉儲服務
   - 需聯繫開店顧問或客服開通「部分串倉」功能
-related: []
+related:
+  - wms/enable-partial-warehouse-integration-and-order-splitting/
+  - ec/products/bulk-operations/set-product-shipping-method/
+  - ec/orders/cvs-shipping/cvs-partial-shipment/
+  - ec/orders/home-delivery/partial-shipment-v2/
+  - ec/orders/basics/order-management-interface/
+  - ec/orders/order-return-process/
+  - wms/return-orders/
+  - ec/orders/member-return-request-feature/
+  - wms/logistics-settings-reference/
 tags:
   - 合併結帳
 acoiv: configure
@@ -59,8 +69,7 @@ ui_components:
   - 訂單列表篩選器
   - 商品列表篩選器
 paths:
-  - 金物流 > 宅配物流
-  - 商品 > 所有商品
+  - 金物流 > 宅配物流 > 混合物流
   - 訂單 > 所有訂單
 layouts: []
 wp_url:
@@ -78,7 +87,7 @@ hide: []
 顧客將「入倉商品」與「不入倉商品」加入同一個購物車，並透過「混合物流」在同一筆訂單中合併結帳。
 { .subtitle }
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲
+[:lucide-layers:{ title="適用產品" }](../resources/conventions.md) | 電商官網 / 智慧倉儲
 { .doc-badge }
 
 ![](../assets/images/EC-後台-金物流-宅配物流-混單畫面總覽01.png){ .hero-page }
@@ -101,7 +110,7 @@ hide: []
     - 將所有現有的物流運費設定改為 **串倉（倉庫出貨）**。
     - 將所有商品的預設出貨方式改為 **倉庫出貨**。
 3. **自訂物流準備**：請先至 **金物流 > 宅配物流 > 自訂物流**，完成 [物流選項設定](enable-partial-warehouse-integration-and-order-splitting/#步驟-2物流選項設定)。
-4. [更改商品出貨方式](enable-partial-warehouse-integration-and-order-splitting/#步驟-3更改商品出貨方式)：將自行出貨商品綁定 **自行出貨** 的物流選項。
+4. [設定商品出貨方式](../ec/products/bulk-operations/set-product-shipping-method.md)：將自行出貨商品綁定 **自行出貨** 的物流選項，倉庫商品維持對應的倉庫出貨方式。
 
 
 ### 步驟 2：設定混合物流
@@ -140,11 +149,13 @@ hide: []
     1. 前往 **訂單 > 所有訂單**。
     2. **篩選自行出貨訂單**：點擊 **新增篩選條件**，選擇 **配送方式 > [混合物流名稱]**。
     3. **自行出貨單**：勾選訂單，點選 **更多操作 > 列印 XXX 託運單**。
+
         - 自訂出貨訂單支援部分出貨。
 
             > 參閱[超商部分出貨](../ec/orders/cvs-shipping/cvs-partial-shipment.md)、[宅配部分出貨](../ec/orders/home-delivery/partial-shipment-v2.md)
 
         - 自訂出貨訂單恕不支援貨到付款。
+        
     4. **倉庫出貨單**：系統會自動將訂單推送至 WMS，商家僅需觀察貨態更新。
 
 ### 辨別訂單出貨主體

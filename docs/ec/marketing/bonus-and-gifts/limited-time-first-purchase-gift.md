@@ -2,7 +2,7 @@
 title: 期間限定首購禮
 description: 期間限定首購禮是專為新會員首次消費設計的促銷工具。當符合條件的會員完成首筆付款訂單時，系統將自動贈送指定禮物。
 created: 2026-02-05 00:00
-last_modified: 2026-07-07 12:00
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -15,6 +15,7 @@ products:
   - EC
 modules:
   - 行銷活動
+  - 會員
 sites:
   - TW
 audiences:
@@ -22,7 +23,12 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions: []
 intents:
   - 建立首購禮活動
@@ -34,7 +40,9 @@ features:
 prerequisites:
   - "已建立欲作為贈品的商品或標籤"
   - "已規劃會員分類標籤（如需針對特定對象）"
-related: []
+related:
+  - ec/marketing/references/coupon-and-bonus-credit-rules/
+  - ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification/
 tags: []
 acoiv: configure
 apis: []
@@ -44,6 +52,7 @@ devices:
 ui_components: []
 paths:
   - 行銷活動 > 期間限定首購禮
+  - 會員 > 會員管理
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7884
@@ -84,6 +93,9 @@ hide: []
 - **活動並行邏輯**：系統支援多個首購禮活動同時並行排程。若會員同時符合多個活動條件，系統將 **全數送出**。
 - **贈禮發送時間點**：依贈禮類型不同，發送邏輯如下。
     - **紅利 / 優惠券**：於活動期間與頻率內，依商家訂單 **結案** 時間進行發送（以購買當下的時間點判定是否符合滿額贈活動，結案動作可超過活動期限）。
+
+        完整條件與情境說明，請見[優惠券／紅利歸戶規則](../references/coupon-and-bonus-credit-rules.md)。
+        
     - **商品 / 現金折價**：於活動期間與頻率內，以會員 **第一筆成立** 的訂單內進行折價或贈送。
 
 系統邏輯與操作限制如下：
@@ -170,4 +182,16 @@ hide: []
     若訂單在發送紅利後才進行「取消」或「退貨」，商家如需收回該筆優惠券或紅利，可前往 **會員 > 會員管理**，進入該會員帳戶頁面進行手動扣除。
 
 
+## 更多操作
 
+<div class="grid cards" markdown>
+
+- :lucide-wallet:{ .lg }
+  [__查看優惠券／紅利歸戶規則__](../references/coupon-and-bonus-credit-rules.md)
+  了解優惠券發送至會員帳戶的歸戶規則，以及訂單結案與退貨狀態對歸戶的影響。
+
+- :lucide-ticket:{ .lg }
+  [__優惠券（碼）與紅利點數到期通知__](../purchase-restrictions/coupon-and-bonus-points-expiry-notification.md)
+  設定系統自動發送 Email、簡訊或 LINE 通知，提醒顧客及時使用即將到期的優惠券與紅利點數。
+
+</div>

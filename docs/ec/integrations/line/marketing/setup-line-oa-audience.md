@@ -15,6 +15,7 @@ products:
   - EC
 modules:
   - 第三方整合
+  - 會員
 sites:
   - TW
 tnb: branch
@@ -23,6 +24,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 audiences:
   - merchant
@@ -37,8 +39,9 @@ features:
   - 會員分群
   - LINE Messaging API
 prerequisites:
-  - "ec/integrations/line/account-integration/connect-line-messaging-api"
-related: []
+  - ec/integrations/line/account-integration/connect-line-messaging-api/
+related:
+  - ec/integrations/line/account-integration/connect-line-messaging-api/
 tags:
   - LINE OA
   - 受眾串接

@@ -15,6 +15,7 @@ products:
   - EC
 modules:
   - 訂單
+  - 金物流
 sites:
   - TW
 audiences:
@@ -29,6 +30,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 自訂出貨明細列印項目
@@ -40,7 +42,8 @@ features:
   - 批次出貨打包
 prerequisites: []
 related:
-  - "ec/orders/order-settings/order-detail-print"
+  - ec/orders/order-settings/order-detail-print/
+  - ec/orders/basics/order-fulfillment-flow/
 tags:
   - 出貨明細
   - 列印設定

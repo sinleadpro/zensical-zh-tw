@@ -12,6 +12,7 @@ ga_views: 0
 feedback: 0
 products:
   - EC
+  - POS
 modules:
   - 第三方整合
 sites: []
@@ -25,6 +26,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定 LINE 圖文選單
@@ -44,7 +46,11 @@ prerequisites:
   - LINE 官方帳號 API 支援
   - LINE Messaging API 設定
   - 圖文選單連結禁用短網址
-related: []
+related:
+  - ec/integrations/line/account-integration/connect-line-messaging-api/
+  - ec/integrations/line/account-integration/bind-line-oa-store-members/
+  - pos/integrations/line/line-member-barcode-pos-checkout/
+  - ec/integrations/line/account-integration/setup-liff-auto-login-member-binding/
 tags:
   - LINE
   - 圖文選單

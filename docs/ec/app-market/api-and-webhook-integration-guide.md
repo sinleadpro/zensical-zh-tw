@@ -2,7 +2,7 @@
 title: API 與 Webhook 串接指南
 description: 了解如何透過 API 與 Webhook 服務串接外部系統（如 ERP、CRM），實現自動化數據同步與即時通知。
 created: 2026-06-11 14:45
-last_modified: 2026-06-27 13:40
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -22,12 +22,15 @@ audiences:
   - developer
 difficulty: intermediate
 tnb: branch
-plans: 
+plans:
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
-cyb_extensions: []
+plan_options: 
+  - optional
+cyb_extensions: 
+  - APP MARKET
 intents: 
   - 串接 API
   - 設定 Webhook
@@ -39,7 +42,8 @@ features:
 prerequisites: 
   - "需為企業版方案或 PLUS 版加購 API 服務"
   - "需具備技術開發人員進行程式串接"
-related: []
+related:
+  - ec/website-management/add-admin-set-permissions/
 tags: 
   - API
   - Webhook
@@ -52,9 +56,9 @@ devices:
 ui_components: 
   - 我的擴充服務
   - 網站權限
-paths: 
-  - APP MARKET > 我的擴充服務 > 自訂
+paths:
   - 管理中心 > 網站權限
+  - APP MARKET > 我的擴充服務
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7875

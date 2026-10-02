@@ -23,6 +23,7 @@ tnb: branch
 plans:
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 audiences:
   - developer
@@ -37,7 +38,7 @@ features:
 prerequisites:
   - 客服申請開通
 related:
-  - ec/website-appearance/code-customization/使用樣板編輯器恢復網頁代碼.md
+  - ec/website-appearance/code-customization/restore-code-theme-editor/
 tags:
   - LINE
   - 訂單完成

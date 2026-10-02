@@ -29,6 +29,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 提供付款連結
@@ -44,7 +45,9 @@ features:
   - 電子錢包
   - 超商條碼
 prerequisites: []
-related: []
+related:
+  - ec/orders/order-settings/unpaid-reminder-settings/
+  - ec/products/shipping/cvs-shipping-restrictions-exclusions/
 tags:
   - 付款連結
   - 訂單付款

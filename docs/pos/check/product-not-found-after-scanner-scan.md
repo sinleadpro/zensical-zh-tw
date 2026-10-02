@@ -13,7 +13,6 @@ notes:
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - POS
 modules:
   - 商品
@@ -28,6 +27,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 排除掃描失敗問題
@@ -50,7 +50,7 @@ devices:
 ui_components:
   - POS 結帳界面
 paths:
-  - POS 前台 > 結帳
+  - 商品 > 所有商品
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=4201

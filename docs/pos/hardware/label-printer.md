@@ -26,6 +26,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 如何安裝標籤機
@@ -39,7 +40,9 @@ features:
   - 條碼標籤
 prerequisites:
   - 設定 POS 商店與機台
-related: []
+related:
+  - pos/software/drivers/
+  - pos/check/print-product-labels/
 tags:
   - 標籤機
   - TSC

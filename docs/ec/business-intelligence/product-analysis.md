@@ -27,6 +27,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 查看商品銷售排行
@@ -44,8 +45,10 @@ prerequisites:
   - 方案需包含「圖表分析」功能
   - 需有實際訂單資料
 related:
-  - "ec/business-intelligence/business-intelligence-overview"
-  - "ec/business-intelligence/benchmarking"
+  - ec/business-intelligence/references/product-analysis-metrics-reference/
+  - ec/business-intelligence/revenue-analysis/
+  - ec/business-intelligence/order-analysis/
+  - ec/products/create-and-manage/create-update-products/
 tags:
   - 商品分析
   - 商品銷售排行

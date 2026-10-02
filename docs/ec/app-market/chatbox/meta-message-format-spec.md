@@ -20,11 +20,12 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: branch
-plans: 
+plans:
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: 
   - CHAT BOX
 intents: 
@@ -35,11 +36,9 @@ features:
   - CHAT BOX
   - Meta 整合
   - 訊息格式
-prerequisites: 
-  - "ec/app-market/chatbox/index"
-related: 
-  - "ec/app-market/chatbox/line-message-format-spec"
-  - "CHAT BOX 串接第三方平台 (LINE•Meta)"
+prerequisites:
+  - ec/app-market/chatbox/
+related: []
 tags: 
   - Meta
   - Facebook

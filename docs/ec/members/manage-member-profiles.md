@@ -2,7 +2,7 @@
 title: 管理會員檔案
 description: 當特定會員有資料與權限異動、點數與優惠券配置調整、或需要下單協助時，管理員可透過 會員明細頁 進行一站式的客服處理與資料維護。
 created: 2026-02-11 00:00
-last_modified: 2026-08-17 14:22
+last_modified: 2026-09-29 15:30
 lang: zh-TW
 type: guide
 author: Ann
@@ -28,11 +28,8 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 進階
-  - 高手
+plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 編輯會員基本資料
@@ -47,7 +44,10 @@ features:
 prerequisites:
   - 需具備管理員權限以編輯會員敏感資訊
 related:
-  - ec/website-appearance/code-customization/customize-other-channel-order-label
+  - ec/website-management/customer-registration-flow-and-fields/
+  - ec/website-appearance/code-customization/customize-other-channel-order-label/
+  - ec/marketing/coupon/free-shipping-coupon-spec/
+  - ec/marketing/coupon/gift-coupon-spec/
 tags:
   - 會員明細
   - 代客下單
@@ -369,5 +369,8 @@ hide: []
 
 ??? quote "代客下單可以使用會員帳戶內的紅利折抵嗎？"
     可以。在後台代客下單的結帳頁面中，管理員可手動勾選並輸入該會員帳戶內剩餘的紅利進行折抵。
+
+??? quote "會員帳號建立後可以刪除嗎？"
+    不可以。會員資料建立後無法刪除；若有重複或不再使用的帳號，請在 **帳號設定** 將帳號狀態設為 `禁用帳號`，會員將無法登入。
 
 

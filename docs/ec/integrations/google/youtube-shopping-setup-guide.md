@@ -25,6 +25,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定 YouTube Shopping
@@ -36,10 +37,12 @@ features:
   - 產品動態饋給
   - YouTube 合作夥伴計畫
 prerequisites:
-  - "ec/integrations/google/setup-google-merchant-center"
-  - "ec/integrations/google/ga/setup-google-analytics"
+  - ec/integrations/google/setup-google-merchant-center/
+  - ec/integrations/google/ga/setup-google-analytics/
 related:
-  - "ec/integrations/google/setup-gmc-conversion-tracking"
+  - ec/integrations/google/setup-google-merchant-center/
+  - ec/integrations/google/ga/setup-google-analytics/
+  - ec/integrations/google/setup-gmc-conversion-tracking/
 tags:
   - YouTube Shopping
   - GMC

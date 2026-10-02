@@ -24,6 +24,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 登入 POS 前台
@@ -34,9 +35,9 @@ features:
   - 員工切換
   - 系統公告
 prerequisites:
-  - "pos/store/staff-permissions-and-account-management"
+  - pos/store/staff-permissions-and-account-management/
 related:
-  - "wms/announcements"
+  - pos/store/announcement-system/
 tags:
   - POS 登入
   - 員工切換

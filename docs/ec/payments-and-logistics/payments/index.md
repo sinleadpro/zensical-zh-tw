@@ -2,6 +2,7 @@
 author: ""
 reviewers: []
 products: [EC]
+plan_options: []
 notes: []
 title: 結帳頁與物流設定總覽
 description: 設定購物車、訂單與物流的相關規則，控管結帳流程與配送細節。

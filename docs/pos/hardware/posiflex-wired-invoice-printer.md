@@ -7,8 +7,7 @@ lang: zh-TW
 type: guide
 author: Ann
 reviewers: []
-notes:
-  - 確認：是否支援星益欣、常見問題1驅動程式檔案連結是否有效
+notes: []
 ga_views: 0
 feedback: 0
 products:
@@ -26,6 +25,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 如何安裝Posiflex發票機
@@ -38,7 +38,8 @@ features:
   - 盟立加值中心整合
   - 硬體連線診斷
 prerequisites: []
-related: []
+related:
+  - pos/software/drivers/
 tags:
   - Posiflex
   - 發票機
@@ -78,11 +79,9 @@ hide: []
 
 ## 使用須知
 
-- **系統限制**：系統僅支援 Posiflex 系列與盟立配合之發票機型號。
-- **金鑰前提**：安裝前請確認已將 **盟立通道金鑰** 提供給 CYBERBIZ 客服人員。
 - **軟體環境**：必須維持 CYBERBIZ POS 驅動程式開啟，**請勿關閉視窗**（可最小化）。
 - **硬體時間**：發票開立時間將以商家 **POS 電腦硬體顯示時間** 為準，請確保電腦時區與時間正確。
-
+- **金鑰前提**：若選擇使用盟立電子發票服務，安裝發票機前請確認已將 **盟立通道金鑰** 提供給 CYBERBIZ 客服人員。
 
 
 ## 操作流程

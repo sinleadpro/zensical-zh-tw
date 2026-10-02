@@ -11,9 +11,8 @@ notes:
   - 內部連結：資安防護
 ga_views: 0
 feedback: 0
-products: 
+products:
   - EC
-  - POS
 modules: 
   - 管理中心
   - 安全性設定
@@ -24,6 +23,7 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents: 
   - 解決收不到驗證信問題
@@ -33,7 +33,10 @@ features:
   - 2FA 驗證
   - 資安防護
 prerequisites: []
-related: []
+related:
+  - ec/website-management/setup-manage-two-factor-auth/
+  - ec/website-management/admin-security-settings/
+  - ec/website-management/security-best-practices/
 tags: 
   - 無法登入
   - 驗證信

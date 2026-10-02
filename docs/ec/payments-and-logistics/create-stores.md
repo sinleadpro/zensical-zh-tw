@@ -16,6 +16,7 @@ products:
   - POS
 modules:
   - 金物流
+  - 管理中心
 sites:
   - TW
 audiences:
@@ -26,6 +27,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 建立官網門市
@@ -37,8 +39,9 @@ features:
   - 批量建立門市
 prerequisites: []
 related:
-  - 設定門市取貨服務
-  - 開啟 CYBERBIZ NOW 快速到貨服務
+  - ec/payments-and-logistics/store-pickup/
+  - ec/payments-and-logistics/cyberbiz-now/
+  - ec/e-ticket/setup-e-ticket-store-permissions/
 tags:
   - 建立門市
   - 一般門市
@@ -55,6 +58,7 @@ ui_components:
   - POS 商店
 paths:
   - 金物流 > 所有門市
+  - 管理中心 > 網站權限
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=15619

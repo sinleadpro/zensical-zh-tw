@@ -2,7 +2,7 @@
 title: 定期訂購訂單管理
 description: 當消費者在定期定額活動頁下單後，系統會產生一筆「母訂單」，並依據設定的週期（如每月、每週）自動產生「子訂單」。商家可透過後台管理這些訂閱關係與各期配送進度。
 created: 2026-06-01 14:54
-last_modified: 2026-07-07 15:00
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -22,11 +22,13 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: branch
-plans: 
+plans:
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions: []
 intents: 
   - 管理定期定額訂單
@@ -38,8 +40,9 @@ features:
   - 母子訂單
 prerequisites: 
   - "定期定額活動頁"
-related: 
-  - "定期定額活動頁"
+related:
+  - ec/orders/basics/order-management-interface/
+  - ec/marketing/other-tools/subscription-campaign-page/
 tags: 
   - 定期定額
   - 訂閱制
@@ -52,8 +55,9 @@ devices:
 ui_components: 
   - 定期定額訂單列表
   - 定期訂單明細
-paths: 
+paths:
   - 訂單 > 定期定額訂單
+  - 訂單 > 所有訂單
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=4570

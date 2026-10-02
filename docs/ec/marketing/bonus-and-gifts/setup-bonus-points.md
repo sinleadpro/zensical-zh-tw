@@ -2,7 +2,7 @@
 title: 設定紅利點數
 description: 透過紅利點數建立會員回饋機制，吸引新客首購並提升舊客回購率。
 created: 2026-05-27 15:20
-last_modified: 2026-07-21 11:00
+last_modified: 2026-08-19 12:25
 lang: zh-TW
 type: guide
 author: Ann
@@ -10,10 +10,15 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: 
+products:
   - EC
-modules: 
+  - WMS
+modules:
   - 行銷活動
+  - 會員
+  - 商品
+  - 金物流
+  - 分析報表
 sites: 
   - TW
 audiences: 
@@ -21,6 +26,7 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents: 
   - 設定紅利回饋
@@ -32,10 +38,13 @@ features:
   - 消費回饋
   - 批次發送紅利
 prerequisites: []
-related: 
-  - "ec/marketing/bonus-and-gifts/setup-registration-gift"
-  - "ec/marketing/bonus-and-gifts/setup-birthday-gift"
-  - "紅利商城設定"
+related:
+  - ec/marketing/references/coupon-and-bonus-credit-rules/
+  - ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification/
+  - ec/members/manage-member-profiles/
+  - ec/products/bulk-operations/batch-update-product-descriptions-shipping/
+  - ec/orders/reports/export-order-report/
+  - ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification/
 tags: 
   - 紅利點數
   - 購物金
@@ -48,9 +57,13 @@ devices:
 ui_components: 
   - 紅利設定欄位
   - 會員列表
-paths: 
-  - 行銷活動 > 全館折扣-紅利 & 優惠券 > 會員紅利點數
-  - 金物流 > 結帳頁 & 物流設定 > 訂單相關設定 > 訂單取消退貨相關紅利設定
+paths:
+  - 行銷活動 > 全館折扣-紅利 & 優惠券
+  - 會員 > 所有會員
+  - 商品 > 所有商品
+  - 金物流 > 結帳頁 & 物流設定
+  - 金物流 > 結帳頁 & 物流設定 > 訂單相關設定
+  - 分析報表 > 行銷活動分析 > 紅利分析
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=3805
@@ -81,12 +94,17 @@ hide: []
 
 ## 使用須知
 
-- **發送計算基準**：紅利點數贈送以「不含運費」的結帳金額計算。
-- **生效時間**：修改紅利發送規則後，僅適用於「設定後」產生的行為，不影響已發送的點數。
+- **發送計算基準**：紅利點數贈送以 **不含運費** 的結帳金額計算。
+- **生效時間**：修改紅利發送規則後，僅適用於 **設定後** 產生的行為，不影響已發送的點數。
 - **匯入限制**：紅利點數一旦發送或刪除，系統無法自動撤回或復原，請謹慎操作。
-- **歸戶時間**：訂單狀態須變更為「已結案」，紅利點數才會正式匯入會員帳戶供其使用。
 
-    > 退貨狀態為「不須退貨」時，亦適用此規則。
+
+### 訂單紅利歸戶規則
+
+
+消費回饋的紅利須在訂單 **已結案**、且退貨狀態為 **不需退貨** 時才會歸戶；退貨中、退貨審查、拒絕退貨等情境則不歸戶。
+
+完整條件與情境說明，請見[優惠券／紅利歸戶規則](../references/coupon-and-bonus-credit-rules.md)。
 
 ## 操作流程
 
@@ -110,6 +128,14 @@ hide: []
 
 - **範例**：設定每消費 100 元贈送 10 點。
 - **邏輯**：系統會依比例累計。消費 1000 元得 100 點；消費 999 元則得 90 點。
+
+<div class="grid cards" markdown>
+
+- :lucide-wallet:{ .lg }
+  [__查看優惠券／紅利歸戶規則__](../references/coupon-and-bonus-credit-rules.md)
+  了解紅利發送至會員帳戶的歸戶規則，以及訂單結案與退貨狀態對歸戶的影響。
+
+</div>
 
 ### B. 全館發送（針對所有會員）
 
@@ -229,17 +255,16 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明17.png){ .screenshot }
 
+!!! warning "串倉商家注意"
+    此自動返還功能不支援串倉商家。串倉訂單退貨時，系統皆不會自動返還或發送紅利點數。
+
 ### 結案後執行退貨
 
 若訂單已結案才進行退貨，購物所獲得的紅利點數 **不會自動從會員帳戶中扣除**。
 
 !!! tip "建議操作"
     - 商家需前往會員個人頁面 [手動刪除該筆紅利](../../members/manage-member-profiles.md#1-紅利點數派發與管理)。
-    - 建議等訂單過退換貨期間，確定已無退貨需求後，再按下 **結案訂單**，以確保紅利發放的準確性。
-
-
-!!! warning "串倉商家注意"
-    此自動返還功能不支援串倉商家。串倉訂單退貨時，系統皆不會自動返還或發送紅利點數。
+    - 建議等訂單過退換貨期間，確定已無退貨需求後，再按下 **結案訂單**，以確保紅利發放的準確性。結案與退貨狀態對歸戶的完整規則，請見[優惠券／紅利歸戶規則](../references/coupon-and-bonus-credit-rules.md)。
 
 
 
@@ -322,8 +347,11 @@ hide: []
 
 <div class="grid cards" markdown>
 
+- :lucide-wallet:{ .lg }
+  [__查看優惠券／紅利歸戶規則__](../references/coupon-and-bonus-credit-rules.md)
+  確認消費回饋紅利在訂單結案、退貨與其他訂單狀態下的歸戶規則。
+
 - :lucide-bell-ring:{ .lg }
   [__設定紅利點數到期通知__](../purchase-restrictions/coupon-and-bonus-points-expiry-notification.md)
   設定紅利點數到期提醒，引導顧客在點數失效前回到官網進行折抵消費。
-
 </div>

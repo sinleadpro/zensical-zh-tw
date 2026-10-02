@@ -12,7 +12,6 @@ notes:
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - WMS
 modules:
   - 通路
@@ -22,6 +21,7 @@ audiences: []
 difficulty: ""
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 新增銷售通路

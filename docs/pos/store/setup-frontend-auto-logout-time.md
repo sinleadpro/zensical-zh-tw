@@ -22,6 +22,7 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定 POS 自動登出
@@ -32,7 +33,7 @@ features:
 prerequisites:
   - 需具備「網站擁有者」權限身份
 related:
-  - "pos/store/staff-permissions-and-account-management"
+  - pos/store/staff-permissions-and-account-management/
 tags:
   - POS
   - 自動登出

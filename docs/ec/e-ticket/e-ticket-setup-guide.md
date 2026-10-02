@@ -2,7 +2,7 @@
 title: 電子票券設定指南
 description: 建立、販售、核銷與管理電子票券商品的完整操作手冊，涵蓋後台設定、顧客購買流程及門市操作。
 created: 2026-01-20 00:00
-last_modified: 2026-07-22 17:25
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Jase
@@ -14,6 +14,9 @@ products:
   - EC
 modules:
   - 商品
+  - 管理中心
+  - 訂單
+  - 金物流
 sites:
   - TW
 audiences:
@@ -25,6 +28,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions:
   - TICKET
 intents:
@@ -38,7 +43,11 @@ features:
   - 核銷
 prerequisites:
   - 新版物流
-related: []
+related:
+  - ec/e-ticket/setup-e-ticket-promotions/
+  - ec/profit-sharing/
+  - ec/e-ticket/setup-e-ticket-store-permissions/
+  - ec/marketing/purchase-restrictions/purchase-limit/
 tags:
   - 電子票券
   - QR-Code
@@ -52,9 +61,14 @@ devices:
   - mobile
 ui_components: []
 paths:
-  - 商品 > 電子票券列表
+  - 商品 > 電子票券列表 > 新增票券
+  - 管理中心 > 顧客註冊設定
   - 商品 > 核銷票券頁
   - 商品 > 票券核銷列表
+  - 管理中心 > 網站權限 > 管理者列表
+  - 訂單 > 電子票券訂單
+  - 訂單 > 所有訂單
+  - 金物流 > 結帳頁&金物流設定 > 訂單相關設定 > 訂單自動結案設定
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=5807
@@ -81,7 +95,7 @@ hide: []
 
 ## 電子票券使用限制與規則
 
-- 可加入 [限購群組](../marketing/purchase-restrictions/)，限制每位消費者可購買張數  
+- 可加入 [限購群組](../marketing/purchase-restrictions/purchase-limit/)，限制每位消費者可購買張數  
 - 僅支援 [電子票券任選折扣](setup-e-ticket-promotions.md) 與 [分潤](../profit-sharing/index.md)，不可與其他優惠併用  
 - 付款方式僅支援 **信用卡一次付清**
 

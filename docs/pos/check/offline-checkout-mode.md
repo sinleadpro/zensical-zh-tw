@@ -26,6 +26,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - POS斷線如何結帳
@@ -40,7 +41,7 @@ features:
 prerequisites:
   - "更新 POS 驅動程式"
 related:
-  - "POS 網路連線異常與斷線提示說明"
+  - pos/software/drivers/
 tags:
   - 離線結帳
   - 斷線應急

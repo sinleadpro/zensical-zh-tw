@@ -23,6 +23,7 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 使用再次購買功能
@@ -34,8 +35,8 @@ features:
   - 購物車結帳
 prerequisites: []
 related:
-  - "ec/orders/basics/order-management-interface"
-  - "ec/marketing/upsells/setup-order-upsell"
+  - ec/orders/basics/order-management-interface/
+  - ec/marketing/upsells/setup-order-upsell/
 tags:
   - 再次購買
   - 回購

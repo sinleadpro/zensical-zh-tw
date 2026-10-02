@@ -26,6 +26,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions:
   - NOW!
 intents:
@@ -39,7 +41,8 @@ features:
 prerequisites:
   - 門市已開啟快速到貨功能
   - 商品已完成上架且官網庫存充足
-related: []
+related:
+  - ec/website-appearance/setup-quick-delivery-frontend-entry/
 tags:
   - 快速到貨
   - 多購物車

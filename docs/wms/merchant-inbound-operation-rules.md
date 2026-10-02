@@ -21,6 +21,7 @@ audiences: []
 difficulty: ""
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 建立進倉預約
@@ -33,7 +34,8 @@ features:
 prerequisites:
   - 需已開通 CYBERBIZ 電商倉儲服務
   - 進倉前須建立系統進倉單
-related: []
+related:
+  - wms/inbound-orders/
 tags:
   - 驗收標準
   - 包裝要求

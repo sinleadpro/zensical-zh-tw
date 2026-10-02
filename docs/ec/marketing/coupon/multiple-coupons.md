@@ -21,9 +21,10 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: branch
-plans: 
+plans:
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents: 
   - 設定單筆訂單使用多張優惠券
@@ -34,7 +35,9 @@ features:
   - 優惠碼併用
   - 結帳頁優惠券設定
 prerequisites: []
-related: []
+related: 
+  - ec/marketing/references/coupon-and-bonus-credit-rules/
+  - ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification/
 tags: 
   - 優惠券
   - 優惠碼
@@ -45,8 +48,9 @@ apis: []
 devices: 
   - desktop
 ui_components: []
-paths: 
+paths:
   - 金物流 > 結帳頁 & 物流設定 > 結帳頁優惠券設定
+  - 金物流 > 結帳頁 & 物流設定 > POS 結帳頁優惠券設定
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=37637
@@ -161,3 +165,18 @@ hide: []
     4. 確認後套用，即可即時查看各券折抵金額，並可隨時更換或取消。
 
         ![](../../../assets/images/POS-前台-結帳-多優惠券04.png){ .screenshot }
+
+  
+## 更多操作
+
+<div class="grid cards" markdown>
+
+- :lucide-wallet:{ .lg }
+  [__查看優惠券／紅利歸戶規則__](../references/coupon-and-bonus-credit-rules.md)
+  了解優惠券發送至會員帳戶的歸戶規則，以及訂單結案與退貨狀態對歸戶的影響。
+
+- :lucide-bell-ring:{ .lg }
+  [__設定優惠券到期通知__](../purchase-restrictions/coupon-and-bonus-points-expiry-notification.md)
+  設定系統自動發送 Email、簡訊或 LINE 通知，提醒顧客及時使用即將到期的優惠。
+
+</div>

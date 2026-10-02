@@ -20,11 +20,12 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: branch
-plans: 
+plans:
   - 專業PLUS
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents: 
   - 設定優惠券到期通知

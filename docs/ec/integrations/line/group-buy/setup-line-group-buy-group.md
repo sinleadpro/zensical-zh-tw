@@ -23,6 +23,7 @@ difficulty: intermediate
 tnb: branch
 plans:
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定_LINE_團購群組
@@ -34,9 +35,13 @@ features:
   - 分潤方案
   - 推薦碼
 prerequisites:
-  - 設定 LINE 團購機器人
-  - 設定 LINE 團購商品
-related: []
+  - ec/integrations/line/group-buy/setup-line-group-bot/
+  - ec/integrations/line/group-buy/setup-line-group-buy-products/
+related:
+  - ec/integrations/line/group-buy/setup-line-group-bot/
+  - ec/profit-sharing/referrer-profit-sharing/
+  - ec/integrations/line/group-buy/setup-line-group-buy-products/
+  - ec/profit-sharing/query-profit-sharing-partners-and-codes/
 tags:
   - LINE OA
   - LINE 團購

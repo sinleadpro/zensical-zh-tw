@@ -28,6 +28,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 串接美安通路
@@ -38,7 +39,10 @@ features:
   - XML 產品饋給
   - 訂單同步
 prerequisites: []
-related: []
+related:
+  - ec/products/create-and-manage/create-update-products/
+  - ec/products/bulk-operations/excel-import-products/
+  - ec/products/categories-and-tags/manage-product-tags/
 tags:
   - 美安
   - XML 饋給

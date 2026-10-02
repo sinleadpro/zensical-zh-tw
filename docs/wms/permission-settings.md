@@ -21,6 +21,7 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans: []
+plan_options: []
 intents:
   - 如何建立WMS角色
   - 設定員工功能權限
@@ -31,8 +32,7 @@ features:
   - 模組化權限控管
   - 讀取/寫入/刪除維度
 prerequisites: []
-related:
-  - "wms/account-management"
+related: []
 tags:
   - 權限設定
   - 角色管理

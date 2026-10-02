@@ -2,7 +2,7 @@
 title: 新增與更新商品
 description: 完成一支商品從新增、設定款式與價格、撰寫商品描述，到後續編輯、複製、上下架，以及多國語系與跨境銷售的相關設定。
 created: 2026-03-08 17:15
-last_modified: 2026-07-15 15:15
+last_modified: 2026-09-29 15:30
 lang: zh-TW
 type: guide
 author: Jase
@@ -12,6 +12,7 @@ ga_views: 0
 feedback: 0
 products:
   - EC
+  - POS
 modules:
   - 商品
 sites:
@@ -24,14 +25,8 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 新增單一商品
@@ -51,10 +46,24 @@ features:
   - 物流材積計算
 prerequisites: []
 related:
-  - "ec/products/bulk-operations/excel-import-products"
-  - "ec/products/create-and-manage/edit-product-description-settings"
-  - "ec/products/create-and-manage/setup-product-videos"
-  - "ec/products/engagement/setup-back-in-stock-notifications"
+  - ec/products/bulk-operations/excel-import-products/
+  - ec/products/create-and-manage/edit-product-slogan-and-description/
+  - ec/products/discoverability/product-search-visibility/
+  - ec/products/references/product-statuses/
+  - ec/products/create-and-manage/setup-product-videos/
+  - ec/products/engagement/setup-back-in-stock-notifications/
+  - ec/products/checkout/checkout-split-multi-cart/
+  - ec/products/categories-and-tags/custom-collections/
+  - ec/products/categories-and-tags/smart-collections/
+  - ec/website-appearance/theme-and-layout/setup-theme-page-settings/
+  - ec/products/references/product-temperature/
+  - ec/website-management/setup-multi-language-and-multi-currency/
+  - ec/products/pricing/setup-vip-member-pricing/
+  - ec/integrations/google/setup-google-merchant-center/
+  - ec/products/references/product-warehouse/
+  - ec/products/create-and-manage/edit-product-description-settings/
+  - ec/products/create-and-manage/create-and-setup-combo-products/
+  - ec/products/bulk-operations/batch-update-product-descriptions-shipping/
 tags:
   - 商品設定
   - 新增商品
@@ -273,7 +282,9 @@ hide: []
 
 === "商品類型 / 商品通路 / 商品廠商"
 
-    用於後台分類與管理。此三項新增後無法刪除或改名，請謹慎命名。
+    用於後台分類與管理。
+    
+    若要移除商品類型，請先從所有使用該類型的商品設定中移除；當沒有商品使用該類型時，系統會將該商品類型刪除。
 
     ![商品類型通路廠商設定](../../../assets/images/ec-product-settings-type-channel-vendor.png){ title="商品類型通路廠商設定" }
 
@@ -372,7 +383,6 @@ hide: []
 - **款式規格數量：** 單一商品最多 3 種規格，每種規格至少 1 個項目，同規格內項目不可重複。
 - **商品編號(SKU)：** 同一商店內不可重複；複製商品時須重新指定。
 - **多國語系欄位：** 僅文字類欄位(名稱、標語、簡述、描述)需逐語言填寫；價格、款式、庫存、圖片為所有語言共用。
-- **商品類型 / 通路 / 廠商：** 新增後無法刪除或修改名稱。
 - **POS 門市商品：** 無法設定為「公開」，僅供門市端使用。
 - **商品影片與款式圖片：** 僅支援拖拉版型的主題，前台才會顯示。
 

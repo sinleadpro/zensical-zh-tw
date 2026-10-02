@@ -2,7 +2,7 @@
 title: 定期訂購活動頁
 description: 說明如何建立訂閱制活動頁面，包含基本設定、期數優惠、金流限制及備貨期配置，協助品牌創造穩定營收。
 created: 2026-05-29 18:01
-last_modified: 2026-07-20 18:50
+last_modified: 2026-09-29 18:00
 lang: zh-TW
 type: guide
 author: Ann
@@ -12,8 +12,9 @@ ga_views: 0
 feedback: 0
 products: 
   - EC
-modules: 
+modules:
   - 行銷活動
+  - 金物流
 sites: 
   - TW
 audiences: 
@@ -25,6 +26,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions: []
 intents: 
   - 建立定期定額活動頁
@@ -49,8 +52,10 @@ devices:
 ui_components: 
   - 定期定額活動頁
   - 進階優惠設定
-paths: 
+paths:
+  - 金物流 > 結帳頁 & 物流設定 > 定期定額購物車設定
   - 行銷活動 > 定期訂購活動頁
+  - 金物流 > 宅配物流 / 超商物流
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=53869
@@ -142,7 +147,7 @@ hide: []
     ![](../../../assets/images/EC-後台-行銷活動-定期訂購活動頁-建立活動02.png){ .screenshot }
 
 - **待出貨訂單設定（備貨期）**：
-    - 例如設定為 3 天：若 10/31 為出貨日，系統會在 10/27 正式轉單請款（轉單日與出貨日不計入備貨期）。
+    - 例如設定為 3 天：若 10/31 為出貨日，系統會在 10/27 正式轉單（轉單日與出貨日不計入備貨期）。
 
     ![](../../../assets/images/EC-後台-行銷活動-定期訂購活動頁-建立活動03.png){ .screenshot }
 

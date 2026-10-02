@@ -2,7 +2,7 @@
 title: 設定商品多層級分類
 description: 建立多層級商品分類（最多三層），整理群組、支援行銷活動與導覽列設定。
 created: 2026-01-13 00:00
-last_modified: 2026-07-22 17:36
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Jase
@@ -28,6 +28,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions: []
 intents:
   - 如何設定商品多層級分類
@@ -36,10 +38,16 @@ features:
   - 商品多層級分類
   - 拖拉版型
 prerequisites:
-  - 設定自訂分類群組
-  - 設定商品條件分類群組
+  - ec/products/categories-and-tags/custom-collections/
+  - ec/products/categories-and-tags/smart-collections/
   - 商品類型
-related: []
+related:
+  - ec/products/categories-and-tags/custom-collections/
+  - ec/products/categories-and-tags/smart-collections/
+  - ec/products/create-and-manage/edit-product-description-settings/
+  - ec/website-appearance/navigation/setup-menus-navigation/
+  - ec/marketing/discounts/multi-level-category-discount/
+  - pos/check/pos-frontend-menu-settings/
 tags:
   - 商品群組
   - 多層級分類
@@ -58,8 +66,7 @@ devices:
 ui_components: []
 paths:
   - 商品 > 商品多層級分類
-layouts:
-  - draggable
+layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=9204
   - https://www.cyberbiz.io/support/?p=43450

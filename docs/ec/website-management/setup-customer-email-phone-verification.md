@@ -2,7 +2,7 @@
 title: 設定顧客 Email 與手機雙重驗證
 description: 要求新註冊顧客同時通過 Email 與簡訊驗證，確保會員資料真實性，降低空帳號與惡意註冊風險。
 created: 2026-05-27 14:58
-last_modified: 2026-07-24 14:12
+last_modified: 2026-09-29 15:30
 lang: zh-TW
 type: guide
 author: Jase
@@ -20,14 +20,8 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定 Email 驗證
@@ -44,12 +38,12 @@ features:
   - 必須註冊
 prerequisites: []
 related:
-  - "ec/website-management/references/customer-registration-modes-reference"
-  - "ec/website-management/references/customer-field-validation-reference"
-  - "ec/notifications/manage-email-templates"
-  - "ec/notifications/manage-sms-templates-v2"
-  - "ec/website-management/customer-registration-flow-and-fields"
-  - "ec/members/manage-member-profiles"
+  - ec/website-management/references/customer-field-validation-reference/
+  - ec/website-management/references/customer-registration-modes-reference/
+  - ec/notifications/manage-email-templates/
+  - ec/notifications/manage-sms-templates-v2/
+  - ec/website-management/customer-registration-flow-and-fields/
+  - ec/members/manage-member-profiles/
 tags:
   - 雙重驗證
   - Email 驗證
@@ -73,7 +67,8 @@ ui_components:
   - 必選填設定
 paths:
   - 管理中心 > 顧客註冊設定
-  - 訊息推播 > Email / 簡訊通知樣板 > 顧客相關 > 顧客帳號啟用提醒
+  - 訊息推播 > Email通知樣板 
+  - 訊息推播 > 簡訊通知樣板 
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=1865
@@ -206,6 +201,16 @@ hide: []
 
 ## 重要規範與限制 { #specs-customer-verification }
 
+### 驗證信件 / 簡訊通知開關
+
+啟用「電子郵件驗證」後，請確認 **訊息推播 > Email 通知樣板 > 顧客相關 > 顧客請求發送驗證碼** 的開關保持開啟，請勿關閉。
+
+若啟用「手機驗證」，也請確認 **訊息推播 > 簡訊通知樣板 > 顧客相關 > 顧客請求發送驗證碼通知** 保持開啟，才能正常發送手機驗證簡訊。
+
+![驗證信通知開關](../../assets/images/EC-後台-訊息推播-Email通知樣板-驗證碼通知信件開關01.png){ title="驗證信通知開關" }
+
+---
+
 ### 既有會員不受影響 { #specs-customer-verification-existing-members }
 
 驗證開關只影響「**新註冊**」的顧客。既有會員無論驗證狀態如何，都不會被強制重新驗證，登入購物流程不受影響。
@@ -225,7 +230,7 @@ hide: []
 
 ---
 
-### 第三方登入 <small>FB / LINE / Google)的處理</small> { #specs-customer-verification-sso }
+### 第三方登入 <small>(FB / LINE / Google)的處理</small> { #specs-customer-verification-sso }
 
 | 登入平台 | Email 驗證 | 手機驗證 |
 |:--|:--|:--|

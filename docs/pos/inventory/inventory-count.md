@@ -27,6 +27,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 執行門市盤點
@@ -39,8 +40,7 @@ features:
   - 複盤功能
   - 盤點單管理
 prerequisites: []
-related:
-  - "pos/inventory/index"
+related: []
 tags:
   - 庫存盤點
   - POS 前台操作

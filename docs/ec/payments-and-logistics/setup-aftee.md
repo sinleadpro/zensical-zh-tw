@@ -20,14 +20,8 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
+plan_options: []
 cyb_extensions:
   - CYBERBIZ PAYMENTS
 intents:

@@ -25,6 +25,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - POS網路斷線怎麼辦
@@ -36,7 +37,8 @@ features:
   - 離線模式
   - 廣告阻擋排除
 prerequisites: []
-related: []
+related:
+  - pos/check/offline-checkout-mode/
 tags:
   - 網路不穩
   - 斷線提示

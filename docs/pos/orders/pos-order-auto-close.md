@@ -14,6 +14,7 @@ products:
   - POS
 modules:
   - 訂單
+  - 金物流
 sites:
   - TW
 audiences:
@@ -24,6 +25,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定 POS 訂單自動結案
@@ -37,9 +39,9 @@ prerequisites:
   - 已開通 POS 功能
   - 網站擁有者權限
 related:
-  - "ec/payments-and-logistics/payments/order-settings"
-  - "ec/orders/home-delivery/partial-shipment-v2"
-  - "ec/orders/references/payment-statuses"
+  - ec/payments-and-logistics/payments/order-settings/
+  - ec/orders/home-delivery/partial-shipment-v2/
+  - ec/orders/references/payment-statuses/
 tags:
   - POS 訂單
   - 自動結案

@@ -453,11 +453,24 @@
 }
 
 /* Admonition Plan
-/* 同時針對 靜態 (!!!) 與 可摺疊 (???) 進行樣式設定 */
+   同時針對靜態 (!!!) 與可摺疊 (???) 進行樣式設定 */
+:root {
+    --plan-bg-color: #faf5ff;
+    --plan-border-color: #a855f7;
+    --plan-icon-color: #a855f7;
+}
+
+[data-md-color-scheme="slate"] {
+    --plan-bg-color: #2b1f35;
+    --plan-border-color: #c084fc;
+    --plan-icon-color: #c084fc;
+}
+
 .md-typeset .admonition.plan,
 .md-typeset details.plan {
-    border-color: #a855f7;    /* Purple 500 - Distinct from Note blue */
-    background-color: #faf5ff; /* Purple 50 - Clearly different from slate/blue */
+    color: var(--md-default-fg-color);
+    border-color: var(--plan-border-color);
+    background-color: var(--plan-bg-color);
     border-left-width: 4px;
     border-right-width: 0;
     border-top-width: 0;
@@ -467,6 +480,7 @@
 /* 針對可摺疊區塊的標題 (summary) */
 .md-typeset .plan > .admonition-title,
 .md-typeset .plan > summary {
+    color: inherit;
     background-color: transparent;
     font-weight: 700;
 }
@@ -474,7 +488,7 @@
 /* 確保摺疊時的圖示顏色與位置一致 */
 .md-typeset .plan > .admonition-title::before,
 .md-typeset .plan > summary::before {
-    background-color: #a855f7;
+    background-color: var(--plan-icon-color);
     -webkit-mask-image: var(--md-admonition-icon--plan);
     mask-image: var(--md-admonition-icon--plan);
 }

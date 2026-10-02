@@ -25,6 +25,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions:
   - CHANNEL BRIDGE
 intents:
@@ -35,7 +36,8 @@ features:
   - 全通路管理助手
 prerequisites:
   - "需具備蝦皮台灣站 (TW) 賣家帳號"
-related: []
+related:
+  - ec/app-market/cyberbiz-channel-bridge/shopee-integration/step2-import-products-and-link/
 tags:
   - 商品匯入
 acoiv: configure
@@ -44,8 +46,7 @@ devices:
   - desktop
 ui_components: []
 paths:
-  - APP MARKET > 我的應用程式
-  - 商品 > 所有商品
+  - App Market > 擴充服務市集
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=365

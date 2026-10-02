@@ -13,7 +13,6 @@ notes:
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - POS
 modules:
   - 商品
@@ -28,6 +27,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 開通混稅發票功能
@@ -37,7 +37,8 @@ features:
   - 混稅發票
   - 商品稅別設定
 prerequisites:
-related: []
+related:
+  - ec/products/bulk-operations/excel-import-products/
 tags:
   - POS 混稅發票
   - 免稅商品
@@ -52,7 +53,7 @@ ui_components:
   - 客服視窗
   - 所有商品
 paths:
-  - 管理後台 > 商品 > 所有商品
+  - 商品 > 所有商品
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=37151

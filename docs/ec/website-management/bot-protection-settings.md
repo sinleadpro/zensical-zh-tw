@@ -2,9 +2,9 @@
 title: 設定機器人防護與簡訊驗證
 description: 當官網已開通會員簡訊驗證（尤其含海外簡訊）時，可在發送驗證碼前加入機器人驗證，避免惡意程式短時間大量觸發簡訊，造成簡訊費用暴增。
 created: 2026-08-12 10:59
-last_modified: 2026-08-12 10:59
+last_modified: 2026-09-21 10:20
 lang: zh-TW
-type: tutorial
+type: guide
 status: ""
 author: Ann
 reviewers: []
@@ -18,17 +18,11 @@ modules:
 sites:
   - TW
 audiences:
-  - admin
+  - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 專業PLUS
-  - 進階
-  - 進階PLUS
-  - 高手
-  - 高手PLUS
+plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 防止機器人攻擊
@@ -43,9 +37,9 @@ features:
 prerequisites:
   - 需具備「設置」權限
 related:
-  - ec/website-management/member-security-settings.md
-  - ec/website-management/admin-security-settings.md
-  - ec/website-management/add-admin-set-permissions.md
+  - ec/website-management/member-security-settings/
+  - ec/website-management/admin-security-settings/
+  - ec/website-management/add-admin-set-permissions/
 tags:
   - 機器人防護
   - 簡訊驗證
@@ -61,6 +55,7 @@ paths:
   - 管理中心 > 安全性設定 > 機器人防護
 layouts: []
 wp_url: []
+permalink: "https://help.cyberbiz.io/ec/website-management/bot-protection-settings/"
 comments: false
 search:
   exclude: false
@@ -81,7 +76,7 @@ hide: []
 
 「安全性設定」是 CYBERBIZ 後台的資安控制中心，協助你降低帳號被盜用、顧客個資外洩與惡意造訪的風險。頁面位於後台「管理中心」>「安全性設定」，並分為三個主要防護領域：
 
-- **[會員安全](member-protection-settings/)**：負責保護網站與顧客資料。
+- **[會員安全](member-security-settings/)**：負責保護網站與顧客資料。
 - **[管理員登入](admin-security-settings/)**：負責保護你與員工登入後台的安全。
 - **機器人防護**：負責過濾惡意訪客，在簡訊發送前建立第一道防線。
 
@@ -111,20 +106,25 @@ hide: []
 
         ![](../../assets/images/cloudflare-後台-建立Turnstile04.png){ .screenshot }
 
-    - **主題名稱管理**：點擊 **新增主機名稱**，將您的商店站台 **所有網域** 加入。
+    - **主題名稱管理**：在 **主機名稱** 欄位，輸入您的您的商店站台網域。
 
         ![](../../assets/images/cloudflare-後台-建立Turnstile05.png){ .screenshot }
 
-        在 **新增自訂主機名稱** 欄位，輸入您的您的商店站台網域。
         
         !!! tip "兩種網域皆須加入"
             新增主機名稱時，請同時加入商店的 **自有網域** 與 **CYBERBIZ 網域**：
 
-            - **自有網域**：`https://www.你的網域.com/`
-            - **CYBERBIZ 網域**：`https://你的店名.cyberbiz.co/`
+            - **自有網域**：若商店綁定多個自有網域，請將 **所有網域逐一加入**。輸入時請移除網址開頭的 `https://`，僅保留完整網域名稱。
 
+                - 範例網址： `https://www.你的網域.com`
+                - **填寫格式**： `www.你的網域.com`
+                - 範例網址： `https://www.你的網域.com.tw`
+                - **填寫格式**： `www.你的網域.com.tw`
 
-        ![](../../assets/images/cloudflare-後台-建立Turnstile08.png){ .screenshot }
+                
+            - **CYBERBIZ 網域**：
+                - 範例網址： `https://你的店名.cyberbiz.co`
+                - **填寫格式**： `你的店名.cyberbiz.co`
 
     - **小工具模式**：依需求選擇即可。
 
@@ -156,3 +156,22 @@ hide: []
 
 !!! note "清除金鑰"
     若清除已儲存的金鑰，**啟用驗證** 開關會同步關閉，前台將不再顯示機器人驗證。
+
+
+## 常見問題
+
+??? quote "設定時出現 **目前網域未授權，請至 Cloudflare 後台舊網域加入允許清單** 錯誤訊息？"
+    1. 登入 Cloudflare 後台，進入Turnstile 小工具頁面，點選編輯小工具，前往 **主機名稱管理**。
+    2. 將商店使用的所有網域逐一加入。
+    3. 輸入網域時，移除開頭的 `http://` 或 `https://`，僅保留完整網域名稱。
+        
+        **填寫範例**：`abc.cyberbiz.co`、`www.abc.com.tw`、`www.abc.com`
+
+??? quote "設定時出現 **Site Key 無效** 錯誤訊息？" 
+    請重新比對 Cloudflare 後台與 CYBERBIZ 後台的 **Site Key**，確認金鑰內容完全一致後，再重新填入。
+
+??? quote "設定時出現 **此 Site Key 已停用** 錯誤訊息？"
+    登入 Cloudflare 後台，找到對應的 Site Key，將其重新啟用後，再回到 CYBERBIZ 後台重新填入金鑰。
+
+??? quote "設定時出現 **找不到此 Site Key，請確認金鑰或 Cloudflare 後台設定** 錯誤訊息？"
+    請確認 Cloudflare 後台的 **Site Key** 與 **Secret Key**，是否都已正確填入 CYBERBIZ 後台，並確認兩組金鑰屬於同一個 Turnstile 工具。

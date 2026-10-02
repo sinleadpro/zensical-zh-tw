@@ -2,7 +2,7 @@
 title: 滿額贈 / 滿件贈
 description: 建立滿額贈與滿件贈活動，設定訂單或特定標籤商品的金額/件數門檻，自動發送贈品並管理贈送規則。
 created: 2026-01-21 00:00
-last_modified: 2026-07-06 17:00
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -14,6 +14,8 @@ products:
   - EC
 modules:
   - 行銷活動
+  - 商品
+  - 會員
 sites:
   - TW
 audiences:
@@ -21,12 +23,15 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 專業PLUS
   - 進階
-  - 進階PLUS
   - 高手
+  - 專業PLUS
+  - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - standard
+  - optional
 cyb_extensions: []
 intents:
   - 設定滿額贈
@@ -35,7 +40,8 @@ features:
   - 滿額贈
   - 滿件贈
 prerequisites: []
-related: []
+related:
+  - ec/members/member-filters-and-groups/
 tags:
   - 贈品設定
   - 商品標籤
@@ -47,7 +53,10 @@ devices:
   - mobile
 ui_components: []
 paths:
+  - 商品 > 所有商品
   - 行銷活動 > 滿額贈/滿件贈
+  - 會員 > 所有會員
+  - 行銷活動 > 滿額贈滿件贈
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=8276

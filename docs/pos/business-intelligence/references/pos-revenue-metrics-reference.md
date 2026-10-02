@@ -20,12 +20,13 @@ audiences:
 difficulty: ""
 tnb: ""
 plans: []
+plan_options: []
 cyb_extensions: []
 intents: []
 features: []
 prerequisites: []
 related:
-  - "pos/business-intelligence/pos-revenue-analysis"
+  - pos/business-intelligence/pos-revenue-analysis/
 tags:
   - POS
   - 營收分析

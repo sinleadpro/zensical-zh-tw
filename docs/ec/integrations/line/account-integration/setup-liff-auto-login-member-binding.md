@@ -25,6 +25,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定 LIFF 自動登入
@@ -46,7 +47,10 @@ features:
 prerequisites:
   - 已完成 LINE 快速登入設定
   - 已完成 LINE OA 與 LINE Login Channel 連動
-related: []
+related:
+  - ec/integrations/line/account-integration/setup-line-quick-login/
+  - ec/integrations/line/account-integration/setup-line-quick-login-phone-number/
+  - ec/integrations/line/marketing/setup-line-rich-menu/
 tags:
   - LIFF
   - LINE
@@ -64,7 +68,8 @@ devices:
   - desktop
   - mobile
 ui_components: []
-paths: []
+paths:
+  - 第三方整合 > LINE 註冊登入
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/helpcenter/?p=7388

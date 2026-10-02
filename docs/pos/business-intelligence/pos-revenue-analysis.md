@@ -26,6 +26,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 比較 POS 門市營業表現
@@ -38,9 +39,9 @@ features:
 prerequisites:
   - 已開通並使用 CYBERBIZ POS
 related:
-  - "pos/business-intelligence/pos-product-analysis"
-  - "ec/business-intelligence/omo-analysis-report"
-  - "ec/business-intelligence/revenue-analysis"
+  - pos/business-intelligence/references/pos-revenue-metrics-reference/
+  - ec/business-intelligence/omo-analysis-report/
+  - ec/business-intelligence/revenue-analysis/
 tags:
   - POS
   - 營收分析

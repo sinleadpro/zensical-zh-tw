@@ -21,6 +21,7 @@ audiences:
 difficulty: beginner
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 如何新增WMS帳號
@@ -32,8 +33,9 @@ features:
   - 角色指派
   - 帳號狀態控管
 prerequisites:
-  - "wms/permission-settings"
-related: []
+  - wms/permission-settings/
+related:
+  - wms/permission-settings/
 tags:
   - 帳號維護
   - 權限指派

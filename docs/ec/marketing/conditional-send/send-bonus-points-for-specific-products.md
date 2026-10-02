@@ -2,7 +2,7 @@
 title: 指定商品送紅利
 description: 建立「指定商品送紅利」群組，針對特定商品設定滿額贈送紅利點數，提升回購率與客單價。
 created: 2026-01-21 00:00
-last_modified: 2026-07-07 12:00
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -25,6 +25,8 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: 
+  - optional
 cyb_extensions: []
 intents:
   - 設定指定商品送紅利
@@ -34,7 +36,8 @@ features:
   - 商品標籤
 prerequisites:
   - "開啟商城紅利點數功能"
-related: []
+related:
+  - ec/marketing/references/coupon-and-bonus-credit-rules/
 tags: []
 acoiv: configure
 apis: []
@@ -111,3 +114,14 @@ hide: []
 1. 在 **商品列表** 區塊，點擊 **加入群組**。
 2. 透過搜尋名稱、SKU 或標籤，勾選欲參加活動的商品。
 3. 點擊 **加入**，確認商品出現在群組清單中。
+
+
+## 更多操作
+
+<div class="grid cards" markdown>
+
+- :lucide-wallet:{ .lg }
+  [__優惠券／紅利歸戶規則__](../references/coupon-and-bonus-credit-rules.md)
+  說明消費回饋何時匯入會員帳戶，以及結案、退貨流程對紅利與優惠券歸戶的影響。
+
+</div>

@@ -25,6 +25,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions:
   - CHAT BOX
 intents:
@@ -37,11 +38,8 @@ features:
   - AI 建議回覆
   - 知識庫管理
 prerequisites:
-  - "ec/app-market/chatbox/index"
-related:
-  - "CHAT BOX 串接第三方平台 (LINE•Meta)"
-  - "ec/app-market/chatbox/line-message-format-spec"
-  - "ec/app-market/chatbox/meta-message-format-spec"
+  - ec/app-market/chatbox/
+related: []
 tags:
   - AI
   - 客服助手

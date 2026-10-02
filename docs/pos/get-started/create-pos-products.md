@@ -10,8 +10,7 @@ reviewers: []
 notes: []
 ga_views: 0
 feedback: 0
-products: 
-  - EC
+products:
   - POS
 modules: 
   - 商品
@@ -26,6 +25,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents: 
   - 同步 EC 商品至 POS
@@ -37,8 +37,9 @@ features:
   - 庫存管理
 prerequisites: 
   - "所有商品-新增商品"
-related: 
-  - "EXCEL大量匯入商品"
+related:
+  - ec/products/create-and-manage/create-update-products/
+  - ec/products/bulk-operations/excel-import-products/
 tags: 
   - POS
   - 商品建立

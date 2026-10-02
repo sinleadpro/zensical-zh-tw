@@ -18,6 +18,7 @@ tags:
   - 詞彙表
   - 系統名詞
 permalink: "https://help.cyberbiz.io/resources/glossary/"
+plan_options: []
 ---
 <!-- [PDF :lucide-download:](#){ .md-button .md-button--primary } -->
 

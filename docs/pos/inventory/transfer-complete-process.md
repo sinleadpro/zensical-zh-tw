@@ -11,7 +11,6 @@ notes: []
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - POS
 modules:
   - 庫存
@@ -28,6 +27,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 理解調倉機制
@@ -37,7 +37,7 @@ features:
   - 調倉管理
   - 自動轉單
 prerequisites:
-  - "pos/inventory/transfer-orders"
+  - pos/inventory/transfer-orders/
 related: []
 tags:
   - 調倉流程

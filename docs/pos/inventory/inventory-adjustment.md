@@ -12,7 +12,6 @@ notes:
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - POS
 modules:
   - 商品
@@ -27,6 +26,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 手動調整庫存
@@ -39,9 +39,7 @@ features:
   - 匯入調整
   - 庫存調整報表
 prerequisites: []
-related:
-  - "pos/inventory/inventory-count"
-  - "pos/inventory/index"
+related: []
 tags:
   - 庫存調整
   - 盤盈盤虧

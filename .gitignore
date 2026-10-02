@@ -47,8 +47,10 @@ duckops/
 .stignore
 
 # Ann's files
+.cursorignore
 .cursorindexingignore
 .cursor/
 .vscode/
 workspace/
 CLAUDE.md
+AGENTS.md

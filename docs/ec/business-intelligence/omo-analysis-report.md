@@ -25,6 +25,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 查看 OMO 全通路經營數據
@@ -41,9 +42,10 @@ features:
 prerequisites:
   - 已開通 CYBERBIZ POS
 related:
-  - "ec/business-intelligence/revenue-analysis"
-  - "ec/business-intelligence/member-analysis"
-  - "ec/business-intelligence/customer-analysis"
+  - ec/business-intelligence/references/omo-definitions-reference/
+  - ec/business-intelligence/revenue-analysis/
+  - ec/business-intelligence/member-analysis/
+  - ec/business-intelligence/customer-analysis/
 tags:
   - OMO
   - 全通路

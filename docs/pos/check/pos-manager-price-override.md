@@ -21,6 +21,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 audiences:
   - merchant
@@ -37,7 +38,7 @@ features:
   - 離線模式自動轉單
 prerequisites: []
 related:
-  - docs/pos/check/customize-manager-price-override-display.md
+  - pos/check/customize-manager-price-override-display/
 tags:
   - POS
   - 店長改價

@@ -2,7 +2,7 @@
 title: 設定優惠碼
 description: 設定優惠碼（折扣、免運、贈品），包含基本設定、使用門檻、發送規則及結帳頁自動套用功能。
 created: 2026-05-27 13:55
-last_modified: 2026-07-20 14:50
+last_modified: 2026-10-01 14:59
 lang: zh-TW
 type: guide
 author: Ann
@@ -12,19 +12,17 @@ ga_views: 0
 feedback: 0
 products: 
   - EC
-modules: 
+modules:
   - 行銷活動
+  - 金物流
 sites: 
   - TW
 audiences: 
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 進階
-  - 高手
+plans: []
+plan_options: []
 cyb_extensions: []
 intents: 
   - 設定優惠碼
@@ -37,8 +35,10 @@ features:
   - 自動套用優惠
   - 免運折扣
 prerequisites: []
-related: 
-  - "設定全館折扣 – 紅利&優惠券"
+related:
+  - ec/marketing/coupon/multiple-coupons/
+  - ec/marketing/references/coupon-and-bonus-credit-rules/
+  - ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification/
 tags: 
   - 優惠碼
   - 贈品券
@@ -181,7 +181,7 @@ hide: []
 | **優惠券** | 於 **行銷活動 > 全館折扣-紅利&優惠券** 新增 | 不適用 |
 
 
-### 設定結帳頁自動套用優惠碼
+### 設定結帳頁自動套用優惠碼 { #operate-promo-codes-auto-apply }
 
 此功能可自動為符合條件的訂單套用優惠碼，不需消費者手動輸入。
 
@@ -268,6 +268,10 @@ hide: []
 - :lucide-layers-2:{ .lg }
   [__設定多張優惠券(碼)併用__](multiple-coupons.md)
   設定單筆訂單可使用的優惠券數量上限。
+
+- :lucide-wallet:{ .lg }
+  [__查看優惠券／紅利歸戶規則__](../references/coupon-and-bonus-credit-rules.md)
+  了解優惠券發送至會員帳戶的歸戶規則，以及訂單結案與退貨狀態對歸戶的影響。
 
 - :lucide-bell-ring:{ .lg }
   [__設定優惠券到期通知__](../purchase-restrictions/coupon-and-bonus-points-expiry-notification.md)

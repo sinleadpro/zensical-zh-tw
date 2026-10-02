@@ -21,11 +21,8 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 進階
-  - 高手
+plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 建立 VIP 群組標籤
@@ -87,7 +84,7 @@ hide: []
 ### 步驟 2：調整群組排序
 
 1. 在 VIP 設定列表頁面，找到右側的排序功能。
-2. 透過拖曳或調整數字，確保特定群組的優先權符合您的營運策略。
+2. 透過拖曳群組，確保特定群組的優先權符合您的營運策略。
 3. 點擊 **儲存排序**。
 
 

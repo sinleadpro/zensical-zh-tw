@@ -108,6 +108,7 @@ copyright = """
                 {"手動結案" = "ec/orders/order-settings/manual-order-close.md"},
                 {"提供付款連結" = "ec/orders/order-settings/provide-payment-link.md"},
                 {"超商條碼付款" = "ec/orders/order-settings/cvs-barcode-payment.md"},
+                {"超商代碼付款" = "ec/orders/order-settings/cvs-code-payment.md"},
                 {"未付款提醒" = "ec/orders/order-settings/unpaid-reminder-settings.md"},
                 {"處理付款失敗" = "ec/orders/payment-failed.md"},
                 {"託運單與貨態異常" = "ec/orders/order-settings/shipping-label-or-shipment-status-error.md"},
@@ -129,7 +130,9 @@ copyright = """
                 {"全家冷凍寄倉 B2C" = "ec/payments-and-logistics/setup-family-mart-frozen-b2c.md"},
                 {"全家冷凍店到店 C2C" = "ec/orders/cvs-shipping/family-mart-frozen-c2c.md"},
                 {"超商部分出貨" = "ec/orders/cvs-shipping/cvs-partial-shipment.md"},
-                {"熱感列印超商托運單" = "ec/orders/cvs-shipping/thermal-print-cvs-waybill.md"},
+                {"熱感列印超商託運單" = "ec/orders/cvs-shipping/thermal-print-cvs-waybill.md"},
+                {"託運單逾期重新取號" = "ec/orders/renew-waybill-after-expiration.md"},
+                {"超商託運單有效期限" = "ec/orders/references/cvs-waybill-expiration-reference.md"},
             ]},
             {"黑貓快速到店" = [
                 {"快速到店出貨" = "ec/orders/tcat-quick-store/tcat-quick-store-shipping.md"},
@@ -153,7 +156,7 @@ copyright = """
                 {"第三方支付人工退款" = "ec/orders/manual-refund-for-third-party-payment-orders.md"},
                 {"超過退貨期限" = "ec/orders/returns-refunds/overdue-return-handling.md"},
                 {"超商逾期未取" = "ec/orders/returns-refunds/cvs-unclaimed-order.md"},
-                {"超商退貨便 C2B" = "ec/orders/returns-refunds/cvs-c2b-return.md"},
+                {"7-11 C2B 退貨便" = "ec/orders/returns-refunds/cvs-c2b-return.md"},
                 {"7-11 C2C 退貨便" = "ec/orders/returns-refunds/7-11-c2c-return.md"},
                 {"取消與退款手續費" = "ec/orders/order-cancellation-refund-fees.md"},
             ]},
@@ -227,6 +230,7 @@ copyright = """
                 {"排除商品上傳至第三方平台" = "ec/products/bulk-operations/exclude-products-from-third-party-platforms.md"},
                 {"複製商品到快速到貨門市" = "ec/products/copy-products-to-quick-delivery-stores.md"},
                 {"複製商品至 POS 商店" = "ec/products/bulk-operations/copy-products-to-pos-stores.md"},
+                {"設定商品出貨方式" = "ec/products/bulk-operations/set-product-shipping-method.md"},
             ]},
             { "價格設定" = [
                 {"VIP 會員專屬價格" = "ec/products/pricing/setup-vip-member-pricing.md"}
@@ -305,7 +309,8 @@ copyright = """
             { "商品限購數量設定" = "ec/marketing/purchase-restrictions/purchase-limit.md" },
             { "參考資料" = [
                 { "結帳優惠計算順序" = "ec/marketing/discounts/checkout-discount-calculation-order.md" },
-                { "優惠碼紅利到期通知" = "ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification.md" },
+                { "優惠券紅利歸戶規則" = "ec/marketing/references/coupon-and-bonus-credit-rules.md" },
+                { "優惠券紅利到期通知" = "ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification.md" },
                 { "免運費設定" = "ec/marketing/free-shipping-settings.md" },
                 { "預填商品導購連結" = "ec/marketing/references/create-cart-link-specific-products.md" },
                 { "商品連結指定款式" = "ec/marketing/references/product-link-sku-auto-select-variant.md" },
@@ -811,6 +816,7 @@ copyright = """
             { "2026年5月" = "resources/new-release/2026-05.md" },
             { "2026年6月" = "resources/new-release/2026-06.md" },
             { "2026年7月" = "resources/new-release/2026-07.md" },
+            { "2026年8月" = "resources/new-release/2026-08.md" },
         ]},
     ]}
  ]

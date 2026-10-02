@@ -14,8 +14,8 @@ notes:
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - WMS
+  - EC
 modules:
   - 訂單
   - 商品
@@ -31,6 +31,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定出貨方式運費
@@ -44,7 +45,16 @@ features:
 prerequisites:
   - 需已開通 CYBERBIZ 電商倉儲服務
   - 需聯繫開店顧問或客服開通「部分串倉」功能
-related: []
+related:
+  - wms/enable-partial-warehouse-integration-and-mixed-orders/
+  - ec/products/bulk-operations/set-product-shipping-method/
+  - ec/payments-and-logistics/setup-home-delivery-non-cod-custom-logistics/
+  - ec/orders/cvs-shipping/cvs-partial-shipment/
+  - ec/orders/home-delivery/partial-shipment-v2/
+  - ec/orders/basics/order-management-interface/
+  - wms/returns-and-vehicle-dispatch/
+  - ec/orders/order-return-process/
+  - wms/logistics-settings-reference/
 tags: []
 acoiv: configure
 apis: []
@@ -58,6 +68,7 @@ ui_components:
 paths:
   - 金物流 > 宅配物流
   - 商品 > 所有商品
+  - 商品 > Excel 大量匯入商品
   - 訂單 > 所有訂單
 layouts: []
 wp_url:
@@ -76,7 +87,7 @@ hide: []
 { .subtitle }
 
 
-[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲
+[:lucide-layers:{ title="適用產品" }](../resources/conventions.md) | 電商官網 / 智慧倉儲
 { .doc-badge }
 
 ![](../assets/images/EC-後台-金物流-宅配物流-拆單畫面總覽01.png){ .hero-page }
@@ -86,8 +97,8 @@ hide: []
 - **拆單與混單模式比較**
     - **拆單模式（本篇）**：入倉商品與自出商品 **分開結帳**，產生多筆訂單，運費分別計算。
     - **混單模式**：入倉商品與自出商品 **合併結帳**，產生一筆訂單，運費可合併計算。相關設定請參考 [啟用部分串倉與混單](enable-partial-warehouse-integration-and-mixed-orders.md)。
-- **混單模式限制**
-    - **金流限制**：自行出貨訂單 **不支援貨到付款**。
+- **拆單模式限制**
+    - **物流限制**：自行出貨訂單 **不支援超商取貨**（結帳頁將自動隱藏超取選項）。
 
 ## 啟用設置
 
@@ -138,33 +149,13 @@ hide: []
     ![](../assets/images/EC-後台-金物流-宅配物流-新增自訂物流01.png){ .screenshot }
 
 
-### 步驟 3：更改商品出貨方式
+### 步驟 3：分配商品出貨來源
 
-將商品指向正確的出貨來源，支援三種操作方式：
+開通部分串倉後，系統會先將商品預設為 **倉庫出貨**。請依商品是否存放於倉庫，將不入倉商品改為 **自行出貨**。
 
-=== "單一商品修改"
-
-    1. 登入電商官網後台，前往 **商品 > 所有商品**，點擊欲修改商品。
-    2. 在 **設定** 頁籤中，找到 **出貨方式**，選擇適用物流。
-
-    ![](../assets/images/EC-後台-商品-所有商品-單筆設定出貨方式01.png){ .screenshot }
-
-
-=== "批次修改"
-
-    1. 在商品列表勾選多項商品。
-    2. 點選 **更多操作 > 設定出貨方式** 進行統一變更。
-
-        !!! warning "限制提醒"
-            若商店有開啟 **快速到貨** 或 **POS** 功能，該類商品不得更改出貨方式，批次勾選時請務必排除。
-    
-    ![](../assets/images/EC-後台-商品-所有商品-批次設定出貨方式01.png){ .screenshot }
-
-=== "Excel 大量匯入"
-
-    1. 在商品列表勾選商品後點選 **更多操作 > 匯出商品**。
-    2. 在 Excel 中找到 **出貨方式** 欄位進行修改。
-    3. 前往 **商品 > Excel 大量匯入商品**，上傳檔案。
+1. 整理商品清單，區分入倉商品與不入倉商品。
+2. 依照[設定商品出貨方式](../ec/products/bulk-operations/set-product-shipping-method.md)，更新商品的出貨方式。
+3. 入倉商品選擇對應的倉庫出貨方式；不入倉商品選擇 **自行出貨**。
 
 
 

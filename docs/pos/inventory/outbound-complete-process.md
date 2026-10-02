@@ -11,7 +11,6 @@ notes: []
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - POS
 modules:
   - 庫存
@@ -28,6 +27,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 理解出倉流程
@@ -38,7 +38,7 @@ features:
   - 出倉單
   - 進倉單
 prerequisites:
-  - "pos/inventory/outbound-orders"
+  - pos/inventory/outbound-orders/
 related: []
 tags:
   - 出倉流程

@@ -21,12 +21,13 @@ audiences:
 difficulty: intermediate
 tnb: branch
 plans:
-  - 企業
-  - 專業PLUS
   - 進階
-  - 進階PLUS
   - 高手
+  - 專業PLUS
+  - 進階PLUS
   - 高手PLUS
+  - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 如何設定 LINE Pay
@@ -38,7 +39,9 @@ features:
 prerequisites:
   - 以公司名義申請
   - 準備必要申請文件
-related: []
+related:
+  - ec/orders/manual-refund-for-third-party-payment-orders/
+  - ec/integrations/line/account-integration/setup-line-quick-login/
 tags:
   - LINE Pay
   - 金流

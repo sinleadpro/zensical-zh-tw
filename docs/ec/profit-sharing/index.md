@@ -2,7 +2,7 @@
 title: 了解分潤功能
 description: 了解分潤功能的運作機制、適用對象與情境，協助您選擇最適合的行銷分潤方案。
 created: 2026-02-06 00:00
-last_modified: 2026-06-30 10:52
+last_modified: 2026-09-18 14:10
 lang: zh-TW
 type: guide
 author: Ann
@@ -22,9 +22,15 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 企業
   - 進階
   - 高手
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
+plan_options: 
+  - standard
+  - optional
 cyb_extensions: []
 intents:
   - 了解分潤機制
@@ -35,10 +41,10 @@ features:
   - 註冊人分潤
 prerequisites: []
 related:
-  - "設定推薦人分潤方案"
-  - "設定註冊人分潤方案"
-  - "ec/profit-sharing/export-profit-sharing-reports"
-  - "ec/profit-sharing/query-profit-sharing-partners-and-codes"
+  - ec/profit-sharing/referrer-profit-sharing/
+  - ec/profit-sharing/registrant-profit-sharing/
+  - ec/profit-sharing/export-profit-sharing-reports/
+  - ec/profit-sharing/query-profit-sharing-partners-and-codes/
 tags: []
 acoiv: activate
 apis: []

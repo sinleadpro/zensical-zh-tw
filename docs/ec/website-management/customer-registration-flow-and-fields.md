@@ -22,6 +22,7 @@ audiences:
 difficulty: intermediate
 tnb: trunk
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 選擇註冊結帳模式
@@ -33,7 +34,9 @@ features:
   - 自訂註冊欄位
   - 註冊後跳轉
 prerequisites: []
-related: []
+related:
+  - ec/members/batch-import-and-edit-members/
+  - ec/notifications/manage-email-templates/
 tags: []
 acoiv: configure
 apis: []

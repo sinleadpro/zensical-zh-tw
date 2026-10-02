@@ -21,6 +21,7 @@ audiences:
 difficulty: beginner
 tnb: ""
 plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 查看訂單報表欄位
@@ -32,8 +33,7 @@ features:
   - 導購來源
   - UTM 參數
 prerequisites: []
-related:
-  - "ec/orders/reports/export-order-report"
+related: []
 tags:
   - 訂單報表
   - 折扣 欄位

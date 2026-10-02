@@ -20,14 +20,8 @@ audiences:
   - merchant
 difficulty: intermediate
 tnb: trunk
-plans:
-  - 專業
-  - 進階
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - Google Tag Manager
@@ -39,7 +33,7 @@ features:
   - 標籤管理
 prerequisites: []
 related:
-  - "ec/integrations/google/verify-tracking-tag-installation"
+  - ec/integrations/google/verify-tracking-tag-installation/
 tags:
   - GTM
   - 追蹤代碼

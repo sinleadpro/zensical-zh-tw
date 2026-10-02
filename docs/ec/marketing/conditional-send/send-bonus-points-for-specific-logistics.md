@@ -22,6 +22,7 @@ difficulty: beginner
 tnb: branch
 plans:
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 建立物流紅利活動
@@ -33,7 +34,8 @@ features:
 prerequisites:
   - "商店已開啟紅利點數功能"
   - "已完成基本物流方式設定"
-related: []
+related:
+  - ec/marketing/references/coupon-and-bonus-credit-rules/
 tags:
   - 行銷活動
   - 紅利回饋
@@ -117,3 +119,13 @@ hide: []
 
 ??? quote "可以設定「滿額才送物流紅利」嗎？"
     目前指定物流送紅利採「無門檻固定贈點」制，只要選擇該物流即贈送。若有金額門檻需求，建議改用「指定商品送紅利」並於文案引導消費者。
+
+## 更多操作
+
+<div class="grid cards" markdown>
+
+- :lucide-wallet:{ .lg }
+  [__優惠券／紅利歸戶規則__](../references/coupon-and-bonus-credit-rules.md)
+  說明消費回饋何時匯入會員帳戶，以及結案、退貨流程對紅利與優惠券歸戶的影響。
+
+</div>

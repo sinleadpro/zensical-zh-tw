@@ -22,14 +22,8 @@ audiences:
   - merchant
 difficulty: ""
 tnb: "trunk"
-plans:
-  - "專業"
-  - "進階"
-  - "高手"
-  - "專業PLUS"
-  - "進階PLUS"
-  - "高手PLUS"
-  - "企業"
+plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - "排除內部流量"
@@ -43,10 +37,8 @@ features:
   - "內部流量"
   - "不適用的參照連結網址"
 prerequisites:
-  - "ec/integrations/google/ga/setup-google-analytics"
-related:
-  - "ec/integrations/google/ga/setup-google-analytics"
-  - "ec/integrations/google/ga/google-analytics-advanced-tracking"
+  - ec/integrations/google/ga/setup-google-analytics/
+related: []
 tags:
   - "GA4"
   - "內部流量"

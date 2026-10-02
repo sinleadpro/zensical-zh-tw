@@ -11,7 +11,6 @@ notes: []
 ga_views: 0
 feedback: 0
 products:
-  - EC
   - POS
 modules:
   - 庫存
@@ -28,6 +27,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 建立進倉單
@@ -39,7 +39,9 @@ features:
   - 庫存點收
 prerequisites: []
 related:
-  - "pos/inventory/inbound-complete-process"
+  - pos/inventory/inbound-complete-process/
+  - pos/inventory/outbound-complete-process/
+  - pos/inventory/transfer-complete-process/
 tags:
   - 進倉單
   - 庫存管理

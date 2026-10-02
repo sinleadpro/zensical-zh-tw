@@ -20,11 +20,8 @@ audiences:
   - merchant
 difficulty: beginner
 tnb: trunk
-plans:
-  - 企業
-  - 專業
-  - 進階
-  - 高手
+plans: []
+plan_options: []
 cyb_extensions: []
 intents:
   - 設定任選折扣

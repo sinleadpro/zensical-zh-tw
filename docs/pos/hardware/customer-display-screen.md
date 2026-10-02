@@ -26,6 +26,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents:
   - 如何設定 POS 客顯螢幕
@@ -39,7 +40,10 @@ features:
   - 結帳加價購
   - 顧客資訊確認
 prerequisites: []
-related: []
+related:
+  - pos/software/drivers/
+  - pos/check/customer-display-interactive-games/
+  - ec/marketing/upsells/setup-order-upsell/
 tags:
   - POS 客顯
   - 數位看板

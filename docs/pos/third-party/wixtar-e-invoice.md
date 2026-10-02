@@ -25,6 +25,7 @@ plans:
   - 進階PLUS
   - 高手PLUS
   - 企業
+plan_options: []
 cyb_extensions: []
 intents: 
   - 串接 POS 電子發票
@@ -49,9 +50,8 @@ devices:
 ui_components: 
   - 發票設定
   - POS 商店列表
-paths: 
+paths:
   - 管理中心 > 發票設定 > POS
-  - POS 功能 > 所有 POS 商店
 layouts: []
 wp_url:
   - https://www.cyberbiz.io/support/?p=46379
