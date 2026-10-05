@@ -328,7 +328,7 @@ hide:
           <li class="release-feature-row">
             <span class="release-feature-name">置頂公告｜多版位排程輪播功能</span>
             <span class="release-feature-tags">
-              <span class="release-version-tag">#拖拉版型</span>
+              <span class="release-version-tag-2">#拖拉版型</span>
             </span>
           </li>
           <li class="release-feature-row">
@@ -373,7 +373,7 @@ hide:
           <li class="release-feature-row">
             <span class="release-feature-name">自訂排版設計支援手機版多列並排顯示</span>
             <span class="release-feature-tags">
-              <span class="release-version-tag">#拖拉版型</span>
+              <span class="release-version-tag-2">#拖拉版型</span>
             </span>
           </li>
           <li class="release-feature-row">
@@ -398,6 +398,9 @@ hide:
           </li>
           <li class="release-feature-row">
             <span class="release-feature-name">VIP 會員層級效期新增無期限設定</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag">#企業版</span>
+            </span>
           </li>
           <li class="release-feature-row">
             <span class="release-feature-name">結帳頁自動帶入紅利點數開關</span>
