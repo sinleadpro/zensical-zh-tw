@@ -318,11 +318,11 @@ hide:
   將目前查詢結果匯出為 Excel／CSV，便於財會對帳或客服查詢。
 
 - :lucide-reply:{ .lg }  
-  [__訂單退貨流程__](../order-return-process.md){ title="訂單退貨流程" }  
+  [__訂單退貨退款流程__](../order-return-process.md){ title="訂單退貨退款流程" }  
   了解從訂單發起退貨的完整流程與注意事項。
 
 - :lucide-rotate-ccw:{ .lg }  
-  [__訂單退款流程__](../order-refund-process.md){ title="訂單退款流程" }  
+  [__退款方式與作業__](../order-refund-process.md){ title="退款方式與作業" }  
   掌握訂單退款的情境與操作步驟。
 
 </div>

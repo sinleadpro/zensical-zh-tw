@@ -69,7 +69,7 @@ hide: []
 
 - [x] **配送狀態限制**：僅有配送狀態為「**未出貨**」的訂單可以執行取消。
     *   若訂單狀態為「準備出貨」，需先將其調整回「未出貨」方可取消。
-    *   若訂單已處於「已出貨」狀態，則無法取消，必須改走 [退貨](../order-return-process.md){ title="訂單退貨流程" }、[退款](../order-refund-process.md){ title="訂單退款流程" } 流程。
+    *   若訂單已處於「已出貨」狀態，則無法取消，必須改走 [退貨](../order-return-process.md){ title="訂單退貨退款流程" }、[退款](../order-refund-process.md){ title="退款方式與作業" } 流程。
 - [x] **整筆取消**：系統僅支援 **整筆訂單取消**，不支援部分取消。
 - [x] **不可逆性**：按下取消按鈕後，訂單狀態會變更為「已取消」，此狀態通常 **無法再還原**（除非是特定的付款失敗情境）。
 
@@ -270,11 +270,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-receipt:{ .lg }   
-  [__訂單退款流程__](../order-refund-process.md){ title="訂單退款流程" }       
+  [__退款方式與作業__](../order-refund-process.md){ title="退款方式與作業" }       
   若訂單涉及付款，取消後可參考退款流程將款項退還顧客。
 
 - :lucide-package-minus:{ .lg }   
-  [__訂單退貨流程__](../order-return-process.md){ title="訂單退貨流程" }       
+  [__訂單退貨退款流程__](../order-return-process.md){ title="訂單退貨退款流程" }       
   若訂單已出貨無法取消，需改走退貨流程處理商品回收與退款。
 
 - :lucide-file-text:{ .lg }   

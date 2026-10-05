@@ -151,8 +151,8 @@ copyright = """
             ]},
             {"退貨與退款" = [
                 {"會員退貨申請功能" = "ec/orders/member-return-request-feature.md"},
-                {"訂單退貨流程" = "ec/orders/order-return-process.md"},
-                {"訂單退款流程" = "ec/orders/order-refund-process.md"},
+                {"訂單退貨退款流程" = "ec/orders/order-return-process.md"},
+                {"退款方式與作業" = "ec/orders/order-refund-process.md"},
                 {"第三方支付人工退款" = "ec/orders/manual-refund-for-third-party-payment-orders.md"},
                 {"超過退貨期限" = "ec/orders/returns-refunds/overdue-return-handling.md"},
                 {"超商逾期未取" = "ec/orders/returns-refunds/cvs-unclaimed-order.md"},

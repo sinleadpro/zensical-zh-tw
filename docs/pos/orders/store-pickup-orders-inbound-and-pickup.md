@@ -173,7 +173,7 @@ hide: []
     > 訂單狀態將變更為 **退貨中**。
 
 3. 門市人員將包裹妥善包裝後，寄回總倉。
-4. 待總倉管理員於管理後台執行 [退貨審查](../../ec/orders/order-return-process.md#步驟-2執行退貨審查) 後，完成退貨程序。
+4. 待總倉管理員於管理後台執行 [退貨審查](../../ec/orders/order-return-process.md#operate-order-return-reverse) 後，完成退貨程序。
 
 ### 場景二：顧客取貨回家後辦理退貨
 
@@ -189,7 +189,7 @@ hide: []
     - [宅配通逆物流](../../ec/payments-and-logistics/setup-pelican-waybill-v2.md#operate-pelican-shipping-reverse) 
     - [新竹物流逆物流](../../ec/payments-and-logistics/setup-hct-waybill-v2.md#operate-hct-setup-reverse) 
 
-4. 包裹回倉後，由管理員於後台進行 [退貨審查](../../ec/orders/order-return-process.md#步驟-2執行退貨審查)，並執行後續退款作業。
+4. 包裹回倉後，由管理員於後台進行 [退貨審查](../../ec/orders/order-return-process.md#operate-order-return-reverse)，並執行後續退款作業。
 
 
 ## 特殊情境處理
