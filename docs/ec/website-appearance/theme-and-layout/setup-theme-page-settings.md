@@ -310,6 +310,8 @@ comments: false
         === "全顯示"
 
             ![商品分類 - 分類樣式-全顯示](../../../assets/images/ec-website-appearance-collection-category-style-all.png) 
+    
+    [](){ #operate-page-settings-hover-effect }
 
     - **商品圖游標懸停效果**：快速加入購物車按鈕、圖片切換、陰影／邊框強調、放大效果。
 
