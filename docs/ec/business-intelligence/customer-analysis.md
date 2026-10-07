@@ -2,7 +2,7 @@
 title: 消費顧客分析
 description: 以第一次下單時間切分新客與舊客，深入比較顧客數、訂單貢獻與回購表現。
 created: 2026-06-16 00:00
-last_modified: 2026-07-10 15:58
+last_modified: 2026-10-07 11:30
 lang: zh-TW
 type: guide
 author: Jase
@@ -21,9 +21,6 @@ audiences:
 difficulty: beginner
 tnb: branch
 plans:
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
   - 企業
 plan_options: []
 cyb_extensions: []
