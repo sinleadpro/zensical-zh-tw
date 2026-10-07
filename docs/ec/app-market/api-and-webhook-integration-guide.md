@@ -170,7 +170,7 @@ API串接項目依照顏色簡單分類：
 串接 API 時，請在 Request Header 中帶入 Access Token。
 
 - **API Endpoint**：`https://app-store-api.cyberbiz.io/`
-- **API Token**：前往 **APP MARKET > 我的擴充服務**，於 **自訂** 頁籤選擇指定 API，複製 **API Token**。
+- **API Token**：前往 **APP MARKET > 我的擴充服務**，於 **自訂** 頁籤選擇指定自訂應用程式，複製 **API Token**。
 
     ![](../../assets/images/EC-後台-appmarket-我的擴充服務-取得api_token01.png){ .screenshot }
 
