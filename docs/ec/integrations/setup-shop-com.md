@@ -2,7 +2,7 @@
 title: 串接美安通路
 description: 串接 CYBERBIZ 官網與美安 (SHOP.COM)，透過經銷商會員管道銷售商品並增加品牌曝光。
 created: 2026-03-30 22:08
-last_modified: 2026-07-21 10:00
+last_modified: 2026-10-07 17:20
 lang: zh-TW
 type: guide
 author: Jase
@@ -172,7 +172,7 @@ hide: []
 
 ??? quote "如果企業版操作部分退款，美安會退還退款部份抽成嗎？"
 
-    目前未支援部分退款機制，將計算整筆訂單抽成。
+    部分退款不影響抽成，抽成時將以整筆訂單金額計算。
 
 ??? quote "美安測試訂單相關問題？"
 

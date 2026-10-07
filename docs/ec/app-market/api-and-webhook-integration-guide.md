@@ -2,7 +2,7 @@
 title: API 與 Webhook 串接指南
 description: 了解如何透過 API 與 Webhook 服務串接外部系統（如 ERP、CRM），實現自動化數據同步與即時通知。
 created: 2026-06-11 14:45
-last_modified: 2026-09-18 14:10
+last_modified: 2026-10-07 16:20
 lang: zh-TW
 type: guide
 author: Ann
@@ -170,10 +170,10 @@ API串接項目依照顏色簡單分類：
 串接 API 時，請在 Request Header 中帶入 Access Token。
 
 - **API Endpoint**：`https://app-store-api.cyberbiz.io/`
+- **API Token**：前往 **APP MARKET > 我的擴充服務**，於 **自訂** 頁籤選擇指定 API，複製 **API Token**。
 
-使用 Bearer Token Access API
+    ![](../../assets/images/EC-後台-appmarket-我的擴充服務-取得api_token01.png){ .screenshot }
 
-`Authorization: Bearer {access_token got from /admin/oauth/token}`
 
 範例
 
