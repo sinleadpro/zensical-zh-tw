@@ -1,7 +1,7 @@
 ---
 title: 新功能報報
 description: "CYBERBIZ 新功能報報，依月份彙整最新上線功能與功能優化內容。"
-last_modified: 2026-10-02 16:01
+last_modified: 2026-10-08 10:01
 type: hub
 lang: zh-TW
 author: Ann
@@ -321,6 +321,40 @@ hide:
 
   <div>
     <div class="release-timeline">
+      <a class="release-month-card" href="2026-09.md">
+        <div class="release-month">2026 / 09 月更新</div>
+        <div class="release-divider" aria-hidden="true"></div>
+        <ul class="release-features">
+          <li class="release-feature-row">
+            <span class="release-feature-name">蝦皮訂單同步與批次出貨功能 #ALPHA</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag">#企業版</span>
+              <span class="release-version-tag">#PLUS版</span>
+            </span>
+          </li>
+          <li class="release-feature-row">
+            <span class="release-feature-name">超商託運單過期後可重新要號</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag-2">#CYBERBIZ PAYMENTS</span>
+            </span>
+          </li>
+          <li class="release-feature-row">
+            <span class="release-feature-name">對帳單整合 LINE Pay 撥款資訊</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag">#企業版</span>
+              <span class="release-version-tag">#PLUS版</span>
+            </span>
+          </li>
+          <li class="release-feature-row">
+            <span class="release-feature-name">超商代碼繳費功能</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag-2">#CYBERBIZ PAYMENTS</span>
+            </span>
+          </li>
+        </ul>
+        <span class="release-arrow" aria-hidden="true">›</span>
+      </a>
+
       <a class="release-month-card" href="2026-08.md">
         <div class="release-month">2026 / 08 月更新</div>
         <div class="release-divider" aria-hidden="true"></div>
