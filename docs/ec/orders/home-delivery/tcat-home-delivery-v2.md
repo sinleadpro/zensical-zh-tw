@@ -79,7 +79,7 @@ icon: lucide/cat
 hide: []
 ---
 
-![訂單列表-下載黑貓托運單改為已出貨](../../../assets/images/EC-訂單列表-下載黑貓托運單-hero.png){ title="訂單列表-下載黑貓托運單改為已出貨" .hero-page }
+![訂單列表-下載黑貓托運單改為已出貨](../../../assets/images/EC-後台-訂單-所有訂單-列印黑貓出貨文件01.png){ title="訂單列表-下載黑貓托運單改為已出貨" .hero-page }
 
 ## 黑貓宅配出貨說明
 
