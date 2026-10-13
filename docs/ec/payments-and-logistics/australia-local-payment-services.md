@@ -2,7 +2,7 @@
 title: 澳洲落地版金流服務
 description: 澳洲落地版透過與 Airwallex 合作，提供商家穩定且多元的在地金流服務。本文將引導您完成從帳戶申請、官網合規審核到後台 API 串接的完整流程。
 created: 2026-03-03 00:00
-last_modified: 2026-06-30 08:52
+last_modified: 2026-10-13 10:20
 lang: zh-TW
 type: guide
 author: Ann
@@ -66,6 +66,8 @@ hide: []
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用方案) | 跨境電商 (澳洲落地版)
 { .doc-badge }
 
+![](../../assets/images/澳洲站-後台-金物流-金流設定-畫面總覽01.png){ .hero-page }
+
 ## 使用須知
 
 - **費用規範**：有關帳戶月費、金流手續費及撥款機制，請參閱 [Airwallex 官方定價說明](https://www.airwallex.com/au/pricing)。
@@ -112,7 +114,11 @@ hide: []
 
 1. 提供您的官網連結給 Airwallex 服務窗口進行評估。
 2. 評估完成後，進入 Airwallex 後台的 **收單** 頁面。
-3. 依據 Airwallex 指示完成激活流程，並選擇 CYBERBIZ 平台支援的金流選項。
+3. 依據 Airwallex 指示 [新增支付方式](https://www.airwallex.com/docs/payments/get-started/payment-method-activation)，並選擇 CYBERBIZ 平台支援的付款方式。
+
+    - **CYBERBIZ 支援的付款方式**：信用卡、Apple Pay、Google Pay、Afterpay。
+
+4. 視需要[開啟或關閉支付方式](https://help.airwallex.com/hc/en-gb/articles/5898028587279-How-do-I-enable-or-disable-a-payment-method)。
 
 ![](../../assets/images/Airwallex-前台-會員頁-收單-開啟收單功能01.png)
 
@@ -134,7 +140,7 @@ hide: []
     ![](../../assets/images/澳洲站-後台-金物流-金流設定-啟用金流01.png)
 3. 於 **啟用設定** 區塊，填入剛複製的 **CLIENT ID** 與 **API 密鑰**。
     ![](../../assets/images/澳洲站-後台-金物流-金流設定-串接API密鑰01.png)
-4. 勾選欲在官網開啟的付款方式（如：Visa、Mastercard、Google Pay 等）。
+4. 勾選欲在官網開啟的付款方式。
     ![](../../assets/images/澳洲站-後台-金物流-金流設定-開啟付款方式01.png)
 5. 點擊儲存，即可完成金流啟用。
 
