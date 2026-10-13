@@ -55,7 +55,8 @@ ui_components:
 paths:
   - 金物流 > 結帳頁 & 物流設定 > 定期定額購物車設定
   - 行銷活動 > 定期訂購活動頁
-  - 金物流 > 宅配物流 / 超商物流
+  - 金物流 > 宅配物流
+  - 金物流 > 超商物流
 layouts: []
 wp_url: 
   - https://www.cyberbiz.io/support/?p=53869
