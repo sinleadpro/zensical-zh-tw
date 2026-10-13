@@ -141,7 +141,7 @@ hide: []
     
     === "快遞上門取件"
 
-        若選擇 **快遞上門取件**，從下拉式選單選擇 Ninja Van 提供的取件資訊，並填寫取件日期、時間與備註。
+        若選擇 **快遞上門取件**，請填寫取件日期、時間與備註。
 
         ![](../../../assets/images/EC-後台-APPMARKET-建立ninja託運單05.png){ .small-image }
 
@@ -153,7 +153,7 @@ hide: []
 1. 在建立託運單視窗中，勾選要列印的文件。
 2. 點選 **直接列印**。
 
-    ![](../../../assets/images/EC-後台-APPMARKET-建立ninja託運單02.png){ .screenshot }
+    ![](../../../assets/images/EC-後台-APPMARKET-建立ninja託運單02.png){ .small-image }
 
 3. 系統開啟瀏覽器列印預覽頁，依照以下順序排列文件：
 
