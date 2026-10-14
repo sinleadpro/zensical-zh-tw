@@ -82,7 +82,7 @@ CYBER 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
 <div class="grid cards" markdown>
 
 - :lucide-wallet:
-  [__CYBER 幣購買中心__](#cyber-coin-balance)  
+  [__CYBER 幣購買中心__](#overview-cyber-coin-balance)
 
 - :lucide-message-square:
   [__簡訊追蹤服務__](#sms)   
@@ -94,17 +94,17 @@ CYBER 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
   [__立即購買 CYBER 幣__](#operate-cyber-coin-deposit)  
 
 - :lucide-receipt:
-  [__儲值紀錄__](#cyber-coin-deposit-history)   
+  [__儲值紀錄__](#overview-cyber-coin-deposit)
 
 - :lucide-file-text:
-  [__明細紀錄__](#cyber-coin-transaction-history)   
+  [__明細紀錄__](#overview-cyber-coin-transactions)
 
 - :lucide-download:
-  [__明細匯出__](#cyber-coin-transactions-export)   
+  [__明細匯出__](#operate-cyber-coin-export)
 
 </div>
 
-## 查詢 CYBER 幣餘額 { #cyber-coin-balance }
+## 查詢 CYBER 幣餘額 { #overview-cyber-coin-balance }
 
 顯示目前餘額，提供儲值入口
 
@@ -224,7 +224,7 @@ CYBER 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
 
         - 轉帳完成後，系統確認款項後 CYBER 幣將自動入帳。
 
-## 查詢儲值紀錄 { #cyber-coin-deposit-history }
+## 查詢儲值紀錄 { #overview-cyber-coin-deposit }
 
 頁面下方「**儲值紀錄**」表格顯示所有歷次儲值交易：
 
@@ -241,7 +241,7 @@ CYBER 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
     表格右上角搜尋框支援對 **當前頁** 所有欄位做 **部分比對**（不分大小寫）。例如輸入 `AB12` 可比對到發票號碼含此字串的列。                   
     *搜尋僅作用於已載入的當前頁資料，不支援跨頁搜尋。*
 
-## 查詢 CYBER 幣使用明細 { #cyber-coin-transaction-history }
+## 查詢 CYBER 幣使用明細 { #overview-cyber-coin-transactions }
 
 頁面下方「**明細紀錄**」表格顯示 CYBER 幣的消費記錄：
 
@@ -256,7 +256,7 @@ CYBER 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
 
 ![明細紀錄](../../assets/images/ec-管理中心-儲值中心-明細紀錄.png)
 
-## 匯出 CYBER 幣使用明細 { #cyber-coin-transactions-export }
+## 匯出 CYBER 幣使用明細 { #operate-cyber-coin-export }
 
 如需下載報表進行對帳或分析，可使用「**明細匯出**」功能：
 
