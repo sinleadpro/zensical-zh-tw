@@ -104,6 +104,7 @@ copyright = """
             {"設定與流程" = [
                 {"訂單明細設定" = "ec/orders/order-settings/order-detail-print.md"},
                 {"出貨明細設定" = "ec/orders/order-settings/shipping-detail-print.md"},
+                {"出貨文件列印排序" = "ec/orders/order-settings/setup-shipping-docs-sort.md"},
                 {"自動結案" = "ec/orders/order-settings/auto-close-order-settings.md"},
                 {"手動結案" = "ec/orders/order-settings/manual-order-close.md"},
                 {"提供付款連結" = "ec/orders/order-settings/provide-payment-link.md"},
@@ -491,6 +492,7 @@ copyright = """
                 {"日到台宅配" = "ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery.md"},
                 {"日到台日本郵局(EMS) " = "ec/app-market/express/cyberbiz-express-ems.md"},
                 {"日到台 7-11 超取" = "ec/app-market/express/cyberbiz-express-711.md"},
+                {"新加坡與馬來西亞 Ninja Van 宅配" = "ec/app-market/express/cyberbiz-express-ninja-van.md"},
                 {"EZWAY 訂閱服務" = "ec/app-market/express/ezway.md"},
                 {"商品資訊設定" = "ec/app-market/express/product-info-setting.md"},
                 {"貨態追蹤與查詢" = "ec/app-market/express/order-tracking-and-query.md"},
@@ -818,6 +820,7 @@ copyright = """
             { "2026年6月" = "resources/new-release/2026-06.md" },
             { "2026年7月" = "resources/new-release/2026-07.md" },
             { "2026年8月" = "resources/new-release/2026-08.md" },
+            { "2026年9月" = "resources/new-release/2026-09.md" },
         ]},
     ]}
  ]

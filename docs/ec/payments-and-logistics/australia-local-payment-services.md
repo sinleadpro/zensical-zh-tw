@@ -114,9 +114,9 @@ hide: []
 
 1. 提供您的官網連結給 Airwallex 服務窗口進行評估。
 2. 評估完成後，進入 Airwallex 後台的 **收單** 頁面。
-3. 依據 Airwallex 指示 [新增支付方式](https://www.airwallex.com/docs/payments/get-started/payment-method-activation)，並選擇 CYBERBIZ 平台支援的付款方式。
+3. 依據 Airwallex 指示[新增支付方式](https://www.airwallex.com/docs/payments/get-started/payment-method-activation)，並選擇 CYBERBIZ 平台支援的付款方式。
 
-    - **CYBERBIZ 支援的付款方式**：信用卡、Apple Pay、Google Pay、Afterpay。
+    - **CYBERBIZ 支援付款方式**：信用卡、Apple Pay、Google Pay、Afterpay。
 
 4. 視需要[開啟或關閉支付方式](https://help.airwallex.com/hc/en-gb/articles/5898028587279-How-do-I-enable-or-disable-a-payment-method)。
 
