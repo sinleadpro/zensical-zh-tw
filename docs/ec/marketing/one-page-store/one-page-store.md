@@ -281,7 +281,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-share-2:{ .lg }     
-  [__製作一頁式商店推薦碼連結__](../../profit-sharing/referral-link-applications.md#referral-link-applications-example)  
+  [__製作一頁式商店推薦碼連結__](../../profit-sharing/referral-link-applications.md#overview-referral-link-example)
   了解如何製作帶有推薦碼的網址連結。
 
 </div>
