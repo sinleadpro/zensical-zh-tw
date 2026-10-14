@@ -97,14 +97,14 @@ hide: []
 ## 使用前提與限制 { #prerequisites-customer-verification }
 
 - [x] **欄位需先設定為必填**：若 Email 或手機欄位是「選填」，對應的驗證開關會被鎖定。請先到同頁面的「資料欄位設定」區塊將欄位設為「必填」。
-- [x] **手機驗證會產生簡訊費用**：詳見 [計費規則](#pricing-customer-verification)。
+- [x] **手機驗證會產生簡訊費用**：詳見 [計費規則](#specs-customer-verification-pricing)。
 - [x] **至少一項欄位必填**：Email 或手機至少一項需設為必填，系統不允許兩者皆為選填。
 
 !!! plan "方案 / 開通條件"
     * **手機驗證(顧客手機驗證)**：多數方案內建，新店家預設開通。
     * **新版欄位設定**：**企業版** 才會顯示新版「資料欄位設定」與「顧客驗證方式」介面。
 
-## 計費規則 { #pricing-customer-verification }
+## 計費規則 { #specs-customer-verification-pricing }
 
 * **電子郵件驗證**：免費。
 * 簡訊與 Email 樣板內容皆可於 **訊息推播** > **Email / 簡訊通知樣板** > **顧客相關** > **顧客帳號啟用提醒** 自訂。

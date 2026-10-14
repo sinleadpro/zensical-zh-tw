@@ -99,7 +99,7 @@ hide: []
 - **PLUS版 / 企業版**：無須事先儲值。每筆運費將計入「對帳中心」，於每期對帳單一次結清。
 
 ??? tip "如何查詢扣款明細"
-     一般版商家可至 **儲值中心 > 明細紀錄** [查詢扣款歷程](../../website-management/points-deposits.md#cyber-coin-transaction-history){ title="查詢 CYBER 幣使用明細" data-preview }；PLUS版 / 企業版 商家可至 **對帳中心** 查詢月結帳單。
+     一般版商家可至 **儲值中心 > 明細紀錄** [查詢扣款歷程](../../website-management/points-deposits.md#overview-cyber-coin-transactions){ title="查詢 CYBER 幣使用明細" data-preview }；PLUS版 / 企業版 商家可至 **對帳中心** 查詢月結帳單。
 
 ---
 
@@ -118,8 +118,8 @@ hide: []
 
 - [x] **領取黑貓三聯空白託運單貼紙**：致電黑貓宅急便 (02-412-8888) 領取「三聯空白託運單貼紙」(俗稱 A4 三模託運單)。若選擇 A4
 一般列印，系統列印的內容必須印在這款貼紙上，司機才會收件。
-- [x] **黑貓寄件人地址**：至「金物流」>「[黑貓託運單](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" }」設定寄件人地址，若無設定則會導致出貨時出現「寄件人資訊不完整」的通知。
-- [x] **確認餘額或對帳狀態**：一般版商家請至 [儲值中心查看 CYBER 幣餘額](../../website-management/points-deposits.md#cyber-coin-balance){ title="查詢 CYBER 幣餘額" data-preview }，確認足以支付運費；PLUS版 /
+- [x] **黑貓寄件人地址**：至「金物流」>「[黑貓託運單](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-sender-settings){ title="設定寄件人資訊" }」設定寄件人地址，若無設定則會導致出貨時出現「寄件人資訊不完整」的通知。
+- [x] **確認餘額或對帳狀態**：一般版商家請至 [儲值中心查看 CYBER 幣餘額](../../website-management/points-deposits.md#overview-cyber-coin-balance){ title="查詢 CYBER 幣餘額" data-preview }，確認足以支付運費；PLUS版 /
 企業版商家無此限制。
 - [x] **列印設備建議**：建議使用 **雷射印表機** 列印託運單，避免出貨條碼判讀異常。
 
@@ -136,7 +136,7 @@ hide: []
 4. **設定彈出視窗內欄位**：在「進行出貨/列印文件」視窗中依序設定
     * **請選擇溫層**：選擇 **常溫** 、 **低溫(冷藏)** 或 **低溫(冷凍)** 。請確保 **規格與實寄包裹一致**。
     * **是否為易碎品**：選擇 **是** 或 **否** 。
-    * **寄件地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [黑貓設定](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" } 中的地址），如需更改可於視窗內點擊 **「更改」** 按鈕編輯[^3]。
+    * **寄件地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [黑貓設定](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-sender-settings){ title="設定寄件人資訊" } 中的地址），如需更改可於視窗內點擊 **「更改」** 按鈕編輯[^3]。
 
 5. **勾選欲列印的文件**：在 **請選擇欲列印文件** 勾選本次要印的種類。預設勾選 **託運單** 與 **同步下載所有文件**。
 
@@ -245,8 +245,8 @@ hide: []
     通常為以下原因之一：
 
     * **瀏覽器阻擋彈跳視窗**：請檢查瀏覽器是否阻擋了彈跳視窗或廣告，允許本站彈跳視窗後重新點擊下載。
-    * **CYBER 幣不足(一般版商家)**：請至 [儲值中心](../../website-management/points-deposits.md#cyber-coin-balance){ title="查詢 CYBER 幣餘額" data-preview } 儲值。
-    * **黑貓寄件人地址未設定**：至 金物流 > [黑貓託運單](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" } 完成設定。
+    * **CYBER 幣不足(一般版商家)**：請至 [儲值中心](../../website-management/points-deposits.md#overview-cyber-coin-balance){ title="查詢 CYBER 幣餘額" data-preview } 儲值。
+    * **黑貓寄件人地址未設定**：至 金物流 > [黑貓託運單](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-sender-settings){ title="設定寄件人資訊" } 完成設定。
     * **未勾選同意條款**：確認彈出視窗下方「我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 黑貓合約規範」已勾選。
 
 ??? quote "沒有「進行出貨/列印文件」選項"

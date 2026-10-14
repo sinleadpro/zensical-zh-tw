@@ -94,7 +94,7 @@ hide: []
 - [x] **公司聯絡資訊**：開通前須至 **「一般設定」** 填妥[公司聯絡資訊](../../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="設定網站基本資訊" }，否則無法完成 GMC 串接。
 - [x] **GMC 帳號**：須選擇 **「CYBERBIZ 代管」** 或提供 **「商家自有帳號」**，二擇一進行串接。
 
-## 計費規則 { #pricing-automated-ads }
+## 計費規則 { #specs-automated-ads-pricing }
 
 | 項目 | 規則 |
 | :-- | :-- |

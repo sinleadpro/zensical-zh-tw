@@ -104,7 +104,7 @@ hide: []
 
 ---
 
-### 計費規則 { #pricing-hct-shipping }
+### 計費規則 { #specs-hct-shipping-pricing }
 
 扣費方式依方案而定：
 
