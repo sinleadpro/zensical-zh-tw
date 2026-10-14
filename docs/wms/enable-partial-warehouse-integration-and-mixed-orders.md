@@ -92,7 +92,7 @@ hide: []
 
 ![](../assets/images/EC-後台-金物流-宅配物流-混單畫面總覽01.png){ .hero-page }
 
-## 使用須知
+## 使用須知 { #prerequisites-partial-mixed }
 
 - **拆單與混單模式比較**
     - **拆單模式**：入倉商品與自出商品 **分開結帳**，產生多筆訂單，運費分別計算。相關設定請參考 [啟用部分串倉與拆單](enable-partial-warehouse-integration-and-order-splitting.md)。
@@ -101,19 +101,19 @@ hide: []
     - **物流限制**：混合訂單 **不支援超商取貨**（結帳頁將自動隱藏超取選項）。
     - **金流限制**：混合訂單 **不支援串接宅配貨到付款**。
 
-## 啟用設置
+## 啟用設置 { #operate-partial-mixed-setup }
 
-### 步驟 1：開通與系統初始化
+### 步驟 1：開通與系統初始化 { #operate-partial-mixed-init }
 
 1. **功能申請**：如需使用此功能，請先洽詢您的開店顧問或客服人員協助開通。
 2. **自動配置**：開通當下，系統會自動執行以下變更：
     - 將所有現有的物流運費設定改為 **串倉（倉庫出貨）**。
     - 將所有商品的預設出貨方式改為 **倉庫出貨**。
-3. **自訂物流準備**：請先至 **金物流 > 宅配物流 > 自訂物流**，完成 [物流選項設定](enable-partial-warehouse-integration-and-order-splitting/#步驟-2物流選項設定)。
+3. **自訂物流準備**：請先至 **金物流 > 宅配物流 > 自訂物流**，完成 [物流選項設定](enable-partial-warehouse-integration-and-order-splitting/#operate-partial-split-logistics)。
 4. [設定商品出貨方式](../ec/products/bulk-operations/set-product-shipping-method.md)：將自行出貨商品綁定 **自行出貨** 的物流選項，倉庫商品維持對應的倉庫出貨方式。
 
 
-### 步驟 2：設定混合物流
+### 步驟 2：設定混合物流 { #operate-partial-mixed-logistics }
 
 混合物流的作用是定義 **當訂單同時含入倉與自出商品時** 應套用的規則。
 
@@ -135,7 +135,7 @@ hide: []
 ![](../assets/images/EC-後台-金物流-宅配物流-新增混合物流01.png){ .screenshot }
 
 
-## 出貨與訂單管理
+## 出貨與訂單管理 { #operate-partial-mixed-orders }
 
 === "顧客結帳體驗"
 
@@ -158,7 +158,7 @@ hide: []
         
     4. **倉庫出貨單**：系統會自動將訂單推送至 WMS，商家僅需觀察貨態更新。
 
-### 辨別訂單出貨主體
+### 辨別訂單出貨主體 { #operate-partial-mixed-source }
 
 在訂單列表的 **出貨方式** 欄位中，您可以快速識別該筆訂單的出貨責任方：
 
@@ -171,7 +171,7 @@ hide: []
 
 ![](../assets/images/EC-後台-訂單-所有訂單-混單出貨方式01.png){ .screenshot }
 
-### 混合訂單的配送狀態演變
+### 混合訂單的配送狀態演變 { #specs-partial-mixed-status }
 
 由於混合訂單具備雙出貨方，其配送狀態將依據雙方的 **作業完成度** 進行聯動更新：
 
@@ -182,15 +182,15 @@ hide: []
 | **已收貨** | 雙方貨態皆更新為已收貨 | 兩方貨件皆已交付消費者 | 
 
 
-## 退貨流程與情境
+## 退貨流程與情境 { #operate-partial-mixed-returns }
 
-### 退貨規範
+### 退貨規範 { #specs-partial-mixed-return-rules }
 
 - **退貨方式**：依照 EC [訂單退貨流程](../ec/orders/order-return-process.md)。
 - **統一窗口**：不論是倉庫商品或自出商品，混合訂單的退貨包裹預設皆寄回 **商家指定地址**。
-- **倉庫商品回倉**：若商家收到倉庫商品後欲退回 WMS 倉庫，需手動於 WMS 後台[建立退貨單（逆物流）](return-orders.md#方式二手動建立退貨單)。
+- **倉庫商品回倉**：若商家收到倉庫商品後欲退回 WMS 倉庫，需手動於 WMS 後台[建立退貨單（逆物流）](return-orders.md#operate-return-orders-manual)。
 
-### 退貨情境限制
+### 退貨情境限制 { #prerequisites-partial-mixed-return-limits }
 
 | 訂單狀態 | 能否操作退貨 | 說明 |
 | :--- | :--- | :--- | 
@@ -199,7 +199,7 @@ hide: []
 | **已收貨** | **皆可** | 商家與顧客皆可正常操作 |
 
 
-## 常見問題
+## 常見問題 { #faq-partial-mixed }
 
 ??? quote "建立混合物流後，可以修改其中的自訂物流嗎？"
     不行。若修改自訂物流，可能導致與倉庫設定不再有交集，混合物流會無法使用。請先到混合物流 **取消綁定自訂物流**，調整完自訂物流後再重新綁定。
@@ -208,7 +208,7 @@ hide: []
     這代表目前的商品組合（倉庫出貨 vs 自行出貨）找不到任何符合的 **混合物流** 選項（例如付款方式不匹配），系統會自動啟動保底的 **拆單模式**。
 
 
-## 更多操作
+## 更多操作 { #next-steps-partial-mixed }
 
 <div class="grid cards" markdown>
 

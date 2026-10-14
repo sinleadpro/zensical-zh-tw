@@ -76,7 +76,7 @@ hide: []
 ![](../assets/images/WMS-後台-退貨單-畫面總覽01.png){ .hero-page }
 
 
-## 退貨操作引導
+## 退貨操作引導 { #overview-return-orders }
 
 - **純倉儲服務商家**：
     - **定義**：僅使用 CYBERBIZ 倉儲系統，未連動 CYBERBIZ 電商官網者。
@@ -89,12 +89,12 @@ hide: []
     - **所有方案商家**：於 **官網（EC）後台** 執行退貨、派車與退款。可參考 [EC 訂單退貨流程](../ec/orders/order-return-process.md)。
     - **高手版商家**：除 EC 外，也可於 **WMS 倉儲後台** 申請退貨。
 
-## 使用須知
+## 使用須知 { #prerequisites-return-orders }
 
 - 下方提供之方式請 **擇一操作，不可重複執行**，以免造成系統重複出單。
 
 
-## 方式一：於訂單頁申請退貨
+## 方式一：於訂單頁申請退貨 { #operate-return-orders-apply }
 
 1. 前往 **訂單 > 列表**。
 2. 點擊目標訂單進入明細頁面。
@@ -120,20 +120,20 @@ hide: []
 
 
 
-## 方式二：手動建立退貨單
+## 方式二：手動建立退貨單 { #operate-return-orders-manual }
 
-### 使用情境
+### 使用情境 { #prerequisites-return-orders-context }
 
 - **無對應原始訂單**：退貨商品非透過本倉儲系統發貨，但需將退貨商品送回倉儲執行收退作業。
 - **退貨內容異動處理**：原始訂單雖存在，但消費者實際退回的 **品項** 或 **數量** 與原訂單申報不符，需透過手動建單以修正實到貨物資訊。
   
     > 供 **純倉儲服務商家** 使用，**官網串倉商家** 請依 [退貨與派車](returns-and-vehicle-dispatch.md) 操作。
 
-### 注意事項
+### 注意事項 { #prerequisites-return-orders-notes }
 
 - 退貨單 **不具備物流派車功能**，僅供 **倉儲收貨** 與退貨退款作業憑證使用。
 
-### 操作步驟
+### 操作步驟 { #operate-return-orders-steps }
 
 1. 前往 **退貨單**，點擊 **新增退貨單**。
 2. 填寫資訊：
@@ -142,7 +142,7 @@ hide: []
 
 ![](../assets/images/WMS-後台-退貨單-建立退貨單01.png){ .screenshot }
 
-## 倉儲驗收與退貨單狀態
+## 倉儲驗收與退貨單狀態 { #specs-return-orders-status }
 
 
 | 退貨單狀態 | 說明 |

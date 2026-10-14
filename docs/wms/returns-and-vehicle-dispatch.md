@@ -80,7 +80,7 @@ hide: []
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲
 { .doc-badge }
 
-## 使用須知
+## 使用須知 { #prerequisites-return-dispatch }
 
 
 - **特殊需求**：倉庫出貨的商品，預設寄回倉庫。若您希望倉庫出貨的商品，在退貨時直接寄回商家地址進行驗收，請參閱 [商家自行驗收退貨](merchant-self-inspection-of-returns.md)。
@@ -91,9 +91,9 @@ hide: []
     - **EC 後台**：負責前端流程控管。包含 **接收消費者申請**、**產生逆物流單號** 以及執行最終的 **退款作業**。
     - **WMS 系統**：負責後端實物作業。包含接收退貨資訊、產出倉庫退貨單、**執行實物驗收與入庫**。
 
-## 退貨處理
+## 退貨處理 { #operate-return-dispatch }
 
-### 步驟一：消費者退貨申請
+### 步驟一：消費者退貨申請 { #operate-return-dispatch-request }
 
 依據商家是否開啟 [官網前台的退貨功能](../ec/orders/member-return-request-feature.md)，採用的操作路徑如下：
 
@@ -110,7 +110,7 @@ hide: []
     - **優點**：商家可先行過濾退貨原因，減少不必要的退貨成本。
 
 
-### 步驟二：逆物流派車回收
+### 步驟二：逆物流派車回收 { #operate-return-dispatch-reverse-logistics }
 
 商家需根據「是否需要回收商品」選擇處理方式：
 
@@ -194,7 +194,7 @@ hide: []
 
 
 
-### 步驟三：訂單退款作業
+### 步驟三：訂單退款作業 { #operate-return-dispatch-refund }
 
 當倉庫完成驗收後，請根據驗收狀態執行退款：
 
@@ -205,7 +205,7 @@ hide: []
 
 
 
-## 超商逾期未取處理
+## 超商逾期未取處理 { #operate-return-dispatch-unclaimed }
 
 針對超商取貨未取的包裹，系統具備自動化退回機制：
 
