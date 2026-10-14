@@ -179,7 +179,7 @@ hide: []
     <div class="grid cards" markdown>
 
     - :lucide-dollar-sign:{ .lg }   
-      [__建立黑貓逆物流__](../payments-and-logistics/setup-print-tcat-waybill-v2.md#ezcat-shipping-note-reverse)       
+      [__建立黑貓逆物流__](../payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-shipping-reverse)
       設定黑貓寄件資訊、加印單號與建立逆物流。
 
     - :lucide-dollar-sign:{ .lg }   

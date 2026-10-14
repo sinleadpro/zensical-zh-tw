@@ -227,12 +227,12 @@ hide: []
   批次列印多張訂單時，可改成依文件類型或依訂單編號排列。
 
 - :lucide-copy-plus:{ .lg }  
-  [__加印託運單__](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#ezcat-shipping-note-create){ title="加印託運單" }  
+  [__加印託運單__](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-shipping-create){ title="加印託運單" }
   若一筆宅配訂單因商品多需拆分為多箱寄出，每箱需各自一張託運單。
 
 - :lucide-receipt:{ .lg }  
-  [__查看對帳明細__](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#ezcat-shipping-note-records){ title="查詢紀錄與對帳" }  
-  若訂單有運費調整（如補收差額或繁盛期加收），系統會將詳細資訊記錄於「[對帳備註](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#ezcat-shipping-note-usage-records){ title="單號使用紀錄" }」中。
+  [__查看對帳明細__](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#reference-ezcat-shipping-records){ title="查詢紀錄與對帳" }
+  若訂單有運費調整（如補收差額或繁盛期加收），系統會將詳細資訊記錄於「[對帳備註](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#reference-ezcat-shipping-usage){ title="單號使用紀錄" }」中。
 
 </div>
 
@@ -282,7 +282,7 @@ hide: []
 ??? quote "補印託運單會額外扣費嗎?"
     [](){ #faq-tcat-home-reprint-fee }
 
-     不會。補印使用原來的單號，系統不會再次扣除 CYBER 幣。若需要 **新單號** (例如同一筆訂單拆成多箱)，請使用「[加印託運單](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#ezcat-shipping-note-create){ title="加印託運單" }」，加印會依張數扣費。
+     不會。補印使用原來的單號，系統不會再次扣除 CYBER 幣。若需要 **新單號** (例如同一筆訂單拆成多箱)，請使用「[加印託運單](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-shipping-create){ title="加印託運單" }」，加印會依張數扣費。
 
 ??? quote "我是峰潮物流商家，可以用這個流程嗎?"
     [](){ #faq-tcat-home-honeycomb }
