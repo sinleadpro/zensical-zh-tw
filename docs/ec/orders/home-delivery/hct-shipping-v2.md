@@ -120,7 +120,7 @@ hide: []
 前往後台「訂單」>「所有訂單」，於列表中勾選欲[一併出貨的訂單](#specs-hct-shipping-uniform)。
 
 !!! tip "先篩選再勾選"
-    新版訂單列表支援先用「配送方式 = 新竹物流」篩選後再全頁勾選，可加速批次出貨。瞭解 [如何篩選訂單](../basics/search-filter-orders.md#orders-filter){ title="如何搜尋與篩選訂單" }
+    新版訂單列表支援先用「配送方式 = 新竹物流」篩選後再全頁勾選，可加速批次出貨。瞭解 [如何篩選訂單](../basics/search-filter-orders.md#operate-order-filter){ title="如何搜尋與篩選訂單" }
 
 ---
 

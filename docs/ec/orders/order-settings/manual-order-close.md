@@ -111,7 +111,7 @@ hide: []
 
 ### 已結案訂單列表
 
-訂單完成結案後，可以透過訂單列表的篩選器建立「已結案」[訂單檢視群組](../basics/search-filter-orders.md#orders-groups-tabs){ title="如何搜尋與篩選訂單" data-preview }，以便確認已結案之訂單。
+訂單完成結案後，可以透過訂單列表的篩選器建立「已結案」[訂單檢視群組](../basics/search-filter-orders.md#operate-order-filter-groups){ title="如何搜尋與篩選訂單" data-preview }，以便確認已結案之訂單。
 
 ![已結案訂單](../../../assets/images/EC-訂單-訂單列表-已結案群組.png){ title="已結案訂單" }
 

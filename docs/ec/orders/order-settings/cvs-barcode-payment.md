@@ -106,7 +106,7 @@ comments: false
 !!! warning "重要提醒"
     - 開啟超商條碼繳費功能後，請確認您同時有搭配支援的物流方式（如超商取貨），消費者才能在結帳時正常選擇此付款方式。
     - 若商家有設定「[訂單自動取消](../../payments-and-logistics/payments/order-settings.md#operate-order-settings-auto-cancel){ title="訂單相關設定" }」的天數限制，一旦超過時限，條碼將會失效且無法進行繳費。
-    - 若商家 [手動取消訂單](../basics/cancel-order/#orders-cancel-merchant)，超商條碼不會自動失效，顧客仍可在效期內繳費。繳費後，訂單會重新成立，商家可繼續出貨或辦理退款。
+    - 若商家 [手動取消訂單](../basics/cancel-order/#operate-cancel-merchant)，超商條碼不會自動失效，顧客仍可在效期內繳費。繳費後，訂單會重新成立，商家可繼續出貨或辦理退款。
 
 ## 取得超商條碼的步驟 <small>顧客端</small>
 

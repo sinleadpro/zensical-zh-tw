@@ -77,7 +77,7 @@ hide: []
 
 取消訂單依觸發方式分為以下三種情境，請依實際需求選擇對應的操作方式。
 
-### 商家手動取消訂單 { #orders-cancel-merchant }
+### 商家手動取消訂單 { #operate-cancel-merchant }
 
 === ":lucide-receipt: 一般訂單"
 
@@ -139,11 +139,11 @@ hide: []
 
 ---
 
-### 顧客於前台取消訂單 { #orders-cancel-customer }
+### 顧客於前台取消訂單 { #operate-cancel-customer }
 
 [:lucide-layout-dashboard:{ title="適用功能" }](../../../resources/conventions.md#conventions-features) | 拖拉版型
 
-商家可設定是否開放顧客於官網前台自行取消未出貨訂單，若關閉設定，顧客僅能透過[商家申請取消](#orders-cancel-merchant)。
+商家可設定是否開放顧客於官網前台自行取消未出貨訂單，若關閉設定，顧客僅能透過[商家申請取消](#operate-cancel-merchant)。
 
 **前置設定**
 
@@ -184,9 +184,9 @@ hide: []
 
 ---
 
-### 系統自動取消 <small>付款超時</small> { #orders-cancel-auto }
+### 系統自動取消 <small>付款超時</small> { #operate-cancel-auto }
 
-為避免未付款訂單長期佔用庫存，商家可透過此功能設定「付款期限」。當訂單符合[特定條件](#orders-cancel-auto-rules)且[逾期](#orders-cancel-auto-mechanism)未付款時，系統將自動將訂單狀態變更為「已取消」。
+為避免未付款訂單長期佔用庫存，商家可透過此功能設定「付款期限」。當訂單符合[特定條件](#specs-cancel-auto-rules)且[逾期](#specs-cancel-auto-mechanism)未付款時，系統將自動將訂單狀態變更為「已取消」。
 
 **操作步驟**：
 
@@ -202,7 +202,7 @@ hide: []
 
 ---
 
-#### 運作規則與條件 { #orders-cancel-auto-rules }
+#### 運作規則與條件 { #specs-cancel-auto-rules }
 
 系統僅針對符合以下所有條件的訂單執行自動取消：
 
@@ -213,7 +213,7 @@ hide: []
 
 ---
 
-#### 系統執行機制 { #orders-cancel-auto-mechanism }
+#### 系統執行機制 { #specs-cancel-auto-mechanism }
 
 系統固定於每天 01:00 AM 進行批次掃描與取消作業。
 
@@ -226,7 +226,7 @@ hide: []
 
 ---
 
-#### 線上金流失效機制 <small>虛擬 ATM / 超商代碼</small> { #orders-cancel-payment-code-expiry }
+#### 線上金流失效機制 <small>虛擬 ATM / 超商代碼</small> { #specs-cancel-payment-expiry }
 
 針對需取得代碼付款的機制，其「繳款截止日」會受後台設定天數影響，邏輯如下：
 
@@ -251,7 +251,7 @@ hide: []
 
 <div class="grid cards" markdown>
 
-- :lucide-barcode:{ .lg } [__虛擬 ATM 與超商代碼__](#orders-cancel-payment-code-expiry)  
+- :lucide-barcode:{ .lg } [__虛擬 ATM 與超商代碼__](#specs-cancel-payment-expiry)
 
 - :simple-stryker:{ .lg } [__美安 (Shop.com) 訂單__](#stryker-美安訂單)  
 

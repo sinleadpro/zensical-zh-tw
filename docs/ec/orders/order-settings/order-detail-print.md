@@ -91,9 +91,9 @@ hide: []
 
 ## 操作步驟
 
-### 訂單明細內容設定 { #orders-print }
+### 訂單明細內容設定 { #operate-order-print-settings }
 
-#### 1. 進入訂單明細列印設定 { #orders-print-activate }
+#### 1. 進入訂單明細列印設定 { #operate-order-print-enter }
 
 於後台側邊選單依版本進入以下路徑：
 
@@ -102,9 +102,9 @@ hide: []
 
 ---
 
-#### 2. 勾選要呈現的項目 { #orders-print-configure }
+#### 2. 勾選要呈現的項目 { #operate-order-print-configure }
 
-面板提供多個勾選項目，可依營運需求自由組合（預設皆未勾選）。[完整欄位說明](#orders-print-fields){ data-preview }
+面板提供多個勾選項目，可依營運需求自由組合（預設皆未勾選）。[完整欄位說明](#reference-order-print-fields){ data-preview }
 
 ![訂單明細列印設定](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-configure.png){ title="訂單明細列印設定" }
 
@@ -123,7 +123,7 @@ hide: []
 
 #### 3. 設定開頭提醒文字與圖片 <small>選用</small>
 
-當您勾選 **「開頭提醒文字」** 後，需於 [步驟五](#orders-print-advanced-settings-alert-text) 的進階設定頁填入「標題」與「內容」，否則將無法儲存。
+當您勾選 **「開頭提醒文字」** 後，需於 [步驟五](#operate-order-print-alert) 的進階設定頁填入「標題」與「內容」，否則將無法儲存。
 
 !!! example "適用情境"
 
@@ -161,17 +161,17 @@ hide: []
 
 ---
 
-#### 5. 進階設定 { #orders-print-advanced-settings }
+#### 5. 進階設定 { #operate-order-print-advanced }
 
 於設定區塊底部點選 **「進階設定」**，進入 **「編輯列印訂單明細樣板」** 頁面。
 
 ![訂單明細設定-進階設定](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-進階設定按鈕.png){ title="訂單明細設定-進階設定" }
 
-您可於此頁：[編輯提醒文字](#orders-print-advanced-settings-alert-text)、[自訂樣板](#orders-print-template)、[預覽列印效果](#orders-print-preview)、[回復預設樣板](#orders-print-templates-revert)。
+您可於此頁：[編輯提醒文字](#operate-order-print-alert)、[自訂樣板](#operate-order-print-template)、[預覽列印效果](#operate-order-print-preview)、[回復預設樣板](#operate-order-print-revert)。
 
 ---
 
-##### 編輯開頭提醒文字 { #orders-print-advanced-settings-alert-text }
+##### 編輯開頭提醒文字 { #operate-order-print-alert }
 
 若步驟二有勾選「開頭提醒文字」，此頁會出現：
 
@@ -184,7 +184,7 @@ hide: []
 
 ---
 
-##### 自訂樣板 { #orders-print-template }
+##### 自訂樣板 { #operate-order-print-template }
 
 「樣板」區塊為 Liquid 程式碼，可調整：
 
@@ -197,11 +197,11 @@ hide: []
 
 ![訂單明細進階設定-樣板](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-進階設定-樣板.png){ title="訂單明細進階設定-樣板" }
 
-!!! note "儲存前請先[預覽](#orders-print-preview)（需至少一筆「已出貨」訂單）。"
+!!! note "儲存前請先[預覽](#operate-order-print-preview)（需至少一筆「已出貨」訂單）。"
 
 ---
 
-##### 預覽列印效果 { #orders-print-preview }
+##### 預覽列印效果 { #operate-order-print-preview }
 
 點選 **「訂單明細預覽」** 後：
 
@@ -224,7 +224,7 @@ hide: []
 
 ---
 
-##### 回復預設樣板 { #orders-print-templates-revert }
+##### 回復預設樣板 { #operate-order-print-revert }
 
 若需還原樣板：點選 **「回復預設樣板」**，即可恢復系統預設版本。
 
@@ -234,9 +234,9 @@ hide: []
 
 ---
 
-### 列印訂單明細 { #orders-print-operate }
+### 列印訂單明細 { #operate-order-print }
 
-完成 [訂單明細內容設定](#orders-print) 後，可於訂單列表執行列印：
+完成 [訂單明細內容設定](#operate-order-print-settings) 後，可於訂單列表執行列印：
 
 
 1. **進入訂單列表**：登入 CYBERBIZ 後台，前往 「訂單」 > 「所有訂單」。
@@ -248,11 +248,11 @@ hide: []
 
 ![訂單列表-列印訂單明細](../../../assets/images/EC-訂單-所有訂單-更多操作-列印訂單明細.png){ title="訂單列表-列印訂單明細" }
 
-!!! note "若您執行「確認出貨」並下載物流託運單，系統產生的 [壓縮檔](#orders-print-fulfillment-zip) 內亦會自動包含該筆訂單的明細檔案。"
+!!! note "若您執行「確認出貨」並下載物流託運單，系統產生的 [壓縮檔](#overview-order-print-fulfillment) 內亦會自動包含該筆訂單的明細檔案。"
 
 ---
 
-## 出貨壓縮檔內含的訂單明細 { #orders-print-fulfillment-zip }
+## 出貨壓縮檔內含的訂單明細 { #overview-order-print-fulfillment }
 
 當您於訂單列表執行 **「確認出貨」** 並下載託運資料時，系統產生的壓縮檔會自動包含：
 
@@ -299,7 +299,7 @@ hide: []
 
 ## 參考資料
                                          
-### 訂單明細欄位對照表 { #orders-print-fields }
+### 訂單明細欄位對照表 { #reference-order-print-fields }
 
 | 勾選項 | 列印效果 | 適用情境 |
 | :-- | :-- | :-- |

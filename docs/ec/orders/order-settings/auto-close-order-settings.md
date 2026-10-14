@@ -182,7 +182,7 @@ hide:
   設定電子票券訂單自動結案。
 
 - :lucide-circle-x:{ .lg }   
-  [__訂單自動取消（付款超時）__](../basics/cancel-order.md#orders-cancel-auto)  
+  [__訂單自動取消（付款超時）__](../basics/cancel-order.md#operate-cancel-auto)
   設定未付款訂單在指定天數後由系統自動取消。
 
 </div>
