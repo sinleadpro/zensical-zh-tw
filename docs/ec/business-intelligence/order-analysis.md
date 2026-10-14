@@ -114,34 +114,34 @@ hide:
 === "付款方式"
     | 圖表 | 看什麼 | 說明 |
     | :-- | :-- | :-- |
-    | 訂單數（月趨勢） | 各月各付款方式的訂單數。 | [前往](#read-order-analysis-read-payment) |
-    | 占比（月趨勢） | 各月各付款方式的訂單占比。 | [前往](#read-order-analysis-read-payment) |
-    | 占比（區間） | 區間內各付款方式的訂單占比。 | [前往](#read-order-analysis-read-payment) |
-    | 平均訂單金額（月趨勢） | 各月各付款方式的平均訂單金額。 | [前往](#read-order-analysis-read-payment) |
-    | 平均訂單金額（區間） | 區間各付款方式的平均訂單金額。 | [前往](#read-order-analysis-read-payment) |
-    | 退貨率（月趨勢） | 各月各付款方式的退貨率。 | [前往](#read-order-analysis-read-payment) |
-    | 退貨率（區間） | 區間各付款方式的退貨率。 | [前往](#read-order-analysis-read-payment) |
+    | 訂單數（月趨勢） | 各月各付款方式的訂單數。 | [前往](#overview-order-analysis-payment) |
+    | 占比（月趨勢） | 各月各付款方式的訂單占比。 | [前往](#overview-order-analysis-payment) |
+    | 占比（區間） | 區間內各付款方式的訂單占比。 | [前往](#overview-order-analysis-payment) |
+    | 平均訂單金額（月趨勢） | 各月各付款方式的平均訂單金額。 | [前往](#overview-order-analysis-payment) |
+    | 平均訂單金額（區間） | 區間各付款方式的平均訂單金額。 | [前往](#overview-order-analysis-payment) |
+    | 退貨率（月趨勢） | 各月各付款方式的退貨率。 | [前往](#overview-order-analysis-payment) |
+    | 退貨率（區間） | 區間各付款方式的退貨率。 | [前往](#overview-order-analysis-payment) |
 
 === "出貨方式"
     | 圖表 | 看什麼 | 說明 |
     | :-- | :-- | :-- |
-    | 訂單數（月趨勢） | 各月各出貨方式的訂單數。 | [前往](#read-order-analysis-read-shipping) |
-    | 占比（月趨勢） | 各月各出貨方式的認列訂單占比。 | [前往](#read-order-analysis-read-shipping) |
-    | 占比（區間） | 區間各出貨方式的認列訂單占比。 | [前往](#read-order-analysis-read-shipping) |
-    | 平均客單價（月趨勢） | 各月各出貨方式的平均訂單金額。 | [前往](#read-order-analysis-read-shipping) |
-    | 平均客單價（區間） | 區間各出貨方式的平均訂單金額。 | [前往](#read-order-analysis-read-shipping) |
-    | 退貨率（月趨勢） | 各月各出貨方式的退貨率。 | [前往](#read-order-analysis-read-shipping) |
-    | 退貨率（區間） | 區間各出貨方式的退貨率。 | [前往](#read-order-analysis-read-shipping) |
+    | 訂單數（月趨勢） | 各月各出貨方式的訂單數。 | [前往](#overview-order-analysis-shipping) |
+    | 占比（月趨勢） | 各月各出貨方式的認列訂單占比。 | [前往](#overview-order-analysis-shipping) |
+    | 占比（區間） | 區間各出貨方式的認列訂單占比。 | [前往](#overview-order-analysis-shipping) |
+    | 平均客單價（月趨勢） | 各月各出貨方式的平均訂單金額。 | [前往](#overview-order-analysis-shipping) |
+    | 平均客單價（區間） | 區間各出貨方式的平均訂單金額。 | [前往](#overview-order-analysis-shipping) |
+    | 退貨率（月趨勢） | 各月各出貨方式的退貨率。 | [前往](#overview-order-analysis-shipping) |
+    | 退貨率（區間） | 區間各出貨方式的退貨率。 | [前往](#overview-order-analysis-shipping) |
 
 === "第三方導購"
     | 圖表 | 看什麼 | 說明 |
     | :-- | :-- | :-- |
-    | 訂單數（月趨勢） | 各月各來源的訂單數。 | [前往](#read-order-analysis-read-third-party) |
-    | 占比（區間） | 區間各來源的認列訂單占比。 | [前往](#read-order-analysis-read-third-party) |
-    | 平均客單價（月趨勢） | 各月各來源的平均訂單金額。 | [前往](#read-order-analysis-read-third-party) |
-    | 平均客單價（區間） | 區間各來源的平均訂單金額。 | [前往](#read-order-analysis-read-third-party) |
-    | 退貨率（月趨勢） | 各月各來源的退貨率。 | [前往](#read-order-analysis-read-third-party) |
-    | 退貨率（區間） | 區間各來源的退貨率。 | [前往](#read-order-analysis-read-third-party) |
+    | 訂單數（月趨勢） | 各月各來源的訂單數。 | [前往](#overview-order-analysis-third-party) |
+    | 占比（區間） | 區間各來源的認列訂單占比。 | [前往](#overview-order-analysis-third-party) |
+    | 平均客單價（月趨勢） | 各月各來源的平均訂單金額。 | [前往](#overview-order-analysis-third-party) |
+    | 平均客單價（區間） | 區間各來源的平均訂單金額。 | [前往](#overview-order-analysis-third-party) |
+    | 退貨率（月趨勢） | 各月各來源的退貨率。 | [前往](#overview-order-analysis-third-party) |
+    | 退貨率（區間） | 區間各來源的退貨率。 | [前往](#overview-order-analysis-third-party) |
 
 各圖表的詳細定義，請見 [訂單金物流分析圖表對照](references/order-analysis-finance-logistics-reference.md#reference-order-analysis-finance-logistics){ title="訂單金物流分析圖表對照" data-preview }。
 
@@ -296,11 +296,11 @@ hide:
 
 ---
 
-## 看懂訂單總體分析 { #read-order-analysis-overall }
+## 看懂訂單總體分析 { #overview-order-analysis-overall }
 
 「訂單總體分析」以數據卡與多張趨勢、占比圖呈現全店訂單的整體健康度。各圖表的完整定義與計算公式請見 [訂單總體分析指標對照](references/order-analysis-overview-metrics-reference.md#reference-order-analysis-overview-metrics){ data-preview }。
 
-### 訂單數量 { #read-order-analysis-read-volume }
+### 訂單數量 { #overview-order-analysis-volume }
 
 === "總訂單數"
 
@@ -328,7 +328,7 @@ hide:
 
 ---
 
-### 訂單金額與商品數 { #read-order-analysis-read-amount }
+### 訂單金額與商品數 { #overview-order-analysis-amount }
 
 === "單筆訂單金額月趨勢"
 
@@ -372,7 +372,7 @@ hide:
 
 ---
 
-### 訂單健康度 { #read-order-analysis-read-health }
+### 訂單健康度 { #overview-order-analysis-health }
 
 === "訂單取消率月趨勢"
 
@@ -402,13 +402,13 @@ hide:
 
 ---
 
-## 看懂訂單金物流分析 { #read-order-analysis-finance-logistics }
+## 看懂訂單金物流分析 { #overview-order-analysis-finance-logistics }
 
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 企業
 
 「訂單金物流分析」把訂單依 **付款方式、出貨方式、第三方導購** 三個維度拆解，從訂單數、占比、平均客單價、退貨率等角度觀察。各圖表的完整計算公式請見 [訂單金物流分析圖表對照](references/order-analysis-finance-logistics-reference.md#reference-order-analysis-finance-logistics){ title="訂單金物流分析圖表對照" }。
 
-### 付款方式 { #read-order-analysis-read-payment }
+### 付款方式 { #overview-order-analysis-payment }
 
 === "訂單數（月趨勢）"
 
@@ -462,7 +462,7 @@ hide:
 
     ![付款方式退貨率](../../assets/images/ec-bi-order-payment-return.zh-tw.png){ title="付款方式退貨率" }
 
-### 出貨方式 { #read-order-analysis-read-shipping }
+### 出貨方式 { #overview-order-analysis-shipping }
 
 === "訂單數（月趨勢）"
 
@@ -522,7 +522,7 @@ hide:
 
 ---
 
-### 第三方導購 { #read-order-analysis-read-third-party }
+### 第三方導購 { #overview-order-analysis-third-party }
 
 !!! plan "顯示條件"
     此組圖表需已串接導購平台才會出現，並依實際串接的平台呈現各來源，詳見 [第三方導購圖表的顯示條件](#prerequisites-order-analysis-third-party){ title="第三方導購圖表的顯示條件" data-preview }。
