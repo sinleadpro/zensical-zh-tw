@@ -165,7 +165,7 @@ hide:
 <div class="grid cards" markdown>
 
 - :lucide-settings-2:{ .lg }   
-  [__全站共用設定__](../../website-appearance/theme-and-layout/setup-global-theme-settings.md#product-display-layout){ title="全站共用設定" }     
+  [__全站共用設定__](../../website-appearance/theme-and-layout/setup-global-theme-settings.md#operate-global-settings-product-layout){ title="全站共用設定" }
   前往全站共用設定調整商品影片在彈窗中的顯示順序
 
 - :lucide-video:{ .lg }   

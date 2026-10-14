@@ -244,9 +244,9 @@ comments: false
 !!! plan "功能限制"
     部分功能需特定方案方可使用，已標示於各項目標題。
 
-此區設定會 **套用到全站所有商品列表與商品頁**（首頁商品區塊、商品群組頁、多層級分類、搜尋頁、商品詳情頁等），統一商品卡片與價格的呈現方式，不需逐一設定每件商品。相關設定請分別參閱：[基本顯示選項](#product-display-basic)、[版面與樣式設定](#product-display-layout)、[圖片與懸停效果](#product-display-image-effects)。
+此區設定會 **套用到全站所有商品列表與商品頁**（首頁商品區塊、商品群組頁、多層級分類、搜尋頁、商品詳情頁等），統一商品卡片與價格的呈現方式，不需逐一設定每件商品。相關設定請分別參閱：[基本顯示選項](#operate-global-settings-product-display-basic)、[版面與樣式設定](#operate-global-settings-product-layout)、[圖片與懸停效果](#operate-global-settings-product-image-effects)。
 
-##### 基本顯示選項 { #product-display-basic }
+##### 基本顯示選項 { #operate-global-settings-product-display-basic }
 
 依需求啟用以下項目：
 
@@ -276,7 +276,7 @@ comments: false
 
 ---
 
-##### 版面與樣式設定 { #product-display-layout }
+##### 版面與樣式設定 { #operate-global-settings-product-layout }
 
 - 選擇 **文字排列** 對齊方式（置左／置中／置右，預設置左）。
 
@@ -308,7 +308,7 @@ comments: false
 
 ---
 
-##### 圖片與懸停效果 { #product-display-image-effects }
+##### 圖片與懸停效果 { #operate-global-settings-product-image-effects }
 
 - 選擇 **圖片寬高比例**（1:1／3:4，預設 1:1）。
 
@@ -337,7 +337,7 @@ comments: false
 
 ---
 
-#### 動態標籤設定 <small>商品標籤</small> { #product-labels }
+#### 動態標籤設定 <small>商品標籤</small> { #operate-global-settings-product-labels }
 
 !!! plan "開通條件與方案限制"
     - **商品標籤功能：** 需開通「商品標籤」功能（依方案開通狀況為準）。

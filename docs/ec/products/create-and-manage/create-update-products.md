@@ -472,7 +472,7 @@ hide: []
 <!-- 適用於少量商品上架，可精細設定每項資訊。 -->
 <!---->
 <!-- 1. 登入管理後台，前往 「商品」>「所有商品」>「新增商品」。 -->
-<!-- 2. 依序設定相關商品資訊：[基本設定](#basic-settings)、[商品圖片](#product-images)、[商品影片](#product-video)、[款式](#variants)、[庫存管理](#inventory)。 -->
+<!-- 2. 依序設定相關商品資訊：[基本設定](#basic-settings)、[商品圖片](#reference-product-images)、[商品影片](#reference-product-video)、[款式](#variants)、[庫存管理](#inventory)。 -->
 <!-- 3. 點擊 **儲存** 以套用變更。 -->
 <!---->
 <!-- ![新增商品](../../../assets/images/ec-商品-新增商品.png) -->
@@ -493,7 +493,7 @@ hide: []
 <!---->
 <!-- --- -->
 <!---->
-<!-- ### 商品圖片 { #product-images } -->
+<!-- ### 商品圖片 { #reference-product-images } -->
 <!---->
 <!-- 點擊 **上傳圖片** 或拖拉圖片進行上傳。上傳商品圖片時，請參考以下技術規格： -->
 <!---->
@@ -530,7 +530,7 @@ hide: []
 <!---->
 <!-- --- -->
 <!---->
-<!-- ### 商品影片 { #product-video } -->
+<!-- ### 商品影片 { #reference-product-video } -->
 <!---->
 <!-- [:lucide-tag:{ title="適用方案" }](conventions.md#適用方案) | PLUS / 企業   -->
 <!-- [:lucide-bolt:{ title="適用功能" }](conventions.md#適用功能) | 拖拉版型 -->

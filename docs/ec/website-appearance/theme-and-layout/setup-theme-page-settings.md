@@ -118,7 +118,7 @@ comments: false
 
 ## 操作步驟
 
-依所需頁面類型快速跳轉：[首頁](#homepage)、[商品頁面](#product)、[商品群組頁面](#collection)、[商品多層級分類](#category)、[部落格頁](#blog)、[部落格文章頁](#article)、[客服頁](#contact)、[404 頁](#not-found)、[快速到貨頁](#express-delivery)、[搜尋頁](#search)。
+依所需頁面類型快速跳轉：[首頁](#homepage)、[商品頁面](#operate-page-settings-product)、[商品群組頁面](#collection)、[商品多層級分類](#category)、[部落格頁](#blog)、[部落格文章頁](#article)、[客服頁](#contact)、[404 頁](#not-found)、[快速到貨頁](#express-delivery)、[搜尋頁](#search)。
 
 ### 首頁 { #homepage }
 
@@ -713,7 +713,7 @@ comments: false
 
 ---
 
-### 商品頁面 { #product }
+### 商品頁面 { #operate-page-settings-product }
 
 商品頁面主要由四個功能區塊組成，可依需求開啟或調整排序。
 
