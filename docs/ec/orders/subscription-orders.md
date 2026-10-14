@@ -162,7 +162,7 @@ hide: []
 
     > 子訂單不開放直接修改品項與價格。若需異動內容，請至對應的母訂單進行調整。
 
-- **行銷優惠與贈品**：子訂單成立時，系統將根據當下 [定期訂購活動頁中的優惠設定](../marketing/other-tools/subscription-campaign-page/#4-進階優惠設定)，進行判定與發送。
+- **行銷優惠與贈品**：子訂單成立時，系統將根據當下 [定期訂購活動頁中的優惠設定](../marketing/other-tools/subscription-campaign-page/#operate-subscription-campaign-promotions)，進行判定與發送。
 
     > 母訂單建立後，若您調整了定期訂購活動中的「贈品與折扣發送規則」，變更將於儲存後生效，並套用至 **後續成立** 的子訂單。
 

@@ -88,7 +88,7 @@ hide: []
 
 
 
-## 使用須知
+## 使用須知 { #prerequisites-subscription-campaign }
 
 在開始設定前，請務必了解以下系統規則與限制：
 
@@ -102,7 +102,7 @@ hide: []
 - **版型相依**：活動頁面會套用目前使用的版型。若更換網站版型，需重新建立新的活動頁面。
 
 
-## 步驟一：定期定額購物車設定
+## 步驟一：定期定額購物車設定 { #operate-subscription-campaign-cart }
 
 此設定決定了消費者進入活動頁時，商品預設的購買數量。
 
@@ -118,7 +118,7 @@ hide: []
 ![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁19.png){ .screenshot }
 
 
-## 步驟二：建立定期定額活動頁
+## 步驟二：建立定期定額活動頁 { #operate-subscription-campaign-create }
 
 
 1. 登入 CYBERBIZ 管理後台，前往 **行銷活動 > 定期訂購活動頁**。
@@ -131,9 +131,9 @@ hide: []
 
 
 
-## 步驟三：活動詳細設定
+## 步驟三：活動詳細設定 { #operate-subscription-campaign-settings }
 
-### 1. 基本設定
+### 1. 基本設定 { #operate-subscription-campaign-basic }
 
 - **搜尋商品**：將商品加入頁面，單一頁面 **最多加入 10 個商品**。
 
@@ -170,14 +170,14 @@ hide: []
     ![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁08.png){ .screenshot }
 
 
-### 2. 款式設定
+### 2. 款式設定 { #operate-subscription-campaign-variants }
 
 在此處設定該活動頁專屬的商品價格，並選擇是否在購物車內容中顯示。
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁10.png){ .screenshot }
 
 
-### 3. 編輯內容
+### 3. 編輯內容 { #operate-subscription-campaign-content }
 
 提供進階語法編輯功能，供具備技術背景的人員自訂定期定額頁面的版面樣式。
 
@@ -187,7 +187,7 @@ hide: []
 ![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁11.png){ .screenshot }
 
 
-### 4. 進階優惠設定
+### 4. 進階優惠設定 { #operate-subscription-campaign-promotions }
 
 - **指定期數送贈品**：可設定 **指定期數** 或 **指定區間** 配送時，額外贈送特定商品。
 
@@ -227,7 +227,7 @@ hide: []
     > 系統會回溯所有歷史紀錄。若因退貨導致期數重新計算，只要該特定贈品曾隨該次訂閱成功出貨過，系統就不會重複發送。
 
 
-### 5. 金流設定
+### 5. 金流設定 { #operate-subscription-campaign-payment }
 
 勾選欲提供給此活動的付款方式。
 
@@ -237,7 +237,7 @@ hide: []
 !!! tip "設定提示"
     若未看到預期的付款選項，請先至 **金物流 > 金流設定** 中啟用金流，或前往 **金物流 > 宅配物流 / 超商物流** 啟用物流，該選項才會出現在此清單中。
 
-## 常見問題
+## 常見問題 { #faq-subscription-campaign }
 
 ??? quote "為什麼顧客反應收不到紅利點數？"
     定期定額的紅利點數在該筆 **子訂單結案** 後才會發送至顧客帳戶。

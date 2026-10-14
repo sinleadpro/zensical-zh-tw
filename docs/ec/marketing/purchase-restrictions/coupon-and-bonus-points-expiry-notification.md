@@ -67,7 +67,7 @@ hide: []
 { .doc-badge }
 
 
-## 設定到期天數
+## 設定到期天數 { #operate-coupon-expiry }
 
 1. 登入 CYBERBIZ 管理後台，前往 **行銷活動 > 全館折扣 – 紅利&優惠券 > 優惠券/紅利點數到期通知**。
 2. 設定於到期前 **N 天** 發送通知訊息。
@@ -76,7 +76,7 @@ hide: []
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠券紅利點數到期通知01.png){ .screenshot }
 
-## 系統發送邏輯
+## 系統發送邏輯 { #specs-coupon-expiry }
 
 - **到期時間**：
     - **優惠券(碼)**：截止日當天的 23:59:59。
@@ -91,7 +91,7 @@ hide: []
 
     </div>
 
-## 開啟通知管道
+## 開啟通知管道 { #operate-coupon-expiry-enable }
 
 請務必前往以下路徑開啟對應的通知開關：
 
