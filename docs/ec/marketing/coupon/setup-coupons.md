@@ -20,8 +20,13 @@ sites:
 audiences: 
   - merchant
 difficulty: beginner
-tnb: trunk
-plans: []
+tnb: branch
+plans: 
+  - 高手
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
 plan_options: []
 cyb_extensions: []
 intents: 
