@@ -93,7 +93,7 @@ hide: []
 ![](../../assets/images/ec-e-ticket-hero.zh-tw.png){ .hero-page }
 
 
-## 電子票券使用限制與規則
+## 電子票券使用限制與規則 { #prerequisites-e-ticket }
 
 - 可加入 [限購群組](../marketing/purchase-restrictions/purchase-limit/)，限制每位消費者可購買張數  
 - 僅支援 [電子票券任選折扣](setup-e-ticket-promotions.md) 與 [分潤](../profit-sharing/index.md)，不可與其他優惠併用  
@@ -102,7 +102,7 @@ hide: []
 !!! info "票券發行人"
 	票券發行人為順立智慧股份有限公司，票券面額為實際售價（含優惠），已存入發行人於永豐銀行開立之「信託專戶」，專款專用，保障履約安全。
 
-## 新增電子票券
+## 新增電子票券 { #operate-e-ticket-create }
 
 建立電子票券商品。
 
@@ -121,7 +121,7 @@ hide: []
 
 4. 新增的電子票券將顯示於 **電子票券列表**。
 
-## 購買電子票券 <small>顧客端流程</small>
+## 購買電子票券 <small>顧客端流程</small> { #operate-e-ticket-purchase }
 
 1. 顧客於前台選擇電子票券。  
 
@@ -136,7 +136,7 @@ hide: []
 
 4. 完成結帳。
 
-## 查看已購買的電子票券
+## 查看已購買的電子票券 { #overview-e-ticket-purchased }
 
 顧客付款完成後，可透過以下方式查看 QR Code（核銷碼）：
 
@@ -168,7 +168,7 @@ hide: []
 		![](../../assets/images/ec-e-ticket-email-confirm.zh-tw.png)
 
 
-## 核銷電子票券 <small>門市端操作</small>
+## 核銷電子票券 <small>門市端操作</small> { #operate-e-ticket-redeem }
 
 提供多種核銷電子票券的方式，包括電腦輸入、手機掃碼、後台查詢。
 
@@ -224,7 +224,7 @@ hide: []
 	
     ![](../../assets/images/ec-e-ticket-redemption-page.zh-tw.png)
 
-## 建立電子票券門市店員帳號
+## 建立電子票券門市店員帳號 { #operate-e-ticket-staff-account }
 
 !!! warning "權限限制"
     門市店員僅能操作 **票券核銷列表** 與 **核銷票券頁**，無法修改票券設定或其他權限。
@@ -243,18 +243,18 @@ hide: []
 
 !!! info "更多電子票券門市權限相關設定，請看[設定電子票券門市權限](setup-e-ticket-store-permissions.md){ title="設定電子票券門市權限" }。"
 
-## 電子票券退款
+## 電子票券退款 { #operate-e-ticket-refund }
 
-### 退款須知
+### 退款須知 { #prerequisites-e-ticket-refund }
 
-#### 退票核心規則
+#### 退票核心規則 { #specs-e-ticket-refund-rules }
 
 - **單次作業原則**：每筆訂單僅支援執行 **一次** 退貨退款操作。
 - **已核銷禁退**：已完成核銷的票券，無法進行退款。
 - **不可指定退票數量**：必須將票券代碼中 **未核銷的票券全數退款**，系統不支援指定部分數量進行退票。
 - **費用比例返還**：手續費將依照金額比例自動退回。
 
-#### 票券結構與退款情境對照
+#### 票券結構與退款情境對照 { #specs-e-ticket-refund-scenarios }
 
 根據票券代碼內含的票券數量，其退款判定邏輯如下：
 
@@ -273,9 +273,9 @@ hide: []
     - 商家執行退票時，系統會將剩餘的 **7 張票券全部退還**。
     - **限制**：商家無法自行指定「只退 2 個」，必須將剩餘餘額全數處理。
 
-### 退票流程
+### 退票流程 { #operate-e-ticket-refund-flow }
 
-#### 1. 顧客提出退票申請
+#### 1. 顧客提出退票申請 { #operate-e-ticket-refund-request }
 
 - 當顧客欲申請退票時，請引導其前往 **電子票券訂單查詢** 頁面。
 - 顧客需透過訂單中的 **詢問紀錄** 功能，向商家提交退票需求。
@@ -284,14 +284,14 @@ hide: []
 
 ---
 
-#### 2. 商家接收並確認退票通知
+#### 2. 商家接收並確認退票通知 { #operate-e-ticket-refund-receive }
 
 - 商家可於後台 **訂單列表** 頁面收到顧客的退票訊息。
 - 請確認訂單編號、顧客資訊與退票請求內容是否正確。
 
 ---
 
-#### 3. 確認退款情境與票券狀態
+#### 3. 確認退款情境與票券狀態 { #operate-e-ticket-refund-confirm }
 
 在進行退款前，請先確認以下項目：
 
@@ -307,7 +307,7 @@ hide: []
 
 </div>
 
-### 訂單內僅含一種票券
+### 訂單內僅含一種票券 { #specs-e-ticket-single }
 
 - 尚未核銷 > 可直接取消訂單  
 - 已核銷 > 執行部分退款流程
@@ -334,7 +334,7 @@ hide: []
 
     ![](../../assets/images/ec-e-ticket-redemped-partial-return.zh-tw.gif)
 	
-### 訂單內含多種票券
+### 訂單內含多種票券 { #specs-e-ticket-multiple }
 
 - 全部未核銷 > 取消訂單  
 - 部分已核銷 > 部分退款流程
@@ -357,7 +357,7 @@ hide: []
         !!! example "範例說明"
           「CYBER 音樂祭 - 單日票」剩餘3張全數退款，QR Code 作廢。「皮卡丘體驗券 - 早鳥體驗」沒有退款，則可繼續照常使用。
 
-## 電子票券分票 <small>顧客端</small>
+## 電子票券分票 <small>顧客端</small> { #operate-e-ticket-split }
 
 !!! note "使用須知"
 
@@ -381,7 +381,7 @@ hide: []
     ??? example "分票 QR Code 圖示"
         ![](https://www.cyberbiz.io/support/wp-content/uploads/電子票券設定35.png){ .screenshot }
         
-### 查看分票後的票券
+### 查看分票後的票券 { #operate-e-ticket-split-view }
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 票券核銷列表**。
 2. 點擊 **查看** 後，會跳出彈窗顯示該票券所有核銷碼與其核銷狀態。
@@ -392,7 +392,7 @@ hide: []
 
 ---
 
-### 核銷分票後的核銷碼
+### 核銷分票後的核銷碼 { #operate-e-ticket-split-redeem }
 
 分票後，票券核銷列表頁將不會有該票券的 **前往核銷** 按鈕，請至 **核銷票券頁** 輸入核銷碼，進行核銷。
 
@@ -402,11 +402,11 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/電子票券設定37.png){ .screenshot }
 
-## 電子票券對帳
+## 電子票券對帳 { #reference-e-ticket-reconciliation }
 
 電子票券的代收款項撥款時機、手續費退回規則，以及對帳單的查看位置。
 
-### 對帳規則
+### 對帳規則 { #reference-e-ticket-reconciliation-rules }
 
 - 代收款項撥款時機，電子票券的代收款項會在 **核銷時** 撥款。
 
@@ -418,13 +418,13 @@ hide: []
 !!! example "範例說明"
     某訂單內含一種票券，數量 5 張，已核銷 2 張，剩下 3 張要退款，則會退回剩下 3 張的手續費。
 
-### 對帳單位置
+### 對帳單位置 { #reference-e-ticket-reconciliation-location }
 
 電子票券對帳單提供位置可參考附圖。
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/電子票券設定31.png){ .screenshot }
 
-## 票券分潤與自動結案設定
+## 票券分潤與自動結案設定 { #specs-e-ticket-revenue-close }
 
 !!! note "使用須知"
 
@@ -440,7 +440,7 @@ hide: []
 
 ![](../../assets/images/ec-orders-auto-closing-e-ticket.png.zh-tw.png)
 
-## 後續步驟
+## 後續步驟 { #next-steps-e-ticket }
 
 <div class="grid cards" markdown>
 

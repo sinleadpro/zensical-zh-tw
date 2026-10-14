@@ -66,9 +66,9 @@ permalink: "https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions/"
 
 ![](../../assets/images/ec-e-ticket-discount-hero.zh-tw.png){ .hero-page }
 
-## 電子票券優惠說明
+## 電子票券優惠說明 { #intro-ticket-promos }
 
-### 功能限制與適用範圍
+### 功能限制與適用範圍 { #prerequisites-ticket-promos-scope }
 
 - 電子票券任選折扣 **僅支援「任選每件折固定金額[^1]」** 的優惠形式  
 - 一個電子票券商品 **僅能加入一個任選折扣群組**
@@ -83,7 +83,7 @@ permalink: "https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions/"
 
 ---
 
-### 優惠期間與使用期限說明
+### 優惠期間與使用期限說明 { #specs-ticket-promos-period }
 
 若電子票券具有下列情境，建議於商品介紹中清楚說明使用期限與兌換規則：
 
@@ -107,9 +107,9 @@ permalink: "https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions/"
 	- ﻿消費者 B 在2022/12/14兌換該票券，商家冬天已無販賣刨冰，消費者可補差價20元，兌換原價140元的燒仙草乙份
 
 
-## 退票與金額計算規則
+## 退票與金額計算規則 { #specs-ticket-promos-refund }
 
-### 退票基本原則
+### 退票基本原則 { #specs-ticket-promos-refund-rules }
 
 - 退票以 **單一電子票券代碼** 為單位。
 - 已 **核銷** 的電子票券 **不可退票**。
@@ -119,7 +119,7 @@ permalink: "https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions/"
 
 ---
 
-### 退款計算公式
+### 退款計算公式 { #specs-ticket-promos-refund-formula }
 
 退款金額的計算方式如下：
 
@@ -132,7 +132,7 @@ permalink: "https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions/"
 
 ---
 
-### 退款計算範例
+### 退款計算範例 { #specs-ticket-promos-refund-example }
 
 以下範例說明 **剩餘商品（超出優惠件數的票券）** 在不同計價方式下的退款差異。
 
@@ -166,9 +166,9 @@ permalink: "https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions/"
 	| 4 | 1 | 10 元 | `410 - (4 × 100)` |
 
 
-## 撥款規則與差價計算
+## 撥款規則與差價計算 { #specs-ticket-promos-settlement }
 
-### 撥款原則
+### 撥款原則 { #specs-ticket-promos-settlement-rules }
 
 - 電子票券採 **核銷後撥款**
 - 每張票券於核銷時，系統將以 **實際折扣後價格** 計算撥款金額
@@ -176,7 +176,7 @@ permalink: "https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions/"
 
 ---
 
-### 差價計算公式
+### 差價計算公式 { #specs-ticket-promos-difference }
 
 系統計算差價撥款的公式如下：
 
@@ -188,7 +188,7 @@ permalink: "https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions/"
 
 ---
 
-### 撥款計算範例
+### 撥款計算範例 { #specs-ticket-promos-settlement-example }
 
 **情境**
 
@@ -204,9 +204,9 @@ permalink: "https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions/"
 | 4 | 280 | 0 | 70 | `350 - 280 - 0 = 70` |
 
 
-## 操作流程
+## 操作流程 { #operate-ticket-promos }
 
-### 建立電子票券任選折扣群組
+### 建立電子票券任選折扣群組 { #operate-ticket-promos-create-group }
 
 1. 登入 CYBERBIZ 管理後台，前往 **行銷活動 > 電子票券任選折扣**
 2. 點擊 **新增票券折扣**
@@ -221,7 +221,7 @@ permalink: "https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions/"
 
 ---
 
-### 設定計價與折扣規則
+### 設定計價與折扣規則 { #operate-ticket-promos-pricing }
 
 - **計價規則**：僅支援 **任選每件折固定金額**
 - **剩餘商品計價方式**：
@@ -236,7 +236,7 @@ permalink: "https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions/"
 
 ---
 
-### 將電子票券加入折扣群組
+### 將電子票券加入折扣群組 { #operate-ticket-promos-add }
 
 1. 在 **票券折扣列表** 中，點擊已建立的折扣名稱，進入編輯頁面。
 2. 切換至 **選擇票券** 頁籤。
@@ -249,7 +249,7 @@ permalink: "https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions/"
 
 ![](../../assets/images/ec-電子票券-加入折扣.png)
 
-## 常見問題
+## 常見問題 { #faq-ticket-promos }
 
 ??? quote "一張電子票券可以加入多個任選折扣群組嗎？"
 	不可以。  每一個電子票券商品 **僅能加入一個任選折扣群組**。若嘗試將同一票券加入多個群組，系統將無法儲存設定。
