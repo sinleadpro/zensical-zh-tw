@@ -150,7 +150,7 @@ hide: []
 
     篩選條件以 **固定下拉選單** 呈現，每個篩選條件僅能選擇一個值；不同篩選條件之間需同時符合。
 
-    1.  **狀態條件**：提供 「[付款狀態](../references/payment-statuses.md#payment-statuses){ title="訂單付款狀態對照表" data-preview }」、「[配送狀態](../references/fulfillment-statuses.md#fulfillment-statuses-table){ title="配送狀態對照表" data-preview }」、「[退貨狀態](../references/order-filter-status-reference.md#reference-order-return-status){ title="訂單篩選條件與狀態對照表" data-preview }」 及 「[訂單狀態](../references/order-filter-status-reference.md#reference-order-status){ title="訂單篩選條件與狀態對照表" data-preview }」 四個下拉選單。
+    1.  **狀態條件**：提供 「[付款狀態](../references/payment-statuses.md#payment-statuses){ title="訂單付款狀態對照表" data-preview }」、「[配送狀態](../references/fulfillment-statuses.md#reference-fulfillment-statuses){ title="配送狀態對照表" data-preview }」、「[退貨狀態](../references/order-filter-status-reference.md#reference-order-return-status){ title="訂單篩選條件與狀態對照表" data-preview }」 及 「[訂單狀態](../references/order-filter-status-reference.md#reference-order-status){ title="訂單篩選條件與狀態對照表" data-preview }」 四個下拉選單。
                   
         ![訂單篩選條件-舊版](../../../assets/images/EC-所有訂單-篩選條件-舊版.png){ title="訂單篩選條件-舊版" }                         
    

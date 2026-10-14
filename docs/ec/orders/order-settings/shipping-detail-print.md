@@ -93,9 +93,9 @@ hide: []
 
 ## 操作步驟
 
-### 出貨明細內容設定 { #fulfillment-print }
+### 出貨明細內容設定 { #operate-shipping-detail-settings }
 
-#### 1. 進入出貨明細列印設定 { #fulfillment-print-activate }
+#### 1. 進入出貨明細列印設定 { #operate-shipping-detail-enter }
 
 於後台側邊選單尋找以下路徑（依您的後台選單版本略有不同）：
 
@@ -104,9 +104,9 @@ hide: []
 
 ---
 
-#### 2. 勾選要呈現的項目 { #fulfillment-print-configure }
+#### 2. 勾選要呈現的項目 { #operate-shipping-detail-configure }
 
-面板提供 9 個勾選項，可依您的內部出貨流程需求自由組合（預設皆未勾選）。[完整欄位說明](#fulfillment-print-fields){ title="出貨明細欄位對照表" data-preview }
+面板提供 9 個勾選項，可依您的內部出貨流程需求自由組合（預設皆未勾選）。[完整欄位說明](#reference-shipping-detail-fields){ title="出貨明細欄位對照表" data-preview }
 
 ![出貨明細內容設定](../../../assets/images/EC-金物流-結帳頁物流設定-列印出貨明細-設定.png){ title="出貨明細內容設定" } 
 
@@ -130,17 +130,17 @@ hide: []
 
 ---
 
-#### 4. 進階設定 { #fulfillment-print-advanced-settings }
+#### 4. 進階設定 { #operate-shipping-detail-advanced }
 
 於設定區塊底部點選 **「進階設定」**，進入 **「編輯列印出貨明細樣板」** 頁面。
 
 ![出貨明細設定-進階設定](../../../assets/images/EC-金物流-結帳頁物流設定-列印出貨明細-進階設定.png){ title="出貨明細設定-進階設定" }
 
-您可於此頁：[自訂樣板](#fulfillment-print-template){ title="自訂樣板" }、[預覽列印效果](#fulfillment-print-preview){ title="預覽列印效果" }、[回復預設樣板](#fulfillment-print-revert){ title="回復預設樣板" }。
+您可於此頁：[自訂樣板](#operate-shipping-detail-template){ title="自訂樣板" }、[預覽列印效果](#operate-shipping-detail-preview){ title="預覽列印效果" }、[回復預設樣板](#operate-shipping-detail-revert){ title="回復預設樣板" }。
 
 ---
 
-##### 自訂樣板 { #fulfillment-print-template }
+##### 自訂樣板 { #operate-shipping-detail-template }
 
 「樣板」區塊是 Liquid 程式碼，可調整版面排版、字型大小、邊距等。一般情況下使用預設模板即可。
 
@@ -153,7 +153,7 @@ hide: []
 
 ---
 
-##### 預覽列印效果 { #fulfillment-print-preview }
+##### 預覽列印效果 { #operate-shipping-detail-preview }
 
 點選 **「出貨明細預覽」**，系統會以最近一筆已出貨訂單套用您目前的樣板，即時呼叫瀏覽器的列印對話框。
 
@@ -161,7 +161,7 @@ hide: []
 
 ---
 
-##### 回復預設樣板 { #fulfillment-print-revert }
+##### 回復預設樣板 { #operate-shipping-detail-revert }
 
 若調整後想還原，點選 **「回復預設樣板」** 即可重置為系統預設版本（已儲存的勾選項不會被影響）。
 
@@ -171,9 +171,9 @@ hide: []
 
     與訂單明細不同，出貨明細的進階設定頁不提供「開頭提醒文字標題 / 內容」欄位。這是因為出貨明細是內部文件，不需要顧客面的文案。
 
-### 列印出貨明細 { #fulfillment-print-operate }
+### 列印出貨明細 { #operate-shipping-detail-print }
 
-完成 [明細內容設定](#fulfillment-print) 後，出貨明細不會像訂單明細那樣可單獨列印，而是在 **批次出貨打包** 流程中與其他出貨文件一併產生：
+完成 [明細內容設定](#operate-shipping-detail-settings) 後，出貨明細不會像訂單明細那樣可單獨列印，而是在 **批次出貨打包** 流程中與其他出貨文件一併產生：
 
 1. 後台選單進入 **訂單** > **所有訂單**。
 2. 在訂單列表勾選一筆或多筆要出貨的訂單。
@@ -248,7 +248,7 @@ hide: []
                                                                    
 ## 參考資料                                                      
                                                                   
-### 出貨明細欄位對照表 { #fulfillment-print-fields }
+### 出貨明細欄位對照表 { #reference-shipping-detail-fields }
 
 
 | 勾選項 | 列印效果 | 適用情境 |

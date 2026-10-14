@@ -50,7 +50,7 @@ hide:
 
 本對照表彙整 CYBERBIZ 新版訂單列表的配送狀態，供搜尋、篩選、出貨等功能引用。
 
-## 配送狀態一覽 { #fulfillment-statuses-table }
+## 配送狀態一覽 { #reference-fulfillment-statuses }
 
 | 配送狀態 | 說明 | 出現時機 |
 | :-- | :-- | :-- |

@@ -70,7 +70,7 @@ hide: []
 |---|---|
 | **[訂單狀態](#reference-order-status){ title="訂單狀態對照表" data-preview }** | 依訂單整體流程狀態過濾（進行中／已結案／已取消） |
 | **[付款狀態](payment-statuses.md#payment-statuses){ title="訂單付款狀態對照表" data-preview }** | 依金流收款／退款狀態過濾（已收到款項、等待付款、已退款等） |
-| **[配送狀態](fulfillment-statuses.md#fulfillment-statuses-table){ title="配送狀態對照表" data-preview }** | 依物流出貨流程狀態過濾（未出貨、已出貨、已到店等） |
+| **[配送狀態](fulfillment-statuses.md#reference-fulfillment-statuses){ title="配送狀態對照表" data-preview }** | 依物流出貨流程狀態過濾（未出貨、已出貨、已到店等） |
 | **[退貨狀態](#reference-order-return-status){ title="退貨狀態對照表" data-preview }** | 依退貨流程狀態過濾（退貨申請、退貨中、已退貨等） |
 | **[訂單來源](#reference-order-store){ title="訂單來源對照表" data-preview }** | 區分 EC 線上訂單與各 POS 實體門市訂單 |
 | **[商家來源/<br>收款方](#reference-order-merchant-source){ title="收款方對照表" data-preview }** | 依金流實際收款方過濾（順立代收／商家／POS／倉庫） |

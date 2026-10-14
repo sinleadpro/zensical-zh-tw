@@ -130,7 +130,7 @@ hide: []
     !!! info "取消限制"
         商家後台無法自行刪除已建立的託運單。若發生誤操作（如物流選錯、勾錯商品），請聯繫 CYBERBIZ 客服 協助取消。
 
-## 後續繼續出貨 { #fulfillment-partial-resume }
+## 後續繼續出貨 { #operate-partial-shipment-resume }
 
 當剩餘缺貨商品補齊後，只需要回到同一筆訂單，[重複上述步驟](#fuilfillment-partial-operate) 即可完成後續出貨：
 
