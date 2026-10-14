@@ -287,7 +287,7 @@ hide: []
 
 <!-- - :lucide-repeat:{ .lg } [__定期定額訂單__](../reports/export-subscription-forecast.md){ title="匯出定期定額子訂單預測報表" }   -->
 
-- :material-point-of-sale:{ .lg } [__POS 訂單__](../../../pos/orders/manage-general-orders.md#查詢訂單){ title="管理一般訂單" }    
+- :material-point-of-sale:{ .lg } [__POS 訂單__](../../../pos/orders/manage-general-orders.md#operate-general-orders-query){ title="管理一般訂單" }
 
 - :lucide-user:{ .lg } [__會員專屬搜尋__](../../members/manage-member-profiles.md){ title="管理會員檔案" }  
 

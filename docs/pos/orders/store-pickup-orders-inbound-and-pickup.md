@@ -88,16 +88,16 @@ hide: []
     本文件僅適用於 **POS 門市訂單** 的出貨管理。若需操作 **一般門市訂單**，請參閱 [門市取貨訂單出貨](../../ec/orders/store-pickup-orders.md)。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-store-pickup }
 
 - **前置條件**：此功能僅適用於已開通 **POS 門市取貨**。
 - **訂單條件**：管理後台已標記為 **已出貨** 的訂單。
 - **分潤連動**：若商家已設定 [門市取貨店員分潤](../store/pos-store-pickup-staff-commission.md)，系統將根據操作流程中選擇的 **收貨點貨人員** 作為分潤計算對象。
 - **全單退貨限制**：POS 門市取貨訂單僅支援 **全單退貨**，無法進行部分商品退貨。
 
-## 出貨流程
+## 出貨流程 { #operate-store-pickup }
 
-### 步驟一：訂單出貨
+### 步驟一：訂單出貨 { #operate-store-pickup-step-a-order }
 
 1. 登入 CYBERBIZ 管理後台，前往 **訂單 > 所有訂單**。
 
@@ -120,7 +120,7 @@ hide: []
 
   
 
-### 步驟二：包裹到店入庫
+### 步驟二：包裹到店入庫 { #operate-store-pickup-step-b }
 
 當總倉寄送的包裹抵達門市時，店員需執行入庫動作，系統將同步發送簡訊或 Email 通知顧客。
 
@@ -134,7 +134,7 @@ hide: []
 
 ![](../../assets/images/POS-前台-訂單-門市訂單到店01.png){ .screenshot }
 
-### 步驟三：客戶到店取貨
+### 步驟三：客戶到店取貨 { #operate-store-pickup-step-c }
 
 顧客臨櫃時，店員需核對資料並完成交付。
 
@@ -150,7 +150,7 @@ hide: []
 ![](../../assets/images/POS-前台-訂單-門市訂單到店02.png){ .screenshot }
 
 
-## 限定會員條碼取貨
+## 限定會員條碼取貨 { #intro-store-pickup }
 
 為確保領取人身分，您可於管理後台，前往 **金物流 > 結帳頁與物流設定**，開啟 **限定會員條碼取貨設定**。
 
@@ -159,11 +159,11 @@ hide: []
     
     開啟此設定後，店員僅能透過掃描顧客手機 APP 的 **會員條碼** 進入取貨流程，無法手動輸入電話或 Email 搜尋。
 
-## 退貨流程
+## 退貨流程 { #operate-returns }
 
 當顧客對取貨商品有退貨需求時，請依據顧客所在的場域選擇對應的處理方式。
 
-### 場景一：顧客取貨當下於門市退貨
+### 場景一：顧客取貨當下於門市退貨 { #operate-returns-customer-store-returns }
 
 若顧客於門市拆開包裹後立即要求退貨，請由門市人員透過 POS 前台操作。
 
@@ -175,7 +175,7 @@ hide: []
 3. 門市人員將包裹妥善包裝後，寄回總倉。
 4. 待總倉管理員於管理後台執行 [退貨審查](../../ec/orders/order-return-process.md#operate-order-return-reverse) 後，完成退貨程序。
 
-### 場景二：顧客取貨回家後辦理退貨
+### 場景二：顧客取貨回家後辦理退貨 { #operate-returns-customer-returns }
 
 若顧客已將商品攜離門市，則需透過官網前台或連繫客服辦理。
 
@@ -192,15 +192,15 @@ hide: []
 4. 包裹回倉後，由管理員於後台進行 [退貨審查](../../ec/orders/order-return-process.md#operate-order-return-reverse)，並執行後續退款作業。
 
 
-## 特殊情境處理
+## 特殊情境處理 { #intro-special-cases }
 
-### 補印到店條碼單
+### 補印到店條碼單 { #intro-special-cases-barcode }
 
 若訂單已改為 **已出貨** 但需重新列印條碼，請勾選該訂單，於 **選擇操作** 選單中點選 **補印到店條碼**。
 
 ![](../../assets/images/POS-後台-訂單-所有訂單-門市訂單出貨02.png){ .screenshot }
 
-### 處理逾期未取訂單
+### 處理逾期未取訂單 { #intro-special-cases-order }
 
 若包裹在店存放超過指定天數，可依以下步驟清理。
 
@@ -210,17 +210,17 @@ hide: []
     - **通知取貨**：聯繫顧客後，依標準流程辦理取貨。
     - **申請退貨**：若聯繫未果或顧客要求退貨，點擊訂單明細右下角的 **申請退貨**。
 4. 申請退貨後，請依照後續指示將商品 **退回總倉** 或 **入門市庫存**。
-    - 流程可參照 [訂單取消 - 包裹已到店（顧客尚未取貨）](#三包裹已到店顧客尚未取貨)。
+    - 流程可參照 [訂單取消 - 包裹已到店（顧客尚未取貨）](#operate-store-pickup-return-at-store)。
 
 !!! info "如何啟用功能"
     請登入 CYBERBIZ 管理後台，前往 **金物流 > 結帳頁與物流設定**，於 **POS 商店取貨訂單逾期設定** 開啟功能並自訂天數。
 
 
-### 取消訂單與退回總倉
+### 取消訂單與退回總倉 { #intro-special-cases-order-cancel }
 
 根據訂單所處的不同階段，處理方式如下：
 
-#### 一、包裹出貨前（未出貨）
+#### 一、包裹出貨前（未出貨） { #intro-special-cases-section-n }
 
 === "商家"
 
@@ -234,7 +234,7 @@ hide: []
 
     ![](../../assets/images/EC-前台-訂單查詢-取消訂單01.png){ .screenshot }
 
-#### 二、包裹已出貨但尚未到店
+#### 二、包裹已出貨但尚未到店 { #intro-special-cases-section-o }
 
 若需攔截已寄出的包裹，請執行以下操作：
 
@@ -247,15 +247,15 @@ hide: []
     ![](../../assets/images/POS-後台-訂單-所有訂單-門市訂單出貨04.png){ .screenshot }
     
 
-3. 前往 **POS 功能 > 全通路庫存管理 > 進倉單** 完成 [收貨清點](../inventory/inbound-orders/#收貨清點)，回補 EC 庫存。
+3. 前往 **POS 功能 > 全通路庫存管理 > 進倉單** 完成 [收貨清點](../inventory/inbound-orders/#operate-inbound-orders-receive)，回補 EC 庫存。
 
-#### 三、包裹已到店（顧客尚未取貨）
+#### 三、包裹已到店（顧客尚未取貨） { #operate-store-pickup-return-at-store }
 
 當包裹已抵達門市但顧客要求退貨時，管理員可選擇 **入門市庫存** 或 **退回總倉**：
 
 === "入門市庫存"
 
-    由後台執行 **入門市庫存**，此時訂單變更為 `退貨中`。系統會自動在該門市建立進倉單，由門市人員 [收貨清點](../inventory/inbound-orders/#收貨清點) 後轉為店內庫存。
+    由後台執行 **入門市庫存**，此時訂單變更為 `退貨中`。系統會自動在該門市建立進倉單，由門市人員 [收貨清點](../inventory/inbound-orders/#operate-inbound-orders-receive) 後轉為店內庫存。
 
     ![](../../assets/images/POS-後台-訂單-所有訂單-門市訂單出貨05.png){ .screenshot }
 
@@ -268,7 +268,7 @@ hide: []
     
 
 
-## 常見問題
+## 常見問題 { #faq-store-pickup }
 
 ??? quote "為什麼下載到店條碼時提示失敗？"
     請檢查該訂單是否包含「貨到付款」選項。目前 POS 門市取貨僅支援「先付款後取貨」，若設定包含貨到付款，將無法產生到店條碼。

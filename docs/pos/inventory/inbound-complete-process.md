@@ -91,8 +91,8 @@ Note over 收貨方: 1. 建立進倉單
 Note over 收貨方: 2. 收貨清點
 ```
 
-1. [[收貨方] 建立進倉單](inbound-orders.md#建立進倉單)
-2. [[收貨方] 收貨清點](inbound-orders.md#收貨清點)
+1. [[收貨方] 建立進倉單](inbound-orders.md#operate-inbound-orders-create)
+2. [[收貨方] 收貨清點](inbound-orders.md#operate-inbound-orders-receive)
 
 
 !!! info "第三方進倉作業"

@@ -65,25 +65,25 @@ hide:
 
 ![樣板編輯器畫面](../../assets/images/ec-customers-order-liquid-hero.png){ title="樣板編輯器畫面" .hero-page }
 
-## 修改店長改價名稱說明
+## 修改店長改價名稱說明 { #specs-manager-price-ui }
 
 POS 系統支援「店長改價」功能，但消費者在線上查詢訂單時也會看到該折扣明細。**為避免消費者誤解店長權限高而要求折扣，商家可以透過修改程式碼來更改前台顯示的名稱（例如改為「商品改價」）**。
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-manager-price-ui }
 
 -   **責任說明**：官方提供公開版型程式碼供商家自行修改，但 **不提供現有文件外的語法教學或代碼撰寫服務**，建議委託專業工程師處理。
 -   **恢復機制**：樣版編輯器具備「**查看之前版本**」功能， [回溯至先前版本](../../ec/website-appearance/code-customization/restore-code-theme-editor.md#操作步驟){ title="使用樣板編輯器恢復網頁代碼" }。
 
-## 操作步驟
+## 操作步驟 { #operate-manager-price-ui }
 
-### 修改路徑與檔案
+### 修改路徑與檔案 { #operate-manager-price-ui-edit }
 
 1.  **進入後台**：前往 **網站外觀 > 套版主題管理 > CSS/HTML 編輯器**。
 2.  **開啟檔案**：在編輯器中搜尋並點開 **`customers/order.liquid`** 檔案。
 
 ---
 
-###  修改程式碼語法
+### 修改程式碼語法 { #operate-manager-price-ui-section-f }
 
 1. 在檔案中找到原本顯示名稱的語法：`<div class="text">{{type.name}}</div>`
 
@@ -120,7 +120,7 @@ POS 系統支援「店長改價」功能，但消費者在線上查詢訂單時�
 
 ---
 
-## 修改後效果
+## 修改後效果 { #operate-after-change }
 
 1.  **儲存設定**：修改完成後按下儲存。
 2.  **前台呈現**：當消費者透過官網「訂單查詢」查看明細時，原本顯示的「店長改價」折扣項目將會更名為「**商品改價**」。
@@ -128,7 +128,7 @@ POS 系統支援「店長改價」功能，但消費者在線上查詢訂單時�
 ![修改後前台呈現](../../assets/images/pos-manager-price-override-frontend-result.png){ title="修改後前台呈現" }
 
 
-## 常見問題
+## 常見問題 { #faq-manager-price-ui }
 
 ??? quote "修改後前台名稱沒有變化，該怎麼辦？"
 

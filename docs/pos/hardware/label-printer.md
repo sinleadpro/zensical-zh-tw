@@ -85,7 +85,7 @@ hide: []
     - **自營品牌**：自產自銷商品透過標籤機產出符合國際標準的條碼標籤，提升專業感。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-label-printer }
 
 - **指定型號**：系統目前僅支援 **TSC TTP-225** 與 **TSC TTP-323** 型號之標籤印表機。
 - **作業系統規範**：電腦必須使用 Windows 專業版（家用版將無法正常執行）。
@@ -103,9 +103,9 @@ hide: []
     > 建議配套：請先下載 [POS 專屬設備串接驅動程式](../software/drivers.md) 進行標籤列印測試，確認相容後再行使用。
 
 
-## 操作流程
+## 操作流程 { #operate-label-printer }
 
-### 步驟一：選擇標籤機與耗材規格
+### 步驟一：選擇標籤機與耗材規格 { #operate-label-printer-step-a-supplies }
 
 | **機型** | **TSC TTP-225** | **TSC TTP-323** |
 | -------- | --------------- | --------------- |
@@ -119,7 +119,7 @@ hide: []
 
 ![](../../assets/images/POS-裝置-標籤列印機01.png){ .screenshot }
 
-### 步驟二：硬體安裝與連線測試
+### 步驟二：硬體安裝與連線測試 { #operate-label-printer-step-b-hardware }
 
 在開始列印前，請確保標籤機已完成硬體整備。
 
@@ -131,7 +131,7 @@ hide: []
 
 
 
-## 更多操作
+## 更多操作 { #next-steps-label-printer }
 
 <div class="grid cards" markdown>
 

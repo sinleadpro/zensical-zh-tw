@@ -99,8 +99,8 @@ Note over 缺貨方: 5. 收貨清點
 
 
 
-1. [[缺貨方] 建立調倉單](transfer-orders/#建立調倉單)
-2. [[調撥方] 同意調倉](transfer-orders/#同意--拒絕調倉)
-3. [[缺貨方] 確認進倉](inbound-orders/#確認--取消進倉)
-4. [[調撥方] 確認出倉](outbound-orders/#確認--取消出倉)
-5. [[缺貨方] 收貨清點](inbound-orders/#收貨清點)
+1. [[缺貨方] 建立調倉單](transfer-orders/#operate-transfer-orders-create)
+2. [[調撥方] 同意調倉](transfer-orders/#operate-transfer-orders-approve)
+3. [[缺貨方] 確認進倉](inbound-orders/#operate-inbound-orders-confirm)
+4. [[調撥方] 確認出倉](outbound-orders/#operate-outbound-orders-confirm)
+5. [[缺貨方] 收貨清點](inbound-orders/#operate-inbound-orders-receive)

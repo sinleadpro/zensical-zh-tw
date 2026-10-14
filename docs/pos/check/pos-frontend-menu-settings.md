@@ -80,7 +80,7 @@ hide: []
     - **平板操作**：在流動攤位或展場使用平板結帳時，圖形化介面更直觀。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-menu-settings }
 
 - **前置作業**：建議先完成 **[自訂群組](../../ec/products/categories-and-tags/custom-collections.md)** 或 **[商品類型](../../ec/products/create-and-manage/edit-product-description-settings.md#商品設定)** 的設定，以便在建立選單時直接連結。
 - **圖片規範**：
@@ -89,7 +89,7 @@ hide: []
 - **選單架構**：系統支援三層式架構（大類別 > 中分類 > 商品項目）。
 
 
-## 步驟一：建立商品多層級分類
+## 步驟一：建立商品多層級分類 { #operate-menu-settings }
 
 在設定 POS 選單前，需先定義商品的分類邏輯。
 
@@ -106,7 +106,7 @@ hide: []
 
 
 
-## 步驟二：啟用並配置 POS 選單
+## 步驟二：啟用並配置 POS 選單 { #operate-step-b-enable-pos }
 
 完成分類定義後，需將其加入 POS 前台選單並排序。
 
@@ -123,7 +123,7 @@ hide: []
     ![](https://www.cyberbiz.io/support/wp-content/uploads/POS商品選單5.png){ .screenshot }
 
 
-## 前台成果展示
+## 前台成果展示 { #overview-menu-settings }
 
 設定完成後，店員在 POS 前台即可看到如下圖的選單結構：
 

@@ -70,7 +70,7 @@ hide: []
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
-## 使用須知
+## 使用須知 { #prerequisites-sku-bulk }
 
 - **POS 開通限制**：商品必須具備 SKU 碼方可開通並使用 POS 系統功能。
 - **SKU 唯一性**：每個商品款式應具備唯一的 SKU 碼，避免庫存計算混淆。
@@ -79,9 +79,9 @@ hide: []
 
 
 
-## 操作流程
+## 操作流程 { #operate-sku-bulk }
 
-### 步驟一：匯出現有商品資料
+### 步驟一：匯出現有商品資料 { #operate-sku-bulk-step-a-export }
 
 取得包含商品 ID 的完整清單。
 
@@ -92,7 +92,7 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學1.png){ .screenshot }
 
-### 步驟二：在 Excel 中填補 SKU
+### 步驟二：在 Excel 中填補 SKU { #operate-sku-bulk-step-b-excel }
 
 利用 Excel 的篩選功能快速定位缺失資料。
 
@@ -103,7 +103,7 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學4.png){ .screenshot }
 
-### 步驟三：匯入更新檔案
+### 步驟三：匯入更新檔案 { #operate-sku-bulk-step-c-import }
 
 將修改後的資料上傳回系統。
 
@@ -113,7 +113,7 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學5.png){ .screenshot }
 
-### 步驟四：確認更新結果
+### 步驟四：確認更新結果 { #operate-sku-bulk-step-d-confirm }
 
 系統將透過 Email 通知處理進度。
 
@@ -125,7 +125,7 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學6.png){ .screenshot }
 
-## 更多操作
+## 更多操作 { #next-steps-sku-bulk }
 
 <div class="grid cards" markdown>
 
