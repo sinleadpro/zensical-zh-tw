@@ -13,7 +13,7 @@ hide:
   - feedback
 ---
 
-## 總覽與基本報表
+## 總覽與基本報表 { #overview-bi-basics }
 
 <div class="grid cards" markdown>
 
@@ -45,7 +45,7 @@ hide:
 
 ---
 
-## 營收與訂單分析
+## 營收與訂單分析 { #overview-bi-revenue-orders }
 
 <div class="grid cards" markdown>
 
@@ -77,7 +77,7 @@ hide:
 
 ---
 
-## 商品分析
+## 商品分析 { #overview-bi-products }
 
 <div class="grid cards" markdown>
 
@@ -101,7 +101,7 @@ hide:
 
 ---
 
-## 會員與顧客分析
+## 會員與顧客分析 { #overview-bi-members }
 
 <div class="grid cards" markdown>
 
@@ -133,7 +133,7 @@ hide:
 
 ---
 
-## 行銷與廣告分析
+## 行銷與廣告分析 { #overview-bi-marketing }
 
 <div class="grid cards" markdown>
 
@@ -157,7 +157,7 @@ hide:
 
 ---
 
-## OMO 分析
+## OMO 分析 { #overview-bi-omo }
 
 <div class="grid cards" markdown>
 
