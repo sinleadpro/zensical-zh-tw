@@ -96,7 +96,7 @@ hide:
 
 ## 操作步驟
 
-### 進入編輯訂單頁 { #edit-order-page }
+### 進入編輯訂單頁 { #operate-order-edit-page }
 
 1.  **進入訂單**：前往後台 **訂單 > 所有訂單**，選擇欲編輯的訂單並點擊「訂單編號」，進入訂單詳情頁。
 2.  **啟動編輯**：點擊頁面右上角的 **「編輯訂單」** 按鈕。
@@ -108,24 +108,24 @@ hide:
     <div class="grid cards" markdown>
 
     - :lucide-minus-circle:{ .lg .middle }
-      [增減或移除商品](#edit-order-adjust-remove){ title="增減或移除商品" }
+      [增減或移除商品](#operate-order-edit-adjust-remove){ title="增減或移除商品" }
 
     - :lucide-plus-circle:{ .lg .middle }
-      [新增商品](#edit-order-add-product){ title="新增商品" }
+      [新增商品](#operate-order-edit-add-product){ title="新增商品" }
 
     - :lucide-settings:{ .lg .middle }
-      [自訂品項/折扣](#edit-order-custom){ title="自訂品項/折扣" }
+      [自訂品項/折扣](#operate-order-edit-custom){ title="自訂品項/折扣" }
 
     - :lucide-sticky-note:{ .lg .middle }
-      [商家備註](#edit-order-note){ title="商家備註" }
+      [商家備註](#operate-order-edit-note){ title="商家備註" }
 
     </div>
 
 ---
 
-### 增減或移除商品 { #edit-order-adjust-remove }
+### 增減或移除商品 { #operate-order-edit-adjust-remove }
 
-在「[編輯訂單頁](#edit-order-page)」中，您可以調整訂單內既有商品的數量，或將商品從訂單中移除。
+在「[編輯訂單頁](#operate-order-edit-page)」中，您可以調整訂單內既有商品的數量，或將商品從訂單中移除。
 
 1. 直接從數量欄位中調整商品數量或點擊刪除 :lucide-trash-2: 將商品移除。
 2. 操作完成後點擊「確認編輯」，並在二次彈窗中點選「確認並送出」即可套用變更。
@@ -134,9 +134,9 @@ hide:
 
 ---
 
-### 新增商品 { #edit-order-add-product }
+### 新增商品 { #operate-order-edit-add-product }
 
-在「[編輯訂單頁](#edit-order-page)」中，您可以將新商品加入至訂單。
+在「[編輯訂單頁](#operate-order-edit-page)」中，您可以將新商品加入至訂單。
 
 1. 點選「新增商品」，從彈窗中搜尋（搜尋機制可參考[商品篩選器](../../products/create-and-manage/product-management-interface.md#篩選器使用邏輯){ title="商品管理介面總覽" data-preview }）後勾選點擊 **確認新增** 加入品項（僅限溫層與通路相同的商品）。
 
@@ -150,9 +150,9 @@ hide:
 
 ---
 
-### 新增自訂品項/折扣 { #edit-order-custom }
+### 新增自訂品項/折扣 { #operate-order-edit-custom }
 
-在「[編輯訂單頁](#edit-order-page)」中，您可以透過自訂品項或折扣，補收運費或提供額外優惠來調整訂單金額。
+在「[編輯訂單頁](#operate-order-edit-page)」中，您可以透過自訂品項或折扣，補收運費或提供額外優惠來調整訂單金額。
 
 === "自訂品項"
 
@@ -188,9 +188,9 @@ hide:
 
 ---
 
-### 商家備註 {#edit-order-note}
+### 商家備註 {#operate-order-edit-note}
 
-在「[編輯訂單頁](#edit-order-page)」中，您可以新增內部備註（最多 1000 字），供商家作業參考。
+在「[編輯訂單頁](#operate-order-edit-page)」中，您可以新增內部備註（最多 1000 字），供商家作業參考。
 
 1. 於編輯頁面下方的「商家備註」文字框中輸入備註內容。
 2. 需同時修改至少一項商品內容（新增、刪除或調整數量）。
@@ -201,7 +201,7 @@ hide:
 !!! warning "重要限制"
     編輯訂單模式 **不支援單獨儲存備註異動**。僅修改備註請於「訂單明細頁」操作；編輯模式須伴隨商品異動方可儲存。
 
-## 金額計算與差額處理 { #edit-order-payment-adjsutment }
+## 金額計算與差額處理 { #operate-order-payment-adjustment }
 
 編輯後的金額異動邏輯如下：
 

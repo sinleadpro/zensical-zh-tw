@@ -218,7 +218,7 @@ hide: []
 
 
 
-### 編輯進行中的優惠碼 { #edit-ongoing-coupon }
+### 編輯進行中的優惠碼 { #operate-coupon-edit-ongoing }
 
 #### 使用須知
 
