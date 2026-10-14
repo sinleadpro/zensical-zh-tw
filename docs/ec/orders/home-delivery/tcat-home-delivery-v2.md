@@ -89,9 +89,9 @@ hide: []
     * 若顧客選擇超商取貨，請見 [使用黑貓快速到店出貨](../tcat-quick-store/tcat-quick-store-shipping.md){ title="使用黑貓快速到店出貨" }。
     * 自動呼叫黑貓司機到府收件，請見 [自動呼叫黑貓司機取件](tcat-auto-call-driver-v2.md){ title="自動呼叫黑貓司機取件" }。
 
-## 計費與規則 { #tcat-home-pricing }
+## 計費與規則 { #specs-tcat-home }
 
-### 運費扣款方式 <small>依方案</small> { #tcat-home-shipping-fee }
+### 運費扣款方式 <small>依方案</small> { #specs-tcat-home-fee }
 
 商家方案不同，黑貓運費的扣款方式也不同：
 
@@ -103,7 +103,7 @@ hide: []
 
 ---
 
-### 託運單有效期 { #tcat-home-label-expiry }
+### 託運單有效期 { #specs-tcat-home-label-expiry }
 
 下載託運單後即會扣除 CYBER 幣。如 **產出托運單後 14 天未實際出貨** ，系統會將該單號認列為失效並執行以下動作：
 
@@ -125,7 +125,7 @@ hide: []
 
 ## 操作步驟 { #operate-tcat-home }
 
-### 批次出貨並列印出貨文件 { #tcat-home-shipping-label-batch }
+### 批次出貨並列印出貨文件 { #operate-tcat-home-batch-print }
 
 1. **進入訂單列表**：登入後台，前往 **訂單 > 所有訂單**。
 2. **勾選訂單**：在列表中勾選欲出貨的訂單，需確認所選訂單的配送方式皆為「黑貓宅配」。
@@ -163,12 +163,12 @@ hide: []
 
     ![出貨文件PDF預覽](../../../assets/images/EC-後台-訂單-所有訂單-列印黑貓出貨文件04.png){ title="瀏覽器預覽出貨文件PDF" .screenshot }
 
-    有勾選 **同步下載所有文件** 時，系統也會下載[^2] [託運單 ZIP 壓縮檔](#reference-tcat-home-zip-contents) 並 [扣除運費](#tcat-home-shipping-fee)。PDF 預設順序為揀貨單 → 託運單 → 出貨明細 → 訂單明細；可依需求選擇 [列印排序](../order-settings/setup-shipping-docs-sort.md){ title="設定列印出貨文件排序" }。
+    有勾選 **同步下載所有文件** 時，系統也會下載[^2] [託運單 ZIP 壓縮檔](#reference-tcat-home-zip-contents) 並 [扣除運費](#specs-tcat-home-fee)。PDF 預設順序為揀貨單 → 託運單 → 出貨明細 → 訂單明細；可依需求選擇 [列印排序](../order-settings/setup-shipping-docs-sort.md){ title="設定列印出貨文件排序" }。
 
-9. **貨態自動更新**：本次有勾選 **託運單** 或 **同步下載所有文件** 時，所選訂單的貨態變更為 **已出貨**。(詳見 [確認貨態變更](#tcat-home-verify-status))
+9. **貨態自動更新**：本次有勾選 **託運單** 或 **同步下載所有文件** 時，所選訂單的貨態變更為 **已出貨**。(詳見 [確認貨態變更](#operate-tcat-home-verify))
 
     ??? warning "出貨後無法修改收貨資訊"
-        標記為「已出貨」後，後台就無法再修改收件地址或聯絡資訊。地址有誤時的處理見 [地址錯誤排除](#tcat-home-address-error)。
+        標記為「已出貨」後，後台就無法再修改收件地址或聯絡資訊。地址有誤時的處理見 [地址錯誤排除](#operate-tcat-home-address-error)。
 
 [^1]: 若未出現選項，可能是因為訂單狀態不符或物流設定未完成。詳情參考 [常見問題：沒有進行出貨/列印文件選項](#faq-tcat-home-missing-option)。 
 [^2]: 若沒有正常下載，請確認瀏覽器是否阻擋了彈跳視窗或廣告，允許本站彈跳視窗後重新點擊下載。更多疑難排解參考 [常見問題：無法下載托運單](#faq-tcat-home-download-no-response)
@@ -176,7 +176,7 @@ hide: []
 
 ---
 
-### 呼叫黑貓司機取件 { #tcat-home-call-driver-pickup }
+### 呼叫黑貓司機取件 { #operate-tcat-home-call-driver }
 
 下載託運單後，需聯繫黑貓司機到貨取件:
 
@@ -185,7 +185,7 @@ hide: []
 
 ---
 
-### 確認貨態變更 { #tcat-home-verify-status }
+### 確認貨態變更 { #operate-tcat-home-verify }
 
 成功確認出貨後，可在兩個地方確認貨態：
 
@@ -199,7 +199,7 @@ hide: []
 
 ---
 
-### 地址錯誤排除 { #tcat-home-address-error }
+### 地址錯誤排除 { #operate-tcat-home-address-error }
 
 下載託運單時若出現「寄件人資訊不完整提示」，代表黑貓寄件地址未設定或不完整：
 
@@ -210,7 +210,7 @@ hide: []
     彈窗中的寄件地址預設帶入該物流上一次使用的地址（首次帶入「黑貓設定」中的地址）。修改「公司物流地址」將 **不會** 影響黑貓出貨的寄件地址，請至「金物流 > 黑貓託運單」頁面直接修改。
 
 
-## 後續操作 { #tcat-home-next-steps }
+## 後續操作 { #next-steps-tcat-home }
 
 <div class="grid cards" markdown>
   
@@ -309,7 +309,7 @@ hide: []
 
     若訂單有運費調整（如補收差額或繁盛期加收），系統會將詳細資訊記錄於「對帳備註」中。後台路徑：金物流 > 黑貓託運單 > 單號使用紀錄（此路徑亦適用於宅配通）。
 
-## 參考資料 { #tcat-home-references }
+## 參考資料 { #reference-tcat-home }
 
 ### 託運單 ZIP 內容物 { #reference-tcat-home-zip-contents }
 

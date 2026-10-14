@@ -115,7 +115,7 @@ hide: []
 | 配送區域 | 僅支援台灣本島，不支援離島 |
 | 取貨期限 | 商品抵達超商後，常溫可放置 7 日；冷藏／冷凍僅可放置 4 日。黑貓會於 **包裹到店第一日** 與 **退貨前一日** 各發 1 封簡訊通知消費者，共 2 封。 |
 | 託運單時效 | 產出託運單後須於 7 日內聯繫黑貓完成收貨，逾期單號將失效 |
-| [逾期未取](#tcat-cvs-overdue-pickup){ title="到店逾期未取" } | 包裹退回商家，黑貓將 **加收一次回程運費** |
+| [逾期未取](#specs-tcat-cvs-overdue){ title="到店逾期未取" } | 包裹退回商家，黑貓將 **加收一次回程運費** |
 
 !!! tip "冷藏／冷凍出貨的包裝建議"
     * **預冷時間** ：冷藏商品建議預冷 6 小時以上、冷凍商品建議預冷 12 小時以上，以維持溫層至門市取貨時。
@@ -129,7 +129,7 @@ hide: []
 - **功能開通限制**： 商店須開通對應溫層的功能。若要使用冷藏與冷凍服務，系統必須額外開通「商品綁溫層」功能。
 - **與峰潮物流互斥**：若商店已串接峰潮物流，則無法使用黑貓快速到店功能，兩者擇一。
 
-## 操作步驟 { #tcat-cvs-operate }
+## 操作步驟 { #operate-tcat-cvs }
 
 
 ### 出貨前準備 { #prerequisites-tcat-cvs-checklist }
@@ -179,9 +179,9 @@ hide: []
 
     ![出貨文件PDF預覽](../../../assets/images/EC-後台-訂單-所有訂單-列印黑貓出貨文件04.png){ title="瀏覽器預覽出貨文件PDF" .screenshot }
 
-    有勾選 **同步下載所有文件** 時，系統也會下載[^1] [託運單 ZIP 壓縮檔](#tcat-cvs-zip-contents){ title="託運單 ZIP 內容物" }。PDF 預設順序為揀貨單 → 託運單 → 出貨明細 → 訂單明細；批次多張訂單時可改 [列印排序](../order-settings/setup-shipping-docs-sort.md){ title="設定列印出貨文件排序" }。
+    有勾選 **同步下載所有文件** 時，系統也會下載[^1] [託運單 ZIP 壓縮檔](#reference-tcat-cvs-zip){ title="託運單 ZIP 內容物" }。PDF 預設順序為揀貨單 → 託運單 → 出貨明細 → 訂單明細；批次多張訂單時可改 [列印排序](../order-settings/setup-shipping-docs-sort.md){ title="設定列印出貨文件排序" }。
 
-9. **確認貨態已變更**：本次有勾選 **託運單** 或 **同步下載所有文件** 時，被勾選訂單的配送狀態會轉為 **已出貨** 。(詳見 [確認貨態變更](#tcat-cvs-verify-status){ title="確認貨態變更" })
+9. **確認貨態已變更**：本次有勾選 **託運單** 或 **同步下載所有文件** 時，被勾選訂單的配送狀態會轉為 **已出貨** 。(詳見 [確認貨態變更](#operate-tcat-cvs-verify){ title="確認貨態變更" })
 
 
 [^1]: 若未出現選項，可能是因為訂單狀態不符或物流設定未完成。詳情參考 [常見問題：沒有進行出貨/列印文件選項](#faq-tcat-cvs-action-missing)。 
@@ -189,7 +189,7 @@ hide: []
 [^3]: 修改後會同步更新該物流頁面地址，不同物流間及公司物流地址互不影響。
 ---
 
-### 呼叫黑貓司機取件 { #tcat-cvs-call-driver-pickup }
+### 呼叫黑貓司機取件 { #operate-tcat-cvs-call-driver }
 
 下載託運單後，需聯繫黑貓司機到貨取件:
 
@@ -198,7 +198,7 @@ hide: []
 
 ---
 
-### 確認貨態變更 { #tcat-cvs-verify-status }
+### 確認貨態變更 { #operate-tcat-cvs-verify }
 
 成功確認出貨後，可在兩個地方確認貨態：
 
@@ -212,7 +212,7 @@ hide: []
 
 ---
 
-### 地址錯誤排除 { #tcat-cvs-address-error }
+### 地址錯誤排除 { #operate-tcat-cvs-address-error }
 
 下載託運單時若出現「寄件人資訊不完整提示」，代表黑貓寄件地址未設定或不完整：
 
@@ -225,7 +225,7 @@ hide: []
 
 ---
 
-### 到店逾期未取 { #tcat-cvs-overdue-pickup }
+### 到店逾期未取 { #specs-tcat-cvs-overdue }
 
 包裹送達超商後，消費者有取貨期限：
 
@@ -325,7 +325,7 @@ hide: []
 
     不行。下載託運單時系統會即時從 CYBER 幣餘額扣款，餘額不足時下載會失敗。請先至 [儲值中心](../../website-management/points-deposits.md){ data-preview } 儲值後再重新操作。
 
-### 託運單 ZIP 內容物 { #tcat-cvs-zip-contents }
+### 託運單 ZIP 內容物 { #reference-tcat-cvs-zip }
 
 下載完成後，zip 內包含四份 PDF，分別供不同流程使用：
 
