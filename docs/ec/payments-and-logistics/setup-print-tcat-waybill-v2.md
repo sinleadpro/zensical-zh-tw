@@ -87,7 +87,7 @@ hide: []
 
 | 區塊 | 用途 | 觸發時機 |
 | :-- | :-- | :-- |
-| [黑貓設定](#configure-ezcat-shipping-note-sender-setup) | 設定寄件人姓名、地址、聯絡電話與逆物流收件地址 | 首次使用、寄件人資訊變更 |
+| [黑貓設定](#operate-ezcat-sender-settings) | 設定寄件人姓名、地址、聯絡電話與逆物流收件地址 | 首次使用、寄件人資訊變更 |
 | [加印託運單](#operate-ezcat-shipping-create) | 針對單一訂單再列印 1 至 8 張「純配送」託運單 | 需分箱寄送、託運單損毀重印 |
 | [黑貓逆物流](#operate-ezcat-shipping-reverse) | 由黑貓上門至顧客處取件並送回您的逆物流地址 | 顧客退貨且訂單已出貨 |
 | [黑貓轉單紀錄](#reference-ezcat-shipping-transfer) | 系統自動將原訂單未使用的單號轉用至新訂單的歷程 | 對帳查詢用 |
@@ -105,7 +105,7 @@ hide: []
     * **一般版**：看到「目前 CYBER 幣餘額」與藍色數字餘額。
     * **PLUS版 / 企業版**：顯示對帳單說明文字，請依對帳單週期結算。
 
-## 設定寄件人資訊 { #configure-ezcat-shipping-note-sender-setup }
+## 設定寄件人資訊 { #operate-ezcat-sender-settings }
 
 首次使用黑貓託運單功能前，**必須** 完成「黑貓設定」區塊。寄件人姓名、地址、電話會被代入後續所有正物流與逆物流託運單。
 
@@ -177,7 +177,7 @@ hide: []
 
 | 條件 | 系統要求 |
 | :-- | :-- |
-| 已完成黑貓設定 | 寄件人區碼必須存在(來自 [設定寄件人資訊](#configure-ezcat-shipping-note-sender-setup)的寄件地址) |
+| 已完成黑貓設定 | 寄件人區碼必須存在(來自 [設定寄件人資訊](#operate-ezcat-sender-settings)的寄件地址) |
 | 訂單存在 | 訂單編號正確 |
 | 非 POS 訂單 | 門市 POS 訂單無法於此頁面建立逆物流 |
 | 訂單配送狀態 | 須為 **已出貨** 或更後階段；尚未出貨、準備出貨的訂單不允許 |

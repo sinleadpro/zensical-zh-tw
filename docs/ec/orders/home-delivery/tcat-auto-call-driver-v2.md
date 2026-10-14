@@ -87,7 +87,7 @@ hide: []
 | :-- | :-- |
 | 後台版型 | 必須使用 **新版訂單列表**，舊版訂單列表不支援此功能 |
 | 開通功能 | 「自動呼叫黑貓司機」屬開通功能，請聯繫 **CYBERBIZ 客服** 申請開通 |
-| 寄件人資訊 | 必須先至 **[黑貓寄取件設定頁](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" data-preview }**(金物流 > 黑貓託運單 > 黑貓設定)完整填寫寄件人姓名、地址與聯絡電話，系統才會接受呼叫請求 |
+| 寄件人資訊 | 必須先至 **[黑貓寄取件設定頁](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-sender-settings){ title="設定寄件人資訊" data-preview }**(金物流 > 黑貓託運單 > 黑貓設定)完整填寫寄件人姓名、地址與聯絡電話，系統才會接受呼叫請求 |
 
 !!! info "若彈窗下半部未出現「是否自動呼叫黑貓司機取件」的選項區塊，代表此商店尚未啟用該功能。"
 
@@ -124,7 +124,7 @@ hide: []
 3. **開啟下載彈窗**：點擊列表右上角的 **更多操作**，從下拉選單選擇 **下載黑貓託運單並更改為已出貨**。
 4. **確認託運單設定**：在 **下載黑貓託運單** 彈窗中，依序檢查溫層(常溫 / 冷藏 / 冷凍)、是否為易碎品、寄件地址等預設值。
 5. **設定自動呼叫司機**：捲動至 **是否自動呼叫黑貓司機取件** 區塊，在「是 / 否」中選擇 **是**[^1]。後會展開以下三個欄位：
-    * **是否需在取件前事先電話聯絡**：選「是」時，司機抵達前會撥打「[黑貓寄取件設定頁](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" }」中填寫的聯絡電話與您確認。
+    * **是否需在取件前事先電話聯絡**：選「是」時，司機抵達前會撥打「[黑貓寄取件設定頁](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-sender-settings){ title="設定寄件人資訊" }」中填寫的聯絡電話與您確認。
     * **是否需黑貓司機準備推車**：若包裹數量較多，可請司機自備推車。
     * **備註**：可填寫特殊收件指示(例如門禁、樓層)，上限 **100 字**。
 
@@ -198,7 +198,7 @@ hide: []
     請依序檢查：
 
      1. 是否在 **16:30 [截止時間](#specs-tcat-auto-call-deadline) 前** 完成送出。
-     2. [黑貓寄取件設定頁](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" } 中的姓名、地址、電話是否完整填寫。
+     2. [黑貓寄取件設定頁](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-sender-settings){ title="設定寄件人資訊" } 中的姓名、地址、電話是否完整填寫。
     3. 若仍無法處理，請聯繫黑貓客服 **02-412-8888** 直接安排。
 
 ??? quote "可以設定呼叫司機在指定時間取件嗎?"

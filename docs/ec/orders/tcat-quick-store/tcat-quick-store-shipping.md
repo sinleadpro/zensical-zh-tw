@@ -136,10 +136,10 @@ hide: []
 
 執行黑貓快速到店出貨前，請完成以下準備：
 
-- [x] **黑貓寄件人地址**： 至「金物流」>「[黑貓快速到店託運單](../../payments-and-logistics/setup-print-tcat-quick-store-waybill-v2.md#configure-ezcat-cvs-shipping-note-sender-setup){ title="設定寄件人資訊" }」設定寄件人地址，否則託運單上的寄件人資訊將不完整。
+- [x] **黑貓寄件人地址**： 至「金物流」>「[黑貓快速到店託運單](../../payments-and-logistics/setup-print-tcat-quick-store-waybill-v2.md#operate-ezcat-cvs-sender-settings){ title="設定寄件人資訊" }」設定寄件人地址，否則託運單上的寄件人資訊將不完整。
 - [x] **耗材與設備**： 已備妥「黑貓三聯空白託運單貼紙」（可致電黑貓客服 02-412-8888 取得），並建議使用雷射印表機列印，以確保條碼清晰。
 - [x] **商品預冷（低溫包裹）**： 冷藏商品須預冷 6 小時以上；冷凍商品須預冷 12 小時以上。
-- [x] **確認餘額**：一般版商家請至 [儲值中心查看 CYBER 幣餘額](../../website-management/points-deposits.md#cyber-coin-balance){ data-preview }，確認餘額充足；PLUS版 / 企業版商家無此限制。
+- [x] **確認餘額**：一般版商家請至 [儲值中心查看 CYBER 幣餘額](../../website-management/points-deposits.md#overview-cyber-coin-balance){ data-preview }，確認餘額充足；PLUS版 / 企業版商家無此限制。
 
 --- 
 
@@ -152,7 +152,7 @@ hide: []
 4. **設定彈出視窗內欄位**：在「進行出貨/列印文件」視窗中依序設定
     * **請選擇溫層**：選擇 **常溫** 、 **低溫(冷藏)** 或 **低溫(冷凍)** 。請確保 **規格與實寄包裹一致**。
     * **是否為易碎品**：選擇 **是** 或 **否** 。
-    * **寄件地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [黑貓設定](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#configure-ezcat-shipping-note-sender-setup){ title="設定寄件人資訊" } 中的地址），如需更改可於視窗內點擊 **「更改」** 按鈕編輯[^3]。
+    * **寄件地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [黑貓設定](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-sender-settings){ title="設定寄件人資訊" } 中的地址），如需更改可於視窗內點擊 **「更改」** 按鈕編輯[^3]。
 
 5. **勾選欲列印的文件**：在 **請選擇欲列印文件** 勾選本次要印的種類。預設勾選 **託運單** 與 **同步下載所有文件**。
 

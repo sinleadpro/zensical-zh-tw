@@ -79,7 +79,7 @@ hide: []
 
 ## 操作步驟
 
-### 設定寄件人資料 { #configure-pelican-shipping-note-sender }
+### 設定寄件人資料 { #operate-pelican-sender-settings }
 
 首次使用「加印託運單」或「宅配通逆物流」前，請先設定寄件人資料。日後若公司地址或聯絡人變更，也回到這裡修改。
 
@@ -131,7 +131,7 @@ hide: []
 
 !!! note "註釋"
     * 託運單由宅配通端列印並交給顧客，商家後台 **不會** 直接拿到 PDF 。
-    * 退貨包裹會送至 [宅配通設定](#configure-pelican-shipping-note-sender) 中填寫的「逆物流地址」(留空時則送至寄件人地址)。
+    * 退貨包裹會送至 [宅配通設定](#operate-pelican-sender-settings) 中填寫的「逆物流地址」(留空時則送至寄件人地址)。
 
 [^2]: 若留空，系統會自動帶入原訂單的配送地址。
 

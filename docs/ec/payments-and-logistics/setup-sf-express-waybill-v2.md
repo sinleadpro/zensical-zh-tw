@@ -91,7 +91,7 @@ hide: []
 
 ## 操作步驟 { #operate-sf-waybill }
 
-### 順豐設定 { #configure-sf-waybill-sender }
+### 順豐設定 { #operate-sf-sender-settings }
 
 第一次使用前先完成這個區塊，寄件人資訊會被印在每一張順豐託運單上。
 

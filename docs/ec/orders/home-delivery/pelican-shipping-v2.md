@@ -96,8 +96,8 @@ hide: []
 
 首次使用宅配通出貨前，請先完成下列設定：
 
-- [x] **宅配通寄件人地址**(批次出貨用)：至「金物流」>「[宅配通託運單](../../payments-and-logistics/setup-pelican-waybill-v2.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" }」設定寄件人地址，若無設定則會導致出貨時出現「寄件人資訊不完整」的通知。
-- [x] **宅配通寄件人資料**(加印託運單與逆物流用)：至「金物流」>「宅配通託運單」頁面的「宅配通設定」區塊填寫，詳見 [宅配通託運單管理頁](../../payments-and-logistics/setup-pelican-waybill-v2.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" } 。
+- [x] **宅配通寄件人地址**(批次出貨用)：至「金物流」>「[宅配通託運單](../../payments-and-logistics/setup-pelican-waybill-v2.md#operate-pelican-sender-settings){ title="設定寄件人資料" }」設定寄件人地址，若無設定則會導致出貨時出現「寄件人資訊不完整」的通知。
+- [x] **宅配通寄件人資料**(加印託運單與逆物流用)：至「金物流」>「宅配通託運單」頁面的「宅配通設定」區塊填寫，詳見 [宅配通託運單管理頁](../../payments-and-logistics/setup-pelican-waybill-v2.md#operate-pelican-sender-settings){ title="設定寄件人資料" } 。
 
 ---
 
@@ -132,7 +132,7 @@ hide: []
     ![下載宅配通託運單](../../../assets/images/EC-訂單-所有訂單-下載宅配通託運單.png){ title="下載宅配通託運單" }
 
 5. **檢視運費明細**：彈窗 中段會列出本批次要扣除的 CYBER 幣或對帳金額，請確認與預期相符。
-6. **確認寄件地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [宅配通設定](../../payments-and-logistics/setup-pelican-waybill-v2.md#configure-pelican-shipping-note-sender){ title="設定寄件人資料" } 中的地址），如需更改可點擊 **「更改」** 按鈕編輯[^4]。
+6. **確認寄件地址**：預設帶入該物流上一次使用的寄件地址（首次帶入 [宅配通設定](../../payments-and-logistics/setup-pelican-waybill-v2.md#operate-pelican-sender-settings){ title="設定寄件人資料" } 中的地址），如需更改可點擊 **「更改」** 按鈕編輯[^4]。
 
     ![確認寄件地址](../../../assets/images/ec-orders-pelican-waybill-popup-address.png){ title="確認宅配通託運單地址" }
 

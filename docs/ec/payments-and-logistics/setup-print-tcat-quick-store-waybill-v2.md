@@ -80,7 +80,7 @@ hide: []
 
 | 區塊 | 用途 | 觸發時機 |
 | :-- | :-- | :-- |
-| [黑貓快速到店設定](#configure-ezcat-cvs-shipping-note-sender-setup) | 設定寄件人姓名、地址、聯絡電話與託運單預設品名 | 首次使用、寄件人資訊變更 |
+| [黑貓快速到店設定](#operate-ezcat-cvs-sender-settings) | 設定寄件人姓名、地址、聯絡電話與託運單預設品名 | 首次使用、寄件人資訊變更 |
 | [加印託運單](#operate-ezcat-cvs-create) | 針對單一訂單再列印 1 至 8 張「純配送」託運單 | 需分箱寄送、託運單損毀重印 |
 | [單號使用紀錄](#reference-ezcat-cvs-usage) | 列出本店所有黑貓快速到店託運單與扣抵金額 | 對帳、查詢單號狀態 |
 
@@ -93,7 +93,7 @@ hide: []
 
 ## 操作步驟
 
-### 設定寄件人資訊 { #configure-ezcat-cvs-shipping-note-sender-setup }
+### 設定寄件人資訊 { #operate-ezcat-cvs-sender-settings }
 
 首次使用黑貓快速到店託運單功能前， **必須** 完成「黑貓快速到店設定」區塊。寄件人姓名、地址、電話會被代入後續所有託運單。
 
