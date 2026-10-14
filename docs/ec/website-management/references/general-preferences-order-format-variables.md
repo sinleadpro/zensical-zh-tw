@@ -49,7 +49,7 @@ icon: lucide/table
 hide: []
 ---
 
-# 訂單編號格式變數對照表 { #reference-general-preferences-order-format-variables }
+# 訂單編號格式變數對照表
 
 在「一般設置」的「調整標準和格式」區塊，可使用下列變數自訂訂單編號的呈現方式。系統會在訂單成立時，把變數替換成實際內容。
 

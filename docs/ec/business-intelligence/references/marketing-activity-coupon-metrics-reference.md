@@ -32,7 +32,7 @@ icon: lucide/table
 hide:
 ---
 
-# 優惠券指標定義對照表 { #reference-marketing-activity-coupon-metrics }
+# 優惠券指標定義對照表
 
 「優惠券分析」分頁的數字卡指標定義如下，分為「種類分析」與「特定優惠券分析」兩組。所有指標僅計算 **有效訂單**。
 
