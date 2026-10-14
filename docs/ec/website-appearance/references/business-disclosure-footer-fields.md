@@ -47,7 +47,7 @@ icon: lucide/table
 hide:
 ---
 
-### 頁腳聯絡資訊欄位 { #footer-contact-fields }
+### 頁腳聯絡資訊欄位 { #reference-footer-contact }
 
 | 欄位 | 說明 |
 | :-- | :-- |

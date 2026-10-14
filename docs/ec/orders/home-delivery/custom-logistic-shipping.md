@@ -100,10 +100,10 @@ hide: []
     [批次快速出貨（不填單號）](#operate-custom-logistics-batch)
 
 -   :lucide-file-spreadsheet:{ .lg }
-    [Excel 大量匯入託運單號](#excel-bulk-import)
+    [Excel 大量匯入託運單號](#operate-excel-bulk-import)
 
 -   :lucide-pencil:{ .lg }
-    [單筆訂單手動出貨](#single-order-manual-ship)
+    [單筆訂單手動出貨](#operate-custom-logistics-single-order)
 
 </div>
 
@@ -154,7 +154,7 @@ hide: []
 
 ---
 
-### 大量匯入自訂物流託運單號 <small>Excel</small> { #excel-bulk-import }
+### 大量匯入自訂物流託運單號 <small>Excel</small> { #operate-excel-bulk-import }
 
 適合需要 **一次回填多筆不同託運單號** 的情境。
 
@@ -196,7 +196,7 @@ hide: []
 
 ---
 
-### 單筆訂單於詳情頁出貨 { #single-order-manual-ship }
+### 單筆訂單於詳情頁出貨 { #operate-custom-logistics-single-order }
 
 !!! example "適用情境"
     - 逐筆精準填寫單號

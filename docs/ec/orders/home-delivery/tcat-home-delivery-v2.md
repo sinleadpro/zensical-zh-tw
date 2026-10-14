@@ -109,7 +109,7 @@ hide: []
 
 - 所扣的 CYBER 幣會自動退回帳戶。
 - 訂單列表頁內，訂單的 **配送狀態** 保留在「已出貨」，不會更改。
-- 訂單詳情頁內，狀態會保留在「[已出貨(待物流收件)](shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }」。
+- 訂單詳情頁內，狀態會保留在「[已出貨(待物流收件)](shipping-status-tooltip.md#reference-shipping-status){ title="出貨狀態物流提示文字說明" data-preview }」。
 - 託運單單號狀態更改為「取消寄件」。
 
 ## 使用前提與限制 { #prerequisites-tcat-home }
@@ -190,7 +190,7 @@ hide: []
 成功確認出貨後，可在兩個地方確認貨態：
 
 - **訂單列表頁**：配送狀態欄位顯示 **已出貨**
-- **訂單詳情頁**：狀態顯示為 [已出貨(待物流收件)](shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }，表示託運單已產生但黑貓尚未收件
+- **訂單詳情頁**：狀態顯示為 [已出貨(待物流收件)](shipping-status-tooltip.md#reference-shipping-status){ title="出貨狀態物流提示文字說明" data-preview }，表示託運單已產生但黑貓尚未收件
 
 若貨態未更新，請檢查：
 

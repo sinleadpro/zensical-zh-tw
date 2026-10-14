@@ -173,7 +173,7 @@ icon: lucide/workflow
 
 <div class="grid cards" markdown>
 
-- :lucide-file-spreadsheet: [**大量匯入自訂物流單號教學**](../home-delivery/custom-logistic-shipping.md#excel-bulk-import){ title="如何使用自訂物流出貨" }
+- :lucide-file-spreadsheet: [**大量匯入自訂物流單號教學**](../home-delivery/custom-logistic-shipping.md#operate-excel-bulk-import){ title="如何使用自訂物流出貨" }
 
 </div>
 

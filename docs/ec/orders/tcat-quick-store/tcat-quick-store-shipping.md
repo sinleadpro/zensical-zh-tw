@@ -203,7 +203,7 @@ hide: []
 成功確認出貨後，可在兩個地方確認貨態：
 
 - **訂單列表頁**：配送狀態欄位顯示 **已出貨**
-- **訂單詳情頁**：狀態顯示為 [已出貨(待物流收件)](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ data-preview }，表示託運單已產生但黑貓尚未收件
+- **訂單詳情頁**：狀態顯示為 [已出貨(待物流收件)](../home-delivery/shipping-status-tooltip.md#reference-shipping-status){ data-preview }，表示託運單已產生但黑貓尚未收件
 
 若貨態未更新，請檢查：
 
@@ -239,7 +239,7 @@ hide: []
 | 第 1 封 | 包裹到店當日 |
 | 第 2 封 | 退貨前 1 日(常溫第 6 日、冷藏/冷凍第 3 日) |
 
-## 後續操作 { #nextstep-tcat-cvs }
+## 後續操作 { #next-steps-tcat-cvs }
 
 <div class="grid cards" markdown>
 

@@ -73,7 +73,7 @@ hide: []
 
 基準化分析是透過 **AI 機器學習技術**，分析商家的產品類別、營收表現等數據，從系統中選出適當的「對標群體」，並計算出業界的基準範圍值。商家可以藉此了解自家商店各項指標在同業中的優劣狀況，快速識別出需要優化的弱項。
 
-## 適用對象與限制 { #applicability }
+## 適用對象與限制 { #prerequisites-benchmarking-applicability }
 
 - [x] **適用版本：** 僅限 **企業版** 客戶使用。
 - [x] **支援產品類別：** 目前為 Beta 測試階段，主要支援以下四大類別商家：
@@ -83,7 +83,7 @@ hide: []
     - 居家和庭園
 - [x] **認列訂單定義：** 數據計算需同時符合「訂單狀態非取消」且「不需退貨或拒絕退貨」兩個條件。
 
-## 四大重要基準指標 { #key-metrics }
+## 四大重要基準指標 { #reference-benchmarking-key-metrics }
 
 系統針對電商經營核心的四大指標提供基準值範圍：
 
@@ -94,7 +94,7 @@ hide: []
 
 ![基準化分析四大指標](../../assets/images/ec-bi-benchmarking-four-metrics.zh-tw.png){ title="四大基準指標" }
 
-## 利用基準數據提升業績 { #improve-performance }
+## 利用基準數據提升業績 { #overview-benchmarking-performance }
 
 可參考電商公式：**GMV (總營業額) = 流量 × 轉換率 × 客單價 × 回購率**。
 

@@ -172,7 +172,7 @@ hide:
 
 ### 排除上傳至第三方平台標籤
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions.md#conventions-plans) | 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions.md#reference-conventions-plans) | 企業
 
 設定特定標籤，將商品排除於系統的第三方平台資料同步機制之外。套用排除標籤後，該商品的資料將不會被上傳至下列第三方平台：
 

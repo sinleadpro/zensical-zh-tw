@@ -162,7 +162,7 @@ hide: []
 * 系統會以 **黑貓寄取件設定頁** 中的寄件人姓名、地址、電話送出呼叫請求。
 * 若上述任一欄位為空，呼叫請求會被拒絕，請先補齊資訊。
 
-## 後續操作 { #after-action }
+## 後續操作 { #next-steps-tcat-auto-call }
 
 <div class="grid cards" markdown>
 

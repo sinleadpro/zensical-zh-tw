@@ -141,7 +141,7 @@ hide: []
 
 頁面下方提供三份歷史紀錄表，所有資料皆可使用右上角搜尋框關鍵字過濾。
 
-#### 宅配通轉單紀錄 { #pelican-shipping-transfer-records }
+#### 宅配通轉單紀錄 { #reference-pelican-transfer-records }
 
 顯示曾經啟用「轉單」機制的單號紀錄，作為對帳查詢用。
 
@@ -160,7 +160,7 @@ hide: []
 
 ---
 
-#### 單號使用紀錄 <small>正物流 / 逆物流</small> { #pelican-shipping-usage-records }
+#### 單號使用紀錄 <small>正物流 / 逆物流</small> { #reference-pelican-usage-records }
 
 「正物流」記錄出貨用單號，「逆物流」記錄退貨用單號，兩者欄位結構相同。
 

@@ -150,7 +150,7 @@ hide: []
 
     篩選條件以 **固定下拉選單** 呈現，每個篩選條件僅能選擇一個值；不同篩選條件之間需同時符合。
 
-    1.  **狀態條件**：提供 「[付款狀態](../references/payment-statuses.md#payment-statuses){ title="訂單付款狀態對照表" data-preview }」、「[配送狀態](../references/fulfillment-statuses.md#reference-fulfillment-statuses){ title="配送狀態對照表" data-preview }」、「[退貨狀態](../references/order-filter-status-reference.md#reference-order-return-status){ title="訂單篩選條件與狀態對照表" data-preview }」 及 「[訂單狀態](../references/order-filter-status-reference.md#reference-order-status){ title="訂單篩選條件與狀態對照表" data-preview }」 四個下拉選單。
+    1.  **狀態條件**：提供 「[付款狀態](../references/payment-statuses.md#reference-payment-statuses){ title="訂單付款狀態對照表" data-preview }」、「[配送狀態](../references/fulfillment-statuses.md#reference-fulfillment-statuses){ title="配送狀態對照表" data-preview }」、「[退貨狀態](../references/order-filter-status-reference.md#reference-order-return-status){ title="訂單篩選條件與狀態對照表" data-preview }」 及 「[訂單狀態](../references/order-filter-status-reference.md#reference-order-status){ title="訂單篩選條件與狀態對照表" data-preview }」 四個下拉選單。
                   
         ![訂單篩選條件-舊版](../../../assets/images/EC-所有訂單-篩選條件-舊版.png){ title="訂單篩選條件-舊版" }                         
    
@@ -162,7 +162,7 @@ hide: []
     1.  **來源與配送條件**：依您開通的功能而定，可能出現以下篩選器:
                                                                                                           
         - **「[訂單來源](../references/order-filter-status-reference.md#reference-order-store){ title="訂單篩選條件與狀態對照表" data-preview }」**：在 EC 主站與各 POS 門市之間切換
-        - **「[配送方式](../references/shipping-methods.md#shipping-methods){ title="配送方式分類對照表" data-preview }」**：篩選店取、超商、宅配等配送管道      
+        - **「[配送方式](../references/shipping-methods.md#reference-shipping-methods){ title="配送方式分類對照表" data-preview }」**：篩選店取、超商、宅配等配送管道
         - **「[訂單類型](../references/order-filter-status-reference.md#reference-order-line-group-buy){ title="訂單篩選條件與狀態對照表" data-preview }」**：單獨抓出 LINE 團購訂單
         - **「[商家來源/收款方](../references/order-filter-status-reference.md#reference-order-merchant-source){ title="訂單篩選條件與狀態對照表" data-preview }」**：依金流收款方篩選
         - **「[倉庫類型](../references/order-filter-status-reference.md#reference-order-warehouse-type){ title="訂單篩選條件與狀態對照表" data-preview }」**：開通多倉庫的店家可依出貨倉切換

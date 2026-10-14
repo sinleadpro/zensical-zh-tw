@@ -70,7 +70,7 @@ plan_options: []
 
 當商品庫存歸零時，將「庫存不足時的處理」設為繼續銷售，該商品即可持續接受顧客下單，達到預購模式的效果，無需另建商品類型。
 
-- **參閱**：[新增與更新商品](../ec/products/create-and-manage/create-update-products.md#setup-preorder-products){ title="預購商品設定" }
+- **參閱**：[新增與更新商品](../ec/products/create-and-manage/create-update-products.md#operate-product-preorder){ title="預購商品設定" }
 
 ## 商品結構與規格
 

@@ -103,7 +103,7 @@ hide:
 		![彈窗廣告-上傳QR Code](../../../../assets/images/ec-網站外觀-彈窗廣告-圖片-line-oa-qrcode.gif){ title="彈窗廣告-上傳QR Code" }
 
     3. **縮圖設定**：商家可自行製作縮圖，並根據前台畫面調整縮圖大小。
-    4. **圖片連結**：選擇外部連結，貼上從 LINE Official Account Manager [複製的「好友網址」](../../../notifications/send-line-friend-invitation.md#get-line-oa-add-friend-link){ title="發送 LINE 加入好友邀請" }。
+    4. **圖片連結**：選擇外部連結，貼上從 LINE Official Account Manager [複製的「好友網址」](../../../notifications/send-line-friend-invitation.md#operate-line-add-friend){ title="發送 LINE 加入好友邀請" }。
 
 		![彈窗廣告-圖片連結](../../../../assets/images/ec-網站外觀-彈窗廣告-圖片連結.png){ title="彈窗廣告-圖片連結" }
 
@@ -161,7 +161,7 @@ hide:
 
     2. 在 CYBERBIZ 選單設定介面中點選欲設定的選單，進入編輯頁面，再點擊 **「新增連結」**。
     3. **新增選單項目**：貼上剛才複製的按鈕語法。
-    4. **連結項目**：選擇 **「外部連結」**，並貼上[複製的「好友網址」](../../../notifications/send-line-friend-invitation.md#get-line-oa-add-friend-link){ title="發送 LINE 加入好友邀請" }。
+    4. **連結項目**：選擇 **「外部連結」**，並貼上[複製的「好友網址」](../../../notifications/send-line-friend-invitation.md#operate-line-add-friend){ title="發送 LINE 加入好友邀請" }。
 
 		![選單導覽列-加入好友](../../../../assets/images/ec-網站外觀-選單導覽列-line-加入好友.gif){ title="選單導覽列-加入好友" }
 

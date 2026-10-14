@@ -86,7 +86,7 @@ hide: []
 
 	- **Email 邀請：** 發送給有填寫 Email 且尚未綁定 LINE OA 的會員。
 
-## 步驟一：取得 LINE 官方帳號加入好友連結 {#get-line-oa-add-friend-link}
+## 步驟一：取得 LINE 官方帳號加入好友連結 {#operate-line-add-friend}
 
 在設定推播訊息前，需先至 LINE 官方帳號管理後台取得專屬網址：
 

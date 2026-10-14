@@ -166,7 +166,7 @@ reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動�
 <div class="grid cards" markdown>
 
 - :lucide-message-square-text:{ .lg }  
-  [__設定商品評論功能__](../../products/engagement/manage-product-reviews.md#manage-product-reviews){ title="管理商品評論" }  
+  [__設定商品評論功能__](../../products/engagement/manage-product-reviews.md#operate-product-reviews){ title="管理商品評論" }
   啟用商品評論、設定審核機制與贈送點數。
 
 </div>

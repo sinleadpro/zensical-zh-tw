@@ -50,7 +50,7 @@ icon: lucide/table
 hide:
 ---
 
-## 付款狀態對照表 { #payment-statuses }
+## 付款狀態對照表 { #reference-payment-statuses }
 
 | 付款狀態 | 說明 |
 | :-- | :-- |

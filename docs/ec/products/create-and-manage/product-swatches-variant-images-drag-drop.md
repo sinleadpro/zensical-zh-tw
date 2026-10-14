@@ -121,7 +121,7 @@ hide: []
 
 ---
 
-### 前台商品列表頁顯示 <small>全站設定</small> { #enable-swatch-on-product-list }
+### 前台商品列表頁顯示 <small>全站設定</small> { #operate-product-swatches }
 
 !!! plan "使用前提與限制"
     - [x] 需已完成[後台設定步驟](#後台設定)

@@ -69,12 +69,12 @@ hide: []
 | 篩選條件 | 說明 |
 |---|---|
 | **[訂單狀態](#reference-order-status){ title="訂單狀態對照表" data-preview }** | 依訂單整體流程狀態過濾（進行中／已結案／已取消） |
-| **[付款狀態](payment-statuses.md#payment-statuses){ title="訂單付款狀態對照表" data-preview }** | 依金流收款／退款狀態過濾（已收到款項、等待付款、已退款等） |
+| **[付款狀態](payment-statuses.md#reference-payment-statuses){ title="訂單付款狀態對照表" data-preview }** | 依金流收款／退款狀態過濾（已收到款項、等待付款、已退款等） |
 | **[配送狀態](fulfillment-statuses.md#reference-fulfillment-statuses){ title="配送狀態對照表" data-preview }** | 依物流出貨流程狀態過濾（未出貨、已出貨、已到店等） |
 | **[退貨狀態](#reference-order-return-status){ title="退貨狀態對照表" data-preview }** | 依退貨流程狀態過濾（退貨申請、退貨中、已退貨等） |
 | **[訂單來源](#reference-order-store){ title="訂單來源對照表" data-preview }** | 區分 EC 線上訂單與各 POS 實體門市訂單 |
 | **[商家來源/<br>收款方](#reference-order-merchant-source){ title="收款方對照表" data-preview }** | 依金流實際收款方過濾（順立代收／商家／POS／倉庫） |
-| **[配送方式](shipping-methods.md#shipping-methods){ title="配送方式分類對照表" data-preview }** | 依物流通路過濾（超商店取、宅配、自取等） |
+| **[配送方式](shipping-methods.md#reference-shipping-methods){ title="配送方式分類對照表" data-preview }** | 依物流通路過濾（超商店取、宅配、自取等） |
 | **商品通路** | 依訂單中的商品通路標記過濾，適用多通路販售情境 |
 | **配送溫層** | 依商品綁定的常溫／冷藏／冷凍溫層過濾 |
 | **訂單標籤** | 依商家自訂的訂單標籤過濾（可於訂單詳情手動新增） |

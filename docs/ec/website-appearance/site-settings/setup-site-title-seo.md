@@ -71,11 +71,11 @@ hide:
 - **網站標題 (Title)**：網頁的核心名稱。應包含「品牌名」與「核心關鍵字」。
 - **網站簡述 (Description)**：網頁內容的摘要。建議以吸引點擊的文案為主，包含主要服務項目。
 
-## 網站標題顯示位置 { #where-title-appears }
+## 網站標題顯示位置 { #overview-site-title-placement }
 
 這兩項設定主要會出現在以下三個地方：
 
-### 瀏覽器頁籤 <small>Browser Tabs</small> { #browser-tab-display }
+### 瀏覽器頁籤 <small>Browser Tabs</small> { #operate-site-title-browser }
     
 - **顯示內容：** 網站標題 (Title)。
 - **作用：** 幫助使用者在開啟多個視窗時，快速辨識您的品牌。
@@ -84,7 +84,7 @@ hide:
 
 ---
 
-### 搜尋引擎結果頁 <small>SERP</small> { #site-title-serp }
+### 搜尋引擎結果頁 <small>SERP</small> { #operate-site-title-serp }
     
 - **顯示內容：** 標題（藍色大字）與 簡述（下方灰色小字）。
 - **作用：** 此區塊會直接影響搜尋結果點擊率（CTR）。
@@ -93,7 +93,7 @@ hide:
 
 ---
 
-### 社群平台分享 <small>Social Media Sharing</small> { #site-title-social-media }
+### 社群平台分享 <small>Social Media Sharing</small> { #operate-site-title-social }
     
 - **顯示內容：** 當連結貼至 LINE 或 Facebook 時，會抓取標題與簡述。
 - **注意：** 若有設定 **OG Image (分享縮圖)**，效果會更佳。
@@ -119,7 +119,7 @@ hide:
 
 ### 修改「網站標題」<small>依版型設定</small> { #operate-modify-site-title }
 
-#### 預設版型 <small>一般版型</small> { #site-title-default-theme }
+#### 預設版型 <small>一般版型</small> { #operate-site-title-default }
 
 預設版型僅能設定「網站標題」，且需透過程式碼編輯器修改。
 
@@ -149,7 +149,7 @@ hide:
 
 ---
 
-#### 拖拉版型 { #site-title-drag-theme }
+#### 拖拉版型 { #operate-site-title-theme }
 
 拖拉版型不需修改程式碼，可直接在視覺化介面填入資訊。
 

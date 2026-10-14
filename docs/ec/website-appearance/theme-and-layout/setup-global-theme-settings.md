@@ -105,7 +105,7 @@ comments: false
 
 ## 操作步驟 { #operate-global-settings }
 
-### 導覽列與頁腳 { #navbar-footer }
+### 導覽列與頁腳 { #operate-global-settings-navbar-footer }
 
 導覽列與頁腳的設定較完整，另有專文說明：
 
@@ -123,7 +123,7 @@ comments: false
 
 ---
 
-### 彈窗廣告 { #popup }
+### 彈窗廣告 { #operate-global-settings-popup }
 
 彈窗廣告會在顧客進站時自動跳出。在全站共用設定中可選擇以下內容形式，並設定顯示條件：
 
@@ -172,7 +172,7 @@ comments: false
 
 ---
 
-### 顏色設定 { #color }
+### 顏色設定 { #operate-global-settings-color }
 
 針對全站的基礎視覺元素進行定義：
 
@@ -199,11 +199,11 @@ comments: false
 
 ---
 
-### 全站設定 { #shop-setting }
+### 全站設定 { #operate-global-settings-shop }
 
 集中控管官網的基礎視覺識別、搜尋引擎優化(SEO)、全域商品顯示行為以及網站安全防護等核心設定。
 
-#### 視覺識別與品牌資產 { #brand }
+#### 視覺識別與品牌資產 { #overview-global-settings-brand }
 
 1. 在「全站設定」中，設定 **網站圖示**：
     - 上傳 **Favicon**，作為瀏覽器分頁標籤上的小圖示。
@@ -227,7 +227,7 @@ comments: false
 
 ---
 
-#### 網站 SEO 與安全保護 { #seo-security }
+#### 網站 SEO 與安全保護 { #specs-global-settings-seo }
 
 1. 在「全站設定」中，填寫網站的 **標題**、 **簡述** 與 **關鍵字**，優化搜尋引擎對網站的收錄與排名。若標題欄位留空，系統會預設以商店名稱作為標題。[查看設定教學](../site-settings/setup-site-title-seo.md){ title="設定網站標題與 SEO" }
 
@@ -239,7 +239,7 @@ comments: false
 
 ---
 
-#### 全域商品顯示行為 { #shop-product-display }
+#### 全域商品顯示行為 { #operate-global-settings-shop-product }
 
 !!! plan "功能限制"
     部分功能需特定方案方可使用，已標示於各項目標題。
@@ -374,7 +374,7 @@ comments: false
     === "折扣折數"
         ![折扣折數](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-商品標籤呈現方式-折扣折數.png)
 
-!!! info "標籤底色預設套用「[顏色設定](#color)」中的強調色；多個標籤同時成立時會依系統固定順序並列。"
+!!! info "標籤底色預設套用「[顏色設定](#operate-global-settings-color)」中的強調色；多個標籤同時成立時會依系統固定順序並列。"
 
 [^2]: 超出 5 組時，前台依排序僅顯示前 5 組，第 6 組起不予顯示。此上限僅計算自定義標籤，系統預設標籤（特價、缺貨、定期定額）不在此限；商品可同時顯示兩者。例如：商品同時符合 3 個系統預設標籤與 6 個自定義標籤時，前台顯示 3 個預設標籤 + 前 5 個自定義標籤，共 8 個。
 

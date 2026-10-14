@@ -112,7 +112,7 @@ hide:
 
 ---
 
-### 檢視群組 { #order-filter-group }
+### 檢視群組 { #operate-order-filter-group }
 
 透過「檢視群組」功能，商家可將常用的 [篩選條件](../references/order-filter-status-reference.md#reference-order-filters){ title="訂單篩選條件與狀態對照表" data-preview }  （如：指定物流、付款或配送狀態）儲存為自定義頁籤，實現一鍵切換，提升批次處理訂單的效率。
 
@@ -267,7 +267,7 @@ hide:
 
 ---
 
-### 訂單操作紀錄 <small>重要歷史紀錄</small> { #order-history }
+### 訂單操作紀錄 <small>重要歷史紀錄</small> { #reference-order-history }
 
 位於頁面最下方，是排查訂單問題的最重要工具，詳細記錄以下事件的時間與操作人：
 
@@ -304,7 +304,7 @@ hide:
 - **管理標籤：** 為選定訂單批次增加或移除自定義標籤。
     
 !!! tip "檢視群組 + 批次標籤"
-    可搭配「[檢視群組](#order-filter-group)」篩選出特定客群後，再透過「管理標籤」一鍵綁定標籤進行分類標記。
+    可搭配「[檢視群組](#operate-order-filter-group)」篩選出特定客群後，再透過「管理標籤」一鍵綁定標籤進行分類標記。
 
 ![批次操作功能](../../../assets/images/ec-訂單列表-更多操作.png){ title="批次操作功能" }
 

@@ -292,4 +292,4 @@ hide: []
 
 ## 參考資料 { #reference-payment-failed }
 
-* [訂單付款狀態對照表](references/payment-statuses.md#payment-statuses){ title="訂單付款狀態對照表" data-preview }
+* [訂單付款狀態對照表](references/payment-statuses.md#reference-payment-statuses){ title="訂單付款狀態對照表" data-preview }

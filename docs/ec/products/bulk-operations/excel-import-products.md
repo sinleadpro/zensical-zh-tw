@@ -104,7 +104,7 @@ hide: []
 
 ---
 
-### 判斷 Excel 上傳商品是新增還是更新 { #determine-add-or-update }
+### 判斷 Excel 上傳商品是新增還是更新 { #operate-excel-import-add-update }
 
 商品 Excel 檔案中的 A (`商品 id`)、B (`商品款式 id`) 欄位預設為隱藏。系統會根據這兩個欄位是否帶有系統數值，在上傳 Excel 檔案後判斷為新增商品或更新既有商品。
 
@@ -162,5 +162,5 @@ hide: []
 ??? quote "為什麼我上傳 Excel 後，商品沒有成功新增或更新？"
     - 請檢查 Excel 檔案中是否有使用粗體字或商品名稱包含特殊符號。
     - 確認圖片連結是否符合格式與大小限制，且圖床權限已公開。
-    - 檢查 A、B 欄位，是否正確[判斷 Excel 上傳商品是新增還是更新](#determine-add-or-update)。
+    - 檢查 A、B 欄位，是否正確[判斷 Excel 上傳商品是新增還是更新](#operate-excel-import-add-update)。
     - 系統匯入需要時間，請耐心等候完成信件通知，避免重複上傳。

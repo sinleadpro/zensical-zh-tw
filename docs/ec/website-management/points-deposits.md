@@ -85,10 +85,10 @@ CYBER 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
   [__CYBER 幣購買中心__](#overview-cyber-coin-balance)
 
 - :lucide-message-square:
-  [__簡訊追蹤服務__](#sms)   
+  [__簡訊追蹤服務__](#operate-points-sms)
 
 - :lucide-mail:
-  [__EDM 發送服務__](#edm)   
+  [__EDM 發送服務__](#operate-points-edm)
 
 - :lucide-credit-card:
   [__立即購買 CYBER 幣__](#operate-cyber-coin-deposit)  
@@ -115,7 +115,7 @@ CYBER 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
 
 ## 服務計費說明
 
-### 簡訊 <small>SMS</small> { #sms }
+### 簡訊 <small>SMS</small> { #operate-points-sms }
 
 簡訊依發送對象分為國內簡訊與國外簡訊，分別以不同的 CYBER 幣計費。
 
@@ -123,7 +123,7 @@ CYBER 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
 
 ---
 
-### 電子報 <small>EDM</small> { #edm }
+### 電子報 <small>EDM</small> { #operate-points-edm }
 
 !!! info "EDM 發送相關設定請參閱「[如何發送 EDM 電子報](../notifications/send-edm-newsletters-v2.md){ title="設定與發送 EDM 電子報" }」。"
 

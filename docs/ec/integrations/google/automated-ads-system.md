@@ -156,7 +156,7 @@ hide: []
 1. **輸入廣告活動名稱**：於 **「廣告活動名稱」** 欄位填入活動名稱。
 2. **設定每日預算**：於 **「設定預算」** 欄位輸入每日平均預算(建議每日不低於 300 元[^budget])。
 3. **確認並儲存**：點擊 **「確認並儲存」**，系統將自動建立廣告帳戶並串接 GMC 商品資料。待 Google 審核通過(約 2~3 天)即開始投放。
-4. **調整投放狀態**：於 **「購物廣告投放狀態」** 區塊，可隨時點擊 **「暫停投放」** 或 **「恢復投放」** 控制[廣告投放狀態](../references/automated-ads-statuses.md#automated-ads-delivery-status){ data-preview }。
+4. **調整投放狀態**：於 **「購物廣告投放狀態」** 區塊，可隨時點擊 **「暫停投放」** 或 **「恢復投放」** 控制[廣告投放狀態](../references/automated-ads-statuses.md#reference-automated-ads-delivery-status){ data-preview }。
 
 ![Google 廣告設定](../../../assets/images/ec-第三方整合-自動化廣告-google廣告設定.png)
 
@@ -192,7 +192,7 @@ hide: []
 
 商品資訊就是廣告內容，請遵守以下規範以利通過 Google 審核：
 
-- [x] **商品圖片**：不可包含宣傳文字、標語或品牌浮水印，請使用[純淨商品圖](../../products/create-and-manage/create-update-products.md#gmc-picture-specs)。[瞭解 GMC 圖片規範 :lucide-external-link:](https://support.google.com/merchants/answer/6324350#Image_guidelines)
+- [x] **商品圖片**：不可包含宣傳文字、標語或品牌浮水印，請使用[純淨商品圖](../../products/create-and-manage/create-update-products.md#reference-gmc-picture-specs)。[瞭解 GMC 圖片規範 :lucide-external-link:](https://support.google.com/merchants/answer/6324350#Image_guidelines)
 - [x] **商品名稱**：須清楚並包含品牌、規格(尺寸、顏色、型號)等關鍵資訊。
 - [x] **禁止商品**：不可投放成人內容、酒精飲料、受版權保護內容、賭博及未經核可的醫藥補給品。[瞭解禁止的內容 :lucide-external-link:](https://support.google.com/merchants/answer/6149970?hl=zh-Hant#con)
 

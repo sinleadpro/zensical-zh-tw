@@ -91,13 +91,13 @@ hide: []
 
     商品到貨提醒功能的觸發條件如下：
 
-    - [x] 商品需開啟 [管理庫存](#setup-restock-inventory-stop-selling)，且庫存為 `0`  
-    - [x] 庫存不足時需設定為[停止銷售](#setup-restock-inventory-stop-selling)，前台商品頁才會顯示 **已售完，貨到通知我** 按鈕  
-    - [x] 商品庫存狀態需設定為 [當無庫存時，款式為可點選狀態](#setup-restock-variant-clickable)，顧客點選商品款式後，商品才會顯示 **貨到通知** 選項。
+    - [x] 商品需開啟 [管理庫存](#operate-restock-inventory)，且庫存為 `0`
+    - [x] 庫存不足時需設定為[停止銷售](#operate-restock-inventory)，前台商品頁才會顯示 **已售完，貨到通知我** 按鈕
+    - [x] 商品庫存狀態需設定為 [當無庫存時，款式為可點選狀態](#operate-restock-variant)，顧客點選商品款式後，商品才會顯示 **貨到通知** 選項。
 
 ## 開啟商品到貨提醒功能 
 
-### 設定庫存管理與停止銷售 { #setup-restock-inventory-stop-selling }
+### 設定庫存管理與停止銷售 { #operate-restock-inventory }
 1. 在 CYBERBIZ 管理後台，前往 **商品 > 所有商品**。
 2. 點擊要設定的商品名稱，進入商品編輯頁面。
 3. 在 **款式管理** 區塊，確認開啟 **管理庫存** 功能 ，並將 **庫存不足** 時的設定調整為 *停止銷售* 。
@@ -106,7 +106,7 @@ hide: []
 
 ---
 
-### 設定無庫存時商品款式可點選 { #setup-restock-variant-clickable }
+### 設定無庫存時商品款式可點選 { #operate-restock-variant }
 
 === "拖拉版型"
 	1. 在 CYBERBIZ 管理後台，前往 **網站外觀 > 套版主題管理 > 網站設定 > 商品頁面 > 基本設定**。

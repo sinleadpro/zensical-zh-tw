@@ -86,7 +86,7 @@ hide:
 comments: false
 ---
 
-## 各頁面設定說明 { #page-settings }
+## 各頁面設定說明 { #overview-page-settings }
 
 拖拉版型透過上方工具列的 **頁面下拉選單** 切換不同頁面。除了首頁、自訂頁面、單頁式頁面以「新增區塊」的方式自由組合外，其餘頁面的版面由系統固定，僅提供各自的設定項目。
 
@@ -118,9 +118,9 @@ comments: false
 
 ## 操作步驟
 
-依所需頁面類型快速跳轉：[首頁](#homepage)、[商品頁面](#operate-page-settings-product)、[商品群組頁面](#collection)、[商品多層級分類](#category)、[部落格頁](#blog)、[部落格文章頁](#article)、[客服頁](#contact)、[404 頁](#not-found)、[快速到貨頁](#express-delivery)、[搜尋頁](#search)。
+依所需頁面類型快速跳轉：[首頁](#operate-page-settings-homepage)、[商品頁面](#operate-page-settings-product)、[商品群組頁面](#operate-page-settings-collection)、[商品多層級分類](#operate-page-settings-category)、[部落格頁](#operate-page-settings-blog)、[部落格文章頁](#operate-page-settings-article)、[客服頁](#operate-page-settings-contact)、[404 頁](#operate-page-settings-not-found)、[快速到貨頁](#operate-page-settings-express)、[搜尋頁](#operate-page-settings-search)。
 
-### 首頁 { #homepage }
+### 首頁 { #operate-page-settings-homepage }
 
 首頁可新增以下 13 種區塊。多數區塊的設定面板會提供一個 **其他版面設定** 展開面板，裡面除了各區塊的特有項目外，都包含一組共通的 **版面邊距**（單位 px），以下各區塊章節 **列出其特有設定**。
 
@@ -808,7 +808,7 @@ comments: false
 
 ---
 
-### 商品群組頁面 { #collection }
+### 商品群組頁面 { #operate-page-settings-collection }
 
 針對群組頁面，可指定要套用哪一組導覽選單（需先在 [選單／導覽列設定](../navigation/setup-menus-navigation.md){ title="設定選單與導覽列" } 完成設置）。
 
@@ -842,7 +842,7 @@ comments: false
 
 ---
 
-### 商品多層級分類 { #category }
+### 商品多層級分類 { #operate-page-settings-category }
 
 針對多層級分類頁面的呈現方式進行微調。需先 [建立商品多層級分類架構](../../products/categories-and-tags/multi-level-category-setup.md){ title="設定商品多層級分類" }。
 
@@ -861,7 +861,7 @@ comments: false
 
 ---
 
-### 部落格頁 { #blog }
+### 部落格頁 { #operate-page-settings-blog }
 
 用於呈現多篇文章的摘要列表。
 
@@ -879,7 +879,7 @@ comments: false
 
 ---
 
-### 部落格文章頁 { #article }
+### 部落格文章頁 { #operate-page-settings-article }
 
 用於顯示單篇完整文章的詳細內容。
 
@@ -897,7 +897,7 @@ comments: false
 
 ---
 
-### 客服頁 <small>聯絡我們表單</small> { #contact }
+### 客服頁 <small>聯絡我們表單</small> { #operate-page-settings-contact }
 
 客服頁面在前台主要以「聯絡我們」表單形式呈現，供訪客留言諮詢。
 
@@ -909,7 +909,7 @@ comments: false
 
 ---
 
-### 404 頁 <small>失效連結提示</small> { #not-found }
+### 404 頁 <small>失效連結提示</small> { #operate-page-settings-not-found }
 
 當消費者訪問到失效連結時的顯示畫面，可自訂視覺以緩解負面體驗。
 
@@ -921,7 +921,7 @@ comments: false
 
 ---
 
-### 快速到貨頁 { #express-delivery }
+### 快速到貨頁 { #operate-page-settings-express }
 
 用於自訂快速到貨專區的視覺與醒目入口。
 
@@ -947,11 +947,11 @@ comments: false
 
 ---
 
-### 搜尋頁 <small>站內搜尋結果</small> { #search }
+### 搜尋頁 <small>站內搜尋結果</small> { #operate-page-settings-search }
 
 1. 在頁面下拉選單選擇「搜尋頁」。
 2. 指定搜尋頁面左側要套用的 **選單**（需先 [建立選單](../navigation/setup-menus-navigation.md){ title="設定選單與導覽列" }）。
-3. 搜尋結果中的商品會同步套用「[全站共用設定](setup-global-theme-settings.md#shop-product-display){ title="全站共用設定" }」中的顯示規範（價格區間、商品標語、已銷售數量等）。
+3. 搜尋結果中的商品會同步套用「[全站共用設定](setup-global-theme-settings.md#operate-global-settings-shop-product){ title="全站共用設定" }」中的顯示規範（價格區間、商品標語、已銷售數量等）。
 4. 搜尋結果頁支援顯示定期定額、特價、缺貨以及自定義標籤。
 
 ??? info "搜尋範圍與邏輯說明"

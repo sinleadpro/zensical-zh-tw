@@ -94,7 +94,7 @@ hide: []
     * **Amazon FBA 串倉訂單**
     * **完全來自串倉倉庫的訂單** ，且商家尚未加購「[部分串倉](../../../wms/enable-partial-warehouse-integration-and-order-splitting.md){ title="啟用部分串倉與拆單" }」功能
 
-## 操作步驟教學 { #fuilfillment-partial-operate }
+## 操作步驟教學 { #operate-partial-shipment }
 
 以下以「黑貓託運單」為例，其他物流商（如宅配通、順豐、新竹物流或自訂出貨）的操作步驟大致相同。
 
@@ -132,7 +132,7 @@ hide: []
 
 ## 後續繼續出貨 { #operate-partial-shipment-resume }
 
-當剩餘缺貨商品補齊後，只需要回到同一筆訂單，[重複上述步驟](#fuilfillment-partial-operate) 即可完成後續出貨：
+當剩餘缺貨商品補齊後，只需要回到同一筆訂單，[重複上述步驟](#operate-partial-shipment) 即可完成後續出貨：
 
 1. **進入訂單**：前往「訂單」>「所有訂單」，點選狀態為 `部分出貨` 的訂單編號。
 2. **選取品項**：勾選本次欲寄出的剩餘商品。
@@ -146,7 +146,7 @@ hide: []
     | **自動化限制** | 部分出貨訂單 **不會自動結案**，需於全數出貨後[手動結案](../order-settings/manual-order-close.md){ title="如何手動結案訂單" }。 |
     | **顧客通知** | 每次出貨均視為獨立事件，系統將根據勾選狀況重複發送出貨通知。 |
 
-## 不同物流的特殊情境 { #fuilfillment-partial-edge-case }
+## 不同物流的特殊情境 { #specs-partial-shipment-edge }
 
 ### 自訂出貨方式
 

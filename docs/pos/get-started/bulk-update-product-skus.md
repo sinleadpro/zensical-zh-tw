@@ -130,7 +130,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-arrow-right:{ .lg }   
-  [__判斷 Excel 上傳商品是新增還是更新__](../../ec/products/bulk-operations/excel-import-products/#determine-add-or-update)       
+  [__判斷 Excel 上傳商品是新增還是更新__](../../ec/products/bulk-operations/excel-import-products/#operate-excel-import-add-update)
   認識「新增商品」與「覆蓋既有商品」差異。
 
 </div>

@@ -137,13 +137,13 @@ hide: []
     ![確認寄件地址](../../../assets/images/ec-orders-pelican-waybill-popup-address.png){ title="確認宅配通託運單地址" }
 
 7. **同意條款**：勾選頁面底部的 **「我已閱讀並同意 CYBERBIZ 物流串接服務條款 與 宅配通合約規範」** 。
-8. **確認下載**：點擊 **「確認」**。系統會建立託運單、扣除運費，並將訂單貨態更新為「[已出貨(待物流收件)](shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }」。
+8. **確認下載**：點擊 **「確認」**。系統會建立託運單、扣除運費，並將訂單貨態更新為「[已出貨(待物流收件)](shipping-status-tooltip.md#reference-shipping-status){ title="出貨狀態物流提示文字說明" data-preview }」。
 
     !!! warning "印單後無法修改收貨資訊"
         一旦下載託運單，系統會將收貨資訊與託運單綁定，無法在後台修改。如需修改，只能取消該張託運單(請聯繫 CYBERBIZ 客服)後重新建立。
 
 9. **接收託運單檔案**：系統會自動下載一個[壓縮檔](../references/order-filter-status-reference.md#reference-logistics-zip-contents){ title="託運單下載內容物說明" data-preview }，內含託運單 PDF 與相關出貨單據。請以「宅配通三聯空白託運單貼紙」列印託運單並貼於紙箱。
-10. **預約收件**：列印完成後請聯繫宅配通客服預約收件，或依您與宅配通約定的固定取件時段準備出貨。收件後，訂單詳情頁內狀態會顯示為「[已出貨(配送中)](shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }」。
+10. **預約收件**：列印完成後請聯繫宅配通客服預約收件，或依您與宅配通約定的固定取件時段準備出貨。收件後，訂單詳情頁內狀態會顯示為「[已出貨(配送中)](shipping-status-tooltip.md#reference-shipping-status){ title="出貨狀態物流提示文字說明" data-preview }」。
 
 [^1]: 勾選的訂單若包含非宅配通訂單(例如混雜黑貓、超商取貨)，彈窗會無法開啟或在送出時跳錯。請先用「配送方式」篩選器確保批次內物流類型一致。
 [^4]: 修改後會同步更新該物流頁面地址，不同物流間及公司物流地址互不影響。
@@ -177,12 +177,12 @@ hide: []
 !!! info "提示"
      補印僅針對 **已產出過的單號** 重新印出 PDF 。若您需要為同一訂單產生 **新的單號** (例如拆箱分多件寄送)，請改用 [加印託運單](../../payments-and-logistics/setup-pelican-waybill-v2.md#operate-pelican-shipping-note-add-print){ title="加印託運單" } 功能。
 
-## 後續操作 { #followup-pelican }
+## 後續操作 { #next-steps-pelican }
 
 <div class="grid cards" markdown>
 
 - :lucide-truck:{ .lg }  
-  [__追蹤貨態__](shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" }  
+  [__追蹤貨態__](shipping-status-tooltip.md#reference-shipping-status){ title="出貨狀態物流提示文字說明" }
   出貨後配送狀態會變為「已出貨(待物流收件)」，等宅配通實際收件並掃描後，會依物流回拋逐步更新為運送中、已送達等狀態。
 
 - :lucide-receipt:{ .lg }  

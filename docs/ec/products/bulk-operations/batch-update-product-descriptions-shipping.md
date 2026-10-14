@@ -153,7 +153,7 @@ hide: []
 ![上傳 Excel 檔案](../../../assets/images/ec-upload-product-excel.zh-tw.png){ title="上傳 Excel 檔案" }
 
 !!! info "商品更新與新增規則說明"
-    上傳的 Excel 檔案中，`商品 id` 與 `商品款式 id` 欄位必須填入系統既有數值，才能 *更新既有商品*。若欄位為空，系統將自動 *新增新商品*。如需詳細差異說明與操作範例，請參閱[新增與更新商品差異](excel-import-products.md#determine-add-or-update){ title="Excel 大量匯入商品" }。
+    上傳的 Excel 檔案中，`商品 id` 與 `商品款式 id` 欄位必須填入系統既有數值，才能 *更新既有商品*。若欄位為空，系統將自動 *新增新商品*。如需詳細差異說明與操作範例，請參閱[新增與更新商品差異](excel-import-products.md#operate-excel-import-add-update){ title="Excel 大量匯入商品" }。
 
 ## 等待匯入排程通知
 

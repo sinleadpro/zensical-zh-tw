@@ -160,13 +160,13 @@ hide:
 
     ![啟用結帳頁發票](../../assets/images/ec-e-invoice-wixtar-09-enable-invoice.png){ title="啟用結帳頁發票" .screenshot }
     
-5. 在 **發票開立時間** 區塊，選擇一或多個發票開立時間。各選項的觸發條件與限制，請參考[發票開立時間說明](#invoice-issuance-timing)。
+5. 在 **發票開立時間** 區塊，選擇一或多個發票開立時間。各選項的觸發條件與限制，請參考[發票開立時間說明](#specs-invoice-issuance-timing)。
 
 6. 前往星益欣後台設定公司發票章圖片，開立發票將自動帶入發票章  
 
     ![設定公司發票章](../../assets/images/ec-e-invoice-wixtar-11-invoice-stamp.png){ title="設定公司發票章" .screenshot }
 
-### 發票開立時間說明 { #invoice-issuance-timing }
+### 發票開立時間說明 { #specs-invoice-issuance-timing }
 
 選擇 **付款時**、**出貨時** 或 **取貨時** 作為發票開立時機，系統會依訂單狀態自動開立電子發票。以下整理各時機的觸發條件與系統處理方式。
 

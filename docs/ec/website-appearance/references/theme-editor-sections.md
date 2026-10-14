@@ -50,7 +50,7 @@ hide:
 
 本對照表彙整拖拉版型中可新增的區塊及其用途，供「拖拉版型網站設定」等說明引用。
 
-## 常見可新增區塊 { #theme-editor-sections }
+## 常見可新增區塊 { #reference-theme-editor-sections }
 
 | 區塊類型 | 適用頁面 | 說明 | 開通條件 |
 | :-- | :-- | :-- | :-- |
@@ -69,9 +69,9 @@ hide:
 
 !!! note "註釋"
     * 上表為常見的可新增區塊， **實際可新增的區塊與其名稱會依您安裝的拖拉版型與方案而不同**，請以編輯器內「新增區塊」清單顯示的為準。
-    * 各區塊的詳細欄位(圖片尺寸、輪播秒數、商品欄數、邊距等)請見 [各頁面設定](../theme-and-layout/setup-theme-page-settings.md#page-settings){ title="各頁面設定指南" }。
+    * 各區塊的詳細欄位(圖片尺寸、輪播秒數、商品欄數、邊距等)請見 [各頁面設定](../theme-and-layout/setup-theme-page-settings.md#overview-page-settings){ title="各頁面設定指南" }。
     * **商品頁面為固定區塊**(商品資訊、商品介紹、相關商品、商品評論，其中商品評論需開通功能)，不會出現在「新增區塊」清單中，設定方式見 [各頁面設定](../theme-and-layout/setup-theme-page-settings.md#operate-page-settings-product){ title="各頁面設定指南" }。
-    * **彈窗廣告、頁首選單、頁尾屬於全站共用設定**，不是可新增區塊；彈窗廣告的設定見 [全站共用設定](../theme-and-layout/setup-global-theme-settings.md#popup){ title="全站共用設定" }。
+    * **彈窗廣告、頁首選單、頁尾屬於全站共用設定**，不是可新增區塊；彈窗廣告的設定見 [全站共用設定](../theme-and-layout/setup-global-theme-settings.md#operate-global-settings-popup){ title="全站共用設定" }。
     * 部分區塊底下還包含多個小區塊(如輪播素材的每一張圖片、自訂排版設計的每個元件)，可點入後逐一設定。
 
 
@@ -80,7 +80,7 @@ hide:
 <!---->
 <!-- 本對照表說明拖拉版型中常見的可新增區塊及其用途，供「拖拉版型網站設定」等說明引用。 -->
 <!---->
-<!-- ## 常見可新增區塊 { #theme-editor-sections } -->
+<!-- ## 常見可新增區塊 { #reference-theme-editor-sections } -->
 <!---->
 <!-- | 區塊類型 | 適用頁面 | 說明 | 開通條件 | -->
 <!-- | :-- | :-- | :-- | :-- | -->

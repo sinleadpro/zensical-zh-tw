@@ -95,7 +95,7 @@ hide: []
 2. **勾選訂單**：在訂單列表勾選欲出貨的訂單，**請確保勾選的訂單皆為相同配送方式**（例如皆為 7-ELEVEN 超商取貨）。
 3. **執行下載**：點擊頁面右上方「**更多操作**」下拉，選擇「**列印 B2C 大宗託運單並改為『已出貨』**」[^1]。
 4. **確認操作**：彈窗顯示「確認要『列印 B2C 大宗託運單並改為已出貨』嗎？」後點擊 **「確認」**。
-5. **下載文件**：系統會自動產生託運單號並下載含託運資料的壓縮檔，訂單列表配送狀態變為「**已出貨**」，訂單詳情頁則顯示「[已出貨（待物流收件）](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" }」。
+5. **下載文件**：系統會自動產生託運單號並下載含託運資料的壓縮檔，訂單列表配送狀態變為「**已出貨**」，訂單詳情頁則顯示「[已出貨（待物流收件）](../home-delivery/shipping-status-tooltip.md#reference-shipping-status){ title="出貨狀態物流提示文字說明" }」。
 
 ![下載b2c大宗託運單](../../../assets/images/EC-訂單-所有訂單-下載b2c大宗託運單.png){ title="下載b2c大宗託運單" }
 
@@ -132,7 +132,7 @@ hide: []
     - 完整收貨地址、時段、收件單位請見
 [物流中心收貨資訊](../../payments-and-logistics/references/cvs-b2c-logistics-center-reference.md#reference-cvs-b2c-centers-list){ title="物流中心收貨資訊" data-preview }。
     - [各通路包裝方式、送貨車](../../payments-and-logistics/references/cvs-b2c-logistics-center-reference.md#reference-cvs-b2c-acceptance-rules){ title="物流中心收貨資訊" data-preview }。
-3. **物流中心簽收**：物流中心收件後，系統訂單狀態會由「待物流收件」自動變更為「[已出貨（配送中）](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }」。
+3. **物流中心簽收**：物流中心收件後，系統訂單狀態會由「待物流收件」自動變更為「[已出貨（配送中）](../home-delivery/shipping-status-tooltip.md#reference-shipping-status){ title="出貨狀態物流提示文字說明" data-preview }」。
 
 !!! tip "取貨簡訊通知"
     商品送達消費者指定門市後，系統會於第 **1 天**、第 **4 天** 自動發送取貨簡訊通知消費者。
@@ -258,7 +258,7 @@ hide: []
 ??? quote "如何確認物流中心已收到貨品？"
     [](){ #faq-cvs-b2c-shipping-confirm-receipt }
     
-    物流中心簽收後，系統訂單狀態會由「待物流收件」自動變更為「**[已出貨（配送中）](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" }**」，您可在訂單列表或訂單詳情頁確認最新狀態。
+    物流中心簽收後，系統訂單狀態會由「待物流收件」自動變更為「**[已出貨（配送中）](../home-delivery/shipping-status-tooltip.md#reference-shipping-status){ title="出貨狀態物流提示文字說明" }**」，您可在訂單列表或訂單詳情頁確認最新狀態。
 
 ??? quote "B2C 大宗寄倉與一般超商取貨 C2C 有什麼不同？"
     [](){ #faq-cvs-b2c-shipping-vs-c2c }
