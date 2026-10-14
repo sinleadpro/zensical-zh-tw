@@ -98,12 +98,12 @@ comments: false
 !!! example "適用情境"
     | 情境 | 適用區塊 |
     |:-----|:---------|
-    | 在首頁放 FAQ 或常見問題 | [折疊內容](#section-collapsible) |
-    | 建立購物須知、退換貨說明 | [折疊內容](#section-collapsible) |
-    | 展示商品使用步驟或注意事項 | [折疊內容](#section-collapsible) |
-    | 首頁放活動入口大圖 | [橫幅廣告](#section-banner) |
-    | 嵌入 YouTube 影片 | [影片設定](#section-video) |
-    | 顯示商品列表 | [商品分類](#section-collection-blocks) |
+    | 在首頁放 FAQ 或常見問題 | [折疊內容](#operate-page-settings-collapsible) |
+    | 建立購物須知、退換貨說明 | [折疊內容](#operate-page-settings-collapsible) |
+    | 展示商品使用步驟或注意事項 | [折疊內容](#operate-page-settings-collapsible) |
+    | 首頁放活動入口大圖 | [橫幅廣告](#operate-page-settings-banner) |
+    | 嵌入 YouTube 影片 | [影片設定](#operate-page-settings-video) |
+    | 顯示商品列表 | [商品分類](#operate-page-settings-collection) |
 
 ## 使用前提與限制 { #prerequisites-page-settings }
 
@@ -147,7 +147,7 @@ comments: false
 
 ---
 
-#### 輪播素材 { #section-main-slider }
+#### 輪播素材 { #operate-page-settings-slider }
 
 可放入多張輪播「素材」的主視覺區塊。
 
@@ -236,7 +236,7 @@ comments: false
 
 ---
 
-#### 橫幅廣告 <small>活動入口大圖</small> { #section-banner }
+#### 橫幅廣告 <small>活動入口大圖</small> { #operate-page-settings-banner }
 
 單張橫幅圖片，常用於活動入口。 
 
@@ -271,7 +271,7 @@ comments: false
 
 ---
 
-#### 商品分類 <small>商品列表展示</small> { #section-collection-blocks }
+#### 商品分類 <small>商品列表展示</small> { #operate-page-settings-collection }
 
 從指定商品分類帶入商品的列表區塊。 
 
@@ -335,7 +335,7 @@ comments: false
 
 ---
 
-#### 影片設定 <small>YouTube 嵌入</small> { #section-video }
+#### 影片設定 <small>YouTube 嵌入</small> { #operate-page-settings-video }
 
 嵌入單支影片。 
 
@@ -361,7 +361,7 @@ comments: false
 
 ---
 
-#### 分頁頁籤 { #section-blog-tabs }
+#### 分頁頁籤 { #operate-page-settings-blog-tabs }
 
 以頁籤呈現多個部落格的文章。
 
@@ -376,7 +376,7 @@ comments: false
 
 ---
 
-#### 自訂排版設計 { #section-custom-blocks } 
+#### 自訂排版設計 { #operate-page-settings-custom-blocks }
 
 自由組合多種小區塊的彈性版面。 
 
@@ -514,7 +514,7 @@ comments: false
 
 ---
 
-#### 圖文介紹 { #section-graphic-intro }
+#### 圖文介紹 { #operate-page-settings-graphic-intro }
 
 圖片搭配文字與按鈕的介紹區塊。
 
@@ -576,7 +576,7 @@ comments: false
 
 ---
 
-#### 自訂 HTML { #section-custom-html }
+#### 自訂 HTML { #operate-page-settings-custom-html }
 
 直接貼入 HTML 程式碼，適合放第三方語法或自訂內容。
 
@@ -587,7 +587,7 @@ comments: false
 
 ---
 
-#### 應用程式 { #section-app }
+#### 應用程式 { #operate-page-settings-app }
 
 放入已安裝的應用程式元件。
 
@@ -598,7 +598,7 @@ comments: false
 
 ---
 
-#### 文字編輯 { #section-text }
+#### 文字編輯 { #operate-page-settings-text }
 
 純文字編輯區塊，提供進階文字編輯器。
 
@@ -619,7 +619,7 @@ comments: false
 
 ---
 
-#### 主打商品 { #section-flagship }
+#### 主打商品 { #operate-page-settings-flagship }
 
 聚焦呈現單一商品並提供購買操作。
 
@@ -679,7 +679,7 @@ comments: false
 
 ---
 
-#### 折疊內容 <small>FAQ / 購物須知</small> { #section-collapsible }
+#### 折疊內容 <small>FAQ / 購物須知</small> { #operate-page-settings-collapsible }
 
 可展開／收合的內容區塊，是建立 **FAQ 常見問題**、購物須知、退換貨說明等功能的主要工具。
 
