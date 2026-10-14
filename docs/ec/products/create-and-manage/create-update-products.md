@@ -308,7 +308,7 @@ hide: []
 
 === "商品關聯群組"
 
-    選擇既有的 [**商品自訂分類**](../categories-and-tags/custom-collections.md){ title="設定商品自訂分類群組" } 或 [**商品條件分類**](../categories-and-tags/smart-collections.md){ title="設定商品條件分類群組" }，設定後該群組商品會顯示在商品頁下方的 [**相關商品區**](../../website-appearance/theme-and-layout/setup-theme-page-settings.md#相關商品){ title="設定相關商品顯示" }。
+    選擇既有的 [**商品自訂分類**](../categories-and-tags/custom-collections.md){ title="設定商品自訂分類群組" } 或 [**商品條件分類**](../categories-and-tags/smart-collections.md){ title="設定商品條件分類群組" }，設定後該群組商品會顯示在商品頁下方的 [**相關商品區**](../../website-appearance/theme-and-layout/setup-theme-page-settings.md#operate-page-settings-related-products){ title="設定相關商品顯示" }。
 
     ![商品關聯群組設定](../../../assets/images/ec-product-settings-related-products.png){ title="商品關聯群組設定" }
 

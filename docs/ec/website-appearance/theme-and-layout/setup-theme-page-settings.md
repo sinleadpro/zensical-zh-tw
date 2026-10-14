@@ -795,7 +795,7 @@ comments: false
     </div>
 
 === "相關商品"
-    [](){ #相關商品 }
+    [](){ #operate-page-settings-related-products }
 
     選擇顯示「商品群組其他商品」(同分類隨機顯示)或「自訂關聯群組商品」。
 

@@ -148,7 +148,7 @@ plan_options: []
 
 商家可依照商品屬性或銷售策略手動設定商品之間的關聯性，以提升商品曝光與銷售效果。
 
-- **參閱**：[新增與更新商品](../ec/products/create-and-manage/create-update-products.md#operate-product-edit-settings){ title="商品關聯群組設定" } | [商品頁面設定](../ec/website-appearance/theme-and-layout/setup-theme-page-settings.md#相關商品){ title="設定相關商品顯示" }
+- **參閱**：[新增與更新商品](../ec/products/create-and-manage/create-update-products.md#operate-product-edit-settings){ title="商品關聯群組設定" } | [商品頁面設定](../ec/website-appearance/theme-and-layout/setup-theme-page-settings.md#operate-page-settings-related-products){ title="設定相關商品顯示" }
 
 ### Google 產品類別
 
