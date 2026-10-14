@@ -77,7 +77,7 @@ hide: []
 
 - [x] **串接 [Meta 商業擴充套件](../integrations/fb/mbe/setup-fbe-authorization.md){ title="設定 FBE 帳號授權與資產連結" }**：確保 EC 後台已與 Facebook 相關資產（粉專、像素、目錄）連結成功。
 - [x] **建立 [Meta 廣告帳號](../integrations/fb/meta-ads/create-meta-ad-account-top-up.md){ title="建立 Meta 廣告帳號並完成儲值" }**：需先於後台建立專屬廣告帳號。
-- [x] **[儲值廣告金](../integrations/fb/meta-ads/create-meta-ad-account-top-up.md#儲值廣告金){ title="建立 Meta 廣告帳號並完成儲值" }**：商家需預先儲值廣告預算至後台方可開始投放。
+- [x] **[儲值廣告金](../integrations/fb/meta-ads/create-meta-ad-account-top-up.md#operate-meta-account-steps-ads){ title="建立 Meta 廣告帳號並完成儲值" }**：商家需預先儲值廣告預算至後台方可開始投放。
 
 ## 安裝步驟教學 { #intro-meta-ads }
 
@@ -93,7 +93,7 @@ hide: []
     ![安裝MetaAdsApp](../../assets/images/ec-app-market-meta-ads-app-安裝.png)
 
 4.  **確認授權**：系統會導向確認頁面，請閱讀並 **同意相關隱私條款**，最後點擊 **「確認安裝」**。
-5.  **完成安裝**：安裝完成後，可透過上述後台路徑點擊 **立即前往** 進入 Meta Ads App 介面，開始 [創建廣告活動](../integrations/fb/meta-ads/setup-meta-ad-campaign.md#創建廣告活動流程){ title="設定 Meta 廣告活動" }。
+5.  **完成安裝**：安裝完成後，可透過上述後台路徑點擊 **立即前往** 進入 Meta Ads App 介面，開始 [創建廣告活動](../integrations/fb/meta-ads/setup-meta-ad-campaign.md#operate-meta-campaign-ads-flow){ title="設定 Meta 廣告活動" }。
 
     ![前往MetaAdsApp](../../assets/images/ec-第三方整合-fb-廣告活動設定-前往meta-ads-app.png)
 

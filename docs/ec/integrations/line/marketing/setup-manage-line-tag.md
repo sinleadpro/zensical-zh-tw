@@ -69,7 +69,7 @@ comments: false
 
 ![LINE Tag 設定](../../../../assets/images/ec-第三方整合-linetag.png){ title="LINE Tag 設定" .hero-page }
 
-## 什麼是 LINE Tag
+## 什麼是 LINE Tag { #intro-line-tag }
 
 LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，可用於追蹤：
 
@@ -79,7 +79,7 @@ LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，�
 
 以下為 LINE Tag 的詳細設定教學與應用說明：
 
-## 注意事項
+## 注意事項 { #intro-line-tag-overview-line-tag }
 
 - [x] 設定前請務必先建立好 LINE OA 官方帳號。
 - [x] 若您的瀏覽器有安裝 **AdBlock（廣告攔截器）**，設定或檢查時請先將其關閉，以免干擾數據追蹤。
@@ -88,10 +88,10 @@ LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，�
     [修改管理者權限](../../../website-management/add-admin-set-permissions/#管理者權限設定與修改){ data-preview }
 
 
-## 取得與設定 LINE Tag ID
+## 取得與設定 LINE Tag ID { #operate-line-tag }
 您可以在 LINE OA Manager 或 LINE Ad Manager 中取得代碼，並將其填入 CYBERBIZ 後台。
 
-### 用於「訊息推播」轉換追蹤 <small>LINE OA Manager</small>
+### 用於「訊息推播」轉換追蹤 <small>LINE OA Manager</small> { #operate-line-tag-message-conversion-tracking }
 
 1.  **進入後台**：登入 [LINE OA Manager :lucide-external-link:](https://manager.line.biz/)，選擇欲設定的官方帳號。
 2.  **尋找代碼**：於左側選單點擊 **資料管理 > 追蹤(LINE Tag)**，複製頁面中的 **Tag ID**。
@@ -107,7 +107,7 @@ LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，�
 
 ---
 
-### 用於「廣告投放」轉換追蹤 <small>LINE Ad Manager</small>
+### 用於「廣告投放」轉換追蹤 <small>LINE Ad Manager</small> { #operate-line-tag-ads-conversion-tracking }
 
 1.  **進入後台**：登入 [LINE Ad Manager :lucide-external-link:](https://admanager.line.biz/)，點選欲設定的廣告帳號名稱。
 2.  **尋找代碼**：於左側選單選擇 **追蹤(LINE Tag)** ，複製其 **Tag ID**。
@@ -124,7 +124,7 @@ LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，�
 
 ---
 
-## CYBERBIZ 支援追蹤事件一覽
+## CYBERBIZ 支援追蹤事件一覽 { #operate-line-tag-cyberbiz-support-tracking }
 
 系統已自動為以下行為埋設追蹤碼，無須額外撰寫程式：
 
@@ -141,7 +141,7 @@ LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，�
 
 ---
 
-## 如何檢查設定是否成功
+## 如何檢查設定是否成功 { #operate-line-tag-settings }
 
 *   **方法一（手動檢查）**：到官網執行特定動作（如註冊、加入購物車），之後刷新 LINE 的 Tag 管理頁面，檢查該事件名稱是否出現於狀態列表中。
 
@@ -151,13 +151,13 @@ LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，�
 
 ---
 
-## LINE Tag 進階應用
+## LINE Tag 進階應用 { #intro-line-tag-line-tag-advanced }
 
-### 建立受眾
+### 建立受眾 { #intro-line-tag-line-tag-advanced-create }
 
 收集到的訪客數據可在 LINE 後台打包成「**網站流量受眾**」，用於廣告精準投放或再行銷。
 
-#### LINE OA Manager
+#### LINE OA Manager { #intro-line-tag-line-tag-advanced-line-oa-manager }
 
 1.  **進入後台**：登入 [LINE OA Manager :lucide-external-link:](https://manager.line.biz/)，選擇欲設定的官方帳號。
 2.  **操作頁面**：點選 **資料管理 > 受眾 > 建立受眾**。
@@ -170,7 +170,7 @@ LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，�
 
 ---
 
-#### LINE Ad Manager
+#### LINE Ad Manager { #intro-line-tag-line-tag-advanced-line-ad-manager }
 
 1.  **進入後台**：登入 [LINE Ad Manager :lucide-external-link:](https://admanager.line.biz/)，點選欲設定的廣告帳號名稱。
 2.  **操作頁面**：點選左上角選單按鈕 :lucide-menu:，選擇 **受眾 > 建立受眾 > 網站流量受眾**。
@@ -178,7 +178,7 @@ LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，�
 
 ![Ad Manager 建立受眾](../../../../assets/images/ec-第三方整合-linetag-建立受眾-lineadmanager.png){ title="Ad Manager 建立受眾" }
 
-### 轉換分析
+### 轉換分析 { #overview-line-tag-conversion }
 
 在 LINE OA Manager 的分析功能中，透過「群發訊息 - 自訂轉換」，分析特定訊息帶來的實際轉換表現。
 
@@ -189,7 +189,7 @@ LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，�
 
 ![轉換分析](../../../../assets/images/ec-第三方整合-linetag-轉換分析.png){ title="轉換分析" }
 
-## 後續操作
+## 後續操作 { #next-steps-line-tag }
 
 <div class="grid cards" markdown>
 
@@ -199,7 +199,7 @@ LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，�
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-line-tag }
 
 ??? quote "為什麼我的 LINE Tag 狀態一直顯示「正在等待資料」或「無活動」？"
     這通常有三個可能原因：

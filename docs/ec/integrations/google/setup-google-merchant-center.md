@@ -67,7 +67,7 @@ comments: false
 
 ![Google Merchant Center 串接設定](../../../assets/images/ec-integrations-gmc.zh-tw.png){ title="串接 GMC：第三方整合 > Google > Google Merchant Center" .hero-page }
 
-## Google Merchant Center 說明
+## Google Merchant Center 說明 { #overview-merchant-center }
 
 **Google Merchant Center (GMC)** [:lucide-external-link:](https://www.google.com/retail/solutions/merchant-center/) 是 Google 提供的商品資料管理平台，可將商品資訊同步至 Google 搜尋結果中的購物區塊及 Google 購物廣告，藉此提升商品曝光與轉換成效。[了解更多 :lucide-external-link:](https://support.google.com/merchants/answer/12159157?hl=zh-Hant)
 
@@ -77,9 +77,9 @@ comments: false
     - **自動化管理**：自動同步商品庫存、價格與圖片，減少手動維護工作。
     - **數據追蹤與優化**：收集使用者互動與廣告成效資料，支援後續分析與優化。
 
-## 申請 Google Merchant Center <small>Google 端操作</small>
+## 申請 Google Merchant Center <small>Google 端操作</small> { #operate-merchant-center }
 
-### 建立帳戶
+### 建立帳戶 { #operate-merchant-center-create }
 
 !!! warning "重要提醒"
     若您是為了投放 **Google 自動化廣告**，可選擇由 CYBERBIZ 代管 GMC 帳號，請直接在自動化廣告設定頁創建，避免自行申請導致權限衝突或廣告異常。瞭解[如何設置自動化廣告](automated-ads-system.md){ title="設定自動化廣告系統" }。
@@ -92,7 +92,7 @@ comments: false
 
 ---
 
-### 設定商家資訊
+### 設定商家資訊 { #operate-merchant-center-settings }
 
 1.  **輸入商家名稱**：在「商家名稱」欄位輸入你的商家名稱
 2.  **設定商家地址**：輸入公司登記地址（城市、州/省、郵遞區號）
@@ -102,7 +102,7 @@ comments: false
 
 ---
 
-### 驗證網站
+### 驗證網站 { #operate-merchant-center-verification }
 
 1.  **選擇驗證方式**：選擇「新增 HTML 標記或檔案」>「新增 HTML 標記」
 2.  **複製 HTML 標記**：複製系統產生的 meta 標籤
@@ -113,7 +113,7 @@ comments: false
 
     ![GMC 埋HTML標記](../../../assets/images/ec-網站外觀-樣板編輯器-theme-liquid-埋gmchtml標記.png){ title="GMC 埋HTML標記" }
 
-4.  **完成驗證**：回到 GMC 點擊「驗證網路商店」以完成驗證程序。完成驗證後，可點擊 **繼續** 接續[新增/同步商品資料](#同步商品資料-product-feed-設定)步驟。
+4.  **完成驗證**：回到 GMC 點擊「驗證網路商店」以完成驗證程序。完成驗證後，可點擊 **繼續** 接續[新增/同步商品資料](#operate-merchant-center-sync-product-data)步驟。
 
     ![GMC 驗證成功](../../../assets/images/ec-gmc-p3-驗證網站成功.png){ title="GMC 驗證成功" }
 
@@ -126,7 +126,7 @@ comments: false
         ![GMC 商店驗證狀態](../../../assets/images/ec-gmc-商家資訊-驗證狀態.png){ title="GMC 商店驗證狀態" }
 ---
 
-### 同步商品資料 <small>Product Feed 設定</small>
+### 同步商品資料 <small>Product Feed 設定</small> { #operate-merchant-center-sync-product-data }
 
 1.  **複製饋給連結**：至 CYBERBIZ 後台「第三方整合」>「谷歌 Google 設定」>「Google Merchant Center」，複製「**產品動態饋給連結**」。
 
@@ -154,7 +154,7 @@ comments: false
 
 ---
 
-### 設定運送方式
+### 設定運送方式 { #operate-merchant-center-shipping }
 
 1.  **選擇國家/地區**：選擇「台灣」並點擊「繼續」
 2.  **設定運送時間**：設定訂單截止時間、處理時間（0-1天）、運送時間（0-1天）
@@ -164,14 +164,14 @@ comments: false
 
 ---
 
-### 設定退貨政策
+### 設定退貨政策 { #operate-merchant-center-returns }
 
 1.  **設定退貨資訊**：選擇退貨期限和退貨費用
 2.  **完成設定**：點擊「繼續」完成 GMC 帳戶設定
 
 ![設定退貨政策 GIF](../../../assets/images/ec-gmc-p5-設定退貨政策.gif){ title="設定退貨政策 GIF" .screenshot }
 
-## 串接 Google Ads 帳戶
+## 串接 Google Ads 帳戶 { #operate-merchant-center-connect-google-ads }
 
 1.  **前往設定**：在 GMC 後台點選「設定」>「存取和服務」
 2.  **新增服務**：點擊「應用程式和服務」分頁，然後點擊「新增服務」
@@ -182,7 +182,7 @@ comments: false
 
 ---
 
-## 商品詳細設定建議
+## 商品詳細設定建議 { #operate-merchant-center-product-settings }
 
 <div class="grid cards" markdown>
 
@@ -204,7 +204,7 @@ comments: false
 
 </div>
 
-## 哪些商品不會被上傳 <small>自動排除邏輯</small>
+## 哪些商品不會被上傳 <small>自動排除邏輯</small> { #specs-merchant-center }
 
 系統會自動排除以下情況的商品，不會上傳至 GMC：
 
@@ -212,7 +212,7 @@ comments: false
 - **已下架或達下架時間** 的商品。
 - **標籤設定為「贈品」** 或 **「排除product feed」** 的商品。
 
-## 後續操作
+## 後續操作 { #next-steps-merchant-center }
 
 <div class="grid cards" markdown>
 
@@ -225,12 +225,12 @@ comments: false
   設定 Google Ads 轉換追蹤代碼，回報廣告帶來的訂單成效，優化廣告投放效益。
 
 - :lucide-chart-column-increasing:{ .lg }   
-  [__Google Analytics 追蹤__](setup-gmc-conversion-tracking.md#將-ga4-連結至-merchant-center){ title="設定 GMC 重要事件來源追蹤與自動標記" }     
+  [__Google Analytics 追蹤__](setup-gmc-conversion-tracking.md#operate-gmc-conversions-steps-ga4-merchant-cen){ title="設定 GMC 重要事件來源追蹤與自動標記" }
   將 GA4 連結至 Merchant Center，查看來自 Google 搜尋與購物廣告的購買指標。
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-merchant-center }
 
 ??? quote "CYBERBIZ 代管 GMC 帳號與自行申請 GMC 帳號有何差異？"
     若選擇由 CYBERBIZ 代管 GMC 帳號，系統會自動處理相關設定與維護，避免因手動操作導致的權限變更或廣告投放異常。若您已透過自動化廣告設定頁創建廣告並選擇代管，請勿自行另外申請 GMC 帳號。

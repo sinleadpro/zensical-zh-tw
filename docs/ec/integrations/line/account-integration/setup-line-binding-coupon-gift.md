@@ -89,13 +89,13 @@ hide: []
 
 ![LINE綁定會員送優惠券](../../../../assets/images/ec-第三方整合-line-綁定會員送優惠券.png){ .hero-page title="LINE綁定會員送優惠券" }
 
-## LINE 會員綁定贈送優惠券說明
+## LINE 會員綁定贈送優惠券說明 { #operate-line-coupon }
 
 **LINE 綁定會員送優惠券** 功能旨在透過贈送優惠券的誘因，提升顧客將 LINE 官方帳號與官網會員進行綁定的意願，進而加強品牌與客戶之間的黏著度。
 
 以下為該功能的詳細說明與設定教學：
 
-## 設定前置準備
+## 設定前置準備 { #prerequisites-line-coupon }
 
 在啟用此功能前，商家必須完成以下事項：
 
@@ -103,7 +103,7 @@ hide: []
 
 - [x] **綁定流程確認**：顧客必須完成 [**LINE 官方帳號綁定官網會員**](bind-line-oa-store-members.md){ title="綁定 LINE 官方帳號與官網會員" }   的完整流程，方可獲得優惠券。
 
-## 後台設定步驟
+## 後台設定步驟 { #operate-line-coupon-backend-settings-step }
 
 1. **前往設定頁面：** 進入管理後台，點選 **第三方整合 > LINE OA 行銷活動**。
 
@@ -142,15 +142,15 @@ hide: []
 
 5. **套用設定：** 設定完成後，點擊 **儲存** 以套用變更。
 
-## 引導顧客綁定之關鍵
+## 引導顧客綁定之關鍵 { #operate-line-coupon-bind }
 
 為了確保系統能正確判定綁定行為並發送優惠券，商家 **務必** 讓顧客透過以下特定連結進行綁定：
 
 - **專屬綁定連結**：`https://你的網址/customer/auth/line?line_action=line_login`。
 
-- **應用建議**：商家可以將此連結設定在 [LINE 的 **圖文選單**](../marketing/setup-line-rich-menu.md){ title="設定 LINE 圖文選單" }  或 [**加入好友的歡迎訊息**](bind-line-oa-store-members.md#設定加入好友的歡迎訊息){ title="綁定 LINE 官方帳號與官網會員" } 中，吸引新好友立即點擊綁定。
+- **應用建議**：商家可以將此連結設定在 [LINE 的 **圖文選單**](../marketing/setup-line-rich-menu.md){ title="設定 LINE 圖文選單" }  或 [**加入好友的歡迎訊息**](bind-line-oa-store-members.md#operate-line-bind-welcome){ title="綁定 LINE 官方帳號與官網會員" } 中，吸引新好友立即點擊綁定。
 
-## 進階應用技巧
+## 進階應用技巧 { #intro-line-coupon }
 
 若商家仍有許多已註冊但尚未綁定 LINE OA 的會員，可搭配使用「**LINE OA 加入好友邀請**」功能（透過簡訊或 Email），主動發送帶有誘因的邀請訊息，引導他們完成綁定以領取優惠。
 
@@ -169,7 +169,7 @@ hide: []
 </div>
 
 
-## 常見問題
+## 常見問題 { #faq-line-coupon }
 
 ??? quote "為什麼顧客完成綁定後卻沒有收到優惠券" 
 	請依序確認以下排除步驟： 

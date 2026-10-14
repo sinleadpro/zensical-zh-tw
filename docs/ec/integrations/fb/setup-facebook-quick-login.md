@@ -65,11 +65,11 @@ hide: []
 
 ![第三方整合-FB](../../../assets/images/ec-第三方整合-fb整合.png){ .hero-page }
 
-## Facebook 快速登入說明
+## Facebook 快速登入說明 { #overview-facebook-quick }
 
 **Facebook 快速登入** 功能可讓顧客於「會員註冊」或「結帳頁面」直接使用 Facebook 帳號登入，系統會自動抓取其 Facebook 綁定的信箱作為帳號，並將資料與官網顧客列表關聯，方便商家後續篩選受眾。
 
-## 設定前的注意事項
+## 設定前的注意事項 { #operate-facebook-quick }
 
 - [x] **網址安全性：** 官網網址必須具備 **SSL 憑證**（即 https:// 開頭）。
 - [x] **企業驗證：** 所使用的 Meta 企業管理平台需先完成[驗證 :lucide-external-link:](https://www.facebook.com/business/help/159334372093366)。
@@ -77,7 +77,7 @@ hide: []
 - [x] **信箱限制：** 若消費者使用 Hinet 信箱，可能會因 Hinet 阻擋訊息而無法收到忘記密碼等系統通知，建議引導使用其他信箱。
 - [x] **帳號合併機制：** 若顧客的 Facebook 信箱與 Google 或 LINE 登入使用的信箱相同，系統會自動將其判定為同一會員並進行 **帳號合併**。
 
-## 快速登入功能設定
+## 快速登入功能設定 { #operate-facebook-quick-settings }
 
 商家可以根據需求選擇使用「預設圖示」或「自訂圖示」來設定登入畫面中顯示的商家 logo：
 
@@ -91,7 +91,7 @@ hide: []
 
 !!! note "自訂圖示、預設圖示，僅在前台顯示圖示會有差異。"
 
-### 使用預設圖示 <small>最快速</small>
+### 使用預設圖示 <small>最快速</small> { #operate-facebook-quick-settings-use }
 
 *   **後台路徑：** 「第三方整合」>「臉書 Facebook 設定 (廣告/註冊登入)」。
 *   **操作步驟：** 開啟「**啟用 Facebook 登入**」並點擊「儲存設定」即可完成，前台會顯示系統預設的登入按鈕。
@@ -100,28 +100,28 @@ hide: []
 
 ---
 
-### 使用自訂圖示 <small>需建立 Meta 應用程式</small>
+### 使用自訂圖示 <small>需建立 Meta 應用程式</small> { #operate-facebook-quick-settings-use-create-meta }
 
 此方法需透過 **Meta for Developers** 建立應用程式，適合希望自訂登入圖示與蒐集更完整受眾資訊的商家。
 
 !!! warning "前置條件：註冊 Meta 開發者帳號"
     在建立應用程式之前，您需要先完成 [**Meta for Developers 開發者帳號註冊** :lucide-external-link:](https://developers.facebook.com/docs/development/register)。完成註冊後，即可前往應用程式頁面建立應用程式。
 
-#### 建立應用程式
+#### 建立應用程式 { #operate-facebook-quick-settings-create }
 
 1. 前往 [Meta for Developers :lucide-external-link:](https://developers.facebook.com/apps/)，確認已登入開發者帳號。
 2. 點擊「**建立應用程式**」。
 3. 輸入「顯示名稱」（顧客登入時看到的店家名稱）並點擊「**繼續**」。
 4. 選擇「**使用 Facebook 登入，驗證用戶並索取資料**」作為使用案例。
 5. 選擇是否連結「[商家資產管理組合 :lucide-external-link:](https://www.facebook.com/business/help/486932075688253)」（如無可選選項，可選擇「我還不想連結商家資產管理組合」）。
-6. 按照畫面提示，完成[商家驗證](#商家驗證-business-verification)與[應用程式審查](#應用程式審查-app-review)要求。
+6. 按照畫面提示，完成[商家驗證](#operate-facebook-quick-settings-verification-bus)與[應用程式審查](#operate-facebook-quick-settings-app-review)要求。
 7. 檢視總覽並點擊「**建立應用程式**」完成建立。
 
 ![建立應用程式流程](../../../assets/images/ec-第三方整合-mbe-建立fb登入應用程式.gif){ .screenshot }
 
 ---
 
-#### 設定 Facebook 登入產品
+#### 設定 Facebook 登入產品 { #operate-facebook-quick-settings-settings-faceboo }
 
 1. 應用程式建立完成後，會自動進入應用程式主控台。
 2. 在「應用程式自訂和要求」區塊，點擊「自訂使用 Facebook 登入以驗證用戶並索取資料的使用案例」。
@@ -151,7 +151,7 @@ hide: []
 
 ---
 
-#### 填寫應用程式基本資料
+#### 填寫應用程式基本資料 { #operate-facebook-quick-settings-data }
 
 1. 在左側選單點擊「應用程式設定」>「基本資料」。
 2. 填寫以下欄位：
@@ -175,7 +175,7 @@ hide: []
 
 ---
 
-#### 取得權限與驗證
+#### 取得權限與驗證 { #operate-facebook-quick-settings-permissions-veri }
 
 完成基本資料設定後，需完成「商家驗證」與「應用程式審查」才能發佈應用程式。在應用程式主控板可查看「商家驗證」與「應用程式審查」的狀態。
 
@@ -183,7 +183,7 @@ hide: []
 
 ---
 
-##### 商家驗證（ Business Verification）
+##### 商家驗證（ Business Verification） { #operate-facebook-quick-settings-verification-bus }
 
 1. 在主控板頁面點擊「商家驗證」，系統會引導你連結「商家資產管理組合」以完成商家驗證。
 
@@ -207,7 +207,7 @@ hide: []
 
 ---
 
-##### 應用程式審查（ App Review）
+##### 應用程式審查（ App Review） { #operate-facebook-quick-settings-app-review }
 
 7. 完成商家驗證後，點擊「應用程式審查」提交應用程式審查。
 8. 根據你需要的權限（如 `email`、`public_profile`），填寫相關的資料使用說明：
@@ -221,7 +221,7 @@ hide: []
 
 ---
 
-#### 串接資料至 CYBERBIZ
+#### 串接資料至 CYBERBIZ { #operate-facebook-quick-settings-connect-data-cyb }
 
 1. 在「基本資料」頁面取得「**應用程式編號**」（App ID）與「**應用程式密鑰**」（App Secret，點擊「顯示」查看）。
 
@@ -234,9 +234,9 @@ hide: []
 
 4. 點擊「儲存設定」已套用變更。
 
-## 常見異常解決辦法
+## 常見異常解決辦法 { #specs-facebook-quick }
 
-### 檢查應用程式狀態
+### 檢查應用程式狀態 { #specs-facebook-quick-status }
 
 因 Facebook 不定期的進行應用程式審核及更新，建議商家可以定期至 Meta for Developers 應用程式頁面做檢查設定：
 
@@ -254,15 +254,15 @@ hide: []
 
 ---
 
-### 無法取得信箱權限
+### 無法取得信箱權限 { #specs-facebook-quick-permissions }
 
 需確認應用程式的 `email` 權限是否設定為「Advanced Access」級別。
 
-## 常見問題
+## 常見問題 { #faq-facebook-quick }
 
 ??? quote "為什麼會出現「此應用程式目前不支援 Facebook 登入」的錯誤？"
 
-    通常與 FB 應用程式審核或 API 版本過舊有關。建議至 Meta for Developers 查看是否有警示訊息或「年度資料檢查」未執行。詳細檢查步驟請參閱「常見異常解決辦法」中的「[檢查應用程式狀態](#檢查應用程式狀態)」說明。
+    通常與 FB 應用程式審核或 API 版本過舊有關。建議至 Meta for Developers 查看是否有警示訊息或「年度資料檢查」未執行。詳細檢查步驟請參閱「常見異常解決辦法」中的「[檢查應用程式狀態](#specs-facebook-quick-status)」說明。
 
 ??? quote "無法取得顧客的 Email 信箱該怎麼辦？"
 

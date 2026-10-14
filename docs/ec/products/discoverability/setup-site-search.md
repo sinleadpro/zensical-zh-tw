@@ -121,7 +121,7 @@ CYBERBIZ 平台的前台介面中，**搜尋（放大鏡）功能** 是協助消
 
 - :lucide-toggle-left:{ .lg .middle } [__開啟站內搜尋追蹤__](../../integrations/google/ga/setup-ga4-site-search-tracking.md){ title="設定 GA4 站內搜尋追蹤" }       
 
-- :lucide-bar-chart-2:{ .lg .middle } [__查看追蹤成果__](../../integrations/google/ga/setup-ga4-site-search-tracking.md#如何查看追蹤成果){ title="設定 GA4 站內搜尋追蹤" }    
+- :lucide-bar-chart-2:{ .lg .middle } [__查看追蹤成果__](../../integrations/google/ga/setup-ga4-site-search-tracking.md#operate-ga-search-view-tracking){ title="設定 GA4 站內搜尋追蹤" }
 
 </div>
 

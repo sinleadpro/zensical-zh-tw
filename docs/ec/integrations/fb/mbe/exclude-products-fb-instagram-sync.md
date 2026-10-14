@@ -59,20 +59,20 @@ hide: []
 
 ![排除上傳至第三方商品標籤](../../../../assets/images/ec-商品-商品標籤-排除上傳至第三方.png){ .hero-page }
 
-## FB 與 IG 商店商品排除說明
+## FB 與 IG 商店商品排除說明 { #overview-exclude-products }
 
 在啟用 Facebook (FB) 與 Instagram (IG) 商店串接後，系統會透過產品動態網址持續更新目錄資訊，若您有不欲顯示的商品，可以依照以下說明進行設定與調整。
 
 !!! info "系統更新時間"
     官網商品資訊通常於每日 **凌晨 2 點或 2 點半** 自動同步至 Facebook 商店，當日更新的內容需等候同步完成才會呈現。
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-exclude-products }
 
 - [x] 完成 [Facebook 跟 Instagram 商店串接](setup-fb-instagram-shop.md){ title="設定 Facebook 跟 Instagram 商店" }。
 
-## 操作步驟
+## 操作步驟 { #operate-exclude-products }
 
-### 透過官網後台標籤排除 <small>自動化</small>
+### 透過官網後台標籤排除 <small>自動化</small> { #operate-exclude-products-backend }
 
 若您有特定商品（如贈品或測試品）不希望同步至第三方平台，最直接的方法是利用標籤過濾：
 
@@ -84,11 +84,11 @@ hide: []
 
 ---
 
-### 於商務管理工具中調整 <small>手動調整</small>
+### 於商務管理工具中調整 <small>手動調整</small> { #operate-exclude-products-manage }
 
 若串接已完成，您也可以直接在 Meta 商務管理工具的管理介面調整能見度：
 
-#### 隱藏整個商店
+#### 隱藏整個商店 { #operate-exclude-products-overview }
 
 1. 進入「[商務管理工具 :lucide-external-link:](https://business.facebook.com/commerce)」並選擇商務帳號。
 2. 點擊「設定」> 「一般」，在 **銷售管道** 中找到相關商店。
@@ -100,7 +100,7 @@ hide: []
 
 ---
 
-#### 隱藏單一或部分商品
+#### 隱藏單一或部分商品 { #operate-exclude-products-product }
 
 === "從商品目錄設定"
 
@@ -127,7 +127,7 @@ hide: []
 
 !!! note "更多流程及相關說明，請參閱 Meta 官方文件：[管理商店商品 :lucide-external-link:](https://zh-tw.facebook.com/business/help/836266307249612)。"
 
-## 常見問題
+## 常見問題 { #faq-exclude-products }
 
 ??? quote "如何排除特定商品不同步至商店？"
 

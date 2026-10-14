@@ -13,7 +13,7 @@ hide:
   - feedback
 ---
 
-## 基礎設定與帳號驗證
+## 基礎設定與帳號驗證 { #operate-google }
 
 <div class="grid cards" markdown>
 
@@ -53,7 +53,7 @@ hide:
 
 ---
 
-## Google Merchant Center 與購物廣告
+## Google Merchant Center 與購物廣告 { #intro-google }
 
 <div class="grid cards" markdown>
 
@@ -93,7 +93,7 @@ hide:
 
 ---
 
-## Google Ads 廣告與轉換追蹤
+## Google Ads 廣告與轉換追蹤 { #overview-google-ads-conversions }
 
 <div class="grid cards" markdown>
 
@@ -117,7 +117,7 @@ hide:
 
 ---
 
-## 流量追蹤與資料分析
+## 流量追蹤與資料分析 { #operate-google-tracking-data-analysis }
 
 <div class="grid cards" markdown>
 
@@ -173,7 +173,7 @@ hide:
 
 ---
 
-## 搜尋管理與網站安全
+## 搜尋管理與網站安全 { #operate-google-search-manage }
 
 <div class="grid cards" markdown>
 

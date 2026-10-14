@@ -63,25 +63,25 @@ hide:
 
 ![第三方整合 FBE 設定](../../../../assets/images/ec-第三方整合-fbe.png){ .hero-page }
 
-## Facebook 商業擴充套件說明
+## Facebook 商業擴充套件說明 { #overview-fbe-authorization }
 
 「**Facebook 商業擴充套件**」(Facebook Business Extension, FBE) 可一次串接 **Conversions API**、**Facebook 像素（Pixel）**、**商品目錄**、**Instagram Shopping** 及 **Facebook 粉絲專頁** 等資產，讓商家能快速將這些資產連結至官網後台，並在一站式管理廣告追蹤、受眾建立與商品推廣。
 
-## 設定路徑
+## 設定路徑 { #operate-fbe-authorization }
 
 1. 登入 CYBERBIZ 管理後台，點選「**第三方整合**」>「**臉書 Facebook 設定（廣告/註冊登入）**」。
 2. 在頁面下方找到「Facebook 新版商業擴充套件」區塊，點擊「**開始設定**」啟動流程。
 
 ![FBE 開始設定](../../../../assets/images/ec-第三方整合-fb-fbe-開始設定.png)
 
-## 操作步驟教學
+## 操作步驟教學 { #operate-fbe-authorization-operate-step }
 
 !!! tip "權限檢查"
 
-    - 在開始設定前，建議先確認您目前的[企業管理平台狀態](#企業管理平台與廣告帳號){ data-preview }。
+    - 在開始設定前，建議先確認您目前的[企業管理平台狀態](#prerequisites-fbe-authorization-manage-ads-accou){ data-preview }。
     - 若在設定過程中遇到權限問題，請確認您的帳號是否為該資產的擁有者或具備足夠管理權限。
 
-1.  **登入 Facebook 帳號：** 瀏覽器若未登入，系統會要求您登入。請確保該帳號擁有商家資產管理組合的[相關資產設定權限](#核心資產權限邏輯){ data-preview }。
+1.  **登入 Facebook 帳號：** 瀏覽器若未登入，系統會要求您登入。請確保該帳號擁有商家資產管理組合的[相關資產設定權限](#prerequisites-fbe-authorization-permissions){ data-preview }。
 
     ![FBE-登入帳號](../../../../assets/images/ec-第三方整合-fbe-登入fb帳號.png)
 
@@ -93,9 +93,9 @@ hide:
     ![FBE-同意授權](../../../../assets/images/ec-第三方整合-fbe-同意授權.png)
 
 3.  **連結企業資產：** 點擊資產項目選擇要串接的粉絲專頁、目錄、廣告帳號及像素 (Pixel)。
-    *   **重要提醒：** 您選取的資產擁有權必須[屬於該商家資產管理組合](#核心資產權限邏輯){ data-preview }，否則無法正確選取。
+    *   **重要提醒：** 您選取的資產擁有權必須[屬於該商家資產管理組合](#prerequisites-fbe-authorization-permissions){ data-preview }，否則無法正確選取。
     *   您也可以在此步驟直接建立新的資產。
-    *   建議開啟「[自動進階配對](#進階配對設定-advanced-matching){ data-preview }」，以發揮廣告的最佳成效。（需已建立粉絲專頁）
+    *   建議開啟「[自動進階配對](#prerequisites-fbe-authorization-advanced-setting){ data-preview }」，以發揮廣告的最佳成效。（需已建立粉絲專頁）
 
     === "連結資產"
         ![FBE-連結資產](../../../../assets/images/ec-第三方整合-fbe-連結資產.png)
@@ -110,7 +110,7 @@ hide:
 
     ![FBE-完成連結](../../../../assets/images/ec-第三方整合-fbe-完成連結.png)
 
-## 設定後的檢查與維護
+## 設定後的檢查與維護 { #operate-fbe-authorization-settings }
 
 *   **確認連結狀態：** 回到後台頁面後，可再次確認粉專、像素、目錄的連結結果。
 *   **編輯或取消：** 若需重新設定或清空設定，可點選「編輯資產」或「取消連結」。  
@@ -118,9 +118,9 @@ hide:
 
 ![FBE-完成連結](../../../../assets/images/ec-第三方整合-fb-基本設定-fbe-已建立連結.png)
 
-## 權限說明
+## 權限說明 { #prerequisites-fbe-authorization }
 
-### 企業管理平台與廣告帳號
+### 企業管理平台與廣告帳號 { #prerequisites-fbe-authorization-manage-ads-accou }
 
 在進行串接前，請先確認您目前的使用狀況，選擇對應的處理方式：
 
@@ -155,7 +155,7 @@ hide:
 
 ---
 
-### 核心資產權限邏輯
+### 核心資產權限邏輯 { #prerequisites-fbe-authorization-permissions }
 
 Facebook 的資產管理採用 **階層關係**：
 
@@ -166,7 +166,7 @@ Facebook 的資產管理採用 **階層關係**：
 
 ---
 
-### 進階配對設定 <small>Advanced Matching</small>
+### 進階配對設定 <small>Advanced Matching</small> { #prerequisites-fbe-authorization-advanced-setting }
 
 這是提升廣告成效的重要權限設定，建議在串接時確認：
 
@@ -179,7 +179,7 @@ Facebook 的資產管理採用 **階層關係**：
 *   **轉換 API (CAPI)：** 設定完成後，系統會開始自動傳送伺服器端 (Server to Server) 的像素事件，您可至 [Meta 事件管理工具 :lucide-external-link:](https://eventsmanager.facebook.com/)查看連結方式是否出現「伺服器」。
 -->
 
-## 後續操作
+## 後續操作 { #next-steps-fbe-authorization }
 
 <div class="grid cards" markdown>
 
@@ -189,7 +189,7 @@ Facebook 的資產管理採用 **階層關係**：
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-fbe-authorization }
 
 ??? quote "需要什麼權限才能設定 FBE？"
 

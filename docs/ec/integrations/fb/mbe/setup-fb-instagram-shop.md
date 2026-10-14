@@ -68,7 +68,7 @@ icon: lucide/store
 hide: []
 ---
 
-## FB 與 IG 商店設定說明
+## FB 與 IG 商店設定說明 { #operate-fb-instagram }
 
 **FB、IG 商店設定** 的主要目的是建立社群商店，讓品牌能透過 Facebook 與 Instagram 觸及更多流量，並將潛在顧客導流至官網消費。
 
@@ -77,7 +77,7 @@ hide: []
 
     相關說明可參閱 Meta 官方教學：[在 Facebook 和 Instagram 上設定商店 :lucide-external-link:](https://zh-tw.facebook.com/business/help/268860861184453)。
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-fb-instagram }
 
 在開始串接 Facebook 與 Instagram 商店前，請先依序完成以下設定：
 
@@ -86,9 +86,9 @@ hide: []
 
 完成上述兩項設定後，串接商店時系統會自動帶入相關資料（如已連結的目錄），您只需依畫面引導完成商店設定即可。
 
-## 操作步驟
+## 操作步驟 { #operate-fb-instagram-steps }
 
-### 串接 Facebook 商店
+### 串接 Facebook 商店 { #operate-fb-instagram-steps-connect-facebook }
 
 請先登入您的 Facebook 帳號，並確保擁有企業管理平台的相關管理權限。
 
@@ -119,7 +119,7 @@ hide: []
 
 ---
 
-### 串接 IG 商店
+### 串接 IG 商店 { #operate-fb-instagram-steps-connect-ig }
 
 Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專頁及目錄建立連結。
 
@@ -146,7 +146,7 @@ Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專
 
 !!! note "後續 IG 商店設定及使用，請參閱 Meta 官方教學：[Instagram 購物功能 :lucide-external-link:](https://zh-tw.facebook.com/business/help/582645198813984)。"
 
-## 商品同步與顯示管理
+## 商品同步與顯示管理 { #operate-fb-instagram-product-sync-manage }
 
 !!! info "自動更新時間"
     官網商品資訊固定於 **每天凌晨 2:00 或 2:30** 自動同步至 Facebook 商店。
@@ -160,12 +160,12 @@ Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專
   若有特定商品（如贈品或測試品）不希望同步至 Facebook 與 Instagram 商店，可透過設定商品標籤進行過濾。
 
 - :lucide-eye-off:{ .lg }   
-  [__隱藏商店或商品__](exclude-products-fb-instagram-sync.md#於商務管理工具中調整-手動調整){ title="排除商品不同步至 Facebook 與 Instagram 商店" }       
+  [__隱藏商店或商品__](exclude-products-fb-instagram-sync.md#operate-exclude-products-manage){ title="排除商品不同步至 Facebook 與 Instagram 商店" }
   可在商務管理工具中隱藏整個商店或隱藏單一商品。
 
 </div>
 
-## 後續操作
+## 後續操作 { #next-steps-fb-instagram }
 
 <div class="grid cards" markdown>
 
@@ -175,7 +175,7 @@ Instagram 商店需搭配商業帳號使用，且必須先與 Facebook 粉絲專
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-fb-instagram }
 
 ??? quote "為什麼 IG 商店連結出現 404 或語言編譯錯誤？"
 

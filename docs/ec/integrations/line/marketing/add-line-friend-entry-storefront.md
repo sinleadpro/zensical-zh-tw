@@ -70,13 +70,13 @@ hide:
 
 ![LINE官方加入好友工具](../../../../assets/images/ec-第三方整合-line-官方加入好友工具.png){ .hero-page title="LINE官方加入好友工具" }
 
-## 拖拉版型加入好友工具說明
+## 拖拉版型加入好友工具說明 { #overview-add-line }
 
 商家可以透過多種內建功能，將 LINE OA 官方帳號的邀請資訊（如連結、QR Code、圖片等）呈現於官網中，以提升品牌與會員的黏著度。
 
 以下為針對拖拉版型設定 LINE OA 增加好友工具的詳細教學：
 
-## 前置準備：取得 LINE 好友連結
+## 前置準備：取得 LINE 好友連結 { #prerequisites-add-line }
 
 在開始設定前，請先取得 LINE 官方帳號的加入好友連結與宣傳素材。
 
@@ -86,9 +86,9 @@ hide:
 	1. 登入 [**LINE Official Account Manager** :lucide-external-link:](https://manager.line.biz)，進入 **主頁 > 增加好友人數 > 增加好友工具**。
 	2. 在此處您可以選擇複製 **「網址」**、下載 **「行動條碼 (QR Code)」** 或複製 **「加入好友按鈕」** 的語法。
 
-## 官網應用方式設定
+## 官網應用方式設定 { #operate-add-line }
 
-### 右側彈窗廣告 <small>彈跳視窗</small>
+### 右側彈窗廣告 <small>彈跳視窗</small> { #operate-add-line-ads }
 
 這是最直接引導顧客加入好友的方式。
 
@@ -115,7 +115,7 @@ hide:
 
 ---
 
-### 輪播素材 <small>Banner</small>
+### 輪播素材 <small>Banner</small> { #operate-add-line-banner }
 
 利用首頁的大型橫幅廣告進行視覺推廣。
 
@@ -136,7 +136,7 @@ hide:
 
 ---
 
-### 頁腳 ICON 設定 <small>Footer</small>
+### 頁腳 ICON 設定 <small>Footer</small> { #operate-add-line-icon-settings-footer }
 
 在網站底部固定放置 LINE 的社群圖示。
 
@@ -149,7 +149,7 @@ hide:
 
 ---
 
-### 選單/導覽列設定
+### 選單/導覽列設定 { #operate-add-line-settings }
 
 將加入好友的功能直接放進網站的主選單中。
 
@@ -173,7 +173,7 @@ hide:
 
 ---
 
-## 相關操作
+## 相關操作 { #operate-add-line-operate }
 
 <div class="grid cards" markdown>
 
@@ -185,7 +185,7 @@ hide:
 
 ---
 
-## 常見問題
+## 常見問題 { #faq-add-line }
 
 ??? quote "為什麼我在「選單/導覽列」貼上按鈕語法後，前台圖示顯示異常" 
 	

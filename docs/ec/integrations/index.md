@@ -13,7 +13,7 @@ hide:
   - feedback
 ---
 
-## 社群與搜尋平台整合
+## 社群與搜尋平台整合 { #intro-integration }
 
 <div class="grid cards" markdown>
 
@@ -45,7 +45,7 @@ hide:
 
 ---
 
-## 其他通路串接
+## 其他通路串接 { #operate-integration }
 
 <div class="grid cards" markdown>
 
