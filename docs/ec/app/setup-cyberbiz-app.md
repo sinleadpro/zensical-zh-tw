@@ -90,11 +90,11 @@ CYBERBIZ APP 上架前的環境準備、官網預建置，以及門市地圖與�
 [:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions.md#適用擴充) | CYBERBIZ APP
 { .doc-badge }
 
-## 使用須知
+## 使用須知 { #prerequisites-app-setup }
 
 - 歡迎洽詢 CYBERBIZ 開店顧問，了解更多方案資訊。
 
-## APP 環境準備
+## APP 環境準備 { #prerequisites-app-environment }
   
 CYBERBIZ APP 支援上架於 Apple Store(iOS) 與 Google Play(Android)，請依上架需求進行環境設定。  
   
@@ -103,7 +103,7 @@ CYBERBIZ APP 支援上架於 Apple Store(iOS) 與 Google Play(Android)，請依�
 - **上架Google Play**：由 CYBERBIZ 提供 Google開發者帳號，無需自行申請。
 
 
-## 官網預建置
+## 官網預建置 { #prerequisites-app-site-prep }
   
 官網 App 將完整承襲網頁版的視覺設定與商品資料，在開啟 App 旅程前，請先確認您的網站已完成以下核心建置，以確保 App 在上架時即具備完整的購物功能：  
   
@@ -116,7 +116,7 @@ CYBERBIZ APP 支援上架於 Apple Store(iOS) 與 Google Play(Android)，請依�
 - [x] **社群登入**：建立 [Google](../integrations/google/setup-google-quick-login.md)、[LINE](../integrations/line/account-integration/setup-line-quick-login.md)、[Meta](../integrations/fb/setup-facebook-quick-login.md) 快速登入，提供便捷的會員體驗。
 
 
-## 建立 APP 門市地圖
+## 建立 APP 門市地圖 { #operate-app-store-map }
 
   
 登入電商官網後台，前往 **APP 功能 > APP門市列表** ，您可設定在 APP 中展示實體門市資訊，方便顧客查詢。  
@@ -133,7 +133,7 @@ CYBERBIZ APP 支援上架於 Apple Store(iOS) 與 Google Play(Android)，請依�
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APP功能-APP門市列表-單筆新增門市01.png)
 
-## 大量匯入門市名單
+## 大量匯入門市名單 { #operate-app-store-import }
 
 1.  **下載 Excel 範本**：點擊 **下載 Excel 範例**。
 2.  **輸入門市資訊**：開啟範本檔案，新增門市資訊。
@@ -142,7 +142,7 @@ CYBERBIZ APP 支援上架於 Apple Store(iOS) 與 Google Play(Android)，請依�
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APP功能-APP門市列表-批次匯入門市01.png)
 
 
-## APP 預設通知開關
+## APP 預設通知開關 { #operate-app-notification-defaults }
 
 前往 **APP 功能 > APP推播通知設定 > 通知樣板**，您可設定系統自動觸發的通知（如訂單成立、出貨通知等）是否啟用。  
   
@@ -156,7 +156,7 @@ CYBERBIZ APP 支援上架於 Apple Store(iOS) 與 Google Play(Android)，請依�
 
 
 
-## 發送 APP 推播訊息
+## 發送 APP 推播訊息 { #operate-app-push }
 
 前往 **APP 功能 > APP推播通知設定 > 活動推播列表**，您可建立推播活動，自定義發送會員群體與發送時間 ，主動向 APP 使用者發送行銷或公告訊息。  
   

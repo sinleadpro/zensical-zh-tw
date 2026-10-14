@@ -80,7 +80,7 @@ hide: []
     - **增加回訪誘因**：搭配紅利點數，鼓勵會員持續回購。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-app-first-gift }
 
 - **與其他贈禮分開**：APP 首登禮依 **會員帳號首次於 APP 登入成功** 發放，與[期間限定首購禮](../marketing/bonus-and-gifts/limited-time-first-purchase-gift.md)、[註冊禮](../marketing/bonus-and-gifts/setup-registration-gift.md)為不同機制。
 - **領取資格判定**：同時滿足以下條件時，系統於會員在 APP 登入成功後發放首登禮。
@@ -97,9 +97,9 @@ hide: []
 
 
 
-## 操作流程
+## 操作流程 { #operate-app-first-gift }
 
-### 設定並啟用 APP 首登禮
+### 設定並啟用 APP 首登禮 { #operate-app-first-gift-enable }
 
 1. 登入 CYBERBIZ 管理後台，前往 **APP 功能 > APP 首登禮**。
 2. 將 **APP 首登禮總開關** 切換為開啟。
@@ -128,7 +128,7 @@ hide: []
 
 
 
-### 停用 APP 首登禮
+### 停用 APP 首登禮 { #operate-app-first-gift-disable }
 
 1. 前往 **APP 功能 > APP 首登禮**。
 2. 將 **APP 首登禮總開關** 切換為關閉。
@@ -138,7 +138,7 @@ hide: []
     關閉總開關後，活動停止發放；既有設定內容會保留，之後可再開啟並儲存即可恢復。
 
 
-## 會員端領取流程
+## 會員端領取流程 { #operate-app-first-gift-member }
 
 會員完成下列流程後，即可取得首登禮：
 
@@ -167,7 +167,7 @@ hide: []
 會員可於官網或 APP 結帳時，依一般規則使用優惠券或紅利折抵。
 
 
-## 特殊情境說明
+## 特殊情境說明 { #specs-app-first-gift-special }
 
 | 情境 | 系統行為 |
 | --- | --- |
@@ -181,7 +181,7 @@ hide: []
 
 
 
-## 常見問題
+## 常見問題 { #faq-app-first-gift }
 
 ??? quote "APP 首登禮與首購禮、註冊禮有什麼不同？"
     APP 首登禮在會員「首次於 APP 登入成功」時發放，不要求完成首筆訂單。首購禮依首次付款訂單條件發放；註冊禮依官網／後台註冊完成發放。三者可並存，請依行銷目標分別設定。
