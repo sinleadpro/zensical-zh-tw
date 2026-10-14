@@ -67,11 +67,11 @@ hide: []
 
 ![Meta Ads App (APP MARKET)](../../../../assets/images/ec-第三方整合-appmarket-meta-ads-app.png){ .hero-page }
 
-## Meta Ads App 說明
+## Meta Ads App 說明 { #overview-meta-ads }
 
 **Meta Ads App** 是位於 CYBERBIZ 「APP MARKET」中的擴充功能，讓商家能直接在官網後台為電商官網創建並投放廣告至 Meta 平台（Facebook、Instagram 等），並隨時追蹤廣告表現。
 
-## 安裝前置必要條件
+## 安裝前置必要條件 { #prerequisites-meta-ads }
 
 在安裝 Meta Ads App 之前，請務必依序完成以下操作，否則系統會自動跳轉至對應設定頁：
 
@@ -79,7 +79,7 @@ hide: []
 - [x] **建立 [Meta 廣告帳號](../integrations/fb/meta-ads/create-meta-ad-account-top-up.md){ title="建立 Meta 廣告帳號並完成儲值" }**：需先於後台建立專屬廣告帳號。
 - [x] **[儲值廣告金](../integrations/fb/meta-ads/create-meta-ad-account-top-up.md#儲值廣告金){ title="建立 Meta 廣告帳號並完成儲值" }**：商家需預先儲值廣告預算至後台方可開始投放。
 
-## 安裝步驟教學
+## 安裝步驟教學 { #intro-meta-ads }
 
 1.  **進入設定頁面**：登入 CYBERBIZ 管理後台，前往 **「第三方整合」** > **「Facebook 整合 (廣告/註冊登入)」** > **「廣告活動設定」**。
 2.  **啟動串接**：點擊頁面中的 **「前往串接」** 按鈕。
@@ -97,7 +97,7 @@ hide: []
 
     ![前往MetaAdsApp](../../assets/images/ec-第三方整合-fb-廣告活動設定-前往meta-ads-app.png)
 
-## 後續操作
+## 後續操作 { #next-steps-meta-ads }
 
 <div class="grid cards" markdown>
 
@@ -111,7 +111,7 @@ hide: []
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-meta-ads }
 
 ??? quote "切換至 Meta Ads App 後，原本設定的廣告資料會消失嗎？"
 

@@ -79,7 +79,7 @@ hide: []
 | **Item Name(English ONLY)** | 商品名稱 | 英文(標點符號須為半形) | EXPRESS 宅配：無須填寫<br>EMS 物流：必填 | 
 
 
-## 編輯方式
+## 編輯方式 { #operate-product-info }
 
 === "單筆編輯"
 

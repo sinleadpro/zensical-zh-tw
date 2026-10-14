@@ -196,7 +196,7 @@ hide: []
   自訂系統自動發送的簡訊內容，支援短網址功能節省字數。
 
 - :lucide-zap:{ .lg }  
-  [__自動化簡訊發送__](../app-market/automation/automation-push-flow.md#簡訊發送設定)  
+  [__自動化簡訊發送__](../app-market/automation/automation-push-flow.md#operate-automation-push-send-sms)
   使用 AUTOMATION 建立自動化簡訊流程，支援一次性或週期性發送。
 
 - :lucide-history:{ .lg }  
@@ -212,7 +212,7 @@ hide: []
   依設定間隔發送 3 次簡訊提醒顧客付款。
 
 - :lucide-package:{ .lg }  
-  [__商品推薦通知__](../app-market/storepal/configure-global-settings-and-attribution.md#簡訊通知開關){ title="全站功能與業績歸因設定" }  
+  [__商品推薦通知__](../app-market/storepal/configure-global-settings-and-attribution.md#operate-storepal-settings-sms-toggle){ title="全站功能與業績歸因設定" }
   編輯商品推薦通知簡訊，由門市人員發送給顧客。
 </div>
 

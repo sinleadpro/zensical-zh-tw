@@ -82,36 +82,36 @@ hide: []
     - **提升回覆時效**：透過 Webhook 即時推播，確保不遺漏任何 LINE 諮詢。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-chat-line }
 
-### 串接邏輯說明
+### 串接邏輯說明 { #prerequisites-chat-line-section }
 
 CHAT BOX 採 **自動導入** 機制。系統會自動抓取您於 **第三方整合 > LINE OA 設定** 中所綁定的官方帳號資訊。
 
 - **已完成 LINE OA 串接**：僅需在 CHAT BOX 內開啟同步開關。
 - **尚未完成 LINE OA 串接**：需先完成 Messaging API 串接流程。
 
-### 權限要求
+### 權限要求 { #prerequisites-chat-line-permissions }
 
 - **管理員權限**：操作人員必須具備該 LINE 官方帳號的 **管理員** 權限。
 - **不可逆連動**：一旦 LINE 官方帳號與「服務提供者 (Provider)」連動後，即無法自行變更或解除。
 - **Webhook 穩定性**：請務必確保 LINE Developers 中的 **Webhook URL** 正確，且 **Use webhook** 開關處於 **開啟** 狀態，這是訊息推播的唯一通道。
 
 
-## 串接步驟
+## 串接步驟 { #operate-chat-line }
 
-### 1. 進入 CHAT BOX 設定
+### 1. 進入 CHAT BOX 設定 { #operate-chat-line-1-chat-box }
 
 1. 登入 CYBERBIZ 管理後台，前往 **APP MARKET > CHAT BOX**。
 2. 點擊左側選單最下方的 **設定** 圖示。
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-設定01.png){ .screenshot }
 
-### 2. 啟用 LINE 同步
+### 2. 啟用 LINE 同步 { #operate-chat-line-2-enable-line }
 
 根據您的 LINE 區塊狀態進行操作：
 
-#### 狀態 A：顯示為「已連結」
+#### 狀態 A：顯示為「已連結」 { #operate-chat-line-status-a-link }
 
 代表系統已成功對接您的 LINE 官方帳號。
 
@@ -120,7 +120,7 @@ CHAT BOX 採 **自動導入** 機制。系統會自動抓取您於 **第三方�
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-line啟用01.png){ .screenshot }
 
-#### 狀態 B：顯示為「未連結」
+#### 狀態 B：顯示為「未連結」 { #operate-chat-line-status-b-link }
 
 代表您尚未在後台完成 LINE 官方帳號綁定。
 
@@ -129,7 +129,7 @@ CHAT BOX 採 **自動導入** 機制。系統會自動抓取您於 **第三方�
 3. 請參考 [LINE 官方帳號串接設定](../../integrations/line/account-integration/connect-line-messaging-api.md) 完成 Messaging API 串接。
 
 
-## 常見問題
+## 常見問題 { #faq-chat-line }
 
 ??? quote "顧客傳 LINE 訊息後，LINE 官方帳號後台有訊息，但 CHAT BOX 沒有出現新對話或新訊息？"
     常見原因是 Webhook 未啟用，或 Webhook URL 設定錯誤。
