@@ -72,7 +72,7 @@ POS 系統支援「店長改價」功能，但消費者在線上查詢訂單時�
 ## 使用前提與限制 { #prerequisites-manager-price-ui }
 
 -   **責任說明**：官方提供公開版型程式碼供商家自行修改，但 **不提供現有文件外的語法教學或代碼撰寫服務**，建議委託專業工程師處理。
--   **恢復機制**：樣版編輯器具備「**查看之前版本**」功能， [回溯至先前版本](../../ec/website-appearance/code-customization/restore-code-theme-editor.md#操作步驟){ title="使用樣板編輯器恢復網頁代碼" }。
+-   **恢復機制**：樣版編輯器具備「**查看之前版本**」功能， [回溯至先前版本](../../ec/website-appearance/code-customization/restore-code-theme-editor.md#operate-restore-theme){ title="使用樣板編輯器恢復網頁代碼" }。
 
 ## 操作步驟 { #operate-manager-price-ui }
 

@@ -67,11 +67,11 @@ hide: []
 
 ![部落格管理](../../../assets/images/ec-網站外觀-部落格管理.png){ title="部落格管理" .hero-page }
 
-## 部落格管理功能說明
+## 部落格管理功能說明 { #intro-blog-mgmt }
 
 **部落格管理** 功能不僅能協助您撰寫品牌文章，更能透過分類主題、文章標籤以及完善的 SEO 設定，建立內容行銷的基礎，提升官網的搜尋曝光率。
 
-## 新增部落格主題 <small>分類</small>
+## 新增部落格主題 <small>分類</small> { #operate-blog-mgmt-topics }
 
 部落格主題可視為文章的大分類（例如：品牌新訊、產品開箱）。
 
@@ -80,7 +80,7 @@ hide: []
 
 ![新增部落格主題](../../../assets/images/ec-網站外觀-部落格管理-新增部落格.png){ title="新增部落格主題" }
 
-## 部落格排序
+## 部落格排序 { #operate-blog-mgmt-sort }
 
 透過自訂排序功能，您可以彈性調整前台部落格主題的顯示順序，將熱門分類或季節性專題優先呈現給顧客。
 
@@ -93,7 +93,7 @@ hide: []
 
 ![部落格排序](../../../assets/images/ec-網站外觀-部落格排序.png){ title="部落格排序" }
 
-## 撰寫與管理文章
+## 撰寫與管理文章 { #operate-blog-mgmt-articles }
 
 1.  **新增文章**：進入指定主題後，點擊右上方「新增文章」。
 
@@ -120,7 +120,7 @@ hide: []
 
         ![文章列表操作](../../../assets/images/ec-網站外觀-部落格管理-文章列表.png){ title="文章列表操作" }
 
-## 文章標籤管理
+## 文章標籤管理 { #operate-blog-mgmt-tags }
 
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案){ title="圖示慣例" } | 企業
 
@@ -137,9 +137,9 @@ hide: []
 
     ![標籤前台呈現位置](../../../assets/images/ec-網站外觀-文章標籤-前台顯示位置.png){ title="標籤前台呈現位置" }
 
-## 前台呈現與頁面設定
+## 前台呈現與頁面設定 { #operate-blog-mgmt-storefront }
 
-### 部落格頁 <small>摘要頁</small>
+### 部落格頁 <small>摘要頁</small> { #operate-blog-mgmt-list }
 
 部落格頁會呈現多篇文章摘要。
 
@@ -170,7 +170,7 @@ hide: []
 
 ---
 
-### 部落格文章頁 <small>單篇文章</small>
+### 部落格文章頁 <small>單篇文章</small> { #operate-blog-mgmt-article }
 
 可設定版面內容資訊，並決定是否要 **顯示右側選單**，打造適合閱讀的版面。
 
@@ -201,9 +201,9 @@ hide: []
 
     ![文章頁設定-預設版型](../../../assets/images/ec-網站外觀-部落格管理-部落格文章頁設定-一般版型.png){ title="文章頁設定-預設版型" }
 
-## SEO 與轉貼圖片設定
+## SEO 與轉貼圖片設定 { #operate-blog-mgmt-seo }
 
-### Meta Tags
+### Meta Tags { #operate-blog-mgmt-meta }
 
 您可以針對「部落格主題」或「單篇文章」分別設定 **網頁標題、描述及關鍵字**，這有助於提高搜尋引擎曝光度。
 
@@ -221,13 +221,13 @@ hide: []
 
 ---
 
-### 轉貼連結圖片 <small>OG Image</small>
+### 轉貼連結圖片 <small>OG Image</small> { #operate-blog-mgmt-og }
 
 在部落格主題或文章中設定的圖片，會同時影響前台主題封面以及分享連結至 Facebook、LINE 時出現的縮圖，讓分享內容更顯專業。
 
 相關設定說明，請參考 [如何設定部落格文章轉貼連結縮圖](../site-settings/setup-og-image.md#部落格文章){ title="設定轉貼連結縮圖 OG Image" }。
 
-## 常見問題
+## 常見問題 { #faq-blog-mgmt }
 
 ??? quote "每篇文章有字數限制嗎？"
 

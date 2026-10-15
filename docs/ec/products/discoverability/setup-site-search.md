@@ -105,7 +105,7 @@ CYBERBIZ 平台的前台介面中，**搜尋（放大鏡）功能** 是協助消
 
 <div class="grid cards" markdown>
 
-- :lucide-toggle-left:{ .lg .middle } [__全站搜尋欄位開關__](../../website-appearance/navigation/setup-menus-navigation.md#搜尋欄位設定){ title="設定選單與導覽列" }       
+- :lucide-toggle-left:{ .lg .middle } [__全站搜尋欄位開關__](../../website-appearance/navigation/setup-menus-navigation.md#operate-menus-nav-search){ title="設定選單與導覽列" }       
 
 - :lucide-package-x:{ .lg .middle } [__個別商品排除搜尋__](../create-and-manage/product-management-interface.md#operate-product-ui-visibility){ title="商品管理介面總覽" }       
 

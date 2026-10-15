@@ -72,7 +72,7 @@ hide: []
 
 ![reCAPTCHA設定](../../../assets/images/ec-google-recaptcha.zh-tw.png){ title="reCAPTCHA設定" .hero-page }
 
-## 什麼是 reCAPTCHA
+## 什麼是 reCAPTCHA { #intro-recaptcha }
 
 reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動化程式操作，保護網站表單、留言區與交易流程免受機器人攻擊。
 
@@ -84,24 +84,24 @@ reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動�
 
 更多資訊請參閱 [reCAPTCHA 官方文件 :material-open-in-new:](https://cloud.google.com/security/products/recaptcha?hl=zh_tw)。
 
-## 使用須知
+## 使用須知 { #prerequisites-recaptcha }
 
-### 適用範圍
+### 適用範圍 { #prerequisites-recaptcha-scope }
 
 - [x] 商品頁面評論區。
 - [x] 聯絡我們頁面。
 
 ---
 
-### 費用
+### 費用 { #specs-recaptcha-fees }
 - Google reCAPTCHA 提供免費用量配額，若超出免費用量[^free-quota-notice]，顧客將無法進行留言。
 - 更多資訊，請看[配額與限制 :material-open-in-new:](https://docs.cloud.google.com/recaptcha/quotas?hl=zh-tw)
 
 [^free-quota-notice]: 達到免費用量上限前，Google 會透過電子郵件通知商家。
 
-## 操作步驟
+## 操作步驟 { #operate-recaptcha }
 
-### 申請 reCAPTCHA 金鑰
+### 申請 reCAPTCHA 金鑰 { #operate-recaptcha-apply }
 
 1. 前往 [Google reCAPTCHA 管理控制台 :material-open-in-new:](https://www.google.com/recaptcha/admin/)，並登入您的 Google 帳號。
 2. 依序填寫註冊資訊：
@@ -121,7 +121,7 @@ reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動�
 ![reCAPTCHA金鑰申請](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台網站外觀-管理商品評論-設定Google-reCAPTCHA03.png){ title="reCAPTCHA金鑰申請" .screenshot }
 
 
-### 綁定 reCAPTCHA 金鑰至商品評論區
+### 綁定 reCAPTCHA 金鑰至商品評論區 { #operate-recaptcha-reviews }
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案){ title="圖示慣例" } | PLUS / 企業
 
 !!! info "商品評論為 *企業版* 及 *PLUS版* 用戶限定功能，若有需求請洽客服人員開通，相關設定請參閱 [如何管理商品評論](../../products/engagement/manage-product-reviews.md){ title="管理商品評論" }。"
@@ -135,7 +135,7 @@ reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動�
 
 ![商品評論reCAPTCHA綁定](../../../assets/images/ec-product-review-google-recaptcha.zh-tw.png){ title="商品評論reCAPTCHA綁定" }
 
-### 綁定 reCAPTCHA 金鑰至聯絡我們頁面
+### 綁定 reCAPTCHA 金鑰至聯絡我們頁面 { #operate-recaptcha-contact }
 
 1. 登入 CYBERBIZ 管理後台，前往 **會員 > 顧客回饋 & 建議**。
 2. 點擊 **啟動機器人阻擋** 開關，以開啟功能（ON）。
@@ -146,12 +146,12 @@ reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動�
 
 ![聯絡我們reCAPTCHA綁定](../../../assets/images/ec-member-feedback-google-recaptcha.zh-tw.png){ title="聯絡我們reCAPTCHA綁定" }
 
-## 常見問題
+## 常見問題 { #faq-recaptcha }
 ??? quote "一組 Google reCAPTCHA 帳號可以綁定多個網域嗎？"
     是的，一組 Google reCAPTCHA 帳號可以綁定多個網域。您可以使用同一組密鑰綁定商品評論與聯絡我們頁面。
 
 ??? quote "Google reCAPTCHA 有免費用量配額嗎？"
-    Google reCAPTCHA 提供免費用量配額。當達到免費用量上限前，Google 會透過電子郵件通知商家。若超出免費用量，顧客將無法進行留言，請自行向 Google 升級方案。了解相關[費用](#費用){ data-preview }。
+    Google reCAPTCHA 提供免費用量配額。當達到免費用量上限前，Google 會透過電子郵件通知商家。若超出免費用量，顧客將無法進行留言，請自行向 Google 升級方案。了解相關[費用](#specs-recaptcha-fees){ data-preview }。
 
 ??? quote "如果金鑰填寫錯誤會怎麼樣？"
     請確保金鑰填寫正確，否則留言功能將無法正常使用。如有錯誤訊息 (如下圖)，請檢查金鑰是否填寫無誤。
@@ -161,7 +161,7 @@ reCAPTCHA 是 Google 提供的安全驗證服務，用於區分真人與自動�
 ??? quote "此 reCAPTCHA 功能是否適用於所有版型網站？"
     此功能僅限拖拉版型網站使用。
 
-## 後續操作
+## 後續操作 { #next-steps-recaptcha }
 
 <div class="grid cards" markdown>
 

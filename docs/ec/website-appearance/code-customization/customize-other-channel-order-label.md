@@ -77,13 +77,13 @@ hide: []
     - **降低會員疑問**：前台文案與客服話術一致，減少會員對訂單來源的誤解。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-channel-label }
 
 - **修改範圍**：僅變更會員於前台看到的名稱；後台會員頁的操作方式與金額累計規則維持不變。若需補登或管理其他通路訂單，請見[管理會員檔案：其他通路訂單](../../members/manage-member-profiles.md#operate-member-profiles-other-orders)。
 - **編輯風險**：修改 `.yml` 屬進階操作，建議先備份或確認可[恢復樣板版本](restore-code-theme-editor.md)後再儲存。
 
 
-## 操作流程
+## 操作流程 { #operate-channel-label }
 
 1. 登入 CYBERBIZ 管理後台，前往 **網站外觀 > 套版主題管理**。
 2. 於目前版型點選 **選擇操作 > CSS/HTML 編輯器**。
@@ -120,7 +120,7 @@ hide: []
     若商店另有其他語系字典檔（如 `en.yml`），請在對應語系檔的 `general` 區塊同樣新增 `customize_other_valid_order`，並填入該語系的顯示文字。
 
 
-## 常見問題
+## 常見問題 { #faq-channel-label }
 
 ??? quote "新增鍵值並儲存後，前台名稱沒有改變？"
     請確認：
@@ -134,7 +134,7 @@ hide: []
     可以。自字典檔移除 `customize_other_valid_order` 該行並儲存後，前台會恢復系統預設名稱「其他通路有效訂單」。若儲存後版型異常，請使用[恢復樣板版本](restore-code-theme-editor.md)。
 
 
-## 延伸閱讀
+## 延伸閱讀 { #reference-channel-label }
 
 <div class="grid cards" markdown>
 

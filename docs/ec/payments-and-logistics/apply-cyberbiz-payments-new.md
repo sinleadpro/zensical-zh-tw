@@ -271,7 +271,7 @@ flowchart LR
 <div class="grid cards" markdown>
 
 - :lucide-phone:{ .lg }
-  [__設定選單與導覽列__](../website-appearance/navigation/setup-menus-navigation.md#聯絡資訊與自訂文字){ title="聯絡資訊與自訂文字" }
+  [__設定選單與導覽列__](../website-appearance/navigation/setup-menus-navigation.md#operate-menus-nav-footer-contact){ title="聯絡資訊與自訂文字" }
 
 </div>
 

@@ -111,7 +111,7 @@ comments: false
 ## 注意事項 { #prerequisites-exclude-kw-notes }
 
 - **精準設定**：請確保程式碼中的關鍵字與商品品名中的關鍵字完全一致。
-- **恢復機制**：若修改後導致頁面異常，可點擊編輯器中的 **查看之前版本**，可[回溯至先前版本](../../website-appearance/code-customization/restore-code-theme-editor.md#操作步驟){ title="使用樣板編輯器恢復網頁代碼" }。
+- **恢復機制**：若修改後導致頁面異常，可點擊編輯器中的 **查看之前版本**，可[回溯至先前版本](../../website-appearance/code-customization/restore-code-theme-editor.md#operate-restore-theme){ title="使用樣板編輯器恢復網頁代碼" }。
 
 
 ## 後續操作 { #next-steps-exclude-kw }

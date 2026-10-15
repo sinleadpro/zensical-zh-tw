@@ -116,9 +116,9 @@ comments: false
 !!! plan "方案顯示差異"
      實際可編輯的頁面與區塊依您的方案與已開通功能而定。
 
-## 操作步驟
+## 操作步驟 { #operate-page-settings }
 
-依所需頁面類型快速跳轉：[首頁](#operate-page-settings-homepage)、[商品頁面](#operate-page-settings-product)、[商品群組頁面](#operate-page-settings-collection)、[商品多層級分類](#operate-page-settings-category)、[部落格頁](#operate-page-settings-blog)、[部落格文章頁](#operate-page-settings-article)、[客服頁](#operate-page-settings-contact)、[404 頁](#operate-page-settings-not-found)、[快速到貨頁](#operate-page-settings-express)、[搜尋頁](#operate-page-settings-search)。
+依所需頁面類型快速跳轉：[首頁](#operate-page-settings-homepage)、[商品頁面](#operate-page-settings-product)、[商品群組頁面](#operate-page-settings-group)、[商品多層級分類](#operate-page-settings-category)、[部落格頁](#operate-page-settings-blog)、[部落格文章頁](#operate-page-settings-article)、[客服頁](#operate-page-settings-contact)、[404 頁](#operate-page-settings-not-found)、[快速到貨頁](#operate-page-settings-express)、[搜尋頁](#operate-page-settings-search)。
 
 ### 首頁 { #operate-page-settings-homepage }
 
@@ -808,7 +808,7 @@ comments: false
 
 ---
 
-### 商品群組頁面 { #operate-page-settings-collection }
+### 商品群組頁面 { #operate-page-settings-group }
 
 針對群組頁面，可指定要套用哪一組導覽選單（需先在 [選單／導覽列設定](../navigation/setup-menus-navigation.md){ title="設定選單與導覽列" } 完成設置）。
 

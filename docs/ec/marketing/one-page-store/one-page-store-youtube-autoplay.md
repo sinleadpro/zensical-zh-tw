@@ -161,7 +161,7 @@ hide: []
 *   **影片 ID 注意事項：** 每一部影片的 ID 皆不同，在貼上自動播放程式碼時，請務必確保 `playlist=` 後方的 ID 與您嵌入的影片 ID 一致,。
 *   **YouTube 限制：** 目前系統僅支援 YouTube 網址格式，若您有自備影片檔案，須先上傳至 YouTube 後再行設定,。
 *   **原始碼錯誤處理：** 若在編輯過程中發現影片後的圖片或文字消失，通常是因為影片語法標籤未正確閉合或被其他標籤包住，此時需點擊編輯器左上角的「原始碼」檢查並修正 `<div>` 或 `<p>` 標籤。
-*   **恢復機制：** 若修改程式碼後導致頁面異常，可利用樣版編輯器內的 **查看之前版本** 按鈕 [回溯至先前版本](../../website-appearance/code-customization/restore-code-theme-editor.md#操作步驟){ title="使用樣板編輯器恢復網頁代碼" }。
+*   **恢復機制：** 若修改程式碼後導致頁面異常，可利用樣版編輯器內的 **查看之前版本** 按鈕 [回溯至先前版本](../../website-appearance/code-customization/restore-code-theme-editor.md#operate-restore-theme){ title="使用樣板編輯器恢復網頁代碼" }。
 
 ---
 
