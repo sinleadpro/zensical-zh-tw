@@ -79,7 +79,7 @@ hide: []
 
 ## 使用須知
 
-- **修改範圍**：僅變更會員於前台看到的名稱；後台會員頁的操作方式與金額累計規則維持不變。若需補登或管理其他通路訂單，請見[管理會員檔案：其他通路訂單](../../members/manage-member-profiles.md#2-其他通路訂單)。
+- **修改範圍**：僅變更會員於前台看到的名稱；後台會員頁的操作方式與金額累計規則維持不變。若需補登或管理其他通路訂單，請見[管理會員檔案：其他通路訂單](../../members/manage-member-profiles.md#operate-member-profiles-other-orders)。
 - **編輯風險**：修改 `.yml` 屬進階操作，建議先備份或確認可[恢復樣板版本](restore-code-theme-editor.md)後再儲存。
 
 

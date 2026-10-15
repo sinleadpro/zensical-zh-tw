@@ -85,7 +85,7 @@ hide: []
 
 ## 使用須知 { #prerequisites-coupon }
 
-- **刪除限制**：優惠券一旦匯入會員帳戶，如需刪除，必須前往 [會員個人頁面逐筆操作](../../members/manage-member-profiles.md#2-優惠券派發與管理)，系統無法批次撤回。
+- **刪除限制**：優惠券一旦匯入會員帳戶，如需刪除，必須前往 [會員個人頁面逐筆操作](../../members/manage-member-profiles.md#operate-member-profiles-coupons)，系統無法批次撤回。
 
 ### 取消與退貨處理 { #prerequisites-coupon-intro-details }
 
@@ -131,7 +131,7 @@ hide: []
 
 ## 手動篩選批次發送優惠券 { #operate-coupon-send-coupon }
 
-前往 **會員 > 所有會員**，使用會員篩選器或針對特定個人 [手動發送或刪除優惠券](../../members/manage-member-profiles.md#2-優惠券派發與管理)。
+前往 **會員 > 所有會員**，使用會員篩選器或針對特定個人 [手動發送或刪除優惠券](../../members/manage-member-profiles.md#operate-member-profiles-coupons)。
 
 
 ## 更多操作 { #operate-coupon-operate }

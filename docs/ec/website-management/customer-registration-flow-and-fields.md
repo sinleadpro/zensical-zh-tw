@@ -180,7 +180,7 @@ hide: []
 !!! tip "批次修改既有會員的自訂欄位"
     - **適用方案**：僅 **企業版** 可對既有會員批次覆蓋或修改自訂欄位。
     - **其餘方案**：僅能在「大量匯入新會員」時帶入自訂欄位；無法透過批次修改更新既有會員的自訂欄位。
-    - **相關操作**：企業版請至 [批次修改既有會員資料](../members/batch-import-and-edit-members.md#任務二批次修改既有會員資料) 執行。
+    - **相關操作**：企業版請至 [批次修改既有會員資料](../members/batch-import-and-edit-members.md#operate-batch-members-edit) 執行。
 
 
 ![](../../assets/images/EC-後台-會員-所有會員-新會員匯入範本新增自訂欄位01.png)
@@ -191,7 +191,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-user-plus:{ .lg }   
-  [__大量匯入新會員__](../members/batch-import-and-edit-members.md#任務一大量匯入新會員)       
+  [__大量匯入新會員__](../members/batch-import-and-edit-members.md#operate-batch-members-import)
   了解如何下載 Excel 範本並批次上傳會員名單。
 
 - :lucide-mail:{ .lg }     

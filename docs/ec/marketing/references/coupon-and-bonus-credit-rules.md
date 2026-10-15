@@ -106,11 +106,11 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-coins:{ .lg }
-  [__手動新增／刪除紅利__](../../members/manage-member-profiles.md#1-紅利點數派發與管理)
+  [__手動新增／刪除紅利__](../../members/manage-member-profiles.md#operate-member-profiles-bonus)
   補送或移除消費回饋紅利點數。
 
 - :lucide-ticket-percent:{ .lg }
-  [__手動新增／刪除優惠券__](../../members/manage-member-profiles.md#2-優惠券派發與管理)
+  [__手動新增／刪除優惠券__](../../members/manage-member-profiles.md#operate-member-profiles-coupons)
   補送或移除會員專屬優惠券。
 
 </div>

@@ -191,7 +191,7 @@ hide: []
 
 	- **訂單紀錄**：手動輸入的消費將同步至 EC 後台的 **會員 > 所有會員 > 個別會員頁 > 其他通路訂單**。
 	- **欄位對照**：後台將顯示成立時間、金額、資料來源、通路名稱與操作人員。
-	- **會員權益**：此金額將計入會員的累積消費，進而觸發 [VIP 升等](../../members/vip/vip-upgrade-downgrade-renewal-rules.md#升等機制) 或 [續會](../../members/vip/vip-upgrade-downgrade-renewal-rules.md#續會機制) 邏輯。
+	- **會員權益**：此金額將計入會員的累積消費，進而觸發 [VIP 升等](../../members/vip/vip-upgrade-downgrade-renewal-rules.md#specs-vip-rules-upgrade) 或 [續會](../../members/vip/vip-upgrade-downgrade-renewal-rules.md#specs-vip-rules-renewal) 邏輯。
 
 	!!! tip "消費者權益維護"
 		消費者可登入官網，在 **會員中心 > 訂單查詢 > 其他通路有效訂單** 中查看線下消費紀錄，確保權益已成功累積。

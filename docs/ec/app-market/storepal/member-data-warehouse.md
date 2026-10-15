@@ -183,7 +183,7 @@ hide: []
 
 	##### 資產異動紀錄 { #operate-member-data-asset-history }
 	
-	前台核銷的紅利與優惠券，將同步更新於 EC 後台的 [會員資料](../../members/manage-member-profiles.md#任務四資產配置) 中。
+	前台核銷的紅利與優惠券，將同步更新於 EC 後台的 [會員資料](../../members/manage-member-profiles.md#operate-member-profiles-assets) 中。
 		
 
 ### 消費概況 { #operate-member-data-consumption }

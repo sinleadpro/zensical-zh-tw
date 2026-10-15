@@ -86,7 +86,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-hash:{ .lg }
-    [__會員列表發送優惠券__](../../members/manage-member-profiles.md#2-優惠券派發與管理)
+    [__會員列表發送優惠券__](../../members/manage-member-profiles.md#operate-member-profiles-coupons)
     使用會員篩選器批次發送優惠券。
 
 - :lucide-hash:{ .lg }

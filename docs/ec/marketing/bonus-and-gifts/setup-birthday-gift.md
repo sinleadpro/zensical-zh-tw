@@ -106,8 +106,8 @@ hide: []
 
 ### 相關操作 { #specs-birthday-gift-operate }
 
-- **疊加贈送**：若您在 **會員 > VIP 設定** 中另外設定了 [VIP 生日禮](../../members/vip/setup-exclusive-vip-discounts.md#4-生日禮設定)，系統將會同時發送一般生日禮與 VIP 生日禮。
-- **刪除生日禮**：請至 **會員 > 所有會員**，點選個人頁面，[手動收回](../../members/manage-member-profiles.md#任務四資產配置) 優惠券或紅利點數。
+- **疊加贈送**：若您在 **會員 > VIP 設定** 中另外設定了 [VIP 生日禮](../../members/vip/setup-exclusive-vip-discounts.md#operate-vip-discounts-birthday)，系統將會同時發送一般生日禮與 VIP 生日禮。
+- **刪除生日禮**：請至 **會員 > 所有會員**，點選個人頁面，[手動收回](../../members/manage-member-profiles.md#operate-member-profiles-assets) 優惠券或紅利點數。
 - **批次匯入會員**：匯入時可透過 **贈送生日禮** 欄位決定是否發送當月生日禮給該批新會員。
 
     | 欄位值 | 系統行為 |

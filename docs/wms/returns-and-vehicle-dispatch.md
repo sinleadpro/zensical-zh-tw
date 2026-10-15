@@ -105,7 +105,7 @@ hide: []
 
 === "關閉前台退貨"
 
-    - **流程**：消費者透過 [訂單客服對話](../ec/members/member-customer-service-system/#2-專屬訂單詢問) 功能向商家提出需求。
+    - **流程**：消費者透過 [訂單客服對話](../ec/members/member-customer-service-system/#intro-member-cs-order) 功能向商家提出需求。
     - **狀態變化**：由商家確認原因後，手動在 EC 後台操作。
     - **優點**：商家可先行過濾退貨原因，減少不必要的退貨成本。
 
