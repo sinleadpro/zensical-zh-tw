@@ -214,7 +214,7 @@ permalink: "https://help.cyberbiz.io/ec/e-ticket/setup-e-ticket-promotions/"
 	- **票券折扣名稱**（不可與一般商品折扣群組重複）
 	- **折扣活動網址**
 	- **活動時間**
-4. [設定計價與折扣規則](#設定計價與折扣規則)
+4. [設定計價與折扣規則](#operate-ticket-promos-pricing)
 5. 填寫折扣描述，點擊 **儲存**
 
 ![](../../assets/images/ec-電子票券-基本設定.png)
