@@ -70,13 +70,13 @@ hide: []
 
 ![LINE OA 好友邀請設定頁面](../../assets/images/ec-訊息推播-line oa 加入好友邀請.png){ .hero-page }
 
-## LINE 加入好友邀請說明
+## LINE 加入好友邀請說明 { #intro-line-add-friend }
 
 **LINE 加入好友邀請** 功能讓商家可以主動出擊，透過 **簡訊** 或 **Email** 向未綁定 LINE 官方帳號的會員發送好友邀請，引導會員加入好友並完成帳號綁定，以提升好友數與會員互動率。
 
 以下為詳細的操作說明與教學：
 
-## 功能前提與適用範圍
+## 功能前提與適用範圍 { #prerequisites-line-add-friend }
 
 - **適用版本：** 此功能主要提供給 **企業版** 客戶使用。
 
@@ -98,7 +98,7 @@ hide: []
 
 ![](../../../assets/images/ec-訊息推播-line 加入好友網址.png)
 
-## 步驟二：於 CYBERBIZ 後台新增推播訊息
+## 步驟二：於 CYBERBIZ 後台新增推播訊息 { #operate-line-add-friend-message }
 
 1. 進入 CYBERBIZ 管理後台，前往 **訊息推播 > LINE OA 加入好友邀請**。
 
@@ -114,7 +114,7 @@ hide: []
 
 ![](../../../assets/images/ec-訊息推播-line oa 加入好友邀請-建立好友邀請訊息.png)
 
-## 步驟三：確認與傳送
+## 步驟三：確認與傳送 { #operate-line-add-friend-send }
 
 1. **檢查字數（簡訊）：** 簡訊範本右下角會顯示字數統計。國內簡訊每封上限為 **70 個字**（含空白、換行、標點與連結），若超過字數將會拆分為多封寄送。
 
@@ -130,7 +130,7 @@ hide: []
 
 ![](../../../assets/images/ec-訊息推播-line oa 加入好友邀請-立即傳送.png)
 
-## 會員端畫面呈現
+## 會員端畫面呈現 { #intro-line-add-friend-member-view }
 
 === "簡訊"
 
@@ -140,7 +140,7 @@ hide: []
 
 	![](../../../assets/images/ec-訊息推播-line oa 加入好友邀請-email.png)
 	
-## 後續步驟
+## 後續步驟 { #next-steps-line-add-friend }
 
 建議搭配 **LINE 綁定會員送優惠券** 功能，在邀請訊息中提及「加入好友並綁定即可領取優惠」，能有效提高轉化率。
 
@@ -153,7 +153,7 @@ hide: []
 </div>
 
 
-## 常見問題
+## 常見問題 { #faq-line-add-friend }
 
 ??? quote "發送好友邀請後，系統如何判定會員「已成功綁定」" 
 	系統會即時比對官網會員資料庫與 LINE UID 的連動狀態。若會員點擊連結並完成 LINE 授權、成功與官網帳號連動後，該會員將從「待邀請名單」中移除，避免重複收到邀請訊息。
