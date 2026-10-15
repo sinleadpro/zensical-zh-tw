@@ -128,7 +128,7 @@ GetButton 是一款能同時整合 Messenger、LINE 等多種通訊軟體的第�
 ## 重要注意事項 { #prerequisites-cs-widget }
 
 - **二擇一建議：** CYBERBIZ 建議 **Facebook 即時客服或 GetButton 插件擇一使用**，以避免版面混亂或語法衝突。
-- **程式碼風險：** 商家自行修改程式碼若導致版面跑版，需自行承擔風險，建議操作前先記錄時間點，發生異常時利用編輯器中的 **「查看之前版本」** 功能[回溯至先前版本](../code-customization/restore-code-theme-editor.md#操作步驟){ title="使用樣板編輯器恢復網頁代碼" }。
+- **程式碼風險：** 商家自行修改程式碼若導致版面跑版，需自行承擔風險，建議操作前先記錄時間點，發生異常時利用編輯器中的 **「查看之前版本」** 功能[回溯至先前版本](../code-customization/restore-code-theme-editor.md#operate-restore-theme){ title="使用樣板編輯器恢復網頁代碼" }。
 - **版型限制：** 拖拉版型僅支援部分程式碼編輯，實際操作需視後台開放的功能而定。
 
 

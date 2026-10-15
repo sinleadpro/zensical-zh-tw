@@ -85,7 +85,7 @@ hide: []
 
 開始設定前，請先確認下列條件：
 
-- [x] **「設置」權限**：本分頁區塊需要您的帳號在 **網站權限** 中具備 **設置** 權限，才能檢視與編輯。您可[修改管理員權限](add-admin-set-permissions/#管理者權限設定與修改)。
+- [x] **「設置」權限**：本分頁區塊需要您的帳號在 **網站權限** 中具備 **設置** 權限，才能檢視與編輯。您可[修改管理員權限](add-admin-set-permissions/#operate-admin-perms-edit)。
 
 
 ## 會員註冊簡訊驗證 { #operate-security-sms-bot-protection }

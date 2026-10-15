@@ -91,7 +91,7 @@ hide:
 ## 注意事項與恢復機制 { #prerequisites-nav-hover }
 
 - **責任歸屬：** CYBERBIZ 提供開放的程式碼編輯權限供商家自行客製化，但官方 **不提供現有文件外的語法教學、修改指導或代碼撰寫服務**，建議由專業工程師進行操作。
-- **恢復機制：** 若修改後導致版面異常或跑版，可利用樣版編輯器內的 **查看之前版本** 按鈕 [回溯至先前版本](../code-customization/restore-code-theme-editor.md#操作步驟){ title="恢復樣板編輯器版本" }。
+- **恢復機制：** 若修改後導致版面異常或跑版，可利用樣版編輯器內的 **查看之前版本** 按鈕 [回溯至先前版本](../code-customization/restore-code-theme-editor.md#operate-restore-theme){ title="恢復樣板編輯器版本" }。
 
 ## 常見問題 { #faq-nav-hover }
 

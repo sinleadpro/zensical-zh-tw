@@ -225,7 +225,7 @@ hide: []
 
 在部落格主題或文章中設定的圖片，會同時影響前台主題封面以及分享連結至 Facebook、LINE 時出現的縮圖，讓分享內容更顯專業。
 
-相關設定說明，請參考 [如何設定部落格文章轉貼連結縮圖](../site-settings/setup-og-image.md#部落格文章){ title="設定轉貼連結縮圖 OG Image" }。
+相關設定說明，請參考 [如何設定部落格文章轉貼連結縮圖](../site-settings/setup-og-image.md#operate-og-image-blog){ title="設定轉貼連結縮圖 OG Image" }。
 
 ## 常見問題 { #faq-blog-mgmt }
 

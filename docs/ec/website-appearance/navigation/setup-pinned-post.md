@@ -74,7 +74,7 @@ related:
     **置頂公告** 已改為獨立設定頁，不再內嵌於導覽列。**此功能正陸續開放中**。請依後台畫面選擇對應教學：
 
     - 若側邊欄已有 **置頂公告**：依本頁教學操作（新版）。
-    - 若尚無此選單：請先至導覽列 [設定原版置頂公告](setup-menus-navigation.md#置頂公告)，待站台開放新版後再改用本頁。
+    - 若尚無此選單：請先至導覽列 [設定原版置頂公告](setup-menus-navigation.md#operate-menus-nav-announce)，待站台開放新版後再改用本頁。
 
 ## 使用須知 { #prerequisites-pinned-post }
 

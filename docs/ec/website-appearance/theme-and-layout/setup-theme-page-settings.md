@@ -902,7 +902,7 @@ comments: false
 客服頁面在前台主要以「聯絡我們」表單形式呈現，供訪客留言諮詢。
 
 1. 在頁面下拉選單選擇「客服頁」。
-2. 建議在 [**頁腳(Footer)**](../navigation/setup-menus-navigation.md#頁腳內容){ title="設定頁腳內容" } 區塊同步設定完整的公司電話、地址與 Email，增加品牌信任感。
+2. 建議在 [**頁腳(Footer)**](../navigation/setup-menus-navigation.md#operate-menus-nav-footer-content){ title="設定頁腳內容" } 區塊同步設定完整的公司電話、地址與 Email，增加品牌信任感。
 3. 如需防止機器人攻擊，可 [啟用留言區 reCAPTCHA](../customer-interaction/enable-comment-recaptcha.md){ title="啟用留言區 reCAPTCHA" }。
 
 ![客服頁](../../../assets/images/ec-網站外觀-拖拉版型-客服頁面.png)

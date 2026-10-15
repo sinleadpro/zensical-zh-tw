@@ -167,7 +167,7 @@ hide: []
 
     建議將「顧客匯出」與「訂單匯出」權限縮到最小，僅開放給必要人員。
 
-    [:lucide-arrow-right: 設定步驟](add-admin-set-permissions.md#管理者權限設定與修改)
+    [:lucide-arrow-right: 設定步驟](add-admin-set-permissions.md#operate-admin-perms-edit)
 
 -   :lucide-eye-off:{ .lg .middle } __會員個資部分隱碼__
 

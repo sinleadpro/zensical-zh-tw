@@ -126,7 +126,7 @@ hide:
 |**冒號處理**|修改文字中包含 **冒號 `:`**，請務必使用 **半形雙引號 `""`** 包裹文字。範例： `label: "姓名:內容"`。|
 |**參數保護**|請勿變更 `{{...}}` 或 `%{...}` 內的英文字母。|
 |**空格縮排**|請保留冒號後的 **一個空格**（如 `key: value`），切勿刪除。|
-|**版本回溯**|若儲存後版型異常，請利用編輯器內 **查看之前版本** 功能[回溯至先前版本](../code-customization/restore-code-theme-editor.md#操作步驟){ title="使用樣板編輯器恢復網頁代碼" }
+|**版本回溯**|若儲存後版型異常，請利用編輯器內 **查看之前版本** 功能[回溯至先前版本](../code-customization/restore-code-theme-editor.md#operate-restore-theme){ title="使用樣板編輯器恢復網頁代碼" }
 
 
 ## 常見問題 { #faq-storefront-lang }

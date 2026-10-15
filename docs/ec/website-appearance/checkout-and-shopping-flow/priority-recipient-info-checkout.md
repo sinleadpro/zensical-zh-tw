@@ -106,7 +106,7 @@ hide:
 ## 重要注意事項 { #prerequisites-priority-recipient }
 
 - **責任歸屬**：CYBERBIZ 提供公開的程式碼供商家自行修改，但官方 **不提供現有文件外的修改指導、語法教學或代碼撰寫服務**，建議由專業工程師進行操作。
-- **恢復機制**：修改前請注意，樣版編輯器具備「**查看之前版本**」功能， [回溯至先前版本](../code-customization/restore-code-theme-editor.md#操作步驟){ title="使用樣板編輯器恢復網頁代碼" }。
+- **恢復機制**：修改前請注意，樣版編輯器具備「**查看之前版本**」功能， [回溯至先前版本](../code-customization/restore-code-theme-editor.md#operate-restore-theme){ title="使用樣板編輯器恢復網頁代碼" }。
 
 ## 常見問題 { #faq-priority-recipient }
 

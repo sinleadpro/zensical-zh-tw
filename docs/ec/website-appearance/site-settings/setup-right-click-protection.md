@@ -222,7 +222,7 @@ hide:
 ## 重要注意事項 { #prerequisites-right-click }
 
 - **責任說明**：CYBERBIZ 提供開放的程式碼編輯權限，但 **官方不提供現有文件外的語法教學或代碼撰寫服務**，建議委託自家工程師處理。
-- **恢復機制**：修改程式碼前請先注意，若發生版面異常，可利用編輯器中的 **查看之前版本** 功能，可[回溯至先前版本](../code-customization/restore-code-theme-editor.md#操作步驟){ title="使用樣板編輯器恢復網頁代碼" data-preview }。
+- **恢復機制**：修改程式碼前請先注意，若發生版面異常，可利用編輯器中的 **查看之前版本** 功能，可[回溯至先前版本](../code-customization/restore-code-theme-editor.md#operate-restore-theme){ title="使用樣板編輯器恢復網頁代碼" data-preview }。
 - **版型限制**：部分功能僅支援特定版型。例如「購物說明與須知」功能即不適用於拖拉版型。
 
 ## 常見問題 { #faq-right-click }

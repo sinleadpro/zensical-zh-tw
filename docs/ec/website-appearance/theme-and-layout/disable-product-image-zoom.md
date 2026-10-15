@@ -96,7 +96,7 @@ hide:
 ```
 
 !!! tip "恢復機制"
-	若修改後發現頁面異常或跑版，可利用編輯器中的 **查看之前版本** 功能 [回溯至先前版本](../code-customization/restore-code-theme-editor.md#操作步驟){ title="恢復樣板編輯器版本" }。
+	若修改後發現頁面異常或跑版，可利用編輯器中的 **查看之前版本** 功能 [回溯至先前版本](../code-customization/restore-code-theme-editor.md#operate-restore-theme){ title="恢復樣板編輯器版本" }。
 
 ## 重要注意事項 { #prerequisites-product-zoom }
 

@@ -165,7 +165,7 @@ hide:
 ## 重要注意事項 { #prerequisites-cs-info }
 
 - **責任歸屬**：CYBERBIZ 提供程式碼修改權限，但 **官方不提供語法教學或代碼撰寫服務**，建議委託自家工程師或專業設計單位處理。
-- **恢復機制**：修改程式碼前請留意，若發生異常，可利用編輯器中的「**查看之前版本**」功能，[回溯至先前版本](../code-customization/restore-code-theme-editor.md#操作步驟){ title="使用樣板編輯器恢復網頁代碼" }。
+- **恢復機制**：修改程式碼前請留意，若發生異常，可利用編輯器中的「**查看之前版本**」功能，[回溯至先前版本](../code-customization/restore-code-theme-editor.md#operate-restore-theme){ title="使用樣板編輯器恢復網頁代碼" }。
 
 
 ## 常見問題 { #faq-cs-info }

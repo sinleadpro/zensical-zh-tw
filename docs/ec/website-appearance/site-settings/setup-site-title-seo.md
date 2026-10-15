@@ -145,7 +145,7 @@ hide:
 
 !!! tip "更新時間與復原機制" 
 	- **Google 搜尋結果不會立即更新**：新設定的標題需等待 Google 完成下一次排程抓取與更新後才會顯示。 
-	- **程式碼復原機制**：若修改後導致版面異常，請善用編輯器內的 **查看之前版本** 功能，[回溯至先前版本](../code-customization/restore-code-theme-editor.md#操作步驟){ title="使用樣板編輯器恢復網頁代碼" }。
+	- **程式碼復原機制**：若修改後導致版面異常，請善用編輯器內的 **查看之前版本** 功能，[回溯至先前版本](../code-customization/restore-code-theme-editor.md#operate-restore-theme){ title="使用樣板編輯器恢復網頁代碼" }。
 
 ---
 

@@ -94,7 +94,7 @@ hide: []
 
 === "有 CYBERBIZ PAYMENTS"
 
-    依 [新竹物流貨到付款開通申請](home-delivery-cash-on-delivery/#2-新竹物流) 流程設定。
+    依 [新竹物流貨到付款開通申請](home-delivery-cash-on-delivery/#operate-home-cod-hct) 流程設定。
 
 === "無 CYBERBIZ PAYMENTS"
 

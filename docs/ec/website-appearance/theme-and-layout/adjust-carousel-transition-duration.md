@@ -106,7 +106,7 @@ pagination: {
 ## 重要注意事項 { #prerequisites-carousel-duration }
 
 - **責任歸屬：** CYBERBIZ 提供程式碼修改權限，但 **不提供語法教學或代碼撰寫服務**，建議由貴公司技術人員執行。
-- **恢復機制**：若修改後導致頁面異常，可點擊編輯器中的 **查看之前版本**，可[回溯至先前版本](../code-customization/restore-code-theme-editor.md#操作步驟){ title="使用樣板編輯器恢復網頁代碼" }。
+- **恢復機制**：若修改後導致頁面異常，可點擊編輯器中的 **查看之前版本**，可[回溯至先前版本](../code-customization/restore-code-theme-editor.md#operate-restore-theme){ title="使用樣板編輯器恢復網頁代碼" }。
 
 ## 常見問題 { #faq-carousel-duration }
 
