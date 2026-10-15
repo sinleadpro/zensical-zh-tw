@@ -98,7 +98,7 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-copy:{ .lg }
-  [__一鍵複製推薦碼__](query-profit-sharing-partners-and-codes.md#任務三一鍵複製推薦碼)<br>
+  [__一鍵複製推薦碼__](query-profit-sharing-partners-and-codes.md#operate-ps-query-copy)<br>
   前往 **分潤 > 推薦人分潤 > 第三方總表**，點擊複製圖示取得推薦人的推薦碼。
 
 </div>
@@ -129,15 +129,15 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-search:{ .lg }
-  [__查詢合作夥伴的分潤資訊__](query-profit-sharing-partners-and-codes.md#任務一查詢合作夥伴的分潤資訊)<br>
+  [__查詢合作夥伴的分潤資訊__](query-profit-sharing-partners-and-codes.md#operate-ps-query-partners)<br>
   適合查詢特定合作夥伴參與的分潤方案、分潤比例與推薦碼。
 
 - :lucide-user-round-search:{ .lg }
-  [__員工自我查詢分潤資訊__](query-profit-sharing-partners-and-codes.md#任務二員工自我查詢分潤資訊)<br>
+  [__員工自我查詢分潤資訊__](query-profit-sharing-partners-and-codes.md#operate-ps-query-staff)<br>
   適合內部員工查詢所屬的分潤方案，取得個人推廣連結。
 
 - :lucide-copy:{ .lg }
-  [__一鍵複製推薦碼__](query-profit-sharing-partners-and-codes.md#任務三一鍵複製推薦碼)<br>
+  [__一鍵複製推薦碼__](query-profit-sharing-partners-and-codes.md#operate-ps-query-copy)<br>
   適合從第三方推薦人名單快速取得合作夥伴的推薦碼。
 
 </div>
