@@ -63,18 +63,18 @@ hide: []
 
 ![3D 驗證門檻](../../assets/images/ec-payments-3d-secure.zh-tw.png){ title="3D 驗證門檻" .hero-page }
 
-## 3D 驗證門檻說明
+## 3D 驗證門檻說明 { #intro-card-3d }
 
 設定交易金額門檻，用來控制 **哪些信用卡交易需要進行 3D 驗證（SMS / OTP）**，以平衡 **交易安全性** 與 **結帳轉換率**。
 
-### 系統判斷規則
+### 系統判斷規則 { #specs-card-3d-rules }
 
 - 當訂單金額 **大於或等於** 設定門檻時，系統會要求顧客完成 **3D 驗證**。
 - 當訂單金額 **低於** 設定門檻時，系統將直接進行 **幕後授權**，不顯示驗證畫面。
 
 ---
 
-### 什麼是 3D 驗證
+### 什麼是 3D 驗證 { #intro-card-3d-what }
 
 **3-D Secure（3DS）** 是一種線上信用卡交易的額外身分驗證機制，可有效降低盜刷與未授權交易風險。
 
@@ -86,7 +86,7 @@ hide: []
 
 ---
 
-### 什麼是「幕後授權」
+### 什麼是「幕後授權」 { #intro-card-3d-silent-auth }
 
 **幕後授權** 是指系統在背景自動完成信用卡授權流程，顧客不需要進行 3D 驗證或輸入簡訊驗證碼。
 
@@ -109,12 +109,12 @@ hide: []
       D --> G
     ```
 
-## 前置條件
+## 前置條件 { #prerequisites-card-3d-req }
 
 - [x] 已成功 [開通 **CYBERBIZ PAYMENTS**](apply-cyberbiz-payments.md){ title="申請 CYBERBIZ PAYMENTS" }  
 - [x] 商店前台可正常瀏覽並完成結帳流程
 
-## 使用須知
+## 使用須知 { #prerequisites-card-3d }
 
 - **定期定額訂單**
     
@@ -126,7 +126,7 @@ hide: []
     - 國內信用卡    
     - 國外信用卡
 
-### 盜刷責任歸屬
+### 盜刷責任歸屬 { #specs-card-3d-liability }
 
 |設定方式|盜刷責任|損失承擔|
 |---|---|---|
@@ -139,7 +139,7 @@ hide: []
 	- 為降低盜刷風險，建議將 3D 驗證門檻設定為 **1 元**，讓所有信用卡交易皆需完成 3D 驗證。
 	- 此為風險控管建議，非系統強制限制。
 
-## 設定 3D 驗證門檻
+## 設定 3D 驗證門檻 { #operate-card-3d-threshold }
 
 1. 登入 CYBERBIZ 後台，前往 **金物流 > 金流設定**。
 2. 在 CYBERBIZ PAYMENTS 欄位，點擊 **:material-file-document-edit-outline: 編輯**，進入設定頁面。
@@ -149,9 +149,9 @@ hide: []
 ![3D 驗證門檻設定](../../assets/images/ec-金物流-3D驗證門檻.png){ title="3D 驗證門檻設定" }
 
 
-## 客戶結帳流程
+## 客戶結帳流程 { #operate-card-3d-checkout }
 
-### 一般付款 <small>幕後授權</small>
+### 一般付款 <small>幕後授權</small> { #operate-card-3d-silent-pay }
 
 當訂單金額低於門檻時：
 
@@ -159,7 +159,7 @@ hide: []
 2. 系統直接完成授權
 3. 付款完成
     
-### 3D 驗證付款
+### 3D 驗證付款 { #operate-card-3d-verified-pay }
 
 當訂單金額達到或超過門檻時：
 
@@ -170,7 +170,7 @@ hide: []
 
 ![3D 驗證付款畫面](../../assets/images/ec-金物流-3D驗證畫面.png){ title="3D 驗證付款畫面" }
 
-## 常見問題
+## 常見問題 { #faq-card-3d }
 
 ??? quote "3D 驗證失敗怎麼辦？"  
 	請向發卡銀行確認以下事項：  

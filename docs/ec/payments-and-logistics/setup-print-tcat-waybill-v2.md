@@ -250,7 +250,7 @@ hide: []
 !!! note "註釋"
     「客戶選定 CYBER 幣額度」與「確認扣除 CYBER 幣額度」差值會發生於溫層誤標、繁盛期等特殊情境。
 
-## 後續操作
+## 後續操作 { #next-steps-ezcat-shipping }
 
 <div class="grid cards" markdown>
 

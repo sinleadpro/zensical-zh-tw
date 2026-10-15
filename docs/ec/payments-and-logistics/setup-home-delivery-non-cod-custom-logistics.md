@@ -79,7 +79,7 @@ hide: []
 { .doc-badge }
 
 
-## 使用須知
+## 使用須知 { #prerequisites-custom-logistics }
 
 **自訂物流** 介面讓商家設定「宅配貨到不付款物流」與「自訂物流」兩種選項。兩者的設定流程相同，主要差異在於訂單成立後的出貨操作方式。
 
@@ -90,7 +90,7 @@ hide: []
 | 宅配貨到不付款物流 | 黑貓<br>宅配通<br>順豐<br>新竹物流 | 此物流選項與系統串接，可自動更新訂單出貨後貨態 | **需使用系統託運單出貨**<br>[使用黑貓宅配出貨](../orders/home-delivery/tcat-home-delivery-v2.md)<br>[使用宅配通出貨](../orders/home-delivery/pelican-shipping-v2.md)<br>[使用順豐出貨](../orders/home-delivery/sf-express-shipping-v2.md)<br>[使用新竹物流出貨](../orders/home-delivery/hct-shipping-v2.md) | 
 | 自訂物流 | - | 此物流不與系統串接，出貨後訂單貨態不予更新 | [使用自訂物流出貨](../orders/home-delivery/custom-logistic-shipping.md) | 
 
-### 新竹物流貨到不付款場勘流程
+### 新竹物流貨到不付款場勘流程 { #prerequisites-custom-logistics-hct }
 
 === "有 CYBERBIZ PAYMENTS"
 
@@ -121,7 +121,7 @@ hide: []
     !!! tip "下一步"
         啟用物流後，請依 [步驟二：新增自訂物流]()，建立一項自訂物流，可取名 **新竹物流貨到不付款**，並設定相關規則。
 
-## 步驟一：配送國家設定（總開關）
+## 步驟一：配送國家設定（總開關） { #operate-custom-logistics-country }
 
 在建立具體物流前，需先開啟目標地區的配送權限。
 
@@ -136,17 +136,17 @@ hide: []
 
 
 
-## 步驟二：新增自訂物流
+## 步驟二：新增自訂物流 { #operate-custom-logistics-add }
 
 點擊 **新增自訂物流** 進入設定頁面。
 
-### 1. 基本設定
+### 1. 基本設定 { #operate-custom-logistics-basic }
 
 - **物流名稱**：自訂名稱（如：黑貓-常溫），名稱不得重複。
 - **運送地區**：支援至「城市」階層。
 - **付款方式**：勾選該物流支援付款選項。
 
-### 2. 運費門檻設定
+### 2. 運費門檻設定 { #operate-custom-logistics-fee }
 
 系統支援「訂單金額」與「訂單重量」兩種計費方式。
 
@@ -160,7 +160,7 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/物流運費設定03.png){ .screenshot }
 
-## 步驟三：溫層配送配置
+## 步驟三：溫層配送配置 { #operate-custom-logistics-temp }
 
 每個自訂物流選項僅能設定 **一個溫層**。若您有多溫層配送需求，需分別建立。
 
@@ -173,7 +173,7 @@ hide: []
 ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/物流運費設定08.png){ .screenshot }
 
 
-## 多溫層購物的處理邏輯
+## 多溫層購物的處理邏輯 { #specs-custom-logistics-temp }
 
 當顧客的購物車中包含不同溫層的商品時，系統會嘗試尋找「共同溫層」以避免拆分購物車。
 
@@ -187,7 +187,7 @@ hide: []
     - **結果**：系統會將購物車拆分為兩個，分別計算運費。
 
 
-## 常見問題
+## 常見問題 { #faq-custom-logistics }
 
 ??? quote "為什麼我設定了運費，結帳時卻顯示免運？"
     請檢查是否開啟了「重量運費」但商品未設定重量（預設為 0），或運費區間設定有誤。

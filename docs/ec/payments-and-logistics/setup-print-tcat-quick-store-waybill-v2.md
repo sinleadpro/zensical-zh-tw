@@ -85,13 +85,13 @@ hide: []
 | [單號使用紀錄](#reference-ezcat-cvs-usage) | 列出本店所有黑貓快速到店託運單與扣抵金額 | 對帳、查詢單號狀態 |
 
 
-## 使用條件與限制
+## 使用條件與限制 { #prerequisites-ezcat-cvs }
 
 ### 託運單貼紙規定 { #specs-ezcat-cvs-sticker }
 
 列印託運單請務必使用 **「黑貓三聯空白託運單貼紙」**。如未持有，請先致電黑貓客服索取。使用其他規格紙張可能造成黑貓系統無法掃描。
 
-## 操作步驟
+## 操作步驟 { #operate-ezcat-cvs }
 
 ### 設定寄件人資訊 { #operate-ezcat-cvs-sender-settings }
 
@@ -182,7 +182,7 @@ hide: []
     * 「客戶選定 CYBER 幣額度」與「確認扣除 CYBER 幣額度」差值會發生於溫層誤標、繁盛期等特殊情境。
     * 黑貓快速到店託運單 **固定為不可轉單** ；每次加印或出貨都會向黑貓索取全新單號。
 
-## 後續操作
+## 後續操作 { #next-steps-ezcat-cvs }
 
 <div class="grid cards" markdown>
 

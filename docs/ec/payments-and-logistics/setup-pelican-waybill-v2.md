@@ -77,7 +77,7 @@ hide: []
 !!! info "提示"
     頁面最上方會顯示計費資訊：一般版商家會看到「目前 CYBER 幣餘額」；PLUS版 / 企業版商家則顯示對帳單說明文字。
 
-## 操作步驟
+## 操作步驟 { #operate-pelican }
 
 ### 設定寄件人資料 { #operate-pelican-sender-settings }
 
@@ -183,7 +183,7 @@ hide: []
 !!! tip "技巧"
     對帳時建議優先比對 **確認扣除 CYBER 幣額度** 欄位，這是實際結算後的金額；「客戶選定 CYBER 幣額度」只是下載當下的預扣金額，可能因退費或調整而與最終扣費不同。
 
-## 後續操作
+## 後續操作 { #next-steps-pelican }
 
 <div class="grid cards" markdown>
 

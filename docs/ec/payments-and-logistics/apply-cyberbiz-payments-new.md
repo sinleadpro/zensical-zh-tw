@@ -72,7 +72,7 @@ hide: []
 
 **CYBERBIZ PAYMENTS** 是 CYBERBIZ 提供的 **金流代收代付服務**，支援信用卡及多種支付工具，為商家與顧客提供 **快速、安全、便利** 的交易環境。
 
-### 核心優勢與資安保障
+### 核心優勢與資安保障 { #intro-cyb-payments-benefits }
 
 - **國際資安認證**：通過 **PCIDSS Level 1 認證**，確保每筆交易符合國際信用卡安全標準。
         
@@ -87,7 +87,7 @@ hide: []
 
 ---
 
-### 支援支付方式
+### 支援支付方式 { #intro-cyb-payments-methods }
 
 開通後，商家可啟用以下多樣化收款工具：
 
@@ -102,7 +102,7 @@ hide: []
 
 ---
 
-### 自動化管理功能
+### 自動化管理功能 { #intro-cyb-payments-automation }
 
 - **自動退款**：當訂單狀態改為「已退貨」時，系統自動觸發信用卡、行動支付、AFTEE 及街口支付的退款流程。
         
@@ -113,7 +113,7 @@ hide: []
         
 - **欠款自動扣繳**：若對帳單出現負值（退款金額大於撥款金額），商家可綁定信用卡，由系統自動扣繳欠款。
 
-## 申請前準備事項
+## 申請前準備事項 { #prerequisites-cyb-payments }
 
 在提交金流申請前，請先完成以下事項：
 
@@ -123,7 +123,7 @@ hide: []
 
 !!! info "風控單位將依據網站內容，判斷是否能清楚識別店家身份與販售項目。"
 
-## 如何申請 CYBERBIZ PAYMENTS
+## 如何申請 CYBERBIZ PAYMENTS { #operate-cyb-payments-how }
 
 商家符合申請資格後，系統將提供申請入口，通知方式：
 
@@ -134,19 +134,19 @@ hide: []
 
 **金物流 > 金流設定 > CYBERBIZ PAYMENTS > 立即申請**
 
-## 申請流程
+## 申請流程 { #operate-cyb-payments }
 
 以下為 **申請流程的共通架構**。實際需完成的步驟，依您使用的方案而有所不同。
 
-### 步驟一：網站基本建置
+### 步驟一：網站基本建置 { #operate-cyb-payments-site-build }
 
 完成網站基本資訊設定，供風控單位審核。
 
-詳情請見 [完成網站建置](#完成網站建置)
+詳情請見 [完成網站建置](#operate-cyb-payments-finish-site)
 
 ---
 
-### 步驟二：店家資料與合約處理
+### 步驟二：店家資料與合約處理 { #operate-cyb-payments-contract }
 
 1. 登入 CYBERBIZ 管理後台，前往 **金物流 > 金流設定 > CYBERBIZ PAYMENTS > 開始申請**。
 
@@ -164,10 +164,10 @@ hide: []
 
     ![](../../assets/images/EC-後台-金物流-金流設定-cybpayments申請流程04.png)
 
-5. 送出申請後，確認合約已簽署完成，方進入[審核流程](#審核流程)。
+5. 送出申請後，確認合約已簽署完成，方進入[審核流程](#operate-cyb-payments-review)。
 
 
-## 審核流程
+## 審核流程 { #operate-cyb-payments-review }
 
 申請送出並符合審核條件後，將進入以下流程。
 
@@ -180,7 +180,7 @@ flowchart LR
 
 ```
 
-### 審核狀態說明
+### 審核狀態說明 { #operate-cyb-payments-review-status }
 
 - **等待簽約**：請完成合約簽署；未簽約前審核將不會進行。如有更新，請聯繫您的業務代表。
 - **審核中**：風控部門審核網站與商店資料，預計審核時間約 **5–15 個工作天**。
@@ -188,9 +188,9 @@ flowchart LR
 - **已開通**：審核通過後，系統將自動開通 **CYBERBIZ PAYMENTS** 服務，開通後會透過後台公告及電子郵件通知您。
 
 
-## 完成網站建置
+## 完成網站建置 { #operate-cyb-payments-finish-site }
 
-### 設定網站 Logo
+### 設定網站 Logo { #operate-cyb-payments-logo }
 
 1. 登入 CYBEBIZ 管理後台，前往  **網站外觀 > 套版主題管理 > 網站設定 > 導覽列**
 2. 上傳並設定網站 Logo，建議使用品牌 Logo，保持辨識度。
@@ -206,7 +206,7 @@ flowchart LR
 
 ---
 
-### 設定網站名稱
+### 設定網站名稱 { #operate-cyb-payments-site-name }
 
 1. 登入 CYBEBIZ 管理後台，前往 **管理中心 > 一般設定 > 網站名**
 2. 輸入網站名稱，建議使用 **品牌名稱或公司名稱**，避免僅使用網址或英文，確保使用者易於辨識。
@@ -223,7 +223,7 @@ flowchart LR
 
 ---
 
-### 上架至少一個商品或服務
+### 上架至少一個商品或服務 { #operate-cyb-payments-list-product }
 
 !!! path "後台路徑：**商品 > 所有商品 > 新增商品**"
 
@@ -244,7 +244,7 @@ flowchart LR
 
 ---
 
-### 設定「關於我們」頁面
+### 設定「關於我們」頁面 { #operate-cyb-payments-about }
 
 1. 登入 CYBERBIZ 管理後台，前往 **網站外觀 > 自訂頁面管理**。
 2. 點擊 **關於我們** 進入編輯頁面，或點擊 **新增頁面** 以新增頁面。
@@ -261,7 +261,7 @@ flowchart LR
 
 ---
 
-### 設定聯絡資訊
+### 設定聯絡資訊 { #operate-cyb-payments-contact }
 
 1. 登入 CYBERBIZ 管理後台，前往 **網站外觀 > 套版主題管理 > 網站設定 > 頁腳**。
 2. 點擊 **聯絡資訊** 進行編輯，或點擊 **新增區塊**，選擇 **聯絡資訊** 進行新增。
@@ -275,7 +275,7 @@ flowchart LR
 
 </div>
 
-## 後續步驟
+## 後續步驟 { #next-steps-cyb-payments }
 
 <div class="grid cards" markdown>
 
@@ -291,7 +291,7 @@ flowchart LR
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-cyb-payments }
 
 ??? quote "什麼條件才能申請 CYBERBIZ PAYMENTS？"
     - 網站需可正常瀏覽。

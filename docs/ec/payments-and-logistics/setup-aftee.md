@@ -61,7 +61,7 @@ hide: []
 
 ![AFTEE 先享後付](../../assets/images/ec-金物流-AFTEE.png){ title="AFTEE 先享後付" .hero-page }
 
-## AFTEE 先享後付說明
+## AFTEE 先享後付說明 { #intro-aftee }
 
 AFTEE 先享後付提供顧客一種快速、便利且安全的付款方式，無需信用卡即可完成結帳。
 
@@ -69,7 +69,7 @@ AFTEE 先享後付提供顧客一種快速、便利且安全的付款方式，�
 - 提升結帳效率與付款便利性，增加訂單完成率。
 - 顧客如遇付款或帳務問題，可直接聯繫 [AFTEE 官方網站](https://aftee.tw/) 支援。
 
-### 交易與費用
+### 交易與費用 { #intro-aftee-fees }
   
 - **手續費**：依後台設定之費率收取，費率未含 5% 營業稅；對帳單將另行加計 5% 營業稅。
 - **優惠費率**：2.5%（未稅），費率認列以出貨時間為準。
@@ -77,28 +77,28 @@ AFTEE 先享後付提供顧客一種快速、便利且安全的付款方式，�
 
 ---
 
-### 裝置與瀏覽器限制
+### 裝置與瀏覽器限制 { #prerequisites-aftee-devices }
 
 - 顧客需可接收簡訊的手機完成驗證。
 - 系統無額外瀏覽器限制，但建議使用主流手機瀏覽器以確保流程順暢。
 
 ---
 
-### 自動取消規則
+### 自動取消規則 { #specs-aftee-auto-cancel }
 
 - 訂單使用 AFTEE 付款，超過 90 天未出貨將自動取消（預購商品除外）。
 - 系統會在取消前 30、15、7、3、1 天發送提醒通知，確保商家掌握出貨進度。
 
 ---
 
-### 支援分期付款
+### 支援分期付款 { #specs-aftee-installment }
 
 - 顧客下載 AFTEE App 後，可選擇分期付款方式。
 - 無需額外開通，分期功能由 AFTEE App 控制。瞭解 [如何使用 AFTEE 分期付款 :lucide-external-link:](https://netprotections.freshdesk.com/support/solutions/articles/70000197869-%E5%8F%AA%E6%9C%89app%E6%9C%83%E5%93%A1%E8%83%BD%E5%88%86%E6%9C%9F%E5%97%8E-)
 
-## 操作步驟
+## 操作步驟 { #operate-aftee }
 
-### 步驟一：申請開通 AFTEE
+### 步驟一：申請開通 AFTEE { #operate-aftee-apply }
 
 1. 登入 CYBERBIZ 後台，前往 **金物流 > 金流設定**。
 2. 在 CYBERBIZ PAYMENTS 區塊，點擊  **編輯** 進入編輯頁面。
@@ -107,7 +107,7 @@ AFTEE 先享後付提供顧客一種快速、便利且安全的付款方式，�
 
 ![AFTEE 申請開通](../../assets/images/ec-金物流-aftee 申請.gif){ title="AFTEE 申請開通" }
 
-### 步驟二：啟用後支付方式
+### 步驟二：啟用後支付方式 { #operate-aftee-enable }
 
 
 1. 登入 CYBERBIZ 後台，前往 **金物流 > 金流設定**。
@@ -117,7 +117,7 @@ AFTEE 先享後付提供顧客一種快速、便利且安全的付款方式，�
 
 ![AFTEE 前台顯示](../../assets/images/ec-金物流-aftee-前台顯示.png){ title="AFTEE 前台顯示" }
 
-### 步驟三：顧客付款流程
+### 步驟三：顧客付款流程 { #operate-aftee-checkout }
 
 1. 顧客在結帳頁選擇 AFTEE 後支付。
 2. 點擊 **使用 AFTEE 後支付付款**。  
@@ -129,7 +129,7 @@ AFTEE 先享後付提供顧客一種快速、便利且安全的付款方式，�
 
 <!--
 
-## 後續步驟
+## 後續步驟 { #next-steps-aftee }
 
 <div class="grid cards" markdown>
 
@@ -145,7 +145,7 @@ AFTEE 先享後付提供顧客一種快速、便利且安全的付款方式，�
 
 -->
 
-## 常見問題
+## 常見問題 { #faq-aftee }
 
 ??? quote "AFTEE 先享後付有金額限制嗎？"
 	可以，在後台設定金流門檻，限制最小/最大訂單金額。

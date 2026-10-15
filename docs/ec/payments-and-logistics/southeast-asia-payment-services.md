@@ -67,7 +67,7 @@ CYBERBIZ 提供標準信用卡服務，更整合了在地龍頭金流商 Fiuu (�
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Pro / Business
 { .doc-badge }
 
-## 金流選項說明
+## 金流選項說明 { #intro-sea-payments }
 
 | 付款方式 | 支援管道 | 費率 (每筆) |
 | :--- | :--- | :--- |
@@ -79,11 +79,11 @@ CYBERBIZ 提供標準信用卡服務，更整合了在地龍頭金流商 Fiuu (�
 | | 電子錢包 | GrabPay/Shopee Pay (2.6%) | 
 
 
-### 使用須知
+### 使用須知 { #prerequisites-sea-payments }
 
 - Fiuu previously known as Razer Merchant Services。
 
-## 任務 1：設定 CYBERBIZ PAYMENTS (信用卡)
+## 任務 1：設定 CYBERBIZ PAYMENTS (信用卡) { #operate-sea-payments-card }
 
 前往 **金物流 > 金流設定**，點擊 **CYBERBIZ PAYMENTS** 右側 :lucide-file-pen-line: **設定**。
 
@@ -95,10 +95,10 @@ CYBERBIZ 提供標準信用卡服務，更整合了在地龍頭金流商 Fiuu (�
 
 ![](../../assets/images/東南亞站-後台-金物流-金流設定-開啟CYBPAYMENTS01.png)
 
-## 任務 2：串接 Fiuu 第三方支付平台
+## 任務 2：串接 Fiuu 第三方支付平台 { #operate-sea-payments-fiuu }
 
 
-### 1. 取得 Fiuu 後台密鑰
+### 1. 取得 Fiuu 後台密鑰 { #operate-sea-payments-fiuu-key }
 
 登入 [Fiuu 管理後台](https://portal.fiuu.com/index.php?mod=authentication&opt=login)，前往 **Transactions > Settings**，複製以下資訊：
 
@@ -107,7 +107,7 @@ CYBERBIZ 提供標準信用卡服務，更整合了在地龍頭金流商 Fiuu (�
 
 
 
-### 2. 在 CYBERBIZ 設定串接
+### 2. 在 CYBERBIZ 設定串接 { #operate-sea-payments-fiuu-bind }
 
 1. 登入 CYBERBIZ 後台，前往 **金物流 > 金流設定**。
 2. 點選 **Fiuu(Malaysia)** 或 **Fiuu(Singapore)** 進入設定頁面。
@@ -117,7 +117,7 @@ CYBERBIZ 提供標準信用卡服務，更整合了在地龍頭金流商 Fiuu (�
 
 ![](../../assets/images/Fiuu-後台-串接欄位填寫01.png)
 
-### 3. 配置通知網址
+### 3. 配置通知網址 { #operate-sea-payments-fiuu-notify }
 
 為了讓 Fiuu 成功回傳交易結果給官網，請在 Fiuu 後台的 **Settings** 填入以下三個 URL：
 
