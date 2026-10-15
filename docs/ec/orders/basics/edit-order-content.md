@@ -138,7 +138,7 @@ hide:
 
 在「[編輯訂單頁](#operate-order-edit-page)」中，您可以將新商品加入至訂單。
 
-1. 點選「新增商品」，從彈窗中搜尋（搜尋機制可參考[商品篩選器](../../products/create-and-manage/product-management-interface.md#篩選器使用邏輯){ title="商品管理介面總覽" data-preview }）後勾選點擊 **確認新增** 加入品項（僅限溫層與通路相同的商品）。
+1. 點選「新增商品」，從彈窗中搜尋（搜尋機制可參考[商品篩選器](../../products/create-and-manage/product-management-interface.md#operate-product-ui-filter){ title="商品管理介面總覽" data-preview }）後勾選點擊 **確認新增** 加入品項（僅限溫層與通路相同的商品）。
 
     ![新增商品](../../../assets/images/EC-訂單詳情頁-編輯訂單-新增商品.png){ title="新增商品" }
 

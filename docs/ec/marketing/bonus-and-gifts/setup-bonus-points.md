@@ -195,7 +195,7 @@ hide: []
 > **系統判定邏輯**：當「全館折抵上限」與「商品折抵上限」同時存在時，系統將採取 **較嚴格**（數值較低）的限制。
 
 !!! tip "如何批次修改此欄位"
-    您可 [大量匯出商品 Excel 表格](../../products/bulk-operations/batch-update-product-descriptions-shipping.md#匯出商品-excel-表格)，編輯 `商品款式紅利最高折抵` 欄位後，[匯入 Excel 檔案](../../products/bulk-operations/batch-update-product-descriptions-shipping.md#上傳-excel-檔案)，完成批次編輯。
+    您可 [大量匯出商品 Excel 表格](../../products/bulk-operations/batch-update-product-descriptions-shipping.md#operate-batch-update-export)，編輯 `商品款式紅利最高折抵` 欄位後，[匯入 Excel 檔案](../../products/bulk-operations/batch-update-product-descriptions-shipping.md#operate-batch-update-upload)，完成批次編輯。
 
 === "後台設定畫面"
 

@@ -64,7 +64,7 @@ hide: []
 
 ![Excel 大量匯入商品](../../../assets/images/ec-import-products-from-excel.zh-tw.png){ title="Excel 大量匯入商品：商品 > Excel 大量匯入商品" .hero-page }
 
-## Excel 匯入商品說明
+## Excel 匯入商品說明 { #intro-excel-import }
 
 使用 Excel 範本可一次新增或更新大量商品，適合批次上架或批次調整商品資訊。匯入前請留意以下功能限制與圖床連結注意事項。
 
@@ -72,7 +72,7 @@ hide: []
 	- 北美站系統會以英文為系統預設的編輯語言，目前大量匯入商品僅能批次上傳、更新商品的英文頁面。
 	- 商品 SKU 碼需要與 Amazon 一致才能進行出貨。
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-excel-import }
 
 透過 **圖床** 連結快速建立圖片時，請注意以下資訊：
 
@@ -84,8 +84,8 @@ hide: []
 
 !!! info "請依實際需求評估並選擇圖床服務，CYBERBIZ 不提供第三方圖床之設定、操作或技術支援。"
 
-## 操作步驟
-### 下載 Excel 範本或匯出商品
+## 操作步驟 { #operate-excel-import }
+### 下載 Excel 範本或匯出商品 { #operate-excel-import-download }
 
 === "新增大量商品"
 
@@ -122,7 +122,7 @@ hide: []
 
 ---
 
-### 填寫商品 Excel 欄位
+### 填寫商品 Excel 欄位 { #operate-excel-import-fields }
 
 請依據 Excel 範本中的欄位及說明，填寫對應的商品資訊。以下為必填項目：
 
@@ -144,7 +144,7 @@ hide: []
 
 ---
 
-### 匯入 Excel 檔案
+### 匯入 Excel 檔案 { #operate-excel-import-upload }
 
 1. 在 CYBERBIZ 管理後台，前往 **商品 > Excel 大量匯入商品**。
 2. 點擊 **選擇檔案**，選擇編輯完的商品 Excel 檔。
@@ -157,7 +157,7 @@ hide: []
 |:lucide-circle-check: 成功|請耐心等候系統完成匯入作業，完成後會收到通知信件。|請勿重複上傳|
 |:lucide-check: 完成|匯入已確認完成|可檢查結果或進行其他內容更新|
 
-## 常見問題
+## 常見問題 { #faq-excel-import }
 
 ??? quote "為什麼我上傳 Excel 後，商品沒有成功新增或更新？"
     - 請檢查 Excel 檔案中是否有使用粗體字或商品名稱包含特殊符號。

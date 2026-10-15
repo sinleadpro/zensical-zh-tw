@@ -82,9 +82,9 @@ hide:
 
 在商品頁加入影片能提升商品展示的視覺吸引力，顧客在商品頁與彈窗中可直接觀看。本文件說明如何上傳商品影片、設定彈窗顯示位置，以及透過媒體庫管理所有影片檔案。
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-product-video }
 
-### 適用範圍
+### 適用範圍 { #prerequisites-product-video-scope }
 
 === "支援"	
 	| 區塊/頁面       | 支援顯示影片 |
@@ -106,7 +106,7 @@ hide:
 
 ---
 
-### 影片規格限制
+### 影片規格限制 { #prerequisites-product-video-specs }
 
 為確保影片能順利上傳、處理及於前台正常播放，請遵循以下技術規格：
 
@@ -117,9 +117,9 @@ hide:
 - **檔案大小**：最大 30 MB，載入速度會受使用者網路影響，建議在符合規格下盡量壓縮檔案。
 - **音訊支援**：目前不支援音訊輸出，上傳影片將以靜音模式播放。
 
-## 操作步驟
+## 操作步驟 { #operate-product-video }
 
-### 上傳商品影片
+### 上傳商品影片 { #operate-product-video-upload }
 
 === "新增商品時上傳影片"
 
@@ -139,7 +139,7 @@ hide:
 
 ---
 
-### 影片彈窗顯示設定 
+### 影片彈窗顯示設定 { #operate-product-video-popup }
 
 統一設定影片在商品彈窗中的顯示位置，以提升前台展示效果。
 
@@ -160,7 +160,7 @@ hide:
 ![媒體庫影片管理](../../../assets/images/ec-product-media-gallery.zh-tw.png){ title="媒體庫影片管理" }
 
 
-## 後續操作
+## 後續操作 { #next-steps-product-video }
 
 <div class="grid cards" markdown>
 
@@ -174,7 +174,7 @@ hide:
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-product-video }
 ??? quote "為什麼我的商品影片沒有聲音？"
     商品影片功能目前不支援音訊輸出，影片將以靜音方式播放。
 

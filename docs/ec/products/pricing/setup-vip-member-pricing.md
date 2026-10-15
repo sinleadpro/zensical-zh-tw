@@ -76,11 +76,11 @@ hide: []
 
 ![VIP 會員專屬價格](../../../assets/images/ec-product-edit-vip-exclusive-price-hero.zh-tw.png){ title="VIP 會員專屬價格" .hero-page }
 
-## VIP 會員專屬價格說明
+## VIP 會員專屬價格說明 { #intro-vip-pricing }
 
 **會員專屬價格** 能針對不同等級 VIP 會員設定差異化售價，提升高價值會員專屬感並刺激消費。
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-vip-pricing }
 
 - [x] 已設定 VIP 群組。詳見 [建立專屬VIP群組](../../members/vip/create-exclusive-vip-groups.md)。
 - [x] 若新增 VIP 規則，請重新設定會員專屬價格以確保價格正確套用。
@@ -88,9 +88,9 @@ hide: []
 !!! plan "方案限制"
     **會員專屬價格** 為 **企業版、高手版、高手PLUS版** 內建功能；專業PLUS、進階PLUS 需另行選配後才可使用。
 
-## 操作步驟
+## 操作步驟 { #operate-vip-pricing }
 
-### 單筆設定會員專屬價格
+### 單筆設定會員專屬價格 { #operate-vip-pricing-single }
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 所有商品**。
 2. 選擇商品，進入 **商品資訊** 頁籤。
@@ -100,7 +100,7 @@ hide: []
 
 ![單筆設定會員專屬價格](../../../assets/images/ec-edit-member-exclusive-price-setting.zh-tw.gif){ title="單筆設定會員專屬價格" }
 
-#### 編輯會員價格
+#### 編輯會員價格 { #operate-vip-pricing-edit }
 
 - 點擊「編輯價格」輸入專屬價格。  
 - 每個款式可設定不同價格，未設定時系統預設使用商品售價。
@@ -109,14 +109,14 @@ hide: []
 
 ---
 
-#### 刪除會員價格
+#### 刪除會員價格 { #operate-vip-pricing-delete }
 
 1. 點擊該群組欄位中的 **移除**。
 2. 點擊 **刪除** 確認移除。
 
 ![刪除會員專屬價格](../../../assets/images/ec-remove-member-exclusive-price-variants.zh-tw.png){ title="刪除會員專屬價格" }
 	
-### 多筆設定會員專屬價格
+### 多筆設定會員專屬價格 { #operate-vip-pricing-multi }
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 所有商品**。
 2. 選取單筆或多筆商品。
@@ -127,16 +127,16 @@ hide: []
 
 ---
 
-#### 編輯與刪除會員價格
+#### 編輯與刪除會員價格 { #operate-vip-pricing-multi-edit }
 
 - 點擊 **新增會員價格**，選擇 VIP 群組並編輯價格。
 - 若要刪除群組價格，點擊欄位中的 **移除**。
 
 !!! info "每個款式可設定不同價格，未設定則使用商品售價。"
 
-### Excel 批次匯入/修改
+### Excel 批次匯入/修改 { #operate-vip-pricing-excel }
 
-#### 步驟一：匯出會員專屬價格
+#### 步驟一：匯出會員專屬價格 { #operate-vip-pricing-export }
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 所有商品**。
 2. 勾選欲編輯的商品。
@@ -146,7 +146,7 @@ hide: []
 
 ---
 
-#### 步驟二：編輯 Excel 檔案
+#### 步驟二：編輯 Excel 檔案 { #operate-vip-pricing-edit-excel }
 
 1. 系統將 Excel 檔案寄至信箱，下載後開啟。
 2. 在對應欄位設定商品專屬價格，儲存檔案。
@@ -155,7 +155,7 @@ hide: []
 
 ---
 
-#### 步驟三：匯入 Excel 檔案
+#### 步驟三：匯入 Excel 檔案 { #operate-vip-pricing-import }
 
 1. 前往 **商品 > 所有商品**。
 2. 在商品列表上方，選擇 **匯入會員專屬價格**。
@@ -164,7 +164,7 @@ hide: []
 
 ![匯入會員專屬價格](../../../assets/images/ec-import-member-exclusive-prices.zh-tw.png){ title="匯入會員專屬價格" }
 
-### 會員專屬價格標籤
+### 會員專屬價格標籤 { #operate-vip-pricing-label }
 
 **會員專屬價格標籤** 搭配 **商品 VIP 標籤連結** 使用，用於提示未登入訪客登入會員以享受 VIP 專屬價格，提升註冊與轉換率。
 
@@ -176,7 +176,7 @@ hide: []
 
 ---
 
-#### 操作步驟
+#### 操作步驟 { #operate-vip-pricing-label-steps }
 
 1. 登入 CYBERBIZ 管理後台，前往 **網站外觀 > 套版主題管理 > 網站設定**。    
 2. 選擇 **商品頁面 > 基本設定**。
@@ -190,7 +190,7 @@ hide: []
 
 ---
 
-## 前台顯示說明
+## 前台顯示說明 { #specs-vip-pricing-storefront }
 
 若會員所屬 VIP 群組已設定專屬價格，前台商品頁將顯示會員專屬價格與 VIP 群組名稱。
 
@@ -210,7 +210,7 @@ hide: []
 
 	![開啟功能會員已登入](../../../assets/images/ec-vip-exclusive-price-frontend-enabled-login.zh-tw.png){ title="開啟功能會員已登入" }
 
-## 常見問題
+## 常見問題 { #faq-vip-pricing }
 
 ??? quote "設定會員專屬價格後，前台會如何顯示？"
 	會員登入後，若其 VIP 群組已設定專屬價格，前台會直接顯示。未登入則顯示原價，可選擇開啟「未登入 VIP 標籤顯示」提示登入。

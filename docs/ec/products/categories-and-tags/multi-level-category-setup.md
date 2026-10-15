@@ -89,7 +89,7 @@ hide: []
 
 ![商品多層級分類設定](../../../assets/images/ec-product-multi-level-product-cateogry-hero.zh-tw.png){ title="商品多層級分類設定" .hero-page }
 
-## 商品多層級分類說明
+## 商品多層級分類說明 { #intro-multi-level-cat }
 
 商品多層級分類用於整理不同來源的 **商品分類群組**（包含自訂分類、條件分類與商品類型），可視為「**商品群組的資料夾結構**」，協助商家建立清楚、可調整的商品分類架構。
 
@@ -115,7 +115,7 @@ hide: []
     - 調整分類層級或排序，不會影響群組內的商品名單
     - 商品是否顯示，仍以對應的商品群組設定為準
 
-## 適用情境
+## 適用情境 { #intro-multi-level-cat-use }
 
 建議在以下情況使用商品多層級分類功能：
 
@@ -123,9 +123,9 @@ hide: []
 - 同一商品需要出現在不同分類位置（例如依用途或族群分類）
 - 需要依分類層級設定導覽列、分類頁或行銷活動
 
-## 操作步驟
+## 操作步驟 { #operate-multi-level-cat }
 
-### 雙層結構
+### 雙層結構 { #operate-multi-level-cat-two }
 
 ??? info-clean "雙層結構示意圖"
     ```mermaid
@@ -160,7 +160,7 @@ hide: []
 	![新增小類別設定](../../../assets/images/ec-multi-level-product-cateogry-collection.zh-tw.png){ title="新增小類別設定" }
 
 
-    !!! info "小類別即為商品分類群組。相關設定請參閱 [設定自訂分類群組](custom-collections.md){ title="設定商品自訂分類群組" }、[設定商品條件分類群組](smart-collections.md){ title="設定商品條件分類群組" }、[商品類型](../create-and-manage/edit-product-description-settings.md#進階設定){ title="編輯商品描述與商品設定" }。"
+    !!! info "小類別即為商品分類群組。相關設定請參閱 [設定自訂分類群組](custom-collections.md){ title="設定商品自訂分類群組" }、[設定商品條件分類群組](smart-collections.md){ title="設定商品條件分類群組" }、[商品類型](../create-and-manage/edit-product-description-settings.md#operate-product-desc-settings-advanced){ title="編輯商品描述與商品設定" }。"
 
 4. 設定完成畫面
 
@@ -170,7 +170,7 @@ hide: []
    
     !!! info "小分類無法移動到其他中分類下，請在中分類下直接新增小分類即可。"
 
-### 三層結構
+### 三層結構 { #operate-multi-level-cat-three }
 
 ??? info-clean "三層結構示意圖"
     ```mermaid
@@ -205,7 +205,7 @@ hide: []
 
 	![新增小類別設定](../../../assets/images/ec-multi-level-product-cateogry-collection.zh-tw.png){ title="新增小類別設定" }
 
-	!!! info "小類別即為商品分類群組。相關設定請參閱 [設定自訂分類群組](custom-collections.md){ title="設定商品自訂分類群組" }、[設定商品條件分類群組](smart-collections.md){ title="設定商品條件分類群組" }、[商品類型](../create-and-manage/edit-product-description-settings.md#進階設定){ title="編輯商品描述與商品設定" }。"
+	!!! info "小類別即為商品分類群組。相關設定請參閱 [設定自訂分類群組](custom-collections.md){ title="設定商品自訂分類群組" }、[設定商品條件分類群組](smart-collections.md){ title="設定商品條件分類群組" }、[商品類型](../create-and-manage/edit-product-description-settings.md#operate-product-desc-settings-advanced){ title="編輯商品描述與商品設定" }。"
 
 5. 設定完成畫面
 
@@ -215,7 +215,7 @@ hide: []
 
     !!! info "小分類無法移動到其他中分類下，請在中分類下直接新增小分類即可。"
 
-## 後續步驟
+## 後續步驟 { #next-steps-multi-level-cat }
 
 <div class="grid cards" markdown>
 
@@ -232,7 +232,7 @@ hide: []
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-multi-level-cat }
 
 ??? quote "商品多層級分類會影響商品名單嗎？"
     不會。商品多層級分類僅用於整理分類群組，不會影響群組內的商品名單。

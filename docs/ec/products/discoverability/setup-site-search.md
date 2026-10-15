@@ -71,11 +71,11 @@ hide:
 
 ![站內搜尋-前台](../../../assets/images/ec-商品-站內搜尋-前台.png){ title="站內搜尋-前台" .hero-page }
 
-## 站內搜尋功能說明
+## 站內搜尋功能說明 { #intro-site-search }
 
 CYBERBIZ 平台的前台介面中，**搜尋（放大鏡）功能** 是協助消費者快速定位商品的關鍵工具。
 
-## 搜尋功能基本說明
+## 搜尋功能基本說明 { #specs-site-search }
 
 *   **功能位置**：消費者欲搜尋商品時，可點擊前台介面上的 **放大鏡圖示** :lucide-search: 並輸入關鍵字進行查找。
 
@@ -87,19 +87,19 @@ CYBERBIZ 平台的前台介面中，**搜尋（放大鏡）功能** 是協助消
     |---|---|---|
     | 商品名稱 | 商品的主要識別名稱 | [商品基本設定](../create-and-manage/create-update-products.md#operate-product-create-basic){ title="新增與更新商品" } |
     | 商品群組名稱 | 包含自訂分類跟條件分類等商品群組的名稱。<br> （ 如商品網址 `https://xxx/collections/mygroup` 中的 `mygroup`) | [自訂分類設定](../categories-and-tags/custom-collections.md#operate-custom-collections-add-products){ title="設定商品自訂分類群組" }、[條件分類設定](../categories-and-tags/smart-collections.md#operate-smart-collections-create){ title="設定商品條件分類群組" }。 |
-    | 商品廠商 | 商品的廠商名稱，會顯示於前台 | [商品編輯頁 > 設定](../create-and-manage/edit-product-description-settings.md#進階設定){ title="編輯商品描述與商品設定" } |
-    | 商品類型 | 商品的類型標籤 | [商品編輯頁 > 設定](../create-and-manage/edit-product-description-settings.md#進階設定){ title="編輯商品描述與商品設定" } |
-    | 商品通路 | 商品的通路標籤（預購、現貨、常溫等）| [商品編輯頁 > 設定](../create-and-manage/edit-product-description-settings.md#進階設定){ title="編輯商品描述與商品設定" } |
+    | 商品廠商 | 商品的廠商名稱，會顯示於前台 | [商品編輯頁 > 設定](../create-and-manage/edit-product-description-settings.md#operate-product-desc-settings-advanced){ title="編輯商品描述與商品設定" } |
+    | 商品類型 | 商品的類型標籤 | [商品編輯頁 > 設定](../create-and-manage/edit-product-description-settings.md#operate-product-desc-settings-advanced){ title="編輯商品描述與商品設定" } |
+    | 商品通路 | 商品的通路標籤（預購、現貨、常溫等）| [商品編輯頁 > 設定](../create-and-manage/edit-product-description-settings.md#operate-product-desc-settings-advanced){ title="編輯商品描述與商品設定" } |
     | 商品款式 | 款式名稱（如顏色 M、尺寸 XL）| [商品款式設定](../create-and-manage/create-update-products.md#operate-product-create-variants){ title="新增與更新商品" } |
     | SKU | 商品的庫存管理編號 | [商品款式設定](../create-and-manage/create-update-products.md#operate-product-create-variants){ title="新增與更新商品" } |
-    | 商品介紹 | 商品的詳細說明文字，包含文字編輯器中原始碼的內容。 | [商品編輯頁 > 商品描述](../create-and-manage/edit-product-description-settings.md#商品描述){ title="編輯商品描述與商品設定" } |
+    | 商品介紹 | 商品的詳細說明文字，包含文字編輯器中原始碼的內容。 | [商品編輯頁 > 商品描述](../create-and-manage/edit-product-description-settings.md#operate-desc-settings-body){ title="編輯商品描述與商品設定" } |
 
 *   **搜尋邏輯與分詞**：
 
     *   商品名稱採用 **分詞搜尋**。若標題中使用「空格」或「短橫線 (-)」（如 "ER-1410"），系統會將其切分為獨立單詞（如 "ER" 與 "1410"），搜尋時必須完全符合分詞內容。
     *   若在 **SKU 欄位** 輸入完整型號（如 "ER1410"），即使商品名稱有分詞（如 "ER-14010"），搜尋 "1410" 也能被尋找到。
 
-## 後台設定與管理
+## 後台設定與管理 { #operate-site-search }
 
 商家可以根據品牌需求，決定搜尋功能的顯示狀態或排除特定商品：
 
@@ -107,13 +107,13 @@ CYBERBIZ 平台的前台介面中，**搜尋（放大鏡）功能** 是協助消
 
 - :lucide-toggle-left:{ .lg .middle } [__全站搜尋欄位開關__](../../website-appearance/navigation/setup-menus-navigation.md#搜尋欄位設定){ title="設定選單與導覽列" }       
 
-- :lucide-package-x:{ .lg .middle } [__個別商品排除搜尋__](../create-and-manage/product-management-interface.md#商品搜尋與能見度管理){ title="商品管理介面總覽" }       
+- :lucide-package-x:{ .lg .middle } [__個別商品排除搜尋__](../create-and-manage/product-management-interface.md#operate-product-ui-visibility){ title="商品管理介面總覽" }       
 
 - :lucide-code:{ .lg .middle } [__透過關鍵字排除（進階）__](exclude-keyword-products-search.md){ title="設定搜尋結果中排除特定關鍵字商品" }       
 
 </div>
 
-## 站內搜尋數據追蹤 <small>GA4</small>
+## 站內搜尋數據追蹤 <small>GA4</small> { #specs-site-search-ga4 }
 
 商家可以透過 **Google Analytics 4 (GA4)** 監控消費者的搜尋行為，以優化選品或 SEO：
 
@@ -125,7 +125,7 @@ CYBERBIZ 平台的前台介面中，**搜尋（放大鏡）功能** 是協助消
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-site-search }
 
 ??? quote "為什麼搜不到商品？"
 

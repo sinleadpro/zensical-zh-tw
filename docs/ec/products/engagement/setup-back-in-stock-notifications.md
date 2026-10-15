@@ -71,7 +71,7 @@ hide: []
 
 ![商品到貨通知](../../../assets/images/ec-product-restock-notification-hero.zh-tw.png){ title="商品到貨通知" .hero-page }
 
-## 商品到貨通知說明
+## 商品到貨通知說明 { #intro-restock }
 
 商品到貨通知功能讓缺貨商品在前台顯示「已售完，貨到通知我」按鈕，顧客點擊後系統會記錄登記。當商品補庫存時，系統自動發送 Email 通知已登記的會員，幫助商家掌握補貨後的即時銷售機會，提升回購率與顧客體驗。
 
@@ -80,7 +80,7 @@ hide: []
     - 限量或季節性商品，透過到貨通知創造期待感並促進轉換。
     - 降低缺貨造成的流失，將等待中的顧客轉化為實際訂單。
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-restock }
 
 以下限制為系統層級限制。
 
@@ -95,7 +95,7 @@ hide: []
     - [x] 庫存不足時需設定為[停止銷售](#operate-restock-inventory)，前台商品頁才會顯示 **已售完，貨到通知我** 按鈕
     - [x] 商品庫存狀態需設定為 [當無庫存時，款式為可點選狀態](#operate-restock-variant)，顧客點選商品款式後，商品才會顯示 **貨到通知** 選項。
 
-## 開啟商品到貨提醒功能 
+## 開啟商品到貨提醒功能 { #operate-restock }
 
 ### 設定庫存管理與停止銷售 { #operate-restock-inventory }
 1. 在 CYBERBIZ 管理後台，前往 **商品 > 所有商品**。
@@ -122,7 +122,7 @@ hide: []
 
 ---
 
-### 會員登記貨到通知
+### 會員登記貨到通知 { #operate-restock-register }
 
 !!! warning "補貨通知僅限一次"
     每位會員僅能收到一次補貨通知。通知發送後，該會員的補貨登記將自動取消。若商品再次售罄，會員需重新點擊 **已售完，貨到通知我** 按鈕才能再次登記。
@@ -139,7 +139,7 @@ hide: []
 
 </div>
 
-## 到貨通知 Email 樣板設定
+## 到貨通知 Email 樣板設定 { #operate-restock-email }
 
 自訂商品貨到通知的 Email 樣板內容。
 
@@ -159,7 +159,7 @@ hide: []
 
 </div>
 
-## 後續操作
+## 後續操作 { #next-steps-restock }
 
 <div class="grid cards" markdown>
 

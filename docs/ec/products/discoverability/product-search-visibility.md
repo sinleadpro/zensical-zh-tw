@@ -64,7 +64,7 @@ permalink: "https://help.cyberbiz.io/ec/products/discoverability/product-search-
 
 ![商品搜尋可見性設定](../../../assets/images/ec-product-search-toggle.zh-tw.png){ title="商品搜尋可見性設定" .hero-page }
 
-## 商品可見性狀態比較
+## 商品可見性狀態比較 { #specs-search-visibility }
 
 商品搜尋可見性可分為三種主要狀態，建議依需求選擇：
 
@@ -78,7 +78,7 @@ permalink: "https://help.cyberbiz.io/ec/products/discoverability/product-search-
     使用「排除搜尋」適合短期隱藏或活動前準備；「下架」適合暫停販售；「不公開」適合特定群組或通路限定商品。
 
 
-## 商品排除搜尋效果
+## 商品排除搜尋效果 { #intro-search-visibility }
 
 啟用排除搜尋功能後，商品將不會出現在以下結果頁面：
 	
@@ -88,11 +88,11 @@ permalink: "https://help.cyberbiz.io/ec/products/discoverability/product-search-
 - 商品分類頁 :lucide-triangle-alert: 若商品已被加入特定分類，仍會顯示
 
 
-## 商品排除搜尋設定路徑
+## 商品排除搜尋設定路徑 { #operate-search-visibility }
 
 您可以透過以下途徑設定商品排除搜尋功能：
 
-### 所有商品頁面
+### 所有商品頁面 { #operate-search-visibility-list }
 
 在商品列表頁面，快速切換個別商品的搜尋狀態。
 
@@ -107,7 +107,7 @@ permalink: "https://help.cyberbiz.io/ec/products/discoverability/product-search-
 
 ---
 
-### 新增/編輯商品頁面
+### 新增/編輯商品頁面 { #operate-search-visibility-edit }
 
 在新增或編輯商品時，設定商品的預設搜尋狀態。
 
@@ -122,7 +122,7 @@ permalink: "https://help.cyberbiz.io/ec/products/discoverability/product-search-
 
 ---
 
-### 商品操作選單
+### 商品操作選單 { #operate-search-visibility-menu }
 
 選取單個或多個商品，透過操作選單調整商品的搜尋狀態。
 
@@ -135,7 +135,7 @@ permalink: "https://help.cyberbiz.io/ec/products/discoverability/product-search-
 
 ---
 
-### Excel 批次匯入
+### Excel 批次匯入 { #operate-search-visibility-excel }
 
 當您需要大量新增或更新商品時，透過 Excel 範本設定搜尋狀態。
 
@@ -147,7 +147,7 @@ permalink: "https://help.cyberbiz.io/ec/products/discoverability/product-search-
 
   ![Excel匯入排除搜尋設定](../../../assets/images/ec-import-from-excel-if-exclude-search.png){ title="Excel匯入排除搜尋設定" }
 	
-## 常見問題
+## 常見問題 { #faq-search-visibility }
 
 ??? quote "商品排除搜尋後，顧客還可以購買嗎？"
     可以。排除搜尋僅隱藏搜尋結果，透過 **商品連結** 顧客仍能直接訪問該商品並完成購買。

@@ -240,7 +240,7 @@ hide: []
 
 !!! tip "預購商品設定"
     [](){ #operate-product-preorder }
-    將「庫存不足時的處理」設為 **繼續銷售**，即可讓商品在庫存歸零時仍開放顧客下單，達到預購模式的效果。無需另外建立預購商品類型，直接使用現有商品即可運作。若需將預購與現貨在結帳時自動拆分，請見 [設定結帳自動拆分多購物車](../../products/checkout/checkout-split-multi-cart.md#設定預購商品通路){ title="將預購與現貨自動分開結帳" }。
+    將「庫存不足時的處理」設為 **繼續銷售**，即可讓商品在庫存歸零時仍開放顧客下單，達到預購模式的效果。無需另外建立預購商品類型，直接使用現有商品即可運作。若需將預購與現貨在結帳時自動拆分，請見 [設定結帳自動拆分多購物車](../../products/checkout/checkout-split-multi-cart.md#operate-split-cart-preorder){ title="將預購與現貨自動分開結帳" }。
 
 ![管理庫存設定](../../../assets/images/ec-inventory-stop-selling.zh-tw.png){ title="管理庫存設定" }
 
@@ -625,7 +625,7 @@ hide: []
 <!--   [__新增大量商品__](../bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }    -->
 <!--   透過 Excel 批量匯入商品，批次上架商品。 -->
 <!-- - :lucide-boxes:{ .lg }    -->
-<!--   [__新增組合商品__](create-and-setup-combo-products.md#新增組合商品){ title="新增與設定組合商品" }   -->
+<!--   [__新增組合商品__](create-and-setup-combo-products.md#operate-combo-products){ title="新增與設定組合商品" }   -->
 <!--   建立指定或任選組合商品。 -->
 <!-- - :lucide-edit-3:{ .lg }    -->
 <!--   [__編輯商品描述與設定__](edit-product-description-settings.md){ title="編輯商品描述與商品設定" }    -->
@@ -820,7 +820,7 @@ hide: []
 <!--   [__新增大量商品__](../bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }    -->
 <!--   透過 Excel 批量匯入商品，批次上架商品。 -->
 <!-- - :lucide-boxes:{ .lg }    -->
-<!--   [__新增組合商品__](create-and-setup-combo-products.md#新增組合商品){ title="新增與設定組合商品" }   -->
+<!--   [__新增組合商品__](create-and-setup-combo-products.md#operate-combo-products){ title="新增與設定組合商品" }   -->
 <!--   建立指定或任選組合商品。 -->
 <!-- - :lucide-edit-3:{ .lg }    -->
 <!--   [__編輯商品描述與設定__](edit-product-description-settings.md){ title="編輯商品描述與商品設定" }    -->

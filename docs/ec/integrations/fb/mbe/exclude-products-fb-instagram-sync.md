@@ -78,7 +78,7 @@ hide: []
 
 <div class="grid cards" markdown>
 
-- :lucide-package-x:{ .lg } [__設定商品排除標籤__](../../../products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }     
+- :lucide-package-x:{ .lg } [__設定商品排除標籤__](../../../products/categories-and-tags/manage-product-tags.md#operate-product-tags-exclude){ title="管理商品標籤" }     
 
 </div>
 

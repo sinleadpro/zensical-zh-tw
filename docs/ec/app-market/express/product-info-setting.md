@@ -89,8 +89,8 @@ hide: []
 
 === "批次編輯"
 
-    1. [匯出商品 Excel](../../products/bulk-operations/excel-import-products/#下載-excel-範本或匯出商品)。
+    1. [匯出商品 Excel](../../products/bulk-operations/excel-import-products/#operate-excel-import-download)。
     2. 填寫報關用對應欄位，儲存檔案。
-    3. [匯入商品 Excel](../../products/bulk-operations/excel-import-products/#匯入-excel-檔案)，完成批次編輯。
+    3. [匯入商品 Excel](../../products/bulk-operations/excel-import-products/#operate-excel-import-upload)，完成批次編輯。
 
     ![](../../../assets/images/EC-後台-商品-所有商品-日到台站台報關用商品欄位02.png){ .screenshot }

@@ -76,20 +76,20 @@ hide: []
 
 ![商品管理介面總覽](../../../assets/images/ec-products-management-interface-hero.png){ title="商品管理介面總覽" .hero-page }
 
-## 商品管理介面說明
+## 商品管理介面說明 { #intro-product-ui }
 
 **商品管理介面** 主要位於後台路徑： **「商品」>「所有商品」**。該介面整合了商品上架、快速篩選、批次修改及跨通路管理等核心功能，協助商家高效維護商店品項。
 
-## 介面功能介紹
+## 介面功能介紹 { #overview-product-ui }
 
 在「所有商品」列表中，商家可以對商品執行以下基本操作：
 
-*   [**新增商品**](#新增商品)：點選右上角按鈕進行單筆或批次上架。
-*   [**快速搜尋**](#關鍵字搜尋)與[**筆數調整**](#商品列表)：可透過關鍵字查找商品，或調整每頁顯示的商品筆數。
-*   [**狀態切換與預覽**](#快捷按鈕)：點選「眼睛圖示」可直接切換公開或隱藏商品，或點擊連結快速前往前台預覽商品頁。
-*   [**刪除商品**](#快捷按鈕)：針對不再販售的品項進行移除。
+*   [**新增商品**](#operate-product-ui-create)：點選右上角按鈕進行單筆或批次上架。
+*   [**快速搜尋**](#關鍵字搜尋)與[**筆數調整**](#overview-product-ui-list)：可透過關鍵字查找商品，或調整每頁顯示的商品筆數。
+*   [**狀態切換與預覽**](#overview-product-ui-shortcuts)：點選「眼睛圖示」可直接切換公開或隱藏商品，或點擊連結快速前往前台預覽商品頁。
+*   [**刪除商品**](#overview-product-ui-shortcuts)：針對不再販售的品項進行移除。
 
-## 篩選器使用邏輯
+## 篩選器使用邏輯 { #operate-product-ui-filter }
 
 當商品數量龐大時，建議善用篩選器以提升編輯效率：
 
@@ -127,21 +127,21 @@ hide: []
 	2. [輸入關鍵字](#關鍵字搜尋)： 在搜尋欄位中輸入商品名稱或 SKU，按下 ++enter++ 鍵或點擊 **搜尋圖示** :material-magnify: 以進一步限縮搜尋結果。
 	
     > :lucide-flame: **批次操作特定商品**  
-	篩選出商品清單後，先[大量選取](#選取大量商品)再[選擇操作項目](#批次操作)，即可對特定商品進行批次操作。
+	篩選出商品清單後，先[大量選取](#operate-product-ui-select)再[選擇操作項目](#operate-product-ui-batch-actions)，即可對特定商品進行批次操作。
 	
 	![組合搜尋條件](../../../assets/images/ec-products-search-filter-combo.zh-tw.png){ title="組合搜尋條件" }
 
-## 批次作業功能
+## 批次作業功能 { #operate-product-ui-batch }
 
 透過勾選列表左側的核取方塊，商家可以進行 **批次操作**，支援項目包括：
 
-*   **狀態與權限**：批次公開、隱藏、刪除、開啟或[排除搜尋](#商品搜尋與能見度管理)功能。
-*   **匯出資料**：[匯出商品總表](../bulk-operations/batch-update-product-descriptions-shipping.md#匯出商品-excel-表格)或[會員專屬價格表](../pricing/setup-vip-member-pricing.md#步驟一匯出會員專屬價格)。
+*   **狀態與權限**：批次公開、隱藏、刪除、開啟或[排除搜尋](#operate-product-ui-visibility)功能。
+*   **匯出資料**：[匯出商品總表](../bulk-operations/batch-update-product-descriptions-shipping.md#operate-batch-update-export)或[會員專屬價格表](../pricing/setup-vip-member-pricing.md#operate-vip-pricing-export)。
 *   **通路管理**：將官網商品[大量複製至 POS 門市商店](../bulk-operations/copy-products-to-pos-stores.md)。
 
 ![批次作業功能](../../../assets/images/ec-products-batch-operations.png){ title="批次作業功能" }
 
-### 選取大量商品
+### 選取大量商品 { #operate-product-ui-select }
 
 === "當頁所有商品"
 
@@ -161,7 +161,7 @@ hide: []
 
 === "符合條件商品"
 
-	1. [進行商品檢索](#篩選器使用邏輯)，產生篩選後的商品列表清單。
+	1. [進行商品檢索](#operate-product-ui-filter)，產生篩選後的商品列表清單。
 	2. 點擊 **已選取__個商品**，選擇 **選取全部商品**。
 	
 	![選取篩選結果](../../../assets/images/ec-products-select-all-results.zh-tw.gif){ title="選取篩選結果" }
@@ -170,9 +170,9 @@ hide: []
 
 ---
 
-### 批次操作
+### 批次操作 { #operate-product-ui-batch-actions }
 
-1. [選取多個商品後](#選取大量商品)。
+1. [選取多個商品後](#operate-product-ui-select)。
 2. 點擊 **Select** 操作選單 ，選擇批次操作選項[^1]。  
 
 ![批次操作流程](../../../assets/images/ec-products-batch-process.zh-tw.gif){ title="批次操作流程" }
@@ -187,7 +187,7 @@ hide: []
 
 </div>
 
-## 商品搜尋與能見度管理
+## 商品搜尋與能見度管理 { #operate-product-ui-visibility }
 
 在管理介面中，商家可以個別設定商品的「商品搜尋功能」：
 
@@ -228,7 +228,7 @@ hide: []
 
 </div>
 
-## 跨通路同步管理
+## 跨通路同步管理 { #operate-product-ui-sync }
 
 若商家有串接其他電商平台，管理介面會顯示相關關聯狀態：
 
@@ -238,7 +238,7 @@ hide: []
 
 ---
 
-## 新增商品
+## 新增商品 { #operate-product-ui-create }
 
 建立單一商品、設定相關資訊並上架商品。
 
@@ -251,7 +251,7 @@ hide: []
 
 </div>
 
-## 商品列表
+## 商品列表 { #overview-product-ui-list }
 
 透過以下功能快速搜尋、篩選與管理商品列表。
 
@@ -262,7 +262,7 @@ hide: []
 
 ![商品列表](../../../assets/images/ec-all-products-products-list.zh-tw.png){ title="商品列表" }
 
-## 快捷按鈕
+## 快捷按鈕 { #overview-product-ui-shortcuts }
 
 - :lucide-eye: 設定商品是否公開：:lucide-eye-off: 未公開；:lucide-eye: 公開。
 - :lucide-external-link: 快速前往前台商品頁
@@ -270,7 +270,7 @@ hide: []
 
 ![快捷按鈕](../../../assets/images/ec-product-list-shortcuts.zh-tw.png){ title="快捷按鈕" }
 
-## 庫存列表
+## 庫存列表 { #overview-product-ui-inventory }
 
 檢視已[開啟管理庫存功能](create-update-products.md#operate-product-create-inventory){ title="新增與更新商品" }以及庫存設定有限數量的商品。
 
@@ -283,14 +283,14 @@ hide: []
 </div>
 
 
-## 常見問題
+## 常見問題 { #faq-product-ui }
 ??? quote "為什麼搜尋不到商品？"
 	- 確認關鍵字或 SKU 正確
 	- 檢查篩選條件是否過多
 	- 商品是否已刪除或不可見
 
 ??? quote "搜尋結果可以匯出嗎？"
-	目前不支援直接匯出，有商品匯出需求請使用 [Excel 匯出功能](../bulk-operations/batch-update-product-descriptions-shipping.md#匯出商品-excel-表格)。
+	目前不支援直接匯出，有商品匯出需求請使用 [Excel 匯出功能](../bulk-operations/batch-update-product-descriptions-shipping.md#operate-batch-update-export)。
 
 ??? quote "可以儲存篩選條件嗎？"
 	目前系統不支援儲存。
