@@ -82,7 +82,7 @@ hide: []
     - 「定期訂購」在 PLUS 方案中屬於選配模組（11 選 2），商家需確認已選配該模組方可使用。企業版則直接內建此功能。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-subscription-order }
 
 - **名詞定義**
     - **母訂單（定期單號）**：紀錄訂閱的整體規則，如商品組合、配送頻率、剩餘期數等。
@@ -90,7 +90,7 @@ hide: []
 
 
 
-## 定期訂單列表分類
+## 定期訂單列表分類 { #overview-subscription-orders-list }
 
 登入 CYBERBIZ 管理後台，前往 **訂單 > 定期定額訂單**。
 
@@ -107,27 +107,27 @@ hide: []
 
 ![](https://www.cyberbiz.co/support/wp-content/uploads/2019/11/定期定額new-14.png){ .screenshot }
 
-## 查詢母子訂單關係
+## 查詢母子訂單關係 { #operate-subscription-orders-link }
 
 若想確認某一筆一般訂單是屬於哪一筆定期訂單的第幾期，可透過以下方式查看：
 
 1. 前往 **訂單 > 所有訂單**。
-2. 點擊右上角 **[編輯欄位](../orders/basics/order-management-interface/#編輯欄位與排序)**。
+2. 點擊右上角 **[編輯欄位](../orders/basics/order-management-interface/#operate-order-ui-edit-columns)**。
 3. 勾選顯示 **母訂單編號**、**配送期數** 或 **實際配送次數**，即可查看訂單的定期配送資訊。
 
 
-## 修改配送資訊
+## 修改配送資訊 { #operate-subscription-orders-edit-shipping }
 
 商家可針對「單一期數」或「整筆訂閱」進行配送資訊的調整。
 
-### 1. 修改單一期數（子訂單）
+### 1. 修改單一期數（子訂單） { #operate-subscription-orders-edit-child }
 
 在定期訂單列表中，直接點擊文字即可修改：
 
 - **收件者資訊**：僅會更改該期訂單，後續期數維持原狀。
 - **出貨日**：僅更改該期出貨時間。
 
-### 2. 修改整筆訂閱（母訂單）
+### 2. 修改整筆訂閱（母訂單） { #operate-subscription-orders-edit-parent }
 
 點擊 **定期單號** 進入明細頁面進行進階編輯。此處的修改將影響後續所有尚未成立的子訂單：
 
@@ -156,7 +156,7 @@ hide: []
 
     ![](https://www.cyberbiz.co/support/wp-content/uploads/2019/11/定期定額new-28.png){ .screenshot }
 
-## 子訂單成立內容
+## 子訂單成立內容 { #specs-subscription-orders-child }
 
 - **商品與價格**：子訂單將繼承母訂單的商品品項及單價。
 
@@ -167,7 +167,7 @@ hide: []
     > 母訂單建立後，若您調整了定期訂購活動中的「贈品與折扣發送規則」，變更將於儲存後生效，並套用至 **後續成立** 的子訂單。
 
 
-## 常見問題
+## 常見問題 { #faq-subscription-orders }
 
 ??? quote "運費是如何計算的？"
     定期定額訂單預設 **抓取母訂單成立時的運費**。除非商家手動調整了子訂單的商品內容或金額，觸發系統重新判定免運門檻，否則運費不會變動。

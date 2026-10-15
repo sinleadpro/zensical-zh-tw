@@ -227,7 +227,7 @@ hide: []
     ![](../../assets/images/POS-前台-訂單-新增訂單標籤01.png){ .screenshot }
 
     !!! warning "標籤建立權限"
-        此介面僅提供 **選取** 功能，不支援直接建立新標籤。若想建立新的訂單標籤，請前往後台，於 **訂單 > 所有訂單** [新增標籤](../../ec/orders/basics/order-management-interface#批次操作功能)。
+        此介面僅提供 **選取** 功能，不支援直接建立新標籤。若想建立新的訂單標籤，請前往後台，於 **訂單 > 所有訂單** [新增標籤](../../ec/orders/basics/order-management-interface#operate-order-ui-batch-actions)。
         
 - **移除標籤**：於彈出視窗的下拉選單中，選擇欲解除綁定的標籤。
 

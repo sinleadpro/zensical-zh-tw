@@ -80,11 +80,11 @@ hide:
 ![未付款提醒設定](../../../assets/images/ec-訂單-未付款提醒.png){ title="未付款提醒設定" .hero-page }
 
 
-## 未付款提醒說明
+## 未付款提醒說明 { #intro-unpaid-reminder }
 
 在 CYBERBIZ 系統中，**未付款提醒** 功能主要針對下單後尚未完成付款的訂單（不含貨到付款），自動發送通知引導顧客完成支付，以提升轉換率。
 
-## 功能啟閉與間隔設定
+## 功能啟閉與間隔設定 { #operate-unpaid-reminder-toggle }
 
 商家可自訂發送提醒的時間頻率，系統最多會寄發 **3 次** 提醒。
 
@@ -98,7 +98,7 @@ hide:
 
 ---
 
-## 三大通知管道設定
+## 三大通知管道設定 { #operate-unpaid-reminder-channels }
 
 未付款提醒支援 Email、簡訊及 LINE OA 三種管道，商家可依需求個別設定與編輯樣板內容。
 
@@ -108,7 +108,7 @@ hide:
     - **避免違禁詞**：發送簡訊時應避免使用電信商容易攔截的字眼（如：領取、連結、LINE 等），以免發送失敗但仍被計費。
     - **短網址功能**：建議開啟短網址設定，自動將提醒訊息中的連結縮短，以節省簡訊字數（每封上限 70 字）並使 Email 內容更精簡。
 
-### Email 提醒 <small>系統預設開啟</small>
+### Email 提醒 <small>系統預設開啟</small> { #operate-unpaid-reminder-email }
 
 !!! path "**路徑：** 訊息推播 > Email 通知樣板 > 顧客相關 > **顧客訂單未付款提醒信**。"
 
@@ -119,7 +119,7 @@ hide:
 
 ---
 
-### 簡訊提醒 <small>需手動開啟</small>
+### 簡訊提醒 <small>需手動開啟</small> { #operate-unpaid-reminder-sms }
 
 !!! path "**路徑：** 訊息推播 > 簡訊樣板設定 > 顧客相關 > **顧客訂單未付款通知**。"
 
@@ -130,7 +130,7 @@ hide:
 
 ---
 
-### LINE OA 提醒 <small>需手動開啟</small>
+### LINE OA 提醒 <small>需手動開啟</small> { #operate-unpaid-reminder-line-oa }
 
 !!! plan "本功能僅適用 PLUS版 / 企業版 方案。"
 
@@ -152,7 +152,7 @@ hide:
 
 ![LINE OA未付款提醒樣板](../../../assets/images/ec-訊息推播-LINE OA 樣板-顧客訂單未付款提醒信.gif){ title="LINE OA未付款提醒樣板" }
 
-## 相關操作
+## 相關操作 { #next-steps-unpaid-reminder }
 
 <div class="grid cards" markdown>
 
@@ -166,7 +166,7 @@ hide:
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-unpaid-reminder }
 
 ??? quote "顧客已付款卻仍收到提醒"
 

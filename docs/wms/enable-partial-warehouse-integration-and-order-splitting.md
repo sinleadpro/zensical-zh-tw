@@ -189,7 +189,7 @@ hide: []
 - **CYBERBIZ 電商倉儲**：全數商品由 CYBERBIZ 倉庫自動接單並執行發貨。
 
 !!! info "找不到 **出貨方式** 欄位？"
-    若您的列表中未顯示此資訊，請至 [編輯訂單列表欄位](../ec/orders/basics/order-management-interface.md#編輯欄位與排序)，勾選 **出貨方式**。可將其拖曳至前方排序，以便快速辨識訂單處理方。
+    若您的列表中未顯示此資訊，請至 [編輯訂單列表欄位](../ec/orders/basics/order-management-interface.md#operate-order-ui-edit-columns)，勾選 **出貨方式**。可將其拖曳至前方排序，以便快速辨識訂單處理方。
 
 ![](../assets/images/EC-後台-訂單-所有訂單-混單出貨方式01.png){ .screenshot }
 
@@ -199,7 +199,7 @@ hide: []
 | 訂單類型 | 退貨邏輯 | 處理方式 | 退貨流程 |
 | :--- | :--- | :--- | :--- |
 | **倉庫出貨單** | 依照 WMS 退貨流程 | 系統預設將包裹退回 **電商倉庫地址** | [倉儲退貨與派車](returns-and-vehicle-dispatch.md) |
-| **自行出貨單** | 依照標準 EC 退貨流程 | 商家需自行[派逆物流](../ec/orders/order-return-process/#步驟-1啟動退貨與安排逆物流)或由顧客寄回 **商家指定地址** | [訂單退貨流程](../ec/orders/order-return-process.md) | 
+| **自行出貨單** | 依照標準 EC 退貨流程 | 商家需自行[派逆物流](../ec/orders/order-return-process/#operate-order-return-reverse)或由顧客寄回 **商家指定地址** | [訂單退貨流程](../ec/orders/order-return-process.md) | 
 
 
 ## 常見問題 { #faq-partial-split }

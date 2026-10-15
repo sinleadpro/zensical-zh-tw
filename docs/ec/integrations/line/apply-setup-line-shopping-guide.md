@@ -102,7 +102,7 @@ hide: []
 ## 訂單查看與管理 { #operate-setup-line-order-view-manage }
 
 *   **訂單歸類**：透過 LINE 購物導購完成的訂單，可於 **「訂單」>「LINE 購物訂單」** 中[查看](group-buy/setup-line-group-buy-group.md#reference-line-group){ title="設定 LINE 團購群組" }。
-*   **導購來源追蹤**：商家也可在匯出的訂單報表中[查看「導購來源」欄位](../../orders/reports/export-order-report.md#步驟一選擇報表欄位){ title="匯出訂單報表" }，確認訂單是否來自 LINE 購物。
+*   **導購來源追蹤**：商家也可在匯出的訂單報表中[查看「導購來源」欄位](../../orders/reports/export-order-report.md#operate-order-report-select-fields){ title="匯出訂單報表" }，確認訂單是否來自 LINE 購物。
 
 ## 常見問題 { #faq-setup-line }
 

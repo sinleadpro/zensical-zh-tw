@@ -73,7 +73,7 @@ hide: []
 
 ![出貨明細設定](../../../assets/images/EC-金物流-結帳頁物流設定-列印出貨明細-hero.png){ title="出貨明細設定" .hero-page }
 
-## 出貨明細說明
+## 出貨明細說明 { #intro-shipping-print }
 
 「出貨明細」是您在出貨流程中提供給內部倉儲、揀貨、出貨人員使用的書面文件，通常隨包裹一起於出貨流程中備存，協助出貨核對與內部交接。
 
@@ -91,7 +91,7 @@ hide: []
     *   **訂單明細 (顧客)**：通常包含完整的商品內容、單價、金額與配送方式。
     *   **出貨明細 (員工)**：主要提供給倉儲或出貨人員，通常僅包含商品數量與配送地址，**不含訂單金額**，以精簡資訊並節省成本。
 
-## 操作步驟
+## 操作步驟 { #operate-shipping-print }
 
 ### 出貨明細內容設定 { #operate-shipping-detail-settings }
 
@@ -122,7 +122,7 @@ hide: []
 
 ---
 
-#### 3. 儲存設定
+#### 3. 儲存設定 { #operate-shipping-print-save }
 
 於設定區塊底部點選 **「儲存」** 完成基本設定。
 
@@ -196,7 +196,7 @@ hide: []
 
     出貨明細的設計是與「託運單」綁在一起產生的。商家通常會在準備出貨的同一動作中，需要託運單、出貨明細、揀貨單三份文件。系統因此設計成同批產生一份 ZIP，而非每份獨立列印。如僅需顧客面的明細，請參考 [訂單明細列印](order-detail-print.md){ title="設定與列印訂單明細" } 流程。
 
-## 後續操作
+## 後續操作 { #next-steps-shipping-print }
 
 <div class="grid cards" markdown>
 
@@ -211,7 +211,7 @@ hide: []
 </div>
 
 
-## 常見問題
+## 常見問題 { #faq-shipping-print }
 
 ??? quote "出貨明細看起來和訂單明細很像，我該如何分工？"
 
@@ -246,7 +246,7 @@ hide: []
 
 
                                                                    
-## 參考資料                                                      
+## 參考資料 { #reference-shipping-print }
                                                                   
 ### 出貨明細欄位對照表 { #reference-shipping-detail-fields }
 

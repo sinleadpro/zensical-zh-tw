@@ -131,7 +131,7 @@ hide: []
   若需在帶有推薦碼的網址（即包含 `?rcode=...`）手動添加 UTM，必須在 rcode 後方以「**&**」隔開參數。
 
 - :lucide-file-spreadsheet:{ .lg }  
-  [__訂單報表匯出__](../../orders/reports/export-order-report.md#步驟一選擇報表欄位){ title="匯出訂單報表" }  
+  [__訂單報表匯出__](../../orders/reports/export-order-report.md#operate-order-report-select-fields){ title="匯出訂單報表" }  
   後台「訂單報表匯出」支援選取 UTM 相關欄位（如來源、媒介、活動名稱等），方便商家直接下載 Excel 進行線下分析。
 
 </div>
