@@ -165,7 +165,7 @@ hide: []
 
 !!! info "擴充自訂資訊"
     - **常用收件人資訊**：查看會員自行新增的常用配送名單。
-    - **自訂欄位**：檢視商家[自定義之註冊欄位](../website-management/customer-registration-flow-and-fields.md#步驟-4-建立與管理自訂欄位)，以及會員對應的填答內容。
+    - **自訂欄位**：檢視商家[自定義之註冊欄位](../website-management/customer-registration-flow-and-fields.md#operate-customer-reg-custom)，以及會員對應的填答內容。
       > 本功能僅支援 **高手 PLUS版 與企業版** 客戶使用。
 
 ## 任務三：消費行為與訂單管理 { #operate-member-profiles-orders }

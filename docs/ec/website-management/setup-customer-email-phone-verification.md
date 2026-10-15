@@ -201,7 +201,7 @@ hide: []
 
 ## 重要規範與限制 { #specs-customer-verification }
 
-### 驗證信件 / 簡訊通知開關
+### 驗證信件 / 簡訊通知開關 { #specs-customer-verification-notify }
 
 啟用「電子郵件驗證」後，請確認 **訊息推播 > Email 通知樣板 > 顧客相關 > 顧客請求發送驗證碼** 的開關保持開啟，請勿關閉。
 

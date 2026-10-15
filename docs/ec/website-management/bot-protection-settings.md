@@ -92,7 +92,7 @@ hide: []
 
 若你已啟用會員註冊簡訊驗證，且開通海外簡訊，網站可能被惡意程式反覆觸發「發送驗證碼」，在短時間內 **產生大量海外簡訊費用**。啟用此功能後，顧客點擊「發送驗證碼」前須先通過 Cloudflare Turnstile 機器人驗證，通過後系統才會寄出簡訊，降低此類攻擊造成的損失。
 
-### 步驟 1：取得驗證金鑰
+### 步驟 1：取得驗證金鑰 { #operate-security-sms-key }
 
 1. **前往 Cloudflare 後台**：[註冊或登入 Cloudflare 帳號](https://dash.cloudflare.com/login)，於 Cloudflare 後台搜尋 **Turnstile**。
 
@@ -135,7 +135,7 @@ hide: []
     ![](../../assets/images/cloudflare-後台-建立Turnstile07.png){ .screenshot }
 
 
-### 步驟 2：後台綁定金鑰
+### 步驟 2：後台綁定金鑰 { #operate-security-sms-bind }
 
 1. **進入設定頁：** 前往 **管理中心 > 安全性設定 > 機器人防護**。
 2. **填入金鑰：** 分別輸入 **Site key** 與 **Secret key**。
@@ -158,7 +158,7 @@ hide: []
     若清除已儲存的金鑰，**啟用驗證** 開關會同步關閉，前台將不再顯示機器人驗證。
 
 
-## 常見問題
+## 常見問題 { #faq-security }
 
 ??? quote "設定時出現 **目前網域未授權，請至 Cloudflare 後台舊網域加入允許清單** 錯誤訊息？"
     1. 登入 Cloudflare 後台，進入Turnstile 小工具頁面，點選編輯小工具，前往 **主機名稱管理**。

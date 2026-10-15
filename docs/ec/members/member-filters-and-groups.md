@@ -217,7 +217,7 @@ hide: []
 
 ### 自訂欄位 { #specs-member-filters-custom }
 
-若您在 **管理中心 > 顧客註冊設定** 中 [新增自訂欄位](../website-management/customer-registration-flow-and-fields.md#步驟-4-建立與管理自訂欄位)，可在本區塊針對填寫內容進行篩選。
+若您在 **管理中心 > 顧客註冊設定** 中 [新增自訂欄位](../website-management/customer-registration-flow-and-fields.md#operate-customer-reg-custom)，可在本區塊針對填寫內容進行篩選。
 
 - 支援欄位格式：文字輸入、勾選方塊、下拉選單、日期。
 - 不支援欄位格式：上傳圖片。

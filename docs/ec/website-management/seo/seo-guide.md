@@ -71,7 +71,7 @@ icon: "lucide/search"
 hide: []
 ---
 
-## SEO 說明
+## SEO 說明 { #intro-seo-guide }
 
 SEO (搜尋引擎優化，Search Engine Optimization) 是改善網站自然排名（非付費廣告）的過程，旨在讓搜尋引擎更容易找到您的網站並給予較高的排名，進而提升網頁能見度與流量轉換。
 
@@ -82,7 +82,7 @@ CYBERBIZ 系統提供的 SEO 優化範圍涵蓋了 **首頁、商品頁、商品
     *   SEO 設定後需要一定的 **等待期**（依 Google 排程而定），建議儘早完成設定。
     *   針對多國語系店家，系統支援針對不同語系設定各自獨立的 SEO 內容。
 
-## 圖片 SEO 設定 <small>ALT 屬性</small>
+## 圖片 SEO 設定 <small>ALT 屬性</small> { #operate-seo-guide-images }
 
 為圖片加入 ALT 文字能提升訪問體驗，當圖片無法顯示時會以文字取代，並協助搜尋引擎準確定義圖片內容。
 
@@ -91,14 +91,14 @@ CYBERBIZ 系統提供的 SEO 優化範圍涵蓋了 **首頁、商品頁、商品
 
 ![](../../../assets/images/ec-商品-商品編輯頁-商品描述-影響屬性編輯.gif)
 
-## 商品頁 SEO 設定
+## 商品頁 SEO 設定 { #operate-seo-guide-product }
 
 *   **操作路徑**：登入管理後台，前往「商品」>「所有商品」> 點選商品 >「設定」，往下滑找到 **「SEO設定」**。
 *   **設定內容**：可編輯網頁標題與描述，長度建議不超過 **225 個字元**。
 
 ![](../../../assets/images/ec-商品-商品編輯頁-設定-seo設定.gif)
 
-## 商品群組 (分類頁) SEO 設定
+## 商品群組 (分類頁) SEO 設定 { #operate-seo-guide-collection }
 
 這能讓特定的商品分類（如自訂分類或條件分類）更容易在搜尋結果中被找到。
 
@@ -107,7 +107,7 @@ CYBERBIZ 系統提供的 SEO 優化範圍涵蓋了 **首頁、商品頁、商品
 
 ![](../../../assets/images/ec-商品-自訂分類-群組編輯頁-metatag設定.gif)
 
-## 官網全站 SEO 設定
+## 官網全站 SEO 設定 { #operate-seo-guide-site }
 
 包含整體網站的標題與全站關鍵字。
 
@@ -123,7 +123,7 @@ CYBERBIZ 系統提供的 SEO 優化範圍涵蓋了 **首頁、商品頁、商品
 !!! note "延伸閱讀"
     關於網站標題與 SEO 的詳細設定，請參考[設定網站標題與 SEO](../../website-appearance/site-settings/setup-site-title-seo.md){ title="設定網站標題與 SEO" }或直接前往[搜尋引擎結果頁(SERP)設定](../../website-appearance/site-settings/setup-site-title-seo.md#operate-site-title-serp){ title="搜尋引擎結果頁(SERP)" }。
 
-## 部落格與其他自訂頁面 SEO
+## 部落格與其他自訂頁面 SEO { #operate-seo-guide-pages }
 
 <div class="grid cards" markdown>
 
@@ -137,7 +137,7 @@ CYBERBIZ 系統提供的 SEO 優化範圍涵蓋了 **首頁、商品頁、商品
 
 </div>
 
-## Sitemap 提交與轉址維護
+## Sitemap 提交與轉址維護 { #next-steps-seo-guide }
 
 
 <div class="grid cards" markdown>
@@ -153,7 +153,7 @@ CYBERBIZ 系統提供的 SEO 優化範圍涵蓋了 **首頁、商品頁、商品
 </div>
 
 
-## 常見問題
+## 常見問題 { #faq-seo-guide }
 
 ??? quote "SEO 設定後多久會看到效果？"
 

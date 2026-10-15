@@ -85,7 +85,7 @@ LINE Tag 是 LINE 提供的網站追蹤代碼，功能類似 Facebook Pixel，�
 - [x] 若您的瀏覽器有安裝 **AdBlock（廣告攔截器）**，設定或檢查時請先將其關閉，以免干擾數據追蹤。
 - [x] 操作人員需具備 **管理中心 > 網站權限** 的 **設置** 權限，方可進行串接設定。 
 
-    [修改管理者權限](../../../website-management/add-admin-set-permissions/#管理者權限設定與修改){ data-preview }
+    [修改管理者權限](../../../website-management/add-admin-set-permissions/#operate-admin-perms-edit){ data-preview }
 
 
 ## 取得與設定 LINE Tag ID { #operate-line-tag }

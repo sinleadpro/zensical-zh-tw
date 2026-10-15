@@ -168,7 +168,7 @@ hide: []
 ## 重要注意事項 { #prerequisites-order-report-notes }
 
 1.  **信箱檢查**：若未收到報表郵件，請檢查垃圾信件夾，或避免使用 Hinet 信箱，因其阻擋機制較強。
-2.  **匯出權限**：網站擁有者可於「網站權限」中[限制特定管理員執行「訂單匯出」的權限](../../website-management/add-admin-set-permissions.md#權限分類與細節說明){ title="新增網站管理員並設定權限" }，以降低資安風險。
+2.  **匯出權限**：網站擁有者可於「網站權限」中[限制特定管理員執行「訂單匯出」的權限](../../website-management/add-admin-set-permissions.md#specs-admin-perms){ title="新增網站管理員並設定權限" }，以降低資安風險。
 
 ## 常見問題 { #faq-order-report }
 

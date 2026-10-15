@@ -96,7 +96,7 @@ hide: []
 
     === ":simple-gandi: GANDI"
 
-        1. 需先完成 [CNAME 與轉址設定](../../../website-management/domain-management.md#各大廠商-dns-設定指引){ title="網域管理" }
+        1. 需先完成 [CNAME 與轉址設定](../../../website-management/domain-management.md#operate-domain-mgmt-dns){ title="網域管理" }
         2. 登入 [Gandi 後台 :lucide-external-link:](https://admin.gandi.net/)，於「區域檔紀錄」新增一筆 TXT 紀錄，名稱輸入 `@`，內容貼上複製的 TXT 代碼。
 
         ![](../../../../assets/images/ec-第三方整合-meta企業管理平台-dnd-txt紀錄新增-gandi.png)
@@ -109,7 +109,7 @@ hide: []
 
     === "HiNet"
         
-        1. 完成 [CNAME 與轉址](../../../website-management/domain-management.md#各大廠商-dns-設定指引){ title="網域管理" }。
+        1. 完成 [CNAME 與轉址](../../../website-management/domain-management.md#operate-domain-mgmt-dns){ title="網域管理" }。
         2. 登入 [HiNet 網站 :lucide-external-link:](https://domain.hinet.net/#/)，前往「我的網域」>「轉址服務」> 「設定轉址」，複製 Ａ 紀錄 IP。
 
             ![HiNet-複製Ａ紀錄IP](../../../../assets/images/ec-第三方整合-meta企業管理平台-更新dns-hinet-複製a紀錄ip.png)

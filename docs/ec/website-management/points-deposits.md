@@ -65,7 +65,7 @@ hide:
 
 ![儲值中心](../../assets/images/ec-管理中心-儲值中心.png){ .hero-page }
 
-## CYBER 幣說明
+## CYBER 幣說明 { #intro-cyber-coin }
 
 CYBER 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務，包含：
 
@@ -75,7 +75,7 @@ CYBER 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
 
 !!! warning "CYBER 幣購買後 *無法退費*，購買前請確認需求並詳閱 [CYBERBIZ 使用條款](https://www.cyberbiz.io/terms-of-service/)。"
 
-## 頁面功能總覽
+## 頁面功能總覽 { #overview-cyber-coin }
 
 !!! path "後台路徑：管理中心 > 儲值中心。"
 
@@ -113,7 +113,7 @@ CYBER 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
 ??? plan "方案差異"
     若您的帳號為 PLUS版  / 企業版，系統將顯示「無需儲值」提示。相關費用將自動列入對帳單，不需手動操作儲值流程。 
 
-## 服務計費說明
+## 服務計費說明 { #specs-cyber-coin-billing }
 
 ### 簡訊 <small>SMS</small> { #operate-points-sms }
 
@@ -132,7 +132,7 @@ CYBER 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
 !!! plan "方案差異"
     若您的帳號為 PLUS版  / 企業版，系統將顯示「無需儲值」提示。相關費用將自動列入對帳單，不需手動操作儲值流程。 
 
-### 步驟一：輸入儲值金額
+### 步驟一：輸入儲值金額 { #operate-cyber-coin-amount }
 
 1. 登入 CYBERBIZ 後台，前往 **管理中心 > 儲值中心**，往下捲動至「**立即購買 CYBER 幣**」區塊。
 2. 在輸入框填入欲儲值的金額（台幣）。
@@ -143,7 +143,7 @@ CYBER 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
 
 ---
 
-### 步驟二：確認儲值明細
+### 步驟二：確認儲值明細 { #operate-cyber-coin-confirm }
 
 購買視窗中會顯示：
 
@@ -153,7 +153,7 @@ CYBER 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
 
 ---
 
-### 步驟三：填寫發票資訊
+### 步驟三：填寫發票資訊 { #operate-cyber-coin-invoice }
 
 請選擇發票類型並填寫對應欄位：
 
@@ -191,7 +191,7 @@ CYBER 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
 
 ---
 
-### 步驟四：選擇付款方式
+### 步驟四：選擇付款方式 { #operate-cyber-coin-pay }
 
 === ":lucide-credit-card: 信用卡付款"
 
@@ -268,7 +268,7 @@ CYBER 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
 
 ![明細匯出](../../assets/images/ec-管理中心-儲值中心-明細匯出.png)
 
-## 後續操作
+## 後續操作 { #next-steps-cyber-coin }
 
 <div class="grid cards" markdown>
 
@@ -282,7 +282,7 @@ CYBER 幣是 CYBERBIZ 平台的專屬點數，用於支付平台內各項服務�
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-cyber-coin }
 
 ??? quote "儲值後 CYBER 幣多久會入帳？"
 

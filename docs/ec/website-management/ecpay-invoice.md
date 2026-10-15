@@ -70,28 +70,28 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 所有 PLUS
 { .doc-badge }
 
-## 申請條件
+## 申請條件 { #prerequisites-ecpay-invoice }
 
 - [X] 商家需具備確實營利登記，且綠界帳戶需為 **商務會員** 或 **特約會員** 以上等級。
 - [X] 在本國境內有確實 **營利登記** 的公司。
 - [X] 無積欠已確定之營業稅及罰鍰、營利事業所得稅及罰鍰。
 
-## 使用須知
+## 使用須知 { #prerequisites-ecpay-notes }
 
 - **字軌管理**：請務必定期至綠界後台確認「發票字軌」是否充足。若字軌用罄，系統將無法自動開票。
 - **客服支援**：關於綠界帳戶權限、字軌上傳等問題，請洽綠界客服：02-2655-1775。
 
 
 
-## 申請流程
+## 申請流程 { #operate-ecpay-invoice-apply }
 
 
 1. 請先進行 [綠界服務申請](https://member.ecpay.com.tw/MemberReg/MerchantRegister)，相關申請流程可參考 [綠界網頁說明](https://www.ecpay.com.tw/Business/einvoice_knowledge_flow)。
 2. 完成註冊且確認電子發票開通完成後，可進行以下設定。
 
-## 串接流程
+## 串接流程 { #operate-ecpay-invoice }
 
-### 步驟一：取得綠界串接資訊
+### 步驟一：取得綠界串接資訊 { #operate-ecpay-invoice-keys }
 
 在開始設定前，請先備妥綠界端的金鑰資訊。
 
@@ -101,7 +101,7 @@ hide: []
 
 ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-綠界02.png){ .screenshot }
 
-### 步驟二：後台資訊串接
+### 步驟二：後台資訊串接 { #operate-ecpay-invoice-bind }
 
 將取得的資訊填入 CYBERBIZ 系統。
 
@@ -115,11 +115,11 @@ hide: []
 
     ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-綠界03.png){ .small-image }
 
-### 步驟三：設定發票開立時機
+### 步驟三：設定發票開立時機 { #operate-ecpay-invoice-timing }
 
 在 **發票開立時間** 區塊，選擇一或多個發票開立時間。各選項的觸發條件與限制，請參考[發票開立時間說明](#specs-invoice-issuance-timing)。
 
-## 系統邏輯說明
+## 系統邏輯說明 { #specs-ecpay-invoice }
 
 ### 發票開立時間說明 { #specs-invoice-issuance-timing }
 
@@ -148,7 +148,7 @@ hide: []
     - **設定建議**：若使用自訂物流，系統無法串接貨態，配送狀態會停留在 **已出貨**。僅勾選 **取貨時** 時，系統無法自動開立發票；建議同時勾選 **出貨時**。
 
 
-### 取消與退貨處理
+### 取消與退貨處理 { #specs-ecpay-invoice-return }
 
 系統會根據訂單狀態自動連動綠界執行發票異動：
 
@@ -159,7 +159,7 @@ hide: []
 
 
 
-## 常見問題
+## 常見問題 { #faq-ecpay-invoice }
 
 ??? quote "為什麼發票顯示「開立失敗」？"
     請前往該訂單頁面，查看左下角的 **訂單操作紀錄**。
