@@ -67,17 +67,17 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 全版本
 { .doc-badge }
 
-## 使用須知
+## 使用須知 { #prerequisites-coupon-bonus }
 - **適用範圍**：因訂單消費而回饋至會員帳戶的紅利點數與優惠券。
 - **不適用範圍**：
     - 註冊禮、生日禮、全館或手動立即發送的紅利／優惠券
     - [全館折扣送優惠券](../discounts/storewide-discounts.md)（優惠券於訂單成立時發送，訂單結案後方可啟用）
     - 顧客於結帳時折抵使用的紅利／優惠券
 
-        > 折抵用紅利退貨時是否返還，請見 [設定紅利點數：退貨處理](../bonus-and-gifts/setup-bonus-points.md#退貨處理)
+        > 折抵用紅利退貨時是否返還，請見 [設定紅利點數：退貨處理](../bonus-and-gifts/setup-bonus-points.md#specs-bonus-details)
 
 
-## 歸戶條件
+## 歸戶條件 { #specs-coupon-bonus-conditions }
 
 消費回饋不會在付款成功當下入帳。系統會在商家確認訂單完成、且訂單沒有執行退貨後，才將紅利或優惠券寫入會員帳戶。
 
@@ -87,7 +87,7 @@ hide: []
 - 退貨狀態：**不需退貨**
 
 
-## 商家常見情境
+## 商家常見情境 { #intro-coupon-bonus }
 
 | 商家操作情境 | 結案當下的退貨狀態 | 系統結果 | 後續處理建議 |
 | --- | --- | --- | --- |
@@ -100,7 +100,7 @@ hide: []
 !!! tip "建議時機"
     建議等訂單過退換貨期間、確定已無退貨需求後，再按下 **結案訂單**，以確保紅利發放的準確性並減少事後手動調整的需求。
 
-## 更多操作
+## 更多操作 { #operate-coupon-bonus }
 
 
 <div class="grid cards" markdown>

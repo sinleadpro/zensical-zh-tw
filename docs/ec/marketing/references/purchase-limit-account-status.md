@@ -53,7 +53,7 @@ hide:
 ---
 
 
-### 帳號狀態與購買權限對照表 { #reference-purchase-limit-account }
+### 帳號狀態與購買權限對照表 { #reference-purchase-limit-account-status }
 
 顧客能否購買限購群組內的商品，取決於是否登入以及會員的帳號狀態。一般(非限購)商品不受此限制。
 

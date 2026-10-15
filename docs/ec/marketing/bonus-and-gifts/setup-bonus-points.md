@@ -92,21 +92,21 @@ hide: []
 	- **補償或獎勵**：手動發送點數給特定會員，作為客服補償或專屬活動獎勵。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-bonus-points }
 
 - **發送計算基準**：紅利點數贈送以 **不含運費** 的結帳金額計算。
 - **生效時間**：修改紅利發送規則後，僅適用於 **設定後** 產生的行為，不影響已發送的點數。
 - **匯入限制**：紅利點數一旦發送或刪除，系統無法自動撤回或復原，請謹慎操作。
 
 
-### 訂單紅利歸戶規則
+### 訂單紅利歸戶規則 { #prerequisites-bonus-points-order-bonus-rules }
 
 
 消費回饋的紅利須在訂單 **已結案**、且退貨狀態為 **不需退貨** 時才會歸戶；退貨中、退貨審查、拒絕退貨等情境則不歸戶。
 
 完整條件與情境說明，請見[優惠券／紅利歸戶規則](../references/coupon-and-bonus-credit-rules.md)。
 
-## 操作流程
+## 操作流程 { #operate-bonus-points }
 
 1. 登入 CYBERBIZ 管理後台，前往 **行銷活動 > 全館折扣-紅利 & 優惠券**。
 2. 下拉找到 **會員紅利點數** 區塊，將功能切換為 `開啟`。
@@ -120,9 +120,9 @@ hide: []
 
    ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-設定會員紅利點數01.png){ .screenshot }
 
-## 紅利發送方式
+## 紅利發送方式 { #operate-bonus-points-bonus-send }
 
-### A. 全站消費回饋（自動發送）
+### A. 全站消費回饋（自動發送） { #operate-bonus-points-bonus-send-a-send }
 
 在 **會員紅利點數** 區塊設定「消費門檻」與「贈送點數」。
 
@@ -137,7 +137,7 @@ hide: []
 
 </div>
 
-### B. 全館發送（針對所有會員）
+### B. 全館發送（針對所有會員） { #operate-bonus-points-bonus-send-b-send-member }
 
 1. 在同頁面點選 **全館發送紅利點數** 展開欄位。
 2. 輸入點數、期限與發送名稱，點選 **確認新增**。
@@ -145,7 +145,7 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/紅利點數2-1.png){ .screenshot }
 
-### C. 手動發送（針對特定會員）
+### C. 手動發送（針對特定會員） { #operate-bonus-points-bonus-send-c-send-member }
 
 前往 **會員 > 所有會員**。
 
@@ -167,7 +167,7 @@ hide: []
     </div>
 
 
-### D. EXCEL 批次發送
+### D. EXCEL 批次發送 { #operate-bonus-points-bonus-send-d-excel-send }
 
 !!! info "使用須知"
     - 此功能僅限 **企業版** 使用。
@@ -186,7 +186,7 @@ hide: []
 
 
 
-## 設定商品級折抵上限
+## 設定商品級折抵上限 { #operate-bonus-points-settings-product }
 
 您可以針對個別商品設定紅利折抵上限。**若欲開放該商品進行紅利折抵，請填寫可折抵的點數數值**；**若此欄位保留為 0，則代表該商品不開放紅利折抵**。
 
@@ -205,7 +205,7 @@ hide: []
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/設定紅利購物金說明03.png){ .screenshot }
 
-## 結帳頁自動帶入紅利
+## 結帳頁自動帶入紅利 { #intro-bonus-points }
 
 系統預設 **開啟** 結帳頁自動帶入會員紅利，商家可設定當會員進入結帳頁面時，系統是否自動帶入該會員目前可使用的紅利點數上限。
 
@@ -223,13 +223,13 @@ hide: []
 
     ![](../../../assets/images/EC-前台-結帳頁-會員紅利折抵欄位01.png){ .screenshot }
 
-## 系統邏輯說明
+## 系統邏輯說明 { #specs-bonus-points }
 
-### 折扣套用順序
+### 折扣套用順序 { #specs-bonus-points-discount }
 
 紅利點數的折抵順序在 **所有折扣優惠之後**。意即系統會先計算完所有促銷活動、優惠券後，最後才扣除紅利點數。
 
-### 取消處理
+### 取消處理 { #specs-bonus-points-intro-details }
 
 當訂單尚未出貨時，商家或消費者均可取消訂單。系統針對取消訂單的紅利處理規則如下：
 
@@ -238,7 +238,7 @@ hide: []
 | **取消訂單** | 自動歸還至消費者帳戶 | 若訂單尚未結案，則不發送回饋<br>若已結案且點數已使用，則不予扣回 |
 
 
-### 退貨處理
+### 退貨處理 { #specs-bonus-points-details }
 
 商家可自訂退貨時的紅利處理規則：
 
@@ -258,7 +258,7 @@ hide: []
 !!! warning "串倉商家注意"
     此自動返還功能不支援串倉商家。串倉訂單退貨時，系統皆不會自動返還或發送紅利點數。
 
-### 結案後執行退貨
+### 結案後執行退貨 { #specs-bonus-points-information }
 
 若訂單已結案才進行退貨，購物所獲得的紅利點數 **不會自動從會員帳戶中扣除**。
 
@@ -268,9 +268,9 @@ hide: []
 
 
 
-## 管理與分析
+## 管理與分析 { #operate-bonus-points-manage }
 
-### 查詢紅利點數
+### 查詢紅利點數 { #operate-bonus-points-manage-query-bonus }
 
 === "商家端"
 
@@ -290,17 +290,17 @@ hide: []
     
     ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/購買指定商品送紅利13.png){ .screenshot }
 
-### 紅利點數兌換比率
+### 紅利點數兌換比率 { #operate-bonus-points-manage-bonus }
 
 系統會根據設定的比例，自動換算並顯示對應的金額：
 
-#### 使用須知
+#### 使用須知 { #operate-bonus-points-manage-requirements }
 
 - 此功能僅限 **企業版專用**。
 - 兌換匯率僅於「紅利折抵」時生效。
 - 若商家更改換算匯率，將直接影響消費者帳戶內現有紅利的折現價值。
 
-#### 前台顯示範例
+#### 前台顯示範例 { #operate-bonus-points-manage-reference-details }
 
 - **會員中心**：顯示可用點數及約略等值金額。
 
@@ -317,7 +317,7 @@ hide: []
     ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明12.png){ .screenshot }
 
 
-#### 報表匯出欄位
+#### 報表匯出欄位 { #operate-bonus-points-manage-report-export-fields }
 
 可於 [匯出訂單報表](../../orders/reports/export-order-report.md) 時，將同步呈現紅利折抵與金額換算之詳細欄位：
 
@@ -328,7 +328,7 @@ hide: []
 
 
 
-### 查詢與匯出報表
+### 查詢與匯出報表 { #operate-bonus-points-manage-query-export-report }
 
 1. 前往 **分析報表 > 行銷活動分析 > 紅利分析**。
 
@@ -343,7 +343,7 @@ hide: []
     ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明16.png){ .screenshot }
 
 
-## 更多操作
+## 更多操作 { #operate-bonus-points-operate }
 
 <div class="grid cards" markdown>
 
