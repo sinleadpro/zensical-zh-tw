@@ -84,7 +84,7 @@ hide: []
 
 ![LIFF產生網址](../../../../assets/images/ec-第三方整合-line liff-產生網址.png){ title="LIFF產生網址" .hero-page }
 
-## 什麼是 LIFF
+## 什麼是 LIFF { #intro-liff-binding }
 
 **LINE Front-end Framework（LIFF）** 是由 LINE 提供的 Web App 嵌入框架，可讓網站頁面直接在 LINE App 內開啟，並存取 LINE 使用者身分資訊。
 
@@ -97,7 +97,7 @@ hide: []
 - 搭配官方帳號進行好友綁定
 
 
-## 為什麼要使用 LIFF
+## 為什麼要使用 LIFF { #intro-liff-binding-use-liff }
 
 使用 LIFF 的主要目的，是 **降低會員登入與導購流程的摩擦成本**：
 
@@ -107,7 +107,7 @@ hide: []
     
 - **避免跳轉問題：** 解決一般網址在 LINE 中需經過外部瀏覽器跳轉的體驗問題。
 
-## 後台設定步驟
+## 後台設定步驟 { #operate-liff-binding }
 
 1. **進入路徑：** 登入後台，前往 **第三方整合 > LINE 註冊登入**。
 
@@ -115,7 +115,7 @@ hide: []
 	
 	- [x] 已完成[「LINE 快速登入」設定](setup-line-quick-login.md){ title="設定 LINE 快速登入" }。  
 	
-	- [x] 已完成 [LINE OA 與 LINE Login Channel 連動](setup-line-quick-login.md#導引加入好友){ title="設定 LINE 快速登入" }。
+	- [x] 已完成 [LINE OA 與 LINE Login Channel 連動](setup-line-quick-login.md#intro-line-quick-advanced-overview-line-quick){ title="設定 LINE 快速登入" }。
 
 4. **啟用 LIFF：** 開啟 **自動產生 LIFF 網址** 開關，並點選 **儲存設定**。
 
@@ -140,10 +140,10 @@ hide: []
     !!! warning "請 **統一使用 CYBERBIZ 後台生成** 的 LIFF 連結，請勿擅自更動 LINE Developers 後台中的專屬 LIFF 設定，以免導致跳轉機制失效。"
 
     !!! tip "想要在 LIFF 流程中一併取得會員手機號碼？"
-      若您擁有 LINE Certified Provider 資格( 參閱 [申請 LINE Certified Provider 文件 :lucide-external-link:](https://drive.google.com/file/d/1oSF07fHFdx_s4gXVhDv0zw81Su3usQKY/view))，可以進一步開啟 `phone` 權限。詳細設定請參閱 [如何設定 LINE 快速登入時取得會員手機號碼](setup-line-quick-login-phone-number.md#搭配-liff-應用){ title="設定 LINE 快速登入時取得會員手機號碼" }。
+      若您擁有 LINE Certified Provider 資格( 參閱 [申請 LINE Certified Provider 文件 :lucide-external-link:](https://drive.google.com/file/d/1oSF07fHFdx_s4gXVhDv0zw81Su3usQKY/view))，可以進一步開啟 `phone` 權限。詳細設定請參閱 [如何設定 LINE 快速登入時取得會員手機號碼](setup-line-quick-login-phone-number.md#intro-line-phone-login-liff){ title="設定 LINE 快速登入時取得會員手機號碼" }。
 
 
-## 如何製作特定頁面的 LIFF 連結
+## 如何製作特定頁面的 LIFF 連結 { #intro-liff-binding-page-liff }
 
 若要引導顧客進入特定活動頁或商品頁，請遵循以下替換規則：
 
@@ -156,7 +156,7 @@ hide: []
 	- LIFF 網址：`https://liff.line.me/20011118364-jwZ5bzq7/events/sales`
 
 
-## 前台使用者流程
+## 前台使用者流程 { #operate-liff-binding-frontend-use-flow }
 
 1. **點選連結：** 消費者在 LINE 內點擊 LIFF 網址。
 
@@ -168,7 +168,7 @@ hide: []
 
 ![LIFF自動登入流程](../../../../assets/images/ec-第三方整合-line-liff登入.gif){ title="LIFF自動登入流程" }
 
-## 應用情境範例
+## 應用情境範例 { #intro-liff-binding-overview-liff-binding }
 
 商家可將 LIFF 連結埋設於以下位置：
 
@@ -181,7 +181,7 @@ hide: []
 - **社群導購：** 在 LINE 群組或聊天室分享特定商品頁或一頁式商店連結。
 
 
-## 注意事項與限制
+## 注意事項與限制 { #prerequisites-liff-binding }
 
 - **iOS 瀏覽器設定：** 若 iOS 用戶在 LINE APP 的「LINE Labs」內開啟了「預設瀏覽器開啟連結」，則 LIFF 自動登入功能將不適用。
 
@@ -190,7 +190,7 @@ hide: []
 - **資格限制：** LINE Certified Provider 僅開放「公司、商行、商號」申請，個人或財團法人無法申請。
 
 
-## 常見問題
+## 常見問題 { #faq-liff-binding }
 
 ??? quote "為什麼點選 LIFF 連結後，系統沒有自動加好友"
 	這通常與 **LINE 管道設定** 或 **商家資格** 有關：

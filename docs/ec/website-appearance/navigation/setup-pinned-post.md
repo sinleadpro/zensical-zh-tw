@@ -74,15 +74,15 @@ related:
     **置頂公告** 已改為獨立設定頁，不再內嵌於導覽列。**此功能正陸續開放中**。請依後台畫面選擇對應教學：
 
     - 若側邊欄已有 **置頂公告**：依本頁教學操作（新版）。
-    - 若尚無此選單：請先至導覽列 [設定原版置頂公告](setup-menus-navigation.md#置頂公告)，待站台開放新版後再改用本頁。
+    - 若尚無此選單：請先至導覽列 [設定原版置頂公告](setup-menus-navigation.md#operate-menus-nav-announce)，待站台開放新版後再改用本頁。
 
-## 使用須知
+## 使用須知 { #prerequisites-pinned-post }
 
 - **公告上限**：最多可建立 **5 組** 公告。
 - **顯示條件**：僅 **公開** 且狀態為 **進行中** 的公告會顯示於前台。
 - **過期保留**：超過結束時間後，公告會自動隱藏，設定仍保留在列表中。
 
-## 公告類型
+## 公告類型 { #specs-pinned-post-types }
 
 === "圖片公告"
     
@@ -98,9 +98,9 @@ related:
     ![](../../../assets/images/EC-前台-首頁-置頂公告預覽03.png){ .screenshot }
     
 
-## 新增公告
+## 新增公告 { #operate-pinned-post }
 
-### 步驟 1：進入置頂公告列表
+### 步驟 1：進入置頂公告列表 { #operate-pinned-post-enter }
 
 1. 登入 CYBERBIZ 管理後台，前往 **網站外觀 > 套版主題管理**，點擊 **網站設定**。
 2. 於側邊欄選擇 **置頂公告**。
@@ -113,7 +113,7 @@ related:
 
 
 
-### 步驟 2：設定排程發佈
+### 步驟 2：設定排程發佈 { #operate-pinned-post-schedule }
 
 每組公告皆可設定 **上架時間** 與 **下架時間**，系統依目前時間自動判定狀態。
 
@@ -134,7 +134,7 @@ related:
     11/11 零點時，系統自動隱藏公告 A，並切換顯示公告 B。
 
 
-### 步驟 3：編輯公告內容
+### 步驟 3：編輯公告內容 { #operate-pinned-post-content }
 
 === "圖片公告"
 
@@ -164,7 +164,7 @@ related:
     ![](../../../assets/images/EC-後台-網站外觀-套版主題管理-建立置頂公告05.png){ .screenshot }
 
 
-## 選擇顯示模式
+## 選擇顯示模式 { #operate-pinned-post-display }
 
 於列表頁設定多組公告的呈現方式：
 
@@ -182,7 +182,7 @@ related:
 
 ![](../../../assets/images/EC-後台-網站外觀-套版主題管理-管理置頂公告02.png){ .screenshot }
 
-## 管理公告列表
+## 管理公告列表 { #operate-pinned-post-manage }
 
 在列表中可執行以下操作：
 
@@ -198,7 +198,7 @@ related:
 
 ![](../../../assets/images/EC-後台-網站外觀-套版主題管理-管理置頂公告04.png){ .screenshot }
 
-## 常見問題
+## 常見問題 { #faq-pinned-post }
 
 ??? quote "最多可以設定幾組公告？"
     上限為 **5 組**。

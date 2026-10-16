@@ -13,7 +13,7 @@ hide:
   - feedback
 ---
 
-## 前置設定
+## 前置設定 { #prerequisites-facebook-shop }
 
 <div class="grid cards" markdown>
 
@@ -37,7 +37,7 @@ hide:
 
 ---
 
-## 商店串接與管理
+## 商店串接與管理 { #operate-facebook-shop }
 
 <div class="grid cards" markdown>
 

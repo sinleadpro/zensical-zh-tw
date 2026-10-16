@@ -83,7 +83,7 @@ hide: []
 	- **即時數位服務**：門市人員可透過行動裝置查看會員資產，提供個人化服務。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-storepal-install }
 
 - **申請方式**：若您尚未購買門市助理服務，請聯繫您的 CYBERBIZ 客服顧問或填寫[申請表單](https://docs.google.com/forms/d/e/1FAIpQLScAzqU3OckpsS-XBy3yvioKksDBazronFTuEl_RBonxCATHaQ/viewform)。
 - **系統限制**：門市助理僅支援 **新版 VIP 制度**，舊版 VIP 商家不適用。
@@ -92,9 +92,9 @@ hide: []
 
 
 
-## 操作流程
+## 操作流程 { #operate-storepal-install }
 
-### 步驟一：確認安裝狀態
+### 步驟一：確認安裝狀態 { #operate-storepal-install-step-status }
 
 完成購買後，CYBERBIZ 顧問團隊將協助初始安裝。
 
@@ -104,7 +104,7 @@ hide: []
 
 	![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-安裝與前期資料設置01.png){ .screenshot }
 
-### 步驟二：LINE 前置設定
+### 步驟二：LINE 前置設定 { #operate-storepal-install-step-line-settings }
 
 為確保掃碼綁定流程順暢，需完成 LINE 相關認證與連動。
 
@@ -123,7 +123,7 @@ hide: []
 
 
 
-### 步驟三：會員註冊設定
+### 步驟三：會員註冊設定 { #operate-storepal-install-step-member-settings }
 
 門市助理需仰賴手機號碼作為會員唯一識別碼。
 
@@ -136,7 +136,7 @@ hide: []
 
 	  ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-安裝與前期資料設置02.png){ .screenshot }
 
-### 步驟四：簡訊通知設定
+### 步驟四：簡訊通知設定 { #operate-storepal-install-step-sms-notifications }
 
 確保會員能順利接收註冊驗證碼。
 
@@ -146,7 +146,7 @@ hide: []
 	  ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-安裝與前期資料設置03-1.png){ .screenshot }
 
 
-## 資料準備
+## 資料準備 { #prerequisites-data-preparation }
 
 門市助理帳號以一間門市為單位申請，開通帳號時會請商家提供以下資訊，由 CYBERBIZ 預先建立門市與群組，後續若需要更改，可至門市助理後台編輯。
 

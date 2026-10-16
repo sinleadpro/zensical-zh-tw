@@ -91,7 +91,7 @@ hide: []
 
 ## 操作步驟 { #operate-sf-waybill }
 
-### 順豐設定 { #configure-sf-waybill-sender }
+### 順豐設定 { #operate-sf-sender-settings }
 
 第一次使用前先完成這個區塊，寄件人資訊會被印在每一張順豐託運單上。
 
@@ -140,7 +140,7 @@ hide: []
 
 ---
 
-### 單號使用紀錄 { #sf-waybill-history }
+### 單號使用紀錄 { #reference-sf-waybill-history }
 
 頁面最下方的「單號使用記錄」表格，列出所有曾為該店家產生過的順豐託運單。資料以 **建立時間倒序** 排列(最新在最上)。
 

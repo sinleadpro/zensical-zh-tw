@@ -57,7 +57,7 @@ icon: lucide/table
 hide: []
 ---
 
-## 訂單列表欄位參考表 { #orders-columns }
+## 訂單列表欄位參考表 { #reference-order-columns }
 
 依據您的方案與已啟用的功能，可選擇顯示的欄位略有不同。下表整理所有可選欄位與用途說明。
 

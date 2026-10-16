@@ -70,22 +70,22 @@ hide: []
 { .doc-badge }
 
 
-## 使用須知
+## 使用須知 { #prerequisites-wixtar-einvoice }
 
 - **更名說明**：原「美麗科技」已於 2024 年 5 月更名為 **星益欣**，系統介面與本文件皆以新名稱標示。
 - **付款限制**：僅支援 **信用卡付款**。
 - **字軌預抓**：為避免網路不穩導致無法開票，系統會依據平均用量預抓字軌至子機。預抓字軌不可移轉至其他子機或 EC 官網使用。如有特殊需求請聯繫客服，將視調整情況酌收費用處理。
 - **字軌匯入前檢查**：匯入發票字軌前，**請務必確認該字軌是否已在其他加值中心平台使用**。若因匯入錯誤字軌導致 **重複開立發票**，系統端將無法協助進行補開或註銷處理，需由 **商家自行與國稅局聯繫並依相關規定處理**。
 
-## 方案收費方式
+## 方案收費方式 { #specs-wixtar-einvoice-fees-fees }
 
-### 基本方案內容
+### 基本方案內容 { #specs-wixtar-einvoice-fees-basic-plan }
 
   - 星益欣帳戶是以統一編號為單位建立。當您以公司統編購買方案後，系統將自動開通對應帳戶，即可使用發票開立功能。
   - 一個星益欣帳戶可支援多 EC 站台+ 2 台 POS 子機+其他通路使用。
 
 
-### 追加子機費用計算
+### 追加子機費用計算 { #specs-wixtar-einvoice-fees-addon-fees }
 
   子機追加採「級距分組」與「剩餘到期月數」合併計費，基本規則如下：
 
@@ -104,13 +104,13 @@ hide: []
         - **情境 B（月初啟用）**：
           若您在 **8 月 1 日** 啟用子機，因符合「完整使用整個月份」，8 月即開始計費。計費將從 8 月 1 日起算至 12 月 31 日，剩餘月份為 **5 個月**。
 
-### 結帳金額計算方式
+### 結帳金額計算方式 { #specs-wixtar-einvoice-fees-checkout-total }
 
   - 若商家先前已購買星益欣方案，則方案內已包含 2 台 POS 子機。當有額外 POS 機需求，**僅需支付 POS 子機追加費用** 。
   - 若商家尚未購買星益欣方案，則需購買方案。若同時有額外 POS 機需求，則總金額為 **方案費用 + POS 子機追加費用** 。
 
 
-### 情境範例
+### 情境範例 { #specs-wixtar-einvoice-fees-examples }
 
 1. **首次購機**（直接申辦基本方案 ＋ 追加 1 台子機）
 
@@ -138,9 +138,9 @@ hide: []
     - **獲得權限**：支付完成後，系統將再次打包解鎖，讓商家同時擁有第 5 台與第 6 台 POS 子機的權限。
 
 
-## 操作流程
+## 操作流程 { #operate-wixtar-einvoice }
 
-### 步驟一：後台 POS 發票設定
+### 步驟一：後台 POS 發票設定 { #operate-wixtar-einvoice-step-a-admin }
 
 在購買方案前，需先在指定 POS 主機完成發票機與服務商的初步設定。
 
@@ -152,7 +152,7 @@ hide: []
 
 	  ![](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技01.png){ .small-image }
 
-### 步驟二：購買星益欣 POS 子機
+### 步驟二：購買星益欣 POS 子機 { #operate-wixtar-einvoice-step-b-pos }
 
 完成初步設定後，需購買對應的子機授權。
 
@@ -172,7 +172,7 @@ hide: []
 
 	  ![](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技04.png){ .screenshot }
 
-### 步驟三：串接與啟用
+### 步驟三：串接與啟用 { #operate-wixtar-einvoice-step-c-enable }
 
 付款完成後，需取得星益欣端的認證資訊並填回 CYBERBIZ 後台。
 
@@ -195,7 +195,7 @@ hide: []
 	  ![](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技07.png){ .small-image }
 
 
-## 常見問題
+## 常見問題 { #faq-wixtar-einvoice }
 
 ??? quote "如果網路不穩，POS 還能開立發票嗎？"
     可以。系統會協助預抓字軌至各 POS 子機中，確保在離線或網路不穩時仍可正常開票。

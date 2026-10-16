@@ -71,11 +71,11 @@ hide:
 
 ![編輯訂單內容頁面](../../../assets/images/EC-訂單-編輯訂單頁面-hero.png){ title="編輯訂單內容頁面" .hero-page }
 
-## 編輯訂單說明
+## 編輯訂單說明 { #intro-order-edit }
 
 **編輯訂單** 功能允許商家在訂單尚未出貨前，直接修改訂單內的商品數量與款式，無須要求顧客取消並重新下單，能有效提升處理效率。
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-order-edit }
 
 在執行編輯前，請務必確認訂單符合以下條件，否則系統將不支援編輯：
 
@@ -94,9 +94,9 @@ hide:
 
 - [x] **商品限制**：組合品、贈品、紅利商城、LINE 團購商品、加價購、電子票券、POS 商品及串倉商品 **無法** 進行編輯或新增。
 
-## 操作步驟
+## 操作步驟 { #operate-order-edit }
 
-### 進入編輯訂單頁 { #edit-order-page }
+### 進入編輯訂單頁 { #operate-order-edit-page }
 
 1.  **進入訂單**：前往後台 **訂單 > 所有訂單**，選擇欲編輯的訂單並點擊「訂單編號」，進入訂單詳情頁。
 2.  **啟動編輯**：點擊頁面右上角的 **「編輯訂單」** 按鈕。
@@ -108,24 +108,24 @@ hide:
     <div class="grid cards" markdown>
 
     - :lucide-minus-circle:{ .lg .middle }
-      [增減或移除商品](#edit-order-adjust-remove){ title="增減或移除商品" }
+      [增減或移除商品](#operate-order-edit-adjust-remove){ title="增減或移除商品" }
 
     - :lucide-plus-circle:{ .lg .middle }
-      [新增商品](#edit-order-add-product){ title="新增商品" }
+      [新增商品](#operate-order-edit-add-product){ title="新增商品" }
 
     - :lucide-settings:{ .lg .middle }
-      [自訂品項/折扣](#edit-order-custom){ title="自訂品項/折扣" }
+      [自訂品項/折扣](#operate-order-edit-custom){ title="自訂品項/折扣" }
 
     - :lucide-sticky-note:{ .lg .middle }
-      [商家備註](#edit-order-note){ title="商家備註" }
+      [商家備註](#operate-order-edit-note){ title="商家備註" }
 
     </div>
 
 ---
 
-### 增減或移除商品 { #edit-order-adjust-remove }
+### 增減或移除商品 { #operate-order-edit-adjust-remove }
 
-在「[編輯訂單頁](#edit-order-page)」中，您可以調整訂單內既有商品的數量，或將商品從訂單中移除。
+在「[編輯訂單頁](#operate-order-edit-page)」中，您可以調整訂單內既有商品的數量，或將商品從訂單中移除。
 
 1. 直接從數量欄位中調整商品數量或點擊刪除 :lucide-trash-2: 將商品移除。
 2. 操作完成後點擊「確認編輯」，並在二次彈窗中點選「確認並送出」即可套用變更。
@@ -134,11 +134,11 @@ hide:
 
 ---
 
-### 新增商品 { #edit-order-add-product }
+### 新增商品 { #operate-order-edit-add-product }
 
-在「[編輯訂單頁](#edit-order-page)」中，您可以將新商品加入至訂單。
+在「[編輯訂單頁](#operate-order-edit-page)」中，您可以將新商品加入至訂單。
 
-1. 點選「新增商品」，從彈窗中搜尋（搜尋機制可參考[商品篩選器](../../products/create-and-manage/product-management-interface.md#篩選器使用邏輯){ title="商品管理介面總覽" data-preview }）後勾選點擊 **確認新增** 加入品項（僅限溫層與通路相同的商品）。
+1. 點選「新增商品」，從彈窗中搜尋（搜尋機制可參考[商品篩選器](../../products/create-and-manage/product-management-interface.md#operate-product-ui-filter){ title="商品管理介面總覽" data-preview }）後勾選點擊 **確認新增** 加入品項（僅限溫層與通路相同的商品）。
 
     ![新增商品](../../../assets/images/EC-訂單詳情頁-編輯訂單-新增商品.png){ title="新增商品" }
 
@@ -150,9 +150,9 @@ hide:
 
 ---
 
-### 新增自訂品項/折扣 { #edit-order-custom }
+### 新增自訂品項/折扣 { #operate-order-edit-custom }
 
-在「[編輯訂單頁](#edit-order-page)」中，您可以透過自訂品項或折扣，補收運費或提供額外優惠來調整訂單金額。
+在「[編輯訂單頁](#operate-order-edit-page)」中，您可以透過自訂品項或折扣，補收運費或提供額外優惠來調整訂單金額。
 
 === "自訂品項"
 
@@ -188,9 +188,9 @@ hide:
 
 ---
 
-### 商家備註 {#edit-order-note}
+### 商家備註 {#operate-order-edit-note}
 
-在「[編輯訂單頁](#edit-order-page)」中，您可以新增內部備註（最多 1000 字），供商家作業參考。
+在「[編輯訂單頁](#operate-order-edit-page)」中，您可以新增內部備註（最多 1000 字），供商家作業參考。
 
 1. 於編輯頁面下方的「商家備註」文字框中輸入備註內容。
 2. 需同時修改至少一項商品內容（新增、刪除或調整數量）。
@@ -201,20 +201,20 @@ hide:
 !!! warning "重要限制"
     編輯訂單模式 **不支援單獨儲存備註異動**。僅修改備註請於「訂單明細頁」操作；編輯模式須伴隨商品異動方可儲存。
 
-## 金額計算與差額處理 { #edit-order-payment-adjsutment }
+## 金額計算與差額處理 { #operate-order-payment-adjustment }
 
 編輯後的金額異動邏輯如下：
 
 * **計價規則**：原訂單商品保留下單時售價；新加入商品則以編輯當下之最新售價計算。
 * **行銷活動**：變更數量或移除商品時，系統 **不會重新計算** 全館折扣或滿額優惠。
 
-### 付款與差額處理 {: #handling-methods }
+### 付款與差額處理 { #operate-order-edit-payment-diff }
 
 
 | 付款類型 | 系統收款金額 | 差額處理說明 |
 | :--- | :--- | :--- |
 | **貨到付款** | 編輯後金額 | 系統自動以新金額收取。 |
-| **非貨到付款** | **原始金額** | 不論是否已付款，系統連結皆維持原價。商家須與顧客協調自行補退款與[追蹤處理](#非貨到付款訂單差額處理)。 |
+| **非貨到付款** | **原始金額** | 不論是否已付款，系統連結皆維持原價。商家須與顧客協調自行補退款與[追蹤處理](#operate-order-edit-non-cod-adjust)。 |
 
 
 !!! warning "重要限制：退款與發票"
@@ -224,7 +224,7 @@ hide:
 
 ---
 
-### 非貨到付款訂單差額處理
+### 非貨到付款訂單差額處理 { #operate-order-edit-non-cod-adjust }
 
 若「非貨到付款」訂單編輯後產生金額變動，系統連結不會自動更新金額。商家需與顧客協調完成線下補退款後，手動於後台更新狀態。
 
@@ -244,7 +244,7 @@ hide:
 
     ![訂單詳情頁-已收到補款](../../../assets/images/EC-訂單詳情頁-已收到補款.png){ title="訂單詳情頁-已收到補款" }
 
-## 常見問題
+## 常見問題 { #faq-order-edit }
 
 ??? quote "為什麼我移除某個商品款式後，訂單的折扣金額會變？"
 	當您將「整個商品款式」從訂單中移除時，原本攤提在該商品上的折扣金額也會一併被移除，因此整體折扣金額會減少。

@@ -105,7 +105,7 @@ comments: false
 
 ## 操作步驟 { #operate-global-settings }
 
-### 導覽列與頁腳 { #navbar-footer }
+### 導覽列與頁腳 { #operate-global-settings-navbar-footer }
 
 導覽列與頁腳的設定較完整，另有專文說明：
 
@@ -116,14 +116,14 @@ comments: false
   可設定選單排列樣式（預設／併排置左／併排置右）、背景是否透明，以及次選單是否同步展開。
 
 - :lucide-arrow-down-to-line:{ .lg }  
-  [__頁腳__](../navigation/setup-menus-navigation.md#頁腳內容){ title="設定選單與導覽列" }  
+  [__頁腳__](../navigation/setup-menus-navigation.md#operate-menus-nav-footer-content){ title="設定選單與導覽列" }  
   提供「上下」或「左右」排序樣式，並可開啟社群媒體圖示的顯示與連結。
 
 </div>
 
 ---
 
-### 彈窗廣告 { #popup }
+### 彈窗廣告 { #operate-global-settings-popup }
 
 彈窗廣告會在顧客進站時自動跳出。在全站共用設定中可選擇以下內容形式，並設定顯示條件：
 
@@ -172,7 +172,7 @@ comments: false
 
 ---
 
-### 顏色設定 { #color }
+### 顏色設定 { #operate-global-settings-color }
 
 針對全站的基礎視覺元素進行定義：
 
@@ -193,17 +193,17 @@ comments: false
 ??? note "特定區塊的個別顏色設定"
     除了全站統一的顏色設定外，某些功能區塊允許更細緻的顏色自訂：
 
-    - **[置頂公告](../navigation/setup-menus-navigation.md#置頂公告){ title="設定選單與導覽列" }：** 可分別設定置頂公告欄位的 **圖片連結底色** 及 **時間倒數的文字與背景顏色**。
-    - **[折疊內容](setup-theme-page-settings.md#section-collapsible){ title="各頁面設定指南" }：** 用於 FAQ 或購物須知的區塊，可個別設定該區塊的顯示顏色。
-    - **[圖文介紹](setup-theme-page-settings.md#section-graphic-intro){ title="各頁面設定指南" }：** 此區塊內的 **按鈕顏色** 可依需求自訂。
+    - **[置頂公告](../navigation/setup-menus-navigation.md#operate-menus-nav-announce){ title="設定選單與導覽列" }：** 可分別設定置頂公告欄位的 **圖片連結底色** 及 **時間倒數的文字與背景顏色**。
+    - **[折疊內容](setup-theme-page-settings.md#operate-page-settings-collapsible){ title="各頁面設定指南" }：** 用於 FAQ 或購物須知的區塊，可個別設定該區塊的顯示顏色。
+    - **[圖文介紹](setup-theme-page-settings.md#operate-page-settings-graphic-intro){ title="各頁面設定指南" }：** 此區塊內的 **按鈕顏色** 可依需求自訂。
 
 ---
 
-### 全站設定 { #shop-setting }
+### 全站設定 { #operate-global-settings-shop }
 
 集中控管官網的基礎視覺識別、搜尋引擎優化(SEO)、全域商品顯示行為以及網站安全防護等核心設定。
 
-#### 視覺識別與品牌資產 { #brand }
+#### 視覺識別與品牌資產 { #overview-global-settings-brand }
 
 1. 在「全站設定」中，設定 **網站圖示**：
     - 上傳 **Favicon**，作為瀏覽器分頁標籤上的小圖示。
@@ -227,7 +227,7 @@ comments: false
 
 ---
 
-#### 網站 SEO 與安全保護 { #seo-security }
+#### 網站 SEO 與安全保護 { #specs-global-settings-seo }
 
 1. 在「全站設定」中，填寫網站的 **標題**、 **簡述** 與 **關鍵字**，優化搜尋引擎對網站的收錄與排名。若標題欄位留空，系統會預設以商店名稱作為標題。[查看設定教學](../site-settings/setup-site-title-seo.md){ title="設定網站標題與 SEO" }
 
@@ -239,14 +239,14 @@ comments: false
 
 ---
 
-#### 全域商品顯示行為 { #shop-product-display }
+#### 全域商品顯示行為 { #operate-global-settings-shop-product }
 
 !!! plan "功能限制"
     部分功能需特定方案方可使用，已標示於各項目標題。
 
-此區設定會 **套用到全站所有商品列表與商品頁**（首頁商品區塊、商品群組頁、多層級分類、搜尋頁、商品詳情頁等），統一商品卡片與價格的呈現方式，不需逐一設定每件商品。相關設定請分別參閱：[基本顯示選項](#product-display-basic)、[版面與樣式設定](#product-display-layout)、[圖片與懸停效果](#product-display-image-effects)。
+此區設定會 **套用到全站所有商品列表與商品頁**（首頁商品區塊、商品群組頁、多層級分類、搜尋頁、商品詳情頁等），統一商品卡片與價格的呈現方式，不需逐一設定每件商品。相關設定請分別參閱：[基本顯示選項](#operate-global-settings-product-display-basic)、[版面與樣式設定](#operate-global-settings-product-layout)、[圖片與懸停效果](#operate-global-settings-product-image-effects)。
 
-##### 基本顯示選項 { #product-display-basic }
+##### 基本顯示選項 { #operate-global-settings-product-display-basic }
 
 依需求啟用以下項目：
 
@@ -276,7 +276,7 @@ comments: false
 
 ---
 
-##### 版面與樣式設定 { #product-display-layout }
+##### 版面與樣式設定 { #operate-global-settings-product-layout }
 
 - 選擇 **文字排列** 對齊方式（置左／置中／置右，預設置左）。
 
@@ -308,7 +308,7 @@ comments: false
 
 ---
 
-##### 圖片與懸停效果 { #product-display-image-effects }
+##### 圖片與懸停效果 { #operate-global-settings-product-image-effects }
 
 - 選擇 **圖片寬高比例**（1:1／3:4，預設 1:1）。
 
@@ -337,7 +337,7 @@ comments: false
 
 ---
 
-#### 動態標籤設定 <small>商品標籤</small> { #product-labels }
+#### 動態標籤設定 <small>商品標籤</small> { #operate-global-settings-product-labels }
 
 !!! plan "開通條件與方案限制"
     - **商品標籤功能：** 需開通「商品標籤」功能（依方案開通狀況為準）。
@@ -374,7 +374,7 @@ comments: false
     === "折扣折數"
         ![折扣折數](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-商品標籤呈現方式-折扣折數.png)
 
-!!! info "標籤底色預設套用「[顏色設定](#color)」中的強調色；多個標籤同時成立時會依系統固定順序並列。"
+!!! info "標籤底色預設套用「[顏色設定](#operate-global-settings-color)」中的強調色；多個標籤同時成立時會依系統固定順序並列。"
 
 [^2]: 超出 5 組時，前台依排序僅顯示前 5 組，第 6 組起不予顯示。此上限僅計算自定義標籤，系統預設標籤（特價、缺貨、定期定額）不在此限；商品可同時顯示兩者。例如：商品同時符合 3 個系統預設標籤與 6 個自定義標籤時，前台顯示 3 個預設標籤 + 前 5 個自定義標籤，共 8 個。
 

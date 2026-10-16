@@ -73,7 +73,7 @@ hide: []
 
 
 
-## 使用須知
+## 使用須知 { #prerequisites-batch-members }
 
 在執行大量匯入或修改操作前，請務必了解以下限制與規範：
 
@@ -96,11 +96,11 @@ hide: []
     - **剩餘紅利**：舊站尚未用完的紅利請於本次匯入一併帶入；漏匯後僅能至會員編輯頁逐筆補登。
 
 
-## 網站建置與連動
+## 網站建置與連動 { #prerequisites-batch-members-site }
 
-###  手機與 Email 必填設定
+###  手機與 Email 必填設定 { #prerequisites-batch-members-required }
 
-若您於 [顧客註冊設定](../website-management/customer-registration-flow-and-fields/#步驟-2設定預設欄位屬性)，將 **Email** 與 **手機** 設為 **必填**，則匯入時兩者皆需填入。
+若您於 [顧客註冊設定](../website-management/customer-registration-flow-and-fields/#operate-customer-reg-fields)，將 **Email** 與 **手機** 設為 **必填**，則匯入時兩者皆需填入。
 
 若會員名單的資料完整度不一致，請先將會員資料拆成三批：
 
@@ -125,20 +125,20 @@ hide: []
     - **其餘版本**：支援商家自行設定必選或選填。
 
 
-### 會員 VIP
+### 會員 VIP { #prerequisites-batch-members-vip }
 
 - 建議先小量測試若需套用 VIP，請先完成 VIP 等級設定並確認已生效，再以少量測試資料（如員工帳號）匯入，核對會員是否進入正確等級後，再大量匯入真實會員。
 - 可透過 **其他通路訂單** 補入消費紀錄，系統會將其 **納入 VIP 資格計算**。系統依您填寫的 **成立時間** 判斷是否認列；若無特殊需求，填寫匯入當日即可。
 
-### 行銷活動
+### 行銷活動 { #prerequisites-batch-members-campaigns }
 
 若計畫在匯入會員時同步發送 **紅利點數、優惠券或生日禮**，**建議先完成網站建置並開啟功能。**
 
 完善的購物環境能確保會員收到通知後，順利引流至站內下單；若網站尚未就緒，恐造成期待落空與流量浪費，影響後續回購意願。
 
-## 操作流程
+## 操作流程 { #operate-batch-members }
 
-### 任務一：大量匯入新會員
+### 任務一：大量匯入新會員 { #operate-batch-members-import }
 
 適用於建立尚未存在於系統中的新名單。
 
@@ -152,7 +152,7 @@ hide: []
 
 ![](../../assets/images/EC-後台-會員-所有會員-匯入會員01.png)
 
-### 任務二：批次修改既有會員資料
+### 任務二：批次修改既有會員資料 { #operate-batch-members-edit }
 
 適用於更新已在系統內的會員資訊（如：補填生日、修改手機、更新標籤）。
 
@@ -180,7 +180,7 @@ hide: []
       > 檔案將寄送至您的登入帳號信箱。
 
 3. 開啟 Excel 編輯資料。
-    - **可修改欄位**：姓名、電子郵件、手機、生日、性別、備註、標籤、公司、電話、地址、是否接受電子報、是否允許超商取貨、[自訂欄位](../website-management/customer-registration-flow-and-fields/#步驟-4-建立與管理自訂欄位) （企業版限定）。
+    - **可修改欄位**：姓名、電子郵件、手機、生日、性別、備註、標籤、公司、電話、地址、是否接受電子報、是否允許超商取貨、[自訂欄位](../website-management/customer-registration-flow-and-fields/#operate-customer-reg-custom) （企業版限定）。
 4. 返回後台 **會員 > 所有會員**，點擊 **批次修改會員資料**。
     ![](../../assets/images/EC-後台-會員-所有會員-批次修改會員資料01.png)
 5. 上傳編輯後的檔案並按下 **確認**。
@@ -189,7 +189,7 @@ hide: []
 
 
 
-## Excel 核心欄位說明
+## Excel 核心欄位說明 { #specs-batch-members }
 
 請確保以下關鍵欄位的填寫格式正確：
 
@@ -207,7 +207,7 @@ hide: []
     此功能僅限 PLUS版 與企業版使用，其餘版本則無此欄位。
 
 
-針對 [其他通路訂單](manage-member-profiles/#2-其他通路訂單) 的補入，請根據您的系統版本選擇對應的操作方式：
+針對 [其他通路訂單](manage-member-profiles/#operate-member-profiles-other-orders) 的補入，請根據您的系統版本選擇對應的操作方式：
 
 === "企業版"
 
@@ -220,7 +220,7 @@ hide: []
 
 
 
-## 常見問題
+## 常見問題 { #faq-batch-members }
 
 ??? quote "批次修改資料會重複建立帳號嗎？"
     不會。系統會以 **電子郵件信箱**、**手機** 作為主要比對 ID。若 Email 或手機已存在，則會更新該筆資料。

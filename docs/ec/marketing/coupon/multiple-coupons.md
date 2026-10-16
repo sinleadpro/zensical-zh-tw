@@ -71,13 +71,13 @@ hide: []
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品){ title="圖示慣例" } | 智能 POS
 { .doc-badge }
 
-## 使用須知
+## 使用須知 { #prerequisites-coupon }
 
 - **通路限制**：多張優惠券併用功能支援 **EC 官網** 與 **POS 系統**，兩通路須分別設定張數上限。
 - **併用規則**：多張優惠券併用不影響其與「紅利點數」或其他「行銷活動」的併用設定。
     
 
-## 操作流程
+## 操作流程 { #operate-coupon }
 
 === "EC"
 
@@ -97,7 +97,7 @@ hide: []
 
         ![](../../../assets/images/EC-後台-金物流-結帳頁物流設定-pos多張優惠券設定01.png){ .screenshot }
 
-## 多優惠券折抵邏輯
+## 多優惠券折抵邏輯 { #specs-coupon }
 
 當訂單同時套用多張優惠券時，系統依以下規則計算折扣：
 
@@ -127,7 +127,7 @@ hide: []
     - **商品 A**：總共折抵 34元。
     - **商品 B**：總共折抵 16 + 48 + 117 = 181元。
 
-## 前台結帳操作
+## 前台結帳操作 { #operate-coupon-checkout-operate }
 
 
 === "EC"
@@ -167,7 +167,7 @@ hide: []
         ![](../../../assets/images/POS-前台-結帳-多優惠券04.png){ .screenshot }
 
   
-## 更多操作
+## 更多操作 { #operate-coupon-operate }
 
 <div class="grid cards" markdown>
 

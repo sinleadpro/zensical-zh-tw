@@ -65,7 +65,7 @@ hide: []
 { .subtitle }
 
 
-## 問題診斷：為什麼 HTTPS 無法讀取？
+## 問題診斷：為什麼 HTTPS 無法讀取？ { #intro-https-root }
 
 在網站遷移過程中，為了確保搜尋引擎權重（SEO）與使用者體驗，通常會將「根網域（`example.com`）」自動轉址到「子網域（`www.example.com`）」。
 
@@ -77,11 +77,11 @@ hide: []
     - *若符合上述兩點，代表您的網域商不支援根網域的 HTTPS 轉址。*
 
 
-## 解決方案：移轉網域至支援完善的網域商
+## 解決方案：移轉網域至支援完善的網域商 { #operate-https-root }
 
 目前相對簡易且穩定的解決方案，是將網域移轉至對 HTTPS 轉址支援較完善的網域商（例如：Gandi）。**以下以 GoDaddy 轉移至 Gandi 為範例：**
 
-### 步驟 1：從原網域商申請轉出
+### 步驟 1：從原網域商申請轉出 { #operate-https-root-export }
 
 1. 登入 **GoDaddy 管理介面**，進入 **網域管理**。
 2. 找到欲轉移的網域，點選 **轉出網域**。
@@ -90,7 +90,7 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/https開頭網址無法順利讀取1.png){ .screenshot }
 
-### 步驟 2：於新網域商發起轉入
+### 步驟 2：於新網域商發起轉入 { #operate-https-root-import }
 
 1. 登入 **Gandi 管理介面**，選擇 **域名 > 移轉**。
 2. 輸入您的網域並進行搜尋。
@@ -100,12 +100,12 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/https開頭網址無法順利讀取2.png){ .screenshot }
 
-### 步驟 3：重新設定 DNS
+### 步驟 3：重新設定 DNS { #operate-https-root-dns }
 
 網域移轉完成後，請務必重新檢查並[設定 DNS 紀錄](domain-management.md)，確保網址正確指向 CYBERBIZ 伺服器。
 
 
-## 常見問題
+## 常見問題 { #faq-https-root }
 
 ??? quote "移轉網域會導致網站暫時無法連線嗎？"
     若在移轉前已正確設定 DNS 且 TTL 值設定合理，移轉過程通常不會造成網站斷線。但網域資料更新（生效）可能需要 24-48 小時。
@@ -114,7 +114,7 @@ hide: []
     網域 DNS 管理屬於第三方服務，非 CYBERBIZ 直接管轄範圍。若在操作移轉過程中遇到技術障礙，建議優先聯繫您的網域商客服取得專業協助。
 
 
-## 後續操作
+## 後續操作 { #next-steps-https-root }
 
 <div class="grid cards" markdown>
 

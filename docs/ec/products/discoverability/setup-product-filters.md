@@ -66,7 +66,7 @@ hide: []
 
 ![前台商品篩選器設定](../../../assets/images/ec-product-edit-product-filter-hero.zh-tw.png){ title="前台商品篩選器設定" .hero-page }
 
-## 前台商品篩選器說明
+## 前台商品篩選器說明 { #intro-product-filters }
 
 前台商品篩選器可讓顧客依 **價格、庫存、紅利折抵、商品規格** 等維度篩選商品。
 
@@ -74,13 +74,13 @@ hide: []
 
     ![前台商品篩選器顯示](../../../assets/images/ec-product-filter-frontend.zh-tw.png){ title="前台商品篩選器顯示" }
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-product-filters }
 
 - :lucide-check: 支援 **自訂分類頁**
 - :lucide-check: 支援 **條件分類頁** `/collections`
 - :lucide-x: 不支援 **多層級分類頁** `/categories`
 
-### 預設篩選器
+### 預設篩選器 { #prerequisites-product-filters-default }
 
 系統內建以下 **預設篩選器**。其篩選條件為系統固定設定，商家無法新增、刪除或修改子條件。
 
@@ -103,7 +103,7 @@ hide: []
 - **可折抵紅利商品**：商品設定的紅利折抵數量大於 0。
 
 !!! tip "自動生成商品規格篩選器"  
-	系統會自動擷取商店內所有 **商品規格** 作為篩選器項目。如需調整篩選器顯示項目，請參閱 [編輯商品規格](#步驟四編輯商品規格)。
+	系統會自動擷取商店內所有 **商品規格** 作為篩選器項目。如需調整篩選器顯示項目，請參閱 [編輯商品規格](#operate-product-filters-variants)。
 
 ??? info "篩選邏輯說明"
 
@@ -112,9 +112,9 @@ hide: []
     | **交集（AND）** | 勾選 *不同篩選器* 的子條件 | 商品需同時符合所有條件 | `顏色:紅` 且 `尺寸:S` → 顯示顏色為紅色且尺寸為 S 的商品 |
     | **聯集（OR）** | 勾選 *同一篩選器* 的多個子條件 | 商品符合任一條件即可 | `顏色:紅` 或 `顏色:黑` → 顯示顏色為紅色或黑色的商品 |
 
-## 商家端操作流程
+## 商家端操作流程 { #operate-product-filters }
 
-### 步驟一：進入商品篩選器設定
+### 步驟一：進入商品篩選器設定 { #operate-product-filters-enter }
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 所有商品**。
 2. 點擊 **編輯商品篩選** 按鈕，進入編輯頁面。
@@ -123,7 +123,7 @@ hide: []
 
 ---
 
-### 步驟二：啟用前台商品篩選器
+### 步驟二：啟用前台商品篩選器 { #operate-product-filters-enable }
 
 點擊 **啟用商品篩選** 開關 :material-toggle-switch: 開啟或關閉前台顯示。
 
@@ -131,7 +131,7 @@ hide: []
 
 ---
 
-### 步驟三：篩選器與子條件說明
+### 步驟三：篩選器與子條件說明 { #operate-product-filters-rules }
 
 系統會自動抓取商店內所有 **商品規格** 作為篩選器，例如 *顏色*、*尺寸*、*材質*。
 
@@ -142,7 +142,7 @@ hide: []
 
 ---
 
-### 步驟四：編輯商品規格
+### 步驟四：編輯商品規格 { #operate-product-filters-variants }
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 所有商品**。
 2. 選擇欲編輯商品，進入商品編輯頁。
@@ -152,7 +152,7 @@ hide: []
 
 ---
 
-### 步驟五：調整篩選器與子條件排序
+### 步驟五：調整篩選器與子條件排序 { #operate-product-filters-sort }
 
 拖曳篩選器或子條件左側 :material-drag-vertical: 圖示調整顯示順序。
 
@@ -160,15 +160,15 @@ hide: []
 
 ---
 
-### 步驟六：編輯篩選器顯示狀態
+### 步驟六：編輯篩選器顯示狀態 { #operate-product-filters-status }
 
 點擊右側 :material-eye-outline:（公開）或 :material-eye-off-outline:（未公開）切換篩選器前台顯示。
 
 ![篩選器顯示狀態切換](../../../assets/images/product-filter-frontend-public-toggle.gif){ title="篩選器顯示狀態切換" }
 
-## 顧客端操作與前台顯示
+## 顧客端操作與前台顯示 { #operate-product-filters-front }
 
-### 前台顯示差異
+### 前台顯示差異 { #specs-product-filters-display }
 商品篩選器在前台的顯示方式會因裝置類型而異。
 	
 === ":material-monitor-dashboard: 桌機"
@@ -184,13 +184,13 @@ hide: []
 
 ---
 
-### 子條件商品數顯示
+### 子條件商品數顯示 { #specs-product-filters-counts }
 
 子條件後方的括號數字，表示符合該子條件的商品數量。
 
 ---
 
-### 調整篩選條件
+### 調整篩選條件 { #operate-product-filters-adjust }
 
 點擊 **所有篩選條件** 彈出視窗，調整公開篩選群組與選項。
 
@@ -198,14 +198,14 @@ hide: []
 
 ---
 
-### 清除篩選條件
+### 清除篩選條件 { #operate-product-filters-clear }
 
 套用篩選器後，可點擊 **清除所有篩選** 一次性移除所有已套用的條件。
 	
 ![清除所有篩選條件](https://www.cyberbiz.io/support/wp-content/uploads/商品篩選器08.png){ title="清除所有篩選條件" }
 
 
-## 常見問題
+## 常見問題 { #faq-product-filters }
 
 ??? quote "商品篩選器是否支援所有商品分類頁面？"
 	否。僅適用於 **自訂分類頁** 與 **條件分類頁** (`/collections`)。不支援多層級分類頁 (`/categories`)。

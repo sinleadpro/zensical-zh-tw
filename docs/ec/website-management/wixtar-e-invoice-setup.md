@@ -81,14 +81,14 @@ hide:
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 進階 / 高手 / 所有 PLUS / 企業
 { .doc-badge }
 
-## 星益欣電子發票說明
+## 星益欣電子發票說明 { #intro-wixtar-invoice }
 
 本文件教您如何在 CYBERBIZ 後台完成星益欣電子發票設定，涵蓋購買方案、串接啟用、多站台共用、對帳發票設定及帳戶續購。
 
 !!! info "「美麗科技」已與「星益欣」合併"
 	美麗科技已與星益欣合併，本文後續以星益欣指稱相關服務。星益欣相關設定，請依[星益欣官網公告 :lucide-external-link:](https://www.wixtar.com/product/e-invoice)為準，電話: 02-2711-9528 #240。若需將字軌匯入星益欣後台，請參考[匯入字軌教學文件](https://www.cyberbiz.io/helpcenter/wp-content/uploads/美麗科技-增加字軌數量_匯入教學使用手冊-20230511.pdf)。
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-wixtar-invoice }
 
 購買方案後，系統會依統一編號自動建立星益欣帳戶，**帳戶綁定統編，開立同統編發票**。此帳戶可支援以下開立發票情境：
 
@@ -107,9 +107,9 @@ hide:
 
 !!! warning "以上情境皆以相同統編開立，若需開立不同統編發票，請分別購買方案。"
 
-## 操作步驟
+## 操作步驟 { #operate-wixtar-invoice }
 
-### 購買星益欣方案
+### 購買星益欣方案 { #operate-wixtar-invoice-buy }
 
 1. 在 CYBERBIZ 電商後台，前往 **管理中心 > 發票設定**。
 2. 輸入統一編號 ，進行帳號驗證。
@@ -135,7 +135,7 @@ hide:
 
 ---
 
-### 串接並啟用服務
+### 串接並啟用服務 { #operate-wixtar-invoice-bind }
 
 1. 登入星益欣後台，前往 **營業人資訊 > 選擇 POS 機 > 下載**。  
 
@@ -160,13 +160,13 @@ hide:
 
     ![啟用結帳頁發票](../../assets/images/ec-e-invoice-wixtar-09-enable-invoice.png){ title="啟用結帳頁發票" .screenshot }
     
-5. 在 **發票開立時間** 區塊，選擇一或多個發票開立時間。各選項的觸發條件與限制，請參考[發票開立時間說明](#invoice-issuance-timing)。
+5. 在 **發票開立時間** 區塊，選擇一或多個發票開立時間。各選項的觸發條件與限制，請參考[發票開立時間說明](#specs-invoice-issuance-timing)。
 
 6. 前往星益欣後台設定公司發票章圖片，開立發票將自動帶入發票章  
 
     ![設定公司發票章](../../assets/images/ec-e-invoice-wixtar-11-invoice-stamp.png){ title="設定公司發票章" .screenshot }
 
-### 發票開立時間說明 { #invoice-issuance-timing }
+### 發票開立時間說明 { #specs-invoice-issuance-timing }
 
 選擇 **付款時**、**出貨時** 或 **取貨時** 作為發票開立時機，系統會依訂單狀態自動開立電子發票。以下整理各時機的觸發條件與系統處理方式。
 
@@ -196,13 +196,13 @@ hide:
 
 ---
 
-### 多 EC 站台共用帳戶
+### 多 EC 站台共用帳戶 { #operate-wixtar-invoice-multi }
 
 !!! warning "使用同一星益欣帳戶時，所有站台的發票將以該帳戶的 **同一統一編號開立**。"
 
 若您有多個 EC 站台並希望以同一組星益欣帳戶開立發票，請先選擇其中一個站台購買方案並完成串接啟用流程。
 
-1. 在指定站台完成 [購買方案](#購買星益欣方案) 與 [串接啟用](#串接並啟用服務)。  
+1. 在指定站台完成 [購買方案](#operate-wixtar-invoice-buy) 與 [串接啟用](#operate-wixtar-invoice-bind)。  
 2. 前往其他 EC 站台，輸入與主站台相同的統一編號與串接資訊，並啟用結帳頁發票設定。
 
     ![多站台共用設定](../../assets/images/ec-e-invoice-wixtar-12-multi-site-creds.png){ title="多站台共用設定" .screenshot }
@@ -211,7 +211,7 @@ hide:
 
 ---
 
-### 開立不同統編發票
+### 開立不同統編發票 { #operate-wixtar-invoice-tax-id }
 
 若各站台需使用不同統一編號開立發票，請依照以下方式操作：
 
@@ -224,7 +224,7 @@ hide:
 
 ---
 
-### 續購方案
+### 續購方案 { #operate-wixtar-invoice-renew }
 
 1. 在 CYBERBIZ 電商後台，前往 **管理中心 > 發票設定**。
 2. 點選「續購」，填寫結帳資訊延長使用期限。
@@ -233,12 +233,12 @@ hide:
     
 3. 選擇付款方式：虛擬 ATM 或信用卡付款  
 
-## 常見問題
+## 常見問題 { #faq-wixtar-invoice }
 
 ??? quote "一組星益欣帳號可以開立不同統編的發票嗎？"
     不行，每個帳號僅綁定一個統編。需分別購買方案。
 
-## 後續操作
+## 後續操作 { #next-steps-wixtar-invoice }
 
 <div class="grid cards" markdown>
 
@@ -256,6 +256,6 @@ hide:
 
 </div>
 
-## 參考資料
+## 參考資料 { #reference-wixtar-invoice }
 
 - [星益欣官網](https://www.wixtar.com/product/e-invoice)

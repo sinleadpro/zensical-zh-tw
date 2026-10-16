@@ -87,9 +87,9 @@ hide: []
     - **同瀏覽器連續下單**：皆可成功歸因。
     - **瀏覽器關閉後**：追蹤即失效，需重新點擊導購連結方可再次認列。
 
-## 操作步驟
+## 操作步驟 { #operate-shop-com }
 
-### 後台設定
+### 後台設定 { #operate-shop-com-backend-settings }
 
 !!! warning "若您是在 2022 年前即串接美安的老客戶，請先聯繫 CYBERBIZ 客服開啟 **美安 API** 功能方可運作。"
 
@@ -116,7 +116,7 @@ hide: []
 
 ---
 
-### 排除不欲上傳商品
+### 排除不欲上傳商品 { #operate-shop-com-upload-product }
 
 若有商品（如贈品或不適合美安銷售的品項）不希望在美安顯示，請在商品標籤欄位輸入「**贈品**」，可達成以下效果：
 
@@ -125,13 +125,13 @@ hide: []
 - 訂單取消/退貨時，「贈品」標籤商品的負項金額不會同步至美安。
 
 
-瞭解 [如何將商品排除上傳至第三方平台](../products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }。
+瞭解 [如何將商品排除上傳至第三方平台](../products/categories-and-tags/manage-product-tags.md#operate-product-tags-exclude){ title="管理商品標籤" }。
 
 !!! warning "美安串接目前 **不支援**「排除product feed」標籤，僅能透過「贈品」標籤進行排除。"
 
 ---
 
-### 訂單測試流程
+### 訂單測試流程 { #operate-shop-com-order-flow }
 
 在正式上線前，美安會進行訂單測試：
 
@@ -152,7 +152,7 @@ hide: []
     * **客服電話**：02-87125598
     * **服務時間**：週一至週五 09:30 – 18:30 (週末及國定假日休息)
 
-## 常見問題
+## 常見問題 { #faq-shop-com }
 
 ??? quote "已完成美安串接測試，後續訂單卻沒有成功被計算"
     [](){ #faq-shop-com-attribution }

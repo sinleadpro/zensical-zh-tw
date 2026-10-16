@@ -66,7 +66,7 @@ hide: []
 
 ![Sitemap 提交設定](../../../assets/images/ec-第三方整合-google-gsc-sitemap.png){ title="Sitemap 提交設定" .hero-page }
 
-## Sitemap 說明
+## Sitemap 說明 { #intro-sitemap-gsc }
 
 Sitemap（網站地圖）是一份以 XML 格式呈現的檔案，用來列出網站中所有重要頁面的網址，提供搜尋引擎（如 Google）作為爬取與索引的依據。
 
@@ -82,16 +82,16 @@ Sitemap（網站地圖）是一份以 XML 格式呈現的檔案，用來列出�
     *   **加速內容更新**：當您修改了網頁內容，搜尋引擎能更有效率地抓取更新。
     *   **優化 SEO 表現**：幫助搜尋引擎理解您的網站架構。
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-sitemap-gsc }
 
 在開始上傳之前，請務必確認已完成以下設定：
 
 - [x] [**註冊 Google Search Console**](../../integrations/google/setup-google-search-console.md){ title="註冊並驗證 Google Search Console" }：並完成網站所有權驗證。
 - [x] [**串接 Google Analytics (GA4)**](../../integrations/google/ga/setup-google-analytics.md){ title="建立並串接 Google Analytics" }：建議 GSC 與 GA4 使用同一組 Google 帳號管理。
 
-## 操作步驟
+## 操作步驟 { #operate-sitemap-gsc }
 
-### 檢測您的 Sitemap 檔案
+### 檢測您的 Sitemap 檔案 { #operate-sitemap-gsc-check }
 
 您可以在瀏覽器網址列輸入您的官網網址，並在最後加上 `/sitemap.xml` 來確認檔案是否存在。
 
@@ -102,7 +102,7 @@ Sitemap（網站地圖）是一份以 XML 格式呈現的檔案，用來列出�
 
 ---
 
-### 提交步驟教學
+### 提交步驟教學 { #operate-sitemap-gsc-submit }
 
 1.  **登入 GSC**：進入 [Google Search Console :lucide-external-link:](https://search.google.com/search-console/) 頁面。
 2.  **進入 Sitemap 頁面**：點擊左側選單中的「**產生索引**」>「**Sitemap**」。
@@ -112,12 +112,12 @@ Sitemap（網站地圖）是一份以 XML 格式呈現的檔案，用來列出�
 
 ![提交 sitemap](../../../assets/images/ec-行銷活動-googlesearchconsole-提交sitemap.png){ title="提交 sitemap" }
 
-## 重要提醒
+## 重要提醒 { #prerequisites-sitemap-gsc-notes }
 
 *   **等待期**：提交後 Google 需要一定的作業時間進行分析與排序，一切更新皆以 Google 的排程為主。
 *   **網域設定**：建議將官網後台的主網域設定在「自有網域」上，並開啟「總是導向」功能，以確保收錄網址的一致性。
 
-## 常見問題
+## 常見問題 { #faq-sitemap-gsc }
 
 ??? quote "提交後狀態顯示「無法擷取」或「擷取失敗」怎麼辦？"
     這通常是暫時性的現象。請先確認您的網址是否輸入正確（僅需輸入 sitemap.xml）。若網址無誤，通常是因為 Google 的爬蟲尚未排程處理。

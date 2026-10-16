@@ -70,7 +70,7 @@ hide: []
 
 ![商品簡述與標語](../../../assets/images/ec-product-brief-n-slogan.zh-tw.png){ title="商品簡述與標語" .hero-page }
 
-## 商品簡述與商品標語說明
+## 商品簡述與商品標語說明 { #intro-product-slogan }
 
 商品簡述 與 商品標語 是顯示於商品頁面的文字欄位，用於補充商品特色與重點資訊。商家可以客製化商品頁中 **「商品標語」** 與 **「商品簡述」** 的文字呈現，包含修改文字顏色、字型、大小及分行等。
 
@@ -83,25 +83,25 @@ hide: []
       ![商品簡述與標語前台顯示位置](../../../assets/images/ec-product-slogan-product-brief.zh-tw.png){ title="商品簡述與標語前台顯示位置" }
 
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-product-slogan }
 
 - **版型限制**：**拖拉版型** 可能不支援部分程式碼編輯，請以您的後台實際開放功能為主。
 - **責任說明**：CYBERBIZ 提供開放的程式碼編輯權限，但 **不提供現有文件外的修改指導、語法教學或代碼撰寫服務**，建議委託專業工程師處理。
-- **恢復機制**：若修改後導致版面跑版或異常，可利用樣版編輯器內的「**查看之前版本**」功能[回溯至先前版本](../../website-appearance/code-customization/restore-code-theme-editor.md#操作步驟)。
+- **恢復機制**：若修改後導致版面跑版或異常，可利用樣版編輯器內的「**查看之前版本**」功能[回溯至先前版本](../../website-appearance/code-customization/restore-code-theme-editor.md#operate-restore-theme)。
 - **常見跑版原因**：通常是因為 HTML 語法標籤未正確閉合（例如缺少結束標籤 `</span>`），這會導致頁面呈現受到影響。
 - **前台呈現順序**：在部分版型中，前台顯示的「商品標語」與「商品簡述」位置可能會與後台欄位順序相反。
 
-## 操作步驟
+## 操作步驟 { #operate-product-slogan }
 
 商家可以透過以下兩種方式客製商品簡述與商品標語的文字樣式，維持品牌一致性並強化行銷效果：
 
-- [個別修改文字樣式](#個別修改文字樣式)：修改個別商品的文案樣式
-- [全站調整文字呈現](#全站調整文字呈現)：修改全站 CSS 設定檔案
+- [個別修改文字樣式](#operate-product-slogan-style)：修改個別商品的文案樣式
+- [全站調整文字呈現](#operate-product-slogan-global)：修改全站 CSS 設定檔案
 
 !!! info "商品語法設定優先規則"
     商品標語與商品簡述欄位的語法設定 **優先** 於樣板編輯器的全站樣式。若同時修改樣板編輯器與個別商品，系統將以個別商品設定為準。
 
-### 個別修改文字樣式
+### 個別修改文字樣式 { #operate-product-slogan-style }
 
 由於後台的「商品標語」與「商品簡述」欄位本身不支援格式編輯器，您可以利用「商品介紹」的編輯器作為工具來產生程式碼。
 
@@ -124,7 +124,7 @@ hide: []
 
 ---
 
-### 全站調整文字呈現
+### 全站調整文字呈現 { #operate-product-slogan-global }
 
 !!! warning "程式碼修改注意事項"
 
@@ -152,7 +152,7 @@ hide: []
 !!! tip "恢復機制"
     若不滿意修改結果，可[回溯至先前版本](../../website-appearance/code-customization/restore-code-theme-editor.md)。
 
-## 常見問題
+## 常見問題 { #faq-product-slogan }
 ??? quote "為什麼我的群組頁面出現跑版？"
     這通常是 HTML 語法編輯錯誤所導致，例如標籤未正確閉合，如下文的錯誤範例。
 

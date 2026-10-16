@@ -79,7 +79,7 @@ hide: []
 
 ![管理商品評論](../../../assets/images/ec-product-review-hero.zh-tw.png){ title="管理商品評論" .hero-page }
 
-## 商品評論說明
+## 商品評論說明 { #intro-product-reviews }
 
 商品評論功能讓顧客在商品頁面發表星級評價與留言，商家可於後台審核、編輯或刪除評論，並透過紅利點數獎勵鼓勵顧客分享購物體驗。搭配 [Google reCAPTCHA](../../website-appearance/customer-interaction/enable-comment-recaptcha.md){ title="啟用留言區 reCAPTCHA" } 可有效防止垃圾留言，協助商家建立商品信任度、提升轉換率並收集真實顧客回饋。
 
@@ -123,19 +123,19 @@ hide: []
 
     ```
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-product-reviews }
 
 - [x] 需先洽客服人員開通商品評論功能。	
 - [x] FB分享功能 : 需至「第三方整合」→「臉書 Facebook 設定」→「設定 應用程式ID (APP ID) 及 應用程式密鑰 (App Secret)」填寫完畢，才可以使用。
 
 
-## 操作流程
+## 操作流程 { #operate-product-reviews-flow }
 
-### 設定商品評論功能 { #manage-product-reviews }
+### 設定商品評論功能 { #operate-product-reviews }
 
-進入 **網站外觀 > 管理商品評論** 後，頁面上方有 [系統設定](#系統設定) 與 [審核後贈送](#審核後贈送) 兩個獨立區塊，各自有專屬的 **更新** 按鈕，設定後請分別儲存。
+進入 **網站外觀 > 管理商品評論** 後，頁面上方有 [系統設定](#operate-product-reviews-system) 與 [審核後贈送](#operate-product-reviews-reward) 兩個獨立區塊，各自有專屬的 **更新** 按鈕，設定後請分別儲存。
 
-#### 系統設定
+#### 系統設定 { #operate-product-reviews-system }
 
 1. 登入 CYBERBIZ 電商後台，前往 **網站外觀 > 管理商品評論**。
 2. 於 **系統設定** 區塊依需求調整：
@@ -150,7 +150,7 @@ hide: []
 
 ---
 
-#### 審核後贈送
+#### 審核後贈送 { #operate-product-reviews-reward }
 
 設定商家在 **會員 > 商品待審核評論** 審核通過顧客評論後，自動贈送給該顧客的回饋。可單獨贈送紅利點數，也可同時加贈優惠券。
 
@@ -176,21 +176,21 @@ hide: []
 
 ---
 
-### 檢視留言板
+### 檢視留言板 { #operate-product-reviews-board }
 所有商品的留言板皆可在此細部設定，按下 **檢視** 可對個別留言板進行編輯。
 
 ![留言板列表](../../../assets/images/ec-comment-board-list.zh-tw.png){ title="留言板列表" }
 
 ---
 
-### 設定留言板
+### 設定留言板 { #operate-product-reviews-board-setup }
 在留言板列表點擊「檢視」特定留言板，可進入留言版編輯頁，對各別留言板進行設定。點擊 **垃圾桶 :material-trash-can-outline:** 可刪除商品評論。
 
 ![留言板設定](../../../assets/images/ec-comment-board.zh-tw.png){ title="留言板設定" }
 
 ---
 
-### 發表商品評論 <small>顧客端</small>
+### 發表商品評論 <small>顧客端</small> { #operate-product-reviews-post }
 
 !!! info "顧客需登入會員後，方可於商品頁面發表評論。"
 
@@ -201,7 +201,7 @@ hide: []
 
 ---
 
-### 審核商品評論
+### 審核商品評論 { #operate-product-reviews-moderate }
 
 商家可在後台審核顧客提交的商品評論。
 
@@ -215,7 +215,7 @@ hide: []
 
 ---
 
-### 隱藏商品評論功能
+### 隱藏商品評論功能 { #operate-product-reviews-hide }
 
 !!! warning "若選擇自行移除程式碼，CYBERBIZ 將不提供恢復功能協助。"
 
@@ -241,7 +241,7 @@ hide: []
 
     ![一般版型隱藏評論](https://www.cyberbiz.io/support/wp-content/uploads/商品評論07.png){ title="一般版型隱藏評論" .screenshot }
 
-## 後續步驟
+## 後續步驟 { #next-steps-product-reviews }
 
 <div class="grid cards" markdown>
 
@@ -250,7 +250,7 @@ hide: []
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-product-reviews }
 
 ??? quote "顧客發表評論是否需要登入會員？"
     是的，顧客必須登入會員後才能發表商品評論。

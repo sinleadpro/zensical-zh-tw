@@ -16,7 +16,7 @@ icon: lucide/download
 permalink: "https://help.cyberbiz.io/resources/downloads/"
 plan_options: []
 ---
-## 系統檔案 { #system-files }
+## 系統檔案 { #reference-downloads-system-files }
 
 <div class="grid cards" markdown>
 
@@ -38,7 +38,7 @@ plan_options: []
 
 </div>
 
-## 商家手冊 { #handbooks }
+## 商家手冊 { #reference-downloads-handbooks }
 
 <div class="grid cards" markdown>
 

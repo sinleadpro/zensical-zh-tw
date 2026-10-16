@@ -81,15 +81,15 @@ hide: []
     - **稅務合規自動化**：結帳完成立即產出符合財政部規範的電子發票證明聯。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-epson-t82 }
 
 - **適用型號**：本教學專針對 **EPSON TM-T82III** 型號撰寫。
 - **耗材規格**：預設使用 **58mm** 電子發票感熱紙，安裝時需確認隔板已正確放置。
 
 
-## 操作流程
+## 操作流程 { #operate-epson-t82 }
 
-### 步驟一：下載與安裝 POS 驅動程式
+### 步驟一：下載與安裝 POS 驅動程式 { #operate-epson-t82-step-a-download }
 
 在設定硬體前，請先確保電腦具備通訊基礎。
 
@@ -98,7 +98,7 @@ hide: []
 
 
 
-### 步驟二：硬體整備與紙捲安裝
+### 步驟二：硬體整備與紙捲安裝 { #operate-epson-t82-step-b-hardware }
 
 參考發票機箱附的說明手冊或 [產品說明書清單](https://support.epson.net/setupnavi/?PINF=bsmanual&OSC=IOS&LG2=ZH&MKN=TM-T82III) 的 [User’s Guide](https://download4.epson.biz/sec_pubs/bs/pdf/TM-T82III_ug_asia_04.pdf) 執行以下動作：
 
@@ -107,7 +107,7 @@ hide: []
 3. **連接電源**：將發票機接通電源並開啟開關。
 
 
-### 步驟三：安裝 Virtual Port Driver 並指派 COM Port
+### 步驟三：安裝 Virtual Port Driver 並指派 COM Port { #operate-epson-t82-step-c-install }
 
 此步驟為連線成功的關鍵，請務必按照順序操作。
 
@@ -126,7 +126,7 @@ hide: []
   </iframe>
 </div>
 
-### 步驟四：校對紙張寬度設定
+### 步驟四：校對紙張寬度設定 { #operate-epson-t82-step-d-settings }
 
 若發生發票文字跑版或裁切不全，請檢查此項設定。出貨時通常已預設完成，商家僅需在異常時進行確認。
 
@@ -136,7 +136,7 @@ hide: []
 
 
 
-### 步驟五：連線與測試列印
+### 步驟五：連線與測試列印 { #operate-epson-t82-step-e-connection }
 
 1. 回到 **CYBERBIZ POS 驅動程式**。
 2. 在裝置清單中選擇已指派 COM Port 的 **EPSON 發票機**。

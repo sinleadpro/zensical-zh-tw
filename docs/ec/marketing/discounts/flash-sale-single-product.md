@@ -80,11 +80,11 @@ hide: []
 
 ![單品限時折扣群組](../../../assets/images/ec-marketing-flash-sale-single-product-hero.zh-tw.png){ title="單品限時折扣群組" .hero-page }
 
-## 單品限時折扣說明
+## 單品限時折扣說明 { #overview-discount }
 
 單品限時折扣是一種以「商品本身」為折扣對象的行銷活動。  商家可針對指定商品，在特定期間內套用折扣價格，折扣僅於活動期間生效，活動結束後商品價格將自動恢復原價。
 
-### 功能與效益
+### 功能與效益 { #overview-discount-overview-details }
 
 - **針對單品設定折扣**：只影響指定商品，其他商品價格不受影響。
 - **活動期間自動生效**：開始與結束時間可自訂，結束後商品自動恢復原價。
@@ -96,16 +96,16 @@ hide: []
     - **清倉或庫存去化**：對滯銷商品設定折扣，加速庫存周轉。  
     - **新品上市推廣**：對新上架商品提供短期折扣，提升初期銷售量與市場關注度。
 
-## 設定單品限時折扣群組
+## 設定單品限時折扣群組 { #operate-discount }
 
-### 新增單品折扣群組
+### 新增單品折扣群組 { #operate-discount-add-discount }
 
 1. 登入 CYBERBIZ 管理後台，前往 **行銷活動 > 單品限時折扣**。
 2. 在群組列表下方輸入新群組名稱，點擊 **新增群組**。
 
 ---
 
-### 填寫群組資訊
+### 填寫群組資訊 { #operate-discount-intro-details }
 
 在群組列表中，點擊展開欲設定的群組，依序設定以下欄位：
 
@@ -126,7 +126,7 @@ hide: []
 
 ---
 
-### 將活動商品加入群組
+### 將活動商品加入群組 { #operate-discount-campaign-product }
 
 將商品加入折扣活動群組，可使用以下兩種方式：
 
@@ -150,7 +150,7 @@ hide: []
 
 ![單品折扣批次匯入](../../../assets/images/ec-marketing-flash-sale-porduct-excel-import.zh-tw.png){ title="單品折扣批次匯入" }
 
-## 後續步驟
+## 後續步驟 { #intro-discount }
 
 <div class="grid cards" markdown>
 

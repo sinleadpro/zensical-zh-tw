@@ -62,7 +62,7 @@ hide: []
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 跨境電商 (日到台)<br>
 [:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | CYBERBIZ EXPRESS
 { .doc-badge }
-## 貨態追蹤
+## 貨態追蹤 { #operate-order-tracking }
 
 === "商家端"
 
@@ -88,7 +88,7 @@ hide: []
         ![](../../../assets/images/EC-後台-APPMARKET-我的擴充服務-CYBERBIZEXPRESS-查看託運單配送狀態02.png){ .screenshot }
 
 
-## 查看託運單運費
+## 查看託運單運費 { #operate-waybill-fee }
 
 1. 登入電商後台，前往 **APP MARKET > 我的擴充服務 > CYBERBIZ EXPRESS**。
   

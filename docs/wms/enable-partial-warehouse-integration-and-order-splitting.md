@@ -92,7 +92,7 @@ hide: []
 
 ![](../assets/images/EC-後台-金物流-宅配物流-拆單畫面總覽01.png){ .hero-page }
 
-## 使用須知
+## 使用須知 { #prerequisites-partial-split }
 
 - **拆單與混單模式比較**
     - **拆單模式（本篇）**：入倉商品與自出商品 **分開結帳**，產生多筆訂單，運費分別計算。
@@ -100,9 +100,9 @@ hide: []
 - **拆單模式限制**
     - **物流限制**：自行出貨訂單 **不支援超商取貨**（結帳頁將自動隱藏超取選項）。
 
-## 啟用設置
+## 啟用設置 { #operate-partial-split-setup }
 
-### 步驟 1：開通與系統初始化
+### 步驟 1：開通與系統初始化 { #operate-partial-split-init }
 
 1. **功能申請**：如需使用此功能，請先洽詢您的開店顧問或客服人員協助開通。
 2. **自動配置**：開通當下，系統會自動執行以下變更：
@@ -111,13 +111,13 @@ hide: []
 3. **後續調整**：您必須手動將 **不入倉** 的商品改為 **自行出貨**，方可完成區分。
 
 
-### 步驟 2：物流選項設定
+### 步驟 2：物流選項設定 { #operate-partial-split-logistics }
 
 您必須為 **倉庫出貨** 與 **自行出貨** 分別設定可用的物流選項。
 
 前往 **金物流 > 宅配物流**，進入 **自訂物流** 頁籤。
 
-#### 1. 建立「倉庫出貨」物流
+#### 1. 建立「倉庫出貨」物流 { #operate-partial-split-warehouse }
 
 1. **新增物流項目**：點擊 **新增自訂物流**。
 2. **設定顯示名稱**：於 **物流名稱** 欄位輸入名稱。
@@ -127,7 +127,7 @@ hide: []
 3. **指定出貨類型**：在 **出貨方式** 下拉選單中，選取 **峰潮物流**。
 4. **完善詳細設定**：依序填寫運費規則與適用區域。詳細設定方式可參考 [建立自訂物流](../ec/payments-and-logistics/setup-home-delivery-non-cod-custom-logistics.md)。
 
-#### 2. 建立「自行出貨」物流
+#### 2. 建立「自行出貨」物流 { #operate-partial-split-self }
 
 === "貨到付款"
 
@@ -149,7 +149,7 @@ hide: []
     ![](../assets/images/EC-後台-金物流-宅配物流-新增自訂物流01.png){ .screenshot }
 
 
-### 步驟 3：分配商品出貨來源
+### 步驟 3：分配商品出貨來源 { #operate-partial-split-products }
 
 開通部分串倉後，系統會先將商品預設為 **倉庫出貨**。請依商品是否存放於倉庫，將不入倉商品改為 **自行出貨**。
 
@@ -159,7 +159,7 @@ hide: []
 
 
 
-## 出貨與訂單管理
+## 出貨與訂單管理 { #operate-partial-split-orders }
 
 === "顧客結帳體驗"
 
@@ -181,7 +181,7 @@ hide: []
     4. **倉庫出貨單**：系統會自動將訂單推送至 WMS，商家僅需觀察貨態更新。
 
 
-### 辨別訂單出貨主體
+### 辨別訂單出貨主體 { #operate-partial-split-source }
 
 在訂單列表的 **出貨方式** 欄位中，您可以快速識別該筆訂單的出貨責任方：
 
@@ -189,20 +189,20 @@ hide: []
 - **CYBERBIZ 電商倉儲**：全數商品由 CYBERBIZ 倉庫自動接單並執行發貨。
 
 !!! info "找不到 **出貨方式** 欄位？"
-    若您的列表中未顯示此資訊，請至 [編輯訂單列表欄位](../ec/orders/basics/order-management-interface.md#編輯欄位與排序)，勾選 **出貨方式**。可將其拖曳至前方排序，以便快速辨識訂單處理方。
+    若您的列表中未顯示此資訊，請至 [編輯訂單列表欄位](../ec/orders/basics/order-management-interface.md#operate-order-ui-edit-columns)，勾選 **出貨方式**。可將其拖曳至前方排序，以便快速辨識訂單處理方。
 
 ![](../assets/images/EC-後台-訂單-所有訂單-混單出貨方式01.png){ .screenshot }
 
 
-## 退貨流程與情境
+## 退貨流程與情境 { #operate-partial-split-returns }
 
 | 訂單類型 | 退貨邏輯 | 處理方式 | 退貨流程 |
 | :--- | :--- | :--- | :--- |
 | **倉庫出貨單** | 依照 WMS 退貨流程 | 系統預設將包裹退回 **電商倉庫地址** | [倉儲退貨與派車](returns-and-vehicle-dispatch.md) |
-| **自行出貨單** | 依照標準 EC 退貨流程 | 商家需自行[派逆物流](../ec/orders/order-return-process/#步驟-1啟動退貨與安排逆物流)或由顧客寄回 **商家指定地址** | [訂單退貨流程](../ec/orders/order-return-process.md) | 
+| **自行出貨單** | 依照標準 EC 退貨流程 | 商家需自行[派逆物流](../ec/orders/order-return-process/#operate-order-return-reverse)或由顧客寄回 **商家指定地址** | [訂單退貨流程](../ec/orders/order-return-process.md) | 
 
 
-## 常見問題
+## 常見問題 { #faq-partial-split }
 
 ??? quote "自行出貨商品的庫存會同步倉庫嗎？"
     不會。只有出貨方式設定為 **倉庫出貨** 的商品，且 SKU 與倉庫對應一致時，庫存才會自動同步。
@@ -212,7 +212,7 @@ hide: []
 
     ![](../assets/images/EC-後台-商品-所有商品-篩選倉庫出貨與自行出貨商品01.png){ .screenshot }
 
-## 更多操作
+## 更多操作 { #next-steps-partial-split }
 
 <div class="grid cards" markdown>
 

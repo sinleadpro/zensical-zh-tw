@@ -73,7 +73,7 @@ comments: false
 
 ![結帳分拆多購物車](../../../assets/images/ec-split-checkout-multi-cart-frontend.zh-tw.png){ .hero-page title="結帳分拆多購物車" }
 
-## 結帳拆分多購物車說明
+## 結帳拆分多購物車說明 { #intro-split-cart }
 
 當顧客購物車內的商品屬於不同的 「配送條件」（如配送通路、配送溫層或物流方式）時，**系統會在結帳流程中自動將商品拆分為多個獨立購物車**。每個購物車將：
     
@@ -109,9 +109,9 @@ comments: false
           C --> D(結帳分開<br>生成不同訂單)
         ```
 
-## 操作流程
+## 操作流程 { #operate-split-cart }
 
-### 設定商品通路
+### 設定商品通路 { #operate-split-cart-channel }
 
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions.md#conventions-plans) | 高手 / PLUS / 企業
 
@@ -129,7 +129,7 @@ comments: false
 
 ---
 
-### 設定商品溫層
+### 設定商品溫層 { #operate-split-cart-temp }
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 所有商品**。
 2. 點擊目標商品進入編輯頁面，並切換至 **設定** 分頁。
@@ -139,7 +139,7 @@ comments: false
 
 ---
 
-### 設定商品物流
+### 設定商品物流 { #operate-split-cart-logistics }
 
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions.md#conventions-plans) | 高手 / PLUS / 企業
 
@@ -151,7 +151,7 @@ comments: false
 
 ---
 
-### 設定預購商品通路
+### 設定預購商品通路 { #operate-split-cart-preorder }
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 所有商品**。
 2. 點擊目標商品進入編輯頁面，並切換至 **設定** 分頁。
@@ -163,9 +163,9 @@ comments: false
 
 ![預購商品設定](../../../assets/images/ec-product-preorder-product.zh-tw.gif){ title="預購商品設定" }
 
-## 情境範例
+## 情境範例 { #specs-split-cart-examples }
 
-### 相同物流/相同溫層/不同商品通路
+### 相同物流/相同溫層/不同商品通路 { #specs-split-cart-same-ship }
 
 **設定**
 
@@ -184,7 +184,7 @@ comments: false
 
 ---
 
-### 相同物流/不同商品通路/不同溫層
+### 相同物流/不同商品通路/不同溫層 { #specs-split-cart-diff-temp }
 
 **設定**
 
@@ -202,7 +202,7 @@ comments: false
 
 ---
 
-### 不同物流/相同溫層/相同商品通路
+### 不同物流/相同溫層/相同商品通路 { #specs-split-cart-diff-ship }
 
 **設定**
 
@@ -217,7 +217,7 @@ comments: false
 ![物流](https://www.cyberbiz.io/support/wp-content/uploads/商品-商品通路設定05-1.png){ title="物流" .screenshot }
 
 
-## 常見問題
+## 常見問題 { #faq-split-cart }
 
 ??? quote "多購物車會增加運費負擔嗎？"
     是的，每個購物車會獨立計算運費。若商品被拆分到多個購物車，可能會導致消費者需要支付多筆運費。

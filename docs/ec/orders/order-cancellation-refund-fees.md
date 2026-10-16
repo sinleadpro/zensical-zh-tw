@@ -59,12 +59,12 @@ icon: lucide/receipt-text
 hide: []
 ---
 
-## 退款範圍與手續費返還
+## 退款範圍與手續費返還 { #specs-cancel-fees }
 
 下表適用於取消訂單、退貨退款（全額退款 / 部分退款）：
 
 
-### 一般版無使用 CYBERBIZ PAYMENTS
+### 一般版無使用 CYBERBIZ PAYMENTS { #operate-cancel-fees-no-payments }
 
 > **適用金流選項**：LINE Pay / PayPal / 街口支付 / iPASS一卡通 / **綠界** / **藍新**
 
@@ -74,7 +74,7 @@ hide: []
 | 全額退款 | **商家自行匯款** | 無此費用 | 由第三方金流處理 | **不收取** |
 
 
-### 一般版使用 CYBERBIZ PAYMENTS
+### 一般版使用 CYBERBIZ PAYMENTS { #operate-cancel-fees-with-payments }
 
 === "CYBERBIZ PAYMENTS"
 
@@ -103,7 +103,7 @@ hide: []
     | | **商家自行匯款** | 無此費用 | 由第三方金流處理 | **不收取** |
     
 
-### PLUS、企業版
+### PLUS、企業版 { #operate-cancel-fees-plan-plus-enterprise }
 
 === "CYBERBIZ PAYMENTS"
 
@@ -134,7 +134,7 @@ hide: []
 
 
 
-### 跨境
+### 跨境 { #specs-cancel-fees-crossborder }
 
 === "CYBERBIZ PAYMENTS"
 
@@ -173,7 +173,7 @@ hide: []
 !!! note "比例返還計算方式"
     部分退款的比例返還金額，依 **退款金額 ÷ 訂單金額 × 原手續費** 計算。
 
-## 人工退款手續費例外情境
+## 人工退款手續費例外情境 { #operate-cancel-fees-exceptions }
 
 下列情境不收取人工退款手續費：
 
@@ -186,7 +186,7 @@ hide: []
 | 商家自行改單金額 | 商家自行調整訂單金額後執行退款 |
 
 
-## 後續操作
+## 後續操作 { #next-steps-cancel-fees }
 
 <div class="grid cards" markdown>
 
@@ -200,7 +200,7 @@ hide: []
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-cancel-fees }
 
 ??? quote "如何確認訂單是否超過自動退款期限？"
-    先確認付款方式與付款日期，再對照 [各版本金流自動退款期限](order-refund-process/#步驟-1判定退款方式)。CYBERBIZ PAYMENTS 相關付款方式的實際期限，以商家後台設定為準。
+    先確認付款方式與付款日期，再對照 [各版本金流自動退款期限](order-refund-process/#specs-order-refund)。CYBERBIZ PAYMENTS 相關付款方式的實際期限，以商家後台設定為準。

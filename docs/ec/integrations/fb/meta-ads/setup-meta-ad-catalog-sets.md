@@ -72,18 +72,18 @@ hide: []
 
 ![MAA-目錄商品組合](../../../../assets/images/ec-第三方整合-fb-maa-目錄商品組合.png){ .hero-page }
 
-## Meta 廣告目錄商品組合說明
+## Meta 廣告目錄商品組合說明 { #overview-meta-catalog }
 
-「**Meta 廣告目錄商品組合**」功能，能讓商家因應特殊促銷檔期或特定銷售需求，直接從 CYBERBIZ 後台篩選出特定的商品組合，並精準地投放在 Meta 的[目錄型廣告或圖片型廣告](setup-meta-ad-campaign.md#廣告呈現效果){ title="設定 Meta 廣告活動" }中。
+「**Meta 廣告目錄商品組合**」功能，能讓商家因應特殊促銷檔期或特定銷售需求，直接從 CYBERBIZ 後台篩選出特定的商品組合，並精準地投放在 Meta 的[目錄型廣告或圖片型廣告](setup-meta-ad-campaign.md#intro-meta-campaign){ title="設定 Meta 廣告活動" }中。
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-meta-catalog }
 
 在開始新增商品組合前，請務必確認完成以下事項：
 
 - [x] **[重新串接 FBE](../mbe/setup-fbe-authorization.md){ title="設定 FBE 帳號授權與資產連結" }**：因應 Meta 功能更新，請商家務必重新串接一次「Facebook 新版商業擴充套件」。
 - [x] **[建立廣告帳號並儲值](create-meta-ad-account-top-up.md){ title="建立 Meta 廣告帳號並完成儲值" }**：需先建立廣告帳號並完成廣告金儲值，才能進行後續投放設定。
 
-## 新增目錄商品組合步驟
+## 新增目錄商品組合步驟 { #operate-meta-catalog }
 
 1.  **進入 Meta Ads App**：登入 CYBERBIZ 管理後台，前往 **第三方整合 > 臉書 Facebook 設定（廣告/註冊登入） > 目錄商品組合**。
 
@@ -106,20 +106,20 @@ hide: []
 
     - **彈性篩選**：可先切換 所有商品 或 熱門商品 範疇，再依據類型、標籤、廠商或關鍵字進行搜尋。
     - **選取限制**：系統僅支援選取狀態為「公開」且「已上架」的商品。
-    - **自動排除機制**：帶有「贈品」或「排除product feed」標籤的商品將無法被選取。瞭解 [如何設定商品排除標籤](../../../products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }
+    - **自動排除機制**：帶有「贈品」或「排除product feed」標籤的商品將無法被選取。瞭解 [如何設定商品排除標籤](../../../products/categories-and-tags/manage-product-tags.md#operate-product-tags-exclude){ title="管理商品標籤" }
 
     ![MMA-目錄商品組合-新增商品-篩選商品](../../../../assets/images/ec-maa-創建目錄商品組合-新增商品-篩選商品.png)
 
-    !!! info "篩選邏輯設定請參考 [後台商品篩選設定](../../../products/create-and-manage/product-management-interface.md#篩選器使用邏輯){ title="使用商品管理介面管理商品" }。"
+    !!! info "篩選邏輯設定請參考 [後台商品篩選設定](../../../products/create-and-manage/product-management-interface.md#operate-product-ui-filter){ title="使用商品管理介面管理商品" }。"
 
 5.  **確認並儲存**：確認商品清單無誤後，點擊右下角「確認新增」並「儲存」，即完成組合建立。
 6. **管理與檢視**：儲存成功後，您可以在「目錄商品組合」首頁的列表區域，查看、編輯或刪除已建立的組合。
 
     ![MAA-目錄商品組合-商品列表](../../../../assets/images/ec-maa-目錄商品組合-商品列表.png)
 
-## 商品同步與異常排除
+## 商品同步與異常排除 { #specs-meta-catalog }
 
-### 手動更新目錄
+### 手動更新目錄 { #specs-meta-catalog-overview-meta-catalog }
 
 若您剛在官網後台更新商品資料，該資訊可能不會立即反應在 Meta。若遇到選取商品卻導致更新失敗，可依下列步驟手動更新目錄：
 
@@ -130,7 +130,7 @@ hide: []
 
 ---
 
-### Meta 端更新
+### Meta 端更新 { #specs-meta-catalog-meta }
 
 若 CYBERBIZ 端更新後仍無法同步，您也可以前往 Meta 商務管理工具強制更新資料來源：
 
@@ -140,7 +140,7 @@ hide: []
 
 ![MBM-目錄更新](../../../../assets/images/ec-第三方整合-mbm-目錄-更新.png)
 
-## 應用於廣告活動
+## 應用於廣告活動 { #intro-meta-catalog }
 
 建立好目錄商品組合後，即可依此創建廣告：
 
@@ -150,12 +150,12 @@ hide: []
 
 ![MAA-創建廣告活動-目錄商品組合](../../../../assets/images/ec-maa-創建廣告活動-目錄商品組合.png)
 
-## 後續操作
+## 後續操作 { #next-steps-meta-catalog }
 
 <div class="grid cards" markdown>
 
 - :lucide-package-x:{ .lg }   
-  [__排除商品同步__](../../../products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤){ title="管理商品標籤" }       
+  [__排除商品同步__](../../../products/categories-and-tags/manage-product-tags.md#operate-product-tags-exclude){ title="管理商品標籤" }       
   若有特定商品不希望同步至 Meta，可在該商品標籤填入「贈品」或「排除product feed」，系統將自動排除。
 
 - :lucide-rocket:{ .lg }   
@@ -164,7 +164,7 @@ hide: []
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-meta-catalog }
 
 ??? quote "哪些商品無法被選入目錄商品組合？"
 
@@ -173,7 +173,7 @@ hide: []
 
 ??? quote "目錄商品組合建立後多久會同步到 Meta？"
 
-    系統會自動同步。若未立即反應，可至「[手動更新目錄](#手動更新目錄)」強制更新。
+    系統會自動同步。若未立即反應，可至「[手動更新目錄](#specs-meta-catalog-overview-meta-catalog)」強制更新。
 
 ??? quote "如何確認商品已成功同步到 Meta 目錄？"
 

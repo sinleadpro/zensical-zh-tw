@@ -86,7 +86,7 @@ hide:
 comments: false
 ---
 
-## 各頁面設定說明 { #page-settings }
+## 各頁面設定說明 { #overview-page-settings }
 
 拖拉版型透過上方工具列的 **頁面下拉選單** 切換不同頁面。除了首頁、自訂頁面、單頁式頁面以「新增區塊」的方式自由組合外，其餘頁面的版面由系統固定，僅提供各自的設定項目。
 
@@ -98,12 +98,12 @@ comments: false
 !!! example "適用情境"
     | 情境 | 適用區塊 |
     |:-----|:---------|
-    | 在首頁放 FAQ 或常見問題 | [折疊內容](#section-collapsible) |
-    | 建立購物須知、退換貨說明 | [折疊內容](#section-collapsible) |
-    | 展示商品使用步驟或注意事項 | [折疊內容](#section-collapsible) |
-    | 首頁放活動入口大圖 | [橫幅廣告](#section-banner) |
-    | 嵌入 YouTube 影片 | [影片設定](#section-video) |
-    | 顯示商品列表 | [商品分類](#section-collection-blocks) |
+    | 在首頁放 FAQ 或常見問題 | [折疊內容](#operate-page-settings-collapsible) |
+    | 建立購物須知、退換貨說明 | [折疊內容](#operate-page-settings-collapsible) |
+    | 展示商品使用步驟或注意事項 | [折疊內容](#operate-page-settings-collapsible) |
+    | 首頁放活動入口大圖 | [橫幅廣告](#operate-page-settings-banner) |
+    | 嵌入 YouTube 影片 | [影片設定](#operate-page-settings-video) |
+    | 顯示商品列表 | [商品分類](#operate-page-settings-collection) |
 
 ## 使用前提與限制 { #prerequisites-page-settings }
 
@@ -116,11 +116,11 @@ comments: false
 !!! plan "方案顯示差異"
      實際可編輯的頁面與區塊依您的方案與已開通功能而定。
 
-## 操作步驟
+## 操作步驟 { #operate-page-settings }
 
-依所需頁面類型快速跳轉：[首頁](#homepage)、[商品頁面](#product)、[商品群組頁面](#collection)、[商品多層級分類](#category)、[部落格頁](#blog)、[部落格文章頁](#article)、[客服頁](#contact)、[404 頁](#not-found)、[快速到貨頁](#express-delivery)、[搜尋頁](#search)。
+依所需頁面類型快速跳轉：[首頁](#operate-page-settings-homepage)、[商品頁面](#operate-page-settings-product)、[商品群組頁面](#operate-page-settings-group)、[商品多層級分類](#operate-page-settings-category)、[部落格頁](#operate-page-settings-blog)、[部落格文章頁](#operate-page-settings-article)、[客服頁](#operate-page-settings-contact)、[404 頁](#operate-page-settings-not-found)、[快速到貨頁](#operate-page-settings-express)、[搜尋頁](#operate-page-settings-search)。
 
-### 首頁 { #homepage }
+### 首頁 { #operate-page-settings-homepage }
 
 首頁可新增以下 13 種區塊。多數區塊的設定面板會提供一個 **其他版面設定** 展開面板，裡面除了各區塊的特有項目外，都包含一組共通的 **版面邊距**（單位 px），以下各區塊章節 **列出其特有設定**。
 
@@ -147,7 +147,7 @@ comments: false
 
 ---
 
-#### 輪播素材 { #section-main-slider }
+#### 輪播素材 { #operate-page-settings-slider }
 
 可放入多張輪播「素材」的主視覺區塊。
 
@@ -236,7 +236,7 @@ comments: false
 
 ---
 
-#### 橫幅廣告 <small>活動入口大圖</small> { #section-banner }
+#### 橫幅廣告 <small>活動入口大圖</small> { #operate-page-settings-banner }
 
 單張橫幅圖片，常用於活動入口。 
 
@@ -271,7 +271,7 @@ comments: false
 
 ---
 
-#### 商品分類 <small>商品列表展示</small> { #section-collection-blocks }
+#### 商品分類 <small>商品列表展示</small> { #operate-page-settings-collection }
 
 從指定商品分類帶入商品的列表區塊。 
 
@@ -335,7 +335,7 @@ comments: false
 
 ---
 
-#### 影片設定 <small>YouTube 嵌入</small> { #section-video }
+#### 影片設定 <small>YouTube 嵌入</small> { #operate-page-settings-video }
 
 嵌入單支影片。 
 
@@ -361,7 +361,7 @@ comments: false
 
 ---
 
-#### 分頁頁籤 { #section-blog-tabs }
+#### 分頁頁籤 { #operate-page-settings-blog-tabs }
 
 以頁籤呈現多個部落格的文章。
 
@@ -376,7 +376,7 @@ comments: false
 
 ---
 
-#### 自訂排版設計 { #section-custom-blocks } 
+#### 自訂排版設計 { #operate-page-settings-custom-blocks }
 
 自由組合多種小區塊的彈性版面。 
 
@@ -438,7 +438,7 @@ comments: false
 
 
 <!---->
-<!-- #### 自訂排版設計 { #section-custom-blocks } -->
+<!-- #### 自訂排版設計 -->
 <!---->
 <!-- 自由組合多種小區塊的彈性版面，可設定區塊間距與手機版排版。 -->
 <!---->
@@ -514,7 +514,7 @@ comments: false
 
 ---
 
-#### 圖文介紹 { #section-graphic-intro }
+#### 圖文介紹 { #operate-page-settings-graphic-intro }
 
 圖片搭配文字與按鈕的介紹區塊。
 
@@ -576,7 +576,7 @@ comments: false
 
 ---
 
-#### 自訂 HTML { #section-custom-html }
+#### 自訂 HTML { #operate-page-settings-custom-html }
 
 直接貼入 HTML 程式碼，適合放第三方語法或自訂內容。
 
@@ -587,7 +587,7 @@ comments: false
 
 ---
 
-#### 應用程式 { #section-app }
+#### 應用程式 { #operate-page-settings-app }
 
 放入已安裝的應用程式元件。
 
@@ -598,7 +598,7 @@ comments: false
 
 ---
 
-#### 文字編輯 { #section-text }
+#### 文字編輯 { #operate-page-settings-text }
 
 純文字編輯區塊，提供進階文字編輯器。
 
@@ -609,7 +609,7 @@ comments: false
 
 ---
 
-<!-- #### CMS `方案限定` { #section-cms } -->
+<!-- #### CMS `方案限定` -->
 <!---->
 <!-- 進階自訂區塊，提供 HTML／CSS／JS／Import 程式碼編輯器，並可帶入指定商品分類與商品數量上限。 -->
 <!---->
@@ -619,7 +619,7 @@ comments: false
 
 ---
 
-#### 主打商品 { #section-flagship }
+#### 主打商品 { #operate-page-settings-flagship }
 
 聚焦呈現單一商品並提供購買操作。
 
@@ -679,7 +679,7 @@ comments: false
 
 ---
 
-#### 折疊內容 <small>FAQ / 購物須知</small> { #section-collapsible }
+#### 折疊內容 <small>FAQ / 購物須知</small> { #operate-page-settings-collapsible }
 
 可展開／收合的內容區塊，是建立 **FAQ 常見問題**、購物須知、退換貨說明等功能的主要工具。
 
@@ -713,7 +713,7 @@ comments: false
 
 ---
 
-### 商品頁面 { #product }
+### 商品頁面 { #operate-page-settings-product }
 
 商品頁面主要由四個功能區塊組成，可依需求開啟或調整排序。
 
@@ -795,7 +795,7 @@ comments: false
     </div>
 
 === "相關商品"
-    [](){ #相關商品 }
+    [](){ #operate-page-settings-related-products }
 
     選擇顯示「商品群組其他商品」(同分類隨機顯示)或「自訂關聯群組商品」。
 
@@ -808,7 +808,7 @@ comments: false
 
 ---
 
-### 商品群組頁面 { #collection }
+### 商品群組頁面 { #operate-page-settings-group }
 
 針對群組頁面，可指定要套用哪一組導覽選單（需先在 [選單／導覽列設定](../navigation/setup-menus-navigation.md){ title="設定選單與導覽列" } 完成設置）。
 
@@ -842,7 +842,7 @@ comments: false
 
 ---
 
-### 商品多層級分類 { #category }
+### 商品多層級分類 { #operate-page-settings-category }
 
 針對多層級分類頁面的呈現方式進行微調。需先 [建立商品多層級分類架構](../../products/categories-and-tags/multi-level-category-setup.md){ title="設定商品多層級分類" }。
 
@@ -861,7 +861,7 @@ comments: false
 
 ---
 
-### 部落格頁 { #blog }
+### 部落格頁 { #operate-page-settings-blog }
 
 用於呈現多篇文章的摘要列表。
 
@@ -879,7 +879,7 @@ comments: false
 
 ---
 
-### 部落格文章頁 { #article }
+### 部落格文章頁 { #operate-page-settings-article }
 
 用於顯示單篇完整文章的詳細內容。
 
@@ -897,19 +897,19 @@ comments: false
 
 ---
 
-### 客服頁 <small>聯絡我們表單</small> { #contact }
+### 客服頁 <small>聯絡我們表單</small> { #operate-page-settings-contact }
 
 客服頁面在前台主要以「聯絡我們」表單形式呈現，供訪客留言諮詢。
 
 1. 在頁面下拉選單選擇「客服頁」。
-2. 建議在 [**頁腳(Footer)**](../navigation/setup-menus-navigation.md#頁腳內容){ title="設定頁腳內容" } 區塊同步設定完整的公司電話、地址與 Email，增加品牌信任感。
+2. 建議在 [**頁腳(Footer)**](../navigation/setup-menus-navigation.md#operate-menus-nav-footer-content){ title="設定頁腳內容" } 區塊同步設定完整的公司電話、地址與 Email，增加品牌信任感。
 3. 如需防止機器人攻擊，可 [啟用留言區 reCAPTCHA](../customer-interaction/enable-comment-recaptcha.md){ title="啟用留言區 reCAPTCHA" }。
 
 ![客服頁](../../../assets/images/ec-網站外觀-拖拉版型-客服頁面.png)
 
 ---
 
-### 404 頁 <small>失效連結提示</small> { #not-found }
+### 404 頁 <small>失效連結提示</small> { #operate-page-settings-not-found }
 
 當消費者訪問到失效連結時的顯示畫面，可自訂視覺以緩解負面體驗。
 
@@ -921,7 +921,7 @@ comments: false
 
 ---
 
-### 快速到貨頁 { #express-delivery }
+### 快速到貨頁 { #operate-page-settings-express }
 
 用於自訂快速到貨專區的視覺與醒目入口。
 
@@ -947,11 +947,11 @@ comments: false
 
 ---
 
-### 搜尋頁 <small>站內搜尋結果</small> { #search }
+### 搜尋頁 <small>站內搜尋結果</small> { #operate-page-settings-search }
 
 1. 在頁面下拉選單選擇「搜尋頁」。
 2. 指定搜尋頁面左側要套用的 **選單**（需先 [建立選單](../navigation/setup-menus-navigation.md){ title="設定選單與導覽列" }）。
-3. 搜尋結果中的商品會同步套用「[全站共用設定](setup-global-theme-settings.md#shop-product-display){ title="全站共用設定" }」中的顯示規範（價格區間、商品標語、已銷售數量等）。
+3. 搜尋結果中的商品會同步套用「[全站共用設定](setup-global-theme-settings.md#operate-global-settings-shop-product){ title="全站共用設定" }」中的顯示規範（價格區間、商品標語、已銷售數量等）。
 4. 搜尋結果頁支援顯示定期定額、特價、缺貨以及自定義標籤。
 
 ??? info "搜尋範圍與邏輯說明"
@@ -984,7 +984,7 @@ comments: false
 
  --- 
  <!---->
- <!-- #### 圖文介紹 { #section-graphic-intro }  -->
+ <!-- #### 圖文介紹  -->
  <!---->
  <!-- 圖片搭配文字與按鈕的介紹區塊。  -->
  <!---->
@@ -1001,7 +1001,7 @@ comments: false
  <!---->
  <!-- ---  -->
  <!---->
- <!-- #### 自訂 HTML { #section-custom-html }  -->
+ <!-- #### 自訂 HTML  -->
  <!---->
  <!-- 直接貼入 HTML 程式碼，適合放第三方語法或自訂內容。  -->
  <!---->
@@ -1013,7 +1013,7 @@ comments: false
  <!---->
  <!-- ---  -->
  <!---->
- <!-- #### 應用程式 { #section-app }  -->
+ <!-- #### 應用程式  -->
  <!---->
  <!-- 放入已安裝的應用程式元件。  -->
  <!---->
@@ -1024,7 +1024,7 @@ comments: false
  <!---->
  <!-- ---  -->
  <!---->
- <!-- #### 文字編輯 { #section-text }  -->
+ <!-- #### 文字編輯  -->
  <!---->
  <!-- 純文字編輯區塊，提供進階文字編輯器。  -->
  <!---->
@@ -1036,7 +1036,7 @@ comments: false
  <!---->
  <!-- ---  -->
  <!---->
- <!-- #### CMS `方案限定` { #section-cms }  -->
+ <!-- #### CMS `方案限定`  -->
  <!---->
  <!-- 進階自訂區塊，提供程式碼編輯器並可帶入指定商品分類。  -->
  <!---->
@@ -1046,7 +1046,7 @@ comments: false
  <!---->
  <!-- ---  -->
  <!---->
- <!-- #### 主打商品 { #section-flagship }  -->
+ <!-- #### 主打商品  -->
  <!---->
  <!-- 聚焦呈現單一商品並提供購買操作。  -->
  <!---->
@@ -1065,7 +1065,7 @@ comments: false
  <!---->
  <!-- ---  -->
  <!---->
- <!-- #### 折疊內容 { #section-collapsible }  -->
+ <!-- #### 折疊內容  -->
  <!---->
  <!-- 可展開／收合的內容區塊，適合 FAQ 或購物須知。  -->
  <!---->

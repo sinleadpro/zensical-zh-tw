@@ -80,7 +80,7 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Pro / Business
 { .doc-badge }
 
-## 使用須知
+## 使用須知 { #prerequisites-sf-overseas }
 
 - **支援站點**：主要為台灣出貨至中港澳及國際地區。可運送的國家可能會因應國際情勢而有所異動，任何異動可參考 [收寄件資訊查詢](https://htm.sf-express.com/tw/tc/dynamic_function/range/)。
 - **前提條件**：若想配送 **中港澳以外地區**，需搭配 **多國** 功能方可使用，如有需求可洽 CYBERBIZ 客服。
@@ -91,9 +91,9 @@ hide: []
 - **最新資訊**：最新規範請以順豐官網公告為準。
 
 
-## 前置設定
+## 前置設定 { #operate-sf-overseas-setup }
 
-### 步驟 1：驗證公司英文名稱
+### 步驟 1：驗證公司英文名稱 { #operate-sf-overseas-verify-name }
 
 1. 登入 CYBERBIZ 後台，前往 **管理中心 > 一般設定**。
 2. 填入貴司的 **統一編號**。
@@ -102,26 +102,26 @@ hide: []
 
 ![](../../assets/images/EC-後台-管理中心-一般設定-填寫國貿局進出口廠商英文名01.png)
 
-### 步驟2：商品英文品名設定
+### 步驟2：商品英文品名設定 { #operate-sf-overseas-product-name }
 
 1. 前往 **商品 > 所有商品**。
 2. 點擊 :lucide-globe: **多國語系** 功能按鈕，並將目前的顯示欄位語系切換至 `English`。
 3. 檢查所有預計跨境銷售的商品，確保帶有 `English` 標籤的欄位（如商品名稱、描述等）其英文內容皆已完整填寫。
 
-## 操作出貨
+## 操作出貨 { #operate-sf-overseas-ship }
 
-### 出貨方式
+### 出貨方式 { #operate-sf-overseas-methods }
 
 - 出貨方式與一般宅配託運單相同，可參考 [下載順豐託運單](../orders/home-delivery/sf-express-shipping-v2.md#operate-sf-bulk-shipping)。
 - 系統會自動判斷收件地址：若為台灣，則列印出中文託運單；若為國外，則列印出英文託運單。
 
-### 扣款機制
+### 扣款機制 { #specs-sf-overseas-billing }
 
 - **預扣費用**：列印順豐海外託運單時，系統會先從您的帳戶預扣 **150 CYBER幣**。
 - **實際核帳**：實際支付費用可能有所調整。將依據順豐實際收取的運費金額，將調整項目列入該期對帳單內。
 
 
-### 運費組成與費率查詢
+### 運費組成與費率查詢 { #specs-sf-overseas-fee }
 
 順豐海外的運費並非固定金額，而是由以下三部分組成：
 
@@ -132,15 +132,15 @@ hide: []
 
 
 
-## 退貨與異常處理流程
+## 退貨與異常處理流程 { #operate-sf-overseas-return }
 
-### 1. 客戶拒收處理
+### 1. 客戶拒收處理 { #operate-sf-overseas-refuse }
 
 - 寄往海外包裹若遇客戶拒收，順豐將聯繫寄件人確認是否 **轉寄新址** 或 **退回台灣**。
 - 若產生轉寄費用，需由商家確認付款後處理。
 - 若商家未在 **3 個月內** 提供指示，包裹將由營業點倉庫直接 **銷毀作廢**。
 
-### 2. 派送失敗
+### 2. 派送失敗 { #operate-sf-overseas-fail }
 
 - 順豐客服會嘗試聯繫收件人。
 - 若持續聯繫不上，將轉與商家聯繫，確認是否辦理退回。
