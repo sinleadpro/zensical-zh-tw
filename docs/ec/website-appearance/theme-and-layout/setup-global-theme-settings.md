@@ -1,12 +1,8 @@
 ---
-acoiv:
-apis:
-search:
-  exclude: false
 title: 全站共用設定
 description: 設定拖拉版型的全站共用設定，包含彈窗廣告、顏色、品牌識別、SEO、商品顯示行為與動態標籤。
 created:
-last_modified: 2026-07-22 16:23
+last_modified: 2026-10-21 14:00
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-global-theme-settings/"
 type: guide
@@ -68,6 +64,8 @@ tags:
   - SEO
   - 商品顯示
   - 動態標籤
+acoiv:
+apis:
 devices:
   - desktop
   - tablet
@@ -78,9 +76,12 @@ paths:
 layouts:
   - draggable
 wp_url: []
+permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-global-theme-settings/"
+comments: false
+search:
+  exclude: false
 icon: lucide/settings-2
 hide:
-comments: false
 ---
 
 ![全站共用設定](../../../assets/images/ec-網站外觀-拖拉版型-全域設定.png){ .hero-page }
@@ -224,6 +225,57 @@ comments: false
 3. 在「字型設定」中選擇全站網頁的字體樣式。
 
     ![全站設定-字型設定](../../../assets/images/ec-網站外觀-全站設定-fonts.png)
+
+4. 設定 **首頁進場動畫**：
+
+    1. 找到 **首頁進場動畫** 設定，勾選開啟。
+    2. 由下拉選單選擇想要的動畫樣式：
+
+        === "上升淡入"
+
+            ![](../../../assets/images/EC-後台-套版主題管理-全站設定-首頁進場動畫01.gif)
+
+            - **動畫效果**：區塊進入畫面時，由下往上輕輕浮現並淡入
+            - **設定建議**：效果最通用、不干擾閱讀，適合首頁大多數區塊。
+
+        === "置中展開"
+
+            ![](../../../assets/images/EC-後台-套版主題管理-全站設定-首頁進場動畫02.gif)
+
+            - **動畫效果**：內容隨頁面滾動，由中心向外展開。
+            - **設定建議**：視覺張力較強，適合以圖片為主的版面。
+
+
+    ??? quote "為什麼「置中展開」模式下，有些區塊沒有動畫？"
+
+        不會全部套用。部分區塊套用「置中展開」後閱讀體驗較差，系統因此不加入動畫。各區塊支援情形如下：
+
+        因部分區塊套用後效果不佳，所以不加入效果。下表說明各區塊套用對照規則：
+
+        | 首頁區塊 | 上升淡入 | 置中展開 |
+        | ------- | -------- | ------- |
+        | 圖文介紹 | ✓ | ✓（僅套用圖片區域，文字不套用） | 
+        | 自訂排版設計 | ✓ | ✓ |
+        | 橫幅廣告 | ✓ | ✓ |
+        | 輪播素材 | ✓ | ✓ |
+        | 影片設定 | ✓ | ✓ |
+        | 商品分類 | ✓ | ✕ |
+        | 主打商品 | ✓ | ✕ |
+        | 文字編輯 | ✓ | ✕ |
+        | 折疊內容 | ✓ | ✕ |
+        | 分頁頁籤 | ✓ | ✕ |
+        | 自訂 HTML | ✕ | ✕ |
+
+    ??? quote "我開啟了動畫，但在自己的電腦／手機上看不到效果？"
+
+        若裝置開啟系統無障礙設定的 **減少動態效果**，官網會自動停用動畫、直接顯示內容。這是正常行為，不是故障。
+
+        若要看到動畫，請關閉該設定：
+
+        - **Mac**：系統設定 > 輔助使用 > 顯示器 > 關閉「減少動態效果」
+        - **iPhone/iPad**：設定 > 輔助使用 > 動態效果 > 關閉「減少動態效果」
+        - **Windows**：設定 > 協助工具 > 視覺效果 > 開啟「動畫效果」
+
 
 ---
 
