@@ -329,12 +329,12 @@ copyright = """
         { "訊息推播" = [
             {"訊息推播總覽" = "ec/notifications/index.md" },
             {"Email 樣板管理" = "ec/notifications/manage-email-templates.md"},
+            {"發送 EDM" = "ec/notifications/send-edm-newsletters-v2.md"},
             {"簡訊通知樣板" = "ec/notifications/manage-sms-templates-v2.md" },
             {"簡訊發送" = "ec/notifications/send-sms-notifications-v2.md"},
             {"簡訊發送紀錄" = "ec/notifications/track-sms-records.md"},
             {"LINE OA 樣板管理" = "ec/notifications/manage-line-oa-templates.md"},
             {"LINE 加入好友邀請" = "ec/notifications/send-line-friend-invitation.md" },
-            {"發送 EDM" = "ec/notifications/send-edm-newsletters-v2.md"}
         ]},
         { "金物流" = [
             {"金物流總覽" = "ec/payments-and-logistics/index.md"},
