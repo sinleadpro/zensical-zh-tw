@@ -68,13 +68,13 @@ hide: []
 { .doc-badge }
 
 
-## 使用須知
+## 使用須知 { #prerequisites-hardware }
 
 - **初期建置規劃**：商家在正式導入 POS 前，可對照此規格表評估現有設備是否堪用。
 - **週邊支援限制**：所有 CYBERBIZ 提供的 POS 週邊設備（如：出單機、標籤機、錢箱）**僅支援 Windows 系統**。
 - **平板支援**：若使用 Windows 平板，請確認具備足夠的 USB 擴充埠以連接週邊設備。
 
-## 系統環境需求
+## 系統環境需求 { #intro-hardware }
 
 
 | | | Windows 桌機 | Windows 筆電 | Mac | iPad | Android 平板 |

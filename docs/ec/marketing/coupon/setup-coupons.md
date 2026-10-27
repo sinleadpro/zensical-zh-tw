@@ -88,11 +88,11 @@ hide: []
 	- **補償與關懷**：手動發送優惠券給單一顧客，作為服務補償或節慶驚喜。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-coupon }
 
-- **刪除限制**：優惠券一旦匯入會員帳戶，如需刪除，必須前往 [會員個人頁面逐筆操作](../../members/manage-member-profiles.md#2-優惠券派發與管理)，系統無法批次撤回。
+- **刪除限制**：優惠券一旦匯入會員帳戶，如需刪除，必須前往 [會員個人頁面逐筆操作](../../members/manage-member-profiles.md#operate-member-profiles-coupons)，系統無法批次撤回。
 
-### 取消與退貨處理
+### 取消與退貨處理 { #prerequisites-coupon-intro-details }
 
 | 情境 | 處理規則 |
 | :--- | :--- |
@@ -101,7 +101,7 @@ hide: []
 | **退貨點數扣除** | 該訂單滿額所獲得的折價券，系統 **不會自動從顧客帳戶扣除** |
 
 
-## Excel 批次發送優惠券
+## Excel 批次發送優惠券 { #operate-coupon }
 
 1. 前往 **行銷活動 > 全館折扣-紅利 & 優惠券**，選擇 **批次發送會員專屬優惠券**。
 2. 點擊 **下載範本**。填寫時請刪除範例內容，僅保留藍色標題區塊。
@@ -127,19 +127,19 @@ hide: []
 4. 儲存檔案後，回到後台點擊 **上傳檔案** 完成匯入。
 
 
-### 批次發送優惠券通知規則
+### 批次發送優惠券通知規則 { #operate-coupon-send-coupon-notifications }
 
 - **特定會員**：系統匯入後將自動發送 Email 或簡訊通知顧客。
 - **所有會員 (all)**：系統會自動歸戶至會員中心，但 **不會** 發送通知。
 - **對象限制**：僅限已在網站註冊的會員。若 Email 不存在於系統中，該筆資料將跳過。
 
 
-## 手動篩選批次發送優惠券
+## 手動篩選批次發送優惠券 { #operate-coupon-send-coupon }
 
-前往 **會員 > 所有會員**，使用會員篩選器或針對特定個人 [手動發送或刪除優惠券](../../members/manage-member-profiles.md#2-優惠券派發與管理)。
+前往 **會員 > 所有會員**，使用會員篩選器或針對特定個人 [手動發送或刪除優惠券](../../members/manage-member-profiles.md#operate-member-profiles-coupons)。
 
 
-## 更多操作
+## 更多操作 { #operate-coupon-operate }
 
 <div class="grid cards" markdown>
 

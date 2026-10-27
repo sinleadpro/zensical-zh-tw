@@ -64,7 +64,7 @@ hide: []
 ![](../assets/images/WMS-後台-操作紀錄列表-畫面總覽01.png){ .hero-page }
 
 
-## 查看操作紀錄
+## 查看操作紀錄 { #operate-operation-logs-view }
 
 系統會自動記錄關鍵的操作行為，並以時間倒序排列。
 
@@ -77,7 +77,7 @@ hide: []
     - **操作時間**：動作發生的精確時間點。
 
 
-## 常見記錄行為
+## 常見記錄行為 { #specs-operation-logs-events }
 
 「操作紀錄列表」主要涵蓋以下幾類系統活動：
 

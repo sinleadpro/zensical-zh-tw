@@ -79,7 +79,7 @@ hide:
 
 ![超商熱感列印](../../../assets/images/ec-訂單-下載超商 B2C托運單.png){ title="超商熱感列印" .hero-page }
 
-## 熱感列印超商托運單說明
+## 熱感列印超商托運單說明 { #intro-cvs-thermal }
 
 超商熱感列印功能可將託運單輸出為 **A6 尺寸（100mm × 150mm ~ 105mm × 150mm）**，適用於 **7-11 與全家** 物流服務，支援商家以熱感應標籤紙直接列印並貼附於包裹上。
 
@@ -88,7 +88,7 @@ hide:
 - **一般列印（A4）**
 - **熱感列印（A6）**
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-cvs-thermal }
 
 **適用物流**
 
@@ -104,7 +104,7 @@ hide:
 
 - **黑貓快速到店**：支援熱感列印，建議使用防水標籤或透明袋覆蓋，避免受潮影響條碼辨識。
 
-## 託運單格式差異
+## 託運單格式差異 { #specs-cvs-thermal-format }
 
 <div class="grid" markdown>
 
@@ -120,12 +120,12 @@ hide:
 </div>
 
 
-## 操作流程
+## 操作流程 { #operate-cvs-thermal }
 
 !!! warning "注意事項"
 	- **瀏覽器設定提示：** 若無法下載檔案，請確認未啟用「阻擋彈出視窗」。
 
-### 單張列印 <small>單筆訂單</small>
+### 單張列印 <small>單筆訂單</small> { #operate-cvs-thermal-print-single }
 
 1. 登入 CYBERBIZ 管理後台，前往 **訂單 > 所有訂單**。
 2. 勾選欲出貨的訂單（配送方式需為 7-11 或全家）。
@@ -138,7 +138,7 @@ hide:
 
 ---
 
-### 多筆列印 <small>連續列印</small>
+### 多筆列印 <small>連續列印</small> { #operate-cvs-thermal-print-batch }
 
 1. 登入 CYBERBIZ 管理後台，前往 **訂單 > 所有訂單**。
 2. 勾選多筆訂單，且 **配送方式必須完全相同**。
@@ -150,27 +150,27 @@ hide:
 
 ---
 
-## 硬體與耗材建議
+## 硬體與耗材建議 { #prerequisites-cvs-thermal-hardware }
 
-### 列印設備需求
+### 列印設備需求 { #operate-cvs-thermal-print-device }
 
 - 需支援 **獨立 A6 尺寸** 的熱感應標籤機。
     
 ---
 
-### 建議機型 <small>僅供參考</small>
+### 建議機型 <small>僅供參考</small> { #prerequisites-cvs-thermal-models }
 
 - TSC TTP-225
 - TSC TTP-323
     
 ---
 
-### 標籤規範
+### 標籤規範 { #specs-cvs-thermal-label }
 
 - 條碼須 **平貼於包裹寬面**。
 - 不可凹折、裁切或縮放，避免超商門市無法掃描驗收。
     
-## 補印託運單
+## 補印託運單 { #operate-cvs-thermal-reprint }
 
 - 可於訂單列表重新補印託運單，流程與首次列印相同。
     
@@ -179,7 +179,7 @@ hide:
     - 一般列印（A4）  
     - 熱感列印（A6）
         
-## 更多操作
+## 更多操作 { #next-steps-cvs-thermal }
 
 <div class="grid cards" markdown>
 
@@ -194,7 +194,7 @@ hide:
 </div>
 
 
-## 常見問題
+## 常見問題 { #faq-cvs-thermal }
 
 ??? quote "為什麼找不到「熱感列印（A6）」選項？"  
 	通常是因為以下原因之一：

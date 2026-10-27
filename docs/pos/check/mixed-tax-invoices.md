@@ -79,15 +79,15 @@ hide: []
     - **運費稅別自動歸類**：系統自動將運費歸類為應稅項目，確保混稅計算精確無誤。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-mixed-tax-invoices }
 
 - **結帳管道限制**：此文件僅適用 **POS 結帳**。
 - **功能開通**：此功能需聯繫客服人員進行後台權限開通。
 - **退換貨限制**：混稅訂單不支援換貨。
 
-## 操作流程
+## 操作流程 { #operate-mixed-tax-invoices }
 
-### 步驟 1：申請開通混稅功能
+### 步驟 1：申請開通混稅功能 { #operate-mixed-tax-invoices-step-a-tax }
 
 在開始設定商品前，需先聯繫 CYBERBIZ 客服團隊啟用混稅模組。
 
@@ -98,7 +98,7 @@ hide: []
 ![](../../assets/images/EC-後台-總覽-前往線上客服01.png){ .screenshot }
 
 
-### 步驟 2：設定商品稅別
+### 步驟 2：設定商品稅別 { #operate-mixed-tax-invoices-step-b-settings }
 
 針對不同屬性的商品設定其應稅或免稅屬性。
 
@@ -111,9 +111,9 @@ hide: []
 ![](../../assets/images/EC-後台-商品-所有商品-設定應稅免稅01.png){ .screenshot }
 
 !!! tip "大量設定建議"
-    若需設定多項商品，可 [匯出](../../ec/products/bulk-operations/excel-import-products.md#下載-excel-範本或匯出商品) 商品，編輯 Excel 檔案中的 **商品稅別** 欄位，執行 [匯入](../../ec/products/bulk-operations/excel-import-products.md#匯入-excel-檔案)，即可批次編輯。
+    若需設定多項商品，可 [匯出](../../ec/products/bulk-operations/excel-import-products.md#operate-excel-import-download) 商品，編輯 Excel 檔案中的 **商品稅別** 欄位，執行 [匯入](../../ec/products/bulk-operations/excel-import-products.md#operate-excel-import-upload)，即可批次編輯。
 
-## 系統計算邏輯
+## 系統計算邏輯 { #specs-mixed-tax-invoices }
 
 當混稅功能開通後，系統將依據以下邏輯處理發票與折扣：
 
@@ -129,7 +129,7 @@ hide: []
 
     </div>
 
-## 常見問題
+## 常見問題 { #faq-mixed-tax-invoices }
 
 ??? quote "退貨或折讓時該如何處理？"
     混稅發票的退貨與折讓流程與一般發票相同。系統會根據原發票上的定價、應稅折扣及免稅折扣欄位自動進行對應處理，商家僅需依照標準折讓流程執行即可。

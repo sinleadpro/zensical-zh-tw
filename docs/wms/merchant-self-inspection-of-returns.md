@@ -68,12 +68,12 @@ hide: []
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲
 { .doc-badge }
 
-## 使用情境
+## 使用情境 { #intro-return-inspection }
 
 若退貨商品需特殊處理（如：維修、二次加工、由商家親自鑑定品況）或商家希望節省倉儲驗收處理費，適合採用此「自行驗收」模式。
 
 
-## 準備工作：關閉自動退貨功能
+## 準備工作：關閉自動退貨功能 { #prerequisites-return-inspection-close-auto }
 
 為了避免系統自動產生 WMS 退貨單或預設物流路徑，商家需先手動控制退貨申請。
 
@@ -83,7 +83,7 @@ hide: []
 
 ![](../assets/images/EC-後台-結帳頁&物流設定-倉儲商家開啟自行驗貨01.png){ .screenshot }
 
-## 驗收與退款作業
+## 驗收與退款作業 { #operate-return-inspection-process }
 
 1. 由商家主動提供退貨地址與寄送方式給消費者。
 2. 商家收到包裹並完成實體驗收後，請至訂單列表執行以下操作。
@@ -95,7 +95,7 @@ hide: []
     若您選擇自行驗收退貨，須自行聯繫物流商並安排退貨收件，**恕不支援透過 CYBERBIZ 平台建立逆物流**。
 
 
-## 後續操作
+## 後續操作 { #next-steps-return-inspection }
 
 <div class="grid cards" markdown>
 

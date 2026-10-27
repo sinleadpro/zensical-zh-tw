@@ -81,7 +81,7 @@ hide: []
 
 
 
-## 使用須知
+## 使用須知 { #prerequisites-member-filters }
 
 - **有效訂單統計原則**：在篩選「消費習性」或「購買經驗」等會員消費紀錄時，一律以 **有效訂單** 的歷史數據進行統計。
 - **篩選邏輯規範**：
@@ -90,30 +90,30 @@ hide: []
 
 
 
-## 使用會員篩選器
+## 使用會員篩選器 { #operate-member-filters }
 
-### 1. 新增篩選條件
+### 1. 新增篩選條件 { #operate-member-filters-add }
 
 前往 **會員 > 所有會員**，點擊頁面右上方的 **新增篩選條件** 按鈕。
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/會員-會員篩選器01.png){ .screenshot }
 
-### 2. 設定條件並套用
+### 2. 設定條件並套用 { #operate-member-filters-apply }
 
 1. 在彈窗中選擇欲使用的篩選類別（如：會員狀態、消費習性）。
 2. 設定具體參數（如：註冊時間、累計購買金額）。
 3. 點擊 **套用**，下方列表將即時顯示符合條件的會員名單。
 
-### 3. 批次操作
+### 3. 批次操作 { #operate-member-filters-batch }
 
 勾選會員後批次 **發送優惠券**、**匯出報表** 或 **修改標籤** 等操作。
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/會員-會員篩選器02.png){ .screenshot }
 
 
-## 使用會員分群
+## 使用會員分群 { #operate-member-filters-groups }
 
-### 建立分群
+### 建立分群 { #operate-member-filters-create-group }
 
 當您在篩選器中設定好條件並點擊 **套用** 後，下一步即是建立分群：
 
@@ -122,7 +122,7 @@ hide: []
 
 ![](../../assets/images/EC-後台-會員-所有會員-建立會員分群01.png){ .screenshot }
 
-### 應用情境
+### 應用情境 { #operate-member-filters-group-use }
 
 建立會員分群後，您可以直接針對該特定群體執行以下營運任務：
 
@@ -134,7 +134,7 @@ hide: []
 
 
 
-## 篩選條件說明
+## 篩選條件說明 { #specs-member-filters }
 
 系統提供六大類篩選維度，協助您從不同角度分析會員：
 
@@ -145,7 +145,7 @@ hide: []
     - 選配：企業版用戶可直接使用；PLUS 版用戶則需額外選配 **會員模組** 方可使用。
 
 
-### 會員狀態
+### 會員狀態 { #specs-member-filters-status }
 
 針對會員的基本帳號情況進行篩選。
 
@@ -159,7 +159,7 @@ hide: []
 | **社群綁定** | 篩選是否完成 LINE、Facebook 快速登入或 LINE OA 綁定 | ✕ | ✓ |
     
 
-### 消費習性
+### 消費習性 { #specs-member-filters-habits }
 
 分析會員的購物行為與意圖。
 
@@ -171,7 +171,7 @@ hide: []
 | **活躍狀態** | 依據下單間隔時間判定為「活躍」、「沉寂」或「流失」 | ✕ | ✓ |
 | **未結帳行為** | 篩選加入購物車 N 天內未結帳的會員（需進入過結帳頁） | ✕ | ✓ | 
 
-### 購買經驗
+### 購買經驗 { #specs-member-filters-purchase }
 
 依據歷史成交數據進行篩選。
 
@@ -186,7 +186,7 @@ hide: []
 | **推薦碼** | 篩選曾輸入分潤推薦碼完成消費的會員 | ✕ | ✓ |
 | **定期定額子訂單** | 篩選成立定期定額訂單的會員 | ✕ | ✓ |
 
-### 會員基本資料
+### 會員基本資料 { #specs-member-filters-profile }
 
 依據會員填寫的個人資訊篩選。
 
@@ -202,7 +202,7 @@ hide: []
 
 
 
-### 智慧篩選 (ORFM)
+### 智慧篩選 (ORFM) { #specs-member-filters-orfm }
 
 利用大數據模型自動分析會員價值。
 
@@ -215,21 +215,21 @@ hide: []
 
 > 透過 ORFM 分數，可快速找出高價值核心客戶或需重點喚回的對象。
 
-### 自訂欄位
+### 自訂欄位 { #specs-member-filters-custom }
 
-若您在 **管理中心 > 顧客註冊設定** 中 [新增自訂欄位](../website-management/customer-registration-flow-and-fields.md#步驟-4-建立與管理自訂欄位)，可在本區塊針對填寫內容進行篩選。
+若您在 **管理中心 > 顧客註冊設定** 中 [新增自訂欄位](../website-management/customer-registration-flow-and-fields.md#operate-customer-reg-custom)，可在本區塊針對填寫內容進行篩選。
 
 - 支援欄位格式：文字輸入、勾選方塊、下拉選單、日期。
 - 不支援欄位格式：上傳圖片。
 
 
 
-## 常見問題
+## 常見問題 { #faq-member-filters }
 
 ??? quote "為什麼篩選出的會員數量與預期不符？"
     請檢查：
     1. **條件衝突**：多個條件之間是「且 (AND)」的關係，條件越多，名單越精簡。
-    2. **有效訂單定義**：部分條件僅計算「有效訂單」，請參考[使用須知](#使用須知)中的定義。
+    2. **有效訂單定義**：部分條件僅計算「有效訂單」，請參考[使用須知](#prerequisites-member-filters)中的定義。
     3. **數據同步**：若會員剛完成操作，系統可能需要數分鐘處理數據同步。
 
 ??? quote "如何篩選出「從未買過東西」的新會員？"

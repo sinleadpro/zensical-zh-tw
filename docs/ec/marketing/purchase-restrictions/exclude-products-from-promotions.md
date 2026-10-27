@@ -66,7 +66,7 @@ hide: []
 
 ![商品排除指定優惠](../../../assets/images/ec-marketing-product-not-applicable-to-select-promotion.zh-tw.png){ title="商品排除指定優惠" .hero-page }
 
-## 商品排除指定優惠說明
+## 商品排除指定優惠說明 { #overview-promo-exclusion }
 
 將商品排除於特定行銷活動，避免重複折扣或影響利潤。此功能可針對全館折扣、優惠券、多層級分類滿額折扣及 VIP 優惠進行精準排除。
 
@@ -79,7 +79,7 @@ hide: []
 
 ---
 
-### 可排除的行銷活動類型
+### 可排除的行銷活動類型 { #overview-promo-exclusion-campaign }
 
 您可以將商品加入對應的「不適用折扣群組」，使其不參與以下行銷活動：
 
@@ -94,7 +94,7 @@ hide: []
     此功能同時支援 POS 獨賣商家，可確保門市專屬商品不會受到線上優惠活動影響。
 
 <!-- 
-## 相關功能設定
+## 相關功能設定 { #operate-promo-exclusion-settings }
 
 <div class="grid cards" markdown>
 
@@ -128,13 +128,13 @@ hide: []
 
 ---
 
-### 排除效果
+### 排除效果 { #overview-promo-exclusion-result }
 
 當商品被設定排除指定優惠後，在前台結帳頁面，系統將會根據設定給予提醒顯示，確保該商品不參與被排除的行銷活動。
 
 ![前台排除優惠顯示](../../../assets/images/ec-product-not-applicable-to-select-promotion-frontend.zh-tw.png){ title="前台排除優惠顯示" }
 
-## 操作步驟
+## 操作步驟 { #operate-promo-exclusion }
 
 您可以透過以下步驟，將商品排除特定行銷活動：
 
@@ -149,7 +149,7 @@ hide: []
 
 ![商品排除優惠設定](../../../assets/images/ec-marketing-product-not-applicable-to-select-promotion-setting.zh-tw.png){ title="商品排除優惠設定" }
 
-## 常見問題
+## 常見問題 { #faq-promo-exclusion }
 
 ??? quote "一個商品可以加入多個不適用折扣群組嗎？"
     可以。一個商品可以同時加入多個不適用折扣群組，例如同時排除「全館活動」和「優惠券」。

@@ -83,19 +83,19 @@ hide: []
 !!! info "提示"
     此頁僅適用於 **黑貓宅急便(宅配)** 託運單。如需操作 **黑貓快速到店(常溫 / 冷藏 / 冷凍)** 託運單，請改至「[黑貓快速到店託運單](setup-print-tcat-quick-store-waybill-v2.md){ title="設定與加印黑貓快速到店託運單" data-preview }」頁面。
 
-## 頁面區塊總覽 { #ezcat-shipping-note-overview }
+## 頁面區塊總覽 { #overview-ezcat-shipping }
 
 | 區塊 | 用途 | 觸發時機 |
 | :-- | :-- | :-- |
-| [黑貓設定](#configure-ezcat-shipping-note-sender-setup) | 設定寄件人姓名、地址、聯絡電話與逆物流收件地址 | 首次使用、寄件人資訊變更 |
-| [加印託運單](#ezcat-shipping-note-create) | 針對單一訂單再列印 1 至 8 張「純配送」託運單 | 需分箱寄送、託運單損毀重印 |
-| [黑貓逆物流](#ezcat-shipping-note-reverse) | 由黑貓上門至顧客處取件並送回您的逆物流地址 | 顧客退貨且訂單已出貨 |
-| [黑貓轉單紀錄](#ezcat-shipping-note-transfer-records) | 系統自動將原訂單未使用的單號轉用至新訂單的歷程 | 對帳查詢用 |
-| [單號使用紀錄(正物流)](#ezcat-shipping-note-usage-records) | 列出本店所有黑貓宅急便正物流託運單與扣抵金額 | 對帳、查詢轉單狀態 |
-| [單號使用紀錄(逆物流)](#ezcat-shipping-note-usage-records) | 列出本店所有黑貓宅急便逆物流託運單與扣抵金額 | 對帳、查詢轉單狀態 |
+| [黑貓設定](#operate-ezcat-sender-settings) | 設定寄件人姓名、地址、聯絡電話與逆物流收件地址 | 首次使用、寄件人資訊變更 |
+| [加印託運單](#operate-ezcat-shipping-create) | 針對單一訂單再列印 1 至 8 張「純配送」託運單 | 需分箱寄送、託運單損毀重印 |
+| [黑貓逆物流](#operate-ezcat-shipping-reverse) | 由黑貓上門至顧客處取件並送回您的逆物流地址 | 顧客退貨且訂單已出貨 |
+| [黑貓轉單紀錄](#reference-ezcat-shipping-transfer) | 系統自動將原訂單未使用的單號轉用至新訂單的歷程 | 對帳查詢用 |
+| [單號使用紀錄(正物流)](#reference-ezcat-shipping-usage) | 列出本店所有黑貓宅急便正物流託運單與扣抵金額 | 對帳、查詢轉單狀態 |
+| [單號使用紀錄(逆物流)](#reference-ezcat-shipping-usage) | 列出本店所有黑貓宅急便逆物流託運單與扣抵金額 | 對帳、查詢轉單狀態 |
 
 
-## 計費規則 { #ezcat-shipping-note-billing }
+## 計費規則 { #specs-ezcat-shipping-billing }
 
 黑貓託運單採 **CYBER 幣預扣** 制，於列印或建立逆物流時即時扣抵。
 
@@ -105,7 +105,7 @@ hide: []
     * **一般版**：看到「目前 CYBER 幣餘額」與藍色數字餘額。
     * **PLUS版 / 企業版**：顯示對帳單說明文字，請依對帳單週期結算。
 
-## 設定寄件人資訊 { #configure-ezcat-shipping-note-sender-setup }
+## 設定寄件人資訊 { #operate-ezcat-sender-settings }
 
 首次使用黑貓託運單功能前，**必須** 完成「黑貓設定」區塊。寄件人姓名、地址、電話會被代入後續所有正物流與逆物流託運單。
 
@@ -127,7 +127,7 @@ hide: []
 [^1]: 寄件人名稱不得含特殊符號；若儲存時提示「收件人名稱...」錯誤訊息，請依提示移除無效字元後再試。
 [^5]: 例如「網購商品」。
 
-## 加印託運單 { #ezcat-shipping-note-create }
+## 加印託運單 { #operate-ezcat-shipping-create }
 
 「加印」是針對 **已存在於系統的訂單** ，再產生額外的託運單號；典型情境為一筆訂單需分多箱寄送、或原本的託運單損毀需重新列印。
 
@@ -169,15 +169,15 @@ hide: []
 
 ---
 
-## 建立黑貓逆物流 { #ezcat-shipping-note-reverse }
+## 建立黑貓逆物流 { #operate-ezcat-shipping-reverse }
 
 「逆物流」是由黑貓上門至 **顧客指定地址** 收取退貨包裹，送回您於「黑貓設定」填寫的逆物流地址。送出後，**黑貓會列印託運單交給消費者** ，您不需印單。
 
-### 適用條件 { #ezcat-shipping-note-reverse-prerequisites }
+### 適用條件 { #prerequisites-ezcat-shipping-reverse }
 
 | 條件 | 系統要求 |
 | :-- | :-- |
-| 已完成黑貓設定 | 寄件人區碼必須存在(來自 [設定寄件人資訊](#configure-ezcat-shipping-note-sender-setup)的寄件地址) |
+| 已完成黑貓設定 | 寄件人區碼必須存在(來自 [設定寄件人資訊](#operate-ezcat-sender-settings)的寄件地址) |
 | 訂單存在 | 訂單編號正確 |
 | 非 POS 訂單 | 門市 POS 訂單無法於此頁面建立逆物流 |
 | 訂單配送狀態 | 須為 **已出貨** 或更後階段；尚未出貨、準備出貨的訂單不允許 |
@@ -185,7 +185,7 @@ hide: []
 
 ---
 
-### 操作步驟 { #ezcat-shipping-note-reverse-steps }
+### 操作步驟 { #operate-ezcat-shipping-reverse-steps }
 
 1. **進入頁面**：登入後台，前往 **金物流 > 黑貓託運單**，捲動至「黑貓逆物流」區塊。
 2. **填入訂單編號**：在「訂單編號」欄位輸入要建立退貨的訂單編號(不含前綴)。
@@ -196,18 +196,18 @@ hide: []
 5. **勾選同意條款**：勾選「我同意 CYBERBIZ 與黑貓的物流條款」核取方塊。
 6. **點擊確認送出**：點擊 **確認送出** 按鈕，系統會彈出確認視窗。
 7. **再次確認**：於確認視窗點擊 **確認** ，系統將資訊送至黑貓並等待回覆。
-8. **完成**：成功後畫面會顯示扣抵 CYBER 幣金額與剩餘餘額，該筆紀錄會出現在下方「[單號使用紀錄(逆物流)](#ezcat-shipping-note-usage-records)」表格中。
+8. **完成**：成功後畫面會顯示扣抵 CYBER 幣金額與剩餘餘額，該筆紀錄會出現在下方「[單號使用紀錄(逆物流)](#reference-ezcat-shipping-usage)」表格中。
 
 ![黑貓逆物流](../../assets/images/EC-金物流-黑貓託運單-黑貓逆物流.png){ title="黑貓逆物流" }
 
 !!! info "提示"
     系統送出後，**黑貓會直接列印託運單給消費者**，您與消費者皆不需印單。
 
-## 查詢紀錄與對帳 { #ezcat-shipping-note-records }
+## 查詢紀錄與對帳 { #reference-ezcat-shipping-records }
 
 頁面下方提供三份歷史紀錄表，所有資料皆可使用右上角搜尋框關鍵字過濾，點擊欄位標題可切換排序。
 
-### 黑貓轉單紀錄 { #ezcat-shipping-note-transfer-records }
+### 黑貓轉單紀錄 { #reference-ezcat-shipping-transfer }
 
 !!! warning "注意"
       黑貓宅配商已不再支援託運單轉單機制，新的加印與出貨操作一律向黑貓索取新單號；本表僅列出停用前所累積的歷史紀錄，新操作不會再產生新資料。
@@ -227,7 +227,7 @@ hide: []
 
 ---
 
-### 單號使用紀錄 <small>正物流 / 逆物流</small> { #ezcat-shipping-note-usage-records }
+### 單號使用紀錄 <small>正物流 / 逆物流</small> { #reference-ezcat-shipping-usage }
 
 「正物流」記錄出貨用單號，「逆物流」記錄退貨用單號，兩者欄位相同。
 
@@ -250,7 +250,7 @@ hide: []
 !!! note "註釋"
     「客戶選定 CYBER 幣額度」與「確認扣除 CYBER 幣額度」差值會發生於溫層誤標、繁盛期等特殊情境。
 
-## 後續操作
+## 後續操作 { #next-steps-ezcat-shipping }
 
 <div class="grid cards" markdown>
 
@@ -268,7 +268,7 @@ hide: []
 
 </div>
 
-## 常見問題 { #ezcat-shipping-note-faq }
+## 常見問題 { #faq-ezcat-shipping }
 
 ??? quote "「加印託運單」按鈕點不下去 / 灰色"
     [](){ #faq-ezcat-button-disabled }

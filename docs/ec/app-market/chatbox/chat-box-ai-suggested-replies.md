@@ -83,24 +83,24 @@ hide: []
     - **維持服務品質**：即使是新進客服人員，也能透過 AI 建議產出符合品牌語調且資訊正確的回覆。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-chat-ai }
 
 - **資料品質決定回覆品質**：上傳的文件描述越詳細（如：常見問題集、內部 SOP），AI 生成的內容就越精準。
 - **隱私與安全**：關閉功能或刪除檔案後，系統會立即從 AI 模型中移除對應資料，確保商業資訊安全。
 - **人工審核原則**：AI 產出的內容僅供參考，發送前請務必進行人工微調與核實。
 
 
-## 建立 AI 助手
+## 建立 AI 助手 { #operate-chat-ai }
 
 前往 **APP MARKET > CHAT BOX**，點擊介面上的 **AI 中心** 進行設定。
 
-### 1. 啟用功能
+### 1. 啟用功能 { #operate-chat-ai-1-enable }
 
 開啟「啟用 AI 建議回覆」開關。啟用後，每當接收到新訊息，聊天室對話框上方將出現 AI 觸發圖示。
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-AI助手01.png){ .screenshot }
 
-### 2. 建立客服資料庫
+### 2. 建立客服資料庫 { #operate-chat-ai-2-create-data }
 
 點擊 **上傳文件**，將您的品牌政策或產品說明書上傳至 AI 知識庫。
 
@@ -111,7 +111,7 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-AI助手02.png){ .screenshot }
 
-### 3. 追蹤檔案處理狀態
+### 3. 追蹤檔案處理狀態 { #operate-chat-ai-3-file-status }
 
 上傳後，AI 需時間閱讀並寫入模型。請留意檔案狀態：
 
@@ -123,7 +123,7 @@ hide: []
 
 
 
-## 使用 AI 助手回覆問題
+## 使用 AI 助手回覆問題 { #intro-chat-ai }
 
 當顧客進線諮詢時，您可以透過以下步驟使用 AI 助手：
 

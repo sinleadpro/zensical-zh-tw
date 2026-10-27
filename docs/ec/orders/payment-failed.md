@@ -194,7 +194,7 @@ hide: []
   [__設定訂單自動取消__](../payments-and-logistics/payments/order-settings.md#operate-order-settings-auto-cancel){ title="訂單相關設定" }
 
 - :lucide-circle-x:{ .lg }
-  [__商家手動取消訂單__](basics/cancel-order.md#orders-cancel-merchant){ title="如何取消訂單" }
+  [__商家手動取消訂單__](basics/cancel-order.md#operate-cancel-merchant){ title="如何取消訂單" }
 
 </div>
 
@@ -292,4 +292,4 @@ hide: []
 
 ## 參考資料 { #reference-payment-failed }
 
-* [訂單付款狀態對照表](references/payment-statuses.md#payment-statuses){ title="訂單付款狀態對照表" data-preview }
+* [訂單付款狀態對照表](references/payment-statuses.md#reference-payment-statuses){ title="訂單付款狀態對照表" data-preview }

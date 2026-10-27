@@ -119,7 +119,7 @@ hide: []
 
 ### 於官網揭露名稱與統一編號 { #operate-business-disclosure-footer }
 
-為符合「明顯處」要求，建議將營業人名稱與統一編號設置於官網頁腳，讓消費者在每一頁最下方都看得到。頁腳的「聯絡資訊」區塊提供獨立的「顯示統一編號」開關與「統一編號」欄位，其餘可顯示欄位整理於 [頁腳聯絡資訊欄位對照表](../references/business-disclosure-footer-fields.md#footer-contact-fields){ data-preview }。
+為符合「明顯處」要求，建議將營業人名稱與統一編號設置於官網頁腳，讓消費者在每一頁最下方都看得到。頁腳的「聯絡資訊」區塊提供獨立的「顯示統一編號」開關與「統一編號」欄位，其餘可顯示欄位整理於 [頁腳聯絡資訊欄位對照表](../references/business-disclosure-footer-fields.md#reference-footer-contact){ data-preview }。
 
 === "拖拉版型"
 

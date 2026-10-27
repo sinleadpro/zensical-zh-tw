@@ -79,7 +79,7 @@ hide: []
 { .doc-badge }
 
 
-## 什麼是推薦碼連結 { #referral-link-applications-definition }
+## 什麼是推薦碼連結 { #intro-referral-links }
 
 推薦碼連結是指在官網網址後方嵌入專屬「推薦碼（rcode）」參數的特殊連結。
 
@@ -87,23 +87,23 @@ hide: []
 - **自動帶入**：當透過連結結帳時，系統會自動將推薦碼帶入欄位，無需消費者手動輸入。
 
 
-## 為指定頁面建立分潤推薦連結 { #referral-link-applications-specific-page }
+## 為指定頁面建立分潤推薦連結 { #operate-referral-links }
 
 若要將消費者導向官網的特定商品頁、活動頁或一頁式商店，可在目標網址中加入推薦碼，建立對應的分潤推薦連結。
 
-### 取得推薦碼 { #referral-link-applications-get-code }
+### 取得推薦碼 { #prerequisites-referral-code }
 
 製作連結前，請先查詢並取得分潤夥伴的推薦碼：
 
 <div class="grid cards" markdown>
 
 - :lucide-copy:{ .lg }
-  [__一鍵複製推薦碼__](query-profit-sharing-partners-and-codes.md#任務三一鍵複製推薦碼)<br>
+  [__一鍵複製推薦碼__](query-profit-sharing-partners-and-codes.md#operate-ps-query-copy)<br>
   前往 **分潤 > 推薦人分潤 > 第三方總表**，點擊複製圖示取得推薦人的推薦碼。
 
 </div>
 
-### 製作方式 { #referral-link-applications-create-link }
+### 製作方式 { #operate-referral-link-create }
 
 - **原始網址**：`https://store.com/xxx/yyy`
 - **推薦碼後綴格式**：`?rcode=[推薦碼]`
@@ -111,7 +111,7 @@ hide: []
 - **最終連結**：`https://store.com/xxx/yyy?rcode=abc123`
 
 
-### 情境範例 { #referral-link-applications-example }
+### 情境範例 { #overview-referral-link-example }
 
 [一頁式商店](../marketing/one-page-store/one-page-store.md)可結合分潤功能，透過製作帶有推薦碼的網址，當消費者點擊含推薦碼之連結後，系統將自動於購物車帶入推薦碼。
 
@@ -122,27 +122,27 @@ hide: []
 
 
 
-## 加工推薦碼連結 { #referral-link-applications-processing }
+## 加工推薦碼連結 { #operate-referral-processing }
 
 在開始推廣前，請先從後台複製帶有推薦碼的原始連結，系統提供以下查詢方式：
 
 <div class="grid cards" markdown>
 
 - :lucide-search:{ .lg }
-  [__查詢合作夥伴的分潤資訊__](query-profit-sharing-partners-and-codes.md#任務一查詢合作夥伴的分潤資訊)<br>
+  [__查詢合作夥伴的分潤資訊__](query-profit-sharing-partners-and-codes.md#operate-ps-query-partners)<br>
   適合查詢特定合作夥伴參與的分潤方案、分潤比例與推薦碼。
 
 - :lucide-user-round-search:{ .lg }
-  [__員工自我查詢分潤資訊__](query-profit-sharing-partners-and-codes.md#任務二員工自我查詢分潤資訊)<br>
+  [__員工自我查詢分潤資訊__](query-profit-sharing-partners-and-codes.md#operate-ps-query-staff)<br>
   適合內部員工查詢所屬的分潤方案，取得個人推廣連結。
 
 - :lucide-copy:{ .lg }
-  [__一鍵複製推薦碼__](query-profit-sharing-partners-and-codes.md#任務三一鍵複製推薦碼)<br>
+  [__一鍵複製推薦碼__](query-profit-sharing-partners-and-codes.md#operate-ps-query-copy)<br>
   適合從第三方推薦人名單快速取得合作夥伴的推薦碼。
 
 </div>
 
-### 製作方式 { #referral-link-applications-processing-methods }
+### 製作方式 { #operate-referral-processing-methods }
 
 
 === "產生短網址"
@@ -168,7 +168,7 @@ hide: []
     - **錯誤範例**：`https://.../?rcode=xxx?utm_medium=fb`（不可使用兩個問號）
 
 
-## 測試推薦連結有效性 { #referral-link-applications-testing }
+## 測試推薦連結有效性 { #operate-referral-testing }
 
 在正式發布連結前，請務必依以下步驟測試追蹤功能是否正常。
 
@@ -182,7 +182,7 @@ hide: []
 
 
 
-## 常見問題 { #referral-link-applications-faq }
+## 常見問題 { #faq-referral-links }
 
 ??? quote "為什麼我縮短網址後，推薦碼就失效了？"
     通常是因為您在縮網址工具中輸入的是 **不含推薦碼的官網首頁網址**。請務必確認縮網址工具的輸入來源是包含 `?rcode=...` 的完整字串。

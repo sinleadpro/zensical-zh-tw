@@ -73,14 +73,14 @@ hide: []
 
 
 
-## 使用須知
+## 使用須知 { #prerequisites-amazon-fba }
 
 - **自動出貨**：官網訂單成立後，系統自動將資料拋轉至 Amazon 安排發貨。
 - **庫存聯動**：一旦綁定，官網庫存將鎖定，無法手動修改，強制以 Amazon FBA 實際庫存為準。
 
-## 啟用物流
+## 啟用物流 { #operate-amazon-fba }
 
-### 步驟 1：安裝 FBA 擴充應用
+### 步驟 1：安裝 FBA 擴充應用 { #operate-amazon-fba-install }
 
 
 1. 登入 CYBERBIZ 後台，前往 **APP MARKET > 擴充服務市集**。
@@ -90,7 +90,7 @@ hide: []
 
 
 
-### 步驟 2：完成帳號授權
+### 步驟 2：完成帳號授權 { #operate-amazon-fba-authorize }
 
 1. 登入 CYBERBIZ 後台，前往 **APP MARKET > 我的擴充服務**。
 
@@ -110,11 +110,11 @@ hide: []
     - **到期提醒**：系統將於授權到期日前 15、7、3、1 日寄送 Email 通知。
     - **重新授權**：若授權過期，點選 **重新授權** 即可恢復功能。
 
-### 步驟 3：綁定商品 SKU 
+### 步驟 3：綁定商品 SKU { #operate-amazon-fba-bind-sku }
 
 若要讓 Amazon 正確識別官網訂單對應的商品，**CYBERBIZ 的商品 SKU 必須與 Amazon 的商品 SKU 完全一致**。
 
-#### 1. 查詢 Amazon 端 SKU
+#### 1. 查詢 Amazon 端 SKU { #operate-amazon-fba-query-sku }
 
 1. 登入 [Amazon Seller Central](https://sellercentral.amazon.com/)。
     ![](../../assets/images/Amazon-後台-查看訂單資訊01.png)
@@ -123,7 +123,7 @@ hide: []
 3. 紀錄下該商品的 **Seller SKU**。
     ![](../../assets/images/Amazon-後台-查看Amazon商品SKU02.png)
 
-#### 2. 在 CYBERBIZ 設定 SKU 對應
+#### 2. 在 CYBERBIZ 設定 SKU 對應 { #operate-amazon-fba-map-sku }
 
 1. 前往 **商品 > 所有商品**，進入目標商品的編輯頁。
 2. 下滑至 **款式管理** 區塊。
@@ -132,7 +132,7 @@ hide: []
 
 ![](../../assets/images/EC-後台-商品-所有商品-編輯商品SKU01.png)
 
-### 步驟 4：設定 Amazon 出貨方式
+### 步驟 4：設定 Amazon 出貨方式 { #operate-amazon-fba-ship-method }
 
 由 **Amazon物流** 出貨的商品，指定出貨方式：
 
@@ -145,9 +145,9 @@ hide: []
 !!! warning "Amazon SKU 與出貨方式限制"
     只有已啟用對應 Amazon 功能的商店，**Amazon物流** 才會出現在出貨方式選單。SKU 若與 Amazon Seller SKU 不一致，系統無法正確拋轉訂單或同步庫存。
 
-## 訂單監控與貨態追蹤
+## 訂單監控與貨態追蹤 { #operate-amazon-fba-tracking }
 
-### 1. 在 Amazon 查看官網訂單
+### 1. 在 Amazon 查看官網訂單 { #operate-amazon-fba-view-orders }
 
 官網成立之 FBA 出貨訂單也會同步顯示在 Amazon 後台：
 
@@ -158,14 +158,14 @@ hide: []
 3. 在 Sales Channel 篩選器勾選 **Non-Amazon**，即可看到來自官網的訂單。
     ![](../../assets/images/Amazon-後台-查看訂單資訊03.png)
 
-### 2. 貨態同步機制
+### 2. 貨態同步機制 { #specs-amazon-fba-sync }
 
 - 當 Amazon 倉庫準備出貨時，官網訂單狀態會同步更新。
 - 當 FBA 完成配送，官網配送狀態將自動轉為 **已出貨** 並正式入帳。
 
 
 
-## CYBERBIZ 與 Amazon FBA 貨態對照表
+## CYBERBIZ 與 Amazon FBA 貨態對照表 { #specs-amazon-fba-status }
 
 | Amazon FBA 狀態 | CYBERBIZ 配送狀態 | 備註 |
 | :--- | :--- | :--- |

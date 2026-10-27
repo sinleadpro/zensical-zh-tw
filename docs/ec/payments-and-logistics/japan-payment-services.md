@@ -65,7 +65,7 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Pro / Business
 { .doc-badge }
 
-## 金流選項說明
+## 金流選項說明 { #intro-jp-payments }
 
 | 付款方式 | 支援種類 | 手續費率 | 最低結帳門檻 |
 | :--- | :--- | :--- | :--- |
@@ -77,7 +77,7 @@ hide: []
 - **最低結帳門檻**：系統設有預設之最低結帳門檻，商家無需手動配置；單筆訂單金額須達該門檻，結帳頁面始會顯示對應之付款選項。
 
 
-## 步驟 1：信用卡支付設定
+## 步驟 1：信用卡支付設定 { #operate-jp-payments-card }
 
 前往 **金物流 > 金流設定**，點擊 **CYBERBIZ PAYMENTS** 右側 :lucide-file-pen-line: **設定**。
 
@@ -89,7 +89,7 @@ hide: []
 
 ![](../../assets/images/日本站-後台-金物流-金流設定-設定信用卡01.png)
 
-## 步驟 2：Pay-Easy 支付設定
+## 步驟 2：Pay-Easy 支付設定 { #operate-jp-payments-payeasy }
 
 前往 **金物流 > 金流設定**，點擊 Pay-Easy 右側 :lucide-file-pen-line: **設定**。
 

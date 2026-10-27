@@ -207,7 +207,7 @@ function openTab(evt, tabName) {
 </div>
 
 
-## 品牌官網
+## 品牌官網 { #overview-home-ec }
 
 <div class="grid cards" markdown>
 
@@ -257,7 +257,7 @@ function openTab(evt, tabName) {
 
 ---
 
-## 智慧倉儲
+## 智慧倉儲 { #overview-home-wms }
 
 <div class="grid cards" markdown>
 
@@ -293,7 +293,7 @@ function openTab(evt, tabName) {
 
 ---
 
-## 智能 POS
+## 智能 POS { #overview-home-pos }
 
 <div class="grid cards" markdown>
 
@@ -330,7 +330,7 @@ function openTab(evt, tabName) {
 
 ---
 
-## 擴充功能與整合
+## 擴充功能與整合 { #overview-home-extensions }
 
 <div class="grid cards" markdown>
 
@@ -387,7 +387,7 @@ function openTab(evt, tabName) {
 <!---->
 <!-- --- -->
 
-## 資源中心
+## 資源中心 { #overview-home-resources }
 
 <div class="grid cards" markdown>
 

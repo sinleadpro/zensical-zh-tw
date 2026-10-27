@@ -92,13 +92,13 @@ hide: []
 
 ![](../../../../assets/images/ec-第三方整合-line 註冊登入.png){ .hero-page }
 
-## 什麼是 LINE 官方帳號與官網會員綁定
+## 什麼是 LINE 官方帳號與官網會員綁定 { #operate-bind-line }
 
 **LINE OA 官方帳號綁定官網會員** 是整合線上與線下會員資料、進行精準行銷的核心功能。透過綁定，商家可以收集會員的 **LINE UID**，進而發送自動化的訂單/物流通知訊息。
 
 以下為 LINE OA 官方帳號綁定官網會員的詳細說明與教學：
 
-## 綁定前置作業
+## 綁定前置作業 { #prerequisites-bind-line }
 
 商家必須先完成以下系統串接設定，資料才能互通：
 
@@ -108,11 +108,11 @@ hide: []
 
 - [x] **啟用 LINE 快速登入**：消費者需透過 LINE 快速登入註冊或登入，才能完成綁定流程。
 
-## 商家後台設定方法
+## 商家後台設定方法 { #operate-bind-line-backend-settings }
 
 商家需提供特定連結引導顧客操作，主要有三種應用情境：
 
-### 設定圖文選單
+### 設定圖文選單 { #operate-bind-line-backend-settings-settings }
 
 這是最常用的引導方式。
 
@@ -128,7 +128,7 @@ hide: []
 
 ---
 
-### 設定加入好友的歡迎訊息
+### 設定加入好友的歡迎訊息 { #operate-line-bind-welcome }
 
 - **操作路徑**：進入 [LINE Official Account Manager :lucide-external-link:](https://manager.line.biz/)  > **聊天室相關 > 加入好友的歡迎訊息**。
 
@@ -140,7 +140,7 @@ hide: []
 
 ---
 
-### 使用 LIFF 自動綁定 <small>推薦方式</small>
+### 使用 LIFF 自動綁定 <small>推薦方式</small> { #operate-bind-line-backend-settings-use-liff-bind }
 
 - **功能特色**：開啟後，消費者點選網址會自動套用 LINE 帳戶資訊。若顧客非好友或非會員，點選連結可 **同時加入好友、註冊官網會員並完成綁定**。
 
@@ -152,7 +152,7 @@ hide: []
 
 ![](../../../../assets/images/ec-第三方整合-line 註冊登入-liff 網址.png)
 
-## 顧客端綁定流程
+## 顧客端綁定流程 { #operate-bind-line-bind-flow }
 
 1. 點擊商家提供的 **綁定連結** 或 **LIFF 網址**。
 
@@ -164,7 +164,7 @@ hide: []
 
 ![](../../../../assets/images/ec-第三方整合-line liff 會員綁定.gif)
 
-## 綁定後的進階功能與好處
+## 綁定後的進階功能與好處 { #operate-bind-line-bind-advanced }
 
 <div class="grid cards" markdown>
 
@@ -177,7 +177,7 @@ hide: []
   設定「LINE @ 綁定贈送優惠券功能」來增加顧客綁定意願。
 
 - :lucide-scan-barcode:{ .lg }  
-  [__顯示會員條碼 (OMO 應用)__](../marketing/setup-line-rich-menu.md#omo-實體門市應用){ title="設定 LINE 圖文選單" }    
+  [__顯示會員條碼 (OMO 應用)__](../marketing/setup-line-rich-menu.md#operate-line-rich-menu-settings-omo-store){ title="設定 LINE 圖文選單" }
   顧客可於 LINE 選單調出會員條碼，供實體門市 POS 機掃描進行紅利或優惠券折抵。
 
 - :lucide-user-round:{ .lg }  
@@ -186,7 +186,7 @@ hide: []
 
 </div>
 
-## 重要注意事項
+## 重要注意事項 { #intro-bind-line }
 
 - **非好友限制**：透過 LINE 快速登入的顧客 **不一定有綁定 LINE OA**，且只有成為 LINE OA 好友且未封鎖的帳號，才能收到 LINE 推播訊息。
 
@@ -194,7 +194,7 @@ hide: []
 
 - **連結正確性**：若網址帶有 `/customer/auth/line?line_action` 參數，則每次點選皆會跳出綁定畫面；若不希望重複跳轉，僅需針對「首次綁定」的功能進行設定即可。
 
-## 常見問題
+## 常見問題 { #faq-bind-line }
 
 ??? quote "為什麼會員已完成 LINE 快速登入，卻沒有出現在 LINE 官方帳號的好友名單中？" 
 	

@@ -74,12 +74,12 @@ hide: []
 { .doc-badge }
 
 
-## 功能說明
+## 功能說明 { #overview-referrer-import }
 
 總部管理員可透過此功能批次設定會員與門市推薦人之相關設定，包括 **更換門市推薦人** 與 **綁定期間**，以及 **刪除綁定關係**。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-referrer-import }
 
 -  **會員身份限制**：系統僅支援對 **已在官網 (EC) 註冊** 的會員進行綁定。若顧客尚未成為會員，請先至 **會員 > 所有會員** 進行 [會員資料匯入]()。
 -  **LINE 官方帳號關聯**：透過後台批次綁定的會員 **不會** 自動加入 LINE 官方帳號好友。建議引導會員後續於門市再次掃描店員專屬 QRcode 以完成 LINE 連結。
@@ -87,9 +87,9 @@ hide: []
 - **功能權限**：僅限 **總部管理員** 於門市助理管理後台操作。
 
 
-## 操作流程
+## 操作流程 { #operate-referrer-import }
 
-### 上傳與執行匯入
+### 上傳與執行匯入 { #operate-referrer-import-upload-import }
 
 1. 登入門市助理管理後台，前往 **門市管理**，點擊頂端選單 **匯入 > 顧客門市推薦人**。
 
@@ -109,7 +109,7 @@ hide: []
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-匯入顧客門市推薦人03.png){ .screenshot }
 
-### 確認進度與錯誤排除
+### 確認進度與錯誤排除 { #operate-referrer-import-errors }
 
 1. **成功完成**：狀態顯示為 **已完成** 後，綁定關係將即時生效。
 2. **錯誤處理**：
@@ -120,7 +120,7 @@ hide: []
     ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-匯入顧客門市推薦人04.png){ .small-image }
 
 
-## 常見問題
+## 常見問題 { #faq-referrer-import }
 
 ??? quote "匯入後，之前的舊訂單會自動歸因到新綁定的推薦人嗎？"
     不會。業績歸因僅適用於 **綁定關係建立後** 產生的官網有效訂單。已結案或已產生的歷史訂單不會溯及既往。

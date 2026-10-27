@@ -13,7 +13,7 @@ hide:
   - feedback
 ---
 
-## 帳號建立與管理
+## 帳號建立與管理 { #operate-meta-ads }
 
 <div class="grid cards" markdown>
 
@@ -37,7 +37,7 @@ hide:
 
 ---
 
-## 廣告活動設定
+## 廣告活動設定 { #operate-meta-ads-ads-settings }
 
 <div class="grid cards" markdown>
 
@@ -69,7 +69,7 @@ hide:
 
 ---
 
-## 投放策略與預算
+## 投放策略與預算 { #intro-meta-ads }
 
 <div class="grid cards" markdown>
 
@@ -93,7 +93,7 @@ hide:
 
 ---
 
-## 成效分析與疑難排解
+## 成效分析與疑難排解 { #intro-meta-ads-analysis }
 
 <div class="grid cards" markdown>
 

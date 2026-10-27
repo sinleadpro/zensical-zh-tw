@@ -76,7 +76,7 @@ hide: []
 
 ![](../assets/images/WMS-後台-商品-加工商品-畫面總覽01.png){ .hero-page }
 
-## 使用須知
+## 使用須知 { #prerequisites-processed-products }
 
 - **CYBERBIZ 官網庫存連動**：若您的倉儲系統已串接 CYBERBIZ 官網 (EC)，請務必遵循以下對接規範：
     - **建立順序**：於 WMS 倉儲系統完成 **加工品** 建立後，需同步至官網後台 [建立對應商品](../ec/products/create-and-manage/create-update-products.md)。
@@ -89,17 +89,17 @@ hide: []
     - **連動**：若子品項 B 售出 30 件（不論是單賣或經由其他組合），則此組合商品庫存將自動降為 50 組。
 
 
-## 申請與前置準備
+## 申請與前置準備 { #prerequisites-processed-products-setup }
 
 由於加工商品涉及倉庫的人力組裝作業，在系統設定前請務必完成以下行政流程：
 
 1. **諮詢與報價**：聯繫專屬業務或倉庫行政人員，說明加工需求（如：封膜、貼標、入盒），倉庫端會計算加工費率並報價。
 2. **建立加工項**：倉庫端會根據報價在系統中建立對應的 **加工項**。**商家須等倉庫完成此設定後，才能在後台選取對應項目。**
-3. **單品建檔**：確保所有要組合成加工品的 **子品項** 都已在 **商品 > 單一品項** 中 [建立商品](single-items/#新增單一品項)。
+3. **單品建檔**：確保所有要組合成加工品的 **子品項** 都已在 **商品 > 單一品項** 中 [建立商品](single-items/#operate-single-items-add)。
 
 
 
-## 手動建立加工商品
+## 手動建立加工商品 { #operate-processed-products-create }
 
 完成前置準備後，即可在 WMS 後台將單品「綁定」為加工品。
 
@@ -119,7 +119,7 @@ hide: []
 ![](../assets/images/WMS-後台-商品-加工商品-單筆新增加工品01.png){ .screenshot }
 
 
-## 批次匯入加工商品
+## 批次匯入加工商品 { #operate-processed-products-import }
 
 若有大量組合品需求，可使用 Excel 批次作業。
 
@@ -133,12 +133,12 @@ hide: []
 !!! warning "匯入注意事項"
     匯入過程中 **請勿重新整理或離開頁面**。請靜候進度條完成至 100%，否則可能導致資料毀損或匯入結果不完整。
 
-## 後續操作
+## 後續操作 { #next-steps-processed-products }
 
 <div class="grid cards" markdown>
 
 - :lucide-chart-bar-increasing:{ .lg }   
-  [__如何在庫存總表中核對數據__](single-items/#匯出商品報表)     
+  [__如何在庫存總表中核對數據__](single-items/#operate-single-items-export)
   下載「商品庫存總表」，確保帳物一致。
 
 - :lucide-square-chart-gantt:{ .lg }   

@@ -74,13 +74,13 @@ hide: []
 
 ![](../../../../assets/images/ec-第三方整合-line 註冊登入.png){ .hero-page }
 
-## 什麼是 LINE 快速登入
+## 什麼是 LINE 快速登入 { #intro-line-quick }
 
 **LINE 快速登入** 讓顧客能透過 LINE 帳號直接登入或註冊成為會員，系統會自動抓取客戶 LINE 綁定的「Email」進行帳號比對。這不僅簡化了購物流程，還能增加商家官方帳號的曝光度，並讓商家在後台篩選出透過 LINE 登入的會員。
 
 以下為 LINE 快速登入的詳細設定教學：
 
-## 設定前置注意事項
+## 設定前置注意事項 { #prerequisites-line-quick }
 
 - **Email 綁定**：顧客的 LINE 帳號 **必須先綁定 Email**，才可以使用 LINE 快速登入功能。
 
@@ -89,7 +89,7 @@ hide: []
 - **Hinet 信箱限制**：若消費者使用 Hinet 信箱註冊，可能會因為 Hinet 阻擋訊息而導致無法重新設定密碼。
 
 
-## LINE Developers 後台設定步驟
+## LINE Developers 後台設定步驟 { #operate-line-quick }
 
 !!! info "需要先有 LINE 帳戶，瞭解 [如何建立 LINE 官方帳號 :lucide-external-link:](https://help2.line.me/official_account_tw/web/pc?contentId=20013137&lang=zh-Hant)"
 
@@ -125,7 +125,7 @@ hide: []
 
 	![](../../../../assets/images/ec-第三方整合-line login channel-publish.png)
 
-## CYBERBIZ 後台串接步驟
+## CYBERBIZ 後台串接步驟 { #operate-line-quick-cyberbiz-backend-connect-step }
 
 1. **取得金鑰**：在 LINE Developers 的「Basic settings」頁籤複製 **Channel ID** 與 **Channel Secret**。
 
@@ -135,9 +135,9 @@ hide: []
 
 ![](../../../../assets/images/ec-第三方整合-line login channel-channel id and secret-copy and paste.gif)
 
-## 進階與增值功能
+## 進階與增值功能 { #intro-line-quick-advanced }
 
-### 導引加入好友
+### 導引加入好友 { #intro-line-quick-advanced-overview-line-quick }
 
 - 在 LINE Developers 的 **Basic settings > Linked LINE Official Account** 中選擇同 Provider 下的官方帳號。
 
@@ -147,7 +147,7 @@ hide: []
 
 	![](../../../../assets/images/ec-第三方整合-line login-加入好友前台.png)
 
-## 後續操作
+## 後續操作 { #next-steps-line-quick }
 
 <div class="grid cards" markdown>
 
@@ -161,7 +161,7 @@ hide: []
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-line-quick }
 
 ??? quote "出現 400 Bad Request 錯誤畫面"
 	這通常與 **Callback URL（回呼網址）** 的配置錯誤有關。請檢查 LINE Developers 後台設定，確保填寫的 URL 與系統提供之路徑完全一致，且包含正確的 `https://` 協定與結尾格式。任何微小的字元差異（如多餘的空格或斜線）都會導致 API 驗證失敗並回傳 400 錯誤。

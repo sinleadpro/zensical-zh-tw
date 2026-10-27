@@ -82,9 +82,9 @@ hide:
 
 在商品頁加入影片能提升商品展示的視覺吸引力，顧客在商品頁與彈窗中可直接觀看。本文件說明如何上傳商品影片、設定彈窗顯示位置，以及透過媒體庫管理所有影片檔案。
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-product-video }
 
-### 適用範圍
+### 適用範圍 { #prerequisites-product-video-scope }
 
 === "支援"	
 	| 區塊/頁面       | 支援顯示影片 |
@@ -106,7 +106,7 @@ hide:
 
 ---
 
-### 影片規格限制
+### 影片規格限制 { #prerequisites-product-video-specs }
 
 為確保影片能順利上傳、處理及於前台正常播放，請遵循以下技術規格：
 
@@ -117,16 +117,16 @@ hide:
 - **檔案大小**：最大 30 MB，載入速度會受使用者網路影響，建議在符合規格下盡量壓縮檔案。
 - **音訊支援**：目前不支援音訊輸出，上傳影片將以靜音模式播放。
 
-## 操作步驟
+## 操作步驟 { #operate-product-video }
 
-### 上傳商品影片
+### 上傳商品影片 { #operate-product-video-upload }
 
 === "新增商品時上傳影片"
 
 	1. 登入 CYBERBIZ 管理後台，前往 **商品 > 所有商品 > 新增商品**。
 	2. 在商品影片區塊點擊 **上傳** 按鈕，選擇本機影片檔案。
 	3. 確認影片與商品資訊無誤後，點擊 **儲存**，系統將處理影片上傳，請耐心等待完成。
-	4. 上傳後的影片可在[媒體庫影片管理](#media)統一管理。
+	4. 上傳後的影片可在[媒體庫影片管理](#operate-product-videos)統一管理。
 
 === "為既有商品新增影片"
 
@@ -135,11 +135,11 @@ hide:
 	3. 在商品影片區塊點擊 **上傳** 按鈕，選擇本機影片檔案；若已有上傳過影片，可直接點擊 **從媒體庫選擇影片**。
 	4. 確認影片正確後，點擊 **儲存**，系統將處理影片上傳，請耐心等待完成。
 
-!!! tip "影片上傳後，編輯商品頁面時可選擇 **從 [媒體庫](#media) 選擇影片**，直接為商品新增影片。"
+!!! tip "影片上傳後，編輯商品頁面時可選擇 **從 [媒體庫](#operate-product-videos) 選擇影片**，直接為商品新增影片。"
 
 ---
 
-### 影片彈窗顯示設定 
+### 影片彈窗顯示設定 { #operate-product-video-popup }
 
 統一設定影片在商品彈窗中的顯示位置，以提升前台展示效果。
 
@@ -152,7 +152,7 @@ hide:
 
 ---
 
-### 媒體庫影片管理 { #media }
+### 媒體庫影片管理 { #operate-product-videos }
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 媒體庫**。
 2. 集中管理所有影片檔案，可進行 **搜尋影片 :lucide-search:**、**刪除影片 :lucide-trash-2:**，及 **上傳影片** 操作。
@@ -160,12 +160,12 @@ hide:
 ![媒體庫影片管理](../../../assets/images/ec-product-media-gallery.zh-tw.png){ title="媒體庫影片管理" }
 
 
-## 後續操作
+## 後續操作 { #next-steps-product-video }
 
 <div class="grid cards" markdown>
 
 - :lucide-settings-2:{ .lg }   
-  [__全站共用設定__](../../website-appearance/theme-and-layout/setup-global-theme-settings.md#product-display-layout){ title="全站共用設定" }     
+  [__全站共用設定__](../../website-appearance/theme-and-layout/setup-global-theme-settings.md#operate-global-settings-product-layout){ title="全站共用設定" }
   前往全站共用設定調整商品影片在彈窗中的顯示順序
 
 - :lucide-video:{ .lg }   
@@ -174,7 +174,7 @@ hide:
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-product-video }
 ??? quote "為什麼我的商品影片沒有聲音？"
     商品影片功能目前不支援音訊輸出，影片將以靜音方式播放。
 

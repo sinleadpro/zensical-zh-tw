@@ -65,13 +65,13 @@ hide: []
 
 ![GA4 串接設定](../../../../assets/images/ec-第三方整合-google-ga4設定.png){ .hero-page title="GA4 串接設定" }
 
-## Google Analytics 說明
+## Google Analytics 說明 { #overview-google-analytics }
 
 Google Analytics (GA4) 是經營品牌網站必備的分析工具，能協助行銷人員追蹤流量與使用者行為。串接程序主要分為 **Google 後台帳號建立** 與 **官網後台編號填入** 兩大步驟。
 
-## 操作步驟
+## 操作步驟 { #operate-google-analytics }
 
-### 建立 Google Analytics 帳號 <small>Google 端操作</small>
+### 建立 Google Analytics 帳號 <small>Google 端操作</small> { #operate-google-analytics-create-google-analytics }
 
 1.  **登入 GA 後台**：進入 [Google Analytics :lucide-external-link:](https://analytics.google.com/)，點擊「開始評估」。
 
@@ -99,7 +99,7 @@ Google Analytics (GA4) 是經營品牌網站必備的分析工具，能協助行
 
 ---
 
-### 將 GA4 帳號串連至官網 <small>CYBERBIZ 後台操作</small>
+### 將 GA4 帳號串連至官網 <small>CYBERBIZ 後台操作</small> { #operate-google-analytics-ga4-account-cyberbiz }
 
 !!! warning "注意事項"
 
@@ -115,7 +115,7 @@ Google Analytics (GA4) 是經營品牌網站必備的分析工具，能協助行
 
 ![輸入 GA4 評估 ID](../../../../assets/images/ec-第三方整合-google-ga串接-輸入id.gif){ title="輸入 GA4 評估 ID" }
 
-## 如何查看是否安裝成功
+## 如何查看是否安裝成功 { #operate-google-analytics-view }
 
 1.  **測試行為**：開啟商店前台，隨意點擊商品並執行「**加入購物車**」動作。
 
@@ -125,7 +125,7 @@ Google Analytics (GA4) 是經營品牌網站必備的分析工具，能協助行
 
     ![GA4 即時報表](../../../../assets/images/ec-第三方整合-google-ga-即時報表.png){ .screenshot title="GA4 即時報表" }
 
-## 後續操作
+## 後續操作 { #next-steps-google-analytics }
 
 為確保數據準確性，建議完成串接後進行以下調整：
 
@@ -136,20 +136,20 @@ Google Analytics (GA4) 是經營品牌網站必備的分析工具，能協助行
   在 GA4 管理介面的「資料串流」中定義公司 IP，避免開發或行銷人員的瀏覽行為干擾分析。
 
 - :lucide-list:{ .lg }     
-  [__列出不適用的參照連結__](ga4-exclude-internal-traffic-and-referrals.md#列出不適用的參照連結網址-排除第三方網站){ title="設定 GA4 排除內部流量與第三方參照來源" }  
+  [__列出不適用的參照連結__](ga4-exclude-internal-traffic-and-referrals.md#operate-ga-exclude-overview-ga-exclude){ title="設定 GA4 排除內部流量與第三方參照來源" }
   將金物流服務商加入排除名單，以免轉換來源被誤判為第三方金流頁面。
 
 - :lucide-clock:{ .lg }     
-  [__延長資料保留期限__](google-analytics-advanced-tracking.md#資料保留-data-retention){ title="設定 Google Analytics 進階追蹤與資料分析" }  
+  [__延長資料保留期限__](google-analytics-advanced-tracking.md#intro-ga-advanced-data-data-retention){ title="設定 Google Analytics 進階追蹤與資料分析" }
   GA4 預設資料僅保留 2 個月，建議至「資料收集與修改」>「資料保留」中手動改為 **14 個月**。
   
 - :lucide-radio:{ .lg }     
-  [__啟用 Google 信號 (Google Signals)__](google-analytics-advanced-tracking.md#google-信號-google-signals){ title="設定 Google Analytics 進階追蹤與資料分析" }  
+  [__啟用 Google 信號 (Google Signals)__](google-analytics-advanced-tracking.md#intro-ga-advanced-google-google-signals){ title="設定 Google Analytics 進階追蹤與資料分析" }
   開啟此功能可取得跨裝置的使用行為資料與更精確的使用者輪廓。
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-google-analytics }
 
 ??? quote "如何確認 GA4 已成功串接？"
 

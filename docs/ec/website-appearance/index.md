@@ -13,7 +13,7 @@ hide:
   - feedback
 ---
 
-## 版型與版面
+## 版型與版面 { #overview-appearance-hub-theme }
 
 <div class="grid cards" markdown>
 
@@ -77,7 +77,7 @@ hide:
 
 ---
 
-## 導覽選單
+## 導覽選單 { #overview-appearance-hub-nav }
 
 <div class="grid cards" markdown>
 
@@ -101,7 +101,7 @@ hide:
 
 ---
 
-## 頁面與內容
+## 頁面與內容 { #overview-appearance-hub-pages }
 
 <div class="grid cards" markdown>
 
@@ -133,7 +133,7 @@ hide:
 
 ---
 
-## 網站設定
+## 網站設定 { #overview-appearance-hub-site }
 
 <div class="grid cards" markdown>
 
@@ -189,7 +189,7 @@ hide:
 
 ---
 
-## 顧客互動
+## 顧客互動 { #overview-appearance-hub-engage }
 
 <div class="grid cards" markdown>
 
@@ -221,7 +221,7 @@ hide:
 
 ---
 
-## 結帳流程
+## 結帳流程 { #overview-appearance-hub-checkout }
 
 <div class="grid cards" markdown>
 
@@ -237,7 +237,7 @@ hide:
 
 ---
 
-## 程式碼自訂
+## 程式碼自訂 { #overview-appearance-hub-code }
 
 <div class="grid cards" markdown>
 

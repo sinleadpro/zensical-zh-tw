@@ -29,7 +29,7 @@ icon: lucide/table
 hide:
 ---
 
-# 折扣種類對照表 { #reference-marketing-activity-discount-categories }
+# 折扣種類對照表
 
 「折扣活動分析」中的「折扣種類分析」與「折扣活動排名」會依折扣種類分類統計。目前系統提供以下 5 種折扣種類：
 

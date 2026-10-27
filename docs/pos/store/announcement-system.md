@@ -79,16 +79,16 @@ hide: []
 	- **緊急通知**：即時傳達系統維護或臨時營業異動。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-announcements }
 
 - **權限限制**：僅限 **網站擁有者** 與 **各店店長** 權限可發送公告。
 - **發送管道**：公告僅能透過 CYBERBIZ POS 管理後台發送。
 - **接收範圍**：可彈性選擇發送給 **全店** 或 **指定單店**。
 - **刪除規則**：公告發送後，無論接收端是否已讀，發送者皆可隨時從後台刪除公告。
 
-## 操作流程
+## 操作流程 { #operate-announcements }
 
-### 後台發送公告
+### 後台發送公告 { #operate-announcements-backend-announcements }
 
 由具備權限的人員於後台建立並發布訊息。
 
@@ -103,7 +103,7 @@ hide: []
 
 ![](../../assets/images/POS-後台-公告系統-建立公告01.png){ .screenshot }
 
-### 前台查看公告
+### 前台查看公告 { #operate-announcements-frontend-announcements }
 
 門市人員可於 POS 前台即時接收並閱讀公告。
 
@@ -116,7 +116,7 @@ hide: []
 
 ![](../../assets/images/POS-登入-小鈴鐺通知01.png){ .screenshot }
 
-## 更多操作
+## 更多操作 { #next-steps-announcements }
 
 <div class="grid cards" markdown>
 

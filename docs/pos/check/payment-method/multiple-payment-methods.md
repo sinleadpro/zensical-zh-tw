@@ -79,15 +79,15 @@ hide: []
 	- **票券抵用**：顧客持有品牌禮券、五倍券或動滋券，需先扣除票券面額後再支付差額。
 	- **紅利控制**：針對特定支付方式（如禮券）設定不發放紅利點數。
 
-## 使用須知
+## 使用須知 { #prerequisites-multi-payment }
 
 - **手動記錄性質**：多付款方式僅提供 **付款紀錄**，**無法自動串接** 實體刷卡機或行動支付設備。若涉及刷卡，店員需在刷卡機上手動輸入金額。
 - **紅利計算邏輯**：系統會根據各支付項目的 **累計紅利** 設定，自動計算該筆訂單最終可獲得的紅利點數。
 
 
-## 後台設置
+## 後台設置 { #intro-multi-payment }
 
-### 步驟 1：開啟多付款方式
+### 步驟 1：開啟多付款方式 { #intro-multi-payment-step-a-enable }
 
 1. 登入 CYBERBIZ POS 管理後台，前往 **POS 功能 > 所有 POS 店 > [點擊 POS 店] > 付款方式**。
 2. 於左方 **付款方式** 列表，開啟 **多付款方式** 選項。
@@ -95,7 +95,7 @@ hide: []
 ![](../../../assets/images/POS-後台-所有POS門市-付款方式-新增多付款方式01.png){ .screenshot }
 
 
-### 步驟 2：選擇發票開立方式
+### 步驟 2：選擇發票開立方式 { #intro-multi-payment-step-b-invoice }
 
 選擇該付款方式的支付金額是否開立發票：
 
@@ -113,7 +113,7 @@ hide: []
     系統開立發票時，僅會開立 500 元的發票。
 
 
-### 步驟 3：設定支付項目
+### 步驟 3：設定支付項目 { #intro-multi-payment-step-c-settings }
 
 1. 於右方 **多付款方式** 列表，點擊 **新增項目**，輸入自訂名稱（如：禮券、振興券）。
 
@@ -136,9 +136,9 @@ hide: []
 
 ![](../../../assets/images/POS-後台-所有POS門市-付款方式-新增多付款方式02.png){ .screenshot }
 
-## 前台操作
+## 前台操作 { #operate-multi-payment }
 
-### 結帳
+### 結帳 { #operate-multi-payment-checkout }
 
 1. 在 POS 前台結帳頁面，點選 **其他付款方式**。
 2. 選擇 **多付款方式**。
@@ -151,21 +151,21 @@ hide: []
 ![](../../../assets/images/POS-前台-結帳-多付款方式-建立多付款選項01.gif){ .screenshot }
 
 
-### 訂單明細查詢
+### 訂單明細查詢 { #operate-multi-payment-order-details }
 
 1. 在 **POS 功能 > 訂單** 中，點擊右上方 :lucide-info: 資訊框，查看訂單明細。
 2. 明細首位會顯示拆分的支付細節與金額。
 
 ![](../../../assets/images/POS-前台-訂單-顯示多付款方式細項01.gif){ .screenshot }
 
-### 關帳核對
+### 關帳核對 { #operate-multi-payment-closing-check }
 
 1. 登入 POS 前台，前往 **其他功能 > 小結關帳**。
 2. 可於 **營業額** 區塊查看當班收到的各項金額。
 
 ![](../../../assets/images/POS-前台-其他功能-小結關帳-營業額顯示多付款方式細項01.png){ .screenshot }
 
-### 紀錄查詢
+### 紀錄查詢 { #operate-multi-payment-record-query }
 
 1. 登入 POS 前台，前往 **其他功能 > 對帳**。
 2. 設定時間區間。

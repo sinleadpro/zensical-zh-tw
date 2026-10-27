@@ -71,11 +71,11 @@ hide: []
 [:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions#適用擴充) | 門市助理
 { .doc-badge }
 
-## 全站設定
+## 全站設定 { #operate-storepal-settings }
 
 **總部管理員** 可設置全門市規則。
 
-### 前台功能開關
+### 前台功能開關 { #operate-storepal-settings-section }
 
 前往 **設定 > 功能設定 > 前台功能設定**，開啟或關閉 **門市助理前台** 各項功能。
 
@@ -133,7 +133,7 @@ hide: []
 
     ![會員標籤](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定21.png){ .screenshot }
 
-### 全站業績認列規則
+### 全站業績認列規則 { #operate-storepal-settings-global-rules }
 
 前往 **設定 > 功能設定 > 業績歸因設定**，設定 **全品牌業績認列** 規則。
 
@@ -156,11 +156,11 @@ hide: []
 !!! warning "修改限制"
     商家僅能自行修改業績歸因欄位 **1 次**。若需多次更改，請聯繫 CYBERBIZ 客服。
 
-### 簡訊通知開關
+### 簡訊通知開關 { #operate-storepal-settings-sms-toggle }
 
 前往 **設定 > 通知設定**，開啟或關閉 **通知類型** ，並編輯簡訊模板。
 
-#### 簡訊通知類型
+#### 簡訊通知類型 { #operate-storepal-settings-sms-types }
 
 - 註冊通知 ：系統預設開啟，恕無法關閉
 - 帳號啟用通知 ：系統預設開啟，恕無法關閉
@@ -171,7 +171,7 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-後台-設定-通知設定-簡訊列表01.png){ .screenshot }
 
-#### 編輯簡訊模板
+#### 編輯簡訊模板 { #operate-storepal-settings-sms-template }
 
 1. 點擊各通知類型的標題即可進入編輯頁面，自定義簡訊模板內容。
 2. 在文字編輯區輸入您想要的簡訊內容，可自由調整文案語氣與風格。
@@ -183,7 +183,7 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-後台-設定-通知設定-編輯簡訊模板01.png){ .screenshot }
 
-### 查看操作紀錄
+### 查看操作紀錄 { #operate-storepal-settings-operation-logs }
 
 總部管理者可監控所有人員的登入紀錄與操作行為，確保營運安全性。
 
@@ -192,9 +192,9 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-後台-設定-操作紀錄-查看操作紀錄01.png){ .screenshot }
 
-## 管理門市
+## 管理門市 { #operate-store-management }
 
-### 設定門市業績歸因
+### 設定門市業績歸因 { #operate-store-management-store-attribution }
 
 門市管理列表會依角色權限顯示對應可設定的門市：
 

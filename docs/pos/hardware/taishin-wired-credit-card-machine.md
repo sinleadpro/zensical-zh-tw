@@ -85,7 +85,7 @@ hide: []
     - **精確對帳**：每筆刷卡交易皆有對應的系統訂單編號，後台對帳更輕鬆。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-taishin-terminal }
 
 - **申請時程**：信用卡機申請由銀行審核，時程依銀行作業為準。
 - **支付類型**：系統區分為「串卡機」與「不串卡機」。本教學針對 **串接式信用卡機** 進行說明。
@@ -97,7 +97,7 @@ hide: []
 
     ![](../../assets/images/POS-裝置-有線刷卡機限定傳輸線SUNBOX01.jpg){ .small-image }
 
-## 申請與前置準備
+## 申請與前置準備 { #prerequisites-preparation }
 
 1. **提交申請**：收取 **CYBERBIZ POS 多元支付申請通知信** 後，回傳所需的營運資料給開站顧問。
 
@@ -107,9 +107,9 @@ hide: []
 3. **領取機台**：待銀行將刷卡機寄達門市後，即可開始安裝流程。
 
 
-## 操作流程
+## 操作流程 { #operate-taishin-terminal }
 
-### 步驟一：下載並安裝硬體驅動程式
+### 步驟一：下載並安裝硬體驅動程式 { #operate-taishin-terminal-step-a-download }
 
 在連接硬體前，電腦需先安裝通訊驅動程式。
 
@@ -119,7 +119,7 @@ hide: []
     ![](../../assets/images/POS-安裝-有線信用卡機-啟用01.png){ .small-image }
 
 
-### 步驟二：硬體連線與連接埠設定
+### 步驟二：硬體連線與連接埠設定 { #operate-taishin-terminal-step-b-hardware }
 
 1. **連接線材**：
     - 將 **USB 接頭** 插入信用卡機後方的 RS232 接口。
@@ -141,7 +141,7 @@ hide: []
     > 提示：若出現偵測訊息可先忽略，確保選單有選中正確項目即可。
         ![](../../assets/images/POS-驅動程式-綁定有線信用卡機03.png){ .small-image }
 
-### 步驟三：連線快速測試
+### 步驟三：連線快速測試 { #operate-taishin-terminal-step-c-connection }
 
 1. 在驅動程式中點擊 **測試** 按鈕。
 
@@ -155,7 +155,7 @@ hide: []
 
 
 
-### 步驟四：後台啟用與結帳測試
+### 步驟四：後台啟用與結帳測試 { #operate-taishin-terminal-step-d-admin }
 
 1. **後台設定**：
     - 登入管理後台，前往 **POS 功能 > 所有 POS 商店**。
@@ -173,7 +173,7 @@ hide: []
 
 
 
-## 常見問題
+## 常見問題 { #faq-taishin-terminal }
 
 
 ??? quote "可以使用平板 (iPad) 串接這種有線刷卡機嗎？"

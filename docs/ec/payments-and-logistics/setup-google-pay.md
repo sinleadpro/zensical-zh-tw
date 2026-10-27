@@ -72,20 +72,20 @@ hide: []
 [:lucide-toggle-right:{ title="適用功能" }](../../resources/conventions#適用功能) | CYBERBIZ PAYMENTS
 { .doc-badge }
 
-## Google Pay™ 核心優勢
+## Google Pay™ 核心優勢 { #intro-google-pay }
 
 - **免申請、免等待**：當 CYBERBIZ PAYMENTS 開通時，系統將自動同步開啟 Google Pay 選項，不需向 Google 額外申請。
 - **極速結帳**：消費者直接調用 Google 錢包內的卡片資訊，幾秒內即可完成支付。
 - **安全保障**：支援 Google 的虛擬帳號技術，交易時不傳輸真實卡號，降低盜刷風險。
 
-### 費率與規範說明
+### 費率與規範說明 { #specs-google-pay-fees }
 
 - **手續費**：比照商家與 CYBERBIZ 合約中的 **信用卡一次付清** 費率。
 - **額外費用**：**免收** 年費、免開發者帳號申請費、免額外系統維護費。
 - **支付限制**：僅支援一次付清，**不提供信用卡分期** 功能。
 - **退款流程**：退貨與退款的操作流程與一般信用卡一致。
 
-## 啟用設定
+## 啟用設定 { #operate-google-pay }
 
 1. 前往 **金物流 > 金流設定**。
 2. 找到 **CYBERBIZ PAYMENTS** 欄位，點擊右側的 :lucide-square-pen: **編輯**。
@@ -99,9 +99,9 @@ hide: []
 
 
 
-## 支付安全性與 3D 驗證
+## 支付安全性與 3D 驗證 { #specs-google-pay-security }
 
-### 支付安全邏輯設定
+### 支付安全邏輯設定 { #operate-google-pay-security }
 
 Google Pay 的交易安全邏輯將繼承商家在後台的信用卡設定：
 
@@ -112,13 +112,13 @@ Google Pay 的交易安全邏輯將繼承商家在後台的信用卡設定：
 
     >  **虛擬信用卡** 是 Google提供的資安服務，在 Google錢包綁定 **真實信用卡** 後，Google會生成 **虛擬信用卡** 供刷卡，防止 **真實信用卡** 資訊遭外洩盜刷。詳情請看 [Google Pay 幫助](https://support.google.com/googlepay/answer/7644068)。
 
-### 交易驗證與合規聲明
+### 交易驗證與合規聲明 { #specs-google-pay-compliance }
 
 - [Google Pay APIs Acceptable Use Policy](https://payments.developers.google.com/terms/aup)
 - [Google Pay API Terms of Service defines](https://payments.developers.google.com/terms/sellertos)
 - Google Pay and Google Wallet are trademarks of Google LLC
 
-## 後續步驟
+## 後續步驟 { #next-steps-google-pay }
 
 <div class="grid cards" markdown>
 

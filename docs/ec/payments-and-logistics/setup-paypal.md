@@ -66,7 +66,7 @@ hide:
 
 ![PayPal 設定](../../assets/images/ec-金物流-paypal.png){ title="PayPal 設定" .hero-page }
 
-## PayPal 說明
+## PayPal 說明 { #intro-paypal }
 
 PayPal 是全球知名的線上支付平台，可讓消費者使用信用卡、金融卡或 PayPal 餘額完成付款。透過 PayPal，商家可以安全、快速地收款，並支援多國貨幣交易。
 
@@ -75,16 +75,16 @@ PayPal 是全球知名的線上支付平台，可讓消費者使用信用卡、�
     - 適合跨境或海外客戶的商家
     - 希望提供安全支付方式，並整合至 CYBERBIZ 後台訂單管理
 
-### 使用須知 
+### 使用須知 { #prerequisites-paypal }
 
 - **法規限制**：台灣商家僅能進行跨境交易，無法於台灣境內互轉。持國外信用卡的顧客可使用 PayPal 付款。 
 - **自動退款**：系統支援付款後 **180 天內** 自動退款，超過期限需商家手動退款。 
 - **手續費**：費率依消費者發卡國家（國內或國際交易）而異，詳細金額請參考 PayPal 對帳單。 
 - **金流門檻**：可設定 PayPal 使用金額上限與下限，避免小額訂單手續費成本過高。
 
-## 操作步驟
+## 操作步驟 { #operate-paypal }
 
-### 步驟一：申請 PayPal 帳號
+### 步驟一：申請 PayPal 帳號 { #operate-paypal-account }
 
 !!! warning "請使用可正常收信的電子郵件註冊，此郵件將作為後續串接 CYBERBIZ 後台的 PayPal 帳號。"
 
@@ -94,7 +94,7 @@ PayPal 是全球知名的線上支付平台，可讓消費者使用信用卡、�
 
 ---
 
-### 步驟二：取得 PayPal Client ID 與 Secret
+### 步驟二：取得 PayPal Client ID 與 Secret { #operate-paypal-credentials }
 
 !!! tip "提示"
     已開通 CYBERBIZ PAYMENTS 的商家，可透過 Client ID 與 Secret 啟用 **自動退款功能**。
@@ -113,7 +113,7 @@ PayPal 是全球知名的線上支付平台，可讓消費者使用信用卡、�
 
 ---
 
-### 步驟三：CYBERBIZ 後台設定
+### 步驟三：CYBERBIZ 後台設定 { #operate-paypal-bind }
 
 1. **進入設定頁面** 
 
@@ -140,7 +140,7 @@ PayPal 是全球知名的線上支付平台，可讓消費者使用信用卡、�
 	![PayPal 物流綁定](../../assets/images/ec-金物流-宅配物流-line-pay-check.gif){ title="PayPal 物流綁定" }
 
 
-## 後續步驟
+## 後續步驟 { #next-steps-paypal }
 
 <div class="grid cards" markdown>
 

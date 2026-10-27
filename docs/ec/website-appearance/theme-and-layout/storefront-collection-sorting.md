@@ -69,7 +69,7 @@ hide:
 
 ![全站商品列表群組排序頁面](../../../assets/images/ec-website-appearance-collection-sorting-storefront.zh-tw.png){ title="全站商品列表群組排序頁面" .hero-page }
 
-## 首頁商品群組排序介紹
+## 首頁商品群組排序介紹 { #intro-collection-order }
 
 「全站商品列表群組排序」可以決定顧客在前台首頁「商品列表」區塊看到群組時，哪一個群組排在最前面、哪一個排在後面。把主打活動或熱門分類往前移，就能讓顧客一進首頁就先看到您想優先曝光的商品群組。
 
@@ -98,7 +98,7 @@ hide:
 
 ---
 
-## 前台顯示說明
+## 前台顯示說明 { #specs-collection-order-display }
 
 前台首頁的「商品列表」將依照群組列表頁面設定的排序順序，依序顯示商品群組。
 
@@ -106,7 +106,7 @@ hide:
 
 ---
 
-## 設定列表顯示群組數量
+## 設定列表顯示群組數量 { #operate-collection-order-count }
 
 您可設定首頁「商品列表」中，最多顯示幾個商品群組。
 

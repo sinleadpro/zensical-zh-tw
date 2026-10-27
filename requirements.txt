@@ -16,7 +16,7 @@ pandas==3.0.3
 pathspec==1.1.1
 platformdirs==4.9.6
 pygments==2.20.0
-pymdown-extensions==10.21.3
+pymdown-extensions==12.0.1
 python-dateutil==2.9.0.post0
 pyyaml==6.0.3
 pyyaml-env-tag==1.1
@@ -26,5 +26,5 @@ tabulate==0.10.0
 tomli==2.4.1
 typing-extensions==4.15.0
 watchdog==6.0.0
-zensical==0.0.47
+zensical==0.0.62
 pre-commit>=4.0.0

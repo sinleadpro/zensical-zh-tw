@@ -63,11 +63,11 @@ icon: lucide/shopping-cart
 hide: []
 ---
 
-## LINE 團購購物說明
+## LINE 團購購物說明 { #overview-line-shopping }
 
 LINE 團購功能的顧客即為 **LINE 群組或多人聊天室的成員**。顧客主要透過與 **團購機器人** 互動來進行選購與結帳。
 
-## 前置需求
+## 前置需求 { #prerequisites-line-shopping }
 
 在引導顧客使用團購功能前，請確保商家後台已完成以下配置：
 
@@ -75,7 +75,7 @@ LINE 團購功能的顧客即為 **LINE 群組或多人聊天室的成員**。�
 - [x] **團購商品設定**：已完成 [LINE 團購商品設定](setup-line-group-buy-products.md){ title="設定 LINE 團購商品" }，並設定好團購價。
 - [x] **團購群組設定**：已完成 [LINE 團購群組設定](setup-line-group-buy-group.md){ title="設定 LINE 團購群組" }，並設定好商品分類、分潤跟活動期間。
 
-## 如何喚起團購功能
+## 如何喚起團購功能 { #intro-line-shopping }
 
 顧客可以透過以下兩種方式開始購物：
 
@@ -89,7 +89,7 @@ LINE 團購功能的顧客即為 **LINE 群組或多人聊天室的成員**。�
 
 ![](../../../../assets/images/ec-第三方整合-line團購-喚醒選單.png)
 
-## 瀏覽與挑選商品
+## 瀏覽與挑選商品 { #intro-line-shopping-product }
 
 進入團購商品列表後，顧客的操作流程如下：
 
@@ -101,7 +101,7 @@ LINE 團購功能的顧客即為 **LINE 群組或多人聊天室的成員**。�
 
 ![](../../../../assets/images/ec-第三方整合-line團購-搜尋商品並結帳.png)
 
-## 結帳與付款流程
+## 結帳與付款流程 { #operate-line-shopping }
 
 1.  **進入購物車/結帳頁**：
     *   顧客可以點選機器人選單中的「**前往結帳**」。
@@ -114,12 +114,12 @@ LINE 團購功能的顧客即為 **LINE 群組或多人聊天室的成員**。�
 
 ![](../../../../assets/images/ec-第三方整合-line團購-加入好友.png)
 
-## 操作注意事項
+## 操作注意事項 { #operate-line-shopping-operate }
 
 *   **適用環境**：此功能僅限於 **LINE 群組** 或 **多人聊天室** 使用。由於 LINE 社群 (OpenChat) 具有匿名性，目前並不支援在此類環境操作。
 *   **帳號綁定**：系統會透過 LIFF 技術自動套用顧客的 LINE 帳戶資訊進行快速登入，讓購物流程更流暢。
 
-## 常見問題
+## 常見問題 { #faq-line-shopping }
 
 ??? quote "為什麼我在 LINE 社群 (OpenChat) 輸入「團購」卻沒有反應？"
     目前 LINE 團購機器人 僅支援「LINE 群組」與「多人聊天室」。由於 LINE 社群具備匿名性，LINE 官方 API 限制了機器人在該環境下的部分功能與資訊讀取，因此無法使用。
@@ -134,7 +134,7 @@ LINE 團購功能的顧客即為 **LINE 群組或多人聊天室的成員**。�
     - 瀏覽器環境：請顧客確保是在 LINE App 內直接打開連結，而非複製網址到外部瀏覽器（如 Safari 或 Chrome）執行，以確保 LIFF 自動登入機制生效。
 
 ??? quote "顧客下單後，商家要去哪裡查看這筆訂單？"
-    商家可登入 CYBERBIZ 管理後台 > 訂單管理 > 所有訂單，透過搜尋篩選「訂單來源」或查看訂單標籤，即可識別來自 LINE 團購管道的專屬訂單。詳情請參考 [](setup-line-group-buy-group.md#訂單查看與紀錄管理).md#訂單查看與紀錄管理){ title="設定 LINE 團購群組" }。
+    商家可登入 CYBERBIZ 管理後台 > 訂單管理 > 所有訂單，透過搜尋篩選「訂單來源」或查看訂單標籤，即可識別來自 LINE 團購管道的專屬訂單。詳情請參考 [](setup-line-group-buy-group.md#reference-line-group){ title="設定 LINE 團購群組" }。
 
 ??? quote "團購機器人可以同時在多個群組運作嗎？"
     可以。 只要機器人有被邀請進入該群組，且商家後台已完成該群組的綁定與活動設定，機器人即可在多個群組同時提供導購服務。

@@ -76,17 +76,17 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | 所有PLUS / 企業
 { .doc-badge }
 
-## 使用須知
+## 使用須知 { #prerequisites-coupon }
 
 - **編輯限制**：免運券設定完成後即無法編輯。若需更新內容，必須刪除並重新新增。
 - **紅利商城適用性**：紅利商城若使用免運券，將不受該券的「消費使用門檻」限制，皆可直接折抵運費。
 
-## 建立免運券
+## 建立免運券 { #operate-coupon }
 
 <div class="grid cards" markdown>
 
 - :lucide-hash:{ .lg }
-    [__會員列表發送優惠券__](../../members/manage-member-profiles.md#2-優惠券派發與管理)
+    [__會員列表發送優惠券__](../../members/manage-member-profiles.md#operate-member-profiles-coupons)
     使用會員篩選器批次發送優惠券。
 
 - :lucide-hash:{ .lg }
@@ -97,7 +97,7 @@ hide: []
 </div>
 
 
-## 結帳流程
+## 結帳流程 { #operate-coupon-checkout-flow }
 
 1. 消費者在結帳頁點擊「選擇優惠券或輸入優惠碼」。
 
@@ -114,7 +114,7 @@ hide: []
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/免運券05.png){ .screenshot }
 
-## 更多操作
+## 更多操作 { #operate-coupon-operate }
 
 <div class="grid cards" markdown>
 

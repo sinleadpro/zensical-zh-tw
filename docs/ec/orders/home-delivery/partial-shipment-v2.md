@@ -61,7 +61,7 @@ hide: []
 
 ![訂單詳情頁-部分出貨](../../../assets/images/EC-訂單-訂單詳情頁-部分出貨-hero.png){ title="訂單詳情頁-部分出貨" .hero-page }
 
-## 部分出貨說明
+## 部分出貨說明 { #intro-partial-shipment }
 
 當一筆訂單中只有部分商品有現貨可寄出時，「部分出貨」讓您先將可出貨的商品寄給顧客，剩餘的商品稍後再以同一筆訂單繼續出貨，以縮短顧客的等待時間。
 
@@ -72,11 +72,11 @@ hide: []
 
 ---
 
-## 適用條件與限制
+## 適用條件與限制 { #prerequisites-partial-shipment }
 
 執行部分出貨前，請確認以下條件。任一項不符合，「出貨」區塊將不會出現可勾選的商品或可選的出貨方式。
 
-### 訂單條件
+### 訂單條件 { #prerequisites-partial-shipment-orders }
 
 - [x] **訂單狀態**：已開啟。
 - [x] **付款狀態**：已付款、貨到付款、待部分退款、部分退款，或自訂付款方式的「待付款」。
@@ -94,7 +94,7 @@ hide: []
     * **Amazon FBA 串倉訂單**
     * **完全來自串倉倉庫的訂單** ，且商家尚未加購「[部分串倉](../../../wms/enable-partial-warehouse-integration-and-order-splitting.md){ title="啟用部分串倉與拆單" }」功能
 
-## 操作步驟教學 { #fuilfillment-partial-operate }
+## 操作步驟教學 { #operate-partial-shipment }
 
 以下以「黑貓託運單」為例，其他物流商（如宅配通、順豐、新竹物流或自訂出貨）的操作步驟大致相同。
 
@@ -130,9 +130,9 @@ hide: []
     !!! info "取消限制"
         商家後台無法自行刪除已建立的託運單。若發生誤操作（如物流選錯、勾錯商品），請聯繫 CYBERBIZ 客服 協助取消。
 
-## 後續繼續出貨 { #fulfillment-partial-resume }
+## 後續繼續出貨 { #operate-partial-shipment-resume }
 
-當剩餘缺貨商品補齊後，只需要回到同一筆訂單，[重複上述步驟](#fuilfillment-partial-operate) 即可完成後續出貨：
+當剩餘缺貨商品補齊後，只需要回到同一筆訂單，[重複上述步驟](#operate-partial-shipment) 即可完成後續出貨：
 
 1. **進入訂單**：前往「訂單」>「所有訂單」，點選狀態為 `部分出貨` 的訂單編號。
 2. **選取品項**：勾選本次欲寄出的剩餘商品。
@@ -146,9 +146,9 @@ hide: []
     | **自動化限制** | 部分出貨訂單 **不會自動結案**，需於全數出貨後[手動結案](../order-settings/manual-order-close.md){ title="如何手動結案訂單" }。 |
     | **顧客通知** | 每次出貨均視為獨立事件，系統將根據勾選狀況重複發送出貨通知。 |
 
-## 不同物流的特殊情境 { #fuilfillment-partial-edge-case }
+## 不同物流的特殊情境 { #specs-partial-shipment-edge }
 
-### 自訂出貨方式
+### 自訂出貨方式 { #operate-partial-shipment-custom-methods }
 
 當您使用合作的第三方物流或自行配送時（詳細操作請參考[如何使用自訂物流出貨](custom-logistic-shipping.md){ title="如何使用自訂物流出貨" }）：
 
@@ -159,7 +159,7 @@ hide: []
 
 ---
 
-### 快速到貨 CYBERBIZ NOW <small>門市出單</small>
+### 快速到貨 CYBERBIZ NOW <small>門市出單</small> { #operate-partial-shipment-cyberbiz-now }
 
 - **進入路徑**：快速到貨訂單的操作入口位於 「門市訂單」，請勿於「所有訂單」列表中處理。
 - **缺貨處理**：若門市庫存不足，可勾選實際有現貨的品項先行出貨。詳細流程請參閱 [缺貨訂單部分配送或取消指引](../../orders/out-of-stock-partial-shipping-or-cancellation.md){ title="缺貨訂單部分配送或取消流程" }。
@@ -169,18 +169,18 @@ hide: []
 
 ---
 
-### 部分串倉訂單
+### 部分串倉訂單 { #prerequisites-partial-shipment-mixed }
 
 當訂單同時包含「自行出貨商品」與「倉庫商品」時，在已加購「[部分串倉](../../../wms/enable-partial-warehouse-integration-and-order-splitting.md){ title="啟用部分串倉與拆單" }」功能的情況下，**自行出貨** 的部分可依照上述操作步驟先行出貨。倉庫出貨的部分則由倉庫端進行，不在本流程內。
 
-## 何時建議改用「加印託運單」
+## 何時建議改用「加印託運單」 { #operate-partial-shipment-add-print }
 
 若您 **不是因為缺貨** 而要分批出，而是「所有商品都要一次寄出，但需要拆成多個包裹」，建議改用「加印託運單」功能:
 
 * 在同一筆訂單內輸入訂單編號，即可產生多組託運單號，方便分箱追蹤。
 * 貨到付款訂單需要分箱寄送時，**必須** 使用加印託運單而非部分出貨。
 
-## 常見問題
+## 常見問題 { #faq-partial-shipment }
 
 ??? quote "為什麼我在訂單詳情頁看不到「出貨」區塊？"
 
