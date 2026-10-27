@@ -1,7 +1,7 @@
 ---
 title: 新功能報報
 description: "CYBERBIZ 新功能報報，依月份彙整最新上線功能與功能優化內容。"
-last_modified: 2026-10-08 10:01
+last_modified: 2026-10-27 15:45
 type: hub
 lang: zh-TW
 author: Ann
@@ -321,6 +321,29 @@ hide:
 
   <div>
     <div class="release-timeline">
+      <a class="release-month-card" href="2026-10.md">
+        <div class="release-month">2026 / 10 月更新</div>
+        <div class="release-divider" aria-hidden="true"></div>
+        <ul class="release-features">
+          <li class="release-feature-row">
+            <span class="release-feature-name">官網首頁區塊進場動畫功能</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag-2">#拖拉版型</span>
+            </span>
+          </li>
+          <li class="release-feature-row">
+            <span class="release-feature-name">黑貓訂單出貨文件支援直接列印</span>
+          </li>
+          <li class="release-feature-row">
+            <span class="release-feature-name">前台站內搜尋（放大鏡）功能優化</span>
+          </li>
+          <li class="release-feature-row">
+            <span class="release-feature-name">會員註冊簡訊驗證碼新增機器人防護機制</span>
+          </li>
+        </ul>
+        <span class="release-arrow" aria-hidden="true">›</span>
+      </a>
+
       <a class="release-month-card" href="2026-09.md">
         <div class="release-month">2026 / 09 月更新</div>
         <div class="release-divider" aria-hidden="true"></div>
