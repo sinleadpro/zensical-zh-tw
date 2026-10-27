@@ -13,7 +13,7 @@ hide:
   - feedback
 ---
 
-## 帳號與登入
+## 帳號與登入 { #intro-facebook }
 
 <div class="grid cards" markdown>
 
@@ -29,7 +29,7 @@ hide:
 
 ---
 
-## 廣告與商店串接
+## 廣告與商店串接 { #operate-facebook }
 
 <div class="grid cards" markdown>
 

@@ -66,18 +66,18 @@ comments: false
 
 ![超商條碼繳費設定](../../../assets/images/EC-後台-金物流-金流設定-超商條碼繳費設定.png){ title="超商條碼繳費設定" .hero-page }
 
-## 超商條碼付款說明
+## 超商條碼付款說明 { #intro-cvs-barcode }
 
 **超商條碼繳費** 讓顧客可以在官網下單後，取得一組專屬條碼，並前往指定的便利商店完成付款。
 
 !!! info "支援門市"
     目前僅支援於 **7-11** 與 **全家便利商店** 進行掃碼繳費。
 
-## 啟用超商條碼繳費
+## 啟用超商條碼繳費 { #operate-cvs-barcode-enable }
 
 商家可透過 CYBERBIZ PAYMENTS 開啟此功能，讓消費者在結帳時選擇產生超商條碼並至門市付款。
 
-### 步驟 1：編輯 CYBERBIZ PAYMENTS 金流設定
+### 步驟 1：編輯 CYBERBIZ PAYMENTS 金流設定 { #operate-cvs-barcode-enter-payments }
 
 1.  登入 CYBERBIZ 管理後台，前往 **金物流 > 金流設定**。
 2.  在金流設定列表中，找到 **CYBERBIZ PAYMENTS** 選項。
@@ -87,7 +87,7 @@ comments: false
 
 ---
 
-### 步驟 2：開啟超商條碼繳費功能
+### 步驟 2：開啟超商條碼繳費功能 { #operate-cvs-barcode-enable-feature }
 
 1.  在 CYBERBIZ PAYMENTS 設定頁面中，找到 **7-11 / 全家 超商條碼繳費** 選項。
 2.  將開關切換至 **開啟** 狀態。
@@ -96,7 +96,7 @@ comments: false
 
 ---
 
-### 步驟 3：儲存設定
+### 步驟 3：儲存設定 { #operate-cvs-barcode-save }
 
 1.  確認開啟後，點擊頁面下方的 **確認** 按鈕。
 2.  系統顯示儲存成功訊息後，可在金流設定列表中確認完成功能開啟。
@@ -106,9 +106,9 @@ comments: false
 !!! warning "重要提醒"
     - 開啟超商條碼繳費功能後，請確認您同時有搭配支援的物流方式（如超商取貨），消費者才能在結帳時正常選擇此付款方式。
     - 若商家有設定「[訂單自動取消](../../payments-and-logistics/payments/order-settings.md#operate-order-settings-auto-cancel){ title="訂單相關設定" }」的天數限制，一旦超過時限，條碼將會失效且無法進行繳費。
-    - 若商家 [手動取消訂單](../basics/cancel-order/#orders-cancel-merchant)，超商條碼不會自動失效，顧客仍可在效期內繳費。繳費後，訂單會重新成立，商家可繼續出貨或辦理退款。
+    - 若商家 [手動取消訂單](../basics/cancel-order/#operate-cancel-merchant)，超商條碼不會自動失效，顧客仍可在效期內繳費。繳費後，訂單會重新成立，商家可繼續出貨或辦理退款。
 
-## 取得超商條碼的步驟 <small>顧客端</small>
+## 取得超商條碼的步驟 <small>顧客端</small> { #operate-cvs-barcode-get-barcode }
 
 顧客在下單過程中與下單後，可以透過以下管道取得繳費條碼：
 
@@ -128,7 +128,7 @@ comments: false
 
     ![訂單成立Email-前往付款](../../../assets/images/EC-Email通知-訂單成立-前往付款.png){ title="訂單成立Email-前往付款" }
 
-## 便利商店現場付款方式 <small>顧客端</small>
+## 便利商店現場付款方式 <small>顧客端</small> { #operate-cvs-barcode-instore-pay }
 
 取得條碼後，請前往支援的超商（**7-11 或全家**）進行繳費：
 
@@ -143,7 +143,7 @@ comments: false
 ??? example "超商條碼範例"
     ![超商條碼範例](../../../assets/images/EC-前台-訂單查詢-前往付款-超商條碼範例.png){ title="超商條碼範例" }
 
-## 後續操作
+## 後續操作 { #next-steps-cvs-barcode }
 
 <div class="grid cards" markdown>
 
@@ -161,7 +161,7 @@ comments: false
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-cvs-barcode }
 
 ??? quote "超商條碼的有效期限是多久？"
 

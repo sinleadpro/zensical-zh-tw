@@ -1,4 +1,4 @@
-// docs/javascripts/search-overlay-style.js
+// docs/javascripts/search-overlay-border.js
 
 window.addEventListener("load", () => {
 
@@ -10,8 +10,8 @@ window.addEventListener("load", () => {
 
     style.textContent = `
 
-      /* OUTER SEARCH OVERLAY BOX */
-      .n {
+      /* OUTER SEARCH OVERLAY BOX (Zensical 0.0.62 UI) */
+      .l {
 
         border: 1px solid rgba(255,255,255,0.08) !important;
 

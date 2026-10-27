@@ -67,7 +67,8 @@ hide: []
 { .subtitle }
 
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 跨境電商 (北美站 / 日本站 / 東南亞站)
-[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Pro / Business
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Pro / Business<br>
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 落地版 (馬來西亞站 / 澳洲站)
 { .doc-badge }
 
 
@@ -75,7 +76,7 @@ hide: []
     - **次數限制**：每筆訂單僅接受 **一次** 退款申請。
     - **退款生效**：當日付款之訂單無法立即退款，需 **隔日** 系統結算後方可操作。
 
-## 步驟 1：判定退款方式
+## 步驟 1：判定退款方式 { #operate-xb-refund-decide }
 
 請依據您的站台方案與訂單支付方式，選擇退款方式。
 
@@ -117,14 +118,33 @@ hide: []
     | | ShoppePay | 系統自動退款 | 付款後 180 天內 | 商家自行於 Fiuu 錢包退款 | 
     | | DuitNow QR | 系統自動退款 | 付款後 60 天內 | 商家自行於 Fiuu 錢包退款 | 
     | | Fiuu Cash(7-11) | 商家自行退款 | - | - |
-    | Fiuu(Singapore) | eNETS Debit | 商家自行退款 | - | - | 
-    | | PayNow | 系統自動退款 | 付款後 30 天內 | 商家自行於 Fiuu 錢包退款 |
-    | | SAM by SingPost | 商家自行退款 | - | - | 
-    | | AXS | 商家自行退款 | - | - | 
+    | Fiuu(Singapore) | PayNow | 系統自動退款 | 付款後 30 天內 | 商家自行於 Fiuu 錢包退款 |
     | | GrabPay SG | 系統自動退款 | 付款後 90 天內 | 商家自行於 Fiuu 錢包退款 | 
     | | ShopeePay SG | 系統自動退款 | 付款後 180 天內 | 商家自行於 Fiuu 錢包退款 | 
 
-## 步驟 2：操作退款步驟
+=== "馬來西亞落地版"
+    
+    | 金流選項 | 付款方式 | 退款流程 | 退款期限 | 退款期限後處理方式 | 
+    | ------- | ------- | ------- | -------- | ---------------- |
+    | Fiuu(Malaysia) | 信用卡 | 系統自動退款 | 付款後 180 天內 | 商家自行於 Fiuu 錢包退款 |
+    | | FPX | 系統自動退款 | 付款後 180 天內 | 商家自行於 Fiuu 錢包退款 | 
+    | | BOOST | 系統自動退款 | 付款後 180 天內 | 商家自行於 Fiuu 錢包退款 |
+    | | GrabPay | 系統自動退款 | 付款後 90 天內 | 商家自行於Fiuu 錢包退款 | 
+    | | Touch N Go | 系統自動退款 | 付款後 30 天內 | 商家自行於 Fiuu 錢包退款 |
+    | | ShoppePay | 系統自動退款 | 付款後 180 天內 | 商家自行於 Fiuu 錢包退款 | 
+    | | DuitNow QR | 系統自動退款 | 付款後 60 天內 | 商家自行於 Fiuu 錢包退款 | 
+    | | Fiuu Cash(7-11) | 商家自行退款 | - | - |
+
+
+=== "澳洲落地版"
+
+    | 金流選項 | 付款方式 | 退款流程 | 退款期限 | 退款期限後處理方式 | 
+    | ------- | ------- | ------- | -------- | ---------------- |
+    | Airwallex | 信用卡 | 系統自動退款 | 無期限 | - | 
+    | | Apple Pay | 系統自動退款 | 無期限 | - | 
+    | | Google Pay | 系統自動退款 | 無期限 | - | 
+
+## 步驟 2：操作退款步驟 { #operate-xb-refund-process }
 
 退款流程會隨著 **退貨狀態** 的變動而自動觸發。
 

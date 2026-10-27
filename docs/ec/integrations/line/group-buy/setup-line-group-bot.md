@@ -68,13 +68,13 @@ hide: []
 
 ![LINE 團購機器人設定](../../../../assets/images/ec-第三方整合-line團購機器人設定.png){ title="LINE 團購機器人設定" .hero-page }
 
-## 什麼是 LINE 團購機器人
+## 什麼是 LINE 團購機器人 { #intro-line-group-bot }
 
 **LINE 團購機器人設定** 是執行 LINE 群組團購功能的基礎。透過設定專屬的團購機器人並將其加入 LINE 群組，成員即可在群組內直接進行購物。
 
 以下是 **LINE 團購機器人設定** 的詳細教學：
 
-## 使用情境與限制
+## 使用情境與限制 { #prerequisites-line-group-scope }
 
 *   **功能目的**：協助商家在 LINE 群組內進行團購活動，並引導成員加入品牌官方帳號好友。
 *   **適用環境**：僅限於 **LINE 群組** 或 **多人聊天室**。由於匿名性限制，不支援 LINE 社群 (OpenChat)。
@@ -108,7 +108,7 @@ hide: []
             OA2 -.- N2
     ```
 
-## 前置需求
+## 前置需求 { #prerequisites-line-group-setup }
 
 在開始設定前，請確保您具備以下條件：
 
@@ -118,7 +118,7 @@ hide: []
 - [x] CYBERBIZ 後台管理權限
 ---
 
-## 機器人專用 Messaging API 設定
+## 機器人專用 Messaging API 設定 { #operate-line-group-bot }
 
 1.  **建立帳號**：至 [LINE OA Manager :lucide-external-link:](https://manager.line.biz/) 創建一個專屬團購用的 LINE 官方帳號。
 
@@ -171,14 +171,14 @@ hide: []
 
 ---
 
-## 機器人選單設定
+## 機器人選單設定 { #operate-line-group-bot-settings }
 
 *   若您已有經營中的品牌 LINE 官方帳號，請在後台填入其 **帳號 ID**。
 *   系統會在團購過程中（如主選單、訂單完成頁、感謝訊息）協助引導用戶加入該品牌好友，增加會員數。
 
 ![團購機器人-官方帳號設定](../../../../assets/images/ec-第三方整合-line團購機器人-官方帳號設定.png){ title="團購機器人-官方帳號設定" }
 
-## LIFF 設定 <small>關鍵步驟</small>
+## LIFF 設定 <small>關鍵步驟</small> { #operate-line-group-bot-liff-settings-step }
 
 此設定用於讓機器人能在群組中開啟購物介面：
 
@@ -208,7 +208,7 @@ hide: []
 
     ![複製貼上 LIFF ID 與 URL](../../../../assets/images/ec-第三方整合-line團購機器人-linedevelopers-copynpast-liffid-liffurl.gif){ title="複製貼上 LIFF ID 與 URL" }
 
-## 後續操作
+## 後續操作 { #next-steps-line-group-bot }
 
 完成機器人設定後，您還需要接續完成以下兩項設定才能正式營運：
 
@@ -224,7 +224,7 @@ hide: []
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-line-group-bot }
 
 
 ??? quote "為什麼團購機器人無法在 LINE 社群 (OpenChat) 使用？"

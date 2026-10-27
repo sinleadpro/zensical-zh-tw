@@ -13,7 +13,7 @@ hide:
   - feedback
 ---
 
-## Email 推播
+## Email 推播 { #overview-message-push-email }
 
 <div class="grid cards" markdown>
 
@@ -37,7 +37,7 @@ hide:
 
 ---
 
-## 簡訊推播
+## 簡訊推播 { #overview-message-push-sms }
 
 <div class="grid cards" markdown>
 
@@ -69,7 +69,7 @@ hide:
 
 ---
 
-## LINE 推播
+## LINE 推播 { #overview-message-push-line }
 
 <div class="grid cards" markdown>
 

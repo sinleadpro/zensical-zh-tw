@@ -41,8 +41,8 @@ permalink: "https://help.cyberbiz.io/ec/members/"
 	    ---
 	    <div class="grid" markdown>
 	    
-	    [大量匯入新會員](batch-import-and-edit-members.md#任務一大量匯入新會員)  
-	    [批次修改既有資料](batch-import-and-edit-members.md#任務二批次修改既有會員資料) 
+	    [大量匯入新會員](batch-import-and-edit-members.md#operate-batch-members-import)
+	    [批次修改既有資料](batch-import-and-edit-members.md#operate-batch-members-edit)
 	    
 	    </div>
 	
@@ -51,9 +51,9 @@ permalink: "https://help.cyberbiz.io/ec/members/"
 	    ---
 	    <div class="grid" markdown>
 	    
-	    [查看會員數據](manage-member-profiles.md#任務一查看會員行為與資產數據)  
-	    [編輯基本資料](manage-member-profiles.md#1-編輯會員基本資料)  
-	    [代客下單](manage-member-profiles.md#任務六代客下單)  
+	    [查看會員數據](manage-member-profiles.md#operate-member-profiles-metrics)
+	    [編輯基本資料](manage-member-profiles.md#operate-member-profiles-edit-basic)
+	    [代客下單](manage-member-profiles.md#operate-member-profiles-proxy-order)
 	    
 	    </div>
 	
@@ -117,7 +117,7 @@ permalink: "https://help.cyberbiz.io/ec/members/"
 	    <div class="grid" markdown>
 	    
 	    [會員留言客服區](../members/member-customer-service-system.md)  
-	    [會員訊息管理](../members/member-customer-service-system.md#四訊息回覆與管理)  
+	    [會員訊息管理](../members/member-customer-service-system.md#operate-member-cs)
 	    
 	    </div>
 	
@@ -126,7 +126,7 @@ permalink: "https://help.cyberbiz.io/ec/members/"
 	    ---
 	    <div class="grid" markdown>
 	    
-	    [建立會員分群](../members/member-filters-and-groups.md#使用會員分群)    
+	    [建立會員分群](../members/member-filters-and-groups.md#operate-member-filters-groups)
 	    
 	    </div>
 	

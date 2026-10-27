@@ -74,11 +74,11 @@ hide:
 
 ![Email通知樣板頁面](../../assets/images/ec-訊息推播-email 通知樣板.png){ .hero-page }
 
-## Email 通知樣板說明
+## Email 通知樣板說明 { #intro-email-templates }
 
 **Email 通知樣板管理** 功能讓商家可以自訂發送給顧客或管理者的自動化信件內容，並根據營運需求開啟或關閉特定情境的通知。
 
-## 進入路徑與介面介紹
+## 進入路徑與介面介紹 { #overview-email-templates }
 
 - **後台路徑**：前往 **訊息推播 > Email 通知樣板**。
 
@@ -96,7 +96,7 @@ hide:
 
 !!! info "實際可操作的信件分類與樣板會因 方案 或 功能設定 而異。"
 
-## 修改信件內容步驟
+## 修改信件內容步驟 { #operate-email-templates }
 
 1. **進入編輯頁面**：在列表中點擊想要修改的 **Email 標題**。
 
@@ -112,7 +112,7 @@ hide:
 
 ![](../../assets/images/ec-訊息推播-email 樣板編輯.gif)
 
-## 核心功能設定
+## 核心功能設定 { #operate-email-templates-core }
 
 - **功能開關**：每個樣板右側皆有 **ON/OFF** 開關，商家可自行決定是否啟用該項通知。
 
@@ -122,17 +122,17 @@ hide:
 
 ---
 
-### 商家通知設定
+### 商家通知設定 { #operate-email-templates-merchant }
 
 本功能允許商家在特定觸發點（如訂單成立、付款成功）時，將系統通知同步發送給內部的相關人員或協力廠商。
 
-#### 管理權限與主信箱
+#### 管理權限與主信箱 { #operate-email-templates-mailbox }
 
 - **系統預設收件者（主信箱）**：系統預設會發送通知至網站管理者的主信箱。
     
 - **修改路徑**：若需 [更換主信箱](../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="設定網站基本資訊" }，請至 **管理中心 > 一般設定** 進行變更。
     
-#### 通知收件者類型
+#### 通知收件者類型 { #operate-email-templates-recipients }
 
 點擊 **新增收件者** 後，可透過以下三種方式指定通知對象：
 
@@ -144,17 +144,17 @@ hide:
 
 ![](../../assets/images/ec-訊息推播-email 樣板設定.png)
 
-## 常見應用情境與通知類型
+## 常見應用情境與通知類型 { #specs-email-templates }
 
 系統通知依據對象分為「顧客通知」與「商家內部通知」，其發送邏輯與適用通路如下：
 
-### 顧客端自動化通知
+### 顧客端自動化通知 { #specs-email-templates-customer }
 
 此類通知旨在即時告知消費者訂單與帳號狀態。
 
 |**通知類型**|**關鍵發送邏輯**|**支援通路**|
 |---|---|---|
-|**出貨通知**|**僅在配送狀態轉為「已出貨 (配送中)」時觸發**。旨在確保包裹已由物流商承運。詳見 [出貨狀態物流提示說明](../orders/home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }  。|Email, 簡訊, LINE|
+|**出貨通知**|**僅在配送狀態轉為「已出貨 (配送中)」時觸發**。旨在確保包裹已由物流商承運。詳見 [出貨狀態物流提示說明](../orders/home-delivery/shipping-status-tooltip.md#reference-shipping-status){ title="出貨狀態物流提示文字說明" data-preview }  。|Email, 簡訊, LINE|
 |**訂單狀態變更**|當訂單成立、付款成功或取消時觸發。|Email, 簡訊, LINE|
 |**會員權益通知**|包含帳號啟用、密碼重設、生日禮金發送等。|Email, 簡訊|
 
@@ -163,7 +163,7 @@ hide:
 
 ---
 
-### 管理端內部通知 
+### 管理端內部通知 { #specs-email-templates-admin }
 
 此類通知僅發送至「商家通知設定」中指定的信箱（如倉庫人員或財務），不會發送給顧客。
 
@@ -176,7 +176,7 @@ hide:
 - **帳務與對帳通知**：有關金流扣款、對帳單生成等財務資訊。
 
 
-## 多國語系設定 <small>選配功能</small>
+## 多國語系設定 <small>選配功能</small> { #operate-email-templates-i18n }
 
 若您的網站有開啟多國語系，Email 樣板需針對不同語言個別設定：
 
@@ -184,7 +184,7 @@ hide:
 
 2. 各語系需個別儲存，若該語系欄位留空，系統通常會自動顯示繁體中文的內容。
 
-## 後續操作
+## 後續操作 { #next-steps-email-templates }
 
 <div class="grid cards" markdown>
 
@@ -198,7 +198,7 @@ hide:
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-email-templates }
 
 ??? quote "「貨物發送資訊更改提醒」這個 email 通知在什麼情況下會觸發？修改訂單的配送地址資訊會觸發嗎"
 	修改訂單的配送地址並不會觸發此通知信件喔。而是當訂單的「配送狀態」為「已出貨」、「已到店」、「已取貨」、或是「超商閉店」的時候才會發送此通知信件給消費者。

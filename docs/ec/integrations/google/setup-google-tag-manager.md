@@ -60,27 +60,27 @@ hide: []
 
 ![Google Tag Manager 串接設定](../../../assets/images/ec-第三方整合-google設定-gtm.png){ title="Google Tag Manager 串接設定" .hero-page }
 
-## 什麼是 Google Tag Manager
+## 什麼是 Google Tag Manager { #intro-tag-manager }
 
 **Google Tag Manager (GTM)** 是 Google 提供的一套免費標籤管理系統，能協助網頁管理人員在不需修改網站程式碼的情況下，快速安裝與更新各種追蹤標籤（如事件追蹤、再行銷代碼等）。
 
-## 建立 GTM 帳戶與容器
+## 建立 GTM 帳戶與容器 { #operate-tag-manager }
 
 1.  **建立帳戶**：登入 [Google Tag Manager :lucide-external-link:](https://tagmanager.google.com/)，點擊「建立帳戶」。輸入 **帳戶名稱**（建議使用公司或品牌名）並選擇國家。
-2.  **設定容器**：輸入 [容器](#gtm-核心詞彙表){ title="容器" } **名稱**（建議填寫官網網址或名稱）並選擇目標平台為「**網路**」。
+2.  **設定容器**：輸入 [容器](#reference-tag-manager-gtm){ title="容器" } **名稱**（建議填寫官網網址或名稱）並選擇目標平台為「**網路**」。
 3.  **同意條款**：勾選同意服務條款後點擊「是」。
 4.  **取得代碼**：系統會彈出安裝代碼視窗，請找到 **GTM-XXXXXX** 格式的容器 ID 並複製。
 
 ![建立 GTM 帳戶與容器](../../../assets/images/ec-第三方整合-google設定-建立gtm.gif){ title="建立 GTM 帳戶與容器" }
 
-## CYBERBIZ 後台串接設定
+## CYBERBIZ 後台串接設定 { #operate-tag-manager-connect }
 
 1.  **進入路徑**：前往管理後台的「**第三方整合**」>「**谷歌 Google 設定**」。
 2.  **填入 ID**：找到「**Google Tag Manager**」區塊，將複製的 ID 貼至「**追蹤編號含GTM**」欄位中並儲存。
 
 ![GTM 追蹤編號欄位](../../../assets/images/ec-第三方整合-google設定-gtm欄位.png){ title="GTM 追蹤編號欄位" }
 
-## 重要注意事項 <small>避免數據異常</small>
+## 重要注意事項 <small>避免數據異常</small> { #specs-tag-manager }
 
 為確保資料紀錄的正確性，**以下工具在 CYBERBIZ 已有專屬串接方式，請務必透過系統後台直接設定，切勿另行使用 GTM 綁定**，以免發生代碼衝突或重複計算：
 
@@ -90,14 +90,14 @@ hide: []
 
 !!! warning "若您先前曾透過 GTM 設定上述工具的追蹤，在改用 CYBERBIZ 後台串接後，請務必 **移除 GTM 內的舊標籤**，否則會造成廣告數據不準確。"
 
-## 檢查與驗證
+## 檢查與驗證 { #operate-tag-manager-verification }
 
 完成設定後，您可以使用 **Google Tag Assistant**（Chrome 擴充功能或網頁版）來[檢測網站是否已成功安裝 GTM 代碼](verify-tracking-tag-installation.md){ title="使用 Google Tag Assistant 驗證追蹤代碼是否正確安裝" }。
 
 *   **Chrome 擴充功能**：適合快速查看代碼是否成功載入。
 *   **網頁版工具**：可完整紀錄操作行為，驗證特定標籤是否正確觸發。
 
-## 常見問題
+## 常見問題 { #faq-tag-manager }
 
 ??? quote "GTM 容器 ID 要在哪裡取得？"
 
@@ -118,9 +118,9 @@ hide: []
     * **Chrome 擴充功能**：快速查看代碼是否成功載入
     * **網頁版工具**：完整紀錄操作行為，驗證特定標籤是否正確觸發
 
-## 參考資料
+## 參考資料 { #reference-tag-manager }
 
-### GTM 核心詞彙表
+### GTM 核心詞彙表 { #reference-tag-manager-gtm }
 
 
 | 術語 (Term) | 技術定義 (Technical Definition) | 簡單比喻 |

@@ -65,15 +65,15 @@ comments: false
 
 ![GA4站內搜尋追蹤](../../../../assets/images/ec-第三方整合-google-ga4-加強型評估-站內搜尋.png){ title="GA4站內搜尋追蹤" .hero-page }
 
-## GA4 站內追蹤說明
+## GA4 站內追蹤說明 { #operate-ga-search }
 
 開啟 **Google Analytics 4 (GA4)** 的站內搜尋追蹤功能，可以協助商家觀察使用者在網站上輸入的關鍵字，進而了解消費者的資訊需求與查找意圖。
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-ga-search }
 
 - [x] 確認[官網已串接 GA4](setup-google-analytics.md){ title="建立並串接 Google Analytics" }。
 
-## 操作步驟
+## 操作步驟 { #operate-ga-search-steps }
 
 請登入您的 Google Analytics 後台，並依循以下路徑操作：
 
@@ -88,7 +88,7 @@ comments: false
 
     設定完成後，GA4 需要一段時間才會開始收集搜尋資料（數據不回溯）。若短時間內沒有人進行搜尋，該事件可能不會顯示資料；您可以自行在官網前台執行搜尋動作來進行測試。
 
-## 如何查看追蹤成果
+## 如何查看追蹤成果 { #operate-ga-search-view-tracking }
 
 設定完成後（且有使用者執行搜尋動作），您可以在 GA4 報表中查看結果：
 
@@ -102,7 +102,7 @@ comments: false
 
 !!! info "更多 GA4 追蹤事件資訊，請參考 [官方說明 :lucide-external-link:](https://support.google.com/analytics/answer/9322688?hl=zh-Hant#zippy=%2C%E5%8D%B3%E6%99%82%E5%A0%B1%E8%A1%A8%2Cdebugview-%E5%A0%B1%E8%A1%A8)。"
 
-## 常見問題
+## 常見問題 { #faq-ga-search }
 
 ??? quote "設定完成後多久可以看到搜尋資料？"
 

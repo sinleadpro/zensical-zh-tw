@@ -73,9 +73,9 @@ hide: []
 
 ![](../assets/images/WMS-後台-調倉單-畫面總覽01.png){ .hero-page }
 
-## 使用須知
+## 使用須知 { #prerequisites-transfer-orders }
 
-### 為什麼需要調倉？
+### 為什麼需要調倉？ { #intro-transfer-orders-purpose }
 
 系統支援將不同 **倉別** 綁定特定 **通路**（出貨規則）。例如：
 
@@ -84,13 +84,13 @@ hide: []
 
 當 A 倉庫存用盡時，商家需透過調倉單將 B 倉商品移至 A 倉，確保特定平台通路能正常供貨。
 
-### 注意事項
+### 注意事項 { #prerequisites-transfer-orders-notes }
 
 - **庫存鎖定**：當調倉單處於 **待確認** 或 **處理中** 時，該部分庫存可能會被系統鎖定，無法進行其他出貨作業。
 - **資料核對**：點擊調倉單列表中的 **單號**，可隨時查看該筆移庫的詳細品項與歷史軌跡。
 
 
-## 調倉單狀態說明
+## 調倉單狀態說明 { #specs-transfer-orders-status }
 
 在列表頁中，可透過狀態追蹤移庫進度：
 
@@ -101,7 +101,7 @@ hide: []
 | **已入庫** | 移庫已完成，目的地倉別的可用庫存已正式增加 |
 
 
-## 手動建立調倉單
+## 手動建立調倉單 { #operate-transfer-orders-create }
 
 當有少量的庫存調度需求時，可直接在後台新增單據。
 
@@ -118,7 +118,7 @@ hide: []
 ![](../assets/images/WMS-後台-調倉單-單筆新增調倉單01.png){ .screenshot }
 
 
-## 批次匯入調倉單
+## 批次匯入調倉單 { #operate-transfer-orders-import }
 
 若需一次性調度多項商品，可使用匯入功能。
 
@@ -129,7 +129,7 @@ hide: []
 
 ![](../assets/images/WMS-後台-調倉單-批次匯入調倉單01.png){ .screenshot }
 
-## 匯出調倉單
+## 匯出調倉單 { #operate-transfer-orders-export }
 
 若需進行庫存異動對帳或留存調撥紀錄，可透過匯出功能取得詳細資料。
 

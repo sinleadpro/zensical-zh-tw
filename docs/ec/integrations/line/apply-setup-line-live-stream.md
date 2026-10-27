@@ -65,13 +65,13 @@ icon: lucide/radio
 hide: []
 ---
 
-## LINE 直播說明
+## LINE 直播說明 { #overview-setup-line }
 
 **「LINE 直播」**（邊看邊買模式）讓商家能直接在 LINE 官方帳號進行購物直播，並導購至官網下單。
 
 !!! info "更多 LINE 直播功能資訊，請參閱 [LINE LIVE 官方說明 :lucide-external-link:](https://tw.linebiz.com/service/account-solutions/line-live/)。"
 
-## 申請資格與注意事項
+## 申請資格與注意事項 { #operate-setup-line }
 
 - **帳號類型限制**：僅限 **「認證帳號（藍色盾牌）」** 申請。認證申請流程，請參閱 [官方說明 :lucide-external-link:](https://tw.linebiz.com/column/line-lac-id-0418/)。
     *   **一般帳號（灰色盾牌）**：目前不開放申請。
@@ -80,7 +80,7 @@ hide: []
 - **顧客限制**：顧客必須是官方帳號好友，且 [已完成官網會員與 LINE OA 的綁定](account-integration/bind-line-oa-store-members.md){ title="綁定 LINE 官方帳號與官網會員" }，方可進入直播間並下單。
 - **直播頻率建議**：建議每月至少直播 4 場以上，以培養與好友的觀看默契。
 
-## 申請與上線流程
+## 申請與上線流程 { #operate-setup-line-apply-flow }
 
 1.  **填寫表單**：向 CYBERBIZ 索取並填寫 [直播資格申請表 :lucide-external-link:](https://docs.google.com/forms/d/e/1FAIpQLSeaMKpcK0DOaTvZDy_229oV3mV_k50-oKKTljdGh9sUXuRD1A/viewform)。
 2.  **資格開通等待期**：確認申請後，CYBERBIZ 會協助開啟後台串接並請 LINE 核發參數，此過程 **約需 30 天**。
@@ -88,7 +88,7 @@ hide: []
 4.  **正式開通**：LINE 官方會發信通知開通完成。商家收到信後即可開始直播，LINE 同時會提供直播後台的教學課程。
 
 
-##  後台設定與參數回填
+## 後台設定與參數回填 { #operate-setup-line-backend-settings }
 
 若商家已收到參數信件，請自行至後台回填（或由專員協助）：
 
@@ -97,7 +97,7 @@ hide: []
 
 ![LINE OA 導購設定](../../../assets/images/ec-第三方整合-line購物設定-lineoa導購.png){ title="LINE OA 導購設定" }
 
-## 商品串接與同步邏輯
+## 商品串接與同步邏輯 { #specs-setup-line }
 
 為確保直播時能成功搜尋到商品，商品必須符合以下條件：
 
@@ -114,17 +114,17 @@ hide: []
     *   **LINE 自動同步**：每日 5:00 AM 將目錄資訊同步至 LINE 直播後台。
     *   **手動更新**：若急需同步修改後的商品資訊，可至「LINE購物設定」點擊 **「手動更新目錄」**（一小時僅限點擊一次）。
 4.  **搜尋商品建議**：於直播後台搜尋商品時，建議使用 **Product ID (PID)** 最為精準。
-    *   *PID 取得方式：點開後台商品編輯頁（商品資訊頁籤）網址最後方的數字，或從[匯出商品列表中查看 ID 欄位](../../products/bulk-operations/excel-import-products.md#determine-add-or-update){ title="Excel 大量匯入商品" }。*
+    *   *PID 取得方式：點開後台商品編輯頁（商品資訊頁籤）網址最後方的數字，或從[匯出商品列表中查看 ID 欄位](../../products/bulk-operations/excel-import-products.md#operate-excel-import-add-update){ title="Excel 大量匯入商品" }。*
 
     ![商品編輯頁 PID](../../../assets/images/ec-商品-商品編輯頁-pid-slug.png){ title="商品編輯頁 PID" }
 
-## 訂單查看
+## 訂單查看 { #operate-setup-line-order-view }
 
 透過 LINE 直播導購完成的訂單，商家可至管理後台的「**訂單**」>「**LINE OA訂單**」進行查看與管理。
 
 ![LINE OA 訂單查看](../../../assets/images/ec-訂單-lineoa訂單.png){ title="LINE OA 訂單查看" }
 
-## 後續操作
+## 後續操作 { #next-steps-setup-line }
 
 <div class="grid cards" markdown>
 
@@ -138,7 +138,7 @@ hide: []
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-setup-line }
 
 ??? quote "為什麼我搜尋不到剛上架的商品？"
     商品同步至 LINE 直播後台需要時間。CYBERBIZ 系統固定於每日 4:45 AM/PM 產出目錄，而 LINE 則在 5:00 AM 進行同步。

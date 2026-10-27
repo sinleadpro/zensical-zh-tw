@@ -51,7 +51,7 @@ hide:
 
 本對照表說明「商品條件分類」中每個篩選條件(運算子)的意義，供設定規則時參考。
   
-## 篩選條件對照表 { #smart-collections-rule-relations }
+## 篩選條件對照表 { #reference-smart-collections-relations }
 
 | 篩選條件 | 意義 | 適用欄位類型 | 範例 |
 | :-- | :-- | :-- | :-- |

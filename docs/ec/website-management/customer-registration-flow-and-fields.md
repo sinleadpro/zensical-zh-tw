@@ -70,14 +70,14 @@ hide: []
     - **強化資安防護**：啟用電子郵件或手機驗證，確保會員資料的真實性，減少幽靈帳號。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-customer-reg }
 
 在修改註冊設定前，請留意不同版本的規格差異與限制：
 
 - **欄位必填規範**：系統規定 **電子郵件** 或 **手機** 必須 **至少有一項** 設為必填。
 
 
-## 步驟 1：選擇顧客註冊結帳模式
+## 步驟 1：選擇顧客註冊結帳模式 { #operate-customer-reg-mode }
 
 根據您的商業模式選擇最適合的結帳流程。
 
@@ -89,7 +89,7 @@ hide: []
 
 ![](../../assets/images/EC-後台-管理中心-顧客註冊設定-選擇註冊方式01.png)
 
-## 步驟 2：設定預設欄位屬性
+## 步驟 2：設定預設欄位屬性 { #operate-customer-reg-fields }
 
 依據您的產品版本，可設定的欄位深度有所不同：
 
@@ -116,9 +116,9 @@ hide: []
     ![](../../assets/images/EC-後台-管理中心-顧客註冊設定-一般版-註冊欄位設定01.png)
 
 
-## 步驟 3：設定帳號驗證與跳轉
+## 步驟 3：設定帳號驗證與跳轉 { #operate-customer-reg-verify }
 
-### 1. 開啟顧客驗證
+### 1. 開啟顧客驗證 { #operate-customer-reg-enable }
 
 為了提高名單品質，建議開啟驗證機制。
 
@@ -130,7 +130,7 @@ hide: []
 
 
 
-### 2. 註冊完成跳轉
+### 2. 註冊完成跳轉 { #operate-customer-reg-redirect }
 
 1. 找到 **註冊頁面跳轉設定** 區塊並開啟開關。
 2. 輸入欲引導的指定連結。
@@ -140,16 +140,16 @@ hide: []
 
 ![](../../assets/images/EC-後台-管理中心-顧客註冊設定-設定驗證與跳轉01.png)
 
-## 步驟 4： 建立與管理自訂欄位
+## 步驟 4： 建立與管理自訂欄位 { #operate-customer-reg-custom }
 
-### 功能限制須知
+### 功能限制須知 { #prerequisites-customer-reg-custom }
 
 - **版本適用範圍**：本功能僅支援 **高手 PLUS版 與企業版** 客戶使用。
 - **版型與主題限制**：自訂欄位僅適用於 **拖拉版型** 主題。
 - **建立數量與編輯限制**：自訂欄位數量 **上限為 10 個**。欄位一旦建立後，恕不開放刪除或編輯內容，如不欲顯示僅能將其設定為 **隱藏**。
 - **資安與個資保護**：若透過自訂欄位收集敏感個資（如身分證字號、醫療資訊等），請確保已於官網之 **隱私權政策** 中明確說明收集用途。
 
-### 新增自訂欄位
+### 新增自訂欄位 { #operate-customer-reg-add-field }
 
 1. 點擊 **新增自訂欄位** 按鈕。
 2. 選擇欄位種類：系統支援以下五種形式。
@@ -162,7 +162,7 @@ hide: []
 
 ![](../../assets/images/EC-後台-管理中心-顧客註冊設定-新增自訂欄位01.png){ .hero-page }
 
-### 批次匯入自訂資料
+### 批次匯入自訂資料 { #operate-customer-reg-import }
 
 若需在大量導入會員時一併帶入自訂欄位資訊，請遵循以下規範：
 
@@ -180,18 +180,18 @@ hide: []
 !!! tip "批次修改既有會員的自訂欄位"
     - **適用方案**：僅 **企業版** 可對既有會員批次覆蓋或修改自訂欄位。
     - **其餘方案**：僅能在「大量匯入新會員」時帶入自訂欄位；無法透過批次修改更新既有會員的自訂欄位。
-    - **相關操作**：企業版請至 [批次修改既有會員資料](../members/batch-import-and-edit-members.md#任務二批次修改既有會員資料) 執行。
+    - **相關操作**：企業版請至 [批次修改既有會員資料](../members/batch-import-and-edit-members.md#operate-batch-members-edit) 執行。
 
 
 ![](../../assets/images/EC-後台-會員-所有會員-新會員匯入範本新增自訂欄位01.png)
 
 
-## 延伸閱讀
+## 延伸閱讀 { #reference-customer-reg }
 
 <div class="grid cards" markdown>
 
 - :lucide-user-plus:{ .lg }   
-  [__大量匯入新會員__](../members/batch-import-and-edit-members.md#任務一大量匯入新會員)       
+  [__大量匯入新會員__](../members/batch-import-and-edit-members.md#operate-batch-members-import)
   了解如何下載 Excel 範本並批次上傳會員名單。
 
 - :lucide-mail:{ .lg }     

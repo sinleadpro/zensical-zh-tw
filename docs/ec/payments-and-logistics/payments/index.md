@@ -17,7 +17,7 @@ hide:
   - feedback
 ---
 
-## 金物流設定
+## 金物流設定 { #overview-payments-settings }
 
 <div class="grid cards" markdown>
 

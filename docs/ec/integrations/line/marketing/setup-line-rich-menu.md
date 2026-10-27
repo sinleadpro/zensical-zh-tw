@@ -82,11 +82,11 @@ hide: []
 
 ![LINE 圖文選單設定](../../../../assets/images/ec-第三方整合-line 圖文選單.png){ title="LINE 圖文選單設定" .hero-page }
 
-## 什麼是 LINE 圖文選單
+## 什麼是 LINE 圖文選單 { #intro-line-rich-menu }
 
  **LINE 圖文選單** 是推廣商品與引導消費者快速查找資料的重要工具。您可以透過選單配置「關鍵字搜尋商品」、「會員資料查看」或「導購連結」等功能。
 
-## 設定前置準備
+## 設定前置準備 { #prerequisites-line-rich-menu }
 
 在開始設定前，請確保完成以下事項：
 
@@ -94,7 +94,7 @@ hide: []
 - [x] **API 串接**：須先完成  [**LINE Messaging API**  的串接](../account-integration/connect-line-messaging-api.md){ title="串接 LINE Messaging API" }  設定。
 - [x] **連結規範**：圖文選單的連結 **請勿使用短網址**，以免導致代碼失效。
 
-## 建立圖文選單步驟
+## 建立圖文選單步驟 { #operate-line-rich-menu }
 
 1. **進入 LINE 管理後台**：登入 [LINE Official Account Manager :lucide-external-link:](https://manager.line.biz/)，選擇您的官方帳號。
 
@@ -122,7 +122,7 @@ hide: []
 
 ![圖文選單建立步驟](../../../../assets/images/ec-第三方整合-line-圖文選單設定.png){ title="圖文選單建立步驟" }
 
-## 設定圖文選單動作
+## 設定圖文選單動作 { #operate-line-rich-menu-settings }
 
 在設定各區塊的動作時，通常選擇類型為 **連結**。
 
@@ -133,7 +133,7 @@ hide: []
 
 請依需求選擇以下對應連結：
 
-### 常用功能路徑對照表
+### 常用功能路徑對照表 { #operate-line-rich-menu-settings-overview-line-ri }
 
 將下方的 **網址代號** 接在您的官網網域之後即可生效（例如：`https://www.yourshop.com/account`）。
 
@@ -149,13 +149,13 @@ hide: []
 
 ---
 
-### 連結組合規範與範例
+### 連結組合規範與範例 { #operate-line-rich-menu-rules }
 
 根據顧客瀏覽的目的與身分驗證需求，請選擇對應的連結構造方式：
 
 ---
 
-#### 一般瀏覽模式 <small>不強制登入</small>
+#### 一般瀏覽模式 <small>不強制登入</small> { #operate-line-rich-menu-browse }
 
 若希望顧客不經過 LINE 帳號綁定即可直接瀏覽頁面，請使用標準格式。
 
@@ -165,7 +165,7 @@ hide: []
     
 ---
 
-#### 特定頁面直連
+#### 特定頁面直連 { #operate-line-rich-menu-settings-page }
 
 若欲導流至特定商品頁、群組頁或自訂頁面，請直接複製該頁面的完整 URL。
 
@@ -173,7 +173,7 @@ hide: []
 
 ---
 
-#### OMO 實體門市應用
+#### OMO 實體門市應用 { #operate-line-rich-menu-settings-omo-store }
 
 若於選單設置「會員卡」按鈕，方便顧客在線下結帳時出示，請使用專屬路徑。
 
@@ -188,16 +188,16 @@ hide: []
 
 ---
 
-### 會員帳號綁定機制 <small>建議</small>
+### 會員帳號綁定機制 <small>建議</small> { #operate-line-rich-menu-settings-member-account-b }
 
 為了確保系統能發送自動化的 **訂單通知** 與 **物流狀態更新**，建議將選單中具備會員性質的區塊（如：會員中心）設定為「自動綁定連結」。
 
-#### 設定資訊
+#### 設定資訊 { #operate-line-rich-menu-settings-settings }
 
 - **綁定連結**：`https://[你的網域]/customer/auth/line?line_action=line_login`
     
 
-#### 運作邏輯說明
+#### 運作邏輯說明 { #specs-line-rich-menu-logic }
 
 - **尚未綁定者**：點擊後會觸發 LINE 授權畫面，完成授權即自動完成官網會員綁定，隨後導向登入狀態頁面。
     
@@ -209,13 +209,13 @@ hide: []
 	- 避免重複跳轉流程： 帶有`line_action=line_login` 參數的網址會持續觸發驗證流程。建議僅在「首次綁定」或「登入/註冊」按鈕使用此網址；其餘一般導購按鈕建議使用普通連結。
 	- LINE OA 訊息計費規範： 啟用自動化通知功能前，請務必評估營運成本。LINE 官方帳號的訊息發送（包含：手動群發、自動化訂單通知、物流更新）均計入付費額度。相關計費標準請參閱官方 [加購訊息價目表 :lucide-external-link:](https://tw.linebiz.com/service/account-solutions/line-official-account/)。
 
-!!! note "更多會員綁定方法，請參閱 [LINE 會員綁定](../account-integration/bind-line-oa-store-members.md#商家後台設定方法){ title="綁定 LINE 官方帳號與官網會員" }。"
+!!! note "更多會員綁定方法，請參閱 [LINE 會員綁定](../account-integration/bind-line-oa-store-members.md#operate-bind-line-backend-settings){ title="綁定 LINE 官方帳號與官網會員" }。"
 
 ![圖文選單會員綁定設定](../../../../assets/images/ec-第三方整合-line-圖文選單-會員綁定.png){ title="圖文選單會員綁定設定" }
 
 
 
-## 如何確認圖文選單已成功顯示
+## 如何確認圖文選單已成功顯示 { #intro-line-rich-menu-overview-line-rich-menu }
 
 完成設定後，請於手機開啟 LINE App 並確認：
 
@@ -224,7 +224,7 @@ hide: []
 - 已設定期間的選單於指定時間顯示
 
 
-## 後續操作
+## 後續操作 { #next-steps-line-rich-menu }
 
 <div class="grid cards" markdown>
 
@@ -233,12 +233,12 @@ hide: []
   改用 EC 後台生成的 **LIFF 網址**。消費者點擊後可在 LINE 內自動套用帳戶資訊，實現「一鍵加入好友、註冊會員並完成綁定」，優化使用體驗。
 
 - :lucide-search:{ .lg }     
-  [__關鍵字搜尋商品__](../account-integration/connect-line-messaging-api.md#line-關鍵字搜尋商品){ title="串接 LINE Messaging API" }    
+  [__關鍵字搜尋商品__](../account-integration/connect-line-messaging-api.md#intro-line-messaging-line-search-product){ title="串接 LINE Messaging API" }
   串接 Webhook 後，顧客可在 LINE 對話框輸入關鍵字，由系統自動回覆搜尋到的商品訊息。
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-line-rich-menu }
 
 ??? quote "為什麼我的圖文選單上傳圖片後顯示「解析度不符」"
 

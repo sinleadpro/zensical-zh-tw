@@ -1,12 +1,8 @@
 ---
-acoiv:
-apis:
-search:
-  exclude: false
 title: 全站共用設定
 description: 設定拖拉版型的全站共用設定，包含彈窗廣告、顏色、品牌識別、SEO、商品顯示行為與動態標籤。
 created:
-last_modified: 2026-07-22 16:23
+last_modified: 2026-10-21 14:00
 lang: zh-TW
 permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-global-theme-settings/"
 type: guide
@@ -68,6 +64,8 @@ tags:
   - SEO
   - 商品顯示
   - 動態標籤
+acoiv:
+apis:
 devices:
   - desktop
   - tablet
@@ -78,9 +76,12 @@ paths:
 layouts:
   - draggable
 wp_url: []
+permalink: "https://help.cyberbiz.io/ec/website-appearance/theme-and-layout/setup-global-theme-settings/"
+comments: false
+search:
+  exclude: false
 icon: lucide/settings-2
 hide:
-comments: false
 ---
 
 ![全站共用設定](../../../assets/images/ec-網站外觀-拖拉版型-全域設定.png){ .hero-page }
@@ -103,7 +104,7 @@ comments: false
 
 ---
 
-## 導覽列與頁腳 { #navbar-footer }
+## 導覽列與頁腳 { #operate-global-settings-navbar-footer }
 
 導覽列與頁腳的設定較完整，另有專文說明：
 
@@ -114,14 +115,14 @@ comments: false
   可設定選單排列樣式（預設／併排置左／併排置右）、背景是否透明，以及次選單是否同步展開。
 
 - :lucide-arrow-down-to-line:{ .lg }  
-  [__頁腳__](../navigation/setup-menus-navigation.md#頁腳內容){ title="設定選單與導覽列" }  
+  [__頁腳__](../navigation/setup-menus-navigation.md#operate-menus-nav-footer-content){ title="設定選單與導覽列" }  
   提供「上下」或「左右」排序樣式，並可開啟社群媒體圖示的顯示與連結。
 
 </div>
 
 ---
 
-## 彈窗廣告 { #popup }
+## 彈窗廣告 { #operate-global-settings-popup }
 
 彈窗廣告會在顧客進站時自動跳出。在全站共用設定中可選擇以下內容形式，並設定顯示條件：
 
@@ -170,7 +171,7 @@ comments: false
 
 ---
 
-## 顏色設定 { #color }
+## 顏色設定 { #operate-global-settings-color }
 
 針對全站的基礎視覺元素進行定義：
 
@@ -191,13 +192,13 @@ comments: false
 ??? note "特定區塊的個別顏色設定"
     除了全站統一的顏色設定外，某些功能區塊允許更細緻的顏色自訂：
 
-    - **[置頂公告](../navigation/setup-menus-navigation.md#置頂公告){ title="設定選單與導覽列" }：** 可分別設定置頂公告欄位的 **圖片連結底色** 及 **時間倒數的文字與背景顏色**。
-    - **[折疊內容](setup-theme-page-settings.md#section-collapsible){ title="各頁面設定指南" }：** 用於 FAQ 或購物須知的區塊，可個別設定該區塊的顯示顏色。
-    - **[圖文介紹](setup-theme-page-settings.md#section-graphic-intro){ title="各頁面設定指南" }：** 此區塊內的 **按鈕顏色** 可依需求自訂。
+    - **[置頂公告](../navigation/setup-menus-navigation.md#operate-menus-nav-announce){ title="設定選單與導覽列" }：** 可分別設定置頂公告欄位的 **圖片連結底色** 及 **時間倒數的文字與背景顏色**。
+    - **[折疊內容](setup-theme-page-settings.md#operate-page-settings-collapsible){ title="各頁面設定指南" }：** 用於 FAQ 或購物須知的區塊，可個別設定該區塊的顯示顏色。
+    - **[圖文介紹](setup-theme-page-settings.md#operate-page-settings-graphic-intro){ title="各頁面設定指南" }：** 此區塊內的 **按鈕顏色** 可依需求自訂。
 
 ---
 
-## 全站設定 { #shop-setting }
+## 全站設定 { #operate-global-settings-shop }
 
 集中控管官網的基礎視覺識別、搜尋引擎優化(SEO)、全域商品顯示行為以及網站安全防護等核心設定。
 
@@ -223,9 +224,58 @@ comments: false
 
     ![全站設定-字型設定](../../../assets/images/ec-網站外觀-全站設定-fonts.png)
 
+4. 設定 **首頁進場動畫**：
+
+    1. 找到 **首頁進場動畫** 設定，勾選開啟。
+    2. 由下拉選單選擇想要的動畫樣式：
+
+        === "上升淡入"
+
+            ![](../../../assets/images/EC-後台-套版主題管理-全站設定-首頁進場動畫01.gif)
+
+            - **動畫效果**：區塊進入畫面時，由下往上輕輕浮現並淡入
+            - **設定建議**：效果最通用、不干擾閱讀，適合首頁大多數區塊。
+
+        === "置中展開"
+
+            ![](../../../assets/images/EC-後台-套版主題管理-全站設定-首頁進場動畫02.gif)
+
+            - **動畫效果**：內容隨頁面滾動，由中心向外展開。
+            - **設定建議**：視覺張力較強，適合以圖片為主的版面。
+
+
+    ??? quote "為什麼「置中展開」模式下，有些區塊沒有動畫？"
+
+        不會全部套用。部分區塊套用「置中展開」後閱讀體驗較差，系統因此不加入動畫。各區塊支援情形如下：
+
+        | 首頁區塊 | 上升淡入 | 置中展開 |
+        | ------- | -------- | ------- |
+        | 圖文介紹 | ✓ | ✓（僅套用圖片區域，文字不套用） | 
+        | 自訂排版設計 | ✓ | ✓ |
+        | 橫幅廣告 | ✓ | ✓ |
+        | 輪播素材 | ✓ | ✓ |
+        | 影片設定 | ✓ | ✓ |
+        | 商品分類 | ✓ | ✕ |
+        | 主打商品 | ✓ | ✕ |
+        | 文字編輯 | ✓ | ✕ |
+        | 折疊內容 | ✓ | ✕ |
+        | 分頁頁籤 | ✓ | ✕ |
+        | 自訂 HTML | ✕ | ✕ |
+
+    ??? quote "我開啟了動畫，但在自己的電腦／手機上看不到效果？"
+
+        若裝置開啟系統無障礙設定的 **減少動態效果**，官網會自動停用動畫、直接顯示內容。這是正常行為，不是故障。
+
+        若要看到動畫，請關閉該設定：
+
+        - **Mac**：系統設定 > 輔助使用 > 顯示器 > 關閉「減少動態效果」
+        - **iPhone/iPad**：設定 > 輔助使用 > 動態效果 > 關閉「減少動態效果」
+        - **Windows**：設定 > 協助工具 > 視覺效果 > 開啟「動畫效果」
+
+
 ---
 
-### 網站 SEO 與安全保護 { #seo-security }
+### 網站 SEO 與安全保護 { #specs-global-settings-seo }
 
 1. 在「全站設定」中，填寫網站的 **標題**、 **簡述** 與 **關鍵字**，優化搜尋引擎對網站的收錄與排名。若標題欄位留空，系統會預設以商店名稱作為標題。[查看設定教學](../site-settings/setup-site-title-seo.md){ title="設定網站標題與 SEO" }
 
@@ -237,14 +287,14 @@ comments: false
 
 ---
 
-### 全域商品顯示行為 { #shop-product-display }
+### 全域商品顯示行為 { #operate-global-settings-shop-product }
 
 !!! plan "功能限制"
     部分功能需特定方案方可使用，已標示於各項目標題。
 
-此區設定會 **套用到全站所有商品列表與商品頁**（首頁商品區塊、商品群組頁、多層級分類、搜尋頁、商品詳情頁等），統一商品卡片與價格的呈現方式，不需逐一設定每件商品。相關設定請分別參閱：[基本顯示選項](#product-display-basic)、[版面與樣式設定](#product-display-layout)、[圖片與懸停效果](#product-display-image-effects)。
+此區設定會 **套用到全站所有商品列表與商品頁**（首頁商品區塊、商品群組頁、多層級分類、搜尋頁、商品詳情頁等），統一商品卡片與價格的呈現方式，不需逐一設定每件商品。相關設定請分別參閱：[基本顯示選項](#operate-global-settings-product-display-basic)、[版面與樣式設定](#operate-global-settings-product-layout)、[圖片與懸停效果](#operate-global-settings-product-image-effects)。
 
-#### 基本顯示選項 { #product-display-basic }
+#### 基本顯示選項 { #operate-global-settings-product-display-basic }
 
 依需求啟用以下項目：
 
@@ -273,7 +323,7 @@ comments: false
 
 ---
 
-#### 版面與樣式設定 { #product-display-layout }
+#### 版面與樣式設定 { #operate-global-settings-product-layout }
 
 - 選擇 **文字排列** 對齊方式（置左／置中／置右，預設置左）。
 
@@ -302,7 +352,7 @@ comments: false
 
 ---
 
-#### 圖片與懸停效果 { #product-display-image-effects }
+#### 圖片與懸停效果 { #operate-global-settings-product-image-effects }
 
 - 選擇 **圖片寬高比例**（1:1／3:4，預設 1:1）。
 
@@ -331,7 +381,7 @@ comments: false
 
 ---
 
-### 商品標籤貼紙 { #product-labels }
+### 商品標籤貼紙 { #operate-global-settings-product-labels }
 
 === "專業（含PLUS）、進階（含PLUS）、高手"
 
@@ -345,7 +395,7 @@ comments: false
 === "高手PLUS、企業"
 
 
-    #### 標籤類型與適用版本
+    #### 標籤類型與適用版本 { #specs-global-settings-product-labels-types }
 
     | 標籤類型 | 適用版本 | 可設定數量 | 樣式選項 | 
     | ------- | ------- | ---------- | ------- | 
@@ -354,7 +404,7 @@ comments: false
     | **定期定額標籤** | 高手PLUS<br>企業 | 1 個 | 圖片<br>文字 | 
     | **自定義標籤** | 企業 | 至多 30 個<br>每個商品至多貼 5 個標籤[^2] | 圖片<br>文字 | 
 
-    #### 套用規則
+    #### 套用規則 { #specs-global-settings-product-labels-rules }
 
     | 標籤類型 | 套用規則 | 標籤類型 | 說明 | 
     | ------- | ------- | ------- | ------- |
@@ -364,7 +414,7 @@ comments: false
     | **自定義標籤** | 自定義標籤需與後台商品標籤進行綁定，綁定完成後，該自定義標籤將自動套用至所有包含此商品標籤的商品<br> [查看設定教學](../../products/categories-and-tags/manage-product-tags.md){ title="管理商品標籤" } | 自訂標籤 | 可設定公開 / 不公開<br>可新增或刪除 |
 
 
-    #### 操作步驟
+    #### 操作步驟 { #operate-global-settings-product-labels-step }
 
     1. 在「全站設定」中點擊 **「商品標籤列表」** 進入設定頁。
 
@@ -389,7 +439,7 @@ comments: false
         === "折扣折數"
             ![折扣折數](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-商品標籤呈現方式-折扣折數.png)
 
-    !!! info "標籤底色預設套用「[顏色設定](#color)」中的強調色；多個標籤同時成立時會依系統固定順序並列。"
+    !!! info "標籤底色預設套用「[顏色設定](#operate-global-settings-color)」中的強調色；多個標籤同時成立時會依系統固定順序並列。"
 
     [^2]: 超出 5 組時，前台依排序僅顯示前 5 組，第 6 組起不予顯示。此上限僅計算自定義標籤，系統預設標籤（特價、缺貨、定期定額）不在此限；商品可同時顯示兩者。例如：商品同時符合 3 個系統預設標籤與 6 個自定義標籤時，前台顯示 3 個預設標籤 + 前 5 個自定義標籤，共 8 個。
 

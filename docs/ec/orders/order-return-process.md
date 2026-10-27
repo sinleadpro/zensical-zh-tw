@@ -83,7 +83,7 @@ hide: []
 
 ## 使用須知 { #prerequisites-order-return }
 
-### 退款規則
+### 退款規則 { #specs-order-return-refund-rules }
 
 - **次數限制**：每筆訂單僅接受 **一次** 退貨退款申請。若已完成部分退貨，該訂單剩餘商品無法再次申請。
 - **部分退款**：
@@ -91,7 +91,7 @@ hide: []
     - 消費者當日付款，隔日才能操作部分退貨。
     - 每筆訂單僅接受一次部分退貨申請。
 
-### 行銷活動規則
+### 行銷活動規則 { #specs-order-return-campaign }
 
 - **紅利與優惠券**：
     - 系統 **不會自動歸還** 訂單中使用的點數/券。
@@ -103,7 +103,7 @@ hide: []
 
 - **分潤機制**：只要訂單曾達到 **已結案** 狀態，即會計算分潤；後續退貨 **不會影響** 已產生的分潤紀錄。
 
-### 官網串倉訂單退貨
+### 官網串倉訂單退貨 { #operate-order-return-warehouse }
 
 使用 CYBERBIZ 電商倉儲者，退貨流程請參閱 [退貨與派車](../../wms/returns-and-vehicle-dispatch.md)。
 
@@ -119,7 +119,7 @@ hide: []
 
 ## 步驟 1：安排逆物流寄回 { #operate-order-return-reverse }
 
-### 操作提醒
+### 操作提醒 { #operate-order-return-tips }
 
 - 出貨物流與逆物流獨立運作，兩者 **不需綁定相同物流商**。
 
@@ -127,7 +127,7 @@ hide: []
 
 - 使用系統逆物流收回退貨後，訂單 **退貨狀態** 會切換為 **退貨審查**。
 
-### 逆物流選項
+### 逆物流選項 { #operate-order-return-options }
 
 === "超商 7-11 退貨 (C2B)"
     
@@ -179,7 +179,7 @@ hide: []
     <div class="grid cards" markdown>
 
     - :lucide-dollar-sign:{ .lg }   
-      [__建立黑貓逆物流__](../payments-and-logistics/setup-print-tcat-waybill-v2.md#ezcat-shipping-note-reverse)       
+      [__建立黑貓逆物流__](../payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-shipping-reverse)
       設定黑貓寄件資訊、加印單號與建立逆物流。
 
     - :lucide-dollar-sign:{ .lg }   

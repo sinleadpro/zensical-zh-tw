@@ -94,7 +94,7 @@ hide: []
 
 
 
-## 使用須知
+## 使用須知 { #prerequisites-chatbox }
 
 - **前置作業**：使用前請先完成第三方平台串接。
 - **支援平台**：目前支援 LINE 與 Facebook。
@@ -103,7 +103,7 @@ hide: []
 - **資料同步**：在會員明細頁編輯的資料將即時同步至 CHAT BOX 介面。
 
 
-## 介面導覽
+## 介面導覽 { #overview-chatbox }
 
 前往 **APP MARKET > CHAT BOX** 即可進入管理介面。介面分為四大核心區塊：
 
@@ -116,9 +116,9 @@ hide: []
 
 
 
-## 操作流程
+## 操作流程 { #operate-chatbox }
 
-### 1. 管理與篩選訊息
+### 1. 管理與篩選訊息 { #operate-chatbox-1-manage-message }
 
 客服人員可透過左側選單與中間列表快速定位待處理的對話：
 
@@ -144,7 +144,7 @@ hide: []
     ![](../../../assets/images/lineoa-後台-設定-回應設定-chatbox已讀狀態同步設定01.png){ .small-image }
     
 
-### 2. 回覆顧客對話
+### 2. 回覆顧客對話 { #operate-chatbox-2-reply }
 
 在聊天室中，您可以：
 
@@ -160,7 +160,7 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-介面導覽04.png){ .small-image }
 
-### 3. 查閱會員與訂單資訊
+### 3. 查閱會員與訂單資訊 { #operate-chatbox-3-member-order }
 
 選取對話後，右側將自動帶入會員資訊：
 
@@ -172,7 +172,7 @@ hide: []
 
 
 
-## 常見問題
+## 常見問題 { #faq-chatbox }
 
 ??? quote "什麼情況下不同平台的對話會被統整在一起？"
     當同一位會員分別透過 LINE、Facebook Messenger 以及「官網聯絡我們」聯繫時，只要系統能成功比對其會員身分（如透過綁定或相同通訊資料），這些紀錄就會彙整在「所有對話」中。

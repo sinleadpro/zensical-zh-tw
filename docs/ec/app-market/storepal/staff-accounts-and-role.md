@@ -84,14 +84,14 @@ hide: []
 	- **數位綁定**：透過店員專屬 QR Code，讓顧客在加入 LINE 好友時同步完成會員註冊與推薦人綁定。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-staff-access }
 
 - 門市助理為付費擴充功能，需聯繫 CYBERBIZ 客服付費開通。
 - 每間門市僅能有一位 **啟用中** 的店長，新增店長前須先停權舊有店長帳號。
 - 已啟用的帳號無法刪除，僅能透過 **停權** 方式停止使用。
 - 建議具備 LINE Certified Provider 資格，以實現 QR Code 一次性完成註冊與綁定。
 
-## 角色登入權限說明
+## 角色登入權限說明 { #prerequisites-role-permissions }
 
 門市助理提供四種角色，各角色的登入權限如下表：
 
@@ -103,9 +103,9 @@ hide: []
 | **門市店員** | | V | 僅執行前台會員服務與導購 |
 
 
-## 管理帳號
+## 管理帳號 { #operate-staff-access }
 
-### 管理角色階層授權表
+### 管理角色階層授權表 { #operate-staff-access-manage-role-authorize }
 
 | **帳號權限 \ 可建立的角色** | 總部管理者角色 | 群組管理者角色 | 門市店長角色 | 門市店員角色 | 
 | ------------------------- | --------- | --------- | ------- | -------- |
@@ -114,7 +114,7 @@ hide: []
 | **門市店長權限** |  |  |  | V |
 | **門市店員權限** |  |  |  |  | 
 
-### 建立管理者角色
+### 建立管理者角色 { #operate-staff-access-create-manage-role }
 
 1. 前往 **設定 > 管理帳號設定**。
 2. 點選 **新增管理帳號**，設定帳號、密碼並指派角色。
@@ -128,7 +128,7 @@ hide: []
         
 
 
-### 建立門市人員
+### 建立門市人員 { #operate-staff-access-create-store }
 
 1. 前往 **門市管理**，系統將自動顯示該角色權限下的門市列表。
 2. 點選 **[特定門市]**，進入該店管理頁面。
@@ -136,7 +136,7 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定05.png){ .screenshot }
 
-### 管理門市人員
+### 管理門市人員 { #operate-staff-access-manage-store }
 
 1. **編輯**
     可以編輯人員身份、名稱，但無法更改信箱。
@@ -150,7 +150,7 @@ hide: []
 ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定09.png){ .screenshot }
 
 
-#### 批次建立
+#### 批次建立 { #operate-staff-access-create }
 
 使用 Excel 批次建立或修改全品牌門市人員帳號。
 
@@ -175,7 +175,7 @@ hide: []
     - 信箱：不可空白，同門市同角色信箱不可重複。
     - 密碼：請輸入6碼以上。
 
-#### 批次編輯店員權限
+#### 批次編輯店員權限 { #operate-staff-access-edit-permissions }
 
 若您需要管理多家門市的店員與權限設定，可透過 Excel 批次修改角色權限，大幅提升設定效率。  
 
@@ -201,7 +201,7 @@ hide: []
 6. 可於「上傳作業進度」查看上傳紀錄。  
     ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-後台-門市管理-批次建立修改門市人員03.png){ .screenshot }
 
-### 設定角色權限
+### 設定角色權限 { #operate-staff-access-settings-role-permissions }
 
 商家可依經營需求，對每間門市的店長、店員角色設定不同的功能權限。
 
@@ -238,7 +238,7 @@ hide: []
 
 
 
-## 常見問題
+## 常見問題 { #faq-staff-access }
 
 ??? quote "為什麼無法新增第二位店長？"
     每間門市僅能有一位啟用中的店長。若需更換店長，請先將原店長帳號狀態改為「停權」，即可新增新店長。

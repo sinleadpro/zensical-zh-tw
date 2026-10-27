@@ -76,15 +76,15 @@ hide: []
 !!! tip "適用範圍與對照"
     本文件僅適用於 **一般門市訂單** 的出貨管理。若需操作 **POS 門市訂單** 的入庫與取貨流程，請參閱 [POS 門市入庫與取貨作業](../../pos/orders/store-pickup-orders-inbound-and-pickup.md)。
 
-## 使用須知
+## 使用須知 { #prerequisites-store-pickup }
 
 - **出貨限制**：門市到貨訂單僅支援 **全部出貨**，**不支援部分出貨**。
 - **版本限制**：此功能不支援 **高手版**。
 
 
-## 操作流程
+## 操作流程 { #operate-store-pickup }
 
-### 出貨作業
+### 出貨作業 { #operate-store-pickup-fulfill }
 
 1. 登入 CYBERBIZ 管理後台，前往 **訂單 > 所有訂單**。
 
@@ -104,10 +104,10 @@ hide: []
     
 
 
-## 常見情境處理
+## 常見情境處理 { #operate-store-pickup-exceptions }
 
 
-### 取消訂單
+### 取消訂單 { #operate-store-pickup-cancel }
 
 === "商家"
 

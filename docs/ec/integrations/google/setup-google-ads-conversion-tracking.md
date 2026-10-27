@@ -62,20 +62,20 @@ hide: []
 
 ![Google Ads 轉換追蹤](../../../assets/images/ec-第三方整合-google設定-ads轉換追蹤.png){ .hero-page }
 
-## Google Ads 說明
+## Google Ads 說明 { #overview-google-ads-conversions }
 
 Google Ads（原名 Google AdWords）是 Google 提供的線上廣告平台，商家可透過競價方式在 Google 搜尋結果、Google 合作網站及 YouTube 等管道投放廣告。Google Ads 提供多種廣告形式，包括搜尋廣告、多媒體廣告、購物廣告和影片廣告，商家可依據產品特性和行銷目標選擇適合的廣告類型。[瞭解詳情 :lucide-external-link:](https://support.google.com/google-ads/answer/6146252)。
 
-## 為何需要設定「轉換追蹤」
+## 為何需要設定「轉換追蹤」 { #operate-google-ads-conversions }
 
 「轉換」是指使用者點擊廣告後，在網站上完成的關鍵動作（如：結帳、註冊會員、填寫表單）。
 在 Google Ads 建立轉換追蹤，能協助商家觀測廣告成效、了解客戶行為，並進一步優化廣告精準度。CYBERBIZ 提供與 Google 轉換代碼的串接功能，以下為詳細的設定步驟：
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-google-ads-conversions }
 
 - [x] **建立廣告活動**：商家必須先[建立第一個 Google 廣告活動 :lucide-external-link:](https://ads.google.com/aw/campaigns?supportResource=google-ads/answer/10207423)，方可開始建立轉換追蹤。設定詳情，請參考[官方說明 :lucide-external-link:](https://support.google.com/google-ads/answer/6324971?hl=zh-Hant)。
 
-## 在 Google Ads 建立轉換動作
+## 在 Google Ads 建立轉換動作 { #operate-google-ads-conversion-create }
 
 1.  **進入轉換頁面**：登入 Google Ads 管理後台，於側邊欄點擊「**目標**」>「**摘要**」，點擊「**建立轉換動作**」。
 2.  **選擇類別**：選擇「**網頁瀏覽**」。
@@ -100,7 +100,7 @@ Google Ads（原名 Google AdWords）是 Google 提供的線上廣告平台，�
 
     ![Google Ads 完成設定轉換動作](../../../assets/images/ec-第三方整合-google-ads-儲存轉換動作.gif)
 
-## 將轉換代碼填入 CYBERBIZ 後台
+## 將轉換代碼填入 CYBERBIZ 後台 { #intro-google-ads-conversions }
 
 **操作路徑：** 登入 CYBERBIZ 管理後台，前往 「**第三方整合**」 > 「**谷歌 Google 設定**」> Google Ads 轉換相關區塊。
 
@@ -138,7 +138,7 @@ Google Ads（原名 Google AdWords）是 Google 提供的線上廣告平台，�
     *   **避免重複埋設**：若先前曾透過 GTM 設定 Google 廣告追蹤，在 CYBERBIZ 後台設定完成後，**必須移除 GTM 中的相關標籤**，以免發生 Code 碼衝突導致數據不準確。
     *   **自動化廣告限制**：若商家使用的是由 [CYBERBIZ 代管](automated-ads-system.md#cyberbiz-代管適合新手){ title="設定自動化廣告系統" }的「**自動化廣告系統**」，則 **無法** 透過上述方式在個人 Google Ads 帳號中查看數據，需前往 CYBERBIZ 後台查看。
 
-## 常見問題
+## 常見問題 { #faq-google-ads-conversions }
 
 ??? quote "自動化廣告可以設置轉換追蹤嗎？"
     不行，自動化廣告由 CYBERBIZ 帳號代管，恕無法透過 Google Ads 查看數據，商家可前往後台查看數據。

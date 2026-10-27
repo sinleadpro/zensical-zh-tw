@@ -60,11 +60,11 @@ hide:
 
 ![Meta廣告閒置](../../../../assets/images/ec-第三方整合-fb-mbe-meta廣告閒置.png){ .hero-page }
 
-## Meta 廣告帳號閒置說明
+## Meta 廣告帳號閒置說明 { #overview-meta-reclaim }
 
 在 CYBERBIZ 系統中，若商家建立 Meta 廣告帳號後長期未進行儲值與使用，該帳號將進入「閒置帳號」處理流程。
 
-## 閒置帳號定義
+## 閒置帳號定義 { #intro-meta-reclaim }
 
 廣告帳號必須 **同時符合** 以下兩個條件，才會被系統判定為閒置帳號：
 
@@ -73,12 +73,12 @@ hide:
 
 閒置帳號代表該帳戶長時間未被使用，系統將啟動釋出機制以回收資源。
 
-## 帳號釋出規則與提醒
+## 帳號釋出規則與提醒 { #specs-meta-reclaim }
 
 !!! path "後台路徑"
     商家可至後台路徑：**「第三方整合」** > **「臉書 Facebook 設定（廣告/註冊登入）」** > **「廣告帳號設定」** 查看狀態。
 
-### 到期通知
+### 到期通知 { #specs-meta-reclaim-notifications }
 
 在帳號即將滿半年的前 **30、15、7、1 天**，CYBERBIZ 會主動發送電子郵件並於後台顯示提醒橫幅。
 
@@ -92,19 +92,19 @@ hide:
 
 ---
 
-### 激活方式
+### 激活方式 { #specs-meta-reclaim-overview-meta-reclaim }
 
-商家收到提醒後，若欲維持帳號權限，請務必於期限內[進行儲值](create-meta-ad-account-top-up.md#儲值廣告金){ title="建立 Meta 廣告帳號並完成儲值" }。儲值完成後帳號即恢復活躍，相關警告會自動解除。
+商家收到提醒後，若欲維持帳號權限，請務必於期限內[進行儲值](create-meta-ad-account-top-up.md#operate-meta-account-steps-ads){ title="建立 Meta 廣告帳號並完成儲值" }。儲值完成後帳號即恢復活躍，相關警告會自動解除。
 
 ---
 
-### 不再提醒操作
+### 不再提醒操作 { #specs-meta-reclaim-operate }
 
 商家若選擇「不再提醒我」，系統將停止寄送提醒信並隱藏後台橫幅，但 **這不會改變釋出規則**；若半年期限屆滿仍未儲值，系統依然會自動釋出帳號。
 
 ![Meta廣告閒置通知-關閉提醒](../../../../assets/images/ec-第三方整合-meta廣告帳號閒置通知-不再提醒.png)
 
-## 帳號釋出後的影響與重新申請
+## 帳號釋出後的影響與重新申請 { #operate-meta-reclaim }
 
 一旦帳號進入釋出流程並完成回收：
 
@@ -114,7 +114,7 @@ hide:
 !!! warning "重要提醒"
     為了確保廣告帳號的穩定性，建議商家在建立帳號後盡早完成 **最低門檻** 的儲值，以避免因過期導致資產權限遺失。
 
-## 後續操作
+## 後續操作 { #next-steps-meta-reclaim }
 
 <div class="grid cards" markdown>
 
@@ -128,11 +128,11 @@ hide:
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-meta-reclaim }
 
 ??? quote "如何避免廣告帳號被系統釋出？"
 
-    請務必於六個月內完成首次[儲值](create-meta-ad-account-top-up.md#儲值廣告金){ title="建立 Meta 廣告帳號並完成儲值" }。建議商家在建立帳號後盡早完成最低門檻的儲值，避免因閒置過久導致帳號被系統釋出。
+    請務必於六個月內完成首次[儲值](create-meta-ad-account-top-up.md#operate-meta-account-steps-ads){ title="建立 Meta 廣告帳號並完成儲值" }。建議商家在建立帳號後盡早完成最低門檻的儲值，避免因閒置過久導致帳號被系統釋出。
 
 ??? quote "帳號被釋出後可以復原嗎？"
 

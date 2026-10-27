@@ -57,7 +57,7 @@ icon: lucide/id-card
 hide: []
 ---
 
-## 什麼是 Google 商家檔案
+## 什麼是 Google 商家檔案 { #intro-google-business }
 
 在 Google 建立「[我的商家檔案 :lucide-external-link:](https://business.google.com/tw/business-profile/)」（Google Business Profile）是實體店面或品牌經營者的重要步驟。這是一個免費工具，可讓商家管理自己在 Google 搜尋與 Google 地圖上的資訊，增加曝光並建立顧客信任感。
 
@@ -67,7 +67,7 @@ hide: []
 
 ![](../../../assets/images/ec-第三方整合-google商家檔案-前台.png)
 
-## 建立步驟教學
+## 建立步驟教學 { #operate-google-business }
 
 !!! warning "此功能由 Google 官方提供與審核，相關操作與最新介面應以 [Google 官方資訊 :lucide-external-link:](https://support.google.com/business/answer/2911778?hl=zh-Hant&ref_topic=4596754&sjid=3926033107048309425-NA) 為準。"
 
@@ -82,7 +82,7 @@ hide: []
 9.  **商家相片**：新增商店的實體相片或產品圖，增加吸引力。
 10. **完成設定**：點擊「繼續」，等待 Google **驗證通過** 後，商家檔案即正式生效。
 
-## 後續操作
+## 後續操作 { #next-steps-google-business }
 
 <div class="grid cards" markdown>
 
@@ -92,7 +92,7 @@ hide: []
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-google-business }
 
 ??? quote "誰可以建立 Google 商家檔案？"
 

@@ -65,13 +65,13 @@ hide:
 
 ![首頁跑馬燈樣板編輯](../../../assets/images/ec-網站外觀-樣板編輯器-main-slider-liquid.png){ title="首頁跑馬燈樣板編輯" .hero-page }
 
-## 跑馬燈轉場時間說明
+## 跑馬燈轉場時間說明 { #intro-carousel-duration }
 
 您可以透過修改程式碼來調整 **首頁跑馬燈（輪播圖）的轉場停留時間**，這有助於提供客戶更佳的閱讀體驗。
 
 以下為跑馬燈轉場時間設定的詳細教學：
 
-## 設定操作步驟
+## 設定操作步驟 { #operate-carousel-duration }
 
 !!! warning "適用範圍與版型限制" 
 	- **適用範圍：** 此設定 **僅適用於「首頁跑馬燈」**。若您是使用自行貼上 liquid 語法的「進階跑馬燈」，則不包含在內。
@@ -103,12 +103,12 @@ pagination: {
 },
 ```
 
-## 重要注意事項
+## 重要注意事項 { #prerequisites-carousel-duration }
 
 - **責任歸屬：** CYBERBIZ 提供程式碼修改權限，但 **不提供語法教學或代碼撰寫服務**，建議由貴公司技術人員執行。
-- **恢復機制**：若修改後導致頁面異常，可點擊編輯器中的 **查看之前版本**，可[回溯至先前版本](../code-customization/restore-code-theme-editor.md#操作步驟){ title="使用樣板編輯器恢復網頁代碼" }。
+- **恢復機制**：若修改後導致頁面異常，可點擊編輯器中的 **查看之前版本**，可[回溯至先前版本](../code-customization/restore-code-theme-editor.md#operate-restore-theme){ title="使用樣板編輯器恢復網頁代碼" }。
 
-## 常見問題
+## 常見問題 { #faq-carousel-duration }
 
 ??? quote "修改後跑馬燈停止自動輪播了，該怎麼辦？" 
 	這通常是因為程式碼語法錯誤（例如誤刪了逗號 `,` 或冒號 `:`）。

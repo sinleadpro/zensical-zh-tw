@@ -91,7 +91,7 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Pro / Business
 { .doc-badge }
 
-## 使用須知
+## 使用須知 { #prerequisites-dhl }
 
 - **服務限制**：目前僅支援 **台灣出貨至國外**。
 - **英文要求**：所有報關資料（寄件人、收件人、商品名）必須使用 **全英文** 填寫。
@@ -100,13 +100,13 @@ hide: []
 - **操作建議**：此功能建議搭配 **多國** 功能，系統方能自動將商品英文資訊帶入託運單明細中，提升作業效率。如有需求可洽 CYBERBIZ 客服。
 
 
-## 前置設定
+## 前置設定 { #operate-dhl-setup }
 
-### 步驟 1：申請長期委任書
+### 步驟 1：申請長期委任書 { #operate-dhl-poa }
 
 依[長期委任書線上申辦流程](https://drive.google.com/file/d/1_zj4H9feFFECoCSGi-GUtfG8h-REsekP/view)申請。
 
-### 步驟 2：驗證公司英文名稱
+### 步驟 2：驗證公司英文名稱 { #operate-dhl-verify-name }
 
 1. 登入 CYBERBIZ 後台，前往 **管理中心 > 一般設定**。
 2. 找到 **國貿局出進口廠商英文公司名** 欄位。
@@ -115,7 +115,7 @@ hide: []
 
 ![](../../assets/images/EC-後台-管理中心-一般設定-填寫國貿局進出口廠商英文名01.png)
 
-### 步驟 3：設定英文寄件人資訊
+### 步驟 3：設定英文寄件人資訊 { #operate-dhl-sender }
 
 1. 前往 **金物流 > DHL 託運單 > 基本資料設定**。
 2. 填入 **全英文** 的寄件人地址與聯繫資訊。
@@ -125,7 +125,7 @@ hide: []
 
 ![](../../assets/images/EC-後台-金物流-DHL託運單-啟用DHL物流01.png)
 
-### 步驟 4：設置物流與運費
+### 步驟 4：設置物流與運費 { #operate-dhl-fee }
 
 1. 前往 **金物流 > 宅配物流**，選擇 **自訂物流** 頁籤。
 2. 點擊 **新增自訂物流**。
@@ -151,7 +151,7 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/DHL-物流-10.png)
 
-### 步驟 5：商品綁定物流
+### 步驟 5：商品綁定物流 { #operate-dhl-bind-product }
 
 1. 前往 **商品 > 所有商品**，選擇指定商品。
 2. 進入 **設定** 頁籤。
@@ -160,9 +160,9 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/DHL-物流-11.png)
 
-## 訂單出貨操作
+## 訂單出貨操作 { #operate-dhl-ship }
 
-### 步驟 1：建立託運單
+### 步驟 1：建立託運單 { #operate-dhl-create-waybill }
 
 1. 前往 **訂單 > 所有訂單**，勾選欲出貨訂單。
 2. 點選 **選擇操作 > 建立 DHL 託運單**。
@@ -175,7 +175,7 @@ hide: []
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-01.png)
 
-### 步驟 2：填寫報關資訊與稅費
+### 步驟 2：填寫報關資訊與稅費 { #operate-dhl-customs }
 
 1. **核對商品明細**：
     - **必填欄位檢查**：
@@ -221,7 +221,7 @@ hide: []
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-06-1.png)
 
-### 步驟 3：列印託運文件
+### 步驟 3：列印託運文件 { #operate-dhl-print }
 
 1. 點擊 **下載託運單**。
     - `配送狀態`將自動更改為`已出貨`。
@@ -235,7 +235,7 @@ hide: []
 ![](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-10.png)
 
 
-### 步驟 4：正式報關(非必要)
+### 步驟 4：正式報關(非必要) { #operate-dhl-declare }
 
  1. 若符合底下任一條件，則須走正式報關流程。
     - 商品總價值 > 50,000 元新台幣
@@ -262,7 +262,7 @@ hide: []
 
 
 
-## 常見問題
+## 常見問題 { #faq-dhl }
 
 ??? quote "訂單配送出現「運送異常」怎麼辦？"
     若貨態顯示異常，系統將鎖定狀態直到解決。建議商家透過單號連結至 DHL 官網查詢詳細原因，或聯繫 CYBERBIZ 客服協助。

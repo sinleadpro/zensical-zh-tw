@@ -134,7 +134,7 @@ icon: lucide/shopping-cart
 3. **設定提醒頻率：** 啟用任一管道後，下方會出現「提醒頻率」設定，最多可設定三次提醒，並各自填入「於第幾天送出」的天數。
 4. **完成：** 點擊 **「儲存」** 套用設定。
 
-各提醒管道的開通條件請見 [購物車未結帳提醒管道對照表](../references/cart-reminder-channels-reference.md#cart-reminder-channels){ data-preview }。
+各提醒管道的開通條件請見 [購物車未結帳提醒管道對照表](../references/cart-reminder-channels-reference.md#reference-cart-reminder-channels){ data-preview }。
 
 [^line-plan]: LINE OA 提醒僅在開通對應功能(PLUS版以上 或 企業版)時顯示。
 

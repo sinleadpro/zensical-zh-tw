@@ -83,17 +83,17 @@ hide: []
     - **即時價格核對**：在前台確認商品資訊後，若發現標籤毀損，可立即重新列印。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-product-labels }
 
 - **硬體前提**：必須先完成標籤機的驅動程式安裝與連線測試，詳細請參閱 [標籤機安裝教學](../hardware/label-printer.md)。
 - **功能開通**：此功能需聯繫 CYBERBIZ 客服人員協助開啟 **POS 前台標籤列印** 權限。
 
 
-## 於後台列印標籤
+## 於後台列印標籤 { #operate-product-labels }
 
 === "單筆建立"
 
-    ### 步驟一：標籤樣式設定
+    ### 步驟一：標籤樣式設定 { #operate-product-labels-style }
 
     1. 登入 CYBERBIZ 管理後台，前往 **POS 功能 > 所有 POS 商店**，選擇欲設定的商店後點擊 **列印商品標籤** 頁籤。
         ![](../../assets/images/POS-後台-所有POS商店-列印商品標籤01.png){ .screenshot }
@@ -102,7 +102,7 @@ hide: []
     4. **標籤版型**：選擇版型，調整標籤上顯示的內容項目。
         ![](../../assets/images/POS-後台-所有POS商店-列印商品標籤-單筆建立01.png){ .screenshot }
 
-    ### 步驟二：建立標籤
+    ### 步驟二：建立標籤 { #operate-product-labels-create }
 
     1. 在下方商品列表中，勾選欲列印標籤的商品項目。
     2. **搜尋商品**：
@@ -125,10 +125,10 @@ hide: []
 
     ![](../../assets/images/POS-後台-所有POS商店-列印商品標籤-批次匯入01.png){ .screenshot }
 
-## 於前台列印標籤
+## 於前台列印標籤 { #operate-frontend-print }
 
 
-### 步驟一：啟用前台列印功能
+### 步驟一：啟用前台列印功能 { #operate-frontend-print-step-a-enable }
 
 在操作 POS 前台前，必須先在管理後台針對特定機台開啟權限。
 
@@ -139,7 +139,7 @@ hide: []
 
 ![](../../assets/images/POS-後台-所有POS商店-開啟前台列印標籤設定01.png){ .screenshot }
 
-### 步驟二：POS 前台勾選與列印
+### 步驟二：POS 前台勾選與列印 { #operate-frontend-print-step-b-pos }
 
 完成後台設定後，請重新整理或登入 POS 前台 APP。
 
@@ -158,7 +158,7 @@ hide: []
     - 建議先列印一張進行樣式確認，避免大量列印時造成素材浪費。
 
 
-## 常見問題
+## 常見問題 { #faq-product-labels }
 
 ??? quote "一次可以勾選多個商品列印嗎？"
     是的，您可以一次勾選多個不同商品，系統會依序連續印出所有標籤。

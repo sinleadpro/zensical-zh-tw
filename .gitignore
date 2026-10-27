@@ -51,6 +51,7 @@ duckops/
 .cursorindexingignore
 .cursor/
 .vscode/
+.firecrawl/**
 workspace/
 CLAUDE.md
 AGENTS.md

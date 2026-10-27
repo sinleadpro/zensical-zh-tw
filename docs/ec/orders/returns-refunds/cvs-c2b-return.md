@@ -71,7 +71,7 @@ hide:
 
 ![超商退貨便 C2B](../../../assets/images/ec-logistics-cvs-c2b-return.png){ title="超商退貨便 C2B" .hero-page }
 
-## 超商取貨退貨便 C2B 說明
+## 超商取貨退貨便 C2B 說明 { #intro-cvs-c2b-return }
 
 **超取退貨便 (C2B)** 是讓消費者能透過 **7-11 門市** 將欲退貨的包裹寄回給商家的服務
 
@@ -92,7 +92,7 @@ hide:
         end
     ```
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-cvs-c2b-return }
 
 - [x] **版本限制：** 此功能主要供 **企業版** 或 **高手 PLUS版** 商家使用。
 - [x] **開通條件：** 若要使用 7-11 C2B 退貨便，商家必須 [先申請開通「超商大宗寄倉 (B2C)」](../../payments-and-logistics/setup-cvs-b2c-bulk-shipping.md)服務。
@@ -102,9 +102,9 @@ hide:
 
 [^code-valid]: 例如：商家於 7 月 1 日產生退貨便代碼，則有效期至 7 月 7 日（含申請當日共 7 天）。
 
-## 操作步驟
+## 操作步驟 { #operate-cvs-c2b-return }
 
-### 步驟一：後台設定收款方式
+### 步驟一：後台設定收款方式 { #operate-cvs-c2b-return-setup }
 
 商家需先決定退貨運費由誰支付，設定路徑如下：
 
@@ -118,7 +118,7 @@ hide:
 
 ---
 
-### 步驟二：後台操作與發送代碼流程
+### 步驟二：後台操作與發送代碼流程 { #operate-cvs-c2b-return-send-code }
 
 當顧客提出退貨申請後，商家可依以下步驟產出代碼：
 
@@ -136,7 +136,7 @@ hide:
 
 ---
 
-### 步驟三：消費者端寄件流程
+### 步驟三：消費者端寄件流程 { #operate-cvs-c2b-return-customer }
 
 1. 消費者收到退貨便代碼後，自行包裝商品。
 2. 前往 7-11 門市使用 **ibon 機台**，輸入代碼列印出「退貨便服務單（託運單）」。
@@ -146,7 +146,7 @@ hide:
 
 ---
 
-### 步驟四：後續驗收與退款
+### 步驟四：後續驗收與退款 { #operate-cvs-c2b-return-inspect }
 
 • **包裹返回：** 超商會將退貨包裹寄至總倉，系統會發送 **CYBERBIZ 7-11 超商退貨便到貨通知** 信件通知商家領取包裹。
 • **驗收流程：** 商家收到包裹後，應將訂單貨態改為 **退貨審查** 進行檢查。
@@ -154,7 +154,7 @@ hide:
 
 !!! info "變更訂單貨態操作，請參閱 [訂單退貨流程](../order-return-process.md)。"
 
-## 後續步驟
+## 後續步驟 { #next-steps-cvs-c2b-return }
 
 <div class="grid cards" markdown>
 
@@ -168,7 +168,7 @@ hide:
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-cvs-c2b-return }
 
 ??? quote "消費者如何申請超商退貨便？"  
 	消費者向商家提出退貨申請後，商家於後台產生退貨便代碼並通知消費者。

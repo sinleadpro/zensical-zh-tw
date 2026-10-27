@@ -80,21 +80,21 @@ hide: []
 
 ---
 
-## 使用須知
+## 使用須知 { #prerequisites-epson-m30 }
 
 - **適用型號**：EPSON TM-M30III。
 - **連接方式**：本教學採用 Wi-Fi 連接（無須驅動程式）。
     - 若需使用 USB 連接，則須安裝驅動程式，請參考 [EPSON TM-T82III 安裝教學](epson-tm-t82iii-invoice-printer.md)。
 - **環境要求**：發票機與結帳平板須連接至同一個 Wi-Fi 網域。
 
-## 操作流程
+## 操作流程 { #operate-epson-m30 }
 
-### 1. 硬體準備與開機
+### 1. 硬體準備與開機 { #operate-epson-m30-1-hardware }
 
 1. 打開上蓋，放入電子發票證明聯專用感熱紙捲。
 2. 按壓 **電源鍵**，直到介面燈源閃爍完成開機。
 
-### 2. 啟動 Wi-Fi 配對模式
+### 2. 啟動 Wi-Fi 配對模式 { #operate-epson-m30-2-wi-fi }
 
 1. 打開上蓋，按壓電源鍵下方的 **進紙按鈕** 約 3-5 秒。
 2. 下方左側第三個訊號燈開始閃爍。
@@ -107,14 +107,14 @@ hide: []
 
     </div>
 
-### 3. 取得 Wi-Fi 設定 QR Code
+### 3. 取得 Wi-Fi 設定 QR Code { #operate-epson-m30-3-wi-fi }
 
 1. 連續點擊 **進紙按鈕** 5 下，接著再點擊 1 下。
 2. 發票機將吐出一張包含 **QR Code** 的設定紙。
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-安裝-EPSON-TM-M30III發票機-wifi啟用03-scaled.jpg){ .screenshot }
 
-### 4. 執行 Wi-Fi 連線設定
+### 4. 執行 Wi-Fi 連線設定 { #operate-epson-m30-4-run-wi }
 
 1. 使用結帳平板掃描上述 QR Code。
 2. 於平板上同意發票機加入目前的 Wi-Fi 網域。
@@ -137,7 +137,7 @@ hide: []
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-安裝-EPSON-TM-M30III發票機-wifi啟用08.png){ .screenshot }
 
-### 5. 取得 IP 位址並授權連線
+### 5. 取得 IP 位址並授權連線 { #operate-epson-m30-5-ip-connection }
 
 1. 設定完成後，發票機會自動吐出一張包含 **IP 位址 (IP Address)** 的紙張。
 2. 開啟平板瀏覽器，於網址列輸入該 IP 位址。
@@ -145,7 +145,7 @@ hide: []
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-安裝-EPSON-TM-M30III發票機-wifi啟用09-scaled.jpg){ .screenshot }
 
-### 6. POS 前台連線測試
+### 6. POS 前台連線測試 { #operate-epson-m30-6-pos-frontend }
 
 1. 使用相同瀏覽器登入 POS 前台。
 2. 點擊 **進行連接**，輸入剛才取得的 IP 位址。
