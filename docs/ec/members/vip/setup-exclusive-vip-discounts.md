@@ -2,7 +2,7 @@
 title: 設定 VIP 專屬優惠
 description: 設定 VIP 會員專屬折扣、紅利獎勵與差異化定價，並掌握與全館行銷活動的併用規則。
 created: 2026-01-23 00:00
-last_modified: 2026-07-14 17:10
+last_modified: 2026-10-27 15:20
 lang: zh-TW
 type: guide
 author: Ann
@@ -20,13 +20,8 @@ sites:
 audiences:
   - merchant
 difficulty: intermediate
-tnb: branch
-plans:
-  - 高手
-  - 專業PLUS
-  - 進階PLUS
-  - 高手PLUS
-  - 企業
+tnb: trunk
+plans: []
 plan_options: []
 cyb_extensions: []
 intents:
@@ -66,12 +61,6 @@ icon: lucide/ticket
 hide: []
 ---
 # 設定 VIP 專屬優惠
-
-設定 VIP 會員專屬折扣、紅利獎勵與差異化定價，並掌握與全館行銷活動的併用規則。
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 高手 / 所有 PLUS / 企業
-{ .doc-badge }
 
 ![](../../../assets/images/EC-後台-會員-VIP設定-優惠設定01.png){ .hero-page }
 
@@ -208,8 +197,8 @@ VIP 制度的核心吸引力在於「尊榮感」與「實質回饋」。新版 
 
         2. 選擇優惠券類型：
 
-            - 金額
-            - 百分比
+            - 金額 **（高手版、PLUS 版、企業版專用）**
+            - 百分比 **（高手版、PLUS 版、企業版專用）**
             - 贈品 **（企業版專用）**
 
                 !!! info "VIP 贈品券使用規則"
@@ -318,8 +307,8 @@ VIP 制度的核心吸引力在於「尊榮感」與「實質回饋」。新版 
 
         2. 選擇優惠券類型：
 
-            - 金額
-            - 百分比
+            - 金額 **（高手版、PLUS 版、企業版專用）**
+            - 百分比 **（高手版、PLUS 版、企業版專用）**
             - 贈品 **（企業版專用）**
 
                 !!! info "VIP 贈品券使用規則"
@@ -375,8 +364,8 @@ VIP 制度的核心吸引力在於「尊榮感」與「實質回饋」。新版 
 
         2. 選擇優惠券類型：
 
-            - 金額
-            - 百分比
+            - 金額 **（高手版、PLUS 版、企業版專用）**
+            - 百分比 **（高手版、PLUS 版、企業版專用）**
             - 贈品 **（企業版專用）**
 
                 !!! info "VIP 贈品券使用規則"
