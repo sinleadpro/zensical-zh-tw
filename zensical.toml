@@ -717,6 +717,7 @@ copyright = """
             { "overview" = "pos/hardware/index.md" },
             { "台新有線刷卡機" = "pos/hardware/taishin-wired-credit-card-machine.md" },
             { "MYPAY 無線刷卡機" = "pos/hardware/mypay-wireless-credit-card-machine.md" },
+            { "A910S 刷卡機" = "pos/hardware/a910s-credit-card-machine.md" },
             { "Posiflex 有線發票機" = "pos/hardware/posiflex-wired-invoice-printer.md" },
             { "EPSON TM-T82III 發票機" = "pos/hardware/epson-tm-t82iii-invoice-printer.md" },
             { "EPSON TM-M30III 發票機" = "pos/hardware/epson-tm-m30iii-invoice-printer.md" },

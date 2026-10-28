@@ -41,6 +41,7 @@ related:
   - pos/hardware/taishin-wired-credit-card-machine/
   - pos/hardware/epson-tm-t82iii-invoice-printer/
   - pos/hardware/mypay-wireless-credit-card-machine/
+  - pos/hardware/a910s-credit-card-machine/
   - pos/hardware/customer-display-screen/
   - pos/hardware/label-printer/
   - pos/hardware/hprt-n130-barcode-scanner/
@@ -111,7 +112,7 @@ hide: []
 | ---- | ------- | ----------- | ----------- | ----------------- |
 | **[有線刷卡機](taishin-wired-credit-card-machine.md)** | ✓ | | ✕ | |
 | **[有線發票機](epson-tm-t82iii-invoice-printer.md)** | ✓ | | ✕ | |
-| **無線刷卡機** | **△** | **不建議使用** | ✓ | 僅支援 [MYPAY 商米刷卡機](mypay-wireless-credit-card-machine.md) |
+| **無線刷卡機** | **△** | **不建議使用** | ✓ | 支援 [MYPAY 商米刷卡機](mypay-wireless-credit-card-machine.md)、[A910S 刷卡機](a910s-credit-card-machine.md)（A910S 目前以 iPad 為準） |
 | **[客顯螢幕](customer-display-screen.md)** | ✓ | | ✕ | |
 | **[標籤印表機](label-printer.md)** | ✓ | | ✕ | |
 | **[掃碼槍](hprt-n130-barcode-scanner.md)<br>（一維條碼）** | ✓ | | ✓ | 預設支援藍牙掃碼槍（或視平板款式，自行準備轉接頭轉成 USB） | 
