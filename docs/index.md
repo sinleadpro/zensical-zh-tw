@@ -364,6 +364,57 @@ function openTab(evt, tabName) {
 </div>
 
 ---
+
+## 跨境電商
+
+<div class="grid cards" markdown>
+
+-   :lucide-rocket:{ .lg }
+    __跨境金流__
+
+    ---
+
+    [:octicons-arrow-right-24: 前往 北美站](ec/payments-and-logistics/north-america-payment-services/)<br>
+    [:octicons-arrow-right-24: 前往 日本站](ec/payments-and-logistics/japan-payment-services/)<br>
+    [:octicons-arrow-right-24: 前往 東南亞站](ec/payments-and-logistics/southeast-asia-payment-services/)<br>
+    [:octicons-arrow-right-24: 前往 澳洲落地版](ec/payments-and-logistics/australia-local-payment-services/)<br>
+
+-   :lucide-monitor:{ .lg }
+    __跨境物流__
+
+    ---
+
+    [:octicons-arrow-right-24: 前往 DHL 物流](ec/payments-and-logistics/dhl-cross-border-logistics/)<br>
+    [:octicons-arrow-right-24: 前往 LINEX 物流](ec/payments-and-logistics/linex-cross-border-logistics/)<br>
+    [:octicons-arrow-right-24: 前往 順豐海外物流](ec/payments-and-logistics/sf-express-overseas-logistics/)<br>
+    [:octicons-arrow-right-24: 前往 Amazon FBA 物流](ec/payments-and-logistics/amazon-fba-cross-border-logistics/)<br>
+
+-   :lucide-shopping-cart:{ .lg }
+    __退貨退款__
+
+    ---
+
+    [:octicons-arrow-right-24: 訂單退貨流程](ec/orders/cross-border-return-process/)<br>
+    [:octicons-arrow-right-24: 訂單退款流程](ec/orders/cross-border-refund-process/)
+
+-   :lucide-arrow-right-from-line:{ .lg }
+    [__前台多國語言與多幣別__](ec/website-management/setup-multi-language-and-multi-currency/)
+
+    ---
+
+    建立本地化前台語系與幣別顯示，優化海外消費者購物體驗。
+
+-   :lucide-arrow-right-from-line:{ .lg }
+    [__多官網指定國家跳轉__](ec/website-management/setup-country-site-redirect/)
+
+    ---
+
+    依顧客 IP 所在國家顯示前台提示列，引導顧客前往對應國家官網。
+
+</div>
+
+
+---
 <!---->
 <!-- ## AI 輔助檢索 -->
 <!---->

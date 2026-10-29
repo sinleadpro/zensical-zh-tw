@@ -16,11 +16,24 @@ modules:
   - 管理中心
 sites:
   - TW
+  - JP
+  - US
+  - MY
+  - SG
+  - AU
+  - SEA
 audiences:
   - merchant
 difficulty: intermediate
-tnb: trunk
-plans: []
+tnb: branch
+plans: 
+  - 專業PLUS
+  - 進階PLUS
+  - 高手PLUS
+  - 企業
+  - Pro
+  - Business
+  - global_advanced
 plan_options: []
 cyb_extensions: []
 intents:
@@ -64,6 +77,15 @@ hide: []
 ---
 
 # 跳轉至其他國家指定官網
+
+[:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品){ title="圖示慣例" } | 品牌官網
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案){ title="圖示慣例" } | 所有PLUS / 企業
+<br>
+[:lucide-layers:{ title="適用產品" }](../../../resources/conventions#適用產品) | 跨境電商（北美站／日本站／東南亞站）
+[:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Pro / Business
+<br>
+[:lucide-layers:{ title="適用產品" }](../../../resources/conventions#適用產品) | 跨境電商（新加坡落地版／馬來西亞落地版／澳洲落地版）
+{ .doc-badge }
 
 
 ![前台頂端跳轉提示列](../../assets/images/EC-前台-官網首頁-頂端提示列-顯示跳轉提示01.png){ title="前台頂端跳轉提示列" .hero-page }
