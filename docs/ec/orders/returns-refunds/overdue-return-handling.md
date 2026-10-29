@@ -244,10 +244,6 @@ hide: []
     [](){ #faq-overdue-returns-cannot-auto-refund }
     代表此筆訂單已超過該金流商允許的自動退刷天數，須走人工退款。請在彈出視窗中填寫顧客提供的銀行帳戶資訊，後續由 CYBERBIZ 代為匯款。
 
-??? quote "可以對同一筆訂單分多次部分退款嗎?"
-    [](){ #faq-overdue-returns-multiple-partial-refunds }
-    可以。於訂單詳情頁的「部分退款」區塊，每次勾選欲退款的品項與金額後確認即可。
-
 ??? quote "我是峰潮串倉商家，點了「退貨中」卻沒看到狀態變更？"
     [](){ #faq-overdue-returns-honeycomb-status-delay }
      若該筆訂單符合峰潮自動退貨條件，點擊「退貨中」時系統會先呼叫峰潮倉庫建立逆物流單，訂單狀態不會立即變更，需待倉庫處理完成後同步。請稍候並重新整理頁面查看，若長時間未更新請洽 CYBERBIZ 客服。
