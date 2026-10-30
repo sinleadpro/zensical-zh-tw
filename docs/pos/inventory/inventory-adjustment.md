@@ -177,8 +177,7 @@ hide: []
 ??? quote "調整後可以撤回嗎？"
     庫存調整一旦送出即生效。若輸入錯誤，請再次執行一筆反向的調整。例如：誤加了 5 個，請再執行一筆「盤虧」並輸入 5 個。
 
-## 更多操作
-
+## 更多操作 { #next-steps-inventory-adjust }
 
 <div class="grid cards" markdown>
 
