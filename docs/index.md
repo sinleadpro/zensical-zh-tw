@@ -170,6 +170,7 @@ permalink: "https://help.cyberbiz.io/"
 
   <div id="announcement" role="tabpanel" class="tab-content" style="display:flex">
     <a href="/ec/products/create-and-manage/create-update-products/?tour=1"><span class="badge">新功能</span>全新幫助中心導覽功能上線 <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-right" viewBox="0 0 24 24" width="1em" height="1em" style="vertical-align:middle;margin-left:2px"><circle cx="12" cy="12" r="10"/><path d="m12 16 4-4-4-4M8 12h8"/></svg></a>
+    <a href="/ec/payments-and-logistics/cyberbiz-now/enable-cyberbiz-now-quick-delivery/#operate-cyberbiz-now-hours"><span class="badge">新功能</span>快速到貨接單時間支援常態與例外日期</a>
     <a href="/ec/website-management/security-settings/#operate-security-sms-bot-protection"><span class="badge">新功能</span>會員註冊簡訊新增機器人防護</a> 
     <!-- <a href="#"><span class="badge">通知</span>CYBERBIZ 金流服務升級通知</a> -->
     <!-- <a href="#"><span class="badge">新功能</span>全通路庫存同步功能正式上線</a> -->
