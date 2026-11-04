@@ -191,21 +191,6 @@ hide: []
     4. **確認退款**：點擊 **「確認退款」** 完成。
 
 
-## 金流退款規則 { #specs-overdue-returns }
-
-### 自動退刷的天數限制 { #specs-overdue-returns-refund-window }
-
-訂單付款後若超過該金流商允許的自動退刷期限，系統將無法直接退刷，須改走人工退款流程。完整對照請見 [退款方式與作業](../order-refund-process/#specs-order-refund){ title="自動退刷時效對照表" data-preview }。
-
----
-
-### 人工退款的後續處理 { #specs-overdue-returns-manual-refund }
-
-人工退款須由商家提供顧客銀行帳戶資訊，並由 CYBERBIZ 代為匯款。實際到帳時間、是否收取帳務處理費，以及單筆費用，皆依當時的契約條款為準，請洽 CYBERBIZ 客服確認最新規定。
-
----
-
-
 ## 後續操作 { #next-steps-overdue-return }
 
 <div class="grid cards" markdown>
