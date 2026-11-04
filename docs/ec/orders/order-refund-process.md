@@ -7,7 +7,8 @@ lang: zh-TW
 type: guide
 author: Ann
 reviewers: []
-notes: []
+notes: 
+  - 確認：綠界信用卡自動退款期限
 ga_views: 0
 feedback: 0
 products:
