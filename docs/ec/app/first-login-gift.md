@@ -2,7 +2,7 @@
 title: 設定 APP 首登禮
 description: 設定會員首次於 CYBERBIZ APP 登入時自動發放的優惠券或紅利點數，提升 APP 下載與會員活躍。
 created: 2026-08-17 11:41
-last_modified: 2026-08-17 11:41
+last_modified: 2026-11-05 15:00
 lang: zh-TW
 type: guide
 status: ""
