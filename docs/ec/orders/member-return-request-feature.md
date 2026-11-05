@@ -49,7 +49,8 @@ ui_components: []
 paths:
   - 金物流 > 結帳頁 & 物流設定
   - 訂單 > 所有訂單
-layouts: []
+layouts: 
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/support/?p=51897
   - https://www.cyberbiz.io/support/?p=47627
