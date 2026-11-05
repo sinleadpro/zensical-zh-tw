@@ -2,7 +2,7 @@
 title: 批次匯入 / 編輯會員
 description: 透過 Excel 檔案，您可以快速完成大量會員的資料建立或內容異動，包含聯絡資訊、紅利點數初始化及行銷標籤管理。
 created: 2026-02-11 00:00
-last_modified: 2026-08-13 17:30
+last_modified: 2026-11-05 14:00
 lang: zh-TW
 type: guide
 author: Ann
