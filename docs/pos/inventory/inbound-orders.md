@@ -84,12 +84,12 @@ hide: []
 
 ![](../../assets/images/POS-後台-全通路庫存管理-進倉單-列表01.png){ .hero-page }
 
-## 使用須知
+## 使用須知 { #prerequisites-inbound-orders }
 
 - **線上線下商品連動**：線上與線下商品的共通識別碼為 **SKU**。在執行跨倉調撥前，請確保該商品已同時存在於來源倉與目的倉的商品列表中。
 （例：EC倉要將商品出倉給POS店，需確認該商品存在於該POS店商品列表中）
 
-## 進倉單類型
+## 進倉單類型 { #specs-inbound-orders }
 
 進倉單不限於手動建立，系統會根據不同通路的庫存需求，自動連動產生對應單據：
 
@@ -174,7 +174,7 @@ hide: []
 
     → [了解調倉完整流程](transfer-complete-process.md)
 
-## 建立進倉單
+## 建立進倉單 { #operate-inbound-orders-create }
 
 === "於後台操作"
 
@@ -202,20 +202,20 @@ hide: []
 
 
 
-## 進倉單管理
+## 進倉單管理 { #operate-inbound-management }
 
-### 狀態說明
+### 狀態說明 { #operate-inbound-management-status }
 
 | 順序 | 狀態 | 說明 | 我方下一步操作 |
 | ---- | --- | ---- | ------------- | 
-| 1 | 待確認 | 單據已建立，正等待收貨方核准 | [確認 / 取消進倉](inbound-orders/#確認--取消進倉) | 
-| 2 | 待入庫 | 收貨方已核准，等待發起端發貨 | [確認 / 取消收貨](inbound-orders/#確認--取消收貨) |
-| 3 | 處理中 | 確認收貨後，單據就會變為此狀態 | [收貨清點](inbound-orders/#收貨清點) |
-| 4 | 部分點收 | 貨品分次抵達，盤點數未達總數<br>待貨品全部抵達，可再次執行盤點 | [收貨清點](inbound-orders/#收貨清點) | 
+| 1 | 待確認 | 單據已建立，正等待收貨方核准 | [確認 / 取消進倉](inbound-orders/#operate-inbound-orders-confirm) |
+| 2 | 待入庫 | 收貨方已核准，等待發起端發貨 | [確認 / 取消收貨](inbound-orders/#operate-inbound-orders-receive-confirm) |
+| 3 | 處理中 | 確認收貨後，單據就會變為此狀態 | [收貨清點](inbound-orders/#operate-inbound-orders-receive) |
+| 4 | 部分點收 | 貨品分次抵達，盤點數未達總數<br>待貨品全部抵達，可再次執行盤點 | [收貨清點](inbound-orders/#operate-inbound-orders-receive) |
 | 5 | 已入庫 | 流程完成，庫存已成功移轉至接收方 | - | 
 | 特殊情境 | 已取消 | 行為終止，不執行庫存異動 | - |
 
-### 確認 / 取消進倉
+### 確認 / 取消進倉 { #operate-inbound-orders-confirm }
 
 
 === "於後台操作"    
@@ -236,7 +236,7 @@ hide: []
 
     ![](../../assets/images/POS-前台-庫存-進倉單-同意拒絕進倉01.png){ .screenshot }
 
-### 確認 / 取消收貨
+### 確認 / 取消收貨 { #operate-inbound-orders-receive-confirm }
 
 === "於後台操作"
 
@@ -263,7 +263,7 @@ hide: []
 
     ![](../../assets/images/POS-前台-庫存-進倉單-確認收貨01.png){ .screenshot }
 
-### 收貨清點
+### 收貨清點 { #operate-inbound-orders-receive }
 
 === "於後台操作"
 
@@ -288,7 +288,7 @@ hide: []
 
     ![](../../assets/images/POS-前台-庫存-進倉單-收貨清點01.png){ .screenshot }
 
-## 進倉單列表
+## 進倉單列表 { #overview-inbound-orders }
 
 
 - **搜尋單號**：可依 **日期** 搜尋或依 **來源店家** 篩選。
@@ -299,7 +299,7 @@ hide: []
 
     ![](../../assets/images/POS-後台-全通路庫存管理-進倉單-單號歷程01.png){ .screenshot }
 
-## 後續操作
+## 後續操作 { #next-steps-inbound-orders }
 
 <div class="grid cards" markdown>
 

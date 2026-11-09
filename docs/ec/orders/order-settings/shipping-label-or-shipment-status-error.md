@@ -153,7 +153,7 @@ hide: []
 
 ### 託運單逾期失效 { #operate-shipping-issue-label-expired }
 
-託運單產生後若未在時效內實際交寄，單號會失效，後續貨態將無法追蹤，狀態可能轉為 [運送異常](../references/fulfillment-statuses.md#fulfillment-statuses-table){ title="配送狀態對照表" data-preview } 或「取消寄件」。
+託運單產生後若未在時效內實際交寄，單號會失效，後續貨態將無法追蹤，狀態可能轉為 [運送異常](../references/fulfillment-statuses.md#reference-fulfillment-statuses){ title="配送狀態對照表" data-preview } 或「取消寄件」。
 
 * **宅配：** 下載託運單後即扣除 CYBER 幣，若超過 **14 天** 未實際出貨，單號會失效，預扣的 CYBER 幣將於單號失效後退回帳戶。
 * **超商大宗寄倉 B2C：** 須於託運單產出後期限內將貨品送達超商物流中心，逾期狀態會轉為「運送異常」，該單號將失效，需重新取號。

@@ -59,7 +59,7 @@ comments: false
 
 ![Google Ads 強化轉換](../../../assets/images/ec-第三方整合-google-googleads強化轉換.png){ .hero-page }
 
-## 強化轉換說明
+## 強化轉換說明 { #overview-google-ads-enhanced }
 
 在 Google Ads 設定 **強化轉換（Enhanced Conversions）** 是一項進階功能，能讓系統在使用者完成轉換（如購買、填表）後收到更詳細的行為資料，進而優化並提升廣告成效。
 
@@ -68,12 +68,12 @@ comments: false
     *   **數據補全**：當使用者與您的廣告互動後在網站上完成轉換，強化轉換能更準確地連結跨裝置的行為，補足因為隱私規範或 Cookie 限制而流失的追蹤數據。
     *   **優化廣告出價**：藉由回傳更精確的轉換訊號，協助 Google Ads 的 AI 機器學習更有效地優化廣告投遞與出價策略。
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-google-ads-enhanced }
 
 1.  **適用版本限制**：此功能為 **CYBERBIZ 企業版商家專用**。
 2.  **前置需求**：在設定強化轉換之前，請務必確保已根據教學文件完成在 [Google Ads 建立轉換追蹤](setup-google-ads-conversion-tracking.md){ title="設定 Google Ads 轉換追蹤" } 的基本設定。
 
-## 操作步驟 <small>Google Ads 端</small>
+## 操作步驟 <small>Google Ads 端</small> { #operate-google-ads-enhanced }
 
 請登入您的 Google Ads 後台，並依循以下路徑操作：
 
@@ -84,7 +84,7 @@ comments: false
 
 ![Google Ads 啟用強化轉換](../../../assets/images/ec-第三方整合-google-googleads啟用強化轉換.png)
 
-## 常見問題
+## 常見問題 { #faq-google-ads-enhanced }
 
 ??? quote "誰可以使用強化轉換功能？"
     強化轉換為 **CYBERBIZ 企業版商家專用** 功能，其他方案無法使用。

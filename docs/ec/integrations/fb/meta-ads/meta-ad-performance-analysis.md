@@ -65,11 +65,11 @@ hide: []
 
 ![MAA-廣告成效分析](../../../../assets/images/ec-maa-廣告成效分析.png){ .hero-page }
 
-## Meta 廣告成效分析說明
+## Meta 廣告成效分析說明 { #overview-meta-performance }
 
 「**Meta 廣告成效分析**」是專為 CYBERBIZ 商家設計的分析工具，旨在協助商家精準掌握 Meta 廣告（如 Facebook、Instagram）的投放成效，評估哪些商品值得加碼推廣，並判斷廣告策略是否具備效益。
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-meta-performance }
 
 在開始分析成效前，請確保您已完成以下準備工作，以確保數據能正確回傳與顯示：
 
@@ -77,7 +77,7 @@ hide: []
 - [x] **確保資產正確連結**：確認已透過 [Facebook 商業擴充套件 (FBE)](../mbe/setup-fbe-authorization.md){ title="設定 FBE 帳號授權與資產連結" } 完成授權，並正確埋設 Meta Pixel 與轉換 API (CAPI)。
 - [x] **確認帳戶餘額**：廣告帳戶需有足夠餘額或有效的支付方式，否則成效數據將顯示為「異常」或停止更新。
 
-## 掌握整體成效 <small>總覽指標</small>
+## 掌握整體成效 <small>總覽指標</small> { #overview-meta-performance-summary }
 
 在「成效總覽」頁面，您可以透過 **流量廣告** 與 **銷售量廣告** 兩大維度，快速評估 Meta 廣告的投放品質。
 
@@ -111,24 +111,24 @@ hide: []
     | **投資報酬率 (ROAS)** | 廣告營收 ÷ 廣告花費 | **意義：** 每投入 1 元廣告費能帶回的營收倍數。<br>**判斷：** <br>- ROAS > 1：營收高於廣告支出。<br>- ROAS < 1：虧損警訊，建議優化素材或受眾。<br> * 每個品牌毛利率不同，請根據您的成本結構設定專屬的「損益平衡 ROAS」。 |
     | **轉換成本 (CPA)** | 廣告總花費 ÷ 購買次數 | **盈虧關鍵：** 獲取單筆訂單的平均廣告成本。<br>**優化：** 建議對比商品平均毛利。若 `CPA > 毛利`，代表該廣告活動處於虧損狀態。 |
 
-## 廣告活動列表欄位說明
+## 廣告活動列表欄位說明 { #reference-meta-performance }
 
 在指標總覽下方的廣告活動列表中，您可以查看個別廣告活動的詳細運作狀況。
 
 ![MAA-廣告列表欄位](../../../../assets/images/ec-maa-廣告列表欄位.png)
 
-### 狀態與基礎資訊
+### 狀態與基礎資訊 { #reference-meta-performance-status }
 
 | 欄位名稱 | 說明 | 技術細節 / 注意事項 |
 | :--- | :--- | :--- |
 | **開 / 關 (Status)** | 控制廣告活動的手動投放意圖。 | **切換後立即生效：** 變更將同步至 Meta 後台。 |
 | **廣告活動名稱** | 顯示活動名稱，點擊可進入編輯頁。 | |
-| **有效狀態** | Meta 回傳的真實投放狀態。 | 綜合考量審核、餘額與開關因素，詳見 [有效狀態解析](#有效狀態解析){ data-preview }。 |
+| **有效狀態** | Meta 回傳的真實投放狀態。 | 綜合考量審核、餘額與開關因素，詳見 [有效狀態解析](#reference-meta-performance-status-unlisted){ data-preview }。 |
 | **排程** | 顯示廣告組合的投放時段。 | **顯示格式：** `YYYY-MM-DD`。<br>若未設結束時間，則顯示「持續投放」。 |
 
 ---
 
-### 成效數據欄位
+### 成效數據欄位 { #reference-meta-performance-fields }
 
 成效數據（曝光、點擊、營收、花費、ROAS）是以商店設定的幣別顯示。
 
@@ -145,7 +145,7 @@ hide: []
 
 ---
 
-### 更新機制與分頁
+### 更新機制與分頁 { #specs-meta-performance-pagination }
 
 !!! warning "數據更新提示"
     非即時數據： 成效數據約 每 24 小時更新一次 並快取於系統。
@@ -157,7 +157,7 @@ hide: []
 
 ![MAA-分頁管理](../../../../assets/images/ec-maa-廣告活動列表-分頁管理.png)
 
-## AI Insights 廣告洞察功能
+## AI Insights 廣告洞察功能 { #intro-meta-performance }
 
 
 商家可啟用「AI Insights」與系統對話，自動生成數據洞察與優化建議：
@@ -181,7 +181,7 @@ hide: []
 
     ![MAA-aiinsights-熱門主題](../../../../assets/images/ec-maa-ai-insights-熱門主題.png)
 
-## 後續操作
+## 後續操作 { #next-steps-meta-performance }
 
 <div class="grid cards" markdown>
 
@@ -195,7 +195,7 @@ hide: []
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-meta-performance }
 
 ??? quote "什麼是良好的 ROAS 值？"
 
@@ -210,11 +210,11 @@ hide: []
 
     常見原因包括：
 
-    - **廣告帳戶餘額不足**：請至 **第三方整合 > 臉書 Facebook 設定 > 廣告帳號設定** 確認餘額或 [進行儲值](create-meta-ad-account-top-up.md#儲值廣告金){ title="建立 Meta 廣告帳號並完成儲值" }。
+    - **廣告帳戶餘額不足**：請至 **第三方整合 > 臉書 Facebook 設定 > 廣告帳號設定** 確認餘額或 [進行儲值](create-meta-ad-account-top-up.md#operate-meta-account-steps-ads){ title="建立 Meta 廣告帳號並完成儲值" }。
     - **像素設定異常**：請確認正確串接 Pixel。
     - **素材審核未通過**：需檢查廣告素材是否符合 Meta 政策。
 
-    請參考 [有效狀態解析](#有效狀態解析){ data-preview } 了解更多狀態說明。
+    請參考 [有效狀態解析](#reference-meta-performance-status-unlisted){ data-preview } 了解更多狀態說明。
 
 ??? quote "為什麼廣告數據與實際訂單有差異？"
 
@@ -222,13 +222,13 @@ hide: []
 
     - **iOS 隱私限制**：受蘋果 iOS 14.5+ 隱私政策影響，Facebook 取得數據可能不完整。參考 [官方說明](https://zh-tw.facebook.com/business/help/1329822420714248?id=428636648170202&helpref=faq_content){ target="_blank" }。
     - **歸因時效差異**：數據採用「點擊後 7 天、瀏覽後 1 天」的歸因邏輯，與商店實際訂單可能存在時間差。
-    - **像素設定問題**：請確認使用正確的[像素 (Pixel) 設定](create-meta-ad-account-top-up.md#像素設定-pixel){ title="建立 Meta 廣告帳號並完成儲值" }，並透過 CYBERBIZ 商業擴充套件串接。**不建議使用 GTM 埋設像素**，將導致事件重複、像素不正確等問題。
+    - **像素設定問題**：請確認使用正確的[像素 (Pixel) 設定](create-meta-ad-account-top-up.md#operate-meta-account-steps-settings-pixel){ title="建立 Meta 廣告帳號並完成儲值" }，並透過 CYBERBIZ 商業擴充套件串接。**不建議使用 GTM 埋設像素**，將導致事件重複、像素不正確等問題。
 
     如需重新串接，請參考 [設定 FBE 帳號](../mbe/setup-fbe-authorization.md)產連結.md){ title="設定 FBE 帳號授權與資產連結" }。
 
-## 參考資料
+## 參考資料 { #reference-meta-performance-references }
 
-### 有效狀態解析 { .unlisted }
+### 有效狀態解析 { .unlisted } { #reference-meta-performance-status-unlisted }
 
 
 | 狀態 | 代表意義 | 顯示顏色 |

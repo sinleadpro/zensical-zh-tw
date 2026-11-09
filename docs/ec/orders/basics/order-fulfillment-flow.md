@@ -87,7 +87,7 @@ icon: lucide/workflow
 
 ---
 
-## 計費規則 { #pricing-fulfillment }
+## 計費規則 { #specs-order-fulfillment-pricing }
 
 系統串接物流(黑貓、超商取貨、宅配通、新竹物流、順豐等)的運費由系統代收，自訂物流則由您與物流商自行結算，不經過系統。
 
@@ -173,7 +173,7 @@ icon: lucide/workflow
 
 <div class="grid cards" markdown>
 
-- :lucide-file-spreadsheet: [**大量匯入自訂物流單號教學**](../home-delivery/custom-logistic-shipping.md#excel-bulk-import){ title="如何使用自訂物流出貨" }
+- :lucide-file-spreadsheet: [**大量匯入自訂物流單號教學**](../home-delivery/custom-logistic-shipping.md#operate-excel-bulk-import){ title="如何使用自訂物流出貨" }
 
 </div>
 

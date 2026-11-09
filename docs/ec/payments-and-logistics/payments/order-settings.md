@@ -160,7 +160,7 @@ icon: lucide/receipt
 3. **選擇結案條件：** 二選一 —— **「當顧客取貨後 ___ 天訂單自動結案」**(適用超商、黑貓等串接物流)或 **「當訂單出貨後 ___ 天訂單自動結案」**(適用自訂物流)，並填入天數。
 4. **(票券訂單)** 若有開通票券功能，可另外開啟 **「開啟票券訂單自動結案」**，設定「當顧客付款後 ___ 天」自動結案。
 
-各結案類型的觸發條件與訂單狀態要求，請見 [訂單自動結案類型對照表](../../orders/references/order-auto-close-types-reference.md#order-auto-close-types){ data-preview }。
+各結案類型的觸發條件與訂單狀態要求，請見 [訂單自動結案類型對照表](../../orders/references/order-auto-close-types-reference.md#reference-order-auto-close-types){ data-preview }。
 
 ![設定訂單自動結案](../../../assets/images/ec-order-settings-auto-close.png){ title="設定訂單自動結案" }
 
@@ -320,7 +320,7 @@ icon: lucide/receipt
 
 ??? quote "自動結案要選「已收貨」還是「已出貨」？"
     [](){ #faq-order-settings-close-type }
-    使用超商、黑貓等串接物流時，建議選「當顧客取貨後 N 天」(依已收貨狀態結案)；使用自訂物流時，因系統無法得知顧客是否收貨，則選「當訂單出貨後 N 天」(依已出貨狀態結案)。詳見 [訂單自動結案類型對照表](../../orders/references/order-auto-close-types-reference.md#order-auto-close-types){ data-preview }。
+    使用超商、黑貓等串接物流時，建議選「當顧客取貨後 N 天」(依已收貨狀態結案)；使用自訂物流時，因系統無法得知顧客是否收貨，則選「當訂單出貨後 N 天」(依已出貨狀態結案)。詳見 [訂單自動結案類型對照表](../../orders/references/order-auto-close-types-reference.md#reference-order-auto-close-types){ data-preview }。
 
 ---
 

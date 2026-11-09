@@ -77,14 +77,14 @@ hide: []
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲
 { .doc-badge }
 
-## 串倉核心須知
+## 串倉核心須知 { #prerequisites-wms-activation }
 
 - **SKU 唯一性**：串倉後，每件商品（包含規格分項）都必須填寫 SKU 碼。
 - **作業主體**：一旦正式開通，後續的所有出貨、退貨作業皆由 CYBERBIZ 電商倉儲負責處理。
 - **廠退處理**：若物流中心有商品退回需求，將統一由物流端退回 CYBERBIZ 倉儲，商家不需另行派車。
 - **資料驗證**：建議在開通後的首週，密切核對訂單拋轉狀態，確保 SKU 同步無誤。
 
-## 步驟 1：申請與簽約
+## 步驟 1：申請與簽約 { #operate-wms-activation-apply }
 
 在系統操作前，請先完成行政流程與倉儲需求評估。
 
@@ -94,13 +94,13 @@ hide: []
     - 若目前使用超商 C2C 模式，請聯繫專屬顧問或客服，申請切換為 **B2C 大宗寄倉**。
     - 物流中心廠退將由 **佶傳貨運** 退回 CYBERBIZ 倉庫。
 
-## 步驟 2：商家系統前置設定
+## 步驟 2：商家系統前置設定 { #operate-wms-activation-setup }
 
 合約簽訂後，商家需在官網後台（EC）完成以下設定，以利系統對接。
 
-### 1. 商品 SKU 同步
+### 1. 商品 SKU 同步 { #operate-wms-activation-sku }
 
-- 入倉商品於電商倉儲後台[建立品項](single-items/#新增單一品項)。
+- 入倉商品於電商倉儲後台[建立品項](single-items/#operate-single-items-add)。
 - 確保官網（EC）與電商倉儲（WMS）後台的商品 SKU **皆已填寫且完全一致**。
 - 每個規格分項（如顏色、尺寸）都必須有 **獨立且唯一** 的 SKU 碼，不可留空。
 
@@ -116,7 +116,7 @@ hide: []
 
     ![](../assets/images/WMS-後台-商品-單一品項-查看品號01.png){ .screenshot }
 
-### 2. 開啟管理庫存
+### 2. 開啟管理庫存 { #operate-wms-activation-inventory }
 
 - 前往 **商品 > 所有商品**，進入各商品編輯頁面。
 - 將 **管理庫存** 選項開啟。
@@ -125,13 +125,13 @@ hide: []
 
 ![](../assets/images/EC-後台-商品-所有商品-串倉商品檢查SKU與庫存開關01.png){ .screenshot }
 
-### 3. 清理待處理訂單
+### 3. 清理待處理訂單 { #operate-wms-activation-orders }
 
 - 串倉正式開通前，EC 後台原有的現有訂單必須 **全數完成出貨**。
 - 訂單 **配送狀態** 需更新為 **已出貨** 或 **已收貨**。
 
 
-## 步驟 3：開通與物流設定
+## 步驟 3：開通與物流設定 { #operate-wms-activation-open }
 
 完成前置設定後，請回信通知 CYBERBIZ 客服。系統將由專人執行開通作業，**完成後將發信通知商家**。
 
@@ -142,7 +142,7 @@ hide: []
 
 商家收到開通完成通知信後，請繼續完成以下設定：
 
-### 填寫基本資訊
+### 填寫基本資訊 { #operate-wms-activation-basic }
 
 1. 前往 **金物流 > CYBERBIZ 電商倉儲設定**。
 2. 於 **退貨設定** 區域，填寫空白欄位。
@@ -152,10 +152,10 @@ hide: []
 ![](../assets/images/EC-後台-金物流-CYBERBIZ電商倉儲設定-填寫串倉基本資訊01.png){ .screenshot }
 
 
-### 設定物流運費
+### 設定物流運費 { #operate-wms-activation-freight }
 
 
-#### 超商設定
+#### 超商設定 { #operate-wms-activation-cvs }
 
 1. 前往 **金物流 > 超商物流**。
 2. 依您開啟的物流選項，設定 **運費** 與 **免運門檻**。
@@ -163,7 +163,7 @@ hide: []
 
 ![](../assets/images/EC-後台-金物流-超商物流-串倉商家建立超商物流01.png){ .screenshot }
 
-#### 宅配設定
+#### 宅配設定 { #operate-wms-activation-home }
 
 1. 前往 **金物流 > 宅配物流**。
 2. 前往 **自訂物流** 頁籤，建立自訂物流。
@@ -181,7 +181,7 @@ hide: []
 
 
 
-## 更多操作
+## 更多操作 { #next-steps-wms-activation }
 
 <div class="grid cards" markdown>
 

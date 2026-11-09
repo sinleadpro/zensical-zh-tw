@@ -61,19 +61,19 @@ hide: []
 
 ![GSC 移除網址](../../../assets/images/ec-第三方整合-google-gsc移除網址.png){ .hero-page }
 
-## Google 搜尋結果排除說明
+## Google 搜尋結果排除說明 { #overview-remove-search-urls }
 
 當您的品牌網站在 Google 搜尋結果中顯示出不希望曝光的子目錄頁面（例如活動舊頁、暫時不欲公開的內容，或是對 SEO 效益無幫助的結構頁面）時，可以透過 Google 官方提供的工具進行處理。瞭解更多，請參考 [Google 官方說明 :lucide-external-link:](https://support.google.com/webmasters/answer/9689846)。
 
-## 認識 Google 搜尋結果中的「子目錄」
+## 認識 Google 搜尋結果中的「子目錄」 { #intro-remove-search-urls }
 
 Google 搜尋結果中的子目錄是指搜尋結果下方所顯示的網站延伸頁面。這些頁面通常由 Google 自動判定並擷取，可能包含常見路徑如 `/products`、`/faq`、`/campaign`、`/showcase` 等。
 
 ![](../../../assets/images/ec-第三方整合-google-google搜尋子目錄.png)
 
-## 操作步驟 
+## 操作步驟 { #operate-remove-search-urls }
 
-### 使用 Google 移除網址工具
+### 使用 Google 移除網址工具 { #operate-remove-search-urls-use-google }
 
 網站擁有者可以利用 **Google Search Console (GSC)** 提供的「移除網址工具」，臨時性地排除特定頁面或子目錄出現在搜尋結果中。
 
@@ -88,7 +88,7 @@ Google 搜尋結果中的子目錄是指搜尋結果下方所顯示的網站延�
 
 ![](../../../assets/images/ec-第三方整合-google-gsc移除網址.gif)
 
-## 重要注意事項與限制
+## 重要注意事項與限制 { #prerequisites-remove-search-urls }
 
 *   **暫時隱藏**：此功能僅能將網址於搜尋結果中 **暫時隱藏，時效約為 6 個月**。
 *   **生效時間**：提交要求後，通常會在 **數小時至數日內** 生效，實際進度依 Google 處理為準。
@@ -96,7 +96,7 @@ Google 搜尋結果中的子目錄是指搜尋結果下方所顯示的網站延�
 *   **秘密群組應用**：若您建立了「秘密商店群組頁」且不希望被 Google 索引，建議務必至 GSC 設定排除頁面，以阻擋其出現在搜尋結果中。
 *   **客服支援**：此操作屬於 Google 官方工具的功能，相關處理進度以 Google 為準，CYBERBIZ 無提供此項操作的客服支援服務。
 
-## 後續操作
+## 後續操作 { #next-steps-remove-search-urls }
 
 <div class="grid cards" markdown>
 
@@ -106,7 +106,7 @@ Google 搜尋結果中的子目錄是指搜尋結果下方所顯示的網站延�
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-remove-search-urls }
 
 ??? quote "使用 Google 移除網址工具可以永久刪除網頁嗎？"
 

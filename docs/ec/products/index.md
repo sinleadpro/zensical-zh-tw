@@ -17,7 +17,7 @@ hide:
   - feedback
 ---
 
-## 建立與管理商品
+## 建立與管理商品 { #overview-products-hub-create }
 
 <div class="grid cards" markdown>
 
@@ -49,15 +49,15 @@ hide:
 
     ---
 
-    設定商品在庫存不足時繼續銷售以開放預購，可搭配結帳自動拆單讓 [預購與現貨分開結帳](checkout/checkout-split-multi-cart.md#設定預購商品通路){ title="將預購與現貨自動分開結帳" }。
+    設定商品在庫存不足時繼續銷售以開放預購，可搭配結帳自動拆單讓 [預購與現貨分開結帳](checkout/checkout-split-multi-cart.md#operate-split-cart-preorder){ title="將預購與現貨自動分開結帳" }。
 
-    [:octicons-arrow-right-24: 前往](create-and-manage/create-update-products.md#setup-preorder-products){ title="預購商品設定" }
+    [:octicons-arrow-right-24: 前往](create-and-manage/create-update-products.md#operate-product-preorder){ title="預購商品設定" }
 
 </div>
 
 ---
 
-## 商品內容與視覺設定
+## 商品內容與視覺設定 { #overview-products-hub-content }
 
 <div class="grid cards" markdown>
 
@@ -105,7 +105,7 @@ hide:
 
 ---
 
-## 分類與標籤
+## 分類與標籤 { #overview-products-hub-tags }
 
 <div class="grid cards" markdown>
 
@@ -153,7 +153,7 @@ hide:
 
 ---
 
-## 搜尋與曝光
+## 搜尋與曝光 { #overview-products-hub-search }
 
 <div class="grid cards" markdown>
 
@@ -193,7 +193,7 @@ hide:
 
 ---
 
-## 批次管理與商品複製
+## 批次管理與商品複製 { #overview-products-hub-bulk }
 
 <div class="grid cards" markdown>
 
@@ -241,7 +241,7 @@ hide:
 
 ---
 
-## 銷售設定與顧客互動
+## 銷售設定與顧客互動 { #overview-products-hub-engage }
 
 <div class="grid cards" markdown>
 
@@ -281,7 +281,7 @@ hide:
 
 ---
 
-## 物流配送
+## 物流配送 { #overview-products-hub-shipping }
 
 <div class="grid cards" markdown>
 

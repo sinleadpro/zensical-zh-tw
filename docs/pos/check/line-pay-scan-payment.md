@@ -82,7 +82,7 @@ hide: []
     - **跨店管理**：直營連鎖門市可透過單一統編帳號，搭配 Device ID 區分各分店業績。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-line-pay }
 
 - **申請週期**：資料完整送出後，審核與開通作業約需 **3 至 4 週**。
 - **硬體需求**：門市需配備可掃描手機螢幕的 **掃碼槍**。
@@ -90,13 +90,13 @@ hide: []
 - **支付限制**：目前 **僅支援商家掃描顧客條碼**，**不支援顧客掃描商店 QR code** 後自行輸入金額。
 
 
-## 申請流程
+## 申請流程 { #operate-line-pay }
 
-### 1. 線上填寫申請表
+### 1. 線上填寫申請表 { #operate-line-pay-1 }
 
 請先準備基本營運資訊，並前往 [CYBERBIZ x LINE Pay 串接表單](https://docs.google.com/forms/d/13H2sqFvR_99iDtHOPEOmPzTjoYv6fX-eTEYSTJTXPeU/edit) 進行填寫。
 
-### 2. 準備必要證明文件
+### 2. 準備必要證明文件 { #operate-line-pay-2 }
 
 請於表單中提供以下文件的清晰電子檔（掃描檔）：
 
@@ -115,7 +115,7 @@ hide: []
 - **負責人證件**：身分證正反面影本（外籍人士請提供護照）。
 - **公司銀行存摺**：提供撥款用之銀行帳戶，戶名必須與公司登記名稱一致，不可使用個人帳戶。
 
-### 3. 審核與開通
+### 3. 審核與開通 { #operate-line-pay-3 }
 
 1. **進度追蹤**：送件後約 10 個工作天會收到初步審核通知。
 2. **獲取金鑰**：審核通過後，CYBERBIZ 將提供專屬的 **LINEPAY 帳戶帳密**、**Channel ID** 與 **Channel Secret**。請依下方引導，填寫金鑰並啟用功能。
@@ -123,9 +123,9 @@ hide: []
 
     > 收件資訊請包含收件人姓名、電話、地址。
 
-## 操作流程
+## 操作流程 { #operate-flow }
 
-### 步驟一：後台綁定金鑰
+### 步驟一：後台綁定金鑰 { #operate-flow-step-a-admin }
 
 1. 登入 CYBERBIZ 管理後台，前往 **POS 功能 > 所有 POS 商店**。
 2. 點選欲設定的商店，進入 **POS 結帳設定**。
@@ -135,7 +135,7 @@ hide: []
 
 ![](../../assets/images/POS-後台-POS功能-所有POS商店-串接LinePAY金鑰01.png){ .screenshot }
 
-### 步驟二：啟用付款方式
+### 步驟二：啟用付款方式 { #operate-flow-step-b-enable }
 
 1. 點擊 **付款方式** 頁籤。
 2. 將 **LINE Pay** 開關切換為 `開啟 (ON)`。
@@ -143,7 +143,7 @@ hide: []
 ![](../../assets/images/POS-後台-POS功能-所有POS商店-付款設定-開啟LinePAY支付方式01.png){ .screenshot }
 
 
-### 步驟三：POS 前台結帳操作
+### 步驟三：POS 前台結帳操作 { #operate-flow-step-c-pos }
 
 1. 在結帳畫面，點選 **其他付款方式**，選擇 **LINE Pay**。
     ![](../../assets/images/POS-前台-結帳-LinePay結帳01.png){ .screenshot }
@@ -156,7 +156,7 @@ hide: []
 
 
 
-## 常見問題
+## 常見問題 { #faq-line-pay }
 
 ??? quote "我已經有 LINE Pay 帳號了，可以直接用在 CYBERBIZ POS 嗎？"
     請先與 [LINE Pay 商店客服](https://pay.line.me/merchant-apply/tw/contact-request?locale=zh_TW) 確認原帳號是否支援 **線下 POS 串接**。若支援，需向 LINE Pay 申請將代理商轉移至 CYBERBIZ，以取得對應的串接金鑰。

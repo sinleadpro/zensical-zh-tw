@@ -65,13 +65,13 @@ hide: []
 
 ![GA4代碼設定](../../../../assets/images/ec-第三方整合-google-ga4-google代碼.png){ title="GA4代碼設定" .hero-page }
 
-## 排除內部與第三方流量說明
+## 排除內部與第三方流量說明 { #overview-ga-exclude }
 
 為了在 Google Analytics 4 (GA4) 中獲得準確的數據，排除公司內部人員產生的流量以及結帳流程中跳轉至第三方金物流網站的紀錄是非常重要的步驟，這能避免轉換來源被誤判，並提升流量評估的精確度。
 
-## 操作步驟
+## 操作步驟 { #operate-ga-exclude }
 
-### 進入 GA4 代碼設定頁面
+### 進入 GA4 代碼設定頁面 { #operate-ga-exclude-ga4-settings-page }
 
 在執行排除設定前，需先進入特定的代碼設定區域：
 
@@ -84,11 +84,11 @@ hide: []
 
 ---
 
-### 排除內部流量 <small>Internal Traffic</small>
+### 排除內部流量 <small>Internal Traffic</small> { #operate-ga-exclude-internal-traffic }
 
 內部流量是指開發、客服 or 行銷人員在操作官網時產生的瀏覽行為。排除這類流量可避免干擾訪客分析。
 
-#### 1. 定義內部流程 <small>IP 設定</small>
+#### 1. 定義內部流程 <small>IP 設定</small> { #operate-ga-exclude-flow-ip-settings }
 
 1.  在代碼設定頁面點選 **「定義內部流程」**，並點擊「建立」。
 2.  設定「規則名稱」（如：公司辦公室）及輸入代表內部網路的 **「IP 位址」**（可同時新增多個）。
@@ -97,7 +97,7 @@ hide: []
 
 ---
 
-#### 2. 啟用資料篩選器
+#### 2. 啟用資料篩選器 { #operate-ga-exclude-enable-data }
 
 定義好 IP 後，必須啟用篩選器才會正式生效：
 
@@ -110,7 +110,7 @@ hide: []
 
 ---
 
-### 列出不適用的參照連結網址 <small>排除第三方網站</small>
+### 列出不適用的參照連結網址 <small>排除第三方網站</small> { #operate-ga-exclude-overview-ga-exclude }
 
 當顧客跳轉至第三方金物流頁面（如綠界、LINE Pay、超商地圖）進行付款或選店時， GA4 常會將其誤判為新的推薦來源，導致工作階段中斷。
 
@@ -132,12 +132,12 @@ hide: []
 | **物流** | 黑貓宅到店 | `appservice.ezcat.com.tw` |
 
 
-## 重要提醒
+## 重要提醒 { #intro-ga-exclude }
 
 *   **資料延遲**：完成設定後，GA4 可能需要 **24~48 小時** 處理資料，相關數據變化並非即時呈現。
 *   **資料保留**：建議同步確認 GA4 的「資料保留」期限，建議手動由預設的 2 個月延長至 **14 個月**，以便進行長期趨勢分析。
 
-## 常見問題
+## 常見問題 { #faq-ga-exclude }
 
 ??? quote "為什麼需要排除第三方金物流的參照連結？"
 

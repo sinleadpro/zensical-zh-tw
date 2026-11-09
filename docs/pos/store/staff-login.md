@@ -79,14 +79,14 @@ hide: []
 
 ---
 
-## 使用須知
+## 使用須知 { #prerequisites-staff-login }
 
 - **帳號權限限制**：僅具備 **POS 店長** 或 **POS 店員** 權限的帳號可登入 POS 前台。若使用 **網站擁有者** 或 **協同管理者** 權限登入，系統將自動跳轉至管理後台。
 
 
-## 操作流程
+## 操作流程 { #operate-staff-login }
 
-### 登入 POS 前台
+### 登入 POS 前台 { #operate-staff-login-login-pos-frontend }
 
 進入門市結帳與營運管理的主要介面。
 
@@ -99,7 +99,7 @@ hide: []
 
 ![](../../assets/images/POS-前台-登入-帳號登入01.png){ .screenshot }
 
-### 員工切換
+### 員工切換 { #operate-staff-login-switch }
 
 在不登出系統的情況下，更換當前操作的門市人員。
 
@@ -109,7 +109,7 @@ hide: []
 
 ![](../../assets/images/POS-登入-員工切換01.png){ .screenshot }
 
-### 查看公告與系統設定
+### 查看公告與系統設定 { #operate-staff-login-announcement-settings }
 
 掌握系統最新訊息並確認設備連線狀態。
 
@@ -132,7 +132,7 @@ hide: []
     ![](../../assets/images/POS-登入-登出01.png){ .screenshot }
 
 
-## 更多操作
+## 更多操作 { #next-steps-staff-login }
 
 <div class="grid cards" markdown>
 

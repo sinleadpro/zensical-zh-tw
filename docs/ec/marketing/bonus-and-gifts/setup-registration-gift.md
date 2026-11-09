@@ -76,16 +76,16 @@ hide: []
 
 ---
 
-## 使用須知
+## 使用須知 { #prerequisites-registration-gift }
 
 - **發送頻次**：每個帳號僅會獲得一次註冊禮。
 - **匯入會員限制**：透過 Excel 批次匯入的顧客，系統 **不會自動贈送註冊禮**，需手動補發。
 - **自動發送**：顧客完成註冊的當下，系統將自動將獎勵匯入至顧客帳戶。
 
 
-## 操作流程
+## 操作流程 { #operate-registration-gift }
 
-### 1. 設定註冊禮優惠券
+### 1. 設定註冊禮優惠券 { #operate-registration-gift-settings-coupon }
 
 !!! info "版本適用說明"
     **註冊禮優惠券** 為 高手版、PLUS 版、企業版用戶限定欄位。
@@ -101,7 +101,7 @@ hide: []
 ![](https://www.cyberbiz.io/support/wp-content/uploads/全館折扣-會員註冊贈送優惠券-紅利積點01.png){ .screenshot }
 
 
-### 2. 設定註冊禮紅利點數
+### 2. 設定註冊禮紅利點數 { #operate-registration-gift-settings-bonus }
 
 
 1. 前往 **行銷活動 > 全館折扣-紅利 & 優惠券 > 會員紅利點數**。
@@ -119,7 +119,7 @@ hide: []
 
 
 
-## 常見問題
+## 常見問題 { #faq-registration-gift }
 
 ??? quote "註冊禮發送後可以收回嗎？"
     優惠券一旦匯入會員帳戶，如需刪除，必須前往 **會員 > 所有會員** 進入個人頁面逐筆操作。紅利點數亦同。

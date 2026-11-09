@@ -68,11 +68,11 @@ comments: false
 
 ![GA4 進階資料分析](../../../../assets/images/ec-第三方整合-google-ga-資料收集與修改.png){ .hero-page title="GA4 進階資料分析" }
 
-## Google Analytics 進階資料分析說明
+## Google Analytics 進階資料分析說明 { #overview-ga-advanced }
 
 在完成 Google Analytics 4 (GA4) 與網站的基礎串接後，GA4 會開始記錄基本的流量資訊。若您希望深入分析網站流量與更精確的使用者輪廓，建議依照以下說明進行進階設定與調整。
 
-## 加強型評估 <small>Enhanced Measurement</small>
+## 加強型評估 <small>Enhanced Measurement</small> { #intro-ga-advanced }
 
 這是 GA4 內建的自動追蹤功能，開啟後無需額外埋設程式碼，系統即可記錄使用者在網站上的多種互動行為。
 
@@ -85,7 +85,7 @@ comments: false
 
     ![設定加強型評估](../../../../assets/images/ec-第三方整合-ga4-設定加強型評估.png){ title="設定加強型評估" }
 
-## Google 信號 <small>Google Signals</small>
+## Google 信號 <small>Google Signals</small> { #intro-ga-advanced-google-google-signals }
 
 當使用者登入 Google 帳戶並開啟「廣告個人化」時，此功能可協助系統取得跨裝置、跨平台的使用行為資料，補足跨裝置的使用者視角。
 
@@ -94,7 +94,7 @@ comments: false
 
 ![啟用 Google 信號](../../../../assets/images/ec-第三方整合-google-ga4-google信號啟用.png){ title="啟用 Google 信號" }
 
-## 資料保留 <small>Data Retention</small>
+## 資料保留 <small>Data Retention</small> { #intro-ga-advanced-data-data-retention }
 
 GA4 預設的資料保留期限僅有 2 個月，對於需要觀察長期趨勢或建立再行銷名單的商家來說較為不足。
 
@@ -103,7 +103,7 @@ GA4 預設的資料保留期限僅有 2 個月，對於需要觀察長期趨勢�
 
 ![資料保留期限設定](../../../../assets/images/ec-第三方整合-google-ga4-資料保留.png){ title="資料保留期限設定" }
 
-## 報表識別資訊 <small>Reporting Identity</small>
+## 報表識別資訊 <small>Reporting Identity</small> { #reference-ga-advanced }
 
 此技術可協助商家排除重複計算的使用者，例如同一位顧客先用手機瀏覽再用電腦下單，GA4 可將其辨識為同一使用者。
 
@@ -114,7 +114,7 @@ GA4 預設的資料保留期限僅有 2 個月，對於需要觀察長期趨勢�
 
 ![報表識別資訊設定](../../../../assets/images/ec-第三方整合-google-ga4-報表識別資訊.png){ title="報表識別資訊設定" }
 
-## 後續操作
+## 後續操作 { #next-steps-ga-advanced }
 
 <div class="grid cards" markdown>
 
@@ -128,7 +128,7 @@ GA4 預設的資料保留期限僅有 2 個月，對於需要觀察長期趨勢�
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-ga-advanced }
 
 ??? quote "加強型評估 (Enhanced Measurement) 會追蹤哪些使用者行為？"
 

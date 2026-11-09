@@ -58,17 +58,17 @@ hide: []
 
 ![簡訊發送紀錄頁](../../assets/images/ec-訊息推播-簡訊發送紀錄.png){ .hero-page }
 
-## 簡訊發送紀錄說明
+## 簡訊發送紀錄說明 { #intro-sms-records }
 
 簡訊（SMS）發送紀錄頁面可查詢店鋪的簡訊發送歷史，包含發送時間、收件手機、訊息內容與費用。
 
-## 進入查詢介面
+## 進入查詢介面 { #operate-sms-records }
 
 登入 CYBERBIZ 管理後台，前往「訊息推播」 > 「簡訊發送紀錄」。
 
-## 篩選與搜尋
+## 篩選與搜尋 { #operate-sms-records-filter }
 
-### 日期範圍
+### 日期範圍 { #operate-sms-records-date-range }
 
 - 預設顯示近 90 天的紀錄
 - 點擊日期欄位可自訂查詢區間                                     
@@ -77,7 +77,7 @@ hide: []
 
 ---
 
-### 關鍵字搜尋                                                       
+### 關鍵字搜尋 { #operate-sms-records-keyword }
 
 搜尋框支援兩種查詢方式：                                         
 
@@ -92,7 +92,7 @@ hide: []
     - 手機號碼必須輸入完整，輸入部分號碼將查無結果
     - 訊息內容僅比對開頭文字，例如輸入「訂單」可找到「訂單已出貨」，但找不到「您的訂單」                                         
                                                                    
-## 欄位說明        
+## 欄位說明 { #specs-sms-records }
 
 
 | 欄位 | 說明 |
@@ -109,7 +109,7 @@ hide: []
 !!! warning "注意事項"
     單次查詢最多顯示 10,000 筆紀錄；若需查詢大量資料，建議縮小日期範圍分段查詢    
 
-## 後續操作
+## 後續操作 { #next-steps-sms-records }
 
 <div class="grid cards" markdown>
 
@@ -123,7 +123,7 @@ hide: []
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-sms-records }
 
 ??? quote "為什麼我輸入會員手機號碼後搜不到紀錄？"
 
@@ -131,9 +131,9 @@ hide: []
 
 ??? quote "簡訊發送失敗怎麼辦？"
 
-    簡訊發送若因「號碼錯誤」或「電信商端問題」導致失敗，簡訊將無法成功送達。詳細發送規範請參閱[簡訊發送規範](send-sms-notifications-v2.md#簡訊發送規範){ title="設定與發送簡訊通知" }。
+    簡訊發送若因「號碼錯誤」或「電信商端問題」導致失敗，簡訊將無法成功送達。詳細發送規範請參閱[簡訊發送規範](send-sms-notifications-v2.md#prerequisites-sms-send){ title="設定與發送簡訊通知" }。
 
 ??? quote "可以查詢多久以前的發送紀錄？"
 
-    預設顯示近 **90 天** 的紀錄。若需查詢更早期的資料，可於 [日期範圍](#日期範圍){ data-preview } 自訂查詢區間。
+    預設顯示近 **90 天** 的紀錄。若需查詢更早期的資料，可於 [日期範圍](#operate-sms-records-date-range){ data-preview } 自訂查詢區間。
 

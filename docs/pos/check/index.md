@@ -102,7 +102,7 @@ hide: []
     - **日常銷售**：快速錄入商品並完成收款，即時同步庫存。
     - **會員回饋**：登入會員以套用特定等級優惠、折抵紅利或使用優惠券。
 
-## 完整結帳流程
+## 完整結帳流程 { #operate-check }
 
 ```mermaid
 graph LR
@@ -132,13 +132,13 @@ graph LR
   end
 ```
 
-## 步驟一：會員登入
+## 步驟一：會員登入 { #operate-member-login }
 
 在開始結帳前，識別顧客身分能確保正確套用會員權益與記錄消費。
 
 === "介面說明"
 
-    ### 於登入頁選擇顧客身分
+    ### 於登入頁選擇顧客身分 { #operate-check-member-select }
 
     1. **啟動結帳**：點選 POS 前台右側的 **結帳** 按鈕。
     2. **選擇顧客結帳身分**：
@@ -152,7 +152,7 @@ graph LR
 
     ![](../../assets/images/POS-前台-結帳-選擇結帳身分01.png){ .screenshot }
 
-    ### 於結帳頁補登
+    ### 於結帳頁補登 { #operate-check-member-backfill }
 
     === "會員登入"
 
@@ -190,11 +190,11 @@ graph LR
 
     </div>
 
-## 步驟二：購物車小計
+## 步驟二：購物車小計 { #operate-cart-subtotal }
 
 將顧客購買的品項錄入系統，並確認是否符合行銷活動條件。
 
-### 錄入商品
+### 錄入商品 { #operate-cart-subtotal-add-products }
 
 === "介面說明"
 
@@ -231,7 +231,7 @@ graph LR
 
     </div>
 
-### 套用行銷活動
+### 套用行銷活動 { #operate-cart-subtotal-apply-promotions }
 
 === "介面說明"
 
@@ -314,18 +314,18 @@ graph LR
     - :lucide-plug:{ .lg }
     [__建立紅利商城__](bonus-point-mall/)<br>
     提供多樣兌換選擇，讓紅利點數具兌換價值。
-        - [紅利商城商品結帳](bonus-point-mall/#於前台結帳)
+        - [紅利商城商品結帳](bonus-point-mall/#operate-bonus-mall-checkout)
 
     </div>
 
 
-## 步驟三：完成結帳
+## 步驟三：完成結帳 { #operate-checkout-complete }
 
 最後的付款與憑證處理階段，完成後訂單即正式成立。
 
 === "介面說明"
 
-    ### 收款作業
+    ### 收款作業 { #operate-check-payment }
 
     1. **進行結帳**：點擊右下角 **進行結帳** 進入收款頁面。
     2. **選擇付款方式**：
@@ -337,7 +337,7 @@ graph LR
 
     3. **認單日期**：預設為今日，若需將業績認列至其他日期，可手動修改。
 
-        - 本日期欄位為系統產出 [POS商品銷售報表](../inventory/pos-reports-list-guide/#商品銷售報表) 時的檢索依據。系統將依照此處設定的時間點，將訂單劃分至對應的報表呈現區間。
+        - 本日期欄位為系統產出 [POS商品銷售報表](../inventory/pos-reports-list-guide/#reference-pos-reports-product-sales) 時的檢索依據。系統將依照此處設定的時間點，將訂單劃分至對應的報表呈現區間。
 
         ![](../../assets/images/POS-前台-結帳-收款作業02.png){ .screenshot }
 
@@ -355,7 +355,7 @@ graph LR
 
     </div>
 
-### 開立發票
+### 開立發票 { #operate-checkout-complete-invoice-issue }
 
 === "介面說明"
 
@@ -368,7 +368,7 @@ graph LR
 
             ![](../../assets/images/POS-前台-結帳-手開發票號碼01.png){ .screenshot }
 
-            > 您也可於 **訂單** 頁 [補開發票](../orders/manage-general-orders/#補開發票--列印明細)。
+            > 您也可於 **訂單** 頁 [補開發票](../orders/manage-general-orders/#operate-general-orders-invoice)。
 
         - **其他載具**：手機條碼、自然人憑證或捐贈代碼。
 

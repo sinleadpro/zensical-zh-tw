@@ -58,7 +58,7 @@ icon: lucide/shield-ellipsis
 hide: []
 ---
 
-## Authy 說明
+## Authy 說明 { #intro-authy }
 
 雖然市場上有許多驗證器（如 Google Authenticator），但 Authy 具備以下優勢：
 
@@ -68,9 +68,9 @@ hide: []
 
 ---
 
-## 操作步驟教學
+## 操作步驟教學 { #operate-authy }
 
-### 步驟一：下載與註冊
+### 步驟一：下載與註冊 { #operate-authy-install }
 
 1.  至[官網 :lucide-external-link:](https://authy.com/download/) 或應用程式商店下載 **Authy App**。
 2.  **手機號碼註冊**：開啟 App 後，選擇國碼（台灣為 +886）並輸入您的手機號碼。
@@ -80,7 +80,7 @@ hide: []
 
 ---
 
-### 步驟二：新增 CYBERBIZ 驗證帳戶
+### 步驟二：新增 CYBERBIZ 驗證帳戶 { #operate-authy-add-account }
 
 1.  進入 Authy App，點選「**+ Add Account**」。
 2.  **掃描連結**：使用手機鏡頭掃描 CYBERBIZ 後台「[安全性設定](setup-manage-two-factor-auth.md){ title="設定與管理二階段驗證" }」頁面顯示的 **QR Code**。
@@ -91,7 +91,7 @@ hide: []
 
 ---
 
-### 步驟三：取得動態驗證碼
+### 步驟三：取得動態驗證碼 { #operate-authy-code }
 
 1.  點擊 App 內的帳戶圖示，畫面會顯示一組 **6 位數驗證碼**。
 2.  **時效限制**：驗證碼每 **30 秒** 會自動更新一次，請在倒數結束前將號碼輸入至登入頁面。
@@ -100,7 +100,7 @@ hide: []
 
 ---
 
-### 步驟四：開啟備份功能 <small>強烈建議</small>
+### 步驟四：開啟備份功能 <small>強烈建議</small> { #operate-authy-backup }
 
 1.  進入帳戶設定，找到「**Authenticator Backups**」並開啟。
 2.  **設定備份密碼**：這組密碼將用於加密您的備份資料。
@@ -110,11 +110,11 @@ hide: []
 
 ---
 
-## 注意事項
+## 注意事項 { #prerequisites-authy }
 *   **備用碼保存**：在 CYBERBIZ 後台啟用 2FA 後，系統會提供 **10 組備用碼**，請務必下載並抄寫，以備手機遺失時緊急登入使用。
 *   **時區同步**：若驗證碼輸入正確卻無法登入，請檢查手機的「日期與時間」是否設定為「自動同步」，時間偏差會導致代碼失效。
 
-## 常見問題
+## 常見問題 { #faq-authy }
 
 ??? quote "Authy 支援哪些裝置？"
 

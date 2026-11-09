@@ -94,7 +94,7 @@ hide: []
 
 ![](../../assets/images/EC-後台-管理中心-網域管理-新增網域01.png){ .hero-page }
 
-## 使用須知
+## 使用須知 { #prerequisites-domain-mgmt }
 
 依您選擇的網域廠商，設定流程通常包含以下兩個關鍵配置：
 
@@ -104,7 +104,7 @@ hide: []
 
 
 
-## 各大廠商 DNS 設定指引
+## 各大廠商 DNS 設定指引 { #operate-domain-mgmt-dns }
 
 請根據您的網域註冊商，參考下方的特定設定說明：
 
@@ -313,7 +313,7 @@ hide: []
         ![](../../assets/images/遠傳-後台-我的域名管理-新增CNAME07.png)
 
 
-## CYBERBIZ 後台新增網域
+## CYBERBIZ 後台新增網域 { #operate-domain-mgmt-add }
 
 完成廠商端的 DNS 設定後，請回到 CYBERBIZ 進行最後綁定：
 

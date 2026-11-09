@@ -72,7 +72,7 @@ hide: []
     - **廣告素材對應**：每個廣告素材對應一個款式連結，方便追蹤與轉換。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-sku-link }
 
 - **適用範圍**：本連結會開啟 **商品頁**（`/products/...`）並預選款式，消費者仍需自行加入購物車。若希望點擊連結後 **直接將指定商品帶入購物車**，請改用[建立含指定商品的購物車連結](create-cart-link-specific-products.md)。
 - **必要條件**：目標款式必須已填寫 **商品編號(SKU)**；SKU 空白時無法對應。
@@ -80,9 +80,9 @@ hide: []
 - **發布前請自測**：對外發送前，請先用無痕視窗點擊連結，確認前台已自動選取正確款式。
 
 
-## 操作流程
+## 操作流程 { #operate-sku-link }
 
-### 步驟 1：確認款式已設定 SKU
+### 步驟 1：確認款式已設定 SKU { #operate-sku-link-variant-settings }
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 所有商品**。
 2. 開啟目標商品，捲動至 **款式管理**。
@@ -93,7 +93,7 @@ hide: []
     !!! tip "尚未設定 SKU？"
         請先於款式欄位填寫 SKU 並儲存。設定方式可參考[新增商品：款式、價格與庫存](../../products/create-and-manage/create-update-products.md#operate-product-create-variants)。
 
-### 步驟 2：取得商品頁網址
+### 步驟 2：取得商品頁網址 { #operate-sku-link-product }
 
 任選一種方式：
 
@@ -113,7 +113,7 @@ hide: []
 
     ![](../../../assets/images/EC-後台-商品-所有商品-商品網址連結01.png){ .screenshot }
 
-### 步驟 3：在網址後方加上 SKU 參數
+### 步驟 3：在網址後方加上 SKU 參數 { #operate-sku-link-sku }
 
 在商品頁網址後接上參數，格式如下：
 
@@ -136,7 +136,7 @@ hide: []
 
     消費者點擊後，商品頁會自動選取紅色款式。
 
-### 步驟 4：測試後對外發送
+### 步驟 4：測試後對外發送 { #operate-sku-link-send }
 
 1. 使用無痕視窗或另一裝置開啟連結。
 2. 確認商品頁已預選正確款式（顏色、尺寸等）。
@@ -144,9 +144,9 @@ hide: []
 
 
 
-## 進階用法
+## 進階用法 { #intro-sku-link }
 
-### 同一商品、不同款式各一條連結
+### 同一商品、不同款式各一條連結 { #operate-sku-link-variant }
 
 為每個要推廣的款式各建立一條連結，僅更換 `sku=` 後的值：
 
@@ -160,7 +160,7 @@ https://www.example.com/products/tshirt?sku=TSHIRT-BLUE-M
 
 
 
-## 延伸閱讀
+## 延伸閱讀 { #overview-sku-link-usage }
 
 <div class="grid cards" markdown>
 

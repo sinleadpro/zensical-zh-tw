@@ -13,7 +13,7 @@ hide:
   - feedback
 ---
 
-## 優惠券與折扣活動
+## 優惠券與折扣活動 { #intro-marketing }
 
 <div class="grid cards" markdown>
 
@@ -69,7 +69,7 @@ hide:
 
 ---
 
-## 加價購
+## 加價購 { #intro-marketing-introduction }
 
 <div class="grid cards" markdown>
 
@@ -93,7 +93,7 @@ hide:
 
 ---
 
-## 紅利點數與贈禮
+## 紅利點數與贈禮 { #intro-marketing-bonus }
 
 <div class="grid cards" markdown>
 
@@ -149,7 +149,7 @@ hide:
 
 ---
 
-## 指定條件贈送
+## 指定條件贈送 { #prerequisites-marketing }
 
 <div class="grid cards" markdown>
 
@@ -197,7 +197,7 @@ hide:
 
 ---
 
-## 商品購買限制
+## 商品購買限制 { #prerequisites-marketing-product-limits }
 
 <div class="grid cards" markdown>
 
@@ -229,7 +229,7 @@ hide:
 
 ---
 
-## 一頁式商店
+## 一頁式商店 { #intro-marketing-one-page }
 
 <div class="grid cards" markdown>
 
@@ -254,7 +254,7 @@ hide:
 
 ---
 
-## 其他行銷工具
+## 其他行銷工具 { #intro-marketing-marketing }
 
 <div class="grid cards" markdown>
 

@@ -71,7 +71,7 @@ hide: []
 	- **帳號權限控管**：確保每次操作皆由當班人員重新登入，落實責任歸屬。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-auto-logout }
 
 - **權限限制**：僅限 **網站擁有者** 身份可進行此項設定。
 - **適用範圍**：此設定僅適用於 **POS 前台** 介面，不影響管理後台。
@@ -80,27 +80,27 @@ hide: []
     - 滑鼠游標移動
     - 滑鼠游標點擊
 
-## 操作流程
+## 操作流程 { #operate-auto-logout }
 
-### 步驟1：進入 POS 商店列表
+### 步驟1：進入 POS 商店列表 { #operate-auto-logout-1-pos-list }
 
 登入 CYBERBIZ 管理後台，前往 **POS 功能 > 所有 POS 商店**。
 
 
 
-### 步驟2：選擇目標門市
+### 步驟2：選擇目標門市 { #operate-auto-logout-2-store }
 
 在商店列表中，勾選欲設定自動登出的 POS 店家。
 
 ![](../../assets/images/POS-後台-所有POS門市-設定自動登出時間01.png){ .screenshot }
 
-### 步驟3：開啟自動登出設定
+### 步驟3：開啟自動登出設定 { #operate-auto-logout-3-enable-auto }
 
 點選列表上方的 **自動登出設定** 按鈕。
 
 ![](../../assets/images/POS-後台-所有POS門市-設定自動登出時間02.png){ .screenshot }
 
-### 步驟4：設定登出秒數並啟用
+### 步驟4：設定登出秒數並啟用 { #operate-auto-logout-4-settings-logout }
 
 1. 在彈出視窗中輸入欲設定的 **登出秒數**。
 2. 將開關切換為 **啟用**。
@@ -108,26 +108,26 @@ hide: []
 
 ![](../../assets/images/POS-後台-所有POS門市-設定自動登出時間03.png){ .screenshot }
 
-### 步驟5：確認更新成功
+### 步驟5：確認更新成功 { #operate-auto-logout-5-confirm-update }
 
 設定完成後，**POS 自動登出設定** 即切換為 **啟用中**，並顯示自動登入時間。
 
 ![](../../assets/images/POS-後台-所有POS門市-設定自動登出時間04.png){ .screenshot }
 
-### 步驟6：前台顯示驗證
+### 步驟6：前台顯示驗證 { #operate-auto-logout-6-frontend }
 
 前往 POS 前台介面，右上角將顯示 **自動登出** 的倒數資訊或狀態。
 
 ![](https://www.cyberbiz.co/support/wp-content/uploads/2019/11/自動登出6.png){ .screenshot }
 
 
-## 常見問題
+## 常見問題 { #faq-auto-logout }
 
 ??? quote "為什麼我找不到 **自動登出設定** 按鈕？"
     請確認您目前的登入身份是否為 **網站擁有者**。若為一般管理員權限，無法看到或操作此功能。
 
 
-## 更多操作
+## 更多操作 { #next-steps-auto-logout }
 
 <div class="grid cards" markdown>
 

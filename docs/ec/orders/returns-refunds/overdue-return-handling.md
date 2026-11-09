@@ -37,7 +37,7 @@ features:
   - 峰潮串倉退貨
 prerequisites: []
 related:
-  - ec/orders/references/auto-refund-timeline/
+  - ec/orders/order-refund-process/
   - ec/orders/returns-refunds/cvs-c2b-return/
   - ec/orders/order-refund-process/
 tags:
@@ -83,10 +83,6 @@ hide: []
 - [x] **後台手動退貨流程**：所有方案皆可使用。
 - [x] **退貨時間調整設定**：PLUS版 以上方案才能調整可退貨天數，一般版 維持預設值。
 - [x] **部分退款**：PLUS版 以上方案才可使用。
-- [x] **系統逆物流(黑貓 C2B、宅配通退貨便、7-11 C2B 退貨便)**：需另行申請開通，並非方案內預設功能。
-
-!!! note "退款方式的限制"
-    超過一定天數後，部分金流無法自動退刷，須改走人工退款。各金流的可自動退刷期限請見 [自動退刷時效對照表](../references/auto-refund-timeline.md){ data-preview }。
 
 ---
 
@@ -183,7 +179,7 @@ hide: []
 
 === "全額退款"
     1. **發起退款**：於訂單列表勾選該筆訂單，從 **「更多操作」** 下拉選擇 **「已退貨」**。
-    2. **判斷退款方式**：系統會依該筆訂單的付款金流與付款日期，自動判斷可否走自動退刷。詳見 [自動退刷時效對照表](../references/auto-refund-timeline.md){ data-preview }。
+    2. **判斷退款方式**：系統會依該筆訂單的付款金流與付款日期，自動判斷可否走自動退刷。詳見 [退款方式與作業](../order-refund-process/#specs-order-refund){ data-preview }。
         * **可自動退刷**：系統直接向金流商發起退刷，顧客將於各金流的作業時間後收到退款。
         * **須人工退款**：畫面會彈出視窗，需要填寫顧客提供的銀行帳戶資訊。
     3. **填寫銀行資訊(僅人工退款)**：於彈出視窗填寫 **戶名**、**銀行**、**分行**、**銀行帳號**，完成後送出。
@@ -195,28 +191,7 @@ hide: []
     4. **確認退款**：點擊 **「確認退款」** 完成。
 
 
-## 重要規範與限制 { #specs-overdue-returns }
-
-### 自動退刷的天數限制 { #specs-overdue-returns-refund-window }
-
-訂單付款後若超過該金流商允許的自動退刷期限，系統將無法直接退刷，須改走人工退款流程。完整對照請見 [自動退刷時效對照表](../references/auto-refund-timeline.md){ title="自動退刷時效對照表" data-preview }。
-
----
-
-### 人工退款的後續處理 { #specs-overdue-returns-manual-refund }
-
-人工退款須由商家提供顧客銀行帳戶資訊，並由 CYBERBIZ 代為匯款。實際到帳時間、是否收取帳務處理費，以及單筆費用，皆依當時的契約條款為準，請洽 CYBERBIZ 客服確認最新規定。
-
----
-
-### 行銷獎勵的處理 { #specs-overdue-returns-rewards }
-
-訂單退貨對紅利點數、優惠券、分潤的影響，依商店設定與訂單狀態而異，建議在執行退款前先確認以下事項，必要時請洽 CYBERBIZ 客服：
-
-- 該訂單已發送的紅利點數、優惠券是否需要調整。
-- 若該訂單涉及分潤計算，退貨是否需要連帶處理。
-
-## 後續操作
+## 後續操作 { #next-steps-overdue-return }
 
 <div class="grid cards" markdown>
 
@@ -244,10 +219,6 @@ hide: []
     [](){ #faq-overdue-returns-cannot-auto-refund }
     代表此筆訂單已超過該金流商允許的自動退刷天數，須走人工退款。請在彈出視窗中填寫顧客提供的銀行帳戶資訊，後續由 CYBERBIZ 代為匯款。
 
-??? quote "可以對同一筆訂單分多次部分退款嗎?"
-    [](){ #faq-overdue-returns-multiple-partial-refunds }
-    可以。於訂單詳情頁的「部分退款」區塊，每次勾選欲退款的品項與金額後確認即可。
-
 ??? quote "我是峰潮串倉商家，點了「退貨中」卻沒看到狀態變更？"
     [](){ #faq-overdue-returns-honeycomb-status-delay }
      若該筆訂單符合峰潮自動退貨條件，點擊「退貨中」時系統會先呼叫峰潮倉庫建立逆物流單，訂單狀態不會立即變更，需待倉庫處理完成後同步。請稍候並重新整理頁面查看，若長時間未更新請洽 CYBERBIZ 客服。
@@ -267,10 +238,5 @@ hide: []
     - **CYBERBIZ 宅配、超取**：從貨態變更為「已收貨」當日起算。
     - **其他出貨方式（自訂物流）**：從貨態變更為「已出貨」當日起算。
 
----
-
-## 參考資料 { #reference-overdue-returns }
-
-- [自動退刷時效對照表](../references/auto-refund-timeline.md){ title="自動退刷時效對照表" }
 
 

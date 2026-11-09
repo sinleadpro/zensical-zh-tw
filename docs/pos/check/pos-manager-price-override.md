@@ -68,13 +68,13 @@ hide:
 
 ![店長改價頁面](../../assets/images/pos-manager-price-override-hero.png){ title="店長改價頁面" .hero-page }
 
-## 店長改價說明
+## 店長改價說明 { #specs-manager-price }
 
 **店長改價** 是門市人員針對「單一商品品項」提供的彈性折扣方式。當該商品不適用現有的行銷活動，或有特殊議價需求時，即可使用此功能進行價格調整。
 
-## 操作步驟
+## 操作步驟 { #operate-manager-price }
 
-### 前台操作步驟
+### 前台操作步驟 { #operate-manager-price-frontend-operation }
 
 1. **進入結帳頁面：** 在 POS 前台將商品加入購物車後，點擊欲調整價格的 **單一商品項目**。
 2. **開啟改價功能：** 點選後會展開該商品的折扣明細與「店長改價」欄位。
@@ -94,7 +94,7 @@ hide:
 
 ---
 
-### 權限設定
+### 權限設定 { #operate-manager-price-permissions-settings }
 
 「店長改價」功能預設僅開放給具備 **「店長」** 身分的帳號。若要讓「店員」也能執行改價，必須由管理員於後台下放權限：
 
@@ -110,7 +110,7 @@ hide:
 
 !!! tip "若未於權限管理設定，亦可在「修改 POS 設定」中設定 **POS 權限密碼**，店員結帳時輸入該密碼即可使用折價功能。"
 
-## 後續操作
+## 後續操作 { #next-steps-manager-price }
 
 <div class="grid cards" markdown>
 
@@ -120,7 +120,7 @@ hide:
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-manager-price }
 
 ??? quote "為什麼我在單品項目找不到「店長改價」的欄位？"
 

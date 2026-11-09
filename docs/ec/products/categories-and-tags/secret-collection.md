@@ -70,7 +70,7 @@ hide: []
 
 ![秘密商品群組](../../../assets/images/ec-商品-商品自訂分類-秘密群組.png){ title="秘密商品群組" .hero-page }
 
-## 秘密群組說明
+## 秘密群組說明 { #intro-secret-collection }
 
 **秘密群組**（或稱秘密商店）主要用於提供不對外公開的連結給特定客群（如經銷商、團購主、員工等）進行購買。
 
@@ -87,11 +87,11 @@ hide: []
 
     </div>
 
-## 操作步驟
+## 操作步驟 { #operate-secret-collection }
 
 設定秘密商品群組需先建立自訂分類，再將該分類中的商品設定為隱藏並關閉搜尋。以下分為兩個階段說明操作細節。
 
-### 設定秘密商品群組 <small>秘密商店</small>
+### 設定秘密商品群組 <small>秘密商店</small> { #operate-secret-collection-setup }
 
 1. **建立商品分類：** 進入管理後台，路徑為 **商品 > 商品自訂分類**。
 2. **新增群組：** 點選右下角「新增群組」，輸入自訂名稱（例如：VIP 秘密賣場）。
@@ -107,7 +107,7 @@ hide: []
 
 ---
 
-### 設定隱藏商品與避免搜尋
+### 設定隱藏商品與避免搜尋 { #operate-secret-collection-hide }
 
 為了確保一般消費者無法在官網找到秘密群組內的商品，需執行以下設定：
 
@@ -121,14 +121,14 @@ hide: []
 - [x] **導覽列規範：** 建立秘密商店後，**請勿** 將此群組連結設定於官網導覽列或選單中，以免一般使用者誤點進入。
 - [x] **排除特定關鍵字（進階）：** 可透過修改程式碼 `search.liquid`，設定含有[特定字眼的商品不出現在搜尋結果中](../discoverability/exclude-keyword-products-search.md){ title="設定搜尋結果中排除特定關鍵字商品" }  。
 
-## 注意事項與建議
+## 注意事項與建議 { #prerequisites-secret-collection }
 
 - **外部搜尋引擎風險：** 雖然商品已關閉站內搜尋，但「秘密群組頁」仍可能被 Google 搜尋引擎索引。
 - **SEO 排除設定：** 若希望完全避免在 Google 搜尋結果中曝光，建議至 **Google Search Console** 設定排除該秘密群組頁面，阻擋外部搜尋。
 - **恢復機制：** 若在修改程碼時發生錯誤，可利用編輯器中的「查看之前版本」功能[回溯至預設版本](../../website-appearance/code-customization/restore-code-theme-editor.md){ title="使用樣板編輯器恢復網頁代碼" }  。
 
 
-## 相關操作
+## 相關操作 { #next-steps-secret-collection }
 
 <div class="grid cards" markdown>
 
@@ -139,7 +139,7 @@ hide: []
 </div>
 
 
-## 常見問題
+## 常見問題 { #faq-secret-collection }
 
 ??? quote "建立秘密群組後，商品會自動排除搜尋嗎？"
     不會。秘密群組僅是將商品歸類，您仍需手動進入商品編輯頁面，將群組內商品的「商品搜尋功能」設定為 `關閉 (OFF)`，才能排除站內搜尋。

@@ -59,7 +59,7 @@ hide:
 
 ![商品導購連結購物車頁面](../../../assets/images/ec-行銷活動-指定商品導購連結.png){ .hero-page }
 
-## 指定商品購物車連結說明
+## 指定商品購物車連結說明 { #overview-cart-link }
 
 這項功能允許商家生成一個特殊的網址，當顧客點擊該連結時，系統會 **自動將預先設定好的商品與數量加入購物車**。這對於社群導購、EDM 行銷或針對特定受眾的促銷活動非常有效。
 
@@ -72,13 +72,13 @@ hide:
     *   **分眾導流活動**：針對不同的會員受眾設定專屬的購物車內容，搭配行銷策略推廣。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-cart-link }
 
 - **適用範圍**：僅支援官網購物車連結，不適用於一頁式商店。
 
 !!! warning "在正式對外發布前，**請務必先自行測試網址**，確認點擊後是否能正確引導至購物車並載入指定的商品與數量。"
 
-## 如何取得商品 ID 與款式 ID
+## 如何取得商品 ID 與款式 ID { #intro-cart-link }
                                
 要製作導購連結，首先需要從後台匯出商品資料以取得對應的 ID。
 
@@ -96,7 +96,7 @@ hide:
 
 5.  **紀錄數值**：欄位顯示的數字即為商品相關 ID，請將其記錄下來以利後續填入導購網址。
 
-## 購物車連結網址格式
+## 購物車連結網址格式 { #operate-cart-link-format }
 
 請參考以下語法規範，手動組合您的導購連結。
 
@@ -124,9 +124,9 @@ hide:
     | `utm_content` | 否 | 廣告內容 | 用於區分同一活動中不同的素材或版位。 |
 
 
-## 進階用法
+## 進階用法 { #operate-cart-link-usage }
                                                                    
-### 使用商品 ID <small>單一款式商品適用</small>
+### 使用商品 ID <small>單一款式商品適用</small> { #operate-cart-link-product-id }
                                                                   
 加上 `type=product` 參數，直接帶入 A 欄的商品 ID：                 
 
@@ -139,7 +139,7 @@ hide:
                                                                  
 ---
 
-### 搭配折扣碼      
+### 搭配折扣碼 { #operate-cart-link-discount }
 
 在連結中加入 coupon 參數，顧客點擊後購物車會自動套用折扣：       
 
@@ -149,7 +149,7 @@ hide:
 
 --- 
 
-### 搭配 UTM 參數追蹤                                                
+### 搭配 UTM 參數追蹤 { #operate-cart-link-utm }
 
 在連結後附加 UTM 參數，可在 GA 或後台追蹤各渠道的導購成效：      
 
@@ -157,7 +157,7 @@ hide:
 [您的網址]/cart/replace?products=[款式ID]:[數量]&utm_source=line&utm_medium=social&utm_campaign=summer2025
 ```
 
-## 實際範例    
+## 實際範例 { #reference-cart-link-examples }
 
 !!! example "範例設定"
     - 官網為 `https://www.goodthing.com`。
@@ -176,7 +176,7 @@ https://www.goodthing.com/cart/replace?products=56789:2&type=product
 
 ```
 
-## 常見問題
+## 常見問題 { #faq-cart-link }
 
 ??? quote "如何取得商品 ID 與款式 ID？"
 
@@ -188,4 +188,4 @@ https://www.goodthing.com/cart/replace?products=56789:2&type=product
 
 ??? quote "可以在導購連結中自動套用折扣碼嗎？"
 
-    可以，在連結中加入 `coupon=[折扣碼]` 參數，顧客點擊後購物車會[自動套用該折扣碼](#搭配折扣碼){ title="搭配折扣碼" }。
+    可以，在連結中加入 `coupon=[折扣碼]` 參數，顧客點擊後購物車會[自動套用該折扣碼](#operate-cart-link-discount){ title="搭配折扣碼" }。

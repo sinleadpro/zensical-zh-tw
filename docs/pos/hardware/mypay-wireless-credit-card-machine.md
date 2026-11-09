@@ -84,7 +84,7 @@ hide: []
     - **一機多用**：整合 **信用卡刷卡、條碼掃描與發票列印** 功能，簡化門市硬體配置。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-mypay-terminal }
 
 - **金流限制**：商米刷卡機方案必須搭配 **MyPay 金流服務**，請務必先完成金流申請。
 - **發票規範**：刷卡機僅作為「印表機」使用，不含發票開立服務。商家必須購買發票服務方可開立發票。
@@ -92,7 +92,7 @@ hide: []
 - **耗材規格**：限用 **10m 公版感熱紙捲**（寬 5.7cm / 外徑 3.6cm），使用過大紙捲將導致機蓋無法關閉。
 
 
-## 設備認識
+## 設備認識 { #intro-mypay-terminal }
 
 === "商米 V3H"
     
@@ -115,7 +115,7 @@ hide: []
 
     ![](../../assets/images/POS-裝置-商米P2PRO無線刷卡機01.png){ .screenshot }
 
-## 前置作業：MyPay 金流申請
+## 前置作業：MyPay 金流申請 { #prerequisites-mypay-application }
 
 在進行系統設定前，請確保已取得以下資料：
 
@@ -130,16 +130,16 @@ hide: []
     - **MyPay 卡機名稱**
 
 
-## 操作流程
+## 操作流程 { #operate-mypay-terminal }
 
-### 步驟一：綁定設備裝置
+### 步驟一：綁定設備裝置 { #operate-mypay-terminal-step-a-bind }
 
 收到刷卡機後，登入刷卡機上的 MyPay App，[完成綁定](https://www.mypay.com.tw/index.php/zh-tw/news/new-features-online/bind-your-device-and-activate-the-mypay-with-confidence-easy-to-get-started-and-a-smooth-experience)。
 
 - 設備名稱請輸入：`[您的統編]_01`，例如：`12345678_01`
 
 
-### 步驟二：綁定 CYBERBIZ 管理後台
+### 步驟二：綁定 CYBERBIZ 管理後台 { #operate-mypay-terminal-step-b-bind }
 
 1. **取得 MyPay 金鑰**：登入 [MAPAY 管理後台](https://biz.spay.com.tw/auth/login)，前往 **系統設定 > 金鑰管理**，取得 **MYPAY 特店金鑰**。
     ![](../../assets/images/MAYPAY-後台-系統設定-金鑰管理-查詢金鑰01.png){ .screenshot }
@@ -157,7 +157,7 @@ hide: []
     ![](../../assets/images/POS-後台-所有POS商店-付款方式-新增MYPAY付款方式01.png){ .screenshot }
 
 
-### 步驟三：MyPay 後台 Webhook 設定
+### 步驟三：MyPay 後台 Webhook 設定 { #operate-mypay-terminal-step-c-mypay }
 
 為了確保交易成功後能正確回傳至 CYBERBIZ 系統，必須設定回報網址。
 
@@ -197,7 +197,7 @@ hide: []
     > 可發起測試訂單，確認掃碼或感應後，POS 能順利完成結帳。
 
 
-### 步驟四：刷卡機操作與結帳
+### 步驟四：刷卡機操作與結帳 { #operate-mypay-terminal-step-d-operation }
 
 1. **登入設備**：開啟刷卡機內的 **MyPay APP**，輸入帳號密碼登入。
 2. **前台結帳**：
@@ -210,7 +210,7 @@ hide: []
 
 
 
-## 常見問題
+## 常見問題 { #faq-mypay-terminal }
 
 ??? quote "為什麼點擊付款後，刷卡機沒有反應？"
     1. 請確認平板 POS 與刷卡機是否連接在同一個 Wi-Fi 環境。
@@ -224,7 +224,7 @@ hide: []
     請至 [財政部電子發票感熱紙平台](https://invoice.ppmof.gov.tw/PSJ_Web/) 或辦公用品店添購。請指名 **10m 公版感熱紙捲**（外徑約 3.6cm），一般桌上型發票機用的 50m 或 80m 紙捲會太厚無法放入。
 
 
-## 更多操作
+## 更多操作 { #next-steps-mypay-terminal }
 
 <div class="grid cards" markdown>
 

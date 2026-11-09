@@ -65,23 +65,23 @@ hide: []
 
 ![訂單報表匯出](../../../assets/images/ec-訂單-訂單報表匯出.png){ title="訂單報表匯出" .hero-page }
 
-## 訂單報表匯出說明
+## 訂單報表匯出說明 { #intro-order-report }
 
 **「訂單報表匯出」** 功能讓商家能詳細調閱並分析訂單明細，報表將以 Excel 格式寄送至操作者的管理員信箱。
 
-## 進入路徑
+## 進入路徑 { #operate-order-report-path }
 
 登入 CYBERBIZ 管理後台，點選左側選單的 **訂單 > 訂單報表匯出**。
 
 完成以下設定後，系統會將訂單報表匯出為 Excel 檔案並寄送至您的管理員信箱。
 
-## 操作步驟
+## 操作步驟 { #operate-order-report-steps }
 
-### 步驟一：選擇報表欄位
+### 步驟一：選擇報表欄位 { #operate-order-report-select-fields }
 
 1.  **選取欄位**：點擊「可用欄位」中的項目，該項目會加入右側的「已選取欄位」；反之則移除。
 2.  **調整排序**：您可以透過拖曳「已選取欄位」中的項目來調整報表列出的先後順序。
-3.  **進階折扣拆分**：若選取「訂單各項折扣拆分」欄位，報表會細分[顯示各項折扣金額](../references/order-report-fields.md#訂單各項折扣拆分){ title="訂單報表可用欄位" data-preview }，例如：
+3.  **進階折扣拆分**：若選取「訂單各項折扣拆分」欄位，報表會細分[顯示各項折扣金額](../references/order-report-fields.md#operate-report-fields-section){ title="訂單報表可用欄位" data-preview }，例如：
 
     - 商品任選折扣
     - VIP 折扣
@@ -98,12 +98,12 @@ hide: []
 
 5.  **導購與 UTM 追蹤**：
 
-    *   [**導購來源**](../references/order-report-fields.md#導購來源){ title="訂單報表可用欄位" data-preview }：可查看訂單是否來自 LINE 購物、美安、ShopBack 等導購平台。
-    *   [**UTM 參數**](../references/order-report-fields.md#utm-參數){ title="訂單報表可用欄位" data-preview }（企業版專用）：可匯出 UTM 來源、媒介、活動名稱等數據追蹤行銷成效（僅支援 2025/12/17 之後成立的訂單）。
+    *   [**導購來源**](../references/order-report-fields.md#operate-report-fields-section-alt){ title="訂單報表可用欄位" data-preview }：可查看訂單是否來自 LINE 購物、美安、ShopBack 等導購平台。
+    *   [**UTM 參數**](../references/order-report-fields.md#operate-report-fields-utm){ title="訂單報表可用欄位" data-preview }（企業版專用）：可匯出 UTM 來源、媒介、活動名稱等數據追蹤行銷成效（僅支援 2025/12/17 之後成立的訂單）。
 
     !!! info "每項工具所記錄之 UTM 數據方式與回溯期間均不盡相同，此功能為 CYBERBIZ 系統所記錄之數據，可能與 GA4 或其他工具有所落差。"
 
-6.  [**組合品價差**](../references/order-report-fields.md#組合品價差){ title="訂單報表可用欄位" data-preview }（企業版專用）：
+6.  [**組合品價差**](../references/order-report-fields.md#operate-report-fields-section-more){ title="訂單報表可用欄位" data-preview }（企業版專用）：
 
     - **組合品價差**：該子商品類型在組合品活動下，相較於單品原價銷售時的讓利總金額（以商品種類為單位）。
     - **組合品價差明細**：該子商品類型下的每一件商品，實際分攤到的讓利金額（以單件商品為單位）。
@@ -112,7 +112,7 @@ hide: []
 
 ---
 
-### 步驟二：篩選匯出範圍與設定 
+### 步驟二：篩選匯出範圍與設定 { #operate-order-report-filter-export }
 
 1.  **篩選項目**：可針對特定的訂單來源、訂單狀態、付款狀態、配送狀態或退貨狀態進行篩選。
 
@@ -141,7 +141,7 @@ hide: []
 
 6.  **執行匯出**：確認設定後，按下匯出按鈕，系統會將 Excel 報表發送至您 **當前登入的帳號信箱**。
 
-## 針對不同情境的報表
+## 針對不同情境的報表 { #specs-order-report-scenarios }
 
 <div class="grid cards" markdown>
 
@@ -165,12 +165,12 @@ hide: []
 
 </div>
 
-## 重要注意事項
+## 重要注意事項 { #prerequisites-order-report-notes }
 
 1.  **信箱檢查**：若未收到報表郵件，請檢查垃圾信件夾，或避免使用 Hinet 信箱，因其阻擋機制較強。
-2.  **匯出權限**：網站擁有者可於「網站權限」中[限制特定管理員執行「訂單匯出」的權限](../../website-management/add-admin-set-permissions.md#權限分類與細節說明){ title="新增網站管理員並設定權限" }，以降低資安風險。
+2.  **匯出權限**：網站擁有者可於「網站權限」中[限制特定管理員執行「訂單匯出」的權限](../../website-management/add-admin-set-permissions.md#specs-admin-perms){ title="新增網站管理員並設定權限" }，以降低資安風險。
 
-## 常見問題
+## 常見問題 { #faq-order-report }
 
 ??? quote "為什麼我收不到報表郵件？"
 

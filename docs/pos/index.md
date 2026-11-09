@@ -224,7 +224,7 @@ permalink: "https://help.cyberbiz.io/pos/"
 
 ---
 
-## 核心功能概覽
+## 核心功能概覽 { #overview-pos }
 
 <div class="grid cards" markdown>
 
@@ -267,7 +267,7 @@ permalink: "https://help.cyberbiz.io/pos/"
 
 ---
 
-## 核心營運場景
+## 核心營運場景 { #intro-pos }
 
 <div class="grid" markdown>
  
@@ -287,7 +287,7 @@ permalink: "https://help.cyberbiz.io/pos/"
 
 ---
 
-## 依角色探索
+## 依角色探索 { #intro-roles }
 
 <div class="grid cards" markdown>
 

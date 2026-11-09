@@ -60,13 +60,13 @@ hide: []
 
 ![Google 快速登入設定](../../../assets/images/ec-第三方整合-google設定-google登入.png){ title="Google 快速登入設定" .hero-page }
 
-## Google 快速登入說明
+## Google 快速登入說明 { #overview-google-login }
 
 **「Google 快速登入」** 功能讓消費者在註冊或登入會員時，可以直接使用其 Google 帳戶進行一鍵操作，系統會自動根據消費者輸入的電子郵件信箱新增會員資料，或將其 Google 帳戶與現有會員資訊進行綁定。
 
-## 操作步驟
+## 操作步驟 { #operate-google-login }
 
-### Google Cloud Platform 端設定
+### Google Cloud Platform 端設定 { #operate-google-login-google-cloud-platform }
 
 商家需先在 Google 開發者平台建立專案並取得串接所需的憑證資訊。
 
@@ -92,7 +92,7 @@ hide: []
 
 ---
 
-### CYBERBIZ 後台串接設定
+### CYBERBIZ 後台串接設定 { #operate-google-login-cyberbiz-backend-connect }
 
 取得金鑰後，需回到官網後台完成最後的開啟動作。
 
@@ -107,13 +107,13 @@ hide: []
 
     ![發布 Google 應用程式](../../../assets/images/ec-第三方整合-google設定-google發布應用程式.png){ title="發布 Google 應用程式" }
 
-## 完成設定畫面
+## 完成設定畫面 { #operate-google-login-settings }
 
 完成設定，顧客即可於官網前台以 Google 帳戶註冊/登入網站。
 
 ![Google 快速登入前台畫面](../../../assets/images/ec-第三方整合-google設定-快速登入-前台畫面.png){ title="Google 快速登入前台畫面" }
 
-## 重要注意事項與系統邏輯
+## 重要注意事項與系統邏輯 { #specs-google-login }
 
 *   **帳號合併機制**：若消費者使用 Google、LINE 或 Facebook 快速登入時輸入 **同一個電子郵件信箱**，系統會將其視為同一位會員，並在後台會員明細頁註明帳號類型。
 *   **會員註記**：透過此方式註冊的會員，在後台「帳號類型」欄位會顯示為「**Google 快速登入**」。
@@ -123,7 +123,7 @@ hide: []
 *   **重新導向錯誤排除**：若消費者登入時出現錯誤，請檢查 Google 後台的「已授權的重新導向 URL」是否完整填入商店網址且格式正確。
 
 
-## 常見問題
+## 常見問題 { #faq-google-login }
 
 ??? quote "設定完成後需要多久時間生效？"
 

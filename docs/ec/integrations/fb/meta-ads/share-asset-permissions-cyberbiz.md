@@ -64,24 +64,24 @@ hide: []
 
 ![手動分享權限](../../../../assets/images/ec-第三方整合-fb-mbs-手動分享權限.png){ .hero-page }
 
-## 授權資產給 CYBERBIZ 說明
+## 授權資產給 CYBERBIZ 說明 { #operate-meta-assets }
 
 若商家在 CYBERBIZ 後台進行 Meta 廣告投放時，遇到 **廣告創建失敗** 的特殊情境，可透過手動分享資產權限給 CYBERBIZ 並通知客服來排除問題。
 
-## 設定前置條件
+## 設定前置條件 { #prerequisites-meta-assets }
 
 在進行手動分享前，請務必先確認以下事項：
 
 - [x] **完成 [廣告帳號建立與儲值](create-meta-ad-account-top-up.md){ title="建立 Meta 廣告帳號並完成儲值" }**：請先確認已完成「建立 Meta 廣告帳號並完成儲值」的所有步驟。
-- [x] **完成 [像素 (Pixel) 設定](create-meta-ad-account-top-up.md#像素設定-pixel){ title="建立 Meta 廣告帳號並完成儲值" }**：務必確認已完成廣告帳號建立中的「像素 (Pixel) 設定」步驟。
+- [x] **完成 [像素 (Pixel) 設定](create-meta-ad-account-top-up.md#operate-meta-account-steps-settings-pixel){ title="建立 Meta 廣告帳號並完成儲值" }**：務必確認已完成廣告帳號建立中的「像素 (Pixel) 設定」步驟。
 - [x] **針對正確資產分享**：請先完成 [FBE 帳號授權與資產連結](../mbe/setup-fbe-authorization.md){ title="設定 FBE 帳號授權與資產連結" }，確認您於後台「新版商業擴充套件」中所設定的特定資產。
 
-## 手動分享資產權限步驟
+## 手動分享資產權限步驟 { #operate-meta-assets-permissions }
 
 !!! warning "核對資產" 
     指派權限前，請確保企業平台設定中所選資產與 [商業擴充套件資產連結](../mbe/setup-fbe-authorization.md){ title="設定 FBE 帳號授權與資產連結" } 中所顯示的資訊一致
 
-### 分享粉絲專頁權限
+### 分享粉絲專頁權限 { #operate-meta-assets-page }
 
 1. 登入 [企業管理平台設定](https://business.facebook.com/latest/settings)，於左側選單點選「帳號」>「**粉絲專頁**」。
 2. 點擊「**指派合作夥伴**」> 選擇 **企業管理平台編號**，輸入 **CYBERBIZ 企業管理平台編號：`481801283092517`**。
@@ -91,7 +91,7 @@ hide: []
 
 ---
 
-### 分享像素權限
+### 分享像素權限 { #operate-meta-assets-pixel }
 
 1. 登入 [企業管理平台設定](https://business.facebook.com/latest/settings)，於左側選單點選「資料來源」>「**資料集和像素**」。
 2. 選取欲分享的像素，點擊「**指派合作夥伴**」> 選擇 **企業管理平台編號**，輸入 **CYBERBIZ 企業管理平台編號：`481801283092517`**。
@@ -110,7 +110,7 @@ hide: []
 
 ---
 
-### 分享目錄權限
+### 分享目錄權限 { #operate-meta-assets-catalog }
 
 1. 登入 [企業管理平台設定](https://business.facebook.com/latest/settings)，於左側選單點選「資料來源」>「**目錄**」。
 2. 點擊「**指派合作夥伴**」> 選擇 **企業管理平台編號**，輸入 **CYBERBIZ 企業管理平台編號：`481801283092517`**。
@@ -118,12 +118,12 @@ hide: []
 
 ![MBS-目錄-分享權限](../../../../assets/images/ec-第三方整合-fb-mbs-目錄-分享權限.gif)
 
-## 完成後續處理
+## 完成後續處理 { #intro-meta-assets }
 
 1.  **通知客服**：手動分享完成後，請務必 **通知 CYBERBIZ 客服人員**。
 2.  **等待回覆**：待 CYBERBIZ 完成系統端的後續處理並正式回覆後，您即可再次嘗試 [設定 Meta 廣告活動](setup-meta-ad-campaign.md){ title="設定 Meta 廣告活動" }。
 
-## 常見問題
+## 常見問題 { #faq-meta-assets }
 
 ??? quote "分享權限時出現「已建立合作夥伴企業管理平台關係」錯誤該怎麼辦？"
 

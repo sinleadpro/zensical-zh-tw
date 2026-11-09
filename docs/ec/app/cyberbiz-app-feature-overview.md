@@ -66,17 +66,17 @@ hide: []
 [:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions.md#適用擴充) | CYBERBIZ APP
 { .doc-badge }
 
-## 使用須知  
+## 使用須知 { #prerequisites-app-overview }
 
 *   歡迎洽詢 CYBERBIZ 開店顧問，了解更多方案資訊。
 
-## 什麼是 CYBERBIZ APP
+## 什麼是 CYBERBIZ APP { #intro-app }
 
   
 官網 APP 是 CYBERBIZ 提供的行動應用服務，協助商家將 **線上官網** 延伸至消費者的手機裝置，建立可主動溝通、可持續經營會員關係的品牌接觸管道。  
   
 
-### 產品亮點總覽
+### 產品亮點總覽 { #overview-app-highlights }
   
 
 1.  **線上官網 × 線下消費者的溝通渠道**  
@@ -91,7 +91,7 @@ hide: []
     *   支援活動、訂單與會員相關訊息推播
     *   作為官網以外的即時通知管道
 
-### 此功能適合哪些商家 
+### 此功能適合哪些商家 { #overview-app-audience }
   
 若您有以下經營需求，官網 APP 可作為輔助工具：  
   
@@ -103,13 +103,13 @@ hide: []
 *   需要透過 **推播訊息**，主動通知會員活動、訂單或權益資訊
 
 
-## APP 介面導覽
+## APP 介面導覽 { #overview-app-interface }
 
 <div class="grid cards" markdown>
 
 -   ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-APP介面-首頁01.jpg){ .mini-image }
 
-    ### 首頁
+    ### 首頁 { #overview-app-home }
 
     `相關操作`
 
@@ -118,7 +118,7 @@ hide: []
 
 -   ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-APP介面-導覽列01.jpg){ .mini-image }
 
-    ### 導覽列
+    ### 導覽列 { #overview-app-navigation }
 
     `相關操作`
 
@@ -126,7 +126,7 @@ hide: []
 
 -   ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-APP介面-購物車01.jpg){ .mini-image }
 
-    ### 購物車
+    ### 購物車 { #operate-app-cart }
   
     `相關操作`
 
@@ -134,7 +134,7 @@ hide: []
 
 -   ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-APP介面-購物車01.jpg){ .mini-image }
     
-    ### 門市地圖 
+    ### 門市地圖 { #overview-app-store-map }
   
     `相關操作`
 
@@ -143,7 +143,7 @@ hide: []
 
 -   ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-APP介面-會員專區01.jpg){ .mini-image }
 
-    ### 會員專區
+    ### 會員專區 { #operate-app-member }
   
     `相關操作`
 
@@ -155,10 +155,10 @@ hide: []
 </div>
 
 
-## APP 常見操作
+## APP 常見操作 { #overview-app-operations }
   
 
-### 訊息通知
+### 訊息通知 { #operate-app-notifications }
 
 <div class="grid cards" markdown>
 

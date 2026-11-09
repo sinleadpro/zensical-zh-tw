@@ -222,7 +222,7 @@ hide:
 
 ---
 
-## 核心功能概覽
+## 核心功能概覽 { #overview-wms-core }
 
 <div class="grid cards" markdown>
 
@@ -262,7 +262,7 @@ hide:
 
 ---
 
-## 核心營運場景
+## 核心營運場景 { #intro-wms-scenarios }
 
 <div class="grid" markdown>
 
@@ -283,7 +283,7 @@ hide:
 
 ---
 
-## 依角色探索
+## 依角色探索 { #next-steps-wms-roles }
 
 <div class="grid cards" markdown>
 

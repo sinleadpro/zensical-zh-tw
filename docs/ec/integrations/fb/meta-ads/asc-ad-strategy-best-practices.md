@@ -64,11 +64,11 @@ icon: lucide/megaphone
 hide:
 ---
 
-## Meta ASC 說明
+## Meta ASC 說明 { #overview-meta-asc }
 
 **Meta ASC（Advantage+ Shopping Campaign，高效速成購物行銷活動）** 是 Meta 針對電商開發的自動化廣告產品。CYBERBIZ 透過與 Meta 的深度整合，讓商家直接在官網後台即可完成一站式的廣告投放與成效追蹤。
 
-## ASC 廣告的三大核心特色
+## ASC 廣告的三大核心特色 { #intro-meta-asc }
 
 - [x] **全自動優化受眾與創意**：系統會自動尋找最適合的目標族群，無需手動設定複雜的受眾參數。
 - [x] **快速學習與收斂**：新廣告帳號也能在短時間內累積數據，迅速達到理想的投放表現。
@@ -81,7 +81,7 @@ hide:
     *   **高投資報酬率**：透過 CYBERBIZ 後台投放的 ASC 廣告，平均 **ROAS（廣告投資報酬率）可達 4.56**。
     *   **優於產業平均**：相較於一般電商產業平均 3 到 3.5 的 ROAS，成效顯著 **提升約 30%**。
 
-## CYBERBIZ 廣告後台優勢
+## CYBERBIZ 廣告後台優勢 { #overview-meta-asc-cyberbiz-ads-backend }
 
 商家無需頻繁切換至 Meta 廣告管理員，在 CYBERBIZ 一個後台即可完成所有操作：
 
@@ -89,7 +89,7 @@ hide:
 - [x] **數據深度整合**：完整串接官網訂單、商品庫存與消費者行為數據，幫助 AI 做出更精準的投放決策。
 - [x] **一站式管理效率**：從預算儲值、目錄商品組合挑選到成效分析，全流程皆可在官網後台完成。
 
-## 投放前置必要條件
+## 投放前置必要條件 { #prerequisites-meta-asc }
 
 <div class="grid cards" markdown>
 
@@ -104,13 +104,13 @@ hide:
     必須先於後台建立 Meta 廣告帳號，且完成儲值。
 
 -   :material-numeric-3-circle:{ .lg }
-    **[綁定 Facebook 像素](create-meta-ad-account-top-up.md#像素設定-pixel){ title="建立 Meta 廣告帳號並完成儲值" }**
+    **[綁定 Facebook 像素](create-meta-ad-account-top-up.md#operate-meta-account-steps-settings-pixel){ title="建立 Meta 廣告帳號並完成儲值" }**
 
     確保官網已正確綁定，以便 ASC 目錄型廣告能正常抓取已搜集到的商品資訊。
 
 </div>
 
-## 分享會影片
+## 分享會影片 { #intro-meta-asc-overview-meta-asc }
 
 ??? quote-clean "廣告功能線上分享"
     <div style="position: relative; padding-bottom: 56.25%; height: 0;">
@@ -136,7 +136,7 @@ hide:
       </iframe>
     </div>
 
-## 後續操作
+## 後續操作 { #next-steps-meta-asc }
 
 <div class="grid cards" markdown>
 
@@ -157,7 +157,7 @@ hide:
 </div>
 
 
-## 常見問題
+## 常見問題 { #faq-meta-asc }
 
 ??? quote "ASC 廣告需要多少預算才能開始投放？"
 

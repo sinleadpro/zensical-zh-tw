@@ -75,14 +75,14 @@ hide: []
 
 ![](../../../assets/images/POS-後台-所有POS門市-付款方式-畫面總覽01.png){ .hero-page }
 
-## 使用須知
+## 使用須知 { #prerequisites-payment-method }
 
 - **人員權限**：此功能僅限 **網站擁有者** 與 **POS店長** 可操作。
 - **硬體需求**：部分支付方式（如信用卡機、悠遊卡）需搭配特定型號之刷卡機。
 
-## 操作流程
+## 操作流程 { #operate-payment-method }
 
-### 開啟付款方式
+### 開啟付款方式 { #operate-payment-method-enable-payment-method }
 
 === "後台設置"
 
@@ -124,7 +124,7 @@ hide: []
 
     ![](../../../assets/images/POS-前台-結帳-付款方式01.png){ .screenshot }
 
-### 前台顯示排序
+### 前台顯示排序 { #operate-payment-method-frontend }
 
 === "後台設置"
 

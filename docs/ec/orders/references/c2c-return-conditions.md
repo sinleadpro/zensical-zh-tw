@@ -89,7 +89,7 @@ hide:
 !!! note "註釋"
     若訂單已進入「退貨審查」或「已退貨」階段，系統會視為退貨流程已啟動或完成，不允許再次發送代碼。如需重新發送(例如代碼已過期)，請先聯繫 CYBERBIZ 客服協助處理訂單狀態。
 
-## 常見問題
+## 常見問題 { #faq-c2c-return }
 
 ??? quote "哪些情況下訂單無法使用 7-11 C2C 退貨便功能？"
     [](){ #faq-seven-eleven-c2c-return-eligibility-basic-unmet }

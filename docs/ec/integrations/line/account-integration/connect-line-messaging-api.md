@@ -76,14 +76,14 @@ hide: []
 
 ![LINE OA串接](../../../../assets/images/ec-第三方整合-line oa.png){ title="LINE OA串接" .hero-page }
 
-## 串接 LINE OA Messaging API 說明
+## 串接 LINE OA Messaging API 說明 { #operate-line-messaging }
 
 將 LINE 官方帳號（OA）與 CYBERBIZ 系統整合，可實現自動化顧客溝通，包含發送訂單狀態通知、精準分眾推播，以及提供 LINE 內的商品關鍵字搜尋功能。
 
 !!! info "什麼是 Messaging API？"
 	 Messaging API 是 LINE 開放給開發者的技術介面。透過此串接，CYBERBIZ 系統得依據特定事件（如：顧客下單、待付款提醒）**自動** 發送個人化訊息，無需人工操作。
 
-## 前置準備與限制
+## 前置準備與限制 { #prerequisites-line-messaging }
 
 在開始串接前，請務必確認以下事項：
 
@@ -93,7 +93,7 @@ hide: []
 
 請依序完成以下步驟，以確保系統正確連動：
 
-## 步驟一：建立與設定 LINE 官方帳號
+## 步驟一：建立與設定 LINE 官方帳號 { #operate-line-messaging-account }
 
 1. **建立 LINE 官方帳號** 前往 [LINE Official Account Manager](https://manager.line.biz/) 建立帳號。
 
@@ -110,7 +110,7 @@ hide: []
 
 ![啟用Messaging API](../../../../assets/images/ec-第三方整合-line-啟用 messaging api.gif){ title="啟用Messaging API" }
  
-## 步驟二：取得串接金鑰並回填至 CYBERBIZ
+## 步驟二：取得串接金鑰並回填至 CYBERBIZ { #operate-line-messaging-connect-cyberbiz }
 
 1. **進入 LINE 開發者後台** 登入 [LINE Developers Console](https://developers.line.biz/console/)，並點選稍早建立的 Messaging API 頻道。
 
@@ -128,7 +128,7 @@ hide: []
 
     - 點擊 **儲存** 完成金鑰配置。
 
-## 步驟三：開啟 Webhook 功能
+## 步驟三：開啟 Webhook 功能 { #operate-line-messaging-enable-webhook }
 
 1. **取得 Webhook 網址** 前往 CYBERBIZ 管理後台 **第三方整合 > LINE OA 設定**，複製系統生成的 **Webhook URL**。
 
@@ -150,11 +150,11 @@ hide: []
 
 ![設定Webhook連線](../../../../assets/images/ec-第三方整合-line-webhook-copy-past-line-dev.gif){ title="設定Webhook連線" }
 
-## 步驟四：進階功能應用 <small>選擇性</small>
+## 步驟四：進階功能應用 <small>選擇性</small> { #intro-line-messaging }
 
 完成基礎串接後，您可以根據品牌營運需求，進一步配置以下進階功能：
 
-### LINE 關鍵字搜尋商品
+### LINE 關鍵字搜尋商品 { #intro-line-messaging-line-search-product }
 
 - **功能說明：** 開啟後，顧客可在 LINE 對話框輸入關鍵字（如：項鍊、咖啡豆），系統將自動回傳官網相關商品清單。
 
@@ -164,7 +164,7 @@ hide: []
 
 ---
 
-### 第三方系統資料轉拋 <small>Webhook Relay</small>
+### 第三方系統資料轉拋 <small>Webhook Relay</small> { #intro-line-messaging-data-webhook-relay }
 
 - **功能說明：** 若您的 LINE OA 同時串接了其他第三方平台（如 **Omnichat**, **Smarter**, **Easychat**），可透過 CYBERBIZ 設定「轉拋系統」。
 
@@ -174,7 +174,7 @@ hide: []
 
 ![Webhook轉拋設定](../../../../assets/images/ec-第三方整合-line-webhook-replay.gif){ title="Webhook轉拋設定" }
 
-### 自動化通知樣板
+### 自動化通知樣板 { #intro-line-messaging-notifications }
 
 - **功能說明：** 當訂單或會員狀態異動時，系統自動發送標準化通知。
 
@@ -190,7 +190,7 @@ hide: []
 
 操作說明請參閱 [**LINE OA 訊息樣板設定**](../../../notifications/manage-line-oa-templates.md){ title="設定與管理 LINE OA 通知樣板" }。
 
-## 相關操作
+## 相關操作 { #operate-line-messaging-operate }
 
 <div class="grid cards" markdown>
 
@@ -204,7 +204,7 @@ hide: []
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-line-messaging }
 
 ??? quote "為什麼點擊「Verify」驗證 Webhook 時顯示錯誤"
 	請檢查 **Webhook 網址是否包含 `https` 以及開頭是否有空格。** LINE 強制要求 Webhook 必須使用加密的 `https` 協定。此外，請確認 **Use webhook** 開關已切換至 **On**，且 Webhook URL 結尾路徑完整（如：`/line_chat_bots/send_event`）。

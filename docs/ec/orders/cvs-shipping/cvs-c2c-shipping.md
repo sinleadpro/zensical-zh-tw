@@ -161,7 +161,7 @@ hide:
 !!! warning "7-ELEVEN 託運單廠商名稱特殊符號處理"
 	7-ELEVEN 託運單上的廠商名稱若帶有特殊符號，將會導致訂單建立失敗，系統會自動將特殊符號轉為「_」以利訂單建立（交易則不受此影響）。若因特殊符號導致買家無法順利取件，包裹將由宅配退回並向商家收取退件運費。
 
-#### 一般列印
+#### 一般列印 { #operate-cvs-c2c-print-standard }
 
 - 使用 A4 紙或標籤貼紙，一頁最多 4 筆（2X2 格式）。
 - [市售 A4 尺寸標籤貼紙範例 :lucide-external-link:](https://shopee.tw/%E3%80%90A4%E3%80%91A4%E7%A9%BA%E7%99%BD%E8%B2%BC%E7%B4%99-2%C3%972-%E8%B2%BC%E7%B4%99-A6%E8%87%AA%E9%BB%8F%E6%A8%99%E7%B1%A4%E8%B2%BC%E7%B4%99-A4%E6%A8%A1%E9%80%A0%E8%B2%BC%E7%B4%99-%E9%9B%BB%E8%85%A6%E6%A8%99%E7%B1%A4%E8%B2%BC%E7%B4%99-%E5%8F%AF%E9%9B%B7%E5%B0%84-%E5%99%B4%E5%A2%A8-1%E5%8C%85100%E5%BC%B5-10%E5%8C%85%E5%85%8D%E9%81%8B-i.24728499.2550119685)，僅供參考。
@@ -171,7 +171,7 @@ hide:
 
 ---
 
-#### 熱感列印 <small>A6</small>
+#### 熱感列印 <small>A6</small> { #operate-cvs-c2c-print-thermal }
 
 - 支援 7-ELEVEN 與全家 C2C，僅可使用「新版訂單列表」下載。瞭解 [如何熱感列印超商托運單](thermal-print-cvs-waybill.md){ title="熱感列印超商托運單" }。
 
@@ -181,7 +181,7 @@ hide:
 
 ---
 
-#### 超商列印
+#### 超商列印 { #operate-cvs-c2c-print-cvs }
 
 - 可至門市多媒體機台（ibon / FamiPort）列印服務單。
 - 需記下託運單號（交貨便代碼）。

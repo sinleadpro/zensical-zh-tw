@@ -14,7 +14,7 @@ hide:
   - feedback
 ---
 
-## 基本設定與操作
+## 基本設定與操作 { #overview-e-ticket-basics }
 
 <div class="grid cards" markdown>
 
@@ -30,7 +30,7 @@ hide:
 
 ---
 
-## 進階功能設定
+## 進階功能設定 { #overview-e-ticket-advanced }
 
 <div class="grid cards" markdown>
 

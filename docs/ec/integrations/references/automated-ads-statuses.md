@@ -47,7 +47,7 @@ hide:
 
  自動化廣告投放與開通狀態對照表
 
-## 開通狀態對照表 { #automated-ads-apply-status }
+## 開通狀態對照表 { #reference-automated-ads-apply-status }
 
 | 狀態 | 說明 |
 | :-- | :-- |
@@ -58,7 +58,7 @@ hide:
     * 開通進度會以 email 通知，亦可於頁面上方的開通提示查看。
     * 使用「商家自有帳號」時，系統每日檢查 Google Ads 綁定狀態，綁定完成後才會開通。
 
-## 廣告投放狀態對照表 { #automated-ads-delivery-status }
+## 廣告投放狀態對照表 { #reference-automated-ads-delivery-status }
 
 | 投放狀態 | 說明 |
 | :-- | :-- |

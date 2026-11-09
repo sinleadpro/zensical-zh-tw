@@ -85,17 +85,17 @@ hide: []
 
 
 
-## 使用須知
+## 使用須知 { #prerequisites-shopee-s5 }
 
 - **同步原則**：僅限 **官網至蝦皮** 單向同步。在蝦皮端修改資訊不會回寫至官網。
 - **類型限制**：**不支援** 同步 POS 商品、快速到貨商品、串倉商品。
-- **綁定商品**：請先將官網商品與蝦皮商品[建立關聯](step3-sync-inventory-with-shopee/#步驟-1建立商品關聯)，再繼續設定。
+- **綁定商品**：請先將官網商品與蝦皮商品[建立關聯](step3-sync-inventory-with-shopee/#operate-shopee-s3-step-1-create)，再繼續設定。
 - **同步單位**：以 **商品** 為單位更新。只要該商品有任一款式建立關聯，執行同步時將會更新 **全數款式** 的資訊。
 
 
-## 操作流程
+## 操作流程 { #operate-shopee-s5 }
 
-### 步驟 1：開啟欄位同步開關
+### 步驟 1：開啟欄位同步開關 { #operate-shopee-s5-step-1-enable }
 
 您可以依營運需求，決定哪些欄位要參與同步：
 
@@ -110,17 +110,17 @@ hide: []
 ![](../../../../assets/images/EC-後台-APPMARKET-蝦皮商品-開啟商品資訊同步01.png)
 
 
-### 步驟 2：編輯商品欄位資訊
+### 步驟 2：編輯商品欄位資訊 { #operate-shopee-s5-step-2-edit }
 
 在執行同步前，請確保以下兩類資訊已填寫完整：
 
 1. **共用資訊**：前往 **商品 > 所有商品 > 點擊商品 > 商品資訊頁籤**。
-    - 可於下方查看 [資訊同步欄位清單](step5-sync-product-info-with-shopee/#資訊同步欄位清單)。
+    - 可於下方查看 [資訊同步欄位清單](step5-sync-product-info-with-shopee/#reference-sync-fields)。
 2. **蝦皮專屬必填項**：切換至 **通路設定** 頁籤。
-    - 可於下方查看 [蝦皮必填欄位](step5-sync-product-info-with-shopee/#蝦皮必填欄位清單)。
+    - 可於下方查看 [蝦皮必填欄位](step5-sync-product-info-with-shopee/#reference-fields)。
     ![](../../../../assets/images/EC-後台-商品-所有商品-設定商品通路頁籤01.png)
 
-### 步驟 3：執行資訊更新
+### 步驟 3：執行資訊更新 { #operate-shopee-s5-step-3 }
 
 1. 前往 **商品 > 所有商品**。
 2. 勾選欲更新的商品（需為已關聯狀態）。
@@ -130,9 +130,9 @@ hide: []
 ![](../../../../assets/images/EC-後台-商品-所有商品-將商品資訊更新到蝦皮01.png)
 
 !!! warning "欄位格式規範"
-    同步前請務必確認內容符合 [蝦皮規範](step4-create-shopee-products-from-site/#欄位填寫規則)，以免同步失敗。
+    同步前請務必確認內容符合 [蝦皮規範](step4-create-shopee-products-from-site/#reference-shopee-s4)，以免同步失敗。
 
-## 檢查清單
+## 檢查清單 { #reference-shopee-s5 }
 
 請確認以下設定皆已正確設置完成，資訊同步機制才能正常運作：
 
@@ -141,7 +141,7 @@ hide: []
 - [x] 已於商品列表執行商品資訊更新
 - [x] 官網商品欄位符合蝦皮規範
 
-## 資訊同步欄位清單
+## 資訊同步欄位清單 { #reference-sync-fields }
 
 | 類別 | 官網欄位名稱 | 蝦皮欄位名稱 | 可獨立設定同步 |
 | :--- | :--- | :--- | :---: |
@@ -155,7 +155,7 @@ hide: []
 
 
 
-## 蝦皮必填欄位清單
+## 蝦皮必填欄位清單 { #reference-fields }
 
 
 - **分類** 

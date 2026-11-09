@@ -71,11 +71,11 @@ hide:
 
 ![客服視窗設定](../../../assets/images/ec-網站外觀-樣板編輯器-theme-liquid.png){ title="客服視窗設定" .hero-page }
 
-## 客服視窗說明
+## 客服視窗說明 { #intro-cs-widget }
 
 設定客服視窗旨在 **建立品牌與客戶間的溝通管道**，有助於增加網站成交機會並減少客服成本。目前主要透過外掛插件（如 GetButton）或 Facebook 即時客服功能來達成。以下為詳細的操作說明與教學：
 
-## GetButton 外掛客服插件設定
+## GetButton 外掛客服插件設定 { #operate-cs-widget-getbutton }
 
 !!! warning "GetButton 並非完全免費的外掛，商家需自行評估其相關費用。"
 
@@ -112,27 +112,27 @@ GetButton 是一款能同時整合 Messenger、LINE 等多種通訊軟體的第�
 	</html>
 	```
 	
-## 臉書即時客服 <small>FBE 2.0</small>
+## 臉書即時客服 <small>FBE 2.0</small> { #operate-cs-widget-fb }
 
 針對使用 **進階版以上** 的商家，可以直接透過 Facebook 商業擴充套件開啟即時客服功能。
 
 - **功能開關：** 商家可在後台執行 FBE 2.0 串接流程，並在設定中找到「臉書即時客服」開關進行啟閉。
 - **優點：** 系統會自動將 Facebook 帳號與 CYBERBIZ 顧客列表關聯，方便篩選透過 FB 登入的會員。
 
-## 進階第三方客服整合 <small>Omnichat</small>
+## 進階第三方客服整合 <small>Omnichat</small> { #operate-cs-widget-omnichat }
 
 若商家有更高階的多通路整合需求，CYBERBIZ 也支援安裝 **Omnichat 客服應用**。
 
 詳細設定說明，請參閱 [Omnichat 官方教學說明 :lucide-external-link:](https://docs.omnichat.ai/features/tong-xun-qu-dao/wang-zhan-dui-hua-cha-jian/install/cyberbiz-an-zhuang-omnichat#bu-zhou-2)。 
 
-## 重要注意事項
+## 重要注意事項 { #prerequisites-cs-widget }
 
 - **二擇一建議：** CYBERBIZ 建議 **Facebook 即時客服或 GetButton 插件擇一使用**，以避免版面混亂或語法衝突。
-- **程式碼風險：** 商家自行修改程式碼若導致版面跑版，需自行承擔風險，建議操作前先記錄時間點，發生異常時利用編輯器中的 **「查看之前版本」** 功能[回溯至先前版本](../code-customization/restore-code-theme-editor.md#操作步驟){ title="使用樣板編輯器恢復網頁代碼" }。
+- **程式碼風險：** 商家自行修改程式碼若導致版面跑版，需自行承擔風險，建議操作前先記錄時間點，發生異常時利用編輯器中的 **「查看之前版本」** 功能[回溯至先前版本](../code-customization/restore-code-theme-editor.md#operate-restore-theme){ title="使用樣板編輯器恢復網頁代碼" }。
 - **版型限制：** 拖拉版型僅支援部分程式碼編輯，實際操作需視後台開放的功能而定。
 
 
-## 常見問題
+## 常見問題 { #faq-cs-widget }
 
 ??? quote "為什麼我貼上 GetButton 程式碼後，官網前台沒有出現客服圖示？" 
 	這通常有以下幾種可能原因： 

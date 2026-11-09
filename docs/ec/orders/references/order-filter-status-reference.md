@@ -61,31 +61,31 @@ icon: lucide/file-search
 hide: []
 ---
 
-## 篩選條件總覽 { #orders-v2-filters }                                                       
+## 篩選條件總覽 { #reference-order-filters }
 
 !!! info "可供選擇的篩選欄位與選項值，將根據您的 **使用方案** 或 **後台功能設定** 而動態調整。"
 
 
 | 篩選條件 | 說明 |
 |---|---|
-| **[訂單狀態](#orders-status){ title="訂單狀態對照表" data-preview }** | 依訂單整體流程狀態過濾（進行中／已結案／已取消） |
-| **[付款狀態](payment-statuses.md#payment-statuses){ title="訂單付款狀態對照表" data-preview }** | 依金流收款／退款狀態過濾（已收到款項、等待付款、已退款等） |
-| **[配送狀態](fulfillment-statuses.md#fulfillment-statuses-table){ title="配送狀態對照表" data-preview }** | 依物流出貨流程狀態過濾（未出貨、已出貨、已到店等） |
-| **[退貨狀態](#orders-return-status){ title="退貨狀態對照表" data-preview }** | 依退貨流程狀態過濾（退貨申請、退貨中、已退貨等） |
-| **[訂單來源](#orders-store){ title="訂單來源對照表" data-preview }** | 區分 EC 線上訂單與各 POS 實體門市訂單 |
-| **[商家來源/<br>收款方](#orders-merchant-from){ title="收款方對照表" data-preview }** | 依金流實際收款方過濾（順立代收／商家／POS／倉庫） |
-| **[配送方式](shipping-methods.md#shipping-methods){ title="配送方式分類對照表" data-preview }** | 依物流通路過濾（超商店取、宅配、自取等） |
+| **[訂單狀態](#reference-order-status){ title="訂單狀態對照表" data-preview }** | 依訂單整體流程狀態過濾（進行中／已結案／已取消） |
+| **[付款狀態](payment-statuses.md#reference-payment-statuses){ title="訂單付款狀態對照表" data-preview }** | 依金流收款／退款狀態過濾（已收到款項、等待付款、已退款等） |
+| **[配送狀態](fulfillment-statuses.md#reference-fulfillment-statuses){ title="配送狀態對照表" data-preview }** | 依物流出貨流程狀態過濾（未出貨、已出貨、已到店等） |
+| **[退貨狀態](#reference-order-return-status){ title="退貨狀態對照表" data-preview }** | 依退貨流程狀態過濾（退貨申請、退貨中、已退貨等） |
+| **[訂單來源](#reference-order-store){ title="訂單來源對照表" data-preview }** | 區分 EC 線上訂單與各 POS 實體門市訂單 |
+| **[商家來源/<br>收款方](#reference-order-merchant-source){ title="收款方對照表" data-preview }** | 依金流實際收款方過濾（順立代收／商家／POS／倉庫） |
+| **[配送方式](shipping-methods.md#reference-shipping-methods){ title="配送方式分類對照表" data-preview }** | 依物流通路過濾（超商店取、宅配、自取等） |
 | **商品通路** | 依訂單中的商品通路標記過濾，適用多通路販售情境 |
 | **配送溫層** | 依商品綁定的常溫／冷藏／冷凍溫層過濾 |
 | **訂單標籤** | 依商家自訂的訂單標籤過濾（可於訂單詳情手動新增） |
 | **訂單商品** | 直接選擇特定商品，僅顯示包含該商品的訂單 |
-| **[訂單類型](#orders-line-group-buy){ title="訂單類型對照表" data-preview }** | 過濾 LINE 團購訂單 |
+| **[訂單類型](#reference-order-line-group-buy){ title="訂單類型對照表" data-preview }** | 過濾 LINE 團購訂單 |
 | **訂單成立日期** | 依訂單建立時間過濾，支援「介於」與「過去 N 天」兩種模式 |
 | **訂單配送日期** | 依預定或實際配送日期過濾，支援「介於」與「過去 N 天」 |
 
 <!--
 
-## 訂單篩選條件對照表 { #orders-filter }
+## 訂單篩選條件對照表 { #operate-order-filter }
 
 
 以下為系統內所有可用的篩選條件說明：
@@ -124,7 +124,7 @@ hide: []
 
 -->
 
-## 退貨狀態對照表 { #orders-return-status }
+## 退貨狀態對照表 { #reference-order-return-status }
 
 
 | 退貨狀態 | 說明 |
@@ -140,7 +140,7 @@ hide: []
 | 已退貨   | 顧客已完成退貨且包裹已回到商家 |
 
 
-## 訂單狀態對照表 { #orders-status }
+## 訂單狀態對照表 { #reference-order-status }
 
 
 | 訂單狀態 | 說明 |                                              
@@ -150,7 +150,7 @@ hide: []
 | 已取消 | 訂單因顧客或商家取消而中止，相關金流／物流不會繼續執行 |                                                               
 
 
-## 收款方對照表 { #orders-merchant-from }
+## 收款方對照表 { #reference-order-merchant-source }
 
 
 | 收款方 | 說明 |                                                                                       
@@ -164,7 +164,7 @@ hide: []
 !!! note "註釋"
     此篩選器整體只在企業版、各 PLUS版（高手 PLUS / 進階 PLUS / 專業PLUS），或未啟用「自有金流」功能的店家才會顯示。
 
-## 訂單來源對照表 { #orders-store }                                                                       
+## 訂單來源對照表 { #reference-order-store }
                                                                                                             
 | 訂單來源 | 說明 |                                                                                        
 | :-- | :-- |                                                                                              
@@ -173,7 +173,7 @@ hide: []
                                                                                                             
 !!! note "此篩選器需啟用 **POS 系統** 才會出現。"
 
-## 訂單類型對照表 { #orders-line-group-buy }
+## 訂單類型對照表 { #reference-order-line-group-buy }
 
 
 | 訂單類型 | 說明 |
@@ -183,7 +183,7 @@ hide: []
 !!! note "註釋"
     此篩選器需啟用 **LINE 團購** 功能才會出現；未勾選時即代表「不限訂單類型」（包含一般 EC 訂單與 LINE 團購訂單）。                                                                                               
  
-## 倉庫類型對照表 { #orders-warehouse-type }                                                              
+## 倉庫類型對照表 { #reference-order-warehouse-type }
                                                                                                              
 | 倉庫類型 | 說明 |
 | :-- | :-- |                                                                                        
@@ -199,7 +199,7 @@ hide: []
     - 「混合訂單」選項用於辨識 **同單跨倉** 的特殊情境，協助揀貨人員依倉別分頭處理。
     - 各選項是否出現在下拉中，會依商家實際啟用的倉儲整合動態顯示；未啟用的倉儲不會列出。
 
-## 關鍵字匹配邏輯 { #orders-match-mode }
+## 關鍵字匹配邏輯 { #specs-order-match-mode }
 
 為提升搜尋效能與精確度，系統針對不同欄位採取兩種搜尋模式。若搜尋不到預期結果，請確認輸入內容是否符合該欄位的匹配規則。
 

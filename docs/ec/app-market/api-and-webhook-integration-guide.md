@@ -83,7 +83,7 @@ hide: []
     - 「API 與 Webhook 串接服務」在 PLUS 方案中屬於選配模組（11 選 2），商家需確認已選配該模組方可使用。企業版則直接內建此功能。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-api-webhook }
 
 - **技術門檻**：API 與 Webhook 串接需由工程人員進行開發。CYBERBIZ 僅提供介面與文件，不提供程式撰寫等技術實作服務。
 - **開通申請**：若您的後台未顯示相關功能，請聯繫系統客服提出開通需求。
@@ -95,21 +95,21 @@ hide: []
 
 
 
-## 核心概念說明
+## 核心概念說明 { #overview-api-webhook }
 
-### API
+### API { #overview-api-webhook-api }
 
 API 是一種雙向的資訊交換機制。您的系統可主動向 CYBERBIZ 伺服器發送請求，執行取得 (Get)、建立 (Post)、更新 (Put) 或刪除 (Delete) 系統資訊的操作。
 
-### Webhook
+### Webhook { #overview-api-webhook-webhook }
 
 Webhook 類似於「訂閱服務」。當 CYBERBIZ 系統發生特定事件（如訂單成立、會員註冊）時，系統會即時將最新資訊推送至您預設的網址 (Endpoint URL)，利於後續自動化判斷。
 
 
 
-## 操作流程
+## 操作流程 { #operate-api-webhook }
 
-### 步驟一：建立自訂應用程式
+### 步驟一：建立自訂應用程式 { #operate-api-webhook-step-create }
 
 在後台建立應用程式以取得串接所需的憑證。
 
@@ -125,7 +125,7 @@ Webhook 類似於「訂閱服務」。當 CYBERBIZ 系統發生特定事件（�
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/自訂擴充服務-串接-API-Webhook02.png){ .screenshot }
 
-### 步驟二：設定 Webhook 事件
+### 步驟二：設定 Webhook 事件 { #operate-api-webhook-step-settings-webhook }
 
 若需接收即時通知，請配置 Webhook 訂閱。
 
@@ -141,9 +141,9 @@ Webhook 類似於「訂閱服務」。當 CYBERBIZ 系統發生特定事件（�
 4. 點擊 **儲存**，系統將開始推送相關事件資訊。
 
 
-## 開發參考資訊
+## 開發參考資訊 { #reference-api-webhook }
 
-### API 文件查詢
+### API 文件查詢 { #reference-api-webhook-api-docs }
 
 您可以透過測試帳號登入 API 文件中心，查看各項 API 的詳細參數與資料格式。
 
@@ -165,7 +165,7 @@ API串接項目依照顏色簡單分類：
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/APIWebhook串接06.png){ .screenshot }
 
-### 如何用 token 串接 API 取得資料
+### 如何用 token 串接 API 取得資料 { #reference-api-webhook-api-token }
 
 串接 API 時，請在 Request Header 中帶入 Access Token。
 

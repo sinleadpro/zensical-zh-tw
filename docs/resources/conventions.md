@@ -20,26 +20,26 @@ permalink: "https://help.cyberbiz.io/resources/conventions/"
 
 本文件使用一些符號以供說明之用。在您繼續閱讀之前，請確保您已熟悉以下慣例列表：
 
-### :lucide-layers: 適用產品 { #conventions-products }
+### :lucide-layers: 適用產品
 
 表示內容適用 CYBERBIZ 相關的產品線，如 EC、POS、WMS 等。
 
-### :lucide-tag: 適用方案 { #conventions-plans }
+### :lucide-tag: 適用方案
 
 表示內容僅適用特定方案用戶。
 
-### :lucide-bolt: 適用功能 { #conventions-features }
+### :lucide-bolt: 適用功能
 
 表示內容僅適用於有開啟特定後台功能的用戶（如多國語系）。
 
-### :lucide-layout-dashboard: 適用版型 { #conventions-themes }
+### :lucide-layout-dashboard: 適用版型
 
 表示內容僅適用特定前台版型（如拖拉版型、預設版型）。
 
-### :lucide-grid-2x2-plus: 適用擴充 { #conventions-extensions }
+### :lucide-grid-2x2-plus: 適用擴充
 
 表示內容適用特定的 CYBERBIZ 擴充功能。
 
-### :lucide-puzzle: 標配／選配 { #conventions-plan-options }
+### :lucide-puzzle: 標配／選配
 
 表示內容在 PLUS 方案中屬於標配或選配模組。選配模組採 11 選 2，企業版通常直接內建。

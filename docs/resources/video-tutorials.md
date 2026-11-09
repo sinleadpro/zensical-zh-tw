@@ -16,7 +16,7 @@ permalink: "https://help.cyberbiz.io/resources/video-tutorials/"
 icon: lucide/play
 plan_options: []
 ---
-## 課程平台 { #course-platforms }
+## 課程平台 { #reference-video-course-platforms }
 
 一站式影片課程，從系統操作到電商經營，滿足各階段學習需求。
 
@@ -62,7 +62,7 @@ plan_options: []
 
 * * *
 
-## 線上工作坊 { #online-workshops }
+## 線上工作坊 { #reference-video-online-workshops }
 
 CYBERBIZ 舉辦的 Meta 廣告系列線上分享會錄影，由產品經理與專家親授實戰技巧。
 
@@ -96,7 +96,7 @@ CYBERBIZ 舉辦的 Meta 廣告系列線上分享會錄影，由產品經理與�
 
 * * *
 
-## 快速教學影片 { #quick-videos }
+## 快速教學影片 { #reference-video-quick }
 
 各平台上的精選教學影片，快速掌握特定功能的操作方式。
 

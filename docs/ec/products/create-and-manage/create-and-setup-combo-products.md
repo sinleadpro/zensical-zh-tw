@@ -82,7 +82,7 @@ hide: []
 
 ![新增組合商品](../../../assets/images/ec-create-new-product-combo.zh-tw.png){ title="新增組合商品：商品 > 新增組合商品" .hero-page }
 
-## 組合商品說明
+## 組合商品說明 { #intro-combo-products }
 
 === "一般、PLUS"
 
@@ -113,11 +113,11 @@ hide: []
 			2.  **區塊二（任選）**：配件池（保護貼、鍵盤、觸控筆等）任選 2 件。
     	- **選購方式**：消費者購買此套餐時，一定會拿到一台平板主機與一個原廠保護殼（必買組合），但配件部分可以自由決定要如何搭配。
 
-## 組合商品功能限制
+## 組合商品功能限制 { #prerequisites-combo-products }
 
 組合商品在系統中的限制如下：
 
-### 有條件支援的屬性設定
+### 有條件支援的屬性設定 { #prerequisites-combo-products-attrs }
 
 - **後台商品標籤**
 
@@ -144,7 +144,7 @@ hide: []
         ![](../../../assets/images/EC-後台-商品-組合商品-綁定商品標籤01.png)
 
 
-### 不支援的屬性設定
+### 不支援的屬性設定 { #prerequisites-combo-products-unsupported }
     
 - 商品類型、商品廠商    
 - Google 產品類別
@@ -152,16 +152,16 @@ hide: []
 - 快速到貨      
 - 商品關聯群組
         
-### 批次操作限制
+### 批次操作限制 { #prerequisites-combo-products-batch }
     
 - 暫不支援組合商品的批次新增或批次編輯
         
-### 重量計算
+### 重量計算 { #specs-combo-products-weight }
     
 - 組合商品不計入子商品重量，系統固定認定為 0 公斤
 - 結帳頁會依據物流材積限制進行判斷
 
-### 組合商品適用行銷活動
+### 組合商品適用行銷活動 { #specs-combo-products-campaigns }
 
 以下表格說明組合商品可參與的行銷活動及限制：
 
@@ -202,11 +202,11 @@ hide: []
 	| 任選組合品 | | :material-close: |
 
 
-## 新增組合商品
+## 新增組合商品 { #operate-combo-products }
 
 透過組合商品功能，商家可以將多個子商品打包銷售，提升銷售彈性及促銷效率。
 
-### 步驟 1：進入組合商品管理
+### 步驟 1：進入組合商品管理 { #operate-combo-products-enter }
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 組合商品**。
 2. 點擊 **新增組合商品**。
@@ -215,7 +215,7 @@ hide: []
 
 
 
-### 步驟 2：編輯組合商品資訊
+### 步驟 2：編輯組合商品資訊 { #operate-combo-products-info }
 
 === "一般、PLUS"
 
@@ -259,7 +259,7 @@ hide: []
       ![組合商品前台顯示](../../../assets/images/ec-product-combo-basic-setting-frontend.zh-tw.png){ title="組合商品前台顯示" }
 
 
-### 步驟 3：上傳商品圖片
+### 步驟 3：上傳商品圖片 { #operate-combo-products-images }
 
 建議上傳包含組合商品內容物的圖片，以清晰呈現商品組合。
 
@@ -267,7 +267,7 @@ hide: []
 
 
 
-### 步驟 4：設定組合商品內容
+### 步驟 4：設定組合商品內容 { #operate-combo-products-content }
 
 === "一般、PLUS"
 
@@ -301,7 +301,7 @@ hide: []
         - **商品編號（SKU）**：設定組合商品的唯一庫存單位編號，建議與子商品的編號區隔，以利訂單管理。
 
 
-    !!! info "庫存數量計算方式請參考 [庫存管理](#子商品庫存管理) 的「商品組合 C」。"
+    !!! info "庫存數量計算方式請參考 [庫存管理](#operate-combo-products-stock) 的「商品組合 C」。"
 
 === "企業"
 
@@ -354,7 +354,7 @@ hide: []
     - **異常處理**：若組合品內因單品衝突而導致無適用之溫層與物流，組合品狀態無法設為公開，前台商品頁將會顯示 404 錯誤頁面。
     - **排除方式**：請編輯各單品的物流與溫層，使其有共同的溫層/物流，或將特殊溫層/物流的商品從該組合品中移除。
 
-## 前台結帳與購物車行為
+## 前台結帳與購物車行為 { #specs-combo-products-checkout }
 
 === "一般、PLUS"
     
@@ -396,10 +396,10 @@ hide: []
         ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-商品頁-組合商品03.png){ .small-image }
 
 - 購物車與結帳頁會判斷組合商品是否符合物流材積限制。  
-- 組合商品僅支援單一溫層，不支援[多通路觸發多購物車](../shipping/setup-product-shipping-conditions.md#多通路購物車拆分){ title="設定商品配送條件（物流、溫層與出貨通路）" }。
+- 組合商品僅支援單一溫層，不支援[多通路觸發多購物車](../shipping/setup-product-shipping-conditions.md#specs-ship-conditions-split-cart){ title="設定商品配送條件（物流、溫層與出貨通路）" }。
 
 ![組合商品購物車](../../../assets/images/ec-product-combo-optional-quantity-cart.zh-tw.png){ title="組合商品購物車" }
-## 組合商品出貨
+## 組合商品出貨 { #specs-combo-products-ship }
 
 當組合商品訂單成立後，系統在產生超商或宅配託運單時，會同時生成以下四份文件。所有文件皆包含組合商品中所有子商品的詳細資訊：
 
@@ -408,7 +408,7 @@ hide: []
 - **揀貨單**：提供倉庫揀貨依據，包含組合商品內子商品。
 - **託運單**：作為物流運送文件，包含組合商品所有子商品資訊。
 
-## 子商品庫存管理
+## 子商品庫存管理 { #operate-combo-products-stock }
 
 組合商品是否可供購買（庫存是否足夠），取決於其 子商品 的庫存數量及設定。若其中任一子商品庫存不足，且該子商品庫存不足時設定為 **停止銷售**，則該組合商品將無法購買。進一步瞭解[商品庫存相關設定](create-update-products.md#operate-product-create-inventory){ title="新增與更新商品" }。
 
@@ -426,7 +426,7 @@ hide: []
 |庫存不足停止銷售 (庫存數量 = 0)|庫存不足停止銷售** (庫存數量 = 20)|庫存不足|
 
 
-## 組合商品價差計算
+## 組合商品價差計算 { #specs-combo-products-price-diff }
 
 在訂單報表、Excel/CSV 匯出以及 API 回傳中，系統提供 **組合品價差** 欄位，用於幫助商家快速對帳及分析折扣分配。
 
@@ -461,7 +461,7 @@ hide: []
     - 「組合品價差」為原價減去最終價格的差額
     - 三個子商品的組合品價差總和 = 50 元（與總折扣一致）
 
-## 後續步驟
+## 後續步驟 { #next-steps-combo-products }
 
 <div class="grid cards" markdown>
 
@@ -475,7 +475,7 @@ hide: []
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-combo-products }
 ??? quote "組合商品可以修改組合類型嗎？"
     商品一旦建立後，組合類型（指定組合或任選組合）即無法修改。若需更改，建議重新建立商品。
 

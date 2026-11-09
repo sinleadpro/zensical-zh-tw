@@ -77,28 +77,28 @@ hide: []
     - **手動核銷**：若顧客手機螢幕損壞無法掃描，可透過輸入票券序號完成兌換。
     - **紀錄排查**：當顧客對兌換狀態有疑義時，於 POS 前台即時查詢核銷歷史。
 
-## 使用須知
+## 使用須知 { #prerequisites-ticket-redeem }
 
 - **人員權限**：直接使用 POS 人員帳號即可操作，無需額外設定。
-> EC 商家需先於後台建立 [電子票券門市店員權限](../../ec/e-ticket/setup-e-ticket-store-permissions.md#建立電子票券門市店員帳號)。
+> EC 商家需先於後台建立 [電子票券門市店員權限](../../ec/e-ticket/setup-e-ticket-store-permissions.md#operate-ticket-permissions-staff-account)。
 - **前置設定**：核銷前請確保已完成電子票券商品的建立與上架。
 
 
-## 核銷操作流程
+## 核銷操作流程 { #operate-ticket-redeem }
 
-### 1. 進入電子票券選單
+### 1. 進入電子票券選單 { #operate-ticket-redeem-1-ticket }
 
 於 POS 前台左側選單，點擊 **電子票券** 進入管理介面。
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券01.png){ .screenshot }
 
-### 2. 搜尋票券
+### 2. 搜尋票券 { #operate-ticket-redeem-2 }
 
 您可以透過 **進階搜尋**（如訂單編號、顧客電話）找到對應票券。
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券02.png){ .screenshot }
 
-### 3. 執行核銷
+### 3. 執行核銷 { #operate-ticket-redeem-3-run-redeem }
 
 點選 **核銷票券**，系統提供兩種核銷方式：
 
@@ -107,18 +107,18 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券03.png){ .screenshot }
 
-### 4. 確認數量
+### 4. 確認數量 { #operate-ticket-redeem-4-confirm-quantity }
 確認預計核銷的數量無誤後，點擊 **確認** 即可完成核銷動作。
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券04.png){ .screenshot }
 
 
 
-## 查詢票券紀錄
+## 查詢票券紀錄 { #operate-ticket-history }
 
 在電子票券頁面中，您可以切換不同頁籤進行管理：
 
-### 票券訂單與詳細內容
+### 票券訂單與詳細內容 { #operate-ticket-history-ticket-details }
 
 在 **票券訂單** 頁籤中，點擊訂單編號可進入明細頁面。
 
@@ -127,7 +127,7 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-前台核銷電子票券05.png){ .screenshot }
 
-### 核銷紀錄查詢
+### 核銷紀錄查詢 { #operate-ticket-history-redemption-history }
 
 在 **核銷紀錄** 頁籤中，可查看門市過往所有的核銷歷程，包含核銷時間、操作人員及票券名稱。
 

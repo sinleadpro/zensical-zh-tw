@@ -69,7 +69,7 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Pro / Business
 { .doc-badge }
 
-## 金流選項說明
+## 金流選項說明 { #intro-na-payments }
 
 | 付款方式 | 交易類別 | 信用卡持卡國別 | 手續費率 | 最低結帳門檻 |
 | :--- | :--- | :--- | :--- | :--- | 
@@ -82,7 +82,7 @@ hide: []
 - **帳務對帳**：相關金流手續費將列於每期對帳單。
 - **最低結帳門檻**：系統設有預設之最低結帳門檻，商家無需手動配置；單筆訂單金額須達該門檻，結帳頁面始會顯示對應之付款選項。
 
-## 使用須知
+## 使用須知 { #prerequisites-na-payments }
 
 - **信用卡支援卡別**： Visa、Mastercard、American Express、Discover、Diners Club、JCB、China UnionPay （銀聯）。
 - **[電子錢包使用規範](https://docs.stripe.com/stripe-js/elements/payment-request-button)**
@@ -93,7 +93,7 @@ hide: []
 
 
 
-## 步驟1：開啟金流選項
+## 步驟1：開啟金流選項 { #operate-na-payments-options }
 
 前往 **金物流 > 金流設定**，點擊 **CYBERBIZ PAYMENTS** 右側 :lucide-file-pen-line: **設定**。
 
@@ -102,7 +102,7 @@ hide: []
 ![](../../assets/images/北美站-後台-金物流-金流設定-啟用金流01.png)
 
 
-## 步驟2：開啟支付方式
+## 步驟2：開啟支付方式 { #operate-na-payments-methods }
 
 可依需求勾選開啟以下付款方式。
 

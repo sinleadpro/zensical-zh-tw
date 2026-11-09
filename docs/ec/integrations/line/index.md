@@ -16,7 +16,7 @@ hide:
   - feedback
 ---
 
-## 基礎串接
+## 基礎串接 { #operate-line }
 
 <div class="grid cards" markdown>
 
@@ -48,7 +48,7 @@ hide:
 
 ---
 
-## 會員綁定與應用
+## 會員綁定與應用 { #operate-line-member-bind }
 
 <div class="grid cards" markdown>
 
@@ -88,7 +88,7 @@ hide:
 
 ---
 
-## 圖文選單與好友引導
+## 圖文選單與好友引導 { #intro-line }
 
 <div class="grid cards" markdown>
 
@@ -120,7 +120,7 @@ hide:
 
 ---
 
-## 分眾推播與廣告追蹤
+## 分眾推播與廣告追蹤 { #operate-line-ads-tracking }
 
 <div class="grid cards" markdown>
 
@@ -152,7 +152,7 @@ hide:
 
 ---
 
-## 導購應用
+## 導購應用 { #intro-line-overview-line }
 
 <div class="grid cards" markdown>
 

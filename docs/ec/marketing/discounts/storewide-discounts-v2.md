@@ -80,7 +80,7 @@ hide: []
 !!! tip "介面改版說明"
     **全館折扣** 已推出新版介面，目前僅開放 **企業版**。其餘方案將陸續開放，敬請稍待。
 
-## 全館折扣規格
+## 全館折扣規格 { #specs-discount }
 
 「全館活動」是行銷模組中的一項特定活動，設定後將針對 **全站所有商品** 統一套用折扣優惠。  
   
@@ -94,15 +94,15 @@ hide: []
 | **EC +POS** | 可指定活動通路<br>- **線上**：僅限官方購物網站使用<br>- **線下**：僅限實體門市 POS 端使用<br>- **全通路**：線上與線下通路同步開啟優惠 | 
 
 
-## 列表管理  
+## 列表管理 { #operate-discount }
 
-### 搜尋
+### 搜尋 { #operate-discount-intro-details }
 
 前往 **行銷活動 > 全館折扣**，您可依活動名稱查詢指定活動。  
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-搜尋01.png){ .screenshot }
 
-### 篩選
+### 篩選 { #operate-discount-details }
 
 您可依以下條件篩選指定活動：  
   
@@ -115,7 +115,7 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-篩選01.png){ .screenshot }
 
-### 自定義列表欄位
+### 自定義列表欄位 { #operate-discount-fields }
 
 您可依據個人閱覽需求，彈性調整列表的欄位排序。  
   
@@ -134,9 +134,9 @@ hide: []
     </div>
 
 
-## 建立全館折扣 
+## 建立全館折扣 { #operate-discount-create-discount }
 
-### 步驟一：填寫基本設定
+### 步驟一：填寫基本設定 { #operate-discount-create-discount-settings }
 
 前往 **行銷活動 > 全館折扣**，依序填寫以下欄位：
 
@@ -146,7 +146,7 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-基本設定01.png){ .screenshot }
 
-### 步驟二：填寫折扣設定
+### 步驟二：填寫折扣設定 { #operate-discount-create-discount-details }
 
 請依據您選擇的 **折扣類型**，設定對應欄位：
 
@@ -179,7 +179,7 @@ hide: []
 
 
 
-## 編輯全館折扣
+## 編輯全館折扣 { #operate-discount-edit-discount }
 
 您可依需求編輯已建立的活動，系統將根據 **活動狀態** 開放不同的編輯權限：  
   
@@ -199,7 +199,7 @@ hide: []
 - `註二`：當折扣類型設定為 **優惠券** 時，方有此欄位可供編輯。
 
 
-## 查看編輯紀錄 
+## 查看編輯紀錄 { #operate-discount-view-edit }
   
 您可於活動編輯頁下方查看編輯紀錄，系統會依據「活動狀態」決定是否建立記錄：  
   
@@ -213,7 +213,7 @@ hide: []
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-編輯紀錄01.png){ .screenshot }
 
 
-## 結帳頁差額提醒
+## 結帳頁差額提醒 { #intro-discount }
 
 !!! info "使用須知"
     - **支援版本**：此功能僅供 **企業版** 專用。

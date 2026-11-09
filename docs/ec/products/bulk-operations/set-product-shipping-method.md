@@ -81,13 +81,13 @@ hide: []
 [:lucide-layers:{ title="適用產品" }](../../../resources/conventions.md) | 智慧倉儲 / 跨境電商
 { .doc-badge }
 
-## 使用須知
+## 使用須知 { #prerequisites-ship-method }
 
 - **選項來源**：**出貨方式** 的可選項目會依商店已開通的物流功能顯示。
 
-## 操作流程
+## 操作流程 { #operate-ship-method }
 
-### 單筆設定
+### 單筆設定 { #operate-ship-method-single }
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 所有商品**。
 2. 點擊目標商品，進入商品編輯頁。
@@ -96,7 +96,7 @@ hide: []
 
 ![](../../../assets/images/EC-後台-商品-所有商品-單筆設定出貨方式01.png){ .screenshot }
 
-### 批次設定
+### 批次設定 { #operate-ship-method-batch }
 
 1. 前往 **商品 > 所有商品**，勾選要修改的商品。
 2. 點擊 **更多操作 > 設定出貨方式**。
@@ -107,7 +107,7 @@ hide: []
 
 ![](../../../assets/images/EC-後台-商品-所有商品-批次設定出貨方式01.png){ .screenshot }
 
-### Excel 大量設定
+### Excel 大量設定 { #operate-ship-method-excel }
 
 1. 前往 **商品 > 所有商品**，勾選要修改的商品。
 2. 點擊 **更多操作 > 匯出商品**，下載商品 Excel 檔案。
@@ -120,7 +120,7 @@ hide: []
 
 如需了解 Excel 匯入的新增、更新判斷與完整流程，請參考[Excel 大量匯入商品](../bulk-operations/excel-import-products.md){ title="Excel 大量匯入商品" }。
 
-## 驗證設定結果
+## 驗證設定結果 { #operate-ship-method-verify }
 
 - **方法一**：回到 **商品 > 所有商品**，使用 **進階搜尋**，以 **出貨方式** 條件篩選商品，確認篩選列表中的商品正確無誤。
 
@@ -129,7 +129,7 @@ hide: []
 - **方法二**：開啟目標商品的 **設定** 分頁，確認 **出貨方式** 顯示為預期的出貨來源。
 
 
-## 返回使用情境
+## 返回使用情境 { #next-steps-ship-method }
 
 智慧倉儲（拆單、混單）或 Amazon FBA 會依出貨方式產生對應訂單。完成本頁設定後，請返回原情境文件繼續操作。
 

@@ -59,22 +59,22 @@ comments: false
 
 ![超商代碼繳費設定](../../../assets/images/EC-後台-金物流-金流設定-啟用超商條碼01.png){ title="超商代碼繳費設定" .hero-page }
 
-## 超商代碼付款說明
+## 超商代碼付款說明 { #intro-cvs-code }
 
 **超商代碼繳費** 讓顧客在官網下單後取得一組繳費代碼，前往指定便利商店的多媒體機台列印繳費單（小白單），再至櫃檯完成付款。
 
-## 使用須知
+## 使用須知 { #prerequisites-cvs-code }
 
 - **單筆交易金額上限**：20,000 元
 - **繳款期限**： 7 天；逾期後可重新取號
 - **支援超商**：7-11、全家、萊爾富
 
 
-## 啟用超商代碼繳費
+## 啟用超商代碼繳費 { #operate-cvs-code-enable }
 
 商家可透過 CYBERBIZ PAYMENTS 開啟此功能，讓消費者在結帳時選擇超商代碼並至門市繳費。
 
-### 步驟 1：編輯 CYBERBIZ PAYMENTS 金流設定
+### 步驟 1：編輯 CYBERBIZ PAYMENTS 金流設定 { #operate-cvs-code-enter-payments }
 
 1.  登入 CYBERBIZ 管理後台，前往 **金物流 > 金流設定**。
 2.  在金流設定列表中，找到 **CYBERBIZ PAYMENTS** 選項。
@@ -84,7 +84,7 @@ comments: false
 
 ---
 
-### 步驟 2：開啟超商代碼繳費功能
+### 步驟 2：開啟超商代碼繳費功能 { #operate-cvs-code-enable-feature }
 
 1.  在 CYBERBIZ PAYMENTS 設定頁面中，找到 **超商代碼繳費** 選項。
 2.  將開關切換至 **開啟** 狀態。
@@ -93,7 +93,7 @@ comments: false
 
 ---
 
-### 步驟 3：儲存設定
+### 步驟 3：儲存設定 { #operate-cvs-code-save }
 
 1.  確認開啟後，點擊頁面下方的 **確認** 按鈕。
 2.  系統顯示儲存成功訊息後，可在金流設定列表中確認完成功能開啟。
@@ -101,9 +101,9 @@ comments: false
 !!! warning "重要提醒"
     - 開啟超商代碼繳費功能後，請確認您同時有搭配支援的物流方式（如超商取貨），消費者才能在結帳時正常選擇此付款方式。
     - 若商家有設定「[訂單自動取消](../../payments-and-logistics/payments/order-settings.md#operate-order-settings-auto-cancel){ title="訂單相關設定" }」的天數限制，一旦超過時限，代碼將會失效且無法進行繳費。
-    - 若商家 [手動取消訂單](../basics/cancel-order/#orders-cancel-merchant)，超商代碼不會自動失效，顧客仍可在效期內繳費。繳費後，訂單會重新成立，商家可繼續出貨或辦理退款。
+    - 若商家 [手動取消訂單](../basics/cancel-order/#operate-cancel-merchant)，超商代碼不會自動失效，顧客仍可在效期內繳費。繳費後，訂單會重新成立，商家可繼續出貨或辦理退款。
 
-## 取得超商代碼的步驟 <small>顧客端</small>
+## 取得超商代碼的步驟 <small>顧客端</small> { #operate-cvs-code-get-code }
 
 顧客在下單過程中與下單後，可以透過以下管道取得繳費代碼：
 
@@ -123,7 +123,7 @@ comments: false
 
     ![訂單成立Email-前往付款](../../../assets/images/EC-Email通知-訂單成立-前往付款.png){ title="訂單成立Email-前往付款" }
 
-## 便利商店現場繳費方式 <small>顧客端</small>
+## 便利商店現場繳費方式 <small>顧客端</small> { #operate-cvs-code-instore-pay }
 
 取得代碼後，請前往支援的超商，在多媒體機台輸入代碼、列印繳費單，再持單至櫃檯繳費。各超商機台操作請見下列說明：
 
@@ -144,7 +144,7 @@ comments: false
 </div>
 
 
-## 後續操作
+## 後續操作 { #next-steps-cvs-code }
 
 <div class="grid cards" markdown>
 

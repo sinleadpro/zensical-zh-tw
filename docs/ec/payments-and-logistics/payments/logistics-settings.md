@@ -199,7 +199,7 @@ hide: []
 3. **(選用)開啟前台部分退貨：** 若已開通對應功能，可勾選 **「開啟『前台部分退貨申請』」**，讓顧客在退貨申請頁勾選欲退貨的商品。
 4. **完成：** 點擊 **「儲存」**。
 
-各出貨方式的預設退貨天數與計算起點，請見 [前台可退貨天數對照表](../references/return-eligible-days-reference.md#return-eligible-days){ data-preview }。
+各出貨方式的預設退貨天數與計算起點，請見 [前台可退貨天數對照表](../references/return-eligible-days-reference.md#specs-return-eligible-days){ data-preview }。
 
 [^return-zero]: 填入 0 代表不開放消費者在前台申請退貨；留空則使用系統預設天數。
 
@@ -230,7 +230,7 @@ hide: []
 
 ??? quote "退貨天數填 0 是什麼意思？"
     [](){ #faq-logistics-settings-return-zero }
-    填入 0 代表 **不開放** 顧客在前台自行申請退貨。若希望使用系統預設天數，請將欄位 **留空**(CYBERBIZ 宅配 / 超取預設 10 天，其他出貨方式預設 14 天)。詳見 [前台可退貨天數對照表](../references/return-eligible-days-reference.md#return-eligible-days){ data-preview }。
+    填入 0 代表 **不開放** 顧客在前台自行申請退貨。若希望使用系統預設天數，請將欄位 **留空**(CYBERBIZ 宅配 / 超取預設 10 天，其他出貨方式預設 14 天)。詳見 [前台可退貨天數對照表](../references/return-eligible-days-reference.md#specs-return-eligible-days){ data-preview }。
 
 ??? quote "找不到「配送日期必填」或「設定特定日期不出貨」？"
     [](){ #faq-logistics-settings-advanced-date-missing }

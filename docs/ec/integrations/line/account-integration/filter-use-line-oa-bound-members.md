@@ -73,13 +73,13 @@ hide:
 
 ![會員篩選器-已完成LINE綁定](../../../../assets/images/ec-會員-所有會員-篩選器-已完成line綁定.png){ .hero-page title="會員篩選器-已完成LINE綁定" }
 
-## 篩選 LINE 綁定會員說明
+## 篩選 LINE 綁定會員說明 { #operate-use-line }
 
 您可以透過後台的會員篩選器，快速識別出哪些會員已經完成 [**LINE OA 官方帳號與官網會員的綁定**](bind-line-oa-store-members.md){ title="綁定 LINE 官方帳號與官網會員" } ，以便進行後續的分眾行銷或受眾打包。
 
 以下是詳細的操作說明與教學：
 
-## 篩選綁定名單
+## 篩選綁定名單 { #operate-use-line-bind }
 
 1. **進入路徑**：前往管理後台的 **會員 > 所有會員**。
 2. **開啟篩選器**：點選搜尋欄位中的 **新增篩選條件** 或點擊輸入關鍵字處，系統會跳出篩選條件選單。
@@ -90,7 +90,7 @@ hide:
 
 ![篩選已完成LINE綁定會員](../../../../assets/images/ec-會員-會員篩選器-已完成line綁定-操作.gif){ title="篩選已完成LINE綁定會員" }
 
-## 名單匯出與應用
+## 名單匯出與應用 { #operate-use-line-export }
 
 1. **匯出至信箱**：
     - 篩選完成後，個別勾選欲匯出的會員，或一次勾選當頁所有會員後，點選 **匯出** 按鈕。
@@ -102,7 +102,7 @@ hide:
 2. **打包 LINE 受眾 (企業版 / PLUS版 專用)**：
     - 若您篩選的是「已綁定」的會員，可以在儲存該分群時，選擇將此包受眾 [**同步上傳至 LINE OA 後台**](../marketing/setup-line-oa-audience.md){ title="設定 LINE OA 受眾串接" }  ，用於精準的訊息推播或廣告投放。
 
-## 後續操作
+## 後續操作 { #next-steps-use-line }
 
 <div class="grid cards" markdown>
 
@@ -118,7 +118,7 @@ hide:
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-use-line }
 
 ??? quote "什麼是 LINE 綁定？"
 	篩選器中的「已完成 LINE 綁定」是指會員已完成官網會員帳號與 LINE OA 帳號的連動。

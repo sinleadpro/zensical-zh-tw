@@ -80,7 +80,7 @@ hide: []
 
 
 
-## 使用須知
+## 使用須知 { #prerequisites-network-alerts }
 
 - **判定標準**：當系統接收 POS 店端上傳資料超過 **5 秒** 未果，即被系統判定為 **網路不穩定**。
 - **檢測建議**：若感到連線緩慢，可使用第三方工具（如 [fast.com](https://fast.com/zh/tw/)）測試目前的下行速度。
@@ -88,11 +88,11 @@ hide: []
 
 
 
-## 系統警示機制
+## 系統警示機制 { #specs-network-alerts }
 
 系統會透過「主動偵測」與「操作觸發」兩種方式，提供不同層級的提示。
 
-### 1. 網路連線不穩 (Network Unstable)
+### 1. 網路連線不穩 (Network Unstable) { #specs-network-alerts-1-network-connection }
 
 當連線速度過慢但未完全中斷時：
 
@@ -101,7 +101,7 @@ hide: []
 
 ![](../../assets/images/POS-前台-結帳-網路連線過慢斷線提示01.png){ .screenshot }
 
-### 2. 網路斷線 (Network Disconnected)
+### 2. 網路斷線 (Network Disconnected) { #specs-network-alerts-2-network-network }
 
 當連線完全中斷時：
 
@@ -110,11 +110,11 @@ hide: []
 
 ![](../../assets/images/POS-前台-結帳-網路連線過慢斷線提示02.png){ .screenshot }
 
-## 疑難排解：排除廣告阻擋套件的誤判
+## 疑難排解：排除廣告阻擋套件的誤判 { #intro-network-alerts }
 
 若您確認現場網路正常（其他網頁可流暢開啟），但 POS 仍持續提示 **網路斷線**，通常是受瀏覽器廣告阻擋套件（如 AdBlock）影響。
 
-### 解決步驟
+### 解決步驟 { #intro-network-alerts-resolution }
 
 1. 檢查 Chrome 瀏覽器的 **擴充套件** 中，是否包含 AdBlock 或類似的廣告阻擋程式。
     ![](../../assets/images/Chrome擴充功能-Adblock-POS網路斷線警示阻擋01.png){ .screenshot }

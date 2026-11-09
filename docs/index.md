@@ -176,6 +176,8 @@ permalink: "https://help.cyberbiz.io/"
   </div>
 
   <div id="latest" role="tabpanel" class="tab-content">
+    <a href="/resources/new-release/2026-10/"><span class="badge">新增</span>2026 年 10 月新功能報報 <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-right" viewBox="0 0 24 24" width="1em" height="1em" style="vertical-align:middle;margin-left:2px"><circle cx="12" cy="12" r="10"/><path d="m12 16 4-4-4-4M8 12h8"/></svg> </a> 
+    <a href="/resources/new-release/2026-09/"><span class="badge">新增</span>2026 年 9 月新功能報報 <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-right" viewBox="0 0 24 24" width="1em" height="1em" style="vertical-align:middle;margin-left:2px"><circle cx="12" cy="12" r="10"/><path d="m12 16 4-4-4-4M8 12h8"/></svg> </a> 
     <a href="/resources/new-release/2026-08/"><span class="badge">新增</span>2026 年 8 月新功能報報 <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-right" viewBox="0 0 24 24" width="1em" height="1em" style="vertical-align:middle;margin-left:2px"><circle cx="12" cy="12" r="10"/><path d="m12 16 4-4-4-4M8 12h8"/></svg> </a> 
     <!-- <a href="#"><span class="badge">更新</span>EC 商品上架流程</a> -->
     <!-- <a href="#"><span class="badge">新增</span>全新金物流設定說明</a> -->
@@ -207,7 +209,7 @@ function openTab(evt, tabName) {
 </div>
 
 
-## 品牌官網
+## 品牌官網 { #overview-home-ec }
 
 <div class="grid cards" markdown>
 
@@ -257,7 +259,7 @@ function openTab(evt, tabName) {
 
 ---
 
-## 智慧倉儲
+## 智慧倉儲 { #overview-home-wms }
 
 <div class="grid cards" markdown>
 
@@ -293,7 +295,7 @@ function openTab(evt, tabName) {
 
 ---
 
-## 智能 POS
+## 智能 POS { #overview-home-pos }
 
 <div class="grid cards" markdown>
 
@@ -330,7 +332,7 @@ function openTab(evt, tabName) {
 
 ---
 
-## 擴充功能與整合
+## 擴充功能與整合 { #overview-home-extensions }
 
 <div class="grid cards" markdown>
 
@@ -364,6 +366,57 @@ function openTab(evt, tabName) {
 </div>
 
 ---
+
+## 跨境電商
+
+<div class="grid cards" markdown>
+
+-   :lucide-rocket:{ .lg }
+    __跨境金流__
+
+    ---
+
+    [:octicons-arrow-right-24: 前往 北美站](ec/payments-and-logistics/north-america-payment-services/)<br>
+    [:octicons-arrow-right-24: 前往 日本站](ec/payments-and-logistics/japan-payment-services/)<br>
+    [:octicons-arrow-right-24: 前往 東南亞站](ec/payments-and-logistics/southeast-asia-payment-services/)<br>
+    [:octicons-arrow-right-24: 前往 澳洲落地版](ec/payments-and-logistics/australia-local-payment-services/)<br>
+
+-   :lucide-monitor:{ .lg }
+    __跨境物流__
+
+    ---
+
+    [:octicons-arrow-right-24: 前往 DHL 物流](ec/payments-and-logistics/dhl-cross-border-logistics/)<br>
+    [:octicons-arrow-right-24: 前往 LINEX 物流](ec/payments-and-logistics/linex-cross-border-logistics/)<br>
+    [:octicons-arrow-right-24: 前往 順豐海外物流](ec/payments-and-logistics/sf-express-overseas-logistics/)<br>
+    [:octicons-arrow-right-24: 前往 Amazon FBA 物流](ec/payments-and-logistics/amazon-fba-cross-border-logistics/)<br>
+
+-   :lucide-shopping-cart:{ .lg }
+    __退貨退款__
+
+    ---
+
+    [:octicons-arrow-right-24: 訂單退貨流程](ec/orders/cross-border-return-process/)<br>
+    [:octicons-arrow-right-24: 訂單退款流程](ec/orders/cross-border-refund-process/)
+
+-   :lucide-arrow-right-from-line:{ .lg }
+    [__前台多國語言與多幣別__](ec/website-management/setup-multi-language-and-multi-currency/)
+
+    ---
+
+    建立本地化前台語系與幣別顯示，優化海外消費者購物體驗。
+
+-   :lucide-arrow-right-from-line:{ .lg }
+    [__多官網指定國家跳轉__](ec/website-management/setup-country-site-redirect/)
+
+    ---
+
+    依顧客 IP 所在國家顯示前台提示列，引導顧客前往對應國家官網。
+
+</div>
+
+
+---
 <!---->
 <!-- ## AI 輔助檢索 -->
 <!---->
@@ -387,7 +440,7 @@ function openTab(evt, tabName) {
 <!---->
 <!-- --- -->
 
-## 資源中心
+## 資源中心 { #overview-home-resources }
 
 <div class="grid cards" markdown>
 

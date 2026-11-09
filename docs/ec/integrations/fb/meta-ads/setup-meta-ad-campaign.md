@@ -78,18 +78,18 @@ hide: []
 
 ![Meta廣告-創建活動](../../../../assets/images/ec-第三方整合-fb-meta廣告-創建廣告活動.png){ .hero-page }
 
-## Meta 廣告活動設定說明
+## Meta 廣告活動設定說明 { #operate-meta-campaign }
 
 在 CYBERBIZ 後台完成 Meta 廣告活動配置。透過此整合功能，您可以直接管理廣告預算、目標與素材，無需頻繁切換至 Meta 後台進行操作。
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-meta-campaign }
 
 在開始設定之前，請確認已完成以下前置作業：
 
 - [x] **重新 [串接 Facebook 商業擴充套件](../mbe/setup-fbe-authorization.md){ title="設定 FBE 帳號授權與資產連結" }**：因應 Meta 系統更新，建議商家務必重新串接一次，以確保資料同步正常。
 - [x] **完成 [廣告帳號建立與儲值](create-meta-ad-account-top-up.md){ title="建立 Meta 廣告帳號並完成儲值" }**：必須先完成廣告帳號申請，且儲值後方可開始投放。
 
-## 創建廣告活動流程
+## 創建廣告活動流程 { #operate-meta-campaign-ads-flow }
 
 1. **進入 Meta Ads App**：登入 CYBERBIZ 管理後台，前往 **第三方整合 > 臉書 Facebook 設定 > 廣告活動設定**。
 
@@ -104,9 +104,9 @@ hide: []
 
     <div class="grid cards" markdown>
 
-    - :lucide-goal: [活動目標設定](#活動目標設定){data-preview }  
-    - :lucide-calendar: [活動內容設定](#活動內容設定){ data-preview }  
-    - :lucide-image-play: [廣告創意設定](#廣告創意設定){ data-preview }  
+    - :lucide-goal: [活動目標設定](#operate-meta-campaign-ads-flow-settings){data-preview }
+    - :lucide-calendar: [活動內容設定](#operate-meta-campaign-ads-flow-content-settings){ data-preview }
+    - :lucide-image-play: [廣告創意設定](#operate-meta-campaign-ads-flow-ads-settings){ data-preview }
 
     </div>
 
@@ -114,7 +114,7 @@ hide: []
 
 ---
 
-### 活動目標設定
+### 活動目標設定 { #operate-meta-campaign-ads-flow-settings }
 
 根據品牌現狀與行銷需求選擇合適的活動目標：
 
@@ -134,14 +134,14 @@ hide: []
 
 ---
 
-### 活動內容設定
+### 活動內容設定 { #operate-meta-campaign-ads-flow-content-settings }
 
 設定廣告名稱、每日預算與投放起訖時間。
 
 | 欄位名稱 | 說明 | 備註 |
 | :--- | :--- | :--- |
 | **廣告活動名稱** | 建議包含日期與產品名，方便後續對照。 | 必填 |
-| **每日預算** | - [新手：未投放過廣告](meta-ad-daily-budget-guide.md#未投放過廣告的商家-新手){ title="Meta 廣告每日預算設定指南" }<br>- [商家已知平均 CPA](meta-ad-daily-budget-guide.md#已投放過廣告的商家-已知平均-cpa){ title="Meta 廣告每日預算設定指南" }。 | 必填 |
+| **每日預算** | - [新手：未投放過廣告](meta-ad-daily-budget-guide.md#intro-meta-budget-ads){ title="Meta 廣告每日預算設定指南" }<br>- [商家已知平均 CPA](meta-ad-daily-budget-guide.md#intro-meta-budget-ads-cpa){ title="Meta 廣告每日預算設定指南" }。 | 必填 |
 | **開始時間** | 預設為立即開始，亦可預排時程。 | — |
 | **結束時間** | 預設為持續投放，亦可設定預計停止日期。 | — |
 
@@ -156,7 +156,7 @@ hide: []
 
 ---
 
-### 廣告創意設定
+### 廣告創意設定 { #operate-meta-campaign-ads-flow-ads-settings }
 
 配置廣告素材與文案，單一活動內最多可設定 20 組廣告創意。
 
@@ -164,7 +164,7 @@ hide: []
 | 欄位名稱 | 設定說明 | 備註 / 關聯功能 |
 | :--- | :--- | :--- |
 | **廣告名稱** | 輸入廣告創意名稱。 | 內部管理用 |
-| **創意來源** | 根據選定的「活動目標」提供對應選項：<br>- **銷售量廣告**：可選 **目錄型** 或 **圖片型**。<br>- **流量廣告**：預設為 **圖片型**。<br> [查看廣告呈現效果差異](#廣告呈現效果){ data-preview } | **目錄型**：抓取 [Pixel 設定](create-meta-ad-account-top-up.md#像素設定-pixel){ title="像素設定" }。<br>**PLUS/企業版** 商家若有 [上傳商品影片](../../../products/create-and-manage/setup-product-videos.md){ title="設定商品影片" } 並 [同步目錄](sync-product-videos-meta-catalog.md){ title="同步商品影片至 Meta 目錄" }，廣告將以影片與商品圖輪播展現。 |
+| **創意來源** | 根據選定的「活動目標」提供對應選項：<br>- **銷售量廣告**：可選 **目錄型** 或 **圖片型**。<br>- **流量廣告**：預設為 **圖片型**。<br> [查看廣告呈現效果差異](#intro-meta-campaign){ data-preview } | **目錄型**：抓取 [Pixel 設定](create-meta-ad-account-top-up.md#operate-meta-account-steps-settings-pixel){ title="像素設定" }。<br>**PLUS/企業版** 商家若有 [上傳商品影片](../../../products/create-and-manage/setup-product-videos.md){ title="設定商品影片" } 並 [同步目錄](sync-product-videos-meta-catalog.md){ title="同步商品影片至 Meta 目錄" }，廣告將以影片與商品圖輪播展現。 |
 | **填寫文案** | 輸入 **主要文字**、**標題** 與 **描述**。 |  |
 | **行動呼籲** | 設定廣告上的功能按鈕文字（如：立即購買、來去逛逛、查看更多）。 | 建議根據行銷目標選擇 |
 | **目錄商品組合** | 選擇欲投放廣告的 [目錄商品組合](setup-meta-ad-catalog-sets.md){ title="設定 Meta 廣告的目錄商品組合" }。您可以透過預先建立的特定商品集合，實現精準投放。 | ※ 僅支援狀態為「公開」且「已上架」的商品。<br>※ 如商品帶有「贈品」或「排除product feed」標籤將無法被選取。 |
@@ -179,7 +179,7 @@ hide: []
 
     ![廣告創意設定-銷售量目標](../../../../assets/images/ec-appmarket-maa-廣告創意設定-銷售量目標.png)
 
-## 廣告呈現效果
+## 廣告呈現效果 { #intro-meta-campaign }
 
 === "目錄型"
 
@@ -194,13 +194,13 @@ hide: []
 
     </div>
 
-## 管理廣告活動
+## 管理廣告活動 { #operate-meta-campaign-manage-ads }
 
-完成[創建](#創建廣告活動流程){ data-preview }後，您可以在 **廣告活動設定** 中的列表查看所有已建立的活動，並進行日常管理維護。
+完成[創建](#operate-meta-campaign-ads-flow){ data-preview }後，您可以在 **廣告活動設定** 中的列表查看所有已建立的活動，並進行日常管理維護。
 
 ![MAA-廣告活動列表](../../../../assets/images/ec-maa-廣告活動列表.png)
 
-### 調整投放狀態
+### 調整投放狀態 { #operate-meta-campaign-manage-ads-status }
 
 您可以隨時透過列表最左側的開關控制廣告投放：
 
@@ -214,16 +214,16 @@ hide: []
 
 ---
 
-### 編輯與查看細節
+### 編輯與查看細節 { #operate-meta-campaign-manage-ads-edit-view }
 
 點擊 **廣告活動名稱**，即可重新進入編輯介面，調整預算、排程或更換廣告創意文案
 
 ![MAA-廣告名稱](../../../../assets/images/ec-maa-廣告活動列表-廣告名稱.png)
 
 !!! info "更多廣告列表欄位資訊"
-    關於列表中各項指標（如 ROAS、CTR、頻率）的詳細定義與數據解讀，請參考 [廣告活動列表欄位說明](meta-ad-performance-analysis.md#廣告活動列表欄位說明){ title="使用 Meta 廣告成效分析" } 文檔。
+    關於列表中各項指標（如 ROAS、CTR、頻率）的詳細定義與數據解讀，請參考 [廣告活動列表欄位說明](meta-ad-performance-analysis.md#reference-meta-performance){ title="使用 Meta 廣告成效分析" } 文檔。
 
-## 疑難排解
+## 疑難排解 { #intro-meta-campaign-overview-meta-campaign }
 
 <div class="grid cards" markdown>
 
@@ -233,7 +233,7 @@ hide: []
 
 </div>
 
-## 後續操作
+## 後續操作 { #next-steps-meta-campaign }
 
 <div class="grid cards" markdown>
 
@@ -244,7 +244,7 @@ hide: []
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-meta-campaign }
 
 ??? quote "廣告受眾是誰？"
 

@@ -61,11 +61,11 @@ hide:
 
 ![嵌入Google表單](../../../assets/images/ec-網站外觀-自訂頁面-嵌入google表單.png){ title="嵌入Google表單" .hero-page }
 
-## 嵌入 Google 表單說明
+## 嵌入 Google 表單說明 { #intro-google-form }
 
 透過在 CYBERBIZ 頁面中崁入 Google 表單，商家可以輕鬆達成 **預約、諮詢、問卷調查或保固登記** 等功能，讓客戶直接在網頁上完成回覆。
 
-## 前置作業 <small>取得表單代碼</small>
+## 前置作業 <small>取得表單代碼</small> { #prerequisites-google-form }
 
 1. 請至 Google 表單完成製作。
 2. 按一下右上方的「更多」選單 :lucide-ellipsis-vertical: 
@@ -76,7 +76,7 @@ hide:
 
 !!! note "詳細操作步驟，請參閱 [官方說明文件 :lucide-external-link:](https://support.google.com/docs/answer/2839588#zippy=%2C%E5%8F%96%E5%BE%97%E8%A1%A8%E5%96%AE%E9%80%A3%E7%B5%90%2C%E5%9C%A8%E7%B6%B2%E7%AB%99%E6%88%96%E7%B6%B2%E8%AA%8C%E4%B8%AD%E5%B5%8C%E5%85%A5%E8%A1%A8%E5%96%AE)。"
 
-## 操作步驟
+## 操作步驟 { #operate-google-form }
 
 !!! warning "程式碼修改注意"
     CYBERBIZ 提供程式碼修改權限，但不提供語法教學或代碼撰寫服務，建議由貴公司技術人員執行。
@@ -90,7 +90,7 @@ hide:
 ![嵌入Google表單操作](../../../assets/images/ec-網站外觀-自訂頁面-嵌入google表單.gif){ title="嵌入Google表單操作" }
 
 
-## 常見問題
+## 常見問題 { #faq-google-form }
 
 ??? quote "為何表單在手機版顯示時右側會被裁切？" 
 	這通常是因為 `width`（寬度）被設定為固定的像素值（如 `width="640"`）。 

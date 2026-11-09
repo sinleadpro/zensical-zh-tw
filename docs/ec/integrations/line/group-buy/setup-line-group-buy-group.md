@@ -67,11 +67,11 @@ hide: []
 
 ![LINE 團購群組設定](../../../../assets/images/ec-第三方整合-line團購群組.png){ title="LINE 團購群組設定" .hero-page }
 
-## LINE 團購群組說明
+## LINE 團購群組說明 { #overview-line-group }
 
 **「LINE 團購群組設定」** 是 LINE 團購功能的核心環節，商家可在此設定群組對應的分潤方案、代碼，管理活動內容並查看歷史紀錄。
 
-## 前置必要作業
+## 前置必要作業 { #prerequisites-line-group }
 
 在編輯群組內容前，商家必須先依序完成以下三項設定：
 
@@ -79,7 +79,7 @@ hide: []
 - [x] [**推薦分潤代碼設定**](../../../profit-sharing/referrer-profit-sharing.md){ title="推薦人分潤" }：於分潤系統中設定好「推薦人分潤」方案。
 - [x] [**團購商品分類設定**](setup-line-group-buy-products.md){ title="設定 LINE 團購商品" }：選取欲販售的商品並設定團購價。
 
-## 新增 LINE 團購群組
+## 新增 LINE 團購群組 { #operate-line-group }
 
 1.  商家需先請團購主（團主）將「團購機器人」加入其 LINE 官方帳號好友。
 2.  由團購主將 **團購機器人邀請進入特定的 LINE 團購群組**。
@@ -88,7 +88,7 @@ hide: []
 
 ![機器人已加入群組](../../../../assets/images/ec-第三方整合-line團購群組-機器人已加入.png){ title="機器人已加入群組" }
 
-## 編輯群組活動內容
+## 編輯群組活動內容 { #operate-line-group-edit-content }
 
 1.  **進入設定**：在後台團購群組列表中選定目標群組，點選「編輯」:lucide-square-pen: 進入「基本設定」頁。
 2.  **綁定分潤**：選取該群組活動對應的 **「推薦分潤方案」、「推薦人」及「推薦碼」**。
@@ -98,7 +98,7 @@ hide: []
 
 ![編輯群組活動內容](../../../../assets/images/ec-第三方整合-line團購群組-編輯頁.png){ title="編輯群組活動內容" }
 
-## 結束團購活動的情況
+## 結束團購活動的情況 { #intro-line-group }
 
 團購活動會因以下三種情況而結束：
 
@@ -109,7 +109,7 @@ hide: []
 
 ![結束團購活動](../../../../assets/images/ec-第三方整合-line團購群組-結束團購活動.png){ title="結束團購活動" }
 
-## 訂單查看與紀錄管理
+## 訂單查看與紀錄管理 { #reference-line-group }
 
 *  **查看訂單**：商家可前往「**訂單**」>「**所有訂單**」，展開篩選器並選擇「**LINE 團購**」來查看專屬訂單。
 
@@ -119,10 +119,10 @@ hide: []
 
     ![團購歷史紀錄](../../../../assets/images/ec-第三方整合-line團購群組-編輯頁-團購歷史紀錄.png){ title="團購歷史紀錄" }
 
-*  **分潤查詢**：若團購主需查看下單情形，商家可提供 [分潤報表下載連結](../../../profit-sharing/query-profit-sharing-partners-and-codes.md#任務四提供第三方推薦人外部查詢連結){ title="查詢分潤夥伴與代碼" } 供其查閱。
+*  **分潤查詢**：若團購主需查看下單情形，商家可提供 [分潤報表下載連結](../../../profit-sharing/query-profit-sharing-partners-and-codes.md#operate-ps-query-external){ title="查詢分潤夥伴與代碼" } 供其查閱。
 
 
-## 常見問題
+## 常見問題 { #faq-line-group }
 
 ??? quote "為什麼我的 LINE 群組沒有出現在後台清單中？"
 

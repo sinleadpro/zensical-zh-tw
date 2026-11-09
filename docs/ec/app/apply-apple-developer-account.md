@@ -62,21 +62,21 @@ hide: []
 [:lucide-grid-2x2-plus:{ title="適用擴充" }](../../resources/conventions.md#適用擴充) | CYBERBIZ APP
 { .doc-badge }
 
-## 使用須知
+## 使用須知 { #prerequisites-apple-account }
 
 - 若您的 CYBERBIZ App 想要上架到 Apple Store，需先行申請 Apple 開發者帳號，可閱讀以下教學完成申請。
 - Apple 的開發者帳號服務正式名稱為 Apple Developer Program，相關資訊可參考 [Apple Developer 官網](https://developer.apple.com/programs/)。
 
-## 前置準備檢查清單
+## 前置準備檢查清單 { #prerequisites-apple-preparation }
 
 
-### 基本準備資料
+### 基本準備資料 { #prerequisites-apple-data }
 
 - [x] 公司基本資料（名稱、地址、電話）
 - [x] 可接聽電話的聯絡人（用於鄧白氏環球編碼和 Apple 電話驗證）
 - [x] 信用卡（支付開發者費用）
 
-### Apple Developer Program 申請條件
+### Apple Developer Program 申請條件 { #prerequisites-apple-conditions }
 
 - [x] 具備Apple ID 帳號
 - [x] 具備鄧白氏環球編碼 (D-U-N-S Number)（若尚未擁有此編碼，可以在 Apple 開發者帳號申請流程中一併申請）
@@ -86,15 +86,15 @@ hide: []
 - [x] 具備企業域名信箱（如：contact@yourcompany.com）
 
 
-## Apple Developer Program 申請流程
+## Apple Developer Program 申請流程 { #operate-apple-application }
 
-### 步驟一：準備 Apple ID
+### 步驟一：準備 Apple ID { #operate-apple-id }
 
 1.  使用現有 Apple ID 或前往 [Apple 帳號註冊](https://account.apple.com/account) 建立新帳號。
     *   一個 Apple ID 只能申請一個 Apple Developer Program 帳號。如果您已經用現有的 Apple ID 申請過其他組織的開發者帳號，請註冊新的 Apple ID。
 2.  完成 Email 和手機號碼驗證。
 
-### 步驟二：申請鄧白氏環球編碼 (D-U-N-S Number)(若已擁有此編碼可跳過)
+### 步驟二：申請鄧白氏環球編碼 (D-U-N-S Number)(若已擁有此編碼可跳過) { #operate-apple-duns }
 
 1.  前往 [Apple 鄧白氏查詢頁面](https://developer.apple.com/enroll/duns-lookup/)。
 2.  使用 Apple ID 登入並填寫企業資料。
@@ -105,7 +105,7 @@ hide: []
 3.  完成後您會收到註冊完成通知。
 4.  提交後等待鄧白氏電話驗證。
 
-### 步驟三：申請 Apple 開發者帳號
+### 步驟三：申請 Apple 開發者帳號 { #operate-apple-developer }
 
 1.  前往 [Apple Enrollment 頁面](https://developer.apple.com/programs/enroll/)。
 2.  使用 Apple ID 登入。
@@ -114,7 +114,7 @@ hide: []
 5.  通過後須支付年費（年費請洽Apple方案政策）。
 
 
-## Apple 帳號授權設定
+## Apple 帳號授權設定 { #operate-apple-permission }
 
 1.  前往 [App Store Connect](https://appstoreconnect.apple.com/)，點擊 **使用者與存取權限**。  
       
@@ -135,7 +135,7 @@ hide: []
 
 
 
-## 時程說明與預估
+## 時程說明與預估 { #specs-apple-timeline }
 
 | 流程項目 | 預計所需時間 |
 | --------| ----------- |

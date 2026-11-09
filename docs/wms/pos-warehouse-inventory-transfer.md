@@ -73,7 +73,7 @@ hide: []
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲 / 智能 POS
 { .doc-badge }
 
-## 三合一庫存機制
+## 三合一庫存機制 { #overview-pos-transfer }
 
 在三合一（EC+POS+WMS）架構下，電商倉儲內的商品會依銷售管道區分為：
 
@@ -82,7 +82,7 @@ hide: []
 
 
 
-## POS 門市向總倉申請調貨
+## POS 門市向總倉申請調貨 { #operate-pos-transfer-request }
 
 門市人員若發現現場庫存不足，可透過 POS 前台向 WMS 總倉發起調倉申請。
 
@@ -99,7 +99,7 @@ hide: []
 
 ![](../assets/images/POS-前台-庫存-向POS總倉調貨01.png){ .screenshot }
 
-## 查看 WMS 庫存配置
+## 查看 WMS 庫存配置 { #overview-pos-transfer-inventory }
 
 管理人員可於 WMS 後台監控 EC 與 POS 管道的庫存分配狀況。
 
@@ -111,7 +111,7 @@ hide: []
 
 ![](../assets/images/WMS-後台-商品-單一品項-查看POS總倉庫存01.png){ .screenshot }
 
-## 線上與線下庫存內部轉調
+## 線上與線下庫存內部轉調 { #operate-pos-transfer-internal }
 
 若 POS 總倉庫存用罄，但 EC 總倉仍有餘裕，管理人員可執行「倉內轉調」，將官網庫存撥給門市使用。
 

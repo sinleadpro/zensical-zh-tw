@@ -25,7 +25,7 @@ permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/cyberbiz-now/"
     - **日常用品**：嬰幼兒用品、清潔用品等急需品，提供高便利性回購。
     - **節慶禮禮盒**：鮮花、禮盒即時補貨配送，提升購物體驗。
 
-## 使用須知
+## 使用須知 { #prerequisites-cyberbiz-now-hub }
 
 在啟用快速到貨服務前，請先確認您的站台設定是否符合下列系統規格與行銷限制：
 
@@ -37,7 +37,7 @@ permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/cyberbiz-now/"
 - **適用版型**：適用拖拉版型(3.0.0以上版本)，若站台使用舊版版型且經過客製，則需評估是否升級版型。升級版型後，您的客製項目將會消失。
 
 
-## 快速導航
+## 快速導航 { #overview-cyberbiz-now-hub }
 
 <div class="grid cards" markdown>
 

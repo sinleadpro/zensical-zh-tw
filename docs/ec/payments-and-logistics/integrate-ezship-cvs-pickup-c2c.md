@@ -81,7 +81,7 @@ hide: []
     - **多元支付選擇**：搭配 ezShip 商務會員，提供超商貨到付款服務，提升消費者下單意願。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-ezship-c2c }
 
 在啟用 ezShip 服務前，請務必了解以下系統邏輯與操作限制：
 
@@ -94,9 +94,9 @@ hide: []
 - **功能支援**：目前僅支援店到店 (C2C) 模式，尚未支援 ezShip B2C 大宗寄件。
 
 
-## 操作流程
+## 操作流程 { #operate-ezship-c2c }
 
-### 步驟 1：調整會員註冊欄位
+### 步驟 1：調整會員註冊欄位 { #operate-ezship-c2c-register-fields }
 
 ezShip 串接需以 Email 作為關聯，請務必先完成此設定。
 
@@ -105,7 +105,7 @@ ezShip 串接需以 Email 作為關聯，請務必先完成此設定。
 
 ![](../../assets/images/EC-後台-管理中心-顧客註冊設定-電子郵件勾選必填01.png)
 
-### 步驟 2：申請 ezShip 會員帳號
+### 步驟 2：申請 ezShip 會員帳號 { #operate-ezship-c2c-account }
 
 1. 前往 [ezShip 後台](https://www.ezship.com.tw/sender/sender_register_account.jsp) 進行註冊。
    
@@ -117,7 +117,7 @@ ezShip 串接需以 Email 作為關聯，請務必先完成此設定。
 4. 在網址欄位填入您的 **官網網址** 並送出審核。
     ![](../../assets/images/EZSHIP-後台-申請超取-網站串接申請02.png)
 
-### 步驟 3：申請超商貨到付款 (選填)
+### 步驟 3：申請超商貨到付款 (選填) { #operate-ezship-c2c-cod }
 
 若僅需提供取貨不付款，可跳過此步驟。
 
@@ -134,7 +134,7 @@ ezShip 串接需以 Email 作為關聯，請務必先完成此設定。
         1. 依序填入相關資料，並提供所需身分證、銀行存摺照片。
         2. 資料完整提供後 ezShip 將會於 1-2 個工作日內完成審核，並以簡訊及電子郵件發送 `申請審核完成《功能開啟》通知`。
 
-### 步驟 4：CYBERBIZ 後台綁定與設定
+### 步驟 4：CYBERBIZ 後台綁定與設定 { #operate-ezship-c2c-bind }
 
 1. 登入 CYBERBIZ 後台，前往 **金物流 > 超商物流 > ezShip 台灣便利配**。
 2. **基本設定**：於 **ezShip 會員帳號** 欄位填入您的 ezShip 註冊 Email。
@@ -146,7 +146,7 @@ ezShip 串接需以 Email 作為關聯，請務必先完成此設定。
 
 ![](../../assets/images/EC-後台-金物流-超商物流-EZSHIP超取01.png)
 
-## 常見問題
+## 常見問題 { #faq-ezship-c2c }
 
 ??? quote "為什麼訂單成立後，我在後台找不到列印託運單的地方？"
     因為 ezShip 屬於第三方串接平台，其物流標籤（託運單）是由 ezShip 系統產生的。您必須登入 ezShip 的管理後台，才能看到該筆訂單並執行列印。

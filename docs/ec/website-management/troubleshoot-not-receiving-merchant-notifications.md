@@ -61,12 +61,12 @@ hide: []
 若 CYBERBIZ 寄出的訂單通知、系統公告等信件被誤歸類至「垃圾郵件」，本篇指南將協助您透過設定，確保能準時接收重要通知。
 { .subtitle }
 
-## 使用須知
+## 使用須知 { #prerequisites-merchant-notify }
 
 - 此教學文件僅提供初步設定，詳情可參考 Google 官方文件 [在 Gmail 中回報垃圾郵件](https://support.google.com/mail/answer/1366858) 。
 
 
-## 方法一：回報為非垃圾郵件
+## 方法一：回報為非垃圾郵件 { #operate-merchant-notify-not-spam }
 
 當您在「垃圾郵件」資料夾中發現來自 CYBERBIZ 的信件時，請執行以下操作：
 
@@ -78,23 +78,23 @@ hide: []
 
 
 
-## 方法二：設置 Gmail 篩選器（推薦）
+## 方法二：設置 Gmail 篩選器（推薦） { #operate-merchant-notify-filter }
 
 透過建立篩選器，您可以強制系統 **永不** 將特定信箱的信件移至垃圾桶。
 
-### 1. 進入 Gmail 設定
+### 1. 進入 Gmail 設定 { #operate-merchant-notify-enter }
 
 登入 Gmail 網頁版，點擊右上角的 **設定（齒輪圖示） > 查看所有設定**。
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/如何避免未收到-CYBERBIZ-商家通知信件02.png){ .screenshot }
 
-### 2. 建立新篩選器
+### 2. 建立新篩選器 { #operate-merchant-notify-create }
 
 切換至 **篩選器和封鎖的地址** 頁籤，點擊 **建立新篩選器**。
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/如何避免未收到-CYBERBIZ-商家通知信件03.png){ .screenshot }
 
-### 3. 填入寄件者清單
+### 3. 填入寄件者清單 { #operate-merchant-notify-senders }
 
 在 **寄件者** 欄位中，填入以下 CYBERBIZ 官方信箱：
 
@@ -108,7 +108,7 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/如何避免未收到-CYBERBIZ-商家通知信件04.png){ .screenshot }
 
-### 4. 設定排除條件
+### 4. 設定排除條件 { #operate-merchant-notify-exclude }
 
 勾選以下三個關鍵選項，確保信件能正確呈現：
 
@@ -118,7 +118,7 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/如何避免未收到-CYBERBIZ-商家通知信件05.png){ .screenshot }
 
-### 5. 前往篩選器
+### 5. 前往篩選器 { #operate-merchant-notify-apply }
 
 設定完畢後，可至 **篩選器和封鎖的地址**，查看所有篩選器。
 

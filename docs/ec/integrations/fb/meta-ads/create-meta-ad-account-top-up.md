@@ -63,20 +63,20 @@ hide: []
 
 ![Meta廣告設定-CYB後台](../../../../assets/images/ec-第三方整合-fb-meta廣告設定.png){ .hero-page }
 
-## 建立 Meta 廣告帳號說明
+## 建立 Meta 廣告帳號說明 { #operate-meta-account }
 
 透過 CYBERBIZ 建立 Meta 廣告帳號，商家可由系統代開廣告費發票並支付費用，免去自行向國稅局申報境外稅的繁瑣程序。
 
-## 操作步驟
+## 操作步驟 { #operate-meta-account-steps }
 
-### 廣告帳號建立
+### 廣告帳號建立 { #operate-meta-account-steps-ads-account-create }
 
 !!! warning "前置需求"
     建立廣告帳號前，請確保您已擁有 **企業管理帳號及相關資產權限**。若尚未建立，請先 [前往 Meta 企業管理平台](https://business.facebook.com/) 註冊。
 
 1. **後台路徑**：進入管理後台，點選 **「第三方整合」** > **「臉書 Facebook 設定（廣告/註冊登入）」** > **「廣告帳號設定」**。
 2. **啟動流程**：點擊 **「開始使用」**。
-3. **輸入企業管理平台編號**：在彈跳視窗中輸入您的 [企業管理平台編號](#查詢企業管理平台編號){ data-preview }。
+3. **輸入企業管理平台編號**：在彈跳視窗中輸入您的 [企業管理平台編號](#operate-meta-account-steps-query-manage){ data-preview }。
 4. **同意條款**：閱讀相關條約後勾選「我已閱讀」並按下 **「我同意並繼續」** 即可完成建立。
 5. **建立規則**：系統建立的廣告帳號名稱預設為 **「CYBERBIZ註冊網域名稱_儲值」**。
 
@@ -84,12 +84,12 @@ hide: []
 
 ---
 
-### 分享廣告帳號權限
+### 分享廣告帳號權限 { #operate-meta-account-steps-ads-account-perm }
 
 建立廣告帳號後，需將操作權限分享給商家的企業管理平台：
 
 1. **後台路徑**：**「第三方整合」** > **「臉書 Facebook 設定（廣告/註冊登入）」** > **「廣告帳號設定」**。
-2. **分享帳號**：點擊 **「分享帳號編號」**，輸入欲分享的 [企業管理平台編號](#查詢企業管理平台編號){ data-preview }。
+2. **分享帳號**：點擊 **「分享帳號編號」**，輸入欲分享的 [企業管理平台編號](#operate-meta-account-steps-query-manage){ data-preview }。
 
     ![Meta廣告-分享帳號編號](../../../../assets/images/ec-第三方整合-fb-meta廣告設定-分享帳號編號.png)
 
@@ -105,7 +105,7 @@ hide: []
 
 ---
 
-### 查詢企業管理平台編號
+### 查詢企業管理平台編號 { #operate-meta-account-steps-query-manage }
 
 1. 登入 [企業管理平台設定頁面](https://business.facebook.com/latest/settings)。
 2. 點選 **「設定」** > **「商家資訊」**。
@@ -117,7 +117,7 @@ hide: []
 
 ---
 
-### 像素設定 <small>Pixel</small>
+### 像素設定 <small>Pixel</small> { #operate-meta-account-steps-settings-pixel }
 
 為了追蹤消費者行為，需手動將既有的像素連結至新建立的廣告帳號：
 
@@ -129,7 +129,7 @@ hide: []
 
 ---
 
-### 儲值廣告金
+### 儲值廣告金 { #operate-meta-account-steps-ads }
 
 !!! info "儲值規範與費用計算"
 
@@ -151,7 +151,7 @@ hide: []
 
 ![Meta廣告-儲值](../../../../assets/images/ec-第三方整合-fb-廣告帳號設定-廣告費儲值.png)
 
-## 後續操作
+## 後續操作 { #next-steps-meta-account }
 
 <div class="grid cards" markdown>
 
@@ -161,7 +161,7 @@ hide: []
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-meta-account }
 
 ??? quote "儲值後廣告預算會過期嗎？"
 
@@ -173,5 +173,5 @@ hide: []
 
 ??? quote "帳號被釋出了該怎麼辦？"
 
-    帳號被釋出後，商家需重新 [建立廣告帳號](#廣告帳號建立) 並完成儲值，即可再次使用 Meta 廣告投放功能。
+    帳號被釋出後，商家需重新 [建立廣告帳號](#operate-meta-account-steps-ads-account-create) 並完成儲值，即可再次使用 Meta 廣告投放功能。
 

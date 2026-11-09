@@ -62,16 +62,16 @@ hide: []
 
 ![GMC 重要事件設定](../../../assets/images/ec-gmc-重要事件設定.png){ .hero-page }
 
-## 重要事件來源追蹤說明
+## 重要事件來源追蹤說明 { #operate-gmc-conversions }
 
 **重要事件來源 (Event Source)** 可追蹤特定來源（如 Google Analytics、自家網站等）的產品購買情形，藉此取得可做為行動依據的洞察指標。[瞭解更多 :lucide-external-link:](https://support.google.com/merchants/answer/14166401?hl=zh-Hant&sjid=15151417659935872406-NC)
 
-## 什麼是自動標記
+## 什麼是自動標記 { #intro-gmc-conversions }
 
 **自動標記 (Auto-tagging)** 是追蹤產品購買情形的必要功能。開啟後，Google 會自動在點擊廣告連結時添加參數，讓系統能準確關聯廣告點擊與轉換事件。[瞭解更多 :lucide-external-link:](https://support.google.com/merchants/answer/15191080?hl=zh-Hant#%E5%95%9F%E7%94%A8%E6%88%96%E5%81%9C%E7%94%A8%E8%87%AA%E5%8B%95%E6%A8%99%E8%A8%98)
-## 操作步驟
+## 操作步驟 { #operate-gmc-conversions-steps }
 
-### 自動標記設定
+### 自動標記設定 { #operate-gmc-conversions-steps-settings }
 
 1.  **前往 GMC 設定**：登入 Google Merchant Center，點擊「設定」>「一般」>「重要事件設定」
 2.  **找到自動標記**：在設定頁面中找到「自動標記」選項
@@ -81,7 +81,7 @@ hide: []
 
 ---
 
-### 將 GA4 連結至 Merchant Center
+### 將 GA4 連結至 Merchant Center { #operate-gmc-conversions-steps-ga4-merchant-cen }
 
 !!! warning "操作前準備"
 
@@ -115,7 +115,7 @@ hide: []
 
         ![GA4 GMC連結](../../../assets/images/ec-ga4-gmc連結.png)
 
-## 後續操作
+## 後續操作 { #next-steps-gmc-conversions }
 
 <div class="grid cards" markdown>
 
@@ -129,7 +129,7 @@ hide: []
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-gmc-conversions }
 
 ??? quote "為什麼必須開啟自動標記？"
     自動標記可讓 Google 自動在廣告點擊連結中加入追蹤參數，若未開啟，將無法準確追蹤廣告轉換成效。

@@ -60,7 +60,7 @@ hide: []
 
 ![Google Search Console 註冊驗證](../../../assets/images/ec-第三方整合-google-gsc.png){ title="Google Search Console 註冊驗證" .hero-page }
 
-## 為什麼要使用 GSC  
+## 為什麼要使用 GSC { #intro-search-console }
 
 **Google Search Console (GSC)** 是 Google 提供的免費網站管理工具，驗證後可協助您：
 
@@ -71,12 +71,12 @@ hide: []
 
 !!! info "更多 Google Search Console 資訊，請參考 [官方說明 :lucide-external-link:](https://support.google.com/webmasters/answer/9128668?hl=zh-Hant)。"
 
-## 使用前提與限制
+## 使用前提與限制 { #prerequisites-search-console }
 
 - [x] **帳號統一**：請確保登入 Google Search Console 帳號與您的 Google Analytics (GA) 帳號為同一組，且具備該帳號管理員權限。
 - [x] **網域設定**：建議先將官網後台的主網域設定為「自有網域」，並開啟「總是導向」功能，以確保搜尋引擎收錄的一致性。
 
-## 註冊與驗證步驟
+## 註冊與驗證步驟 { #operate-search-console }
 
 1. **進入 GSC**：前往 [Google Search Console :lucide-external-link:](https://search.google.com/search-console/) 頁面，點選「立即開始」。
 2. **輸入網址**：在資源類型選擇介面中，點選右側的 **「網址前置字元」**，並輸入您的官網網址（需包含 https://）。
@@ -92,7 +92,7 @@ hide: []
 
 5. **完成驗證**：回到 Google Search Console 的頁面，點選 **「驗證」**。驗證完成後會跳出「已驗證擁有權」的彈窗，點擊「前往資源」即可開始查看數據。
 
-## 後續操作
+## 後續操作 { #next-steps-search-console }
 
 <div class="grid cards" markdown>
 
@@ -102,7 +102,7 @@ hide: []
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-search-console }
 
 ??? quote "為什麼要驗證 Google Search Console？"
 

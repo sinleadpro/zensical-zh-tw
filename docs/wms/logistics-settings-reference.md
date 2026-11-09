@@ -60,7 +60,7 @@ hide: []
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲
 { .doc-badge }
 
-## 設定位置一覽表
+## 設定位置一覽表 { #overview-logistics }
 
 根據配送方與付款方式，前往 **金物流 > 宅配物流** 後，請至對應的頁籤建立物流選項：
 
@@ -71,14 +71,14 @@ hide: []
 | **商家自行出貨** | 貨到付款 | - | **串接物流頁籤** |
 |  | 貨到不付款 | - | 自訂物流頁籤 |
 
-## 關鍵差異說明
+## 關鍵差異說明 { #specs-logistics }
 
 - **全部串倉**：所有商品均由倉庫發貨，僅需在 **自訂物流** 中定義對應的倉庫出貨選項。
 - **部分串倉**：
     - **倉庫出貨項目**：統一於 **自訂物流** 頁籤設定。
     - **商家自出項目**：若支援 **貨到付款**，需透過 **串接物流** 頁籤設定；若為 **貨到不付款**，則維持在 **自訂物流** 頁籤設定。
 
-## 參考資料
+## 參考資料 { #reference-logistics }
 
 - [串倉申請流程與開通](application-process-and-activation.md)
 - [啟用部分串倉與混單](enable-partial-warehouse-integration-and-mixed-orders.md)

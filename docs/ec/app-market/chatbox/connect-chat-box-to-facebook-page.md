@@ -84,11 +84,11 @@ hide: []
 
 
 
-## 串接前帳號權限檢查
+## 串接前帳號權限檢查 { #prerequisites-chat-facebook }
 
 在開始串接流程前，請務必確認操作人員的 Facebook 帳號具備以下權限：
 
-### 1. 粉絲專頁管理員權限
+### 1. 粉絲專頁管理員權限 { #prerequisites-chat-facebook-1-manage-permissions }
 
 操作者的 Facebook 帳號必須擁有該粉絲專頁的 **管理員** 權限。
 
@@ -97,7 +97,7 @@ hide: []
 ![](https://www.cyberbiz.io/support/wp-content/uploads/Meta-Business-Suite-設定-用戶-查看粉專權限名單01.png){ .screenshot }
 
 
-### 2. 資產管理平台粉專權限
+### 2. 資產管理平台粉專權限 { #prerequisites-chat-facebook-2-assets-manage }
 
 操作者的 Facebook 帳號必須擁有該粉絲專頁的 **完整控制權**。
 
@@ -109,7 +109,7 @@ hide: []
     ![](../../../assets/images/Meta%20Business%20Suite-設定-帳號-粉絲專頁-chatbox串接02.png){ .screenshot }
 
 
-### 3. Facebook 粉專管理權限
+### 3. Facebook 粉專管理權限 { #prerequisites-chat-facebook-3-facebook-manage }
 
 粉絲專頁管理權限名單中，須有操作者的 Facebook 帳號。
 
@@ -120,7 +120,7 @@ hide: []
 2. 確認您的帳號在 **粉絲專頁管理權限** 中。
     ![](../../../assets/images/Facebook-設定與隱私-粉絲專頁設定-chatbox串接02.png){ .screenshot }
 
-### 4. Meta 應用程式設定
+### 4. Meta 應用程式設定 { #prerequisites-chat-facebook-4-meta-settings }
 
 操作者的 Facebook 帳號必須開啟「應用程式、網站和遊戲」設定。若關閉此功能，將導致串接授權中斷。
 
@@ -130,9 +130,9 @@ hide: []
 
 
 
-## 串接步驟
+## 串接步驟 { #operate-chat-facebook }
 
-### 第一步：開啟後台設定
+### 第一步：開啟後台設定 { #operate-chat-facebook-enable-settings }
 
 1. 登入 CYBERBIZ 管理後台，前往 **APP MARKET > CHAT BOX**。
 2. 點擊左側選單最下方的 **設定** 圖示。
@@ -140,7 +140,7 @@ hide: []
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-設定01.png){ .screenshot }
 
-### 第二步：進行 Meta 授權
+### 第二步：進行 Meta 授權 { #operate-chat-facebook-meta-authorize }
 
 1. 進入「Facebook 連結設定」頁面後，點擊 **使用 Facebook 繼續**。
 
@@ -156,14 +156,14 @@ hide: []
 
         ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-FB串接03.png){ .small-image }
 
-### 第三步：綁定粉絲專頁
+### 第三步：綁定粉絲專頁 { #operate-chat-facebook-section }
 
 1. 授權完成後，頁面將自動跳回 CHAT BOX 後台。
 2. 勾選您欲正式串接的粉專，點擊 **確認綁定**。
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-FB串接04.png){ .screenshot }
 
-### 第四步：確認連結狀態
+### 第四步：確認連結狀態 { #operate-chat-facebook-link-status }
 
 綁定成功後，列表將顯示該粉專資訊。請確認 **狀態** 顯示為 **已連結**。
 
@@ -171,7 +171,7 @@ hide: []
 
 
 
-## 常見問題
+## 常見問題 { #faq-chat-facebook }
 
 ??? quote "串接前的歷史對話會同步嗎？"
     **不會。** 系統僅同步串接完成後新產生的對話紀錄。過往在 Facebook 粉絲專頁產生的歷史訊息目前不會匯入 CHAT BOX。

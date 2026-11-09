@@ -72,14 +72,14 @@ hide: []
 { .doc-badge }
 
 
-## 使用須知
+## 使用須知 { #prerequisites-pos-products }
 
 - **圖片重要性**：POS 商品圖片會直接顯示在 POS 前台操作畫面，協助店員快速辨識商品。建議在複製時開啟 **連帶複製商品所有圖片**。
 
 
-## 操作流程
+## 操作流程 { #operate-pos-products }
 
-### 在 EC 後台建立商品
+### 在 EC 後台建立商品 { #operate-pos-products-ec-admin-create }
 
 1. 建置POS門市商品的第一步，建議優先在 **EC 管理後台** 建立商品，再複製到 POS 商店，確保流程順暢與資訊完整。
 
@@ -89,7 +89,7 @@ hide: []
 2. EC網站商品建置方式，建議參考 [新增與更新商品](../../ec/products/create-and-manage/create-update-products/)。
 3. 單筆建置熟悉後，若欲批次建置商品，建議參考 [Excel 大量匯入商品](../../ec/products/bulk-operations/excel-import-products/)。
 
-### 複製 EC 商品至 POS 商店
+### 複製 EC 商品至 POS 商店 { #operate-pos-products-ec-product-pos }
 
 將官網現有商品同步至指定門市。
 
@@ -102,7 +102,7 @@ hide: []
 ![](https://www.cyberbiz.io/support/wp-content/uploads/POS商品建立1.png){ .screenshot }
 
 
-### POS 獨賣商家建立商品
+### POS 獨賣商家建立商品 { #operate-pos-products-pos-create-product }
 
 針對僅購買 POS 系統的商家，可在 **建立商品時直接指定門市**。
 

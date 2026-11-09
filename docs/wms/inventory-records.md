@@ -72,14 +72,14 @@ hide: []
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智慧倉儲
 { .doc-badge }
 
-## 庫齡報表
+## 庫齡報表 { #overview-inventory-aging }
 
-### 分析週轉健康度
+### 分析週轉健康度 { #operate-inventory-turnover }
 
 協助商家識別庫存存放天數，是執行促銷規劃或庫存清理的重要依據。
 
 
-### 篩選與查詢
+### 篩選與查詢 { #operate-inventory-filter }
 
 1. 前往 **庫存紀錄 > 庫齡報表**。
 2. 設定篩選條件：
@@ -89,7 +89,7 @@ hide: []
     - **入庫日期**：設定商品最初入庫的時間區間。
 3. 點擊 **匯出** 下載 Excel 報表進行分析。
 
-### 關鍵指標定義
+### 關鍵指標定義 { #specs-inventory-metrics }
 
 - **庫齡天數**：計算商品 **第一次入庫日期** 至今的總天數。
 - **呆滯天數**：計算商品 **最後一次出庫日期** 至今的總天數。若此數值過高，代表該商品銷售動能不足。
@@ -97,9 +97,9 @@ hide: []
 ![](../assets/images/WMS-後台-庫存記錄-庫齡報表-畫面總覽01.png){ .screenshot }
 
 
-## 歷史紀錄
+## 歷史紀錄 { #overview-inventory-history }
 
-### 每日快照
+### 每日快照 { #operate-inventory-snapshot }
 
 提供過往特定日期的庫存「截點」數據，適用於月結對帳或週轉紀錄備份。
 
@@ -113,9 +113,9 @@ hide: []
 
 ![](../assets/images/WMS-後台-庫存記錄-歷史紀錄-畫面總覽01.png){ .screenshot }
 
-## 庫存異動明細表
+## 庫存異動明細表 { #overview-inventory-changes }
 
-### 追蹤單品流向
+### 追蹤單品流向 { #operate-inventory-flow }
 
 若需核對特定商品的入庫、出貨、退貨細節，應使用異動明細表。
 
@@ -124,7 +124,7 @@ hide: []
 3. 系統將條列顯示該時段內所有導致庫存變動的事件（包含單號、類型與異動數量）。
 4. 支援匯出搜尋結果。
 
-### 宏觀變動概覽
+### 宏觀變動概覽 { #overview-inventory-trends }
 
 適用於檢視整體的移庫、調整與銷售出貨總量。
 

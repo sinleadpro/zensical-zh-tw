@@ -66,7 +66,7 @@ hide:
 
 ![Google 安全瀏覽網站工具](../../../assets/images/ec-google-安全瀏覽網站狀態工具.png){ .hero-page }
 
-## 安全瀏覽網站狀態說明
+## 安全瀏覽網站狀態說明 { #specs-safe-browsing }
 
 Google 提供「安全瀏覽網站狀態檢查工具」，可協助商家主動檢測官網是否存在安全性風險，避免因被判定為不安全網站，而影響品牌信任度與搜尋排名。
 
@@ -75,7 +75,7 @@ Google 提供「安全瀏覽網站狀態檢查工具」，可協助商家主動�
     - **Google Safe Browsing** 是一套網站安全防護機制，負責偵測惡意網站（如釣魚網站、惡意軟體、木馬程式），並在使用者造訪風險頁面時顯示警告，以降低資安威脅。[了解更多 :lucide-external-link:](https://safebrowsing.google.com/)
     - **Google 透明報告**（Transparency Report） 則是基於 Safe Browsing 的偵測結果，提供公開的安全數據與查詢工具，讓網站管理員檢查網站是否被標記為風險網站。[了解更多 :lucide-external-link:](https://transparencyreport.google.com/?hl=zh_TW)
 
-## 查詢網站是否有安全風險
+## 查詢網站是否有安全風險 { #operate-safe-browsing }
 
 1.  **前往工具頁面**：進入 [Google 檢查網站狀態 :lucide-external-link:](https://transparencyreport.google.com/safe-browsing/search?hl=zh_TW) 工具頁面。
 2.  **輸入網址**：在搜尋框內輸入您欲查詢的官網網址並執行搜尋。
@@ -85,7 +85,7 @@ Google 提供「安全瀏覽網站狀態檢查工具」，可協助商家主動�
 
 ![Google 安全瀏覽網站狀態檢查](../../../assets/images/ec-google-安全瀏覽網站狀態-不安全網站.png)
 
-## 若網站被標示為不安全，該如何處理
+## 若網站被標示為不安全，該如何處理 { #intro-safe-browsing }
 
 如果您的網站被判定為不安全，請依照以下步驟申請審核並解除警示：
 
@@ -100,7 +100,7 @@ Google 提供「安全瀏覽網站狀態檢查工具」，可協助商家主動�
 
 ![GSC 安全性問題](../../../assets/images/ec-第三方整合-google-gsc安全性問題.png)
 
-## 後續操作
+## 後續操作 { #next-steps-safe-browsing }
 
 為了加強官網安全性，建議商家平時應開啟 CYBERBIZ 後台的相關安全設定，以降低帳號被盜用導致網站被植入惡意內容的風險。
 
@@ -116,7 +116,7 @@ Google 提供「安全瀏覽網站狀態檢查工具」，可協助商家主動�
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-safe-browsing }
 
 ??? quote "提交審核申請後，需要多久才能解除警示？"
 

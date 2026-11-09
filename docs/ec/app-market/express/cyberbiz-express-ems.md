@@ -74,7 +74,7 @@ hide: []
 { .doc-badge }
 
 
-## 快捷郵件(EMS)
+## 快捷郵件(EMS) { #intro-express-ems }
   
 Express Mail Service 快捷郵件(EMS)為 CYBERBIZ 與日本郵局(Japan Post) 直串的物流選項。  
   
@@ -84,7 +84,7 @@ Express Mail Service 快捷郵件(EMS)為 CYBERBIZ 與日本郵局(Japan Post) �
 - **系統支援印單**：支援後台一鍵生成託運單，實現從下單到出貨的一站式訂單管理。
 - **跨境通關優勢**：消費者 **免使用 EZWAY 實名認證**，大幅提升收貨便利性與轉單率。
 
-### 使用須知
+### 使用須知 { #intro-express-ems-requirements }
 
 - **商品資訊設定**：參與跨境銷售的商品，**需補齊報關專用資訊**（如 JANCODE、成分、原產國等），詳細欄位請參閱 [日到台跨境商品資訊設定](product-info-setting.md)。
 - **印單服務費**：系統會於建立託運單時自動預扣CYBER幣；每月最後一天會依該月配送件數進行帳務校準。
@@ -93,19 +93,19 @@ Express Mail Service 快捷郵件(EMS)為 CYBERBIZ 與日本郵局(Japan Post) �
 - **禁運品規範**：請確保商品符合郵局之運輸限制，若因違規導致退件，相關損失恕由商家承擔。詳細可參考 [日本郵局禁寄品說明](https://www.post.japanpost.jp/int/use/restriction/index_cn.html#airmail)。
 
 
-### 比較 EXPRESS 宅配與 Express Mail Service
+### 比較 EXPRESS 宅配與 Express Mail Service { #intro-express-ems-express-comparison }
 
 | **物流選項** | **CYBERBIZ EXPRESS 宅配** | **Express Mail Service** | 
 | ----------- | ------------------------- | ----------------------- | 
 | **物流商** | CYBERBIZ 官方物流服務 | 日本郵局(Japan Post) | 
 | **運費** | 平台預扣(CYBER 幣) | 現場支付 / 月結 | 
-| **稅金/報關手續** | 依 [EXPRESS 宅配物流運送流程](cyberbiz-express-japan-to-taiwan-delivery/#跨境物流運送流程) 操作即可 | 自行處理 |
+| **稅金/報關手續** | 依 [EXPRESS 宅配物流運送流程](cyberbiz-express-japan-to-taiwan-delivery/#operate-express-japan) 操作即可 | 自行處理 |
 | **物流爭議處理** | 由 CYBERBIZ 統一受理窗口 | 聯繫日本郵局 (Japan Post) |
 | **適用對象** | 欲簡化跨境報關手續之商家<br>欲透過單一窗口整合配送管理之商家 | 已與日本郵局簽約優惠帳號的商家<br>習慣使用 EMS 出貨的商家 | 
 
 
 
-## 申請開通物流
+## 申請開通物流 { #operate-express-ems }
 
 1.  請向 CYBERBIZ 開店顧問團隊申請開通，開通完成後您可於後台開始設定。  
 
@@ -145,7 +145,7 @@ Express Mail Service 快捷郵件(EMS)為 CYBERBIZ 與日本郵局(Japan Post) �
 
 
 
-## 訂單出貨操作  
+## 訂單出貨操作 { #operate-shipping }
 
 1.  前往 **訂單 > 所有訂單**，勾選訂單，選擇「建立託運單」。
     
@@ -178,7 +178,7 @@ Express Mail Service 快捷郵件(EMS)為 CYBERBIZ 與日本郵局(Japan Post) �
     
 
 
-## 補印託運單
+## 補印託運單 { #intro-reprint }
 
   
 前往 **訂單 > 所有訂單**，勾選指定訂單，選擇「補印託運單」。  

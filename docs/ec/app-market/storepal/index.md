@@ -82,7 +82,7 @@ hide: []
 
 ---
 
-## 介面切割導覽 (Interface Overview)
+## 介面切割導覽 (Interface Overview) { #overview-storepal }
 
 門市助理的前台介面設計遵循「由淺入深、由左至右」的銷售邏輯，分為三個核心操作區域：
 
@@ -105,11 +105,11 @@ graph LR
 
 ---
 
-## 教學文件導覽
+## 教學文件導覽 { #reference-storepal }
 
 請根據您的操作需求，選擇對應的教學章節：
 
-### 基礎建置與入會
+### 基礎建置與入會 { #reference-storepal-section }
 
 <div class="grid cards" markdown>
 
@@ -120,7 +120,7 @@ graph LR
 
 </div>
 
-### 會員經營與數據應用
+### 會員經營與數據應用 { #reference-storepal-member }
 
 <div class="grid cards" markdown>
 
@@ -141,7 +141,7 @@ graph LR
 
 </div>
 
-### 績效追蹤與報表
+### 績效追蹤與報表 { #reference-storepal-report }
 
 <div class="grid cards" markdown>
 

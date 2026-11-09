@@ -52,7 +52,7 @@ hide:
 
 本對照表彙整「商品條件分類」可用的篩選欄位，以及每個欄位可搭配的比對條件，供條件分類設定參考。
 
-## 篩選欄位對照表 { #smart-collections-rule-columns }
+## 篩選欄位對照表 { #reference-smart-collections-columns }
 
 | 篩選欄位 | 從哪個商品資料比對 | 欄位類型 | 可搭配的條件 |
 | :-- | :-- | :-- | :-- |

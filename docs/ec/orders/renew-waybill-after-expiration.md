@@ -23,7 +23,8 @@ difficulty: beginner
 tnb: trunk
 plans: []
 plan_options: []
-cyb_extensions: []
+cyb_extensions: 
+  - CYBERBIZ PAYMENTS
 intents: 
   - 重新取得超商託運單
   - 處理逾期託運單

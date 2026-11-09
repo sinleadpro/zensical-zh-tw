@@ -75,20 +75,20 @@ tags:
 
 ![黑貓快速到店付款](../../../assets/images/ec-金物流-超商物流-黑貓快速到店.png){ title="黑貓快速到店付款" .hero-page }
 
-## 黑貓快速到店付款說明
+## 黑貓快速到店付款說明 { #intro-tcat-express-pay }
 
 商家可提供「貨到付款」與「取貨不付款」兩種選擇，其運作模式是由黑貓司機到商家指定地點收貨，隨後配送至消費者指定的 **7-11 門市**。
 
-## 步驟一：後台設定路徑
+## 步驟一：後台設定路徑 { #operate-tcat-express-pay-admin-path }
 
 1. 登入管理後台，前往 **金物流 > 超商物流**。
 2. 在 **黑貓快速到店** 區塊，點擊編輯按鈕 :material-file-document-edit-outline: 進入編輯頁面。
 
 ![編輯黑貓快速到店](../../../assets/images/ec-金物流-超商物流-黑貓快速到店-編輯.png){ title="編輯黑貓快速到店" }
 
-## 步驟二：付款方式設定步驟
+## 步驟二：付款方式設定步驟 { #operate-tcat-express-pay-pay-setup }
 
-### 設定「貨到付款」<small>COD</small>
+### 設定「貨到付款」<small>COD</small> { #operate-tcat-express-pay-cod }
 
 !!! plan "此功能 **僅限開通 CYBERBIZ PAYMENTS 的商家** 使用。"
 
@@ -106,7 +106,7 @@ tags:
 
 ---
 
-### 設定「取貨不付款」<small>貨到不付款</small>
+### 設定「取貨不付款」<small>貨到不付款</small> { #operate-tcat-express-pay-no-cod }
 
 1. 切換至 **取貨不付款** 頁籤。
 2. **開啟功能：** 將「取貨不付款」開關切換至 **「ON」**。
@@ -116,7 +116,7 @@ tags:
 
 ![黑貓快速到店-取貨不付款](../../../assets/images/ec-金物流-超商物流-黑貓快速到店-取貨不付款.png){ title="黑貓快速到店-取貨不付款" }
 
-## 顧客端呈現畫面
+## 顧客端呈現畫面 { #operate-tcat-express-pay-storefront }
 
 - 顧客在官網結帳頁面 **不會直接看到** 「黑貓快速到店」的字樣。
 
@@ -138,7 +138,7 @@ tags:
 
 </div>
 
-## 重要規範與注意事項
+## 重要規範與注意事項 { #prerequisites-tcat-express-pay-rules }
 
 - **物流運費查詢：** 可至後台 **管理中心 >對帳中心 >  其他物流運費** 查看詳細費率。
 
@@ -160,7 +160,7 @@ tags:
 
 
 
-## 後續步驟
+## 後續步驟 { #next-steps-tcat-express-pay }
 
 <div class="grid cards" markdown>
 
@@ -175,7 +175,7 @@ tags:
 </div>
 
 
-## 常見問題
+## 常見問題 { #faq-tcat-express-pay }
 
 ??? quote "是否可以同時開啟 黑貓快速到店 和 7-11 超商取貨付款？" 
 	可以。但顧客在前台結帳頁會看到兩個 7-11 選項。為了避免混淆，建議同一種超商取貨只開啟一種配送物流方式。

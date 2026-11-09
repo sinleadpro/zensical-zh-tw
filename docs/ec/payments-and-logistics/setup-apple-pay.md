@@ -63,7 +63,7 @@ hide: []
 
 ![Apple Pay 設定](../../assets/images/ec-payments-apple-pay.zh-tw.png){ title="Apple Pay 設定" .hero-page }
 
-## 為什麼使用 Apple Pay
+## 為什麼使用 Apple Pay { #intro-apple-pay }
 
 - **加速結帳**：消費者無需手動輸入信用卡資訊，直接透過手機付款。
 - **改善體驗**：降低結帳摩擦，提高轉換率。
@@ -72,13 +72,13 @@ hide: []
 - **費用透明**：費率與信用卡一次付清相同，無額外手續費。
 
 
-## 前置條件
+## 前置條件 { #prerequisites-apple-pay-req }
 
 - [x] 已 [開通 **CYBERBIZ PAYMENTS**](apply-cyberbiz-payments.md){ title="申請 CYBERBIZ PAYMENTS" }
 
-## 使用須知
+## 使用須知 { #prerequisites-apple-pay }
 
-### 裝置與瀏覽器限制
+### 裝置與瀏覽器限制 { #prerequisites-apple-pay-devices }
 
 - **必要條件**：Apple 裝置 + Safari 瀏覽器
     
@@ -87,25 +87,25 @@ hide: []
 
 ---
 
-### 付款限制
+### 付款限制 { #prerequisites-apple-pay-limits }
 
 - **支援**：一次付清
 - **不支援**：分期付款（需使用信用卡分期）
 
 ---
 
-### 費用
+### 費用 { #specs-apple-pay-fees }
 
 - 與信用卡一次付清相同
 - 無額外手續費或年費
 
 ---
 
-### 退款
+### 退款 { #specs-apple-pay-refund }
 
 - 流程與信用卡相同
 
-## 操作步驟
+## 操作步驟 { #operate-apple-pay }
 
 Apple Pay 通常隨 CYBERBIZ PAYMENTS 自動啟用，可在後台調整可用性與交易門檻。
 
@@ -120,7 +120,7 @@ Apple Pay 通常隨 CYBERBIZ PAYMENTS 自動啟用，可在後台調整可用性
 
 ![Apple Pay 設定畫面](../../assets/images/ec-金物流-設定 Apple Pay.gif){ title="Apple Pay 設定畫面" }
 
-## 後續步驟
+## 後續步驟 { #next-steps-apple-pay }
 
 <div class="grid cards" markdown>
 
@@ -135,7 +135,7 @@ Apple Pay 通常隨 CYBERBIZ PAYMENTS 自動啟用，可在後台調整可用性
 </div>
 
 
-## 常見問題
+## 常見問題 { #faq-apple-pay }
 
 ??? quote "Apple Pay 支援分期付款嗎？"
 	不支援。Apple Pay 只能一次付清。如需分期，客戶必須選擇「信用卡分期」付款方式。

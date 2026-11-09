@@ -13,7 +13,7 @@ hide:
   - feedback
 ---
 
-## 行銷自動化
+## 行銷自動化 { #intro-app-market }
 
 <div class="grid cards" markdown>
 
@@ -29,7 +29,7 @@ hide:
 
 ---
 
-## 訊息整合
+## 訊息整合 { #intro-message-integration }
 
 <div class="grid cards" markdown>
 
@@ -45,7 +45,7 @@ hide:
 
 ---
 
-## 全通路管理
+## 全通路管理 { #operate-app-market }
 
 <div class="grid cards" markdown>
 
@@ -57,11 +57,19 @@ hide:
 
     [:octicons-arrow-right-24: 前往](cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md)
 
+-   :lucide-warehouse: __設定 POS 與官網商品共庫__
+
+    ---
+
+    讓指定 POS 門市與官網的相同 SKU 共享同一包庫存。
+
+    [:octicons-arrow-right-24: 前往](cyberbiz-channel-bridge/sync-inventory-with-pos.md)
+
 </div>
 
 ---
 
-## 門市銷售工具
+## 門市銷售工具 { #intro-store }
 
 <div class="grid cards" markdown>
 
@@ -77,7 +85,7 @@ hide:
 
 ---
 
-## 開發整合與擴充
+## 開發整合與擴充 { #intro-integration }
 
 <div class="grid cards" markdown>
 

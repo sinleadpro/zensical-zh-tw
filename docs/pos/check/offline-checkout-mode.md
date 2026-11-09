@@ -82,14 +82,14 @@ hide: []
     - **外部展銷**：在網路環境較差的外部場地（如百貨快閃店、市集）進行收銀。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-offline-checkout }
 
 - **驅動程式要求**：請務必將 [CYBERBIZ POS 驅動程式](../software/drivers.md) 更新至最新版本，以確保離線同步機制運作正常。
 
 
-## 離線時操作
+## 離線時操作 { #operate-offline-checkout }
 
-### 步驟一：開啟離線模式
+### 步驟一：開啟離線模式 { #operate-offline-checkout-step-a-enable }
 
 當 POS APP 偵測到失去網路連線時，前台登入畫面的按鈕會自動變更。
 
@@ -100,7 +100,7 @@ hide: []
 3. 若有會員購物，可進行 **會員登入**（搜尋記錄可能受限）。
     ![](../../assets/images/POS-前台-結帳-離線模式02.png){ .screenshot }
 
-### 步驟二：掃描與結帳
+### 步驟二：掃描與結帳 { #operate-offline-checkout-step-b-scan }
 
 1. **掃描 SKU**：使用掃碼槍掃描商品標籤，或手動輸入 SKU 碼。
 
@@ -116,16 +116,16 @@ hide: []
 
     ![](../../assets/images/POS-前台-訂單-離線模式01.png){ .screenshot }
 
-## 恢復連線後同步
+## 恢復連線後同步 { #operate-restore-connection-sync }
 
-### 步驟一：系統自動偵測
+### 步驟一：系統自動偵測 { #operate-restore-connection-sync-step-a-auto }
 
 1. 當網路恢復時，POS APP 會自動偵測狀態。
 2. 按鈕將從 **開啟離線模式** 變回 **點此開啟前台**。
 
 ![](../../assets/images/POS-前台-登入-連線模式01.png){ .screenshot }
 
-### 步驟二：上傳離線訂單
+### 步驟二：上傳離線訂單 { #operate-restore-connection-sync-step-b-offline }
 
 離線期間產生的訂單會進入上傳排程，並在背景自動傳送至雲端。
 
@@ -136,7 +136,7 @@ hide: []
 
 ![](../../assets/images/POS-前台-訂單-上傳離線模式成立之訂單01.png){ .screenshot }
 
-### 步驟三：雲端資料自動校正
+### 步驟三：雲端資料自動校正 { #operate-restore-connection-sync-step-c-data }
 
 恢復連線後，雲端 POS 會自動執行以下校正：
 
@@ -146,7 +146,7 @@ hide: []
 
 
 
-## 常見問題
+## 常見問題 { #faq-offline-checkout }
 
 ??? quote "離線模式下可以掃描會員條碼嗎？"
     可以。只要條碼內含的是會員手機號碼或卡號，系統會記錄下來。但由於無法即時與雲端資料庫比對，部分會員權益（如紅利點數、特定 VIP 折扣）可能無法即時顯示，需待同步後由系統計算。

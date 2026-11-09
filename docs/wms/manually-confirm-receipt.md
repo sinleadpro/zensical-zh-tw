@@ -68,14 +68,14 @@ hide: []
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 電商官網 / 智慧倉儲
 { .doc-badge }
 
-## 使用須知
+## 使用須知 { #prerequisites-receipt }
 
-### 使用情境
+### 使用情境 { #prerequisites-receipt-scenario }
 
 超商出貨之訂單，若超商端漏拋已收貨狀態，商家與消費者確認商品確實已送達並領取後，手動將系統貨態變更為 **已收貨**。
 
 
-### 操作限制與規範
+### 操作限制與規範 { #specs-receipt-limits }
 
 - **訂單類型**：僅支援 **超商取貨** 類型的訂單。
 - **配送狀態**：訂單目前狀態須為 **已出貨**。
@@ -84,13 +84,13 @@ hide: []
     - 商品抵達門市超過 **7 天** 仍未更新貨態。
 - **不可逆性**：手動確認收貨後，系統將無法回復至原始狀態。若因操作失誤誤改，則須啟動後續的退貨流程修正帳務。
 
-### 注意事項
+### 注意事項 { #prerequisites-receipt-notes }
 
 - **責任歸屬**：商家執行手動收貨前，務必與消費者確認是否已實際完成領取。
-- **異常修復**：若執行手動收貨後發現商品實際上未取件（如包裹遺失），須手動啟動 [退貨流程](../ec/orders/order-return-process.md)，以利執行 [倉庫驗退作業](returns-and-vehicle-dispatch.md#步驟二逆物流派車回收)、[訂單退款作業](../ec/orders/order-refund-process.md)。
+- **異常修復**：若執行手動收貨後發現商品實際上未取件（如包裹遺失），須手動啟動 [退貨流程](../ec/orders/order-return-process.md)，以利執行 [倉庫驗退作業](returns-and-vehicle-dispatch.md#operate-return-dispatch-reverse-logistics)、[訂單退款作業](../ec/orders/order-refund-process.md)。
 
 
-## 操作步驟
+## 操作步驟 { #operate-receipt }
 
 1. 前往 **訂單 > 列表**。
 2. 點擊目標訂單的 **訂單編號** 進入明細頁面。

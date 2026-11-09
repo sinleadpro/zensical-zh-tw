@@ -90,26 +90,26 @@ hide:
     - **計算分潤回饋：** 推薦人分潤、註冊分潤等皆在結案當下進行計算。
     - **清除提醒數字：** 自動清除後台左側選單「未結案訂單」的紅色數字提醒。
 
-## 使用前提與限制 { #prerequisites }
+## 使用前提與限制 { #prerequisites-order-auto-close }
 
 - [x] **部分出貨限制：** 若訂單處於「部分出貨」狀態，系統 **無法自動結案**。需等待該訂單所有商品皆更新為「已出貨」或「已收貨」後，方可手動或由系統自動結案。
 - [x] **退貨與結案：** 系統預設僅在「退貨狀態」為「不需退貨」時才會執行自動結案。
 - [x] **結案後的退貨處理：** 訂單一旦結案，即使後續再進行退貨或取消操作，系統 **不會自動扣除** ，已發出的紅利或優惠券，亦不影響已計算成立的分潤，商家需手動至會員頁面處理。
 - [x] **對帳標準：**「結案」狀態與財務對帳無直接關係。對帳認列是以配送狀態「已收貨」或「已出貨」為標準，而非以結案日為準。
 
-## 操作步驟 { #steps }
+## 操作步驟 { #operate-order-auto-close }
 
 此設定適用於透過 **官網前台成立** 的訂單。系統會依據訂單所使用的物流類型（**系統串接物流 / 自訂物流**），在符合指定條件時，自動將訂單狀態更新為「已結案」。
 
 
 **訂單自動結案** 提供兩種結案邏輯，請依實際使用的物流類型選擇適合的模式：
 
-- [**取貨後自動結案**](#auto-close-delivery)：系統串接物流專用，收貨後指定天數自動結案。
-- [**出貨後自動結案**](#auto-close-ship)：自訂物流專用，出貨後指定天數自動結案。
+- [**取貨後自動結案**](#specs-order-auto-close-delivery)：系統串接物流專用，收貨後指定天數自動結案。
+- [**出貨後自動結案**](#specs-order-auto-close-ship)：自訂物流專用，出貨後指定天數自動結案。
 
 ---
 
-#### 取貨後自動結案 <small>已收貨結案</small> { #auto-close-delivery }
+#### 取貨後自動結案 <small>已收貨結案</small> { #specs-order-auto-close-delivery }
 
 適用於使用系統 **串接物流** 的訂單（例如：7-11、全家、黑貓、宅配通）。當系統接收到物流回傳狀態為「已收貨」，並超過指定天數後，系統會自動將訂單結案。
 
@@ -122,7 +122,7 @@ hide:
 
 ---
 
-#### 出貨後自動結案 <small>已出貨結案</small> { #auto-close-ship }
+#### 出貨後自動結案 <small>已出貨結案</small> { #specs-order-auto-close-ship }
 
 適用於 **自訂物流** 的訂單（例如：商家自行配送、自訂貨到付款）。由於系統無法取得實際收貨狀態，當訂單狀態更新為「已出貨」，並超過指定天數後，系統即自動結案。
 
@@ -135,9 +135,9 @@ hide:
 
 ---
 
-## 重要規範與限制 { #important-notes }
+## 重要規範與限制 { #specs-order-auto-close }
 
-### 批次執行時間 { #batch-schedule }
+### 批次執行時間 { #specs-order-auto-close-schedule }
 
 系統於 **每日凌晨 06:15** 進行批次自動結案。
 
@@ -153,11 +153,11 @@ hide:
 
 ---
 
-### 結案狀態確認 { #close-status-confirmation }
+### 結案狀態確認 { #specs-order-close-status }
 
 自動結案執行後，可已透過以下兩種方式確認結案狀態：
 
-- **訂單操作紀錄：** 系統將在訂單明細中自動留下歷程紀錄，顯示「訂單被關閉」。可至 **訂單 > 所有訂單** 點擊訂單編號，進入頁面底部 [訂單操作紀錄區塊](../basics/order-management-interface.md#order-history){ title="訂單操作紀錄說明" } 查看詳細歷程。
+- **訂單操作紀錄：** 系統將在訂單明細中自動留下歷程紀錄，顯示「訂單被關閉」。可至 **訂單 > 所有訂單** 點擊訂單編號，進入頁面底部 [訂單操作紀錄區塊](../basics/order-management-interface.md#reference-order-history){ title="訂單操作紀錄說明" } 查看詳細歷程。
 	
 - 訂單列表狀態標籤：在訂單列表頁面，已結案的訂單編號旁將顯示 **已結案** 標籤。
 
@@ -169,7 +169,7 @@ hide:
 
 		![舊版訂單列表-已結案](../../../assets/images/ec-訂單-所有訂單-舊版訂單列表-已結案.png){ title="舊版訂單列表-已結案" }
 
-## 後續操作 { #related-operations }
+## 後續操作 { #next-steps-order-auto-close }
 
 <div class="grid cards" markdown>
 
@@ -178,16 +178,16 @@ hide:
   設定 POS 訂單自動結案。
 
 - :lucide-ticket-check:{ .lg }     
-  [__票券訂單自動結案__](../../e-ticket/e-ticket-setup-guide.md#票券分潤與自動結案設定)  
+  [__票券訂單自動結案__](../../e-ticket/e-ticket-setup-guide.md#specs-e-ticket-revenue-close)
   設定電子票券訂單自動結案。
 
 - :lucide-circle-x:{ .lg }   
-  [__訂單自動取消（付款超時）__](../basics/cancel-order.md#orders-cancel-auto)  
+  [__訂單自動取消（付款超時）__](../basics/cancel-order.md#operate-cancel-auto)
   設定未付款訂單在指定天數後由系統自動取消。
 
 </div>
 
-## 常見問題 { #faq }
+## 常見問題 { #faq-order-auto-close }
 
 
 ??? quote "為什麼我的訂單沒有自動結案"

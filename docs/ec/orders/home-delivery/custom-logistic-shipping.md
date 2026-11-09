@@ -66,7 +66,7 @@ hide: []
 
 ![自訂物流出貨](../../../assets/images/EC-訂單-所有訂單-更多操作-已出貨-hero.png){ title="自訂物流出貨" .hero-page }
 
-## 自訂物流出貨說明 { #custom-logistics-shipping-intro }
+## 自訂物流出貨說明 { #intro-custom-logistics }
 
 「自訂物流」適用於非 CYBERBIZ 系統串接的物流情境，例如店家自行配合的貨運公司（大榮物流、嘉里大榮、第三方快遞）、商家自送、顧客自取等。商家可在訂單中手動指定貨運公司（可選填託運單號），系統會將訂單貨態切換為「已出貨」，並可選擇是否同步寄送通知信給顧客。
 
@@ -77,7 +77,7 @@ hide: []
     - 不會同步配送進度
     - 不會更新物流軌跡
 
-## 使用前提與限制 { #custom-logistics-shipping-prerequisites }
+## 使用前提與限制 { #prerequisites-custom-logistics }
 
 執行出貨前，訂單必須同時符合以下條件：
 
@@ -90,26 +90,26 @@ hide: []
 
     訂單貨態一旦變更為「已出貨」，便無法回復為「未出貨」。若需取消，只能透過退貨或退款流程處理，請務必確認資料正確後再執行。
 
-## 操作方式 { #custom-logistics-shipping-operate }
+## 操作方式 { #operate-custom-logistics }
 
 依出貨量與是否需要回填單號，共有三種操作方式：
 
 <div class="grid cards" markdown>
 
 -   :lucide-package-open:{ .lg }
-    [批次快速出貨（不填單號）](#custom-logistics-shipping-batch)
+    [批次快速出貨（不填單號）](#operate-custom-logistics-batch)
 
 -   :lucide-file-spreadsheet:{ .lg }
-    [Excel 大量匯入託運單號](#excel-bulk-import)
+    [Excel 大量匯入託運單號](#operate-excel-bulk-import)
 
 -   :lucide-pencil:{ .lg }
-    [單筆訂單手動出貨](#single-order-manual-ship)
+    [單筆訂單手動出貨](#operate-custom-logistics-single-order)
 
 </div>
 
 ---
 
-### 批次標記為已出貨 { #custom-logistics-shipping-batch }
+### 批次標記為已出貨 { #operate-custom-logistics-batch }
 
 適合一次將多筆訂單快速改為「已出貨」，不需逐筆填寫託運單號的情境。
 
@@ -154,7 +154,7 @@ hide: []
 
 ---
 
-### 大量匯入自訂物流託運單號 <small>Excel</small> { #excel-bulk-import }
+### 大量匯入自訂物流託運單號 <small>Excel</small> { #operate-excel-bulk-import }
 
 適合需要 **一次回填多筆不同託運單號** 的情境。
 
@@ -196,7 +196,7 @@ hide: []
 
 ---
 
-### 單筆訂單於詳情頁出貨 { #single-order-manual-ship }
+### 單筆訂單於詳情頁出貨 { #operate-custom-logistics-single-order }
 
 !!! example "適用情境"
     - 逐筆精準填寫單號
@@ -213,17 +213,17 @@ hide: []
 
 ![訂單詳情頁-自訂出貨](../../../assets/images/EC-訂單-訂單詳情頁-出貨方式-自訂出貨.png){ title="訂單詳情頁-自訂出貨" }
 
-## 特殊情境處理
+## 特殊情境處理 { #operate-custom-logistics-exceptions }
 
 - **顧客自取**： 仍使用「自訂物流」流程，「快遞單號」可填寫自取編號或「顧客自取」等文字。
-- **商家自送**：可直接使用 [批次出貨](#custom-logistics-shipping-batch)，並於備註補充交付資訊。
+- **商家自送**：可直接使用 [批次出貨](#operate-custom-logistics-batch)，並於備註補充交付資訊。
 - **手寫宅配單**：若使用手寫物流單，請回填實際手寫單號。
 
     !!! warning "請勿填寫 CYBERBIZ 系統客代，以免造成帳務異常。"
 
 - **同單多包裹**：建議使用 Excel 匯入，並以半形分號 `;` 串接多組單號。
 
-## 後續操作
+## 後續操作 { #next-steps-custom-logistics }
 
 由於自訂物流不會自動同步配送進度，商家需自行推進後續流程。
 
@@ -243,7 +243,7 @@ hide: []
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-custom-logistics }
 
 ??? quote "為什麼下拉清單找不到我配合的物流商？"
 

@@ -69,11 +69,11 @@ hide:
 
 ![MBS-資料來源-目錄](../../../../assets/images/ec-第三方整合-mbs-資料來源-目錄.png){ .hero-page }
 
-## 同步商品影片至 Meta 目錄說明
+## 同步商品影片至 Meta 目錄說明 { #overview-meta-videos }
 
-此功能使商家能夠將 CYBERBIZ 平台上的產品數據（包含資訊、庫存、價格，以及最重要的 **商品影片**）自動同步到 Meta 的產品目錄中。設定完成後，後續在建立 Meta 廣告時若選擇「[**目錄型廣告**](setup-meta-ad-campaign.md#廣告呈現效果){ title="設定 Meta 廣告活動" data-preview }」，廣告投放時商品影片與商品圖即會輪播展示。
+此功能使商家能夠將 CYBERBIZ 平台上的產品數據（包含資訊、庫存、價格，以及最重要的 **商品影片**）自動同步到 Meta 的產品目錄中。設定完成後，後續在建立 Meta 廣告時若選擇「[**目錄型廣告**](setup-meta-ad-campaign.md#intro-meta-campaign){ title="設定 Meta 廣告活動" data-preview }」，廣告投放時商品影片與商品圖即會輪播展示。
 
-## 設定前提與功能限制
+## 設定前提與功能限制 { #prerequisites-meta-videos }
 
 在進行同步前，請務必確認滿足以下條件與規格：
 
@@ -81,13 +81,13 @@ hide:
 - [x] **擴充套件串接：** 商家必須具備並已串接「[Facebook 新版商業擴充套件](../mbe/setup-fbe-authorization.md){ title="設定 FBE 帳號授權與資產連結" }」功能。
 - [x] **版型限制**：商品影片功能目前僅支援 **拖拉版型**，非此版型之商店將無法上傳並同步影片。
 
-## 同步設定步驟
+## 同步設定步驟 { #operate-meta-videos }
 
 1.  **進入功能：** 登入 CYBERBIZ 管理後台，前往「第三方整合」>「臉書 Facebook 設定（廣告/註冊登入）」，點擊「**編輯資產**」開啟設定視窗。
 
     ![FBE-編輯資產](../../../../assets/images/ec-第三方整合-fb-基本設定-fbe-編輯資產.png)
 
-2.  **進行資產連結：** 此步驟與 [FBE 帳號操作步驟教學](../mbe/setup-fbe-authorization.md#操作步驟教學){ title="設定 FBE 帳號授權與資產連結" } 的「連結企業資產」流程相同（包含登入 Facebook 帳號、同意授權、選擇資產）。
+2.  **進行資產連結：** 此步驟與 [FBE 帳號操作步驟教學](../mbe/setup-fbe-authorization.md#operate-fbe-authorization-operate-step){ title="設定 FBE 帳號授權與資產連結" } 的「連結企業資產」流程相同（包含登入 Facebook 帳號、同意授權、選擇資產）。
 
 3.  **選擇目錄資產：** 選擇「**目錄**」作為欲同步的資產類型，並從清單中挑選欲同步的商品目錄後點擊 **確認**。
 
@@ -97,7 +97,7 @@ hide:
 
 4.  **完成流程：** 依序完成彈窗中的其他設定並點擊「完成」，系統會自動導回 CYBERBIZ 後台頁面。
 
-## 於 Meta 端確認同步狀態
+## 於 Meta 端確認同步狀態 { #specs-meta-videos }
 
 1.  前往 [Meta 企業管理平台 :lucide-external-link:](https://business.facebook.com/latest/settings) 後台，進入「資料來源」>「目錄」，選擇剛才綁定的目錄。
 2.  點擊「**在商務管理工具中開啟**」。
@@ -112,7 +112,7 @@ hide:
     - 若有多份資料來源導致新增失敗，請先刪除舊的資料來源再重新更新。
     - 在 **尚未投放廣告前**，商務管理工具可能看不到影片資料。您可以嘗試建立廣告，在審核階段暫停，Meta 隨即會幫您載入影片資料。
 
-## 後續操作
+## 後續操作 { #next-steps-meta-videos }
 
 <div class="grid cards" markdown>
 
@@ -122,7 +122,7 @@ hide:
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-meta-videos }
 
 ??? quote "如何確認商品影片已成功同步到 Meta 目錄？"
 

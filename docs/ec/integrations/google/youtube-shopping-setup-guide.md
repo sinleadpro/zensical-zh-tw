@@ -74,14 +74,14 @@ icon: simple/youtube
 hide: []
 ---
 
-## 什麼是 YouTube Shopping
+## 什麼是 YouTube Shopping { #intro-youtube-shopping }
 
 **YouTube Shopping** 可在 YouTube 影片、直播、短影音中植入官網商品資訊與連結。商家若有製作影片、經營 YouTube 頻道、在 YouTube 直播，可進一步設定以增加商品曝光、促進流量變現。[瞭解更多 :lucide-external-link:](https://support.google.com/youtube/answer/12257682?hl=zh-Hant)
 
 !!! warning "適用對象"
     YouTube Shopping 為 **YouTube 合作夥伴計畫 (YPP)** 功能，適用於已有 YouTube 頻道並達到營利門檻（訂閱 1,000 人 + 觀看時數 4,000 小時）的創作者。
 
-## YouTube Shopping 設定流程
+## YouTube Shopping 設定流程 { #operate-youtube-shopping }
 
 ```mermaid
 graph LR
@@ -114,7 +114,7 @@ graph LR
     S2 --> S3
 ```
 
-### 1. 帳號建立與後台綁定
+### 1. 帳號建立與後台綁定 { #operate-youtube-shopping-account-create-backend }
 
 在申請 YouTube Shopping 之前，必須先完成 Google 兩大工具的串接。
 
@@ -140,7 +140,7 @@ graph LR
 
 ---
 
-### 2. YPP 資格申請
+### 2. YPP 資格申請 { #operate-youtube-shopping-ypp-apply }
 
 商家頻道必須具備 [**YouTube 合作夥伴計畫 (YPP)** :lucide-external-link:](https://support.google.com/youtube/answer/72851?hl=zh-Hant&ref_topic=9153642) 的營利資格才能開啟購物功能。
 
@@ -153,13 +153,13 @@ graph LR
 
 ---
 
-### 3. 申請與連結商店
+### 3. 申請與連結商店 { #operate-youtube-shopping-apply }
 
 當上述帳號與資格皆準備完成後，即可進行最後的連結步驟。
 
 1.  **申請資格**：填寫 [YouTube Shopping 資格申請表](https://docs.google.com/forms/d/e/1FAIpQLSeC92YTZOl0E-SO03SAv-QF_rRaWXNWdYLABZXEFwnfeXhzdQ/viewform)，由 CYBERBIZ 統一遞交至 YouTube。
     - 申請通過後，CYBERBIZ 將依據您於申請表單中所留的 Email 地址，寄送開通通知信。請於收到信件後，再繼續後續操作。
-2.  **連結 GMC 與 GA4**：在 Merchant Center 設定中啟用自動標記，並將 [GA4 連結至 Merchant Center](setup-gmc-conversion-tracking.md#將-ga4-連結至-merchant-center){ title="設定 GMC 重要事件來源追蹤與自動標記" }。
+2.  **連結 GMC 與 GA4**：在 Merchant Center 設定中啟用自動標記，並將 [GA4 連結至 Merchant Center](setup-gmc-conversion-tracking.md#operate-gmc-conversions-steps-ga4-merchant-cen){ title="設定 GMC 重要事件來源追蹤與自動標記" }。
 3.  **連結 YouTube 頻道與官網**：進入 [YouTube Studio :lucide-external-link:](https://studio.youtube.com/) 的「營利」>「購物」分頁，點選「連結商店」，並選擇「其他商店」後指定您的 GMC 帳號。設定詳情，看參考[官方說明 :lucide-external-link:](https://support.google.com/youtube/answer/12258186?sjid=15941351074417695736-NC#)
 
     ![YouTube Studio 連結商店 GIF](../../../assets/images/yt-第三階段-連結Youtube商店.gif){ .screenshot }
@@ -184,7 +184,7 @@ graph LR
         !!! warning "商品自動下架機制"
             若動態饋給上的商品資訊 **超過 30 天** 未在 GMC 更新，將會從 YouTube 自動下架。建議商家 **每 28 天** 操作一次更新以維持狀態。
 
-## 追蹤 YouTube Shopping 成效
+## 追蹤 YouTube Shopping 成效 { #operate-youtube-shopping-tracking }
 
 透過 GA4 探索功能追蹤 YouTube Shopping 帶來的網站轉換成效。
 
@@ -210,11 +210,11 @@ graph LR
 
     ![GA4 探索-日期選單](../../../../assets/images/ec-ga4-探索-日期選單.gif)
 
-## **直播小秘訣**
+## **直播小秘訣** { #intro-youtube-shopping-overview-youtube-shopping }
 
 在 YouTube 直播時，商家可以預先安排直播時間並產出網址進行宣傳。直播進行中，建議利用 **「直播置頂」** 功能，將預先建立好的商品頁面（如一頁式商店）網址釘選在留言區，讓消費者能更直觀地選購商品。
 
-## 後續操作
+## 後續操作 { #next-steps-youtube-shopping }
 
 <div class="grid cards" markdown>
 
@@ -232,7 +232,7 @@ graph LR
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-youtube-shopping }
 
 ??? quote "申請 YouTube Shopping 需要什麼資格？"
 

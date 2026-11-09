@@ -67,15 +67,15 @@ hide: []
 
 ![訊息推播-發送簡訊](../../assets/images/ec-訊息推播-發送簡訊.png){ .hero-page }
 
-## 簡訊通知說明
+## 簡訊通知說明 { #intro-sms-send }
 
 在 CYBERBIZ 系統中，簡訊功能可用於主動向會員發送行銷訊息、訂單通知或邀请加入 LINE 官方帳號。
 
-## 簡訊發送規範
+## 簡訊發送規範 { #prerequisites-sms-send }
 
 為了確保簡訊順利遞送，請在發送前詳閱以下規範。
 
-### 網址使用規範
+### 網址使用規範 { #prerequisites-sms-send-url }
 
 為了確保簡訊中的網址能被正確辨識並順利跳轉，請遵守以下格式要求：
 
@@ -88,12 +88,12 @@ hide: []
 
 ---
 
-### 關鍵字與攔截限制
+### 關鍵字與攔截限制 { #prerequisites-sms-send-keywords }
 
 !!! warning "重要"
     請避開「LINE」、「加賴」、「領取」、「股票」、「點擊連結」等高敏感字眼。若因包含敏感字眼或網址格式錯誤遭電信商攔截，簡訊將無法成功送達。
 
-## 發送簡訊的三種方法
+## 發送簡訊的三種方法 { #operate-sms-send }
 
 !!! info "開始之前"
     - **一般版** 用戶使用前請先 [儲值 CYBER 幣](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="CYBER 幣儲值中心使用指南" }。
@@ -104,15 +104,15 @@ hide: []
 <div class="grid cards" markdown>
 
 - :lucide-users:{ .ig }
-  [__顧客群組發送__](#顧客群組發送)
+  [__顧客群組發送__](#operate-sms-send-group)
 - :lucide-pencil:{ .ig }
-  [__手動發送__](#手動發送)
+  [__手動發送__](#operate-sms-send-manual)
 - :lucide-file-spreadsheet:{ .ig }
-  [__匯入 Excel 發送__](#匯入-excel-發送)
+  [__匯入 Excel 發送__](#operate-sms-send-excel)
 
 </div>
 
-### 顧客群組發送
+### 顧客群組發送 { #operate-sms-send-group }
 
 用顧客群組，依顧客標籤篩選會員並統一發送相同簡訊，適合 VIP 優惠、活動通知等批次發送情境。   
 
@@ -129,7 +129,7 @@ hide: []
 
 ---
 
-### 手動發送
+### 手動發送 { #operate-sms-send-manual }
 
 直接輸入官網會員的手機號碼與簡訊內容，適用於單筆或少量的臨時通知。
 
@@ -146,7 +146,7 @@ hide: []
 
 ---
 
-### 匯入 Excel 發送
+### 匯入 Excel 發送 { #operate-sms-send-excel }
 
 透過上傳 Excel 名單批次發送簡訊，支援兩種發送模式：
 
@@ -187,7 +187,7 @@ hide: []
 
     ![簡訊發送-匯入excel-不同內容](../../assets/images/ec-訊息推播-發送簡訊-匯入excel-不同內容.png)
 
-## 後續操作
+## 後續操作 { #next-steps-sms-send }
 
 <div class="grid cards" markdown>
 
@@ -196,7 +196,7 @@ hide: []
   自訂系統自動發送的簡訊內容，支援短網址功能節省字數。
 
 - :lucide-zap:{ .lg }  
-  [__自動化簡訊發送__](../app-market/automation/automation-push-flow.md#簡訊發送設定)  
+  [__自動化簡訊發送__](../app-market/automation/automation-push-flow.md#operate-automation-push-send-sms)
   使用 AUTOMATION 建立自動化簡訊流程，支援一次性或週期性發送。
 
 - :lucide-history:{ .lg }  
@@ -212,11 +212,11 @@ hide: []
   依設定間隔發送 3 次簡訊提醒顧客付款。
 
 - :lucide-package:{ .lg }  
-  [__商品推薦通知__](../app-market/storepal/configure-global-settings-and-attribution.md#簡訊通知開關){ title="全站功能與業績歸因設定" }  
+  [__商品推薦通知__](../app-market/storepal/configure-global-settings-and-attribution.md#operate-storepal-settings-sms-toggle){ title="全站功能與業績歸因設定" }
   編輯商品推薦通知簡訊，由門市人員發送給顧客。
 </div>
 
-## 常見問題
+## 常見問題 { #faq-sms-send }
 
 ??? quote "如何發送簡訊？"
 

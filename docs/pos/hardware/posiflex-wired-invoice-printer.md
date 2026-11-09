@@ -77,16 +77,16 @@ hide: []
 { .doc-badge }
 
 
-## 使用須知
+## 使用須知 { #prerequisites-posiflex-printer }
 
 - **軟體環境**：必須維持 CYBERBIZ POS 驅動程式開啟，**請勿關閉視窗**（可最小化）。
 - **硬體時間**：發票開立時間將以商家 **POS 電腦硬體顯示時間** 為準，請確保電腦時區與時間正確。
 - **金鑰前提**：若選擇使用盟立電子發票服務，安裝發票機前請確認已將 **盟立通道金鑰** 提供給 CYBERBIZ 客服人員。
 
 
-## 操作流程
+## 操作流程 { #operate-posiflex-printer }
 
-### 步驟一：安裝驅動程式與硬體整備
+### 步驟一：安裝驅動程式與硬體整備 { #operate-posiflex-printer-step-a-install }
 
 1. **安裝程式**：前往下載並安裝 [CYBERBIZ POS 驅動程式](../software/drivers.md)。
 
@@ -116,7 +116,7 @@ hide: []
 
     ![](../../assets/images/POS-安裝-Posiflex有線發票機-開機01.jpg){ .small-image }
 
-### 步驟二：系統連線與綁定
+### 步驟二：系統連線與綁定 { #operate-posiflex-printer-step-b-connection }
 
 1. **USB 連線**：將發票機透過 USB 線與電腦連接。
 
@@ -136,7 +136,7 @@ hide: []
 
     ![](../../assets/images/POS-驅動程式-連線有線發票機02.png){ .screenshot }
 
-### 步驟三：連線與列印測試
+### 步驟三：連線與列印測試 { #operate-posiflex-printer-step-c-connection }
 
 1. **快速測試**：在驅動程式視窗 **點此** 快速測試，發票機應印出一小張測試明細。
 
@@ -168,7 +168,7 @@ hide: []
 
     </div>
 
-### 步驟四：開立發票設定
+### 步驟四：開立發票設定 { #operate-posiflex-printer-step-d-issue }
 
 前往 **POS 功能 > 所有 POS 商店**，選擇指定商店，點擊 **修改 POS 設定**，完成出單偏好配置。
 
@@ -180,7 +180,7 @@ hide: []
 
 ![](../../assets/images/POS-後台-所有POS商店-修改POS子機發票設定01.png){ .screenshot }
 
-## 紙捲與耗材資訊
+## 紙捲與耗材資訊 { #overview-posiflex-printer }
 
 若您從 CYBERBIZ 購買發票機，機器內附兩捲測試紙。後續請購買以下規格：
 
@@ -190,7 +190,7 @@ hide: []
 
 ![](../../assets/images/POS-裝置-有線發票機紙捲01.png){ .screenshot }
 
-## 常見問題
+## 常見問題 { #faq-posiflex-printer }
 
 ??? quote "為什麼驅動程式顯示「已註冊裝置為 0，1個問題待修正」？"
     ![](../../assets/images/POS-驅動程式-疑難排解1-1.png){ .screenshot }

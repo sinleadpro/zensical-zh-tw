@@ -2,7 +2,7 @@
 title: 使用 Jam 回報操作問題
 description: 用 Jam 錄製畫面，提供連結給客服，協助排查問題。
 created: 2026-06-23 16:45
-last_modified: 2026-06-23 17:04
+last_modified: 2026-10-15 16:31
 lang: zh-TW
 type: guide
 author: Jase
@@ -51,7 +51,7 @@ hide: []
 
 ![](../assets/images/ec-use-jam-to-report-hero.zh-tw.png){ .hero-page }
 
-## 使用須知
+## 使用須知 { #prerequisites-jam }
 
  - 建議附上重現步驟及相關商品/操作資訊，以加快處理速度。
  - 錄影或截圖前，請移除或遮蔽所有敏感資料，以確保錄影或截圖中無包含敏感個資。
@@ -59,9 +59,9 @@ hide: []
 !!! tip "一張圖或影片勝過千言萬語"
     只要截圖或錄下 **看到什麼、做了什麼、發生什麼**，即可讓問題回報更簡單、清楚、有效。
 
-## 操作流程
+## 操作流程 { #operate-jam }
 
-### 安裝 Jam Chrome 擴充功能
+### 安裝 Jam Chrome 擴充功能 { #operate-jam-install }
 
 1. 打開 [Chrome 線上應用程式商店 Jam 頁面](https://chromewebstore.google.com/detail/jam/iohjgamcilhbgmhbnllfolmkmmekfmci)。
 2. 點擊 **加到 Chrome > 新增擴充功能** 完成安裝。
@@ -72,7 +72,7 @@ hide: []
 
 ---
 
-### 錄影並重現問題
+### 錄影並重現問題 { #operate-jam-record }
 
 1. 點擊 Chrome 工具列右上角的 Jam 🍓 圖示。  
 2. 選擇以截圖或是錄影：
@@ -89,13 +89,13 @@ hide: []
 
 ---
 
-### 分享影片給客服與研發
+### 分享影片給客服與研發 { #operate-jam-share }
 
 1. 點擊 **分享** 或 **複製連結**。  
 2. 將連結寄至 CYBERBIZ 客服信箱：[support@cyberbiz.io](mailto:support@cyberbiz.io)。
 3. 若需附加電腦規格，可在 Jam 設定中查看系統資訊，並一併提供。  
 
-## 常見問題
+## 常見問題 { #faq-jam }
 
 ??? quote "Jam 是免費的嗎？"
     是的，基本錄影與分享功能免費。

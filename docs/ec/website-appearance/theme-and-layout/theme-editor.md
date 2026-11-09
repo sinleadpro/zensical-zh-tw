@@ -128,8 +128,8 @@ comments: false
 開始之前，請先確認以下條件，這會影響您能不能使用拖拉編輯器，以及哪些頁面可以編輯：
 
 - [x] **版型須為「拖拉版型」：** 只有標示 **「拖拉設定」** 的版型才能使用本文的拖拉編輯器。舊的「預設版型」走另一套網站設定流程，不在本文範圍。
-- [x] **可拖拉的頁面有限：** 目前支援拖拉編輯的頁面為首頁、商品頁面與自訂頁面等，並非每個頁面都能拖拉。完整清單請見 [可拖拉編輯的頁面](../references/theme-editor-pages.md#theme-editor-pages){ title="可拖拉編輯的頁面對照表" data-preview }。
-- [x] **部分區塊需開通功能：** 多數區塊所有拖拉版型皆可使用，少數區塊(如商品評論、門市據點列表)需方案有開通對應功能才會出現，請見 [可新增區塊類型](../references/theme-editor-sections.md#theme-editor-sections){ title="可新增區塊類型對照表" data-preview }。
+- [x] **可拖拉的頁面有限：** 目前支援拖拉編輯的頁面為首頁、商品頁面與自訂頁面等，並非每個頁面都能拖拉。完整清單請見 [可拖拉編輯的頁面](../references/theme-editor-pages.md#reference-theme-editor-pages){ title="可拖拉編輯的頁面對照表" data-preview }。
+- [x] **部分區塊需開通功能：** 多數區塊所有拖拉版型皆可使用，少數區塊(如商品評論、門市據點列表)需方案有開通對應功能才會出現，請見 [可新增區塊類型](../references/theme-editor-sections.md#reference-theme-editor-sections){ title="可新增區塊類型對照表" data-preview }。
 
 ---
 
@@ -288,7 +288,7 @@ comments: false
 
 ---
 
-### 全站共用設定與各頁面設定
+### 全站共用設定與各頁面設定 { #operate-theme-editor-global }
 
 除了上述的區塊操作外，拖拉版型還有以下延伸設定，請前往對應的指南查看：
 

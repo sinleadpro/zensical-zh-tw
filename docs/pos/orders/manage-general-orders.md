@@ -81,11 +81,11 @@ hide: []
     - **訂單資訊核對**：每日結帳前核對訂單狀態，確保已結案或取消的訂單數量正確。
     - **發票錯誤修正**：若結帳當下發現發票開立錯誤，可立即取消訂單以作廢發票。
 
-## 使用須知
+## 使用須知 { #prerequisites-general-orders }
 
-- **跨門市訂單查詢**：若需查詢其他門市訂單，需前往 **安全性設定** 開啟 [**店家查看他店訂單** 權限](../store/pos-security-settings.md#設定門市權限){ data-preview }。未開啟此權限前，人員僅能查看目前登入門市的訂單資料。
+- **跨門市訂單查詢**：若需查詢其他門市訂單，需前往 **安全性設定** 開啟 [**店家查看他店訂單** 權限](../store/pos-security-settings.md#operate-pos-security-store){ data-preview }。未開啟此權限前，人員僅能查看目前登入門市的訂單資料。
 
-## 查詢訂單
+## 查詢訂單 { #operate-general-orders-query-query }
 
 1. 在 POS 前台點擊 **訂單**。
 2. 您可指定查詢 **一般訂單**、**門市取貨訂單** 或 **預購訂單**：
@@ -101,9 +101,9 @@ hide: []
 
 
 
-## 取消訂單
+## 取消訂單 { #operate-general-orders-query-cancel }
 
-### 操作步驟
+### 操作步驟 { #operate-general-orders-cancel-steps }
 
 1. 進入目標訂單詳細頁面，確認訂單基礎資訊。
 2. 點擊 **取消訂單**。
@@ -112,7 +112,7 @@ hide: []
 
 ![](../../assets/images/POS-前台-訂單-取消訂單01.png){ .screenshot }
 
-### 操作須知
+### 操作須知 { #operate-general-orders-cancel-operation }
 
 - **操作不可逆性**：訂單一旦執行 **取消**，系統即無法再將其恢復為正常訂單，請務必三思。
 - **發票處理規則**：
@@ -130,9 +130,9 @@ hide: []
 - **庫存管理**：訂單取消後，系統將自動回補庫存。若退貨原因為 **商品瑕疵**，請務必再依 [庫存調整](../inventory/inventory-adjustment/) 執行 **盤虧**。
 
 
-## 辦理換貨
+## 辦理換貨 { #intro-exchange }
 
-### 操作步驟
+### 操作步驟 { #intro-exchange-steps }
 
 1. 進入目標訂單，點擊 **換貨**。
     ![](../../assets/images/POS-前台-訂單-換貨01.png){ .screenshot }
@@ -142,7 +142,7 @@ hide: []
 4. 完成後點擊 **確認** 並執行後續結帳。
     ![](../../assets/images/POS-前台-訂單-換貨02.png){ .screenshot }
 
-### 操作須知
+### 操作須知 { #intro-exchange-operation }
 
 - **金額限制**：換貨後的總額必須 **大於或等於** 原訂單金額。若價格小於原發票金額，請先 **取消原訂單**，再依據實際購買商品 **重新結帳**。
 - **商品限制**：僅能更換 **同稅別** 商品，例如：應稅商品不可更換為免稅商品。
@@ -151,7 +151,7 @@ hide: []
 - **跨門市換貨**：若 A 店成立的訂單在 B 店辦理換貨，B 店必須也有販售該商品才可執行。若 B 店無該商品品項，則無法在 B 門市辦理換貨。
 - **換貨限制**：若訂單已辦理過換貨，則無法再透過前台執行 **取消** 或 **退貨**，須轉由管理後台人工處理。
 
-### 人工取消換貨訂單
+### 人工取消換貨訂單 { #intro-exchange-cancel-exchange-order }
 
 === "同價位換貨"
 
@@ -188,7 +188,7 @@ hide: []
     4. 差額須由商家另行退款給消費者。
     
 
-### 查看換貨記錄
+### 查看換貨記錄 { #intro-exchange-view-exchange }
 
 1. 進入目標訂單，點擊 **換貨紀錄**。
     ![](../../assets/images/POS-前台-訂單-換貨紀錄01.png){ .screenshot }
@@ -196,7 +196,7 @@ hide: []
     ![](../../assets/images/POS-前台-訂單-換貨紀錄02.png){ .screenshot }
 
 
-## 結案訂單
+## 結案訂單 { #intro-order-close }
 
 1. 進入目標訂單，點擊 **結案訂單**。
 2. 手動結案後，觸發紅利、優惠券發送與分潤計算。
@@ -211,14 +211,14 @@ hide: []
 
     ![](../../assets/images/POS-後台-金物流-結帳頁物流設定-POS訂單自動結案設定01.png){ .screenshot }
 
-## 補開發票 / 列印明細
+## 補開發票 / 列印明細 { #operate-general-orders-query-invoice }
 
 1. 進入目標訂單，點擊 **其他**。
 2. 於彈窗中選擇 **補開發票** / **列印明細**。
 
 ![](../../assets/images/POS-前台-訂單-其他01.png){ .screenshot }
 
-## 訂單貼標
+## 訂單貼標 { #intro-order-labels }
 
 勾選訂單前方方框，點擊 **新增標籤** / **移除標籤**，為該訂單貼上或移除標籤。
 
@@ -227,7 +227,7 @@ hide: []
     ![](../../assets/images/POS-前台-訂單-新增訂單標籤01.png){ .screenshot }
 
     !!! warning "標籤建立權限"
-        此介面僅提供 **選取** 功能，不支援直接建立新標籤。若想建立新的訂單標籤，請前往後台，於 **訂單 > 所有訂單** [新增標籤](../../ec/orders/basics/order-management-interface#批次操作功能)。
+        此介面僅提供 **選取** 功能，不支援直接建立新標籤。若想建立新的訂單標籤，請前往後台，於 **訂單 > 所有訂單** [新增標籤](../../ec/orders/basics/order-management-interface#operate-order-ui-batch-actions)。
         
 - **移除標籤**：於彈出視窗的下拉選單中，選擇欲解除綁定的標籤。
 

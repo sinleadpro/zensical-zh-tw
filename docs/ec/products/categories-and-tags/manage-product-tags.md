@@ -84,7 +84,7 @@ hide:
 
 ![管理商品標籤](../../../assets/images/ec-product-tag-management.zh-tw.png){  title="管理商品標籤頁面"  .hero-page }
 
-## 商品標籤說明
+## 商品標籤說明 { #intro-product-tags }
 
 商品標籤可協助您更有效地管理商品及行銷活動：
 
@@ -93,9 +93,9 @@ hide:
 - 搜尋與操作效率提升：透過標籤快速定位商品，加快後台操作與管理流程。
 - 排除第三方平台同步：設定特定標籤，將商品排除於系統的第三方平台資料同步（如 GMC、Facebook DPA、LINE、美安等）。
 
-## 操作步驟
+## 操作步驟 { #operate-product-tags }
 
-### 新增商品標籤
+### 新增商品標籤 { #operate-product-tags-create }
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 商品標籤管理**。
 2. 點擊 **新增標籤** 按鈕，在標籤名稱欄位輸入欲建立的標籤名稱（例如：衣服）。若畫面未顯示新增按鈕，請向下捲動至標籤列表底部。
@@ -105,7 +105,7 @@ hide:
 
 ---
 
-### 將商品加入標籤群組
+### 將商品加入標籤群組 { #operate-product-tags-add }
 
 您可以透過兩種方式將商品加入標籤群組：
 
@@ -138,7 +138,7 @@ hide:
 
 ---
 
-#### 從編輯頁設定商品標籤
+#### 從編輯頁設定商品標籤 { #operate-product-tags-edit-page }
 
 1.  登入 CYBERBIZ 管理後台，前往 **商品 > 所有商品**。
 2.  點選您要設定的商品，進入 **設定** 頁面。
@@ -148,7 +148,7 @@ hide:
 
 ---
 
-### 從標籤群組移出商品
+### 從標籤群組移出商品 { #operate-product-tags-remove }
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 商品標籤管理**。
 2. 在右方標籤列表中點擊展開欲編輯的標籤群組，或使用搜尋跟篩選功能定位欲編輯的商品。
@@ -158,7 +158,7 @@ hide:
 
 ---
 
-### 刪除商品標籤
+### 刪除商品標籤 { #operate-product-tags-delete }
 
 1. 登入 CYBERBIZ 管理後台，前往 **商品 > 商品標籤管理**。
 2. 在標籤群組列表中找到欲刪除的標籤群組。
@@ -170,9 +170,9 @@ hide:
 
 ---
 
-### 排除上傳至第三方平台標籤
+### 排除上傳至第三方平台標籤 { #operate-product-tags-exclude }
 
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions.md#conventions-plans) | 企業
+[:lucide-tag:{ title="適用方案" }](../../../resources/conventions.md#reference-conventions-plans) | 企業
 
 設定特定標籤，將商品排除於系統的第三方平台資料同步機制之外。套用排除標籤後，該商品的資料將不會被上傳至下列第三方平台：
 
@@ -196,7 +196,7 @@ hide:
 
 ![排除上傳至第三方平台標籤](../../../assets/images/ec-remove-upload-to-third-party-platform-tag.zh-tw.png){ title="排除上傳至第三方平台標籤" }
 
-## 後續步驟
+## 後續步驟 { #next-steps-product-tags }
 
 <div class="grid cards" markdown>
 
@@ -212,7 +212,7 @@ hide:
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-product-tags }
 
 ??? quote "如果我同時設定了 `排除product feed` 和 `贈品` 標籤，會有什麼影響？"
     若同時設定兩個標籤，系統將優先依據 `贈品` 標籤的規則進行排除，確保商品不會上傳至所有支援的第三方平台。

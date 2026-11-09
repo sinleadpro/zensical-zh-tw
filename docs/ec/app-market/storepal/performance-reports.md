@@ -77,13 +77,13 @@ hide: []
 ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-業績報表01.png){ .hero-page }
 
 
-## 功能說明
+## 功能說明 { #overview-performance }
 
 - 門市助理提供以下兩種績效報表，供品牌查閱在線下通路收集會員的消費紀錄及離店後所帶來的線上業績，並可根據數據輪廓，對會員作進一步的推波、導購與促銷。
 
 
 
-## 推薦人報表
+## 推薦人報表 { #reference-performance }
 
 
 品牌能透過推薦人報表了解 **各門市的綁定狀況** 和 **會員與門市人員的綁定關係**。
@@ -97,7 +97,7 @@ hide: []
 > 報表內容將視綁定歸因層級，呈現方式略有不同。
 
 
-## 業績歸因報表
+## 業績歸因報表 { #reference-attribution-report }
 
 
 品牌能透過業績歸因報表，掌握綁定推薦人後的全通路的業績表現狀況，此報表共會產出四個工作表：  
@@ -146,9 +146,9 @@ hide: []
     ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-業績報表06.png)
 
 
-## 門市報表
+## 門市報表 { #reference-store-report }
 
-### 角色權限
+### 角色權限 { #reference-store-report-role-permissions }
 
 根據身分可選擇匯出的資料範圍會有不同： 
 
@@ -157,7 +157,7 @@ hide: []
 - 店長：僅能匯出所屬門市
 
 
-### 所有門市報表
+### 所有門市報表 { #reference-store-report-store-report }
 
 1. 登入門市助理後台，前往 **績效報表 > 推薦人報表/業績報表**。
 2. 選擇要匯出的報表，點擊 **匯出**。  
@@ -169,7 +169,7 @@ hide: []
 
 
 
-### 指定門市報表
+### 指定門市報表 { #reference-store-report-section }
 
 1. 登入門市助理後台，前往 **門市管理 > 匯出報表**。
 2. 選擇要匯出的報表，點擊 **匯出**。  

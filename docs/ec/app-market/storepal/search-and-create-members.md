@@ -74,15 +74,15 @@ hide: []
 
 ![](../../../assets/images/門市助理-前台-會員查詢-畫面總覽01.png){ .hero-page }
 
-## 使用須知
+## 使用須知 { #prerequisites-member-search }
 
 - 建議具備 LINE Certified Provider 資格，以實現掃碼同時加入 LINE 好友與註冊。
 - 操作前請確認已完成 [安裝與前期資料設置]()。
 
-## 操作流程
+## 操作流程 { #operate-member-search }
 
 
-### 查詢會員與快速註冊
+### 查詢會員與快速註冊 { #operate-member-search-query-member }
 
 1. 進入門市助理前台，選擇 **使用手機號碼** 或 **使用 Email 或姓名** 搜尋會員。
 
@@ -147,7 +147,7 @@ hide: []
 
 
 
-### 查詢歷史紀錄
+### 查詢歷史紀錄 { #operate-member-search-query-logs }
 
 1. 前往右側 **查詢歷史紀錄** 區塊。
 2. 選擇 **時間區間**，查看過去曾跳轉至會員資訊頁的查詢名單。

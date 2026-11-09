@@ -65,11 +65,11 @@ hide: []
 
 ![G4A 流量開發](../../../assets/images/ec-第三方整合-google-ga4-流量開發.png){ .hero-page }
 
-## UTM 說明
+## UTM 說明 { #overview-utm-tracking }
 
 **UTM (Urchin Tracking Module)** 是一種附加在網址後方的小型參數，用於標記流量來源資訊。透過 UTM，商家能讓 Google Analytics (GA4) 準確記錄使用者是從哪個廣告、社群平台或電子郵件進入網站，這對於分析行銷成效與流量歸因至關重要。
 
-## UTM 網址結構與常用參數介紹
+## UTM 網址結構與常用參數介紹 { #intro-utm-tracking }
 
 一個含有 UTM 的網址範例為：`https://www.example.com/?utm_source=facebook&utm_medium=social`。  
 常用的五大參數如下：
@@ -83,7 +83,7 @@ hide: []
 | `utm_content` | - | 用於 A/B 測試<br>區分同一活動中不同的素材或連結位置 | `banner1`、`textlink_a` |
 
 
-## 使用前提與線
+## 使用前提與線 { #intro-utm-tracking-use }
 
 為了確保數據能被 GA4 正確統計，請務必遵守以下規範：
 
@@ -92,9 +92,9 @@ hide: []
 - [x] **統一使用英文字母**：避免使用中文字以防止編譯錯誤導致亂碼。
 - [x] **建立 UTM 命名總表**：建議商家建立一份綜合大表記錄所有設定過的名稱，方便團隊成員遵循統一命名規則。
 
-## 操作步驟
+## 操作步驟 { #operate-utm-tracking }
 
-### UTM 設定工具 <small>Campaign URL Builder</small>
+### UTM 設定工具 <small>Campaign URL Builder</small> { #operate-utm-tracking-utm-settings-campaign }
 
 您可以使用 Google 官方提供的 [**Campaign URL Builder** :lucide-external-link:](https://ga-dev-tools.google/campaign-url-builder/) 快速生成連結：
 
@@ -109,7 +109,7 @@ hide: []
 
 ---
 
-### 於 GA4 報表中查看數據
+### 於 GA4 報表中查看數據 { #operate-utm-tracking-ga4-report-view }
 
 !!! warning "請先確定完成 [GA4 與官網的串接](ga/setup-google-analytics.md){ title="建立並串接 Google Analytics" }，方可於 GA4 查看官網流量資訊。"
 
@@ -122,7 +122,7 @@ hide: []
 
 ![GA4 流量開發來源媒介](../../../assets/images/ec-第三方整合-ga4-流量開發-工作階段來源或媒介.gif)
 
-## 後續操作
+## 後續操作 { #next-steps-utm-tracking }
 
 <div class="grid cards" markdown>
 
@@ -131,12 +131,12 @@ hide: []
   若需在帶有推薦碼的網址（即包含 `?rcode=...`）手動添加 UTM，必須在 rcode 後方以「**&**」隔開參數。
 
 - :lucide-file-spreadsheet:{ .lg }  
-  [__訂單報表匯出__](../../orders/reports/export-order-report.md#步驟一選擇報表欄位){ title="匯出訂單報表" }  
+  [__訂單報表匯出__](../../orders/reports/export-order-report.md#operate-order-report-select-fields){ title="匯出訂單報表" }  
   後台「訂單報表匯出」支援選取 UTM 相關欄位（如來源、媒介、活動名稱等），方便商家直接下載 Excel 進行線下分析。
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-utm-tracking }
 
 ??? quote "UTM 參數可以使用中文命名嗎？"
     不建議使用中文。UTM 參數應統一使用英文字母，避免因編譯錯誤導致網址出現亂碼，進而影響 GA4 數據統計的準確性。

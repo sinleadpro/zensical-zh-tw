@@ -69,11 +69,11 @@ hide:
 
 ![街口支付設定](../../assets/images/ec-金物流-街口支付.png){ title="街口支付設定" .hero-page }
 
-## 街口支付說明
+## 街口支付說明 { #intro-jkopay }
 
 街口支付（JKOPAY）是一個提供電子支付、街口幣及信用卡付款的第三方支付服務，支援多種交易方式並可串接電商平台進行金流管理。
 
-### 支援支付方式
+### 支援支付方式 { #intro-jkopay-methods }
 
 | 支付方式 | 說明 |
 |----------|------|
@@ -86,21 +86,21 @@ hide:
 
 ---
 
-### 申請限制與注意事項
+### 申請限制與注意事項 { #prerequisites-jkopay }
 
 - **個人戶** 無法申請街口支付。
 - 使用街口幣折抵訂單金額時，由街口支付承擔折抵金額。
 - 申請流程約需 **1–2 週**，以街口支付官方進度為準。
 
-## 操作步驟
+## 操作步驟 { #operate-jkopay }
   
-### 步驟一：填寫申請表單
+### 步驟一：填寫申請表單 { #operate-jkopay-form }
 
 前往 [CYBERBIZ x 街口支付串接申請表單](https://docs.google.com/forms/d/e/1FAIpQLSeu-OHx8njpaQtC61vZRIpoj529BmkdRtt74490Io3u16AJ_g/viewform)，填寫完整資料。
 
 ---
 
-### 步驟二：完成街口支付帳號申請
+### 步驟二：完成街口支付帳號申請 { #operate-jkopay-account }
 
 1. 提交表單後，街口支付會透過 Email 發送後續申請指引。
 
@@ -111,7 +111,7 @@ hide:
 
 ---
 
-### 步驟三：完成 CYBERBIZ 後台串接設定
+### 步驟三：完成 CYBERBIZ 後台串接設定 { #operate-jkopay-bind }
 
 1. 收到街口支付提供的 **店鋪代碼（Store ID）**。
 2. 登入 CYBERBIZ 管理後台，前往 **金物流 > 金流設定**，在 **街口支付** 區塊，點擊編輯按鈕 :material-file-document-edit-outline: 進入編輯頁面。
@@ -121,7 +121,7 @@ hide:
 ![街口支付 Store ID](../../assets/images/ec-金物流-街口支付-storeid.png){ title="街口支付 Store ID" }
 
 
-## 後續步驟
+## 後續步驟 { #next-steps-jkopay }
 
 <div class="grid cards" markdown>
 

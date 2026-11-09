@@ -80,13 +80,13 @@ hide: []
 ![](../../assets/images/POS-後台-全通路庫存管理-調倉單-列表01.png){ .hero-page }
 
 
-## 使用須知
+## 使用須知 { #prerequisites-transfer-orders }
 
 - **線上線下商品連動**：線上與線下商品的共通識別碼為 **SKU**。在執行跨倉調撥前，請確保該商品已同時存在於來源倉與目的倉的商品列表中。
 （例：EC倉要將商品出倉給POS店，需確認該商品存在於該POS店商品列表中）
 - **第三方定義**：若出貨對象非系統內的 EC 或 POS 倉（如外部供應商），請選擇 **第三方** 並於備註註明。
 
-## 調倉單類型
+## 調倉單類型 { #specs-transfer-orders }
 
 === "我方主動發起（手動調倉）"
 
@@ -168,7 +168,7 @@ hide: []
 
     
     
-## 建立調倉單
+## 建立調倉單 { #operate-transfer-orders-create }
 
 === "於後台操作"
 
@@ -194,14 +194,14 @@ hide: []
     ![](../../assets/images/POS-前台-庫存-調倉單-新增調倉單01.png){ .screenshot }
 
 
-## 調倉單管理
+## 調倉單管理 { #operate-transfer-management }
 
-### 狀態說明
+### 狀態說明 { #operate-transfer-management-status }
 
 | 順序 | 狀態 | 說明  | 出貨方操作 | 
 | --- | ---- | ----- | --------- | 
-| 1-1 | 待他方確認 | 此單由我方發起，須待他方同意調倉 | [同意/ 拒絕調倉](#同意--拒絕調倉)|
-| 1-2 | 待我方確認 | 此單由他方發起，須待我方同意調倉 | [同意/ 拒絕調倉](#同意--拒絕調倉) |
+| 1-1 | 待他方確認 | 此單由我方發起，須待他方同意調倉 | [同意/ 拒絕調倉](#operate-transfer-orders-approve)|
+| 1-2 | 待我方確認 | 此單由他方發起，須待我方同意調倉 | [同意/ 拒絕調倉](#operate-transfer-orders-approve) |
 | 2 | 已確認 | 調倉已成立 | - | 
 | 特殊情境 | 已取消 | 調倉已取消 | - |
 
@@ -210,7 +210,7 @@ hide: []
     詳情請參閱 [調倉完整流程](transfer-complete-process.md)。
 
 
-### 同意 / 拒絕調倉
+### 同意 / 拒絕調倉 { #operate-transfer-orders-approve }
 
 === "於後台操作"
 
@@ -228,7 +228,7 @@ hide: []
 
     ![](../../assets/images/POS-前台-庫存-調倉單-同意拒絕調倉01.png){ .screenshot }
 
-## 調倉單列表
+## 調倉單列表 { #overview-transfer-orders }
 
 - **搜尋單號**：可依 **日期** 搜尋或依 **出貨店家** 篩選。
 - **了解歷程**：點擊 **詳情**，即可查看單據變更狀態的 **時間紀錄**。
@@ -238,7 +238,7 @@ hide: []
 
     ![](../../assets/images/POS-後台-全通路庫存管理-調倉單-單號歷程01.png){ .screenshot }
 
-## 後續操作
+## 後續操作 { #next-steps-transfer-orders }
 
 <div class="grid cards" markdown>
 

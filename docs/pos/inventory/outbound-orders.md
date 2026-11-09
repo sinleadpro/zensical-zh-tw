@@ -80,14 +80,14 @@ hide: []
 
 ![](../../assets/images/POS-後台-全通路庫存管理-出倉單-列表01.png){ .hero-page }
 
-## 使用須知
+## 使用須知 { #prerequisites-outbound-orders }
 
 - **線上線下商品連動**：線上與線下商品的共通識別碼為 **SKU**。在執行跨倉調撥前，請確保該商品已同時存在於來源倉與目的倉的商品列表中。
 （例：EC倉要將商品出倉給POS店，需確認該商品存在於該POS店商品列表中）
 - **流程完整性**：所有 **出倉** 或 **調倉** 任務，皆須由接收端執行 **確認進倉** 後，庫存異動才正式生效。
 - **第三方定義**：若出貨對象非系統內的 EC 或 POS 倉（如外部供應商），請選擇 **第三方** 並於備註註明。
 
-## 出倉單類型
+## 出倉單類型 { #specs-outbound-orders }
 
 出倉單不限於手動建立，系統會根據不同通路的庫存需求，自動連動產生對應單據：
 
@@ -154,7 +154,7 @@ hide: []
     → [了解調倉完整流程](transfer-complete-process.md)
 
 
-## 建立出倉單
+## 建立出倉單 { #operate-outbound-orders-create }
 
 === "於後台操作"
 
@@ -184,19 +184,19 @@ hide: []
     ![](../../assets/images/POS-前台-庫存-出倉單-新增01.png){ .screenshot }
 
 
-## 出倉單管理
+## 出倉單管理 { #operate-outbound-management }
 
-### 狀態說明
+### 狀態說明 { #operate-outbound-management-status }
 
 | 順序 | 狀態 | 說明  | 我方下一步操作 |
 | ---- | --- | ---- | -------- |
 | 1 | 待確認 | 單據已建立，正等待進倉方核准 | - |
-| 2 | 待出庫 | 雙方已達成移轉共識，等待發起端發貨 |  [確認 / 取消出倉](outbound-orders/#確認--取消出倉) | 
+| 2 | 待出庫 | 雙方已達成移轉共識，等待發起端發貨 |  [確認 / 取消出倉](outbound-orders/#operate-outbound-orders-confirm) |
 | 3 | 處理中 | 貨物已離開原倉庫，正在運輸途中 | - | 
 | 4 | 已出庫 | 流程完成，庫存已成功移轉至接收方 | - | 
 | 特殊情境 | 已取消 | 行為終止，不執行庫存異動 | - | 
 
-### 確認 / 取消出倉
+### 確認 / 取消出倉 { #operate-outbound-orders-confirm }
 
 === "於後台操作"
 
@@ -218,7 +218,7 @@ hide: []
     ![](../../assets/images/POS-前台-庫存-出倉單-確認出貨01.png){ .screenshot }
    
 
-## 出倉單列表
+## 出倉單列表 { #overview-outbound-orders }
 
 - **搜尋單號**：可依 **日期** 搜尋或依 **來源店家** 篩選。
 - **了解歷程**：點擊 **詳情**，即可查看單據變更狀態的 **時間紀錄**。
@@ -228,7 +228,7 @@ hide: []
 
     ![](../../assets/images/POS-後台-全通路庫存管理-出倉單-單號歷程01.png){ .screenshot }
 
-## 後續操作
+## 後續操作 { #next-steps-outbound-orders }
 
 <div class="grid cards" markdown>
 

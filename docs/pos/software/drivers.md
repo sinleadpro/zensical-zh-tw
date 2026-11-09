@@ -64,16 +64,16 @@ POS 驅動程式是串接硬體設備（如發票機、掃碼槍）的關鍵核�
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | 智能 POS
 { .doc-badge }
 
-## 使用須知
+## 使用須知 { #prerequisites-drivers }
 
 - **作業系統**：僅支援 **Windows**，不支援 macOS 或 Linux。
 - **更新版本**：POS APP V.7.0.0 及更新版本僅相容於 Windows 10 或更高版本作業系統。
 - **啟動順序**：使用 POS 系統前，請務必 **先開啟驅動程式**，再開啟 POS 前台頁面。
 - **例外狀況**：若您使用的是 **MyPay 刷卡機方案**，請勿安裝此 POS 驅動程式。
 
-## 下載與安裝
+## 下載與安裝 { #operate-drivers }
 
-### 步驟 1：下載安裝檔
+### 步驟 1：下載安裝檔 { #operate-drivers-step-a-download }
 
 請點擊下方連結下載最新版驅動程式：
 
@@ -84,13 +84,13 @@ POS 驅動程式是串接硬體設備（如發票機、掃碼槍）的關鍵核�
 `- 本次新支援功能：小結關帳列印帳條`
 
 
-### 步驟 2：執行安裝程式
+### 步驟 2：執行安裝程式 { #operate-drivers-step-b-run }
 
 下載完成後，雙擊執行 `cyberbiz-pos-app Setup.exe`，完成安裝。若系統出現安全警告，請參考後續的 **常見問題** 進行排除。
 
 
 
-## 常見問題
+## 常見問題 { #faq-drivers }
 
 ??? quote "下載時出現 **不常下載** 警告，該如何排除？"
 

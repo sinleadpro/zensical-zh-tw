@@ -35,7 +35,7 @@ features:
   - 部分出貨退款
 prerequisites: []
 related:
-  - ec/orders/references/auto-refund-timeline/
+  - ec/orders/order-refund-process/
   - ec/orders/references/return-refund-status-reference/
   - ec/orders/tcat-quick-store/tcat-quick-store-overdue/
   - ec/orders/cvs-shipping/cvs-partial-shipment/
@@ -66,7 +66,7 @@ icon: lucide/package-x
 hide: []
 ---
 
-## 超商訂單逾期處理說明
+## 超商訂單逾期處理說明 { #intro-cvs-unclaimed }
 
 當顧客未在期限內至超商取貨，訂單會被超商系統判定為「逾期未取」。本文說明系統自動發生的變動、不同物流類型的退貨流程，以及商家需要操作的人工退款步驟。
 
@@ -128,7 +128,7 @@ CYBERBIZ 串接的超商物流（7-11、全家、萊爾富、黑貓快速到店�
 並非所有逾期訂單都會自動退款，需同時滿足下列條件：
 
 - [x] **付款狀態為「已收到款項」**：等待付款、貨到付款等狀態不適用自動退款。
-- [x] **付款方式為支援自動退刷的金流**：詳細金流清單與退刷期限請見 [自動退刷時效對照表](../references/auto-refund-timeline.md){ title="自動退刷時效對照表" data-preview }。
+- [x] **付款方式為支援自動退刷的金流**：詳細金流清單與退刷期限請見 [退款方式與作業](../order-refund-process/#specs-order-refund){ title="退款方式與作業" data-preview }。
 - [x] **未啟用「超商逾期未取不自動退款」功能**：若商家有啟用此功能，所有逾期訂單一律走人工退款。
 - [x] **整筆訂單完整出貨**：若為部分出貨（部分超商、部分宅配），超商品項逾期不會即時觸發退款，需待商家確認後處理。
 
@@ -261,8 +261,8 @@ CYBERBIZ 串接的超商物流（7-11、全家、萊爾富、黑貓快速到店�
   各配送狀態、退貨狀態、付款狀態的流轉對照與自動退款支援條件。
 
 - :lucide-credit-card:{ .lg }  
-  [__自動退刷時效對照表__](../references/auto-refund-timeline.md){ title="自動退刷時效對照表" }  
-  各金流商支援自動退刷的天數上限。
+  [__退款方式與作業__](../order-refund-process.md){ title="退款方式與作業" }  
+  依方案對照各付款方式的系統自動退款與人工退款，以及退款作業步驟。
 
 - :lucide-truck:{ .lg }  
   [__黑貓快速到店逾期說明__](../tcat-quick-store/tcat-quick-store-overdue.md){ title="黑貓快速到店逾期說明" }  
@@ -284,7 +284,7 @@ CYBERBIZ 串接的超商物流（7-11、全家、萊爾富、黑貓快速到店�
     [](){ #faq-overdue-cvs-orders-no-auto-refund }
     可能原因：
 
-    - 付款方式不在自動退刷支援清單中（詳見 [自動退刷時效對照表](../references/auto-refund-timeline.md){ title="自動退刷時效對照表" data-preview }）
+    - 付款方式不在自動退刷支援清單中（詳見 [退款方式與作業](../order-refund-process/#specs-order-refund){ data-preview }）
     - 商家有開通「超商逾期未取不自動退款」功能
     - 訂單為部分出貨，僅第一筆超商品項逾期
     - 訂單付款狀態尚未到達「已收到款項」
@@ -311,13 +311,6 @@ CYBERBIZ 串接的超商物流（7-11、全家、萊爾富、黑貓快速到店�
     當商品從原寄件門市退回物流總倉後，由總倉以宅配到付寄回商家時，若商家 **拒收**，部分超商規範下貨品會被執行「拋棄處理」，無法再次取回。請務必收到退貨通知後依約定方式領取或受收。
 
 ---
-
-## 參考資料 { #reference-overdue-cvs-orders }
-
-* [退貨與退款狀態對照](../references/return-refund-status-reference.md){ title="退貨與退款狀態對照（超商訂單逾期未取）" }
-* [自動退刷時效對照表](../references/auto-refund-timeline.md){ title="自動退刷時效對照表" }
-* [黑貓快速到店逾期說明](../tcat-quick-store/tcat-quick-store-overdue.md){ title="黑貓快速到店逾期說明" }
-* [物流類型部分出貨支援對照表](../references/cvs-partial-shipping-support.md){ title="超商物流部分出貨支援對照表" }
 
 [^fn-every-week]: 「每週退」：當週被退的商品，會被打包成一箱，在下一週退回給店家。
 [^fn-next-day]: 「隔天收退」：當天被退的商品，會被打包成一箱，在隔一天退回給店家。

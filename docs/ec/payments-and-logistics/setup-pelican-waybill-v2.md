@@ -77,9 +77,9 @@ hide: []
 !!! info "提示"
     頁面最上方會顯示計費資訊：一般版商家會看到「目前 CYBER 幣餘額」；PLUS版 / 企業版商家則顯示對帳單說明文字。
 
-## 操作步驟
+## 操作步驟 { #operate-pelican }
 
-### 設定寄件人資料 { #configure-pelican-shipping-note-sender }
+### 設定寄件人資料 { #operate-pelican-sender-settings }
 
 首次使用「加印託運單」或「宅配通逆物流」前，請先設定寄件人資料。日後若公司地址或聯絡人變更，也回到這裡修改。
 
@@ -131,7 +131,7 @@ hide: []
 
 !!! note "註釋"
     * 託運單由宅配通端列印並交給顧客，商家後台 **不會** 直接拿到 PDF 。
-    * 退貨包裹會送至 [宅配通設定](#configure-pelican-shipping-note-sender) 中填寫的「逆物流地址」(留空時則送至寄件人地址)。
+    * 退貨包裹會送至 [宅配通設定](#operate-pelican-sender-settings) 中填寫的「逆物流地址」(留空時則送至寄件人地址)。
 
 [^2]: 若留空，系統會自動帶入原訂單的配送地址。
 
@@ -141,7 +141,7 @@ hide: []
 
 頁面下方提供三份歷史紀錄表，所有資料皆可使用右上角搜尋框關鍵字過濾。
 
-#### 宅配通轉單紀錄 { #pelican-shipping-transfer-records }
+#### 宅配通轉單紀錄 { #reference-pelican-transfer-records }
 
 顯示曾經啟用「轉單」機制的單號紀錄，作為對帳查詢用。
 
@@ -160,7 +160,7 @@ hide: []
 
 ---
 
-#### 單號使用紀錄 <small>正物流 / 逆物流</small> { #pelican-shipping-usage-records }
+#### 單號使用紀錄 <small>正物流 / 逆物流</small> { #reference-pelican-usage-records }
 
 「正物流」記錄出貨用單號，「逆物流」記錄退貨用單號，兩者欄位結構相同。
 
@@ -183,7 +183,7 @@ hide: []
 !!! tip "技巧"
     對帳時建議優先比對 **確認扣除 CYBER 幣額度** 欄位，這是實際結算後的金額；「客戶選定 CYBER 幣額度」只是下載當下的預扣金額，可能因退費或調整而與最終扣費不同。
 
-## 後續操作
+## 後續操作 { #next-steps-pelican }
 
 <div class="grid cards" markdown>
 

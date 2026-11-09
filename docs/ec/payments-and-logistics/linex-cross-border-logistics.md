@@ -86,16 +86,16 @@ LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到�
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Pro / Business
 { .doc-badge }
 
-## 使用須知
+## 使用須知 { #prerequisites-linex }
 
 - **服務範圍**：僅支援 **台灣出貨至國外**。
 - **批次限制**：因報關資訊需逐筆核對，目前 **不支援批次列印** 託運單。
 - **操作建議**：此功能建議搭配 **多國** 功能，系統方能自動將商品英文資訊帶入託運單明細中，提升作業效率。如有需求可洽 CYBERBIZ 客服。
 - **列印設備建議**：建議可使用雷射印表機來產出託運單，以降低因資訊辨識錯誤導致的配送異常。
 
-## 前置設定
+## 前置設定 { #operate-linex-setup }
 
-### 步驟 1：驗證公司英文名稱
+### 步驟 1：驗證公司英文名稱 { #operate-linex-verify-name }
 
 1. 登入 CYBERBIZ 後台，前往 **管理中心 > 一般設定**。
 2. 找到 **國貿局出進口廠商英文公司名** 欄位。
@@ -104,7 +104,7 @@ LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到�
 
 ![](../../assets/images/EC-後台-管理中心-一般設定-填寫國貿局進出口廠商英文名01.png){ .screenshot }
 
-### 步驟 2：設定運送模式與寄件人
+### 步驟 2：設定運送模式與寄件人 { #operate-linex-mode-sender }
 
 1. 前往 **金物流 > LINEX 託運單**。
 2. **選擇模式**：勾選 **取件預約** 或 **自行運送**。
@@ -118,7 +118,7 @@ LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到�
     ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定02.png){ .screenshot }
 
 
-### 步驟 3：設置物流與運費
+### 步驟 3：設置物流與運費 { #operate-linex-fee }
 
 1. 前往 **金物流 > 宅配物流**，選擇 **自訂物流** 頁籤。
 2. 點擊 **新增自訂物流**。
@@ -140,7 +140,7 @@ LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到�
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定03.png){ .screenshot }
 
-## 送件模式詳細規範
+## 送件模式詳細規範 { #specs-linex-modes }
 
 商家須依據開通時選擇的模式遵守以下規範：
 
@@ -166,9 +166,9 @@ LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到�
 
 
 
-## 訂單出貨操作
+## 訂單出貨操作 { #operate-linex-ship }
 
-### 步驟 1：建立託運單
+### 步驟 1：建立託運單 { #operate-linex-create-waybill }
 
 1. 前往 **訂單 > 所有訂單**，勾選欲出貨訂單。
 2. 點選 **選擇操作 > 建立 LINEX 託運單**。
@@ -179,7 +179,7 @@ LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到�
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定05.png){ .screenshot }
 
-### 步驟 2：填寫報關資訊與稅費
+### 步驟 2：填寫報關資訊與稅費 { #operate-linex-customs }
 
 1. **核對商品明細**：
     - **必填欄位檢查**：**商品名稱**、**數量**、**重量** 均已填寫，且數值不可為 0。
@@ -213,7 +213,7 @@ LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到�
         ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定07.png){ .small-image }
 
 
-### 步驟 3：列印託運文件與 POA
+### 步驟 3：列印託運文件與 POA { #operate-linex-print }
 
 1. **試算運費** 無誤後，點擊 **建立託運單**。
     - `配送狀態`將自動更改為`已出貨`。
@@ -224,7 +224,7 @@ LINEX 提供彈性的跨境物流解決方案，商家可依需求選擇「到�
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定09.png){ .screenshot }
 
-## 常見問題
+## 常見問題 { #faq-linex }
 
 ??? quote "如何追蹤包裹狀態？"
     可至 [LINEX 包裹追蹤網站](https://tracking.hub-ez.com/Tracking/Tracking) 輸入託運單號進行查詢。

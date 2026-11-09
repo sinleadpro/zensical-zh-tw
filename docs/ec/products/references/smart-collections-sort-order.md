@@ -50,7 +50,7 @@ hide:
   
 本對照表彙整「商品條件分類」可選擇的商品排序方式，決定符合條件的商品在前台分類頁的呈現順序。
 
-## 商品排序方式對照表 { #smart-collections-sort-orders }
+## 商品排序方式對照表 { #reference-smart-collections-sort }
 
 | 排序方式 | 商品在前台的排列順序 |
 | :-- | :-- |

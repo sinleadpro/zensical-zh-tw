@@ -77,7 +77,7 @@ hide: []
 
 取消訂單依觸發方式分為以下三種情境，請依實際需求選擇對應的操作方式。
 
-### 商家手動取消訂單 { #orders-cancel-merchant }
+### 商家手動取消訂單 { #operate-cancel-merchant }
 
 === ":lucide-receipt: 一般訂單"
 
@@ -139,11 +139,11 @@ hide: []
 
 ---
 
-### 顧客於前台取消訂單 { #orders-cancel-customer }
+### 顧客於前台取消訂單 { #operate-cancel-customer }
 
 [:lucide-layout-dashboard:{ title="適用功能" }](../../../resources/conventions.md#conventions-features) | 拖拉版型
 
-商家可設定是否開放顧客於官網前台自行取消未出貨訂單，若關閉設定，顧客僅能透過[商家申請取消](#orders-cancel-merchant)。
+商家可設定是否開放顧客於官網前台自行取消未出貨訂單，若關閉設定，顧客僅能透過[商家申請取消](#operate-cancel-merchant)。
 
 **前置設定**
 
@@ -177,16 +177,16 @@ hide: []
 
     ![確認取消訂單](../../../assets/images/EC-前台-訂單查詢-取消訂單-確認視窗.png){ title="確認取消訂單" }
 
-4. **完成變更**：訂單狀態即時變更為「已取消」，系統將自動執行後續處理（[點數/庫存返還](#post-cancel)），[訂單操作紀錄](order-management-interface.md#order-history){ title="訂單管理介面說明" }將同步標註由會員發起取消的原因資訊。
+4. **完成變更**：訂單狀態即時變更為「已取消」，系統將自動執行後續處理（[點數/庫存返還](#specs-cancel-post-processing)），[訂單操作紀錄](order-management-interface.md#reference-order-history){ title="訂單管理介面說明" }將同步標註由會員發起取消的原因資訊。
 
     ![訂單已取消](../../../assets/images/EC-前台-訂單查詢-已取消訂單.png){ title="訂單已取消" }
 
 
 ---
 
-### 系統自動取消 <small>付款超時</small> { #orders-cancel-auto }
+### 系統自動取消 <small>付款超時</small> { #operate-cancel-auto }
 
-為避免未付款訂單長期佔用庫存，商家可透過此功能設定「付款期限」。當訂單符合[特定條件](#orders-cancel-auto-rules)且[逾期](#orders-cancel-auto-mechanism)未付款時，系統將自動將訂單狀態變更為「已取消」。
+為避免未付款訂單長期佔用庫存，商家可透過此功能設定「付款期限」。當訂單符合[特定條件](#specs-cancel-auto-rules)且[逾期](#specs-cancel-auto-mechanism)未付款時，系統將自動將訂單狀態變更為「已取消」。
 
 **操作步驟**：
 
@@ -196,13 +196,13 @@ hide: []
     - 若未設定或超過 29 天，虛擬 ATM 帳號最長有效期固定為 29 天。
 3.  **儲存設定**：點擊頁面下方的「**儲存**」按鈕，設定即生效。
     - 設定生效後，無論是設定前或設定後成立的未付款訂單，均會受到此規則影響。
-4.  **查看操作紀錄**（選用）：取消後可於訂單詳情頁的「[操作紀錄](order-management-interface.md#order-history){ title="訂單管理介面說明" }」區塊中，查看系統自動留存的取消資訊，便於對帳與客服查詢。
+4.  **查看操作紀錄**（選用）：取消後可於訂單詳情頁的「[操作紀錄](order-management-interface.md#reference-order-history){ title="訂單管理介面說明" }」區塊中，查看系統自動留存的取消資訊，便於對帳與客服查詢。
 
 ![訂單自動取消設定](../../../assets/images/EC-金物流-結帳頁物流設定-訂單自動取消.png){ title="訂單自動取消設定" }
 
 ---
 
-#### 運作規則與條件 { #orders-cancel-auto-rules }
+#### 運作規則與條件 { #specs-cancel-auto-rules }
 
 系統僅針對符合以下所有條件的訂單執行自動取消：
 
@@ -213,7 +213,7 @@ hide: []
 
 ---
 
-#### 系統執行機制 { #orders-cancel-auto-mechanism }
+#### 系統執行機制 { #specs-cancel-auto-mechanism }
 
 系統固定於每天 01:00 AM 進行批次掃描與取消作業。
 
@@ -226,7 +226,7 @@ hide: []
 
 ---
 
-#### 線上金流失效機制 <small>虛擬 ATM / 超商代碼</small> { #orders-cancel-payment-code-expiry }
+#### 線上金流失效機制 <small>虛擬 ATM / 超商代碼</small> { #specs-cancel-payment-expiry }
 
 針對需取得代碼付款的機制，其「繳款截止日」會受後台設定天數影響，邏輯如下：
 
@@ -240,18 +240,18 @@ hide: []
     - **上限限制**：若商家未設定取消天數或設定超過 29 天，虛擬 ATM 帳號的最長效期固定為 29 天（至 23:59）。
     - **手動取消例外**：若商家或會員「手動」取消訂單，已產生的代碼/帳號不會自動失效。顧客若於效期內完成繳費，該訂單將會重新變更為「進行中」狀態，商家可選擇繼續出貨或進行退款。
 
-## 取消後的紅利與優惠處理 { #post-cancel }
+## 取消後的紅利與優惠處理 { #specs-cancel-post-processing }
 
 *   **紅利點數**：訂單取消後，顧客原先在該訂單中抵用的紅利點數，系統會 **自動歸還** 至顧客帳戶。
     *   *注意*：若訂單已結案且紅利已發送，取消後系統不會自動扣除已領取的紅利回饋，需商家手動刪除。
 *   **優惠券**：訂單中使用的優惠券亦會 **自動返還** 給顧客。
 *   **庫存**：取消後，商品庫存會 **自動加回** 原本的庫存量。
 
-## 特殊情境說明 { #special-cancel }
+## 特殊情境說明 { #specs-cancel-special }
 
 <div class="grid cards" markdown>
 
-- :lucide-barcode:{ .lg } [__虛擬 ATM 與超商代碼__](#orders-cancel-payment-code-expiry)  
+- :lucide-barcode:{ .lg } [__虛擬 ATM 與超商代碼__](#specs-cancel-payment-expiry)
 
 - :simple-stryker:{ .lg } [__美安 (Shop.com) 訂單__](#stryker-美安訂單)  
 
@@ -261,7 +261,7 @@ hide: []
 <!---->
 <!-- - :material-point-of-sale:{ .lg }   -->
 <!--   __POS 訂單__   -->
-<!--   若於實體門市操作，可於 POS 前台找到該筆訂單並執行「[取消訂單](../../../pos/orders/manage-general-orders.md#取消訂單)」。若有開立發票，系統會根據取消時間自動作廢或產出折讓單。 -->
+<!--   若於實體門市操作，可於 POS 前台找到該筆訂單並執行「[取消訂單](../../../pos/orders/manage-general-orders.md#operate-general-orders-cancel)」。若有開立發票，系統會根據取消時間自動作廢或產出折讓單。 -->
 
 </div>
 
@@ -278,7 +278,7 @@ hide: []
   若訂單已出貨無法取消，需改走退貨流程處理商品回收與退款。
 
 - :lucide-file-text:{ .lg }   
-  [__訂單操作紀錄__](order-management-interface.md#order-history){ title="訂單管理介面說明" }  
+  [__訂單操作紀錄__](order-management-interface.md#reference-order-history){ title="訂單管理介面說明" }
   查看訂單狀態變更歷程與操作人員紀錄，便於對帳與客服查詢。
 
 </div>

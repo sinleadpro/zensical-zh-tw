@@ -72,18 +72,18 @@ comments: false
 
 ![LINE受眾串接](../../../../assets/images/ec-會員-所有會員-line受眾.png){ .hero-page title="LINE受眾串接" }
 
-## LINE 受眾串接說明
+## LINE 受眾串接說明 { #operate-line-audience }
 
 **LINE OA 受眾串接** 功能允許商家透過後台會員篩選器，將「使用 LINE 快速登入」或「已綁定 LINE OA」的會員 UID 打包傳送至 LINE 後台建立受眾。這對於後續進行 **精準訊息推播** 或 **LAP 廣告投放** 非常有用。
 
 以下為詳細的操作說明與教學：
 
-## 前置作業與限制
+## 前置作業與限制 { #prerequisites-line-audience }
 
 - [x] **必要設定**：商家必須先完成 [**LINE Messaging API** 的串接設定](../account-integration/connect-line-messaging-api.md){ title="串接 LINE Messaging API" }  ，方可使用此功能。
 - [x] **管理權限**：由 CYBERBIZ 建立的受眾，**無法直接在 LINE 後台更新或刪除**，必須透過 CYBERBIZ 後台進行同步處理。
 
-## 建立受眾至 LINE 後台步驟
+## 建立受眾至 LINE 後台步驟 { #operate-line-audience-create-line-backend-step }
 
 1. **進入路徑**：前往管理後台 **會員 > 所有會員**。
 2. **設定篩選條件**：點選搜尋欄開啟「篩選器」，**必須** 新增以下任一條件，否則無法傳送至 LINE：
@@ -106,7 +106,7 @@ comments: false
 
 	![LINE後台受眾檢視](../../../../assets/images/ec-會員-會員群組-line受眾-line後台.png){ title="LINE後台受眾檢視" }
 
-## 受眾管理 <small>更新與刪除</small>
+## 受眾管理 <small>更新與刪除</small> { #operate-line-audience-manage }
 
 - **更新受眾**：若會員名單有變動，請至「所有會員」頁面點選「**更新受眾至 LINE 後台**」，系統會將最新的篩選結果同步至 LINE。
 - **刪除受眾**：在篩選條件列表中，點選欲移除受眾旁的「**刪除**」按鈕。
@@ -116,9 +116,9 @@ comments: false
 
 ![更新受眾至LINE後台](../../../../assets/images/ec-會員-line受眾-更新至line後台.png){ title="更新受眾至LINE後台" }
 
-## 如何應用 LINE 受眾
+## 如何應用 LINE 受眾 { #intro-line-audience }
 
-### LINE OA 訊息推播
+### LINE OA 訊息推播 { #intro-line-audience-line-oa-message }
 
 - 在 LINE OA 後台「群發訊息」時，傳送對象選擇「**篩選目標**」，點擊 編輯按鈕 :lucide-pencil: 可新增受眾。
 
@@ -126,7 +126,7 @@ comments: false
 
 - 新增受眾並選擇 CYBERBIZ 傳送的名稱，可設定為「包含」或「不包含」該受眾。
 
-### Ad Manager (LAP) 廣告投放
+### Ad Manager (LAP) 廣告投放 { #intro-line-audience-ad-manager-lap }
 
 - 在 [Ad Manager :lucide-external-link:](https://admanager.line.biz/home/) 點選「受眾」>「建立受眾」，選擇「**分享自 LINE 官方帳號的使用者識別碼 UID 受眾**」。
 
@@ -138,7 +138,7 @@ comments: false
 
 !!! info "瞭解 [什麼是 LINE 成效型廣告投放 (LAP) :lucide-external-link:](https://tw.linebiz.com/service/display-solutions/line-ads-platform/)。"
 
-## 常見問題
+## 常見問題 { #faq-line-audience }
 
 ??? quote "為什麼我在 LINE 後台看不到同步過來的受眾？" 
 	請確認以下事項： 

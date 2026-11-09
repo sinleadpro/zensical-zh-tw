@@ -67,7 +67,7 @@ hide: []
 
 ![商品加價購群組頁面](../../../assets/images/ec-marketing-pwp-by-product-hero.zh-tw.png){ title="商品加價購群組頁面" .hero-page }
 
-## 商品加價購說明
+## 商品加價購說明 { #overview-product-upsell }
 
 商品加價購是一種以「指定商品」作為觸發條件的銷售機制。當顧客購買符合條件的商品時，系統會於購物流程中顯示可加購的指定商品，供顧客以優惠價格加購。
 
@@ -79,16 +79,16 @@ hide: []
 
 !!! example "範例：購買相機後，可加購相機配件或記憶卡。"
 
-## 設定商品加價購群組
+## 設定商品加價購群組 { #operate-product-upsell }
 
-### 步驟 1：新增商品加價購群組
+### 步驟 1：新增商品加價購群組 { #operate-product-upsell-add }
 
 1. 登入 CYBERBIZ 管理後台，前往  **行銷活動 > 商品加價購**。
 2. 在群組列表下方輸入新群組名稱，點擊 **新增群組**。
 
 ---
 
-### 步驟 2：填寫加價購群組資訊
+### 步驟 2：填寫加價購群組資訊 { #operate-product-upsell-fields }
 
 在群組列表中，點擊展開欲設定的加購群組，依序設定以下欄位：
 
@@ -121,7 +121,7 @@ hide: []
 
 ---
 
-### 步驟 3：選擇加價購商品
+### 步驟 3：選擇加價購商品 { #operate-product-upsell-products }
 
 1. 在左側商品列表區域，點擊 **加入** 將欲加入群組的商品加入加購群組中。
 2. 調整每件商品的「加購價格」。
@@ -134,13 +134,13 @@ hide: []
 
 ![選擇加價購商品](../../../assets/images/ec-product-pwp-by-product-add-product-to-collection.zh-tw.png){ title="選擇加價購商品" }
 
-### 步驟 4：前台呈現
+### 步驟 4：前台呈現 { #operate-product-upsell-checkout }
 
 - 顧客在 **結帳頁面**，當購買符合標籤的商品時，將顯示可加購商品選項。
 
 ![前台加價購呈現](../../../assets/images/ec-product-pwp-by-product-frontend.zh-tw.png){ title="前台加價購呈現" }
 
-## 多國語系設定
+## 多國語系設定 { #operate-product-upsell-language }
 
 設定商品加價購群組的多國語系名稱，使前台可根據語系顯示正確文字。
 
@@ -149,7 +149,7 @@ hide: []
 	- 欄位有顯示 **語系標籤**，前台顯示才可隨語系切換文字。如：**群組名稱** 商品加價購 `繁體中文`。
 	- 若其他語系欄位未填寫內容，前台顯示該語系時，將自動使用 **繁體中文** 內容作為預設顯示。
 
-### 操作步驟
+### 操作步驟 { #operate-product-upsell-language-steps }
 
 1. 登入 CYBERBIZ 管理後台，前往 **行銷活動 > 商品加價購**
 2. 在語系選單中，切換至欲編輯的語系（例如：繁體中文、英文）。  
@@ -157,7 +157,7 @@ hide: []
 
 ![多國語系設定](../../../assets/images/ec-pwp-by-product-collection-name-multilang.gif){ title="多國語系設定" }
 
-### 前台顯示效果
+### 前台顯示效果 { #overview-product-upsell-language }
 
 - **繁體中文頁面**  
 
@@ -168,7 +168,7 @@ hide: []
 	![多國語系前台-英文](../../../assets/images/ec-pwp-collection-name-multilang-forntend.en-us.png){ title="多國語系前台-英文" }
 
 
-## 常見問題
+## 常見問題 { #faq-product-upsell }
 
 ??? quote "加價購商品可以支援多款式嗎？若不同款式價格不同，前台顯示會如何呈現？"
 	可以。加價購商品可設定多個款式，前台商品頁仍允許顧客選擇不同款式。但需注意以下事項：
@@ -182,4 +182,4 @@ hide: []
 	- **解決方法**：請將加價購商品的標籤與觸發加價購的門檻標籤 **分開設定**，避免標籤重複，系統即可正確限制加購數量。
 
 ??? quote "加購數量是否可以依購買件數倍增？"
-	可以。 勾選加價購群組設定中的 **加購數量是否可加倍** 選項，即可讓加購商品數量隨購買觸發商品的數量倍增。瞭解 [如何設定加購數量倍增](#步驟-2填寫加價購群組資訊)。
+	可以。 勾選加價購群組設定中的 **加購數量是否可加倍** 選項，即可讓加購商品數量隨購買觸發商品的數量倍增。瞭解 [如何設定加購數量倍增](#operate-product-upsell-fields)。

@@ -92,14 +92,14 @@ hide: []
     - **離店導購業績歸因**：當顧客現場猶豫時，生成專屬推薦連結供其回家考慮，後續線上成交仍能自動認列為您的業績。
     - **無 POS 門市績效追蹤**：在未串接 POS 的快閃店或特賣會，手動紀錄消費金額，確保門市績效與會員權益同步。
 
-## 操作流程
+## 操作流程 { #operate-sales-conversion }
 
 此模組位於介面右側，提供直接促成交易的操作工具。
 
 ![](../../../assets/images/門市助理-前台-會員資訊-導購轉化-畫面總覽01.png){ .screenshot }
 
 
-### 全館優惠碼
+### 全館優惠碼 { #operate-sales-conversion-store-coupon }
 
 門市人員可協助會員核銷個人資產（紅利、優惠券），或提供全館通用的優惠碼供顧客參考。
 
@@ -130,7 +130,7 @@ hide: []
 	- **紀錄同步**：核銷紀錄將同步更新於 EC 後台的會員資料與訂單紀錄中。
 
 	
-### 推薦商品
+### 推薦商品 { #operate-sales-conversion-product-recommendation }
 
 此功能供門市人員快速生成官網商品的專屬推薦連結，分享給會員以引導至線上購買，並自動完成業績歸因。
 
@@ -159,7 +159,7 @@ hide: []
 	- **自動歸因**：透過此連結產生的官網訂單，系統將自動將業績歸因為該操作人員，並記錄於 **訂單 > 所有訂單**。
 	- **訂單來源**：後台訂單明細中會顯示該筆訂單來自門市助理推薦。
 
-### 新增門市消費
+### 新增門市消費 { #operate-sales-conversion-store-purchase }
 
 此功能供門市人員在未串接 POS 的情況下，手動紀錄會員在線下的消費金額，以累積會員等級權益並追蹤門市績效。
 
@@ -191,13 +191,13 @@ hide: []
 
 	- **訂單紀錄**：手動輸入的消費將同步至 EC 後台的 **會員 > 所有會員 > 個別會員頁 > 其他通路訂單**。
 	- **欄位對照**：後台將顯示成立時間、金額、資料來源、通路名稱與操作人員。
-	- **會員權益**：此金額將計入會員的累積消費，進而觸發 [VIP 升等](../../members/vip/vip-upgrade-downgrade-renewal-rules.md#升等機制) 或 [續會](../../members/vip/vip-upgrade-downgrade-renewal-rules.md#續會機制) 邏輯。
+	- **會員權益**：此金額將計入會員的累積消費，進而觸發 [VIP 升等](../../members/vip/vip-upgrade-downgrade-renewal-rules.md#specs-vip-rules-upgrade) 或 [續會](../../members/vip/vip-upgrade-downgrade-renewal-rules.md#specs-vip-rules-renewal) 邏輯。
 
 	!!! tip "消費者權益維護"
 		消費者可登入官網，在 **會員中心 > 訂單查詢 > 其他通路有效訂單** 中查看線下消費紀錄，確保權益已成功累積。
 
 
-## 常見問題
+## 常見問題 { #faq-sales-conversion }
 
 ??? quote "若門市助理與 POS 系統未串接，該如何處理優惠碼折抵的結帳作業？"
 	當您使用門市助理進行線上優惠碼或優惠券折抵，且後續須配合 POS 系統結帳時，請遵循以下步驟：

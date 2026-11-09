@@ -86,16 +86,16 @@ hide: []
 	- **品牌一致性**：自訂對話按鈕的外觀與位置，確保小工具符合品牌視覺風格。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-chat-widget }
 
 - **前置串接**：使用此功能前，請確保已完成 [**LINE 官方帳號**](connect-chat-box-to-line-oa/) 或 [**Facebook 粉絲專頁**](connect-chat-box-to-facebook-page/) 的串接。
 - **帳號狀態**：僅有連線正常的帳號會顯示在選單中。若帳號連結異常，請重新確認綁定狀態。
 - **啟用限制**：必須至少啟用一個對話管道（LINE 或 Messenger），方可開啟官網對話入口總開關。
 
 
-## 操作流程
+## 操作流程 { #operate-chat-widget }
 
-### 步驟一：啟用對話管道
+### 步驟一：啟用對話管道 { #operate-chat-widget-step-enable }
 
 選擇要在官網顯示的聯繫工具。
 
@@ -106,7 +106,7 @@ hide: []
 
 ![](../../../assets/images/EC-後台-APPMARKET-chatbox-整合對話入口01.png){ .screenshot }
 
-### 步驟二：自訂外觀樣式
+### 步驟二：自訂外觀樣式 { #operate-chat-widget-step }
 
 調整對話小工具在官網呈現的視覺效果。
 
@@ -129,7 +129,7 @@ hide: []
 
 ![](../../../assets/images/EC-後台-APPMARKET-chatbox-整合對話入口02.png){ .screenshot }
 
-### 步驟三：確認預覽與開啟
+### 步驟三：確認預覽與開啟 { #operate-chat-widget-section }
 
 透過即時預覽確認設定效果，並正式發佈。
 
@@ -147,7 +147,7 @@ hide: []
 
     ![](../../../assets/images/EC-後台-APPMARKET-chatbox-整合對話入口05.png){ .screenshot }
 
-## 多國語系設定
+## 多國語系設定 { #operate-settings }
 
 設定紅利商城的多國語系名稱，使前台可根據語系顯示正確文字。
 
@@ -156,14 +156,14 @@ hide: []
 	- 欄位有顯示 **語系標籤**，前台顯示才可隨語系切換文字。如：**群組名稱** 紅利商城 `繁體中文`。
 	- 若其他語系欄位未填寫內容，前台顯示該語系時，將自動使用 **繁體中文** 內容作為預設顯示。
 
-### 操作步驟
+### 操作步驟 { #operate-settings-operate-step }
 
 1. 在語系選單中，切換至欲編輯的語系（例如：繁體中文、英文）。  
 2. 直接點擊標題名稱欄位進行修改，完成後按 ++enter++ 儲存變更。  
 
 
 
-## 顧客端體驗
+## 顧客端體驗 { #intro-chat-widget }
 
 顧客點擊官網上的對話按鈕後，系統將依據裝置自動導向對應的通訊軟體：
 

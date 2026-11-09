@@ -68,7 +68,7 @@ hide: []
 | C2C | 全家（常溫 / 冷凍） | D+7 天 | D+7 天 |
 | C2C | 萊爾富 | D+7 天 | D+7 天 |
 
-## 相關操作
+## 相關操作 { #next-steps-cvs-label-expiry }
 
 
 <div class="grid cards" markdown>

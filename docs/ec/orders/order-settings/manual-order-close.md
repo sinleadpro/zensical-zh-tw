@@ -62,7 +62,7 @@ hide: []
 
 ![結案訂單](../../../assets/images/EC-訂單詳情頁-結案訂單-hero.png){ title="結案訂單" .hero-page }
 
-## 手動結案訂單說明
+## 手動結案訂單說明 { #intro-order-close }
 
 **「手動結案訂單」** 是指將訂單狀態正式關閉的操作。結案不僅代表訂單處理流程的終結，更會觸發多項行銷獎勵與分潤計算。
 
@@ -78,13 +78,13 @@ hide: []
 !!! warning "手動調整紅利"
     若結案後需回扣或刪除點數，系統不會自動追回。請依以下路徑手動操作：會員 > 所有會員> 進入該顧客明細頁進行扣除。
 
-## 操作前提條件
+## 操作前提條件 { #prerequisites-order-close }
 
 - [x] **訂單狀態**：除了「已取消」以外的任何訂單皆可進行結案。
 - [x] **配送狀態建議**：建議於訂單過退換貨期間、確定無退貨需求後再按下結案。若訂單處於「部分出貨」，則無法自動結案，需由商家手動調整。
 - [x] **與對帳之關係**：手動結案狀態與財務對帳無直接相關。對帳主要根據配送狀態（如「已出貨」或「已收貨」）進行認列。
 
-## 手動結案操作步驟 { #close-order-manual }
+## 手動結案操作步驟 { #operate-order-close-manual }
 
 商家可透過以下兩種方式執行手動結案：
 
@@ -107,23 +107,23 @@ hide: []
 
     ![訂單列表-結案訂單](../../../assets/images/EC-訂單-訂單列表-結案訂單.png){ title="訂單列表-結案訂單" }
 
-## 結案後狀態確認
+## 結案後狀態確認 { #operate-order-close-confirm }
 
-### 已結案訂單列表
+### 已結案訂單列表 { #operate-order-close-closed-list }
 
-訂單完成結案後，可以透過訂單列表的篩選器建立「已結案」[訂單檢視群組](../basics/search-filter-orders.md#orders-groups-tabs){ title="如何搜尋與篩選訂單" data-preview }，以便確認已結案之訂單。
+訂單完成結案後，可以透過訂單列表的篩選器建立「已結案」[訂單檢視群組](../basics/search-filter-orders.md#operate-order-filter-groups){ title="如何搜尋與篩選訂單" data-preview }，以便確認已結案之訂單。
 
 ![已結案訂單](../../../assets/images/EC-訂單-訂單列表-已結案群組.png){ title="已結案訂單" }
 
 ---
 
-### 訂單結案操作紀錄
+### 訂單結案操作紀錄 { #operate-order-close-history }
 
-訂單詳情頁下方的 [訂單操作紀錄](../basics/order-management-interface.md#order-history){ title="訂單管理介面說明" } 會出現「訂單被關閉」的訊息，並顯示操作該結案動作的管理員名稱。
+訂單詳情頁下方的 [訂單操作紀錄](../basics/order-management-interface.md#reference-order-history){ title="訂單管理介面說明" } 會出現「訂單被關閉」的訊息，並顯示操作該結案動作的管理員名稱。
 
 ![訂單結案紀錄](../../../assets/images/EC-訂單詳情頁-操作紀錄-訂單結案.png){ title="訂單結案紀錄" }
 
-## 後續操作
+## 後續操作 { #next-steps-order-close }
 
 <div class="grid cards" markdown>
 
@@ -133,7 +133,7 @@ hide: []
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-order-close }
 
 ??? quote "結案後如果顧客退貨，紅利點數會被追回嗎？"
 

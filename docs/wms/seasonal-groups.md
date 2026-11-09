@@ -72,12 +72,12 @@ hide: []
 
 ![](../assets/images/WMS-後台-商品-季別群組-畫面總覽01.png){ .hero-page }
 
-## 使用情境
+## 使用情境 { #intro-seasonal-groups }
 
 - **精準監控**：在庫齡報表中依 **季別** 維度篩選，快速識別哪些波段的商品已囤積過久。
 
 
-## 建立季別群組
+## 建立季別群組 { #operate-seasonal-groups-create }
 
 1. 前往 **商品 > 季別群組**。
 2. 點擊右上角 **新增季別群組**。
@@ -87,7 +87,7 @@ hide: []
 
 ![](../assets/images/WMS-後台-商品-季別群組-新增季別群組01.png){ .screenshot }
 
-## 將商品加入季別群組
+## 將商品加入季別群組 { #operate-seasonal-groups-add }
 
 建立群組後，透過單一品項列表將商品批次加入。
 
@@ -98,17 +98,17 @@ hide: []
 
 ![](../assets/images/WMS-後台-商品-單一品項-綁定季別群組01.png){ .screenshot }
 
-## 管理與維護群組
+## 管理與維護群組 { #operate-seasonal-groups-maintain }
 
 商家隨時調整群組結構或移除不合適的商品。
 
 - **編輯/刪除群組**：在 **季別群組** 明細頁面，點擊群組旁的 **編輯** 修改名稱，或點擊 **刪除** 移除整個群組（不會影響實體商品）。
 - **移除商品**：在群組明細中，將特定商品從該群組中移除。
-- **資料檢視**：前往 **庫存紀錄 > [庫齡報表](inventory-records/#庫齡報表分析週轉健康度)**，即可看到已設定的季別資訊出現在對應的欄位中。
+- **資料檢視**：前往 **庫存紀錄 > [庫齡報表](inventory-records/#operate-inventory-turnover)**，即可看到已設定的季別資訊出現在對應的欄位中。
 
 ![](../assets/images/WMS-後台-商品-季別群組-編輯與刪除01.png){ .screenshot }
 
-## 後續操作
+## 後續操作 { #next-steps-seasonal-groups }
 
 <div class="grid cards" markdown>
 

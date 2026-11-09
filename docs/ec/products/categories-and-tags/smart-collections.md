@@ -119,8 +119,8 @@ comments: false
 1. **切換到「加入商品」分頁：** 在分類設定頁上方，點選 **「加入商品」** 分頁。
 2. **選擇條件組合方式：** 在 **「商品規則」** 區塊的 **「篩選結果」**，選擇 **「符合全部條件」** 或 **「符合任一條件」**。
 3. **新增規則：** 點擊 **「新增商品規則」**，系統會新增一列規則設定。
-4. **設定單一規則：** 在該列中，先選 **篩選欄位**，再選 **條件**，最後輸入 **比對值**。可用的欄位與條件請見 [篩選欄位對照表](../references/smart-collections-rule-columns.md#smart-collections-rule-columns){ title="條件分類篩選欄位對照表" data-preview } 與
-[篩選條件對照表](../references/smart-collections-rule-relations.md#smart-collections-rule-relations){ title="條件分類篩選條件對照表" data-preview }。
+4. **設定單一規則：** 在該列中，先選 **篩選欄位**，再選 **條件**，最後輸入 **比對值**。可用的欄位與條件請見 [篩選欄位對照表](../references/smart-collections-rule-columns.md#reference-smart-collections-columns){ title="條件分類篩選欄位對照表" data-preview } 與
+[篩選條件對照表](../references/smart-collections-rule-relations.md#reference-smart-collections-relations){ title="條件分類篩選條件對照表" data-preview }。
 5. **增減規則：** 重複上一步可加入多條規則；要移除某條規則，點該列右側的刪除圖示。
 6. **儲存規則：** 點擊「商品規則」區塊下方的 **「儲存」**，系統會立即依規則重新計算符合的商品。
 
@@ -141,7 +141,7 @@ comments: false
 
 1. **檢視符合的商品：** 規則儲存後，下方 **「符合的商品」** 會列出目前命中的商品，包含商品名稱、售價、商品類型與廠商，方便您確認條件是否正確。
 2. **選擇排序方式：** 在排序下拉選單選擇商品在前台分類頁的呈現順序，例如「按價格排序：最高-最低」或「暢銷商品排序」。完整選項請見
-[商品排序方式對照表](../references/smart-collections-sort-order.md#smart-collections-sort-orders){ title="條件分類商品排序方式對照表" data-preview }。
+[商品排序方式對照表](../references/smart-collections-sort-order.md#reference-smart-collections-sort){ title="條件分類商品排序方式對照表" data-preview }。
 3. **手動排序(選用)：** 若選擇「手動排序」，即可直接拖曳商品列調整先後順序。
 
 ![檢視商品排序](../../../assets/images/ec-smart-collections-sort.png)
@@ -166,7 +166,7 @@ comments: false
 ### 五、多國語系翻譯設定 { #operate-smart-collections-multi-language }
 
 !!! plan "方案/開通條件"
-    此功能需先開通多國語系商店功能。未開通時，分類編輯頁的標題旁不會出現語言切換選單。支援的語言請見 [多國語系支援語言對照表](../references/multi-language-supported.md#multi-language-supported){ title="多國語系支援語言對照表" data-preview }。
+    此功能需先開通多國語系商店功能。未開通時，分類編輯頁的標題旁不會出現語言切換選單。支援的語言請見 [多國語系支援語言對照表](../references/multi-language-supported.md#reference-multi-language){ title="多國語系支援語言對照表" data-preview }。
 
 若您的商店已開通多國語系，可為每一個條件分類的 **分類名稱** 與 **分類描述** 提供各語言的版本，讓不同語言的顧客在前台看到對應翻譯。
 

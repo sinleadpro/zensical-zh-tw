@@ -77,13 +77,13 @@ hide: []
 
 ![LINE快速登入取得手機號碼](../../../../assets/images/ec-第三方整合-line login-oc-phone-number.png){ title="LINE快速登入取得手機號碼" .hero-page }
 
-## 什麼是 LINE 快速登入時取得會員手機號碼 
+## 什麼是 LINE 快速登入時取得會員手機號碼 { #intro-line-phone-login }
 
 **LINE 快速登入時取得會員手機號碼** 是一項進階功能，能協助商家在顧客使用 LINE 登入時取得手機號碼授權，藉此建立或更新官網會員資料。
 
 以下為該功能的詳細說明與設定教學：
 
-## 設定前置必備條件
+## 設定前置必備條件 { #prerequisites-line-phone-login }
 
 商家必須同時符合以下三個條件，方可使用此功能：
 
@@ -98,7 +98,7 @@ hide: []
 	- 瞭解 [LINE 帳號等級差異 :lucide-external-link:](https://tw.linebiz.com/column/lac-verified/)。
 	- 參閱 [LINE 認證官方帳號申請流程 :lucide-external-link:](https://tw.linebiz.com/column/line-lac-id-0418/)。
 
-## LINE 開發者後台資格確認
+## LINE 開發者後台資格確認 { #intro-line-phone-login-line-backend }
 
 請登入 [LINE Developers :lucide-external-link:](https://developers.line.biz/) 進行以下確認：
 
@@ -116,7 +116,7 @@ hide: []
 
 	![LINE Login權限設定](../../../../assets/images/ec-第三方整合-line-login-permissions.png){ title="LINE Login權限設定" }
 	
-## 系統比對邏輯與情境
+## 系統比對邏輯與情境 { #specs-line-phone-login }
 
 一般的 LINE 快速登入僅會抓取會員的 Email 進行帳號比對，但開啟此功能後，系統的處理邏輯會變更為：
 
@@ -167,7 +167,7 @@ hide: []
 	|**情境 2**|未註冊於 EC|**建立新會員 C**|等同 **新會員 C** 登入|同時存取 LINE 的 Email、手機與 UID 建立新資料。|
 
 
-## 搭配 LIFF 應用
+## 搭配 LIFF 應用 { #intro-line-phone-login-liff }
 
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | PLUS / 企業
 { .doc-badge }
@@ -191,7 +191,7 @@ hide: []
 
 !!! info "關於 LIFF 的完整設定說明，請參閱 [如何設定 LIFF 自動登入](setup-liff-auto-login-member-binding.md){ title="設定 LIFF 自動登入與會員綁定" }。"
 
-## 重要注意事項
+## 重要注意事項 { #intro-line-phone-login-overview-line-phone-login }
 
 - **非追溯性**：此功能 **不包含** 取得「功能設定完成前」已進行過 LINE 快速登入的會員手機號碼。
 
@@ -200,7 +200,7 @@ hide: []
 - **隱碼保護**：列印訂單明細時，若商家有開啟安全設定，取得的手機號碼會以隱碼（例如 `093******3`）顯示以保護個資。
 
 
-## 常見問題
+## 常見問題 { #faq-line-phone-login }
 
 ??? quote "若 LINE 的手機號碼與官網紀錄不一致，系統如何處理"
 	系統採 **「手機號碼優先」** 策略。若 LINE 提供的手機號碼已存在於系統（會員 A），無論其 Email 為何，皆會強制綁定至會員 A。若該號碼完全無紀錄且 Email 也未註冊，則視為新客建立資料。

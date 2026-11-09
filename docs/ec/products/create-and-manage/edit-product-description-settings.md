@@ -83,13 +83,13 @@ comments: false
 
 ![編輯商品描述](../../../assets/images/ec-edit-product-hero.zh-tw.png){ title="編輯商品描述" .hero-page }
 
-## 商品描述與設定說明
+## 商品描述與設定說明 { #intro-product-desc-settings }
 
 在商品編輯頁面(商品 > 所有商品 > 欲編輯的商品名稱)中，您可以編輯並設定商品的各項資訊與屬性，以便管理後台操作及前台展示。商品資訊設定主要分為三個頁籤：
 
 - [商品資訊](create-update-products.md#operate-product){ title="新增與更新商品" }：商品名稱、規格、價格與庫存等[核心設定](create-update-products.md#operate-product-create-basic){ title="新增與更新商品" }。
-- [商品描述](#商品描述)：商品說明、規格與運送資訊，呈現給前台顧客。
-- [設定](#商品設定)：類型、通路、廠商、群組、標籤、物流與 SEO，管理後台屬性與行銷設定。
+- [商品描述](#operate-desc-settings-body)：商品說明、規格與運送資訊，呈現給前台顧客。
+- [設定](#operate-product-desc-settings)：類型、通路、廠商、群組、標籤、物流與 SEO，管理後台屬性與行銷設定。
 
 !!! tip "快捷操作按鈕"
 
@@ -98,7 +98,7 @@ comments: false
     - :lucide-copy: 複製：複製商品快速編輯。
     - :lucide-trash-2: 刪除商品：刪除商品。
 
-## 商品描述
+## 商品描述 { #operate-desc-settings-body }
 
 使用文字編輯器修改以下欄位：
 
@@ -113,17 +113,17 @@ comments: false
 ??? info-clean "前台顯示位置"
     ![前台商品描述](../../../assets/images/ec-product-description-frontend.zh-tw.png){ title="前台商品描述" }
 
-## 商品設定
+## 商品設定 { #operate-product-desc-settings }
 
 ![商品設定頁面](../../../assets/images/ec-product-settings.zh-tw.png){ title="商品設定頁面" }
 
-### 進階設定
+### 進階設定 { #operate-product-desc-settings-advanced }
 
 - **自訂群組**：將商品加入已建立的商品群組。詳見 [設定商品自訂分類群組](../categories-and-tags/custom-collections.md){ title="設定商品自訂分類群組" }。
 - **任選折扣群組**：將商品加入已建立的任選折扣群組。詳見 [任選折扣](../../marketing/discounts/mix-and-match-discounts.md){ title="任選折扣" }。
 - **標籤**：為商品添加標籤，用於行銷活動（例如指定商品優惠券）瞭解 [如何設定商品標籤](../categories-and-tags/manage-product-tags.md){ title="管理商品標籤" }。
 - **商品類型**：為商品設定類型標籤，以便管理與篩選。此資訊也會顯示於前台，標籤內容可自訂。
-- **商品通路**：設定商品可銷售的通路。不同通路（預購、現貨、常溫）的商品在結帳時會自動[拆分為多購物車](../checkout/checkout-split-multi-cart.md#結帳拆分多購物車說明){ title="設定結帳自動拆分多購物車" }。
+- **商品通路**：設定商品可銷售的通路。不同通路（預購、現貨、常溫）的商品在結帳時會自動[拆分為多購物車](../checkout/checkout-split-multi-cart.md#intro-split-cart){ title="設定結帳自動拆分多購物車" }。
 - **商品廠商**：為商品添加廠商標籤，以便管理與篩選。此資訊也會顯示於前台，內容可自訂。
 - **Google 產品類別**：設定商品類別以覆蓋 Google 自動判斷結果，提升廣告投放精準度。瞭解 [如何將商品同步至 GMC](../../integrations/google/setup-google-merchant-center.md){ title="設定 Google Merchant Center 並同步 CYBERBIZ 商品" }。
 
@@ -133,7 +133,7 @@ comments: false
 
 ---
 
-### 溫層和物流配送設定
+### 溫層和物流配送設定 { #operate-product-desc-settings-ship }
 
 設定商品的運送溫層與可用的物流配送方式。
 
@@ -146,7 +146,7 @@ comments: false
 
 ---
 
-### 設定相關商品
+### 設定相關商品 { #operate-product-desc-settings-related }
 
 透過設定 **商品關聯群組**，商家可以自訂商品之間的關聯性，以提升商品頁下方 *相關商品* 區的展示效果，進而增加連帶銷售。
 
@@ -157,7 +157,7 @@ comments: false
 
 ---
 
-### SEO 設定
+### SEO 設定 { #operate-product-desc-settings-seo }
 
 商品設定 SEO 可增加網頁在搜尋引擎上的排名，請依照商品特性設定。
 
@@ -173,7 +173,7 @@ comments: false
 
 </div>
 
-## 後續步驟
+## 後續步驟 { #next-steps-product-desc-settings }
 
 <div class="grid cards" markdown>
 
@@ -187,7 +187,7 @@ comments: false
 
 </div>
 
-## 常見問題
+## 常見問題 { #faq-product-desc-settings }
 
 ??? quote "商品描述可以使用 HTML 標籤嗎？"
     商品描述區塊（商品介紹、規格說明、運送方式）支援文字編輯器，可進行文字排版、圖片與連結編輯。若需更進階的排版功能，建議使用拖拉版型。

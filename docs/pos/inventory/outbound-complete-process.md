@@ -94,7 +94,7 @@ Note over 收貨方: 4. 收貨清點
 ```
 
 
-1. [[出貨方] 建立出倉單](outbound-orders.md#建立出倉單)
-2. [[收貨方] 確認進倉](inbound-orders.md#確認--取消進倉)
-3. [[出貨方] 確認 / 取消出倉](outbound-orders.md#確認--取消出倉)
-4. [[收貨方] 收貨清點](inbound-orders.md#收貨清點)
+1. [[出貨方] 建立出倉單](outbound-orders.md#operate-outbound-orders-create)
+2. [[收貨方] 確認進倉](inbound-orders.md#operate-inbound-orders-confirm)
+3. [[出貨方] 確認 / 取消出倉](outbound-orders.md#operate-outbound-orders-confirm)
+4. [[收貨方] 收貨清點](inbound-orders.md#operate-inbound-orders-receive)

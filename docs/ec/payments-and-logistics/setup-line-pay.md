@@ -68,14 +68,14 @@ hide: []
 
 ![LINE Pay 說明](../../assets/images/ec-金物流-line-pay.png){ title="LINE Pay 說明" .hero-page }
 
-## LINE Pay 說明
+## LINE Pay 說明 { #intro-line-pay }
 
 - 顧客可於結帳頁選擇 LINE Pay 付款。
 - 提升結帳效率，增加訂單完成率。
 - LINE Pay 退款與訂單查詢透過官方後台操作。
 
 
-## 使用須知
+## 使用須知 { #prerequisites-line-pay }
 
 - **申請資格**：必須以公司名義申請，個人戶不可申請。
 - **既有帳號**：如已有 LINE Pay 收款帳號，仍需透過 CYBERBIZ 進行帳號轉移與串接。
@@ -83,9 +83,9 @@ hide: []
 - **申請流程**：資料齊全且正確無需補件，一般審核時間約 1 個月。
 - **補件**：如 LINE Pay 要求補件，補件完成後需重新審核，審核時間約 6–8 週。
 
-## 操作步驟
+## 操作步驟 { #operate-line-pay }
 
-### 步驟一：填寫申請表單並上傳申請資料
+### 步驟一：填寫申請表單並上傳申請資料 { #operate-line-pay-apply }
 
 請先準備並上傳以下 **4 項必要文件**，每項文件須為 **獨立的 PDF 或圖片檔**（掃描或清晰截圖皆可）。
 
@@ -93,7 +93,7 @@ hide: []
 	- 若文件缺漏、頁面不完整或資訊不符，將影響審核進度，並可能導致申請無法受理，請於送出前再次確認資料正確性。
 	- 若文件需標註為申請用途，請以浮水印方式標示：`僅供申請 LINE Pay / 一卡通 Money 使用`
 
-#### 必要申請文件
+#### 必要申請文件 { #operate-line-pay-docs }
 
 
 1. **公司證明文件**（以下擇一提供，須為完整版本，不可缺頁）
@@ -118,9 +118,9 @@ hide: []
 
 ---
 
-### 步驟二：等待審核及補件
+### 步驟二：等待審核及補件 { #operate-line-pay-review }
 
-#### 資料審核流程
+#### 資料審核流程 { #operate-line-pay-review-flow }
     
 - CYBERBIZ 將您提供的文件轉交 LINE Pay 進行審核。 
 - LINE Pay 後台帳號資訊會寄送至您的聯繫信箱。
@@ -129,7 +129,7 @@ hide: []
 
 ---
 
-#### 通知類型與說明
+#### 通知類型與說明 { #operate-line-pay-notify }
     
 - **審核通知信件**
 	- 表示 LINE Pay 已收到申請資料，但審核尚在進行中。
@@ -151,7 +151,7 @@ hide: []
             
     ![LINE Pay 帳號開通](../../assets/images/ec-金物流-line-pay-帳號開通.png){ title="LINE Pay 帳號開通" }
 
-### 步驟三：於 CYBERBIZ 系統後台填寫金鑰
+### 步驟三：於 CYBERBIZ 系統後台填寫金鑰 { #operate-line-pay-bind }
 
 
 1. **收到 CYBERBIZ 金鑰通知信件**
@@ -188,7 +188,7 @@ hide: []
 	![LINE Pay 付款方式勾選](../../assets/images/ec-金物流-宅配物流-line-pay-check.gif){ title="LINE Pay 付款方式勾選" }
 
 
-## LINE Pay 訂單編號對照說明
+## LINE Pay 訂單編號對照說明 { #specs-line-pay-order-no }
 
 在 LINE Pay 後台查看訂單時，請注意「訂單號碼」欄位的格式。以以下範例為例：
 
@@ -197,7 +197,7 @@ hide: []
 
 ![LINE Pay 訂單編號](../../assets/images/ec-訂單-line-pay-編號.png){ title="LINE Pay 訂單編號" }
 
-## 後續步驟
+## 後續步驟 { #next-steps-line-pay }
 
 <div class="grid cards" markdown>
 

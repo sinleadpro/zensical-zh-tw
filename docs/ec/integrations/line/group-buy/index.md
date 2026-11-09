@@ -13,7 +13,7 @@ hide:
   - feedback
 ---
 
-## 商家設定流程
+## 商家設定流程 { #operate-line-group-buy }
 
 <div class="grid cards" markdown>
 
@@ -45,7 +45,7 @@ hide:
 
 ---
 
-## 顧客購物流程
+## 顧客購物流程 { #operate-line-group-buy-flow }
 
 <div class="grid cards" markdown>
 

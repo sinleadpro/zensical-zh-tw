@@ -49,7 +49,7 @@ hide:
 
 
 本對照表彙整 CYBERBIZ 前台多國語系功能目前支援的語言，供商品條件分類、商品、頁面等內容翻譯時共用參考。
-## 支援語言對照表 { #multi-language-supported }
+## 支援語言對照表 { #reference-multi-language }
 
 | 語言 | 顯示名稱 |
 | :-- | :-- |
