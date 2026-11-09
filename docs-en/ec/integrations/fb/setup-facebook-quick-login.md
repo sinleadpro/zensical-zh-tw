@@ -65,19 +65,19 @@ hide: []
 
 ![Third-party FB](../../../assets/images/ec-第三方整合-fb整合.en.png){ .hero-page }
 
-## Facebook Quick Login Overview
+## Facebook Quick Login Overview { #overview-facebook-quick }
 
 **Facebook Quick Login** lets customers register or sign in to their member account on the "Member Registration" or "Checkout" page with their Facebook account. The system automatically retrieves the email address linked to their Facebook account and uses it as their account, then links the data to the storefront customer list, making it easier for merchants to filter audiences later.
 
-## Before You Begin
+## Before You Begin { #operate-facebook-quick }
 
 - [x] **URL security:** Your storefront URL must have an **SSL certificate** (it must start with https://).
 - [x] **Business verification:** The Meta Business Suite you use must first complete [verification :lucide-external-link:](https://www.facebook.com/business/help/159334372093366).
-- [x] **Domain redirect:** In the admin's "Domain Management" page, make sure the domain checked for "[Always redirect customers here](../../website-management/domain-management.md#cyberbiz-後台新增網域){ title="Domain Management" }" is the domain set in Facebook.
+- [x] **Domain redirect:** In the admin's "Domain Management" page, make sure the domain checked for "[Always redirect customers here](../../website-management/domain-management.md#operate-domain-mgmt-add){ title="Domain Management" }" is the domain set in Facebook.
 - [x] **Email restriction:** If customers use a Hinet email address, Hinet may block messages, so they might not receive system notifications such as password reset emails. We recommend asking them to use a different email address.
 - [x] **Account merging:** If a customer's Facebook email address matches the one used for Google or LINE sign-in, the system automatically treats them as the same member and performs an **account merge**.
 
-## Quick Login Settings
+## Quick Login Settings { #operate-facebook-quick-settings }
 
 Merchants can choose the "Default icon" or "Custom icon" to set the store logo shown on the login screen, based on their needs:
 
@@ -91,7 +91,7 @@ Merchants can choose the "Default icon" or "Custom icon" to set the store logo s
 
 !!! note "The custom icon and default icon differ only in how the icon is displayed on the storefront."
 
-### Use the Default Icon <small>Fastest</small>
+### Use the Default Icon <small>Fastest</small> { #operate-facebook-quick-settings-use }
 
 *   **Admin path:** "Third-party Integration" > "Facebook Settings (Ads / Registration & Login)".
 *   **Steps:** Turn on "**Enable Facebook login**", then click "Save Settings" to finish. The storefront will display the system's default login button.
@@ -100,28 +100,28 @@ Merchants can choose the "Default icon" or "Custom icon" to set the store logo s
 
 ---
 
-### Use a Custom Icon <small>Requires Creating a Meta App</small>
+### Use a Custom Icon <small>Requires Creating a Meta App</small> { #operate-facebook-quick-settings-use-create-meta }
 
 This method requires creating an app through **Meta for Developers**. It suits merchants who want to customize the login icon and collect more complete audience information.
 
 !!! warning "Prerequisite: Register a Meta Developer Account"
     Before you create an app, complete [**Meta for Developers Account Registration** :lucide-external-link:](https://developers.facebook.com/docs/development/register). After you register, go to the Apps page to create your app.
 
-#### Create an App
+#### Create an App { #operate-facebook-quick-settings-create }
 
 1. Go to [Meta for Developers :lucide-external-link:](https://developers.facebook.com/apps/) and confirm that you are signed in to your developer account.
 2. Click "**Create App**".
 3. Enter a "Display Name" (the store name customers see when signing in) and click "**Continue**".
 4. Select "**Authenticate and request data from users with Facebook Login**" as the use case.
 5. Choose whether to connect a "[Business Portfolio :lucide-external-link:](https://www.facebook.com/business/help/486932075688253)" (if no option is available, select "I don't want to connect a Business Portfolio yet").
-6. Follow the on-screen prompts to complete the [business verification](#商家驗證-business-verification) and [app review](#應用程式審查-app-review) requirements.
+6. Follow the on-screen prompts to complete the [business verification](#operate-facebook-quick-settings-verification-bus) and [app review](#operate-facebook-quick-settings-app-review) requirements.
 7. Review the overview and click "**Create App**" to finish.
 
 ![Create app workflow](../../../assets/images/ec-第三方整合-mbe-建立fb登入應用程式.en.gif){ .screenshot }
 
 ---
 
-#### Set up the Facebook Login Product
+#### Set up the Facebook Login Product { #operate-facebook-quick-settings-settings-faceboo }
 
 1. After the app is created, you are automatically taken to the App Dashboard.
 2. In the "App Customization and Requests" section, click "Customize the use case" for "Authenticate and request data from users with Facebook Login."
@@ -151,7 +151,7 @@ This method requires creating an app through **Meta for Developers**. It suits m
 
 ---
 
-#### Enter Basic App Information
+#### Enter Basic App Information { #operate-facebook-quick-settings-data }
 
 1. In the left menu, click "App Settings" > "Basic".
 2. Enter the following fields:
@@ -175,7 +175,7 @@ This method requires creating an app through **Meta for Developers**. It suits m
 
 ---
 
-#### Get Permissions and Verification
+#### Get Permissions and Verification { #operate-facebook-quick-settings-permissions-veri }
 
 After you complete the basic settings, you must finish "Business Verification" and "App Review" before you can publish the app. You can check the status of both on the App Dashboard.
 
@@ -183,7 +183,7 @@ After you complete the basic settings, you must finish "Business Verification" a
 
 ---
 
-##### Business Verification
+##### Business Verification { #operate-facebook-quick-settings-verification-bus }
 
 1. On the dashboard, click "Business Verification." The system will guide you to connect a "Business Portfolio" to complete verification.
 
@@ -207,7 +207,7 @@ After you complete the basic settings, you must finish "Business Verification" a
 
 ---
 
-##### App Review
+##### App Review { #operate-facebook-quick-settings-app-review }
 
 7. After business verification is complete, click "App Review" to submit your app for review.
 8. For the permissions you need (such as `email` and `public_profile`), provide the relevant data usage details:
@@ -221,7 +221,7 @@ After you complete the basic settings, you must finish "Business Verification" a
 
 ---
 
-#### Connect Data to CYBERBIZ
+#### Connect Data to CYBERBIZ { #operate-facebook-quick-settings-connect-data-cyb }
 
 1. On the "Basic" page, get the **App ID** and **App Secret** (click "Show" to view the App Secret).
 
@@ -234,9 +234,9 @@ After you complete the basic settings, you must finish "Business Verification" a
 
 4. Click "Save Settings" to apply your changes.
 
-## Common Issues and Solutions
+## Common Issues and Solutions { #specs-facebook-quick }
 
-### Check the App Status
+### Check the App Status { #specs-facebook-quick-status }
 
 Facebook periodically reviews and updates apps, so we recommend that merchants regularly check the settings on the Meta for Developers Apps page:
 
@@ -254,15 +254,15 @@ Facebook periodically reviews and updates apps, so we recommend that merchants r
 
 ---
 
-### Unable to Get Email Permission
+### Unable to Get Email Permission { #specs-facebook-quick-permissions }
 
 Check whether the `email` permission of your app is set to the "Advanced Access" level.
 
-## FAQ
+## FAQ { #faq-facebook-quick }
 
 ??? quote "Why do I see the error "This app does not currently support Facebook Login"?"
 
-    This is usually related to FB app review or an outdated API version. We recommend checking Meta for Developers for alert messages or an unrun "Annual Data Check." For detailed steps, see "[Check the App Status](#檢查應用程式狀態)" under "Common Issues and Solutions."
+    This is usually related to FB app review or an outdated API version. We recommend checking Meta for Developers for alert messages or an unrun "Annual Data Check." For detailed steps, see "[Check the App Status](#specs-facebook-quick-status)" under "Common Issues and Solutions."
 
 ??? quote "What should I do if I cannot get the customer's email address?"
 

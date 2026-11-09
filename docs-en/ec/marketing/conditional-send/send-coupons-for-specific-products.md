@@ -63,7 +63,7 @@ Create a coupon group. When a member buys selected products and completes the or
 
 ![](../../../assets/images/EC-後台-行銷活動-指定商品送優惠券-畫面總覽01.en.png){ .hero-page }
 
-## About Sending Coupons For Specific Products
+## About Sending Coupons For Specific Products { #overview-conditional }
 
 Send coupons for Specific Products (coupon groups) sends coupons automatically. You choose specific products or product tags, and members who buy them get a preset coupon. Use it to encourage repeat purchases, cross-sell, or clear inventory faster.
 
@@ -72,7 +72,7 @@ Send coupons for Specific Products (coupon groups) sends coupons automatically. 
     - **Cross-sell categories**: Give a makeup coupon with skincare purchases to get customers to try other categories.
     - **Clear inventory faster**: Give a high-value coupon with clearance items to motivate customers to buy slow-moving stock.
 
-## Before You Start
+## Before You Start { #prerequisites-conditional }
 
 - **Number of coupons**: Choose "Cumulative" (one coupon per item bought) or "Non-cumulative" (one coupon per order).
 - **Multiple groups**: A product can be in more than one coupon group. After purchase, the system sends the coupons from every group the product belongs to.
@@ -80,14 +80,14 @@ Send coupons for Specific Products (coupon groups) sends coupons automatically. 
 - **POS product limitation**: Only products sold online are eligible. POS-only products don't support automatic coupon sending.
 - **Stacking limits**: In the settings, you can specify whether the coupon can be used with promotions such as store-wide discount and single-product discounts.
 
-## Steps
+## Steps { #operate-conditional }
 
-### Step 1: Create A Coupon Group
+### Step 1: Create A Coupon Group { #operate-conditional-create-coupon }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Issue Coupon for Selected Product**.
 2. Click **New Coupon Collection**.
 
-### Step 2: Enter Basic Settings And Sending Rules
+### Step 2: Enter Basic Settings And Sending Rules { #operate-conditional-settings-rules }
 
 1. **Basic information**:
     - **Coupon Name**: A name to identify it in the admin (such as 2024 Spring Coupon Promotion).
@@ -98,7 +98,7 @@ Send coupons for Specific Products (coupon groups) sends coupons automatically. 
 
 ![](../../../assets/images/EC-後台-行銷活動-指定商品送優惠券-基本設定01.en.png)
 
-### Step 3: Set The Coupon Rules
+### Step 3: Set The Coupon Rules { #operate-conditional-settings-coupon-rules }
 
 In the **coupon Rules** section, define the coupon to send:
 
@@ -111,13 +111,13 @@ In the **coupon Rules** section, define the coupon to send:
 
 ![](../../../assets/images/EC-後台-行銷活動-指定商品送優惠券-優惠券規則設定01.en.png)
 
-### Step 4: Set Stacking Limits
+### Step 4: Set Stacking Limits { #operate-conditional-settings }
 
 1. Select **No Limit** (works with all promotions) or **Not applicable for selected promotions**.
 2. If you choose the latter, select the promotion types that can't be combined (such as store-wide discount, single-product discounts, and VIP discounts).
 
 
-## More Actions
+## More Actions { #operate-conditional-operate }
 
 <div class="grid cards" markdown>
 

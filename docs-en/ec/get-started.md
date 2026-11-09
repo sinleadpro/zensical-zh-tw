@@ -107,9 +107,9 @@ This guide walks you from basic info, domain setup, payments and shipping, produ
 
 <!-- For video tutorials, go to [Video Tutorials Overview](../resources/video-tutorials.md){ title="Video Tutorials Overview" }. While you use CYBERBIZ services, CYBERBIZ provides a customer-only login that unlocks some paid courses for free. -->
 
-## Initial Setup
+## Initial Setup { #operate-get-started }
 
-### Step 1: Set Basic Information
+### Step 1: Set Basic Information { #operate-get-started-basic }
 
 - Admin center > General settings: fill in "[Company contact info](../ec/website-management/setup-store-basic-info.md#operate-general-preferences-company-info)」
 - Admin center > Site permissions / plan: set Invoice type and Admin list
@@ -126,7 +126,7 @@ This guide walks you from basic info, domain setup, payments and shipping, produ
 
 ---
 
-### Step 2: Domain and SSL Certificate
+### Step 2: Domain and SSL Certificate { #operate-get-started-domain }
 
 - Admin center > Domains: confirm the primary domain
 - The free domain from CYBERBIZ `_____.cyberbiz.co` already includes SSL—no extra install needed
@@ -141,7 +141,7 @@ This guide walks you from basic info, domain setup, payments and shipping, produ
 
 ---
 
-### Step 3: Set up Payments
+### Step 3: Set up Payments { #operate-get-started-payments }
 
 Payments & logistics > Checkout & shipping settings
 
@@ -158,7 +158,7 @@ Payments & logistics > Checkout & shipping settings
 
 ---
 
-### Step 4: Set up Shipping
+### Step 4: Set up Shipping { #operate-get-started-logistics }
 
 - Payments & logistics > Home delivery: set home-delivery shipping rules
 - Payments & logistics > Convenience-store shipping: set convenience-store pickup
@@ -179,7 +179,7 @@ Payments & logistics > Checkout & shipping settings
 
 ---
 
-### Step 5: Create Products
+### Step 5: Create Products { #operate-get-started-products }
 
 - Products > All products: add your products
 - Marketing: set promotions for specific products
@@ -200,7 +200,7 @@ Payments & logistics > Checkout & shipping settings
 
 ---
 
-### Step 6: Website Appearance and Content
+### Step 6: Website Appearance and Content { #operate-get-started-appearance }
 
 - Website appearance > Theme editor: choose a site design
 - Website appearance > Theme editor > Site settings: edit homepage images and text
@@ -222,7 +222,7 @@ Payments & logistics > Checkout & shipping settings
 
 ---
 
-### Step 7: Set Store-Wide Marketing
+### Step 7: Set Store-Wide Marketing { #operate-get-started-marketing }
 
 - Marketing > [store-wide discount-Bonus & coupon] set store-wide campaigns (discounts / coupons / member bonus points, and more)
 - Payments & logistics > Home-delivery shipping fees: set store-wide free shipping
@@ -242,7 +242,7 @@ Payments & logistics > Checkout & shipping settings
 
 ---
 
-### Step 8: Connect Third-Party Services
+### Step 8: Connect Third-Party Services { #operate-get-started-integrations }
 
 Integrations: choose what to set up:
 
@@ -258,9 +258,9 @@ Integrations: choose what to set up:
 !!! tip "Initial setup complete"
     Through Step 8 you finished initial site setup. Steps 9–13 cover features you will use often after go-live—keep reading below.
 
-## Advanced Setup
+## Advanced Setup { #operate-get-started-advanced }
 
-### Step 9: Learn the Order Workflow
+### Step 9: Learn the Order Workflow { #operate-get-started-orders }
 
 Orders: review orders and run fulfillment and return flows here:
 
@@ -283,7 +283,7 @@ Orders: review orders and run fulfillment and return flows here:
 
 ---
 
-### Step 10: Learn Customer Q&A
+### Step 10: Learn Customer Q&A { #operate-get-started-cs }
 
 Members > All support questions: messages from Contact us and order comments land here so you can reply and manage them.
 
@@ -295,7 +295,7 @@ Members > All support questions: messages from Contact us and order comments lan
 
 ---
 
-### Step 11: Learn EDM and SMS Messaging
+### Step 11: Learn EDM and SMS Messaging { #operate-get-started-push }
 
 Go to Message push > Send SMS and Send EDM to notify customers about promotions, important reminders, and more.
 
@@ -308,7 +308,7 @@ Go to Message push > Send SMS and Send EDM to notify customers about promotions,
 
 ---
 
-### Step 12: Learn Analytics Reports
+### Step 12: Learn Analytics Reports { #operate-get-started-reports }
 
 Open Reports and analytics to understand store performance by metric:
 
@@ -318,7 +318,7 @@ Open Reports and analytics to understand store performance by metric:
 
 </div>
 
-### Step 13: Other Special Features
+### Step 13: Other Special Features { #operate-get-started-other }
 
 - Marketing > One-page store: create quick purchase links for selected products
 

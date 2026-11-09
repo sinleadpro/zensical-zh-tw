@@ -1,8 +1,8 @@
 ---
 title: "Ship with EZCAT Quick Store Delivery"
-description: "Batch download EZCAT Quick Store Delivery shipping labels and update the order shipment status to Shipped."
+description: "Batch print or download EZCAT Quick Store Delivery shipping documents and update the order shipment status to Shipped."
 created: 2026-05-18 15:26
-last_modified: 2026-07-15 14:40
+last_modified: 2026-09-23 15:00
 lang: en-US
 type: guide
 author: Jase
@@ -27,10 +27,12 @@ plan_options: []
 cyb_extensions: []
 intents:
   - 批次下載黑貓快速到店託運單
+  - 列印黑貓出貨文件
   - 黑貓快速到店出貨
   - 補印託運單
 features:
   - 黑貓快速到店
+  - 進行出貨/列印文件
   - 批次出貨
   - 自動呼叫黑貓司機
   - 補印託運單
@@ -46,6 +48,7 @@ related:
   - ec/orders/home-delivery/shipping-status-tooltip/
   - ec/orders/home-delivery/partial-shipment-v2/
   - ec/payments-and-logistics/setup-print-tcat-waybill-v2/
+  - ec/orders/order-settings/setup-shipping-docs-sort/
 tags:
   - "EZCAT Quick Store Delivery"
   - 7-Eleven
@@ -60,6 +63,7 @@ devices:
   - mobile
 ui_components:
   - 更多操作
+  - 進行出貨/列印文件
   - 下載黑貓快速到店託運單
   - 補印託運單
 paths:
@@ -80,7 +84,7 @@ hide: []
 
 ## About EZCAT Quick Store Delivery Shipping { #intro-tcat-cvs }
 
-"EZCAT Quick Store Delivery" is a service where EZCAT delivers your products to the 7-Eleven store chosen by the customer for pickup. It's divided into ambient, refrigerated, and frozen by product temperature zone. This page shows how to batch process orders in the new order list, download shipping labels, and change the delivery status to "Shipped."
+"EZCAT Quick Store Delivery" is a service where EZCAT delivers your products to the 7-Eleven store chosen by the customer for pickup. It's divided into ambient, refrigerated, and frozen by product temperature zone. This page shows how to batch process orders in the new order list, print or download shipping labels, and change the delivery status to "Shipped." After you confirm shipping, the browser opens a new tab with the PDF, so you can print it directly without unzipping it first.
 
 !!! info "Other EZCAT Services"
     * If the customer chooses home delivery, see [Ship with EZCAT Home Delivery](../home-delivery/tcat-home-delivery-v2.md){ title="Ship with EZCAT Home Delivery" }.
@@ -111,7 +115,7 @@ The following are the logistics rules for EZCAT Quick Store Delivery. Check them
 | Delivery area | Taiwan main island only; outlying islands aren't supported |
 | Pickup deadline | After the package arrives at the store, ambient packages are held for 7 days; refrigerated/frozen packages only 4 days. EZCAT sends the customer 1 SMS on **the day the package arrives** and 1 on **the day before it's returned**, 2 in total. |
 | Shipping label validity | After the shipping label is created, you must contact EZCAT to complete pickup within 7 days, or the tracking number expires |
-| [Unclaimed](#tcat-cvs-overdue-pickup){ title="Unclaimed Store Packages" } | The package is returned to you, and EZCAT **charges an additional return shipping fee** |
+| [Unclaimed](#specs-tcat-cvs-overdue){ title="Unclaimed Store Packages" } | The package is returned to you, and EZCAT **charges an additional return shipping fee** |
 
 !!! tip "Packaging Tips for Refrigerated/Frozen Shipments"
     * **Pre-chilling time**: We recommend pre-chilling refrigerated products for at least 6 hours and frozen products for at least 12 hours to keep the temperature zone until store pickup.
@@ -125,56 +129,68 @@ The following are the logistics rules for EZCAT Quick Store Delivery. Check them
 - **Feature activation**: Your store must have the matching temperature zone feature enabled. To use refrigerated and frozen services, the system must also have the "Product-bound temperature zone" feature enabled.
 - **Can't be used with Fengchao Logistics**: If your store is integrated with Fengchao Logistics, you can't use EZCAT Quick Store Delivery. You can only use one of the two.
 
-## Steps { #tcat-cvs-operate }
+## Steps { #operate-tcat-cvs }
 
 
 ### Before Shipping { #prerequisites-tcat-cvs-checklist }
 
 Before shipping with EZCAT Quick Store Delivery, complete the following:
 
-- [x] **EZCAT sender address**: Go to "Payment and Logistics" > "[EZCAT Quick Store Delivery Shipping Labels](../../payments-and-logistics/setup-print-tcat-quick-store-waybill-v2.md#configure-ezcat-cvs-shipping-note-sender-setup){ title="Set Up Sender Information" }" and set the sender address, or the sender information on the shipping label will be incomplete.
+- [x] **EZCAT sender address**: Go to "Payment and Logistics" > "[EZCAT Quick Store Delivery Shipping Labels](../../payments-and-logistics/setup-print-tcat-quick-store-waybill-v2.md#operate-ezcat-cvs-sender-settings){ title="Set Up Sender Information" }" and set the sender address, or the sender information on the shipping label will be incomplete.
 - [x] **Supplies and equipment**: You have "EZCAT three-part blank shipping label stickers" ready (call EZCAT customer service at 02-412-8888 to get them), and we recommend a laser printer so barcodes print clearly.
 - [x] **Product pre-chilling (low-temperature packages)**: Refrigerated products must be pre-chilled for at least 6 hours; frozen products for at least 12 hours.
-- [x] **Check your balance**: Standard Plan merchants should go to [check the CYBER Coin balance in the Top-Up Center](../../website-management/points-deposits.md#cyber-coin-balance){ data-preview } and make sure the balance is sufficient; PLUS / Enterprise merchants don't have this restriction.
+- [x] **Check your balance**: Standard Plan merchants should go to [check the CYBER Coin balance in the Top-Up Center](../../website-management/points-deposits.md#overview-cyber-coin-balance){ data-preview } and make sure the balance is sufficient; PLUS / Enterprise merchants don't have this restriction.
 
 --- 
 
-### Batch Download EZCAT Quick Store Delivery Shipping Labels { #operate-tcat-csv-shipping-note }
+### Ship in Bulk and Print Shipping Documents { #operate-tcat-csv-shipping-note }
 
-The following uses ambient shipping labels as an example. The steps for refrigerated and frozen are the same; just choose the matching option in the drop-down step.
+1. **Go to the order list**: Sign in to the admin and go to **Orders > All Orders**.
+2. **Select orders**: Select the orders to ship in the list. Make sure all selected orders use "EZCAT Home Delivery" as the delivery method.
+3. **Click "Actions..."**: Click **Actions...** above the list and select **EZCAT Home Delivery - Ship/Print Documents** from the drop-down[^1].
 
-1. **Open the order list**: In the admin, go to "Orders" > "All Orders."
-2. **Select the orders to ship**: Select one or more orders using the checkboxes on the left of the list. Make sure the selected orders are all the same EZCAT Quick Store Delivery type (ambient, refrigerated, or frozen). You can't mix different temperature zones.
-3. **Open "Actions..." and choose the download action**: Click the **Actions...** drop-down above the list and choose one based on the selected orders' temperature zone:
-    * Download EZCAT Quick Store Delivery Ambient / Refrigerated / Frozen Shipping Labels and Change Delivery Status to "Shipped"
+4. **Set the pop-up fields**: In the "Ship/Print Documents" window, set the following in order
+    * **Select a temperature zone**: Choose **Room Temperature**, **Refrigerated**, or **Frozen**. Make sure **the setting matches the actual package**.
+    * **Is it Fragile?**: Choose **Yes** or **No**.
+    * **Sender address**: Defaults to the sender address last used for this logistics service (the first time, it uses the address in [EZCAT settings](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-sender-settings){ title="Set Up Sender Information" }). To change it, click **Change** in the window to edit it[^3].
 
-    ![Download EZCAT Quick Store Delivery ambient shipping labels](../../../assets/images/EC-訂單-所有訂單-下載黑貓快速到店託運單.en.png){ title="Download EZCAT Quick Store Delivery Ambient Shipping Labels" }
+5. **Select the documents to print**: Under **Select the documents to print**, select the document types to print this time. **Shipping Label** and **Download All Documents** are selected by default.
 
-4. **Review the shipment information**: The system opens the "Download EZCAT Quick Store Delivery - Ambient/Frozen/Refrigerated Shipping Labels" window, which lists the orders in this shipment. Check that they're correct.
-5. **(Optional) Set up automatic driver pickup**: If your store has the "[Call EZCAT](../home-delivery/tcat-auto-call-driver-v2.md){ title="Automatically Call an EZCAT Driver for Pickup" }" feature enabled, the window shows the "Automatically call an EZCAT driver for pickup?" option. Choose **Yes** to show these three fields:
+    | Item | Default | Description | Changes the order to `Shipped` after you click Confirm |  
+    | :--- | :--- | :--- | :--- |
+    | Picking List | Not selected | For warehouse picking | No | 
+    | Shipping Label | Selected | Attached to the outside of the package for the carrier to scan and deliver | **Yes** |
+    | Shipment Details | Not selected | Available only after you select Shipping Label | No |
+    | Order Details | Not selected | For internal records or to include in the package | No | 
+    | Download All Documents | Selected | Also downloads the documents to your computer as a ZIP file | **Yes** |
 
-    * **Call before pickup?**: If you choose "Yes," the driver calls the contact phone number on the "[EZCAT pickup settings page](../../payments-and-logistics/setup-print-tcat-quick-store-waybill-v2.md#configure-ezcat-cvs-shipping-note-sender-setup){ data-preview }" to confirm with you before arriving.
-    * **Does the EZCAT driver need to bring a cart?**: If you have many packages, you can ask the driver to bring a cart.
-    * **Notes**: Enter special pickup instructions (for example, building access or floor), up to **100 characters**.
+    ![Shipping pop-up: print documents](../../../assets/images/EC-後台-訂單-所有訂單-列印黑貓出貨文件02.en.png){ title="Select Shipping Documents to Print" .screenshot }
 
-    ??? warning "Call Cutoff Time"
-        The [call cutoff time](../home-delivery/tcat-auto-call-driver-v2.md#tcat-auto-call-driver-deadtime){ data-preview } is **16:30** each day. After that, this option is locked to "No," and you can't call a driver through the system that day; call EZCAT yourself to arrange pickup.
+6. **Agree to the terms**: Select **I have read and agree to the CYBERBIZ Logistics Integration Terms of Service and EZCAT contract terms**. **Confirm** can't be clicked until you do.
 
-6. **Confirm the sender address**: The window shows a "Sender Address" field, which defaults to the last sender address used for this logistics service (the first time, it uses the address in the [EZCAT Quick Store Delivery settings](../../payments-and-logistics/setup-print-tcat-quick-store-waybill-v2.md#configure-ezcat-cvs-shipping-note-sender-setup){ title="Set Up Sender Information" }). To change it, click the **Change** button in the window to edit it[^2].
+    !!! plan "Call an EZCAT Driver Directly from the Pop-Up"
+        If your store has enabled the EZCAT driver call feature, an "Automatically Call an EZCAT Driver for Pickup" section appears at the bottom of the window, so you can book a driver for door pickup while shipping. For details, see [How to Automatically Call an EZCAT Driver for Pickup](../home-delivery/tcat-auto-call-driver-v2.md){ title="Automatically Call an EZCAT Driver for Pickup" }.
 
-    ![Change sender address](../../../assets/images/EC-訂單-所有訂單-下載黑貓快速到店常溫託運單-更改地址.en.png){ title="Change Sender Address" }
+7. **Confirm shipping**: Click **Confirm**. The browser opens a new tab that first shows "Generating documents, please wait." Don't close that tab.
 
-7. **Agree to the terms of service**: Make sure "I have read and agree to the CYBERBIZ Logistics Integration Terms of Service and EZCAT Contract Terms" is selected (selected by default); the "Confirm" button is enabled only then.
-8. **Confirm the download**: Click **Confirm**, and the system automatically downloads[^1] the [shipping label ZIP file](#tcat-cvs-zip-contents){ title="Shipping Label ZIP Contents" }.
-9. **Confirm the delivery status changed**: When you're done, the delivery status of the selected orders automatically changes to **Shipped**. (See [Confirm the Delivery Status Change](#tcat-cvs-verify-status){ title="Confirm the Delivery Status Change" })
+    ![Generating documents](../../../assets/images/EC-後台-訂單-所有訂單-列印黑貓出貨文件03.en.png){ title="Generating Shipping Documents" .screenshot }
+
+8. **Print the PDF**: When generation is complete, the tab shows the documents you selected. Click the print icon in the upper-right corner of the browser, or press `Ctrl + P` on Windows or `Command + P` on Mac.
+
+    ![Shipping document PDF preview](../../../assets/images/EC-後台-訂單-所有訂單-列印黑貓出貨文件04.en.png){ title="Preview Shipping Document PDF in the Browser" .screenshot }
+
+    If **Download All Documents** is selected, the system also downloads[^1] the [shipping label ZIP file](#reference-tcat-cvs-zip){ title="Shipping Label ZIP Contents" }. The default PDF order is Picking List → Shipping Label → Shipment Details → Order Details; for batches of multiple orders, you can change the [print order](../order-settings/setup-shipping-docs-sort.md){ title="Set the Print Order of Shipping Documents" }.
+
+9. **Confirm the delivery status changed**: If **Shipping Label** or **Download All Documents** is selected, the delivery status of the selected orders changes to **Shipped**. (See [Confirm the Delivery Status Change](#operate-tcat-cvs-verify){ title="Confirm the Delivery Status Change" })
 
 
-[^1]: If the download doesn't start, check whether your browser is blocking pop-ups or ads. Allow pop-ups for this site and click download again. For more troubleshooting, see [FAQ: Can't download shipping labels](#faq-tcat-cvs-download-no-response)
-[^2]: Changes also update the address on the EZCAT Quick Store Delivery settings page. Addresses for other logistics services and the company logistics address aren't affected.
+[^1]: If the option doesn't appear, the order status may not qualify or logistics setup may be incomplete. For details, see [FAQ: No Ship/Print Documents option](#faq-tcat-cvs-action-missing).
+[^2]: If the download doesn't start, check whether your browser is blocking pop-ups or ads. Allow pop-ups for this site and click download again. For more troubleshooting, see [FAQ: Can't download shipping labels](#faq-tcat-cvs-download-no-response)
+[^3]: Changes also update the address on that logistics page. Addresses for other logistics services and the company logistics address aren't affected.
 
 ---
 
-### Call an EZCAT Driver for Pickup { #tcat-cvs-call-driver-pickup }
+### Call an EZCAT Driver for Pickup { #operate-tcat-cvs-call-driver }
 
 After downloading the shipping labels, contact an EZCAT driver to pick up the packages:
 
@@ -183,21 +199,21 @@ After downloading the shipping labels, contact an EZCAT driver to pick up the pa
 
 ---
 
-### Confirm the Delivery Status Change { #tcat-cvs-verify-status }
+### Confirm the Delivery Status Change { #operate-tcat-cvs-verify }
 
-After you download the shipping labels, you can check the delivery status in two places:
+After you confirm shipping, you can check the delivery status in two places:
 
 - **Order list page**: The delivery status column shows **Shipped**
-- **Order details page**: The status shows [Shipped (Awaiting Carrier Pickup)](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ data-preview }, meaning the shipping label was created but EZCAT hasn't picked up the package yet
+- **Order details page**: The status shows [Shipped (Awaiting Carrier Pickup)](../home-delivery/shipping-status-tooltip.md#reference-shipping-status){ data-preview }, meaning the shipping label was created but EZCAT hasn't picked up the package yet
 
 If the delivery status didn't update, check:
 
-* Whether the download actually completed (whether the browser blocked the download dialog)
+* Whether the confirmation actually completed (whether the browser blocked the new tab or the download)
 * Whether all selected orders use "EZCAT Quick Store Delivery" as the delivery method
 
 ---
 
-### Troubleshoot Address Errors { #tcat-cvs-address-error }
+### Troubleshoot Address Errors { #operate-tcat-cvs-address-error }
 
 If an "Incomplete sender information" message appears when you download shipping labels, the EZCAT sender address isn't set or is incomplete:
 
@@ -210,7 +226,7 @@ If an "Incomplete sender information" message appears when you download shipping
 
 ---
 
-### Unclaimed Store Packages { #tcat-cvs-overdue-pickup }
+### Unclaimed Store Packages { #specs-tcat-cvs-overdue }
 
 After the package arrives at the convenience store, the customer has a pickup deadline:
 
@@ -224,13 +240,17 @@ EZCAT sends **2 SMS messages** to remind the customer:
 | 1st | The day the package arrives at the store |
 | 2nd | 1 day before it's returned (day 6 for ambient, day 3 for refrigerated/frozen) |
 
-## Next Steps { #nextstep-tcat-cvs }
+## Next Steps { #next-steps-tcat-cvs }
 
 <div class="grid cards" markdown>
 
 <!-- - :lucide-printer:{ .lg }  
   [__Reprint Shipping Labels__](../../payments-and-logistics/reprint-waybills.md){ title="Reprint and Print Extra Shipping Labels" }  
   If you need to print again (for example, the label got wet or printed unclearly), go back to the order list, select the same order, and choose Reprint Shipping Label from "More Actions." -->
+
+- :lucide-list-ordered:{ .lg }  
+  [__Set the Print Sort Order for Shipping Documents__](../order-settings/setup-shipping-docs-sort.md){ title="Set the Print Sort Order for Shipping Documents" }  
+  When printing documents for multiple orders in bulk, you can sort them by document type or by order number.
 
 - :lucide-truck:{ .lg }  
   [__Call a Driver Automatically__](../home-delivery/tcat-auto-call-driver-v2.md){ title="Automatically Call an EZCAT Driver for Pickup" }  
@@ -259,13 +279,18 @@ EZCAT sends **2 SMS messages** to remind the customer:
     * **Terms not accepted**: Make sure "I have read and agree to the CYBERBIZ Logistics Integration Terms of Service and EZCAT Contract Terms" at the bottom of the pop-up is selected.
 
 
-??? quote "Why can't I find the "Download EZCAT Quick Store Delivery…" option in the "More Actions" drop-down?"
+??? quote "Why can't I find the "Ship/Print Documents" option in the "More Actions" drop-down?"
     [](){ #faq-tcat-cvs-action-missing }
 
     This is usually caused by one of the following:
 
     * The selected orders didn't choose EZCAT Quick Store Delivery at checkout, or you selected orders with different temperature zones or different logistics services. Make sure this batch is all the same EZCAT Quick Store Delivery type.
     * The order's delivery status isn't "Unshipped," "Partially Shipped," or "Preparing" (for example, it's refunded or canceled), so it can't be shipped.
+
+??? quote "If I print only the picking list or order details, does the delivery status change to Shipped?"
+    [](){ #faq-tcat-cvs-print-without-waybill }
+
+    No. The order changes to Shipped only when you select **Shipping Label** or **Download All Documents** and then click **Confirm**. If you print only the picking list or order details, the delivery status stays the same.
 
 ??? quote "Why is the "Automatically call an EZCAT driver for pickup?" option grayed out or unavailable?"
     [](){ #faq-tcat-cvs-call-disabled }
@@ -301,7 +326,7 @@ EZCAT sends **2 SMS messages** to remind the customer:
 
     No. When you download shipping labels, the system deducts from your CYBER Coin balance immediately, so the download fails if the balance is too low. Go to the [Top-Up Center](../../website-management/points-deposits.md){ data-preview } to top up, then try again.
 
-### Shipping Label ZIP Contents { #tcat-cvs-zip-contents }
+### Shipping Label ZIP Contents { #reference-tcat-cvs-zip }
 
 After the download finishes, the ZIP contains four PDFs, each for a different process:
 

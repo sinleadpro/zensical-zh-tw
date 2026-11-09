@@ -106,6 +106,14 @@ hide:
 
     [:octicons-arrow-right-24: Go](member-security-settings.md)
 
+-   :lucide-globe-2: __Redirect Shoppers to a Country-Specific Online Store__
+
+    ---
+
+    Show a notice bar on your storefront based on the country of the customer's IP address, guiding customers to the website for their country.
+
+    [:octicons-arrow-right-24: Go](setup-country-site-redirect.md)
+
 -   :lucide-shield: __Security Overview and Best Practices__
 
     ---

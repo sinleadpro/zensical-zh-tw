@@ -65,18 +65,18 @@ comments: false
 
 ![Search keyword exclusion settings](../../../assets/images/ec-網站外觀-樣板編輯器-search-liquid.en.png){ title="Search Keyword Exclusion Settings" .hero-page }
 
-## About Excluding Products with Specific Keywords from Search
+## About Excluding Products with Specific Keywords from Search { #intro-exclude-kw }
 
 By editing the code, you can exclude products that contain specific keywords (for example, purchase-with-purchase products, group-buy exclusives, and secret store products) from storefront search results.
 
 The steps to exclude specific keywords from search are as follows:
 
-## Applicable Themes and Limits
+## Applicable Themes and Limits { #prerequisites-exclude-kw }
 
 - **Theme limit**: This tutorial **only applies to the default theme (standard theme)**. It does not work with drag-and-drop themes.
 - **Responsibility**: CYBERBIZ provides code editing access but does not offer syntax tutorials or coding services. If an edit goes wrong, use the restore feature to roll back to an earlier version.
 
-## Steps
+## Steps { #operate-exclude-kw }
 
 1. **Go to the editor**: Log in to the CYBERBIZ admin and go to **Website Appearance > Theme Setting > CSS/HTML Editor**.
 2. **Find the file**: In the editor, search for and open the **`search.liquid`** file.
@@ -108,13 +108,13 @@ The steps to exclude specific keywords from search are as follows:
 
 5. **Test the result**: After you finish and save the settings, search for the keyword products with the magnifier on your storefront to confirm that they are hidden.
 
-## Notes
+## Notes { #prerequisites-exclude-kw-notes }
 
 - **Exact match**: Make sure the keyword in the code is exactly the same as the keyword in the product name.
 - **Recovery**: If the page breaks after an edit, click **View a previous version** in the editor to [roll back to an earlier version](../../website-appearance/code-customization/restore-code-theme-editor.md#operate-restore-theme){ title="Restore Web Page Code with the Template Editor" }.
 
 
-## Next Steps
+## Next Steps { #next-steps-exclude-kw }
 
 <div class="grid cards" markdown>
 
@@ -128,7 +128,7 @@ The steps to exclude specific keywords from search are as follows:
 
 </div>
 
-## FAQ
+## FAQ { #faq-exclude-kw }
 
 ??? quote "How do I write the code to exclude several different keywords?"
     Use the `| without: "title", "Keyword"` syntax several times in a row. For example, to exclude products containing both "Add-on" and "Test", use the following syntax:

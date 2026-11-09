@@ -73,7 +73,7 @@ hide:
 
 ![Frozen store-to-store shipping](../../../assets/images/ec-金物流-超商物流-全家冷凍店到店 C2C.en.png){ title="Frozen Store-to-Store Shipping" .hero-page }
 
-## About FamilyMart Frozen C2C Store-to-Store Shipping
+## About FamilyMart Frozen C2C Store-to-Store Shipping { #intro-fm-frozen-c2c }
 
 FamilyMart frozen store-to-store (C2C) lets you easily manage frozen product sales and inventory, receive and ship orders from the admin, and deliver quickly to the store the shopper chose, boosting sales and customer satisfaction.
 
@@ -84,9 +84,9 @@ With FamilyMart frozen store-to-store (C2C), you can:
 - Give shoppers more pickup options
 - Grow frozen product sales and revenue
 
-## Prerequisites and Limitations
+## Prerequisites and Limitations { #prerequisites-fm-frozen-c2c }
 
-### Packaging and Temperature Rules
+### Packaging and Temperature Rules { #specs-fm-frozen-c2c-packaging }
 
 Frozen packages have strict size and temperature limits. If they don't meet the rules, store staff or drivers can refuse them:
 
@@ -98,7 +98,7 @@ Frozen packages have strict size and temperature limits. If they don't meet the 
 
 ---
 
-### Shipping and Time Limits
+### Shipping and Time Limits { #operate-fm-frozen-c2c-ship-limits }
 
 - **How to ship**: Print and stick the shipping label yourself, or [write down the tracking number and print the service slip (payment slip) at a FamilyMart **FamiPort** kiosk](cvs-c2c-shipping.md#famiport){ title="Ship with Convenience Store C2C Store-to-Store" }.
 
@@ -114,9 +114,9 @@ Frozen packages have strict size and temperature limits. If they don't meet the 
 
 </div>
 
-## Steps
+## Steps { #operate-fm-frozen-c2c }
 
-### Set Up in the Admin
+### Set Up in the Admin { #operate-fm-frozen-c2c-admin-setup }
 
 Before shipping, turn on the service in the system.
 
@@ -129,7 +129,7 @@ Before shipping, turn on the service in the system.
 
 ---
 
-### Ship Orders
+### Ship Orders { #operate-fm-frozen-c2c-ship-order }
 
 1. **Select orders**: Go to **Orders > All Orders** and select the frozen orders to process.
 2. **Get tracking numbers and download shipping labels**: Click **Select Action** in the upper-right corner and, based on package size, select **Download FamilyMart Frozen S60 / S105 Shipping Labels**.
@@ -138,7 +138,7 @@ Before shipping, turn on the service in the system.
 3. **Update the status**: When you download the shipping labels, the order delivery status changes to **Shipped**, and the customer is notified.
 
 
-## Exceptions and Special Cases
+## Exceptions and Special Cases { #operate-fm-frozen-c2c-exceptions }
 
 - **Store closure**: If the pickup store closes, contact the shopper within **6 days** of the notice and choose a new store in the admin.
 - **Unclaimed packages**: If the shopper doesn't pick up within 4 days, the package goes back to the original sender store. Pick it up within **4 days** at no extra shipping cost. If you don't pick it up after 4 days, it goes back to the logistics center and is sent to your address by **home delivery, freight collect**.
@@ -167,7 +167,7 @@ If a label is lost or damaged, you can reprint it in the admin within the deadli
 
 </div>
 
-## FAQ
+## FAQ { #faq-fm-frozen-c2c }
 
 ??? quote "What happens if the shopper doesn't pick up the package in time?"  
 	- The package goes back to the original sender store. Pick it up within **4 days** at no extra shipping cost.  

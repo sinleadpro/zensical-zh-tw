@@ -73,14 +73,14 @@ Renew your POS system or add sub-terminals directly in the admin dashboard, with
     - **Before the contract expires**: Renew on your own in the admin dashboard to keep your POS service running without interruption.
     - **Expand checkout counters**: If a single store needs multiple POS terminals operating at the same time, you can add sub-terminal licenses.
 
-## Usage Notes
+## Usage Notes { #prerequisites-renewal-plans }
 
 - **Payment method**: When you renew or add sub-terminals, **no upfront payment is required**. The system collects payment through the **statement**.
 - **Sub-terminal definition**: If a single POS store needs multiple checkout points operating at the same time, you must add **sub-terminal** licenses.
 
-## Procedure
+## Procedure { #operate-renewal-plans }
 
-### Add a POS Store
+### Add a POS Store { #operate-renewal-plans-add-pos }
 
 1. Log in to the admin dashboard, go to **POS > Renewal Plans**, and click the **Buy POS shop** tab.
 2. Review the plan details and the expected charges.
@@ -88,7 +88,7 @@ Renew your POS system or add sub-terminals directly in the admin dashboard, with
 
 ![](../../assets/images/POS-後台-續購與加購方案-新增門市01.en.png){ .screenshot }
 
-### Renew or Add Sub-Terminals
+### Renew or Add Sub-Terminals { #operate-renewal-plans-subdevice }
 
 1. Log in to the admin dashboard, go to **POS > Renewal Plans**, and click the **POS List** tab.
 2. Find the store you want to manage, then click **Renew** or **Add sub machine** based on your needs.
@@ -97,7 +97,7 @@ Renew your POS system or add sub-terminals directly in the admin dashboard, with
 
 ![](../../assets/images/POS-後台-續購與加購方案-續購方案與子機01.en.png){ .screenshot }
 
-### View Transaction Records
+### View Transaction Records { #operate-renewal-plans-transaction-history }
 
 1. Log in to the admin dashboard, go to **POS > Renewal Plans**, and click the **Transaction details** tab.
 2. View all transaction records in real time, including **Buyer**, **Transaction Time**, and **Fee**.
@@ -106,7 +106,7 @@ Renew your POS system or add sub-terminals directly in the admin dashboard, with
 ![](../../assets/images/POS-後台-續購與加購方案-交易明細01.en.png){ .screenshot }
 
 
-## Sub-Terminal Features and Limits
+## Sub-Terminal Features and Limits { #overview-renewal-plans }
 
 - **Term alignment**: The term of added sub-terminals aligns with the first sub-terminal. The first-year fee for added sub-terminals is prorated based on the **remaining months** of the first sub-terminal.
 - **Data sync**: All sub-terminals use the same store's marketing campaigns, inventory data, and chart analytics.
@@ -114,7 +114,7 @@ Renew your POS system or add sub-terminals directly in the admin dashboard, with
 - **Report filtering**: After you export the daily cash-out report and order summary report to Excel, filter and reconcile them by **sub-terminal name**.
 
 
-## FAQ
+## FAQ { #faq-renewal-plans }
 
 ??? quote "Can sub-terminals be used across stores?"
     No. Sub-terminal licenses are tied to a specific store. If another store needs one, it must be added separately under that store.

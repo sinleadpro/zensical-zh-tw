@@ -94,7 +94,7 @@ After activation, the automated ads system provides three tabs:
 - [x] **Company Contact Information**: Before activation, complete your [company contact information](../../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="Set Up Basic Site Information" } in **General Settings**; otherwise, you cannot complete the GMC integration.
 - [x] **GMC Account**: Select **CYBERBIZ Managed** or provide **Merchant-owned account**. Choose one of the two options to complete the integration.
 
-## Billing Rules { #pricing-automated-ads }
+## Billing Rules { #specs-automated-ads-pricing }
 
 | Item | Rule |
 | :-- | :-- |
@@ -156,7 +156,7 @@ After activation, go to the **Google Ads Settings** tab to set up your Shopping 
 1. **Enter the Campaign Name**: In the **Ad Campaign Name** field, enter the campaign name.
 2. **Set the Daily Budget**: In the **Set Budget** field, enter your average daily budget (we recommend at least NT$300[^budget]).
 3. **Confirm and Save**: Click **Confirm and Save**. The system automatically creates an ad account and connects GMC product data. Ad delivery starts after Google approves the campaign (about 2 to 3 days).
-4. **Adjust Delivery Status**: In the **Shopping Ad Status** section, you can click **Pause Ad** or **Resume Ad** at any time to control the [ad delivery status](../references/automated-ads-statuses.md#automated-ads-delivery-status){ data-preview }.
+4. **Adjust Delivery Status**: In the **Shopping Ad Status** section, you can click **Pause Ad** or **Resume Ad** at any time to control the [ad delivery status](../references/automated-ads-statuses.md#reference-automated-ads-delivery-status){ data-preview }.
 
 ![Google Ads settings](../../../assets/images/ec-第三方整合-自動化廣告-google廣告設定.en.png)
 
@@ -192,7 +192,7 @@ In the **Campaign Management** tab, monitor ad spend and budget:
 
 Product information is the ad content. Follow these guidelines to help pass Google review:
 
-- [x] **Product Images**: Do not include promotional text, slogans, or brand watermarks. Use [clean product images](../../products/create-and-manage/create-update-products.md#gmc-picture-specs). [Learn about GMC image requirements :lucide-external-link:](https://support.google.com/merchants/answer/6324350#Image_guidelines)
+- [x] **Product Images**: Do not include promotional text, slogans, or brand watermarks. Use [clean product images](../../products/create-and-manage/create-update-products.md#reference-gmc-picture-specs). [Learn about GMC image requirements :lucide-external-link:](https://support.google.com/merchants/answer/6324350#Image_guidelines)
 - [x] **Product Name**: Make it clear and include key information such as brand and specifications (size, color, model).
 - [x] **Prohibited Products**: Do not advertise adult content, alcoholic beverages, copyrighted content, gambling, or unapproved medicinal supplements. [Learn about prohibited content :lucide-external-link:](https://support.google.com/merchants/answer/6149970?hl=zh-Hant#con)
 
@@ -308,7 +308,7 @@ Product information is the ad content. Follow these guidelines to help pass Goog
 <!-- The automated ads system currently supports Google Shopping ad campaigns. [After activation](#申請開通步驟), configure the following settings from these paths: -->
 <!---->
 <!-- 1. Log in to the CYBERBIZ admin back office and go to **Third-Party Integration > Automated Ads System.** -->
-<!-- 2. Configure the related tabs in order: [Google Ads Settings](#google-廣告設定), [Campaign Management](#活動管理), and [Ad Top-Up](#廣告儲值). -->
+<!-- 2. Configure the related tabs in order: [Google Ads Settings](#google-廣告設定), [Campaign Management](#活動管理), and [Ad Top-Up](#operate-automated-ads-charge). -->
 <!---->
 <!-- ### Google Ads Settings   -->
 <!---->

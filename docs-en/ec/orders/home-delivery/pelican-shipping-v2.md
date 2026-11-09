@@ -96,8 +96,8 @@ This article focuses on **day-to-day shipping**, including downloading shipping 
 
 Before shipping with Pelican Express for the first time, complete the following:
 
-- [x] **Pelican Express sender address** (for batch shipping): Set the sender address in "Payment and Logistics" > "[Pelican Express Shipping Labels](../../payments-and-logistics/setup-pelican-waybill-v2.md#configure-pelican-shipping-note-sender){ title="Set Up Sender Information" }." Without it, you'll see an "Incomplete sender information" message when shipping.
-- [x] **Pelican Express sender information** (for extra shipping labels and reverse logistics): Fill it in under "Pelican Express Settings" on the "Payment and Logistics" > "Pelican Express Shipping Labels" page. For details, see the [Pelican Express shipping label management page](../../payments-and-logistics/setup-pelican-waybill-v2.md#configure-pelican-shipping-note-sender){ title="Set Up Sender Information" }.
+- [x] **Pelican Express sender address** (for batch shipping): Set the sender address in "Payment and Logistics" > "[Pelican Express Shipping Labels](../../payments-and-logistics/setup-pelican-waybill-v2.md#operate-pelican-sender-settings){ title="Set Up Sender Information" }." Without it, you'll see an "Incomplete sender information" message when shipping.
+- [x] **Pelican Express sender information** (for extra shipping labels and reverse logistics): Fill it in under "Pelican Express Settings" on the "Payment and Logistics" > "Pelican Express Shipping Labels" page. For details, see the [Pelican Express shipping label management page](../../payments-and-logistics/setup-pelican-waybill-v2.md#operate-pelican-sender-settings){ title="Set Up Sender Information" }.
 
 ---
 
@@ -132,18 +132,18 @@ When you have many Pelican Express orders to ship at once, batch processing from
     ![Download Pelican Express shipping labels](../../../assets/images/EC-訂單-所有訂單-下載宅配通託運單.en.png){ title="Download Pelican Express Shipping Labels" }
 
 5. **Review the shipping fees**: The middle of the pop-up lists the CYBER Coins or statement amount for this batch. Make sure it's what you expect.
-6. **Confirm the sender address**: Defaults to the sender address last used for this logistics service (the first time, it uses the address in [Pelican Express settings](../../payments-and-logistics/setup-pelican-waybill-v2.md#configure-pelican-shipping-note-sender){ title="Set Up Sender Information" }). To change it, click **Change**[^4].
+6. **Confirm the sender address**: Defaults to the sender address last used for this logistics service (the first time, it uses the address in [Pelican Express settings](../../payments-and-logistics/setup-pelican-waybill-v2.md#operate-pelican-sender-settings){ title="Set Up Sender Information" }). To change it, click **Change**[^4].
 
     ![Confirm the sender address](../../../assets/images/ec-orders-pelican-waybill-popup-address.en.png){ title="Confirm the Pelican Express Shipping Label Address" }
 
 7. **Agree to the terms**: Select **"I have read and agree to the CYBERBIZ Logistics Integration Terms of Service and Pelican Express contract terms"** at the bottom.
-8. **Confirm the download**: Click **"Confirm."** The system creates shipping labels, deducts shipping fees, and updates the order delivery status to "[Shipped (Awaiting Carrier Pickup)](shipping-status-tooltip.md#shipping-status-text-type){ title="Shipment Status Tooltip Text" data-preview }."
+8. **Confirm the download**: Click **"Confirm."** The system creates shipping labels, deducts shipping fees, and updates the order delivery status to "[Shipped (Awaiting Carrier Pickup)](shipping-status-tooltip.md#reference-shipping-status){ title="Shipment Status Tooltip Text" data-preview }."
 
     !!! warning "Recipient Information Can't Be Changed After Printing"
         Once you download a shipping label, the recipient information is tied to it and can't be changed in the admin. To change it, the shipping label must be canceled (contact CYBERBIZ customer service) and created again.
 
 9. **Get the shipping label files**: The system automatically downloads an [archive](../references/order-filter-status-reference.md#reference-logistics-zip-contents){ title="Shipping Label Download Contents" data-preview } with shipping label PDFs and related shipping documents. Print the labels on "Pelican Express three-part blank shipping label stickers" and stick them on the boxes.
-10. **Schedule pickup**: After printing, contact Pelican Express customer service to schedule pickup, or prepare for your regular pickup time agreed with Pelican Express. After pickup, the status on the order details page shows "[Shipped (In Transit)](shipping-status-tooltip.md#shipping-status-text-type){ title="Shipment Status Tooltip Text" data-preview }."
+10. **Schedule pickup**: After printing, contact Pelican Express customer service to schedule pickup, or prepare for your regular pickup time agreed with Pelican Express. After pickup, the status on the order details page shows "[Shipped (In Transit)](shipping-status-tooltip.md#reference-shipping-status){ title="Shipment Status Tooltip Text" data-preview }."
 
 [^1]: If the selected orders include non-Pelican Express orders (such as EZCAT or convenience store pickup), the pop-up won't open or shows an error on submit. Use the "Delivery Method" filter first to keep the logistics type consistent in the batch.
 [^4]: Changes also update the address on that logistics page. Addresses for different logistics services and the company logistics address don't affect each other.
@@ -177,12 +177,12 @@ If a shipping label was already downloaded but the sticker was misprinted or los
 !!! info "Tip"
      Reprinting only prints the PDF again for **existing tracking numbers**. To generate **new tracking numbers** for the same order (for example, to ship in multiple boxes), use [Print Extra Shipping Labels](../../payments-and-logistics/setup-pelican-waybill-v2.md#operate-pelican-shipping-note-add-print){ title="Print Extra Shipping Labels" } instead.
 
-## Next Steps { #followup-pelican }
+## Next Steps { #next-steps-pelican }
 
 <div class="grid cards" markdown>
 
 - :lucide-truck:{ .lg }  
-  [__Track Delivery Status__](shipping-status-tooltip.md#shipping-status-text-type){ title="Shipment Status Tooltip Text" }  
+  [__Track Delivery Status__](shipping-status-tooltip.md#reference-shipping-status){ title="Shipment Status Tooltip Text" }
   After shipping, the delivery status changes to "Shipped (Awaiting Carrier Pickup)." After Pelican Express picks up and scans the package, the status updates step by step, such as In Transit and Delivered, based on carrier updates.
 
 - :lucide-receipt:{ .lg }  

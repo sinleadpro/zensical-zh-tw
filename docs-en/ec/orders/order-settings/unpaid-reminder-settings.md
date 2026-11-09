@@ -80,11 +80,11 @@ hide:
 ![Unpaid reminder settings](../../../assets/images/ec-訂單-未付款提醒.en.png){ title="Unpaid Reminder Settings" .hero-page }
 
 
-## About Unpaid Reminders
+## About Unpaid Reminders { #intro-unpaid-reminder }
 
 In CYBERBIZ, **unpaid reminders** automatically notify customers whose orders haven't been paid yet (excluding Cash on Delivery) and guide them to complete payment, improving conversion.
 
-## Turn the Feature On or Off and Set the Interval
+## Turn the Feature On or Off and Set the Interval { #operate-unpaid-reminder-toggle }
 
 You can set how often reminders are sent. The system sends up to **3** reminders.
 
@@ -98,7 +98,7 @@ You can set how often reminders are sent. The system sends up to **3** reminders
 
 ---
 
-## Set Up the Three Notification Channels
+## Set Up the Three Notification Channels { #operate-unpaid-reminder-channels }
 
 Unpaid reminders support email, SMS, and LINE OA. You can set up and edit the template for each channel as needed.
 
@@ -108,7 +108,7 @@ Unpaid reminders support email, SMS, and LINE OA. You can set up and edit the te
     - **Avoid blocked words**: In SMS, avoid words carriers tend to block (such as "claim," "link," and "LINE"), or the message may fail but still be charged.
     - **Short URLs**: We recommend turning on short URLs to automatically shorten links in reminders, saving SMS characters (up to 70 characters per message) and keeping emails concise.
 
-### Email Reminders <small>On by Default</small>
+### Email Reminders <small>On by Default</small> { #operate-unpaid-reminder-email }
 
 !!! path "**Path:** Push Notifications > Email Notification Template > Customer > **Unpaid Order Reminder Email**."
 
@@ -119,7 +119,7 @@ Unpaid reminders support email, SMS, and LINE OA. You can set up and edit the te
 
 ---
 
-### SMS Reminders <small>Turn On Manually</small>
+### SMS Reminders <small>Turn On Manually</small> { #operate-unpaid-reminder-sms }
 
 !!! path "**Path:** Push Notifications > SMS Templates > Customer > **Unpaid Order Notification**."
 
@@ -130,7 +130,7 @@ Unpaid reminders support email, SMS, and LINE OA. You can set up and edit the te
 
 ---
 
-### LINE OA Reminders <small>Turn On Manually</small>
+### LINE OA Reminders <small>Turn On Manually</small> { #operate-unpaid-reminder-line-oa }
 
 !!! plan "This feature is available only on PLUS / Enterprise plans."
 
@@ -152,7 +152,7 @@ Unpaid reminders support email, SMS, and LINE OA. You can set up and edit the te
 
 ![Unpaid reminder LINE OA template](../../../assets/images/ec-訊息推播-LINE OA 樣板-顧客訂單未付款提醒信.en.gif){ title="Unpaid Reminder LINE OA Template" }
 
-## Related Tasks
+## Related Tasks { #next-steps-unpaid-reminder }
 
 <div class="grid cards" markdown>
 
@@ -166,7 +166,7 @@ Unpaid reminders support email, SMS, and LINE OA. You can set up and edit the te
 
 </div>
 
-## FAQ
+## FAQ { #faq-unpaid-reminder }
 
 ??? quote "The customer paid but still received a reminder"
 

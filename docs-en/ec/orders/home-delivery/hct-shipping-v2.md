@@ -104,7 +104,7 @@ For batch downloads, the system checks whether the selected orders meet the foll
 
 ---
 
-### Billing Rules { #pricing-hct-shipping }
+### Billing Rules { #specs-hct-shipping-pricing }
 
 Charges depend on your plan:
 
@@ -120,7 +120,7 @@ Charges depend on your plan:
 Go to "Orders" > "All Orders" in the admin and select the [orders to ship together](#specs-hct-shipping-uniform) in the list.
 
 !!! tip "Filter Before Selecting"
-    In the new order list, filter by "Delivery Method = HCT Logistics" first, then select the whole page to speed up batch shipping. Learn [how to filter orders](../basics/search-filter-orders.md#orders-filter){ title="How to Search and Filter Orders" }
+    In the new order list, filter by "Delivery Method = HCT Logistics" first, then select the whole page to speed up batch shipping. Learn [how to filter orders](../basics/search-filter-orders.md#operate-order-filter){ title="How to Search and Filter Orders" }
 
 ---
 

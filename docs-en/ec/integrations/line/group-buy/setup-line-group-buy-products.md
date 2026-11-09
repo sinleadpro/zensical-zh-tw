@@ -65,11 +65,11 @@ hide: []
 
 ![LINE group-buy products](../../../../assets/images/ec-第三方整合-line團購商品.en.png){ title="LINE Group-Buy Product Setup" .hero-page }
 
-## LINE Group-Buy Product Overview
+## LINE Group-Buy Product Overview { #overview-line-products }
 
 **LINE Group-Buy Product Setup** lets merchants select products from the storefront's public products, build a dedicated group-buy product list, and set a separate **group-buy price**.
 
-## Create Group-Buy Product Categories and Set Group-Buy Prices
+## Create Group-Buy Product Categories and Set Group-Buy Prices { #operate-line-products }
 
 
 1.  **Path:** Log in to the CYBERBIZ admin dashboard and go to **Third-Party Integration > Line Group Buy Settings**.
@@ -88,7 +88,7 @@ hide: []
 
 ---
 
-## Copy Group-Buy Product Category <small>Advanced Use</small>
+## Copy Group-Buy Product Category <small>Advanced Use</small> { #intro-line-products }
 
 If you want to offer the same product combination to different group organizers at different prices, you can use the copy feature to save setup time:
 
@@ -100,7 +100,7 @@ If you want to offer the same product combination to different group organizers 
 
 ---
 
-## Important Notes
+## Important Notes { #intro-line-products-overview-line-products }
 
 *   **Product source:** Only products with a status of "Public" in the storefront can be selected.
 *   **Name restriction:** After a group-buy product category is saved, its name is locked. To change it, you must add a new category or use the copy feature.
@@ -108,7 +108,7 @@ If you want to offer the same product combination to different group organizers 
 *   **Marketing campaign restriction:** The group-buy cart does **not** support general storefront marketing campaigns (such as store-wide discount or spend-threshold gifts).
 
 
-## Next Steps
+## Next Steps { #next-steps-line-products }
 
 <div class="grid cards" markdown>
 
@@ -118,7 +118,7 @@ If you want to offer the same product combination to different group organizers 
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-line-products }
 
 ??? quote "Why can't I find a product in the "Select Products" list?"
     Check whether the product's status in the storefront admin is "Public." The system only pulls products that are listed and public, so consumers can place orders normally.

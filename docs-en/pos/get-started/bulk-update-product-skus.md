@@ -70,7 +70,7 @@ Learn how to quickly fill in missing SKU codes for existing products using Excel
 [:lucide-layers:{ title="Applicable Products" }](../../resources/conventions#適用產品) | Smart POS
 { .doc-badge }
 
-## Usage Notes
+## Usage Notes { #prerequisites-sku-bulk }
 
 - **POS Activation Requirement**: Products must have a SKU code before they can be activated and use POS system features.
 - **SKU Uniqueness**: Each product variant must have a unique SKU code to avoid inventory calculation errors.
@@ -79,9 +79,9 @@ Learn how to quickly fill in missing SKU codes for existing products using Excel
 
 
 
-## Workflow
+## Workflow { #operate-sku-bulk }
 
-### Step 1: Export Existing Product Data
+### Step 1: Export Existing Product Data { #operate-sku-bulk-step-a-export }
 
 Get the complete list including product IDs.
 
@@ -92,7 +92,7 @@ Get the complete list including product IDs.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學1.png){ .screenshot }
 
-### Step 2: Fill in SKUs in Excel
+### Step 2: Fill in SKUs in Excel { #operate-sku-bulk-step-b-excel }
 
 Use Excel's filter feature to quickly locate missing data.
 
@@ -103,7 +103,7 @@ Use Excel's filter feature to quickly locate missing data.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學4.png){ .screenshot }
 
-### Step 3: Import the Updated File
+### Step 3: Import the Updated File { #operate-sku-bulk-step-c-import }
 
 Upload the revised data back to the system.
 
@@ -113,7 +113,7 @@ Upload the revised data back to the system.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學5.png){ .screenshot }
 
-### Step 4: Verify the Update Results
+### Step 4: Verify the Update Results { #operate-sku-bulk-step-d-confirm }
 
 The system notifies you of processing progress by email.
 
@@ -125,12 +125,12 @@ After the SKUs are filled in, **contact online customer service or your LINE@ sp
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/商品大量補填SKU教學6.png){ .screenshot }
 
-## More Actions
+## More Actions { #next-steps-sku-bulk }
 
 <div class="grid cards" markdown>
 
 - :lucide-arrow-right:{ .lg }   
-  [__Check Whether an Excel Upload Adds or Updates Products__](../../ec/products/bulk-operations/excel-import-products/#determine-add-or-update)       
+  [__Check Whether an Excel Upload Adds or Updates Products__](../../ec/products/bulk-operations/excel-import-products/#operate-excel-import-add-update)
   Learn the difference between "Add New Product" and "Overwrite Existing Product."
 
 </div>

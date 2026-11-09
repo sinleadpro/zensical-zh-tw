@@ -69,7 +69,7 @@ hide:
 
 ![SMS template settings page](../../assets/images/ec-訊息推播-簡訊樣板設定.en.png){ .hero-page }
 
-## About SMS Notification Templates
+## About SMS Notification Templates { #intro-sms-templates }
 
 **SMS notification templates** automatically send preset SMS notifications to customers in specific situations (such as when an order is placed, a package arrives at a store, or a member registers), making your service faster and improving the customer experience.
 
@@ -79,7 +79,7 @@ hide:
 
 	- Words such as "LINE", "加賴" (add on LINE), "連結" (link), "點擊連結" (click the link), "股票" (stocks), "領取" (claim), and "點擊領取" (click to claim).
 
-## Path And Page Overview
+## Path And Page Overview { #overview-sms-templates }
 
 !!! path "Admin path: In the CYBERBIZ admin, click **Push Notifications > SMS Notification Template**."
 
@@ -95,7 +95,7 @@ hide:
 
 ![](../../assets/images/ec-訊息推播-簡訊樣板-介面.en.png)
 
-## Edit An SMS
+## Edit An SMS { #operate-sms-templates }
 
 1. In the list, click the **SMS title** you want to edit to open the editor.
 2. **Editing notes**:
@@ -106,7 +106,7 @@ hide:
 
 ![](../../assets/images/ec-訊息推播-簡訊樣板編輯.en.gif)
 
-## Key Scenarios
+## Key Scenarios { #specs-sms-templates }
 
 - **Arrival-at-store notification**: When a convenience store pickup order changes to "Arrived at store", an SMS is automatically sent.
 
@@ -126,7 +126,7 @@ hide:
 - **Unpaid reminder**: Send an SMS reminder a set number of days after the customer orders. Reminders stop automatically once the customer pays.
 - **Account activation notification**: If you turn on mobile verification, members get an SMS with a verification link when they register.
 
-## FAQ
+## FAQ { #faq-sms-templates }
 
 ??? quote "Why was my SMS split into several messages?"
 	If the content exceeds the character limit, it's automatically split into several messages. Note that variables (such as `{{order_number}}`) are replaced with real values when sent, which can push the total over the limit and cause a split.

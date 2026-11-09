@@ -63,7 +63,7 @@ hide: []
 
 ![Apple Pay Settings](../../assets/images/ec-payments-apple-pay.zh-tw.en.png){ title="Apple Pay Settings" .hero-page }
 
-## Why Use Apple Pay
+## Why Use Apple Pay { #intro-apple-pay }
 
 - **Faster checkout**: Customers do not need to enter credit card details manually and can pay directly with their phone.
 - **Better experience**: Reduces checkout friction and improves conversion rates.
@@ -72,13 +72,13 @@ hide: []
 - **Transparent fees**: Rates are the same as for one-time credit card payments, with no additional fees.
 
 
-## Prerequisites
+## Prerequisites { #prerequisites-apple-pay-req }
 
 - [x] Already [activated **CYBERBIZ PAYMENTS**](apply-cyberbiz-payments.md){ title="Apply for CYBERBIZ PAYMENTS" }
 
-## Usage Notes
+## Usage Notes { #prerequisites-apple-pay }
 
-### Device and Browser Restrictions
+### Device and Browser Restrictions { #prerequisites-apple-pay-devices }
 
 - **Requirements**: Apple device + Safari browser
 
@@ -87,25 +87,25 @@ hide: []
 
 ---
 
-### Payment Restrictions
+### Payment Restrictions { #prerequisites-apple-pay-limits }
 
 - **Supported**: One-time payment
 - **Not supported**: Installment payments (use credit card installments instead)
 
 ---
 
-### Fees
+### Fees { #specs-apple-pay-fees }
 
 - Same as one-time credit card payments
 - No additional transaction fees or annual fees
 
 ---
 
-### Refunds
+### Refunds { #specs-apple-pay-refund }
 
 - The process is the same as for credit cards
 
-## Steps
+## Steps { #operate-apple-pay }
 
 Apple Pay is usually enabled automatically with CYBERBIZ PAYMENTS. You can adjust its availability and transaction thresholds in the back office.
 
@@ -120,7 +120,7 @@ Apple Pay is usually enabled automatically with CYBERBIZ PAYMENTS. You can adjus
 
 ![Apple Pay settings screen](../../assets/images/ec-金物流-設定 Apple Pay.en.gif){ title="Apple Pay settings screen" }
 
-## Next Steps
+## Next Steps { #next-steps-apple-pay }
 
 <div class="grid cards" markdown>
 
@@ -135,7 +135,7 @@ Apple Pay is usually enabled automatically with CYBERBIZ PAYMENTS. You can adjus
 </div>
 
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-apple-pay }
 
 ??? quote "Does Apple Pay support installment payments?"
 	No. Apple Pay supports only one-time payments. For installments, customers must select the "Credit Card Installments" payment method.

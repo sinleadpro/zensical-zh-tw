@@ -13,7 +13,7 @@ hide:
   - feedback
 ---
 
-## Accounts and Login
+## Accounts and Login { #intro-facebook }
 
 <div class="grid cards" markdown>
 
@@ -29,7 +29,7 @@ hide:
 
 ---
 
-## Ads and Store Integration
+## Ads and Store Integration { #operate-facebook }
 
 <div class="grid cards" markdown>
 

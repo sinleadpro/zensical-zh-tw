@@ -197,7 +197,7 @@ The system automatically excludes these three product types from Google Merchant
 | Products past unpublish time | Unpublish time is set; product is excluded automatically            | :material-close: |
 | Tag-excluded products    | Product tags set to `贈品` or `排除product feed`:lucide-asterisk:<br> :lucide-triangle-alert: Do not add a space between *exclude* and *product* | :material-close: |
 
-!!! info "Products tagged `贈品` or `排除product feed` also do not appear in Google Search results. Learn more about [exclusion tag settings](../../../ec/products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤)。"
+!!! info "Products tagged `贈品` or `排除product feed` also do not appear in Google Search results. Learn more about [exclusion tag settings](../../../ec/products/categories-and-tags/manage-product-tags.md#operate-product-tags-exclude)。"
 
 ## Link GMC to a Google Ads Account
 
@@ -222,4 +222,4 @@ The system automatically excludes these three product types from Google Merchant
 
 ## Further Reading
 
-- [Exclusion tag settings](../../../ec/products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤)
+- [Exclusion tag settings](../../../ec/products/categories-and-tags/manage-product-tags.md#operate-product-tags-exclude)

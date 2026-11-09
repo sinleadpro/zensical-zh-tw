@@ -73,7 +73,7 @@ hide: []
 
 ![Packing slip settings](../../../assets/images/EC-金物流-結帳頁物流設定-列印出貨明細-hero.en.png){ title="Packing Slip Settings" .hero-page }
 
-## About Packing Slips
+## About Packing Slips { #intro-shipping-print }
 
 A "packing slip" is a printed document for internal warehouse, picking, and shipping staff during fulfillment. It's usually kept with the package during shipping to help check shipments and hand off work internally.
 
@@ -91,11 +91,11 @@ To set up the "order details" sent to customers with the package, see [Set Up an
     *   **Order details (customer)**: Usually include full item details, unit prices, amounts, and delivery method.
     *   **Packing slip (staff)**: Mainly for warehouse or shipping staff. Usually includes only item quantities and the delivery address, **without the order amount**, to keep it simple and save costs.
 
-## Steps
+## Steps { #operate-shipping-print }
 
-### Set Up Packing Slip Content { #fulfillment-print }
+### Set Up Packing Slip Content { #operate-shipping-detail-settings }
 
-#### 1. Open Packing Slip Print Settings { #fulfillment-print-activate }
+#### 1. Open Packing Slip Print Settings { #operate-shipping-detail-enter }
 
 In the admin sidebar, find the following path (it varies slightly by admin menu version):
 
@@ -104,9 +104,9 @@ In the admin sidebar, find the following path (it varies slightly by admin menu 
 
 ---
 
-#### 2. Select Items to Show { #fulfillment-print-configure }
+#### 2. Select Items to Show { #operate-shipping-detail-configure }
 
-The panel has 9 checkboxes you can combine to fit your internal fulfillment process (all are cleared by default). [Full field reference](#fulfillment-print-fields){ title="Packing Slip Field Reference" data-preview }
+The panel has 9 checkboxes you can combine to fit your internal fulfillment process (all are cleared by default). [Full field reference](#reference-shipping-detail-fields){ title="Packing Slip Field Reference" data-preview }
 
 ![Packing slip content settings](../../../assets/images/EC-金物流-結帳頁物流設定-列印出貨明細-設定.en.png){ title="Packing Slip Content Settings" }
 
@@ -122,7 +122,7 @@ The panel has 9 checkboxes you can combine to fit your internal fulfillment proc
 
 ---
 
-#### 3. Save Settings
+#### 3. Save Settings { #operate-shipping-print-save }
 
 Click **Save** at the bottom of the settings section to finish basic setup.
 
@@ -130,17 +130,17 @@ Click **Save** at the bottom of the settings section to finish basic setup.
 
 ---
 
-#### 4. Advanced Settings { #fulfillment-print-advanced-settings }
+#### 4. Advanced Settings { #operate-shipping-detail-advanced }
 
 Click **Advanced Setup** at the bottom of the settings section to open the **"Edit Packing Slip Print Template"** page.
 
 ![Packing slip settings - advanced settings](../../../assets/images/EC-金物流-結帳頁物流設定-列印出貨明細-進階設定.en.png){ title="Packing Slip Settings - Advanced Settings" }
 
-On this page, you can [customize the template](#fulfillment-print-template){ title="Customize the Template" }, [preview the printout](#fulfillment-print-preview){ title="Preview the Printout" }, and [restore the default template](#fulfillment-print-revert){ title="Restore the Default Template" }.
+On this page, you can [customize the template](#operate-shipping-detail-template){ title="Customize the Template" }, [preview the printout](#operate-shipping-detail-preview){ title="Preview the Printout" }, and [restore the default template](#operate-shipping-detail-revert){ title="Restore the Default Template" }.
 
 ---
 
-##### Customize the Template { #fulfillment-print-template }
+##### Customize the Template { #operate-shipping-detail-template }
 
 The "Template" section is Liquid code. You can adjust layout, font size, margins, and more. In most cases, the default template is fine.
 
@@ -153,7 +153,7 @@ The "Template" section is Liquid code. You can adjust layout, font size, margins
 
 ---
 
-##### Preview the Printout { #fulfillment-print-preview }
+##### Preview the Printout { #operate-shipping-detail-preview }
 
 Click **"Packing Slip Preview."** The system applies your current template to the most recent shipped order and opens the browser print dialog right away.
 
@@ -161,7 +161,7 @@ Click **"Packing Slip Preview."** The system applies your current template to th
 
 ---
 
-##### Restore the Default Template { #fulfillment-print-revert }
+##### Restore the Default Template { #operate-shipping-detail-revert }
 
 To undo your changes, click **"Restore Default Template"** to reset to the system default version (saved checkbox selections aren't affected).
 
@@ -171,9 +171,9 @@ To undo your changes, click **"Restore Default Template"** to reset to the syste
 
     Unlike order details, the packing slip's advanced settings page has no "Header Reminder Text Title / Content" fields. That's because the packing slip is an internal document and doesn't need customer-facing copy.
 
-### Print Packing Slips { #fulfillment-print-operate }
+### Print Packing Slips { #operate-shipping-detail-print }
 
-After you finish [setting up the content](#fulfillment-print), packing slips can't be printed on their own like order details. Instead, they're generated with other shipping documents during **bulk shipping and packing**:
+After you finish [setting up the content](#operate-shipping-detail-settings), packing slips can't be printed on their own like order details. Instead, they're generated with other shipping documents during **bulk shipping and packing**:
 
 1. In the admin menu, go to **Orders** > **All Orders**.
 2. Select one or more orders to ship in the order list.
@@ -196,7 +196,7 @@ After you finish [setting up the content](#fulfillment-print), packing slips can
 
     Packing slips are designed to be generated together with "shipping labels." Merchants usually need the shipping label, packing slip, and pick list at the same step when preparing shipments, so the system generates them together in one ZIP instead of printing each one separately. If you only need the customer-facing document, see the [Print Order Details](order-detail-print.md){ title="Set Up and Print Order Details" } process.
 
-## Next Steps
+## Next Steps { #next-steps-shipping-print }
 
 <div class="grid cards" markdown>
 
@@ -211,7 +211,7 @@ After you finish [setting up the content](#fulfillment-print), packing slips can
 </div>
 
 
-## FAQ
+## FAQ { #faq-shipping-print }
 
 ??? quote "The packing slip looks a lot like the order details. How should I use each one?"
 
@@ -246,9 +246,9 @@ After you finish [setting up the content](#fulfillment-print), packing slips can
 
 
 
-## References  
+## References { #reference-shipping-print }
 
-### Packing Slip Field Reference { #fulfillment-print-fields }
+### Packing Slip Field Reference { #reference-shipping-detail-fields }
 
 
 | Option | Printed Result | Use Case |

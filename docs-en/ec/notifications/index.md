@@ -13,7 +13,7 @@ hide:
   - feedback
 ---
 
-## Email Notifications
+## Email Notifications { #overview-message-push-email }
 
 <div class="grid cards" markdown>
 
@@ -37,7 +37,7 @@ hide:
 
 ---
 
-## SMS Notifications
+## SMS Notifications { #overview-message-push-sms }
 
 <div class="grid cards" markdown>
 
@@ -69,7 +69,7 @@ hide:
 
 ---
 
-## LINE Notifications
+## LINE Notifications { #overview-message-push-line }
 
 <div class="grid cards" markdown>
 

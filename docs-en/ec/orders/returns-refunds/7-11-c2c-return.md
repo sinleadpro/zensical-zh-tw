@@ -65,7 +65,7 @@ hide: []
 
 ![7-Eleven C2C send return service code](../../../assets/images/EC-訂單-所有訂單-發送7-11-c2c退貨便代碼-hero.en.png){ .hero-page }
 
-## About 7-Eleven C2C Return Service
+## About 7-Eleven C2C Return Service { #intro-seven-c2c-return }
 
 This feature lets customers send returned items back through 7-ELEVEN stores. The original order doesn't need to use convenience store pickup; you can receive return packages through this service for orders with any delivery method.
 
@@ -78,7 +78,7 @@ An order must meet all of the following conditions before you can send a return 
 - [x] **Order amount**: The order total must be less than **NT$20,000** (the system blocks orders over the limit)
 - [x] **Delivery method**: Orders with a single delivery method (split orders with multiple delivery methods aren't supported)
 - [x] **Return status**: The order must be "No Return Needed," "Return Requested," or "Returning"
-- [x] **Delivery status**: CYBERBIZ logistics orders must be "Shipped / Arrived / Received"; other logistics orders must be "Shipped"
+- [x] **Delivery status**: CYBERBIZ logistics orders must be "Shipped / Arrived / Received"; other logistics orders must be "Received"
 - [x] **Recipient information**: Merchant recipient information is set up in "Payment and Logistics > Convenience Store Logistics > 7-ELEVEN C2C Return Service"
 
 For the full "delivery method × delivery progress × return status" matrix and details on each field, see [Conditions for Sending](../references/c2c-return-conditions.md){ title="7-Eleven C2C Return Service: Conditions for Sending" }.

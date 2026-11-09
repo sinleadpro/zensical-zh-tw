@@ -153,7 +153,7 @@ With **EZCAT home delivery**, the system doesn't support fuzzy address matching.
 
 ### Expired Shipping Labels { #operate-shipping-issue-label-expired }
 
-If a package isn't dropped off within the validity period after the shipping label is generated, the tracking number expires and the delivery status can no longer be tracked. The status may change to [Shipping Exception](../references/fulfillment-statuses.md#fulfillment-statuses-table){ title="Delivery Status Reference" data-preview } or "Shipment Canceled."
+If a package isn't dropped off within the validity period after the shipping label is generated, the tracking number expires and the delivery status can no longer be tracked. The status may change to [Shipping Exception](../references/fulfillment-statuses.md#reference-fulfillment-statuses){ title="Delivery Status Reference" data-preview } or "Shipment Canceled."
 
 * **Home delivery:** CYBER Coins are deducted when you download the shipping label. If the package isn't actually shipped within **14 days**, the tracking number expires, and the deducted CYBER Coins are refunded to your account after it expires.
 * **Convenience store B2C bulk shipping:** Deliver the goods to the convenience store logistics center within the deadline after the shipping label is generated. If overdue, the status changes to "Shipping Exception," the tracking number expires, and you need to get a new one.

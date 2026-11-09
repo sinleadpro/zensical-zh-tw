@@ -66,17 +66,17 @@ Explains when reward coupons and bonus points are credited to accounts (import m
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | All plans
 { .doc-badge }
 
-## Before You Start
+## Before You Start { #prerequisites-coupon-bonus }
 - **Applies to**: bonus points and coupons rewarded to the Customer account for an Order.
 - **Doesn't apply to**:
     - registration gifts, birthday gifts, and bonus points or coupons sent store-wide or manually right away
     - [store-wide discount: Send coupon](../discounts/storewide-discounts.md) (the coupon is sent when the Order is placed and activates after the Order is completed)
     - Bonus points or coupons that customers redeem at checkout
 
-        > To see whether redeemed bonus points are returned after a return, see [Set Up bonus points: Return Handling](../bonus-and-gifts/setup-bonus-points.md#退貨處理).
+        > To see whether redeemed bonus points are returned after a return, see [Set Up bonus points: Return Handling](../bonus-and-gifts/setup-bonus-points.md#specs-bonus-details).
 
 
-## Crediting Conditions
+## Crediting Conditions { #specs-coupon-bonus-conditions }
 
 Purchase rewards aren't credited when payment succeeds. The system adds bonus points or coupons to the Customer account only after you Confirm the Order as complete and the Order has no return.
 
@@ -86,7 +86,7 @@ To credit a purchase reward, the Order must meet **both** conditions:
 - Return Status: **No Return Needed**
 
 
-## Common Scenarios
+## Common Scenarios { #intro-coupon-bonus }
 
 | Scenario | Return Status at Completion | Result | Next Step |
 | --- | --- | --- | --- |
@@ -99,17 +99,17 @@ To credit a purchase reward, the Order must meet **both** conditions:
 !!! tip "Recommended Timing"
     Wait until the Order's return period ends and you're sure no return is needed before you click **Complete Order**. This keeps bonus point rewards accurate and reduces manual fixes later.
 
-## More Actions
+## More Actions { #operate-coupon-bonus }
 
 
 <div class="grid cards" markdown>
 
 - :lucide-coins:{ .lg }
-  [__Manually Add or Remove Bonus Points__](../../members/manage-member-profiles.md#1-紅利點數派發與管理)
+  [__Manually Add or Remove Bonus Points__](../../members/manage-member-profiles.md#operate-member-profiles-bonus)
   Add or remove purchase reward bonus points.
 
 - :lucide-ticket-percent:{ .lg }
-  [__Manually Add or Remove coupons__](../../members/manage-member-profiles.md#2-優惠券派發與管理)
+  [__Manually Add or Remove coupons__](../../members/manage-member-profiles.md#operate-member-profiles-coupons)
   Add or remove a Customer's personal coupons.
 
 </div>

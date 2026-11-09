@@ -81,7 +81,7 @@ Give out coupons, bonus points, or gifts through fun games like spin wheels, red
     - On PLUS plans, Interactive Games is part of the Marketing B add-on module (choose 2 of 11). Make sure you have selected this module before using it. Enterprise includes it by default.
 
 
-## About Interactive Games
+## About Interactive Games { #overview-interactive-games }
 
 Interactive Games is a powerful marketing tool that gives out rewards through games such as spin wheels and red envelopes. It brings members back more often and raises order conversion.
 
@@ -91,7 +91,7 @@ Interactive Games is a powerful marketing tool that gives out rewards through ga
     - **Daily check-in**: Allow 1 play per day so members visit daily to claim small bonus points or coupons.
     - **Holiday events**: Run a Lunar New Year red envelope rain to set a festive mood and give out high-value coupons.
 
-## Before You Start
+## Before You Start { #prerequisites-interactive-games }
 
 - **Editing limits**: Once a game's Status is "In Progress," you can't change the **pricing rules, play frequency, play count, or prizes**. You can still shorten or extend the end time.
 - **Ending a game**: Games can't be deleted after they're created. To end a game now, set its end time to a time before now.
@@ -100,9 +100,9 @@ Interactive Games is a powerful marketing tool that gives out rewards through ga
 - **Instant credit**: Prizes are credited to the member's account right away and can be used immediately.
 - **Prizes run out**: When a prize runs out, it still appears in the game, but landing on it counts as "No Prize."
 
-## Steps
+## Steps { #operate-interactive-games }
 
-### Step 1: Add Game Basic Information
+### Step 1: Add Game Basic Information { #operate-interactive-games-add }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Interactive Games**.
 2. Click **Add Game** and enter an **Name**.
@@ -119,7 +119,7 @@ Interactive Games is a powerful marketing tool that gives out rewards through ga
 ![](../../../assets/images/EC-後台-行銷活動-互動遊戲-基本設定01.en.png)
 
 
-### Step 2: Set The Game Style
+### Step 2: Set The Game Style { #operate-interactive-games-style }
 
 1. **Template**: Choose "Default Template" or "Custom Template."
 2. **Colors and images**:
@@ -136,7 +136,7 @@ Interactive Games is a powerful marketing tool that gives out rewards through ga
 
 ![](../../../assets/images/EC-後台-行銷活動-互動遊戲-設定樣式01.en.png)
 
-### Step 3: Manage Prizes
+### Step 3: Manage Prizes { #operate-interactive-games-prizes }
 
 Click **Add Prize** and set up each prize:
 
@@ -151,7 +151,7 @@ Click **Add Prize** and set up each prize:
 ![](../../../assets/images/EC-後台-行銷活動-互動遊戲-設定獎項01.en.png)
 
 
-### Step 4: Preview And Publish
+### Step 4: Preview And Publish { #operate-interactive-games-publish }
 
 1. **Preview**: Click **Preview** to check that the game and prizes display correctly.
 2. **Publish on the storefront**:
@@ -159,7 +159,7 @@ Click **Add Prize** and set up each prize:
     - **Option 2: Embed on a page**: Click **iframe Grammar** at the top of the game settings page, copy it, and paste it into the source editor of a custom page, blog post, or product description.
 3. **Save and publish**: Click **Save**. If the Status is "Public," the game goes live at the set time.
 
-## Multi-Language Settings
+## Multi-Language Settings { #operate-interactive-games-multilingual }
 
 Set multi-language names for Interactive Games so the storefront shows the right text for each language.
 
@@ -168,7 +168,7 @@ Set multi-language names for Interactive Games so the storefront shows the right
 	- Only fields with a **language tag** change text when the storefront language changes. For example: **Group Name** Interactive Games `繁體中文`.
 	- If a language field is empty, the storefront shows the **繁體中文** content by default.
 
-### Steps
+### Steps { #operate-interactive-games-language }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Interactive Games**
 2. In the language menu, switch to the language you want to edit (for example, Traditional Chinese or English).
@@ -177,7 +177,7 @@ Set multi-language names for Interactive Games so the storefront shows the right
 ![](../../../assets/images/EC-後台-行銷活動-互動遊戲-設定多國01.en.png)
 
 
-## FAQ
+## FAQ { #faq-interactive-games }
 
 ??? quote "Does the number of prizes affect how the wheel looks?"
     Yes. With an **odd** number of prizes, the system adds a "Start" slice as the starting point. With an **even** number, only your prizes appear. Keep prize names short so the text displays well.

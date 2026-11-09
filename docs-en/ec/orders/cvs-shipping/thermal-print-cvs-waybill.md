@@ -79,7 +79,7 @@ hide:
 
 ![Convenience store thermal printing](../../../assets/images/ec-訂單-下載超商 B2C托運單.en.png){ title="Convenience Store Thermal Printing" .hero-page }
 
-## About Thermal Printing Convenience Store Shipping Labels
+## About Thermal Printing Convenience Store Shipping Labels { #intro-cvs-thermal }
 
 Convenience store thermal printing outputs shipping labels in **A6 size (100 mm × 150 mm to 105 mm × 150 mm)** for **7-Eleven and FamilyMart** logistics, so you can print directly on thermal label paper and stick the labels on packages.
 
@@ -88,7 +88,7 @@ The system offers two formats:
 - **Standard Print (A4)**
 - **Thermal Print (A6)**
 
-## Prerequisites and Limitations
+## Prerequisites and Limitations { #prerequisites-cvs-thermal }
 
 **Supported logistics**
 
@@ -104,7 +104,7 @@ The system offers two formats:
 
 - **EZCAT Quick Store Delivery**: Supports thermal printing. We recommend waterproof labels or a clear pouch so moisture doesn't affect barcode scanning.
 
-## Shipping Label Formats
+## Shipping Label Formats { #specs-cvs-thermal-format }
 
 <div class="grid" markdown>
 
@@ -120,12 +120,12 @@ Thermal print - A6
 </div>
 
 
-## Steps
+## Steps { #operate-cvs-thermal }
 
 !!! warning "Important Notes"
 	- **Browser settings tip:** If the file doesn't download, make sure pop-up blocking isn't turned on.
 
-### Print One Label <small>Single Order</small>
+### Print One Label <small>Single Order</small> { #operate-cvs-thermal-print-single }
 
 1. Sign in to the CYBERBIZ admin and go to **Orders > All Orders**.
 2. Select the order to ship (the delivery type must be 7-Eleven or FamilyMart).
@@ -138,7 +138,7 @@ Thermal print - A6
 
 ---
 
-### Print Multiple Labels <small>Continuous Printing</small>
+### Print Multiple Labels <small>Continuous Printing</small> { #operate-cvs-thermal-print-batch }
 
 1. Sign in to the CYBERBIZ admin and go to **Orders > All Orders**.
 2. Select multiple orders. **The delivery type must be exactly the same**.
@@ -150,27 +150,27 @@ Thermal print - A6
 
 ---
 
-## Hardware and Supplies Recommendations
+## Hardware and Supplies Recommendations { #prerequisites-cvs-thermal-hardware }
 
-### Printer Requirements
+### Printer Requirements { #operate-cvs-thermal-print-device }
 
 - You need a thermal label printer that supports **standalone A6 size**.
 
 ---
 
-### Recommended Models <small>For Reference Only</small>
+### Recommended Models <small>For Reference Only</small> { #prerequisites-cvs-thermal-models }
 
 - TSC TTP-225
 - TSC TTP-323
 
 ---
 
-### Label Rules
+### Label Rules { #specs-cvs-thermal-label }
 
 - The barcode must be **flat on the wide side of the package**.
 - Don't fold, cut, or scale it, or the convenience store may not be able to scan it.
 
-## Reprint Shipping Labels
+## Reprint Shipping Labels { #operate-cvs-thermal-reprint }
 
 - You can reprint shipping labels from the order list. The steps are the same as the first print.
 
@@ -179,7 +179,7 @@ Thermal print - A6
     - Standard Print (A4)  
     - Thermal Print (A6)
 
-## More Tasks
+## More Tasks { #next-steps-cvs-thermal }
 
 <div class="grid cards" markdown>
 
@@ -194,7 +194,7 @@ Thermal print - A6
 </div>
 
 
-## FAQ
+## FAQ { #faq-cvs-thermal }
 
 ??? quote "Why can't I find the Thermal Print (A6) option?"  
 	Usually for one of the following reasons:

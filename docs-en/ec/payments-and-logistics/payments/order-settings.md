@@ -160,7 +160,7 @@ The system automatically closes orders after a specified number of days based on
 3. **Choose a closing condition:** Choose one: **“Automatically close the order ___ days after the customer picks up”** (for integrated logistics such as convenience stores and Black Cat) or **“Automatically close the order ___ days after the order ships”** (for custom logistics). Then enter the number of days.
 4. **(Ticket orders)** If the ticket feature is enabled, you can also turn on **“Turn On Ticket Order Auto-Closing”** and set automatic closing for “___ days after the customer pays.”
 
-For the trigger conditions and order status requirements for each closing type, see [Order Auto-Close Type Reference](../../orders/references/order-auto-close-types-reference.md#order-auto-close-types){ data-preview }.
+For the trigger conditions and order status requirements for each closing type, see [Order Auto-Close Type Reference](../../orders/references/order-auto-close-types-reference.md#reference-order-auto-close-types){ data-preview }.
 
 ![Set up order auto-closing](../../../assets/images/ec-order-settings-auto-close.en.png){ title="Set Up Order Auto-Closing" }
 
@@ -320,7 +320,7 @@ Customize the format shown when picking lists are printed.
 
 ??? quote "Should I choose “Received” or “Shipped” for automatic closing?"
     [](){ #faq-order-settings-close-type }
-    If you use integrated logistics such as convenience stores or Black Cat, we recommend “N days after the customer picks up” (closes based on the received status). If you use custom logistics, the system cannot tell whether the customer has received the order, so choose “N days after the order ships” (closes based on the shipped status). For details, see [Order Auto-Close Type Reference](../../orders/references/order-auto-close-types-reference.md#order-auto-close-types){ data-preview }.
+    If you use integrated logistics such as convenience stores or Black Cat, we recommend “N days after the customer picks up” (closes based on the received status). If you use custom logistics, the system cannot tell whether the customer has received the order, so choose “N days after the order ships” (closes based on the shipped status). For details, see [Order Auto-Close Type Reference](../../orders/references/order-auto-close-types-reference.md#reference-order-auto-close-types){ data-preview }.
 
 ---
 

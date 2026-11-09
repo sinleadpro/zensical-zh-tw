@@ -72,20 +72,20 @@ Guides merchants on enabling and managing Google Pay™ payment options on their
 [:lucide-toggle-right:{ title="Applicable Features" }](../../resources/conventions#適用功能) | CYBERBIZ PAYMENTS
 { .doc-badge }
 
-## Core Benefits of Google Pay™
+## Core Benefits of Google Pay™ { #intro-google-pay }
 
 - **No application or waiting required**: When CYBERBIZ PAYMENTS is activated, the system automatically enables the Google Pay option. No separate application to Google is needed.
 - **Fast checkout**: Customers use the card information in Google Wallet directly, completing payment in seconds.
 - **Enhanced security**: Supports Google's virtual account technology. Real card numbers are not transmitted during transactions, which reduces the risk of card fraud.
 
-### Fees and Policy Details
+### Fees and Policy Details { #specs-google-pay-fees }
 
 - **Processing fees**: Same as the **Credit Card One-Time Payment** rate in your merchant agreement with CYBERBIZ.
 - **Additional fees**: **No charge** for annual fees, developer account application fees, or additional system maintenance fees.
 - **Payment restriction**: Only one-time payment is supported. **Credit card installment payments are not available.**
 - **Refund process**: Returns and refunds follow the same process as standard credit card payments.
 
-## Activation Settings
+## Activation Settings { #operate-google-pay }
 
 1. Go to **Payment and Logistics > Payment Settings**.
 2. Find the **CYBERBIZ PAYMENTS** field, then click :lucide-square-pen: **Edit** on the right.
@@ -99,9 +99,9 @@ Guides merchants on enabling and managing Google Pay™ payment options on their
 
 
 
-## Payment Security and 3D Verification
+## Payment Security and 3D Verification { #specs-google-pay-security }
 
-### Payment Security Logic Settings
+### Payment Security Logic Settings { #operate-google-pay-security }
 
 Google Pay transaction security inherits the credit card settings in your admin:
 
@@ -112,13 +112,13 @@ Google Pay transaction security inherits the credit card settings in your admin:
 
     >  **Virtual credit cards** are a security service provided by Google. After a **real credit card** is linked in Google Wallet, Google generates a **virtual credit card** for payments, which helps prevent real card details from being leaked and used for fraud. For details, see [Google Pay help](https://support.google.com/googlepay/answer/7644068).
 
-### Transaction Verification and Compliance Statements
+### Transaction Verification and Compliance Statements { #specs-google-pay-compliance }
 
 - [Google Pay APIs Acceptable Use Policy](https://payments.developers.google.com/terms/aup)
 - [Google Pay API Terms of Service defines](https://payments.developers.google.com/terms/sellertos)
 - Google Pay and Google Wallet are trademarks of Google LLC
 
-## Next Steps
+## Next Steps { #next-steps-google-pay }
 
 <div class="grid cards" markdown>
 

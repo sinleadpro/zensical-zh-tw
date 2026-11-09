@@ -73,13 +73,13 @@ hide:
 
 ![Member filter with completed LINE binding](../../../../assets/images/ec-會員-所有會員-篩選器-已完成line綁定.en.png){ .hero-page title="Member filter - LINE binding completed" }
 
-## Filter LINE Bound Members Guide
+## Filter LINE Bound Members Guide { #operate-use-line }
 
 You can use the member filter in the admin panel to quickly identify which members have completed [**LINE OA and website member binding**](bind-line-oa-store-members.md){ title="Bind LINE OA with website members" }, so you can run follow-up segmented marketing or audience bundling.
 
 Detailed instructions are below:
 
-## Filter Bound Member List
+## Filter Bound Member List { #operate-use-line-bind }
 
 1. **Access path**: Go to **Customer Management > All Customers** in the admin panel.
 2. **Open the filter**: Click **Add Filter** in the search field or click the keyword input area. The system displays the filter criteria menu.
@@ -90,7 +90,7 @@ Detailed instructions are below:
 
 ![Filter members with completed LINE binding](../../../../assets/images/ec-會員-會員篩選器-已完成line綁定-操作.en.gif){ title="Filter members with completed LINE binding" }
 
-## Export and Use Member Lists
+## Export and Use Member Lists { #operate-use-line-export }
 
 1. **Export to email:**:
     - After filtering, select the members you want to export individually, or select all members on the current page at once, then click the **Export** button.
@@ -102,7 +102,7 @@ Detailed instructions are below:
 2. **Bundle LINE audience (Enterprise / PLUS only)**:
     - If you filter for bound members, when saving the segment you can choose to [**sync this audience package to the LINE OA admin panel**](../marketing/setup-line-oa-audience.md){ title="Set up LINE OA audience sync" }, for precise message pushes or ad campaigns.
 
-## Next Steps
+## Next Steps { #next-steps-use-line }
 
 <div class="grid cards" markdown>
 
@@ -118,7 +118,7 @@ Detailed instructions are below:
 
 </div>
 
-## FAQ
+## FAQ { #faq-use-line }
 
 ??? quote "What is LINE binding?"
 	In the filter, "Completed LINE Binding" means the member has linked their website member account with their LINE OA account.

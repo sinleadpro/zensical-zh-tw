@@ -83,13 +83,13 @@ comments: false
 
 ![Edit product descriptions](../../../assets/images/ec-edit-product-hero.zh-tw.en.png){ title="Edit Product Descriptions" .hero-page }
 
-## About Product Descriptions and Settings
+## About Product Descriptions and Settings { #intro-product-desc-settings }
 
 On the product edit page (Products > All Products > the name of the product to edit), you can edit and set the product's information and attributes for admin management and storefront display. Product information settings are organized into three tabs:
 
 - [Product Information](create-update-products.md#operate-product){ title="Add and Update Products" }: [Core settings](create-update-products.md#operate-product-create-basic){ title="Add and Update Products" } such as the product name, options, price, and inventory.
-- [Product Description](#Product-Description): The product description, specifications, and shipping information shown to storefront customers.
-- [Settings](#Product-Settings): Type, channel, vendor, collections, tags, logistics, and SEO, for managing admin attributes and marketing settings.
+- [Product Description](#operate-desc-settings-body): The product description, specifications, and shipping information shown to storefront customers.
+- [Settings](#operate-product-desc-settings): Type, channel, vendor, collections, tags, logistics, and SEO, for managing admin attributes and marketing settings.
 
 !!! tip "Quick Action Buttons"
 
@@ -98,7 +98,7 @@ On the product edit page (Products > All Products > the name of the product to e
     - :lucide-copy: Copy: Copy the product for quick editing.
     - :lucide-trash-2: Delete Product: Delete the product.
 
-## Product Description
+## Product Description { #operate-desc-settings-body }
 
 Use the text editor to edit the following fields:
 
@@ -113,17 +113,17 @@ To learn more about the text editor, see [Edit Content with the Text Editor](../
 ??? info-clean "Where It Appears on the Storefront"
     ![Storefront product description](../../../assets/images/ec-product-description-frontend.zh-tw.en.png){ title="Storefront Product Description" }
 
-## Product Settings
+## Product Settings { #operate-product-desc-settings }
 
 ![Product settings page](../../../assets/images/ec-product-settings.zh-tw.en.png){ title="Product Settings Page" }
 
-### Advanced Settings
+### Advanced Settings { #operate-product-desc-settings-advanced }
 
 - **Customized collections**: Add the product to existing collections. For details, see [Set Up Customized Collections](../categories-and-tags/custom-collections.md){ title="Set Up Customized Collections" }.
 - **Buy X Get Y Discount Collection**: Add the product to an existing Buy X Get Y discount collection. For details, see [Buy X Get Y Discount](../../marketing/discounts/mix-and-match-discounts.md){ title="Buy X Get Y Discount" }.
 - **Tags**: Add tags to the product for marketing campaigns (for example, a product-specific coupon). Learn [how to set product tags](../categories-and-tags/manage-product-tags.md){ title="Manage Product Tags" }.
 - **Product Type**: Set a type label for the product for management and filtering. This information also appears on the storefront, and the label content can be customized.
-- **Product distribution channel**: Set the channels where the product can be sold. Products from different channels (pre-order, in stock, room temperature) are automatically [split into multiple carts](../checkout/checkout-split-multi-cart.md#About-Checkout-Splitting-into-Multiple-Carts){ title="Set Up Automatic Checkout Splitting into Multiple Carts" } at checkout.
+- **Product distribution channel**: Set the channels where the product can be sold. Products from different channels (pre-order, in stock, room temperature) are automatically [split into multiple carts](../checkout/checkout-split-multi-cart.md#intro-split-cart){ title="Set Up Automatic Checkout Splitting into Multiple Carts" } at checkout.
 - **Product Vendor**: Add a vendor label to the product for management and filtering. This information also appears on the storefront, and the content can be customized.
 - **Google product category**: Set the product category to override Google's automatic classification and improve ad targeting. Learn [how to sync products to GMC](../../integrations/google/setup-google-merchant-center.md){ title="Set Up Google Merchant Center and Sync CYBERBIZ Products" }.
 
@@ -133,7 +133,7 @@ To learn more about the text editor, see [Edit Content with the Text Editor](../
 
 ---
 
-### Temperature Zone and Logistics Settings
+### Temperature Zone and Logistics Settings { #operate-product-desc-settings-ship }
 
 Set the product's shipping temperature zone and available logistics methods.
 
@@ -146,7 +146,7 @@ Set the product's shipping temperature zone and available logistics methods.
 
 ---
 
-### Set up Related Products
+### Set up Related Products { #operate-product-desc-settings-related }
 
 By setting a **Related Collection**, you can customize the relationships between products to improve the *Related Products* section below the product page and increase cross-selling.
 
@@ -157,7 +157,7 @@ By setting a **Related Collection**, you can customize the relationships between
 
 ---
 
-### SEO Settings
+### SEO Settings { #operate-product-desc-settings-seo }
 
 Setting product SEO can improve the page's ranking in search engines. Set it based on the product's characteristics.
 
@@ -173,7 +173,7 @@ Setting product SEO can improve the page's ranking in search engines. Set it bas
 
 </div>
 
-## Next Steps
+## Next Steps { #next-steps-product-desc-settings }
 
 <div class="grid cards" markdown>
 
@@ -187,7 +187,7 @@ Setting product SEO can improve the page's ranking in search engines. Set it bas
 
 </div>
 
-## FAQ
+## FAQ { #faq-product-desc-settings }
 
 ??? quote "Can I use HTML tags in product descriptions?"
     The product description sections (Product Introduction, Product Specifications, and Delivery Type) support the text editor, which lets you format text and edit images and links. For more advanced layouts, we recommend the drag-and-drop theme.

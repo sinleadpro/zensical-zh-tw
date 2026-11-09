@@ -81,16 +81,16 @@ Store staff can flexibly adjust prices for an entire order during checkout. Admi
 
 
 
-## Usage Notes
+## Usage Notes { #prerequisites-order-discount }
 
 - **Permission Restrictions**: This feature is available only to users with the **Store Manager** role by default. Regular staff must be granted permission by an administrator in the back office.
 - **Adjustment Records**: Every whole-order discount requires an **Adjustment Note**. The system saves the note for future reconciliation and auditing.
 - **Quick Note Selection**: The system automatically saves the 5 most recent adjustment notes so staff can select them quickly.
 
 
-## Workflow
+## Workflow { #operate-order-discount }
 
-### Task 1: Apply a Whole-Order Discount on the POS Front End
+### Task 1: Apply a Whole-Order Discount on the POS Front End { #operate-order-discount-task-a-pos }
 
 During checkout, staff can adjust the cart total at any time.
 
@@ -125,7 +125,7 @@ During checkout, staff can adjust the cart total at any time.
 
 
 
-### Task 2: Enable Staff Adjustment Permissions in the Back Office
+### Task 2: Enable Staff Adjustment Permissions in the Back Office { #operate-order-discount-task-b-admin }
 
 If you want regular staff to be able to make price adjustments, an administrator must complete the setup in the back office.
 
@@ -141,7 +141,7 @@ If you want regular staff to be able to make price adjustments, an administrator
 
 5. Click **Update Role** to complete the authorization.
 
-## More Actions
+## More Actions { #next-steps-order-discount }
 
 <div class="grid cards" markdown>
 

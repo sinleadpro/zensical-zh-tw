@@ -62,17 +62,17 @@ hide: []
 
 ![LINE Shopping Referral Setup](../../../assets/images/ec-第三方整合-line購物設定.en.png){ title="LINE Shopping Referral Setup" .hero-page }
 
-## LINE Shopping Overview
+## LINE Shopping Overview { #overview-setup-line }
 
 **LINE Shopping** is an e-commerce platform that combines referrals, points rewards, and price comparison. By connecting your website to LINE Shopping, merchants can use the LINE Shopping app or its official account entry point to refer customers to the website to place orders.
 
-## Important Notice
+## Important Notice { #intro-setup-line }
 
 *   **Applicable Plans**: This feature is available only to **PLUS and Enterprise** plan users.
 *   **Open Platform**: LINE Shopping is a public platform. Consumers do not need to be friends with the merchant's LINE Official Account or link an OA to place an order.
 *   **Precise Product Search**: When searching for products in LINE Live or related back-office tools, using **Product ID (PID)** is the most precise option. The PID can be found at the end of the product edit URL or in the exported product report.
 
-## Application and Activation Process
+## Application and Activation Process { #operate-setup-line }
 
 1.  **Fill Out the Application Form**: Merchants must first complete the [application form :lucide-external-link:](https://docs.google.com/forms/d/e/1FAIpQLSeaMKpcK0DOaTvZDy_229oV3mV_k50-oKKTljdGh9sUXuRD1A/viewform) to get more information. A LINE representative will then contact you to explain the next steps.
 2.  **Eligibility Review**: LINE handles initial contact and eligibility review. After approval, LINE notifies CYBERBIZ to activate eligibility.
@@ -83,7 +83,7 @@ hide: []
 
 ![LINE Shopping Settings Page](../../../assets/images/ec-第三方整合-line購物設定-line購物.en.png){ title="LINE Shopping Settings Page" }
 
-## Product Feed Logic and Requirements
+## Product Feed Logic and Requirements { #prerequisites-setup-line }
 
 A product must meet all three of the following conditions to appear in the product catalog:
 
@@ -91,20 +91,20 @@ A product must meet all three of the following conditions to appear in the produ
 - [x] **Status is set to "Listed"**.
 - [x] **Tag exclusion**: Product tags must **not** contain the keywords "Gift" or "Exclude product feed".
 
-!!! tip "To verify the pages and paths, see [Product Feed and Sync Logic](apply-setup-line-live-stream.md#商品串接與同步邏輯){ title="Apply for and set up LINE Live Feature" } in the LINE Live documentation."
+!!! tip "To verify the pages and paths, see [Product Feed and Sync Logic](apply-setup-line-live-stream.md#specs-setup-line){ title="Apply for and set up LINE Live Feature" } in the LINE Live documentation."
 
-## Catalog Update and Sync Timing
+## Catalog Update and Sync Timing { #intro-setup-line-sync }
 
 *   **Automatic Update**: The CYBERBIZ back office generates the product catalog automatically at **4:45 AM and 4:45 PM daily**. LINE then syncs the information to its back office at **5:00 AM daily**.
 *   **Manual Update**: To sync product changes immediately, go to LINE Shopping Settings and click the **Manually Update Catalog** button (limited to one click per hour).
 *   **Prerequisite**: Complete all product setup at least **one day before** the live stream or event to ensure the catalog syncs smoothly.
 
-## Order Viewing and Management
+## Order Viewing and Management { #operate-setup-line-order-view-manage }
 
-*   **Order Attribution**: Orders placed through LINE Shopping referrals can be viewed in **Orders > LINE Shopping Orders** at [this page](group-buy/setup-line-group-buy-group.md#訂單查看與紀錄管理){ title="Set up LINE Group Buying Groups" }.
-*   **Referral Source Tracking**: Merchants can also check whether an order came from LINE Shopping by [viewing the Referral Source column](../../orders/reports/export-order-report.md#步驟一選擇報表欄位){ title="Export Order Report" } in an exported order report.
+*   **Order Attribution**: Orders placed through LINE Shopping referrals can be viewed in **Orders > LINE Shopping Orders** at [this page](group-buy/setup-line-group-buy-group.md#reference-line-group){ title="Set up LINE Group Buying Groups" }.
+*   **Referral Source Tracking**: Merchants can also check whether an order came from LINE Shopping by [viewing the Referral Source column](../../orders/reports/export-order-report.md#operate-order-report-select-fields){ title="Export Order Report" } in an exported order report.
 
-## FAQ
+## FAQ { #faq-setup-line }
 
 ??? quote "Why did an order show as placed but not appear in LINE Shopping Orders?"
     There are usually several possible reasons:

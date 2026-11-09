@@ -80,7 +80,7 @@ Profit sharing helps you grow revenue together with internal and external partne
 	- **Customer referrals**: Encourage existing members to share their Referral Code with friends, so both sides are rewarded and word of mouth spreads.
 	- **Store sales attribution**: Accurately record sales for the staff member who handles checkout or service at POS checkout or in-store pickup.
 
-## Before You Start
+## Before You Start { #prerequisites-profit-hub }
 
 - CYBERBIZ profit sharing only handles **sales attribution and statistics**. The system **does not pay out money or create actual payment transactions** for you.
 - Number of plans by edition
@@ -90,11 +90,11 @@ Profit sharing helps you grow revenue together with internal and external partne
     | Standard | 1 | Advanced, Advanced PLUS, Expert, Expert PLUS<br>(Professional PLUS can't use profit sharing unless the profit-sharing add-on is purchased) |
     | Add-on | 100 | All PLUS editions<br>(select profit sharing when purchasing add-ons) |
 
-## How Profit Sharing Works
+## How Profit Sharing Works { #overview-profit-hub }
 
 Based on **who gets credit for the sale** and **where the sale happens**, the system offers four core profit-sharing models:
 
-### Referrer Profit Sharing
+### Referrer Profit Sharing { #overview-profit-hub-referrer }
 
 The most flexible and widely used model. A Referrer (such as an influencer, staff member, or member) gives customers a dedicated link or Referral Code.
 
@@ -106,25 +106,25 @@ The most flexible and widely used model. A Referrer (such as an influencer, staf
         - **Whole-order profit sharing**: Best for working with KOLs or external channels. Settlement is based on the **order total**, which makes it the easiest to set up.
         - **Product-specific profit sharing**: Best when product margins vary a lot or you sell consignment items. You can set the rate **for each product**, for finer profit control.
 
-### Registrant Profit Sharing
+### Registrant Profit Sharing { #overview-profit-hub-registrant }
 
 This model creates a **permanent link**. When a customer enters a registrant's code at sign-up, the customer is permanently linked to that registrant.
 
 - **How it works**: Once linked, the system automatically calculates profit sharing for the registrant whenever the customer buys, online or offline.
 - **When to use it**: Store staff recruiting long-term members, or long-term distribution partners.
 
-### Checkout Staff Profit Sharing
+### Checkout Staff Profit Sharing { #overview-profit-hub-checkout }
 
 - **How it works**: At POS checkout, the operator manually selects the **checkout staff member**, and the order's reward goes to that person.
 - **When to use it**: Splitting sales among staff who share a counter, work in shifts, or serve customers together.
 
-### Store Pickup Order Profit Sharing
+### Store Pickup Order Profit Sharing { #overview-profit-hub-store }
 
 - **How it works**: For orders **placed online and picked up in store**, when the package arrives at the store and the customer picks it up, the operator manually selects the **staff member who checked the goods**, and the order's reward goes to that person.
 - **When to use it**: Rewarding store staff for handling pickups.
 - **Profit-sharing types**: Supports **arrival profit sharing** or **pickup profit sharing**.
 
-## Partners And Models At A Glance
+## Partners And Models At A Glance { #specs-profit-hub }
 
 The table below shows which profit-sharing models apply to each type of partner by default:
 
@@ -148,24 +148,24 @@ For each type of partner, you can set how they get their code and how they check
     Store profit sharing only works with the CYBERBIZ POS system. If you use another system, contact our consultants to evaluate switching.
 
 
-## Core Rules And Limits
+## Core Rules And Limits { #specs-profit-hub-rules }
 
 Before you plan your profit-sharing programs, make sure you understand how the system works:
 
-### 1. When Rewards Are Settled
+### 1. When Rewards Are Settled { #specs-profit-hub-settle }
 - The system calculates profit-sharing amounts and issues bonus rewards only when the order status changes to **Completed**.
 - If an order is returned or canceled after it's completed, the system **does not** automatically add or take back bonuses that were already issued.
 
-### 2. How Payments Are Handled
+### 2. How Payments Are Handled { #specs-profit-hub-payment }
 - The CYBERBIZ admin only provides **profit-sharing reports** for reference. The system **does not handle** actual cash payouts.
 - Using the report data, you pay partners yourself by offline payment, bank transfer, or system bonus points.
 
-### 3. Effective Period
+### 3. Effective Period { #specs-profit-hub-validity }
 - An order qualifies for profit sharing only if it's placed within the plan's **effective period**.
 
 
 
-## Next Steps
+## Next Steps { #next-steps-profit-hub }
 
 <div class="grid cards" markdown>
 

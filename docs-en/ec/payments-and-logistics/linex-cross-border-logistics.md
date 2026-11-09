@@ -86,16 +86,16 @@ LINEX offers flexible cross-border logistics solutions. Merchants can choose "Ho
 [:lucide-tag:{ title="Applicable Plan" }](../../resources/conventions#適用方案) | Pro / Business
 { .doc-badge }
 
-## Usage Notes
+## Usage Notes { #prerequisites-linex }
 
 - **Service Scope**: Only supports **shipments from Taiwan to overseas**.
 - **Batch Restriction**: Because customs information must be verified one by one, **batch printing** of waybills is currently **not supported**.
 - **Operation Tip**: We recommend using this feature together with the **Multi-Country** feature. This allows the system to automatically pull English product information into waybill details, improving efficiency. For assistance, contact CYBERBIZ customer service.
 - **Printer Recommendation**: We recommend a laser printer for printing waybills to reduce delivery errors caused by information recognition issues.
 
-## Prerequisite Setup
+## Prerequisite Setup { #operate-linex-setup }
 
-### Step 1: Verify Company English Name
+### Step 1: Verify Company English Name { #operate-linex-verify-name }
 
 1. Log in to the CYBERBIZ back office and go to **Website Management > General**.
 2. Find the **English Company name registered at TITA** field.
@@ -104,7 +104,7 @@ LINEX offers flexible cross-border logistics solutions. Merchants can choose "Ho
 
 ![](../../assets/images/EC-後台-管理中心-一般設定-填寫國貿局進出口廠商英文名01.en.png){ .screenshot }
 
-### Step 2: Set up Shipping Mode and Sender
+### Step 2: Set up Shipping Mode and Sender { #operate-linex-mode-sender }
 
 1. Go to **Payment and Logistics > LINEX Shipping Label**.
 2. **Select Mode**: Check **Pickup Appointment** or **Self Delivery**.
@@ -118,7 +118,7 @@ LINEX offers flexible cross-border logistics solutions. Merchants can choose "Ho
     ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定02.png){ .screenshot }
 
 
-### Step 3: Set up Logistics and Shipping Fees
+### Step 3: Set up Logistics and Shipping Fees { #operate-linex-fee }
 
 1. Go to **Payment and Logistics > Delivery Settings** and select the **Custom Logistics** tab.
 2. Click **Create Custom Logistics**.
@@ -140,7 +140,7 @@ LINEX offers flexible cross-border logistics solutions. Merchants can choose "Ho
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定03.png){ .screenshot }
 
-## Detailed Shipping Mode Rules
+## Detailed Shipping Mode Rules { #specs-linex-modes }
 
 Merchants must comply with the following rules based on the mode selected when the service was activated:
 
@@ -166,9 +166,9 @@ Merchants must comply with the following rules based on the mode selected when t
 
 
 
-## Order Shipping Operations
+## Order Shipping Operations { #operate-linex-ship }
 
-### Step 1: Create Waybill
+### Step 1: Create Waybill { #operate-linex-create-waybill }
 
 1. Go to **Orders > All Orders** and select the orders to ship.
 2. Click **Actions > Create LINEX Shipping Label**.
@@ -179,7 +179,7 @@ Merchants must comply with the following rules based on the mode selected when t
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定05.png){ .screenshot }
 
-### Step 2: Enter Customs Information and Taxes
+### Step 2: Enter Customs Information and Taxes { #operate-linex-customs }
 
 1. **Verify Product Details**:
     - **Required Field Check**: **Product Name**, **Quantity**, and **Weight** must be filled in, and values cannot be 0.
@@ -213,7 +213,7 @@ Merchants must comply with the following rules based on the mode selected when t
         ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定07.png){ .small-image }
 
 
-### Step 3: Print Waybill Documents and POA
+### Step 3: Print Waybill Documents and POA { #operate-linex-print }
 
 1. After confirming **Calculate shipping fee** is correct, click **Create shipping label**.
     - `Delivery Status`will automatically change to `Shipped`.
@@ -224,7 +224,7 @@ Merchants must comply with the following rules based on the mode selected when t
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定09.png){ .screenshot }
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-linex }
 
 ??? quote "How do I track my package status?"
     Go to the [LINEX package tracking website](https://tracking.hub-ez.com/Tracking/Tracking) and enter the waybill number to search.

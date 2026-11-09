@@ -83,17 +83,17 @@ In addition to batch printing in the back office, CYBERBIZ POS lets you print pr
     - **Real-Time Price Check**: After confirming product information at the front desk, if a label is damaged, reprint it immediately.
 
 
-## Usage Notes
+## Usage Notes { #prerequisites-product-labels }
 
 - **Hardware Requirement**: You must first install the label printer driver and complete a connection test. For details, see [Label Printer Installation Guide](../hardware/label-printer.md).
 - **Feature Activation**: You must contact CYBERBIZ customer service to enable the **POS Front-Desk Label Printing** permission.
 
 
-## Print Labels in the Back Office
+## Print Labels in the Back Office { #operate-product-labels }
 
 === "Create a Single Label"
 
-    ### Step 1: Set up Label Style
+    ### Step 1: Set up Label Style { #operate-product-labels-style }
 
     1. Log in to the CYBERBIZ back office, go to **POS > POS Store List**, select the store you want to configure, and then click the **Print product label** tab.
         ![](../../assets/images/POS-後台-所有POS商店-列印商品標籤01.en.png){ .screenshot }
@@ -102,7 +102,7 @@ In addition to batch printing in the back office, CYBERBIZ POS lets you print pr
     4. **Label Layout**: Select a layout, and adjust the content items shown on the label.
         ![](../../assets/images/POS-後台-所有POS商店-列印商品標籤-單筆建立01.en.png){ .screenshot }
 
-    ### Step 2: Create Labels
+    ### Step 2: Create Labels { #operate-product-labels-create }
 
     1. In the product list below, select the products you want to print labels for.
     2. **Search Products**:
@@ -125,10 +125,10 @@ In addition to batch printing in the back office, CYBERBIZ POS lets you print pr
 
     ![](../../assets/images/POS-後台-所有POS商店-列印商品標籤-批次匯入01.en.png){ .screenshot }
 
-## Print Labels at the POS Front Desk
+## Print Labels at the POS Front Desk { #operate-frontend-print }
 
 
-### Step 1: Enable Front-Desk Printing
+### Step 1: Enable Front-Desk Printing { #operate-frontend-print-step-a-enable }
 
 Before you use the POS front desk, you must first enable permissions for the specific device in the back office.
 
@@ -139,7 +139,7 @@ Before you use the POS front desk, you must first enable permissions for the spe
 
 ![](../../assets/images/POS-後台-所有POS商店-開啟前台列印標籤設定01.en.png){ .screenshot }
 
-### Step 2: Select and Print at the POS Front Desk
+### Step 2: Select and Print at the POS Front Desk { #operate-frontend-print-step-b-pos }
 
 After you complete the back-office setup, refresh or log in to the POS front-desk app.
 
@@ -158,7 +158,7 @@ After you complete the back-office setup, refresh or log in to the POS front-des
     - Print one label first to confirm the style and avoid wasting materials during large print runs.
 
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-product-labels }
 
 ??? quote "Can I select multiple products to print at once?"
     Yes. You can select multiple different products at once, and the system prints all labels in sequence.

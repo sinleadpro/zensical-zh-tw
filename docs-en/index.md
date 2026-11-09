@@ -176,6 +176,8 @@ Complete steps from account signup and product listing to marketing.<br>We prepa
   </div>
 
   <div id="latest" role="tabpanel" class="tab-content">
+    <a href="/resources/new-release/2026-10/"><span class="badge">New</span>October 2026 Release Notes <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-right" viewBox="0 0 24 24" width="1em" height="1em" style="vertical-align:middle;margin-left:2px"><circle cx="12" cy="12" r="10"/><path d="m12 16 4-4-4-4M8 12h8"/></svg> </a>
+    <a href="/resources/new-release/2026-09/"><span class="badge">New</span>September 2026 Release Notes <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-right" viewBox="0 0 24 24" width="1em" height="1em" style="vertical-align:middle;margin-left:2px"><circle cx="12" cy="12" r="10"/><path d="m12 16 4-4-4-4M8 12h8"/></svg> </a>
     <a href="/resources/new-release/2026-08/"><span class="badge">New</span>August 2026 Release Notes <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="lucide lucide-circle-arrow-right" viewBox="0 0 24 24" width="1em" height="1em" style="vertical-align:middle;margin-left:2px"><circle cx="12" cy="12" r="10"/><path d="m12 16 4-4-4-4M8 12h8"/></svg> </a>
     <!-- <a href="#"><span class="badge">Updated</span>EC product listing flow</a> -->
     <!-- <a href="#"><span class="badge">New</span>New payments and logistics setup guide</a> -->
@@ -207,7 +209,7 @@ function openTab(evt, tabName) {
 </div>
 
 
-## Brand Website
+## Brand Website { #overview-home-ec }
 
 <div class="grid cards" markdown>
 
@@ -257,7 +259,7 @@ function openTab(evt, tabName) {
 
 ---
 
-## Smart Warehouse
+## Smart Warehouse { #overview-home-wms }
 
 <div class="grid cards" markdown>
 
@@ -293,7 +295,7 @@ function openTab(evt, tabName) {
 
 ---
 
-## Smart POS
+## Smart POS { #overview-home-pos }
 
 <div class="grid cards" markdown>
 
@@ -330,7 +332,7 @@ function openTab(evt, tabName) {
 
 ---
 
-## Add-Ons and Integrations
+## Add-Ons and Integrations { #overview-home-extensions }
 
 <div class="grid cards" markdown>
 
@@ -364,6 +366,57 @@ function openTab(evt, tabName) {
 </div>
 
 ---
+
+## Cross-Border Ecommerce
+
+<div class="grid cards" markdown>
+
+-   :lucide-rocket:{ .lg }
+    __Cross-border payments__
+
+    ---
+
+    [:octicons-arrow-right-24: Go to North America site](ec/payments-and-logistics/north-america-payment-services/)<br>
+    [:octicons-arrow-right-24: Go to Japan site](ec/payments-and-logistics/japan-payment-services/)<br>
+    [:octicons-arrow-right-24: Go to Southeast Asia site](ec/payments-and-logistics/southeast-asia-payment-services/)<br>
+    [:octicons-arrow-right-24: Go to Australia local edition](ec/payments-and-logistics/australia-local-payment-services/)<br>
+
+-   :lucide-monitor:{ .lg }
+    __Cross-border logistics__
+
+    ---
+
+    [:octicons-arrow-right-24: Go to DHL logistics](ec/payments-and-logistics/dhl-cross-border-logistics/)<br>
+    [:octicons-arrow-right-24: Go to LINEX logistics](ec/payments-and-logistics/linex-cross-border-logistics/)<br>
+    [:octicons-arrow-right-24: Go to SF Express overseas logistics](ec/payments-and-logistics/sf-express-overseas-logistics/)<br>
+    [:octicons-arrow-right-24: Go to Amazon FBA logistics](ec/payments-and-logistics/amazon-fba-cross-border-logistics/)<br>
+
+-   :lucide-shopping-cart:{ .lg }
+    __Returns and refunds__
+
+    ---
+
+    [:octicons-arrow-right-24: Order return process](ec/orders/cross-border-return-process/)<br>
+    [:octicons-arrow-right-24: Order refund process](ec/orders/cross-border-refund-process/)
+
+-   :lucide-arrow-right-from-line:{ .lg }
+    [__Storefront multi-language and multi-currency__](ec/website-management/setup-multi-language-and-multi-currency/)
+
+    ---
+
+    Set up localized storefront languages and currency display to improve the shopping experience for overseas customers.
+
+-   :lucide-arrow-right-from-line:{ .lg }
+    [__Redirect to country-specific websites__](ec/website-management/setup-country-site-redirect/)
+
+    ---
+
+    Show a notice bar on your storefront based on the country of the customer's IP address, guiding customers to the website for their country.
+
+</div>
+
+
+---
 <!---->
 <!-- ## AI-assisted search -->
 <!---->
@@ -387,7 +440,7 @@ function openTab(evt, tabName) {
 <!---->
 <!-- --- -->
 
-## Resource Center
+## Resource Center { #overview-home-resources }
 
 <div class="grid cards" markdown>
 

@@ -73,13 +73,13 @@ Connect CYBERBIZ with Black Cat Express, Pelican Express, and Hsinchu Logistics 
 
 ---
 
-## Step 1: Request Activation
+## Step 1: Request Activation { #operate-home-cod-apply }
 
-### 1. Black Cat Express and Pelican Express
+### 1. Black Cat Express and Pelican Express { #operate-home-cod-tcat-pelican }
 
 These two services are usually ready to configure in the back office once the system is activated. No additional manual review is required.
 
-### 2. Hsinchu Logistics
+### 2. Hsinchu Logistics { #operate-home-cod-hct }
 
 Hsinchu Logistics requires an on-site inspection and contract signing. The process is as follows:
 
@@ -100,18 +100,18 @@ Hsinchu Logistics requires an on-site inspection and contract signing. The proce
 
 
 
-## Step 2: Enable Logistics
+## Step 2: Enable Logistics { #operate-home-cod-enable }
 
 Go to **Payment and Logistics > Delivery Settings > Connect Logistics** and select the corresponding logistics provider to edit.
 
-### 1. Basic Activation Settings
+### 1. Basic Activation Settings { #operate-home-cod-basic }
 
 - **Enable Service**: Turn the toggle to **ON**.
 - **Outlying Island Delivery**: Choose whether to deliver to Taiwan's outlying islands.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/新竹物流串接02.png){ .screenshot }
 
-### 2. Shipping Fee and Free Shipping Settings
+### 2. Shipping Fee and Free Shipping Settings { #operate-home-cod-fee }
 
 - **Free Shipping Settings**: When turned on, you can set a free shipping threshold (amount) for each order.
 - **Show Free Shipping Threshold at Checkout**: When turned on, shoppers see a reminder in the cart and checkout pages, such as "Spend $XXX more for free shipping."
@@ -121,14 +121,14 @@ Go to **Payment and Logistics > Delivery Settings > Connect Logistics** and sele
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/新竹物流串接03.png){ .screenshot }
 
-### 3. Payment Threshold Settings (PLUS and Above Plans)
+### 3. Payment Threshold Settings (PLUS and Above Plans) { #operate-home-cod-pay-threshold }
 
 - You can set a **maximum** or **minimum** checkout amount threshold for this logistics method to avoid collection amounts that are too high or not cost-effective.
   >   :lucide-lock: This feature is available only for PLUS and Enterprise plans.
 
 
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-home-cod }
 
 ??? quote "How is the free shipping threshold logic determined?"
     The system evaluates both **Free Shipping Settings** (logistics level) and **Shipping Fee Settings** (temperature zone level). If the order amount meets the free shipping condition of either setting, the checkout page displays free shipping, presenting the most favorable option to the shopper.

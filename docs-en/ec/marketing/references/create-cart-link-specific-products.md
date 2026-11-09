@@ -58,7 +58,7 @@ hide:
 
 ![Product Referral Cart Link Page](../../../assets/images/ec-行銷活動-指定商品導購連結.png){ .hero-page }
 
-## About Cart Links With Specific Products
+## About Cart Links With Specific Products { #overview-cart-link }
 
 This feature lets you generate a special URL. When customers click it, the system **automatically adds preset products and quantities to the cart** (Settings). It works well for social media referrals, EDM marketing, and promotions for specific audiences.
 
@@ -71,13 +71,13 @@ This feature lets you generate a special URL. When customers click it, the syste
     *   **Segmented campaigns**: Create cart contents for different member audiences (Settings) to match your marketing strategy.
 
 
-## Before You Start
+## Before You Start { #prerequisites-cart-link }
 
 - **Scope**: Works only with online store cart links, not one-page stores.
 
 !!! warning "Before publishing, **always test the URL yourself** to make sure it opens the cart with the right products and quantities."
 
-## How To Get Product IDs And Variants IDs
+## How To Get Product IDs And Variants IDs { #intro-cart-link }
 
 To build a link, first export product data from the admin to get the IDs.
 
@@ -95,7 +95,7 @@ To build a link, first export product data from the admin to get the IDs.
 
 5.  **Note the values**: The numbers shown in these columns (Display) are the product IDs. Write them down to use in your link.
 
-## Cart Link URL Format
+## Cart Link URL Format { #operate-cart-link-format }
 
 Follow this syntax to build your link manually.
 
@@ -123,9 +123,9 @@ Follow this syntax to build your link manually.
     | `utm_content` | No | Ad content | Tells apart creatives or placements in the same campaign. |
 
 
-## Advanced Use
+## Advanced Use { #operate-cart-link-usage }
 
-### Use A Product ID <Small>For Products With A Single Variants</small>
+### Use A Product ID <Small>For Products With A Single Variants</small> { #operate-cart-link-product-id }
 
 Add the `type=product` parameter and use the product ID from column A:
 
@@ -138,7 +138,7 @@ Add the `type=product` parameter and use the product ID from column A:
 
 ---
 
-### Add A Discount Code
+### Add A Discount Code { #operate-cart-link-discount }
 
 Add the coupon parameter to the link. The cart applies the discount automatically when customers click it:
 
@@ -148,7 +148,7 @@ Add the coupon parameter to the link. The cart applies the discount automaticall
 
 --- 
 
-### Track With UTM Parameters
+### Track With UTM Parameters { #operate-cart-link-utm }
 
 Add UTM parameters to the link to track referral performance by channel in GA or the admin:
 
@@ -156,7 +156,7 @@ Add UTM parameters to the link to track referral performance by channel in GA or
 [您的網址]/cart/replace?products=[款式ID]:[數量]&utm_source=line&utm_medium=social&utm_campaign=summer2025
 ```
 
-## Examples
+## Examples { #reference-cart-link-examples }
 
 !!! example "Example Settings"
     - The online store is `https://www.goodthing.com`.
@@ -175,7 +175,7 @@ https://www.goodthing.com/cart/replace?products=56789:2&type=product
 
 ```
 
-## FAQ
+## FAQ { #faq-cart-link }
 
 ??? quote "How do I get product IDs and Variants IDs?"
 
@@ -187,4 +187,4 @@ https://www.goodthing.com/cart/replace?products=56789:2&type=product
 
 ??? quote "Can a link apply a discount code automatically?"
 
-    Yes. Add the `coupon=[折扣碼]` parameter to the link, and the cart will [apply the code automatically](#搭配折扣碼){ title="搭配折扣碼" } when customers click it.
+    Yes. Add the `coupon=[折扣碼]` parameter to the link, and the cart will [apply the code automatically](#operate-cart-link-discount){ title="搭配折扣碼" } when customers click it.

@@ -61,19 +61,19 @@ hide: []
 
 ![GSC Remove URLs](../../../assets/images/ec-第三方整合-google-gsc移除網址.en.png){ .hero-page }
 
-## Excluding Pages from Google Search Results
+## Excluding Pages from Google Search Results { #overview-remove-search-urls }
 
 If your brand website shows subdirectory pages in Google Search results that you do not want to expose, such as old campaign pages, content not yet ready for the public, or structural pages that do not help SEO, you can use the tool that Google provides. To learn more, see the [Google official guide :lucide-external-link:](https://support.google.com/webmasters/answer/9689846).
 
-## Understanding Subdirectories in Google Search Results
+## Understanding Subdirectories in Google Search Results { #intro-remove-search-urls }
 
 Subdirectories in Google Search results are extension pages of your site that appear below a search result. Google usually identifies and crawls these pages automatically. They may include common paths such as `/products`, `/faq`, `/campaign`, `/showcase`, and so on.
 
 ![](../../../assets/images/ec-第三方整合-google-google搜尋子目錄.en.png)
 
-## Steps
+## Steps { #operate-remove-search-urls }
 
-### Use the Google Remove URLs Tool
+### Use the Google Remove URLs Tool { #operate-remove-search-urls-use-google }
 
 Site owners can use the "Remove URLs" tool in **Google Search Console (GSC)** to temporarily exclude specific pages or subdirectories from appearing in search results.
 
@@ -88,7 +88,7 @@ Site owners can use the "Remove URLs" tool in **Google Search Console (GSC)** to
 
 ![](../../../assets/images/ec-第三方整合-google-gsc移除網址.en.gif)
 
-## Important Notes and Limitations
+## Important Notes and Limitations { #prerequisites-remove-search-urls }
 
 *   **Temporary hiding**: This feature only hides the URL from search results **temporarily, for approximately 6 months**.
 *   **Effective time**: After you submit the request, it usually takes effect within **a few hours to a few days**. The actual timing depends on Google's processing.
@@ -96,7 +96,7 @@ Site owners can use the "Remove URLs" tool in **Google Search Console (GSC)** to
 *   **Secret group pages**: If you created a secret store group page and do not want Google to index it, be sure to configure page exclusion in GSC to keep it from appearing in search results.
 *   **Customer support**: This operation is a feature of Google's official tool, and processing progress is determined by Google. CYBERBIZ does not provide customer support for this operation.
 
-## Next Steps
+## Next Steps { #next-steps-remove-search-urls }
 
 <div class="grid cards" markdown>
 
@@ -106,7 +106,7 @@ Site owners can use the "Remove URLs" tool in **Google Search Console (GSC)** to
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-remove-search-urls }
 
 ??? quote "Can I permanently delete a page by using the Google Remove URLs tool?"
 

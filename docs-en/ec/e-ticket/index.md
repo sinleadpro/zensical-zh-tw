@@ -14,7 +14,7 @@ hide:
   - feedback
 ---
 
-## Basic Setup and Operations
+## Basic Setup and Operations { #overview-e-ticket-basics }
 
 <div class="grid cards" markdown>
 
@@ -30,7 +30,7 @@ hide:
 
 ---
 
-## Advanced Settings
+## Advanced Settings { #overview-e-ticket-advanced }
 
 <div class="grid cards" markdown>
 

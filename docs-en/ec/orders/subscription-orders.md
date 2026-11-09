@@ -82,7 +82,7 @@ When a shopper orders from a subscription page, the system creates a parent orde
     - Subscriptions are an optional module in PLUS plans (choose 2 of 11), so make sure you've selected this module before using it. Enterprise includes this feature.
 
 
-## Before You Start
+## Before You Start { #prerequisites-subscription-order }
 
 - **Terms**
     - **Parent order (subscription number)**: Records the overall subscription rules, such as the product combination, delivery frequency, and remaining cycles.
@@ -90,7 +90,7 @@ When a shopper orders from a subscription page, the system creates a parent orde
 
 
 
-## Subscription Order List Tabs
+## Subscription Order List Tabs { #overview-subscription-orders-list }
 
 Sign in to the CYBERBIZ admin and go to **Orders > Subscription Orders**.
 
@@ -107,27 +107,27 @@ The system groups subscription orders into the following tabs by status so you c
 
 ![](https://www.cyberbiz.co/support/wp-content/uploads/2019/11/定期定額new-14.png){ .screenshot }
 
-## Find Parent and Sub-Order Relationships
+## Find Parent and Sub-Order Relationships { #operate-subscription-orders-link }
 
 To see which subscription order and cycle a regular order belongs to:
 
 1. Go to **Orders > All Orders**.
-2. Click **[Edit Columns](../orders/basics/order-management-interface/#編輯欄位與排序)** in the upper-right corner.
+2. Click **[Edit Columns](../orders/basics/order-management-interface/#operate-order-ui-edit-columns)** in the upper-right corner.
 3. Select **Parent Order Number**, **Delivery Cycle**, or **Actual Deliveries** to see the order's subscription delivery information.
 
 
-## Change Delivery Information
+## Change Delivery Information { #operate-subscription-orders-edit-shipping }
 
 You can change delivery information for a single cycle or for the whole subscription.
 
-### 1. Change a Single Cycle (Sub-Order)
+### 1. Change a Single Cycle (Sub-Order) { #operate-subscription-orders-edit-child }
 
 In the subscription order list, click the text directly to change it:
 
 - **Recipient information**: Changes only that cycle's order. Later cycles stay the same.
 - **Ship date**: Changes only that cycle's ship date.
 
-### 2. Change the Whole Subscription (Parent Order)
+### 2. Change the Whole Subscription (Parent Order) { #operate-subscription-orders-edit-parent }
 
 Click the **subscription number** to open the details page for advanced editing. Changes here affect all later sub-orders that haven't been created yet:
 
@@ -156,18 +156,18 @@ Click the **subscription number** to open the details page for advanced editing.
 
     ![](https://www.cyberbiz.co/support/wp-content/uploads/2019/11/定期定額new-28.png){ .screenshot }
 
-## What Sub-Orders Include
+## What Sub-Orders Include { #specs-subscription-orders-child }
 
 - **Products and prices**: Sub-orders inherit the parent order's items and unit prices.
 
     > You can't edit items or prices directly in sub-orders. To change them, edit the related parent order.
 
-- **Marketing discounts and gifts**: When a sub-order is created, the system applies and issues discounts based on the current [discount settings on the subscription page](../marketing/other-tools/subscription-campaign-page/#4-進階優惠設定).
+- **Marketing discounts and gifts**: When a sub-order is created, the system applies and issues discounts based on the current [discount settings on the subscription page](../marketing/other-tools/subscription-campaign-page/#operate-subscription-campaign-promotions).
 
     > If you change the "gift and discount rules" in the subscription campaign after the parent order is created, the changes take effect after you save them and apply to sub-orders **created afterward**.
 
 
-## FAQ
+## FAQ { #faq-subscription-orders }
 
 ??? quote "How is shipping calculated?"
     Subscription orders use **the shipping fee from when the parent order was placed** by default. The shipping fee doesn't change unless you manually change a sub-order's products or amount and the system checks the free shipping threshold again.

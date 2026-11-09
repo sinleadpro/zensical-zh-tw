@@ -68,14 +68,14 @@ hide: []
 
 ![LINE Pay Guide](../../assets/images/ec-金物流-line-pay.en.png){ title="LINE Pay Guide" .hero-page }
 
-## LINE Pay Guide
+## LINE Pay Guide { #intro-line-pay }
 
 - Customers can select LINE Pay at checkout.
 - Improves checkout efficiency and increases order completion rates.
 - Refunds and order inquiries for LINE Pay are handled through the official LINE Pay admin site.
 
 
-## Important Notes
+## Important Notes { #prerequisites-line-pay }
 
 - **Eligibility**: You must apply in the name of a company. Individual accounts cannot apply.
 - **Existing accounts**: If you already have a LINE Pay merchant account, you must still transfer it and connect it through CYBERBIZ.
@@ -83,9 +83,9 @@ hide: []
 - **Application process**: If all documents are complete and accurate, no supplementary documents are required. Standard review takes about 1 month.
 - **Supplementary documents**: If LINE Pay requests additional documents, the application is reviewed again after you submit them. The review takes about 6–8 weeks.
 
-## Setup Steps
+## Setup Steps { #operate-line-pay }
 
-### Step 1: Fill out the Application Form and Upload Documents
+### Step 1: Fill out the Application Form and Upload Documents { #operate-line-pay-apply }
 
 Prepare and upload the following **4 required documents**. Each document must be a **separate PDF or image file** (a scan or a clear screenshot is acceptable).
 
@@ -93,7 +93,7 @@ Prepare and upload the following **4 required documents**. Each document must be
 	- Missing documents, incomplete pages, or mismatched information can delay the review and may prevent the application from being accepted. Double-check all information before you submit.
 	- If a document must be marked for application use, add a watermark to indicate this:`僅供申請 LINE Pay / 一卡通 Money 使用`
 
-#### Required Application Documents
+#### Required Application Documents { #operate-line-pay-docs }
 
 
 1. **Company registration documents** (provide one of the following. Submit complete versions with no missing pages.)
@@ -118,9 +118,9 @@ After you prepare the documents, fill out the [CYBERBIZ × LINE Pay Integration 
 
 ---
 
-### Step 2: Wait for Review and Supplementary Documents
+### Step 2: Wait for Review and Supplementary Documents { #operate-line-pay-review }
 
-#### Review Process
+#### Review Process { #operate-line-pay-review-flow }
 
 - CYBERBIZ forwards the documents you provide to LINE Pay for review.
 - LINE Pay admin account information is sent to your contact email address.
@@ -129,7 +129,7 @@ After you prepare the documents, fill out the [CYBERBIZ × LINE Pay Integration 
 
 ---
 
-#### Notification Types and Descriptions
+#### Notification Types and Descriptions { #operate-line-pay-notify }
 
 - **Review notification email**
 	- Indicates that LINE Pay has received the application documents, but the review is still in progress.
@@ -151,7 +151,7 @@ After you prepare the documents, fill out the [CYBERBIZ × LINE Pay Integration 
 
     ![LINE Pay Account Activation](../../assets/images/ec-金物流-line-pay-帳號開通.en.png){ title="LINE Pay Account Activation" }
 
-### Step 3: Enter the Keys in the CYBERBIZ Admin Panel
+### Step 3: Enter the Keys in the CYBERBIZ Admin Panel { #operate-line-pay-bind }
 
 
 1. **Receive the CYBERBIZ key notification email**
@@ -188,7 +188,7 @@ After you prepare the documents, fill out the [CYBERBIZ × LINE Pay Integration 
 	![LINE Pay Payment Method Selection](../../assets/images/ec-金物流-宅配物流-line-pay-check.en.gif){ title="LINE Pay Payment Method Selection" }
 
 
-## LINE Pay Order Number Reference
+## LINE Pay Order Number Reference { #specs-line-pay-order-no }
 
 When you view orders in the LINE Pay admin panel, check the format of the "Order Number" field. For example:
 
@@ -197,7 +197,7 @@ When you view orders in the LINE Pay admin panel, check the format of the "Order
 
 ![LINE Pay Order Number](../../assets/images/ec-訂單-line-pay-編號.en.png){ title="LINE Pay Order Number" }
 
-## Next Steps
+## Next Steps { #next-steps-line-pay }
 
 <div class="grid cards" markdown>
 

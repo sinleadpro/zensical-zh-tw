@@ -83,7 +83,7 @@ When a member requests a return or you need to start a return manually, you can 
 
 ## Before You Start { #prerequisites-order-return }
 
-### Refund Rules
+### Refund Rules { #specs-order-return-refund-rules }
 
 - **Request limit**: Each order accepts **only one** return and refund request. If a partial return has been completed, the remaining items in the order can't be requested again.
 - **Partial refunds**:
@@ -91,7 +91,7 @@ When a member requests a return or you need to start a return manually, you can 
     - If the shopper paid today, partial returns can be processed starting the next day.
     - Each order accepts only one partial return request.
 
-### Marketing Campaign Rules
+### Marketing Campaign Rules { #specs-order-return-campaign }
 
 - **Bonus points and coupons**:
     - The system **doesn't automatically return** points or coupons used in the order.
@@ -103,7 +103,7 @@ When a member requests a return or you need to start a return manually, you can 
 
 - **Commissions**: Commissions are calculated once an order reaches **Completed**. Later returns **don't affect** commission records already created.
 
-### Returns for Warehouse-Integrated Website Orders
+### Returns for Warehouse-Integrated Website Orders { #operate-order-return-warehouse }
 
 If you use CYBERBIZ e-commerce warehousing, see [Returns and Pickup Dispatch](../../wms/returns-and-vehicle-dispatch.md) for the return process.
 
@@ -119,7 +119,7 @@ After checking the order's current status, follow the steps below for your retur
 
 ## Step 1: Arrange Reverse Logistics { #operate-order-return-reverse }
 
-### Notes
+### Notes { #operate-order-return-tips }
 
 - Outbound and reverse logistics work independently, so they **don't need to use the same carrier**.
 
@@ -127,7 +127,7 @@ After checking the order's current status, follow the steps below for your retur
 
 - After the return is collected through system reverse logistics, the order's **Return Status** changes to **Reviewing Return**.
 
-### Reverse Logistics Options
+### Reverse Logistics Options { #operate-order-return-options }
 
 === "7-Eleven Return (C2B)"
 
@@ -179,7 +179,7 @@ After checking the order's current status, follow the steps below for your retur
     <div class="grid cards" markdown>
 
     - :lucide-dollar-sign:{ .lg }  
-      [__Create EZCAT Reverse Logistics__](../payments-and-logistics/setup-print-tcat-waybill-v2.md#ezcat-shipping-note-reverse)  
+      [__Create EZCAT Reverse Logistics__](../payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-shipping-reverse)
       Set EZCAT sender information, add tracking numbers, and create reverse logistics.
 
     - :lucide-dollar-sign:{ .lg }  
@@ -285,7 +285,7 @@ After you receive the package and check the items, choose a review result based 
     With system-integrated reverse logistics, after the member hands the package to the carrier, the system receives the carrier's update and automatically changes the status from `Returning` to `Reviewing Return`, so you can track progress.
 
 ??? quote "If I click the wrong return review option, can I start over?"
-    Each order can go through the return process only once. Once the status changes to **Returning**, the system treats the process as finished. Double-check before you click.
+    No. The system doesn't let you go back to the previous status or start over; the order still moves on to **Reviewing Return** and refund. Check the order before you click.
 
 ---
 

@@ -69,7 +69,7 @@ comments: false
 
 ![LINE Tag Setup](../../../../assets/images/ec-第三方整合-linetag.en.png){ title="LINE Tag Setup" .hero-page }
 
-## What Is LINE Tag
+## What Is LINE Tag { #intro-line-tag }
 
 LINE Tag is a website tracking code provided by LINE. It works like the Facebook Pixel and can track:
 
@@ -79,19 +79,19 @@ LINE Tag is a website tracking code provided by LINE. It works like the Facebook
 
 The following sections cover detailed setup steps and usage notes for LINE Tag:
 
-## Notes
+## Notes { #intro-line-tag-overview-line-tag }
 
 - [x] Create a LINE OA official account before you begin setup.
 - [x] If your browser has **AdBlock (ad blocker)** installed, turn it off during setup or checks to avoid interfering with data tracking.
 - [x] Operators need the **Settings** permission under **Website Management > User Account Settings** to complete integration setup.
 
-    [Modify Admin Permissions](../../../website-management/add-admin-set-permissions/#管理者權限設定與修改){ data-preview }
+    [Modify Admin Permissions](../../../website-management/add-admin-set-permissions/#operate-admin-perms-edit){ data-preview }
 
 
-## Get and Set up LINE Tag ID
+## Get and Set up LINE Tag ID { #operate-line-tag }
 Get the code from LINE OA Manager or LINE Ad Manager, then enter it in the CYBERBIZ backend.
 
-### For Message Push Conversion Tracking <small>LINE OA Manager</small>
+### For Message Push Conversion Tracking <small>LINE OA Manager</small> { #operate-line-tag-message-conversion-tracking }
 
 1.  **Access the backend**: Log in to [LINE OA Manager :lucide-external-link:](https://manager.line.biz/) and select the official account you want to set up.
 2.  **Find the code**: In the left menu, click **Data Management > Tracking (LINE Tag)**, then copy the **Tag ID** on the page.
@@ -107,7 +107,7 @@ Get the code from LINE OA Manager or LINE Ad Manager, then enter it in the CYBER
 
 ---
 
-### For Ad Campaign Conversion Tracking <small>LINE Ad Manager</small>
+### For Ad Campaign Conversion Tracking <small>LINE Ad Manager</small> { #operate-line-tag-ads-conversion-tracking }
 
 1.  **Access the backend**: Log in to [LINE Ad Manager :lucide-external-link:](https://admanager.line.biz/) and select the ad account you want to set up.
 2.  **Find the code**: In the left menu, select **Tracking (LINE Tag)**, then copy its **Tag ID**.
@@ -124,7 +124,7 @@ Get the code from LINE OA Manager or LINE Ad Manager, then enter it in the CYBER
 
 ---
 
-## CYBERBIZ Supported Tracking Events
+## CYBERBIZ Supported Tracking Events { #operate-line-tag-cyberbiz-support-tracking }
 
 The system automatically embeds tracking code for the following actions, so you don't need to write any extra code:
 
@@ -141,7 +141,7 @@ The system automatically embeds tracking code for the following actions, so you 
 
 ---
 
-## How to Check Whether Setup Is Successful
+## How to Check Whether Setup Is Successful { #operate-line-tag-settings }
 
 *   **Method 1 (manual check)**: Perform a specific action on the storefront, such as registering or adding a product to the cart. Then refresh the LINE Tag management page and check whether the event name appears in the status list.
 
@@ -151,13 +151,13 @@ The system automatically embeds tracking code for the following actions, so you 
 
 ---
 
-## Advanced LINE Tag Usage
+## Advanced LINE Tag Usage { #intro-line-tag-line-tag-advanced }
 
-### Create Audiences
+### Create Audiences { #intro-line-tag-line-tag-advanced-create }
 
 The visitor data you collect can be packaged into a **Website Traffic Audience** in the LINE backend. Use it for precise ad targeting or remarketing.
 
-#### LINE OA Manager
+#### LINE OA Manager { #intro-line-tag-line-tag-advanced-line-oa-manager }
 
 1.  **Access the backend**: Log in to [LINE OA Manager :lucide-external-link:](https://manager.line.biz/) and select the official account you want to set up.
 2.  **Go to the page**: Click **Data Management > Audiences > Create Audience**.
@@ -170,7 +170,7 @@ The visitor data you collect can be packaged into a **Website Traffic Audience**
 
 ---
 
-#### LINE Ad Manager
+#### LINE Ad Manager { #intro-line-tag-line-tag-advanced-line-ad-manager }
 
 1.  **Access the backend**: Log in to [LINE Ad Manager :lucide-external-link:](https://admanager.line.biz/) and select the ad account you want to set up.
 2.  **Go to the page**: Click the menu button :lucide-menu: in the upper-left corner, then select **Audiences > Create Audience > Website Traffic Audience**.
@@ -178,7 +178,7 @@ The visitor data you collect can be packaged into a **Website Traffic Audience**
 
 ![Create Audience in Ad Manager](../../../../assets/images/ec-第三方整合-linetag-建立受眾-lineadmanager.en.png){ title="Create Audience in Ad Manager" }
 
-### Conversion Analysis
+### Conversion Analysis { #overview-line-tag-conversion }
 
 In the analytics feature of LINE OA Manager, use Broadcast Message - Custom Conversion to analyze the actual conversion performance of specific messages.
 
@@ -189,7 +189,7 @@ In the analytics feature of LINE OA Manager, use Broadcast Message - Custom Conv
 
 ![Conversion Analysis](../../../../assets/images/ec-第三方整合-linetag-轉換分析.en.png){ title="Conversion Analysis" }
 
-## Next Steps
+## Next Steps { #next-steps-line-tag }
 
 <div class="grid cards" markdown>
 
@@ -199,7 +199,7 @@ In the analytics feature of LINE OA Manager, use Broadcast Message - Custom Conv
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-line-tag }
 
 ??? quote "Why does my LINE Tag status keep showing 'Waiting for data' or 'No activity'?"
     There are usually three possible causes:

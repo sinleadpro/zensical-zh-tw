@@ -60,11 +60,11 @@ hide:
 
 ![Meta Ad Idle](../../../../assets/images/ec-第三方整合-fb-mbe-meta廣告閒置.en.png){ .hero-page }
 
-## Meta Ad Account Idle Policy
+## Meta Ad Account Idle Policy { #overview-meta-reclaim }
 
 In CYBERBIZ, if a merchant creates a Meta ad account and does not top up or use it for an extended period, the account enters the idle account handling process.
 
-## Idle Account Definition
+## Idle Account Definition { #intro-meta-reclaim }
 
 An ad account must **meet both** of the following conditions to be classified as idle:
 
@@ -73,12 +73,12 @@ An ad account must **meet both** of the following conditions to be classified as
 
 An idle account means the account has gone unused for an extended period. The system then starts the release process to reclaim resources.
 
-## Account Release Rules and Reminders
+## Account Release Rules and Reminders { #specs-meta-reclaim }
 
 !!! path "Admin Path"
     Merchants can check the status at: **"Third-Party Integrations"** > **"Facebook Settings (Ads / Registration and Login)"** > **"Ad Account Settings"**.
 
-### Expiry Notifications
+### Expiry Notifications { #specs-meta-reclaim-notifications }
 
 Starting **30, 15, 7, and 1 days** before the account reaches six months, CYBERBIZ sends an email and shows a reminder banner in the admin.
 
@@ -92,19 +92,19 @@ Starting **30, 15, 7, and 1 days** before the account reaches six months, CYBERB
 
 ---
 
-### How to Reactivate
+### How to Reactivate { #specs-meta-reclaim-overview-meta-reclaim }
 
-After receiving a reminder, to keep the account's permissions, make sure to [top up](create-meta-ad-account-top-up.md#儲值廣告金){ title="Create a Meta ad account and complete a top-up" } before the deadline. Once the top-up is complete, the account is reactivated and related warnings are cleared automatically.
+After receiving a reminder, to keep the account's permissions, make sure to [top up](create-meta-ad-account-top-up.md#operate-meta-account-steps-ads){ title="Create a Meta ad account and complete a top-up" } before the deadline. Once the top-up is complete, the account is reactivated and related warnings are cleared automatically.
 
 ---
 
-### Turn off Reminders
+### Turn off Reminders { #specs-meta-reclaim-operate }
 
 If a merchant selects "Don't Remind Me," the system stops sending reminder emails and hides the admin banner. However, **this does not change the release rules**. If the six-month deadline passes without a top-up, the system still releases the account automatically.
 
 ![Meta Ad Idle Notice - Turn Off Reminders](../../../../assets/images/ec-第三方整合-meta廣告帳號閒置通知-不再提醒.en.png)
 
-## Impact of Account Release and Reapplication
+## Impact of Account Release and Reapplication { #operate-meta-reclaim }
 
 Once an account enters the release process and is reclaimed:
 
@@ -114,7 +114,7 @@ Once an account enters the release process and is reclaimed:
 !!! warning "Important Notice"
     We recommend that merchants complete the minimum-threshold top-up soon after creating the account to keep the ad account stable and avoid losing account assets and permissions due to expiration.
 
-## Next Steps
+## Next Steps { #next-steps-meta-reclaim }
 
 <div class="grid cards" markdown>
 
@@ -128,11 +128,11 @@ Once an account enters the release process and is reclaimed:
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-meta-reclaim }
 
 ??? quote "How can I prevent my ad account from being released?"
 
-    Make sure to complete your first [top up](create-meta-ad-account-top-up.md#儲值廣告金){ title="Create a Meta ad account and complete a top-up" } within six months. Merchants are advised to complete the minimum-threshold top-up soon after creating the account to avoid having the account released due to prolonged inactivity.
+    Make sure to complete your first [top up](create-meta-ad-account-top-up.md#operate-meta-account-steps-ads){ title="Create a Meta ad account and complete a top-up" } within six months. Merchants are advised to complete the minimum-threshold top-up soon after creating the account to avoid having the account released due to prolonged inactivity.
 
 ??? quote "Can a released account be restored?"
 

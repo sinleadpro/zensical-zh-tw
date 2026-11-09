@@ -79,15 +79,15 @@ When a transaction requires multiple payment methods, such as cash plus a gift v
 	- **Voucher redemption**: The customer holds store gift vouchers, 5x vouchers, or Dongzi vouchers. The voucher face value is deducted first, and then the customer pays the difference.
 	- **Bonus control**: For specific payment methods, such as gift vouchers, set them so they do not earn bonus points.
 
-## Usage Notes
+## Usage Notes { #prerequisites-multi-payment }
 
 - **Manual recording only**: Multiple payment methods only provide **payment records**, and they **cannot connect automatically** to physical card readers or mobile payment devices. For card payments, staff must enter the amount manually on the card reader.
 - **Bonus calculation logic**: The system automatically calculates the final bonus points the order can earn, based on the **Accumulate Bonus** setting of each payment item.
 
 
-## Back-Office Setup
+## Back-Office Setup { #intro-multi-payment }
 
-### Step 1: Turn on Multiple Payment Methods
+### Step 1: Turn on Multiple Payment Methods { #intro-multi-payment-step-a-enable }
 
 1. Log in to the CYBERBIZ POS admin dashboard and go to **POS > POS Store List > [Click the POS store] > Payment Methods**.
 2. In the **Payment Method** list on the left, turn on the **Multiple Payment Methods** option.
@@ -95,7 +95,7 @@ When a transaction requires multiple payment methods, such as cash plus a gift v
 ![](../../../assets/images/POS-後台-所有POS門市-付款方式-新增多付款方式01.en.png){ .screenshot }
 
 
-### Step 2: Select an Invoice Issuance Method
+### Step 2: Select an Invoice Issuance Method { #intro-multi-payment-step-b-invoice }
 
 Select whether to issue an invoice for the amount paid with each payment method:
 
@@ -113,7 +113,7 @@ Select whether to issue an invoice for the amount paid with each payment method:
     When the system issues an invoice, it issues an invoice only for NT$500.
 
 
-### Step 3: Set up Payment Items
+### Step 3: Set up Payment Items { #intro-multi-payment-step-c-settings }
 
 1. In the **Multiple Payment Methods** list on the right, click **Add Item** and enter a custom name, such as gift voucher or stimulus voucher.
 
@@ -136,9 +136,9 @@ Select whether to issue an invoice for the amount paid with each payment method:
 
 ![](../../../assets/images/POS-後台-所有POS門市-付款方式-新增多付款方式02.en.png){ .screenshot }
 
-## Front-End Operations
+## Front-End Operations { #operate-multi-payment }
 
-### Checkout
+### Checkout { #operate-multi-payment-checkout }
 
 1. On the POS front-end checkout page, click **Other Payment Methods**.
 2. Select **Multiple Payment Methods**.
@@ -151,21 +151,21 @@ Select whether to issue an invoice for the amount paid with each payment method:
 ![](../../../assets/images/POS-前台-結帳-多付款方式-建立多付款選項01.en.gif){ .screenshot }
 
 
-### Order Details Lookup
+### Order Details Lookup { #operate-multi-payment-order-details }
 
 1. In **POS > Orders**, click the :lucide-info: info box in the upper-right corner to view the order details.
 2. The first line of the details shows the split payment information and amounts.
 
 ![](../../../assets/images/POS-前台-訂單-顯示多付款方式細項01.en.gif){ .screenshot }
 
-### Shift Close Reconciliation
+### Shift Close Reconciliation { #operate-multi-payment-closing-check }
 
 1. Log in to the POS front-end and go to **Others > Interim Closing**.
 2. In the **Sales** section, you can view the amounts received during the current shift.
 
 ![](../../../assets/images/POS-前台-其他功能-小結關帳-營業額顯示多付款方式細項01.en.png){ .screenshot }
 
-### Record Lookup
+### Record Lookup { #operate-multi-payment-record-query }
 
 1. Log in to the POS front-end and go to **Others > Reconciliation**.
 2. Set a time range.

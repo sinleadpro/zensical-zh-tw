@@ -84,7 +84,7 @@ hide:
 
 ![Manage product tags](../../../assets/images/ec-product-tag-management.zh-tw.en.png){  title="Manage Product Tags Page"  .hero-page }
 
-## About Product Tags
+## About Product Tags { #intro-product-tags }
 
 Product tags help you manage products and marketing campaigns more effectively:
 
@@ -93,9 +93,9 @@ Product tags help you manage products and marketing campaigns more effectively:
 - Faster search and operations: Find products quickly by tag to speed up admin tasks and management.
 - Exclude from third-party platform sync: Set specific tags to exclude products from the system's third-party platform data sync (such as GMC, Facebook DPA, LINE, and Market America).
 
-## Steps
+## Steps { #operate-product-tags }
 
-### Add Product Tags
+### Add Product Tags { #operate-product-tags-create }
 
 1. Log in to the CYBERBIZ admin and go to **Products > Product Tag Management**.
 2. Click **Add Tags** and enter the tag name in the Tag Name field (for example, Clothing). If you don't see the add button, scroll down to the bottom of the tag list.
@@ -105,7 +105,7 @@ Product tags help you manage products and marketing campaigns more effectively:
 
 ---
 
-### Add Products to a Tag Group
+### Add Products to a Tag Group { #operate-product-tags-add }
 
 You can add products to a tag group in two ways:
 
@@ -138,7 +138,7 @@ You can add products to a tag group in two ways:
 
 ---
 
-#### Set Product Tags from the Edit Page
+#### Set Product Tags from the Edit Page { #operate-product-tags-edit-page }
 
 1.  Log in to the CYBERBIZ admin and go to **Products > All Products**.
 2.  Click the product you want to set up and open the **Settings** page.
@@ -148,7 +148,7 @@ You can add products to a tag group in two ways:
 
 ---
 
-### Remove Products from a Tag Group
+### Remove Products from a Tag Group { #operate-product-tags-remove }
 
 1. Log in to the CYBERBIZ admin and go to **Products > Product Tag Management**.
 2. In the tag list on the right, click to expand the tag group you want to edit, or use search and filters to find the products you want to edit.
@@ -158,7 +158,7 @@ You can add products to a tag group in two ways:
 
 ---
 
-### Delete Product Tags
+### Delete Product Tags { #operate-product-tags-delete }
 
 1. Log in to the CYBERBIZ admin and go to **Products > Product Tag Management**.
 2. Find the tag group you want to delete in the tag group list.
@@ -170,9 +170,9 @@ You can add products to a tag group in two ways:
 
 ---
 
-### Tags for Excluding Products from Third-Party Platforms
+### Tags for Excluding Products from Third-Party Platforms { #operate-product-tags-exclude }
 
-[:lucide-tag:{ title="Applicable Plans" }](../../../resources/conventions.md#conventions-plans) | Enterprise
+[:lucide-tag:{ title="Applicable Plans" }](../../../resources/conventions.md#reference-conventions-plans) | Enterprise
 
 Set specific tags to exclude products from the system's third-party platform data sync. After you apply an exclusion tag, the product's data is not uploaded to the following third-party platforms:
 
@@ -196,7 +196,7 @@ Set specific tags to exclude products from the system's third-party platform dat
 
 ![Tags for excluding products from third-party platforms](../../../assets/images/ec-remove-upload-to-third-party-platform-tag.zh-tw.en.png){ title="Tags for Excluding Products from Third-Party Platforms" }
 
-## Next Steps
+## Next Steps { #next-steps-product-tags }
 
 <div class="grid cards" markdown>
 
@@ -212,7 +212,7 @@ Set specific tags to exclude products from the system's third-party platform dat
 
 </div>
 
-## FAQ
+## FAQ { #faq-product-tags }
 
 ??? quote "What happens if I set both the `排除product feed` and `贈品` tags?"
     If you set both tags, the system applies the `贈品` tag rules first, so the product is not uploaded to any supported third-party platform.

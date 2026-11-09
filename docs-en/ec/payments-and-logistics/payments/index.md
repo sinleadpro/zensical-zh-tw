@@ -17,7 +17,7 @@ hide:
   - feedback
 ---
 
-## Payment and Logistics Settings
+## Payment and Logistics Settings { #overview-payments-settings }
 
 <div class="grid cards" markdown>
 

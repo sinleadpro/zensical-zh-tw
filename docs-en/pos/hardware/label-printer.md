@@ -85,7 +85,7 @@ Merchants can print their own product labels with barcodes, prices, expiration d
     - **Private-Label Brands**: Use the label printer to produce internationally compliant barcode labels for self-made and self-sold products, enhancing their professional appearance.
 
 
-## Important Notes
+## Important Notes { #prerequisites-label-printer }
 
 - **Supported Models**: The system currently supports only **TSC TTP-225** and **TSC TTP-323** label printers.
 - **Operating System Requirement**: The computer must run Windows Pro. Windows Home will not run the feature properly.
@@ -103,9 +103,9 @@ Merchants can print their own product labels with barcodes, prices, expiration d
     > Recommended setup: First download the [POS Device Connection Driver](../software/drivers.md) and run a label printing test. Confirm compatibility before use.
 
 
-## Operating Procedure
+## Operating Procedure { #operate-label-printer }
 
-### Step 1: Select the Label Printer and Supply Specifications
+### Step 1: Select the Label Printer and Supply Specifications { #operate-label-printer-step-a-supplies }
 
 | **Model** | **TSC TTP-225** | **TSC TTP-323** |
 | -------- | --------------- | --------------- |
@@ -119,7 +119,7 @@ Merchants can print their own product labels with barcodes, prices, expiration d
 
 ![](../../assets/images/POS-裝置-標籤列印機01.en.png){ .screenshot }
 
-### Step 2: Hardware Installation and Connection Test
+### Step 2: Hardware Installation and Connection Test { #operate-label-printer-step-b-hardware }
 
 Before you start printing, make sure the label printer's hardware is fully set up.
 
@@ -131,7 +131,7 @@ Before you start printing, make sure the label printer's hardware is fully set u
 
 
 
-## More Actions
+## More Actions { #next-steps-label-printer }
 
 <div class="grid cards" markdown>
 

@@ -13,7 +13,7 @@ hide:
   - feedback
 ---
 
-## Prerequisite Setup
+## Prerequisite Setup { #prerequisites-facebook-shop }
 
 <div class="grid cards" markdown>
 
@@ -37,7 +37,7 @@ hide:
 
 ---
 
-## Store Integration and Management
+## Store Integration and Management { #operate-facebook-shop }
 
 <div class="grid cards" markdown>
 

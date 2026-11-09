@@ -82,9 +82,9 @@ Set up the member birthday gift, including sending rules for bonus points and co
 	- **Tiered rewards**: Combine it with VIP tiers to give high-value members a better birthday gift.
 
 
-## Birthday Gift Rules
+## Birthday Gift Rules { #specs-birthday-gift }
 
-### Sending Schedule
+### Sending Schedule { #specs-birthday-gift-send }
 
 - **Send date**: By default, the system sends each month's birthday gift on the 1st of that month.
 - **Early sending**: To send the birthday gift early, finish the setting at least **2 days** before the send date so the system can build the recipient list correctly.
@@ -97,15 +97,15 @@ Set up the member birthday gift, including sending rules for bonus points and co
 
 - **Notification time**: If you've turned on the birthday gift notification in **Push Notifications > Email Notification Template** or **SMS Notification Templates**, the system sends all notifications to members at 12:00 PM that day.
 
-### Claim Rules
+### Claim Rules { #specs-birthday-gift-member-rules }
 
 - **Sign-up in the birthday month**: If a new member signs up in their birthday month, the system will send the birthday gift right away, regardless of the **send the birthday gift N days early** setting.
 - **One per cycle**: Within each birthday gift cycle (from the early send date to the end of the birthday month), each member can claim **one regular member birthday gift**.
 
-### Related Actions
+### Related Actions { #specs-birthday-gift-operate }
 
-- **Stacking (one gift per tier)**: If you've also set up a [VIP birthday gift](../../members/vip/setup-exclusive-vip-discounts.md#4-生日禮設定) in **Customer Management > VIP Settings**, the system sends both the regular birthday gift and the VIP birthday gift.
-- **Delete a birthday gift**: Go to **Customer Management > All Customers**, open the customer's page, and [manually take back](../../members/manage-member-profiles.md#任務四資產配置) the coupon or bonus points.
+- **Stacking (one gift per tier)**: If you've also set up a [VIP birthday gift](../../members/vip/setup-exclusive-vip-discounts.md#operate-vip-discounts-birthday) in **Customer Management > VIP Settings**, the system sends both the regular birthday gift and the VIP birthday gift.
+- **Delete a birthday gift**: Go to **Customer Management > All Customers**, open the customer's page, and [manually take back](../../members/manage-member-profiles.md#operate-member-profiles-assets) the coupon or bonus points.
 - **Bulk import members**: When importing, use the **birthday gift (per member)** field to decide whether to send the current month's birthday gift to the new members.
 
     | Field Value | System Behavior |
@@ -113,9 +113,9 @@ Set up the member birthday gift, including sending rules for bonus points and co
     | Yes | If the birthday gift feature is on, the birthday gift for the import month is sent |
     | No | The birthday gift for the import month isn't sent. Other months follow the admin settings |
 
-## Steps
+## Steps { #operate-birthday-gift }
 
-### 1. Set Up The Birthday Gift
+### 1. Set Up The Birthday Gift { #operate-birthday-gift-settings-content }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Shop-wide Discount – Bonus & Coupons > 會員生日贈送優惠券/紅利點數**.
 2. Switch the feature to `開啟`.
@@ -132,7 +132,7 @@ Set up the member birthday gift, including sending rules for bonus points and co
         - **Effective from**: The coupon can be used only in the birthday month.
 
 
-## FAQ
+## FAQ { #faq-birthday-gift }
 
 ??? quote "Can I edit the birthday gift notification?"
     Yes. Go to **Push Notifications > Email Notification Template** or **SMS Notification Templates**, find "Customer Birthday Personal coupon Notification" under Customer, and edit it.

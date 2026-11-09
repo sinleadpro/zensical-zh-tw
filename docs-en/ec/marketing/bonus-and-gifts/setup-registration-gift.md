@@ -75,16 +75,16 @@ Set up the member registration gift, including sending rules for bonus points an
 
 ---
 
-## Before You Start
+## Before You Start { #prerequisites-registration-gift }
 
 - **Frequency**: Each account gets the registration gift only once.
 - **import members limitation**: For customers added by Excel bulk import, the system **does not automatically send the registration gift** (per imported account). Send it manually.
 - **automatically sent**: As soon as a customer signs up, the system automatically adds the reward to their account.
 
 
-## Steps
+## Steps { #operate-registration-gift }
 
-### 1. Set Up The Registration Gift Coupon
+### 1. Set Up The Registration Gift Coupon { #operate-registration-gift-settings-coupon }
 
 !!! info "Plan Availability"
     **registration gift coupon** is available only on the Expert, PLUS, and Enterprise plans.
@@ -100,7 +100,7 @@ Set up the member registration gift, including sending rules for bonus points an
 ![](https://www.cyberbiz.io/support/wp-content/uploads/全館折扣-會員註冊贈送優惠券-紅利積點01.png){ .screenshot }
 
 
-### 2. Set Up The Registration Gift Bonus Points
+### 2. Set Up The Registration Gift Bonus Points { #operate-registration-gift-settings-bonus }
 
 
 1. Go to **Marketing > 全館折扣-紅利 & 優惠券 > 會員紅利點數**.
@@ -118,7 +118,7 @@ Set up the member registration gift, including sending rules for bonus points an
 
 
 
-## FAQ
+## FAQ { #faq-registration-gift }
 
 ??? quote "Can I take back a registration gift after it's sent?"
     Once a coupon is in a customer's account (import members), you can only delete it one by one from each customer's page in **Customer Management > All Customers**. The same applies to bonus points.

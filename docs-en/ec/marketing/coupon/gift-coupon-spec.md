@@ -80,7 +80,7 @@ Learn about CYBERBIZ gift coupon specs, product restrictions, how to create them
 !!! info "Plan Differences"
     - On PLUS plans, gift coupons are an add-on module (choose 2 of 11). Confirm that you've selected this module before using it. The Enterprise plan includes it by default.
 
-## Before You Start
+## Before You Start { #prerequisites-coupon }
 
 - **Product restriction**: Gift coupons don't support combo products.
 - **Listing restriction**: Gift coupons can only be linked to regular products that are listed.
@@ -96,12 +96,12 @@ Learn about CYBERBIZ gift coupon specs, product restrictions, how to create them
 - **Empty cart**: A cart that contains only gift coupon items isn't supported. If the cart has no regular paid products, the system treats it as empty and checkout can't continue.
 
 
-## Create A Gift Coupon
+## Create A Gift Coupon { #operate-coupon }
 
 <div class="grid cards" markdown>
 
 - :lucide-hash:{ .lg }
-    [__Send coupons from the Member List__](../../members/manage-member-profiles.md#2-優惠券派發與管理)
+    [__Send coupons from the Member List__](../../members/manage-member-profiles.md#operate-member-profiles-coupons)
     Use member filters to send coupons in bulk.
 
 - :lucide-hash:{ .lg }
@@ -120,9 +120,9 @@ Learn about CYBERBIZ gift coupon specs, product restrictions, how to create them
 </div>
 
 
-## Gift Coupon Rules
+## Gift Coupon Rules { #specs-coupon }
 
-### Inventory Check Order
+### Inventory Check Order { #specs-coupon-intro-details }
 
 When an order is placed, the system checks inventory in this order. If the gift coupon product is out of stock, the customer is asked to remove the coupon before checking out:
 
@@ -132,17 +132,17 @@ When an order is placed, the system checks inventory in this order. If the gift 
 4. Threshold or quantity gift products
 5. **Gift coupon products**
 
-### Analytics
+### Analytics { #specs-coupon-overview-details }
 
 Gift coupons are a type of coupon. You can see their performance in **圖表分析 > Marketing Campaign Analysis > 優惠券分析** in the admin. Gift coupons sent from the member list are counted as "member-exclusive coupons."
 
-### Special Cases
+### Special Cases { #specs-coupon-scenarios }
 
 1. **Coupon no longer applies**: If the customer refreshes the cart, updates cart items, or the gift runs out of stock after the coupon is applied, the coupon may fail or show an error. The customer needs to remove the coupon and check out again.
 2. **Minimum spend**: Even if the gift coupon threshold is NT$0, the cart must contain at least one regular (non-gift) product. If the cart is empty, the customer is sent back to the home page or member page.
 3. **Threshold vs. inventory**: If the order both misses the spending threshold and the gift is out of stock, the system checks the threshold first.
 
-## Checkout Flow
+## Checkout Flow { #operate-coupon-checkout-flow }
 
 1. On the checkout page, the customer clicks "Select coupon or Enter Promo Code."
 
@@ -157,7 +157,7 @@ Gift coupons are a type of coupon. You can see their performance in **圖表分�
     ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠碼09.png){ .screenshot }
 
 
-## FAQ
+## FAQ { #faq-coupon }
 
 ??? quote "Why can't I apply my gift coupon?"
     Check the following:

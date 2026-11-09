@@ -72,7 +72,7 @@ Merchants can flexibly configure how the POS front end alerts staff when product
     - **Strict stock control**: Select "Overlay Pop-up" to require store staff to confirm before proceeding, preventing overselling.
     - **Smooth operations**: Select "Timed Alert" for visual reminders only, without interrupting checkout.
 
-## Set up the Alert Style
+## Set up the Alert Style { #operate-low-stock }
 
 1. Log in to the CYBERBIZ admin dashboard and go to **POS > POS Store List**.
 2. In the **POS Store List**, click the **POS store name** you want to set up.
@@ -90,7 +90,7 @@ Merchants can flexibly configure how the POS front end alerts staff when product
 ![](../../assets/images/POS-後台-POS功能-所有POS商店-庫存不足提醒通知01.en.png){ .screenshot }
 
 
-## Front-End Display Style Reference
+## Front-End Display Style Reference { #intro-low-stock }
 
 The following shows how each alert style appears when product or gift stock is low:
 

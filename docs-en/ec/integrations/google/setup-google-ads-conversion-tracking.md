@@ -62,20 +62,20 @@ hide: []
 
 ![Google Ads conversion tracking](../../../assets/images/ec-第三方整合-google設定-ads轉換追蹤.en.png){ .hero-page }
 
-## Google Ads Overview
+## Google Ads Overview { #overview-google-ads-conversions }
 
 Google Ads (formerly Google AdWords) is Google's online advertising platform. Merchants can bid to show ads in Google Search results, on Google partner websites, and on YouTube. Google Ads offers several ad formats, including search ads, multimedia ads, shopping ads, and video ads. Merchants can choose the ad types that best fit their products and marketing goals. [Learn more :lucide-external-link:](https://support.google.com/google-ads/answer/6146252).
 
-## Why Set up Conversion Tracking
+## Why Set up Conversion Tracking { #operate-google-ads-conversions }
 
 A "conversion" is a key action that a user completes on your website after clicking an ad, such as checking out, signing up as a member, or filling out a form.
 Setting up conversion tracking in Google Ads helps merchants measure ad performance, understand customer behavior, and further refine ad targeting. CYBERBIZ integrates with Google conversion codes. Follow the detailed steps below to set it up:
 
-## Prerequisites and Limitations
+## Prerequisites and Limitations { #prerequisites-google-ads-conversions }
 
 - [x] **Create an ad campaign**: Merchants must first [create a Google Ads campaign :lucide-external-link:](https://ads.google.com/aw/campaigns?supportResource=google-ads/answer/10207423) before they can set up conversion tracking. For setup details, see the [official guide :lucide-external-link:](https://support.google.com/google-ads/answer/6324971?hl=zh-Hant).
 
-## Create a Conversion Action in Google Ads
+## Create a Conversion Action in Google Ads { #operate-google-ads-conversion-create }
 
 1.  **Go to the conversions page**: Sign in to the Google Ads admin console. In the sidebar, click **Goal ** > ** Summary**, then click **Create conversion action**.
 2.  **Select a category**: Select **Page view**.
@@ -100,7 +100,7 @@ Setting up conversion tracking in Google Ads helps merchants measure ad performa
 
     ![Google Ads finish conversion action setup](../../../assets/images/ec-第三方整合-google-ads-儲存轉換動作.en.gif)
 
-## Enter the Conversion Code in the CYBERBIZ Backend
+## Enter the Conversion Code in the CYBERBIZ Backend { #intro-google-ads-conversions }
 
 **Navigation path:** Sign in to the CYBERBIZ admin console and go to "**Third-party integrations ** > ** Google settings**" > the Google Ads conversion section.
 
@@ -138,7 +138,7 @@ Setting up conversion tracking in Google Ads helps merchants measure ad performa
     *   **Avoid duplicate tags**: If you previously set up Google Ads tracking through GTM, you **must remove the related tags in GTM** after you finish the setup in the CYBERBIZ backend. This prevents code conflicts that could make the data inaccurate.
     *   **Automated ads limitation**: If the merchant uses the [CYBERBIZ-managed](automated-ads-system.md#cyberbiz-代管適合新手){ title=" automated ads system setup" } "**Automated Advertising System**", then **you cannot** view data in a personal Google Ads account using the method above. Go to the CYBERBIZ backend to view the data.
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-google-ads-conversions }
 
 ??? quote "Can I set up conversion tracking for automated ads?"
     No. Automated ads are managed by the CYBERBIZ account, so you cannot view their data in Google Ads. Merchants can view the data in the backend.

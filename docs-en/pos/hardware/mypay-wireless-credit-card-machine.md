@@ -84,7 +84,7 @@ With the Sunmi wireless credit card and invoice machine, merchants can pair it w
     - **All-in-one**: Combines **credit card payments, barcode scanning, and invoice printing** in one device, simplifying in-store hardware setup.
 
 
-## Usage Notes
+## Usage Notes { #prerequisites-mypay-terminal }
 
 - **Payment restriction**: The Sunmi card machine plan requires the **MyPay payment service**. Complete the payment service application first.
 - **Invoice policy**: The card machine works only as a "printer" and does not include invoice issuing services. Merchants must purchase an invoice service to issue invoices.
@@ -92,7 +92,7 @@ With the Sunmi wireless credit card and invoice machine, merchants can pair it w
 - **Paper roll specifications**: Use only **10m standard thermal paper rolls** (5.7 cm wide, 3.6 cm outer diameter). Oversized rolls prevent the cover from closing.
 
 
-## Device Overview
+## Device Overview { #intro-mypay-terminal }
 
 === "Sunmi V3H"
 
@@ -115,7 +115,7 @@ With the Sunmi wireless credit card and invoice machine, merchants can pair it w
 
     ![](../../assets/images/POS-裝置-商米P2PRO無線刷卡機01.en.png){ .screenshot }
 
-## Prerequisites: MyPay Payment Application
+## Prerequisites: MyPay Payment Application { #prerequisites-mypay-application }
 
 Before setting up the system, make sure you have the following information:
 
@@ -130,16 +130,16 @@ Before setting up the system, make sure you have the following information:
     - **MyPay card machine name**
 
 
-## Setup Procedure
+## Setup Procedure { #operate-mypay-terminal }
 
-### Step 1: Bind the Device
+### Step 1: Bind the Device { #operate-mypay-terminal-step-a-bind }
 
 After you receive the card machine, sign in to the MyPay App on the machine and [complete the binding](https://www.mypay.com.tw/index.php/zh-tw/news/new-features-online/bind-your-device-and-activate-the-mypay-with-confidence-easy-to-get-started-and-a-smooth-experience).
 
 - Enter the device name: `[您的統編]_01`, for example: `12345678_01`
 
 
-### Step 2: Bind the CYBERBIZ Back Office
+### Step 2: Bind the CYBERBIZ Back Office { #operate-mypay-terminal-step-b-bind }
 
 1. **Get the MyPay key**: Sign in to the [MAPAY admin console](https://biz.spay.com.tw/auth/login), go to **System Setting > Key Management**, and get the **MYPAY merchant key**.
     ![](../../assets/images/MAYPAY-後台-系統設定-金鑰管理-查詢金鑰01.en.png){ .screenshot }
@@ -157,7 +157,7 @@ After you receive the card machine, sign in to the MyPay App on the machine and 
     ![](../../assets/images/POS-後台-所有POS商店-付款方式-新增MYPAY付款方式01.en.png){ .screenshot }
 
 
-### Step 3: MyPay Back Office Webhook Settings
+### Step 3: MyPay Back Office Webhook Settings { #operate-mypay-terminal-step-c-mypay }
 
 To make sure transaction results return correctly to the CYBERBIZ system, you must set up the callback URLs.
 
@@ -197,7 +197,7 @@ To make sure transaction results return correctly to the CYBERBIZ system, you mu
     > You can create a test order to confirm that the POS completes checkout after a scan or tap.
 
 
-### Step 4: Card Machine Operation and Checkout
+### Step 4: Card Machine Operation and Checkout { #operate-mypay-terminal-step-d-operation }
 
 1. **Sign in to the device**: Open the **MyPay APP** on the card machine and enter your account and password.
 2. **Front-end checkout**:
@@ -210,7 +210,7 @@ To make sure transaction results return correctly to the CYBERBIZ system, you mu
 
 
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-mypay-terminal }
 
 ??? quote "Why doesn't the card machine respond after clicking Pay?"
     1. Make sure the tablet POS and the card machine are connected to the same Wi-Fi network.
@@ -224,7 +224,7 @@ To make sure transaction results return correctly to the CYBERBIZ system, you mu
     Buy them from the [Ministry of Finance e-Invoice Thermal Paper Platform](https://invoice.ppmof.gov.tw/PSJ_Web/) or an office supply store. Specify **10m standard thermal paper rolls** (outer diameter about 3.6 cm). Standard 50m or 80m rolls for desktop invoice machines are too thick to fit.
 
 
-## More Operations
+## More Operations { #next-steps-mypay-terminal }
 
 <div class="grid cards" markdown>
 

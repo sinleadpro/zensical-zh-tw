@@ -65,7 +65,7 @@ hide: []
 
 ![Product Not Applicable to Selected Promotion](../../../assets/images/ec-marketing-product-not-applicable-to-select-promotion.zh-tw.png){ title="商品排除指定優惠" .hero-page }
 
-## About Product Not Applicable To Selected Promotion
+## About Product Not Applicable To Selected Promotion { #overview-promo-exclusion }
 
 Exclude products from specific promotions to avoid double discounts and protect your margins. You can exclude products from store-wide discount, coupons, multi-level category threshold discounts, and VIP discounts.
 
@@ -78,7 +78,7 @@ Exclude products from specific promotions to avoid double discounts and protect 
 
 ---
 
-### Promotion Types You Can Exclude
+### Promotion Types You Can Exclude { #overview-promo-exclusion-campaign }
 
 Add products to the matching "Not Applicable to Discount" Collections to keep them out of these promotions:
 
@@ -93,7 +93,7 @@ Add products to the matching "Not Applicable to Discount" Collections to keep th
     This feature also supports merchants with POS-exclusive products, so in-store-only products aren't affected by online promotions.
 
 <!--
-## Related Settings
+## Related Settings { #operate-promo-exclusion-settings }
 
 <div class="grid cards" markdown>
 
@@ -127,13 +127,13 @@ Add products to the matching "Not Applicable to Discount" Collections to keep th
 
 ---
 
-### How Exclusion Works
+### How Exclusion Works { #overview-promo-exclusion-result }
 
 After you exclude a product from selected promotions, the checkout page shows a notice based on your settings, and the product isn't included in the excluded promotions.
 
 ![Storefront Exclusion Notice](../../../assets/images/ec-product-not-applicable-to-select-promotion-frontend.zh-tw.png){ title="前台排除優惠顯示" }
 
-## Steps
+## Steps { #operate-promo-exclusion }
 
 Follow these steps to exclude products from specific promotions:
 
@@ -148,7 +148,7 @@ Follow these steps to exclude products from specific promotions:
 
 ![Product Exclusion Settings](../../../assets/images/ec-marketing-product-not-applicable-to-select-promotion-setting.zh-tw.png){ title="商品排除優惠設定" }
 
-## FAQ
+## FAQ { #faq-promo-exclusion }
 
 ??? quote "Can a product be in more than one Not Applicable to Discount Collections?"
     Yes. A product can be in several Not Applicable to Discount Collections at once, for example to exclude it from both store-wide promotions and coupons.

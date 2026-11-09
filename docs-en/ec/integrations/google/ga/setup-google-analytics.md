@@ -65,13 +65,13 @@ hide: []
 
 ![GA4 Setup](../../../../assets/images/ec-第三方整合-google-ga4設定.en.png){ .hero-page title="GA4 Setup" }
 
-## Google Analytics Overview
+## Google Analytics Overview { #overview-google-analytics }
 
 Google Analytics (GA4) is essential for running a brand website. It helps marketing teams track traffic and user behavior. The integration has two main steps: **creating the Google Analytics account** and **entering the ID in the storefront admin**.
 
-## Setup Steps
+## Setup Steps { #operate-google-analytics }
 
-### Create a Google Analytics Account <small>Google-side Steps</small>
+### Create a Google Analytics Account <small>Google-side Steps</small> { #operate-google-analytics-create-google-analytics }
 
 1.  **Sign in to the GA admin**: Go to [Google Analytics :lucide-external-link:](https://analytics.google.com/), then click "Start measuring".
 
@@ -99,7 +99,7 @@ Google Analytics (GA4) is essential for running a brand website. It helps market
 
 ---
 
-### Connect the GA4 Account to Your Website <small>CYBERBIZ Admin Steps</small>
+### Connect the GA4 Account to Your Website <small>CYBERBIZ Admin Steps</small> { #operate-google-analytics-ga4-account-cyberbiz }
 
 !!! warning "Notes"
 
@@ -115,7 +115,7 @@ Google Analytics (GA4) is essential for running a brand website. It helps market
 
 ![Enter GA4 Measurement ID](../../../../assets/images/ec-第三方整合-google-ga串接-輸入id.en.gif){ title="Enter GA4 Measurement ID" }
 
-## How to Verify the Installation
+## How to Verify the Installation { #operate-google-analytics-view }
 
 1.  **Test the behavior**: Open the storefront, click any product, and perform the "**Add to Cart**" action.
 
@@ -125,7 +125,7 @@ Google Analytics (GA4) is essential for running a brand website. It helps market
 
     ![GA4 real-time report](../../../../assets/images/ec-第三方整合-google-ga-即時報表.en.png){ .screenshot title="GA4 real-time report" }
 
-## Next Steps
+## Next Steps { #next-steps-google-analytics }
 
 To ensure data accuracy, we recommend making the following adjustments after the connection is complete:
 
@@ -136,20 +136,20 @@ To ensure data accuracy, we recommend making the following adjustments after the
   In the GA4 admin interface, under "Data streams," define your company IP addresses to keep browsing by developers or marketing staff from interfering with your analytics.
 
 - :lucide-list:{ .lg }     
-  [__List Inapplicable Referral Links__](ga4-exclude-internal-traffic-and-referrals.md#列出不適用的參照連結網址-排除第三方網站){ title="Set up GA4 internal traffic and referral exclusions" }  
+  [__List Inapplicable Referral Links__](ga4-exclude-internal-traffic-and-referrals.md#operate-ga-exclude-overview-ga-exclude){ title="Set up GA4 internal traffic and referral exclusions" }
   Add your payment and logistics providers to the exclusion list so that conversion sources are not mistakenly identified as third-party payment pages.
 
 - :lucide-clock:{ .lg }     
-  [__Extend Data Retention Period__](google-analytics-advanced-tracking.md#資料保留-data-retention){ title="Set up Google Analytics advanced tracking and data analysis" }  
+  [__Extend Data Retention Period__](google-analytics-advanced-tracking.md#intro-ga-advanced-data-data-retention){ title="Set up Google Analytics advanced tracking and data analysis" }
   GA4 keeps data for only 2 months by default. We recommend going to "Data collection and modification" > "Data retention" and manually changing the setting to **14 months**.
 
 - :lucide-radio:{ .lg }     
-  [__Enable Google Signals (Google Signals)__](google-analytics-advanced-tracking.md#google-信號-google-signals){ title="Set up Google Analytics advanced tracking and data analysis" }  
+  [__Enable Google Signals (Google Signals)__](google-analytics-advanced-tracking.md#intro-ga-advanced-google-google-signals){ title="Set up Google Analytics advanced tracking and data analysis" }
   Turning on this feature provides cross-device usage data and more precise user profiles.
 
 </div>
 
-## FAQ
+## FAQ { #faq-google-analytics }
 
 ??? quote "How do I confirm that GA4 is connected successfully?"
 

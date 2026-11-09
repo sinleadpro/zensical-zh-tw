@@ -2,7 +2,7 @@
 title: "Manage Member Profiles"
 description: "When a specific member’s data or permissions change, points or coupon configuration needs adjustment, or ordering assistance is required, administrators can handle customer support and maintain member data from the Member Details page."
 created: 2026-02-11 00:00
-last_modified: 2026-08-17 14:22
+last_modified: 2026-11-06 10:00
 lang: en-US
 type: guide
 author: Ann
@@ -90,16 +90,17 @@ When a member's information or permissions change, their points or coupon alloca
     - **Advanced Customer Support**: Place orders on behalf of members who are unfamiliar with the website, or guide them through resetting their password.
 
 
-## Before You Begin
+## Before You Begin { #prerequisites-member-profiles }
 
 Before managing member information, understand the following system behavior:
 
 - **Data Synchronization**: Updating contact information on the Member Details page **does not** automatically update recipient information on **existing orders**.
 - **Irreversible Actions**: Once bonus points is issued or revoked, the system immediately updates the member's assets. Confirm the amount and reason before proceeding.
+- **Accounts Cannot Be Deleted**: Member data cannot be deleted after it is created. For duplicate or unused accounts, set the account status to `Disable account` in **Account Settings**. The member will no longer be able to log in.
 
 
 
-## Task 1: View Member Behavior And Asset Data
+## Task 1: View Member Behavior And Asset Data { #operate-member-profiles-metrics }
 
 After opening the details page, use the data overview at the top to quickly assess the member's spending power and current engagement status:
 
@@ -126,16 +127,16 @@ Data is more than a static record. It guides marketing decisions. The following 
 
 ![](../../assets/images/EC-後台-會員-所有會員-查看會員數據指標01.en.png)
 
-## Task 2: Maintain Basic Information And Accounts
+## Task 2: Maintain Basic Information And Accounts { #operate-member-profiles-account }
 
-### 1. Edit Basic Member Information
+### 1. Edit Basic Member Information { #operate-member-profiles-edit-basic }
 
 1. Go to **Customer Management > All Customers**, search for the member, and click the member's name to open the details page.
 2. In the **Basic Information** section, click **Edit** in the upper-right corner.
 3. Edit the name, email address, mobile number, birthday (Gregorian calendar format only), address, and other information.
 4. Click **Save**.
 
-### 2. Manage Account Permissions And Status
+### 2. Manage Account Permissions And Status { #operate-member-profiles-permissions }
 
 Use the **Account Settings** section to control permissions based on member behavior:
 
@@ -164,14 +165,14 @@ Use the **Account Settings** section to control permissions based on member beha
 
 !!! info "Additional Custom Information"
     - **Common Recipient Info**: View the member's saved delivery recipients.
-    - **Custom Fields**: View the merchant's [custom registration fields](../website-management/customer-registration-flow-and-fields.md#步驟-4-建立與管理自訂欄位) and the member's responses.
+    - **Custom Fields**: View the merchant's [custom registration fields](../website-management/customer-registration-flow-and-fields.md#operate-customer-reg-custom) and the member's responses.
       > This feature is available only to customers on the Expert PLUS and Enterprise plans.
 
-## Task 3: Manage Purchase Behavior And Orders
+## Task 3: Manage Purchase Behavior And Orders { #operate-member-profiles-orders }
 
 To help merchants accurately assess member value, the system consolidates **real-time online store and retail store orders** with **manually added orders from external channels**. This provides a comprehensive overview of spending data and ensures that VIP tiers and benefits continue seamlessly wherever the member shops.
 
-### 1. Online Store And Retail Store Purchases
+### 1. Online Store And Retail Store Purchases { #operate-member-profiles-store-orders }
 
 Scroll to the **Orders** section. This section automatically consolidates valid spending totals from the online store (EC) and POS retail stores as the primary basis for assessing member contribution.
 
@@ -180,7 +181,7 @@ Scroll to the **Orders** section. This section automatically consolidates valid 
 
 ![](../../assets/images/EC-後台-會員-所有會員-查看會員消費總額01.en.png)
 
-### 2. Orders From Other Channels
+### 2. Orders From Other Channels { #operate-member-profiles-other-orders }
 
 Scroll to the **Other Channels Accumulated Amount**/**Orders From Other Channels** section. This section consolidates spending from platforms that are not integrated with the system, such as marketplaces and private-community referrals. Manually add fragmented external-channel data to the system to manage the member's assets throughout their lifecycle.
 
@@ -226,21 +227,21 @@ The following two management methods are available depending on your plan:
         ![](../../assets/images/EC-前台-會員中心-編輯其他通路有效訂單名稱01.png)
 
 
-## Task 4: Allocate Assets
+## Task 4: Allocate Assets { #operate-member-profiles-assets }
 
 
-### 1. Issue And Manage Bonus Points
+### 1. Issue And Manage Bonus Points { #operate-member-profiles-bonus }
 
 === "Issue or Revoke an Individual Entry"
 
-    #### Issue
+    #### Issue { #operate-member-profiles-bonus-grant }
 
     1. Scroll to the **bonus points** section and click **Add bonus points**.
     2. Enter the **Point Name** (for example, Complaint Compensation) and **Point Value**.
     3. Set the **Expiration Date** (0 means the points never expire).
     4. Click **Confirm** to immediately credit the points to the member's account.
 
-    #### Revoke
+    #### Revoke { #operate-member-profiles-bonus-revoke }
 
     1. Scroll to the **bonus points** section and click :lucide-trash-2: to remove a specific points entry.
 
@@ -256,17 +257,17 @@ The following two management methods are available depending on your plan:
     ![](../../assets/images/EC-後台-會員-所有會員-批次發送會員紅利點數01.en.png)
 
 
-### 2. Issue And Manage Coupon
+### 2. Issue And Manage Coupon { #operate-member-profiles-coupons }
 
 === "Issue or Revoke an Individual Entry"
 
-    #### Issue
+    #### Issue { #operate-member-profiles-coupon-grant }
 
     1. Scroll to the **Member-Exclusive coupon** section and click **Add Member-Exclusive coupon**.
     2. Enter the **coupon Name** (for example, Complaint Compensation), then configure the remaining issuance conditions and restrictions.
     3. Click **Confirm** to immediately credit the coupon to the member's account.
 
-    #### Revoke
+    #### Revoke { #operate-member-profiles-coupon-revoke }
 
     1. Scroll to the **Member-Exclusive coupon** section and click :lucide-trash-2: to remove a specific coupon entry.
 
@@ -297,7 +298,7 @@ The following two management methods are available depending on your plan:
 
 </div>
 
-## Task 5: Manage Marketing Tags And Segments
+## Task 5: Manage Marketing Tags And Segments { #operate-member-profiles-tags }
 
 Use tags to categorize individual members in greater detail:
 
@@ -320,7 +321,7 @@ Use tags to categorize individual members in greater detail:
     ![](../../assets/images/EC-後台-會員-所有會員-批次綁定會員標籤01.en.png)
 
 
-## Task 6: Place Orders On Behalf Of Members
+## Task 6: Place Orders On Behalf Of Members { #operate-member-profiles-proxy-order }
 
 Use this feature to help members complete an order or place a new order when a shipping label has expired.
 
@@ -346,7 +347,7 @@ Use this feature to help members complete an order or place a new order when a s
 !!! info "Plan Availability"
     The order-on-behalf feature is unavailable on the Professional plan.
 
-## Task 7: Help Members Who Forgot Their Password
+## Task 7: Help Members Who Forgot Their Password { #operate-member-profiles-password }
 
 For security reasons, administrators cannot directly view or change member passwords.
 
@@ -358,7 +359,7 @@ For security reasons, administrators cannot directly view or change member passw
 
 ![](../../assets/images/EC-前台-會員登入-忘記密碼01.png)
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-member-profiles }
 
 ??? quote "Why Didn't the Recipient Information on an Existing Order Change After I Updated the Member's Phone Number?"
     Changes to member information affect only **future** orders. Recipient information for **existing** orders is fixed in the order record.

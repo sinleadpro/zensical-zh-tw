@@ -47,7 +47,7 @@ hide:
 
  Automated Ads Activation and Delivery Status Reference
 
-## Activation Status Reference { #automated-ads-apply-status }
+## Activation Status Reference { #reference-automated-ads-apply-status }
 
 | Status | Description |
 | :-- | :-- |
@@ -58,7 +58,7 @@ hide:
     * Activation progress is sent by email, and you can also check it in the activation prompt at the top of the page.
     * If you use a **Merchant-Owned Account**, the system checks the Google Ads connection status daily and activates the account only after the connection is complete.
 
-## Ad Delivery Status Reference { #automated-ads-delivery-status }
+## Ad Delivery Status Reference { #reference-automated-ads-delivery-status }
 
 | Delivery Status | Description |
 | :-- | :-- |

@@ -89,13 +89,13 @@ hide: []
 
 ![LINE Binding Member Gift coupon](../../../../assets/images/ec-第三方整合-line-綁定會員送優惠券.en.png){ .hero-page title="LINE Binding Member Gift coupon" }
 
-## LINE Member Binding Gift Coupon Overview
+## LINE Member Binding Gift Coupon Overview { #operate-line-coupon }
 
 **LINE Binding Member Gift coupon** is designed to increase customers' willingness to bind their LINE Official Account to their website member account by offering coupon as an incentive. This strengthens the connection between the brand and its customers.
 
 The following sections explain how this feature works and how to set it up:
 
-## Prerequisites
+## Prerequisites { #prerequisites-line-coupon }
 
 Before enabling this feature, merchants must complete the following:
 
@@ -103,7 +103,7 @@ Before enabling this feature, merchants must complete the following:
 
 - [x] **Binding Flow Check**: Customers must complete the full [**LINE Official Account to Website Member Binding**](bind-line-oa-store-members.md){ title="Bind LINE Official Account to Website Member" }   process before they can receive coupon.
 
-## Admin Setup Steps
+## Admin Setup Steps { #operate-line-coupon-backend-settings-step }
 
 1. **Go to the Settings Page:** Access the admin panel and click **Third-Party Integration > LINE OA Marketing Campaigns**.
 
@@ -142,15 +142,15 @@ Before enabling this feature, merchants must complete the following:
 
 5. **Apply Settings:** After completing the settings, click **Save** to apply the changes.
 
-## Key to Guiding Customers to Bind
+## Key to Guiding Customers to Bind { #operate-line-coupon-bind }
 
 To ensure the system correctly identifies binding behavior and sends coupon, merchants **must** have customers bind through the following specific link:
 
 - **Exclusive Binding Link**: `https://your-domain/customer/auth/line?line_action=line_login`.
 
-- **Suggested Use**: Merchants can place this link in the [LINE **Rich Menu**](../marketing/setup-line-rich-menu.md){ title="Set Up LINE Rich Menu" }  or in the [**Welcome Message for New Friends**](bind-line-oa-store-members.md#設定加入好友的歡迎訊息){ title="Bind LINE Official Account to Website Member" }, encouraging new friends to click and bind immediately.
+- **Suggested Use**: Merchants can place this link in the [LINE **Rich Menu**](../marketing/setup-line-rich-menu.md){ title="Set Up LINE Rich Menu" }  or in the [**Welcome Message for New Friends**](bind-line-oa-store-members.md#operate-line-bind-welcome){ title="Bind LINE Official Account to Website Member" }, encouraging new friends to click and bind immediately.
 
-## Advanced Tips
+## Advanced Tips { #intro-line-coupon }
 
 If many registered members have not yet bound their LINE OA, merchants can use the "**LINE OA Friend Invitation**" feature. This feature sends invitation messages with incentives via SMS or Email, encouraging members to complete binding and claim the offer.
 
@@ -169,7 +169,7 @@ If many registered members have not yet bound their LINE OA, merchants can use t
 </div>
 
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-line-coupon }
 
 ??? quote "Why didn't customers receive coupon after completing binding?"
 	Check the following troubleshooting steps in order:

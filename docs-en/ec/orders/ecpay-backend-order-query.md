@@ -74,9 +74,9 @@ When you need in-depth financial reconciliation, the reason a payment failed, or
     The ECPay integration is available only to merchants on the **Professional, Advanced, and Expert plans** who **haven't turned on CYBERBIZ PAYMENTS**. If you already use CYBERBIZ PAYMENTS, it has full order features built in, so you don't need the ECPay integration.
 
 
-## Before You Start
+## Before You Start { #prerequisites-ecpay-query }
 
-### Number Conversion Rules
+### Number Conversion Rules { #specs-ecpay-query-id-map }
 
 Because of system limits, CYBERBIZ order numbers don't exactly match ECPay transaction numbers. If you can't find the matching number in the ECPay backend, use the following conversion rules:
 
@@ -90,11 +90,11 @@ Because of system limits, CYBERBIZ order numbers don't exactly match ECPay trans
     - The number shown in the ECPay backend is `9805N1493R1`.
 
 
-## Task 1: Look Up Payment Transaction Details
+## Task 1: Look Up Payment Transaction Details { #operate-ecpay-query-payment }
 
 The ECPay backend offers two lookup methods: one for credit cards and one for all-in-one payments.
 
-### 1. Look Up Credit Card Details
+### 1. Look Up Credit Card Details { #operate-ecpay-query-credit-card }
 
 Use this to check credit card capture and refund status.
 
@@ -106,7 +106,7 @@ Use this to check credit card capture and refund status.
     ![](../../assets/images/綠界-後台-查詢信用卡明細02.en.png)
 
 
-### 2. Look Up All-in-One Payment Details
+### 2. Look Up All-in-One Payment Details { #operate-ecpay-query-all-in-one }
 
 Use this if your orders include ATM, web ATM, convenience store payment codes, and so on.
 
@@ -117,7 +117,7 @@ Use this if your orders include ATM, web ATM, convenience store payment codes, a
 ![](../../assets/images/綠界-後台-查詢所有明細01.en.png)
 
 
-## Task 2: Look Up Logistics Reconciliation Details
+## Task 2: Look Up Logistics Reconciliation Details { #operate-ecpay-query-logistics }
 
 If you use ECPay convenience store pickup, you can check package status and collected amounts in the logistics management interface.
 
@@ -127,7 +127,7 @@ If you use ECPay convenience store pickup, you can check package status and coll
 
 ![](../../assets/images/綠界-後台-查詢物流明細01.en.png)
 
-## FAQ
+## FAQ { #faq-ecpay-query }
 
 ??? quote "Why can't I find a CYBERBIZ order number in the ECPay backend?"
     Searches require the merchant order number, so convert the number first using the conversion rules at the top of this page. Also check that the search date range is correct. For orders that span midnight, adjust the start and end dates.

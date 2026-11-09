@@ -84,15 +84,15 @@ Use a commission mechanism to motivate store staff to process "Store Pickup" ord
     - **Fair compensation for labor**: Set commissions separately for the "In-Store Arrival" and "Customer Handover" steps, so every staff member involved in the process receives the corresponding bonus.
     - **Simplify accounting and settlement**: The system automatically calculates commissions based on order status and the staff who handled each order. Administrators only need to download the report to pay out bonuses, which reduces manual calculation errors.
 
-## Usage Notes
+## Usage Notes { #prerequisites-pickup-commission }
 
 - **One plan per employee**: Each employee can join only **one** commission plan. If you cannot find a specific staff member in the employee list, first check whether they have already joined another plan.
 - **Unique plan names**: When you add a plan, its name must not duplicate an existing plan name, so reports are easier to identify later.
 - **Effective time and scope**: The system starts calculating commissions from the **next order** after an employee joins the plan. It does not retroactively calculate or backfill commissions for orders placed before the employee joined.
 
-## Procedure
+## Procedure { #operate-pickup-commission }
 
-### Step 1: Enable the Feature and Create a Commission Plan
+### Step 1: Enable the Feature and Create a Commission Plan { #operate-pickup-commission-step-a-enable }
 
 First, turn on the commission switch, and create commission calculation rules based on your store management needs.
 
@@ -112,7 +112,7 @@ First, turn on the commission switch, and create commission calculation rules ba
 
 ![](../../assets/images/EC-後台-分潤-門市取貨店員分潤-新增方案01.en.png){ .screenshot }
 
-### Step 2: Assign Staff to the Plan
+### Step 2: Assign Staff to the Plan { #operate-pickup-commission-step-b-assign }
 
 After you create the plan, add the relevant store staff to it. The system tracks the orders they handle and calculates commission amounts only after they are added.
 
@@ -123,7 +123,7 @@ After you create the plan, add the relevant store staff to it. The system tracks
 
 ![](../../assets/images/EC-後台-分潤-門市取貨店員分潤-員工加入方案01.en.png){ .screenshot }
 
-## FAQ
+## FAQ { #faq-pickup-commission }
 
 ??? quote "Why can't I find a certain staff member in the employee list?"
     The most common cause is that the employee has already joined **another Store Pickup commission plan**. First, check the Added Staff list of the other plan, or confirm that the employee has POS operation permissions.
@@ -131,7 +131,7 @@ After you create the plan, add the relevant store staff to it. The system tracks
 ??? quote "Can commissions be retroactively applied to orders placed before the employee joined the plan?"
     No. Commissions take effect immediately. The system only calculates commissions for arrival or pickup actions that the employee handles **after** joining the plan.
 
-## More Actions
+## More Actions { #next-steps-pickup-commission }
 
 <div class="grid cards" markdown>
 

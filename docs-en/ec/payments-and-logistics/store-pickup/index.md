@@ -85,11 +85,11 @@ hide:
     - **Reduce logistics costs**: Deliver parcels to stores in bulk to cut individual home-delivery shipping expenses.
     - **Speed up pickup**: Receive stock at stores and verify pickups by scanning codes to shorten customer wait times.
 
-## Operating Structure
+## Operating Structure { #intro-store-pickup-hub }
 
 The store pickup feature spans **Payment and logistics settings**, **Order fulfillment**, **Commission rewards**, and **POS front-end operations**. This navigation page groups the features spread across different paths by "operation journey" to help you quickly complete setup and daily operations.
 
-## Quick Navigation
+## Quick Navigation { #overview-store-pickup-hub }
 
 <div class="grid cards" markdown>
 
@@ -128,7 +128,7 @@ The store pickup feature spans **Payment and logistics settings**, **Order fulfi
 
 </div>
 
-## Usage Notes
+## Usage Notes { #prerequisites-store-pickup-hub }
 
 Before enabling the service, check the following restrictions based on your store type:
 
@@ -140,7 +140,7 @@ Before enabling the service, check the following restrictions based on your stor
 
 ---
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-store-pickup-hub }
 
 ??? quote "Why doesn't the checkout page show the "Store Pickup" option?"
     Check the following: 1. Confirm that the "Store Pickup Settings" for the store is turned on. 2. Confirm that the product edit page has the corresponding logistics delivery permission turned on. 3. Confirm that at least one available payment method is selected.

@@ -78,7 +78,7 @@ Precisely target customer segments with multidimensional criteria and create seg
 
 
 
-## Important Notes
+## Important Notes { #prerequisites-member-filters }
 
 - **Valid Order Calculation**: When filtering member purchase records by criteria such as "Shopping Behavior" or "Purchase History," calculations always use historical data from **valid orders**.
 - **Filter Logic**:
@@ -87,30 +87,30 @@ Precisely target customer segments with multidimensional criteria and create seg
 
 
 
-## Use Member Filters
+## Use Member Filters { #operate-member-filters }
 
-### 1. Add Filter Criteria
+### 1. Add Filter Criteria { #operate-member-filters-add }
 
 Go to **Customer Management > All Customers** and click **Add Filter** in the top-right corner.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/會員-會員篩選器01.png){ .screenshot }
 
-### 2. Configure And Apply Criteria
+### 2. Configure And Apply Criteria { #operate-member-filters-apply }
 
 1. Select a filter category in the pop-up window, such as Member Status or Shopping Behavior.
 2. Set specific parameters, such as registration date or cumulative purchase amount.
 3. Click **Apply**. The list below immediately displays members who meet the criteria.
 
-### 3. Perform Bulk Actions
+### 3. Perform Bulk Actions { #operate-member-filters-batch }
 
 Select members, then perform bulk actions such as **Send coupon**, **Export Report**, or **Edit Tags**.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/會員-會員篩選器02.png){ .screenshot }
 
 
-## Use Member Groups
+## Use Member Groups { #operate-member-filters-groups }
 
-### Create A Group
+### Create A Group { #operate-member-filters-create-group }
 
 After setting criteria in the filter and clicking **Apply**, create a group:
 
@@ -119,7 +119,7 @@ After setting criteria in the filter and clicking **Apply**, create a group:
 
 ![](../../assets/images/EC-後台-會員-所有會員-建立會員分群01.png){ .screenshot }
 
-### Use Cases
+### Use Cases { #operate-member-filters-group-use }
 
 After creating a member group, perform the following operational tasks directly for that group:
 
@@ -131,7 +131,7 @@ Performance Tracking and Strategy Analysis: Monitor changes in purchase frequenc
 
 
 
-## Filter Criteria
+## Filter Criteria { #specs-member-filters }
 
 The system provides six filter dimensions to help analyze members from different perspectives:
 
@@ -142,7 +142,7 @@ The system provides six filter dimensions to help analyze members from different
     - Optional: Available by default to Enterprise plan users. PLUS plan users must add the **Member Module** to use these fields.
 
 
-### Member Status
+### Member Status { #specs-member-filters-status }
 
 Filter members by basic account status.
 
@@ -156,7 +156,7 @@ Filter members by basic account status.
 | **Social Account Connection** | Members who have or have not completed LINE or Facebook Quick Login or connected LINE OA | ✕ | ✓ |
 
 
-### Shopping Behavior
+### Shopping Behavior { #specs-member-filters-habits }
 
 Analyze member shopping behavior and intent.
 
@@ -168,7 +168,7 @@ Analyze member shopping behavior and intent.
 | **Activity Status** | Members classified as "Active," "Inactive," or "Lost" based on the interval between orders | ✕ | ✓ |
 | **Abandoned Checkout Behavior** | Members who added items to their cart but did not check out within N days (must have visited the checkout page) | ✕ | ✓ |
 
-### Purchase History
+### Purchase History { #specs-member-filters-purchase }
 
 Filter members by historical transaction data.
 
@@ -183,7 +183,7 @@ Filter members by historical transaction data.
 | **Referral Code** | Members who completed a purchase using a profit-sharing referral code | ✕ | ✓ |
 | **Recurring Payment Sub-Orders** | Members who placed recurring payment orders | ✕ | ✓ |
 
-### Basic Member Information
+### Basic Member Information { #specs-member-filters-profile }
 
 Filter members by the personal information they provided.
 
@@ -199,7 +199,7 @@ Filter members by the personal information they provided.
 
 
 
-### Smart Filtering (ORFM)
+### Smart Filtering (ORFM) { #specs-member-filters-orfm }
 
 Use a big data model to automatically analyze member value.
 
@@ -212,21 +212,21 @@ Use a big data model to automatically analyze member value.
 
 > Use ORFM scores to quickly identify high-value core customers or customers who require priority re-engagement.
 
-### Custom Fields
+### Custom Fields { #specs-member-filters-custom }
 
-If you [add a custom field](../website-management/customer-registration-flow-and-fields.md#步驟-4-建立與管理自訂欄位) in **Website Management > Member Registration Setting**, filter entries by their field values in this section.
+If you [add a custom field](../website-management/customer-registration-flow-and-fields.md#operate-customer-reg-custom) in **Website Management > Member Registration Setting**, filter entries by their field values in this section.
 
 - Supported field formats: text input, checkbox, drop-down list, and date.
 - Unsupported field format: image upload.
 
 
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-member-filters }
 
 ??? quote "Why does the number of filtered members differ from what I expected?"
     Check the following:
     1. **Conflicting Criteria**: Multiple criteria use an "AND" relationship. Adding more criteria narrows the list.
-    2. **Valid Order Definition**: Some criteria count only "valid orders." See the definition in [Important Notes](#使用須知).
+    2. **Valid Order Definition**: Some criteria count only "valid orders." See the definition in [Important Notes](#prerequisites-member-filters).
     3. **Data Synchronization**: If a member just completed an action, the system may need several minutes to synchronize the data.
 
 ??? quote "How do I filter new members who have never purchased anything?"

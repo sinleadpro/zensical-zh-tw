@@ -67,15 +67,15 @@ hide: []
 
 ![Push Notifications - Send SMS Messages](../../assets/images/ec-訊息推播-發送簡訊.en.png){ .hero-page }
 
-## About SMS Notifications
+## About SMS Notifications { #intro-sms-send }
 
 In CYBERBIZ, you can use SMS to send marketing messages and order notifications to members, or invite them to add your LINE Official Account.
 
-## SMS Sending Rules
+## SMS Sending Rules { #prerequisites-sms-send }
 
 To make sure your SMS messages are delivered, read the following rules before sending.
 
-### URL Rules
+### URL Rules { #prerequisites-sms-send-url }
 
 To make sure URLs in your SMS are recognized and open correctly, follow these format requirements:
 
@@ -88,12 +88,12 @@ To make sure URLs in your SMS are recognized and open correctly, follow these fo
 
 ---
 
-### Keywords And Blocking
+### Keywords And Blocking { #prerequisites-sms-send-keywords }
 
 !!! warning "Important"
     Avoid highly sensitive words such as "LINE", "加賴" (add on LINE), "領取" (claim), "股票" (stocks), and "點擊連結" (click the link). If a carrier blocks your SMS because it contains sensitive words or a badly formatted URL, it won't be delivered.
 
-## Three Ways To Send SMS
+## Three Ways To Send SMS { #operate-sms-send }
 
 !!! info "Before you start"
     - **Standard edition** users must first [top up CYBER coins](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="CYBER 幣儲值中心使用指南" }.
@@ -104,15 +104,15 @@ Log in to the CYBERBIZ admin, go to **Push Notifications > Send SMS Messages**, 
 <div class="grid cards" markdown>
 
 - :lucide-users:{ .ig }
-  [__Send to customer groups__](#send-to-customer-groups)
+  [__Send to customer groups__](#operate-sms-send-group)
 - :lucide-pencil:{ .ig }
-  [__Send manually__](#send-manually)
+  [__Send manually__](#operate-sms-send-manual)
 - :lucide-file-spreadsheet:{ .ig }
-  [__Send by Excel import__](#send-by-excel-import)
+  [__Send by Excel import__](#operate-sms-send-excel)
 
 </div>
 
-### Send To Customer Groups
+### Send To Customer Groups { #operate-sms-send-group }
 
 Use customer groups to filter members by customer tag and send them all the same SMS. This works well for batch sends such as VIP offers and event announcements.
 
@@ -129,7 +129,7 @@ Use customer groups to filter members by customer tag and send them all the same
 
 ---
 
-### Send Manually
+### Send Manually { #operate-sms-send-manual }
 
 Enter website members' mobile numbers and the message directly. Use this for one-off or small notifications.
 
@@ -146,7 +146,7 @@ Enter website members' mobile numbers and the message directly. Use this for one
 
 ---
 
-### Send By Excel Import
+### Send By Excel Import { #operate-sms-send-excel }
 
 Upload an Excel list to send SMS in bulk. Two modes are supported:
 
@@ -187,7 +187,7 @@ Upload an Excel list to send SMS in bulk. Two modes are supported:
 
     ![Send SMS - Excel import, different content](../../assets/images/ec-訊息推播-發送簡訊-匯入excel-不同內容.en.png)
 
-## Next Steps
+## Next Steps { #next-steps-sms-send }
 
 <div class="grid cards" markdown>
 
@@ -196,7 +196,7 @@ Upload an Excel list to send SMS in bulk. Two modes are supported:
   Customize the SMS that is automatically sent, with short links to save characters.
 
 - :lucide-zap:{ .lg }
-  [__Automated SMS__](../app-market/automation/automation-push-flow.md#簡訊發送設定)
+  [__Automated SMS__](../app-market/automation/automation-push-flow.md#operate-automation-push-send-sms)
   Use AUTOMATION to build automated SMS flows for one-time or recurring sends.
 
 - :lucide-history:{ .lg }
@@ -212,11 +212,11 @@ Upload an Excel list to send SMS in bulk. Two modes are supported:
   Send 3 SMS reminders at set intervals to remind customers to pay.
 
 - :lucide-package:{ .lg }
-  [__Product recommendation notifications__](../app-market/storepal/configure-global-settings-and-attribution.md#簡訊通知開關){ title="全站功能與業績歸因設定" }
+  [__Product recommendation notifications__](../app-market/storepal/configure-global-settings-and-attribution.md#operate-storepal-settings-sms-toggle){ title="全站功能與業績歸因設定" }
   Edit the product recommendation SMS that store staff send to customers.
 </div>
 
-## FAQ
+## FAQ { #faq-sms-send }
 
 ??? quote "How do I send SMS?"
 

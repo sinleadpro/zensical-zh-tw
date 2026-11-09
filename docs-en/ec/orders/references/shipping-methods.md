@@ -52,7 +52,7 @@ hide:
 
 This table lists the shipping label types that CYBERBIZ integrated logistics can generate, for reference in shipping, search, and filters. Custom logistics (your own delivery or partner carriers) aren't listed. For those, mark the order as shipped manually and enter the tracking number.
 
-## Integrated Logistics Categories { #shipping-methods }
+## Integrated Logistics Categories { #reference-shipping-methods }
 
 | Category | Delivery Type | Description |
 | :-- | :-- | :-- |

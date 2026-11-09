@@ -79,7 +79,7 @@ Complete setup guide for store pickup, including enabling the feature, configuri
 
 ![](../../../assets/images/EC-後台-金物流-所有門市-門市取貨設定01.en.png){ .hero-page }
 
-## Store Pickup Overview
+## Store Pickup Overview { #intro-store-pickup }
 
 Store pickup provides an O2O experience that combines online shopping with offline pickup. After a customer places and pays for an order on the storefront, the customer can choose to collect the items at a designated physical store. This feature not only reduces home delivery costs but also increases store visits and drives additional in-store sales.
 
@@ -88,13 +88,13 @@ Store pickup provides an O2O experience that combines online shopping with offli
     - **Increase in-store traffic**: Use store pickup to bring customers into physical stores, creating more opportunities for on-site add-on purchases.
     - **Flexible pickup times**: Let customers collect orders at any time during store business hours, based on their own schedules.
 
-## Usage Notes
+## Usage Notes { #prerequisites-store-pickup }
 
 - **Payment restriction**: Only "pay first, then pick up" is supported. At checkout, the system automatically hides offline payment methods and shows only online payment options.
 
-## Operating Procedure
+## Operating Procedure { #operate-store-pickup }
 
-### Step 1: Enable Store Pickup
+### Step 1: Enable Store Pickup { #operate-store-pickup-enable }
 
 1. Log in to the CYBERBIZ admin dashboard and go to **Payment and Logistics > All Stores**.
 2. Find the store you want to configure, then click **Edit** on the right.
@@ -105,7 +105,7 @@ Store pickup provides an O2O experience that combines online shopping with offli
     You can set one store as the default store. For the other stores, click **Use default store data**, and the system automatically fills in the same payment methods and shipping rules to speed up setup.
 
 
-### Step 2: Configure Payment Methods and Shipping Rules
+### Step 2: Configure Payment Methods and Shipping Rules { #operate-store-pickup-pay-fee }
 
 1. **Payment Setting**: In the list, select the payment methods to allow (for example, credit card or LINE Pay).
 
@@ -116,7 +116,7 @@ Store pickup provides an O2O experience that combines online shopping with offli
     - **Amount spent**: Set tiered shipping thresholds.
     - **Shipping Price**: The shipping fee for this amount tier.
 
-### Step 3: Configure Pickup Date Options
+### Step 3: Configure Pickup Date Options { #operate-store-pickup-dates }
 
 If you want to limit when customers can pick up their orders, complete the following settings:
 
@@ -138,7 +138,7 @@ If you want to limit when customers can pick up their orders, complete the follo
         !!! info "Applicable Plans"
             This field is not supported on the Professional PLUS plan.
 
-### Step 4: Enter Store Pickup Notes
+### Step 4: Enter Store Pickup Notes { #operate-store-pickup-notes }
 
 In the notes field of the **Other Settings** section, enter pickup instructions:
 
@@ -146,13 +146,13 @@ In the notes field of the **Other Settings** section, enter pickup instructions:
 - **Pickup requirements**: For example, "Bring your order number and ID when picking up."
 - **Holding period**: For example, "Items are held for up to 7 days. Orders are canceled after this period."
 
-### Step 5: Save and Verify on the Storefront
+### Step 5: Save and Verify on the Storefront { #operate-store-pickup-verify }
 
 1. Click **Save** in the lower-right corner to complete setup.
 2. Go to the storefront, add a product to the cart, and open the checkout page.
 3. Confirm that the Store Pickup option displays correctly and that the shipping fee calculation, date picker, and notes match your settings.
 
-## Store Product Management
+## Store Product Management { #operate-store-pickup-products }
 
 By default, the system enables store pickup for all products. If a specific product (for example, one that is oversized or requires special temperature zone) is not suitable for store pickup, turn it off manually by following these steps:
 
@@ -163,7 +163,7 @@ By default, the system enables store pickup for all products. If a specific prod
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/門市取貨設定15.png){ .screenshot }
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-store-pickup }
 
 ??? quote "Why doesn't the checkout page show the Store Pickup option?"
     Check the following: 1. Confirm that Store Pickup is turned on in this store's settings. 2. Confirm that the product edit page has not turned off store pickup. 3. Confirm that at least one available payment method is selected.
@@ -171,7 +171,7 @@ By default, the system enables store pickup for all products. If a specific prod
 ??? quote "Can I set different free shipping thresholds for different stores?"
     Yes. Each store's order amount shipping settings are independent. You can set a lower free shipping threshold for urban stores, or set promotional shipping fees for specific stores.
 
-## Next Steps
+## Next Steps { #next-steps-store-pickup }
 
 <div class="grid cards" markdown>
 

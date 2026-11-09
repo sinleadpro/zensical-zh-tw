@@ -73,14 +73,14 @@ With the Amazon FBA service, you can have Amazon's logistics team pack and ship 
 
 
 
-## Usage Notes
+## Usage Notes { #prerequisites-amazon-fba }
 
 - **Automatic shipping**: After a website order is placed, the system automatically sends the order data to Amazon for fulfillment.
 - **Inventory sync**: Once linked, website inventory is locked and cannot be edited manually. Amazon FBA actual inventory is always the source of truth.
 
-## Enable Logistics
+## Enable Logistics { #operate-amazon-fba }
 
-### Step 1: Install the FBA Extension App
+### Step 1: Install the FBA Extension App { #operate-amazon-fba-install }
 
 
 1. Log in to the CYBERBIZ back office and go to **APP MARKET > App Market**.
@@ -90,7 +90,7 @@ With the Amazon FBA service, you can have Amazon's logistics team pack and ship 
 
 
 
-### Step 2: Complete Account Authorization
+### Step 2: Complete Account Authorization { #operate-amazon-fba-authorize }
 
 1. Log in to the CYBERBIZ back office and go to **APP MARKET > My Apps**.
 
@@ -110,11 +110,11 @@ With the Amazon FBA service, you can have Amazon's logistics team pack and ship 
     - **Expiration Reminders**: The system sends email notifications 15, 7, 3, and 1 days before the authorization expires.
     - **Reauthorization**: If authorization expires, click **Reauthorize** to restore functionality.
 
-### Step 3: Link Product SKUs
+### Step 3: Link Product SKUs { #operate-amazon-fba-bind-sku }
 
 For Amazon to correctly match website orders to products, **the CYBERBIZ product SKU must exactly match the Amazon product SKU**.
 
-#### 1. Look up the Amazon SKU
+#### 1. Look up the Amazon SKU { #operate-amazon-fba-query-sku }
 
 1. Log in to [Amazon Seller Central](https://sellercentral.amazon.com/).
     ![](../../assets/images/Amazon-後台-查看訂單資訊01.en.png)
@@ -123,7 +123,7 @@ For Amazon to correctly match website orders to products, **the CYBERBIZ product
 3. Record the **Seller SKU** for the product.
     ![](../../assets/images/Amazon-後台-查看Amazon商品SKU02.en.png)
 
-#### 2. Map the SKU in CYBERBIZ
+#### 2. Map the SKU in CYBERBIZ { #operate-amazon-fba-map-sku }
 
 1. Go to **Products > All Products**, and open the edit page for the target product.
 2. Scroll down to the **Manage Variants** section.
@@ -132,7 +132,7 @@ For Amazon to correctly match website orders to products, **the CYBERBIZ product
 
 ![](../../assets/images/EC-後台-商品-所有商品-編輯商品SKU01.en.png)
 
-### Step 4: Set up the Amazon Shipping Method
+### Step 4: Set up the Amazon Shipping Method { #operate-amazon-fba-ship-method }
 
 For products shipped by **Amazon FBA**, specify the shipping method:
 
@@ -145,9 +145,9 @@ For products shipped by **Amazon FBA**, specify the shipping method:
 !!! warning "Amazon SKU and Shipping Method Restrictions"
     Only stores with the corresponding Amazon feature enabled can see **Amazon FBA** in the shipping method menu. If the SKU does not match the Amazon Seller SKU, the system cannot correctly send orders or sync inventory.
 
-## Order Monitoring and Shipping Status Tracking
+## Order Monitoring and Shipping Status Tracking { #operate-amazon-fba-tracking }
 
-### 1. View Website Orders in Amazon
+### 1. View Website Orders in Amazon { #operate-amazon-fba-view-orders }
 
 FBA orders created on the website also appear in the Amazon back office:
 
@@ -158,14 +158,14 @@ FBA orders created on the website also appear in the Amazon back office:
 3. In the Sales Channel filter, select **Non-Amazon** to view orders from the website.
     ![](../../assets/images/Amazon-後台-查看訂單資訊03.en.png)
 
-### 2. Shipping Status Sync
+### 2. Shipping Status Sync { #specs-amazon-fba-sync }
 
 - When the Amazon warehouse prepares to ship, the website order status updates automatically.
 - When FBA completes delivery, the website delivery status automatically changes to **Shipped** and the order is officially recorded.
 
 
 
-## CYBERBIZ and Amazon FBA Status Mapping
+## CYBERBIZ and Amazon FBA Status Mapping { #specs-amazon-fba-status }
 
 | Amazon FBA Status | CYBERBIZ Delivery Status | Notes |
 | :--- | :--- | :--- |

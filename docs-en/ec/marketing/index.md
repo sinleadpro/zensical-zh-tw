@@ -12,7 +12,7 @@ hide:
   - feedback
 ---
 
-## Coupons And Discounts
+## Coupons And Discounts { #intro-marketing }
 
 <div class="grid cards" markdown>
 
@@ -68,7 +68,7 @@ hide:
 
 ---
 
-## Upsells
+## Upsells { #intro-marketing-introduction }
 
 <div class="grid cards" markdown>
 
@@ -92,7 +92,7 @@ hide:
 
 ---
 
-## Bonus Points And Gifts
+## Bonus Points And Gifts { #intro-marketing-bonus }
 
 <div class="grid cards" markdown>
 
@@ -148,7 +148,7 @@ hide:
 
 ---
 
-## Conditional Gifts
+## Conditional Gifts { #prerequisites-marketing }
 
 <div class="grid cards" markdown>
 
@@ -196,7 +196,7 @@ hide:
 
 ---
 
-## Purchase Restrictions
+## Purchase Restrictions { #prerequisites-marketing-product-limits }
 
 <div class="grid cards" markdown>
 
@@ -228,7 +228,7 @@ hide:
 
 ---
 
-## One-Page Stores
+## One-Page Stores { #intro-marketing-one-page }
 
 <div class="grid cards" markdown>
 
@@ -253,7 +253,7 @@ hide:
 
 ---
 
-## Other Marketing Tools
+## Other Marketing Tools { #intro-marketing-marketing }
 
 <div class="grid cards" markdown>
 

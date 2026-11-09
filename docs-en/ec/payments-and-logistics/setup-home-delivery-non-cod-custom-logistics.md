@@ -79,7 +79,7 @@ Let merchants set up their own home delivery options and shipping fee rules with
 { .doc-badge }
 
 
-## Usage Notes
+## Usage Notes { #prerequisites-custom-logistics }
 
 **Custom Logistics** page lets merchants set up two options: "Home Delivery Non-COD Logistics" and "Custom Logistics." Both options use the same setup process. The main difference is how orders are shipped after they are placed.
 
@@ -90,11 +90,11 @@ The table below compares the features and how shipping labels are created for ea
 | Home Delivery Non-COD Logistics | Black Cat<br>Pelican Express<br>SF Express<br>Hsinchu Logistics | This logistics option is integrated with the system and can automatically update order status after shipment. | **Requires shipping with a system waybill**<br>[Ship with Black Cat](../orders/home-delivery/tcat-home-delivery-v2.md)<br>[Ship with Pelican Express](../orders/home-delivery/pelican-shipping-v2.md)<br>[Ship with SF Express](../orders/home-delivery/sf-express-shipping-v2.md)<br>[Ship with Hsinchu Logistics](../orders/home-delivery/hct-shipping-v2.md) |
 | Custom Logistics | - | This option is not integrated with the system, so order status is not updated after shipment. | [Ship with Custom Logistics](../orders/home-delivery/custom-logistic-shipping.md) |
 
-### Hsinchu Logistics Non-COD Site Survey Process
+### Hsinchu Logistics Non-COD Site Survey Process { #prerequisites-custom-logistics-hct }
 
 === "With CYBERBIZ PAYMENTS"
 
-    Set up by following the [Hsinchu Logistics COD Activation Request](home-delivery-cash-on-delivery/#2-新竹物流) process.
+    Set up by following the [Hsinchu Logistics COD Activation Request](home-delivery-cash-on-delivery/#operate-home-cod-hct) process.
 
 === "Without CYBERBIZ PAYMENTS"
 
@@ -121,7 +121,7 @@ The table below compares the features and how shipping labels are created for ea
     !!! tip "Next Step"
         After you enable the logistics option, follow [Step 2: Add Custom Logistics]() to create a custom logistics option. You can name it **HCT Prepaid** and set up the related rules.
 
-## Step 1: Shipping Country Settings (Master Switch)
+## Step 1: Shipping Country Settings (Master Switch) { #operate-custom-logistics-country }
 
 Before you create specific logistics options, turn on shipping permissions for the target regions.
 
@@ -136,17 +136,17 @@ Before you create specific logistics options, turn on shipping permissions for t
 
 
 
-## Step 2: Add Custom Logistics
+## Step 2: Add Custom Logistics { #operate-custom-logistics-add }
 
 Click **Create Custom Logistics** to open the setup page.
 
-### 1. Basic Settings
+### 1. Basic Settings { #operate-custom-logistics-basic }
 
 - **Shipping Rule Name**: Custom name (for example, Black Cat-Ambient). Each name must be unique.
 - **Shipping Regions**: Supports up to the City level.
 - **Payment Methods**: Select the payment options this logistics option supports.
 
-### 2. Shipping Fee Threshold Settings
+### 2. Shipping Fee Threshold Settings { #operate-custom-logistics-fee }
 
 The system supports two fee calculation methods: "Order Amount" and "Order Weight."
 
@@ -160,7 +160,7 @@ The system supports two fee calculation methods: "Order Amount" and "Order Weigh
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/物流運費設定03.png){ .screenshot }
 
-## Step 3: Temperature Zone Shipping Setup
+## Step 3: Temperature Zone Shipping Setup { #operate-custom-logistics-temp }
 
 Each custom logistics option can only set **one temperature zone**. If you have multiple temperature zone shipping needs, create a separate option for each.
 
@@ -173,7 +173,7 @@ Each custom logistics option can only set **one temperature zone**. If you have 
 ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/物流運費設定08.png){ .screenshot }
 
 
-## Handling Logic for Multi-Temperature Zone Shopping
+## Handling Logic for Multi-Temperature Zone Shopping { #specs-custom-logistics-temp }
 
 When a customer's cart contains products from different temperature zone, the system tries to find a "common temperature zone" to avoid splitting the cart.
 
@@ -187,7 +187,7 @@ When a customer's cart contains products from different temperature zone, the sy
     - **Result**: The system splits the cart into two carts and calculates shipping fees for each one separately.
 
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-custom-logistics }
 
 ??? quote "Why does checkout show free shipping even though I set a shipping fee?"
     Check whether "Weight-Based Shipping Fee" is turned on but product weights are not set (default is 0), or whether the shipping fee ranges are set up incorrectly.

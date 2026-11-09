@@ -2,7 +2,7 @@
 title: "Set Up A Store-Wide VIP Program"
 description: "Set up VIP membership tiers, Upgrade thresholds, and Renewal requirements step by step to build a membership program that reflects your store's brand identity."
 created: 2026-01-23 00:00
-last_modified: 2026-07-21 10:45
+last_modified: 2026-10-13 14:30
 lang: en-US
 type: guide
 author: Ann
@@ -59,7 +59,7 @@ Set up VIP membership tiers, Upgrade thresholds, and Renewal requirements step b
 
 After completing the initial planning, start building the VIP tier structure in the admin panel. This guide walks you through the entire process, from naming tiers to setting thresholds.
 
-## Step 1: Configure Basic Information
+## Step 1: Configure Basic Information { #operate-store-vip-basic }
 
 Go to **Customer Management > VIP Settings** in the admin panel, then click **New Member Level** under **Store-Wide VIP**.
 
@@ -80,7 +80,7 @@ Go to **Customer Management > VIP Settings** in the admin panel, then click **Ne
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-會員-VIP設定-新增會員層級01.png)
 
-## Step 2: Set The Upgrade Threshold
+## Step 2: Set The Upgrade Threshold { #operate-store-vip-upgrade }
 
 === "Other Versions"
 
@@ -116,7 +116,7 @@ Go to **Customer Management > VIP Settings** in the admin panel, then click **Ne
 !!! note "Evaluation Priority"
     If you set both single-purchase and cumulative thresholds, the system uses the result **most favorable to the customer** for the Upgrade evaluation.
 
-## Step 3: Set The Renewal Threshold
+## Step 3: Set The Renewal Threshold { #operate-store-vip-renewal }
 
 === "Other Versions"
 
@@ -159,3 +159,10 @@ Go to **Customer Management > VIP Settings** in the admin panel, then click **Ne
 
 !!! note "Evaluation Priority"
     If you set both single-purchase and cumulative thresholds, the system uses the result **most favorable to the customer** for the Upgrade evaluation. 
+
+## Step 4: Apply And Publish The Rules { #operate-store-vip-publish }
+
+1. Click **Set Application Date** to set the date the VIP rules are published.
+2. After confirming the settings, click **Agree and Confirm Application** to publish the VIP rules.
+
+![](../../../assets/images/EC-後台-會員-VIP設定-新增會員層級06.png)

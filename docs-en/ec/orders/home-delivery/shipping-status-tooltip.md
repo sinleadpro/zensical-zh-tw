@@ -70,7 +70,7 @@ In CYBERBIZ, the **shipped status logistics hint** gives you and your customers 
 
 Here's how the feature works:
 
-## What It Is and What It Supports
+## What It Is and What It Supports { #intro-shipping-status-scope }
 
 - **Trigger**: When you ship an order with **integrated logistics** and click "Download Shipping Label and Change to Shipped," the system adds text next to "Shipped" based on the status returned by the carrier.
 - **Supported**:
@@ -79,13 +79,13 @@ Here's how the feature works:
 	- [x] **Drag-and-drop themes only**: This feature doesn't support default themes.
 	- [x] **Order types**: Regular orders and subscription orders.
 
-## Important Notes
+## Important Notes { #prerequisites-shipping-status }
 
 - **Shipping label expiration**: If a package isn't sent within **14 days** after the shipping label is created, the tracking number expires. The order list delivery status stays "Shipped," but the hint on the details page stays at "**Shipped (Awaiting Carrier Pickup)**."
 
 - **Contacting carriers**: After you download the shipping label (status shows Awaiting Carrier Pickup), contact the driver according to each carrier's rules. The status changes to "In Transit" only after the driver picks up the package and updates the system.
 
-## Logistics Hint Types { #shipping-status-text-type }
+## Logistics Hint Types { #reference-shipping-status }
 
 There are two types of hint text, each for a different logistics stage:
 
@@ -94,19 +94,19 @@ There are two types of hint text, each for a different logistics stage:
 |**Shipped (Awaiting Carrier Pickup)**|You created a shipping label in the admin, but the carrier **hasn't picked up the package**, or picked it up but **hasn't returned a status yet**. The package hasn't officially entered delivery.|
 |**Shipped (In Transit)**|You finished shipping and handed the package to the carrier, and **the carrier has returned a logistics status**. The package has officially entered delivery.|
 
-## Where the Text Appears
+## Where the Text Appears { #operate-shipping-status-text-position }
 
 !!! info "The logistics hint *doesn't* appear on the admin order list page or in filters."
 
 The logistics hint appears on the following pages for you and your customers:
 
-### Admin
+### Admin { #specs-shipping-status-admin }
 
 - **Order details page** (path: Orders > All Orders > click the order number).
 
 ![Logistics hint on order details](../../../assets/images/ec-訂單明細-物流狀態提示文字.en.png){ title="Logistics Hint on Order Details" }
 
-### Storefront Member Center
+### Storefront Member Center { #specs-shipping-status-storefront }
 
 - **Order lookup page** (path: **:lucide-user: icon in the upper right of the website > Order Lookup**).
 
@@ -117,7 +117,7 @@ The logistics hint appears on the following pages for you and your customers:
 	![Storefront order details hint](../../../assets/images/ec-會員-訂單明細頁-物流提示文字.en.png){ title="Storefront Order Details Hint" }
 
 
-## When Automated Shipping Notifications Are Sent
+## When Automated Shipping Notifications Are Sent { #specs-shipping-status-notify }
 
 If you turned on shipping notification templates for email, text message, or LINE OA, the system sends messages at the following time:
 
@@ -125,7 +125,7 @@ If you turned on shipping notification templates for email, text message, or LIN
 
 - **Why**: This makes sure the carrier actually has the package when the shopper is notified, avoiding inquiries about packages not yet picked up.
 
-## Related Tasks
+## Related Tasks { #next-steps-shipping-status }
 
 <div class="grid cards" markdown>
 
@@ -143,7 +143,7 @@ If you turned on shipping notification templates for email, text message, or LIN
 
 </div>
 
-## FAQ
+## FAQ { #faq-shipping-status }
 
 ??? quote "Why does the admin still show "Shipped (Awaiting Carrier Pickup)" after I handed the order to the driver?"
 	Usually the carrier hasn't finished scanning the package in, or there's a delay in the data the system receives. Wait 4–8 hours. After the carrier updates the status, the text automatically changes to "Shipped (In Transit)."

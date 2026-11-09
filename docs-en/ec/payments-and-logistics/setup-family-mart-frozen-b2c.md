@@ -75,17 +75,17 @@ hide:
 
 ![FamilyMart Frozen Logistics B2C](../../assets/images/ec-金物流-超商物流-全家冷凍.en.png){ title="FamilyMart Frozen Logistics B2C" .hero-page }
 
-## FamilyMart Frozen Logistics B2C Overview
+## FamilyMart Frozen Logistics B2C Overview { #intro-fm-frozen-b2c }
 
 **FamilyMart Frozen B2C (Bulk Consignment)** is a service in which Taiwan Logistics (a logistics partner of FamilyMart) picks up goods from the merchant's designated location (pickup service) and delivers them to the FamilyMart store chosen by the consumer.
 
-## Eligible Plans and Application Requirements
+## Eligible Plans and Application Requirements { #prerequisites-fm-frozen-b2c }
 
 - **Eligible plans**: Available only to merchants on the **Expert plan (requires CYBERBIZ PAYMENTS)**, the **Expert PLUS plan**, and **Enterprise Plan** plans.  
 - **Payment restriction**: If the merchant does not use CYBERBIZ PAYMENTS, only the "Pickup Without Payment" service is available. Cash on delivery is not supported.  
 - **Compensation limit**: The compensation limit for lost or damaged goods follows the Taiwan Logistics announcement.
 
-## Application Steps
+## Application Steps { #operate-fm-frozen-b2c-apply }
 
 1. **Contact customer service**: To use this feature, first contact customer service to request that the logistics feature be enabled.
 
@@ -105,7 +105,7 @@ hide:
 !!! note "Site Survey Details"
 	When a merchant applies for **FamilyMart Frozen B2C Logistics** or **Hsinchu Logistics** pickup services, the logistics provider sends staff to the merchant's warehouse or shipping location to perform an on-site assessment.
 
-## Post-Activation Setup
+## Post-Activation Setup { #operate-fm-frozen-b2c-setup }
 
 After you receive the activation success notification email, follow these steps to enable the service:
 
@@ -124,7 +124,7 @@ After you receive the activation success notification email, follow these steps 
 
     ![Enter operating information](../../assets/images/ec-logistics-family-mart-frozen-operating-info.en.png)
 
-## Shipping Operations and Delivery Rules
+## Shipping Operations and Delivery Rules { #operate-fm-frozen-b2c-ship }
 
 1. **Shipping operations**:
 
@@ -141,7 +141,7 @@ After you receive the activation success notification email, follow these steps 
 !!! info "Minimum Volume Threshold"
     FamilyMart normally charges a processing fee for each pickup of fewer than 10 pieces, but starting **2024/02/01, the processing fee for pickups of fewer than 10 pieces is waived** (subject to change; the official announcement prevails).
 
-## Package Specifications and Restrictions
+## Package Specifications and Restrictions { #specs-fm-frozen-b2c-package }
 
 - **Package size**:
 
@@ -154,21 +154,21 @@ After you receive the activation success notification email, follow these steps 
 
 - **Label placement**: Print the waybill, place it in a **waterproof clear bag**, and attach it flat to the wide side of the carton. Do not fold or bend the label, or resize the barcode.
 
-## Taiwan Logistics Pickup and Delivery Times
+## Taiwan Logistics Pickup and Delivery Times { #specs-fm-frozen-b2c-sla }
 
 !!! warning "If **force majeure events such as Lunar New Year holidays, natural disasters, or peak logistics periods** occur, the actual pickup and delivery schedules will be agreed separately by both parties."
 
-### Pickup Service Hours <small>Taiwan Logistics to Merchant Pickup</small>
+### Pickup Service Hours <small>Taiwan Logistics to Merchant Pickup</small> { #specs-fm-frozen-b2c-pickup }
 
 - **Pickup days**: Monday to Saturday (**no pickup on Sunday**)
 
 - **How the pickup schedule is determined**:  
     During the site survey, the logistics provider determines whether the pickup day is **D or D+1**. Once confirmed, it **cannot be changed**.  
-    For the determination logic, see the [pickup date estimation examples](#收貨日估算範例) below{ data-preview }.
+    For the determination logic, see the [pickup date estimation examples](#specs-fm-frozen-b2c-eta) below{ data-preview }.
 
 ---
 
-### Delivery Service Hours <small>Taiwan Logistics to Store</small>
+### Delivery Service Hours <small>Taiwan Logistics to Store</small> { #specs-fm-frozen-b2c-deliver }
 
 - **Delivery days**: Monday to Sunday (**including holidays**)
 
@@ -179,7 +179,7 @@ After you receive the activation success notification email, follow these steps 
 
 ---
 
-### Pickup Date Estimation Examples
+### Pickup Date Estimation Examples { #specs-fm-frozen-b2c-eta }
 
 === "D"
 
@@ -205,7 +205,7 @@ After you receive the activation success notification email, follow these steps 
 
 	!!! note "**D+1 pickup:** Use **17:00** as the cutoff time."
 
-## Exception Handling
+## Exception Handling { #operate-fm-frozen-b2c-exceptions }
 
 - **Uncollected by customer**: If a package is not picked up within 4 days of arriving at the store, Taiwan Logistics retrieves it and holds it at the logistics center. It is returned to the merchant on the driver's next pickup. **No extra fee applies to this reverse logistics leg.**
 
@@ -234,7 +234,7 @@ If a label is lost or damaged, you can reprint it in the back office before the 
 </div>
 
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-fm-frozen-b2c }
 
 ??? quote "Items not delivered to the store more than shipment date + 7 days?"
 	FamilyMart automatically cancels the logistics space reserved for the order. The CYBERBIZ back office then shows "Shipping Exception", and the customer must follow the **return process** to handle the follow-up.

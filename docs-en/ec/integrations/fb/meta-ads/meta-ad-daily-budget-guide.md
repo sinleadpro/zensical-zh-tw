@@ -64,14 +64,14 @@ hide: []
 
 ![Meta Ads Daily Budget](../../../../assets/images/ec-第三方整合-fb-maa-每日預算設定.en.png){ .hero-page }
 
-## Meta Ads Daily Budget Guide
+## Meta Ads Daily Budget Guide { #overview-meta-budget }
 
 When you run Meta ads in CYBERBIZ, setting a reasonable daily budget is essential for ad performance and AI learning. Based on your ad experience, refer to the following recommendations to set your budget.
 
 !!! path "Admin Path"
-    For the budget settings in this guide, enter them in [Set Up Meta Ad Campaign](setup-meta-ad-campaign.md#活動內容設定){ title="Set Up Meta Ad Campaign" } > Campaign Content Settings > Daily Budget field.
+    For the budget settings in this guide, enter them in [Set Up Meta Ad Campaign](setup-meta-ad-campaign.md#operate-meta-campaign-ads-flow-content-settings){ title="Set Up Meta Ad Campaign" } > Campaign Content Settings > Daily Budget field.
 
-## Basic Guidelines and Recommendations
+## Basic Guidelines and Recommendations { #intro-meta-budget }
 
 !!! warning "Reminders"
     Before you set up ads, make sure you have completed [Create Ad Account and Add Funds](create-meta-ad-account-top-up.md){ title="Create a Meta Ad Account and Add Funds" } and added the minimum required funds before you start running ads.
@@ -83,7 +83,7 @@ When you set up an “[Advantage+ Shopping Campaign (ASC) :lucide-external-link:
 *   **Speed up AI learning**: In the early learning phase (first 1-2 weeks), set a higher budget. The goal is to **accumulate 30-50 conversions** so the system converges quickly and finds the audience with the lowest CPA and highest ROAS.
 *   **Quick estimate**: If you have no data at all, use **30% of your average order value** as the estimated CPA, then work backward to the daily budget.
 
-## Merchants Who Have Run Ads <small>Known Average CPA</small>
+## Merchants Who Have Run Ads <small>Known Average CPA</small> { #intro-meta-budget-ads-cpa }
 
 If you already have ad experience and know your **average cost per acquisition (CPA)**, calculate based on the data Meta needs for optimization:
 
@@ -93,7 +93,7 @@ If you already have ad experience and know your **average cost per acquisition (
 *   **Adjustment strategy**: Start with a lower budget and increase it gradually. To avoid the ad re-entering the “learning phase,” **keep daily budget changes to no more than 25%**.
 *   **Monitor and optimize**: Review performance regularly, concentrate budget on high-performing ads, and turn off underperforming ones.
 
-## Merchants Who Have Not Run Ads <small>Beginners</small>
+## Merchants Who Have Not Run Ads <small>Beginners</small> { #intro-meta-budget-ads }
 
 If this is your first time running ads and you have no past CPA data to reference, follow these steps:
 
@@ -104,7 +104,7 @@ If this is your first time running ads and you have no past CPA data to referenc
 3.  **Focus on high-performing audiences**: Prioritize budget for ads that perform well, and use a **retargeting strategy** to target users who have shown interest. This usually lowers costs.
 4.  **Creative testing**: Keep testing different ad creatives to improve engagement and lower CPA.
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-meta-budget }
 
 ??? quote "What are the budget thresholds for traffic ads and sales ads?"
 

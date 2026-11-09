@@ -90,44 +90,44 @@ Build a member rewards program with bonus points to win first purchases and brin
 	- **Compensation or rewards**: Use send manually to give points to specific members as service compensation or special rewards.
 
 
-## Before You Start
+## Before You Start { #prerequisites-bonus-points }
 
 - **Calculation basis**: bonus points are earned based on the checkout amount **excluding shipping**.
 - **When changes apply**: Changes to bonus point rules only apply to activity **after the change**. Points already sent aren't affected.
 - **Import limits**: Once bonus points are sent or removed, the system can't undo it. Proceed carefully.
 
 
-### Order Bonus Point Crediting Rules
+### Order Bonus Point Crediting Rules { #prerequisites-bonus-points-order-bonus-rules }
 
 
 Purchase reward points are credited only when the order is **Completed** and the return status is **Return Not Needed**. They aren't credited when a return is in progress, under review, or rejected.
 
 For full conditions and scenarios, see [coupon and Bonus Point Crediting Rules](../references/coupon-and-bonus-credit-rules.md).
 
-## Steps
+## Steps { #operate-bonus-points }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > 全館折扣-紅利 & 優惠券**.
 2. Scroll down to the **Member Bonus Points (Vouchers)** section and turn it `Enable`.
 3. Set the key options:
     - **Credit(s) conversion**: Set `X 點 = NT 1` (1:1 by default).
     - **Minimum Consumption Threshold**: The order amount required to use bonus points.
-    - **Send purchase bonus points for valid orders from other channels**: Whether to send bonus points when you manually add [valid orders from other channels](../../members/manage-member-profiles.md#2-其他通路訂單) for a member. **(Enterprise only)**
+    - **Send purchase bonus points for valid orders from other channels**: Whether to send bonus points when you manually add [valid orders from other channels](../../members/manage-member-profiles.md#operate-member-profiles-other-orders) for a member. **(Enterprise only)**
     - **Single Order Discount Limit**: Set a fixed amount or a Percentage of Revenue. **(PLUS and Enterprise only)**
     - **Bonus point is valid for:**: Set how many days points stay valid (0 means they never expire).
     > This validity also applies to bonus points sent as a "registration gift."
 
    ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-設定會員紅利點數01.png){ .screenshot }
 
-## Ways To Send Bonus Points
+## Ways To Send Bonus Points { #operate-bonus-points-bonus-send }
 
-### A. Storewide Purchase Rewards (Automatically Sent)
+### A. Storewide Purchase Rewards (Automatically Sent) { #operate-bonus-points-bonus-send-a-send }
 
 In the **Member Bonus Points (Vouchers)** section, set the "spend threshold" and the points earned.
 
 - **Example**: Earn 10 points for every NT$100 spent.
 - **Logic**: Points are earned in proportion. Spending NT$1000 earns 100 points; spending NT$999 earns 90 points.
 
-### B. Send To All Members (Store-wide) (All Members)
+### B. Send To All Members (Store-wide) (All Members) { #operate-bonus-points-bonus-send-b-send-member }
 
 1. On the same page, click **Send vouchers to every member** to expand the fields.
 2. Enter the points, validity, and name, then click **Confirm**.
@@ -135,7 +135,7 @@ In the **Member Bonus Points (Vouchers)** section, set the "spend threshold" and
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/紅利點數2-1.png){ .screenshot }
 
-### C. Send Manually (Specific Members)
+### C. Send Manually (Specific Members) { #operate-bonus-points-bonus-send-c-send-member }
 
 Go to **Customer Management > All Customers**.
 
@@ -157,7 +157,7 @@ Go to **Customer Management > All Customers**.
     </div>
 
 
-### D. Bulk Send With Excel
+### D. Bulk Send With Excel { #operate-bonus-points-bonus-send-d-excel-send }
 
 !!! info "Before You Start"
     - This feature is available on **Enterprise Plan** only.
@@ -176,7 +176,7 @@ Go to **Customer Management > All Customers**.
 
 
 
-## Set A Product-Level Redemption Cap
+## Set A Product-Level Redemption Cap { #operate-bonus-points-settings-product }
 
 You can set a Credit(s) cap for each product. **To allow Credit(s) on a product, enter the number of points that can be used**. **If the field is 0, the product doesn't allow Credit(s)**.
 
@@ -185,7 +185,7 @@ You can set a Credit(s) cap for each product. **To allow Credit(s) on a product,
 > **System logic**: When both a storewide redemption cap and a product redemption cap exist, the **stricter** (lower) limit applies.
 
 !!! tip "How to Edit This Field in Bulk"
-    [Export products to Excel](../../products/bulk-operations/batch-update-product-descriptions-shipping.md#匯出商品-excel-表格), edit the `商品款式紅利最高折抵` column, then [import the Excel file](../../products/bulk-operations/batch-update-product-descriptions-shipping.md#上傳-excel-檔案).
+    [Export products to Excel](../../products/bulk-operations/batch-update-product-descriptions-shipping.md#operate-batch-update-export), edit the `商品款式紅利最高折抵` column, then [import the Excel file](../../products/bulk-operations/batch-update-product-descriptions-shipping.md#operate-batch-update-upload).
 
 === "Admin Settings"
 
@@ -195,7 +195,7 @@ You can set a Credit(s) cap for each product. **To allow Credit(s) on a product,
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/09/設定紅利購物金說明03.png){ .screenshot }
 
-## Auto-Apply Bonus Points At Checkout
+## Auto-Apply Bonus Points At Checkout { #intro-bonus-points }
 
 **Auto-apply Member Bonus on Checkout** is **on** by default. You can choose whether the system automatically fills in the maximum bonus points a member can use when they reach checkout.
 
@@ -213,13 +213,13 @@ You can set a Credit(s) cap for each product. **To allow Credit(s) on a product,
 
     ![](../../../assets/images/EC-前台-結帳頁-會員紅利折抵欄位01.png){ .screenshot }
 
-## How It Works
+## How It Works { #specs-bonus-points }
 
-### Discount Order
+### Discount Order { #specs-bonus-points-discount }
 
 bonus points are applied **after all other discounts**. The system first calculates all promotions and coupons, then deducts bonus points last.
 
-### Cancellations
+### Cancellations { #specs-bonus-points-intro-details }
 
 You or the customer can cancel an order before it ships. Bonus points are handled as follows:
 
@@ -228,7 +228,7 @@ You or the customer can cancel an order before it ships. Bonus points are handle
 | **Canceled order** | Returned to the customer's account | Not sent if the order isn't completed<br>Not taken back if the order is completed and points were used |
 
 
-### Returns
+### Returns { #specs-bonus-points-details }
 
 You can choose how bonus points are handled for returns:
 
@@ -248,19 +248,19 @@ Set this in **Payment and Logistics > Checkout Page & Logistics > 訂單相關�
 !!! warning "Note for Warehouse-Integrated Merchants"
     Automatic return isn't supported for warehouse-integrated merchants. When those orders are returned, bonus points aren't returned or sent automatically.
 
-### Returns After Completion
+### Returns After Completion { #specs-bonus-points-information }
 
 If an order is returned after it's completed, the bonus points earned **aren't automatically deducted** from the member's account.
 
 !!! tip "Recommendations"
-    - Go to the member's profile and [remove the bonus points manually](../../members/manage-member-profiles.md#1-紅利點數派發與管理).
+    - Go to the member's profile and [remove the bonus points manually](../../members/manage-member-profiles.md#operate-member-profiles-bonus).
     - Wait until the return period ends before clicking **Complete Order** so bonus points are sent accurately. For full rules on how completion and returns affect crediting, see [coupon and Bonus Point Crediting Rules](../references/coupon-and-bonus-credit-rules.md).
 
 
 
-## Management And Reports
+## Management And Reports { #operate-bonus-points-manage }
 
-### Look Up Bonus Points
+### Look Up Bonus Points { #operate-bonus-points-manage-query-bonus }
 
 === "Merchant"
 
@@ -280,17 +280,17 @@ If an order is returned after it's completed, the bonus points earned **aren't a
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/08/購買指定商品送紅利13.png){ .screenshot }
 
-### Bonus Points Exchange Rate
+### Bonus Points Exchange Rate { #operate-bonus-points-manage-bonus }
 
 The system converts points and shows the matching amount based on the rate you set:
 
-#### Before You Start
+#### Before You Start { #operate-bonus-points-manage-requirements }
 
 - This feature is available on **Enterprise** only.
 - The exchange rate only applies to "Credit(s)."
 - Changing the rate directly changes the cash value of points already in customers' accounts.
 
-#### Storefront Examples
+#### Storefront Examples { #operate-bonus-points-manage-reference-details }
 
 - **Member center**: Shows available points and their approximate value.
 
@@ -307,7 +307,7 @@ The system converts points and shows the matching amount based on the rate you s
     ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明12.png){ .screenshot }
 
 
-#### Report Export Fields
+#### Report Export Fields { #operate-bonus-points-manage-report-export-fields }
 
 When you [export order reports](../../orders/reports/export-order-report.md), these Credit(s) and amount conversion fields are included:
 
@@ -318,7 +318,7 @@ When you [export order reports](../../orders/reports/export-order-report.md), th
 
 
 
-### View And Export Reports
+### View And Export Reports { #operate-bonus-points-manage-query-export-report }
 
 1. Go to **Summary Chart > Marketing Campaign Analysis > 紅利分析**.
 
@@ -333,7 +333,7 @@ When you [export order reports](../../orders/reports/export-order-report.md), th
     ![](https://www.cyberbiz.io/support/wp-content/uploads/設定紅利購物金說明16.png){ .screenshot }
 
 
-## More Actions
+## More Actions { #operate-bonus-points-operate }
 
 <div class="grid cards" markdown>
 

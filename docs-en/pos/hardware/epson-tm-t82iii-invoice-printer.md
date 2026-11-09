@@ -81,15 +81,15 @@ By correctly installing the EPSON TM-T82III professional invoice printer and con
     - **Automated Tax Compliance**: Print e-invoice receipts that comply with Ministry of Finance regulations as soon as checkout is complete.
 
 
-## Usage Notes
+## Usage Notes { #prerequisites-epson-t82 }
 
 - **Applicable Model**: This guide is written specifically for the **EPSON TM-T82III** model.
 - **Consumable Specification**: The printer uses **58mm** e-invoice thermal paper by default. When installing the paper, make sure the spacer is positioned correctly.
 
 
-## Operating Procedure
+## Operating Procedure { #operate-epson-t82 }
 
-### Step 1: Download and Install the POS Driver
+### Step 1: Download and Install the POS Driver { #operate-epson-t82-step-a-download }
 
 Before setting up the hardware, make sure the computer is ready for communication.
 
@@ -98,7 +98,7 @@ Before setting up the hardware, make sure the computer is ready for communicatio
 
 
 
-### Step 2: Prepare the Hardware and Install the Paper Roll
+### Step 2: Prepare the Hardware and Install the Paper Roll { #operate-epson-t82-step-b-hardware }
 
 Refer to the manual included with the printer, or to the [Product Manual List](https://support.epson.net/setupnavi/?PINF=bsmanual&OSC=IOS&LG2=ZH&MKN=TM-T82III) and the [User’s Guide](https://download4.epson.biz/sec_pubs/bs/pdf/TM-T82III_ug_asia_04.pdf), and complete the following steps:
 
@@ -107,7 +107,7 @@ Refer to the manual included with the printer, or to the [Product Manual List](h
 3. **Connect the power**: Plug in the printer and turn on the power switch.
 
 
-### Step 3: Install the Virtual Port Driver and Assign a COM Port
+### Step 3: Install the Virtual Port Driver and Assign a COM Port { #operate-epson-t82-step-c-install }
 
 This step is critical for a successful connection. Be sure to follow the steps in order.
 
@@ -126,7 +126,7 @@ This step is critical for a successful connection. Be sure to follow the steps i
   </iframe>
 </div>
 
-### Step 4: Verify the Paper Width Setting
+### Step 4: Verify the Paper Width Setting { #operate-epson-t82-step-d-settings }
 
 If invoice text is misaligned or cut off, check this setting. This setting is usually preconfigured before shipment, so merchants only need to verify it when problems occur.
 
@@ -136,7 +136,7 @@ If invoice text is misaligned or cut off, check this setting. This setting is us
 
 
 
-### Step 5: Connect and Print a Test Page
+### Step 5: Connect and Print a Test Page { #operate-epson-t82-step-e-connection }
 
 1. Return to **CYBERBIZ POS Driver**.
 2. In the device list, select the **EPSON invoice printer** that has an assigned COM Port.

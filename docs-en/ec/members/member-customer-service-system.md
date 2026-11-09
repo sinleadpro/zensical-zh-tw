@@ -73,19 +73,19 @@ Learn how to configure the built-in customer service Q&A system on your website,
     - **Improve Services with Data**: Export and analyze common inquiries to improve product descriptions or build an FAQ.
 
 
-## 1. Feature Overview
+## 1. Feature Overview { #overview-member-cs }
 
 The website customer service Q&A system includes the following communication channels:
 
 1.  **Contact Us (Site-Wide)**: Visitors can submit a message through the form whether or not they are logged in.
 2.  **Order Inquiry (Members Only)**: Members can leave a message about a **specific order** on the order details page. Message is automatically labeled with the order number.
 
-## 2. Storefront Setup And Interaction Scenarios
+## 2. Storefront Setup And Interaction Scenarios { #intro-member-cs }
 
 The following sections explain the **Customer Service Q&A** interaction flow:
 
 
-### 1. Contact Us Form
+### 1. Contact Us Form { #intro-member-cs-contact }
 
 === "Customer Perspective"
 
@@ -100,7 +100,7 @@ The following sections explain the **Customer Service Q&A** interaction flow:
     - **Handling the Inquiry**: Go to **Customer Management > 所有客服問題** and click :lucide-pencil: to reply.
 
 
-### 2. Order-Specific Inquiry
+### 2. Order-Specific Inquiry { #intro-member-cs-order }
 
 === "Customer Perspective"
 
@@ -115,7 +115,7 @@ The following sections explain the **Customer Service Q&A** interaction flow:
       > The relevant **Order Number** is automatically added to the Message. Click it to view the order Content directly.
 
 
-## 3. Set Up Customer Service Topics
+## 3. Set Up Customer Service Topics { #operate-member-cs-topics }
 
 Before accepting storefront messages, set up inquiry categories to route Message appropriately.
 
@@ -126,9 +126,9 @@ Before accepting storefront messages, set up inquiry categories to route Message
 
 ![](../../assets/images/EC-後台-會員-客服問題分類-建立訊息主題01.en.png)
 
-## 4. Message Replies And Management
+## 4. Message Replies And Management { #operate-member-cs }
 
-### 1. Reply To Member Inquiries
+### 1. Reply To Member Inquiries { #operate-member-cs-reply }
 
 1. Go to **Customer Management > 所有客服問題**.
 2. Click **Edit** for the item awaiting a reply.
@@ -142,14 +142,14 @@ Before accepting storefront messages, set up inquiry categories to route Message
 
 ![](../../assets/images/EC-後台-會員-所有客服問題-回覆與結案客服問題01.png)
 
-### 2. Handle Visitor (Non-Member) Messages
+### 2. Handle Visitor (Non-Member) Messages { #operate-member-cs-guest }
 
 1. If the system cannot find a member account associated with the visitor's email address, go to **Customer Management > Member Feedbacks**.
 2. Use the contact information left by the Customer to reply outside the system, such as by manually sending an email or Phone.
 
 ![](../../assets/images/EC-後台-會員-顧客回饋建議-畫面總覽01.png)
 
-### 3. Export Records For Analysis
+### 3. Export Records For Analysis { #operate-member-cs-export }
 
 1. Go to **Customer Management > 客服問題 – 依會員分類**.
 2. Select the members whose records you want to analyze.
@@ -158,7 +158,7 @@ Before accepting storefront messages, set up inquiry categories to route Message
 ![](../../assets/images/EC-後台-會員-客服問題-依會員分類-匯出客服問題01.png)
 
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-member-cs }
 
 ??? quote "Why does the Customer say they cannot see my reply after I click **Close Case**?"
     **Close Case** changes the management status in the admin panel. Use it for issues resolved through another channel, such as Phone. To display reply text to the Customer on the website, enter the reply and click **Save**.

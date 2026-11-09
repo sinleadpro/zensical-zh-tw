@@ -72,7 +72,7 @@ Bundle products from different Collections (such as Collections A + Collections 
 
 ![](../../../assets/images/EC-後台-行銷活動-紅配綠多組合優惠-畫面總覽01.png){ .hero-page }
 
-## About Bundle Discounts
+## About Bundle Discounts { #overview-discount }
 
 Bundle discounts are a classic promotion. You group products by margin or type (such as main dish + drink, or console + accessory), and customers get the bundle deal after picking a set number of items from each of the Collections. This helps sell long-tail products and improves your overall margin mix.
 
@@ -83,16 +83,16 @@ The system supports bundles across any number of Collections. Beyond the classic
     - **Outfit bundles**: Pick 1 top + 1 bottom + 1 accessory and get NT$300 off.
     - **Add-on deals**: Buy 1 main product (Collections A) and add 1 selected accessory (Collections B) for NT$99.
 
-## Before You Start
+## Before You Start { #prerequisites-discount }
 
 - **Hidden by default**: New promotions are "Hidden" by default. If the storefront shows a 404 error, check the status toggle.
 - **One group per product**: In a bundle promotion, a product (or variant) can belong to only one of the Collections.
 - **Shopping experience**: Keep the number of products in each of the Collections small (8 or fewer recommended) so customers can choose easily.
 - **Discount order:**: If an order qualifies for several promotions, the one with the higher "Priority" value applies first.
 
-## Steps
+## Steps { #operate-discount }
 
-### Step 1: Create The Promotion
+### Step 1: Create The Promotion { #operate-discount-create-campaign }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Bundle Discounts**.
 2. Enter the promotion **Promotion name** and click **Create a promotion**.
@@ -100,7 +100,7 @@ The system supports bundles across any number of Collections. Beyond the classic
 4. **Promotion Link**: Customize the URL path of the promotion page.
 5. **Discount order:**: Enter a value (1–999). Higher values take priority.
 
-### Step 2: Set The Pricing Rule
+### Step 2: Set The Pricing Rule { #operate-discount-settings-rules }
 
 In the "Pricing Rule" section of the promotion page, choose a discount method:
 
@@ -111,7 +111,7 @@ In the "Pricing Rule" section of the promotion page, choose a discount method:
 | **Discount fixed amount** | A fixed amount is taken off the bundle total | A(1)+B(1) NT$100 off |
 | **Discount fixed amount per item** | A fixed amount is taken off each item in the bundle | A(1)+B(1) NT$10 off each item |
 
-### Step 3: Manage Product Collections
+### Step 3: Manage Product Collections { #operate-discount-manage-product }
 
 1. Enter the **Collection name** (such as Main Dishes or Add-Ons) and click **Create a collection**.
 2. Set the **Collections Purchase Quantity**: how many items customers must pick from the Collections to trigger the deal.
@@ -119,14 +119,14 @@ In the "Pricing Rule" section of the promotion page, choose a discount method:
 
 ![](../../../assets/images/EC-後台-行銷活動-紅配綠多組合優惠-設定群組01.png)
 
-### Step 4: Select And Add Products
+### Step 4: Select And Add Products { #operate-discount-product }
 
 1. In the product list on the left, Search Product by Name, SKU or tag.
 2. Select products and click **Add**.
     *   **Added to these Collections**: Can be removed at any time.
     *   **Added to other Collections**: Can't be added again.
 
-### Step 5: Bulk Import Products (Optional)
+### Step 5: Bulk Import Products (Optional) { #operate-discount-import-product }
 
 For many products, use Excel to import them in bulk:
 
@@ -144,7 +144,7 @@ For many products, use Excel to import them in bulk:
 3. Back in the admin, click **No file selected** and import the file.
 4. You'll get the import results by email.
 
-## Multi-Language Settings
+## Multi-Language Settings { #operate-discount-settings }
 
 Set multi-language Names for bundle discounts so the storefront shows the right text for each language.
 
@@ -153,7 +153,7 @@ Set multi-language Names for bundle discounts so the storefront shows the right 
 	- Only fields with a **language tag** change text when the storefront language changes. For example: **Collection name** Bundle Discounts `繁體中文`.
 	- If a language field is empty, the storefront shows the **繁體中文** content by default.
 
-### Steps
+### Steps { #operate-discount-settings-steps }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Bundle Discounts**
 2. In the language menu, switch to the language you want to edit (for example, Traditional Chinese or English).
@@ -163,7 +163,7 @@ Set multi-language Names for bundle discounts so the storefront shows the right 
 
 
 
-## FAQ
+## FAQ { #faq-discount }
 
 ??? quote "Why can't I see the promotion page on the storefront?"
     Check that: 1. The promotion is set to "Public." 2. Today is within the promotion period. 3. There are at least two Collections, and each has products.

@@ -34,7 +34,7 @@ Professional ecommerce knowledge, technical docs, and operating tips to help you
 
 ---
 
-## Resource Overview
+## Resource Overview { #overview-resources }
 
 <div class="grid cards" markdown>
 

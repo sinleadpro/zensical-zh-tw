@@ -33,7 +33,7 @@ hide:
 
 This reference summarizes the notification channels and activation requirements available for automatic abandoned cart reminders. It is intended for reference in checkout and payment and logistics settings.
 
-## Notification Channels and Activation Requirements { #cart-reminder-channels }
+## Notification Channels and Activation Requirements { #reference-cart-reminder-channels }
 
 | Channel | Description | Activation Requirement |
 | :-- | :-- | :-- |

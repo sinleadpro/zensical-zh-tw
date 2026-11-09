@@ -119,8 +119,8 @@ The core of a conditionalized collection is its "product rules". A rule has thre
 1. **Switch to the "Product" tab:** At the top of the collection settings page, click the **Product** tab.
 2. **Choose how to combine conditions:** In the **Product Rules** section, under **Filter Results**, select **Match all conditions** or **Match any condition**.
 3. **Add a rule:** Click **Create a new product rule**, and the system adds a new rule row.
-4. **Set up a rule:** In the row, select a **filter field**, then a **condition**, and enter a **value**. For the available fields and conditions, see the [filter fields reference](../references/smart-collections-rule-columns.md#smart-collections-rule-columns){ title="Conditionalized Collection Filter Fields Reference" data-preview } and
-[filter conditions reference](../references/smart-collections-rule-relations.md#smart-collections-rule-relations){ title="Conditionalized Collection Filter Conditions Reference" data-preview }.
+4. **Set up a rule:** In the row, select a **filter field**, then a **condition**, and enter a **value**. For the available fields and conditions, see the [filter fields reference](../references/smart-collections-rule-columns.md#reference-smart-collections-columns){ title="Conditionalized Collection Filter Fields Reference" data-preview } and
+[filter conditions reference](../references/smart-collections-rule-relations.md#reference-smart-collections-relations){ title="Conditionalized Collection Filter Conditions Reference" data-preview }.
 5. **Add or remove rules:** Repeat the previous step to add more rules. To remove a rule, click the delete icon on the right of the row.
 6. **Save the rules:** Click **Save** below the "Product Rules" section, and the system immediately recalculates the matching products based on the rules.
 
@@ -141,7 +141,7 @@ The core of a conditionalized collection is its "product rules". A rule has thre
 
 1. **Review matching products:** After you save the rules, **Matching Products** below lists the products that currently match, including product name, price, product type, and vendor, so you can confirm the conditions are correct.
 2. **Choose a sort order:** In the sort drop-down menu, choose the order of products on the storefront collection page, such as "Price: High to Low" or "Best Selling". For all options, see the
-[product sort order reference](../references/smart-collections-sort-order.md#smart-collections-sort-orders){ title="Conditionalized Collection Product Sort Order Reference" data-preview }.
+[product sort order reference](../references/smart-collections-sort-order.md#reference-smart-collections-sort){ title="Conditionalized Collection Product Sort Order Reference" data-preview }.
 3. **Manual sorting (optional):** If you choose "Manual", drag product rows to change their order.
 
 ![Review product sorting](../../../assets/images/ec-smart-collections-sort.en.png)
@@ -166,7 +166,7 @@ The core of a conditionalized collection is its "product rules". A rule has thre
 ### 5. Multi-Language Translation Settings { #operate-smart-collections-multi-language }
 
 !!! plan "Plan / Activation Requirements"
-    This feature requires the multi-language store feature. Without it, there's no language menu next to the title on the collection edit page. For supported languages, see the [Multi-Language Supported Languages Reference](../references/multi-language-supported.md#multi-language-supported){ title="Multi-Language Supported Languages Reference" data-preview }.
+    This feature requires the multi-language store feature. Without it, there's no language menu next to the title on the collection edit page. For supported languages, see the [Multi-Language Supported Languages Reference](../references/multi-language-supported.md#reference-multi-language){ title="Multi-Language Supported Languages Reference" data-preview }.
 
 If your store has multi-language enabled, you can provide a version of each conditionalized collection's **collection name** and **collection description** in each language so customers see the matching translation on the storefront.
 

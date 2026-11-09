@@ -73,7 +73,7 @@ Learn how to connect the HPRT N130 barcode scanner to the POS system, and test t
 	- **Inventory Count**: Scan products during a stocktake to improve inventory verification efficiency.
 
 
-## Usage Notes
+## Usage Notes { #prerequisites-hprt-scanner }
 
 - **Applicable Devices**: The HPRT N130 uses a USB interface. Once connected, the system automatically recognizes it as an input device, so no driver installation is required.
 
@@ -84,7 +84,7 @@ Learn how to connect the HPRT N130 barcode scanner to the POS system, and test t
 - **Maintenance Tip**: Keep the scan window clean and free of scratches or smudges, which can affect scanning performance.
 
 
-## Connect and Test the Connection
+## Connect and Test the Connection { #operate-hprt-scanner }
 
 Run a basic connection test when you use the scanner for the first time or after you replace a device.
 
@@ -94,7 +94,7 @@ Run a basic connection test when you use the scanner for the first time or after
 4. Place the cursor in a blank area, and scan any product barcode.
 5. **Expected Result**: The screen should correctly display the number sequence of the barcode.
 
-## Scan Products
+## Scan Products { #operate-scan-products }
 
 Scan products during checkout or search in the POS system.
 
@@ -106,7 +106,7 @@ Scan products during checkout or search in the POS system.
     The scanner only reads the barcode number. If the POS cannot find a product after scanning, first check whether the barcode is correctly entered in the product data in the back office.
 
 
-## FAQ
+## FAQ { #faq-hprt-scanner }
 
 ??? quote "The scanner does not respond, and the indicator light is off?"
     1. Check that the USB cable is securely connected.

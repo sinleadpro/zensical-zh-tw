@@ -89,7 +89,7 @@ The "Payment and Logistics" > "HCT Waybill" page includes four sections:
 
 Before you use HCT Logistics, you must first apply to CYBERBIZ to enable it:
 
-- [x] **Fill out the application**: Go to "Payment and Logistics / Home Delivery Logistics" > "Logistics Integration" and find "HCT Cash on Delivery", then [fill out the application form](home-delivery-cash-on-delivery.md#2-新竹物流){ title="home delivery cash-on-delivery logistics (Tcat / Ecan / HCT)" }.
+- [x] **Fill out the application**: Go to "Payment and Logistics / Home Delivery Logistics" > "Logistics Integration" and find "HCT Cash on Delivery", then [fill out the application form](home-delivery-cash-on-delivery.md#operate-home-cod-hct){ title="home delivery cash-on-delivery logistics (Tcat / Ecan / HCT)" }.
 
 After activation, the "HCT Waybill" page appears in the admin menu, where you can configure the following settings.
 

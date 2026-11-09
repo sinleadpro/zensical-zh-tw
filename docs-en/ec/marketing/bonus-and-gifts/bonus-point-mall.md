@@ -83,7 +83,7 @@ Create your own online bonus point store, set the points needed for each product
 
 ![](../../../assets/images/EC-後台-行銷活動-紅利商城-畫面總覽01.en.png){ .hero-page }
 
-## About Bonus Mall
+## About Bonus Mall { #overview-bonus-mall }
 
 Bonus Mall gives you a separate space to show and redeem products, so members can turn the Bonus they earn into real products. "Redeem only" or "points only" items put members' point balances to use and build long-term brand loyalty.
 
@@ -94,7 +94,7 @@ The same product can be sold for cash in your regular store and redeemed for poi
     - **Use up points**: For points about to expire, run a limited-time Bonus Mall promotion to bring members in to redeem them.
     - **New product trials**: Add samples to Bonus Mall so loyal members can try them first with points, and collect feedback.
 
-## Before You Start
+## Before You Start { #prerequisites-bonus-mall }
 - **Storefront display**: Products must be "Listed" and "Published" to appear in Bonus Mall.
 - **Multi-variant products**: If a product in Bonus Mall has several variants (such as colors or sizes), the storefront only shows its "first main image," and customers can't switch to see other variants' images. Choose single-variant products or make sure the main image is representative.
 - **Color theme**: Bonus Mall pages don't support color swatches.
@@ -105,9 +105,9 @@ The same product can be sold for cash in your regular store and redeemed for poi
     - An order with only bonus point products is returned.
     - An order with both regular and bonus point products is returned (fully or partly).
 
-## Steps
+## Steps { #operate-bonus-mall }
 
-### Step 1: Create Bonus Mall Basic Information
+### Step 1: Create Bonus Mall Basic Information { #operate-bonus-mall-create-bonus }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Bonus Mall**.
 2. Click **New Bonus Mall** in the top-right corner.
@@ -122,7 +122,7 @@ The same product can be sold for cash in your regular store and redeemed for poi
 
 ![](../../../assets/images/EC-後台-行銷活動-紅利商城-EC基本設定01.en.png)
 
-### Step 2: Add Products To Redeem
+### Step 2: Add Products To Redeem { #operate-bonus-mall-product }
 
 === "Add Manually"
 
@@ -153,17 +153,17 @@ The same product can be sold for cash in your regular store and redeemed for poi
 
 
 
-### Step 3: Test And Publish The Store
+### Step 3: Test And Publish The Store { #operate-bonus-mall-intro-details }
 
 1. Check that all products and points are correct.
 2. Click **Unpublished** in the top-right corner to switch the Status to **Published**.
 3. Click **Go To This Mall** in the drop-down menu to preview it in a new tab.
 
-## How Customers Redeem
+## How Customers Redeem { #operate-bonus-mall-flow }
 
 Learn how customers browse, choose, and check out in Bonus Mall so your promotion works as expected.
 
-### 1. Log In And Check Balance
+### 1. Log In And Check Balance { #operate-bonus-mall-flow-intro-details }
 Customers must log in to their member account on the Bonus Mall page.
 
 - **Point information**: The page shows the member's total bonus points and points used.
@@ -171,7 +171,7 @@ Customers must log in to their member account on the Bonus Mall page.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-紅利商城-前台01.png){ .screenshot }
 
-### 2. Browse And Choose Products
+### 2. Browse And Choose Products { #operate-bonus-mall-flow-product }
 - **Point prices**: Products only show the points needed, not the original price.
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-紅利商城-前台04.png){ .screenshot }
@@ -180,7 +180,7 @@ Customers must log in to their member account on the Bonus Mall page.
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-紅利商城-前台02.png){ .screenshot }
 
-### 3. Check Out And Use Points
+### 3. Check Out And Use Points { #operate-bonus-mall-flow-checkout }
 - **Not enough points**: If the cart needs more points than the member has, the checkout button is disabled and shows "You don't have enough Bonus."
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-紅利商城-前台05.png){ .screenshot }
@@ -191,16 +191,16 @@ Customers must log in to their member account on the Bonus Mall page.
 
 - **Points only**: Bonus Mall products can only be redeemed fully with Bonus. Customers can't pay the difference in cash.
 
-## Advanced Settings
+## Advanced Settings { #operate-bonus-mall-manage }
 
-### Return Bonus When Orders Are Canceled
+### Return Bonus When Orders Are Canceled { #operate-bonus-mall-manage-order-bonus }
 Choose whether points are returned automatically when a bonus point order is canceled:
 
 1.  Go to **Payment and Logistics > Checkout Page & Logistics > 訂單相關設定**.
 2.  Find **Order Cancellation and Return Bonus Points Settings** and turn it on or off as needed.
 
 
-### Product Launch Countdown
+### Product Launch Countdown { #operate-bonus-mall-manage-product }
 In **Marketing > Bonus Mall**, turn on **Product launch time setting**. When a product has a future start time, the storefront shows a countdown timer.
 
 !!! info "Plan Availability for Product Launch Countdown"
@@ -226,7 +226,7 @@ In **Marketing > Bonus Mall**, turn on **Product launch time setting**. When a p
 
 
 
-## Multi-Language Settings
+## Multi-Language Settings { #operate-bonus-mall-settings }
 
 Set multi-language names for Bonus Mall so the storefront shows the right text for each language.
 
@@ -235,7 +235,7 @@ Set multi-language names for Bonus Mall so the storefront shows the right text f
 	- Only fields with a **language tag** change text when the storefront language changes. For example: **Collection name** Bonus Mall `繁體中文`.
 	- If a language field is empty, the storefront shows the **繁體中文** content by default.
 
-### Steps
+### Steps { #operate-bonus-mall-settings-steps }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Bonus Mall**
 2. In the language menu, switch to the language you want to edit (for example, Traditional Chinese or English).
@@ -246,7 +246,7 @@ Set multi-language names for Bonus Mall so the storefront shows the right text f
 
 
 
-## FAQ
+## FAQ { #faq-bonus-mall }
 
 ??? quote "Why does the store page show a 404 error?"
     Check that: 1. The store Status is "Published." 2. Today is within the "Period." 3. The store URL Link is correct.
@@ -257,7 +257,7 @@ Set multi-language names for Bonus Mall so the storefront shows the right text f
 ??? quote "What happens if Bonus is 0 or blank?"
     If points are 0 or blank, customers can't click the redeem button. Enter a positive whole number for every product.
 
-## More Actions
+## More Actions { #operate-bonus-mall-operate }
 
 <div class="grid cards" markdown>
 

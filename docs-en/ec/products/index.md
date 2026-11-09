@@ -17,7 +17,7 @@ hide:
   - feedback
 ---
 
-## Create and Manage Products
+## Create and Manage Products { #overview-products-hub-create }
 
 <div class="grid cards" markdown>
 
@@ -49,15 +49,15 @@ hide:
 
     ---
 
-    Let products continue selling when out of stock to open pre-orders, and use automatic checkout splitting to [check out pre-order and in-stock products separately](checkout/checkout-split-multi-cart.md#Set-a-Pre-Order-Product-Channel){ title="Check Out Pre-Order and In-Stock Products Separately Automatically" }.
+    Let products continue selling when out of stock to open pre-orders, and use automatic checkout splitting to [check out pre-order and in-stock products separately](checkout/checkout-split-multi-cart.md#operate-split-cart-preorder){ title="Check Out Pre-Order and In-Stock Products Separately Automatically" }.
 
-    [:octicons-arrow-right-24: Go](create-and-manage/create-update-products.md#setup-preorder-products){ title="Pre-Order Product Settings" }
+    [:octicons-arrow-right-24: Go](create-and-manage/create-update-products.md#operate-product-preorder){ title="Pre-Order Product Settings" }
 
 </div>
 
 ---
 
-## Product Content and Visuals
+## Product Content and Visuals { #overview-products-hub-content }
 
 <div class="grid cards" markdown>
 
@@ -105,7 +105,7 @@ hide:
 
 ---
 
-## Collections and Tags
+## Collections and Tags { #overview-products-hub-tags }
 
 <div class="grid cards" markdown>
 
@@ -153,7 +153,7 @@ hide:
 
 ---
 
-## Search and Discoverability
+## Search and Discoverability { #overview-products-hub-search }
 
 <div class="grid cards" markdown>
 
@@ -193,7 +193,7 @@ hide:
 
 ---
 
-## Bulk Management and Product Copying
+## Bulk Management and Product Copying { #overview-products-hub-bulk }
 
 <div class="grid cards" markdown>
 
@@ -241,7 +241,7 @@ hide:
 
 ---
 
-## Sales Settings and Customer Engagement
+## Sales Settings and Customer Engagement { #overview-products-hub-engage }
 
 <div class="grid cards" markdown>
 
@@ -281,7 +281,7 @@ hide:
 
 ---
 
-## Shipping and Logistics
+## Shipping and Logistics { #overview-products-hub-shipping }
 
 <div class="grid cards" markdown>
 

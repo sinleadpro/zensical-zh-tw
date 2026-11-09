@@ -66,7 +66,7 @@ hide: []
 
 ![Storefront product filter settings](../../../assets/images/ec-product-edit-product-filter-hero.zh-tw.en.png){ title="Storefront Product Filter Settings" .hero-page }
 
-## About Storefront Product Filters
+## About Storefront Product Filters { #intro-product-filters }
 
 Storefront product filters let customers filter products by **price, inventory, bonus redemption, and product options**.
 
@@ -74,13 +74,13 @@ Storefront product filters let customers filter products by **price, inventory, 
 
     ![Storefront product filter display](../../../assets/images/ec-product-filter-frontend.zh-tw.en.png){ title="Storefront Product Filter Display" }
 
-## Prerequisites and Limits
+## Prerequisites and Limits { #prerequisites-product-filters }
 
 - :lucide-check: Supports **customized collection pages**
 - :lucide-check: Supports **conditionalized collection pages** `/collections`
 - :lucide-x: Does not support **multi-level category pages** `/categories`
 
-### Default Filters
+### Default Filters { #prerequisites-product-filters-default }
 
 The system includes the following **default filters**. Their filter conditions are fixed by the system, and merchants cannot add, delete, or modify their sub-conditions.
 
@@ -103,7 +103,7 @@ The system includes the following **default filters**. Their filter conditions a
 - **Products eligible for credit redemption**: The product's bonus redemption quantity is greater than 0.
 
 !!! tip "Automatically Generated Product Option Filters"  
-	The system automatically uses all **product options** in your store as filter items. To change which items appear in the filters, see [Edit Product Options](#Step-4-Edit-Product-Options).
+	The system automatically uses all **product options** in your store as filter items. To change which items appear in the filters, see [Edit Product Options](#operate-product-filters-variants).
 
 ??? info "Filter Logic"
 
@@ -112,9 +112,9 @@ The system includes the following **default filters**. Their filter conditions a
     | **Intersection (AND)** | Select sub-conditions from *different filters* | Products must match all conditions | `Color:Red` and `Size:S` → Shows products that are red and size S |
     | **Union (OR)** | Select multiple sub-conditions from *the same filter* | Products can match any condition | `Color:Red` or `Color:Black` → Shows products that are red or black |
 
-## Merchant Steps
+## Merchant Steps { #operate-product-filters }
 
-### Step 1: Open the Product Filter Settings
+### Step 1: Open the Product Filter Settings { #operate-product-filters-enter }
 
 1. Log in to the CYBERBIZ admin and go to **Products > All Products**.
 2. Click **Edit Product Filter** to open the edit page.
@@ -123,7 +123,7 @@ The system includes the following **default filters**. Their filter conditions a
 
 ---
 
-### Step 2: Enable Storefront Product Filters
+### Step 2: Enable Storefront Product Filters { #operate-product-filters-enable }
 
 Click the **Enable Product Filter** toggle :material-toggle-switch: to show or hide filters on the storefront.
 
@@ -131,7 +131,7 @@ Click the **Enable Product Filter** toggle :material-toggle-switch: to show or h
 
 ---
 
-### Step 3: Understand Filters and Sub-Conditions
+### Step 3: Understand Filters and Sub-Conditions { #operate-product-filters-rules }
 
 The system automatically uses all **product options** in your store as filters, such as *Color*, *Size*, and *Material*.
 
@@ -142,7 +142,7 @@ The system automatically uses all **product options** in your store as filters, 
 
 ---
 
-### Step 4: Edit Product Options
+### Step 4: Edit Product Options { #operate-product-filters-variants }
 
 1. Log in to the CYBERBIZ admin and go to **Products > All Products**.
 2. Select the product you want to edit to open the product edit page.
@@ -152,7 +152,7 @@ The system automatically uses all **product options** in your store as filters, 
 
 ---
 
-### Step 5: Reorder Filters and Sub-Conditions
+### Step 5: Reorder Filters and Sub-Conditions { #operate-product-filters-sort }
 
 Drag the :material-drag-vertical: icon to the left of a filter or sub-condition to change the display order.
 
@@ -160,15 +160,15 @@ Drag the :material-drag-vertical: icon to the left of a filter or sub-condition 
 
 ---
 
-### Step 6: Edit Filter Visibility
+### Step 6: Edit Filter Visibility { #operate-product-filters-status }
 
 Click :material-eye-outline: (Published) or :material-eye-off-outline: (Unpublished) on the right to show or hide a filter on the storefront.
 
 ![Toggle filter visibility](../../../assets/images/product-filter-frontend-public-toggle.en.gif){ title="Toggle Filter Visibility" }
 
-## Customer Experience and Storefront Display
+## Customer Experience and Storefront Display { #operate-product-filters-front }
 
-### Storefront Display Differences
+### Storefront Display Differences { #specs-product-filters-display }
 How product filters appear on the storefront depends on the device type.
 	
 === ":material-monitor-dashboard: Desktop"
@@ -184,13 +184,13 @@ How product filters appear on the storefront depends on the device type.
 
 ---
 
-### Sub-Condition Product Counts
+### Sub-Condition Product Counts { #specs-product-filters-counts }
 
 The number in parentheses after a sub-condition is the number of products that match it.
 
 ---
 
-### Adjust Filter Conditions
+### Adjust Filter Conditions { #operate-product-filters-adjust }
 
 Click **All Filters** to open a pop-up window and adjust the published filter groups and options.
 
@@ -198,14 +198,14 @@ Click **All Filters** to open a pop-up window and adjust the published filter gr
 
 ---
 
-### Clear Filter Conditions
+### Clear Filter Conditions { #operate-product-filters-clear }
 
 After applying filters, click **Reset All Filters** to remove all applied conditions at once.
 	
 ![Reset all filters](https://www.cyberbiz.io/support/wp-content/uploads/商品篩選器08.png){ title="Reset All Filters" }
 
 
-## FAQ
+## FAQ { #faq-product-filters }
 
 ??? quote "Do product filters work on all collection pages?"
 	No. They work only on **customized collection pages** and **conditionalized collection pages** (`/collections`). Multi-level category pages (`/categories`) are not supported.

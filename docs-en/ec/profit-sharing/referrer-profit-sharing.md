@@ -89,16 +89,16 @@ By creating referrer profit-sharing plans, you can set dedicated commission rate
 
 
 
-## Before You Start
+## Before You Start { #prerequisites-referrer-ps }
 
 - **Can't edit after saving**: Once a Referral Plan is created and saved, **its "profit-sharing rate" and "Online/Offline/Product Commission" can't be changed**. To change the rate, create a new plan.
 - **Referral Binding Period**: Referrer profit sharing supports a "Referral Binding Period" setting. Within the set number of days, if the customer buys again on the same device and browser, the system automatically applies the same Referral Code.
 
 
 
-## Steps
+## Steps { #operate-referrer-ps }
 
-### Step 1: Create A Referral Plan And Set Up The Basics
+### Step 1: Create A Referral Plan And Set Up The Basics { #operate-referrer-ps-plan }
 
 1. Log in to the CYBERBIZ admin and go to **Profit Sharing > With Referrers**.
 2. Make sure **Enable profit sharing** is set to `ON`.
@@ -122,13 +122,13 @@ By creating referrer profit-sharing plans, you can set dedicated commission rate
             - **On**: Customers can see and use the referral offer on the storefront **without logging in**. Use this for campaigns where you want to make ordering easier and get the offer seen more.
             - **Off**: The system checks login status. Customers **must log in** to see the referral offer. If they aren't logged in, profit sharing is still credited to the Referrer at checkout, but the customer doesn't get the referral discount.
 
-            If you want every customer to get the referral offer at checkout, turn this **on**, or set your store to **require registration** before checkout in [customer registration settings](../website-management/customer-registration-flow-and-fields/#步驟-1選擇顧客註冊結帳模式).
+            If you want every customer to get the referral offer at checkout, turn this **on**, or set your store to **require registration** before checkout in [customer registration settings](../website-management/customer-registration-flow-and-fields/#operate-customer-reg-mode).
 
 
 !!! tip "Naming and managing plans"
     Enter a **plan name** here, not a specific **referrer's name**. You can group rules with the same profit-sharing rate into one plan, then assign the plan to the matching staff, third-party partners, or customers.
 
-### Step 2: Choose The Commission Type
+### Step 2: Choose The Commission Type { #operate-referrer-ps-method }
 
 === "Whole-order profit sharing"
 
@@ -157,7 +157,7 @@ By creating referrer profit-sharing plans, you can set dedicated commission rate
     ![](../../assets/images/EC-後台-分潤-推薦人分潤-指定商品分潤01.en.png){ .screenshot }
 
 
-### Step 3: Set Rewards For Customers And Referrers
+### Step 3: Set Rewards For Customers And Referrers { #operate-referrer-ps-rewards }
 
 After you save the basic settings, go to the **Reward Setting** tab, where you can set rewards for both sides:
 
@@ -200,7 +200,7 @@ After you save the basic settings, go to the **Reward Setting** tab, where you c
         - **Returns**: Bonus points are only issued the first time an order is completed. If the order is returned (including partial returns), the system takes back all the bonus points for that order. If the order is completed or returned again later, no points are added or taken back.
 
 
-### Step 4: Assign Referrers And Get Codes
+### Step 4: Assign Referrers And Get Codes { #operate-referrer-ps-bind }
 
 Switch to the tab for the type of partner you're working with. One plan can include several types of partners.
 
@@ -246,7 +246,7 @@ Switch to the tab for the type of partner you're working with. One plan can incl
         - Referrer names **can't be deleted** once saved, so double-check them when you set them up.
 
 
-## FAQ
+## FAQ { #faq-referrer-ps }
 
 ??? quote "A customer clicked a referral link, so why doesn't the Referral Code appear on the checkout page?"
     Check these two things:

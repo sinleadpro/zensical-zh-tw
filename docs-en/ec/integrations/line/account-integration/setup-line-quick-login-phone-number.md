@@ -77,13 +77,13 @@ hide: []
 
 ![LINE Quick Login Phone Number](../../../../assets/images/ec-第三方整合-line login-oc-phone-number.en.png){ title="LINE Quick Login Phone Number" .hero-page }
 
-## What Is Member Phone Number Retrieval in LINE Quick Login?
+## What Is Member Phone Number Retrieval in LINE Quick Login? { #intro-line-phone-login }
 
 **Member Phone Number Retrieval in LINE Quick Login** is an advanced feature that helps merchants obtain phone number authorization when customers sign in with LINE, so they can create or update storefront member profiles.
 
 The following sections explain the feature in detail and provide setup steps:
 
-## Prerequisites
+## Prerequisites { #prerequisites-line-phone-login }
 
 Merchants must meet all three of the following conditions to use this feature:
 
@@ -98,7 +98,7 @@ Merchants must meet all three of the following conditions to use this feature:
 	- Learn about [LINE account tier differences :lucide-external-link:](https://tw.linebiz.com/column/lac-verified/).
 	- See [LINE verified official account application process :lucide-external-link:](https://tw.linebiz.com/column/line-lac-id-0418/).
 
-## Verify Eligibility in LINE Developers
+## Verify Eligibility in LINE Developers { #intro-line-phone-login-line-backend }
 
 Log in to [LINE Developers :lucide-external-link:](https://developers.line.biz/) and check the following:
 
@@ -116,7 +116,7 @@ Log in to [LINE Developers :lucide-external-link:](https://developers.line.biz/)
 
 	![LINE Login Permission Settings](../../../../assets/images/ec-第三方整合-line-login-permissions.en.png){ title="LINE Login Permission Settings" }
 
-## System Matching Logic and Scenarios
+## System Matching Logic and Scenarios { #specs-line-phone-login }
 
 Standard LINE quick login matches accounts only by the member's email address. When this feature is turned on, the system's logic changes as follows:
 
@@ -167,7 +167,7 @@ Standard LINE quick login matches accounts only by the member's email address. W
 	|**Scenario 2**|Not registered in EC|**Create new Member C**|Same as **new Member C** login|Accesses the LINE email, phone number, and UID at the same time to create a new record.|
 
 
-## Use with LIFF Apps
+## Use with LIFF Apps { #intro-line-phone-login-liff }
 
 [:lucide-tag:{ title="Applicable plans" }](../../../resources/conventions#適用方案) | PLUS / Enterprise
 { .doc-badge }
@@ -191,7 +191,7 @@ If you have LINE Certified Provider status, you can also use the **LIFF** featur
 
 !!! info "For complete LIFF setup instructions, see [How to Set Up LIFF Auto-Login](setup-liff-auto-login-member-binding.md){ title="Set Up LIFF Auto-Login and Member Binding" }."
 
-## Important Notes
+## Important Notes { #intro-line-phone-login-overview-line-phone-login }
 
 - **Non-retroactive**: This feature **does not include** phone numbers for members who completed LINE quick login before the feature was set up.
 
@@ -200,7 +200,7 @@ If you have LINE Certified Provider status, you can also use the **LIFF** featur
 - **Masked display**: When printing order details, if the merchant has enabled security settings, retrieved phone numbers appear masked (for example, `093******3`) to protect personal data.
 
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-line-phone-login }
 
 ??? quote "How does the system handle a phone number on LINE that does not match the storefront record?"
 	The system follows a **"phone number first"** policy. If the phone number provided by LINE already exists in the system (Member A), it is always bound to Member A, regardless of the email. If the number has no record and the email is also unregistered, the user is treated as a new customer and a new record is created.

@@ -85,9 +85,9 @@ The downloaded ZIP archive contains shipping labels you can stick directly on pa
 
 Before using SF Express shipping labels for the first time, complete the following. Missing any of them prevents shipping labels from being generated or leaves sender information incomplete:
 
-- [x] **SF Express sender address**: Set the sender address in "Payment and Logistics" > "[SF Express Shipping Labels](../../payments-and-logistics/setup-sf-express-waybill-v2.md#configure-sf-waybill-sender){ title="Set Up SF Express Shipping Labels" }." Without it, you'll see an "Incomplete sender information" message when shipping.
+- [x] **SF Express sender address**: Set the sender address in "Payment and Logistics" > "[SF Express Shipping Labels](../../payments-and-logistics/setup-sf-express-waybill-v2.md#operate-sf-sender-settings){ title="Set Up SF Express Shipping Labels" }." Without it, you'll see an "Incomplete sender information" message when shipping.
 - [x] **Company tax ID**: Go to "General Settings" > "[Company Contact Information](../../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="Set Up Basic Website Information" }" and enter your tax ID. **Required for international shipments[^1]**.
-- [x] **SF Express sender information** (optional): If you want the sender phone on the shipping label to differ from your "Company Contact Information," specify a sender name and phone on the **SF Express shipping label settings page**. For details, see [Set Up SF Express Sender Information](../../payments-and-logistics/setup-sf-express-waybill-v2.md#configure-sf-waybill-sender){ title="SF Express Settings" data-preview }.
+- [x] **SF Express sender information** (optional): If you want the sender phone on the shipping label to differ from your "Company Contact Information," specify a sender name and phone on the **SF Express shipping label settings page**. For details, see [Set Up SF Express Sender Information](../../payments-and-logistics/setup-sf-express-waybill-v2.md#operate-sf-sender-settings){ title="SF Express Settings" data-preview }.
 
 [^1]: International shipping labels can't be generated without a tax ID.
 
@@ -121,14 +121,14 @@ Process multiple SF Express orders at once, printing shipping labels and updatin
     * **Order list**: Shows the selected order numbers and delivery methods. Check them before continuing.
     * **Package sizes and fees**: The window shows a price table listing the CYBER Coin fee for each size for reference[^3].
     - **Estimated CYBERBIZ Coin**: Standard Plan[^4] merchants see the CYBER Coins to be deducted, the current account balance, and a "Top Up" button in the window.
-    * **Sender Address**: Defaults to the sender address last used for this logistics service (the first time, it uses the address in [SF Express settings](../../payments-and-logistics/setup-sf-express-waybill-v2.md#configure-sf-waybill-sender){ title="Set Up SF Express Shipping Labels" }). To change it, click **Change** in the window[^6].
+    * **Sender Address**: Defaults to the sender address last used for this logistics service (the first time, it uses the address in [SF Express settings](../../payments-and-logistics/setup-sf-express-waybill-v2.md#operate-sf-sender-settings){ title="Set Up SF Express Shipping Labels" }). To change it, click **Change** in the window[^6].
 
     ![Download SF Express shipping labels pop-up](../../../assets/images/ec-orders-sf-waybill-download-popup.en.png){ title="Download SF Express Shipping Labels Pop-Up"}
 
 5. **Read the notes**: The window lists shipping reminders[^5]. Read them before continuing.
 6. **Agree to the terms**: Select **"I have read and agree to the CYBERBIZ Logistics Integration Terms of Service and SF Express contract terms"** (selected by default) to enable the confirm button.
 7. **Click "Download"**: The system calls SF Express to get a tracking number for each selected order and downloads a ZIP [archive](#reference-sf-bulk-shipping-files).
-8. **Check the results**: After the download, the delivery status of those orders in the order list changes to **"[Shipped (Awaiting Carrier Pickup)](shipping-status-tooltip.md#shipping-status-text-type){ title="Shipment Status Tooltip Text" data-preview }"**, and the tracking number is recorded on the order details page.
+8. **Check the results**: After the download, the delivery status of those orders in the order list changes to **"[Shipped (Awaiting Carrier Pickup)](shipping-status-tooltip.md#reference-shipping-status){ title="Shipment Status Tooltip Text" data-preview }"**, and the tracking number is recorded on the order details page.
 
 [^2]: Otherwise, the system blocks the action and shows "Order X doesn't support SF Express shipping labels."
 [^3]: The system determines the size to charge automatically from the volume of the order items; you don't need to choose it.

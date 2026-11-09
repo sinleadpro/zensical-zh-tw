@@ -69,11 +69,11 @@ hide:
 
 ![JKOPAY Settings](../../assets/images/ec-金物流-街口支付.en.png){ title="JKOPAY Settings" .hero-page }
 
-## About JKOPAY
+## About JKOPAY { #intro-jkopay }
 
 JKOPAY is a third-party payment service that offers e-payment, JKOPAY Coins, and credit card payments. It supports multiple transaction methods and can be integrated with e-commerce platforms to manage payment processing.
 
-### Supported Payment Methods
+### Supported Payment Methods { #intro-jkopay-methods }
 
 | Payment Method | Description |
 |----------|------|
@@ -86,21 +86,21 @@ JKOPAY is a third-party payment service that offers e-payment, JKOPAY Coins, and
 
 ---
 
-### Application Restrictions and Notes
+### Application Restrictions and Notes { #prerequisites-jkopay }
 
 - **Personal Account** cannot apply for JKOPAY.
 - When JKOPAY Coins are used to offset the order amount, JKOPAY bears the offset amount.
 - The application process takes about **1–2 weeks**, subject to JKOPAY's official timeline.
 
-## Setup Steps
+## Setup Steps { #operate-jkopay }
 
-### Step 1: Fill out the Application Form
+### Step 1: Fill out the Application Form { #operate-jkopay-form }
 
 Go to [CYBERBIZ x JKOPAY Integration Application Form](https://docs.google.com/forms/d/e/1FAIpQLSeu-OHx8njpaQtC61vZRIpoj529BmkdRtt74490Io3u16AJ_g/viewform) and fill out the complete information.
 
 ---
 
-### Step 2: Complete Your JKOPAY Account Application
+### Step 2: Complete Your JKOPAY Account Application { #operate-jkopay-account }
 
 1. After you submit the form, JKOPAY sends follow-up application instructions by email.
 
@@ -111,7 +111,7 @@ Go to [CYBERBIZ x JKOPAY Integration Application Form](https://docs.google.com/f
 
 ---
 
-### Step 3: Complete the CYBERBIZ Back-Office Integration Setup
+### Step 3: Complete the CYBERBIZ Back-Office Integration Setup { #operate-jkopay-bind }
 
 1. After you receive the **Store Code (Store ID)** from JKOPAY.
 2. Log in to the CYBERBIZ back office, go to **Payment and Logistics > Payment Settings**, and in the **JKOPAY** section, click the edit button :material-file-document-edit-outline: to open the edit page.
@@ -121,7 +121,7 @@ Go to [CYBERBIZ x JKOPAY Integration Application Form](https://docs.google.com/f
 ![JKOPAY Store ID](../../assets/images/ec-金物流-街口支付-storeid.en.png){ title="JKOPAY Store ID" }
 
 
-## Next Steps
+## Next Steps { #next-steps-jkopay }
 
 <div class="grid cards" markdown>
 

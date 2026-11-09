@@ -61,7 +61,7 @@ hide: []
 
 ![AFTEE Pay Later](../../assets/images/ec-金物流-AFTEE.en.png){ title="AFTEE Pay Later" .hero-page }
 
-## AFTEE Pay Later Overview
+## AFTEE Pay Later Overview { #intro-aftee }
 
 AFTEE Pay Later gives customers a fast, convenient, and secure payment method. Customers can complete checkout without a credit card.
 
@@ -69,7 +69,7 @@ AFTEE Pay Later gives customers a fast, convenient, and secure payment method. C
 - Improve checkout efficiency and payment convenience, and increase order completion rates.
 - If customers have payment or billing issues, they can contact the [AFTEE official website](https://aftee.tw/) for support.
 
-### Transactions and Fees
+### Transactions and Fees { #intro-aftee-fees }
 
 - **Processing fee**: Charged at the rate set in the back office. The rate does not include 5% business tax, which is added separately on the statement.
 - **Preferential rate**: 2.5% (excluding tax). Rate recognition is based on the shipment date.
@@ -77,28 +77,28 @@ AFTEE Pay Later gives customers a fast, convenient, and secure payment method. C
 
 ---
 
-### Device and Browser Restrictions
+### Device and Browser Restrictions { #prerequisites-aftee-devices }
 
 - Customers must verify with a mobile phone that can receive SMS.
 - The system has no additional browser restrictions, but we recommend using a mainstream mobile browser for a smooth process.
 
 ---
 
-### Automatic Cancellation Rules
+### Automatic Cancellation Rules { #specs-aftee-auto-cancel }
 
 - Orders paid with AFTEE are automatically canceled if not shipped within 90 days (pre-order items excluded).
 - The system sends reminder notifications 30, 15, 7, 3, and 1 days before cancellation, so merchants can track shipment progress.
 
 ---
 
-### Installment Payment Support
+### Installment Payment Support { #specs-aftee-installment }
 
 - After downloading the AFTEE app, customers can choose an installment payment option.
 - No additional activation is required. Installment features are controlled by the AFTEE app. Learn [How to Use AFTEE Installment Payments :lucide-external-link:](https://netprotections.freshdesk.com/support/solutions/articles/70000197869-%E5%8F%AA%E6%9C%89app%E6%9C%83%E5%93%A1%E8%83%BD%E5%88%86%E6%9C%9F%E5%97%8E-)
 
-## Setup Steps
+## Setup Steps { #operate-aftee }
 
-### Step 1: Apply to Activate AFTEE
+### Step 1: Apply to Activate AFTEE { #operate-aftee-apply }
 
 1. Log in to the CYBERBIZ back office and go to **Payment and Logistics > Payment Settings**.
 2. In the CYBERBIZ PAYMENTS section, click **Edit** to open the edit page.
@@ -107,7 +107,7 @@ AFTEE Pay Later gives customers a fast, convenient, and secure payment method. C
 
 ![AFTEE activation](../../assets/images/ec-金物流-aftee 申請.en.gif){ title="AFTEE activation request" }
 
-### Step 2: Enable the Payment Method
+### Step 2: Enable the Payment Method { #operate-aftee-enable }
 
 
 1. Log in to the CYBERBIZ back office and go to **Payment and Logistics > Payment Settings**.
@@ -117,7 +117,7 @@ AFTEE Pay Later gives customers a fast, convenient, and secure payment method. C
 
 ![AFTEE on storefront](../../assets/images/ec-金物流-aftee-前台顯示.en.png){ title="AFTEE on storefront" }
 
-### Step 3: Customer Payment Process
+### Step 3: Customer Payment Process { #operate-aftee-checkout }
 
 1. On the checkout page, the customer selects AFTEE Pay Later.
 2. Click **Pay with AFTEE Pay Later**.  
@@ -129,7 +129,7 @@ AFTEE Pay Later gives customers a fast, convenient, and secure payment method. C
 
 <!--
 
-## Next Steps
+## Next Steps { #next-steps-aftee }
 
 <div class="grid cards" markdown>
 
@@ -145,7 +145,7 @@ AFTEE Pay Later gives customers a fast, convenient, and secure payment method. C
 
 -->
 
-## FAQ
+## FAQ { #faq-aftee }
 
 ??? quote "Does AFTEE Pay Later have order amount limits?"
 	Yes. You can set payment thresholds in the back office to limit the minimum and maximum order amounts.

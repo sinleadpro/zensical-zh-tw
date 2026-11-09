@@ -68,13 +68,13 @@ hide: []
 
 ![LINE Group Buy Bot Setup](../../../../assets/images/ec-第三方整合-line團購機器人設定.en.png){ title="LINE Group Buy Bot Setup" .hero-page }
 
-## What Is the LINE Group Buy Bot
+## What Is the LINE Group Buy Bot { #intro-line-group-bot }
 
 **LINE Group Buy Bot Setup** is the foundation for running group buying in LINE groups. Set up a dedicated group buy bot and add it to a LINE group so that members can shop directly within the group.
 
 The following is a detailed guide to **LINE Group Buy Bot Setup**:
 
-## Use Cases and Limitations
+## Use Cases and Limitations { #prerequisites-line-group-scope }
 
 *   **Purpose**: Helps merchants run group buying activities in LINE groups and invites members to add the brand's official account as a friend.
 *   **Supported environment**: Only **LINE groups** or **multi-person chats** are supported. LINE communities (OpenChat) are not supported due to anonymity restrictions.
@@ -108,7 +108,7 @@ The following is a detailed guide to **LINE Group Buy Bot Setup**:
             OA2 -.- N2
     ```
 
-## Prerequisites
+## Prerequisites { #prerequisites-line-group-setup }
 
 Before you begin, make sure you have the following:
 
@@ -118,7 +118,7 @@ Before you begin, make sure you have the following:
 - [x] CYBERBIZ back-office admin access
 ---
 
-## Bot-Specific Messaging API Setup
+## Bot-Specific Messaging API Setup { #operate-line-group-bot }
 
 1.  **Create an account**: Go to [LINE OA Manager :lucide-external-link:](https://manager.line.biz/) and create a dedicated LINE official account for group buying.
 
@@ -171,14 +171,14 @@ Before you begin, make sure you have the following:
 
 ---
 
-## Bot Menu Setup
+## Bot Menu Setup { #operate-line-group-bot-settings }
 
 *   If you already operate a brand LINE official account, enter its **Account ID** in the back office.
 *   During group buying (for example, in the main menu, the order completion page, and thank-you messages), the system guides users to add the brand as a friend, which helps grow your membership.
 
 ![Group buy bot official account settings](../../../../assets/images/ec-第三方整合-line團購機器人-官方帳號設定.en.png){ title="Group buy bot official account settings" }
 
-## LIFF Setup <small>Key Steps</small>
+## LIFF Setup <small>Key Steps</small> { #operate-line-group-bot-liff-settings-step }
 
 This setting allows the bot to open the shopping interface within the group:
 
@@ -208,7 +208,7 @@ This setting allows the bot to open the shopping interface within the group:
 
     ![Copy and paste the LIFF ID and URL](../../../../assets/images/ec-第三方整合-line團購機器人-linedevelopers-copynpast-liffid-liffurl.en.gif){ title="Copy and paste the LIFF ID and URL" }
 
-## Next Steps
+## Next Steps { #next-steps-line-group-bot }
 
 After you finish the bot setup, complete the following two settings before going live:
 
@@ -224,7 +224,7 @@ After you finish the bot setup, complete the following two settings before going
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-line-group-bot }
 
 
 ??? quote "Why can't the group buy bot be used in LINE communities (OpenChat)?"

@@ -79,15 +79,15 @@ Learn how to set products as taxable or tax-exempt and automatically calculate a
     - **Automatic shipping tax classification**: The system automatically classifies shipping fees as taxable items to ensure accurate mixed-tax calculations.
 
 
-## Usage Notes
+## Usage Notes { #prerequisites-mixed-tax-invoices }
 
 - **Checkout channel restriction**: This document applies only to **POS checkout**.
 - **Feature activation**: This feature requires contacting customer service to enable backend permissions.
 - **Return and exchange restriction**: Mixed-tax orders do not support exchanges.
 
-## Procedure
+## Procedure { #operate-mixed-tax-invoices }
 
-### Step 1: Request Activation of Mixed-Tax Invoicing
+### Step 1: Request Activation of Mixed-Tax Invoicing { #operate-mixed-tax-invoices-step-a-tax }
 
 Before you set up products, contact the CYBERBIZ customer service team to enable the mixed-tax module.
 
@@ -98,7 +98,7 @@ Before you set up products, contact the CYBERBIZ customer service team to enable
 ![](../../assets/images/EC-後台-總覽-前往線上客服01.en.png){ .screenshot }
 
 
-### Step 2: Set Product Tax Types
+### Step 2: Set Product Tax Types { #operate-mixed-tax-invoices-step-b-settings }
 
 Set the taxable or tax-exempt status for products with different attributes.
 
@@ -111,9 +111,9 @@ Set the taxable or tax-exempt status for products with different attributes.
 ![](../../assets/images/EC-後台-商品-所有商品-設定應稅免稅01.en.png){ .screenshot }
 
 !!! tip "Bulk Setup Tip"
-    To set up multiple products, you can [export](../../ec/products/bulk-operations/excel-import-products.md#下載-excel-範本或匯出商品) products, edit the **Product Tax Type** field in the Excel file, and then run an [import](../../ec/products/bulk-operations/excel-import-products.md#匯入-excel-檔案) to edit them in bulk.
+    To set up multiple products, you can [export](../../ec/products/bulk-operations/excel-import-products.md#operate-excel-import-download) products, edit the **Product Tax Type** field in the Excel file, and then run an [import](../../ec/products/bulk-operations/excel-import-products.md#operate-excel-import-upload) to edit them in bulk.
 
-## Calculation Logic
+## Calculation Logic { #specs-mixed-tax-invoices }
 
 After the mixed-tax feature is enabled, the system processes invoices and discounts based on the following logic:
 
@@ -129,7 +129,7 @@ After the mixed-tax feature is enabled, the system processes invoices and discou
 
     </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-mixed-tax-invoices }
 
 ??? quote "How do I handle returns or allowances?"
     The return and allowance process for mixed-tax invoices is the same as for standard invoices. The system automatically processes the corresponding amounts based on the pricing, taxable discount, and tax-exempt discount fields on the original invoice. Merchants only need to follow the standard allowance process.

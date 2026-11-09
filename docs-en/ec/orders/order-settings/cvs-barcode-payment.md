@@ -66,18 +66,18 @@ comments: false
 
 ![Convenience store barcode payment settings](../../../assets/images/EC-後台-金物流-金流設定-超商條碼繳費設定.en.png){ title="Convenience Store Barcode Payment Settings" .hero-page }
 
-## About Convenience Store Barcode Payment
+## About Convenience Store Barcode Payment { #intro-cvs-barcode }
 
 **Convenience store barcode payment** gives customers a unique barcode after they place an order on your website, so they can pay at a designated convenience store.
 
 !!! info "Supported Stores"
     Barcode payment is currently supported only at **7-Eleven** and **FamilyMart**.
 
-## Turn On Convenience Store Barcode Payment
+## Turn On Convenience Store Barcode Payment { #operate-cvs-barcode-enable }
 
 You can turn on this feature through CYBERBIZ PAYMENTS so shoppers can generate a convenience store barcode at checkout and pay in store.
 
-### Step 1: Edit the CYBERBIZ PAYMENTS Payment Settings
+### Step 1: Edit the CYBERBIZ PAYMENTS Payment Settings { #operate-cvs-barcode-enter-payments }
 
 1.  Sign in to the CYBERBIZ admin and go to **Payment and Logistics > Payment Settings**.
 2.  In the payment settings list, find **CYBERBIZ PAYMENTS**.
@@ -87,7 +87,7 @@ You can turn on this feature through CYBERBIZ PAYMENTS so shoppers can generate 
 
 ---
 
-### Step 2: Turn On Convenience Store Barcode Payment
+### Step 2: Turn On Convenience Store Barcode Payment { #operate-cvs-barcode-enable-feature }
 
 1.  On the CYBERBIZ PAYMENTS settings page, find **7-Eleven / FamilyMart Convenience Store Barcode Payment**.
 2.  Switch the toggle to **Enable**.
@@ -96,7 +96,7 @@ You can turn on this feature through CYBERBIZ PAYMENTS so shoppers can generate 
 
 ---
 
-### Step 3: Save the Settings
+### Step 3: Save the Settings { #operate-cvs-barcode-save }
 
 1.  After turning it on, click **Save** at the bottom of the page.
 2.  After the system shows a success message, you can confirm in the payment settings list that the feature is on.
@@ -106,9 +106,9 @@ You can turn on this feature through CYBERBIZ PAYMENTS so shoppers can generate 
 !!! warning "Important"
     - After turning on convenience store barcode payment, make sure you also offer a supported delivery type (such as convenience store pickup) so shoppers can select this payment method at checkout.
     - If you set a day limit for "[Automatic Order Cancellation](../../payments-and-logistics/payments/order-settings.md#operate-order-settings-auto-cancel){ title="Order Settings" }," the barcode expires once the limit passes and can't be used to pay.
-    - If you [cancel an order manually](../basics/cancel-order/#orders-cancel-merchant), the barcode doesn't expire automatically, and the customer can still pay within its validity period. After payment, the order is placed again, and you can continue shipping or issue a refund.
+    - If you [cancel an order manually](../basics/cancel-order/#operate-cancel-merchant), the barcode doesn't expire automatically, and the customer can still pay within its validity period. After payment, the order is placed again, and you can continue shipping or issue a refund.
 
-## How Customers Get the Barcode <small>Customer</small>
+## How Customers Get the Barcode <small>Customer</small> { #operate-cvs-barcode-get-barcode }
 
 During and after ordering, customers can get the payment barcode in these ways:
 
@@ -128,7 +128,7 @@ During and after ordering, customers can get the payment barcode in these ways:
 
     ![Order confirmation email: go to payment](../../../assets/images/EC-Email通知-訂單成立-前往付款.en.png){ title="Order Confirmation Email: Go to Payment" }
 
-## How to Pay at the Convenience Store <small>Customer</small>
+## How to Pay at the Convenience Store <small>Customer</small> { #operate-cvs-barcode-instore-pay }
 
 After getting the barcode, go to a supported convenience store (**7-Eleven or FamilyMart**) to pay:
 
@@ -143,7 +143,7 @@ After getting the barcode, go to a supported convenience store (**7-Eleven or Fa
 ??? example "Convenience Store Barcode Example"
     ![Convenience store barcode example](../../../assets/images/EC-前台-訂單查詢-前往付款-超商條碼範例.en.png){ title="Convenience Store Barcode Example" }
 
-## Next Steps
+## Next Steps { #next-steps-cvs-barcode }
 
 <div class="grid cards" markdown>
 
@@ -161,7 +161,7 @@ After getting the barcode, go to a supported convenience store (**7-Eleven or Fa
 
 </div>
 
-## FAQ
+## FAQ { #faq-cvs-barcode }
 
 ??? quote "How long is a convenience store barcode valid?"
 

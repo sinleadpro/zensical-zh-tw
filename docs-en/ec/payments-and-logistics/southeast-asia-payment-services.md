@@ -67,7 +67,7 @@ CYBERBIZ offers standard credit card payments. It also integrates Fiuu (formerly
 [:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | Pro / Business
 { .doc-badge }
 
-## Payment Option Details
+## Payment Option Details { #intro-sea-payments }
 
 | Payment Method | Supported Channels | Rate (per Transaction) |
 | :--- | :--- | :--- |
@@ -79,11 +79,11 @@ CYBERBIZ offers standard credit card payments. It also integrates Fiuu (formerly
 | | E-Wallet | GrabPay/Shopee Pay (2.6%) |
 
 
-### Usage Notes
+### Usage Notes { #prerequisites-sea-payments }
 
 - Fiuu previously known as Razer Merchant Services.
 
-## Task 1: Set up CYBERBIZ PAYMENTS (Credit Card)
+## Task 1: Set up CYBERBIZ PAYMENTS (Credit Card) { #operate-sea-payments-card }
 
 Go to **Payment and Logistics > Payment Settings**. Click :lucide-file-pen-line: **Settings** to the right of **CYBERBIZ PAYMENTS**.
 
@@ -95,10 +95,10 @@ Go to **Payment and Logistics > Payment Settings**. Click :lucide-file-pen-line:
 
 ![](../../assets/images/東南亞站-後台-金物流-金流設定-開啟CYBPAYMENTS01.en.png)
 
-## Task 2: Connect the Fiuu Third-Party Payment Platform
+## Task 2: Connect the Fiuu Third-Party Payment Platform { #operate-sea-payments-fiuu }
 
 
-### 1. Get the Fiuu Back-Office Keys
+### 1. Get the Fiuu Back-Office Keys { #operate-sea-payments-fiuu-key }
 
 Log in to the [Fiuu admin console](https://portal.fiuu.com/index.php?mod=authentication&opt=login), go to **Transactions > Settings**, and copy the following information:
 
@@ -107,7 +107,7 @@ Log in to the [Fiuu admin console](https://portal.fiuu.com/index.php?mod=authent
 
 
 
-### 2. Set up the Connection in CYBERBIZ
+### 2. Set up the Connection in CYBERBIZ { #operate-sea-payments-fiuu-bind }
 
 1. Log in to the CYBERBIZ admin console and go to **Payment and Logistics > Payment Settings**.
 2. Click **Fiuu(Malaysia)** or **Fiuu(Singapore)** to open the settings page.
@@ -117,7 +117,7 @@ Log in to the [Fiuu admin console](https://portal.fiuu.com/index.php?mod=authent
 
 ![](../../assets/images/Fiuu-後台-串接欄位填寫01.en.png)
 
-### 3. Configure the Notification URLs
+### 3. Configure the Notification URLs { #operate-sea-payments-fiuu-notify }
 
 To ensure Fiuu can return transaction results to your storefront, enter the following three URLs under **Settings** in the Fiuu admin console:
 

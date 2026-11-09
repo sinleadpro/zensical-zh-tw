@@ -75,26 +75,26 @@ The Report List provides multi-dimensional data analysis tools that help manager
 { .doc-badge }
 
 
-## Access Path
+## Access Path { #intro-pos-reports }
 
 1. Log in to the back office, go to **POS > POS Store List**, and select the store.
 2. Click **Inventory Management > Reports**.
 
 ![](../../assets/images/POS-後台-所有POS商店-庫存管理-報表01.en.png){ .screenshot }
 
-## Report Types
+## Report Types { #specs-pos-reports }
 
-### Daily Cash-Out Report
+### Daily Cash-Out Report { #specs-pos-reports-report }
 
 *   **Features**: View daily closing details, cash deposits, petty cash balance, income status, and information about the staff who performed each action.
 *   **Use Cases**: Suitable for store managers to reconcile cash after daily business hours.
 
-### Order Summary Report
+### Order Summary Report { #specs-pos-reports-order-report }
 
 *   **Features**: View the order creation date, order confirmation date, cancellation date, order number, invoice information, POS terminal number, customer name, payment method, and order notes.
 *   **Use Cases**: Revenue calculation and inventory verification.
 
-### Product Sales Report
+### Product Sales Report { #reference-pos-reports-product-sales }
 
 *   **Features**: View each product's vendor source, category, units sold, units returned, and total sales.
 *   **Use Cases**: Sales recognition and bonus calculation.
@@ -102,26 +102,26 @@ The Report List provides multi-dimensional data analysis tools that help manager
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/POS後台－報表列表2.png){ .screenshot }
 
-### Product Inventory and Sales Report (By Vendor)
+### Product Inventory and Sales Report (By Vendor) { #specs-pos-reports-product-inventory-report }
 
 *   **Features**: Filter by vendor to view inventory balances and sales status for that vendor's products in one place.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/POS後台－報表列表3.png){ .screenshot }
 
-### Omnichannel Inventory and Product Flow Report (By Product)
+### Omnichannel Inventory and Product Flow Report (By Product) { #specs-pos-reports-channel-inventory-product }
 
 *   **Features**: View the inventory quantity of a specific product at each store, as well as its flow history.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/2022/01/POS後台－報表列表4.png){ .screenshot }
 
-## Report Calculation Standards
+## Report Calculation Standards { #specs-report-standard }
 
 - **Order Summary Report**: Based on **Order Creation Time**.
 - **Product Sales Report**: Based on **Order Confirmation Date**.
 
     !!! tip "Order Confirmation Date Settings and Search"
-        - **Setup Method**: POS cashiers can enter the order confirmation date manually during [Payment Processing](../check/index.md#收款作業).
-        - **Search Path**: Front-desk staff can use **Advanced Filter** on the [Orders](../orders/manage-general-orders.md#查詢訂單) tab to search orders by a specified date range.
+        - **Setup Method**: POS cashiers can enter the order confirmation date manually during [Payment Processing](../check/index.md#operate-check-payment).
+        - **Search Path**: Front-desk staff can use **Advanced Filter** on the [Orders](../orders/manage-general-orders.md#operate-general-orders-query) tab to search orders by a specified date range.
 
 - **Product Flow Report**: Based on **Order Creation Time**.
 

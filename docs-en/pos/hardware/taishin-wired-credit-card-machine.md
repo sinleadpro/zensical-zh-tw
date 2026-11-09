@@ -85,7 +85,7 @@ Apply for and install a wired credit card machine, including adapter cable selec
     - **Accurate Reconciliation**: Every card transaction has a matching system order number, which makes back-office reconciliation easier.
 
 
-## Usage Notes
+## Usage Notes { #prerequisites-taishin-terminal }
 
 - **Application Timeline**: The bank reviews credit card machine applications. Timing depends on the bank's processing schedule.
 - **Payment Type**: The system distinguishes between "integrated card machines" and "non-integrated card machines". This tutorial covers **integrated credit card machines**.
@@ -97,7 +97,7 @@ Apply for and install a wired credit card machine, including adapter cable selec
 
     ![](../../assets/images/POS-裝置-有線刷卡機限定傳輸線SUNBOX01.en.jpg){ .small-image }
 
-## Application and Prerequisites
+## Application and Prerequisites { #prerequisites-preparation }
 
 1. **Submit Application**: After you receive the **CYBERBIZ POS Multi-Payment Application Notification Email**, send the required business information to your onboarding consultant.
 
@@ -107,9 +107,9 @@ Apply for and install a wired credit card machine, including adapter cable selec
 3. **Receive the Machine**: After the bank ships the card machine to your store, you can begin the installation process.
 
 
-## Setup Procedure
+## Setup Procedure { #operate-taishin-terminal }
 
-### Step 1: Download and Install the Hardware Driver
+### Step 1: Download and Install the Hardware Driver { #operate-taishin-terminal-step-a-download }
 
 Before connecting the hardware, install the communication driver on your computer.
 
@@ -119,7 +119,7 @@ Before connecting the hardware, install the communication driver on your compute
     ![](../../assets/images/POS-安裝-有線信用卡機-啟用01.en.png){ .small-image }
 
 
-### Step 2: Hardware Connection and Port Settings
+### Step 2: Hardware Connection and Port Settings { #operate-taishin-terminal-step-b-hardware }
 
 1. **Connect the cables**:
     - Insert the **USB connector** into the RS232 port on the back of the credit card machine.
@@ -141,7 +141,7 @@ Before connecting the hardware, install the communication driver on your compute
     > Tip: If a detection message appears, you can ignore it. Just make sure the correct item is selected in the menu.
         ![](../../assets/images/POS-驅動程式-綁定有線信用卡機03.en.png){ .small-image }
 
-### Step 3: Quick Connection Test
+### Step 3: Quick Connection Test { #operate-taishin-terminal-step-c-connection }
 
 1. Click the **Test** button in the driver.
 
@@ -155,7 +155,7 @@ Before connecting the hardware, install the communication driver on your compute
 
 
 
-### Step 4: Back Office Activation and Checkout Test
+### Step 4: Back Office Activation and Checkout Test { #operate-taishin-terminal-step-d-admin }
 
 1. **Back Office Setup**:
     - Log in to the admin panel and go to **POS > POS Store List**.
@@ -173,7 +173,7 @@ Before connecting the hardware, install the communication driver on your compute
 
 
 
-## FAQ
+## FAQ { #faq-taishin-terminal }
 
 
 ??? quote "Can I connect this wired card machine to a tablet (iPad)?"

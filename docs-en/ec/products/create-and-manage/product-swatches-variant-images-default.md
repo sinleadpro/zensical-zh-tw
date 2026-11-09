@@ -66,14 +66,14 @@ hide: []
 
 ![Product page settings - swatches - default theme](../../../assets/images/ec-網站外觀-商品頁設定-商品色票-預設版型.en.png){ title="Product Page Settings - Swatches - Default Theme" .hero-page }
 
-## About Color Swatches
+## About Color Swatches { #intro-swatches-default }
 
 The **color swatch feature** lets customers see all of a product's variants (such as colors or patterns) at a glance while browsing a product page or collection page. When they select a variant, the page shows the matching variant images so they can understand the product details.
 
 !!! info "Drag-and-Drop Theme Users"
     If you use the drag-and-drop theme, see [Set Up Product Color Swatches and Variant Images - Drag-and-Drop Theme](product-swatches-variant-images-drag-drop.md){ title="Set Up Product Color Swatches and Variant Images - Drag-and-Drop Theme" }.
 
-## Prerequisite: Turn on the Display Settings
+## Prerequisite: Turn on the Display Settings { #prerequisites-swatches-default }
 
 Before you use this feature, turn on the related settings in the admin. Otherwise, swatches won't appear on product pages.
 
@@ -82,9 +82,9 @@ Before you use this feature, turn on the related settings in the admin. Otherwis
 
 ![Product swatches - product list page display - default theme](../../../assets/images/ec-網站外觀-商品色票-前台商品列表頁-預設版型.en.png){ title="Product Swatches - Product List Page Display - Default Theme" }
 
-## Swatch and Option Setup Flow
+## Swatch and Option Setup Flow { #operate-swatches-default }
 
-### Step 1: Set up Swatch Icons
+### Step 1: Set up Swatch Icons { #operate-swatches-default-icon }
 
 The system pairs variant photos with swatch icons automatically based on the images' relative positions. Upload the images to the "Product Image" section (for upload requirements, see [Add a Product: Product Images and Videos](create-update-products.md#operate-product-create-media){ title="Add and Update Products" }) and follow the "images first, colors second" ordering logic.
 
@@ -102,9 +102,9 @@ The system pairs variant photos with swatch icons automatically based on the ima
 
 ---
 
-### Step 2: Manage Variant Options (Key Step)
+### Step 2: Manage Variant Options (Key Step) { #operate-swatches-default-variants }
 
-After you [upload the images](#Step-1-Set-up-Swatch-Icons), scroll down to the "Variants and Inventory" section. For the system to match swatches correctly, the order and names of the options have strict requirements.
+After you [upload the images](#operate-swatches-default-icon), scroll down to the "Variants and Inventory" section. For the system to match swatches correctly, the order and names of the options have strict requirements.
 
 1.  **Option order**: To use swatches, set "**Color**" as the **first option**. Otherwise, the storefront won't display them correctly.
 2.  **Option names**:
@@ -116,7 +116,7 @@ After you [upload the images](#Step-1-Set-up-Swatch-Icons), scroll down to the "
 
 ---
 
-### Step 3: Fill in Product Variant Details
+### Step 3: Fill in Product Variant Details { #operate-swatches-default-fill }
 
 After you set the options, the system generates the variant list automatically. Complete the inventory and details for each variant combination.
 
@@ -127,11 +127,11 @@ After you set the options, the system generates the variant list automatically. 
 
 ---
 
-### Step 4: Storefront Display
+### Step 4: Storefront Display { #operate-swatches-default-storefront }
 
 ![Product swatches - storefront - default theme](../../../assets/images/ec-商品色票-前台-預設版型.en.png){ title="Product Swatches - Storefront - Default Theme" }
 
-## FAQ
+## FAQ { #faq-swatches-default }
 
 ??? quote "Where do product swatches appear?"
 

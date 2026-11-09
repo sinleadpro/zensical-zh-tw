@@ -20,8 +20,13 @@ sites:
 audiences: 
   - merchant
 difficulty: beginner
-tnb: trunk
-plans: []
+tnb: branch
+plans:
+  - Expert
+  - "Professional PLUS"
+  - "Advanced PLUS"
+  - "Expert PLUS"
+  - Enterprise
 cyb_extensions: []
 intents: 
   - 設定優惠券
@@ -81,11 +86,11 @@ Learn how to set up coupons, including how to Send to all members (store-wide), 
 	- **Make-goods and surprises**: send manually a coupon to a single customer as service compensation or a holiday surprise.
 
 
-## Before You Start
+## Before You Start { #prerequisites-coupon }
 
-- **Deletion limit**: Once a coupon is in a customer's account (import members), you can only delete it [one by one from the member's page](../../members/manage-member-profiles.md#2-優惠券派發與管理). The system can't take coupons back in bulk.
+- **Deletion limit**: Once a coupon is in a customer's account (import members), you can only delete it [one by one from the member's page](../../members/manage-member-profiles.md#operate-member-profiles-coupons). The system can't take coupons back in bulk.
 
-### Cancellations And Returns
+### Cancellations And Returns { #prerequisites-coupon-intro-details }
 
 | Scenario | Rule |
 | :--- | :--- |
@@ -94,7 +99,7 @@ Learn how to set up coupons, including how to Send to all members (store-wide), 
 | **Deduction on return** | Discount coupons earned by the order (Applicable only on orders that are) are **not deducted automatically from the customer's account** |
 
 
-## Send Coupons In Bulk With Excel
+## Send Coupons In Bulk With Excel { #operate-coupon }
 
 1. Go to **Marketing > 全館折扣-紅利 & 優惠券** and select **Bulk send Member exclusive coupons**.
 2. Click **Download Template**. Delete the sample content and keep only the blue header rows.
@@ -120,19 +125,19 @@ Learn how to set up coupons, including how to Send to all members (store-wide), 
 4. Save the file, go back to the admin, and click **Upload File** to finish the import.
 
 
-### Notification Rules For Bulk Coupons
+### Notification Rules For Bulk Coupons { #operate-coupon-send-coupon-notifications }
 
 - **Specific members**: After import, the system automatically sent an email or SMS notification to customers.
 - **All members (all)**: The system adds coupons to the member center automatically but **doesn't** send notifications.
 - **Who can receive them**: Only members registered on your store. Rows with emails not found in the system are skipped.
 
 
-## Send Coupons In Bulk With Filters
+## Send Coupons In Bulk With Filters { #operate-coupon-send-coupon }
 
-Go to **Customer Management > All Customers** and use member filters, or [send manually or delete coupons](../../members/manage-member-profiles.md#2-優惠券派發與管理) for a specific person.
+Go to **Customer Management > All Customers** and use member filters, or [send manually or delete coupons](../../members/manage-member-profiles.md#operate-member-profiles-coupons) for a specific person.
 
 
-## More Actions
+## More Actions { #operate-coupon-operate }
 
 <div class="grid cards" markdown>
 

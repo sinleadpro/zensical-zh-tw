@@ -90,26 +90,26 @@ When you set a number of days, the system automatically changes qualifying order
     - **Calculate commissions:** Referrer commissions, sign-up commissions, and others are calculated when the order is closed.
     - **Clear reminder counts:** The red count for "Open Orders" in the left admin menu is cleared automatically.
 
-## Prerequisites and Limitations { #prerequisites }
+## Prerequisites and Limitations { #prerequisites-order-auto-close }
 
 - [x] **Partial shipment limit:** If an order is "Partially Shipped," the system **can't close it automatically**. The order can be closed manually or automatically only after all its items are updated to "Shipped" or "Received."
 - [x] **Returns and closing:** By default, the system closes orders automatically only when the "return status" is "No Return Needed."
 - [x] **Returns after closing:** Once an order is closed, even if it's later returned or canceled, the system **doesn't automatically deduct** bonus points or coupons already issued and doesn't affect commissions already calculated. You need to handle these manually on the member page.
 - [x] **Reconciliation basis:** The "Completed" status isn't directly related to financial reconciliation. Reconciliation is based on the delivery status "Received" or "Shipped," not the closing date.
 
-## Steps { #steps }
+## Steps { #operate-order-auto-close }
 
 This setting applies to orders placed **on the storefront**. Based on the order's delivery type (**system-integrated logistics / custom logistics**), the system automatically updates the order status to "Completed" when the conditions are met.
 
 
 **Automatic order closing** offers two closing modes. Choose the one that matches the delivery type you use:
 
-- [**Close automatically after pickup**](#auto-close-delivery): For system-integrated logistics only. Orders close a set number of days after they're received.
-- [**Close automatically after shipping**](#auto-close-ship): For custom logistics only. Orders close a set number of days after they're shipped.
+- [**Close automatically after pickup**](#specs-order-auto-close-delivery): For system-integrated logistics only. Orders close a set number of days after they're received.
+- [**Close automatically after shipping**](#specs-order-auto-close-ship): For custom logistics only. Orders close a set number of days after they're shipped.
 
 ---
 
-#### Close Automatically After Pickup <small>Close When Received</small> { #auto-close-delivery }
+#### Close Automatically After Pickup <small>Close When Received</small> { #specs-order-auto-close-delivery }
 
 For orders using system-**integrated logistics** (such as 7-Eleven, FamilyMart, EZCAT, and Pelican Express). When the system receives a "Received" status from the carrier and the set number of days passes, the system closes the order automatically.
 
@@ -122,7 +122,7 @@ For orders using system-**integrated logistics** (such as 7-Eleven, FamilyMart, 
 
 ---
 
-#### Close Automatically After Shipping <small>Close When Shipped</small> { #auto-close-ship }
+#### Close Automatically After Shipping <small>Close When Shipped</small> { #specs-order-auto-close-ship }
 
 For orders using **custom logistics** (such as merchant self-delivery or custom Cash on Delivery). Because the system can't get the actual received status, it closes the order automatically once the order status is "Shipped" and the set number of days passes.
 
@@ -135,9 +135,9 @@ For orders using **custom logistics** (such as merchant self-delivery or custom 
 
 ---
 
-## Important Rules and Limitations { #important-notes }
+## Important Rules and Limitations { #specs-order-auto-close }
 
-### Batch Run Time { #batch-schedule }
+### Batch Run Time { #specs-order-auto-close-schedule }
 
 The system closes orders in a batch **every day at 06:15 AM**.
 
@@ -153,11 +153,11 @@ The system closes orders in a batch **every day at 06:15 AM**.
 
 ---
 
-### Check the Closing Status { #close-status-confirmation }
+### Check the Closing Status { #specs-order-close-status }
 
 After automatic closing runs, you can check the closing status in two ways:
 
-- **Order activity log:** The system automatically adds a record in the order details showing "Order closed." Go to **Orders > All Orders**, click the order number, and check the details in the [order activity log section](../basics/order-management-interface.md#order-history){ title="Order Activity Log" } at the bottom of the page.
+- **Order activity log:** The system automatically adds a record in the order details showing "Order closed." Go to **Orders > All Orders**, click the order number, and check the details in the [order activity log section](../basics/order-management-interface.md#reference-order-history){ title="Order Activity Log" } at the bottom of the page.
 
 - Order list status label: On the order list page, a **Completed** label appears next to the order number of closed orders.
 
@@ -169,7 +169,7 @@ After automatic closing runs, you can check the closing status in two ways:
 
 		![Legacy order list: completed](../../../assets/images/ec-訂單-所有訂單-舊版訂單列表-已結案.en.png){ title="Legacy Order List: Completed" }
 
-## Next Steps { #related-operations }
+## Next Steps { #next-steps-order-auto-close }
 
 <div class="grid cards" markdown>
 
@@ -178,16 +178,16 @@ After automatic closing runs, you can check the closing status in two ways:
   Set up automatic closing for POS orders.
 
 - :lucide-ticket-check:{ .lg }  
-  [__Close Ticket Orders Automatically__](../../e-ticket/e-ticket-setup-guide.md#票券分潤與自動結案設定)  
+  [__Close Ticket Orders Automatically__](../../e-ticket/e-ticket-setup-guide.md#specs-e-ticket-revenue-close)
   Set up automatic closing for e-ticket orders.
 
 - :lucide-circle-x:{ .lg }  
-  [__Automatic Order Cancellation (Payment Timeout)__](../basics/cancel-order.md#orders-cancel-auto)  
+  [__Automatic Order Cancellation (Payment Timeout)__](../basics/cancel-order.md#operate-cancel-auto)
   Have the system cancel unpaid orders automatically after a set number of days.
 
 </div>
 
-## FAQ { #faq }
+## FAQ { #faq-order-auto-close }
 
 
 ??? quote "Why didn't my order close automatically?"

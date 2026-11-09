@@ -85,7 +85,7 @@ The POS customer display is an auxiliary device for the POS system. It lets cust
     - **Information confirmation**: Guide customers to verify their member details and itemized purchases, reducing manual communication errors.
 
 
-## Usage Notes
+## Usage Notes { #prerequisites-display-screen }
 
 - **Hardware requirements**: Prepare an external monitor and connect it to the POS host (we recommend setting the projection mode to **Extend**).
 - **Software requirements**: Install the [POS APP Driver](../software/drivers.md) on the POS host, and open the POS APP.
@@ -93,9 +93,9 @@ The POS customer display is an auxiliary device for the POS system. It lets cust
 - **Video requirements**: Ad wall videos support YouTube URLs only. If a video contains copyrighted music, the customer display may fail to play it.
 
 
-## Operation Steps
+## Operation Steps { #operate-display-screen }
 
-### Step 1: Set up Customer Display Marketing Content in the Back Office
+### Step 1: Set up Customer Display Marketing Content in the Back Office { #operate-display-screen-step-a-admin }
 
 1. Log in to the CYBERBIZ admin back office, go to **POS > POS Store List**, select the store you want to configure, and click **Customer Display Marketing**.
     ![](../../assets/images/POS-後台-所有POS商店-客顯行銷-開啟設定01.en.png){ .screenshot }
@@ -116,7 +116,7 @@ The POS customer display is an auxiliary device for the POS system. It lets cust
 
 
 
-### Step 2: Set up the Ad Wall Layout and Content
+### Step 2: Set up the Ad Wall Layout and Content { #operate-display-screen-step-b-settings }
 
 In the **Ad wall settings** section on the same page, you can customize the visual content to display. The ad wall appears in the **left** column of the POS checkout screen.
 
@@ -135,7 +135,7 @@ In the **Ad wall settings** section on the same page, you can customize the visu
     ![](../../assets/images/POS-前台-客顯螢幕-無法播放YouTube影片01.en.png){ .small-image }
 
 
-### Step 3: Connect and Sync the POS Front End
+### Step 3: Connect and Sync the POS Front End { #operate-display-screen-step-c-pos }
 
 After you finish the back-office setup, complete the final connection steps on the POS terminal.
 
@@ -147,7 +147,7 @@ After you finish the back-office setup, complete the final connection steps on t
 
 ![](../../assets/images/POS-前台-其他功能-同步客顯螢幕裝置01.en.png){ .screenshot }
 
-## Customer Display Screen Preview
+## Customer Display Screen Preview { #intro-display-screen }
 
 === "Add-on Purchase"
 
@@ -165,7 +165,7 @@ After you finish the back-office setup, complete the final connection steps on t
 
     ![](../../assets/images/POS-前台-客顯螢幕-顧客資訊確認01.en.png){ .medium-image }
 
-## FAQ
+## FAQ { #faq-display-screen }
 
 ??? quote "Why didn't the customer display screen update after I changed the back-office settings?"
     After you save settings in the back office, the POS front end does not pull updates automatically. Be sure to click **Sync Customer Display Settings** on the **Settings and Connection Test** page of the POS front end. If the display still does not update, restart the POS APP.
@@ -176,7 +176,7 @@ After you finish the back-office setup, complete the final connection steps on t
 ??? quote "Why are the add-on purchase products shown on the customer display incorrect?"
     Customer display add-on purchases pull their settings from **Marketing > PWP-By Order**. Check that the campaign's effective period, applicable stores, and product inventory are all normal.
 
-## More Actions
+## More Actions { #next-steps-display-screen }
 
 <div class="grid cards" markdown>
 

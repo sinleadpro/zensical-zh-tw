@@ -62,7 +62,7 @@ hide: []
 
 ![Close order](../../../assets/images/EC-訂單詳情頁-結案訂單-hero.en.png){ title="Close Order" .hero-page }
 
-## About Manually Closing Orders
+## About Manually Closing Orders { #intro-order-close }
 
 **Manually closing an order** formally closes the order status. Closing not only ends order processing but also triggers several marketing rewards and profit sharing calculations.
 
@@ -78,13 +78,13 @@ hide: []
 !!! warning "Adjust Bonus Points Manually"
     If you need to deduct or delete points after closing, the system won't reverse them automatically. Do it manually: go to Members > All Members, open the customer's details page, and deduct them there.
 
-## Prerequisites
+## Prerequisites { #prerequisites-order-close }
 
 - [x] **Order Status**: Any order except "Canceled" can be closed.
 - [x] **Delivery status recommendation**: We recommend closing an order after its return and exchange period ends and you're sure there are no returns. Orders that are "Partially Shipped" can't be closed automatically; you need to adjust them manually.
 - [x] **Relation to reconciliation**: Manual closing isn't directly related to financial reconciliation. Reconciliation is based mainly on the delivery status (such as "Shipped" or "Received").
 
-## Steps to Manually Close Orders { #close-order-manual }
+## Steps to Manually Close Orders { #operate-order-close-manual }
 
 You can manually close orders in two ways:
 
@@ -107,23 +107,23 @@ You can manually close orders in two ways:
 
     ![Order list - Complete Order](../../../assets/images/EC-訂單-訂單列表-結案訂單.en.png){ title="Order List - Complete Order" }
 
-## Check the Status After Closing
+## Check the Status After Closing { #operate-order-close-confirm }
 
-### Completed Orders List
+### Completed Orders List { #operate-order-close-closed-list }
 
-After orders are closed, you can use the order list filter to create a "Completed" [order view group](../basics/search-filter-orders.md#orders-groups-tabs){ title="How to Search and Filter Orders" data-preview } to check closed orders.
+After orders are closed, you can use the order list filter to create a "Completed" [order view group](../basics/search-filter-orders.md#operate-order-filter-groups){ title="How to Search and Filter Orders" data-preview } to check closed orders.
 
 ![Completed orders](../../../assets/images/EC-訂單-訂單列表-已結案群組.en.png){ title="Completed Orders" }
 
 ---
 
-### Order Closing History
+### Order Closing History { #operate-order-close-history }
 
-The [order activity log](../basics/order-management-interface.md#order-history){ title="Order Management Interface" } at the bottom of the order details page shows an "Order closed" message and the name of the admin who closed it.
+The [order activity log](../basics/order-management-interface.md#reference-order-history){ title="Order Management Interface" } at the bottom of the order details page shows an "Order closed" message and the name of the admin who closed it.
 
 ![Order closing history](../../../assets/images/EC-訂單詳情頁-操作紀錄-訂單結案.en.png){ title="Order Closing History" }
 
-## Next Steps
+## Next Steps { #next-steps-order-close }
 
 <div class="grid cards" markdown>
 
@@ -133,7 +133,7 @@ The [order activity log](../basics/order-management-interface.md#order-history){
 
 </div>
 
-## FAQ
+## FAQ { #faq-order-close }
 
 ??? quote "If a customer returns an order after it's closed, are the bonus points taken back?"
 

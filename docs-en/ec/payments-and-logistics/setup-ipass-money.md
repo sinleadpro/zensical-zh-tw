@@ -68,7 +68,7 @@ Guide merchants through applying for and connecting iPASS MONEY payment services
     Effective **January 1, 2026**, the iPASS MONEY feature has been fully removed from the LINE Pay wallet. If your storefront needs to offer iPASS MONEY, merchants must **apply separately and reconnect**. Legacy LINE Pay keys cannot be reused.
 
 
-## Step 1: Prepare Application Documents
+## Step 1: Prepare Application Documents { #operate-ipass-docs }
 
 Prepare electronic copies (PDF or image format) of the following four documents:
 
@@ -85,7 +85,7 @@ Prepare electronic copies (PDF or image format) of the following four documents:
     If the documents need to be marked for this application only, add the watermark `僅供申請 iPASS MONEY 一卡通使用` to the document.
 
 
-## Step 2: Submit the Application and Await Review
+## Step 2: Submit the Application and Await Review { #operate-ipass-apply }
 
 1.  **Submit the form**: Once your documents are ready, complete the [CYBERBIZ x iPASS MONEY Integration Application Form](https://forms.gle/vHe3DdHZChcS43CUA).
 2.  **Await review**: CYBERBIZ forwards your information to iPASS MONEY for review. This takes about **2 to 4 weeks**.
@@ -97,7 +97,7 @@ Prepare electronic copies (PDF or image format) of the following four documents:
 
 
 
-## Step 3: Configure the Back-Office Integration
+## Step 3: Configure the Back-Office Integration { #operate-ipass-bind }
 
 After you receive the key notification email from CYBERBIZ, follow these steps to enable the service:
 
@@ -117,7 +117,7 @@ After you receive the key notification email from CYBERBIZ, follow these steps t
     When you enter the keys, make sure there are **no spaces** before or after them, including hidden spaces created when copying, to prevent validation failures.
 
 
-## Step 4: Link Logistics Payment Methods
+## Step 4: Link Logistics Payment Methods { #operate-ipass-bind-logistics }
 
 If your site uses **Custom Logistics** or **Home Delivery Cash on Delivery**, you must manually check the box to support iPASS MONEY:
 

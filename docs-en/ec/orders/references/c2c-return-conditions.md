@@ -89,7 +89,7 @@ The order's return status must be one of the following three:
 !!! note "Notes"
     If the order is already in "Reviewing Return" or "Returned," the system treats the return process as started or completed and doesn't allow sending the code again. To resend (for example, if the code expired), contact CYBERBIZ customer service first to handle the order status.
 
-## FAQ
+## FAQ { #faq-c2c-return }
 
 ??? quote "When can't an order use 7-Eleven C2C Return Service?"
     [](){ #faq-seven-eleven-c2c-return-eligibility-basic-unmet }

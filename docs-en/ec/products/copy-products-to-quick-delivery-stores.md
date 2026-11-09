@@ -80,16 +80,16 @@ Copy products suited to fast delivery to Express Delivery stores so customers ca
     - **Improve delivery efficiency**: Choose products of moderate size and weight to make delivery easier for couriers and reduce the risk of damage.
 
 
-## Before You Start
+## Before You Start { #prerequisites-copy-qd }
 
-### Separate Inventory and Pricing
+### Separate Inventory and Pricing { #prerequisites-copy-qd-stock }
 
 Store products are **copies** of website products.
 
 - **Sales deduction**: When store A sells a product, only store A's inventory is deducted. The inventory of the website and of store B does not change.
 - **Differential pricing**: You can raise store prices for stores in high-rent urban areas without affecting the website price.
 
-### Multi-Cart Checkout Flow
+### Multi-Cart Checkout Flow { #prerequisites-copy-qd-cart }
 
 When a customer adds both a **Normal Product** and an **Express Delivery product** to the cart:
 
@@ -97,9 +97,9 @@ When a customer adds both a **Normal Product** and an **Express Delivery product
 2. The customer must choose one cart to check out first (the two kinds of products cannot be placed in the same order).
 
 
-## Steps
+## Steps { #operate-copy-qd }
 
-### Step 1: Choose Suitable Products
+### Step 1: Choose Suitable Products { #operate-copy-qd-select }
 
 Not every product is suited to Express Delivery. We recommend filtering products by the following criteria:
 
@@ -112,7 +112,7 @@ Not every product is suited to Express Delivery. We recommend filtering products
 !!! warning "Products to Avoid"
     Do not copy large furniture, fragile glassware, or fresh products that need special cold-chain protection (unless the store has the equipment) to the Express Delivery section.
 
-### Step 2: Copy Products in Bulk
+### Step 2: Copy Products in Bulk { #operate-copy-qd-batch }
 
 1. Log in to the CYBERBIZ admin and go to **Products > All Products**.
 2. Select the products you want to copy (you can filter by search or tags).
@@ -122,14 +122,14 @@ Not every product is suited to Express Delivery. We recommend filtering products
     - **Copy images too**: We recommend selecting this so the store section shows complete information.
 5. Click **Confirm** to run the task.
 
-### Step 3: Check the Copy Results and Enable the Products
+### Step 3: Check the Copy Results and Enable the Products { #operate-copy-qd-enable }
 
 1. The system processes the copy task in the background and sends an email notification when it is done.
 2. After you receive the notification, go back to **Products > All Products** and click **Advanced Search**.
 3. In the **Store type** drop-down list, select the store and check that the products appear in the list.
 4. Switch the status to :lucide-eye: `Published` and set the correct store inventory.
 
-## Express Delivery Product Specifications
+## Express Delivery Product Specifications { #specs-copy-qd }
 
 - **Default status**: Newly copied Express Delivery products are :lucide-eye-off: `Unpublished` by default.
 - **Inventory management**: The **Inventory** toggle is `ON` by default.
@@ -141,7 +141,7 @@ Not every product is suited to Express Delivery. We recommend filtering products
 - **Logistics binding**: The system automatically binds the store's Express Delivery logistics, and other logistics are not supported.
 - **Sync**: When you edit product information on the website, store products are **not synced automatically**. Run **Copy Products to Branch Stores** again to overwrite them.
 
-## FAQ
+## FAQ { #faq-copy-qd }
 
 ??? quote "How long does it take to copy products to stores?"
     Processing time depends on the number of products and whether images are copied. Ten products usually take about 5–10 minutes.<br>
@@ -156,7 +156,7 @@ Not every product is suited to Express Delivery. We recommend filtering products
 
 ---
 
-## Next Steps
+## Next Steps { #next-steps-copy-qd }
 
 <div class="grid cards" markdown>
 

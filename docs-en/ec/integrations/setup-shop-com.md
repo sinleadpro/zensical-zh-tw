@@ -87,9 +87,9 @@ Connect your CYBERBIZ website with **SHOP.COM** to boost brand exposure and sell
     - **Consecutive orders in the same browser**: All orders are successfully attributed.
     - **After the browser is closed**: Tracking expires, and the customer must click the referral link again to be attributed.
 
-## Setup Steps
+## Setup Steps { #operate-shop-com }
 
-### Back-Office Settings
+### Back-Office Settings { #operate-shop-com-backend-settings }
 
 !!! warning "If you integrated with SHOP.COM before 2022, contact CYBERBIZ Customer Service to enable the **SHOP.COM API** feature before it can work."
 
@@ -116,7 +116,7 @@ Connect your CYBERBIZ website with **SHOP.COM** to boost brand exposure and sell
 
 ---
 
-### Exclude Products from Upload
+### Exclude Products from Upload { #operate-shop-com-upload-product }
 
 If you do not want certain products (such as gifts or items not suitable for SHOP.COM) to appear on SHOP.COM, enter **贈品** (gift) in the product tags field. This has the following effects:
 
@@ -125,13 +125,13 @@ If you do not want certain products (such as gifts or items not suitable for SHO
 - When an order is canceled or returned, the negative amount for products tagged **贈品** will not sync to SHOP.COM.
 
 
-Learn [How to Exclude Products from Third-Party Platform Uploads](../products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤){ title="Manage Product Tags" }.
+Learn [How to Exclude Products from Third-Party Platform Uploads](../products/categories-and-tags/manage-product-tags.md#operate-product-tags-exclude){ title="Manage Product Tags" }.
 
 !!! warning "SHOP.COM integration currently **does not support** the "排除product feed" tag. Products can only be excluded with the **贈品** tag."
 
 ---
 
-### Order Testing Process
+### Order Testing Process { #operate-shop-com-order-flow }
 
 Before going live, SHOP.COM will run order tests:
 
@@ -152,7 +152,7 @@ Before going live, SHOP.COM will run order tests:
     * **Customer service phone**: 02-87125598
     * **Service hours**: Monday to Friday, 09:30 – 18:30 (closed on weekends and national holidays)
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-shop-com }
 
 ??? quote "Integration testing is complete, but later orders are not being counted"
     [](){ #faq-shop-com-attribution }

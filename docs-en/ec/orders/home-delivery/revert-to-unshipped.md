@@ -63,7 +63,7 @@ hide: []
 
 ![Change order to unshipped](../../../assets/images/EC-訂單-所有訂單-更多操作-未出貨-hero.en.png){ title="Change Order to Unshipped" .hero-page }
 
-## About Reverting Orders to Unshipped
+## About Reverting Orders to Unshipped { #intro-revert-unshipped }
 
 Once an order is marked "Preparing," you've started the shipping process, and the customer **can't cancel the order themselves** on the storefront.
 
@@ -81,20 +81,20 @@ If the order hasn't actually been handed to the carrier (for example, the custom
     *   **Impact on customers**: When the delivery status is "Preparing," customers usually can't cancel the order. Once it's reverted to "Unshipped," they can again.
     *   **Merchant note**: If you only need to change the recipient information or delivery date, you can also do that directly on the order details page while the order is "Unshipped."
 
-## Before You Start
+## Before You Start { #prerequisites-revert-unshipped }
 
 Before changing the status, check the order's "Return Status," or the change won't be possible:
 
 *   [x] **Supported**: The return status must be **"No Return Needed"** or **"Return Refused"**.
 *   [ ] **Not supported**: If the order is "Returning," "Reviewing Return," or "Returned," you can't change the delivery status back to Unshipped.
 
-## Steps
+## Steps { #operate-revert-unshipped }
 
 1.  **Open the page**: Sign in to the CYBERBIZ admin and go to **"Orders" > "All Orders"**.
-2.  **Select orders**: In the order list, find orders whose delivery status ([quick filter](../basics/search-filter-orders.md#orders-filter){ title="How to Search and Filter Orders" }) is **Preparing** and select them.
+2.  **Select orders**: In the order list, find orders whose delivery status ([quick filter](../basics/search-filter-orders.md#operate-order-filter){ title="How to Search and Filter Orders" }) is **Preparing** and select them.
 3.  **Choose an action**: Click the **Actions...** or **"Actions"** drop-down at the upper right of the list.
 4.  **Make the change**: Select **Unshipped** in the menu.
-5.  **Done**: The order's delivery status changes to "Unshipped," and the customer can see the cancel order button on the storefront (if you've turned on [customer order cancellation](../basics/cancel-order.md#orders-cancel-customer){ title="How to Cancel an Order" }).
+5.  **Done**: The order's delivery status changes to "Unshipped," and the customer can see the cancel order button on the storefront (if you've turned on [customer order cancellation](../basics/cancel-order.md#operate-cancel-customer){ title="How to Cancel an Order" }).
 
 === "New Order List"
 
@@ -105,7 +105,7 @@ Before changing the status, check the order's "Return Status," or the change won
 
     ![Change order status to unshipped - legacy order list](../../../assets/images/EC-訂單-所有訂單-更多操作-未出貨-舊版訂單列表.en.png){ title="Change Order Status to Unshipped (Legacy Order List)" }
 
-## Next Steps
+## Next Steps { #next-steps-revert-unshipped }
 
 <div class="grid cards" markdown>
 
@@ -119,7 +119,7 @@ Before changing the status, check the order's "Return Status," or the change won
 
 </div>
 
-## FAQ
+## FAQ { #faq-revert-unshipped }
 
 ??? quote "Why can't I change an order back to "Unshipped"?"
 
@@ -127,7 +127,7 @@ Before changing the status, check the order's "Return Status," or the change won
 
 ??? quote "After I revert an order to "Unshipped," can the customer cancel it?"
 
-    Yes. Once the delivery status is back to "Unshipped," the customer can see the cancel order button on the storefront and cancel (if you've turned on [customer order cancellation](../basics/cancel-order.md#orders-cancel-customer){ title="How to Cancel an Order" }).
+    Yes. Once the delivery status is back to "Unshipped," the customer can see the cancel order button on the storefront and cancel (if you've turned on [customer order cancellation](../basics/cancel-order.md#operate-cancel-customer){ title="How to Cancel an Order" }).
 
 ??? quote "Can I edit recipient information directly while the order is "Unshipped"?"
 

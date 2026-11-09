@@ -25,7 +25,7 @@ permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/cyberbiz-now/"
     - **Everyday Essentials**: Delivers urgently needed items such as baby products and cleaning supplies, offering high convenience for repeat purchases.
     - **Festive Gift Boxes**: Enables real-time restocking and delivery of flowers and gift boxes, enhancing the shopping experience.
 
-## Usage Notes
+## Usage Notes { #prerequisites-cyberbiz-now-hub }
 
 Before enabling the quick delivery service, confirm that your storefront settings meet the following system requirements and marketing restrictions:
 
@@ -37,7 +37,7 @@ Before enabling the quick delivery service, confirm that your storefront setting
 - **Applicable themes**: Applies to drag-and-drop themes (version 3.0.0 or later). If your storefront uses an older theme and has been customized, review whether to upgrade the theme. After you upgrade the theme, your customizations will be removed.
 
 
-## Quick Navigation
+## Quick Navigation { #overview-cyberbiz-now-hub }
 
 <div class="grid cards" markdown>
 

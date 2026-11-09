@@ -87,7 +87,7 @@ An Event Page (one-page store) puts product information, features, and checkout 
     - **KOL and affiliate promotion**: Create page links with affiliate codes to track sales from specific influencers or channels.
 
 
-## Before You Start
+## Before You Start { #prerequisites-one-page }
 
 Before you build, understand these limits and system rules:
 
@@ -98,9 +98,9 @@ Before you build, understand these limits and system rules:
 - **temperature zone rules**: All products on a page must use the **same temperature zone**. Mixing products from different temperature zones blocks checkout.
 
 
-## Steps
+## Steps { #operate-one-page }
 
-### Step 1: Create A Page
+### Step 1: Create A Page { #operate-one-page-create }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Event Page**.
 2. Click **Add Page** in the top-right corner.
@@ -113,7 +113,7 @@ Before you build, understand these limits and system rules:
     - We recommend the **drag-and-drop theme** for the best cross-device layout and design flexibility.
     ![](../../../assets/images/EC-後台-行銷活動-一頁式商店-新增一頁式商店02.png)
 
-### Step 2: Complete Basic Settings
+### Step 2: Complete Basic Settings { #operate-one-page-settings }
 
 On the **Basic Settings** tab of the edit page, set up the URL, visuals, and schedule:
 
@@ -152,7 +152,7 @@ On the **Basic Settings** tab of the edit page, set up the URL, visuals, and sch
 
     ![](../../../assets/images/EC-後台-行銷活動-一頁式商店-基本設定-SEO設定01.png)
 
-### Step 3: Add Products
+### Step 3: Add Products { #operate-one-page-campaign-product }
 
 === "Drag-and-Drop Theme"
 
@@ -176,7 +176,7 @@ On the **Basic Settings** tab of the edit page, set up the URL, visuals, and sch
     Only **listed and published** products can be added. Unpublished or unlisted products can't.
 
 
-### Step 4: Design The Product List Layout
+### Step 4: Design The Product List Layout { #operate-one-page-product }
 
 === "Drag-and-Drop Theme"
 
@@ -226,7 +226,7 @@ On the **Basic Settings** tab of the edit page, set up the URL, visuals, and sch
     ![](../../../assets/images/EC-後台-行銷活動-一頁式商店-舊版-設定商品列表佈局01.png)
 
 
-### Step 5: Design The Page Layout And Content
+### Step 5: Design The Page Layout And Content { #operate-one-page-introduction }
 
 === "Drag-and-Drop Theme"
 
@@ -255,7 +255,7 @@ On the **Basic Settings** tab of the edit page, set up the URL, visuals, and sch
     ![](../../../assets/images/EC-後台-行銷活動-一頁式商店-舊版-新增區塊元素01.png)
 
 
-### Step 6: Set The Promotion Policy (Enterprise Only)
+### Step 6: Set The Promotion Policy (Enterprise Only) { #operate-one-page-settings-marketing-campaign }
 
 1. Go to the **Marketing Activity Settings** tab.
 2. Choose the promotion policy for the Event Page.
@@ -271,9 +271,9 @@ On the **Basic Settings** tab of the edit page, set up the URL, visuals, and sch
 
 ![](../../../assets/images/EC-後台-行銷活動-一頁式商店-行銷活動設定01.png)
 
-## Advanced Uses
+## Advanced Uses { #intro-one-page }
 
-### 1. Create Affiliate Referral Links
+### 1. Create Affiliate Referral Links { #intro-one-page-referral-referral-link }
 
 Event Pages work with affiliate commissions. When customers click a URL with a referral code, the code is added to their cart automatically.
 
@@ -284,7 +284,7 @@ Event Pages work with affiliate commissions. When customers click a URL with a r
 
 > :lucide-info: [Look up an affiliate partner's referral code](../../profit-sharing/query-profit-sharing-partners-and-codes/#任務四一鍵複製推薦碼)
 
-### 2. Disable Right-Click
+### 2. Disable Right-Click { #intro-one-page-add }
 
 To keep page images from being easily downloaded, paste a right-click blocking script into a **Custom HTML** block:
 
@@ -326,7 +326,7 @@ event.stopPropagation(); }
 </script>
 ```
 
-### 3. Turn On Product Launch Times
+### 3. Turn On Product Launch Times { #intro-one-page-enable-product-settings }
 
 The storefront shows a countdown to each product's launch to build anticipation and engagement.
 
@@ -343,7 +343,7 @@ The storefront shows a countdown to each product's launch to build anticipation 
 ![](../../../assets/images/EC-後台-行銷活動-一頁式商店-商品開賣時間設定01.png)
 
 
-## FAQ
+## FAQ { #faq-one-page }
 
 ??? quote "Why do customers see **No shipping method found** at checkout?"
     This usually happens when the page mixes products from different temperature zones (such as room-temperature cookies and frozen ice cream). One order can't handle multiple temperature zones, so make sure all products on the page use the same temperature zone.
@@ -356,7 +356,7 @@ The storefront shows a countdown to each product's launch to build anticipation 
 
 ---
 
-## Further Reading
+## Further Reading { #intro-one-page-introduction }
 
 <div class="grid cards" markdown>
 

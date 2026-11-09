@@ -79,7 +79,7 @@ This article explains how shoppers order in the **Quick Delivery section** of th
 	- **Store inquiries**: Answer shoppers who ask how to use Quick Delivery or why they can't check out.
 
 
-## Before You Start
+## Before You Start { #prerequisites-purchase-process }
 
 - **Payment method limits**: Quick Delivery **doesn't support cash on delivery**. Shoppers must pay online first (status **Paid**) before you can accept and ship the order.
 - **Address locked**: The recipient address at checkout defaults to the address entered when searching, and **can't be changed after checkout starts**.
@@ -87,9 +87,9 @@ This article explains how shoppers order in the **Quick Delivery section** of th
 - **Service area limit**: Because of how Quick Delivery works, the maximum delivery distance is **5 km**.
 ---
 
-## Ordering Steps
+## Ordering Steps { #operate-purchase-process }
 
-### Step 1: Enter the Delivery Address
+### Step 1: Enter the Delivery Address { #operate-purchase-process-address }
 
 1. On the storefront, click **CYBERBIZ NOW Quick Delivery**.
 
@@ -106,7 +106,7 @@ This article explains how shoppers order in the **Quick Delivery section** of th
 4. **Save frequent delivery addresses (optional)**: Click **Select Frequent Delivery Address** to add and save addresses (up to 5).
   ![](../../../assets/images/EC-前台-快速到貨-建立常用外送地址01.en.png){ .screenshot }
 
-### Step 2: Shop the Store's Products
+### Step 2: Shop the Store's Products { #operate-purchase-process-pick-products }
 
 1. Click a store to browse its product list below.
 2. Choose products and add them to the cart.
@@ -119,7 +119,7 @@ This article explains how shoppers order in the **Quick Delivery section** of th
 
 ![](../../assets/images/EC-前台-首頁-快速到貨頁面01.en.png){ .screenshot }
 
-### Step 3: Check Out and Add Notes
+### Step 3: Check Out and Add Notes { #operate-purchase-process-checkout }
 
 1. On the checkout page, confirm the recipient information and phone number.
 2. In **Order Notes**, enter special instructions for the driver (such as "Leave it at the door" or "Call when you arrive").
@@ -129,19 +129,19 @@ This article explains how shoppers order in the **Quick Delivery section** of th
 
 ---
 
-## Receiving and Verification
+## Receiving and Verification { #operate-purchase-process-receive }
 
-### 1. Track Delivery Progress
+### 1. Track Delivery Progress { #operate-purchase-process-track-email }
 After the order is placed and the store accepts it, once a driver is matched, the shopper receives a **store order acceptance email** from CYBERBIZ. The order can no longer be canceled at this point.
 
-### 2. Track Delivery Progress
+### 2. Track Delivery Progress { #operate-purchase-process-track-sms }
 
 After a driver is matched, the delivery platform sends a **text message**. Tap the link in the message to see in real time:
 
 - The driver's current location on the map.
 - The estimated delivery time.
 
-### 3. PIN Verification at Delivery (Uber Direct Only)
+### 3. PIN Verification at Delivery (Uber Direct Only) { #operate-purchase-process-uber-direct }
 If the order is delivered by **Uber Direct**, the shopper must verify their identity at delivery for security:
 
 - **How it works**: The shopper gives the courier the **last four digits of their phone number** as the PIN.
@@ -149,7 +149,7 @@ If the order is delivered by **Uber Direct**, the shopper must verify their iden
 
 ---
 
-## FAQ
+## FAQ { #faq-purchase-process }
 
 ??? quote "Why does **Currently not accepting service** appear after I search an address?"
     It means the store is currently outside its **order-taking hours**. Note that **order-taking hours** are set by the merchant and may differ from the store's actual business hours.

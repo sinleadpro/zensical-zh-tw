@@ -85,7 +85,7 @@ Take the first step in running your store: learn about Smart POS hardware and so
 { .doc-badge }
 
 
-## Equipment and Software Checklist
+## Equipment and Software Checklist { #overview-get-started }
 
 Before you activate POS features, make sure you have planned the following hardware and software environment.
 
@@ -180,7 +180,7 @@ Before you activate POS features, make sure you have planned the following hardw
 
     </div>
 
-## Preparation Before Setup
+## Preparation Before Setup { #intro-get-started }
 
 Before you activate POS features, complete the basic setup on the online store and understand how the system works.
 

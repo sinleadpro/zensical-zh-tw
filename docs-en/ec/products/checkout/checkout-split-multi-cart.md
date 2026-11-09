@@ -73,7 +73,7 @@ comments: false
 
 ![Split checkout into multiple carts](../../../assets/images/ec-split-checkout-multi-cart-frontend.zh-tw.en.png){ .hero-page title="Split Checkout into Multiple Carts" }
 
-## About Checkout Splitting into Multiple Carts
+## About Checkout Splitting into Multiple Carts { #intro-split-cart }
 
 When the products in a customer's cart have different "delivery conditions" (such as fulfillment channel, delivery temperature zone, or logistics method), **the system automatically splits the products into multiple separate carts during checkout**. Each cart:
     
@@ -109,9 +109,9 @@ The same product may appear in different carts, but **once one cart is checked o
           C --> D(Separate checkouts<br>create separate orders)
         ```
 
-## Steps
+## Steps { #operate-split-cart }
 
-### Set Product Channels
+### Set Product Channels { #operate-split-cart-channel }
 
 [:lucide-tag:{ title="Applicable Plans" }](../../../resources/conventions.md#conventions-plans) | Expert / PLUS / Enterprise
 
@@ -129,7 +129,7 @@ The same product may appear in different carts, but **once one cart is checked o
 
 ---
 
-### Set Product Temperature Zone
+### Set Product Temperature Zone { #operate-split-cart-temp }
 
 1. Log in to the CYBERBIZ admin and go to **Products > All Products**.
 2. Click the product to open its edit page, then switch to the **Settings** tab.
@@ -139,7 +139,7 @@ The same product may appear in different carts, but **once one cart is checked o
 
 ---
 
-### Set Product Logistics
+### Set Product Logistics { #operate-split-cart-logistics }
 
 [:lucide-tag:{ title="Applicable Plans" }](../../../resources/conventions.md#conventions-plans) | Expert / PLUS / Enterprise
 
@@ -151,7 +151,7 @@ The same product may appear in different carts, but **once one cart is checked o
 
 ---
 
-### Set a Pre-Order Product Channel
+### Set a Pre-Order Product Channel { #operate-split-cart-preorder }
 
 1. Log in to the CYBERBIZ admin and go to **Products > All Products**.
 2. Click the product to open its edit page, then switch to the **Settings** tab.
@@ -163,9 +163,9 @@ The same product may appear in different carts, but **once one cart is checked o
 
 ![Pre-order product settings](../../../assets/images/ec-product-preorder-product.zh-tw.en.gif){ title="Pre-Order Product Settings" }
 
-## Example Scenarios
+## Example Scenarios { #specs-split-cart-examples }
 
-### Same Logistics / Same Temperature Zone / Different Product Channels
+### Same Logistics / Same Temperature Zone / Different Product Channels { #specs-split-cart-same-ship }
 
 **Settings**
 
@@ -184,7 +184,7 @@ The same product may appear in different carts, but **once one cart is checked o
 
 ---
 
-### Same Logistics / Different Product Channels / Different Temperature Zone
+### Same Logistics / Different Product Channels / Different Temperature Zone { #specs-split-cart-diff-temp }
 
 **Settings**
 
@@ -202,7 +202,7 @@ The same product may appear in different carts, but **once one cart is checked o
 
 ---
 
-### Different Logistics / Same Temperature Zone / Same Product Channel
+### Different Logistics / Same Temperature Zone / Same Product Channel { #specs-split-cart-diff-ship }
 
 **Settings**
 
@@ -217,7 +217,7 @@ The same product may appear in different carts, but **once one cart is checked o
 ![Logistics](https://www.cyberbiz.io/support/wp-content/uploads/商品-商品通路設定05-1.png){ title="Logistics" .screenshot }
 
 
-## FAQ
+## FAQ { #faq-split-cart }
 
 ??? quote "Do multiple carts increase shipping costs?"
     Yes. Each cart calculates shipping fees separately. If products are split into multiple carts, customers may need to pay multiple shipping fees.

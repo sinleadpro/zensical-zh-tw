@@ -81,13 +81,13 @@ Based on where a product actually ships from, point it to self-shipment, third-p
 [:lucide-layers:{ title="Applicable Products" }](../../../resources/conventions.md) | Smart Warehousing / Cross-Border E-commerce
 { .doc-badge }
 
-## Before You Start
+## Before You Start { #prerequisites-ship-method }
 
 - **Option source**: The options available in **Warehouse** depend on the logistics features activated for your store.
 
-## Steps
+## Steps { #operate-ship-method }
 
-### Set a Single Product
+### Set a Single Product { #operate-ship-method-single }
 
 1. Log in to the CYBERBIZ admin and go to **Products > All Products**.
 2. Click the product to open its edit page.
@@ -96,7 +96,7 @@ Based on where a product actually ships from, point it to self-shipment, third-p
 
 ![](../../../assets/images/EC-後台-商品-所有商品-單筆設定出貨方式01.en.png){ .screenshot }
 
-### Batch Settings
+### Batch Settings { #operate-ship-method-batch }
 
 1. Go to **Products > All Products** and select the products you want to change.
 2. Click **Actions... > Select Warehouse**.
@@ -107,7 +107,7 @@ Based on where a product actually ships from, point it to self-shipment, third-p
 
 ![](../../../assets/images/EC-後台-商品-所有商品-批次設定出貨方式01.en.png){ .screenshot }
 
-### Bulk Settings with Excel
+### Bulk Settings with Excel { #operate-ship-method-excel }
 
 1. Go to **Products > All Products** and select the products you want to change.
 2. Click **Actions... > Export Product** to download the product Excel file.
@@ -120,7 +120,7 @@ Based on where a product actually ships from, point it to self-shipment, third-p
 
 To learn how Excel import decides between adding and updating products, and for the full flow, see [Import Products in Bulk from Excel](../bulk-operations/excel-import-products.md){ title="Import Products in Bulk from Excel" }.
 
-## Verify the Settings
+## Verify the Settings { #operate-ship-method-verify }
 
 - **Method 1**: Go back to **Products > All Products**, use **Advanced Search** to filter products by **Warehouse**, and check that the products in the filtered list are correct.
 
@@ -129,7 +129,7 @@ To learn how Excel import decides between adding and updating products, and for 
 - **Method 2**: Open the product's **Settings** tab and check that **Warehouse** shows the expected fulfillment source.
 
 
-## Return to Your Scenario
+## Return to Your Scenario { #next-steps-ship-method }
 
 Smart warehousing (order splitting and mixed orders) and Amazon FBA create the matching orders based on the fulfillment method. After you finish the settings on this page, go back to the original scenario guide to continue.
 

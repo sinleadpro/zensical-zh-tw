@@ -80,16 +80,16 @@ This guide shows store staff how to start a shipment request, match a driver, ha
 	- **Delivery monitoring**: When a customer asks about order progress, check the driver's location and estimated arrival time in real time in the admin.
 
 
-## Things to Know
+## Things to Know { #prerequisites-qd-ship }
 
 - **Shipping is irreversible**: Once the status changes to **Shipped**, the system immediately sends a dispatch request to the delivery platform, and it can't be freely canceled.
 - **Driver matching time**: Matching time depends on supply and demand on the delivery platform.
 
     > If Pandago takes a long time to match a driver, see the [Pandago Delivery Exception Rules](pandago-delivery-exception-rules.md) policy.
 
-## Steps
+## Steps { #operate-qd-ship }
 
-### Step 1: Start Shipping and Match a Driver
+### Step 1: Start Shipping and Match a Driver { #operate-qd-ship-dispatch }
 
 1. Go to **Orders > Branch Store Orders** and find orders with the status **Preparing**.
 2. Select the orders and choose **Shipped** in the menu above.
@@ -100,14 +100,14 @@ This guide shows store staff how to start a shipment request, match a driver, ha
     - `Matching Driver`: The system is looking for nearby couriers.
     - `Driver Matched`: A courier is confirmed, and the page shows the driver's name and contact information (depending on platform support).
 
-### Step 2: Hand Over Items to the Driver
+### Step 2: Hand Over Items to the Driver { #operate-qd-ship-handover }
 
 1. When the driver arrives at the store, ask which platform they're from and which order number they're picking up.
 2. Check that the **tracking number** on the driver's phone matches the number shown in the order's **Delivery Status** in the admin.
     ![](../../assets/images/EC-後台-訂單-門市訂單-送貨狀態顯示託運單編號01.en.png){ .screenshot }
 3. Hand the packed items to the driver.
 
-### Step 3: Track Delivery Progress
+### Step 3: Track Delivery Progress { #operate-qd-ship-track }
 
 1. Check the order's **Shipping status** for real-time delivery information:
     - **Driver location**: Some platforms provide a live map link.
@@ -115,7 +115,7 @@ This guide shows store staff how to start a shipment request, match a driver, ha
 2. After the driver delivers the items to the customer, the order's delivery status in the admin changes to **Received**.
 
 
-## How Delivery Statuses Work
+## How Delivery Statuses Work { #intro-qd-ship }
 
 Quick Delivery statuses update automatically based on information from the delivery platform. The main stages are:
 
@@ -131,7 +131,7 @@ Quick Delivery statuses update automatically based on information from the deliv
 
 ---
 
-## FAQ
+## FAQ { #faq-qd-ship }
 
 ??? quote "Can I cancel the shipment after a driver is matched?"
     If the driver is already on the way to the store, canceling the dispatch may incur a cancellation fee (depending on the delivery platform's rules). Unless necessary (for example, if items are damaged or seriously out of stock), we recommend not canceling matched orders.

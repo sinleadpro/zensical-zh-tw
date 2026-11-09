@@ -69,7 +69,7 @@ North America payment services integrate mainstream international payment soluti
 [:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | Pro / Business
 { .doc-badge }
 
-## Payment Option Details
+## Payment Option Details { #intro-na-payments }
 
 | Payment Method | Transaction Type | Cardholder Country | Fee Rate | Minimum Checkout Amount |
 | :--- | :--- | :--- | :--- | :--- |
@@ -82,7 +82,7 @@ North America payment services integrate mainstream international payment soluti
 - **Account Reconciliation**: Related payment processing fees are listed on each period's statement.
 - **Minimum Checkout Amount**: The system applies a default minimum checkout amount, so merchants do not need to configure it. An order must meet this threshold before the checkout page shows the corresponding payment options.
 
-## Usage Notes
+## Usage Notes { #prerequisites-na-payments }
 
 - **Supported Credit Cards**: Visa, Mastercard, American Express, Discover, Diners Club, JCB, China UnionPay.
 - **[E-Wallet Usage Guidelines](https://docs.stripe.com/stripe-js/elements/payment-request-button)**
@@ -93,7 +93,7 @@ North America payment services integrate mainstream international payment soluti
 
 
 
-## Step 1: Open Payment Options
+## Step 1: Open Payment Options { #operate-na-payments-options }
 
 Go to **Payment and Logistics > Payment Settings** and click :lucide-file-pen-line: **Settings** to the right of **CYBERBIZ PAYMENTS**.
 
@@ -102,7 +102,7 @@ Go to **Payment and Logistics > Payment Settings** and click :lucide-file-pen-li
 ![](../../assets/images/北美站-後台-金物流-金流設定-啟用金流01.en.png)
 
 
-## Step 2: Enable Payment Methods
+## Step 2: Enable Payment Methods { #operate-na-payments-methods }
 
 Select the payment methods you want to enable.
 

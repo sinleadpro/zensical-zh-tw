@@ -83,16 +83,16 @@ With Referral Reports, you can accurately track the sales performance of each ty
 	- **Real-time sales monitoring**: Before orders are completed, use the Order Report to estimate upcoming profit-sharing costs.
 
 
-## Before You Start
+## Before You Start { #prerequisites-ps-reports }
 
 - **Permission differences**:
     - **Website owner**: Can view profit-sharing data for everyone on the site.
     - **Co-admins (staff)**: Can only view their own profit-sharing results.
 
 
-## Steps
+## Steps { #operate-ps-reports }
 
-### Task 1: Export Official Referral Reports
+### Task 1: Export Official Referral Reports { #operate-ps-reports-formal }
 
 Use this to settle every profit-sharing program: referral, registration, checkout, and pickup.
 
@@ -119,7 +119,7 @@ Use this to settle every profit-sharing program: referral, registration, checkou
 
 ![](../../assets/images/EC-後台-分潤-分潤報表-畫面總覽01.en.png){ .screenshot }
 
-### Task 2: Export Real-time Profit-sharing Data
+### Task 2: Export Real-time Profit-sharing Data { #operate-ps-reports-realtime }
 
 To preview **Referral Program** before orders are completed, use the Order Report feature.
 
@@ -135,7 +135,7 @@ To preview **Referral Program** before orders are completed, use the Order Repor
 
 ![](../../assets/images/EC-後台-訂單-訂單報表匯出-匯出分潤訂單01.en.png){ .screenshot }
 
-## FAQ
+## FAQ { #faq-ps-reports }
 
 ??? quote "A referrer says an order is missing. What should I check?"
     1. Confirm that the customer entered the referral code or clicked the referral link when ordering.

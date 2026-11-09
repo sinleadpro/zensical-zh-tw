@@ -52,7 +52,7 @@ hide:
 
 This table lists the filter fields available in Conditionalized Collections and the match conditions each field supports, for reference when you set up conditionalized collections.
 
-## Filter Fields Reference { #smart-collections-rule-columns }
+## Filter Fields Reference { #reference-smart-collections-columns }
 
 | Filter Field | Product Data Matched | Field Type | Supported Conditions |
 | :-- | :-- | :-- | :-- |

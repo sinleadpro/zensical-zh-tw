@@ -75,20 +75,20 @@ tags:
 
 ![EZCAT Quick Store Delivery payment](../../../assets/images/ec-金物流-超商物流-黑貓快速到店.en.png){ title="EZCAT Quick Store Delivery Payment" .hero-page }
 
-## About EZCAT Quick Store Delivery Payment
+## About EZCAT Quick Store Delivery Payment { #intro-tcat-express-pay }
 
 You can offer two options, "Cash on Delivery" and "Pickup Without Payment." An EZCAT driver picks up packages at your specified location and delivers them to the **7-Eleven store** the shopper chose.
 
-## Step 1: Go to the Settings
+## Step 1: Go to the Settings { #operate-tcat-express-pay-admin-path }
 
 1. Sign in to the admin and go to **Payment and Logistics > Convenience Store Logistics**.
 2. In the **EZCAT Quick Store Delivery** section, click the edit button :material-file-document-edit-outline: to open the edit page.
 
 ![Edit EZCAT Quick Store Delivery](../../../assets/images/ec-金物流-超商物流-黑貓快速到店-編輯.en.png){ title="Edit EZCAT Quick Store Delivery" }
 
-## Step 2: Set Up Payment Methods
+## Step 2: Set Up Payment Methods { #operate-tcat-express-pay-pay-setup }
 
-### Set Up "Cash on Delivery" <small>COD</small>
+### Set Up "Cash on Delivery" <small>COD</small> { #operate-tcat-express-pay-cod }
 
 !!! plan "This feature is **available only to merchants with CYBERBIZ PAYMENTS**."
 
@@ -106,7 +106,7 @@ You can offer two options, "Cash on Delivery" and "Pickup Without Payment." An E
 
 ---
 
-### Set Up "Pickup Without Payment" <small>No Payment on Delivery</small>
+### Set Up "Pickup Without Payment" <small>No Payment on Delivery</small> { #operate-tcat-express-pay-no-cod }
 
 1. Switch to the **Pickup Without Payment** tab.
 2. **Turn it on:** Switch "Pickup Without Payment" to **"ON"**.
@@ -116,7 +116,7 @@ You can offer two options, "Cash on Delivery" and "Pickup Without Payment." An E
 
 ![EZCAT Quick Store Delivery - pickup without payment](../../../assets/images/ec-金物流-超商物流-黑貓快速到店-取貨不付款.en.png){ title="EZCAT Quick Store Delivery - Pickup Without Payment" }
 
-## What Customers See
+## What Customers See { #operate-tcat-express-pay-storefront }
 
 - On your website's checkout page, customers **don't see** the words "EZCAT Quick Store Delivery."
 
@@ -138,7 +138,7 @@ Frozen
 
 </div>
 
-## Key Rules and Important Notes
+## Key Rules and Important Notes { #prerequisites-tcat-express-pay-rules }
 
 - **Shipping rates:** See detailed rates at **Website Management > Reconciliation Center > Other Logistics Shipping Fees** in the admin.
 
@@ -160,7 +160,7 @@ Frozen
 
 
 
-## Next Steps
+## Next Steps { #next-steps-tcat-express-pay }
 
 <div class="grid cards" markdown>
 
@@ -175,7 +175,7 @@ Frozen
 </div>
 
 
-## FAQ
+## FAQ { #faq-tcat-express-pay }
 
 ??? quote "Can I turn on both EZCAT Quick Store Delivery and 7-Eleven pickup with payment?"
 	Yes. But customers see two 7-Eleven options on the checkout page. To avoid confusion, we recommend turning on only one delivery type per convenience store.

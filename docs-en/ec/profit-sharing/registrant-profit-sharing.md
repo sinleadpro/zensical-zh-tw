@@ -74,16 +74,16 @@ Registrant profit sharing uses a "permanent link". When a customer enters a regi
 	- **Tiered incentives**: Set a high rate for the first month after sign-up and lower rates after that, to motivate promoters to drive purchases early on.
 
 
-## Before You Start
+## Before You Start { #prerequisites-registrant-ps }
 
 - **Permanent link**: Once a registrant code is linked, it **can't be changed**. All of the customer's future online and offline orders are tied to that registrant.
 - **POS limitation**: The POS **quick sign-up** feature doesn't support entering a registrant code yet.
 - **Role requirement**: To be a registrant, a person must be a **website admin** or **store staff**.
 
 
-## Steps
+## Steps { #operate-registrant-ps }
 
-### Step 1: Turn On The Feature And Create A Plan
+### Step 1: Turn On The Feature And Create A Plan { #operate-registrant-ps-enable }
 
 1. Log in to the CYBERBIZ admin and go to **Profit Sharing > With Registrants**.
 2. Set **Active Registrant Profit Sharing Feature** to `ON`.
@@ -93,7 +93,7 @@ Registrant profit sharing uses a "permanent link". When a customer enters a regi
 ![](../../assets/images/EC-後台-分潤-註冊人分潤-新增方案01.en.png){ .screenshot }
 
 
-### Step 2: Set Tiered Profit-sharing Rates
+### Step 2: Set Tiered Profit-sharing Rates { #operate-registrant-ps-tiers }
 
 You can set separate tiered rates for your **online store** and **physical stores**.
 
@@ -116,7 +116,7 @@ You can set separate tiered rates for your **online store** and **physical store
 ![](../../assets/images/EC-後台-分潤-註冊人分潤-設定分潤比例01.en.png){ .screenshot }
 
 
-### Step 3: Assign Registrants And Codes
+### Step 3: Assign Registrants And Codes { #operate-registrant-ps-assign }
 
 Assign the profit-sharing plan to specific staff or stores to create their registrant codes.
 
@@ -128,7 +128,7 @@ Assign the profit-sharing plan to specific staff or stores to create their regis
 
 ![](../../assets/images/EC-後台-分潤-註冊人分潤-指派分潤名單01.en.png){ .screenshot }
 
-## FAQ
+## FAQ { #faq-registrant-ps }
 
 ??? quote "If a customer adds a code after signing up, can they still be linked?"
     No. The registrant code must be entered **at sign-up** to take effect. Once the account is created, the system doesn't support adding or changing the registrant.

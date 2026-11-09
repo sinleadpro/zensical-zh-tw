@@ -63,25 +63,25 @@ hide:
 
 ![Third-Party Integrations FBE Setup](../../../../assets/images/ec-第三方整合-fbe.en.png){ .hero-page }
 
-## About the Facebook Business Extension
+## About the Facebook Business Extension { #overview-fbe-authorization }
 
 "**Facebook Business Extension**" (Facebook Business Extension, FBE) can connect **Conversions API**, **Facebook Pixel**, **Product Catalog**, **Instagram Shopping**, and **Facebook Page** assets at once. This helps merchants link these assets to the online store admin quickly and manage ad tracking, audience building, and product promotion in one place.
 
-## Setup Path
+## Setup Path { #operate-fbe-authorization }
 
 1. Log in to the CYBERBIZ admin and click "**Third-Party Integrations** > **Facebook Settings (Ads / Sign-Up and Login)**".
 2. Scroll to the bottom of the page, find the "Facebook New Business Extension" section, and click "**Start Setting**" to start the process.
 
 ![FBE Start Setup](../../../../assets/images/ec-第三方整合-fb-fbe-開始設定.en.png)
 
-## Step-by-Step Guide
+## Step-by-Step Guide { #operate-fbe-authorization-operate-step }
 
 !!! tip "Permission Check"
 
-    - Before you start setup, we recommend checking your current [Business Manager status](#企業管理平台與廣告帳號){ data-preview }.
+    - Before you start setup, we recommend checking your current [Business Manager status](#prerequisites-fbe-authorization-manage-ads-accou){ data-preview }.
     - If you run into permission issues during setup, make sure your account is the owner of the asset or has sufficient admin permissions.
 
-1.  **Log in to Facebook:** If your browser is not logged in, the system asks you to log in. Make sure the account has the [relevant asset setup permissions](#核心資產權限邏輯){ data-preview } in the Business Portfolio.
+1.  **Log in to Facebook:** If your browser is not logged in, the system asks you to log in. Make sure the account has the [relevant asset setup permissions](#prerequisites-fbe-authorization-permissions){ data-preview } in the Business Portfolio.
 
     ![FBE-Log In](../../../../assets/images/ec-第三方整合-fbe-登入fb帳號.en.png)
 
@@ -93,9 +93,9 @@ hide:
     ![FBE-Grant Consent](../../../../assets/images/ec-第三方整合-fbe-同意授權.en.png)
 
 3.  **Link Business Assets:** Click an asset to choose the Facebook Page, catalog, ad account, and Pixel to connect.
-    *   **Important:** The assets you select must [belong to this Business Portfolio](#核心資產權限邏輯){ data-preview }. Otherwise, you cannot select them correctly.
+    *   **Important:** The assets you select must [belong to this Business Portfolio](#prerequisites-fbe-authorization-permissions){ data-preview }. Otherwise, you cannot select them correctly.
     *   You can also create new assets in this step.
-    *   We recommend turning on "[Automatic Advanced Matching](#進階配對設定-advanced-matching){ data-preview }" for the best ad performance. (A Facebook Page must already exist.)
+    *   We recommend turning on "[Automatic Advanced Matching](#prerequisites-fbe-authorization-advanced-setting){ data-preview }" for the best ad performance. (A Facebook Page must already exist.)
 
     === "Link Assets"
         ![FBE-Link Assets](../../../../assets/images/ec-第三方整合-fbe-連結資產.en.png)
@@ -110,7 +110,7 @@ hide:
 
     ![FBE-Finish Linking](../../../../assets/images/ec-第三方整合-fbe-完成連結.en.png)
 
-## Post-Setup Checks and Maintenance
+## Post-Setup Checks and Maintenance { #operate-fbe-authorization-settings }
 
 *   **Verify Connection Status:** Return to the admin page to confirm the linked Facebook Page, pixel, and catalog.
 *   **Edit or Cancel:** To set up again or clear your settings, click "Edit Assets" or "Unlink."  
@@ -118,9 +118,9 @@ hide:
 
 ![FBE-Finish Linking](../../../../assets/images/ec-第三方整合-fb-基本設定-fbe-已建立連結.en.png)
 
-## Permission Details
+## Permission Details { #prerequisites-fbe-authorization }
 
-### Business Manager and Ad Accounts
+### Business Manager and Ad Accounts { #prerequisites-fbe-authorization-manage-ads-accou }
 
 Before you connect, check your current situation and choose the matching action:
 
@@ -155,7 +155,7 @@ Before you connect, check your current situation and choose the matching action:
 
 ---
 
-### Core Asset Permission Logic
+### Core Asset Permission Logic { #prerequisites-fbe-authorization-permissions }
 
 Facebook asset management uses a **hierarchy**:
 
@@ -166,7 +166,7 @@ Facebook asset management uses a **hierarchy**:
 
 ---
 
-### Advanced Matching Settings <small>Advanced Matching</small>
+### Advanced Matching Settings <small>Advanced Matching</small> { #prerequisites-fbe-authorization-advanced-setting }
 
 This is an important permission setting for improving ad performance. We recommend checking it during setup:
 
@@ -179,7 +179,7 @@ This is an important permission setting for improving ad performance. We recomme
 *   **Conversions API (CAPI):** After setup, the system automatically starts sending server-side (Server to Server) pixel events. Go to [Meta Events Manager :lucide-external-link:](https://eventsmanager.facebook.com/) to check whether the connection method shows "Server."
 -->
 
-## Next Steps
+## Next Steps { #next-steps-fbe-authorization }
 
 <div class="grid cards" markdown>
 
@@ -189,7 +189,7 @@ This is an important permission setting for improving ad performance. We recomme
 
 </div>
 
-## FAQ
+## FAQ { #faq-fbe-authorization }
 
 ??? quote "What permissions do I need to set up FBE?"
 

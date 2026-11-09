@@ -66,7 +66,7 @@ Set expiry reminders for coupons (codes) and bonus points. Notify customers by e
 { .doc-badge }
 
 
-## Set The Reminder Days
+## Set The Reminder Days { #operate-coupon-expiry }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Shop-wide Discount – Bonus & Coupons > 優惠券/紅利點數到期通知**.
 2. Set the notification to send **N days** before expiry.
@@ -75,7 +75,7 @@ Set expiry reminders for coupons (codes) and bonus points. Notify customers by e
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠券紅利點數到期通知01.png){ .screenshot }
 
-## How The System Sends Reminders
+## How The System Sends Reminders { #specs-coupon-expiry }
 
 - **Expiry time**:
     - **coupon (code)**: 23:59:59 on the end date.
@@ -90,7 +90,7 @@ Set expiry reminders for coupons (codes) and bonus points. Notify customers by e
 
     </div>
 
-## Turn On Notification Channels
+## Turn On Notification Channels { #operate-coupon-expiry-enable }
 
 Make sure to turn on the matching notification switches at these paths:
 

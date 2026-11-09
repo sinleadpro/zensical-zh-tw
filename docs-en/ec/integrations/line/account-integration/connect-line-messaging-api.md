@@ -76,14 +76,14 @@ hide: []
 
 ![LINE OA integration](../../../../assets/images/ec-第三方整合-line oa.en.png){ title="LINE OA integration" .hero-page }
 
-## Connect LINE OA Messaging API Guide
+## Connect LINE OA Messaging API Guide { #operate-line-messaging }
 
 Integrate the LINE Official Account (OA) with the CYBERBIZ system to enable automated customer communication, including order status notifications, precise audience messaging, and product keyword search within LINE.
 
 !!! info "What is the Messaging API?"
 	 The Messaging API is a technical interface that LINE provides to developers. Through this integration, the CYBERBIZ system **automatically** sends personalized messages based on specific events (such as a customer placing an order or a payment reminder), without manual action.
 
-## Prerequisites and Limitations
+## Prerequisites and Limitations { #prerequisites-line-messaging }
 
 Before you start the integration, make sure to confirm the following:
 
@@ -93,7 +93,7 @@ Before you start the integration, make sure to confirm the following:
 
 Complete the following steps in order to make sure the system connects correctly:
 
-## Step 1: Create and Set up a LINE Official Account
+## Step 1: Create and Set up a LINE Official Account { #operate-line-messaging-account }
 
 1. **Create a LINE Official Account** Go to [LINE Official Account Manager](https://manager.line.biz/) and create an account.
 
@@ -110,7 +110,7 @@ Complete the following steps in order to make sure the system connects correctly
 
 ![Enable Messaging API](../../../../assets/images/ec-第三方整合-line-啟用 messaging api.en.gif){ title="Enable Messaging API" }
 
-## Step 2: Get the Integration Keys and Enter Them in CYBERBIZ
+## Step 2: Get the Integration Keys and Enter Them in CYBERBIZ { #operate-line-messaging-connect-cyberbiz }
 
 1. **Go to LINE Developers Console** Sign in to [LINE Developers Console](https://developers.line.biz/console/) and select the Messaging API channel you created earlier.
 
@@ -128,7 +128,7 @@ Complete the following steps in order to make sure the system connects correctly
 
     - Click **Save** to complete the key configuration.
 
-## Step 3: Turn on the Webhook Feature
+## Step 3: Turn on the Webhook Feature { #operate-line-messaging-enable-webhook }
 
 1. **Get the Webhook URL** Go to the CYBERBIZ admin **Third-Party Integration > LINE OA Settings** and copy the system-generated **Webhook URL**.
 
@@ -150,11 +150,11 @@ Complete the following steps in order to make sure the system connects correctly
 
 ![Set Up Webhook Connection](../../../../assets/images/ec-第三方整合-line-webhook-copy-past-line-dev.en.gif){ title="Set Up Webhook Connection" }
 
-## Step 4: Advanced Features <small>Optional</small>
+## Step 4: Advanced Features <small>Optional</small> { #intro-line-messaging }
 
 After you complete the basic integration, you can further configure the following advanced features based on your brand's operational needs:
 
-### LINE Keyword Product Search
+### LINE Keyword Product Search { #intro-line-messaging-line-search-product }
 
 - **Feature description:** When enabled, customers can enter keywords in the LINE chat window (for example, necklace or coffee beans), and the system automatically replies with a list of related products from your online store.
 
@@ -164,7 +164,7 @@ After you complete the basic integration, you can further configure the followin
 
 ---
 
-### Third-Party System Data Forwarding <small>Webhook Relay</small>
+### Third-Party System Data Forwarding <small>Webhook Relay</small> { #intro-line-messaging-data-webhook-relay }
 
 - **Feature description:** If your LINE OA is also connected to other third-party platforms (for example, **Omnichat**, **Smarter**, or **Easychat**), you can set up a forwarding system in CYBERBIZ.
 
@@ -174,7 +174,7 @@ After you complete the basic integration, you can further configure the followin
 
 ![Webhook Relay Settings](../../../../assets/images/ec-第三方整合-line-webhook-replay.en.gif){ title="Webhook Relay Settings" }
 
-### Automated Notification Templates
+### Automated Notification Templates { #intro-line-messaging-notifications }
 
 - **Feature description:** When an order or member status changes, the system automatically sends standardized notifications.
 
@@ -190,7 +190,7 @@ After you complete the basic integration, you can further configure the followin
 
 For instructions, see [**LINE OA Message Template Setup**](../../../notifications/manage-line-oa-templates.md){ title="Set Up and Manage LINE OA Notification Templates" }.
 
-## Related Actions
+## Related Actions { #operate-line-messaging-operate }
 
 <div class="grid cards" markdown>
 
@@ -204,7 +204,7 @@ For instructions, see [**LINE OA Message Template Setup**](../../../notification
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-line-messaging }
 
 ??? quote "Why does an error appear when I click “Verify” to validate the Webhook?"
 	Check whether the **Webhook URL** contains `https` and whether there is a space at the beginning. LINE requires the Webhook to use the encrypted `https` protocol. Also, make sure the **Use webhook** toggle is set to **On**, and that the Webhook URL path is complete (for example: `/line_chat_bots/send_event`).

@@ -64,16 +64,16 @@ The POS driver is the key component that connects hardware devices (such as invo
 [:lucide-layers:{ title="Applicable Products" }](../../resources/conventions#適用產品) | Smart POS
 { .doc-badge }
 
-## Usage Notes
+## Usage Notes { #prerequisites-drivers }
 
 - **Operating system**: Only **Windows** is supported. macOS and Linux are not supported.
 - **Version requirement**: POS APP V.7.0.0 and later versions are only compatible with Windows 10 or later.
 - **Startup order**: Before using the POS system, **start the driver first**, then open the POS front-end page.
 - **Exception**: If you use the **MyPay credit card reader plan**, do not install this POS driver.
 
-## Download and Install
+## Download and Install { #operate-drivers }
 
-### Step 1: Download the Installation File
+### Step 1: Download the Installation File { #operate-drivers-step-a-download }
 
 Click the link below to download the latest driver:
 
@@ -84,13 +84,13 @@ Click the link below to download the latest driver:
 `- New feature in this release: interim closing receipt printing`
 
 
-### Step 2: Run the Installer
+### Step 2: Run the Installer { #operate-drivers-step-b-run }
 
 After the download completes, double-click `cyberbiz-pos-app Setup.exe` to complete the installation. If a security warning appears, see the **FAQ** below to troubleshoot.
 
 
 
-## FAQ
+## FAQ { #faq-drivers }
 
 ??? quote "How do I resolve the **Not commonly downloaded** warning during download?"
 

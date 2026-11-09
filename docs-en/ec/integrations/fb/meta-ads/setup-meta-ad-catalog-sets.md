@@ -72,18 +72,18 @@ hide: []
 
 ![MAA-Catalog Product Set](../../../../assets/images/ec-第三方整合-fb-maa-目錄商品組合.en.png){ .hero-page }
 
-## Meta Ad Catalog Set Overview
+## Meta Ad Catalog Set Overview { #overview-meta-catalog }
 
-The **Meta Ad Catalog Set** feature lets merchants filter specific product sets directly from the CYBERBIZ back office for special promotions or specific sales needs, and precisely run them in Meta's [catalog ads or image ads](setup-meta-ad-campaign.md#廣告呈現效果){ title="Set Up a Meta Ad Campaign" }.
+The **Meta Ad Catalog Set** feature lets merchants filter specific product sets directly from the CYBERBIZ back office for special promotions or specific sales needs, and precisely run them in Meta's [catalog ads or image ads](setup-meta-ad-campaign.md#intro-meta-campaign){ title="Set Up a Meta Ad Campaign" }.
 
-## Prerequisites and Restrictions
+## Prerequisites and Restrictions { #prerequisites-meta-catalog }
 
 Before you add a product set, make sure you complete the following:
 
 - [x] **[Reconnect FBE](../mbe/setup-fbe-authorization.md){ title="Set Up FBE Account Authorization and Asset Linking" }**: Due to Meta feature updates, merchants must reconnect the "New Facebook Business Extension" at least once.
 - [x] **[Create and Top Up an Ad Account](create-meta-ad-account-top-up.md){ title="Create a Meta ad account and add ad funds" }**: Create an ad account and add ad funds before you set up delivery.
 
-## Steps to Add a Catalog Product Set
+## Steps to Add a Catalog Product Set { #operate-meta-catalog }
 
 1.  **Access Meta Ads App**: Log in to the CYBERBIZ admin, then go to **Third-Party Integration > Facebook > Product Set**.
 
@@ -106,20 +106,20 @@ Before you add a product set, make sure you complete the following:
 
     - **Flexible Filtering**: First, switch the scope to All Products or Popular Products, then search by type, tag, vendor, or keyword.
     - **Selection Limits**: You can only select products whose status is "Public" and "Listed."
-    - **Automatic Exclusion**: Products tagged "Gift" or "Exclude product feed" can't be selected. Learn how to set up exclusion tags in [How to Set Up Product Exclusion Tags](../../../products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤){ title="Manage Product Tags" }
+    - **Automatic Exclusion**: Products tagged "Gift" or "Exclude product feed" can't be selected. Learn how to set up exclusion tags in [How to Set Up Product Exclusion Tags](../../../products/categories-and-tags/manage-product-tags.md#operate-product-tags-exclude){ title="Manage Product Tags" }
 
     ![MMA-Catalog Product Set-Add Products-Filter Products](../../../../assets/images/ec-maa-創建目錄商品組合-新增商品-篩選商品.en.png)
 
-    !!! info "For filter logic, see [Product Filter Settings in the Back Office](../../../products/create-and-manage/product-management-interface.md#篩選器使用邏輯){ title="Manage Products" }."
+    !!! info "For filter logic, see [Product Filter Settings in the Back Office](../../../products/create-and-manage/product-management-interface.md#operate-product-ui-filter){ title="Manage Products" }."
 
 5.  **Confirm and Save**: Check that the product list is correct, click "Confirm Add" in the bottom-right corner, then click "Save" to finish creating the set.
 6. **Manage and View**: After you save, view, edit, or delete the sets you created in the list on the Catalog Product Sets home page.
 
     ![MAA-Catalog Product Set-Product List](../../../../assets/images/ec-maa-目錄商品組合-商品列表.en.png)
 
-## Product Sync and Troubleshooting
+## Product Sync and Troubleshooting { #specs-meta-catalog }
 
-### Manually Update the Catalog
+### Manually Update the Catalog { #specs-meta-catalog-overview-meta-catalog }
 
 If you just updated product data in the back office, the change may not appear in Meta right away. If selecting products causes an update to fail, follow these steps to manually update the catalog:
 
@@ -130,7 +130,7 @@ If you just updated product data in the back office, the change may not appear i
 
 ---
 
-### Update on the Meta Side
+### Update on the Meta Side { #specs-meta-catalog-meta }
 
 If the sync still fails after you update on the CYBERBIZ side, you can also go to Meta Business Manager to force a data source update:
 
@@ -140,7 +140,7 @@ If the sync still fails after you update on the CYBERBIZ side, you can also go t
 
 ![MBM-Catalog Update](../../../../assets/images/ec-第三方整合-mbm-目錄-更新.en.png)
 
-## Use in Ad Campaigns
+## Use in Ad Campaigns { #intro-meta-catalog }
 
 After you create a catalog product set, you can create ads based on it:
 
@@ -150,12 +150,12 @@ After you create a catalog product set, you can create ads based on it:
 
 ![MAA-Create Ad Campaign-Catalog Product Set](../../../../assets/images/ec-maa-創建廣告活動-目錄商品組合.en.png)
 
-## Next Steps
+## Next Steps { #next-steps-meta-catalog }
 
 <div class="grid cards" markdown>
 
 - :lucide-package-x:{ .lg }   
-  [__Exclude Product Sync__](../../../products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤){ title="Manage Product Tags" }       
+  [__Exclude Product Sync__](../../../products/categories-and-tags/manage-product-tags.md#operate-product-tags-exclude){ title="Manage Product Tags" }       
   If you don't want a specific product to sync to Meta, add "Gift" or "Exclude product feed" to its tags. The system excludes it automatically.
 
 - :lucide-rocket:{ .lg }   
@@ -164,7 +164,7 @@ After you create a catalog product set, you can create ads based on it:
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-meta-catalog }
 
 ??? quote "Which products can't be added to a catalog product set?"
 
@@ -173,7 +173,7 @@ After you create a catalog product set, you can create ads based on it:
 
 ??? quote "How long after a catalog product set is created does it sync to Meta?"
 
-    The system syncs automatically. If the change doesn't appear right away, go to "[Manually Update the Catalog](#手動更新目錄)" to force an update.
+    The system syncs automatically. If the change doesn't appear right away, go to "[Manually Update the Catalog](#specs-meta-catalog-overview-meta-catalog)" to force an update.
 
 ??? quote "How do I confirm that products have synced to the Meta catalog?"
 

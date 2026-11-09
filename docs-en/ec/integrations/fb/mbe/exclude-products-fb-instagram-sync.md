@@ -59,36 +59,36 @@ hide: []
 
 ![Exclude products from third-party uploads](../../../../assets/images/ec-商品-商品標籤-排除上傳至第三方.en.png){ .hero-page }
 
-## FB and IG Shop Product Exclusion Guide
+## FB and IG Shop Product Exclusion Guide { #overview-exclude-products }
 
 After you enable the Facebook (FB) and Instagram (IG) shop integration, the system continuously updates catalog information through the product feed URL. If you have products you do not want to display, follow the steps below to configure and adjust them.
 
 !!! info "System Update Time"
     Storefront product information usually syncs to the Facebook Shop automatically at **2:00 AM or 2:30 AM daily**. Content updated that day appears only after the sync is complete.
 
-## Prerequisites and Restrictions
+## Prerequisites and Restrictions { #prerequisites-exclude-products }
 
 - [x] Complete [Facebook and Instagram Shop Integration](setup-fb-instagram-shop.md){ title="Set Up Facebook and Instagram Shops" }.
 
-## Steps
+## Steps { #operate-exclude-products }
 
-### Exclude via Storefront Admin Tags <small>Automated</small>
+### Exclude via Storefront Admin Tags <small>Automated</small> { #operate-exclude-products-backend }
 
 If you have specific products (such as gifts or test products) that you do not want to sync to third-party platforms, the most direct method is to filter them with tags:
 
 <div class="grid cards" markdown>
 
-- :lucide-package-x:{ .lg } [__Set Up Product Exclusion Tags__](../../../products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤){ title="Manage Product Tags" }     
+- :lucide-package-x:{ .lg } [__Set Up Product Exclusion Tags__](../../../products/categories-and-tags/manage-product-tags.md#operate-product-tags-exclude){ title="Manage Product Tags" }     
 
 </div>
 
 ---
 
-### Adjust in Meta Business Suite <small>Manual Adjustment</small>
+### Adjust in Meta Business Suite <small>Manual Adjustment</small> { #operate-exclude-products-manage }
 
 If the integration is complete, you can also adjust visibility directly in the management interface of Meta Business Suite:
 
-#### Hide the Entire Shop
+#### Hide the Entire Shop { #operate-exclude-products-overview }
 
 1. Go to “[Meta Business Suite :lucide-external-link:](https://business.facebook.com/commerce)” and select the business account.
 2. Click **Settings** > **General**, and find the related shop under **Sales Channels**.
@@ -100,7 +100,7 @@ If the integration is complete, you can also adjust visibility directly in the m
 
 ---
 
-#### Hide Single or Partial Products
+#### Hide Single or Partial Products { #operate-exclude-products-product }
 
 === "Set from the Product Catalog"
 
@@ -127,7 +127,7 @@ If the integration is complete, you can also adjust visibility directly in the m
 
 !!! note "For more steps and details, see the Meta official documentation: [Manage Shop Products :lucide-external-link:](https://zh-tw.facebook.com/business/help/836266307249612)."
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-exclude-products }
 
 ??? quote "How do I exclude specific products from syncing to the shop?"
 

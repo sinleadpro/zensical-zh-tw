@@ -63,20 +63,20 @@ hide: []
 
 ![Meta Ad Settings-CYB Back Office](../../../../assets/images/ec-第三方整合-fb-meta廣告設定.en.png){ .hero-page }
 
-## About Creating a Meta Ad Account
+## About Creating a Meta Ad Account { #operate-meta-account }
 
 Create a Meta ad account through CYBERBIZ. The system can issue advertising fee invoices on the merchant's behalf and handle the payment, so you do not need to file overseas taxes with the National Taxation Bureau yourself.
 
-## Steps
+## Steps { #operate-meta-account-steps }
 
-### Create an Ad Account
+### Create an Ad Account { #operate-meta-account-steps-ads-account-create }
 
 !!! warning "Prerequisites"
     Before you create an ad account, make sure you have **Business Manager account and related asset permissions**. If you have not created one yet, first [register at Meta Business Manager](https://business.facebook.com/).
 
 1. **Admin path**: Go to the admin dashboard and click **"Third-Party Integrations"** > **"Facebook Settings (Ads/Registration Login)"** > **"Ad Account Settings"**.
 2. **Start the process**: Click **Get Started**.
-3. **Enter your Business Manager ID**: In the pop-up window, enter your [Business Manager ID](#查詢企業管理平台編號){ data-preview }.
+3. **Enter your Business Manager ID**: In the pop-up window, enter your [Business Manager ID](#operate-meta-account-steps-query-manage){ data-preview }.
 4. **Agree to the terms**: Read the terms, select "I have read", and click **I agree and continue** to finish creating the account.
 5. **Naming rule**: The system names the new ad account **"CYBERBIZ registered domain name_儲值"** by default.
 
@@ -84,12 +84,12 @@ Create a Meta ad account through CYBERBIZ. The system can issue advertising fee 
 
 ---
 
-### Share Ad Account Permissions
+### Share Ad Account Permissions { #operate-meta-account-steps-ads-account-perm }
 
 After you create the ad account, share operating permissions with the merchant's Business Manager:
 
 1. **Admin path**: **"Third-Party Integrations"** > **"Facebook Settings (Ads/Registration Login)"** > **"Ad Account Settings"**.
-2. **Share the account**: Click **Share Account ID**, then enter the [Business Manager ID](#查詢企業管理平台編號){ data-preview } you want to share with.
+2. **Share the account**: Click **Share Account ID**, then enter the [Business Manager ID](#operate-meta-account-steps-query-manage){ data-preview } you want to share with.
 
     ![Meta Ad Share Account ID](../../../../assets/images/ec-第三方整合-fb-meta廣告設定-分享帳號編號.en.png)
 
@@ -105,7 +105,7 @@ After you create the ad account, share operating permissions with the merchant's
 
 ---
 
-### Find Your Business Manager ID
+### Find Your Business Manager ID { #operate-meta-account-steps-query-manage }
 
 1. Log in to the [Business Manager settings page](https://business.facebook.com/latest/settings).
 2. Click **"Settings"** > **"Business Info"**.
@@ -117,7 +117,7 @@ After you create the ad account, share operating permissions with the merchant's
 
 ---
 
-### Pixel Setup <small>Pixel</small>
+### Pixel Setup <small>Pixel</small> { #operate-meta-account-steps-settings-pixel }
 
 To track consumer behavior, you need to manually link your existing pixel to the newly created ad account:
 
@@ -129,7 +129,7 @@ To track consumer behavior, you need to manually link your existing pixel to the
 
 ---
 
-### Top up Ad Funds
+### Top up Ad Funds { #operate-meta-account-steps-ads }
 
 !!! info "Top-Up Rules and Fee Calculation"
 
@@ -151,7 +151,7 @@ Merchants must top up funds in the admin dashboard before they can start running
 
 ![Meta Ad Top-Up](../../../../assets/images/ec-第三方整合-fb-廣告帳號設定-廣告費儲值.en.png)
 
-## Next Steps
+## Next Steps { #next-steps-meta-account }
 
 <div class="grid cards" markdown>
 
@@ -161,7 +161,7 @@ Merchants must top up funds in the admin dashboard before they can start running
 
 </div>
 
-## FAQ
+## FAQ { #faq-meta-account }
 
 ??? quote "Will ad budget expire after I top up?"
 
@@ -173,5 +173,5 @@ Merchants must top up funds in the admin dashboard before they can start running
 
 ??? quote "What should I do if my account was released?"
 
-    After an account is released, merchants need to [create a new ad account](#廣告帳號建立) and complete a top-up before they can use Meta ad delivery again.
+    After an account is released, merchants need to [create a new ad account](#operate-meta-account-steps-ads-account-create) and complete a top-up before they can use Meta ad delivery again.
 

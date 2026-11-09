@@ -161,7 +161,7 @@ Depending on the customer's payment method, make sure the order status meets the
 !!! warning "Special Characters in Vendor Names on 7-Eleven Shipping Labels"
 	Special characters in the vendor name on 7-Eleven shipping labels cause order creation to fail, so the system automatically converts them to "_" (transactions aren't affected). If special characters prevent the buyer from picking up the package, it's returned by home delivery and you're charged the return shipping fee.
 
-#### Regular Printing
+#### Regular Printing { #operate-cvs-c2c-print-standard }
 
 - Use A4 paper or label stickers, up to 4 labels per page (2x2 format).
 - [Example of commercial A4 label stickers :lucide-external-link:](https://shopee.tw/%E3%80%90A4%E3%80%91A4%E7%A9%BA%E7%99%BD%E8%B2%BC%E7%B4%99-2%C3%972-%E8%B2%BC%E7%B4%99-A6%E8%87%AA%E9%BB%8F%E6%A8%99%E7%B1%A4%E8%B2%BC%E7%B4%99-A4%E6%A8%A1%E9%80%A0%E8%B2%BC%E7%B4%99-%E9%9B%BB%E8%85%A6%E6%A8%99%E7%B1%A4%E8%B2%BC%E7%B4%99-%E5%8F%AF%E9%9B%B7%E5%B0%84-%E5%99%B4%E5%A2%A8-1%E5%8C%85100%E5%BC%B5-10%E5%8C%85%E5%85%8D%E9%81%8B-i.24728499.2550119685), for reference only.
@@ -171,7 +171,7 @@ Depending on the customer's payment method, make sure the order status meets the
 
 ---
 
-#### Thermal Printing <small>A6</small>
+#### Thermal Printing <small>A6</small> { #operate-cvs-c2c-print-thermal }
 
 - Supports 7-Eleven and FamilyMart C2C, and only from the "new order list." Learn [how to thermal print convenience store shipping labels](thermal-print-cvs-waybill.md){ title="Thermal Print Convenience Store Shipping Labels" }.
 
@@ -181,7 +181,7 @@ Depending on the customer's payment method, make sure the order status meets the
 
 ---
 
-#### Print at the Convenience Store
+#### Print at the Convenience Store { #operate-cvs-c2c-print-cvs }
 
 - Print the service slip at the store's kiosk (ibon / FamiPort).
 - You need the tracking number (Delivery Service code).

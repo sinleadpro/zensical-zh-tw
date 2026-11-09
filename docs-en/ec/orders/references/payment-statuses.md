@@ -50,7 +50,7 @@ icon: lucide/table
 hide:
 ---
 
-## Payment Statuses { #payment-statuses }
+## Payment Statuses { #reference-payment-statuses }
 
 | Payment Status | Description |
 | :-- | :-- |
@@ -78,7 +78,7 @@ hide:
 <!---->
 <!-- # Order Payment Status Reference -->
 <!---->
-<!-- ### Order Payment Status Reference { #payment-statuses } -->
+<!-- ### Order Payment Status Reference -->
 <!---->
 <!-- The payment status on the order details page and order list shows how payment stands for the order. The table below describes the statuses most related to handling failed payments: -->
 <!---->

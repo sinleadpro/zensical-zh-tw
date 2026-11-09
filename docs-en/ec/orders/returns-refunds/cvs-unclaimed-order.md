@@ -35,7 +35,7 @@ features:
   - 部分出貨退款
 prerequisites: []
 related:
-  - ec/orders/references/auto-refund-timeline/
+  - ec/orders/order-refund-process/
   - ec/orders/references/return-refund-status-reference/
   - ec/orders/tcat-quick-store/tcat-quick-store-overdue/
   - ec/orders/cvs-shipping/cvs-partial-shipment/
@@ -66,7 +66,7 @@ icon: lucide/package-x
 hide: []
 ---
 
-## About Unclaimed Convenience Store Orders
+## About Unclaimed Convenience Store Orders { #intro-cvs-unclaimed }
 
 When a customer doesn't pick up an order at a convenience store before the deadline, the convenience store system marks the order "Unclaimed." This article explains what the system changes automatically, the return process for each logistics type, and the manual refund steps you need to take.
 
@@ -128,7 +128,7 @@ CYBERBIZ sets the number of days before an order is considered unclaimed for eac
 Not all unclaimed orders are refunded automatically. All of the following must be met:
 
 - [x] **Payment status is "Payment Received"**: Statuses such as awaiting payment or Cash on Delivery aren't eligible for automatic refunds.
-- [x] **The payment method supports automatic card refunds**: For the full list of payment methods and refund time limits, see [Automatic Card Refund Time Limits](../references/auto-refund-timeline.md){ title="Automatic Card Refund Time Limits" data-preview }.
+- [x] **The payment method supports automatic card refunds**: For the full list of payment methods and refund time limits, see [Refund Methods and Operations](../order-refund-process/#specs-order-refund){ title="Refund Methods and Operations" data-preview }.
 - [x] **"No Automatic Refund for Unclaimed Convenience Store Orders" isn't enabled**: If you've enabled it, all unclaimed orders use manual refunds.
 - [x] **The whole order was shipped**: For partial shipments (part by convenience store, part by home delivery), unclaimed convenience store items don't trigger a refund right away; they're handled after you confirm.
 
@@ -261,8 +261,8 @@ If a package isn't returned to the logistics center or original sending store wi
   How delivery, return, and payment statuses change, and the conditions for automatic refunds.
 
 - :lucide-credit-card:{ .lg }  
-  [__Automatic Card Refund Time Limits__](../references/auto-refund-timeline.md){ title="Automatic Card Refund Time Limits" }  
-  The maximum number of days each payment provider supports automatic card refunds.
+  [__Refund Methods and Operations__](../order-refund-process.md){ title="Refund Methods and Operations" }  
+  Compare automatic system refunds and manual refunds for each payment method by plan, and see the refund steps.
 
 - :lucide-truck:{ .lg }  
   [__EZCAT Quick Store Delivery Overdue Rules__](../tcat-quick-store/tcat-quick-store-overdue.md){ title="EZCAT Quick Store Delivery Overdue Rules" }  
@@ -284,7 +284,7 @@ If a package isn't returned to the logistics center or original sending store wi
     [](){ #faq-overdue-cvs-orders-no-auto-refund }
     Possible reasons:
 
-    - The payment method isn't on the automatic card refund list (see [Automatic Card Refund Time Limits](../references/auto-refund-timeline.md){ title="Automatic Card Refund Time Limits" data-preview })
+    - The payment method isn't on the automatic card refund list (see [Refund Methods and Operations](../order-refund-process/#specs-order-refund){ data-preview })
     - You've enabled "No Automatic Refund for Unclaimed Convenience Store Orders"
     - The order was partially shipped, and only the first (convenience store) shipment is unclaimed
     - The order's payment status hasn't reached "Payment Received"
@@ -311,13 +311,6 @@ If a package isn't returned to the logistics center or original sending store wi
     After items are returned from the original sending store to the logistics warehouse and the warehouse sends them to you by freight-collect home delivery, if you **refuse** the package, some convenience stores' rules call for the goods to be "discarded," and they can't be recovered. Be sure to collect or accept the package as agreed after receiving the return notice.
 
 ---
-
-## References { #reference-overdue-cvs-orders }
-
-* [Return and Refund Statuses](../references/return-refund-status-reference.md){ title="Return and Refund Statuses (Unclaimed Convenience Store Orders)" }
-* [Automatic Card Refund Time Limits](../references/auto-refund-timeline.md){ title="Automatic Card Refund Time Limits" }
-* [EZCAT Quick Store Delivery Overdue Rules](../tcat-quick-store/tcat-quick-store-overdue.md){ title="EZCAT Quick Store Delivery Overdue Rules" }
-* [Partial Shipment Support by Logistics Type](../references/cvs-partial-shipping-support.md){ title="Convenience Store Partial Shipment Support" }
 
 [^fn-every-week]: "Weekly": Items returned during the week are packed into one box and returned to you the following week.
 [^fn-next-day]: "Next Day": Items returned on a day are packed into one box and returned to you the next day.

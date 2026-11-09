@@ -50,7 +50,7 @@ hide:
   
 This table lists the product sort orders available in Conditionalized Collections. The sort order decides the order in which matching products appear on the storefront category page.
 
-## Product Sort Order Reference { #smart-collections-sort-orders }
+## Product Sort Order Reference { #reference-smart-collections-sort }
 
 | Sort Order | Product Order on the Storefront |
 | :-- | :-- |

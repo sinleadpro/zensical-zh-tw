@@ -65,7 +65,7 @@ The Japan site offers localized payment solutions, including mainstream credit c
 [:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | Pro / Business
 { .doc-badge }
 
-## Payment Option Details
+## Payment Option Details { #intro-jp-payments }
 
 | Payment Method | Supported Types | Fee Rate | Minimum Checkout Amount |
 | :--- | :--- | :--- | :--- |
@@ -77,7 +77,7 @@ The Japan site offers localized payment solutions, including mainstream credit c
 - **Minimum checkout amount**: The system applies a preset minimum checkout amount, so merchants do not need to configure it. An order must meet this amount before the checkout page displays the matching payment options.
 
 
-## Step 1: Credit Card Payment Setup
+## Step 1: Credit Card Payment Setup { #operate-jp-payments-card }
 
 Go to **Payment and Logistics > Payment Settings**. Click :lucide-file-pen-line: **Settings** to the right of **CYBERBIZ PAYMENTS**.
 
@@ -89,7 +89,7 @@ Go to **Payment and Logistics > Payment Settings**. Click :lucide-file-pen-line:
 
 ![](../../assets/images/日本站-後台-金物流-金流設定-設定信用卡01.en.png)
 
-## Step 2: Pay-Easy Payment Setup
+## Step 2: Pay-Easy Payment Setup { #operate-jp-payments-payeasy }
 
 Go to **Payment and Logistics > Payment Settings**. Click :lucide-file-pen-line: **Settings** to the right of Pay-Easy.
 

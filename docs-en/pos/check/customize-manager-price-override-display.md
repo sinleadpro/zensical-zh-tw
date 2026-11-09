@@ -65,25 +65,25 @@ hide:
 
 ![Template editor screen](../../assets/images/ec-customers-order-liquid-hero.en.png){ title="Template editor screen" .hero-page }
 
-## Change the Manager Price Override Name
+## Change the Manager Price Override Name { #specs-manager-price-ui }
 
 The POS system supports the "Manager Price Override" feature, but consumers also see this discount detail when they look up orders online. **To prevent consumers from misunderstanding that manager permissions are high and demanding a discount, merchants can change the storefront display name by modifying the code (for example, to "Product Price Override").**
 
-## Prerequisites and Limitations
+## Prerequisites and Limitations { #prerequisites-manager-price-ui }
 
 -   **Responsibility**: CYBERBIZ provides public template code for merchants to modify on their own, but **does not provide syntax tutorials beyond this document or code writing services**. We recommend engaging a professional engineer.
--   **Recovery**: The template editor includes a "**View Previous Versions**" feature. [Revert to a previous version](../../ec/website-appearance/code-customization/restore-code-theme-editor.md#操作步驟){ title="Restore page code with the template editor " }.
+-   **Recovery**: The template editor includes a "**View Previous Versions**" feature. [Revert to a previous version](../../ec/website-appearance/code-customization/restore-code-theme-editor.md#operate-restore-theme){ title="Restore page code with the template editor " }.
 
-## Steps
+## Steps { #operate-manager-price-ui }
 
-### Change the Path and File
+### Change the Path and File { #operate-manager-price-ui-edit }
 
 1.  **Access the back office**: Go to **Website Appearance > Theme Setting > CSS/HTML Editor**.
 2.  **Open the file**: In the editor, search for and click the **`customers/order.liquid`** file.
 
 ---
 
-###  Change the Code Syntax
+### Change the Code Syntax { #operate-manager-price-ui-section-f }
 
 1. Find the syntax that displays the original name in the file:`<div class="text">{{type.name}}</div>`
 
@@ -120,7 +120,7 @@ The POS system supports the "Manager Price Override" feature, but consumers also
 
 ---
 
-## Result After the Change
+## Result After the Change { #operate-after-change }
 
 1.  **Save the settings**: After the change is complete, click **Save**.
 2.  **Storefront display**: When a consumer views order details through the "Order Lookup" page on the storefront, the original "Manager Price Override" discount item will be renamed to "**Product Price Override**".
@@ -128,7 +128,7 @@ The POS system supports the "Manager Price Override" feature, but consumers also
 ![Storefront display after change](../../assets/images/pos-manager-price-override-frontend-result.en.png){ title="Storefront display after change" }
 
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-manager-price-ui }
 
 ??? quote "What should I do if the storefront name does not change after the change?"
 

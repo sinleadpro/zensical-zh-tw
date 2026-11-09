@@ -77,20 +77,20 @@ hide:
 [:lucide-layers:{ title="Applicable Products" }](../../../resources/conventions#適用產品) | Smart POS
 { .doc-badge }
 
-## LINE Member Barcode Display Overview
+## LINE Member Barcode Display Overview { #specs-line-member }
 
 **LINE Member Barcode Display** is designed to improve the in-store checkout experience. Customers only need to show the member barcode from their LINE Official Account at the store, and staff can scan it with the POS terminal to verify the member and then apply bonus points or coupon redemption.
 
-## Prerequisites and Restrictions
+## Prerequisites and Restrictions { #prerequisites-line-member }
 
 - **Applicable Merchants**: This feature is available only to merchants who use the **CYBERBIZ POS System**.
 - **Prerequisite Setup**:
     - [x] Merchants must first complete the [LINE Messaging API Integration](../../../ec/integrations/line/account-integration/connect-line-messaging-api.md){ title="LINE Messaging API Integration" }, and set up the [LINE Rich Menu](../../../ec/integrations/line/marketing/setup-line-rich-menu.md){ title="Set Up the LINE Rich Menu" }.
     - [x] We recommend guiding customers to first complete [Link LINE Official Account to Website Member](../../../ec/integrations/line/account-integration/bind-line-oa-store-members.md){ title="Link LINE Official Account and Website Member" } so that member data is loaded directly after scanning.
 
-## Operation Steps
+## Operation Steps { #operate-line-member }
 
-### Back-End Setup Steps <small>Configure the Rich Menu</small>
+### Back-End Setup Steps <small>Configure the Rich Menu</small> { #operate-line-member-admin-settings }
 
 To let consumers display their member barcode, the merchant must create a matching link in the LINE Official Account rich menu:
 
@@ -104,9 +104,9 @@ To let consumers display their member barcode, the merchant must create a matchi
 
 ---
 
-### Front-End Operation Flow
+### Front-End Operation Flow { #operate-line-member-frontend-operation-flow }
 
-#### Customer-Side Operation
+#### Customer-Side Operation { #operate-line-member-customer-operation }
 
 - When consumers check out in store, they open the brand's LINE Official Account.
 - Tap **My Member Card** in the rich menu, and the phone screen displays the **Member Barcode** and number.
@@ -115,7 +115,7 @@ To let consumers display their member barcode, the merchant must create a matchi
 
 ---
 
-#### Staff-Side Operation <small>POS Terminal</small>
+#### Staff-Side Operation <small>POS Terminal</small> { #operate-line-member-staff-operation-pos }
 
 1. Staff log in to the POS front end and click the **Checkout** key.
 2. On the member login screen, scan the consumer's phone barcode with the barcode scanner, or manually enter the barcode number to log in.
@@ -123,7 +123,7 @@ To let consumers display their member barcode, the merchant must create a matchi
 
 ![POS checkout screen](../../../assets/images/pos-結帳.en.png){ title="POS checkout screen" }
 
-## Bonus and Coupon Redemption Methods
+## Bonus and Coupon Redemption Methods { #intro-line-member }
 
 After all checkout products are scanned, redeem based on how the member logged in:
 
@@ -132,7 +132,7 @@ After all checkout products are scanned, redeem based on how the member logged i
 
 ![bonus redemption screen](../../../assets/images/pos-紅利折抵.en.png){ title="bonus redemption screen" }
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-line-member }
 
 ??? quote "Why can't the in-store barcode scanner read the member barcode?"
 	If a scan fails, check the following troubleshooting steps in order:

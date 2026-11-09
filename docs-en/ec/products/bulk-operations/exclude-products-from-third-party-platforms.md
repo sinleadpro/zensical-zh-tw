@@ -74,7 +74,7 @@ CYBERBIZ automatically syncs product data to third-party sales and advertising p
     - Contract or licensing restrictions that prevent some products from appearing on certain platforms.
     - Keeping specific products from using up your ad budget.
 
-## Platforms Covered by Exclusion Tags
+## Platforms Covered by Exclusion Tags { #intro-exclude-platforms }
 
 After a product is given an exclusion tag, the system does not upload its data to the following third-party platforms:
 
@@ -83,7 +83,7 @@ After a product is given an exclusion tag, the system does not upload its data t
 - [x] LINE Shopping
 - [x] Market America (`贈品` tag only)
 
-## Steps
+## Steps { #operate-exclude-platforms }
 	
 You can exclude a product from third-party platform uploads by adding a specific tag to it:
 
@@ -101,7 +101,7 @@ You can exclude a product from third-party platform uploads by adding a specific
 
 ![Product exclusion tag](../../../assets/images/ec-商品編輯頁-設定-商品標籤.en.png)
 
-## FAQ
+## FAQ { #faq-exclude-platforms }
 
 ??? quote "What happens if I set both the `排除product feed` and `贈品` tags?"
     If you set both tags, the system applies the `贈品` tag rule first, so the product is not uploaded to any supported third-party platform.
@@ -111,7 +111,7 @@ You can exclude a product from third-party platform uploads by adding a specific
 
 [^exclude-examples]: For example, gifts, internal test products, or products that must not be shown publicly due to contract restrictions.
 
-## Next Steps
+## Next Steps { #next-steps-exclude-platforms }
 
 <div class="grid cards" markdown>
 

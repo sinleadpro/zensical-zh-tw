@@ -70,13 +70,13 @@ hide: []
 
 ![LINE OA friend request settings page](../../assets/images/ec-訊息推播-line oa 加入好友邀請.png){ .hero-page }
 
-## About LINE Friend Requests
+## About LINE Friend Requests { #intro-line-add-friend }
 
 **LINE friend requests** let you reach out to members who haven't linked your LINE Official Account, sending friend invitations by **SMS** or **email**. This guides members to add you as a friend and link their accounts, growing your friend count and member engagement.
 
 Here's how it works:
 
-## Requirements And Scope
+## Requirements And Scope { #prerequisites-line-add-friend }
 
 - **Plans:** This feature is mainly for **Enterprise** customers.
 
@@ -86,7 +86,7 @@ Here's how it works:
 
 	- **Email invitations:** Sent to members who have an email address and haven't linked LINE OA.
 
-## Step 1: Get Your LINE Official Account Friend Link {#get-line-oa-add-friend-link}
+## Step 1: Get Your LINE Official Account Friend Link {#operate-line-add-friend}
 
 Before you set up the message, get your link from the LINE Official Account admin:
 
@@ -98,7 +98,7 @@ Before you set up the message, get your link from the LINE Official Account admi
 
 ![](../../assets/images/ec-訊息推播-line 加入好友網址.png)
 
-## Step 2: Add A Message In The CYBERBIZ Admin
+## Step 2: Add A Message In The CYBERBIZ Admin { #operate-line-add-friend-message }
 
 1. In the CYBERBIZ admin, go to **Push Notifications > LINE OA Friend Requests**.
 
@@ -114,7 +114,7 @@ Before you set up the message, get your link from the LINE Official Account admi
 
 ![](../../assets/images/ec-訊息推播-line oa 加入好友邀請-建立好友邀請訊息.png)
 
-## Step 3: Check And Send
+## Step 3: Check And Send { #operate-line-add-friend-send }
 
 1. **Check the length (SMS):** The character count appears at the bottom right of the SMS template. Domestic SMS messages are limited to **70 characters** each (including spaces, line breaks, punctuation, and links). Longer messages are split into several.
 
@@ -130,7 +130,7 @@ Before you set up the message, get your link from the LINE Official Account admi
 
 ![](../../assets/images/ec-訊息推播-line oa 加入好友邀請-立即傳送.png)
 
-## What Members See
+## What Members See { #intro-line-add-friend-member-view }
 
 === "SMS"
 
@@ -140,7 +140,7 @@ Before you set up the message, get your link from the LINE Official Account admi
 
 	![](../../assets/images/ec-訊息推播-line oa 加入好友邀請-email.png)
 
-## Next Steps
+## Next Steps { #next-steps-line-add-friend }
 
 Pair this with **LINE linking coupon rewards**. Mentioning "add us as a friend and link your account to get a reward" in your invitation can noticeably raise conversions.
 
@@ -153,7 +153,7 @@ Pair this with **LINE linking coupon rewards**. Mentioning "add us as a friend a
 </div>
 
 
-## FAQ
+## FAQ { #faq-line-add-friend }
 
 ??? quote "After I send friend requests, how does the system know a member has linked?"
 	The system checks the link between website member data and LINE UIDs in real time. Once a member clicks the link, authorizes LINE, and links their website account, they're removed from the "to invite" list so they don't get the invitation again.

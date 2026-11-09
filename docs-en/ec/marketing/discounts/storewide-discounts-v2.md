@@ -79,7 +79,7 @@ Apply one Discount to every product in the store. This promotion supports both E
 !!! tip "New Interface"
     **Store-wide Discounts** has a new interface, currently available only on the **Enterprise** plan. It will roll out to other plans over time.
 
-## Store-wide Discounts Specs
+## Store-wide Discounts Specs { #specs-discount }
 
 A store-wide promotion is a specific promotion in the marketing module. Once set up, it applies one Discount to **every product in the store**.
 
@@ -93,15 +93,15 @@ This promotion supports both EC and POS. The channels you can choose depend on y
 | **EC + POS** | 可指定活動通路<br>- **Online**：僅限官方購物網站使用<br>- **Offline**：僅限實體門市 POS 端使用<br>- **All channels**: The offer is active online and offline at the same time |
 
 
-## Manage The List
+## Manage The List { #operate-discount }
 
-### Search
+### Search { #operate-discount-intro-details }
 
 Go to **Marketing > Shop-wide Discount** to search for a promotion by name.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-搜尋01.png){ .screenshot }
 
-### Filter
+### Filter { #operate-discount-details }
 
 You can filter promotions by:
 
@@ -114,7 +114,7 @@ You can filter promotions by:
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-篩選01.png){ .screenshot }
 
-### Customize List Columns
+### Customize List Columns { #operate-discount-fields }
 
 You can adjust the list columns and their order to suit how you work.
 
@@ -133,9 +133,9 @@ You can adjust the list columns and their order to suit how you work.
     </div>
 
 
-## Create Store-wide Discounts
+## Create Store-wide Discounts { #operate-discount-create-discount }
 
-### Step 1: Fill In Basic Settings
+### Step 1: Fill In Basic Settings { #operate-discount-create-discount-settings }
 
 Go to **Marketing > Shop-wide Discount** and fill in these fields:
 
@@ -145,7 +145,7 @@ Go to **Marketing > Shop-wide Discount** and fill in these fields:
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-基本設定01.png){ .screenshot }
 
-### Step 2: Fill In Discount Settings
+### Step 2: Fill In Discount Settings { #operate-discount-create-discount-details }
 
 Set the fields for the **Discount Type** you chose:
 
@@ -178,7 +178,7 @@ Set the fields for the **Discount Type** you chose:
 
 
 
-## Edit Store-wide Discounts
+## Edit Store-wide Discounts { #operate-discount-edit-discount }
 
 You can edit promotions you've created. What you can edit depends on the **promotion Status**:
 
@@ -198,7 +198,7 @@ Click a promotion name to open the edit page. Before making changes, check the p
 - `註二`: This field is editable only when the Discount Type is **coupon**.
 
 
-## View Edit History
+## View Edit History { #operate-discount-view-edit }
 
 You can see the edit history at the bottom of the promotion edit page. Whether a record is created depends on the promotion Status:
 
@@ -212,7 +212,7 @@ Changes to scheduled promotions aren't recorded. Changes to active promotions ar
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-行銷活動-全館折扣-編輯紀錄01.png){ .screenshot }
 
 
-## Remaining Amount Reminder At Checkout
+## Remaining Amount Reminder At Checkout { #intro-discount }
 
 !!! info "Before You Start"
     - **Plan**: This feature is available only on the **Enterprise** plan.

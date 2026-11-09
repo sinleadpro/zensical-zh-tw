@@ -199,7 +199,7 @@ Sets the number of days customers can request a return from the storefront membe
 3. **(Optional) Turn on partial returns on the storefront:** If you have activated the corresponding feature, check **"Turn On Partial Returns on the Storefront"** to let customers select the items they want to return on the return request page.
 4. **Finish:** Click **Save**.
 
-For the default return periods and calculation start points for each shipping method, see [Storefront Return Period Reference](../references/return-eligible-days-reference.md#return-eligible-days){ data-preview }.
+For the default return periods and calculation start points for each shipping method, see [Storefront Return Period Reference](../references/return-eligible-days-reference.md#specs-return-eligible-days){ data-preview }.
 
 [^return-zero]: Entering 0 means consumers cannot request returns on the storefront. Leaving the field blank uses the system default number of days.
 
@@ -230,7 +230,7 @@ For the default return periods and calculation start points for each shipping me
 
 ??? quote "What does entering 0 for return days mean?"
     [](){ #faq-logistics-settings-return-zero }
-    Entering 0 means **do not allow** customers to request returns on the storefront. To use the system default days, **leave the field blank** (CYBERBIZ home delivery / CVS pickup default is 10 days; other shipping methods default to 14 days). See [Storefront Return Period Reference](../references/return-eligible-days-reference.md#return-eligible-days){ data-preview }.
+    Entering 0 means **do not allow** customers to request returns on the storefront. To use the system default days, **leave the field blank** (CYBERBIZ home delivery / CVS pickup default is 10 days; other shipping methods default to 14 days). See [Storefront Return Period Reference](../references/return-eligible-days-reference.md#specs-return-eligible-days){ data-preview }.
 
 ??? quote "Can't find "Delivery Date Required" or "Set Specific No-Ship Dates"?"
     [](){ #faq-logistics-settings-advanced-date-missing }

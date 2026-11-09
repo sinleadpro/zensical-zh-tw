@@ -69,7 +69,7 @@ hide: []
 
 ![Order details print settings](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-hero.en.png){ title="Order Details Print Settings" .hero-page }
 
-## About Order Details
+## About Order Details { #intro-order-print }
 
 "Order details" are the printed document you include with a package for the customer when shipping. They usually include item details, orderer information, payment method, and order amount.
 
@@ -89,11 +89,11 @@ To set up the "packing slip" for internal shipping staff, see [Set Up and Print 
     *   **Order details (customer)**: Usually include full item details, unit prices, amounts, and delivery method.
     *   **Packing slip (staff)**: Mainly for warehouse or shipping staff. Usually includes only item quantities and the delivery address, **without the order amount**, to keep it simple and save costs.
 
-## Steps
+## Steps { #operate-order-print-steps }
 
-### Set Up Order Details Content { #orders-print }
+### Set Up Order Details Content { #operate-order-print-settings }
 
-#### 1. Open Order Details Print Settings { #orders-print-activate }
+#### 1. Open Order Details Print Settings { #operate-order-print-enter }
 
 In the admin sidebar, follow the path for your menu version:
 
@@ -102,9 +102,9 @@ In the admin sidebar, follow the path for your menu version:
 
 ---
 
-#### 2. Select Items to Show { #orders-print-configure }
+#### 2. Select Items to Show { #operate-order-print-configure }
 
-The panel has several checkboxes you can combine as needed (all are cleared by default). [Full field reference](#orders-print-fields){ data-preview }
+The panel has several checkboxes you can combine as needed (all are cleared by default). [Full field reference](#reference-order-print-fields){ data-preview }
 
 ![Order details print settings](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-configure.en.png){ title="Order Details Print Settings" }
 
@@ -121,9 +121,9 @@ The panel has several checkboxes you can combine as needed (all are cleared by d
 
 ---
 
-#### 3. Set Header Reminder Text and Image <small>Optional</small>
+#### 3. Set Header Reminder Text and Image <small>Optional</small> { #operate-order-print-header-media }
 
-After you select **"Header Reminder Text,"** you must enter a "Title" and "Content" on the advanced settings page in [Step 5](#orders-print-advanced-settings-alert-text), or you can't save.
+After you select **"Header Reminder Text,"** you must enter a "Title" and "Content" on the advanced settings page in [Step 5](#operate-order-print-alert), or you can't save.
 
 !!! example "Use Cases"
 
@@ -151,7 +151,7 @@ You can upload an image below the main panel:
 
 ---
 
-#### 4. Save Settings
+#### 4. Save Settings { #operate-order-print-save }
 
 Click **Save** at the bottom of the settings section to finish basic setup.
 
@@ -161,17 +161,17 @@ Click **Save** at the bottom of the settings section to finish basic setup.
 
 ---
 
-#### 5. Advanced Settings { #orders-print-advanced-settings }
+#### 5. Advanced Settings { #operate-order-print-advanced }
 
 Click **Advanced Setup** at the bottom of the settings section to open the **"Edit Order Details Print Template"** page.
 
 ![Order details settings - advanced settings](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-進階設定按鈕.en.png){ title="Order Details Settings - Advanced Settings" }
 
-On this page, you can [edit reminder text](#orders-print-advanced-settings-alert-text), [customize the template](#orders-print-template), [preview the printout](#orders-print-preview), and [restore the default template](#orders-print-templates-revert).
+On this page, you can [edit reminder text](#operate-order-print-alert), [customize the template](#operate-order-print-template), [preview the printout](#operate-order-print-preview), and [restore the default template](#operate-order-print-revert).
 
 ---
 
-##### Edit Header Reminder Text { #orders-print-advanced-settings-alert-text }
+##### Edit Header Reminder Text { #operate-order-print-alert }
 
 If you selected "Header Reminder Text" in Step 2, this page shows:
 
@@ -184,7 +184,7 @@ Both fields are required.
 
 ---
 
-##### Customize the Template { #orders-print-template }
+##### Customize the Template { #operate-order-print-template }
 
 The "Template" section is Liquid code. You can adjust:
 
@@ -197,11 +197,11 @@ In most cases, we recommend the default template. For major customization, get h
 
 ![Order details advanced settings - template](../../../assets/images/EC-金物流-結帳頁物流設定-列印訂單明細-進階設定-樣板.en.png){ title="Order Details Advanced Settings - Template" }
 
-!!! note "[Preview](#orders-print-preview) before saving (requires at least one "Shipped" order)."
+!!! note "[Preview](#operate-order-print-preview) before saving (requires at least one "Shipped" order)."
 
 ---
 
-##### Preview the Printout { #orders-print-preview }
+##### Preview the Printout { #operate-order-print-preview }
 
 After you click **"Order Details Preview"**:
 
@@ -224,7 +224,7 @@ You can preview the actual printout directly.
 
 ---
 
-##### Restore the Default Template { #orders-print-templates-revert }
+##### Restore the Default Template { #operate-order-print-revert }
 
 To restore the template, click **"Restore Default Template"** to return to the system default version.
 
@@ -234,9 +234,9 @@ To restore the template, click **"Restore Default Template"** to return to the s
 
 ---
 
-### Print Order Details { #orders-print-operate }
+### Print Order Details { #operate-order-print }
 
-After you finish [setting up order details content](#orders-print), you can print from the order list:
+After you finish [setting up order details content](#operate-order-print-settings), you can print from the order list:
 
 
 1. **Go to the order list**: Sign in to the CYBERBIZ admin and go to "Orders" > "All Orders."
@@ -248,11 +248,11 @@ After you finish [setting up order details content](#orders-print), you can prin
 
 ![Order list - print order details](../../../assets/images/EC-訂單-所有訂單-更多操作-列印訂單明細.en.png){ title="Order List - Print Order Details" }
 
-!!! note "When you run "Confirm Shipment" and download shipping labels, the system-generated [archive](#orders-print-fulfillment-zip) also includes the order details for that order automatically."
+!!! note "When you run "Confirm Shipment" and download shipping labels, the system-generated [archive](#overview-order-print-fulfillment) also includes the order details for that order automatically."
 
 ---
 
-## Order Details in the Shipping Archive { #orders-print-fulfillment-zip }
+## Order Details in the Shipping Archive { #overview-order-print-fulfillment }
 
 When you run **"Confirm Shipment"** in the order list and download shipping data, the archive the system generates automatically includes:
 
@@ -276,7 +276,7 @@ The order details use the following settings from this page:
 <!---->
 <!-- </div> -->
 
-## FAQ
+## FAQ { #faq-order-print }
 
 ??? quote "Why does the printout still show the old layout after I click save?"
 
@@ -297,9 +297,9 @@ The order details use the following settings from this page:
     - **Order details**: For customers; usually include amounts and payment information
     - **Packing slip**: For internal shipping staff; usually without amounts
 
-## References
+## References { #reference-order-print }
 
-### Order Details Field Reference { #orders-print-fields }
+### Order Details Field Reference { #reference-order-print-fields }
 
 | Option | Printed Result | Use Case |
 | :-- | :-- | :-- |
@@ -321,7 +321,7 @@ The order details use the following settings from this page:
     - Options only "add" content to the printout. Cleared fields aren't printed, but the original data is still stored.
     - After you select "Header Reminder Text," you must enter a title and content on the advanced settings page, or you can't save.
 
-## More Actions
+## More Actions { #next-steps-order-print }
 
 <div class="grid cards" markdown>
 

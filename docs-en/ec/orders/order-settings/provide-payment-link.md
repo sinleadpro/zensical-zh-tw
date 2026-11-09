@@ -77,7 +77,7 @@ hide:
 
 ![Payment link location](../../../assets/images/ec-訂單明細-付款連結.en.png){ title="Payment Link Location" .hero-page }
 
-## About Payment Links
+## About Payment Links { #intro-payment-link }
 
 When a customer doesn't pay right away when ordering, or payment fails because of a credit card authorization failure or similar, you can send a payment link so the customer can pay again without canceling and placing a new order.
 
@@ -86,7 +86,7 @@ When a customer doesn't pay right away when ordering, or payment fails because o
     - **Failed payments**: When the order status shows "Payment Failed," send this link so the customer can try paying again.
     - **Expired convenience store barcodes**: If the order was automatically canceled for "Payment Timeout," or the barcode expired because of the automatic update every 3 hours, send the link again so the customer can get a new barcode.
 
-## Prerequisites and Limitations
+## Prerequisites and Limitations { #prerequisites-payment-link }
 
 - [x] **Order editing limits**:
 
@@ -97,7 +97,7 @@ When a customer doesn't pay right away when ordering, or payment fails because o
 - [x] **Link validity**: If you set a number of days for automatic order cancellation (such as canceling orders unpaid after 3 days), the payment link stops working after the system cancels the order.
 
 
-## Get the Payment Link
+## Get the Payment Link { #operate-payment-link-paths }
 
 1. Sign in to the CYBERBIZ admin and go to **Orders > All Orders** from the left menu.
 2. Click the order number to open the **order details page**.
@@ -106,7 +106,7 @@ When a customer doesn't pay right away when ordering, or payment fails because o
 
 ![Payment link process](../../../assets/images/ec-訂單-付款連結頁面.en.gif){ title="Payment Link Process" }
 
-## Payment Methods Supported by Payment Links
+## Payment Methods Supported by Payment Links { #specs-payment-link-methods }
 
 The link opens a checkout page for that order, where customers can pay with:
 
@@ -117,7 +117,7 @@ The link opens a checkout page for that order, where customers can pay with:
 - **Convenience store barcode payment**: If you turned on this feature, customers can get a barcode on the link page and pay at 7-Eleven or FamilyMart.
 
 
-## Related Tasks
+## Related Tasks { #next-steps-payment-link }
 
 <div class="grid cards" markdown>
 
@@ -131,7 +131,7 @@ The link opens a checkout page for that order, where customers can pay with:
 
 </div>
 
-## FAQ
+## FAQ { #faq-payment-link }
 
 ??? quote "Can a payment link be reused?"
 

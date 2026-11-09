@@ -82,9 +82,9 @@ hide:
 
 Adding videos to product pages makes product displays more visually appealing, and customers can watch them directly on the product page and in pop-ups. This document explains how to upload product videos, set where they appear in pop-ups, and manage all video files in the Media Gallery.
 
-## Prerequisites and Limits
+## Prerequisites and Limits { #prerequisites-product-video }
 
-### Scope
+### Scope { #prerequisites-product-video-scope }
 
 === "Supported"
 	| Section/Page       | Video Supported |
@@ -106,7 +106,7 @@ Adding videos to product pages makes product displays more visually appealing, a
 
 ---
 
-### Video Specifications
+### Video Specifications { #prerequisites-product-video-specs }
 
 To make sure videos upload, process, and play correctly on the storefront, follow these technical specifications:
 
@@ -117,16 +117,16 @@ To make sure videos upload, process, and play correctly on the storefront, follo
 - **File size**: Up to 30 MB. Loading speed depends on the user's network, so compress files as much as possible within the specifications.
 - **Audio**: Audio output is not currently supported. Uploaded videos play muted.
 
-## Steps
+## Steps { #operate-product-video }
 
-### Upload Product Videos
+### Upload Product Videos { #operate-product-video-upload }
 
 === "Upload a Video When Adding a Product"
 
 	1. Log in to the CYBERBIZ admin and go to **Products > All Products > Add Product**.
 	2. In the product video section, click **Upload** and select a video file from your computer.
 	3. After checking the video and product information, click **Save**. The system processes the video upload. Wait for it to finish.
-	4. Uploaded videos can be managed centrally in [Media Gallery video management](#media).
+	4. Uploaded videos can be managed centrally in [Media Gallery video management](#operate-product-videos).
 
 === "Add a Video to an Existing Product"
 
@@ -135,11 +135,11 @@ To make sure videos upload, process, and play correctly on the storefront, follo
 	3. In the product video section, click **Upload** and select a video file from your computer. If you have uploaded videos before, you can click **Select a video from the Media Gallery** instead.
 	4. After checking the video, click **Save**. The system processes the video upload. Wait for it to finish.
 
-!!! tip "After a video is uploaded, you can choose **Select a video from the [Media Gallery](#media)** when editing a product page to add it to the product directly."
+!!! tip "After a video is uploaded, you can choose **Select a video from the [Media Gallery](#operate-product-videos)** when editing a product page to add it to the product directly."
 
 ---
 
-### Video Pop-Up Display Settings
+### Video Pop-Up Display Settings { #operate-product-video-popup }
 
 Set where videos appear in product pop-ups for all products to improve the storefront display.
 
@@ -152,7 +152,7 @@ Set where videos appear in product pop-ups for all products to improve the store
 
 ---
 
-### Media Gallery Video Management { #media }
+### Media Gallery Video Management { #operate-product-videos }
 
 1. Log in to the CYBERBIZ admin and go to **Products > Media Gallery**.
 2. Manage all video files in one place. You can **search videos :lucide-search:**, **delete videos :lucide-trash-2:**, and **Upload Video**.
@@ -160,12 +160,12 @@ Set where videos appear in product pop-ups for all products to improve the store
 ![Media Gallery video management](../../../assets/images/ec-product-media-gallery.zh-tw.en.png){ title="Media Gallery Video Management" }
 
 
-## Next Steps
+## Next Steps { #next-steps-product-video }
 
 <div class="grid cards" markdown>
 
 - :lucide-settings-2:{ .lg }  
-  [__Global Settings__](../../website-appearance/theme-and-layout/setup-global-theme-settings.md#product-display-layout){ title="Global Settings" }  
+  [__Global Settings__](../../website-appearance/theme-and-layout/setup-global-theme-settings.md#operate-global-settings-product-layout){ title="Global Settings" }  
   Go to the global settings to adjust the order in which product videos appear in pop-ups
 
 - :lucide-video:{ .lg }  
@@ -174,7 +174,7 @@ Set where videos appear in product pop-ups for all products to improve the store
 
 </div>
 
-## FAQ
+## FAQ { #faq-product-video }
 ??? quote "Why don't my product videos have sound?"
     Product videos do not currently support audio output, so videos play muted.
 

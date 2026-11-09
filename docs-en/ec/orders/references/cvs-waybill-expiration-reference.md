@@ -68,7 +68,7 @@ The table below lists the shipping label validity for each convenience store car
 | C2C | FamilyMart (ambient / frozen) | D+7 days | D+7 days |
 | C2C | Hi-Life | D+7 days | D+7 days |
 
-## Related Tasks
+## Related Tasks { #next-steps-cvs-label-expiry }
 
 
 <div class="grid cards" markdown>

@@ -82,7 +82,7 @@ Create specified or optional combo products and set their sub-products, prices, 
 
 ![Add a combo product](../../../assets/images/ec-create-new-product-combo.zh-tw.en.png){ title="Add a Combo Product: Products > Add Combo Product" .hero-page }
 
-## About Combo Products
+## About Combo Products { #intro-combo-products }
 
 === "Standard, PLUS"
 
@@ -113,11 +113,11 @@ Create specified or optional combo products and set their sub-products, prices, 
 			2.  **Section 2 (optional)**: Any 2 items from the accessory pool (screen protector, keyboard, stylus, and so on).
     	- **How customers buy**: Customers who buy this bundle always get a tablet and an official protective case (the must-buy combo), and can freely choose the accessories.
 
-## Combo Product Limits
+## Combo Product Limits { #prerequisites-combo-products }
 
 Combo products have the following limits in the system:
 
-### Conditionally Supported Attributes
+### Conditionally Supported Attributes { #prerequisites-combo-products-attrs }
 
 - **Admin product tags**
 
@@ -144,7 +144,7 @@ Combo products have the following limits in the system:
         ![](../../../assets/images/EC-後台-商品-組合商品-綁定商品標籤01.en.png)
 
 
-### Unsupported Attributes
+### Unsupported Attributes { #prerequisites-combo-products-unsupported }
     
 - Product type, product vendor  
 - Google product category
@@ -152,16 +152,16 @@ Combo products have the following limits in the system:
 - Fast delivery  
 - Related product collections
         
-### Bulk Operation Limits
+### Bulk Operation Limits { #prerequisites-combo-products-batch }
     
 - Bulk adding or bulk editing combo products isn't supported yet
         
-### Weight Calculation
+### Weight Calculation { #specs-combo-products-weight }
     
 - Combo products don't include sub-product weights; the system always treats them as 0 kg
 - The checkout page checks against logistics volume limits
 
-### Marketing Campaigns for Combo Products
+### Marketing Campaigns for Combo Products { #specs-combo-products-campaigns }
 
 The following tables list the marketing campaigns combo products can take part in and their limits:
 
@@ -202,11 +202,11 @@ The following tables list the marketing campaigns combo products can take part i
 	| Optional combo products | | :material-close: |
 
 
-## Add a Combo Product
+## Add a Combo Product { #operate-combo-products }
 
 With combo products, you can package multiple sub-products for sale to increase sales flexibility and promotion efficiency.
 
-### Step 1: Go to Combo Product Management
+### Step 1: Go to Combo Product Management { #operate-combo-products-enter }
 
 1. Sign in to the CYBERBIZ admin and go to **Products > Product Combo**.
 2. Click **Create New Combo Product**.
@@ -215,7 +215,7 @@ With combo products, you can package multiple sub-products for sale to increase 
 
 
 
-### Step 2: Edit Combo Product Details
+### Step 2: Edit Combo Product Details { #operate-combo-products-info }
 
 === "Standard, PLUS"
 
@@ -259,7 +259,7 @@ With combo products, you can package multiple sub-products for sale to increase 
       ![Combo product on the storefront](../../../assets/images/ec-product-combo-basic-setting-frontend.zh-tw.en.png){ title="Combo Product on the Storefront" }
 
 
-### Step 3: Upload Product Images
+### Step 3: Upload Product Images { #operate-combo-products-images }
 
 We recommend uploading images that show the contents of the combo product so the bundle is clear.
 
@@ -267,7 +267,7 @@ We recommend uploading images that show the contents of the combo product so the
 
 
 
-### Step 4: Set up Combo Product Contents
+### Step 4: Set up Combo Product Contents { #operate-combo-products-content }
 
 === "Standard, PLUS"
 
@@ -301,7 +301,7 @@ We recommend uploading images that show the contents of the combo product so the
         - **Product Number(SKU)**: Set a unique stock keeping unit number for the combo product. We recommend keeping it distinct from sub-product numbers to make order management easier.
 
 
-    !!! info "For how inventory quantity is calculated, see 'Product Combo C' in [Inventory Management](#Sub-Product-Inventory-Management)."
+    !!! info "For how inventory quantity is calculated, see 'Product Combo C' in [Inventory Management](#operate-combo-products-stock)."
 
 === "Enterprise"
 
@@ -354,7 +354,7 @@ We recommend uploading images that show the contents of the combo product so the
     - **When there's a conflict**: If conflicts between individual products leave the combo product with no applicable temperature zone and logistics, the combo product can't be published, and its storefront product page shows a 404 error page.
     - **How to fix it**: Edit each individual product's logistics and temperature zone so they share a common temperature zone/logistics option, or remove products with special temperature zone/logistics from the combo product.
 
-## Storefront Checkout and Cart Behavior
+## Storefront Checkout and Cart Behavior { #specs-combo-products-checkout }
 
 === "Standard, PLUS"
     
@@ -396,10 +396,10 @@ We recommend uploading images that show the contents of the combo product so the
         ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-商品頁-組合商品03.png){ .small-image }
 
 - The cart and checkout page check whether the combo product meets logistics volume limits.  
-- Combo products support only a single temperature zone and don't support [multi-channel cart splitting](../shipping/setup-product-shipping-conditions.md#Cart-Splitting-Across-Multiple-Channels){ title="Set Up Product Shipping Conditions (Logistics, Temperature Zone, and Fulfillment Channel)" }.
+- Combo products support only a single temperature zone and don't support [multi-channel cart splitting](../shipping/setup-product-shipping-conditions.md#specs-ship-conditions-split-cart){ title="Set Up Product Shipping Conditions (Logistics, Temperature Zone, and Fulfillment Channel)" }.
 
 ![Combo product in the cart](../../../assets/images/ec-product-combo-optional-quantity-cart.zh-tw.en.png){ title="Combo Product in the Cart" }
-## Combo Product Shipping
+## Combo Product Shipping { #specs-combo-products-ship }
 
 After a combo product order is placed, when the system generates a convenience store or home delivery waybill, it also generates the following four documents. All of them include details of every sub-product in the combo product:
 
@@ -408,7 +408,7 @@ After a combo product order is placed, when the system generates a convenience s
 - **Pick list**: The basis for warehouse picking, including the sub-products in combo products.
 - **Waybill**: The logistics shipping document, including details of all sub-products in the combo product.
 
-## Sub-Product Inventory Management
+## Sub-Product Inventory Management { #operate-combo-products-stock }
 
 Whether a combo product can be purchased (has enough inventory) depends on the inventory quantity and settings of its sub-products. If any sub-product is out of stock and is set to **Stop selling** when out of stock, the combo product can't be purchased. Learn more about [product inventory settings](create-update-products.md#operate-product-create-inventory){ title="Add and Update Products" }.
 
@@ -426,7 +426,7 @@ Whether a combo product can be purchased (has enough inventory) depends on the i
 |Stop selling when out of stock (inventory = 0)|Stop selling when out of stock (inventory = 20)|Out of stock|
 
 
-## Combo Product Price Difference Calculation
+## Combo Product Price Difference Calculation { #specs-combo-products-price-diff }
 
 In order reports, Excel/CSV exports, and API responses, the system provides a **combo product price difference** field to help you reconcile accounts and analyze how discounts are allocated.
 
@@ -461,7 +461,7 @@ In order reports, Excel/CSV exports, and API responses, the system provides a **
     - "Combo product price difference" is the original price minus the final price
     - The combo product price differences of the three sub-products add up to NT$50 (the same as the total discount)
 
-## Next Steps
+## Next Steps { #next-steps-combo-products }
 
 <div class="grid cards" markdown>
 
@@ -475,7 +475,7 @@ In order reports, Excel/CSV exports, and API responses, the system provides a **
 
 </div>
 
-## FAQ
+## FAQ { #faq-combo-products }
 ??? quote "Can I change the combo type of a combo product?"
     Once a product is created, its combo type (specified or optional combo) can't be changed. To change it, we recommend creating a new product.
 

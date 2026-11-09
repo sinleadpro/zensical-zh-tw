@@ -79,7 +79,7 @@ Enable and manage product reviews.
 
 ![Manage product reviews](../../../assets/images/ec-product-review-hero.zh-tw.en.png){ title="Manage Product Reviews" .hero-page }
 
-## About Product Reviews
+## About Product Reviews { #intro-product-reviews }
 
 Product reviews let customers post star ratings and comments on product pages. You can approve, edit, or delete reviews in the admin and encourage customers to share their shopping experience with bonus points rewards. Together with [Google reCAPTCHA](../../website-appearance/customer-interaction/enable-comment-recaptcha.md){ title="Enable reCAPTCHA for Comments" }, you can effectively prevent spam, build trust in your products, increase conversions, and collect genuine customer feedback.
 
@@ -123,19 +123,19 @@ Product reviews let customers post star ratings and comments on product pages. Y
 
     ```
 
-## Prerequisites and Limits
+## Prerequisites and Limits { #prerequisites-product-reviews }
 
 - [x] Contact customer service to enable product reviews first.
 - [x] FB sharing: Available only after you fill in "Third-Party Integration" → "Facebook Settings" → "Set the App ID and App Secret".
 
 
-## Steps
+## Steps { #operate-product-reviews-flow }
 
-### Set up Product Reviews { #manage-product-reviews }
+### Set up Product Reviews { #operate-product-reviews }
 
-After you go to **Website Appearance > Product Reviews Management**, the top of the page has two separate sections, [System Setting](#System-Setting) and [Give After Approval](#Give-After-Approval). Each has its own **Update** button, so save each section separately after making changes.
+After you go to **Website Appearance > Product Reviews Management**, the top of the page has two separate sections, [System Setting](#operate-product-reviews-system) and [Give After Approval](#operate-product-reviews-reward). Each has its own **Update** button, so save each section separately after making changes.
 
-#### System Setting
+#### System Setting { #operate-product-reviews-system }
 
 1. Log in to the CYBERBIZ e-commerce admin and go to **Website Appearance > Product Reviews Management**.
 2. In the **System Setting** section, adjust the following as needed:
@@ -150,7 +150,7 @@ After you go to **Website Appearance > Product Reviews Management**, the top of 
 
 ---
 
-#### Give After Approval
+#### Give After Approval { #operate-product-reviews-reward }
 
 Set the reward given automatically to a customer after you approve their review in **Customer Management > Product Reviews**. You can give bonus points only, or add a coupon as well.
 
@@ -176,21 +176,21 @@ Set the reward given automatically to a customer after you approve their review 
 
 ---
 
-### View Comment Boards
+### View Comment Boards { #operate-product-reviews-board }
 You can configure every product's comment board in detail here. Click **View** to edit an individual comment board.
 
 ![Comment board list](../../../assets/images/ec-comment-board-list.zh-tw.en.png){ title="Comment Board List" }
 
 ---
 
-### Set up a Comment Board
+### Set up a Comment Board { #operate-product-reviews-board-setup }
 In the comment board list, click "View" on a comment board to open its edit page and configure it. Click the **trash can :material-trash-can-outline:** to delete a product review.
 
 ![Comment board settings](../../../assets/images/ec-comment-board.zh-tw.en.png){ title="Comment Board Settings" }
 
 ---
 
-### Post a Product Review <small>Customer</small>
+### Post a Product Review <small>Customer</small> { #operate-product-reviews-post }
 
 !!! info "Customers must log in as members to post reviews on product pages."
 
@@ -201,7 +201,7 @@ In the comment board list, click "View" on a comment board to open its edit page
 
 ---
 
-### Approve Product Reviews
+### Approve Product Reviews { #operate-product-reviews-moderate }
 
 You can approve product reviews submitted by customers in the admin.
 
@@ -215,7 +215,7 @@ You can approve product reviews submitted by customers in the admin.
 
 ---
 
-### Hide Product Reviews
+### Hide Product Reviews { #operate-product-reviews-hide }
 
 !!! warning "If you remove the code yourself, CYBERBIZ will not help restore it."
 
@@ -241,7 +241,7 @@ If you don't want to show product reviews for now, you can hide them with the Te
 
     ![Hide reviews in the standard theme](https://www.cyberbiz.io/support/wp-content/uploads/商品評論07.png){ title="Hide Reviews in the Standard Theme" .screenshot }
 
-## Next Steps
+## Next Steps { #next-steps-product-reviews }
 
 <div class="grid cards" markdown>
 
@@ -250,7 +250,7 @@ If you don't want to show product reviews for now, you can hide them with the Te
 
 </div>
 
-## FAQ
+## FAQ { #faq-product-reviews }
 
 ??? quote "Do customers need to log in to post reviews?"
     Yes. Customers must log in as members to post product reviews.

@@ -71,7 +71,7 @@ Add the `?sku=` parameter to a product page URL. When customers click the link, 
     - **Match ad creatives**: Give each ad creative its own Variants link for easier tracking and conversion.
 
 
-## Before You Start
+## Before You Start { #prerequisites-sku-link }
 
 - **Scope**: This link opens the **product page** (`/products/...`) with the Variants preselected. Customers still need to add it to the cart themselves. To **add specific products straight to the cart** from a link, use [Create a Cart Link with Specific Products](create-cart-link-specific-products.md) instead.
 - **Requirement**: The target Variants must have a **SKU**. A blank SKU can't be matched.
@@ -79,9 +79,9 @@ Add the `?sku=` parameter to a product page URL. When customers click the link, 
 - **Test before publishing**: Before sharing the link, open it in a private window and make sure the storefront selects the correct Variants.
 
 
-## Steps
+## Steps { #operate-sku-link }
 
-### Step 1: Make Sure The Variants Has A SKU (Settings)
+### Step 1: Make Sure The Variants Has A SKU (Settings) { #operate-sku-link-variant-settings }
 
 1. Log in to the CYBERBIZ admin and go to **Products > All Products**.
 2. Open the product and scroll to **Manage Variants**.
@@ -92,7 +92,7 @@ Add the `?sku=` parameter to a product page URL. When customers click the link, 
     !!! tip "No SKU in Settings Yet?"
         Enter the SKU in the Variants field and save. For Settings details, see [Create New Product: Variants, Prices, and Inventory](../../products/create-and-manage/create-update-products.md#operate-product-create-variants).
 
-### Step 2: Get The Product Page URL
+### Step 2: Get The Product Page URL { #operate-sku-link-product }
 
 Use either method:
 
@@ -112,7 +112,7 @@ Use either method:
 
     ![](../../../assets/images/EC-後台-商品-所有商品-商品網址連結01.en.png){ .screenshot }
 
-### Step 3: Add The SKU Parameter To The URL
+### Step 3: Add The SKU Parameter To The URL { #operate-sku-link-sku }
 
 Add the parameter to the end of the product page URL in this format:
 
@@ -135,7 +135,7 @@ Add the parameter to the end of the product page URL in this format:
 
     When customers click the link, the product page automatically selects the red Variants.
 
-### Step 4: Test, Then Share
+### Step 4: Test, Then Share { #operate-sku-link-send }
 
 1. Open the link in a private window or on another device.
 2. Make sure the product page preselects the correct Variants (color, size, and so on).
@@ -143,9 +143,9 @@ Add the parameter to the end of the product page URL in this format:
 
 
 
-## Advanced Use
+## Advanced Use { #intro-sku-link }
 
-### One Link Per Variants Of The Same Product
+### One Link Per Variants Of The Same Product { #operate-sku-link-variant }
 
 Create a separate link for each Variants you want to promote, changing only the value after `sku=`:
 
@@ -159,7 +159,7 @@ https://www.example.com/products/tshirt?sku=TSHIRT-BLUE-M
 
 
 
-## Related Articles
+## Related Articles { #overview-sku-link-usage }
 
 <div class="grid cards" markdown>
 

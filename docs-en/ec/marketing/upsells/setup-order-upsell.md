@@ -63,7 +63,7 @@ hide: []
 
 ![Order Upsell](../../../assets/images/ec-marketing-pwp-by-order-hero.en.png){ title="訂單加價購" .hero-page }
 
-## About Order Upsells { #intro-order-upsell }
+## About Order Upsells { #overview-order-upsell }
 
 An order upsell is triggered by the **order amount or conditions**. When a customer meets the conditions at checkout, they can add selected products at a special price.
 

@@ -66,9 +66,9 @@ Create mix-and-match discount promotions for e-tickets, set discount tiers and p
 
 ![](../../assets/images/ec-e-ticket-discount-hero.zh-tw.en.png){ .hero-page }
 
-## About E-Ticket Promotions
+## About E-Ticket Promotions { #intro-ticket-promos }
 
-### Limits and Scope
+### Limits and Scope { #prerequisites-ticket-promos-scope }
 
 - E-ticket mix-and-match discounts **only support "a fixed amount off each item[^1]"**.  
 - Each e-ticket product **can be added to only one mix-and-match discount group**.
@@ -83,7 +83,7 @@ Create mix-and-match discount promotions for e-tickets, set discount tiers and p
 
 ---
 
-### Promotion Period and Validity Period
+### Promotion Period and Validity Period { #specs-ticket-promos-period }
 
 If your e-ticket involves any of these situations, clearly state the validity period and redemption rules in the product description:
 
@@ -107,9 +107,9 @@ If your e-ticket involves any of these situations, clearly state the validity pe
 	- Customer B redeems the ticket on 2022/12/14. The merchant no longer sells shaved ice in winter, so the customer can pay a difference of NT$20 and redeem one hot grass jelly dessert, originally priced at NT$140.
 
 
-## Ticket Refund and Amount Calculation Rules
+## Ticket Refund and Amount Calculation Rules { #specs-ticket-promos-refund }
 
-### Basic Ticket Refund Rules
+### Basic Ticket Refund Rules { #specs-ticket-promos-refund-rules }
 
 - Ticket refunds are processed per **single e-ticket code**.
 - **Redeemed** e-tickets **can't be refunded**.
@@ -119,7 +119,7 @@ If your e-ticket involves any of these situations, clearly state the validity pe
 
 ---
 
-### Refund Formula
+### Refund Formula { #specs-ticket-promos-refund-formula }
 
 The refund amount is calculated as follows:
 
@@ -132,7 +132,7 @@ Calculation rules:
 
 ---
 
-### Refund Calculation Examples
+### Refund Calculation Examples { #specs-ticket-promos-refund-example }
 
 These examples show how refunds differ for **remaining items (tickets beyond the discounted quantity)** under different pricing methods.
 
@@ -166,9 +166,9 @@ These examples show how refunds differ for **remaining items (tickets beyond the
 	| 4 | 1 | NT$10 | `410 - (4 × 100)` |
 
 
-## Payout Rules and Price Difference Calculation
+## Payout Rules and Price Difference Calculation { #specs-ticket-promos-settlement }
 
-### Payout Rules
+### Payout Rules { #specs-ticket-promos-settlement-rules }
 
 - E-tickets are **paid out after redemption**.
 - When each ticket is redeemed, the system calculates the payout using the **actual discounted price**.
@@ -176,7 +176,7 @@ These examples show how refunds differ for **remaining items (tickets beyond the
 
 ---
 
-### Price Difference Formula
+### Price Difference Formula { #specs-ticket-promos-difference }
 
 The system calculates the price difference payout with this formula:
 
@@ -188,7 +188,7 @@ The system calculates the price difference payout with this formula:
 
 ---
 
-### Payout Calculation Example
+### Payout Calculation Example { #specs-ticket-promos-settlement-example }
 
 **Scenario**
 
@@ -204,9 +204,9 @@ The system calculates the price difference payout with this formula:
 | 4 | 280 | 0 | 70 | `350 - 280 - 0 = 70` |
 
 
-## Steps
+## Steps { #operate-ticket-promos }
 
-### Create an E-Ticket Mix-and-Match Discount Group
+### Create an E-Ticket Mix-and-Match Discount Group { #operate-ticket-promos-create-group }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > E-Ticket Discounts**.
 2. Click **New Ticket Discount**.
@@ -214,14 +214,14 @@ The system calculates the price difference payout with this formula:
 	- **Ticket discount name** (can't be the same as a regular product discount group)
 	- **Discount campaign URL**
 	- **Campaign period**
-4. [Set pricing and discount rules](#Set-Pricing-and-Discount-Rules)
+4. [Set pricing and discount rules](#operate-ticket-promos-pricing)
 5. Enter the discount description and click **Save**.
 
 ![](../../assets/images/ec-電子票券-基本設定.en.png)
 
 ---
 
-### Set Pricing and Discount Rules
+### Set Pricing and Discount Rules { #operate-ticket-promos-pricing }
 
 - **Pricing rule**: Only **Discounted amount on each item** is supported.
 - **Pricing for remaining items**:
@@ -236,7 +236,7 @@ The system calculates the price difference payout with this formula:
 
 ---
 
-### Add E-Tickets to a Discount Group
+### Add E-Tickets to a Discount Group { #operate-ticket-promos-add }
 
 1. In the **E-Ticket Discount List**, click the name of the discount you created to open its edit page.
 2. Switch to the **Select E-Ticket** tab.
@@ -249,7 +249,7 @@ The system calculates the price difference payout with this formula:
 
 ![](../../assets/images/ec-電子票券-加入折扣.en.png)
 
-## FAQ
+## FAQ { #faq-ticket-promos }
 
 ??? quote "Can one e-ticket be added to multiple mix-and-match discount groups?"
 	No. Each e-ticket product **can be added to only one mix-and-match discount group**. If you try to add the same ticket to multiple groups, the system can't save the settings.

@@ -69,7 +69,7 @@ hide: []
 Helps merchants choose between account-linked coupons and general promo codes based on their business needs.
 { .subtitle }
 
-## Overview
+## Overview { #overview-coupon }
 
 coupons and promo codes are the core discount tools for online store promotions. **Promo codes are a type of coupon.** Both have the same priority at checkout and can be used to reduce the order amount.
 
@@ -77,7 +77,7 @@ coupons and promo codes are the core discount tools for online store promotions.
 - Promo codes let you share one general code widely.
 
 
-## Key Differences
+## Key Differences { #intro-coupon }
 
 The table below shows the main differences between coupons and promo codes in how they work and how they're used:
 
@@ -89,9 +89,9 @@ The table below shows the main differences between coupons and promo codes in ho
 | **How it's used** | Select it from the **Available Offers** list at checkout | Enter the correct **promo code** manually at checkout |
 
 
-## Use Cases
+## Use Cases { #intro-coupon-use }
 
-### Coupon
+### Coupon { #intro-coupon-use-coupon }
 
 - **Automated rewards**: Use supported promotions to send coupons at key moments, such as sign-up, birthdays, or first purchases.
 
@@ -129,7 +129,7 @@ The table below shows the main differences between coupons and promo codes in ho
 
     </div>
 
-### Promo Codes
+### Promo Codes { #intro-coupon-use-promotion }
 
 - **General promo codes**: Valid store-wide for anyone. Customers simply enter the code on the checkout page to get the discount.
 
@@ -142,7 +142,7 @@ The table below shows the main differences between coupons and promo codes in ho
     </div>
 
 
-## Coupon Specs By Type
+## Coupon Specs By Type { #specs-coupon }
 
 <div class="grid cards" markdown>
 
@@ -156,13 +156,13 @@ The table below shows the main differences between coupons and promo codes in ho
 
 </div>
 
-## Checkout Order
+## Checkout Order { #intro-coupon-checkout }
 
 coupons and promo codes are applied in the same order: after discount promotions, upsells, and threshold gifts. If a coupon (code) has a minimum spend, the order must still meet it after those discounts.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/2020/03/結帳順序-優惠券.png){ .screenshot }
 
-## Turn On Coupons (Codes) At Checkout
+## Turn On Coupons (Codes) At Checkout { #operate-coupon }
 
 To let customers use coupons (codes) at checkout, turn on the storefront display switch first.
 
@@ -172,7 +172,7 @@ To let customers use coupons (codes) at checkout, turn on the storefront display
     ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠碼13.png){ .screenshot }
 
 
-## Shared Coupon (Code) Settings
+## Shared Coupon (Code) Settings { #operate-coupon-coupon-settings }
 
 <div class="grid cards" markdown>
 
@@ -188,7 +188,7 @@ To let customers use coupons (codes) at checkout, turn on the storefront display
 
 
 
-## FAQ
+## FAQ { #faq-coupon }
 
 ??? quote "Why do members say they can't see the promo code I published?"
     Promo codes aren't linked to accounts, so the system doesn't show them in the member center. Share the code with customers by email, SMS, store banners, or social media.

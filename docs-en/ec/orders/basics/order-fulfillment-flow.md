@@ -87,7 +87,7 @@ Before you ship, check the following:
 
 ---
 
-## Billing Rules { #pricing-fulfillment }
+## Billing Rules { #specs-order-fulfillment-pricing }
 
 The system collects shipping fees for integrated logistics (EZCAT, convenience store pickup, Pelican Express, HCT Logistics, SF Express, and more). For custom logistics, you settle with the carrier yourself, outside the system.
 
@@ -173,7 +173,7 @@ When you have many custom logistics orders, import tracking numbers at once with
 
 <div class="grid cards" markdown>
 
-- :lucide-file-spreadsheet: [**Bulk Import Custom Logistics Tracking Numbers Guide**](../home-delivery/custom-logistic-shipping.md#excel-bulk-import){ title="How to Ship with Custom Logistics" }
+- :lucide-file-spreadsheet: [**Bulk Import Custom Logistics Tracking Numbers Guide**](../home-delivery/custom-logistic-shipping.md#operate-excel-bulk-import){ title="How to Ship with Custom Logistics" }
 
 </div>
 

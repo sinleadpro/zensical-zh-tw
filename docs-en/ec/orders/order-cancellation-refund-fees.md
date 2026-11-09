@@ -59,12 +59,12 @@ icon: lucide/receipt-text
 hide: []
 ---
 
-## Refund Scope and Fee Refunds
+## Refund Scope and Fee Refunds { #specs-cancel-fees }
 
 The tables below apply to order cancellations and return refunds (full refunds / partial refunds):
 
 
-### Standard Plan Without CYBERBIZ PAYMENTS
+### Standard Plan Without CYBERBIZ PAYMENTS { #operate-cancel-fees-no-payments }
 
 > **Applicable payment providers**: LINE Pay / PayPal / JKOPAY / iPASS / **ECPay** / **NewebPay**
 
@@ -74,7 +74,7 @@ The tables below apply to order cancellations and return refunds (full refunds /
 | Full refund | **Merchant bank transfer** | Not applicable | Handled by the third-party payment provider | **Not charged** |
 
 
-### Standard Plan with CYBERBIZ PAYMENTS
+### Standard Plan with CYBERBIZ PAYMENTS { #operate-cancel-fees-with-payments }
 
 === "CYBERBIZ PAYMENTS"
 
@@ -103,7 +103,7 @@ The tables below apply to order cancellations and return refunds (full refunds /
     | | **Merchant bank transfer** | Not applicable | Handled by the third-party payment provider | **Not charged** |
 
 
-### PLUS and Enterprise
+### PLUS and Enterprise { #operate-cancel-fees-plan-plus-enterprise }
 
 === "CYBERBIZ PAYMENTS"
 
@@ -134,7 +134,7 @@ The tables below apply to order cancellations and return refunds (full refunds /
 
 
 
-### Cross-Border
+### Cross-Border { #specs-cancel-fees-crossborder }
 
 === "CYBERBIZ PAYMENTS"
 
@@ -173,7 +173,7 @@ The tables below apply to order cancellations and return refunds (full refunds /
 !!! note "How Proportional Refunds Are Calculated"
     For partial refunds, the proportional refund is calculated as **refund amount ÷ order amount × original fee**.
 
-## Manual Refund Fee Exceptions
+## Manual Refund Fee Exceptions { #operate-cancel-fees-exceptions }
 
 The manual refund fee isn't charged in these cases:
 
@@ -186,7 +186,7 @@ The manual refund fee isn't charged in these cases:
 | Merchant-changed order amount | Refunds issued after the merchant adjusts the order amount |
 
 
-## Next Steps
+## Next Steps { #next-steps-cancel-fees }
 
 <div class="grid cards" markdown>
 
@@ -200,7 +200,7 @@ The manual refund fee isn't charged in these cases:
 
 </div>
 
-## FAQ
+## FAQ { #faq-cancel-fees }
 
 ??? quote "How do I check whether an order is past the automatic refund deadline?"
-    Check the payment method and payment date, then compare them with the [automatic refund deadlines by plan and payment provider](order-refund-process/#步驟-1判定退款方式). For CYBERBIZ PAYMENTS payment methods, the actual deadline follows your admin settings.
+    Check the payment method and payment date, then compare them with the [automatic refund deadlines by plan and payment provider](order-refund-process/#specs-order-refund). For CYBERBIZ PAYMENTS payment methods, the actual deadline follows your admin settings.

@@ -7,7 +7,8 @@ lang: en-US
 type: guide
 author: Ann
 reviewers: []
-notes: []
+notes: 
+  - 確認：綠界信用卡自動退款期限
 ga_views: 0
 feedback: 0
 products:
@@ -72,12 +73,17 @@ After an order completes the return process, the last step is refunding the shop
 
 ## Before You Start { #prerequisites-order-refund }
 
-- **Request limit**: Each order accepts only **one** refund request.
-- **Payment timing**:
-    - **ECPay credit cards**: Orders paid today can't be refunded right away. You can refund them after the system settles them the **next day**.
+- **Request limit**: Each order accepts **only one** return and refund request. If a partial return has been completed, the remaining items in the order can't be requested again.
+- **Partial refunds**:
+    - Installment orders can't use partial returns (refunds).
+    - If the shopper paid today, partial returns can be processed starting the next day.
+
+        > Orders paid by **ECPay credit card** can be processed only **after the system settles them the next day**.
+
 - **Invoices**:
     - **Issued by CYBERBIZ**: After the refund is complete, the system automatically creates an invoice allowance.
     - **Others (ECPay/Sing Yi Hsin)**: Based on the refund date, the invoice is **voided** before the 5th of the month and an **allowance** is issued after the 5th.
+
 
 ## Refund Methods { #specs-order-refund }
 

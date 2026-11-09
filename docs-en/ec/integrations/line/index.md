@@ -16,7 +16,7 @@ hide:
   - feedback
 ---
 
-## Basic Integration
+## Basic Integration { #operate-line }
 
 <div class="grid cards" markdown>
 
@@ -48,7 +48,7 @@ hide:
 
 ---
 
-## Member Binding and Applications
+## Member Binding and Applications { #operate-line-member-bind }
 
 <div class="grid cards" markdown>
 
@@ -88,7 +88,7 @@ hide:
 
 ---
 
-## Rich Menus and Friend Guidance
+## Rich Menus and Friend Guidance { #intro-line }
 
 <div class="grid cards" markdown>
 
@@ -120,7 +120,7 @@ hide:
 
 ---
 
-## Segment Push Messages and Ad Tracking
+## Segment Push Messages and Ad Tracking { #operate-line-ads-tracking }
 
 <div class="grid cards" markdown>
 
@@ -152,7 +152,7 @@ hide:
 
 ---
 
-## Shopping Applications
+## Shopping Applications { #intro-line-overview-line }
 
 <div class="grid cards" markdown>
 

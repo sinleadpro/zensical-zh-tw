@@ -87,7 +87,7 @@ Set up fun interactive games on the customer display screen to capture customer 
 	- **Inventory Clearance**: Set products with specific tags as the game threshold to speed up inventory turnover.
 
 
-## Usage Notes
+## Usage Notes { #prerequisites-display-games }
 
 - **Non-Deletable**: Once a game is created and saved, the system cannot delete its record.
 - **Time Requirement**: Enter both the **Start** and **End** times before the game can be activated.
@@ -95,7 +95,7 @@ Set up fun interactive games on the customer display screen to capture customer 
 - **Image Limit**: The total size of all images uploaded for a single game (style images and prize images) must not exceed **10MB**.
 - **Automatic End**: If all prizes are drawn during the campaign period, the game ends immediately.
 
-## Game Status Descriptions
+## Game Status Descriptions { #specs-display-games }
 
 | Status | Description |
 | :--- | :--- |
@@ -105,9 +105,9 @@ Set up fun interactive games on the customer display screen to capture customer 
 | **Paused** | The campaign is paused manually. Click "Resume Game" to resume it. |
 
 
-## Operating Procedure
+## Operating Procedure { #operate-display-games }
 
-### Step 1: Create a Game
+### Step 1: Create a Game { #operate-display-games-step-a-create }
 
 1. Go to the CYBERBIZ POS admin panel and click **POS > Interactive Games**.
 2. Click **Add Game**.
@@ -123,7 +123,7 @@ Set up fun interactive games on the customer display screen to capture customer 
 
 ![](../../assets/images/POS-後台-互動遊戲-建立遊戲01.en.png){ .screenshot }
 
-### Step 2: Style and Prize Settings
+### Step 2: Style and Prize Settings { #operate-display-games-step-b-settings }
 
 1. **Style Settings**:
     - Select a default template (red envelope, gift, or capsule toy) or upload a custom theme image.
@@ -138,7 +138,7 @@ Set up fun interactive games on the customer display screen to capture customer 
 
 ![](../../assets/images/POS-後台-互動遊戲-建立遊戲02.en.png){ .screenshot }
 
-### Step 3: Bind the Customer Display Device
+### Step 3: Bind the Customer Display Device { #operate-display-games-step-c-bind }
 
 After you finish the setup, enable the feature in Store Settings.
 
@@ -151,7 +151,7 @@ After you finish the setup, enable the feature in Store Settings.
 
 ![](../../assets/images/POS-後台-互動遊戲-建立遊戲03.en.png){ .screenshot }
 
-## Front-End Animation Effects
+## Front-End Animation Effects { #intro-display-games }
 
 === "Roulette Draw"
 
@@ -161,7 +161,7 @@ After you finish the setup, enable the feature in Store Settings.
 
     ![](../../assets/images/POS-前台-客顯螢幕-互動遊戲-紅包01.en.gif){ .small-image }
 
-## FAQ
+## FAQ { #faq-display-games }
 
 ??? quote "After a customer wins **Gift**, will the system automatically add it to the cart?"
     No. After a customer wins a gift, **staff must manually scan the gift barcode to add it to the cart**. The system will then automatically convert that item to NT$0.
@@ -175,7 +175,7 @@ After you finish the setup, enable the feature in Store Settings.
     2. The game is selected under **Customer Display Marketing** in store settings.
     3. The items in the cart meet the configured **product tags** and **threshold**.
 
-## More Actions
+## More Actions { #next-steps-display-games }
 
 <div class="grid cards" markdown>
 

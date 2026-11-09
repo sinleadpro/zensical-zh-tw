@@ -74,12 +74,12 @@ You can enable the "Auto Issue Invoice" setting in POS terminal settings and con
     - **Faster checkout**: Invoices and details are generated automatically after checkout, so store staff do not need to select them manually. This keeps the line moving.
     - **Complete records**: Each completed transaction also generates a purchase list (details), so customers can reconcile their records easily.
 
-## Usage Notes
+## Usage Notes { #prerequisites-invoice-details }
 
 - **Device limitation**: **MYPAY invoice printer** does not support auto-print settings.
 - **Format behavior**: If the invoice includes a **Unified Business Number (UBN)**, the detail content prints together with the invoice and is not truncated.
 
-## Procedure
+## Procedure { #operate-general-orders-invoice }
 
 
 1. Log in to the CYBERBIZ admin backend and go to **POS > POS Store List**.

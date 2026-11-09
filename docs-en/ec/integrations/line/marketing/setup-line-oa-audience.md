@@ -72,18 +72,18 @@ comments: false
 
 ![LINE Audience Integration](../../../../assets/images/ec-會員-所有會員-line受眾.en.png){ .hero-page title="LINE Audience Integration" }
 
-## LINE Audience Integration Guide
+## LINE Audience Integration Guide { #operate-line-audience }
 
 **LINE OA Audience Integration** lets merchants use the back-office member filter to package the UIDs of members who used "LINE quick login" or "linked LINE OA" and send them to the LINE backend to create an audience. This is useful for later **targeted message push** or **LAP ad targeting**.
 
 Below are the detailed steps and instructions:
 
-## Prerequisites and Restrictions
+## Prerequisites and Restrictions { #prerequisites-line-audience }
 
 - [x] **Required setup**: Merchants must first complete the [**LINE Messaging API** setup](../account-integration/connect-line-messaging-api.md){ title="Connect LINE Messaging API" }  before they can use this feature.
 - [x] **Admin permissions**: Audiences created by CYBERBIZ **cannot be updated or deleted directly in the LINE backend**. You must sync them through the CYBERBIZ admin dashboard.
 
-## Steps to Create an Audience in LINE Backend
+## Steps to Create an Audience in LINE Backend { #operate-line-audience-create-line-backend-step }
 
 1. **Access path**: Go to the admin dashboard **Customer Management > All Customers**.
 2. **Set filter conditions**: Click the search bar to open the "Filter" panel. You **must** add at least one of the following conditions. Otherwise, the audience cannot be sent to LINE:
@@ -106,7 +106,7 @@ Below are the detailed steps and instructions:
 
 	![Audience view in LINE backend](../../../../assets/images/ec-會員-會員群組-line受眾-line後台.en.png){ title="Audience view in LINE backend" }
 
-## Audience Management <small>Update and Delete</small>
+## Audience Management <small>Update and Delete</small> { #operate-line-audience-manage }
 
 - **Update the audience**: If the member list changes, go to the "All Members" page and click "**Update Audience to LINE**". The system syncs the latest filter results to LINE.
 - **Delete the audience**: In the filter condition list, click the "**Delete**" button next to the audience you want to remove.
@@ -116,9 +116,9 @@ Below are the detailed steps and instructions:
 
 ![Update audience in LINE backend](../../../../assets/images/ec-會員-line受眾-更新至line後台.en.png){ title="Update audience in LINE backend" }
 
-## How to Use LINE Audiences
+## How to Use LINE Audiences { #intro-line-audience }
 
-### LINE OA Message Push
+### LINE OA Message Push { #intro-line-audience-line-oa-message }
 
 - In the LINE OA backend, when you create a broadcast, select "**Filter target**" as the recipients, then click the edit button :lucide-pencil: to add an audience.
 
@@ -126,7 +126,7 @@ Below are the detailed steps and instructions:
 
 - Add an audience, select the name that CYBERBIZ sends, and set it to "Include" or "Exclude" for that audience.
 
-### Ad Manager (LAP) Ad Targeting
+### Ad Manager (LAP) Ad Targeting { #intro-line-audience-ad-manager-lap }
 
 - In [Ad Manager :lucide-external-link:](https://admanager.line.biz/home/), click "Audiences" > "Create Audience", and select "**Audience shared from LINE Official Account user identifiers (UID)**".
 
@@ -138,7 +138,7 @@ Below are the detailed steps and instructions:
 
 !!! info "Learn more about [What is LINE Performance-Based Ad Targeting (LAP)? :lucide-external-link:](https://tw.linebiz.com/service/display-solutions/line-ads-platform/)."
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-line-audience }
 
 ??? quote "Why can't I see the synced audience in the LINE backend?"
 	Check the following:

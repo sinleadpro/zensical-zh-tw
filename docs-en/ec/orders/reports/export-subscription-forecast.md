@@ -63,17 +63,17 @@ hide: []
 
 ![Subscription orders](../../../assets/images/ec-訂單-定期定額訂單.en.png){ title="Subscription Orders" .hero-page }
 
-## About Exporting the Subscription Sub-Order Report
+## About Exporting the Subscription Sub-Order Report { #intro-sub-forecast }
 
 You can export the **sub-order report for subscription orders**, which helps you check orders expected to ship and forecast how much stock to prepare.
 
-## Feature Overview
+## Feature Overview { #overview-sub-forecast }
 
 *   **Purpose**: Mainly used to check data for orders that will ship.
 *   **Forecast data**: The system exports, for all subscription orders, **the next 3 sub-orders expected to be created** (projected data for orders not yet created).
 *   **File format**: Excel report.
 
-## Steps
+## Steps { #operate-sub-forecast }
 
 1.  **Go to the page**: Sign in to the CYBERBIZ admin and click **Orders > Subscription Orders** in the left menu.
 2.  **Export**: Click **Export Subscription Orders** on the page.
@@ -81,7 +81,7 @@ You can export the **sub-order report for subscription orders**, which helps you
 
 ![Export subscription orders](../../../assets/images/ec-訂單-定期定額訂單-匯出定期訂單.en.png){ title="Export Subscription Orders" }
 
-## Report Fields
+## Report Fields { #specs-sub-forecast-fields }
 
 The downloaded report includes the following fields for detailed checking:
 
@@ -93,7 +93,7 @@ The downloaded report includes the following fields for detailed checking:
 
 ![Subscription sub-order report](../../../assets/images/ec-訂單-定期定額訂單-子訂單報表.en.png){ title="Subscription Sub-Order Report" }
 
-## FAQ
+## FAQ { #faq-sub-forecast }
 
 ??? quote "Why does my exported report show only 3 sub-orders?"
     To keep system performance and forecasts accurate, the system currently exports only the next 3 sub-orders "expected" for each parent order. If the subscription is close to its last cycle, it shows the actual number of remaining cycles.

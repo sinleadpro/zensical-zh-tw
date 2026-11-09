@@ -80,16 +80,16 @@ In the admin, you can look up the plans and dedicated codes of every profit-shar
 	- **Verify referrals**: When a customer says a referral didn't work, first check that the Referrer's code is correct.
 
 
-## Before You Start
+## Before You Start { #prerequisites-ps-query }
 
 - **Search permissions**:
     - **Website owner**: Has full permissions and can view profit-sharing data for **themselves** and **all other users**.
     - **Co-admins**: Can only click **View my plan** to view their own data.
 
 
-## Steps
+## Steps { #operate-ps-query }
 
-### Task 1: Look Up A Partner's Profit-sharing Details
+### Task 1: Look Up A Partner's Profit-sharing Details { #operate-ps-query-partners }
 
 Use this to look up anyone who has joined a Referral Plan.
 
@@ -105,7 +105,7 @@ Use this to look up anyone who has joined a Referral Plan.
 
 ![](../../assets/images/EC-後台-分潤-分潤查詢-畫面總覽01.en.png){ .screenshot }
 
-### Task 2: Staff Look Up Their Own Profit-sharing Details
+### Task 2: Staff Look Up Their Own Profit-sharing Details { #operate-ps-query-staff }
 
 Use this when store staff or website editors want to find their own promotion codes.
 
@@ -116,7 +116,7 @@ Use this when store staff or website editors want to find their own promotion co
     > Staff can click the link icon to copy the link, or create a QR code for promotion.
 
 
-### Task 3: Give Third-party Referrers An External Lookup Link
+### Task 3: Give Third-party Referrers An External Lookup Link { #operate-ps-query-copy }
 
 === "Merchants"
 
@@ -142,7 +142,7 @@ Use this when store staff or website editors want to find their own promotion co
     This report is for "sales tracking" only. **The final profit-sharing amount is based on settlement data after the order is "Completed"**.
 
 
-### Task 4: Copy Referral Codes In One Click
+### Task 4: Copy Referral Codes In One Click { #operate-ps-query-external }
 
 In **Third-party Referrer List**, you can view all third-party profit-sharing Referrers at once.
 
@@ -151,7 +151,7 @@ In **Third-party Referrer List**, you can view all third-party profit-sharing Re
 
 ![](../../assets/images/EC-後台-分潤-推薦人分潤-查看第三方分潤夥伴名單02.png){ .screenshot }
 
-## Next Steps
+## Next Steps { #next-steps-ps-query }
 
 <div class="grid cards" markdown>
 

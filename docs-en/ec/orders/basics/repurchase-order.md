@@ -62,11 +62,11 @@ hide: []
 ---
 ![Buy Again for orders](../../../assets/images/EC-訂單-訂單查詢-前台-再次購買-hero.en.png){ title="Buy Again for Orders" .hero-page }
 
-## About Buy Again
+## About Buy Again { #intro-repurchase }
 
 **Buy Again** lets members easily reorder products they bought before, without browsing the whole website or searching for products again. It shortens shopping time and helps improve members' shopping experience and loyalty.
 
-## Prerequisites and Limitations
+## Prerequisites and Limitations { #prerequisites-repurchase }
 
 Before you start, make sure your store meets the following conditions:
 
@@ -74,7 +74,7 @@ Before you start, make sure your store meets the following conditions:
 - [x] **Order type**: Supports only **regular orders**, not subscription orders or Quick Delivery orders.
 - [x] **Checkout basis**: When buying again, product prices, contents, and discounts are all based on **the final information on the new cart checkout page**.
 
-## Storefront Steps for Members
+## Storefront Steps for Members { #operate-repurchase-storefront }
 
 1.  **Open the order list**: After signing in to the website, members go to the "Regular Orders" tab in **Order Lookup**.
 
@@ -86,18 +86,18 @@ Before you start, make sure your store meets the following conditions:
     ![Order lookup - buy again](../../../assets/images/EC-前台-訂單查詢-再次購買.en.png){ title="Order Lookup - Buy Again" }
 
     !!! note "Non-Sale Items Filtered Automatically"
-        The system adds only regular products to the cart. Gifts, add-on items, first-purchase gift, and gift vouchers in the original order are excluded automatically and aren't added again. [Learn more][order-repurchase-block]{ data-preview }
+        The system adds only regular products to the cart. Gifts, add-on items, first-purchase gift, and gift vouchers in the original order are excluded automatically and aren't added again. [Learn more][#prerequisites-repurchase-block]{ data-preview }
 
     ??? warning "If There Are Unavailable or Out-of-Stock Products"
 
         When the original order includes products that are unpublished or low in stock, the system shows a pop-up message.
 
         * **What happens**: After clicking "Confirm," the system still adds the other eligible products to the cart.
-        * **Details**: [System Messages and Warnings][order-repurchase-error]{ data-preview }.
+        * **Details**: [System Messages and Warnings][specs-repurchase-order]{ data-preview }.
 
 4.  **Add to cart**: The system automatically adds eligible products and quantities to a new cart, and the member can then go to the cart to check out.
 
-## When Items Can't Be Added to the Cart { #order-repurchase-block }
+## When Items Can't Be Added to the Cart { #prerequisites-repurchase-block }
 
 When a member clicks **Buy Again**, items in the original order are **not** added to the new cart in the following cases:
 
@@ -106,14 +106,14 @@ When a member clicks **Buy Again**, items in the original order are **not** adde
 *   **Marketing gifts**: The original product is a **gift, add-on item, first-purchase gift, or gift voucher**.
 *   **Bundle limits**: If the original order included a bundle and any item in it meets the rules above, the whole bundle can't be added to the new cart.
 
-## System Messages and Warnings { #order-repurchase-error}
+## System Messages and Warnings { #specs-repurchase-order }
 
 After the member clicks the button, if some products run into certain issues, the system shows a pop-up to the member:
 
 * **Message content**: Lists which products can't be added because they're "Unpublished," "Hidden," or "Low in Stock."
 * **What's next**: After clicking "Confirm" in the pop-up, the system still adds **the other eligible** products to the cart, and checkout can continue.
 
-## Next Steps
+## Next Steps { #next-steps-repurchase }
 
 <div class="grid cards" markdown>
 
@@ -127,7 +127,7 @@ After the member clicks the button, if some products run into certain issues, th
 
 </div>
 
-## FAQ
+## FAQ { #faq-repurchase }
 
 ??? quote "Why weren't some products added to the cart after clicking Buy Again?"
 

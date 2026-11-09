@@ -77,7 +77,7 @@ hide: []
 
 There are three ways an order can be canceled. Choose the one that fits your situation.
 
-### Cancel an Order Manually { #orders-cancel-merchant }
+### Cancel an Order Manually { #operate-cancel-merchant }
 
 === ":lucide-receipt: Regular Orders"
 
@@ -103,7 +103,7 @@ There are three ways an order can be canceled. Choose the one that fits your sit
         - Returns coupons
         - Adds the product inventory back
 
-=== ":simple-stryker: Shop.com Orders"
+=== "stryker: Shop.com Orders"
 
     Canceling a Shop.com order also requires notifying the Shop.com system, so the process is slightly different from regular orders.
 
@@ -139,11 +139,11 @@ There are three ways an order can be canceled. Choose the one that fits your sit
 
 ---
 
-### Customer Cancels on the Storefront { #orders-cancel-customer }
+### Customer Cancels on the Storefront { #operate-cancel-customer }
 
 [:lucide-layout-dashboard:{ title="Applicable Features" }](../../../resources/conventions.md#conventions-features) | Drag-and-Drop Themes
 
-You can choose whether customers can cancel unshipped orders themselves on the storefront. If this is turned off, customers can only [ask you to cancel](#orders-cancel-merchant).
+You can choose whether customers can cancel unshipped orders themselves on the storefront. If this is turned off, customers can only [ask you to cancel](#operate-cancel-merchant).
 
 **Setup**
 
@@ -177,16 +177,16 @@ After the feature is turned on, customers can:
 
     ![Confirm order cancellation](../../../assets/images/EC-前台-訂單查詢-取消訂單-確認視窗.en.png){ title="Confirm Order Cancellation" }
 
-4. **Done**: The order status changes to "Canceled" immediately, the system runs the follow-up processing ([points/inventory return](#post-cancel)), and the [order activity log](order-management-interface.md#order-history){ title="Order Management Interface" } records that the member canceled and why.
+4. **Done**: The order status changes to "Canceled" immediately, the system runs the follow-up processing ([points/inventory return](#specs-cancel-post-processing)), and the [order activity log](order-management-interface.md#reference-order-history){ title="Order Management Interface" } records that the member canceled and why.
 
     ![Order canceled](../../../assets/images/EC-前台-訂單查詢-已取消訂單.en.png){ title="Order Canceled" }
 
 
 ---
 
-### Automatic Cancellation by the System <small>Payment Timeout</small> { #orders-cancel-auto }
+### Automatic Cancellation by the System <small>Payment Timeout</small> { #operate-cancel-auto }
 
-To keep unpaid orders from holding inventory for too long, you can set a "payment deadline." When an order meets [certain conditions](#orders-cancel-auto-rules) and remains unpaid [past the deadline](#orders-cancel-auto-mechanism), the system automatically changes the order status to "Canceled."
+To keep unpaid orders from holding inventory for too long, you can set a "payment deadline." When an order meets [certain conditions](#specs-cancel-auto-rules) and remains unpaid [past the deadline](#specs-cancel-auto-mechanism), the system automatically changes the order status to "Canceled."
 
 **Steps**:
 
@@ -196,13 +196,13 @@ To keep unpaid orders from holding inventory for too long, you can set a "paymen
     - If not set or set to more than 29 days, virtual ATM accounts are valid for a maximum of 29 days.
 3.  **Save the settings**: Click "**Save**" at the bottom of the page, and the setting takes effect.
     - Once in effect, the rule applies to all unpaid orders, whether placed before or after the setting.
-4.  **Check the activity log** (optional): After cancellation, you can see the cancellation information the system recorded in the "[Activity Log](order-management-interface.md#order-history){ title="Order Management Interface" }" section of the order details page, for reconciliation and customer service.
+4.  **Check the activity log** (optional): After cancellation, you can see the cancellation information the system recorded in the "[Activity Log](order-management-interface.md#reference-order-history){ title="Order Management Interface" }" section of the order details page, for reconciliation and customer service.
 
 ![Automatic order cancellation settings](../../../assets/images/EC-金物流-結帳頁物流設定-訂單自動取消.en.png){ title="Automatic Order Cancellation Settings" }
 
 ---
 
-#### Rules and Conditions { #orders-cancel-auto-rules }
+#### Rules and Conditions { #specs-cancel-auto-rules }
 
 The system cancels only orders that meet all of these conditions:
 
@@ -213,7 +213,7 @@ The system cancels only orders that meet all of these conditions:
 
 ---
 
-#### How the System Runs { #orders-cancel-auto-mechanism }
+#### How the System Runs { #specs-cancel-auto-mechanism }
 
 The system scans and cancels orders in a batch every day at 01:00 AM.
 
@@ -226,7 +226,7 @@ The system scans and cancels orders in a batch every day at 01:00 AM.
 
 ---
 
-#### Online Payment Expiration <small>Virtual ATM / Convenience Store Code</small> { #orders-cancel-payment-code-expiry }
+#### Online Payment Expiration <small>Virtual ATM / Convenience Store Code</small> { #specs-cancel-payment-expiry }
 
 For payment methods that use a code, the "payment deadline" depends on the number of days set in the admin:
 
@@ -240,20 +240,20 @@ For payment methods that use a code, the "payment deadline" depends on the numbe
     - **Maximum**: If you don't set cancellation days or set more than 29 days, virtual ATM accounts are valid for a maximum of 29 days (until 23:59).
     - **Manual cancellation exception**: If you or a member cancels an order "manually," codes/accounts already created don't expire automatically. If the customer pays within the validity period, the order changes back to "In Progress," and you can continue shipping or issue a refund.
 
-## Bonus Points and Discounts After Cancellation { #post-cancel }
+## Bonus Points and Discounts After Cancellation { #specs-cancel-post-processing }
 
 *   **Bonus points**: After an order is canceled, the system **automatically returns** the bonus points the customer redeemed in the order to their account.
     *   *Note*: If the order was closed and bonus points were already issued, the system doesn't automatically deduct the earned bonus points after cancellation. You need to remove them manually.
 *   **Coupons**: Coupons used in the order are also **automatically returned** to the customer.
 *   **Inventory**: After cancellation, product inventory is **automatically added back**.
 
-## Special Cases { #special-cancel }
+## Special Cases { #specs-cancel-special }
 
 <div class="grid cards" markdown>
 
-- :lucide-barcode:{ .lg } [__Virtual ATM and Convenience Store Codes__](#orders-cancel-payment-code-expiry)  
+- :lucide-barcode:{ .lg } [__Virtual ATM and Convenience Store Codes__](#specs-cancel-payment-expiry)
 
-- :simple-stryker:{ .lg } [__Shop.com Orders__](#stryker-美安訂單)  
+- :simple-stryker:{ .lg } [__Shop.com Orders__](#simple-stryker: Shop.com Orders)  
 
 <!-- - :lucide-repeat:{ .lg }   -->
 <!--   __Subscription Orders__   -->
@@ -261,7 +261,7 @@ For payment methods that use a code, the "payment deadline" depends on the numbe
 <!---->
 <!-- - :material-point-of-sale:{ .lg }   -->
 <!--   __POS Orders__   -->
-<!--   For in-store orders, find the order on the POS front end and run "[Cancel Order](../../../pos/orders/manage-general-orders.md#取消訂單)." If an invoice was issued, the system voids it or creates an allowance based on the cancellation time. -->
+<!--   For in-store orders, find the order on the POS front end and run "[Cancel Order](../../../pos/orders/manage-general-orders.md#operate-general-orders-cancel)." If an invoice was issued, the system voids it or creates an allowance based on the cancellation time. -->
 
 </div>
 
@@ -278,7 +278,7 @@ For payment methods that use a code, the "payment deadline" depends on the numbe
   If the order has shipped and can't be canceled, use the return process to get the items back and refund.
 
 - :lucide-file-text:{ .lg }  
-  [__Order Activity Log__](order-management-interface.md#order-history){ title="Order Management Interface" }  
+  [__Order Activity Log__](order-management-interface.md#reference-order-history){ title="Order Management Interface" }
   See the history of order status changes and who made them, for reconciliation and customer service.
 
 </div>

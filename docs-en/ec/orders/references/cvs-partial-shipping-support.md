@@ -51,7 +51,7 @@ hide:
 ---
 
 
-### Convenience Store Logistics That Support Partial Shipment { #cvs-partial-support-supported }
+### Convenience Store Logistics That Support Partial Shipment { #reference-cvs-partial-supported }
 
 | Logistics Type | Description | Partial Shipment Flow |
 | :-- | :-- | :-- |
@@ -63,7 +63,7 @@ hide:
 | Hi-Life Store Pickup (B2C) | The merchant ships through convenience store logistics to the chosen store, and the customer picks it up (including cash on delivery) | First shipment through the convenience store; ship the rest with custom shipping |
 | Hi-Life Frozen Pickup | Convenience store pickup for frozen products | First shipment through the convenience store; ship the rest with custom shipping |
 
-### Logistics with a Separate Flow { #cvs-partial-support-other }
+### Logistics with a Separate Flow { #reference-cvs-partial-other }
 
 The following logistics are convenience store pickup, but they use the CYBERBIZ-managed shipping label flow, so they **can ship multiple times normally** (print a new shipping label each time). The "ship the second shipment with custom shipping" rule doesn't apply:
 

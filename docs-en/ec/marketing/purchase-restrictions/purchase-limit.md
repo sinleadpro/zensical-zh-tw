@@ -69,7 +69,7 @@ hide: []
 
 ![Limited Purchase Setting](../../../assets/images/ec-行銷活動-商品限購數量-hero.png){ .hero-page }
 
-## About Product Purchase Limits
+## About Product Purchase Limits { #overview-purchase-limit }
 
 Limited Purchase Setting lets you put products into purchase-limit Collections and set a purchase cap for each of the Collections. When customers check out on the storefront or at POS,
 the system checks quantities against the Collections rules and blocks checkout if the cap is exceeded. Customers **must log in** to buy limited products, which stops one person from placing many repeat orders.
@@ -151,7 +151,7 @@ Set these fields in the Collections edit section. Changes take effect right away
 
 [^3]: When Collections are hidden or deleted, their limit rules stop working immediately. If you later add the same product to new Collections, the new Collections rules apply.
 
-## Storefront Display <Small>Customer View</small>
+## Storefront Display <Small>Customer View</small> { #intro-purchase-limit }
 
 Once purchase limits are on, the system checks Collections rules when customers place an order. If the quantity exceeds the cap or the account status doesn't qualify (such as not logged in, not activated, or disabled), checkout is blocked with a message such as "These products: '…
   ' can only be purchased up to N…". For how account status is checked, see [Account Status and Purchase Permissions](../references/purchase-limit-account-status.md){ title="帳號狀態與購買權限對照表" }. This check applies to all frequencies (Permanent, Monthly, Yearly, Per Order).
@@ -186,7 +186,7 @@ Once purchase limits are on, the system checks Collections rules when customers 
 
 ---
 
-## Next Steps
+## Next Steps { #next-steps-purchase }
 
 <div class="grid cards" markdown>
 

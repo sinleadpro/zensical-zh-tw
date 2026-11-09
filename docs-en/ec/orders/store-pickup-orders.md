@@ -76,15 +76,15 @@ After a customer orders with **Store Pickup**, admins must ship the order in the
 !!! tip "Scope and Related Docs"
     This article applies only to shipping **regular store orders**. For stock-in and pickup of **POS store orders**, see [POS Store Stock-In and Pickup](../../pos/orders/store-pickup-orders-inbound-and-pickup.md).
 
-## Before You Start
+## Before You Start { #prerequisites-store-pickup }
 
 - **Shipping limit**: Store pickup orders support only **full shipment**. **Partial shipment isn't supported**.
 - **Plan limit**: This feature isn't available on the **Expert plan**.
 
 
-## Steps
+## Steps { #operate-store-pickup }
 
-### Ship Orders
+### Ship Orders { #operate-store-pickup-fulfill }
 
 1. Sign in to the CYBERBIZ admin and go to **Orders > All Orders**.
 
@@ -104,10 +104,10 @@ After a customer orders with **Store Pickup**, admins must ship the order in the
 
 
 
-## Common Scenarios
+## Common Scenarios { #operate-store-pickup-exceptions }
 
 
-### Cancel an Order
+### Cancel an Order { #operate-store-pickup-cancel }
 
 === "Merchant"
 

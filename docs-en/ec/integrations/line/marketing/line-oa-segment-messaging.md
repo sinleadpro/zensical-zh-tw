@@ -73,13 +73,13 @@ hide: []
 
 ![LINE OA Segment Messaging](../../../../assets/images/ec-訊息推播-lineoa-訊息.en.png){ .hero-page title="LINE OA Segment Messaging" }
 
-## LINE OA Segment Messaging Guide
+## LINE OA Segment Messaging Guide { #overview-line-segment }
 
 **LINE OA Segment Messaging** lets merchants send targeted messages to members with specific tags, improving conversion rates and reducing unnecessary messaging costs.
 
 Below are detailed instructions and a walkthrough:
 
-## Prerequisites
+## Prerequisites { #prerequisites-line-segment }
 
 Before using segment messaging, make sure you complete the following setup:
 
@@ -88,7 +88,7 @@ Before using segment messaging, make sure you complete the following setup:
 - [x] **Confirm friend status**: Only **LINE OA friends** (who have not blocked the Official Account) can successfully receive messages.
 - [x] **Messaging fees**: The LINE push service bills according to the message plan you set for your LINE Official Account. Manual pushes and automated notifications are both paid items, and only successfully sent messages are billed.
 
-## Steps to Send Segment Messages Manually
+## Steps to Send Segment Messages Manually { #operate-line-segment }
 
 1.  **Admin path**: Go to the admin dashboard and click **Push Notifications > LINE OA Send Messages**.
 2.  **Set customer tags**: In the "Customer Tags" field, select the tags for the audience you want to message (required). The system automatically filters members who match the tags and have a UID.
@@ -98,7 +98,7 @@ Before using segment messaging, make sure you complete the following setup:
 
 ![Segment message sending steps](../../../../assets/images/ec-訊息推播-lineoa訊息-操作.en.gif){ title="Segment Message Sending Steps" }
 
-## Next Steps
+## Next Steps { #next-steps-line-segment }
 
 <div class="grid cards" markdown>
 
@@ -108,7 +108,7 @@ Set up automatic messages to "VIP Members," "Potential Loyal Customers," or "Dor
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-line-segment }
 
 ??? quote "Why do members have UID records but not receive LINE push messages?"
     Message delivery failures usually fall into three main causes. Check them in order:

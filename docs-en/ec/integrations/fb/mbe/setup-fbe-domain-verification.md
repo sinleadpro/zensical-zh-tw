@@ -66,23 +66,23 @@ hide: []
 
 ![Business Manager Domain Verification](../../../../assets/images/ec-第三方整合-meta商家資產管理平台-驗證網域.en.png){ .hero-page }
 
-## Facebook Domain Verification Guide
+## Facebook Domain Verification Guide { #operate-fbe-domain }
 
 **Facebook Domain Verification** is designed to let you claim domain ownership in Business Manager. This lets you control link editing permissions, improve ad performance, and prevent others from misusing your website.
 
-## Prerequisites and Limitations
+## Prerequisites and Limitations { #prerequisites-fbe-domain }
 
 - [x] First, [enable Facebook Business Extension and related asset connections](setup-fbe-authorization.md){ title=" set up FBE account authorization and asset connections" }.
 
-## Choose a Domain Verification Method
+## Choose a Domain Verification Method { #operate-fbe-domain-verification }
 
-Domain verification has two main methods: [DNS verification](#dns-驗證-建議使用) and [meta tag verification](#中繼標籤驗證-meta-tag).
+Domain verification has two main methods: [DNS verification](#operate-fbe-domain-steps-dns-verification-use) and [meta tag verification](#operate-fbe-domain-steps-verification-meta-tag).
 
 !!! info "We recommend using DNS verification first. Meta tag verification requires editing backend code. If you make a mistake, the platform provider is not responsible for changes to backend program code. For more verification information, see the [official documentation :lucide-external-link:](https://zh-tw.facebook.com/business/help/321167023127050)."
 
-## Setup Steps
+## Setup Steps { #operate-fbe-domain-steps }
 
-### DNS Verification <small>Recommended</small>
+### DNS Verification <small>Recommended</small> { #operate-fbe-domain-steps-dns-verification-use }
 
 1.  **Go to Business Manager**: Log in to [Business Manager :lucide-external-link:](https://business.facebook.com/latest/settings), click "Settings" > "Brand Safety and Suitability" > "Domains," and add your primary domain name.
 
@@ -96,7 +96,7 @@ Domain verification has two main methods: [DNS verification](#dns-驗證-建議�
 
     === ":simple-gandi: GANDI"
 
-        1. First, complete [CNAME and redirect setup](../../../website-management/domain-management.md#各大廠商-dns-設定指引) in { title="Domain Management" }
+        1. First, complete [CNAME and redirect setup](../../../website-management/domain-management.md#operate-domain-mgmt-dns) in { title="Domain Management" }
         2. Log in to the [Gandi Dashboard :lucide-external-link:](https://admin.gandi.net/), go to "Zone File Records," add a TXT record, enter `@` in the name field, and paste the copied TXT code in the value field.
 
         ![](../../../../assets/images/ec-第三方整合-meta企業管理平台-dnd-txt紀錄新增-gandi.en.png)
@@ -109,7 +109,7 @@ Domain verification has two main methods: [DNS verification](#dns-驗證-建議�
 
     === "HiNet"
 
-        1. Complete [CNAME and redirect](../../../website-management/domain-management.md#各大廠商-dns-設定指引) in { title="Domain Management" }.
+        1. Complete [CNAME and redirect](../../../website-management/domain-management.md#operate-domain-mgmt-dns) in { title="Domain Management" }.
         2. Log in to the [HiNet website :lucide-external-link:](https://domain.hinet.net/#/), go to "My Domains" > "Redirect Service" > "Set Up Redirect," and copy the A record IP.
 
             ![HiNet-Copy A Record IP](../../../../assets/images/ec-第三方整合-meta企業管理平台-更新dns-hinet-複製a紀錄ip.en.png)
@@ -137,7 +137,7 @@ Domain verification has two main methods: [DNS verification](#dns-驗證-建議�
 
     ![Business Manager-Verification Successful](../../../../assets/images/ec-第三方整合-meta商家資產管理平台-驗證成功.en.png)
 
-### Meta Tag Verification <small>Meta-tag</small>
+### Meta Tag Verification <small>Meta-tag</small> { #operate-fbe-domain-steps-verification-meta-tag }
 
 1.  **Get the code**: In Business Manager, go to the "Domains" page under "Brand Safety and Suitability," click "Meta-tag Verification," and copy the entire code.
 
@@ -153,7 +153,7 @@ Domain verification has two main methods: [DNS verification](#dns-驗證-建議�
     Facebook only verifies redirected URLs (for example, `yourname.com` redirects to `www.yourname.com`). Subdomains must have a CNAME pointing to `yourname.cyberbiz.co`.
 
 
-## Next Steps
+## Next Steps { #next-steps-fbe-domain }
 
 <div class="grid cards" markdown>
 
@@ -163,7 +163,7 @@ Domain verification has two main methods: [DNS verification](#dns-驗證-建議�
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-fbe-domain }
 
 ??? quote "Why do I need to complete domain verification before I can set up events?"
 

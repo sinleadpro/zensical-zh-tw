@@ -77,16 +77,16 @@ Install the Posiflex invoice printer, including driver installation, hardware co
 { .doc-badge }
 
 
-## Before You Begin
+## Before You Begin { #prerequisites-posiflex-printer }
 
 - **Software environment**: The CYBERBIZ POS driver must stay open. **Do not close the window** (you can minimize it).
 - **Hardware time**: Invoice issue times follow the **POS computer's hardware clock**. Make sure the computer's time zone and time are correct.
 - **Key requirement**: If you use the Mengli e-invoice service, provide the **Mengli channel key** to CYBERBIZ customer service before you install the invoice printer.
 
 
-## Setup Procedure
+## Setup Procedure { #operate-posiflex-printer }
 
-### Step 1: Install the Driver and Prepare the Hardware
+### Step 1: Install the Driver and Prepare the Hardware { #operate-posiflex-printer-step-a-install }
 
 1. **Installer**: Download and install the [CYBERBIZ POS driver](../software/drivers.md).
 
@@ -116,7 +116,7 @@ Install the Posiflex invoice printer, including driver installation, hardware co
 
     ![](../../assets/images/POS-安裝-Posiflex有線發票機-開機01.en.jpg){ .small-image }
 
-### Step 2: Connect and Bind the System
+### Step 2: Connect and Bind the System { #operate-posiflex-printer-step-b-connection }
 
 1. **USB connection**: Connect the invoice printer to the computer with a USB cable.
 
@@ -136,7 +136,7 @@ Install the Posiflex invoice printer, including driver installation, hardware co
 
     ![](../../assets/images/POS-驅動程式-連線有線發票機02.en.png){ .screenshot }
 
-### Step 3: Connection and Print Test
+### Step 3: Connection and Print Test { #operate-posiflex-printer-step-c-connection }
 
 1. **Quick test**: In the driver window, **click here** to run a quick test. The invoice printer should print a short test receipt.
 
@@ -168,7 +168,7 @@ Install the Posiflex invoice printer, including driver installation, hardware co
 
     </div>
 
-### Step 4: Configure Invoice Issuing Settings
+### Step 4: Configure Invoice Issuing Settings { #operate-posiflex-printer-step-d-issue }
 
 Go to **POS > POS Store List**, select the target store, click **Edit POS Settings**, and complete the issuing preferences.
 
@@ -180,7 +180,7 @@ Go to **POS > POS Store List**, select the target store, click **Edit POS Settin
 
 ![](../../assets/images/POS-後台-所有POS商店-修改POS子機發票設定01.en.png){ .screenshot }
 
-## Paper Roll and Consumable Information
+## Paper Roll and Consumable Information { #overview-posiflex-printer }
 
 If you bought the invoice printer from CYBERBIZ, the machine includes two test rolls of paper. For future purchases, buy paper that meets the following specifications:
 
@@ -190,7 +190,7 @@ If you bought the invoice printer from CYBERBIZ, the machine includes two test r
 
 ![](../../assets/images/POS-裝置-有線發票機紙捲01.en.png){ .screenshot }
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-posiflex-printer }
 
 ??? quote "Why does the driver show 'Registered devices: 0, 1 issue to fix'?"
     ![](../../assets/images/POS-驅動程式-疑難排解1-1.en.png){ .screenshot }

@@ -59,7 +59,7 @@ comments: false
 
 ![Google Ads Enhanced Conversions](../../../assets/images/ec-第三方整合-google-googleads強化轉換.en.png){ .hero-page }
 
-## Overview
+## Overview { #overview-google-ads-enhanced }
 
 **Enhanced Conversions** is an advanced Google Ads feature. After a user completes a conversion (such as a purchase or form submission), it gives the system more detailed behavior data, which helps optimize and improve ad performance.
 
@@ -68,12 +68,12 @@ comments: false
     *   **Data recovery**: When a user interacts with your ad and then completes a conversion on your website, Enhanced Conversions links cross-device behavior more accurately. This recovers tracking data that would otherwise be lost due to privacy regulations or cookie restrictions.
     *   **Optimize ad bidding**: By sending more accurate conversion signals back to Google Ads, Enhanced Conversions helps the Google Ads AI machine learning models optimize ad delivery and bidding strategies more effectively.
 
-## Prerequisites and Limitations
+## Prerequisites and Limitations { #prerequisites-google-ads-enhanced }
 
 1.  **Applicable plan**: This feature is exclusively for **CYBERBIZ Enterprise** merchants.
 2.  **Prerequisites**: Before you set up Enhanced Conversions, make sure you have completed the basic setup in the [Google Ads Conversion Tracking](setup-google-ads-conversion-tracking.md){ title=" Set Up Google Ads Conversion Tracking" } tutorial.
 
-## Steps <small>Google Ads Side</small>
+## Steps <small>Google Ads Side</small> { #operate-google-ads-enhanced }
 
 Sign in to your Google Ads account and follow the steps below:
 
@@ -84,7 +84,7 @@ Sign in to your Google Ads account and follow the steps below:
 
 ![Turn on Enhanced Conversions in Google Ads](../../../assets/images/ec-第三方整合-google-googleads啟用強化轉換.en.png)
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-google-ads-enhanced }
 
 ??? quote "Who can use Enhanced Conversions?"
     Enhanced Conversions is available only to **CYBERBIZ Enterprise** merchants. Other plans cannot use this feature.

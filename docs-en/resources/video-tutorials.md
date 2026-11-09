@@ -16,7 +16,7 @@ permalink: "https://help.cyberbiz.io/resources/video-tutorials/"
 icon: lucide/play
 plan_options: []
 ---
-## Course Platforms { #course-platforms }
+## Course Platforms { #reference-video-course-platforms }
 
 One-stop video courses—from system operations to ecommerce strategy—for every learning stage.
 
@@ -62,7 +62,7 @@ One-stop video courses—from system operations to ecommerce strategy—for ever
 
 * * *
 
-## Online Workshops { #online-workshops }
+## Online Workshops { #reference-video-online-workshops }
 
 Recordings of CYBERBIZ Meta ads webinars taught by product managers and specialists.
 
@@ -96,7 +96,7 @@ Recordings of CYBERBIZ Meta ads webinars taught by product managers and speciali
 
 * * *
 
-## Quick Tutorial Videos { #quick-videos }
+## Quick Tutorial Videos { #reference-video-quick }
 
 Selected how-to clips across platforms for specific features.
 

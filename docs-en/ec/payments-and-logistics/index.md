@@ -14,7 +14,7 @@ hide:
   - feedback
 ---
 
-## Checkout and Logistics Settings
+## Checkout and Logistics Settings { #overview-payments-hub-checkout }
 
 <div class="grid cards" markdown>
 
@@ -30,7 +30,7 @@ hide:
 
 ---
 
-## Payment Services
+## Payment Services { #overview-payments-hub-payments }
 
 <div class="grid cards" markdown>
 
@@ -110,7 +110,7 @@ hide:
 
 ---
 
-## Home Delivery Logistics
+## Home Delivery Logistics { #overview-payments-hub-home }
 
 <div class="grid cards" markdown>
 
@@ -134,7 +134,7 @@ hide:
 
 ---
 
-## Convenience Store Logistics
+## Convenience Store Logistics { #overview-payments-hub-cvs }
 
 <div class="grid cards" markdown>
 
@@ -182,7 +182,7 @@ hide:
 
 ---
 
-## Waybill Settings
+## Waybill Settings { #overview-payments-hub-waybill }
 
 <div class="grid cards" markdown>
 
@@ -230,7 +230,7 @@ hide:
 
 ---
 
-## Store and Quick Delivery Services
+## Store and Quick Delivery Services { #overview-payments-hub-store }
 
 <div class="grid cards" markdown>
 
@@ -262,7 +262,7 @@ hide:
 
 ---
 
-## Cross-Border E-Commerce
+## Cross-Border E-Commerce { #overview-payments-hub-xb }
 
 <div class="grid cards" markdown>
 

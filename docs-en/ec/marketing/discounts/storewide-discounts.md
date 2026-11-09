@@ -81,16 +81,16 @@ Learn how to create store-wide promotions, including Amount discounts, Percentag
 	- **Drive repeat purchases**: Set up "Spend a threshold, get a coupon" so customers get a discount for next time after completing an order.
 
 
-## Before You Start
+## Before You Start { #prerequisites-discount }
 
 - **Best discount wins**: If several "Amount" and "Percentage" store-wide promotions are active, the system automatically applies the one with the highest discount Amount.
 - **When coupons activate**: Threshold coupons (one per order) are added to the customer's account when the order is placed, but activate only after the order is completed.
 - **Return restriction**: If the order status is Returned, Partially Returned, Not Picked Up, or Refunded, the system won't activate the coupon (issued per order) after the order is completed.
 
 
-## Steps
+## Steps { #operate-discount }
 
-### Create An Amount Or Percentage Discount
+### Create An Amount Or Percentage Discount { #operate-discount-create-amount-discount }
 Reduce the Amount of the current order directly.
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > 全館折扣-紅利 & 優惠券**.
@@ -134,9 +134,9 @@ Reduce the Amount of the current order directly.
 
 
 
-## How The System Decides
+## How The System Decides { #specs-discount }
 
-### Multiple Threshold Rules (One Coupon Per Order)
+### Multiple Threshold Rules (One Coupon Per Order) { #specs-discount-rules }
 
 When you set up several "spend and get a coupon" promotions with different thresholds, the system gives only one coupon for the **highest threshold met** (per order). Coupons don't stack (not one per threshold).
 

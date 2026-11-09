@@ -72,7 +72,7 @@ hide: []
 
 ![Color variant settings](../../../assets/images/ec-商品-顏色款式設定.en.png){ title="Color Variant Settings" .hero-page }
 
-## About Product Color Swatches
+## About Product Color Swatches { #intro-product-swatches }
 
 The **color swatch feature** lets customers click a specific variant (such as a color, outfit, or option) while browsing a product on the storefront and instantly see the images for that variant. This helps customers understand product details and increases purchase intent.
 
@@ -80,7 +80,7 @@ The **color swatch feature** lets customers click a specific variant (such as a 
     *   **Bonus Mall** does not currently support color swatches.
     *   To make product images in your Facebook shop change correctly with the color as well, we strongly recommend turning on this feature and placing images in color order.
 
-## Prerequisites and Limits
+## Prerequisites and Limits { #prerequisites-product-swatches }
 
 - [x] This feature is **available only to users of the drag-and-drop theme**.
 - [x] It applies to plans that support the drag-and-drop theme, such as Enterprise and PLUS.
@@ -88,9 +88,9 @@ The **color swatch feature** lets customers click a specific variant (such as a 
 !!! info "Default Theme Users"
     If you use the default theme, see [Set Up Product Color Swatches and Variant Images - Default Theme](product-swatches-variant-images-default.md){ title="Set Up Product Color Swatches and Variant Images - Default Theme" }.
 
-## Steps
+## Steps { #operate-product-swatches-steps }
 
-### Admin Settings
+### Admin Settings { #operate-product-swatches-admin }
 
 1. **Open the product edit page**: Go to **Products > All Products** and click **Add Product** or search for and select an existing product to open the edit page.
 1.  **Create a multiple variant product**:
@@ -115,16 +115,16 @@ The **color swatch feature** lets customers click a specific variant (such as a 
 
     ![Color variant images](../../../assets/images/ec-商品-商品圖片-顏色款式.en.png){ title="Color Variant Images" }
 
-5.  **Save and preview**: When you are done, click "Save Settings" at the top, then click "Go to Product Page" to see the [storefront display](#Storefront-Display).
+5.  **Save and preview**: When you are done, click "Save Settings" at the top, then click "Go to Product Page" to see the [storefront display](#specs-product-swatches-front).
 
     ![Go to Product Page](../../../assets/images/ec-商品-商品編輯頁-前往該商品.en.png){ title="Go to Product Page" }
 
 ---
 
-### Show Swatches on Storefront Product List Pages <small>Global Setting</small> { #enable-swatch-on-product-list }
+### Show Swatches on Storefront Product List Pages <small>Global Setting</small> { #operate-product-swatches }
 
 !!! plan "Prerequisites and Limits"
-    - [x] You have completed the [admin settings](#Admin-Settings)
+    - [x] You have completed the [admin settings](#operate-product-swatches-admin)
     - [x] You have the **Enterprise** plan
 
 To show swatch thumbnails on product list pages (such as collection pages and multi-level product category pages), complete the following global settings:
@@ -136,7 +136,7 @@ To show swatch thumbnails on product list pages (such as collection pages and mu
 
 ![Swatch cards on a collection page](../../../assets/images/ec-網站外觀-全站設定-商品色票小卡-商品群組頁.en.png){ title="Swatch Cards on a Collection Page" }
 
-## Storefront Display
+## Storefront Display { #specs-product-swatches-front }
 
 On the product page, swatch thumbnails for each color variant appear below the product, so customers can click to preview how each variant looks.
 
@@ -150,7 +150,7 @@ On the product page, swatch thumbnails for each color variant appear below the p
 
     ![Color variant selected](../../../assets/images/ec-商品-顏色款式已選擇-前台.en.png){ title="Color Variant Selected" }
 
-## Next Steps
+## Next Steps { #next-steps-product-swatches }
 
 <div class="grid cards" markdown>
 
@@ -161,7 +161,7 @@ On the product page, swatch thumbnails for each color variant appear below the p
 </div>
 
 
-## FAQ
+## FAQ { #faq-product-swatches }
 
 ??? quote "Does Bonus Mall support color swatches?"
 

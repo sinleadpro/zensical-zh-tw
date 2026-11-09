@@ -58,17 +58,17 @@ hide: []
 
 ![SMS Sending History page](../../assets/images/ec-訊息推播-簡訊發送紀錄.en.png){ .hero-page }
 
-## About SMS Sending History
+## About SMS Sending History { #intro-sms-records }
 
 The SMS Sending History page shows your store's SMS history, including send time, recipient mobile number, message content, and cost.
 
-## Open The Page
+## Open The Page { #operate-sms-records }
 
 Log in to the CYBERBIZ admin and go to **Push Notifications > SMS Sending History**.
 
-## Filter And Search
+## Filter And Search { #operate-sms-records-filter }
 
-### Date Range
+### Date Range { #operate-sms-records-date-range }
 
 - Shows the last 90 days of records by default
 - Click the date field to set a custom range
@@ -77,7 +77,7 @@ Log in to the CYBERBIZ admin and go to **Push Notifications > SMS Sending Histor
 
 ---
 
-### Keyword Search
+### Keyword Search { #operate-sms-records-keyword }
 
 The search box supports two types of search:
 
@@ -92,7 +92,7 @@ The search box supports two types of search:
     - Enter the full mobile number. Partial numbers return no results.
     - Message content only matches the beginning of the text. For example, searching "Order" finds "Order shipped" but not "Your order".
 
-## Columns
+## Columns { #specs-sms-records }
 
 
 | Column | Description |
@@ -109,7 +109,7 @@ The search box supports two types of search:
 !!! warning "Note"
     Each search shows up to 10,000 records. For large amounts of data, narrow the date range and search in parts.
 
-## Next Steps
+## Next Steps { #next-steps-sms-records }
 
 <div class="grid cards" markdown>
 
@@ -123,7 +123,7 @@ The search box supports two types of search:
 
 </div>
 
-## FAQ
+## FAQ { #faq-sms-records }
 
 ??? quote "Why can't I find records after entering a member's mobile number?"
 
@@ -131,9 +131,9 @@ The search box supports two types of search:
 
 ??? quote "What if an SMS fails to send?"
 
-    If an SMS fails because of a "wrong number" or a "carrier issue", it won't be delivered. For details, see the [SMS sending rules](send-sms-notifications-v2.md#sms-sending-rules){ title="設定與發送簡訊通知" }.
+    If an SMS fails because of a "wrong number" or a "carrier issue", it won't be delivered. For details, see the [SMS sending rules](send-sms-notifications-v2.md#prerequisites-sms-send){ title="設定與發送簡訊通知" }.
 
 ??? quote "How far back can I search?"
 
-    The last **90 days** of records are shown by default. For older data, set a custom range in [Date range](#date-range){ data-preview }.
+    The last **90 days** of records are shown by default. For older data, set a custom range in [Date range](#operate-sms-records-date-range){ data-preview }.
 

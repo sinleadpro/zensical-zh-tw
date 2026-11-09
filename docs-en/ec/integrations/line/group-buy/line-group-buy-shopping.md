@@ -63,11 +63,11 @@ icon: lucide/shopping-cart
 hide: []
 ---
 
-## LINE Group Buy Shopping Guide
+## LINE Group Buy Shopping Guide { #overview-line-shopping }
 
 Customers who use the group buy feature are **members of a LINE group or multi-person chat room**. They mainly shop and check out by interacting with the **group buy bot**.
 
-## Prerequisites
+## Prerequisites { #prerequisites-line-shopping }
 
 Before guiding customers to use the group buy feature, make sure the following settings are complete in the merchant back office:
 
@@ -75,7 +75,7 @@ Before guiding customers to use the group buy feature, make sure the following s
 - [x] **Group Buy Product Setup**: Completed [LINE Group Buy Product Setup](setup-line-group-buy-products.md){ title="Set Up LINE Group Buy Products" }, and set the group buy prices.
 - [x] **Group Buy Group Setup**: Completed [LINE Group Buy Group Setup](setup-line-group-buy-group.md){ title="Set Up LINE Group Buy Group" }, and configured the product categories, profit sharing, and campaign period.
 
-## How to Trigger the Group Buy Feature
+## How to Trigger the Group Buy Feature { #intro-line-shopping }
 
 Customers can start shopping in one of two ways:
 
@@ -89,7 +89,7 @@ Customers can start shopping in one of two ways:
 
 ![](../../../../assets/images/ec-第三方整合-line團購-喚醒選單.en.png)
 
-## Browse and Select Products
+## Browse and Select Products { #intro-line-shopping-product }
 
 After entering the group buy product list, customers follow these steps:
 
@@ -101,7 +101,7 @@ After entering the group buy product list, customers follow these steps:
 
 ![](../../../../assets/images/ec-第三方整合-line團購-搜尋商品並結帳.en.png)
 
-## Checkout and Payment Process
+## Checkout and Payment Process { #operate-line-shopping }
 
 1.  **Go to the Cart/Checkout Page**:
     *   Customers can tap "**Go to Checkout**" in the bot menu.
@@ -114,12 +114,12 @@ After entering the group buy product list, customers follow these steps:
 
 ![](../../../../assets/images/ec-第三方整合-line團購-加入好友.en.png)
 
-## Usage Notes
+## Usage Notes { #operate-line-shopping-operate }
 
 *   **Supported Environments**: This feature is available only in **LINE groups** or **multi-person chat rooms**. Because LINE communities (OpenChat) are anonymous, they are not currently supported.
 *   **Account Binding**: The system uses LIFF to automatically apply the customer's LINE account information for quick sign-in, making the shopping process smoother.
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-line-shopping }
 
 ??? quote "Why does nothing happen when I type group buy in a LINE community (OpenChat)?"
     The LINE group buy bot currently supports only LINE groups and multi-person chat rooms. Because LINE communities are anonymous, the LINE official API restricts some bot functions and information access in that environment, so the bot cannot be used there.
@@ -134,7 +134,7 @@ After entering the group buy product list, customers follow these steps:
     - Browser environment: Make sure customers open the link directly within the LINE app, not copy the URL into an external browser (such as Safari or Chrome), so that the LIFF automatic sign-in works.
 
 ??? quote "Where can merchants view an order after the customer places it?"
-    Merchants can sign in to the CYBERBIZ admin back office > Order Management > All Orders, then search and filter by "Order Source" or view order tags to identify orders from the LINE group buy channel. For details, see [](setup-line-group-buy-group.md#訂單查看與紀錄管理).md#order-viewing-and-record-management){ title="Set Up LINE Group Buy Group" }.
+    Merchants can sign in to the CYBERBIZ admin back office > Order Management > All Orders, then search and filter by "Order Source" or view order tags to identify orders from the LINE group buy channel. For details, see [](setup-line-group-buy-group.md#reference-line-group){ title="Set Up LINE Group Buy Group" }.
 
 ??? quote "Can the group buy bot operate in multiple groups at the same time?"
     Yes. As long as the bot has been invited to the group and the merchant back office has completed the group's binding and campaign setup, the bot can provide shopping guidance in multiple groups at the same time.

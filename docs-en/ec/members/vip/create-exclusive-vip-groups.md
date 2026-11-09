@@ -60,19 +60,19 @@ Use the VIP group Tags feature to bind Tags to specific customer segments and se
 
 ![](../../../assets/images/EC-後台-會員-VIP設定-新增VIP群組01.en.png){ .hero-page }
 
-## Feature Overview
+## Feature Overview { #intro-vip-groups }
 
 The "VIP Group Tags" feature lets merchants apply a set of tier rules separate from the "All VIP" rules to members with a specific **member Tags**. This is useful for managing specific customer segments, such as employees, KOLs, and high-value customers.
 
-### VIP Type Differences
+### VIP Type Differences { #intro-vip-groups-types }
 
 1.  **All VIP**: Applies to all members who are not assigned to a specific group.
 2.  **VIP Group**: Binds a specific **member Tags** and is available only to members with that Tags.
 
 
-## Procedure
+## Procedure { #operate-vip-groups }
 
-### Step 1: Create A VIP Group And Bind An Tags
+### Step 1: Create A VIP Group And Bind An Tags { #operate-vip-groups-create }
 
 1. Log in to the admin panel and go to **Customer Management > VIP Settings**.
 2. Click the **Version In Editing** tab.
@@ -80,29 +80,29 @@ The "VIP Group Tags" feature lets merchants apply a set of tier rules separate f
 4. From the **Bind Member Tags** drop-down menu, select a previously created member Tags.
 5. Set the tier thresholds and benefits for the group.
 
-### Step 2: Adjust Group Order
+### Step 2: Adjust Group Order { #operate-vip-groups-sort }
 
 1. On the VIP Settings list page, find the ordering controls on the right.
 2. Drag the groups or adjust their numbers so that their priorities match your business strategy.
 3. Click **Save Order**.
 
 
-## How It Works And Evaluation Rules
+## How It Works And Evaluation Rules { #specs-vip-groups }
 
-### 1. Recalculation Triggers
+### 1. Recalculation Triggers { #specs-vip-groups-trigger }
 The system recalculates a member's VIP tier in the following situations:
 
 *   **Tags Changes**: When a merchant **adds** or **removes** an Tags bound to a VIP group for a member.
 *   **Valid Order**: When the member places a new valid order.
 
-### 2. Priority And Order
+### 2. Priority And Order { #specs-vip-groups-priority }
 If a member has multiple customer Tags values, and these Tags values are bound to different VIP groups:
 
 *   **Order Determines Priority**: The system uses the **order** of the VIP list in the admin panel.
 *   **Evaluation Logic**: The system evaluates groups upward from the **bottom** of the list. The first eligible group determines the rules that apply to the member.
 *   **Recommendation**: Place the group with the strictest requirements and highest benefits at the bottom of the list.
 
-### 3. Determine Member Eligibility
+### 3. Determine Member Eligibility { #specs-vip-groups-eligibility }
 The system checks the Upgrade requirements for the lowest tier, or entry tier, in the VIP group.
 
 - **Meets the Threshold:** The member formally enters the VIP group and receives the corresponding tier based on their spending. The member can be upgraded directly to the highest tier.
@@ -113,7 +113,7 @@ The system checks the Upgrade requirements for the lowest tier, or entry tier, i
 
 
 
-## Calculation Rules When Adding Or Removing An Tags
+## Calculation Rules When Adding Or Removing An Tags { #specs-vip-groups-tags }
 
 When a merchant manually adjusts a member's Tags, the system uses the following calculation logic:
 
@@ -127,7 +127,7 @@ When a merchant manually adjusts a member's Tags, the system uses the following 
 
 
 
-## FAQ
+## FAQ { #faq-vip-groups }
 
 ??? quote "Why does a member with an Tags not enter the corresponding VIP group?"
     Check whether the member meets the Upgrade threshold for the "lowest tier" in the VIP group. Even with a bound Tags, the member must meet the spending threshold, either for a single purchase or cumulative spending, before they are formally Upgrade.

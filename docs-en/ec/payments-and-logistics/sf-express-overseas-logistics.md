@@ -80,7 +80,7 @@ Integrate SF Express overseas logistics through the CYBERBIZ backend to create c
 [:lucide-tag:{ title="Applicable plans" }](../../resources/conventions#適用方案) | Pro / Business
 { .doc-badge }
 
-## Usage Notes
+## Usage Notes { #prerequisites-sf-overseas }
 
 - **Supported regions**: Mainly ships from Taiwan to China, Hong Kong, Macau, and international regions. The countries we can ship to may change with international conditions. For any changes, see [Shipping Information Lookup](https://htm.sf-express.com/tw/tc/dynamic_function/range/).
 - **Prerequisite**: To ship to regions **outside China, Hong Kong, and Macau**, you need the **Multi-Country** feature. If you need it, contact CYBERBIZ customer service.
@@ -91,9 +91,9 @@ Integrate SF Express overseas logistics through the CYBERBIZ backend to create c
 - **Latest information**: For the latest rules, refer to the SF Express website announcements.
 
 
-## Prerequisites
+## Prerequisites { #operate-sf-overseas-setup }
 
-### Step 1: Verify Company English Name
+### Step 1: Verify Company English Name { #operate-sf-overseas-verify-name }
 
 1. Log in to the CYBERBIZ backend and go to **Website Management > General**.
 2. Enter your company's **Unified Business Number**.
@@ -102,26 +102,26 @@ Integrate SF Express overseas logistics through the CYBERBIZ backend to create c
 
 ![](../../assets/images/EC-後台-管理中心-一般設定-填寫國貿局進出口廠商英文名01.en.png)
 
-### Step 2: Set up English Product Names
+### Step 2: Set up English Product Names { #operate-sf-overseas-product-name }
 
 1. Go to **Products > All Products**.
 2. Click the :lucide-globe: **Multi-Language** button and switch the display language of the fields to `English`.
 3. Check all products you plan to sell cross-border, and make sure the English content is fully filled in for fields tagged with `English` (such as product name and description).
 
-## Shipping Operations
+## Shipping Operations { #operate-sf-overseas-ship }
 
-### Shipping Method
+### Shipping Method { #operate-sf-overseas-methods }
 
 - The shipping method is the same as for standard home-delivery waybills. See [Download SF Express Waybill](../orders/home-delivery/sf-express-shipping-v2.md#operate-sf-bulk-shipping).
 - The system automatically checks the recipient address. For Taiwan addresses, it prints a Chinese waybill. For overseas addresses, it prints an English waybill.
 
-### Deduction Mechanism
+### Deduction Mechanism { #specs-sf-overseas-billing }
 
 - **Pre-deducted fee**: When you print an SF Express overseas waybill, the system first deducts **150 CYBER coins** from your account.
 - **Final settlement**: The actual fee may be adjusted. Adjustments are based on the freight amount SF Express actually charges and are listed on the statement for that billing period.
 
 
-### Shipping Fee Structure and Rate Lookup
+### Shipping Fee Structure and Rate Lookup { #specs-sf-overseas-fee }
 
 SF Express overseas shipping fees are not a fixed amount. They consist of the following three parts:
 
@@ -132,15 +132,15 @@ SF Express overseas shipping fees are not a fixed amount. They consist of the fo
 
 
 
-## Return and Exception Handling Process
+## Return and Exception Handling Process { #operate-sf-overseas-return }
 
-### 1. Customer Refusal Handling
+### 1. Customer Refusal Handling { #operate-sf-overseas-refuse }
 
 - If an overseas package is refused by the customer, SF Express contacts the sender to confirm whether to **forward it to a new address** or **return it to Taiwan**.
 - If forwarding fees apply, the merchant must confirm payment before processing.
 - If the merchant does not provide instructions within **3 months**, the package will be **destroyed and voided** by the branch warehouse.
 
-### 2. Delivery Failure
+### 2. Delivery Failure { #operate-sf-overseas-fail }
 
 - SF Express customer service will try to contact the recipient.
 - If contact still cannot be made, SF Express will contact the merchant to confirm whether to process a return.

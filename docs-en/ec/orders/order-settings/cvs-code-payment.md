@@ -59,22 +59,22 @@ comments: false
 
 ![Convenience store payment code settings](../../../assets/images/EC-後台-金物流-金流設定-啟用超商條碼01.en.png){ title="Convenience Store Payment Code Settings" .hero-page }
 
-## About Convenience Store Payment Codes
+## About Convenience Store Payment Codes { #intro-cvs-code }
 
 **Convenience store payment code** gives customers a payment code after they order on your website. They print a payment slip at the kiosk in a supported convenience store and then pay at the counter.
 
-## Before You Start
+## Before You Start { #prerequisites-cvs-code }
 
 - **Maximum per transaction**: NT$20,000
 - **Payment deadline**: 7 days. After it expires, customers can get a new code.
 - **Supported convenience stores**: 7-Eleven, FamilyMart, Hi-Life
 
 
-## Turn On Convenience Store Payment Codes
+## Turn On Convenience Store Payment Codes { #operate-cvs-code-enable }
 
 You can turn on this feature in CYBERBIZ PAYMENTS so shoppers can choose a convenience store payment code at checkout and pay in store.
 
-### Step 1: Edit the CYBERBIZ PAYMENTS Payment Settings
+### Step 1: Edit the CYBERBIZ PAYMENTS Payment Settings { #operate-cvs-code-enter-payments }
 
 1.  Sign in to the CYBERBIZ admin and go to **Payment and Logistics > Payment Settings**.
 2.  In the payment settings list, find **CYBERBIZ PAYMENTS**.
@@ -84,7 +84,7 @@ You can turn on this feature in CYBERBIZ PAYMENTS so shoppers can choose a conve
 
 ---
 
-### Step 2: Turn On Convenience Store Payment Codes
+### Step 2: Turn On Convenience Store Payment Codes { #operate-cvs-code-enable-feature }
 
 1.  On the CYBERBIZ PAYMENTS settings page, find **Convenience Store Payment Code**.
 2.  Turn the switch to **Enable**.
@@ -93,7 +93,7 @@ You can turn on this feature in CYBERBIZ PAYMENTS so shoppers can choose a conve
 
 ---
 
-### Step 3: Save the Settings
+### Step 3: Save the Settings { #operate-cvs-code-save }
 
 1.  After you turn it on, click **Save** at the bottom of the page.
 2.  After the system shows a success message, you can confirm the feature is on in the payment settings list.
@@ -101,9 +101,9 @@ You can turn on this feature in CYBERBIZ PAYMENTS so shoppers can choose a conve
 !!! warning "Important"
     - After you turn on convenience store payment codes, make sure you also offer a supported delivery type (such as convenience store pickup) so shoppers can choose this payment method at checkout.
     - If you set a day limit for [automatic order cancellation](../../payments-and-logistics/payments/order-settings.md#operate-order-settings-auto-cancel){ title="Order Settings" }, the code expires once the limit passes and can no longer be used to pay.
-    - If you [cancel an order manually](../basics/cancel-order/#orders-cancel-merchant), the convenience store payment code doesn't expire automatically, and the customer can still pay within its validity period. After payment, the order is placed again, and you can ship it or refund it.
+    - If you [cancel an order manually](../basics/cancel-order/#operate-cancel-merchant), the convenience store payment code doesn't expire automatically, and the customer can still pay within its validity period. After payment, the order is placed again, and you can ship it or refund it.
 
-## Get a Convenience Store Payment Code <small>Customer</small>
+## Get a Convenience Store Payment Code <small>Customer</small> { #operate-cvs-code-get-code }
 
 During and after ordering, customers can get the payment code in the following ways:
 
@@ -123,7 +123,7 @@ During and after ordering, customers can get the payment code in the following w
 
     ![Order confirmation email - go to payment](../../../assets/images/EC-Email通知-訂單成立-前往付款.en.png){ title="Order Confirmation Email - Go to Payment" }
 
-## Pay at the Convenience Store <small>Customer</small>
+## Pay at the Convenience Store <small>Customer</small> { #operate-cvs-code-instore-pay }
 
 After getting the code, go to a supported convenience store, enter the code at the kiosk, print the payment slip, and pay at the counter. For each store's kiosk, see the following:
 
@@ -144,7 +144,7 @@ After getting the code, go to a supported convenience store, enter the code at t
 </div>
 
 
-## Next Steps
+## Next Steps { #next-steps-cvs-code }
 
 <div class="grid cards" markdown>
 

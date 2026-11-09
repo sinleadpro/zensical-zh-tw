@@ -76,7 +76,7 @@ After an order completes the return process, the last step is refunding the shop
     - **Request limit**: Each order accepts only **one** refund request.
     - **When refunds are available**: Orders paid today can't be refunded right away. You can refund them after the system settles them the **next day**.
 
-## Step 1: Determine the Refund Method
+## Step 1: Determine the Refund Method { #operate-xb-refund-decide }
 
 Choose the refund method based on your site plan and the order's payment method.
 
@@ -144,7 +144,7 @@ Choose the refund method based on your site plan and the order's payment method.
     | | Apple Pay | Automatic system refund | No deadline | - |
     | | Google Pay | Automatic system refund | No deadline | - |
 
-## Step 2: Process the Refund
+## Step 2: Process the Refund { #operate-xb-refund-process }
 
 The refund process is triggered automatically when the **Return Status** changes.
 

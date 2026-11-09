@@ -37,7 +37,7 @@ features:
   - 峰潮串倉退貨
 prerequisites: []
 related:
-  - ec/orders/references/auto-refund-timeline/
+  - ec/orders/order-refund-process/
   - ec/orders/returns-refunds/cvs-c2b-return/
   - ec/orders/order-refund-process/
 tags:
@@ -83,10 +83,6 @@ passed.
 - [x] **Manual return process in the admin**: Available on all plans.
 - [x] **Return period settings**: Only PLUS and higher plans can change the number of return days; the Standard Plan keeps the default values.
 - [x] **Partial refunds**: Available only on PLUS and higher plans.
-- [x] **System reverse logistics (EZCAT C2B, Pelican Express return service, 7-Eleven C2B Return Service)**: Must be requested and enabled separately; not included in plans by default.
-
-!!! note "Refund Method Limitations"
-    After a certain number of days, some payment methods can't be refunded to the card automatically and must use a manual refund instead. For each payment method's automatic card refund limit, see [Automatic Card Refund Time Limits](../references/auto-refund-timeline.md){ data-preview }.
 
 ---
 
@@ -183,7 +179,7 @@ Choose a **full refund** or a **partial refund** based on the refund scope. This
 
 === "Full Refund"
     1. **Start the refund**: Select the order in the order list, open the **Actions...** drop-down, and choose **Returned**.
-    2. **Determine the refund method**: The system automatically determines whether an automatic card refund is possible based on the order's payment method and payment date. See [Automatic Card Refund Time Limits](../references/auto-refund-timeline.md){ data-preview }.
+    2. **Determine the refund method**: The system automatically determines whether an automatic card refund is possible based on the order's payment method and payment date. See [Refund Methods and Operations](../order-refund-process/#specs-order-refund){ data-preview }.
         * **Automatic card refund available**: The system sends the card refund to the payment provider directly, and the customer receives the refund after the provider's processing time.
         * **Manual refund required**: A pop-up opens where you enter the bank account information the customer provided.
     3. **Enter bank information (manual refunds only)**: In the pop-up, enter the **Account Name**, **Bank**, **Branch**, and **Bank Account Number**, then submit.
@@ -195,28 +191,7 @@ Choose a **full refund** or a **partial refund** based on the refund scope. This
     4. **Confirm the refund**: Click **"Confirm Refund"** to finish.
 
 
-## Important Rules and Limitations { #specs-overdue-returns }
-
-### Automatic Card Refund Day Limits { #specs-overdue-returns-refund-window }
-
-If an order is past the payment provider's automatic card refund limit after payment, the system can't refund the card directly, and you must use the manual refund process. For the full reference, see [Automatic Card Refund Time Limits](../references/auto-refund-timeline.md){ title="Automatic Card Refund Time Limits" data-preview }.
-
----
-
-### After a Manual Refund { #specs-overdue-returns-manual-refund }
-
-For manual refunds, you provide the customer's bank account information and CYBERBIZ sends the money on your behalf. The actual arrival time, whether an accounting fee is charged, and the fee per transaction depend on the contract terms in effect. Contact CYBERBIZ customer service for the latest rules.
-
----
-
-### Handling Marketing Rewards { #specs-overdue-returns-rewards }
-
-How returns affect bonus points, coupons, and commissions depends on your store settings and the order status. Before issuing a refund, we recommend checking the following, and contacting CYBERBIZ customer service if needed:
-
-- Whether the bonus points or coupons already issued for the order need adjusting.
-- If the order involves commission calculation, whether the return needs to be handled there too.
-
-## Next Steps
+## Next Steps { #next-steps-overdue-return }
 
 <div class="grid cards" markdown>
 
@@ -244,10 +219,6 @@ How returns affect bonus points, coupons, and commissions depends on your store 
     [](){ #faq-overdue-returns-cannot-auto-refund }
     This means the order is past the payment provider's automatic card refund limit and needs a manual refund. Enter the customer's bank account information in the pop-up, and CYBERBIZ will send the money on your behalf.
 
-??? quote "Can I issue several partial refunds for the same order?"
-    [](){ #faq-overdue-returns-multiple-partial-refunds }
-    Yes. In the "Partial Refund" section of the order details page, select the items and amount to refund each time and confirm.
-
 ??? quote "I'm a Fengchao warehouse integration merchant. Why didn't the status change after I clicked "Returning"?"
     [](){ #faq-overdue-returns-honeycomb-status-delay }
      If the order meets the Fengchao automatic return conditions, clicking "Returning" makes the system call the Fengchao warehouse to create a reverse logistics order first. The order status doesn't change right away; it updates after the warehouse finishes processing. Wait a moment and refresh the page. If it doesn't update for a long time, contact CYBERBIZ customer service.
@@ -267,10 +238,5 @@ How returns affect bonus points, coupons, and commissions depends on your store 
     - **CYBERBIZ home delivery and convenience store pickup**: Counted from the day the delivery status changes to "Received."
     - **Other shipping methods (custom logistics)**: Counted from the day the delivery status changes to "Shipped."
 
----
-
-## References { #reference-overdue-returns }
-
-- [Automatic Card Refund Time Limits](../references/auto-refund-timeline.md){ title="Automatic Card Refund Time Limits" }
 
 

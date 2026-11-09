@@ -49,7 +49,8 @@ ui_components: []
 paths:
   - 金物流 > 結帳頁 & 物流設定
   - 訂單 > 所有訂單
-layouts: []
+layouts: 
+  - draggable
 wp_url:
   - https://www.cyberbiz.io/support/?p=51897
   - https://www.cyberbiz.io/support/?p=47627
@@ -72,11 +73,11 @@ Learn how to turn on storefront return requests, including full and partial retu
 
 
 
-## Task 1: Set Up the Feature in the Admin
+## Task 1: Set Up the Feature in the Admin { #operate-member-return-admin-config }
 
 Turn on the switch in the admin first so members can see the request button in the storefront order center.
 
-### 1. Turn On Return Requests
+### 1. Turn On Return Requests { #operate-member-return-enable-switch }
 Go to **Payment and Logistics > Checkout Page & Logistics**:
 
 === "Full Return"
@@ -103,7 +104,7 @@ Go to **Payment and Logistics > Checkout Page & Logistics**:
 
     ![](../../assets/images/EC-金物流-結帳頁物流設定-開啟會員申請部分退貨功能01.en.png)
 
-### 2. Set the Return Deadline
+### 2. Set the Return Deadline { #operate-member-return-deadline }
 
 You can set how many days after an order is complete members can request a return, based on the delivery type:
 
@@ -112,9 +113,9 @@ You can set how many days after an order is complete members can request a retur
 
 ![](../../assets/images/EC-金物流-結帳頁物流設定-設定會員申請退貨期限01.en.png)
 
-## Task 2: Handle Returns on the Storefront and in the Admin
+## Task 2: Handle Returns on the Storefront and in the Admin { #operate-member-return-flow }
 
-### 1. Request and Accept Returns
+### 1. Request and Accept Returns { #operate-member-return-apply }
 
 === "Member Request Steps"
 
@@ -147,7 +148,7 @@ You can set how many days after an order is complete members can request a retur
 
     ![](../../assets/images/EC-後台-訂單-所有訂單-查看訂單退貨理由與數量01.en.png)
 
-### 2. Review Returns and Confirm Results
+### 2. Review Returns and Confirm Results { #operate-member-return-review-result }
 
 === "Member Views Results"
 
@@ -168,7 +169,7 @@ You can set how many days after an order is complete members can request a retur
         If you allow **storefront partial returns**, you can see the items and quantities the member requested during the return review.
 
 
-## Task 3: Return Status Notifications
+## Task 3: Return Status Notifications { #operate-member-return-status-notify }
 
 === "Notify Members"
 
@@ -180,9 +181,9 @@ You can set how many days after an order is complete members can request a retur
 
 
 
-## How the System Works
+## How the System Works { #intro-member-return }
 
-### 1. Partial Return Selection Rules
+### 1. Partial Return Selection Rules { #specs-member-return-partial-rules }
 
 The system has different selection rules for different product types:
 
@@ -195,7 +196,7 @@ The system has different selection rules for different product types:
 !!! tip "Return Tips"
     This feature offers flexible return options, but every store has different refund rules (such as gift recovery and bundle discount calculations). We recommend stating your rules clearly in your shopping policy and contacting shoppers to confirm.
 
-### 2. How Refund Amounts Are Calculated
+### 2. How Refund Amounts Are Calculated { #operate-member-return-refund-calc }
 
 The system adds up the **original prices** of the products the member selects. When you actually issue the refund in the admin, you can adjust the final refund total as needed.
 
@@ -204,7 +205,7 @@ The system adds up the **original prices** of the products the member selects. W
 
 
 
-## FAQ
+## FAQ { #faq-member-return }
 
 ??? quote "Why can't members find the **Request Return** button in the order center?"
     Check the following settings:
@@ -217,7 +218,7 @@ The system adds up the **original prices** of the products the member selects. W
     Yes. When you process the return in the admin, you still have final control over the items and amounts. The member's request is only a reference.
 
 
-## Next Steps
+## Next Steps { #next-steps-member-return }
 
 <div class="grid cards" markdown>
 

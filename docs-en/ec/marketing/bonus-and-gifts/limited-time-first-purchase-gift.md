@@ -81,7 +81,7 @@ A limited-time first-purchase gift is a promotion for new members' first purchas
 
 ---
 
-## Before You Start
+## Before You Start { #prerequisites-first-purchase-gift }
 
 Before setting up a first-purchase gift, understand these key rules:
 
@@ -109,9 +109,9 @@ System logic and limits:
 
 
 
-## Steps
+## Steps { #operate-first-purchase-gift }
 
-### Step 1: Create A First-purchase Gift Promotion And Basic Setting
+### Step 1: Create A First-purchase Gift Promotion And Basic Setting { #operate-first-purchase-gift-create }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Free Gift for First Purchase**.
 2. Click **New Free Gift for First Purchase**.
@@ -119,7 +119,7 @@ System logic and limits:
 4. Choose the **Start and End Time**.
   > Once you Save the promotion, you can't change its period. Check the dates and times before you submit.
 
-### Step 2: Set Target Members And Thresholds
+### Step 2: Set Target Members And Thresholds { #operate-first-purchase-gift-member-rules }
 
 1. **Target Members** (choose one):
     - **All Customers**: All new members making their first purchase.
@@ -132,7 +132,7 @@ System logic and limits:
 
 ![](../../../assets/images/EC-後台-行銷活動-期間限定首購禮-完成基本設定01.en.png){ .screenshot }
 
-### Step 3: Set Up The Gift
+### Step 3: Set Up The Gift { #operate-first-purchase-gift-content }
 
 Choose one of these four gift types:
 
@@ -166,7 +166,7 @@ Choose one of these four gift types:
     - **Settings**: Enter the number of points and the validity period (0 means they never expire).
 
 
-## FAQ
+## FAQ { #faq-first-purchase-gift }
 
 
 ??? quote "Can an existing member who has never bought anything get the first-purchase gift?"

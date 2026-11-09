@@ -75,26 +75,26 @@ Resolve issues where the POS system cannot recognize or find a matching product 
 	- **New device setup**: You have replaced the scanner and need to align its initial encoding.
 
 
-## Usage Notes
+## Usage Notes { #prerequisites-scan-missing }
 
 - **SKU check**: Make sure the product has a matching SKU or barcode set up in the CYBERBIZ admin backend.
 - **Encoding differences**: UPC-A (12 digits), common in North America, and EAN-13 (13 digits), common internationally, may fail to scan correctly because the leading 0 is handled differently.
 - **Device support**: This guide applies to barcode scanners provided by CYBERBIZ. If you use a device from another supplier, contact your device supplier.
 
-## Procedure
+## Procedure { #operate-scan-missing }
 
-### Step 1: Check Backend Data
+### Step 1: Check Backend Data { #operate-scan-missing-1-confirm-admin }
 
 1. Log in to the CYBERBIZ POS admin backend and go to **Products > All Products**.
 2. Check that the **SKU Code** or **Barcode** field for the product contains the correct numeric code.
 
-### Step 2: Check the Barcode Format
+### Step 2: Check the Barcode Format { #operate-scan-missing-2-barcode }
 
 If the product barcode uses the EAN-13 format (13 digits), check whether the first digit on the label is **0**.
 
 ![](https://www.cyberbiz.co/support/wp-content/uploads/2019/10/EAN_0-1.png){ .small-image }
 
-### Step 3: Verify the Scanner Read Result
+### Step 3: Verify the Scanner Read Result { #operate-scan-missing-3-scan-result }
 
 1. On your computer, open a browser and click the search bar.
 2. Use the scanner to scan the barcode above.
@@ -102,7 +102,7 @@ If the product barcode uses the EAN-13 format (13 digits), check whether the fir
     - **Output is 0012345678905**: The scanner is set up correctly.
     - **Output is 012345678905**: The scanner is reading in UPC-A format and automatically omits the leading region digit 0.
 
-### Step 4: Fix the Scanner Settings
+### Step 4: Fix the Scanner Settings { #operate-scan-missing-4-scan-settings }
 
 If the scanner drops the leading 0, scan the setup barcode below with your scanner. When you hear the **Bi Bi Bi~** beep, the "UPC-A to EAN-13" conversion setting is complete.
 
@@ -115,7 +115,7 @@ If the scanner drops the leading 0, scan the setup barcode below with your scann
     - **EAN-13**: The international standard encoding. It adds one region digit in front of UPC-A. The region digit for the United States and Canada is **0**, but some scanners do not display this digit by default.
 
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-scan-missing }
 
 ??? quote "What should I do if garbled text appears after scanning?"
     This is usually caused by an incorrect input method setting on the scanner. Make sure the input method on the computer or POS terminal is set to **English half-width** while scanning.

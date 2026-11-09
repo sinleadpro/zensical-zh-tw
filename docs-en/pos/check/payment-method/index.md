@@ -75,14 +75,14 @@ Manage the payment methods available on the POS frontend, including cash, credit
 
 ![](../../../assets/images/POS-後台-所有POS門市-付款方式-畫面總覽01.en.png){ .hero-page }
 
-## Usage Notes
+## Usage Notes { #prerequisites-payment-method }
 
 - **Staff Permissions**: Only the **Website Owner** and **POS Store Manager** can use this feature.
 - **Hardware Requirements**: Some payment methods (such as credit card terminals and EasyCard) require a specific card reader model.
 
-## Operation Procedure
+## Operation Procedure { #operate-payment-method }
 
-### Enable Payment Methods
+### Enable Payment Methods { #operate-payment-method-enable-payment-method }
 
 === "Backend Setup"
 
@@ -124,7 +124,7 @@ Manage the payment methods available on the POS frontend, including cash, credit
 
     ![](../../../assets/images/POS-前台-結帳-付款方式01.en.png){ .screenshot }
 
-### Frontend Display Order
+### Frontend Display Order { #operate-payment-method-frontend }
 
 === "Backend Setup"
 

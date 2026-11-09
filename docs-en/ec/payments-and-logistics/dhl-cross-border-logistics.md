@@ -91,7 +91,7 @@ Connect DHL international express through the CYBERBIZ admin to generate English
 [:lucide-tag:{ title="Applicable Plan" }](../../resources/conventions#適用方案) | Pro / Business
 { .doc-badge }
 
-## Usage Notes
+## Usage Notes { #prerequisites-dhl }
 
 - **Service Restriction**: Currently only supports **shipping from Taiwan to overseas destinations**.
 - **English Requirement**: All customs information (sender, recipient, product names) must be entered in **English only**.
@@ -100,13 +100,13 @@ Connect DHL international express through the CYBERBIZ admin to generate English
 - **Recommendation**: We recommend using this feature with the **Multi-Country** feature so the system can automatically carry English product information into the waybill details and improve efficiency. For questions, contact CYBERBIZ Customer Service.
 
 
-## Prerequisite Setup
+## Prerequisite Setup { #operate-dhl-setup }
 
-### Step 1: Apply for a Long-Term Power of Attorney
+### Step 1: Apply for a Long-Term Power of Attorney { #operate-dhl-poa }
 
 Apply through the [Long-Term Power of Attorney Online Application Process](https://drive.google.com/file/d/1_zj4H9feFFECoCSGi-GUtfG8h-REsekP/view).
 
-### Step 2: Verify Your Company's English Name
+### Step 2: Verify Your Company's English Name { #operate-dhl-verify-name }
 
 1. Log in to the CYBERBIZ admin and go to **Website Management > General**.
 2. Find the **English Company name registered at TITA** field.
@@ -115,7 +115,7 @@ Apply through the [Long-Term Power of Attorney Online Application Process](https
 
 ![](../../assets/images/EC-後台-管理中心-一般設定-填寫國貿局進出口廠商英文名01.en.png)
 
-### Step 3: Set up English Sender Information
+### Step 3: Set up English Sender Information { #operate-dhl-sender }
 
 1. Go to **Payment and Logistics > DHL Shipping Label > Basic Information Setting**.
 2. Enter the sender's address and contact information in **English**.
@@ -125,7 +125,7 @@ Apply through the [Long-Term Power of Attorney Online Application Process](https
 
 ![](../../assets/images/EC-後台-金物流-DHL託運單-啟用DHL物流01.en.png)
 
-### Step 4: Set up Logistics and Shipping Fees
+### Step 4: Set up Logistics and Shipping Fees { #operate-dhl-fee }
 
 1. Go to **Payment and Logistics > Delivery Settings** and select the **Custom Logistics** tab.
 2. Click **Create Custom Logistics**.
@@ -151,7 +151,7 @@ Apply through the [Long-Term Power of Attorney Online Application Process](https
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/DHL-物流-10.png)
 
-### Step 5: Bind Products to Logistics
+### Step 5: Bind Products to Logistics { #operate-dhl-bind-product }
 
 1. Go to **Products > All Products** and select the target products.
 2. Open the **Settings** tab.
@@ -160,9 +160,9 @@ Apply through the [Long-Term Power of Attorney Online Application Process](https
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/DHL-物流-11.png)
 
-## Order Shipping Operations
+## Order Shipping Operations { #operate-dhl-ship }
 
-### Step 1: Create Waybills
+### Step 1: Create Waybills { #operate-dhl-create-waybill }
 
 1. Go to **Orders > All Orders** and select the orders to ship.
 2. Select **Actions > Create DHL Shipping Label**.
@@ -175,7 +175,7 @@ Apply through the [Long-Term Power of Attorney Online Application Process](https
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-01.png)
 
-### Step 2: Enter Customs Information and Taxes
+### Step 2: Enter Customs Information and Taxes { #operate-dhl-customs }
 
 1. **Verify Product Details**:
     - **Required Field Check**:
@@ -221,7 +221,7 @@ Apply through the [Long-Term Power of Attorney Online Application Process](https
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-06-1.png)
 
-### Step 3: Print Shipping Documents
+### Step 3: Print Shipping Documents { #operate-dhl-print }
 
 1. Click **Download Fulfillment**.
     - `Delivery Status` will automatically change to `Shipped`.
@@ -235,7 +235,7 @@ Apply through the [Long-Term Power of Attorney Online Application Process](https
 ![](https://www.cyberbiz.io/support/wp-content/uploads/DHL-託運單-10.png)
 
 
-### Step 4: Formal Customs Declaration (Optional)
+### Step 4: Formal Customs Declaration (Optional) { #operate-dhl-declare }
 
  1. Formal customs declaration is required if any of the following conditions applies.
     - Total product value > NT$50,000
@@ -262,7 +262,7 @@ Apply through the [Long-Term Power of Attorney Online Application Process](https
 
 
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-dhl }
 
 ??? quote "What should I do if an order's delivery shows a Shipping Exception?"
     If the shipment status shows an exception, the system locks the status until the issue is resolved. We recommend that merchants look up the detailed cause on the DHL website using the tracking number, or contact CYBERBIZ Customer Service for help.

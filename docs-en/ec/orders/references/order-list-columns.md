@@ -57,7 +57,7 @@ icon: lucide/table
 hide: []
 ---
 
-## Order List Columns Reference { #orders-columns }
+## Order List Columns Reference { #reference-order-columns }
 
 The columns you can show vary slightly by plan and enabled features. The table below lists all optional columns and what they're for.
 

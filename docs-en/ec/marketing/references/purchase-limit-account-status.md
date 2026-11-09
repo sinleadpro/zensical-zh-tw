@@ -52,7 +52,7 @@ hide:
 ---
 
 
-### Account Status And Purchase Access Reference { #reference-purchase-limit-account }
+### Account Status And Purchase Access Reference { #reference-purchase-limit-account-status }
 
 Whether a customer can buy products in a purchase limit group depends on whether they're logged in and on their member account status. Regular (non-limited) products aren't affected.
 

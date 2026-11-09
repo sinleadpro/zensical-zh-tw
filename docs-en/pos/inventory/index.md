@@ -2,7 +2,7 @@
 title: "Omnichannel Inventory Management Guide"
 description: "This guide explains how inventory works between CYBERBIZ POS and the EC system and provides standard procedures for Stock In, Stock Transfer, Stock Out, and Stock Count."
 created: 2026-04-08 11:36
-last_modified: 2026-06-30 21:55
+last_modified: 2026-09-16 16:35
 lang: en-US
 type: guide
 author: Ann
@@ -45,6 +45,7 @@ related:
   - pos/inventory/transfer-orders/
   - pos/inventory/inventory-adjustment/
   - pos/inventory/inventory-count/
+  - ec/app-market/cyberbiz-channel-bridge/sync-inventory-with-pos/
 tags:
   - "Omnichannel Inventory"
   - "POS Inventory Management"
@@ -90,23 +91,38 @@ This guide walks you through how inventory works between CYBERBIZ POS and the EC
     - **Regular Stock Counts**: Store staff periodically count actual stock and correct book quantities in the system.
 
 
-## Understand the System
+## Understand the System { #overview-inventory }
 
 Before you begin, make sure you understand the CYBERBIZ inventory structure, because it determines your daily operations.
 
-### System Warehouse Structure
+### System Warehouse Structure { #overview-inventory-section-b }
 
 The CYBERBIZ system manages **EC website inventory** and **POS store inventory** as separate warehouses:
 
 1. **EC warehouse**: Manages the shipping inventory for website orders.
 2. **POS store warehouse**: Each physical store has its own inventory, which does not affect other stores.
 
+
 !!! tip "Online and Offline Inventory Management"
 
     We recommend physically separating **website items awaiting shipment** from **store items for sale** in the warehouse or store back room, so staff do not mix them up during picking or counting.
 
+---
 
-### Choose an Inventory Management Mode
+You can also choose to manage **EC website inventory** and **POS store inventory** as a single warehouse. For setup, see below:
+
+<div class="grid cards" markdown>
+
+- :lucide-shield-check:{ .lg }   
+  [__Set up Shared Inventory Between POS and the Online Store__](../../ec/app-market/cyberbiz-channel-bridge/sync-inventory-with-pos.md){ data-preview }       
+  Ask customer service to enable shared inventory so that products with the same SKU in the store and on the website share the same stock.
+
+</div>
+
+
+
+
+### Choose an Inventory Management Mode { #overview-inventory-inventory-management-mode }
 
 Based on your brand's operational needs, choose one of the following modes:
 
@@ -114,15 +130,15 @@ Based on your brand's operational needs, choose one of the following modes:
 - **Third-Party Central Warehouse Mode**: Goods enter the **third-party warehouse**. The website and each store order directly from the third-party warehouse and carry out their own stock-in processes.
 
 
-## Inventory Management
+## Inventory Management { #operate-inventory }
 
-### Manage EC Inventory
+### Manage EC Inventory { #operate-inventory-ec }
 
 === "Inventory Adjustment Records Can Be Searched After Changes"
 
     If you need a complete inventory adjustment record, use the methods below to adjust inventory.
 
-    #### Manage Omnichannel Inventory for EC and POS
+    #### Manage Omnichannel Inventory for EC and POS { #overview-inventory-omnichannel }
 
     1. Log in to the POS back office and go to **POS > Inventory Management**.
     2. Choose a method based on the type of inventory change:
@@ -160,7 +176,7 @@ Based on your brand's operational needs, choose one of the following modes:
         4. Upload the completed Excel file.
 
 
-### Manage POS Inventory
+### Manage POS Inventory { #operate-inventory-pos }
 
 === "Manage Omnichannel Inventory for EC and POS"
 
@@ -191,16 +207,16 @@ Choose a method based on the type of inventory change:
 | [Stock Count](inventory-count/) | Decrease/Increase | Any | After physically counting store product quantities, correct the system book values |
 
 
-## Initial Inventory Setup
+## Initial Inventory Setup { #intro-inventory }
 
 If you already use the EC website system, be sure to complete the following **Inventory Initialization** steps after you officially activate POS. This keeps online and offline channel records separate and accurate:
 
 1. **Correct EC Online Inventory**:
-    First, make sure the existing inventory data on your website is accurate. See [Manage EC Inventory](#管理-ec-庫存) and choose the update method that suits you.
+    First, make sure the existing inventory data on your website is accurate. See [Manage EC Inventory](#operate-inventory-ec) and choose the update method that suits you.
 2. **Set Up Initial POS Store Inventory**:
     For the existing quantities of products at your physical store, choose [Stock In](inbound-orders/) or [Inventory Adjustment](inventory-adjustment/) to initialize them.
 
-After the initial stock-in is complete, for day-to-day inventory management, see [Manage POS Inventory](#管理-pos-庫存) and choose the update method that suits you.
+After the initial stock-in is complete, for day-to-day inventory management, see [Manage POS Inventory](#operate-inventory-pos) and choose the update method that suits you.
 
 
 

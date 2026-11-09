@@ -76,7 +76,7 @@ Create spend-threshold and quantity-threshold gift promotions. Set amount or ite
 
 ![](../../../assets/images/EC-後台-行銷活動-滿額贈滿件贈-畫面總覽01.en.png){ .hero-page }
 
-## About Threshold And Quantity Gifts
+## About Threshold And Quantity Gifts { #overview-discount }
 
 Free Gifts with Purchase is a promotion that gives customers a gift automatically when they reach a threshold. It can count "all order items" or "products with specific Tags," and supports multiple tiers.
 
@@ -93,7 +93,7 @@ Free Gifts with Purchase is a promotion that gives customers a gift automaticall
 | Product spend (quantity) gifts | ✕ | Add-on | ✓ |
 | Order spend gifts | Advanced and Expert | Add-on: Professional PLUS<br>Included: Advanced PLUS, Expert PLUS | ✓ |
 
-## Gift Rules
+## Gift Rules { #specs-discount }
 
 === "Other Plans"
 
@@ -125,9 +125,9 @@ Free Gifts with Purchase is a promotion that gives customers a gift automaticall
             2. In the pop-up, choose variants for the number of gifts received.
             ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-結帳頁-滿額滿件贈區域-贈品自選款式01.png)
 
-## Steps
+## Steps { #operate-discount }
 
-### Step 1: Create A Promotion And Choose A Type
+### Step 1: Create A Promotion And Choose A Type { #operate-discount-create-campaign }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Free Gifts with Purchase**.
 2. Click **Add Promotion** and choose a Promotion Type:
@@ -137,7 +137,7 @@ Free Gifts with Purchase is a promotion that gives customers a gift automaticall
 
 ![](../../../assets/images/EC-後台-行銷活動-滿額贈滿件贈-建立活動01.en.png){ .screenshot }
 
-### Step 2: Set Basic Information
+### Step 2: Set Basic Information { #operate-discount-settings }
 
 1. **Basic Settings**: Enter the Promotion Name and choose the **Start/End Date**.
 2. **Promotion period**: Set the promotion **Start Date** and **End Date**.
@@ -151,7 +151,7 @@ Free Gifts with Purchase is a promotion that gives customers a gift automaticall
 
 ![](../../../assets/images/EC-後台-行銷活動-滿額贈滿件贈-建立活動02.png){ .screenshot }
 
-### Step 3: Set Conditions And Rules
+### Step 3: Set Conditions And Rules { #operate-discount-settings-campaign-conditions }
 
 1. **Tags**: Choose the product Tags to count from the drop-down menu.
 
@@ -163,7 +163,7 @@ Free Gifts with Purchase is a promotion that gives customers a gift automaticall
 ![](../../../assets/images/EC-後台-行銷活動-滿額贈滿件贈-建立活動03.png){ .screenshot }
 
 
-### Step 4: Set Gift Thresholds
+### Step 4: Set Gift Thresholds { #operate-discount-settings-rules }
 
 1. **Add a rule**: Click **Add Threshold**.
 2. **Set the threshold**:
@@ -174,15 +174,15 @@ Free Gifts with Purchase is a promotion that gives customers a gift automaticall
 ![](../../../assets/images/EC-後台-行銷活動-滿額贈滿件贈-建立活動04.png){ .screenshot }
 
 
-### Step 5: Save And Order
+### Step 5: Save And Order { #operate-discount-introduction }
 
 1. For multiple thresholds, repeat Step 4 to build tiers.
 2. Check that the gift list is correct.
 3. Click **Save** to finish.
 
-## Stacking And Accumulation Rules
+## Stacking And Accumulation Rules { #overview-discount-overview }
 
-### Plan Availability
+### Plan Availability { #overview-discount-overview-introduction }
 
 | Gift Rule | Standard | PLUS | Enterprise |
 | -------- | ----- | ------- | ----- |
@@ -195,7 +195,7 @@ Free Gifts with Purchase is a promotion that gives customers a gift automaticall
 
 > Stacking decides "which gifts are given"; accumulation decides "how many times gifts are given."
 
-### Stacking
+### Stacking { #overview-discount-overview-details }
 
 When an order meets several gift thresholds, the "stacking" setting decides what's given:
 
@@ -204,7 +204,7 @@ When an order meets several gift thresholds, the "stacking" setting decides what
 | Stacking | Gives every qualifying gift |
 | No stacking | Gives only the highest-value gift |
 
-### Accumulation
+### Accumulation { #overview-discount-overview-overview }
 
 When an order exceeds the highest gift threshold, the "accumulation" setting decides whether gifts are given in multiple rounds:
 
@@ -221,7 +221,7 @@ When an order exceeds the highest gift threshold, the "accumulation" setting dec
 | Multiple accumulation | Each gift's quantity is calculated separately | Order amount ÷ gift A threshold = gift A quantity <br> Order amount ÷ gift B threshold = gift B quantity <br> Order amount ÷ gift C threshold = gift C quantity <br> And so on |
 
 
-### Examples
+### Examples { #overview-discount-overview-reference }
 
 These examples use order spend gifts:
 
@@ -229,7 +229,7 @@ These examples use order spend gifts:
 - Gift B: Given for orders of 1000 or more
 - Gift C: Given for orders of 1500 or more
 
-#### No Stacking + No Accumulation
+#### No Stacking + No Accumulation { #overview-discount-overview-settings }
 
 | Gift / Order Amount | 500 | 1000 | 1500 |
 | --- | --- | --- | --- |
@@ -243,7 +243,7 @@ The system checks in this order:
 2. Choose the gift with the highest threshold. (No stacking)
 3. Give that gift once. The remaining amount isn't used for more gifts. (No accumulation)
 
-#### Stacking + No Accumulation
+#### Stacking + No Accumulation { #overview-discount-overview-flow }
 
 | Gift / Order Amount | 500 | 1000 | 1500 | 2000 |
 | --- | --- | --- | --- | --- |
@@ -275,7 +275,7 @@ The system checks as follows:
 | NT$2000 | 1. Thresholds met: A, B, C<br>2. No stacking: give only the highest, C<br>3. After subtracting NT$1500, NT$500 remains | 1. Remaining NT$500 meets the A threshold<br> 2. No stacking: give A  | 1 C + 1 A |
 | NT$2600 | 1. Thresholds met: A, B, C<br>2. No stacking: give only the highest, C<br>3. After subtracting NT$1500, NT$1100 remains | 1. Remaining NT$1100 meets the A and B thresholds<br> 2. No stacking: give B  | 1 C + 1 B |
 
-#### Stacking + Repeating Accumulation
+#### Stacking + Repeating Accumulation { #overview-discount-overview-rules }
 
 | Gift / Order Amount | 500 | 1000 | 1500 | 2000 | 2600 |
 | --- | --- | --- | --- | --- | --- |
@@ -293,7 +293,7 @@ The system checks as follows:
 | NT$2000 | 1. Thresholds met: A, B, C<br>2. Stacking: give all qualifying gifts<br>3. After subtracting NT$1500, NT$500 remains | 1. Remaining NT$500 meets the A threshold<br> 2. Stacking: give all qualifying gifts<br> 3. After subtracting NT$500, NT$0 remains; stop  | 2 A + 1 B + 1 C |
 | NT$2600 | 1. Thresholds met: A, B, C<br>2. Stacking: give all qualifying gifts<br>3. After subtracting NT$1500, NT$1100 remains | 1. Remaining NT$1100 meets the A and B thresholds<br> 2. Stacking: give all qualifying gifts<br> 3. After subtracting NT$1000, NT$100 remains; stop  | 2 A + 2 B + 1 C |
 
-#### Stacking + Multiple Accumulation
+#### Stacking + Multiple Accumulation { #overview-discount-overview-examples }
 
 | Gift / Order Amount | 500 | 1000 | 1500 | 2000 | 2600 |
 | --- | --- | --- | --- | --- | --- |
@@ -311,11 +311,11 @@ The system checks as follows:
 | NT$2000 | 2000 ÷ 500 = 4 <br> Give 4 A | 2000 ÷ 1000 = 2 <br> Give 2 B | 2000 ÷ 1500 = 1 <br> Give 1 C |
 | NT$2600 | 2600 ÷ 500 = 5 <br> Give 5 A | 2600 ÷ 1000 = 2 <br> Give 2 B | 2600 ÷ 1500 = 1 <br> Give 1 C |
 
-## Multi-Language Settings
+## Multi-Language Settings { #operate-discount-settings-details }
 
 Set multi-language names for threshold and quantity gifts so the storefront shows the right text for each language.
 
-### Steps
+### Steps { #operate-discount-settings-steps }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > 滿額贈滿件贈**.
 2. In the language menu, switch to the language you want to edit (for example, Traditional Chinese or English).

@@ -13,7 +13,7 @@ hide:
   - feedback
 ---
 
-## Social and Search Platform Integrations
+## Social and Search Platform Integrations { #intro-integration }
 
 <div class="grid cards" markdown>
 
@@ -45,7 +45,7 @@ hide:
 
 ---
 
-## Other Channel Integrations
+## Other Channel Integrations { #operate-integration }
 
 <div class="grid cards" markdown>
 

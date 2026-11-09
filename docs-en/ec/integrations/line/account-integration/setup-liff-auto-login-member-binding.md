@@ -84,7 +84,7 @@ hide: []
 
 ![Generate LIFF URL](../../../../assets/images/ec-第三方整合-line liff-產生網址.en.png){ title="Generate LIFF URL" .hero-page }
 
-## What Is LIFF
+## What Is LIFF { #intro-liff-binding }
 
 **LINE Front-end Framework (LIFF)** is a web app embedding framework provided by LINE. It lets website pages open directly inside the LINE app and access LINE user identity information.
 
@@ -97,7 +97,7 @@ Pages opened through LIFF can be considered "websites running in the LINE enviro
 - Bind friends through the official account
 
 
-## Why Use LIFF
+## Why Use LIFF { #intro-liff-binding-use-liff }
 
 The main purpose of using LIFF is to **reduce friction in member login and shopping guidance flows**:
 
@@ -107,7 +107,7 @@ The main purpose of using LIFF is to **reduce friction in member login and shopp
 
 - **Avoid redirect issues:** Resolve the experience problem where regular URLs in LINE must go through an external browser redirect.
 
-## Back-Office Setup Steps
+## Back-Office Setup Steps { #operate-liff-binding }
 
 1. **Access path:** Log in to the back office, then go to **Third-Party Integration > LINE Login**.
 
@@ -115,7 +115,7 @@ The main purpose of using LIFF is to **reduce friction in member login and shopp
 
 	- [x] Completed [LINE Quick Login setup](setup-line-quick-login.md){ title="Set Up LINE Quick Login" }.  
 
-	- [x] Completed [Link LINE OA with LINE Login Channel](setup-line-quick-login.md#導引加入好友){ title="Set Up LINE Quick Login" }.
+	- [x] Completed [Link LINE OA with LINE Login Channel](setup-line-quick-login.md#intro-line-quick-advanced-overview-line-quick){ title="Set Up LINE Quick Login" }.
 
 4. **Enable LIFF:** Turn on the **Auto-generate LIFF URL** toggle, then click **Save settings**.
 
@@ -140,10 +140,10 @@ The main purpose of using LIFF is to **reduce friction in member login and shopp
     !!! warning "Use only the LIFF links generated in the CYBERBIZ back office. Do not change the dedicated LIFF settings in the LINE Developers console, as this can break the redirect mechanism."
 
     !!! tip "Want to also get the member's mobile phone number in the LIFF flow?"
-      If you have LINE Certified Provider qualification (see [Apply for LINE Certified Provider documentation :lucide-external-link:](https://drive.google.com/file/d/1oSF07fHFdx_s4gXVhDv0zw81Su3usQKY/view)), you can further enable the `phone` permission. For detailed setup, see [How to Get Member Mobile Numbers During LINE Quick Login](setup-line-quick-login-phone-number.md#搭配-liff-應用){ title="Get Member Mobile Number During LINE Quick Login" }.
+      If you have LINE Certified Provider qualification (see [Apply for LINE Certified Provider documentation :lucide-external-link:](https://drive.google.com/file/d/1oSF07fHFdx_s4gXVhDv0zw81Su3usQKY/view)), you can further enable the `phone` permission. For detailed setup, see [How to Get Member Mobile Numbers During LINE Quick Login](setup-line-quick-login-phone-number.md#intro-line-phone-login-liff){ title="Get Member Mobile Number During LINE Quick Login" }.
 
 
-## How to Create LIFF Links for Specific Pages
+## How to Create LIFF Links for Specific Pages { #intro-liff-binding-page-liff }
 
 To direct customers to a specific campaign page or product page, follow these replacement rules:
 
@@ -156,7 +156,7 @@ To direct customers to a specific campaign page or product page, follow these re
 	- LIFF URL:`https://liff.line.me/20011118364-jwZ5bzq7/events/sales`
 
 
-## Storefront User Flow
+## Storefront User Flow { #operate-liff-binding-frontend-use-flow }
 
 1. **Tap the link:** The consumer taps the LIFF URL inside LINE.
 
@@ -168,7 +168,7 @@ To direct customers to a specific campaign page or product page, follow these re
 
 ![LIFF automatic login flow](../../../../assets/images/ec-第三方整合-line-liff登入.en.gif){ title="LIFF Automatic Login Flow" }
 
-## Use Case Examples
+## Use Case Examples { #intro-liff-binding-overview-liff-binding }
 
 Merchants can embed LIFF links in the following locations:
 
@@ -181,7 +181,7 @@ Merchants can embed LIFF links in the following locations:
 - **Social shopping:** Share links to specific product pages or one-page stores in LINE groups or chats.
 
 
-## Notes and Limitations
+## Notes and Limitations { #prerequisites-liff-binding }
 
 - **iOS browser setting:** If an iOS user has turned on "Open links in default browser" under "LINE Labs" in the LINE app, LIFF automatic login will not work.
 
@@ -190,7 +190,7 @@ Merchants can embed LIFF links in the following locations:
 - **Eligibility restriction:** LINE Certified Provider is open only to companies, commercial firms, and business establishments. Individuals and foundations cannot apply.
 
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-liff-binding }
 
 ??? quote "Why doesn't the system automatically add the user as a friend after they tap a LIFF link?"
 	This is usually related to **LINE channel settings** or **merchant eligibility**:

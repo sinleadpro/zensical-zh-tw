@@ -60,13 +60,13 @@ hide: []
 
 ![Google Quick Login Setup](../../../assets/images/ec-第三方整合-google設定-google登入.en.png){ title="Google Quick Login Setup" .hero-page }
 
-## Google Quick Login Overview
+## Google Quick Login Overview { #overview-google-login }
 
 **Google Quick Login** lets customers sign up or log in to their member accounts with one click using their Google account. The system automatically creates a member profile based on the email address the customer enters, or links the customer's Google account to an existing member profile.
 
-## Setup Steps
+## Setup Steps { #operate-google-login }
 
-### Google Cloud Platform Setup
+### Google Cloud Platform Setup { #operate-google-login-google-cloud-platform }
 
 Merchants must first create a project on the Google Developer Platform and obtain the credentials required for the integration.
 
@@ -92,7 +92,7 @@ Merchants must first create a project on the Google Developer Platform and obtai
 
 ---
 
-### CYBERBIZ Backend Integration Setup
+### CYBERBIZ Backend Integration Setup { #operate-google-login-cyberbiz-backend-connect }
 
 After you get your keys, return to the storefront admin panel to complete the final activation step.
 
@@ -107,13 +107,13 @@ After you get your keys, return to the storefront admin panel to complete the fi
 
     ![Publish Google app](../../../assets/images/ec-第三方整合-google設定-google發布應用程式.en.png){ title="Publish Google App" }
 
-## Setup Completion Screen
+## Setup Completion Screen { #operate-google-login-settings }
 
 Once setup is complete, customers can sign up or log in to the storefront using their Google account.
 
 ![Google Quick Login storefront view](../../../assets/images/ec-第三方整合-google設定-快速登入-前台畫面.en.png){ title="Google Quick Login Storefront View" }
 
-## Important Notes and System Logic
+## Important Notes and System Logic { #specs-google-login }
 
 *   **Account merging**: If a customer uses Google, LINE, or Facebook quick login with the **same email address**, the system treats them as the same member and shows the account type on the member details page in the admin panel.
 *   **Member label**: Members who sign up this way show **Google Quick Login** in the **Account type** field in the admin panel.
@@ -123,7 +123,7 @@ Once setup is complete, customers can sign up or log in to the storefront using 
 *   **Redirect error troubleshooting**: If a customer encounters an error when logging in, check that the **Authorized redirect URLs** in Google Cloud Platform contain the complete store URL in the correct format.
 
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-google-login }
 
 ??? quote "How long does it take for the setup to take effect?"
 

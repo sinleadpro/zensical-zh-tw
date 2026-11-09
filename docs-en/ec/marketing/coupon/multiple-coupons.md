@@ -68,13 +68,13 @@ hide: []
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品){ title="圖示慣例" } | Smart POS
 { .doc-badge }
 
-## Before You Start
+## Before You Start { #prerequisites-coupon }
 
 - **Channels**: Stacking multiple coupons works on both the **EC online store** and the **POS system**. Set the maximum number separately for each channel.
 - **Stacking rules**: Stacking multiple coupons doesn't change how they combine with bonus points or other promotions.
 
 
-## Steps
+## Steps { #operate-coupon }
 
 === "EC"
 
@@ -94,7 +94,7 @@ hide: []
 
         ![](../../../assets/images/EC-後台-金物流-結帳頁物流設定-pos多張優惠券設定01.png){ .screenshot }
 
-## How Multiple Coupons Are Calculated
+## How Multiple Coupons Are Calculated { #specs-coupon }
 
 When an order uses multiple coupons, the system calculates the discount with these rules:
 
@@ -124,7 +124,7 @@ When an order uses multiple coupons, the system calculates the discount with the
     - **Product A**: NT$34 off in total.
     - **Product B**: 16 + 48 + 117 = NT$181 off in total.
 
-## Checkout On The Storefront
+## Checkout On The Storefront { #operate-coupon-checkout-operate }
 
 
 === "EC"

@@ -73,7 +73,7 @@ hide: []
 
 **CYBERBIZ PAYMENTS** is a **payment collection and disbursement service** provided by CYBERBIZ. It supports credit cards and multiple payment methods, giving merchants and customers a **fast, secure, and convenient** transaction experience.
 
-### Core Advantages and Security Assurance
+### Core Advantages and Security Assurance { #intro-cyb-payments-benefits }
 
 - **International Security Certification**: Certified to **PCI DSS Level 1**, ensuring every transaction meets international credit card security standards.
 
@@ -88,7 +88,7 @@ hide: []
 
 ---
 
-### Supported Payment Methods
+### Supported Payment Methods { #intro-cyb-payments-methods }
 
 After activation, merchants can enable the following payment options:
 
@@ -104,7 +104,7 @@ After activation, merchants can enable the following payment options:
 
 ---
 
-### Automated Management Features
+### Automated Management Features { #intro-cyb-payments-automation }
 
 - **Automatic Refunds**: When an order status changes to "Returned," the system automatically triggers the refund process for credit cards, mobile payments, AFTEE, and JKOPay.
 
@@ -115,7 +115,7 @@ After activation, merchants can enable the following payment options:
 
 - **Automatic Debt Deduction**: If the statement shows a negative balance (refunds exceed disbursements), merchants can link a credit card so the system automatically deducts the debt.
 
-## Prerequisites Before Applying
+## Prerequisites Before Applying { #prerequisites-cyb-payments }
 
 Before submitting a payment application, complete the following:
 
@@ -125,7 +125,7 @@ Before submitting a payment application, complete the following:
 
 !!! info "The risk control team reviews the website content to determine whether your store identity and products can be clearly identified."
 
-## How to Apply for CYBERBIZ PAYMENTS
+## How to Apply for CYBERBIZ PAYMENTS { #operate-cyb-payments-how }
 
 After a merchant meets the eligibility requirements, the system provides an application entry point. Notifications are sent in the following ways:
 
@@ -136,27 +136,27 @@ Or apply directly through the following admin path:
 
 **Payment and Logistics > Payment Settings > CYBERBIZ PAYMENTS > Apply now**
 
-## Application Process
+## Application Process { #operate-cyb-payments }
 
 The following shows the **common application framework**. The steps you need to complete depend on your plan.
 
-### Step 1: Complete Basic Website Setup
+### Step 1: Complete Basic Website Setup { #operate-cyb-payments-site-build }
 
 Complete the basic website information settings for risk control review.
 
-For details, see [Complete Website Setup](#完成網站建置)
+For details, see [Complete Website Setup](#operate-cyb-payments-finish-site)
 
 ---
 
-### Step 2: Store Information and Contract Processing
+### Step 2: Store Information and Contract Processing { #operate-cyb-payments-contract }
 
 1. Log in to the CYBERBIZ admin dashboard and go to **Payment and Logistics > Payment Settings > CYBERBIZ PAYMENTS > Apply now**
 2. Follow the on-screen prompts to enter your store information and related details.
 3. After you submit the application, confirm that the contract has been signed. The review process starts only after signing is complete.
 
-For details, see [Review Process Overview](#審核流程).
+For details, see [Review Process Overview](#operate-cyb-payments-review).
 
-## Review Process
+## Review Process { #operate-cyb-payments-review }
 
 After the application is submitted and meets the review requirements, it proceeds through the following process.
 
@@ -169,7 +169,7 @@ flowchart LR
 
 ```
 
-### Review Status Descriptions
+### Review Status Descriptions { #operate-cyb-payments-review-status }
 
 - **Awaiting Contract Signing**: Complete the contract signing. The review does not proceed until the contract is signed. For updates, contact your sales representative.
 - **Under Review**: The risk control team reviews the website and store information. The review is expected to take about **5–15 business days**.
@@ -177,9 +177,9 @@ flowchart LR
 - **Activated**: After approval, the system automatically activates the **CYBERBIZ PAYMENTS** service and notifies you through an admin announcement and email.
 
 
-## Complete Website Setup
+## Complete Website Setup { #operate-cyb-payments-finish-site }
 
-### Set up Site Logo
+### Set up Site Logo { #operate-cyb-payments-logo }
 
 1. Log in to the CYBERBIZ admin dashboard and go to  **Website Appearance > Theme Setting > Detail Settings > Navigation Bar**
 2. Upload and set the site logo. We recommend using your brand logo to keep it recognizable.
@@ -189,13 +189,13 @@ flowchart LR
 <div class="grid cards" markdown>
 
 - :lucide-menu:{ .lg }
-  [__Menu and Navigation Bar Settings__](../website-appearance/navigation/setup-menus-navigation.md#導覽列外觀設定-navbar){ title="Navigation Bar Appearance Settings" }
+  [__Menu and Navigation Bar Settings__](../website-appearance/navigation/setup-menus-navigation.md#operate-menus-nav-navbar){ title="Navigation Bar Appearance Settings" }
 
 </div>
 
 ---
 
-### Set up Site Name
+### Set up Site Name { #operate-cyb-payments-site-name }
 
 1. Log in to the CYBERBIZ admin dashboard and go to **Website Management > General > Name of website**
 2. Enter the site name. We recommend using your **brand name or company name** and avoiding URLs or English-only names so users can easily recognize the site.
@@ -212,7 +212,7 @@ flowchart LR
 
 ---
 
-### Publish at Least One Product or Service
+### Publish at Least One Product or Service { #operate-cyb-payments-list-product }
 
 !!! path "Admin path: **Products > All Products > Add Product**"
 
@@ -233,7 +233,7 @@ Listed products or services must include:
 
 ---
 
-### Set up the About Us Page
+### Set up the About Us Page { #operate-cyb-payments-about }
 
 1. Log in to the CYBERBIZ admin dashboard and go to **Website Appearance > Customized Pages Management**.
 2. Click **About Us** to open the edit page, or click **Add Page** to create a new page.
@@ -250,7 +250,7 @@ Listed products or services must include:
 
 ---
 
-### Set up Contact Information
+### Set up Contact Information { #operate-cyb-payments-contact }
 
 1. Log in to the CYBERBIZ admin dashboard and go to **Website Appearance > Theme Setting > Detail Settings > Footer**.
 2. Click **Contact Information** to edit it, or click **Add Block** and select **Contact Information** to add it.
@@ -260,11 +260,11 @@ Listed products or services must include:
 <div class="grid cards" markdown>
 
 - :lucide-phone:{ .lg }
-  [__Menu and Navigation Bar Settings__](../website-appearance/navigation/setup-menus-navigation.md#聯絡資訊與自訂文字){ title="Contact Information and Custom Text" }
+  [__Menu and Navigation Bar Settings__](../website-appearance/navigation/setup-menus-navigation.md#operate-menus-nav-footer-contact){ title="Contact Information and Custom Text" }
 
 </div>
 
-## Next Steps
+## Next Steps { #next-steps-cyb-payments }
 
 <div class="grid cards" markdown>
 
@@ -289,7 +289,7 @@ Listed products or services must include:
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-cyb-payments }
 
 ??? quote "What are the requirements to apply for CYBERBIZ PAYMENTS?"
     - The website must load normally.

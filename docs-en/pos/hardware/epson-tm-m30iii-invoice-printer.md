@@ -80,21 +80,21 @@ Install the EPSON TM-M30III invoice printer over Wi-Fi so it can be used on a ta
 
 ---
 
-## Usage Notes
+## Usage Notes { #prerequisites-epson-m30 }
 
 - **Applicable Model**: EPSON TM-M30III.
 - **Connection Method**: This guide uses a Wi-Fi connection, which does not require a driver.
     - For a USB connection, you must install the driver. See [EPSON TM-T82III Installation Guide](epson-tm-t82iii-invoice-printer.md).
 - **Environment Requirements**: The invoice printer and the checkout tablet must connect to the same Wi-Fi network.
 
-## Operating Procedure
+## Operating Procedure { #operate-epson-m30 }
 
-### 1. Hardware Preparation and Power On
+### 1. Hardware Preparation and Power On { #operate-epson-m30-1-hardware }
 
 1. Open the top cover, and load a roll of thermal paper for electronic invoice proof copies.
 2. Press the **Power Button** until the indicator light blinks, which means startup is complete.
 
-### 2. Start Wi-Fi Pairing Mode
+### 2. Start Wi-Fi Pairing Mode { #operate-epson-m30-2-wi-fi }
 
 1. Open the top cover, and press and hold the **Feed Button** below the power button for about 3-5 seconds.
 2. The third indicator light from the left at the bottom begins to blink.
@@ -107,14 +107,14 @@ Install the EPSON TM-M30III invoice printer over Wi-Fi so it can be used on a ta
 
     </div>
 
-### 3. Get the Wi-Fi Setup QR Code
+### 3. Get the Wi-Fi Setup QR Code { #operate-epson-m30-3-wi-fi }
 
 1. Click the **Feed Button** 5 times in a row, then click it once more.
 2. The printer feeds out a setup sheet that contains a **QR Code**.
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-安裝-EPSON-TM-M30III發票機-wifi啟用03-scaled.jpg){ .screenshot }
 
-### 4. Set up the Wi-Fi Connection
+### 4. Set up the Wi-Fi Connection { #operate-epson-m30-4-run-wi }
 
 1. Use the checkout tablet to scan the QR Code above.
 2. On the tablet, allow the printer to join the current Wi-Fi network.
@@ -137,7 +137,7 @@ Install the EPSON TM-M30III invoice printer over Wi-Fi so it can be used on a ta
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-安裝-EPSON-TM-M30III發票機-wifi啟用08.png){ .screenshot }
 
-### 5. Get the IP Address and Authorize the Connection
+### 5. Get the IP Address and Authorize the Connection { #operate-epson-m30-5-ip-connection }
 
 1. After setup is complete, the printer automatically feeds out a sheet that contains the **IP Address**.
 2. Open a browser on the tablet, and enter the IP address in the address bar.
@@ -145,7 +145,7 @@ Install the EPSON TM-M30III invoice printer over Wi-Fi so it can be used on a ta
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/POS-安裝-EPSON-TM-M30III發票機-wifi啟用09-scaled.jpg){ .screenshot }
 
-### 6. POS Front-End Connection Test
+### 6. POS Front-End Connection Test { #operate-epson-m30-6-pos-frontend }
 
 1. Log in to the POS front end using the same browser.
 2. Click **Connect**, and enter the IP address you obtained earlier.

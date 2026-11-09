@@ -63,18 +63,18 @@ hide: []
 
 ![3D Verification Threshold](../../assets/images/ec-payments-3d-secure.zh-tw.en.png){ title="3D Verification Threshold" .hero-page }
 
-## 3D Verification Threshold Overview
+## 3D Verification Threshold Overview { #intro-card-3d }
 
 Set a transaction amount threshold to control **which credit card transactions require 3D verification (SMS / OTP)**, balancing **transaction security** and **checkout conversion rate**.
 
-### System Decision Rules
+### System Decision Rules { #specs-card-3d-rules }
 
 - When the order amount is **greater than or equal to** the threshold, the system requires the customer to complete **3D verification**.
 - When the order amount is **below** the threshold, the system processes **background authorization** directly without showing a verification screen.
 
 ---
 
-### What Is 3D Verification
+### What Is 3D Verification { #intro-card-3d-what }
 
 **3-D Secure (3DS)** is an additional identity verification mechanism for online credit card transactions that effectively reduces the risk of card fraud and unauthorized transactions.
 
@@ -86,7 +86,7 @@ During checkout, the cardholder must complete verification using one of the foll
 
 ---
 
-### What Is Background Authorization
+### What Is Background Authorization { #intro-card-3d-silent-auth }
 
 **Background authorization** means the system automatically completes the credit card authorization process in the background. Customers do not need to complete 3D verification or enter an SMS verification code.
 
@@ -109,12 +109,12 @@ During checkout, the cardholder must complete verification using one of the foll
       D --> G
     ```
 
-## Prerequisites
+## Prerequisites { #prerequisites-card-3d-req }
 
 - [x] Successfully [activated **CYBERBIZ PAYMENTS**](apply-cyberbiz-payments.md){ title="Apply for CYBERBIZ PAYMENTS" }  
 - [x] The storefront can be browsed normally and checkout can be completed
 
-## Usage Notes
+## Usage Notes { #prerequisites-card-3d }
 
 - **Recurring Payment Orders**
 
@@ -126,7 +126,7 @@ During checkout, the cardholder must complete verification using one of the foll
     - Domestic credit cards    
     - International credit cards
 
-### Fraud Liability Allocation
+### Fraud Liability Allocation { #specs-card-3d-liability }
 
 |Configuration|Fraud Liability|Loss Responsibility|
 |---|---|---|
@@ -139,7 +139,7 @@ During checkout, the cardholder must complete verification using one of the foll
 	- To reduce fraud risk, we recommend setting the 3D verification threshold to **NT$1** so that all credit card transactions require 3D verification.
 	- This is a risk management recommendation and not a mandatory system restriction.
 
-## Configure the 3D Verification Threshold
+## Configure the 3D Verification Threshold { #operate-card-3d-threshold }
 
 1. Log in to the CYBERBIZ back office and go to **Payment and Logistics > Payment Settings**.
 2. In the CYBERBIZ PAYMENTS field, click **:material-file-document-edit-outline: Edit** to open the settings page.
@@ -149,9 +149,9 @@ During checkout, the cardholder must complete verification using one of the foll
 ![3D Verification Threshold Settings](../../assets/images/ec-金物流-3D驗證門檻.en.png){ title="3D Verification Threshold Settings" }
 
 
-## Customer Checkout Flow
+## Customer Checkout Flow { #operate-card-3d-checkout }
 
-### Standard Payment <small>Background Authorization</small>
+### Standard Payment <small>Background Authorization</small> { #operate-card-3d-silent-pay }
 
 When the order amount is below the threshold:
 
@@ -159,7 +159,7 @@ When the order amount is below the threshold:
 2. System completes authorization directly
 3. Payment completed
 
-### 3D Verification Payment
+### 3D Verification Payment { #operate-card-3d-verified-pay }
 
 When the order amount meets or exceeds the threshold:
 
@@ -170,7 +170,7 @@ When the order amount meets or exceeds the threshold:
 
 ![3D Verification Payment Screen](../../assets/images/ec-金物流-3D驗證畫面.en.png){ title="3D Verification Payment Screen" }
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-card-3d }
 
 ??? quote "What should I do if 3D verification fails?"  
 	Confirm the following with your issuing bank:  

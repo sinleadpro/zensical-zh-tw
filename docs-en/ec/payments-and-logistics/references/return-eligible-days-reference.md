@@ -31,7 +31,7 @@ hide:
 
 This table summarizes the default return-eligible days and calculation start point for each shipping method in “Return Time Adjustment Settings.” It is referenced by checkout and payment and logistics settings.
 
-## Return-Eligible Days by Shipping Method { #return-eligible-days }
+## Return-Eligible Days by Shipping Method { #specs-return-eligible-days }
 
 | Shipping Method | Setting Field | Default Days | Calculation Start Point |
 | :-- | :-- | :-- | :-- |

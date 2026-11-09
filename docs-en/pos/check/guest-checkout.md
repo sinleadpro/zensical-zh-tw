@@ -79,15 +79,15 @@ Guest checkout lets stores complete sales for customers who are not members and 
     - **Quick checkout**: When customers are in a hurry or do not want to provide personal information, staff can quickly enter guest mode to complete checkout and avoid long lines at the counter.
     - **Keep operational flexibility**: Customers are not required to become members, which preserves a good shopping experience, while orders can still be tracked through the default account.
 
-## Usage Notes
+## Usage Notes { #prerequisites-guest-checkout }
 
 - **System default account**: Guest checkout always uses `pos-guest@cyberbiz.io` as the login email. This setting is fixed by the system and cannot be changed manually.
 - **Member benefit limits**: Guest orders **cannot** accumulate spending totals, bonus points, or VIP levels, and cannot use registration gift or member-exclusive coupon.
 - **Order assignment**: All guest orders are assigned to the same system default account. Use guest checkout only when the customer clearly states they do not want to join as a member.
 
-## Procedure
+## Procedure { #operate-guest-checkout }
 
-### Step 1: Enable the Feature in the Back Office
+### Step 1: Enable the Feature in the Back Office { #operate-guest-checkout-step-a-admin }
 
 Before using guest checkout, you must first complete the authorization settings in the back office.
 
@@ -98,7 +98,7 @@ Before using guest checkout, you must first complete the authorization settings 
 
 ![](../../../assets/images/EC-後台-所有POS商店-開啟訪客結帳功能01.en.png){ .screenshot }
 
-### Step 2: Guest Login on the POS Front End
+### Step 2: Guest Login on the POS Front End { #operate-guest-checkout-step-b-pos }
 
 After you complete the back office setup, the corresponding option appears on the POS front-end login screen.
 
@@ -108,7 +108,7 @@ After you complete the back office setup, the corresponding option appears on th
 
 ![](../../assets/images/POS-前台-結帳-訪客結帳01.en.png){ .screenshot }
 
-### Step 3: Search Guest Orders
+### Step 3: Search Guest Orders { #operate-guest-checkout-step-c-query }
 
 To look up past guest transactions later, filter them by the system account.
 
@@ -118,10 +118,10 @@ To look up past guest transactions later, filter them by the system account.
 
 ![](../../assets/images/POS-前台-會員-查詢訪客結帳01.en.png){ .screenshot }
 
-## FAQ
+## FAQ { #faq-guest-checkout }
 
 ??? quote "Can a customer become a member after guest checkout?"
-    The system does not currently support retroactively transferring guest orders to a regular member account. If the customer needs member benefits, **be sure to complete** [member sign-up](../check/index/#於結帳頁補登) before checkout.
+    The system does not currently support retroactively transferring guest orders to a regular member account. If the customer needs member benefits, **be sure to complete** [member sign-up](../check/index/#operate-check-member-backfill) before checkout.
 
 ??? quote "Why don't I see the Guest Checkout button on the POS front end?"
     First, confirm that **Enable Guest Checkout** in the back office is saved correctly, then log back in to the POS front end or refresh the page.

@@ -76,11 +76,11 @@ hide: []
 
 ![VIP member exclusive prices](../../../assets/images/ec-product-edit-vip-exclusive-price-hero.zh-tw.en.png){ title="VIP Member Exclusive Prices" .hero-page }
 
-## About VIP Member Exclusive Prices
+## About VIP Member Exclusive Prices { #intro-vip-pricing }
 
 **Member Exclusive Price** lets you set different prices for VIP members of different levels, making high-value members feel valued and encouraging purchases.
 
-## Prerequisites and Limits
+## Prerequisites and Limits { #prerequisites-vip-pricing }
 
 - [x] You have set up VIP groups. For details, see [Create Exclusive VIP Groups](../../members/vip/create-exclusive-vip-groups.md).
 - [x] If you add VIP rules, set member exclusive prices again to make sure prices are applied correctly.
@@ -88,9 +88,9 @@ hide: []
 !!! plan "Plan Limits"
     **Member Exclusive Price** is built into the **Enterprise, Expert, and Expert PLUS** plans. Professional PLUS and Advanced PLUS require it as an add-on.
 
-## Steps
+## Steps { #operate-vip-pricing }
 
-### Set Member Exclusive Prices for a Single Product
+### Set Member Exclusive Prices for a Single Product { #operate-vip-pricing-single }
 
 1. Log in to the CYBERBIZ admin and go to **Products > All Products**.
 2. Select a product and open the **Product Information** tab.
@@ -100,7 +100,7 @@ hide: []
 
 ![Set member exclusive prices for a single product](../../../assets/images/ec-edit-member-exclusive-price-setting.zh-tw.en.gif){ title="Set Member Exclusive Prices for a Single Product" }
 
-#### Edit Member Prices
+#### Edit Member Prices { #operate-vip-pricing-edit }
 
 - Click "Edit Price" and enter the exclusive price.  
 - Each variant can have a different price. If none is set, the system uses the product's selling price.
@@ -109,14 +109,14 @@ hide: []
 
 ---
 
-#### Delete Member Prices
+#### Delete Member Prices { #operate-vip-pricing-delete }
 
 1. Click **Remove** in the group's column.
 2. Click **Delete** to confirm.
 
 ![Delete member exclusive prices](../../../assets/images/ec-remove-member-exclusive-price-variants.zh-tw.en.png){ title="Delete Member Exclusive Prices" }
 	
-### Set Member Exclusive Prices for Multiple Products
+### Set Member Exclusive Prices for Multiple Products { #operate-vip-pricing-multi }
 
 1. Log in to the CYBERBIZ admin and go to **Products > All Products**.
 2. Select one or more products.
@@ -127,16 +127,16 @@ hide: []
 
 ---
 
-#### Edit and Delete Member Prices
+#### Edit and Delete Member Prices { #operate-vip-pricing-multi-edit }
 
 - Click **Create a Member Exclusive Price**, select a VIP group, and edit the price.
 - To delete a group price, click **Remove** in its column.
 
 !!! info "Each variant can have a different price. If none is set, the product's selling price is used."
 
-### Import or Update in Bulk with Excel
+### Import or Update in Bulk with Excel { #operate-vip-pricing-excel }
 
-#### Step 1: Export Member Exclusive Prices
+#### Step 1: Export Member Exclusive Prices { #operate-vip-pricing-export }
 
 1. Log in to the CYBERBIZ admin and go to **Products > All Products**.
 2. Select the products you want to edit.
@@ -146,7 +146,7 @@ hide: []
 
 ---
 
-#### Step 2: Edit the Excel File
+#### Step 2: Edit the Excel File { #operate-vip-pricing-edit-excel }
 
 1. The system emails the Excel file to you. Download and open it.
 2. Set the product exclusive prices in the corresponding columns and save the file.
@@ -155,7 +155,7 @@ hide: []
 
 ---
 
-#### Step 3: Import the Excel File
+#### Step 3: Import the Excel File { #operate-vip-pricing-import }
 
 1. Go to **Products > All Products**.
 2. Above the product list, select **Import Member Exclusive Prices**.
@@ -164,7 +164,7 @@ hide: []
 
 ![Import member exclusive prices](../../../assets/images/ec-import-member-exclusive-prices.zh-tw.en.png){ title="Import Member Exclusive Prices" }
 
-### Member Exclusive Price Label
+### Member Exclusive Price Label { #operate-vip-pricing-label }
 
 The **member exclusive price label** works with the **product VIP label link** to prompt visitors who aren't logged in to log in for VIP exclusive prices, increasing sign-ups and conversions.
 
@@ -176,7 +176,7 @@ The **member exclusive price label** works with the **product VIP label link** t
 
 ---
 
-#### Steps
+#### Steps { #operate-vip-pricing-label-steps }
 
 1. Log in to the CYBERBIZ admin and go to **Website Appearance > Theme Setting > Detail Settings**.  
 2. Select **Product Page > Basic Settings**.
@@ -190,7 +190,7 @@ The **member exclusive price label** works with the **product VIP label link** t
 
 ---
 
-## Storefront Display
+## Storefront Display { #specs-vip-pricing-storefront }
 
 If a member's VIP group has exclusive prices, the storefront product page shows the member exclusive price and the VIP group name.
 
@@ -210,7 +210,7 @@ If a member's VIP group has exclusive prices, the storefront product page shows 
 
 	![Feature on, member logged in](../../../assets/images/ec-vip-exclusive-price-frontend-enabled-login.zh-tw.en.png){ title="Feature On, Member Logged In" }
 
-## FAQ
+## FAQ { #faq-vip-pricing }
 
 ??? quote "How does the storefront display member exclusive prices after I set them?"
 	After a member logs in, the storefront shows the exclusive price directly if their VIP group has one. Visitors who aren't logged in see the original price, and you can turn on the VIP label for visitors who aren't logged in to prompt them to log in.

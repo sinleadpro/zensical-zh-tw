@@ -40,8 +40,8 @@ Set up member information, tiers, and benefits. Track behavior to increase custo
 	    ---
 	    <div class="grid" markdown>
 
-	    [Bulk Import New Members](batch-import-and-edit-members.md#任務一大量匯入新會員)
-	    [Batch Edit Existing Data](batch-import-and-edit-members.md#任務二批次修改既有會員資料)
+	    [Bulk Import New Members](batch-import-and-edit-members.md#operate-batch-members-import)
+	    [Batch Edit Existing Data](batch-import-and-edit-members.md#operate-batch-members-edit)
 
 	    </div>
 
@@ -50,9 +50,9 @@ Set up member information, tiers, and benefits. Track behavior to increase custo
 	    ---
 	    <div class="grid" markdown>
 
-	    [View Member Data](manage-member-profiles.md#任務一查看會員行為與資產數據)
-	    [Edit Basic Information](manage-member-profiles.md#1-編輯會員基本資料)
-	    [Place Orders for Members](manage-member-profiles.md#任務六代客下單)
+	    [View Member Data](manage-member-profiles.md#operate-member-profiles-metrics)
+	    [Edit Basic Information](manage-member-profiles.md#operate-member-profiles-edit-basic)
+	    [Place Orders for Members](manage-member-profiles.md#operate-member-profiles-proxy-order)
 
 	    </div>
 
@@ -116,7 +116,7 @@ Set up member information, tiers, and benefits. Track behavior to increase custo
 	    <div class="grid" markdown>
 
 	    [Member Customer Service Message Board](../members/member-customer-service-system.md)
-	    [Manage Member Messages](../members/member-customer-service-system.md#四訊息回覆與管理)
+	    [Manage Member Messages](../members/member-customer-service-system.md#operate-member-cs)
 
 	    </div>
 
@@ -125,7 +125,7 @@ Set up member information, tiers, and benefits. Track behavior to increase custo
 	    ---
 	    <div class="grid" markdown>
 
-	    [Create Member Segments](../members/member-filters-and-groups.md#使用會員分群)
+	    [Create Member Segments](../members/member-filters-and-groups.md#operate-member-filters-groups)
 
 	    </div>
 

@@ -86,7 +86,7 @@ hide:
 
 ![Order management interface](../../../assets/images/ec-訂單-所有訂單.en.png){ title="Order Management Interface" .hero-page }
 
-## About the Order Interface { #orders }
+## About the Order Interface { #overview-orders }
 
 The **All Orders** page is the core interface for managing sales records, processing shipments, and tracking delivery status.
 
@@ -96,13 +96,13 @@ The **All Orders** page is the core interface for managing sales records, proces
     - **Shipping limit:** After the order's delivery status changes to "Shipped," the delivery address can no longer be changed.
     - **Subscription orders:** For subscription orders, you can show the "Parent Order Number" and "Delivery Period" columns in the list to see which period a sub-order belongs to.
 
-## Order List Features
+## Order List Features { #overview-order-ui-list }
 
 !!! path "Admin path: **Orders > All Orders**."
 
-### Edit Columns and Order
+### Edit Columns and Order { #operate-order-ui-edit-columns }
 
-- Click **Edit Columns** and select the [order list columns](../references/order-list-columns.md#orders-columns){ title="Order List Columns Reference" data-preview } to show (such as member, product details, order tags, order date, payment method, and delivery date).
+- Click **Edit Columns** and select the [order list columns](../references/order-list-columns.md#reference-order-columns){ title="Order List Columns Reference" data-preview } to show (such as member, product details, order tags, order date, payment method, and delivery date).
 - Drag the :lucide-grip-vertical: icon to change the order and set up the list the way you like.
 
 ??? tip "Track Subscriptions"
@@ -112,9 +112,9 @@ The **All Orders** page is the core interface for managing sales records, proces
 
 ---
 
-### View Groups { #order-filter-group }
+### View Groups { #operate-order-filter-group }
 
-With "View Groups," you can save frequently used [filters](../references/order-filter-status-reference.md#orders-v2-filters){ title="Order Filters and Statuses Reference" data-preview }  (such as a specific carrier, payment status, or delivery status) as custom tabs and switch with one click to process orders in bulk more efficiently.
+With "View Groups," you can save frequently used [filters](../references/order-filter-status-reference.md#reference-order-filters){ title="Order Filters and Statuses Reference" data-preview }  (such as a specific carrier, payment status, or delivery status) as custom tabs and switch with one click to process orders in bulk more efficiently.
 
 **Steps**
 
@@ -134,7 +134,7 @@ With "View Groups," you can save frequently used [filters](../references/order-f
 
 ---
 
-### Search and Keywords
+### Search and Keywords { #operate-order-ui-search-keyword }
 
 - Search by name, phone, email, address, order number, tracking number, product name, delivery method, or coupon code.
 - Some fields, such as customer email and tracking number, require an **exact match**.
@@ -149,7 +149,7 @@ With "View Groups," you can save frequently used [filters](../references/order-f
 
 ---
 
-### Order Details Preview
+### Order Details Preview { #operate-order-ui-detail-preview }
 
 **Hover** over an order number to open a **preview window** with the product details and recipient information.
 
@@ -157,7 +157,7 @@ With "View Groups," you can save frequently used [filters](../references/order-f
 
 ---
 
-### Product Details Preview
+### Product Details Preview { #operate-order-ui-product-preview }
 
 - **Quick preview:** In the "Product Details" column, click **Preview** to open a window with the order's product list.
 
@@ -167,7 +167,7 @@ With "View Groups," you can save frequently used [filters](../references/order-f
 
 ---
 
-### Change Rows per Page
+### Change Rows per Page { #operate-order-ui-page-size }
 
 Use the rows-per-page menu below the list to change how many orders are shown per page (such as 10, 25, 50, or 100). Pagination adjusts automatically.
 
@@ -175,11 +175,11 @@ Use the rows-per-page menu below the list to change how many orders are shown pe
 
 ---
 
-## Order Details Page
+## Order Details Page { #overview-order-ui-detail }
 
 The **"order details page"** is the core interface for handling a single order, viewing transaction records, and contacting the customer. In the admin, go to **Orders > All Orders** and click an **order number** to open it.
 
-### Main Action Buttons
+### Main Action Buttons { #operate-order-ui-core-actions }
 
 These are in the upper right of the page and change the order's lifecycle:
 
@@ -199,7 +199,7 @@ These are in the upper right of the page and change the order's lifecycle:
 
 ---
 
-### Payment and Shipping
+### Payment and Shipping { #operate-order-ui-payment-shipping }
 
 - **Payment information:** Shows the payment method and status (such as Awaiting Payment or Payment Received).
 
@@ -227,7 +227,7 @@ These are in the upper right of the page and change the order's lifecycle:
 
 ---
 
-### Buyer and Recipient Information
+### Buyer and Recipient Information { #operate-order-ui-buyer-receiver }
 
 - **Billing information:** The buyer's information, which **can't be changed** after the order is placed.
 
@@ -245,7 +245,7 @@ These are in the upper right of the page and change the order's lifecycle:
 
 ---
 
-### Notes and Other Information
+### Notes and Other Information { #operate-order-ui-notes-other }
 
 - **Order note:** A note **the customer entered on the checkout page**, for special delivery or packaging requests
 - **Shop Note:** This is **for internal use by store admins only and is never visible to customers**.
@@ -256,7 +256,7 @@ These are in the upper right of the page and change the order's lifecycle:
 
 ---
 
-### Order Conversation and Notes
+### Order Conversation and Notes { #operate-order-ui-chat-notes }
 
 - **Customer messages:** Questions customers send from "Order Lookup" on the storefront.
 - **Store messages:** Your replies. Messages **can't be recalled** once sent.
@@ -267,7 +267,7 @@ These are in the upper right of the page and change the order's lifecycle:
 
 ---
 
-### Order Activity Log <small>Key History</small> { #order-history }
+### Order Activity Log <small>Key History</small> { #reference-order-history }
 
 At the bottom of the page, this is the most important tool for troubleshooting orders. It records the time and operator for these events:
 
@@ -289,13 +289,13 @@ At the bottom of the page, this is the most important tool for troubleshooting o
 
 ---
 
-### Return Review Section <small>Shown in Certain Statuses</small>
+### Return Review Section <small>Shown in Certain Statuses</small> { #operate-order-ui-return-review }
 
 When an order is "Reviewing Return," a **"Partial Refund"** section appears on the details page. Select the items to return, enter the refund amount, and click "Confirm Refund" to complete the process.
 
 ![Partial refund section](../../../assets/images/ec-訂單明細頁-部分退款.en.png){ title="Partial Refund Section" }
 
-## Bulk Actions
+## Bulk Actions { #operate-order-ui-batch-actions }
 
 After selecting multiple orders in the order list, use the **"More Actions"** menu to process them in bulk (for each action, see [Order List Actions](../references/order-list-features.md){ title="Order List Actions" data-preview }).
 
@@ -304,12 +304,12 @@ After selecting multiple orders in the order list, use the **"More Actions"** me
 - **Manage tags:** Add or remove custom tags for selected orders in bulk.
 
 !!! tip "View Groups + Bulk Tags"
-    Use "[View Groups](#order-filter-group)" to filter a specific customer group, then use "Manage Tags" to tag them in one click.
+    Use "[View Groups](#operate-order-filter-group)" to filter a specific customer group, then use "Manage Tags" to tag them in one click.
 
 ![Bulk actions](../../../assets/images/ec-訂單列表-更多操作.en.png){ title="Bulk Actions" }
 
 
-## Next Steps
+## Next Steps { #next-steps-order-ui }
 
 <div class="grid cards" markdown>
 
@@ -329,7 +329,7 @@ After selecting multiple orders in the order list, use the **"More Actions"** me
 
 
 
-## FAQ
+## FAQ { #faq-order-ui }
 
 ??? quote "Why can't I click "Edit Order" to change items?"
 	There are two main reasons:

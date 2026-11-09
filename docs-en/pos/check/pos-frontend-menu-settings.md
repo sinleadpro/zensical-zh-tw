@@ -80,16 +80,16 @@ Use the graphical menu on the POS front end so staff can quickly tap products to
     - **Tablet Use**: When checking out on a tablet at a mobile stall or exhibition, the graphical interface is more intuitive.
 
 
-## Usage Notes
+## Usage Notes { #prerequisites-menu-settings }
 
-- **Prerequisites**: We recommend setting up **[Custom Groups](../../ec/products/categories-and-tags/custom-collections.md)** or **[Product Types](../../ec/products/create-and-manage/edit-product-description-settings.md#商品設定)** first so you can link them directly when you create menus.
+- **Prerequisites**: We recommend setting up **[Custom Groups](../../ec/products/categories-and-tags/custom-collections.md)** or **[Product Types](../../ec/products/create-and-manage/edit-product-description-settings.md#operate-product-desc-settings)** first so you can link them directly when you create menus.
 - **Image Requirements**:
     - Recommended size: `80 x 80 px`.
     - File size: Do not exceed `2 MB`.
 - **Menu Structure**: The system supports a three-level structure (main category > subcategory > product item).
 
 
-## Step 1: Create Multi-Level Product Categories
+## Step 1: Create Multi-Level Product Categories { #operate-menu-settings }
 
 Before you set up the POS menu, define the category logic for your products.
 
@@ -106,7 +106,7 @@ Before you set up the POS menu, define the category logic for your products.
 
 
 
-## Step 2: Enable and Configure the POS Menu
+## Step 2: Enable and Configure the POS Menu { #operate-step-b-enable-pos }
 
 After you define the categories, add them to the POS front-end menu and sort them.
 
@@ -123,7 +123,7 @@ After you define the categories, add them to the POS front-end menu and sort the
     ![](https://www.cyberbiz.io/support/wp-content/uploads/POS商品選單5.png){ .screenshot }
 
 
-## Front-End Preview
+## Front-End Preview { #overview-menu-settings }
 
 After setup, staff can see the menu structure shown below on the POS front end:
 

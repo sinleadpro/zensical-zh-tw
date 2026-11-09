@@ -74,11 +74,11 @@ hide:
 
 ![Email notification templates page](../../assets/images/ec-訊息推播-email 通知樣板.png){ .hero-page }
 
-## About Email Notification Templates
+## About Email Notification Templates { #intro-email-templates }
 
 **Email notification templates** let you customize the automated emails sent to customers or admins, and turn notifications for specific situations on or off to suit your operations.
 
-## Path And Page Overview
+## Path And Page Overview { #overview-email-templates }
 
 - **Admin path**: Go to **Push Notifications > Email Notification Template**.
 
@@ -96,7 +96,7 @@ hide:
 
 !!! info "The email categories and templates available to you depend on your plan and feature settings."
 
-## Edit An Email
+## Edit An Email { #operate-email-templates }
 
 1. **Open the editor**: In the list, click the **email title** you want to edit.
 
@@ -112,7 +112,7 @@ hide:
 
 ![](../../assets/images/ec-訊息推播-email 樣板編輯.gif)
 
-## Key Settings
+## Key Settings { #operate-email-templates-core }
 
 - **On/off switch**: Each template has an **ON/OFF** switch on the right, so you decide whether that notification is enabled.
 
@@ -122,17 +122,17 @@ hide:
 
 ---
 
-### Merchant Notification Settings
+### Merchant Notification Settings { #operate-email-templates-merchant }
 
 At specific triggers (such as an order being placed or a payment succeeding), you can also send system notifications to relevant staff or partners.
 
-#### Permissions And The Main Email Address
+#### Permissions And The Main Email Address { #operate-email-templates-mailbox }
 
 - **Default recipient (main email address)**: By default, notifications go to the site admin's main email address.
 
 - **Where to change it**: To [change the main email address](../website-management/setup-store-basic-info.md#operate-general-preferences-company-info){ title="設定網站基本資訊" }, go to **Website Management > General**.
 
-#### Recipient Types
+#### Recipient Types { #operate-email-templates-recipients }
 
 After you click **Add recipient**, you can choose recipients in three ways:
 
@@ -144,17 +144,17 @@ After you click **Add recipient**, you can choose recipients in three ways:
 
 ![](../../assets/images/ec-訊息推播-email 樣板設定.png)
 
-## Common Scenarios And Notification Types
+## Common Scenarios And Notification Types { #specs-email-templates }
 
 System notifications are either customer notifications or internal merchant notifications. Here's how each is sent and through which channels:
 
-### Automated Customer Notifications
+### Automated Customer Notifications { #specs-email-templates-customer }
 
 These notifications keep customers up to date on their orders and accounts.
 
 |**Notification type**|**When it's sent**|**Channels**|
 |---|---|---|
-|**Shipping notification**|**Sent only when the delivery status changes to "Shipped (in transit)"**, so the package is already with the carrier. See [Shipping status notes](../orders/home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ title="出貨狀態物流提示文字說明" data-preview }  .|Email, SMS, LINE|
+|**Shipping notification**|**Sent only when the delivery status changes to "Shipped (in transit)"**, so the package is already with the carrier. See [Shipping status notes](../orders/home-delivery/shipping-status-tooltip.md#reference-shipping-status){ title="出貨狀態物流提示文字說明" data-preview }  .|Email, SMS, LINE|
 |**Order status changes**|Sent when an order is placed, paid, or canceled.|Email, SMS, LINE|
 |**Member benefit notifications**|Includes account activation, password reset, birthday gift credits, and more.|Email, SMS|
 
@@ -163,7 +163,7 @@ These notifications keep customers up to date on their orders and accounts.
 
 ---
 
-### Internal Admin Notifications
+### Internal Admin Notifications { #specs-email-templates-admin }
 
 These notifications go only to the addresses set in Merchant notification settings (such as warehouse or finance staff), never to customers.
 
@@ -176,7 +176,7 @@ These notifications go only to the addresses set in Merchant notification settin
 - **Billing and reconciliation**: Payment charges, statement generation, and other financial information.
 
 
-## Multilingual Settings <Small>Optional</small>
+## Multilingual Settings <Small>Optional</small> { #operate-email-templates-i18n }
 
 If your site has multiple languages turned on, set up each email template separately for each language:
 
@@ -184,7 +184,7 @@ If your site has multiple languages turned on, set up each email template separa
 
 2. Save each language separately. If a language's fields are left empty, the system usually shows the Traditional Chinese content instead.
 
-## Next Steps
+## Next Steps { #next-steps-email-templates }
 
 <div class="grid cards" markdown>
 
@@ -198,7 +198,7 @@ If your site has multiple languages turned on, set up each email template separa
 
 </div>
 
-## FAQ
+## FAQ { #faq-email-templates }
 
 ??? quote "When is the "Shipping information change reminder" email sent? Is it sent when I change an order's delivery address?"
 	No, changing the delivery address doesn't trigger this email. It's sent to the customer only when the order's delivery status is "Shipped", "Arrived at store", "Picked up", or "Store closed".

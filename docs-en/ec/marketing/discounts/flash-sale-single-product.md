@@ -78,11 +78,11 @@ Create Single-Product Flash Sale Collections and set the pricing method (fixed a
 
 ![Single-Product Flash Sale Collections](../../../assets/images/ec-marketing-flash-sale-single-product-hero.zh-tw.png){ title="單品限時折扣群組" .hero-page }
 
-## About Single-Product Flash Sales
+## About Single-Product Flash Sales { #overview-discount }
 
 A single-product flash sale discounts the product itself. You can apply a sale price to selected products for a set period. The discount applies only during the promotion, and prices return to normal automatically when it ends.
 
-### Features And Benefits
+### Features And Benefits { #overview-discount-overview-details }
 
 - **Discount specific products**: Only the selected products are affected. Other prices stay the same.
 - **Runs automatically**: Set your own start and end times. Prices return to normal when the promotion ends.
@@ -94,16 +94,16 @@ A single-product flash sale discounts the product itself. You can apply a sale p
     - **Clearance**: Discount slow-moving products to turn inventory faster.
     - **New product launches**: Offer a short-term discount on new products to build early sales and attention.
 
-## Set Up Single-Product Flash Sale Collections
+## Set Up Single-Product Flash Sale Collections { #operate-discount }
 
-### Add Single Product Discount Collections
+### Add Single Product Discount Collections { #operate-discount-add-discount }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Flash Sale for Single Product**.
 2. Below the Collections list, enter a new Collections Name and click **Add a new collection**.
 
 ---
 
-### Fill In The Collections Details
+### Fill In The Collections Details { #operate-discount-intro-details }
 
 In the Collections list, click the Collections to expand it and set these fields:
 
@@ -124,7 +124,7 @@ In the Collections list, click the Collections to expand it and set these fields
 
 ---
 
-### Add Products To The Collections
+### Add Products To The Collections { #operate-discount-campaign-product }
 
 There are two ways to add products to the discount Collections:
 
@@ -148,7 +148,7 @@ There are two ways to add products to the discount Collections:
 
 ![Single-Product Discount Bulk Import](../../../assets/images/ec-marketing-flash-sale-porduct-excel-import.zh-tw.png){ title="單品折扣批次匯入" }
 
-## Next Steps
+## Next Steps { #intro-discount }
 
 <div class="grid cards" markdown>
 

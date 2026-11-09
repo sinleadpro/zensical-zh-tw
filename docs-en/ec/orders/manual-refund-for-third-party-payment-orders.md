@@ -66,7 +66,7 @@ When the system can't complete an automatic refund for a LINE Pay, JKOPAY, PayPa
     - **Offline closure**: You've already returned the money by over-the-counter remittance or cash and need to update the admin order status to "Refunded."
 
 
-## Things to Know
+## Things to Know { #prerequisites-manual-refund }
 
 - **Automatic refund time**: CYBERBIZ's default automatic refund time is around 11:00 PM daily.
 - **Actual payment handling**: This feature only changes the order status in the admin. After clicking the button, you must return the money to the customer yourself through an offline channel (such as remittance or bank transfer).
@@ -75,7 +75,7 @@ When the system can't complete an automatic refund for a LINE Pay, JKOPAY, PayPa
 
 ---
 
-## Steps
+## Steps { #operate-manual-refund }
 
 
 1. Sign in to the CYBERBIZ admin and go to **Orders > All Orders**.
@@ -86,7 +86,7 @@ When the system can't complete an automatic refund for a LINE Pay, JKOPAY, PayPa
 
 ![](../../assets/images/EC-後台-訂單-所有訂單-第三方支付自行人工退款01.en.png)
 
-## FAQ
+## FAQ { #faq-manual-refund }
 
 ??? quote "Why can't I see the "I'll Refund Manually" button?"
     The button only appears for orders paid by **third-party payment** that are **Returned**. It doesn't appear if the order uses an unsupported payment method or the return process isn't complete.

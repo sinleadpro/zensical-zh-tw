@@ -68,13 +68,13 @@ Create Bonus Points for Specific Products Collections that give bonus points whe
 
 ![](../../../assets/images/EC-後台-行銷活動-指定商品送紅利-畫面總覽01.png){ .hero-page }
 
-## About Bonus Points For Specific Products
+## About Bonus Points For Specific Products { #overview-conditional }
 
 !!! tip "Use Cases"
     - **High-priced items**: For a "Featured Appliances" Collections group, set "Spend NT$5,000, get 500 points." A customer who buys one NT$5,200 robot vacuum earns points. But a customer who buys two different models at NT$3,000 each (NT$6,000 total) gets nothing, because neither item reaches the threshold on its own.
     - **Bulk-buy items**: For a "Tissue Paper" Collections group, set "Spend NT$1,000, get 100 points." One pack costs NT$120. A customer who buys 9 packs at once (subtotal NT$1,080) meets the **single-item threshold** and earns bonus points.
 
-## Before You Start
+## Before You Start { #prerequisites-conditional }
 
 - **Prerequisite**: Turn on bonus points in **Marketing > 全館折扣-紅利&優惠券** first.
 - **Calculation rules**:
@@ -83,15 +83,15 @@ Create Bonus Points for Specific Products Collections that give bonus points whe
 - **Eligible products**: This feature doesn't support combo products.
 - **Product assignment**: A product can't be in more than one Bonus Collections with overlapping promotion periods.
 
-## Steps
+## Steps { #operate-conditional }
 
-### Step 1: Create Bonus Collections For Specific Products
+### Step 1: Create Bonus Collections For Specific Products { #operate-conditional-create-product-bonus }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Issue Bonus Points for Selected Product**.
 2. At the bottom of the page, enter the **Collection name**.
 3. Click **Add a new collection** to open the detailed settings.
 
-### Step 2: Set Basic Information And The Promotion Period
+### Step 2: Set Basic Information And The Promotion Period { #operate-conditional-settings-campaign }
 
 1. In the **Basic Settings** section, check or edit these fields:
     - **Collection name**: The Name used in the admin.
@@ -100,21 +100,21 @@ Create Bonus Points for Specific Products Collections that give bonus points whe
     - If there's no end time, the promotion runs indefinitely.
     - Outside the promotion period, buying the products doesn't earn points.
 
-### Step 3: Set Bonus Point Rules And Validity
+### Step 3: Set Bonus Point Rules And Validity { #operate-conditional-settings-bonus-rules }
 
 1. **Set the spending threshold**: In the **Spending Threshold (NT$)** field, enter the amount to reach (for example, `1000`).
 2. **Set the points to give**: In the **Bonus Points** field, enter a whole number of points (for example, `100`).
 3. **Set the validity period**: In the **Valid Days** field, enter the number of days (for example, `30`).
     - Enter `0` for points that never expire.
 
-### Step 4: Select Promotion Products
+### Step 4: Select Promotion Products { #operate-conditional-campaign-product }
 
 1. In the **Product List** section, click **Add to Collections**.
 2. Search by Name, SKU or tag, and select the products for the promotion.
 3. Click **Add** and make sure the products appear in the Collections list.
 
 
-## More Actions
+## More Actions { #operate-conditional-operate }
 
 <div class="grid cards" markdown>
 

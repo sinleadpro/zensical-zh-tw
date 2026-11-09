@@ -89,7 +89,7 @@ Create multi-level product categories (up to three levels) to organize collectio
 
 ![Multi-level product category settings](../../../assets/images/ec-product-multi-level-product-cateogry-hero.zh-tw.en.png){ title="Multi-Level Product Category Settings" .hero-page }
 
-## About Multi-Level Product Categories
+## About Multi-Level Product Categories { #intro-multi-level-cat }
 
 Multi-level product categories organize **product collections** from different sources (including customized collections, conditionalized collections, and product types). Think of them as a **folder structure for collections** that helps you build a clear, adjustable product category structure.
 
@@ -115,7 +115,7 @@ After you set up multi-level categories, you can apply **navigation bar display 
     - Changing category levels or their order doesn't affect the product lists in the collections
     - Whether a product is shown still depends on the settings of its collection
 
-## Use Cases
+## Use Cases { #intro-multi-level-cat-use }
 
 We recommend multi-level product categories in the following situations:
 
@@ -123,9 +123,9 @@ We recommend multi-level product categories in the following situations:
 - The same product needs to appear in different categories (for example, by use or by customer group)
 - You need to set up the navigation bar, category pages, or marketing campaigns by category level
 
-## Steps
+## Steps { #operate-multi-level-cat }
 
-### Two-Level Structure
+### Two-Level Structure { #operate-multi-level-cat-two }
 
 ??? info-clean "Two-Level Structure Diagram"
     ```mermaid
@@ -160,7 +160,7 @@ We recommend multi-level product categories in the following situations:
 	![Add sub-subcategory settings](../../../assets/images/ec-multi-level-product-cateogry-collection.zh-tw.en.png){ title="Add Sub-Subcategory Settings" }
 
 
-    !!! info "A sub-subcategory is a product collection. For related settings, see [Set Up Customized Collections](custom-collections.md){ title="Set Up Customized Collections" }, [Set Up Conditionalized Collections](smart-collections.md){ title="Set Up Conditionalized Collections" }, and [Product Type](../create-and-manage/edit-product-description-settings.md#Advanced-Settings){ title="Edit Product Descriptions and Product Settings" }."
+    !!! info "A sub-subcategory is a product collection. For related settings, see [Set Up Customized Collections](custom-collections.md){ title="Set Up Customized Collections" }, [Set Up Conditionalized Collections](smart-collections.md){ title="Set Up Conditionalized Collections" }, and [Product Type](../create-and-manage/edit-product-description-settings.md#operate-product-desc-settings-advanced){ title="Edit Product Descriptions and Product Settings" }."
 
 4. The completed setup
 
@@ -170,7 +170,7 @@ We recommend multi-level product categories in the following situations:
    
     !!! info "A sub-subcategory cannot be moved under another subcategory. Add the sub-subcategory directly under the subcategory you want."
 
-### Three-Level Structure
+### Three-Level Structure { #operate-multi-level-cat-three }
 
 ??? info-clean "Three-Level Structure Diagram"
     ```mermaid
@@ -205,7 +205,7 @@ We recommend multi-level product categories in the following situations:
 
 	![Add sub-subcategory settings](../../../assets/images/ec-multi-level-product-cateogry-collection.zh-tw.en.png){ title="Add Sub-Subcategory Settings" }
 
-	!!! info "A sub-subcategory is a product collection. For related settings, see [Set Up Customized Collections](custom-collections.md){ title="Set Up Customized Collections" }, [Set Up Conditionalized Collections](smart-collections.md){ title="Set Up Conditionalized Collections" }, and [Product Type](../create-and-manage/edit-product-description-settings.md#Advanced-Settings){ title="Edit Product Descriptions and Product Settings" }."
+	!!! info "A sub-subcategory is a product collection. For related settings, see [Set Up Customized Collections](custom-collections.md){ title="Set Up Customized Collections" }, [Set Up Conditionalized Collections](smart-collections.md){ title="Set Up Conditionalized Collections" }, and [Product Type](../create-and-manage/edit-product-description-settings.md#operate-product-desc-settings-advanced){ title="Edit Product Descriptions and Product Settings" }."
 
 5. The completed setup
 
@@ -215,7 +215,7 @@ We recommend multi-level product categories in the following situations:
 
     !!! info "A sub-subcategory cannot be moved under another subcategory. Add the sub-subcategory directly under the subcategory you want."
 
-## Next Steps
+## Next Steps { #next-steps-multi-level-cat }
 
 <div class="grid cards" markdown>
 
@@ -232,7 +232,7 @@ We recommend multi-level product categories in the following situations:
 
 </div>
 
-## FAQ
+## FAQ { #faq-multi-level-cat }
 
 ??? quote "Do multi-level product categories affect product lists?"
     No. Multi-level product categories only organize collections and don't affect the product lists in them.

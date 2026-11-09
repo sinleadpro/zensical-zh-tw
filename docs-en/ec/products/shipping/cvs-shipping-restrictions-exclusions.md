@@ -91,9 +91,9 @@ You can control whether a product can use convenience store logistics in the fol
     !!! warning "Convenience store size and weight limits may change with carrier policies. For the actual limits, refer to each convenience store carrier's latest announcement."
 
 ??? tip "Exclude Shipping Options by Specification Conditions"
-    You can adjust a product's size (sum of length, width, and height) or weight to exceed the convenience store limits, and the system automatically excludes the product from convenience store shipping options. Learn [how to prevent specific products from using convenience store logistics](#setup-cvs-shipping-exclusion).
+    You can adjust a product's size (sum of length, width, and height) or weight to exceed the convenience store limits, and the system automatically excludes the product from convenience store shipping options. Learn [how to prevent specific products from using convenience store logistics](#prerequisites-cvs-shipping-exclusion).
 
-## Set Product Size and Weight
+## Set Product Size and Weight { #operate-cvs-shipping-volume }
 
 You can set size and weight information for each product so the system can automatically decide whether it meets convenience store shipping requirements.
 
@@ -118,7 +118,7 @@ You can set size and weight information for each product so the system can autom
     |Product size or weight is empty|The system treats it as 0|The product can still use convenience store shipping options|
 
 
-## Prevent Specific Products from Using Convenience Store Logistics { #setup-cvs-shipping-exclusion }
+## Prevent Specific Products from Using Convenience Store Logistics { #prerequisites-cvs-shipping-exclusion }
 
 If you don't want specific products to use convenience store logistics, set them up manually as follows:
 
@@ -134,9 +134,9 @@ If you don't want specific products to use convenience store logistics, set them
 !!! info "Result"
     When an order contains a specified product, the checkout page automatically hides convenience store pickup options, and customers cannot order with convenience store logistics.
 
-## Example Scenarios
+## Example Scenarios { #specs-cvs-shipping-examples }
 
-### 1. Total Product Size Exceeds the Limit
+### 1. Total Product Size Exceeds the Limit { #specs-cvs-shipping-over-limit }
 
 - Big Hamster product size: 30 cm each
 - Little Piggy product size: 50 cm each
@@ -144,7 +144,7 @@ If you don't want specific products to use convenience store logistics, set them
 ??? quote "If I buy 1 Big Hamster and 2 Little Piggies, can I use convenience store pickup?"
 	The total product size is 30 + (50 * 2) = 130 cm. Because the total size exceeds the convenience store size limit of 105 cm, convenience store pickup with or without payment is not available.
 
-### 2. Total Product Size Within the Limit <small>Including Empty Fields</small>
+### 2. Total Product Size Within the Limit <small>Including Empty Fields</small> { #specs-cvs-shipping-within-limit }
 
 - Amethyst product size: 55 cm each
 - Rose Quartz product size: 50 cm each
@@ -153,7 +153,7 @@ If you don't want specific products to use convenience store logistics, set them
 ??? quote "If I buy 1 Amethyst, 1 Rose Quartz, and 1 Green Crystal, can I use convenience store pickup?"
 	The total product size is 55 + 50 + 0 = 105 cm. Because the total size equals the convenience store size limit of 105 cm, convenience store pickup with or without payment is available.
 
-## FAQ
+## FAQ { #faq-cvs-shipping-restrictions }
 
 ??? quote "How does the system decide if a product's size or weight is empty?"
     If the product's size or weight field is empty, the system uses `0` by default and treats the product as meeting all shipping requirements.

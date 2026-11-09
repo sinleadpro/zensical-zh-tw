@@ -65,11 +65,11 @@ hide: []
 
 ![GA4 Traffic Acquisition](../../../assets/images/ec-第三方整合-google-ga4-流量開發.en.png){ .hero-page }
 
-## UTM Overview
+## UTM Overview { #overview-utm-tracking }
 
 **UTM (Urchin Tracking Module)** is a small parameter appended to the end of a URL to tag traffic source information. With UTM, merchants can have Google Analytics (GA4) accurately record which ad, social platform, or email led users to the site. This is essential for analyzing marketing performance and attributing traffic.
 
-## UTM URL Structure and Common Parameters
+## UTM URL Structure and Common Parameters { #intro-utm-tracking }
 
 An example of a URL containing UTM is: `https://www.example.com/?utm_source=facebook&utm_medium=social`.  
 The five most commonly used parameters are listed below:
@@ -83,7 +83,7 @@ The five most commonly used parameters are listed below:
 | `utm_content` | - | Used for A/B testing<br>Distinguishes different creatives or link placements within the same campaign | `banner1`, `textlink_a` |
 
 
-## Prerequisites and Guidelines
+## Prerequisites and Guidelines { #intro-utm-tracking-use }
 
 To ensure GA4 records your data accurately, be sure to follow these guidelines:
 
@@ -92,9 +92,9 @@ To ensure GA4 records your data accurately, be sure to follow these guidelines:
 - [x] **Use English letters only**: Avoid Chinese characters to prevent encoding errors that cause garbled text.
 - [x] **Create a UTM naming master list**: We recommend creating a master list that records all the names you have configured, so team members can follow consistent naming rules.
 
-## Steps
+## Steps { #operate-utm-tracking }
 
-### UTM Setup Tool <small>Campaign URL Builder</small>
+### UTM Setup Tool <small>Campaign URL Builder</small> { #operate-utm-tracking-utm-settings-campaign }
 
 Use the official Google [**Campaign URL Builder** :lucide-external-link:](https://ga-dev-tools.google/campaign-url-builder/) to quickly generate links:
 
@@ -109,7 +109,7 @@ Use the official Google [**Campaign URL Builder** :lucide-external-link:](https:
 
 ---
 
-### View Data in GA4 Reports
+### View Data in GA4 Reports { #operate-utm-tracking-ga4-report-view }
 
 !!! warning "First, complete the [GA4 integration with your website](ga/setup-google-analytics.md){ title="Set up and connect Google Analytics" } so you can view website traffic data in GA4."
 
@@ -122,7 +122,7 @@ After you publish your links, check their performance in the GA4 dashboard:
 
 ![GA4 Traffic Acquisition Source / Medium](../../../assets/images/ec-第三方整合-ga4-流量開發-工作階段來源或媒介.en.gif)
 
-## Next Steps
+## Next Steps { #next-steps-utm-tracking }
 
 <div class="grid cards" markdown>
 
@@ -131,12 +131,12 @@ After you publish your links, check their performance in the GA4 dashboard:
   To manually add UTM parameters to a URL that includes a referral code (that is, one that includes `?rcode=...`), you must use **&** to separate each parameter after rcode.
 
 - :lucide-file-spreadsheet:{ .lg }  
-  [__Order Report Export__](../../orders/reports/export-order-report.md#步驟一選擇報表欄位){ title="Export Order Reports" }  
+  [__Order Report Export__](../../orders/reports/export-order-report.md#operate-order-report-select-fields){ title="Export Order Reports" }  
   In the admin, Order Report Export lets you select UTM-related fields (such as source, medium, and campaign name), so you can download an Excel file for offline analysis.
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-utm-tracking }
 
 ??? quote "Can UTM parameters use Chinese names?"
     We do not recommend using Chinese. UTM parameters should use English letters only to prevent encoding errors that cause garbled URLs, which can affect the accuracy of GA4 data statistics.

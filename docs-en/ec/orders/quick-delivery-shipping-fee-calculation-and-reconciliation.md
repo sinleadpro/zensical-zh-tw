@@ -83,7 +83,7 @@ This article explains how Quick Delivery shipping fees are calculated and the de
 
 
 
-## Before You Start
+## Before You Start { #prerequisites-qd-fee }
 
 - **Distance rules**: The minimum unit is 1 km, and any part of a kilometer counts as a full kilometer (for example, 2.1 km counts as 3 km).
 - **Fee changes**: Uber Direct fees vary with traffic, peak hours, and other factors. Go by the amount shown in the admin.
@@ -91,13 +91,13 @@ This article explains how Quick Delivery shipping fees are calculated and the de
 - **Changes**: Rates may change with partner programs. Go by what the admin shows or the latest announcement.
 
 
-## Shipping Fee Calculation
+## Shipping Fee Calculation { #specs-qd-fee }
 
 Quick Delivery shipping fees have two parts: what you pay the platform and what customers pay you.
 
-### 1. Shipping Fees You Pay the Platform (Cost)
+### 1. Shipping Fees You Pay the Platform (Cost) { #operate-qd-fee-merchant-fee }
 
-#### Pandago
+#### Pandago { #operate-qd-fee-pandago }
 
 === "Pricing"
 
@@ -116,7 +116,7 @@ Quick Delivery shipping fees have two parts: what you pay the platform and what 
     | **3–4 km** | NT$115 per order |
     | **4–5 km** | NT$125 per order |
 
-#### Uber Direct
+#### Uber Direct { #operate-qd-fee-uber-direct }
 
 
 === "Pricing"
@@ -141,13 +141,13 @@ Quick Delivery shipping fees have two parts: what you pay the platform and what 
 
 
 
-### 2. Shipping Fees Customers Pay You (Shown on the Storefront)
+### 2. Shipping Fees Customers Pay You (Shown on the Storefront) { #operate-qd-fee-customer-fee }
 
 The shipping fee customers see is calculated as follows:
 **Platform base shipping fee ± your custom shipping surcharge or discount**
 
 
-## Example Scenarios
+## Example Scenarios { #intro-qd-fee }
 
 Say you set the following:
 
@@ -155,7 +155,7 @@ Say you set the following:
 - **Free shipping threshold**: Free shipping on orders of NT$1,000 or more
 - **Delivery distance**: 2.9 km (counted as 3 km)
 
-### Example 1: Below the Free Shipping Threshold (Order Amount NT$450)
+### Example 1: Below the Free Shipping Threshold (Order Amount NT$450) { #operate-qd-fee-example-under }
 
 === "With Pandago"
 
@@ -174,24 +174,24 @@ Say you set the following:
         - **You pay**: **NT$125**
         - **Customer pays**: NT$125 (platform fee) + NT$100 (your surcharge) = **NT$225**
 
-### Example 2: Meets the Free Shipping Threshold (Order Amount NT$1,680)
+### Example 2: Meets the Free Shipping Threshold (Order Amount NT$1,680) { #operate-qd-fee-example-over }
 
 Whichever platform you use, the customer pays **NT$0** for shipping, and you cover the full shipping cost above.
 
 
 
-## Reconciliation and Billing
+## Reconciliation and Billing { #specs-qd-fee-reconcile }
 
-### 1. When You're Charged
+### 1. When You're Charged { #operate-qd-fee-timing }
 When the order status changes to **Shipped**, the system immediately calculates the shipping fee and charges you automatically.
 
-### 2. Payment Method
+### 2. Payment Method { #operate-qd-fee-tools }
 Quick Delivery shipping fees are always deducted in **CYBER Coins**.
 
 - You can download statements from **Website Management > Reconciliation Center** and see deduction records in **CYBER Coin Usage Details**.
 - Example entry text: `pandago shipment, tracking number a-cb00-7715aa`.
 
-### 3. Exception Adjustments
+### 3. Exception Adjustments { #operate-qd-fee-adjustments }
 If an order is canceled or an exception occurs, the system creates the related adjustment:
 
 - **Shipping fee refund**: When an order is canceled because of the platform, the deducted shipping fee is refunded.

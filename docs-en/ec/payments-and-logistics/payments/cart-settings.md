@@ -134,7 +134,7 @@ When a customer adds items to the cart but does not complete checkout, the syste
 3. **Set the reminder frequency:** After you enable any channel, a "Reminder Frequency" setting appears below. You can set up to three reminders and enter the number of days after which each one is sent.
 4. **Done:** Click **Save** to apply the settings.
 
-For the activation requirements of each reminder channel, see [Unfinished Cart Reminder Channel Comparison](../references/cart-reminder-channels-reference.md#cart-reminder-channels){ data-preview }.
+For the activation requirements of each reminder channel, see [Unfinished Cart Reminder Channel Comparison](../references/cart-reminder-channels-reference.md#reference-cart-reminder-channels){ data-preview }.
 
 [^line-plan]: The LINE OA reminder appears only when the corresponding feature is activated (PLUS or higher, or Enterprise).
 

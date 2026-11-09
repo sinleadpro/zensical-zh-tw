@@ -57,7 +57,7 @@ icon: lucide/id-card
 hide: []
 ---
 
-## What Is Google Business Profile?
+## What Is Google Business Profile? { #intro-google-business }
 
 Creating a [My Business Profile :lucide-external-link:](https://business.google.com/tw/business-profile/) (Google Business Profile) is an important step for physical stores and brand owners. It is a free tool that lets merchants manage their information on Google Search and Google Maps, increasing visibility and building customer trust.
 
@@ -67,7 +67,7 @@ Creating a [My Business Profile :lucide-external-link:](https://business.google.
 
 ![](../../../assets/images/ec-第三方整合-google商家檔案-前台.en.png)
 
-## Step-by-Step Setup Guide
+## Step-by-Step Setup Guide { #operate-google-business }
 
 !!! warning "This feature is provided and reviewed by Google. For the latest procedures and interface, refer to [Google's official information :lucide-external-link:](https://support.google.com/business/answer/2911778?hl=zh-Hant&ref_topic=4596754&sjid=3926033107048309425-NA)."
 
@@ -82,7 +82,7 @@ Creating a [My Business Profile :lucide-external-link:](https://business.google.
 9.  **Business photos**: Add photos of your store or product images to make your profile more appealing.
 10. **Finish setup**: Click **Continue**, then wait for Google to **verify** your profile. Once verified, your business profile goes live.
 
-## Next Steps
+## Next Steps { #next-steps-google-business }
 
 <div class="grid cards" markdown>
 
@@ -92,7 +92,7 @@ Creating a [My Business Profile :lucide-external-link:](https://business.google.
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-google-business }
 
 ??? quote "Who can create a Google Business Profile?"
 

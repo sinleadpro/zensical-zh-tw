@@ -71,7 +71,7 @@ When the POS frontend has no activity for the specified time, the system automat
 	- **Account Access Control**: Requires on-duty staff to log in again for each session, ensuring clear accountability.
 
 
-## Usage Notes
+## Usage Notes { #prerequisites-auto-logout }
 
 - **Permission Restriction**: Only users with the **Site Owner** role can configure this setting.
 - **Scope**: This setting applies only to the **POS Frontend** interface and does not affect the admin back end.
@@ -80,27 +80,27 @@ When the POS frontend has no activity for the specified time, the system automat
     - Moving the mouse cursor
     - Clicking the mouse
 
-## Procedure
+## Procedure { #operate-auto-logout }
 
-### Step 1: Go to the POS Store List
+### Step 1: Go to the POS Store List { #operate-auto-logout-1-pos-list }
 
 Log in to the CYBERBIZ admin back end and go to **POS > POS Store List**.
 
 
 
-### Step 2: Select the Target Store
+### Step 2: Select the Target Store { #operate-auto-logout-2-store }
 
 In the store list, select the POS store you want to configure for auto-logout.
 
 ![](../../assets/images/POS-後台-所有POS門市-設定自動登出時間01.en.png){ .screenshot }
 
-### Step 3: Turn on Auto-Logout Settings
+### Step 3: Turn on Auto-Logout Settings { #operate-auto-logout-3-enable-auto }
 
 Click the **Auto-Logout Settings** button above the list.
 
 ![](../../assets/images/POS-後台-所有POS門市-設定自動登出時間02.en.png){ .screenshot }
 
-### Step 4: Set the Logout Time and Enable It
+### Step 4: Set the Logout Time and Enable It { #operate-auto-logout-4-settings-logout }
 
 1. In the pop-up window, enter the **Logout Seconds** you want to set.
 2. Toggle the switch to **Enable**.
@@ -108,26 +108,26 @@ Click the **Auto-Logout Settings** button above the list.
 
 ![](../../assets/images/POS-後台-所有POS門市-設定自動登出時間03.en.png){ .screenshot }
 
-### Step 5: Confirm the Update Was Successful
+### Step 5: Confirm the Update Was Successful { #operate-auto-logout-5-confirm-update }
 
 After setup, **POS Auto-Logout Settings** changes to **Enabled**, and the auto-logout time is displayed.
 
 ![](../../assets/images/POS-後台-所有POS門市-設定自動登出時間04.en.png){ .screenshot }
 
-### Step 6: Verify the Frontend Display
+### Step 6: Verify the Frontend Display { #operate-auto-logout-6-frontend }
 
 Go to the POS frontend interface. The top-right corner displays the **Auto-Logout** countdown or status.
 
 ![](https://www.cyberbiz.co/support/wp-content/uploads/2019/11/自動登出6.png){ .screenshot }
 
 
-## FAQ
+## FAQ { #faq-auto-logout }
 
 ??? quote "Why can't I find the **Auto-Logout Settings** button?"
     Check whether you are logged in as the **Site Owner**. Users with standard administrator permissions cannot see or use this feature.
 
 
-## More Actions
+## More Actions { #next-steps-auto-logout }
 
 <div class="grid cards" markdown>
 

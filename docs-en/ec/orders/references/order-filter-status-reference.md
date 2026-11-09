@@ -61,31 +61,31 @@ icon: lucide/file-search
 hide: []
 ---
 
-## Filter Overview { #orders-v2-filters }  
+## Filter Overview { #reference-order-filters }  
 
 !!! info "The available filter fields and options change based on your **plan** or **admin feature settings**."
 
 
 | Filter | Description |
 |---|---|
-| **[Order Status](#orders-status){ title="Order Status Reference" data-preview }** | Filter by overall order status (In Progress / Completed / Canceled) |
-| **[Payment Status](payment-statuses.md#payment-statuses){ title="Order Payment Status Reference" data-preview }** | Filter by payment collection / refund status (Payment Received, Awaiting Payment, Refunded, and so on) |
-| **[Delivery Status](fulfillment-statuses.md#fulfillment-statuses-table){ title="Delivery Status Reference" data-preview }** | Filter by shipping status (Unshipped, Shipped, Arrived at Store, and so on) |
-| **[Return Status](#orders-return-status){ title="Return Status Reference" data-preview }** | Filter by return status (Return Requested, Returning, Returned, and so on) |
-| **[Order Source](#orders-store){ title="Order Source Reference" data-preview }** | Distinguish online EC orders from orders at each POS store |
-| **[Merchant Source/<br>Remittee](#orders-merchant-from){ title="Remittee Reference" data-preview }** | Filter by who actually collects the payment (Shunli collection / Merchant / POS / Warehouse) |
-| **[Delivery Type](shipping-methods.md#shipping-methods){ title="Shipping Methods Reference" data-preview }** | Filter by logistics channel (convenience store pickup, home delivery, self-pickup, and so on) |
+| **[Order Status](#reference-order-status){ title="Order Status Reference" data-preview }** | Filter by overall order status (In Progress / Completed / Canceled) |
+| **[Payment Status](payment-statuses.md#reference-payment-statuses){ title="Order Payment Status Reference" data-preview }** | Filter by payment collection / refund status (Payment Received, Awaiting Payment, Refunded, and so on) |
+| **[Delivery Status](fulfillment-statuses.md#reference-fulfillment-statuses){ title="Delivery Status Reference" data-preview }** | Filter by shipping status (Unshipped, Shipped, Arrived at Store, and so on) |
+| **[Return Status](#reference-order-return-status){ title="Return Status Reference" data-preview }** | Filter by return status (Return Requested, Returning, Returned, and so on) |
+| **[Order Source](#reference-order-store){ title="Order Source Reference" data-preview }** | Distinguish online EC orders from orders at each POS store |
+| **[Merchant Source/<br>Remittee](#reference-order-merchant-source){ title="Remittee Reference" data-preview }** | Filter by who actually collects the payment (Shunli collection / Merchant / POS / Warehouse) |
+| **[Delivery Type](shipping-methods.md#reference-shipping-methods){ title="Shipping Methods Reference" data-preview }** | Filter by logistics channel (convenience store pickup, home delivery, self-pickup, and so on) |
 | **Product Distribution Channel** | Filter by the product channel tags in the order, for multichannel selling |
 | **Delivery Temperature** | Filter by the ambient / refrigerated / frozen temperature zone assigned to products |
 | **Tags** | Filter by your custom order tags (can be added manually in order details) |
 | **Order Products** | Select specific products to show only orders that include them |
-| **[Order Type](#orders-line-group-buy){ title="Order Type Reference" data-preview }** | Filter LINE group buying orders |
+| **[Order Type](#reference-order-line-group-buy){ title="Order Type Reference" data-preview }** | Filter LINE group buying orders |
 | **Order Date** | Filter by order creation time, with "Between" and "Past N days" modes |
 | **Order Delivery Date** | Filter by scheduled or actual delivery date, with "Between" and "Past N days" |
 
 <!--
 
-## Order Filter Reference { #orders-filter }
+## Order Filter Reference { #operate-order-filter }
 
 
 All filters available in the system:
@@ -124,7 +124,7 @@ All filters available in the system:
 
 -->
 
-## Return Status Reference { #orders-return-status }
+## Return Status Reference { #reference-order-return-status }
 
 
 | Return Status | Description |
@@ -140,7 +140,7 @@ All filters available in the system:
 | Returned   | The customer completed the return, and the package is back with the merchant |
 
 
-## Order Status Reference { #orders-status }
+## Order Status Reference { #reference-order-status }
 
 
 | Order Status | Description |  
@@ -150,7 +150,7 @@ All filters available in the system:
 | Canceled | The order was stopped because the customer or merchant canceled it; related payment / logistics won't continue |  
 
 
-## Remittee Reference { #orders-merchant-from }
+## Remittee Reference { #reference-order-merchant-source }
 
 
 | Remittee | Description |  
@@ -164,7 +164,7 @@ All filters available in the system:
 !!! note "Note"
     This filter appears only for Enterprise, PLUS plans (Expert PLUS / Advanced PLUS / Professional PLUS), or stores without the "Own Payment Provider" feature.
 
-## Order Source Reference { #orders-store }  
+## Order Source Reference { #reference-order-store }  
 
 | Order Source | Description |  
 | :-- | :-- |  
@@ -173,7 +173,7 @@ All filters available in the system:
 
 !!! note "This filter appears only when the **POS system** is turned on."
 
-## Order Type Reference { #orders-line-group-buy }
+## Order Type Reference { #reference-order-line-group-buy }
 
 
 | Order Type | Description |
@@ -183,7 +183,7 @@ All filters available in the system:
 !!! note "Note"
     This filter appears only when **LINE group buying** is turned on. Leaving it unselected means "all order types" (including regular EC orders and LINE group buying orders).  
 
-## Warehouse Type Reference { #orders-warehouse-type }  
+## Warehouse Type Reference { #reference-order-warehouse-type }  
 
 | Warehouse Type | Description |
 | :-- | :-- |  
@@ -199,7 +199,7 @@ All filters available in the system:
     - The "Mixed orders" options identify **single orders shipped from multiple warehouses**, helping pickers handle them by warehouse.
     - Options appear in the drop-down based on the warehouse integrations you actually use; inactive warehouses aren't listed.
 
-## Keyword Matching Rules { #orders-match-mode }
+## Keyword Matching Rules { #specs-order-match-mode }
 
 To improve search speed and accuracy, the system uses two search modes for different fields. If you don't get the results you expect, check that your input matches the field's matching rule.
 

@@ -60,7 +60,7 @@ hide: []
 
 Use a flexible tier system and automated calculation engine to identify high-value customers accurately, offer differentiated VIP benefits, and build long-term customer loyalty.
 
-## Choose Your Membership System
+## Choose Your Membership System { #intro-vip-guide }
 
 Based on your operating strategy, choose a general system for the entire store and set custom thresholds and benefits for specific customer groups.
 
@@ -76,11 +76,11 @@ Based on your operating strategy, choose a general system for the entire store a
 
 </div>
 
-## Which Purchases Count
+## Which Purchases Count { #specs-vip-guide }
 
 Not all orders count toward the cumulative VIP purchase amount. The system only counts orders with completed transactions and no return concerns:
 
-### Valid Orders That Count Toward VIP Status
+### Valid Orders That Count Toward VIP Status { #specs-vip-guide-valid-orders }
 
 *   **Paid orders**: The payment status is **Paid**.
 *   **Received cash-on-delivery orders**: The payment status is **Cash on Delivery**, and the delivery status is **Received**. For custom cash-on-delivery orders, the delivery status is **Shipped**.
@@ -90,15 +90,15 @@ Not all orders count toward the cumulative VIP purchase amount. The system only 
 
 *   **Orders with rejected returns**: The order had a return dispute but was ultimately marked as **Return Rejected**.
 
-### Invalid Orders That Do Not Count Toward VIP Status
+### Invalid Orders That Do Not Count Toward VIP Status { #specs-vip-guide-invalid-orders }
 
 *   **Canceled orders**: The order status is **Canceled**.
 *   **Returned orders**: Orders with a return status other than **Return Rejected** or **No Return Required**.
 *   **Partially returned orders**: If an order is **Partially Returned**, the system excludes the entire order amount by default.
 
-## When The System Updates Membership Tiers
+## When The System Updates Membership Tiers { #specs-vip-guide-timing }
 
-### 1. Evaluation Triggers
+### 1. Evaluation Triggers { #specs-vip-guide-trigger }
 
 Whenever a member performs any of the following actions, the system immediately recalculates that member's tier:
 
@@ -106,7 +106,7 @@ Whenever a member performs any of the following actions, the system immediately 
 *   **Data changes**: A new member registers, a merchant manually changes a member's Tags, or a merchant manually increases or decreases the member's **Valid Orders from Other Channels**.
 *   **Version activation**: A merchant publishes a new version of the VIP system, and it reaches its effective date.
 
-### 2. Rolling Lookback Calculation
+### 2. Rolling Lookback Calculation { #specs-vip-guide-rolling }
 
 The system does not use the calendar year. Instead, it looks back over a specific validity period from the time the recalculation is triggered.
 
@@ -125,7 +125,7 @@ The system does not use the calendar year. Instead, it looks back over a specifi
 </div>
 
 
-## Rule Activation And Version Management
+## Rule Activation And Version Management { #specs-vip-guide-versions }
 
 To protect consumer rights and give merchants time to announce changes, the system applies effective-date restrictions to changes in core rules.
 
@@ -133,7 +133,7 @@ To protect consumer rights and give merchants time to announce changes, the syst
 *   **Benefit settings (effective immediately)**: Changes to benefits, such as discount rates and bonus points issued, take effect immediately after saving.
 *   **Version management**: Use **Copy Version** to plan the next phase of your membership strategy without affecting the currently active version.
 
-## Applying Exclusive VIP Benefits
+## Applying Exclusive VIP Benefits { #next-steps-vip-guide }
 Turn your VIP system into a marketing driver. Use exclusive offers and differentiated pricing to increase average order value and repeat purchase rates among members.
 
 <div class="grid cards" markdown>

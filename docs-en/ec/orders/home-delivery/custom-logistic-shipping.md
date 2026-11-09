@@ -66,7 +66,7 @@ hide: []
 
 ![Custom logistics shipping](../../../assets/images/EC-訂單-所有訂單-更多操作-已出貨-hero.en.png){ title="Ship with Custom Logistics" .hero-page }
 
-## About Custom Logistics Shipping { #custom-logistics-shipping-intro }
+## About Custom Logistics Shipping { #intro-custom-logistics }
 
 "Custom logistics" is for logistics not integrated with the CYBERBIZ system, such as freight companies you work with directly (Ta Rong Logistics, Kerry TJ Logistics, third-party couriers), your own delivery, or customer pickup. You can manually specify the freight company on the order (tracking number optional). The system changes the order's delivery status to "Shipped," and you can choose whether to send the customer a notification email.
 
@@ -77,7 +77,7 @@ hide: []
     - Doesn't sync delivery progress
     - Doesn't update tracking history
 
-## Prerequisites and Limitations { #custom-logistics-shipping-prerequisites }
+## Prerequisites and Limitations { #prerequisites-custom-logistics }
 
 Before shipping, the order must meet all of the following:
 
@@ -90,26 +90,26 @@ Before shipping, the order must meet all of the following:
 
     Once an order's delivery status changes to "Shipped," it can't be changed back to "Unshipped." To cancel, you can only use the return or refund process, so make sure the information is correct before proceeding.
 
-## How to Ship { #custom-logistics-shipping-operate }
+## How to Ship { #operate-custom-logistics }
 
 There are three ways to ship, depending on shipment volume and whether you need to enter tracking numbers:
 
 <div class="grid cards" markdown>
 
 -   :lucide-package-open:{ .lg }
-    [Quick batch shipment (no tracking numbers)](#custom-logistics-shipping-batch)
+    [Quick batch shipment (no tracking numbers)](#operate-custom-logistics-batch)
 
 -   :lucide-file-spreadsheet:{ .lg }
-    [Bulk import tracking numbers with Excel](#excel-bulk-import)
+    [Bulk import tracking numbers with Excel](#operate-excel-bulk-import)
 
 -   :lucide-pencil:{ .lg }
-    [Ship a single order manually](#single-order-manual-ship)
+    [Ship a single order manually](#operate-custom-logistics-single-order)
 
 </div>
 
 ---
 
-### Mark Orders as Shipped in Bulk { #custom-logistics-shipping-batch }
+### Mark Orders as Shipped in Bulk { #operate-custom-logistics-batch }
 
 Use this to quickly change multiple orders to "Shipped" without entering tracking numbers one by one.
 
@@ -154,7 +154,7 @@ Use this to quickly change multiple orders to "Shipped" without entering trackin
 
 ---
 
-### Bulk Import Custom Logistics Tracking Numbers <small>Excel</small> { #excel-bulk-import }
+### Bulk Import Custom Logistics Tracking Numbers <small>Excel</small> { #operate-excel-bulk-import }
 
 Use this when you need to **enter many different tracking numbers at once**.
 
@@ -196,7 +196,7 @@ Use this when you need to **enter many different tracking numbers at once**.
 
 ---
 
-### Ship a Single Order from the Details Page { #single-order-manual-ship }
+### Ship a Single Order from the Details Page { #operate-custom-logistics-single-order }
 
 !!! example "When to Use"
     - Entering tracking numbers precisely one by one
@@ -213,17 +213,17 @@ Use this when you need to **enter many different tracking numbers at once**.
 
 ![Order details page - custom shipping](../../../assets/images/EC-訂單-訂單詳情頁-出貨方式-自訂出貨.en.png){ title="Order Details Page: Custom Shipping" }
 
-## Special Cases
+## Special Cases { #operate-custom-logistics-exceptions }
 
 - **Customer pickup**: Still use the "custom logistics" process. For "Tracking Number," enter a pickup number or text such as "Customer pickup."
-- **Self-delivery**: Use [batch shipment](#custom-logistics-shipping-batch) and add delivery details in the note.
+- **Self-delivery**: Use [batch shipment](#operate-custom-logistics-batch) and add delivery details in the note.
 - **Handwritten waybills**: If you use a handwritten waybill, enter the actual handwritten number.
 
     !!! warning "Don't enter your CYBERBIZ customer code, or it may cause billing errors."
 
 - **Multiple packages per order**: We recommend Excel import, joining the tracking numbers with a half-width semicolon `;`.
 
-## Next Steps
+## Next Steps { #next-steps-custom-logistics }
 
 Custom logistics doesn't sync delivery progress automatically, so you need to move the order forward yourself.
 
@@ -243,7 +243,7 @@ Custom logistics doesn't sync delivery progress automatically, so you need to mo
 
 </div>
 
-## FAQ
+## FAQ { #faq-custom-logistics }
 
 ??? quote "Why can't I find my carrier in the drop-down?"
 

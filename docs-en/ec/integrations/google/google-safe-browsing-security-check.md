@@ -66,7 +66,7 @@ hide:
 
 ![Google Safe Browsing website tool](../../../assets/images/ec-google-安全瀏覽網站狀態工具.en.png){ .hero-page }
 
-## Safe Browsing Website Status Guide
+## Safe Browsing Website Status Guide { #specs-safe-browsing }
 
 Google provides the Safe Browsing Site Status Checker, which helps merchants proactively check whether their storefront has security risks. This helps avoid being classified as an unsafe website, which can hurt brand trust and search rankings.
 
@@ -75,7 +75,7 @@ Google provides the Safe Browsing Site Status Checker, which helps merchants pro
     - **Google Safe Browsing** is a website security protection mechanism. It detects malicious sites, such as phishing sites, malware, and Trojans, and displays a warning when users visit risky pages to reduce security threats. [Learn more :lucide-external-link:](https://safebrowsing.google.com/)
     - **Google Transparency Report** is based on Safe Browsing detection results. It provides public safety data and lookup tools that let site administrators check whether their site is flagged as a risky site. [Learn more :lucide-external-link:](https://transparencyreport.google.com/?hl=zh_TW)
 
-## Check Whether Your Site Has Security Risks
+## Check Whether Your Site Has Security Risks { #operate-safe-browsing }
 
 1.  **Go to the tool page**: Open the [Google Check Site Status :lucide-external-link:](https://transparencyreport.google.com/safe-browsing/search?hl=zh_TW) tool page.
 2.  **Enter the URL**: Enter the storefront URL you want to check in the search box and run the search.
@@ -85,7 +85,7 @@ Google provides the Safe Browsing Site Status Checker, which helps merchants pro
 
 ![Google Safe Browsing site status check](../../../assets/images/ec-google-安全瀏覽網站狀態-不安全網站.en.png)
 
-## What to Do If Your Site Is Marked as Unsafe
+## What to Do If Your Site Is Marked as Unsafe { #intro-safe-browsing }
 
 If Google marks your site as unsafe, follow these steps to request a review and remove the warning:
 
@@ -100,7 +100,7 @@ If Google marks your site as unsafe, follow these steps to request a review and 
 
 ![GSC security issues](../../../assets/images/ec-第三方整合-google-gsc安全性問題.en.png)
 
-## Next Steps
+## Next Steps { #next-steps-safe-browsing }
 
 To strengthen your storefront's security, we recommend that you always enable the related security settings in the CYBERBIZ admin. This lowers the risk that a compromised account is used to inject malicious content into your site.
 
@@ -116,7 +116,7 @@ To strengthen your storefront's security, we recommend that you always enable th
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-safe-browsing }
 
 ??? quote"How long does it take to clear the warning after I submit a review request?"
 

@@ -61,7 +61,7 @@ hide: []
 
 ![Order details page - partial shipment](../../../assets/images/EC-訂單-訂單詳情頁-部分出貨-hero.en.png){ title="Order Details Page: Partial Shipment" .hero-page }
 
-## About Partial Shipment
+## About Partial Shipment { #intro-partial-shipment }
 
 When only some items in an order are in stock, "partial shipment" lets you ship those items to the customer first and ship the rest later under the same order, so the customer waits less.
 
@@ -72,11 +72,11 @@ In the "Shipping" section of the order details page, select only **the items you
 
 ---
 
-## Requirements and Limitations
+## Requirements and Limitations { #prerequisites-partial-shipment }
 
 Before a partial shipment, check the following requirements. If any isn't met, the "Shipping" section won't show selectable items or shipping methods.
 
-### Order Requirements
+### Order Requirements { #prerequisites-partial-shipment-orders }
 
 - [x] **Order Status**: Open.
 - [x] **Payment Status**: Paid, Cash on Delivery, Pending Partial Refund, Partially Refunded, or "Awaiting Payment" for a custom payment method.
@@ -94,7 +94,7 @@ Before a partial shipment, check the following requirements. If any isn't met, t
     * **Amazon FBA warehouse-integrated orders**
     * **Orders entirely from an integrated warehouse**, when you haven't purchased the "[Partial Warehouse Integration](../../../wms/enable-partial-warehouse-integration-and-order-splitting.md){ title="Enable Partial Warehouse Integration and Order Splitting" }" add-on
 
-## Steps { #fuilfillment-partial-operate }
+## Steps { #operate-partial-shipment }
 
 The following uses "EZCAT Shipping Label" as an example. The steps for other carriers (such as Pelican Express, SF Express, HCT Logistics, or custom shipping) are largely the same.
 
@@ -130,9 +130,9 @@ The following uses "EZCAT Shipping Label" as an example. The steps for other car
     !!! info "Cancellation Limitation"
         You can't delete created shipping labels yourself in the admin. If you make a mistake (such as the wrong logistics service or items), contact CYBERBIZ customer service to cancel it.
 
-## Ship the Remaining Items { #fulfillment-partial-resume }
+## Ship the Remaining Items { #operate-partial-shipment-resume }
 
-When the out-of-stock items are restocked, go back to the same order and [repeat the steps above](#fuilfillment-partial-operate) to ship them:
+When the out-of-stock items are restocked, go back to the same order and [repeat the steps above](#operate-partial-shipment) to ship them:
 
 1. **Open the order**: Go to "Orders" > "All Orders" and click the order number of an order with status `Partially Shipped`.
 2. **Select items**: Select the remaining items to ship now.
@@ -146,9 +146,9 @@ When the out-of-stock items are restocked, go back to the same order and [repeat
     | **Automation limits** | Partially shipped orders **aren't completed automatically**. [Complete them manually](../order-settings/manual-order-close.md){ title="How to Manually Close Orders" } after everything ships. |
     | **Customer notifications** | Each shipment is a separate event, and the system sends a shipping notification each time based on your selection. |
 
-## Special Cases by Logistics Type { #fuilfillment-partial-edge-case }
+## Special Cases by Logistics Type { #specs-partial-shipment-edge }
 
-### Custom Shipping Method
+### Custom Shipping Method { #operate-partial-shipment-custom-methods }
 
 When you use a third-party carrier you work with or deliver orders yourself (for details, see [How to Ship with Custom Logistics](custom-logistic-shipping.md){ title="How to Ship with Custom Logistics" }):
 
@@ -159,7 +159,7 @@ When you use a third-party carrier you work with or deliver orders yourself (for
 
 ---
 
-### CYBERBIZ NOW Quick Delivery <small>Store Fulfillment</small>
+### CYBERBIZ NOW Quick Delivery <small>Store Fulfillment</small> { #operate-partial-shipment-cyberbiz-now }
 
 - **Where to go**: Quick Delivery orders are handled in "Store Orders." Don't process them in the "All Orders" list.
 - **Out-of-stock handling**: If the store doesn't have enough stock, select the items actually in stock and ship them first. For details, see [Partial Delivery or Cancellation for Out-of-Stock Orders](../../orders/out-of-stock-partial-shipping-or-cancellation.md){ title="Partial Delivery or Cancellation for Out-of-Stock Orders" }.
@@ -169,18 +169,18 @@ When you use a third-party carrier you work with or deliver orders yourself (for
 
 ---
 
-### Partially Warehouse-Integrated Orders
+### Partially Warehouse-Integrated Orders { #prerequisites-partial-shipment-mixed }
 
 When an order contains both "self-shipped items" and "warehouse items," and you've purchased the "[Partial Warehouse Integration](../../../wms/enable-partial-warehouse-integration-and-order-splitting.md){ title="Enable Partial Warehouse Integration and Order Splitting" }" add-on, you can ship the **self-shipped** items first using the steps above. Warehouse items are shipped by the warehouse and aren't part of this process.
 
-## When to Use "Print Extra Shipping Labels" Instead
+## When to Use "Print Extra Shipping Labels" Instead { #operate-partial-shipment-add-print }
 
 If you're splitting a shipment **not because items are out of stock**, but because "all items ship at once in multiple packages," use "Print Extra Shipping Labels" instead:
 
 * Enter the order number within the same order to generate multiple tracking numbers for tracking each box.
 * Cash on Delivery orders shipped in multiple boxes **must** use extra shipping labels, not partial shipment.
 
-## FAQ
+## FAQ { #faq-partial-shipment }
 
 ??? quote "Why don't I see the "Shipping" section on the order details page?"
 

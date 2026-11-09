@@ -8,7 +8,8 @@ type: guide
 status: ""
 author: Ann
 reviewers: []
-notes: []
+notes: 
+  - 測試
 ga_views: 0
 feedback: 0
 products: 

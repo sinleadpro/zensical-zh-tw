@@ -80,13 +80,13 @@ hide: []
 
 ![LINE OA template settings page](../../assets/images/ec-訊息推播-line oa 樣板.png){ .hero-page }
 
-## About LINE OA Message Templates
+## About LINE OA Message Templates { #intro-line-oa }
 
 **LINE OA message reminder templates** automatically push messages to customers in specific situations involving orders, returns, shipping, customers, and subscription orders.
 
 Here's how to set up and use LINE OA message reminder templates:
 
-## Before You Start
+## Before You Start { #prerequisites-line-oa }
 
 Complete the following setup before you use templates:
 
@@ -98,7 +98,7 @@ Complete the following setup before you use templates:
 
 - [x] **Message quota**: Make sure your LINE Official Account has enough message quota. Message fees are charged according to your LINE Official Account plan.
 
-## Set Up A Message Template
+## Set Up A Message Template { #operate-line-oa }
 
 1. **Open the page**: Log in to the admin and go to **Push Notifications > LINE OA Message Templates**.
 
@@ -118,7 +118,7 @@ Complete the following setup before you use templates:
 
 ![](../../assets/images/ec-推播訊息-line oa 樣板-編輯.png)
 
-## Supported Message Types And When They're Sent
+## Supported Message Types And When They're Sent { #specs-line-oa }
 
 The system supports many automated notification scenarios, including:
 
@@ -150,7 +150,7 @@ The system supports many automated notification scenarios, including:
 -->
 
 
-## Important Notes
+## Important Notes { #prerequisites-line-oa-notes }
 
 - **Billing**: LINE push messages are paid (charged by LINE), including manual pushes and automatic order notifications. Only messages that are **sent successfully** are charged.
 
@@ -174,7 +174,7 @@ The system supports many automated notification scenarios, including:
 </div>
 -->
 
-## FAQ
+## FAQ { #faq-line-oa }
 
 ??? quote "Why do customers say they didn't get a LINE notification?"
 	Check the following in order:

@@ -67,7 +67,7 @@ comments: false
 
 ![Google Merchant Center integration setup](../../../assets/images/ec-integrations-gmc.zh-tw.en.png){ title="Connect GMC: Third-Party Integrations > Google > Google Merchant Center" .hero-page }
 
-## Google Merchant Center Overview
+## Google Merchant Center Overview { #overview-merchant-center }
 
 **Google Merchant Center (GMC)** [:lucide-external-link:](https://www.google.com/retail/solutions/merchant-center/) is Google's product data management platform. It syncs your product information to the Shopping section of Google Search results and to Google Shopping ads, which helps increase product exposure and conversions. [Learn more :lucide-external-link:](https://support.google.com/merchants/answer/12159157?hl=zh-Hant)
 
@@ -77,9 +77,9 @@ comments: false
     - **Automate management**: Automatically sync product inventory, prices, and images to reduce manual maintenance.
     - **Track and optimize data**: Collect user engagement and ad performance data to support analysis and optimization.
 
-## Apply for Google Merchant Center <small>Steps on Google</small>
+## Apply for Google Merchant Center <small>Steps on Google</small> { #operate-merchant-center }
 
-### Create an Account
+### Create an Account { #operate-merchant-center-create }
 
 !!! warning "Important"
     If you want to run **Google automated ads**, you can have CYBERBIZ manage the GMC account. Create it directly on the automated ads setup page to avoid permission conflicts or ad issues caused by applying on your own. Learn [how to set up automated ads](automated-ads-system.md){ title="set up the automated ads system" }.
@@ -92,7 +92,7 @@ comments: false
 
 ---
 
-### Set up Business Information
+### Set up Business Information { #operate-merchant-center-settings }
 
 1.  **Enter business name**: In the "Business name" field, enter your business name.
 2.  **Set business address**: Enter your company's registered address (city, state/province, postal code).
@@ -102,7 +102,7 @@ comments: false
 
 ---
 
-### Verify Your Website
+### Verify Your Website { #operate-merchant-center-verification }
 
 1.  **Choose a verification method**: Select "Add HTML tag or file" > "Add HTML tag"
 2.  **Copy the HTML tag**: Copy the meta tag that the system generates.
@@ -113,7 +113,7 @@ comments: false
 
     ![GMC embed HTML tag](../../../assets/images/ec-網站外觀-樣板編輯器-theme-liquid-埋gmchtml標記.en.png){ title="GMC Embed HTML Tag" }
 
-4.  **Complete verification**: Return to GMC and click "Verify Online Store" to finish verification. After verification, you can click **Continue** to proceed to the [Add/Sync Product Data](#同步商品資料-product-feed-設定) step.
+4.  **Complete verification**: Return to GMC and click "Verify Online Store" to finish verification. After verification, you can click **Continue** to proceed to the [Add/Sync Product Data](#operate-merchant-center-sync-product-data) step.
 
     ![GMC verification success](../../../assets/images/ec-gmc-p3-驗證網站成功.en.png){ title="GMC Verification Success" }
 
@@ -126,7 +126,7 @@ comments: false
         ![GMC store verification status](../../../assets/images/ec-gmc-商家資訊-驗證狀態.en.png){ title="GMC Store Verification Status" }
 ---
 
-### Sync Product Data <small>Product Feed Setup</small>
+### Sync Product Data <small>Product Feed Setup</small> { #operate-merchant-center-sync-product-data }
 
 1.  **Copy the feed link**: In the CYBERBIZ back office, go to **Third-Party Integration > Google Settings > Google Merchant Center** and copy the **Product Feed Link**.
 
@@ -154,7 +154,7 @@ comments: false
 
 ---
 
-### Set up Shipping Methods
+### Set up Shipping Methods { #operate-merchant-center-shipping }
 
 1.  **Select country/region**: Select "Taiwan" and click "Continue"
 2.  **Set shipping time**: Set the order cutoff time, handling time (0–1 days), and transit time (0–1 days).
@@ -164,14 +164,14 @@ comments: false
 
 ---
 
-### Set up Return Policy
+### Set up Return Policy { #operate-merchant-center-returns }
 
 1.  **Set return information**: Select the return window and return fees.
 2.  **Finish setup**: Click "Continue" to complete the GMC account setup.
 
 ![Set up return policy GIF](../../../assets/images/ec-gmc-p5-設定退貨政策.en.gif){ title="Set up Return Policy GIF" .screenshot }
 
-## Connect Google Ads Account
+## Connect Google Ads Account { #operate-merchant-center-connect-google-ads }
 
 1.  **Go to settings**: In the GMC admin, click "Settings" > "Access and services"
 2.  **Add service**: Click the "Apps and services" tab, then click "Add service"
@@ -182,7 +182,7 @@ comments: false
 
 ---
 
-## Product Detail Setup Recommendations
+## Product Detail Setup Recommendations { #operate-merchant-center-product-settings }
 
 <div class="grid cards" markdown>
 
@@ -192,7 +192,7 @@ comments: false
 
     We recommend that you manually select the correct category under "Google Product Category" on the product settings page. This makes ad targeting more precise.
 
-    [:lucide-arrow-right: Setup guide](../../products/create-and-manage/edit-product-description-settings.md#進階設定){ title="Edit Product Descriptions and Settings" }
+    [:lucide-arrow-right: Setup guide](../../products/create-and-manage/edit-product-description-settings.md#operate-product-desc-settings-advanced){ title="Edit Product Descriptions and Settings" }
 
 -   :lucide-image:{ .lg .middle } __Image Requirements__
 
@@ -204,7 +204,7 @@ comments: false
 
 </div>
 
-## Which Products Are Not Uploaded <small>Automatic Exclusion Logic</small>
+## Which Products Are Not Uploaded <small>Automatic Exclusion Logic</small> { #specs-merchant-center }
 
 The system automatically excludes products in the following cases and does not upload them to GMC:
 
@@ -212,7 +212,7 @@ The system automatically excludes products in the following cases and does not u
 - **Products that are delisted or have reached their delisting time**.
 - **Products tagged "Gift"** or **"Exclude product feed"**.
 
-## Next Steps
+## Next Steps { #next-steps-merchant-center }
 
 <div class="grid cards" markdown>
 
@@ -225,12 +225,12 @@ The system automatically excludes products in the following cases and does not u
   Set up the Google Ads conversion tracking code to report the order results from your ads and improve ad performance.
 
 - :lucide-chart-column-increasing:{ .lg }   
-  [__Google Analytics Tracking__](setup-gmc-conversion-tracking.md#將-ga4-連結至-merchant-center){ title="Set up GMC Key Event Source Tracking and Auto-Tagging" }     
+  [__Google Analytics Tracking__](setup-gmc-conversion-tracking.md#operate-gmc-conversions-steps-ga4-merchant-cen){ title="Set up GMC Key Event Source Tracking and Auto-Tagging" }
   Link GA4 to Merchant Center to view purchase metrics from Google Search and Shopping ads.
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-merchant-center }
 
 ??? quote "What is the difference between CYBERBIZ managing the GMC account and applying for a GMC account yourself?"
     If you choose for CYBERBIZ to manage the GMC account, the system automatically handles related settings and maintenance, which prevents permission changes or ad delivery issues caused by manual actions. If you have already created an ad through the automated ads setup page and chose managed setup, do not apply for a separate GMC account.
@@ -242,7 +242,7 @@ The system automatically excludes products in the following cases and does not u
     Currently, Google product categories must be set for each product individually and cannot be applied in bulk.
 
 ??? quote "What are the requirements for product images?"
-    Choose images with **no price, no promotional text, and no brand watermark**. Otherwise, they may not meet Google's specifications. For detailed requirements, see [Google image guidelines](../../products/create-and-manage/create-update-products.md#gmc-picture-specs){ title="Add and Update Products" }.
+    Choose images with **no price, no promotional text, and no brand watermark**. Otherwise, they may not meet Google's specifications. For detailed requirements, see [Google image guidelines](../../products/create-and-manage/create-update-products.md#reference-gmc-picture-specs){ title="Add and Update Products" }.
 
 ??? quote "How often is product data updated?"
     The system updates automatically every day at 1:30 AM. If you need an immediate update, click "Manually Update Catalog" (limited to once per hour).

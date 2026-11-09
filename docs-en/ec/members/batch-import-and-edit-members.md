@@ -7,7 +7,8 @@ lang: en-US
 type: guide
 author: Ann
 reviewers: []
-notes: []
+notes: 
+  - 測試
 ga_views: 0
 feedback: 0
 products:
@@ -76,7 +77,7 @@ Use an Excel file to quickly create or update member data in bulk, including con
 
 Before importing or editing data in bulk, review the following restrictions and requirements:
 
-- **Testing Recommendation**: Imported data cannot be deleted in bulk. Before processing a large amount of data, test with 3–5 records to confirm that the format is correct.
+- **Testing Recommendation**: Imported data cannot be deleted. Before processing a large amount of data, test with a small batch of 3–5 records to confirm that the format is correct.
 
 - **Formatting Requirements**:
 

@@ -61,7 +61,7 @@ Create a Bonus Points for Specific Payment Methods group to give bonus points fo
 
 ![](../../../assets/images/EC-後台-行銷活動-指定金流送紅利-畫面總覽01.png){ .hero-page }
 
-## About Bonus Points For Specific Payment Methods
+## About Bonus Points For Specific Payment Methods { #overview-conditional }
 
 Bonus Points for Specific Payment Methods rewards customers based on how they pay. When a customer pays with a payment method you select (such as credit card or ATM transfer), the system automatically gives a fixed number of bonus points. No minimum spend is needed. Use it to reduce operating costs and improve cash flow.
 
@@ -70,19 +70,19 @@ Bonus Points for Specific Payment Methods rewards customers based on how they pa
     - **Get paid faster**: Give a medium reward for ATM transfers (such as 100 points) to encourage prepayment and lower return risk.
     - **Lower operating costs**: Give fewer points for payment methods with higher fees to balance your costs.
 
-## Before You Start
+## Before You Start { #prerequisites-conditional }
 
 - **Reward rule**: If a payment method is in more than one payment bonus group, the customer gets the total bonus points from all of those groups.
 - **Order display**: The "Estimated bonus points for member" on the order details page includes bonus points from payment, shipping, products, and the order.
 
-## Steps
+## Steps { #operate-conditional }
 
-### Step 1: Create A Payment Bonus Group
+### Step 1: Create A Payment Bonus Group { #operate-conditional-create-bonus }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Bonus for Specific Payment**.
 2. Enter a **Collection name** (such as Credit Card Rewards 2024) and click **Add Group**.
 
-### Step 2: Set The Promotion Period And Bonus Rules
+### Step 2: Set The Promotion Period And Bonus Rules { #operate-conditional-settings-campaign-bonus }
 
 Click the group to expand it and fill in the following:
 
@@ -93,7 +93,7 @@ Click the group to expand it and fill in the following:
     - **Bonus Points**: Enter the number of points to give (for example, `150`).
     - **Validity**: Enter how many days the points stay valid (for example, `60`). Enter `0` for no expiry.
 
-### Step 3: Select Payment Methods
+### Step 3: Select Payment Methods { #operate-conditional-operate-details }
 
 1. In the **Payment Methods** list on the left, select the payment methods for this rule (such as credit card or ATM).
 2. Click **Add to Group** and make sure the payment methods appear in the group list on the right.
@@ -103,7 +103,7 @@ Click the group to expand it and fill in the following:
     Only payment methods turned on in **Payment Settings** appear in the list. If you don't see a payment method, turn it on in the admin first.
 
 
-## More Actions
+## More Actions { #operate-conditional-operate }
 
 <div class="grid cards" markdown>
 

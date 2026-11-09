@@ -87,7 +87,7 @@ Learn how to create a subscription campaign page, including basic settings, inst
 
 
 
-## Before You Start
+## Before You Start { #prerequisites-subscription-campaign }
 
 Before you begin, understand these system rules and limits:
 
@@ -101,7 +101,7 @@ Before you begin, understand these system rules and limits:
 - **Theme dependency**: The page uses your current theme. If you change your website theme, you need to create the campaign page again.
 
 
-## Step 1: Regular Installment Shopping Cart Setup
+## Step 1: Regular Installment Shopping Cart Setup { #operate-subscription-campaign-cart }
 
 This setting controls the default product quantity when customers open the campaign page.
 
@@ -117,7 +117,7 @@ This setting controls the default product quantity when customers open the campa
 ![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁19.png){ .screenshot }
 
 
-## Step 2: Create A Subscription Campaign Page
+## Step 2: Create A Subscription Campaign Page { #operate-subscription-campaign-create }
 
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Subscription Campaign Event Page**.
@@ -130,9 +130,9 @@ This setting controls the default product quantity when customers open the campa
 
 
 
-## Step 3: Configure The Campaign
+## Step 3: Configure The Campaign { #operate-subscription-campaign-settings }
 
-### 1. Basic Settings
+### 1. Basic Settings { #operate-subscription-campaign-basic }
 
 - **Search products**: Add products to the page. Each page can have **up to 10 products**.
 
@@ -169,14 +169,14 @@ This setting controls the default product quantity when customers open the campa
     ![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁08.png){ .screenshot }
 
 
-### 2. Variant Settings
+### 2. Variant Settings { #operate-subscription-campaign-variants }
 
 Set campaign-specific prices for products and choose whether to show them in the cart.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁10.png){ .screenshot }
 
 
-### 3. Edit Content
+### 3. Edit Content { #operate-subscription-campaign-content }
 
 Advanced code Editing lets technical staff customize the layout of the Subscription Campaign Event Page.
 
@@ -186,7 +186,7 @@ Advanced code Editing lets technical staff customize the layout of the Subscript
 ![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁11.png){ .screenshot }
 
 
-### 4. Advanced Discount Settings
+### 4. Advanced Discount Settings { #operate-subscription-campaign-promotions }
 
 - **Gift on specific period**: Send a specific product as a gift on **Specific Number of Periods** or within a **Specific Period Range**.
 
@@ -226,7 +226,7 @@ Advanced code Editing lets technical staff customize the layout of the Subscript
     > The system checks the full history. If returns cause installments to be recounted, a gift already shipped with this subscription won't be sent again.
 
 
-### 5. Payment Settings
+### 5. Payment Settings { #operate-subscription-campaign-payment }
 
 Select the Payment Methods available for this campaign.
 
@@ -236,7 +236,7 @@ Select the Payment Methods available for this campaign.
 !!! tip "Tip"
     If you don't see a payment option, turn on the payment method in **Payment and Logistics > Payment Settings**, or turn on the shipping method in **Payment and Logistics > 宅配物流 / 超商物流**. It will then appear in this list.
 
-## FAQ
+## FAQ { #faq-subscription-campaign }
 
 ??? quote "Why haven't customers received their bonus points?"
     Subscription bonus points are added to the customer's account only after the **sub-order is completed**.

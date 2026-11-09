@@ -31,7 +31,7 @@ hide:
 
 This table lists the closing types, trigger conditions, and required order statuses in Order Auto-Close Settings, for reference by checkout and payment and logistics settings.
 
-## Auto-Close Types { #order-auto-close-types }
+## Auto-Close Types { #reference-order-auto-close-types }
 
 | Closing Type | Trigger Condition | Required Order Status | Use Case |
 | :-- | :-- | :-- | :-- |

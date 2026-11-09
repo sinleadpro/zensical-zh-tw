@@ -57,6 +57,14 @@ hide:
 
     [:octicons-arrow-right-24: Go](cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md)
 
+-   :lucide-warehouse: __Set up Shared Inventory Between POS and the Online Store__
+
+    ---
+
+    Let selected POS stores share one inventory pool with your online store for the same SKUs.
+
+    [:octicons-arrow-right-24: Go](cyberbiz-channel-bridge/sync-inventory-with-pos.md)
+
 </div>
 
 ---

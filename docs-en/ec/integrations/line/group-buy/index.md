@@ -13,7 +13,7 @@ hide:
   - feedback
 ---
 
-## Merchant Setup Flow
+## Merchant Setup Flow { #operate-line-group-buy }
 
 <div class="grid cards" markdown>
 
@@ -45,7 +45,7 @@ hide:
 
 ---
 
-## Customer Shopping Flow
+## Customer Shopping Flow { #operate-line-group-buy-flow }
 
 <div class="grid cards" markdown>
 

@@ -83,19 +83,19 @@ This page brings together the three most common merchant actions and provides tw
 !!! info "Tip"
     This page applies only to **Black Cat Express (home delivery)** waybills. To manage **Black Cat Quick Store (ambient / chilled / frozen)** waybills, go to the [Black Cat Quick Store Waybill](setup-print-tcat-quick-store-waybill-v2.md){ title="Set Up and Reprint Black Cat Quick Store Waybills" data-preview } page instead.
 
-## Page Section Overview { #ezcat-shipping-note-overview }
+## Page Section Overview { #overview-ezcat-shipping }
 
 | Section | Purpose | When to Use |
 | :-- | :-- | :-- |
-| [Black Cat Settings](#configure-ezcat-shipping-note-sender-setup) | Set the sender's name, address, contact phone number, and reverse-logistics return address | First-time setup or changes to sender information |
-| [Reprint Waybills](#ezcat-shipping-note-create) | Print 1 to 8 delivery-only waybills for a single order | Split shipments or reprinting damaged waybills |
-| [Black Cat Reverse Logistics](#ezcat-shipping-note-reverse) | Black Cat collects the parcel from the customer and returns it to your reverse-logistics address | Customer returns an order that has already shipped |
-| [Black Cat Reassignment Log](#ezcat-shipping-note-transfer-records) | History of unused waybill numbers that the system automatically reassigns from the original order to a new order | For reconciliation lookups |
-| [Waybill Number Log (Forward Logistics)](#ezcat-shipping-note-usage-records) | Lists all Black Cat Express forward-logistics waybills for your store and their deduction amounts | Reconciliation and reassignment status lookup |
-| [Waybill Number Log (Reverse Logistics)](#ezcat-shipping-note-usage-records) | Lists all Black Cat Express reverse-logistics waybills for your store and their deduction amounts | Reconciliation and reassignment status lookup |
+| [Black Cat Settings](#operate-ezcat-sender-settings) | Set the sender's name, address, contact phone number, and reverse-logistics return address | First-time setup or changes to sender information |
+| [Reprint Waybills](#operate-ezcat-shipping-create) | Print 1 to 8 delivery-only waybills for a single order | Split shipments or reprinting damaged waybills |
+| [Black Cat Reverse Logistics](#operate-ezcat-shipping-reverse) | Black Cat collects the parcel from the customer and returns it to your reverse-logistics address | Customer returns an order that has already shipped |
+| [Black Cat Reassignment Log](#reference-ezcat-shipping-transfer) | History of unused waybill numbers that the system automatically reassigns from the original order to a new order | For reconciliation lookups |
+| [Waybill Number Log (Forward Logistics)](#reference-ezcat-shipping-usage) | Lists all Black Cat Express forward-logistics waybills for your store and their deduction amounts | Reconciliation and reassignment status lookup |
+| [Waybill Number Log (Reverse Logistics)](#reference-ezcat-shipping-usage) | Lists all Black Cat Express reverse-logistics waybills for your store and their deduction amounts | Reconciliation and reassignment status lookup |
 
 
-## Billing Rules { #ezcat-shipping-note-billing }
+## Billing Rules { #specs-ezcat-shipping-billing }
 
 Black Cat waybills use the **CYBER Coin pre-deduction** model, with CYBER Coin deducted in real time when you print a waybill or create a reverse-logistics order.
 
@@ -105,7 +105,7 @@ Black Cat waybills use the **CYBER Coin pre-deduction** model, with CYBER Coin d
     * **General Plan**: You see the Current CYBER Coin Balance and the balance in blue numbers.
     * **PLUS Plan / Enterprise Plan**: Displays statement instructions. Settle payments according to your statement cycle.
 
-## Set up Sender Information{ #Configure-Ezcat-Shipping-Note-Sender-Setup }
+## Set up Sender Information{ #operate-ezcat-sender-settings }
 
 Before you use the Black Cat waybill feature for the first time, you **must** complete the Black Cat Settings section. The sender's name, address, and phone number are applied to all subsequent forward-logistics and reverse-logistics waybills.
 
@@ -127,7 +127,7 @@ Before you use the Black Cat waybill feature for the first time, you **must** co
 [^1]: The sender name cannot contain special characters. If saving shows an error message that starts with "Recipient name...", remove the invalid characters as instructed and try again.
 [^5]: For example, "Online shopping item".
 
-## Reprint Waybills { #ezcat-shipping-note-create }
+## Reprint Waybills { #operate-ezcat-shipping-create }
 
 Reprinting generates additional waybill numbers for **orders that already exist in the system**. Typical scenarios include an order that must be shipped in multiple boxes, or an original waybill that was damaged and needs to be reprinted.
 
@@ -169,15 +169,15 @@ Each reprinted waybill deducts CYBER Coin in real time. Before submission, the s
 
 ---
 
-## Create Black Cat Reverse Logistics { #ezcat-shipping-note-reverse }
+## Create Black Cat Reverse Logistics { #operate-ezcat-shipping-reverse }
 
 Reverse logistics means Black Cat visits the **customer's designated address** to collect the returned parcel and sends it to the reverse-logistics address you entered in Black Cat Settings. After submission, **Black Cat prints the waybill and gives it to the consumer** . You do not need to print a waybill.
 
-### Requirements { #ezcat-shipping-note-reverse-prerequisites }
+### Requirements { #prerequisites-ezcat-shipping-reverse }
 
 | Condition | System requirement |
 | :-- | :-- |
-| Black Cat Settings completed | The sender's postal code must be on file (from the sender address in [Set Up Sender Information](#configure-ezcat-shipping-note-sender-setup)) |
+| Black Cat Settings completed | The sender's postal code must be on file (from the sender address in [Set Up Sender Information](#operate-ezcat-sender-settings)) |
 | Order exists | Order number is correct |
 | Not a POS order | Store POS orders cannot have reverse logistics created on this page |
 | Order shipping status | Must be **Shipped** or later; orders that have not shipped or are preparing to ship are not allowed |
@@ -185,7 +185,7 @@ Reverse logistics means Black Cat visits the **customer's designated address** t
 
 ---
 
-### Steps { #ezcat-shipping-note-reverse-steps }
+### Steps { #operate-ezcat-shipping-reverse-steps }
 
 1. **Open the page**: Log in to the admin dashboard, go to **Payment and Logistics > EZCAT Shipping Label**, and scroll to the Black Cat Reverse Logistics section.
 2. **Enter the order number**: In the "Order Number" field, enter the order number for the return (without the prefix).
@@ -196,18 +196,18 @@ Reverse logistics means Black Cat visits the **customer's designated address** t
 5. **Check the agreement box**: Check the box for "I agree to the CYBERBIZ and Black Cat logistics terms."
 6. **Click Confirm Submit**: Click the **Confirm Submit** button. The system displays a confirmation dialog.
 7. **Confirm again**: In the confirmation dialog, click **Confirm** . The system sends the information to Black Cat and waits for a response.
-8. **Done**: After success, the page shows the CYBER Coin deduction amount and remaining balance. The record appears in the [Waybill Number Log (Reverse Logistics)](#ezcat-shipping-note-usage-records) table below.
+8. **Done**: After success, the page shows the CYBER Coin deduction amount and remaining balance. The record appears in the [Waybill Number Log (Reverse Logistics)](#reference-ezcat-shipping-usage) table below.
 
 ![Black Cat reverse logistics](../../assets/images/EC-金物流-黑貓託運單-黑貓逆物流.en.png){ title="Black Cat Reverse Logistics" }
 
 !!! info "Tip"
     After submission, **Black Cat prints the waybill directly for the consumer**. Neither you nor the consumer needs to print anything.
 
-## View Records and Reconciliation { #ezcat-shipping-note-records }
+## View Records and Reconciliation { #reference-ezcat-shipping-records }
 
 The bottom of the page has three history tables. You can filter all data by keyword with the search box in the upper-right corner, and click a column header to change the sort order.
 
-### Black Cat Reassignment Log { #ezcat-shipping-note-transfer-records }
+### Black Cat Reassignment Log { #reference-ezcat-shipping-transfer }
 
 !!! warning "Warning"
       Black Cat home delivery no longer supports the waybill reassignment mechanism. All new reprint and shipping operations request new waybill numbers from Black Cat. This table lists only the history accumulated before the change, and new operations will not add new records.
@@ -227,7 +227,7 @@ This table shows historical records of unused Black Cat waybill numbers that the
 
 ---
 
-### Waybill Number Log <small>Forward / Reverse Logistics</small> { #ezcat-shipping-note-usage-records }
+### Waybill Number Log <small>Forward / Reverse Logistics</small> { #reference-ezcat-shipping-usage }
 
 Forward logistics records waybill numbers used for shipping, and reverse logistics records waybill numbers used for returns. Both use the same fields.
 
@@ -250,7 +250,7 @@ Forward logistics records waybill numbers used for shipping, and reverse logisti
 !!! note "Note"
     The difference between "CYBER Coin amount selected by the customer" and "Confirmed CYBER Coin deduction amount" occurs in special situations such as temperature zone or peak season.
 
-## Next Steps
+## Next Steps { #next-steps-ezcat-shipping }
 
 <div class="grid cards" markdown>
 
@@ -268,7 +268,7 @@ Forward logistics records waybill numbers used for shipping, and reverse logisti
 
 </div>
 
-## Frequently Asked Questions { #ezcat-shipping-note-faq }
+## Frequently Asked Questions { #faq-ezcat-shipping }
 
 ??? quote "The Reprint Waybills button cannot be clicked or appears gray"
     [](){ #faq-ezcat-button-disabled }

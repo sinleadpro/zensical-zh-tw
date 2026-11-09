@@ -74,14 +74,14 @@ icon: simple/youtube
 hide: []
 ---
 
-## What Is YouTube Shopping
+## What Is YouTube Shopping { #intro-youtube-shopping }
 
 **YouTube Shopping** lets you embed product information and links from your online store in YouTube videos, live streams, and Shorts. If you make videos, run a YouTube channel, or go live on YouTube, you can set up YouTube Shopping to increase product exposure and turn traffic into revenue. [Learn more :lucide-external-link:](https://support.google.com/youtube/answer/12257682?hl=zh-Hant)
 
 !!! warning "Eligibility"
     YouTube Shopping is a feature of the **YouTube Partner Program (YPP)** for creators who have a YouTube channel that meets the monetization threshold (1,000 subscribers + 4,000 watch hours).
 
-## YouTube Shopping Setup Process
+## YouTube Shopping Setup Process { #operate-youtube-shopping }
 
 ```mermaid
 graph LR
@@ -114,7 +114,7 @@ graph LR
     S2 --> S3
 ```
 
-### 1. Account Setup and Back-End Linking
+### 1. Account Setup and Back-End Linking { #operate-youtube-shopping-account-create-backend }
 
 Before applying for YouTube Shopping, you must first connect the two Google tools.
 
@@ -140,7 +140,7 @@ Before applying for YouTube Shopping, you must first connect the two Google tool
 
 ---
 
-### 2. YPP Eligibility Application
+### 2. YPP Eligibility Application { #operate-youtube-shopping-ypp-apply }
 
 Your merchant channel must meet the monetization eligibility requirements of the [**YouTube Partner Program (YPP)** :lucide-external-link:](https://support.google.com/youtube/answer/72851?hl=zh-Hant&ref_topic=9153642) before you can turn on shopping features.
 
@@ -153,13 +153,13 @@ Your merchant channel must meet the monetization eligibility requirements of the
 
 ---
 
-### 3. Apply and Connect Your Store
+### 3. Apply and Connect Your Store { #operate-youtube-shopping-apply }
 
 Once the accounts above and eligibility are ready, you can complete the final linking steps.
 
 1.  **Apply for eligibility**: Fill out the [YouTube Shopping eligibility application form](https://docs.google.com/forms/d/e/1FAIpQLSeC92YTZOl0E-SO03SAv-QF_rRaWXNWdYLABZXEFwnfeXhzdQ/viewform), and CYBERBIZ will submit it to YouTube.
     - After your application is approved, CYBERBIZ will send an activation notice to the email address you provided on the application form. Continue with the next steps only after you receive the email.
-2.  **Link GMC and GA4**: Enable auto-tagging in Merchant Center settings, and [link GA4 to Merchant Center](setup-gmc-conversion-tracking.md#將-ga4-連結至-merchant-center){ title="Set up GMC key event source tracking and auto-tagging" }.
+2.  **Link GMC and GA4**: Enable auto-tagging in Merchant Center settings, and [link GA4 to Merchant Center](setup-gmc-conversion-tracking.md#operate-gmc-conversions-steps-ga4-merchant-cen){ title="Set up GMC key event source tracking and auto-tagging" }.
 3.  **Link your YouTube channel and online store**: Go to [YouTube Studio :lucide-external-link:](https://studio.youtube.com/), open the **Monetization** > **Shopping** tab, click **Link store**, select **Other store**, and then specify your GMC account. For details, see the [official documentation :lucide-external-link:](https://support.google.com/youtube/answer/12258186?sjid=15941351074417695736-NC#)
 
     ![YouTube Studio Link Store GIF](../../../assets/images/yt-第三階段-連結Youtube商店.en.gif){ .screenshot }
@@ -184,7 +184,7 @@ Once the accounts above and eligibility are ready, you can complete the final li
         !!! warning "Automatic Product Removal Mechanism"
             If product information in the feed has **not been updated in GMC for over 30 days**, products will be automatically removed from YouTube. We recommend updating **every 28 days** to keep products active.
 
-## Track YouTube Shopping Performance
+## Track YouTube Shopping Performance { #operate-youtube-shopping-tracking }
 
 Use the GA4 Explore feature to track the website conversions that YouTube Shopping drives.
 
@@ -210,11 +210,11 @@ Use the GA4 Explore feature to track the website conversions that YouTube Shoppi
 
     ![GA4 Explore - Date Menu](../../../../assets/images/ec-ga4-探索-日期選單.en.gif)
 
-## **Live Streaming Tip**
+## **Live Streaming Tip** { #intro-youtube-shopping-overview-youtube-shopping }
 
 When you live stream on YouTube, you can schedule the stream in advance and generate a link to promote it. During the live stream, we recommend using the **Live Pinning** feature to pin the link to a pre-built product page (such as a one-page store) in the comments, so viewers can shop more easily.
 
-## Next Steps
+## Next Steps { #next-steps-youtube-shopping }
 
 <div class="grid cards" markdown>
 
@@ -232,7 +232,7 @@ When you live stream on YouTube, you can schedule the stream in advance and gene
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-youtube-shopping }
 
 ??? quote "What are the eligibility requirements for YouTube Shopping?"
 

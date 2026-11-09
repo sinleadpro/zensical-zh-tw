@@ -74,13 +74,13 @@ hide: []
 
 ![](../../../../assets/images/ec-第三方整合-line 註冊登入.en.png){ .hero-page }
 
-## What Is LINE Quick Login
+## What Is LINE Quick Login { #intro-line-quick }
 
 **LINE Quick Login** lets customers log in or register as members directly with their LINE accounts. The system automatically retrieves the "Email" bound to the customer's LINE account to match accounts. This not only simplifies the shopping process but also increases the exposure of your official account, and lets merchants filter members who log in through LINE in the back office.
 
 The following is a detailed setup tutorial for LINE Quick Login:
 
-## Setup Prerequisites and Notes
+## Setup Prerequisites and Notes { #prerequisites-line-quick }
 
 - **Email Binding**: The customer's LINE account **must first have an Email bound** before they can use LINE Quick Login.
 
@@ -89,7 +89,7 @@ The following is a detailed setup tutorial for LINE Quick Login:
 - **Hinet Email Restriction**: If a customer registers with a Hinet email address, they may be unable to reset their password because Hinet blocks the messages.
 
 
-## LINE Developers Setup Steps
+## LINE Developers Setup Steps { #operate-line-quick }
 
 !!! info "You need a LINE account first. Learn [how to create a LINE Official Account :lucide-external-link:](https://help2.line.me/official_account_tw/web/pc?contentId=20013137&lang=zh-Hant)"
 
@@ -125,7 +125,7 @@ The following is a detailed setup tutorial for LINE Quick Login:
 
 	![](../../../../assets/images/ec-第三方整合-line login channel-publish.en.png)
 
-## CYBERBIZ Back-End Integration Steps
+## CYBERBIZ Back-End Integration Steps { #operate-line-quick-cyberbiz-backend-connect-step }
 
 1. **Get the Keys**: On the "Basic settings" tab in LINE Developers, copy the **Channel ID** and **Channel Secret**.
 
@@ -135,9 +135,9 @@ The following is a detailed setup tutorial for LINE Quick Login:
 
 ![](../../../../assets/images/ec-第三方整合-line login channel-channel id and secret-copy and paste.en.gif)
 
-## Advanced and Value-Added Features
+## Advanced and Value-Added Features { #intro-line-quick-advanced }
 
-### Prompt Customers to Add Friends
+### Prompt Customers to Add Friends { #intro-line-quick-advanced-overview-line-quick }
 
 - In the **Basic settings > Linked LINE Official Account** in LINE Developers, select the Official Account under the same Provider.
 
@@ -147,7 +147,7 @@ The following is a detailed setup tutorial for LINE Quick Login:
 
 	![](../../../../assets/images/ec-第三方整合-line login-加入好友前台.en.png)
 
-## Next Steps
+## Next Steps { #next-steps-line-quick }
 
 <div class="grid cards" markdown>
 
@@ -161,7 +161,7 @@ The following is a detailed setup tutorial for LINE Quick Login:
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-line-quick }
 
 ??? quote "A 400 Bad Request Error Page Appears"
 	This is usually caused by an incorrect **Callback URL** configuration. Check the settings in the LINE Developers back office, and make sure the URL you enter exactly matches the path provided by the system, including the correct `https://` protocol and trailing format. Even minor character differences, such as extra spaces or slashes, can cause API verification to fail and return a 400 error.

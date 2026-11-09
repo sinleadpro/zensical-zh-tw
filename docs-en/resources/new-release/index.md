@@ -1,7 +1,7 @@
 ---
 title: "Release Notes"
 description: "CYBERBIZ release notes organized by month, covering newly shipped features and improvements."
-last_modified: 2026-10-02 16:01
+last_modified: 2026-10-27 15:45
 type: hub
 lang: en-US
 author: Ann
@@ -321,6 +321,63 @@ hide:
 
   <div>
     <div class="release-timeline">
+      <a class="release-month-card" href="2026-10.md">
+        <div class="release-month">2026 / October updates</div>
+        <div class="release-divider" aria-hidden="true"></div>
+        <ul class="release-features">
+          <li class="release-feature-row">
+            <span class="release-feature-name">Entrance animations for homepage blocks</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag-2">#Drag-and-drop theme</span>
+            </span>
+          </li>
+          <li class="release-feature-row">
+            <span class="release-feature-name">Print EZCAT order shipping documents directly</span>
+          </li>
+          <li class="release-feature-row">
+            <span class="release-feature-name">Storefront site search (magnifier) improvements</span>
+          </li>
+          <li class="release-feature-row">
+            <span class="release-feature-name">Bot protection for member signup SMS verification codes</span>
+          </li>
+        </ul>
+        <span class="release-arrow" aria-hidden="true">›</span>
+      </a>
+
+      <a class="release-month-card" href="2026-09.md">
+        <div class="release-month">2026 / September updates</div>
+        <div class="release-divider" aria-hidden="true"></div>
+        <ul class="release-features">
+          <li class="release-feature-row">
+            <span class="release-feature-name">Shopee order sync and batch shipping #ALPHA</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag">#Enterprise</span>
+              <span class="release-version-tag">#PLUS</span>
+            </span>
+          </li>
+          <li class="release-feature-row">
+            <span class="release-feature-name">Request a new convenience store shipping note number after it expires</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag-2">#CYBERBIZ PAYMENTS</span>
+            </span>
+          </li>
+          <li class="release-feature-row">
+            <span class="release-feature-name">Statements include LINE Pay payout details</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag">#Enterprise</span>
+              <span class="release-version-tag">#PLUS</span>
+            </span>
+          </li>
+          <li class="release-feature-row">
+            <span class="release-feature-name">Convenience store code payments</span>
+            <span class="release-feature-tags">
+              <span class="release-version-tag-2">#CYBERBIZ PAYMENTS</span>
+            </span>
+          </li>
+        </ul>
+        <span class="release-arrow" aria-hidden="true">›</span>
+      </a>
+
       <a class="release-month-card" href="2026-08.md">
         <div class="release-month">2026 / August updates</div>
         <div class="release-divider" aria-hidden="true"></div>

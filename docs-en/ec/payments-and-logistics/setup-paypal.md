@@ -66,7 +66,7 @@ hide:
 
 ![PayPal Settings](../../assets/images/ec-金物流-paypal.en.png){ title="PayPal Settings" .hero-page }
 
-## About PayPal
+## About PayPal { #intro-paypal }
 
 PayPal is a globally recognized online payment platform that lets consumers pay with credit cards, debit cards, or their PayPal balance. With PayPal, merchants can receive payments securely and quickly, and accept transactions in multiple currencies.
 
@@ -75,16 +75,16 @@ PayPal is a globally recognized online payment platform that lets consumers pay 
     - Merchants who serve cross-border or overseas customers
     - Merchants who want a secure payment method integrated with CYBERBIZ order management
 
-### Important Notes
+### Important Notes { #prerequisites-paypal }
 
 - **Regulatory restrictions**: Taiwan merchants can only process cross-border transactions. Domestic transactions within Taiwan are not supported. Customers with foreign credit cards can pay with PayPal.
 - **Automatic refunds**: The system supports automatic refunds within **180 days** of payment. After this period, merchants must process refunds manually.
 - **Transaction fees**: Fees vary by the consumer's card-issuing country (domestic or international transactions). For exact amounts, see your PayPal statement.
 - **Threshold**: Set minimum and maximum PayPal transaction amounts to avoid high fees on small orders.
 
-## Setup Steps
+## Setup Steps { #operate-paypal }
 
-### Step 1: Apply for a PayPal Account
+### Step 1: Apply for a PayPal Account { #operate-paypal-account }
 
 !!! warning "Use an email address that you can receive messages at to register. This email will serve as the PayPal account linked to the CYBERBIZ admin."
 
@@ -94,7 +94,7 @@ PayPal is a globally recognized online payment platform that lets consumers pay 
 
 ---
 
-### Step 2: Get Your PayPal Client ID and Secret
+### Step 2: Get Your PayPal Client ID and Secret { #operate-paypal-credentials }
 
 !!! tip "Tip"
     Merchants who have activated CYBERBIZ PAYMENTS can use the Client ID and Secret to enable **automatic refunds**.
@@ -113,7 +113,7 @@ PayPal is a globally recognized online payment platform that lets consumers pay 
 
 ---
 
-### Step 3: Configure CYBERBIZ Admin Settings
+### Step 3: Configure CYBERBIZ Admin Settings { #operate-paypal-bind }
 
 1. **Go to the settings page**
 
@@ -140,7 +140,7 @@ PayPal is a globally recognized online payment platform that lets consumers pay 
 	![PayPal shipping method link](../../assets/images/ec-金物流-宅配物流-line-pay-check.en.gif){ title="PayPal shipping method link" }
 
 
-## Next Steps
+## Next Steps { #next-steps-paypal }
 
 <div class="grid cards" markdown>
 

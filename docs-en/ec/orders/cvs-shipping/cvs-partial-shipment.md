@@ -69,7 +69,7 @@ hide: []
 
 ![Convenience store partial shipment](../../../assets/images/EC-訂單-所有訂單-訂單詳情頁-超商物流部分出貨-hero.en.png){ title="Convenience Store Partial Shipment" .hero-page }
 
-## About Convenience Store Partial Shipment
+## About Convenience Store Partial Shipment { #overview-cvs-partial-shipment }
 
 When a customer chooses convenience store pickup at **7-Eleven**, **FamilyMart**, or **Hi-Life**
 but some items in the order need to ship separately (for example, some items are awaiting restock, exceed convenience store size limits, or need to switch to home delivery), you can use "Convenience Store Partial Shipment" to ship items in batches.
@@ -187,7 +187,7 @@ If a customer wants to return items after a partial shipment:
 
 ---
 
-## Reprint Shipping Labels
+## Reprint Shipping Labels { #operate-cvs-partial-shipment-reprint }
 
 If a shipping label is lost or damaged, you can reprint it before the deadline.
 

@@ -62,16 +62,16 @@ hide: []
 
 ![GMC Important Event Settings](../../../assets/images/ec-gmc-重要事件設定.en.png){ .hero-page }
 
-## Important Event Source Tracking
+## Important Event Source Tracking { #operate-gmc-conversions }
 
 **Event Source** can track product purchases from specific sources (such as Google Analytics or your own website), providing actionable insights. [Learn more :lucide-external-link:](https://support.google.com/merchants/answer/14166401?hl=zh-Hant&sjid=15151417659935872406-NC)
 
-## What Is Auto-Tagging
+## What Is Auto-Tagging { #intro-gmc-conversions }
 
 **Auto-tagging** is essential for tracking product purchases. When turned on, Google automatically adds parameters to ad links when users click them, so the system can accurately match ad clicks to conversion events. [Learn more :lucide-external-link:](https://support.google.com/merchants/answer/15191080?hl=zh-Hant#%E5%95%9F%E7%94%A8%E6%88%96%E5%81%9C%E7%94%A8%E8%87%AA%E5%8B%95%E6%A8%99%E8%A8%98)
-## Steps
+## Steps { #operate-gmc-conversions-steps }
 
-### Auto-Tagging Settings
+### Auto-Tagging Settings { #operate-gmc-conversions-steps-settings }
 
 1.  **Go to GMC settings**: Sign in to Google Merchant Center and click **Settings** > **General** > **Important Event Settings**
 2.  **Find Auto-tagging**: On the settings page, find the **Auto-tagging** option
@@ -81,7 +81,7 @@ hide: []
 
 ---
 
-### Link GA4 to Merchant Center
+### Link GA4 to Merchant Center { #operate-gmc-conversions-steps-ga4-merchant-cen }
 
 !!! warning "Prerequisites"
 
@@ -115,7 +115,7 @@ After you link GA4 to Merchant Center, you can track conversions from Google Sea
 
         ![GA4 GMC link](../../../assets/images/ec-ga4-gmc連結.en.png)
 
-## Next Steps
+## Next Steps { #next-steps-gmc-conversions }
 
 <div class="grid cards" markdown>
 
@@ -129,7 +129,7 @@ After you link GA4 to Merchant Center, you can track conversions from Google Sea
 
 </div>
 
-## FAQ
+## FAQ { #faq-gmc-conversions }
 
 ??? quote "Why do I need to turn on Auto-tagging?"
     Auto-tagging lets Google automatically add tracking parameters to ad click links. Without it, you cannot accurately track ad conversions.

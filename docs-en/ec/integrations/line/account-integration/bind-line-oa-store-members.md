@@ -92,13 +92,13 @@ hide: []
 
 ![](../../../../assets/images/ec-第三方整合-line 註冊登入.en.png){ .hero-page }
 
-## What Is LINE Official Account and Website Member Binding?
+## What Is LINE Official Account and Website Member Binding? { #operate-bind-line }
 
 **LINE OA Website Member Binding** is the core feature for integrating online and offline member data and running targeted marketing. Through binding, merchants can collect members' **LINE UID**, which enables them to send automated order and shipping notifications.
 
 The following provides a detailed explanation and tutorial on LINE OA website member binding:
 
-## Prerequisites
+## Prerequisites { #prerequisites-bind-line }
 
 Merchants must first complete the following system integration settings before data can be shared:
 
@@ -108,11 +108,11 @@ Merchants must first complete the following system integration settings before d
 
 - [x] **Enable LINE Quick Login**: Consumers must register or log in through LINE Quick Login to complete the binding process.
 
-## Admin Backend Setup Methods
+## Admin Backend Setup Methods { #operate-bind-line-backend-settings }
 
 Merchants must provide specific links to guide customers. There are three main use cases:
 
-### Set up Rich Menu
+### Set up Rich Menu { #operate-bind-line-backend-settings-settings }
 
 This is the most commonly used guidance method.
 
@@ -128,7 +128,7 @@ This is the most commonly used guidance method.
 
 ---
 
-### Set up the Welcome Message for New Friends
+### Set up the Welcome Message for New Friends { #operate-line-bind-welcome }
 
 - **Path**: Go to [LINE Official Account Manager :lucide-external-link:](https://manager.line.biz/)  > **Chat-Related > Welcome Message for New Friends**.
 
@@ -140,7 +140,7 @@ This is the most commonly used guidance method.
 
 ---
 
-### Auto-Bind Using LIFF <small>Recommended Method</small>
+### Auto-Bind Using LIFF <small>Recommended Method</small> { #operate-bind-line-backend-settings-use-liff-bind }
 
 - **Key features**: Once enabled, when consumers click the URL, their LINE account information is applied automatically. If a customer is not a friend or member, clicking the link can **add the friend, register as a website member, and complete binding at the same time**.
 
@@ -152,7 +152,7 @@ This is the most commonly used guidance method.
 
 ![](../../../../assets/images/ec-第三方整合-line 註冊登入-liff 網址.en.png)
 
-## Customer-Side Binding Process
+## Customer-Side Binding Process { #operate-bind-line-bind-flow }
 
 1. Click the **binding link** or **LIFF URL** provided by the merchant.
 
@@ -164,7 +164,7 @@ This is the most commonly used guidance method.
 
 ![](../../../../assets/images/ec-第三方整合-line liff 會員綁定.en.gif)
 
-## Advanced Features and Benefits After Binding
+## Advanced Features and Benefits After Binding { #operate-bind-line-bind-advanced }
 
 <div class="grid cards" markdown>
 
@@ -177,7 +177,7 @@ This is the most commonly used guidance method.
   Set up the "LINE @ binding gift coupon feature" to encourage customers to bind.
 
 - :lucide-scan-barcode:{ .lg }  
-  [__Display Member Barcode (OMO Use Case)__](../marketing/setup-line-rich-menu.md#omo-實體門市應用){ title="Set up LINE Rich Menu" }    
+  [__Display Member Barcode (OMO Use Case)__](../marketing/setup-line-rich-menu.md#operate-line-rich-menu-settings-omo-store){ title="Set up LINE Rich Menu" }
   Customers can display their member barcode in the LINE menu for in-store POS scanning to apply bonus points or coupon redemption.
 
 - :lucide-user-round:{ .lg }  
@@ -186,7 +186,7 @@ This is the most commonly used guidance method.
 
 </div>
 
-## Important Notes
+## Important Notes { #intro-bind-line }
 
 - **Non-friend restriction**: Customers who sign in with LINE Quick Login **may not necessarily be bound to LINE OA**. Only accounts that have added the LINE OA as a friend and have not blocked it can receive LINE push messages.
 
@@ -194,7 +194,7 @@ This is the most commonly used guidance method.
 
 - **Link accuracy**: If the URL includes the `/customer/auth/line?line_action` parameter, the binding screen appears every time the link is clicked. If you do not want repeated redirects, you only need to configure the "first-time binding" feature.
 
-## FAQ
+## FAQ { #faq-bind-line }
 
 ??? quote "Why does a member who has completed LINE Quick Login not appear in the LINE Official Account friend list?"
 

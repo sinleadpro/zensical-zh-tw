@@ -51,7 +51,7 @@ hide:
 
 This table explains what each filter condition (operator) in Conditionalized Collections means, for reference when you set up rules.
   
-## Filter Conditions Reference { #smart-collections-rule-relations }
+## Filter Conditions Reference { #reference-smart-collections-relations }
 
 | Filter Condition | Meaning | Applicable Field Type | Example |
 | :-- | :-- | :-- | :-- |

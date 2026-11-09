@@ -76,20 +76,20 @@ hide: []
 
 ![Product management interface overview](../../../assets/images/ec-products-management-interface-hero.en.png){ title="Product Management Interface Overview" .hero-page }
 
-## About the Product Management Interface
+## About the Product Management Interface { #intro-product-ui }
 
 The **product management interface** is mainly at the admin path **Products > All Products**. It brings together core features such as publishing products, quick filtering, bulk editing, and cross-channel management to help you maintain your store's items efficiently.
 
-## Interface Features
+## Interface Features { #overview-product-ui }
 
 In the "All Products" list, you can perform the following basic actions on products:
 
-*   [**Add Product**](#Add-Products): Click the button in the upper-right corner to publish a single product or products in bulk.
-*   [**Quick search**](#How-Filters-Work) and [**items per page**](#Product-List): Find products by keyword, or adjust how many products each page shows.
-*   [**Status toggle and preview**](#Quick-Action-Buttons): Click the "eye icon" to publish or hide a product directly, or click the link to preview the product page on the storefront.
-*   [**Delete**](#Quick-Action-Buttons): Remove items you no longer sell.
+*   [**Add Product**](#operate-product-ui-create): Click the button in the upper-right corner to publish a single product or products in bulk.
+*   [**Quick search**](#How-Filters-Work) and [**items per page**](#overview-product-ui-list): Find products by keyword, or adjust how many products each page shows.
+*   [**Status toggle and preview**](#overview-product-ui-shortcuts): Click the "eye icon" to publish or hide a product directly, or click the link to preview the product page on the storefront.
+*   [**Delete**](#overview-product-ui-shortcuts): Remove items you no longer sell.
 
-## How Filters Work
+## How Filters Work { #operate-product-ui-filter }
 
 When you have many products, use filters to edit more efficiently:
 
@@ -127,21 +127,21 @@ When you have many products, use filters to edit more efficiently:
 	2. [Enter keywords](#How-Filters-Work): Enter a product name or SKU in the search field, then press ++enter++ or click the **search icon** :material-magnify: to narrow the results further.
 	
     > :lucide-flame: **Bulk actions on specific products**  
-	After filtering the product list, [select products in bulk](#Select-Products-in-Bulk) and then [choose an action](#Bulk-Actions) to apply bulk actions to specific products.
+	After filtering the product list, [select products in bulk](#operate-product-ui-select) and then [choose an action](#operate-product-ui-batch-actions) to apply bulk actions to specific products.
 	
 	![Combined search conditions](../../../assets/images/ec-products-search-filter-combo.zh-tw.en.png){ title="Combined Search Conditions" }
 
-## Bulk Actions
+## Bulk Actions { #operate-product-ui-batch }
 
 Select the checkboxes on the left of the list to perform **bulk actions**, including:
 
-*   **Status and permissions**: Publish, hide, or delete in bulk, and turn search on or [exclude products from search](#Product-Search-and-Visibility-Management).
-*   **Export data**: [Export the product list](../bulk-operations/batch-update-product-descriptions-shipping.md#Export-the-Product-Excel-File) or the [member exclusive price list](../pricing/setup-vip-member-pricing.md#Step-1-Export-Member-Exclusive-Prices).
+*   **Status and permissions**: Publish, hide, or delete in bulk, and turn search on or [exclude products from search](#operate-product-ui-visibility).
+*   **Export data**: [Export the product list](../bulk-operations/batch-update-product-descriptions-shipping.md#operate-batch-update-export) or the [member exclusive price list](../pricing/setup-vip-member-pricing.md#operate-vip-pricing-export).
 *   **Channel management**: [Copy online store products in bulk to POS stores](../bulk-operations/copy-products-to-pos-stores.md).
 
 ![Bulk actions](../../../assets/images/ec-products-batch-operations.en.png){ title="Bulk Actions" }
 
-### Select Products in Bulk
+### Select Products in Bulk { #operate-product-ui-select }
 
 === "All Products on the Page"
 
@@ -161,7 +161,7 @@ Select the checkboxes on the left of the list to perform **bulk actions**, inclu
 
 === "Matching Products"
 
-	1. [Search for products](#How-Filters-Work) to produce a filtered product list.
+	1. [Search for products](#operate-product-ui-filter) to produce a filtered product list.
 	2. Click **__ products selected** and select **Select all products**.
 	
 	![Select filtered results](../../../assets/images/ec-products-select-all-results.zh-tw.en.gif){ title="Select Filtered Results" }
@@ -170,9 +170,9 @@ Select the checkboxes on the left of the list to perform **bulk actions**, inclu
 
 ---
 
-### Bulk Actions
+### Bulk Actions { #operate-product-ui-batch-actions }
 
-1. [Select multiple products](#Select-Products-in-Bulk).
+1. [Select multiple products](#operate-product-ui-select).
 2. Click the **Select** menu and choose a bulk action[^1].  
 
 ![Bulk action flow](../../../assets/images/ec-products-batch-process.zh-tw.en.gif){ title="Bulk Action Flow" }
@@ -187,7 +187,7 @@ Select the checkboxes on the left of the list to perform **bulk actions**, inclu
 
 </div>
 
-## Product Search and Visibility Management
+## Product Search and Visibility Management { #operate-product-ui-visibility }
 
 In the management interface, you can set each product's "product search" setting individually:
 
@@ -228,7 +228,7 @@ In the management interface, you can set each product's "product search" setting
 
 </div>
 
-## Cross-Channel Sync Management
+## Cross-Channel Sync Management { #operate-product-ui-sync }
 
 If you integrate other e-commerce platforms, the management interface shows the related link status:
 
@@ -238,7 +238,7 @@ If you integrate other e-commerce platforms, the management interface shows the 
 
 ---
 
-## Add Products
+## Add Products { #operate-product-ui-create }
 
 Create a single product, set its information, and publish it.
 
@@ -251,7 +251,7 @@ Create a single product, set its information, and publish it.
 
 </div>
 
-## Product List
+## Product List { #overview-product-ui-list }
 
 Use the following features to quickly search, filter, and manage the product list.
 
@@ -262,7 +262,7 @@ Use the following features to quickly search, filter, and manage the product lis
 
 ![Product list](../../../assets/images/ec-all-products-products-list.zh-tw.en.png){ title="Product List" }
 
-## Quick Action Buttons
+## Quick Action Buttons { #overview-product-ui-shortcuts }
 
 - :lucide-eye: Set whether the product is published: :lucide-eye-off: unpublished; :lucide-eye: published.
 - :lucide-external-link: Go to the storefront product page
@@ -270,7 +270,7 @@ Use the following features to quickly search, filter, and manage the product lis
 
 ![Quick action buttons](../../../assets/images/ec-product-list-shortcuts.zh-tw.en.png){ title="Quick Action Buttons" }
 
-## Inventory List
+## Inventory List { #overview-product-ui-inventory }
 
 View products that have [inventory management turned on](create-update-products.md#operate-product-create-inventory){ title="Add and Update Products" } and a limited inventory quantity.
 
@@ -283,14 +283,14 @@ View products that have [inventory management turned on](create-update-products.
 </div>
 
 
-## FAQ
+## FAQ { #faq-product-ui }
 ??? quote "Why can't I find a product in search?"
 	- Check that the keyword or SKU is correct
 	- Check whether you've applied too many filters
 	- Check whether the product has been deleted or is hidden
 
 ??? quote "Can I export search results?"
-	Direct export isn't supported right now. To export products, use the [Excel export feature](../bulk-operations/batch-update-product-descriptions-shipping.md#Export-the-Product-Excel-File).
+	Direct export isn't supported right now. To export products, use the [Excel export feature](../bulk-operations/batch-update-product-descriptions-shipping.md#operate-batch-update-export).
 
 ??? quote "Can I save filter conditions?"
 	Saving isn't supported right now.

@@ -78,16 +78,16 @@ Guides store staff to identify, prepare, and accept Quick Delivery orders so del
 
 ---
 
-## Before You Start
+## Before You Start { #prerequisites-qd-prep }
 
 - **Payment status limit**: Quick Delivery doesn't support **cash on delivery**. Only **Payment Received** orders can be shipped.
 - **System notifications**: Keep the admin **Branch Store Orders** tab open to get the new order sound and pop-up notifications.
 - **Size limits**: You need to judge whether products exceed the delivery partner's (Pandago / Uber Direct) limits. If they do, we recommend **splitting the order**.
 - **Time limits**: Quick Delivery is about immediate delivery. We recommend accepting and preparing the order within 10–30 minutes after it's placed.
 
-## Steps
+## Steps { #operate-qd-prep }
 
-### Identify and Accept New Orders
+### Identify and Accept New Orders { #operate-qd-prep-receive }
 
 1. Sign in to the CYBERBIZ admin and go to **Orders > Branch Store Orders**.
 2. Keep the page open. When a new order is placed, the system plays a new order sound and shows a pop-up.
@@ -107,7 +107,7 @@ Guides store staff to identify, prepare, and accept Quick Delivery orders so del
 
 
 
-## Delivery Size Rules
+## Delivery Size Rules { #specs-qd-prep-size }
 
 Before you prepare products for an order, make sure the packed size meets the following rules:
 
@@ -118,7 +118,7 @@ Before you prepare products for an order, make sure the packed size meets the fo
 
 ---
 
-## FAQ
+## FAQ { #faq-qd-prep }
 
 ??? quote "Why don't I hear the new order sound?"
     Make sure you're signed in to the admin and the **Orders > Branch Store Orders** page is open (you can switch to other tabs, but don't close it). Also check whether the browser tab is muted and your computer volume is on.

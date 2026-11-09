@@ -68,7 +68,7 @@ icon: lucide/store
 hide: []
 ---
 
-## FB and IG Store Setup Guide
+## FB and IG Store Setup Guide { #operate-fb-instagram }
 
 **FB and IG Store Setup** helps brands build social stores, reach more traffic through Facebook and Instagram, and direct potential customers to the official website to make purchases.
 
@@ -77,7 +77,7 @@ hide: []
 
     For more information, see the Meta official tutorial: [Set up a store on Facebook and Instagram :lucide-external-link:](https://zh-tw.facebook.com/business/help/268860861184453).
 
-## Prerequisites and Limitations
+## Prerequisites and Limitations { #prerequisites-fb-instagram }
 
 Before you connect your Facebook and Instagram stores, complete the following setup steps in order:
 
@@ -86,9 +86,9 @@ Before you connect your Facebook and Instagram stores, complete the following se
 
 After you complete both settings above, the system automatically fills in related information (such as linked catalogs) when you connect your store. Follow the on-screen prompts to finish setting up the store.
 
-## Setup Steps
+## Setup Steps { #operate-fb-instagram-steps }
 
-### Connect a Facebook Store
+### Connect a Facebook Store { #operate-fb-instagram-steps-connect-facebook }
 
 First, sign in to your Facebook account and make sure you have the relevant admin permissions in Business Manager.
 
@@ -119,7 +119,7 @@ First, sign in to your Facebook account and make sure you have the relevant admi
 
 ---
 
-### Connect an IG Store
+### Connect an IG Store { #operate-fb-instagram-steps-connect-ig }
 
 Instagram stores require a business account and must first be linked to a Facebook Page and catalog.
 
@@ -146,7 +146,7 @@ Instagram stores require a business account and must first be linked to a Facebo
 
 !!! note "For further IG store setup and use, see the Meta official tutorial: [Instagram Shopping :lucide-external-link:](https://zh-tw.facebook.com/business/help/582645198813984)."
 
-## Product Sync and Display Management
+## Product Sync and Display Management { #operate-fb-instagram-product-sync-manage }
 
 !!! info "Automatic Update Time"
     Product information on your official website automatically syncs to the Facebook store every day at **2:00 AM or 2:30 AM**.
@@ -156,16 +156,16 @@ After the connection is complete, the system automatically syncs products throug
 <div class="grid cards" markdown>
 
 - :lucide-package-x:{ .lg }   
-  [__Exclude Store Products__](../../../products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤){ title="Manage product tags" }       
+  [__Exclude Store Products__](../../../products/categories-and-tags/manage-product-tags.md#operate-product-tags-exclude){ title="Manage product tags" }       
   If you do not want certain products, such as gifts or test products, to sync to your Facebook and Instagram stores, filter them by setting product tags.
 
 - :lucide-eye-off:{ .lg }   
-  [__Hide Stores or Products__](exclude-products-fb-instagram-sync.md#於商務管理工具中調整-手動調整){ title="Exclude products from syncing to Facebook and Instagram stores" }       
+  [__Hide Stores or Products__](exclude-products-fb-instagram-sync.md#operate-exclude-products-manage){ title="Exclude products from syncing to Facebook and Instagram stores" }
   You can hide an entire store or a single product in Business Suite.
 
 </div>
 
-## Next Steps
+## Next Steps { #next-steps-fb-instagram }
 
 <div class="grid cards" markdown>
 
@@ -175,7 +175,7 @@ After the connection is complete, the system automatically syncs products throug
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-fb-instagram }
 
 ??? quote "Why does the IG store link show a 404 or encoding error?"
 
@@ -193,4 +193,4 @@ After the connection is complete, the system automatically syncs products throug
 
 ??? quote "How do I exclude specific products from syncing to the store?"
 
-    If you do not want gifts or test products to upload to the store, enter **贈品** or **排除product feed** in the product tags field in your website back office (do not add a space between 排除 and "product"). The system automatically filters out that product. For detailed steps, see [Tags to Exclude Products from Third-Party Platforms](../../../products/categories-and-tags/manage-product-tags.md#排除上傳至第三方平台標籤){ title="Manage product tags" }.
+    If you do not want gifts or test products to upload to the store, enter **贈品** or **排除product feed** in the product tags field in your website back office (do not add a space between 排除 and "product"). The system automatically filters out that product. For detailed steps, see [Tags to Exclude Products from Third-Party Platforms](../../../products/categories-and-tags/manage-product-tags.md#operate-product-tags-exclude){ title="Manage product tags" }.

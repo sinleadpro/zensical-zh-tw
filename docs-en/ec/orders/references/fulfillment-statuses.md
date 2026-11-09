@@ -50,7 +50,7 @@ hide:
 
 This table lists the delivery statuses in the CYBERBIZ new order list, for reference in search, filters, and shipping.
 
-## Delivery Statuses { #fulfillment-statuses-table }
+## Delivery Statuses { #reference-fulfillment-statuses }
 
 | Delivery Status | Description | When It Appears |
 | :-- | :-- | :-- |

@@ -82,11 +82,11 @@ hide: []
 
 ![LINE Rich Menu Setup](../../../../assets/images/ec-第三方整合-line 圖文選單.en.png){ title="LINE Rich Menu Setup" .hero-page }
 
-## What Is a LINE Rich Menu?
+## What Is a LINE Rich Menu? { #intro-line-rich-menu }
 
  **LINE Rich Menu** is an important tool for promoting products and helping customers quickly find information. You can set up features in the menu, such as keyword product search, member profile viewing, or shopping links.
 
-## Prerequisites
+## Prerequisites { #prerequisites-line-rich-menu }
 
 Before you start, make sure you complete the following:
 
@@ -94,7 +94,7 @@ Before you start, make sure you complete the following:
 - [x] **API integration**: First, complete  [**LINE Messaging API** integration](../account-integration/connect-line-messaging-api.md){ title="Connect LINE Messaging API" }  setup.
 - [x] **Link rules**: Rich menu links **must not use short URLs**, which can cause the code to stop working.
 
-## Steps to Create a Rich Menu
+## Steps to Create a Rich Menu { #operate-line-rich-menu }
 
 1. **Go to the LINE admin console**: Log in to [LINE Official Account Manager :lucide-external-link:](https://manager.line.biz/), then select your official account.
 
@@ -122,7 +122,7 @@ Before you start, make sure you complete the following:
 
 ![Rich menu setup steps](../../../../assets/images/ec-第三方整合-line-圖文選單設定.en.png){ title="Rich menu creation steps" }
 
-## Configure Rich Menu Actions
+## Configure Rich Menu Actions { #operate-line-rich-menu-settings }
 
 When you configure actions for each area, select **Link** as the type.
 
@@ -133,7 +133,7 @@ When you configure actions for each area, select **Link** as the type.
 
 Select the links that match your needs:
 
-### Common Feature Path Reference
+### Common Feature Path Reference { #operate-line-rich-menu-settings-overview-line-ri }
 
 Append the **path alias** below to your store domain to make it work (for example: `https://www.yourshop.com/account`).
 
@@ -149,13 +149,13 @@ Append the **path alias** below to your store domain to make it work (for exampl
 
 ---
 
-### Link Construction Rules and Examples
+### Link Construction Rules and Examples { #operate-line-rich-menu-rules }
 
 Choose the link format that matches your customers' browsing goals and authentication needs:
 
 ---
 
-#### General Browsing Mode <small>No Forced Login</small>
+#### General Browsing Mode <small>No Forced Login</small> { #operate-line-rich-menu-browse }
 
 If you want customers to browse pages directly without binding a LINE account, use the standard format.
 
@@ -165,7 +165,7 @@ If you want customers to browse pages directly without binding a LINE account, u
 
 ---
 
-#### Direct Link to a Specific Page
+#### Direct Link to a Specific Page { #operate-line-rich-menu-settings-page }
 
 To direct customers to a specific product page, group page, or custom page, copy the full URL of that page directly.
 
@@ -173,7 +173,7 @@ To direct customers to a specific product page, group page, or custom page, copy
 
 ---
 
-#### OMO Physical Store Application
+#### OMO Physical Store Application { #operate-line-rich-menu-settings-omo-store }
 
 If you add a "Member Card" button to the menu so customers can show it at checkout in store, use the dedicated path.
 
@@ -188,16 +188,16 @@ If you add a "Member Card" button to the menu so customers can show it at checko
 
 ---
 
-### Member Account Binding Mechanism <small>Recommended</small>
+### Member Account Binding Mechanism <small>Recommended</small> { #operate-line-rich-menu-settings-member-account-b }
 
 To ensure the system can send automated **order notifications** and **shipping status updates**, we recommend setting member-related areas in the menu (such as Member Center) to "Auto-Bind Link."
 
-#### Setup Information
+#### Setup Information { #operate-line-rich-menu-settings-settings }
 
 - **Binding link**:`https://[your-domain]/customer/auth/line?line_action=line_login`
 
 
-#### How It Works
+#### How It Works { #specs-line-rich-menu-logic }
 
 - **Customers not yet bound**: Tapping opens the LINE authorization screen. After authorization, the store member binding is completed automatically, and the customer is then directed to the logged-in status page.
 
@@ -209,13 +209,13 @@ To ensure the system can send automated **order notifications** and **shipping s
 	- Avoid repeated redirects: URLs with the `line_action=line_login` parameter keep triggering the verification flow. We recommend using this URL only for the "First-Time Binding" or "Log In / Sign Up" buttons. For other general shopping buttons, use a regular link.
 	- LINE OA message billing: Before you enable automated notifications, be sure to assess operating costs. All messages sent from a LINE Official Account (including manual broadcasts, automated order notifications, and shipping updates) count toward the paid quota. For billing rates, see the official [LINE Official Account Add-On Message Pricing](https://tw.linebiz.com/service/account-solutions/line-official-account/).
 
-!!! note "For more member binding methods, see [LINE Member Binding](../account-integration/bind-line-oa-store-members.md#商家後台設定方法){ title="Bind LINE Official Account and Store Member" }."
+!!! note "For more member binding methods, see [LINE Member Binding](../account-integration/bind-line-oa-store-members.md#operate-bind-line-backend-settings){ title="Bind LINE Official Account and Store Member" }."
 
 ![Rich menu member binding settings](../../../../assets/images/ec-第三方整合-line-圖文選單-會員綁定.en.png){ title="Rich menu member binding settings" }
 
 
 
-## How to Confirm the Rich Menu Is Displayed Successfully
+## How to Confirm the Rich Menu Is Displayed Successfully { #intro-line-rich-menu-overview-line-rich-menu }
 
 After setup, open the LINE app on your phone and check the following:
 
@@ -224,7 +224,7 @@ After setup, open the LINE app on your phone and check the following:
 - Menus with a set active period appear during the specified times
 
 
-## Next Steps
+## Next Steps { #next-steps-line-rich-menu }
 
 <div class="grid cards" markdown>
 
@@ -233,12 +233,12 @@ After setup, open the LINE app on your phone and check the following:
   Switch to the **LIFF URL** generated in the EC admin. After tapping, customers can have their account information applied automatically within LINE, enabling "add friend, sign up, and bind in one tap" for a smoother experience.
 
 - :lucide-search:{ .lg }     
-  [__Keyword Product Search__](../account-integration/connect-line-messaging-api.md#line-關鍵字搜尋商品){ title="Connect LINE Messaging API" }    
+  [__Keyword Product Search__](../account-integration/connect-line-messaging-api.md#intro-line-messaging-line-search-product){ title="Connect LINE Messaging API" }
   After you connect the webhook, customers can type a keyword in the LINE chat, and the system automatically replies with the matching product messages.
 
 </div>
 
-## FAQ
+## FAQ { #faq-line-rich-menu }
 
 ??? quote "Why does my rich menu show "Resolution Mismatch" after I upload an image?"
 

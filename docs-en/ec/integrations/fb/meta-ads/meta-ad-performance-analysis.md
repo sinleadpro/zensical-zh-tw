@@ -65,11 +65,11 @@ hide: []
 
 ![MAA-Ad Performance Analysis](../../../../assets/images/ec-maa-廣告成效分析.en.png){ .hero-page }
 
-## Meta Ad Performance Analysis Guide
+## Meta Ad Performance Analysis Guide { #overview-meta-performance }
 
 **Meta Ad Performance Analysis** is an analysis tool designed for CYBERBIZ merchants. It helps you track the performance of Meta ads (such as Facebook and Instagram), identify which products are worth promoting further, and determine whether your ad strategy is profitable.
 
-## Prerequisites and Limitations
+## Prerequisites and Limitations { #prerequisites-meta-performance }
 
 Before you start analyzing performance, make sure you have completed the following preparation steps so that data is returned and displayed correctly:
 
@@ -77,7 +77,7 @@ Before you start analyzing performance, make sure you have completed the followi
 - [x] **Make sure assets are linked correctly**: Confirm that you have completed authorization through the [Facebook Business Extension (FBE)](../mbe/setup-fbe-authorization.md){ title="Set Up FBE Account Authorization and Asset Linking" }, and that the Meta Pixel and Conversions API (CAPI) are correctly installed.
 - [x] **Check account balance**: Your ad account must have sufficient balance or a valid payment method. Otherwise, performance data will show as "Abnormal" or stop updating.
 
-## Track Overall Performance <small>Overview Metrics</small>
+## Track Overall Performance <small>Overview Metrics</small> { #overview-meta-performance-summary }
 
 On the Performance Overview page, you can quickly evaluate the quality of your Meta ad delivery across two dimensions: **Traffic Ads** and **Sales Ads**.
 
@@ -111,24 +111,24 @@ On the Performance Overview page, you can quickly evaluate the quality of your M
     | **Return on Ad Spend (ROAS)** | Ad revenue ÷ Ad spend | **Meaning:** The revenue returned for every NT$1 in ad spend.<br>**Assessment:** <br>- ROAS > 1: Revenue exceeds ad spend.<br>- ROAS < 1: Loss warning. Consider optimizing creative or audience.<br> * Gross margins vary by brand. Set your own "break-even ROAS" based on your cost structure. |
     | **Cost per Acquisition (CPA)** | Total ad spend ÷ Number of purchases | **Break-even key:** The average ad cost to acquire one order.<br>**Optimization:** Compare against the average gross profit per product. If `CPA > gross profit`, the ad campaign is running at a loss. |
 
-## Ad Campaign List Field Descriptions
+## Ad Campaign List Field Descriptions { #reference-meta-performance }
 
 In the ad campaign list below the metrics overview, you can view the detailed operating status of each campaign.
 
 ![MAA-Ad List Fields](../../../../assets/images/ec-maa-廣告列表欄位.en.png)
 
-### Status and Basic Information
+### Status and Basic Information { #reference-meta-performance-status }
 
 | Field Name | Description | Technical Details / Notes |
 | :--- | :--- | :--- |
 | **On / Off (Status)** | Controls the manual delivery intent of the ad campaign. | **Takes effect immediately after switching:** Changes sync to the Meta backend. |
 | **Campaign Name** | Displays the campaign name. Click it to open the edit page. | |
-| **Effective Status** | Actual delivery status returned by Meta. | Considers review, balance, and on/off factors together. For details, see [Effective Status Breakdown](#有效狀態解析){ data-preview }. |
+| **Effective Status** | Actual delivery status returned by Meta. | Considers review, balance, and on/off factors together. For details, see [Effective Status Breakdown](#reference-meta-performance-status-unlisted){ data-preview }. |
 | **Schedule** | Displays the delivery period of the ad set. | **Display format:** `YYYY-MM-DD`.<br> If no end time is set, "Ongoing" is displayed. |
 
 ---
 
-### Ad Performance Data Fields
+### Ad Performance Data Fields { #reference-meta-performance-fields }
 
 Performance data (impressions, clicks, revenue, spend, ROAS) is displayed in the store's configured currency.
 
@@ -145,7 +145,7 @@ Performance data (impressions, clicks, revenue, spend, ROAS) is displayed in the
 
 ---
 
-### Refresh Mechanism and Pagination
+### Refresh Mechanism and Pagination { #specs-meta-performance-pagination }
 
 !!! warning "Data Refresh Notice"
     Non-real-time data: Performance data is updated approximately every 24 hours and cached in the system.
@@ -157,7 +157,7 @@ To ensure loading performance, each page displays 25 ad campaigns by default. Cl
 
 ![MAA-Pagination Management](../../../../assets/images/ec-maa-廣告活動列表-分頁管理.en.png)
 
-## AI Insights Feature
+## AI Insights Feature { #intro-meta-performance }
 
 
 Merchants can enable "AI Insights" to chat with the system and automatically generate data insights and optimization suggestions:
@@ -181,7 +181,7 @@ Merchants can enable "AI Insights" to chat with the system and automatically gen
 
     ![MAA-aiinsights-Popular Topics](../../../../assets/images/ec-maa-ai-insights-熱門主題.en.png)
 
-## Next Steps
+## Next Steps { #next-steps-meta-performance }
 
 <div class="grid cards" markdown>
 
@@ -195,7 +195,7 @@ Merchants can enable "AI Insights" to chat with the system and automatically gen
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-meta-performance }
 
 ??? quote "What is a good ROAS value?"
 
@@ -210,11 +210,11 @@ Merchants can enable "AI Insights" to chat with the system and automatically gen
 
     Common causes include:
 
-    - **Insufficient ad account balance**: Go to **Third-Party Integration > Facebook Settings > Ad Account Settings** to check your balance, or [top up your account](create-meta-ad-account-top-up.md#儲值廣告金){ title="Create a Meta Ad Account and Complete Top-Up" }.
+    - **Insufficient ad account balance**: Go to **Third-Party Integration > Facebook Settings > Ad Account Settings** to check your balance, or [top up your account](create-meta-ad-account-top-up.md#operate-meta-account-steps-ads){ title="Create a Meta Ad Account and Complete Top-Up" }.
     - **Abnormal pixel setup**: Confirm that the Pixel is correctly connected.
     - **Creative review not passed**: Check whether your ad creative complies with Meta policies.
 
-    See [Effective Status Breakdown](#有效狀態解析){ data-preview } for more status details.
+    See [Effective Status Breakdown](#reference-meta-performance-status-unlisted){ data-preview } for more status details.
 
 ??? quote "Why do ad data and actual orders differ?"
 
@@ -222,13 +222,13 @@ Merchants can enable "AI Insights" to chat with the system and automatically gen
 
     - **iOS privacy restrictions**: Due to Apple's iOS 14.5+ privacy policy, the data Facebook can collect may be incomplete. See [official documentation](https://zh-tw.facebook.com/business/help/1329822420714248?id=428636648170202&helpref=faq_content){ target="_blank" }.
     - **Attribution timing differences**: Data uses an attribution window of 7 days after click and 1 day after view, which may differ in timing from actual store orders.
-    - **Pixel setup issues**: Confirm that you use the correct [Pixel setup](create-meta-ad-account-top-up.md#像素設定-pixel){ title="Create a Meta Ad Account and Complete Top-Up" }, and connect through the CYBERBIZ Business Extension. **We do not recommend installing the Pixel through GTM**, as it can cause duplicate events, incorrect Pixel data, and other issues.
+    - **Pixel setup issues**: Confirm that you use the correct [Pixel setup](create-meta-ad-account-top-up.md#operate-meta-account-steps-settings-pixel){ title="Create a Meta Ad Account and Complete Top-Up" }, and connect through the CYBERBIZ Business Extension. **We do not recommend installing the Pixel through GTM**, as it can cause duplicate events, incorrect Pixel data, and other issues.
 
     To reconnect, see [Set Up FBE Account](../mbe/setup-fbe-authorization.md)link.md){ title="Set Up FBE Account Authorization and Asset Linking" }.
 
-## References
+## References { #reference-meta-performance-references }
 
-### Effective Status Breakdown { .unlisted }
+### Effective Status Breakdown { .unlisted } { #reference-meta-performance-status-unlisted }
 
 
 | Status | Meaning | Display Color |

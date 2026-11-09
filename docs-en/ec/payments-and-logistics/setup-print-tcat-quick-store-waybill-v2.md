@@ -61,7 +61,7 @@ hide: []
 
 ![Quick Store waybill settings page](../../assets/images/EC-金物流-黑貓快速到店託運單-hero.en.png){ title="Quick Store Waybill Settings Page" .hero-page }
 
-## Quick Store Waybill Guide{ #Intro-Ezcat-Cvs-Shipping-Note }
+## Quick Store Waybill Guide{ #intro-ezcat-cvs-shipping-note }
 
 !!! path "Admin path: Payment and Logistics > Black Cat Quick Store Waybill"
 
@@ -76,24 +76,24 @@ The page brings together the most common merchant actions and provides a history
 !!! info "Tip"
     This page applies only to **Black Cat Quick Store (CVS pickup)** waybills. To work with **Black Cat Express (home delivery)** waybills, go to [Set Up and Print Black Cat Waybills](setup-print-tcat-waybill-v2.md){ title="Set Up and Print Black Cat Waybills" } page instead.
 
-## Page Section Overview { #ezcat-cvs-shipping-note-overview }
+## Page Section Overview { #overview-ezcat-cvs }
 
 | Section | Purpose | When to use |
 | :-- | :-- | :-- |
-| [Quick Store Settings](#configure-ezcat-cvs-shipping-note-sender-setup) | Set the sender name, address, contact phone number, and default waybill item name | First use, or when sender information changes |
-| [Reprint Waybills](#ezcat-cvs-shipping-note-create) | Reprint 1 to 8 delivery-only waybills for a single order | Split shipments into multiple boxes, or reprint a damaged waybill |
-| [Waybill Number Usage Log](#ezcat-cvs-shipping-note-usage-records) | List all Black Cat Quick Store waybills and deduction amounts for your store | Reconcile, or check the status of a waybill number |
+| [Quick Store Settings](#operate-ezcat-cvs-sender-settings) | Set the sender name, address, contact phone number, and default waybill item name | First use, or when sender information changes |
+| [Reprint Waybills](#operate-ezcat-cvs-create) | Reprint 1 to 8 delivery-only waybills for a single order | Split shipments into multiple boxes, or reprint a damaged waybill |
+| [Waybill Number Usage Log](#reference-ezcat-cvs-usage) | List all Black Cat Quick Store waybills and deduction amounts for your store | Reconcile, or check the status of a waybill number |
 
 
-## Requirements and Limitations
+## Requirements and Limitations { #prerequisites-ezcat-cvs }
 
-### Waybill Sticker Requirements { #ezcat-cvs-shipping-note-sticker }
+### Waybill Sticker Requirements { #specs-ezcat-cvs-sticker }
 
 Always print waybills on **Black Cat three-part blank waybill stickers**. If you do not have them, call Black Cat customer service to request them first. Using other paper sizes may prevent the Black Cat system from scanning the waybill.
 
-## Steps
+## Steps { #operate-ezcat-cvs }
 
-### Set up Sender Information { #configure-ezcat-cvs-shipping-note-sender-setup }
+### Set up Sender Information { #operate-ezcat-cvs-sender-settings }
 
 Before you use the Black Cat Quick Store waybill feature for the first time, you **must** complete the **Quick Store Settings** section. The sender name, address, and phone number are used on all later waybills.
 
@@ -114,7 +114,7 @@ please fill it in as well.
 
 ---
 
-### Reprint Waybills { #ezcat-cvs-shipping-note-create }
+### Reprint Waybills { #operate-ezcat-cvs-create }
 
 Reprinting applies to an **order that already exists in the system**. It generates additional waybill numbers. Typical cases include an order that must be split into multiple boxes, or a damaged waybill that needs to be printed again.
 
@@ -155,11 +155,11 @@ Coin amount to be deducted appears next to each option. The dropdown options are
 
 ---
 
-### View Records and Reconciliation { #ezcat-cvs-shipping-note-records }
+### View Records and Reconciliation { #reference-ezcat-cvs-records }
 
 The page provides a **Waybill Number Usage Log** table at the bottom. Use the search box in the upper right to filter by keyword. Click a column header to change the sort order.
 
-#### Waybill Number Usage Log { #ezcat-cvs-shipping-note-usage-records }
+#### Waybill Number Usage Log { #reference-ezcat-cvs-usage }
 
 This log shows the deduction details and status of all Black Cat Quick Store waybills for your store.
 
@@ -182,7 +182,7 @@ This log shows the deduction details and status of all Black Cat Quick Store way
     * The difference between the **Selected CYBER Coin amount** and the **Confirmed CYBER Coin deduction** occurs in special situations such as temperature zone mislabeling or peak season.
     * Black Cat Quick Store waybills are **always non-transferable**. Each reprint or shipment requests a new waybill number from Black Cat.
 
-## Next Steps
+## Next Steps { #next-steps-ezcat-cvs }
 
 <div class="grid cards" markdown>
 

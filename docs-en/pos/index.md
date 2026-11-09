@@ -224,7 +224,7 @@ permalink: "https://help.cyberbiz.io/pos/"
 
 ---
 
-## Core Features Overview
+## Core Features Overview { #overview-pos }
 
 <div class="grid cards" markdown>
 
@@ -267,7 +267,7 @@ permalink: "https://help.cyberbiz.io/pos/"
 
 ---
 
-## Core Operations Scenarios
+## Core Operations Scenarios { #intro-pos }
 
 <div class="grid" markdown>
 
@@ -287,7 +287,7 @@ Keep your checkout counter running smoothly. Covers card reader and invoice prin
 
 ---
 
-## Explore by Role
+## Explore by Role { #intro-roles }
 
 <div class="grid cards" markdown>
 

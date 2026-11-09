@@ -60,27 +60,27 @@ hide: []
 
 ![Google Tag Manager integration setup](../../../assets/images/ec-第三方整合-google設定-gtm.en.png){ title="Google Tag Manager integration setup" .hero-page }
 
-## What Is Google Tag Manager
+## What Is Google Tag Manager { #intro-tag-manager }
 
 **Google Tag Manager (GTM)** is a free tag management system from Google. It helps webmasters install and update various tracking tags (such as event tracking and remarketing codes) quickly, without modifying the website's code.
 
-## Create a GTM Account and Container
+## Create a GTM Account and Container { #operate-tag-manager }
 
 1.  **Create an account**: Sign in to [Google Tag Manager :lucide-external-link:](https://tagmanager.google.com/) and click "Create Account". Enter an **Account name** (we recommend your company or brand name) and select your country.
-2.  **Set up a container**: Enter a [container](#gtm-核心詞彙表){ title="container " }**Name** (we recommend your storefront URL or name) and select "**Web**" as the target platform.
+2.  **Set up a container**: Enter a [container](#reference-tag-manager-gtm){ title="container " }**Name** (we recommend your storefront URL or name) and select "**Web**" as the target platform.
 3.  **Accept the terms**: Select the checkbox to agree to the terms of service, then click "Yes".
 4.  **Get the code**: The system displays an installation code window. Find the container ID in the **GTM-XXXXXX** format and copy it.
 
 ![Create GTM account and container](../../../assets/images/ec-第三方整合-google設定-建立gtm.en.gif){ title="Create GTM account and container" }
 
-## CYBERBIZ Admin Integration Settings
+## CYBERBIZ Admin Integration Settings { #operate-tag-manager-connect }
 
 1.  **Access path**: Go to the admin and open **Third-Party Integrations ** > ** Google Settings**.
 2.  **Enter the ID**: Find the **Google Tag Manager** section, paste the copied ID into the **Tracking ID (includes GTM)** field, and save.
 
 ![GTM tracking ID field](../../../assets/images/ec-第三方整合-google設定-gtm欄位.en.png){ title="GTM tracking ID field" }
 
-## Important Notes <small>Avoid Data Anomalies</small>
+## Important Notes <small>Avoid Data Anomalies</small> { #specs-tag-manager }
 
 To ensure data accuracy, **the following tools already have dedicated integrations in CYBERBIZ. Always set them up directly in the system admin, and do not bind them separately through GTM**, to avoid tag conflicts or double counting:
 
@@ -90,14 +90,14 @@ To ensure data accuracy, **the following tools already have dedicated integratio
 
 !!! warning "If you previously set up tracking for these tools through GTM, you must **remove the old tags from GTM** after switching to the CYBERBIZ admin integration. Otherwise, your ad data will be inaccurate."
 
-## Check and Verify
+## Check and Verify { #operate-tag-manager-verification }
 
 After setup, you can use **Google Tag Assistant** (Chrome extension or web version) to [check whether the GTM code is installed on the site](verify-tracking-tag-installation.md){ title="Verify tracking code installation with Google Tag Assistant" }.
 
 *   **Chrome extension**: Useful for quickly checking whether the code has loaded successfully.
 *   **Web version**: Fully records your actions and verifies whether specific tags fire correctly.
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-tag-manager }
 
 ??? quote "Where do I find the GTM container ID?"
 
@@ -118,9 +118,9 @@ After setup, you can use **Google Tag Assistant** (Chrome extension or web versi
     * **Chrome extension**: Quickly check whether the code has loaded successfully.
     * **Web version**: Fully records your actions and verifies whether specific tags fire correctly.
 
-## References
+## References { #reference-tag-manager }
 
-### GTM Core Glossary
+### GTM Core Glossary { #reference-tag-manager-gtm }
 
 
 | Term | Technical Definition | Simple Analogy |

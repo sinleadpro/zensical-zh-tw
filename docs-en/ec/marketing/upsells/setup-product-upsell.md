@@ -66,7 +66,7 @@ hide: []
 
 ![PWP-By Product Page](../../../assets/images/ec-marketing-pwp-by-product-hero.zh-tw.png){ title="商品加價購群組頁面" .hero-page }
 
-## About Product Upsells
+## About Product Upsells { #overview-product-upsell }
 
 A product upsell is triggered by **specific products**. When a customer buys a qualifying product, the system will Show selected add-on products during checkout that the customer can buy at a special price.
 
@@ -78,16 +78,16 @@ Product upsells are often used to:
 
 !!! example "Example: After buying a camera, customers can add camera accessories or a memory card."
 
-## Set Up PWP-By Product
+## Set Up PWP-By Product { #operate-product-upsell }
 
-### Step 1: Add A PWP-By Product Collection
+### Step 1: Add A PWP-By Product Collection { #operate-product-upsell-add }
 
 1. Log in to the CYBERBIZ admin and go to  **Marketing > PWP-By Product**.
 2. Below the Collection list, enter a new Collection name and click **Create a collection**.
 
 ---
 
-### Step 2: Fill In The Upsell Collection Details
+### Step 2: Fill In The Upsell Collection Details { #operate-product-upsell-fields }
 
 In the Collection list, click the upsell Collection to expand it and set these fields:
 
@@ -120,7 +120,7 @@ In the Collection list, click the upsell Collection to expand it and set these f
 
 ---
 
-### Step 3: Select Upsell Products
+### Step 3: Select Upsell Products { #operate-product-upsell-products }
 
 1. In the product list on the left, click **Add** to add products to the upsell Collection (Collection).
 2. Set the **add-on price** for each product.
@@ -133,13 +133,13 @@ In the Collection list, click the upsell Collection to expand it and set these f
 
 ![Select Upsell Products](../../../assets/images/ec-product-pwp-by-product-add-product-to-collection.zh-tw.png){ title="選擇加價購商品" }
 
-### Step 4: What Customers See
+### Step 4: What Customers See { #operate-product-upsell-checkout }
 
 - On the **checkout page**, when customers buy products with the matching Tag, the system will Show add-on product options.
 
 ![Storefront Upsell Display](../../../assets/images/ec-product-pwp-by-product-frontend.zh-tw.png){ title="前台加價購呈現" }
 
-## Multi-Language Settings
+## Multi-Language Settings { #operate-product-upsell-language }
 
 Set multi-language Names for PWP-By Product so the storefront can Show the right text for each language.
 
@@ -148,7 +148,7 @@ Set multi-language Names for PWP-By Product so the storefront can Show the right
 	- Only fields that Show a **language Tag** change text when the storefront language changes (they Show per language). For example: **Collection name** Product Upsell `繁體中文`.
 	- If a language field is empty, the storefront uses the **繁體中文** content by default (Show / Show).
 
-### Steps
+### Steps { #operate-product-upsell-language-steps }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > PWP-By Product**
 2. In the language menu, switch to the language you want to edit (for example, Traditional Chinese or English).
@@ -156,7 +156,7 @@ Set multi-language Names for PWP-By Product so the storefront can Show the right
 
 ![Multi-Language Settings](../../../assets/images/ec-pwp-by-product-collection-name-multilang.gif){ title="多國語系設定" }
 
-### How It Looks On The Storefront (Show)
+### How It Looks On The Storefront (Show) { #overview-product-upsell-language }
 
 - **Traditional Chinese page**
 
@@ -167,7 +167,7 @@ Set multi-language Names for PWP-By Product so the storefront can Show the right
 	![Multi-Language Storefront - English](../../../assets/images/ec-pwp-collection-name-multilang-forntend.en-us.png){ title="多國語系前台-英文" }
 
 
-## FAQ
+## FAQ { #faq-product-upsell }
 
 ??? quote "Can add-on products have multiple variants? If variants have different prices, how will the storefront Show them?"
 	Yes. Add-on products can have multiple variants, and customers can still choose a variant on the product page. Keep in mind:
@@ -181,4 +181,4 @@ Set multi-language Names for PWP-By Product so the storefront can Show the right
 	- **Solution**: **Use different Tags** for the add-on products and for the trigger threshold (Tag). Once the Tags don't overlap, the system can limit the add-on quantity correctly.
 
 ??? quote "Can the add-on quantity multiply with the number of items bought?"
-	Yes. Select **Whether product add-on items can be doubled** in the upsell Collection settings, and the add-on quantity will multiply with the number of trigger products bought. Learn [how to set up add-on quantity doubling](#步驟-2填寫加價購群組資訊).
+	Yes. Select **Whether product add-on items can be doubled** in the upsell Collection settings, and the add-on quantity will multiply with the number of trigger products bought. Learn [how to set up add-on quantity doubling](#operate-product-upsell-fields).

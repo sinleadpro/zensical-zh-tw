@@ -68,11 +68,11 @@ comments: false
 
 ![GA4 Advanced Data Analysis](../../../../assets/images/ec-第三方整合-google-ga-資料收集與修改.en.png){ .hero-page title="GA4 Advanced Data Analysis" }
 
-## Google Analytics Advanced Data Analysis Guide
+## Google Analytics Advanced Data Analysis Guide { #overview-ga-advanced }
 
 After you complete the basic connection between Google Analytics 4 (GA4) and your website, GA4 starts recording basic traffic data. To analyze your website traffic in more depth and build more accurate user profiles, follow the instructions below to configure advanced settings.
 
-## <small>Enhanced Measurement</small>
+## <small>Enhanced Measurement</small> { #intro-ga-advanced }
 
 This is GA4's built-in automatic tracking feature. Once turned on, the system records a range of user interactions on your website without requiring any additional tracking code.
 
@@ -85,7 +85,7 @@ This is GA4's built-in automatic tracking feature. Once turned on, the system re
 
     ![Configure Enhanced Measurement](../../../../assets/images/ec-第三方整合-ga4-設定加強型評估.en.png){ title="Configure Enhanced Measurement" }
 
-## <small>Google Signals</small>
+## <small>Google Signals</small> { #intro-ga-advanced-google-google-signals }
 
 When a user signs in to a Google account and has Ads Personalization turned on, this feature helps the system collect cross-device and cross-platform usage data, giving a fuller view of the user across devices.
 
@@ -94,7 +94,7 @@ When a user signs in to a Google account and has Ads Personalization turned on, 
 
 ![Enable Google Signals](../../../../assets/images/ec-第三方整合-google-ga4-google信號啟用.en.png){ title="Enable Google Signals" }
 
-## <small>Data Retention</small>
+## <small>Data Retention</small> { #intro-ga-advanced-data-data-retention }
 
 The default data retention period in GA4 is only 2 months, which is not enough for merchants who need to track long-term trends or build remarketing lists.
 
@@ -103,7 +103,7 @@ The default data retention period in GA4 is only 2 months, which is not enough f
 
 ![Data retention period settings](../../../../assets/images/ec-第三方整合-google-ga4-資料保留.en.png){ title="Data retention period settings" }
 
-## <small>Reporting Identity</small>
+## <small>Reporting Identity</small> { #reference-ga-advanced }
 
 This technology helps merchants avoid counting the same user more than once. For example, if a customer browses on their phone and then places an order on their computer, GA4 can recognize them as the same user.
 
@@ -114,7 +114,7 @@ This technology helps merchants avoid counting the same user more than once. For
 
 ![Reporting identity settings](../../../../assets/images/ec-第三方整合-google-ga4-報表識別資訊.en.png){ title="Reporting identity settings" }
 
-## Next Steps
+## Next Steps { #next-steps-ga-advanced }
 
 <div class="grid cards" markdown>
 
@@ -128,7 +128,7 @@ This technology helps merchants avoid counting the same user more than once. For
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-ga-advanced }
 
 ??? quote "What user actions does Enhanced Measurement track?"
 

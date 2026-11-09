@@ -88,16 +88,16 @@ Learn how to handle inbound arrivals, customer pickups, and overdue order manage
     This document applies only to shipping management for **POS store orders**. For **regular store orders**, see [store pickup order shipping](../../ec/orders/store-pickup-orders.md).
 
 
-## Usage Notes
+## Usage Notes { #prerequisites-store-pickup }
 
 - **Prerequisites**: This feature is available only if **POS Store Pickup** is enabled.
 - **Order Condition**: Orders marked as **Shipped** in the admin panel.
 - **Commission Linkage**: If the merchant has set up [store pickup staff commission](../store/pos-store-pickup-staff-commission.md), the system calculates commission based on the **Receiving Staff** selected during the workflow.
 - **Full-Order Return Limit**: POS store pickup orders support only **full-order returns**, and partial item returns are not available.
 
-## Shipping Process
+## Shipping Process { #operate-store-pickup }
 
-### Step 1: Ship the Order
+### Step 1: Ship the Order { #operate-store-pickup-step-a-order }
 
 1. Log in to the CYBERBIZ admin panel and go to **Orders > All Orders**.
 
@@ -120,7 +120,7 @@ Learn how to handle inbound arrivals, customer pickups, and overdue order manage
 
 
 
-### Step 2: Receive Packages at the Store
+### Step 2: Receive Packages at the Store { #operate-store-pickup-step-b }
 
 When a package shipped from the central warehouse arrives at the store, store staff must complete the inbound step. The system sends an SMS or email notification to the customer at the same time.
 
@@ -134,7 +134,7 @@ When a package shipped from the central warehouse arrives at the store, store st
 
 ![](../../assets/images/POS-前台-訂單-門市訂單到店01.en.png){ .screenshot }
 
-### Step 3: Customer Pickup at the Store
+### Step 3: Customer Pickup at the Store { #operate-store-pickup-step-c }
 
 When the customer comes to the counter, store staff must verify the information and complete the handover.
 
@@ -150,7 +150,7 @@ When the customer comes to the counter, store staff must verify the information 
 ![](../../assets/images/POS-前台-訂單-門市訂單到店02.en.png){ .screenshot }
 
 
-## Pickup by Member Barcode Only
+## Pickup by Member Barcode Only { #intro-store-pickup }
 
 To verify the recipient's identity, go to **Payment and Logistics > Checkout Page and Logistics Settings** in the admin panel and turn on **Pickup by Member Barcode Only Setting**.
 
@@ -159,11 +159,11 @@ To verify the recipient's identity, go to **Payment and Logistics > Checkout Pag
 
     When this setting is on, store staff can enter the pickup process only by scanning the customer's **member barcode** in the mobile APP. Staff cannot search by manually entering a phone number or email.
 
-## Return Process
+## Return Process { #operate-returns }
 
 If a customer wants to return an item they picked up, choose the handling method that matches where the customer is.
 
-### Scenario 1: Return at the Store During Pickup
+### Scenario 1: Return at the Store During Pickup { #operate-returns-customer-store-returns }
 
 If the customer asks to return an item right after opening the package at the store, store staff should handle it through the POS front end.
 
@@ -175,7 +175,7 @@ If the customer asks to return an item right after opening the package at the st
 3. Store staff securely repack the package and ship it back to the central warehouse.
 4. After the central warehouse administrator performs [return review](../../ec/orders/order-return-process.md#operate-order-return-reverse) in the admin panel, the return process is complete.
 
-### Scenario 2: Return After the Customer Takes the Item Home
+### Scenario 2: Return After the Customer Takes the Item Home { #operate-returns-customer-returns }
 
 If the customer has already taken the item out of the store, the return must be handled through the website front end or by contacting customer service.
 
@@ -185,22 +185,22 @@ If the customer has already taken the item out of the store, the return must be 
 
     - [7-11 C2B Return Service](../../ec/orders/returns-refunds/cvs-c2b-return.md)
     - [7-11 C2C Return Service](../../ec/orders/returns-refunds/7-11-c2c-return.md)
-    - [Black Cat Reverse Logistics](../../ec/payments-and-logistics/setup-print-tcat-waybill-v2.md#ezcat-shipping-note-reverse)
+    - [Black Cat Reverse Logistics](../../ec/payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-shipping-reverse)
     - [Pelican Express Reverse Logistics](../../ec/payments-and-logistics/setup-pelican-waybill-v2.md#operate-pelican-shipping-reverse)
     - [HCT Reverse Logistics](../../ec/payments-and-logistics/setup-hct-waybill-v2.md#operate-hct-setup-reverse)
 
 4. After the package returns to the warehouse, the administrator performs a [return review](../../ec/orders/order-return-process.md#operate-order-return-reverse) in the admin panel and processes the refund.
 
 
-## Special Scenarios
+## Special Scenarios { #intro-special-cases }
 
-### Reprint the Store Arrival Barcode Sheet
+### Reprint the Store Arrival Barcode Sheet { #intro-special-cases-barcode }
 
 If the order has already been changed to **Shipped** but the barcode must be reprinted, select the order, then click **Reprint Store Arrival Barcode** in the **Select Action** menu.
 
 ![](../../assets/images/POS-後台-訂單-所有訂單-門市訂單出貨02.en.png){ .screenshot }
 
-### Handle Overdue Uncollected Orders
+### Handle Overdue Uncollected Orders { #intro-special-cases-order }
 
 If a package has been kept in the store longer than the specified number of days, you can handle it by following the steps below.
 
@@ -210,17 +210,17 @@ If a package has been kept in the store longer than the specified number of days
     - **Notify for Pickup**: After contacting the customer, complete pickup following the standard process.
     - **Request Return**: If you cannot reach the customer or the customer requests a return, click **Request Return** in the lower-right corner of the order details.
 4. After you request a return, follow the instructions to change the item to **Return to Central Warehouse** or **Add to Store Inventory**.
-    - For the process, see [Order Cancellation - Package Arrived at Store (Customer Not Yet Picked Up)](#三包裹已到店顧客尚未取貨).
+    - For the process, see [Order Cancellation - Package Arrived at Store (Customer Not Yet Picked Up)](#operate-store-pickup-return-at-store).
 
 !!! info "How to Enable This Feature"
     Log in to the CYBERBIZ admin panel, go to **Payment and Logistics > Checkout Page and Logistics Settings**, turn on the feature in **POS Store Pickup Overdue Settings**, and set the number of days.
 
 
-### Cancel Orders and Return to Central Warehouse
+### Cancel Orders and Return to Central Warehouse { #intro-special-cases-order-cancel }
 
 Handle the order based on its current stage, as follows:
 
-#### Stage 1: Before Shipment (Not yet Shipped)
+#### Stage 1: Before Shipment (Not yet Shipped) { #intro-special-cases-section-n }
 
 === "Merchant"
 
@@ -234,7 +234,7 @@ Handle the order based on its current stage, as follows:
 
     ![](../../assets/images/EC-前台-訂單查詢-取消訂單01.en.png){ .screenshot }
 
-#### Stage 2: Shipped but Not yet Arrived at Store
+#### Stage 2: Shipped but Not yet Arrived at Store { #intro-special-cases-section-o }
 
 To intercept a package that has already been shipped, perform the following steps:
 
@@ -247,15 +247,15 @@ To intercept a package that has already been shipped, perform the following step
     ![](../../assets/images/POS-後台-訂單-所有訂單-門市訂單出貨04.en.png){ .screenshot }
 
 
-3. Go to **POS > Inventory Management > Inbound Orders** and complete the [receiving count](../inventory/inbound-orders/#收貨清點) to restore EC inventory.
+3. Go to **POS > Inventory Management > Inbound Orders** and complete the [receiving count](../inventory/inbound-orders/#operate-inbound-orders-receive) to restore EC inventory.
 
-#### Stage 3: Arrived at Store (Customer Has Not Picked Up)
+#### Stage 3: Arrived at Store (Customer Has Not Picked Up) { #operate-store-pickup-return-at-store }
 
 When the package has arrived at the store but the customer requests a return, the administrator can choose **Add to Store Inventory** or **Return to Central Warehouse**:
 
 === "Add to Store Inventory"
 
-    The administrator performs **Add to Store Inventory** in the admin panel, and the order changes to `Returning`. The system automatically creates an inbound order for that store. Store staff then complete the [receiving count](../inventory/inbound-orders/#收貨清點), which converts the items to in-store inventory.
+    The administrator performs **Add to Store Inventory** in the admin panel, and the order changes to `Returning`. The system automatically creates an inbound order for that store. Store staff then complete the [receiving count](../inventory/inbound-orders/#operate-inbound-orders-receive), which converts the items to in-store inventory.
 
     ![](../../assets/images/POS-後台-訂單-所有訂單-門市訂單出貨05.en.png){ .screenshot }
 
@@ -268,7 +268,7 @@ When the package has arrived at the store but the customer requests a return, th
 
 
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-store-pickup }
 
 ??? quote "Why does downloading the store arrival barcode show a failure message?"
     Check whether the order includes the "Cash on Delivery" option. POS store pickup currently supports only "Pay First, Pick Up Later." If Cash on Delivery is included, the store arrival barcode cannot be generated.

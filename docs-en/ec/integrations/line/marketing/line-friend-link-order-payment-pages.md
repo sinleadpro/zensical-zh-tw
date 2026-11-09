@@ -66,17 +66,17 @@ hide:
 
 ![Order page LINE friend link](../../../../assets/images/ec-網站外觀-order-done-extra-content-liquid.en.png){ .hero-page title="Order page LINE friend link" }
 
-## Guide to Displaying the LINE Friend Link on Order-Related Pages
+## Guide to Displaying the LINE Friend Link on Order-Related Pages { #overview-line-order-link }
 
 Merchants can edit the code to add a LINE friend link or image to the **Order Confirmation Page** and the **Order Payment Completed Page** after a customer places an order.
 
-## Prerequisite: Request Activation
+## Prerequisite: Request Activation { #prerequisites-line-order-link }
 
 - [x] **Request from Customer Service:** This feature is not enabled by default. Go to the back office and request activation from **CYBERBIZ Customer Service**.
 - [x] **Theme Restriction:** After activation, this feature applies only to themes that are **currently published**. If you switch to a new theme in the future, you must request activation again from Customer Service.
 - [x] **Supported Themes:** This feature supports **drag-and-drop themes**.
 
-## Back Office Steps
+## Back Office Steps { #operate-line-order-link }
 
 1. **Open the Editor:** Log in to the back office and go to **Website Appearance > Theme Setting**.
 2. **Actions** On the theme you are currently using, click "**Actions** > ** CSS/HTML Editor**".
@@ -89,7 +89,7 @@ Merchants can edit the code to add a LINE friend link or image to the **Order Co
 
 	![Storefront order page friend link](../../../../assets/images/ec-網站外觀-訂單頁顯示 line 加入好友-前台.en.png){ title="Order page friend link on storefront" }
 
-## Coding Tips
+## Coding Tips { #intro-line-order-link }
 
 Merchant engineers must write their own HTML/CSS code to design the page. To show different content on different pages, use the following logic to check which page is displayed:
 
@@ -115,7 +115,7 @@ Merchant engineers must write their own HTML/CSS code to design the page. To sho
 	- **No Code Writing Services:** CYBERBIZ **does not provide syntax tutorials or code writing services**. Merchants must assign this work to their in-house engineers or an external design firm.
 	- **Use at Your Own Risk:** Merchants are responsible for any system issues or errors caused by code changes, and must bear all related risks and consequences.
 
-## FAQ
+## FAQ { #faq-line-order-link }
 
 
 ??? quote "Why don't I see changes on the page after editing `order_done_extra_content.liquid`?"

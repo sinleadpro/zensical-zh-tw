@@ -71,11 +71,11 @@ hide:
 
 ![Edit order content page](../../../assets/images/EC-訂單-編輯訂單頁面-hero.en.png){ title="Edit Order Content Page" .hero-page }
 
-## About Editing Orders
+## About Editing Orders { #intro-order-edit }
 
 The **Edit Order** feature lets you change product quantities and variants in an order before it ships, without asking the customer to cancel and reorder, which makes processing more efficient.
 
-## Prerequisites and Limitations
+## Prerequisites and Limitations { #prerequisites-order-edit }
 
 Before editing, make sure the order meets the following conditions. Otherwise, editing isn't supported:
 
@@ -85,7 +85,7 @@ Before editing, make sure the order meets the following conditions. Otherwise, e
 - [x] **Exclusions**:
     *   **Invoice integration**: If **CYBERBIZ issues invoices** for your store, editing orders isn't supported.
     *   **Warehouse shipping**: Orders shipped by **CYBERBIZ Warehouse (WMS)** can't be edited.
-    *   **Order types**: Subscription, Quick Delivery, store pickup, Shop.com referral, and third-party commission orders, and orders using multiple "discount-type" coupons, aren't supported.
+    *   **Order types**: Subscription, Quick Delivery, Shop.com referral, and third-party commission orders, and orders using multiple "discount-type" coupons, aren't supported.
 
     !!! info "Coupon Rules"
 
@@ -94,9 +94,9 @@ Before editing, make sure the order meets the following conditions. Otherwise, e
 
 - [x] **Product limits**: Bundles, gifts, Bonus Mall items, LINE group-buy products, add-on items, e-tickets, POS products, and connected-warehouse products **can't** be edited or added.
 
-## Steps
+## Steps { #operate-order-edit }
 
-### Open the Edit Order Page { #edit-order-page }
+### Open the Edit Order Page { #operate-order-edit-page }
 
 1.  **Open the order**: In the admin, go to **Orders > All Orders**, select the order to edit, and click its "order number" to open the order details page.
 2.  **Start editing**: Click **Edit Order** in the upper-right corner.
@@ -108,24 +108,24 @@ Before editing, make sure the order meets the following conditions. Otherwise, e
     <div class="grid cards" markdown>
 
     - :lucide-minus-circle:{ .lg .middle }
-      [Change or Remove Products](#edit-order-adjust-remove){ title="Change or Remove Products" }
+      [Change or Remove Products](#operate-order-edit-adjust-remove){ title="Change or Remove Products" }
 
     - :lucide-plus-circle:{ .lg .middle }
-      [Add Products](#edit-order-add-product){ title="Add Products" }
+      [Add Products](#operate-order-edit-add-product){ title="Add Products" }
 
     - :lucide-settings:{ .lg .middle }
-      [Custom Items/Discounts](#edit-order-custom){ title="Custom Items/Discounts" }
+      [Custom Items/Discounts](#operate-order-edit-custom){ title="Custom Items/Discounts" }
 
     - :lucide-sticky-note:{ .lg .middle }
-      [Shop Note](#edit-order-note){ title="Shop Note" }
+      [Shop Note](#operate-order-edit-note){ title="Shop Note" }
 
     </div>
 
 ---
 
-### Change or Remove Products { #edit-order-adjust-remove }
+### Change or Remove Products { #operate-order-edit-adjust-remove }
 
-On the "[edit order page](#edit-order-page)," you can change the quantity of existing products in the order or remove products.
+On the "[edit order page](#operate-order-edit-page)," you can change the quantity of existing products in the order or remove products.
 
 1. Change the quantity in the quantity field, or click delete :lucide-trash-2: to remove the product.
 2. When you're done, click "Confirm Edit," then click "Confirm and Submit" in the confirmation dialog to apply the changes.
@@ -134,11 +134,11 @@ On the "[edit order page](#edit-order-page)," you can change the quantity of exi
 
 ---
 
-### Add Products { #edit-order-add-product }
+### Add Products { #operate-order-edit-add-product }
 
-On the "[edit order page](#edit-order-page)," you can add new products to the order.
+On the "[edit order page](#operate-order-edit-page)," you can add new products to the order.
 
-1. Click "Add Product," search in the dialog (see [product filters](../../products/create-and-manage/product-management-interface.md#篩選器使用邏輯){ title="Product Management Interface Overview" data-preview }), select products, and click **Confirm Add** to add them (only products with the same temperature zone and channel).
+1. Click "Add Product," search in the dialog (see [product filters](../../products/create-and-manage/product-management-interface.md#operate-product-ui-filter){ title="Product Management Interface Overview" data-preview }), select products, and click **Confirm Add** to add them (only products with the same temperature zone and channel).
 
     ![Add products](../../../assets/images/EC-訂單詳情頁-編輯訂單-新增商品.en.png){ title="Add Products" }
 
@@ -150,9 +150,9 @@ On the "[edit order page](#edit-order-page)," you can add new products to the or
 
 ---
 
-### Add Custom Items/Discounts { #edit-order-custom }
+### Add Custom Items/Discounts { #operate-order-edit-custom }
 
-On the "[edit order page](#edit-order-page)," you can add custom items or discounts to charge extra shipping or give an extra discount.
+On the "[edit order page](#operate-order-edit-page)," you can add custom items or discounts to charge extra shipping or give an extra discount.
 
 === "Custom Items"
 
@@ -188,9 +188,9 @@ On the "[edit order page](#edit-order-page)," you can add custom items or discou
 
 ---
 
-### Shop Note {#edit-order-note}
+### Shop Note {#operate-order-edit-note}
 
-On the "[edit order page](#edit-order-page)," you can add an internal note (up to 1,000 characters) for your team's reference.
+On the "[edit order page](#operate-order-edit-page)," you can add an internal note (up to 1,000 characters) for your team's reference.
 
 1. Enter the note in the "Shop Note" text box at the bottom of the edit page.
 2. You must also change at least one product (add, delete, or change quantity).
@@ -201,20 +201,20 @@ On the "[edit order page](#edit-order-page)," you can add an internal note (up t
 !!! warning "Important Limitation"
     Edit order mode **doesn't support saving note changes alone**. To change only the note, use the "order details page." In edit mode, you must also change products to save.
 
-## Amount Calculation and Differences { #edit-order-payment-adjsutment }
+## Amount Calculation and Differences { #operate-order-payment-adjustment }
 
 Amounts change after editing as follows:
 
 * **Pricing**: Original products keep the price at the time of order; newly added products use the current price at the time of editing.
 * **Promotions**: When you change quantities or remove products, the system **doesn't recalculate** store-wide discounts or spend-threshold discounts.
 
-### Payment and Differences {: #handling-methods }
+### Payment and Differences { #operate-order-edit-payment-diff }
 
 
 | Payment Type | Amount Collected by the System | How Differences Are Handled |
 | :--- | :--- | :--- |
 | **Cash on Delivery** | Amount after editing | The system collects the new amount automatically. |
-| **Not cash on delivery** | **Original amount** | Whether paid or not, the system payment link keeps the original price. Arrange additional payments or refunds with the customer yourself and [track them](#非貨到付款訂單差額處理). |
+| **Not cash on delivery** | **Original amount** | Whether paid or not, the system payment link keeps the original price. Arrange additional payments or refunds with the customer yourself and [track them](#operate-order-edit-non-cod-adjust). |
 
 
 !!! warning "Important Limitations: Refunds and Invoices"
@@ -224,7 +224,7 @@ Amounts change after editing as follows:
 
 ---
 
-### Handle Differences for Non-Cash-on-Delivery Orders
+### Handle Differences for Non-Cash-on-Delivery Orders { #operate-order-edit-non-cod-adjust }
 
 If a "non-cash-on-delivery" order's amount changes after editing, the system payment link doesn't update the amount. Arrange the additional payment or refund offline with the customer, then update the status manually in the admin.
 
@@ -244,7 +244,7 @@ If a "non-cash-on-delivery" order's amount changes after editing, the system pay
 
     ![Order details page: additional payment received](../../../assets/images/EC-訂單詳情頁-已收到補款.en.png){ title="Order Details Page: Additional Payment Received" }
 
-## FAQ
+## FAQ { #faq-order-edit }
 
 ??? quote "Why does the order discount change after I remove a product variant?"
 	When you remove an "entire product variant" from the order, the discount allocated to that product is removed too, so the total discount decreases.

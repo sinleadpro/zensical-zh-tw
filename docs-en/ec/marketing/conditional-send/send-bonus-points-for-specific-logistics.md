@@ -73,7 +73,7 @@ Use the Bonus Points for Specific Shipping Methods tool to reward bonus points f
     - **Ease peak-season load**: During big sales, use bonus points to steer customers away from home delivery and reduce shipping backlogs.
 
 
-## Before You Start
+## Before You Start { #prerequisites-conditional }
 
 Before you set up shipping bonus points, make sure you understand these key rules:
 
@@ -82,14 +82,14 @@ Before you set up shipping bonus points, make sure you understand these key rule
 - **Multiple Collections**: If a shipping method is in more than one active Shipping Bonus Collections group, the system checks all of them and gives the bonus points set in each Collections group.
 
 
-## Steps
+## Steps { #operate-conditional }
 
-### Step 1: Add Shipping Bonus Collections
+### Step 1: Add Shipping Bonus Collections { #operate-conditional-add-bonus }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Bonus for Specific Shipping**.
 2. Enter the Collections Name and click **Add a new collection** on the right.
 
-### Step 2: Set The Collections Basic Rules
+### Step 2: Set The Collections Basic Rules { #operate-conditional-settings-rules }
 
 Click the new Collections and fill in the following in the settings area below:
 
@@ -99,7 +99,7 @@ Click the new Collections and fill in the following in the settings area below:
   > Points must be a **positive whole number**. If you set the validity days to `0`, the points never expire.
 4. **Validity**: Enter how many days the bonus points can be used.
 
-### Step 3: Select And Add Shipping Methods
+### Step 3: Select And Add Shipping Methods { #operate-conditional-intro-details }
 
 1. In the **Search and Select Shipping** area on the left, type a shipping method Name in the search box (such as "convenience store").
 2. Select the shipping methods to add to this Collections.
@@ -108,7 +108,7 @@ Click the new Collections and fill in the following in the settings area below:
 
 ![](../../../assets/images/EC-後台-行銷活動-指定物流送紅利-設定群組與選擇商品01.png){ .screenshot }
 
-## FAQ
+## FAQ { #faq-conditional }
 
 ??? quote "Why can't I find a shipping method in the list on the left?"
     Check whether the shipping method is turned on. If it isn't, it won't appear in the list.
@@ -119,7 +119,7 @@ Click the new Collections and fill in the following in the settings area below:
 ??? quote "Can I give shipping bonus points only above a minimum spend?"
     No. Bonus Points for Specific Shipping Methods gives a fixed number of points with no threshold whenever the shipping method is chosen. If you need a spending threshold, use Bonus Points for Specific Products instead and explain it in your promotion copy.
 
-## More Actions
+## More Actions { #operate-conditional-operate }
 
 <div class="grid cards" markdown>
 

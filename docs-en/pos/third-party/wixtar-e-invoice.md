@@ -70,22 +70,22 @@ Learn how CYBERBIZ POS connects with Wixtar e-invoicing. This covers plan fee ca
 { .doc-badge }
 
 
-## Usage Notes
+## Usage Notes { #prerequisites-wixtar-einvoice }
 
 - **Name change**: Meili Technology was renamed **Wixtar** in May 2024. The system interface and this document both use the new name.
 - **Payment restriction**: Only **credit card payment** is supported.
 - **Invoice range pre-fetching**: To prevent invoicing failures caused by unstable networks, the system pre-fetches invoice number ranges to each POS terminal based on average usage. Pre-fetched ranges cannot be transferred to other POS terminals or the EC storefront. For special requirements, contact customer support. Fees may apply depending on the adjustment.
 - **Check before importing invoice ranges**: Before you import invoice number ranges, **be sure to confirm that the range is not already in use on another value-added center platform**. If an incorrect range causes **duplicate invoices**, the system cannot help with reissuing or voiding them. **Merchants must contact the National Taxation Bureau and handle the matter according to applicable regulations.**
 
-## Plan Pricing
+## Plan Pricing { #specs-wixtar-einvoice-fees-fees }
 
-### Base Plan Details
+### Base Plan Details { #specs-wixtar-einvoice-fees-basic-plan }
 
   - A Wixtar account is created per Unified Business Number (UBN). After you purchase a plan with your company UBN, the system automatically activates the corresponding account, and you can use the invoicing feature.
   - One Wixtar account supports multiple EC storefronts, 2 POS terminals, and other sales channels.
 
 
-### Add-On POS Terminal Fee Calculation
+### Add-On POS Terminal Fee Calculation { #specs-wixtar-einvoice-fees-addon-fees }
 
   Add-on POS terminals are billed by combining pricing tiers with remaining months until expiry. The basic rules are as follows:
 
@@ -104,13 +104,13 @@ Learn how CYBERBIZ POS connects with Wixtar e-invoicing. This covers plan fee ca
         - **Scenario B (activated at the start of the month)**:
           If you activate a terminal on **Aug 1**, the full month of August is used, so billing starts in August. Billing runs from Aug 1 through Dec 31, and the remaining months are **5 months**.
 
-### Checkout Amount Calculation
+### Checkout Amount Calculation { #specs-wixtar-einvoice-fees-checkout-total }
 
   - If you already purchased a Wixtar plan, the plan includes 2 POS terminals. If you need additional POS terminals, **you only need to pay the add-on POS terminal fee**.
   - If you have not purchased a Wixtar plan, you must purchase one. If you also need additional POS terminals, the total amount is **plan fee + add-on POS terminal fee**.
 
 
-### Scenario Examples
+### Scenario Examples { #specs-wixtar-einvoice-fees-examples }
 
 1. **First purchase** (apply for the base plan and add 1 terminal)
 
@@ -138,9 +138,9 @@ Learn how CYBERBIZ POS connects with Wixtar e-invoicing. This covers plan fee ca
     - **Access granted**: After payment, the system unlocks terminals 5 and 6 together, so the merchant gets access to both.
 
 
-## Operating Procedure
+## Operating Procedure { #operate-wixtar-einvoice }
 
-### Step 1: Set up POS Invoice Settings in the Back Office
+### Step 1: Set up POS Invoice Settings in the Back Office { #operate-wixtar-einvoice-step-a-admin }
 
 Before purchasing a plan, you must first complete the initial setup of the invoice machine and service provider on the designated POS host.
 
@@ -152,7 +152,7 @@ Before purchasing a plan, you must first complete the initial setup of the invoi
 
 	  ![](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技01.png){ .small-image }
 
-### Step 2: Purchase Wixtar POS Terminal Licenses
+### Step 2: Purchase Wixtar POS Terminal Licenses { #operate-wixtar-einvoice-step-b-pos }
 
 After completing the initial setup, purchase the corresponding terminal licenses.
 
@@ -172,7 +172,7 @@ After completing the initial setup, purchase the corresponding terminal licenses
 
 	  ![](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技04.png){ .screenshot }
 
-### Step 3: Connect and Activate
+### Step 3: Connect and Activate { #operate-wixtar-einvoice-step-c-enable }
 
 After payment, get the authentication information from Wixtar and enter it in the CYBERBIZ admin panel.
 
@@ -195,13 +195,10 @@ The system pre-fills the "Store Code," "POS Machine Code," "POS Serial Number (P
 	  ![](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技07.png){ .small-image }
 
 
-## FAQ
+## FAQ { #faq-wixtar-einvoice }
 
 ??? quote "If the network is unstable, can POS still issue invoices?"
     Yes. The system pre-fetches invoice number ranges to each POS terminal so invoicing still works normally when offline or the network is unstable.
-
-??? quote "How long after purchase is the service activated?"
-    After payment, CYBERBIZ sends your information to Wixtar. A Wixtar representative will then contact you to help with activation. Processing usually takes about 3-5 business days.
 
 ??? quote "Can POS invoice number ranges be transferred to the EC storefront?"
     No. Pre-fetched invoice number ranges on a POS terminal can only be used on that terminal. They cannot be transferred to other POS terminals or the EC storefront.

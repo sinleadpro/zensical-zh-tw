@@ -64,24 +64,24 @@ hide: []
 
 ![Manual asset sharing permissions](../../../../assets/images/ec-第三方整合-fb-mbs-手動分享權限.en.png){ .hero-page }
 
-## Share Assets with CYBERBIZ
+## Share Assets with CYBERBIZ { #operate-meta-assets }
 
 If you see **Ad Creation Failed** when you run Meta ads in the CYBERBIZ back office, you can fix the issue by manually sharing asset permissions with CYBERBIZ and then notifying customer service.
 
-## Prerequisites
+## Prerequisites { #prerequisites-meta-assets }
 
 Before you manually share assets, confirm the following:
 
 - [x] **Complete [Meta Ad Account Setup and Top-Up](create-meta-ad-account-top-up.md){ title="Create a Meta ad account and top up" }**: First, confirm that you have completed all steps in "Create a Meta ad account and top up."
-- [x] **Complete [Pixel Setup](create-meta-ad-account-top-up.md#像素設定-pixel){ title="Create a Meta ad account and top up" }**: Make sure you have completed the Pixel Setup step during ad account creation.
+- [x] **Complete [Pixel Setup](create-meta-ad-account-top-up.md#operate-meta-account-steps-settings-pixel){ title="Create a Meta ad account and top up" }**: Make sure you have completed the Pixel Setup step during ad account creation.
 - [x] **Share the correct assets**: First, complete [FBE Account Authorization and Asset Linking](../mbe/setup-fbe-authorization.md){ title="Set up FBE account authorization and asset linking" }, then confirm the specific assets you configured in "New Business Extensions" in the back office.
 
-## Steps to Manually Share Asset Permissions
+## Steps to Manually Share Asset Permissions { #operate-meta-assets-permissions }
 
 !!! warning "Verify Assets"
     Before assigning permissions, make sure the assets selected in Business Manager Settings match the details shown in [Business Extension Asset Linking](../mbe/setup-fbe-authorization.md){ title="Set up FBE account authorization and asset linking" }.
 
-### Share Facebook Page Permissions
+### Share Facebook Page Permissions { #operate-meta-assets-page }
 
 1. Log in to [Business Manager Settings](https://business.facebook.com/latest/settings), then in the left menu, click "Accounts" > **Fan Page**.
 2. Click **Assign Partner** > select **Business Manager ID**, then enter **CYBERBIZ Business Manager ID: `481801283092517`**.
@@ -91,7 +91,7 @@ Before you manually share assets, confirm the following:
 
 ---
 
-### Share Pixel Permissions
+### Share Pixel Permissions { #operate-meta-assets-pixel }
 
 1. Log in to [Business Manager Settings](https://business.facebook.com/latest/settings), then in the left menu, click "Data Sources" > **Datasets and Pixels**.
 2. Select the pixel you want to share, click **Assign Partner** > Select **Business Manager ID**, and enter **CYBERBIZ Business Manager ID: `481801283092517`**.
@@ -110,7 +110,7 @@ Before you manually share assets, confirm the following:
 
 ---
 
-### Share Catalog Permissions
+### Share Catalog Permissions { #operate-meta-assets-catalog }
 
 1. Log in to [Business Manager Settings](https://business.facebook.com/latest/settings), then in the left menu, click "Data Sources" > **Catalogs**.
 2. Click **Assign Partner** > select **Business Manager ID**, then enter **CYBERBIZ Business Manager ID: `481801283092517`**.
@@ -118,12 +118,12 @@ Before you manually share assets, confirm the following:
 
 ![MBS-Catalog Sharing Permissions](../../../../assets/images/ec-第三方整合-fb-mbs-目錄-分享權限.en.gif)
 
-## Complete Follow-Up Steps
+## Complete Follow-Up Steps { #intro-meta-assets }
 
 1.  **Notify customer service**: After manual sharing is complete, make sure to **notify CYBERBIZ customer service**.
 2.  **Wait for a response**: After CYBERBIZ completes the system-side follow-up and sends an official reply, you can try [Set Up a Meta Ad Campaign](setup-meta-ad-campaign.md){ title="Set up a Meta ad campaign" } again.
 
-## FAQ
+## FAQ { #faq-meta-assets }
 
 ??? quote "What should I do if the error "Partner Business Manager Relationship Already Established" appears when sharing permissions?"
 

@@ -71,7 +71,7 @@ hide: []
 
 ![Back-in-stock notifications](../../../assets/images/ec-product-restock-notification-hero.zh-tw.en.png){ title="Back-in-Stock Notifications" .hero-page }
 
-## About Back-in-Stock Notifications
+## About Back-in-Stock Notifications { #intro-restock }
 
 Back-in-stock notifications show a "Sold Out, Notify Me When Available" button for out-of-stock products on the storefront, and the system records each customer who clicks it. When the product is restocked, the system automatically emails the registered members. This helps you catch sales opportunities right after restocking and improves repeat purchases and the customer experience.
 
@@ -80,7 +80,7 @@ Back-in-stock notifications show a "Sold Out, Notify Me When Available" button f
     - For limited or seasonal products, use back-in-stock notifications to build anticipation and drive conversions.
     - Reduce customers lost to stockouts and turn waiting customers into real orders.
 
-## Requirements and Limits
+## Requirements and Limits { #prerequisites-restock }
 
 The following limits apply at the system level.
 
@@ -91,13 +91,13 @@ The following limits apply at the system level.
 
     Back-in-stock notifications are triggered under the following conditions:
 
-    - [x] The product must have [inventory management](#setup-restock-inventory-stop-selling) turned on, and its inventory must be `0`  
-    - [x] The out-of-stock setting must be [Stop selling](#setup-restock-inventory-stop-selling) for the storefront product page to show the **Sold Out, Notify Me When Available** button  
-    - [x] The product stock status must be set to [variants are clickable when out of stock](#setup-restock-variant-clickable). Only then does the **Notify Me When Available** option appear after a customer clicks a product variant.
+    - [x] The product must have [inventory management](#operate-restock-inventory) turned on, and its inventory must be `0`  
+    - [x] The out-of-stock setting must be [Stop selling](#operate-restock-inventory) for the storefront product page to show the **Sold Out, Notify Me When Available** button  
+    - [x] The product stock status must be set to [variants are clickable when out of stock](#operate-restock-variant). Only then does the **Notify Me When Available** option appear after a customer clicks a product variant.
 
-## Turn on Back-in-Stock Notifications
+## Turn on Back-in-Stock Notifications { #operate-restock }
 
-### Set up Inventory Management and Stop Selling { #setup-restock-inventory-stop-selling }
+### Set up Inventory Management and Stop Selling { #operate-restock-inventory }
 1. In the CYBERBIZ admin, go to **Products > All Products**.
 2. Click the name of the product you want to set up to open the product edit page.
 3. In the **Manage Variants** section, make sure **Inventory** is turned on, and set the **Insufficient Stock** option to *Stop selling* .
@@ -106,7 +106,7 @@ The following limits apply at the system level.
 
 ---
 
-### Make Variants Clickable When Out of Stock { #setup-restock-variant-clickable }
+### Make Variants Clickable When Out of Stock { #operate-restock-variant }
 
 === "Drag-and-Drop Theme"
 	1. In the CYBERBIZ admin, go to **Website Appearance > Theme Setting > Detail Settings > Product Page > Basic Settings**.
@@ -122,7 +122,7 @@ The following limits apply at the system level.
 
 ---
 
-### Members Sign up for Back-in-Stock Notifications
+### Members Sign up for Back-in-Stock Notifications { #operate-restock-register }
 
 !!! warning "Restock Notifications Are Sent Only Once"
     Each member receives only one restock notification. After it is sent, the member's restock sign-up is canceled automatically. If the product sells out again, the member must click the **Sold Out, Notify Me When Available** button again to sign up.
@@ -139,7 +139,7 @@ This section explains what customers do on the storefront and how the system res
 
 </div>
 
-## Back-in-Stock Notification Email Template Settings
+## Back-in-Stock Notification Email Template Settings { #operate-restock-email }
 
 Customize the email template for back-in-stock notifications.
 
@@ -159,7 +159,7 @@ Customize the email template for back-in-stock notifications.
 
 </div>
 
-## Next Steps
+## Next Steps { #next-steps-restock }
 
 <div class="grid cards" markdown>
 

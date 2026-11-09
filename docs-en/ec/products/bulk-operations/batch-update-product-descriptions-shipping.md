@@ -71,7 +71,7 @@ hide: []
 
 ![Bulk update product descriptions and shipping settings](../../../assets/images/ec-export-product-hero.zh-tw.en.png){ title="Bulk Update Product Descriptions and Shipping Settings" .hero-page }
 
-## About Bulk Updating Product Descriptions and Shipping
+## About Bulk Updating Product Descriptions and Shipping { #intro-batch-update }
 
 Export, edit, and upload an Excel file to update the descriptions, temperature zones, shipping methods, and sales channels of many products at once, without opening each product page. This saves a lot of manual maintenance time. Suitable scenarios include:
 
@@ -86,8 +86,8 @@ The process has three stages: **Export the product Excel** > **Edit the Excel** 
     - For the product shipping name, enter a logistics name already set up in the admin. Entering a logistics name that doesn't exist makes the import fail.
     - When uploading, the `商品 id` (product ID) and `商品款式 id` (product variant ID) columns must keep their system values to update existing products. If they are empty, the rows are treated as new products.
 
-## Steps
-### Export the Product Excel File
+## Steps { #operate-batch-update }
+### Export the Product Excel File { #operate-batch-update-export }
 
 === "Export Some Products"
 
@@ -97,7 +97,7 @@ The process has three stages: **Export the product Excel** > **Edit the Excel** 
 
 	!!! tip "Select Many Products Quickly"
 	    To select many products at once, first use *Advanced Search* to filter the products that match your criteria,
-	    then click the *"Selected products"* checkbox above the product list to select all products in the current filter results. For more search and filter options, see [Search Products](../create-and-manage/product-management-interface.md#How-Filters-Work){ title="Product Management Interface Overview" }.
+	    then click the *"Selected products"* checkbox above the product list to select all products in the current filter results. For more search and filter options, see [Search Products](../create-and-manage/product-management-interface.md#operate-product-ui-filter){ title="Product Management Interface Overview" }.
 
 
 === "Export All Products"
@@ -110,20 +110,20 @@ The process has three stages: **Export the product Excel** > **Edit the Excel** 
 
 ---
 
-### Edit the Excel File
+### Edit the Excel File { #operate-batch-update-edit }
 
 Open the downloaded product export Excel file and enter or change the product descriptions and shipping settings in the corresponding columns. For the actual admin settings and steps, see [Edit Product Descriptions and Product Settings](../create-and-manage/edit-product-description-settings.md){ title="Edit Product Descriptions and Product Settings" }.
 
 ---
 
-#### Product Description
+#### Product Description { #operate-batch-update-description }
 
 - The product description page has three sections: "Product Introduction", "Product Specifications", and "Delivery Type". Enter the content in the matching "Product Introduction", "Product Specifications", and "Delivery Type" columns of the Excel file.
 - To check how the column content appears in the admin, go to **Products > All Products**, click a product, and open the **Product Description** tab.
 
 ---
 
-#### Product Channel
+#### Product Channel { #operate-batch-update-channel }
 
 - Enter the product's fulfillment channel name. If you enter a channel the store doesn't have yet, the system treats it as a **new channel**.
 - Leave it empty to **apply to all channels**.
@@ -133,19 +133,19 @@ Open the downloaded product export Excel file and enter or change the product de
 
 ---
 
-#### Product Temperature Zone
+#### Product Temperature Zone { #operate-batch-update-temp }
 - Enter `常溫` (room temperature), `冷藏` (refrigerated), or `冷凍` (frozen).
 - Leave it empty to **default to room temperature**.
 - You can select multiple temperature zone values. Separate them with **half-width commas (,)**, for example: `常溫,冷藏,冷凍`.
 
 ---
 
-#### Product Shipping Name
+#### Product Shipping Name { #operate-batch-update-ship-name }
 - Enter the shipping logistics name. Do not enter logistics names that are not set up in the admin.
 - You can select multiple logistics options. Separate them with **half-width commas (,)**, for example: `黑貓,宅配通`.
 - Leave it empty to **apply to all shipping methods**.
 
-## Upload the Excel File
+## Upload the Excel File { #operate-batch-update-upload }
 	
 1. Log in to the CYBERBIZ admin and go to **Products > Import Products from Excel**.
 2. Upload the edited Excel file.
@@ -153,9 +153,9 @@ Open the downloaded product export Excel file and enter or change the product de
 ![Upload the Excel file](../../../assets/images/ec-upload-product-excel.zh-tw.en.png){ title="Upload the Excel File" }
 
 !!! info "Rules for Updating and Adding Products"
-    In the uploaded Excel file, the `商品 id` and `商品款式 id` columns must contain existing system values to *update existing products*. If the columns are empty, the system automatically *adds new products*. For details and examples, see [Differences Between Adding and Updating Products](excel-import-products.md#determine-add-or-update){ title="Import Products in Bulk from Excel" }.
+    In the uploaded Excel file, the `商品 id` and `商品款式 id` columns must contain existing system values to *update existing products*. If the columns are empty, the system automatically *adds new products*. For details and examples, see [Differences Between Adding and Updating Products](excel-import-products.md#operate-excel-import-add-update){ title="Import Products in Bulk from Excel" }.
 
-## Wait for the Import Notification
+## Wait for the Import Notification { #operate-batch-update-notify }
 
 === ":material-progress-check: Data Import in Progress"
     If the format is correct, you receive a "Data import in progress" email notification.
@@ -188,4 +188,3 @@ After the bulk update, we recommend reading the following documents to understan
 
 </div>
 
-## FAQ

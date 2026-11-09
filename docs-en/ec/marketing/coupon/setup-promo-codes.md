@@ -81,7 +81,7 @@ Set up promo codes (discount, free shipping, and gift), including basic settings
 	- **Fewer abandoned carts**: Turn on automatic promo code application so customers see the discount at checkout.
 
 
-## Before You Start
+## Before You Start { #prerequisites-coupon }
 
 - **Not tied to accounts**: Promo codes aren't credited to member accounts. Any member with the code can apply it at checkout.
 - **Not case-sensitive**: Promo codes ignore letter case, so they're easy to enter.
@@ -89,9 +89,9 @@ Set up promo codes (discount, free shipping, and gift), including basic settings
 - **Code format**: 8 uppercase letters and numbers. A member account can't hold two identical codes.
 
 
-## Steps
+## Steps { #operate-coupon }
 
-### 1. Add A Promo Code
+### 1. Add A Promo Code { #operate-coupon-add-promotion }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Coupons**.
 2. Click **Create New Storewide Coupon**.
@@ -152,7 +152,7 @@ Set up promo codes (discount, free shipping, and gift), including basic settings
 
 
 
-### 2. Create Promo Codes In Bulk
+### 2. Create Promo Codes In Bulk { #operate-coupon-create-promotion }
 
 To create many storewide promo codes at once (**discount or free shipping only**), use bulk import.
 
@@ -166,9 +166,9 @@ To create many storewide promo codes at once (**discount or free shipping only**
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠碼17.png){ .screenshot }
 
-## Advanced Settings
+## Advanced Settings { #operate-coupon-settings }
 
-### Supported Promo Code Types
+### Supported Promo Code Types { #operate-coupon-settings-promotion }
 
 These settings apply only to **storewide promo codes**, not to **member-only promo codes** or **coupons**:
 
@@ -179,7 +179,7 @@ These settings apply only to **storewide promo codes**, not to **member-only pro
 | **coupon** | Added in **Marketing > 全館折扣-紅利&優惠券** | Not supported |
 
 
-### Auto-Apply Promo Codes At Checkout
+### Auto-Apply Promo Codes At Checkout { #operate-promo-codes-auto-apply }
 
 This feature applies promo codes to qualifying orders automatically, so customers don't have to enter them.
 
@@ -199,13 +199,13 @@ This feature applies promo codes to qualifying orders automatically, so customer
     - **Trigger**: Auto-apply still triggers even if the cart already has a promo code.
     - **Quantity limit**: The number of codes applied is limited by the "Coupon usage limit per order" setting.
 
-#### Before You Start
+#### Before You Start { #operate-coupon-settings-requirements }
 
 - This feature only works on the online store checkout page, **not one-page stores**.
 - Supports discount, free shipping, and gift codes.
 - Works with both "Quick Checkout and Register" and "Registration Required" sign-up methods.
 
-#### Steps
+#### Steps { #operate-coupon-settings-settings-step }
 
 1. Go to **Payment and Logistics > Checkout Page & Logistics > 結帳頁優惠券設定**.
 2. Turn on **Auto-Apply Promo Codes**.
@@ -216,16 +216,16 @@ This feature applies promo codes to qualifying orders automatically, so customer
 
 
 
-### Edit An Active Promo Code { #edit-ongoing-coupon }
+### Edit An Active Promo Code { #operate-coupon-edit-ongoing }
 
-#### Before You Start
+#### Before You Start { #operate-coupon-settings-details }
 
 - This feature is for **EC promo codes** only, not POS promo codes.
 
 !!! note "Plan Availability"
     This feature is available on **Enterprise Plan** only.
 
-#### Editable Fields
+#### Editable Fields { #operate-coupon-settings-edit-fields }
 
 - Promo code name
 - Promotion end time
@@ -239,7 +239,7 @@ This feature applies promo codes to qualifying orders automatically, so customer
             - **Change "Unlimited" to a set quantity**: Once a promotion is unlimited, you can't add a limit.
 
 
-#### View Edit History
+#### View Edit History { #operate-coupon-settings-view-edit }
 
 See the edit history at the bottom of the edit page:
 
@@ -251,14 +251,14 @@ See the edit history at the bottom of the edit page:
 
 
 
-## FAQ
+## FAQ { #faq-coupon }
 
 ??? quote "Can I limit a promo code to new members only?"
     Promo codes aren't tied to accounts, so you can't limit them to new or existing members. To target specific customers, send a "personal coupon" to their member accounts.
 
 
 
-## More Actions
+## More Actions { #operate-coupon-operate }
 
 <div class="grid cards" markdown>
 

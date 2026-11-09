@@ -2,7 +2,7 @@
 title: "Set up Member Security and Website Protection"
 description: "Manage member password strength, personal data masking, and region blocklists, and protect your storefront with a password to secure customer data and website access."
 created: 2026-08-12 10:59
-last_modified: 2026-08-12 10:59
+last_modified: 2026-10-23 10:30
 lang: en-US
 type: guide
 status: ""
@@ -35,12 +35,14 @@ features:
   - 會員密碼規則
   - 會員個資部分隱碼
   - 訪問限制地區黑名單
+  - 跳轉至其他國家指定官網
 prerequisites:
   - 需具備「設置」權限
 related:
   - ec/website-management/admin-security-settings/
   - ec/website-management/bot-protection-settings/
   - ec/website-management/add-admin-set-permissions/
+  - ec/website-management/setup-country-site-redirect/
 tags:
   - "Member Security"
   - 網站密碼
@@ -162,5 +164,11 @@ Block customers in specific regions from visiting your storefront. This is often
 3. **Save:** Click **Save** to apply. After you save, customers in the listed regions can no longer visit your storefront.
 
 ![Location blacklist](../../assets/images/ec-管理中心-安全性設定-會員登入-訪問限制地區黑名單.en.png)
+
+### Redirect to Other Country Websites { #operate-security-country-redirect }
+
+If you run websites for several countries, you can show a notice bar on your storefront based on the country of the customer's IP address, guiding customers to the matching website. The system doesn't redirect customers automatically. Customers must click **Go to** themselves.
+
+For the full steps, storefront display, and FAQs, see [Redirect Shoppers to a Country-Specific Online Store](setup-country-site-redirect.md).
 
 

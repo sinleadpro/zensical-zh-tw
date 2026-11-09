@@ -71,7 +71,7 @@ hide:
 
 ![Convenience store Return Service C2B](../../../assets/images/ec-logistics-cvs-c2b-return.en.png){ title="Convenience Store Return Service C2B" .hero-page }
 
-## About Convenience Store Pickup Return Service (C2B)
+## About Convenience Store Pickup Return Service (C2B) { #intro-cvs-c2b-return }
 
 **Convenience store pickup Return Service (C2B)** lets shoppers send return packages back to you through **7-Eleven stores**.
 
@@ -92,7 +92,7 @@ hide:
         end
     ```
 
-## Prerequisites and Limitations
+## Prerequisites and Limitations { #prerequisites-cvs-c2b-return }
 
 - [x] **Plan limits:** This feature is mainly for **Enterprise** or **Expert PLUS** merchants.
 - [x] **Requirements:** To use 7-Eleven C2B Return Service, you must first [apply for Convenience Store B2C Bulk Shipping](../../payments-and-logistics/setup-cvs-b2c-bulk-shipping.md).
@@ -102,9 +102,9 @@ hide:
 
 [^code-valid]: For example, if you create a Return Service code on July 1, it's valid through July 7 (7 days including the request day).
 
-## Steps
+## Steps { #operate-cvs-c2b-return }
 
-### Step 1: Set Who Pays in the Admin
+### Step 1: Set Who Pays in the Admin { #operate-cvs-c2b-return-setup }
 
 First decide who pays the return shipping fee. To set it:
 
@@ -118,7 +118,7 @@ First decide who pays the return shipping fee. To set it:
 
 ---
 
-### Step 2: Create and Send the Code in the Admin
+### Step 2: Create and Send the Code in the Admin { #operate-cvs-c2b-return-send-code }
 
 After a customer requests a return, create a code as follows:
 
@@ -136,7 +136,7 @@ After a customer requests a return, create a code as follows:
 
 ---
 
-### Step 3: Shopper Sends the Package
+### Step 3: Shopper Sends the Package { #operate-cvs-c2b-return-customer }
 
 1. After receiving the Return Service code, the shopper packs the items.
 2. At a 7-Eleven store, the shopper uses the **ibon kiosk** and enters the code to print the Return Service form (shipping label).
@@ -146,7 +146,7 @@ After a customer requests a return, create a code as follows:
 
 ---
 
-### Step 4: Inspect and Refund
+### Step 4: Inspect and Refund { #operate-cvs-c2b-return-inspect }
 
 • **Package return:** The convenience store sends the return package to the main warehouse, and the system sends a **CYBERBIZ 7-Eleven Return Service Arrival Notice** email telling you to pick it up.
 • **Inspection:** After you receive the package, change the order's delivery status to **Reviewing Return** to inspect it.
@@ -154,7 +154,7 @@ After a customer requests a return, create a code as follows:
 
 !!! info "To change the order's delivery status, see [Order Return Process](../order-return-process.md)."
 
-## Next Steps
+## Next Steps { #next-steps-cvs-c2b-return }
 
 <div class="grid cards" markdown>
 
@@ -168,7 +168,7 @@ After a customer requests a return, create a code as follows:
 
 </div>
 
-## FAQ
+## FAQ { #faq-cvs-c2b-return }
 
 ??? quote "How do shoppers request convenience store Return Service?"  
 	After the shopper requests a return from you, you create a Return Service code in the admin and notify the shopper.

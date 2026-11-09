@@ -91,7 +91,7 @@ A notice at the top of the page shows the **Current CYBERBIZ Coin** balance[^1] 
 
 ## Steps { #operate-sf-waybill }
 
-### SF Express Settings { #configure-sf-waybill-sender }
+### SF Express Settings { #operate-sf-sender-settings }
 
 Complete this section before first use. The sender information is printed on every SF Express waybill.
 
@@ -140,7 +140,7 @@ Use this feature when you need to generate an additional waybill for a **single 
 
 ---
 
-### Waybill Number Usage Log { #sf-waybill-history }
+### Waybill Number Usage Log { #reference-sf-waybill-history }
 
 The "Waybill Number Usage Log" table at the bottom of the page lists all SF Express waybills generated for this store. Records are sorted by **creation time, newest first**.
 

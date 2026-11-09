@@ -78,18 +78,18 @@ hide: []
 
 ![Create Meta ad campaign](../../../../assets/images/ec-第三方整合-fb-meta廣告-創建廣告活動.en.png){ .hero-page }
 
-## Meta Ad Campaign Setup Guide
+## Meta Ad Campaign Setup Guide { #operate-meta-campaign }
 
 Set up your Meta ad campaign in the CYBERBIZ admin. With this integration, you can manage ad budgets, targets, and creative assets directly, without frequently switching to the Meta platform.
 
-## Prerequisites and Limitations
+## Prerequisites and Limitations { #prerequisites-meta-campaign }
 
 Before you begin, confirm that you have completed the following prerequisites:
 
 - [x] **Reconnect [Facebook Business Extension](../mbe/setup-fbe-authorization.md){ title="Set up FBE account authorization and asset linking" }**: Due to Meta system updates, merchants should reconnect once to ensure data syncs correctly.
 - [x] **Complete [Ad Account Creation and Top-Up](create-meta-ad-account-top-up.md){ title="Create a Meta ad account and add funds" }**: You must first apply for an ad account. Ads can run only after you add funds.
 
-## Create Ad Campaign Workflow
+## Create Ad Campaign Workflow { #operate-meta-campaign-ads-flow }
 
 1. **Open Meta Ads App**: Log in to the CYBERBIZ admin, then go to **Third-Party Integration > Facebook Settings > Campaign Settings**.
 
@@ -104,9 +104,9 @@ Before you begin, confirm that you have completed the following prerequisites:
 
     <div class="grid cards" markdown>
 
-    - :lucide-goal: [Campaign Objective Settings](#活動目標設定){data-preview }  
-    - :lucide-calendar: [Campaign Content Settings](#活動內容設定){ data-preview }  
-    - :lucide-image-play: [Ad Creative Settings](#廣告創意設定){ data-preview }  
+    - :lucide-goal: [Campaign Objective Settings](#operate-meta-campaign-ads-flow-settings){data-preview }
+    - :lucide-calendar: [Campaign Content Settings](#operate-meta-campaign-ads-flow-content-settings){ data-preview }
+    - :lucide-image-play: [Ad Creative Settings](#operate-meta-campaign-ads-flow-ads-settings){ data-preview }
 
     </div>
 
@@ -114,7 +114,7 @@ Before you begin, confirm that you have completed the following prerequisites:
 
 ---
 
-### Campaign Objective Settings
+### Campaign Objective Settings { #operate-meta-campaign-ads-flow-settings }
 
 Choose a campaign objective based on your brand's current stage and marketing needs:
 
@@ -134,14 +134,14 @@ Choose a campaign objective based on your brand's current stage and marketing ne
 
 ---
 
-### Campaign Content Settings
+### Campaign Content Settings { #operate-meta-campaign-ads-flow-content-settings }
 
 Set the ad name, daily budget, and delivery start and end times.
 
 | Field name | Description | Notes |
 | :--- | :--- | :--- |
 | **Campaign Name** | We recommend including the date and product name for easy reference later. | Required |
-| **Daily Budget** | - [Beginners: never run ads](meta-ad-daily-budget-guide.md#未投放過廣告的商家-新手){ title="Meta Ad Daily Budget Guide" }<br>- [Merchants with a known average CPA](meta-ad-daily-budget-guide.md#已投放過廣告的商家-已知平均-cpa){ title="Meta Ad Daily Budget Guide" }. | Required |
+| **Daily Budget** | - [Beginners: never run ads](meta-ad-daily-budget-guide.md#intro-meta-budget-ads){ title="Meta Ad Daily Budget Guide" }<br>- [Merchants with a known average CPA](meta-ad-daily-budget-guide.md#intro-meta-budget-ads-cpa){ title="Meta Ad Daily Budget Guide" }. | Required |
 | **Start Time** | Starts immediately by default. You can also schedule a start time. | — |
 | **End Time** | Runs continuously by default. You can also set an estimated end date. | — |
 
@@ -156,7 +156,7 @@ Set the ad name, daily budget, and delivery start and end times.
 
 ---
 
-### Ad Creative Settings
+### Ad Creative Settings { #operate-meta-campaign-ads-flow-ads-settings }
 
 Set up ad assets and copy. A single campaign can have up to 20 ad creatives.
 
@@ -164,7 +164,7 @@ Set up ad assets and copy. A single campaign can have up to 20 ad creatives.
 | Field name | Setting description | Notes / Related features |
 | :--- | :--- | :--- |
 | **Ad name** | Enter the ad creative name. | For internal management |
-| **Creative source** | Options depend on the selected **Campaign Objective**:<br>- **Sales ads**: Choose **Catalog** or **Single image**.<br>- **Traffic ads**: Default is **Image**.<br> [See differences in ad display](#廣告呈現效果){ data-preview } | **Catalog**: Pulls data from [Pixel Settings](create-meta-ad-account-top-up.md#像素設定-pixel){ title="Pixel Settings" }.<br>**PLUS/Enterprise** For merchants who have [uploaded product videos](../../../products/create-and-manage/setup-product-videos.md){ title="Set product videos" } and [synced the catalog](sync-product-videos-meta-catalog.md){ title="Sync product videos to the Meta catalog" }, ads rotate videos and product images in a carousel. |
+| **Creative source** | Options depend on the selected **Campaign Objective**:<br>- **Sales ads**: Choose **Catalog** or **Single image**.<br>- **Traffic ads**: Default is **Image**.<br> [See differences in ad display](#intro-meta-campaign){ data-preview } | **Catalog**: Pulls data from [Pixel Settings](create-meta-ad-account-top-up.md#operate-meta-account-steps-settings-pixel){ title="Pixel Settings" }.<br>**PLUS/Enterprise** For merchants who have [uploaded product videos](../../../products/create-and-manage/setup-product-videos.md){ title="Set product videos" } and [synced the catalog](sync-product-videos-meta-catalog.md){ title="Sync product videos to the Meta catalog" }, ads rotate videos and product images in a carousel. |
 | **Enter Ad Copy** | Enter **Primary Text**, **Headline**, and **Description**. |  |
 | **Call to Action** | Set the button text on the ad (for example, Buy Now, Shop Now, or Learn More). | We recommend choosing based on your marketing goal |
 | **Catalog product set** | Select the [catalog product set](setup-meta-ad-catalog-sets.md){ title="Set the Meta ad catalog product set" } for the ads to run. You can use pre-created product collections for precise targeting. | ※ Only products with a status of Public and that are Listed are supported.<br>※ Products tagged "Gift" or "Exclude product feed" cannot be selected. |
@@ -179,7 +179,7 @@ Set up ad assets and copy. A single campaign can have up to 20 ad creatives.
 
     ![Ad creative settings - sales objective](../../../../assets/images/ec-appmarket-maa-廣告創意設定-銷售量目標.en.png)
 
-## Ad Display Effects
+## Ad Display Effects { #intro-meta-campaign }
 
 === "Catalog Type"
 
@@ -194,13 +194,13 @@ Set up ad assets and copy. A single campaign can have up to 20 ad creatives.
 
     </div>
 
-## Manage Ad Campaigns
+## Manage Ad Campaigns { #operate-meta-campaign-manage-ads }
 
-After you finish [creating](#創建廣告活動流程){ data-preview }, view all created campaigns in the list under **Campaign Settings** and manage them day to day.
+After you finish [creating](#operate-meta-campaign-ads-flow){ data-preview }, view all created campaigns in the list under **Campaign Settings** and manage them day to day.
 
 ![MAA - Ad campaign list](../../../../assets/images/ec-maa-廣告活動列表.en.png)
 
-### Adjust Delivery Status
+### Adjust Delivery Status { #operate-meta-campaign-manage-ads-status }
 
 You can turn ad delivery on or off at any time with the toggle on the far left of the list:
 
@@ -214,16 +214,16 @@ You can turn ad delivery on or off at any time with the toggle on the far left o
 
 ---
 
-### Edit and View Details
+### Edit and View Details { #operate-meta-campaign-manage-ads-edit-view }
 
 Click **Campaign Name** to reopen the editor and adjust the budget, schedule, or ad creative copy.
 
 ![MAA - Ad name](../../../../assets/images/ec-maa-廣告活動列表-廣告名稱.en.png)
 
 !!! info "More Ad List Field Information"
-    For detailed definitions and data interpretation of list metrics (such as ROAS, CTR, and frequency), see [Ad Campaign List Field Descriptions](meta-ad-performance-analysis.md#廣告活動列表欄位說明){ title="Meta Ad Performance Analysis" } documentation.
+    For detailed definitions and data interpretation of list metrics (such as ROAS, CTR, and frequency), see [Ad Campaign List Field Descriptions](meta-ad-performance-analysis.md#reference-meta-performance){ title="Meta Ad Performance Analysis" } documentation.
 
-## Troubleshooting
+## Troubleshooting { #intro-meta-campaign-overview-meta-campaign }
 
 <div class="grid cards" markdown>
 
@@ -233,7 +233,7 @@ Click **Campaign Name** to reopen the editor and adjust the budget, schedule, or
 
 </div>
 
-## Next Steps
+## Next Steps { #next-steps-meta-campaign }
 
 <div class="grid cards" markdown>
 
@@ -244,7 +244,7 @@ Click **Campaign Name** to reopen the editor and adjust the budget, schedule, or
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-meta-campaign }
 
 ??? quote "Who is the ad audience?"
 

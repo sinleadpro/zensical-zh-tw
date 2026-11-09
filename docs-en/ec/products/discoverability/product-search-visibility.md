@@ -64,7 +64,7 @@ permalink: "https://help.cyberbiz.io/ec/products/discoverability/product-search-
 
 ![Product search visibility settings](../../../assets/images/ec-product-search-toggle.zh-tw.en.png){ title="Product Search Visibility Settings" .hero-page }
 
-## Compare Product Visibility Statuses
+## Compare Product Visibility Statuses { #specs-search-visibility }
 
 Product search visibility has three main statuses. Choose the one that fits your needs:
 
@@ -78,7 +78,7 @@ Product search visibility has three main statuses. Choose the one that fits your
     Use "Exclude from search" to hide products for a short time or while preparing a campaign. Use "Delist" to pause sales. Use "Unpublished" for products limited to specific groups or channels.
 
 
-## Effects of Excluding Products from Search
+## Effects of Excluding Products from Search { #intro-search-visibility }
 
 After you turn on search exclusion, the product does not appear on the following result pages:
 	
@@ -88,11 +88,11 @@ After you turn on search exclusion, the product does not appear on the following
 - Category pages :lucide-triangle-alert: If the product has been added to a specific category, it still appears
 
 
-## Where to Exclude Products from Search
+## Where to Exclude Products from Search { #operate-search-visibility }
 
 You can set product search exclusion in the following places:
 
-### All Products Page
+### All Products Page { #operate-search-visibility-list }
 
 On the product list page, quickly switch the search status of individual products.
 
@@ -107,7 +107,7 @@ On the product list page, quickly switch the search status of individual product
 
 ---
 
-### Add or Edit Product Page
+### Add or Edit Product Page { #operate-search-visibility-edit }
 
 When you add or edit a product, set its default search status.
 
@@ -122,7 +122,7 @@ When you add or edit a product, set its default search status.
 
 ---
 
-### Product Actions Menu
+### Product Actions Menu { #operate-search-visibility-menu }
 
 Select one or more products and change their search status from the actions menu.
 
@@ -135,7 +135,7 @@ Select one or more products and change their search status from the actions menu
 
 ---
 
-### Excel Batch Import
+### Excel Batch Import { #operate-search-visibility-excel }
 
 When you need to add or update many products, set the search status with the Excel template.
 
@@ -147,7 +147,7 @@ When you need to add or update many products, set the search status with the Exc
 
   ![Exclude from search setting in Excel import](../../../assets/images/ec-import-from-excel-if-exclude-search.en.png){ title="Exclude from Search Setting in Excel Import" }
 	
-## FAQ
+## FAQ { #faq-search-visibility }
 
 ??? quote "Can customers still buy a product after it is excluded from search?"
     Yes. Excluding a product from search only hides it from search results. Customers can still open the product through its **product link** and complete the purchase.

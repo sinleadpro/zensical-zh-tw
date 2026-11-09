@@ -72,7 +72,7 @@ hide:
 
 ![CVS Shipping C2C](../../assets/images/ec-金物流-超商物流.en.png){ title="CVS Shipping C2C" .hero-page }
 
-## CVS Store-to-Store Shipping (C2C) Overview
+## CVS Store-to-Store Shipping (C2C) Overview { #intro-cvs-c2c }
 
 **CVS store-to-store (C2C)** is a shipping method in which the merchant packs the product and drops it off at a nearby convenience store. The package is then delivered to the store the customer selects for pickup.
 
@@ -84,7 +84,7 @@ hide:
 
 !!! info "This service applies to the shipping model in which merchants drop off shipments at a convenience store themselves. If you use a logistics provider for home pickup, use a different shipping option."
 
-### Supported Logistics Services
+### Supported Logistics Services { #intro-cvs-c2c-services }
 
 CYBERBIZ currently supports the following CVS store-to-store logistics services:
 
@@ -93,9 +93,9 @@ CYBERBIZ currently supports the following CVS store-to-store logistics services:
 - [x] **Hi-Life Store Pickup**
 - [x] **Black Cat Quick Store Pickup** (provides convenience store pickup, not traditional home delivery)
 
-## Setup Steps
+## Setup Steps { #operate-cvs-c2c }
 
-### Step 1: Select a Logistics Service
+### Step 1: Select a Logistics Service { #operate-cvs-c2c-select }
 
 1. Log in to the **CYBERBIZ Admin Panel** and go to **Payment and Logistics > Convenience Store Logistics**.
 2. Find the logistics service you want to enable, and click the edit button :material-file-document-edit-outline: to open its settings page.
@@ -104,7 +104,7 @@ CYBERBIZ currently supports the following CVS store-to-store logistics services:
 
 ---
 
-### Step 2: Enter Basic Information
+### Step 2: Enter Basic Information { #operate-cvs-c2c-basic }
 
 1. **Agree to the terms of service**: Select **I have read the logistics integration provider terms** before you can use the service.
 
@@ -125,14 +125,14 @@ CYBERBIZ currently supports the following CVS store-to-store logistics services:
 ![CVS Logistics Settings](../../assets/images/ec-金物流-超商物流-設定.en.png){ title="CVS Logistics Settings" }
 
 
-## How the Storefront Displays CVS Pickup Options
+## How the Storefront Displays CVS Pickup Options { #specs-cvs-c2c-storefront }
 
 The following example uses **Hi-Life Store Pickup** to show what customers see when they select convenience store pickup at checkout:
 
 ![Storefront CVS Pickup Display](../../assets/images/ec-金物流-超商物流-萊爾富前台顯示.en.png){ title="Storefront CVS Pickup Display" }
 
 
-## Next Steps
+## Next Steps { #next-steps-cvs-c2c }
 
 <div class="grid cards" markdown>
 

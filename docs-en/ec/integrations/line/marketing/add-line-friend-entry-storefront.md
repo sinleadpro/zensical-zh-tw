@@ -70,13 +70,13 @@ hide:
 
 ![LINE Official Account add-friend tool](../../../../assets/images/ec-第三方整合-line-官方加入好友工具.en.png){ .hero-page title="LINE Official Account add-friend tool" }
 
-## Add-Friend Tool Guide for Drag-and-Drop Templates
+## Add-Friend Tool Guide for Drag-and-Drop Templates { #overview-add-line }
 
 Merchants can use several built-in features to display LINE OA invitation information (such as links, QR codes, and images) on the storefront, improving brand loyalty and member engagement.
 
 The following guide explains how to set up the LINE OA add-friend tool for drag-and-drop templates:
 
-## Prerequisites: Get the LINE Friend Link
+## Prerequisites: Get the LINE Friend Link { #prerequisites-add-line }
 
 Before you start, get the LINE Official Account add-friend link and promotional materials.
 
@@ -86,9 +86,9 @@ Before you start, get the LINE Official Account add-friend link and promotional 
 	1. Log in to [**LINE Official Account Manager** :lucide-external-link:](https://manager.line.biz), and go to **Home > Increase Friends > Add Friend Tools**.
 	2. Here, you can copy **URL**, download the **QR Code**, or copy the syntax for the **Add Friend Button**.
 
-## Storefront Setup Methods
+## Storefront Setup Methods { #operate-add-line }
 
-### Right-Side Pop-up Ad <small>Pop-up Window</small>
+### Right-Side Pop-up Ad <small>Pop-up Window</small> { #operate-add-line-ads }
 
 This is the most direct way to guide customers to add you as a friend.
 
@@ -103,7 +103,7 @@ This is the most direct way to guide customers to add you as a friend.
 		![Pop-up Ad - Upload QR Code](../../../../assets/images/ec-網站外觀-彈窗廣告-圖片-line-oa-qrcode.en.gif){ title="Pop-up Ad - Upload QR Code" }
 
     3. **Thumbnail Setting**: Merchants can create their own thumbnails and resize them to fit the storefront display.
-    4. **Image Link**: Select External Link, and paste the [Friend URL copied from LINE Official Account Manager](../../../notifications/send-line-friend-invitation.md#get-line-oa-add-friend-link){ title="Send LINE add-friend invitation" }.
+    4. **Image Link**: Select External Link, and paste the [Friend URL copied from LINE Official Account Manager](../../../notifications/send-line-friend-invitation.md#operate-line-add-friend){ title="Send LINE add-friend invitation" }.
 
 		![Pop-up Ad - Image Link](../../../../assets/images/ec-網站外觀-彈窗廣告-圖片連結.en.png){ title="Pop-up Ad - Image Link" }
 
@@ -115,7 +115,7 @@ This is the most direct way to guide customers to add you as a friend.
 
 ---
 
-### Carousel Assets <small>Banner</small>
+### Carousel Assets <small>Banner</small> { #operate-add-line-banner }
 
 Use large homepage banner ads for visual promotion.
 
@@ -124,7 +124,7 @@ Use large homepage banner ads for visual promotion.
     1. Click **Add Block** and then click Edit.
     2. **Upload image**: Upload your designed LINE promotional image (the desktop image is required).
     3. **SEO Optimization**: Be sure to fill in the **Image Alt Text** to improve search engine performance.
-    4. **Display Duration**: In **Other Layout Settings**, you can [adjust the asset display seconds and margins](../../../website-appearance/theme-and-layout/setup-theme-page-settings.md#section-main-slider){ title="Page Settings Guide" }.
+    4. **Display Duration**: In **Other Layout Settings**, you can [adjust the asset display seconds and margins](../../../website-appearance/theme-and-layout/setup-theme-page-settings.md#operate-page-settings-slider){ title="Page Settings Guide" }.
 
 	![Carousel Asset - Add](../../../../assets/images/ec-網站外觀-輪播素材-新增.en.gif){ title="Carousel Asset - Add" }
 
@@ -132,11 +132,11 @@ Use large homepage banner ads for visual promotion.
 
 	![Carousel Asset - Storefront View](../../../../assets/images/ec-網站外觀-輪播素材-前台畫面.en.gif){ title="Carousel Asset - Storefront View" }
 
-!!! note "For more carousel asset settings, see [Carousel Asset Settings](../../../website-appearance/theme-and-layout/setup-theme-page-settings.md#section-main-slider){ title="Page Settings Guide" }."
+!!! note "For more carousel asset settings, see [Carousel Asset Settings](../../../website-appearance/theme-and-layout/setup-theme-page-settings.md#operate-page-settings-slider){ title="Page Settings Guide" }."
 
 ---
 
-### Footer ICON Settings <small>Footer</small>
+### Footer ICON Settings <small>Footer</small> { #operate-add-line-icon-settings-footer }
 
 Display the LINE social icon fixed at the bottom of your website.
 
@@ -149,7 +149,7 @@ Display the LINE social icon fixed at the bottom of your website.
 
 ---
 
-### Menu / Navigation Bar Settings
+### Menu / Navigation Bar Settings { #operate-add-line-settings }
 
 Add the add-friend feature directly to the main menu of your website.
 
@@ -161,7 +161,7 @@ Add the add-friend feature directly to the main menu of your website.
 
     2. In the CYBERBIZ menu settings, click the menu you want to configure to open its edit page, then click **Add Link**.
     3. **Add Menu Item**: Paste the button syntax you copied earlier.
-    4. **Link Item**: Select **External Link**, and paste the [copied Friend URL](../../../notifications/send-line-friend-invitation.md#get-line-oa-add-friend-link){ title="Send LINE add-friend invitation" }.
+    4. **Link Item**: Select **External Link**, and paste the [copied Friend URL](../../../notifications/send-line-friend-invitation.md#operate-line-add-friend){ title="Send LINE add-friend invitation" }.
 
 		![Menu Navigation Bar - Add Friend](../../../../assets/images/ec-網站外觀-選單導覽列-line-加入好友.en.gif){ title="Menu Navigation Bar - Add Friend" }
 
@@ -173,7 +173,7 @@ Add the add-friend feature directly to the main menu of your website.
 
 ---
 
-## Related Actions
+## Related Actions { #operate-add-line-operate }
 
 <div class="grid cards" markdown>
 
@@ -185,7 +185,7 @@ Add the add-friend feature directly to the main menu of your website.
 
 ---
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-add-line }
 
 ??? quote "Why does the icon look wrong on the storefront after I paste the button syntax into Menu / Navigation Bar?"
 

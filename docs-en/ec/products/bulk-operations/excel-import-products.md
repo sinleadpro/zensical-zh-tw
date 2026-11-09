@@ -64,7 +64,7 @@ hide: []
 
 ![Import products in bulk from Excel](../../../assets/images/ec-import-products-from-excel.zh-tw.en.png){ title="Import Products in Bulk from Excel: Products > Import Products from Excel" .hero-page }
 
-## About Product Excel Import
+## About Product Excel Import { #intro-excel-import }
 
 Use the Excel template to add or update many products at once. This is useful for listing products or adjusting product information in bulk. Before importing, review the following feature limits and notes on image hosting links.
 
@@ -72,7 +72,7 @@ Use the Excel template to add or update many products at once. This is useful fo
 	- The North America site uses English as the default editing language. Bulk import can currently upload and update only the English pages of products.
 	- Product SKUs must match Amazon for orders to ship.
 
-## Prerequisites and Limits
+## Prerequisites and Limits { #prerequisites-excel-import }
 
 When you create images quickly through **image hosting** links, note the following:
 
@@ -84,8 +84,8 @@ When you create images quickly through **image hosting** links, note the followi
 
 !!! info "Choose an image hosting service based on your needs. CYBERBIZ does not provide setup, operation, or technical support for third-party image hosting."
 
-## Steps
-### Download the Excel Template or Export Products
+## Steps { #operate-excel-import }
+### Download the Excel Template or Export Products { #operate-excel-import-download }
 
 === "Add Products in Bulk"
 
@@ -104,7 +104,7 @@ When you create images quickly through **image hosting** links, note the followi
 
 ---
 
-### Determine Whether an Excel Upload Adds or Updates Products { #determine-add-or-update }
+### Determine Whether an Excel Upload Adds or Updates Products { #operate-excel-import-add-update }
 
 Columns A (`商品 id`, product ID) and B (`商品款式 id`, product variant ID) in the product Excel file are hidden by default. After you upload the Excel file, the system uses whether these two columns contain system values to decide whether to add new products or update existing ones.
 
@@ -122,7 +122,7 @@ Columns A (`商品 id`, product ID) and B (`商品款式 id`, product variant ID
 
 ---
 
-### Fill in the Product Excel Columns
+### Fill in the Product Excel Columns { #operate-excel-import-fields }
 
 Fill in the product information according to the columns and descriptions in the Excel template. The following fields are required:
 
@@ -144,7 +144,7 @@ Fill in the product information according to the columns and descriptions in the
 
 ---
 
-### Import the Excel File
+### Import the Excel File { #operate-excel-import-upload }
 
 1. In the CYBERBIZ admin, go to **Products > Import Products from Excel**.
 2. Click **Choose file** and select the edited product Excel file.
@@ -157,10 +157,10 @@ Fill in the product information according to the columns and descriptions in the
 |:lucide-circle-check: Succeeded|Wait for the system to finish the import. You will receive an email notification when it is done.|Do not upload again|
 |:lucide-check: Completed|The import is confirmed as complete|Check the results or update other content|
 
-## FAQ
+## FAQ { #faq-excel-import }
 
 ??? quote "Why weren't my products added or updated after I uploaded the Excel file?"
     - Check whether the Excel file uses bold text or whether product names contain special symbols.
     - Make sure image links meet the format and size limits and that the image hosting permissions are public.
-    - Check columns A and B to make sure you [determine whether an Excel upload adds or updates products](#determine-add-or-update) correctly.
+    - Check columns A and B to make sure you [determine whether an Excel upload adds or updates products](#operate-excel-import-add-update) correctly.
     - The import takes time. Wait for the completion email and avoid uploading again.

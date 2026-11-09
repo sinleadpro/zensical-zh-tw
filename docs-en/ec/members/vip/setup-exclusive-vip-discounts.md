@@ -2,7 +2,7 @@
 title: "Set Up Exclusive VIP Offers"
 description: "Set up exclusive discounts, bonus rewards, and tiered pricing for VIP members, and learn how they can be combined with store-wide marketing campaigns."
 created: 2026-01-23 00:00
-last_modified: 2026-07-14 17:10
+last_modified: 2026-10-27 15:20
 lang: en-US
 type: guide
 author: Ann
@@ -20,13 +20,8 @@ sites:
 audiences:
   - merchant
 difficulty: intermediate
-tnb: branch
-plans:
-  - Expert
-  - "Professional PLUS"
-  - "Advanced PLUS"
-  - "Expert PLUS"
-  - Enterprise
+tnb: trunk
+plans: []
 cyb_extensions: []
 intents:
   - 如何設定 VIP 專屬優惠
@@ -66,18 +61,16 @@ hide: []
 ---
 # Set Up Exclusive VIP Offers
 
-Set up exclusive discounts, bonus rewards, and tiered pricing for VIP members, and learn how they can be combined with store-wide marketing campaigns.
-{ .subtitle }
-
-[:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | Expert / All PLUS / Enterprise
-{ .doc-badge }
-
 ![](../../../assets/images/EC-後台-會員-VIP設定-優惠設定01.en.png){ .hero-page }
 
 
 The core appeal of a VIP program lies in its sense of exclusivity and tangible rewards. The new VIP system provides a variety of offer combinations to help you design differentiated benefits that members value.
 
-## VIP Offer Combination Rules
+## Before You Begin { #prerequisites-vip-discounts }
+
+- **Login Requirement**: Customers must log in as members to get VIP offers at checkout.
+
+## VIP Offer Combination Rules { #specs-vip-discounts }
 
 When setting up VIP offers, define how each offer can be combined with selected marketing campaigns. The system provides three stacking rules with different levels of restriction:
 
@@ -98,9 +91,9 @@ When setting up each offer, select the appropriate combination rule whenever the
 ![](../../../assets/images/EC-後台-會員-VIP設定-與其他行銷活動的併用規則01.en.png){ .screenshot }
 
 !!! info "bonus points Toggle"
-    To perbonus points, first go to **Marketing > 全館折扣-紅利 & 優惠券** and [turn on the bonus points feature](../../marketing/bonus-and-gifts/setup-bonus-points/#操作流程).
+    To perbonus points, first go to **Marketing > 全館折扣-紅利 & 優惠券** and [turn on the bonus points feature](../../marketing/bonus-and-gifts/setup-bonus-points/#operate-bonus).
 
-## 1. Discount Offer
+## 1. Discount Offer { #operate-vip-discounts-order }
 
 1. Enter the **Specified Discount**. When a member in this VIP tier places an order, the specified discount applies to the entire order.
 
@@ -108,7 +101,7 @@ When setting up each offer, select the appropriate combination rule whenever the
 
 2. **Set Combination Rules with Other Marketing Campaigns**
 
-    First select the [**Combination Rule**](#vip-優惠併用規則), then select the marketing campaigns to which this rule applies from the list.
+    First select the [**Combination Rule**](#specs-vip-discounts), then select the marketing campaigns to which this rule applies from the list.
 
     Marketing campaigns available for combination rules:
 
@@ -121,13 +114,13 @@ When setting up each offer, select the appropriate combination rule whenever the
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠01.png){ .screenshot }
 
-## 2. Free Shipping On Orders
+## 2. Free Shipping On Orders { #operate-vip-discounts-shipping }
 
 1. Enter the **Free Shipping Threshold**. When a member in this VIP tier reaches the threshold, free shipping applies to the entire order.
 
 2. **Set Combination Rules with Other Marketing Campaigns**
 
-    First select the [**Combination Rule**](#vip-優惠併用規則), then select the marketing campaigns to which this rule applies from the list.
+    First select the [**Combination Rule**](#specs-vip-discounts), then select the marketing campaigns to which this rule applies from the list.
 
     Marketing campaigns available for combination rules:
 
@@ -140,23 +133,23 @@ When setting up each offer, select the appropriate combination rule whenever the
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠02.png){ .screenshot }
 
-## 3. Bonus Multiplier Settings
+## 3. Bonus Multiplier Settings { #operate-vip-discounts-bonus }
 
-### Before You Begin
+### Before You Begin { #operate-vip-discounts-bonus-notes }
 
 *   **Stacking per:** If you set both the "Store-Wide Bonus per" and "Additional VIP Bonus," members receive **both** when they place an order.
 
 
-### Setup
+### Setup { #operate-vip-discounts-bonus-setup }
 
 Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a member in this VIP tier places an order, the member receives additional bonus points.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠03.png){ .screenshot }
 
 
-## 4. Birthday Gift Settings
+## 4. Birthday Gift Settings { #operate-vip-discounts-birthday }
 
-### Send Schedule
+### Send Schedule { #operate-vip-discounts-birthday-schedule }
 
 - **Send Time**: By default, the system sends the month's birthday gift on the first day of that month.
 - **Send Early**: Set a custom **send the birthday gift N Days in Advance** value.
@@ -174,17 +167,17 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
 - **Notification Time**: If birthday gift notifications are enabled in **Push Notifications > Email Notification Template** or the **SMS Notification Template**, the system sends all notifications to members at 12:00 noon that day.
 
-### Member Claim Rules
+### Member Claim Rules { #operate-vip-discounts-birthday-claim }
 
 - **Registration During the Birthday Month**: If the first VIP tier threshold is NT$0, a member who registers during the member's birthday month is assigned that tier and issued the birthday gift immediately, regardless of the **send the birthday gift N Days in Advance** setting.
 - **One-Time Claim Rule**: During the birthday gift send cycle, from the early send date through the end of the birthday month, each member may claim **one VIP birthday gift** only. The reward is not sent again if the member Upgrade during this period.
 
-### Related Actions
+### Related Actions { #operate-vip-discounts-birthday-related }
 
 - **Stacking per**: If you set a store-wide member birthday gift in **Marketing > 全館折扣-紅利&優惠券**, customers receive **both**. Plan the birthday gift issuance policy carefully.
-- **Delete birthday gift**: Go to **Customer Management > All Customers**, click the member's profile, then [manually revoke](../manage-member-profiles.md#任務四資產配置) the coupon or bonus points.
+- **Delete birthday gift**: Go to **Customer Management > All Customers**, click the member's profile, then [manually revoke](../manage-member-profiles.md#operate-member-profiles-assets) the coupon or bonus points.
 
-### Setup
+### Setup { #operate-vip-discounts-birthday-setup }
 
 1. Enter the **birthday gift Name and Number of Days to Send per in Advance**. Members in this VIP tier receive the birthday gift on the specified date.
 
@@ -207,8 +200,8 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
         2. Select the coupon type:
 
-            - Amount
-            - Percentage
+            - Amount **(Expert, PLUS, and Enterprise Plans Only)**
+            - Percentage **(Expert, PLUS, and Enterprise Plans Only)**
             - Gift **(Enterprise Plan Only)**
 
                 !!! info "VIP Gift Voucher Rules"
@@ -216,13 +209,13 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
                     2. **Setting Up Multiple Gifts**: To per multiple different items at once, create a separate gift voucher for each item.
                     3. **Send Mechanism**: The system sends all linked gift vouchers. Customers cannot select one gift to claim on the storefront.
 
-                    → See the [complete gift voucher specifications](../../marketing/coupon/gift-coupon-spec/#使用須知).
+                    → See the [complete gift voucher specifications](../../marketing/coupon/gift-coupon-spec/#prerequisites-coupon).
 
 
         3. Set the relevant parameters.
         4. **Set Combination Rules with Other Marketing Campaigns**
 
-            First select the [**Combination Rule**](#vip-優惠併用規則), then select the marketing campaigns to which this rule applies from the list.
+            First select the [**Combination Rule**](#specs-vip-discounts), then select the marketing campaigns to which this rule applies from the list.
 
             Marketing campaigns available for combination rules:
 
@@ -239,9 +232,9 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
         ![](../../../assets/images/EC-後台-會員-VIP設定-設定生日禮03.en.png){ .screenshot }
 
 
-## 5. Member Day Settings
+## 5. Member Day Settings { #operate-vip-discounts-member-day }
 
-### Before You Begin
+### Before You Begin { #operate-vip-discounts-member-day-notes }
 
 *   **Valid Date Restriction**: If a Member Day falls outside the valid date range for a month, the Member Day feature is not enabled for that month.
 
@@ -253,7 +246,7 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
     - If Member Day **Free Shipping Setting** is enabled, the **Free Shipping Setting** setting does not apply on Member Day.
     - If Member Day **Bonus** is enabled, the **Bonus Point Multiplier Setting** do not apply on Member Day.
 
-### Setup
+### Setup { #operate-vip-discounts-member-day-setup }
 
 1. Select a Member Day.
 
@@ -272,7 +265,7 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
         2. **Set Combination Rules with Other Marketing Campaigns**
 
-            First select the [**Combination Rule**](#vip-優惠併用規則), then select the marketing campaigns to which this rule applies from the list.
+            First select the [**Combination Rule**](#specs-vip-discounts), then select the marketing campaigns to which this rule applies from the list.
 
             Marketing campaigns available for combination rules:
 
@@ -292,7 +285,7 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
         2. **Set Combination Rules with Other Marketing Campaigns**
 
-            First select the [**Combination Rule**](#vip-優惠併用規則), then select the marketing campaigns to which this rule applies from the list.
+            First select the [**Combination Rule**](#specs-vip-discounts), then select the marketing campaigns to which this rule applies from the list.
 
             Marketing campaigns available for combination rules:
 
@@ -317,8 +310,8 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
         2. Select the coupon type:
 
-            - Amount
-            - Percentage
+            - Amount **(Expert, PLUS, and Enterprise Plans Only)**
+            - Percentage **(Expert, PLUS, and Enterprise Plans Only)**
             - Gift **(Enterprise Plan Only)**
 
                 !!! info "VIP Gift Voucher Rules"
@@ -326,12 +319,12 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
                     2. **Setting Up Multiple Gifts**: To per multiple different items at once, create a separate gift voucher for each item.
                     3. **Send Mechanism**: The system sends all linked gift vouchers. Customers cannot select one gift to claim on the storefront.
 
-                    → See the [complete gift voucher specifications](../../marketing/coupon/gift-coupon-spec/#使用須知).
+                    → See the [complete gift voucher specifications](../../marketing/coupon/gift-coupon-spec/#prerequisites-coupon).
 
         3. Set the relevant parameters.
         4. **Set Combination Rules with Other Marketing Campaigns**
 
-            First select the [**Combination Rule**](#vip-優惠併用規則), then select the marketing campaigns to which this rule applies from the list.
+            First select the [**Combination Rule**](#specs-vip-discounts), then select the marketing campaigns to which this rule applies from the list.
 
             Marketing campaigns available for combination rules:
 
@@ -350,14 +343,14 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
 
 
-## 6. Upgrade Gift Settings
+## 6. Upgrade Gift Settings { #operate-vip-discounts-upgrade }
 
-### Before You Begin
+### Before You Begin { #operate-vip-discounts-upgrade-notes }
 
 *   **Send Quantity:** The Upgrade gift for each tier can only be per once during the membership validity period.
 *   **Switching Between the Old and New Versions:** Applying the new VIP version to members from the old VIP version does not trigger the Upgrade gift.
 
-### Setup
+### Setup { #operate-vip-discounts-upgrade-setup }
 
 1. Choose whether to send gifts cumulatively when a member Upgrade across multiple tiers and issue the Upgrade gift for each tier.
 2. Select an Upgrade gift.
@@ -374,8 +367,8 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
         2. Select the coupon type:
 
-            - Amount
-            - Percentage
+            - Amount **(Expert, PLUS, and Enterprise Plans Only)**
+            - Percentage **(Expert, PLUS, and Enterprise Plans Only)**
             - Gift **(Enterprise Plan Only)**
 
                 !!! info "VIP Gift Voucher Rules"
@@ -383,13 +376,13 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
                     2. **Setting Up Multiple Gifts**: To per multiple different items at once, create a separate gift voucher for each item.
                     3. **Send Mechanism**: The system sends all linked gift vouchers. Customers cannot select one gift to claim on the storefront.
 
-                    → See the [complete gift voucher specifications](../../marketing/coupon/gift-coupon-spec/#使用須知).
+                    → See the [complete gift voucher specifications](../../marketing/coupon/gift-coupon-spec/#prerequisites-coupon).
 
         3. Set the relevant parameters.
 
         4. **Set Combination Rules with Other Marketing Campaigns**
 
-            First select the [**Combination Rule**](#vip-優惠併用規則), then select the marketing campaigns to which this rule applies from the list.
+            First select the [**Combination Rule**](#specs-vip-discounts), then select the marketing campaigns to which this rule applies from the list.
 
             Marketing campaigns available for combination rules:
 

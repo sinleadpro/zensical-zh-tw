@@ -65,15 +65,15 @@ comments: false
 
 ![GA4 site search tracking](../../../../assets/images/ec-第三方整合-google-ga4-加強型評估-站內搜尋.en.png){ title="GA4 Site Search Tracking" .hero-page }
 
-## GA4 Site Search Tracking Guide
+## GA4 Site Search Tracking Guide { #operate-ga-search }
 
 Turn on site search tracking for **Google Analytics 4 (GA4)**. This helps merchants see the keywords users enter on the website and understand consumers' information needs and search intent.
 
-## Prerequisites and Restrictions
+## Prerequisites and Restrictions { #prerequisites-ga-search }
 
 - [x] Confirm [your website is connected to GA4](setup-google-analytics.md){ title="Set up and connect Google Analytics" }.
 
-## Setup Steps
+## Setup Steps { #operate-ga-search-steps }
 
 Sign in to your Google Analytics dashboard and follow this path:
 
@@ -88,7 +88,7 @@ Sign in to your Google Analytics dashboard and follow this path:
 
     After setup, GA4 needs some time to start collecting search data (data is not backfilled). If no one runs a search in a short period, the event may not show data. You can test by running a search on your storefront.
 
-## How to View Tracking Results
+## How to View Tracking Results { #operate-ga-search-view-tracking }
 
 After setup (and once a user runs a search), you can view the results in GA4 reports:
 
@@ -102,7 +102,7 @@ After setup (and once a user runs a search), you can view the results in GA4 rep
 
 !!! info "For more information about GA4 tracking events, see the [official documentation :lucide-external-link:](https://support.google.com/analytics/answer/9322688?hl=zh-Hant#zippy=%2C%E5%8D%B3%E6%99%82%E5%A0%B1%E8%A1%A8%2Cdebugview-%E5%A0%B1%E8%A1%A8)."
 
-## FAQ
+## FAQ { #faq-ga-search }
 
 ??? quote "How long after setup can I see search data?"
 

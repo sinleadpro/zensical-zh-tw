@@ -65,13 +65,13 @@ icon: lucide/radio
 hide: []
 ---
 
-## LINE Live Overview
+## LINE Live Overview { #overview-setup-line }
 
 **LINE Live** (Watch & Buy mode) lets merchants host live shopping streams directly on their LINE Official Account and send viewers to the website to place orders.
 
 !!! info "For more information about LINE Live features, see [LINE LIVE official documentation :lucide-external-link:](https://tw.linebiz.com/service/account-solutions/line-live/)."
 
-## Eligibility and Notes
+## Eligibility and Notes { #operate-setup-line }
 
 - **Account type restriction**: Only **verified accounts (blue shield)** may apply. For the verification process, see [official instructions :lucide-external-link:](https://tw.linebiz.com/column/line-lac-id-0418/).
     *   **Standard accounts (gray shield)**: Applications are not currently accepted.
@@ -80,7 +80,7 @@ hide: []
 - **Customer restriction**: Customers must be friends of the official account and [have linked their website member account with LINE OA](account-integration/bind-line-oa-store-members.md){ title="Link LINE Official Account with website member" }, to enter the live room and place orders.
 - **Live frequency recommendation**: We recommend at least 4 live sessions per month to build viewing habits with your friends.
 
-## Application and Launch Process
+## Application and Launch Process { #operate-setup-line-apply-flow }
 
 1.  **Submit the form**: Request and complete the [LINE Live eligibility application form :lucide-external-link:](https://docs.google.com/forms/d/e/1FAIpQLSeaMKpcK0DOaTvZDy_229oV3mV_k50-oKKTljdGh9sUXuRD1A/viewform) from CYBERBIZ.
 2.  **Activation waiting period**: After you confirm your application, CYBERBIZ helps enable back-office integration and requests parameters from LINE. This process takes **about 30 days**.
@@ -88,7 +88,7 @@ hide: []
 4.  **Official launch**: LINE sends an email confirming activation. After you receive it, you can start live streaming. LINE also provides tutorials for the LINE Live back office.
 
 
-##  Set up the Back Office and Enter Parameters
+## Set up the Back Office and Enter Parameters { #operate-setup-line-backend-settings }
 
 If you have received the parameter email, enter the parameters in the back office yourself, or ask a specialist to help:
 
@@ -97,7 +97,7 @@ If you have received the parameter email, enter the parameters in the back offic
 
 ![LINE OA Shopping Guide Settings](../../../assets/images/ec-第三方整合-line購物設定-lineoa導購.en.png){ title="LINE OA Shopping Guide Settings" }
 
-## Product Integration and Sync Logic
+## Product Integration and Sync Logic { #specs-setup-line }
 
 To make sure products can be found during a live stream, they must meet these requirements:
 
@@ -114,17 +114,17 @@ To make sure products can be found during a live stream, they must meet these re
     *   **LINE automatic sync**: Catalog information syncs to the LINE Live back office at 5:00 AM daily.
     *   **Manual update**: If you need to sync edited product information right away, go to **LINE Shopping Settings** and click **Manually Update Catalog** (one click per hour only).
 4.  **Product search tip**: When searching for products in the LINE Live back office, we recommend **Product ID (PID)** for the most accurate results.
-    *   *How to get the PID: open the product edit page in the back office (Product Info tab) and check the number at the end of the URL, or view the ID column in the [exported product list](../../products/bulk-operations/excel-import-products.md#determine-add-or-update){ title="Bulk Import Products via Excel" }.*
+    *   *How to get the PID: open the product edit page in the back office (Product Info tab) and check the number at the end of the URL, or view the ID column in the [exported product list](../../products/bulk-operations/excel-import-products.md#operate-excel-import-add-update){ title="Bulk Import Products via Excel" }.*
 
     ![Product edit page PID](../../../assets/images/ec-商品-商品編輯頁-pid-slug.en.png){ title="Product edit page PID" }
 
-## View Orders
+## View Orders { #operate-setup-line-order-view }
 
 Orders completed through LINE Live referrals can be viewed and managed in the back office under **Orders ** > ** LINE OA Orders**.
 
 ![View LINE OA orders](../../../assets/images/ec-訂單-lineoa訂單.en.png){ title="View LINE OA orders" }
 
-## Next Steps
+## Next Steps { #next-steps-setup-line }
 
 <div class="grid cards" markdown>
 
@@ -138,7 +138,7 @@ Orders completed through LINE Live referrals can be viewed and managed in the ba
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-setup-line }
 
 ??? quote "Why can't I find a product I just listed?"
     Products take time to sync to the LINE Live back office. The CYBERBIZ system generates the catalog at 4:45 AM and 4:45 PM daily, and LINE syncs at 5:00 AM.

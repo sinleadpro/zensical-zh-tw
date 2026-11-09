@@ -13,7 +13,7 @@ hide:
   - feedback
 ---
 
-## Account Setup and Management
+## Account Setup and Management { #operate-meta-ads }
 
 <div class="grid cards" markdown>
 
@@ -37,7 +37,7 @@ hide:
 
 ---
 
-## Campaign Setup
+## Campaign Setup { #operate-meta-ads-ads-settings }
 
 <div class="grid cards" markdown>
 
@@ -69,7 +69,7 @@ hide:
 
 ---
 
-## Ad Strategy and Budget
+## Ad Strategy and Budget { #intro-meta-ads }
 
 <div class="grid cards" markdown>
 
@@ -93,7 +93,7 @@ hide:
 
 ---
 
-## Performance Analysis and Troubleshooting
+## Performance Analysis and Troubleshooting { #intro-meta-ads-analysis }
 
 <div class="grid cards" markdown>
 

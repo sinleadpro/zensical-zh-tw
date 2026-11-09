@@ -49,7 +49,7 @@ hide:
 
 
 This table lists the languages currently supported by the CYBERBIZ storefront multi-language feature, for shared reference when translating conditionalized collections, products, pages, and other content.
-## Supported Languages { #multi-language-supported }
+## Supported Languages { #reference-multi-language }
 
 | Language | Display Name |
 | :-- | :-- |

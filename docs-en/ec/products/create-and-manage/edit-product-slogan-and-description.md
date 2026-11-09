@@ -70,7 +70,7 @@ hide: []
 
 ![Product brief and slogan](../../../assets/images/ec-product-brief-n-slogan.zh-tw.en.png){ title="Product Brief and Slogan" .hero-page }
 
-## About the Product Brief and Product Slogan
+## About the Product Brief and Product Slogan { #intro-product-slogan }
 
 The product brief and product slogan are text fields shown on the product page to highlight product features and key information. You can customize how the **Product slogan** and **Product brief** text appears on the product page, including the text color, font, size, and line breaks.
 
@@ -83,7 +83,7 @@ The product brief and product slogan are text fields shown on the product page t
       ![Where the product brief and slogan appear on the storefront](../../../assets/images/ec-product-slogan-product-brief.zh-tw.en.png){ title="Where the Product Brief and Slogan Appear on the Storefront" }
 
 
-## Prerequisites and Limits
+## Prerequisites and Limits { #prerequisites-product-slogan }
 
 - **Theme limits**: The **drag-and-drop theme** may not support some code editing. Follow the features actually available in your admin.
 - **Responsibility**: CYBERBIZ provides open code editing access but **does not provide modification guidance, syntax tutorials, or coding services beyond the existing documentation**. We recommend hiring a professional engineer.
@@ -91,17 +91,17 @@ The product brief and product slogan are text fields shown on the product page t
 - **Common causes of broken layouts**: Usually an HTML tag is not closed correctly (for example, a missing closing tag `</span>`), which affects how the page displays.
 - **Storefront display order**: In some themes, the "Product slogan" and "Product brief" may appear on the storefront in the reverse order of the admin fields.
 
-## Steps
+## Steps { #operate-product-slogan }
 
 You can customize the text style of the product brief and product slogan in the following two ways to keep your brand consistent and strengthen your marketing:
 
-- [Change the text style of individual products](#Change-the-Text-Style-of-Individual-Products): Change the copy style of an individual product
-- [Adjust text display site-wide](#Adjust-Text-Display-Site-Wide): Change the site-wide CSS file
+- [Change the text style of individual products](#operate-product-slogan-style): Change the copy style of an individual product
+- [Adjust text display site-wide](#operate-product-slogan-global): Change the site-wide CSS file
 
 !!! info "Product Code Priority Rules"
     Code in the product slogan and product brief fields takes **priority** over the site-wide styles in the Template Editor. If you change both the Template Editor and an individual product, the individual product's setting applies.
 
-### Change the Text Style of Individual Products
+### Change the Text Style of Individual Products { #operate-product-slogan-style }
 
 Because the "Product slogan" and "Product brief" fields in the admin don't support a formatting editor, you can use the "Product Introduction" editor as a tool to generate the code.
 
@@ -124,7 +124,7 @@ Because the "Product slogan" and "Product brief" fields in the admin don't suppo
 
 ---
 
-### Adjust Text Display Site-Wide
+### Adjust Text Display Site-Wide { #operate-product-slogan-global }
 
 !!! warning "Notes on Code Changes"
 
@@ -152,7 +152,7 @@ To change the slogan or brief color and size for all products on the site at onc
 !!! tip "Recovery"
     If you're not happy with the result, you can [restore a previous version](../../website-appearance/code-customization/restore-code-theme-editor.md).
 
-## FAQ
+## FAQ { #faq-product-slogan }
 ??? quote "Why is the layout of my collection page broken?"
     This is usually caused by an HTML editing error, such as a tag that isn't closed correctly, as in the incorrect example below.
 

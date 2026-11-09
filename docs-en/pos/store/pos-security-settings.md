@@ -79,14 +79,14 @@ Configure permissions for viewing cross-store orders and customer information, I
     - **Strengthen login protection**: Set an IP whitelist so that only the store's fixed IP addresses can access the POS system, which eliminates the risk of unknown external access.
     - **Monitor logins from other IP addresses**: Turn on order IP source notifications to receive an immediate alert when a login from a different IP address occurs in the same store, which helps keep accounts secure.
 
-## Usage Notes
+## Usage Notes { #prerequisites-pos-security }
 
 - **Permission requirements**: Only the **Website Owner** can edit POS store security settings.
 
 
-## Procedure
+## Procedure { #operate-pos-security }
 
-### Configure Store Permissions
+### Configure Store Permissions { #operate-pos-security-store }
 
 Administrators can decide whether the POS front end displays orders from other stores, and whether store managers can view the customer lists of other stores.
 
@@ -98,7 +98,7 @@ Administrators can decide whether the POS front end displays orders from other s
     - **Store manager customer list access**: Whether store managers can look up customer information across stores.
 
 
-### Configure IP Whitelist
+### Configure IP Whitelist { #operate-pos-security-settings-ip-allowlist }
 
 Use IP restrictions and notifications to strengthen network protection for the POS system.
 
@@ -112,7 +112,7 @@ Use IP restrictions and notifications to strengthen network protection for the P
 !!! warning "IP Change Risk Notice"
     We recommend turning on this feature only for stores with a **fixed IP**. If a store uses a **dynamic IP**, we do not recommend enabling the whitelist, because an IP change may prevent the front end from logging in.
 
-### Configure IP Source Notifications
+### Configure IP Source Notifications { #operate-pos-security-settings-ip-notifications }
 
 1. Scroll down to the **Order IP Source Notifications** section.
 2. Turn the **Notification Feature** on.

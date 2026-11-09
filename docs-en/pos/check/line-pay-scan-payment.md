@@ -82,7 +82,7 @@ Integrate LINE Pay barcode payment so POS staff can use a barcode scanner to rea
     - **Multi-store management**: Direct-operated chain stores can use a single Tax ID account and Device IDs to track sales by store.
 
 
-## Usage Notes
+## Usage Notes { #prerequisites-line-pay }
 
 - **Application timeline**: After you submit complete information, review and activation take about **3 to 4 weeks**.
 - **Hardware requirement**: Your store needs a **barcode scanner** that can scan phone screens.
@@ -90,13 +90,13 @@ Integrate LINE Pay barcode payment so POS staff can use a barcode scanner to rea
 - **Payment restriction**: Currently, **only merchant scanning of customer barcodes is supported**. **Customers scanning the store's QR code** and entering the amount themselves is **not supported**.
 
 
-## Application Process
+## Application Process { #operate-line-pay }
 
-### 1. Fill out the Online Application Form
+### 1. Fill out the Online Application Form { #operate-line-pay-1 }
 
 First, prepare your basic business information, then go to the [CYBERBIZ x LINE Pay Integration Form](https://docs.google.com/forms/d/13H2sqFvR_99iDtHOPEOmPzTjoYv6fX-eTEYSTJTXPeU/edit) and complete it.
 
-### 2. Prepare Required Documents
+### 2. Prepare Required Documents { #operate-line-pay-2 }
 
 Submit clear electronic copies (scans) of the following documents in the form:
 
@@ -115,7 +115,7 @@ Submit clear electronic copies (scans) of the following documents in the form:
 - **Responsible person's ID**: Front and back copies of the national ID card (foreign nationals should provide a passport).
 - **Company bank passbook**: Provide the bank account for disbursements. The account name must match the registered company name. Personal accounts are not allowed.
 
-### 3. Review and Activation
+### 3. Review and Activation { #operate-line-pay-3 }
 
 1. **Progress tracking**: About 10 business days after submission, you will receive a preliminary review notice.
 2. **Get keys**: After approval, CYBERBIZ provides your dedicated **LINEPAY account credentials**, **Channel ID**, and **Channel Secret**. Follow the steps below to enter the keys and enable the feature.
@@ -123,9 +123,9 @@ Submit clear electronic copies (scans) of the following documents in the form:
 
     > Shipping details must include the recipient's name, phone number, and address.
 
-## Setup Process
+## Setup Process { #operate-flow }
 
-### Step 1: Bind Keys in the Back Office
+### Step 1: Bind Keys in the Back Office { #operate-flow-step-a-admin }
 
 1. Log in to the CYBERBIZ back office and go to **POS > POS Store List**.
 2. Select the store you want to configure, then go to **POS Checkout Settings**.
@@ -135,7 +135,7 @@ Submit clear electronic copies (scans) of the following documents in the form:
 
 ![](../../assets/images/POS-後台-POS功能-所有POS商店-串接LinePAY金鑰01.en.png){ .screenshot }
 
-### Step 2: Enable a Payment Method
+### Step 2: Enable a Payment Method { #operate-flow-step-b-enable }
 
 1. Click the **Payment Methods** tab.
 2. Switch the **LINE Pay** toggle to `開啟 (ON)`.
@@ -143,7 +143,7 @@ Submit clear electronic copies (scans) of the following documents in the form:
 ![](../../assets/images/POS-後台-POS功能-所有POS商店-付款設定-開啟LinePAY支付方式01.en.png){ .screenshot }
 
 
-### Step 3: Checkout on the POS
+### Step 3: Checkout on the POS { #operate-flow-step-c-pos }
 
 1. On the checkout screen, select **Other Payment Methods**, then choose **LINE Pay**.
     ![](../../assets/images/POS-前台-結帳-LinePay結帳01.en.png){ .screenshot }
@@ -156,7 +156,7 @@ Submit clear electronic copies (scans) of the following documents in the form:
 
 
 
-## FAQ
+## FAQ { #faq-line-pay }
 
 ??? quote "I already have a LINE Pay account. Can I use it directly with CYBERBIZ POS?"
     First, check with [LINE Pay Merchant Support](https://pay.line.me/merchant-apply/tw/contact-request?locale=zh_TW) whether your existing account supports **offline POS integration**. If it does, apply to LINE Pay to transfer the agency to CYBERBIZ so you can get the corresponding integration keys.

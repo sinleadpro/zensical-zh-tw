@@ -72,14 +72,14 @@ Learn how to sync EC website products to POS stores, or create exclusive product
 { .doc-badge }
 
 
-## Usage Notes
+## Usage Notes { #prerequisites-pos-products }
 
 - **Image importance**: POS product images appear directly on the POS front-end screen, helping staff quickly identify products. We recommend turning on **Copy all product images** when copying.
 
 
-## Workflow
+## Workflow { #operate-pos-products }
 
-### Create the Product in the EC Admin Panel
+### Create the Product in the EC Admin Panel { #operate-pos-products-ec-admin-create }
 
 1. The first step in setting up POS store products is to create the product in the **EC admin panel** and then copy it to the POS store. This ensures a smooth process and complete information.
 
@@ -89,7 +89,7 @@ Learn how to sync EC website products to POS stores, or create exclusive product
 2. For how to set up products on the EC website, see [Add and Update Products](../../ec/products/create-and-manage/create-update-products/).
 3. After you are familiar with creating single products, see [Bulk Import Products from Excel](../../ec/products/bulk-operations/excel-import-products/) to create products in batches.
 
-### Copy EC Products to POS Store
+### Copy EC Products to POS Store { #operate-pos-products-ec-product-pos }
 
 Sync existing website products to the specified store.
 
@@ -102,7 +102,7 @@ Sync existing website products to the specified store.
 ![](https://www.cyberbiz.io/support/wp-content/uploads/POS商品建立1.png){ .screenshot }
 
 
-### Create Products for POS-Only Merchants
+### Create Products for POS-Only Merchants { #operate-pos-products-pos-create-product }
 
 For merchants who only purchase the POS system, specify the store directly **when creating a product**.
 

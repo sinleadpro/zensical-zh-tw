@@ -102,7 +102,7 @@ From member identification to payment and invoicing, this guide walks you throug
     - **Daily Sales**: Quickly add products and complete payment, with inventory synced in real time.
     - **Member Benefits**: Log in a member to apply tier-specific offers, redeem bonus points, or use coupon.
 
-## Complete Checkout Process
+## Complete Checkout Process { #operate-check }
 
 ```mermaid
 graph LR
@@ -132,13 +132,13 @@ graph LR
   end
 ```
 
-## Step 1: Member Login
+## Step 1: Member Login { #operate-member-login }
 
 Before checkout begins, identifying the customer ensures that member benefits are applied correctly and purchases are recorded.
 
 === "Interface Overview"
 
-    ### Select Customer Identity on the Login Page
+    ### Select Customer Identity on the Login Page { #operate-check-member-select }
 
     1. **Start Checkout**: Click the **Checkout** button on the right side of the POS Front Desk.
     2. **Select Customer Checkout Identity**:
@@ -152,7 +152,7 @@ Before checkout begins, identifying the customer ensures that member benefits ar
 
     ![](../../assets/images/POS-前台-結帳-選擇結帳身分01.en.png){ .screenshot }
 
-    ### Add Member Details at Checkout
+    ### Add Member Details at Checkout { #operate-check-member-backfill }
 
     === "Member Login"
 
@@ -190,11 +190,11 @@ Before checkout begins, identifying the customer ensures that member benefits ar
 
     </div>
 
-## Step 2: Cart Subtotal
+## Step 2: Cart Subtotal { #operate-cart-subtotal }
 
 Enter the items the customer is buying into the system and confirm whether they qualify for marketing campaigns.
 
-### Add Products
+### Add Products { #operate-cart-subtotal-add-products }
 
 === "Interface Overview"
 
@@ -231,7 +231,7 @@ Enter the items the customer is buying into the system and confirm whether they 
 
     </div>
 
-### Apply Marketing Campaigns
+### Apply Marketing Campaigns { #operate-cart-subtotal-apply-promotions }
 
 === "Interface Overview"
 
@@ -314,18 +314,18 @@ Enter the items the customer is buying into the system and confirm whether they 
     - :lucide-plug:{ .lg }
     [__Create Bonus Mall__](bonus-point-mall/)<br>
     Offer varied redemption options to give bonus points real value.
-        - [Bonus MallProduct Checkout](bonus-point-mall/#於前台結帳)
+        - [Bonus MallProduct Checkout](bonus-point-mall/#operate-bonus-mall-checkout)
 
     </div>
 
 
-## Step 3: Complete Checkout
+## Step 3: Complete Checkout { #operate-checkout-complete }
 
 The final stage of payment and receipt processing. Once complete, the order is officially placed.
 
 === "Interface Overview"
 
-    ### Payment Processing
+    ### Payment Processing { #operate-check-payment }
 
     1. **Proceed to Checkout**: Click **Proceed to Checkout** in the lower-right corner to open the payment page.
     2. **Select a Payment Method**:
@@ -337,7 +337,7 @@ The final stage of payment and receipt processing. Once complete, the order is o
 
     3. **Sales Recognition Date**: Defaults to today. To record sales under a different date, edit it manually.
 
-        - This date field is the search basis when the system generates the [POS Product Sales Report](../inventory/pos-reports-list-guide/#商品銷售報表). The system assigns orders to the matching report period based on the date set here.
+        - This date field is the search basis when the system generates the [POS Product Sales Report](../inventory/pos-reports-list-guide/#reference-pos-reports-product-sales). The system assigns orders to the matching report period based on the date set here.
 
         ![](../../assets/images/POS-前台-結帳-收款作業02.en.png){ .screenshot }
 
@@ -355,7 +355,7 @@ The final stage of payment and receipt processing. Once complete, the order is o
 
     </div>
 
-### Issue Invoices
+### Issue Invoices { #operate-checkout-complete-invoice-issue }
 
 === "Interface Overview"
 
@@ -368,7 +368,7 @@ The final stage of payment and receipt processing. Once complete, the order is o
 
             ![](../../assets/images/POS-前台-結帳-手開發票號碼01.en.png){ .screenshot }
 
-            > You can also [issue an invoice later](../orders/manage-general-orders/#補開發票--列印明細) from the **Orders** page.
+            > You can also [issue an invoice later](../orders/manage-general-orders/#operate-general-orders-invoice) from the **Orders** page.
 
         - **Other Carriers**: Mobile barcode, Citizen Digital Certificate, or donation code.
 

@@ -163,7 +163,7 @@ Upload images in the **Product Image** section:
 ![Set product images](../../../assets/images/ec-商品-商品圖片-上傳.en.png){ title="Set Product Images" }
 
 ??? info "Cross-Channel Advertising Reminder: Google Shopping Ads (GMC)"
-    [](){ #gmc-picture-specs }
+    [](){ #reference-gmc-picture-specs }
     If you plan to sync products to Google for advertising, images must meet the [Google image requirements :lucide-external-link:](https://support.google.com/merchants/answer/6324350#Image_guidelines). Images that don't meet them can cause products to fail review.
 
     ??? example "View Google Image Restrictions and Examples"
@@ -239,8 +239,8 @@ When you turn on **Inventory** for variants, these fields appear:
     - **Continue selling**: Choose this to offer **pre-order products**.
 
 !!! tip "Pre-Order Product Settings"
-    [](){ #setup-preorder-products }
-    Set "When out of stock" to **Continue selling** to let customers keep ordering a product after its inventory reaches zero, which works as pre-ordering. You don't need a separate pre-order product type; it works with your existing products. To automatically split pre-order and in-stock items at checkout, see [Set up automatic checkout splitting into multiple carts](../../products/checkout/checkout-split-multi-cart.md#Set-a-Pre-Order-Product-Channel){ title="Check Out Pre-Order and In-Stock Items Separately" }.
+    [](){ #operate-product-preorder }
+    Set "When out of stock" to **Continue selling** to let customers keep ordering a product after its inventory reaches zero, which works as pre-ordering. You don't need a separate pre-order product type; it works with your existing products. To automatically split pre-order and in-stock items at checkout, see [Set up automatic checkout splitting into multiple carts](../../products/checkout/checkout-split-multi-cart.md#operate-split-cart-preorder){ title="Check Out Pre-Order and In-Stock Items Separately" }.
 
 ![Manage inventory settings](../../../assets/images/ec-inventory-stop-selling.zh-tw.en.png){ title="Manage Inventory Settings" }
 
@@ -308,7 +308,7 @@ Switch to the **Settings** tab to configure the following advanced settings:
 
 === "Related Product Collections"
 
-    Select an existing [**Customized Collections**](../categories-and-tags/custom-collections.md){ title="Set Up Customized Collections" } or [**Conditionalized Collections**](../categories-and-tags/smart-collections.md){ title="Set Up Conditionalized Collections" } collection. Products in that collection then appear in the [**related products section**](../../website-appearance/theme-and-layout/setup-theme-page-settings.md#operate-page-settings-product){ title="Set Up Related Products Display" } at the bottom of the product page.
+    Select an existing [**Customized Collections**](../categories-and-tags/custom-collections.md){ title="Set Up Customized Collections" } or [**Conditionalized Collections**](../categories-and-tags/smart-collections.md){ title="Set Up Conditionalized Collections" } collection. Products in that collection then appear in the [**related products section**](../../website-appearance/theme-and-layout/setup-theme-page-settings.md#operate-page-settings-related-products){ title="Set Up Related Products Display" } at the bottom of the product page.
 
     ![Related product collection settings](../../../assets/images/ec-product-settings-related-products.en.png){ title="Related Product Collection Settings" }
 
@@ -456,7 +456,7 @@ There's no separate "cross-border product" type. The settings needed for cross-b
 <!---->
 <!-- ## About Adding and Updating Products { #overview } -->
 <!---->
-<!-- In CYBERBIZ, you can add and update products in two ways: "[one at a time](#add-single)" or "Excel bulk import". -->
+<!-- In CYBERBIZ, you can add and update products in two ways: "[one at a time](#operate-product-add-single)" or "Excel bulk import". -->
 <!---->
 <!-- ??? info "Some Fields Must Be Enabled First"  -->
 <!--     The following fields appear depending on your plan / add-on features, so not every store has all of them: -->
@@ -467,19 +467,19 @@ There's no separate "cross-border product" type. The settings needed for cross-b
 <!--     - **Multi-language fields:** Requires **storefront multi-language**. -->
 <!--     - **Amazon fulfillment (FBA):** Once enabled, Amazon fulfillment can be selected as the fulfillment method, and SKUs must match the Amazon warehouse. -->
 <!---->
-<!-- ## Add a Single Product { #add-single } -->
+<!-- ## Add a Single Product { #operate-product-add-single } -->
 <!---->
 <!-- For listing a small number of products, with detailed control over each setting. -->
 <!---->
 <!-- 1. Sign in to the admin and go to "Products" > "All Products" > "Add Product". -->
-<!-- 2. Set the product information in order: [Basic settings](#basic-settings), [Product images](#product-images), [Product videos](#product-video), [Variants](#variants), [Inventory management](#inventory). -->
+<!-- 2. Set the product information in order: [Basic settings](#operate-product-basic-settings), [Product images](#reference-product-images), [Product videos](#reference-product-video), [Variants](#reference-product-variants), [Inventory management](#operate-product-inventory). -->
 <!-- 3. Click **Save** to apply the changes. -->
 <!---->
 <!-- ![Add a product](../../../assets/images/ec-商品-新增商品.en.png) -->
 <!---->
 <!-- --- -->
 <!---->
-<!-- ### Basic Settings { #basic-settings } -->
+<!-- ### Basic Settings { #operate-product-basic-settings } -->
 <!---->
 <!-- | Field | Setting Details and Rules | Default / Notes | -->
 <!-- | :--- | :--- | :--- | -->
@@ -493,7 +493,7 @@ There's no separate "cross-border product" type. The settings needed for cross-b
 <!---->
 <!-- --- -->
 <!---->
-<!-- ### Product Images { #product-images } -->
+<!-- ### Product Images { #reference-product-images } -->
 <!---->
 <!-- Click **Upload Image** or drag images to upload them. When uploading product images, follow these technical specs: -->
 <!---->
@@ -530,7 +530,7 @@ There's no separate "cross-border product" type. The settings needed for cross-b
 <!---->
 <!-- --- -->
 <!---->
-<!-- ### Product Videos { #product-video } -->
+<!-- ### Product Videos { #reference-product-video } -->
 <!---->
 <!-- [:lucide-tag:{ title="Applicable Plans" }](conventions.md#適用方案) | PLUS / Enterprise   -->
 <!-- [:lucide-bolt:{ title="Applicable Features" }](conventions.md#適用功能) | Drag-and-Drop Theme -->
@@ -546,7 +546,7 @@ There's no separate "cross-border product" type. The settings needed for cross-b
 <!---->
 <!-- --- -->
 <!---->
-<!-- ### Variant Management { #variants }  -->
+<!-- ### Variant Management { #reference-product-variants }  -->
 <!---->
 <!-- To set prices and inventory, you must first create **variants**: -->
 <!---->
@@ -561,13 +561,13 @@ There's no separate "cross-border product" type. The settings needed for cross-b
 <!---->
 <!-- --- -->
 <!---->
-<!-- ### Manage Inventory { #inventory } -->
+<!-- ### Manage Inventory { #operate-product-inventory } -->
 <!---->
 <!-- Once enabled, you can set the inventory quantity and a "safety stock level". When inventory reaches zero, you can choose "Stop selling" or "Continue selling (allow pre-orders)". -->
 <!---->
 <!-- --- -->
 <!---->
-<!-- ### Multi-Language: Fill In Product Content per Language { #multilang } -->
+<!-- ### Multi-Language: Fill In Product Content per Language { #specs-product-multilang } -->
 <!---->
 <!-- If your store has **storefront multi-language** enabled, a **language switcher** (a language icon and drop-down menu) appears to the right of the product edit page title so you can enter text separately for each language. -->
 <!---->
@@ -583,7 +583,7 @@ There's no separate "cross-border product" type. The settings needed for cross-b
 <!-- 3. After switching, a label for the language being edited appears next to translatable fields. Enter the translated text in each field. -->
 <!-- 4. Click **Save**, then switch to other languages and repeat. -->
 <!---->
-<!-- ## Update Existing Products { #update-product } -->
+<!-- ## Update Existing Products { #operate-product-update } -->
 <!---->
 <!-- To change information for existing products, you can: -->
 <!---->
@@ -601,7 +601,7 @@ There's no separate "cross-border product" type. The settings needed for cross-b
 <!---->
 <!--     In "All Orders", you can use **"Edit Order"** on an order's details page to change product quantities or add "Off Market / Unpublished" products. -->
 <!---->
-<!-- ## Key Differences in Excel Bulk Operations { #excel-diff } -->
+<!-- ## Key Differences in Excel Bulk Operations { #operate-product-excel-diff } -->
 <!---->
 <!-- When you work in bulk with Excel, the system decides between "add" and "update" based on **hidden columns**: -->
 <!---->
@@ -610,10 +610,10 @@ There's no separate "cross-border product" type. The settings needed for cross-b
 <!---->
 <!-- For full details, see [Import Products in Bulk from Excel](../bulk-operations/excel-import-products.md){ title="Import Products in Bulk from Excel" }. -->
 <!---->
-<!-- ## Important Notes and Reminders { #notes } -->
+<!-- ## Important Notes and Reminders { #specs-product-notes } -->
 <!---->
 <!-- - **Why SKUs matter:** If you use warehouse integration, a POS system, or Amazon FBA, **SKUs are required and must be unique**. When shipping with Amazon FBA, SKUs must match the Amazon warehouse for orders to be sent successfully. -->
-<!-- - **Multi-language:** If your site has multi-language enabled, switch language tabs to fill in each language when listing products (name, brief, options, and other fields support multi-language editing). See [Multi-Language: Fill In Product Content per Language](#multilang). -->
+<!-- - **Multi-language:** If your site has multi-language enabled, switch language tabs to fill in each language when listing products (name, brief, options, and other fields support multi-language editing). See [Multi-Language: Fill In Product Content per Language](#specs-product-multilang). -->
 <!-- - **Exclude from sync:** To keep a product off Google, LINE shopping, or Facebook Shops, enter " **gift** " or " **exclude product feed** " in the tags field. -->
 <!-- - **Import status:** Uploaded files are processed in a background job. Wait for the "Data import complete" email from the system. If the import fails, the email explains why. -->
 <!---->
@@ -625,7 +625,7 @@ There's no separate "cross-border product" type. The settings needed for cross-b
 <!--   [__Add Products in Bulk__](../bulk-operations/excel-import-products.md){ title="Import Products in Bulk from Excel" }    -->
 <!--   Import products in bulk with Excel and list them all at once. -->
 <!-- - :lucide-boxes:{ .lg }    -->
-<!--   [__Add Combo Products__](create-and-setup-combo-products.md#Add-a-Combo-Product){ title="Create and Set Up Product Combos" }   -->
+<!--   [__Add Combo Products__](create-and-setup-combo-products.md#operate-combo-products){ title="Create and Set Up Product Combos" }   -->
 <!--   Create specified or optional combo products. -->
 <!-- - :lucide-edit-3:{ .lg }    -->
 <!--   [__Edit Product Descriptions and Settings__](edit-product-description-settings.md){ title="Edit Product Descriptions and Product Settings" }    -->
@@ -665,14 +665,14 @@ There's no separate "cross-border product" type. The settings needed for cross-b
 <!---->
 <!-- ## About Adding and Updating Products -->
 <!---->
-<!-- In CYBERBIZ, you can add and update products in two ways: "[one at a time](#add-single)" or "Excel bulk import". -->
+<!-- In CYBERBIZ, you can add and update products in two ways: "[one at a time](#operate-product-add-single)" or "Excel bulk import". -->
 <!---->
 <!-- ## Add a Single Product -->
 <!---->
 <!-- For listing a small number of products, with detailed control over each setting. -->
 <!---->
 <!-- 1. Sign in to the CYBERBIZ admin and click "Products" > "All Products" > "Add Product". -->
-<!-- 2. Set the product information in order: [Basic settings](#basic-settings), [Product images](#product-images), [Product videos](#product-video), [Variants](#variants), [Inventory management](#inventory). -->
+<!-- 2. Set the product information in order: [Basic settings](#operate-product-basic-settings), [Product images](#reference-product-images), [Product videos](#reference-product-video), [Variants](#reference-product-variants), [Inventory management](#operate-product-inventory). -->
 <!-- 3. Click **Save** to apply the changes. -->
 <!---->
 <!-- ![Add a product](../../../assets/images/ec-商品-新增商品.en.png) -->
@@ -820,7 +820,7 @@ There's no separate "cross-border product" type. The settings needed for cross-b
 <!--   [__Add Products in Bulk__](../bulk-operations/excel-import-products.md){ title="Import Products in Bulk from Excel" }    -->
 <!--   Import products in bulk with Excel and list them all at once. -->
 <!-- - :lucide-boxes:{ .lg }    -->
-<!--   [__Add Combo Products__](create-and-setup-combo-products.md#Add-a-Combo-Product){ title="Create and Set Up Product Combos" }   -->
+<!--   [__Add Combo Products__](create-and-setup-combo-products.md#operate-combo-products){ title="Create and Set Up Product Combos" }   -->
 <!--   Create specified or optional combo products. -->
 <!-- - :lucide-edit-3:{ .lg }    -->
 <!--   [__Edit Product Descriptions and Settings__](edit-product-description-settings.md){ title="Edit Product Descriptions and Product Settings" }    -->

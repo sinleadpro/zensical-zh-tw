@@ -95,7 +95,7 @@ hide: []
 2. **Select orders**: Select the orders to ship in the order list. **Make sure all selected orders use the same delivery method** (for example, all 7-Eleven pickup).
 3. **Download**: Open the "**Actions...**" drop-down in the upper right and select "**Print B2C bulk shipping labels and change to 'Shipped'**"[^1].
 4. **Confirm**: When the dialog asks "Print B2C bulk shipping labels and change to Shipped?", click **Yes**.
-5. **Download the files**: The system generates tracking numbers and downloads an archive with the shipping data. The delivery status in the order list changes to "**Shipped**," and the order details page shows "[Shipped (Awaiting Carrier Pickup)](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ title="Shipment Status Tooltip Text" }."
+5. **Download the files**: The system generates tracking numbers and downloads an archive with the shipping data. The delivery status in the order list changes to "**Shipped**," and the order details page shows "[Shipped (Awaiting Carrier Pickup)](../home-delivery/shipping-status-tooltip.md#reference-shipping-status){ title="Shipment Status Tooltip Text" }."
 
 ![Download B2C bulk shipping labels](../../../assets/images/EC-訂單-所有訂單-下載b2c大宗託運單.en.png){ title="Download B2C Bulk Shipping Labels" }
 
@@ -132,7 +132,7 @@ Deliver the items to the logistics center before the deadline. Expired tracking 
     - For full receiving addresses, hours, and receiving units, see
 [Logistics Center Receiving Information](../../payments-and-logistics/references/cvs-b2c-logistics-center-reference.md#reference-cvs-b2c-centers-list){ title="Logistics Center Receiving Information" data-preview }.
     - [Packing and delivery vehicles by channel](../../payments-and-logistics/references/cvs-b2c-logistics-center-reference.md#reference-cvs-b2c-acceptance-rules){ title="Logistics Center Receiving Information" data-preview }.
-3. **Logistics center receipt**: After the logistics center receives the goods, the order status changes from "Awaiting Carrier Pickup" to "[Shipped (In Transit)](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ title="Shipment Status Tooltip Text" data-preview }" automatically.
+3. **Logistics center receipt**: After the logistics center receives the goods, the order status changes from "Awaiting Carrier Pickup" to "[Shipped (In Transit)](../home-delivery/shipping-status-tooltip.md#reference-shipping-status){ title="Shipment Status Tooltip Text" data-preview }" automatically.
 
 !!! tip "Pickup SMS Notifications"
     After the items arrive at the customer's chosen store, the system sends pickup SMS notifications on **day 1** and **day 4**.
@@ -258,7 +258,7 @@ If the customer's pickup store closes (for renovation, permanent closure, and so
 ??? quote "How do I confirm the logistics center has received the goods?"
     [](){ #faq-cvs-b2c-shipping-confirm-receipt }
 
-    After the logistics center signs for the goods, the order status changes from "Awaiting Carrier Pickup" to "**[Shipped (In Transit)](../home-delivery/shipping-status-tooltip.md#shipping-status-text-type){ title="Shipment Status Tooltip Text" }**" automatically. Check the latest status in the order list or on the order details page.
+    After the logistics center signs for the goods, the order status changes from "Awaiting Carrier Pickup" to "**[Shipped (In Transit)](../home-delivery/shipping-status-tooltip.md#reference-shipping-status){ title="Shipment Status Tooltip Text" }**" automatically. Check the latest status in the order list or on the order details page.
 
 ??? quote "What's the difference between B2C bulk shipping and regular C2C convenience store pickup?"
     [](){ #faq-cvs-b2c-shipping-vs-c2c }

@@ -75,7 +75,7 @@ Set up threshold discounts for multi-level product categories. When an order qua
 
 ![Multi-Level Category Threshold Discounts](../../../assets/images/ec-marketing-product-multi-level-full-discount-hero.zh-tw.png){ title="商品多層級分類滿額折扣" .hero-page }
 
-## About Multi-Level Category Threshold Discounts
+## About Multi-Level Category Threshold Discounts { #overview-discount }
 
 Multi-Level Category Threshold Discounts is a **promotion applied by product category level**. You link a discount to a **top-level or mid-level category**. When the amount of products from that category in an order reaches the threshold, the system **applies the discount to each item** in the category.
 !!! note "Category Levels"
@@ -85,13 +85,13 @@ Multi-Level Category Threshold Discounts is a **promotion applied by product cat
 	- **Sub-category**: The lowest level, mapped to the actual product source (custom collection, smart collection, or product type).
 
 
-### Prerequisites
+### Prerequisites { #overview-discount-conditions }
 
 - [x] Finish **Multi-level Product Categories Setting** before you create a multi-level category threshold discount. Learn [how to set up multi-level product categories](../../products/categories-and-tags/multi-level-category-setup.md).
 
 ---
 
-### Before You Start
+### Before You Start { #overview-discount-requirements }
 
 - **Discount order**: Within one order, discounts are applied by **priority value**. Higher values are calculated first.
 - **Category stacking**: If you add a **top-level category** and its **mid-level or sub-categories** to the same promotion, the discount is **counted only once**.
@@ -100,7 +100,7 @@ Multi-Level Category Threshold Discounts is a **promotion applied by product cat
 
 ---
 
-### Discount Example
+### Discount Example { #overview-discount-discount-calculation }
 
 - Promotion: Spend **NT$1,000 on products in the category, get NT$30 off each item**
 - Qualifying items in the order: 3
@@ -108,16 +108,16 @@ Multi-Level Category Threshold Discounts is a **promotion applied by product cat
 
 !!! info "The discount applies to each qualifying item."
 
-## Steps
+## Steps { #operate-discount }
 
-### Add A Category Promotion
+### Add A Category Promotion { #operate-discount-add-campaign }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Product Multi Level Filter Full Discount**.
 2. Click **Add Category Campaign** and enter a promotion name.
 
 ---
 
-### Add Categories To The Promotion
+### Add Categories To The Promotion { #operate-discount-campaign }
 
 1. Select the **top-level or mid-level categories** to discount.
 2. Click **Add Categories to Campaign**.
@@ -127,7 +127,7 @@ Multi-Level Category Threshold Discounts is a **promotion applied by product cat
 
 ---
 
-### Set The Promotion Details And Period
+### Set The Promotion Details And Period { #operate-discount-settings-campaign-content }
 
 Go to the **Campaign Settings** tab and set the following:
 
@@ -138,13 +138,13 @@ Go to the **Campaign Settings** tab and set the following:
 - **Campaign Priority Weight**: Higher values are applied first.
 - **Start/End Time**: Set the promotion period. The discount ends automatically when the promotion ends.
 
-### What Customers See
+### What Customers See { #operate-discount-intro-details }
 
 Once the promotion is active, customers see the discount for qualifying products at checkout.
 
 ![Storefront Discount Display](../../../assets/images/ec-multi-level-product-full-discount-frontend.zh-tw.png){ title="前台折扣顯示" }
 
-## FAQ
+## FAQ { #faq-discount }
 
 ??? quote "Can the discount be applied twice?"
     No. Even if you add a top-level category and its sub-categories to the promotion, the discount is counted only once.

@@ -2,7 +2,7 @@
 title: "Report Issues with Jam"
 description: "Record your screen with Jam and share the link with support to help troubleshoot issues."
 created: 2026-06-23 16:45
-last_modified: 2026-06-23 17:04
+last_modified: 2026-10-15 16:31
 lang: en-US
 type: guide
 author: Jase
@@ -51,7 +51,7 @@ hide: []
 
 ![](../assets/images/ec-use-jam-to-report-hero.zh-tw.en.png){ .hero-page }
 
-## Before You Start
+## Before You Start { #prerequisites-jam }
 
  - Include reproduction steps and related product or action details so we can resolve the issue faster.
  - Before you record or take screenshots, remove or mask all sensitive data so no personal information appears.
@@ -59,9 +59,9 @@ hide: []
 !!! tip "A picture or video beats a thousand words"
     Just capture or record **what you see, what you do, and what happens** to make issue reports simpler, clearer, and more effective.
 
-## Steps
+## Steps { #operate-jam }
 
-### Install the Jam Chrome Extension
+### Install the Jam Chrome Extension { #operate-jam-install }
 
 1. Open the [Jam page in the Chrome Web Store](https://chromewebstore.google.com/detail/jam/iohjgamcilhbgmhbnllfolmkmmekfmci).
 2. Click **Add to Chrome > Add extension** to finish installing.
@@ -72,7 +72,7 @@ hide: []
 
 ---
 
-### Record and Reproduce the Issue
+### Record and Reproduce the Issue { #operate-jam-record }
 
 1. Click the Jam 🍓 icon in the top-right of the Chrome toolbar.  
 2. Choose a screenshot or a recording:
@@ -89,13 +89,13 @@ hide: []
 
 ---
 
-### Share the Video with Support and Engineering
+### Share the Video with Support and Engineering { #operate-jam-share }
 
 1. Click **Share** or **Copy link**.  
 2. Email the link to CYBERBIZ support: [support@cyberbiz.io](mailto:support@cyberbiz.io).
 3. If you need to include device specs, open system info in Jam settings and share it as well.  
 
-## FAQ
+## FAQ { #faq-jam }
 
 ??? quote "Is Jam free?"
     Yes. Basic recording and sharing are free.

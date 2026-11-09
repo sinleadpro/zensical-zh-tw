@@ -33,7 +33,7 @@ features:
   - 部分出貨退款
 prerequisites: []
 related:
-  - ec/orders/references/auto-refund-timeline/
+  - ec/orders/order-refund-process/
   - ec/orders/returns-refunds/cvs-unclaimed-order/
   - ec/orders/tcat-quick-store/tcat-quick-store-overdue/
 tags:
@@ -103,7 +103,7 @@ How these three statuses update depends on whether the whole order shipped toget
 
 ### Payment Methods That Support Automatic Refunds { #reference-overdue-cvs-refund-flow-auto-refund-payment }
 
-For each payment provider's automatic refund coverage and deadlines, see the [Automatic Card Refund Time Limits](auto-refund-timeline.md){ title="Automatic Card Refund Time Limits" data-preview }.
+For each payment provider's automatic refund coverage and deadlines, see [Refund Methods and Operations](../order-refund-process/#specs-order-refund){ title="Refund Methods and Operations" data-preview }.
 
 For unclaimed convenience store orders (not picked up within 4–7 days), every payment method that supports automatic refunds is well within its refund deadline, so **the payment deadline usually isn't an issue**. Whether an automatic refund is triggered depends on the combined conditions below.
 
@@ -115,7 +115,7 @@ An order must meet **all** of the following conditions for the system to refund 
 
 - [x] **Delivery status:** Changes from "Shipped" to "Unclaimed"
 - [x] **Payment status:** Is "Payment Received"
-- [x] **Payment method:** Is listed in the [Automatic Card Refund Time Limits](auto-refund-timeline.md){ title="Automatic Card Refund Time Limits" data-preview } (and still within the refund deadline)
+- [x] **Payment method:** Is a payment method marked as supporting "Automatic System Refund" in [Refund Methods and Operations](../order-refund-process.md#specs-order-refund){ title="Refund Methods and Operations" data-preview }
 - [x] **Whole order shipped with the same convenience store carrier:** Not a partial shipment
 - [x] **"No Automatic Refund for Unclaimed Convenience Store Orders" isn't turned on**
 - [x] **Your plan supports automatic refund payment methods**
@@ -138,7 +138,7 @@ If any condition isn't met, the order goes through the manual refund process, an
 ## References { #reference-overdue-cvs-refund-flow }
 
 * [Handle Unclaimed Convenience Store Orders](../returns-refunds/cvs-unclaimed-order.md){ title="Handle Unclaimed Convenience Store Orders" }
-* [Automatic Card Refund Time Limits](auto-refund-timeline.md){ title="Automatic Card Refund Time Limits" }
+* [Refund Methods and Operations](../order-refund-process/){ title="Refund Methods and Operations" }
 * [EZCAT Quick Store Delivery Overdue Rules](../tcat-quick-store/tcat-quick-store-overdue.md){ title="EZCAT Quick Store Delivery Overdue Rules" }
 
 

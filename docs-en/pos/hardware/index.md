@@ -68,13 +68,13 @@ To keep the POS system running reliably and peripherals connected stably, config
 { .doc-badge }
 
 
-## Usage Notes
+## Usage Notes { #prerequisites-hardware }
 
 - **Initial Setup Planning**: Before rolling out the POS, merchants can use this specification table to check whether their existing devices are sufficient.
 - **Peripheral Support Limits**: All POS peripherals provided by CYBERBIZ (such as invoice printers, label printers, and cash drawers) **are supported only on Windows**.
 - **Tablet Support**: If you use a Windows tablet, make sure it has enough USB ports to connect peripheral devices.
 
-## System Environment Requirements
+## System Environment Requirements { #intro-hardware }
 
 
 | | | Windows Desktop | Windows Laptop | Mac | iPad | Android Tablet |

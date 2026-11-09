@@ -2,7 +2,7 @@
 title: "Set Up And Send EDM Newsletters"
 description: "Create EDM content, choose recipients, and send newsletters to members."
 created: 2026-03-10 00:28
-last_modified: 2026-07-02 13:02
+last_modified: 2026-10-27 14:10
 lang: en-US
 type: guide
 author: Jase
@@ -60,16 +60,16 @@ hide:
 
 ![EDM settings page](../../assets/images/ec-訊息推播-發送edm.en.png){ .hero-page }
 
-## What Is An EDM Newsletter?
+## What Is An EDM Newsletter? { #intro-edm }
 
 **EDM (email newsletter marketing)** is a key tool for email marketing. Send news or promotions to build brand loyalty and increase conversions.
 
-## What Are The EDM Sending Limits?
+## What Are The EDM Sending Limits? { #prerequisites-edm }
 
 *   **Recipients**: EDMs can only be sent to website members who have registered and opted in to newsletters.
 
 
-## Create EDM Content
+## Create EDM Content { #operate-edm-create }
 
 1. **Open the page**: Log in to the CYBERBIZ admin and go to **Push Notifications > Send Marketing Emails**.
 2. **Edit the content**: Click **Add EDM** or the **edit icon** :lucide-pencil: in the list to open the editor and set the following:
@@ -86,7 +86,7 @@ hide:
 
 ---
 
-## Choose EDM Recipients
+## Choose EDM Recipients { #operate-edm-audience }
 
 After you edit the title and content, click the EDM name to open **Choose recipients**:
 
@@ -102,16 +102,22 @@ After you edit the title and content, click the EDM name to open **Choose recipi
 
 ---
 
-## View EDM Performance
+## View EDM Performance { #operate-edm-results }
 
 After sending, go to **Send Marketing Emails > EDM紀錄** to see performance.
 
-*   **Key metrics**: Open rate and link clicks.
+*   **Basic metrics**: Includes **Time**, **Name**, **Sent Amount**, and **Cost**.
+*   **Advanced metrics**: Includes **Open rate** and **Number of times the links are clicked**.
+
+    !!! info "Plan Availability"
+        The **Open rate** and **Number of times the links are clicked** metrics are available only on the **Expert, Expert PLUS, and Enterprise** plans.
+
+
 *   **Update time**: Data isn't real time. It's updated **daily at 1:30 AM**.
 
 ![](../../assets/images/ec-訊息推播-edm發送紀錄.en.png)
 
-## Next Steps
+## Next Steps { #next-steps-edm }
 
 <div class="grid cards" markdown>
 
@@ -121,7 +127,7 @@ After sending, go to **Send Marketing Emails > EDM紀錄** to see performance.
 
 </div>
 
-## FAQ
+## FAQ { #faq-edm }
 
 ??? quote "Why didn't I receive my test email?"
     Check your spam folder first. Also, titles with too many sensitive words (such as "instant cash", "get rich", "on sale", or "$$$") are easily flagged as advertising by mail servers. Remove special symbols from the title before sending.

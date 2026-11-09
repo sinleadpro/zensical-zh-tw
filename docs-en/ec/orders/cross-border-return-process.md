@@ -80,7 +80,7 @@ When a member requests a return or you need to start a return manually, you can 
     - **Profit sharing**: Profit sharing is calculated as soon as an order reaches **Completed**. Later returns **don't affect** profit sharing records already created.
 
 
-## Step 1: Start the Return and Arrange Reverse Logistics
+## Step 1: Start the Return and Arrange Reverse Logistics { #operate-xb-return-start-reverse }
 
 Depending on who starts the return, the **Return Status** in the order list shows differently:
 
@@ -95,7 +95,7 @@ Steps:
 ![](../../assets/images/EC-後台-訂單-所有訂單-操作退貨審查01.en.png)
 
 
-### Amazon Reverse Logistics Pickup (Amazon FBA Orders Only)
+### Amazon Reverse Logistics Pickup (Amazon FBA Orders Only) { #operate-xb-return-amazon-fba }
 
 If the order shipped with Amazon FBA, you can create a reverse logistics shipping label through Amazon. Follow the steps below.
 
@@ -118,7 +118,7 @@ If the order shipped with Amazon FBA, you can create a reverse logistics shippin
 
 
 
-## Step 2: Review the Return
+## Step 2: Review the Return { #operate-xb-return-review }
 
 
 === "Full Return"
@@ -162,7 +162,7 @@ If the order shipped with Amazon FBA, you can create a reverse logistics shippin
 
 
 
-## FAQ
+## FAQ { #faq-xb-return }
 
 ??? quote "Why does the order status change automatically when I use reverse logistics?"
     With system-integrated reverse logistics, after the member hands the package to the carrier, the system receives the carrier's signal and automatically updates the status from `Returning` to `Reviewing Return`, so you can track progress.

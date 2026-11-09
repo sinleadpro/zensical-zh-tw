@@ -78,7 +78,7 @@ When a Quick Delivery order has out-of-stock items or exceeds the size limit, th
 
 ---
 
-## Before You Start
+## Before You Start { #prerequisites-oos-partial }
 
 !!! danger "Key Limit: Partial Shipment Only Once"
     You can do a partial shipment of a Quick Delivery order **only once**. As soon as you confirm the shipment, the system calls a driver right away. Items you didn't select are treated as not delivered, and you can't call a driver for the order again.
@@ -90,9 +90,9 @@ When a Quick Delivery order has out-of-stock items or exceeds the size limit, th
 - **Refunds**: Quick Delivery orders are all prepaid. After cancellation or a return, the system automatically starts a refund to the original payment method (such as a credit card refund).
 
 
-## Steps
+## Steps { #operate-oos-partial }
 
-### Task 1: Ship Part of the Order
+### Task 1: Ship Part of the Order { #operate-oos-partial-partial-ship }
 
 When you decide to ship only some items in the order, follow these steps:
 
@@ -111,7 +111,7 @@ After the partial shipment, refund the items that weren't shipped:
     ![](../../assets/images/EC-後台-訂單-門市訂單-部分退款01.en.png){ .screenshot }
 3. Click **Confirm refund**. The system automatically starts the payment refund.
 
-### Task 2: Cancel the Whole Order (Reject the Order)
+### Task 2: Cancel the Whole Order (Reject the Order) { #operate-oos-partial-cancel }
 
 If you can't supply the order at all and need to cancel it:
 
@@ -125,7 +125,7 @@ If you can't supply the order at all and need to cancel it:
     - If the cancellation succeeds, the status changes to **Shipping Exception**, and you need to check your email to confirm the result.
     - If it fails, the delivery status shows **Matching Can't Be Canceled**. The driver still comes to the store to pick up, and you pay the shipping fee.
 
-## FAQ
+## FAQ { #faq-oos-partial }
 
 ??? quote "After a partial shipment, I found I missed an item. Can I ship it separately?"
     No. Quick Delivery orders use **one-time matching**: as soon as you confirm, the dispatch request goes to the delivery platform. If you missed an item, we recommend refunding it and asking the shopper to order again, or arranging with the shopper to send it by another shipping method (at your expense).

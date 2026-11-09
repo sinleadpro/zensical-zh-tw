@@ -64,11 +64,11 @@ icon: lucide/megaphone
 hide:
 ---
 
-## Meta ASC Overview
+## Meta ASC Overview { #overview-meta-asc }
 
 **Meta ASC (Advantage+ Shopping Campaign)** is an automated ad product that Meta developed for e-commerce. Through deep integration with Meta, CYBERBIZ lets merchants create one-stop ad campaigns and track results directly in the storefront admin.
 
-## Three Core Features of ASC Ads
+## Three Core Features of ASC Ads { #intro-meta-asc }
 
 - [x] **Fully automated audience and creative optimization**: The system automatically finds the best-fit target audience, so you do not need to configure complex audience parameters manually.
 - [x] **Fast learning and convergence**: New ad accounts can build up data quickly and reach strong performance in a short time.
@@ -81,7 +81,7 @@ hide:
     *   **High return on investment**: ASC ads run through the CYBERBIZ admin achieve an average **ROAS (return on ad spend) of 4.56**.
     *   **Above industry average**: Compared with the typical e-commerce industry average ROAS of 3 to 3.5, results improve by **about 30%**.
 
-## Advantages of Managing Ads in CYBERBIZ
+## Advantages of Managing Ads in CYBERBIZ { #overview-meta-asc-cyberbiz-ads-backend }
 
 Merchants do not need to switch frequently to Meta Ads Manager. They can complete every task in the CYBERBIZ admin:
 
@@ -89,7 +89,7 @@ Merchants do not need to switch frequently to Meta Ads Manager. They can complet
 - [x] **Deep data integration**: Fully connects storefront orders, product inventory, and consumer behavior data to help AI make more precise ad delivery decisions.
 - [x] **All-in-one management**: From adding budget funds and selecting catalog product sets to performance analysis, the entire workflow can be completed in the storefront admin.
 
-## Required Prerequisites Before Launching Ads
+## Required Prerequisites Before Launching Ads { #prerequisites-meta-asc }
 
 <div class="grid cards" markdown>
 
@@ -104,13 +104,13 @@ Merchants do not need to switch frequently to Meta Ads Manager. They can complet
     You must first create a Meta ad account in the admin and complete the top-up.
 
 -   :material-numeric-3-circle:{ .lg }
-    **[Link Facebook Pixel](create-meta-ad-account-top-up.md#像素設定-pixel){ title="Create a Meta ad account and complete the top-up" }**
+    **[Link Facebook Pixel](create-meta-ad-account-top-up.md#operate-meta-account-steps-settings-pixel){ title="Create a Meta ad account and complete the top-up" }**
 
     Ensure the storefront is correctly linked so that ASC catalog ads can properly pull in the collected product information.
 
 </div>
 
-## Webinar Videos
+## Webinar Videos { #intro-meta-asc-overview-meta-asc }
 
 ??? quote-clean "Online Ad Features Webinar"
     <div style="position: relative; padding-bottom: 56.25%; height: 0;">
@@ -136,7 +136,7 @@ Merchants do not need to switch frequently to Meta Ads Manager. They can complet
       </iframe>
     </div>
 
-## Next Steps
+## Next Steps { #next-steps-meta-asc }
 
 <div class="grid cards" markdown>
 
@@ -157,7 +157,7 @@ Merchants do not need to switch frequently to Meta Ads Manager. They can complet
 </div>
 
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-meta-asc }
 
 ??? quote "How much budget do I need to start running ASC ads?"
 

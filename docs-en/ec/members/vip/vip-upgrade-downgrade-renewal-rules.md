@@ -52,9 +52,9 @@ hide: []
 ---
 # Upgrade / Downgrade / Renewal Rules
 
-## Execution Rules
+## Execution Rules { #specs-vip-rules }
 
-### Upgrade Mechanism
+### Upgrade Mechanism { #specs-vip-rules-upgrade }
 
 *   **Takes Effect Immediately**: The member's level changes as soon as the requirements are met, and the benefits are available immediately.
 *   **Validity Period Calculation**: The VIP start date displayed on the storefront is calculated from the day after the Upgrade date.
@@ -80,13 +80,13 @@ hide: []
         When a high-value purchase makes the member eligible for both "All VIP (Level 2)" and "High-Value VIP (Level 1)," the member is upgraded across groups to "High-Value VIP (Level 1)" and only claims the Upgrade gift for "High-Value VIP (Level 1)." The system does not retroactively issue rewards for other All VIP levels.
 
 
-### Downgrade Mechanism
+### Downgrade Mechanism { #specs-vip-rules-downgrade }
 
 *   **Immediate Adjustment**: When an order becomes invalid, the system recalculates immediately. If the remaining amount is insufficient, the system performs Downgrade.
 *   **Retroactive Recalculation**: The validity period after Downgrade is recalculated based on the date of the member's **last valid order**.
 *   **Benefits Are Not Reclaimed**: After Downgrade, the system **does not automatically deduct** any issued Upgrade gifts or bonus points.
 
-### Renewal Mechanism
+### Renewal Mechanism { #specs-vip-rules-renewal }
 
 When a VIP validity period expires, the system evaluates the member's activity during that period to determine whether to renew or downgrade the membership.
 
@@ -96,7 +96,7 @@ When a VIP validity period expires, the system evaluates the member's activity d
 *   **Return to Regular Member**: If the member does not meet any VIP threshold, their status returns to Regular Member.
 
 
-## How To Perform Upgrade / Downgrade / Renewal
+## How To Perform Upgrade / Downgrade / Renewal { #operate-vip-rules }
 
 When planning a VIP program, consider two questions:
 
@@ -105,7 +105,7 @@ When planning a VIP program, consider two questions:
 
 These two considerations are configured differently by plan:
 
-### Comparison Of Plan Settings
+### Comparison Of Plan Settings { #operate-vip-rules-plan-diff }
 
 | Your Consideration | System Logic | Other Plans | Enterprise Plan |
 | :--- | :--- | :--- | :--- |
@@ -115,7 +115,7 @@ These two considerations are configured differently by plan:
 
 
 
-### How Each Mechanism Calculates Periods
+### How Each Mechanism Calculates Periods { #operate-vip-rules-calc }
 
 Now that you understand the field mappings, see how the system selects time periods for different actions:
 
@@ -143,7 +143,7 @@ Now that you understand the field mappings, see how the system selects time peri
 
 
 
-### Upgrade Example
+### Upgrade Example { #operate-vip-rules-upgrade-example }
 
 === "Other Plans"
 
@@ -181,7 +181,7 @@ Now that you understand the field mappings, see how the system selects time peri
     ![](https://www.cyberbiz.io/support/wp-content/uploads/圖示範例-EC-會員-VIP-升等機制01.png)
 
 
-### Downgrade Example
+### Downgrade Example { #operate-vip-rules-downgrade-example }
 
 === "Other Plans"
 
@@ -221,7 +221,7 @@ Now that you understand the field mappings, see how the system selects time peri
 
     ![Create All VIP Program](https://www.cyberbiz.io/support/wp-content/uploads/圖示範例-EC-會員-VIP-降等機制01.png)
 
-### Renewal Example
+### Renewal Example { #operate-vip-rules-renewal-example }
 
 === "Other Plans"
 

@@ -85,7 +85,7 @@ Before you offer in-store services, you need to create store information in the 
     - **Integrate offline physical stores**: Sync your physical store information to the online store and use those stores as redemption points for **Store Pickup** and **e-vouchers**.
 
 
-## Store Type Comparison
+## Store Type Comparison { #specs-create-stores }
 
 Before you create a store, choose the correct store type using the table below:
 
@@ -95,9 +95,9 @@ Before you create a store, choose the correct store type using the table below:
 | **POS Store** | Merchants using the online store with a POS system | ✓ | ✕ | ✓ |
 
 
-## Setup Steps
+## Setup Steps { #operate-create-stores }
 
-### Create a Single Store
+### Create a Single Store { #operate-create-stores-single }
 
 1. Log in to the CYBERBIZ admin panel and go to **Payment and Logistics > Store Pickup Settings**.
 2. Click **Add Store** in the top-right corner.
@@ -110,7 +110,7 @@ Before you create a store, choose the correct store type using the table below:
 !!! tip "Set a Default Store"
     If you have multiple stores with the same shipping and payment rules, set one of them as the **Default Store**. When you create a new store later, click **Use default store data** to apply its settings quickly.
 
-### Create Stores in Bulk
+### Create Stores in Bulk { #operate-create-stores-batch }
 
 If you need to create multiple stores at once and turn on the **Store Pickup** feature, use **Bulk Import** to create them together.
 
@@ -140,7 +140,7 @@ If you need to create multiple stores at once and turn on the **Store Pickup** f
     - When you run a bulk import and need to add only one store type, clear the content of the other tab to avoid duplicate creation or import errors.
 
 
-### Create a Default Store
+### Create a Default Store { #operate-create-stores-default }
 
 If you have multiple stores that need the same shipping fees and payment methods, set one store up first as the **Default Store**. Each time you add a store, you can apply that store's settings with one click, so you don't need to re-enter the same values for every store.
 
@@ -152,13 +152,13 @@ If you have multiple stores that need the same shipping fees and payment methods
 3. When you create other stores later, select **Use default store data** on the edit page.
 4. The system automatically fills in the **Payment Setting** and **Shipping Fee Setting** information from the default store.
 
-## Add a Store Administrator
+## Add a Store Administrator { #operate-create-stores-admin }
 
 1. Go to **Website Management > User Account Settings** and click **Add Store Administrator**.
 2. Enter the store administrator account information.
 3. After the administrator is added, it appears in the administrator list.
 
-## More Actions
+## More Actions { #next-steps-create-stores }
 
 After you create a store, click the links below to configure the services you want to offer:
 
@@ -178,7 +178,7 @@ After you create a store, click the links below to configure the services you wa
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-create-stores }
 
 
 ??? quote "After you enable the POS system, can you create **General Store** orders to process them?"

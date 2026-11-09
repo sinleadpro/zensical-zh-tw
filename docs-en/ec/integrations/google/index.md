@@ -13,7 +13,7 @@ hide:
   - feedback
 ---
 
-## Basic Setup and Account Verification
+## Basic Setup and Account Verification { #operate-google }
 
 <div class="grid cards" markdown>
 
@@ -53,7 +53,7 @@ hide:
 
 ---
 
-## Google Merchant Center and Shopping Ads
+## Google Merchant Center and Shopping Ads { #intro-google }
 
 <div class="grid cards" markdown>
 
@@ -93,7 +93,7 @@ hide:
 
 ---
 
-## Google Ads Campaigns and Conversion Tracking
+## Google Ads Campaigns and Conversion Tracking { #overview-google-ads-conversions }
 
 <div class="grid cards" markdown>
 
@@ -117,7 +117,7 @@ hide:
 
 ---
 
-## Traffic Tracking and Data Analysis
+## Traffic Tracking and Data Analysis { #operate-google-tracking-data-analysis }
 
 <div class="grid cards" markdown>
 
@@ -173,7 +173,7 @@ hide:
 
 ---
 
-## Search Management and Site Security
+## Search Management and Site Security { #operate-google-search-manage }
 
 <div class="grid cards" markdown>
 

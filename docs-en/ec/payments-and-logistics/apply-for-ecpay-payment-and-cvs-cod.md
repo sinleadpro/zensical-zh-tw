@@ -77,7 +77,7 @@ ECPay is a widely used third-party payment provider in Taiwan. It offers a range
     ECPay payment and CVS logistics integration is available only to merchants on the **Professional, Advanced, and Expert plans** who have **not enabled CYBERBIZ PAYMENTS**. If you already use CYBERBIZ PAYMENTS, its system includes full payment and CVS logistics features, so you do not need to connect ECPay separately.
 
 
-## Usage Notes
+## Usage Notes { #prerequisites-ecpay-cvs }
 
 Before you start, choose the path that matches your service needs:
 
@@ -87,11 +87,11 @@ Before you start, choose the path that matches your service needs:
 - **Existing ECPay members (upgrading to a contracted merchant)**: See step 2-2 to complete the contract negotiation process.
 
 
-## Step 1: Register an ECPay Account and Basic Information
+## Step 1: Register an ECPay Account and Basic Information { #operate-ecpay-cvs-register }
 
 Whether you need only payments or both payments and logistics services, the first step is to create an account on the ECPay website.
 
-### 1. Account Registration and Member Category
+### 1. Account Registration and Member Category { #operate-ecpay-cvs-account }
 
 1. Go to the [ECPay website](https://www.ecpay.com.tw/) and click **Register** in the upper-right corner.
 2. Set a login account and password.
@@ -102,7 +102,7 @@ Whether you need only payments or both payments and logistics services, the firs
 
 ![](../../assets/images/綠界-後台-註冊綠界帳號02.en.png)
 
-### 2. Fill in Company Information
+### 2. Fill in Company Information { #operate-ecpay-cvs-company }
 
 Make sure the information matches your CYBERBIZ General Settings to speed up review:
 
@@ -118,7 +118,7 @@ Make sure the information matches your CYBERBIZ General Settings to speed up rev
 
     ![](../../assets/images/綠界-後台-註冊綠界帳號03.en.png)
 
-### 3. Fill in Website Information
+### 3. Fill in Website Information { #operate-ecpay-cvs-site }
 
 - **Contact Information**: Contact details such as **email, phone number, and address** must match the **Contact Information** shown on the storefront.
 - **Website URL**: Enter your official CYBERBIZ domain. It must match the **Domain Name** in **Website Management > Domain**, and your website must have at least one product listed.
@@ -134,11 +134,11 @@ Make sure the information matches your CYBERBIZ General Settings to speed up rev
     After you submit your application, ECPay typically needs **3-5 business days** to review it. You will receive the result by email.
 
 
-## Step 2: Apply for CVS Logistics Service (Optional)
+## Step 2: Apply for CVS Logistics Service (Optional) { #operate-ecpay-cvs-logistics }
 
 If you need the "CVS cash on delivery" feature, complete logistics activation before the account is approved or before contract negotiations begin.
 
-### 1. Apply for Logistics Service
+### 1. Apply for Logistics Service { #operate-ecpay-cvs-apply-logistics }
 
 1. Go to the ECPay back office and go to [Apply for Logistics Shipping Service](https://www.ecpay.com.tw/IntroTransport).
 2. **Select a Logistics Mode**:
@@ -147,7 +147,7 @@ If you need the "CVS cash on delivery" feature, complete logistics activation be
 
 ![](../../assets/images/綠界-後台-申請超商物流01.en.png)
 
-### 2. Contract Negotiation
+### 2. Contract Negotiation { #operate-ecpay-cvs-contract }
 
 1. Go to the [ECPay back office](https://vendor.ecpay.com.tw/User/LogOn_Step1) and click **Contract Negotiation** in the upper-right corner.
     ![](../../assets/images/綠界-後台-申請超商物流-合約商議01.en.png)
@@ -159,7 +159,7 @@ If you need the "CVS cash on delivery" feature, complete logistics activation be
 3. Upload at least 3 images of your business premises.
     ![](../../assets/images/綠界-後台-申請超商物流-合約商議05.en.png)
 
-### 3. Confirm the Review Is Complete
+### 3. Confirm the Review Is Complete { #operate-ecpay-cvs-check-review }
 
 1. Go to the [ECPay back office](https://vendor.ecpay.com.tw/User/LogOn_Step1), then go to **Vendor Zone > Payment Review Information**.
 2. Check the fields to make sure the review has passed.
@@ -180,11 +180,11 @@ If you need the "CVS cash on delivery" feature, complete logistics activation be
 
 
 
-## Step 3: Set up CYBERBIZ Back-Office Integration
+## Step 3: Set up CYBERBIZ Back-Office Integration { #operate-ecpay-cvs-bind }
 
 After you get your ECPay vendor number, you can complete the binding in the CYBERBIZ back office.
 
-### 1. Enable the Payment Service
+### 1. Enable the Payment Service { #operate-ecpay-cvs-enable-pay }
 
 1. Go to **Payment and Logistics > Payment Settings > ECPay**.
 2. In the **Vendor Number** field, paste the store code you got from the ECPay back office.
@@ -198,14 +198,14 @@ After you get your ECPay vendor number, you can complete the binding in the CYBE
 !!! info "Credit Card Installment Feature Overview"
     Credit card installment payments are usually available only to **ECPay contracted merchants**. Confirm that you have completed **Contract Negotiation** and that ECPay has approved the installment feature.
 
-### 2. Enable the CVS Logistics Service (Optional)
+### 2. Enable the CVS Logistics Service (Optional) { #operate-ecpay-cvs-enable-logistics }
 
 1. Go to **Payment and Logistics > Convenience Store Logistics > ECPay CVS**.
 2. After you fill in the basic information, turn on the **Cash on Delivery / Pickup without Payment** toggles for **7-11/FamilyMart**, and set the amount threshold.
 
 
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-ecpay-cvs }
 
 ??? quote "Are the review processes for ECPay payments and CVS logistics separate?"
     Yes. After the basic account is approved, payment services usually activate first. Logistics services and contracted merchant negotiations require additional review time. We recommend submitting all information at once to speed up the process.
@@ -217,7 +217,7 @@ After you get your ECPay vendor number, you can complete the binding in the CYBE
     - **Online Inquiry**: Use the customer service widget in the lower-right corner of the ECPay website.
 
 
-## Next Steps
+## Next Steps { #next-steps-ecpay-cvs }
 
 <div class="grid cards" markdown>
 

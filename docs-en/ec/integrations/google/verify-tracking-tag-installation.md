@@ -60,7 +60,7 @@ hide: []
 
 ![Verify tracking code with Google Tag Assistant](../../../assets/images/ec-第三方整合-google設定-googletagassistantconsole.en.png){ title="Verify tracking code with Google Tag Assistant" .hero-page }
 
-## Google Tag Assistant Overview
+## Google Tag Assistant Overview { #overview-verify-tracking }
 
 Use **Google Tag Assistant** to confirm that **Google Analytics (GA4)**, **Google Tag Manager (GTM)**, or **Google Ads** tracking codes are installed correctly on your site and check their status in real time.
 
@@ -71,9 +71,9 @@ This tool comes in two forms. We recommend using both to get a complete view of 
     *   **Chrome extension**: Best for **quickly checking** whether the tracking code loads and runs successfully.
     *   **Web version**: Best for **verifying event triggers and debugging**. It fully records user actions on your site and tag parameters.
 
-## Steps
+## Steps { #operate-verify-tracking }
 
-### Install and Use the Chrome Extension
+### Install and Use the Chrome Extension { #operate-verify-tracking-use-chrome }
 
 1.  **Install the extension**: Go to the Chrome Web Store, search for **Tag Assistant**, open its listing page, and click **Add to Chrome**.
 2.  **Confirm the icon**: After installation, a **blue tag icon** appears in the upper-right corner of your browser (or find it in the puzzle-piece extensions list).
@@ -85,7 +85,7 @@ This tool comes in two forms. We recommend using both to get a complete view of 
 
 ---
 
-### View Detailed Event Information in the Web Version
+### View Detailed Event Information in the Web Version { #operate-verify-tracking-view }
 
 To further confirm that specific tags (such as checkout or add to cart) fire correctly, follow these steps:
 
@@ -100,7 +100,7 @@ To further confirm that specific tags (such as checkout or add to cart) fire cor
 
 !!! info "For more information and tutorials on Tag Assistant, see the [official documentation :lucide-external-link:](https://support.google.com/tagmanager/answer/15212503?hl=zh-Hant&ref_topic=15213501&sjid=3100390479866986802-NC#)."
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-verify-tracking }
 
 ??? quote "How do I check whether Google Analytics (GA4) is installed correctly?"
 

@@ -194,7 +194,7 @@ If the customer decides not to buy, or too many failed orders pile up, you can h
   [__Set Up Automatic Order Cancellation__](../payments-and-logistics/payments/order-settings.md#operate-order-settings-auto-cancel){ title="Order Settings" }
 
 - :lucide-circle-x:{ .lg }
-  [__Cancel Orders Manually__](basics/cancel-order.md#orders-cancel-merchant){ title="How to Cancel an Order" }
+  [__Cancel Orders Manually__](basics/cancel-order.md#operate-cancel-merchant){ title="How to Cancel an Order" }
 
 </div>
 
@@ -292,4 +292,4 @@ If an error occurs when downloading ECPay shipping labels, a common cause is tha
 
 ## References { #reference-payment-failed }
 
-* [Order Payment Status Reference](references/payment-statuses.md#payment-statuses){ title="Order Payment Status Reference" data-preview }
+* [Order Payment Status Reference](references/payment-statuses.md#reference-payment-statuses){ title="Order Payment Status Reference" data-preview }

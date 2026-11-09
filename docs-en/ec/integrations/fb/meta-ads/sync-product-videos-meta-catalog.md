@@ -69,11 +69,11 @@ hide:
 
 ![MBS-Data Sources-Catalog](../../../../assets/images/ec-第三方整合-mbs-資料來源-目錄.en.png){ .hero-page }
 
-## Sync Product Videos to Meta Catalog Overview
+## Sync Product Videos to Meta Catalog Overview { #overview-meta-videos }
 
-This feature lets merchants automatically sync product data on the CYBERBIZ platform (including information, inventory, prices, and, most importantly, **product videos**) to the Meta product catalog. After setup, when you create a Meta ad and select "[**Catalog Ads**](setup-meta-ad-campaign.md#廣告呈現效果){ title="Set Up Meta Ad Campaign" data-preview }", product videos and product images rotate when the ad runs.
+This feature lets merchants automatically sync product data on the CYBERBIZ platform (including information, inventory, prices, and, most importantly, **product videos**) to the Meta product catalog. After setup, when you create a Meta ad and select "[**Catalog Ads**](setup-meta-ad-campaign.md#intro-meta-campaign){ title="Set Up Meta Ad Campaign" data-preview }", product videos and product images rotate when the ad runs.
 
-## Prerequisites and Feature Limitations
+## Prerequisites and Feature Limitations { #prerequisites-meta-videos }
 
 Before syncing, make sure you meet the following requirements and specifications:
 
@@ -81,13 +81,13 @@ Before syncing, make sure you meet the following requirements and specifications
 - [x] **Extension integration:** Merchants must have connected the "[Facebook New Business Extension](../mbe/setup-fbe-authorization.md){ title="Set Up FBE Account Authorization and Asset Linking" }" feature.
 - [x] **Layout restriction:** The product video feature currently supports only the **drag-and-drop layout**. Stores using other layouts cannot upload or sync videos.
 
-## Sync Setup Steps
+## Sync Setup Steps { #operate-meta-videos }
 
 1.  **Enter the feature**: Log in to the CYBERBIZ admin dashboard, go to **Third-Party Integration > Facebook Settings (Ads/Registration Login)**, and click **Edit Asset** to open the setup window.
 
     ![FBE-Edit Assets](../../../../assets/images/ec-第三方整合-fb-基本設定-fbe-編輯資產.en.png)
 
-2.  **Link assets:** This step is the same as the "Link Business Assets" process in [FBE Account Setup Tutorial](../mbe/setup-fbe-authorization.md#操作步驟教學){ title="Set Up FBE Account Authorization and Asset Linking" } (including logging in to Facebook, agreeing to authorization, and selecting assets).
+2.  **Link assets:** This step is the same as the "Link Business Assets" process in [FBE Account Setup Tutorial](../mbe/setup-fbe-authorization.md#operate-fbe-authorization-operate-step){ title="Set Up FBE Account Authorization and Asset Linking" } (including logging in to Facebook, agreeing to authorization, and selecting assets).
 
 3.  **Select a catalog asset:** Select **Catalog** as the asset type to sync, choose the product catalog from the list, and click **Confirm**.
 
@@ -97,7 +97,7 @@ Before syncing, make sure you meet the following requirements and specifications
 
 4.  **Finish the process:** Complete the remaining settings in the pop-up window and click **Finish**. The system then automatically returns you to the CYBERBIZ admin page.
 
-## Verify the Sync Status in Meta
+## Verify the Sync Status in Meta { #specs-meta-videos }
 
 1.  Go to the [Meta Business Manager :lucide-external-link:](https://business.facebook.com/latest/settings) admin, go to **Data Sources** > **Catalogs**, and select the catalog you just linked.
 2.  Click **Open in Business Manager**.
@@ -112,7 +112,7 @@ Before syncing, make sure you meet the following requirements and specifications
     - If adding fails because multiple data sources exist, delete the old data source first, then update again.
     - Before **running ads**, Business Manager may not show video data. You can try creating an ad and pausing it during review. Meta then loads the video data.
 
-## Next Steps
+## Next Steps { #next-steps-meta-videos }
 
 <div class="grid cards" markdown>
 
@@ -122,7 +122,7 @@ Before syncing, make sure you meet the following requirements and specifications
 
 </div>
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-meta-videos }
 
 ??? quote "How do I confirm that product videos have synced to the Meta catalog?"
 

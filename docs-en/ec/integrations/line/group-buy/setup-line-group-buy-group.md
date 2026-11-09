@@ -67,11 +67,11 @@ hide: []
 
 ![LINE Group-Buy Group Setup](../../../../assets/images/ec-第三方整合-line團購群組.en.png){ title="LINE Group-Buy Group Setup" .hero-page }
 
-## LINE Group-Buy Group Overview
+## LINE Group-Buy Group Overview { #overview-line-group }
 
 **"LINE Group-Buy Group Setup"** is the core step of the LINE group-buy feature. Merchants can configure each group's commission plan and referral code here, manage campaign content, and view history records.
 
-## Prerequisites
+## Prerequisites { #prerequisites-line-group }
 
 Before editing group content, merchants must complete the following three setup steps in order:
 
@@ -79,7 +79,7 @@ Before editing group content, merchants must complete the following three setup 
 - [x] [**Referral Commission Code Setup**](../../../profit-sharing/referrer-profit-sharing.md){ title="Referrer Commission" }: Set up the "Referrer Commission" plan in the commission system.
 - [x] [**Group-Buy Product Category Setup**](setup-line-group-buy-products.md){ title="Set Up LINE Group-Buy Products" }: Select the products to sell and set the group-buy price.
 
-## Add a LINE Group-Buy Group
+## Add a LINE Group-Buy Group { #operate-line-group }
 
 1.  Merchants must first ask the group leader to add the "Group-Buy Bot" as a friend of the LINE Official Account.
 2.  The group leader invites the **Group-Buy Bot** into the specific LINE group-buy group.
@@ -88,7 +88,7 @@ Before editing group content, merchants must complete the following three setup 
 
 ![Bot Joined Group](../../../../assets/images/ec-第三方整合-line團購群組-機器人已加入.en.png){ title="Bot Joined Group" }
 
-## Edit Group Campaign Content
+## Edit Group Campaign Content { #operate-line-group-edit-content }
 
 1.  **Open settings**: In the back-end group-buy group list, select the target group, then click "Edit":lucide-square-pen: to go to the "Basic Settings" page.
 2.  **Bind commission**: Select the **"Referral Commission Plan", "Referrer", and "Referral Code"** for the group's campaign.
@@ -98,7 +98,7 @@ Before editing group content, merchants must complete the following three setup 
 
 ![Edit Group Campaign Content](../../../../assets/images/ec-第三方整合-line團購群組-編輯頁.en.png){ title="Edit Group Campaign Content" }
 
-## When a Group-Buy Campaign Ends
+## When a Group-Buy Campaign Ends { #intro-line-group }
 
 A group-buy campaign ends in the following three cases:
 
@@ -109,7 +109,7 @@ A group-buy campaign ends in the following three cases:
 
 ![End Group-Buy Campaign](../../../../assets/images/ec-第三方整合-line團購群組-結束團購活動.en.png){ title="End Group-Buy Campaign" }
 
-## Viewing Orders and Managing Records
+## Viewing Orders and Managing Records { #reference-line-group }
 
 *  **View orders**: Merchants can go to "**Orders**** > ****All Orders**", expand the filter, and select "**LINE Group-Buy**" to view the related orders.
 
@@ -119,10 +119,10 @@ A group-buy campaign ends in the following three cases:
 
     ![Group-Buy History](../../../../assets/images/ec-第三方整合-line團購群組-編輯頁-團購歷史紀錄.en.png){ title="Group-Buy History" }
 
-*  **Commission lookup**: If the group leader wants to check order activity, merchants can provide the [commission report download link](../../../profit-sharing/query-profit-sharing-partners-and-codes.md#任務四提供第三方推薦人外部查詢連結){ title="Look Up Commission Partners and Codes" } for them to review.
+*  **Commission lookup**: If the group leader wants to check order activity, merchants can provide the [commission report download link](../../../profit-sharing/query-profit-sharing-partners-and-codes.md#operate-ps-query-external){ title="Look Up Commission Partners and Codes" } for them to review.
 
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-line-group }
 
 ??? quote "Why doesn't my LINE group appear in the back-end list?"
 

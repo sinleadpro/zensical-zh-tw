@@ -73,17 +73,17 @@ Learn about CYBERBIZ free shipping coupon specs, how to create them, and how the
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | All PLUS / Enterprise
 { .doc-badge }
 
-## Before You Start
+## Before You Start { #prerequisites-coupon }
 
 - **Editing restriction**: You can't edit a free shipping coupon after you save it. To change it, delete it and create a new one.
 - **Bonus Mall eligibility**: Free shipping coupons used in the Bonus Mall ignore the coupon's minimum spend and always cover the shipping fee.
 
-## Create A Free Shipping Coupon
+## Create A Free Shipping Coupon { #operate-coupon }
 
 <div class="grid cards" markdown>
 
 - :lucide-hash:{ .lg }
-    [__Send coupon from the Member List__](../../members/manage-member-profiles.md#2-優惠券派發與管理)
+    [__Send coupon from the Member List__](../../members/manage-member-profiles.md#operate-member-profiles-coupons)
     Use member filters to send coupons in bulk.
 
 - :lucide-hash:{ .lg }
@@ -94,7 +94,7 @@ Learn about CYBERBIZ free shipping coupon specs, how to create them, and how the
 </div>
 
 
-## Checkout Flow
+## Checkout Flow { #operate-coupon-checkout-flow }
 
 1. On the checkout page, the customer clicks "Select coupon or Enter Promo Code."
 

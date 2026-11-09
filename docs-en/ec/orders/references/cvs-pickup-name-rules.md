@@ -66,14 +66,14 @@ Learn the recipient name rules for convenience store pickup (such as 7-Eleven), 
 	- **Shipping troubleshooting**: When an order shows "Shipment Failed" for a name-related reason, use these rules to check and fix the recipient information.
 
 
-## Before You Start
+## Before You Start { #prerequisites-cvs-name-rules }
 
 - **Purpose**: To make sure order information is accepted by convenience store logistics systems (such as 7-Eleven order submission), the system strictly limits the recipient name format.
 
 
-## Name Rules
+## Name Rules { #specs-cvs-name-rules-rules }
 
-### 1. Length Limits
+### 1. Length Limits { #operate-cvs-name-rules-length }
 
 The system counts **Chinese** and **English** characters separately.
 
@@ -87,7 +87,7 @@ The system counts **Chinese** and **English** characters separately.
     - **Pass**: `王小明` (3 Chinese), `John` (4 English), `王Aa` (1 Chinese + 2 English).
     - **Fail**: `王` (too short), `王小明張李陳` (more than 5 Chinese characters).
 
-### 2. Prohibited Characters
+### 2. Prohibited Characters { #operate-cvs-name-rules-charset }
 
 To avoid parsing errors in logistics systems, the name field can't contain any of the following:
 
@@ -95,7 +95,7 @@ To avoid parsing errors in logistics systems, the name field can't contain any o
 - **Emoji**: Such as 😀, ❤️, 🎉, and so on.
 - **Zhuyin symbols**: Including Zhuyin letters (ㄅㄆㄇ) and tone marks (ˇˋˊ˙).
 
-### 3. Number Limits
+### 3. Number Limits { #operate-cvs-name-rules-digits }
 
 Whether numbers are allowed depends on the order's **payment method**:
 
@@ -105,7 +105,7 @@ Whether numbers are allowed depends on the order's **payment method**:
 | **Not cash on delivery** | **Not allowed** | Pickup requires checking an ID, and numbers usually aren't part of a legal name |
 
 
-### 4. Space Handling
+### 4. Space Handling { #operate-cvs-name-rules-spaces }
 
 The system automatically handles spaces in the name field:
 
@@ -114,7 +114,7 @@ The system automatically handles spaces in the name field:
 
 
 
-## Examples to Reference
+## Examples to Reference { #reference-cvs-name-rules-examples }
 
 If you or customer service need to help a customer troubleshoot a name issue, refer to the validation results below:
 

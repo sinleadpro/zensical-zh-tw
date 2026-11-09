@@ -79,11 +79,11 @@ Set e-ticket redemption permissions and binding rules for different stores and p
 ![](../../assets/images/ec-電子票券-綁定門市.en.png){ .hero-page }
 
 
-## About E-Ticket Store Permissions
+## About E-Ticket Store Permissions { #overview-ticket-permissions }
 
 E-ticket store management mainly supports OMO setups between a merchant and its "partner brands". Customers buy tickets online and then redeem them at specific physical stores. The store permissions and management rules are as follows:
 
-## Partner Brands and Staff Permissions
+## Partner Brands and Staff Permissions { #overview-ticket-permissions-staff }
 
 **Partner brand definition**:  
 If you work with other brands, you can create store accounts for each partner brand in the admin and limit their user permissions, so they can only operate on ticket products related to their own brand.
@@ -96,7 +96,7 @@ Accounts assigned as store staff have the following permissions:
 - View that store's own redemption records.
 
 
-## Store Permission Differences
+## Store Permission Differences { #specs-ticket-permissions-differences }
 
 Store permissions come in two types: "General Store" and "Management Store". They differ only in **the scope of redemption records they can view**. This does not affect which tickets they can actually redeem.
 
@@ -109,17 +109,17 @@ Store permissions come in two types: "General Store" and "Management Store". The
 |**Redeem tickets**|Bound tickets only|Bound tickets only|
 |**View redemption records**|Redemption records of **that store only**|Redemption records of **all bound tickets** at each store|
 
-!!! info "To learn more, see [Example 1: Permission Differences Across Stores](#Example-1-Permission-Differences-Across-Stores)"
+!!! info "To learn more, see [Example 1: Permission Differences Across Stores](#reference-ticket-permissions-multi-store)"
 
-## Binding E-Tickets to Stores
+## Binding E-Tickets to Stores { #specs-ticket-binding }
 
-### What Is Binding
+### What Is Binding { #specs-ticket-binding-definition }
 
 Binding links an e-ticket product to specific stores. It determines which stores can redeem the ticket.
 
 ---
 
-### Binding Rules
+### Binding Rules { #specs-ticket-binding-rules }
 
 E-tickets and stores support many-to-many binding:
 
@@ -128,7 +128,7 @@ E-tickets and stores support many-to-many binding:
 
 ---
 
-### Binding Changes
+### Binding Changes { #operate-ticket-binding-changes }
 
 When the binding between an e-ticket and a store changes, the system uses the setting "Allow sold tickets to still be redeemed at the originally bound store" to decide what happens next.
 
@@ -137,16 +137,16 @@ When the binding between an e-ticket and a store changes, the system uses the se
 	- **Yes** → Existing ticket holders can still redeem. Newly sold tickets can't.  
 	- **No** → No ticket holder can redeem at that store.
 
-!!! info "To learn more, see [Example 2: Binding Changes When a Store Is Temporarily Closed](#Example-2-Binding-Changes-When-a-Store-Is-Temporarily-Closed)"
+!!! info "To learn more, see [Example 2: Binding Changes When a Store Is Temporarily Closed](#reference-ticket-permissions-closed-store)"
 
-## Bind E-Tickets to Stores
+## Bind E-Tickets to Stores { #operate-ticket-binding }
 
 You can bind tickets to stores in either of these two admin locations.
 
-- [**Ticket product side**](#From-the-Ticket-Product-Edit-Page): Admin > Products > E-Ticket List > select a ticket > "Branch Store Binding".  
-- [**Store side**](#From-the-Store-Edit-Page): Admin > Payment and Logistics > Store Pickup Settings > Edit > "Eticket Binding Setting".
+- [**Ticket product side**](#operate-ticket-binding-product): Admin > Products > E-Ticket List > select a ticket > "Branch Store Binding".  
+- [**Store side**](#operate-ticket-binding-store): Admin > Payment and Logistics > Store Pickup Settings > Edit > "Eticket Binding Setting".
 
-### From the Ticket Product Edit Page
+### From the Ticket Product Edit Page { #operate-ticket-binding-product }
 
 1. Log in to the CYBERBIZ admin and go to **Products > E-Ticket List**.
 2. Click the ticket you want to edit.
@@ -157,7 +157,7 @@ You can bind tickets to stores in either of these two admin locations.
 
 ---
 
-### From the Store Edit Page
+### From the Store Edit Page { #operate-ticket-binding-store }
 
 1. Log in to the CYBERBIZ admin and go to **Payment and Logistics > Store Pickup Settings**.
 2. Select the store you want to edit and click **Edit**.
@@ -166,7 +166,7 @@ You can bind tickets to stores in either of these two admin locations.
 
 ![](../../assets/images/ec-所有門市-加入綁定.en.gif)
 
-## Unbind Tickets
+## Unbind Tickets { #operate-ticket-binding-cancel }
 
 When you unbind, the system asks whether sold tickets can still be redeemed at the original store.
 
@@ -183,7 +183,7 @@ When you unbind, the system asks whether sold tickets can still be redeemed at t
 
 ![](../../assets/images/ec-電子票券-取消綁定.en.png)
 
-## Set up a Management Store
+## Set up a Management Store { #operate-ticket-store-management }
 
 1. Log in to the CYBERBIZ admin and go to **Payment and Logistics > Store Pickup Settings**.
 2. Select the store you want to edit and click **Edit**.
@@ -191,7 +191,7 @@ When you unbind, the system asks whether sold tickets can still be redeemed at t
 
 ![](../../assets/images/ec-所有門市-電子票券管理門市.en.png)
 
-## Create E-Ticket Store Staff Accounts
+## Create E-Ticket Store Staff Accounts { #operate-ticket-permissions-staff-account }
 
 !!! info "Store staff can only use the **E-Ticket Redemption List** and the **Redemption Page**. They can't change ticket settings or other permissions."
 
@@ -206,7 +206,7 @@ When you unbind, the system asks whether sold tickets can still be redeemed at t
 
 ![](../../assets/images/ec-new-branch-store-manager.zh-tw.en.gif)
 
-## Storefront Display and Redemption
+## Storefront Display and Redemption { #operate-ticket-frontend-redeem }
 
 Customers can see the redemption store information of ticket products on the storefront.
 
@@ -219,9 +219,9 @@ Customers can see the redemption store information of ticket products on the sto
 ![](../../assets/images/ec-會員電子票券訂單查詢-顯示可核銷門市.en.png)
 
 
-## Examples
+## Examples { #reference-ticket-permissions-examples }
 
-### Example 1: Permission Differences Across Stores
+### Example 1: Permission Differences Across Stores { #reference-ticket-permissions-multi-store }
 
 This example shows how store roles under the same partner brand differ in which redemption records they can view.
 
@@ -249,7 +249,7 @@ This example shows how store roles under the same partner brand differ in which 
 
 ---
 
-### Example 2: Binding Changes When a Store Is Temporarily Closed
+### Example 2: Binding Changes When a Store Is Temporarily Closed { #reference-ticket-permissions-closed-store }
 
 This example shows the real impact of changing store bindings when a store is temporarily closed.
 
@@ -272,7 +272,7 @@ When unbinding, the merchant can choose one of these options:
     - Sold tickets can still be redeemed at store X-1.
     - Newly sold tickets no longer apply to store X-1. This reduces disputes and the customer service workload.
 
-## FAQ
+## FAQ { #faq-ticket-permissions }
 
 ??? quote "Can store staff permissions be changed?"
     "E-ticket store staff" permissions are fixed and can't be changed. If you try to change them, a warning appears after saving: "Branch store user permissions cannot be changed".

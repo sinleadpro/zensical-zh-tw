@@ -77,9 +77,9 @@ For the standard shipping workflow (batch downloads, single shipments, partial s
 !!! info "Tip"
     At the top of the page, billing information is displayed. Standard merchants see "Current CYBER Coin Balance." PLUS and Enterprise merchants see reconciliation statement text instead.
 
-## Steps
+## Steps { #operate-pelican }
 
-### Set up Sender Information { #configure-pelican-shipping-note-sender }
+### Set up Sender Information { #operate-pelican-sender-settings }
 
 Before you first use "Print Additional Waybills" or "Pelican Reverse Logistics," set up your sender information. If your company address or contact person changes later, return here to update it.
 
@@ -131,7 +131,7 @@ When a customer needs to return an item and you want Pelican to pick it up at th
 
 !!! note "Note"
     * Pelican prints the waybill and hands it to the customer. The merchant back office **does not** receive the PDF directly.
-    * Returned parcels are sent to the "Reverse Logistics Address" entered in [Pelican Settings](#configure-pelican-shipping-note-sender) (if left blank, they are sent to the sender address).
+    * Returned parcels are sent to the "Reverse Logistics Address" entered in [Pelican Settings](#operate-pelican-sender-settings) (if left blank, they are sent to the sender address).
 
 [^2]: If left blank, the system automatically uses the original order's delivery address.
 
@@ -141,7 +141,7 @@ When a customer needs to return an item and you want Pelican to pick it up at th
 
 The bottom of the page provides three historical record tables. All data can be filtered by keyword using the search box in the upper-right corner.
 
-#### Pelican Transfer Records { #pelican-shipping-transfer-records }
+#### Pelican Transfer Records { #reference-pelican-transfer-records }
 
 Shows waybill numbers that have used the transfer mechanism, for reconciliation lookups.
 
@@ -160,7 +160,7 @@ Shows waybill numbers that have used the transfer mechanism, for reconciliation 
 
 ---
 
-#### Waybill Number Usage Records <small>Forward / Reverse Logistics</small> { #pelican-shipping-usage-records }
+#### Waybill Number Usage Records <small>Forward / Reverse Logistics</small> { #reference-pelican-usage-records }
 
 "Forward logistics" records waybill numbers used for shipments, and "reverse logistics" records waybill numbers used for returns. Both have the same field structure.
 
@@ -183,7 +183,7 @@ Shows waybill numbers that have used the transfer mechanism, for reconciliation 
 !!! tip "Tip"
     When reconciling, compare the **Confirmed CYBER Coin Deduction** field first, since it shows the amount after settlement. The "Customer-Selected CYBER Coin Amount" is only the pre-deducted amount at download time and may differ from the final charge due to refunds or adjustments.
 
-## Next Steps
+## Next Steps { #next-steps-pelican }
 
 <div class="grid cards" markdown>
 

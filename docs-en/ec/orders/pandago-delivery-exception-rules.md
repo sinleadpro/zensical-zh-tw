@@ -75,7 +75,7 @@ For exceptions during Quick Delivery (such as wrong addresses, unreachable custo
 
 
 
-## Before You Start
+## Before You Start { #prerequisites-pandago-exception }
 
 - **Scope**: All exceptions in this article are cases where **the shopper didn't receive the order**.
 - **Delivery address can't be changed**: Quick Delivery orders connect to the delivery system in real time and are limited by area, so **the address can't be changed after the order is placed**.
@@ -90,7 +90,7 @@ For exceptions during Quick Delivery (such as wrong addresses, unreachable custo
 
 
 
-## Exception Responsibility and Shipping Fee Matrix
+## Exception Responsibility and Shipping Fee Matrix { #specs-pandago-exception-matrix }
 
 When the shopper doesn't receive the order, use the following table to determine who pays shipping and how to refund:
 
@@ -110,9 +110,9 @@ When the shopper doesn't receive the order, use the following table to determine
 | **System technical issue** | No | Yes (plus compensation) | None | **Full refund** (including shipping) |
 
 
-## Steps
+## Steps { #operate-pandago-exception }
 
-### Task 1: Handle a "Wrong Address" or "Unreachable Recipient"
+### Task 1: Handle a "Wrong Address" or "Unreachable Recipient" { #operate-pandago-exception-address }
 
 These are the most common exceptions. Handle them as follows:
 
@@ -121,7 +121,7 @@ These are the most common exceptions. Handle them as follows:
 3. **Close out**: If the driver has brought the order back to the store, mark the order as **Returned**.
 
 
-### Task 2: Handle "Damaged Products" or "Delivery Delays"
+### Task 2: Handle "Damaged Products" or "Delivery Delays" { #operate-pandago-exception-damage }
 
 1. **Collect evidence**: If the shopper reports damaged products, ask for photos.
 2. **Issue a full refund**: Because the delivery platform is responsible in these cases, give the shopper a **full order refund** (including shipping).
@@ -129,7 +129,7 @@ These are the most common exceptions. Handle them as follows:
 
 ---
 
-## FAQ
+## FAQ { #faq-pandago-exception }
 
 ??? quote "Can the address of a Quick Delivery order really not be changed at all?"
     That's right. The admin doesn't support editing the address. For a minor change (such as from the 3rd floor to the 5th floor), if the store agrees, record it in "Admin Notes" and have the store call the driver directly. If the new address is in a different area, cancel the order and order again.

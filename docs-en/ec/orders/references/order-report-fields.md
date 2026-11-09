@@ -56,7 +56,7 @@ search:
 icon: lucide/table
 hide: []
 ---
-## Order Discount Breakdown
+## Order Discount Breakdown { #specs-report-fields-discounts }
 
 
 | Product Discount Field | Description | Notes |
@@ -75,7 +75,7 @@ hide: []
 | Total product member-exclusive price discount | Difference between a "fixed exclusive price" set for specific member groups and the original price | |
 
 
-## Referral Source
+## Referral Source { #specs-report-fields-affiliate }
 
 
 | Third-Party Platform / Partner | Type | Description |
@@ -91,7 +91,7 @@ hide: []
 | **Shop.com** | Partner store | Referral partnership with the Shop.com cashback program |
 
 
-## UTM Parameters
+## UTM Parameters { #operate-report-fields-utm }
 
 
 | UTM Parameter | System Field | Description |
@@ -104,9 +104,9 @@ hide: []
 | **"UTM Campaign Content"** | `utm_content` | Distinguishes different versions of the same link (A/B testing), for example: logolink, textlink |
 
 
-## Bundle Price Difference
+## Bundle Price Difference { #specs-report-fields-bundle }
 
-### Calculation Steps
+### Calculation Steps { #operate-report-fields-calc-steps }
 
 1.  **Calculate the total price difference**: "Total original price of products" - "Bundle price"
 2.  **Calculate the "bundle price difference"**: Calculate the discount per sub-product type.  
@@ -120,7 +120,7 @@ hide: []
     2.  Round down to a whole number. If any discount is left unallocated after rounding down, the system allocates it NT$1 at a time in sub-product order.
 
 
-### Example 1: One Unit of Each Sub-Product
+### Example 1: One Unit of Each Sub-Product { #operate-report-fields-example-one }
 
 Suppose you create a bundle priced at NT$850 that includes these 3 sub-products:
 
@@ -128,7 +128,7 @@ Suppose you create a bundle priced at NT$850 that includes these 3 sub-products:
 - Sub-product B: original price NT$300
 - Sub-product C: original price NT$500
 
-#### Calculation Steps
+#### Calculation Steps { #operate-report-fields-calc-ex1 }
 
 1. **Calculate the total price difference**
 
@@ -158,7 +158,7 @@ Suppose you create a bundle priced at NT$850 that includes these 3 sub-products:
 
     Each sub-product in the bundle has a quantity of 1, so the "price difference for the item type" equals the "discount per unit," and the system doesn't need to break it down further.
 
-#### How It Appears in the Report
+#### How It Appears in the Report { #specs-report-fields-display }
 
 | Product Name | Bundle Price Difference | Bundle Price Difference Details |
 | ------- | ---------- | ------------ |
@@ -168,7 +168,7 @@ Suppose you create a bundle priced at NT$850 that includes these 3 sub-products:
 
 > This table shows only the fields relevant to the example; other report fields are omitted.
 
-### Example 2: One Sub-Product with Multiple Units
+### Example 2: One Sub-Product with Multiple Units { #operate-report-fields-example-multi }
 
 Suppose you create a bundle priced at NT$777 that includes these 4 sub-product units:
 
@@ -177,7 +177,7 @@ Suppose you create a bundle priced at NT$777 that includes these 4 sub-product u
 
 When a shopper buys 2 bundles, the calculation is as follows:
 
-#### Calculation Steps
+#### Calculation Steps { #operate-report-fields-calc-ex2 }
 
 1. **Calculate the total price difference**
 
@@ -221,7 +221,7 @@ When a shopper buys 2 bundles, the calculation is as follows:
         - Sub-product B-2: gets NT$1 ➔ final price difference is 75 + 1 = NT$76
         - Sub-product B-3: allocation complete ➔ final price difference stays NT$75
 
-#### How It Appears in the Report
+#### How It Appears in the Report { #specs-report-fields-display-ex2 }
 
 | Product Name | Bundle Price Difference | Bundle Price Difference Details |
 | ------- | ---------- | ------------ |

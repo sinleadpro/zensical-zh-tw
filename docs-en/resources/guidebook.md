@@ -16,7 +16,7 @@ icon: lucide/book-open
 permalink: "https://help.cyberbiz.io/resources/guidebook/"
 plan_options: []
 ---
-## Handbooks { #handbooks }
+## Handbooks { #reference-downloads-handbooks }
 
 <div class="grid cards" markdown>
 
@@ -40,7 +40,7 @@ plan_options: []
 
 ---
 
-## Guides { #guides }
+## Guides { #reference-guidebook }
 
 <div class="grid cards" markdown>
 

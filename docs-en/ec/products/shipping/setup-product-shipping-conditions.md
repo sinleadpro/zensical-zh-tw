@@ -82,7 +82,7 @@ hide: []
 
 ![Product shipping condition settings](../../../assets/images/ec-product-temp-logistics-settings.zh-tw.en.png){ title="Product Shipping Condition Settings" .hero-page }
 
-## About Binding Delivery Conditions
+## About Binding Delivery Conditions { #intro-ship-conditions }
 
 Binding delivery conditions means explicitly setting a product so that it "can use" or "can only use" specific logistics, delivery temperature zones, or fulfillment channels.
 Based on these bindings, the system determines and displays the available delivery options when customers check out.
@@ -93,12 +93,12 @@ Based on these bindings, the system determines and displays the available delive
     - **Delivery temperature zone binding**: For products that need special temperature zone delivery (such as room temperature, refrigerated, or frozen), set one or more applicable temperature zones.
     - **Fulfillment channel binding**: When products ship from different locations (such as different warehouses, stores, or vendors), set the fulfillment channel each product belongs to.
 
-## Set Shipping Fees by Temperature Zone
+## Set Shipping Fees by Temperature Zone { #operate-ship-conditions-temp-fee }
 
 Before you set product delivery conditions, create each **logistics method** in the admin and set shipping fee rules for each **delivery temperature zone**.  
 After setup, the logistics options appear on the product edit page for binding.
 
-### Standard Home Delivery <small>Custom Logistics</small>
+### Standard Home Delivery <small>Custom Logistics</small> { #operate-ship-conditions-custom }
 
 The following explains how to create a home delivery logistics method that charges by delivery temperature zone.
 
@@ -119,12 +119,12 @@ The following explains how to create a home delivery logistics method that charg
 
 4. Click **Save** to apply the settings.
 
-After that, the logistics method appears on the **Settings** tab of the product edit page, where you can set up [delivery temperature zone binding](#Set-Product-Delivery-Temperature-Zone) and [delivery method binding](#Set-Product-Delivery-Methods).
+After that, the logistics method appears on the **Settings** tab of the product edit page, where you can set up [delivery temperature zone binding](#operate-ship-conditions-temp) and [delivery method binding](#operate-ship-conditions-method).
 
 ![Custom logistics settings](../../../assets/images/ec-product-custom-logistics-settings.zh-tw.en.png){ title="Custom Logistics Settings" }
 
 !!! warning "Bind New Logistics Manually for Logistics-Restricted Products"
-	If a product is set to "specific logistics only", logistics methods you add later **are not bound automatically** to it. Bind the product to the new logistics manually, or the logistics method **won't appear in the delivery options at checkout**. [Learn more](#Add-Logistics-After-Binding-Products).
+	If a product is set to "specific logistics only", logistics methods you add later **are not bound automatically** to it. Bind the product to the new logistics manually, or the logistics method **won't appear in the delivery options at checkout**. [Learn more](#specs-ship-conditions-add-ship).
 
 [^1]: Don't use the same names as built-in system logistics (for example, T-Cat Cash on Delivery or Pelican Express Cash on Delivery), or checkout errors or logistics detection issues may occur.
 [^2]: If you change a logistics name, products bound to the original name are unbound, and you must set their delivery methods again.
@@ -132,7 +132,7 @@ After that, the logistics method appears on the **Settings** tab of the product 
 
 ---
 
-### Home Delivery Cash on Delivery
+### Home Delivery Cash on Delivery { #operate-ship-conditions-cod }
 
 The following explains how to set cash on delivery and shipping fee rules for different delivery temperature zones on an existing home delivery logistics method.
 
@@ -158,9 +158,9 @@ The following explains how to set cash on delivery and shipping fee rules for di
 
 	![Delivery temperature zone shipping fee settings](../../../assets/images/ec-conntect-logistics-temp-fees.zh-tw.en.png){ title="Delivery Temperature Zone Shipping Fee Settings" }
 
-## Set Product Delivery Temperature Zone
+## Set Product Delivery Temperature Zone { #operate-ship-conditions-temp }
 
-After you complete the [logistics shipping fee settings](#Set-Shipping-Fees-by-Temperature-Zone), you can set the delivery temperature zone and corresponding logistics available to each product. To understand how binding works, see [What binding delivery conditions means](#About-Binding-Delivery-Conditions) first.
+After you complete the [logistics shipping fee settings](#operate-ship-conditions-temp-fee), you can set the delivery temperature zone and corresponding logistics available to each product. To understand how binding works, see [What binding delivery conditions means](#intro-ship-conditions) first.
 
 1. Log in to the CYBERBIZ admin and go to **Products > All Products**.
 2. Click the product to set up to open its edit page.
@@ -169,12 +169,12 @@ After you complete the [logistics shipping fee settings](#Set-Shipping-Fees-by-T
 
 ![Product delivery temperature zone settings](../../../assets/images/ec-product-temp-setting.zh-tw.en.png){ title="Product Delivery Temperature Zone Settings" }
 
-## Set Product Delivery Methods
+## Set Product Delivery Methods { #operate-ship-conditions-method }
 
 [:lucide-tag:{ title="Applicable Plans" }](../../../resources/conventions.md#conventions-plans){ title="Icon Conventions" } |
 Expert / PLUS / Enterprise
 
-You can set the delivery logistics methods available to each product. To understand how binding works, see [What binding delivery conditions means](#About-Binding-Delivery-Conditions) first.
+You can set the delivery logistics methods available to each product. To understand how binding works, see [What binding delivery conditions means](#intro-ship-conditions) first.
 
 1. Log in to the CYBERBIZ admin and go to **Products > All Products**.
 2. Click the product to set up to open its edit page.
@@ -191,7 +191,7 @@ You can set the delivery logistics methods available to each product. To underst
 4. **Confirm the change reminder**: The first time you change a logistics binding, the system shows a reminder. Read the notes carefully, then check the box and click **Confirm**.
     !!! info "If you don't confirm, the system shows the reminder again every time you change a logistics binding."
 
-### Notes on Changing Logistics Shipping Fee Settings
+### Notes on Changing Logistics Shipping Fee Settings { #prerequisites-ship-conditions-fee }
 When you change logistics shipping fee settings, keep the following in mind:
 
 **Changing the shipping fee calculation basis**  
@@ -203,7 +203,7 @@ If you change the basis for calculating shipping fees, you must reset the logist
 ![Temperature zone and delivery logistics settings](https://www.cyberbiz.co/support/wp-content/uploads/2019/03/溫層配送物流設定-一般宅配5.png){ title="Temperature Zone Delivery Logistics Settings" .screenshot }
 ![Temperature zone and delivery logistics settings](https://www.cyberbiz.co/support/wp-content/uploads/2020/07/溫層配送物流設定-一般宅配6.png){ title="Temperature Zone Delivery Logistics Settings" .screenshot }
 
-## Set Product Channels <small>Fulfillment Channel</small>
+## Set Product Channels <small>Fulfillment Channel</small> { #operate-ship-conditions-channel }
 
 !!! info "What Product Channels Affect"
     Product channels specify where a product ships from, such as a store, warehouse, or supplier. The setting affects the following:
@@ -228,9 +228,9 @@ If you change the basis for calculating shipping fees, you must reset the logist
 !!! warning "Product Channels Cannot Be Deleted Once Added"  
     A product channel cannot be deleted once added. Make sure the channel name is correct before adding it.
 
-## Example Scenarios
+## Example Scenarios { #specs-ship-conditions-examples }
 
-### Cart Splitting Across Multiple Channels
+### Cart Splitting Across Multiple Channels { #specs-ship-conditions-split-cart }
 
 **Example scenario**: Product channels are set to Taipei Store and Taichung Store
 
@@ -257,7 +257,7 @@ If you change the basis for calculating shipping fees, you must reset the logist
 
 ---
 
-### Add Logistics After Binding Products
+### Add Logistics After Binding Products { #specs-ship-conditions-add-ship }
 
 After products are bound to delivery logistics, *if you add a new delivery logistics method*, the system decides whether to apply it based on each product's existing logistics binding:
 
@@ -273,11 +273,11 @@ Example
 
 ---
 
-### How Different Logistics / Temperature Zone / Fulfillment Channels Work
+### How Different Logistics / Temperature Zone / Fulfillment Channels Work { #specs-ship-conditions-matrix }
 
 This section explains the admin settings and storefront checkout behavior when products have different *delivery logistics, delivery temperature zones, and fulfillment channels*.
 
-#### Admin Settings
+#### Admin Settings { #specs-ship-conditions-admin }
 
 Delivery settings in the admin have three levels, which together affect the delivery options available to products and how checkout is split.
 
@@ -290,7 +290,7 @@ Delivery settings in the admin have three levels, which together affect the deli
 
 ---
 
-#### Storefront Display and Checkout Behavior
+#### Storefront Display and Checkout Behavior { #specs-ship-conditions-storefront }
 
 When a customer's cart contains products with different *delivery logistics, delivery temperature zones, or fulfillment channels*, storefront checkout works as follows:
 
@@ -303,9 +303,9 @@ When a customer's cart contains products with different *delivery logistics, del
 !!! info "If a cart doesn't reach the free shipping threshold, shipping fees are calculated and charged for each cart separately."
 
 !!! tip "Simplify Delivery Conditions to Reduce Cart Abandonment"
-	When products have multiple delivery conditions (product channel, delivery temperature zone, and delivery logistics), the system automatically splits them into multiple carts at checkout based on those conditions, *making checkout more complex and increasing shipping costs for customers*. Learn about [checkout with multiple carts](../checkout/checkout-split-multi-cart.md#About-Checkout-Splitting-into-Multiple-Carts){ title="Set Up Automatic Checkout Splitting into Multiple Carts" }.
+	When products have multiple delivery conditions (product channel, delivery temperature zone, and delivery logistics), the system automatically splits them into multiple carts at checkout based on those conditions, *making checkout more complex and increasing shipping costs for customers*. Learn about [checkout with multiple carts](../checkout/checkout-split-multi-cart.md#intro-split-cart){ title="Set Up Automatic Checkout Splitting into Multiple Carts" }.
 
-## Next Steps
+## Next Steps { #next-steps-ship-conditions }
 
 <div class="grid cards" markdown>
 
@@ -313,12 +313,12 @@ When a customer's cart contains products with different *delivery logistics, del
    [__Batch Edit Shipping Settings__](../bulk-operations/batch-update-product-descriptions-shipping.md){ title="Batch Edit Product Descriptions and Shipping Settings" }  
    Use Excel to edit the shipping settings of many products at once.
 - :lucide-shopping-cart:{ .lg }  
-   [__Split Checkout into Multiple Carts__](../checkout/checkout-split-multi-cart.md#About-Checkout-Splitting-into-Multiple-Carts){ title="Set Up Automatic Checkout Splitting into Multiple Carts" }  
+   [__Split Checkout into Multiple Carts__](../checkout/checkout-split-multi-cart.md#intro-split-cart){ title="Set Up Automatic Checkout Splitting into Multiple Carts" }  
    Learn how products' multiple delivery conditions create multiple carts at checkout.
 
 </div>
 
-## FAQ
+## FAQ { #faq-ship-conditions }
 
 ??? quote "If I change a logistics name, will product bindings stop working?"
     Yes. If you change the name of a logistics method, products bound to it are unbound. Go to the product pages and bind the delivery logistics again.
@@ -327,4 +327,4 @@ When a customer's cart contains products with different *delivery logistics, del
     Yes. On the "Settings" tab of the product edit page, you can select multiple temperature zones for the product.
 
 ??? quote "Why do customers see multiple carts at checkout?"
-    When a customer buys products with different temperature zones, delivery logistics, or fulfillment channels, the system automatically splits them into multiple carts for checkout. Learn about [checkout with multiple carts](../checkout/checkout-split-multi-cart.md#About-Checkout-Splitting-into-Multiple-Carts){ title="Set Up Automatic Checkout Splitting into Multiple Carts" }.
+    When a customer buys products with different temperature zones, delivery logistics, or fulfillment channels, the system automatically splits them into multiple carts for checkout. Learn about [checkout with multiple carts](../checkout/checkout-split-multi-cart.md#intro-split-cart){ title="Set Up Automatic Checkout Splitting into Multiple Carts" }.

@@ -70,7 +70,7 @@ hide: []
 
 ![Secret collection](../../../assets/images/ec-商品-商品自訂分類-秘密群組.en.png){ title="Secret Collection" .hero-page }
 
-## About Secret Collections
+## About Secret Collections { #intro-secret-collection }
 
 A **secret collection** (also called a secret store) is mainly used to give specific groups of customers (such as distributors, group-buy organizers, and employees) a link that is not public so they can make purchases.
 
@@ -87,11 +87,11 @@ A **secret collection** (also called a secret store) is mainly used to give spec
 
     </div>
 
-## Steps
+## Steps { #operate-secret-collection }
 
 To set up a secret collection, first create a customized collection, and then hide the products in it and turn off search for them. The details are explained in two stages below.
 
-### Set up a Secret Collection <small>Secret Store</small>
+### Set up a Secret Collection <small>Secret Store</small> { #operate-secret-collection-setup }
 
 1. **Create a product collection:** In the admin, go to **Products > Customized Collections**.
 2. **Add a new collection:** Click "Add a new collection" in the lower-right corner and enter a custom name (for example, VIP Secret Store).
@@ -107,7 +107,7 @@ To set up a secret collection, first create a customized collection, and then hi
 
 ---
 
-### Hide Products and Keep Them Out of Search
+### Hide Products and Keep Them Out of Search { #operate-secret-collection-hide }
 
 To make sure regular shoppers cannot find the products in the secret collection on your online store, complete the following settings:
 
@@ -121,14 +121,14 @@ To make sure regular shoppers cannot find the products in the secret collection 
 - [x] **Navigation bar rule:** After you create a secret store, **do not** add a link to this collection in your online store navigation bar or menus, so regular users do not open it by mistake.
 - [x] **Exclude specific keywords (advanced):** By editing the `search.liquid` code, you can keep [products containing specific words out of search results](../discoverability/exclude-keyword-products-search.md){ title="Exclude Products with Specific Keywords from Search Results" }  .
 
-## Notes and Recommendations
+## Notes and Recommendations { #prerequisites-secret-collection }
 
 - **External search engine risk:** Even with site search turned off for the products, the secret collection page may still be indexed by Google.
 - **SEO exclusion:** To keep the page out of Google search results completely, exclude the secret collection page in **Google Search Console** to block external search.
 - **Recovery:** If something goes wrong while you edit the code, use the editor's "View a previous version" feature to [roll back to the default version](../../website-appearance/code-customization/restore-code-theme-editor.md){ title="Restore Web Page Code with the Template Editor" }  .
 
 
-## Related Tasks
+## Related Tasks { #next-steps-secret-collection }
 
 <div class="grid cards" markdown>
 
@@ -139,7 +139,7 @@ To make sure regular shoppers cannot find the products in the secret collection 
 </div>
 
 
-## FAQ
+## FAQ { #faq-secret-collection }
 
 ??? quote "Are products automatically excluded from search after I create a secret collection?"
     No. A secret collection only groups products. You still need to open each product's edit page and set "Product search" to `OFF` to exclude it from site search.

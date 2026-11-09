@@ -82,7 +82,7 @@ Create a dedicated online Bonus Mall where members redeem products with points. 
 
 
 
-## Bonus Mall Overview
+## Bonus Mall Overview { #specs-bonus-mall }
 
 **Bonus Mall** provides a standalone product showcase and redemption space, allowing members to turn the bonus points they accumulate from everyday purchases into physical products. Through this **Redeem Only** or **Points-Only Purchase** mechanism, members' point balances are put to use, which builds long-term brand loyalty.
 
@@ -93,14 +93,14 @@ The same product remains available for cash purchase in the regular store, while
     - **Points Usage Strategy**: For points that are about to expire, run a limited-time Bonus Mall campaign to drive members to the site to redeem them.
     - **New Product Trials**: Add trial products to Bonus Mall so that loyal members can try them first with points and provide product feedback.
 
-## Usage Notes
+## Usage Notes { #prerequisites-bonus-mall }
 
-### Front-End Display and Visual Guidelines
+### Front-End Display and Visual Guidelines { #prerequisites-bonus-mall-frontend }
 - **Listing Requirements**: Products must be **Listed** and **Published** to appear in the Bonus Mall.
 - **Display Limit for Multi-Variant Products**: If a product added to the Bonus Mall has multiple variants (such as different colors or sizes), the storefront shows only the **first main image** of that product. Shoppers cannot switch to images for other variants on the mall page. We recommend selecting a single variant or making sure the main image is representative.
 - **Color Scheme**: The Bonus Mall page does not support color swatches.
 
-### Staff Permissions and Scope of Operation
+### Staff Permissions and Scope of Operation { #prerequisites-bonus-mall-section }
 
 - **Admin Permissions**: Only **Site Administrators** can set up and edit the Bonus Mall in the back end.
 - **Front-End Staff Permissions**:
@@ -108,13 +108,13 @@ The same product remains available for cash purchase in the regular store, while
     - **Real-Time Calculation**: Review the total price of bonus products and confirm the total bonus points used for the entire order, including regular redemptions and Bonus Mall redemptions.
     - **Eligibility Check**: At checkout, the system automatically checks whether the customer's remaining bonus points are enough to cover the transaction.
 
-### After-Sales Return Policy
+### After-Sales Return Policy { #prerequisites-bonus-mall-returns-rules }
 
 - **Bonus Points Refund Policy**: Once a bonus product transaction is completed, the system **does not refund** the bonus points used in that transaction if a return occurs.
 
-## Create a Mall in the Back Office
+## Create a Mall in the Back Office { #operate-bonus-mall }
 
-### Step 1: Create the Bonus Mall Basic Information
+### Step 1: Create the Bonus Mall Basic Information { #operate-bonus-mall-step-a-create }
 
 1. Log in to the CYBERBIZ admin back end, go to **Marketing > Bonus Mall**, and click the **POS Bonus Mall** tab.
 2. Click **New Bonus Mall** in the top-right corner.
@@ -126,7 +126,7 @@ The same product remains available for cash purchase in the regular store, while
     ![](../../assets/images/POS-後台-行銷活動-紅利商城-新增商城02.en.png){ .screenshot }
 6. Click **Save**.
 
-### Step 2: Add Redeemable Products
+### Step 2: Add Redeemable Products { #operate-bonus-mall-step-b-product }
 
 === "Manually Select and Add"
 
@@ -149,7 +149,7 @@ The same product remains available for cash purchase in the regular store, while
     ![](../../assets/images/POS-後台-行銷活動-紅利商城-批次匯入01.en.png){ .screenshot }
 
 
-### Step 3: Set the Points Required for Redemption
+### Step 3: Set the Points Required for Redemption { #operate-bonus-mall-step-c-settings }
 
 > If you add products by **manually selecting them**, complete this step.<br>
     If you use **EXCEL Batch Import**, enter the redemption amounts directly in the import template. You do not need to set them here.
@@ -162,25 +162,25 @@ The same product remains available for cash purchase in the regular store, while
 
 
 
-## Multi-Store Bonus Mall Management
+## Multi-Store Bonus Mall Management { #operate-multi-store-management }
 
-### Copy a Mall
+### Copy a Mall { #operate-multi-store-management-mall }
 
 - **One-Click Sync Setup**: The system uses a one-to-one binding model in which **one store** maps to **one mall**. When multiple stores need malls with the same specifications, use the copy feature to create them quickly.
 - **Automatic Product Mapping**: Go to the edit page, click **Copy**, and select the **store** and **campaign period**. The system then automatically imports the matching product list, which greatly shortens listing time.
 
-### Delete a Mall
+### Delete a Mall { #operate-multi-store-management-section-m }
 
 - **Unbinding Mechanism**: Once Bonus Mall and a store are bound, the binding cannot be changed directly. If a store needs to switch to a new mall, you must first Delete the original mall to release the store's permissions. Then you can bind the store again.
 
 ![](../../assets/images/POS-後台-行銷活動-紅利商城-複製刪除商城01.en.png){ .screenshot }
 
 
-## Check out at the Front Counter
+## Check out at the Front Counter { #operate-bonus-mall-checkout }
 
 When store staff check out a member at the POS front counter, they can add Bonus Mall products to the cart in one of two ways.
 
-### Manually Select Redeemable Bonus Products
+### Manually Select Redeemable Bonus Products { #operate-bonus-mall-checkout-points-product }
 
 1. Follow the normal checkout process to add regular products to the cart.
 2. Click **Subtotal** in the bottom-right corner to go to the checkout preparation page.
@@ -193,7 +193,7 @@ When store staff check out a member at the POS front counter, they can add Bonus
 
 ![](../../assets/images/POS-前台-結帳-新增紅利商城商品01.en.gif){ .screenshot }
 
-### Scan a Redeemable Bonus Product at Checkout
+### Scan a Redeemable Bonus Product at Checkout { #operate-bonus-mall-checkout-scan-points }
 
 1. When the scanner reads a product that has already been added to the Bonus Mall, the system automatically detects it and displays a **Redeemable with Bonus Points** prompt.
 2. Store staff can click the prompt to open the Bonus Mall selection window directly.
@@ -203,7 +203,7 @@ When store staff check out a member at the POS front counter, they can add Bonus
 
 ![](../../assets/images/POS-前台-結帳-新增紅利商城商品02.en.gif){ .screenshot }
 
-## More Actions
+## More Actions { #next-steps-bonus-mall }
 
 <div class="grid cards" markdown>
 

@@ -71,11 +71,11 @@ hide:
 
 ![Site search - storefront](../../../assets/images/ec-商品-站內搜尋-前台.en.png){ title="Site Search - Storefront" .hero-page }
 
-## About Site Search
+## About Site Search { #intro-site-search }
 
 On the CYBERBIZ storefront, the **search (magnifier) feature** is a key tool that helps shoppers find products quickly.
 
-## Search Basics
+## Search Basics { #specs-site-search }
 
 *   **Location**: To search for products, shoppers click the **magnifier icon** :lucide-search: on the storefront and enter a keyword.
 
@@ -87,19 +87,19 @@ On the CYBERBIZ storefront, the **search (magnifier) feature** is a key tool tha
     |---|---|---|
     | Product name | The main name that identifies the product | [Product basic settings](../create-and-manage/create-update-products.md#operate-product-create-basic){ title="Add and Update Products" } |
     | Collection name | The names of collections, including customized collections and conditionalized collections.<br> (for example, in the URL `https://xxx/collections/mygroup`, the `mygroup` part) | [Customized collection settings](../categories-and-tags/custom-collections.md#operate-custom-collections-add-products){ title="Set Up Customized Collections" }, [Conditionalized collection settings](../categories-and-tags/smart-collections.md#operate-smart-collections-create){ title="Set Up Conditionalized Collections" }. |
-    | Product vendor | The product's vendor name, shown on the storefront | [Product edit page > Settings](../create-and-manage/edit-product-description-settings.md#Advanced-Settings){ title="Edit Product Descriptions and Product Settings" } |
-    | Product type | The product's type label | [Product edit page > Settings](../create-and-manage/edit-product-description-settings.md#Advanced-Settings){ title="Edit Product Descriptions and Product Settings" } |
-    | Product channel | The product's channel labels (pre-order, in stock, room temperature, and so on)| [Product edit page > Settings](../create-and-manage/edit-product-description-settings.md#Advanced-Settings){ title="Edit Product Descriptions and Product Settings" } |
+    | Product vendor | The product's vendor name, shown on the storefront | [Product edit page > Settings](../create-and-manage/edit-product-description-settings.md#operate-product-desc-settings-advanced){ title="Edit Product Descriptions and Product Settings" } |
+    | Product type | The product's type label | [Product edit page > Settings](../create-and-manage/edit-product-description-settings.md#operate-product-desc-settings-advanced){ title="Edit Product Descriptions and Product Settings" } |
+    | Product channel | The product's channel labels (pre-order, in stock, room temperature, and so on)| [Product edit page > Settings](../create-and-manage/edit-product-description-settings.md#operate-product-desc-settings-advanced){ title="Edit Product Descriptions and Product Settings" } |
     | Product variant | Variant names (such as color M or size XL)| [Product variant settings](../create-and-manage/create-update-products.md#operate-product-create-variants){ title="Add and Update Products" } |
     | SKU | The product's stock keeping unit | [Product variant settings](../create-and-manage/create-update-products.md#operate-product-create-variants){ title="Add and Update Products" } |
-    | Product introduction | The product's detailed description, including content in the text editor's source code. | [Product edit page > Product Description](../create-and-manage/edit-product-description-settings.md#Product-Description){ title="Edit Product Descriptions and Product Settings" } |
+    | Product introduction | The product's detailed description, including content in the text editor's source code. | [Product edit page > Product Description](../create-and-manage/edit-product-description-settings.md#operate-desc-settings-body){ title="Edit Product Descriptions and Product Settings" } |
 
 *   **Search logic and word segmentation**:
 
     *   Product names use **segmented search**. If a title contains a space or a hyphen (-) (such as "ER-1410"), the system splits it into separate words (such as "ER" and "1410"), and a search must exactly match a segment.
     *   If you enter the full model number in the **SKU field** (such as "ER1410"), searching for "1410" still finds the product even if its name is segmented (such as "ER-14010").
 
-## Admin Settings and Management
+## Admin Settings and Management { #operate-site-search }
 
 Depending on your brand's needs, you can choose whether to show the search feature or exclude specific products:
 
@@ -107,13 +107,13 @@ Depending on your brand's needs, you can choose whether to show the search featu
 
 - :lucide-toggle-left:{ .lg .middle } [__Site-Wide Search Bar Toggle__](../../website-appearance/navigation/setup-menus-navigation.md#operate-menus-nav-search){ title="Set Up Menus and the Navigation Bar" }  
 
-- :lucide-package-x:{ .lg .middle } [__Exclude Individual Products from Search__](../create-and-manage/product-management-interface.md#Product-Search-and-Visibility-Management){ title="Product Management Interface Overview" }  
+- :lucide-package-x:{ .lg .middle } [__Exclude Individual Products from Search__](../create-and-manage/product-management-interface.md#operate-product-ui-visibility){ title="Product Management Interface Overview" }  
 
 - :lucide-code:{ .lg .middle } [__Exclude by Keyword (Advanced)__](exclude-keyword-products-search.md){ title="Exclude Products with Specific Keywords from Search Results" }  
 
 </div>
 
-## Site Search Data Tracking <small>GA4</small>
+## Site Search Data Tracking <small>GA4</small> { #specs-site-search-ga4 }
 
 You can monitor shopper search behavior with **Google Analytics 4 (GA4)** to improve product selection or SEO:
 
@@ -121,11 +121,11 @@ You can monitor shopper search behavior with **Google Analytics 4 (GA4)** to imp
 
 - :lucide-toggle-left:{ .lg .middle } [__Turn On Site Search Tracking__](../../integrations/google/ga/setup-ga4-site-search-tracking.md){ title="Set Up GA4 Site Search Tracking" }  
 
-- :lucide-bar-chart-2:{ .lg .middle } [__View Tracking Results__](../../integrations/google/ga/setup-ga4-site-search-tracking.md#如何查看追蹤成果){ title="Set Up GA4 Site Search Tracking" }  
+- :lucide-bar-chart-2:{ .lg .middle } [__View Tracking Results__](../../integrations/google/ga/setup-ga4-site-search-tracking.md#operate-ga-search-view-tracking){ title="Set Up GA4 Site Search Tracking" }  
 
 </div>
 
-## FAQ
+## FAQ { #faq-site-search }
 
 ??? quote "Why can't I find a product with search?"
 

@@ -85,7 +85,7 @@ Complete the store Quick Delivery (CYBERBIZ NOW) setup, including enabling the f
 ![](../../../assets/images/EC-後台-金物流-所有門市-快速到貨畫面總覽01.en.png){ .hero-page }
 
 
-## Usage Notes
+## Usage Notes { #prerequisites-cyberbiz-now }
 
 Before configuring store settings, make sure to complete the following basic setup and review the related data linkage rules:
 
@@ -94,16 +94,16 @@ Before configuring store settings, make sure to complete the following basic set
 - **Copy Settings**: If you have multiple stores, you can use **Use default store data** to quickly sync delivery fees and order acceptance times.
 - **Delete a Store**: If you delete a store, its store settings and associated products will also be deleted.
 
-## Procedure
+## Procedure { #operate-cyberbiz-now }
 
-### Step 1: Enable Store Quick Delivery
+### Step 1: Enable Store Quick Delivery { #operate-cyberbiz-now-enable }
 
 1. Log in to the CYBERBIZ admin dashboard and go to **Payment and Logistics > Store Pickup Settings**.
 2. Find the store you want to configure, then click **Edit** on the right.
 3. Switch to the **Express Delivery Setting** tab.
 4. Turn the **Enable Quick Delivery** toggle to `ON`.
 
-### Step 2: Set Order Acceptance Times and Delivery Fee Rules
+### Step 2: Set Order Acceptance Times and Delivery Fee Rules { #operate-cyberbiz-now-hours-fee }
 
 1. **Payment Setting**: Click the menu, then select the payment methods to allow (for example, credit card or LINE Pay).
 2. **Delivery Fee Rules**:
@@ -131,12 +131,12 @@ Before configuring store settings, make sure to complete the following basic set
 
 ![](../../../assets/images/EC-後台-金物流-所有門市-設定快速到貨資訊01.en.png){ .screenshot }
 
-### Step 3: Set Delivery Contact and Notes
+### Step 3: Set Delivery Contact and Notes { #operate-cyberbiz-now-contact }
 
 1. Enter **Contact phone number** so delivery drivers can contact the store.
 2. In the **Notes Information** field, enter instructions for the driver (for example, the store is in the B1 food court of the department store, or take the east elevator up).
 
-### Step 4: Manage Store Order (For Multiple Stores)
+### Step 4: Manage Store Order (For Multiple Stores) { #operate-cyberbiz-now-sort }
 
 If multiple stores have Quick Delivery enabled, you can control the display order on the storefront:
 
@@ -145,7 +145,7 @@ If multiple stores have Quick Delivery enabled, you can control the display orde
     - **Drag to Sort**: Click and hold the left mouse button on a store field, then move it up or down to adjust its position.
     - **Enter a Number**: Enter a number directly in the sort field. The smaller the number, the higher the store appears in the list.
 
-## Frequently Asked Questions
+## Frequently Asked Questions { #faq-cyberbiz-now }
 
 ??? quote "How is the Quick Delivery range calculated?"
     The delivery provider automatically calculates the delivery range based on the store address, typically 3-5 km. If a customer enters an address outside this range, Quick Delivery will not be available at checkout.
@@ -159,7 +159,7 @@ If multiple stores have Quick Delivery enabled, you can control the display orde
 ??? quote "What should I do if a product is out of stock?"
     If you discover a product is out of stock after accepting an order, contact the customer right away to explain, then cancel the order in the admin dashboard and arrange a refund to maintain customer satisfaction.
 
-## Next Steps
+## Next Steps { #next-steps-cyberbiz-now }
 
 <div class="grid cards" markdown>
 
