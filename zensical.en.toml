@@ -1,0 +1,1229 @@
+# ============================================================================
+#
+# The configuration produced by default is meant to highlight the features
+# that Zensical provides and to serve as a starting point for your own
+# projects.
+#
+# ============================================================================
+
+[project]
+# The site_name is shown in the page header and the browser window title
+#
+# Read more: https://zensical.org/docs/setup/basics/#site_name
+site_name = "CYBERBIZ DOCS"
+
+# The site_description is included in the HTML head and should contain a
+# meaningful description of the site content for use by search engines.
+#
+# Read more: https://zensical.org/docs/setup/basics/#site_description
+site_description = "CYBERBIZ merchant documentation — guides, settings, and FAQs for the online store (EC), warehouse (WMS), and POS."
+
+# The site_author attribute. This is used in the HTML head element.
+#
+# Read more: https://zensical.org/docs/setup/basics/#site_author
+site_author = "Jason W. Ke"
+
+# The site_url is the canonical URL for your site. When building online
+# documentation you should set this.
+# Read more: https://zensical.org/docs/setup/basics/#site_url
+site_url = "https://help.cyberbiz.io/en/"
+docs_dir = "docs-en"
+site_dir = "build/en"
+
+# The copyright notice appears in the page footer and can contain an HTML
+# fragment.
+#
+# Read more: https://zensical.org/docs/setup/basics/#copyright
+copyright = """
+    Copyright &copy; 2026 CYBERBIZ
+    <a href="#__consent">Change cookie settings</a>
+"""
+
+# Zensical supports both implicit navigation and explicitly defined navigation.
+# If you decide not to define a navigation here then Zensical will simply
+# derive the navigation structure from the directory structure of your
+# "docs_dir". The definition below demonstrates how a navigation structure
+# can be defined using TOML syntax.
+#
+# Read more: https://zensical.org/docs/setup/navigation/
+
+nav = [
+    { "Home" = "index.md" },
+    { "Online Store" = [
+        { "Get Started" = "ec/get-started.md" },
+        { "Online Store" = "ec/index.md" },
+        { "Report Analysis" = [
+            {"Report Analysis" = "ec/business-intelligence/index.md"},
+            {"Chart Overview" = [
+                {"Chart Overview" = "ec/business-intelligence/business-intelligence-overview.md"},
+                {"Benchmarking" = "ec/business-intelligence/benchmarking.md"},
+            ]},
+            {"Revenue Analysis" = "ec/business-intelligence/revenue-analysis.md"},
+            {"Order Analysis" = "ec/business-intelligence/order-analysis.md"},
+            {"Member Analysis" = [
+                {"Member Overview" = "ec/business-intelligence/member-overview.md"},
+                {"Member Analysis" = "ec/business-intelligence/member-analysis.md"},
+                {"Customer Analysis" = "ec/business-intelligence/customer-analysis.md"},
+            ]},
+            {"Product Analysis" = "ec/business-intelligence/product-analysis.md"},
+            {"Marketing Campaign Analysis" = "ec/business-intelligence/marketing-activity-analysis.md"},
+            {"Advertising Analysis" = "ec/business-intelligence/ad-analytics-guide.md"},
+            {"OMO Analysis Report" = "ec/business-intelligence/omo-analysis-report.md"},
+            {"Subscription Order Analysis" = "ec/business-intelligence/periodic-order-analysis.md"},
+            {"Product Charts" = "ec/business-intelligence/product-chart.md"},
+            {"Basic Reports" = "ec/business-intelligence/basic-chart.md"},
+            { "Reference" = [
+                {"Advertising Analysis Metrics Reference" = "ec/business-intelligence/references/advertising-analytics-metrics-reference.md"},
+                {"Chart Overview Metrics Reference" = "ec/business-intelligence/references/bi-overview-metrics-reference.md"},
+                {"Basic Report Calculation Rules Reference" = "ec/business-intelligence/references/basic-chart-metrics-reference.md"},
+                {"Benchmark Reference Range Status Reference" = "ec/business-intelligence/references/benchmark-reference-range-status-reference.md"},
+                {"Order Overview Analysis Metrics Reference" = "ec/business-intelligence/references/order-analysis-overview-metrics-reference.md"},
+                {"Product Analysis Fields Reference" = "ec/business-intelligence/references/product-analysis-metrics-reference.md"},
+                {"Product Chart Metrics Reference" = "ec/business-intelligence/references/product-chart-metrics-reference.md"},
+                {"Order Payment and Shipping Analysis Charts Reference" = "ec/business-intelligence/references/order-analysis-finance-logistics-reference.md"},
+                {"Order Report Fields Reference" = "ec/business-intelligence/references/order-analysis-report-fields-reference.md"},
+                {"Revenue Analysis Metric Definitions Reference" = "ec/business-intelligence/references/revenue-analysis-metrics-reference.md"},
+                {"Subscription Order Analysis Metric Definitions Reference" = "ec/business-intelligence/references/periodic-order-analysis-metrics-reference.md"},
+                {"Member Analysis Shared Definitions" = "ec/business-intelligence/references/member-analysis-definitions-reference.md"},
+                {"Member Status and Registration Sources Reference" = "ec/business-intelligence/references/member-status-registration-sources-reference.md"},
+                {"Member Age Groups Reference" = "ec/business-intelligence/references/member-age-groups-reference.md"},
+                {"Member Level Sales Status Reference" = "ec/business-intelligence/references/member-level-sales-status-reference.md"},
+                {"Coupon Metric Definitions Reference" = "ec/business-intelligence/references/marketing-activity-coupon-metrics-reference.md"},
+                {"Discount Types Reference" = "ec/business-intelligence/references/marketing-activity-discount-categories-reference.md"},
+                {"OMO Analysis Report Shared Definitions" = "ec/business-intelligence/references/omo-definitions-reference.md"}
+            ]}
+        ]},
+        { "Orders" = [
+            {"Orders Overview" = "ec/orders/index.md"},
+            {"Get Started" = [
+                {"Order Management Interface" = "ec/orders/basics/order-management-interface.md"},
+                {"How to Search and Filter Orders" = "ec/orders/basics/search-filter-orders.md"},
+                {"Edit Order Content" = "ec/orders/basics/edit-order-content.md"},
+                {"How to Cancel an Order" = "ec/orders/basics/cancel-order.md"},
+                {"Use the Buy Again Feature" = "ec/orders/basics/repurchase-order.md"},
+                {"Order Fulfillment Flow" = "ec/orders/basics/order-fulfillment-flow.md"},
+            ]},
+            {"Order Settings" = [
+                {"Set Up and Print Order Details" = "ec/orders/order-settings/order-detail-print.md"},
+                {"Set Up and Print Packing Slips" = "ec/orders/order-settings/shipping-detail-print.md"},
+                {"Set Up Order Auto-Close" = "ec/orders/order-settings/auto-close-order-settings.md"},
+                {"How to Manually Close Orders" = "ec/orders/order-settings/manual-order-close.md"},
+                {"Send Customers a Payment Link" = "ec/orders/order-settings/provide-payment-link.md"},
+                {"Pay with a Convenience Store Barcode" = "ec/orders/order-settings/cvs-barcode-payment.md"},
+                {"Pay with a Convenience Store Payment Code" = "ec/orders/order-settings/cvs-code-payment.md"},
+                {"Set Up Unpaid Reminders" = "ec/orders/order-settings/unpaid-reminder-settings.md"},
+                {"Handle Orders with Failed Payments" = "ec/orders/payment-failed.md"},
+                {"Can't Download Shipping Labels or Update Shipment Status" = "ec/orders/order-settings/shipping-label-or-shipment-status-error.md"},
+            ]},
+            {"Home Delivery Shipping" = [
+                {"How to Ship with Custom Logistics" = "ec/orders/home-delivery/custom-logistic-shipping.md"},
+                {"Ship with EZCAT Home Delivery" = "ec/orders/home-delivery/tcat-home-delivery-v2.md"},
+                {"Automatically Call an EZCAT Driver for Pickup" = "ec/orders/home-delivery/tcat-auto-call-driver-v2.md"},
+                {"Ship with Pelican Express" = "ec/orders/home-delivery/pelican-shipping-v2.md"},
+                {"Ship with SF Express" = "ec/orders/home-delivery/sf-express-shipping-v2.md"},
+                {"Ship with HCT Logistics" = "ec/orders/home-delivery/hct-shipping-v2.md"},
+                {"Set Up Partial Shipment for Orders" = "ec/orders/home-delivery/partial-shipment-v2.md"},
+                {"How to Change an Order from Preparing Back to Unshipped" = "ec/orders/home-delivery/revert-to-unshipped.md"},
+                {"Shipment Status Tooltip Text" = "ec/orders/home-delivery/shipping-status-tooltip.md"},
+            ]},
+            {"Convenience Store Shipping" = [
+                {"Ship with Convenience Store B2C Bulk Shipping" = "ec/orders/cvs-shipping/cvs-b2c-bulk-shipping.md"},
+                {"Ship with Convenience Store C2C Store-to-Store" = "ec/orders/cvs-shipping/cvs-c2c-shipping.md"},
+                {"全家冷凍寄倉 B2C" = "ec/payments-and-logistics/setup-family-mart-frozen-b2c.md"},
+                {"Ship with FamilyMart Frozen C2C Store-to-Store" = "ec/orders/cvs-shipping/family-mart-frozen-c2c.md"},
+                {"Handle Partial Shipment of Convenience Store Orders" = "ec/orders/cvs-shipping/cvs-partial-shipment.md"},
+                {"Thermal Print Convenience Store Shipping Labels" = "ec/orders/cvs-shipping/thermal-print-cvs-waybill.md"},
+                {"Get a New Tracking Number for an Expired Convenience Store Shipping Label" = "ec/orders/renew-waybill-after-expiration.md"},
+                {"Convenience Store Shipping Label Validity" = "ec/orders/references/cvs-waybill-expiration-reference.md"},
+            ]},
+            {"EZCAT Quick Store Delivery" = [
+                {"Ship with EZCAT Quick Store Delivery" = "ec/orders/tcat-quick-store/tcat-quick-store-shipping.md"},
+                {"Set Up Payment Methods for EZCAT Quick Store Delivery" = "ec/orders/tcat-quick-store/tcat-express-payment-settings.md"},
+                {"EZCAT Quick Store Delivery Overdue Rules" = "ec/orders/tcat-quick-store/tcat-quick-store-overdue.md"},
+            ]},
+            { "Manage Subscription Orders" = "ec/orders/subscription-orders.md"},
+            { "Ship Store Pickup Orders" = "ec/orders/store-pickup-orders.md"},
+            { "Quick Delivery Orders" =[
+                { "Prepare and Accept Quick Delivery Orders"= "ec/orders/quick-delivery-order-preparation.md"},
+                { "Quick Delivery Shipping and Delivery Tracking"= "ec/orders/quick-delivery-shipping-and-distribution.md"},
+                { "Partial Delivery or Cancellation for Out-of-Stock Orders"= "ec/orders/out-of-stock-partial-shipping-or-cancellation.md"},
+                { "Pandago Delivery Exception Rules"= "ec/orders/pandago-delivery-exception-rules.md"},
+                { "Quick Delivery Shipping Fees and Reconciliation Rules"= "ec/orders/quick-delivery-shipping-fee-calculation-and-reconciliation.md"},
+                { "Shopper Purchase Flow"= "ec/orders/consumer-purchase-process.md"},
+            ]},
+            {"Returns and Refunds" = [
+                {"Member Return Request Feature" = "ec/orders/member-return-request-feature.md"},
+                {"Order Return and Refund Process" = "ec/orders/order-return-process.md"},
+                {"Refund Methods and Operations" = "ec/orders/order-refund-process.md"},
+                {"Manual Refunds for Third-Party Payment Orders" = "ec/orders/manual-refund-for-third-party-payment-orders.md"},
+                {"Handle Orders Past the Return Deadline" = "ec/orders/returns-refunds/overdue-return-handling.md"},
+                {"Handle Unclaimed Convenience Store Orders" = "ec/orders/returns-refunds/cvs-unclaimed-order.md"},
+                {"Use 7-Eleven C2B Return Service" = "ec/orders/returns-refunds/cvs-c2b-return.md"},
+                {"Use 7-Eleven C2C Return Service" = "ec/orders/returns-refunds/7-11-c2c-return.md"},
+                {"Order Cancellation and Refund Fees" = "ec/orders/order-cancellation-refund-fees.md"},
+            ]},
+            {"Cross-Border E-Commerce" = [
+                {"Cross-Border E-Commerce Return Process" = "ec/orders/cross-border-return-process.md"},
+                {"Cross-Border E-Commerce Refund Process" = "ec/orders/cross-border-refund-process.md"}
+            ]},
+            {"Order Reports" = [
+                {"Export Order Reports" = "ec/orders/reports/export-order-report.md"},
+                {"Export the Subscription Sub-Order Forecast Report" = "ec/orders/reports/export-subscription-forecast.md"}
+            ]},
+            {"Reference" = [
+                {"Order Filters and Statuses Reference" = "ec/orders/references/order-filter-status-reference.md"},
+                {"Shipping Methods Reference" = "ec/orders/references/shipping-methods.md"},
+                {"Delivery Status Reference" = "ec/orders/references/fulfillment-statuses.md"},
+                {"Order Payment Status Reference" = "ec/orders/references/payment-statuses.md"},
+                {"7-Eleven C2C Return Service: Conditions for Sending" = "ec/orders/references/c2c-return-conditions.md"},
+                {"Automatic Card Refund Time Limits" = "ec/orders/references/auto-refund-timeline.md"},
+                {"Convenience Store Partial Shipment Support" = "ec/orders/references/cvs-partial-shipping-support.md"},
+                {"Return and Refund Statuses (Unclaimed Convenience Store Orders)" = "ec/orders/references/return-refund-status-reference.md"},
+                {"Order List Actions" = "ec/orders/references/order-list-features.md"},
+                {"Order List Columns Reference" = "ec/orders/references/order-list-columns.md"},
+                {"Order Report Fields" = "ec/orders/references/order-report-fields.md"},
+                {"Convenience Store Pickup Name Rules" = "ec/orders/references/cvs-pickup-name-rules.md"},
+                {"Look Up Orders in the ECPay Merchant Backend" = "ec/orders/ecpay-backend-order-query.md"},
+                {"Order Auto-Close Types" = "ec/orders/references/order-auto-close-types-reference.md"}
+            ]},
+        ]},
+        { "Member Management" = [
+            { "Member Management" = "ec/members/index.md"},
+            { "Batch Import / Edit Members" = "ec/members/batch-import-and-edit-members.md"},
+            { "Manage Member Profiles" = "ec/members/manage-member-profiles.md"},
+            { "Member Filters And Groups" = "ec/members/member-filters-and-groups.md" },
+            { "Member Customer Service System" = "ec/members/member-customer-service-system.md"},
+            { "VIP Settings" = [
+                {"VIP Feature Guide" = "ec/members/vip/index.md"},
+                {"Set Up A Store-Wide VIP Program" = "ec/members/vip/setup-store-wide-vip-system.md"},
+                {"Create Exclusive VIP Groups" = "ec/members/vip/create-exclusive-vip-groups.md"},
+                {"Set Up Exclusive VIP Offers" = "ec/members/vip/setup-exclusive-vip-discounts.md"},
+                {"Upgrade / Downgrade / Renewal Rules" = "ec/members/vip/vip-upgrade-downgrade-renewal-rules.md"},
+            ]},
+        ]},
+        { "Products" = [
+            { "Product Management" = "ec/products/index.md" },  
+            { "Create and Manage" = [
+                {"Product Management Interface Overview" = "ec/products/create-and-manage/product-management-interface.md"},
+                {"Add and Update Products" = "ec/products/create-and-manage/create-update-products.md"},
+                {"Create and Set up Product Combos" = "ec/products/create-and-manage/create-and-setup-combo-products.md"},
+                {"Edit the Product Brief and Product Slogan" = "ec/products/create-and-manage/edit-product-slogan-and-description.md"},
+                {"Edit Product Descriptions and Product Settings" = "ec/products/create-and-manage/edit-product-description-settings.md"},
+                {"Set up Product Color Swatches and Variant Images - Drag-and-Drop Theme" = "ec/products/create-and-manage/product-swatches-variant-images-drag-drop.md"},
+                {"Set up Product Color Swatches and Variant Images - Default Theme" = "ec/products/create-and-manage/product-swatches-variant-images-default.md"},
+                {"Set up Product Videos" = "ec/products/create-and-manage/setup-product-videos.md" }
+            ]},  
+            { "Collections and Tags" = [
+                { "Set up Customized Collections" = "ec/products/categories-and-tags/custom-collections.md" },
+                { "Set up a Secret Collection" = "ec/products/categories-and-tags/secret-collection.md" },
+                { "Set up Conditionalized Collections" = "ec/products/categories-and-tags/smart-collections.md" },
+                { "Set up Multi-Level Product Categories" = "ec/products/categories-and-tags/multi-level-category-setup.md" },
+                { "Manage Product Tags" = "ec/products/categories-and-tags/manage-product-tags.md" }
+            ]},
+            { "Search and Discoverability" = [
+                {"Set Product Search Visibility" = "ec/products/discoverability/product-search-visibility.md"},
+                {"Set up Site Search" = "ec/products/discoverability/setup-site-search.md"},
+                {"Exclude Products with Specific Keywords from Search Results" = "ec/products/discoverability/exclude-keyword-products-search.md"},
+                {"Set up Storefront Product Filters" = "ec/products/discoverability/setup-product-filters.md"}
+            ]},
+            { "Bulk Management" = [
+                {"Import Products in Bulk from Excel" = "ec/products/bulk-operations/excel-import-products.md"},
+                {"Batch Edit Product Descriptions and Shipping Settings" = "ec/products/bulk-operations/batch-update-product-descriptions-shipping.md"},
+                {"Exclude Products from Third-Party Platform Uploads" = "ec/products/bulk-operations/exclude-products-from-third-party-platforms.md"},
+                {"Copy Products to Express Delivery Stores" = "ec/products/copy-products-to-quick-delivery-stores.md"},
+                {"Copy Products to POS Stores" = "ec/products/bulk-operations/copy-products-to-pos-stores.md"},
+                {"Set the Product Fulfillment Method" = "ec/products/bulk-operations/set-product-shipping-method.md"},
+            ]},
+            { "Pricing" = [
+                {"Set up VIP Member Pricing" = "ec/products/pricing/setup-vip-member-pricing.md"}
+            ]},
+            { "Customer Engagement" = [
+                {"Set up Back-in-Stock Notifications" = "ec/products/engagement/setup-back-in-stock-notifications.md"},
+                {"Manage Product Reviews" = "ec/products/engagement/manage-product-reviews.md"}
+            ]},
+            { "Checkout Settings" = [
+                {"Set up Automatic Checkout Splitting into Multiple Carts" = "ec/products/checkout/checkout-split-multi-cart.md"}
+            ]},
+            { "Shipping and Logistics" = [
+                { "Set up Product Shipping Conditions (Logistics, Temperature Zone, and Fulfillment Channel)" = "ec/products/shipping/setup-product-shipping-conditions.md" },
+                { "Set up Convenience Store Delivery Restrictions and Logistics Exclusions" = "ec/products/shipping/cvs-shipping-restrictions-exclusions.md" }
+            ]},
+            { "Reference" = [
+                { "Product Status Reference" = "ec/products/references/product-statuses.md" },
+                { "Collection Types Reference" = "ec/products/references/collection-group-types.md" },
+                { "Fulfillment Method Reference" = "ec/products/references/product-warehouse.md" },
+                { "Multi-Language Supported Languages Reference" = "ec/products/references/multi-language-supported.md" },
+                { "Product Multi-Language Translatable Fields Reference" = "ec/products/references/product-multilang-fields.md" },
+                { "Conditionalized Collection Filter Fields Reference" = "ec/products/references/smart-collections-rule-columns.md" },
+                { "Conditionalized Collection Filter Conditions Reference" = "ec/products/references/smart-collections-rule-relations.md" },
+                { "Conditionalized Collection Product Sort Order Reference" = "ec/products/references/smart-collections-sort-order.md" },
+                { "Shipping Temperature Zone Reference" = "ec/products/references/product-temperature.md" },
+            ]},
+        ]},
+        { "E-Tickets" = [
+            { "E-Ticket Overview" = "ec/e-ticket/index.md" },
+            { "E-Ticket Setup Guide" = "ec/e-ticket/e-ticket-setup-guide.md" },
+            { "Set up E-Ticket Promotions" = "ec/e-ticket/setup-e-ticket-promotions.md" },
+            { "Set up E-Ticket Store Permissions" = "ec/e-ticket/setup-e-ticket-store-permissions.md"}
+        ]},
+         { "Marketing" = [
+            { "Marketing" = "ec/marketing/index.md" }, 
+            { "Store-wide Discounts" =[
+                { "Store-wide Discounts" = "ec/marketing/discounts/storewide-discounts-v2.md" },
+                { "Set Up Store-wide Discount" = "ec/marketing/discounts/storewide-discounts.md" },
+            ]},
+            { "Bonus Points Settings" = "ec/marketing/bonus-and-gifts/setup-bonus-points.md" },
+            { "Set Up Registration Gift" = "ec/marketing/bonus-and-gifts/setup-registration-gift.md" },
+            { "Set Up Birthday Gift" = "ec/marketing/bonus-and-gifts/setup-birthday-gift.md" },
+            { "Coupons and Promo Codes" = [
+                { "Understand Coupon And Promo Codes" = "ec/marketing/coupon/index.md" },
+                { "Set Up Coupon" = "ec/marketing/coupon/setup-coupons.md" },
+                { "Set Up List Of Coupons" = "ec/marketing/coupon/setup-promo-codes.md" },
+                { "Guide To Stacking Multiple Coupons (Codes)" = "ec/marketing/coupon/multiple-coupons.md" },
+                { "Free Shipping Coupon Specs" = "ec/marketing/coupon/free-shipping-coupon-spec.md" },
+                { "Gift Coupon Specs" = "ec/marketing/coupon/gift-coupon-spec.md" },
+            ] },
+            { "Set Up Single-Product Flash Sale Collections" = "ec/marketing/discounts/flash-sale-single-product.md" },
+            { "Buy X Get Y Discount" = "ec/marketing/discounts/mix-and-match-discounts.md" },
+            { "Bundle Discounts" = "ec/marketing/discounts/red-and-green-bundle-discounts.md" },
+            { "Threshold Gifts / Quantity Gifts" = "ec/marketing/discounts/threshold-gifts-and-quantity-gifts.md" },
+            { "Upsells" = [
+                { "Set Up Product Upsells" = "ec/marketing/upsells/setup-product-upsell.md" },
+                { "Set Up Order Upsells" = "ec/marketing/upsells/setup-order-upsell.md" },
+            ] },
+            { "Limited-time First-purchase Gift" = "ec/marketing/bonus-and-gifts/limited-time-first-purchase-gift.md" },
+            { "Interactive Games (EC)" = "ec/marketing/other-tools/interactive-games.md" },
+            { "One-Page Stores" = [
+                { "Event Page" = "ec/marketing/one-page-store/one-page-store.md" },
+                { "Set YouTube Autoplay and Start Time in One-Page Stores" = "ec/marketing/one-page-store/one-page-store-youtube-autoplay.md" },
+            ] },
+            { "Conditional Gifts" = [
+                { "Send Coupon For Specific Products" = "ec/marketing/conditional-send/send-coupons-for-specific-products.md" },
+                { "Bonus Points For Specific Products" = "ec/marketing/conditional-send/send-bonus-points-for-specific-products.md" },
+                { "Bonus Points For Specific Payment Methods" = "ec/marketing/conditional-send/send-bonus-points-for-specific-payment-methods.md" },
+                { "Bonus Points For Specific Shipping Methods" = "ec/marketing/conditional-send/send-bonus-points-for-specific-logistics.md" },
+                { "Send Serial Number For Specific Products" = "ec/marketing/conditional-send/send-event-serials-for-specific-products.md" },
+            ] },
+            { "Bonus Mall (EC)" = "ec/marketing/bonus-and-gifts/bonus-point-mall.md" },
+            { "Subscription Campaign Page" = "ec/marketing/other-tools/subscription-campaign-page.md" },
+            { "Set Up Multi-Level Category Threshold Discounts" = "ec/marketing/discounts/multi-level-category-discount.md" },
+            { "Set Up Product Not Applicable To Selected Promotion" = "ec/marketing/purchase-restrictions/exclude-products-from-promotions.md" },
+            { "Set Product Purchase Limits" = "ec/marketing/purchase-restrictions/purchase-limit.md" },
+            { "Reference" = [
+                { "Checkout Discount Calculation Order" = "ec/marketing/discounts/checkout-discount-calculation-order.md" },
+                { "Coupon / Bonus Points Crediting Rules" = "ec/marketing/references/coupon-and-bonus-credit-rules.md" },
+                { "Coupon (Code) And Bonus Points Expiry Notifications" = "ec/marketing/purchase-restrictions/coupon-and-bonus-points-expiry-notification.md" },
+                { "Free Shipping Fee Settings" = "ec/marketing/free-shipping-settings.md" },
+                { "Create A Cart Link With Specific Products" = "ec/marketing/references/create-cart-link-specific-products.md" },
+                { "Auto-Select Variants With A SKU In The Product Link" = "ec/marketing/references/product-link-sku-auto-select-variant.md" },
+                { "Account Status And Purchase Access Reference" = "ec/marketing/references/purchase-limit-account-status.md" }
+            ] }
+        ]},  
+        { "Profit Sharing" = [
+            { "Understanding Profit Sharing" = "ec/profit-sharing/index.md"},
+            { "Referral Program" = "ec/profit-sharing/referrer-profit-sharing.md"},
+            { "Registrant Profit Sharing" = "ec/profit-sharing/registrant-profit-sharing.md"},
+            { "Export Referral Reports" = "ec/profit-sharing/export-profit-sharing-reports.md"},
+            { "Look Up Profit-Sharing Partners And Codes" = "ec/profit-sharing/query-profit-sharing-partners-and-codes.md"},
+            { "Using Referral Code Links" = "ec/profit-sharing/referral-link-applications.md"},
+        ]},
+        { "Push Notifications" = [
+            {"Push Notifications" = "ec/notifications/index.md" },
+            {"Set Up And Manage Email Notification Templates" = "ec/notifications/manage-email-templates.md"},
+            {"Set Up And Manage SMS Notification Templates" = "ec/notifications/manage-sms-templates-v2.md" },
+            {"Set Up And Send SMS Notifications" = "ec/notifications/send-sms-notifications-v2.md"},
+            {"Look Up And Track SMS Sending History" = "ec/notifications/track-sms-records.md"},
+            {"Set Up And Manage LINE OA Notification Templates" = "ec/notifications/manage-line-oa-templates.md"},
+            {"Send LINE Friend Invitations" = "ec/notifications/send-line-friend-invitation.md" },
+            {"Set Up And Send EDM Newsletters" = "ec/notifications/send-edm-newsletters-v2.md"}
+        ]},
+        { "Payments and Logistics" = [
+            {"Payments and Logistics" = "ec/payments-and-logistics/index.md"},
+            {"Checkout and Logistics Settings" = [
+                {"Checkout and Logistics Settings Overview" = "ec/payments-and-logistics/payments/index.md"},
+                {"Cart Settings" = "ec/payments-and-logistics/payments/cart-settings.md"},
+                {"Logistics Settings" = "ec/payments-and-logistics/payments/logistics-settings.md"},
+                {"Order Settings" = "ec/payments-and-logistics/payments/order-settings.md"}
+            ]},
+            {"Payment Services" = [
+                {"Apply for CYBERBIZ PAYMENTS" = "ec/payments-and-logistics/apply-cyberbiz-payments.md"},
+                {"Set up Credit Card 3D Verification Threshold" = "ec/payments-and-logistics/setup-credit-card-3d-verification.md"},
+                {"Set up Apple Pay" = "ec/payments-and-logistics/setup-apple-pay.md"},
+                {"Set up AFTEE" = "ec/payments-and-logistics/setup-aftee.md"},
+                {"Set up LINE Pay" = "ec/payments-and-logistics/setup-line-pay.md"},
+                {"Set up PayPal" = "ec/payments-and-logistics/setup-paypal.md"},
+                {"Set up JKOPAY" = "ec/payments-and-logistics/setup-jkopay.md"},
+                {"Set up Google Pay™" = "ec/payments-and-logistics/setup-google-pay.md"},
+                {"Set up iPASS MONEY Payments" = "ec/payments-and-logistics/setup-ipass-money.md"},
+            ]},
+            {"Home Delivery Logistics" = [
+                {"Home Delivery Cash on Delivery Logistics (Black Cat / Pelican Express / Hsinchu Logistics)" = "ec/payments-and-logistics/home-delivery-cash-on-delivery.md"},
+                {"Set up Home Delivery Non-COD / Custom Logistics" = "ec/payments-and-logistics/setup-home-delivery-non-cod-custom-logistics.md"},
+            ]},
+            {"Convenience Store Logistics" = [
+                {"Set up CVS Bulk Shipping B2C" = "ec/payments-and-logistics/setup-cvs-b2c-bulk-shipping.md"},
+                {"Set up CVS Store-to-Store C2C Logistics Integration" = "ec/payments-and-logistics/setup-cvs-c2c-shipping.md"},
+                {"Integrate ezShip CVS Pickup (C2C)" = "ec/payments-and-logistics/integrate-ezship-cvs-pickup-c2c.md"},
+                {"Apply for ECPay Payments and CVS Cash on Delivery" = "ec/payments-and-logistics/apply-for-ecpay-payment-and-cvs-cod.md"},
+            ]},
+            {"Waybill Settings" = [
+                {"Set up and Reprint Black Cat Waybills" = "ec/payments-and-logistics/setup-print-tcat-waybill-v2.md"},
+                {"Set up and Reprint Black Cat Quick Store Waybills" = "ec/payments-and-logistics/setup-print-tcat-quick-store-waybill-v2.md"},
+                {"Set up Pelican Waybills" = "ec/payments-and-logistics/setup-pelican-waybill-v2.md"},
+                {"Set up SF Express Waybill" = "ec/payments-and-logistics/setup-sf-express-waybill-v2.md"},
+                {"Set up HCT Waybill" = "ec/payments-and-logistics/setup-hct-waybill-v2.md"},
+            ]},
+            {"Create Stores" = "ec/payments-and-logistics/create-stores.md"},
+            {"Store Pickup"= [
+                {"Store Pickup: Omnichannel Operations Navigation" = "ec/payments-and-logistics/store-pickup/index.md"},
+                {"Enable Store Pickup Service" = "ec/payments-and-logistics/store-pickup/enable-store-pickup-service.md"},
+            ]},
+            {"CYBERBIZ NOW" = [
+                {"CYBERBIZ NOW Quick Delivery" = "ec/payments-and-logistics/cyberbiz-now/index.md"},
+                {"Enable Store Quick Delivery Service" = "ec/payments-and-logistics/cyberbiz-now/enable-cyberbiz-now-quick-delivery.md"},
+            ]},
+            {"Cross-Border E-Commerce" = [
+                {"North America Payment Services" = "ec/payments-and-logistics/north-america-payment-services.md"},
+                {"Japan Payment Services" = "ec/payments-and-logistics/japan-payment-services.md"},
+                {"Southeast Asia Payment Services" = "ec/payments-and-logistics/southeast-asia-payment-services.md"},
+                {"Australia Local Payment Services" = "ec/payments-and-logistics/australia-local-payment-services.md"},
+                {"DHL Cross-Border Logistics" = "ec/payments-and-logistics/dhl-cross-border-logistics.md"},
+                {"LINEX Cross-Border Logistics" = "ec/payments-and-logistics/linex-cross-border-logistics.md"},
+                {"SF Express Overseas Logistics" = "ec/payments-and-logistics/sf-express-overseas-logistics.md"},
+                {"Amazon FBA Cross-Border Logistics" = "ec/payments-and-logistics/amazon-fba-cross-border-logistics.md"},
+            ]},
+            {"Reference" = [
+                {"Logistics Center Receiving Information" = "ec/payments-and-logistics/references/cvs-b2c-logistics-center-reference.md"},
+                {"Convenience Store Bulk Consignment B2C Channel Specifications" = "ec/payments-and-logistics/references/cvs-b2c-channel-spec-reference.md"},
+                {"Storefront Return-Eligible Days Reference" = "ec/payments-and-logistics/references/return-eligible-days-reference.md"},
+                {"Abandoned Cart Reminder Channels Reference" = "ec/payments-and-logistics/references/cart-reminder-channels-reference.md"}
+            ]},
+        ]},
+        { "Website Appearance" = [
+            { "Website Appearance" = "ec/website-appearance/index.md" },
+            { "Themes and Layout" = [
+                { "Set Up the Express Delivery Storefront Entry and Section" = "ec/website-appearance/setup-quick-delivery-frontend-entry.md" },
+                { "Drag-and-Drop Theme Site Settings" = "ec/website-appearance/theme-and-layout/theme-editor.md" },
+                { "Global Settings" = "ec/website-appearance/theme-and-layout/setup-global-theme-settings.md" },
+                { "Page Settings Guide" = "ec/website-appearance/theme-and-layout/setup-theme-page-settings.md" },
+                { "Apply and Switch Website Themes" = "ec/website-appearance/theme-and-layout/apply-and-switch-theme.md" },
+                { "Create and Manage Scheduled Carousels" = "ec/website-appearance/theme-and-layout/configure-scheduled-carousels.md" },
+                { "Adjust the Homepage Carousel Transition Duration" = "ec/website-appearance/theme-and-layout/adjust-carousel-transition-duration.md" },
+                { "Set the Homepage Product Collection Order" = "ec/website-appearance/theme-and-layout/storefront-collection-sorting.md" },
+                { "Disable Product Image Zoom Preview" = "ec/website-appearance/theme-and-layout/disable-product-image-zoom.md" }
+            ]},
+            { "Navigation Menus" = [
+                { "Set Up Menus and the Navigation Bar" = "ec/website-appearance/navigation/setup-menus-navigation.md" },
+                { "Set Up a Pinned Post" = "ec/website-appearance/navigation/setup-pinned-post.md" },
+                { "Expand Navigation Menus on Hover" = "ec/website-appearance/navigation/setup-nav-menu-hover-expand.md" }
+            ]},
+            { "Pages and Content" = [
+                { "Set Up and Manage Custom Pages" = "ec/website-appearance/pages-and-content/custom-pages.md" },
+                { "Embed a Google Form in a Custom Page" = "ec/website-appearance/pages-and-content/embed-google-form-custom-page.md" },
+                { "Blog Management and Publishing Guide" = "ec/website-appearance/pages-and-content/blog-management-publishing-guide.md" }
+            ]},
+            { "Site Settings" = [
+                { "Set Up the Website Title and SEO" = "ec/website-appearance/site-settings/setup-site-title-seo.md" },
+                { "Set Up Storefront Language and Text Customization" = "ec/website-appearance/site-settings/setup-storefront-language-text-customization.md" },
+                { "Set Up the Shared Link Thumbnail (OG Image)" = "ec/website-appearance/site-settings/setup-og-image.md" },
+                { "Create a Specified Commercial Transactions Act Page for Japan Websites" = "ec/website-appearance/site-settings/jp-legal-compliance-page.md" },
+                { "Disclose Your Business Name and Tax ID Number" = "ec/website-appearance/site-settings/business-disclosure.md" },
+                { "Disable Right-Click to Protect Images and Text" = "ec/website-appearance/site-settings/setup-right-click-protection.md" }
+            ]},
+            { "Customer Interaction" = [
+                { "Set Up a Customer Service Widget" = "ec/website-appearance/customer-interaction/setup-customer-service-widget.md" },
+                { "Set Up and Edit Customer Service Center Information" = "ec/website-appearance/customer-interaction/setup-edit-customer-service-info.md" },
+                { "Enable reCAPTCHA for Comments" = "ec/website-appearance/customer-interaction/enable-comment-recaptcha.md" }
+            ]},
+            { "Checkout Flow" = [
+                { "Change Checkout to Collect Recipient Information First" = "ec/website-appearance/checkout-and-shopping-flow/priority-recipient-info-checkout.md" }
+            ]},
+            { "Code Customization" = [
+                { "Set Up a Cookie Consent Banner" = "ec/website-appearance/code-customization/setup-cookie-consent-banner.md" },
+                { "Edit Content with the Text Editor" = "ec/website-appearance/code-customization/text-editor.md" },
+                { "Template Editor Complete Guide" = "ec/website-appearance/code-customization/theme-editor-complete-guide.md" },
+                { "Change the Storefront Label for Valid Orders from Other Channels" = "ec/website-appearance/code-customization/customize-other-channel-order-label.md" },
+                { "Restore Web Page Code with the Template Editor" = "ec/website-appearance/code-customization/restore-code-theme-editor.md" }
+            ]},
+            { "Reference" = [
+                { "Block Types You Can Add Reference" = "ec/website-appearance/references/theme-editor-sections.md" },
+                { "Drag-and-Drop Editable Pages Reference" = "ec/website-appearance/references/theme-editor-pages.md" },
+                { "Custom Page Blocks Reference" = "ec/website-appearance/references/custom-pages-blocks.md" },
+                { "Ad Schedule Statuses Reference" = "ec/website-appearance/references/scheduled-carousel-statuses.md" },
+                { "Theme Types Reference" = "ec/website-appearance/references/theme-types.md" },
+                { "Footer Contact Information Fields Reference" = "ec/website-appearance/references/business-disclosure-footer-fields.md" },
+                { "Text Editor Reference" = "ec/website-appearance/references/text-editor-toolbar.md" }
+            ]}
+        ]},
+        { "APP MARKET" = [
+            {"APP MARKET Overview" = "ec/app-market/index.md"},
+            { "API and Webhook Integration Guide" = "ec/app-market/api-and-webhook-integration-guide.md"},
+            {"Install the Meta Ads App" = "ec/app-market/install-meta-ads-app.md"},
+            {"Create Automated Push Flows with AUTOMATION" =  "ec/app-market/automation/automation-push-flow.md"},
+            {"Store Assistant" = [
+                {"Store Assistant" = "ec/app-market/storepal/index.md"},
+                {"Install and Set up Store Assistant" = "ec/app-market/storepal/install-and-setup-storepal.md"},
+                {"Staff Accounts and Roles" = "ec/app-market/storepal/staff-accounts-and-role.md"},
+                {"Configure Global Settings and Sales Attribution" = "ec/app-market/storepal/configure-global-settings-and-attribution.md"},
+                {"Import Customer Store Recommenders" = "ec/app-market/storepal/bulk-import-customer-referrers.md"},
+                {"Search and Create Members" = "ec/app-market/storepal/search-and-create-members.md"},
+                {"Member Identification" = "ec/app-market/storepal/member-identification.md"},
+                {"Member Data Insights" = "ec/app-market/storepal/member-data-warehouse.md"},
+                {"Sales Conversion" = "ec/app-market/storepal/sales-conversion.md"},
+                {"View Sales Performance" = "ec/app-market/storepal/view-sales-performance.md"},
+                {"Store Assistant Performance Reports" = "ec/app-market/storepal/performance-reports.md"},
+            ]},
+            {"CHAT BOX" = [
+                { "CHAT BOX Messaging" = "ec/app-market/chatbox/index.md" },
+                { "Connect CHAT BOX to a LINE Official Account" = "ec/app-market/chatbox/connect-chat-box-to-line-oa.md" },
+                { "Connect CHAT BOX to a Facebook Page" = "ec/app-market/chatbox/connect-chat-box-to-facebook-page.md" },
+                { "LINE Message Format Specifications" = "ec/app-market/chatbox/line-message-format-spec.md" },
+                { "Meta Message Format Specifications" = "ec/app-market/chatbox/meta-message-format-spec.md" },
+                { "CHAT BOX AI Suggested Replies" = "ec/app-market/chatbox/chat-box-ai-suggested-replies.md" },
+                { "Set up the Store Chat Widget" = "ec/app-market/chatbox/integrated-chat-widget.md" },
+            ]},
+            {"CHANNEL BRIDGE" = [
+                { "Step 1: Install and Authorize Your Shop" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md" },
+                { "Step 2: Import Products and Create Links" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step2-import-products-and-link.md" },
+                { "Step 3: Sync Inventory Between Your Online Store and Shopee" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee.md" },
+                { "Step 4: Create Shopee Products from Online Store Products" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step4-create-shopee-products-from-site.md" },
+                { "Step 5: Sync Product Information Between Your Online Store and Shopee" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step5-sync-product-info-with-shopee.md" },
+            ]},
+            {"CYBERBIZ EXPRESS" = [
+                {"CYBERBIZ EXPRESS Japan-to-Taiwan Cross-Border Home Delivery" = "ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery.md"},
+                {"CYBERBIZ EXPRESS Japan Post (EMS)" = "ec/app-market/express/cyberbiz-express-ems.md"},
+                {"CYBERBIZ EXPRESS 7-11 Cross-Border Store Pickup" = "ec/app-market/express/cyberbiz-express-711.md"},
+                {"CYBERBIZ EXPRESS Ninja Van Home Delivery (Singapore/Malaysia)" = "ec/app-market/express/cyberbiz-express-ninja-van.md"},
+                {"EZWAY Subscription Service" = "ec/app-market/express/ezway.md"},
+                {"Product Information Settings for Japan-to-Taiwan Cross-Border Sales" = "ec/app-market/express/product-info-setting.md"},
+                {"CYBERBIZ EXPRESS Shipment Tracking and Lookup" = "ec/app-market/express/order-tracking-and-query.md"},
+            ]},
+        ]},
+        { "Third-Party Integrations" = [
+            {"Third-Party Platform Integrations" = "ec/integrations/index.md"},  
+            {"Facebook" = [
+                {"Facebook Overview" = "ec/integrations/fb/index.md"},
+                {"Set up Facebook Quick Login" = "ec/integrations/fb/setup-facebook-quick-login.md"},
+                {"Business Extension" = [
+                    {"FB Business Extension Overview" = "ec/integrations/fb/mbe/index.md"},
+                    {"Set up FBE Account Authorization and Asset Linking" = "ec/integrations/fb/mbe/setup-fbe-authorization.md"},
+                    {"Set up FBE Domain Verification" = "ec/integrations/fb/mbe/setup-fbe-domain-verification.md"},
+                    {"Set up FB and IG Stores" = "ec/integrations/fb/mbe/setup-fb-instagram-shop.md"},
+                    {"Exclude Products from FB and IG Shops" = "ec/integrations/fb/mbe/exclude-products-fb-instagram-sync.md"}
+                ]},
+                {"Meta Ads" = [
+                    {"Meta Ads" = "ec/integrations/fb/meta-ads/index.md"},
+                    {"Account Setup" = [
+                        {"Create a Meta Ad Account and Top Up" = "ec/integrations/fb/meta-ads/create-meta-ad-account-top-up.md"},
+                        {"Meta Ad Account Idle Reclaim Policy and Retention Notes" = "ec/integrations/fb/meta-ads/meta-ad-idle-account-reclaim.md"}
+                    ]},
+                    {"Ad Campaigns" = [
+                        {"Set up a Meta Ad Campaign" = "ec/integrations/fb/meta-ads/setup-meta-ad-campaign.md"},
+                        {"Set up Catalog Product Sets for Meta Ads" = "ec/integrations/fb/meta-ads/setup-meta-ad-catalog-sets.md"},
+                        {"Sync Product Videos to Meta Catalog" = "ec/integrations/fb/meta-ads/sync-product-videos-meta-catalog.md"}
+                    ]},
+                    {"Strategy and Budget" = [
+                        {"ASC Ad Strategy and Best Practices" = "ec/integrations/fb/meta-ads/asc-ad-strategy-best-practices.md"},
+                        {"Meta Ads Daily Budget Guide" = "ec/integrations/fb/meta-ads/meta-ad-daily-budget-guide.md"}
+                    ]},
+                    {"Performance and Troubleshooting" = [
+                        {"Using Meta Ad Performance Analysis" = "ec/integrations/fb/meta-ads/meta-ad-performance-analysis.md"},
+                        {"Manually Share Asset Permissions with CYBERBIZ" = "ec/integrations/fb/meta-ads/share-asset-permissions-cyberbiz.md"}
+                    ]}
+                ]},
+            ]},
+            {"Google" = [
+                {"Google Integrations" = "ec/integrations/google/index.md"},
+                {"Basic Setup and Account Verification" = [
+                    {"Register and Verify Google Search Console" = "ec/integrations/google/setup-google-search-console.md"},
+                    {"Set up and Verify Google Business Profile" = "ec/integrations/google/setup-google-business-profile.md"},
+                    {"Set up Google Tag Manager and Connect CYBERBIZ" = "ec/integrations/google/setup-google-tag-manager.md"},
+                    {"Set up Google Quick Login" = "ec/integrations/google/setup-google-quick-login.md"}
+                ]},
+                {"Google Merchant Center and Shopping Ads" = [
+                    {"Set up Google Merchant Center and Sync CYBERBIZ Products" = "ec/integrations/google/setup-google-merchant-center.md"},
+                    {"Automated Ads System (Google Shopping Ads)" = "ec/integrations/google/automated-ads-system.md"},
+                    {"YouTube Shopping Setup Guide" = "ec/integrations/google/youtube-shopping-setup-guide.md"},
+                    {"Set up GMC Important Event Source Tracking and Auto-Tagging" = "ec/integrations/google/setup-gmc-conversion-tracking.md"}
+                ]},
+                {"Google Ads Campaigns and Conversion Tracking" = [
+                    {"Set up Google Ads Conversion Tracking" = "ec/integrations/google/setup-google-ads-conversion-tracking.md"},
+                    {"Set up Google Ads Enhanced Conversions" = "ec/integrations/google/setup-google-ads-enhanced-conversions.md"}
+                ]},
+                {"Traffic Tracking and Data Analysis" = [
+                    {"Track Marketing Traffic and Analyze Performance with UTM Parameters" = "ec/integrations/google/utm-parameter-tracking-guide.md"},
+                    {"Verify Tracking Code Installation with Google Tag Assistant" = "ec/integrations/google/verify-tracking-tag-installation.md"}
+                ]},
+                {"Google Analytics" = [
+                    {"Set up and Connect Google Analytics" = "ec/integrations/google/ga/setup-google-analytics.md"},
+                    {"Set up Google Analytics Advanced Tracking and Data Analysis" = "ec/integrations/google/ga/google-analytics-advanced-tracking.md"},
+                    {"Set up GA4 Exclusions for Internal Traffic and Third-Party Referrals" = "ec/integrations/google/ga/ga4-exclude-internal-traffic-and-referrals.md"},
+                    {"Set up GA4 Site Search Tracking" = "ec/integrations/google/ga/setup-ga4-site-search-tracking.md"}
+                ]},
+                {"Search Management and Site Security" = [
+                    {"Remove Specific Pages or Subdirectories from Google Search Results" = "ec/integrations/google/remove-urls-from-google-search.md"},
+                    {"Check and Resolve Website Security Risks with Google Safe Browsing" = "ec/integrations/google/google-safe-browsing-security-check.md"}
+                ]},
+            ]},
+            { "LINE" = [
+                {"LINE Integration Overview" = "ec/integrations/line/index.md"},
+                {"Official Account Integration" = [
+                    {"Connect LINE Messaging API" = "ec/integrations/line/account-integration/connect-line-messaging-api.md"},
+                    {"Set up LINE Quick Login" = "ec/integrations/line/account-integration/setup-line-quick-login.md"},
+                    {"Set up Member Phone Number Retrieval in LINE Quick Login" = "ec/integrations/line/account-integration/setup-line-quick-login-phone-number.md"},
+                    {"Set up LIFF Auto Login and Member Binding" = "ec/integrations/line/account-integration/setup-liff-auto-login-member-binding.md"},
+                    {"Bind LINE Official Account to Website Members" = "ec/integrations/line/account-integration/bind-line-oa-store-members.md"},
+                    {"Filter and Use LINE OA Bound Member Lists" = "ec/integrations/line/account-integration/filter-use-line-oa-bound-members.md"},
+                    {"Set up LINE Binding Member Gift Coupon" = "ec/integrations/line/account-integration/setup-line-binding-coupon-gift.md"}
+                ]},
+                {"Marketing and Messaging" = [
+                    {"Set up LINE OA Audience Integration" = "ec/integrations/line/marketing/setup-line-oa-audience.md"},
+                    {"Set up and Send LINE OA Segment Messages" = "ec/integrations/line/marketing/line-oa-segment-messaging.md"},
+                    {"Add LINE Friend Entry to Storefront" = "ec/integrations/line/marketing/add-line-friend-entry-storefront.md"},
+                    {"Set up LINE Friend Links on Order Confirmation and Payment Completed Pages" = "ec/integrations/line/marketing/line-friend-link-order-payment-pages.md"},
+                    {"Set up LINE Rich Menu" = "ec/integrations/line/marketing/setup-line-rich-menu.md"},
+                    {"Set up and Manage LINE Tag" = "ec/integrations/line/marketing/setup-manage-line-tag.md"}
+                ]},
+                {"LINE Group-Buy" = [
+                    {"LINE Group-Buy Overview" = "ec/integrations/line/group-buy/index.md"},
+                    {"Set up LINE Group Buy Bot" = "ec/integrations/line/group-buy/setup-line-group-bot.md"},
+                    {"Set up LINE Group-Buy Products" = "ec/integrations/line/group-buy/setup-line-group-buy-products.md"},
+                    {"Set up LINE Group-Buy Group" = "ec/integrations/line/group-buy/setup-line-group-buy-group.md"},
+                    {"Shop with LINE Group Buy" = "ec/integrations/line/group-buy/line-group-buy-shopping.md"}
+                ]},
+                {"Apply for and Set up the LINE Live Feature" = "ec/integrations/line/apply-setup-line-live-stream.md"},
+                {"Apply for and Set up LINE Shopping Referrals" = "ec/integrations/line/apply-setup-line-shopping-guide.md"}
+            ]},
+            {"Connect SHOP.COM Channel" = "ec/integrations/setup-shop-com.md"},
+            {"Reference" = [
+                {"Automated Ads Activation and Delivery Status Reference" = "ec/integrations/references/automated-ads-statuses.md"}
+            ]}
+        ]},
+        { "Website Management" = [
+            { "Website Management" = "ec/website-management/index.md" },
+            { "Basic Website Settings" = [
+                { "Set up Basic Website Information" = "ec/website-management/setup-store-basic-info.md" },
+                { "Set up Multi-Language and Multi-Currency for Your Storefront" = "ec/website-management/setup-multi-language-and-multi-currency.md" },
+                { "Domain Management" = "ec/website-management/domain-management.md" },
+            ]},
+            { "Customer Registration" = [
+                { "Customer Registration Flow and Fields" = "ec/website-management/customer-registration-flow-and-fields.md" },
+                { "Set up Dual Email and Mobile Verification for Customers" = "ec/website-management/setup-customer-email-phone-verification.md" },
+                { "Apply Member Tags to Specific Email Domains" = "ec/website-management/apply-member-tags-to-specific-email-domains.md" },
+            ]},
+            { "Security" = [
+                { "Security Overview and Best Practices" = "ec/website-management/security-best-practices.md" },
+                { "Set up Member Security and Website Protection" = "ec/website-management/member-security-settings.md" },
+                { "Set up Admin Login Security" = "ec/website-management/admin-security-settings.md" },
+                { "Set up Bot Protection and SMS Verification" = "ec/website-management/bot-protection-settings.md" },
+                { "Set up and Manage Two-Step Verification" = "ec/website-management/setup-manage-two-factor-auth.md" },
+                { "Enable Two-Step Verification with Authy" = "ec/website-management/authy-two-factor-authentication.md" },
+                { "Add Website Admins and Set Permissions" = "ec/website-management/add-admin-set-permissions.md" },
+            ]},
+            {"SEO" = [
+                {"SEO Settings and Optimization Guide" = "ec/website-management/seo/seo-guide.md"},
+                {"Submit a Sitemap to Google Search Console" = "ec/website-management/seo/submit-sitemap-to-gsc.md"},
+                {"Set up 301 Redirects" = "ec/website-management/seo/setup-301-redirects.md"}
+            ]},
+            { "Reconciliation" = [
+                { "Set up Automatic Deduction of Arrears" = "ec/website-management/auto-deduction-of-arrears.md" },
+                { "Set up Automatic Confirmation of Reconciliation Statements" = "ec/website-management/auto-confirm-reconciliation-accounts.md" },
+                { "One-Click Invoice Issuance" = "ec/website-management/one-click-invoice-issuance.md" },
+            ]},
+            { "Invoices" = [
+                { "Wixtar E-Invoice Setup" = "ec/website-management/wixtar-e-invoice-setup.md" },
+                { "Manage System-Issued Consumer Invoices" = "ec/website-management/manage-system-issued-consumer-invoices.md"},
+                { "Set up ECPay E-Invoices" = "ec/website-management/ecpay-invoice.md" },
+            ]},
+            { "Plan and Account" = [
+                { "Renewal Purchases and Automatic Renewal" = "ec/website-management/renewal-and-auto-subscription.md" },
+                { "CYBER Coins Topup Center Guide" = "ec/website-management/points-deposits.md" },
+                { "System Expiry Handling Process" = "ec/website-management/system-expiry-handling-process.md" },
+            ]},
+            { "Troubleshooting" = [
+                { "Unable to Receive the Admin Panel Login Verification Email" = "ec/website-management/not-receiving-backend-login-verification-email.md" },
+                { "Troubleshoot Missing Merchant Notification Emails" = "ec/website-management/troubleshoot-not-receiving-merchant-notifications.md" },
+            ]},
+            {"Reference" = [
+                {"Admin Permissions and Admin Panel Menu Reference" = "ec/website-management/references/admin-permissions-menu-reference.md"},
+                {"Customer Field Validation Mode Reference" = "ec/website-management/references/customer-field-validation-reference.md"},
+                {"Customer Registration Mode Reference" = "ec/website-management/references/customer-registration-modes-reference.md"},
+                {"Order Number Format Variable Reference" = "ec/website-management/references/general-preferences-order-format-variables.md"},
+                { "Unable to Load the HTTPS Root URL" = "ec/website-management/unable-to-read-https-root-url.md" },
+                { "Cloudflare SSL Conflict" = "ec/website-management/cloudflare-ssl-conflict.md" }
+            ]},
+        ]},
+        { "CYBERBIZ APP" = [
+            { "CYBERBIZ APP" = "ec/app/index.md" },
+            { "CYBERBIZ APP Core Features Overview" = "ec/app/cyberbiz-app-feature-overview.md" },
+            { "CYBERBIZ APP Setup and Management" = "ec/app/setup-cyberbiz-app.md" },
+            { "Apply for an Apple Developer Account" = "ec/app/apply-apple-developer-account.md" },
+            { "Set up the App First-Login Gift" = "ec/app/first-login-gift.md" },
+        ]},
+    ]},
+    { "Smart Warehousing" = [
+        { "Smart Warehousing (WMS) Product Center" = "wms/index.md"},
+        { "Get Started" = [
+            { "Merchant Inbound Rules" = "wms/merchant-inbound-operation-rules.md"},
+        ]},
+        { "Online Store Warehouse Integration Guide" = [
+            { "Warehouse Integration Application and Activation" = "wms/application-process-and-activation.md"},
+            { "Enable Partial Warehouse Integration and Order Splitting" = "wms/enable-partial-warehouse-integration-and-order-splitting.md"},
+            { "Enable Partial Warehouse Integration and Mixed Orders" = "wms/enable-partial-warehouse-integration-and-mixed-orders.md"},
+            { "Store and Warehouse Sync Rules" = "wms/site-and-warehouse-sync-rules.md"},
+            { "Set up Products (In Stock, Limited, Preorder)" = "wms/setup-products-stock-limit-preorder.md"},
+            { "Manually Confirm Receipt" = "wms/manually-confirm-receipt.md"},
+            { "Returns and Vehicle Dispatch" = "wms/returns-and-vehicle-dispatch.md"},
+            { "Inspect Returns Yourself" = "wms/merchant-self-inspection-of-returns.md"},
+            { "Transfer Inventory Between POS and the Warehouse" = "wms/pos-warehouse-inventory-transfer.md"},
+        ]},
+        { "Reference" = [
+            { "Home Delivery Settings by Warehouse Integration Mode" = "wms/logistics-settings-reference.md"},
+        ]},
+#         {"divider" = "divider"},
+        { "Announcements" = "wms/announcements.md"},
+        { "Operation Log List" = "wms/operation-logs.md"},
+        { "Products" = [
+            { "Single Products" = "wms/single-items.md"},
+            { "Bundle Products" = "wms/processed-products.md"},
+            { "Season Groups" = "wms/seasonal-groups.md"},
+        ]},
+        { "Vendors" = "wms/suppliers.md"},
+        { "Channels" = "wms/channels.md"},
+        { "Transfer Orders" = "wms/transfer-orders.md"},
+        { "Receipt Orders" = "wms/inbound-orders.md"},
+        { "Orders" = [
+            { "Order List" = "wms/list.md"},
+            { "Create Orders Manually" = "wms/manual-order-creation.md"},
+            { "Clone Orders" = "wms/duplicate-order.md"},
+        ]},
+        { "POD List" = "wms/pod-list.md"},
+        { "Return Orders" = "wms/return-orders.md"},
+        { "Inventory Records" = "wms/inventory-records.md"},
+        { "Settings" = [
+            { "Store Settings" = "wms/store-settings.md"},
+            { "Account Management" = "wms/account-management.md"},
+            { "Permission Settings" = "wms/permission-settings.md"},
+            { "Report Notification Settings" = "wms/report-notification-settings.md"},
+        ]},
+    ]},
+    { "Smart POS" = [
+        { "Smart POS Product Center" = "pos/index.md"},
+        { "Get Started" = [
+            { "Get Started" = "pos/get-started/index.md" },
+            { "Create POS Products" = "pos/get-started/create-pos-products.md" },
+            { "Bulk Fill Product SKUs" = "pos/get-started/bulk-update-product-skus.md" },
+        ]},
+        { "Hardware" = [
+            { "System Hardware and Environment Requirements" = "pos/hardware/index.md" },
+            { "Taishin Wired Credit Card Machine" = "pos/hardware/taishin-wired-credit-card-machine.md" },
+            { "MYPAY Wireless Credit Card Machine" = "pos/hardware/mypay-wireless-credit-card-machine.md" },
+            { "Posiflex Wired Invoice Printer" = "pos/hardware/posiflex-wired-invoice-printer.md" },
+            { "EPSON TM-T82III Wired Invoice Printer" = "pos/hardware/epson-tm-t82iii-invoice-printer.md" },
+            { "EPSON TM-M30III Invoice Printer Installation Guide (Wi-Fi Connection)" = "pos/hardware/epson-tm-m30iii-invoice-printer.md" },
+            { "Label Printer" = "pos/hardware/label-printer.md" },
+            { "Customer Display Screen" = "pos/hardware/customer-display-screen.md" },
+            { "Set up POS Barcode Scanner (HPRT N130)" = "pos/hardware/hprt-n130-barcode-scanner.md" },
+            { "Tablet Device Guide" = "pos/hardware/tablet-device-user-guide.md" },
+            { "Network Connection Errors and Disconnection Prompts" = "pos/hardware/network-connection-exception-and-disconnection-prompts.md" },
+        ]},
+        { "Software" = [
+            { "Drivers" = "pos/software/drivers.md" },
+        ]},
+        { "Third-Party Services" =[
+            { "Apply for Monolith E-Invoice" = "pos/third-party/monolith-e-invoice.md" },
+            { "Set up POS Wixtar E-Invoice" = "pos/third-party/wixtar-e-invoice.md" },
+            { "LINE Pay Barcode Payment" = "pos/check/line-pay-scan-payment.md" },
+            { "Set up and Use LINE Member Barcode Display (POS Checkout Integration)" = "pos/integrations/line/line-member-barcode-pos-checkout.md" },
+        ]},
+        {"divider" = "divider"},
+        { "Checkout" =[
+            { "Checkout" = "pos/check/index.md" },
+            { "Bind a Sub-Terminal for Checkout" = "pos/check/sub-device-checkout-binding.md" },
+            { "Payment Methods" =[
+                { "Payment Methods" = "pos/check/payment-method/index.md" },
+                { "Set up Multiple Payment Methods on POS" = "pos/check/payment-method/multiple-payment-methods.md" },
+            ]},
+            { "Whole-Order Discounts" = "pos/check/storewide-order-discounts.md" },
+            { "Manager Price Override" = "pos/check/pos-manager-price-override.md" },
+            { "Change the Display Name of Manager Price Override on the Order Details Page" = "pos/check/customize-manager-price-override-display.md" },
+            { "Print Invoice Details" = "pos/check/print-invoice-details.md" },
+            { "Print Product Labels" = "pos/check/print-product-labels.md" },
+            { "Low-Stock Notifications" = "pos/check/low-stock-notifications.md" },
+            { "Set up Bonus Mall (POS)" = "pos/check/bonus-point-mall.md" },
+            { "Customer Display Interactive Games" = "pos/check/customer-display-interactive-games.md" },
+            { "Redeem E-Tickets on the POS Front End" = "pos/check/pos-frontend-e-ticket-redemption.md" },
+            { "Guest Checkout" = "pos/check/guest-checkout.md" },
+            { "Offline Checkout Mode" = "pos/check/offline-checkout-mode.md" },
+            { "Product Not Found After Scanner Scan" = "pos/check/product-not-found-after-scanner-scan.md" },
+            { "Mixed-Tax Invoices" = "pos/check/mixed-tax-invoices.md" },
+        ]},
+        { "POS Front-End Menu Settings" = "pos/check/pos-frontend-menu-settings.md" },
+        { "Orders" =[
+            { "Set up POS Order Auto-Close" = "pos/orders/pos-order-auto-close.md" },
+            { "Manage General Orders" = "pos/orders/manage-general-orders.md" },
+            { "Store Pickup Orders (Inbound/Pickup)" = "pos/orders/store-pickup-orders-inbound-and-pickup.md" },
+        ]},
+        { "Members" =[
+            { "Manage Members on the POS Front End" = "pos/member/index.md" },
+        ]},
+        { "Inventory" = [
+            { "Omnichannel Inventory Management Guide" = "pos/inventory/index.md" },
+            { "Product Query" = "pos/inventory/product-query.md" },
+            { "Stock Out" = "pos/inventory/outbound-orders.md" },
+            { "Stock In" = "pos/inventory/inbound-orders.md" },
+            { "Stock Transfer" = "pos/inventory/transfer-orders.md" },
+            { "Inventory Adjustment" = "pos/inventory/inventory-adjustment.md" },
+            { "Stock Count" = "pos/inventory/inventory-count.md" },
+            { "Reference" = [
+                { "Stock Out Process" = "pos/inventory/outbound-complete-process.md" },
+                { "Stock In Process" = "pos/inventory/inbound-complete-process.md" },
+                { "Stock Transfer Process" = "pos/inventory/transfer-complete-process.md" },
+            ]},
+        ]},
+        { "Other Features" = [
+            { "End-of-Day Close" = "pos/others/daily-closing.md" },
+            { "Scale Settings" = "pos/others/scale-settings.md" },
+        ]},
+        {"divider" = "divider"},
+        { "Store Management" = [
+            { "Announcements" = "pos/store/announcement-system.md" },
+            { "Security Settings" = "pos/store/pos-security-settings.md" },
+            { "Renewal and Add-On Plans" = "pos/store/renewal-and-add-on-plans.md" },
+            { "POS Store Pickup Staff Commission" = "pos/store/pos-store-pickup-staff-commission.md" },
+        ]},
+        { "Staff" = [
+            { "Set up Frontend Auto-Logout Time" = "pos/store/setup-frontend-auto-logout-time.md" },
+            { "Staff Accounts and Permissions" = "pos/store/staff-permissions-and-account-management.md" },
+            { "Sign in to the POS Front End" = "pos/store/staff-login.md" },
+        ]},
+        { "Report Analysis" = [
+            { "POS Inventory Management Report" = "pos/inventory/pos-reports-list-guide.md" },
+            { "POS Revenue Analysis" = "pos/business-intelligence/pos-revenue-analysis.md" },
+            { "POS Product Analysis" = "pos/business-intelligence/pos-product-analysis.md" },
+            { "Reference" = [
+                {"POS Product Analysis Reference" = "pos/business-intelligence/references/pos-product-metrics-reference.md"},
+                {"POS Revenue Analysis Metrics and Field Reference Table" = "pos/business-intelligence/references/pos-revenue-metrics-reference.md"},
+            ]},
+        ]},
+    ]},
+    { "Resource Center" = [
+        { "Resource Center" = "resources/index.md" },
+        { "Video Tutorials" = "resources/video-tutorials.md" },
+        { "Merchant Guide" = "resources/guidebook.md" },
+        { "Glossary" = "resources/glossary.md" },
+        { "Icon Conventions" = "resources/conventions.md" },
+        { "Downloads" = "resources/downloads.md" },
+        { "Report an Issue with Jam" = "resources/use-jam-to-report-issues.md" },
+        { "What's New" = [
+            { "What's New" = "resources/new-release/index.md" },
+            { "May 2026" = "resources/new-release/2026-05.md" },
+            { "June 2026" = "resources/new-release/2026-06.md" },
+            { "July 2026" = "resources/new-release/2026-07.md" },
+            { "August 2026" = "resources/new-release/2026-08.md" },
+        ]},
+    ]}
+ ]
+#
+# With the "extra_css" option you can add your own CSS styling to customize
+# your Zensical project according to your needs. You can add any number of
+# CSS files.
+#
+# The path provided should be relative to the "docs_dir".
+#
+# Read more: https://zensical.org/docs/customization/#additional-css
+#
+extra_css = [
+  "stylesheets/extra.css",
+  "https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.css"
+]
+
+# With the `extra_javascript` option you can add your own JavaScript to your
+# project to customize the behavior according to your needs.
+#
+# The path provided should be relative to the "docs_dir".
+#
+# Read more: https://zensical.org/docs/customization/#additional-javascript
+#extra_javascript = ["assets/javascript/extra.js"]
+extra_javascript = [
+    "https://cdn.jsdelivr.net/npm/driver.js@latest/dist/driver.js.iife.js",
+    "https://unpkg.com/tablesort@5.3.0/dist/tablesort.min.js",
+    "javascripts/tablesort.js",
+    "javascripts/search-overlay-border.js",
+    "javascripts/feature-tour.js",
+    "javascripts/permalink-copy.js",
+    "javascripts/gtm-search-tracking.js",
+]
+# ----------------------------------------------------------------------------
+# Section for configuring theme options
+# ----------------------------------------------------------------------------
+[project.theme]
+
+# change this to "classic" to use the traditional Material for MkDocs look.
+#variant = "classic"
+
+# Zensical allows you to override specific blocks, partials, or whole
+# templates as well as to define your own templates. To do this, uncomment
+# the custom_dir setting below and set it to a directory in which you
+# keep your template overrides.
+#
+# Read more:
+# - https://zensical.org/docs/customization/#extending-the-theme
+#
+custom_dir = "overrides"
+
+# With the "favicon" option you can set your own image to use as the icon
+# browsers will use in the browser title bar or tab bar. The path provided
+# must be relative to the "docs_dir".
+#
+# Read more:
+# - https://zensical.org/docs/setup/logo-and-icons/#favicon
+# - https://developer.mozilla.org/en-US/docs/Glossary/Favicon
+#
+logo = "assets/images/favicon.png"
+favicon = "assets/images/favicon.png"
+
+# Zensical supports more than 60 different languages. This means that the
+# labels and tooltips that Zensical's templates produce are translated.
+# The "language" option allows you to set the language used. This language
+# is also indicated in the HTML head element to help with accessibility
+# and guide search engines and translation tools.
+#
+# The default language is "en" (English). It is possible to create
+# sites with multiple languages and configure a language selector. See
+# the documentation for details.
+#
+# Read more:
+# - https://zensical.org/docs/setup/language/
+#
+language = "en"
+
+# Zensical provides a number of feature toggles that change the behavior
+# of the documentation site.
+features = [
+    # Zensical includes an announcement bar. This feature allows users to
+    # dismiss it then they have read the announcement.
+    # https://zensical.org/docs/setup/header/#announcement-bar
+    "announce.dismiss",
+
+    # If you have a repository configured and turn feature this on, Zensical
+    # will generate an edit button for the page. This works for common
+    # repository hosting services.
+    # https://zensical.org/docs/setup/repository/#code-actions
+    #"content.action.edit",
+
+    # If you have a repository configured and turn feature this on, Zensical
+    # will generate a button that allows the user to view the Markdown
+    # code for the current page.
+    # https://zensical.org/docs/setup/repository/#code-actions
+    #"content.action.view",
+
+    # Code annotations allow you to add an icon with a tooltip to your
+    # code blocks to provide explanations at crucial points.
+    # https://zensical.org/docs/authoring/code-blocks/#code-annotations
+    "content.code.annotate",
+
+    # This feature turns on a button in code blocks that allow users to
+    # copy the content to their clipboard without first selecting it.
+    # https://zensical.org/docs/authoring/code-blocks/#code-copy-button
+    "content.code.copy",
+
+    # Code blocks can include a button to allow for the selection of line
+    # ranges by the user.
+    # https://zensical.org/docs/authoring/code-blocks/#code-selection-button
+    "content.code.select",
+
+    # Zensical can render footnotes as inline tooltips, so the user can read
+    # the footnote without leaving the context of the document.
+    # https://zensical.org/docs/authoring/footnotes/#footnote-tooltips
+    "content.footnote.tooltips",
+
+    # If you have many content tabs that have the same titles (e.g., "Python",
+    # "JavaScript", "Cobol"), this feature causes all of them to switch to
+    # at the same time when the user chooses their language in one.
+    # https://zensical.org/docs/authoring/content-tabs/#linked-content-tabs
+    "content.tabs.link",
+
+    # TODO: not sure I understand this one? Is there a demo of this in the docs?
+    # https://zensical.org/docs/authoring/tooltips/#improved-tooltips
+    "content.tooltips",
+
+    # With this feature enabled, Zensical will automatically hide parts
+    # of the header when the user scrolls past a certain point.
+    # https://zensical.org/docs/setup/header/#automatic-hiding
+    # "header.autohide",
+
+    # Turn on this feature to expand all collapsible sections in the
+    # navigation sidebar by default.
+    # https://zensical.org/docs/setup/navigation/#navigation-expansion
+    # "navigation.expand",
+
+    # This feature turns on navigation elements in the footer that allow the
+    # user to navigate to a next or previous page.
+    # https://zensical.org/docs/setup/footer/#navigation
+    "navigation.footer",
+
+    # When section index pages are enabled, documents can be directly attached
+    # to sections, which is particularly useful for providing overview pages.
+    # https://zensical.org/docs/setup/navigation/#section-index-pages
+    "navigation.indexes",
+
+    # When instant navigation is enabled, clicks on all internal links will be
+    # intercepted and dispatched via XHR without fully reloading the page.
+    # https://zensical.org/docs/setup/navigation/#instant-navigation
+    "navigation.instant",
+
+    # With instant prefetching, your site will start to fetch a page once the
+    # user hovers over a link. This will reduce the perceived loading time
+    # for the user.
+    # https://zensical.org/docs/setup/navigation/#instant-prefetching
+    "navigation.instant.prefetch",
+
+    # In order to provide a better user experience on slow connections when
+    # using instant navigation, a progress indicator can be enabled.
+    # https://zensical.org/docs/setup/navigation/#progress-indicator
+    #"navigation.instant.progress"
+
+    # When navigation paths are activated, a breadcrumb navigation is rendered
+    # above the title of each page
+    # https://zensical.org/docs/setup/navigation/#navigation-path
+    "navigation.path",
+
+    # When pruning is enabled, only the visible navigation items are included
+    # in the rendered HTML, reducing the size of the built site by 33% or more.
+    # https://zensical.org/docs/setup/navigation/#navigation-pruning
+    #"navigation.prune",
+
+    # When sections are enabled, top-level sections are rendered as groups in
+    # the sidebar for viewports above 1220px, but remain as-is on mobile.
+    # https://zensical.org/docs/setup/navigation/#navigation-sections
+    # "navigation.sections",
+
+    # When tabs are enabled, top-level sections are rendered in a menu layer
+    # below the header for viewports above 1220px, but remain as-is on mobile.
+    # https://zensical.org/docs/setup/navigation/#navigation-tabs
+    "navigation.tabs",
+
+    # When sticky tabs are enabled, navigation tabs will lock below the header
+    # and always remain visible when scrolling down.
+    # https://zensical.org/docs/setup/navigation/#sticky-navigation-tabs
+    #"navigation.tabs.sticky",
+
+    # A back-to-top button can be shown when the user, after scrolling down,
+    # starts to scroll up again.
+    # https://zensical.org/docs/setup/navigation/#back-to-top-button
+    "navigation.top",
+
+    # When anchor tracking is enabled, the URL in the address bar is
+    # automatically updated with the active anchor as highlighted in the table
+    # of contents.
+    # https://zensical.org/docs/setup/navigation/#anchor-tracking
+    "navigation.tracking",
+
+    # When search highlighting is enabled and a user clicks on a search result,
+    # Zensical will highlight all occurrences after following the link.
+    # https://zensical.org/docs/setup/search/#search-highlighting
+    "search.highlight",
+
+    # When anchor following for the table of contents is enabled, the sidebar
+    # is automatically scrolled so that the active anchor is always visible.
+    # https://zensical.org/docs/setup/navigation/#anchor-following
+    # "toc.follow"
+
+    # When navigation integration for the table of contents is enabled, it is
+    # always rendered as part of the navigation sidebar on the left.
+    # https://zensical.org/docs/setup/navigation/#navigation-integration
+    #"toc.integrate"
+]
+
+# ----------------------------------------------------------------------------
+# In the "palette" subsection you can configure options for the color scheme.
+# You can configure different color # schemes, e.g., to turn on dark mode,
+# that the user can switch between. Each color scheme can be further
+# customized.
+#
+# Read more:
+# - https://zensical.org/docs/setup/colors/
+# ----------------------------------------------------------------------------
+[[project.theme.palette]]
+scheme = "default"
+toggle.icon = "lucide/sun"
+toggle.name = "Switch to dark mode"
+
+[[project.theme.palette]]
+scheme = "slate"
+toggle.icon = "lucide/moon"
+toggle.name = "Switch to light mode"
+
+# ----------------------------------------------------------------------------
+# In the "font" subsection you can configure the fonts used. By default, fonts
+# are loaded from Google Fonts, giving you a wide range of choices from a set
+# of suitably licensed fonts. There are options for a normal text font and for
+# a monospaced font used in code blocks.
+# ----------------------------------------------------------------------------
+#[project.theme.font]
+#text = "Inter"
+#code = "Jetbrains Mono"
+
+# ----------------------------------------------------------------------------
+# You can configure your own logo to be shown in the header using the "logo"
+# option in the "icons" subsection. The logo can be a path to a file in your
+# "docs_dir" or it can be a path to an icon.
+#
+# Likewise, you can customize the logo used for the repository section of the
+# header. Zensical derives the default logo for this from the repository URL.
+# See below...
+#
+# There are other icons you can customize. See the documentation for details.
+#
+# Read more:
+# - https://zensical.org/docs/setup/logo-and-icons
+# - https://zensical.org/docs/authoring/icons-emojis/#search
+# ----------------------------------------------------------------------------
+[project.theme.icon]
+#logo = "lucide/smile"
+#repo = "lucide/smile"
+
+[project.theme.icon.admonition]
+path = "lucide/signpost"
+plan = "lucide/tag"
+
+# ----------------------------------------------------------------------------
+# The "extra" section contains miscellaneous settings.
+# ----------------------------------------------------------------------------
+#[[project.extra.social]]
+#icon = "fontawesome/brands/github"
+#link = "https://github.com/user/repo"
+
+[project.extra]
+alternate = [
+  { name = "繁體中文", link = "/", lang = "zh-TW" },
+  { name = "English", link = "/en/", lang = "en" },
+]
+
+[[project.extra.social]]
+icon = "simple/youtube"
+link = "https://www.youtube.com/channel/UCTf4mKUL4k6-2skp1kxPDXg"
+name = "CYBERBIZ official YouTube"
+
+[[project.extra.social]]
+icon = "simple/instagram"
+link = "https://www.instagram.com/cyberbiz.corp/"
+name = "CYBERBIZ official Instagram"
+
+[[project.extra.social]]
+icon = "simple/facebook"
+link = "https://www.facebook.com/CYBERBIZCorporation/"
+name = "CYBERBIZ official Facebook"
+
+# [[project.extra.social]]
+# icon = "simple/rss"
+# link = "http://localhost:8000/feed_rss_created.xml"
+
+
+[project.extra.status]
+lock = "Available only for certain plans"
+
+[project.extra.consent]
+title = "Cookie consent"
+description = """
+    We use cookies to recognize return visits and preferences, and to measure
+    whether this documentation is useful. Your consent helps us improve it.
+"""
+
+[project.extra.analytics]
+provider = "google"
+property = "G-YD3J9MG2GM"
+
+[project.extra.analytics.feedback]
+title = "Was this helpful?"
+
+[[project.extra.analytics.feedback.ratings]]
+icon = "material/emoticon-happy-outline"
+name = "Helpful"
+data = 1
+note = "Thanks for your feedback!"
+
+[[project.extra.analytics.feedback.ratings]]
+icon = "material/emoticon-sad-outline"
+name = "Could be better"
+data = 0
+note = """
+  Thanks for your feedback! Help us improve this page by
+  using our <a href="..." target="_blank" rel="noopener">feedback form</a>.
+"""
+
+# ----------------------------------------------------------------------------
+# The "Extension" section contains miscellaneous settings.
+# ----------------------------------------------------------------------------
+[project.markdown_extensions.abbr]
+[project.markdown_extensions.pymdownx.snippets]
+#base_path = ["includes/snippets"]
+auto_append = ["includes/abbreviations.en.md"]
+[project.markdown_extensions.admonition]
+[project.markdown_extensions.attr_list]
+[project.markdown_extensions.def_list]
+[project.markdown_extensions.footnotes]
+[project.markdown_extensions.md_in_html]
+[project.markdown_extensions.toc]
+permalink_title = "Copy link to section"
+permalink = true
+toc_depth = 5
+[project.markdown_extensions.toc.slugify]
+object = "pymdownx.slugs.slugify"
+kwds = { case = "lower", unicode = true }
+[project.markdown_extensions.pymdownx.tabbed]
+alternate_style = true
+[project.markdown_extensions.pymdownx.tabbed.slugify]
+object = "pymdownx.slugs.slugify"
+kwds = { case = "lower" }
+[project.markdown_extensions.pymdownx.arithmatex]
+generic = true
+[project.markdown_extensions.pymdownx.betterem]
+smart_enable = "all"
+[project.markdown_extensions.pymdownx.caret]
+[project.markdown_extensions.pymdownx.details]
+[project.markdown_extensions.pymdownx.emoji]
+emoji_generator = "zensical.extensions.emoji.to_svg"
+emoji_index = "zensical.extensions.emoji.twemoji"
+[project.markdown_extensions.pymdownx.highlight]
+[project.markdown_extensions.pymdownx.inlinehilite]
+[project.markdown_extensions.pymdownx.keys]
+[project.markdown_extensions.pymdownx.mark]
+[project.markdown_extensions.pymdownx.smartsymbols]
+[project.markdown_extensions.pymdownx.superfences]
+custom_fences = [
+  { name = "mermaid", class = "mermaid", format = "pymdownx.superfences.fence_code_format" }
+]
+#format = "pymdownx.superfences.fence_code_format"
+[project.markdown_extensions.pymdownx.tasklist]
+custom_checkbox = true
+clickable_checkbox = true
+[project.markdown_extensions.pymdownx.tilde]
+[project.markdown_extensions.pymdownx.blocks.caption]
+
+[project.markdown_extensions.zensical.extensions.preview]
+[[project.markdown_extensions.zensical.extensions.preview.configurations]]
+#sources.include = ["**/*.md"]
+#sources.exclude = []
+#targets.include = ["ec/*", "pos/**"]
+#targets.exclude = []
+targets.include = [
+    "resources/references/*"
+]
+
+[project.plugins.autorefs]
+# Optional: Set how link titles are generated
+# options: "auto" (default), "true", "false", or "external"
+link_titles = "auto"
+
+# Optional: Prevent stripping of HTML tags from titles
+#strip_title_tags = false
+
+[project.markdown_extensions.zensical.extensions.glightbox]
+auto_caption = true
+skip_classes = ["hero-page"]
+
+[project.markdown_extensions.zensical.extensions.macros]
+module_name = "main"
+modules = []

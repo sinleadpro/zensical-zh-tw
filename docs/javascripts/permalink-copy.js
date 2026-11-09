@@ -7,7 +7,7 @@ document$.subscribe(function () {
       var url = window.location.origin + window.location.pathname + '#' + id;
       navigator.clipboard.writeText(url).then(function () {
         var tip = document.createElement('span');
-        tip.textContent = '已複製連結';
+        tip.textContent = copiedLinkLabel();
         tip.style.cssText =
           'position:absolute;inset:auto 0 auto auto;font-size:0.65rem;color:var(--md-accent-fg-color);background:var(--md-default-bg-color);padding:0 0.3rem;border-radius:4px;white-space:nowrap;pointer-events:none;z-index:1;animation:fadeInOut 1.5s ease forwards;';
         link.parentNode.style.position = 'relative';
@@ -20,3 +20,9 @@ document$.subscribe(function () {
     });
   });
 });
+
+function copiedLinkLabel() {
+  var lang = (document.documentElement.lang || 'zh-TW').toLowerCase();
+  if (lang === 'en' || lang.indexOf('en-') === 0) return 'Link copied';
+  return '已複製連結';
+}

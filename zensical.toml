@@ -1044,12 +1044,12 @@ features = [
 [[project.theme.palette]]
 scheme = "default"
 toggle.icon = "lucide/sun"
-toggle.name = "Switch to dark mode"
+toggle.name = "切換至深色模式"
 
 [[project.theme.palette]]
 scheme = "slate"
 toggle.icon = "lucide/moon"
-toggle.name = "Switch to light mode"
+toggle.name = "切換至淺色模式"
 
 # ----------------------------------------------------------------------------
 # In the "font" subsection you can configure the fonts used. By default, fonts
@@ -1091,12 +1091,11 @@ plan = "lucide/tag"
 #icon = "fontawesome/brands/github"
 #link = "https://github.com/user/repo"
 
-# [project.extra]
-# alternate = [
-#   { name = "English", link = "/en/", lang = "en" },
-#   { name = "日本語", link = "/ja/", lang = "ja" },
-#   { name = "繁體中文", link = "/zh-TW/", lang = "zh-TW" }
-# ]
+[project.extra]
+alternate = [
+  { name = "繁體中文", link = "/", lang = "zh-TW" },
+  { name = "English", link = "/en/", lang = "en" },
+]
 
 [[project.extra.social]]
 icon = "simple/youtube"
@@ -1119,7 +1118,7 @@ name = "CYBERBIZ 官方 Facebook"
 
 
 [project.extra.status]
-lock = "Available only for certain plans"
+lock = "僅適用部分方案"
 
 [project.extra.consent]
 title = "Cookie 同意設定"
