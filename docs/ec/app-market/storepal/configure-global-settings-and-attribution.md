@@ -131,7 +131,7 @@ hide: []
         * 當門市人員在前台的會員資訊頁面點選標籤後，全品牌的門市人員皆可以在前台查看該會員的標籤，同時也可以在 EC 的會員頁面上查看線下標籤。
         * 至多可設定 5 個標籤群組，每個標籤群組內至多可設定 10 個標籤。
 
-    ![會員標籤](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定21.png){ .screenshot }
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定21.png){ .screenshot }
 
 ### 全站業績認列規則 { #operate-storepal-settings-global-rules }
 

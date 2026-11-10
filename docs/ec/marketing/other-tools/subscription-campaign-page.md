@@ -76,7 +76,7 @@ hide: []
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | 所有 PLUS 版 / 企業版
 { .doc-badge }
 
-![定期定額頁面](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁03.png){ .hero-page }
+![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁03.png){ .hero-page }
 
 !!! info "版本差異說明"
     - 「定期訂購」在 PLUS 方案中屬於選配模組（11 選 2），商家需確認已選配該模組方可使用。企業版則直接內建此功能。

@@ -86,8 +86,8 @@ hide: []
 
 <div class="grid cards borderless two-columns" markdown>
 
-- ![商品頁商品評論區](https://www.cyberbiz.io/support/wp-content/uploads/商品評論00.png){ title="商品頁商品評論區" }
-- ![商品評論提示](https://www.cyberbiz.io/support/wp-content/uploads/商品評論00-1.png){ title="商品評論提示" }
+- ![](https://www.cyberbiz.io/support/wp-content/uploads/商品評論00.png){ title="商品頁商品評論區" }
+- ![](https://www.cyberbiz.io/support/wp-content/uploads/商品評論00-1.png){ title="商品評論提示" }
 
 </div>
 
@@ -239,7 +239,7 @@ hide: []
 
 	4. 點擊 **儲存** 套用更新。
 
-    ![一般版型隱藏評論](https://www.cyberbiz.io/support/wp-content/uploads/商品評論07.png){ title="一般版型隱藏評論" .screenshot }
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/商品評論07.png){ title="一般版型隱藏評論" .screenshot }
 
 ## 後續步驟 { #next-steps-product-reviews }
 
