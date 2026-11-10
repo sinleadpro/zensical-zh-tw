@@ -140,6 +140,12 @@ Webhook 類似於「訂閱服務」。當 CYBERBIZ 系統發生特定事件（�
 
 4. 點擊 **儲存**，系統將開始推送相關事件資訊。
 
+---
+
+!!! note "測試方式"
+    CYBERBIZ 目前不提供獨立的 API 測試環境，請使用自己的商店資料進行測試。
+
+<!--
 
 ## 開發參考資訊 { #reference-api-webhook }
 
@@ -195,3 +201,4 @@ curl https://app-store-api.cyberbiz.io/v2/product_feeds \
     -H "Accept: application/json"
 ```
 
+-->
