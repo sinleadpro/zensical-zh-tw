@@ -70,7 +70,7 @@ hide: []
 ---
 
 # Set up Shared Inventory Between POS and the Online Store
-Let selected POS stores share one stock pool with matching SKUs on the online store. After you enable sync, stock stays aligned on both sides; after you cancel, each side counts stock separately again.
+Let selected POS stores share one inventory pool with matching SKUs on the online store. After you enable sync, inventory stays aligned on both sides; after you cancel, each side counts inventory separately again.
 { .subtitle }
 
 [:lucide-layers:{ title="Applicable products" }](../../resources/conventions.md#適用產品) | Brand online store / Smart POS<br>
@@ -78,7 +78,7 @@ Let selected POS stores share one stock pool with matching SKUs on the online st
 { .doc-badge }
 
 !!! tip "Use cases"
-    - **Shared inventory**: The online store and the store have the same SKUs. After you enable shared inventory, both sides share one stock pool.
+    - **Shared inventory**: The online store and the store have the same SKUs. After you enable shared inventory, both sides share one inventory pool.
     - **Cancel shared inventory**: After you cancel inventory sync, each side counts from the current quantity separately.
 
 ## Before You Start { #prerequisites-inventory-sync }
@@ -139,11 +139,11 @@ Open the **Activity log** tab to review **Sync inventory** and **Cancel inventor
 
 ## How Shared Inventory Works { #specs-inventory-sync }
 
-POS stores set to share inventory with the online store share stock for matching SKUs. After stock changes on the online store or that store, both sides stay aligned. After you cancel inventory sync, each side resumes separate counts from the current quantity.
+POS stores set to share inventory with the online store share inventory for matching SKUs. After inventory changes on the online store or that store, both sides stay aligned. After you cancel inventory sync, each side resumes separate counts from the current quantity.
 
 ### Scenario 1: Enable Shared Inventory { #specs-inventory-sync-enable }
 
-Starting state: online store stock 10 / POS store stock 5
+Starting state: online store inventory 10 / POS store inventory 5
 
 - **Step 1｜** Start sync -> both sides are overwritten to 10
 
@@ -157,7 +157,7 @@ Starting state: both sides are at 10
 
 - **Step 1｜** Cancel sync -> each side counts independently again (both stay at 10)
 
-- **Step 2｜** Online store sells 1 unit -> online store stock drops to 9; POS store stock stays at 10 (no longer syncs down)
+- **Step 2｜** Online store sells 1 unit -> storefront inventory drops to 9; POS store inventory stays at 10 (no longer syncs down)
 
 
 ## FAQ { #faq-inventory-sync }
@@ -166,7 +166,7 @@ Starting state: both sides are at 10
     Inventory sync applies only to SKUs that exist on both the online store and the selected POS store. SKUs missing from the store are not synced.
 
 ??? quote "Which side is the source of truth after sync?"
-    After inventory sync, POS product stock follows EC product stock. Before you enable it, set online store stock to the quantity you want after shared inventory starts.
+    After inventory sync, POS product inventory follows EC product inventory. Before you enable it, set online store inventory to the quantity you want after shared inventory starts.
 
 ??? quote "How can I tell whether a POS product already shares inventory?"
     Open the product list and check the **Linked platforms** field. A blue POS icon means shared inventory with the online store is on; gray means it is not.
@@ -187,7 +187,7 @@ Starting state: both sides are at 10
 
 - :lucide-file-spreadsheet:{ .lg }
   [__Bulk-fill product SKUs__](../../../pos/get-started/bulk-update-product-skus.md)<br>
-  Use Excel to fill product SKUs in bulk so online store and POS products can sync inventory on matching SKUs.
+  Use Excel to fill product SKUs in batches so online store and POS products can sync inventory on matching SKUs.
   
 </div>
 

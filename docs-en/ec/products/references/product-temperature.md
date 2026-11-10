@@ -49,7 +49,7 @@ icon: lucide/table
 hide:
 ---
 
-The temperature zone setting is used for chilled products (such as fresh produce and frozen food). After you set it, customers can only choose the temperature zone logistics you bound to this product when they place an order, so room-temperature and frozen products are not mixed on one shipping label.
+The temperature zone setting is used for chilled products (such as fresh produce and frozen food). After you set it, customers can only choose the temperature zone logistics you linked to this product when they submit an order, so room-temperature and frozen products are not mixed on one shipping label.
 
 ### Shipping Temperature Zone Reference { #reference-product-temperature }
 
@@ -61,5 +61,5 @@ The temperature zone setting is used for chilled products (such as fresh produce
 
 !!! note "Notes"
     * "Shipping Temperature Zone" and "Logistics Delivery Settings" are features that must be activated. They appear in the **Settings** tab only after activation.
-    * Once bound, the temperature zone cannot be empty. At checkout, customers can only choose logistics that match the product's temperature zone.
+    * Once linked, the temperature zone cannot be empty. At checkout, customers can only choose logistics that match the product's temperature zone.
 

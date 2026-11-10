@@ -112,12 +112,12 @@ Not every product is suited to Express Delivery. We recommend filtering products
 !!! warning "Products to Avoid"
     Do not copy large furniture, fragile glassware, or fresh products that need special cold-chain protection (unless the store has the equipment) to the Express Delivery section.
 
-### Step 2: Copy Products in Bulk { #operate-copy-qd-batch }
+### Step 2: Copy Products In Batches { #operate-copy-qd-batch }
 
 1. Log in to the CYBERBIZ admin and go to **Products > All Products**.
 2. Select the products you want to copy (you can filter by search or tags).
 3. At the top of the page, click **Actions... > Copy Products to Branch Stores**.
-4. In the pop-up window, set the following:
+4. In the dialog, set the following:
     - **Target stores**: Choose the Express Delivery stores to add the products to (you can select several or all).
     - **Copy images too**: We recommend selecting this so the store section shows complete information.
 5. Click **Confirm** to run the task.
@@ -126,7 +126,7 @@ Not every product is suited to Express Delivery. We recommend filtering products
 
 1. The system processes the copy task in the background and sends an email notification when it is done.
 2. After you receive the notification, go back to **Products > All Products** and click **Advanced Search**.
-3. In the **Store type** drop-down list, select the store and check that the products appear in the list.
+3. In the **Store type** dropdown list, select the store and check that the products appear in the list.
 4. Switch the status to :lucide-eye: `Published` and set the correct store inventory.
 
 ## Express Delivery Product Specifications { #specs-copy-qd }
@@ -138,7 +138,7 @@ Not every product is suited to Express Delivery. We recommend filtering products
   > If a courier's delivery box has an insulated bag and dividers, products of different temperature zones can be delivered together, so you don't need to set a product temperature zone in the admin.
 - **Product category binding**: Only **customized collections** are copied. Other categories are not copied.
 - **No marketing campaigns**: Express Delivery products cannot be added to Mix and Match multi-group offers, Buy X Get Y discount collections, or Bonus Mall.
-- **Logistics binding**: The system automatically binds the store's Express Delivery logistics, and other logistics are not supported.
+- **Logistics binding**: The system automatically links the store's Express Delivery logistics, and other logistics are not supported.
 - **Sync**: When you edit product information on the website, store products are **not synced automatically**. Run **Copy Products to Branch Stores** again to overwrite them.
 
 ## FAQ { #faq-copy-qd }

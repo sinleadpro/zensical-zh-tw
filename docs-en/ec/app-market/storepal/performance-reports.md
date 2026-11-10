@@ -77,7 +77,7 @@ Learn about the Recommender Report and Sales Attribution Report in Store Assista
 ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-業績報表01.png){ .hero-page }
 
 
-## Overview { #overview-performance }
+## About This Feature { #overview-performance }
 
 - Store Assistant provides the two performance reports below. Use them to review purchases by members collected through offline channels and the online sales they bring after leaving the store, and use the data to push messages, recommend products, and run promotions for these members.
 
@@ -105,10 +105,10 @@ Use the Sales Attribution Report to see omnichannel sales performance after memb
 
 1. **Store Sales**
 
-    Total sales for all staff in all stores, broken down into total online and offline sales, in-store sales, and total online store sales, with amounts and percentages.
+    Total sales for all staff in all stores, broken down into total online and offline sales, in-store sales, and total storefront sales, with amounts and percentages.
 
     - **Total Official Website Sales** is divided into **Online Store Purchase Attribution** and **Recommended Product Attribution** to separate online referral performance.
-        -  **Online Store Purchase Attribution**: Sales attributed to purchases members make on their own on the online store during the valid linking period.
+        -  **Online Store Purchase Attribution**: Sales attributed to purchases members make on their own on the storefront during the valid linking period.
         -  **Recommended Product Attribution**: Sales attributed to purchases made through recommended product links during the specified period.
 
     ![Sales Attribution Report - Store Sales](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-業績報表03.png)
@@ -117,7 +117,7 @@ Use the Sales Attribution Report to see omnichannel sales performance after memb
 
 2. **Personal Sales**
 
-    Sales for each staff member, broken down into total online and offline sales, in-store sales, and total online store sales, with amounts and percentages.
+    Sales for each staff member, broken down into total online and offline sales, in-store sales, and total storefront sales, with amounts and percentages.
 
     !!! warning "Data Display Limitation"
         This report shows data only when the sales attribution level is set to **Staff**. If the attribution level is set to Store, it has no data.

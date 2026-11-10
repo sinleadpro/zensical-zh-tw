@@ -79,7 +79,7 @@ Store staff can use Store Assistant to look up member information, help customer
 - We recommend having LINE Certified Provider status so customers can add your LINE account as a friend and register with a single scan.
 - Before you begin, make sure you have completed [installation and initial data setup]().
 
-## How to Use { #operate-member-search }
+## Steps { #operate-member-search }
 
 
 ### Search for Members and Register Quickly { #operate-member-search-query-member }

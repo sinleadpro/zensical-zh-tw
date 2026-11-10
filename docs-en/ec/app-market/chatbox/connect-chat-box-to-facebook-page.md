@@ -79,7 +79,7 @@ Link your Facebook Page to CHAT BOX through Meta authorization to sync messages 
 
 !!! tip "Use Cases"
     - **Unify Social Customer Service**: Reply to Facebook Messenger messages directly in the CYBERBIZ admin.
-    - **Identify Potential Customers**: The system automatically matches Facebook accounts with store members so customer service can see each customer's background.
+    - **Identify Potential Customers**: The system automatically matches Facebook accounts with store members so customer support can see each customer's background.
     - **Reply Faster**: Manage messages from multiple Pages in one place so you never miss a sales opportunity.
 
 

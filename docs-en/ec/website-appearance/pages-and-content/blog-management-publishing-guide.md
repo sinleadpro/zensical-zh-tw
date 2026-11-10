@@ -69,7 +69,7 @@ hide: []
 
 ## About Blog Management { #intro-blog-mgmt }
 
-**Blog management** helps you write brand articles. With categories, post tags, and complete SEO settings, it also builds a content marketing foundation and increases your website's search visibility.
+**Blog management** helps you write brand articles. With categories, post tags, and complete SEO settings, it also builds a content marketing foundation and increases your storefront's search visibility.
 
 ## Add a Blog <small>Category</small> { #operate-blog-mgmt-topics }
 

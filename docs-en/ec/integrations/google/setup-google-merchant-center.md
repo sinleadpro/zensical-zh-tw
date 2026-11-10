@@ -73,7 +73,7 @@ comments: false
 
 !!! tip "Why Use GMC"
     - **Boost product visibility**: Products appear in the Shopping section of Google Search results, increasing views from potential customers.
-    - **Run targeted ads**: Promote products with Google Ads to reach your target audience and improve conversion rates.
+    - **Run targeted ads**: Promote products with Google Ads to reach your target audience and improve CVR.
     - **Automate management**: Automatically sync product inventory, prices, and images to reduce manual maintenance.
     - **Track and optimize data**: Collect user engagement and ad performance data to support analysis and optimization.
 
@@ -128,7 +128,7 @@ comments: false
 
 ### Sync Product Data <small>Product Feed Setup</small> { #operate-merchant-center-sync-product-data }
 
-1.  **Copy the feed link**: In the CYBERBIZ back office, go to **Third-Party Integration > Google Settings > Google Merchant Center** and copy the **Product Feed Link**.
+1.  **Copy the feed link**: In the CYBERBIZ admin, go to **Third-Party Integration > Google Settings > Google Merchant Center** and copy the **Product Feed Link**.
 
     - **Expand products by variant**: If your products have multiple variant attributes, we recommend turning this on so that each option appears separately on Google, which increases visibility opportunities.
 
@@ -171,7 +171,7 @@ comments: false
 
 ![Set up return policy GIF](../../../assets/images/ec-gmc-p5-設定退貨政策.en.gif){ title="Set up Return Policy GIF" .screenshot }
 
-## Connect Google Ads Account { #operate-merchant-center-connect-google-ads }
+## Integrate Google Ads Account { #operate-merchant-center-connect-google-ads }
 
 1.  **Go to settings**: In the GMC admin, click "Settings" > "Access and services"
 2.  **Add service**: Click the "Apps and services" tab, then click "Add service"
@@ -190,7 +190,7 @@ comments: false
 
     ---
 
-    We recommend that you manually select the correct category under "Google Product Category" on the product settings page. This makes ad targeting more precise.
+    We recommend that you manually select the correct category under "Google Product Category" on the product setup page. This makes ad targeting more precise.
 
     [:lucide-arrow-right: Setup guide](../../products/create-and-manage/edit-product-description-settings.md#operate-product-desc-settings-advanced){ title="Edit Product Descriptions and Settings" }
 
@@ -230,7 +230,7 @@ The system automatically excludes products in the following cases and does not u
 
 </div>
 
-## Frequently Asked Questions { #faq-merchant-center }
+## FAQ { #faq-merchant-center }
 
 ??? quote "What is the difference between CYBERBIZ managing the GMC account and applying for a GMC account yourself?"
     If you choose for CYBERBIZ to manage the GMC account, the system automatically handles related settings and maintenance, which prevents permission changes or ad delivery issues caused by manual actions. If you have already created an ad through the automated ads setup page and chose managed setup, do not apply for a separate GMC account.
@@ -238,8 +238,8 @@ The system automatically excludes products in the following cases and does not u
 ??? quote "Which products are not uploaded to the Google Product Feed?"
     The system automatically excludes unpublished products, products that have reached their delisting time, and products tagged `Gift` or `排除product feed`.
 
-??? quote "Can Google product categories be set in bulk?"
-    Currently, Google product categories must be set for each product individually and cannot be applied in bulk.
+??? quote "Can Google product categories be set in batch?"
+    Currently, Google product categories must be set for each product individually and cannot be applied in batch.
 
 ??? quote "What are the requirements for product images?"
     Choose images with **no price, no promotional text, and no brand watermark**. Otherwise, they may not meet Google's specifications. For detailed requirements, see [Google image guidelines](../../products/create-and-manage/create-update-products.md#reference-gmc-picture-specs){ title="Add and Update Products" }.

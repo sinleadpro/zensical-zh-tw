@@ -152,7 +152,7 @@ After you complete the settings below, the system exports the order report as an
 
 - :lucide-warehouse:{ .lg }  
   [__E-commerce Warehouse Reports__](../../products/shipping/cvs-shipping-restrictions-exclusions.md){ title="Set Up Convenience Store Delivery Restrictions and Logistics Exclusions" }  
-  If you use Fengchao Logistics, go to "Orders" > "List" in the WMS admin and use "Export Report" with filters.
+  If you use HONEYCOMB, go to "Orders" > "List" in the WMS admin and use "Export Report" with filters.
 -->
 
 - :lucide-hand-coins:{ .lg }  

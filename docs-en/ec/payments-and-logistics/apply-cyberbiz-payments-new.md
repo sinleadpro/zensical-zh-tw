@@ -291,7 +291,7 @@ Listed products or services must include:
 
 </div>
 
-## Frequently Asked Questions { #faq-cyb-payments }
+## FAQ { #faq-cyb-payments }
 
 ??? quote "What are the requirements to apply for CYBERBIZ PAYMENTS?"
     - The website must load properly.

@@ -84,7 +84,7 @@ Store managers and staff can use the sales report to quickly see the number of l
     - **Staff**: Can view only **Personal Sales** by default. Staff need admin authorization to view store sales.
 
 
-## How to Use { #operate-sales-view }
+## Steps { #operate-sales-view }
 
 === "Store Assistant Frontend"
 

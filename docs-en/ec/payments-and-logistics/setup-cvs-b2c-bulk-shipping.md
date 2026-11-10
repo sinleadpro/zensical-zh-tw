@@ -82,21 +82,21 @@ hide:
 
 ![CVS Bulk B2C Shipping](../../assets/images/ec-金物流-超商物流-B2C.en.png){ title="CVS Bulk B2C Shipping" .hero-page }
 
-## CVS Bulk Shipping B2C Overview { #intro-cvs-b2c-setup }
+## Convenience Store Bulk Shipping B2C Overview { #intro-cvs-b2c-setup }
 
-**CVS Bulk Shipping B2C** suits merchants with high daily shipment volumes. Merchants pack goods in bulk and ship them to convenience store logistics centers (such as Ta-Chi, Jih-Yih, or Hi-Life) on their own. The logistics center then distributes the parcels to the store the consumer selected.
+**CVS Bulk Shipping B2C** suits merchants with high daily shipment volumes. Merchants pack goods in bulk and ship them to convenience store logistics centers (such as Ta-Chi, Jih-Yih, or Hi-Life) on their own. The logistics center then distributes the parcels to the store the customer selected.
 
 !!! info "CVS Bulk Shipping B2C Setup Process"
 
-    Before enabling B2C bulk shipping, merchants must complete the following steps in the back office:
+    Before enabling B2C bulk shipping, merchants must complete the following steps in the admin:
 
-    1. Go to the "B2C CVS Bulk" settings page and select the channel you want to apply for
+    1. Go to the "B2C CVS Bulk" setup page and select the channel you want to apply for
     2. Agree to the cooperation agreement for that channel
-    3. Enter your basic merchant information and submit the application
+    3. Fill in your basic merchant information and submit the application
     4. Print the test labels and send them by registered mail to each convenience store logistics center
-    5. After the convenience store approves the application, set the shipping fees and enable the service in the back office
+    5. After the convenience store approves the application, set the shipping fees and enable the service in the admin
 
-    After setup, merchants can bulk-download shipping labels from the order list using "[Ship with CVS Bulk B2C](../orders/cvs-shipping/cvs-b2c-bulk-shipping.md){ title="Ship with CVS Bulk (B2C)" }".
+    After setup, merchants can batch-download shipping labels from the order list using "[Ship with CVS Bulk B2C](../orders/cvs-shipping/cvs-b2c-bulk-shipping.md){ title="Ship with CVS Bulk (B2C)" }".
 
 ## Prerequisites and Limitations { #prerequisites-cvs-b2c-setup }
 
@@ -107,9 +107,9 @@ hide:
 
 ## Procedure { #operate-cvs-b2c-setup }
 
-### Go to the B2C Settings Page { #operate-cvs-b2c-setup-enter }
+### Go to the B2C Setup Page { #operate-cvs-b2c-setup-enter }
 
-1. Log in to the back office. The path is "**Payment and Logistics**」>「**CVS Logistics**".
+1. Log in to the admin. The path is "**Payment and Logistics**」>「**CVS Logistics**".
 2. In the channel list, find the item labeled "**B2C CVS Bulk**".
 3. Available channels include "**7-ELEVEN CVS Pickup**", "**FamilyMart CVS Pickup**", "**FamilyMart Frozen CVS Pickup**", and "**Hi-Life CVS Pickup**".
 
@@ -139,7 +139,7 @@ For each convenience store you want to enable, complete the following steps. For
 !!! note "About the Label Test"
 	When merchants apply to enable the **CVS Bulk Shipping (B2C)** logistics service, they must pass a barcode readability test. Its main purpose is to make sure the shipping label barcodes can be read correctly by convenience store logistics center equipment, which prevents scanning problems during actual shipments.
 
-After you submit the application, a "Download Label" entry appears in the back office so merchants can get the test PDF.
+After you submit the application, a "Download Label" entry appears in the admin so merchants can get the test PDF.
 
 1. Click **Download Label** to get the test label PDF for the channel.
 2. Print the label using a **laser printer and 2x3 sticker paper used for actual shipments**[^2].
@@ -156,24 +156,24 @@ After you submit the application, a "Download Label" entry appears in the back o
 
 ### Set Shipping Fees and Enable { #operate-cvs-b2c-setup-fee }
 
-After label verification passes, the back office shows "Shipping Fee Settings" and "Enable" buttons for the channel[^3].
+After label verification passes, the admin shows "Shipping Fee Settings" and "Enable" buttons for the channel[^3].
 
-1. Go to the settings page for the channel.
+1. Go to the setup page for the channel.
 2. In the "**Shipping Fee**" field, enter the shipping fee per order.
 3. In the "**Free Shipping Threshold**" field, enter the order amount that qualifies for free shipping (leave blank for no threshold).
 4. Turn on "**Cash on Delivery**" or "**Pickup without Payment**" under payment and logistics options (**at least one must be turned on** to appear on the storefront).
 5. Click **Save**, and change the channel's status to "**Enabled**".
 
-[^3]: After the 7-ELEVEN channel passes the label test, CYBERBIZ customer service must enable it before the shipping fee settings appear. For FamilyMart and Hi-Life, merchants can enable the channel themselves in the back office.
+[^3]: After the 7-ELEVEN channel passes the label test, CYBERBIZ customer support must enable it before the shipping fee settings appear. For FamilyMart and Hi-Life, merchants can enable the channel themselves in the admin.
 
 ![Set shipping fee and enable](../../assets/images/ec-金物流-超商物流-B2C 設定.en.gif){ title="Set shipping fee and enable" }
 
 ## Important Rules and Limitations { #specs-cvs-b2c-setup }
 
-* **Weight and Volume Limits**: Limits vary by channel. See [CVS Bulk B2C Channel Specifications](references/cvs-b2c-channel-spec-reference.md#reference-cvs-b2c-channels-specs){ title="CVS bulk B2C channel specs" data-preview }. If a product exceeds the limit when it is created, the storefront automatically blocks consumers from selecting this channel.
-* **Return methods cannot be mixed**: The return method entered during application (such as "self-pickup" or "designated freight") is fixed once approved. To change it, submit a new application.
-* **Plan Differences**: Available channels depend on your plan. If you are unsure, contact CYBERBIZ customer service to confirm.
-* **Shipping Operations**: Merchants must arrange with a logistics provider (such as Tcat or Hsinchu Logistics) to deliver parcels to the convenience store logistics hub. Goods must be packed in **cardboard boxes, not loose**; otherwise, the merchant is responsible for any damage or loss.
+* **Weight and Volume Limits**: Limits vary by channel. See [Convenience Store Bulk B2C Channel Specifications](references/cvs-b2c-channel-spec-reference.md#reference-cvs-b2c-channels-specs){ title="CVS bulk B2C channel specs" data-preview }. If a product exceeds the limit when it is created, the storefront automatically blocks customers from selecting this channel.
+* **Return methods cannot be mixed**: The return method filled in during application (such as "self-pickup" or "designated freight") is fixed once approved. To change it, submit a new application.
+* **Plan Differences**: Available channels depend on your plan. If you are unsure, contact CYBERBIZ customer support to confirm.
+* **Shipping Operations**: Merchants must arrange with a logistics provider (such as T-CAT or HCT Logistics) to deliver parcels to the convenience store logistics hub. Goods must be packed in **cardboard boxes, not loose**; otherwise, the merchant is responsible for any damage or loss.
 * **Receiving Hours**:
 	* **7-11 (Ta-Chi)**: Monday to Saturday, 08:00 - 14:00.
 	* **FamilyMart (Jih-Yih)**: Monday to Sunday, 08:00 - 14:00 (same-day shipping), and 14:00 - 16:30 (next-day shipping).
@@ -188,8 +188,8 @@ After label verification passes, the back office shows "Shipping Fee Settings" a
 <div class="grid cards" markdown>
 
 - :lucide-truck:{ .lg }  
-  [__Ship with CVS Bulk B2C__](../orders/cvs-shipping/cvs-b2c-bulk-shipping.md){ title="Ship with CVS Bulk (B2C)" }  
-  After setup, bulk-download shipping labels from the order list and send the parcels to the logistics center.
+  [__Ship with Convenience Store Bulk B2C__](../orders/cvs-shipping/cvs-b2c-bulk-shipping.md){ title="Ship with CVS Bulk (B2C)" }  
+  After setup, batch-download shipping labels from the order list and send the parcels to the logistics center.
 
 - :lucide-coins:{ .lg }  
   [__Top Up CYBER Coins__](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="CYBER coin top-up center user guide" }  
@@ -203,7 +203,7 @@ After label verification passes, the back office shows "Shipping Fee Settings" a
 
 ---
 
-## Frequently Asked Questions { #faq-cvs-b2c-setup }
+## FAQ { #faq-cvs-b2c-setup }
 
 ??? quote "Can I apply for multiple convenience stores at once?"
     [](){ #faq-cvs-b2c-setup-multi-apply }
@@ -217,15 +217,15 @@ After label verification passes, the back office shows "Shipping Fee Settings" a
     [](){ #faq-cvs-b2c-setup-timeline }
     It depends on the channel:
 
-    - 7-ELEVEN: about 2 to 3 weeks (business days). After the label test passes, CYBERBIZ customer service must enable it.
+    - 7-ELEVEN: about 2 to 3 weeks (business days). After the label test passes, CYBERBIZ customer support must enable it.
     - FamilyMart and Hi-Life: about 7 to 10 business days. After the label test passes, merchants can enable the service themselves.
 
 ??? quote "I integrate with ECPay. How do I apply?"
     [](){ #faq-cvs-b2c-setup-ecpay }
-    Merchants that integrate with ECPay payment and logistics cannot apply through the "B2C CVS Bulk" page in the back office. Contact ECPay directly to apply. ECPay handles the shipping fee calculation and shipping label downloads.
+    Merchants that integrate with ECPay payment and logistics cannot apply through the "B2C CVS Bulk" page in the admin. Contact ECPay directly to apply. ECPay handles the shipping fee calculation and shipping label downloads.
 
 ??? quote "Does my plan support B2C?"
-    [](){ #faq-cvs-b2c-setup-plan-support }Contact CYBERBIZ customer service to confirm whether your plan supports it.
+    [](){ #faq-cvs-b2c-setup-plan-support }Contact CYBERBIZ customer support to confirm whether your plan supports it.
 
 ??? quote "Is the label test (label verification) required? Can I skip it?"
     [](){ #faq-cvs-b2c-setup-mandatory-testing }
@@ -252,13 +252,13 @@ After label verification passes, the back office shows "Shipping Fee Settings" a
     [](){ #faq-cvs-b2c-setup-not-active }
     There are two common reasons:
 
-    1. **7-11 requires manual activation**: Even if verification passes, CYBERBIZ customer service must enable it manually.
+    1. **7-11 requires manual activation**: Even if verification passes, CYBERBIZ customer support must enable it manually.
     2. Shipping fees have not been set, or no payment method has been turned on.
 
     Check the following:
 
     - Confirm that "Cash on Delivery / Pickup without Payment" is turned on.
-    - Confirm that the shipping fee is entered and saved.
+    - Confirm that the shipping fee is filled in and saved.
 
 ??? quote "How long after a parcel reaches the logistics center does it appear at the store?"
     [](){ #faq-cvs-b2c-setup-delivery-time }
@@ -294,9 +294,9 @@ After label verification passes, the back office shows "Shipping Fee Settings" a
 
 ---
 
-## References { #reference-cvs-b2c-setup-ref }
+## See Also { #reference-cvs-b2c-setup-ref }
 
-- [CVS Bulk B2C Channel Specifications](references/cvs-b2c-channel-spec-reference.md){ title="CVS bulk B2C channel specs" }
+- [Convenience Store Bulk B2C Channel Specifications](references/cvs-b2c-channel-spec-reference.md){ title="CVS bulk B2C channel specs" }
 - [Logistics Center Receiving Information](references/cvs-b2c-logistics-center-reference.md){ title="Logistics center receiving info" }
 
 <!---->
@@ -347,7 +347,7 @@ After label verification passes, the back office shows "Shipping Fee Settings" a
 <!---->
 <!-- After label verification passes, setting options appear in the back office. Merchants must manually turn on the **Cash on Delivery** or **Pickup without Payment** button. -->
 <!---->
-<!-- 1. Log in to the CYBERBIZ back office, go to **Payment and Logistics > Convenience Store Logistics**, select the convenience store you want to configure, and click the Edit :material-file-document-edit-outline: button to open the settings page. -->
+<!-- 1. Log in to the CYBERBIZ back office, go to **Payment and Logistics > Convenience Store Logistics**, select the convenience store you want to configure, and click the Edit :material-file-document-edit-outline: button to open the setup page. -->
 <!-- 2. Turn on **Cash on Delivery** or **Pickup without Payment** as needed. -->
 <!-- 3. **Set shipping fees**: Enter the amount in the **Shipping Fee** field and save. You can refer to the [Shipping Fee Overview :lucide-external-link:](https://docs.google.com/spreadsheets/d/1YBWaHV9WSIX4ttETU8NPFQQhTl4h_C49/edit?gid=515311718#gid=515311718) when filling it in. -->
 <!---->

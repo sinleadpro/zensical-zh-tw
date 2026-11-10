@@ -94,7 +94,7 @@ Pages opened through LIFF can be considered "websites running in the LINE enviro
 
 - Automatically complete member login
 
-- Bind friends through the official account
+- Link friends through the official account
 
 
 ## Why Use LIFF { #intro-liff-binding-use-liff }
@@ -107,9 +107,9 @@ The main purpose of using LIFF is to **reduce friction in member login and shopp
 
 - **Avoid redirect issues:** Resolve the experience problem where regular URLs in LINE must go through an external browser redirect.
 
-## Back-Office Setup Steps { #operate-liff-binding }
+## Admin Setup Steps { #operate-liff-binding }
 
-1. **Access path:** Log in to the back office, then go to **Third-Party Integration > LINE Login**.
+1. **Access path:** Log in to the admin, then go to **Third-Party Integration > LINE Login**.
 
 2. **Verify the connection:**
 
@@ -130,14 +130,14 @@ The main purpose of using LIFF is to **reduce friction in member login and shopp
 		This URL has the following characteristics:
 
 		- It is generated automatically by the system and requires no manual setup.
-		- It is bound to the current store and the LINE Login Channel.
+		- It is linked to the current store and the LINE Login Channel.
 		- It can be used directly as the "entry URL" for all shopping guidance links.
 
 6. **LINE Developers sync status:** After you complete the steps above, the corresponding LIFF settings are automatically synced and generated in the LINE Developers console.
 
 	![LINE Developers LIFF settings](../../../../assets/images/ec-第三方串接-line-liff app.en.png){ title="LINE Developers LIFF Settings" }
 
-    !!! warning "Use only the LIFF links generated in the CYBERBIZ back office. Do not change the dedicated LIFF settings in the LINE Developers console, as this can break the redirect mechanism."
+    !!! warning "Use only the LIFF links generated in the CYBERBIZ admin. Do not change the dedicated LIFF settings in the LINE Developers console, as this can break the redirect mechanism."
 
     !!! tip "Want to also get the member's mobile phone number in the LIFF flow?"
       If you have LINE Certified Provider qualification (see [Apply for LINE Certified Provider documentation :lucide-external-link:](https://drive.google.com/file/d/1oSF07fHFdx_s4gXVhDv0zw81Su3usQKY/view)), you can further enable the `phone` permission. For detailed setup, see [How to Get Member Mobile Numbers During LINE Quick Login](setup-line-quick-login-phone-number.md#intro-line-phone-login-liff){ title="Get Member Mobile Number During LINE Quick Login" }.
@@ -158,7 +158,7 @@ To direct customers to a specific campaign page or product page, follow these re
 
 ## Storefront User Flow { #operate-liff-binding-frontend-use-flow }
 
-1. **Tap the link:** The consumer taps the LIFF URL inside LINE.
+1. **Tap the link:** The customer taps the LIFF URL inside LINE.
 
 2. **Authorization page:** The first time the page opens, the user passes through the LINE user data authorization page. Certified Providers can pre-select "Add friend" on this page.
 
@@ -176,7 +176,7 @@ Merchants can embed LIFF links in the following locations:
 
 - **Message push:** Send an "Order History" link so customers can quickly track shipping status.
 
-- **Offline OMO:** Create a **QR Code** and place it in physical stores to guide passersby to become digital members and bind their accounts with one tap.
+- **Offline OMO:** Create a **QR Code** and place it in physical stores to guide passersby to become digital members and link their accounts with one tap.
 
 - **Social shopping:** Share links to specific product pages or one-page stores in LINE groups or chats.
 
@@ -190,7 +190,7 @@ Merchants can embed LIFF links in the following locations:
 - **Eligibility restriction:** LINE Certified Provider is open only to companies, commercial firms, and business establishments. Individuals and foundations cannot apply.
 
 
-## Frequently Asked Questions { #faq-liff-binding }
+## FAQ { #faq-liff-binding }
 
 ??? quote "Why doesn't the system automatically add the user as a friend after they tap a LIFF link?"
 	This is usually related to **LINE channel settings** or **merchant eligibility**:
@@ -208,7 +208,7 @@ Merchants can embed LIFF links in the following locations:
 
 	2. **Endpoint URL:** Check whether the LIFF Endpoint URL in the LINE Developers console points to the correct storefront domain and includes `https://`.
 
-	3. **Save again:** Try turning the "Auto-generate LIFF URL" toggle off and back on in the CYBERBIZ back office to trigger the system to resync settings.
+	3. **Save again:** Try turning the "Auto-generate LIFF URL" toggle off and back on in the CYBERBIZ admin to trigger the system to resync settings.
 
 
 ??? quote "Can I use LIFF links in an external browser (such as Chrome or Safari)?"
@@ -226,4 +226,4 @@ Merchants can embed LIFF links in the following locations:
 
 ??? quote "If I change my LINE Official Account (OA), can the original LIFF URL still be used?"
 
-	**No.** LIFF URLs are bound to a specific LINE Login Channel. If you change the linked OA or Login Channel, you must reconfigure the linkage in the CYBERBIZ back office and regenerate or publish a new LIFF URL. The old URL will no longer work.
+	**No.** LIFF URLs are linked to a specific LINE Login Channel. If you change the linked OA or Login Channel, you must reconfigure the linkage in the CYBERBIZ admin and regenerate or publish a new LIFF URL. The old URL will no longer work.

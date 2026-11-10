@@ -1,6 +1,6 @@
 ---
 title: "One-Click Invoice Issuance"
-description: "Learn how to turn on and use one-click billing invoice issuance. Enterprise merchants who connect a Wixtar account can issue invoices with one click in the Reconciliation Center, which makes billing and payouts much faster."
+description: "Learn how to enable and use one-click billing invoice issuance. Enterprise merchants who integrate a WiXtar account can issue invoices with one click in the Reconciliation Center, which makes billing and payouts much faster."
 created: 2026-06-09 18:45
 last_modified: 2026-06-12 14:40
 lang: en-US
@@ -65,7 +65,7 @@ hide: []
 ---
 
 # One-Click Invoice Issuance
-Learn how to turn on and use one-click billing invoice issuance. Enterprise merchants who connect a Wixtar account can issue invoices with one click in the Reconciliation Center, which makes billing and payouts much faster.
+Learn how to enable and use one-click billing invoice issuance. Enterprise merchants who integrate a WiXtar account can issue invoices with one click in the Reconciliation Center, which makes billing and payouts much faster.
 { .subtitle }
 
 [:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | Enterprise
@@ -78,62 +78,62 @@ Learn how to turn on and use one-click billing invoice issuance. Enterprise merc
 ## Before You Start { #prerequisites-one-click-invoice }
 
 - **Prerequisite**: You must finish **connecting your Wixtar account** before you can use one-click issuance.
-- **Limits**: The Wixtar reconciliation invoice account can only issue **reconciliation invoices**. To issue invoices for multiple channels, upgrade to the unlimited plan in the admin panel.
+- **Limits**: The Wixtar reconciliation invoice account can only issue **reconciliation invoices**. To issue invoices for multiple channels, upgrade to the unlimited plan in the admin.
 
-    !!! info "What the Wixtar Unlimited Plan Includes"
+    !!! info "What the WiXtar Unlimited Plan Includes"
         After you buy the unlimited plan, you can issue invoices in the following cases in addition to reconciliation invoices:
 
         |Case|Where to issue|Notes|
         |---|---|---|
-        |**Offline POS system**|CYBERBIZ EC admin panel|The account supports issuing invoices from 2 POS devices. For more POS devices, see the [POS guide](../../pos/third-party/wixtar-e-invoice.md#specs-wixtar-einvoice-fees) for sub-device pricing and how to apply |
-        |**Other channels (third-party platforms)**|Wixtar admin panel|Merchants can work in the Wixtar admin panel. CYBERBIZ does not provide a guide for that process |
+        |**Offline POS system**|CYBERBIZ EC admin|The account supports issuing invoices from 2 POS devices. For more POS devices, see the [POS guide](../../pos/third-party/wixtar-e-invoice.md#specs-wixtar-einvoice-fees) for sub-device pricing and how to apply |
+        |**Other channels (third-party platforms)**|WiXtar admin|Merchants can work in the WiXtar admin panel. CYBERBIZ does not provide a guide for that process |
 
         > **Note** :lucide-triangle-alert: All of the cases above use the same tax ID number. To issue invoices under a different tax ID number, buy a separate plan for each.
 
 
 ## How to Turn It On { #operate-one-click-invoice }
 
-### Step 1: Get a Wixtar Account { #operate-one-click-invoice-account }
+### Step 1: Get a WiXtar Account { #operate-one-click-invoice-account }
 
-Follow the connection method that matches when you bought your system:
+Follow the integration method that matches when you bought your system:
 
 === "System Bought Before 2026/05/01"
 
-    1. Log in to the CYBERBIZ admin panel and go to **Website Management > Reconciliation Center > 對帳發票設定**.
+    1. Log in to the CYBERBIZ admin and go to **Website Management > Reconciliation Center > 對帳發票設定**.
     2. Enter your tax ID number in the **VAT Number** field.
 
         ![](https://www.cyberbiz.io/support/wp-content/uploads/電子發票-美麗科技13.png){ .screenshot }
 
-    3. If you have not bought a Wixtar plan yet, complete the purchase.
+    3. If you have not bought a WiXtar plan yet, complete the purchase.
 
         ![](https://www.cyberbiz.io/support/wp-content/uploads/電子發票-美麗科技14.png){ .screenshot }
 
 
     !!! tip "On an Older Plan and Want to Upgrade?"
-        If you bought your system before 2026/05/01 and want to upgrade to a plan that includes a Wixtar account, contact CYBERBIZ Customer Service.
+        If you bought your system before 2026/05/01 and want to upgrade to a plan that includes a WiXtar account, contact CYBERBIZ Customer Support.
 
 === "System Bought After 2026/05/01"
 
-    1. After you buy and activate a CYBERBIZ system plan, CYBERBIZ applies for a Wixtar account on your behalf.
+    1. After you buy and activate a CYBERBIZ system plan, CYBERBIZ applies for a WiXtar account on your behalf.
 
       - The **Statements E-Invoice** tab fills in your contact information automatically.
 
         ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-管理中心-對帳中心-商家資訊欄位01.png){ .screenshot }
 
-    2. When Wixtar starts processing the application, the **statement list** shows a **reconciliation invoice setup reminder**.
+    2. When WiXtar starts processing the application, the **statement list** shows a **reconciliation invoice setup reminder**.
 
         ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-管理中心-對帳中心-尚未啟用請款發票01.png){ .screenshot }
 
-    3. Wait for the notification email from Wixtar.
+    3. Wait for the notification email from WiXtar.
 
         - Email subject: #{統編}-#{公司名稱} E-Invoice Integration
 
-    4. Follow the email to log in to the Wixtar admin panel and get the **key integration information**.
+    4. Follow the email to log in to the WiXtar admin panel and get the **key integration information**.
 
 
-### Step 2: Connect the Keys { #operate-one-click-invoice-keys }
+### Step 2: Integrate the Keys { #operate-one-click-invoice-keys }
 
-1. In the Wixtar value-added center admin panel, go to **Business Information**, click the **POS device code** you want to set up invoicing for, and click **Download**.
+1. In the WiXtar value-added center admin, go to **Business Information**, click the **POS device code** you want to set up invoicing for, and click **Download**.
 
     ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-美麗科技07.png){ .screenshot }
 
@@ -156,7 +156,7 @@ Follow the connection method that matches when you bought your system:
 
 ### Step 3: Set up the Company Invoice Stamp { #operate-one-click-invoice-stamp }
 
-Log in to the Wixtar admin panel, go to **基本設定 > 圖片設定**, and upload an image of your company invoice stamp. The stamp is then added to issued invoice details automatically, so you don't need to stamp them by hand.
+Log in to the WiXtar admin panel, go to **基本設定 > 圖片設定**, and upload an image of your company invoice stamp. The stamp is then added to issued invoice details automatically, so you don't need to stamp them by hand.
 
 ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-美麗科技11.png){ .screenshot }
 
@@ -165,7 +165,7 @@ Log in to the Wixtar admin panel, go to **基本設定 > 圖片設定**, and upl
 
 === "System Bought Before 2026/05/01"
 
-    Go to **Website Management > Reconciliation Center** and click **Payment Request Invoice Settings** to turn on billing invoices.
+    Go to **Website Management > Reconciliation Center** and click **Payment Request Invoice Settings** to enable billing invoices.
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/自動開立請款發票01.png){ .screenshot }
 
@@ -181,18 +181,18 @@ Log in to the Wixtar admin panel, go to **基本設定 > 圖片設定**, and upl
 
     - **Setup complete / Enabled**
 
-        The connection is successful when **Payment Request Invoice Settings** moves to the upper-left corner, and after you click it the feature is on and can't be turned off yourself.
+        The integration is successful when **Payment Request Invoice Settings** moves to the upper-left corner, and after you click it the feature is on and can't be turned off yourself.
 
         ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-管理中心-對帳中心-已啟用請款發票01.png){ .screenshot }
 
     - **Setup not complete**
 
-        If the **Statements E-Invoice** reminder still appears in the statement list, check each connection step to make sure everything is set correctly.
+        If the **Statements E-Invoice** reminder still appears in the statement list, check each integration step to make sure everything is set correctly.
 
         ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-管理中心-對帳中心-尚未啟用請款發票01.png){ .screenshot }
 
     !!! warning "Important"
-        Make sure you finish connecting your Wixtar account. Otherwise, you can't see each period's payout amount or download statements.
+        Make sure you finish integrating your WiXtar account. Otherwise, you can't see each period's payout amount or download statements.
 
 
 
@@ -204,7 +204,7 @@ Log in to the Wixtar admin panel, go to **基本設定 > 圖片設定**, and upl
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/自動開立請款發票02.png){ .screenshot }
 
-3. The system automatically issues a billing invoice through your Wixtar account and starts the payout cycle.
+3. The system automatically issues a billing invoice through your WiXtar account and starts the payout cycle.
 4. Click the **Payment Invoice** button to view the details of the issued invoice.
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/自動開立請款發票03.png){ .screenshot }
@@ -224,9 +224,9 @@ Log in to the Wixtar admin panel, go to **基本設定 > 圖片設定**, and upl
 
 
     !!! info "How Credit Notes Are Issued"
-        CYBERBIZ issues credit notes first. If the credit amount is larger than the total reconciliation invoices your store has accumulated, you must issue a paper credit note by hand for the excess. It can't be issued automatically in the admin panel.
+        CYBERBIZ issues credit notes first. If the credit amount is larger than the total reconciliation invoices your store has accumulated, you must issue a paper credit note by hand for the excess. It can't be issued automatically in the admin.
 
-        For example, if the current invoice total is negative NT$30,000 and your past reconciliation invoices add up to NT$20,000, you need to issue a NT$30,000 credit note by hand. It can't be issued in the admin panel.
+        For example, if the current invoice total is negative NT$30,000 and your past reconciliation invoices add up to NT$20,000, you need to issue a NT$30,000 credit note by hand. It can't be issued in the admin.
 
 ## FAQ { #faq-one-click-invoice }
 

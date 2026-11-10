@@ -64,7 +64,7 @@ hide: []
 
 # Amazon FBA Cross-Border Logistics
 
-With the Amazon FBA service, you can have Amazon's logistics team pack and ship your website orders on your behalf. The system automatically sends orders to Amazon, syncs shipping status, and updates inventory, automating your cross-border operations.
+With the Amazon FBA service, you can have Amazon's logistics team pack and ship your website orders on your behalf. The system automatically sends orders to Amazon, syncs delivery status, and updates inventory, automating your cross-border operations.
 { .subtitle }
 
 [:lucide-layers:{ title="Applicable Products" }](../../resources/conventions#適用產品) | Cross-Border E-Commerce (North America / Japan)
@@ -83,7 +83,7 @@ With the Amazon FBA service, you can have Amazon's logistics team pack and ship 
 ### Step 1: Install the FBA Extension App { #operate-amazon-fba-install }
 
 
-1. Log in to the CYBERBIZ back office and go to **APP MARKET > App Market**.
+1. Log in to the CYBERBIZ admin and go to **APP MARKET > App Market**.
 2. Find **CYBERBIZ CHANNEL BRIDGE** and click **Install App**. [Quick link :lucide-external-link:](https://appmarket.cyberbiz.io/application/eb67e6a5-d38f-4a86-a1a4-8d5727dae0db)
 
     ![](../../assets/images/EC-後台-APPMARKET-全通路庫存管理-安裝Amazon通路01.en.png)
@@ -92,7 +92,7 @@ With the Amazon FBA service, you can have Amazon's logistics team pack and ship 
 
 ### Step 2: Complete Account Authorization { #operate-amazon-fba-authorize }
 
-1. Log in to the CYBERBIZ back office and go to **APP MARKET > My Apps**.
+1. Log in to the CYBERBIZ admin and go to **APP MARKET > My Apps**.
 
     ![](../../assets/images/EC-後台-APPMARKET-全通路庫存管理-安裝Amazon通路02.en.png)
 
@@ -104,7 +104,7 @@ With the Amazon FBA service, you can have Amazon's logistics team pack and ship 
 4. Enter your Amazon Seller Central account and password to complete the link.
     - We recommend using an admin account (Admin User) to ensure full permissions.
 
-5. After linking is complete, the system automatically redirects to the Amazon settings page. Check the connection details:
+5. After linking is complete, the system automatically redirects to the Amazon setup page. Check the connection details:
 
     - **Check Status**: In the **Store Settings** tab, view the current **Store Status** and **Expiration Date**.
     - **Expiration Reminders**: The system sends email notifications 15, 7, 3, and 1 days before the authorization expires.
@@ -145,7 +145,7 @@ For products shipped by **Amazon FBA**, specify the shipping method:
 !!! warning "Amazon SKU and Shipping Method Restrictions"
     Only stores with the corresponding Amazon feature enabled can see **Amazon FBA** in the shipping method menu. If the SKU does not match the Amazon Seller SKU, the system cannot correctly send orders or sync inventory.
 
-## Order Monitoring and Shipping Status Tracking { #operate-amazon-fba-tracking }
+## Order Monitoring and Delivery Status Tracking { #operate-amazon-fba-tracking }
 
 ### 1. View Website Orders in Amazon { #operate-amazon-fba-view-orders }
 
@@ -158,7 +158,7 @@ FBA orders created on the website also appear in the Amazon back office:
 3. In the Sales Channel filter, select **Non-Amazon** to view orders from the website.
     ![](../../assets/images/Amazon-後台-查看訂單資訊03.en.png)
 
-### 2. Shipping Status Sync { #specs-amazon-fba-sync }
+### 2. Delivery Status Sync { #specs-amazon-fba-sync }
 
 - When the Amazon warehouse prepares to ship, the website order status updates automatically.
 - When FBA completes delivery, the website delivery status automatically changes to **Shipped** and the order is officially recorded.
@@ -169,7 +169,7 @@ FBA orders created on the website also appear in the Amazon back office:
 
 | Amazon FBA Status | CYBERBIZ Delivery Status | Notes |
 | :--- | :--- | :--- |
-| Receiving → Processing | Not shipped | Consumers and merchants can cancel the order |
+| Receiving → Processing | Not shipped | Customers and merchants can cancel the order |
 | Processing | Preparing to ship | Order sent, waiting for Amazon to process <br>Orders cannot be canceled once in this status |
 | COmplete | Shipped | Amazon has shipped the order, and the system automatically credits the payment |
 | Cancelled | Canceled | Order canceled on the Amazon side |

@@ -94,7 +94,7 @@ Before you set up the message, get your link from the LINE Official Account admi
 
 2. Select your account and click **主頁 > 增加好友人數 > 增加好友工具** in the left menu.
 
-3. Click **Create URL** to open the settings page, then click **Copy** to get the friend link.
+3. Click **Create URL** to open the setup page, then click **Copy** to get the friend link.
 
 ![](../../assets/images/ec-訊息推播-line 加入好友網址.png)
 
@@ -148,7 +148,7 @@ Pair this with **LINE linking coupon rewards**. Mentioning "add us as a friend a
 
 - :lucide-gift:{ .lg }
   [__LINE linking coupon rewards__](../integrations/line/account-integration/setup-line-binding-coupon-gift.md){ title="設定 LINE 綁定會員贈送優惠券" }
-  Turn on "coupon on linking" to reward customers instantly for linking LINE OA with their website account.
+  Enable "coupon on linking" to reward customers instantly for linking LINE OA with their website account.
 
 </div>
 

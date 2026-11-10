@@ -54,7 +54,7 @@ hide: []
 ---
 # Manual Refunds for Third-Party Payment Orders
 
-When the system can't complete an automatic refund for a LINE Pay, JKOPAY, PayPal, or iPASS order because your payment account balance is insufficient, you can use "Manual Refund."
+When the system can't complete an automatic refund for a LINE Pay, JKOPay, PayPal, or iPASS order because your payment account balance is insufficient, you can use "Manual Refund."
 { .subtitle }
 
 [:lucide-toggle-right:{ title="Applies To" }](../../resources/conventions#適用功能) | CYBERBIZ PAYMENTS
@@ -71,7 +71,7 @@ When the system can't complete an automatic refund for a LINE Pay, JKOPAY, PayPa
 - **Automatic refund time**: CYBERBIZ's default automatic refund time is around 11:00 PM daily.
 - **Actual payment handling**: This feature only changes the order status in the admin. After clicking the button, you must return the money to the customer yourself through an offline channel (such as remittance or bank transfer).
 - **Irreversible**: Once you click **I'll Refund Manually**, the system **stops** the automatic refund schedule for that order. Be sure to agree with the customer and confirm the refund channel first.
-- **Supported payment methods**: LINE Pay, JKOPAY, PayPal, iPASS.
+- **Supported payment methods**: LINE Pay, JKOPay, PayPal, iPASS.
 
 ---
 

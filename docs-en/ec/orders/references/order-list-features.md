@@ -76,11 +76,11 @@ hide: []
 
 === "Change Delivery Status"
 
-	You can update the shipment status manually or through the system based on actual logistics progress.
+	You can update the delivery status manually or through the system based on actual logistics progress.
 
 	- **Unshipped**: The initial status after an order is placed.
 
-	- **Preparing**: Items are being prepared. At this point, shoppers **can't cancel the order themselves** on the storefront.
+	- **Preparing**: Items are being prepared. At this point, customers **can't cancel the order themselves** on the storefront.
 
 	- **Shipped**:
 
@@ -92,7 +92,7 @@ hide: []
 
 === "Change Return Status"
 
-	Handle shoppers' after-sales return requests.
+	Handle customers' after-sales return requests.
 
 	- **Returning**: You've accepted and are processing the return. You can generate a reverse logistics code at this point (such as for a convenience store return service).
 

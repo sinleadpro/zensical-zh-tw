@@ -77,7 +77,7 @@ hide: []
 
 # LINEX Cross-Border Logistics
 
-LINEX offers flexible cross-border logistics solutions. Merchants can choose "Home Pickup" or "Self-Delivery to Warehouse" based on their needs, and the back office automatically generates the waybills and documents required for customs declaration.
+LINEX offers flexible cross-border logistics solutions. Merchants can choose "Home Pickup" or "Self-Delivery to Warehouse" based on their needs, and the admin automatically generates the shipping labels and documents required for customs declaration.
 { .subtitle }
 
 [:lucide-layers:{ title="Applicable Product" }](../../resources/conventions#適用產品) | EC Website
@@ -89,15 +89,15 @@ LINEX offers flexible cross-border logistics solutions. Merchants can choose "Ho
 ## Usage Notes { #prerequisites-linex }
 
 - **Service Scope**: Only supports **shipments from Taiwan to overseas**.
-- **Batch Restriction**: Because customs information must be verified one by one, **batch printing** of waybills is currently **not supported**.
-- **Operation Tip**: We recommend using this feature together with the **Multi-Country** feature. This allows the system to automatically pull English product information into waybill details, improving efficiency. For assistance, contact CYBERBIZ customer service.
-- **Printer Recommendation**: We recommend a laser printer for printing waybills to reduce delivery errors caused by information recognition issues.
+- **Batch Restriction**: Because customs information must be verified one by one, **batch printing** of shipping labels is currently **not supported**.
+- **Operation Tip**: We recommend using this feature together with the **Multi-Country** feature. This allows the system to automatically pull English product information into shipping label details, improving efficiency. For assistance, contact CYBERBIZ customer support.
+- **Printer Recommendation**: We recommend a laser printer for printing shipping labels to reduce delivery errors caused by information recognition issues.
 
 ## Prerequisite Setup { #operate-linex-setup }
 
 ### Step 1: Verify Company English Name { #operate-linex-verify-name }
 
-1. Log in to the CYBERBIZ back office and go to **Website Management > General**.
+1. Log in to the CYBERBIZ admin and go to **Website Management > General**.
 2. Find the **English Company name registered at TITA** field.
 3. Enter your company's official English name as registered with [Business Registration](https://findbiz.nat.gov.tw/fts/query/QueryBar/queryInit.do).
 4. Once saved, this field is locked. The system automatically uses this name in customs documents.
@@ -107,13 +107,13 @@ LINEX offers flexible cross-border logistics solutions. Merchants can choose "Ho
 ### Step 2: Set up Shipping Mode and Sender { #operate-linex-mode-sender }
 
 1. Go to **Payment and Logistics > LINEX Shipping Label**.
-2. **Select Mode**: Check **Pickup Appointment** or **Self Delivery**.
+2. **Select Mode**: Select **Pickup Appointment** or **Self Delivery**.
     - **Cannot be changed after saving**. Choose carefully.
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定01.png){ .screenshot }
 
 3. **Basic Information**: Enter the sender information you use most often.
-    - Must be in **English**. It is filled in automatically when you create a waybill.
+    - Must be in **English**. It is filled in automatically when you create a shipping label.
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定02.png){ .screenshot }
 
@@ -155,7 +155,7 @@ Merchants must comply with the following rules based on the mode selected when t
     - **Related Fees**:
         - **Empty Trip Fee**: If the driver arrives and there are no goods to ship, a **NT$100 per trip** fee applies.
         - **Document Processing Fee**: If the package exterior or documents do not meet requirements, a **NT$50 per carton** processing fee applies.
-    - **Change Restriction**: Reply to the automated system email by **12:00 noon** on the appointment day to contact LINEX customer service to change. Late changes will be processed on the next business day.
+    - **Change Restriction**: Reply to the automated system email by **12:00 noon** on the appointment day to contact LINEX customer support to change. Late changes will be processed on the next business day.
 
 === "Self-Delivery (merchant ships to LINEX warehouse)"
 
@@ -168,7 +168,7 @@ Merchants must comply with the following rules based on the mode selected when t
 
 ## Order Shipping Operations { #operate-linex-ship }
 
-### Step 1: Create Waybill { #operate-linex-create-waybill }
+### Step 1: Create Shipping Label { #operate-linex-create-waybill }
 
 1. Go to **Orders > All Orders** and select the orders to ship.
 2. Click **Actions > Create LINEX Shipping Label**.
@@ -179,7 +179,7 @@ Merchants must comply with the following rules based on the mode selected when t
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定05.png){ .screenshot }
 
-### Step 2: Enter Customs Information and Taxes { #operate-linex-customs }
+### Step 2: Fill In Customs Information and Taxes { #operate-linex-customs }
 
 1. **Verify Product Details**:
     - **Required Field Check**: **Product Name**, **Quantity**, and **Weight** must be filled in, and values cannot be 0.
@@ -192,7 +192,7 @@ Merchants must comply with the following rules based on the mode selected when t
         - Vague example: gifts, tools.
 
 2.  **Set Tax Collection Method**:
-    - **Delivered Duty Unpaid (DDU)**: The consumer pays customs clearance taxes and handling fees.
+    - **Delivered Duty Unpaid (DDU)**: The customer pays customs clearance taxes and handling fees.
     - **Delivered Duty Paid (DDP)**: The merchant pays customs clearance taxes and handling fees.
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定06.png){ .screenshot }
@@ -220,11 +220,11 @@ Merchants must comply with the following rules based on the mode selected when t
 2. Unzip the waybill documents and print the details.
 3. Attach the **LINEX_waybill** and **orders_printed_details** files to the package surface.
 4. If the merchant has not signed a **long-term power of attorney** with LINEX, each shipment must include a completed [POA template](https://drive.google.com/file/d/1MwQ04jG3eDJUY33zORsszPYRXPvRTt6J/view).
-    - Refer to LINEX for the latest template. For a blank form, contact LINEX customer service.
+    - Refer to LINEX for the latest template. For a blank form, contact LINEX customer support.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/LINEX-物流開通設定09.png){ .screenshot }
 
-## Frequently Asked Questions { #faq-linex }
+## FAQ { #faq-linex }
 
 ??? quote "How do I track my package status?"
     Go to the [LINEX package tracking website](https://tracking.hub-ez.com/Tracking/Tracking) and enter the waybill number to search.

@@ -1,6 +1,6 @@
 ---
 title: "Manage Product Reviews"
-description: "Turn on and manage product reviews."
+description: "Enable and manage product reviews."
 created: 2026-03-05 16:00
 last_modified: 2026-10-07 17:10
 lang: en-US
@@ -125,7 +125,7 @@ Product reviews let customers post star ratings and comments on product pages. Y
 
 ## Prerequisites and Limits { #prerequisites-product-reviews }
 
-- [x] Contact customer service to enable product reviews first.
+- [x] Contact customer support to enable product reviews first.
 - [x] FB sharing: Available only after you fill in "Third-Party Integration" → "Facebook Settings" → "Set the App ID and App Secret".
 
 

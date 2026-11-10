@@ -80,7 +80,7 @@ Install the EPSON TM-M30III invoice printer over Wi-Fi so it can be used on a ta
 
 ---
 
-## Usage Notes { #prerequisites-epson-m30 }
+## Before You Start { #prerequisites-epson-m30 }
 
 - **Applicable Model**: EPSON TM-M30III.
 - **Connection Method**: This guide uses a Wi-Fi connection, which does not require a driver.

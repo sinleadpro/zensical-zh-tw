@@ -94,7 +94,7 @@ The search field supports many kinds of keywords, but note the [matching rules](
 
     1. **Enter keywords**: Enter search terms (such as order number, name, or mobile number) in the search box and press ++enter++.
     2. **View results**: Matching orders appear in the list immediately.
-    3. **Change rows per page**: Use the drop-down below the list to change rows per page (10 / 25 / 50 / 100 / 200).
+    3. **Change rows per page**: Use the dropdown below the list to change rows per page (10 / 25 / 50 / 100 / 200).
 
     ![Order list: search](../../../assets/images/EC-所有訂單-搜尋操作.en.png){ title="Order List: Search" }
 
@@ -102,7 +102,7 @@ The search field supports many kinds of keywords, but note the [matching rules](
 
     1. **Enter keywords**: Enter search terms in the search box and press ++enter++.
     2. **View results**: Matching orders appear in the list below.
-    3. **Change rows per page**: Use the drop-down in the **upper-right corner** of the list to change how many orders are shown per page.
+    3. **Change rows per page**: Use the dropdown in the **upper-right corner** of the list to change how many orders are shown per page.
 
     ![Order list: search (legacy)](../../../assets/images/EC-所有訂單-搜尋操作-舊版.en.png){ title="Order List: Search (Legacy)" }
 
@@ -114,11 +114,11 @@ You can stack multiple filters and combine them with [keyword search](#operate-o
 
     Filters are **stackable** and added with **"+ Add Filter."**  
 
-    1.  **Add Filter**: Click **"+ Add Filter"** above the list and choose the [field to apply](../references/order-filter-status-reference.md#reference-order-filters){ title="Order Filters and Statuses Reference" data-preview } from the drop-down. Added filters appear as tags.
+    1.  **Add Filter**: Click **"+ Add Filter"** above the list and choose the [field to apply](../references/order-filter-status-reference.md#reference-order-filters){ title="Order Filters and Statuses Reference" data-preview } from the dropdown. Added filters appear as tags.
 
         ![Order list: filter tags](../../../assets/images/EC-所有訂單-已新增篩選條件.en.png){ title="Order List: Filter Tags" }
 
-    2.  **Set filter values**: Click a filter tag to open its drop-down and select one or more values. Multiple values in the same filter match "any of them."
+    2.  **Set filter values**: Click a filter tag to open its dropdown and select one or more values. Multiple values in the same filter match "any of them."
 
         ![Order list: set filter values](../../../assets/images/EC-所有訂單-篩選條件值設定.en.png){ title="Order List: Set Filter Values" }
 
@@ -134,7 +134,7 @@ You can stack multiple filters and combine them with [keyword search](#operate-o
 
 
     ??? plan "Filter Availability"
-          If you don't see one of the filters below, your plan doesn't support it or the feature isn't turned on, and it won't appear in **"+ Add Filter"** either:  
+          If you don't see one of the filters below, your plan doesn't support it or the feature isn't enabled, and it won't appear in **"+ Add Filter"** either:  
 
           | Filter | Requires |
           | :-- | :-- |  
@@ -144,13 +144,13 @@ You can stack multiple filters and combine them with [keyword search](#operate-o
           | Delivery temperature zone | Product temperature zone binding |  
           | Return status (some options) | Logistics system |  
           | LINE group buy | LINE group buy |  
-          | Merchant source / payee | Enterprise / PLUS plan, or "own payment gateway" not turned on |
+          | Merchant source / payee | Enterprise / PLUS plan, or "own payment gateway" not enabled |
 
 === "Legacy Order List"
 
     Filters are **fixed drop-down menus**, and each filter allows only one value. Orders must match all the filters.
 
-    1.  **Status filters**: Four drop-down menus: "[Payment Status](../references/payment-statuses.md#reference-payment-statuses){ title="Order Payment Status Reference" data-preview }," "[Delivery Status](../references/fulfillment-statuses.md#reference-fulfillment-statuses){ title="Delivery Status Reference" data-preview }," "[Return Status](../references/order-filter-status-reference.md#reference-order-return-status){ title="Order Filters and Statuses Reference" data-preview }," and "[Order Status](../references/order-filter-status-reference.md#reference-order-status){ title="Order Filters and Statuses Reference" data-preview }."
+    1.  **Status filters**: Four dropdown menus: "[Payment Status](../references/payment-statuses.md#reference-payment-statuses){ title="Order Payment Status Reference" data-preview }," "[Delivery Status](../references/fulfillment-statuses.md#reference-fulfillment-statuses){ title="Delivery Status Reference" data-preview }," "[Return Status](../references/order-filter-status-reference.md#reference-order-return-status){ title="Order Filters and Statuses Reference" data-preview }," and "[Order Status](../references/order-filter-status-reference.md#reference-order-status){ title="Order Filters and Statuses Reference" data-preview }."
 
         ![Order filters (legacy)](../../../assets/images/EC-所有訂單-篩選條件-舊版.en.png){ title="Order Filters (Legacy)" }  
 
@@ -169,7 +169,7 @@ You can stack multiple filters and combine them with [keyword search](#operate-o
 
     2.  **Advanced Search** (requires the "Advanced Order Search" feature): Above the search box, you'll see  
 
-        - **Search type drop-down**: Search only in specific fields, such as order number, customer email, or product SKU  
+        - **Search type dropdown**: Search only in specific fields, such as order number, customer email, or product SKU  
         - **"Exact match" checkbox**: Select it for exact matching; fuzzy matching is the default  
 
 ### How Filters Combine { #specs-order-filter-logic }  
@@ -194,7 +194,7 @@ You can stack multiple filters and combine them with [keyword search](#operate-o
 
 ## Order View Groups { #operate-order-filter-groups }
 
-"View groups" save complex [filter](../references/order-filter-status-reference.md#reference-order-filters){ title="Order Filters and Statuses Reference" data-preview } combinations (such as specific carrier + paid + unshipped) as shortcut tabs at the top of the page, so you can switch with one click and process orders in bulk more efficiently.
+"View groups" save complex [filter](../references/order-filter-status-reference.md#reference-order-filters){ title="Order Filters and Statuses Reference" data-preview } combinations (such as specific carrier + paid + unshipped) as shortcut tabs at the top of the page, so you can switch with one click and process orders in batches more efficiently.
 
 **Steps**
 
@@ -208,7 +208,7 @@ You can stack multiple filters and combine them with [keyword search](#operate-o
 
 4. **Manage tabs**: Hover over a custom tab and click the :lucide-chevron-down: icon next to its name to delete it.
 5. **Search and jump**: If you have many groups, click "More View Groups" at the end of the tabs:
-    - **Keyword search**: Enter a name in the drop-down search box to find a specific group.
+    - **Keyword search**: Enter a name in the dropdown search box to find a specific group.
     - **Jump with one click**: Click a search result to switch to that group's order list.
 
     ![Order list: more view groups](../../../assets/images/EC-訂單-所有訂單-更多檢視群組.en.png){ title="Order List: More View Groups" }
@@ -218,7 +218,7 @@ You can stack multiple filters and combine them with [keyword search](#operate-o
     | View Group Name | Suggested Filters |
     | :--- | :--- |
     | **Orders to ship** | **Delivery Status**: `Unshipped`, `Preparing`<br>**Payment Status**: `Cash on Delivery`, `Payment Received` |
-    | **Specific carrier orders** | **Delivery method**: Select specific carriers (such as EZCAT or FamilyMart) |
+    | **Specific carrier orders** | **Delivery method**: Select specific carriers (such as T-CAT or FamilyMart) |
     | **Returns in progress** | **Order Status**: `In Progress`<br>**Return Status**: `Return Requested`, `Returning`, `Reviewing Return` |
 
 ## Edit List Columns { #operate-order-columns }
@@ -273,7 +273,7 @@ When you show many columns and the list scrolls horizontally, use **Compact** to
 1. In the **Orders** > **All Orders** list, select the orders to tag (one or more).
 2. Click **Actions...** > **Add Tags** above the list to open the tag settings dialog.  
 3. In the input box:
-    * Select an **existing tag** from the drop-down; or  
+    * Select an **existing tag** from the dropdown; or  
     * Enter a new name and click **Add** to create and apply a new tag.  
 4. Confirm and submit, and the selected tags are added to all selected orders.  
 
@@ -299,15 +299,15 @@ To remove tags, go to **Actions...**, select **Remove Tags**, and choose the tag
 
 - :lucide-package:{ .lg }  
   [__Bulk Shipping__](order-fulfillment-flow.md){ title="Order Fulfillment Flow" }  
-  Select multiple orders and choose the matching carrier (EZCAT, FamilyMart, 7-Eleven, Pelican Express, and more) in "Bulk Actions" at the top to ship.
+  Select multiple orders and choose the matching carrier (T-CAT, FamilyMart, 7-11, Pelican, and more) in "Bulk Actions" at the top to ship.
 
 - :lucide-edit:{ .lg }  
   [__Change Order Status__](edit-order-content.md){ title="Edit Order Content" }  
-  Open an order to edit it, or close/reopen orders with bulk actions (requires the "Manual Orders" permission).
+  Open an order to edit it, or close/reopen orders with batch actions (requires the "Manual Orders" permission).
 
 - :lucide-download:{ .lg }  
   [__Export Reports__](../reports/export-order-report.md){ title="Export Order Reports" }  
-  Click "Export" in the upper right of the page to download the current results as an Excel/CSV file for accounting or customer service.
+  Click "Export" in the upper right of the page to download the current results as an Excel/CSV file for accounting or customer support.
 
 </div>
 

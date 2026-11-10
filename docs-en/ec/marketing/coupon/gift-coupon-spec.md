@@ -86,7 +86,7 @@ Learn about CYBERBIZ gift coupon specs, product restrictions, how to create them
 - **Listing restriction**: Gift coupons can only be linked to regular products that are listed.
 - **Unlisting**: If the linked product is unlisted, the gift coupon becomes invalid and is unlisted too. Customers can't find, view, or redeem it in the storefront cart.
 - **Channel restriction**: Gift coupons don't support POS, subscriptions, or CYBERBIZ NOW! fast delivery.
-- **Warehouse integration**: For merchants with an integrated warehouse, the gift product must have a SKU (per gift coupon), or the coupon can't be applied.
+- **Warehouse integration**: For merchants with an integrated warehouse, the free gift product must have a SKU (per gift coupon), or the coupon can't be applied.
 - **API integration**:
     - Gift coupons appear in the order items from the API and webhooks.
     - You can add gift coupons through the API.
@@ -102,7 +102,7 @@ Learn about CYBERBIZ gift coupon specs, product restrictions, how to create them
 
 - :lucide-hash:{ .lg }
     [__Send coupons from the Member List__](../../members/manage-member-profiles.md#operate-member-profiles-coupons)
-    Use member filters to send coupons in bulk.
+    Use member filters to send coupons in batch.
 
 - :lucide-hash:{ .lg }
     [__Send coupons with Interactive Games__](../other-tools/interactive-games.md)
@@ -110,7 +110,7 @@ Learn about CYBERBIZ gift coupon specs, product restrictions, how to create them
 
 - :lucide-hash:{ .lg }
     [__Create a Gift Promo Code__](setup-promo-codes.md)
-    Create a store-wide promo code that isn't tied to a member account. Members get a gift when they enter the code at checkout.
+    Create a store-wide promo code that isn't tied to a member account. Members get a free gift when they enter the code at checkout.
 
 - :lucide-hash:{ .lg }
     [__Create VIP Offers__](../../members/vip/setup-exclusive-vip-discounts/)
@@ -138,9 +138,9 @@ Gift coupons are a type of coupon. You can see their performance in **圖表分�
 
 ### Special Cases { #specs-coupon-scenarios }
 
-1. **Coupon no longer applies**: If the customer refreshes the cart, updates cart items, or the gift runs out of stock after the coupon is applied, the coupon may fail or show an error. The customer needs to remove the coupon and check out again.
+1. **Coupon no longer applies**: If the customer refreshes the cart, updates cart items, or the free gift runs out of stock after the coupon is applied, the coupon may fail or show an error. The customer needs to remove the coupon and check out again.
 2. **Minimum spend**: Even if the gift coupon threshold is NT$0, the cart must contain at least one regular (non-gift) product. If the cart is empty, the customer is sent back to the home page or member page.
-3. **Threshold vs. inventory**: If the order both misses the spending threshold and the gift is out of stock, the system checks the threshold first.
+3. **Threshold vs. inventory**: If the order both misses the spending threshold and the free gift is out of stock, the system checks the threshold first.
 
 ## Checkout Flow { #operate-coupon-checkout-flow }
 
@@ -152,7 +152,7 @@ Gift coupons are a type of coupon. You can see their performance in **圖表分�
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠碼08.png){ .screenshot }
 
-3. If the gift is in stock, the customer can choose to apply the gift coupon.
+3. If the free gift is in stock, the customer can choose to apply the gift coupon.
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠碼09.png){ .screenshot }
 
@@ -161,6 +161,6 @@ Gift coupons are a type of coupon. You can see their performance in **圖表分�
 
 ??? quote "Why can't I apply my gift coupon?"
     Check the following:
-    1. Is the gift product in stock?
-    2. Does the gift product have a SKU (for merchants with an integrated warehouse)?
-    3. Are there other products in the cart? (The cart can't contain only gifts.)
+    1. Is the free gift product in stock?
+    2. Does the free gift product have a SKU (for merchants with an integrated warehouse)?
+    3. Are there other products in the cart? (The cart can't contain only free gifts.)

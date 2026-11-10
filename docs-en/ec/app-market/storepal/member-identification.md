@@ -81,7 +81,7 @@ Use Store Assistant to identify members quickly, understand their tags, and give
     - **Greet Customers Right Away**: When customers walk in, quickly check their VIP level and tags (such as regular customer or preferred product categories) and greet them warmly.
     - **Update Member Data on the Spot**: If you notice missing or incorrect information while talking with a customer, update it right away to keep marketing data accurate.
 
-## How to Use { #operate-member-id }
+## Steps { #operate-member-id }
 
 This module is at the top of the interface. Use it to confirm member identity and sync traits collected in store.
 
@@ -107,7 +107,7 @@ This module is at the top of the interface. Use it to confirm member identity an
 
 	![](../../../assets/images/門市助理-後台-門市管理-角色與權限-會員基本資料01.en.png){ .screenshot }
 
-=== "Online Store (EC) Sync"
+=== "Storefront (EC) Sync"
 
 	**Data Sync**: Data edited in the frontend is updated in **Customer Management > All Customers** in real time.
 
@@ -127,7 +127,7 @@ This module is at the top of the interface. Use it to confirm member identity an
 
 	![](../../../assets/images/門市助理-後台-設定-功能設定-會員標籤01.en.png){ .screenshot }
 
-=== "Online Store (EC) Sync"
+=== "Storefront (EC) Sync"
 
 	**Tag Source**: Tags shown in the frontend come from the member tag system in the EC admin, which headquarters uses for retargeting.
 

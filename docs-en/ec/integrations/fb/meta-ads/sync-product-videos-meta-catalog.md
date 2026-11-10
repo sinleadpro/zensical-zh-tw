@@ -78,7 +78,7 @@ This feature lets merchants automatically sync product data on the CYBERBIZ plat
 Before syncing, make sure you meet the following requirements and specifications:
 
 - [x] **Product video upload:** Merchants must complete [Product Video Upload](../../../products/create-and-manage/setup-product-videos.md){ title="Set Up Product Videos" } in the CYBERBIZ admin.
-- [x] **Extension integration:** Merchants must have connected the "[Facebook New Business Extension](../mbe/setup-fbe-authorization.md){ title="Set Up FBE Account Authorization and Asset Linking" }" feature.
+- [x] **Extension integration:** Merchants must have integrated the "[Facebook New Business Extension](../mbe/setup-fbe-authorization.md){ title="Set Up FBE Account Authorization and Asset Linking" }" feature.
 - [x] **Layout restriction:** The product video feature currently supports only the **drag-and-drop layout**. Stores using other layouts cannot upload or sync videos.
 
 ## Sync Setup Steps { #operate-meta-videos }
@@ -95,7 +95,7 @@ Before syncing, make sure you meet the following requirements and specifications
 
     !!! tip "We recommend clicking **Create New Asset** to create a brand-new catalog. If you use an existing catalog, conflicts with old product data can prevent video data from updating properly."
 
-4.  **Finish the process:** Complete the remaining settings in the pop-up window and click **Finish**. The system then automatically returns you to the CYBERBIZ admin page.
+4.  **Finish the process:** Complete the remaining settings in the dialog and click **Finish**. The system then automatically returns you to the CYBERBIZ admin page.
 
 ## Verify the Sync Status in Meta { #specs-meta-videos }
 
@@ -122,7 +122,7 @@ Before syncing, make sure you meet the following requirements and specifications
 
 </div>
 
-## Frequently Asked Questions { #faq-meta-videos }
+## FAQ { #faq-meta-videos }
 
 ??? quote "How do I confirm that product videos have synced to the Meta catalog?"
 

@@ -66,8 +66,8 @@ For official shipments, consolidated bulk packages are sent to the following log
 
 !!! note "Notes"
     * Actual receiving time slots at each logistics center follow official announcements and may change during public holidays.
-    * For FamilyMart frozen store pickup, confirm receiving details with customer service after your application is approved.
-    * After goods arrive at the store, the system sends a pickup SMS to the consumer automatically on Day 1 and Day 4.
+    * For FamilyMart frozen store pickup, confirm receiving details with customer support after your application is approved.
+    * After goods arrive at the store, the system sends a pickup SMS to the customer automatically on Day 1 and Day 4.
 
 ## Test Label Shipping Information { #reference-cvs-b2c-centers-testing }
 
@@ -81,7 +81,7 @@ When applying for each channel, print the test label and send it by registered m
 
 !!! tip "Tips"
     * Print the test label using a **laser printer and shipping stickers used for actual shipments**. Do not substitute regular paper, or the label will be rejected.
-    * After sending, keep the registered mail receipt so customer service can help trace the package.
+    * After sending, keep the registered mail receipt so customer support can help trace the package.
 
 ## Warehouse Receiving Inspection Rules { #reference-cvs-b2c-acceptance-rules }
 
@@ -98,8 +98,8 @@ Receiving inspection rules for each channel are as follows:
         - Monday: No return pickups accepted
         - Tuesday: Hsinchu Logistics, Kerry TJ Logistics (the logistics center returns return-to-vendor packages on its own)
         - Wednesday: Other carriers (merchants must notify the cooperating carrier to collect return-to-vendor packages from the logistics center)
-        - Thursday: Tcat (the logistics center returns return-to-vendor packages on its own)
-        - Friday: Pelican Express (the logistics center returns return-to-vendor packages on its own)
+        - Thursday: T-CAT (the logistics center returns return-to-vendor packages on its own)
+        - Friday: Pelican (the logistics center returns return-to-vendor packages on its own)
 
     !!! info "For detailed rules, refer to Dazhitong's announcements."
 

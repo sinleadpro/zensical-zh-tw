@@ -74,7 +74,7 @@ Add a key to the dictionary file to customize the storefront display name of "Va
 
 !!! tip "Use Cases"
     - **Consistent customer-facing wording**: Change the default "Valid Orders from Other Channels" to a name you normally use, such as "Store Purchase History" or "Offline Purchases."
-    - **Fewer member questions**: Storefront copy matches what your customer service says, so members are less confused about where orders came from.
+    - **Fewer member questions**: Storefront copy matches what your customer support says, so members are less confused about where orders came from.
 
 
 ## Before You Start { #prerequisites-channel-label }

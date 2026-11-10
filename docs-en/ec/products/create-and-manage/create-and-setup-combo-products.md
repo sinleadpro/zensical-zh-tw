@@ -152,9 +152,9 @@ Combo products have the following limits in the system:
 - Fast delivery  
 - Related product collections
         
-### Bulk Operation Limits { #prerequisites-combo-products-batch }
+### Batch Operation Limits { #prerequisites-combo-products-batch }
     
-- Bulk adding or bulk editing combo products isn't supported yet
+- Batch adding or batch editing combo products isn't supported yet
         
 ### Weight Calculation { #specs-combo-products-weight }
     
@@ -287,7 +287,7 @@ We recommend uploading images that show the contents of the combo product so the
 
         !!! warning "The Combo Type Can't Be Changed After the Combo Product Is Created"
     
-    2. **Add products**: In the section, click **Select Product** and select products in the pop-up window.
+    2. **Add products**: In the section, click **Select Product** and select products in the dialog.
 
         - **Quick search**: Enter a product name or SKU to find a specific product.
         - **Bulk filter**: Click **Advanced Search** to open the filter and find products that match your conditions.
@@ -314,7 +314,7 @@ We recommend uploading images that show the contents of the combo product so the
 
         ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-商品-組合商品-建立組合品04.png){ .screenshot }
 
-    3. **Add products**: In the section, click **Select Product** and select products in the pop-up window.
+    3. **Add products**: In the section, click **Select Product** and select products in the dialog.
 
         - **Quick search**: Enter a product name or SKU to find a specific product.
         - **Bulk filter**: Click **Advanced Search** to open the filter and find products that match your conditions.
@@ -338,7 +338,7 @@ We recommend uploading images that show the contents of the combo product so the
 
     5. **Build a mixed combo** (key step): Click **Add Section Block** again to create a second section.
 
-        > Example: Set section A as a "fixed combo" for the main products, and section B as an "optional combo" for choosing gifts or accessories.
+        > Example: Set section A as a "fixed combo" for the main products, and section B as an "optional combo" for choosing free gifts or accessories.
 
     6. **Customize section details**:
 
@@ -401,7 +401,7 @@ We recommend uploading images that show the contents of the combo product so the
 ![Combo product in the cart](../../../assets/images/ec-product-combo-optional-quantity-cart.zh-tw.en.png){ title="Combo Product in the Cart" }
 ## Combo Product Shipping { #specs-combo-products-ship }
 
-After a combo product order is placed, when the system generates a convenience store or home delivery waybill, it also generates the following four documents. All of them include details of every sub-product in the combo product:
+After a combo product order is placed, when the system generates a convenience store or home delivery shipping label, it also generates the following four documents. All of them include details of every sub-product in the combo product:
 
 - **Order details**: Shows each product in the order and the contents of combo products.
 - **Shipping details**: Lists the products and quantities to ship.

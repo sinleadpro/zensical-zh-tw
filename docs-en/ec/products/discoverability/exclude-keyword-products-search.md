@@ -1,6 +1,6 @@
 ---
 title: "Exclude Products with Specific Keywords from Search Results"
-description: "Edit the Liquid template code to exclude products with specific keywords from online store search results."
+description: "Edit the Liquid template code to exclude products with specific keywords from storefront search results."
 created: 2026-02-25 00:00
 last_modified: 2026-06-30 11:26
 lang: en-US
@@ -120,7 +120,7 @@ The steps to exclude specific keywords from search are as follows:
 
 - :lucide-eye-off:{ .lg }  
   [__Secret Collection__](../categories-and-tags/secret-collection.md){ title="Set Up a Secret Collection" }  
-  Use it with a secret collection so specific customer groups can buy through a direct link, while regular shoppers cannot find the products with site search.
+  Use it with a secret collection so specific customer groups can buy through a direct link, while regular customers cannot find the products with site search.
 
 - :lucide-rotate-ccw:{ .lg }  
   [__Restore Web Page Code with the Template Editor__](../../website-appearance/code-customization/restore-code-theme-editor.md){ title="Restore Web Page Code with the Template Editor" }  

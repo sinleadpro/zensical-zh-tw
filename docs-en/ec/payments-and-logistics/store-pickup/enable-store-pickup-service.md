@@ -138,9 +138,9 @@ If you want to limit when customers can pick up their orders, complete the follo
         !!! info "Applicable Plans"
             This field is not supported on the Professional PLUS plan.
 
-### Step 4: Enter Store Pickup Notes { #operate-store-pickup-notes }
+### Step 4: Fill In Store Pickup Notes { #operate-store-pickup-notes }
 
-In the notes field of the **Other Settings** section, enter pickup instructions:
+In the notes field of the **Other Settings** section, fill in pickup instructions:
 
 - **Location tip**: For example, "The store is on the 2nd floor of the department store. Take the west-side elevator up."
 - **Pickup requirements**: For example, "Bring your order number and ID when picking up."
@@ -163,7 +163,7 @@ By default, the system enables store pickup for all products. If a specific prod
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/門市取貨設定15.png){ .screenshot }
 
-## Frequently Asked Questions { #faq-store-pickup }
+## FAQ { #faq-store-pickup }
 
 ??? quote "Why doesn't the checkout page show the Store Pickup option?"
     Check the following: 1. Confirm that Store Pickup is turned on in this store's settings. 2. Confirm that the product edit page has not turned off store pickup. 3. Confirm that at least one available payment method is selected.
@@ -181,6 +181,6 @@ By default, the system enables store pickup for all products. If a specific prod
 
 - :lucide-package-search:{ .lg }     
   [__Manage Store Pickup Products__](../../products/copy-products-to-quick-delivery-stores.md)  
-  Learn how to enable or disable store pickup permissions for products in bulk.
+  Learn how to enable or disable store pickup permissions for products in batches.
 
 </div>

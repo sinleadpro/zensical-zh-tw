@@ -74,7 +74,7 @@ After you enable the Facebook (FB) and Instagram (IG) shop integration, the syst
 
 ### Exclude via Storefront Admin Tags <small>Automated</small> { #operate-exclude-products-backend }
 
-If you have specific products (such as gifts or test products) that you do not want to sync to third-party platforms, the most direct method is to filter them with tags:
+If you have specific products (such as free gifts or test products) that you do not want to sync to third-party platforms, the most direct method is to filter them with tags:
 
 <div class="grid cards" markdown>
 
@@ -127,11 +127,11 @@ If the integration is complete, you can also adjust visibility directly in the m
 
 !!! note "For more steps and details, see the Meta official documentation: [Manage Shop Products :lucide-external-link:](https://zh-tw.facebook.com/business/help/836266307249612)."
 
-## Frequently Asked Questions { #faq-exclude-products }
+## FAQ { #faq-exclude-products }
 
 ??? quote "How do I exclude specific products from syncing to the shop?"
 
-    If you do not want a gift or test product to upload to the shop, enter **“排除product feed”** or **“贈品”** in the product tags field in the storefront admin (do not add a space between 排除 and product). The system automatically filters out that product.
+    If you do not want a free gift or test product to upload to the shop, enter **“排除product feed”** or **“贈品”** in the product tags field in the storefront admin (do not add a space between 排除 and product). The system automatically filters out that product.
 
 ??? quote "When does product sync happen?"
 

@@ -89,13 +89,13 @@ Go to **Payment and Logistics > Payment Settings**. Click :lucide-file-pen-line:
 
 ![](../../assets/images/東南亞站-後台-金物流-金流設定-啟用金流01.en.png)
 
-- **Enable Feature**: Turn on **Credit Card**.
+- **Enable Feature**: Enable **Credit Card**.
 - **3D Verification Threshold**: Set the order amount above which 3D verification is required.
 - **Payment Threshold Settings**: Set the **minimum amount** and **maximum amount** allowed for credit card payments.
 
 ![](../../assets/images/東南亞站-後台-金物流-金流設定-開啟CYBPAYMENTS01.en.png)
 
-## Task 2: Connect the Fiuu Third-Party Payment Platform { #operate-sea-payments-fiuu }
+## Task 2: Integrate the Fiuu Third-Party Payment Platform { #operate-sea-payments-fiuu }
 
 
 ### 1. Get the Fiuu Back-Office Keys { #operate-sea-payments-fiuu-key }
@@ -110,7 +110,7 @@ Log in to the [Fiuu admin console](https://portal.fiuu.com/index.php?mod=authent
 ### 2. Set up the Connection in CYBERBIZ { #operate-sea-payments-fiuu-bind }
 
 1. Log in to the CYBERBIZ admin console and go to **Payment and Logistics > Payment Settings**.
-2. Click **Fiuu(Malaysia)** or **Fiuu(Singapore)** to open the settings page.
+2. Click **Fiuu(Malaysia)** or **Fiuu(Singapore)** to open the setup page.
     - Turn on the Fiuu (Malaysia) or Fiuu (Singapore) option that matches your contract with Fiuu. Selecting the wrong option will prevent orders from checking out.
 3. Enter the keys you copied above.
     - Make sure the Merchant ID is correct and contains no spaces.

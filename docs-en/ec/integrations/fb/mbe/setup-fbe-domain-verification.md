@@ -80,7 +80,7 @@ Domain verification has two main methods: [DNS verification](#operate-fbe-domain
 
 !!! info "We recommend using DNS verification first. Meta tag verification requires editing backend code. If you make a mistake, the platform provider is not responsible for changes to backend program code. For more verification information, see the [official documentation :lucide-external-link:](https://zh-tw.facebook.com/business/help/321167023127050)."
 
-## Setup Steps { #operate-fbe-domain-steps }
+## Steps { #operate-fbe-domain-steps }
 
 ### DNS Verification <small>Recommended</small> { #operate-fbe-domain-steps-dns-verification-use }
 
@@ -163,7 +163,7 @@ Domain verification has two main methods: [DNS verification](#operate-fbe-domain
 
 </div>
 
-## Frequently Asked Questions { #faq-fbe-domain }
+## FAQ { #faq-fbe-domain }
 
 ??? quote "Why do I need to complete domain verification before I can set up events?"
 

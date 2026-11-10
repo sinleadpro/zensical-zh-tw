@@ -93,7 +93,7 @@ On the Performance Overview page, you can quickly evaluate the quality of your M
 
 === "Traffic Ads"
 
-    This section shows whether your ad content successfully attracts audiences and how they behave before reaching your online store.
+    This section shows whether your ad content successfully attracts audiences and how they behave before reaching your storefront.
 
     | Metric Name | Definition and Calculation | Data Insights and Optimization Suggestions |
     | :--- | :--- | :--- |
@@ -164,8 +164,8 @@ Merchants can enable "AI Insights" to chat with the system and automatically gen
 
 1.  **Go to Meta Ads App**: Log in to the CYBERBIZ admin backend and go to **Third-Party Integration > Facebook Settings > Campaign Settings**.
 
-    - Not yet connected: Click **Connect Now** (see [Install Meta Ads App](../../../app-market/install-meta-ads-app.md){ title="Install Meta Ads App" }).
-    - Already connected: Click **Go Now**.
+    - Not yet integrated: Click **Connect Now** (see [Install Meta Ads App](../../../app-market/install-meta-ads-app.md){ title="Install Meta Ads App" }).
+    - Already integrated: Click **Go Now**.
 
 2.  **Open the AI analysis window**: Switch to the **Campaign** tab, then click the **AI Analysis** button in the upper-right corner of the campaign list page to open the AI Insights page.
 
@@ -195,7 +195,7 @@ Merchants can enable "AI Insights" to chat with the system and automatically gen
 
 </div>
 
-## Frequently Asked Questions { #faq-meta-performance }
+## FAQ { #faq-meta-performance }
 
 ??? quote "What is a good ROAS value?"
 
@@ -211,7 +211,7 @@ Merchants can enable "AI Insights" to chat with the system and automatically gen
     Common causes include:
 
     - **Insufficient ad account balance**: Go to **Third-Party Integration > Facebook Settings > Ad Account Settings** to check your balance, or [top up your account](create-meta-ad-account-top-up.md#operate-meta-account-steps-ads){ title="Create a Meta Ad Account and Complete Top-Up" }.
-    - **Abnormal pixel setup**: Confirm that the Pixel is correctly connected.
+    - **Abnormal pixel setup**: Confirm that the Pixel is correctly integrated.
     - **Creative review not passed**: Check whether your ad creative complies with Meta policies.
 
     See [Effective Status Breakdown](#reference-meta-performance-status-unlisted){ data-preview } for more status details.
@@ -222,11 +222,11 @@ Merchants can enable "AI Insights" to chat with the system and automatically gen
 
     - **iOS privacy restrictions**: Due to Apple's iOS 14.5+ privacy policy, the data Facebook can collect may be incomplete. See [official documentation](https://zh-tw.facebook.com/business/help/1329822420714248?id=428636648170202&helpref=faq_content){ target="_blank" }.
     - **Attribution timing differences**: Data uses an attribution window of 7 days after click and 1 day after view, which may differ in timing from actual store orders.
-    - **Pixel setup issues**: Confirm that you use the correct [Pixel setup](create-meta-ad-account-top-up.md#operate-meta-account-steps-settings-pixel){ title="Create a Meta Ad Account and Complete Top-Up" }, and connect through the CYBERBIZ Business Extension. **We do not recommend installing the Pixel through GTM**, as it can cause duplicate events, incorrect Pixel data, and other issues.
+    - **Pixel setup issues**: Confirm that you use the correct [Pixel setup](create-meta-ad-account-top-up.md#operate-meta-account-steps-settings-pixel){ title="Create a Meta Ad Account and Complete Top-Up" }, and integrate through the CYBERBIZ Business Extension. **We do not recommend installing the Pixel through GTM**, as it can cause duplicate events, incorrect Pixel data, and other issues.
 
     To reconnect, see [Set Up FBE Account](../mbe/setup-fbe-authorization.md)link.md){ title="Set Up FBE Account Authorization and Asset Linking" }.
 
-## References { #reference-meta-performance-references }
+## See Also { #reference-meta-performance-references }
 
 ### Effective Status Breakdown { .unlisted } { #reference-meta-performance-status-unlisted }
 

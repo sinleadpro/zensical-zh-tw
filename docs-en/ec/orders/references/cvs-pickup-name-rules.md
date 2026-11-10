@@ -57,18 +57,18 @@ hide: []
 ---
 
 # Convenience Store Pickup Name Rules
-Learn the recipient name rules for convenience store pickup (such as 7-Eleven), including length, special characters, numbers, and spaces, to avoid shipment submission failures caused by invalid formats.
+Learn the recipient name rules for convenience store pickup (such as 7-11), including length, special characters, numbers, and spaces, to avoid shipment submission failures caused by invalid formats.
 { .subtitle }
 
 
 !!! tip "Use Cases"
-	- **Real-time checkout validation**: When customers enter the recipient name on the checkout page, the system checks it against these rules in real time.
+	- **Real-time checkout validation**: When customers fill in the recipient name on the checkout page, the system checks it against these rules in real time.
 	- **Shipping troubleshooting**: When an order shows "Shipment Failed" for a name-related reason, use these rules to check and fix the recipient information.
 
 
 ## Before You Start { #prerequisites-cvs-name-rules }
 
-- **Purpose**: To make sure order information is accepted by convenience store logistics systems (such as 7-Eleven order submission), the system strictly limits the recipient name format.
+- **Purpose**: To make sure order information is accepted by convenience store logistics systems (such as 7-11 order submission), the system strictly limits the recipient name format.
 
 
 ## Name Rules { #specs-cvs-name-rules-rules }
@@ -116,7 +116,7 @@ The system automatically handles spaces in the name field:
 
 ## Examples to Reference { #reference-cvs-name-rules-examples }
 
-If you or customer service need to help a customer troubleshoot a name issue, refer to the validation results below:
+If you or customer support need to help a customer troubleshoot a name issue, refer to the validation results below:
 
 | Input | Result | Error Message |
 | :--- | :--- | :--- |

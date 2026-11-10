@@ -67,7 +67,7 @@ Add the `?sku=` parameter to a product page URL. When customers click the link, 
 
 !!! tip "Use Cases"
     - **Promote a variant on social media**: Promote the "red" or "size L" option in a LINE or Instagram post. One click preselects that Variants.
-    - **Targeted EDM**: Send different SKU links to different audiences in your newsletter so customers don't have to switch options themselves.
+    - **Targeted EDM**: Send different SKU links to different audiences in your EDM so customers don't have to switch options themselves.
     - **Match ad creatives**: Give each ad creative its own Variants link for easier tracking and conversion.
 
 

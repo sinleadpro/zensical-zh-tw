@@ -68,7 +68,7 @@ icon: lucide/shopping-cart
 
 ## Cart Settings Overview { #intro-cart-settings }
 
-"Cart Settings" is located at the top section of the "Payment & Logistics" > "Checkout & Logistics Settings" page in the back office. It controls the shopping flow customers go through before formal checkout. Here you can decide whether the site allows online purchases, whether to proactively remind customers to return and check out, whether the checkout page shows the coupon field, and whether to ask customers for specific information.
+"Cart Settings" is located at the top section of the "Payment & Logistics" > "Checkout & Logistics Settings" page in the admin. It controls the shopping flow customers go through before formal checkout. Here you can decide whether the site allows online purchases, whether to proactively remind customers to return and check out, whether the checkout page shows the coupon field, and whether to ask customers for specific information.
 
 !!! info "Tip"
     All settings on this page are grouped by section, and each section is collapsed by default. Click a section title to expand it. After you expand a section, make your changes and save them for the changes to take effect.
@@ -102,7 +102,7 @@ Some settings appear on the page only after the related feature is activated.
 
 ## Steps { #operate-cart-settings }
 
-Navigation path: Back Office > "Payment & Logistics" > "Checkout & Logistics Settings." Make changes in the "Cart Settings" section at the top of the page.
+Navigation path: Admin > "Payment & Logistics" > "Checkout & Logistics Settings." Make changes in the "Cart Settings" section at the top of the page.
 
 ### Turn the Cart on or Off { #operate-cart-settings-activation }
 
@@ -130,7 +130,7 @@ The maximum reminder window depends on the customer type: **Members** up to 40 d
 When a customer adds items to the cart but does not complete checkout, the system can automatically send a reminder to bring the customer back to complete the order.
 
 1. **Expand the section:** Click the "Automatic Reminders for Unfinished Cart Items" section title.
-2. **Select reminder channels:** Check the notification channels you want to enable: **Enable Email Reminder**, **Enable SMS Reminder**, or **Enable LINE OA Reminder**[^line-plan]. You can edit each channel's notification content on the corresponding "Email & Reminders," "SMS Settings," or "LINE@ Settings" page.
+2. **Select reminder channels:** Select the notification channels you want to enable: **Enable Email Reminder**, **Enable SMS Reminder**, or **Enable LINE OA Reminder**[^line-plan]. You can edit each channel's notification content on the corresponding "Email & Reminders," "SMS Settings," or "LINE@ Settings" page.
 3. **Set the reminder frequency:** After you enable any channel, a "Reminder Frequency" setting appears below. You can set up to three reminders and enter the number of days after which each one is sent.
 4. **Done:** Click **Save** to apply the settings.
 
@@ -170,7 +170,7 @@ Control whether the checkout page shows the coupon field, and whether store-wide
 
 ### POS Checkout Coupon Settings { #operate-cart-settings-pos-coupon }
 
-If you also use the POS system, you can configure the coupon usage rules for the POS checkout page in the back office.
+If you also use the POS system, you can configure the coupon usage rules for the POS checkout page in the admin.
 
 1. **Expand the section:** Click the "POS Checkout coupon Settings" section title.
 2. **Set the per-order limit:** Enter a number in the "Per-Order coupon Limit" field. The default is **10**, and the limit cannot exceed **10**.
@@ -185,7 +185,7 @@ If you also use the POS system, you can configure the coupon usage rules for the
 If you want to ask customers for additional information during checkout (for example, "Last Five Digits of Account" or "LINE ID"), you can add a custom field here.
 
 1. **Expand the section:** Click the "Additional Information" section title.
-2. **Add a field:** Click **"Add Extra Field"** and enter the field name (for example, "Last Five Digits of Account") in the pop-up window.
+2. **Add a field:** Click **"Add Extra Field"** and enter the field name (for example, "Last Five Digits of Account") in the dialog.
 3. **Set whether the field is required:** If needed, select "Required Field," then click **Add**.
 4. **Manage fields:** Created fields appear in the table. You can edit or delete them at any time.
 
@@ -210,7 +210,7 @@ When you run a recurring purchase campaign, you can set the default item quantit
 
 ---
 
-## Frequently Asked Questions { #faq-cart-settings }
+## FAQ { #faq-cart-settings }
 
 ??? quote"Why can't I change logistics settings after turning off the cart?"
     [](){ #faq-cart-settings-logistics-locked }
@@ -258,7 +258,7 @@ After you finish the cart settings, you can continue with the following workflow
 
 ---
 
-## References { #reference-cart-settings }
+## See Also { #reference-cart-settings }
 
 * [Unfinished Cart Reminder Channel Comparison](../references/cart-reminder-channels-reference.md)
 [prerequisites-cart-settings]: #prerequisites-cart-settings

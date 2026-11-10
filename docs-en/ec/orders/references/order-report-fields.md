@@ -175,7 +175,7 @@ Suppose you create a bundle priced at NT$777 that includes these 4 sub-product u
 - Sub-product A: original price NT$166 × 1 unit
 - Sub-product B: original price NT$250 × 3 units (this sub-product has multiple units)
 
-When a shopper buys 2 bundles, the calculation is as follows:
+When a customer buys 2 bundles, the calculation is as follows:
 
 #### Calculation Steps { #operate-report-fields-calc-ex2 }
 

@@ -75,7 +75,7 @@ hide: []
     - [FamilyMart Frozen B2C Bulk Shipping](../payments-and-logistics/setup-family-mart-frozen-b2c/)
     - [FamilyMart Frozen C2C Store-to-Store](cvs-shipping/family-mart-frozen-c2c/)
 
-    > EZCAT Quick Store Delivery doesn't support this feature.
+    > T-CAT Rapid-to-Store Delivery doesn't support this feature.
 
 - **Order delivery status**: Applies only to **Shipped** or **[Partially Shipped](cvs-shipping/cvs-partial-shipment.md)** orders.
 
@@ -86,7 +86,7 @@ hide: []
     !!! tip "How the System Decides"
         - The shipping label hasn't expired: Use **Reprint Shipping Label** within the deadline to get the original shipping label.
         - The shipping label has expired and has no delivery record: Use **Get New Tracking Number and Download New Shipping Label** to get a new shipping label.
-        - The shipping label has a delivery record: If **the convenience store has reported a logistics status**, you can't get a new tracking number. Guide the shopper to place a new order.
+        - The shipping label has a delivery record: If **the convenience store has reported a logistics status**, you can't get a new tracking number. Guide the customer to place a new order.
 
             > For example, when FamilyMart cold chain logistics shows **Reserved Slot Canceled**, the shipping label has a delivery record, and you can't get a new tracking number.
 

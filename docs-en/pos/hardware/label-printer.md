@@ -85,7 +85,7 @@ Merchants can print their own product labels with barcodes, prices, expiration d
     - **Private-Label Brands**: Use the label printer to produce internationally compliant barcode labels for self-made and self-sold products, enhancing their professional appearance.
 
 
-## Important Notes { #prerequisites-label-printer }
+## Before You Start { #prerequisites-label-printer }
 
 - **Supported Models**: The system currently supports only **TSC TTP-225** and **TSC TTP-323** label printers.
 - **Operating System Requirement**: The computer must run Windows Pro. Windows Home will not run the feature properly.
@@ -93,7 +93,7 @@ Merchants can print their own product labels with barcodes, prices, expiration d
     > Path: Settings > System > System Information > Windows Specifications (Windows 11 shown as an example).
         ![](../../assets/images/Windows-系統-系統資訊-POS標籤機適用系統版本01.en.png){ .screenshot }
 
-- **Feature Activation**: Contact CYBERBIZ Customer Support to enable the **Label Printing** feature in the back office.
+- **Feature Activation**: Contact CYBERBIZ Customer Support to enable the **Label Printing** feature in the admin.
 - **Software Environment**: Connect the label printer to a computer with the **POS APP Driver** installed first.
 - **Encoding Restrictions**:
     - Product SKU codes should be **15 characters** or fewer (letters or digits).
@@ -126,7 +126,7 @@ Before you start printing, make sure the label printer's hardware is fully set u
 1. **Install Supplies**: See the TSC official tutorial videos on [installing the ribbon](https://www.youtube.com/watch?v=tEFeqpA--hs) and [installing label rolls](https://www.youtube.com/watch?v=thvZkQJV-Rs).
 2. **Connect to Computer**: Connect the label printer to the computer via USB.
 3. **Start the Driver**: Open the [POS APP Driver](../software/drivers.md) on the computer.
-4. **Auto-Detection**: POS APP automatically detects the new device. In the pop-up window, select **TSC Label Printer** and click Start Using.
+4. **Auto-Detection**: POS APP automatically detects the new device. In the dialog, select **TSC Label Printer** and click Start Using.
 
 
 
@@ -137,6 +137,6 @@ Before you start printing, make sure the label printer's hardware is fully set u
 
 - :lucide-printer-check:{ .lg }   
   [__Print Product Labels__](../check/print-product-labels.md)     
-  Run a print test in the back office.
+  Run a print test in the admin.
 
 </div>

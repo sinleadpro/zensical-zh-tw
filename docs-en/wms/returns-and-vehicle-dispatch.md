@@ -99,9 +99,9 @@ The process depends on whether you turned on [returns on the storefront](../ec/o
 
 === "Storefront Returns On"
 
-    - **Process**: The customer requests a return in **我的帳戶 > 訂單查詢** on your online store.
+    - **Process**: The customer requests a return in **我的帳戶 > 訂單查詢** on your storefront.
     - **Status change**: The EC order's **return status** changes to **Return Requested** automatically.
-    - **Benefit**: Less work for customer service, because the system collects the request details.
+    - **Benefit**: Less work for customer support, because the system collects the request details.
 
 === "Storefront Returns Off"
 
@@ -148,14 +148,14 @@ Choose how to handle the return based on whether the items need to be collected:
                 | Order Shipping Method | Warehouse shipping | Warehouse shipping | Mixed (self-shipping + warehouse shipping) | Self-shipping |
                 | Available Reverse Logistics | T-Cat | T-Cat | T-Cat | T-Cat |
                 | | Pelican | Pelican | Pelican | Pelican |
-                | | 7-ELEVEN C2B | 7-ELEVEN C2B | | |
+                | | 7-11 C2B | 7-11 C2B | | |
                 | Return Delivery Address | Warehouse address | Warehouse address | Merchant company address | Merchant company address |
 
             - Create home delivery reverse logistics: [T-Cat](../ec/payments-and-logistics/setup-print-tcat-waybill-v2/#operate-ezcat-shipping-reverse), [Pelican](../ec/payments-and-logistics/setup-pelican-waybill-v2/#operate-pelican-shipping-reverse), [HCT Logistics](../ec/payments-and-logistics/setup-hct-waybill-v2/#operate-hct-setup-reverse)
-            - Create [7-ELEVEN C2B reverse logistics](../ec/orders/returns-refunds/cvs-c2b-return.md)
+            - Create [7-11 C2B reverse logistics](../ec/orders/returns-refunds/cvs-c2b-return.md)
 
         2. **Status change**: The order's **return status** changes to **Returning** automatically.
-        3. **System sync**: The online store syncs the information to WMS, which creates a **Return Order** and gets a **Tracking Number**.
+        3. **System sync**: The storefront syncs the information to WMS, which creates a **Return Order** and gets a **Tracking Number**.
         4. **Pickup**: The reverse logistics driver collects the parcel at the address (or convenience store) the customer chose.
         5. **Warehouse inspection**: After the warehouse receives the parcel, staff inspect the goods and restock them in WMS.
 

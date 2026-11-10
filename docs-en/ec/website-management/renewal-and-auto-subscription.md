@@ -68,7 +68,7 @@ To keep your store running without interruption, regularly maintain the validity
 
 ## Before You Start { #prerequisites-renewal }
 
-- **Staff permissions**: The website owner can control which admin panel staff can manage renewal purchases and automatic renewal.
+- **Staff permissions**: The website owner can control which admin staff can manage renewal purchases and automatic renewal.
     - Go to **Website Management > User Account Settings** and turn the **Plans** item on or off.
     - Any staff member with the **Plans** permission can make renewal purchases and change the credit card, so grant it carefully.
 
@@ -101,7 +101,7 @@ To use automatic renewal, or to check out faster when you renew, set up your cre
 3. Enter your credit card information and click **Confirm**.
 
     - The system can only save **one** credit card number.
-    - After you link a card, admin panel staff with permission to view **Plans** receive an email notification.
+    - After you link a card, admin staff with permission to view **Plans** receive an email notification.
 
 ![](../../assets/images/EC-後台-管理中心-方案-新增付款方式01.en.png)
 
@@ -147,7 +147,7 @@ Use manual renewal purchase whenever you need to extend a service period.
 
 Automatic renewal keeps your plan from expiring by accident. This feature is only available on the **Advanced** and **Expert** plans.
 
-### 1. Turn on Automatic Renewal { #operate-renewal-auto-enable }
+### 1. Enable Automatic Renewal { #operate-renewal-auto-enable }
 
 1. Make sure you have linked a credit card on the **Payment Settings** tab.
 2. Go to **Website Management > Plans > 購買資訊**.

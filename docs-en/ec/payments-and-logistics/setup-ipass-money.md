@@ -60,7 +60,7 @@ icon: lucide/wallet
 hide: []
 ---
 # Set up iPASS MONEY Payments
-Guide merchants through applying for and connecting iPASS MONEY payment services. Covers application requirements, required documents, the 2-4 week review timeline, and back-office key setup.
+Guide merchants through applying for and integrating iPASS MONEY payment services. Covers application requirements, required documents, the 2-4 week review timeline, and back-office key setup.
 { .subtitle }
 
 
@@ -92,7 +92,7 @@ Prepare electronic copies (PDF or image format) of the following four documents:
 3.  **Create an account**: After registration is complete, the system sends a notification email containing your iPASS MONEY back-office login credentials.
 
     !!! info "Important Notes"
-        If you receive an **account activation email** from iPASS MONEY, it only means your system account has been created. It **does not mean your application has been approved**. Be sure to wait for the CYBERBIZ key notification email before you connect.
+        If you receive an **account activation email** from iPASS MONEY, it only means your system account has been created. It **does not mean your application has been approved**. Be sure to wait for the CYBERBIZ key notification email before you integrate.
 
 
 
@@ -103,7 +103,7 @@ After you receive the key notification email from CYBERBIZ, follow these steps t
 
 1.  Go to **Payment and Logistics > Payment Settings > iPASS MONEY**.
     ![](../../assets/images/EC-後台-金物流-金流設定-啟用一卡通01.en.png){ .screenshot }
-2.  Enter the key information: Use the keys provided in the notification email.
+2.  Fill in the key information: Use the keys provided in the notification email.
     -   **Channel ID**
     -   **Api Key**
     ![](../../assets/images/EC-後台-金物流-金流設定-啟用一卡通02.en.png){ .screenshot }
@@ -119,11 +119,11 @@ After you receive the key notification email from CYBERBIZ, follow these steps t
 
 ## Step 4: Link Logistics Payment Methods { #operate-ipass-bind-logistics }
 
-If your site uses **Custom Logistics** or **Home Delivery Cash on Delivery**, you must manually check the box to support iPASS MONEY:
+If your site uses **Custom Logistics** or **Home Delivery Cash on Delivery**, you must manually select the box to support iPASS MONEY:
 
 1.  Go to **Payment and Logistics > Custom Logistics**.
 2.  Click the logistics option you want to change.
-3.  In **Payment Methods**, check **iPASS MONEY**.
+3.  In **Payment Methods**, select **iPASS MONEY**.
 4.  Click **Save**.
 
 ![](../../assets/images/EC-後台-金物流-宅配物流-自訂物流綁定付款方式01.en.png){ .screenshot }

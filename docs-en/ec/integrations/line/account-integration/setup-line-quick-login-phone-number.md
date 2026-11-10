@@ -108,7 +108,7 @@ Log in to [LINE Developers :lucide-external-link:](https://developers.line.biz/)
 
 2. **Check Permission Settings**:
 
-	- Click the **LINE Login Channel** connected to your storefront.
+	- Click the **LINE Login Channel** integrated to your storefront.
 
 	- Go to the **Basic Settings** tab and scroll down to **Permissions**.
 
@@ -153,9 +153,9 @@ Standard LINE quick login matches accounts only by the member's email address. W
 
 	|**Trigger Scenario**|**LINE Account Email Status**|**System Action (UID Binding)**|**Future Login Status**|**Notes**|
 	|---|---|---|---|---|
-	|**Scenario 1**|Registered in EC and belongs to **Member A** |Bind the LINE UID to **Member A**|Same as **Member A** login|The ideal, fully matched state.|
-	|**Scenario 2**|Registered in EC but belongs to **another person**|Bind the LINE UID to **Member A**|Same as **Member A** login|**Does not access** the LINE email. Matches by phone number.|
-	|**Scenario 3**|Not registered in EC|Bind the LINE UID to **Member A**|Same as **Member A** login|**Does not access** the LINE email.|
+	|**Scenario 1**|Registered in EC and belongs to **Member A** |Link the LINE UID to **Member A**|Same as **Member A** login|The ideal, fully matched state.|
+	|**Scenario 2**|Registered in EC but belongs to **another person**|Link the LINE UID to **Member A**|Same as **Member A** login|**Does not access** the LINE email. Matches by phone number.|
+	|**Scenario 3**|Not registered in EC|Link the LINE UID to **Member A**|Same as **Member A** login|**Does not access** the LINE email.|
 
 ??? example "Scenario B: Phone Number Does Not Exist in the EC System"
 
@@ -163,7 +163,7 @@ Standard LINE quick login matches accounts only by the member's email address. W
 
 	|**Trigger Scenario**|**LINE Account Email Status**|**System Action (UID Binding)**|**Future Login Status**|**Notes**|
 	|---|---|---|---|---|
-	|**Scenario 1**|Registered in EC (belongs to **Member B**)|Bind the LINE UID to **Member B**|Same as **Member B** login| **Does not access** the LINE phone number. Matches by email.|
+	|**Scenario 1**|Registered in EC (belongs to **Member B**)|Link the LINE UID to **Member B**|Same as **Member B** login| **Does not access** the LINE phone number. Matches by email.|
 	|**Scenario 2**|Not registered in EC|**Create new Member C**|Same as **new Member C** login|Accesses the LINE email, phone number, and UID at the same time to create a new record.|
 
 
@@ -200,10 +200,10 @@ If you have LINE Certified Provider status, you can also use the **LIFF** featur
 - **Masked display**: When printing order details, if the merchant has enabled security settings, retrieved phone numbers appear masked (for example, `093******3`) to protect personal data.
 
 
-## Frequently Asked Questions { #faq-line-phone-login }
+## FAQ { #faq-line-phone-login }
 
 ??? quote "How does the system handle a phone number on LINE that does not match the storefront record?"
-	The system follows a **"phone number first"** policy. If the phone number provided by LINE already exists in the system (Member A), it is always bound to Member A, regardless of the email. If the number has no record and the email is also unregistered, the user is treated as a new customer and a new record is created.
+	The system follows a **"phone number first"** policy. If the phone number provided by LINE already exists in the system (Member A), it is always linked to Member A, regardless of the email. If the number has no record and the email is also unregistered, the user is treated as a new customer and a new record is created.
 
 ??? quote "After the feature is turned on, will existing LINE login members automatically have their phone numbers filled in?"
 	**No.** This feature is not retroactive. After the feature is enabled, the system can only retrieve the current phone number through the API when the member authorizes login again.

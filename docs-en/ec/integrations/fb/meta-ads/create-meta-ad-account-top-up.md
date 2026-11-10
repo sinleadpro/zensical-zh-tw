@@ -119,10 +119,10 @@ After you create the ad account, share operating permissions with the merchant's
 
 ### Pixel Setup <small>Pixel</small> { #operate-meta-account-steps-settings-pixel }
 
-To track consumer behavior, you need to manually link your existing pixel to the newly created ad account:
+To track customer behavior, you need to manually link your existing pixel to the newly created ad account:
 
 1. **Go to Business Manager**: Go to [Settings :lucide-external-link:](https://business.facebook.com/latest/settings), select **Data Source**, then select **"Datasets or Pixels"**.
-2. **Add Assets**: Select the pixel to bind, then select **Connected Assets** > **"Add Assets"**.
+2. **Add Assets**: Select the pixel to link, then select **Connected Assets** > **"Add Assets"**.
 3. **Complete the link**: Select the ad account named "Store Name_儲值" and confirm.
 
 ![Business Manager Link Pixel to Ad Account](../../../../assets/images/ec-第三方整合-fb-meta企業管理平台-廣告帳號-連結像素.en.gif)

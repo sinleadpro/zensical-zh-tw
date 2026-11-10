@@ -67,18 +67,18 @@ comments: false
 
 - **Maximum per transaction**: NT$20,000
 - **Payment deadline**: 7 days. After it expires, customers can get a new code.
-- **Supported convenience stores**: 7-Eleven, FamilyMart, Hi-Life
+- **Supported convenience stores**: 7-11, FamilyMart, Hi-Life
 
 
 ## Turn On Convenience Store Payment Codes { #operate-cvs-code-enable }
 
-You can turn on this feature in CYBERBIZ PAYMENTS so shoppers can choose a convenience store payment code at checkout and pay in store.
+You can turn on this feature in CYBERBIZ PAYMENTS so customers can choose a convenience store payment code at checkout and pay in store.
 
 ### Step 1: Edit the CYBERBIZ PAYMENTS Payment Settings { #operate-cvs-code-enter-payments }
 
 1.  Sign in to the CYBERBIZ admin and go to **Payment and Logistics > Payment Settings**.
 2.  In the payment settings list, find **CYBERBIZ PAYMENTS**.
-3.  Click the **Edit** :lucide-file-pen: button on the right to open the settings page.
+3.  Click the **Edit** :lucide-file-pen: button on the right to open the setup page.
 
 ![Edit CYBERBIZ PAYMENTS](../../../assets/images/EC-後台-金物流-金流設定-CYBERBIZ-PAYMENTS-編輯.en.png){ title="Edit CYBERBIZ PAYMENTS" .screenshot }
 
@@ -86,8 +86,8 @@ You can turn on this feature in CYBERBIZ PAYMENTS so shoppers can choose a conve
 
 ### Step 2: Turn On Convenience Store Payment Codes { #operate-cvs-code-enable-feature }
 
-1.  On the CYBERBIZ PAYMENTS settings page, find **Convenience Store Payment Code**.
-2.  Turn the switch to **Enable**.
+1.  On the CYBERBIZ PAYMENTS setup page, find **Convenience Store Payment Code**.
+2.  Turn the toggle to **Enable**.
 
 ![Edit CYBERBIZ PAYMENTS](../../../assets/images/EC-後台-金物流-金流設定-啟用超商條碼02.en.png){ title="Edit CYBERBIZ PAYMENTS" .screenshot }
 
@@ -99,7 +99,7 @@ You can turn on this feature in CYBERBIZ PAYMENTS so shoppers can choose a conve
 2.  After the system shows a success message, you can confirm the feature is on in the payment settings list.
 
 !!! warning "Important"
-    - After you turn on convenience store payment codes, make sure you also offer a supported delivery type (such as convenience store pickup) so shoppers can choose this payment method at checkout.
+    - After you turn on convenience store payment codes, make sure you also offer a supported delivery type (such as convenience store pickup) so customers can choose this payment method at checkout.
     - If you set a day limit for [automatic order cancellation](../../payments-and-logistics/payments/order-settings.md#operate-order-settings-auto-cancel){ title="Order Settings" }, the code expires once the limit passes and can no longer be used to pay.
     - If you [cancel an order manually](../basics/cancel-order/#operate-cancel-merchant), the convenience store payment code doesn't expire automatically, and the customer can still pay within its validity period. After payment, the order is placed again, and you can ship it or refund it.
 

@@ -95,7 +95,7 @@ Set up the member birthday gift, including sending rules for bonus points and co
 
     > The exact time members receive the birthday gift may vary slightly depending on system processing.
 
-- **Notification time**: If you've turned on the birthday gift notification in **Push Notifications > Email Notification Template** or **SMS Notification Templates**, the system sends all notifications to members at 12:00 PM that day.
+- **Notification time**: If you've enabled the birthday gift notification in **Push Notifications > Email Notification Template** or **SMS Notification Templates**, the system sends all notifications to members at 12:00 PM that day.
 
 ### Claim Rules { #specs-birthday-gift-member-rules }
 

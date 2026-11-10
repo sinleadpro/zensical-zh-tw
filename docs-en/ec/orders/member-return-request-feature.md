@@ -75,7 +75,7 @@ Learn how to turn on storefront return requests, including full and partial retu
 
 ## Task 1: Set Up the Feature in the Admin { #operate-member-return-admin-config }
 
-Turn on the switch in the admin first so members can see the request button in the storefront order center.
+Turn on the toggle in the admin first so members can see the request button in the storefront order center.
 
 ### 1. Turn On Return Requests { #operate-member-return-enable-switch }
 Go to **Payment and Logistics > Checkout Page & Logistics**:
@@ -85,7 +85,7 @@ Go to **Payment and Logistics > Checkout Page & Logistics**:
     To let members return only **the whole order** at once:
 
     1. Scroll to the **Order Settings** section.
-    2. Expand the **Customer Order Cancellation and Return Request Settings** drop-down menu.
+    2. Expand the **Customer Order Cancellation and Return Request Settings** dropdown menu.
     3. Turn on **Customers Can Request Returns**.
 
     ![](../../assets/images/EC-金物流-結帳頁物流設定-開啟會員申請取消與退貨功能01.en.png)
@@ -96,7 +96,7 @@ Go to **Payment and Logistics > Checkout Page & Logistics**:
 
     1. **Complete the full return settings.**
     2. Scroll to the **Logistics Settings** section.
-    3. Expand the **Storefront Return Settings** drop-down menu.
+    3. Expand the **Storefront Return Settings** dropdown menu.
     4. Turn on **Storefront Partial Return Requests**.
 
     !!! info "Plan Limits"
@@ -124,7 +124,7 @@ You can set how many days after an order is complete members can request a retur
 
         ![](../../assets/images/EC-前台-會員中心-訂單查詢-申請退貨01.en.png)
 
-    3. The member enters the return reason and refund information.
+    3. The member fills in the return reason and refund information.
 
         ![](../../assets/images/EC-前台-會員中心-訂單查詢-申請退貨02.en.png)
 
@@ -141,7 +141,7 @@ You can set how many days after an order is complete members can request a retur
 
     1. Sign in to the CYBERBIZ admin and go to **Orders > All Orders**.
     2. Find orders whose return status is **Return Requested**.
-    3. Open the order details, and in the **Order Activity Log** section, click **Customer Requested Return** to see the details and reason the member entered.
+    3. Open the order details, and in the **Order Activity Log** section, click **Customer Requested Return** to see the details and reason the member filled in.
 
     !!! Flexible Partial Item Returns
         If you allow **storefront partial returns**, after members select the items and quantities to return, you can see the requested items and quantities.
@@ -194,7 +194,7 @@ The system has different selection rules for different product types:
 | **Add-ons/gifts** | Can be selected for return individually |
 
 !!! tip "Return Tips"
-    This feature offers flexible return options, but every store has different refund rules (such as gift recovery and bundle discount calculations). We recommend stating your rules clearly in your shopping policy and contacting shoppers to confirm.
+    This feature offers flexible return options, but every store has different refund rules (such as gift recovery and bundle discount calculations). We recommend stating your rules clearly in your shopping policy and contacting customers to confirm.
 
 ### 2. How Refund Amounts Are Calculated { #operate-member-return-refund-calc }
 

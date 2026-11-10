@@ -78,13 +78,13 @@ hide: []
 
 ## About the Product Management Interface { #intro-product-ui }
 
-The **product management interface** is mainly at the admin path **Products > All Products**. It brings together core features such as publishing products, quick filtering, bulk editing, and cross-channel management to help you maintain your store's items efficiently.
+The **product management interface** is mainly at the admin path **Products > All Products**. It brings together core features such as publishing products, quick filtering, batch editing, and cross-channel management to help you maintain your store's items efficiently.
 
 ## Interface Features { #overview-product-ui }
 
 In the "All Products" list, you can perform the following basic actions on products:
 
-*   [**Add Product**](#operate-product-ui-create): Click the button in the upper-right corner to publish a single product or products in bulk.
+*   [**Add Product**](#operate-product-ui-create): Click the button in the upper-right corner to publish a single product or products in batches.
 *   [**Quick search**](#How-Filters-Work) and [**items per page**](#overview-product-ui-list): Find products by keyword, or adjust how many products each page shows.
 *   [**Status toggle and preview**](#overview-product-ui-shortcuts): Click the "eye icon" to publish or hide a product directly, or click the link to preview the product page on the storefront.
 *   [**Delete**](#overview-product-ui-shortcuts): Remove items you no longer sell.
@@ -113,7 +113,7 @@ When you have many products, use filters to edit more efficiently:
 	Use filters to apply multiple specific conditions and pinpoint the products you want.
 	
 	1. Log in to the CYBERBIZ admin and go to **Products > All Products**.
-	2. Click **Advanced Search** next to the search field to open the drop-down menu.
+	2. Click **Advanced Search** next to the search field to open the dropdown menu.
 	3. Click one or more **filter group fields**[^2], such as **Product Type**, **Product Vendor**, or **Product Tags**.
 	4. Select the filter conditions for each field.
 	5. Click **Search**. The system shows the list of products that match all conditions.
@@ -127,17 +127,17 @@ When you have many products, use filters to edit more efficiently:
 	2. [Enter keywords](#How-Filters-Work): Enter a product name or SKU in the search field, then press ++enter++ or click the **search icon** :material-magnify: to narrow the results further.
 	
     > :lucide-flame: **Bulk actions on specific products**  
-	After filtering the product list, [select products in bulk](#operate-product-ui-select) and then [choose an action](#operate-product-ui-batch-actions) to apply bulk actions to specific products.
+	After filtering the product list, [select products in batches](#operate-product-ui-select) and then [choose an action](#operate-product-ui-batch-actions) to apply batch actions to specific products.
 	
 	![Combined search conditions](../../../assets/images/ec-products-search-filter-combo.zh-tw.en.png){ title="Combined Search Conditions" }
 
-## Bulk Actions { #operate-product-ui-batch }
+## Batch Actions { #operate-product-ui-batch }
 
 Select the checkboxes on the left of the list to perform **bulk actions**, including:
 
-*   **Status and permissions**: Publish, hide, or delete in bulk, and turn search on or [exclude products from search](#operate-product-ui-visibility).
+*   **Status and permissions**: Publish, hide, or delete in batches, and turn search on or [exclude products from search](#operate-product-ui-visibility).
 *   **Export data**: [Export the product list](../bulk-operations/batch-update-product-descriptions-shipping.md#operate-batch-update-export) or the [member exclusive price list](../pricing/setup-vip-member-pricing.md#operate-vip-pricing-export).
-*   **Channel management**: [Copy online store products in bulk to POS stores](../bulk-operations/copy-products-to-pos-stores.md).
+*   **Channel management**: [Copy storefront products in bulk to POS stores](../bulk-operations/copy-products-to-pos-stores.md).
 
 ![Bulk actions](../../../assets/images/ec-products-batch-operations.en.png){ title="Bulk Actions" }
 
@@ -170,15 +170,15 @@ Select the checkboxes on the left of the list to perform **bulk actions**, inclu
 
 ---
 
-### Bulk Actions { #operate-product-ui-batch-actions }
+### Batch Actions { #operate-product-ui-batch-actions }
 
 1. [Select multiple products](#operate-product-ui-select).
-2. Click the **Select** menu and choose a bulk action[^1].  
+2. Click the **Select** menu and choose a batch action[^1].  
 
 ![Bulk action flow](../../../assets/images/ec-products-batch-process.zh-tw.en.gif){ title="Bulk Action Flow" }
 
 !!! warning "Notes"
-    When "Select all products" is checked, the system limits some bulk actions to prevent mistakes and keeps only actions such as exporting and copying to POS shops.
+    When "Select all products" is checked, the system limits some batch actions to prevent mistakes and keeps only actions such as exporting and copying to POS shops.
 
 <div class="grid cards" markdown>
 
@@ -201,11 +201,11 @@ In the management interface, you can set each product's "product search" setting
 
     ![Search toggle](../../../assets/images/ec-product-list-search-index-toggle.en.png){ title="Search Toggle" }
 
-=== ":lucide-square-check: Bulk Action"
+=== ":lucide-square-check: Batch Action"
 
     1. Log in to the CYBERBIZ admin and go to **Products > All Products**.
     2. Select the products to exclude from search.
-    3. Click the **Select** drop-down menu and select **Disable Search**.  
+    3. Click the **Select** dropdown menu and select **Disable Search**.  
 
     ![Exclude products from search in bulk](../../../assets/images/ec-商品-排除搜尋-批次操作.en.png){ title="Exclude Products from Search in Bulk" }
 
@@ -232,7 +232,7 @@ In the management interface, you can set each product's "product search" setting
 
 If you integrate other e-commerce platforms, the management interface shows the related link status:
 
-*   **Shopee sync**: Check whether the Shopee icon in the "Connected Channel" column is lit to confirm that inventory is linked between your online store and your Shopee shop.
+*   **Shopee sync**: Check whether the Shopee icon in the "Connected Channel" column is lit to confirm that inventory is linked between your storefront and your Shopee shop.
 *   **Tag exclusion**: To keep items from being uploaded to Google Merchant Center or the Facebook shop, enter "贈品" (gift) or "排除product feed" (exclude product feed) in the tags field on the product management page.
 
 
@@ -295,7 +295,7 @@ View products that have [inventory management turned on](create-update-products.
 ??? quote "Can I save filter conditions?"
 	Saving isn't supported right now.
 
-[^1]: The bulk actions available vary by plan.
+[^1]: The batch actions available vary by plan.
 [^2]: The filter group fields available vary by plan or admin settings.
 [^3]: For example, if you filter by the "Clothing" and "Shoes" types, the system shows products of either type.
 [^4]: For example, if you filter by the "Clothing" type and "Launched" status, the system shows only products whose type is "Clothing" and whose status is "Launched".

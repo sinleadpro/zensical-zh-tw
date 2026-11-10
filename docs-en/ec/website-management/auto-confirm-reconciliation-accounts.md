@@ -1,6 +1,6 @@
 ---
 title: "Set up Automatic Confirmation of Reconciliation Statements"
-description: "When merchants use the CYBERBIZ PAYMENTS payment service, merchants must confirm statements manually before payouts are made by default. After you turn on Automatic Statement Confirmation, the system confirms statements automatically on the statement closing date once the accumulated amount reaches the set threshold, so payouts are not interrupted."
+description: "When merchants use the CYBERBIZ PAYMENTS payment service, merchants must confirm statements manually before payouts are made by default. After you enable Automatic Statement Confirmation, the system confirms statements automatically on the statement closing date once the accumulated amount reaches the set threshold, so payouts are not interrupted."
 created: 2026-06-01 16:06
 last_modified: 2026-06-01 16:06
 lang: en-US
@@ -67,7 +67,7 @@ hide: []
 ---
 
 # Set up Automatic Confirmation of Reconciliation Statements
-With the CYBERBIZ PAYMENTS payment service, you must confirm each statement by hand before you get paid. This is the default. If you turn on automatic statement confirmation, the system does it for you on the closing date once the total reaches your threshold. Your payouts keep coming on time.
+With the CYBERBIZ PAYMENTS payment service, you must confirm each statement by hand before you get paid. This is the default. If you enable automatic statement confirmation, the system does it for you on the closing date once the total reaches your threshold. Your payouts keep coming on time.
 { .subtitle }
 
 [:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | Professional / Advanced / Expert / all PLUS plans
@@ -79,7 +79,7 @@ With the CYBERBIZ PAYMENTS payment service, you must confirm each statement by h
 
 
 
-## Why Turn on Automatic Statement Confirmation? { #intro-auto-confirm }
+## Why Enable Automatic Statement Confirmation? { #intro-auto-confirm }
 
 With CYBERBIZ PAYMENTS, you must go to **Reconciliation Center** and check that the payout amount is right. Only then does the system pay you.
 
@@ -89,7 +89,7 @@ If you are busy and forget to confirm, the payout for that period is late. With 
 ## How to Turn It On { #operate-auto-confirm }
 
 
-1. Log in to the CYBERBIZ admin panel and go to **Website Management > Reconciliation Center**.
+1. Log in to the CYBERBIZ admin and go to **Website Management > Reconciliation Center**.
 1. On the Reconciliation Center page, click the **Statement automatic confirmation** button.
 2. In the pop-up window, set the following:
     - **Turn on the switch**: Turn on **Automatically confirm statements**.

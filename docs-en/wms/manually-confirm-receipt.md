@@ -72,7 +72,7 @@ If a convenience store fails to send the pickup status, manually set the warehou
 
 ### When to Use { #prerequisites-receipt-scenario }
 
-For an order shipped to a convenience store, the store may fail to send the picked-up status. After you confirm with the customer that the item was delivered and picked up, manually change the shipping status to **Received**.
+For an order shipped to a convenience store, the store may fail to send the picked-up status. After you confirm with the customer that the item was delivered and picked up, manually change the delivery status to **Received**.
 
 
 ### Limits and Rules { #specs-receipt-limits }
@@ -80,7 +80,7 @@ For an order shipped to a convenience store, the store may fail to send the pick
 - **Order type**: Only **convenience store pickup** orders are supported.
 - **Delivery status**: The order must currently be **Shipped**.
 - **Shipping status condition**: One of these exceptions applies:
-    - The waybill status shows **Problem**.
+    - The shipping label status shows **Problem**.
     - The item reached the store more than **7 days** ago and the status has not updated.
 - **Cannot be undone**: After you confirm receipt manually, the order cannot go back to its original status. If you change it by mistake, start a return to correct the accounting.
 

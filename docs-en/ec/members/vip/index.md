@@ -127,14 +127,14 @@ The system does not use the calendar year. Instead, it looks back over a specifi
 
 ## Rule Activation And Version Management { #specs-vip-guide-versions }
 
-To protect consumer rights and give merchants time to announce changes, the system applies effective-date restrictions to changes in core rules.
+To protect customer rights and give merchants time to announce changes, the system applies effective-date restrictions to changes in core rules.
 
 *   **Basic settings (D+2 rule)**: Changes to core logic, such as tier names and Upgrade/Renewal thresholds, take effect **2 days later**, except for the initial publication.
 *   **Benefit settings (effective immediately)**: Changes to benefits, such as discount rates and bonus points issued, take effect immediately after saving.
 *   **Version management**: Use **Copy Version** to plan the next phase of your membership strategy without affecting the currently active version.
 
 ## Applying Exclusive VIP Benefits { #next-steps-vip-guide }
-Turn your VIP system into a marketing driver. Use exclusive offers and differentiated pricing to increase average order value and repeat purchase rates among members.
+Turn your VIP system into a marketing driver. Use exclusive offers and differentiated pricing to increase AOV and repeat purchase rates among members.
 
 <div class="grid cards" markdown>
 

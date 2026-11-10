@@ -72,9 +72,9 @@ Learn how profit sharing works, who it's for, and when to use it, so you can pic
 { .doc-badge }
 
 
-Profit sharing helps you grow revenue together with internal and external partners. Influencers and bloggers drive traffic, or your staff promote your products, and the system calculates and allocates the profit automatically once an order is placed. CYBERBIZ offers a complete profit-sharing solution that covers both your online store and your physical stores, so you can attribute sales and distribute rewards across online and offline channels.
+Profit sharing helps you grow revenue together with internal and external partners. KOLs and bloggers drive traffic, or your staff promote your products, and the system calculates and allocates the profit automatically once an order is placed. CYBERBIZ offers a complete profit-sharing solution that covers both your storefront and your physical stores, so you can attribute sales and distribute rewards across online and offline channels.
 
-!!! tip "Use cases"
+!!! tip "Use Cases"
 	- **KOL and influencer marketing**: Sign profit-sharing agreements with external partners and track the sales they drive through dedicated links or Referral Codes.
 	- **Staff incentives**: Encourage store staff to get customers to sign up as members or to recommend purchases, and credit online sales to the staff member who promoted them.
 	- **Customer referrals**: Encourage existing members to share their Referral Code with friends, so both sides are rewarded and word of mouth spreads.
@@ -96,22 +96,22 @@ Based on **who gets credit for the sale** and **where the sale happens**, the sy
 
 ### Referrer Profit Sharing { #overview-profit-hub-referrer }
 
-The most flexible and widely used model. A Referrer (such as an influencer, staff member, or member) gives customers a dedicated link or Referral Code.
+The most flexible and widely used model. A Referrer (such as a KOL, staff member, or member) gives customers a dedicated link or Referral Code.
 
 - **Online**: When a customer clicks the dedicated link or enters the Referral Code on the checkout page, the system tracks the order automatically.
 - **Offline**: The customer gives the Referral Code at in-store checkout, and POS staff enter it to record the profit share.
-- **Profit-sharing types**: Supports **whole-order profit sharing** or **product-specific profit sharing**.
+- **Profit-sharing types**: Supports **Referral for Entire Order** or **Referral for Specified Product**.
 
     !!! tip "Which type should I choose?"
-        - **Whole-order profit sharing**: Best for working with KOLs or external channels. Settlement is based on the **order total**, which makes it the easiest to set up.
-        - **Product-specific profit sharing**: Best when product margins vary a lot or you sell consignment items. You can set the rate **for each product**, for finer profit control.
+        - **Referral for Entire Order**: Best for working with KOLs or external channels. Settlement is based on the **order total**, which makes it the easiest to set up.
+        - **Referral for Specified Product**: Best when product margins vary a lot or you sell consignment items. You can set the rate **for each product**, for finer profit control.
 
 ### Registrant Profit Sharing { #overview-profit-hub-registrant }
 
 This model creates a **permanent link**. When a customer enters a registrant's code at sign-up, the customer is permanently linked to that registrant.
 
 - **How it works**: Once linked, the system automatically calculates profit sharing for the registrant whenever the customer buys, online or offline.
-- **When to use it**: Store staff recruiting long-term members, or long-term distribution partners.
+- **When to use it**: Store clerks recruiting long-term members, or long-term distribution partners.
 
 ### Checkout Staff Profit Sharing { #overview-profit-hub-checkout }
 
@@ -171,7 +171,7 @@ Before you plan your profit-sharing programs, make sure you understand how the s
 
 - :lucide-user-plus:{ .lg }
   [__Set up referrer profit sharing__](referrer-profit-sharing.md)<br>
-  Learn how to create plans, link influencers or members, and set up discounts.
+  Learn how to create plans, link KOLs or members, and set up discounts.
 
 - :lucide-users:{ .lg }
   [__Set up registrant profit sharing__](registrant-profit-sharing.md)<br>

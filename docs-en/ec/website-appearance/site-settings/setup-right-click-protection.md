@@ -65,7 +65,7 @@ hide:
 
 **"Right-click protection"** stops customers from downloading images or copying text from your web pages, protecting the originality of your images and copy.
 
-How you set it up depends on your theme (default theme or drag-and-drop theme) and the page type (regular website or one-page store):
+How you set it up depends on your theme (default theme or drag-and-drop theme) and the page type (regular storefront or one-page store):
 
 ## Set Up a Default Theme <small>Standard Theme</small> { #operate-right-click-default }
 
@@ -221,7 +221,7 @@ To disable right-click on a specific "one-page store" campaign page, paste the f
 
 ## Important Notes { #prerequisites-right-click }
 
-- **Responsibility**: CYBERBIZ gives you open access to edit code, but **CYBERBIZ does not provide coding tutorials or code-writing services beyond the existing documentation**. Hire your own engineer for this work.
+- **Responsibility**: CYBERBIZ gives you open permission to edit code, but **CYBERBIZ does not provide coding tutorials or code-writing services beyond the existing documentation**. Hire your own engineer for this work.
 - **Recovery**: Before you edit code, note that if the layout breaks, you can use **View Previous Versions** in the editor to [roll back to an earlier version](../code-customization/restore-code-theme-editor.md#operate-restore-theme){ title="Restore Web Page Code with the Template Editor" data-preview }.
 - **Theme limitation**: Some features support only certain themes. For example, the "Shopping Instructions and Notes" feature does not work with drag-and-drop themes.
 
@@ -234,7 +234,7 @@ To disable right-click on a specific "one-page store" campaign page, paste the f
 	**No.** Crawlers from Google and other search engines read the HTML source returned by the server directly. They are not affected by CSS or JavaScript interaction limits, so your search ranking is not affected.
 
 ??? quote "Can customers still fill in the contact form or search for products after I turn this on?"
-	Yes. The code in this article excludes `input` (input boxes) and `textarea` (text areas) (`user-select: auto`), so customers can still type and select text when filling in shipping information, using the search box, or signing in as members.
+	Yes. The code in this article excludes `input` (input boxes) and `textarea` (text areas) (`user-select: auto`), so customers can still enter and select text when filling in shipping information, using the search box, or signing in as members.
 
 ??? quote "What should I do if my website layout breaks or the page goes blank while I'm doing this?"
 	Don't panic. Use **"View Previous Versions"** at the top of the CSS/HTML Editor and restore a point in time before your change. If you can't access the admin, contact your dedicated store consultant or CYBERBIZ customer support right away.

@@ -69,7 +69,7 @@ Use the Bonus Points for Specific Shipping Methods tool to reward bonus points f
 
 !!! tip "Use Cases"
     - **Lower shipping costs**: Give more bonus points for lower-cost options such as store pickup or convenience store pickup to reduce home delivery volume.
-    - **Match carrier promotions**: When a carrier (such as 7-Eleven or FamilyMart) runs a limited-time shipping offer, add extra bonus points at the same time.
+    - **Match carrier promotions**: When a carrier (such as 7-11 or FamilyMart) runs a limited-time shipping offer, add extra bonus points at the same time.
     - **Ease peak-season load**: During big sales, use bonus points to steer customers away from home delivery and reduce shipping backlogs.
 
 
@@ -111,7 +111,7 @@ Click the new Collections and fill in the following in the settings area below:
 ## FAQ { #faq-conditional }
 
 ??? quote "Why can't I find a shipping method in the list on the left?"
-    Check whether the shipping method is turned on. If it isn't, it won't appear in the list.
+    Check whether the shipping method is enabled. If it isn't, it won't appear in the list.
 
 ??? quote "Does changing the bonus points during a promotion affect earlier orders?"
     No. Changes apply only to new orders placed **after the change**. Orders already placed or completed keep the rules in effect when they were placed.

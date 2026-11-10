@@ -107,10 +107,10 @@ For more information, see the [official reCAPTCHA documentation :material-open-i
 2. Fill in the registration information:
 	- **Label**: Name this reCAPTCHA as you like (for example, `YourStoreName_reCAPTCHA`).  
 	- **reCAPTCHA type**: Select "Challenge (v2)," and then select "Invisible reCAPTCHA badge"[^invisible-recaptcha].  
-	- **Domains**: Enter your website address.
+	- **Domains**: Enter your storefront address.
   
         !!! warning "Note"
-            Do not include the prefix `https://` or the suffix `/...`. For example, if your website address is `https://_demo1234.cyberbiz.co_ /zh-TW`, enter only `_demo1234.cyberbiz.co_`.
+            Do not include the prefix `https://` or the suffix `/...`. For example, if your storefront address is `https://_demo1234.cyberbiz.co_ /zh-TW`, enter only `_demo1234.cyberbiz.co_`.
 
 	- **Google Cloud Platform**: Select a project as needed.  
 
@@ -121,7 +121,7 @@ For more information, see the [official reCAPTCHA documentation :material-open-i
 ![Applying for reCAPTCHA keys](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台網站外觀-管理商品評論-設定Google-reCAPTCHA03.png){ title="Applying for reCAPTCHA Keys" .screenshot }
 
 
-### Bind reCAPTCHA Keys to the Product Review Section { #operate-recaptcha-reviews }
+### Link reCAPTCHA Keys to the Product Review Section { #operate-recaptcha-reviews }
 [:lucide-tag:{ title="Available Plans" }](../../../resources/conventions#適用方案){ title="Icon Conventions" } | PLUS / Enterprise
 
 !!! info "Product reviews are available only to *Enterprise* and *PLUS* users. To turn them on, contact customer service. For related settings, see [How to Manage Product Reviews](../../products/engagement/manage-product-reviews.md){ title="Manage Product Reviews" }."
@@ -135,7 +135,7 @@ For more information, see the [official reCAPTCHA documentation :material-open-i
 
 ![Binding reCAPTCHA to product reviews](../../../assets/images/ec-product-review-google-recaptcha.zh-tw.en.png){ title="Binding reCAPTCHA to Product Reviews" }
 
-### Bind reCAPTCHA Keys to the Contact Us Page { #operate-recaptcha-contact }
+### Link reCAPTCHA Keys to the Contact Us Page { #operate-recaptcha-contact }
 
 1. Sign in to the CYBERBIZ admin and go to **Customer Management > Member Feedbacks**.
 2. Click the **Enable Bot Blocking** toggle to turn it on (ON).
@@ -167,7 +167,7 @@ For more information, see the [official reCAPTCHA documentation :material-open-i
 
 - :lucide-message-square-text:{ .lg }  
   [__Set Up Product Reviews__](../../products/engagement/manage-product-reviews.md#operate-product-reviews){ title="Manage Product Reviews" }
-  Turn on product reviews, set up moderation, and award points.
+  Enable product reviews, set up moderation, and award points.
 
 </div>
 

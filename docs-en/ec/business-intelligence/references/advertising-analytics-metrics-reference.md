@@ -44,7 +44,7 @@ This page lists the 11 performance metrics shared by the data overview cards and
 | Click-through Rate | How likely customers are to click the ad. | Clicks ÷ impressions |
 | Average CPC | The average cost per click. | Cost ÷ clicks |
 | Conversions | The number of orders customers placed after clicking the ad[^conversion]. | — |
-| Conversion Rate | How likely customers are to place an order. | Conversions ÷ clicks |
+| Conversion Rate | How likely customers are to submit an order. | Conversions ÷ clicks |
 | Cost per Conversion | The average cost per conversion. | Cost ÷ conversions |
 | Conversions Value | The total amount of orders customers placed. | — |
 | Average Conversion Value | The average order amount per conversion. | Conversions value ÷ conversions |

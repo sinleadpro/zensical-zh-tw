@@ -1,6 +1,6 @@
 ---
 title: "Security Overview and Best Practices"
-description: "An overview of security measures, admin panel settings paths, and an incident response guide to fully protect your website and customer personal data."
+description: "An overview of security measures, admin settings paths, and an incident response guide to fully protect your website and customer personal data."
 created: 2026-06-09 17:07
 last_modified: 2026-08-05 17:29
 lang: en-US
@@ -75,7 +75,7 @@ hide: []
 
 ## About Security Protection { #intro-security-guide }
 
-Information security works best when merchants help by completing each setting. This page is an overview of best practices that helps you see at a glance which protections to set up. For detailed steps for each feature, follow the matching link to its guide. Most features are in the admin panel under **Website Management > Security Setting**, and some are in User Account Settings, payment settings, or domain settings.
+Information security works best when merchants help by completing each setting. This page is an overview of best practices that helps you see at a glance which protections to set up. For detailed steps for each feature, follow the matching link to its guide. Most features are in the admin under **Website Management > Security Setting**, and some are in User Account Settings, payment settings, or domain settings.
 
 
 
@@ -99,7 +99,7 @@ Information security works best when merchants help by completing each setting. 
 
     ---
 
-    Only IP addresses on the list can log in to the admin panel. Don't use dynamic IPs such as a phone's Wi-Fi hotspot, or you may be unable to log in.
+    Only IP addresses on the list can log in to the admin. Don't use dynamic IPs such as a phone's Wi-Fi hotspot, or you may be unable to log in.
 
     [:lucide-arrow-right: Setup steps](admin-security-settings.md#operate-security-ip-whitelist)
 
@@ -107,7 +107,7 @@ Information security works best when merchants help by completing each setting. 
 
     ---
 
-    Add bot verification to the admin panel login page to reduce automated script attacks.
+    Add bot verification to the admin login page to reduce automated script attacks.
 
     [:lucide-arrow-right: Setup steps](admin-security-settings.md#operate-security-recaptcha)
 
@@ -133,7 +133,7 @@ After you finish the core protections, strengthen login and access control as ne
 
     ---
 
-    Set how long the admin panel can stay idle before it logs out automatically (4 hours to 7 days). This lowers the risk of someone else using your computer.
+    Set how long the admin can stay idle before it logs out automatically (4 hours to 7 days). This lowers the risk of someone else using your computer.
 
     [:lucide-arrow-right: Setup steps](admin-security-settings.md#operate-security-logout-timer)
 
@@ -141,7 +141,7 @@ After you finish the core protections, strengthen login and access control as ne
 
     ---
 
-    If you run a cross-border business or need to log in from overseas, consider whether to restrict overseas logins. Because this involves account authorization, contact CYBERBIZ Customer Service to confirm how to activate it.
+    If you run a cross-border business or need to log in from overseas, consider whether to restrict overseas logins. Because this involves account authorization, contact CYBERBIZ Customer Support to confirm how to activate it.
 
 -   :lucide-bot:{ .lg .middle } __Member Registration SMS Verification__
 
@@ -197,7 +197,7 @@ Protect the checkout process, your SMS costs, and data transfer on your website.
 
     ---
 
-    Shoppers must enter an SMS verification code to complete payment, which lowers the risk of card fraud. Check with CYBERBIZ Customer Service about activation and which payment services support it.
+    Customers must enter an SMS verification code to complete payment, which lowers the risk of card fraud. Check with CYBERBIZ Customer Support about activation and which payment services support it.
 
     [:lucide-arrow-right: Setup guide](../payments-and-logistics/setup-credit-card-3d-verification.md)
 
@@ -243,10 +243,10 @@ When you confirm a security incident, follow these steps to lower your legal ris
 
 Complete the following recovery steps in order:
 
-1. **Review activity logs**: In the admin panel, check **Overview** for logins from unusual IPs, and keep the records. See [how to check](#faq-security-guide-check).
-2. **Change passwords**: Change the passwords of all admin panel accounts right away.
+1. **Review activity logs**: In the admin panel, check **Overview** for logins from unusual IPs, and keep the records. Details in [how to check](#faq-security-guide-check).
+2. **Change passwords**: Change the passwords of all admin accounts right away.
 3. **Clear browser data**: Clear cookies and cache to prevent session hijacking.
-4. **Confirm protections are on**: Make sure [two-step verification](admin-security-settings.md#operate-security-2fa) and the [IP allowlist](admin-security-settings.md#operate-security-ip-whitelist) are both turned on.
+4. **Confirm protections are on**: Make sure [two-step verification](admin-security-settings.md#operate-security-2fa) and the [IP allowlist](admin-security-settings.md#operate-security-ip-whitelist) are both enabled.
 5. **Remove unknown admins**: Go to **Website Management > User Account Settings** to review and remove unauthorized accounts.
 
 ??? example "Case Study: Data Leak Risk from a Phishing Email"
@@ -274,16 +274,16 @@ Complete the following recovery steps in order:
 
 ??? quote "If I only have time for one thing, what is most effective?"
     [](){ #faq-security-guide-priority }
-    Turn on **two-step verification** first. Even if a password leaks, no one can log in without the dynamic code from the mobile authenticator, so it is the most cost-effective defense. When you have time, add an IP allowlist and admin panel login reCAPTCHA.
+    Turn on **two-step verification** first. Even if a password leaks, no one can log in without the dynamic code from the mobile authenticator, so it is the most cost-effective defense. When you have time, add an IP allowlist and admin login reCAPTCHA.
 
-??? quote "Will these protections affect customer shopping or my own admin panel work?"
+??? quote "Will these protections affect customer shopping or my own admin work?"
     [](){ #faq-security-guide-impact }
     It depends on the feature:
 
-    - Affects how you and your staff log in to the admin panel: two-step verification, IP allowlist, automatic logout, and admin panel login reCAPTCHA.
+    - Affects how you and your staff log in to the admin: two-step verification, IP allowlist, automatic logout, and admin login reCAPTCHA.
     - Affects how customers browse the storefront: website password and the location blacklist.
     - Affects the customer registration flow: member registration SMS verification (customers must pass bot verification before a code is sent).
-    - Check the impact before you change a setting. For example, add your own IP to the list before you turn on the IP allowlist.
+    - Check the impact before you change a setting. For example, add your own IP to the list before you enable the IP allowlist.
 
 ??? quote "How can I quickly check whether my account has been compromised?"
     [](){ #faq-security-guide-check }
@@ -300,8 +300,8 @@ Complete the following recovery steps in order:
     [](){ #faq-security-guide-incident-first }
     We recommend that you immediately:
 
-    - Change the passwords of all admin panel accounts, and make sure two-step verification and the IP allowlist are turned on.
+    - Change the passwords of all admin accounts, and make sure two-step verification and the IP allowlist are turned on.
     - Keep the records of unusual logins, post an anti-fraud warning on your website, and report the case to 165 and the police.
-    - Contact CYBERBIZ Customer Service to help check your account status.
+    - Contact CYBERBIZ Customer Support to help check your account status.
 
 

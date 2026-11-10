@@ -185,7 +185,7 @@ Add the add-friend feature directly to the main menu of your website.
 
 ---
 
-## Frequently Asked Questions { #faq-add-line }
+## FAQ { #faq-add-line }
 
 ??? quote "Why does the icon look wrong on the storefront after I paste the button syntax into Menu / Navigation Bar?"
 
@@ -199,4 +199,4 @@ Add the add-friend feature directly to the main menu of your website.
 	Yes. If users click the link in a mobile browser, the system automatically detects it and triggers a **Deep Link** to open the LINE app and go to the Add Friend page. If users click the link on a desktop, they are guided to scan the QR Code or log in to the LINE web version.
 
 ??? quote "If I change my LINE OA account, will the storefront links update automatically?"
-	**No.** The LINE friend invitation link is bound to a specific account ID. If you change your official account, you must manually go back to Pop-up Ad, Carousel Assets, Footer, and Menu, and replace each with the new invitation link and QR Code image.
+	**No.** The LINE friend invitation link is linked to a specific account ID. If you change your official account, you must manually go back to Pop-up Ad, Carousel Assets, Footer, and Menu, and replace each with the new invitation link and QR Code image.

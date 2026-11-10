@@ -75,14 +75,14 @@ Explains the reminder rules for expiring system services, how to renew, and how 
 ## Before You Start { #prerequisites-system-expiry }
 
 - **Back up your data**: If you decide not to renew, export and save all system data (such as customers, orders, products, and images) before the service ends.
-- **Admin panel access limits**: After your website expires, you can't enter the admin panel to save or change any data, and shoppers can't visit your website.
+- **Admin panel access limits**: After your website expires, you can't enter the admin to save or change any data, and customers can't visit your website.
 - **How reminders appear**: Renewal reminders are tracked per browser. If you select **Read** in one browser, the reminder appears again on the next reminder date. If you switch browsers or use incognito mode, it appears again.
 
 ## Steps { #operate-system-expiry }
 
 ### 1. Learn How to Renew Each Service { #operate-system-expiry-renew }
 
-System services include the [website system and SSL certificate](renewal-and-auto-subscription.md), the [POS system](../../pos/store/renewal-and-add-on-plans.md), e-invoices ([Wixtar]()), and domains. You can renew them in the admin panel as needed.
+System services include the [website system and SSL certificate](renewal-and-auto-subscription.md), the [POS system](../../pos/store/renewal-and-add-on-plans.md), e-invoices ([WiXtar]()), and domains. You can renew them in the admin as needed.
 
 
 ### 2. Expiry Reminder Rules { #specs-system-expiry-remind }
@@ -103,7 +103,7 @@ If CYBERBIZ currently manages your domain and you want to manage it yourself, tr
 2. Give your GoDaddy **account email** and **customer number** to your CYBERBIZ renewal consultant.
 3. Open the domain transfer confirmation email from GoDaddy, click the link, and select the option to **skip the review and approve all**.
 
-    !!! warning "Important"
+    !!! warning "Notes"
         Don't change the contact information at this stage. Otherwise, the transfer may take more than a month.
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/2021/10/系統到期通知說明02.png){ .screenshot }
@@ -117,7 +117,7 @@ If CYBERBIZ currently manages your domain and you want to manage it yourself, tr
 
 When an expired SSL certificate or domain makes your website show as not secure or unreachable, take these emergency steps:
 
-1. Log in to the CYBERBIZ admin panel and go to **Website Management > Domain**.
+1. Log in to the CYBERBIZ admin and go to **Website Management > Domain**.
 2. Set the **cyberbiz.co** domain as the primary domain.
 3. This temporarily makes your website reachable again. After you renew, switch back to your own domain.
 

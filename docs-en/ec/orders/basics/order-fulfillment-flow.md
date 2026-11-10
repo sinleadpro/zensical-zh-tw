@@ -57,9 +57,9 @@ Shipping is the core step after an order is placed and payment is confirmed. In 
 
 Depending on the delivery method, shipping falls into three main types:
 
-- **Integrated logistics:** EZCAT, convenience store pickup, Pelican Express, HCT Logistics, SF Express, and more. The system gets tracking numbers from the carrier and generates shipping labels automatically.
-- **Custom logistics:** You deliver yourself or ship with a partner carrier, mark orders as shipped manually, and enter the tracking number.
-- **Warehouse shipping:** For orders connected to [Smart Warehouse (Fengchao)](../../../wms/){ title="hide:" }, the warehouse picks and ships.
+- **Integrated logistics:** T-CAT, convenience store pickup, Pelican, HCT Logistics, SF Express, and more. The system gets tracking numbers from the carrier and generates shipping labels automatically.
+- **Custom logistics:** You deliver yourself or ship with a partner carrier, mark orders as shipped manually, and fill in the tracking number.
+- **Warehouse shipping:** For orders integrated with [Smart Warehouse (HONEYCOMB)](../../../wms/){ title="hide:" }, the warehouse picks and ships.
 
 Whether you select one order or many, the shipping entry in the new order list is the same. The only difference is how many orders you handle at once.
 
@@ -69,9 +69,9 @@ Whether you select one order or many, the shipping entry in the new order list i
 
 | Shipping Entry | Location | Purpose |
 | :-- | :-- | :-- |
-| Single / bulk shipping | "More Actions" in the order list | Select orders and a carrier, generate shipping labels, and change the delivery status to "Shipped" |
+| Single / batch shipping | "More Actions" in the order list | Select orders and a carrier, generate shipping labels, and change the delivery status to "Shipped" |
 | Bulk import custom logistics tracking numbers | Tools above the order list | Import custom logistics tracking numbers in bulk with Excel |
-| Item-by-item / partial shipping | "Shipping" section on the order details page | Ship in-stock items from an order first |
+| Item-by-item / partial shipping | "Shipping" section on the order detail page | Ship in-stock items from an order first |
 
 ---
 
@@ -80,7 +80,7 @@ Whether you select one order or many, the shipping entry in the new order list i
 Before you ship, check the following:
 
 - [x] **CYBER Coin balance:** The system collects shipping fees for integrated logistics, so make sure your balance is sufficient before shipping[^billing].
-- [x] **Sender address:** In the admin, under "Payment and Logistics" in the left menu, fill in the sender information on each carrier's shipping label settings page (such as EZCAT Shipping Label Settings or HCT Logistics Shipping Label Settings). Otherwise, the sender information on shipping labels will be incomplete.
+- [x] **Sender address:** In the admin, under "Payment and Logistics" in the left menu, fill in the sender information on each carrier's shipping label setup page (such as T-CAT Shipping Label Settings or HCT Logistics Shipping Label Settings). Otherwise, the sender information on shipping labels will be incomplete.
 - [x] **Printer and supplies:** We recommend a laser printer, with A4 paper and shipping label / convenience store label stickers ready, so barcodes are clear and readable.
 
 [^billing]: On the Standard Plan, CYBER Coins are deducted when you download shipping labels. On plans with the Reconciliation Center (PLUS plans and Enterprise), fees are added to the statement and settled at the end of the billing period.
@@ -89,7 +89,7 @@ Before you ship, check the following:
 
 ## Billing Rules { #specs-order-fulfillment-pricing }
 
-The system collects shipping fees for integrated logistics (EZCAT, convenience store pickup, Pelican Express, HCT Logistics, SF Express, and more). For custom logistics, you settle with the carrier yourself, outside the system.
+The system collects shipping fees for integrated logistics (T-CAT, convenience store pickup, Pelican, HCT Logistics, SF Express, and more). For custom logistics, you settle with the carrier yourself, outside the system.
 
 In the shipping dialog, check the **"Shipping Rate Table"** for the rate for each package size. The actual amount depends on the package size you hand to the carrier, not a fixed amount.
 
@@ -104,11 +104,11 @@ In the shipping dialog, check the **"Shipping Rate Table"** for the rate for eac
 In the new order list, you ship by selecting orders in the list. **Select one order for single shipping or multiple orders for bulk shipping**; the process is the same.
 
 !!! tip "Tip"
-    For bulk shipping, select only orders with the **same delivery method** at a time (for example, all EZCAT or all 7-Eleven) so the system can ship the whole batch with one action.
+    For batch shipping, select only orders with the **same delivery method** at a time (for example, all T-CAT or all 7-11) so the system can ship the whole batch with one action.
 
 ### Ship with Integrated Logistics { #operate-fulfillment-carrier }
 
-Integrated logistics gets tracking numbers from the carrier and generates shipping labels automatically. The following uses EZCAT as an example; other carriers (convenience stores, Pelican Express, HCT Logistics, SF Express, and more) work much the same way:
+Integrated logistics gets tracking numbers from the carrier and generates shipping labels automatically. The following uses T-CAT as an example; other carriers (convenience stores, Pelican, HCT Logistics, SF Express, and more) work much the same way:
 
 1. **Open the order list:** In the admin, go to "Orders" > "All Orders."
 2. **Select orders:** Select the orders to ship in the list.
@@ -140,7 +140,7 @@ Convenience store pickup is integrated logistics, and the process is the same as
 </div>
 
 !!! warning "Select One Convenience Store Type for Bulk Shipping"
-    Convenience store B2C, C2C, and cold chain are different shipping actions. For bulk shipping, select only orders from **the same convenience store and the same type** at a time (for example, all "7-Eleven Pickup with Payment") so the system can ship the whole batch with one action.
+    Convenience store B2C, C2C, and cold chain are different shipping actions. For batch shipping, select only orders from **the same convenience store and the same type** at a time (for example, all "7-Eleven Pickup with Payment") so the system can ship the whole batch with one action.
 
 ---
 
@@ -168,7 +168,7 @@ For large order volumes, use "Bulk Import Custom Logistics Tracking Numbers" bel
 When you have many custom logistics orders, import tracking numbers at once with Excel:
 
 1. **Open the import tool:** Above the order list, open **"Bulk Import Custom Logistics Tracking Numbers."**
-2. **Download and fill in the template:** Download the Excel template and enter order numbers, tracking numbers, and carriers.
+2. **Download and fill in the template:** Download the Excel template and fill in order numbers, tracking numbers, and carriers.
 3. **Upload the file:** After upload, successfully imported orders change to "Shipped," and customers are notified by email[^import-partial].
 
 <div class="grid cards" markdown>
@@ -183,21 +183,21 @@ When you have many custom logistics orders, import tracking numbers at once with
 
 ### Item-by-Item and Partial Shipping { #operate-fulfillment-partial }
 
-To ship only the in-stock items from an order first, select items one by one in the "Shipping" section of the order details page instead of shipping in bulk from the list. For details, see [Partial Shipment](../home-delivery/partial-shipment-v2.md){ title="Set Up Partial Shipment for Orders" }.
+To ship only the in-stock items from an order first, select items one by one in the "Shipping" section of the order detail page instead of shipping in batches from the list. For details, see [Partial Shipment](../home-delivery/partial-shipment-v2.md){ title="Set Up Partial Shipment for Orders" }.
 
 ---
 
 ## Shipping Label Archive { #operate-fulfillment-zip }
 
-Shipping labels for integrated logistics aren't a single PDF. The system generates them in the background and **packs them into an archive (ZIP) that downloads automatically**. The archive is named after the carrier (for example, `ezcat` for EZCAT, `seven` for 7-Eleven, and `family` for FamilyMart), so you get all the documents for a batch at once.
+Shipping labels for integrated logistics aren't a single PDF. The system generates them in the background and **packs them into an archive (ZIP) that downloads automatically**. The archive is named after the carrier (for example, `ezcat` for T-CAT, `seven` for 7-11, and `family` for FamilyMart), so you get all the documents for a batch at once.
 
 After unzipping, the archive usually contains:
 
 | Document | Purpose |
 | :-- | :-- |
 | Shipping label | Logistics label / barcode stuck on the package |
-| Packing slip | List of shipped items included with the package |
-| Pick list | For picking and preparing items in the warehouse |
+| Shipment details | List of shipped items included with the package |
+| Picking list | For picking and preparing items in the warehouse |
 | Order details | Printable order details for the batch |
 
 
@@ -205,7 +205,7 @@ After unzipping, the archive usually contains:
     ![Shipping label archive contents](../../../assets/images/ec-訂單-所有訂單-託運單壓縮檔內容.en.png){ title="Shipping Label Archive Contents" }
 
 !!! info "Why an Archive?"
-    Bulk shipping can cover many orders and documents at once, so the system packs them into a ZIP instead of downloading each one separately. Unzip it first, then print the shipping labels and details you need.
+    Batch shipping can cover many orders and documents at once, so the system packs them into a ZIP instead of downloading each one separately. Unzip it first, then print the shipping labels and details you need.
 
 ---
 
@@ -242,7 +242,7 @@ After unzipping, the archive usually contains:
 
 ??? quote "The download is an archive. What documents are in it?"
     [](){ #faq-fulfillment-zip-contents }
-    Shipping labels for integrated logistics are packed into a ZIP archive with shipping labels, packing slips, pick lists, and order details. Unzip it first, then print the documents you need. See [Shipping Label Archive Contents](#operate-fulfillment-zip).
+    Shipping labels for integrated logistics are packed into a ZIP archive with shipping labels, shipment details, picking lists, and order details. Unzip it first, then print the documents you need. See [Shipping Label Archive Contents](#operate-fulfillment-zip).
 
 ??? quote "How are shipping fees calculated? Where can I check them?"
     [](){ #faq-fulfillment-shipping-fee }
@@ -262,10 +262,10 @@ After unzipping, the archive usually contains:
 
 ??? quote "Can I combine multiple orders from the same customer into one shipment?"
     [](){ #faq-fulfillment-merge }
-    It depends on whether you use Smart Warehouse (Fengchao):
+    It depends on whether you use Smart Warehouse (HONEYCOMB):
 
-    - **Connected to Smart Warehouse (Fengchao):** Combined shipping isn't supported.
-    - **Not connected:** You can combine orders manually, **for paid home delivery orders only**.
+    - **Integrated with Smart Warehouse (HONEYCOMB):** Combined shipping isn't supported.
+    - **Not integrated:** You can combine orders manually, **for paid home delivery orders only**.
 
     For example, with home delivery orders A and B from the same customer:
 
@@ -274,9 +274,9 @@ After unzipping, the archive usually contains:
 
 ??? quote "How do I ship when the customer picks up the items themselves (no carrier)?"
     [](){ #faq-fulfillment-self-pickup }
-    Use the **"Custom Logistics"** shipping process. You can enter anything in the tracking number field (the system doesn't track custom logistics). The **"Shipped"** delivery status is the final status, and the order is included in reconciliation. See [How to Ship with Custom Logistics](../home-delivery/custom-logistic-shipping.md){ title="How to Ship with Custom Logistics" }.
+    Use the **"Custom Logistics"** shipping process. You can fill in anything in the tracking number field (the system doesn't track custom logistics). The **"Shipped"** delivery status is the final status, and the order is included in reconciliation. See [How to Ship with Custom Logistics](../home-delivery/custom-logistic-shipping.md){ title="How to Ship with Custom Logistics" }.
 
-## References { #reference-fulfillment }
+## See Also { #reference-fulfillment }
 
 - [Delivery Status Reference](../references/fulfillment-statuses.md){ title="Delivery Status Reference" }
 - [Convenience Store Partial Shipment Support](../references/cvs-partial-shipping-support.md){ title="Convenience Store Partial Shipment Support" }

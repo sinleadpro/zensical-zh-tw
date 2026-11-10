@@ -106,7 +106,7 @@ Site owners can use the "Remove URLs" tool in **Google Search Console (GSC)** to
 
 </div>
 
-## Frequently Asked Questions { #faq-remove-search-urls }
+## FAQ { #faq-remove-search-urls }
 
 ??? quote "Can I permanently delete a page by using the Google Remove URLs tool?"
 

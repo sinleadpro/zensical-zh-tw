@@ -79,7 +79,7 @@ The **storefront display language** setting is mainly used to change the display
 
 - **Theme limitation**: You can set this up only with **drag-and-drop themes**.
 - **What you can change**: Only the items shown in the dictionary file (such as **zh-TW.yml**).
-- **Language limitation**: Each website can use only **one** language. You cannot use multiple languages in the same set of data.
+- **Language limitation**: Each storefront can use only **one** language. You cannot use multiple languages in the same set of data.
 - **Protect parameters**: When editing, always **keep system default parameters in the `{{...}}` or `%{...}` format**, and never change their English spelling. Otherwise, the system cannot fetch the data.
 
 ## Change Storefront Text { #operate-storefront-lang }

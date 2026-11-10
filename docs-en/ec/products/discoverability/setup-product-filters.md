@@ -94,7 +94,7 @@ The system includes the following **default filters**. Their filter conditions a
 **Quantity**
 
 - **In Stock**: The product inventory is greater than 0, or inventory is set to unlimited.
-- **Pre-order**: The product inventory is 0, and "Continue selling when out of stock" is turned on.
+- **Pre-order**: The product inventory is 0, and "Continue selling when out of stock" is enabled.
 
 ---
 
@@ -192,7 +192,7 @@ The number in parentheses after a sub-condition is the number of products that m
 
 ### Adjust Filter Conditions { #operate-product-filters-adjust }
 
-Click **All Filters** to open a pop-up window and adjust the published filter groups and options.
+Click **All Filters** to open a dialog and adjust the published filter groups and options.
 
 ![All filters on the storefront](../../../assets/images/ec-product-filter-all-filters-frontend.zh-tw.en.gif){ title="All Filters on the Storefront" }
 

@@ -84,13 +84,13 @@ Sign in to your Google Ads account and follow the steps below:
 
 ![Turn on Enhanced Conversions in Google Ads](../../../assets/images/ec-第三方整合-google-googleads啟用強化轉換.en.png)
 
-## Frequently Asked Questions { #faq-google-ads-enhanced }
+## FAQ { #faq-google-ads-enhanced }
 
 ??? quote "Who can use Enhanced Conversions?"
     Enhanced Conversions is available only to **CYBERBIZ Enterprise** merchants. Other plans cannot use this feature.
 
 ??? quote "What do I need to set up before Enhanced Conversions?"
-    Before you set up Enhanced Conversions, you must first complete the basic setup in [Google Ads Conversion Tracking](setup-google-ads-conversion-tracking.md){ title=" Set Up Google Ads Conversion Tracking" } before you can turn on this feature.
+    Before you set up Enhanced Conversions, you must first complete the basic setup in [Google Ads Conversion Tracking](setup-google-ads-conversion-tracking.md){ title=" Set Up Google Ads Conversion Tracking" } before you can enable this feature.
 
 ??? quote "How does Enhanced Conversions help my ads?"
     Enhanced Conversions recovers tracking data lost due to privacy regulations or cookie restrictions and sends more accurate conversion signals back to Google Ads. This helps the Google Ads AI optimize ad delivery and bidding strategies.

@@ -1,6 +1,6 @@
 ---
-title: "Admin Permissions and Admin Panel Menu Reference"
-description: "Shows how admin permissions map to admin panel menus, so merchants can quickly see which features each permission can access when they add or set up admin accounts."
+title: "Admin Permissions and Admin Menu Reference"
+description: "Shows how admin permissions map to admin menus, so merchants can quickly see which features each permission can access when they add or set up admin accounts."
 created: "2026-03-16 15:22"
 last_modified: 2026-07-14 17:10
 lang: en-US
@@ -51,15 +51,15 @@ icon: lucide/table-properties
 hide:
 ---
 
-This reference maps admin permissions to admin panel menus, so you can quickly see which admin panel features each permission gives access to when you add or set up admin accounts.
+This reference maps admin permissions to admin menus, so you can quickly see which admin features each permission gives access to when you add or set up admin accounts.
 { .subtitle }
 
 
 !!! info "Scope"
-    This table lists every feature. The menus you actually see in the admin panel depend on your **contract plan** and **account permission level**.
+    This table lists every feature. The menus you actually see in the admin depend on your **contract plan** and **account permission level**.
 
 
-| Feature category | Matching admin panel sidebar menus |
+| Feature category | Matching admin sidebar menus |
 | ---------- | ---------- |
 | Overview | Overview |
 | Customers | All Customers / VIP Settings / Import New Member Data |

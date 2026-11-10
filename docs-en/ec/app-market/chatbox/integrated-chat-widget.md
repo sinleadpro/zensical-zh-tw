@@ -89,8 +89,8 @@ Learn how to add LINE and Facebook Messenger chat entry points to your online st
 ## Before You Start { #prerequisites-chat-widget }
 
 - **Connect First**: Before you use this feature, connect your [**LINE Official Account**](connect-chat-box-to-line-oa/) or [**Facebook Page**](connect-chat-box-to-facebook-page/).
-- **Account Status**: Only accounts with a working connection appear in the menu. If an account has a connection problem, check its binding status again.
-- **Activation Requirement**: You must enable at least one chat channel (LINE or Messenger) before you can turn on the store chat entry master switch.
+- **Account Status**: Only accounts with a working connection appear in the menu. If an account has a connection problem, check its linking status again.
+- **Activation Requirement**: You must enable at least one chat channel (LINE or Messenger) before you can enable the store chat entry master toggle.
 
 
 ## Setup Steps { #operate-chat-widget }
@@ -101,8 +101,8 @@ Choose which contact tools to show on your store.
 
 1. Log in to the CYBERBIZ admin and go to **APP MARKET > My Apps > CHAT BOX**.
 2. Open **Store Chat Entry** and click the **Feature Settings** tab.
-3. **LINE**: Select the account from the drop-down menu and switch the toggle to `開啟 (ON)`.
-4. **Facebook Messenger**: Select the Page from the drop-down menu and switch the toggle to `開啟 (ON)`.
+3. **LINE**: Select the account from the dropdown menu and switch the toggle to `ON`.
+4. **Facebook Messenger**: Select the Page from the dropdown menu and switch the toggle to `ON`.
 
 ![](../../../assets/images/EC-後台-APPMARKET-chatbox-整合對話入口01.en.png){ .screenshot }
 
@@ -135,11 +135,11 @@ Check your settings in the live preview and publish.
 
 1. Use the **Live Preview** on the right side of the admin.
     - The preview updates after you save the appearance settings.
-    - If no channel is turned on, the preview shows "No channels enabled yet".
+    - If no channel is enabled, the preview shows "No channels enabled yet".
 
     ![](../../../assets/images/EC-後台-APPMARKET-chatbox-整合對話入口03.en.png){ .screenshot }
 
-2. When everything looks right, turn on **Enable Chat Entry** at the top of the page.
+2. When everything looks right, enable **Enable Chat Entry** at the top of the page.
 
     ![](../../../assets/images/EC-後台-APPMARKET-chatbox-整合對話入口04.en.png){ .screenshot }
 

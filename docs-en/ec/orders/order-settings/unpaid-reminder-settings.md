@@ -123,7 +123,7 @@ Unpaid reminders support email, SMS, and LINE OA. You can set up and edit the te
 
 !!! path "**Path:** Push Notifications > SMS Templates > Customer > **Unpaid Order Notification**."
 
-- **Settings**: Switch "Status" to **On (ON)** to turn on automatic SMS reminders.
+- **Settings**: Switch "Status" to **On (ON)** to enable automatic SMS reminders.
 - **Prerequisite**: Make sure your account has enough credit (merchants not on PLUS / Enterprise plans need to top up in advance).
 
 ![Unpaid reminder SMS template](../../../assets/images/ec-訊息推播-簡訊樣板-顧客訂單未付款通知.en.gif){ title="Unpaid Reminder SMS Template" }
@@ -144,7 +144,7 @@ Unpaid reminders support email, SMS, and LINE OA. You can set up and edit the te
 
 **Settings**:
 
-- **Turn on**: Switch "Status" to **On (ON)**.
+- **Enable**: Switch "Status" to **On (ON)**.
 
 - **Edit content**: Edit the reminder text in the "Text Message" field. You can insert variables to fill in order information automatically.
 

@@ -85,7 +85,7 @@ The page has the following sections:
 - **Member Age Groups**: Member counts by age range.
 - **Member Status**: Member counts by registration status and sign-in source (FB, LINE, and so on).
 - **Member Level Sales Status by Period**: Compares the sales contribution of VIP members and regular members.
-- **Sales from LINE Shopping**: Sales from the LINE Shopping channel (appears only if the LINE Shopping feature is turned on).
+- **Sales from LINE Shopping**: Sales from the LINE Shopping channel (appears only if the LINE Shopping feature is enabled).
 
 ## Prerequisites and Limitations { #prerequisites-member-overview }
 
@@ -97,8 +97,8 @@ The page has the following sections:
 
 ### Data Basis { #prerequisites-member-overview-basis }
 
-- **Valid orders**: Sales figures count only valid orders. Canceled and returned orders are excluded. See [Valid Order Definition](references/member-analysis-definitions-reference.md#reference-member-valid-order){ data-preview }.
-- **Update time**: Data is updated the next day, so today's orders and registrations do not appear right away. See [Data Update Time](references/member-analysis-definitions-reference.md#reference-member-update-time){ data-preview }.
+- **Valid orders**: Sales figures count only valid orders. Canceled and returned orders are excluded. Details in [Valid Order Definition](references/member-analysis-definitions-reference.md#reference-member-valid-order){ data-preview }.
+- **Update time**: Data is updated the next day, so today's orders and registrations do not appear right away. Details in [Data Update Time](references/member-analysis-definitions-reference.md#reference-member-update-time){ data-preview }.
 
 ## Page Overview { #overview-member-overview }
 
@@ -110,7 +110,7 @@ The page has the following sections:
 | [Member Level Sales Status by Period](#operate-member-overview-levels) | Table | Sales contribution of VIP members compared with regular members |
 | [Sales from LINE Shopping](#operate-member-overview-line) | Table | Sales from the LINE Shopping channel |
 
-For the detailed meaning of each category, see [Member Status and Registration Sources Reference](references/member-status-registration-sources-reference.md#reference-member-registration-sources){ title="Member Status and Registration Sources Reference" data-preview }, [Member Age Groups Reference](references/member-age-groups-reference.md#reference-member-age-groups){ title="Member Age Groups Reference" data-preview }, and [Member Level Sales Status Reference](references/member-level-sales-status-reference.md#reference-member-levels){ title="Member Level Sales Status Reference" data-preview }.
+For the detailed meaning of each category, see also [Member Status and Registration Sources Reference](references/member-status-registration-sources-reference.md#reference-member-registration-sources){ title="Member Status and Registration Sources Reference" data-preview }, [Member Age Groups Reference](references/member-age-groups-reference.md#reference-member-age-groups){ title="Member Age Groups Reference" data-preview }, and [Member Level Sales Status Reference](references/member-level-sales-status-reference.md#reference-member-levels){ title="Member Level Sales Status Reference" data-preview }.
 
 ## Steps { #operate-member-overview }
 
@@ -147,7 +147,7 @@ Each table loads automatically when you open the tab. Here is how to read them, 
 
 ### Compare Sales of VIP and Regular Members { #operate-member-overview-levels }
 
-1. **Check level contribution:** "Member Level Sales Status by Period" splits members into **VIP Members** and **Regular Members** and compares their sales in the specified period to assess how well your member level system works. The line between VIP and regular members depends on the thresholds you set. See [Member Level Sales Status Reference](references/member-level-sales-status-reference.md#reference-member-levels){ data-preview }.
+1. **Check level contribution:** "Member Level Sales Status by Period" splits members into **VIP Members** and **Regular Members** and compares their sales in the specified period to assess how well your member level system works. The line between VIP and regular members depends on the thresholds you set. Details in [Member Level Sales Status Reference](references/member-level-sales-status-reference.md#reference-member-levels){ data-preview }.
 
 ![Member level sales status table](../../assets/images/ec-bi-customer-vip-sales.zh-tw.en.png){ title="Member Level Sales Status" }
 
@@ -162,7 +162,7 @@ Each table loads automatically when you open the tab. Here is how to read them, 
 
 ### View LINE Shopping { #operate-member-overview-line }
 
-The "Sales from LINE Shopping" section lists sales data from the LINE Shopping channel. This section appears only if the LINE Shopping feature is turned on.
+The "Sales from LINE Shopping" section lists sales data from the LINE Shopping channel. This section appears only if the LINE Shopping feature is enabled.
 
 ![LINE Shopping sales status table](../../assets/images/ec-bi-customer-line-shopping.zh-tw.en.png){ title="LINE Shopping Sales Status" }
 
@@ -179,7 +179,7 @@ The "Sales from LINE Shopping" section lists sales data from the LINE Shopping c
 
 - **Only valid orders are counted:** Sales figures exclude canceled and returned orders.
 - **Data is updated the next day:** Today's orders and registrations are not reflected right away.
-- **The LINE Shopping section appears dynamically:** "Sales from LINE Shopping" appears only if the LINE Shopping feature is turned on.
+- **The LINE Shopping section appears dynamically:** "Sales from LINE Shopping" appears only if the LINE Shopping feature is enabled.
 - **Age is calculated from the birthday in real time:** Members without a birthday are grouped under "Not provided."
 
 ## Next Steps { #next-steps-member-overview }
@@ -205,7 +205,7 @@ The "Sales from LINE Shopping" section lists sales data from the LINE Shopping c
     - Gender and age groups are based on the information members provide. Members who have not filled it in are grouped under "Not provided."
     - Encourage members to complete their profiles through member engagement or campaigns to make segmentation more accurate.
 
-## References { #reference-member-overview }
+## See Also { #reference-member-overview }
 
 - [Member Status and Registration Sources Reference](references/member-status-registration-sources-reference.md)
 - [Member Age Groups Reference](references/member-age-groups-reference.md)

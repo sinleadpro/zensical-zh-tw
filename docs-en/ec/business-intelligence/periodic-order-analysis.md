@@ -66,9 +66,9 @@ From top to bottom, the page has two parts:
 
 ## Prerequisites and Limitations { #prerequisites-periodic-orders }
 
-Subscription Order Analysis is under "Charts" in the admin. Your plan must have the **"Subscription Orders"** feature turned on for there to be subscription order data to analyze.
+Subscription Order Analysis is under "Charts" in the admin. Your plan must have the **"Subscription Orders"** feature enabled for there to be subscription order data to analyze.
 
-!!! plan "Plan / Activation Requirements"
+!!! plan "Plan / Prerequisites"
     Subscription Order Analysis is a feature of the **Enterprise** plan. PLUS plans can add it as an option.
 
 ## Page Overview { #overview-periodic-orders }
@@ -85,7 +85,7 @@ Subscription Order Analysis is under "Charts" in the admin. Your plan must have 
 | Subscription Order Cancellation Ratio Chart | Pie chart | Share of "canceled / not canceled" among all subscription orders | Yes |
 | Single-Cycle Cancellation Ratio Chart | Pie chart | Share of "canceled / not canceled" by individual delivery cycle | Yes |
 
-For detailed definitions of each metric, see [Subscription Order Analysis Metric Definitions Reference](references/periodic-order-analysis-metrics-reference.md#reference-periodic-orders-charts){ title="Subscription Order Analysis Metric Definitions Reference" data-preview }.
+For detailed definitions of each metric, see also [Subscription Order Analysis Metric Definitions Reference](references/periodic-order-analysis-metrics-reference.md#reference-periodic-orders-charts){ title="Subscription Order Analysis Metric Definitions Reference" data-preview }.
 
 ## Steps { #operate-periodic-orders }
 
@@ -213,6 +213,6 @@ The four charts in the lower half of the page show subscription order cancellati
 <!---->
 <!--     - To view or manage individual subscription orders and their delivery cycles, go to the subscription order list. -->
 
-## References { #reference-periodic-orders }
+## See Also { #reference-periodic-orders }
 
 - [Subscription Order Analysis Metric Definitions Reference](references/periodic-order-analysis-metrics-reference.md)

@@ -64,15 +64,15 @@ hide:
 
 ![Customer service center information settings](../../../assets/images/ec-網站外觀-樣板編輯器-contact-liquid.en.png){ title="Customer Service Center Information Settings" .hero-page }
 
-## About Editing Customer Service Center Information { #intro-cs-info }
+## About Editing Customer Support Center Information { #intro-cs-info }
 
-**Editing customer service center information** lets you change or add customer service details, and customize the page to show extra information or a Google Map.
+**Editing customer service center information** lets you change or add customer support details, and customize the page to show extra information or a Google Map.
 
-Here are the detailed steps for editing customer service center information:
+Here are the detailed steps for editing customer support center information:
 
 !!! warning "This guide applies only to "Default Themes / Standard Themes (legacy).""
 
-## Edit Customer Service Details and Headings { #operate-cs-info-title }
+## Edit Customer Support Details and Headings { #operate-cs-info-title }
 
 If you use **Default Themes** (standard themes), you can edit the heading text in the code editor (for example, change "Company Address" to "Store Location").
 
@@ -100,7 +100,7 @@ If you use **Default Themes** (standard themes), you can edit the heading text i
 </ul>
 ```
 
-## Edit Customer Service Contact Details <small>Address, Phone, Business Hours</small> { #operate-cs-info-contact }
+## Edit Customer Support Contact Details <small>Address, Phone, Business Hours</small> { #operate-cs-info-contact }
 
 You can change most contact details directly in the admin "Site Settings":
 
@@ -112,7 +112,7 @@ You can change most contact details directly in the admin "Site Settings":
 
 	![Footer contact information settings](../../../assets/images/ec-網站外觀-網站設定-客服中心-頁腳聯絡資訊.en.png){ title="Footer Contact Information Settings" }
 
-## Add Extra Customer Service Information <small>Such as Fax</small> { #operate-cs-info-extra }
+## Add Extra Customer Support Information <small>Such as Fax</small> { #operate-cs-info-extra }
 
 If the default fields are not enough, copy a block in the code to add information manually:
 
@@ -164,7 +164,7 @@ If the default fields are not enough, copy a block in the code to add informatio
 
 ## Important Notes { #prerequisites-cs-info }
 
-- **Responsibility**: CYBERBIZ gives you access to edit the code, but **CYBERBIZ does not provide coding tutorials or code-writing services**. Hire your own engineers or a professional design agency for this work.
+- **Responsibility**: CYBERBIZ gives you permission to edit the code, but **CYBERBIZ does not provide coding tutorials or code-writing services**. Hire your own engineers or a professional design agency for this work.
 - **Recovery**: Before you edit code, note that if something goes wrong, you can use "**View Previous Versions**" in the editor to [roll back to an earlier version](../code-customization/restore-code-theme-editor.md#operate-restore-theme){ title="Restore Web Page Code with the Template Editor" }.
 
 

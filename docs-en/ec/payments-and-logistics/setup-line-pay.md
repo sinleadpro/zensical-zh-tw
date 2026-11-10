@@ -78,14 +78,14 @@ hide: []
 ## Important Notes { #prerequisites-line-pay }
 
 - **Eligibility**: You must apply in the name of a company. Individual accounts cannot apply.
-- **Existing accounts**: If you already have a LINE Pay merchant account, you must still transfer it and connect it through CYBERBIZ.
+- **Existing accounts**: If you already have a LINE Pay merchant account, you must still transfer it and integrate it through CYBERBIZ.
 - **Transaction fees**: Fees are charged according to the application form or admin settings. For limited-time offers, see the application form.
 - **Application process**: If all documents are complete and accurate, no supplementary documents are required. Standard review takes about 1 month.
 - **Supplementary documents**: If LINE Pay requests additional documents, the application is reviewed again after you submit them. The review takes about 6–8 weeks.
 
 ## Setup Steps { #operate-line-pay }
 
-### Step 1: Fill out the Application Form and Upload Documents { #operate-line-pay-apply }
+### Step 1: Fill In the Application Form and Upload Documents { #operate-line-pay-apply }
 
 Prepare and upload the following **4 required documents**. Each document must be a **separate PDF or image file** (a scan or a clear screenshot is acceptable).
 
@@ -110,7 +110,7 @@ Prepare and upload the following **4 required documents**. Each document must be
 4. **Website homepage screenshot** (the brand name and website content must be clearly visible)
 
 
-After you prepare the documents, fill out the [CYBERBIZ × LINE Pay Integration Preparation Form :lucide-external-link:](https://docs.google.com/forms/d/e/1FAIpQLSeefpmgOBHtkYiwvaz11DuV99v8p2DtX0dwkipexVdFEOsPjA/viewform?usp=sharing) application form.
+After you prepare the documents, fill in the [CYBERBIZ × LINE Pay Integration Preparation Form :lucide-external-link:](https://docs.google.com/forms/d/e/1FAIpQLSeefpmgOBHtkYiwvaz11DuV99v8p2DtX0dwkipexVdFEOsPjA/viewform?usp=sharing) application form.
 
 <!--
 (Applies to merchants activated after **Dec 15, 2022**)
@@ -151,7 +151,7 @@ After you prepare the documents, fill out the [CYBERBIZ × LINE Pay Integration 
 
     ![LINE Pay Account Activation](../../assets/images/ec-金物流-line-pay-帳號開通.en.png){ title="LINE Pay Account Activation" }
 
-### Step 3: Enter the Keys in the CYBERBIZ Admin Panel { #operate-line-pay-bind }
+### Step 3: Fill In the Keys in the CYBERBIZ Admin Panel { #operate-line-pay-bind }
 
 
 1. **Receive the CYBERBIZ key notification email**

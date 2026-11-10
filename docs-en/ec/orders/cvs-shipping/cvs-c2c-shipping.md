@@ -118,7 +118,7 @@ Before shipping, make sure the following are set up:
         How to turn it on depends on your plan:
 
         - **PLUS / Enterprise**: CYBERBIZ PAYMENTS is built in, so you can use convenience store Cash on Delivery directly.
-        - **Standard Plan**: Apply for CYBERBIZ PAYMENTS in the admin and complete the individual account risk assessment form. It's turned on after approval.
+        - **Standard Plan**: Apply for CYBERBIZ PAYMENTS in the admin and complete the individual account risk assessment form. It's enabled after approval.
 
 ---
 
@@ -143,7 +143,7 @@ Depending on the customer's payment method, make sure the order status meets the
 
     !!! warning "Once the delivery status is "Shipped," the delivery information and order statuses can't be changed."
 
-4. The system generates a shipping label archive (ZIP) with shipping labels, packing slips, order details, and a pick list. For details, see [Shipping Label Archive Contents](../basics/order-fulfillment-flow.md#operate-fulfillment-zip){ data-preview }.
+4. The system generates a shipping label archive (ZIP) with shipping labels, shipment details, order details, and a picking list. For details, see [Shipping Label Archive Contents](../basics/order-fulfillment-flow.md#operate-fulfillment-zip){ data-preview }.
 
     ??? example-clean "Shipping Label Archive Contents"
         ![Shipping label archive contents](../../../assets/images/ec-訂單-所有訂單-託運單壓縮檔內容.en.png)
@@ -241,7 +241,7 @@ Depending on the customer's payment method, make sure the order status meets the
 
 ### Step 4: Drop Off at the Store { #operate-cvs-c2c-dropoff }
 
-If you drop off a package and the store's logistics truck hasn't collected that day, the customer can usually pick it up two days later (drop-off day + 2). Some stores are excluded; see the [7-Eleven excluded store list :lucide-external-link:](https://www.7-11.com.tw/form/store.pdf). FamilyMart has no exclusions.
+If you drop off a package and the store's logistics truck hasn't collected that day, the customer can usually pick it up two days later (drop-off day + 2). Some stores are excluded; see the [7-11 excluded store list :lucide-external-link:](https://www.7-11.com.tw/form/store.pdf). FamilyMart has no exclusions.
 
 <div class="grid cards" markdown>
 
@@ -262,7 +262,7 @@ If you drop off a package and the store's logistics truck hasn't collected that 
 - When the item arrives at the store, the CYBERBIZ delivery status changes to "Arrived at Store," and a pickup SMS is sent to the "customer."
 - CYBERBIZ pickup SMS notifications:
 
-    - 7-Eleven: one on day 1 and one on day 4 after arrival.
+    - 7-11: one on day 1 and one on day 4 after arrival.
     - FamilyMart: one on day 1 and one on day 3 after arrival.
     - Hi-Life: one on day 1 and one on day 3 after arrival.
 
@@ -270,7 +270,7 @@ If you drop off a package and the store's logistics truck hasn't collected that 
 
 !!! note "Convenience Store Tracking Systems"
 
-    - 7-Eleven tracking [link :lucide-external-link:](https://eservice.7-11.com.tw/e-tracking/search.aspx).
+    - 7-11 tracking [link :lucide-external-link:](https://eservice.7-11.com.tw/e-tracking/search.aspx).
     - FamilyMart tracking [link :lucide-external-link:](https://fmec.famiport.com.tw/FP_Entrance/QueryBox).
     - Hi-Life tracking [link :lucide-external-link:](https://www.hilife.com.tw/serviceInfo_search.aspx).
 
@@ -318,7 +318,7 @@ If you drop off a package and the store's logistics truck hasn't collected that 
 If a label is lost or damaged, you can reprint it in the admin before the deadline.
 
 1. Select the orders to reprint in the order list.
-2. Open the **Actions...** drop-down and select **Reprint Shipping Label**.
+2. Open the **Actions...** dropdown and select **Reprint Shipping Label**.
 3. The system downloads the PDF with the same tracking number again. **Shipping fees aren't charged again**, and the order status doesn't change.
 
 <div class="grid cards" markdown>
@@ -360,9 +360,9 @@ If a label is lost or damaged, you can reprint it in the admin before the deadli
 
 ### Store Closures <small>Closed</small> { #operate-cvs-c2c-exception-store-closed }
 
-- **7-Eleven**: The CYBERBIZ system sends a notification email. Within 2 days of receiving it, contact the customer, find the order in the admin, and choose a new 7-Eleven store on the order details page.
-- **FamilyMart**: The CYBERBIZ system sends a notification email. Within 6 days of receiving it, contact the customer, find the order in the admin, and choose a new FamilyMart store on the order details page.
-- **Hi-Life**: The CYBERBIZ system sends a notification email. Within 2 days of receiving it, contact the customer, find the order in the admin, and choose a new Hi-Life store on the order details page.
+- **7-11**: The CYBERBIZ system sends a notification email. Within 2 days of receiving it, contact the customer, find the order in the admin, and choose a new 7-11 store on the order detail page.
+- **FamilyMart**: The CYBERBIZ system sends a notification email. Within 6 days of receiving it, contact the customer, find the order in the admin, and choose a new FamilyMart store on the order detail page.
+- **Hi-Life**: The CYBERBIZ system sends a notification email. Within 2 days of receiving it, contact the customer, find the order in the admin, and choose a new Hi-Life store on the order detail page.
 
 ---
 
@@ -419,14 +419,14 @@ If a label is lost or damaged, you can reprint it in the admin before the deadli
 
     1. Check whether the browser is blocking pop-ups.
     2. Standard Plan merchants: make sure you've topped up CYBER Coins.
-    3. If you still can't download or print, try another browser or contact customer service.
+    3. If you still can't download or print, try another browser or contact customer support.
 
     !!! tip "The latest version of Chrome or Edge usually reduces printing issues."
 
-## References { #reference-cvs-c2c }
+## See Also { #reference-cvs-c2c }
 
-- [7-Eleven tracking :lucide-external-link:](https://eservice.7-11.com.tw/e-tracking/search.aspx)
+- [7-11 tracking :lucide-external-link:](https://eservice.7-11.com.tw/e-tracking/search.aspx)
 - [FamilyMart tracking :lucide-external-link:](https://fmec.famiport.com.tw/FP_Entrance/QueryBox)
 - [Hi-Life tracking :lucide-external-link:](https://www.hilife.com.tw/serviceInfo_search.aspx)
-- [7-Eleven excluded store list :lucide-external-link:](https://www.7-11.com.tw/form/store.pdf)
+- [7-11 excluded store list :lucide-external-link:](https://www.7-11.com.tw/form/store.pdf)
 

@@ -75,13 +75,13 @@ comments: false
 
 ## Turn On Convenience Store Barcode Payment { #operate-cvs-barcode-enable }
 
-You can turn on this feature through CYBERBIZ PAYMENTS so shoppers can generate a convenience store barcode at checkout and pay in store.
+You can turn on this feature through CYBERBIZ PAYMENTS so customers can generate a convenience store barcode at checkout and pay in store.
 
 ### Step 1: Edit the CYBERBIZ PAYMENTS Payment Settings { #operate-cvs-barcode-enter-payments }
 
 1.  Sign in to the CYBERBIZ admin and go to **Payment and Logistics > Payment Settings**.
 2.  In the payment settings list, find **CYBERBIZ PAYMENTS**.
-3.  Click the **Edit** :lucide-file-pen: button on the right to open the settings page.
+3.  Click the **Edit** :lucide-file-pen: button on the right to open the setup page.
 
 ![Edit CYBERBIZ PAYMENTS](../../../assets/images/EC-後台-金物流-金流設定-CYBERBIZ-PAYMENTS-編輯.en.png){ title="Edit CYBERBIZ PAYMENTS" .screenshot }
 
@@ -89,7 +89,7 @@ You can turn on this feature through CYBERBIZ PAYMENTS so shoppers can generate 
 
 ### Step 2: Turn On Convenience Store Barcode Payment { #operate-cvs-barcode-enable-feature }
 
-1.  On the CYBERBIZ PAYMENTS settings page, find **7-Eleven / FamilyMart Convenience Store Barcode Payment**.
+1.  On the CYBERBIZ PAYMENTS setup page, find **7-Eleven / FamilyMart Convenience Store Barcode Payment**.
 2.  Switch the toggle to **Enable**.
 
 ![Turn on convenience store barcode payment](../../../assets/images/EC-後台-金物流-金流設定-開啟超商條碼繳費.en.png){ title="Turn On Convenience Store Barcode Payment" .screenshot }
@@ -104,7 +104,7 @@ You can turn on this feature through CYBERBIZ PAYMENTS so shoppers can generate 
 ![Convenience store barcode payment turned on](../../../assets/images/EC-後台-金物流-金流設定-已開啟超商條碼繳費.en.png){ title="Convenience Store Barcode Payment Turned On" .screenshot }
 
 !!! warning "Important"
-    - After turning on convenience store barcode payment, make sure you also offer a supported delivery type (such as convenience store pickup) so shoppers can select this payment method at checkout.
+    - After turning on convenience store barcode payment, make sure you also offer a supported delivery type (such as convenience store pickup) so customers can select this payment method at checkout.
     - If you set a day limit for "[Automatic Order Cancellation](../../payments-and-logistics/payments/order-settings.md#operate-order-settings-auto-cancel){ title="Order Settings" }," the barcode expires once the limit passes and can't be used to pay.
     - If you [cancel an order manually](../basics/cancel-order/#operate-cancel-merchant), the barcode doesn't expire automatically, and the customer can still pay within its validity period. After payment, the order is placed again, and you can continue shipping or issue a refund.
 

@@ -92,7 +92,7 @@ Before changing the status, check the order's "Return Status," or the change won
 
 1.  **Open the page**: Sign in to the CYBERBIZ admin and go to **"Orders" > "All Orders"**.
 2.  **Select orders**: In the order list, find orders whose delivery status ([quick filter](../basics/search-filter-orders.md#operate-order-filter){ title="How to Search and Filter Orders" }) is **Preparing** and select them.
-3.  **Choose an action**: Click the **Actions...** or **"Actions"** drop-down at the upper right of the list.
+3.  **Choose an action**: Click the **Actions...** or **"Actions"** dropdown at the upper right of the list.
 4.  **Make the change**: Select **Unshipped** in the menu.
 5.  **Done**: The order's delivery status changes to "Unshipped," and the customer can see the cancel order button on the storefront (if you've turned on [customer order cancellation](../basics/cancel-order.md#operate-cancel-customer){ title="How to Cancel an Order" }).
 
@@ -131,7 +131,7 @@ Before changing the status, check the order's "Return Status," or the change won
 
 ??? quote "Can I edit recipient information directly while the order is "Unshipped"?"
 
-    Yes. While the order is "Unshipped," you can edit the recipient information or delivery date directly on the order details page without moving the order back further.
+    Yes. While the order is "Unshipped," you can edit the recipient information or delivery date directly on the order detail page without moving the order back further.
 
 
 
@@ -159,7 +159,7 @@ Before changing the status, check the order's "Return Status," or the change won
 
   The "Unshipped" action
   **isn't available in every status**. The system checks the following three conditions to decide whether to show it.
-  If they aren't met, the "Unshipped" option doesn't appear in the drop-down.
+  If they aren't met, the "Unshipped" option doesn't appear in the dropdown.
 
   ### Required Conditions
 
@@ -201,7 +201,7 @@ Before changing the status, check the order's "Return Status," or the change won
   data-preview }) to narrow the list to "Preparing" orders.
       3.  **Select orders**: Select one or more orders to revert in the order list.
       4.  **Open the action menu**: Click the **Actions...**
-  drop-down above the list.
+  dropdown above the list.
       5.  **Click "Unshipped"**: Select **Unshipped** in the menu.
       6.  **Confirm**: The system shows a confirmation window
   **"Confirm 'Unshipped'?"** Click **Yes** to finish.
@@ -211,7 +211,7 @@ Before changing the status, check the order's "Return Status," or the change won
 
       !!! note "When the Option Appears"
 
-          If, after selecting orders, the "More Actions" drop-down doesn't include **Unshipped**,
+          If, after selecting orders, the "More Actions" dropdown doesn't include **Unshipped**,
   at least one selected order doesn't meet the
   [Read First](#操作前必讀可調整與不可調整的情境)
   conditions. Check each order's status.
@@ -224,7 +224,7 @@ Before changing the status, check the order's "Return Status," or the change won
   filter at the top to narrow the list to "Preparing" orders.
       3.  **Select orders**: Select one or more orders to revert in the order list.
       4.  **Open the action menu**: After you select orders, the **"Actions"**
-  drop-down appears at the upper right of the list. Open it.
+  dropdown appears at the upper right of the list. Open it.
       5.  **Click "Unshipped"**: Select **Unshipped** in the menu.
       6.  **Done**: The system updates immediately, and the order's delivery status changes back to
   "Unshipped."
@@ -255,7 +255,7 @@ Before changing the status, check the order's "Return Status," or the change won
   !!! tip "History Is Kept"
 
       For every delivery status change, the system records **in the order details history**
-  an entry "{operator name} updated delivery status to Unshipped" so customer service and managers can
+  an entry "{operator name} updated delivery status to Unshipped" so customer support and managers can
   trace it later.
 
   ## FAQ
@@ -275,14 +275,14 @@ Before changing the status, check the order's "Return Status," or the change won
 
       Not necessarily. The storefront shows the "Cancel Order" button only if you've turned on
   [customer order cancellation][orders-cancel-customer]{ data-preview
-  } in the admin. If it's off, the customer still needs to contact customer service to cancel.
+  } in the admin. If it's off, the customer still needs to contact customer support to cancel.
 
   ??? question "Q4. Why can't express delivery (Pandago / Uber
   Direct) orders be reverted to Unshipped?"
 
       Express delivery dispatches couriers through an external on-demand platform. Once the order is Preparing,
   the external carrier has been notified to pick up, so the order **can't be reverted unilaterally from the CYBERBIZ
-  admin**. To cancel, contact customer service or handle it on the logistics platform.
+  admin**. To cancel, contact customer support or handle it on the logistics platform.
 
   ??? question "Q5. Can an order in the return process be reverted to Unshipped?"
 
@@ -311,7 +311,7 @@ Before changing the status, check the order's "Return Status," or the change won
   Design notes:
 
   1. Completed the legacy steps: the original legacy section was empty; completed based on index.html.haml:240 and index.js.coffee:905
-  , and stated that the legacy drop-down is named "Actions" (generated dynamically).
+  , and stated that the legacy dropdown is named "Actions" (generated dynamically).
   2. Rewrote prerequisites: the original only mentioned return status, but the actual code (FulfillmentUnshippedHandler.ts + index.js.coffee:903-906)
   also restricts payment status, order status, and delivery method. Merged into one reference table, with the common "option not visible" issue called out separately.
   3. Added "What You Can Do Next": connects follow-up actions such as customer cancellation, order editing, and reshipping, so merchants know the next step.

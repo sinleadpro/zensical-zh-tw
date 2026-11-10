@@ -68,7 +68,7 @@ If you use the CYBERBIZ PAYMENTS service and your current statement balance is n
 [:lucide-grid-2x2-plus:{ title="Applicable Add-ons" }](../../resources/conventions#適用擴充) | CYBERBIZ PAYMENTS
 { .doc-badge }
 
-!!! tip "Why Turn On This Feature?"
+!!! tip "Why Enable This Feature?"
     When a statement shows a negative payout amount, you owe the system money. If you don't pay on time, your access to store features may be affected. Automatic deduction saves you from paying manually and keeps your business running.
 
 
@@ -76,9 +76,9 @@ If you use the CYBERBIZ PAYMENTS service and your current statement balance is n
 
 **Admin panel path**: `Website Management` > `Reconciliation Center`
 
-1. Log in to the CYBERBIZ admin panel and go to **Website Management > Reconciliation Center**.
+1. Log in to the CYBERBIZ admin and go to **Website Management > Reconciliation Center**.
 2. On the Reconciliation Center page, click **Auto Payment for Unpaid Amounts** to turn on the feature.
-3. Click **Add New Credit Card**, enter your card information, and finish linking the card.
+3. Click **Add New Credit Card**, fill in your credit card information, and finish linking the credit card.
 4. Confirm your accounting email address and select **Agree**.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-管理中心-對帳中心-啟用欠款自動扣繳01.png){ .screenshot }

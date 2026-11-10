@@ -80,7 +80,7 @@ An AI assistant learns your brand policies and product information automatically
 !!! tip "Use Cases"
     - **Answer Common Questions Faster**: Upload your return and exchange policy and shipping details to the knowledge base, and AI drafts replies for you so you do not have to retype the same content.
     - **Recommend Products Accurately**: After AI learns your product guides, it can give accurate specifications or buying advice based on what the customer needs.
-    - **Keep Service Quality Consistent**: Even new customer service staff can send replies that match your brand voice and contain correct information.
+    - **Keep Service Quality Consistent**: Even new customer support staff can send replies that match your brand voice and contain correct information.
 
 
 ## Before You Start { #prerequisites-chat-ai }
@@ -94,13 +94,13 @@ An AI assistant learns your brand policies and product information automatically
 
 Go to **APP MARKET > CHAT BOX** and click **AI Center** to set it up.
 
-### 1. Turn on the Feature { #operate-chat-ai-1-enable }
+### 1. Enable the Feature { #operate-chat-ai-1-enable }
 
-Turn on "Enable AI Suggested Replies". After you turn it on, an AI icon appears above the chat box whenever a new message arrives.
+Enable "Enable AI Suggested Replies". After you turn it on, an AI icon appears above the chat box whenever a new message arrives.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-AI助手01.png){ .screenshot }
 
-### 2. Build the Customer Service Knowledge Base { #operate-chat-ai-2-create-data }
+### 2. Build the Customer Support Knowledge Base { #operate-chat-ai-2-create-data }
 
 Click **Upload File** to add your brand policies or product manuals to the AI knowledge base.
 

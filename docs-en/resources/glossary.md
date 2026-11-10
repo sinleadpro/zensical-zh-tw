@@ -50,7 +50,7 @@ Blurb on the product page that introduces key points, features, or highlights so
 
 ### Product Page { #reference-glossary-product-page }
 
-Storefront page for one product’s details—name, price, images, specs, stock, shipping options, and buy button.
+Storefront page for one product’s details—name, price, images, specs, inventory, shipping options, and buy button.
 
 - **See also**: [Edit product description and settings](../ec/products/create-and-manage/edit-product-description-settings.md){ title="Edit product description and settings" }
 
@@ -68,7 +68,7 @@ External service that stores and serves image URLs so you can embed images on si
 
 ### Preorder Products { #reference-glossary-preorder }
 
-When stock hits zero, set Out-of-stock handling to Continue selling so orders keep coming—preorder behavior without a separate product type.
+When inventory hits zero, set Out-of-stock handling to Continue selling so orders keep coming—preorder behavior without a separate product type.
 
 - **See also**: [Create and update products](../ec/products/create-and-manage/create-update-products.md#operate-product-preorder){ title="Preorder product settings" }
 
@@ -100,7 +100,7 @@ Bundles where the merchant sets an allowed range and shoppers pick child product
 
 ### Pick-Any Total Quantity { #reference-glossary-pick-combo-qty }
 
-Total number of child products a shopper must select in a pick-any bundle.
+Total number of child products a customer must select in a pick-any bundle.
 
 - **See also**: [Pick-any bundles](#reference-glossary-pick-combo)
 
@@ -112,7 +112,7 @@ Price discount a child product gets by being sold in a bundle.
 
 ### Add-on Price { #reference-glossary-add-on-price }
 
-Extra price to buy a designated add-on when the shopper purchases a qualifying trigger product.
+Extra price to buy a designated add-on when the customer purchases a qualifying trigger product.
 
 ### Options { #reference-glossary-variant-option }
 
@@ -164,11 +164,11 @@ Google product taxonomy used in the Google Merchant Center product feed.
 
 ### Credit Card One-Time Payment { #reference-glossary-card-full-pay }
 
-When a shopper pays by card, the full amount is captured in one billing cycle.
+When a customer pays by credit card, the full amount is captured in one billing cycle.
 
 ### 3D Secure { #reference-glossary-3d-secure }
 
-**3D Secure**, extra identity verification for online card payments. Cardholders confirm with an SMS OTP or bank page at checkout to reduce fraud.
+**3D Secure**, extra identity verification for online credit card payments. Cardholders confirm with an SMS OTP or bank page at checkout to reduce fraud.
 
 - **See also**: [OTP](#reference-glossary-otp)
 
@@ -352,7 +352,7 @@ After a sale, the platform or merchant shares revenue with partners or stakehold
 
 ### LINE OA { #reference-glossary-line-oa }
 
-**LINE Official Account**, a brand account on LINE for customer chat, marketing messages, and support.
+**LINE Official Account**, an official account on LINE for customer chat, marketing messages, and support.
 
 - **See also**: [LAP](#reference-glossary-lap)
 

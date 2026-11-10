@@ -76,7 +76,7 @@ Convenience store logistics (B2C/C2C) have strict size and weight limits for par
 
 You can control whether a product can use convenience store logistics in the following ways:
 
-- **Set size and weight:** Enter them in Manage Variants on the product edit page, and the system decides automatically.
+- **Set size and weight:** Fill them in in Manage Variants on the product edit page, and the system decides automatically.
 - **Exclude convenience store shipping manually:** Set the size or weight above the limit to force the product not to use convenience store logistics.
 
 ??? info "Convenience Store Logistics Limits"
@@ -91,7 +91,7 @@ You can control whether a product can use convenience store logistics in the fol
     !!! warning "Convenience store size and weight limits may change with carrier policies. For the actual limits, refer to each convenience store carrier's latest announcement."
 
 ??? tip "Exclude Shipping Options by Specification Conditions"
-    You can adjust a product's size (sum of length, width, and height) or weight to exceed the convenience store limits, and the system automatically excludes the product from convenience store shipping options. Learn [how to prevent specific products from using convenience store logistics](#prerequisites-cvs-shipping-exclusion).
+    You can adjust a product's size (sum of length, width, and height) or weight to exceed the convenience store limits, and the system automatically excludes the product from convenience store logistics options. Learn [how to prevent specific products from using convenience store logistics](#prerequisites-cvs-shipping-exclusion).
 
 ## Set Product Size and Weight { #operate-cvs-shipping-volume }
 
@@ -110,11 +110,11 @@ You can set size and weight information for each product so the system can autom
 ![Product size and weight settings](../../../assets/images/ec-product-volume-weight-setting.zh-tw.en.png){ title="Product Size and Weight Settings" }
 
 ??? info "How the System Decides"
-    When a customer opens the checkout page, the system automatically checks whether the order's **total size or weight** meets convenience store shipping requirements. If it exceeds the limits, the checkout page does not show convenience store options.
+    When a customer opens the checkout page, the system automatically checks whether the order's **total size or weight** meets convenience store logistics requirements. If it exceeds the limits, the checkout page does not show convenience store options.
     
     | Condition | System Behavior | Result |
     |---|---|---|
-    |Product size > 105 cm or weight > 10 kg|The system determines that the product does not meet convenience store shipping requirements|Convenience store logistics options are hidden on the checkout page|
+    |Product size > 105 cm or weight > 10 kg|The system determines that the product does not meet convenience store logistics requirements|Convenience store logistics options are hidden on the checkout page|
     |Product size or weight is empty|The system treats it as 0|The product can still use convenience store shipping options|
 
 

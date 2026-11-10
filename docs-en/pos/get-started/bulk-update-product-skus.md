@@ -64,13 +64,13 @@ hide: []
 ---
 
 # Bulk Fill Product SKUs
-Learn how to quickly fill in missing SKU codes for existing products using Excel bulk export and import, so you can enable POS features and manage inventory accurately.
+Learn how to quickly fill in missing SKU codes for existing products using Excel batch export and import, so you can enable POS features and manage inventory accurately.
 { .subtitle }
 
 [:lucide-layers:{ title="Applicable Products" }](../../resources/conventions#適用產品) | Smart POS
 { .doc-badge }
 
-## Usage Notes { #prerequisites-sku-bulk }
+## Before You Start { #prerequisites-sku-bulk }
 
 - **POS Activation Requirement**: Products must have a SKU code before they can be activated and use POS system features.
 - **SKU Uniqueness**: Each product variant must have a unique SKU code to avoid inventory calculation errors.
@@ -79,7 +79,7 @@ Learn how to quickly fill in missing SKU codes for existing products using Excel
 
 
 
-## Workflow { #operate-sku-bulk }
+## Steps { #operate-sku-bulk }
 
 ### Step 1: Export Existing Product Data { #operate-sku-bulk-step-a-export }
 

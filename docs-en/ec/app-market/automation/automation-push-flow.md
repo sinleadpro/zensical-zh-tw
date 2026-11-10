@@ -94,7 +94,7 @@ Before you create an automated flow, define your audience. The system only pushe
 
     ![Member segment templates](../../../assets/images/ec-會員-所有會員-會員分群範本.en.png){ title="Member Segment Templates" }
 
-3.  **Save the Segment**: After you confirm the list, click "Save" and enter a segment name and description. If the filter includes LINE login or LINE binding, you can choose to upload the audience to LINE as well.
+3.  **Save the Segment**: After you confirm the list, click "Save" and enter a segment name and description. If the filter includes LINE login or LINE linking, you can choose to upload the audience to LINE as well.
 
     ![AUTOMATION member segment](../../../assets/images/ec-會員-所有會員-automation會員分群.en.gif){ title="AUTOMATION Member Segment" }
 

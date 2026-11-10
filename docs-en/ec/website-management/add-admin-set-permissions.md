@@ -62,7 +62,7 @@ hide: []
 
 ## Website Admins and Permissions { #intro-admin-perms }
 
-Adding website admins and setting their permissions lets you divide admin panel work efficiently and strictly limit what each staff member can view or change based on their role.
+Adding website admins and setting their permissions lets you divide admin work efficiently and strictly limit what each staff member can view or change based on their role.
 
 ## Steps { #operate-admin-perms }
 
@@ -81,8 +81,8 @@ Adding website admins and setting their permissions lets you divide admin panel 
 
 To change the permissions of an existing admin, follow these steps:
 
-1.  **Open the editor**: In the admin list, **click the name of the admin you want to edit** to open the permission settings page.
-2.  **Adjust the scope**: Based on your internal policies, select or clear the features this account can use. Permissions cover both storefront display and admin panel operations.
+1.  **Open the editor**: In the admin list, **click the name of the admin you want to edit** to open the permission setup page.
+2.  **Adjust the scope**: Based on your internal policies, select or clear the features this account can use. Permissions cover both storefront display and admin operations.
 3.  **Save the settings**: When you finish, click **Save** to apply the changes.
 
 ![Change admin permissions](../../assets/images/ec-管理中心-修改管理者權限.en.gif){ title="Change admin permissions" }
@@ -91,7 +91,7 @@ To change the permissions of an existing admin, follow these steps:
 
 System permissions fall into the following core categories, and each category can be broken down into specific features:
 
-*   **Overview**: Whether the admin can view the admin panel dashboard overview.
+*   **Overview**: Whether the admin can view the admin dashboard overview.
 *   **Customers**: Viewing all member data, VIP settings, and importing new members.
 *   **Orders**: Can be split into management permissions for regular orders, subscription orders, e-ticket orders, and each type of shipping label.
 *   **Products and product groups**: Whether the admin can edit all products, tags, and inventory, or specific promotion groups (such as Flash Sale for Single Product or Buy X Get Y Discount).
@@ -106,14 +106,14 @@ System permissions fall into the following core categories, and each category ca
     *   **Website owner (Owner)**: Has the highest permissions, can manage all staff, and has no inventory management restrictions.
     *   **Co-Manager**: Can use most EC features, but POS store admin features are usually restricted, and this role cannot log in to the POS frontend.
 2.  **Two-step verification (2FA)**: The website owner can check which staff have turned it on in Admin Security Verification, and can **require all staff to turn on two-step verification** to protect account security.
-3.  **Removing and suspending staff**: When an employee leaves, suspend their account to close it. Once suspended, that person can no longer log in to the system.
+3.  **Removing and suspending staff**: When a staff member leaves, suspend their account to close it. Once suspended, that person can no longer log in to the system.
 
 ## FAQ { #faq-admin-perms }
 
-??? quote "Why can't a new admin log in to the admin panel?"
+??? quote "Why can't a new admin log in to the admin?"
     Possible reasons:
 
-    - **The account was not fully created**: Make sure the email and password were entered correctly and saved when the admin was added.
+    - **The account was not fully created**: Make sure the email and password were filled in correctly and saved when the admin was added.
     - **The account is suspended**: A suspended user cannot log in.
     - **Two-step verification is not set up**: If the website requires **two-step verification (2FA)**, the admin must finish setting it up before logging in.
 
@@ -136,7 +136,7 @@ System permissions fall into the following core categories, and each category ca
     - Allow managing **Product** only
     - Do not allow **Data export**
 
-    Detailed permission settings make sure each employee can only access the system features related to their work.
+    Detailed permission settings make sure each staff member can only access the system features related to their work.
 
 ??? quote "Which permissions are high-risk?"
     The following permissions involve **large-scale data access or core system settings** and should be granted only to staff who need them:
@@ -154,6 +154,6 @@ System permissions fall into the following core categories, and each category ca
     - Manage all admin accounts
     - Set all system permissions
     - Require **two-step verification (2FA)**
-    - Access all admin panel features
+    - Access all admin features
 
     Regular admins can only use the features they are authorized for and cannot change the system's top-level permission settings.

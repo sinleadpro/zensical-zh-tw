@@ -69,14 +69,14 @@ A limited-time first-purchase gift is a promotion for new members' first purchas
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | All PLUS / Enterprise
 { .doc-badge }
 
-!!! info "Version Differences"
+!!! info "Plan Differences"
     On PLUS plans, the limited-time first-purchase gift is part of the Marketing B add-on module (choose 2 of 11). Make sure you have selected this module before using it. Enterprise includes it by default.
 
 ![](../../../assets/images/EC-後台-行銷活動-期間限定首購禮-畫面總覽01.en.png){ .hero-page }
 
 !!! tip "Use Cases"
     - **Attract new customers storewide**: With no minimum, give every new customer a small branded gift or a NT$50 coupon on their first purchase.
-    - **Reward specific groups**: Give high-value gifts or large Bonus amounts to members with specific tags on their first purchase.
+    - **Reward specific groups**: Give high-value free gifts or large Bonus amounts to members with specific tags on their first purchase.
     - **Seasonal campaigns**: Offer a limited-time first-purchase gift to members who sign up in a specific month (such as 11.11) to boost that month's conversions.
 
 ---
@@ -141,9 +141,9 @@ Choose one of these four gift types:
     Give a physical or virtual product as a gift.
 
     - **Priority**: Select up to 10 products. The system sends them in list order.
-    - **Automatic backup**: When the first gift is out of stock, the next gift on the list is automatically sent.
-    - **Price**: Gifts are counted as NT$0 in the order.
-    - **Out of stock**: If all gifts on the list run out, the system stops sending the first-purchase gift but **doesn't end** the promotion. Watch your gift stock and restock in time.
+    - **Automatic backup**: When the first free gift is out of stock, the next free gift on the list is automatically sent.
+    - **Price**: Free gifts are counted as NT$0 in the order.
+    - **Out of stock**: If all free gifts on the list run out, the system stops sending the first-purchase gift but **doesn't end** the promotion. Watch your free gift inventory and restock in time.
 
 === "Cash Discount"
 
@@ -154,7 +154,7 @@ Choose one of these four gift types:
 
 === "Send coupon"
 
-    Send a coupon with preset rules.
+    Send a coupon with default rules.
 
     - **Settings**: coupon name, discount value, minimum spend, valid days, and eligible products.
     - **Combining**: Choose whether it can combine with other promotions such as "store-wide discount" and "VIP Discount."

@@ -109,7 +109,7 @@ If the order shipped with Amazon FBA, you can create a reverse logistics shippin
     ![](../../assets/images/Amazon-後台-申請Amazon逆物流04.en.jpg)
 5. Click **Print label & instructions**, and save the **RMA label** and **Shipping Label**.
     ![](../../assets/images/Amazon-後台-申請Amazon逆物流05.en.jpg)
-6. Give the **RMA label** and **Shipping Label** to the shopper, and ask them to stick both labels on the outside of the package and send it back.
+6. Give the **RMA label** and **Shipping Label** to the customer, and ask them to stick both labels on the outside of the package and send it back.
 7. After the Amazon warehouse receives the package, it inspects and restocks the items.
 
 

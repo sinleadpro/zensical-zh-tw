@@ -102,7 +102,7 @@ When a customer doesn't pay right away when ordering, or payment fails because o
 1. Sign in to the CYBERBIZ admin and go to **Orders > All Orders** from the left menu.
 2. Click the order number to open the **order details page**.
 3. In the **Payment** section of the page, find the **Payment Link** field.
-4. Copy the link and send it to the shopper by email, text message, or a messaging app.
+4. Copy the link and send it to the customer by email, SMS message, or a messaging app.
 
 ![Payment link process](../../../assets/images/ec-訂單-付款連結頁面.en.gif){ title="Payment Link Process" }
 
@@ -112,9 +112,9 @@ The link opens a checkout page for that order, where customers can pay with:
 
 - **Credit card** (one-time payment).
 
-- **E-wallets**: Such as LINE Pay and JKOPAY.
+- **E-wallets**: Such as LINE Pay and JKOPay.
 
-- **Convenience store barcode payment**: If you turned on this feature, customers can get a barcode on the link page and pay at 7-Eleven or FamilyMart.
+- **Convenience store barcode payment**: If you turned on this feature, customers can get a barcode on the link page and pay at 7-11 or FamilyMart.
 
 
 ## Related Tasks { #next-steps-payment-link }

@@ -1,6 +1,6 @@
 ---
 title: "Set up Product Color Swatches and Variant Images - Default Theme"
-description: "Set up color swatches and variant images for products on the default theme so shoppers can browse and pick variants at a glance."
+description: "Set up color swatches and variant images for products on the default theme so customers can browse and pick variants at a glance."
 created: 2026-04-17 10:50
 last_modified: 2026-06-30 11:26
 lang: en-US
@@ -75,7 +75,7 @@ The **color swatch feature** lets customers see all of a product's variants (suc
 
 ## Prerequisite: Turn on the Display Settings { #prerequisites-swatches-default }
 
-Before you use this feature, turn on the related settings in the admin. Otherwise, swatches won't appear on product pages.
+Before you use this feature, enable the related settings in the admin. Otherwise, swatches won't appear on product pages.
 
 1. **Go to the settings page**: "Website Appearance" > "Theme Setting" > "Detail Settings" > "Collection and Product Page Settings" > "Product Page Settings".
 2. **Turn on the feature**: Select the swatch display options (**Show product swatches** and **Expand product swatches**) and click **Save** to apply the changes.
@@ -86,7 +86,7 @@ Before you use this feature, turn on the related settings in the admin. Otherwis
 
 ### Step 1: Set up Swatch Icons { #operate-swatches-default-icon }
 
-The system pairs variant photos with swatch icons automatically based on the images' relative positions. Upload the images to the "Product Image" section (for upload requirements, see [Add a Product: Product Images and Videos](create-update-products.md#operate-product-create-media){ title="Add and Update Products" }) and follow the "images first, colors second" ordering logic.
+The system pairs variant photos with swatch icons automatically based on the images' relative positions. Upload the images to the "Product Image" section (for upload requirements, see also [Add a Product: Product Images and Videos](create-update-products.md#operate-product-create-media){ title="Add and Update Products" }) and follow the "images first, colors second" ordering logic.
 
 1. **Open the edit page**: Go to Products > All Products and add a product or edit an existing one.
 2. **Upload images**: In the "Product Image" section, upload the **product images** for all variants and the matching **swatch images**.
@@ -121,7 +121,7 @@ After you [upload the images](#operate-swatches-default-icon), scroll down to th
 After you set the options, the system generates the variant list automatically. Complete the inventory and details for each variant combination.
 
 1.  Fill in the details of each variant in the color and size order you set above.
-2.  **Inventory management**: Choose whether to "Manage Inventory" and enter the product inventory. The storefront shows availability based on this.
+2.  **Inventory management**: Choose whether to "Manage Inventory" and fill in the product inventory. The storefront shows availability based on this.
 
 ![Product variant management - inventory settings](../../../assets/images/ec-商品-款式設定-庫存管理.en.gif){ title="Product Variant Management - Inventory Settings" }
 
@@ -149,7 +149,7 @@ After you set the options, the system generates the variant list automatically. 
 
 ??? quote "What are the upload requirements for swatch images?"
 
-    Upload the images to the "Product Image" section and follow the "images first, colors second" ordering logic. In the first half, arrange the variant images of each variant in order (for example, brown shoe, blue shoe). In the second half, arrange the swatch icons in the matching positions (for example, brown swatch, blue swatch). The number of photos and swatches must match, and their order must correspond exactly.
+    Upload the images to the "Product Image" section and follow the "images first, colors second" ordering logic. In the first half, sort the variant images of each variant in order (for example, brown shoe, blue shoe). In the second half, sort the swatch icons in the matching positions (for example, brown swatch, blue swatch). The number of photos and swatches must match, and their order must correspond exactly.
 
 ??? quote "Why don't the storefront swatches link correctly to the variant images?"
 

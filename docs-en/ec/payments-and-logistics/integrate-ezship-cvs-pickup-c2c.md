@@ -71,7 +71,7 @@ Through ezShip, merchants can turn on pickup at FamilyMart, Hi-Life, and OK Mart
 ![](../../assets/images/EC-後台-金物流-超商物流-EZSHIP超取01.en.png){ .hero-page }
 
 !!! info "Plan Applicability"
-    ECPay integration is available only to **Professional, Advanced, and Expert** merchants, and only to users who have **not enabled CYBERBIZ PAYMENTS**. If you already use CYBERBIZ PAYMENTS, its system includes full convenience store logistics, so you do not need to connect ezShip separately.
+    ECPay integration is available only to **Professional, Advanced, and Expert** merchants, and only to users who have **not enabled CYBERBIZ PAYMENTS**. If you already use CYBERBIZ PAYMENTS, its system includes full convenience store logistics, so you do not need to integrate ezShip separately.
 
 
 
@@ -101,7 +101,7 @@ Before you enable the ezShip service, make sure you understand the following sys
 The ezShip integration uses email as the link, so be sure to complete this step first.
 
 1. Log in to the CYBERBIZ backend and go to **Website Management > Member Registration Setting > Member registration field setting**.
-2. Make sure the **Email** field is checked as **Required**.
+2. Make sure the **Email** field is selected as **Required**.
 
 ![](../../assets/images/EC-後台-管理中心-顧客註冊設定-電子郵件勾選必填01.en.png)
 
@@ -109,7 +109,7 @@ The ezShip integration uses email as the link, so be sure to complete this step 
 
 1. Go to the [ezShip backend](https://www.ezship.com.tw/sender/sender_register_account.jsp) to register.
 
-    > **Tip**: We recommend entering **Company Name** as the sender name. This name appears on the shipping label.
+    > **Tip**: We recommend filling in **Company Name** as the sender name. This name appears on the shipping label.
 
 2. Complete email and mobile SMS verification.
 3. Go to the ezShip backend **我的便利配 > 購物網站串接 > 網站串接申請**.

@@ -114,7 +114,7 @@ The **All Orders** page is the core interface for managing sales records, proces
 
 ### View Groups { #operate-order-filter-group }
 
-With "View Groups," you can save frequently used [filters](../references/order-filter-status-reference.md#reference-order-filters){ title="Order Filters and Statuses Reference" data-preview }  (such as a specific carrier, payment status, or delivery status) as custom tabs and switch with one click to process orders in bulk more efficiently.
+With "View Groups," you can save frequently used [filters](../references/order-filter-status-reference.md#reference-order-filters){ title="Order Filters and Statuses Reference" data-preview }  (such as a specific carrier, payment status, or delivery status) as custom tabs and switch with one click to process orders in batches more efficiently.
 
 **Steps**
 
@@ -127,7 +127,7 @@ With "View Groups," you can save frequently used [filters](../references/order-f
     | View Group Name | Suggested Filters |
     | :--- | :--- |
     | **Orders to ship** | **Delivery status**: `Unshipped`, `Preparing`<br>**Payment status**: `Cash on Delivery`, `Payment Received` |
-    | **Specific carrier orders** | **Delivery method**: Select specific carriers (such as EZCAT or FamilyMart) |
+    | **Specific carrier orders** | **Delivery method**: Select specific carriers (such as T-CAT or FamilyMart) |
     | **Returns in progress** | **Order status**: `In Progress`<br>**Return status**: `Return Requested`, `Returning`, `Reviewing Return` |
 
 ![View groups](../../../assets/images/ec-所有訂單-檢視群組.en.gif){ title="View Groups" }
@@ -175,7 +175,7 @@ Use the rows-per-page menu below the list to change how many orders are shown pe
 
 ---
 
-## Order Details Page { #overview-order-ui-detail }
+## Order Detail Page { #overview-order-ui-detail }
 
 The **"order details page"** is the core interface for handling a single order, viewing transaction records, and contacting the customer. In the admin, go to **Orders > All Orders** and click an **order number** to open it.
 
@@ -285,7 +285,7 @@ At the bottom of the page, this is the most important tool for troubleshooting o
 ![Order activity log](../../../assets/images/ec-訂單明細頁-訂單操作紀錄.en.png){ title="Order Activity Log" }
 
 !!! tip "Contacting Customer Service"
-    When reporting an order issue to customer service, include a screenshot of this section.
+    When reporting an order issue to customer support, include a screenshot of this section.
 
 ---
 
@@ -295,13 +295,13 @@ When an order is "Reviewing Return," a **"Partial Refund"** section appears on t
 
 ![Partial refund section](../../../assets/images/ec-訂單明細頁-部分退款.en.png){ title="Partial Refund Section" }
 
-## Bulk Actions { #operate-order-ui-batch-actions }
+## Batch Actions { #operate-order-ui-batch-actions }
 
-After selecting multiple orders in the order list, use the **"More Actions"** menu to process them in bulk (for each action, see [Order List Actions](../references/order-list-features.md){ title="Order List Actions" data-preview }).
+After selecting multiple orders in the order list, use the **"More Actions"** menu to process them in batches (for each action, see [Order List Actions](../references/order-list-features.md){ title="Order List Actions" data-preview }).
 
-- **Change orders/statuses:** Change order, delivery, or return status in bulk. For example, change orders to "Preparing" or run "Download shipping labels and change to Shipped."
-- **Print documents:** Generate order details or pick lists in bulk to speed up picking and packing.
-- **Manage tags:** Add or remove custom tags for selected orders in bulk.
+- **Change orders/statuses:** Change order, delivery, or return status in batches. For example, change orders to "Preparing" or run "Download shipping labels and change to Shipped."
+- **Print documents:** Generate order details or picking lists in bulk to speed up picking and packing.
+- **Manage tags:** Add or remove custom tags for selected orders in batches.
 
 !!! tip "View Groups + Bulk Tags"
     Use "[View Groups](#operate-order-filter-group)" to filter a specific customer group, then use "Manage Tags" to tag them in one click.
@@ -315,7 +315,7 @@ After selecting multiple orders in the order list, use the **"More Actions"** me
 
 - :lucide-download:{ .lg }  
   [__Export Order Reports__](../reports/export-order-report.md){ title="Export Order Reports" }  
-  Export the current search results to Excel/CSV for accounting reconciliation or customer service.
+  Export the current search results to Excel/CSV for accounting reconciliation or customer support.
 
 - :lucide-reply:{ .lg }  
   [__Order Return and Refund Process__](../order-return-process.md){ title="Order Return and Refund Process" }  
@@ -337,7 +337,7 @@ After selecting multiple orders in the order list, use the **"More Actions"** me
 	1. **Invoice limit:** If CYBERBIZ issues invoices for your store, the system locks editing so the invoice amount always matches the order.
 	2. **Delivery status:** If the order is "Preparing" or "Shipped," its items can no longer be changed.
 
-	**Recommendation:** To change the order, cancel it and have the customer place a new order, or contact customer service about manual adjustments.
+	**Recommendation:** To change the order, cancel it and have the customer place a new order, or contact customer support about manual adjustments.
 
 ??? quote "Can a completed order be returned?"
 	Yes. Completing an order only means the transaction is done and points are issued; it doesn't affect returns. If the customer asks within the cooling-off period, you can still start the "return process" for the order in the admin. Note that after the return is complete, the system automatically deducts the bonus points earned from the order.

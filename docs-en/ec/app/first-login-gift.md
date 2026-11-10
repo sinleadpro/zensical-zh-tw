@@ -85,21 +85,21 @@ Set up the coupon or bonus points that members receive automatically the first t
 - **Separate from Other Gifts**: The app first-login gift is issued when **a member account logs in to the app successfully for the first time**. It works separately from the [limited-time first-purchase gift](../marketing/bonus-and-gifts/limited-time-first-purchase-gift.md) and the [registration gift](../marketing/bonus-and-gifts/setup-registration-gift.md).
 - **Eligibility**: When all of the following conditions are met, the system issues the first-login gift after the member logs in to the app successfully.
 
-    1. The app first-login gift master switch is turned on.
+    1. The app first-login gift master toggle is turned on.
     2. The member account is logging in to the app for the first time.
     3. At least one of the coupon or bonus sub-switches is turned on.
 
 - **Automatic Issuing**: When the conditions are met, the system issues the gift automatically, so members don't need to claim it manually. A failed login doesn't trigger issuing.
 - **One per Member**: Each member account can claim the gift only once, regardless of how many devices it uses.
-- **Reward Content**: Turn on at least one of coupon or bonus points. You can issue either one or both.
-- **Where to Use**: The issued coupon and bonus points aren't limited to one device and can also be used at checkout on the online store (Web).
-- **Recommended Timing**: Before you promote app downloads to customers, finish the first-login gift setup and turn on the master switch. This way, members get the offer on their first login, and nothing is left unissued during the promotion.
+- **Reward Content**: Enable at least one of coupon or bonus points. You can issue either one or both.
+- **Where to Use**: The issued coupon and bonus points aren't limited to one device and can also be used at checkout on the storefront (Web).
+- **Recommended Timing**: Before you promote app downloads to customers, finish the first-login gift setup and enable the master toggle. This way, members get the offer on their first login, and nothing is left unissued during the promotion.
 
 
 
 ## Steps { #operate-app-first-gift }
 
-### Set up and Turn on the App First-Login Gift { #operate-app-first-gift-enable }
+### Set up and Enable the App First-Login Gift { #operate-app-first-gift-enable }
 
 1. Log in to CYBERBIZ admin and go to **APP 功能 > APP 首登禮**.
 2. Turn on the **App First Login Reward** master switch.
@@ -135,7 +135,7 @@ Set up the coupon or bonus points that members receive automatically the first t
 3. Click **Save**.
 
 !!! info "Settings After Turning It Off"
-    When you turn off the master switch, the campaign stops issuing gifts. Your existing settings are kept, so you can turn the switch back on and save to resume.
+    When you turn off the master toggle, the campaign stops issuing gifts. Your existing settings are kept, so you can turn the toggle back on and save to resume.
 
 
 ## How Members Claim the Gift { #operate-app-first-gift-member }
@@ -143,7 +143,7 @@ Set up the coupon or bonus points that members receive automatically the first t
 Members get the first-login gift after completing these steps:
 
 1. Download and install your brand's CYBERBIZ APP.
-2. **Open the App**: If the merchant has turned on the first-login gift and the member isn't logged in yet, the system shows a guide pop-up.
+2. **Open the App**: If the merchant has enabled the first-login gift and the member isn't logged in yet, the system shows a guide dialog.
 
     ![](../../assets/images/APP-前台-首登禮彈窗01.en.png){ .mini-image }
 
@@ -176,7 +176,7 @@ At checkout on the online store or in the app, members can apply the coupon or u
 | Changes phones but keeps the same account | Not issued again if the account has already logged in to the app |
 | Newly registered member | Registration completes the login, so it counts as the first login and the gift is issued |
 | Login fails | Not issued |
-| An existing member who logged in to the app before the feature launched logs in again after the feature is turned on | Issuing is triggered |
+| An existing member who logged in to the app before the feature launched logs in again after the feature is enabled | Issuing is triggered |
 
 
 
@@ -190,7 +190,7 @@ At checkout on the online store or in the app, members can apply the coupon or u
     No. The coupon and bonus points issued as the first-login gift aren't limited to one channel. When the conditions are met, they can be used at checkout on the online store or in the app.
 
 ??? quote "Are my settings deleted when I turn off the first-login gift?"
-    No. Turning off the master switch only stops issuing. Your settings are kept, and you can turn the switch back on later.
+    No. Turning off the master toggle only stops issuing. Your settings are kept, and you can turn the toggle back on later.
 
 ??? quote "How is the first-login gift determined after members are merged?"
     After a merge, the claim record of the **surviving member** determines whether the account can still claim the first-login gift:
@@ -198,9 +198,9 @@ At checkout on the online store or in the app, members can apply the coupon or u
     - **Surviving member has claimed it, merged member hasn't**: Treated as claimed. The gift isn't issued after the merge.
     - **Surviving member hasn't claimed it, merged member has**: Treated as not claimed. After the merge, the gift is still issued if conditions such as the first login are met.
 
-    > The member merge feature must be activated separately and isn't available to all merchants by default. If you need it, contact CYBERBIZ Customer Service to confirm.
+    > The member merge feature must be activated separately and isn't available to all merchants by default. If you need it, contact CYBERBIZ Customer Support to confirm.
 
 ??? quote "Can I give only a coupon and no bonus points?"
-    Yes. You can turn on the coupon, bonus points, or both, but at least one must be on.
+    Yes. You can enable the coupon, bonus points, or both, but at least one must be on.
 
 

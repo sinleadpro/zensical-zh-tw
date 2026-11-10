@@ -70,11 +70,11 @@ hide: []
 
 ## About HCT Logistics Shipping { #intro-hct-shipping }
 
-When your orders use **HCT Logistics** delivery, you can select orders in bulk in the order list, have the system generate tracking numbers, download shipping labels and related documents, and change the orders' delivery status to "Shipped" all at once. This article covers the batch shipping process in the order list, what the 5 downloaded documents are for, and what happens after the driver picks up.
+When your orders use **HCT Logistics** delivery, you can select orders in batches in the order list, have the system generate tracking numbers, download shipping labels and related documents, and change the orders' delivery status to "Shipped" all at once. This article covers the batch shipping process in the order list, what the 5 downloaded documents are for, and what happens after the driver picks up.
 
 ## Prerequisites and Limitations { #prerequisites-hct-shipping }
 
-### Activation Requirements { #prerequisites-hct-shipping-enable }
+### Prerequisites { #prerequisites-hct-shipping-enable }
 
 Before the "Download HCT Logistics Shipping Labels" option appears in the order list, complete the following:
 
@@ -126,7 +126,7 @@ Go to "Orders" > "All Orders" in the admin and select the [orders to ship togeth
 
 ### 2. Choose the Download Action { #operate-hct-shipping-action }
 
-Click the **Actions...** drop-down above the list and select **"Download HCT Logistics Shipping Labels and Change Delivery Status to 'Shipped'"**.
+Click the **Actions...** dropdown above the list and select **"Download HCT Logistics Shipping Labels and Change Delivery Status to 'Shipped'"**.
 
 ![Download HCT Logistics shipping labels](../../../assets/images/EC-訂單-所有訂單-下載新竹物流託運單.en.png){ title="Download HCT Logistics Shipping Labels" }
 
@@ -241,7 +241,7 @@ If a package isn't actually shipped **within 14 days** after the shipping label 
 
 ### Delivery Methods Must Match { #specs-hct-shipping-uniform }
 
-**All selected orders must use HCT Logistics as the delivery method**, or this option doesn't appear in "More Actions." If you've also selected orders with other logistics (such as EZCAT or Pelican Express), deselect them and select again.
+**All selected orders must use HCT Logistics as the delivery method**, or this option doesn't appear in "More Actions." If you've also selected orders with other logistics (such as T-CAT or Pelican), deselect them and select again.
 
 ---
 
@@ -276,7 +276,7 @@ If an order needs to **ship in multiple boxes** (for example, too many items for
 
     - Whether **"HCT Logistics shipping label settings"** are complete (sender name, phone, and address all filled in). If not, the option doesn't appear in the order list.
     - Whether **all selected orders use HCT Logistics as the delivery method**. The option doesn't appear when mixed with other logistics.
-    - Whether **the payment methods of selected orders include another carrier's Cash on Delivery** (EZCAT, Pelican Express, SF Express). If so, the option doesn't appear.
+    - Whether **the payment methods of selected orders include another carrier's Cash on Delivery** (T-CAT, Pelican, SF Express). If so, the option doesn't appear.
     - Whether all order statuses match and are "Open"
 
 ??? quote "Can I ship selected orders with different temperature zones at once?"
@@ -287,7 +287,7 @@ If an order needs to **ship in multiple boxes** (for example, too many items for
 ??? quote "What if I want to cancel a shipping label after downloading it?"
     [](){ #faq-hct-shipping-cancel }
 
-    You **can't cancel** generated shipping labels yourself in the admin. To cancel, contact CYBERBIZ customer service.
+    You **can't cancel** generated shipping labels yourself in the admin. To cancel, contact CYBERBIZ customer support.
 
     If you **don't actually ship**, the system automatically changes the tracking number to "Shipment Canceled" **14 days** after creation and refunds the CYBER Coins (Standard Plan only). No action is needed.
 

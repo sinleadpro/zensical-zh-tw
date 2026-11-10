@@ -121,7 +121,7 @@ These include the title and keywords for your whole website.
     *   **Drag-and-drop themes**: Go to **Website Appearance** > **Theme Setting** > **Website Settings** > **Global Settings**. Learn [how to set the website title in a drag-and-drop theme](../../website-appearance/site-settings/setup-site-title-seo.md#operate-site-title-theme){ title="Set the Website Title in a Drag-and-Drop Theme" }.
 
 !!! note "Further Reading"
-    For detailed settings for the website title and SEO, see [Set Up the Website Title and SEO](../../website-appearance/site-settings/setup-site-title-seo.md){ title="Set Up the Website Title and SEO" }, or go directly to [search engine results page (SERP) settings](../../website-appearance/site-settings/setup-site-title-seo.md#operate-site-title-serp){ title="Search Engine Results Page (SERP)" }.
+    For detailed settings for the website title and SEO, see also [Set Up the Website Title and SEO](../../website-appearance/site-settings/setup-site-title-seo.md){ title="Set Up the Website Title and SEO" }, or go directly to [search engine results page (SERP) settings](../../website-appearance/site-settings/setup-site-title-seo.md#operate-site-title-serp){ title="Search Engine Results Page (SERP)" }.
 
 ## Blog and Other Custom Page SEO { #operate-seo-guide-pages }
 

@@ -94,7 +94,7 @@ Standard reports have basic subscription settings, mainly for choosing recipient
 
 1. **Subscription Role**: Select user roles in the admin panel (such as Admin or Logistics Staff). The system sends the notification to the email of every account with that role.
 2. **Subscription email**: Enter extra email addresses manually. Use this for outside people who need the data but do not log in to the admin panel.
-3. **Enable Notification**: Turn the switch on or off.
+3. **Enable Notification**: Turn the toggle on or off.
     - **Note**: Standard reports are **on** by default.
 
 ![](../assets/images/WMS-後台-設定-報表通知設定-一般報表設定01.en.png){ .screenshot }

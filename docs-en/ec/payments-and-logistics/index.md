@@ -70,7 +70,7 @@ hide:
 
     ---
 
-    Connect LINE Pay so customers can choose LINE Pay at checkout.
+    Integrate LINE Pay so customers can choose LINE Pay at checkout.
 
     [:octicons-arrow-right-24: Go to](setup-line-pay.md)
 
@@ -78,7 +78,7 @@ hide:
 
     ---
 
-    Connect PayPal so that overseas credit card customers can pay with PayPal at checkout.
+    Integrate PayPal so that overseas credit card customers can pay with PayPal at checkout.
 
     [:octicons-arrow-right-24: Go to](setup-paypal.md)
 
@@ -102,7 +102,7 @@ hide:
 
     ---
 
-    Guide merchants through applying for and connecting the iPASS MONEY (EasyCard) payment service. Covers application requirements, required documents, the 2–4 week review timeline, and the admin key configuration process.
+    Guide merchants through applying for and integrating the iPASS MONEY (EasyCard) payment service. Covers application requirements, required documents, the 2–4 week review timeline, and the admin key configuration process.
 
     [:octicons-arrow-right-24: Go to](setup-ipass-money.md)
 
@@ -114,11 +114,11 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :lucide-truck: __Home Delivery Cash on Delivery Logistics (Tcat / Pelican Express / Hsinchu Logistics)__
+-   :lucide-truck: __Home Delivery Cash on Delivery Logistics (T-CAT / Pelican / HCT Logistics)__
 
     ---
 
-    Connect cash on delivery services for Tcat, Pelican Express, and Hsinchu Logistics through CYBERBIZ. You can generate waybills directly in the admin to simplify reconciliation and shipping.
+    Integrate cash on delivery services for T-CAT, Pelican, and HCT Logistics through CYBERBIZ. You can generate shipping labels directly in the admin to simplify reconciliation and shipping.
 
     [:octicons-arrow-right-24: Go to](home-delivery-cash-on-delivery.md)
 
@@ -126,7 +126,7 @@ hide:
 
     ---
 
-    Explains how to configure custom home delivery options, shipping fee thresholds, and temperature zonedelivery settings, including the master switch for delivery countries, amount- and weight-based shipping fees, and how multi-temperature zone purchases are handled.
+    Explains how to configure custom home delivery options, shipping fee thresholds, and temperature zonedelivery settings, including the master toggle for delivery countries, amount- and weight-based shipping fees, and how multi-temperature zone purchases are handled.
 
     [:octicons-arrow-right-24: Go to](setup-home-delivery-non-cod-custom-logistics.md)
 
@@ -182,31 +182,31 @@ hide:
 
 ---
 
-## Waybill Settings { #overview-payments-hub-waybill }
+## Shipping Label Settings { #overview-payments-hub-waybill }
 
 <div class="grid cards" markdown>
 
--   :lucide-printer: __Set Up and Print Tcat Waybills__
+-   :lucide-printer: __Set Up and Print T-CAT Waybills__
 
     ---
 
-    A complete guide to managing Tcat waybills, including setting up sender information, printing delivery-only waybills, creating Tcat reverse-logistics return pickups, and checking waybill number usage records and CYBER coin deduction reconciliation.
+    A complete guide to managing T-CAT shipping labels, including setting up sender information, printing delivery-only shipping labels, creating T-CAT reverse-logistics return pickups, and checking waybill number usage records and CYBER coin deduction reconciliation.
 
     [:octicons-arrow-right-24: Go to](setup-print-tcat-waybill-v2.md)
 
--   :lucide-printer: __Set Up and Print Tcat Quick-to-Store Waybills__
+-   :lucide-printer: __Set Up and Print T-CAT Quick-to-Store Waybills__
 
     ---
 
-    A complete guide to Tcat quick-to-store (convenience store pickup) waybills, including setting up sender information, printing delivery-only waybills, and checking waybill number usage records and CYBER coin deduction reconciliation.
+    A complete guide to T-CAT quick-to-store (convenience store pickup) shipping labels, including setting up sender information, printing delivery-only shipping labels, and checking waybill number usage records and CYBER coin deduction reconciliation.
 
     [:octicons-arrow-right-24: Go to](setup-print-tcat-quick-store-waybill-v2.md)
 
--   :lucide-printer: __Set Up Pelican Express Waybills__
+-   :lucide-printer: __Set Up Pelican Waybills__
 
     ---
 
-    A guide to managing Pelican Express waybills, including setting up sender information, printing waybills, creating Pelican Express reverse logistics, and checking waybill number usage records and CYBER coin deduction reconciliation.
+    A guide to managing Pelican shipping labels, including setting up sender information, printing shipping labels, creating Pelican reverse logistics, and checking waybill number usage records and CYBER coin deduction reconciliation.
 
     [:octicons-arrow-right-24: Go to](setup-pelican-waybill-v2.md)
 
@@ -214,15 +214,15 @@ hide:
 
     ---
 
-    Set up SF Express waybills, including creating sender information, printing waybills, and checking waybill number usage records.
+    Set up SF Express shipping labels, including creating sender information, printing shipping labels, and checking waybill number usage records.
 
     [:octicons-arrow-right-24: Go to](setup-sf-express-waybill-v2.md)
 
--   :lucide-printer: __Set Up Hsinchu Logistics Waybills__
+-   :lucide-printer: __Set Up HCT Logistics Waybills__
 
     ---
 
-    A complete tutorial for setting up Hsinchu Logistics waybills, including sender information setup, printing waybills, reverse logistics creation, waybill number lookup, and FAQs.
+    A complete tutorial for setting up HCT Logistics shipping labels, including sender information setup, printing shipping labels, reverse logistics creation, waybill number lookup, and FAQs.
 
     [:octicons-arrow-right-24: Go to](setup-hct-waybill-v2.md)
 
@@ -302,7 +302,7 @@ hide:
 
     ---
 
-    Connect DHL Express through the CYBERBIZ admin to generate English-language waybills and commercial invoices directly, with home pickup and automated shipment tracking.
+    Integrate DHL Express through the CYBERBIZ admin to generate English-language shipping labels and commercial invoices directly, with home pickup and automated shipment tracking.
 
     [:octicons-arrow-right-24: Go to](dhl-cross-border-logistics.md)
 
@@ -310,7 +310,7 @@ hide:
 
     ---
 
-    LINEX offers flexible cross-border logistics. Merchants can choose between "home pickup" and "self-delivery to warehouse" modes, and the admin automatically generates the waybills and related documents required for customs clearance.
+    LINEX offers flexible cross-border logistics. Merchants can choose between "home pickup" and "self-delivery to warehouse" modes, and the admin automatically generates the shipping labels and related documents required for customs clearance.
 
     [:octicons-arrow-right-24: Go to](linex-cross-border-logistics.md)
 
@@ -318,7 +318,7 @@ hide:
 
     ---
 
-    Integrate SF Express International Logistics through the CYBERBIZ admin to generate cross-border waybills directly. The format automatically switches between Chinese and English based on the recipient address.
+    Integrate SF Express International Logistics through the CYBERBIZ admin to generate cross-border shipping labels directly. The format automatically switches between Chinese and English based on the recipient address.
 
     [:octicons-arrow-right-24: Go to](sf-express-overseas-logistics.md)
 
@@ -326,7 +326,7 @@ hide:
 
     ---
 
-    With Amazon FBA, you can have Amazon's logistics team pack and ship your website orders. The system automatically sends orders, syncs shipment status, and updates inventory to automate cross-border operations.
+    With Amazon FBA, you can have Amazon's logistics team pack and ship your website orders. The system automatically sends orders, syncs delivery status, and updates inventory to automate cross-border operations.
 
     [:octicons-arrow-right-24: Go to](amazon-fba-cross-border-logistics.md)
 

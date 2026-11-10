@@ -75,17 +75,17 @@ Resolve issues where the POS system cannot recognize or find a matching product 
 	- **New device setup**: You have replaced the scanner and need to align its initial encoding.
 
 
-## Usage Notes { #prerequisites-scan-missing }
+## Before You Start { #prerequisites-scan-missing }
 
-- **SKU check**: Make sure the product has a matching SKU or barcode set up in the CYBERBIZ admin backend.
+- **SKU check**: Make sure the product has a matching SKU or barcode set up in the CYBERBIZ admin.
 - **Encoding differences**: UPC-A (12 digits), common in North America, and EAN-13 (13 digits), common internationally, may fail to scan correctly because the leading 0 is handled differently.
 - **Device support**: This guide applies to barcode scanners provided by CYBERBIZ. If you use a device from another supplier, contact your device supplier.
 
 ## Procedure { #operate-scan-missing }
 
-### Step 1: Check Backend Data { #operate-scan-missing-1-confirm-admin }
+### Step 1: Check Admin Data { #operate-scan-missing-1-confirm-admin }
 
-1. Log in to the CYBERBIZ POS admin backend and go to **Products > All Products**.
+1. Log in to the CYBERBIZ POS admin and go to **Products > All Products**.
 2. Check that the **SKU Code** or **Barcode** field for the product contains the correct numeric code.
 
 ### Step 2: Check the Barcode Format { #operate-scan-missing-2-barcode }
@@ -115,7 +115,7 @@ If the scanner drops the leading 0, scan the setup barcode below with your scann
     - **EAN-13**: The international standard encoding. It adds one region digit in front of UPC-A. The region digit for the United States and Canada is **0**, but some scanners do not display this digit by default.
 
 
-## Frequently Asked Questions { #faq-scan-missing }
+## FAQ { #faq-scan-missing }
 
 ??? quote "What should I do if garbled text appears after scanning?"
     This is usually caused by an incorrect input method setting on the scanner. Make sure the input method on the computer or POS terminal is set to **English half-width** while scanning.

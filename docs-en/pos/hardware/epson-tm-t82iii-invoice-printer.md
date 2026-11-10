@@ -81,7 +81,7 @@ By correctly installing the EPSON TM-T82III professional invoice printer and con
     - **Automated Tax Compliance**: Print e-invoice receipts that comply with Ministry of Finance regulations as soon as checkout is complete.
 
 
-## Usage Notes { #prerequisites-epson-t82 }
+## Before You Start { #prerequisites-epson-t82 }
 
 - **Applicable Model**: This guide is written specifically for the **EPSON TM-T82III** model.
 - **Consumable Specification**: The printer uses **58mm** e-invoice thermal paper by default. When installing the paper, make sure the spacer is positioned correctly.

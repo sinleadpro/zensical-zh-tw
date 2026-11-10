@@ -84,7 +84,7 @@ With the Sunmi wireless credit card and invoice machine, merchants can pair it w
     - **All-in-one**: Combines **credit card payments, barcode scanning, and invoice printing** in one device, simplifying in-store hardware setup.
 
 
-## Usage Notes { #prerequisites-mypay-terminal }
+## Before You Start { #prerequisites-mypay-terminal }
 
 - **Payment restriction**: The Sunmi card machine plan requires the **MyPay payment service**. Complete the payment service application first.
 - **Invoice policy**: The card machine works only as a "printer" and does not include invoice issuing services. Merchants must purchase an invoice service to issue invoices.
@@ -123,7 +123,7 @@ Before setting up the system, make sure you have the following information:
     - If you buy the card machine from CYBERBIZ, the machine comes with one paper roll.
 2. **Apply for payment service**: Go to the [MyPay application page](https://query.onecardpass.com/application/cardreader/b7b68f) and fill in the information.
     - **Review time**: Approval takes about 2 weeks, and MyPay emails the result to the contact person. (If the application fails, submit a new application.)
-    - **Support phone**: MyPay customer service 04-23220267 #25.
+    - **Support phone**: MyPay customer support 04-23220267 #25.
 3. **Obtain keys**: After approval, you will receive:
     - **MyPay merchant business code**
     - **MyPay admin account**
@@ -132,19 +132,19 @@ Before setting up the system, make sure you have the following information:
 
 ## Setup Procedure { #operate-mypay-terminal }
 
-### Step 1: Bind the Device { #operate-mypay-terminal-step-a-bind }
+### Step 1: Link the Device { #operate-mypay-terminal-step-a-bind }
 
 After you receive the card machine, sign in to the MyPay App on the machine and [complete the binding](https://www.mypay.com.tw/index.php/zh-tw/news/new-features-online/bind-your-device-and-activate-the-mypay-with-confidence-easy-to-get-started-and-a-smooth-experience).
 
 - Enter the device name: `[您的統編]_01`, for example: `12345678_01`
 
 
-### Step 2: Bind the CYBERBIZ Back Office { #operate-mypay-terminal-step-b-bind }
+### Step 2: Link the CYBERBIZ Admin { #operate-mypay-terminal-step-b-bind }
 
 1. **Get the MyPay key**: Sign in to the [MAPAY admin console](https://biz.spay.com.tw/auth/login), go to **System Setting > Key Management**, and get the **MYPAY merchant key**.
     ![](../../assets/images/MAYPAY-後台-系統設定-金鑰管理-查詢金鑰01.en.png){ .screenshot }
 2. **Go to the CYBERBIZ back office**: Sign in to the CYBERBIZ admin console and go to **POS > POS Store List**.
-3. **Enter API information**: In the **POS checkout settings** section, enter the **MyPay merchant business code** and **MyPay merchant key**.
+3. **Enter API information**: In the **POS checkout settings** section, fill in the **MyPay merchant business code** and **MyPay merchant key**.
     ![](../../assets/images/POS-後台-所有POS商店-綁定MAYPAY金鑰01.en.png){ .screenshot }
 4. **Set up the invoice system**: Click **Edit POS Settings**.
     ![](../../assets/images/POS-後台-所有POS商店-修改POS子機設定01.en.png){ .screenshot }
@@ -157,7 +157,7 @@ After you receive the card machine, sign in to the MyPay App on the machine and 
     ![](../../assets/images/POS-後台-所有POS商店-付款方式-新增MYPAY付款方式01.en.png){ .screenshot }
 
 
-### Step 3: MyPay Back Office Webhook Settings { #operate-mypay-terminal-step-c-mypay }
+### Step 3: MyPay Admin Webhook Settings { #operate-mypay-terminal-step-c-mypay }
 
 To make sure transaction results return correctly to the CYBERBIZ system, you must set up the callback URLs.
 
@@ -210,11 +210,11 @@ To make sure transaction results return correctly to the CYBERBIZ system, you mu
 
 
 
-## Frequently Asked Questions { #faq-mypay-terminal }
+## FAQ { #faq-mypay-terminal }
 
 ??? quote "Why doesn't the card machine respond after clicking Pay?"
     1. Make sure the tablet POS and the card machine are connected to the same Wi-Fi network.
-    2. Check that the "card machine name" in the CYBERBIZ back office exactly matches the name you signed in with in the MyPay APP.
+    2. Check that the "card machine name" in the CYBERBIZ admin exactly matches the name you signed in with in the MyPay APP.
     3. Make sure you did not install the POS driver by mistake. If you did, remove it.
 
 ??? quote "Can the card machine process LINE Pay payments?"

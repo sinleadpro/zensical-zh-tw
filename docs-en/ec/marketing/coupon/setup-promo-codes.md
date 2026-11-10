@@ -68,7 +68,7 @@ hide: []
 ---
 
 # Set Up Promo Codes
-Set up promo codes (discount, free shipping, and gift), including basic settings, usage thresholds, distribution rules, and automatic application at checkout.
+Set up promo codes (discount, free shipping, and free gift), including basic settings, usage thresholds, distribution rules, and automatic application at checkout.
 { .subtitle }
 
 
@@ -77,7 +77,7 @@ Set up promo codes (discount, free shipping, and gift), including basic settings
 !!! tip "Use Cases"
 	- **Partnerships**: Give partners their own promo codes and track conversions by channel.
 	- **Holiday promotions**: Create limited-time, limited-quantity discount codes to create urgency.
-	- **Spend-threshold gifts**: Send gift codes so customers can pick a gift after reaching the threshold.
+	- **Spend-threshold gifts**: Send gift codes so customers can pick a free gift after reaching the threshold.
 	- **Fewer abandoned carts**: Turn on automatic promo code application so customers see the discount at checkout.
 
 
@@ -127,7 +127,7 @@ Set up promo codes (discount, free shipping, and gift), including basic settings
         - **Total Usage Limit**: The maximum number of times the code can be used across the store.
         - **Per-customer Limit**: The maximum number of times one member account can use the code.
         - **Product limits**: Offer free shipping only when specific products or tags are bought.
-        - **Shipping methods**: Limit the offer to specific shipping methods (such as 7-Eleven pickup).
+        - **Shipping methods**: Limit the offer to specific shipping methods (such as 7-11 pickup).
 
         ![](https://www.cyberbiz.io/support/wp-content/uploads/行銷活動-優惠碼04.png){ .screenshot }
 
@@ -152,7 +152,7 @@ Set up promo codes (discount, free shipping, and gift), including basic settings
 
 
 
-### 2. Create Promo Codes In Bulk { #operate-coupon-create-promotion }
+### 2. Create Promo Codes In Batch { #operate-coupon-create-promotion }
 
 To create many storewide promo codes at once (**discount or free shipping only**), use bulk import.
 
@@ -201,7 +201,7 @@ This feature applies promo codes to qualifying orders automatically, so customer
 
 #### Before You Start { #operate-coupon-settings-requirements }
 
-- This feature only works on the online store checkout page, **not one-page stores**.
+- This feature only works on the storefront checkout page, **not one-page stores**.
 - Supports discount, free shipping, and gift codes.
 - Works with both "Quick Checkout and Register" and "Registration Required" sign-up methods.
 

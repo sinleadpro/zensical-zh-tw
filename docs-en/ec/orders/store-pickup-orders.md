@@ -117,7 +117,7 @@ After a customer orders with **Store Pickup**, admins must ship the order in the
 
 === "Shopper"
 
-    Shoppers can also click **Cancel Order** on the order details page on the storefront.
+    Customers can also click **Cancel Order** on the order details page on the storefront.
 
     ![](../../assets/images/EC-前台-訂單查詢-取消訂單01.en.png){ .screenshot }
 

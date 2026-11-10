@@ -1,6 +1,6 @@
 ---
 title: "Set up Basic Website Information"
-description: "Configure core settings such as basic website information, company contact details, shipping address, and admin panel language."
+description: "Configure core settings such as basic website information, company contact details, shipping address, and admin language."
 created:
 last_modified: 2026-07-06 17:39
 lang: en-US
@@ -84,7 +84,7 @@ hide:
 
 ## About General Settings { #intro-general-preferences }
 
-**General** (admin panel path: **Website Management > General**) is where you set up your store's basic information. The website name and company contact and invoice information you enter here appear on your website and invoices. You can also customize the order number format and adjust how languages and currencies display in the admin panel and on the storefront.
+**General** (admin path: **Website Management > General**) is where you set up your store's basic information. The website name and company contact and invoice information you fill in here appear on your website and invoices. You can also customize the order number format and adjust how languages and currencies display in the admin and on the storefront.
 
 The whole page is a single form divided into collapsible sections. All settings share the **Save All Settings** button at the bottom of the page. After you fill in any section, you must click this button for the changes to take effect.
 
@@ -101,8 +101,8 @@ The whole page is a single form divided into collapsible sections. All settings 
 | [Company Contact Information](#operate-general-preferences-company-info) | Address, phone, tax ID number, full company name, billing notification email | All plans |
 | [Company Logistics Address](#operate-general-preferences-return-address) | Return address for convenience store parcels sent back by cash-on-delivery home delivery | All plans (hidden if you use the e-commerce warehousing service) |
 | [Standards and Formats](#operate-general-preferences-order-format) | Order number format; currency display format | Order number format: all plans; currency display format: requires activation |
-| Admin panel display currency | Shows the currency the admin panel currently settles in (read-only) | All plans |
-| [Admin Panel Language Display](#operate-general-preferences-admin-language) | Switch the language of the admin panel interface | All plans |
+| Admin display currency | Shows the currency the admin currently settles in (read-only) | All plans |
+| [Admin Language Display](#operate-general-preferences-admin-language) | Switch the language of the admin interface | All plans |
 | [Storefront Language Display](#operate-general-preferences-frontend-locale) | Set the languages shoppers can switch to on the storefront | Requires activation and a drag-and-drop theme |
 | [Storefront Currency Display](#operate-general-preferences-frontend-locale) | Set the currencies shoppers can switch to on the storefront | Requires activation and a drag-and-drop theme |
 
@@ -112,7 +112,7 @@ The whole page is a single form divided into collapsible sections. All settings 
 
 Before you start, check the following:
 
-- [x] **Admin panel permission**: You need admin panel permission for Website Management.
+- [x] **Admin panel permission**: You need admin permission for Website Management.
 - [x] **Invoice fields**: If you issue e-invoices, **Full company name**, **Phone**, **Detailed address**, and **Tax ID number** are required. If you delete them, the system automatically switches invoices to the member carrier (personal).
 
 Some sections only appear with certain plans or activated features:
@@ -122,7 +122,7 @@ Some sections only appear with certain plans or activated features:
     - **Currency display format** (how amounts appear on web pages and in emails): Appears in the **Standards and Formats** section only after the feature is activated.
     - **Storefront language display / storefront currency display**: These two sections appear only when the features are activated and your website uses a drag-and-drop theme.
     - **Company English name**: For cross-border or export merchants. Only certain plans and cross-border stores see this field.
-    - To activate these features, contact your store consultant or Customer Service.
+    - To activate these features, contact your store consultant or Customer Support.
 
 ---
 
@@ -134,12 +134,12 @@ The steps below are grouped by common tasks. All sections share the **Save All S
 
 Fill in the basic information shown on your website and invoices.
 
-1. **Open General settings:** In the admin panel, go to **Website Management > General**.
-2. **Enter the website name:** In the **About Your Website** section, enter your brand or store name in **Website name**[^e] (up to 15 Chinese characters or 30 English characters), and enter a contact **Email**[^f].
+1. **Open General settings:** In the admin, go to **Website Management > General**.
+2. **Enter the website name:** In the **About Your Website** section, fill in your brand or store name in **Website name**[^e] (up to 15 Chinese characters or 30 English characters), and enter a contact **Email**[^f].
 
     ![About your website](../../assets/images/ec-管理中心-一般設定-關於網站.en.png){ title="About Your Website" }
 
-3. **Enter company contact information:** In the **Company Contact Information** section, enter the **Detailed address**, **Phone**, **Tax ID number**, **Full company name**, and **Billing notification email**[^a].
+3. **Enter company contact information:** In the **Company Contact Information** section, fill in the **Detailed address**, **Phone**, **Tax ID number**, **Full company name**, and **Billing notification email**[^a].
 
     ![Company contact information](../../assets/images/EC-管理中心-一般設定-公司聯絡資訊.en.png){ title="Company Contact Information" }
 
@@ -147,13 +147,13 @@ Fill in the basic information shown on your website and invoices.
 
         - **Overseas shipping labels:** Merchants with cross-border or export business may also see a **Company English name** field on some plans. Filling it in also activates overseas shipping labels.
         - **SF Express overseas logistics:** Enter your company's official English name from its business registration in the **English company name registered with the Bureau of Foreign Trade** field.
-        - **DHL logistics verification:** Enter the correct **Tax ID** and **English company name registered with the Bureau of Foreign Trade**, and click verify to activate the feature.
+        - **DHL logistics verification:** Fill in the correct **Tax ID** and **English company name registered with the Bureau of Foreign Trade**, and click verify to activate the feature.
 
 4. **Save:** After checking the information, click **Save All Settings** at the bottom of the page.
 
 [^a]: You can enter several billing notification emails separated by commas, for example `mail1@example.com,mail2@example.com`. The tax ID number must be 8 digits.
 
-[^e]: This name appears in the page title and is also used for search engine optimization (SEO) and for merchant identity reviews by payment risk control units. Some settings involve legal compliance (such as **business information disclosure**), so enter your correct brand name and tax ID number.
+[^e]: This name appears in the page title and is also used for search engine optimization (SEO) and for merchant identity reviews by payment risk control units. Some settings involve legal compliance (such as **business information disclosure**), so fill in your correct brand name and tax ID number.
 [^f]: This email is also your login account for the CYBERBIZ online course platform.
 
 ---
@@ -163,7 +163,7 @@ Fill in the basic information shown on your website and invoices.
 **Company Logistics Address** is the address the system uses to return store-to-store convenience store parcels by cash-on-delivery home delivery when they are sent back to the original store and not picked up.
 
 1. **Open General settings:** Go to Website Management > General and find the **Company Logistics Address** section.
-2. **Enter the return address:** Choose the city or county and district, and enter the detailed address where returned parcels should be delivered.
+2. **Enter the return address:** Choose the city or county and district, and fill in the detailed address where returned parcels should be delivered.
 
     ![Company logistics address](../../assets/images/EC-管理中心-一般設定-公司物流地址.en.png){ title="Company Logistics Address" }
 
@@ -189,18 +189,18 @@ The default order number format is `#{{ "{{number}}" }}` (displayed as, for exam
 
 ---
 
-### Switch the Admin Panel Interface Language { #operate-general-preferences-admin-language }
+### Switch the Admin Interface Language { #operate-general-preferences-admin-language }
 
-Change the language of the management interface you see when you log in to the admin panel.
+Change the language of the management interface you see when you log in to the admin.
 
 1. **Open General settings:** Go to Website Management > General and find the **Admin Panel Language Display** section.
-2. **Choose a language:** Choose the admin panel language from the dropdown (Traditional Chinese, English, Japanese, or Korean).
+2. **Choose a language:** Choose the admin language from the dropdown (Traditional Chinese, English, Japanese, or Korean).
 3. **Save:** Click **Save All Settings** at the bottom of the page. The interface switches to the selected language.
 
 ![Admin panel language display](../../assets/images/ec-general-preferences-admin-language.en.png){ title="Admin Panel Language Display" }
 
 !!! note "Note"
-    The admin panel language only affects the management interface you see in the admin panel. It doesn't change the language customers see on your storefront. Set the storefront language in the **Storefront Language Display** section (see [Set Up Storefront Multi-Language and Multi-Currency Display](#operate-general-preferences-frontend-locale)).
+    The admin language only affects the management interface you see in the admin. It doesn't change the language customers see on your storefront. Set the storefront language in the **Storefront Language Display** section (see [Set Up Storefront Multi-Language and Multi-Currency Display](#operate-general-preferences-frontend-locale)).
 
 ---
 
@@ -226,8 +226,8 @@ Let customers switch the language or currency on your storefront. The **Storefro
 - **One save button for all settings:** The page has only one button, **Save All Settings**, at the bottom. Click it after changing any section, and save before you leave the page.
 - **Order number format rules:** The format must include `{{ "{{number}}" }}` and can't be longer than 64 characters. Changes only affect new orders.
 - **Tax ID number and invoices are linked:** If you issue e-invoices, deleting **Detailed address** or **Tax ID number** switches invoices to the member carrier (personal) automatically.
-- **Admin panel display currency can't be changed here:** It only shows the current settlement currency and is read-only. To change it, contact Customer Service.
-- **Admin panel and storefront languages are separate:** **Admin Panel Language Display** only changes the admin panel interface. The language customers see on the storefront is set by **Storefront Language Display**.
+- **Admin panel display currency can't be changed here:** It only shows the current settlement currency and is read-only. To change it, contact Customer Support.
+- **Admin panel and storefront languages are separate:** **Admin Panel Language Display** only changes the admin interface. The language customers see on the storefront is set by **Storefront Language Display**.
 - **Storefront multi-language and multi-currency need a drag-and-drop theme:** These two settings only appear and take effect with a drag-and-drop theme.
 
 ## Next Steps { #next-steps-general-preferences }
@@ -263,15 +263,15 @@ Let customers switch the language or currency on your storefront. The **Storefro
     - The matching features are activated.
     - Your website uses a drag-and-drop theme.
 
-    If you need them, contact your store consultant or Customer Service to activate them.
+    If you need them, contact your store consultant or Customer Support to activate them.
 
 ??? quote "What happens if I delete the tax ID number or address?"
     [](){ #faq-general-preferences-delete-vat }
     If you issue e-invoices, deleting **Tax ID number** or **Detailed address** makes the system switch invoices to the member carrier (personal) automatically. If you still need to issue company invoices, keep these fields.
 
-??? quote "If I switch the admin panel to English, will customers see my website in English too?"
+??? quote "If I switch the admin to English, will customers see my website in English too?"
     [](){ #faq-general-preferences-admin-vs-frontend-language }
-    No. **Admin Panel Language Display** only changes the language of the management interface when you log in to the admin panel. It doesn't affect the language customers see on the storefront. Set the storefront language separately in the **Storefront Language Display** section.
+    No. **Admin Panel Language Display** only changes the language of the management interface when you log in to the admin. It doesn't affect the language customers see on the storefront. Set the storefront language separately in the **Storefront Language Display** section.
 
 ??? quote "Why doesn't the storefront show my updated basic website information?"
     [](){ #faq-general-preferences-frontend-not-updated }
@@ -299,7 +299,7 @@ Let customers switch the language or currency on your storefront. The **Storefro
 
 ---
 
-## References { #reference-general-preferences }
+## See Also { #reference-general-preferences }
 
 - [Order Number Format Variable Reference](references/general-preferences-order-format-variables.md)
 

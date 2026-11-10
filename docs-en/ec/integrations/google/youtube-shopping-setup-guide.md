@@ -76,7 +76,7 @@ hide: []
 
 ## What Is YouTube Shopping { #intro-youtube-shopping }
 
-**YouTube Shopping** lets you embed product information and links from your online store in YouTube videos, live streams, and Shorts. If you make videos, run a YouTube channel, or go live on YouTube, you can set up YouTube Shopping to increase product exposure and turn traffic into revenue. [Learn more :lucide-external-link:](https://support.google.com/youtube/answer/12257682?hl=zh-Hant)
+**YouTube Shopping** lets you embed product information and links from your storefront in YouTube videos, live streams, and Shorts. If you make videos, run a YouTube channel, or go live on YouTube, you can set up YouTube Shopping to increase product exposure and turn traffic into revenue. [Learn more :lucide-external-link:](https://support.google.com/youtube/answer/12257682?hl=zh-Hant)
 
 !!! warning "Eligibility"
     YouTube Shopping is a feature of the **YouTube Partner Program (YPP)** for creators who have a YouTube channel that meets the monetization threshold (1,000 subscribers + 4,000 watch hours).
@@ -116,7 +116,7 @@ graph LR
 
 ### 1. Account Setup and Back-End Linking { #operate-youtube-shopping-account-create-backend }
 
-Before applying for YouTube Shopping, you must first connect the two Google tools.
+Before applying for YouTube Shopping, you must first integrate the two Google tools.
 
 <div class="grid cards" markdown>
 
@@ -132,7 +132,7 @@ Before applying for YouTube Shopping, you must first connect the two Google tool
 
     ---
 
-    In Google Analytics admin, get the "Measurement ID," then go to the CYBERBIZ admin and enter the Measurement ID to complete the connection.
+    In Google Analytics admin, get the "Measurement ID," then go to the CYBERBIZ admin and enter the Measurement ID to complete the integration.
 
     [:lucide-arrow-right: Setup Guide](ga/setup-google-analytics.md){ title="Create and Connect Google Analytics" }
 
@@ -157,7 +157,7 @@ Your merchant channel must meet the monetization eligibility requirements of the
 
 Once the accounts above and eligibility are ready, you can complete the final linking steps.
 
-1.  **Apply for eligibility**: Fill out the [YouTube Shopping eligibility application form](https://docs.google.com/forms/d/e/1FAIpQLSeC92YTZOl0E-SO03SAv-QF_rRaWXNWdYLABZXEFwnfeXhzdQ/viewform), and CYBERBIZ will submit it to YouTube.
+1.  **Apply for eligibility**: Fill in the [YouTube Shopping eligibility application form](https://docs.google.com/forms/d/e/1FAIpQLSeC92YTZOl0E-SO03SAv-QF_rRaWXNWdYLABZXEFwnfeXhzdQ/viewform), and CYBERBIZ will submit it to YouTube.
     - After your application is approved, CYBERBIZ will send an activation notice to the email address you provided on the application form. Continue with the next steps only after you receive the email.
 2.  **Link GMC and GA4**: Enable auto-tagging in Merchant Center settings, and [link GA4 to Merchant Center](setup-gmc-conversion-tracking.md#operate-gmc-conversions-steps-ga4-merchant-cen){ title="Set up GMC key event source tracking and auto-tagging" }.
 3.  **Link your YouTube channel and online store**: Go to [YouTube Studio :lucide-external-link:](https://studio.youtube.com/), open the **Monetization** > **Shopping** tab, click **Link store**, select **Other store**, and then specify your GMC account. For details, see the [official documentation :lucide-external-link:](https://support.google.com/youtube/answer/12258186?sjid=15941351074417695736-NC#)
@@ -173,11 +173,11 @@ Once the accounts above and eligibility are ready, you can complete the final li
 
         ![GMC Add Product Source](../../../assets/images/ec-gmc-新增產品來源.en.gif)
 
-    - **Enable the YouTube destination**: In the **Marketing method** settings, be sure to check **YouTube Shopping**, and click **Save** to make sure products sync to the YouTube platform.
+    - **Enable the YouTube destination**: In the **Marketing method** settings, be sure to select **YouTube Shopping**, and click **Save** to make sure products sync to the YouTube platform.
 
         ![GMC Product Marketing Method YouTube Shopping](../../../assets/images/ec-gmc-產品行銷方式-youtube商店.en.png)
 
-    - **Finish and Manually Update**: Click **Continue** to finish setup. On the source details page, click **Update** to force the system to fetch the latest product information.
+    - **Finish and Manually Update**: Click **Continue** to finish setup. On the source detail page, click **Update** to force the system to fetch the latest product information.
 
         ![GMC Product Source Details](../../../assets/images/ec-gmc-來源詳情.en.png)
 
@@ -190,11 +190,11 @@ Use the GA4 Explore feature to track the website conversions that YouTube Shoppi
 
 1.  **Create a new report**: In the GA4 left menu, click **Explore**, then click **Blank**.
 
-2.  **Add Total Revenue and Sessions metrics**: Click **Metrics** > **Monetization** > check **Total revenue** and **Sessions** > check **Sessions**, and then click **Confirm**.
+2.  **Add Total Revenue and Sessions metrics**: Click **Metrics** > **Monetization** > select **Total revenue** and **Sessions** > select **Sessions**, and then click **Confirm**.
 
     ![GA4 Metrics - Sessions and Total Revenue](../../../../assets/images/ec-ga4-探索-指標-工作階段與總收益.en.gif)
 
-3.  **Add dimension**: Click **Dimensions** > **Traffic source** > check **Session manual term**, and then click **Confirm**.
+3.  **Add dimension**: Click **Dimensions** > **Traffic source** > select **Session manual term**, and then click **Confirm**.
 
     ![GA4 Dimension - Session Manual Term](../../../../assets/images/ec-ga4-探索-維度-工作階段手動字詞.en.png)
 
@@ -232,7 +232,7 @@ When you live stream on YouTube, you can schedule the stream in advance and gene
 
 </div>
 
-## Frequently Asked Questions { #faq-youtube-shopping }
+## FAQ { #faq-youtube-shopping }
 
 ??? quote "What are the eligibility requirements for YouTube Shopping?"
 
@@ -244,7 +244,7 @@ When you live stream on YouTube, you can schedule the stream in advance and gene
 
     1. Get the **Product Feed Link** in the CYBERBIZ admin (Third-Party Integration > Google Settings > Google Merchant Center).
     2. Go to the GMC admin, add a product source, and paste the link.
-    3. In **Marketing method**, check **YouTube Shopping** and save.
+    3. In **Marketing method**, select **YouTube Shopping** and save.
 
 ??? quote "Why are products automatically removed from YouTube?"
 

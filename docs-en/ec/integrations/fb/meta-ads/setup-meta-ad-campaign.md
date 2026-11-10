@@ -93,8 +93,8 @@ Before you begin, confirm that you have completed the following prerequisites:
 
 1. **Open Meta Ads App**: Log in to the CYBERBIZ admin, then go to **Third-Party Integration > Facebook Settings > Campaign Settings**.
 
-    - Not connected yet: Click "Connect Now" (see [Install Meta Ads App](../../../app-market/install-meta-ads-app.md){ title="Install Meta Ads App" }).
-    - Already connected: Click "Go Now".
+    - Not integrated yet: Click "Connect Now" (see [Install Meta Ads App](../../../app-market/install-meta-ads-app.md){ title="Install Meta Ads App" }).
+    - Already integrated: Click "Go Now".
 
 2. **Start editing**: In the left navigation, click Ad Campaigns > Campaign Settings > Create Ad Campaign.
 
@@ -118,7 +118,7 @@ Before you begin, confirm that you have completed the following prerequisites:
 
 Choose a campaign objective based on your brand's current stage and marketing needs:
 
-*   **Traffic ads**: Designed to direct shoppers to specific pages on your website, such as the homepage or brand introduction page. Especially suited to **early-stage brands** or **new product launches**, where they help collect early data and build an audience base.
+*   **Traffic ads**: Designed to direct customers to specific pages on your website, such as the homepage or brand introduction page. Especially suited to **early-stage brands** or **new product launches**, where they help collect early data and build an audience base.
 *   **Sales ads**: Link ads to a product group on your website. Suited to merchants with **steady traffic**, these ads raise purchase likelihood and conversions for specific products.
 
 ![Campaign objective settings](../../../../assets/images/ec-appmarket-maa-活動目標設定.en.png)
@@ -244,7 +244,7 @@ Click **Campaign Name** to reopen the editor and adjust the budget, schedule, or
 
 </div>
 
-## Frequently Asked Questions { #faq-meta-campaign }
+## FAQ { #faq-meta-campaign }
 
 ??? quote "Who is the ad audience?"
 
@@ -262,7 +262,7 @@ Click **Campaign Name** to reopen the editor and adjust the budget, schedule, or
 
 ??? quote "What is the difference between traffic ads and sales ads?"
 
-    - Traffic ads direct shoppers to specific pages on your website (such as the homepage or brand introduction page), and are suited to early-stage brands or new product launches.
+    - Traffic ads direct customers to specific pages on your website (such as the homepage or brand introduction page), and are suited to early-stage brands or new product launches.
     - Sales ads link ads to a product group on your website. They are suited to merchants with steady traffic and help increase purchase opportunities for specific products.
     - For daily budgets, we recommend more than 150 TWD for traffic ads and more than 50 TWD for sales ads.
 

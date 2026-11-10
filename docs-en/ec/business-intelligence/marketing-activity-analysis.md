@@ -152,7 +152,7 @@ When you open the page, it shows the "**Shop Campaign Analysis**" tab by default
 
 #### Analyze the Contribution of Each Discount Type { #reference-discount-category-contribution }
 
-1. **Set conditions:** In the "**Discount Type Analysis**" section, choose a date range, and in the **Please Select Discount Type** drop-down, select the discount types to compare (multiple selections allowed; all discount types by default).
+1. **Set conditions:** In the "**Discount Type Analysis**" section, choose a date range, and in the **Please Select Discount Type** dropdown, select the discount types to compare (multiple selections allowed; all discount types by default).
 
     ![Set conditions](../../assets/images/ec-bi-mkt-act-discount-condition.en.png){ title="Set Conditions" }
 
@@ -223,7 +223,7 @@ Switch to the "**Coupon Analysis**" tab to analyze coupons from two angles: "typ
 
     ![Choose a date range](../../assets/images/ec-bi-mkt-act-coupon-date-range.en.png){ title="Choose a Date Range" }
 
-2. **Choose a coupon type:** In the **Please Select Coupon Type** drop-down, choose one coupon type.
+2. **Choose a coupon type:** In the **Please Select Coupon Type** dropdown, choose one coupon type.
 
     ![Choose a coupon type](../../assets/images/ec-bi-mkt-act-coupon-category.en.png){ title="Choose a Coupon Type" }
 
@@ -436,21 +436,21 @@ Switch to the "**Bonus Analysis**" tab to view how bonus points are used across 
     [](){ #faq-marketing-activity-no-bonus-in-rank }
     The discount campaign ranking doesn't include bonus discounts. To see bonus-related performance, go to the [Bonus Analysis](#operate-marketing-activity-bonus){ title="Bonus Analysis" } tab.
 
-??? quote "Some discount types don't appear in the drop-down. What should I do?"
+??? quote "Some discount types don't appear in the dropdown. What should I do?"
     [](){ #faq-marketing-activity-missing-category }
     Some discount types appear only after you enable the corresponding marketing campaign feature.
 
-    - For the activation requirements of each discount type, see the [Discount Type Reference](references/marketing-activity-discount-categories-reference.md){ data-preview }.
+    - For the prerequisites of each discount type, see the [Discount Type Reference](references/marketing-activity-discount-categories-reference.md){ data-preview }.
 
 ??? quote "What are "valid orders"? Why don't the figures match my actual order count?"
     [](){ #faq-marketing-activity-valid-order }
     All data on this page counts only "valid orders," defined as orders whose status isn't canceled and whose return status is No Return Needed or Return Rejected. Canceled or returned orders aren't counted, so the figures differ from the total in the order list.
 
-[^coupon-distribution-count]: The number of coupons "available for use" on the online store that day. Each day, the system automatically counts the following sources: coupons issued today, and coupons issued before today that are still valid today.
+[^coupon-distribution-count]: The number of coupons "available for use" on the storefront that day. Each day, the system automatically counts the following sources: coupons issued today, and coupons issued before today that are still valid today.
 
-[^coupon-used-count]: The number of coupons on the online store that day that are "within their validity period and recognized as used." When a customer successfully uses a coupon within the coupon validity period, it counts toward the used quantity (quantity 1) for each day from the day of use until the coupon expires. Once the coupon expires, it no longer counts toward the used quantity on later dates.
+[^coupon-used-count]: The number of coupons on the storefront that day that are "within their validity period and recognized as used." When a customer successfully uses a coupon within the coupon validity period, it counts toward the used quantity (quantity 1) for each day from the day of use until the coupon expires. Once the coupon expires, it no longer counts toward the used quantity on later dates.
 
-## References { #reference-marketing-activity }
+## See Also { #reference-marketing-activity }
 
 - [Discount Type Reference](references/marketing-activity-discount-categories-reference.md)
 - [Coupon Metric Definitions Reference](references/marketing-activity-coupon-metrics-reference.md)

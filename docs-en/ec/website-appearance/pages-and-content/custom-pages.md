@@ -97,7 +97,7 @@ The sections below cover common scenarios. Start every task from "Website Appear
 
 1. **Open Customized Pages Management:** In the admin, go to "Website Appearance" > "Customized Pages Management."
 2. **Add page:** Click the **Add page** button at the top right of the page.
-3. **Name the page:** In the pop-up window, enter a name in the "Page Name" field (this name is mainly for identifying the page in the admin), and then click Create.
+3. **Name the page:** In the dialog, enter a name in the "Page Name" field (this name is mainly for identifying the page in the admin), and then click Create.
 4. **Start editing:** After you create the page, click its title to edit it and design the content based on your page type (see [Edit Page Content](#operate-custom-pages-edit)).
 
 ![Add a page](../../../assets/images/ec-網站外觀-自訂頁面設定-新增頁面.en.png)
@@ -157,7 +157,7 @@ A new page isn't necessarily public by default. You can change its visibility an
 ![Set page visibility](../../../assets/images/ec-網站外觀-自訂頁面設定-設定公開狀態.en.png)
 
 !!! warning "Important"
-    Setting a page to "Public" only makes its URL accessible. It doesn't add the link to your website menu automatically. For customers to find the page on your storefront, also add the link to a menu or the navigation bar (see [Next Steps](#next-steps-custom-pages).
+    Setting a page to "Public" only makes its URL accessible. It doesn't add the link to your storefront menu automatically. For customers to find the page on your storefront, also add the link to a menu or the navigation bar (see [Next Steps](#next-steps-custom-pages).
 
 ---
 
@@ -188,7 +188,7 @@ To make a page with a similar layout, copy an existing page and edit it:
 
 ### Edit Multilingual Content { #operate-custom-pages-multilang }
 
-If your store has multiple languages turned on, you can enter content in each language for the same page:
+If your store has multiple languages turned on, you can fill in content in each language for the same page:
 
 1. **Save your current changes first:** Save the content you're editing before switching languages. Otherwise, the system shows "Please save your changes before editing other languages."
 2. **Switch languages:** Click the **:lucide-globe: language** icon on the page and choose the language to edit.
@@ -222,7 +222,7 @@ If your store has multiple languages turned on, you can enter content in each la
 
 - :lucide-globe:{ .lg }  
   [__Multilingual Settings__](../../website-management/setup-multi-language-and-multi-currency.md)  
-  After you turn on multiple languages, you can enter content in each language for custom pages.
+  After you turn on multiple languages, you can fill in content in each language for custom pages.
 
 - :lucide-square-code:{ .lg }  
   [__Embed a Google Form__](embed-google-form-custom-page.md)  
@@ -236,7 +236,7 @@ If your store has multiple languages turned on, you can enter content in each la
 
 ??? quote "Why can't I find the link on my storefront after saving the page?"
     [](){ #faq-custom-pages-not-shown-in-nav }
-    After you save a custom page and make it public, its URL becomes accessible, but the page **doesn't appear automatically** in your website menu.
+    After you save a custom page and make it public, its URL becomes accessible, but the page **doesn't appear automatically** in your storefront menu.
 
     Go to "Website Appearance" > "Menu Setting" and add the page to your header or footer menu so customers can find it on the storefront.
 
@@ -274,7 +274,7 @@ If your store has multiple languages turned on, you can enter content in each la
 
 ??? quote "How do I make a custom page visible only to members?"
     [](){ #faq-custom-pages-member-only }
-    Custom pages don't have access restrictions. If you want content to be for members only (such as VIP-exclusive offer details), don't put the link in your website navigation bar. Instead, enter the URL in **Customer Management > Member Level Settings > Member Level Description Link** so only customers signed in to their member accounts see the link.
+    Custom pages don't have permission restrictions. If you want content to be for members only (such as VIP-exclusive offer details), don't put the link in your storefront navigation bar. Instead, enter the URL in **Customer Management > Member Level Settings > Member Level Description Link** so only customers signed in to their member accounts see the link.
 
 ??? quote "Images on my page load slowly or look blurry. How can I improve them?"
     [](){ #faq-custom-pages-image-optimize }
@@ -284,7 +284,7 @@ If your store has multiple languages turned on, you can enter content in each la
 
 ---
 
-## References { #reference-custom-pages }
+## See Also { #reference-custom-pages }
 
 - [Custom Page Blocks Reference](../references/custom-pages-blocks.md)
 

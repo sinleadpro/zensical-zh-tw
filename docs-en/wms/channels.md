@@ -72,7 +72,7 @@ Set up channels to manage inventory for different sales platforms and define eac
 
 - **Expiry-based routing**: Set how strict each channel is about **remaining shelf life**.
     - **Mass retail channels**: Set a longer shelf-life threshold to meet the shelving rules of large retailers.
-    - **Sale or employee-benefit channels**: Set a shorter shelf life to clear stock faster and keep these orders clearly apart from orders that need normal shelf life.
+    - **Sale or employee-benefit channels**: Set a shorter shelf life to clear inventory faster and keep these orders clearly apart from orders that need normal shelf life.
 - **Shipping type statistics**: Create channels by business type (such as carrier type, special packaging, or bulk purchasing). Reports can then show the share of each shipping type quickly.
 
 
@@ -87,7 +87,7 @@ Go to **通路 > 列表** and click **Add Channel** to open the edit page.
 
 - **Channel Name**: Enter a name that is easy to recognize. We recommend naming channels by **platform + logistics** or by **business type**.
     - **Name examples**: `酷澎`, `團購`, `誠品生活`, `東森-黑貓`, `東森-全家`.
-- **Shipping zone**: Choose the physical or virtual warehouse for this channel, so orders deduct stock from the right zone.
+- **Shipping zone**: Choose the physical or virtual warehouse for this channel, so orders deduct inventory from the right zone.
 - **Channel Type**: Choose `B2C` or `C2C` based on your business model.
 
 ![](../assets/images/WMS-後台-通路-新增通路01.en.png){ .screenshot }

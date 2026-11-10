@@ -82,7 +82,7 @@ Integrate LINE Pay barcode payment so POS staff can use a barcode scanner to rea
     - **Multi-store management**: Direct-operated chain stores can use a single Tax ID account and Device IDs to track sales by store.
 
 
-## Usage Notes { #prerequisites-line-pay }
+## Before You Start { #prerequisites-line-pay }
 
 - **Application timeline**: After you submit complete information, review and activation take about **3 to 4 weeks**.
 - **Hardware requirement**: Your store needs a **barcode scanner** that can scan phone screens.
@@ -92,7 +92,7 @@ Integrate LINE Pay barcode payment so POS staff can use a barcode scanner to rea
 
 ## Application Process { #operate-line-pay }
 
-### 1. Fill out the Online Application Form { #operate-line-pay-1 }
+### 1. Fill in the Online Application Form { #operate-line-pay-1 }
 
 First, prepare your basic business information, then go to the [CYBERBIZ x LINE Pay Integration Form](https://docs.google.com/forms/d/13H2sqFvR_99iDtHOPEOmPzTjoYv6fX-eTEYSTJTXPeU/edit) and complete it.
 
@@ -103,7 +103,7 @@ Submit clear electronic copies (scans) of the following documents in the form:
 - **Company documents**: Company registration or change-of-registration form, business registration transcript, or tax registration certificate.
 - **Storefront photos and menu**:
     - Include photos of the storefront sign, the store interior, and product prices.
-    - Provide a physical menu or a product list exported from the back office.
+    - Provide a physical menu or a product list exported from the admin.
 
         !!! tip "How do I export the product list by store?"
             1. Go to **Products > All Products**.
@@ -118,19 +118,19 @@ Submit clear electronic copies (scans) of the following documents in the form:
 ### 3. Review and Activation { #operate-line-pay-3 }
 
 1. **Progress tracking**: About 10 business days after submission, you will receive a preliminary review notice.
-2. **Get keys**: After approval, CYBERBIZ provides your dedicated **LINEPAY account credentials**, **Channel ID**, and **Channel Secret**. Follow the steps below to enter the keys and enable the feature.
+2. **Get keys**: After approval, CYBERBIZ provides your dedicated **LINEPAY account credentials**, **Channel ID**, and **Channel Secret**. Follow the steps below to fill in the keys and enable the feature.
 3. **Claim promotional materials**: After you provide shipping details, we will send the LINE Pay standees and LOGO stickers. Send a photo of the completed store setup to **finish the go-live process**.
 
     > Shipping details must include the recipient's name, phone number, and address.
 
-## Setup Process { #operate-flow }
+## Setup Steps { #operate-flow }
 
-### Step 1: Bind Keys in the Back Office { #operate-flow-step-a-admin }
+### Step 1: Link Keys in the Admin { #operate-flow-step-a-admin }
 
-1. Log in to the CYBERBIZ back office and go to **POS > POS Store List**.
+1. Log in to the CYBERBIZ admin and go to **POS > POS Store List**.
 2. Select the store you want to configure, then go to **POS Checkout Settings**.
-3. Enter the **LINE Pay Channel ID** and **LINE Pay Channel Secret**.
-    > **Note**: If you have both an online store (EC) and POS, their keys cannot be shared. Be sure to enter the information you applied for specifically for POS.
+3. Fill in the **LINE Pay Channel ID** and **LINE Pay Channel Secret**.
+    > **Note**: If you have both a storefront (EC) and POS, their keys cannot be shared. Be sure to fill in the information you applied for specifically for POS.
 4. Save the settings.
 
 ![](../../assets/images/POS-後台-POS功能-所有POS商店-串接LinePAY金鑰01.en.png){ .screenshot }
@@ -165,13 +165,13 @@ Submit clear electronic copies (scans) of the following documents in the form:
     Yes. Contact your technical support or account representative, specify how many sets you need, and we will arrange shipment.
 
 ??? quote "How do I check LINE Pay's disbursement schedule?"
-    Log in to the [LINE Pay Merchant Back Office](https://pay.line.me/), then go to **Manage Basic Information > Manage Merchant Information > Contract Details > Payout Cycle** to view the detailed rules.
+    Log in to the [LINE Pay Merchant Admin](https://pay.line.me/), then go to **Manage Basic Information > Manage Merchant Information > Contract Details > Payout Cycle** to view the detailed rules.
 
 ??? quote "What is the [LINE Pay Deals Map](https://pay.line.me/portal/tw/customer/faq?categoryId=cooperate), and what real benefits does it offer my store?"
     **LINE Pay Deals Map** is a built-in store map and search feature in the LINE Wallet.
 
     - **Key benefit**: Nearby LINE users can quickly find your store location and offers through **automatic location** or **keyword search**.
-    - **How to increase visibility**: Log in to the [LINE Pay Merchant Back Office](https://pay.line.me/tw/login/) and complete your store registration. Follow these steps:
+    - **How to increase visibility**: Log in to the [LINE Pay Merchant Admin](https://pay.line.me/tw/login/) and complete your store registration. Follow these steps:
 
         1.  Go to **Manage Basic Information** > **Store Information**.
         2.  Click **Store Information Registration**, and carefully fill in your business details and service address.

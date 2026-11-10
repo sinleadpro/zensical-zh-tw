@@ -93,4 +93,4 @@ After the list appears, you can:
 
 - **Track signed receipts**: Use the **Attached Status** column to see each order's delivery status at a glance.
 - **View order details**: Click an **order number** in the list to open that order's details page and check the items and recipient.
-- **Spot problems**: If the shipping status shows delivered but the POD status stays **Not Done** for a long time, contact warehouse customer service or the carrier.
+- **Spot problems**: If the shipping status shows delivered but the POD status stays **Not Done** for a long time, contact warehouse customer support or the carrier.

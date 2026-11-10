@@ -66,7 +66,7 @@ icon: lucide/send
 hide: []
 ---
 # CYBERBIZ EXPRESS Japan Post (EMS)
-Connect to Japan Post EMS to create consignment notes efficiently and handle international customs documents. You can also use your own Japan Post contract account to get discounted shipping rates.
+Connect to  Japan Post EMS to create shipping labels efficiently and handle international customs documents. You can also use your own Japan Post contract account to get discounted shipping rates.
 { .subtitle }
 
 [:lucide-layers:{ title="Applicable Products" }](../../resources/conventions#適用產品) | Cross-Border E-Commerce (Japan to Taiwan)<br>
@@ -81,14 +81,14 @@ Express Mail Service (EMS) is a logistics option directly integrated between CYB
 When you choose EMS as your logistics channel, you get these key features:
 
 - **Lower Shipping Costs**: Use the discounted rates in your own contract with **Japan Post** to reduce cross-border logistics costs.
-- **Label Printing in the Admin**: Generate consignment notes in the admin in one click and manage orders from placement to shipping in one place.
+- **Label Printing in the Admin**: Generate shipping labels in the admin in one click and manage orders from placement to shipping in one place.
 - **Easier Customs Clearance**: Customers **do not need EZWAY real-name verification**, making delivery more convenient and improving conversion.
 
 ### Before You Start { #intro-express-ems-requirements }
 
 - **Product Information Settings**: Products sold cross-border **must include customs information** (such as JANCODE, ingredients, and country of origin). For field details, see [Product Information Settings for Japan-to-Taiwan Cross-Border Sales](product-info-setting.md).
-- **Label Printing Service Fee**: The system deducts CYBER Coins in advance when you create a consignment note. On the last day of each month, billing is adjusted based on the number of parcels shipped that month.
-- **Fee Settlement Limits**: If a consignment note is not actually used, for example because the order was canceled or the note expired, the label printing service fee already charged is not refunded.
+- **Label Printing Service Fee**: The system deducts CYBER Coins in advance when you create a shipping label. On the last day of each month, billing is adjusted based on the number of parcels shipped that month.
+- **Fee Settlement Limits**: If a shipping label is not actually used, for example because the order was canceled or the note expired, the label printing service fee already charged is not refunded.
 - **Pickup**: Contact Japan Post yourself to arrange pickup. You can book in advance through [Japan Post Pickup Booking](https://mgr.post.japanpost.jp/C20P02Action.do) to ship on time.
 - **Prohibited Items**: Make sure your products meet Japan Post's shipping restrictions. If a parcel is returned because of a violation, you are responsible for any losses. For details, see [Japan Post Prohibited Items](https://www.post.japanpost.jp/int/use/restriction/index_cn.html#airmail).
 
@@ -110,7 +110,7 @@ When you choose EMS as your logistics channel, you get these key features:
 1.  Apply for activation through your CYBERBIZ store consultant team. After activation, you can start setting it up in the admin.
 
 
-2.  Log in to your online store admin, go to **APP MARKET > My Apps > CYBERBIZ EXPRESS**, and click **基本設定 > Express Mail Service**.
+2.  Log in to your admin, go to **APP MARKET > My Apps > CYBERBIZ EXPRESS**, and click **Basic Setting > Express Mail Service**.
 
     ![](../../../assets/images/EC-後台-APPMARKET-我的擴充服務-EMS-開始設定01.en.png){ .screenshot }
 
@@ -132,9 +132,9 @@ When you choose EMS as your logistics channel, you get these key features:
             - **Memo**: After selecting this option, fill in the deferred-payment customer fields. To apply, see [JP POST](https://www.post.japanpost.jp/send/fee/how_to_pay/deferred_pay/index.html)
 
 
-    *   Enter the sender's identity information.
+    *   Fill in the sender's identity information.
 
-    *   Enter your shipping address in Japan.
+    *   Fill in your shipping address in Japan.
         *   Without a shipping address in Japan, you cannot ship orders, so be sure to fill it in.
         *   **We recommend entering it in Chinese** to make Taiwan customs review easier. (English also works, but Chinese is preferred.)
 
@@ -145,7 +145,7 @@ When you choose EMS as your logistics channel, you get these key features:
 
 
 
-## Ship Orders { #operate-shipping }
+## Fulfill Orders { #operate-shipping }
 
 1.  Go to **Orders > All Orders**, select the orders, and choose "Create Consignment Note".
 
@@ -154,31 +154,31 @@ When you choose EMS as your logistics channel, you get these key features:
         *   The delivery status is "Not Shipped" / "Preparing Shipment" / "Partially Shipped"
         *   The return status is "No Return Needed"
 
-    *   After you create the consignment note, the order's delivery status changes to "Shipped" automatically.
+    *   After you create the shipping label, the order's delivery status changes to "Shipped" automatically.
 
-    *   You can select multiple orders to create consignment notes in bulk.
+    *   You can select multiple orders to create shipping labels in batches.
 
-    *   When selecting in bulk, make sure every order qualifies for Japan-to-Taiwan home delivery. If any order does not match the delivery method or order status, the "Create Consignment Note" option does not appear.
+    *   When selecting in batches, make sure every order qualifies for Japan-to-Taiwan home delivery. If any order does not match the delivery method or order status, the "Create Consignment Note" option does not appear.
 
     ![](../../../assets/images/EC-後台-訂單-所有訂單-建立EXPRESS託運單01.en.png){ .screenshot }
 
 
-2.  **Choose the Delivery Method**: Select the delivery channel in the pop-up window.
+2.  **Choose the Delivery Method**: Select the delivery channel in the dialog.
 
     *   **Preview and Print Documents**: Based on what you selected (see the list below), the system opens a web preview. Check it and then print.
-        *   Consignment notes
+        *   Shipping labels
         *   Order details
         *   Picking lists
-        *   Shipping details
+        *   Shipment details
     *   **Bulk Download**: You can download all of the documents above at the same time.
-    *   **Automatic Sorting**: When you create notes in bulk, the system generates one PDF file with all order details, sorted by order number in ascending order.
+    *   **Automatic Sorting**: When you create notes in batches, the system generates one PDF file with all order details, sorted by order number in ascending order.
     *   **Real-Time Data Validation**: The system checks the fields of products in the order. If the weight or required cross-border product fields are missing, fill them in before shipping.
 
     ![](../../../assets/images/EC-後台-訂單-所有訂單-建立EXPRESS託運單06.en.png){ .small-image }
 
 
 
-## Reprint Consignment Notes { #intro-reprint }
+## Reprint Shipping Labels { #intro-reprint }
 
 
 Go to **Orders > All Orders**, select the orders, and choose "Reprint Consignment Note".

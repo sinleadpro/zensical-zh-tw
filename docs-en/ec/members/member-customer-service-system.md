@@ -62,20 +62,20 @@ hide: []
 ---
 # Member Customer Service System
 
-Learn how to configure the built-in customer service Q&A system on your website, including setting inquiry topics, handling messages from members and visitors, and managing consultation Message within orders.
+Learn how to configure the built-in customer support Q&A system on your website, including setting inquiry topics, handling messages from members and visitors, and managing consultation Message within orders.
 { .subtitle }
 
 ![](../../assets/images/EC-後台-會員-所有客服問題-畫面總覽01.en.png){ .hero-page }
 
 !!! tip "Use Cases"
-    - **Route Inquiries Efficiently**: Set up topics such as "Shipping Status" and "Return or Exchange Request" so customer service staff can quickly identify the main issue.
+    - **Route Inquiries Efficiently**: Set up topics such as "Shipping Status" and "Return or Exchange Request" so customer support staff can quickly identify the main issue.
     - **Build a Communication History**: Message is linked to the member account, allowing staff to review previous communication details even when the assigned agent changes.
     - **Improve Services with Data**: Export and analyze common inquiries to improve product descriptions or build an FAQ.
 
 
 ## 1. Feature Overview { #overview-member-cs }
 
-The website customer service Q&A system includes the following communication channels:
+The website customer support Q&A system includes the following communication channels:
 
 1.  **Contact Us (Site-Wide)**: Visitors can submit a message through the form whether or not they are logged in.
 2.  **Order Inquiry (Members Only)**: Members can leave a message about a **specific order** on the order details page. Message is automatically labeled with the order number.
@@ -115,7 +115,7 @@ The following sections explain the **Customer Service Q&A** interaction flow:
       > The relevant **Order Number** is automatically added to the Message. Click it to view the order Content directly.
 
 
-## 3. Set Up Customer Service Topics { #operate-member-cs-topics }
+## 3. Set Up Customer Support Topics { #operate-member-cs-topics }
 
 Before accepting storefront messages, set up inquiry categories to route Message appropriately.
 
@@ -158,16 +158,16 @@ Before accepting storefront messages, set up inquiry categories to route Message
 ![](../../assets/images/EC-後台-會員-客服問題-依會員分類-匯出客服問題01.png)
 
 
-## Frequently Asked Questions { #faq-member-cs }
+## FAQ { #faq-member-cs }
 
 ??? quote "Why does the Customer say they cannot see my reply after I click **Close Case**?"
     **Close Case** changes the management status in the admin panel. Use it for issues resolved through another channel, such as Phone. To display reply text to the Customer on the website, enter the reply and click **Save**.
 
 ??? quote "Where can Customer view reply records?"
-    Members can log in to the website and go to **我的帳戶 > 詢問紀錄** to view the All exchanged with the customer service center in the Content.
+    Members can log in to the website and go to **我的帳戶 > 詢問紀錄** to view the All exchanged with the customer support center in the Content.
 
 ??? quote "Can an Message sent by mistake be recalled?"
-    The system currently does not support recalling or editing customer service replies after they are sent. Create a **Standard Reply Template** or a **Pre-Reply Checklist** to reduce errors.
+    The system currently does not support recalling or editing customer support replies after they are sent. Create a **Standard Reply Template** or a **Pre-Reply Checklist** to reduce errors.
 
 ??? quote "Why can I only see **Issue Management** instead of the **All Customer Service Issues** menu in the admin panel?"
     The system dynamically changes this path to simplify the management interface based on **whether any issues are awaiting a reply**:

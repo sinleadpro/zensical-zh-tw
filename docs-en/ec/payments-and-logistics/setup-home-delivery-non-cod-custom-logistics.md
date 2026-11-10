@@ -72,7 +72,7 @@ icon: lucide/settings
 hide: []
 ---
 # Set up Home Delivery Non-COD / Custom Logistics
-Let merchants set up their own home delivery options and shipping fee rules with "Custom Logistics." You can set up tiered shipping fees based on order amount or weight, and support different temperature zone delivery needs such as ambient, chilled, and frozen.
+Let merchants set up their own home delivery options and shipping fee rules with "Custom Logistics." You can set up tiered shipping fees based on order amount or weight, and support different temperature zone delivery needs such as room-temperature, refrigerated, and frozen.
 { .subtitle }
 
 [:lucide-tag:{ title="Applicable plans" }](../../resources/conventions#適用方案) | All versions
@@ -87,14 +87,14 @@ The table below compares the features and how shipping labels are created for ea
 
 | Logistics Type | System-Integrated Carriers | Description | How to Print Shipping Labels |
 | ------- | ---- | ---- | ------------- |
-| Home Delivery Non-COD Logistics | Black Cat<br>Pelican Express<br>SF Express<br>Hsinchu Logistics | This logistics option is integrated with the system and can automatically update order status after shipment. | **Requires shipping with a system waybill**<br>[Ship with Black Cat](../orders/home-delivery/tcat-home-delivery-v2.md)<br>[Ship with Pelican Express](../orders/home-delivery/pelican-shipping-v2.md)<br>[Ship with SF Express](../orders/home-delivery/sf-express-shipping-v2.md)<br>[Ship with Hsinchu Logistics](../orders/home-delivery/hct-shipping-v2.md) |
+| Home Delivery Non-COD Logistics | T-CAT<br>Pelican<br>SF Express<br>HCT Logistics | This logistics option is integrated with the system and can automatically update order status after shipment. | **Requires shipping with a system waybill**<br>[Ship with T-CAT](../orders/home-delivery/tcat-home-delivery-v2.md)<br>[Ship with Pelican](../orders/home-delivery/pelican-shipping-v2.md)<br>[Ship with SF Express](../orders/home-delivery/sf-express-shipping-v2.md)<br>[Ship with HCT Logistics](../orders/home-delivery/hct-shipping-v2.md) |
 | Custom Logistics | - | This option is not integrated with the system, so order status is not updated after shipment. | [Ship with Custom Logistics](../orders/home-delivery/custom-logistic-shipping.md) |
 
-### Hsinchu Logistics Non-COD Site Survey Process { #prerequisites-custom-logistics-hct }
+### HCT Logistics Non-COD Site Survey Process { #prerequisites-custom-logistics-hct }
 
 === "With CYBERBIZ PAYMENTS"
 
-    Set up by following the [Hsinchu Logistics COD Activation Request](home-delivery-cash-on-delivery/#operate-home-cod-hct) process.
+    Set up by following the [HCT Logistics COD Activation Request](home-delivery-cash-on-delivery/#operate-home-cod-hct) process.
 
 === "Without CYBERBIZ PAYMENTS"
 
@@ -110,10 +110,10 @@ The table below compares the features and how shipping labels are created for ea
 
         ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-金物流-宅配物流-申請新竹物流貨到不付款01.png)
 
-    4. Fill out the application form and submit it.
+    4. Fill in the application form and submit it.
 
-        - CYBERBIZ customer service will notify Hsinchu Logistics to schedule an on-site survey. Once the survey is complete, activation takes place right away.
-        - If you need to change any information after submitting, contact CYBERBIZ customer service.
+        - CYBERBIZ customer support will notify HCT Logistics to schedule an on-site survey. Once the survey is complete, activation takes place right away.
+        - If you need to change any information after submitting, contact CYBERBIZ customer support.
         - After activation succeeds, you can enable the logistics option and start using it. CYBERBIZ also sends a notification email (about 7–10 business days).
 
         ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-金物流-宅配物流-申請新竹物流貨到不付款02.png)
@@ -121,7 +121,7 @@ The table below compares the features and how shipping labels are created for ea
     !!! tip "Next Step"
         After you enable the logistics option, follow [Step 2: Add Custom Logistics]() to create a custom logistics option. You can name it **HCT Prepaid** and set up the related rules.
 
-## Step 1: Shipping Country Settings (Master Switch) { #operate-custom-logistics-country }
+## Step 1: Shipping Country Settings (Master Toggle) { #operate-custom-logistics-country }
 
 Before you create specific logistics options, turn on shipping permissions for the target regions.
 
@@ -153,7 +153,7 @@ The system supports two fee calculation methods: "Order Amount" and "Order Weigh
 | Setting Type | Description | Recommendations |
 | :--- | :--- | :--- |
 | **Order Amount Shipping Fee** | Set shipping fees by order total range | Set the starting amount to NT$`0` to keep low-value orders from being unable to check out |
-| **Order Weight Shipping Fee** | Set shipping fees by total order weight (including gifts) | Enter product weights in the product details first |
+| **Order Weight Shipping Fee** | Set shipping fees by total order weight (including gifts) | Fill in product weights in the product details first |
 
 !!! tip "Best-Option Display Rule"
     If you set both amount-based and weight-based shipping fees, the system automatically selects the option that is most favorable to the customer (lower fee). We recommend setting up only one method to simplify management.
@@ -187,7 +187,7 @@ When a customer's cart contains products from different temperature zone, the sy
     - **Result**: The system splits the cart into two carts and calculates shipping fees for each one separately.
 
 
-## Frequently Asked Questions { #faq-custom-logistics }
+## FAQ { #faq-custom-logistics }
 
 ??? quote "Why does checkout show free shipping even though I set a shipping fee?"
     Check whether "Weight-Based Shipping Fee" is turned on but product weights are not set (default is 0), or whether the shipping fee ranges are set up incorrectly.
@@ -196,5 +196,5 @@ When a customer's cart contains products from different temperature zone, the sy
     After you add a payment method, you must return to **Custom Logistics > 編輯 > Payment Methods**, select the new item, and save.
 
 ??? quote "Can I set Custom Logistics to not deliver to specific regions?"
-    Yes. In "Shipping Regions," select only the cities you want to deliver to. Customers who enter an address in an unselected region cannot select this logistics option.
+    Yes. In "Shipping Regions," select only the cities you want to deliver to. Customers who fill in an address in an unselected region cannot select this logistics option.
 

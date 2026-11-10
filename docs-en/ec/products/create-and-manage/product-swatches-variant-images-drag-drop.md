@@ -1,6 +1,6 @@
 ---
 title: "Set up Product Color Swatches and Variant Images - Drag-and-Drop Theme"
-description: "Set up the color swatch feature for products on a drag-and-drop theme so shoppers see the matching image as soon as they pick a variant."
+description: "Set up the color swatch feature for products on a drag-and-drop theme so customers see the matching image as soon as they pick a variant."
 created: 2026-04-14 14:55
 last_modified: 2026-07-06 10:22
 lang: en-US
@@ -96,7 +96,7 @@ The **color swatch feature** lets customers click a specific variant (such as a 
 1.  **Create a multiple variant product**:
 
     *   After you finish the [basic product settings](create-update-products.md#operate-product-create-basic){ title="Add and Update Products" }, click "Create a multiple variant product" or "Edit Options".
-    - Click **Create an option**, name it "Color" (or a custom variant name), and add items under it (such as Red and Blue). When you are done, click **Save** in the pop-up window and then **Save** at the bottom of the product edit page to apply the options.
+    - Click **Create an option**, name it "Color" (or a custom variant name), and add items under it (such as Red and Blue). When you are done, click **Save** in the dialog and then **Save** at the bottom of the product edit page to apply the options.
 
     ![Add a color option](../../../assets/images/ec-商品-新增顏色款式.en.gif){ title="Add a Color Option" }
 

@@ -1,6 +1,6 @@
 ---
 title: "Set up Bot Protection and SMS Verification"
-description: "If your online store uses SMS verification for members (especially international SMS), add bot verification before the verification code is sent. This stops malicious programs from triggering a flood of SMS messages in a short time and driving up your SMS costs."
+description: "If your storefront uses SMS verification for members (especially international SMS), add bot verification before the verification code is sent. This stops malicious programs from triggering a flood of SMS messages in a short time and driving up your SMS costs."
 created: 2026-08-12 10:59
 last_modified: 2026-09-21 10:20
 lang: en-US
@@ -65,7 +65,7 @@ hide: []
 
 # Set up Bot Protection and SMS Verification
 
-If your online store uses SMS verification for members (especially international SMS), add bot verification before the verification code is sent. This stops malicious programs from triggering a flood of SMS messages in a short time and driving up your SMS costs.
+If your storefront uses SMS verification for members (especially international SMS), add bot verification before the verification code is sent. This stops malicious programs from triggering a flood of SMS messages in a short time and driving up your SMS costs.
 { .subtitle }
 
 [:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | All plans
@@ -74,10 +74,10 @@ If your online store uses SMS verification for members (especially international
 
 ## About Security Setting { #intro-security }
 
-Security Setting is the security control center of the CYBERBIZ admin panel. It helps lower the risk of account theft, customer data leaks, and malicious visits. The page is under **Website Management > Security Setting** in the admin panel and covers three main areas:
+Security Setting is the security control center of the CYBERBIZ admin. It helps lower the risk of account theft, customer data leaks, and malicious visits. The page is under **Website Management > Security Setting** in the admin and covers three main areas:
 
 - **[Member Security](member-security-settings/)**: Protects your website and customer data.
-- **[Admin Login](admin-security-settings/)**: Protects how you and your staff log in to the admin panel.
+- **[Admin Login](admin-security-settings/)**: Protects how you and your staff log in to the admin.
 - **Bot Protection**: Filters out malicious visitors and sets up the first line of defense before SMS messages are sent.
 
 
@@ -90,7 +90,7 @@ Before you start, check the following:
 
 ## SMS Verification for Member Registration { #operate-security-sms-bot-protection }
 
-If you have turned on SMS verification for member registration and international SMS, malicious programs may repeatedly trigger Send Verification Code on your website and **run up large international SMS charges** in a short time. With this feature on, customers must pass Cloudflare Turnstile bot verification before they click Send Verification Code, and the system sends the SMS only after they pass. This reduces losses from such attacks.
+If you have enabled SMS verification for member registration and international SMS, malicious programs may repeatedly trigger Send Verification Code on your website and **run up large international SMS charges** in a short time. With this feature on, customers must pass Cloudflare Turnstile bot verification before they click Send Verification Code, and the system sends the SMS only after they pass. This reduces losses from such attacks.
 
 ### Step 1: Get Verification Keys { #operate-security-sms-key }
 
@@ -135,7 +135,7 @@ If you have turned on SMS verification for member registration and international
     ![](../../assets/images/cloudflare-後台-建立Turnstile07.en.png){ .screenshot }
 
 
-### Step 2: Add the Keys in the Admin Panel { #operate-security-sms-bind }
+### Step 2: Add the Keys in the Admin { #operate-security-sms-bind }
 
 1. **Open the settings page:** Go to **Website Management > Security Setting > 機器人防護**.
 2. **Enter the keys:** Enter the **Site key** and the **Secret key**.
@@ -146,7 +146,7 @@ If you have turned on SMS verification for member registration and international
 
     ![](../../assets/images/EC-後台-管理中心-安全性設定-會員註冊簡訊機器人防護02.en.png)
 
-4. **Turn on protection:** Turn on the **SMS Verification Code** switch and save.
+4. **Turn on protection:** Enable the **SMS Verification Code** toggle and save.
 
 
 Once this is on, when customers click **Send Verification Code** on the registration page, a small bot verification pop-up appears first. After they pass, the pop-up closes automatically and the system sends the SMS verification code.
@@ -155,7 +155,7 @@ Once this is on, when customers click **Send Verification Code** on the registra
 
 
 !!! note "Clearing the Keys"
-    If you clear the saved keys, the **Enable verification** switch also turns off, and the storefront no longer shows bot verification.
+    If you clear the saved keys, the **Enable verification** toggle also turns off, and the storefront no longer shows bot verification.
 
 
 ## FAQ { #faq-security }
@@ -168,10 +168,10 @@ Once this is on, when customers click **Send Verification Code** on the registra
         **Examples**: `abc.cyberbiz.co`, `www.abc.com.tw`, `www.abc.com`
 
 ??? quote "What if I get the error **Invalid Site Key**?"
-    Compare the **Site Key** in the Cloudflare dashboard with the one in the CYBERBIZ admin panel. Make sure they match exactly, and then enter it again.
+    Compare the **Site Key** in the Cloudflare dashboard with the one in the CYBERBIZ admin. Make sure they match exactly, and then enter it again.
 
 ??? quote "What if I get the error **This Site Key has been disabled**?"
-    Log in to the Cloudflare dashboard, find the Site Key, and turn it back on. Then go back to the CYBERBIZ admin panel and enter the key again.
+    Log in to the Cloudflare dashboard, find the Site Key, and turn it back on. Then go back to the CYBERBIZ admin and enter the key again.
 
 ??? quote "What if I get the error **Site Key not found. Check the key or your Cloudflare dashboard settings**?"
-    Check that both the **Site Key** and **Secret Key** from the Cloudflare dashboard are entered correctly in the CYBERBIZ admin panel, and that both keys belong to the same Turnstile widget.
+    Check that both the **Site Key** and **Secret Key** from the Cloudflare dashboard are entered correctly in the CYBERBIZ admin, and that both keys belong to the same Turnstile widget.

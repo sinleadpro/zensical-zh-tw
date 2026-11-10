@@ -66,10 +66,10 @@ hide: []
 
 ## About Product Excel Import { #intro-excel-import }
 
-Use the Excel template to add or update many products at once. This is useful for listing products or adjusting product information in bulk. Before importing, review the following feature limits and notes on image hosting links.
+Use the Excel template to add or update many products at once. This is useful for listing products or adjusting product information in batches. Before importing, review the following feature limits and notes on image hosting links.
 
 !!! plan "North America Site Limits"
-	- The North America site uses English as the default editing language. Bulk import can currently upload and update only the English pages of products.
+	- The North America site uses English as the default editing language. Batch import can currently upload and update only the English pages of products.
 	- Product SKUs must match Amazon for orders to ship.
 
 ## Prerequisites and Limits { #prerequisites-excel-import }

@@ -70,7 +70,7 @@ Buy X Get Y Discount lets you set tiered "buy N items, get a deal" rules for a g
 !!! tip "Use Cases"
     - **End-of-season clearance**: Set "2 for NT$500, 3 for NT$699" to move low- and mid-priced products faster.
     - **Pair new and older items**: Bundle new and older products with "2 items at 80% of list price" to boost overall visibility and sales.
-    - **Multi-category promotions**: Mix high-, mid-, and low-priced products with "3 for NT$999" to raise average order value.
+    - **Multi-category promotions**: Mix high-, mid-, and low-priced products with "3 for NT$999" to raise AOV.
 
 ## Before You Start { #prerequisites-discount }
 
@@ -91,7 +91,7 @@ Buy X Get Y Discount lets you set tiered "buy N items, get a deal" rules for a g
 ### Step 1: Create A Buy X Get Y Discount Group { #operate-discount-create-discount }
 
 1. Log in to the CYBERBIZ admin and go to **Marketing > Buy X get Y Discount**.
-2. Enter a group name and click **Create a collection** to open the settings page.
+2. Enter a group name and click **Create a collection** to open the setup page.
 
 ### Step 2: Set Basic Information And The Promotion Period { #operate-discount-settings-campaign }
 

@@ -87,10 +87,10 @@ Overseas merchants can use CYBERBIZ EXPRESS for Japan-to-Taiwan store pickup del
 ## Before You Start { #prerequisites-express-711 }
 
 - **Product Information Settings**: Products sold cross-border **must include customs information** (such as JANCODE, ingredients, and country of origin). For field details, see [Product Information Settings for Japan-to-Taiwan Cross-Border Sales](product-info-setting.md).
-- **Shipping Fees**: When you create a consignment note, the system calculates the fee from the product weight and volume and deducts CYBER Coins in advance. On the 5th of each month, CYBER Coins are refunded or charged based on the actual shipping fees.
+- **Shipping Fees**: When you create a shipping label, the system calculates the fee from the product weight and volume and deducts CYBER Coins in advance. On the 5th of each month, CYBER Coins are refunded or charged based on the actual shipping fees.
 
 
-## Turn on the Feature { #operate-express-711 }
+## Enable the Feature { #operate-express-711 }
 
 ### Apply for Activation { #operate-express-711-application }
 
@@ -100,8 +100,8 @@ Overseas merchants can use CYBERBIZ EXPRESS for Japan-to-Taiwan store pickup del
     ![](../../../assets/images/EC-後台-APPMARKET-EXPRESS啟用超商物流01.en.png){ .screenshot }
 
 3. Select the checkbox to agree to the **Cross-Border Shipping Service Agreement** and save the settings.
-4. Turn on the **7-11 Store Pickup** switch and choose how to print consignment notes.
-5. Enter your **shipping address in Japan**.
+4. Turn on the **7-11 Store Pickup** toggle and choose how to print shipping labels.
+5. Fill in your **shipping address in Japan**.
     - **We recommend entering it in Chinese** to make Taiwan customs review easier.
     - If you leave this address blank, the system cannot generate customs invoices or bill of lading lists.
 
@@ -110,23 +110,23 @@ Overseas merchants can use CYBERBIZ EXPRESS for Japan-to-Taiwan store pickup del
 
 ### Set up the Checkout Option { #operate-express-711-checkout-settings }
 
-After turning on the logistics switch, enable the delivery method for checkout:
+After enabling the logistics toggle, enable the delivery method for checkout:
 
 1. Go to **Payment and Logistics > 物流設定 > Convenience Store Logistics** and click the edit button for **7-11 B2C Store Pickup**.
 
     ![](../../../assets/images/EC-後台-金物流-超商物流-日到台超商物流01.en.png){ .screenshot }
 
-2. Turn on **Enable Pickup Without Payment**, set the shipping fee rules, and save.
+2. Enable **Enable Pickup Without Payment**, set the shipping fee rules, and save.
 
     ![](../../../assets/images/EC-後台-金物流-超商物流-日到台超商物流02.en.png){ .screenshot }
 
-## Ship Orders { #operate-shipping }
+## Fulfill Orders { #operate-shipping }
 
-When a customer places an order and chooses 7-11 store pickup, follow these steps to ship it.
+When a customer submits an order and chooses 7-11 store pickup, follow these steps to ship it.
 
-### Create Consignment Notes { #operate-shipping-waybill-create }
+### Create Shipping Labels { #operate-shipping-waybill-create }
 
-To create a consignment note, the order must meet all of these conditions:
+To create a shipping label, the order must meet all of these conditions:
 
 - The order status is `已收到款項`.
 - The delivery status is `未出貨` / `準備出貨` / `部分出貨`.
@@ -135,22 +135,22 @@ To create a consignment note, the order must meet all of these conditions:
 **Steps:**
 
 1. Go to **Orders > All Orders**.
-2. Select the orders to ship and click **更多操作 > 建立託運單**.
+2. Select the orders to fulfill and click **更多操作 > 建立託運單**.
 
     ![](../../../assets/images/EC-後台-訂單-所有訂單-建立EXPRESS託運單01.en.png){ .screenshot }
 
-3. Based on what you selected (consignment notes, picking lists, order/shipping details), the system opens print preview tabs so you can print directly.
+3. Based on what you selected (shipping labels, picking lists, order/shipment details), the system opens print preview tabs so you can print directly.
 
     > Click **Download all documents at the same time** to save the documents to your computer as a compressed file.
 
     ![](../../../assets/images/EC-後台-訂單-所有訂單-建立EXPRESS託運單04.en.png){ .small-image }
 
-!!! note "When the Shipping Status Changes"
+!!! note "When the Delivery Status Changes"
     Only after the **Shipping Label** is generated successfully does the order status change to `Shipped` automatically.
 
-### Reprint Consignment Notes { #operate-shipping-reprint }
+### Reprint Shipping Labels { #operate-shipping-reprint }
 
-To reprint a consignment note, the order must meet this condition:
+To reprint a shipping label, the order must meet this condition:
 
 - The delivery status is `Shipped`
 
@@ -193,8 +193,8 @@ To download a customs invoice, the order must meet this condition:
 
 ### Uncollected Parcels { #specs-express-711-overdue }
 
-1. If a customer does not pick up a parcel within 7 days, the parcel is returned and received by the Fengchao warehouse. You can check its status in the **EXPRESS tracking number list**, where the delivery status shows **Overdue**.
-2. After Fengchao receives the parcel, the delivery status shows **Returned to Warehouse**, and a **Handle Overdue Parcel** button appears on the tracking number page.
+1. If a customer does not pick up a parcel within 7 days, the parcel is returned and received by the HONEYCOMB warehouse. You can check its status in the **EXPRESS tracking number list**, where the delivery status shows **Overdue**.
+2. After HONEYCOMB receives the parcel, the delivery status shows **Returned to Warehouse**, and a **Handle Overdue Parcel** button appears on the tracking number page.
 
     ![](../../../assets/images/EC-後台-APPMARKET-EXPRESS-超商訂單逾期未取01.en.png){ .screenshot }
 
@@ -205,16 +205,16 @@ To download a customs invoice, the order must meet this condition:
     === "Ship Again"
 
         - **Delivery Limitation**: The parcel can only be sent back to the original store. The recipient address cannot be changed.
-        - **Order Changes**: The original order's delivery status is marked **Invalid**, and the system creates a new consignment note automatically.
+        - **Order Changes**: The original order's delivery status is marked **Invalid**, and the system creates a new shipping label automatically.
         - **Linked Information**:
 
-            - The new consignment note number is recorded in the order **Memo** automatically.
+            - The new shipping label number is recorded in the order **Memo** automatically.
 
             - The order details page shows both the **original consignment note** and the **new consignment note**.
 
                 ![](../../../assets/images/EC-後台-訂單-所有訂單-EXPRESS超商訂單再寄一次明細01.en.png){ .screenshot }
 
-        - **Shipment Tracking**: The order status is updated based on the new consignment note, and the delivery history is kept in the activity log.
+        - **Shipment Tracking**: The order status is updated based on the new shipping label, and the delivery history is kept in the activity log.
 
             ![](../../../assets/images/EC-後台-訂單-所有訂單-EXPRESS超商訂單再寄一次明細02.en.png){ .screenshot }
 
@@ -227,9 +227,9 @@ To download a customs invoice, the order must meet this condition:
 
     === "Return to Merchant"
 
-        - **Return Address**: Parcels are returned to the **Shipping Address** on the EXPRESS basic settings page.
+        - **Return Address**: Parcels are returned to the **Shipping Address** on the EXPRESS basic setup page.
         - **Order Changes**: The original order's delivery status is marked **Returned to Merchant**, and **Memo** notes **Merchant chose "Return to Merchant"**.
-        - **Fees**: The system calculates only the fee for returning the parcel to the Fengchao warehouse. The international shipping fee for sending the parcel from the Fengchao warehouse back to you is not calculated or shown in the admin; the actual fee appears on your statement. Because several parcels may be packed and shipped together, the statement may show one combined fee for several parcels.
+        - **Fees**: The system calculates only the fee for returning the parcel to the HONEYCOMB warehouse. The international shipping fee for sending the parcel from the HONEYCOMB warehouse back to you is not calculated or shown in the admin; the actual fee appears on your statement. Because several parcels may be packed and shipped together, the statement may show one combined fee for several parcels.
 
 
     !!! warning "Parcel Handling Deadline and Fees"
@@ -239,13 +239,13 @@ To download a customs invoice, the order must meet this condition:
     ![](../../../assets/images/EC-後台-APPMARKET-EXPRESS-超商訂單逾期未取04.en.png){ .screenshot }
 
 
-### Expired Consignment Notes { #specs-express-711-waybill-expiry }
+### Expired Shipping Labels { #specs-express-711-waybill-expiry }
 
-If a parcel reaches the consolidation warehouse more than 30 days after its consignment note was printed, the system marks the delivery status as **Shipping Exception** and does the following:
+If a parcel reaches the consolidation warehouse more than 30 days after its shipping label was printed, the system marks the delivery status as **Shipping Exception** and does the following:
 
-- **Automatic Reshipment**: After the Fengchao warehouse receives the parcel, the system creates a new consignment note and ships it again.
-- **Status Change**: The original consignment note changes to **Invalid**, and the system records the new consignment note number automatically.
-- **Merchant Tracking**: The system handles this automatically, so **you do not need to do anything**. Keep tracking the shipment with the new consignment note number.
+- **Automatic Reshipment**: After the HONEYCOMB warehouse receives the parcel, the system creates a new shipping label and ships it again.
+- **Status Change**: The original consignment note changes to **Invalid**, and the system records the new shipping label number automatically.
+- **Merchant Tracking**: The system handles this automatically, so **you do not need to do anything**. Keep tracking the shipment with the new shipping label number.
 
 
 
@@ -262,20 +262,20 @@ Select a new 7-11 store on the order details page within **2 business days**.
 
 > 
 
-## Shipping Notifications { #intro-express-711 }
+## Logistics Notifications { #intro-express-711 }
 
-The system sends notifications to customers and merchants automatically so everyone stays up to date on shipment status:
+The system sends notifications to customers and merchants automatically so everyone stays up to date on delivery status:
 
 | Scenario | Trigger | Recipient | Method | Notes |
 | :--- | :--- | :--- | :--- | :--- |
-| **Shipping Notification** | Consignment note created | Customer | Email | Includes an EZWAY real-name verification reminder |
+| **Shipping Notification** | Shipping label created | Customer | Email | Includes an EZWAY real-name verification reminder |
 | **Arrival Notification** | Parcel arrives at the store | Customer | SMS + Email | Sent on day 1 |
 | **Pickup Reminder** | Not picked up by day 4 after arrival | Customer | SMS + Email | |
 | **Store Closure/Relocation** | 讀取到關轉狀態 | 商家<br>消費者 | Email | **Merchant must update the store within 2 days** |
 | **Returned After Store Closure Deadline** | The store closed or relocated, the merchant did not select a new store, and the parcel is returned | Merchant<br>Customer | Email | The merchant is notified separately after the warehouse receives the parcel |
 | **Returned After Not Picked Up** | An uncollected parcel is returned | Merchant<br>Customer | Email | The merchant is notified separately after the warehouse receives the parcel |
 | **Return Confirmation** | The warehouse receives the returned parcel | Merchant | Email | **Merchant must choose a handling method within 15 days**, or the parcel is discarded automatically |
-| **Ship Again** | The warehouse ships with a new consignment note | Merchant<br>Customer | Email | |
+| **Ship Again** | The warehouse ships with a new shipping label | Merchant<br>Customer | Email | |
 
 
 

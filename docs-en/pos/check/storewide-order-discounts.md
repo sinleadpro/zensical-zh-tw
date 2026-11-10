@@ -81,14 +81,14 @@ Store staff can flexibly adjust prices for an entire order during checkout. Admi
 
 
 
-## Usage Notes { #prerequisites-order-discount }
+## Before You Start { #prerequisites-order-discount }
 
-- **Permission Restrictions**: This feature is available only to users with the **Store Manager** role by default. Regular staff must be granted permission by an administrator in the back office.
+- **Permission Restrictions**: This feature is available only to users with the **Store Manager** role by default. Regular staff must be granted permission by an administrator in the admin.
 - **Adjustment Records**: Every whole-order discount requires an **Adjustment Note**. The system saves the note for future reconciliation and auditing.
 - **Quick Note Selection**: The system automatically saves the 5 most recent adjustment notes so staff can select them quickly.
 
 
-## Workflow { #operate-order-discount }
+## Steps { #operate-order-discount }
 
 ### Task 1: Apply a Whole-Order Discount on the POS Front End { #operate-order-discount-task-a-pos }
 
@@ -121,20 +121,20 @@ During checkout, staff can adjust the cart total at any time.
     - To make changes, click the **Edit** icon next to the discount amount to reconfigure it.
 
 !!! tip "How to Review Order Adjustment Records"
-    To view records of manual price adjustments, log in to the back office, go to **Orders > [Order Data Export](../../ec/orders/reports/export-order-report.md)**, and select the **Whole-Order Discount** and **Whole-Order Discount Note** fields to export. You can then view the information.
+    To view records of manual price adjustments, log in to the admin, go to **Orders > [Order Data Export](../../ec/orders/reports/export-order-report.md)**, and select the **Whole-Order Discount** and **Whole-Order Discount Note** fields to export. You can then view the information.
 
 
 
-### Task 2: Enable Staff Adjustment Permissions in the Back Office { #operate-order-discount-task-b-admin }
+### Task 2: Enable Staff Adjustment Permissions in the Admin { #operate-order-discount-task-b-admin }
 
-If you want regular staff to be able to make price adjustments, an administrator must complete the setup in the back office.
+If you want regular staff to be able to make price adjustments, an administrator must complete the setup in the admin.
 
-1. Log in to the CYBERBIZ back office and go to **POS > Authorization Management**.
+1. Log in to the CYBERBIZ admin and go to **POS > Authorization Management**.
 2. Click **Set Role Permissions**.
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-店長改價06.png){ .screenshot }
 
-3. Select the job title or role of the target employee.
+3. Select the job title or role of the target staff member.
 4. Find the **Whole-Order Discount** option and switch the toggle to `On`.
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/POS前台-整筆訂單折扣06.png){ .screenshot }

@@ -77,7 +77,7 @@ Under Ministry of Finance regulations in effect since January 1, 2023, businesse
 In CYBERBIZ, this disclosure has two parts:
 
 - **Admin company information**: Enter basic information such as your full company name and tax ID number in "General Settings." This is the data source for the system and storefront display.
-- **Clear storefront disclosure**: Show your business name and tax ID number prominently on your website so consumers can clearly see them, meeting the "prominent location" requirement.
+- **Clear storefront disclosure**: Show your business name and tax ID number prominently on your storefront so consumers can clearly see them, meeting the "prominent location" requirement.
 
 !!! info "Tip"
     The tax ID number in admin "General Settings" and the one in the footer's "Contact Information" are two separate fields. Fill in both. For details, see [Important Rules and Limitations](#specs-business-disclosure).
@@ -87,11 +87,11 @@ In CYBERBIZ, this disclosure has two parts:
 Before you start, check the following:
 
 - [x] **Admin permissions**: You need admin permissions for "General Settings" and "Website Appearance."
-- [x] **A theme is applied**: The footer disclosure is set on your website theme, so make sure you have applied and published a website theme.
+- [x] **A theme is applied**: The footer disclosure is set on your storefront theme, so make sure you have applied and published a storefront theme.
 
 !!! plan "Plans / Requirements"
     - Entering company information in "General Settings" and setting up the disclosure in the footer's "Contact Information" are **available on all plans**, with no extra activation needed.
-    - To adjust the footer with the **drag-and-drop theme** visual editor, your published website theme must be a "drag-and-drop theme" (included in most paid plans). Merchants using the "default theme" can complete the disclosure in "Website Settings."
+    - To adjust the footer with the **drag-and-drop theme** visual editor, your published storefront theme must be a "drag-and-drop theme" (included in most paid plans). Merchants using the "default theme" can complete the disclosure in "Website Settings."
 
 ## Steps { #operate-business-disclosure }
 
@@ -102,11 +102,11 @@ The disclosure covers two scenarios. Complete them in order.
 First fill in your company information in the admin as the source for the system and storefront display.
 
 1. **Open General Settings:** Go to "Website Feature Settings" > "General Settings" in the admin.
-2. **Enter the shop name:** In the "About Your Website" section, enter your brand or company name in "Shop Name." This name appears in the web page title.
-3. **Enter company contact information:** In the "Company Contact Information" section, enter "Full Company Name," "Tax ID Number," "Phone," and "Full Address" in order[^a].
+2. **Enter the shop name:** In the "About Your Website" section, fill in your brand or company name in "Shop Name." This name appears in the web page title.
+3. **Enter company contact information:** In the "Company Contact Information" section, fill in "Full Company Name," "Tax ID Number," "Phone," and "Full Address" in order[^a].
 4. **Save:** After you confirm the information, click the Save button at the bottom of the page.
 
-[^a]: The "Company Contact Information" section notes that "company address, phone, and other information also appear on your web pages," so the information you enter here is used for the storefront display.
+[^a]: The "Company Contact Information" section notes that "company address, phone, and other information also appear on your web pages," so the information you fill in here is used for the storefront display.
 
 <div class="grid cards" markdown>
 
@@ -117,9 +117,9 @@ First fill in your company information in the admin as the source for the system
 
 ---
 
-### Show Your Name and Tax ID Number on Your Website { #operate-business-disclosure-footer }
+### Show Your Name and Tax ID Number on Your Storefront { #operate-business-disclosure-footer }
 
-To meet the "prominent location" requirement, put your business name and tax ID number in your website footer so consumers can see them at the bottom of every page. The footer's "Contact Information" block has a separate "Show Tax ID Number" toggle and a "Tax ID Number" field. Other fields you can show are listed in the [Footer Contact Information Fields Reference](../references/business-disclosure-footer-fields.md#reference-footer-contact){ data-preview }.
+To meet the "prominent location" requirement, put your business name and tax ID number in your storefront footer so consumers can see them at the bottom of every page. The footer's "Contact Information" block has a separate "Show Tax ID Number" toggle and a "Tax ID Number" field. Other fields you can show are listed in the [Footer Contact Information Fields Reference](../references/business-disclosure-footer-fields.md#reference-footer-contact){ data-preview }.
 
 === "Drag-and-Drop Theme"
 
@@ -127,7 +127,7 @@ To meet the "prominent location" requirement, put your business name and tax ID 
     2. **Open footer contact information:** In the editor, click "Footer" at the bottom of the page and find the "Contact Information" settings block.
     3. **Turn on and enter the tax ID number:** Select "Show Tax ID Number" and enter your tax ID number in the "Tax ID Number" field.
     4. **Complete other contact details:** Also make sure fields such as "Address" and "Phone" are filled in and set to show.
-    5. **Save and publish:** After you save, the information appears in the footer at the bottom of your website.
+    5. **Save and publish:** After you save, the information appears in the footer at the bottom of your storefront.
 
     ![Drag-and-drop theme footer - show tax ID number](../../../assets/images/ec-website-appearance-footer-tax-id.en.png)
 
@@ -166,7 +166,7 @@ To meet the "prominent location" requirement, put your business name and tax ID 
 - **The two tax ID numbers are separate:** The tax ID number in admin "General Settings" is for system operations (such as e-invoices). The tax ID number in the storefront footer's "Contact Information" is disclosure text shown to consumers. Neither fills in the other, so be sure to fill in both.
 - **The footer must be set to show it:** Even after you enter the tax ID number, you must select "Show Tax ID Number" in the footer for it to appear on the storefront.
 - **Keep information consistent:** If you apply for third-party payment or other services, make the website name or company name in the admin match your application form, and include full contact details (phone, address, email) in the footer to help the review.
-- **Disclosure for your own website only:** If you use CYBERBIZ only for your own online store, clearly showing your business name and tax ID number on the website is enough. The extra account information required when selling on third-party platforms does not apply.
+- **Disclosure for your own website only:** If you use CYBERBIZ only for your own storefront, clearly showing your business name and tax ID number on the storefront is enough. The extra account information required when selling on third-party platforms does not apply.
 - **Japan website requirements:** If you run a Japan website, you must also create a dedicated page under [Japan's Act on Specified Commercial Transactions](jp-legal-compliance-page.md) that shows the seller's name, the person in charge, location, and contact information, and link that page in the footer.
 
 ---
@@ -177,7 +177,7 @@ To meet the "prominent location" requirement, put your business name and tax ID 
 
 - :lucide-palette:{ .lg }  
   [__Apply and Switch Website Themes__](../theme-and-layout/apply-and-switch-theme.md)  
-  Change or switch your website theme to adjust its overall visual style.
+  Change or switch your storefront theme to adjust its overall visual style.
 
 - :lucide-cookie:{ .lg }  
   [__Set Up a Cookie Consent Banner__](../code-customization/setup-cookie-consent-banner.md){ title="Set Up a Cookie Consent Banner" }  
@@ -191,7 +191,7 @@ To meet the "prominent location" requirement, put your business name and tax ID 
 
 ??? quote "I entered the tax ID number, but it doesn't show in the storefront footer."
     [](){ #faq-business-disclosure-not-shown }
-    The tax ID number in the footer must be set to show separately. In your website theme's footer "Contact Information" settings, make sure "Show Tax ID Number" is selected, enter the number in the "Tax ID Number" field, and save.
+    The tax ID number in the footer must be set to show separately. In your storefront theme's footer "Contact Information" settings, make sure "Show Tax ID Number" is selected, enter the number in the "Tax ID Number" field, and save.
 
     - Make sure you edited the currently "published" theme, not an unpublished one.
     - Remember to save after your changes (and publish again for drag-and-drop themes) so the storefront updates.
@@ -211,7 +211,7 @@ To meet the "prominent location" requirement, put your business name and tax ID 
 
 ---
 
-## References { #reference-business-disclosure }
+## See Also { #reference-business-disclosure }
 
 - [Footer Contact Information Fields Reference](../references/business-disclosure-footer-fields.md)
 

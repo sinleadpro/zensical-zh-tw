@@ -68,7 +68,7 @@ hide: []
 ---
 # Threshold Gifts / Quantity Gifts
 
-Create spend-threshold and quantity-threshold gift promotions. Set amount or item-count thresholds for orders or products with specific Tags, have gifts automatically sent, and manage stacking rules.
+Create spend-threshold and quantity-threshold free gift promotions. Set amount or item-count thresholds for orders or products with specific Tags, have free gifts automatically sent, and manage stacking rules.
 { .subtitle }
 
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | Advanced / Expert / All PLUS / Enterprise
@@ -78,13 +78,13 @@ Create spend-threshold and quantity-threshold gift promotions. Set amount or ite
 
 ## About Threshold And Quantity Gifts { #overview-discount }
 
-Free Gifts with Purchase is a promotion that gives customers a gift automatically when they reach a threshold. It can count "all order items" or "products with specific Tags," and supports multiple tiers.
+Free Gifts with Purchase is a promotion that gives customers a free gift automatically when they reach a threshold. It can count "all order items" or "products with specific Tags," and supports multiple tiers.
 
 !!! tip "Use Cases"
     - **Summer apparel gift**: For products tagged `夏季服飾`, give a cooling towel when spending NT$2000.
     - **Supplement quantity gift**: For products tagged `保健食品`, give a sample pack when buying 3.
     - **Anniversary sale**: Storewide, give a reusable bag for orders over NT$3000 and a thermos for orders over NT$5000.
-    - **Buy 3, get 1**: Buy 3 of a specific product and get 1 of the same or another selected gift.
+    - **Buy 3, get 1**: Buy 3 of a specific product and get 1 of the same or another selected free gift.
 
 **:lucide-info: Plan Availability**
 
@@ -93,36 +93,36 @@ Free Gifts with Purchase is a promotion that gives customers a gift automaticall
 | Product spend (quantity) gifts | ✕ | Add-on | ✓ |
 | Order spend gifts | Advanced and Expert | Add-on: Professional PLUS<br>Included: Advanced PLUS, Expert PLUS | ✓ |
 
-## Gift Rules { #specs-discount }
+## Free Gift Rules { #specs-discount }
 
 === "Other Plans"
 
     - Unpublished products can be gifts, but unlisted products can't.
-    - All gifts in the group are given together.
-    - If a gift has multiple Variants, **customers can't choose the variant**.
+    - All free gifts in the group are given together.
+    - If a free gift has multiple Variants, **customers can't choose the variant**.
 
 === "Enterprise"
 
     - Unpublished products can be gifts, but unlisted products can't.
-    - All gifts in the group are given together.
-    - If a gift has multiple variants, **customers can choose the variant at checkout**.
+    - All free gifts in the group are given together.
+    - If a free gift has multiple variants, **customers can choose the variant at checkout**.
 
         - The first variant is selected by default.
 
-        !!! tip "How to Offer a Choice of Gifts"
-            - **Correct setup**: Go to **Products > All Products**, create one product as the gift, and add several variants as gift options. Add that product to the gift promotion, and the storefront shows a drop-down menu for customers to pick one of three.
+        !!! tip "How to Offer a Choice of Free Gifts"
+            - **Correct setup**: Go to **Products > All Products**, create one product as the free gift, and add several variants as free gift options. Add that product to the free gift promotion, and the storefront shows a dropdown menu for customers to pick one of three.
             - **Incorrect setup**: If you create three separate products and add all three to the promotion, the system gives all three.
             - **Example**: To offer **one of three tableware gifts**, create one product `餐具贈品` with 3 variants: `杯子`, `盤子`, and `碗`. Customers can then choose a Variants at checkout.
 
         - **Notes**:
             - POS doesn't support this feature.
-            - Multi-variant gifts show a variant menu automatically.
-            - If the customer doesn't choose a variant, the default gift is given.
-            - Only variants in stock are shown. Variants with 0 stock are hidden.
+            - Multi-variant free gifts show a variant menu automatically.
+            - If the customer doesn't choose a variant, the default free gift is given.
+            - Only variants in stock are shown. Variants with 0 inventory are hidden.
 
         - **Customer checkout steps**:
-            1. At checkout, click the drop-down menu in the "Threshold / Quantity Gifts" section.
-            2. In the pop-up, choose variants for the number of gifts received.
+            1. At checkout, click the dropdown menu in the "Threshold / Quantity Gifts" section.
+            2. In the dialog, choose variants for the number of gifts received.
             ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-前台-結帳頁-滿額滿件贈區域-贈品自選款式01.png)
 
 ## Steps { #operate-discount }
@@ -153,11 +153,11 @@ Free Gifts with Purchase is a promotion that gives customers a gift automaticall
 
 ### Step 3: Set Conditions And Rules { #operate-discount-settings-campaign-conditions }
 
-1. **Tags**: Choose the product Tags to count from the drop-down menu.
+1. **Tags**: Choose the product Tags to count from the dropdown menu.
 
       > This field is only for product spend (quantity) gifts.
 
-2. **Stacking rule**: Choose how gifts are given (5 options). See **Stacking and Accumulation Rules** below.
+2. **Stacking rule**: Choose how free gifts are given (5 options). See **Stacking and Accumulation Rules** below.
 
 
 ![](../../../assets/images/EC-後台-行銷活動-滿額贈滿件贈-建立活動03.png){ .screenshot }
@@ -177,12 +177,12 @@ Free Gifts with Purchase is a promotion that gives customers a gift automaticall
 ### Step 5: Save And Order { #operate-discount-introduction }
 
 1. For multiple thresholds, repeat Step 4 to build tiers.
-2. Check that the gift list is correct.
+2. Check that the free gift list is correct.
 3. Click **Save** to finish.
 
 ## Stacking And Accumulation Rules { #overview-discount-overview }
 
-### Plan Availability { #overview-discount-overview-introduction }
+### Available Plans { #overview-discount-overview-introduction }
 
 | Gift Rule | Standard | PLUS | Enterprise |
 | -------- | ----- | ------- | ----- |
@@ -197,31 +197,31 @@ Free Gifts with Purchase is a promotion that gives customers a gift automaticall
 
 ### Stacking { #overview-discount-overview-details }
 
-When an order meets several gift thresholds, the "stacking" setting decides what's given:
+When an order meets several free gift thresholds, the "stacking" setting decides what's given:
 
 | Value | System Behavior |
 | --- | --- |
-| Stacking | Gives every qualifying gift |
-| No stacking | Gives only the highest-value gift |
+| Stacking | Gives every qualifying free gift |
+| No stacking | Gives only the highest-value free gift |
 
 ### Accumulation { #overview-discount-overview-overview }
 
-When an order exceeds the highest gift threshold, the "accumulation" setting decides whether gifts are given in multiple rounds:
+When an order exceeds the highest free gift threshold, the "accumulation" setting decides whether free gifts are given in multiple rounds:
 
 | Value | System Behavior |
 | --- | --- |
-| Accumulation | If the order exceeds the highest threshold, it can earn multiple rounds of gifts |
-| No accumulation | The order earns only one round of gifts; the remaining amount isn't counted |
+| Accumulation | If the order exceeds the highest threshold, it can earn multiple rounds of free gifts |
+| No accumulation | The order earns only one round of free gifts; the remaining amount isn't counted |
 
 "Accumulation" has two options:
 
 | Value | Calculation | Formula |
 | --- | --- | --- |
-| Repeating accumulation | Subtract the highest gift threshold from the order, send gifts<br>and check the remaining balance again | Order amount − highest gift threshold → send (stacking / no stacking) <br> Remaining amount − highest gift threshold → send (stacking / no stacking) <br> Remaining amount − highest gift threshold → send (stacking / no stacking) <br> Until remaining amount < highest gift threshold |
-| Multiple accumulation | Each gift's quantity is calculated separately | Order amount ÷ gift A threshold = gift A quantity <br> Order amount ÷ gift B threshold = gift B quantity <br> Order amount ÷ gift C threshold = gift C quantity <br> And so on |
+| Repeating accumulation | Subtract the highest free gift threshold from the order, send free gifts<br>and check the remaining balance again | Order amount − highest free gift threshold → send (stacking / no stacking) <br> Remaining amount − highest free gift threshold → send (stacking / no stacking) <br> Remaining amount − highest free gift threshold → send (stacking / no stacking) <br> Until remaining amount < highest free gift threshold |
+| Multiple accumulation | Each free gift's quantity is calculated separately | Order amount ÷ gift A threshold = gift A quantity <br> Order amount ÷ gift B threshold = gift B quantity <br> Order amount ÷ gift C threshold = gift C quantity <br> And so on |
 
 
-### Examples { #overview-discount-overview-reference }
+### Example { #overview-discount-overview-reference }
 
 These examples use order spend gifts:
 
@@ -239,9 +239,9 @@ These examples use order spend gifts:
 
 The system checks in this order:
 
-1. Find all gift thresholds the order amount meets.
-2. Choose the gift with the highest threshold. (No stacking)
-3. Give that gift once. The remaining amount isn't used for more gifts. (No accumulation)
+1. Find all free gift thresholds the order amount meets.
+2. Choose the free gift with the highest threshold. (No stacking)
+3. Give that free gift once. The remaining amount isn't used for more free gifts. (No accumulation)
 
 #### Stacking + No Accumulation { #overview-discount-overview-flow }
 
@@ -253,9 +253,9 @@ The system checks in this order:
 
 The system checks as follows:
 
-1. Find all gift thresholds the order amount meets.
-2. Give every qualifying gift. (Stacking)
-3. Give each gift once. The remaining amount isn't used for more gifts. (No accumulation)
+1. Find all free gift thresholds the order amount meets.
+2. Give every qualifying free gift. (Stacking)
+3. Give each free gift once. The remaining amount isn't used for more free gifts. (No accumulation)
 
 ####No Stacking + Repeating Accumulation
 
@@ -287,11 +287,11 @@ The system checks as follows:
 
 | Order | Round 1 | Round 2 | Result |
 | --------| ------ | --------| ------ |
-| NT$500 | 1. Thresholds met: A<br>2. Stacking: give all qualifying gifts<br>3. After subtracting NT$500, NT$0 remains; stop | - | 1 A |
-| NT$1000 | 1. Thresholds met: A, B<br>2. Stacking: give all qualifying gifts<br>3. After subtracting NT$1000, NT$0 remains; stop | - | 1 A + 1 B |
-| NT$1500 | 1. Thresholds met: A, B, C<br>2. Stacking: give all qualifying gifts<br>3. After subtracting NT$1500, NT$0 remains; stop | - | 1 A + 1 B + 1 C |
-| NT$2000 | 1. Thresholds met: A, B, C<br>2. Stacking: give all qualifying gifts<br>3. After subtracting NT$1500, NT$500 remains | 1. Remaining NT$500 meets the A threshold<br> 2. Stacking: give all qualifying gifts<br> 3. After subtracting NT$500, NT$0 remains; stop  | 2 A + 1 B + 1 C |
-| NT$2600 | 1. Thresholds met: A, B, C<br>2. Stacking: give all qualifying gifts<br>3. After subtracting NT$1500, NT$1100 remains | 1. Remaining NT$1100 meets the A and B thresholds<br> 2. Stacking: give all qualifying gifts<br> 3. After subtracting NT$1000, NT$100 remains; stop  | 2 A + 2 B + 1 C |
+| NT$500 | 1. Thresholds met: A<br>2. Stacking: give all qualifying free gifts<br>3. After subtracting NT$500, NT$0 remains; stop | - | 1 A |
+| NT$1000 | 1. Thresholds met: A, B<br>2. Stacking: give all qualifying free gifts<br>3. After subtracting NT$1000, NT$0 remains; stop | - | 1 A + 1 B |
+| NT$1500 | 1. Thresholds met: A, B, C<br>2. Stacking: give all qualifying free gifts<br>3. After subtracting NT$1500, NT$0 remains; stop | - | 1 A + 1 B + 1 C |
+| NT$2000 | 1. Thresholds met: A, B, C<br>2. Stacking: give all qualifying free gifts<br>3. After subtracting NT$1500, NT$500 remains | 1. Remaining NT$500 meets the A threshold<br> 2. Stacking: give all qualifying free gifts<br> 3. After subtracting NT$500, NT$0 remains; stop  | 2 A + 1 B + 1 C |
+| NT$2600 | 1. Thresholds met: A, B, C<br>2. Stacking: give all qualifying free gifts<br>3. After subtracting NT$1500, NT$1100 remains | 1. Remaining NT$1100 meets the A and B thresholds<br> 2. Stacking: give all qualifying free gifts<br> 3. After subtracting NT$1000, NT$100 remains; stop  | 2 A + 2 B + 1 C |
 
 #### Stacking + Multiple Accumulation { #overview-discount-overview-examples }
 

@@ -79,7 +79,7 @@ Guest checkout lets stores complete sales for customers who are not members and 
     - **Quick checkout**: When customers are in a hurry or do not want to provide personal information, staff can quickly enter guest mode to complete checkout and avoid long lines at the counter.
     - **Keep operational flexibility**: Customers are not required to become members, which preserves a good shopping experience, while orders can still be tracked through the default account.
 
-## Usage Notes { #prerequisites-guest-checkout }
+## Before You Start { #prerequisites-guest-checkout }
 
 - **System default account**: Guest checkout always uses `pos-guest@cyberbiz.io` as the login email. This setting is fixed by the system and cannot be changed manually.
 - **Member benefit limits**: Guest orders **cannot** accumulate spending totals, bonus points, or VIP levels, and cannot use registration gift or member-exclusive coupon.
@@ -87,11 +87,11 @@ Guest checkout lets stores complete sales for customers who are not members and 
 
 ## Procedure { #operate-guest-checkout }
 
-### Step 1: Enable the Feature in the Back Office { #operate-guest-checkout-step-a-admin }
+### Step 1: Enable the Feature in the Admin { #operate-guest-checkout-step-a-admin }
 
-Before using guest checkout, you must first complete the authorization settings in the back office.
+Before using guest checkout, you must first complete the authorization settings in the admin.
 
-1. Log in to the CYBERBIZ back office and go to **POS > POS Store List**.
+1. Log in to the CYBERBIZ admin and go to **POS > POS Store List**.
 2. In the store list, click the target **POS store name** to open its store settings.
 3. Scroll down, find **Enable Guest Checkout**, and select the checkbox.
 4. Click **Save** at the bottom of the page to complete the setup.
@@ -100,7 +100,7 @@ Before using guest checkout, you must first complete the authorization settings 
 
 ### Step 2: Guest Login on the POS Front End { #operate-guest-checkout-step-b-pos }
 
-After you complete the back office setup, the corresponding option appears on the POS front-end login screen.
+After you complete the admin setup, the corresponding option appears on the POS front-end login screen.
 
 1. Open the POS front-end login page.
 2. Click the **Guest Checkout** button on the screen.
@@ -112,7 +112,7 @@ After you complete the back office setup, the corresponding option appears on th
 
 To look up past guest transactions later, filter them by the system account.
 
-1. In the POS front end, click **Member Search** (or go to **Orders > All Orders** in the back office).
+1. In the POS front end, click **Member Search** (or go to **Orders > All Orders** in the admin).
 2. Enter the default account in the search field: `pos-guest@cyberbiz.io`.
 3. The system lists all orders completed as a guest.
 
@@ -124,6 +124,6 @@ To look up past guest transactions later, filter them by the system account.
     The system does not currently support retroactively transferring guest orders to a regular member account. If the customer needs member benefits, **be sure to complete** [member sign-up](../check/index/#operate-check-member-backfill) before checkout.
 
 ??? quote "Why don't I see the Guest Checkout button on the POS front end?"
-    First, confirm that **Enable Guest Checkout** in the back office is saved correctly, then log back in to the POS front end or refresh the page.
+    First, confirm that **Enable Guest Checkout** in the admin is saved correctly, then log back in to the POS front end or refresh the page.
 
 

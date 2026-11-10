@@ -55,29 +55,29 @@ hide: []
 ---
 # Create Exclusive VIP Groups
 
-Use the VIP group Tags feature to bind Tags to specific customer segments and set exclusive VIP rules for segmented customer management and targeted marketing.
+Use the VIP group Tags feature to link Tags to specific customer segments and set exclusive VIP rules for segmented customer management and targeted marketing.
 { .subtitle }
 
 ![](../../../assets/images/EC-後台-會員-VIP設定-新增VIP群組01.en.png){ .hero-page }
 
-## Feature Overview { #intro-vip-groups }
+## About This Feature { #intro-vip-groups }
 
 The "VIP Group Tags" feature lets merchants apply a set of tier rules separate from the "All VIP" rules to members with a specific **member Tags**. This is useful for managing specific customer segments, such as employees, KOLs, and high-value customers.
 
 ### VIP Type Differences { #intro-vip-groups-types }
 
 1.  **All VIP**: Applies to all members who are not assigned to a specific group.
-2.  **VIP Group**: Binds a specific **member Tags** and is available only to members with that Tags.
+2.  **VIP Group**: Links a specific **member Tags** and is available only to members with that Tags.
 
 
-## Procedure { #operate-vip-groups }
+## Steps { #operate-vip-groups }
 
 ### Step 1: Create A VIP Group And Bind An Tags { #operate-vip-groups-create }
 
 1. Log in to the admin panel and go to **Customer Management > VIP Settings**.
 2. Click the **Version In Editing** tab.
 3. Click **New VIP Group**.
-4. From the **Bind Member Tags** drop-down menu, select a previously created member Tags.
+4. From the **Bind Member Tags** dropdown menu, select a previously created member Tags.
 5. Set the tier thresholds and benefits for the group.
 
 ### Step 2: Adjust Group Order { #operate-vip-groups-sort }
@@ -92,7 +92,7 @@ The "VIP Group Tags" feature lets merchants apply a set of tier rules separate f
 ### 1. Recalculation Triggers { #specs-vip-groups-trigger }
 The system recalculates a member's VIP tier in the following situations:
 
-*   **Tags Changes**: When a merchant **adds** or **removes** an Tags bound to a VIP group for a member.
+*   **Tags Changes**: When a merchant **adds** or **removes** an Tags linked to a VIP group for a member.
 *   **Valid Order**: When the member places a new valid order.
 
 ### 2. Priority And Order { #specs-vip-groups-priority }

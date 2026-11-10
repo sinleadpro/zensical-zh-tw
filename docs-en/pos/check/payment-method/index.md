@@ -75,7 +75,7 @@ Manage the payment methods available on the POS frontend, including cash, credit
 
 ![](../../../assets/images/POS-後台-所有POS門市-付款方式-畫面總覽01.en.png){ .hero-page }
 
-## Usage Notes { #prerequisites-payment-method }
+## Before You Start { #prerequisites-payment-method }
 
 - **Staff Permissions**: Only the **Website Owner** and **POS Store Manager** can use this feature.
 - **Hardware Requirements**: Some payment methods (such as credit card terminals and EasyCard) require a specific card reader model.
@@ -86,7 +86,7 @@ Manage the payment methods available on the POS frontend, including cash, credit
 
 === "Backend Setup"
 
-    1. Log in to the POS admin backend, go to **POS > POS Store List > [Click the POS store]**, and click the **Payment Method** tab.
+    1. Log in to the POS admin, go to **POS > POS Store List > [Click the POS store]**, and click the **Payment Method** tab.
     2. Enable the payment options that your store's checkout needs:
 
         <div class="grid cards" markdown>
@@ -96,7 +96,7 @@ Manage the payment methods available on the POS frontend, including cash, credit
         This is a default payment method and does not need to be enabled separately.
 
         - :lucide-credit-card:{ .lg }   
-        [__Credit Card (Card Terminal)__](../../hardware/taishin-wired-credit-card-machine.md)   
+        [__Credit Card (Credit Card Terminal)__](../../hardware/taishin-wired-credit-card-machine.md)   
         Connects to Taishin Bank wired card terminals. Transaction amounts sync automatically to the terminal, reducing manual entry errors.
 
         - :lucide-smartphone:{ .lg }   
@@ -135,7 +135,7 @@ Manage the payment methods available on the POS frontend, including cash, credit
 === "Frontend Display"
 
     - **Golden Slot Mechanism**: The frontend displays only the **first three** payment options by default. The remaining options are collapsed under **Other Payment Methods**.
-    - **Expand and Select**: Click **Other Payment Methods** to open a pop-up that shows the remaining options for quick selection.
-    - **Optimization Tip**: Move frequently used payment methods higher in the backend sort order to improve checkout conversion rates.
+    - **Expand and Select**: Click **Other Payment Methods** to open a dialog that shows the remaining options for quick selection.
+    - **Optimization Tip**: Move frequently used payment methods higher in the admin sort order to improve checkout conversion rates.
 
     ![](../../../assets/images/POS-前台-結帳-付款方式01.en.png){ .screenshot }

@@ -21,7 +21,7 @@ hide:
 
     ---
 
-    Use Facebook Business Extension to link assets such as pixels, Facebook Pages, catalogs, and ad accounts to the CYBERBIZ back office.
+    Use Facebook Business Extension to link assets such as pixels, Facebook Pages, catalogs, and ad accounts to the CYBERBIZ admin.
 
     [:octicons-arrow-right-24: Go to](setup-fbe-authorization.md)
 

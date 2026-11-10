@@ -112,15 +112,15 @@ Log in to the CYBERBIZ admin, go to **Push Notifications > Send SMS Messages**, 
 
 </div>
 
-### Send To Customer Groups { #operate-sms-send-group }
+### Send By Customer Groups { #operate-sms-send-group }
 
 Use customer groups to filter members by customer tag and send them all the same SMS. This works well for batch sends such as VIP offers and event announcements.
 
-1. **Open the page**: Go to **Push Notifications > Send SMS Messages** and select the **Send to customer groups** tab.
-2. **Choose recipients**: In the **Customer group** drop-down, select the **customer tag** to send to.
-3. **Write the message**: Enter your text in the **SMS content** field and keep an eye on the character count on the right.
+1. **Open the page**: Go to **Push Notifications > Send SMS Messages** and select the **By Customer Groups** tab.
+2. **Choose recipients**: In the **Customer group** dropdown, select the **customer tag** to send to.
+3. **Write the message**: Enter your text in the **Message body** field and keep an eye on the character count on the right.
 4. **Preview**: Click **Preview** and check on the right how the SMS looks, including the store name added automatically.
-5. **Send**: When everything looks right, click **Send**, then click **OK** in the pop-up.
+5. **Send**: When everything looks right, click **Submit**, then click **OK** in the dialog.
 
 !!! warning "Who can receive it"
     When you send by customer tag, only "website members" receive it (customers in the customer/member list, whether or not their accounts are activated).
@@ -133,26 +133,26 @@ Use customer groups to filter members by customer tag and send them all the same
 
 Enter website members' mobile numbers and the message directly. Use this for one-off or small notifications.
 
-1. **Open the page**: Go to **Push Notifications > Send SMS Messages** and click the **send manually** tab.
+1. **Open the page**: Go to **Push Notifications > Send SMS Messages** and click the **Manually** tab.
 2. **Enter numbers**: Enter the recipients in the **Mobile number** field. Local and international formats are supported:
     - One number: Enter the 10 digits (for example, 0912345678).
     - Several numbers: Separate them with a **semicolon ( ; )**.
     - International: International format is supported (for example, +886900123456).
-3. **Write the message**: Enter your text in the **SMS content** field.
+3. **Write the message**: Enter your text in the **Message body** field.
 4. **Preview**: Click **Preview** and check the text and layout in the **SMS preview** area on the right.
-5. **Send**: When everything looks right, click **Send**, then click **OK** in the confirmation window.
+5. **Send**: When everything looks right, click **Submit**, then click **OK** in the confirmation window.
 
 ![Send SMS - manual](../../assets/images/ec-訊息推播-發送簡訊-手動.en.png)
 
 ---
 
-### Send By Excel Import { #operate-sms-send-excel }
+### Send Via Excel { #operate-sms-send-excel }
 
-Upload an Excel list to send SMS in bulk. Two modes are supported:
+Upload an Excel list to send SMS in batches. Two modes are supported:
 
 | Mode | Description | Required columns |
 | :--- | :--- | :--- |
-| Send the same content to everyone | Everyone gets the same message; you enter the content on the page | Column A: mobile number |
+| Send the same content to everyone | Everyone gets the same message; you fill in the content on the page | Column A: mobile number |
 | Send different content to each person | Each person gets their own message; you enter the content in Excel | Column A: mobile number, column B: SMS content |
 
 
@@ -162,13 +162,13 @@ Upload an Excel list to send SMS in bulk. Two modes are supported:
 
 === "Same content"
 
-    Everyone gets the same message; you enter the content on the page.
+    Everyone gets the same message; you fill in the content on the page.
 
-    1. 1. **Prepare the list**: Go to **Push Notifications Send SMS Messages** > Excel import, download the template, and enter mobile numbers in column A.
-    2. **Choose the mode**: Select "send the same content to everyone" and upload the completed Excel file.
-    3. **Write the message**: Enter your text in the **SMS content** field.
+    1. **Prepare the list**: Go to **Push Notifications > Send SMS Messages** > Via Excel, download the template, and enter mobile numbers in column A.
+    2. **Choose the mode**: Select "Same Content" and upload the completed Excel file.
+    3. **Write the message**: Enter your text in the **Message body** field.
     4. **Preview**: Click **Preview** and check the number count and text in the SMS preview.
-    5. **Send**: When everything looks right, click **Send**, then click **OK** in the pop-up.
+    5. **Send**: When everything looks right, click **Submit**, then click **OK** in the dialog.
 
     ![Send SMS - Excel import, same content](../../assets/images/ec-訊息推播-發送簡訊-匯入excel-相同內容.en.png)
 
@@ -176,12 +176,12 @@ Upload an Excel list to send SMS in bulk. Two modes are supported:
 
     Each person gets their own message; you enter the content directly in Excel.
 
-    1. 1. **Prepare the list**: Go to **Push Notifications Send SMS Messages** > Excel import, download the template, and fill it in:
+    1. 1. **Prepare the list**: Go to **Push Notifications Send SMS Messages** > Via Excel, download the template, and fill it in:
         - Column A, mobile number: the recipient's number.
         - Column B, SMS content: the full message for that recipient.
-    2. **Choose the mode**: Select "send different content to each person" and upload the completed file.
+    2. **Choose the mode**: Select "Different Content" and upload the completed file.
     3. **Check the data**: The system reads the file automatically. Check that each mobile number matches its content on screen.
-    4. **Send**: Click **Send**, then click **OK** in the confirmation pop-up.
+    4. **Send**: Click **Submit**, then click **OK** in the confirmation dialog.
 
     !!! warning "Note: If column B is empty, that row will fail to send or cause a system error."
 

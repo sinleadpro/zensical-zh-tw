@@ -115,7 +115,7 @@ Before you begin, make sure you have the following:
 - [x] A LINE Provider
 - [x] A brand LINE official account
 - [x] A group buy bot LINE official account
-- [x] CYBERBIZ back-office admin access
+- [x] CYBERBIZ admin access
 ---
 
 ## Bot-Specific Messaging API Setup { #operate-line-group-bot }
@@ -129,7 +129,7 @@ Before you begin, make sure you have the following:
     ![Account settings: accept group invitations](../../../../assets/images/ec-第三方整合-lineoa-帳號設定-接受邀請加入群組或多人聊天室.en.gif){ title="Account settings: accept group invitations" }
 
 3.  **Response settings**: In the Response settings section,
-    - Turn on the **Chat** feature.
+    - Enable the **Chat** feature.
     - Set **Response mode** to **Manual chat + automatic response messages**.
     - **Disable** the welcome message that is sent when users add the account as a friend.
 
@@ -139,7 +139,7 @@ Before you begin, make sure you have the following:
 
     ![Enable Messaging API](../../../../assets/images/ec-第三方整合-lineoa-messagingapi.en.png){ title="Enable Messaging API" }
 
-    !!! warning "Ensure Consistent Consumer Identity (UID)"
+    !!! warning "Ensure Consistent Customer Identity (UID)"
         If your brand already has a LINE Provider (service provider), select "Existing provider" and **do not create a new Provider**.
 
         **Reason**: LINE user identifiers (UIDs) are managed per Provider. If the bot and the brand official account belong to different Providers, the system cannot recognize them as the same user.
@@ -148,7 +148,7 @@ Before you begin, make sure you have the following:
 
 5.  **Connect to the back office**:
 
-    *   Copy the LINE Channel information to the CYBERBIZ back office (path: **Third-Party Integrations ** > ** LINE Group Buy Bot Setup**).
+    *   Copy the LINE Channel information to the CYBERBIZ admin (path: **Third-Party Integrations ** > ** LINE Group Buy Bot Setup**).
 
         ![Copy and paste the Messaging API](../../../../assets/images/ec-第三方整合-line團購機器人-linemessageapi-複製貼上.en.gif){ title="Copy and paste the Messaging API" }
 
@@ -161,11 +161,11 @@ Before you begin, make sure you have the following:
 
         ![Open the Developers Console](../../../../assets/images/ec-第三方整合-lineoa-linedevelopersconsole-link.en.png){ title="Open the Developers Console" }
 
-    - On the "Messaging API" tab, turn on **Use webhook**, and paste the Webhook URL copied from the CYBERBIZ back office.
+    - On the "Messaging API" tab, turn on **Use webhook**, and paste the Webhook URL copied from the CYBERBIZ admin.
 
         ![Turn on the Webhook and paste the URL](../../../../assets/images/ec-第三方整合-linedeveloperconsole-messagingapi-webhook.en.png){ title="Turn on the Webhook and paste the URL" }
 
-    - Click **Issue** to get the **Channel access token**, paste it back into the CYBERBIZ back office, and save.
+    - Click **Issue** to get the **Channel access token**, paste it back into the CYBERBIZ admin, and save.
 
         ![Paste the Channel Access Token](../../../../assets/images/ec-第三方整合-line團購機器人-貼上linechannelaccesstoken.en.gif){ title="Paste the Channel Access Token" }
 
@@ -173,7 +173,7 @@ Before you begin, make sure you have the following:
 
 ## Bot Menu Setup { #operate-line-group-bot-settings }
 
-*   If you already operate a brand LINE official account, enter its **Account ID** in the back office.
+*   If you already operate a brand LINE official account, enter its **Account ID** in the admin.
 *   During group buying (for example, in the main menu, the order completion page, and thank-you messages), the system guides users to add the brand as a friend, which helps grow your membership.
 
 ![Group buy bot official account settings](../../../../assets/images/ec-第三方整合-line團購機器人-官方帳號設定.en.png){ title="Group buy bot official account settings" }
@@ -204,7 +204,7 @@ This setting allows the bot to open the shopping interface within the group:
 
     ![Linked OA setting](../../../../assets/images/ec-第三方整合-linedevelopers-liffapp-basic-settings-linkedoa.en.png){ title="Linked OA setting" }
 
-5.  **Publish**: Paste the **LIFF ID** and **LIFF URL** into the CYBERBIZ back office. Finally, change the LINE Developers status from "Developing" to "**Published**".
+5.  **Publish**: Paste the **LIFF ID** and **LIFF URL** into the CYBERBIZ admin. Finally, change the LINE Developers status from "Developing" to "**Published**".
 
     ![Copy and paste the LIFF ID and URL](../../../../assets/images/ec-第三方整合-line團購機器人-linedevelopers-copynpast-liffid-liffurl.en.gif){ title="Copy and paste the LIFF ID and URL" }
 
@@ -224,7 +224,7 @@ After you finish the bot setup, complete the following two settings before going
 
 </div>
 
-## Frequently Asked Questions { #faq-line-group-bot }
+## FAQ { #faq-line-group-bot }
 
 
 ??? quote "Why can't the group buy bot be used in LINE communities (OpenChat)?"
@@ -233,9 +233,9 @@ After you finish the bot setup, complete the following two settings before going
 ??? quote "Why does an error appear when I click Verify after setting up the Webhook?"
     Check the following two items:
 
-    1.  URL accuracy: Make sure the Webhook URL copied from the CYBERBIZ back office is complete and has no extra spaces.
+    1.  URL accuracy: Make sure the Webhook URL copied from the CYBERBIZ admin is complete and has no extra spaces.
     2.  HTTPS certificate: Your website must have a valid SSL certificate (HTTPS) for LINE to deliver events successfully.
-    3.  Save in the back office: Confirm that you have pasted the Channel information into the CYBERBIZ back office and clicked Save before you return to LINE to verify.
+    3.  Save in the admin: Confirm that you have pasted the Channel information into the CYBERBIZ admin and clicked Save before you return to LINE to verify.
 
 ??? quote "Why can't customers open the shopping interface after tapping in the group?"
     This is usually related to the LIFF settings. Check the following:
@@ -249,4 +249,4 @@ After you finish the bot setup, complete the following two settings before going
 
     * The system cannot determine whether the person making a group purchase is an existing member of the website.
     * bonus points, coupon cannot be accumulated or redeemed across platforms.
-    * Order data in the back office cannot be correctly attributed to customers.
+    * Order data in the admin cannot be correctly attributed to customers.

@@ -73,7 +73,7 @@ When a Quick Delivery order has out-of-stock items or exceeds the size limit, th
 
 
 !!! tip "Use Cases"
-	- **Some items out of stock**: Only some items in the order are out of stock, and after you contact the shopper, they agree that you ship the in-stock items first.
+	- **Some items out of stock**: Only some items in the order are out of stock, and after you contact the customer, they agree that you ship the in-stock items first.
 	- **All items out of stock**: The store can't supply any items in the order, so you cancel the order and refund the full amount.
 
 ---
@@ -83,7 +83,7 @@ When a Quick Delivery order has out-of-stock items or exceeds the size limit, th
 !!! danger "Key Limit: Partial Shipment Only Once"
     You can do a partial shipment of a Quick Delivery order **only once**. As soon as you confirm the shipment, the system calls a driver right away. Items you didn't select are treated as not delivered, and you can't call a driver for the order again.
 
-- **Communicate first**: Before handling any out-of-stock situation (partial shipment or cancellation), we recommend calling the shopper to confirm, to avoid disputes or unnecessary reverse logistics fees.
+- **Communicate first**: Before handling any out-of-stock situation (partial shipment or cancellation), we recommend calling the customer to confirm, to avoid disputes or unnecessary reverse logistics fees.
 - **Status requirements**:
     - **Partial shipment**: The order must first be changed to **Preparing** before you can ship part of it.
     - **Cancel order**: The order status must stay **Unshipped**. If the order is already **Preparing**, use **partial shipment** or **return handling** instead.
@@ -107,7 +107,7 @@ After the partial shipment, refund the items that weren't shipped:
 
 1. Go to **Orders > Branch Store Orders** and change the order's delivery status to **Returning > Reviewing Return**.
     ![](../../assets/images/EC-後台-訂單-門市訂單-部分退貨01.en.png){ .screenshot }
-2. In the **Partial Refund** section of the order details, select the items to refund and check the refund amount (calculated automatically; you can also adjust it manually).
+2. In the **Partial Refund** section of the order details, select the items to refund and select the refund amount (calculated automatically; you can also adjust it manually).
     ![](../../assets/images/EC-後台-訂單-門市訂單-部分退款01.en.png){ .screenshot }
 3. Click **Confirm refund**. The system automatically starts the payment refund.
 
@@ -128,7 +128,7 @@ If you can't supply the order at all and need to cancel it:
 ## FAQ { #faq-oos-partial }
 
 ??? quote "After a partial shipment, I found I missed an item. Can I ship it separately?"
-    No. Quick Delivery orders use **one-time matching**: as soon as you confirm, the dispatch request goes to the delivery platform. If you missed an item, we recommend refunding it and asking the shopper to order again, or arranging with the shopper to send it by another shipping method (at your expense).
+    No. Quick Delivery orders use **one-time matching**: as soon as you confirm, the dispatch request goes to the delivery platform. If you missed an item, we recommend refunding it and asking the customer to order again, or arranging with the customer to send it by another shipping method (at your expense).
 
 ??? quote "How is the shipping fee calculated after a partial shipment?"
     Quick Delivery shipping fees are based on the estimated route when the order was placed. Even with a partial shipment, the fee you pay the delivery platform usually stays the same and doesn't go down because there are fewer items.

@@ -68,7 +68,7 @@ Google Ads (formerly Google AdWords) is Google's online advertising platform. Me
 
 ## Why Set up Conversion Tracking { #operate-google-ads-conversions }
 
-A "conversion" is a key action that a user completes on your website after clicking an ad, such as checking out, signing up as a member, or filling out a form.
+A "conversion" is a key action that a user completes on your website after clicking an ad, such as checking out, signing up as a member, or filling in a form.
 Setting up conversion tracking in Google Ads helps merchants measure ad performance, understand customer behavior, and further refine ad targeting. CYBERBIZ integrates with Google conversion codes. Follow the detailed steps below to set it up:
 
 ## Prerequisites and Limitations { #prerequisites-google-ads-conversions }
@@ -77,7 +77,7 @@ Setting up conversion tracking in Google Ads helps merchants measure ad performa
 
 ## Create a Conversion Action in Google Ads { #operate-google-ads-conversion-create }
 
-1.  **Go to the conversions page**: Sign in to the Google Ads admin console. In the sidebar, click **Goal ** > ** Summary**, then click **Create conversion action**.
+1.  **Go to the conversions page**: Sign in to the Google Ads admin. In the sidebar, click **Goal ** > ** Summary**, then click **Create conversion action**.
 2.  **Select a category**: Select **Page view**.
 3.  **Create a conversion**: Click **Create conversion**. For **Data source**, select the website URL you entered when you created the ad campaign.
 4. **Conversion method**: Select **Manually using code**.
@@ -102,7 +102,7 @@ Setting up conversion tracking in Google Ads helps merchants measure ad performa
 
 ## Enter the Conversion Code in the CYBERBIZ Backend { #intro-google-ads-conversions }
 
-**Navigation path:** Sign in to the CYBERBIZ admin console and go to "**Third-party integrations ** > ** Google settings**" > the Google Ads conversion section.
+**Navigation path:** Sign in to the CYBERBIZ admin and go to "**Third-party integrations ** > ** Google settings**" > the Google Ads conversion section.
 
 1.  **Google Ads remarketing**:
     *   Enter the **Conversion ID** provided by Google in the **Remarketing ID (numbers only)** field.
@@ -133,18 +133,18 @@ Setting up conversion tracking in Google Ads helps merchants measure ad performa
 
     ![Google Ads save conversion tracking settings](../../../assets/images/ec-第三方整合-google-googleads轉換追蹤-儲存設定.en.png)
 
-!!! warning "Important Notes"
+!!! warning "Notes"
 
     *   **Avoid duplicate tags**: If you previously set up Google Ads tracking through GTM, you **must remove the related tags in GTM** after you finish the setup in the CYBERBIZ backend. This prevents code conflicts that could make the data inaccurate.
     *   **Automated ads limitation**: If the merchant uses the [CYBERBIZ-managed](automated-ads-system.md#cyberbiz-代管適合新手){ title=" automated ads system setup" } "**Automated Advertising System**", then **you cannot** view data in a personal Google Ads account using the method above. Go to the CYBERBIZ backend to view the data.
 
-## Frequently Asked Questions { #faq-google-ads-conversions }
+## FAQ { #faq-google-ads-conversions }
 
 ??? quote "Can I set up conversion tracking for automated ads?"
     No. Automated ads are managed by the CYBERBIZ account, so you cannot view their data in Google Ads. Merchants can view the data in the backend.
 
-??? quote "Why can't the conversion code track consumer behavior on my website?"
-    Check the related settings in the CYBERBIZ admin console. The **Remarketing ID (numbers only)** and the **Conversion tracking ID** should be the same. If they differ, check whether you added the conversion action as described in step 7.
+??? quote "Why can't the conversion code track customer behavior on my website?"
+    Check the related settings in the CYBERBIZ admin. The **Remarketing ID (numbers only)** and the **Conversion tracking ID** should be the same. If they differ, check whether you added the conversion action as described in step 7.
 
 ??? quote "I already set up Google Ads with GTM. Do I need to remove it?"
     Yes. If you previously set up ad tracking through Google Tag Manager (GTM), be sure to remove the related tags in GTM after you finish the setup in the CYBERBIZ backend. This prevents code conflicts that could make the data inaccurate.

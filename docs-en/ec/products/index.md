@@ -25,7 +25,7 @@ hide:
 
     ---
 
-    Get to know the CYBERBIZ product management admin: search, filters, bulk actions, and product visibility settings.
+    Get to know the CYBERBIZ product management admin: search, filters, batch actions, and product visibility settings.
 
     [:octicons-arrow-right-24: Go](create-and-manage/product-management-interface.md)
 
@@ -81,7 +81,7 @@ hide:
 
     ---
 
-    Set up color swatches for products in the drag-and-drop theme so storefront shoppers see the matching image right from the variant menu.
+    Set up color swatches for products in the drag-and-drop theme so storefront customers see the matching image right from the variant menu.
 
     [:octicons-arrow-right-24: Go](create-and-manage/product-swatches-variant-images-drag-drop.md)
 
@@ -89,7 +89,7 @@ hide:
 
     ---
 
-    Set up color swatches and variant images for products in the default theme so shoppers can browse and choose variants intuitively.
+    Set up color swatches and variant images for products in the default theme so customers can browse and choose variants intuitively.
 
     [:octicons-arrow-right-24: Go](create-and-manage/product-swatches-variant-images-default.md)
 
@@ -177,7 +177,7 @@ hide:
 
     ---
 
-    Edit the Liquid template code to exclude products with specific keywords from your online store's search results.
+    Edit the Liquid template code to exclude products with specific keywords from your storefront's search results.
 
     [:octicons-arrow-right-24: Go](discoverability/exclude-keyword-products-search.md)
 
@@ -193,7 +193,7 @@ hide:
 
 ---
 
-## Bulk Management and Product Copying { #overview-products-hub-bulk }
+## Batch Management and Product Copying { #overview-products-hub-bulk }
 
 <div class="grid cards" markdown>
 
@@ -225,7 +225,7 @@ hide:
 
     ---
 
-    Learn how to copy online store products in bulk to POS stores, using either bulk actions or specifying stores directly when adding a product.
+    Learn how to copy storefront products in batches to POS stores, using either batch actions or specifying stores directly when adding a product.
 
     [:octicons-arrow-right-24: Go](bulk-operations/copy-products-to-pos-stores.md)
 
@@ -233,7 +233,7 @@ hide:
 
     ---
 
-    Learn how to copy products suited to fast delivery to the store section, including product selection tips, the bulk copy process, and how store inventory is managed separately.
+    Learn how to copy products suited to fast delivery to the store section, including product selection tips, the batch copy process, and how store inventory is managed separately.
 
     [:octicons-arrow-right-24: Go](copy-products-to-quick-delivery-stores.md)
 
@@ -289,7 +289,7 @@ hide:
 
     ---
 
-    Set product delivery temperature zone and logistics, using standard home delivery and cash on delivery as examples to explain shipping fee settings, product binding, and checkout splitting.
+    Set product delivery temperature zone and logistics, using standard home delivery and cash on delivery as examples to explain shipping fee settings, product linking, and checkout splitting.
 
     [:octicons-arrow-right-24: Go](shipping/setup-product-shipping-conditions.md)
 

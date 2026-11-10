@@ -61,11 +61,11 @@ The table below lists the shipping label validity for each convenience store car
 
 | Service Type | Convenience Store | Label Validity | Store Drop-Off Deadline |
 | :--- | :--- | :--- | :--- |
-| B2C | 7-Eleven | D+14 days | D+15 days |
-| B2C | FamilyMart (ambient / frozen) | D+6 days | D+7 days |
+| B2C | 7-11 | D+14 days | D+15 days |
+| B2C | FamilyMart (room-temperature / frozen) | D+6 days | D+7 days |
 | B2C | Hi-Life | D+6 days | D+7 days |
-| C2C | 7-Eleven | D+7 days | D+7 days |
-| C2C | FamilyMart (ambient / frozen) | D+7 days | D+7 days |
+| C2C | 7-11 | D+7 days | D+7 days |
+| C2C | FamilyMart (room-temperature / frozen) | D+7 days | D+7 days |
 | C2C | Hi-Life | D+7 days | D+7 days |
 
 ## Related Tasks { #next-steps-cvs-label-expiry }

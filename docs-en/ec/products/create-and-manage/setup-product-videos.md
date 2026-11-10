@@ -1,6 +1,6 @@
 ---
 title: "Set up Product Videos"
-description: "Upload and manage product videos to make storefront product pages and pop-ups more engaging, with support for Meta catalog ad sync."
+description: "Upload and manage product videos to make storefront product pages and dialogs more engaging, with support for Meta catalog ad sync."
 created: 2026-03-08 17:10
 last_modified: 2026-07-12 18:49
 lang: en-US

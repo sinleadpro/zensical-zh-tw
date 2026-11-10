@@ -77,7 +77,7 @@ Learn how to create a subscription campaign page, including basic settings, inst
 
 ![Subscription Campaign Event Page](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁03.png){ .hero-page }
 
-!!! info "Version Differences"
+!!! info "Plan Differences"
     - On PLUS plans, Subscriptions is an add-on module (choose 2 of 11). Make sure you have selected this module before using it. Enterprise includes it by default.
 
 !!! tip "Use Cases"
@@ -97,7 +97,7 @@ Before you begin, understand these system rules and limits:
 - **Payment limits**:
     - Supported: CYBERBIZ PAYMENTS, cash on delivery, Aftee, GMO 3D Secure, and background authorization.
     - Not supported: Installment payments.
-    - Special case: If you don't use CYBERBIZ PAYMENTS, connect your own payment gateway (such as ECPay or NewebPay) and apply for cash on delivery with Custom Logistics.
+    - Special case: If you don't use CYBERBIZ PAYMENTS, integrate your own payment gateway (such as ECPay or NewebPay) and apply for cash on delivery with Custom Logistics.
 - **Theme dependency**: The page uses your current theme. If you change your website theme, you need to create the campaign page again.
 
 
@@ -125,7 +125,7 @@ This setting controls the default product quantity when customers open the campa
     ![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁01.png){ .screenshot }
 3. Enter the **Title** (shown on the storefront) and the **URL Title** (a custom URL suffix).
     ![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁02.png){ .screenshot }
-4. Save to open the detailed settings page.
+4. Save to open the detailed setup page.
     ![](https://www.cyberbiz.io/support/wp-content/uploads/定期定額活動頁03.png){ .screenshot }
 
 
@@ -204,7 +204,7 @@ Advanced code Editing lets technical staff customize the layout of the Subscript
 
 
 !!! example "How Returns Affect Installment Counting"
-    When a subscription order is returned, the system recounts valid orders but skips gifts that were already received.
+    When a subscription order is returned, the system recounts valid orders but skips free gifts that were already received.
 
     **Example settings**:
 
@@ -214,7 +214,7 @@ Advanced code Editing lets technical staff customize the layout of the Subscript
 
     **How orders are counted**:
 
-    | Order | System Logic | Gift Result |
+    | Order | System Logic | Free Gift Result |
     | :--- | :--- | :--- |
     | **1st order** | Installment 1 | ✅ **Gift A sent** |
     | **2nd order** | Installment 2 | ✅ **Gift B sent** |
@@ -223,7 +223,7 @@ Advanced code Editing lets technical staff customize the layout of the Subscript
     | **4th order** | Recounted as "Installment 2" | ✕ **No gift**<br>(Reason: Gift B already received) |
     | **5th order** | Recounted as "Installment 3" | ✅ **Gift C sent**<br>(Reason: Gift C not yet received) |
 
-    > The system checks the full history. If returns cause installments to be recounted, a gift already shipped with this subscription won't be sent again.
+    > The system checks the full history. If returns cause installments to be recounted, a free gift already shipped with this subscription won't be sent again.
 
 
 ### 5. Payment Settings { #operate-subscription-campaign-payment }
@@ -234,7 +234,7 @@ Select the Payment Methods available for this campaign.
 
 
 !!! tip "Tip"
-    If you don't see a payment option, turn on the payment method in **Payment and Logistics > Payment Settings**, or turn on the shipping method in **Payment and Logistics > 宅配物流 / 超商物流**. It will then appear in this list.
+    If you don't see a payment option, enable the payment method in **Payment and Logistics > Payment Settings**, or enable the shipping method in **Payment and Logistics > 宅配物流 / 超商物流**. It will then appear in this list.
 
 ## FAQ { #faq-subscription-campaign }
 

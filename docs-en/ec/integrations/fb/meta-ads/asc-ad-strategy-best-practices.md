@@ -86,7 +86,7 @@ hide:
 Merchants do not need to switch frequently to Meta Ads Manager. They can complete every task in the CYBERBIZ admin:
 
 - [x] **Simplified setup**: Built-in defaults optimized for e-commerce let merchants without advertising expertise get started easily.
-- [x] **Deep data integration**: Fully connects storefront orders, product inventory, and consumer behavior data to help AI make more precise ad delivery decisions.
+- [x] **Deep data integration**: Fully integrates storefront orders, product inventory, and customer behavior data to help AI make more precise ad delivery decisions.
 - [x] **All-in-one management**: From adding budget funds and selecting catalog product sets to performance analysis, the entire workflow can be completed in the storefront admin.
 
 ## Required Prerequisites Before Launching Ads { #prerequisites-meta-asc }
@@ -157,13 +157,13 @@ Merchants do not need to switch frequently to Meta Ads Manager. They can complet
 </div>
 
 
-## Frequently Asked Questions { #faq-meta-asc }
+## FAQ { #faq-meta-asc }
 
 ??? quote "How much budget do I need to start running ASC ads?"
 
     - The initial top-up amount must be greater than NT$9,000
     - We recommend setting a higher daily budget during the first one to two weeks after launch to shorten the AI learning period.
-    - You can use 30% of the average order value as the estimated CPA to work backward to a daily budget.
+    - You can use 30% of the AOV as the estimated CPA to work backward to a daily budget.
 
 ??? quote "What types of merchants are ASC ads suitable for?"
 

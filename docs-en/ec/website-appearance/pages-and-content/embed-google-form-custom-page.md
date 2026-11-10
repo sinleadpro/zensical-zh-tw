@@ -79,13 +79,13 @@ Embed a Google Form in a CYBERBIZ page to easily handle **reservations, inquirie
 ## Steps { #operate-google-form }
 
 !!! warning "Code Editing Notice"
-    CYBERBIZ gives you access to edit the code but does not provide coding tutorials or code-writing services. Have your own technical staff make these changes.
+    CYBERBIZ gives you permission to edit the code but does not provide coding tutorials or code-writing services. Have your own technical staff make these changes.
 
 1. **Open the editing page:** Sign in to the CYBERBIZ admin, go to **Website Appearance > Customized Pages Management**, and select the page where you want to add the form.
 2. **Add a block:** Click **Add Block**, select **Custom HTML**, and click it to open the editing page.
 3. **Paste the code:** Click **Edit** to open the editor, and paste the Google Form code you copied into the blank area.
 4. **Make it responsive (important):** In the pasted code, find the `width` attribute and change its value (such as 640) to **`100%`**. This makes the form fit the screen width and display in full on both mobile and desktop.
-5. **Save and preview:** Click Save when you finish. The Google Form now appears on your website page, ready to fill in.
+5. **Save and preview:** Click Save when you finish. The Google Form now appears on your storefront page, ready to fill in.
 
 ![Embedding a Google Form](../../../assets/images/ec-網站外觀-自訂頁面-嵌入google表單.en.gif){ title="Embedding a Google Form" }
 
@@ -116,4 +116,4 @@ Embed a Google Form in a CYBERBIZ page to easily handle **reservations, inquirie
 	A natively embedded Google Form does not support "automatic redirects" to an external URL after submission.
 	
 	
-	**Alternative:** In the Google Form, go to "Settings" > "Presentation" > "Confirmation message" and paste a link to your website so respondents can click to go back.
+	**Alternative:** In the Google Form, go to "Settings" > "Presentation" > "Confirmation message" and paste a link to your storefront so respondents can click to go back.

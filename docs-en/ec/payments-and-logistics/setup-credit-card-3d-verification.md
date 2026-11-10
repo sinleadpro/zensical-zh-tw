@@ -141,8 +141,8 @@ During checkout, the cardholder must complete verification using one of the foll
 
 ## Configure the 3D Verification Threshold { #operate-card-3d-threshold }
 
-1. Log in to the CYBERBIZ back office and go to **Payment and Logistics > Payment Settings**.
-2. In the CYBERBIZ PAYMENTS field, click **:material-file-document-edit-outline: Edit** to open the settings page.
+1. Log in to the CYBERBIZ admin and go to **Payment and Logistics > Payment Settings**.
+2. In the CYBERBIZ PAYMENTS field, click **:material-file-document-edit-outline: Edit** to open the setup page.
 3. In the **3D Verification Amount Threshold** field, enter the trigger value.
 4. Save the settings.
 
@@ -170,7 +170,7 @@ When the order amount meets or exceeds the threshold:
 
 ![3D Verification Payment Screen](../../assets/images/ec-金物流-3D驗證畫面.en.png){ title="3D Verification Payment Screen" }
 
-## Frequently Asked Questions { #faq-card-3d }
+## FAQ { #faq-card-3d }
 
 ??? quote "What should I do if 3D verification fails?"  
 	Confirm the following with your issuing bank:  

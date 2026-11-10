@@ -72,9 +72,9 @@ Create staff accounts in the CYBERBIZ e-commerce warehouse system, set login cre
 ![](../assets/images/WMS-後台-設定-帳號管理-畫面總覽01.en.png){ .hero-page }
 
 !!! tip "Use Cases"
-    - **Onboarding**: Create an account for a new employee and assign a default role (such as Admin or a custom role).
-    - **Security upkeep**: Check the last login time regularly to find accounts that have not been used for a long time, and decide whether to remove their access.
-    - **Instant suspension**: When someone leaves or changes jobs, turn off the switch to cut off their system access right away.
+    - **Onboarding**: Create an account for a new staff member and assign a default role (such as Admin or a custom role).
+    - **Security upkeep**: Check the last login time regularly to find accounts that have not been used for a long time, and decide whether to remove their permission.
+    - **Instant suspension**: When someone leaves or changes jobs, turn off the toggle to cut off their system access right away.
 
 
 ## Before You Start { #prerequisites-accounts }
@@ -92,7 +92,7 @@ Create staff accounts in the CYBERBIZ e-commerce warehouse system, set login cre
 
     | Field | Description | Required |
     | :--- | :--- | :--- |
-    | **Name** | The employee name or code shown in the system | Required |
+    | **Name** | The staff name or code shown in the system | Required |
     | **Email** | The account's login and the address for system notifications | Required |
     | **User Role** | The job role template for this account (such as Admin) | Required |
     | **Password** | The account's initial login password | Required |
@@ -107,9 +107,9 @@ Create staff accounts in the CYBERBIZ e-commerce warehouse system, set login cre
 
 After you create accounts, manage them from the account list.
 
-1. **Search and filter**: Enter a keyword in the search box to find a specific employee.
+1. **Search and filter**: Enter a keyword in the search box to find a specific staff member.
 2. **Turn accounts on or off**:
-    - Use the switch in the **Enable Account** column to change the status.
+    - Use the toggle in the **Enable Account** column to change the status.
     - :lucide-toggle-right: means the account is active.
     - :lucide-toggle-left: means the account is suspended, and the user cannot log in.
 3. **Edit account data**: Click **:lucide-pen: Edit** in the **Actions** column to change the name, role, or email subscription setting, or to reset the password.

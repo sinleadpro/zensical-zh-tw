@@ -52,13 +52,13 @@ This page collects the reference tables for the text editor. Content-editing doc
 
 ### Slash Commands Reference { #reference-text-editor-slash-commands }
 
-In the new text editor, type "/" in the body to open a shortcut menu, and type a keyword to filter it quickly.
+In the new text editor, enter "/" in the body to open a shortcut menu, and enter a keyword to filter it quickly.
 
 | Command | Purpose |
 | :-- | :-- |
 | Body text | Changes the paragraph back to the normal body style |
 | Heading 1 to Heading 6 | Applies a heading style at different levels |
-| Table | Inserts a table. You can also type something like `3x4` to set the number of rows and columns |
+| Table | Inserts a table. You can also enter something like `3x4` to set the number of rows and columns |
 | Numbered list | Inserts a numbered list |
 | Bulleted list | Inserts an unnumbered bulleted list |
 | Quote | Inserts a quote block |

@@ -69,7 +69,7 @@ hide: []
 ---
 
 # Print Product Labels
-In addition to batch printing in the back office, CYBERBIZ POS lets you print product labels directly at the checkout counter. Staff can generate labels directly when they check out or re-label products.
+In addition to batch printing in the admin, CYBERBIZ POS lets you print product labels directly at the checkout counter. Staff can generate labels directly when they check out or re-label products.
 { .subtitle }
 
 ![](../../assets/images/POS-後台-所有POS商店-列印商品標籤-單筆建立04.en.png){ .small-image }
@@ -83,19 +83,19 @@ In addition to batch printing in the back office, CYBERBIZ POS lets you print pr
     - **Real-Time Price Check**: After confirming product information at the front desk, if a label is damaged, reprint it immediately.
 
 
-## Usage Notes { #prerequisites-product-labels }
+## Before You Start { #prerequisites-product-labels }
 
 - **Hardware Requirement**: You must first install the label printer driver and complete a connection test. For details, see [Label Printer Installation Guide](../hardware/label-printer.md).
-- **Feature Activation**: You must contact CYBERBIZ customer service to enable the **POS Front-Desk Label Printing** permission.
+- **Feature Activation**: You must contact CYBERBIZ customer support to enable the **POS Front-Desk Label Printing** permission.
 
 
-## Print Labels in the Back Office { #operate-product-labels }
+## Print Labels in the Admin { #operate-product-labels }
 
 === "Create a Single Label"
 
     ### Step 1: Set up Label Style { #operate-product-labels-style }
 
-    1. Log in to the CYBERBIZ back office, go to **POS > POS Store List**, select the store you want to configure, and then click the **Print product label** tab.
+    1. Log in to the CYBERBIZ admin, go to **POS > POS Store List**, select the store you want to configure, and then click the **Print product label** tab.
         ![](../../assets/images/POS-後台-所有POS商店-列印商品標籤01.en.png){ .screenshot }
     2. Go to **Basic Label Settings**.
     3. **Barcode Source**: Select **Product Number (SKU)** or **Manufacturer Barcode** as the barcode to print.
@@ -119,9 +119,9 @@ In addition to batch printing in the back office, CYBERBIZ POS lets you print pr
 === "Batch Import"
 
     1. Click **Excel import Products**.
-    2. Download the Excel sample.
+    2. Download the Excel example.
     3. Fill in the label information according to the template fields.
-    4. Upload the file in the pop-up window.
+    4. Upload the file in the dialog.
 
     ![](../../assets/images/POS-後台-所有POS商店-列印商品標籤-批次匯入01.en.png){ .screenshot }
 
@@ -130,10 +130,10 @@ In addition to batch printing in the back office, CYBERBIZ POS lets you print pr
 
 ### Step 1: Enable Front-Desk Printing { #operate-frontend-print-step-a-enable }
 
-Before you use the POS front desk, you must first enable permissions for the specific device in the back office.
+Before you use the POS front desk, you must first enable permissions for the specific device in the admin.
 
-1. Log in to the CYBERBIZ back office and go to **POS > POS Store List**.
-2. Click the **POS Store Name** you want to configure to open the store details page.
+1. Log in to the CYBERBIZ admin and go to **POS > POS Store List**.
+2. Click the **POS Store Name** you want to configure to open the store detail page.
 3. Find the device you want to enable, then click **Edit POS Settings** next to it.
 4. In the **POS Label Printing Settings** section, switch **Enable POS Front-Desk Printing** to **On (ON)**.
 
@@ -158,7 +158,7 @@ After you complete the back-office setup, refresh or log in to the POS front-des
     - Print one label first to confirm the style and avoid wasting materials during large print runs.
 
 
-## Frequently Asked Questions { #faq-product-labels }
+## FAQ { #faq-product-labels }
 
 ??? quote "Can I select multiple products to print at once?"
     Yes. You can select multiple different products at once, and the system prints all labels in sequence.

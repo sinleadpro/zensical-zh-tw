@@ -56,7 +56,7 @@ This table lists the delivery statuses in the CYBERBIZ new order list, for refer
 | :-- | :-- | :-- |
 | Unshipped | Shipping hasn't been arranged | Default status after the order is placed |
 | Preparing | Items are being prepared; no shipping label yet | Marked manually by the merchant, or when an integrated warehouse starts processing |
-| Partially Shipped | Some items in the order have shipped, and some haven't | After you select items to ship one by one on the order details page |
+| Partially Shipped | Some items in the order have shipped, and some haven't | After you select items to ship one by one on the order detail page |
 | Shipped | A shipping label was generated, or the order was marked as shipped | After you download a shipping label, ship with custom logistics, or import tracking numbers |
 | Arrived at Store | The convenience store pickup package arrived at the chosen store | Arrival report from convenience store pickup logistics |
 | Received | The customer picked up or signed for the package | Reported by the carrier, or marked manually by the merchant |

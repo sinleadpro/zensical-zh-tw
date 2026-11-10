@@ -63,7 +63,7 @@ hide: []
 
 # Cross-Border E-Commerce Refund Process
 
-After an order completes the return process, the last step is refunding the shopper. Depending on your site plan and the shopper's payment method, the refund is triggered automatically or manually.
+After an order completes the return process, the last step is refunding the customer. Depending on your site plan and the customer's payment method, the refund is triggered automatically or manually.
 { .subtitle }
 
 [:lucide-layers:{ title="Available Products" }](../../resources/conventions#適用產品) | Cross-Border E-Commerce (North America / Japan / Southeast Asia Sites)
@@ -162,7 +162,7 @@ The refund process is triggered automatically when the **Return Status** changes
     1. Change the order's `Return Status` to **Returned** or **Partially Returned**.
     2. The system automatically updates `Payment Status` to **Pending Refund** or **Pending Partial Refund**.
     3. 
-        - **Manual transfer**: Contact the shopper and complete the offline transfer.
+        - **Manual transfer**: Contact the customer and complete the offline transfer.
         - **Fiuu wallet refund**: Go to the Fiuu dashboard and complete the refund.
     4. Return to the admin and select the order.
     5. Click **Actions...** in the upper right > change the payment status to **Refunded** or **Partially Refunded**.

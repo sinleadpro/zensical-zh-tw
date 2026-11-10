@@ -64,7 +64,7 @@ The POS driver is the key component that connects hardware devices (such as invo
 [:lucide-layers:{ title="Applicable Products" }](../../resources/conventions#適用產品) | Smart POS
 { .doc-badge }
 
-## Usage Notes { #prerequisites-drivers }
+## Before You Start { #prerequisites-drivers }
 
 - **Operating system**: Only **Windows** is supported. macOS and Linux are not supported.
 - **Version requirement**: POS APP V.7.0.0 and later versions are only compatible with Windows 10 or later.

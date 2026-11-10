@@ -35,7 +35,7 @@ This table lists the closing types, trigger conditions, and required order statu
 
 | Closing Type | Trigger Condition | Required Order Status | Use Case |
 | :-- | :-- | :-- | :-- |
-| N days after the customer picks up the order | The integrated logistics (convenience store, EZCAT, and so on) delivery status has been "Received" for N days | Paid / Cash on Delivery, Picked Up, No Return Needed | You use integrated logistics, so the system knows when the customer picks up |
+| N days after the customer picks up the order | The integrated logistics (convenience store, T-CAT, and so on) delivery status has been "Received" for N days | Paid / Cash on Delivery, Picked Up, No Return Needed | You use integrated logistics, so the system knows when the customer picks up |
 | N days after the order ships | The custom logistics delivery status has been "Shipped" for N days | Paid / Cash on Delivery, Shipped, No Return Needed | You use custom logistics, so the system can't tell whether the order was picked up |
 | Ticket orders (N days after the customer pays) | N days have passed since the customer paid | Paid | Ticket products; profit sharing is calculated after closing |
 

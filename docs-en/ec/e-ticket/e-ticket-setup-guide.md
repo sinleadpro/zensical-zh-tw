@@ -179,7 +179,7 @@ There are several ways to redeem e-tickets: entering the code on a computer, sca
 	1. Log in to the CYBERBIZ admin and go to **Products > Redemption Page**.  
 	2. Enter the redemption code or scan it with a barcode scanner.  
 	3. Enter the redemption quantity and click **Redemption Confirm**.  
-	4. Check the information in the pop-up window and click **Redemption Confirm**.  
+	4. Check the information in the dialog and click **Redemption Confirm**.  
 
 	![](../../assets/images/e-ticket-redemption-computer.en.gif)
 
@@ -188,7 +188,7 @@ There are several ways to redeem e-tickets: entering the code on a computer, sca
 	1. Open the camera and scan the QR code.  
 	2. Open the web page in a browser. After you log in, you're redirected to the **Redemption Page**.  
 	3. Enter the redemption quantity and click **Redemption Confirm**.  
-	4. Check the information in the pop-up window and click **Redemption Confirm**.  
+	4. Check the information in the dialog and click **Redemption Confirm**.  
 
 	![](../../assets/images/e-ticket-reconciliation-mobile.en.gif)
 
@@ -205,7 +205,7 @@ There are several ways to redeem e-tickets: entering the code on a computer, sca
 
 	3. After you find the ticket, click **Go to Redeem** to open the **Redemption Page**. The redemption code is filled in automatically.
 	4. Enter the redemption quantity and click **Redemption Confirm**.  
-	5. Check the information in the pop-up window and click **Redemption Confirm**.
+	5. Check the information in the dialog and click **Redemption Confirm**.
 
 	![](../../assets/images/ec-e-ticket-redemption-list-filter.zh-tw.en.png)
 
@@ -224,16 +224,16 @@ There are several ways to redeem e-tickets: entering the code on a computer, sca
 
     ![](../../assets/images/ec-e-ticket-redemption-page.zh-tw.en.png)
 
-## Create E-Ticket Store Staff Accounts { #operate-e-ticket-staff-account }
+## Create E-Ticket Store Clerk Accounts { #operate-e-ticket-staff-account }
 
 !!! warning "Permission Limits"
-    Store staff can only use the **E-Ticket Redemption List** and the **Redemption Page**. They can't change ticket settings or other permissions.
+    Store clerks can only use the **E-Ticket Redemption List** and the **Redemption Page**. They can't change ticket settings or other permissions.
 
 1. Log in to the CYBERBIZ admin and go to **Website Management > User Account Settings > Manager List**.
 2. Click **New Branch Store Manager**.
-3. Under the **Branch Store** type, select **E-Ticket Store**. E-ticket store staff permissions are system defaults and can't be changed[^permission-notice].
+3. Under the **Branch Store** type, select **E-Ticket Store**. E-ticket store clerk permissions are system defaults and can't be changed[^permission-notice].
 
-4. Enter the store staff member's user information. **Store staff** and **e-ticket store staff** are different roles. Create a separate account for each[^separate-accounts].
+4. Enter the store clerk's user information. **Store staff** and **e-ticket store staff** are different roles. Create a separate account for each[^separate-accounts].
 5. Click **Add** to finish.
 
 [^permission-notice]: If you try to change the permissions and save, the system shows the message "Branch store user permissions cannot be changed".
@@ -364,7 +364,7 @@ Different order scenarios affect the ticket refund process. Handle them by type:
 	-   Ticket splitting can't be undone. (One QR code can be split into several, but several QR codes can't be merged into one.)
 	-   After splitting, the original redemption code can no longer be used.
 	-   E-tickets are bearer tickets. Anyone with the redemption code can use them, so keep them safe.
-	-   A [refund](#operate-e-ticket-refund) can only be requested by the original buyer. Remind customers not to split tickets for others casually, to avoid later disputes.
+	-   A [refund](#operate-e-ticket-refund) can only be requested by the original customer. Remind customers not to split tickets for others casually, to avoid later disputes.
 
 Split a ticket that can be redeemed multiple times into several separate QR codes (ticket splitting) for others to use.
 
@@ -384,7 +384,7 @@ Split a ticket that can be redeemed multiple times into several separate QR code
 ### View Split Tickets { #operate-e-ticket-split-view }
 
 1. Log in to the CYBERBIZ admin and go to **Products > E-Ticket Redemption List**.
-2. Click **View** to open a pop-up window that shows all redemption codes for the ticket and their redemption status.
+2. Click **View** to open a dialog that shows all redemption codes for the ticket and their redemption status.
 
 !!! note "For split tickets, the redemption code column shows a **View** button."
 

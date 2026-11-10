@@ -70,7 +70,7 @@ comments: false
 
 ## Google Analytics Advanced Data Analysis Guide { #overview-ga-advanced }
 
-After you complete the basic connection between Google Analytics 4 (GA4) and your website, GA4 starts recording basic traffic data. To analyze your website traffic in more depth and build more accurate user profiles, follow the instructions below to configure advanced settings.
+After you complete the basic integration between Google Analytics 4 (GA4) and your website, GA4 starts recording basic traffic data. To analyze your website traffic in more depth and build more accurate user profiles, follow the instructions below to configure advanced settings.
 
 ## <small>Enhanced Measurement</small> { #intro-ga-advanced }
 
@@ -105,7 +105,7 @@ The default data retention period in GA4 is only 2 months, which is not enough f
 
 ## <small>Reporting Identity</small> { #reference-ga-advanced }
 
-This technology helps merchants avoid counting the same user more than once. For example, if a customer browses on their phone and then places an order on their computer, GA4 can recognize them as the same user.
+This technology helps merchants avoid counting the same user more than once. For example, if a customer browses on their phone and then submits an order on their computer, GA4 can recognize them as the same user.
 
 *   **Common modes:**
     *   **Mixed:** Combines all available signals (User ID, Google Signals, device ID) for the most complete analysis.
@@ -124,11 +124,11 @@ This technology helps merchants avoid counting the same user more than once. For
 
 - :lucide-search-code:{ .lg }   
   [__Site Search Tracking__](setup-ga4-site-search-tracking.md){ title="Set up GA4 site search tracking" }       
-  Track how users search your website to understand shoppers' information needs and search intent.
+  Track how users search your website to understand customers' information needs and search intent.
 
 </div>
 
-## Frequently Asked Questions { #faq-ga-advanced }
+## FAQ { #faq-ga-advanced }
 
 ??? quote "What user actions does Enhanced Measurement track?"
 
@@ -155,11 +155,11 @@ This technology helps merchants avoid counting the same user more than once. For
     | Feature | Enhanced Measurement | Google Signals |
     |------|------------|-------------|
     | Data source | User interactions on the website itself | User activity while signed in to a Google account (cross-device) |
-    | Audience | All visitors | Users signed in to Google with Ads Personalization turned on |
+    | Audience | All visitors | Users signed in to Google with Ads Personalization enabled |
     | Data collected | Page views, scrolling, search, video interactions, and similar behavior | Gender, age, interests, device preferences, and cross-device interactions |
     | Use cases | Website content optimization and user engagement analysis | Cross-device conversion tracking, remarketing list creation, and audience profiling |
 
-    You can turn on both at the same time, and they complement each other. Enhanced Measurement focuses on on-site interactions, while Google Signals adds a cross-platform, cross-device view of users. Merchants should decide whether to turn on Google Signals based on their marketing needs and privacy policy.
+    You can enable both at the same time, and they complement each other. Enhanced Measurement focuses on on-site interactions, while Google Signals adds a cross-platform, cross-device view of users. Merchants should decide whether to enable Google Signals based on their marketing needs and privacy policy.
 
 ??? quote "What is the maximum data retention period in GA4?"
 

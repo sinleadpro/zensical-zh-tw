@@ -76,13 +76,13 @@ hide: []
 ## About Convenience Store B2C Bulk Shipping { #intro-cvs-b2c-shipping }
 
 1. In the order list, select orders with the same channel and payment status
-2. Download shipping label PDFs in bulk from "More Actions"
+2. Download shipping label PDFs in batches from "More Actions"
 3. Pack the items and stick a label on each package
 4. Arrange a carrier yourself to send the large boxes to the convenience store logistics center
 
 ## Prerequisites and Limitations { #prerequisites-cvs-b2c-shipping }
 
-- [x] **Channel set up and turned on**: Complete the application, label test, and activation in "[Set Up Convenience Store B2C Bulk Shipping](../../payments-and-logistics/setup-cvs-b2c-bulk-shipping.md){ title="Set Up Convenience Store B2C Bulk Shipping" }" first.
+- [x] **Channel set up and enabled**: Complete the application, label test, and activation in "[Set Up Convenience Store B2C Bulk Shipping](../../payments-and-logistics/setup-cvs-b2c-bulk-shipping.md){ title="Set Up Convenience Store B2C Bulk Shipping" }" first.
 - [x] **Order status**: The payment status must be "**Payment Received**" or "**Cash on Delivery**," and the delivery status must be "**Unshipped**" or "**Processing**."
 - [x] **Same channel per batch**: Selected orders must use the same convenience store (for example, all 7-Eleven). Process different channels in separate batches.
 - [x] **Sufficient CYBER Coin balance**: Standard Plan merchants need enough balance to cover shipping fees.
@@ -93,13 +93,13 @@ hide: []
 
 1. **Open order management**: Sign in to the admin and go to "**Orders**" > "**All Orders**."
 2. **Select orders**: Select the orders to ship in the order list. **Make sure all selected orders use the same delivery method** (for example, all 7-Eleven pickup).
-3. **Download**: Open the "**Actions...**" drop-down in the upper right and select "**Print B2C bulk shipping labels and change to 'Shipped'**"[^1].
+3. **Download**: Open the "**Actions...**" dropdown in the upper right and select "**Print B2C bulk shipping labels and change to 'Shipped'**"[^1].
 4. **Confirm**: When the dialog asks "Print B2C bulk shipping labels and change to Shipped?", click **Yes**.
-5. **Download the files**: The system generates tracking numbers and downloads an archive with the shipping data. The delivery status in the order list changes to "**Shipped**," and the order details page shows "[Shipped (Awaiting Carrier Pickup)](../home-delivery/shipping-status-tooltip.md#reference-shipping-status){ title="Shipment Status Tooltip Text" }."
+5. **Download the files**: The system generates tracking numbers and downloads an archive with the shipping data. The delivery status in the order list changes to "**Shipped**," and the order detail page shows "[Shipped (Awaiting Carrier Pickup)](../home-delivery/shipping-status-tooltip.md#reference-shipping-status){ title="Shipment Status Tooltip Text" }."
 
 ![Download B2C bulk shipping labels](../../../assets/images/EC-訂單-所有訂單-下載b2c大宗託運單.en.png){ title="Download B2C Bulk Shipping Labels" }
 
-[^1]: The drop-down options change based on the channel of the selected orders. For FamilyMart frozen orders, the option is "Download FamilyMart cold chain shipping labels and change to 'Shipped'."
+[^1]: The dropdown options change based on the channel of the selected orders. For FamilyMart frozen orders, the option is "Download FamilyMart cold chain shipping labels and change to 'Shipped'."
 
 !!! warning "Stay on the Page While Downloading"
     If you close the window while the system generates tracking numbers in the background, **some orders may already be "Shipped" without their shipping labels downloaded**. Get them again with [Reprint Shipping Labels](#operate-cvs-b2c-shipping-reprint){ title="Reprint Shipping Labels" }.
@@ -113,7 +113,7 @@ The downloaded archive contains the following documents. Handle each according t
 | Document | Purpose |
 | :-- | :-- |
 | Shipping label (sender data) | **Stick it on the outside of the order's package** for scanning at the logistics center |
-| Packing slip | For internal picking reference |
+| Shipment details | For internal picking reference |
 | Order details | Put in the package for the customer to check |
 | Pick list | For internal picking checks |
 
@@ -128,7 +128,7 @@ The downloaded archive contains the following documents. Handle each according t
 Deliver the items to the logistics center before the deadline. Expired tracking numbers become invalid automatically, and you need to get new ones.
 
 1. **Packing**: Put the individually labeled items **together in large boxes**, not loose. You're responsible for damage caused by missing outer boxes.
-2. **Arrange a carrier**: Arrange a third-party carrier yourself (such as EZCAT, Pelican Express, or HCT Logistics) to send the large boxes to the matching logistics center.
+2. **Arrange a carrier**: Arrange a third-party carrier yourself (such as T-CAT, Pelican, or HCT Logistics) to send the large boxes to the matching logistics center.
     - For full receiving addresses, hours, and receiving units, see
 [Logistics Center Receiving Information](../../payments-and-logistics/references/cvs-b2c-logistics-center-reference.md#reference-cvs-b2c-centers-list){ title="Logistics Center Receiving Information" data-preview }.
     - [Packing and delivery vehicles by channel](../../payments-and-logistics/references/cvs-b2c-logistics-center-reference.md#reference-cvs-b2c-acceptance-rules){ title="Logistics Center Receiving Information" data-preview }.
@@ -157,7 +157,7 @@ Deliver the items to the logistics center before the deadline. Expired tracking 
 If a label is lost or damaged, you can reprint it in the admin before the deadline.
 
 1. Select the orders to reprint in the order list.
-2. Open the **Actions...** drop-down and select **Reprint Shipping Label**.
+2. Open the **Actions...** dropdown and select **Reprint Shipping Label**.
 3. The system downloads the PDF with the same tracking number again. **Shipping fees aren't charged again**, and the order status doesn't change.
 
 <div class="grid cards" markdown>
@@ -181,11 +181,11 @@ If the customer's pickup store closes (for renovation, permanent closure, and so
 | Channel | Contact Deadline |
 | :-- | :-- |
 | 7-Eleven | Within **2 days** of the notification email |
-| FamilyMart (ambient/frozen) | Within **6 days** of the notification email |
+| FamilyMart (room-temperature/frozen) | Within **6 days** of the notification email |
 | Hi-Life | Within **2 days** of the notification email |
 
 1. **Contact the customer**: After receiving the email, contact the customer within the deadline above to confirm a new pickup store.
-2. **Choose a new store**: Find the order in the admin, open the order details page, and **choose a new pickup store**.
+2. **Choose a new store**: Find the order in the admin, open the order detail page, and **choose a new pickup store**.
 3. **Confirm the update**: After you confirm, the system updates the shipping information automatically.
 
 !!! warning "Risk of Missing the Deadline"
@@ -253,17 +253,17 @@ If the customer's pickup store closes (for renovation, permanent closure, and so
 ??? quote "Can I download for different convenience stores at once?"
     [](){ #faq-cvs-b2c-shipping-mixed }
 
-    No. Each bulk action can include orders from only one channel. Process each channel in a separate batch.
+    No. Each batch action can include orders from only one channel. Process each channel in a separate batch.
 
 ??? quote "How do I confirm the logistics center has received the goods?"
     [](){ #faq-cvs-b2c-shipping-confirm-receipt }
 
-    After the logistics center signs for the goods, the order status changes from "Awaiting Carrier Pickup" to "**[Shipped (In Transit)](../home-delivery/shipping-status-tooltip.md#reference-shipping-status){ title="Shipment Status Tooltip Text" }**" automatically. Check the latest status in the order list or on the order details page.
+    After the logistics center signs for the goods, the order status changes from "Awaiting Carrier Pickup" to "**[Shipped (In Transit)](../home-delivery/shipping-status-tooltip.md#reference-shipping-status){ title="Shipment Status Tooltip Text" }**" automatically. Check the latest status in the order list or on the order detail page.
 
 ??? quote "What's the difference between B2C bulk shipping and regular C2C convenience store pickup?"
     [](){ #faq-cvs-b2c-shipping-vs-c2c }
 
-    **B2C bulk shipping** suits merchants who ship in large volumes. You download shipping labels in bulk, pack everything together, and send it to the convenience store logistics center, which distributes it to each store. **C2C store-to-store** requires shipping each order at a store kiosk, which suits occasional orders better.
+    **B2C bulk shipping** suits merchants who ship in large volumes. You download shipping labels in batches, pack everything together, and send it to the convenience store logistics center, which distributes it to each store. **C2C store-to-store** requires shipping each order at a store kiosk, which suits occasional orders better.
 
 ??? quote "What should I watch out for when printing shipping labels?"
     [](){ #faq-cvs-b2c-shipping-label-printing }

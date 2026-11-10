@@ -69,18 +69,18 @@ Learn how to connect the HPRT N130 barcode scanner to the POS system, and test t
 
 !!! tip "Use Cases"
 	- **Quick Checkout**: On the POS checkout screen, scan a product barcode to automatically add the product details and amount.
-	- **Product Search**: Scan a barcode in the back office or POS search field to quickly locate a specific product.
+	- **Product Search**: Scan a barcode in the admin or POS search field to quickly locate a specific product.
 	- **Inventory Count**: Scan products during a stocktake to improve inventory verification efficiency.
 
 
-## Usage Notes { #prerequisites-hprt-scanner }
+## Before You Start { #prerequisites-hprt-scanner }
 
 - **Applicable Devices**: The HPRT N130 uses a USB interface. Once connected, the system automatically recognizes it as an input device, so no driver installation is required.
 
   	![](../../assets/images/POS-裝置-HPRT N130掃碼槍01.en.jpg){ .small-image }
 
 - **Input Method Requirement**: When scanning, make sure the input method is set to **English mode** to prevent scanned barcode numbers from being misread due to input method interference.
-- **Prepare Products in Advance**: The scanner only reads barcodes and does not create product records. If the POS cannot find a product, first check the barcode settings in the product back office.
+- **Prepare Products in Advance**: The scanner only reads barcodes and does not create product records. If the POS cannot find a product, first check the barcode settings in the product admin.
 - **Maintenance Tip**: Keep the scan window clean and free of scratches or smudges, which can affect scanning performance.
 
 
@@ -103,7 +103,7 @@ Scan products during checkout or search in the POS system.
 3. After you hear the beep, the system automatically enters the barcode into the field and displays the matching product.
 
 !!! info "The barcode appears in Notepad, but the POS does not show the product?"
-    The scanner only reads the barcode number. If the POS cannot find a product after scanning, first check whether the barcode is correctly entered in the product data in the back office.
+    The scanner only reads the barcode number. If the POS cannot find a product after scanning, first check whether the barcode is correctly entered in the product data in the admin.
 
 
 ## FAQ { #faq-hprt-scanner }
@@ -123,11 +123,11 @@ Scan products during checkout or search in the POS system.
     If only specific products cannot be scanned, test with other products:
 
     - If other products scan correctly, check whether the barcode on the product is clear and complete.
-    - If the barcode scans but the POS cannot find the product, check whether the barcode has been added to the product in the back office.
+    - If the barcode scans but the POS cannot find the product, check whether the barcode has been added to the product in the admin.
 
 ??? quote "After scanning, the POS shows 'Product not found'?"
-    - **Confirm the Product Record**: Check whether the barcode has been set up for the product in the back office.
-    - **Verify the Barcode**: Go to the back office and confirm that the Barcode field for the product exactly matches the scanned number.
+    - **Confirm the Product Record**: Check whether the barcode has been set up for the product in the admin.
+    - **Verify the Barcode**: Go to the admin and confirm that the Barcode field for the product exactly matches the scanned number.
     - **Barcode Integrity**: Check whether the barcode on the product packaging is damaged, dirty, or unclearly printed.
 
 ??? quote "How do I restore the scanner's default settings if its configuration is abnormal?"

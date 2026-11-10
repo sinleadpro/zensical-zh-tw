@@ -87,7 +87,7 @@ hide:
 
 	- **Template categories**: SMS templates are grouped by situation: orders, returns, shipping, customers, messages, POS, subscription orders, e-tickets, and other.
 
-	- **On/off switch**: Each template has an **ON/OFF switch** on the right, so you decide whether that reminder is enabled.
+	- **On/off toggle**: Each template has an **ON/OFF switch** on the right, so you decide whether that reminder is enabled.
 
 	- **International SMS**: Click the **Send international SMS** option to turn sending to international numbers on or off.
 
@@ -106,25 +106,25 @@ hide:
 
 ![](../../assets/images/ec-訊息推播-簡訊樣板編輯.en.gif)
 
-## Key Scenarios { #specs-sms-templates }
+## Key Use Cases { #specs-sms-templates }
 
 - **Arrival-at-store notification**: When a convenience store pickup order changes to "Arrived at store", an SMS is automatically sent.
 
-	- **7-Eleven**: Sent on days 1 and 4 after arrival.
+	- **7-11**: Sent on days 1 and 4 after arrival.
 	- **FamilyMart**: Sent on days 1 and 3 after arrival.
-	- **T-Cat store pickup**: Sent on day 1 after arrival.
+	- **T-CAT Rapid-to-Store**: Sent on day 1 after arrival.
 
 	!!! info "Supported carriers"
 		Arrival notifications are supported for these carriers:
 
-		- **ECPay**: 7-Eleven / FamilyMart.
+		- **ECPay**: 7-11 / FamilyMart.
 
-		- **CYBERBIZ integration (B2C/C2C)**: 7-Eleven, FamilyMart, Hi-Life.
+		- **CYBERBIZ integration (B2C/C2C)**: 7-11, FamilyMart, Hi-Life.
 
-		- **Chilled/frozen shipping**: FamilyMart frozen, Hi-Life frozen, T-Cat store pickup (ambient/chilled/frozen).
+		- **Refrigerated/frozen shipping**: FamilyMart frozen, Hi-Life frozen, T-CAT Rapid-to-Store (room-temperature/refrigerated/frozen).
 
 - **Unpaid reminder**: Send an SMS reminder a set number of days after the customer orders. Reminders stop automatically once the customer pays.
-- **Account activation notification**: If you turn on mobile verification, members get an SMS with a verification link when they register.
+- **Account activation notification**: If you enable mobile verification, members get an SMS with a verification link when they register.
 
 ## FAQ { #faq-sms-templates }
 
@@ -146,6 +146,6 @@ hide:
 
 ??? quote "Why does checkout still show "Send verification code" when members log in, even though the notification template is off?"
 
-    Whether "Send verification code" appears depends on whether **mobile verification** is turned on, not on the notification template. Once verification is on, checkout shows the option; if the matching notification template is off, no verification SMS is sent.
+    Whether "Send verification code" appears depends on whether **mobile verification** is enabled, not on the notification template. Once verification is on, checkout shows the option; if the matching notification template is off, no verification SMS is sent.
 
     [Set up two-step email and mobile verification for customers :lucide-arrow-right:](../website-management/setup-customer-email-phone-verification/)

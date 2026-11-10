@@ -105,17 +105,17 @@ Refer to the e-commerce formula: **GMV (total revenue) = traffic × conversion r
 
 1. **Open the page:** Sign in to the admin and click **"Charts" > "Summary Chart"**.
 2. **View the trend chart:** In Chart Overview, you see the current period's data. If your store is in one of the product categories above, the system also shows benchmark ranges on the metric cards automatically.
-3. **Learning resources:** CYBERBIZ regularly offers online courses and tutorial videos on each metric (for example, SEO to increase traffic or add-on purchases to increase average order value) for brands to use.
+3. **Learning resources:** CYBERBIZ regularly offers online courses and tutorial videos on each metric (for example, SEO to increase traffic or add-on purchases to increase AOV) for brands to use.
 
 ![Benchmark reference range on metric cards](../../assets/images/ec-bi-overview-metric-cards-small.en.png){ title="Benchmark Reference Range on Metric Cards" }
 
 !!! tip "Online Courses to Improve Each Metric"
-    Visit [CYBERBIZ Business School](https://tutorcyb.cyberbiz.co/) for learning resources on traffic, conversion rate, average order value, and repurchase rate.
+    Visit [CYBERBIZ Business School](https://tutorcyb.cyberbiz.co/) for learning resources on traffic, CVR, AOV, and repurchase rate.
 
 !!! info "Data Update Time"
     - Traffic and conversion rate data is updated at 17:30 the next day.
     - All other data (orders, revenue, and so on) is updated at 00:00 the next day, excluding canceled or returned orders.
-    - If you use a connected POS system, switch to the "POS Overview" tab to see analysis for your physical stores.
+    - If you use an integrated POS system, switch to the "POS Overview" tab to see analysis for your physical stores.
 
 ## Next Steps { #next-steps-benchmarking }
 

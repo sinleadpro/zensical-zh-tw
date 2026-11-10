@@ -119,11 +119,11 @@ The logistics hint appears on the following pages for you and your customers:
 
 ## When Automated Shipping Notifications Are Sent { #specs-shipping-status-notify }
 
-If you turned on shipping notification templates for email, text message, or LINE OA, the system sends messages at the following time:
+If you turned on shipping notification templates for email, SMS message, or LINE OA, the system sends messages at the following time:
 
 - **When**: The system sends the notification to the member only when the order delivery status updates to **Shipped (In Transit)**.
 
-- **Why**: This makes sure the carrier actually has the package when the shopper is notified, avoiding inquiries about packages not yet picked up.
+- **Why**: This makes sure the carrier actually has the package when the customer is notified, avoiding inquiries about packages not yet picked up.
 
 ## Related Tasks { #next-steps-shipping-status }
 
@@ -135,7 +135,7 @@ If you turned on shipping notification templates for email, text message, or LIN
 
 - :lucide-message-square-text:{ .lg }  
   [__Text Message Notification Template Settings__](../../notifications/manage-sms-templates-v2.md){ title="Set Up and Manage SMS Notification Templates" }  
-  Set how text message reminders look.
+  Set how SMS message reminders look.
 
 - :simple-line:{ .lg }  
   [__LINE OA Notification Template Settings__](../../notifications/manage-line-oa-templates.md)  
@@ -155,4 +155,4 @@ If you turned on shipping notification templates for email, text message, or LIN
 	Check whether the order uses integrated logistics. If you use custom logistics (such as delivering yourself or a carrier not integrated with the system), the system can't receive real-time statuses from third-party logistics, so it shows only the basic "Shipped" status.
 
 ??? quote "The shopper says they didn't get a shipping text message, but the order shows "Shipped (Awaiting Carrier Pickup).""
-	Shipping notifications (email/text message/LINE) are triggered at the "In Transit" stage. If the status stays at "Awaiting Carrier Pickup," the carrier hasn't officially logged the package yet, and the notification is sent automatically when the status changes to "In Transit."
+	Logistics notifications (email/SMS message/LINE) are triggered at the "In Transit" stage. If the status stays at "Awaiting Carrier Pickup," the carrier hasn't officially logged the package yet, and the notification is sent automatically when the status changes to "In Transit."

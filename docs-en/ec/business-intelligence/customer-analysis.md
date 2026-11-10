@@ -82,7 +82,7 @@ On this tab, new and returning customers are defined by "first order time," whic
 
 - **New Customers**: Customers whose first order was placed in the specified period.
 - **Returning Customers**: Customers who had ordered before and ordered again in the specified period.
-- **Accumulated Customers**: The number of customers who placed an order from the store's opening until the end of the specified period.
+- **Accumulated Customers**: The number of customers who submitted an order from the store's opening until the end of the specified period.
 
 For a detailed comparison, see [Two Definitions of New Members and New Customers](references/member-analysis-definitions-reference.md#reference-member-new-definitions){ data-preview }. In addition, all figures count only [valid orders](references/member-analysis-definitions-reference.md#reference-member-valid-order){ data-preview } and are [updated the next day](references/member-analysis-definitions-reference.md#reference-member-update-time){ data-preview }.
 
@@ -318,6 +318,6 @@ Besides helping you see how marketing campaigns perform, Purchased Member Analys
     - This tab shares the date range in the upper-right corner across the whole page, and all three sections update together when you change it.
     - Figures count only valid orders and are updated the next day.
 
-## References { #reference-customer-analysis }
+## See Also { #reference-customer-analysis }
 
 - [Member Analysis Shared Definitions](references/member-analysis-definitions-reference.md)

@@ -123,12 +123,12 @@ The POS system supports the "Manager Price Override" feature, but consumers also
 ## Result After the Change { #operate-after-change }
 
 1.  **Save the settings**: After the change is complete, click **Save**.
-2.  **Storefront display**: When a consumer views order details through the "Order Lookup" page on the storefront, the original "Manager Price Override" discount item will be renamed to "**Product Price Override**".
+2.  **Storefront display**: When a customer views order details through the "Order Lookup" page on the storefront, the original "Manager Price Override" discount item will be renamed to "**Product Price Override**".
 
 ![Storefront display after change](../../assets/images/pos-manager-price-override-frontend-result.en.png){ title="Storefront display after change" }
 
 
-## Frequently Asked Questions { #faq-manager-price-ui }
+## FAQ { #faq-manager-price-ui }
 
 ??? quote "What should I do if the storefront name does not change after the change?"
 
@@ -138,7 +138,7 @@ The POS system supports the "Manager Price Override" feature, but consumers also
 
 	- **Cache impact**: Try opening an incognito window in your browser and viewing the order details page again.
 
-	- **String matching**: Make sure the `'店長改價'` string in the code exactly matches the back office system's default characters, including full-width and half-width symbols.
+	- **String matching**: Make sure the `'店長改價'` string in the code exactly matches the admin system's default characters, including full-width and half-width symbols.
 
 ??? quote "If I have both "Manager Price Override" and a regular discount, will this code affect other discounts?"
 
@@ -146,7 +146,7 @@ The POS system supports the "Manager Price Override" feature, but consumers also
 
 ??? quote "Will modifying this file affect the display of POS checkout receipts (details)?"
 
-	**No.** This tutorial modifies the `customers/order.liquid` file, which only affects the consumer order lookup page on the storefront. The POS interface and printed receipt formats are not affected by changes to this Liquid file.
+	**No.** This tutorial modifies the `customers/order.liquid` file, which only affects the customer order lookup page on the storefront. The POS interface and printed receipt formats are not affected by changes to this Liquid file.
 
 ??? quote "What if I accidentally break the code and the page goes blank? How do I fix it?"
 

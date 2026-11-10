@@ -61,7 +61,7 @@ hide:
 | Payment Failed | The payment process was interrupted or declined by the payment provider, such as a failed credit card authorization |
 | Abandoned by Member | The customer didn't pay, and the order expired and was voided |
 | All Except Abandoned by Member | Filter shortcut: selects all orders that aren't abandoned at once |
-| Customer Service Processing | The order is being handled manually by customer service because of a payment or refund issue |
+| Customer Service Processing | The order is being handled manually by customer support because of a payment or refund issue |
 | Pending Refund | A refund is confirmed but hasn't been paid out yet |
 | Refunding | The refund is in progress (the refund request was sent, awaiting the payment provider's response) |
 | Refunded | A full refund is complete |

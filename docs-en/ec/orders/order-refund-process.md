@@ -67,7 +67,7 @@ hide: []
 ---
 # Refund Methods and Operations
 
-After an order completes the return process, the last step is refunding the shopper. Depending on your payment service and the shopper's payment method, the system starts an automatic or manual refund process.
+After an order completes the return process, the last step is refunding the customer. Depending on your payment service and the customer's payment method, the system starts an automatic or manual refund process.
 { .subtitle }
 
 
@@ -76,7 +76,7 @@ After an order completes the return process, the last step is refunding the shop
 - **Request limit**: Each order accepts **only one** return and refund request. If a partial return has been completed, the remaining items in the order can't be requested again.
 - **Partial refunds**:
     - Installment orders can't use partial returns (refunds).
-    - If the shopper paid today, partial returns can be processed starting the next day.
+    - If the customer paid today, partial returns can be processed starting the next day.
 
         > Orders paid by **ECPay credit card** can be processed only **after the system settles them the next day**.
 
@@ -96,10 +96,10 @@ After an order completes the return process, the last step is refunding the shop
     | **Apple Pay<br>Google Pay<br>UnionPay** | ✓ | ✕ | |
     | **AFTEE** | ✓ | ✕ | Automatically refunded to the AFTEE account |
     | **Virtual ATM<br>Convenience Store Barcode<br>Convenience Store Payment Code<br>Cash on Delivery** | ✕ | ✓ | If the member hasn't provided account information, ask the member for it first |
-    | **LINE Pay** | ✓ | **✕** | :lucide-triangle-alert: After **60 days** from payment, refunds can't go through the payment provider, and you need to **transfer the refund yourself** to the shopper |
-    | **PayPal** | ✓ | **✕** | :lucide-triangle-alert: After **180 days** from payment, refunds can't go through the payment provider, and you need to **transfer the refund yourself** to the shopper |
-    | **JKOPAY** | ✓ | **✕** | JKOPAY co-branded card: refunded to the card<br>Bank account debit: refunded to the JKOPAY account<hr>:lucide-triangle-alert: More than **180 days** after payment, refunds can't go through the payment provider, and you need to **transfer the refund yourself** to the shopper |
-    | **iPASS** | ✓ | **✕** | :lucide-triangle-alert: After **60 days** from payment, refunds can't go through the payment provider, and you need to **transfer the refund yourself** to the shopper |
+    | **LINE Pay** | ✓ | **✕** | :lucide-triangle-alert: After **60 days** from payment, refunds can't go through the payment provider, and you need to **transfer the refund yourself** to the customer |
+    | **PayPal** | ✓ | **✕** | :lucide-triangle-alert: After **180 days** from payment, refunds can't go through the payment provider, and you need to **transfer the refund yourself** to the customer |
+    | **JKOPAY** | ✓ | **✕** | JKOPay co-branded card: refunded to the card<br>Bank account debit: refunded to the JKOPay account<hr>:lucide-triangle-alert: More than **180 days** after payment, refunds can't go through the payment provider, and you need to **transfer the refund yourself** to the customer |
+    | **iPASS** | ✓ | **✕** | :lucide-triangle-alert: After **60 days** from payment, refunds can't go through the payment provider, and you need to **transfer the refund yourself** to the customer |
 
     !!! warning "**Manual System Refund** Important Notes"
         - **Required**: Ask the customer for their refund account details, and CYBERBIZ processes the refund manually.
@@ -115,7 +115,7 @@ After an order completes the return process, the last step is refunding the shop
     | **Virtual ATM<br>Convenience Store Barcode<br>Convenience Store Payment Code<br>Cash on Delivery** | ✕ | ✓ | If the member hasn't provided account information, ask the member for it first |
     | **LINE Pay** | ✓ | After 60 days from payment |  |
     | **PayPal** | ✓ | After 180 days from payment | |
-    | **JKOPAY** | ✓ | After 180 days from payment | JKOPAY co-branded card: Refunded directly to the card<br>Bank account debit: Refunded to the JKOPAY account |
+    | **JKOPAY** | ✓ | After 180 days from payment | JKOPay co-branded card: Refunded directly to the card<br>Bank account debit: Refunded to the JKOPay account |
     | **iPASS** | ✓ | After 60 days from payment | |
 
 
@@ -190,7 +190,7 @@ Depending on the order's refund method, the refund is completed automatically or
         ![](../../assets/images/EC-後台-訂單-所有訂單-操作已退貨拒絕退貨01.en.png)
 
     2. The system automatically updates `Payment Status` to **Pending Refund**.
-    3. Contact the shopper and complete the offline transfer.
+    3. Contact the customer and complete the offline transfer.
     4. Return to the admin and select the order.
     5. Click **Select Action** in the upper right > change the payment status to **Refunded**.
 
@@ -200,13 +200,13 @@ Depending on the order's refund method, the refund is completed automatically or
 ## FAQ { #faq-order-refund }
 
 ??? quote "Why does the shopper say they didn't get the money after a credit card refund?"
-    Credit card refunds usually take **7–14 business days** to appear on the shopper's credit card statement. If the refund crosses the statement closing date, the shopper may need to wait for next month's statement to see the charge and refund offset.
+    Credit card refunds usually take **7–14 business days** to appear on the customer's credit card statement. If the refund crosses the statement closing date, the customer may need to wait for next month's statement to see the charge and refund offset.
 
 ??? quote "What happens if my payment account balance is too low?"
     If your ECPay or third-party payment account balance can't cover the refund, the refund request fails. Top up the balance in the payment provider's dashboard first, or use **Merchant Transfer** and update the status manually.
 
 ??? quote "How is the refund amount calculated for returns?"
-    It depends on the return type: a full return refunds the whole order amount, and a partial return refunds the approved amount you entered during **Reviewing Return**.
+    It depends on the return type: a full return refunds the whole order amount, and a partial return refunds the approved amount you filled in during **Reviewing Return**.
 
 ## More Tasks { #next-steps-order-refund }
 

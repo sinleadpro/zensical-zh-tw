@@ -100,7 +100,7 @@ Click the group to expand it and fill in the following:
 3. To remove one, select it in the group list and click **Remove from Group**.
 
 !!! info "Payment Method Status"
-    Only payment methods turned on in **Payment Settings** appear in the list. If you don't see a payment method, turn it on in the admin first.
+    Only payment methods enabled in **Payment Settings** appear in the list. If you don't see a payment method, turn it on in the admin first.
 
 
 ## More Actions { #operate-conditional-operate }

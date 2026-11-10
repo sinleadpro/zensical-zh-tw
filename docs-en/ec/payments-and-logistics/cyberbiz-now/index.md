@@ -29,7 +29,7 @@ permalink: "https://help.cyberbiz.io/ec/payments-and-logistics/cyberbiz-now/"
 
 Before enabling the quick delivery service, confirm that your storefront settings meet the following system requirements and marketing restrictions:
 
-- **Supported systems**: If your storefront is connected to the **POS system** or **full e-commerce warehouse integration**, this quick delivery feature is not currently supported.
+- **Supported systems**: If your storefront is integrated with the **POS system** or **full e-commerce warehouse integration**, this quick delivery feature is not currently supported.
   > Quick delivery supports partial warehouse integration.
 - **Applicable marketing campaigns**: Quick delivery does not support first-purchase gift.
 - **Applicable payment methods**: To ensure delivery efficiency, only **online payment** is supported. This avoids collection disputes that can arise with cash on delivery.

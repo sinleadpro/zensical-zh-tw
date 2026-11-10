@@ -73,7 +73,7 @@ Guides store staff to identify, prepare, and accept Quick Delivery orders so del
 ![](../../assets/images/EC-後台-訂單-門市訂單-畫面總覽01.en.png){ .hero-page }
 
 !!! tip "Use Cases"
-	- **Accept orders in store in real time**: When a shopper places a Quick Delivery order, store staff should respond right away and check stock.
+	- **Accept orders in store in real time**: When a customer places a Quick Delivery order, store staff should respond right away and check inventory.
 	- **Check delivery limits**: Before accepting, make sure the products meet the delivery partner's size and weight rules.
 
 ---
@@ -81,7 +81,7 @@ Guides store staff to identify, prepare, and accept Quick Delivery orders so del
 ## Before You Start { #prerequisites-qd-prep }
 
 - **Payment status limit**: Quick Delivery doesn't support **cash on delivery**. Only **Payment Received** orders can be shipped.
-- **System notifications**: Keep the admin **Branch Store Orders** tab open to get the new order sound and pop-up notifications.
+- **System notifications**: Keep the admin **Branch Store Orders** tab open to get the new order sound and dialog notifications.
 - **Size limits**: You need to judge whether products exceed the delivery partner's (Pandago / Uber Direct) limits. If they do, we recommend **splitting the order**.
 - **Time limits**: Quick Delivery is about immediate delivery. We recommend accepting and preparing the order within 10–30 minutes after it's placed.
 
@@ -90,11 +90,11 @@ Guides store staff to identify, prepare, and accept Quick Delivery orders so del
 ### Identify and Accept New Orders { #operate-qd-prep-receive }
 
 1. Sign in to the CYBERBIZ admin and go to **Orders > Branch Store Orders**.
-2. Keep the page open. When a new order is placed, the system plays a new order sound and shows a pop-up.
-3. Click **Got It** in the pop-up to close the notification.
+2. Keep the page open. When a new order is placed, the system plays a new order sound and shows a dialog.
+3. Click **Got It** in the dialog to close the notification.
     ![](../../assets/images/EC-後台-訂單-門市訂單-接單01.en.png){ .screenshot }
 
-4. Click the **Order Number** to open the details page, and check the product types, quantities, and stock.
+4. Click the **Order Number** to open the details page, and check the product types, quantities, and inventory.
 5. Click **Preparing**.
     ![](../../assets/images/EC-後台-訂單-門市訂單-準備出貨01.en.png){ .screenshot }
 
@@ -102,8 +102,8 @@ Guides store staff to identify, prepare, and accept Quick Delivery orders so del
 !!! info "What the System Does"
     After the order status changes to **Preparing**:
 
-    - The system automatically sends the shopper a **Quick Delivery confirmation email**.
-    - The shopper can no longer cancel the order.
+    - The system automatically sends the customer a **Quick Delivery confirmation email**.
+    - The customer can no longer cancel the order.
 
 
 
@@ -124,7 +124,7 @@ Before you prepare products for an order, make sure the packed size meets the fo
     Make sure you're signed in to the admin and the **Orders > Branch Store Orders** page is open (you can switch to other tabs, but don't close it). Also check whether the browser tab is muted and your computer volume is on.
 
 ??? quote "A shopper says they chose the wrong store. Can I change it for them?"
-    No. The store and delivery address of a Quick Delivery order are linked. If the address is wrong or the wrong store was chosen, we recommend agreeing with the shopper to cancel the order and having them place a new order with the correct address or store.
+    No. The store and delivery address of a Quick Delivery order are linked. If the address is wrong or the wrong store was chosen, we recommend agreeing with the customer to cancel the order and having them place a new order with the correct address or store.
 
 ??? quote "The order status is **Unpaid**. Can I click Preparing first?"
     No. Wait until the status changes to **Payment Received** before processing. Because Quick Delivery doesn't support cash on delivery, make sure payment is complete before you start, to avoid payment collection issues later.

@@ -73,7 +73,7 @@ The **Meta Ads App** is an add-on in the CYBERBIZ APP MARKET. It lets you create
 
 ## Prerequisites { #prerequisites-meta-ads }
 
-Before installing the Meta Ads App, complete the following steps in order. Otherwise, the system automatically redirects you to the related settings page:
+Before installing the Meta Ads App, complete the following steps in order. Otherwise, the system automatically redirects you to the related setup page:
 
 - [x] **Connect [Meta Business Extension](../integrations/fb/mbe/setup-fbe-authorization.md){ title="Set Up FBE Account Authorization and Asset Connections" }**: Make sure your EC admin is connected to your Facebook assets (Page, Pixel, and catalog).
 - [x] **Create a [Meta Ad Account](../integrations/fb/meta-ads/create-meta-ad-account-top-up.md){ title="Create a Meta Ad Account and Add Funds" }**: Create a dedicated ad account in the admin first.
@@ -121,8 +121,8 @@ Before installing the Meta Ads App, complete the following steps in order. Other
 
     It depends on the type of error:
 
-    - If you see `internal server error` or another system error message, try **reinstalling** first. If the problem continues, contact CYBERBIZ customer service for help.
-    - If you see a permission error such as "You do not have permission to modify", contact CYBERBIZ customer service for help.
+    - If you see `internal server error` or another system error message, try **reinstalling** first. If the problem continues, contact CYBERBIZ customer support for help.
+    - If you see a permission error such as "You do not have permission to modify", contact CYBERBIZ customer support for help.
 
 ??? quote "Why can't I create ads after the app installs successfully?"
 

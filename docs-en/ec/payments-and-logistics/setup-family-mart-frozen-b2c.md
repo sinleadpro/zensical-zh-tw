@@ -77,7 +77,7 @@ hide:
 
 ## FamilyMart Frozen Logistics B2C Overview { #intro-fm-frozen-b2c }
 
-**FamilyMart Frozen B2C (Bulk Consignment)** is a service in which Taiwan Logistics (a logistics partner of FamilyMart) picks up goods from the merchant's designated location (pickup service) and delivers them to the FamilyMart store chosen by the consumer.
+**FamilyMart Frozen B2C (Bulk Consignment)** is a service in which Taiwan Logistics (a logistics partner of FamilyMart) picks up goods from the merchant's designated location (pickup service) and delivers them to the FamilyMart store chosen by the customer.
 
 ## Eligible Plans and Application Requirements { #prerequisites-fm-frozen-b2c }
 
@@ -87,9 +87,9 @@ hide:
 
 ## Application Steps { #operate-fm-frozen-b2c-apply }
 
-1. **Contact customer service**: To use this feature, first contact customer service to request that the logistics feature be enabled.
+1. **Contact customer support**: To use this feature, first contact customer support to request that the logistics feature be enabled.
 
-2. **Open the application page**: After customer service confirms, the system opens the application entry in the back office and notifies the merchant by email.
+2. **Open the application page**: After customer support confirms, the system opens the application entry in the admin and notifies the merchant by email.
 
 3. **Submit the application form**:
 
@@ -109,9 +109,9 @@ hide:
 
 After you receive the activation success notification email, follow these steps to enable the service:
 
-1. **Go to the settings page**:
+1. **Go to the setup page**:
 
-	- Log in to the CYBERBIZ back office and go to **Payment and Logistics > Convenience Store Logistics**.
+	- Log in to the CYBERBIZ admin and go to **Payment and Logistics > Convenience Store Logistics**.
 	- Click the Edit :material-file-document-edit-outline: button for **FamilyMart Frozen** to open the edit page.
 
     ![Settings page](../../assets/images/ec-logistics-family-mart-frozen-enter-setup.en.png)
@@ -128,10 +128,10 @@ After you receive the activation success notification email, follow these steps 
 
 1. **Shipping operations**:
 
-	- In the back-office order list, select the orders to ship, click "Select Action", and download the waybill for the matching package size (s60 or s105).
-	- After you download the waybill, Taiwan Logistics receives the order and **automatically picks up** the goods from your location. No separate contact is needed.
+	- In the back-office order list, select the orders to ship, click "Select Action", and download the shipping label for the matching package size (s60 or s105).
+	- After you download the shipping label, Taiwan Logistics receives the order and **automatically picks up** the goods from your location. No separate contact is needed.
 
-2. **Fill out the forms**:
+2. **Fill in the forms**:
 
 	- Download the [pickup detail form](https://www.cyberbiz.co/support/wp-content/uploads/2021/01/%E5%86%B7%E5%87%8DEC%E5%8F%96%E8%B2%A8%E6%98%8E%E7%B4%B0%E8%A1%A8S105.xlsx) and fill in the relevant information. (Be sure to complete it before pickup.)
 	- The driver checks and confirms the list on site. Fill in the shipping temperature and pickup temperature records.
@@ -152,7 +152,7 @@ After you receive the activation success notification email, follow these steps 
 
 - **Temperature control**: Only **frozen food** is supported. The temperature must be below **-12°C** (or -18°C, depending on the specifications), and goods must be **pre-chilled for at least 12 hours** before shipping and fully frozen.
 
-- **Label placement**: Print the waybill, place it in a **waterproof clear bag**, and attach it flat to the wide side of the carton. Do not fold or bend the label, or resize the barcode.
+- **Label placement**: Print the shipping label, place it in a **waterproof clear bag**, and attach it flat to the wide side of the carton. Do not fold or bend the label, or resize the barcode.
 
 ## Taiwan Logistics Pickup and Delivery Times { #specs-fm-frozen-b2c-sla }
 
@@ -209,13 +209,13 @@ After you receive the activation success notification email, follow these steps 
 
 - **Uncollected by customer**: If a package is not picked up within 4 days of arriving at the store, Taiwan Logistics retrieves it and holds it at the logistics center. It is returned to the merchant on the driver's next pickup. **No extra fee applies to this reverse logistics leg.**
 
-- **Store closure or transfer**: If the pickup store closes, the system notifies the merchant. The merchant must contact the customer within **6 days** and reselect a store in the back office.
+- **Store closure or transfer**: If the pickup store closes, the system notifies the merchant. The merchant must contact the customer within **6 days** and reselect a store in the admin.
 
 - **Shipping exception**: If a package does not reach the store by D+3 (shipment date + 3 days), a search process begins. If the package is confirmed lost or the goods have lost their required temperature, an investigation and compensation process starts.
 
-### Reprint Waybills { #operate-cvs-b2c-shipping-reprint }
+### Reprint Shipping Labels { #operate-cvs-b2c-shipping-reprint }
 
-If a label is lost or damaged, you can reprint it in the back office before the deadline.
+If a label is lost or damaged, you can reprint it in the admin before the deadline.
 
 1. In the order list, select the orders to reprint.
 2. Click the **More Actions** dropdown, then select **Reprint Waybill**.
@@ -224,20 +224,20 @@ If a label is lost or damaged, you can reprint it in the back office before the 
 <div class="grid cards" markdown>
 
 - :lucide-calendar-search:{ .lg }
-  [__Check Waybill Expiry Dates by Convenience Store__](../orders/references/cvs-waybill-expiration-reference.md#reference-cvs-waybill-expiration){ data-preview }
+  [__Check Shipping Label Expiry Dates by Convenience Store__](../orders/references/cvs-waybill-expiration-reference.md#reference-cvs-waybill-expiration){ data-preview }
   View the reprint deadlines and expiry determination times for each convenience store logistics provider.
 
 - :lucide-refresh-cw:{ .lg }
   [__Renumber Overdue Waybills__](../orders/renew-waybill-after-expiration.md#operate-renew-waybill-after-expiration){ data-preview }
-  If the original waybill expires or the reprint deadline passes, obtain a new waybill number and download a new waybill.
+  If the original shipping label expires or the reprint deadline passes, obtain a new waybill number and download a new shipping label.
 
 </div>
 
 
-## Frequently Asked Questions { #faq-fm-frozen-b2c }
+## FAQ { #faq-fm-frozen-b2c }
 
 ??? quote "Items not delivered to the store more than shipment date + 7 days?"
-	FamilyMart automatically cancels the logistics space reserved for the order. The CYBERBIZ back office then shows "Shipping Exception", and the customer must follow the **return process** to handle the follow-up.
+	FamilyMart automatically cancels the logistics space reserved for the order. The CYBERBIZ admin then shows "Shipping Exception", and the customer must follow the **return process** to handle the follow-up.
 
 ??? quote "Customers cannot select the FamilyMart Frozen map on the checkout page?"
 	FamilyMart Frozen logistics has a package size limit. If the package size of items in the customer's cart exceeds **s105**, the system cannot display the FamilyMart Frozen map, or the package may be rejected for exceeding the limit.

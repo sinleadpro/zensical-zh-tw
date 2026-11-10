@@ -74,7 +74,7 @@ hide: []
 
 ## Meta Ad Catalog Set Overview { #overview-meta-catalog }
 
-The **Meta Ad Catalog Set** feature lets merchants filter specific product sets directly from the CYBERBIZ back office for special promotions or specific sales needs, and precisely run them in Meta's [catalog ads or image ads](setup-meta-ad-campaign.md#intro-meta-campaign){ title="Set Up a Meta Ad Campaign" }.
+The **Meta Ad Catalog Set** feature lets merchants filter specific product sets directly from the CYBERBIZ admin for special promotions or specific sales needs, and precisely run them in Meta's [catalog ads or image ads](setup-meta-ad-campaign.md#intro-meta-campaign){ title="Set Up a Meta Ad Campaign" }.
 
 ## Prerequisites and Restrictions { #prerequisites-meta-catalog }
 
@@ -87,8 +87,8 @@ Before you add a product set, make sure you complete the following:
 
 1.  **Access Meta Ads App**: Log in to the CYBERBIZ admin, then go to **Third-Party Integration > Facebook > Product Set**.
 
-    - If not yet connected: Click "Connect Now" to initialize (see [Install Meta Ads App](../../../app-market/install-meta-ads-app.md){ title="Install Meta Ads App" }).
-    - If already connected: Click "**Go Now**."
+    - If not yet integrated: Click "Connect Now" to initialize (see [Install Meta Ads App](../../../app-market/install-meta-ads-app.md){ title="Install Meta Ads App" }).
+    - If already integrated: Click "**Go Now**."
 
 2.  **Start Creating**: Click Catalog Product Sets > Create Catalog Product Set in the left navigation menu.
 
@@ -121,7 +121,7 @@ Before you add a product set, make sure you complete the following:
 
 ### Manually Update the Catalog { #specs-meta-catalog-overview-meta-catalog }
 
-If you just updated product data in the back office, the change may not appear in Meta right away. If selecting products causes an update to fail, follow these steps to manually update the catalog:
+If you just updated product data in the admin, the change may not appear in Meta right away. If selecting products causes an update to fail, follow these steps to manually update the catalog:
 
 1.  **Access the Operation Page**: Log in to the CYBERBIZ admin, then go to **Third-Party Integration > Facebook > Basic Setting**.
 2.  **Run a Manual Update**: In the "Product Catalog" section, click "Manual Update." The system immediately pushes the latest product data to Meta.
@@ -164,7 +164,7 @@ After you create a catalog product set, you can create ads based on it:
 
 </div>
 
-## Frequently Asked Questions { #faq-meta-catalog }
+## FAQ { #faq-meta-catalog }
 
 ??? quote "Which products can't be added to a catalog product set?"
 

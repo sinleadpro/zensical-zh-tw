@@ -129,7 +129,7 @@ With the default theme, you can set only the "website title," and you must chang
     3. Search for and open the **`theme.liquid`** file.
     4. Find this code in the file: `{{ shop.name }} {{ page_title }}`.
 - **How to change it**:
-    - **Show custom text**: Delete `{{ page_title }}`, and then type the text you want to show right after `{{ shop.name }}`.
+    - **Show custom text**: Delete `{{ page_title }}`, and then enter the text you want to show right after `{{ shop.name }}`.
 
 ``` liquid title="theme.liquid" hl_lines="3"
 <title>
@@ -200,5 +200,5 @@ With a drag-and-drop theme, you don't need to edit code. Enter the information d
 ??? quote "Is it better to enter as many "website keywords" as possible?"
 	No. Modern search engines (such as Google) no longer use the HTML `keywords` tag as a main ranking factor:
 	
-	- **Recommended**: Enter **3–5** core terms most relevant to your brand.
+	- **Recommended**: Fill in **3–5** core terms most relevant to your brand.
 	- **Avoid penalties**: Stuffing in meaningless keywords (keyword stuffing) may be treated as spam by search engines and hurt your SEO.

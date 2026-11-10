@@ -65,7 +65,7 @@ Cloudflare is a well-known DNS hosting and CDN provider. If your domain is hoste
 ## Before You Start { #prerequisites-cf-ssl }
 
 - **Avoid SSL conflicts**: CYBERBIZ provides and automatically maintains SSL certificates for all merchant websites. If Cloudflare's Proxy (orange cloud) feature is on, Cloudflare's certificate conflicts with the CYBERBIZ certificate. Common symptoms include: **a 521 error on the website, an endless redirect loop, or a website that can't be opened at all.**
-- **Third-party updates**: The Cloudflare interface may change over time. If the button names and paths in this guide (such as DNS Records and Proxy status) differ slightly from what you see, follow Cloudflare's latest official documentation. CYBERBIZ mainly provides system integration and domain pointing services. If a third-party platform changes its interface and the steps change, CYBERBIZ is not obligated to update this guide to match. For detailed steps on the domain provider's side, contact that platform's customer service first.
+- **Third-party updates**: The Cloudflare interface may change over time. If the button names and paths in this guide (such as DNS Records and Proxy status) differ slightly from what you see, follow Cloudflare's latest official documentation. CYBERBIZ mainly provides system integration and domain pointing services. If a third-party platform changes its interface and the steps change, CYBERBIZ is not obligated to update this guide to match. For detailed steps on the domain provider's side, contact that platform's customer support first.
 
 
 ## Turn off the Cloudflare Proxy { #operate-cf-ssl }

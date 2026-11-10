@@ -67,7 +67,7 @@ A good registration flow can greatly improve new customer conversion. Choose the
 !!! tip "Use Cases"
     - **Improve the checkout experience**: Turn on Quick Checkout and Register to lower the barrier to a first purchase and shorten the path to buying.
     - **Build fuller member profiles**: For industries such as beauty or pets, use custom fields to collect skin type or pet type for targeted marketing.
-    - **Strengthen security**: Turn on email or mobile verification to make sure member data is genuine and reduce ghost accounts.
+    - **Strengthen security**: Enable email or mobile verification to make sure member data is genuine and reduce ghost accounts.
 
 
 ## Before You Start { #prerequisites-customer-reg }
@@ -81,7 +81,7 @@ Before you change registration settings, note the differences and limits between
 
 Choose the checkout flow that best fits your business model.
 
-1. Log in to the admin panel and go to **Website Management > Member Registration Setting**.
+1. Log in to the admin and go to **Website Management > Member Registration Setting**.
 2. In the **Member Registration** section, choose a mode:
     - **Fast checkout with registration**: Customers can go to the checkout page first and log in during checkout, or register when they place the order.
     - **Registration required**: Customers must register and log in before they can check out.
@@ -132,7 +132,7 @@ To improve the quality of your member list, turn on verification.
 
 ### 2. Redirect After Registration { #operate-customer-reg-redirect }
 
-1. Find the **Registration page redirect setting** section and turn on the switch.
+1. Find the **Registration page redirect setting** section and turn on the toggle.
 2. Enter the link you want to send members to.
 
 !!! info "Plan Availability"
@@ -154,7 +154,7 @@ To improve the quality of your member list, turn on verification.
 1. Click the **Add new custom field** button.
 2. Choose a field type. The system supports these five types:
     - **Image upload**: For uploading warranty cards, certificates, or receipts.
-    - **Text box**: Lets members enter short text freely.
+    - **Text box**: Lets members fill in short text freely.
     - **Checkbox**: Supports multiple selections.
     - **Dropdown**: Preset options for members to choose one.
     - **Date picker**: A standard year/month/day picker.
@@ -162,7 +162,7 @@ To improve the quality of your member list, turn on verification.
 
 ![](../../assets/images/EC-後台-管理中心-顧客註冊設定-新增自訂欄位01.en.png){ .hero-page }
 
-### Bulk Import Custom Data { #operate-customer-reg-import }
+### Batch Import Custom Data { #operate-customer-reg-import }
 
 To include custom field data when you import members in bulk, follow these rules:
 
@@ -172,15 +172,15 @@ To include custom field data when you import members in bulk, follow these rules
 To edit the Excel template:
 
 1. In the member import template, manually add a column header in the format `[0]自訂欄位名稱` (for example, `[0]會員編號`).
-2. Enter the information that matches each field type.
+2. Fill in the information that matches each field type.
   - Date format: Always use YYYY/MM/DD.
-  - Dropdown: The value must exactly match the option text set in the admin panel.
+  - Dropdown: The value must exactly match the option text set in the admin.
 3. To download the member template and upload the file, see [Bulk Import New Members](../members/batch-import-and-edit-members.md).
 
-!!! tip "Bulk Edit Custom Fields for Existing Members"
-    - **Applicable plans**: Only the **Enterprise** plan can overwrite or change custom fields for existing members in bulk.
-    - **Other plans**: Custom fields can only be included when you bulk import new members. You can't update custom fields for existing members with bulk edits.
-    - **Related steps**: On the Enterprise plan, go to [Bulk Edit Existing Member Data](../members/batch-import-and-edit-members.md#operate-batch-members-edit).
+!!! tip "Batch Edit Custom Fields for Existing Members"
+    - **Applicable plans**: Only the **Enterprise** plan can overwrite or change custom fields for existing members in batches.
+    - **Other plans**: Custom fields can only be included when you batch import new members. You can't update custom fields for existing members with batch edits.
+    - **Related steps**: On the Enterprise plan, go to [Batch Edit Existing Member Data](../members/batch-import-and-edit-members.md#operate-batch-members-edit).
 
 
 ![](../../assets/images/EC-後台-會員-所有會員-新會員匯入範本新增自訂欄位01.en.png)
@@ -192,7 +192,7 @@ To edit the Excel template:
 
 - :lucide-user-plus:{ .lg }
   [__Bulk Import New Members__](../members/batch-import-and-edit-members.md#operate-batch-members-import)
-  Learn how to download the Excel template and upload member lists in bulk.
+  Learn how to download the Excel template and upload member lists in batches.
 
 - :lucide-mail:{ .lg }
   [__Set Up Email Notification Templates__](../notifications/manage-email-templates.md)

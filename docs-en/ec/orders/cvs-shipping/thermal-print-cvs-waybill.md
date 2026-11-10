@@ -92,7 +92,7 @@ The system offers two formats:
 
 **Supported logistics**
 
-- **7-Eleven**: B2C bulk shipping / C2C store-to-store
+- **7-11**: B2C bulk shipping / C2C store-to-store
 - **FamilyMart**: B2C bulk shipping / C2C store-to-store
 
 **Version limits**
@@ -102,7 +102,7 @@ The system offers two formats:
 
 **Other support**
 
-- **EZCAT Quick Store Delivery**: Supports thermal printing. We recommend waterproof labels or a clear pouch so moisture doesn't affect barcode scanning.
+- **T-CAT Rapid-to-Store Delivery**: Supports thermal printing. We recommend waterproof labels or a clear pouch so moisture doesn't affect barcode scanning.
 
 ## Shipping Label Formats { #specs-cvs-thermal-format }
 
@@ -123,12 +123,12 @@ Thermal print - A6
 ## Steps { #operate-cvs-thermal }
 
 !!! warning "Important Notes"
-	- **Browser settings tip:** If the file doesn't download, make sure pop-up blocking isn't turned on.
+	- **Browser settings tip:** If the file doesn't download, make sure pop-up blocking isn't enabled.
 
 ### Print One Label <small>Single Order</small> { #operate-cvs-thermal-print-single }
 
 1. Sign in to the CYBERBIZ admin and go to **Orders > All Orders**.
-2. Select the order to ship (the delivery type must be 7-Eleven or FamilyMart).
+2. Select the order to ship (the delivery type must be 7-11 or FamilyMart).
 3. Click **Select Action** in the upper-right corner.
 4. Select **Thermal Print (A6)**. The system generates an A6 shipping label file.  
 
@@ -199,12 +199,12 @@ Thermal print - A6
 ??? quote "Why can't I find the Thermal Print (A6) option?"  
 	Usually for one of the following reasons:
 
-	- The order's delivery type isn't 7-Eleven or FamilyMart.
+	- The order's delivery type isn't 7-11 or FamilyMart.
 	- You're using **C2C orders in the legacy order list**.
 	- You selected orders from different carriers for a batch action.  Make sure the order logistics type is correct and C2C orders are in the new order list.
 
 ??? quote "Why doesn't the download shipping labels option appear when I batch print?"  
-	Batch printing supports only orders with **the same carrier and the same delivery type**. If you select different logistics (such as 7-Eleven + FamilyMart), the download option doesn't appear.
+	Batch printing supports only orders with **the same carrier and the same delivery type**. If you select different logistics (such as 7-11 + FamilyMart), the download option doesn't appear.
 
 ??? quote "Do I have to use A6 size for thermal printing?"  
 	Yes. Convenience store thermal printing supports only **A6 (100 mm × 150 mm to 105 mm × 150 mm)**. If you use non-A6 label paper or scale the print, convenience store devices may not be able to read the barcode.
@@ -214,7 +214,7 @@ Thermal print - A6
 
 
 ??? quote "Why doesn't the browser respond when I download shipping labels?"  
-	The browser may have pop-up blocking turned on, or the download was blocked.
+	The browser may have pop-up blocking enabled, or the download was blocked.
 
 	Check that:  
 

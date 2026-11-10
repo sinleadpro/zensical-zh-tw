@@ -80,7 +80,7 @@ Use the graphical menu on the POS front end so staff can quickly tap products to
     - **Tablet Use**: When checking out on a tablet at a mobile stall or exhibition, the graphical interface is more intuitive.
 
 
-## Usage Notes { #prerequisites-menu-settings }
+## Before You Start { #prerequisites-menu-settings }
 
 - **Prerequisites**: We recommend setting up **[Custom Groups](../../ec/products/categories-and-tags/custom-collections.md)** or **[Product Types](../../ec/products/create-and-manage/edit-product-description-settings.md#operate-product-desc-settings)** first so you can link them directly when you create menus.
 - **Image Requirements**:

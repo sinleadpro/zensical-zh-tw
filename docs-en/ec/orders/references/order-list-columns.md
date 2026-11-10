@@ -69,17 +69,17 @@ The columns you can show vary slightly by plan and enabled features. The table b
 | Order Tags | Custom tags you added to the order. |
 | Created Date | Date and time the order was created. |
 | Order Status | Overall current status of the order (such as Completed or Canceled). |
-| Recipient Name | Recipient name entered on the order. |
+| Recipient Name | Recipient name filled in on the order. |
 | Source | Where the order was created (website, POS, external app, and so on). |
 | Payment Status | Whether the order is paid, awaiting payment, refunded, and so on. |
 | Payment Method | Payment method the customer chose (credit card, ATM, convenience store payment, and so on). |
 | Delivery Status | Shipping progress (awaiting shipment, shipped, delivered, and so on). |
 | Delivery Type | Delivery type the customer chose (home delivery, convenience store pickup, and so on). |
-| Delivery Temperature Zone | Delivery temperature zone of the order (ambient / refrigerated / frozen). |
+| Delivery Temperature Zone | Delivery temperature zone of the order (room-temperature / refrigerated / frozen). |
 | Delivery Date | Delivery date the customer specified. |
 | Return Status | Return process progress of the order. |
-| Order Note | Note the customer entered when placing the order. |
-| Shop Note | Internal note you entered for the order. |
+| Order Note | Note the customer filled in when placing the order. |
+| Shop Note | Internal note you filled in for the order. |
 | Product Channel | Channel the order's products belong to. |
 | Order Amount | Total amount of the order. |
 | Delivery Time Slot | Delivery time slot the customer specified. |
@@ -95,5 +95,5 @@ The columns you can show vary slightly by plan and enabled features. The table b
 | Campaign Serial Number | Redemption serial number generated for the product in a campaign. |
 
 !!! note "Notes"
-    - If the related feature isn't turned on, the column doesn't appear in the **Edit Columns** panel.
+    - If the related feature isn't enabled, the column doesn't appear in the **Edit Columns** panel.
     - Column display settings are saved to your account and still apply the next time you sign in.

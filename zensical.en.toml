@@ -106,6 +106,7 @@ nav = [
             {"Order Settings" = [
                 {"Set Up and Print Order Details" = "ec/orders/order-settings/order-detail-print.md"},
                 {"Set Up and Print Packing Slips" = "ec/orders/order-settings/shipping-detail-print.md"},
+                {"Set the Print Sort Order for Shipping Documents" = "ec/orders/order-settings/setup-shipping-docs-sort.md"},
                 {"Set Up Order Auto-Close" = "ec/orders/order-settings/auto-close-order-settings.md"},
                 {"How to Manually Close Orders" = "ec/orders/order-settings/manual-order-close.md"},
                 {"Send Customers a Payment Link" = "ec/orders/order-settings/provide-payment-link.md"},
@@ -176,7 +177,6 @@ nav = [
                 {"Delivery Status Reference" = "ec/orders/references/fulfillment-statuses.md"},
                 {"Order Payment Status Reference" = "ec/orders/references/payment-statuses.md"},
                 {"7-Eleven C2C Return Service: Conditions for Sending" = "ec/orders/references/c2c-return-conditions.md"},
-                {"Automatic Card Refund Time Limits" = "ec/orders/references/auto-refund-timeline.md"},
                 {"Convenience Store Partial Shipment Support" = "ec/orders/references/cvs-partial-shipping-support.md"},
                 {"Return and Refund Statuses (Unclaimed Convenience Store Orders)" = "ec/orders/references/return-refund-status-reference.md"},
                 {"Order List Actions" = "ec/orders/references/order-list-features.md"},
@@ -475,8 +475,8 @@ nav = [
             ]},
             {"CHAT BOX" = [
                 { "CHAT BOX Messaging" = "ec/app-market/chatbox/index.md" },
-                { "Connect CHAT BOX to a LINE Official Account" = "ec/app-market/chatbox/connect-chat-box-to-line-oa.md" },
-                { "Connect CHAT BOX to a Facebook Page" = "ec/app-market/chatbox/connect-chat-box-to-facebook-page.md" },
+                { "Integrate CHAT BOX with a LINE Official Account" = "ec/app-market/chatbox/connect-chat-box-to-line-oa.md" },
+                { "Integrate CHAT BOX with a Facebook Page" = "ec/app-market/chatbox/connect-chat-box-to-facebook-page.md" },
                 { "LINE Message Format Specifications" = "ec/app-market/chatbox/line-message-format-spec.md" },
                 { "Meta Message Format Specifications" = "ec/app-market/chatbox/meta-message-format-spec.md" },
                 { "CHAT BOX AI Suggested Replies" = "ec/app-market/chatbox/chat-box-ai-suggested-replies.md" },
@@ -485,9 +485,10 @@ nav = [
             {"CHANNEL BRIDGE" = [
                 { "Step 1: Install and Authorize Your Shop" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md" },
                 { "Step 2: Import Products and Create Links" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step2-import-products-and-link.md" },
-                { "Step 3: Sync Inventory Between Your Online Store and Shopee" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee.md" },
-                { "Step 4: Create Shopee Products from Online Store Products" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step4-create-shopee-products-from-site.md" },
-                { "Step 5: Sync Product Information Between Your Online Store and Shopee" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step5-sync-product-info-with-shopee.md" },
+                { "Step 3: Sync Inventory Between Your Storefront and Shopee" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee.md" },
+                { "Step 4: Create Shopee Products from Storefront Products" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step4-create-shopee-products-from-site.md" },
+                { "Step 5: Sync Product Information Between Your Storefront and Shopee" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step5-sync-product-info-with-shopee.md" },
+                { "Set up Shared Inventory Between POS and the Storefront" = "ec/app-market/cyberbiz-channel-bridge/sync-inventory-with-pos.md" },
             ]},
             {"CYBERBIZ EXPRESS" = [
                 {"CYBERBIZ EXPRESS Japan-to-Taiwan Cross-Border Home Delivery" = "ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery.md"},
@@ -614,6 +615,7 @@ nav = [
             { "Security" = [
                 { "Security Overview and Best Practices" = "ec/website-management/security-best-practices.md" },
                 { "Set up Member Security and Website Protection" = "ec/website-management/member-security-settings.md" },
+                { "Redirect Shoppers to a Country-Specific Storefront" = "ec/website-management/setup-country-site-redirect.md" },
                 { "Set up Admin Login Security" = "ec/website-management/admin-security-settings.md" },
                 { "Set up Bot Protection and SMS Verification" = "ec/website-management/bot-protection-settings.md" },
                 { "Set up and Manage Two-Step Verification" = "ec/website-management/setup-manage-two-factor-auth.md" },
@@ -631,7 +633,7 @@ nav = [
                 { "One-Click Invoice Issuance" = "ec/website-management/one-click-invoice-issuance.md" },
             ]},
             { "Invoices" = [
-                { "Wixtar E-Invoice Setup" = "ec/website-management/wixtar-e-invoice-setup.md" },
+                { "WiXtar E-Invoice Setup" = "ec/website-management/wixtar-e-invoice-setup.md" },
                 { "Manage System-Issued Consumer Invoices" = "ec/website-management/manage-system-issued-consumer-invoices.md"},
                 { "Set up ECPay E-Invoices" = "ec/website-management/ecpay-invoice.md" },
             ]},
@@ -641,11 +643,11 @@ nav = [
                 { "System Expiry Handling Process" = "ec/website-management/system-expiry-handling-process.md" },
             ]},
             { "Troubleshooting" = [
-                { "Unable to Receive the Admin Panel Login Verification Email" = "ec/website-management/not-receiving-backend-login-verification-email.md" },
+                { "Unable to Receive the Admin Login Verification Email" = "ec/website-management/not-receiving-backend-login-verification-email.md" },
                 { "Troubleshoot Missing Merchant Notification Emails" = "ec/website-management/troubleshoot-not-receiving-merchant-notifications.md" },
             ]},
             {"Reference" = [
-                {"Admin Permissions and Admin Panel Menu Reference" = "ec/website-management/references/admin-permissions-menu-reference.md"},
+                {"Admin Permissions and Admin Menu Reference" = "ec/website-management/references/admin-permissions-menu-reference.md"},
                 {"Customer Field Validation Mode Reference" = "ec/website-management/references/customer-field-validation-reference.md"},
                 {"Customer Registration Mode Reference" = "ec/website-management/references/customer-registration-modes-reference.md"},
                 {"Order Number Format Variable Reference" = "ec/website-management/references/general-preferences-order-format-variables.md"},
@@ -821,6 +823,8 @@ nav = [
             { "June 2026" = "resources/new-release/2026-06.md" },
             { "July 2026" = "resources/new-release/2026-07.md" },
             { "August 2026" = "resources/new-release/2026-08.md" },
+            { "September 2026 Feature Updates" = "resources/new-release/2026-09.md" },
+            { "October 2026 Feature Updates" = "resources/new-release/2026-10.md" },
         ]},
     ]}
  ]

@@ -62,7 +62,7 @@ hide:
 | Hi-Life Convenience Store Pickup | ≤  10 kg | ≤ 105 cm | ≤ 45 cm |
 
 !!! note "Notes"
-    * If the weight or volume entered when creating a product exceeds the limit, the storefront automatically blocks customers from selecting this delivery method.
+    * If the weight or volume filled in when creating a product exceeds the limit, the storefront automatically blocks customers from selecting this delivery method.
     * The actual limits follow the official announcements from each convenience store at the time of application.
 
 ---
@@ -92,4 +92,4 @@ Field differences by channel on the "Merchant Information Application" page:
 !!! note "Notes"
     * 7-ELEVEN requires additional company information and product type verification, so it has the most required fields.
     * FamilyMart Frozen involves cold-chain storage and requires additional warehouse information.
-    * Fields are synced to each convenience store system after submission, so they must be entered accurately.
+    * Fields are synced to each convenience store system after submission, so they must be filled in accurately.

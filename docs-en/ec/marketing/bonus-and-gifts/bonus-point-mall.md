@@ -77,7 +77,7 @@ Create your own online bonus point store, set the points needed for each product
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | All PLUS / Enterprise
 { .doc-badge }
 
-!!! info "Version Differences"
+!!! info "Plan Differences"
     - Both **Online Store (EC)** and **Retail Store (POS)** support Bonus Mall. This article covers only **Online Store (EC)** Bonus Mall settings.
     - On PLUS plans, Bonus Mall is part of the "Marketing A" add-on module (choose 2 of 11). Make sure you have selected this module before using it. Enterprise includes it by default.
 
@@ -87,7 +87,7 @@ Create your own online bonus point store, set the points needed for each product
 
 Bonus Mall gives you a separate space to show and redeem products, so members can turn the Bonus they earn into real products. "Redeem only" or "points only" items put members' point balances to use and build long-term brand loyalty.
 
-The same product can be sold for cash in your regular store and redeemed for points in Bonus Mall. Both share the same stock.
+The same product can be sold for cash in your regular store and redeemed for points in Bonus Mall. Both share the same inventory.
 
 !!! tip "Use Cases"
     - **Member rewards**: Offer high-value products that can only be redeemed with points, so members keep shopping to earn more.
@@ -157,7 +157,7 @@ The same product can be sold for cash in your regular store and redeemed for poi
 
 1. Check that all products and points are correct.
 2. Click **Unpublished** in the top-right corner to switch the Status to **Published**.
-3. Click **Go To This Mall** in the drop-down menu to preview it in a new tab.
+3. Click **Go To This Mall** in the dropdown menu to preview it in a new tab.
 
 ## How Customers Redeem { #operate-bonus-mall-flow }
 
@@ -201,7 +201,7 @@ Choose whether points are returned automatically when a bonus point order is can
 
 
 ### Product Launch Countdown { #operate-bonus-mall-manage-product }
-In **Marketing > Bonus Mall**, turn on **Product launch time setting**. When a product has a future start time, the storefront shows a countdown timer.
+In **Marketing > Bonus Mall**, enable **Product launch time setting**. When a product has a future start time, the storefront shows a countdown timer.
 
 !!! info "Plan Availability for Product Launch Countdown"
     This feature is available on Enterprise only.

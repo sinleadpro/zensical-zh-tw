@@ -107,9 +107,9 @@ hide: []
 
 ## Steps { #operate-apple-pay }
 
-Apple Pay is usually enabled automatically with CYBERBIZ PAYMENTS. You can adjust its availability and transaction thresholds in the back office.
+Apple Pay is usually enabled automatically with CYBERBIZ PAYMENTS. You can adjust its availability and transaction thresholds in the admin.
 
-1. Log in to the CYBERBIZ back office and go to **Payment and Logistics > Payment Settings**.
+1. Log in to the CYBERBIZ admin and go to **Payment and Logistics > Payment Settings**.
 2. In the CYBERBIZ PAYMENTS section, click **:material-file-document-edit-outline: Edit** to open the edit page.
 3. In the Apple Pay settings section:
 
@@ -135,27 +135,27 @@ Apple Pay is usually enabled automatically with CYBERBIZ PAYMENTS. You can adjus
 </div>
 
 
-## Frequently Asked Questions { #faq-apple-pay }
+## FAQ { #faq-apple-pay }
 
 ??? quote "Does Apple Pay support installment payments?"
 	No. Apple Pay supports only one-time payments. For installments, customers must select the "Credit Card Installments" payment method.
 
 ??? quote "Do I need to separately apply for Apple Pay after activating CYBERBIZ PAYMENTS?"
-	No. Apple Pay is enabled automatically. Merchants can turn it on or off in the back office.
+	No. Apple Pay is enabled automatically. Merchants can turn it on or off in the admin.
 
 ??? quote "Why can't customers see the Apple Pay option?"
 	Possible causes:
 
 	- Non-Apple device
 	- Non-Safari browser
-	- Apple Pay is turned off in the back office
+	- Apple Pay is turned off in the admin
 	- The order amount is outside the configured threshold range
 
 ??? quote "What is the Apple Pay rate?"
 	Rates are the same as for one-time credit card payments and depend on the merchant's contract with CYBERBIZ. There are no additional fees.
 
 ??? quote "Can I set order amount limits?"
-	Yes. Set the minimum and maximum order amounts in the back office.
+	Yes. Set the minimum and maximum order amounts in the admin.
 
 ??? quote "How long do Apple Pay refunds take?"
 	Refunds follow the same process and timeline as credit cards, usually 7 to 14 business days.

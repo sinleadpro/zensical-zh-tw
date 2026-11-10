@@ -94,7 +94,7 @@ The "Customized Collections" page is split into two columns:
 | Section | Content |
 | :-- | :-- |
 | **Left column** | A search table of all your products. Filter and select products to add them to the currently selected collection. |
-| **Right column** | A collection sort drop-down, the collection list (expandable), and the "Add a new collection" form at the bottom of the page. |
+| **Right column** | A collection sort dropdown, the collection list (expandable), and the "Add a new collection" form at the bottom of the page. |
 
 
 - Click a collection title in the list to select it and expand its details (collection name, URL, and the products in the collection).
@@ -105,7 +105,7 @@ The "Customized Collections" page is split into two columns:
 ## Prerequisites and Limits { #prerequisites-custom-collections }
 
 - [x] **Collection limit by plan**: Depending on your plan, the total number of customized collections may be capped. If you reach the limit, the system blocks new collections and shows a message.
-- [x] **Multi-language (optional)**: To show different collection names, descriptions, and SEO on storefronts in different languages, the multi-language feature must be enabled separately. See [Multi-language settings](#operate-custom-collections-multilingual).
+- [x] **Multi-language (optional)**: To show different collection names, descriptions, and SEO on storefronts in different languages, the multi-language feature must be enabled separately. Details in [Multi-language settings](#operate-custom-collections-multilingual).
 
 ## Steps { #operate-custom-collections }
 
@@ -151,7 +151,7 @@ The "Customized Collections" page is split into two columns:
     - **Product Type**: Filter by product type. You can select multiple types.
     - **Product Vendor**: Filter by vendor. You can select multiple vendors.
     - **Tag**: Filter products that have the specified tags. You can select multiple tags.
-    - **Shop**: The product source. Filter products by POS or online store source.
+    - **Shop**: The product source. Filter products by POS or storefront source.
 
     ??? example "Filter Logic and Example"
         The system filters using **AND across different categories (all must match) and OR within the same category (any can match)**.
@@ -160,10 +160,10 @@ The "Customized Collections" page is split into two columns:
           - **Product Type**: Stress-relief items, Piano
           - **Product Vendor**: Genben, YAMAHA
           - **Tag**: stress relief, piano
-          - **Source**: Online store
+          - **Source**: Storefront
 
         - **Logic applied:**
-          (type `Stress-relief items` or `Piano`) + (vendor `Genben` or `YAMAHA`) + (tag `stress relief` or `piano`) + (source: online store)
+          (type `Stress-relief items` or `Piano`) + (vendor `Genben` or `YAMAHA`) + (tag `stress relief` or `piano`) + (source: storefront)
 
         - **Result:**
           The system shows products that "match all four categories at the same time". For example, an **online store** product tagged **piano** from vendor **YAMAHA**.
@@ -294,7 +294,7 @@ New collections are published by default. To take one down temporarily (for exam
 
 ### Sort the Collection List { #operate-custom-collections-sort-list }
 
-A sort drop-down menu at the top of the right column changes the display order of the collection list:
+A sort dropdown menu at the top of the right column changes the display order of the collection list:
 
 | Option | Description |
 | :-- | :-- |
@@ -314,8 +314,8 @@ This setting is remembered in your browser, so your last choice is kept the next
 [:lucide-tag:{ title="Applicable Plans" }](../../../resources/conventions#適用方案){ title="Icon Conventions" } | PLUS / Enterprise
 { .doc-badge }
 
-!!! plan "Activation Requirements"
-    The multi-language feature **must be enabled separately on every plan**; contact your account manager. Once enabled, a **"Select Language"** drop-down menu appears in the upper-right corner of the page. Stores without it enabled don't see this menu and can't edit content in multiple languages.
+!!! plan "Prerequisites"
+    The multi-language feature **must be enabled separately on every plan**; contact your account manager. Once enabled, a **"Select Language"** dropdown menu appears in the upper-right corner of the page. Stores without it enabled don't see this menu and can't edit content in multiple languages.
 
 #### Language Behavior of Each Field { #operate-custom-collections-multilingual-fields }
 
@@ -339,15 +339,15 @@ After you switch languages, the editable fields fall into two types:
 
 #### Edit Content in Another Language { #operate-custom-collections-multilingual-edit }
 
-1. **Switch to the target language:** On the "Products/Customized Collections" page, select the language to edit in the **"Select Language"** drop-down menu in the upper-right corner. The system loads the content saved for that language.
+1. **Switch to the target language:** On the "Products/Customized Collections" page, select the language to edit in the **"Select Language"** dropdown menu in the upper-right corner. The system loads the content saved for that language.
 
     ![Multi-language menu](../../../assets/images/EC-商品-自訂分類-多國語系選單.en.png){ title="Multi-Language Menu" }
 
 2. **Edit the collection name and description:**
     - **Collection name**: Follow the steps in [Edit the Collection Name, URL, and Product Sort Order](#operate-custom-collections-edit-basic) to change the name for that language (changes save automatically).
     - **Collection Description**: Follow the steps in [Edit the Collection Description](#operate-custom-collections-description) to open the edit page, enter the content for that language on the **Collection Description** tab, and click **Save**.
-3. **Fill in the SEO meta tags:** Follow the steps in [Set Up SEO](#operate-custom-collections-seo) to enter the information for that language, and click **Save**.
-4. **Repeat for other languages:** Open the "Select Language" drop-down again, switch to the next language, and repeat steps 2–3 until every language you need to support is filled in.
+3. **Fill in the SEO meta tags:** Follow the steps in [Set Up SEO](#operate-custom-collections-seo) to fill in the information for that language, and click **Save**.
+4. **Repeat for other languages:** Open the "Select Language" dropdown again, switch to the next language, and repeat steps 2–3 until every language you need to support is filled in.
 
 !!! tip "Recommended Order"
     Fill in all fields in the default language (Traditional Chinese for most stores) first, then switch to other languages. That way, even if you forget the "Collection Name" or "Collection Description" in another language, the storefront shows the default language content instead of leaving it blank.
@@ -358,7 +358,7 @@ After you switch languages, the editable fields fall into two types:
 - **Collection URLs must be unique**: Each collection in a store must have a unique URL.
 - **No system limit on products**: There's no hard limit on the number of products in a single collection.
 - **Deleting a collection can't be undone**: A deleted collection can't be restored, and its storefront URL stops working at the same time.
-- **Collection description and SEO are separate per language**: The collection name and description automatically **fall back** to the default language when left blank, but the three SEO fields don't. See [Multi-language settings](#operate-custom-collections-multilingual).
+- **Collection description and SEO are separate per language**: The collection name and description automatically **fall back** to the default language when left blank, but the three SEO fields don't. Details in [Multi-language settings](#operate-custom-collections-multilingual).
 
 ## Next Steps { #reference-custom-collections }
 
@@ -403,13 +403,13 @@ After you switch languages, the editable fields fall into two types:
     [](){ #faq-custom-collections-limit-reached }
     Your plan limits the total number of customized collections you can create. If you've reached the limit, delete collections you no longer use, or contact your account manager to upgrade your plan or buy more collections.
 
-??? quote "Why can't I see the 'Select Language' drop-down in the upper-right corner?"
+??? quote "Why can't I see the 'Select Language' dropdown in the upper-right corner?"
     [](){ #faq-custom-collections-no-language-selector }
     The multi-language feature **must be enabled separately on every plan**. The "Select Language" menu appears in the upper-right corner only after multi-language is enabled, and then you can edit in multiple languages.
 
 ??? quote "I filled in SEO after switching languages. Why is the storefront still blank?"
     [](){ #faq-custom-collections-seo-empty }
-    The three SEO fields (page title, page description, page keywords) **don't** fall back to the default language. Make sure each SEO field for that language is filled in and saved. See [Multi-language settings](#operate-custom-collections-multilingual).
+    The three SEO fields (page title, page description, page keywords) **don't** fall back to the default language. Make sure each SEO field for that language is filled in and saved. Details in [Multi-language settings](#operate-custom-collections-multilingual).
 
 ??? quote "Can a collection URL use Chinese characters?"
     [](){ #faq-custom-collections-handle-chinese }

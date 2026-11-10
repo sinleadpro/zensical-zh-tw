@@ -91,7 +91,7 @@ Before any system setup, finish the admin process and warehouse needs assessment
 1. **Fill in the warehouse form**: Go to the [CYBERBIZ e-commerce warehouse application page](https://www.cyberbiz.io/wms/#list) and describe your needs. A warehouse manager will contact you.
 2. **Assessment and contract**: Confirm product types, inbound volume, and logistics rates with the warehouse manager, and sign the contract.
 3. **Check your logistics mode**:
-    - If you use the convenience store C2C mode, contact your consultant or customer service to switch to **B2C bulk warehouse shipping**.
+    - If you use the convenience store C2C mode, contact your consultant or customer support to switch to **B2C bulk warehouse shipping**.
     - Logistics center returns are sent back to the CYBERBIZ warehouse by **Ji Chuan Freight**.
 
 ## Step 2: Set up Your System { #operate-wms-activation-setup }
@@ -101,7 +101,7 @@ After signing the contract, complete these settings in the online store admin pa
 ### 1. Sync Product SKUs { #operate-wms-activation-sku }
 
 - [Create items](single-items/#operate-single-items-add) in the e-commerce warehouse admin panel for the products going into the warehouse.
-- Make sure product SKUs in the online store (EC) and the e-commerce warehouse (WMS) admin panels are **all filled in and exactly the same**.
+- Make sure product SKUs in the storefront (EC) and the e-commerce warehouse (WMS) admin panels are **all filled in and exactly the same**.
 - Every variant (such as color or size) must have its **own unique** SKU. Do not leave it blank.
 
 === "View EC Product SKUs"
@@ -121,7 +121,7 @@ After signing the contract, complete these settings in the online store admin pa
 - Go to **Products > All Products** and open each product's edit page.
 - Turn on the **Inventory** option.
 
-    > You do not need to enter stock quantities. After activation, the system pulls the physical stock from the warehouse automatically.
+    > You do not need to fill in inventory quantities. After activation, the system pulls the physical inventory from the warehouse automatically.
 
 ![](../assets/images/EC-後台-商品-所有商品-串倉商品檢查SKU與庫存開關01.en.png){ .screenshot }
 
@@ -133,7 +133,7 @@ After signing the contract, complete these settings in the online store admin pa
 
 ## Step 3: Activation and Logistics Setup { #operate-wms-activation-open }
 
-After you finish the setup, reply to CYBERBIZ customer service. A specialist activates the integration and **emails you when it is done**.
+After you finish the setup, reply to CYBERBIZ customer support. A specialist activates the integration and **emails you when it is done**.
 
 !!! info "What CYBERBIZ Sets Up"
     - Convenience store pickup label testing
@@ -159,7 +159,7 @@ After you receive the activation email, finish these settings:
 
 1. Go to **Payment and Logistics > Convenience Store Logistics**.
 2. For each logistics option you turned on, set the **Shipping Fee** and the **free shipping threshold**.
-3. Choose whether to offer **COD**.
+3. Select whether to offer **COD**.
 
 ![](../assets/images/EC-後台-金物流-超商物流-串倉商家建立超商物流01.en.png){ .screenshot }
 

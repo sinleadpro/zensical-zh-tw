@@ -245,7 +245,7 @@ hide:
 -   :lucide-shopping-cart: __Order Processing__
 
     ---
-    Sync Online Store orders automatically, with manual order creation and POD tracking
+    Sync storefront orders automatically, with manual order creation and POD tracking
 
     [:octicons-arrow-right-24: Order List](list.md)<br>
     [:octicons-arrow-right-24: Manual Order Creation](manual-order-creation.md)
@@ -267,8 +267,8 @@ hide:
 <div class="grid" markdown>
 
 <div>
-<big><strong>Automatic Sync Between Online Store and Warehouse</strong></big><br>
-Sync stock in real time and split or combine orders automatically, so Online Store orders reach the warehouse system for shipping quickly and accurately.
+<big><strong>Automatic Sync Between Storefront and Warehouse</strong></big><br>
+Sync inventory in real time and split or combine orders automatically, so storefront orders reach the warehouse system for shipping quickly and accurately.
 <br><br>
 
 
@@ -290,7 +290,7 @@ Sync stock in real time and split or combine orders automatically, so Online Sto
 -   :lucide-user: __Warehouse Staff__
 
     ---
-    Focus on floor operations and stock changes
+    Focus on floor operations and inventory changes
 
     [:octicons-arrow-right-24: Create Receipt Orders](inbound-orders.md)<br>
     [:octicons-arrow-right-24: Create Return Orders](return-orders.md)<br>

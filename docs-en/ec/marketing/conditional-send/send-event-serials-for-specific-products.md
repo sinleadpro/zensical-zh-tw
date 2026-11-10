@@ -65,7 +65,7 @@ Create a "serial number group." When customers buy and pay for specific products
 
 ## About Sending Serial Numbers For Specific Products { #overview-conditional }
 
-"Send Serial Numbers for Specific Products" (serial number groups) is a marketing tool that sends serial numbers automatically. When a customer buys a specific product and pays, the system adds a unique serial number to the Order details. This helps you handle virtual products or promotional gifts without issuing codes by hand.
+"Send Serial Numbers for Specific Products" (serial number groups) is a marketing tool that sends serial numbers automatically. When a customer buys a specific product and pays, the system adds a unique serial number to the Order details. This helps you handle virtual products or promotional free gifts without issuing codes by hand.
 
 !!! tip "Use Cases"
     - **Tickets**: Sell tickets for live events (such as concerts, exhibitions, or classes). Entry codes are automatically sent after payment.
@@ -155,7 +155,7 @@ In the **Serial Number List** tab, track the sending progress and current Status
 
     - Customers can log in to the website, go to **會員中心 > 我的訂單**, and open the Order details for the product to see the **Serial Number**.
     - Customers can also find it in the **Serial Number notification email**.
-      > Turn on the **Customer Receives Specific Product Serial Number** notification in **Push Notifications > Email Notification Template**.
+      > Enable the **Customer Receives Specific Product Serial Number** notification in **Push Notifications > Email Notification Template**.
 
 === "Merchant View"
 

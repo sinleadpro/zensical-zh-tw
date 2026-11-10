@@ -1,6 +1,6 @@
 ---
-title: "Unable to Receive the Admin Panel Login Verification Email"
-description: "If you do not receive the verification email when you log in to the admin panel, follow this guide to fix the problem quickly."
+title: "Unable to Receive the Admin Login Verification Email"
+description: "If you do not receive the verification email when you log in to the admin, follow this guide to fix the problem quickly."
 created: 2026-05-27 11:55
 last_modified: 2026-05-27 12:00
 lang: en-US
@@ -61,8 +61,8 @@ search:
 icon: lucide/mail-warning
 hide: []
 ---
-# Unable to Receive the Admin Panel Login Verification Email
-If you do not receive the verification email when you log in to the admin panel, follow this guide to fix the problem quickly.
+# Unable to Receive the Admin Login Verification Email
+If you do not receive the verification email when you log in to the admin, follow this guide to fix the problem quickly.
 { .subtitle }
 
 
@@ -75,7 +75,7 @@ If you do not receive the verification email when you log in to the admin panel,
 
 Still no verification email after you try the steps below? Get the following details ready and email **security-ts@cyberbiz.io**. A specialist will help you.
 
-- **Subject**: [Admin Panel Login Help] Company name / Website name
+- **Subject**: [Admin Login Help] Company name / Website name
 - **Message**:
     - Website URL
     - Login account (email)
@@ -95,15 +95,15 @@ If the email hasn't arrived or you can't finish logging in, check these first:
 
 
 
-## How Admin Panel Login Two-Step Verification Works { #intro-login-email }
+## How Admin Login Two-Step Verification Works { #intro-login-email }
 
-To keep your account safe and block hackers from abroad, CYBERBIZ now requires two-step verification for all admin panel logins. Based on your settings, you prove who you are in one of these ways:
+To keep your account safe and block hackers from abroad, CYBERBIZ now requires two-step verification for all admin logins. Based on your settings, you prove who you are in one of these ways:
 
 === "Method A: 2FA Mobile App Verification (Recommended)"
-    If you have turned on [two-step verification (2FA)](setup-manage-two-factor-auth.md), open the **Google Authenticator app** on your phone to get a live code. This is the safest method.
+    If you have enabled [two-step verification (2FA)](setup-manage-two-factor-auth.md), open the **Google Authenticator app** on your phone to get a live code. This is the safest method.
 
 === "Method B: MFA Email Verification"
-    If you haven't turned on 2FA, the system sends an identity verification code to your login email. Enter the code before it expires to log in.
+    If you haven't enabled 2FA, the system sends an identity verification code to your login email. Enter the code before it expires to log in.
 
 
 
@@ -111,7 +111,7 @@ To keep your account safe and block hackers from abroad, CYBERBIZ now requires t
 
 To protect your business and your customers' privacy, we strongly recommend that you set up the following:
 
-### 1. Turn on 2FA Two-Step Verification { #next-steps-login-email-2fa }
+### 1. Enable 2FA Two-Step Verification { #next-steps-login-email-2fa }
 This is the strongest defense against account theft. Even if your password is stolen, hackers still can't get past the second verification step.
 > Set it up: [Set Up and Manage Two-Step Verification](setup-manage-two-factor-auth.md)
 

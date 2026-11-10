@@ -192,7 +192,7 @@ Once purchase limits are on, the system checks Collections rules when customers 
 
 - :lucide-circle-plus:{ .lg }
   [__Set Up Product Upsells__](../upsells/setup-product-upsell.md)
-  Besides limiting purchases, you can set up upsells that recommend related add-ons at checkout to raise order value.
+  Besides limiting purchases, you can set up upsells that recommend related add-ons at checkout to raise AOV.
 
 </div>
 
@@ -229,7 +229,7 @@ Once purchase limits are on, the system checks Collections rules when customers 
 
 ---
 
-## References { #reference-purchase-limit }
+## See Also { #reference-purchase-limit }
 
 - [Account Status and Purchase Permissions](../references/purchase-limit-account-status.md){ title="帳號狀態與購買權限對照表" }
 

@@ -142,7 +142,7 @@ This page is under "Charts" > "Product Analysis" in the admin. It organizes prod
 
 ![Product Sales TOP 10 and LAST 10](../../assets/images/ec-bi-product-analysis-sales-rank.en.png){ title="Product Sales TOP 10 and LAST 10" }
 
-For field definitions, see [Product Sales Fields](./references/product-analysis-metrics-reference.md#reference-product-analysis-sales-rank){ data-preview }.
+For field definitions, see also [Product Sales Fields](./references/product-analysis-metrics-reference.md#reference-product-analysis-sales-rank){ data-preview }.
 
 ---
 
@@ -217,7 +217,7 @@ For field definitions, see [Product Purchases by Period Fields](./references/pro
 
 - :lucide-shopping-cart:{ .lg }  
   [__Order Analysis__](./order-analysis.md){ title="Order Analysis" }  
-  Understand your sales mix from order volume, average order value, and cancellation rate.
+  Understand your sales mix from order volume, AOV, and cancellation rate.
 
 - :lucide-package:{ .lg }  
   [__Add and Edit Products__](../products/create-and-manage/create-update-products.md){ title="Add and Update Products" }  
@@ -238,7 +238,7 @@ For field definitions, see [Product Purchases by Period Fields](./references/pro
     [](){ #faq-product-analysis-rank-basis }
     "Product Sales TOP 10 / LAST 10" is ranked by **sales volume** (number of units), not sales amount. To see per-product data based on amount, use "Product Purchases by Period" on the "Product Report" tab, which includes a "Total Product Sales" field.
 
-??? quote "Are add-on items or gifts counted in sales?"
+??? quote "Are add-on items or free gifts counted in sales?"
     [](){ #faq-product-analysis-addon-excluded }
     No. "Product Sales TOP 10 / LAST 10" excludes add-on items, so the ranking reflects sales of your main products.
 
@@ -246,6 +246,6 @@ For field definitions, see [Product Purchases by Period Fields](./references/pro
     [](){ #faq-product-analysis-number-mismatch }
     This page counts only **valid orders** (not canceled, and not requiring a return or with a return rejected), while the order list includes canceled and returned orders, so counts and amounts may differ. This is expected and reflects a difference in how data is counted.
 
-## References { #reference-product-analysis }
+## See Also { #reference-product-analysis }
 
 - [Product Analysis Field Reference](./references/product-analysis-metrics-reference.md)

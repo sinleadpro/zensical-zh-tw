@@ -67,7 +67,7 @@ icon: lucide/shopping-cart
 hide: []
 ---
 # Shopper Purchase Flow
-This article explains how shoppers order in the **Quick Delivery section** of the storefront, how shipping fees are calculated, and how PIN verification works at delivery.
+This article explains how customers order in the **Quick Delivery section** of the storefront, how shipping fees are calculated, and how PIN verification works at delivery.
 { .subtitle }
 
 [:lucide-tag:{ title="Available Plans" }](../../resources/conventions#適用方案) | All PLUS / Enterprise
@@ -75,15 +75,15 @@ This article explains how shoppers order in the **Quick Delivery section** of th
 
 
 !!! tip "Use Cases"
-	- **Customer education**: Use this article to create a shopper guide.
-	- **Store inquiries**: Answer shoppers who ask how to use Quick Delivery or why they can't check out.
+	- **Customer education**: Use this article to create a customer guide.
+	- **Store inquiries**: Answer customers who ask how to use Quick Delivery or why they can't check out.
 
 
 ## Before You Start { #prerequisites-purchase-process }
 
-- **Payment method limits**: Quick Delivery **doesn't support cash on delivery**. Shoppers must pay online first (status **Paid**) before you can accept and ship the order.
+- **Payment method limits**: Quick Delivery **doesn't support cash on delivery**. Customers must pay online first (status **Paid**) before you can accept and ship the order.
 - **Address locked**: The recipient address at checkout defaults to the address entered when searching, and **can't be changed after checkout starts**.
-- **Shipping fee**: Total shipping fee = platform shipping fee (Pandago/Uber Direct) + your shipping surcharge. If the order amount meets the free shipping threshold, the shopper doesn't pay shipping.
+- **Shipping fee**: Total shipping fee = platform shipping fee (Pandago/Uber Direct) + your shipping surcharge. If the order amount meets the free shipping threshold, the customer doesn't pay shipping.
 - **Service area limit**: Because of how Quick Delivery works, the maximum delivery distance is **5 km**.
 ---
 
@@ -111,11 +111,11 @@ This article explains how shoppers order in the **Quick Delivery section** of th
 1. Click a store to browse its product list below.
 2. Choose products and add them to the cart.
 
-    > Note: Quick Delivery products open in a pop-up and don't have their own product pages.
+    > Note: Quick Delivery products open in a dialog and don't have their own product pages.
 
 3. **Checkout with multiple stores**:
     - If products from different stores are added, a **multiple carts** selection page appears before checkout.
-    - Shoppers can check out only one store's cart at a time.
+    - Customers can check out only one store's cart at a time.
 
 ![](../../assets/images/EC-前台-首頁-快速到貨頁面01.en.png){ .screenshot }
 
@@ -132,7 +132,7 @@ This article explains how shoppers order in the **Quick Delivery section** of th
 ## Receiving and Verification { #operate-purchase-process-receive }
 
 ### 1. Track Delivery Progress { #operate-purchase-process-track-email }
-After the order is placed and the store accepts it, once a driver is matched, the shopper receives a **store order acceptance email** from CYBERBIZ. The order can no longer be canceled at this point.
+After the order is placed and the store accepts it, once a driver is matched, the customer receives a **store order acceptance email** from CYBERBIZ. The order can no longer be canceled at this point.
 
 ### 2. Track Delivery Progress { #operate-purchase-process-track-sms }
 
@@ -144,7 +144,7 @@ After a driver is matched, the delivery platform sends a **text message**. Tap t
 ### 3. PIN Verification at Delivery (Uber Direct Only) { #operate-purchase-process-uber-direct }
 If the order is delivered by **Uber Direct**, the shopper must verify their identity at delivery for security:
 
-- **How it works**: The shopper gives the courier the **last four digits of their phone number** as the PIN.
+- **How it works**: The customer gives the courier the **last four digits of their phone number** as the PIN.
 - **Purpose**: The order is completed only after the courier enters the correct PIN.
 
 ---
@@ -158,7 +158,7 @@ If the order is delivered by **Uber Direct**, the shopper must verify their iden
     No. Quick Delivery store coverage is based on the address entered when searching. To change the address, go back to the search page and enter it again, and the system matches the delivery stores again.
 
 ??? quote "Can shoppers cancel an order anytime after ordering?"
-    Before the merchant clicks **Preparing**, the shopper can contact customer service to cancel. After the merchant clicks **Preparing** and sends the confirmation email, the shopper can't cancel it themselves, so delivery resources can be scheduled in real time.
+    Before the merchant clicks **Preparing**, the customer can contact customer support to cancel. After the merchant clicks **Preparing** and sends the confirmation email, the customer can't cancel it themselves, so delivery resources can be scheduled in real time.
 
 ??? quote "Can I change the order of delivery stores?"
     Yes. In **Payment and Logistics > Store Pickup Settings**, you can reorder stores manually, and the storefront shows them in that order.

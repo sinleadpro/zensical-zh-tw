@@ -85,15 +85,15 @@ The same product may appear in different carts, but **once one cart is checked o
 
 ??? example "Use Cases"
 
-    - Fulfillment channel binding: When products belong to *different fulfillment channels*[^channels], set product channels so the system automatically splits them into different carts at checkout.
-    - Delivery temperature zone binding: When products must be delivered in *different delivery temperature zones* (room temperature/refrigerated/frozen), you can set multiple delivery temperature zones, and the system automatically splits carts based on each product's temperature zone requirement.
-    - Logistics binding: When products must be bound to *different logistics providers*[^logistics], set the logistics methods available for each product.
+    - Fulfillment channel linking: When products belong to *different fulfillment channels*[^channels], set product channels so the system automatically splits them into different carts at checkout.
+    - Delivery temperature zone linking: When products must be delivered in *different delivery temperature zones* (room temperature/refrigerated/frozen), you can set multiple delivery temperature zones, and the system automatically splits carts based on each product's temperature zone requirement.
+    - Logistics linking: When products must be linked to *different logistics providers*[^logistics], set the logistics methods available for each product.
 
     ??? example-clean "Example"
     
-          - Product A: Supports T-Cat home delivery only
-          - Product B: Supports Pelican Express only
-          - Product C: Supports both T-Cat home delivery and Pelican Express
+          - Product A: Supports T-CAT home delivery only
+          - Product B: Supports Pelican only
+          - Product C: Supports both T-CAT home delivery and Pelican
 
           When a customer buys products A, B, and C together, *the system automatically splits them into 2 carts based on the logistics restrictions, and each is checked out separately*.
 
@@ -122,7 +122,7 @@ The same product may appear in different carts, but **once one cart is checked o
 ![Product channel settings](../../../assets/images/ec-product-distribution-channel-setting.zh-tw.en.png){ title="Product Channel Settings" }
 
 !!! tip "Adding and Naming Channels"
-    Enter a channel name directly to add it. **Channels cannot be deleted once added.** Duplicate channel names are not allowed; if you need the same name, distinguish them with numbers. Each product can be bound to only **one channel**.
+    Enter a channel name directly to add it. **Channels cannot be deleted once added.** Duplicate channel names are not allowed; if you need the same name, distinguish them with numbers. Each product can be linked to only **one channel**.
 
 ??? info "How Product Channels Work"
     Think of a product channel as a kind of tag: create a name and apply it to products. The system automatically splits carts by channel and calculates discounts and shipping fees separately.
@@ -227,5 +227,5 @@ The same product may appear in different carts, but **once one cart is checked o
 
 
 [^channels]: Such as different warehouses, stores, or suppliers.
-[^logistics]: Such as Chunghwa Post, Hsinchu Logistics, or T-Cat.
+[^logistics]: Such as Chunghwa Post, HCT Logistics, or T-CAT.
 [^preorder-channel]: Pre-order products are handled by creating a "Pre-order" channel, which is a channel attribute.

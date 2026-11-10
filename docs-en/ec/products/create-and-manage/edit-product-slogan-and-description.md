@@ -135,7 +135,7 @@ Because the "Product slogan" and "Product brief" fields in the admin don't suppo
 To change the slogan or brief color and size for all products on the site at once, you can use CSS.
 
 1. **Find the style code**:
-    - On a product page of your website, click "Tools" > "Developer Tools" in the upper-right corner of the browser. Or press ++ctrl+shift+c++ (Windows/Linux) or ++cmd+option+c++ (Mac) to open Developer Tools with element selection mode turned on.  
+    - On a product page of your website, click "Tools" > "Developer Tools" in the upper-right corner of the browser. Or press ++ctrl+shift+c++ (Windows/Linux) or ++cmd+option+c++ (Mac) to open Developer Tools with element selection mode enabled.  
     - Use the arrow tool to select the text you want to change, then find and copy the matching CSS code in the **Styles** pane at the lower right.
 
     ![View CSS in Developer Tools](../../../assets/images/ec-check-css-style-shortcut.zh-tw.en.gif){ title="View CSS in Developer Tools" }

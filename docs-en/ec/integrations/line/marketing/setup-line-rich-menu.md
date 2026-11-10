@@ -157,7 +157,7 @@ Choose the link format that matches your customers' browsing goals and authentic
 
 #### General Browsing Mode <small>No Forced Login</small> { #operate-line-rich-menu-browse }
 
-If you want customers to browse pages directly without binding a LINE account, use the standard format.
+If you want customers to browse pages directly without linking a LINE account, use the standard format.
 
 - **Format**:`https://[your-domain]/[url-code]`
 
@@ -188,7 +188,7 @@ If you add a "Member Card" button to the menu so customers can show it at checko
 
 ---
 
-### Member Account Binding Mechanism <small>Recommended</small> { #operate-line-rich-menu-settings-member-account-b }
+### Member Account Linking Mechanism <small>Recommended</small> { #operate-line-rich-menu-settings-member-account-b }
 
 To ensure the system can send automated **order notifications** and **shipping status updates**, we recommend setting member-related areas in the menu (such as Member Center) to "Auto-Bind Link."
 
@@ -199,12 +199,12 @@ To ensure the system can send automated **order notifications** and **shipping s
 
 #### How It Works { #specs-line-rich-menu-logic }
 
-- **Customers not yet bound**: Tapping opens the LINE authorization screen. After authorization, the store member binding is completed automatically, and the customer is then directed to the logged-in status page.
+- **Customers not yet bound**: Tapping opens the LINE authorization screen. After authorization, the store member linking is completed automatically, and the customer is then directed to the logged-in status page.
 
 - **Customers already bound**: Tapping goes directly to the target page in a logged-in state, for a smoother shopping experience.
 
 
-!!! warning "Important Reminder"
+!!! warning "Important"
 
 	- Avoid repeated redirects: URLs with the `line_action=line_login` parameter keep triggering the verification flow. We recommend using this URL only for the "First-Time Binding" or "Log In / Sign Up" buttons. For other general shopping buttons, use a regular link.
 	- LINE OA message billing: Before you enable automated notifications, be sure to assess operating costs. All messages sent from a LINE Official Account (including manual broadcasts, automated order notifications, and shipping updates) count toward the paid quota. For billing rates, see the official [LINE Official Account Add-On Message Pricing](https://tw.linebiz.com/service/account-solutions/line-official-account/).
@@ -234,7 +234,7 @@ After setup, open the LINE app on your phone and check the following:
 
 - :lucide-search:{ .lg }     
   [__Keyword Product Search__](../account-integration/connect-line-messaging-api.md#intro-line-messaging-line-search-product){ title="Connect LINE Messaging API" }
-  After you connect the webhook, customers can type a keyword in the LINE chat, and the system automatically replies with the matching product messages.
+  After you integrate the webhook, customers can type a keyword in the LINE chat, and the system automatically replies with the matching product messages.
 
 </div>
 

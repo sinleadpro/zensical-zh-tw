@@ -95,7 +95,7 @@ There are two ways to set this up. Choose based on your site's theme:
 
 === "Drag-and-Drop Theme"
 
-    Turn on the site-wide button. It appears at the top right of your website pages, where it stands out the most.
+    Turn on the site-wide button. It appears at the top right of your storefront pages, where it stands out the most.
 
     1. Sign in to the CYBERBIZ admin and go to **Website Appearance > Theme Setting > Theme Setting**.
     2. In the page menu at the top center, select **Express Delivery Setting**.
@@ -112,7 +112,7 @@ There are two ways to set this up. Choose based on your site's theme:
     2. In the **Main Menu**, click **Add Menu Item**.
     3. **Item name**: Enter **Express Delivery Section**.
     4. **Link to**: Select **External Link**.
-    5. **URL**: Enter your website's homepage URL followed by `/branch_stores/express_delivery`.
+    5. **URL**: Enter your storefront's homepage URL followed by `/branch_stores/express_delivery`.
 
         > Example: `https://www.yourstore.com/zh-TW/branch_stores/express_delivery`
     

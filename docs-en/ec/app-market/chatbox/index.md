@@ -1,6 +1,6 @@
 ---
 title: "CHAT BOX Messaging"
-description: "Bring messages from multiple channels into one interface, see customer background and purchase history in real time, and deliver a seamless customer service experience."
+description: "Bring messages from multiple channels into one interface, see customer background and purchase history in real time, and deliver a seamless customer support experience."
 created: 2026-05-28 11:45
 last_modified: 2026-07-13 11:45
 lang: en-US
@@ -77,7 +77,7 @@ hide: []
 ---
 
 # CHAT BOX Messaging
-Bring messages from multiple channels into one interface, see each customer's background and purchase history in real time, and deliver seamless customer service.
+Bring messages from multiple channels into one interface, see each customer's background and purchase history in real time, and deliver seamless customer support.
 { .subtitle }
 
 [:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | All PLUS / Enterprise<br>
@@ -88,7 +88,7 @@ Bring messages from multiple channels into one interface, see each customer's ba
 
 !!! tip "Use Cases"
     - **Multi-Platform Messaging**: Receive and reply to conversations from Facebook, LINE, and other channels in one place without switching windows.
-    - **Instant Customer Context**: Social accounts are matched with member data automatically, so customer service can see the customer's phone, email, and recent orders right away.
+    - **Instant Customer Context**: Social accounts are matched with member data automatically, so customer support can see the customer's phone, email, and recent orders right away.
     - **Faster After-Sales Service**: Check shipping progress and return status right in the conversation to shorten wait times.
     - **Cross-Platform History**: See whether a customer asked the same question on different platforms so everyone has the same information.
 
@@ -105,18 +105,18 @@ Bring messages from multiple channels into one interface, see each customer's ba
 
 ## Interface Tour { #overview-chatbox }
 
-Go to **APP MARKET > CHAT BOX** to open the management interface. It has four main areas:
+Go to **APP MARKET > CHAT BOX** to open the management interface. It has four main sections:
 
-| Area | **Left** | **Center (Top)** | **Center (Bottom)** | **Right** |
+| Section | **Left** | **Center (Top)** | **Center (Bottom)** | **Right** |
 | ---- | -------- | --------- | ---------- | ------- |
 | Name | **Message Category Menu** | **Conversation List** | **Chat Room** | **Member Info Panel** |
-| Description | Sorts messages by read status | Shows incoming conversation cards with the source platform icon, customer name, and last message | Shows the full conversation history and lets you type text, upload images/videos, and send stickers | Shows the customer's basic info, 5 most recent orders, and cross-platform conversation history |
+| Description | Sorts messages by read status | Shows incoming conversation cards with the source platform icon, customer name, and last message | Shows the full conversation history and lets you enter text, upload images/videos, and send stickers | Shows the customer's basic info, 5 most recent orders, and cross-platform conversation history |
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-介面導覽01.png){ .screenshot }
 
 
 
-## How to Use { #operate-chatbox }
+## Steps { #operate-chatbox }
 
 ### 1. Manage and Filter Messages { #operate-chatbox-1-manage-message }
 
@@ -134,7 +134,7 @@ Use the left menu and the center list to find conversations that need attention:
 </div>
 
 !!! info "Read Status Sync"
-    The **Read** status in CHAT BOX is for internal customer service use only. The system does not sync it to the customer's LINE chat.
+    The **Read** status in CHAT BOX is for internal customer support use only. The system does not sync it to the customer's LINE chat.
 
     To control whether customers see a read receipt, change the setting in the LINE OA manager:
 
@@ -175,10 +175,10 @@ When you select a conversation, member information appears on the right:
 ## FAQ { #faq-chatbox }
 
 ??? quote "When are conversations from different platforms combined?"
-    When the same member contacts you through LINE, Facebook Messenger, and the store's "Contact Us" form, these records are combined under "All Conversations" as long as the system can match the member (for example, through binding or the same contact details).
+    When the same member contacts you through LINE, Facebook Messenger, and the store's "Contact Us" form, these records are combined under "All Conversations" as long as the system can match the member (for example, through linking or the same contact details).
 
 ??? quote "If one person uses different LINE accounts, will their conversations appear together?"
-    No. Each store member account can be bound to only one LINE account, so if a customer contacts you from a different LINE account, the system treats it as a different source.
+    No. Each store member account can be linked to only one LINE account, so if a customer contacts you from a different LINE account, the system treats it as a different source.
 
 ??? quote "What does "No conversations yet" under "All Conversations" mean?"
     It means the customer has contacted you through only one channel, or has not yet contacted you through LINE, Facebook, or the store's contact form.

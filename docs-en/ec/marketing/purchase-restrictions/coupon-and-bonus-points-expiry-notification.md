@@ -92,7 +92,7 @@ Set expiry reminders for coupons (codes) and bonus points. Notify customers by e
 
 ## Turn On Notification Channels { #operate-coupon-expiry-enable }
 
-Make sure to turn on the matching notification switches at these paths:
+Make sure to turn on the matching notification toggles at these paths:
 
 === "Email"
 

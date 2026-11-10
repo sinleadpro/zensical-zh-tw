@@ -73,7 +73,7 @@ Learn about the positioning, interface, and common tasks of the CYBERBIZ online 
 ## What Is the CYBERBIZ APP { #intro-app }
 
 
-The online store app is a mobile app service from CYBERBIZ. It extends your **online store** to shoppers' mobile devices and gives your brand a touchpoint for proactive communication and long-term member relationships.
+The storefront app is a mobile app service from CYBERBIZ. It extends your **online store** to customers' mobile devices and gives your brand a touchpoint for proactive communication and long-term member relationships.
 
 
 ### Product Highlights { #overview-app-highlights }
@@ -81,7 +81,7 @@ The online store app is a mobile app service from CYBERBIZ. It extends your **on
 
 1.  **A Channel Between Your Online Store and Offline Shoppers**
     *   Uses the mobile app as a fixed entry point for your brand
-    *   Makes it easier for shoppers to return to your online store
+    *   Makes it easier for customers to return to your storefront
 
 3.  **Member Pool Management**
     *   Integrates the membership card, coupon, and bonus points features
@@ -96,7 +96,7 @@ The online store app is a mobile app service from CYBERBIZ. It extends your **on
 If you have the following business needs, the online store app can serve as a supporting tool:
 
 
-*   You want a **stable, repeatable** channel for reaching shoppers
+*   You want a **stable, repeatable** channel for reaching customers
 
 *   You run or plan to run a **membership program** (membership cards, coupon, bonus points)
 
@@ -208,7 +208,7 @@ If you have the following business needs, the online store app can serve as a su
 
     `使用情境`
 
-    *   When shoppers check out at a physical store, you can guide them to download and open the app. With one tap, they can show their member barcode, which staff scan to log them in as members, with no need to give a phone number.
+    *   When customers check out at a physical store, you can guide them to download and open the app. With one tap, they can show their member barcode, which staff scan to log them in as members, with no need to give a phone number.
     *   To keep offline member data accurately in sync, **this feature requires the CYBERBIZ POS system**.
 
 

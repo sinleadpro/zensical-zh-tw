@@ -69,7 +69,7 @@ Customers who use the group buy feature are **members of a LINE group or multi-p
 
 ## Prerequisites { #prerequisites-line-shopping }
 
-Before guiding customers to use the group buy feature, make sure the following settings are complete in the merchant back office:
+Before guiding customers to use the group buy feature, make sure the following settings are complete in the admin:
 
 - [x] **Group Buy Bot Setup**: Completed [LINE Group Buy Bot Setup](setup-line-group-bot.md){ title="Set Up LINE Group Buy Bot" }, and added the bot to the target group.
 - [x] **Group Buy Product Setup**: Completed [LINE Group Buy Product Setup](setup-line-group-buy-products.md){ title="Set Up LINE Group Buy Products" }, and set the group buy prices.
@@ -94,7 +94,7 @@ Customers can start shopping in one of two ways:
 After entering the group buy product list, customers follow these steps:
 
 *   **Browse Products**: Tap the product image you want to buy. If there are many products, tap "**Show More Products**".
-*   **View Details**: Tap the magnifying glass button on a product to open its details page and view its specifications and description.
+*   **View Details**: Tap the magnifying glass button on a product to open its detail page and view its specifications and description.
 *   **Select an Action**:
     *   Tap "**Add to Cart**" to save the product and keep shopping for other items.
     *   Tap "**Add and Check Out**" to go directly to the checkout page.
@@ -119,7 +119,7 @@ After entering the group buy product list, customers follow these steps:
 *   **Supported Environments**: This feature is available only in **LINE groups** or **multi-person chat rooms**. Because LINE communities (OpenChat) are anonymous, they are not currently supported.
 *   **Account Binding**: The system uses LIFF to automatically apply the customer's LINE account information for quick sign-in, making the shopping process smoother.
 
-## Frequently Asked Questions { #faq-line-shopping }
+## FAQ { #faq-line-shopping }
 
 ??? quote "Why does nothing happen when I type group buy in a LINE community (OpenChat)?"
     The LINE group buy bot currently supports only LINE groups and multi-person chat rooms. Because LINE communities are anonymous, the LINE official API restricts some bot functions and information access in that environment, so the bot cannot be used there.
@@ -130,11 +130,11 @@ After entering the group buy product list, customers follow these steps:
 ??? quote "What causes a sign-in failure or blank page after customers tap Go to Checkout?"
     Check the following two points:
 
-    - LIFF setup: Check that LINE login authorization is turned on in the admin back office.
+    - LIFF setup: Check that LINE login authorization is turned on in the admin.
     - Browser environment: Make sure customers open the link directly within the LINE app, not copy the URL into an external browser (such as Safari or Chrome), so that the LIFF automatic sign-in works.
 
 ??? quote "Where can merchants view an order after the customer places it?"
-    Merchants can sign in to the CYBERBIZ admin back office > Order Management > All Orders, then search and filter by "Order Source" or view order tags to identify orders from the LINE group buy channel. For details, see [](setup-line-group-buy-group.md#reference-line-group){ title="Set Up LINE Group Buy Group" }.
+    Merchants can sign in to the CYBERBIZ admin > Order Management > All Orders, then search and filter by "Order Source" or view order tags to identify orders from the LINE group buy channel. For details, see [](setup-line-group-buy-group.md#reference-line-group){ title="Set Up LINE Group Buy Group" }.
 
 ??? quote "Can the group buy bot operate in multiple groups at the same time?"
-    Yes. As long as the bot has been invited to the group and the merchant back office has completed the group's binding and campaign setup, the bot can provide shopping guidance in multiple groups at the same time.
+    Yes. As long as the bot has been invited to the group and the admin has completed the group's linking and campaign setup, the bot can provide shopping guidance in multiple groups at the same time.

@@ -66,7 +66,7 @@ hide: []
 
 A **301 redirect** sends visitors from one URL to another. When a URL no longer works or is no longer updated, a redirect lowers the risk that search engine crawlers can't find your content after you switch systems or move your website, which would cause your **SEO ranking to drop**.
 
-!!! example "When to Use It"
+!!! example "Use Cases"
 
     This feature is especially useful when you **move your website** or when **event pages expire**. It sends traffic from popular old articles or products to the matching new pages, and it is the best way to protect your website's organic search ranking.
 

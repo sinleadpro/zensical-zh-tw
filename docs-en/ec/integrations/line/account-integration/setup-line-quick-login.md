@@ -76,7 +76,7 @@ hide: []
 
 ## What Is LINE Quick Login { #intro-line-quick }
 
-**LINE Quick Login** lets customers log in or register as members directly with their LINE accounts. The system automatically retrieves the "Email" bound to the customer's LINE account to match accounts. This not only simplifies the shopping process but also increases the exposure of your official account, and lets merchants filter members who log in through LINE in the back office.
+**LINE Quick Login** lets customers log in or register as members directly with their LINE accounts. The system automatically retrieves the "Email" linked to the customer's LINE account to match accounts. This not only simplifies the shopping process but also increases the exposure of your official account, and lets merchants filter members who log in through LINE in the admin.
 
 The following is a detailed setup tutorial for LINE Quick Login:
 
@@ -129,7 +129,7 @@ The following is a detailed setup tutorial for LINE Quick Login:
 
 1. **Get the Keys**: On the "Basic settings" tab in LINE Developers, copy the **Channel ID** and **Channel Secret**.
 
-2. **Enter Credentials in the Back Office**: Go to the CYBERBIZ back office **Third-Party Integration > LINE Login**.
+2. **Enter Credentials in the Back Office**: Go to the CYBERBIZ admin **Third-Party Integration > LINE Login**.
 
 3. **Enable the Feature**: Paste the Channel ID and Channel Secret, turn on the "**Enable LINE Login**" toggle, and save. The login button then appears on the storefront.
 
@@ -157,17 +157,17 @@ The following is a detailed setup tutorial for LINE Quick Login:
 
 - :lucide-link:{ .lg }     
   [__Configure LIFF One-Tap Login__](setup-liff-auto-login-member-binding.md){ title="Set up LIFF auto-login and member binding" }    
-  Enable LIFF redirect technology so customers can log in automatically by tapping a link inside LINE. This also completes friend tracking and account binding.
+  Enable LIFF redirect technology so customers can log in automatically by tapping a link inside LINE. This also completes friend tracking and account linking.
 
 </div>
 
-## Frequently Asked Questions { #faq-line-quick }
+## FAQ { #faq-line-quick }
 
 ??? quote "A 400 Bad Request Error Page Appears"
-	This is usually caused by an incorrect **Callback URL** configuration. Check the settings in the LINE Developers back office, and make sure the URL you enter exactly matches the path provided by the system, including the correct `https://` protocol and trailing format. Even minor character differences, such as extra spaces or slashes, can cause API verification to fail and return a 400 error.
+	This is usually caused by an incorrect **Callback URL** configuration. Check the settings in the LINE Developers admin, and make sure the URL you enter exactly matches the path provided by the system, including the correct `https://` protocol and trailing format. Even minor character differences, such as extra spaces or slashes, can cause API verification to fail and return a 400 error.
 
 ??? quote "Customers report that they cannot automatically jump to the LINE App on iOS devices"
 	This is caused by the privacy protection mechanism in iOS browsers. We recommend guiding customers to use the **Safari browser** first. When the system displays the prompt "Open in LINE?", be sure to tap "Open". If the automatic redirect fails, customers can also tap the "Log in with LINE App" button at the bottom of the page to start authorization manually.
 
-??? quote "How the System Handles Account Binding Logic Across Social Accounts"
-	The system uses **Email** as the unique identifier. When a customer's Facebook and LINE accounts are registered with the same Email, the system automatically consolidates them into one member identity and binds them together. If the two Emails are different, the system treats them as separate member accounts. Merging accounts across different Emails is not currently supported.
+??? quote "How the System Handles Account Linking Logic Across Social Accounts"
+	The system uses **Email** as the unique identifier. When a customer's Facebook and LINE accounts are registered with the same Email, the system automatically consolidates them into one member identity and links them together. If the two Emails are different, the system treats them as separate member accounts. Merging accounts across different Emails is not currently supported.

@@ -122,7 +122,7 @@ A group-buy campaign ends in the following three cases:
 *  **Commission lookup**: If the group leader wants to check order activity, merchants can provide the [commission report download link](../../../profit-sharing/query-profit-sharing-partners-and-codes.md#operate-ps-query-external){ title="Look Up Commission Partners and Codes" } for them to review.
 
 
-## Frequently Asked Questions { #faq-line-group }
+## FAQ { #faq-line-group }
 
 ??? quote "Why doesn't my LINE group appear in the back-end list?"
 
@@ -135,4 +135,4 @@ A group-buy campaign ends in the following three cases:
     After the bot leaves the group, **the current campaign ends immediately**. Past order records are kept in "Group-Buy History," but to restart, you must invite the bot back into the group and set up "Basic Settings" and "Bind Products" again.
 
 ??? quote "Can one LINE group-buy group run multiple commission plans at the same time?"
-    **No.** A group can bind only one "Referral Code" and one "Group-Buy Product Category" at a time. If you need a new campaign period, end the old campaign first, then set it up again.
+    **No.** A group can link only one "Referral Code" and one "Group-Buy Product Category" at a time. If you need a new campaign period, end the old campaign first, then set it up again.

@@ -90,7 +90,7 @@ hide: []
 
     ![Paste HTML tag code](../../../assets/images/ec-第三方整合-google-gschtml標記貼上.en.png){ title="Paste HTML tag code" }
 
-5. **Complete verification**: Return to the Google Search Console page and click **Verify**. After verification, a pop-up titled "Ownership verified" appears. Click "Go to property" to start viewing your data.
+5. **Complete verification**: Return to the Google Search Console page and click **Verify**. After verification, a dialog titled "Ownership verified" appears. Click "Go to property" to start viewing your data.
 
 ## Next Steps { #next-steps-search-console }
 

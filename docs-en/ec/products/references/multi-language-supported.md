@@ -66,6 +66,6 @@ This table lists the languages currently supported by the CYBERBIZ storefront mu
 | Indonesian | Bahasa Indonesia |
 
 !!! note "Notes"
-    * The languages you can actually switch to in the language menu depend on the languages activated and turned on in your store. The table above is the full list of languages the system supports.
-    * Traditional Chinese is the system default language. Other languages are turned on only after you activate the multi-language store feature.
+    * The languages you can actually switch to in the language menu depend on the languages activated and enabled in your store. The table above is the full list of languages the system supports.
+    * Traditional Chinese is the system default language. Other languages are enabled only after you activate the multi-language store feature.
     * Each language's display name in the storefront menu is written in that language (for example, Japanese is shown as "日本語").

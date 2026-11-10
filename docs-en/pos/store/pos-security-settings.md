@@ -79,7 +79,7 @@ Configure permissions for viewing cross-store orders and customer information, I
     - **Strengthen login protection**: Set an IP whitelist so that only the store's fixed IP addresses can access the POS system, which eliminates the risk of unknown external access.
     - **Monitor logins from other IP addresses**: Turn on order IP source notifications to receive an immediate alert when a login from a different IP address occurs in the same store, which helps keep accounts secure.
 
-## Usage Notes { #prerequisites-pos-security }
+## Before You Start { #prerequisites-pos-security }
 
 - **Permission requirements**: Only the **Website Owner** can edit POS store security settings.
 

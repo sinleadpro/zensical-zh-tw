@@ -73,10 +73,10 @@ hide: []
 
 ## Logistics Settings Overview { #intro-logistics-settings }
 
-"Logistics Settings" is in the "Payments & Logistics" > "Checkout & Logistics Settings" page, in the "Logistics Settings" section at the bottom. It lets you fine-tune delivery details and the delivery preferences customers can choose. Here, you can set CVS pickup name rules and island delivery, shipping detail print fields, whether customers can choose delivery dates and time slots, and the number of days customers can request returns on the storefront.
+"Logistics Settings" is in the "Payments & Logistics" > "Checkout & Logistics Settings" page, in the "Logistics Settings" section at the bottom. It lets you fine-tune delivery details and the delivery preferences customers can choose. Here, you can set convenience store pickup name rules and island delivery, shipping detail print fields, whether customers can choose delivery dates and time slots, and the number of days customers can request returns on the storefront.
 
 !!! info "Tip"
-    If you turn off "Cart Activation Settings" at the top of the page, this section is locked and cannot be configured. Turn on the cart feature before you set up logistics.
+    If you turn off "Cart Activation Settings" at the top of the page, this section is locked and cannot be configured. Enable the cart feature before you set up logistics.
 
 ---
 
@@ -84,9 +84,9 @@ hide: []
 
 | Section | Purpose | Plan Restrictions |
 | :-- | :-- | :-- |
-| [Customer CVS Cash-on-Delivery Blocking Settings](#operate-logistics-settings-cod-restrict) | Automatically blocks CVS cash on delivery for customers with repeated uncollected orders | All plans |
-| [CVS Name Rules](#operate-logistics-settings-cvs) | Whether the recipient name can contain letters or numbers | All plans |
-| [CVS Island Delivery Settings](#operate-logistics-settings-cvs) | Whether to allow 7-11 island delivery | All plans |
+| [Customer Convenience Store Cash-on-Delivery Blocking Settings](#operate-logistics-settings-cod-restrict) | Automatically blocks convenience store cash on delivery for customers with repeated uncollected orders | All plans |
+| [Convenience Store Name Rules](#operate-logistics-settings-cvs) | Whether the recipient name can contain letters or numbers | All plans |
+| [Convenience Store Island Delivery Settings](#operate-logistics-settings-cvs) | Whether to allow 7-11 island delivery | All plans |
 | [Shipping Detail Print Settings](#operate-logistics-settings-fulfillment-print) | Sets the shipping detail fields shown on the shipping slip | All plans |
 | [Customer-Selectable Delivery Date Settings](#operate-logistics-settings-delivery-date) | Lets customers choose a delivery date (including advanced rules) | Basic features on all plans / Advanced (PLUS / Enterprise) |
 | [Customer-Selectable Time Slot Settings](#operate-logistics-settings-delivery-time) | Lets customers choose a delivery time slot | All plans |
@@ -104,35 +104,35 @@ hide: []
 
 ## Steps { #operate-logistics-settings }
 
-Path: In the back office, go to "Payments & Logistics" > "Checkout & Logistics Settings," then scroll down to the "Logistics Settings" section.
+Path: In the admin, go to "Payments & Logistics" > "Checkout & Logistics Settings," then scroll down to the "Logistics Settings" section.
 
-### Set up CVS Name Rules and Island Delivery { #operate-logistics-settings-cvs }
+### Set up Convenience Store Name Rules and Island Delivery { #operate-logistics-settings-cvs }
 
-For CVS pickup, you can set rules for the recipient's name format and allow island delivery.
+For Convenience Store pickup, you can set rules for the recipient's name format and allow island delivery.
 
-1. **CVS Name Rules:** Expand the "Whether to Allow Recipient Names with Letters or Numbers for CVS Pickup" section and choose one: **"Turn On CVS Name Check"** (checkout is blocked if the name contains letters or numbers) or **"Turn Off CVS Name Check"** (checkout is still allowed, but a reminder shows that the name must match the ID).
+1. **Convenience Store Name Rules:** Expand the "Whether to Allow Recipient Names with Letters or Numbers for CVS Pickup" section and choose one: **"Turn On CVS Name Check"** (checkout is blocked if the name contains letters or numbers) or **"Turn Off CVS Name Check"** (checkout is still allowed, but a reminder shows that the name must match the ID).
 
     ![CVS name rules](../../../assets/images/ec-logistics-settings-cvs-name.en.png){ title="CVS Name Rules" }
 
-2. **CVS Island Delivery Settings:** Expand the "CVS Island Delivery Settings" section, then turn on the **Enable 7-11 Island Delivery** toggle to allow island pickup.
+2. **Convenience Store Island Delivery Settings:** Expand the "CVS Island Delivery Settings" section, then enable the **Enable 7-11 Island Delivery** toggle to allow island pickup.
 
     ![CVS island delivery settings](../../../assets/images/ec-logistics-settings-cvs-island.en.png){ title="CVS Island Delivery Settings" }
 
 ---
 
-### Set up Customer CVS Cash-on-Delivery Blocking { #operate-logistics-settings-cod-restrict }
+### Set up Customer Convenience Store Cash-on-Delivery Blocking { #operate-logistics-settings-cod-restrict }
 
-For customers who repeatedly place CVS cash-on-delivery orders but don't pick them up, the system can automatically block them from using CVS cash on delivery again. This reduces losses from abandoned orders.
+For customers who repeatedly place convenience store cash-on-delivery orders but don't pick them up, the system can automatically block them from using convenience store cash on delivery again. This reduces losses from abandoned orders.
 
 1. **Expand the section:** Click the title of the "Customer CVS Cash-on-Delivery Blocking Settings" section to expand it.
 2. **Set the uncollected order limit:** In "Uncollected Order Limit," enter the maximum number of uncollected orders allowed.
-3. **Set the counting start date:** In "Counting Start Date," select the date to start counting from. From that date to today, if a customer's uncollected orders exceed the limit, the system automatically blocks their CVS cash on delivery.
+3. **Set the counting start date:** In "Counting Start Date," select the date to start counting from. From that date to today, if a customer's uncollected orders exceed the limit, the system automatically blocks their convenience store cash on delivery.
 4. **Finish:** Click **Save**.
 
 ![Set up customer CVS cash-on-delivery blocking](../../../assets/images/ec-logistics-settings-cod-restrict.en.png){ title="Set Up Customer CVS Cash-on-Delivery Blocking" }
 
 !!! note "Note"
-    To restore CVS cash on delivery for a blocked member, edit "Account Settings" in that member's details.
+    To restore convenience store cash on delivery for a blocked member, edit "Account Settings" in that member's details.
 
 ---
 
@@ -141,7 +141,7 @@ For customers who repeatedly place CVS cash-on-delivery orders but don't pick th
 Lets customers choose their preferred delivery date at checkout. You can also apply prep days and no-ship date rules.
 
 1. **Expand the section:** Click the title of the "Logistics/CVS Customer-Selectable Delivery Date Settings" section to expand it.
-2. **Turn on customer-selectable delivery dates:** Check **Turn On / Off Customer-Selectable Delivery Dates**. Customers can then choose a delivery date when they place an order.
+2. **Turn on customer-selectable delivery dates:** Select **Turn On / Off Customer-Selectable Delivery Dates**. Customers can then choose a delivery date when they place an order.
 3. **Set prep days:** In "Days After Order Date Customers Can Select for Delivery," enter the prep days (up to 90 days)[^prepare-day].
 4. **Set advanced rules:** Set **Weekly Fixed No-Ship Days** and **Specific No-Ship Dates**.
 
@@ -163,8 +163,8 @@ Lets customers choose their preferred delivery date at checkout. You can also ap
 Lets customers choose a delivery time slot (all day / morning / afternoon / evening) and lets you customize the description text for each slot.
 
 1. **Expand the section:** Click the title of the "Logistics/CVS Customer-Selectable Time Slot Settings" section to expand it.
-2. **Turn on customer-selectable time slots:** Check **"Turn On / Off Customer-Selectable Time Slots"**.
-3. **Select the time slots to display:** Check the time slots you want to offer. In the field on the right, you can customize the "Option Content" description text for each slot[^time-clear].
+2. **Turn on customer-selectable time slots:** Select **"Turn On / Off Customer-Selectable Time Slots"**.
+3. **Select the time slots to display:** Select the time slots you want to offer. In the field on the right, you can customize the "Option Content" description text for each slot[^time-clear].
 
 [^time-clear]: If you uncheck all time slots, the system automatically turns off customer-selectable time slots and hides the advanced settings.
 
@@ -177,7 +177,7 @@ Lets customers choose a delivery time slot (all day / morning / afternoon / even
 Customize the fields to show in the shipping slip details to help warehouse and shipping staff work more efficiently.
 
 1. **Expand the section:** Click the title of the "Shipping Detail Print Settings" section to expand it.
-2. **Check the items to display:** Check the fields you need: order payment method, product image, product SKU, product vendor number, invoice information, delivery date and time slot, additional order information, shipping staff information, display logo image, and more.
+2. **Select the items to display:** Select the fields you need: order payment method, product image, product SKU, product vendor number, invoice information, delivery date and time slot, additional order information, shipping staff information, display logo image, and more.
 3. **Finish:** Click **Save**.
 
 ![Set up shipping detail print fields](../../../assets/images/ec-logistics-settings-fulfillment-print.en.png){ title="Set Up Shipping Detail Print Fields" }
@@ -196,12 +196,12 @@ Sets the number of days customers can request a return from the storefront membe
 
 1. **Expand the section:** Click the title of the "Return Period Adjustment Settings" section to expand it.
 2. **Set return days:** Enter the return days for "CYBERBIZ home delivery and CVS pickup" and "other shipping methods" separately[^return-zero].
-3. **(Optional) Turn on partial returns on the storefront:** If you have activated the corresponding feature, check **"Turn On Partial Returns on the Storefront"** to let customers select the items they want to return on the return request page.
+3. **(Optional) Turn on partial returns on the storefront:** If you have activated the corresponding feature, select **"Turn On Partial Returns on the Storefront"** to let customers select the items they want to return on the return request page.
 4. **Finish:** Click **Save**.
 
 For the default return periods and calculation start points for each shipping method, see [Storefront Return Period Reference](../references/return-eligible-days-reference.md#specs-return-eligible-days){ data-preview }.
 
-[^return-zero]: Entering 0 means consumers cannot request returns on the storefront. Leaving the field blank uses the system default number of days.
+[^return-zero]: Entering 0 means customers cannot request returns on the storefront. Leaving the field blank uses the system default number of days.
 
 ![Set up front-end return request period](../../../assets/images/ec-logistics-settings-return-timing.en.png){ title="Set Up Front-End Return Request Period" }
 
@@ -226,7 +226,7 @@ For the default return periods and calculation start points for each shipping me
 
 ??? quote "Why are the logistics settings sections unclickable or locked?"
     [](){ #faq-logistics-settings-locked }
-    This is usually because the cart feature is turned off. When the cart is off, the logistics settings are locked too. Go back to "Cart Activation Settings" at the top of this page and turn on the cart feature to set up logistics.
+    This is usually because the cart feature is turned off. When the cart is off, the logistics settings are locked too. Go back to "Cart Activation Settings" at the top of this page and enable the cart feature to set up logistics.
 
 ??? quote "What does entering 0 for return days mean?"
     [](){ #faq-logistics-settings-return-zero }
@@ -256,7 +256,7 @@ After you finish the logistics settings, you can continue with the following wor
 
 ---
 
-## References { #reference-logistics-settings }
+## See Also { #reference-logistics-settings }
 
 * [Storefront Return Period Reference](../references/return-eligible-days-reference.md)
 

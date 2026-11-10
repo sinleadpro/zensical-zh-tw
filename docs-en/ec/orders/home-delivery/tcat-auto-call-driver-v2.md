@@ -72,9 +72,9 @@ icon: lucide/phone
 hide: []
 ---
 
-## About Automatic EZCAT Driver Requests { #intro-tcat-auto-call-driver }
+## About Automatic T-CAT Driver Requests { #intro-tcat-auto-call-driver }
 
-Previously, after printing EZCAT shipping labels in the admin, you had to call EZCAT customer service to schedule a pickup. With "Automatic Driver Pickup Request," you can choose to have the system notify EZCAT to send a driver to your pickup location **at the same time** you download EZCAT shipping labels, saving time on manual contact.
+Previously, after printing T-CAT shipping labels in the admin, you had to call T-CAT customer support to schedule a pickup. With "Automatic Driver Pickup Request," you can choose to have the system notify T-CAT to send a driver to your pickup location **at the same time** you download T-CAT shipping labels, saving time on manual contact.
 
 This feature appears only in the lower part of the "Download EZCAT Shipping Label" dialog and works with the [batch shipping process](tcat-home-delivery-v2.md#operate-tcat-home-batch-print){ title="Batch Download EZCAT Home Delivery Shipping Labels" data-preview }.
 
@@ -87,31 +87,31 @@ This feature appears only in the lower part of the "Download EZCAT Shipping Labe
 | :-- | :-- |
 | Admin version | You must use the **new order list**; the legacy order list doesn't support this feature |
 | Feature activation | "Automatic EZCAT Driver Request" must be activated; contact **CYBERBIZ customer service** to apply |
-| Sender information | First fill in the sender's name, address, and phone number completely on the **[EZCAT pickup settings page](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-sender-settings){ title="Set Sender Information" data-preview }** (Payment and Logistics > EZCAT Shipping Labels > EZCAT Settings), or the system won't accept the request |
+| Sender information | First fill in the sender's name, address, and phone number completely on the **[EZCAT pickup settings page](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-sender-settings){ title="Set Sender Information" data-preview }** (Payment and Logistics > T-CAT Shipping Labels > T-CAT Settings), or the system won't accept the request |
 
-!!! info "If the "Automatically request an EZCAT driver pickup?" section doesn't appear in the lower part of the dialog, the feature isn't turned on for your store."
+!!! info "If the "Automatically request a T-CAT driver pickup?" section doesn't appear in the lower part of the dialog, the feature isn't turned on for your store."
 
 ---
 
 ### Supported Logistics { #prerequisites-tcat-auto-call-logistics }
 
-The download dialog applies settings automatically based on the EZCAT delivery type used by the order. You can request a driver when downloading for any of the following:
+The download dialog applies settings automatically based on the T-CAT delivery type used by the order. You can request a driver when downloading for any of the following:
 
 | Delivery Type | Description |
 | :-- | :-- |
-| EZCAT home delivery (ambient / refrigerated / frozen) | Includes Cash on Delivery and Pickup Without Payment |
-| EZCAT Quick Store Delivery (ambient / refrigerated / frozen) | Customers pick up at a convenience store |
+| T-CAT home delivery (room-temperature / refrigerated / frozen) | Includes Cash on Delivery and Pickup Without Payment |
+| T-CAT Rapid-to-Store Delivery (room-temperature / refrigerated / frozen) | Customers pick up at a convenience store |
 
 ---
 
 ### Order Requirements { #prerequisites-tcat-auto-call-orders }
 
-Selected orders must meet the standard conditions for "downloading EZCAT shipping labels" for the system to create the labels and send the pickup request to EZCAT. Common requirements:
+Selected orders must meet the standard conditions for "downloading EZCAT shipping labels" for the system to create the labels and send the pickup request to T-CAT. Common requirements:
 
 * Order status is **In Progress**
 * Delivery status is **Unshipped** or **Preparing**
 * Payment status is **Payment Received**, or the order is **Cash on Delivery**
-* At least one item in the order uses EZCAT logistics
+* At least one item in the order uses T-CAT logistics
 
 If the batch includes orders that don't qualify, shipping labels can't be created. Go back to the order list and check each order first.
 
@@ -120,17 +120,17 @@ If the batch includes orders that don't qualify, shipping labels can't be create
 ## Steps { #operate-tcat-auto-call-driver }
 
 1. **Open the order list**: Sign in to the CYBERBIZ admin and go to "**Orders > All Orders**" (new order list).
-2. **Select orders**: In the order list, select the EZCAT orders to ship together, and make sure they all meet the order requirements above.
-3. **Open the download dialog**: Click **Actions...** in the upper-right corner of the list and select **Download EZCAT Shipping Labels and Change to Shipped** from the drop-down menu.
-4. **Check the label settings**: In the **Download EZCAT Shipping Label** dialog, check the default temperature zone (ambient / refrigerated / frozen), whether items are fragile, the sender address, and other defaults.
+2. **Select orders**: In the order list, select the T-CAT orders to ship together, and make sure they all meet the order requirements above.
+3. **Open the download dialog**: Click **Actions...** in the upper-right corner of the list and select **Download EZCAT Shipping Labels and Change to Shipped** from the dropdown menu.
+4. **Check the label settings**: In the **Download EZCAT Shipping Label** dialog, check the default temperature zone (room-temperature / refrigerated / frozen), whether items are fragile, the sender address, and other defaults.
 5. **Set up the automatic driver request**: Scroll to the **Automatically request an EZCAT driver pickup?** section and select **Yes**[^1]. Three fields then appear:
-    * **Call before pickup?**: If you select "Yes," the driver calls the phone number entered on the "[EZCAT pickup settings page](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-sender-settings){ title="Set Sender Information" }" to confirm before arriving.
-    * **Does the EZCAT driver need to bring a cart?**: If you have many packages, you can ask the driver to bring a cart.
-    * **Notes**: Enter special pickup instructions (such as building access or floor), up to **100 characters**.
+    * **Call before pickup?**: If you select "Yes," the driver calls the phone number filled in on the "[EZCAT pickup settings page](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-sender-settings){ title="Set Sender Information" }" to confirm before arriving.
+    * **Does the T-CAT driver need to bring a cart?**: If you have many packages, you can ask the driver to bring a cart.
+    * **Notes**: Fill in special pickup instructions (such as building access or floor), up to **100 characters**.
 
     ![Automatic EZCAT driver request](../../../assets/images/ec-payments-and-logistics-ezcat-auto-call-driver.en.png){ title="EZCAT Automatic Driver Request Settings" }
 
-6. **Accept the terms and submit**: Select the logistics agreement checkbox at the bottom of the page and click **Yes**. The system prints the shipping label PDF, changes the delivery status of the batch to "Shipped," and sends a driver pickup request to EZCAT ([how to avoid duplicate requests](#specs-tcat-auto-call-duplicates)).
+6. **Accept the terms and submit**: Select the logistics agreement checkbox at the bottom of the page and click **Yes**. The system prints the shipping label PDF, changes the delivery status of the batch to "Shipped," and sends a driver pickup request to T-CAT ([how to avoid duplicate requests](#specs-tcat-auto-call-duplicates)).
 
 !!! tip "Your Last Settings Are Saved"
     The dialog remembers your last driver request settings (whether to request, call ahead, or bring a cart) and applies them next time, saving repeated steps.
@@ -144,7 +144,7 @@ If the batch includes orders that don't qualify, shipping labels can't be create
 ### Request Deadline { #specs-tcat-auto-call-deadline }
 
 * The system stops accepting automatic driver requests for the day at **16:30 every day**.
-* If you open the dialog **after 16:30**, the "Yes" option for "Automatically request an EZCAT driver pickup?" **becomes unavailable**. For same-day or next-day pickup, contact EZCAT customer service directly.
+* If you open the dialog **after 16:30**, the "Yes" option for "Automatically request an EZCAT driver pickup?" **becomes unavailable**. For same-day or next-day pickup, contact T-CAT customer support directly.
 
 !!! warning "The system doesn't move requests made after the deadline to the next day. Complete the settings before 16:30 to avoid missed pickups."
 
@@ -152,7 +152,7 @@ If the batch includes orders that don't qualify, shipping labels can't be create
 
 ### Avoid Duplicate Requests { #specs-tcat-auto-call-duplicates }
 
-* If you print EZCAT shipping labels in several batches on the same day, **select automatic driver request only for the last batch**.
+* If you print T-CAT shipping labels in several batches on the same day, **select automatic driver request only for the last batch**.
 * Requesting too early may mean packages aren't packed when the driver arrives, or may cause duplicate dispatches that create problems for the carrier.
 
 ---
@@ -172,7 +172,7 @@ If the batch includes orders that don't qualify, shipping labels can't be create
 
 - :lucide-printer:{ .lg }  
   __Print Shipping Label Stickers__  
-  Print on EZCAT blank three-part shipping label stickers. If you don't have any, call EZCAT to get them.
+  Print on T-CAT blank three-part shipping label stickers. If you don't have any, call T-CAT to get them.
 
 - :lucide-package:{ .lg }  
   __Hand Over Packages__  
@@ -184,13 +184,13 @@ If the batch includes orders that don't qualify, shipping labels can't be create
 
 ## FAQ { #faq-tcat-auto-call-driver }
 
-??? quote "Can't find the "Automatically request an EZCAT driver pickup?" section in the dialog?"
+??? quote "Can't find the "Automatically request a T-CAT driver pickup?" section in the dialog?"
     [](){ #faq-tcat-auto-call-driver-cannot-find-option }
 
     This feature requires activation. Check that:
 
     1. You're using the **new order list**.
-    2. Your store has applied to CYBERBIZ customer service to activate "**Automatic EZCAT Driver Request**."
+    2. Your store has applied to CYBERBIZ customer support to activate "**Automatic EZCAT Driver Request**."
 
 ??? quote "I selected "Yes" and submitted, but the driver didn't come?"
     [](){ #faq-tcat-auto-call-driver-driver-not-arrive }
@@ -198,13 +198,13 @@ If the batch includes orders that don't qualify, shipping labels can't be create
     Check the following in order:
 
      1. Whether you submitted **before the 16:30 [deadline](#specs-tcat-auto-call-deadline)**.
-     2. Whether the name, address, and phone number on the [EZCAT pickup settings page](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-sender-settings){ title="Set Sender Information" } are complete.
-    3. If the problem continues, contact EZCAT customer service at **02-412-8888** to arrange pickup directly.
+     2. Whether the name, address, and phone number on the [T-CAT pickup setup page](../../payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-sender-settings){ title="Set Sender Information" } are complete.
+    3. If the problem continues, contact T-CAT customer support at **02-412-8888** to arrange pickup directly.
 
 ??? quote "Can I request a driver pickup at a specific time?"
     [](){ #faq-tcat-auto-call-driver-schedule-pickup-time }
 
-    You can't choose a pickup time. EZCAT schedules pickup times based on its daily schedule, and you can't set them in the admin.
+    You can't choose a pickup time. T-CAT schedules pickup times based on its daily schedule, and you can't set them in the admin.
 
 ??? quote "What if I print shipping labels several times on the same day?"
     [](){ #faq-tcat-auto-call-driver-multiple-batches }
@@ -214,5 +214,5 @@ If the batch includes orders that don't qualify, shipping labels can't be create
 ??? quote "Is there an extra charge for "Automatic Driver Request"?"
     [](){ #faq-tcat-auto-call-driver-extra-fee }
 
-    This feature has no extra system fee, but actual logistics costs (including EZCAT peak season surcharges and cold-chain fee differences) still follow EZCAT's rules.
+    This feature has no extra system fee, but actual logistics costs (including T-CAT peak season surcharges and cold-chain fee differences) still follow T-CAT's rules.
 

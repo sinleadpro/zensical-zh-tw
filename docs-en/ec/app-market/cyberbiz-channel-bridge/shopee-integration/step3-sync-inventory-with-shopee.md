@@ -96,15 +96,15 @@ Link products and turn on sync to keep inventory in your online store and Shopee
 
 Inventory sync works only when **the feature switch is on** and **the product is linked**:
 
-| Inventory Sync Switch | Product Link Status | Result |
+| Inventory Sync Toggle | Product Link Status | Result |
 | :--- | :--- | :--- |
 | On | Linked | **Syncs normally** |
 | On | Not linked | Only this product does not sync |
 | Off | (Any status) | Sync stops for the whole store |
 
-- **Stop Sync for the Whole Store**: Turn off the store-wide sync master switch to stop data exchange for all products.
+- **Stop Sync for the Whole Store**: Turn off the store-wide sync master toggle to stop data exchange for all products.
 - **Stop Sync for One Product**: Unlink a specific product to stop syncing only that item.
-- **Sync Specific Products**: Turn on the store-wide sync master switch, then link each product you want to sync.
+- **Sync Specific Products**: Turn on the store-wide sync master toggle, then link each product you want to sync.
 
 ### When Inventory Syncs { #specs-shopee-s3-sync }
 
@@ -143,14 +143,14 @@ Inventory sync works only when **the feature switch is on** and **the product is
 
 1. Go to **APP MARKET > My Apps > CYBERBIZ CHANNEL BRIDGE**.
 2. Open the **Shopee Products** page and click the **Advanced Settings** tab.
-3. Switch **Product Inventory** to `開啟 (ON)`.
-4. The system starts syncing your online store inventory to all linked Shopee products.
+3. Toggle **Product Inventory** to `ON`.
+4. The system starts syncing your storefront inventory to all linked Shopee products.
 
 ![](../../../../assets/images/EC-後台-APPMARKET-蝦皮商品-開啟庫存同步01.en.png)
 
 ### Step 3: Manage Sync Status for Specific Products { #operate-shopee-s3-step-3-manage }
 
-To pause sync for specific products, you do not need to turn off the store-wide switch:
+To pause sync for specific products, you do not need to turn off the store-wide toggle:
 
 - **Batch Processing**: Select products in the **All Products** list and click **Disconnect**.
     ![](../../../../assets/images/EC-後台-商品-所有商品-批次建立商品關聯01.en.png)

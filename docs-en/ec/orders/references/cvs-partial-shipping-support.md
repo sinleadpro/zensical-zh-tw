@@ -55,18 +55,18 @@ hide:
 
 | Logistics Type | Description | Partial Shipment Flow |
 | :-- | :-- | :-- |
-| 7-Eleven Store-to-Store (C2C) | The merchant drops off the package at a convenience store, and the recipient picks it up at the chosen store | First shipment through the convenience store; ship the rest with custom shipping |
-| 7-Eleven Store Pickup (B2C) | The merchant ships through convenience store logistics to the chosen store, and the customer picks it up (including cash on delivery) | First shipment through the convenience store; ship the rest with custom shipping |
+| 7-11 Store-to-Store (C2C) | The merchant drops off the package at a convenience store, and the recipient picks it up at the chosen store | First shipment through the convenience store; ship the rest with custom shipping |
+| 7-11 Store Pickup (B2C) | The merchant ships through convenience store logistics to the chosen store, and the customer picks it up (including cash on delivery) | First shipment through the convenience store; ship the rest with custom logistics |
 | FamilyMart Store-to-Store (C2C) | The merchant drops off the package at a convenience store, and the recipient picks it up at the chosen store | First shipment through the convenience store; ship the rest with custom shipping |
-| FamilyMart Store Pickup (B2C) | The merchant ships through convenience store logistics to the chosen store, and the customer picks it up (including cash on delivery) | First shipment through the convenience store; ship the rest with custom shipping |
+| FamilyMart Store Pickup (B2C) | The merchant ships through convenience store logistics to the chosen store, and the customer picks it up (including cash on delivery) | First shipment through the convenience store; ship the rest with custom logistics |
 | Hi-Life Store-to-Store (C2C) | The merchant drops off the package at a convenience store, and the recipient picks it up at the chosen store | First shipment through the convenience store; ship the rest with custom shipping |
-| Hi-Life Store Pickup (B2C) | The merchant ships through convenience store logistics to the chosen store, and the customer picks it up (including cash on delivery) | First shipment through the convenience store; ship the rest with custom shipping |
+| Hi-Life Store Pickup (B2C) | The merchant ships through convenience store logistics to the chosen store, and the customer picks it up (including cash on delivery) | First shipment through the convenience store; ship the rest with custom logistics |
 | Hi-Life Frozen Pickup | Convenience store pickup for frozen products | First shipment through the convenience store; ship the rest with custom shipping |
 
 ### Logistics with a Separate Flow { #reference-cvs-partial-other }
 
 The following logistics are convenience store pickup, but they use the CYBERBIZ-managed shipping label flow, so they **can ship multiple times normally** (print a new shipping label each time). The "ship the second shipment with custom shipping" rule doesn't apply:
 
-- EZCAT Quick Store Delivery (Ambient)
-- EZCAT Quick Store Delivery (Refrigerated)
-- EZCAT Quick Store Delivery (Frozen)
+- T-CAT Rapid-to-Store Delivery (Room-temperature)
+- T-CAT Rapid-to-Store Delivery (Refrigerated)
+- T-CAT Rapid-to-Store Delivery (Frozen)

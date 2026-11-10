@@ -72,7 +72,7 @@ hide: []
 ---
 
 # Manage Subscription Orders
-When a shopper orders from a subscription page, the system creates a parent order and then automatically creates sub-orders based on the set cycle (such as monthly or weekly). You can manage these subscriptions and the delivery progress of each cycle in the admin.
+When a customer orders from a subscription page, the system creates a parent order and then automatically creates sub-orders based on the set cycle (such as monthly or weekly). You can manage these subscriptions and the delivery progress of each cycle in the admin.
 { .subtitle }
 
 [:lucide-tag:{ title="Available Plans" }](../../resources/conventions#適用方案) | All PLUS / Enterprise
@@ -102,7 +102,7 @@ The system groups subscription orders into the following tabs by status so you c
 | **Latest Orders** | Shows each customer's latest sub-order | Order number<br>Recipient information (customer, recipient address, recipient phone) |
 | **To Ship** | Shows sub-orders that are placed and ready to ship | Order number<br>Recipient information (customer, recipient address, recipient phone) |
 | **Shipped** | Shows sub-orders that have been delivered | Order number<br>Recipient information (customer, recipient address, recipient phone) |
-| **Order Exceptions** | Shows orders that failed to be created (such as insufficient stock or a failed credit card charge) or have delivery exceptions | Order number<br>Recipient information (customer, recipient address, recipient phone) |
+| **Order Exceptions** | Shows orders that failed to be created (such as insufficient inventory or a failed credit card charge) or have delivery exceptions | Order number<br>Recipient information (customer, recipient address, recipient phone) |
 | **Canceled** | Split into "Fully Canceled (parent order)" and "Partially Canceled (sub-order)" | Subscription number<br>Order number |
 
 ![](https://www.cyberbiz.co/support/wp-content/uploads/2019/11/定期定額new-14.png){ .screenshot }

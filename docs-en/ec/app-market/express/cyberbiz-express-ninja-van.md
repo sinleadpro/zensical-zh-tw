@@ -1,6 +1,6 @@
 ---
 title: "CYBERBIZ EXPRESS Ninja Van Home Delivery (Singapore/Malaysia)"
-description: "Learn how to turn on Ninja Van home delivery for Singapore and Malaysia, set up logistics, create consignment notes, print documents, and track shipments."
+description: "Learn how to enable Ninja Van home delivery for Singapore and Malaysia, set up logistics, create shipping labels, print documents, and track shipments."
 created: 2026-10-13 10:56
 last_modified: 2026-10-13 10:56
 lang: en-US
@@ -65,7 +65,7 @@ hide: []
 
 # CYBERBIZ EXPRESS Ninja Van Home Delivery (Singapore/Malaysia)
 
-Learn how to turn on Ninja Van home delivery in Singapore and Malaysia, complete the logistics settings, create consignment notes, print documents, and track shipments.
+Learn how to enable Ninja Van home delivery in Singapore and Malaysia, complete the logistics settings, create shipping labels, print documents, and track shipments.
 { .subtitle }
 
 [:lucide-layers:{ title="Applicable Products" }](../../../resources/conventions#適用產品) | Cross-Border E-Commerce (Singapore Local Edition/Malaysia Local Edition)<br>
@@ -82,14 +82,14 @@ Learn how to turn on Ninja Van home delivery in Singapore and Malaysia, complete
 ## Before You Start { #prerequisites-ninja-van }
 
 - If you have not installed the CYBERBIZ EXPRESS app, contact your store consultant first to install it and set up logistics.
-- When you create a consignment note, the sender and recipient must be in the same country.
+- When you create a shipping label, the sender and recipient must be in the same country.
 - Ninja Van does not provide customer returns. If a customer needs to return an item, contact the customer and handle it yourself.
 
-## Turn on Ninja Van Logistics { #operate-ninja-van }
+## Enable Ninja Van Logistics { #operate-ninja-van }
 
 ### Open the Logistics Settings { #operate-ninja-van-entry }
 
-1. Log in to the CYBERBIZ admin and go to **APP MARKET > My Apps > CYBERBIZ EXPRESS > 物流管理**.
+1. Log in to the CYBERBIZ admin and go to **APP MARKET > My Apps > CYBERBIZ EXPRESS > Basic Setting**.
 2. Open the logistics settings.
 
     ![](../../../assets/images/EC-後台-APPMARKET-EXPRESS啟用ninja物流01.en.png){ .screenshot }
@@ -106,26 +106,26 @@ Learn how to turn on Ninja Van home delivery in Singapore and Malaysia, complete
 
     ![](../../../assets/images/EC-後台-APPMARKET-EXPRESS啟用ninja物流03.en.png){ .screenshot }
 
-4. Turn on the matching logistics switch.
+4. Turn on the matching logistics toggle.
 
 !!! warning "You Cannot Ship Until Setup Is Complete"
-    If any field is incomplete or the logistics switch is off, the delivery method does not appear and you cannot create consignment notes.
+    If any field is incomplete or the logistics toggle is off, the delivery method does not appear and you cannot create shipping labels.
 
-## Create and Print Consignment Notes { #operate-ninja-van-waybill }
+## Create and Print Shipping Labels { #operate-ninja-van-waybill }
 
-### Create Consignment Notes { #operate-ninja-van-create }
+### Create Shipping Labels { #operate-ninja-van-create }
 
-Before you create a consignment note, the order must meet all of these conditions:
+Before you create a shipping label, the order must meet all of these conditions:
 
 - `付款狀態` is `已收到款項`.
 - `Delivery Status` is `Unshipped`.
 - `退貨狀態` is `不需退貨`.
-- `配送方式` is `Ninjavan`
+- `Shipping Method` is `Ninjavan`
 
 Steps:
 
 1. Go to **Orders > All Orders**.
-2. Select the eligible orders and click **更多操作 > 建立託運單**.
+2. Select the eligible orders and click **Actions > Downlad Shipping Label**.
 
     ![](../../../assets/images/EC-後台-APPMARKET-建立ninja託運單01.en.png){ .screenshot }
 
@@ -141,16 +141,16 @@ Steps:
 
     === "Courier Pickup"
 
-        If you choose **Courier Pickup**, enter the pickup date, time, and notes.
+        If you choose **Courier Pickup**, fill in the pickup date, time, and notes.
 
         ![](../../../assets/images/EC-後台-APPMARKET-建立ninja託運單05.en.png){ .small-image }
 
 !!! note "Pickup Details Apply Only to the Current Orders"
-    Changes to pickup details in the Create Consignment Note window apply only to the current operation and do not overwrite your basic logistics settings.
+    Changes to pickup details in the Create Shipping Label window apply only to the current operation and do not overwrite your basic logistics settings.
 
 ### Print Documents Directly { #operate-ninja-van-print }
 
-1. In the Create Consignment Note window, select the documents to print.
+1. In the Create Shipping Label window, select the documents to print.
 2. Click **Print Now**.
 
     ![](../../../assets/images/EC-後台-APPMARKET-建立ninja託運單02.en.png){ .small-image }
@@ -160,24 +160,24 @@ Steps:
     ![](../../../assets/images/EC-後台-APPMARKET-建立ninja託運單06.en.png){ .screenshot }
 
     1. Picking list summary.
-    2. Consignment notes in order sequence.
+    2. Shipping labels in order sequence.
     3. Order details for each order.
-    4. Shipping details for each order.
+    4. Shipment details for each order.
 
 
-Only if you select **Shipping Label** and the consignment note is generated successfully does the order's delivery status change to `Shipped` automatically.
+Only if you select **Shipping Label** and the shipping label is generated successfully does the order's delivery status change to `Shipped` automatically.
 
 ### Download a ZIP File at the Same Time { #operate-ninja-van-download }
 
-1. In the Create Consignment Note window, select the documents to generate.
+1. In the Create Shipping Label window, select the documents to generate.
 2. Select **Download ZIP File at the Same Time**.
-3. After the consignment notes are created, the system opens the print preview and downloads a ZIP file of the selected documents.
+3. After the shipping labels are created, the system opens the print preview and downloads a ZIP file of the selected documents.
 
-### Reprint Consignment Notes { #operate-ninja-van-reprint }
+### Reprint Shipping Labels { #operate-ninja-van-reprint }
 
 1. Go to **Orders > All Orders**.
 2. Select orders with the delivery status `Shipped`.
-3. Click **更多操作 > 補印託運單**.
+3. Click **Actions > Download Shipping Label**.
 
 ![](../../../assets/images/EC-後台-訂單-所有訂單-補印EXPRESS託運單01.en.png){ .screenshot }
 
@@ -186,7 +186,7 @@ The system filters out orders that do not use EXPRESS logistics. If you also sel
 
 ## Fee Settlement { #specs-ninja-van }
 
-- When you create a consignment note, the system deducts CYBER Coins in advance based on the parcel weight.
+- When you create a shipping label, the system deducts CYBER Coins in advance based on the parcel weight.
 - The system reconciles on the 5th of each month and adjusts the deducted amount based on actual shipping fees.
 - For Malaysia, different fee tiers apply to East and West Malaysia.
 
@@ -197,7 +197,7 @@ The system filters out orders that do not use EXPRESS logistics. If you also sel
 
 - :lucide-truck:{ .lg }
   [__CYBERBIZ EXPRESS Shipment Tracking and Lookup__](order-tracking-and-query.md)
-  See how merchants and customers can check shipment status and shipping fees.
+  See how merchants and customers can check delivery status and shipping fees.
 
 </div>
 

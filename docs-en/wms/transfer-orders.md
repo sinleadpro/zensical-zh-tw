@@ -65,7 +65,7 @@ hide: []
 ---
 
 # Transfer Orders
-In the e-commerce warehouse, stock is spread across several warehouse zones. Use a transfer order to move product stock from one zone to another.
+In the e-commerce warehouse, inventory is spread across several warehouse zones. Use a transfer order to move product inventory from one zone to another.
 { .subtitle }
 
 [:lucide-layers:{ title="Applicable Products" }](../../resources/conventions#適用產品) | Smart Warehousing
@@ -77,7 +77,7 @@ In the e-commerce warehouse, stock is spread across several warehouse zones. Use
 
 ### Why Transfer Stock? { #intro-transfer-orders-purpose }
 
-The system can bind each **warehouse zone** to a specific **Channel** (shipping rule). For example:
+The system can link each **warehouse zone** to a specific **Channel** (shipping rule). For example:
 
 - **Zone A**: Ships only for a specific platform.
 - **Zone B**: Open to all channels.
@@ -86,7 +86,7 @@ When zone A runs out of stock, use a transfer order to move products from zone B
 
 ### Notes { #prerequisites-transfer-orders-notes }
 
-- **Stock locking**: While a transfer order is **Pending Confirmation** or **Processing**, the system may lock that stock so it cannot be used for other shipments.
+- **Stock locking**: While a transfer order is **Pending Confirmation** or **Processing**, the system may lock that inventory so it cannot be used for other shipments.
 - **Check details**: Click the **Name** in the transfer order list at any time to see the items and history of that transfer.
 
 
@@ -96,14 +96,14 @@ Track transfer progress by status in the list:
 
 | Status | Description |
 | :--- | :--- |
-| **Pending Confirmation** | The order was created and is waiting for warehouse customer service to review and confirm it |
+| **Pending Confirmation** | The order was created and is waiting for warehouse customer support to review and confirm it |
 | **Processing** | Warehouse staff are checking the products and moving them on site |
-| **Done** | The transfer is done, and available stock in the destination zone has increased |
+| **Done** | The transfer is done, and available inventory in the destination zone has increased |
 
 
 ## Create a Transfer Order Manually { #operate-transfer-orders-create }
 
-For small stock moves, add a transfer order directly in the admin panel.
+For small inventory moves, add a transfer order directly in the admin panel.
 
 1. Go to **Transfer**.
 2. **Choose zones**:
@@ -131,7 +131,7 @@ To move many products at once, use the import feature.
 
 ## Export Transfer Orders { #operate-transfer-orders-export }
 
-To reconcile stock changes or keep transfer records, export the details.
+To reconcile inventory changes or keep transfer records, export the details.
 
 1. Go to **Transfer**.
 2. Click **Export** in the upper-right corner.

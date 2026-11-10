@@ -90,10 +90,10 @@ You can manually close orders in two ways:
 
 === ":lucide-mouse-pointer-click: Single Order"
 
-    Close from the order details page
+    Close from the order detail page
 
     1.  **Open the order**: Sign in to the CYBERBIZ admin, go to **Orders > All Orders**, and click the order number of the order in the order list.
-    2.  **Close it**: On the details page, click **Complete Order** in the upper-right corner.
+    2.  **Close it**: On the detail page, click **Complete Order** in the upper-right corner.
 
     ![Order details page - Complete Order](../../../assets/images/EC-訂單詳情頁-結案訂單按鈕.en.png){ title="Order Details Page - Complete Order" }
 
@@ -103,7 +103,7 @@ You can manually close orders in two ways:
 
     1.  **Admin path**: Sign in to the CYBERBIZ admin and go to **"Orders" > "All Orders"**.
     2.  **Select orders**: Select one or more orders to close.
-    3.  **Choose the action**: Click **Actions...** above the list, select **Complete Order** in the drop-down menu, and confirm.
+    3.  **Choose the action**: Click **Actions...** above the list, select **Complete Order** in the dropdown menu, and confirm.
 
     ![Order list - Complete Order](../../../assets/images/EC-訂單-訂單列表-結案訂單.en.png){ title="Order List - Complete Order" }
 
@@ -119,7 +119,7 @@ After orders are closed, you can use the order list filter to create a "Complete
 
 ### Order Closing History { #operate-order-close-history }
 
-The [order activity log](../basics/order-management-interface.md#reference-order-history){ title="Order Management Interface" } at the bottom of the order details page shows an "Order closed" message and the name of the admin who closed it.
+The [order activity log](../basics/order-management-interface.md#reference-order-history){ title="Order Management Interface" } at the bottom of the order detail page shows an "Order closed" message and the name of the admin who closed it.
 
 ![Order closing history](../../../assets/images/EC-訂單詳情頁-操作紀錄-訂單結案.en.png){ title="Order Closing History" }
 

@@ -76,7 +76,7 @@ hide: []
 | **[Merchant Source/<br>Remittee](#reference-order-merchant-source){ title="Remittee Reference" data-preview }** | Filter by who actually collects the payment (Shunli collection / Merchant / POS / Warehouse) |
 | **[Delivery Type](shipping-methods.md#reference-shipping-methods){ title="Shipping Methods Reference" data-preview }** | Filter by logistics channel (convenience store pickup, home delivery, self-pickup, and so on) |
 | **Product Distribution Channel** | Filter by the product channel tags in the order, for multichannel selling |
-| **Delivery Temperature** | Filter by the ambient / refrigerated / frozen temperature zone assigned to products |
+| **Delivery Temperature** | Filter by the room-temperature / refrigerated / frozen temperature zone assigned to products |
 | **Tags** | Filter by your custom order tags (can be added manually in order details) |
 | **Order Products** | Select specific products to show only orders that include them |
 | **[Order Type](#reference-order-line-group-buy){ title="Order Type Reference" data-preview }** | Filter LINE group buying orders |
@@ -118,9 +118,9 @@ All filters available in the system:
 
 === "Date Ranges"
 
-	- **Order Date:** The time the shopper placed the order.
+	- **Order Date:** The time the customer placed the order.
 
-	- **Order Delivery Date:** The scheduled/actual shipping time recorded by the system or entered by the merchant.
+	- **Order Delivery Date:** The scheduled/actual shipping time recorded by the system or filled in by the merchant.
 
 -->
 
@@ -169,7 +169,7 @@ All filters available in the system:
 | Order Source | Description |  
 | :-- | :-- |  
 | CYBERBIZ | Orders placed through the online EC store (web / app / mobile site) |  
-| Each POS store | Orders checked out at physical stores through POS; the drop-down lists all your active POS stores |  
+| Each POS store | Orders checked out at physical stores through POS; the dropdown lists all your active POS stores |  
 
 !!! note "This filter appears only when the **POS system** is turned on."
 
@@ -181,23 +181,23 @@ All filters available in the system:
 | LINE group buying | Orders placed through **LINE group buying** (customers order in LINE groups) |
 
 !!! note "Note"
-    This filter appears only when **LINE group buying** is turned on. Leaving it unselected means "all order types" (including regular EC orders and LINE group buying orders).  
+    This filter appears only when **LINE group buying** is enabled. Leaving it unselected means "all order types" (including regular EC orders and LINE group buying orders).  
 
 ## Warehouse Type Reference { #reference-order-warehouse-type }  
 
 | Warehouse Type | Description |
 | :-- | :-- |  
 | Self-shipped | Orders the merchant picks, packs, and hands to the carrier |  
-| CYBERBIZ e-commerce warehousing | Orders picked and shipped by CYBERBIZ's own warehouse (Fengchao) |
+| CYBERBIZ e-commerce warehousing | Orders picked and shipped by CYBERBIZ's own warehouse (HONEYCOMB) |
 | Mixed orders (self-shipped + CYBERBIZ e-commerce warehousing) | Within one order, some items are shipped by the merchant and some by CYBERBIZ warehousing |
 | Amazon logistics | Orders shipped by Amazon FBA |
 | Mixed orders (self-shipped + Amazon logistics) | Within one order, some items are shipped by the merchant and some by Amazon FBA |
-| EZCAT cold-chain warehouse | Orders shipped by the EZCAT cold-chain warehouse (for frozen / refrigerated products) |  
+| T-CAT cold-chain warehouse | Orders shipped by the T-CAT cold-chain warehouse (for frozen / refrigerated products) |  
 
 !!! note "Note"
     - This filter appears only for stores with **partial warehouse integration** activated. The default option is **"All Shipping Types."**  
     - The "Mixed orders" options identify **single orders shipped from multiple warehouses**, helping pickers handle them by warehouse.
-    - Options appear in the drop-down based on the warehouse integrations you actually use; inactive warehouses aren't listed.
+    - Options appear in the dropdown based on the warehouse integrations you actually use; inactive warehouses aren't listed.
 
 ## Keyword Matching Rules { #specs-order-match-mode }
 
@@ -207,7 +207,7 @@ To improve search speed and accuracy, the system uses two search modes for diffe
 
 	These fields must **match your search exactly** to return results:
 
-	- **Customer information**: Shopper email, member email.
+	- **Customer information**: Customer email, member email.
 
 	- **Logistics information**: Tracking number.
 
@@ -225,7 +225,7 @@ To improve search speed and accuracy, the system uses two search modes for diffe
 
 	- **Product information**: Product name.
 
-	- **Delivery information**: Recipient name, delivery type, warehouse status (only for Fengchao Logistics integrations).
+	- **Delivery information**: Recipient name, delivery type, warehouse status (only for HONEYCOMB integrations).
 
 ## What's in the Shipping Label Download { #reference-logistics-zip-contents }
 
@@ -234,6 +234,6 @@ When you run "Download Shipping Labels and Change to Shipped" in the admin, the 
 | File | Purpose | Recipient |
 |---|---|---|
 | **Shipping Label** | Used by the carrier for pickup and delivery; print on the carrier's blank shipping label stickers and stick on the package | Driver |
-| **Packing Slip** | Packing slip included in the package, with items and quantities | Shopper (in the package) |
+| **Packing Slip** | Shipment details included in the package, with items and quantities | Customer (in the package) |
 | **Picking List** | Warehouse picking list, grouped by item for easy picking | Internal warehouse staff |
-| **Order Details** | Full order information, including amounts, payment method, and shopper details | Internal records / customer service |
+| **Order Details** | Full order information, including amounts, payment method, and customer details | Internal records / customer support |

@@ -67,17 +67,17 @@ comments: false
 
 ## GA4 Site Search Tracking Guide { #operate-ga-search }
 
-Turn on site search tracking for **Google Analytics 4 (GA4)**. This helps merchants see the keywords users enter on the website and understand consumers' information needs and search intent.
+Turn on site search tracking for **Google Analytics 4 (GA4)**. This helps merchants see the keywords users enter on the website and understand customers' information needs and search intent.
 
 ## Prerequisites and Restrictions { #prerequisites-ga-search }
 
 - [x] Confirm [your website is connected to GA4](setup-google-analytics.md){ title="Set up and connect Google Analytics" }.
 
-## Setup Steps { #operate-ga-search-steps }
+## Steps { #operate-ga-search-steps }
 
 Sign in to your Google Analytics dashboard and follow this path:
 
-1.  **Go to Settings**: In the lower-left corner, click **Admin** > **Property Settings** > **Data Collection and Modification** > **Data streams**, and select the stream bound to your website.
+1.  **Go to Settings**: In the lower-left corner, click **Admin** > **Property Settings** > **Data Collection and Modification** > **Data streams**, and select the stream linked to your website.
 2.  **Turn on Enhanced measurement**: In the "Events" section, find "**Enhanced measurement**", and click the gear icon :lucide-cog: on the right to open its settings.
 3.  **Enable site search**: Find the "**Site search**" item and turn on the toggle.
 4.  **Set query parameters**: Click "**Show advanced settings**", and in the "Search term query parameters" field, enter: `q,s,search,query,keyword` (separate with half-width commas), then save the settings.
@@ -112,7 +112,7 @@ After setup (and once a user runs a search), you can view the results in GA4 rep
 
     Possible causes include:
 
-    - The storefront is not correctly connected to the GA4 code (Measurement ID)
+    - The storefront is not correctly integrated to the GA4 code (Measurement ID)
     - The feature was just set up, and data collection has not started yet (data is not backfilled)
     - No users ran a search during that period
 

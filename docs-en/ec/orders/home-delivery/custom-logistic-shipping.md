@@ -71,7 +71,7 @@ hide: []
 "Custom logistics" is for logistics not integrated with the CYBERBIZ system, such as freight companies you work with directly (Ta Rong Logistics, Kerry TJ Logistics, third-party couriers), your own delivery, or customer pickup. You can manually specify the freight company on the order (tracking number optional). The system changes the order's delivery status to "Shipped," and you can choose whether to send the customer a notification email.
 
 ??? info "Differences from Integrated Logistics"
-    Unlike system-integrated logistics (such as EZCAT, HCT Logistics, SF Express, and Pelican Express), custom logistics:
+    Unlike system-integrated logistics (such as T-CAT, HCT Logistics, SF Express, and Pelican), custom logistics:
 
     - Doesn't generate shipping labels automatically
     - Doesn't sync delivery progress
@@ -109,9 +109,9 @@ There are three ways to ship, depending on shipment volume and whether you need 
 
 ---
 
-### Mark Orders as Shipped in Bulk { #operate-custom-logistics-batch }
+### Mark Orders as Shipped in Batch { #operate-custom-logistics-batch }
 
-Use this to quickly change multiple orders to "Shipped" without entering tracking numbers one by one.
+Use this to quickly change multiple orders to "Shipped" without filling in tracking numbers one by one.
 
 !!! example "When to Use"
 
@@ -196,17 +196,17 @@ Use this when you need to **enter many different tracking numbers at once**.
 
 ---
 
-### Ship a Single Order from the Details Page { #operate-custom-logistics-single-order }
+### Ship a Single Order from the Detail Page { #operate-custom-logistics-single-order }
 
 !!! example "When to Use"
-    - Entering tracking numbers precisely one by one
+    - Filling in tracking numbers precisely one by one
     - Editing shipping notes
     - Handling special logistics needs individually
 
 **Steps**
 
-1. **Open the order details page**: Click the order number in the order list.
-2. **Choose a shipping method**: In the "Shipping Method" drop-down in the "Shipping" section, select "Custom Shipping Method."
+1. **Open the order detail page**: Click the order number in the order list.
+2. **Choose a shipping method**: In the "Shipping Method" dropdown in the "Shipping" section, select "Custom Shipping Method."
 3. **Enter logistics information**: Enter the "Courier Company" and "Tracking Number."
 4. **Set the notification email**: Choose whether to send a shipping notification email.
 5. **Complete the shipment**: After you confirm, the order status changes to "Shipped."
@@ -215,7 +215,7 @@ Use this when you need to **enter many different tracking numbers at once**.
 
 ## Special Cases { #operate-custom-logistics-exceptions }
 
-- **Customer pickup**: Still use the "custom logistics" process. For "Tracking Number," enter a pickup number or text such as "Customer pickup."
+- **Customer pickup**: Still use the "custom logistics" process. For "Tracking Number," fill in a pickup number or text such as "Customer pickup."
 - **Self-delivery**: Use [batch shipment](#operate-custom-logistics-batch) and add delivery details in the note.
 - **Handwritten waybills**: If you use a handwritten waybill, enter the actual handwritten number.
 
@@ -281,5 +281,5 @@ Custom logistics doesn't sync delivery progress automatically, so you need to mo
 
     Statement recognition works as follows:
 
-    - **System-integrated logistics (EZCAT, Pelican Express, convenience store pickup)**: The system can track the final delivery status, so the order is included on the statement when it's "Received."
+    - **System-integrated logistics (T-CAT, Pelican, convenience store pickup)**: The system can track the final delivery status, so the order is included on the statement when it's "Received."
     - **Custom logistics**: The system can't track delivery status, so the order is recognized on the statement once it's "Shipped."

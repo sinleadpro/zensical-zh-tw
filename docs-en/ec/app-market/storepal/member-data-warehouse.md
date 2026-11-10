@@ -94,11 +94,11 @@ Analyze members' purchase history, VIP levels, and current assets in depth, and 
 { .doc-badge }
 
 !!! tip "Use Cases"
-    - **Targeted Add-On Suggestions**: See how much more a customer needs to spend to reach the next VIP level, and suggest add-on items to raise the average order value.
+    - **Targeted Add-On Suggestions**: See how much more a customer needs to spend to reach the next VIP level, and suggest add-on items to raise the AOV.
     - **Recover Sales from Carts**: When a customer has unpurchased items in their online cart, ask whether they want to try them on or test them in store to close the sale faster.
     - **Keep Personal Service Notes**: Use member notes to record a customer's special preferences (for example, dislikes fragrance or is allergic to certain materials) for more thoughtful service.
 
-## How to Use { #operate-member-data }
+## Steps { #operate-member-data }
 
 This module is in the middle of the interface and provides multi-dimensional data analysis to support sales decisions.
 
@@ -106,7 +106,7 @@ This module is in the middle of the interface and provides multi-dimensional dat
 
 ### Membership Benefits { #operate-member-data-member-benefits }
 
-This tab brings together the member's online store VIP status and assets. Store staff can use this data for targeted selling or to help with redemption.
+This tab brings together the member's storefront VIP status and assets. Store staff can use this data for targeted selling or to help with redemption.
 
 ![](../../../assets/images/門市助理-前台-會員資訊-會員權益-畫面總覽01.en.png){ .screenshot }
 
@@ -123,14 +123,14 @@ This tab brings together the member's online store VIP status and assets. Store 
 	![](../../../assets/images/門市助理-前台-會員資訊-會員權益-VIP等級01.en.png){ .screenshot }
 
 
-=== "Online Store (EC) Sync"
+=== "Storefront (EC) Sync"
 
 	##### VIP Level Sync { #operate-member-data-vip-sync }
 
 	The levels and Upgrade conditions shown in the frontend are synced with the VIP system in **Customer Management > VIP Settings**.
 
 	!!! warning "VIP Version Compatibility"
-		Store Assistant supports only the new online store VIP system. The old VIP system is not supported.
+		Store Assistant supports only the new storefront VIP system. The old VIP system is not supported.
 
 
 #### In-Store Discounts and Redemption { #operate-member-data-redemption }
@@ -161,7 +161,7 @@ This tab brings together the member's online store VIP status and assets. Store 
 
 	![](../../../assets/images/門市助理-後台-門市管理-角色與權限-優惠券01.en.png){ .screenshot }
 
-=== "Online Store (EC) Sync"
+=== "Storefront (EC) Sync"
 
 	##### **Applicable Campaigns** { #operate-member-data-section-9 }
 
@@ -188,7 +188,7 @@ This tab brings together the member's online store VIP status and assets. Store 
 
 ### Purchase Overview { #operate-member-data-consumption }
 
-This tab analyzes the member's online store purchase history. Store staff can use it to build a member profile and recommend products accurately.
+This tab analyzes the member's storefront purchase history. Store staff can use it to build a member profile and recommend products accurately.
 
 ![](../../../assets/images/門市助理-前台-會員資訊-消費概覽-畫面總覽01.en.png){ .screenshot }
 
@@ -201,12 +201,12 @@ This tab analyzes the member's online store purchase history. Store staff can us
 
 	The system automatically pulls purchase data from **the past year up to the day of the search** to help store staff gauge the member's spending power and activity:
 
-	- **Total Spending**: The member's total amount paid on the online store.
-	- **Total Number of Purchases**: The member's total number of successful orders on the online store.
-	- **Average Order Amount**: The average order value calculated by the system, reflecting the member's typical spend per purchase.
+	- **Total Spending**: The member's total amount paid on the storefront.
+	- **Total Number of Purchases**: The member's total number of successful orders on the storefront.
+	- **Average Order Amount**: The AOV calculated by the system, reflecting the member's typical spend per purchase.
 
 
-=== "Online Store (EC) Sync"
+=== "Storefront (EC) Sync"
 
 	##### Data Source { #operate-member-data-sync }
 
@@ -221,12 +221,12 @@ This tab analyzes the member's online store purchase history. Store staff can us
 	##### Metrics { #operate-member-data-section-16 }
 
 	- **Recently Purchased Online Items**: Shows the **10** most recently purchased items from the past year (duplicates are listed once), sorted from newest to oldest.
-	- **Unpurchased Cart Items**: Shows the images and names of items the member has added to the online store cart but not yet checked out, in real time.
+	- **Unpurchased Cart Items**: Shows the images and names of items the member has added to the storefront cart but not yet checked out, in real time.
 
 	!!! tip "Sales Tip"
 		If a member has unpurchased items in their cart, store staff can ask whether they want to try them in store or buy them on the spot to close the sale faster.
 
-=== "Online Store (EC) Sync"
+=== "Storefront (EC) Sync"
 
 	##### Data Source { #operate-member-data-section-19 }
 
@@ -265,7 +265,7 @@ Store staff can use this tab to record and view members' offline purchase traits
 
 		</div>
 
-	3. Click **Save Changes**. The information syncs immediately to all brand stores and the online store admin.
+	3. Click **Save Changes**. The information syncs immediately to all brand stores and the admin.
 
 === "Store Assistant Admin"
 
@@ -281,7 +281,7 @@ Store staff can use this tab to record and view members' offline purchase traits
 
 	![](../../../assets/images/門市助理-後台-門市管理-角色與權限-會員備註01.en.png){ .screenshot }
 
-=== "Online Store (EC) Sync"
+=== "Storefront (EC) Sync"
 
 	##### Two-Way Sync { #operate-member-data-bidirectional-sync }
 

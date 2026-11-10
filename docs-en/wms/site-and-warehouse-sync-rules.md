@@ -67,7 +67,7 @@ hide: []
 ---
 
 # Store and Warehouse Sync Rules
-Learn how inventory syncs between your online store (EC) and the e-commerce warehouse (WMS), how orders are passed to the warehouse, and the basic shipping rules that keep orders flowing.
+Learn how inventory syncs between your storefront (EC) and the e-commerce warehouse (WMS), how orders are passed to the warehouse, and the basic shipping rules that keep orders flowing.
 { .subtitle }
 
 [:lucide-layers:{ title="Applicable Products" }](../../resources/conventions#適用產品) | Online Store / Smart Warehousing
@@ -75,23 +75,23 @@ Learn how inventory syncs between your online store (EC) and the e-commerce ware
 
 ## Inventory Sync Rules { #specs-sync-rules }
 
-The system compares inventory at several key moments, so the sellable quantity on your online store matches the physical stock in the warehouse.
+The system compares inventory at several key moments, so the sellable quantity on your storefront matches the physical inventory in the warehouse.
 
 ### When Sync Runs { #specs-sync-rules-trigger }
 
-1. **Customer checkout**: When a customer checks out on the online store, the system checks stock in real time.
+1. **Customer checkout**: When a customer checks out on the storefront, the system checks inventory in real time.
 2. **SKU update**: When you change a product SKU in the online store admin panel.
 3. **Warehouse inbound and outbound**: After WMS completes a **Stock Receipt** or a **transfer order**.
 4. **Scheduled sync**: The system reconciles all inventory automatically at **3:30 AM** every day.
 5. **Shortest shelf life update**: When you update a product's [shortest shelf life of good products](single-items/#operate-single-items-add){ data-preview } field.
 
 !!! tip "Key Integration Requirement"
-    - **Unique SKUs**: Every product (including each variant) must have a **product SKU**. The system uses the SKU as the unique ID to compare stock on both sides.
+    - **Unique SKUs**: Every product (including each variant) must have a **product SKU**. The system uses the SKU as the unique ID to compare inventory on both sides.
 
 
 ## Order Transfer Rules { #specs-order-forwarding }
 
-When your online store gets an order and its items have valid SKUs, the system sends (transfers) the order to WMS by these rules.
+When your storefront gets an order and its items have valid SKUs, the system sends (transfers) the order to WMS by these rules.
 
 ### Timing and Mechanism { #specs-order-forwarding-timing }
 
@@ -116,10 +116,10 @@ After the warehouse (WMS) receives an order, picking and shipping start only whe
     ![](../assets/images/EC-後台-訂單-所有訂單-串倉訂單查看物流訊息01.en.png){ .screenshot }
 
 2. **Payment confirmed**: Orders that are not cash on delivery must be **Paid**.
-3. **Enough stock**: Available stock for the SKU in WMS is greater than or equal to the order quantity.
+3. **Enough stock**: Available inventory for the SKU in WMS is greater than or equal to the order quantity.
 
 
 
 ## Notes { #prerequisites-sync-rules }
 
-- **Preventing overselling**: The system syncs at several points, but a burst of orders in a very short time (such as a flash sale) can still oversell. For finer stock control, see [Set Up Products (In Stock, Limited, Preorder)](setup-products-stock-limit-preorder.md).
+- **Preventing overselling**: The system syncs at several points, but a burst of orders in a very short time (such as a flash sale) can still oversell. For finer inventory control, see [Set Up Products (In Stock, Limited, Preorder)](setup-products-stock-limit-preorder.md).

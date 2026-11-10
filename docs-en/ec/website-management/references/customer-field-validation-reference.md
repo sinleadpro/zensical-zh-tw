@@ -66,14 +66,14 @@ comments: false
 
 On the Member Registration Setting page, the email and mobile fields can each be set to one of the following three states. Dual email and mobile verification simply means setting both fields to **Required and must be verified**.
 
-| State | Customer must fill in | System verifies | When to use |
+| State | Customer must fill in | System verifies | Use cases |
 |:--|:--:|:--:|:--|
 | **Optional** | ✗ | ✗ | The field is not essential, and customers decide whether to provide it |
 | **Required** | ✓ | ✗ | You need the information from customers but don't check that it is genuine |
 | **Required and must be verified** | ✓ | ✓ | Customers must provide it and pass email link or SMS OTP verification |
 
 !!! note "Notes"
-    * The **Required and must be verified** state takes two steps in the admin panel: first set the field to **Required** in **Member Field Setting**, and then turn on verification for that field in **Member Verification Setting**.
+    * The **Required and must be verified** state takes two steps in the admin: first set the field to **Required** in **Member Field Setting**, and then turn on verification for that field in **Member Verification Setting**.
     * Email is **Required** by default, and mobile is **Optional** by default.
     * At least one of email or mobile must be required. The system doesn't allow both to be optional.
     * Email verification is free. Mobile verification incurs SMS charges.

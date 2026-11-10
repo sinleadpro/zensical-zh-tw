@@ -78,7 +78,7 @@ hide:
 
 # Store Pickup: Omnichannel Operations Navigation
 
-**Store Pickup** is the core feature that enables OMO (Online Merge Offline). With this service, customers can place orders on the online store and choose to pick up at a physical store. This saves customers shipping fees and gives them flexible pickup options, while also effectively directing online traffic to physical stores and creating opportunities for repeat sales.
+**Store Pickup** is the core feature that enables OMO (Online Merge Offline). With this service, customers can place orders on the storefront and choose to pick up at a physical store. This saves customers shipping fees and gives them flexible pickup options, while also effectively directing online traffic to physical stores and creating opportunities for repeat sales.
 
 !!! tip "Use Cases"
     - **Boost store visits**: Attract customers to pick up orders in store and give store staff more chances to recommend add-on products.
@@ -102,11 +102,11 @@ The store pickup feature spans **Payment and logistics settings**, **Order fulfi
     [__Create and Manage Stores__](../create-stores.md)<br>
     [__Enable Store Pickup Service__](enable-store-pickup-service)
 
-- :lucide-truck:{ .lg } __2. Fulfillment Operations (Back Office)__
+- :lucide-truck:{ .lg } __2. Fulfillment Operations (Admin)__
 
     ---
 
-    Manage store pickup orders received on the online store and deliver parcels to the designated store.
+    Manage store pickup orders received on the storefront and deliver parcels to the designated store.
 
     [__Store Pickup Order Fulfillment Workflow__](../../orders/store-pickup-orders.md)
 
@@ -135,16 +135,16 @@ Before enabling the service, check the following restrictions based on your stor
 - **Payment restriction**: Only "pay first, pick up later" is supported. The system automatically filters the payment options on the checkout page.
 - **Store type**:
     - **General Store**: For online-only merchants. You must manually update the order status in the admin dashboard.
-    - **POS store**: For merchants integrated with a POS system. Supports barcode-scan receiving and automatic shipment status updates.
+    - **POS store**: For merchants integrated with a POS system. Supports barcode-scan receiving and automatic delivery status updates.
 - **Order restriction**: Store pickup orders support only "ship all items," and returns must follow the full-order return policy.
 
 ---
 
-## Frequently Asked Questions { #faq-store-pickup-hub }
+## FAQ { #faq-store-pickup-hub }
 
 ??? quote "Why doesn't the checkout page show the "Store Pickup" option?"
     Check the following: 1. Confirm that the "Store Pickup Settings" for the store is turned on. 2. Confirm that the product edit page has the corresponding logistics delivery permission turned on. 3. Confirm that at least one available payment method is selected.
 
 ??? quote "Does the order status change automatically after the customer picks up the order?"
-    - **POS store**: After store staff perform "Customer pickup in store," the system automatically updates the delivery status to "Received."
+    - **POS store**: After store clerks perform "Customer pickup in store," the system automatically updates the delivery status to "Received."
     - **General Store**: Merchants must manually mark the order as closed in **Order Management**.

@@ -65,7 +65,7 @@ Create a coupon group. When a member buys selected products and completes the or
 
 ## About Sending Coupons For Specific Products { #overview-conditional }
 
-Send coupons for Specific Products (coupon groups) sends coupons automatically. You choose specific products or product tags, and members who buy them get a preset coupon. Use it to encourage repeat purchases, cross-sell, or clear inventory faster.
+Send coupons for Specific Products (coupon groups) sends coupons automatically. You choose specific products or product tags, and members who buy them get a default coupon. Use it to encourage repeat purchases, cross-sell, or clear inventory faster.
 
 !!! tip "Use Cases"
     - **Drive repeat purchases with new arrivals**: Give a NT$100 discount coupon with "2024 Spring New Arrivals" to bring customers back.

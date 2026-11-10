@@ -65,7 +65,7 @@ hide: []
 
 ![7-Eleven C2C send return service code](../../../assets/images/EC-訂單-所有訂單-發送7-11-c2c退貨便代碼-hero.en.png){ .hero-page }
 
-## About 7-Eleven C2C Return Service { #intro-seven-c2c-return }
+## About 7-11 C2C Return Service { #intro-seven-c2c-return }
 
 This feature lets customers send returned items back through 7-ELEVEN stores. The original order doesn't need to use convenience store pickup; you can receive return packages through this service for orders with any delivery method.
 
@@ -89,7 +89,7 @@ For the full "delivery method × delivery progress × return status" matrix and 
 
 After enabling the feature, fill in the "Recipient Settings" so the system can generate shipping labels correctly when sending return codes.
 
-1. **Open the settings page**: In the admin, go to **"Payment and Logistics/Convenience Store Logistics" > "7-ELEVEN C2C Return Service"** and click **Edit** :lucide-file-pen-line:.
+1. **Open the setup page**: In the admin, go to **"Payment and Logistics/Convenience Store Logistics" > "7-ELEVEN C2C Return Service"** and click **Edit** :lucide-file-pen-line:.
 2. **Enable the setting**: Select the checkbox to agree to enable the feature and click **Confirm**.
 2. **Choose the recipient store**: Click **"Choose Store"** (shown as **"Change Store"** if already set). The official 7-ELEVEN store map window opens. After you choose a store, the system fills in the **Store Number** and **Store Name** automatically (these two fields can't be edited manually).
 3. **Enter recipient information**: Enter **Name**, **Phone**, and **Email** in order[^1].
@@ -97,7 +97,7 @@ After enabling the feature, fill in the "Recipient Settings" so the system can g
 
 ![7-Eleven C2C return service settings](../../../assets/images/EC-金物流-7-11-c2c退貨便.en.png)
 
-[^1]: Be sure to enter your real name **exactly as it appears on your ID**, because store staff check your ID when you pick up return packages. We recommend a mobile phone number so you can receive "package arrived at store" text notifications from the system.
+[^1]: Be sure to fill in your real name **exactly as it appears on your ID**, because store clerks check your ID when you pick up return packages. We recommend a mobile phone number so you can receive "package arrived at store" text notifications from the system.
 
 ---
 
@@ -107,12 +107,12 @@ When a customer requests a return, you can generate a code for them from the ord
 
 1. **Go to the order list**: In the admin, go to **"Orders" > "All Orders"**.
 2. **Select the order to return**: Make sure the order meets the conditions in [Prerequisites and Limitations](#prerequisites-seven-eleven-c2c-return){ data-preview }.
-3. **Choose the bulk action**: In More Actions above the orders, select **"Send 7-Eleven C2C Return Code and Change Delivery Status to 'Returning'"**.
+3. **Choose the batch action**: In More Actions above the orders, select **"Send 7-Eleven C2C Return Code and Change Delivery Status to 'Returning'"**.
 
     ![Send 7-Eleven C2C return service code](../../../assets/images/EC-訂單-所有訂單-發送7-11-c2c退貨便代碼.en.png)
 
 4. **Choose notification methods**: The **Send 7-11 C2C Return Service code** window opens with the message "After the code is sent, the delivery status changes to 'Returning'," and offers two notification methods (select at least one to submit):
-    * **Notify the customer by text**: Each text costs CYBER Coins. The system sends the code to the mobile number the customer entered when ordering.
+    * **Notify the customer by text**: Each text costs CYBER Coins. The system sends the code to the mobile number the customer filled in when ordering.
     * **Notify the customer by email**: No extra charge. The shipping label PDF is attached to the email so the customer can print it.
 
     ![Send 7-Eleven C2C return service code - confirmation window](../../../assets/images/EC-訂單-所有訂單-發送7-11-c2c退貨便代碼-確認視窗.en.png)
@@ -143,7 +143,7 @@ You can use this to explain the sending process to customers:
 1. **Package arrival notice**: When the package arrives at your recipient store, the system sends a text to the phone number you set.
 2. **Pick up at the store**: Pick up the package **within 7 days** of arrival, bringing **an original ID matching the "Name" field**. If you don't pick it up in time, the package is returned automatically by **freight-collect home delivery** to the "[company logistics address](../../website-management/setup-store-basic-info.md#operate-general-preferences-return-address){ title="Set Up Basic Website Information" }" (you pay the home delivery fee).
 3. **If a store closes**:
-    * **Store closed before the code is sent**: Return to the "Payment and Logistics > Convenience Store Logistics > 7-ELEVEN C2C Return Service" settings page, choose a new store, and send the code again.
+    * **Store closed before the code is sent**: Return to the "Payment and Logistics > Convenience Store Logistics > 7-ELEVEN C2C Return Service" setup page, choose a new store, and send the code again.
     * **Store closed after the package was sent**: Open the order's **order details page**. The system shows a warning and a **"Choose Store Again"** button below the logistics information section. Choose a new recipient store **within 6 days** of the closure[^2]; otherwise, the package is returned by freight-collect home delivery to the company logistics address.
 
         ![Order details page - 7-Eleven C2C store closure](../../../assets/images/EC-訂單-所有訂單-訂單詳情頁-7-11-c2c-門市關轉.en.png)
@@ -155,10 +155,10 @@ You can use this to explain the sending process to customers:
 ### 5. Return Review and Refund { #operate-seven-eleven-c2c-return-refund }
 
 1. **After the package is signed for**: After you pick up the package at the store and it's signed for in the system, the order's return status changes to **Reviewing Return** automatically.
-2. **Check the items**: Check each item's condition. If you confirm the refund, select the order on the order list page and choose the bulk action **Returned** to mark the return complete.
+2. **Check the items**: Check each item's condition. If you confirm the refund, select the order on the order list page and choose the batch action **Returned** to mark the return complete.
 3. **Issue the refund**:
     * **CYBERBIZ PAYMENTS orders**: The system starts a card refund or manual refund process based on the original payment method. Follow the instructions in the admin.
-    * **Other payment orders**: Issue the card refund in the original payment provider's admin, or ask the customer for account information and send the money yourself. Then manually mark the payment status as "Refunded" on the order details page.
+    * **Other payment orders**: Issue the card refund in the original payment provider's admin, or ask the customer for account information and send the money yourself. Then manually mark the payment status as "Refunded" on the order detail page.
 
 ## Important Rules and Limitations { #specs-seven-eleven-c2c-return }
 
@@ -192,13 +192,13 @@ You can use this to explain the sending process to customers:
 
 ## FAQ { #faq-seven-eleven-c2c-return }
 
-??? quote "Why can't I find "Send 7-Eleven C2C Return Code" in the order list bulk actions?"
+??? quote "Why can't I find "Send 7-11 C2C Return Code" in the order list bulk actions?"
     [](){ #faq-seven-eleven-c2c-return-action-missing }
     Check the following in order:
 
-    - Whether your store has asked CYBERBIZ customer service to enable "7-ELEVEN C2C Return Service"
+    - Whether your store has asked CYBERBIZ customer support to enable "7-ELEVEN C2C Return Service"
     - Whether the selected orders meet all sending conditions; see [Conditions for Sending](../references/c2c-return-conditions.md){ title="7-Eleven C2C Return Service: Conditions for Sending" }
-    - Whether you selected orders with different statuses (bulk actions require all selected orders to have the same status)
+    - Whether you selected orders with different statuses (batch actions require all selected orders to have the same status)
 
 ??? quote "When are CYBER Coins deducted? Are they deducted if the customer doesn't send the package?"
     [](){ #faq-seven-eleven-c2c-return-cyber-charge }
@@ -218,9 +218,9 @@ You can use this to explain the sending process to customers:
 
 ??? quote "What if the 7-ELEVEN store suddenly closes after the package is sent?"
     [](){ #faq-seven-eleven-c2c-return-store-closed }
-    Open the order's details page. The system shows a notice and a **"Choose Store Again"** button below the logistics information section. Choose a new store **within 6 days** of the closure. After 6 days, the option disappears, and the package is returned by freight-collect home delivery to the company logistics address.
+    Open the order's detail page. The system shows a notice and a **"Choose Store Again"** button below the logistics information section. Choose a new store **within 6 days** of the closure. After 6 days, the option disappears, and the package is returned by freight-collect home delivery to the company logistics address.
 
-## References { #reference-seven-eleven-c2c-return }
+## See Also { #reference-seven-eleven-c2c-return }
 
 - [Conditions for Sending](../references/c2c-return-conditions.md){ title="7-Eleven C2C Return Service: Conditions for Sending" data-preview }
 - [7-ELEVEN Delivery Service Official Guide](https://www.7-11.com.tw/service/accept.aspx){ target="_blank" }

@@ -114,7 +114,7 @@ hide:
 
 ## Key Settings { #operate-email-templates-core }
 
-- **On/off switch**: Each template has an **ON/OFF** switch on the right, so you decide whether that notification is enabled.
+- **On/off toggle**: Each template has an **ON/OFF** switch on the right, so you decide whether that notification is enabled.
 
 - **Short links**: Click the **Short link** option to turn it on or off. **When it's on**, long links in the email body are automatically converted to short links, which keeps emails shorter and tidier.
 
@@ -144,7 +144,7 @@ After you click **Add recipient**, you can choose recipients in three ways:
 
 ![](../../assets/images/ec-訊息推播-email 樣板設定.png)
 
-## Common Scenarios And Notification Types { #specs-email-templates }
+## Common Use Cases And Notification Types { #specs-email-templates }
 
 System notifications are either customer notifications or internal merchant notifications. Here's how each is sent and through which channels:
 
@@ -169,7 +169,7 @@ These notifications go only to the addresses set in Merchant notification settin
 
 - **Order management**: New orders and customer return requests.
 
-- **Safety stock reminders**: When a product's stock falls below the set level, the system emails your purchasing staff.
+- **Safety stock reminders**: When a product's inventory falls below the set level, the system emails your purchasing staff.
 
 - **Job results**: Success or failure reports after bulk Excel imports (products, members).
 
@@ -238,6 +238,6 @@ If your site has multiple languages turned on, set up each email template separa
 
 ??? quote "Why does checkout still show "Send verification code" when members log in, even though the notification template is off?"
 
-    Whether "Send verification code" appears depends on whether **email verification** is turned on, not on the notification template. Once verification is on, checkout shows the option; if the matching notification template is off, no verification email is sent.
+    Whether "Send verification code" appears depends on whether **email verification** is enabled, not on the notification template. Once verification is on, checkout shows the option; if the matching notification template is off, no verification email is sent.
 
     [Set up two-step email and mobile verification for customers :lucide-arrow-right:](../website-management/setup-customer-email-phone-verification/)

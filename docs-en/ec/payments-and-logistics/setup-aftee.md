@@ -71,7 +71,7 @@ AFTEE Pay Later gives customers a fast, convenient, and secure payment method. C
 
 ### Transactions and Fees { #intro-aftee-fees }
 
-- **Processing fee**: Charged at the rate set in the back office. The rate does not include 5% business tax, which is added separately on the statement.
+- **Processing fee**: Charged at the rate set in the admin. The rate does not include 5% business tax, which is added separately on the statement.
 - **Preferential rate**: 2.5% (excluding tax). Rate recognition is based on the shipment date.
 - **Refunds**: The process is the same as for credit card payments.
 
@@ -100,7 +100,7 @@ AFTEE Pay Later gives customers a fast, convenient, and secure payment method. C
 
 ### Step 1: Apply to Activate AFTEE { #operate-aftee-apply }
 
-1. Log in to the CYBERBIZ back office and go to **Payment and Logistics > Payment Settings**.
+1. Log in to the CYBERBIZ admin and go to **Payment and Logistics > Payment Settings**.
 2. In the CYBERBIZ PAYMENTS section, click **Edit** to open the edit page.
 3. In the AFTEE settings section, click **Apply**, fill in the "AFTEE Activation Request" dialog, and click **Submit Application** for AFTEE review.
 4. After AFTEE approves the application, the system sends a notification email to the site administrator.
@@ -110,9 +110,9 @@ AFTEE Pay Later gives customers a fast, convenient, and secure payment method. C
 ### Step 2: Enable the Payment Method { #operate-aftee-enable }
 
 
-1. Log in to the CYBERBIZ back office and go to **Payment and Logistics > Payment Settings**.
+1. Log in to the CYBERBIZ admin and go to **Payment and Logistics > Payment Settings**.
 2. In the CYBERBIZ PAYMENTS section, click **Edit** to open the edit page.
-3. In the AFTEE section, turn on AFTEE.
+3. In the AFTEE section, enable AFTEE.
 4. The AFTEE payment option appears on the storefront.
 
 ![AFTEE on storefront](../../assets/images/ec-金物流-aftee-前台顯示.en.png){ title="AFTEE on storefront" }
@@ -148,7 +148,7 @@ AFTEE Pay Later gives customers a fast, convenient, and secure payment method. C
 ## FAQ { #faq-aftee }
 
 ??? quote "Does AFTEE Pay Later have order amount limits?"
-	Yes. You can set payment thresholds in the back office to limit the minimum and maximum order amounts.
+	Yes. You can set payment thresholds in the admin to limit the minimum and maximum order amounts.
 
 ??? quote "What should I do if a customer does not receive the verification code?"
 	Make sure the mobile number is correct and can receive SMS. If the customer still does not receive the code, ask them to contact AFTEE.
@@ -160,4 +160,4 @@ AFTEE Pay Later gives customers a fast, convenient, and secure payment method. C
 	Yes. Customers must download the AFTEE app and select installment payment in the app.
 
 ??? quote "How do I confirm that a customer has paid?"
-	The order status in the back office shows "Payment Received", and you can proceed with shipping.
+	The order status in the admin shows "Payment Received", and you can proceed with shipping.

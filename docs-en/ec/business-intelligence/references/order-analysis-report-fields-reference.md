@@ -38,7 +38,7 @@ Set two periods, a "query date range" and a "comparison date range," and the sys
 | Field | Description |
 | :-- | :-- |
 | Order Count | Number of recognized orders in the period. |
-| Purchasing Members | Number of members who actually placed orders in the period. |
+| Purchasing Members | Number of members who actually submitted orders in the period. |
 | Sales Amount | Total amount of recognized orders in the period. |
 | Average Order Value | Sales amount ÷ order count; the average amount per order. |
 | Average Spend per Member | Sales amount ÷ purchasing members; the average spending per member. |

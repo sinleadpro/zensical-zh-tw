@@ -1,6 +1,6 @@
 ---
-title: "Redirect Shoppers to a Country-Specific Online Store"
-description: "When you run separate online stores by country, show a storefront banner based on the shopper IP country and guide them to the matching site."
+title: "Redirect Shoppers to a Country-Specific Storefront"
+description: "When you run separate online stores by country, show a storefront banner based on the customer IP country and guide them to the matching site."
 created: 2026-10-23 10:30
 last_modified: 2026-10-27 18:10
 lang: en-US
@@ -76,7 +76,7 @@ icon: lucide/globe-2
 hide: []
 ---
 
-# Redirect Shoppers to a Country-Specific Online Store
+# Redirect Shoppers to a Country-Specific Storefront
 
 [:lucide-layers:{ title="Applicable products" }](../../resources/conventions#適用產品){ title="Icon guide" } | Brand online store
 [:lucide-tag:{ title="Applicable plans" }](../../resources/conventions#適用方案){ title="Icon guide" } | All PLUS / Enterprise
@@ -90,33 +90,33 @@ hide: []
 
 ![Storefront top redirect banner](../../assets/images/EC-前台-官網首頁-頂端提示列-顯示跳轉提示01.en.png){ title="Storefront top redirect banner" .hero-page }
 
-## Overview { #intro-country-redirect }
+## About This Feature { #intro-country-redirect }
 
-When you **run a separate online store for each country**, the system can show a storefront banner based on the shopper IP country and guide them to the matching store.
+When you **run a separate online store for each country**, the system can show a storefront banner based on the customer IP country and guide them to the matching store.
 
-When shoppers reach a non-local store from search, ads, or social links, they may see the wrong currency, shipping, or prices. After you set this up, matching shoppers see a banner at the top of the site; only after they click **Go to** do they go to the other store you specified.
+When customers reach a non-local store from search, ads, or social links, they may see the wrong currency, shipping, or prices. After you set this up, matching customers see a banner at the top of the site; only after they click **Go to** do they go to the other store you specified.
 
 !!! tip "Use cases"
-    A shopper in Japan opens your Taiwan store from social (`www.twstore.com`) and at checkout finds only NT$ and shipping that cannot reach Japan.
+    A customer in Japan opens your Taiwan store from social (`www.twstore.com`) and at checkout finds only NT$ and shipping that cannot reach Japan.
 
-    If you also run a separate Japan store (`www.jpstore.com`), enable this on the Taiwan store: after the system detects the country from IP and shows the banner, the shopper clicks **Go to** to switch to the Japan store.
+    If you also run a separate Japan store (`www.jpstore.com`), enable this on the Taiwan store: after the system detects the country from IP and shows the banner, the customer clicks **Go to** to switch to the Japan store.
 
     :lucide-triangle-alert: This does not switch the same store from Traditional Chinese to Japanese. For language switching inside the same `www.example.com` , use [Multi-language and multi-currency](setup-multi-language-and-multi-currency/).
 
 
-!!! warning "The system does not auto-redirect shoppers"
-    - Shoppers go to the store URL you set only after they click **Go to**.
-    - Shoppers can dismiss the banner anytime and keep shopping on the current store.
-    - Shoppers who match no country rule see the site unchanged.
+!!! warning "The system does not auto-redirect customers"
+    - Customers go to the store URL you set only after they click **Go to**.
+    - Customers can dismiss the banner anytime and keep shopping on the current store.
+    - Customers who match no country rule see the site unchanged.
 
 
 ## Before You Start { #prerequisites-country-redirect }
 
 - **Who this is for**: Confirm you already run **two or more online stores on separate domains**. If you only need multiple languages on one store, use [Multi-language and multi-currency](setup-multi-language-and-multi-currency.md){ title="Set storefront multi-language and multi-currency" }.
 - **Allowed URLs**: You can send shoppers to a CYBERBIZ store or to another website.
-- **Permissions**: The account needs the **Settings** permission to edit the **Member Safety** tab. See [Add website admins and set permissions](add-admin-set-permissions.md){ title="Add website admins and set permissions" }.
+- **Permissions**: The account needs the **Settings** permission to edit the **Member Safety** tab. Details in [Add website admins and set permissions](add-admin-set-permissions.md){ title="Add website admins and set permissions" }.
 - **When changes take effect**: New, edited, or deleted rules apply immediately for first-time visitors; returning visitors may take up to **2 hours** to get the latest rules.
-- **Detection limits**: With **VPN, corporate, or mobile networks**, the detected country may differ from the shopper physical location.
+- **Detection limits**: With **VPN, corporate, or mobile networks**, the detected country may differ from the customer physical location.
 
 ## Steps { #operate-country-redirect }
 
@@ -137,7 +137,7 @@ When shoppers reach a non-local store from search, ads, or social links, they ma
     !!! info "Rules"
         - **One rule = one store URL + multiple countries/regions**. Every selected country goes to the same URL.
         - **Countries cannot repeat**: Each country can belong to only one rule. Already selected countries show a gray, disabled checkbox.
-        - **Home-country cannot be selected**: The CYBERBIZ home country for this store cannot be selected, so shoppers are not sent back to the current store.
+        - **Home-country cannot be selected**: The CYBERBIZ home country for this store cannot be selected, so customers are not sent back to the current store.
 
             **Example**: You are signed in to the CYBERBIZ Taiwan admin: the store country is Taiwan, so Taiwan is grayed out. You can set Malaysia -> Malaysia store, but not Taiwan -> Taiwan store.
 
@@ -174,46 +174,46 @@ After rules exist, the section becomes a list. Each row is one rule:
 ### Delete a Rule { #operate-country-redirect-delete }
 
 1. Click the red **Delete** icon on the right of the row.
-2. Confirm to delete. Shoppers in that region no longer see the banner that points to this URL.
+2. Confirm to delete. Customers in that region no longer see the banner that points to this URL.
 
 ![Delete redirect confirm](../../assets/images/EC-後台-管理中心-安全性設定-跳轉國家官網刪除確認01.en.png){ title="Confirm delete redirect rule" }
 
-## What Shoppers See on the Storefront { #overview-country-redirect-storefront }
+## What Customers See on the Storefront { #overview-country-redirect-storefront }
 
 ### Top Banner { #overview-country-redirect-banner }
 
-When the shopper country has another store configured, a banner appears at the very top of the site.
+When the customer country has another store configured, a banner appears at the very top of the site.
 
-- Banner text uses the **language of the shopper country**, not the language of your current store. For example, a Japan shopper who lands on the Taiwan store sees the banner in Japanese.
-- Only after the shopper clicks **Go to** does the target store URL you set open.
-- Shoppers can click **X** to dismiss the banner.
+- Banner text uses the **language of the shopper country**, not the language of your current store. For example, a Japan customer who lands on the Taiwan store sees the banner in Japanese.
+- Only after the customer clicks **Go to** does the target store URL you set open.
+- Customers can click **X** to dismiss the banner.
 
 ![Storefront top redirect banner](../../assets/images/EC-前台-官網首頁-頂端提示列-顯示跳轉提示01.en.png){ title="Storefront top country-redirect banner" }
 
 ### After the Banner Is Dismissed { #overview-country-redirect-dismiss }
 
-- After the shopper clicks **X**, the banner stays hidden for the rest of that browsing session, including page changes and refreshes.
+- After the customer clicks **X**, the banner stays hidden for the rest of that browsing session, including page changes and refreshes.
 - For the same country, it also stays hidden for **30 days** on later visits.
-- If the shopper later visits from **another country** that also has a rule, the banner still shows normally.
+- If the customer later visits from **another country** that also has a rule, the banner still shows normally.
 
 
 ## Using with the Restricted Regions Blacklist { #specs-country-redirect-blacklist }
 
 You can use this with the [Restricted regions blacklist](member-security-settings.md#operate-security-restricted-locations){ title="Set member security and site protection" } . Two common cases follow.
 
-### The Shopper Country Is Blocked on the Current Store { #specs-country-redirect-blocked-here }
+### The Customer Country Is Blocked on the Current Store { #specs-country-redirect-blocked-here }
 
-Example: the Taiwan store blocks Malaysia IPs via the region blacklist and also sends Malaysia IPs to the Malaysia store. Malaysia shoppers who open the Taiwan store still see the block page, but the **top banner still shows**; after they click **Go to** they can enter the Malaysia store instead of staying on the block page.
+Example: the Taiwan store blocks Malaysia IPs via the region blacklist and also sends Malaysia IPs to the Malaysia store. Malaysia customers who open the Taiwan store still see the block page, but the **top banner still shows**; after they click **Go to** they can enter the Malaysia store instead of staying on the block page.
 
 
-### The Shopper Country Is Blocked on the Destination Store { #specs-country-redirect-blocked-target }
+### The Customer Country Is Blocked on the Destination Store { #specs-country-redirect-blocked-target }
 
-Example: the Australia store sends Malaysia IPs to the Taiwan store, but the Taiwan store blocks Malaysia IPs. Malaysia shoppers still see the banner on the Australia store; clicking **Go to** opens the Taiwan store and then its block page. The system does not detect this conflict—keep each store settings aligned.
+Example: the Australia store sends Malaysia IPs to the Taiwan store, but the Taiwan store blocks Malaysia IPs. Malaysia customers still see the banner on the Australia store; clicking **Go to** opens the Taiwan store and then its block page. The system does not detect this conflict—keep each store settings aligned.
 
 ![Block page still shows redirect banner](../../assets/images/EC-前台-官網首頁-訪問限制頁-封鎖與跳轉提示01.en.png){ title="Block page with country-redirect banner" }
 
 !!! warning "Keep cross-store settings consistent"
-    If store A sends a country to store B and store B sends the same country back to store A, the system does not block it. Shoppers may see banners bouncing between stores—confirm the redirect direction for each country is consistent across stores.
+    If store A sends a country to store B and store B sends the same country back to store A, the system does not block it. Customers may see banners bouncing between stores—confirm the redirect direction for each country is consistent across stores.
 
 ## Next Steps { #next-steps-country-redirect }
 
@@ -231,8 +231,8 @@ Example: the Australia store sends Malaysia IPs to the Taiwan store, but the Tai
 
 ## FAQ { #faq-country-redirect }
 
-??? quote "Does the system auto-send shoppers to another store?"
-    No. The system only shows the banner; shoppers choose whether to go.
+??? quote "Does the system auto-send customers to another store?"
+    No. The system only shows the banner; customers choose whether to go.
 
 ??? quote "Is IP detection always accurate?"
     Not always. With VPN, corporate, or mobile networks, the detected country may differ from the physical location. That is why the banner can always be dismissed and never auto-redirects.

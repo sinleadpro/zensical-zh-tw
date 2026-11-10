@@ -86,7 +86,7 @@ Store Assistant lets you manage store sales attribution, account permissions, an
 
 ## Before You Start { #prerequisites-staff-access }
 
-- Store Assistant is a paid add-on. Contact CYBERBIZ customer service to activate it.
+- Store Assistant is a paid add-on. Contact CYBERBIZ customer support to activate it.
 - Each store can have only one **Active** store manager. Deactivate the current store manager account before adding a new one.
 - Activated accounts cannot be deleted. You can only stop using them with **Deactivate**.
 - We recommend having LINE Certified Provider status so customers can register and link with a single QR code scan.
@@ -143,16 +143,16 @@ Store Assistant has four roles. Their login permissions are shown below:
 2. **Deactivate**
     Deactivated store staff can no longer log in.
 3. **Use the Personal Binding QR Code**
-    - **How to Use**: Click **Download** to save the QR code image, or click **Copy** to get the personal binding link.
+    - **How to Use**: Click **Download** to save the QR code image, or click **Copy** to get the personal linking link.
     - **Use Case**: Staff guide customers to scan the code in store, so customers are linked to the staff member automatically when they register.
 
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定09.png){ .screenshot }
 
 
-#### Bulk Creation { #operate-staff-access-create }
+#### Batch Creation { #operate-staff-access-create }
 
-Use Excel to create or edit staff accounts for all brand stores in bulk.
+Use Excel to create or edit staff accounts for all brand stores in batches.
 
 1. Go to **Store Management** and click **匯入 > 人員帳號與修改權限**.
 
@@ -175,9 +175,9 @@ Use Excel to create or edit staff accounts for all brand stores in bulk.
     - Email: Required. Emails cannot be duplicated for the same role in the same store.
     - Password: Enter at least 6 characters.
 
-#### Bulk Edit Staff Permissions { #operate-staff-access-edit-permissions }
+#### Batch Edit Staff Permissions { #operate-staff-access-edit-permissions }
 
-If you manage staff and permissions for multiple stores, use Excel to edit role permissions in bulk and save time.
+If you manage staff and permissions for multiple stores, use Excel to edit role permissions in batches and save time.
 
 1. Click **Export**. The system sends an Excel file to your login email.
 

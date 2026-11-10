@@ -70,7 +70,7 @@ Set up exclusion tags so that products are not uploaded to third-party platforms
 CYBERBIZ automatically syncs product data to third-party sales and advertising platforms (such as Google Merchant Center, Facebook DPA, LINE Shopping, and Market America) to increase product exposure. If some products are not suitable for these platforms[^exclude-examples], you can exclude them with product tags, and the system will not upload their data to the specified platforms.
 
 !!! example "Use Cases"
-    - Gifts or internal test products that you do not want to show in dynamic ads.
+    - Free gifts or internal test products that you do not want to show in dynamic ads.
     - Contract or licensing restrictions that prevent some products from appearing on certain platforms.
     - Keeping specific products from using up your ad budget.
 
@@ -109,7 +109,7 @@ You can exclude a product from third-party platform uploads by adding a specific
 ??? quote "After I exclude a product, can customers still find and buy it in my CYBERBIZ store?"
     Yes. This exclusion only affects whether the product is uploaded to third-party platforms. It does not affect the product's visibility or purchase options in your CYBERBIZ store. Customers can still find and buy the product through store search or a direct link.
 
-[^exclude-examples]: For example, gifts, internal test products, or products that must not be shown publicly due to contract restrictions.
+[^exclude-examples]: For example, free gifts, internal test products, or products that must not be shown publicly due to contract restrictions.
 
 ## Next Steps { #next-steps-exclude-platforms }
 

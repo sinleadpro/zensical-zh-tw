@@ -85,7 +85,7 @@ Before you set up a conditionalized collection, check the following:
 - [x] **Your store has products**: Conditionalized collections filter existing products. If the store has no products or none match the conditions, the collection will be empty.
 - [x] **Product data is complete**: Filtering compares fields such as product name, type, vendor, tags, price, and inventory. The more complete these fields are, the more accurate the collection.
 
-!!! plan "Plan / Activation Requirements"
+!!! plan "Plan / Prerequisites"
     [Multi-language translation settings](#operate-smart-collections-multi-language), described later in this article, is optional and requires the multi-language store feature. Without it, the collection edit page has no language menu, and you can create content only in the default language (Traditional Chinese). If you're not sure whether it's enabled, contact your CYBERBIZ sales representative.
 
 ---
@@ -98,9 +98,9 @@ The following explains, in order, how to create a conditionalized collection, se
 
 1. **Open the Conditionalized Collections page:** In the admin's left menu, click "Conditionalized Collections" to open the collection list.
 2. **Add a collection:** Click **Add a new collection** in the upper-right corner to open the "Collection Settings" page.
-3. **Enter the collection name:** Enter a name for the collection in **"Collection Name"**, for example, "New for Summer".
+3. **Enter the collection name:** Fill in a name for the collection in **"Collection Name"**, for example, "New for Summer".
 4. **Set the collection URL:** Customize the link path of the collection page in **"Collection URL"**. If left blank, the system generates one automatically.
-5. **Enter the collection description (optional):** In the **"Collection Description"** editor, enter the text to show on the collection page.
+5. **Enter the collection description (optional):** In the **"Collection Description"** editor, fill in the text to show on the collection page.
 6. **Save**: Click **Save** at the bottom of the page. After saving, the **Product** tab appears at the top of the page so you can set filter conditions.
 
 ![Add a conditionalized collection](../../../assets/images/ec-smart-collections-create.en.png)
@@ -116,7 +116,7 @@ The core of a conditionalized collection is its "product rules". A rule has thre
 1,000. When you set multiple rules, the system decides whether to include products based on the combination you choose.
 
 
-1. **Switch to the "Product" tab:** At the top of the collection settings page, click the **Product** tab.
+1. **Switch to the "Product" tab:** At the top of the collection setup page, click the **Product** tab.
 2. **Choose how to combine conditions:** In the **Product Rules** section, under **Filter Results**, select **Match all conditions** or **Match any condition**.
 3. **Add a rule:** Click **Create a new product rule**, and the system adds a new rule row.
 4. **Set up a rule:** In the row, select a **filter field**, then a **condition**, and enter a **value**. For the available fields and conditions, see the [filter fields reference](../references/smart-collections-rule-columns.md#reference-smart-collections-columns){ title="Conditionalized Collection Filter Fields Reference" data-preview } and
@@ -140,7 +140,7 @@ The core of a conditionalized collection is its "product rules". A rule has thre
 ### 3. Review Matching Products and Set the Sort Order { #operate-smart-collections-sort }
 
 1. **Review matching products:** After you save the rules, **Matching Products** below lists the products that currently match, including product name, price, product type, and vendor, so you can confirm the conditions are correct.
-2. **Choose a sort order:** In the sort drop-down menu, choose the order of products on the storefront collection page, such as "Price: High to Low" or "Best Selling". For all options, see the
+2. **Choose a sort order:** In the sort dropdown menu, choose the order of products on the storefront collection page, such as "Price: High to Low" or "Best Selling". For all options, see the
 [product sort order reference](../references/smart-collections-sort-order.md#reference-smart-collections-sort){ title="Conditionalized Collection Product Sort Order Reference" data-preview }.
 3. **Manual sorting (optional):** If you choose "Manual", drag product rows to change their order.
 
@@ -165,13 +165,13 @@ The core of a conditionalized collection is its "product rules". A rule has thre
 
 ### 5. Multi-Language Translation Settings { #operate-smart-collections-multi-language }
 
-!!! plan "Plan / Activation Requirements"
+!!! plan "Plan / Prerequisites"
     This feature requires the multi-language store feature. Without it, there's no language menu next to the title on the collection edit page. For supported languages, see the [Multi-Language Supported Languages Reference](../references/multi-language-supported.md#reference-multi-language){ title="Multi-Language Supported Languages Reference" data-preview }.
 
 If your store has multi-language enabled, you can provide a version of each conditionalized collection's **collection name** and **collection description** in each language so customers see the matching translation on the storefront.
 
 1. **Open the collection to translate:** Click the collection in the "Conditionalized Collections" list to edit it. Note that the language menu appears only for collections **already created**; you can't switch languages while adding a new collection.
-2. **Switch languages:** Click the **"Select Language"** drop-down menu next to the title on the collection edit page and switch to the language to translate.
+2. **Switch languages:** Click the **"Select Language"** dropdown menu next to the title on the collection edit page and switch to the language to translate.
 
     ![Switch languages](../../../assets/images/ec-smart-collections-lang-switch.en.png)
 
@@ -285,7 +285,7 @@ If your store has multi-language enabled, you can provide a version of each cond
 
 ---
 
-## References { #reference-smart-collections }
+## See Also { #reference-smart-collections }
 
 * [Conditionalized Collection Filter Fields Reference](../references/smart-collections-rule-columns.md)
 * [Conditionalized Collection Filter Conditions Reference](../references/smart-collections-rule-relations.md)

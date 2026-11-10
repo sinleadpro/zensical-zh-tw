@@ -109,7 +109,7 @@ The CYBERBIZ APP can be published on the App Store (iOS) and Google Play (Androi
 The online store app fully inherits the visual settings and product data of your web store. Before you start building the app, make sure your website has the following core setup in place, so the app has full shopping features at launch:
 
 
-- [x] **[Product Listings](../products/create-and-manage/create-update-products.md)**: Make sure your store has plenty of products for shoppers to choose from.
+- [x] **[Product Listings](../products/create-and-manage/create-update-products.md)**: Make sure your store has plenty of products for customers to choose from.
 - [x] **[Marketing Tools](../marketing/index.md)**: Set up member benefits such as bonus points and coupon (codes).
 - [x] **[Visual Design](../website-appearance/index.md)**: Build and review the storefront layout of your online store.
 - [x] **Navigation Planning**: Complete your online store's [navigation bar settings](../website-appearance/navigation/setup-menus-navigation.md) so shoppers can move around easily.
@@ -120,7 +120,7 @@ The online store app fully inherits the visual settings and product data of your
 ## Create the In-App Store Map { #operate-app-store-map }
 
 
-Log in to your online store admin and go to **APP 功能 > APP門市列表** to show your physical store information in the app so customers can look it up.
+Log in to your storefront admin and go to **APP 功能 > APP門市列表** to show your physical store information in the app so customers can look it up.
 
 
 1.  **Turn On the Feature**: Click the ON/OFF button.
@@ -143,9 +143,9 @@ Log in to your online store admin and go to **APP 功能 > APP門市列表** to 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APP功能-APP門市列表-批次匯入門市01.png)
 
 
-## Default App Notification Switches { #operate-app-notification-defaults }
+## Default App Notification Toggles { #operate-app-notification-defaults }
 
-Go to **APP 功能 > APP推播通知設定 > 通知樣板** to choose whether system-triggered notifications (such as order confirmation and shipping notifications) are turned on.
+Go to **APP 功能 > APP推播通知設定 > 通知樣板** to choose whether system-triggered notifications (such as order confirmation and shipping notifications) are enabled.
 
 
 1.  **Toggle the Switch**: Click the ON/OFF button on the right. When the button shows a blue ON, the system automatically sends a push notification to customers when that event occurs.

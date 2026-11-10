@@ -176,13 +176,13 @@ Before you activate POS features, make sure you have planned the following hardw
 
     - :lucide-qr-code:{ .lg }
       [__LINE Pay Scan Payment__](../check/line-pay-scan-payment.md)<br>
-      Apply for LINE Pay merchant access to support mobile payment checkout.
+      Apply for LINE Pay merchant permission to support mobile payment checkout.
 
     </div>
 
 ## Preparation Before Setup { #intro-get-started }
 
-Before you activate POS features, complete the basic setup on the online store and understand how the system works.
+Before you activate POS features, complete the basic setup on the storefront and understand how the system works.
 
 === "Online Store Pre-Setup"
 
@@ -192,11 +192,11 @@ Before you activate POS features, complete the basic setup on the online store a
       Confirm that all POS system fees have been paid.
 
     - [__② Create Products and SKUs__](../../ec/products/create-and-manage/create-update-products.md)<br>
-      Confirm that online store products are set up and that **every product has an SKU code** (an SKU is a product's unique identifier).<br><br>
+      Confirm that storefront products are set up and that **every product has an SKU code** (an SKU is a product's unique identifier).<br><br>
       [→ Bulk Fill Product SKU Codes Tutorial](bulk-update-product-skus.md)
 
     - __③ Update Inventory Settings__<br>
-      Check online store product inventory. If it is not set to **unlimited inventory (∞)**, inventory will default to zero after POS is activated.
+      Check storefront product inventory. If it is not set to **unlimited inventory (∞)**, inventory will default to zero after POS is activated.
 
     - __④ Submit an Activation Request__<br>
       Submit your request to your store setup consultant. After activation, a **POS Features** tab will appear in the back-office menu.
@@ -213,6 +213,6 @@ Before you activate POS features, complete the basic setup on the online store a
 
     - :lucide-plug:{ .lg }
       [__Account Permission Management__](../store/staff-permissions-and-account-management.md)<br>
-      Understand how to set up role identities and bind employee accounts to them.
+      Understand how to set up role identities and link staff accounts to them.
 
     </div>

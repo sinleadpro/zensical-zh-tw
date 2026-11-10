@@ -90,15 +90,15 @@ hide:
 
 ## Operation Steps { #operate-line-member }
 
-### Back-End Setup Steps <small>Configure the Rich Menu</small> { #operate-line-member-admin-settings }
+### Admin Setup Steps <small>Configure the Rich Menu</small> { #operate-line-member-admin-settings }
 
 To let consumers display their member barcode, the merchant must create a matching link in the LINE Official Account rich menu:
 
-1. Go to the back end of [LINE Official Account Manager :lucide-external-link:](https://manager.line.biz/), then select **Chats > Rich Menu**.
+1. Go to the admin of [LINE Official Account Manager :lucide-external-link:](https://manager.line.biz/), then select **Chats > Rich Menu**.
 2. Create or edit a menu item, and set one of its areas to **My Member Card**.
 3. **Set Up the Action Link**: In the link field, enter the unique code:
     - Link URL: `https://您的網址/account/id_barcode`.
-4. After saving the menu, customers tap this area to display their personal member barcode on their phone.
+4. After saving the menu, customers tap this section to display their personal member barcode on their phone.
 
 !!! info "For detailed LINE rich menu setup instructions, see [How to Set Up the LINE Rich Menu](../../../ec/integrations/line/marketing/setup-line-rich-menu.md){ title="Set Up the LINE Rich Menu" }."
 
@@ -118,7 +118,7 @@ To let consumers display their member barcode, the merchant must create a matchi
 #### Staff-Side Operation <small>POS Terminal</small> { #operate-line-member-staff-operation-pos }
 
 1. Staff log in to the POS front end and click the **Checkout** key.
-2. On the member login screen, scan the consumer's phone barcode with the barcode scanner, or manually enter the barcode number to log in.
+2. On the member login screen, scan the customer's phone barcode with the barcode scanner, or manually enter the barcode number to log in.
 3. Once the member information is confirmed, start scanning products.
 
 ![POS checkout screen](../../../assets/images/pos-結帳.en.png){ title="POS checkout screen" }
@@ -127,16 +127,16 @@ To let consumers display their member barcode, the merchant must create a matchi
 
 After all checkout products are scanned, redeem based on how the member logged in:
 
-- **Scenario 1 (Phone or Email Login)**: If staff first search for the member by phone number, then scan the consumer's LINE member barcode again when redeeming. Once the **green checkmark** appears, apply the redemption.
+- **Scenario 1 (Phone or Email Login)**: If staff first search for the member by phone number, then scan the customer's LINE member barcode again when redeeming. Once the **green checkmark** appears, apply the redemption.
 - **Scenario 2 (Direct Login by Barcode Scanner)**: If the member logs in by scanning the barcode from the start, no second scan is needed. Click bonus points or coupon on the checkout screen to apply the deduction.
 
 ![bonus redemption screen](../../../assets/images/pos-紅利折抵.en.png){ title="bonus redemption screen" }
 
-## Frequently Asked Questions { #faq-line-member }
+## FAQ { #faq-line-member }
 
 ??? quote "Why can't the in-store barcode scanner read the member barcode?"
 	If a scan fails, check the following troubleshooting steps in order:
 
-	- **Refresh the Barcode Status**: Barcodes have a limited validity period. If a scan fails or the barcode shows as expired, guide the consumer to tap My Member Card in the rich menu again. The system automatically generates a new valid barcode number.
-	- **Adjust Screen Brightness**: A dim or glare-prone phone screen can affect how the barcode scanner reads the code. Remind the consumer to set the phone screen brightness to maximum and try again.
+	- **Refresh the Barcode Status**: Barcodes have a limited validity period. If a scan fails or the barcode shows as expired, guide the customer to tap My Member Card in the rich menu again. The system automatically generates a new valid barcode number.
+	- **Adjust Screen Brightness**: A dim or glare-prone phone screen can affect how the barcode scanner reads the code. Remind the customer to set the phone screen brightness to maximum and try again.
 	- **Check the Hardware Environment**: Confirm that the scanner lens is clean and maintain an appropriate scanning distance (about 5-10 cm).

@@ -65,7 +65,7 @@ hide: []
 ---
 
 # Legacy Store-wide Discount
-Learn how to create store-wide promotions, including Amount discounts, Percentage discounts, and threshold coupon offers (one coupon per qualifying order), to raise average order value and repeat purchases.
+Learn how to create store-wide promotions, including Amount discounts, Percentage discounts, and threshold coupon offers (one coupon per qualifying order), to raise AOV and repeat purchases.
 { .subtitle }
 
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Professional / Advanced / Expert / All PLUS
@@ -118,7 +118,7 @@ Reduce the Amount of the current order directly.
 
     === "coupon"
 
-        !!! info "Plan Availability"
+        !!! info "Available Plans"
             This feature is available only on the **Expert**, **Expert PLUS**, and **Enterprise** plans.
 
         1. Set up the coupon:

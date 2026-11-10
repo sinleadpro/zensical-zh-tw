@@ -1,6 +1,6 @@
 ---
 title: "Meta Message Format Specifications"
-description: "Learn the message formats and media file limits supported on Meta (Facebook Messenger) to keep customer service communication running smoothly."
+description: "Learn the message formats and media file limits supported on Meta (Facebook Messenger) to keep customer support communication running smoothly."
 created: 2026-05-28 12:05
 last_modified: 2026-05-28 12:00
 lang: en-US
@@ -67,7 +67,7 @@ hide: []
 ---
 
 # Meta Message Format Specifications
-Learn which message types and media file limits the Meta (Facebook Messenger) platform supports so customer service runs smoothly.
+Learn which message types and media file limits the Meta (Facebook Messenger) platform supports so customer support runs smoothly.
 { .subtitle }
 
 [:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | All PLUS / Enterprise<br>

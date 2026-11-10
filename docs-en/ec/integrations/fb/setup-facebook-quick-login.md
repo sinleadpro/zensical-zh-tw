@@ -73,7 +73,7 @@ hide: []
 
 - [x] **URL security:** Your storefront URL must have an **SSL certificate** (it must start with https://).
 - [x] **Business verification:** The Meta Business Suite you use must first complete [verification :lucide-external-link:](https://www.facebook.com/business/help/159334372093366).
-- [x] **Domain redirect:** In the admin's "Domain Management" page, make sure the domain checked for "[Always redirect customers here](../../website-management/domain-management.md#operate-domain-mgmt-add){ title="Domain Management" }" is the domain set in Facebook.
+- [x] **Domain redirect:** In the admin's "Domain Management" page, make sure the domain selected for "[Always redirect customers here](../../website-management/domain-management.md#operate-domain-mgmt-add){ title="Domain Management" }" is the domain set in Facebook.
 - [x] **Email restriction:** If customers use a Hinet email address, Hinet may block messages, so they might not receive system notifications such as password reset emails. We recommend asking them to use a different email address.
 - [x] **Account merging:** If a customer's Facebook email address matches the one used for Google or LINE sign-in, the system automatically treats them as the same member and performs an **account merge**.
 
@@ -221,7 +221,7 @@ After you complete the basic settings, you must finish "Business Verification" a
 
 ---
 
-#### Connect Data to CYBERBIZ { #operate-facebook-quick-settings-connect-data-cyb }
+#### Integrate Data to CYBERBIZ { #operate-facebook-quick-settings-connect-data-cyb }
 
 1. On the "Basic" page, get the **App ID** and **App Secret** (click "Show" to view the App Secret).
 

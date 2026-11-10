@@ -71,7 +71,7 @@ hide: []
 
 # SF Express Overseas Logistics
 
-Integrate SF Express overseas logistics through the CYBERBIZ backend to create cross-border waybills directly. The format automatically switches between Chinese and English based on the recipient address.
+Integrate SF Express overseas logistics through the CYBERBIZ backend to create cross-border shipping labels directly. The format automatically switches between Chinese and English based on the recipient address.
 { .subtitle }
 
 [:lucide-layers:{ title="Applicable products" }](../../resources/conventions#適用產品) | EC Website
@@ -83,9 +83,9 @@ Integrate SF Express overseas logistics through the CYBERBIZ backend to create c
 ## Usage Notes { #prerequisites-sf-overseas }
 
 - **Supported regions**: Mainly ships from Taiwan to China, Hong Kong, Macau, and international regions. The countries we can ship to may change with international conditions. For any changes, see [Shipping Information Lookup](https://htm.sf-express.com/tw/tc/dynamic_function/range/).
-- **Prerequisite**: To ship to regions **outside China, Hong Kong, and Macau**, you need the **Multi-Country** feature. If you need it, contact CYBERBIZ customer service.
-- **Shipping rules and documents**: For each country's shipping standards and required documents, see the [SF Express website](https://htm.sf-express.com/tw/tc/dynamic_function/accept/) or contact SF Express customer service at 412-8830 (add 02 when calling from a mobile phone).
-    - **Special document review**: If export items require documents such as a **product classification table** and an **MSDS**, email them to the SF Express customer service mailbox at twsf@sf-express.com 1 to 2 days before shipping. After SF Express staff complete their review, if the reply email approves the shipment, give the documents to the driver together with the package when you ship.
+- **Prerequisite**: To ship to regions **outside China, Hong Kong, and Macau**, you need the **Multi-Country** feature. If you need it, contact CYBERBIZ customer support.
+- **Shipping rules and documents**: For each country's shipping standards and required documents, see the [SF Express website](https://htm.sf-express.com/tw/tc/dynamic_function/accept/) or contact SF Express customer support at 412-8830 (add 02 when calling from a mobile phone).
+    - **Special document review**: If export items require documents such as a **product classification table** and an **MSDS**, email them to the SF Express customer support mailbox at twsf@sf-express.com 1 to 2 days before shipping. After SF Express staff complete their review, if the reply email approves the shipment, give the documents to the driver together with the package when you ship.
     - **Special rules for Macau**: Goods shipped to Macau that are not listed on the import permit, or that exceed the quantity listed on the permit, require the merchant to first obtain a [product classification table](https://www.gov.mo/zh-hant/services/ps-1574/ps-1574a/) from the Macau Health Bureau proving the goods are **not drugs**. Only then can the merchant entrust a logistics provider to import them.
 - **Delivery time**: Approximately D+1 to 3 (excluding holidays), varies by region. For details, see [International standard express delivery time lookup](https://htm.sf-express.com/tw/en/dynamic_function/price/time_internal.html).
 - **Latest information**: For the latest rules, refer to the SF Express website announcements.
@@ -112,12 +112,12 @@ Integrate SF Express overseas logistics through the CYBERBIZ backend to create c
 
 ### Shipping Method { #operate-sf-overseas-methods }
 
-- The shipping method is the same as for standard home-delivery waybills. See [Download SF Express Waybill](../orders/home-delivery/sf-express-shipping-v2.md#operate-sf-bulk-shipping).
-- The system automatically checks the recipient address. For Taiwan addresses, it prints a Chinese waybill. For overseas addresses, it prints an English waybill.
+- The shipping method is the same as for standard home-delivery shipping labels. See [Download SF Express Shipping Label](../orders/home-delivery/sf-express-shipping-v2.md#operate-sf-bulk-shipping).
+- The system automatically checks the recipient address. For Taiwan addresses, it prints a Chinese shipping label. For overseas addresses, it prints an English shipping label.
 
 ### Deduction Mechanism { #specs-sf-overseas-billing }
 
-- **Pre-deducted fee**: When you print an SF Express overseas waybill, the system first deducts **150 CYBER coins** from your account.
+- **Pre-deducted fee**: When you print an SF Express overseas shipping label, the system first deducts **150 CYBER coins** from your account.
 - **Final settlement**: The actual fee may be adjusted. Adjustments are based on the freight amount SF Express actually charges and are listed on the statement for that billing period.
 
 
@@ -142,5 +142,5 @@ SF Express overseas shipping fees are not a fixed amount. They consist of the fo
 
 ### 2. Delivery Failure { #operate-sf-overseas-fail }
 
-- SF Express customer service will try to contact the recipient.
+- SF Express customer support will try to contact the recipient.
 - If contact still cannot be made, SF Express will contact the merchant to confirm whether to process a return.

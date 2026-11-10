@@ -1,6 +1,6 @@
 ---
 title: "Configure Global Settings and Sales Attribution"
-description: "Help headquarters admins configure brand-wide Store Assistant feature switches, and guide admins at each level to set the sales attribution level for individual stores."
+description: "Help headquarters admins configure brand-wide Store Assistant feature toggles, and guide admins at each level to set the sales attribution level for individual stores."
 created: 2026-06-22 10:11
 last_modified: 2026-06-22 10:11
 lang: en-US
@@ -64,7 +64,7 @@ icon: lucide/settings
 hide: []
 ---
 # Configure Global Settings and Sales Attribution
-Help headquarters admins configure brand-wide Store Assistant feature switches, and guide admins at each level to set the sales attribution level for individual stores.
+Help headquarters admins configure brand-wide Store Assistant feature toggles, and guide admins at each level to set the sales attribution level for individual stores.
 { .subtitle }
 
 [:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | All PLUS / Enterprise<br>
@@ -75,7 +75,7 @@ Help headquarters admins configure brand-wide Store Assistant feature switches, 
 
 **Headquarters admins** can set rules for all stores.
 
-### Frontend Feature Switches { #operate-storepal-settings-section }
+### Frontend Feature Toggles { #operate-storepal-settings-section }
 
 Go to **設定 > 功能設定 > 前台功能設定** to turn each **Store Assistant frontend** feature on or off.
 
@@ -154,9 +154,9 @@ Go to **設定 > 功能設定 > 業績歸因設定** to set the **brand-wide sal
     ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-功能與帳號設定23.png){ .screenshot }
 
 !!! warning "Change Limitation"
-    You can change the sales attribution fields yourself only **once**. To make more changes, contact CYBERBIZ customer service.
+    You can change the sales attribution fields yourself only **once**. To make more changes, contact CYBERBIZ customer support.
 
-### SMS Notification Switches { #operate-storepal-settings-sms-toggle }
+### SMS Notification Toggles { #operate-storepal-settings-sms-toggle }
 
 Go to **設定 > 通知設定** to turn **notification types** on or off and edit SMS templates.
 
@@ -167,7 +167,7 @@ Go to **設定 > 通知設定** to turn **notification types** on or off and edi
 - Store referrer linking notification
 - Product recommendation notification: Used as both the SMS template for **Send SMS** and the link template for **Share Product Link**.
 
-After a notification is turned on, store staff can send that type of SMS to customers.
+After a notification is enabled, store staff can send that type of SMS to customers.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-後台-設定-通知設定-簡訊列表01.png){ .screenshot }
 
@@ -205,7 +205,7 @@ The store management list shows the stores you can configure based on your role:
 | Headquarters admin | All stores |
 | Group admin | Stores in the account's group |
 | Store manager | The single store assigned to the account |
-| Store staff | None |
+| Store clerks | None |
 
 
 
@@ -221,4 +221,4 @@ The store management list shows the stores you can configure based on your role:
 
 
 !!! warning "Attribution Level Change Limitation"
-    You can change the attribution level yourself once. To make more changes, contact CYBERBIZ customer service.
+    You can change the attribution level yourself once. To make more changes, contact CYBERBIZ customer support.

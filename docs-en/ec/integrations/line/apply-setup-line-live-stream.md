@@ -67,7 +67,7 @@ hide: []
 
 ## LINE Live Overview { #overview-setup-line }
 
-**LINE Live** (Watch & Buy mode) lets merchants host live shopping streams directly on their LINE Official Account and send viewers to the website to place orders.
+**LINE Live** (Watch & Buy mode) lets merchants host live shopping streams directly on their LINE Official Account and send viewers to the website to submit orders.
 
 !!! info "For more information about LINE Live features, see [LINE LIVE official documentation :lucide-external-link:](https://tw.linebiz.com/service/account-solutions/line-live/)."
 
@@ -77,22 +77,22 @@ hide: []
     *   **Standard accounts (gray shield)**: Applications are not currently accepted.
     *   **Enterprise accounts (green shield)**: Access is by invitation only, and these accounts are also eligible.
 - **Official account friend count**: We recommend **1000 or more friends** to ensure viewing and conversion results.
-- **Customer restriction**: Customers must be friends of the official account and [have linked their website member account with LINE OA](account-integration/bind-line-oa-store-members.md){ title="Link LINE Official Account with website member" }, to enter the live room and place orders.
+- **Customer restriction**: Customers must be friends of the official account and [have linked their website member account with LINE OA](account-integration/bind-line-oa-store-members.md){ title="Link LINE Official Account with website member" }, to enter the live room and submit orders.
 - **Live frequency recommendation**: We recommend at least 4 live sessions per month to build viewing habits with your friends.
 
 ## Application and Launch Process { #operate-setup-line-apply-flow }
 
 1.  **Submit the form**: Request and complete the [LINE Live eligibility application form :lucide-external-link:](https://docs.google.com/forms/d/e/1FAIpQLSeaMKpcK0DOaTvZDy_229oV3mV_k50-oKKTljdGh9sUXuRD1A/viewform) from CYBERBIZ.
-2.  **Activation waiting period**: After you confirm your application, CYBERBIZ helps enable back-office integration and requests parameters from LINE. This process takes **about 30 days**.
-3.  **Enable permissions**: Go to the back office **Website Management > User Account Settings > Manager List** and **turn on Back-office Assistant Permission**. A CYBERBIZ specialist will help set up the back-office parameters.
-4.  **Official launch**: LINE sends an email confirming activation. After you receive it, you can start live streaming. LINE also provides tutorials for the LINE Live back office.
+2.  **Activation waiting period**: After you confirm your application, CYBERBIZ helps enable admin integration and requests parameters from LINE. This process takes **about 30 days**.
+3.  **Enable permissions**: Go to the admin **Website Management > User Account Settings > Manager List** and **turn on Back-office Assistant Permission**. A CYBERBIZ specialist will help set up the admin parameters.
+4.  **Official launch**: LINE sends an email confirming activation. After you receive it, you can start live streaming. LINE also provides tutorials for the LINE Live admin.
 
 
-## Set up the Back Office and Enter Parameters { #operate-setup-line-backend-settings }
+## Set up the Admin and Enter Parameters { #operate-setup-line-backend-settings }
 
-If you have received the parameter email, enter the parameters in the back office yourself, or ask a specialist to help:
+If you have received the parameter email, enter the parameters in the admin yourself, or ask a specialist to help:
 
-*   **Setting location**: Log in to the CYBERBIZ back office and go to **Third-Party Integration > LINE Shopping > the LINE OA Shopping Guide section at the bottom of the page**.
+*   **Setting location**: Log in to the CYBERBIZ admin and go to **Third-Party Integration > LINE Shopping > the LINE OA Shopping Guide section at the bottom of the page**.
 *   **Fill in fields**: Enter the **SHOP_ID** and **AUTHKEY** provided by the system, and save.
 
 ![LINE OA Shopping Guide Settings](../../../assets/images/ec-第三方整合-line購物設定-lineoa導購.en.png){ title="LINE OA Shopping Guide Settings" }
@@ -111,16 +111,16 @@ To make sure products can be found during a live stream, they must meet these re
 
 3.  **Sync times**:
     *   **CYBERBIZ automatic update**: The product catalog is generated automatically at 4:45 AM and 4:45 PM daily.
-    *   **LINE automatic sync**: Catalog information syncs to the LINE Live back office at 5:00 AM daily.
+    *   **LINE automatic sync**: Catalog information syncs to the LINE Live admin at 5:00 AM daily.
     *   **Manual update**: If you need to sync edited product information right away, go to **LINE Shopping Settings** and click **Manually Update Catalog** (one click per hour only).
-4.  **Product search tip**: When searching for products in the LINE Live back office, we recommend **Product ID (PID)** for the most accurate results.
-    *   *How to get the PID: open the product edit page in the back office (Product Info tab) and check the number at the end of the URL, or view the ID column in the [exported product list](../../products/bulk-operations/excel-import-products.md#operate-excel-import-add-update){ title="Bulk Import Products via Excel" }.*
+4.  **Product search tip**: When searching for products in the LINE Live admin, we recommend **Product ID (PID)** for the most accurate results.
+    *   *How to get the PID: open the product edit page in the admin (Product Info tab) and check the number at the end of the URL, or view the ID column in the [exported product list](../../products/bulk-operations/excel-import-products.md#operate-excel-import-add-update){ title="Bulk Import Products via Excel" }.*
 
     ![Product edit page PID](../../../assets/images/ec-商品-商品編輯頁-pid-slug.en.png){ title="Product edit page PID" }
 
 ## View Orders { #operate-setup-line-order-view }
 
-Orders completed through LINE Live referrals can be viewed and managed in the back office under **Orders ** > ** LINE OA Orders**.
+Orders completed through LINE Live referrals can be viewed and managed in the admin under **Orders ** > ** LINE OA Orders**.
 
 ![View LINE OA orders](../../../assets/images/ec-訂單-lineoa訂單.en.png){ title="View LINE OA orders" }
 
@@ -130,7 +130,7 @@ Orders completed through LINE Live referrals can be viewed and managed in the ba
 
 - :lucide-book:{ .lg }   
   [__LINE Live Application Manual__ :lucide-external-link:](https://drive.google.com/file/d/1cOVeAlq9l55rjU2yR_8krxWafSXOzZ2P/view)     
-  A complete guide for CYBERBIZ merchants that covers LINE Live market trends, interface features, and back-office operations.
+  A complete guide for CYBERBIZ merchants that covers LINE Live market trends, interface features, and admin operations.
 
 - :lucide-book:{ .lg }     
   [__Live Streaming Tools Manual__ :lucide-external-link:](https://drive.google.com/file/d/1hiAUhEv0TA-N4jBb3HZmuZPQqDT4qOur/view)  
@@ -138,18 +138,18 @@ Orders completed through LINE Live referrals can be viewed and managed in the ba
 
 </div>
 
-## Frequently Asked Questions { #faq-setup-line }
+## FAQ { #faq-setup-line }
 
 ??? quote "Why can't I find a product I just listed?"
-    Products take time to sync to the LINE Live back office. The CYBERBIZ system generates the catalog at 4:45 AM and 4:45 PM daily, and LINE syncs at 5:00 AM.
+    Products take time to sync to the LINE Live admin. The CYBERBIZ system generates the catalog at 4:45 AM and 4:45 PM daily, and LINE syncs at 5:00 AM.
 
-    If you update products outside the sync windows, go to **LINE Shopping Settings** and click **Manually Update Catalog**, then check the LINE back office one hour later.
+    If you update products outside the sync windows, go to **LINE Shopping Settings** and click **Manually Update Catalog**, then check the LINE admin one hour later.
 
 ??? quote "My LINE Official Account has a gray shield. Can I apply?"
     No. LINE Live is currently available only to verified accounts (blue shield) or enterprise accounts (green shield). If you have a standard account (gray shield), you must first apply for account verification with LINE.
 
-??? quote "Do customers need to link a website member account to place orders in the live room?"
-    Yes. To ensure that orders are sent correctly to the CYBERBIZ back office and that bonus points or promotions are calculated, customers must:
+??? quote "Do customers need to link a website member account to submit orders in the live room?"
+    Yes. To ensure that orders are sent correctly to the CYBERBIZ admin and that bonus points or promotions are calculated, customers must:
 
     1. Be a friend of your LINE OA.
     2. Link their LINE account to a website member account.

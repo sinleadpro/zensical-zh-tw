@@ -82,17 +82,17 @@ The report has six tabs by topic: "Overview," "Revenue," "Orders," "Members," "P
 
 ## Prerequisites and Limitations { #prerequisites-omo }
 
-### Activation Requirements { #prerequisites-omo-plan }
+### Prerequisites { #prerequisites-omo-plan }
 
-!!! plan "Plan / Activation Requirements"
+!!! plan "Plan / Prerequisites"
     The "OMO Analysis Report" requires your store to have activated and be using **CYBERBIZ POS**. Only then does the report appear in the admin menu, open, and show physical store data. Stores without POS enabled won't see this report.
 
 ---
 
 ### Data Basis { #prerequisites-omo-basis }
 
-- **Valid orders**: All figures in the report count only valid orders. Canceled and returned orders are excluded. See [Valid Order Definition](references/omo-definitions-reference.md#reference-omo-valid-order){ title="OMO Analysis Report Shared Definitions" data-preview }.
-- **Update time**: Data is updated in a batch the next day, so orders placed and members registered today don't appear right away. See [Data Update Time](references/omo-definitions-reference.md#reference-omo-update-time){ title="OMO Analysis Report Shared Definitions" data-preview }.
+- **Valid orders**: All figures in the report count only valid orders. Canceled and returned orders are excluded. Details in [Valid Order Definition](references/omo-definitions-reference.md#reference-omo-valid-order){ title="OMO Analysis Report Shared Definitions" data-preview }.
+- **Update time**: Data is updated in a batch the next day, so orders placed and members registered today don't appear right away. Details in [Data Update Time](references/omo-definitions-reference.md#reference-omo-update-time){ title="OMO Analysis Report Shared Definitions" data-preview }.
 
 ## Page Overview { #overview-omo }
 
@@ -126,7 +126,7 @@ A quick look at core omnichannel metrics, ideal for checking the overall situati
 
     !!! tip "Hover over a slice to see the data details for that section. Click an item name to hide or show its data."
 
-- **Average order value**: Shows EC and POS average order value as "total revenue ÷ total orders." See the [Glossary of Terms](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO Analysis Report Shared Definitions" data-preview }.
+- **Average order value**: Shows EC and POS AOV as "total revenue ÷ total orders." Details in the [Glossary of Terms](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO Analysis Report Shared Definitions" data-preview }.
 
     ![Average order value](../../assets/images/ec-bi-omo-aov-card.en.png){ title="Average Order Value" }
 
@@ -156,7 +156,7 @@ Focuses on online and offline revenue performance and its distribution over time
 
         ![Revenue trend chart](../../assets/images/ec-bi-omo-pos-revenue-trend.en.png){ title="Revenue Trend Chart" }
 
-- **EC/POS revenue heatmap**: Uses color intensity to show revenue by time slot. The darker the color, the higher the revenue in that time slot. Use it as a reference when scheduling marketing campaigns or livestreams. See the [Glossary of Terms](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO Analysis Report Shared Definitions" data-preview }.
+- **EC/POS revenue heatmap**: Uses color intensity to show revenue by time slot. The darker the color, the higher the revenue in that time slot. Use it as a reference when scheduling marketing campaigns or livestreams. Details in the [Glossary of Terms](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO Analysis Report Shared Definitions" data-preview }.
 
     Hover over a time block to see the revenue for that time slot.
 
@@ -168,7 +168,7 @@ Focuses on online and offline revenue performance and its distribution over time
 
 Analyzes order volume, average order value, and how well store pickup drives sales:
 
-- **EC/POS order count and average order value trends**: See how order volume and average order value change in both channels.
+- **EC/POS order count and average order value trends**: See how order volume and AOV change in both channels.
 
     === "Order Count"
 
@@ -185,7 +185,7 @@ Analyzes order volume, average order value, and how well store pickup drives sal
 
         ![Average order value trend chart](../../assets/images/ec-bi-omo-aov-trend.en.png){ title="Average Order Value Trend Chart" }
 
-- **Store pickup / POS store pickup analysis**: Counts the orders and order amounts for store pickup and POS store pickup, so you can see how well online and offline channels drive conversions to each other. See the [Glossary of Terms](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO Analysis Report Shared Definitions" data-preview }.
+- **Store pickup / POS store pickup analysis**: Counts the orders and order amounts for store pickup and POS store pickup, so you can see how well online and offline channels drive conversions to each other. Details in the [Glossary of Terms](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO Analysis Report Shared Definitions" data-preview }.
 
     ![Store pickup / POS store pickup](../../assets/images/ec-bi-omo-store-pickup.en.png){ title="Store Pickup / POS Store Pickup" }
 
@@ -197,7 +197,7 @@ Analyzes order volume, average order value, and how well store pickup drives sal
 
 Understand which channel members come from, how complete their registrations are, and how they spend across channels:
 
-- **Registered members and registration completion rate**: EC and POS registered members, and the POS quick sign-in member registration completion rate. See the [Glossary of Terms](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO Analysis Report Shared Definitions" data-preview }.
+- **Registered members and registration completion rate**: EC and POS registered members, and the POS quick sign-in member registration completion rate. Details in the [Glossary of Terms](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO Analysis Report Shared Definitions" data-preview }.
 
     === "Member Count"
 
@@ -236,7 +236,7 @@ Understand which channel members come from, how complete their registrations are
 
         ![POS average spend](../../assets/images/ec-bi-omo-aov-card-pos.en.png){ title="POS Average Spend" }
 
-- **Member purchasing and repurchasing status**: Grouped by members' first registration source, shows their purchasing and repurchasing performance in EC and POS, along with the overall repurchase rate. See the [Glossary of Terms](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO Analysis Report Shared Definitions" data-preview }.
+- **Member purchasing and repurchasing status**: Grouped by members' first registration source, shows their purchasing and repurchasing performance in EC and POS, along with the overall repurchase rate. Details in the [Glossary of Terms](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO Analysis Report Shared Definitions" data-preview }.
 
     === "Purchasing Status"
 
@@ -328,7 +328,7 @@ After you open the report, first set the period and stores to analyze at the top
 ## Important Rules and Limitations { #specs-omo }
 
 - **Only valid orders are counted:** No figures in the report include canceled or returned orders, so they may not match the total amount in the order list.
-- **Data is updated the next day:** Traffic and conversion rate data are updated at 5:30 PM the next day, and other data at midnight the next day. Canceled and returned orders are excluded in scheduled updates.
+- **Data is updated the next day:** Traffic and CVR data are updated at 5:30 PM the next day, and other data at midnight the next day. Canceled and returned orders are excluded in scheduled updates.
 - **Requires CYBERBIZ POS:** Stores without POS enabled can't see this report, and physical store data can't be shown.
 - **Products must have the same SKU to be combined:** The product sales list on the "Products" tab matches EC and POS sales by SKU. If the same product has different SKUs in the two channels, it can't be combined into one row.
 
@@ -338,7 +338,7 @@ After you open the report, first set the period and stores to analyze at the top
 
 - :lucide-dollar-sign:{ .lg }  
   [__Revenue__](revenue-analysis.md){ title="Revenue Analysis" }  
-  Look more closely at your online store's revenue makeup and growth trends.
+  Look more closely at your storefront's revenue makeup and growth trends.
 
 - :lucide-users:{ .lg }  
   [__Member Analysis__](member-analysis.md){ title="Member Analysis" }  
@@ -360,8 +360,8 @@ After you open the report, first set the period and stores to analyze at the top
     [](){ #faq-omo-data-delay }
     The report is updated in a batch the next day, not in real time.
 
-    - Traffic and conversion rate data are updated at 5:30 PM the next day, and other data at midnight the next day.
-    - Canceled and returned orders are excluded in scheduled updates, so figures may differ from the total amount in the order list. See [Valid Order Definition](references/omo-definitions-reference.md#reference-omo-valid-order){ title="OMO Analysis Report Shared Definitions" data-preview }.
+    - Traffic and CVR data are updated at 5:30 PM the next day, and other data at midnight the next day.
+    - Canceled and returned orders are excluded in scheduled updates, so figures may differ from the total amount in the order list. Details in [Valid Order Definition](references/omo-definitions-reference.md#reference-omo-valid-order){ title="OMO Analysis Report Shared Definitions" data-preview }.
 
 ??? quote "The same product isn't combined across EC and POS"
     [](){ #faq-omo-sku-merge }
@@ -382,8 +382,8 @@ After you open the report, first set the period and stores to analyze at the top
     It is the share of members who quick-registered at POS and then completed their profile and the registration process.
 
     - If your store allows customers to register and check out without account verification, they are treated as having completed registration.
-    - See the [Glossary of Terms](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO Analysis Report Shared Definitions" }.
+    - Details in the [Glossary of Terms](references/omo-definitions-reference.md#reference-omo-glossary){ title="OMO Analysis Report Shared Definitions" }.
 
-## References { #reference-omo }
+## See Also { #reference-omo }
 
 - [OMO Analysis Report Shared Definitions](references/omo-definitions-reference.md)

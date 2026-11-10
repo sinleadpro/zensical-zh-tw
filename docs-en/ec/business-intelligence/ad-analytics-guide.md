@@ -62,7 +62,7 @@ hide:
 - [x] **["Automated Advertising System"](../integrations/google/automated-ads-system.md#operate-automated-ads-apply){ title="Apply for Activation and Make Your First Top-Up" } is activated**: "Advertising Analysis" appears in the left menu only after Google Shopping ads are activated.
 - [x] **A [Google Ads automated account](../integrations/google/automated-ads-system.md#operate-automated-ads-gmc){ title="Choose a GMC Connection Method" } has been created**: If you have not created the account yet, the page shows the message "Google Ads automated account not created," and you cannot query data for now.
 
-!!! plan "Activation Requirements"
+!!! plan "Prerequisites"
     "Advertising Analysis" works with the "Automated Advertising System." You set it up under "Third-Party Integration" > "Automated Advertising System" in the admin. This page appears in the menu and loads data only after you activate Google Shopping ads and set up the account.
 
 ## Page Overview { #overview-advertising-analytics }
@@ -101,7 +101,7 @@ The data overview and the trend chart share the same 11 metrics. For full defini
 
 ### Switch Device Type { #operate-advertising-analytics-device }
 
-1. Click the **Device** drop-down menu above the data overview.
+1. Click the **Device** dropdown menu above the data overview.
 2. Select "All Devices," "Desktop," "Mobile," or "Tablet."
 3. The data cards and trend chart recalculate right away for the selected device, so you can compare ad performance across devices.
 
@@ -145,6 +145,6 @@ The data overview and the trend chart share the same 11 metrics. For full defini
     [](){ #faq-advertising-analytics-data-diff }
     Data on this page comes from Google Ads and is compiled daily. Because of time zone calculations and data sync delays, numbers may differ slightly from the Google Ads dashboard in the short term. They will match once the data syncs.
 
-## References { #reference-advertising-analytics }
+## See Also { #reference-advertising-analytics }
 
 - [Advertising Analysis Metrics](references/advertising-analytics-metrics-reference.md)

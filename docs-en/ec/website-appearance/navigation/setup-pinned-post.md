@@ -71,7 +71,7 @@ Show marketing messages at the very top of your store pages. Announcement types 
 { .doc-badge }
 
 !!! tip "Feature Update Transition"
-    **Pinned Post** now has its own settings page and is no longer built into the navigation bar. **This feature is rolling out gradually**. Choose the guide that matches your admin:
+    **Pinned Post** now has its own setup page and is no longer built into the navigation bar. **This feature is rolling out gradually**. Choose the guide that matches your admin:
 
     - If the sidebar already has **Pinned Post**: Follow this guide (new version).
     - If you don't see this menu yet: [Set up the original pinned post](setup-menus-navigation.md#operate-menus-nav-announce) in the navigation bar first, and switch to this guide once the new version is available for your site.
@@ -140,7 +140,7 @@ Each announcement can have a **start time** and an **end time**. The system sets
 
     1. **Image upload**: Upload images in three sizes: **desktop, tablet, and mobile** (see the upload screen for recommended specs).
     2. **Alt text**: Fill in alt text to improve SEO and accessibility.
-    3. **Announcement link**: Select a store page from the drop-down menu (homepage, product page, campaign page, and so on), or enter an external URL.
+    3. **Announcement link**: Select a store page from the dropdown menu (homepage, product page, campaign page, and so on), or enter an external URL.
 
     ![](../../../assets/images/EC-後台-網站外觀-套版主題管理-建立置頂公告03.en.png){ .screenshot }
 
@@ -150,7 +150,7 @@ Each announcement can have a **start time** and an **end time**. The system sets
     1. **Announcement content**: Enter the text message.
     2. **Font size**: Set the font size (px).
     3. **Color**: Choose the text color and background color.
-    4. **Announcement link**: Select a store page from the drop-down menu (homepage, product page, campaign page, and so on), or enter an external URL.
+    4. **Announcement link**: Select a store page from the dropdown menu (homepage, product page, campaign page, and so on), or enter an external URL.
 
     ![](../../../assets/images/EC-後台-網站外觀-套版主題管理-建立置頂公告04.en.png){ .screenshot }
 

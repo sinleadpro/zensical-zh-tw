@@ -80,7 +80,7 @@ Product search visibility has three main statuses. Choose the one that fits your
 
 ## Effects of Excluding Products from Search { #intro-search-visibility }
 
-After you turn on search exclusion, the product does not appear on the following result pages:
+After you enable search exclusion, the product does not appear on the following result pages:
 	
 - Google search results
 - CYBERBIZ site search

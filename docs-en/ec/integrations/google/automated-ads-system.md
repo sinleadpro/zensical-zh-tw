@@ -79,7 +79,7 @@ hide: []
 
     ![Google Shopping ad example](../../../assets/images/ec-google-ads.zh-tw.en.png)
 
-## Page Features Overview { #overview-automated-ads }
+## Page Overview { #overview-automated-ads }
 
 After activation, the automated ads system provides three tabs:
 
@@ -104,11 +104,11 @@ After activation, the automated ads system provides three tabs:
 
 [^fee]: After activation, a 5% service fee applies to each top-up. Credit card top-ups incur an additional 2.5% card processing fee.
 
-## Setup Steps { #operate-automated-ads }
+## Steps { #operate-automated-ads }
 
 ### Apply for Activation and First Top-Up { #operate-automated-ads-apply }
 
-1. **Go to the page**: Go to the back office and click <strong class="inline-path">Third-Party Integrations > Automated Ads System</strong>.
+1. **Go to the page**: Go to the admin and click <strong class="inline-path">Third-Party Integrations > Automated Ads System</strong>.
 2. **Apply for enabling**: On the page, click **Apply for enabling** to go to the activation settings.
 3. **Complete the First Top-Up**: Enter the ad fund amount as prompted on the screen and complete the payment. The first top-up has **no service fee**.
 4. **Wait for Activation**: After a successful top-up, the system starts the activation process, which takes about 3 to 5 business days. You will be notified by email when it is complete.
@@ -119,7 +119,7 @@ After activation, the automated ads system provides three tabs:
 
 ### Select GMC Integration Method { #operate-automated-ads-gmc }
 
-After the first top-up succeeds, the system asks you to choose how to connect your Google Merchant Center (GMC) account. Each website can declare only one GMC ownership, so choose carefully and do not change it arbitrarily.
+After the first top-up succeeds, the system asks you to choose how to integrate your Google Merchant Center (GMC) account. Each website can declare only one GMC ownership, so choose carefully and do not change it arbitrarily.
 
 ![Select GMC integration method](../../../assets/images/ec-第三方整合-自動化廣告系統-選擇串接gmc方式.en.png)
 
@@ -140,12 +140,12 @@ After the first top-up succeeds, the system asks you to choose how to connect yo
     Best for merchants who already have a GMC account.
 
     1. In the GMC integration method, select **Merchant-owned account**.
-    2. Enter your GMC account (the nine-digit number in the upper-right corner of the GMC back office). (See the [GMC Integration Setup Guide](setup-google-merchant-center.md){ title="Set Up Google Merchant Center and Sync CYBERBIZ Products" })
-    3. Follow the on-screen prompts to share access with CYBERBIZ's Google Ads account from the GMC back office and complete the Google Ads ID binding.
+    2. Enter your GMC account (the nine-digit number in the upper-right corner of the GMC admin). (See the [GMC Integration Setup Guide](setup-google-merchant-center.md){ title="Set Up Google Merchant Center and Sync CYBERBIZ Products" })
+    3. Follow the on-screen prompts to share access with CYBERBIZ's Google Ads account from the GMC admin and complete the Google Ads ID linking.
 
     ![Automated ads own account activation in progress](../../../assets/images/ec-第三方整合-自動化廣告系統-自有帳號開通中.en.png)
 
-    !!! info "The system checks the binding status daily. Once binding is complete, activation happens automatically."
+    !!! info "The system checks the linking status daily. Once linking is complete, activation happens automatically."
 
 ---
 
@@ -155,7 +155,7 @@ After activation, go to the **Google Ads Settings** tab to set up your Shopping 
 
 1. **Enter the Campaign Name**: In the **Ad Campaign Name** field, enter the campaign name.
 2. **Set the Daily Budget**: In the **Set Budget** field, enter your average daily budget (we recommend at least NT$300[^budget]).
-3. **Confirm and Save**: Click **Confirm and Save**. The system automatically creates an ad account and connects GMC product data. Ad delivery starts after Google approves the campaign (about 2 to 3 days).
+3. **Confirm and Save**: Click **Confirm and Save**. The system automatically creates an ad account and integrates GMC product data. Ad delivery starts after Google approves the campaign (about 2 to 3 days).
 4. **Adjust Delivery Status**: In the **Shopping Ad Status** section, you can click **Pause Ad** or **Resume Ad** at any time to control the [ad delivery status](../references/automated-ads-statuses.md#reference-automated-ads-delivery-status){ data-preview }.
 
 ![Google Ads settings](../../../assets/images/ec-第三方整合-自動化廣告-google廣告設定.en.png)
@@ -188,7 +188,7 @@ In the **Campaign Management** tab, monitor ad spend and budget:
 
 ## Important Rules and Limitations { #specs-automated-ads }
 
-!!! warning "Each website can declare only one GMC ownership. Do not apply repeatedly or change it arbitrarily, to avoid ad delivery errors. To change the connected GMC source, contact customer support."
+!!! warning "Each website can declare only one GMC ownership. Do not apply repeatedly or change it arbitrarily, to avoid ad delivery errors. To change the integrated GMC source, contact customer support."
 
 Product information is the ad content. Follow these guidelines to help pass Google review:
 
@@ -218,7 +218,7 @@ Product information is the ad content. Follow these guidelines to help pass Goog
 
 ??? quote "Why haven't I seen any ad data after my ads started running?"
     - Google ad review takes about 3 to 5 days. Once the ads pass review, they start running automatically, so please allow time for them to start. (If your ads still do not start running, contact customer support.)
-    - If you are using your own GMC account, log in to your GMC back office to check.
+    - If you are using your own GMC account, log in to your GMC admin to check.
 
         1. In the left menu, go to **Products > Diagnostics** and check whether valid product items were uploaded successfully.
         2. In the left menu, go to **Products > Feeds** and check whether the product addition method is correct. See [GMC Integration Settings](setup-google-merchant-center.md){ title="Set up Google Merchant Center and sync CYBERBIZ products" }
@@ -242,9 +242,9 @@ Product information is the ad content. Follow these guidelines to help pass Goog
 
 ??? quote "Can I use my own GMC account?"
     [](){ #faq-automated-ads-own-gmc }
-    Yes. Select **Merchant-owned account**, then share GMC access with CYBERBIZ's Google Ads account to complete the binding.
+    Yes. Select **Merchant-owned account**, then share GMC access with CYBERBIZ's Google Ads account to complete the linking.
 
-## References { #reference-automated-ads }
+## See Also { #reference-automated-ads }
 
 - [Ad Delivery and Activation Status Reference](../references/automated-ads-statuses.md)
 - [Google Shopping Ads Policies (Official Documentation) :lucide-external-link:](https://support.google.com/merchants/answer/6149970?hl=zh-Hant)

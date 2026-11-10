@@ -65,7 +65,7 @@ The **recipient-first** setting is designed mainly for overseas orders. When sho
 
 ## Purpose and Use Cases { #intro-priority-recipient-purpose }
 
-- **Standard checkout flow**: By default, shoppers fill in the "buyer" information first, and the recipient is the same as the buyer. To ship overseas, shoppers must also select the recipient option before they can enter an overseas address. This is not intuitive for shoppers who "order domestically on behalf of someone overseas."
+- **Standard checkout flow**: By default, customers fill in the "buyer" information first, and the recipient is the same as the buyer. To ship overseas, customers must also select the recipient option before they can fill in an overseas address. This is not intuitive for customers who "order domestically on behalf of someone overseas."
 - **After the change**: A code change reorders the checkout steps so that shoppers **fill in the "recipient" information first** and then the "buyer" information, which fits how cross-border shoppers buy.
 
 ## Steps in the Template Editor { #operate-priority-recipient }
@@ -99,7 +99,7 @@ You make this setting by editing the code file `js/main.js`:
 
 ## Check the Result { #operate-priority-recipient-check }
 
-When you finish, refresh the checkout page on your website and confirm that it now asks for the recipient information first.
+When you finish, refresh the checkout page on your storefront and confirm that it now asks for the recipient information first.
 
 ![Recipient-first checkout on the storefront](../../../assets/images/ec-網站外觀-結帳頁優先填寫收件人-前台.en.png){ title="Recipient-First Checkout on the Storefront" }
 
@@ -127,4 +127,4 @@ When you finish, refresh the checkout page on your website and confirm that it n
 	**Yes.** Because the RWD responsive site shares the same `js/main.js` logic, the change applies to both desktop and mobile, so the shopping experience is consistent across devices.
 
 ??? quote "What does `store.remove('cart')` in the code do? Does it affect the cart?"
-	This code **refreshes the cart cache**. After the checkout logic changes, the system clears the old temporary cart data and fetches it again (`pullNavCart`) so the recipient and buyer fields appear in the correct order. It does not delete any products from the shopper's cart.
+	This code **refreshes the cart cache**. After the checkout logic changes, the system clears the old temporary cart data and fetches it again (`pullNavCart`) so the recipient and buyer fields appear in the correct order. It does not delete any products from the customer's cart.

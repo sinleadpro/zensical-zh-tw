@@ -61,42 +61,42 @@ hide: []
 ---
 # Home Delivery Cash on Delivery Logistics (Black Cat / Pelican Express / Hsinchu Logistics)
 
-Connect CYBERBIZ with Black Cat Express, Pelican Express, and Hsinchu Logistics for cash on delivery. Generate waybills directly in the back office to simplify reconciliation and shipping.
+Integrate CYBERBIZ with T-CAT, Pelican, and HCT Logistics for cash on delivery. Generate shipping labels directly in the admin to simplify reconciliation and shipping.
 { .subtitle }
 
 [:lucide-toggle-right:{ title="Applicable Features" }](../../resources/conventions#適用功能) | CYBERBIZ PAYMENTS
 { .doc-badge }
 
 !!! info "Integrated Logistics vs. Custom Logistics"
-    - **Connect Logistics**: Refers to logistics services deeply integrated with the CYBERBIZ system. The system automatically generates waybills for the corresponding logistics provider and updates delivery status automatically.
-    - **Custom Logistics**: If you use a home delivery service other than the three providers above (or one not connected through integration mode), see [Custom Logistics Settings](setup-home-delivery-non-cod-custom-logistics.md).
+    - **Integrate Logistics**: Refers to logistics services deeply integrated with the CYBERBIZ system. The system automatically generates shipping labels for the corresponding logistics provider and updates delivery status automatically.
+    - **Custom Logistics**: If you use a home delivery service other than the three providers above (or one not integrated through integration mode), see [Custom Logistics Settings](setup-home-delivery-non-cod-custom-logistics.md).
 
 ---
 
 ## Step 1: Request Activation { #operate-home-cod-apply }
 
-### 1. Black Cat Express and Pelican Express { #operate-home-cod-tcat-pelican }
+### 1. T-CAT and Pelican { #operate-home-cod-tcat-pelican }
 
-These two services are usually ready to configure in the back office once the system is activated. No additional manual review is required.
+These two services are usually ready to configure in the admin once the system is activated. No additional manual review is required.
 
-### 2. Hsinchu Logistics { #operate-home-cod-hct }
+### 2. HCT Logistics { #operate-home-cod-hct }
 
-Hsinchu Logistics requires an on-site inspection and contract signing. The process is as follows:
+HCT Logistics requires an on-site inspection and contract signing. The process is as follows:
 
 1. Go to **Payment and Logistics > Delivery Settings > Connect Logistics > HCT Cash on Delivery**.
-2. Check **Agree to Contract Terms**.
+2. Select **Agree to Contract Terms**.
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/新竹物流串接01.png){ .screenshot }
 
-3. Fill out the application form and submit it.
+3. Fill in the application form and submit it.
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/新竹物流串接05.png){ .screenshot }
 
-4. CYBERBIZ customer service will notify Hsinchu Logistics to schedule the on-site inspection. **After the inspection is complete**, system activation will be finished within approximately **7-10 business days**.
+4. CYBERBIZ customer support will notify HCT Logistics to schedule the on-site inspection. **After the inspection is complete**, system activation will be finished within approximately **7-10 business days**.
 5. After activation succeeds, you will receive a notification email from the system.
 
 !!! note "Update Information"
-    If you need to change the account owner or contact information for Hsinchu Logistics after activation, contact CYBERBIZ customer service for help. Do not modify verified fields yourself.
+    If you need to change the account owner or contact information for HCT Logistics after activation, contact CYBERBIZ customer support for help. Do not modify verified fields yourself.
 
 
 
@@ -114,7 +114,7 @@ Go to **Payment and Logistics > Delivery Settings > Connect Logistics** and sele
 ### 2. Shipping Fee and Free Shipping Settings { #operate-home-cod-fee }
 
 - **Free Shipping Settings**: When turned on, you can set a free shipping threshold (amount) for each order.
-- **Show Free Shipping Threshold at Checkout**: When turned on, shoppers see a reminder in the cart and checkout pages, such as "Spend $XXX more for free shipping."
+- **Show Free Shipping Threshold at Checkout**: When turned on, customers see a reminder in the cart and checkout pages, such as "Spend $XXX more for free shipping."
 - **Shipping Fee Settings**: Based on your operating policies, set shipping fees separately for **room temperature, refrigerated, and frozen** items.
     - **Option Display Threshold**: The order amount must meet the minimum threshold you set. If it does not, the system automatically hides this logistics option on the checkout page.
     - **No Amount Limit Setting**: To allow this option for any order amount, set the **starting amount** of any condition range to NT$0.
@@ -128,7 +128,7 @@ Go to **Payment and Logistics > Delivery Settings > Connect Logistics** and sele
 
 
 
-## Frequently Asked Questions { #faq-home-cod }
+## FAQ { #faq-home-cod }
 
 ??? quote "How is the free shipping threshold logic determined?"
-    The system evaluates both **Free Shipping Settings** (logistics level) and **Shipping Fee Settings** (temperature zone level). If the order amount meets the free shipping condition of either setting, the checkout page displays free shipping, presenting the most favorable option to the shopper.
+    The system evaluates both **Free Shipping Settings** (logistics level) and **Shipping Fee Settings** (temperature zone level). If the order amount meets the free shipping condition of either setting, the checkout page displays free shipping, presenting the most favorable option to the customer.

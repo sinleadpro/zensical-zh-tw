@@ -75,7 +75,7 @@ hide: []
 
 ## LINE OA Segment Messaging Guide { #overview-line-segment }
 
-**LINE OA Segment Messaging** lets merchants send targeted messages to members with specific tags, improving conversion rates and reducing unnecessary messaging costs.
+**LINE OA Segment Messaging** lets merchants send targeted messages to members with specific tags, improving CVR and reducing unnecessary messaging costs.
 
 Below are detailed instructions and a walkthrough:
 
@@ -83,7 +83,7 @@ Below are detailed instructions and a walkthrough:
 
 Before using segment messaging, make sure you complete the following setup:
 
-- [x] [**Connect Messaging API**](../account-integration/connect-line-messaging-api.md){ title="Connect LINE Messaging API" }: Merchants must first complete the LINE Messaging API connection setup before they can send messages from the CYBERBIZ admin.
+- [x] [**Connect Messaging API**](../account-integration/connect-line-messaging-api.md){ title="Connect LINE Messaging API" }: Merchants must first complete the LINE Messaging API integration setup before they can send messages from the CYBERBIZ admin.
 - [x] **Collect member UIDs**: Messages can only be sent to website members who have previously completed **"[LINE Quick Login](../account-integration/setup-line-quick-login.md){ title="Set up LINE Quick Login" }"** or **"[Linked LINE OA](../account-integration/bind-line-oa-store-members.md){ title="Bind LINE Official Account to Website Member" }"**, because only these actions leave the UID needed for sending messages in the website system.
 - [x] **Confirm friend status**: Only **LINE OA friends** (who have not blocked the Official Account) can successfully receive messages.
 - [x] **Messaging fees**: The LINE push service bills according to the message plan you set for your LINE Official Account. Manual pushes and automated notifications are both paid items, and only successfully sent messages are billed.
@@ -108,14 +108,14 @@ Set up automatic messages to "VIP Members," "Potential Loyal Customers," or "Dor
 
 </div>
 
-## Frequently Asked Questions { #faq-line-segment }
+## FAQ { #faq-line-segment }
 
 ??? quote "Why do members have UID records but not receive LINE push messages?"
     Message delivery failures usually fall into three main causes. Check them in order:
 
     1. Customer Status Restrictions (User Side)
 
-        - **Friend relationship ended**: The member once bound a UID, but has since **blocked** the Official Account or **Delete** it from their friend list.
+        - **Friend relationship ended**: The member once linked a UID, but has since **blocked** the Official Account or **Delete** it from their friend list.
         - **Account is not a friend**: The member only signed in to the website with LINE but has never added your LINE Official Account.
 
     2. Merchant Settings and Quotas (Merchant Side)

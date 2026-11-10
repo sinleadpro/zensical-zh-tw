@@ -137,7 +137,7 @@ Before syncing, make sure both types of information below are complete:
 Make sure all of the following are set up correctly for information sync to work:
 
 - [x] Online store products are linked with Shopee products
-- [x] The product information sync switch is on
+- [x] The product information sync toggle is on
 - [x] You ran the product information update from the product list
 - [x] Online store product fields follow Shopee's rules
 

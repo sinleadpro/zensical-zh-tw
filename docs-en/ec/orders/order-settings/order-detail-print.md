@@ -80,14 +80,14 @@ This article explains how to do the following in the admin:
 - Enable personal data masking for printed order details
 - Print or download a PDF from the order list
 
-To set up the "packing slip" for internal shipping staff, see [Set Up and Print Packing Slips](shipping-detail-print.md){ title="Set Up and Print Packing Slips" }.
+To set up the "packing slip" for internal shipping staff, see [Set Up and Print Shipment Details](shipping-detail-print.md){ title="Set Up and Print Packing Slips" }.
 
 ??? info "Packing Slips vs. Order Details"
 
     The system has two kinds of documents for different purposes, and you can set up each one's content separately:
 
     *   **Order details (customer)**: Usually include full item details, unit prices, amounts, and delivery method.
-    *   **Packing slip (staff)**: Mainly for warehouse or shipping staff. Usually includes only item quantities and the delivery address, **without the order amount**, to keep it simple and save costs.
+    *   **Shipment details (staff)**: Mainly for warehouse or shipping staff. Usually includes only item quantities and the delivery address, **without the order amount**, to keep it simple and save costs.
 
 ## Steps { #operate-order-print-steps }
 
@@ -123,11 +123,11 @@ The panel has several checkboxes you can combine as needed (all are cleared by d
 
 #### 3. Set Header Reminder Text and Image <small>Optional</small> { #operate-order-print-header-media }
 
-After you select **"Header Reminder Text,"** you must enter a "Title" and "Content" on the advanced settings page in [Step 5](#operate-order-print-alert), or you can't save.
+After you select **"Header Reminder Text,"** you must enter a "Title" and "Content" on the advanced setup page in [Step 5](#operate-order-print-alert), or you can't save.
 
 !!! example "Use Cases"
 
-    - **Shopping notes**: Return and exchange deadlines, customer service contacts
+    - **Shopping notes**: Return and exchange deadlines, customer support contacts
     - **Thank-you messages**: Repurchase discount codes, social media invitations
 
 **Header reminder image**
@@ -157,7 +157,7 @@ Click **Save** at the bottom of the settings section to finish basic setup.
 
 !!! info "What Gets Saved"
 
-    This button only saves the selected items and the reminder image. Reminder text and template style must be saved separately on the advanced settings page.
+    This button only saves the selected items and the reminder image. Reminder text and template style must be saved separately on the advanced setup page.
 
 ---
 
@@ -241,7 +241,7 @@ After you finish [setting up order details content](#operate-order-print-setting
 
 1. **Go to the order list**: Sign in to the CYBERBIZ admin and go to "Orders" > "All Orders."
 2. **Select orders**: Select one or more orders to print.
-3. **Print**: Click the "More Actions" (or "Actions") button at the top right of the list and select "Print Order Details" from the drop-down.
+3. **Print**: Click the "More Actions" (or "Actions") button at the top right of the list and select "Print Order Details" from the dropdown.
 4. **Confirm printing**: The system automatically generates a PDF and opens the browser print window. You can choose:
     - Print on paper: Choose a connected printer.
     - Save as PDF: Save the file to your computer.
@@ -257,9 +257,9 @@ After you finish [setting up order details content](#operate-order-print-setting
 When you run **"Confirm Shipment"** in the order list and download shipping data, the archive the system generates automatically includes:
 
 - Shipping label
-- Packing slip
+- Shipment details
 - Order details
-- Pick list
+- Picking list
 
 The order details use the following settings from this page:
 
@@ -292,12 +292,12 @@ The order details use the following settings from this page:
 
 ??? quote "Are the packing slip and order details the same document?"
 
-    No. They're set up separately. See [Set Up and Print Packing Slips](shipping-detail-print.md){ title="Set Up and Print Packing Slips" }
+    No. They're set up separately. See [Set Up and Print Shipment Details](shipping-detail-print.md){ title="Set Up and Print Packing Slips" }
 
     - **Order details**: For customers; usually include amounts and payment information
-    - **Packing slip**: For internal shipping staff; usually without amounts
+    - **Shipment details**: For internal shipping staff; usually without amounts
 
-## References { #reference-order-print }
+## See Also { #reference-order-print }
 
 ### Order Details Field Reference { #reference-order-print-fields }
 
@@ -310,7 +310,7 @@ The order details use the following settings from this page:
 | Vendor Number | Adds the supplier-provided number to printed items | Multi-vendor drop shipping, consignment warehousing |
 | Customer's Expected Bonus Points | Prints the bonus points the customer earns from this order | Encourage repurchases, marketing communication |
 | Order Payment Method | Prints the payment method the customer chose (credit card / ATM / convenience store payment code, etc.) | Tell customers the payment status |
-| Order Additional Information | Prints the notes the customer entered at checkout | Custom orders, gift notes |
+| Order Additional Information | Prints the notes the customer filled in at checkout | Custom orders, gift notes |
 | Delivery Date and Time Slot | Prints the delivery time the customer specified | Fresh food, scheduled delivery services |
 | Invoice Information | Prints e-invoice information (tax ID, title, etc.) | B2B orders, merchant expense reporting |
 | Orderer Information | Prints the orderer's name, phone, and address | Essential; most merchants select it |
@@ -319,7 +319,7 @@ The order details use the following settings from this page:
 !!! note "Notes"
 
     - Options only "add" content to the printout. Cleared fields aren't printed, but the original data is still stored.
-    - After you select "Header Reminder Text," you must enter a title and content on the advanced settings page, or you can't save.
+    - After you select "Header Reminder Text," you must enter a title and content on the advanced setup page, or you can't save.
 
 ## More Actions { #next-steps-order-print }
 

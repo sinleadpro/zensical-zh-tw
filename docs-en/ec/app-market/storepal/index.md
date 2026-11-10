@@ -1,6 +1,6 @@
 ---
 title: "Store Assistant"
-description: "An OMO sales tool designed for physical stores. It brings together online store member data and assets so staff can recognize customers, gain deeper insights, and turn them into sales."
+description: "An OMO sales tool designed for physical stores. It brings together storefront member data and assets so staff can recognize customers, gain deeper insights, and turn them into sales."
 created: 2026-05-05 11:20
 last_modified: 2026-07-09 10:29
 lang: en-US
@@ -71,14 +71,14 @@ hide: []
 ---
 
 # Store Assistant
-An OMO sales tool built for physical stores. It brings together your online store's member data and assets to help store staff recognize customers, gain deeper insights, and turn them into sales.
+An OMO sales tool built for physical stores. It brings together your storefront's member data and assets to help store clerks recognize customers, gain deeper insights, and turn them into sales.
 { .subtitle }
 
 [:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | All PLUS / Enterprise<br>
 [:lucide-grid-2x2-plus:{ title="Applicable Add-ons" }](../../resources/conventions#適用擴充) | Store Assistant
 { .doc-badge }
 
-Store Assistant connects your physical stores with your online store. On a tablet or phone, store staff can instantly see a member's purchase history across all channels and their available offers, turn walk-in shoppers into loyal fans, and use referral links to make sure every effort is credited through sales attribution.
+Store Assistant connects your physical stores with your storefront. On a tablet or phone, store staff can instantly see a member's purchase history across all channels and their available offers, turn walk-in shoppers into loyal fans, and use referral links to make sure every effort is credited through sales attribution.
 
 ---
 

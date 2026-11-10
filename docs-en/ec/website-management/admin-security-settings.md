@@ -72,7 +72,7 @@ hide: []
 
 # Set up Admin Login Security
 
-The Admin Login settings provide multiple layers of protection so that only authorized people can access your store's admin panel.
+The Admin Login settings provide multiple layers of protection so that only authorized people can access your store's admin.
 { .subtitle }
 
 [:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | All plans
@@ -82,10 +82,10 @@ The Admin Login settings provide multiple layers of protection so that only auth
 
 ## About Security Setting { #intro-security }
 
-Security Setting is the security control center of the CYBERBIZ admin panel. It helps lower the risk of account theft, customer data leaks, and malicious visits. The page is under **Website Management > Security Setting** in the admin panel and covers three main areas:
+Security Setting is the security control center of the CYBERBIZ admin. It helps lower the risk of account theft, customer data leaks, and malicious visits. The page is under **Website Management > Security Setting** in the admin and covers three main areas:
 
 - **[Member Security](member-security-settings/)**: Protects your website and customer data.
-- **Admin Login**: Protects how you and your staff log in to the admin panel.
+- **Admin Login**: Protects how you and your staff log in to the admin.
 - **[Bot Protection](bot-protection-settings/)**: Filters out malicious visitors and sets up the first line of defense before SMS messages are sent.
 
 
@@ -98,11 +98,11 @@ Before you start, check the following:
 
 ## Steps { #operate-security }
 
-In the admin panel, go to **Website Management > Security Setting**, and then click the **Admin Login** tab at the top to start.
+In the admin, go to **Website Management > Security Setting**, and then click the **Admin Login** tab at the top to start.
 
 ### Set up an IP Allowlist { #operate-security-ip-whitelist }
 
-After you turn this on, only IP addresses on the list can log in to the admin panel. This suits merchants who work from a fixed office or a fixed network.
+After you turn this on, only IP addresses on the list can log in to the admin. This suits merchants who work from a fixed office or a fixed network.
 
 1. **Find the section:** On the **Admin Login** tab, find the **Whitelist** section.
 2. **Check your current IP:** The section shows **your current IP**. Write it down and make sure to add it to the list later so you don't lock yourself out.
@@ -111,11 +111,11 @@ After you turn this on, only IP addresses on the list can log in to the admin pa
     - Always **add your current IP to the list** first. Otherwise, you will be logged out immediately after turning this on and won't be able to log in.
 
         !!! warning "Engineering Rescue Fee"
-            If the allowlist locks you out of the admin panel, contact CYBERBIZ Customer Service for help. If you have allowed Customer Service to access your admin panel, no engineering work is needed. If engineering work is necessary, a service fee of NT$2,000 will be charged.
+            If the allowlist locks you out of the admin, contact CYBERBIZ Customer Support for help. If you have allowed Customer Support to access your admin, no engineering work is needed. If engineering work is necessary, a service fee of NT$2,000 will be charged.
 
     - If your company uses a dynamic IP, **do not add a dynamic IP** to the allowlist (for example, a mobile Wi-Fi hotspot). Add a **static IP** to the allowlist instead. Otherwise, you may not be able to log in later.
 
-4. **Enable Whitelist** Turn on the **Enable Whitelist** switch. If your current IP is not on the list, the system shows a warning[^whitelist-lockout], and the setting takes effect only after you confirm.
+4. **Enable Whitelist** Enable the **Enable Whitelist** toggle. If your current IP is not on the list, the system shows a warning[^whitelist-lockout], and the setting takes effect only after you confirm.
 5. **Manage the list:** The list appears as a table (5 entries per page). Click the delete icon in a row to remove that address.
 
 ![](../../assets/images/ec-管理中心-安全性設定-白名單.en.png)
@@ -133,7 +133,7 @@ This feature is different from the IP allowlist above. It does not limit who can
 
 1. **Find the section:** On the **Admin Login** tab, find the **Browser Cookie IP Whitelist** section.
 2. **Add a trusted IP:** Click **Add IP address**, enter the address in the **Add IP address** window, and click **Add**.
-3. **Turn on the feature:** Turn on the **Enable Browser Cookie IP Whitelist** switch.
+3. **Turn on the feature:** Enable the **Enable Browser Cookie IP Whitelist** toggle.
 
 ![](../../assets/images/ec-管理中心-安全性設定-cookie whitelist.en.png)
 
@@ -141,9 +141,9 @@ This feature is different from the IP allowlist above. It does not limit who can
 
 ### Set the Automatic Logout Time { #operate-security-logout-timer }
 
-Set how long the admin panel can be idle before you are logged out automatically. This lowers the risk of someone else using an unattended computer.
+Set how long the admin can be idle before you are logged out automatically. This lowers the risk of someone else using an unattended computer.
 
-> If several people share a computer or you use the admin panel in a public place, choose a shorter idle time (such as 4 hours) for better security.
+> If several people share a computer or you use the admin in a public place, choose a shorter idle time (such as 4 hours) for better security.
 
 1. **Find the section:** On the **Admin Login** tab, find the **Inactive Logout** section.
 2. **Choose a time:** Select one of five options: **4 hours**, **8 hours**, **1 day**, **3 days**, or **7 days**.
@@ -157,7 +157,7 @@ Set how long the admin panel can be idle before you are logged out automatically
 Add Google reCAPTCHA bot verification to the admin login page to lower the risk of automated scripts trying to break into accounts.
 
 1. **Find the section:** On the **Admin Login** tab, find the **reCAPTCHA Authentication** section.
-2. **Turn on verification:** Turn on the **Enable reCAPTCHA Authentication** switch. The setting takes effect immediately, and reCAPTCHA verification appears the next time you log in to the admin panel.
+2. **Turn on verification:** Enable the **Enable reCAPTCHA Authentication** toggle. The setting takes effect immediately, and reCAPTCHA verification appears the next time you log in to the admin.
 
 ![](../../assets/images/ec-管理中心-安全性設定-reCAPTCHA 驗證.en.png)
 
@@ -167,7 +167,7 @@ Add Google reCAPTCHA bot verification to the admin login page to lower the risk 
 Two-step verification (2FA) is the most effective defense against account theft. Even if your password leaks, no one can log in without the one-time code from the authenticator on your phone.
 
 1. **Find the section:** On the **Admin Login** tab, find the **Two-factor Authentication Setting** section.
-2. **Turn on the feature:** Turn on the **Enable Two-factor Authentication.** switch, and **Installation Steps** expands on the screen.
+2. **Turn on the feature:** Enable the **Enable Two-factor Authentication.** toggle, and **Installation Steps** expands on the screen.
 3. **Install an authenticator:** Install an Authenticator app on your phone (available for iOS and Android).
 4. **Link your account:** Scan the QR code on the screen with the Authenticator app, or enter the code shown on the screen manually.
 5. **Finish verification:** Enter the six-digit code shown in the Authenticator app in the **Verification Code** field to finish turning it on.
@@ -194,7 +194,7 @@ Two-step verification (2FA) is the most effective defense against account theft.
     [](){ #faq-security-two-whitelists }
     They serve completely different purposes:
 
-    - **Whitelist**: Limits who can log in to the admin panel. Only IPs on the list can log in, so it is active access control.
+    - **Whitelist**: Limits who can log in to the admin. Only IPs on the list can log in, so it is active access control.
     - **Browser Cookie IP Whitelist**: Stops you from being forced to log in again when your IP changes in the same browser. It is a convenience setting.
 
 

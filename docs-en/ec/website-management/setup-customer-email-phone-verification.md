@@ -97,11 +97,11 @@ The customer verification setting decides if new customers must verify who they 
 ## Requirements and Limits { #prerequisites-customer-verification }
 
 - [x] **The field must be required first**: If the email or mobile field is optional, its verification switch is locked. First go to the **Member Field Setting** section on the same page and set the field to **Required**.
-- [x] **Mobile verification incurs SMS charges**: See [Pricing](#specs-customer-verification-pricing).
+- [x] **Mobile verification incurs SMS charges**: Details in [Pricing](#specs-customer-verification-pricing).
 - [x] **At least one field must be required**: Email or mobile must be required. The system doesn't allow both to be optional.
 
 !!! plan "Plans and Activation"
-    * **Mobile verification (customer mobile verification)**: Built into most plans and activated by default for new stores.
+    * **Mobile verification (customer mobile verification)**: Built into most plans and activated by default for new merchants.
     * **New field settings**: The new **Member Field Setting** and customer verification interface only appear on the **Enterprise plan**.
 
 ## Pricing { #specs-customer-verification-pricing }
@@ -111,11 +111,11 @@ The customer verification setting decides if new customers must verify who they 
 
 ## Steps { #operate-customer-verification }
 
-### Open the Settings Page { #operate-customer-verification-entry }
+### Open the Setup Page { #operate-customer-verification-entry }
 
-In the admin panel, go to **Website Management** > **Member Registration Setting**.
+In the admin, go to **Website Management** > **Member Registration Setting**.
 
-The settings page has three main sections. The steps below focus on the last two (Member Field Setting and customer verification).
+The setup page has three main sections. The steps below focus on the last two (Member Field Setting and customer verification).
 
 ---
 
@@ -132,7 +132,7 @@ The settings page has three main sections. The steps below focus on the last two
     ![Member registration field setting](../../assets/images/EC-管理中心-顧客註冊設定-顧客註冊欄位設定.en.png){ title="Member Registration Field Setting" }
 
     ??? warning "If You Can't Make the Mobile Field Required"
-        This means your store doesn't have **customer mobile verification** activated. In this case, the mobile field can only stay optional, and **you can only set up email verification**. Skip the mobile steps below, or ask Customer Service if mobile verification can be turned on for you.
+        This means your store doesn't have **customer mobile verification** activated. In this case, the mobile field can only stay optional, and **you can only set up email verification**. Skip the mobile steps below, or ask Customer Support if mobile verification can be turned on for you.
 
 === "Enterprise Plan"
 
@@ -143,24 +143,24 @@ The settings page has three main sections. The steps below focus on the last two
     ![Member field setting](../../assets/images/EC-管理中心-顧客註冊設定-資料欄位設定.en.png){ title="Member Field Setting" }
 
 !!! note "Note"
-    If both fields are optional, a message appears at the top of the customer verification section: "The email or mobile field must be required to enable verification." The switches below then turn gray and can't be clicked.
+    If both fields are optional, a message appears at the top of the customer verification section: "The email or mobile field must be required to enable verification." The toggles below then turn gray and can't be clicked.
 
 
 ---
 
-### Step 2: Turn on the Verification Switches { #operate-customer-verification-enable-switch }
+### Step 2: Turn on the Verification Toggles { #operate-customer-verification-enable-switch }
 
 [:lucide-tag:{ title="Applicable Plans" }](../../../resources/conventions#適用方案) | Enterprise
 { doc-badge }
 
 
 1. Find the **Member Verification Setting** section.
-2. Turn the switches **on** as needed:
+2. Turn the toggles **on** as needed:
     * **Email Verification**: When this is on, customers who register receive an account activation email to verify their account.
     * **Mobile Verification**: When this is on, customers who register receive an account activation SMS to verify their account[^1].
 3. (Mobile verification only) You can select **Mobile verification while registration**[^2].
 
-Turning a switch on puts that field in the **Required and must be verified** state. See the [field validation mode reference](references/customer-field-validation-reference.md){ title="Customer Field Validation Mode Reference" data-preview }.
+Turning a toggle on puts that field in the **Required and must be verified** state. See the [field validation mode reference](references/customer-field-validation-reference.md){ title="Customer Field Validation Mode Reference" data-preview }.
 
 ![Customer verification](../../assets/images/EC-管理中心-顧客註冊設定-顧客驗證方式.en.png){ title="Customer Verification" }
 
@@ -171,7 +171,7 @@ Turning a switch on puts that field in the **Required and must be verified** sta
 
 ### Step 3: Check the Customer Experience { #operate-customer-verification-frontend }
 
-After you turn on dual verification, the steps for customers depend on the **Member Registration** section at the top of the same page. It is set to either **Fast checkout with registration** or **Registration required**. For a comparison of the two modes, see the [registration mode reference](references/customer-registration-modes-reference.md){ title="Customer Registration Mode Reference" data-preview }.
+After you enable dual verification, the steps for customers depend on the **Member Registration** section at the top of the same page. It is set to either **Fast checkout with registration** or **Registration required**. For a comparison of the two modes, see the [registration mode reference](references/customer-registration-modes-reference.md){ title="Customer Registration Mode Reference" data-preview }.
 
 ![Customer registration](../../assets/images/EC-管理中心-顧客註冊設定-顧客註冊.en.png){ title="Customer Registration" }
 
@@ -201,11 +201,11 @@ After you turn on dual verification, the steps for customers depend on the **Mem
 
 ## Important Rules and Limits { #specs-customer-verification }
 
-### Verification Email and SMS Notification Switches { #specs-customer-verification-notify }
+### Verification Email and SMS Notification Toggles { #specs-customer-verification-notify }
 
-After you turn on email verification, make sure the switch for **Push Notifications > Email Notification Template > 顧客相關 > 顧客請求發送驗證碼** stays on. Don't turn it off.
+After you enable email verification, make sure the toggle for **Push Notifications > Email Notification Template > Customers Related > Customer Validation Token Request Notification** stays on. Don't turn it off.
 
-If you turn on mobile verification, also make sure **Push Notifications > 簡訊通知樣板 > 顧客相關 > 顧客請求發送驗證碼通知** stays on so that verification SMS messages can be sent.
+If you enable mobile verification, also make sure **Push Notifications > SMS Notification Template > Customers Related > Customer Validation Token Request Notification** stays on so that verification SMS messages can be sent.
 
 ![Verification notification switches](../../assets/images/EC-後台-訊息推播-Email通知樣板-驗證碼通知信件開關01.en.png){ title="Verification Notification Switches" }
 
@@ -213,7 +213,7 @@ If you turn on mobile verification, also make sure **Push Notifications > 簡訊
 
 ### Existing Members Are Not Affected { #specs-customer-verification-existing-members }
 
-The verification switches only affect **newly registered** customers. Existing members never have to verify again, whatever their status. They log in and shop just as before.
+The verification toggles only affect **newly registered** customers. Existing members never have to verify again, whatever their status. They log in and shop just as before.
 
 ---
 
@@ -272,9 +272,9 @@ Because a LINE account is already linked to a mobile number, the system skips OT
 
 ??? quote "Can I require new customers to verify only their email and not their mobile number?"
     [](){ #faq-customer-verification-email-only }
-    Yes. The email verification and mobile verification switches are **independent**, so you can combine them any way you like:
+    Yes. The email verification and mobile verification toggles are **independent**, so you can combine them any way you like:
 
-    * Email verification only (free, good for stores that don't need mobile numbers)
+    * Email verification only (free, good for merchants that don't need mobile numbers)
     * Mobile verification only (costs CYBER coins)
     * Dual email and mobile verification (the strictest)
 
@@ -286,9 +286,9 @@ Because a LINE account is already linked to a mobile number, the system skips OT
     [](){ #faq-customer-verification-line-login }
     No. For customers who log in with LINE, the system treats their mobile number as verified and skips the OTP step. Customers who register with other third-party logins (Facebook or Google) still need to add and verify a mobile number.
 
-??? quote "Why is the verification switch grayed out?"
+??? quote "Why is the verification toggle grayed out?"
     [](){ #faq-customer-verification-disabled-switch }
-    The verification switch can only be turned on when the field is required. First go to the **Member Field Setting** section and change **Required/Optional Setting** for email or mobile to **Required**. The verification switch then unlocks.
+    The verification toggle can only be turned on when the field is required. First go to the **Member Field Setting** section and change **Required/Optional Setting** for email or mobile to **Required**. The verification toggle then unlocks.
 
 ??? quote "How are the setup steps different on the Standard and Enterprise plans?"
     [](){ #faq-customer-verification-edition-diff }
@@ -298,7 +298,7 @@ Because a LINE account is already linked to a mobile number, the system skips OT
     - **Standard / PLUS plans**: Select the **Compulsory** checkbox directly in the **Member registration field setting** list.
     - **Enterprise plan**: Click the field's edit icon, change **Required/Optional Setting** to **Required** in the window that opens, and click **Confirm**.
 
-    The underlying logic is the same in both: you must make email or mobile required before you can turn on the verification switch.
+    The underlying logic is the same in both: you must make email or mobile required before you can enable the verification toggle.
 
 ??? quote "What difference does selecting Mobile Verification While Registration make?"
     [](){ #faq-customer-verification-verify-at-registration }
@@ -310,7 +310,7 @@ Because a LINE account is already linked to a mobile number, the system skips OT
 
     Selecting it reduces the steps for customers, but adds a verification step to the registration flow.
 
-## References { #reference-customer-verification }
+## See Also { #reference-customer-verification }
 
 - [Customer Registration Mode Reference](references/customer-registration-modes-reference.md){ title="Customer Registration Mode Reference" }
 - [Customer Field Validation Mode Reference](references/customer-field-validation-reference.md){ title="Customer Field Validation Mode Reference" }

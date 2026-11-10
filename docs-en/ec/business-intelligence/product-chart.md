@@ -160,7 +160,7 @@ This page is under "**Charts**" in the admin. Using three daily metrics, "Views,
     [](){ #faq-product-chart-purchase-count }
     No. Purchases record "the number of orders placed that day." This is raw data and is not adjusted later for cancellations, returns, or payment status changes.
 
-## References { #reference-product-chart }
+## See Also { #reference-product-chart }
 
 - [Product Chart Metrics](references/product-chart-metrics-reference.md#reference-product-chart-metrics)
 

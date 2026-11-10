@@ -81,12 +81,12 @@ hide: []
 
 Before you connect your Facebook and Instagram stores, complete the following setup steps in order:
 
-- [x] **[Account Authorization and Asset Linking](setup-fbe-authorization.md){ title="Set up FBE account authorization and asset linking" }** - Link pixels, Facebook Pages, catalogs, and ad accounts to the CYBERBIZ back office
+- [x] **[Account Authorization and Asset Linking](setup-fbe-authorization.md){ title="Set up FBE account authorization and asset linking" }** - Link pixels, Facebook Pages, catalogs, and ad accounts to the CYBERBIZ admin
 - [x] **[Domain Verification](setup-fbe-domain-verification.md){ title="Set up FBE domain verification" }** - Complete domain verification to set up 8 aggregated events and ensure accurate ad conversion data
 
 After you complete both settings above, the system automatically fills in related information (such as linked catalogs) when you connect your store. Follow the on-screen prompts to finish setting up the store.
 
-## Setup Steps { #operate-fb-instagram-steps }
+## Steps { #operate-fb-instagram-steps }
 
 ### Connect a Facebook Store { #operate-fb-instagram-steps-connect-facebook }
 
@@ -157,7 +157,7 @@ After the connection is complete, the system automatically syncs products throug
 
 - :lucide-package-x:{ .lg }   
   [__Exclude Store Products__](../../../products/categories-and-tags/manage-product-tags.md#operate-product-tags-exclude){ title="Manage product tags" }       
-  If you do not want certain products, such as gifts or test products, to sync to your Facebook and Instagram stores, filter them by setting product tags.
+  If you do not want certain products, such as free gifts or test products, to sync to your Facebook and Instagram stores, filter them by setting product tags.
 
 - :lucide-eye-off:{ .lg }   
   [__Hide Stores or Products__](exclude-products-fb-instagram-sync.md#operate-exclude-products-manage){ title="Exclude products from syncing to Facebook and Instagram stores" }
@@ -175,7 +175,7 @@ After the connection is complete, the system automatically syncs products throug
 
 </div>
 
-## Frequently Asked Questions { #faq-fb-instagram }
+## FAQ { #faq-fb-instagram }
 
 ??? quote "Why does the IG store link show a 404 or encoding error?"
 
@@ -193,4 +193,4 @@ After the connection is complete, the system automatically syncs products throug
 
 ??? quote "How do I exclude specific products from syncing to the store?"
 
-    If you do not want gifts or test products to upload to the store, enter **贈品** or **排除product feed** in the product tags field in your website back office (do not add a space between 排除 and "product"). The system automatically filters out that product. For detailed steps, see [Tags to Exclude Products from Third-Party Platforms](../../../products/categories-and-tags/manage-product-tags.md#operate-product-tags-exclude){ title="Manage product tags" }.
+    If you do not want free gifts or test products to upload to the store, enter **贈品** or **排除product feed** in the product tags field in your website admin (do not add a space between 排除 and "product"). The system automatically filters out that product. For detailed steps, see [Tags to Exclude Products from Third-Party Platforms](../../../products/categories-and-tags/manage-product-tags.md#operate-product-tags-exclude){ title="Manage product tags" }.

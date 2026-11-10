@@ -101,7 +101,7 @@ Each option has different requirements. Most are available on all plans; only a 
 
 - [x] **Guide the customer to pay again**: Available on all plans; no extra setup needed.
 - [x] **Automatic failed payment reminders**: Available on all plans. Once enabled, notifications are sent based on the number of days you set.
-- [x] **Automatic order cancellation**: Available on all plans. Takes effect once you enter the number of days on the settings page.
+- [x] **Automatic order cancellation**: Available on all plans. Takes effect once you enter the number of days on the setup page.
 - [x] **Subscription recharge**: Requires a plan with the subscription feature enabled.
 - [x] **Market America order commission handling**: Requires a plan with the Market America partner store feature enabled.
 
@@ -125,8 +125,8 @@ The following explains the steps for four common situations.
 
 When an order shows "Payment Failed," you can give the customer the order's checkout page link so they can return to the checkout page and complete payment.
 
-1. **Open the order details page:** Go to "Orders" > "All Orders" in the admin and click the "Order Number" of the failed order.
-2. **Find the checkout page link:** In the payment status section of the order details page, when the order is unpaid, the system shows the message "If you contacted the customer and they lost the online checkout page, you can send them this link"[^adjustment].
+1. **Open the order detail page:** Go to "Orders" > "All Orders" in the admin and click the "Order Number" of the failed order.
+2. **Find the checkout page link:** In the payment status section of the order detail page, when the order is unpaid, the system shows the message "If you contacted the customer and they lost the online checkout page, you can send them this link"[^adjustment].
 3. **Copy and share the link:** Click or copy "this link" and send it to the customer through your usual channel (phone, messaging app, etc.).
 4. **The customer pays again:** When the customer opens the link, they return to the order's checkout page and can choose any payment method you've enabled to complete payment. After payment succeeds, the order's payment status updates automatically.
 
@@ -148,7 +148,7 @@ When an order shows "Payment Failed," you can give the customer the order's chec
 
 To improve order conversion, you can turn on automatic reminders so the system emails or texts customers at the interval you set after a payment fails.
 
-1. **Open the settings page:** Go to "Payment and Logistics" > "Checkout Page & Logistics" in the admin and find the "Order Payment Failure Reminder Settings" section.
+1. **Open the setup page:** Go to "Payment and Logistics" > "Checkout Page & Logistics" in the admin and find the "Order Payment Failure Reminder Settings" section.
 2. **Set the interval:** Enter the number of days between reminders in "Set Days" and click **"Submit."** The system sends reminders at that interval, **up to three times** [^reminder-rule].
 3. **Enable notification templates:** Go to "Notifications," find "Customer Payment Failure Reminder" in "SMS Notification Templates" or "Customer Payment Failure Reminder" in "Email Notification Templates," enable it, and edit the content if needed.
 
@@ -178,13 +178,13 @@ If the customer decides not to buy, or too many failed orders pile up, you can h
 
 **Automatic cancellation (recommended):**
 
-1. **Open the settings page:** Go to "Payment and Logistics" > "Checkout Page & Logistics" in the admin and find the "Automatic Order Cancellation" section.
+1. **Open the setup page:** Go to "Payment and Logistics" > "Checkout Page & Logistics" in the admin and find the "Automatic Order Cancellation" section.
 2. **Set the cancellation days:** Enter the number of days and save. Orders still unpaid after that many days (**including orders with failed payments**) are canceled automatically[^auto-cancel-default].
 
 **Manual cancellation:**
 
 * The customer cancels the unpaid order in the storefront "Member Center."
-* Or you cancel the order manually on the order details page.
+* Or you cancel the order manually on the order detail page.
 
 [^auto-cancel-default]: The default is 7 days. If set to 0, the system doesn't cancel any orders automatically.
 
@@ -267,7 +267,7 @@ If an error occurs when downloading ECPay shipping labels, a common cause is tha
 
 ??? quote "Can customers pay again on their own for orders with failed payments?"
     [](){ #faq-payment-failed-customer-retry }
-    Yes. Copy the checkout page link from the payment status section of the [order details page](#operate-payment-failed-resend-link){ title="Handle Orders with Failed Payments" } and send it to the customer. Opening it takes them back to the checkout page to pay again. If the payment failed during checkout, they can also retry on that page.
+    Yes. Copy the checkout page link from the payment status section of the [order detail page](#operate-payment-failed-resend-link){ title="Handle Orders with Failed Payments" } and send it to the customer. Opening it takes them back to the checkout page to pay again. If the payment failed during checkout, they can also retry on that page.
 
 ??? quote "How many automatic reminders are sent, and how often?"
     [](){ #faq-payment-failed-reminder-times }
@@ -290,6 +290,6 @@ If an error occurs when downloading ECPay shipping labels, a common cause is tha
 
 ---
 
-## References { #reference-payment-failed }
+## See Also { #reference-payment-failed }
 
 * [Order Payment Status Reference](references/payment-statuses.md#reference-payment-statuses){ title="Order Payment Status Reference" data-preview }

@@ -98,7 +98,7 @@ The system updates data daily at these times:
 | [Average Revenue by Day of Week](#operate-revenue-read-weekday) | Bar chart | Average revenue from Monday to Sunday in the period, plus this week's revenue |
 | [Average Revenue by Day of Month](#operate-revenue-read-daily) | Bar chart | Average revenue for each day in the period, plus each day's revenue this month |
 
-For detailed definitions of each metric, see [Revenue Metric Definitions Reference](references/revenue-analysis-metrics-reference.md#reference-revenue-metrics){ title="Revenue Analysis Metric Definitions Reference" data-preview }.
+For detailed definitions of each metric, see also [Revenue Metric Definitions Reference](references/revenue-analysis-metrics-reference.md#reference-revenue-metrics){ title="Revenue Analysis Metric Definitions Reference" data-preview }.
 
 ## Steps { #operate-revenue }
 
@@ -265,6 +265,6 @@ Hover over a bar to see the revenue amount for that day. Click an item name to h
 
     - To show the same time range on multiple charts, set each chart's date field to the same range one by one.
 
-## References { #reference-revenue }
+## See Also { #reference-revenue }
 
 - [Revenue Analysis Metric Definitions Reference](references/revenue-analysis-metrics-reference.md)

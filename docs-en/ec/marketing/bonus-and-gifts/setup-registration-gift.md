@@ -78,7 +78,7 @@ Set up the member registration gift, including sending rules for bonus points an
 ## Before You Start { #prerequisites-registration-gift }
 
 - **Frequency**: Each account gets the registration gift only once.
-- **import members limitation**: For customers added by Excel bulk import, the system **does not automatically send the registration gift** (per imported account). Send it manually.
+- **import members limitation**: For customers added by Excel batch import, the system **does not automatically send the registration gift** (per imported account). Send it manually.
 - **automatically sent**: As soon as a customer signs up, the system automatically adds the reward to their account.
 
 
@@ -106,7 +106,7 @@ Set up the member registration gift, including sending rules for bonus points an
 1. Go to **Marketing > 全館折扣-紅利 & 優惠券 > 會員紅利點數**.
 2. In the **Gift** field, enter the number of points to give (per new member).
 
-    > To turn on bonus points without a registration gift, set this field to 0.
+    > To enable bonus points without a registration gift, set this field to 0.
 
 3. Set the bonus point validity period (enter 0 for no expiry).
 

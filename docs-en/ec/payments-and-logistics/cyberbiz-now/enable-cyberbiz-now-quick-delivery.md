@@ -133,8 +133,8 @@ Before configuring store settings, make sure to complete the following basic set
 
 ### Step 3: Set Delivery Contact and Notes { #operate-cyberbiz-now-contact }
 
-1. Enter **Contact phone number** so delivery drivers can contact the store.
-2. In the **Notes Information** field, enter instructions for the driver (for example, the store is in the B1 food court of the department store, or take the east elevator up).
+1. Fill in **Contact phone number** so delivery drivers can contact the store.
+2. In the **Notes Information** field, fill in instructions for the driver (for example, the store is in the B1 food court of the department store, or take the east elevator up).
 
 ### Step 4: Manage Store Order (For Multiple Stores) { #operate-cyberbiz-now-sort }
 
@@ -145,7 +145,7 @@ If multiple stores have Quick Delivery enabled, you can control the display orde
     - **Drag to Sort**: Click and hold the left mouse button on a store field, then move it up or down to adjust its position.
     - **Enter a Number**: Enter a number directly in the sort field. The smaller the number, the higher the store appears in the list.
 
-## Frequently Asked Questions { #faq-cyberbiz-now }
+## FAQ { #faq-cyberbiz-now }
 
 ??? quote "How is the Quick Delivery range calculated?"
     The delivery provider automatically calculates the delivery range based on the store address, typically 3-5 km. If a customer enters an address outside this range, Quick Delivery will not be available at checkout.

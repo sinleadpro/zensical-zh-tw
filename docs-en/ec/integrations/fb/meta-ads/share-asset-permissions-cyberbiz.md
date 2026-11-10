@@ -66,7 +66,7 @@ hide: []
 
 ## Share Assets with CYBERBIZ { #operate-meta-assets }
 
-If you see **Ad Creation Failed** when you run Meta ads in the CYBERBIZ back office, you can fix the issue by manually sharing asset permissions with CYBERBIZ and then notifying customer service.
+If you see **Ad Creation Failed** when you run Meta ads in the CYBERBIZ admin, you can fix the issue by manually sharing asset permissions with CYBERBIZ and then notifying customer support.
 
 ## Prerequisites { #prerequisites-meta-assets }
 
@@ -74,7 +74,7 @@ Before you manually share assets, confirm the following:
 
 - [x] **Complete [Meta Ad Account Setup and Top-Up](create-meta-ad-account-top-up.md){ title="Create a Meta ad account and top up" }**: First, confirm that you have completed all steps in "Create a Meta ad account and top up."
 - [x] **Complete [Pixel Setup](create-meta-ad-account-top-up.md#operate-meta-account-steps-settings-pixel){ title="Create a Meta ad account and top up" }**: Make sure you have completed the Pixel Setup step during ad account creation.
-- [x] **Share the correct assets**: First, complete [FBE Account Authorization and Asset Linking](../mbe/setup-fbe-authorization.md){ title="Set up FBE account authorization and asset linking" }, then confirm the specific assets you configured in "New Business Extensions" in the back office.
+- [x] **Share the correct assets**: First, complete [FBE Account Authorization and Asset Linking](../mbe/setup-fbe-authorization.md){ title="Set up FBE account authorization and asset linking" }, then confirm the specific assets you configured in "New Business Extensions" in the admin.
 
 ## Steps to Manually Share Asset Permissions { #operate-meta-assets-permissions }
 
@@ -129,7 +129,7 @@ Before you manually share assets, confirm the following:
 
     Instead, in the left menu, click "Users" > "Partners", find the "Cyberbiz1" BM account, click "Share Assets", find the matching pixel in "Datasets" or "Pixels", select the "Use Event Datasets" permission, and click "Assign Assets".
 
-??? quote "Do I still need to notify customer service after permission sharing is complete?"
+??? quote "Do I still need to notify customer support after permission sharing is complete?"
 
-    Yes. After manual sharing is complete, be sure to notify CYBERBIZ customer service. Once CYBERBIZ finishes the back-end follow-up and sends an official reply, you can try setting up the ad campaign again.
+    Yes. After manual sharing is complete, be sure to notify CYBERBIZ customer support. Once CYBERBIZ finishes the back-end follow-up and sends an official reply, you can try setting up the ad campaign again.
 

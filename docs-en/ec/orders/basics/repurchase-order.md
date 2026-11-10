@@ -102,7 +102,7 @@ Before you start, make sure your store meets the following conditions:
 When a member clicks **Buy Again**, items in the original order are **not** added to the new cart in the following cases:
 
 *   **Unavailable product**: The original product no longer exists or is set to **Hidden**.
-*   **Out of stock**: The product's stock is zero, and the admin is set to **Stop selling when out of stock**.
+*   **Out of stock**: The product's inventory is zero, and the admin is set to **Stop selling when out of stock**.
 *   **Marketing gifts**: The original product is a **gift, add-on item, first-purchase gift, or gift voucher**.
 *   **Bundle limits**: If the original order included a bundle and any item in it meets the rules above, the whole bundle can't be added to the new cart.
 
@@ -134,7 +134,7 @@ After the member clicks the button, if some products run into certain issues, th
     Items in the original order aren't added to the new cart in the following cases:
 
     - **Unavailable product**: The original product no longer exists or is set to "Hidden"
-    - **Out of stock**: The product's stock is zero, and the admin is set to "Stop selling when out of stock"
+    - **Out of stock**: The product's inventory is zero, and the admin is set to "Stop selling when out of stock"
     - **Marketing gifts**: The original product is a gift, add-on item, first-purchase gift, or gift voucher
     - **Bundle limits**: If the original order included a bundle and any item in it meets the rules above, the whole bundle can't be added
 

@@ -79,9 +79,9 @@ CYBERBIZ EXPRESS is an all-in-one cross-border logistics service designed for Ja
 - **Payment Limitation**: Only **no payment on delivery** is supported (customers must pay online first).
 - **Delivery Terms**: Uses **DDU (Delivered Duty Unpaid)**, so import taxes are paid by the recipient in Taiwan.
 - **Pickup Options**: Supports both **pickup from your location** and **shipping to the Japan warehouse yourself**. Actual shipping fees vary by plan and pickup method.
-- **Shipping Fees**: When you create a consignment note, the system calculates the fee from the product weight and volume and deducts CYBER Coins in advance. On the 5th of each month, CYBER Coins are refunded or charged based on the actual shipping fees.
+- **Shipping Fees**: When you create a shipping label, the system calculates the fee from the product weight and volume and deducts CYBER Coins in advance. On the 5th of each month, CYBER Coins are refunded or charged based on the actual shipping fees.
 
-## Cross-Border Shipping Process { #operate-express-japan }
+## Cross-Border Logistics Process { #operate-express-japan }
 
 Japan-to-Taiwan home delivery has five key stages. You need to send customs documents as part of the process:
 
@@ -111,9 +111,9 @@ Japan-to-Taiwan home delivery has five key stages. You need to send customs docu
 
 3. Select the checkbox to agree to the **Cross-Border Shipping Service Agreement**.
 
-4. Choose how to print consignment notes.
+4. Choose how to print shipping labels.
 
-5. Enter your **shipping address in Japan**.
+5. Fill in your **shipping address in Japan**.
     - **We recommend entering it in Chinese** to make Taiwan customs review easier.
     - If you leave this address blank, the system cannot generate customs invoices or bill of lading lists.
 
@@ -121,12 +121,12 @@ Japan-to-Taiwan home delivery has five key stages. You need to send customs docu
 
 
 
-## Ship Orders { #operate-shipping }
+## Fulfill Orders { #operate-shipping }
 
-### Create and Print Consignment Notes { #operate-shipping-waybill }
+### Create and Print Shipping Labels { #operate-shipping-waybill }
 
 1. Go to **Orders > All Orders**.
-2. Select the orders to ship.
+2. Select the orders to fulfill.
     - `付款狀態` must be `已收到款項`
     - `配送壯派` must be `未出貨`/`準備出貨`/`部分出貨`
     - `退貨狀態` must be `不需退貨`
@@ -134,14 +134,14 @@ Japan-to-Taiwan home delivery has five key stages. You need to send customs docu
 
     ![](../../../assets/images/EC-後台-訂單-所有訂單-建立EXPRESS託運單01.en.png){ .screenshot }
 
-4. Select the delivery channel in the pop-up window.
+4. Select the delivery channel in the dialog.
 
     - **Preview and Print Documents**: Based on what you selected (see the list below), the system opens a web preview. Check it and then print.
         - **Shipping Label**
         - **Picking List**
         - **Order/Shipping Details**
     - **Bulk Download**: You can download all of the documents above at the same time.
-    - **Automatic Sorting**: When you create notes in bulk, the system generates one PDF file with all order details, sorted by order number in ascending order.
+    - **Automatic Sorting**: When you create notes in batches, the system generates one PDF file with all order details, sorted by order number in ascending order.
     - **Real-Time Data Validation**: The system checks the fields of products in the order. If the weight or required cross-border product fields are missing, fill them in before shipping.
 
     ![](../../../assets/images/EC-後台-訂單-所有訂單-建立EXPRESS託運單02.en.png){ .small-image }
@@ -164,7 +164,7 @@ Before asking the carrier to pick up parcels, be sure to complete these steps:
 
     - **Email Subject**: [Cross-Border - Merchant Name] YYYY/MM/DD Shipping Data.
 
-## Reprint Consignment Notes { #intro-express-japan }
+## Reprint Shipping Labels { #intro-express-japan }
 
 In the **order list**, select orders with the status `Shipped` and choose **Reprint Consignment Note** to download the documents again.
 
@@ -184,9 +184,9 @@ When a delivery exception occurs, click **Handle Exception** in the **Actions** 
 
 === "Return to Merchant"
 
-    - **Return Address**: Parcels are returned to the **Shipping Address** on the EXPRESS basic settings page.
+    - **Return Address**: Parcels are returned to the **Shipping Address** on the EXPRESS basic setup page.
     - **Order Changes**: The original order's delivery status is marked **Returned to Merchant**, and **Memo** notes **Merchant chose "Return to Merchant"**.
-    - **Fees**: The system calculates only the fee for returning the parcel to the Fengchao warehouse. The international shipping fee for sending the parcel from the Fengchao warehouse back to you is not calculated or shown in the admin; the actual fee appears on your statement. Because several parcels may be packed and shipped together, the statement may show one combined fee for several parcels.
+    - **Fees**: The system calculates only the fee for returning the parcel to the HONEYCOMB warehouse. The international shipping fee for sending the parcel from the HONEYCOMB warehouse back to you is not calculated or shown in the admin; the actual fee appears on your statement. Because several parcels may be packed and shipped together, the statement may show one combined fee for several parcels.
 
 
 !!! warning "Parcel Handling Deadline and Fees"

@@ -200,7 +200,7 @@ Enter the items the customer is buying into the system and confirm whether they 
 
     1. **Scan/Enter**: Use a barcode scanner to read the product barcode, or enter the SKU or vendor product number in the search bar.
 
-    2. **Manual Search**: Click **Product Search** to open a pop-up window.
+    2. **Manual Search**: Click **Product Search** to open a dialog.
 
         - **Search Method**: Select **Starts With** or **Fuzzy Search**.
         - **Multi-Field Search**: Search by **Product**, **SKU**, or **Vendor Product Number**.
@@ -215,7 +215,7 @@ Enter the items the customer is buying into the system and confirm whether they 
         - **Merchant Notes**: **Internal only**. This information is visible only to back-office administrators and is not visible to customers.
         - **Order Notes**: **Visible to both parties**. This information is shared with both the merchant and the member.
 
-            > Member access path: Members can log in to the website, go to **Orders > All Orders**, and view this note on the order details page.
+            > Member access path: Members can log in to the storefront, go to **Orders > All Orders**, and view this note on the order details page.
 
         ![](../../assets/images/POS-前台-結帳-建立備註01.en.png){ .screenshot }
 
@@ -236,7 +236,7 @@ Enter the items the customer is buying into the system and confirm whether they 
 === "Interface Overview"
 
     1. **bonus points**: Manually enter the redemption amount (cannot exceed the cap) or select **Redeem All**.
-    2. **Promo Code**: From the drop-down menu, select the **Promo Code** or **coupon** that applies to the customer.
+    2. **Promo Code**: From the dropdown menu, select the **Promo Code** or **coupon** that applies to the customer.
 
         !!! info "Don't see the **Bonus Discount** or **Promo Code** field on the page?"
             If a field is missing, it is usually related to authentication settings. Go to the back-office and adjust the following:
@@ -251,15 +251,15 @@ Enter the items the customer is buying into the system and confirm whether they 
     5. **Add Order Discount**: **Store Managers** can adjust order prices.
 
         - **Order-Wide Discount**: Click **Add Order-Wide Discount** and enter the discount value.
-        - **Override Product Price**: Click the target product, then enter the discount value in the drop-down menu.
+        - **Override Product Price**: Click the target product, then enter the discount value in the dropdown menu.
 
         ![](../../assets/images/POS-前台-結帳-店長改價01.en.png){ .screenshot }
 
-    6. Other marketing campaigns: Click **Marketing Campaigns** to open a pop-up window.
+    6. Other marketing campaigns: Click **Marketing Campaigns** to open a dialog.
         - **Add-On Purchase**: The system displays eligible add-on products. Scan the barcode or select the add-on item.
-        - **Spend/Quantity Gift**: View the remaining amount needed to qualify. If the threshold is met, the system automatically adds the gift.
+        - **Spend/Quantity Gift**: View the remaining amount needed to qualify. If the threshold is met, the system automatically adds the free gift.
 
-            > If gift stock is insufficient, the system displays a pop-up alert and does not add the gift automatically.
+            > If free gift inventory is insufficient, the system displays a dialog alert and does not add the free gift automatically.
 
         - **Bonus Mall**: Select and apply the bonus product the customer wants to redeem.
 
@@ -299,7 +299,7 @@ Enter the items the customer is buying into the system and confirm whether they 
 
     - :lucide-plug:{ .lg }
     __Create Add-On Purchase Campaign__<br>
-    Increase average order value by recommending value add-on products at checkout.
+    Increase AOV by recommending value add-on products at checkout.
         - [Order Add-On Purchase](../../ec/marketing/upsells/setup-order-upsell.md)
         - [Product Add-On Purchase](../../ec/marketing/upsells/setup-product-upsell.md)
 
@@ -394,6 +394,6 @@ The final stage of payment and receipt processing. Once complete, the order is o
 
     - :lucide-plug:{ .lg }
     [__Omnichannel Inventory Management__](../inventory/index.md)<br>
-    Manage inventory across all channels to ensure there are no gaps between online and offline stock.
+    Manage inventory across all channels to ensure there are no gaps between online and offline inventory.
 
     </div>

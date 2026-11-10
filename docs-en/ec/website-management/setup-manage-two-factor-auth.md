@@ -1,6 +1,6 @@
 ---
 title: "Set up and Manage Two-Step Verification"
-description: "Turn on and manage two-step verification (2FA), including binding an authenticator, using backup codes, and resetting or enforcing verification for staff."
+description: "Enable and manage two-step verification (2FA), including linking an authenticator, using backup codes, and resetting or enforcing verification for staff."
 created: 2026-03-16 20:06
 last_modified: 2026-07-03 11:44
 lang: en-US
@@ -61,7 +61,7 @@ hide: []
 
 ## About Two-Step Verification { #intro-two-factor }
 
-**Two-step verification (2FA)** is an important security feature. When it is on, logging in to the admin panel or POS storefront requires both your account and password and a dynamic code from a mobile authenticator app. This adds an extra layer of protection to your account even if your password is stolen.
+**Two-step verification (2FA)** is an important security feature. When it is on, logging in to the admin or POS storefront requires both your account and password and a dynamic code from a mobile authenticator app. This adds an extra layer of protection to your account even if your password is stolen.
 
 !!! example "When It Is Used"
 
@@ -80,10 +80,10 @@ Before you start, install an authenticator app on your phone.
 
 ## Steps { #operate-two-factor }
 
-### Turn on Two-Step Verification { #operate-two-factor-enable }
+### Enable Two-Step Verification { #operate-two-factor-enable }
 
 1.  **Open the page**: Log in to the admin panel and go to **Website Management**」>「**Security Setting**」>「**Admin Login**.
-2.  **Turn on the feature**: Click the **Two-step verification settings** switch to start setup.
+2.  **Turn on the feature**: Click the **Two-step verification settings** toggle to start setup.
 3.  **Scan to link**: Open the authenticator app on your phone and **scan the QR code on the screen** (or enter the key manually) to add the account.
 4.  **Enter the code**: Enter the 6-digit code currently shown in the app and confirm.
 5.  **Download backup codes (important)**: The system generates **10 backup codes**. Download them and keep them in a safe place.
@@ -95,7 +95,7 @@ Before you start, install an authenticator app on your phone.
 
 The website owner can manage security verification for all staff:
 
-*   **View progress**: Click **Staff Security Verification** to see whether each admin has turned on verification and when.
+*   **View progress**: Click **Staff Security Verification** to see whether each admin has enabled verification and when.
 
     ![Staff security verification](../../assets/images/ec-管理中心-安全性設定-二階段驗證-管理人員安全驗證.en.gif){ title="Staff Security Verification" }
 
@@ -113,7 +113,7 @@ The website owner can manage security verification for all staff:
 
 ---
 
-### Log in to the Admin Panel with a Backup Code { #operate-two-factor-backup }
+### Log in to the Admin with a Backup Code { #operate-two-factor-backup }
 
 If you can't get an authenticator code, click to try another login method and log in with a backup code you downloaded and saved earlier.
 
@@ -126,7 +126,7 @@ If you can't get an authenticator code, click to try another login method and lo
     This is usually caused by the time being out of sync. Check the following:
 
     * **Check your phone's time zone**: Make sure your phone's date and time are set to **sync automatically from the network**. Verification codes (TOTP) are very time-sensitive, and a difference of a few seconds can make them invalid.
-    * **Check the account**: Make sure the account shown in the authenticator app is the one for this website's admin panel, so you don't use a code for another website by mistake.
+    * **Check the account**: Make sure the account shown in the authenticator app is the one for this website's admin, so you don't use a code for another website by mistake.
 
 ??? quote "What if I lose my phone or can't use the authenticator?"
 
@@ -134,5 +134,5 @@ If you can't get an authenticator code, click to try another login method and lo
     * **Ask an admin to reset it**: If you have no backup codes, contact an admin with higher permissions (such as the website owner) and ask them to click **Reset** for you in **Staff Security Verification** to unlink it.
 
 ??? quote "Do I need to set it up again when I get a new phone?"
-    Yes. Before you switch phones, while the old phone still works, turn off two-step verification in the admin panel. Then scan the QR code again on the new phone to link it.
+    Yes. Before you switch phones, while the old phone still works, turn off two-step verification in the admin. Then scan the QR code again on the new phone to link it.
     * *Note: If you use Authy with cloud backup turned on, you can log in to your Authy account on the new phone and use it right away.*

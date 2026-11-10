@@ -21,7 +21,7 @@ hide:
 
     ---
 
-    Explains the management features of the All Orders page, helping merchants handle core operations from filtering orders and tracking shipment status to editing order details.
+    Explains the management features of the All Orders page, helping merchants handle core operations from filtering orders and tracking delivery status to editing order details.
 
     [:octicons-arrow-right-24: Go](basics/order-management-interface.md)
 
@@ -77,7 +77,7 @@ hide:
 
     ---
 
-    Change an order from Preparing back to Unshipped so the shopper can cancel the order again.
+    Change an order from Preparing back to Unshipped so the customer can cancel the order again.
 
     [:octicons-arrow-right-24: Go](home-delivery/revert-to-unshipped.md)
 
@@ -89,11 +89,11 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :lucide-truck: __Ship with EZCAT Home Delivery__
+-   :lucide-truck: __Ship with T-CAT Home Delivery__
 
     ---
 
-    Batch download EZCAT home delivery shipping labels, deduct shipping fees, and update the order shipment status to Shipped.
+    Batch download T-CAT home delivery shipping labels, deduct shipping fees, and update the order delivery status to Shipped.
 
     [:octicons-arrow-right-24: Go](home-delivery/tcat-home-delivery-v2.md)
 
@@ -101,7 +101,7 @@ hide:
 
     ---
 
-    Ship with Pelican Express, including batch downloading shipping labels, single and partial shipments, and reprinting shipping labels, plus shipping fee rules and FAQs.
+    Ship with Pelican, including batch downloading shipping labels, single and partial shipments, and reprinting shipping labels, plus shipping fee rules and FAQs.
 
     [:octicons-arrow-right-24: Go](home-delivery/pelican-shipping-v2.md)
 
@@ -109,7 +109,7 @@ hide:
 
     ---
 
-    Ship by downloading SF Express shipping labels in batches or one at a time. The system gets tracking numbers from SF Express in real time and updates the order shipment status to Shipped. Supports delivery on Taiwan's main island and overseas.
+    Ship by downloading SF Express shipping labels in batches or one at a time. The system gets tracking numbers from SF Express in real time and updates the order delivery status to Shipped. Supports delivery on Taiwan's main island and overseas.
 
     [:octicons-arrow-right-24: Go](home-delivery/sf-express-shipping-v2.md)
 
@@ -117,7 +117,7 @@ hide:
 
     ---
 
-    Batch select orders in the order list, download HCT shipping labels, and update the shipment status to Shipped.
+    Batch select orders in the order list, download HCT shipping labels, and update the delivery status to Shipped.
 
     [:octicons-arrow-right-24: Go](home-delivery/hct-shipping-v2.md)
 
@@ -125,7 +125,7 @@ hide:
 
     ---
 
-    Three ways to ship with custom logistics: batch mark as shipped, bulk import tracking numbers with Excel, and manually ship a single order, plus notes and follow-up actions.
+    Three ways to ship with custom logistics: batch mark as shipped, batch import tracking numbers with Excel, and manually ship a single order, plus notes and follow-up actions.
 
     [:octicons-arrow-right-24: Go](home-delivery/custom-logistic-shipping.md)
 
@@ -141,7 +141,7 @@ hide:
 
     ---
 
-    Batch download shipping labels and generate tracking numbers from the order list, then send consolidated packages to the convenience store logistics center, which distributes them to the stores shoppers chose.
+    Batch download shipping labels and generate tracking numbers from the order list, then send consolidated packages to the convenience store logistics center, which distributes them to the stores customers chose.
 
     [:octicons-arrow-right-24: Go](cvs-shipping/cvs-b2c-bulk-shipping.md)
 
@@ -149,7 +149,7 @@ hide:
 
     ---
 
-    Pack products and send them through convenience store C2C store-to-store shipping to the store the shopper chose, including the full steps and notes.
+    Pack products and send them through convenience store C2C store-to-store shipping to the store the customer chose, including the full steps and notes.
 
     [:octicons-arrow-right-24: Go](cvs-shipping/cvs-c2c-shipping.md)
 
@@ -181,7 +181,7 @@ hide:
 
     ---
 
-    Guides shoppers to search for an address, choose a store, pick products, check out a Quick Delivery order, and verify receipt.
+    Guides customers to search for an address, choose a store, pick products, check out a Quick Delivery order, and verify receipt.
 
     [:octicons-arrow-right-24: Go](consumer-purchase-process.md)
 
@@ -197,7 +197,7 @@ hide:
 
     ---
 
-    Guides store staff to request shipping, get matched with a driver, hand over products, and track delivery status until the shopper receives the order.
+    Guides store staff to request shipping, get matched with a driver, hand over products, and track delivery status until the customer receives the order.
 
     [:octicons-arrow-right-24: Go](quick-delivery-shipping-and-distribution.md)
 
@@ -245,7 +245,7 @@ hide:
 
     ---
 
-    Handle partial shipment of convenience store orders (7-Eleven, FamilyMart, Hi-Life), including full steps for the first shipment through the convenience store system and shipping the remaining items with custom logistics.
+    Handle partial shipment of convenience store orders (7-11, FamilyMart, Hi-Life), including full steps for the first shipment through the convenience store system and shipping the remaining items with custom logistics.
 
     [:octicons-arrow-right-24: Go](cvs-shipping/cvs-partial-shipment.md)
 
@@ -253,7 +253,7 @@ hide:
 
     ---
 
-    Customize what packing slips show, apply a print template, and batch download packing slips from the order list.
+    Customize what shipment details show, apply a print template, and batch download shipment details from the order list.
 
     [:octicons-arrow-right-24: Go](order-settings/shipping-detail-print.md)
 
@@ -265,11 +265,11 @@ hide:
 
     [:octicons-arrow-right-24: Go](cvs-shipping/thermal-print-cvs-waybill.md)
 
--   :lucide-phone-call: __Automatically Call an EZCAT Driver for Pickup__
+-   :lucide-phone-call: __Automatically Call a T-CAT Driver for Pickup__
 
     ---
 
-    When you batch download EZCAT shipping labels, the system automatically asks EZCAT to send a driver for pickup, saving you the time of contacting them manually.
+    When you batch download T-CAT shipping labels, the system automatically asks T-CAT to send a driver for pickup, saving you the time of contacting them manually.
 
     [:octicons-arrow-right-24: Go](home-delivery/tcat-auto-call-driver-v2.md)
 
@@ -277,7 +277,7 @@ hide:
 
     ---
 
-    How the system automatically shows different Shipped tooltip text based on the carrier's shipment status after an integrated-logistics order ships, where the text appears, and when notifications are triggered.
+    How the system automatically shows different Shipped tooltip text based on the carrier's delivery status after an integrated-logistics order ships, where the text appears, and when notifications are triggered.
 
     [:octicons-arrow-right-24: Go](home-delivery/shipping-status-tooltip.md)
 
@@ -285,7 +285,7 @@ hide:
 
     ---
 
-    Common causes and fixes when shipping labels fail to download or shipment status doesn't update, including topping up ECPay prepaid logistics fees, browser blocking, address errors, and store closures or transfers.
+    Common causes and fixes when shipping labels fail to download or delivery status doesn't update, including topping up ECPay prepaid logistics fees, browser blocking, address errors, and store closures or transfers.
 
     [:octicons-arrow-right-24: Go](order-settings/shipping-label-or-shipment-status-error.md)
 
@@ -297,11 +297,11 @@ hide:
 
 <div class="grid cards" markdown>
 
--   :lucide-credit-card: __Set Up Payment Methods for EZCAT Quick Store Delivery__
+-   :lucide-credit-card: __Set Up Payment Methods for T-CAT Rapid-to-Store Delivery__
 
     ---
 
-    Set up payment methods for EZCAT Quick Store Delivery, including steps for cash on delivery and pickup without payment.
+    Set up payment methods for T-CAT Rapid-to-Store Delivery, including steps for cash on delivery and pickup without payment.
 
     [:octicons-arrow-right-24: Go](tcat-quick-store/tcat-express-payment-settings.md)
 
@@ -317,7 +317,7 @@ hide:
 
     ---
 
-    Turn on convenience store barcode payment, and see how customers get a barcode and pay at 7-Eleven or FamilyMart.
+    Enable convenience store barcode payment, and see how customers get a barcode and pay at 7-11 or FamilyMart.
 
     [:octicons-arrow-right-24: Go](order-settings/cvs-barcode-payment.md)
 
@@ -325,7 +325,7 @@ hide:
 
     ---
 
-    Turn on convenience store payment codes, and how customers get a payment code and pay at 7-Eleven, FamilyMart, or Hi-Life.
+    Enable convenience store payment codes, and how customers get a payment code and pay at 7-11, FamilyMart, or Hi-Life.
 
     [:octicons-arrow-right-24: Go](order-settings/cvs-code-payment.md)
 
@@ -334,7 +334,7 @@ hide:
 
     ---
 
-    Customize what order details show, apply a print template, turn on personal data masking for order detail printing, and print or download PDFs from the order list.
+    Customize what order details show, apply a print template, enable personal data masking for order detail printing, and print or download PDFs from the order list.
 
     [:octicons-arrow-right-24: Go](order-settings/order-detail-print.md)
 
@@ -350,7 +350,7 @@ hide:
 
     ---
 
-    Complete orders manually, one at a time or in bulk, and how completion affects bonus points, coupons, and commissions.
+    Complete orders manually, one at a time or in batches, and how completion affects bonus points, coupons, and commissions.
 
     [:octicons-arrow-right-24: Go](order-settings/manual-order-close.md)
 
@@ -390,7 +390,7 @@ hide:
 
     ---
 
-    After an order completes the return process, the final step is refunding the customer. Depending on your payment service (whether CYBERBIZ PAYMENTS is turned on) and the customer's payment method, the refund is triggered automatically or manually.
+    After an order completes the return process, the final step is refunding the customer. Depending on your payment service (whether CYBERBIZ PAYMENTS is enabled) and the customer's payment method, the refund is triggered automatically or manually.
 
     [:octicons-arrow-right-24: Go](order-refund-process.md)
 
@@ -398,7 +398,7 @@ hide:
 
     ---
 
-    When the system can't complete an automatic refund for a LINE Pay, JKOPAY, or PayPal order because your payment account balance is insufficient, you can use manual refund.
+    When the system can't complete an automatic refund for a LINE Pay, JKOPay, or PayPal order because your payment account balance is insufficient, you can use manual refund.
 
     [:octicons-arrow-right-24: Go](manual-refund-for-third-party-payment-orders.md)
 
@@ -430,15 +430,15 @@ hide:
 
     ---
 
-    Set up and use 7-Eleven Return Service (C2B).
+    Set up and use 7-11 Return Service (C2B).
 
     [:octicons-arrow-right-24: Go](returns-refunds/cvs-c2b-return.md)
 
--   :lucide-arrow-left: __Use 7-Eleven C2C Return Service__
+-   :lucide-arrow-left: __Use 7-11 C2C Return Service__
 
     ---
 
-    Turn on 7-Eleven C2C Return Service, set up recipient details, send return drop-off codes to shoppers, and complete return review and refunds.
+    Turn on 7-11 C2C Return Service, set up recipient details, send return drop-off codes to customers, and complete return review and refunds.
 
     [:octicons-arrow-right-24: Go](returns-refunds/7-11-c2c-return.md)
 
@@ -462,7 +462,7 @@ hide:
 
     ---
 
-    After an order completes the return process, the final step is refunding the shopper. The system triggers the refund automatically or manually, depending on your store plan and the shopper's payment method.
+    After an order completes the return process, the final step is refunding the customer. The system triggers the refund automatically or manually, depending on your store plan and the customer's payment method.
 
     [:octicons-arrow-right-24: Go](cross-border-refund-process.md)
 
@@ -478,7 +478,7 @@ hide:
 
     ---
 
-    When a shopper orders on a subscription campaign page, the system creates a parent order and automatically creates sub-orders on the set cycle (such as monthly or weekly). You can manage these subscriptions and each cycle's delivery progress in the admin.
+    When a customer orders on a subscription campaign page, the system creates a parent order and automatically creates sub-orders on the set cycle (such as monthly or weekly). You can manage these subscriptions and each cycle's delivery progress in the admin.
 
     [:octicons-arrow-right-24: Go](subscription-orders.md)
 

@@ -77,7 +77,7 @@ The Report List provides multi-dimensional data analysis tools that help manager
 
 ## Access Path { #intro-pos-reports }
 
-1. Log in to the back office, go to **POS > POS Store List**, and select the store.
+1. Log in to the admin, go to **POS > POS Store List**, and select the store.
 2. Click **Inventory Management > Reports**.
 
 ![](../../assets/images/POS-後台-所有POS商店-庫存管理-報表01.en.png){ .screenshot }
@@ -120,7 +120,7 @@ The Report List provides multi-dimensional data analysis tools that help manager
 - **Product Sales Report**: Based on **Order Confirmation Date**.
 
     !!! tip "Order Confirmation Date Settings and Search"
-        - **Setup Method**: POS cashiers can enter the order confirmation date manually during [Payment Processing](../check/index.md#operate-check-payment).
+        - **Setup Method**: POS cashiers can fill in the order confirmation date manually during [Payment Processing](../check/index.md#operate-check-payment).
         - **Search Path**: Front-desk staff can use **Advanced Filter** on the [Orders](../orders/manage-general-orders.md#operate-general-orders-query) tab to search orders by a specified date range.
 
 - **Product Flow Report**: Based on **Order Creation Time**.

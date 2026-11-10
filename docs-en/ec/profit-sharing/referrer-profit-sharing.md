@@ -73,7 +73,7 @@ hide: []
 ---
 # Referral Program
 
-By creating referrer profit-sharing plans, you can set dedicated commission rates and customer rewards for different partners, such as influencers, members, or staff.
+By creating referrer profit-sharing plans, you can set dedicated commission rates and customer rewards for different partners, such as KOLs, members, or staff.
 { .subtitle }
 
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | Brand Website / Smart POS
@@ -82,10 +82,10 @@ By creating referrer profit-sharing plans, you can set dedicated commission rate
 
 ![](../../assets/images/EC-後台-分潤-推薦人分潤-畫面總覽01.en.png){ .hero-page }
 
-!!! tip "Use cases"
+!!! tip "Use Cases"
 	- **Brand partnerships**: Work with bloggers or KOLs, give them dedicated profit-sharing links, and track the orders they bring in.
 	- **Customer referrals**: Encourage existing members to share their Referral Code with friends and earn bonus rewards for bringing in new customers.
-	- **Internal promotion**: Give store staff their own Referral Code so online sales they drive are credited to them.
+	- **Internal promotion**: Give store clerks their own Referral Code so online sales they drive are credited to them.
 
 
 
@@ -105,7 +105,7 @@ By creating referrer profit-sharing plans, you can set dedicated commission rate
 3. Turn on **Show referral code in checkout page**.
 4. Click **Create Plan** in the upper-right corner.
 5. In the **Basic Settings** section, fill in the following:
-    - **Referral Plan name**: A name for internal use (for example, 2026 Influencer Spring Campaign).
+    - **Referral Plan name**: A name for internal use (for example, 2026 KOL Spring Campaign).
     - **Effective Date**: The plan's start and end dates. Leave blank to start immediately with no end date.
     - **Enable Referral Binding Period**: The number of days the referral is kept in the customer's browser.
       > ON – Links the customer, so the owner of this Referral Code also earns profit sharing on the customer's later orders.<br>
@@ -130,7 +130,7 @@ By creating referrer profit-sharing plans, you can set dedicated commission rate
 
 ### Step 2: Choose The Commission Type { #operate-referrer-ps-method }
 
-=== "Whole-order profit sharing"
+=== "Referral for Entire Order"
 
     Calculated as a percentage of the order total (excluding shipping).
 
@@ -141,7 +141,7 @@ By creating referrer profit-sharing plans, you can set dedicated commission rate
 
     ![](../../assets/images/EC-後台-分潤-推薦人分潤-整張訂單分潤01.en.png){ .screenshot }
 
-=== "Product-specific profit sharing"
+=== "Referral for Specified Product"
 
     Set separate profit-sharing rates for specific products only.
 
@@ -232,7 +232,7 @@ Switch to the tab for the type of partner you're working with. One plan can incl
     5. You can also apply a plan to all new members.
 
 === "Staff list (store staff)"
-    For staff or POS store staff who already have accounts in the system.
+    For staff or POS store clerks who already have accounts in the system.
 
     1. Switch to the **Employee List** tab.
     2. Click **Add plan users** and filter people by name, role, or store.

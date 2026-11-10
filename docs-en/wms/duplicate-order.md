@@ -63,12 +63,12 @@ When you need to change an existing order or ship it again, use Clone Order to c
 ## Overview { #intro-duplicate-order }
 
 - **One-click cloning**: When you need to correct an existing order or ship it again, use Clone Order to create a new order and edit its details.
-- **Shipping status sync**: The system offers the **Link EC platform** option. It lets you decide whether the new order's shipping status is synced back to the original platform, or whether it is handled as a fully independent WMS order.
+- **Shipping status sync**: The system offers the **Link EC platform** option. It lets you decide whether the new order's delivery status is synced back to the original platform, or whether it is handled as a fully independent WMS order.
 
 
-## Differences Between Clone Modes { #overview-duplicate-order-modes }
+## Differences Between Copy Modes { #overview-duplicate-order-modes }
 
-Whether you select Link EC platform changes what the new order inherits and how its shipping status is synced back:
+Whether you select Link EC platform changes what the new order inherits and how its delivery status is synced back:
 
 === "Link EC Platform"
 
@@ -86,29 +86,29 @@ Whether you select Link EC platform changes what the new order inherits and how 
 
     The cloned order is **fully unlinked from the EC platform**:
 
-    - **No status sync**: None of the new order's shipping status updates (such as Shipped or Received) are **synced** back to the e-commerce platform.
+    - **No status sync**: None of the new order's delivery status updates (such as Shipped or Received) are **synced** back to the e-commerce platform.
     - **Original order unchanged**: The original order keeps its link to the EC platform.
     - **Channel change**: The new order's channel changes to **Other**, and its shipping method changes to the matching standard shipping type.
 
     !!! example "When to Use"
-        Use this option when you clone an order to **exchange items** or **send missing items**. The new order only needs to ship from WMS and does not affect the original order's status. **Be sure to clear the Link EC platform checkbox.** Otherwise, the original order's shipping status can no longer be synced back to the e-commerce platform.
+        Use this option when you copy an order to **exchange items** or **send missing items**. The new order only needs to ship from WMS and does not affect the original order's status. **Be sure to clear the Link EC platform checkbox.** Otherwise, the original order's delivery status can no longer be synced back to the e-commerce platform.
 
 ## Notes { #prerequisites-duplicate-order }
 
-- **Default selection**: Each time you open the clone window, the checkbox is **selected** by default.
+- **Default selection**: Each time you open the copy window, the checkbox is **selected** by default.
 - **Specific channels**: This feature only applies to orders from integrated EC channels such as CYBERBIZ and Shopline. Standard orders are not affected.
 - **Shipping**: Whether or not you select the option, a cloned order is always treated as a new order and ships through the normal process.
 - **Deleted product warning**: If the original order contains a product that was deleted from the system, that product is not cloned, and the system shows a warning.
-- **Manual handling risk**: If a wrong link setting stops the shipping status from syncing back, contact customer service to fix the order. Extra technical fees may apply.
+- **Manual handling risk**: If a wrong link setting stops the delivery status from syncing back, contact customer support to fix the order. Extra technical fees may apply.
 
 ## Steps { #operate-duplicate-order }
 
-1. Log in to the e-commerce warehouse admin panel, go to **Orders > 列表**, and open the details page of the order you want to clone.
+1. Log in to the e-commerce warehouse admin panel, go to **Orders > 列表**, and open the details page of the order you want to copy.
 2. Click **Clone Order** in the upper-right corner of the page.
-3. A clone confirmation window opens. If the order came from an EC integration, the window shows the **Link EC platform** checkbox.
+3. A copy confirmation window opens. If the order came from an EC integration, the window shows the **Link EC platform** checkbox.
 4. Select or clear the checkbox based on your shipping needs, and then click **OK** to finish cloning.
 
-    > Standard orders that are not from an EC integration (such as manually created orders) do not show this checkbox and use the usual clone process.
+    > Standard orders that are not from an EC integration (such as manually created orders) do not show this checkbox and use the usual copy process.
 
     === "Link EC Platform"
 
@@ -127,7 +127,7 @@ Whether you select Link EC platform changes what the new order inherits and how 
     Yes. Cloning creates a brand-new WMS order. It does not delete or overwrite the original order record.
 
 ??? quote "Has the Clone Process Changed for Standard (Non-EC) Orders?"
-    No. Orders that are not from an EC integration use the same clone process as before, and the Link EC platform option does not appear.
+    No. Orders that are not from an EC integration use the same copy process as before, and the Link EC platform option does not appear.
 
 ??? quote "What Happens If I Choose the Wrong Option When Resending Items?"
-    If you select Link EC platform by mistake when resending items, the original order's link to the e-commerce platform **moves** to the resend order. The original, complete order can then no longer sync its shipping status back correctly.
+    If you select Link EC platform by mistake when resending items, the original order's link to the e-commerce platform **moves** to the resend order. The original, complete order can then no longer sync its delivery status back correctly.

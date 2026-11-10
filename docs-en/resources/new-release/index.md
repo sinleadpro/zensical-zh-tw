@@ -418,14 +418,14 @@ hide:
         <div class="release-divider" aria-hidden="true"></div>
         <ul class="release-features">
           <li class="release-feature-row">
-            <span class="release-feature-name">CHAT BOX｜Unified chat entry on the brand site</span>
+            <span class="release-feature-name">CHAT BOX｜Unified chat entry on the storefront</span>
             <span class="release-feature-tags">
               <span class="release-version-tag">#Enterprise</span>
               <span class="release-version-tag">#PLUS</span>
             </span>
           </li>
           <li class="release-feature-row">
-            <span class="release-feature-name">Shopper buy-again</span>
+            <span class="release-feature-name">Customer buy-again</span>
           </li>
           <li class="release-feature-row">
             <span class="release-feature-name">Custom layouts support multi-column mobile display</span>
@@ -487,7 +487,7 @@ hide:
             </span>
           </li>
           <li class="release-feature-row">
-            <span class="release-feature-name">Launch 7-ELEVEN C2C returns from the admin</span>
+            <span class="release-feature-name">Launch 7-11 C2C returns from the admin</span>
             <span class="release-feature-tags">
               <span class="release-version-tag-2">#CYBERBIZ PAYMENTS</span>
             </span>

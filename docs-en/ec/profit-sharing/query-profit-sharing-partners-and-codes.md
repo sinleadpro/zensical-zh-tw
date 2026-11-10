@@ -67,15 +67,15 @@ hide: []
 ---
 # Look Up Profit-Sharing Partners And Codes
 
-In the admin, you can look up the plans and dedicated codes of every profit-sharing partner at any time, including external influencers, members, and staff, so you can always give partners their promotion details.
+In the admin, you can look up the plans and dedicated codes of every profit-sharing partner at any time, including external KOLs, members, and staff, so you can always give partners their promotion details.
 { .subtitle }
 
 [:lucide-layers:{ title="適用產品" }](../../resources/conventions#適用產品) | Brand Website / Smart POS
 [:lucide-tag:{ title="適用方案" }](../../resources/conventions#適用方案) | Advanced / Expert / All PLUS / Enterprise
 { .doc-badge }
 
-!!! tip "Use cases"
-	- **Help partners find their codes**: When an influencer forgets their Referral Code, an admin can look it up quickly and send it to them.
+!!! tip "Use Cases"
+	- **Help partners find their codes**: When a KOL forgets their Referral Code, an admin can look it up quickly and send it to them.
 	- **Check plan assignments**: Confirm that a staff member has been added to the right Referral Plan.
 	- **Verify referrals**: When a customer says a referral didn't work, first check that the Referrer's code is correct.
 

@@ -79,10 +79,10 @@ With the Member Safety settings, you can control access to your storefront and s
 
 ## About Security Setting { #intro-security }
 
-Security Setting is the security control center of the CYBERBIZ admin panel. It helps you lower the risk of account theft, customer data leaks, and malicious visits. You can find it in the admin panel under **Website Management > Security Setting**, and it covers three main areas of protection:
+Security Setting is the security control center of the CYBERBIZ admin. It helps you lower the risk of account theft, customer data leaks, and malicious visits. You can find it in the admin under **Website Management > Security Setting**, and it covers three main areas of protection:
 
 - **Member Safety**: Protects your website and customer data.
-- **[Admin Login](admin-security-settings/)**: Protects how you and your staff log in to the admin panel.
+- **[Admin Login](admin-security-settings/)**: Protects how you and your staff log in to the admin.
 - **[Bot Protection](bot-protection-settings/)**: Filters out malicious visitors and sets up a first line of defense before any SMS is sent.
 
 
@@ -97,7 +97,7 @@ Before you start, check the following:
 
 ## Steps { #operate-security }
 
-In the admin panel, go to **Website Management > Security Setting** and click the **Member Safety** tab at the top to start.
+In the admin, go to **Website Management > Security Setting** and click the **Member Safety** tab at the top to start.
 
 ### Set a Website Password { #operate-security-website-password }
 
@@ -114,7 +114,7 @@ Add a password to your whole storefront so that only customers who know the pass
 ![](../../assets/images/ec-管理中心-安全性設定-網站密碼.en.gif)
 
 !!! note "What Customers See"
-    After you turn on the website password, a password page appears whenever a customer visits any storefront page. Customers must enter the correct password before they can browse the website.
+    After you enable the website password, a password page appears whenever a customer visits any storefront page. Customers must enter the correct password before they can browse the website.
     To switch to **public mode so that all customers can browse freely**, **Cancel** this setting.
 
 
@@ -169,6 +169,6 @@ Block customers in specific regions from visiting your storefront. This is often
 
 If you run websites for several countries, you can show a notice bar on your storefront based on the country of the customer's IP address, guiding customers to the matching website. The system doesn't redirect customers automatically. Customers must click **Go to** themselves.
 
-For the full steps, storefront display, and FAQs, see [Redirect Shoppers to a Country-Specific Online Store](setup-country-site-redirect.md).
+For the full steps, storefront display, and FAQs, see [Redirect Shoppers to a Country-Specific Storefront](setup-country-site-redirect.md).
 
 

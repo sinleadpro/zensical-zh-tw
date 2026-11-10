@@ -21,7 +21,7 @@ hide:
 
     ---
 
-    Connect LINE Official Account with the e-commerce system to enable automated member management, precise audience marketing, and online-to-offline (OMO) shopping and payment integration.
+    Integrate LINE Official Account with the e-commerce system to enable automated member management, precise audience marketing, and online-to-offline (OMO) shopping and payment integration.
 
     [:octicons-arrow-right-24: Go to](line/index.md)
 
@@ -29,7 +29,7 @@ hide:
 
     ---
 
-    Connect Google services, covering account verification, Merchant Center, ad tracking, traffic analysis, and search management.
+    Integrate Google services, covering account verification, Merchant Center, ad tracking, traffic analysis, and search management.
 
     [:octicons-arrow-right-24: Go to](google/index.md)
 
@@ -37,7 +37,7 @@ hide:
 
     ---
 
-    Connect Facebook and the Meta ad ecosystem, covering quick login, Meta ad campaigns, product catalog sync, and Facebook Page integration.
+    Integrate Facebook and the Meta ad ecosystem, covering quick login, Meta ad campaigns, product catalog sync, and Facebook Page integration.
 
     [:octicons-arrow-right-24: Go to](fb/index.md)
 
@@ -53,7 +53,7 @@ hide:
 
     ---
 
-    Connect CYBERBIZ storefront and SHOP.COM to sell products through dealer member channels and increase brand exposure.
+    Integrate CYBERBIZ storefront and SHOP.COM to sell products through dealer member channels and increase brand exposure.
 
     [:octicons-arrow-right-24: Go to](setup-shop-com.md)
 

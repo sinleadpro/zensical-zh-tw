@@ -1,6 +1,6 @@
 ---
 title: "Apply Member Tags to Specific Email Domains"
-description: "With email domain settings, the system can automatically tag members from specific organizations (such as company employees or school members) when they finish registering, so you can offer them exclusive promotions or segmented services later."
+description: "With email domain settings, the system can automatically tag members from specific organizations (such as company staff or school members) when they finish registering, so you can offer them exclusive promotions or segmented services later."
 created: 2026-02-03 00:00
 last_modified: 2026-06-04 17:59
 lang: en-US
@@ -60,7 +60,7 @@ hide: []
 ---
 # Apply Member Tags to Specific Email Domains
 
-With email domain settings, the system can automatically tag members from specific organizations (such as company employees or school members) when they finish registering. You can then offer them exclusive promotions or segmented services.
+With email domain settings, the system can automatically tag members from specific organizations (such as company staff or school members) when they finish registering. You can then offer them exclusive promotions or segmented services.
 { .subtitle }
 
 [:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | Enterprise
@@ -81,7 +81,7 @@ Before you set up domain tag rules, note the following limits:
 - **Who it applies to**: Only members who **register after** the rule is set up. The system does not go back and tag members who existed before the rule was set.
 - **Import limits**: Customer data added through **Excel bulk import** does **not** support automatic tagging.
 
-     > When you use [Excel bulk import members](../members/batch-import-and-edit-members.md#specs-batch-members){ title="Bulk import or edit members" }, just fill in the tag field in the template, and the tags are applied automatically when you import.
+     > When you use [Excel batch import members](../members/batch-import-and-edit-members.md#specs-batch-members){ title="Bulk import or edit members" }, just fill in the tag field in the template, and the tags are applied automatically when you import.
 
 - **Effect of changes**: Changing or deleting an existing domain tag setting does not affect members who already have the tag.
 - **Format rules**: Make sure to enter the correct email domain (the text after @). Spaces or typos will cause automatic tagging to fail.
@@ -92,16 +92,16 @@ Before you set up domain tag rules, note the following limits:
 
 ### Step 1: Create a Tag Condition { #operate-domain-tags-create }
 
-1. Log in to the CYBERBIZ admin panel and go to **Website Management > Email Domain Tag Settings**.
+1. Log in to the CYBERBIZ admin and go to **Website Management > Email Domain Tag Settings**.
 2. Click **Add mappings** in the upper-right corner of the page.
 
 ![](../../assets/images/EC-後台-管理中心-網域信箱標籤設定-新增網域信箱01.en.png)
 
-### Step 2: Enter the Settings { #operate-domain-tags-fill }
+### Step 2: Fill in the Settings { #operate-domain-tags-fill }
 
-Enter the following information in the pop-up window or edit page:
+Enter the following information in the dialog or edit page:
 
-1. **Title**: Enter a name to identify the rule (for example, 2024 Corporate Partnership). This field is only used to identify the rule in the admin panel.
+1. **Title**: Enter a name to identify the rule (for example, 2024 Corporate Partnership). This field is only used to identify the rule in the admin.
 2. **Member tag**: Enter the tag name the system should apply automatically (for example, Employee Purchase or Partner).
     - If the tag does not exist yet, it is created when you enter it.
 3. **Email domain**: Enter the domain string to match.

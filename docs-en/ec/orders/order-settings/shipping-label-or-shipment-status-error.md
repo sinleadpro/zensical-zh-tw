@@ -85,7 +85,7 @@ Most cases aren't system failures but issues you can fix yourself, such as your 
 | :-- | :-- | :-- |
 | No file after clicking download, but the delivery status changed to "Shipped" | The browser blocked automatic downloads | [No File After Clicking Download](#operate-shipping-issue-popup-blocked) |
 | ECPay shipping labels keep failing to download | Insufficient prepaid logistics funds in your ECPay account | [ECPay Shipping Label Download Fails](#operate-shipping-issue-ecpay-balance) |
-| EZCAT home delivery can't generate a tracking number | The recipient address has a typo or is incomplete | [Can't Generate a Tracking Number](#operate-shipping-issue-wrong-address) |
+| T-CAT home delivery can't generate a tracking number | The recipient address has a typo or is incomplete | [Can't Generate a Tracking Number](#operate-shipping-issue-wrong-address) |
 | Tracking number expired and delivery status can't be tracked | The package wasn't dropped off before the shipping label expired | [Expired Shipping Labels](#operate-shipping-issue-label-expired) |
 | Convenience store pickup notice of a "store closure" | The pickup store closed or is under renovation | [Handle Store Closures](#operate-shipping-issue-store-closed) |
 | The shipping label file is missing | You need to download it again | [Reprint Shipping Labels](#operate-shipping-issue-reprint) |
@@ -99,13 +99,13 @@ If you use ECPay payment and logistics integration and shipping label downloads 
 
 1. **Sign in to the ECPay admin:** Go to your ECPay merchant admin.
 2. **Go to account management:** In the menu, click "Account Management" > "Prepayments."
-3. **Top up:** Choose "Prepaid Logistics Funds" and enter the amount to deposit. The system generates an ATM payment account; complete the transfer.
+3. **Top up:** Choose "Prepaid Logistics Funds" and fill in the amount to deposit. The system generates an ATM payment account; complete the transfer.
 4. **Download again:** After the funds arrive, return to the CYBERBIZ admin and download the shipping label again. The order's delivery status then updates to "Shipped."
 
 For full top-up instructions, see the ECPay website: [Prepaid Logistics Funds Top-Up Guide :lucide-external-link:](https://support.ecpay.com.tw/9772/).
 
 !!! note "Note"
-    Prepaid logistics funds are a setting in your ECPay account and are separate from billing in the CYBERBIZ admin. If you still can't download after topping up, contact ECPay customer service to check your account status.
+    Prepaid logistics funds are a setting in your ECPay account and are separate from billing in the CYBERBIZ admin. If you still can't download after topping up, contact ECPay customer support to check your account status.
 
 <div class="grid cards" markdown>
 
@@ -128,13 +128,13 @@ If the system changed the delivery status to "Shipped" after you clicked downloa
 
 ---
 
-### EZCAT Home Delivery Can't Generate a Tracking Number { #operate-shipping-issue-wrong-address }
+### T-CAT Home Delivery Can't Generate a Tracking Number { #operate-shipping-issue-wrong-address }
 
 With **EZCAT home delivery**, the system doesn't support fuzzy address matching. If the recipient address has a typo (for example, a wrong Chinese character in a township name) or is incomplete, no tracking number can be generated.
 
 === "Not Shipped Yet"
     1. **Confirm the correct address:** Confirm the complete, correct recipient address with the customer.
-    2. **Change the recipient information:** Change the address in the recipient information section of the order details page.
+    2. **Change the recipient information:** Change the address in the recipient information section of the order detail page.
     3. **Download again:** After updating the address, download the shipping label again to generate a tracking number.
 
 === "Tracking Number Generated / Shipped"
@@ -144,8 +144,8 @@ With **EZCAT home delivery**, the system doesn't support fuzzy address matching.
 
 <div class="grid cards" markdown>
 
-- :lucide-truck:{ .ig .middle } [__Ship with EZCAT Home Delivery__](../home-delivery/tcat-home-delivery-v2.md)
-- :lucide-settings:{ .ig .middle } [__Set Up and Print Extra EZCAT Shipping Labels__](../../payments-and-logistics/setup-print-tcat-waybill-v2.md)
+- :lucide-truck:{ .ig .middle } [__Ship with T-CAT Home Delivery__](../home-delivery/tcat-home-delivery-v2.md)
+- :lucide-settings:{ .ig .middle } [__Set Up and Print Extra T-CAT Shipping Labels__](../../payments-and-logistics/setup-print-tcat-waybill-v2.md)
 
 </div>
 
@@ -180,10 +180,10 @@ If a package isn't dropped off within the validity period after the shipping lab
 If the convenience store a customer chose for pickup closes or is under renovation (a store closure), the system sends a notification email. You need to contact the customer to choose a new store before the deadline.
 
 1. **Contact the customer:** After receiving the store closure notice, confirm a new pickup store with the customer.
-2. **Choose a new store:** On the order details page, in the store information section, click **"Choose Store Again"** to set the new pickup store.
+2. **Choose a new store:** On the order detail page, in the store information section, click **"Choose Store Again"** to set the new pickup store.
 3. **Finish before the deadline:** Choose a new store and report it to the carrier within each channel's deadline:
-    * 7-Eleven (C2C store-to-store): **within 6 days**
-    * 7-Eleven (B2C bulk shipping): **within 2 days**
+    * 7-11 (C2C store-to-store): **within 6 days**
+    * 7-11 (B2C bulk shipping): **within 2 days**
     * FamilyMart: **within 6 days**
     * Hi-Life: Contact the customer **as soon as possible** to choose a new store
 
@@ -204,7 +204,7 @@ If the convenience store a customer chose for pickup closes or is under renovati
 
 If a shipping label file is lost, damaged, or didn't download, you can download the **already generated** shipping label again. You won't be charged again and no new tracking number is generated.
 
-1. **Find the reprint option:** On the order list or order details page, click **"Reprint Shipping Label"** for a shipped order (for convenience store pickup orders, it's **"Reprint Store Barcode"**).
+1. **Find the reprint option:** On the order list or order detail page, click **"Reprint Shipping Label"** for a shipped order (for convenience store pickup orders, it's **"Reprint Store Barcode"**).
 2. **Download again:** The system downloads the originally generated shipping label file again.
 
 !!! note "Note"
@@ -214,7 +214,7 @@ If a shipping label file is lost, damaged, or didn't download, you can download 
 
 ### DHL Shipping Exceptions { #operate-shipping-issue-dhl-problem }
 
-If a DHL shipment runs into an exception in transit, CYBERBIZ contacts you to help resolve it and keeps tracking it after it's resolved until the delivery status updates to "Received." You don't need to do anything; just watch for customer service notifications.
+If a DHL shipment runs into an exception in transit, CYBERBIZ contacts you to help resolve it and keeps tracking it after it's resolved until the delivery status updates to "Received." You don't need to do anything; just watch for customer support notifications.
 
 <div class="grid cards" markdown>
 
@@ -244,7 +244,7 @@ If a DHL shipment runs into an exception in transit, CYBERBIZ contacts you to he
 
 ??? quote "I found the recipient address was wrong after shipping"
     [](){ #faq-shipping-issue-address-after-ship }
-    Once a shipping label is generated (especially for EZCAT home delivery), the address can no longer be changed in the system. Print the shipping label, correct the address by hand, and tell the driver when handing over the package.
+    Once a shipping label is generated (especially for T-CAT home delivery), the address can no longer be changed in the system. Print the shipping label, correct the address by hand, and tell the driver when handing over the package.
 
 ## Next Steps { #next-steps-shipping-issue }
 
@@ -260,7 +260,7 @@ If a DHL shipment runs into an exception in transit, CYBERBIZ contacts you to he
 
 </div>
 
-## References { #reference-shipping-issue }
+## See Also { #reference-shipping-issue }
 
 * [Delivery Status Reference](../references/fulfillment-statuses.md)
 

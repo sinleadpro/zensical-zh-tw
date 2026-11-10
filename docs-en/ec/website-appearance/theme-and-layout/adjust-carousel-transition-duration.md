@@ -105,7 +105,7 @@ pagination: {
 
 ## Important Notes { #prerequisites-carousel-duration }
 
-- **Responsibility:** CYBERBIZ gives you access to edit the code but **does not provide coding tutorials or code-writing services**. Have your own technical staff make these changes.
+- **Responsibility:** CYBERBIZ gives you permission to edit the code but **does not provide coding tutorials or code-writing services**. Have your own technical staff make these changes.
 - **Recovery**: If the page breaks after your changes, click **View Previous Versions** in the editor to [roll back to an earlier version](../code-customization/restore-code-theme-editor.md#operate-restore-theme){ title="Restore Web Page Code with the Template Editor" }.
 
 ## FAQ { #faq-carousel-duration }

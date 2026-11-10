@@ -88,9 +88,9 @@ From top to bottom, the page covers three areas:
 
 Before you interpret the numbers, understand the shared calculation basis:
 
-- **Valid orders**: All figures count only valid orders. Canceled and returned orders are excluded. See [Valid Order Definition](references/member-analysis-definitions-reference.md#reference-member-valid-order){ data-preview }.
-- **Update time**: Data is updated the next day, so today's orders and registrations do not appear right away. See [Data Update Time](references/member-analysis-definitions-reference.md#reference-member-update-time){ data-preview }.
-- **New vs. returning**: "New members" on this page are based on registration time, which differs from the new and returning customer definitions in "Purchased Member Analysis." See [Two Definitions of New Members and New Customers](references/member-analysis-definitions-reference.md#reference-member-new-definitions){ data-preview }.
+- **Valid orders**: All figures count only valid orders. Canceled and returned orders are excluded. Details in [Valid Order Definition](references/member-analysis-definitions-reference.md#reference-member-valid-order){ data-preview }.
+- **Update time**: Data is updated the next day, so today's orders and registrations do not appear right away. Details in [Data Update Time](references/member-analysis-definitions-reference.md#reference-member-update-time){ data-preview }.
+- **New vs. returning**: "New members" on this page are based on registration time, which differs from the new and returning customer definitions in "Purchased Member Analysis." Details in [Two Definitions of New Members and New Customers](references/member-analysis-definitions-reference.md#reference-member-new-definitions){ data-preview }.
 
 ## Page Overview { #overview-member-analysis }
 
@@ -253,6 +253,6 @@ Some sections (trend charts, purchase count share, and so on) **have their own d
     - "New customers" in Purchased Member Analysis are based on **first order time**.
     - For a detailed comparison, see [Two Definitions of New Members and New Customers](references/member-analysis-definitions-reference.md#reference-member-new-definitions){ data-preview }.
 
-## References { #reference-member-analysis }
+## See Also { #reference-member-analysis }
 
 - [Member Analysis Shared Definitions](references/member-analysis-definitions-reference.md)

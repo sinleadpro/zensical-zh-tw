@@ -115,7 +115,7 @@ In the CYBERBIZ admin, every product you sell on your online storefront starts w
     The **Product Description** and **Settings** tabs appear only **after the product is saved**. When adding a product, fill in "Product Information" and save first. The system then switches to edit mode and shows the other tabs at the top.
 
 ??? tip "Adding or Updating Many Products?"
-    To create or change many products at once, use Excel bulk import instead of editing them one by one. See [Bulk import products](../bulk-operations/excel-import-products.md){ title="Import Products in Bulk from Excel" }.
+    To create or change many products at once, use Excel batch import instead of editing them one by one. Details in [Batch import products](../bulk-operations/excel-import-products.md){ title="Import Products in Bulk from Excel" }.
 
 ---
 
@@ -125,8 +125,8 @@ Before you start, note that the following features affect which fields and optio
 <!-- - [x] **Manage inventory (built in):** Available in variant management on all plans with no extra activation. -->
 - [x] **Member-exclusive prices (VIP):** Create VIP groups first to set exclusive prices for each group in variant management.
 - [x] **Product videos `PLUS/Enterprise`:** Shown correctly on the storefront only with the **drag-and-drop theme**.
-- [x] **Storefront multi-language:** Once enabled, a **language switcher** appears in the upper-right corner of the product edit page so you can fill in product text for each language. See [Multi-language product content](#operate-product-edit-multilang).
-- [x] **Cross-border / overseas sites:** If you operate an overseas site such as a Japan site, or have overseas warehousing enabled (such as Amazon fulfillment), additional settings such as tax category and fulfillment method appear. See [Cross-border sales settings](#operate-product-edit-crossborder).
+- [x] **Storefront multi-language:** Once enabled, a **language switcher** appears in the upper-right corner of the product edit page so you can fill in product text for each language. Details in [Multi-language product content](#operate-product-edit-multilang).
+- [x] **Cross-border / overseas sites:** If you operate an overseas site such as a Japan site, or have overseas warehousing enabled (such as Amazon fulfillment), additional settings such as tax category and fulfillment method appear. Details in [Cross-border sales settings](#operate-product-edit-crossborder).
 
 ---
 
@@ -219,7 +219,7 @@ Each variant has the following fields:
 
 ![Variant field settings](../../../assets/images/ec-product-variants-fields.zh-tw.en.png){ title="Variant Field Settings" }
 
-??? tip "Tip: Apply Settings to Variants in Bulk"
+??? tip "Tip: Apply Settings to Variants In Batches"
     After creating a multi-variant product, you can apply the same settings to multiple variants at once. Above the variants section, choose an option such as **Edit price, Edit inventory, or Edit volume and weight**, select the variants to apply it to, enter the values, and click **Apply**. Fields left blank don't change the existing variant values.
 
     ![Bulk edit variants](../../../assets/images/ec-multiple-variants-product-batch-edit.zh-tw.en.png){ title="Bulk Edit Variants" }
@@ -347,7 +347,7 @@ Steps:
 
     ![Language switcher menu](../../../assets/images/ec-商品-編輯商品-語言選單.en.png){ title="Language Switcher Menu" }
 
-3. **Enter the translations:** After switching, enter the translations for that language in the text fields (content on the Product Description tab also needs to be filled in per language).
+3. **Enter the translations:** After switching, fill in the translations for that language in the text fields (content on the Product Description tab also needs to be filled in per language).
 
     ![Edit content in different languages](../../../assets/images/ec-商品-編輯商品-編輯不同預言內容.en.png){ title="Edit Content in Different Languages" }
 
@@ -402,7 +402,7 @@ There's no separate "cross-border product" type. The settings needed for cross-b
 
 - :lucide-languages:{ .lg }  
   [__Set Up Multi-Language and Multi-Currency for Your Storefront__](../../website-management/setup-multi-language-and-multi-currency.md){ title="Set Up Multi-Language and Multi-Currency for Your Storefront" }  
-  Build a multi-language online store with local currency display.
+  Build a multi-language storefront with local currency display.
 
 - :lucide-search:{ .lg }  
   [__Google Shopping Ads Settings (GMC)__](../../integrations/google/setup-google-merchant-center.md){ title="Set Up Google Merchant Center and Sync CYBERBIZ Products" }  
@@ -416,7 +416,7 @@ There's no separate "cross-border product" type. The settings needed for cross-b
 
 ??? quote "I have many products. Do I have to create them one by one?"
     [](){ #faq-product-bulk-import }
-    No. When you have many products, we recommend **Excel bulk import** to create or update them all at once. See [Bulk import products](../bulk-operations/excel-import-products.md){ title="Import Products in Bulk from Excel" }.
+    No. When you have many products, we recommend **Excel bulk import** to create or update them all at once. Details in [Batch import products](../bulk-operations/excel-import-products.md){ title="Import Products in Bulk from Excel" }.
 
 ??? quote "Why does the storefront show 'Required' or not allow purchase even though I set a price?"
     [](){ #faq-product-no-price }
@@ -432,15 +432,15 @@ There's no separate "cross-border product" type. The settings needed for cross-b
 
 ??? quote "Can't find the language switcher menu?"
     [](){ #faq-product-no-language-switch }
-    The language switcher appears to the right of the product edit page title only after **storefront multi-language** is enabled. If you don't see it, your store hasn't enabled this feature; contact CYBERBIZ customer service.
+    The language switcher appears to the right of the product edit page title only after **storefront multi-language** is enabled. If you don't see it, your store hasn't enabled this feature; contact CYBERBIZ customer support.
 
 ??? quote "What's the difference between setting a product to 'Unpublished' and 'Disable Search'?"
     [](){ #faq-product-hidden-vs-search }
-    **Unpublished** hides the product completely from the storefront, and it can't be bought through its link. **Disable Search** only keeps the product out of on-site search results; customers can still buy it normally through the product link. See the [product status reference](../references/product-statuses.md#reference-product-statuses){ title="Product Status Reference" }.
+    **Unpublished** hides the product completely from the storefront, and it can't be bought through its link. **Disable Search** only keeps the product out of on-site search results; customers can still buy it normally through the product link. Details in the [product status reference](../references/product-statuses.md#reference-product-statuses){ title="Product Status Reference" }.
 
 ---
 
-## References { #reference-product }
+## See Also { #reference-product }
 
 - [Product Status Reference](../references/product-statuses.md){ title="Product Status Reference" }
 - [Fulfillment Method Reference](../references/product-warehouse.md){ title="Fulfillment Method Reference" }

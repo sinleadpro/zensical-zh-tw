@@ -75,20 +75,20 @@ hide: []
 ---
 
 # Set Up Coupons
-Learn how to set up coupons, including how to Send to all members (store-wide), send in bulk by import, and send to a single customer.
+Learn how to set up coupons, including how to Send to all members (store-wide), send in batch by import, and send to a single customer.
 { .subtitle }
 
 
 !!! tip "Use Cases"
 	- **First purchase**: Give a coupon at sign-up to make new customers more comfortable placing their first order.
 	- **Spending rewards**: Give a discount coupon when customers reach a spending threshold, encouraging bigger orders for a discount next time.
-	- **Targeted marketing**: Send exclusive coupons in bulk to specific member groups.
+	- **Targeted marketing**: Send exclusive coupons in batch to specific member groups.
 	- **Make-goods and surprises**: send manually a coupon to a single customer as service compensation or a holiday surprise.
 
 
 ## Before You Start { #prerequisites-coupon }
 
-- **Deletion limit**: Once a coupon is in a customer's account (import members), you can only delete it [one by one from the member's page](../../members/manage-member-profiles.md#operate-member-profiles-coupons). The system can't take coupons back in bulk.
+- **Deletion limit**: Once a coupon is in a customer's account (import members), you can only delete it [one by one from the member's page](../../members/manage-member-profiles.md#operate-member-profiles-coupons). The system can't take coupons back in batch.
 
 ### Cancellations And Returns { #prerequisites-coupon-intro-details }
 
@@ -99,7 +99,7 @@ Learn how to set up coupons, including how to Send to all members (store-wide), 
 | **Deduction on return** | Discount coupons earned by the order (Applicable only on orders that are) are **not deducted automatically from the customer's account** |
 
 
-## Send Coupons In Bulk With Excel { #operate-coupon }
+## Send Coupons In Batch With Excel { #operate-coupon }
 
 1. Go to **Marketing > 全館折扣-紅利 & 優惠券** and select **Bulk send Member exclusive coupons**.
 2. Click **Download Template**. Delete the sample content and keep only the blue header rows.
@@ -125,14 +125,14 @@ Learn how to set up coupons, including how to Send to all members (store-wide), 
 4. Save the file, go back to the admin, and click **Upload File** to finish the import.
 
 
-### Notification Rules For Bulk Coupons { #operate-coupon-send-coupon-notifications }
+### Notification Rules For Batch Coupons { #operate-coupon-send-coupon-notifications }
 
 - **Specific members**: After import, the system automatically sent an email or SMS notification to customers.
 - **All members (all)**: The system adds coupons to the member center automatically but **doesn't** send notifications.
 - **Who can receive them**: Only members registered on your store. Rows with emails not found in the system are skipped.
 
 
-## Send Coupons In Bulk With Filters { #operate-coupon-send-coupon }
+## Send Coupons In Batch With Filters { #operate-coupon-send-coupon }
 
 Go to **Customer Management > All Customers** and use member filters, or [send manually or delete coupons](../../members/manage-member-profiles.md#operate-member-profiles-coupons) for a specific person.
 

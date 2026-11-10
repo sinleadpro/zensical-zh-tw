@@ -98,7 +98,7 @@ Before editing, make sure the order meets the following conditions. Otherwise, e
 
 ### Open the Edit Order Page { #operate-order-edit-page }
 
-1.  **Open the order**: In the admin, go to **Orders > All Orders**, select the order to edit, and click its "order number" to open the order details page.
+1.  **Open the order**: In the admin, go to **Orders > All Orders**, select the order to edit, and click its "order number" to open the order detail page.
 2.  **Start editing**: Click **Edit Order** in the upper-right corner.
 
     ![Edit order button](../../../assets/images/EC-訂單詳情頁-編輯訂單按鈕.en.png){ title="Edit Order Button" }
@@ -228,7 +228,7 @@ Amounts change after editing as follows:
 
 If a "non-cash-on-delivery" order's amount changes after editing, the system payment link doesn't update the amount. Arrange the additional payment or refund offline with the customer, then update the status manually in the admin.
 
-1. **Check the amount**: In the "Payment Status" field on the order details page, check:
+1. **Check the amount**: In the "Payment Status" field on the order detail page, check:
     - **Amount paid**: The total the customer originally paid.
     - **Amount to collect / refund**: The difference created by editing the order.
 

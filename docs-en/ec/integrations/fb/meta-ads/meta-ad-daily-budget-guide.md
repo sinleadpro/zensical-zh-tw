@@ -104,7 +104,7 @@ If this is your first time running ads and you have no past CPA data to referenc
 3.  **Focus on high-performing audiences**: Prioritize budget for ads that perform well, and use a **retargeting strategy** to target users who have shown interest. This usually lowers costs.
 4.  **Creative testing**: Keep testing different ad creatives to improve engagement and lower CPA.
 
-## Frequently Asked Questions { #faq-meta-budget }
+## FAQ { #faq-meta-budget }
 
 ??? quote "What are the budget thresholds for traffic ads and sales ads?"
 

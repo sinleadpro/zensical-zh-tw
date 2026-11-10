@@ -79,7 +79,7 @@ comments: false
 - **Drag to reorder:** Drag blocks up or down with your mouse to change their order on the page.
 - **Edit content:** Click a block, and then enter text, upload images, set links, and choose products in the panel.
 - **Preview live:** The center view shows your changes as you make them, and you can switch between desktop, tablet, and mobile views.
-- **Publish:** When everything looks right, publish with one click to apply the theme to your live website.
+- **Publish:** When everything looks right, publish with one click to apply the theme to your live storefront.
 
 The editor has three main areas: **the block list on the left, the live preview in the center, and the block settings on the left**. Everything you do happens in these three areas.
 
@@ -145,7 +145,7 @@ The steps below follow everyday use, from opening the editor to publishing.
 
 ![Open the drag-and-drop theme editor](../../../assets/images/ec-網站外觀-套版主題管理-網站設定.en.png)
 
-[^default-theme]: If a theme isn't labeled "draggable" (that is, an older default theme), clicking "Theme Setting" opens the legacy website settings page instead of the drag-and-drop editor described here.
+[^default-theme]: If a theme isn't labeled "draggable" (that is, an older default theme), clicking "Theme Setting" opens the legacy website setup page instead of the drag-and-drop editor described here.
 
 ---
 
@@ -167,8 +167,8 @@ The steps below follow everyday use, from opening the editor to publishing.
 ### Edit Block Content { #operate-theme-editor-edit-settings }
 
 1. **Click a block:** Click any block in the list on the left, and the panel shows that block's settings.
-2. **Fill in the content:** Enter content based on the block type. Common settings include:
-    * **Text:** Type titles and description text, and then press ++enter++ to apply the change.
+2. **Fill in the content:** Fill in content based on the block type. Common settings include:
+    * **Text:** Enter titles and description text, and then press ++enter++ to apply the change.
     * **Image:** Click **Choose Image** or **Upload image** to upload a file, or choose **Paste image URL** to enter an external image URL.
     * **Link:** Set the page or URL to go to when the block is clicked.
     * **Product:** Use **Select Products** to choose the products to show in the block.
@@ -216,7 +216,7 @@ You can temporarily hide any block instead of deleting it:
 
 ### Switch Pages and Preview { #operate-theme-editor-preview }
 
-1. **Switch the page you're editing:** Use the page drop-down menu in the top toolbar to switch the page you're editing and previewing (for example, the homepage or a product page).
+1. **Switch the page you're editing:** Use the page dropdown menu in the top toolbar to switch the page you're editing and previewing (for example, the homepage or a product page).
 
     ![Switch pages](../../../assets/images/ec-網站外觀-拖拉版型編輯器-切換頁面.en.png)
 
@@ -300,7 +300,7 @@ Besides the block actions above, drag-and-drop themes have the following additio
 
 - :lucide-panel-top:{ .lg }  
   [__Page Settings__](setup-theme-page-settings.md){ title="Page Settings Guide" }  
-  Fine-tune settings by page type, including homepage blocks, product pages, blogs, the customer service page, and more.
+  Fine-tune settings by page type, including homepage blocks, product pages, blogs, the customer support page, and more.
 
 </div>
 

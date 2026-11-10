@@ -89,9 +89,9 @@ hide: []
 
 ![LINE Binding Member Gift coupon](../../../../assets/images/ec-第三方整合-line-綁定會員送優惠券.en.png){ .hero-page title="LINE Binding Member Gift coupon" }
 
-## LINE Member Binding Gift Coupon Overview { #operate-line-coupon }
+## LINE Member Linking Gift Coupon Overview { #operate-line-coupon }
 
-**LINE Binding Member Gift coupon** is designed to increase customers' willingness to bind their LINE Official Account to their website member account by offering coupon as an incentive. This strengthens the connection between the brand and its customers.
+**LINE Binding Member Gift coupon** is designed to increase customers' willingness to link their LINE Official Account to their website member account by offering coupon as an incentive. This strengthens the connection between the brand and its customers.
 
 The following sections explain how this feature works and how to set it up:
 
@@ -107,7 +107,7 @@ Before enabling this feature, merchants must complete the following:
 
 1. **Go to the Settings Page:** Access the admin panel and click **Third-Party Integration > LINE OA Marketing Campaigns**.
 
-2. **Enable the Feature:** On the page, find "**LINE @ Binding Gift coupon Feature**" and switch the toggle to **ON**. Once enabled, customers who complete binding automatically receive the default coupon.
+2. **Enable the Feature:** On the page, find "**LINE @ Binding Gift coupon Feature**" and switch the toggle to **ON**. Once enabled, customers who complete linking automatically receive the default coupon.
 
 3. **Basic Setup**
 
@@ -142,17 +142,17 @@ Before enabling this feature, merchants must complete the following:
 
 5. **Apply Settings:** After completing the settings, click **Save** to apply the changes.
 
-## Key to Guiding Customers to Bind { #operate-line-coupon-bind }
+## Key to Guiding Customers to Link { #operate-line-coupon-bind }
 
-To ensure the system correctly identifies binding behavior and sends coupon, merchants **must** have customers bind through the following specific link:
+To ensure the system correctly identifies linking behavior and sends coupon, merchants **must** have customers link through the following specific link:
 
 - **Exclusive Binding Link**: `https://your-domain/customer/auth/line?line_action=line_login`.
 
-- **Suggested Use**: Merchants can place this link in the [LINE **Rich Menu**](../marketing/setup-line-rich-menu.md){ title="Set Up LINE Rich Menu" }  or in the [**Welcome Message for New Friends**](bind-line-oa-store-members.md#operate-line-bind-welcome){ title="Bind LINE Official Account to Website Member" }, encouraging new friends to click and bind immediately.
+- **Suggested Use**: Merchants can place this link in the [LINE **Rich Menu**](../marketing/setup-line-rich-menu.md){ title="Set Up LINE Rich Menu" }  or in the [**Welcome Message for New Friends**](bind-line-oa-store-members.md#operate-line-bind-welcome){ title="Bind LINE Official Account to Website Member" }, encouraging new friends to click and link immediately.
 
 ## Advanced Tips { #intro-line-coupon }
 
-If many registered members have not yet bound their LINE OA, merchants can use the "**LINE OA Friend Invitation**" feature. This feature sends invitation messages with incentives via SMS or Email, encouraging members to complete binding and claim the offer.
+If many registered members have not yet linked their LINE OA, merchants can use the "**LINE OA Friend Invitation**" feature. This feature sends invitation messages with incentives via SMS or Email, encouraging members to complete linking and claim the offer.
 
 <div class="grid cards" markdown>
 
@@ -169,17 +169,17 @@ If many registered members have not yet bound their LINE OA, merchants can use t
 </div>
 
 
-## Frequently Asked Questions { #faq-line-coupon }
+## FAQ { #faq-line-coupon }
 
-??? quote "Why didn't customers receive coupon after completing binding?"
+??? quote "Why didn't customers receive coupon after completing linking?"
 	Check the following troubleshooting steps in order:
 
-	1. **Link Accuracy**: Check whether the customer bound through the exclusive link `?line_action=line_login`. If they only logged in normally without this parameter, the system cannot identify the event as a "binding campaign."
+	1. **Link Accuracy**: Check whether the customer linked through the exclusive link `?line_action=line_login`. If they only logged in normally without this parameter, the system cannot identify the event as a "binding campaign."
 	2. **Feature Toggle**: Confirm that the "LINE @ Binding Gift coupon Feature" is switched to **ON**.
-	3. **Messaging API Status**: Check whether the API connection in `Third-Party Integration > LINE Settings` shows as normal.
-	4. **Claim History**: Check whether the customer previously unbound and then bound again. Each member account can usually claim only once.
+	3. **Messaging API Status**: Check whether the API integration in `Third-Party Integration > LINE Settings` shows as normal.
+	4. **Claim History**: Check whether the customer previously unbound and then linked again. Each member account can usually claim only once.
 
-??? quote "If a customer is already a LINE friend and binds now, can they still claim the coupon?"
+??? quote "If a customer is already a LINE friend and links now, can they still claim the coupon?"
 	**Yes.** As long as the member's website account is not yet linked to a LINE UID and they complete the "binding process" through the designated path, the system triggers the coupon issuance mechanism. This feature is not limited to "new friends." It applies to "new binding actions."
 
 ??? quote "What is the specific difference between "per product" and "per order" in combination restrictions?"

@@ -74,7 +74,7 @@ comments: false
 
 ## LINE Audience Integration Guide { #operate-line-audience }
 
-**LINE OA Audience Integration** lets merchants use the back-office member filter to package the UIDs of members who used "LINE quick login" or "linked LINE OA" and send them to the LINE backend to create an audience. This is useful for later **targeted message push** or **LAP ad targeting**.
+**LINE OA Audience Integration** lets merchants use the admin member filter to package the UIDs of members who used "LINE quick login" or "linked LINE OA" and send them to the LINE backend to create an audience. This is useful for later **targeted message push** or **LAP ad targeting**.
 
 Below are the detailed steps and instructions:
 
@@ -88,12 +88,12 @@ Below are the detailed steps and instructions:
 1. **Access path**: Go to the admin dashboard **Customer Management > All Customers**.
 2. **Set filter conditions**: Click the search bar to open the "Filter" panel. You **must** add at least one of the following conditions. Otherwise, the audience cannot be sent to LINE:
     - LINE login completed
-    - LINE binding completed
-    - LINE login or LINE binding completed
+    - LINE linking completed
+    - LINE login or LINE linking completed
 
 	![Member filter - LINE audience condition](../../../../assets/images/ec-會員-所有會員-會員篩選器-line受眾條件.en.png){ title="Member filter - LINE audience condition" }
 
-3. **Apply and save**: After you finish the settings, click **Apply**. After you confirm the list is correct, click **Save** in the block on the right.
+3. **Apply and save**: After you finish the settings, click **Apply**. After you confirm the list is correct, click **Save** in the section on the right.
 4. **Enter information**: Enter the audience's "Name" and "Description", **check the boxes below**, and then click "Confirm".
 
 	![LINE audience segment creation](../../../../assets/images/ec-會員-所有會員-會員篩選器-line受眾分群建立.en.png){ title="LINE audience segment creation" }
@@ -138,7 +138,7 @@ Below are the detailed steps and instructions:
 
 !!! info "Learn more about [What is LINE Performance-Based Ad Targeting (LAP)? :lucide-external-link:](https://tw.linebiz.com/service/display-solutions/line-ads-platform/)."
 
-## Frequently Asked Questions { #faq-line-audience }
+## FAQ { #faq-line-audience }
 
 ??? quote "Why can't I see the synced audience in the LINE backend?"
 	Check the following:

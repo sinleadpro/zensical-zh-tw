@@ -73,14 +73,14 @@ hide: []
 
 ![Packing slip settings](../../../assets/images/EC-金物流-結帳頁物流設定-列印出貨明細-hero.en.png){ title="Packing Slip Settings" .hero-page }
 
-## About Packing Slips { #intro-shipping-print }
+## About Shipment Details { #intro-shipping-print }
 
 A "packing slip" is a printed document for internal warehouse, picking, and shipping staff during fulfillment. It's usually kept with the package during shipping to help check shipments and hand off work internally.
 
 This page explains how to do the following in the admin
 
-- Customize what the packing slip shows
-- Get packing slips during actual fulfillment.
+- Customize what the shipment details show
+- Get shipment details during actual fulfillment.
 
 To set up the "order details" sent to customers with the package, see [Set Up and Print Order Details](order-detail-print.md){ title="Set Up and Print Order Details" }.
 
@@ -89,13 +89,13 @@ To set up the "order details" sent to customers with the package, see [Set Up an
     The system has two kinds of documents for different purposes, and you can set up each one's content separately:
 
     *   **Order details (customer)**: Usually include full item details, unit prices, amounts, and delivery method.
-    *   **Packing slip (staff)**: Mainly for warehouse or shipping staff. Usually includes only item quantities and the delivery address, **without the order amount**, to keep it simple and save costs.
+    *   **Shipment details (staff)**: Mainly for warehouse or shipping staff. Usually includes only item quantities and the delivery address, **without the order amount**, to keep it simple and save costs.
 
 ## Steps { #operate-shipping-print }
 
-### Set Up Packing Slip Content { #operate-shipping-detail-settings }
+### Set Up Shipment Details Content { #operate-shipping-detail-settings }
 
-#### 1. Open Packing Slip Print Settings { #operate-shipping-detail-enter }
+#### 1. Open Shipment Details Print Settings { #operate-shipping-detail-enter }
 
 In the admin sidebar, find the following path (it varies slightly by admin menu version):
 
@@ -118,7 +118,7 @@ The panel has 9 checkboxes you can combine to fit your internal fulfillment proc
 
 !!! tip "Keep It Simple"
 
-    The packing slip is an internal process document. We recommend selecting only the minimum information needed for picking and checking shipments, which saves paper and helps staff read faster. Sensitive customer information such as amounts, bonus points, and personal data usually doesn't need to appear on it.
+    The shipment details are an internal process document. We recommend selecting only the minimum information needed for picking and checking shipments, which saves paper and helps staff read faster. Sensitive customer information such as amounts, bonus points, and personal data usually doesn't need to appear on it.
 
 ---
 
@@ -169,15 +169,15 @@ To undo your changes, click **"Restore Default Template"** to reset to the syste
 
 !!! info "Packing Slips Have No Header Reminder Text"
 
-    Unlike order details, the packing slip's advanced settings page has no "Header Reminder Text Title / Content" fields. That's because the packing slip is an internal document and doesn't need customer-facing copy.
+    Unlike order details, the shipment details' advanced setup page has no "Header Reminder Text Title / Content" fields. That's because the shipment details are an internal document and doesn't need customer-facing copy.
 
-### Print Packing Slips { #operate-shipping-detail-print }
+### Print Shipment Details { #operate-shipping-detail-print }
 
-After you finish [setting up the content](#operate-shipping-detail-settings), packing slips can't be printed on their own like order details. Instead, they're generated with other shipping documents during **bulk shipping and packing**:
+After you finish [setting up the content](#operate-shipping-detail-settings), shipment details can't be printed on their own like order details. Instead, they're generated with other shipping documents during **batch shipping and packing**:
 
 1. In the admin menu, go to **Orders** > **All Orders**.
 2. Select one or more orders to ship in the order list.
-3. Click the actions drop-down above the list (shown as **Actions...** or **"Actions"** depending on the admin version).
+3. Click the actions dropdown above the list (shown as **Actions...** or **"Actions"** depending on the admin version).
 4. Select **Download** and specify the carrier to download for.
 5. The system generates a ZIP archive containing:
 
@@ -192,9 +192,9 @@ After you finish [setting up the content](#operate-shipping-detail-settings), pa
 
     ![Packing slip example image](../../../assets/images/出貨明細範例.en.png){ title="Packing Slip Example Image" }
 
-??? quote "Why is there no separate "Print Packing Slip" option?"
+??? quote "Why is there no separate "Print Shipment Details" option?"
 
-    Packing slips are designed to be generated together with "shipping labels." Merchants usually need the shipping label, packing slip, and pick list at the same step when preparing shipments, so the system generates them together in one ZIP instead of printing each one separately. If you only need the customer-facing document, see the [Print Order Details](order-detail-print.md){ title="Set Up and Print Order Details" } process.
+    Shipment details are designed to be generated together with "shipping labels." Merchants usually need the shipping label, shipment details, and picking list at the same step when preparing shipments, so the system generates them together in one ZIP instead of printing each one separately. If you only need the customer-facing document, see the [Print Order Details](order-detail-print.md){ title="Set Up and Print Order Details" } process.
 
 ## Next Steps { #next-steps-shipping-print }
 
@@ -206,7 +206,7 @@ After you finish [setting up the content](#operate-shipping-detail-settings), pa
 
 - :lucide-truck:{ .lg }  
   [__Order Fulfillment Flow__](../basics/order-fulfillment-flow.md){ title="Order Fulfillment Flow" }  
-  Learn the full fulfillment process, from single shipments to bulk packing, covering home delivery, convenience store pickup, and custom logistics.
+  Learn the full fulfillment process, from single shipments to batch packing, covering home delivery, convenience store pickup, and custom logistics.
 
 </div>
 
@@ -216,13 +216,13 @@ After you finish [setting up the content](#operate-shipping-detail-settings), pa
 ??? quote "The packing slip looks a lot like the order details. How should I use each one?"
 
     - **Order details**: For customers, put in the package. We recommend selecting information customers care about, such as Orderer Information, Invoice Information, and Customer's Expected Bonus Points.
-    - **Packing slip**: For internal shipping staff, to help with picking and checking. We recommend selecting information the fulfillment process needs, such as SKU, vendor number, and delivery date.
+    - **Shipment details**: For internal shipping staff, to help with picking and checking. We recommend selecting information the fulfillment process needs, such as SKU, vendor number, and delivery date.
 
     Although the two share some fields, in practice you can clearly separate them by "selecting different items."
 
 ??? quote "Does the packing slip show the customer's name / address?"
 
-    Yes (recipient information taken from the shipping label). If customers might see the packing slip (for example, if it's stuck on the outside of the package), we recommend adding custom masking in the template, or simply not putting the packing slip outside the package.
+    Yes (recipient information taken from the shipping label). If customers might see the shipment details (for example, if it's stuck on the outside of the package), we recommend adding custom masking in the template, or simply not putting the shipment details outside the package.
 
 ??? quote "Why didn't the ZIP contents change the next time I shipped after clicking "Save"?"
 
@@ -235,30 +235,30 @@ After you finish [setting up the content](#operate-shipping-detail-settings), pa
 
 ??? quote "Can I download only the packing slip without the other documents?"
 
-    The admin doesn't currently support downloading the packing slip alone. If you need it, download from the order list and then use only the packing slip PDF from the ZIP.
+    The admin doesn't currently support downloading the shipment details alone. If you need it, download from the order list and then use only the shipment details PDF from the ZIP.
 
 ??? quote "What's the difference between a packing slip and a pick list?"
 
-    - **Packing slip**: Similar in format to order details; good for a final check before packing.
-    - **Pick list**: A simplified version designed for warehouse staff to "pick from a list." It usually lists only item name, SKU, quantity, and storage location.
+    - **Shipment details**: Similar in format to order details; good for a final check before packing.
+    - **Picking list**: A simplified version designed for warehouse staff to "pick from a list." It usually lists only item name, SKU, quantity, and storage location.
 
     Both are included in the shipping ZIP.
 
 
 
-## References { #reference-shipping-print }
+## See Also { #reference-shipping-print }
 
-### Packing Slip Field Reference { #reference-shipping-detail-fields }
+### Shipment Details Field Reference { #reference-shipping-detail-fields }
 
 
 | Option | Printed Result | Use Case |
 | :-- | :-- | :-- |
-| Show Logo Image | Prints the store logo at the top of the packing slip | Identify the source when multiple brands share a warehouse |
+| Show Logo Image | Prints the store logo at the top of the shipment details | Identify the source when multiple brands share a warehouse |
 | Product SKU | Adds the SKU number to printed items | Main basis for warehouse picking |
 | Product Image | Adds thumbnails to printed items | Helps pickers check items visually |
 | Product Vendor Number | Adds the supplier number to printed items | Checking multi-vendor drop shipping and consignment warehousing |
 | Order Payment Method | Prints the payment method the customer chose | Usually not selected (customer information) |
-| Order Additional Information | Prints the notes the customer entered at checkout | Custom requests, gift notes, special instructions |
+| Order Additional Information | Prints the notes the customer filled in at checkout | Custom requests, gift notes, special instructions |
 | Delivery Date and Time Slot | Prints the delivery time the customer specified | Scheduled shipping, fresh food time control |
 | Invoice Information | Prints e-invoice information | Usually not selected (customer information) |
 | Shipping Staff Information | Prints the admin user who handled this shipment | Accountability when multiple people handle fulfillment |
@@ -266,7 +266,7 @@ After you finish [setting up the content](#operate-shipping-detail-settings), pa
 !!! note "Notes"
 
     - Options only "add" content to the printout. Cleared fields aren't printed, but stored data isn't affected.
-    - Packing slips have no "Header Reminder Text / Image" settings.  
+    - Shipment details have no "Header Reminder Text / Image" settings.  
 
 ---
 

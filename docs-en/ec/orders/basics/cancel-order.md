@@ -81,13 +81,13 @@ There are three ways an order can be canceled. Choose the one that fits your sit
 
 === ":lucide-receipt: Regular Orders"
 
-    1.  **Open the order details page**: In the admin, go to "**Orders**" > "**All Orders**" and click the order number to open the order details page.
+    1.  **Open the order detail page**: In the admin, go to "**Orders**" > "**All Orders**" and click the order number to open the order detail page.
     2.  **Click the cancel button**: Click the red "**Cancel Order**" button in the upper-right corner.
 
         ![Order details page: cancel order](../../../assets/images/EC-訂單詳情頁-取消訂單.en.png){ title="Order Details Page: Cancel Order" }
 
     3.  **Set cancellation options**: In the dialog, set the following:
-        - **Cancellation reason**: Required. Select a reason from the drop-down menu (such as out of stock, customer request, or duplicate order).
+        - **Cancellation reason**: Required. Select a reason from the dropdown menu (such as out of stock, customer request, or duplicate order).
         - **Send notification email**: If selected, the system sends a cancellation email to the customer.
         - **Flag account**: If selected, the customer's account is flagged for future reference.
 
@@ -107,10 +107,10 @@ There are three ways an order can be canceled. Choose the one that fits your sit
 
     Canceling a Shop.com order also requires notifying the Shop.com system, so the process is slightly different from regular orders.
 
-       1.  **Open the order details page**: In the admin, go to "**Orders**" > "**All Orders**" and click the order number to open the order details page.  
+       1.  **Open the order detail page**: In the admin, go to "**Orders**" > "**All Orders**" and click the order number to open the order detail page.  
        2.  **Click the cancel button**: Click the red "**Cancel Order**" button in the upper-right corner.
        3.  **Set cancellation options**: In the dialog, set the following:  
-           - **Cancellation reason**: Required. Select a reason from the drop-down menu.
+           - **Cancellation reason**: Required. Select a reason from the dropdown menu.
            - **Send notification email**: If selected, the system sends a cancellation email to the customer.  
            - **Flag account**: If selected, the customer's account is flagged.  
            - **Cancel order with Shop.com**: If selected, the system also sends a cancellation request to Shop.com (SHOP.COM).  
@@ -129,8 +129,8 @@ There are three ways an order can be canceled. Choose the one that fits your sit
     ??? warning "Resend a Shop.com Cancellation Manually"  
         If you didn't select "Cancel order with Shop.com" when canceling, or a network issue caused the sync status to show "Cancellation Failed," follow these steps to resend the information to Shop.com manually:
 
-        1. **Open the order details page**: In the admin, go to "Orders" > "Shop.com Orders" and click the number of the canceled order.
-        2. **Start the resend**: In the upper-right corner of the order details page, click "Cancel Order with Shop.com."
+        1. **Open the order detail page**: In the admin, go to "Orders" > "Shop.com Orders" and click the number of the canceled order.
+        2. **Start the resend**: In the upper-right corner of the order detail page, click "Cancel Order with Shop.com."
         3. **Confirm the cancellation details**: In the dialog, confirm the cancellation amount (the system fills in the amount excluding shipping).
 
         *Requirements: The order must be "Canceled," and the Shop.com sync status must not be "Cancellation Successful."*
@@ -147,10 +147,10 @@ You can choose whether customers can cancel unshipped orders themselves on the s
 
 **Setup**
 
-Turn on this feature in the admin first:
+Enable this feature in the admin first:
 
-1. **Open the settings page**: In the admin, go to "Payment and Logistics" > "Checkout Page & Logistics."
-2. **Turn on the feature**: Find and expand the "Customer Order Cancellation Settings" section and select "Customers Can Cancel Orders."
+1. **Open the setup page**: In the admin, go to "Payment and Logistics" > "Checkout Page & Logistics."
+2. **Enable the feature**: Find and expand the "Customer Order Cancellation Settings" section and select "Customers Can Cancel Orders."
 3. **Save the settings**: Click "Save" at the bottom of the page. The setting takes effect immediately.
 
 ![Customer order cancellation and return request settings](../../../assets/images/EC-金物流-結帳頁物流設定-顧客取消訂單申請退貨.en.png){ title="Customer Order Cancellation and Return Request Settings" }
@@ -159,7 +159,7 @@ Turn on this feature in the admin first:
 
 **Customer Steps**
 
-After the feature is turned on, customers can:
+After the feature is enabled, customers can:
 
 1. **Find the order**: Sign in to the website as a member and go to "My Account" > "Order Lookup."
 
@@ -171,7 +171,7 @@ After the feature is turned on, customers can:
 
     !!! info "Limitations"
         - Only orders with the delivery status "**Unshipped**" can be canceled.
-        - If the order is "Preparing" or "Shipped," customers can't cancel it themselves and need to contact customer service.
+        - If the order is "Preparing" or "Shipped," customers can't cancel it themselves and need to contact customer support.
 
 3. **Confirm cancellation**: Check the information in the dialog and click "Confirm Cancellation."
 
@@ -190,13 +190,13 @@ To keep unpaid orders from holding inventory for too long, you can set a "paymen
 
 **Steps**:
 
-1.  **Open the settings page**: In the admin, go to "**Payment and Logistics**" > "**Checkout Page & Logistics**" and find the "**Automatic Order Cancellation**" section.
+1.  **Open the setup page**: In the admin, go to "**Payment and Logistics**" > "**Checkout Page & Logistics**" and find the "**Automatic Order Cancellation**" section.
 2.  **Set the payment deadline**: Enter the number of days (1-29) in "**Cancel automatically after X days**."
     - If set to `0` days, the feature is turned off.
     - If not set or set to more than 29 days, virtual ATM accounts are valid for a maximum of 29 days.
 3.  **Save the settings**: Click "**Save**" at the bottom of the page, and the setting takes effect.
     - Once in effect, the rule applies to all unpaid orders, whether placed before or after the setting.
-4.  **Check the activity log** (optional): After cancellation, you can see the cancellation information the system recorded in the "[Activity Log](order-management-interface.md#reference-order-history){ title="Order Management Interface" }" section of the order details page, for reconciliation and customer service.
+4.  **Check the activity log** (optional): After cancellation, you can see the cancellation information the system recorded in the "[Activity Log](order-management-interface.md#reference-order-history){ title="Order Management Interface" }" section of the order detail page, for reconciliation and customer support.
 
 ![Automatic order cancellation settings](../../../assets/images/EC-金物流-結帳頁物流設定-訂單自動取消.en.png){ title="Automatic Order Cancellation Settings" }
 
@@ -279,7 +279,7 @@ For payment methods that use a code, the "payment deadline" depends on the numbe
 
 - :lucide-file-text:{ .lg }  
   [__Order Activity Log__](order-management-interface.md#reference-order-history){ title="Order Management Interface" }
-  See the history of order status changes and who made them, for reconciliation and customer service.
+  See the history of order status changes and who made them, for reconciliation and customer support.
 
 </div>
 
@@ -289,7 +289,7 @@ For payment methods that use a code, the "payment deadline" depends on the numbe
 
     Possible reasons:
 
-    - "Customer Order Cancellation Settings" isn't turned on in "Payment and Logistics" > "Checkout Page & Logistics"
+    - "Customer Order Cancellation Settings" isn't enabled in "Payment and Logistics" > "Checkout Page & Logistics"
     - The order's delivery status isn't "Unshipped"
     - The website doesn't use a "drag-and-drop theme"; this feature works only with drag-and-drop themes
 
@@ -299,7 +299,7 @@ For payment methods that use a code, the "payment deadline" depends on the numbe
 
 ??? quote "After canceling a Shop.com order, how do I confirm Shop.com has synced?"
 
-    After the cancellation request is sent, check the Shop.com sync status on the order details page:
+    After the cancellation request is sent, check the Shop.com sync status on the order detail page:
 
     - **Cancellation Processing**: Waiting for the Shop.com API response
     - **Cancellation Successful**: Shop.com confirmed the cancellation

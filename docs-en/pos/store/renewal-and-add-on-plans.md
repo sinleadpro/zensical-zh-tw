@@ -73,7 +73,7 @@ Renew your POS system or add sub-terminals directly in the admin dashboard, with
     - **Before the contract expires**: Renew on your own in the admin dashboard to keep your POS service running without interruption.
     - **Expand checkout counters**: If a single store needs multiple POS terminals operating at the same time, you can add sub-terminal licenses.
 
-## Usage Notes { #prerequisites-renewal-plans }
+## Before You Start { #prerequisites-renewal-plans }
 
 - **Payment method**: When you renew or add sub-terminals, **no upfront payment is required**. The system collects payment through the **statement**.
 - **Sub-terminal definition**: If a single POS store needs multiple checkout points operating at the same time, you must add **sub-terminal** licenses.

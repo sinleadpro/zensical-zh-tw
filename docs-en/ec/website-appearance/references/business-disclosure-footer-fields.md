@@ -54,8 +54,8 @@ hide:
 | Title | The heading of the contact information section on the storefront. The default is "Contact Information." |
 | Show phone number / Phone number | A display toggle plus the phone number shoppers use to reach customer service |
 | Show fax number / Fax number | A display toggle plus the fax number |
-| Show business hours / Business hours | A display toggle plus a description of business (customer service) hours |
-| Show email / Email | A display toggle plus the customer service email |
+| Show business hours / Business hours | A display toggle plus a description of business (customer support) hours |
+| Show email / Email | A display toggle plus the customer support email |
 | Show address / Address | A display toggle plus the company or store address |
 | Show tax ID number / Tax ID number | A display toggle plus the tax ID number, used to disclose the business's Unified Business Number |
 

@@ -77,7 +77,7 @@ hide: []
 
 ## About Theme Management { #intro-theme }
 
-"Theme Management" is where you manage your website's look. You can have multiple themes and switch the one shown to the public at any time. The page manages themes on two tabs:
+"Theme Management" is where you manage your storefront's look. You can have multiple themes and switch the one shown to the public at any time. The page manages themes on two tabs:
 
 - **Published Theme**: The theme that is currently live and seen by customers. Changes to it take effect right away.
 - **Unpublished Themes**: Themes you downloaded but haven't published. You can edit and preview them here first, and publish them when they're ready.
@@ -111,7 +111,7 @@ Each theme card shows the theme name, installation time, and theme labels (such 
 Before you download and switch themes, note these two points:
 
 - [x] **Theme limit for your plan**: Each store can install a limited number of themes, depending on your current plan. When you reach the limit, the system shows "Theme limit reached," and you must delete an unused theme before you can download a new one.
-- [x] **Multilingual websites**: If you run a multilingual website (such as a North America or Japan website), choose a theme labeled "Multilingual Theme" in the theme library so storefront language switching works correctly.
+- [x] **Multilingual websites**: If you run a multilingual storefront (such as a North America or Japan storefront), choose a theme labeled "Multilingual Theme" in the theme library so storefront language switching works correctly.
 
 ---
 
@@ -131,21 +131,21 @@ The steps below are organized by common scenario. Jump to the section you need.
 ![Browse the theme library](../../../assets/images/ec-website-appearance-theme-manager-browse-themes.en.png)
 
 !!! note "Note"
-    Downloading a theme only adds it to your "Unpublished Themes." It doesn't affect your live website. You can safely download first, edit at your own pace, and publish when you're ready.
+    Downloading a theme only adds it to your "Unpublished Themes." It doesn't affect your live storefront. You can safely download first, edit at your own pace, and publish when you're ready.
 
 
 ---
 
 ### Edit a Theme Before It Goes Live { #operate-theme-edit }
 
-On the "Unpublished Themes" tab, each theme card has an "Actions" drop-down menu and a "Theme Setting" button:
+On the "Unpublished Themes" tab, each theme card has an "Actions" dropdown menu and a "Theme Setting" button:
 
 1. **Adjust layout and content**: Click **Theme Setting** to open the theme's settings and adjust its layout, text, and images[^b].
 2. **In-depth customization**: In the "Actions" menu, choose **CSS/HTML Editor** to edit the theme's HTML, CSS, and other code.
-3. **Preview**: In the "Actions" menu, choose **Preview**. The system opens a new tab that shows your website with that theme.
+3. **Preview**: In the "Actions" menu, choose **Preview**. The system opens a new tab that shows your storefront with that theme.
 4. **Rename**: Click the theme name to change it, which helps you tell versions apart.
 
-[^b]: Drag-and-drop themes open the drag-and-drop editor. Default themes open the website settings page.
+[^b]: Drag-and-drop themes open the drag-and-drop editor. Default themes open the website setup page.
 
 ![Edit an unpublished theme](../../../assets/images/ec-website-appearance-theme-manager-edit-unpublished.en.png)
 
@@ -262,6 +262,6 @@ Default themes no longer get new features or updates. When you open a new store 
 
 ---
 
-## References { #reference-theme }
+## See Also { #reference-theme }
 
 - [Theme Types Reference](../references/theme-types.md)

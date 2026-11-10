@@ -85,7 +85,7 @@ Apply for and install a wired credit card machine, including adapter cable selec
     - **Accurate Reconciliation**: Every card transaction has a matching system order number, which makes back-office reconciliation easier.
 
 
-## Usage Notes { #prerequisites-taishin-terminal }
+## Before You Start { #prerequisites-taishin-terminal }
 
 - **Application Timeline**: The bank reviews credit card machine applications. Timing depends on the bank's processing schedule.
 - **Payment Type**: The system distinguishes between "integrated card machines" and "non-integrated card machines". This tutorial covers **integrated credit card machines**.
@@ -155,7 +155,7 @@ Before connecting the hardware, install the communication driver on your compute
 
 
 
-### Step 4: Back Office Activation and Checkout Test { #operate-taishin-terminal-step-d-admin }
+### Step 4: Admin Activation and Checkout Test { #operate-taishin-terminal-step-d-admin }
 
 1. **Back Office Setup**:
     - Log in to the admin panel and go to **POS > POS Store List**.

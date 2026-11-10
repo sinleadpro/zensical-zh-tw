@@ -112,7 +112,7 @@ Scheduled carousels use a three-level structure: "block > slot > schedule." Firs
 
 ### Add Banner Ad Slots { #operate-scheduled-carousel-add-slot }
 
-1. **Add a slot:** On the carousel block settings page (click the carousel name to open it), click **Create Banner Ad** to add a slot. Each block can have up to 10 slots[^slots].
+1. **Add a slot:** On the carousel block setup page (click the carousel name to open it), click **Create Banner Ad** to add a slot. Each block can have up to 10 slots[^slots].
 2. **What a slot is for:** Each slot is "one position" in the storefront carousel. You can schedule multiple ads for different periods in it, and the system swaps them in and out automatically on schedule.
 
 [^slots]: If you add more than 10, the system shows "Banner ads cannot exceed 10."
@@ -131,7 +131,7 @@ In each banner ad slot, set the ad content and when it goes live:
 
 2. **Fill in the basic information:**
     * **Ad Schedule Name** (for example, Spring 2020 New Arrivals).
-    * **Image Link URL**: The URL customers go to when they click the image. Enter the full URL (including `http://` or `https://`).
+    * **Image Link URL**: The URL customers go to when they click the image. Fill in the full URL (including `http://` or `https://`).
 
     ![Schedule basic information](../../../assets/images/ec-website-apperance-carousels-add-schedule-basics.zh-tw.en.png)
 
@@ -146,7 +146,7 @@ In each banner ad slot, set the ad content and when it goes live:
 
     ![Schedule images](../../../assets/images/ec-website-apperance-carousels-add-schedule-picture.zh-tw.en.png)
 
-5. **Save:** Click **Save** to finish, or click **"Back to List"** to return to the block settings page.
+5. **Save:** Click **Save** to finish, or click **"Back to List"** to return to the block setup page.
 
 When you finish, each schedule in the slot shows a status based on the current time, such as "Default," "Live," "Scheduled," or "Ended." For details, see the [Ad Schedule Statuses Reference](../references/scheduled-carousel-statuses.md#reference-scheduled-carousel-statuses){ data-preview }.
 
@@ -179,7 +179,7 @@ After you create a carousel block, you must embed it in a page for it to appear.
     ![Show the carousel - drag-and-drop theme - pop-up ad](../../../assets/images/ec-website-apperance-carousels-display-front-popup.zh-tw.en.png)
 
 === "Standard Theme: Paste Liquid Code"
-    1. On the scheduled carousel settings page, click the carousel's **Liquid Code** and copy it.
+    1. On the scheduled carousel setup page, click the carousel's **Liquid Code** and copy it.
 
         ![Copy the Liquid code](../../../assets/images/ec-website-apperance-carousels-copy-liquid.zh-tw.en.png)
 
@@ -289,7 +289,7 @@ After you create a carousel block, you must embed it in a page for it to appear.
 
 ---
 
-## References { #reference-scheduled-carousel }
+## See Also { #reference-scheduled-carousel }
 
 - [Ad Schedule Statuses Reference](../references/scheduled-carousel-statuses.md)
 

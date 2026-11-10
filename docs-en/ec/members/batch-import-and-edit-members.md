@@ -69,11 +69,11 @@ Use an Excel file to quickly create or update member data in bulk, including con
 
 !!! tip "Use Cases"
     - **System Migration**: Move the member list from your previous platform to CYBERBIZ in one batch when initially setting up your store.
-    - **Complete Missing Data**: Export members with missing addresses or birthdays in bulk, complete the data, and upload the file again.
+    - **Complete Missing Data**: Export members with missing addresses or birthdays in batch, complete the data, and upload the file again.
 
 
 
-## Important Notes { #prerequisites-batch-members }
+## Before You Start { #prerequisites-batch-members }
 
 Before importing or editing data in bulk, review the following restrictions and requirements:
 
@@ -127,16 +127,16 @@ Before importing each batch, adjust **Customer Registration Settings** to match 
 
 ### Member VIP { #prerequisites-batch-members-vip }
 
-- Test With a Small Batch FirstTo apply a VIP level, first complete the VIP level settings and confirm that they are active. Then import a small set of test data, such as employee accounts. Verify that the members are assigned to the correct level before importing actual members in bulk.
+- Test With a Small Batch FirstTo apply a VIP level, first complete the VIP level settings and confirm that they are active. Then import a small set of test data, such as staff accounts. Verify that the members are assigned to the correct level before importing actual members in bulk.
 - Use **Orders from Other Channels** to add purchase records. The system **includes them in VIP eligibility calculations** and determines eligibility based on the **Order Date** entered. If no specific date is required, enter the import date.
 
 ### Marketing Campaigns { #prerequisites-batch-members-campaigns }
 
 If you plan, when import members, to send **bonus points, coupon, or birthday gift**, **complete the site setup and turn on the features first.**
 
-A complete shopping experience ensures that members can follow the notification to your site and place an order. If the site is not ready, members may be disappointed and traffic may be wasted, reducing the likelihood of repeat purchases.
+A complete shopping experience ensures that members can follow the notification to your site and submit an order. If the site is not ready, members may be disappointed and traffic may be wasted, reducing the likelihood of repeat purchases.
 
-## Procedure { #operate-batch-members }
+## Steps { #operate-batch-members }
 
 ### Task 1: Import New Members In Bulk { #operate-batch-members-import }
 
@@ -144,7 +144,7 @@ Use this task to add a list of new members who do not yet exist in the system.
 
 1. Log in to the Admin, then go to **Customer Management > All Customers**.
 2. Click **import members** in the top-right corner.
-3. In the pop-up window, click **Download Customer Import Sample**.
+3. In the dialog, click **Download Customer Import Sample**.
 4. Enter the data in the template format, then delete the default `May Chang` example row.
 5. Click **Upload the File** to upload the completed file, then click **Confirm** to run the import.
 
@@ -152,7 +152,7 @@ Use this task to add a list of new members who do not yet exist in the system.
 
 ![](../../assets/images/EC-後台-會員-所有會員-匯入會員01.en.png)
 
-### Task 2: Edit Existing Member Data In Bulk { #operate-batch-members-edit }
+### Task 2: Edit Existing Member Data In Batch { #operate-batch-members-edit }
 
 Use this task to update members already in the system, such as adding birthdays, changing mobile numbers, or updating tags.
 
@@ -220,9 +220,9 @@ To add [Orders from Other Channels](manage-member-profiles/#operate-member-profi
 
 
 
-## Frequently Asked Questions { #faq-batch-members }
+## FAQ { #faq-batch-members }
 
-??? quote "Will Editing Data in Bulk Create Duplicate Accounts?"
+??? quote "Will Editing Data in Batch Create Duplicate Accounts?"
     No. The system uses **Email Address** and **Mobile Number** as the primary matching IDs. If an email address or mobile number already exists, the system updates that record.
 
 ??? quote "How Do New Accounts Imported in Bulk Through Excel Log In Without a Default Password?"

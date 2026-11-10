@@ -68,8 +68,8 @@ Registrant profit sharing uses a "permanent link". When a customer enters a regi
 
 ![](../../assets/images/EC-後台-分潤-註冊人分潤-畫面總覽01.en.png){ .hero-page }
 
-!!! tip "Use cases"
-	- **In-store member sign-ups**: Store staff help walk-in customers sign up as website members and link the staff member's code, so future repeat purchases are credited to that staff member.
+!!! tip "Use Cases"
+	- **In-store member sign-ups**: Store clerks help walk-in customers sign up as website members and link the staff member's code, so future repeat purchases are credited to that staff member.
 	- **Long-term distribution partners**: New members brought in by a distribution partner stay linked to that partner, so the partner keeps earning rewards for them.
 	- **Tiered incentives**: Set a high rate for the first month after sign-up and lower rates after that, to motivate promoters to drive purchases early on.
 
@@ -83,7 +83,7 @@ Registrant profit sharing uses a "permanent link". When a customer enters a regi
 
 ## Steps { #operate-registrant-ps }
 
-### Step 1: Turn On The Feature And Create A Plan { #operate-registrant-ps-enable }
+### Step 1: Enable The Feature And Create A Plan { #operate-registrant-ps-enable }
 
 1. Log in to the CYBERBIZ admin and go to **Profit Sharing > With Registrants**.
 2. Set **Active Registrant Profit Sharing Feature** to `ON`.
@@ -122,7 +122,7 @@ Assign the profit-sharing plan to specific staff or stores to create their regis
 
 1. Go to **Profit Sharing > With Registrants** and click the **Assign Registrant Profit Sharing Plan** section at the bottom of the page.
 2. Select the **Plan(s)** to assign.
-3. Filter by **role** (such as store manager or store staff) or **store** as needed.
+3. Filter by **role** (such as store manager or store clerks) or **store** as needed.
 4. Select the people to add, then click **Add to plan**.
     > If you don't use POS, a person must be set as a **website admin** before they can be selected.
 

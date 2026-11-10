@@ -111,7 +111,7 @@ This setting applies to orders placed **on the storefront**. Based on the order'
 
 #### Close Automatically After Pickup <small>Close When Received</small> { #specs-order-auto-close-delivery }
 
-For orders using system-**integrated logistics** (such as 7-Eleven, FamilyMart, EZCAT, and Pelican Express). When the system receives a "Received" status from the carrier and the set number of days passes, the system closes the order automatically.
+For orders using system-**integrated logistics** (such as 7-11, FamilyMart, T-CAT, and Pelican). When the system receives a "Received" status from the carrier and the set number of days passes, the system closes the order automatically.
 
 1. Admin path: **Payment and Logistics > Checkout Page & Logistics > Order Settings > Automatic Order Completion Settings**.
 2. Turn on (ON) **Automatic Order Closing**.

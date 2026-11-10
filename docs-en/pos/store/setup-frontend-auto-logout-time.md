@@ -71,7 +71,7 @@ When the POS frontend has no activity for the specified time, the system automat
 	- **Account Access Control**: Requires on-duty staff to log in again for each session, ensuring clear accountability.
 
 
-## Usage Notes { #prerequisites-auto-logout }
+## Before You Start { #prerequisites-auto-logout }
 
 - **Permission Restriction**: Only users with the **Site Owner** role can configure this setting.
 - **Scope**: This setting applies only to the **POS Frontend** interface and does not affect the admin back end.
@@ -102,7 +102,7 @@ Click the **Auto-Logout Settings** button above the list.
 
 ### Step 4: Set the Logout Time and Enable It { #operate-auto-logout-4-settings-logout }
 
-1. In the pop-up window, enter the **Logout Seconds** you want to set.
+1. In the dialog, enter the **Logout Seconds** you want to set.
 2. Toggle the switch to **Enable**.
 3. Click **Submit**.
 
@@ -133,7 +133,7 @@ Go to the POS frontend interface. The top-right corner displays the **Auto-Logou
 
 - :lucide-shield-check:{ .lg }   
   [__Administrator Account and Permission Settings__](staff-permissions-and-account-management.md){ data-preview }       
-  Create back-end login accounts for employees and store staff, and assign the correct permission levels.
+  Create admin login accounts for employees and store staff, and assign the correct permission levels.
 
 </div>
 

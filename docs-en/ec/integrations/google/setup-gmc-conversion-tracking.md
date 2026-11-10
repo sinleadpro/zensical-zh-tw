@@ -97,7 +97,7 @@ After you link GA4 to Merchant Center, you can track conversions from Google Sea
 3.  **Turn on Auto-tagging**: If Auto-tagging is not yet on, turn it on first. This is required before you can link GA4.
 4.  **Add an important event source**: Click **Add Important Event Source**
 5.  **Select Google Analytics**: Choose **Google Analytics**
-6.  **Complete the link**: Click **Go to Google Analytics** in the pop-up window and follow the steps to authorize access. After you finish, refresh the page to see the link in the list.
+6.  **Complete the link**: Click **Go to Google Analytics** in the dialog and follow the steps to authorize access. After you finish, refresh the page to see the link in the list.
 
 !!! info "After you link the accounts, data may take 24-48 hours to appear. For setup details, see the [official guide :lucide-external-link:](https://support.google.com/merchants/answer/13881610?hl=zh-Hant#zippy=%2C%E5%89%8D%E5%BE%80-merchant-center)."
 

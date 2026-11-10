@@ -69,29 +69,29 @@ When you batch-print multiple orders, the page order in the PDF affects how the 
 
 === "By document type (default)"
 
-    - **Sort order**: Print all pick lists first, then waybills, then packing slips, then order details.
+    - **Sort order**: Print all picking lists first, then shipping labels, then shipment details, then order details.
 
     - **Best for**: Batch or assembly-line work where the same document type can be stacked and handled together.
 
     - **Print example**:
 
-        - Step 1: Pick list`訂單 A` > Pick list`訂單 B` > Pick list`訂單 C` > Pick list`訂單 D`
-        - Step 2: Waybill`訂單 A` > Waybill`訂單 B` > Waybill`訂單 C` > Waybill`訂單 D`
-        - Step 3: Packing slip`訂單 A` > Packing slip`訂單 B` > Packing slip`訂單 C` > Packing slip`訂單 D`
+        - Step 1: Picking list`訂單 A` > Picking list`訂單 B` > Picking list`訂單 C` > Picking list`訂單 D`
+        - Step 2: Shipping label`訂單 A` > Shipping label`訂單 B` > Shipping label`訂單 C` > Shipping label`訂單 D`
+        - Step 3: Shipment details`訂單 A` > Shipment details`訂單 B` > Shipment details`訂單 C` > Shipment details`訂單 D`
         - Step 4: Order details`訂單 A` > Order details`訂單 B` > Order details`訂單 C` > Order details`訂單 D`
 
 === "By order number"
 
-    - **Sort order**: Group by order number. Print every selected document for one order in a row, then move to the next order. Within one order the default order is: pick list -> waybill -> packing slip -> order details.
+    - **Sort order**: Group by order number. Print every selected document for one order in a row, then move to the next order. Within one order the default order is: picking list -> shipping label -> shipment details -> order details.
 
     - **Best for**: Packing one order at a time without manual sorting—every sheet for that order arrives together.
 
     - **Print example**:
 
-        - Step 1: Pick list`訂單 A` -> Waybill`訂單 A` -> Packing slip`訂單 A` -> Order details`訂單 A`
-        - Step 2: Pick list`訂單 B` -> Waybill`訂單 B` -> Packing slip`訂單 B` -> Order details`訂單 B`
-        - Step 3: Pick list`訂單 C` -> Waybill`訂單 C` -> Packing slip`訂單 C` -> Order details`訂單 C`
-        - Step 4: Pick list`訂單 D` -> Waybill`訂單 D` -> Packing slip`訂單 D` -> Order details`訂單 D`
+        - Step 1: Picking list`訂單 A` -> Shipping label`訂單 A` -> Shipment details`訂單 A` -> Order details`訂單 A`
+        - Step 2: Picking list`訂單 B` -> Shipping label`訂單 B` -> Shipment details`訂單 B` -> Order details`訂單 B`
+        - Step 3: Picking list`訂單 C` -> Shipping label`訂單 C` -> Shipment details`訂單 C` -> Order details`訂單 C`
+        - Step 4: Picking list`訂單 D` -> Shipping label`訂單 D` -> Shipment details`訂單 D` -> Order details`訂單 D`
 
 
 
@@ -114,11 +114,11 @@ For the actual ship and print steps, see:
 <div class="grid cards" markdown>
 
 - :lucide-cat:{ .lg }  
-  [__Ship with Black Cat home delivery__](../home-delivery/tcat-home-delivery-v2.md){ title="Ship with Black Cat home delivery" }  
+  [__Ship with T-CAT home delivery__](../home-delivery/tcat-home-delivery-v2.md){ title="Ship with Black Cat home delivery" }  
   Ship, print, or download home-delivery shipping documents from the order list.
 
 - :lucide-truck:{ .lg }  
-  [__Ship with Black Cat express to store__](../tcat-quick-store/tcat-quick-store-shipping.md){ title="Ship with Black Cat express to store" }  
+  [__Ship with T-CAT express to store__](../tcat-quick-store/tcat-quick-store-shipping.md){ title="Ship with Black Cat express to store" }  
   Ship, print, or download express-to-store shipping documents from the order list.
 
 </div>

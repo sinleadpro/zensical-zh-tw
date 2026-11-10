@@ -100,7 +100,7 @@ To further confirm that specific tags (such as checkout or add to cart) fire cor
 
 !!! info "For more information and tutorials on Tag Assistant, see the [official documentation :lucide-external-link:](https://support.google.com/tagmanager/answer/15212503?hl=zh-Hant&ref_topic=15213501&sjid=3100390479866986802-NC#)."
 
-## Frequently Asked Questions { #faq-verify-tracking }
+## FAQ { #faq-verify-tracking }
 
 ??? quote "How do I check whether Google Analytics (GA4) is installed correctly?"
 

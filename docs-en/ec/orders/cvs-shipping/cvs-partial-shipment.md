@@ -79,7 +79,7 @@ but some items in the order need to ship separately (for example, some items are
 Convenience store partial shipment applies to orders whose **delivery method is convenience store pickup (7-Eleven, FamilyMart, Hi-Life)**. The process has two stages:
 
 - **First shipment**: Get a shipping label through the original convenience store delivery system and ship through the convenience store logistics network.
-- **Remaining shipments**: Because convenience stores support only one tracking number per order, you must switch to **Custom Shipping Method** and ship with a carrier you've arranged yourself (such as EZCAT or HCT Logistics).
+- **Remaining shipments**: Because convenience stores support only one tracking number per order, you must switch to **Custom Shipping Method** and ship with a carrier you've arranged yourself (such as T-CAT or HCT Logistics).
 
 !!! info "Tip"
     Partial shipment isn't a separate module. You do it in the **shipping section of the order details page** by selecting some items and confirming the shipment. It's built into all plans, so no activation is needed.
@@ -90,13 +90,13 @@ Convenience store partial shipment applies to orders whose **delivery method is 
 
 The following convenience store logistics services support partial shipment. For details, see [Convenience Store Partial Shipment Support](../references/cvs-partial-shipping-support.md).
 
-- [x] **7-Eleven**: Delivery Service, convenience store pickup (including Cash on Delivery)
+- [x] **7-11**: Delivery Service, convenience store pickup (including Cash on Delivery)
 - [x] **FamilyMart**: Store-to-store, convenience store pickup (including Cash on Delivery)
 - [x] **Hi-Life**: Store-to-store, convenience store pickup, frozen pickup (including Cash on Delivery)
 
 ??? info "EZCAT Quick Store Delivery Uses a Different Process"
       **EZCAT Quick Store Delivery (room temperature/refrigerated/frozen)** also supports partial shipment, but **the second shipment doesn't need to switch to Custom Shipping Method**.
-      On the order details page, select some items > choose "EZCAT Quick Store Delivery Shipping Label" > confirm the shipment. The system automatically requests a new shipping label from EZCAT (up to 8 per order). Come back later to ship the remaining items; the process is the same as partial shipment for regular home delivery.
+      On the order detail page, select some items > choose "EZCAT Quick Store Delivery Shipping Label" > confirm the shipment. The system automatically requests a new shipping label from T-CAT (up to 8 per order). Come back later to ship the remaining items; the process is the same as partial shipment for regular home delivery.
 
 !!! warning "Logistics That Don't Support Partial Shipment"
     The following logistics types **don't support** partial shipment, and all items must ship at once:
@@ -116,10 +116,10 @@ The item checkboxes and "Confirm Shipment" button appear only when the order has
 
 ## Steps { #operate-cvs-partial-shipment }
 
-### Open the Order Details Page { #operate-cvs-partial-shipment-enter }
+### Open the Order Detail Page { #operate-cvs-partial-shipment-enter }
 
 1. Go to the **"Orders" > "All Orders"** list in the admin.
-2. Find the convenience store pickup order and click the **Order Number** to open the order details page.
+2. Find the convenience store pickup order and click the **Order Number** to open the order detail page.
 3. The **"Select the items you're shipping now"** section at the lower right lists all items waiting to ship in this order.
 
 ![Order details page - convenience store partial shipment](../../../assets/images/EC-訂單-所有訂單-訂單詳情頁-超商物流出貨商品.en.png){ title="Order Details Page: Convenience Store Partial Shipment" }
@@ -129,8 +129,8 @@ The item checkboxes and "Confirm Shipment" button appear only when the order has
 ### First Shipment: Ship Through the Convenience Store System { #operate-cvs-partial-shipment-first }
 
 1. In the item list, **select the items to ship first**[^select-all].
-2. After you select items, the **"Select Shipping Method"** section expands below, and its drop-down shows the matching convenience store shipping label option, such as "Store-to-Store Shipping Label."
-3. Make sure the drop-down is set to **that convenience store's shipping label**.
+2. After you select items, the **"Select Shipping Method"** section expands below, and its dropdown shows the matching convenience store shipping label option, such as "Store-to-Store Shipping Label."
+3. Make sure the dropdown is set to **that convenience store's shipping label**.
 4. Click **"Confirm Shipment."** The system asks "Ship the N selected items?" After you click **Yes**:
     * The system requests a tracking number from the convenience store and generates a shipping label PDF
     * The order status automatically changes to **"Shipped"** or **"Partially Shipped"**, depending on how many items shipped[^status-rule]
@@ -146,13 +146,13 @@ The item checkboxes and "Confirm Shipment" button appear only when the order has
 
 ### Remaining Shipments: Custom Shipping Method { #operate-cvs-partial-shipment-rest }
 
-After the first shipment, open the order details page again to ship the remaining items. **Convenience store options are now hidden automatically**, and only **"Custom Shipping Method"** is available[^why-custom].
+After the first shipment, open the order detail page again to ship the remaining items. **Convenience store options are now hidden automatically**, and only **"Custom Shipping Method"** is available[^why-custom].
 
-1. Open the order details page again and **select the remaining items to ship** in the item list.
-2. The **"Select Shipping Method"** drop-down automatically switches to **"Custom Shipping Method."**
+1. Open the order detail page again and **select the remaining items to ship** in the item list.
+2. The **"Select Shipping Method"** dropdown automatically switches to **"Custom Shipping Method."**
 3. Fill in the expanded fields:
     * **Tracking Number**: The tracking number from the carrier you used.
-    * **Carrier**: Choose the carrier from the drop-down (such as EZCAT or HCT Logistics).
+    * **Carrier**: Choose the carrier from the dropdown (such as T-CAT or HCT Logistics).
 4. Select **Send email notification to customer** if needed.
 5. Click **"Confirm Shipment"** to ship the remaining items. These items also show **"Shipped on {date and time}"**, and the whole order changes to **"Shipped."**
 
@@ -192,7 +192,7 @@ If a customer wants to return items after a partial shipment:
 If a shipping label is lost or damaged, you can reprint it before the deadline.
 
 1. Select the orders to reprint in the order list.
-2. Open the **Actions...** drop-down and select **Reprint Shipping Label**.
+2. Open the **Actions...** dropdown and select **Reprint Shipping Label**.
 3. The system downloads the PDF with the same tracking number again. Shipping fees aren't charged again, and the order status doesn't change.
 
 <div class="grid cards" markdown>
@@ -255,8 +255,8 @@ If a shipping label is lost or damaged, you can reprint it before the deadline.
 
     The main difference is **how the second shipment ships**:
 
-    - **Regular convenience stores (7-Eleven/FamilyMart/Hi-Life)**: After the first shipment through the convenience store system, the remaining items must use **Custom Shipping Method**, and you enter the carrier and tracking number yourself.
-    - **EZCAT Quick Store Delivery**: No need to switch to custom shipping. Each time, select the remaining items and choose "EZCAT Quick Store Delivery Shipping Label" to request a new shipping label from EZCAT, up to 8 per order.
+    - **Regular convenience stores (7-11/FamilyMart/Hi-Life)**: After the first shipment through the convenience store system, the remaining items must use **Custom Shipping Method**, and you enter the carrier and tracking number yourself.
+    - **T-CAT Rapid-to-Store Delivery**: No need to switch to custom shipping. Each time, select the remaining items and choose "EZCAT Quick Store Delivery Shipping Label" to request a new shipping label from T-CAT, up to 8 per order.
 
 ??? quote "What conditions must an order meet for partial shipment?"
     [](){ #faq-cvs-partial-shipment-status-required }
@@ -275,7 +275,7 @@ If a shipping label is lost or damaged, you can reprint it before the deadline.
     - **Scenario 1 (pickup first, then shipment)**: The customer picks up the first package at the store → you ship the second batch later → the delivery status is **Shipped**, and CYBERBIZ recognizes the payment after the second shipment.
     - **Scenario 2 (shipment first, then pickup)**: You ship the second batch right after the first → the customer picks up the first package later → the delivery status is **Received**, and CYBERBIZ recognizes the payment after the customer picks up the first package.
 
-## References { #reference-cvs-partial-shipment }
+## See Also { #reference-cvs-partial-shipment }
 
 - [Convenience Store Partial Shipment Support](../references/cvs-partial-shipping-support.md){ title="Convenience Store Partial Shipment Support" }
 - [Order Filters and Statuses Reference](../references/order-filter-status-reference.md){ title="Order Filters and Statuses Reference" }

@@ -65,7 +65,7 @@ hide:
 
 ## About the Facebook Business Extension { #overview-fbe-authorization }
 
-"**Facebook Business Extension**" (Facebook Business Extension, FBE) can connect **Conversions API**, **Facebook Pixel**, **Product Catalog**, **Instagram Shopping**, and **Facebook Page** assets at once. This helps merchants link these assets to the online store admin quickly and manage ad tracking, audience building, and product promotion in one place.
+"**Facebook Business Extension**" (Facebook Business Extension, FBE) can connect **Conversions API**, **Facebook Pixel**, **Product Catalog**, **Instagram Shopping**, and **Facebook Page** assets at once. This helps merchants link these assets to the storefront admin quickly and manage ad tracking, audience building, and product promotion in one place.
 
 ## Setup Path { #operate-fbe-authorization }
 
@@ -106,7 +106,7 @@ hide:
 
     ![FBE-Confirm Permissions](../../../../assets/images/ec-第三方整合-fbe-確認獲得權限.en.png)
 
-5.  **Finish Linking:** Wait for the connection to complete, then click "Done." The system automatically returns you to the CYBERBIZ admin settings page.
+5.  **Finish Linking:** Wait for the connection to complete, then click "Done." The system automatically returns you to the CYBERBIZ admin setup page.
 
     ![FBE-Finish Linking](../../../../assets/images/ec-第三方整合-fbe-完成連結.en.png)
 

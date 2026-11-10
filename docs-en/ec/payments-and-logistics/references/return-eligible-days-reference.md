@@ -35,7 +35,7 @@ This table summarizes the default return-eligible days and calculation start poi
 
 | Shipping Method | Setting Field | Default Days | Calculation Start Point |
 | :-- | :-- | :-- | :-- |
-| CYBERBIZ Home Delivery, CVS Pickup | Return-eligible days for CYBERBIZ home delivery and CVS pickup | 10 days | After the logistics status is “Delivered” |
+| CYBERBIZ Home Delivery, Convenience Store Pickup | Return-eligible days for CYBERBIZ home delivery and convenience store pickup | 10 days | After the logistics status is “Delivered” |
 | Other shipping methods (including custom logistics) | Return-eligible days for other shipping methods | 14 days | After the logistics status is “Shipped” |
 
 !!! note "Notes"

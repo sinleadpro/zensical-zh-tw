@@ -105,7 +105,7 @@ Make sure your website has the following basic structure for review by the Airwa
 - **Brand Identity**: Website logo.
 - **Product Display**: Create at least one product and display the correct price.
 - **Required Footer Pages**:
-    - **Contact Information**: Provide customer service contact details.
+    - **Contact Information**: Provide customer support contact details.
     - **About Us**: Must include the company name and unified business number (or local business registration number).
     - **Privacy Policy**.
     - **Terms of Service**.
@@ -123,9 +123,9 @@ Make sure your website has the following basic structure for review by the Airwa
 ![](../../assets/images/Airwallex-前台-會員頁-收單-開啟收單功能01.en.png)
 
 
-## Step 3: Connect to the CYBERBIZ Backend { #operate-au-payments-bind }
+## Step 3: Integrate with the CYBERBIZ Backend { #operate-au-payments-bind }
 
-After you activate your account on the Airwallex side, the final step is to connect the two systems.
+After you activate your account on the Airwallex side, the final step is to integrate the two systems.
 
 ### 1. Get API Keys { #operate-au-payments-api-key }
 
@@ -146,7 +146,7 @@ Go to the Airwallex dashboard, **Account > Developer > API Keys**, and copy your
 
 
 
-## Frequently Asked Questions { #faq-au-payments }
+## FAQ { #faq-au-payments }
 
 ??? quote "Who should I contact about billing questions?"
     For questions about settlement timing, fee reconciliation, or failed transactions, we recommend contacting the [Airwallex Customer Support Center](https://www.airwallex.com/contact-us) directly for the fastest technical support.

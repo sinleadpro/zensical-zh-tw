@@ -93,7 +93,7 @@ The same product remains available for cash purchase in the regular store, while
     - **Points Usage Strategy**: For points that are about to expire, run a limited-time Bonus Mall campaign to drive members to the site to redeem them.
     - **New Product Trials**: Add trial products to Bonus Mall so that loyal members can try them first with points and provide product feedback.
 
-## Usage Notes { #prerequisites-bonus-mall }
+## Before You Start { #prerequisites-bonus-mall }
 
 ### Front-End Display and Visual Guidelines { #prerequisites-bonus-mall-frontend }
 - **Listing Requirements**: Products must be **Listed** and **Published** to appear in the Bonus Mall.
@@ -102,7 +102,7 @@ The same product remains available for cash purchase in the regular store, while
 
 ### Staff Permissions and Scope of Operation { #prerequisites-bonus-mall-section }
 
-- **Admin Permissions**: Only **Site Administrators** can set up and edit the Bonus Mall in the back end.
+- **Admin Permissions**: Only **Site Administrators** can set up and edit the Bonus Mall in the admin.
 - **Front-End Staff Permissions**:
     - **Product Lookup**: Search for bonus products by selecting them manually or by scanning the barcode directly.
     - **Real-Time Calculation**: Review the total price of bonus products and confirm the total bonus points used for the entire order, including regular redemptions and Bonus Mall redemptions.
@@ -112,16 +112,16 @@ The same product remains available for cash purchase in the regular store, while
 
 - **Bonus Points Refund Policy**: Once a bonus product transaction is completed, the system **does not refund** the bonus points used in that transaction if a return occurs.
 
-## Create a Mall in the Back Office { #operate-bonus-mall }
+## Create a Mall in the Admin { #operate-bonus-mall }
 
 ### Step 1: Create the Bonus Mall Basic Information { #operate-bonus-mall-step-a-create }
 
 1. Log in to the CYBERBIZ admin back end, go to **Marketing > Bonus Mall**, and click the **POS Bonus Mall** tab.
 2. Click **New Bonus Mall** in the top-right corner.
     ![](../../assets/images/POS-後台-行銷活動-紅利商城-新增商城01.en.png){ .screenshot }
-3. Enter the following fields:
+3. Fill in the following fields:
     - **Bonus Mall Name**: **Specify the POS store to bind.**
-        - **One-to-One Binding**: Each POS store can bind to only one Bonus Mall. Stores that are already bound to a mall automatically hide this option and cannot create a duplicate.
+        - **One-to-One Binding**: Each POS store can link to only one Bonus Mall. Stores that are already linked to a mall automatically hide this option and cannot create a duplicate.
     - **Campaign Start and End Time**: Select the checkbox and set the effective period.
     ![](../../assets/images/POS-後台-行銷活動-紅利商城-新增商城02.en.png){ .screenshot }
 6. Click **Save**.
@@ -152,7 +152,7 @@ The same product remains available for cash purchase in the regular store, while
 ### Step 3: Set the Points Required for Redemption { #operate-bonus-mall-step-c-settings }
 
 > If you add products by **manually selecting them**, complete this step.<br>
-    If you use **EXCEL Batch Import**, enter the redemption amounts directly in the import template. You do not need to set them here.
+    If you use **EXCEL Batch Import**, fill in the redemption amounts directly in the import template. You do not need to set them here.
 
 1. On the **Select Products** tab, scroll down to the **Selected Products** section.
 2. In the **Bonus** field, enter the number of points required to redeem the product. The system fills in the product's original price by default.
@@ -171,7 +171,7 @@ The same product remains available for cash purchase in the regular store, while
 
 ### Delete a Mall { #operate-multi-store-management-section-m }
 
-- **Unbinding Mechanism**: Once Bonus Mall and a store are bound, the binding cannot be changed directly. If a store needs to switch to a new mall, you must first Delete the original mall to release the store's permissions. Then you can bind the store again.
+- **Unbinding Mechanism**: Once Bonus Mall and a store are linked, the linking cannot be changed directly. If a store needs to switch to a new mall, you must first Delete the original mall to release the store's permissions. Then you can link the store again.
 
 ![](../../assets/images/POS-後台-行銷活動-紅利商城-複製刪除商城01.en.png){ .screenshot }
 

@@ -104,7 +104,7 @@ Use this when some products are stored at the CYBERBIZ warehouse and you ship th
 
 ### Step 1: Activation and System Setup { #operate-partial-split-init }
 
-1. **Request the feature**: To use this feature, ask your store consultant or customer service to turn it on.
+1. **Request the feature**: To use this feature, ask your store consultant or customer support to turn it on.
 2. **Automatic changes**: When the feature is turned on, the system makes these changes:
     - All existing shipping fee settings change to **warehouse integration (warehouse shipping)**.
     - The default shipping method of all products changes to **warehouse shipping**.
@@ -124,7 +124,7 @@ Go to **Payment and Logistics > Delivery Settings** and open the **Custom Logist
 
     > This name appears on the customer's checkout page. Use a clear name, such as Warehouse Delivery.
 
-3. **Choose the shipping type**: In the **Shipping Method** drop-down list, select **Honeycomb Logistics**.
+3. **Choose the shipping type**: In the **Shipping Method** dropdown list, select **Honeycomb Logistics**.
 4. **Finish the details**: Fill in the shipping fee rules and delivery regions. For details, see [Create Custom Logistics](../ec/payments-and-logistics/setup-home-delivery-non-cod-custom-logistics.md).
 
 #### 2. Create Self-Shipping Logistics { #operate-partial-split-self }
@@ -143,7 +143,7 @@ Go to **Payment and Logistics > Delivery Settings** and open the **Custom Logist
 
         > This name appears on the customer's checkout page. Use a clear name, such as Merchant Delivery.
 
-    3. **Choose the shipping type**: In the **Shipping Method** drop-down list, select **Self-Shipment**.
+    3. **Choose the shipping type**: In the **Shipping Method** dropdown list, select **Self-Shipment**.
     4. **Finish the details**: Fill in the shipping fee rules and delivery regions. For details, see [Create Custom Logistics](../ec/payments-and-logistics/setup-home-delivery-non-cod-custom-logistics.md).
 
     ![](../assets/images/EC-後台-金物流-宅配物流-新增自訂物流01.en.png){ .screenshot }
@@ -178,7 +178,7 @@ After partial integration is turned on, all products default to **warehouse ship
              > See [Partial Shipping for Convenience Stores](../ec/orders/cvs-shipping/cvs-partial-shipment.md) and [Partial Shipping for Home Delivery](../ec/orders/home-delivery/partial-shipment-v2.md).
 
         - Self-shipped orders do not support cash on delivery.
-    4. **Warehouse-shipped orders**: The system sends the orders to WMS automatically. You only need to watch for shipping status updates.
+    4. **Warehouse-shipped orders**: The system sends the orders to WMS automatically. You only need to watch for delivery status updates.
 
 
 ### See Who Ships an Order { #operate-partial-split-source }
@@ -205,7 +205,7 @@ In the **Shipping Method** column of the order list, you can quickly see who is 
 ## FAQ { #faq-partial-split }
 
 ??? quote "Does Stock for Self-Shipped Products Sync with the Warehouse?"
-    No. Stock syncs automatically only for products whose shipping method is **warehouse shipping** and whose SKU matches the warehouse.
+    No. Inventory syncs automatically only for products whose shipping method is **warehouse shipping** and whose SKU matches the warehouse.
 
 ??? quote "How Do I Quickly Find Products I Ship Myself?"
     Go to **商品管理 > All Products**, click **Advanced Search**, and under the **Shipping Method** filter select the **[self-shipping logistics name]** you set up. The matching products are listed.

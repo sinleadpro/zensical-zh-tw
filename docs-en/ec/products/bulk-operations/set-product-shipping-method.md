@@ -118,7 +118,7 @@ Based on where a product actually ships from, point it to self-shipment, third-p
 !!! info "Import Results"
     The system processes the file on a schedule and emails you the import results. When it is done, go back to the product list and check each product's fulfillment method.
 
-To learn how Excel import decides between adding and updating products, and for the full flow, see [Import Products in Bulk from Excel](../bulk-operations/excel-import-products.md){ title="Import Products in Bulk from Excel" }.
+To learn how Excel import decides between adding and updating products, and for the full flow, see also [Import Products in Bulk from Excel](../bulk-operations/excel-import-products.md){ title="Import Products in Bulk from Excel" }.
 
 ## Verify the Settings { #operate-ship-method-verify }
 
@@ -145,7 +145,7 @@ Smart warehousing (order splitting and mixed orders) and Amazon FBA create the m
 
 - :lucide-globe:{ .lg }
   [__Amazon FBA Cross-Border Logistics__](../../payments-and-logistics/amazon-fba-cross-border-logistics.md){ title="Amazon FBA Cross-Border Logistics" }
-  Bind Amazon SKUs to the fulfillment method to push cross-border orders and sync shipment status.
+  Link Amazon SKUs to the fulfillment method to push cross-border orders and sync delivery status.
 
 </div>
 

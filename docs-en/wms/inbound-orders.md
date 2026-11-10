@@ -67,7 +67,7 @@ hide: []
 ---
 
 # Receipt Orders
-Before goods arrive at the warehouse, create a receipt order in the admin panel. Enter the exact items, quantities, and expiry dates to be received, and notify the warehouse staff.
+Before goods arrive at the warehouse, create a receipt order in the admin panel. Fill in the exact items, quantities, and expiry dates to be received, and notify the warehouse staff.
 { .subtitle }
 
 [:lucide-layers:{ title="Applicable Products" }](../../resources/conventions#適用產品) | Smart Warehousing
@@ -87,7 +87,7 @@ Before goods arrive at the warehouse, create a receipt order in the admin panel.
 1. **Create the receipt order**: Add the inbound details in the admin panel. The system creates an order waiting for confirmation.
 2. **Goods arrive**: The goods reach the warehouse on the booked date, and warehouse staff sign for them.
 3. **Inspection and shelving**: Warehouse staff count the items and check expiry dates, and then shelve them in the system.
-4. **Closed**: The system updates the receipt order status, and online store stock increases accordingly.
+4. **Closed**: The system updates the receipt order status, and storefront inventory increases accordingly.
 
 
 ## Add a Receipt Order { #operate-inbound-orders-create }
@@ -99,7 +99,7 @@ Create a single receipt order manually, or import many at once with Excel.
     Log in to the e-commerce warehouse admin panel, go to **Receipt Orders**, and click **Add Receipt** in the upper-right corner.
 
     1. **Basic settings**:
-        - **Arrival date (required)**: Enter the date the goods are expected at the warehouse.
+        - **Arrival date (required)**: Fill in the date the goods are expected at the warehouse.
         - **Warehouse zone**: **Zone G (normal)** is selected by default. If you select **Zone L (locked)**, the goods cannot be shipped after they are received.
         - **Reference number (optional)**: Enter the supplier's shipping document number to make reconciliation easier.
         - **Note (optional)**: Record special requests or receiving instructions.
@@ -140,7 +140,7 @@ Monitor receiving progress and take the matching actions.
 | **Cancelled** | The warehouse rejected the receipt (for example, because of wrong information) | Edit and resubmit, delete |
 | **Received** | The warehouse signed for the goods and is waiting to inspect them | Download documents (cannot edit or delete) |
 | **Counting** | Warehouse staff are counting, inspecting, and shelving the goods | Download documents (cannot edit or delete) |
-| **Done** | All goods were inspected and received, and stock is synced | Download documents, view history |
+| **Done** | All goods were inspected and received, and inventory is synced | Download documents, view history |
 
 ### Export Receipt Orders { #operate-inbound-orders-export }
 

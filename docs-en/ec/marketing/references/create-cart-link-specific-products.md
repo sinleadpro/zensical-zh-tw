@@ -67,13 +67,13 @@ This feature lets you generate a special URL. When customers click it, the syste
     Use your links in these channels:
 
     *   **Social media links**: Add them to LINE or Instagram posts to shorten the path to the product and improve conversion.
-    *   **Quick EDM orders**: Add links for popular bundles in newsletters so customers can add them in one click.
+    *   **Quick EDM orders**: Add links for popular bundles in EDMs so customers can add them in one click.
     *   **Segmented campaigns**: Create cart contents for different member audiences (Settings) to match your marketing strategy.
 
 
 ## Before You Start { #prerequisites-cart-link }
 
-- **Scope**: Works only with online store cart links, not one-page stores.
+- **Scope**: Works only with storefront cart links, not one-page stores.
 
 !!! warning "Before publishing, **always test the URL yourself** to make sure it opens the cart with the right products and quantities."
 
@@ -159,7 +159,7 @@ Add UTM parameters to the link to track referral performance by channel in GA or
 ## Examples { #reference-cart-link-examples }
 
 !!! example "Example Settings"
-    - The online store is `https://www.goodthing.com`.
+    - The storefront is `https://www.goodthing.com`.
     - Add 1 of each of Variants IDs 001234 and 001235.
 
 ``` http title="情境一：社群導購，帶入兩款商品"

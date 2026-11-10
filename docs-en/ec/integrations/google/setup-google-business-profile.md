@@ -92,7 +92,7 @@ Creating a [My Business Profile :lucide-external-link:](https://business.google.
 
 </div>
 
-## Frequently Asked Questions { #faq-google-business }
+## FAQ { #faq-google-business }
 
 ??? quote "Who can create a Google Business Profile?"
 

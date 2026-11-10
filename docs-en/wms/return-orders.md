@@ -79,10 +79,10 @@ Handle return requests in the e-commerce warehouse system, including pickup disp
 ## Which Return Process to Use { #overview-return-orders }
 
 - **Warehouse-only merchants**:
-    - **Who**: Merchants who use only the CYBERBIZ warehouse system and do not connect it to a CYBERBIZ online store.
+    - **Who**: Merchants who use only the CYBERBIZ warehouse system and do not connect it to a CYBERBIZ storefront.
     - **Where**: Handle all return requests and restocking in the WMS warehouse system. Follow the steps below.
 - **Merchants with an integrated online store**:
-    - **Who**: Merchants who use a CYBERBIZ online store with warehouse integration turned on, on the **Expert** plan.
+    - **Who**: Merchants who use a CYBERBIZ storefront with warehouse integration turned on, on the **Expert** plan.
     - **Where**: You can process returns in the warehouse system, and the system syncs the status to the online store admin panel automatically. Follow the steps below.
 
 !!! info "Returns for Merchants with an Integrated Online Store"
@@ -107,7 +107,7 @@ Handle return requests in the e-commerce warehouse system, including pickup disp
     The system sends a pickup request to the carrier and creates a return order automatically.
 
     - **Supported carriers**: Only **T-Cat** and **Pelican** are supported for now.
-    - **Required information**: Enter the buyer's **pickup address** correctly (a convenience store address is not allowed).
+    - **Required information**: Fill in the buyer's **pickup address** correctly (a convenience store address is not allowed).
     - **Note**: For **Expert** plan merchants with **CYBERBIZ PAYMENTS** turned on, WMS hides this button. Go back to the **EC admin panel** and submit a [reverse logistics request](../ec/orders/order-return-process/#operate-order-return-reverse) so the payment can be refunded automatically.
 
     ![](../assets/images/WMS-後台-訂單-列表-訂單執行退貨02.en.png){ .screenshot }
@@ -137,7 +137,7 @@ Handle return requests in the e-commerce warehouse system, including pickup disp
 
 1. Go to **Return Order** and click **Add Return Order**.
 2. Fill in the details:
-    - **Order number**: Enter it if the return relates to a specific order, to make reconciliation easier.
+    - **Order number**: Fill in it if the return relates to a specific order, to make reconciliation easier.
     - **Return items and quantities**: Enter exactly which products are expected back.
 
 ![](../assets/images/WMS-後台-退貨單-建立退貨單01.en.png){ .screenshot }

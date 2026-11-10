@@ -81,9 +81,9 @@ Merchants can flexibly configure how the POS front end alerts staff when product
 
     | Alert Style | Display Description | Use Case |
     | :--- | :--- | :--- |
-    | **Overlay Pop-up (Default)** | A pop-up appears on the front end and requires you to click **Confirm** to close it. | Best for stores that must force stock confirmation to prevent overselling. |
+    | **Overlay Pop-up (Default)** | A dialog appears on the front end and requires you to click **Confirm** to close it. | Best for stores that must force inventory confirmation to prevent overselling. |
     | **Timed Alert** | A floating alert appears at the top of the front end and disappears automatically after 3 seconds without interrupting operations. | Best for stores that want to keep operations smooth. |
-    | **No Alert** | No alerts are shown, so staff must monitor stock status on their own. | Best for stores with a separate inventory control process. |
+    | **No Alert** | No alerts are shown, so staff must monitor inventory status on their own. | Best for stores with a separate inventory control process. |
 
 5. Click **Save** at the bottom of the page.
 
@@ -92,9 +92,9 @@ Merchants can flexibly configure how the POS front end alerts staff when product
 
 ## Front-End Display Style Reference { #intro-low-stock }
 
-The following shows how each alert style appears when product or gift stock is low:
+The following shows how each alert style appears when product or free gift inventory is low:
 
-| Alert Style | Low Product Stock | Low Gift Stock |
+| Alert Style | Low Product Inventory | Low Free Gift Inventory |
 | :--- | :--- | :--- |
 | **Overlay Pop-up** | ![](../../assets/images/POS-前台-結帳頁-庫存不足蓋板彈窗01.en.png){ .screenshot } | ![](../../assets/images/POS-前台-結帳頁-庫存不足蓋板彈窗02.en.png){ .screenshot } |
 | **Timed Alert** | ![](../../assets/images/POS-前台-結帳頁-庫存不足限時提醒01.en.png){ .screenshot } | ![](../../assets/images/POS-前台-結帳頁-庫存不足限時提醒02.en.png){ .screenshot } |

@@ -84,7 +84,7 @@ Learn about CYBERBIZ free shipping coupon specs, how to create them, and how the
 
 - :lucide-hash:{ .lg }
     [__Send coupon from the Member List__](../../members/manage-member-profiles.md#operate-member-profiles-coupons)
-    Use member filters to send coupons in bulk.
+    Use member filters to send coupons in batch.
 
 - :lucide-hash:{ .lg }
     [__Create a Gift Promo Code__](setup-promo-codes.md)

@@ -82,7 +82,7 @@ hide: []
 
 ## Prerequisites and Limits { #prerequisites-vip-pricing }
 
-- [x] You have set up VIP groups. For details, see [Create Exclusive VIP Groups](../../members/vip/create-exclusive-vip-groups.md).
+- [x] You have set up VIP groups. Details in [Create Exclusive VIP Groups](../../members/vip/create-exclusive-vip-groups.md).
 - [x] If you add VIP rules, set member exclusive prices again to make sure prices are applied correctly.
 
 !!! plan "Plan Limits"
@@ -95,7 +95,7 @@ hide: []
 1. Log in to the CYBERBIZ admin and go to **Products > All Products**.
 2. Select a product and open the **Product Information** tab.
 3. In the **Manage Variants** section, click **Edit Member Exclusive Prices**.
-4. Select a VIP group from the drop-down list.
+4. Select a VIP group from the dropdown list.
 5. Click **Create a Member Exclusive Price** to add a column for the group and set the exclusive price.
 
 ![Set member exclusive prices for a single product](../../../assets/images/ec-edit-member-exclusive-price-setting.zh-tw.en.gif){ title="Set Member Exclusive Prices for a Single Product" }
@@ -121,7 +121,7 @@ hide: []
 1. Log in to the CYBERBIZ admin and go to **Products > All Products**.
 2. Select one or more products.
 3. Click the actions menu at the top and choose **Edit Member Exclusive Prices**.
-4. Select a VIP group from the drop-down list.
+4. Select a VIP group from the dropdown list.
 
 ![Set member exclusive prices for multiple products](../../../assets/images/ec-batch-edit-member-exclusive-price.zh-tw.en.gif){ title="Set Member Exclusive Prices for Multiple Products" }
 
@@ -134,7 +134,7 @@ hide: []
 
 !!! info "Each variant can have a different price. If none is set, the product's selling price is used."
 
-### Import or Update in Bulk with Excel { #operate-vip-pricing-excel }
+### Import or Update In Batches with Excel { #operate-vip-pricing-excel }
 
 #### Step 1: Export Member Exclusive Prices { #operate-vip-pricing-export }
 

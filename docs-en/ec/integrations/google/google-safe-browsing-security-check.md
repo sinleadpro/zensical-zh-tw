@@ -116,7 +116,7 @@ To strengthen your storefront's security, we recommend that you always enable th
 
 </div>
 
-## Frequently Asked Questions { #faq-safe-browsing }
+## FAQ { #faq-safe-browsing }
 
 ??? quote"How long does it take to clear the warning after I submit a review request?"
 
@@ -128,7 +128,7 @@ To strengthen your storefront's security, we recommend that you always enable th
 
     - Lower brand trust
     - Impact on search rankings
-    - Customer churn and lower conversion rates
+    - Customer churn and lower CVR
 
 ??? quote"How can I prevent my site from being marked as unsafe?"
 

@@ -37,7 +37,7 @@ hide:
 
     ---
 
-    Bring messages from multiple channels into one interface, see each customer's background and purchase history in real time, and deliver seamless customer service.
+    Bring messages from multiple channels into one interface, see each customer's background and purchase history in real time, and deliver seamless customer support.
 
     [:octicons-arrow-right-24: Go](chatbox/index.md)
 

@@ -68,8 +68,8 @@ Set the store's display name, SMS sender name, and contact details so that the e
 
 !!! tip "Use Cases"
     - **Initial setup**: Fill in the store's basic details before you start using the e-commerce warehouse system.
-    - **Contact changes**: Update the records right away when the store email or customer service phone number changes.
-    - **Cross-border trade**: Enter the English company name registered with the Bureau of Foreign Trade (BOFT) for customs and international shipping.
+    - **Contact changes**: Update the records right away when the store email or customer support phone number changes.
+    - **Cross-border trade**: Fill in the English company name registered with the Bureau of Foreign Trade (BOFT) for customs and international shipping.
 
 
 ## Before You Start { #prerequisites-store-settings }

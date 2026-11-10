@@ -77,9 +77,9 @@ With Referral Reports, you can accurately track the sales performance of each ty
 { .doc-badge }
 
 
-!!! tip "Use cases"
+!!! tip "Use Cases"
 	- **Monthly reconciliation**: At the start of each month, export the profit-sharing summary for last month's orders that are **Completed**, then pay out the bonuses.
-	- **Third-party performance tracking**: Give influencers or group-buy organizers a dedicated link so they can check their referral order details in real time.
+	- **Third-party performance tracking**: Give KOLs or group-buy organizers a dedicated link so they can check their referral order details in real time.
 	- **Real-time sales monitoring**: Before orders are completed, use the Order Report to estimate upcoming profit-sharing costs.
 
 
@@ -97,7 +97,7 @@ With Referral Reports, you can accurately track the sales performance of each ty
 Use this to settle every profit-sharing program: referral, registration, checkout, and pickup.
 
 1. Log in to the CYBERBIZ admin and go to **Profit Sharing > Referral Reports**.
-2. In the **Report type** drop-down menu, select the type you want to view.
+2. In the **Report type** dropdown menu, select the type you want to view.
 3. Select the report name:
     - **Referral profit sharing**: Choose **推薦分潤總表** (referral summary) or **個人別推薦分潤** (referral by person).
     - **Registration profit sharing**: Choose **註冊分潤總表** (registration summary) or **員工別註冊分潤** (registration by staff member).

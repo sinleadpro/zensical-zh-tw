@@ -151,7 +151,7 @@ For details, see [Complete Website Setup](#operate-cyb-payments-finish-site)
 ### Step 2: Store Information and Contract Processing { #operate-cyb-payments-contract }
 
 1. Log in to the CYBERBIZ admin dashboard and go to **Payment and Logistics > Payment Settings > CYBERBIZ PAYMENTS > Apply now**
-2. Follow the on-screen prompts to enter your store information and related details.
+2. Follow the on-screen prompts to fill in your store information and related details.
 3. After you submit the application, confirm that the contract has been signed. The review process starts only after signing is complete.
 
 For details, see [Review Process Overview](#operate-cyb-payments-review).
@@ -289,7 +289,7 @@ Listed products or services must include:
 
 </div>
 
-## Frequently Asked Questions { #faq-cyb-payments }
+## FAQ { #faq-cyb-payments }
 
 ??? quote "What are the requirements to apply for CYBERBIZ PAYMENTS?"
     - The website must load normally.

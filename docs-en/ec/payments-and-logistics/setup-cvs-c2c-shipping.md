@@ -72,7 +72,7 @@ hide:
 
 ![CVS Shipping C2C](../../assets/images/ec-金物流-超商物流.en.png){ title="CVS Shipping C2C" .hero-page }
 
-## CVS Store-to-Store Shipping (C2C) Overview { #intro-cvs-c2c }
+## Convenience Store Store-to-Store Shipping (C2C) Overview { #intro-cvs-c2c }
 
 **CVS store-to-store (C2C)** is a shipping method in which the merchant packs the product and drops it off at a nearby convenience store. The package is then delivered to the store the customer selects for pickup.
 
@@ -86,7 +86,7 @@ hide:
 
 ### Supported Logistics Services { #intro-cvs-c2c-services }
 
-CYBERBIZ currently supports the following CVS store-to-store logistics services:
+CYBERBIZ currently supports the following convenience store store-to-store logistics services:
 
 - [x] **7-ELEVEN 交貨便**
 - [x] **FamilyMart Store-to-Store**
@@ -98,24 +98,24 @@ CYBERBIZ currently supports the following CVS store-to-store logistics services:
 ### Step 1: Select a Logistics Service { #operate-cvs-c2c-select }
 
 1. Log in to the **CYBERBIZ Admin Panel** and go to **Payment and Logistics > Convenience Store Logistics**.
-2. Find the logistics service you want to enable, and click the edit button :material-file-document-edit-outline: to open its settings page.
+2. Find the logistics service you want to enable, and click the edit button :material-file-document-edit-outline: to open its setup page.
 
 ![Select Logistics Service](../../assets/images/ec-logistics-cvs-c2c-select-service.en.png)
 
 ---
 
-### Step 2: Enter Basic Information { #operate-cvs-c2c-basic }
+### Step 2: Fill In Basic Information { #operate-cvs-c2c-basic }
 
 1. **Agree to the terms of service**: Select **I have read the logistics integration provider terms** before you can use the service.
 
-2. **Company sender information**: Enter the **sender name** and **mobile number**. Make sure they are accurate.
+2. **Company sender information**: Fill in the **sender name** and **mobile number**. Make sure they are accurate.
 
     !!! warning "If a customer requests a return, store staff will use the sender's **ID card information** to verify identity. Make sure it is entered correctly."
 
 1. **Additional settings (enable as needed)**
 
     - **Free shipping settings**: Choose whether to offer free convenience store shipping.
-    -  **No payment at pickup***: Consumers do not need to pay when they pick up the order (online payment must be completed first).
+    -  **No payment at pickup***: Customers do not need to pay when they pick up the order (online payment must be completed first).
 
 	!!! info "CYBERBIZ PAYMENTS exclusive feature: COD (cash on delivery)"
 	    - Only merchants who have activated **CYBERBIZ PAYMENTS** can use the cash on delivery feature.
@@ -125,7 +125,7 @@ CYBERBIZ currently supports the following CVS store-to-store logistics services:
 ![CVS Logistics Settings](../../assets/images/ec-金物流-超商物流-設定.en.png){ title="CVS Logistics Settings" }
 
 
-## How the Storefront Displays CVS Pickup Options { #specs-cvs-c2c-storefront }
+## How the Storefront Displays Convenience Store Pickup Options { #specs-cvs-c2c-storefront }
 
 The following example uses **Hi-Life Store Pickup** to show what customers see when they select convenience store pickup at checkout:
 
@@ -137,11 +137,11 @@ The following example uses **Hi-Life Store Pickup** to show what customers see w
 <div class="grid cards" markdown>
 
 - :lucide-package:{ .lg }   
-  [__Ship CVS Store-to-Store C2C Orders__](../orders/cvs-shipping/cvs-c2c-shipping.md){ title="Ship CVS Store-to-Store C2C Orders" }     
-  After you create an order, go to the order management page to generate a shipping label and complete the CVS shipping process.
+  [__Ship Convenience Store Store-to-Store C2C Orders__](../orders/cvs-shipping/cvs-c2c-shipping.md){ title="Ship CVS Store-to-Store C2C Orders" }     
+  After you create an order, go to the order management page to generate a shipping label and complete the convenience store shipping process.
 
 - :lucide-ban:{ .lg }     
-  [__Set CVS Delivery Restrictions__](../products/shipping/cvs-shipping-restrictions-exclusions.md){ title="Set CVS Delivery Restrictions and Exclusions" }  
-  Set product volume, weight, or type so the system automatically excludes products that are not eligible for CVS delivery.
+  [__Set Convenience Store Delivery Restrictions__](../products/shipping/cvs-shipping-restrictions-exclusions.md){ title="Set CVS Delivery Restrictions and Exclusions" }  
+  Set product volume, weight, or type so the system automatically excludes products that are not eligible for convenience store delivery.
 
 </div>

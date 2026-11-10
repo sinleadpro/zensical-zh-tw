@@ -32,7 +32,7 @@ hide:
 
     ---
 
-    Connect LINE authentication permissions to automatically retrieve and verify member phone numbers during quick login, improving account matching accuracy and data completeness.
+    Integrate LINE authentication permissions to automatically retrieve and verify member phone numbers during quick login, improving account matching accuracy and data completeness.
 
     [:octicons-arrow-right-24: Go to](account-integration/setup-line-quick-login-phone-number.md)
 
@@ -48,7 +48,7 @@ hide:
 
 ---
 
-## Member Binding and Applications { #operate-line-member-bind }
+## Member Linking and Applications { #operate-line-member-bind }
 
 <div class="grid cards" markdown>
 
@@ -56,7 +56,7 @@ hide:
 
     ---
 
-    Use LINE Official Account, LINE Login, and LIFF to complete the binding process between website members and LINE accounts, supporting automated notifications and targeted marketing.
+    Use LINE Official Account, LINE Login, and LIFF to complete the linking process between website members and LINE accounts, supporting automated notifications and targeted marketing.
 
     [:octicons-arrow-right-24: Go to](account-integration/bind-line-oa-store-members.md)
 
@@ -64,7 +64,7 @@ hide:
 
     ---
 
-    Use LIFF to enable automatic member login, and complete official account friend addition and member account binding at the same time.
+    Use LIFF to enable automatic member login, and complete official account friend addition and member account linking at the same time.
 
     [:octicons-arrow-right-24: Go to](account-integration/setup-liff-auto-login-member-binding.md)
 
@@ -72,7 +72,7 @@ hide:
 
     ---
 
-    Set up coupon to be sent automatically after members bind their LINE Official Account, to improve binding rates and marketing results.
+    Set up coupon to be sent automatically after members link their LINE Official Account, to improve linking rates and marketing results.
 
     [:octicons-arrow-right-24: Go to](account-integration/setup-line-binding-coupon-gift.md)
 
@@ -160,7 +160,7 @@ hide:
 
     ---
 
-    Learn how to apply for LINE live streaming, then complete the back-office parameter settings and product integration.
+    Learn how to apply for LINE live streaming, then complete the admin parameter settings and product integration.
 
     [:octicons-arrow-right-24: Go to](apply-setup-line-live-stream.md)
 
@@ -168,7 +168,7 @@ hide:
 
     ---
 
-    Apply for LINE Shopping and complete the back-office integration settings to direct LINE shopping traffic to your website for orders.
+    Apply for LINE Shopping and complete the admin integration settings to direct LINE Shopping traffic to your website for orders.
 
     [:octicons-arrow-right-24: Go to](apply-setup-line-shopping-guide.md)
 

@@ -209,7 +209,7 @@ function openTab(evt, tabName) {
 </div>
 
 
-## Brand Website { #overview-home-ec }
+## Brand Storefront { #overview-home-ec }
 
 <div class="grid cards" markdown>
 
@@ -218,7 +218,7 @@ function openTab(evt, tabName) {
 
     ---
 
-    Build your brand website from scratch and learn admin basics quickly. -->
+    Build your brand storefront from scratch and learn admin basics quickly. -->
 
 -   :lucide-store:{ .lg }
     [__Store settings__](ec/website-management/){ title="Admin center" }
@@ -239,7 +239,7 @@ function openTab(evt, tabName) {
 
     ---
 
-    Fulfill orders, handle returns and refunds, and connect convenience-store and home-delivery shipping.
+    Fulfill orders, handle returns and refunds, and integrate convenience-store and home-delivery shipping.
 
 -   :lucide-megaphone:{ .lg }
     [__Marketing campaigns__](ec/marketing/){ title="Marketing campaigns" }
@@ -282,7 +282,7 @@ function openTab(evt, tabName) {
 
     ---
 
-    Create inbound, transfer, and return orders to manage stock moves.
+    Create inbound, transfer, and return orders to manage inventory moves.
 
 -   :lucide-bar-chart-3:{ .lg }
     [__Inventory management__](wms/inventory-records.md){ title="Inventory records" }
@@ -325,7 +325,7 @@ function openTab(evt, tabName) {
 
     ---
 
-     Inbound/outbound orders, stock adjustments, counts, and omnichannel inventory. -->
+     Inbound/outbound orders, inventory adjustments, counts, and omnichannel inventory. -->
 
 
 </div>
@@ -411,7 +411,7 @@ function openTab(evt, tabName) {
 
     ---
 
-    Show a notice bar on your storefront based on the country of the customer's IP address, guiding customers to the website for their country.
+    Show a notice bar on your storefront based on the country of the customer's IP address, guiding customers to the storefront for their country.
 
 </div>
 

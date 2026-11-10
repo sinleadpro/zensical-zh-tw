@@ -1,6 +1,6 @@
 ---
 title: "Import Customer Store Recommenders"
-description: "Headquarters admins can use bulk import to quickly link existing members to specific stores and staff, so sales are attributed accurately."
+description: "Headquarters admins can use batch import to quickly link existing members to specific stores and staff, so sales are attributed accurately."
 created: 2026-05-07 18:35
 last_modified: 2026-06-18 18:35
 lang: en-US
@@ -66,7 +66,7 @@ hide: []
 ---
 
 # Import Customer Store Recommenders
-Headquarters admins can use bulk import to quickly link existing members to specific stores and staff, so sales are attributed accurately.
+Headquarters admins can use batch import to quickly link existing members to specific stores and staff, so sales are attributed accurately.
 { .subtitle }
 
 [:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | All PLUS / Enterprise<br>
@@ -74,9 +74,9 @@ Headquarters admins can use bulk import to quickly link existing members to spec
 { .doc-badge }
 
 
-## Overview { #overview-referrer-import }
+## About This Feature { #overview-referrer-import }
 
-Headquarters admins can use this feature to configure member and store referrer settings in bulk, including **changing the store referrer**, the **binding period**, and **removing the binding**.
+Headquarters admins can use this feature to configure member and store referrer settings in batches, including **changing the store referrer**, the **binding period**, and **removing the binding**.
 
 
 ## Before You Start { #prerequisites-referrer-import }
@@ -123,7 +123,7 @@ Headquarters admins can use this feature to configure member and store referrer 
 ## FAQ { #faq-referrer-import }
 
 ??? quote "After importing, are older orders attributed to the newly linked referrer automatically?"
-    No. Sales attribution applies only to valid online store orders placed **after the link is created**. Closed or existing past orders are not attributed retroactively.
+    No. Sales attribution applies only to valid storefront orders placed **after the link is created**. Closed or existing past orders are not attributed retroactively.
 
 ??? quote "Can I also use import to remove a member's link?"
     Yes. In the import template, use the specific command field (see the template instructions) to delete or remove the link, then upload again to update in bulk.

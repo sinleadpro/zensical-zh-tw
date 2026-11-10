@@ -77,7 +77,7 @@ CYBER coins are the CYBERBIZ platform's own points. You use them to pay for serv
 
 ## Page Overview { #overview-cyber-coin }
 
-!!! path "Admin panel path: Website Management > Topup Center."
+!!! path "Admin path: Website Management > Topup Center."
 
 <div class="grid cards" markdown>
 
@@ -134,7 +134,7 @@ SMS messages are split into domestic and international messages based on the rec
 
 ### Step 1: Enter the Top-Up Amount { #operate-cyber-coin-amount }
 
-1. Log in to the CYBERBIZ admin panel, go to **Website Management > Topup Center**, and scroll down to the **Buy CYBER Coins Now** section.
+1. Log in to the CYBERBIZ admin, go to **Website Management > Topup Center**, and scroll down to the **Buy CYBER Coins Now** section.
 2. Enter the amount you want to top up (in NTD) in the input box.
     - **Minimum top-up amount:** NT$1,200
     - **Maximum top-up amount:** NT$40,000
@@ -187,7 +187,7 @@ Choose an invoice type and fill in the matching fields:
     | Citizen digital certificate | Email, citizen digital certificate number |
     | Donation | Email, charity donation code |
 
-!!! note "The e-invoice is sent to the email address you enter. The system **only provides e-invoices**. Duplicate or triplicate paper invoices are not available."
+!!! note "The e-invoice is sent to the email address you fill in. The system **only provides e-invoices**. Duplicate or triplicate paper invoices are not available."
 
 ---
 
@@ -196,7 +196,7 @@ Choose an invoice type and fill in the matching fields:
 === ":lucide-credit-card: Credit Card"
 
     1. Select **Credit card payment**.
-    2. Enter the card number, expiration date, and CVV in the credit card fields.
+    2. Fill in the credit card number, expiration date, and CVV in the credit card fields.
     3. Agree to the terms of service and click **Confirm**.
     4. The system takes you to a 3D Secure page to complete bank verification.
     5. After verification succeeds, the CYBER coins are **added to your account immediately**.
@@ -215,7 +215,7 @@ Choose an invoice type and fill in the matching fields:
 
     !!! warning "ATM Transfer Notes"
 
-        - Complete the transfer before the payment deadline (by default, **29 days** after you place the order). If you miss it, you need to place a new order.
+        - Complete the transfer before the payment deadline (by default, **29 days** after you submit the order). If you miss it, you need to place a new order.
         - **Transfer the full amount in one payment.** Don't split it into several transfers.
         - Don't set the transfer fee to be paid by the recipient.
         - You can pay by online banking, web ATM, a physical ATM, or a bank counter transfer.

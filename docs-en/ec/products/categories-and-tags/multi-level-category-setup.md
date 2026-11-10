@@ -106,7 +106,7 @@ After you set up multi-level categories, you can apply **navigation bar display 
 
         - Customized collections
         - Conditionalized collections
-        - Product types on the product settings page
+        - Product types on the product setup page
 
 !!! tip "Category Folders"
 
@@ -221,7 +221,7 @@ We recommend multi-level product categories in the following situations:
 
 - :lucide-menu:{ .lg }  
   [__Menu and Navigation Bar Settings__](../../../ec/website-appearance/navigation/setup-menus-navigation.md){ title="Set Up Menus and the Navigation Bar" }  
-  Bind multi-level categories to the navigation bar to improve the shopping flow and experience.
+  Link multi-level categories to the navigation bar to improve the shopping flow and experience.
 - :lucide-layers:{ .lg }  
   [__Multi-Level Category Threshold Discounts__](../../../ec/marketing/discounts/multi-level-category-discount.md){ title="Set Up Multi-Level Category Threshold Discounts" }  
   Set threshold discounts by category level that apply automatically to eligible products.
@@ -239,7 +239,7 @@ We recommend multi-level product categories in the following situations:
 
 ??? quote "When is a three-level structure not a good fit?"  
 	- Your products are of a single kind or few in number, so one or two levels are enough.  
-	- Your store doesn't need to bind the navigation bar or marketing campaigns at category levels.  
+	- Your store doesn't need to link the navigation bar or marketing campaigns at category levels.  
 	- You want to avoid unnecessary management complexity and lower maintenance costs.
 
 ??? quote "What is the difference between a subcategory and a sub-subcategory?"  

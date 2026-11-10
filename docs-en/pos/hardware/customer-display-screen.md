@@ -80,28 +80,28 @@ The POS customer display is an auxiliary device for the POS system. It lets cust
 
 !!! tip "Use Cases"
     - **Brand promotion**: Play brand image videos or the latest promotional images on the checkout screen to turn the customer display into digital signage.
-    - **Boost spending**: Show add-on purchase offers at checkout to prompt additional purchases just before the customer pays, raising average order value.
+    - **Boost spending**: Show add-on purchase offers at checkout to prompt additional purchases just before the customer pays, raising AOV.
     - **Interactive fun**: Use interactive games (such as spin wheels or prize draws) to make checkout more enjoyable and increase member loyalty.
     - **Information confirmation**: Guide customers to verify their member details and itemized purchases, reducing manual communication errors.
 
 
-## Usage Notes { #prerequisites-display-screen }
+## Before You Start { #prerequisites-display-screen }
 
 - **Hardware requirements**: Prepare an external monitor and connect it to the POS host (we recommend setting the projection mode to **Extend**).
 - **Software requirements**: Install the [POS APP Driver](../software/drivers.md) on the POS host, and open the POS APP.
-- **How changes take effect**: After you configure settings in the back office, run **Sync Customer Display Settings** in the POS front end to update the display content.
+- **How changes take effect**: After you configure settings in the admin, run **Sync Customer Display Settings** in the POS front end to update the display content.
 - **Video requirements**: Ad wall videos support YouTube URLs only. If a video contains copyrighted music, the customer display may fail to play it.
 
 
 ## Operation Steps { #operate-display-screen }
 
-### Step 1: Set up Customer Display Marketing Content in the Back Office { #operate-display-screen-step-a-admin }
+### Step 1: Set up Customer Display Marketing Content in the Admin { #operate-display-screen-step-a-admin }
 
-1. Log in to the CYBERBIZ admin back office, go to **POS > POS Store List**, select the store you want to configure, and click **Customer Display Marketing**.
+1. Log in to the CYBERBIZ admin, go to **POS > POS Store List**, select the store you want to configure, and click **Customer Display Marketing**.
     ![](../../assets/images/POS-後台-所有POS商店-客顯行銷-開啟設定01.en.png){ .screenshot }
 2. On the page, select the **POS Terminal** you want to apply the settings to.
 3. Turn on the **Customer Display Settings** toggle, and select the information to display:
-    - **Add Buy**: When turned on, the system automatically applies the existing **Order Add-on Purchase** campaign. If the conditions are met, an add-on purchase pop-up appears before checkout.
+    - **Add Buy**: When turned on, the system automatically applies the existing **Order Add-on Purchase** campaign. If the conditions are met, an add-on purchase dialog appears before checkout.
     - **Ad Wall**: When turned on, you can set the ad layout and content below.
     - **Customer Display Game**: Select one of the existing interactive games to display.
 4. To have customers confirm their member information, turn on the information confirmation toggle in **Other Settings**.
@@ -168,7 +168,7 @@ After you finish the back-office setup, complete the final connection steps on t
 ## FAQ { #faq-display-screen }
 
 ??? quote "Why didn't the customer display screen update after I changed the back-office settings?"
-    After you save settings in the back office, the POS front end does not pull updates automatically. Be sure to click **Sync Customer Display Settings** on the **Settings and Connection Test** page of the POS front end. If the display still does not update, restart the POS APP.
+    After you save settings in the admin, the POS front end does not pull updates automatically. Be sure to click **Sync Customer Display Settings** on the **Settings and Connection Test** page of the POS front end. If the display still does not update, restart the POS APP.
 
 ??? quote "What should I do if **Unable to Play Video** appears on the customer display screen?"
     This is usually due to copyright restrictions on the YouTube video. We recommend uploading a video without copyrighted music. Alternatively, set the video to "Unlisted" when uploading it to YouTube, and make sure the video allows embedding on external websites.

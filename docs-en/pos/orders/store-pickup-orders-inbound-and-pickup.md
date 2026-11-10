@@ -78,7 +78,7 @@ hide: []
 ---
 
 # Store Pickup Orders (Inbound/Pickup)
-Learn how to handle inbound arrivals, customer pickups, and overdue order management for website orders at the POS front end. This supports OMO operations, where orders are placed online and picked up in store.
+Learn how to handle inbound arrivals, customer pickups, and overdue order management for storefront orders at the POS front end. This supports OMO operations, where orders are placed online and picked up in store.
 { .subtitle }
 
 [:lucide-layers:{ title="Applicable Products" }](../../resources/conventions#適用產品) | Smart POS
@@ -88,7 +88,7 @@ Learn how to handle inbound arrivals, customer pickups, and overdue order manage
     This document applies only to shipping management for **POS store orders**. For **regular store orders**, see [store pickup order shipping](../../ec/orders/store-pickup-orders.md).
 
 
-## Usage Notes { #prerequisites-store-pickup }
+## Before You Start { #prerequisites-store-pickup }
 
 - **Prerequisites**: This feature is available only if **POS Store Pickup** is enabled.
 - **Order Condition**: Orders marked as **Shipped** in the admin panel.
@@ -122,12 +122,12 @@ Learn how to handle inbound arrivals, customer pickups, and overdue order manage
 
 ### Step 2: Receive Packages at the Store { #operate-store-pickup-step-b }
 
-When a package shipped from the central warehouse arrives at the store, store staff must complete the inbound step. The system sends an SMS or email notification to the customer at the same time.
+When a package shipped from the central warehouse arrives at the store, store clerks must complete the inbound step. The system sends an SMS or email notification to the customer at the same time.
 
 1. On the POS front-end home page, click **Orders > Store Pickup Orders**.
 2. Click **Store Arrival Inbound** in the upper-left corner.
-3. In the pop-up window, click **Click, Then Scan Barcode**, and use a barcode scanner to scan the **store arrival barcode** on the package.
-4. After the system loads the order information, select your name from the **Receiving Staff** drop-down list.
+3. In the dialog, click **Click, Then Scan Barcode**, and use a barcode scanner to scan the **store arrival barcode** on the package.
+4. After the system loads the order information, select your name from the **Receiving Staff** dropdown list.
 5. Click **Confirm Arrival**.
 
     > The order's delivery status changes from **Shipped** to **Arrived**.
@@ -136,7 +136,7 @@ When a package shipped from the central warehouse arrives at the store, store st
 
 ### Step 3: Customer Pickup at the Store { #operate-store-pickup-step-c }
 
-When the customer comes to the counter, store staff must verify the information and complete the handover.
+When the customer comes to the counter, store clerk must verify the information and complete the handover.
 
 1. On the POS front-end home page, click **Orders > Store Pickup Orders**.
 2. Click **Customer Pickup** in the upper-left corner.
@@ -155,9 +155,9 @@ When the customer comes to the counter, store staff must verify the information 
 To verify the recipient's identity, go to **Payment and Logistics > Checkout Page and Logistics Settings** in the admin panel and turn on **Pickup by Member Barcode Only Setting**.
 
 !!! warning "Risk Notice"
-    This feature requires OMO_APP or LINE@ to generate member barcodes. (If you want to use LINE@ member barcodes, each customer must bind a LINE@ membership and obtain a member barcode.)
+    This feature requires OMO_APP or LINE@ to generate member barcodes. (If you want to use LINE@ member barcodes, each customer must link a LINE@ membership and obtain a member barcode.)
 
-    When this setting is on, store staff can enter the pickup process only by scanning the customer's **member barcode** in the mobile APP. Staff cannot search by manually entering a phone number or email.
+    When this setting is on, store clerks can enter the pickup process only by scanning the customer's **member barcode** in the mobile APP. Staff cannot search by manually entering a phone number or email.
 
 ## Return Process { #operate-returns }
 
@@ -179,7 +179,7 @@ If the customer asks to return an item right after opening the package at the st
 
 If the customer has already taken the item out of the store, the return must be handled through the website front end or by contacting customer service.
 
-1. The customer logs in to the website **Member Center > My Order(s)** and clicks **Request Return**.
+1. The customer logs in to the storefront **Member Center > My Order(s)** and clicks **Request Return**.
 2. The administrator goes to the admin panel and changes order `Delivery Status` to `Returning`.
 3. The administrator can arrange reverse logistics to collect the package.
 
@@ -261,14 +261,14 @@ When the package has arrived at the store but the customer requests a return, th
 
 === "Return to Central Warehouse"
 
-    Store staff submit a return request on the POS, and the order changes to `Returning`. After the package is shipped back, the administrator performs **Reviewing Return** in the admin panel and changes it to `Returned`. If **Return to Central Warehouse** is selected, the order status changes to `Returned`, and then the refund process begins.
+    Store clerks submit a return request on the POS, and the order changes to `Returning`. After the package is shipped back, the administrator performs **Reviewing Return** in the admin panel and changes it to `Returned`. If **Return to Central Warehouse** is selected, the order status changes to `Returned`, and then the refund process begins.
 
     ![](../../assets/images/POS-後台-訂單-所有訂單-門市訂單出貨03.en.png){ .screenshot }
 
 
 
 
-## Frequently Asked Questions { #faq-store-pickup }
+## FAQ { #faq-store-pickup }
 
 ??? quote "Why does downloading the store arrival barcode show a failure message?"
     Check whether the order includes the "Cash on Delivery" option. POS store pickup currently supports only "Pay First, Pick Up Later." If Cash on Delivery is included, the store arrival barcode cannot be generated.

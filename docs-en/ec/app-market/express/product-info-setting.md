@@ -1,6 +1,6 @@
 ---
 title: "Product Information Settings for Japan-to-Taiwan Cross-Border Sales"
-description: "To use Japan-to-Taiwan logistics, complete the customs information for your products. This guide explains how to edit fields such as JANCODE, ingredients, and country of origin one by one or in bulk."
+description: "To use Japan-to-Taiwan logistics, complete the customs information for your products. This guide explains how to edit fields such as JANCODE, ingredients, and country of origin one by one or in batches."
 created: 2026-07-24 15:03
 last_modified: 2026-07-24 15:03
 lang: en-US
@@ -58,7 +58,7 @@ icon: lucide/file-edit
 hide: []
 ---
 # Product Information Settings for Japan-to-Taiwan Cross-Border Sales
-To use Japan-to-Taiwan logistics, you need to complete customs information for your products. This guide explains how to edit JANCODE, ingredients, country of origin, and other fields one by one or in bulk.
+To use Japan-to-Taiwan logistics, you need to complete customs information for your products. This guide explains how to edit JANCODE, ingredients, country of origin, and other fields one by one or in batches.
 { .subtitle }
 
 [:lucide-layers:{ title="Applicable Products" }](../../resources/conventions#適用產品) | Cross-Border E-Commerce (Japan to Taiwan)<br>
@@ -87,10 +87,10 @@ To use **Japan-to-Taiwan** logistics, every product sold cross-border must inclu
 
     ![](../../../assets/images/EC-後台-商品-所有商品-日到台站台報關用商品欄位01.en.png){ .screenshot }
 
-=== "Edit in Bulk"
+=== "Edit In Batches"
 
     1. [Export the product Excel file](../../products/bulk-operations/excel-import-products/#operate-excel-import-download).
     2. Fill in the customs fields and save the file.
-    3. [Import the product Excel file](../../products/bulk-operations/excel-import-products/#operate-excel-import-upload) to finish bulk editing.
+    3. [Import the product Excel file](../../products/bulk-operations/excel-import-products/#operate-excel-import-upload) to finish batch editing.
 
     ![](../../../assets/images/EC-後台-商品-所有商品-日到台站台報關用商品欄位02.en.png){ .screenshot }

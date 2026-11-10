@@ -88,7 +88,7 @@ When a member requests a return or you need to start a return manually, you can 
 - **Request limit**: Each order accepts **only one** return and refund request. If a partial return has been completed, the remaining items in the order can't be requested again.
 - **Partial refunds**:
     - Installment orders can't use partial returns (refunds).
-    - If the shopper paid today, partial returns can be processed starting the next day.
+    - If the customer paid today, partial returns can be processed starting the next day.
     - Each order accepts only one partial return request.
 
 ### Marketing Campaign Rules { #specs-order-return-campaign }
@@ -112,7 +112,7 @@ If you use CYBERBIZ e-commerce warehousing, see [Returns and Pickup Dispatch](..
 Depending on who starts the return, the **Return Status** in the order list shows differently:
 
 - **Member request**: Automatically shows `Return Requested`.
-    - To let shoppers request returns on the storefront, see [Member Return Request Feature](member-return-request-feature.md).
+    - To let customers request returns on the storefront, see [Member Return Request Feature](member-return-request-feature.md).
 - **Merchant-initiated**: Initially shows `No Return Needed`.
 
 After checking the order's current status, follow the steps below for your return scenario.
@@ -136,7 +136,7 @@ After checking the order's current status, follow the steps below for your retur
 
     !!! warning "Convenience Store Return Service Requirements"
         - **Available plans**: Expert PLUS and Enterprise.
-        - **Supported logistics**: Only sites with **convenience store B2C** turned on. Not available for convenience store C2C.
+        - **Supported logistics**: Only sites with **convenience store B2C** enabled. Not available for convenience store C2C.
 
     ![](../../assets/images/EC-訂單-所有訂單-發送7-11-c2c退貨便代碼.en.png)
 
@@ -144,7 +144,7 @@ After checking the order's current status, follow the steps below for your retur
 
     - :lucide-dollar-sign:{ .lg }  
       [__Use Convenience Store Return Service C2B__](returns-refunds/cvs-c2b-return.md)  
-      Set 7-Eleven Return Service fees, send codes, and follow the drop-off process.
+      Set 7-11 Return Service fees, send codes, and follow the drop-off process.
 
     </div>
 
@@ -160,7 +160,7 @@ After checking the order's current status, follow the steps below for your retur
 
     - :lucide-dollar-sign:{ .lg }  
       [__Use Convenience Store Return Service C2C__](returns-refunds/7-11-c2c-return.md)  
-      Turn on 7-Eleven C2C returns, set the recipient, and send codes.
+      Turn on 7-11 C2C returns, set the recipient, and send codes.
 
     </div>
 
@@ -171,7 +171,7 @@ After checking the order's current status, follow the steps below for your retur
         ![](../../assets/images/EC-訂單-所有訂單-更多操作-退貨中.en.png)
 
     2. Go to **Payment and Logistics > XX Shipping Labels**.
-      > Choose the page for your carrier (EZCAT, Pelican Express, HCT Logistics): EZCAT Shipping Labels, Pelican Express, or HCT Logistics Shipping Labels.
+      > Choose the page for your carrier (T-CAT, Pelican, HCT Logistics): T-CAT Shipping Labels, Pelican, or HCT Logistics Shipping Labels.
     3. Enter the order number to create a reverse logistics tracking number.
 
         ![](../../assets/images/EC-後台-金物流-黑貓託運單-建立逆物流託運單01.en.png)
@@ -179,12 +179,12 @@ After checking the order's current status, follow the steps below for your retur
     <div class="grid cards" markdown>
 
     - :lucide-dollar-sign:{ .lg }  
-      [__Create EZCAT Reverse Logistics__](../payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-shipping-reverse)
-      Set EZCAT sender information, add tracking numbers, and create reverse logistics.
+      [__Create T-CAT Reverse Logistics__](../payments-and-logistics/setup-print-tcat-waybill-v2.md#operate-ezcat-shipping-reverse)
+      Set T-CAT sender information, add tracking numbers, and create reverse logistics.
 
     - :lucide-dollar-sign:{ .lg }  
-      [__Create Pelican Express Reverse Logistics__](../payments-and-logistics/setup-pelican-waybill-v2.md#operate-pelican-shipping-reverse)  
-      Set Pelican Express sender information, add tracking numbers, and create reverse logistics.
+      [__Create Pelican Reverse Logistics__](../payments-and-logistics/setup-pelican-waybill-v2.md#operate-pelican-shipping-reverse)  
+      Set Pelican sender information, add tracking numbers, and create reverse logistics.
 
     - :lucide-dollar-sign:{ .lg }  
       [__Create HCT Logistics Reverse Logistics__](../payments-and-logistics/setup-hct-waybill-v2.md#operate-hct-setup-reverse)  

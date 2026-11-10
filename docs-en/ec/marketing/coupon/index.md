@@ -71,7 +71,7 @@ Helps merchants choose between account-linked coupons and general promo codes ba
 
 ## Overview { #overview-coupon }
 
-coupons and promo codes are the core discount tools for online store promotions. **Promo codes are a type of coupon.** Both have the same priority at checkout and can be used to reduce the order amount.
+coupons and promo codes are the core discount tools for storefront promotions. **Promo codes are a type of coupon.** Both have the same priority at checkout and can be used to reduce the order amount.
 
 - coupons let you add discounts directly to specific member accounts.
 - Promo codes let you share one general code widely.
@@ -162,9 +162,9 @@ coupons and promo codes are applied in the same order: after discount promotions
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/2020/03/結帳順序-優惠券.png){ .screenshot }
 
-## Turn On Coupons (Codes) At Checkout { #operate-coupon }
+## Enable Coupons (Codes) At Checkout { #operate-coupon }
 
-To let customers use coupons (codes) at checkout, turn on the storefront display switch first.
+To let customers use coupons (codes) at checkout, turn on the storefront display toggle first.
 
 1. Log in to the CYBERBIZ admin and go to **Payment and Logistics > Checkout Page & Logistics**.
 2. Find the **Coupon setting for checkout page** section and switch the feature to `開啟`.

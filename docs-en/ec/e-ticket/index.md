@@ -46,7 +46,7 @@ hide:
 
     ---
 
-    Set e-ticket redemption permissions and binding rules for different stores and partner brands, and manage store staff accounts.
+    Set e-ticket redemption permissions and linking rules for different stores and partner brands, and manage store clerk accounts.
 
     [:octicons-arrow-right-24: Go](setup-e-ticket-store-permissions.md)
 

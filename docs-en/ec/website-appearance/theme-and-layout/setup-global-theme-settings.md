@@ -136,7 +136,7 @@ Pop-up ads open automatically when customers visit your store. In global setting
     1. Upload desktop, tablet, and mobile images. (The desktop image is required. If you don't upload tablet or mobile images, the desktop image is used.)
     2. Set the **thumbnail size** (small / medium / large) to control the size of the small icon after the pop-up is minimized. If you don't upload one, the desktop image is used by default.
     3. Set the **image link** to go to a specific page or URL when the pop-up is clicked.
-    4. To let customers open the link without leaving your website, select "Open link in new tab."
+    4. To let customers open the link without leaving your storefront, select "Open link in new tab."
 
     ![Pop-up ad - image](../../../assets/images/ec-網站外觀-拖拉版型編輯器-彈窗廣告-圖片顯示.en.png)
 
@@ -154,11 +154,11 @@ Pop-up ads open automatically when customers visit your store. In global setting
 
 === "Interactive Game"
 
-    1. Choose a "Spin the Wheel" or "Red Envelope Draw" game you created from the drop-down menu.
+    1. Choose a "Spin the Wheel" or "Red Envelope Draw" game you created from the dropdown menu.
     2. Go to the [interactive games setup guide](../../marketing/other-tools/interactive-games.md){ title="Interactive Games (EC)" } to create a Spin the Wheel or Red Envelope Draw campaign.
 
     !!! info "Participation Restrictions"
-        This feature is for website members only. Customers must sign in to take part.
+        This feature is for storefront members only. Customers must sign in to take part.
 
     ![Pop-up ad - interactive game](../../../assets/images/ec-網站外觀-拖拉版型編輯器-彈窗廣告-互動遊戲.en.png)
 
@@ -200,7 +200,7 @@ Define the basic visual elements for your whole website:
 
 ## Site-Wide Settings { #operate-global-settings-shop }
 
-Manage your website's core settings in one place, including its visual identity, search engine optimization (SEO), global product display behavior, and site protection.
+Manage your storefront's core settings in one place, including its visual identity, search engine optimization (SEO), global product display behavior, and site protection.
 
 ### Visual Identity and Brand Assets { #brand }
 
@@ -227,7 +227,7 @@ Manage your website's core settings in one place, including its visual identity,
 4. Set the **homepage entrance animation**:
 
     1. Find the **homepage entrance animation** setting and select it to turn it on.
-    2. Choose an animation style from the drop-down menu:
+    2. Choose an animation style from the dropdown menu:
 
         === "Rise and Fade In"
 
@@ -264,7 +264,7 @@ Manage your website's core settings in one place, including its visual identity,
 
     ??? quote "I turned on animation, but I don't see it on my computer or phone. Why?"
 
-        If your device has the accessibility setting **Reduce Motion** turned on, your website turns off animation automatically and shows content directly. This is expected behavior, not a bug.
+        If your device has the accessibility setting **Reduce Motion** turned on, your storefront turns off animation automatically and shows content directly. This is expected behavior, not a bug.
 
         To see the animation, turn off that setting:
 
@@ -277,7 +277,7 @@ Manage your website's core settings in one place, including its visual identity,
 
 ### Website SEO and Protection { #specs-global-settings-seo }
 
-1. In "Site-Wide Settings," enter your website's **title**, **description**, and **keywords** to improve how search engines index and rank your website. If you leave the title blank, the system uses your store name as the title. [See the setup guide](../site-settings/setup-site-title-seo.md){ title="Set Up the Website Title and SEO" }
+1. In "Site-Wide Settings," fill in your website's **title**, **description**, and **keywords** to improve how search engines index and rank your website. If you leave the title blank, the system uses your store name as the title. [See the setup guide](../site-settings/setup-site-title-seo.md){ title="Set Up the Website Title and SEO" }
 
     ![Site-wide settings - website SEO](../../../assets/images/ec-網站外觀-全站設定-網站seo.en.png)
 
@@ -296,7 +296,7 @@ These settings **apply to every product list and product page on your website** 
 
 #### Basic Display Options { #operate-global-settings-product-display-basic }
 
-Turn on the following as needed:
+Enable the following as needed:
 
 - **Show product taglines:** Show product features or promotional taglines below the product image or name. [See the setup guide](../../products/create-and-manage/edit-product-slogan-and-description.md){ title="Edit Product Summaries and Taglines" }
 
@@ -334,7 +334,7 @@ Turn on the following as needed:
     === "Right"
         ![Text alignment - right](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-文字排列-置右.en.png)
 
-- Choose the **variant menu** style (drop-down / buttons; buttons by default).
+- Choose the **variant menu** style (dropdown / buttons; buttons by default).
 
     === "Buttons"
         ![Buttons](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-商品款式選單-按鈕式.en.png){ title="Product variant menu - buttons" }
@@ -409,22 +409,22 @@ Turn on the following as needed:
     | Label type | Application rule | Label category | Description |
     | ------- | ------- | ------- | ------- |
     | **Discount Label** | Shown when the sale price of any variant is lower than the list price | Default label | Can be set to public / private<br>Can't be added or deleted |
-    | **Out-of-Stock Label** | Single-variant products: shown when stock is 0 and the product is set to stop selling at 0 stock<br>Multi-variant products: shown only when every variant has 0 stock and is set to stop selling at 0 stock | Default label | Can be set to public / private<br>Can't be added or deleted |
+    | **Out-of-Stock Label** | Single-variant products: shown when inventory is 0 and the product is set to stop selling at 0 inventory<br>Multi-variant products: shown only when every variant has 0 inventory and is set to stop selling at 0 inventory | Default label | Can be set to public / private<br>Can't be added or deleted |
     | **Periodic Event Label** | Shown automatically when the product is linked to a subscription campaign | Default label | Can be set to public / private<br>Can't be added or deleted |
     | **Custom labels** | A custom label must be linked to a product tag in the admin. After you link it, the custom label applies automatically to every product with that product tag<br> [See the setup guide](../../products/categories-and-tags/manage-product-tags.md){ title="Manage Product Tags" } | Custom label | Can be set to public / private<br>Can be added or deleted |
 
 
     #### Steps { #operate-global-settings-product-labels-step }
 
-    1. In "Site-Wide Settings," click **Product Label List** to open the settings page.
+    1. In "Site-Wide Settings," click **Product Label List** to open the setup page.
 
         ![Product label list](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-商品標籤列表-入口.en.png)
 
-    2. [Turn on](theme-editor.md#operate-theme-editor-visibility){ title="Drag-and-Drop Theme Site Settings" } the label types you need:
+    2. [Enable](theme-editor.md#operate-theme-editor-visibility){ title="Drag-and-Drop Theme Site Settings" } the label types you need:
 
         ![Product label list](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-商品標籤列表.en.png)
 
-    3. Click an item in the label list to open its settings page and choose a **display style** for each label:
+    3. Click an item in the label list to open its setup page and choose a **display style** for each label:
 
         - **Text:** Enter the label text you want to show.
         - **Image:** Upload a label image and choose the image label size (**large / small**).
@@ -467,6 +467,6 @@ Turn on the following as needed:
 
 </div>
 
-## References { #reference-global-settings }
+## See Also { #reference-global-settings }
 
 - [Block Types You Can Add Reference](../references/theme-editor-sections.md)

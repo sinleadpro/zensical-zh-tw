@@ -195,7 +195,7 @@ Quick Delivery shipping fees are always deducted in **CYBER Coins**.
 If an order is canceled or an exception occurs, the system creates the related adjustment:
 
 - **Shipping fee refund**: When an order is canceled because of the platform, the deducted shipping fee is refunded.
-- **Reverse logistics fee**: When a shopper returns an order for their own reasons, an extra fee is charged to bring the products back to the store.
+- **Reverse logistics fee**: When a customer returns an order for their own reasons, an extra fee is charged to bring the products back to the store.
 - **Order compensation**: Compensation the platform pays for driver accidents or lost products.
 
 !!! warning "When Adjustments Take Effect"

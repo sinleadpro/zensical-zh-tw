@@ -78,13 +78,13 @@ An Event Page (one-page store) puts product information, features, and checkout 
 
 ![](../../../assets/images/EC-後台-行銷活動-一頁式商店-畫面總覽01.png){ .hero-page }
 
-!!! info "Version Differences"
+!!! info "Plan Differences"
     - On PLUS plans, Event Page is an add-on module (choose 2 of 11). Make sure you have selected this module before using it. Enterprise includes it by default.
 
 !!! tip "Use Cases"
     - **Best-seller promotions**: Build a dedicated landing page for one star product or a limited-time bundle to focus on conversions.
     - **Holiday flash sales**: For events like 11.11 or Mother's Day, run promotions on a separate page without affecting your main store.
-    - **KOL and affiliate promotion**: Create page links with affiliate codes to track sales from specific influencers or channels.
+    - **KOL and affiliate promotion**: Create page links with affiliate codes to track sales from specific KOLs or channels.
 
 
 ## Before You Start { #prerequisites-one-page }
@@ -134,7 +134,7 @@ On the **Basic Settings** tab of the edit page, set up the URL, visuals, and sch
 3. Schedule and urgency tools
 
     - **Promotion period**: Set when the page opens and closes automatically.
-    - **Pinned announcement**: Show important notices at the top of the page (such as free shipping over NT$1,000 or gifts remaining).
+    - **Pinned announcement**: Show important notices at the top of the page (such as free shipping over NT$1,000 or free gifts remaining).
 
     ![](../../../assets/images/EC-後台-行銷活動-一頁式商店-基本設定-活動時間設定置頂活動訊息01.png)
 
@@ -259,15 +259,15 @@ On the **Basic Settings** tab of the edit page, set up the URL, visuals, and sch
 
 1. Go to the **Marketing Activity Settings** tab.
 2. Choose the promotion policy for the Event Page.
-  - **Sync storewide promotions**: The Event Page uses the same promotions as your online store.
+  - **Sync storewide promotions**: The Event Page uses the same promotions as your storefront.
   - **Customize Marketing Activities**: Add threshold gift or quantity gift promotions just for this Event Page.
 
-!!! info "Gift Notes"
-    - **Variant limits**: Gifts can only be linked by **product**, not by a specific **variant**.
+!!! info "Free Gift Notes"
+    - **Variant limits**: Free gifts can only be linked by **product**, not by a specific **variant**.
     - **Priority**:
-        - If you set several gifts, they're sent in order **from top to bottom**.
-        - When the top gift is out of stock, the next gift is sent, and so on.
-    - **Item limit**: Each promotion can have up to **10** gift options.
+        - If you set several free gifts, they're sent in order **from top to bottom**.
+        - When the top free gift is out of stock, the next free gift is sent, and so on.
+    - **Item limit**: Each promotion can have up to **10** free gift options.
 
 ![](../../../assets/images/EC-後台-行銷活動-一頁式商店-行銷活動設定01.png)
 
@@ -330,7 +330,7 @@ event.stopPropagation(); }
 
 The storefront shows a countdown to each product's launch to build anticipation and engagement.
 
-- How to enable: Go to **Marketing > Event Page** and turn on **Product Launch Time Settings** on the right of the list.
+- How to enable: Go to **Marketing > Event Page** and enable **Product Launch Time Settings** on the right of the list.
 - Applies to:
     - All products that are **not yet listed** show the countdown.
     - Whether a product is **published** or **unpublished**, the countdown shows until its listing time.

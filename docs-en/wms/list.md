@@ -60,7 +60,7 @@ hide: []
 ---
 
 # Order List
-The order list in the e-commerce warehouse system (WMS) is the main screen for managing shipping progress and stock allocation. It shows which warehouse stage each order is in.
+The order list in the e-commerce warehouse system (WMS) is the main screen for managing shipping progress and inventory allocation. It shows which warehouse stage each order is in.
 { .subtitle }
 
 [:lucide-layers:{ title="Applicable Products" }](../../resources/conventions#適用產品) | Smart Warehousing
@@ -84,7 +84,7 @@ Use these filters to find exactly the orders you need to handle:
     - **Order Status**: Filter by stage (such as Pending, Processing, or Completed).
     - **Goods / shipping status**: Separate goods preparation from delivery progress.
 - **Source and routing**:
-    - **Channel**: Filter orders from your brand website or other integrated (imported) channels.
+    - **Channel**: Filter orders from your brand storefront or other integrated (imported) channels.
     - **Shipping Status**: Track where a parcel currently is with the carrier (such as Shipped or In Delivery).
 - **Priority**:
     - **Urgent Status**: Quickly filter orders marked as priority or urgent so they ship on time.
@@ -101,7 +101,7 @@ The order status shows where the order is between the WMS system and the physica
 | **Processing** | The order was sent to the warehouse for picking and packing | ✕ |
 | **Shipped** | The warehouse finished the order, and the parcel was picked up by the carrier or left the warehouse | ✕ |
 | **Cancelled** | Shipping for the order was stopped | ✕ |
-| **no stock** | An item in the order has less stock than needed. The order moves to shipping, automatically or manually, after the warehouse's physical stock is topped up | ✕ |
+| **no stock** | An item in the order has less inventory than needed. The order moves to shipping, automatically or manually, after the warehouse's physical inventory is topped up | ✕ |
 
 
 When a return is requested, the order moves to one of these statuses:
@@ -117,7 +117,7 @@ When a return is requested, the order moves to one of these statuses:
 
 ### 1. Import Orders { #operate-order-list-import }
 
-Use the import feature when orders from channels not connected to your website need to ship from the warehouse.
+Use the import feature when orders from channels not connected to your storefront need to ship from the warehouse.
 
 - **Where**: Click the **Import** button on the right of the list.
 - **Required steps**:

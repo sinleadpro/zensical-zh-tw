@@ -1,6 +1,6 @@
 ---
 title: "Domain Management"
-description: "After you buy a custom domain from a third-party provider, point the domain to your CYBERBIZ store with DNS settings, and then finish binding it in the CYBERBIZ admin panel."
+description: "After you buy a custom domain from a third-party provider, point the domain to your CYBERBIZ store with DNS settings, and then finish linking it in the CYBERBIZ admin."
 created: 2026-03-02 00:00
 last_modified: 2026-06-30 08:02
 lang: en-US
@@ -89,7 +89,7 @@ hide: []
 ---
 # Domain Management
 
-After you buy a custom domain from a third-party provider, point the domain to your CYBERBIZ store with DNS settings, and then finish binding it in the CYBERBIZ admin panel.
+After you buy a custom domain from a third-party provider, point the domain to your CYBERBIZ store with DNS settings, and then finish linking it in the CYBERBIZ admin.
 { .subtitle }
 
 ![](../../assets/images/EC-後台-管理中心-網域管理-新增網域01.en.png){ .hero-page }
@@ -313,18 +313,18 @@ Find your domain registrar below and follow its setup instructions:
         ![](../../assets/images/遠傳-後台-我的域名管理-新增CNAME07.en.png)
 
 
-## Add the Domain in the CYBERBIZ Admin Panel { #operate-domain-mgmt-add }
+## Add the Domain in the CYBERBIZ Admin { #operate-domain-mgmt-add }
 
-After you finish the DNS settings with your provider, go back to CYBERBIZ to finish binding the domain:
+After you finish the DNS settings with your provider, go back to CYBERBIZ to finish linking the domain:
 
-1.  Log in to the CYBERBIZ admin panel and go to **Website Management > Domain**.
+1.  Log in to the CYBERBIZ admin and go to **Website Management > Domain**.
 2.  Click **Add a domain you already own** and enter the full URL (for example, `www.yourshop.com`).
 3.  Select **Always redirect customers here**.
 
 
 !!! info "When Changes Take Effect"
     - DNS changes usually take **24 to 48 hours** to take effect.
-    - About 1 hour after the change takes effect, you can enter the URL in the CYBERBIZ admin panel.
+    - About 1 hour after the change takes effect, you can enter the URL in the CYBERBIZ admin.
     - Use [DNS Checker](https://dnschecker.org/#CNAME/) to check whether your domain points to the right place.
 
 ![](../../assets/images/EC-後台-管理中心-網域管理-新增網域01.en.png)

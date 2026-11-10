@@ -71,7 +71,7 @@ Create vendor records in the e-commerce warehouse to keep track of where your go
 
 !!! tip "Use Cases"
     - **Track inbound sources**: Tell apart deliveries from different brands or contract manufacturers for inbound inspection.
-    - **Inventory accountability**: With products linked to vendors, you can quickly trace where goods came from when a stock count finds a problem.
+    - **Inventory accountability**: With products linked to vendors, you can quickly trace where goods came from when an inventory count finds a problem.
     - **Inventory report analysis**: Later, analyze purchase cost and sales speed by vendor.
 
 
@@ -101,7 +101,7 @@ After you create a vendor, link its products to it manually so the system can ma
 
 1. Go to **Products > 單一品項** and click the **product name** to open the edit page.
 2. Find the **Vendor** field on the page.
-3. Select the vendor name from the drop-down list.
+3. Select the vendor name from the dropdown list.
 4. Click **Save** to link them.
 
 ![](../assets/images/WMS-後台-商品-單一品項-商品綁定供應商01.en.png){ .screenshot }

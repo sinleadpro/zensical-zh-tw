@@ -133,7 +133,7 @@ When an order uses multiple coupons, the system calculates the discount with the
 
         ![](https://www.cyberbiz.io/support/wp-content/uploads/優惠券-多張優惠券設定03.png){ .screenshot }
 
-    2. The pop-up shows the member's personal coupons by default (sorted by expiry date).
+    2. The dialog shows the member's personal coupons by default (sorted by expiry date).
 
         ![](https://www.cyberbiz.io/support/wp-content/uploads/優惠券-多張優惠券設定04.png){ .screenshot }
 
@@ -149,7 +149,7 @@ When an order uses multiple coupons, the system calculates the discount with the
 
         ![](../../../assets/images/POS-前台-結帳-多優惠券01.png){ .screenshot }
 
-    2. The pop-up shows the **store coupon** list by default.
+    2. The dialog shows the **store coupon** list by default.
 
         ![](../../../assets/images/POS-前台-結帳-多優惠券02.png){ .screenshot }
 

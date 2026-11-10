@@ -89,7 +89,7 @@ hide:
 Product tags help you manage products and marketing campaigns more effectively:
 
 - Product categorization: Quickly tag different types of products for easier filtering and bulk management.
-- Marketing campaigns: Add products to tag groups in bulk for promotions, combos, or bundle sales.
+- Marketing campaigns: Add products to tag groups in batches for promotions, combos, or bundle sales.
 - Faster search and operations: Find products quickly by tag to speed up admin tasks and management.
 - Exclude from third-party platform sync: Set specific tags to exclude products from the system's third-party platform data sync (such as GMC, Facebook DPA, LINE, and Market America).
 
@@ -166,7 +166,7 @@ You can add products to a tag group in two ways:
 
 ![Delete product tags](../../../assets/images/ec-product-tag-collection-delete.zh-tw.en.png){ title="Delete Product Tags" }
 
-!!! warning "After you delete a tag, all products bound to it are unbound automatically."
+!!! warning "After you delete a tag, all products linked to it are unbound automatically."
 
 ---
 

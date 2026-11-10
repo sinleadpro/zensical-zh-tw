@@ -76,7 +76,7 @@ Look up inventory change details and inventory age in the e-commerce warehouse s
 
 ### Analyze Turnover Health { #operate-inventory-turnover }
 
-This report shows how long stock has been in storage. Use it to plan promotions or clear old stock.
+This report shows how long inventory has been in storage. Use it to plan promotions or clear old inventory.
 
 
 ### Filter and Search { #operate-inventory-filter }
@@ -121,7 +121,7 @@ To check the receipt, shipping, and return details of a specific product, use th
 
 1. Go to **庫存紀錄 > 庫存異動總表**.
 2. Enter an **item number** and set a **date range**.
-3. The system lists every event that changed stock in that period, including the document number, type, and quantity change.
+3. The system lists every event that changed inventory in that period, including the document number, type, and quantity change.
 4. You can export the search results.
 
 ### Overall Change Summary { #overview-inventory-trends }

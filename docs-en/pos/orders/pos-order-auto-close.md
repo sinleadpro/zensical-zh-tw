@@ -80,8 +80,8 @@ hide: []
 
 - **Issue Shopping Bonus**: The bonus points that the customer earns on this order are officially credited to their account.
 - **Activate Gifted coupon**: The coupon given for meeting a spend threshold become effective and usable only after the order is closed.
-- **Recognize Profit-Sharing Bonuses**: Profit-sharing performance for store staff or referrers is calculated and recognized at this point.
-- **Clean Up the Not Closed List**: After closing, the order is removed from the "Not Closed" list in the back office, keeping the order management interface tidy.
+- **Recognize Profit-Sharing Bonuses**: Profit-sharing performance for store clerks or referrers is calculated and recognized at this point.
+- **Clean Up the Not Closed List**: After closing, the order is removed from the "Not Closed" list in the admin, keeping the order management interface tidy.
 
 After you turn on auto-close, you no longer need to close orders one by one each day. The system completes the process above automatically at the scheduled time.
 
@@ -155,7 +155,7 @@ After you turn on auto-close, you no longer need to close orders one by one each
 
 </div>
 
-## Frequently Asked Questions { #faq-pos-auto-close }
+## FAQ { #faq-pos-auto-close }
 
 ??? quote "Why were my earlier not closed orders not closed after I turned on auto-close?"
     [](){ #faq-pos-auto-close-existing-orders }
@@ -183,6 +183,6 @@ After you turn on auto-close, you no longer need to close orders one by one each
 
 ---
 
-## References { #reference-pos-auto-close }
+## See Also { #reference-pos-auto-close }
 
 - [Payment Status Guide](../../ec/orders/references/payment-statuses.md)

@@ -120,7 +120,7 @@ An order must meet **all** of the following conditions for the system to refund 
 - [x] **"No Automatic Refund for Unclaimed Convenience Store Orders" isn't turned on**
 - [x] **Your plan supports automatic refund payment methods**
 
-If any condition isn't met, the order goes through the manual refund process, and you enter the customer's refund information on the order details page.
+If any condition isn't met, the order goes through the manual refund process, and you fill in the customer's refund information on the order detail page.
 
 ## Return Status Meanings { #reference-overdue-cvs-refund-flow-return-status }
 
@@ -135,11 +135,11 @@ If any condition isn't met, the order goes through the manual refund process, an
 
 ---
 
-## References { #reference-overdue-cvs-refund-flow }
+## See Also { #reference-overdue-cvs-refund-flow }
 
 * [Handle Unclaimed Convenience Store Orders](../returns-refunds/cvs-unclaimed-order.md){ title="Handle Unclaimed Convenience Store Orders" }
 * [Refund Methods and Operations](../order-refund-process/){ title="Refund Methods and Operations" }
-* [EZCAT Quick Store Delivery Overdue Rules](../tcat-quick-store/tcat-quick-store-overdue.md){ title="EZCAT Quick Store Delivery Overdue Rules" }
+* [T-CAT Rapid-to-Store Delivery Overdue Rules](../tcat-quick-store/tcat-quick-store-overdue.md){ title="EZCAT Quick Store Delivery Overdue Rules" }
 
 
 

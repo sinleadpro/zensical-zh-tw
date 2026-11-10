@@ -102,7 +102,7 @@ First set which items and levels the menu contains in the admin. After that, you
 	- **Product categories:** Includes custom categories, conditional categories, and multi-level categories.
 	- **Marketing campaigns:** Such as Mix & Match bundle deals, pick-any discounts, and Bonus Mall.
 	- **Content pages:** A specific product, custom page, blog topic, or post.
-	- **Function links:** Order lookup page, contact the store, homepage, or external links.
+	- **Function links:** Order lookup page, contact the merchant, homepage, or external links.
 
 	![Add menu items](../../../assets/images/ec-網站外觀-新增選單項目.en.gif){ title="Add menu items" }
 
@@ -187,7 +187,7 @@ Set the font scale separately for **desktop** and **tablet/mobile**. Titles and 
 #### Pinned Post { #operate-menus-nav-announce }
 
 !!! tip "Feature Update Transition"
-    The **pinned post** now has its own settings page and is no longer inside the navigation bar settings. The new version is rolling out gradually. Choose the guide that matches your admin:
+    The **pinned post** now has its own setup page and is no longer inside the navigation bar settings. The new version is rolling out gradually. Choose the guide that matches your admin:
 
     - **You still see pinned post settings in the navigation bar**: You're on the original version. Follow the steps on this page.
     - **The setting is no longer in the navigation bar**: Your store has been updated. See the [new pinned post setup guide](setup-pinned-post.md) instead.
@@ -197,7 +197,7 @@ An announcement banner shown at the very top of your website. It can be an image
 
 - **Show on homepage only:** Select this to show the announcement only on the homepage.
 - **Announcement type:** Choose **image announcement** or **text announcement**.
-    - **Image announcement:** Upload desktop (recommended width 1920px), tablet (960px), and mobile (480px) images, and optionally enter image alt text.
+    - **Image announcement:** Upload desktop (recommended width 1920px), tablet (960px), and mobile (480px) images, and optionally fill in image alt text.
     - **Text announcement:** Enter the announcement text and set the **font size, text color, and background color**.
 
     ![Navigation bar - pinned post - type](../../../assets/images/ec-網站外觀-拖拉版型編輯器-導覽列-置頂公告.en.png){ title="Navigation bar - pinned post - type" }
@@ -234,7 +234,7 @@ You can add up to **4 content blocks** to the footer, and set each one independe
 
 1. **Open footer settings:** Sign in to the admin, go to **Website Appearance > Theme Setting > Theme Setting**, and click **Footer** on the left to open the edit page.
 2. **Add Block:** Click **Add Block** to add one of three content types: "Menu," "Contact Information," or "Custom Text."
-3. **Edit block content:** Click a block name to open its settings page and make changes (see below for each block type's settings).
+3. **Edit block content:** Click a block name to open its setup page and make changes (see below for each block type's settings).
 
 ![Add a footer block](../../../assets/images/ec-網站外觀-套版主題管理-網站設定-頁腳-區塊.en.png){ title="Add a footer block" }
 
@@ -247,9 +247,9 @@ You can add up to **4 content blocks** to the footer, and set each one independe
 The footer's "Menu" block only **chooses which menu to show**. The menu's items and levels are created in **menu content settings**. Here's how they work together:
 
 1. **Create the menu content:** First create the menu and its items and levels in **Website Appearance > Menu Setting > Menu Settings**.
-2. **Add a menu block:** On the footer settings page, click **Add Block > Menu**, and then click the block to open its settings page.
+2. **Add a menu block:** On the footer setup page, click **Add Block > Menu**, and then click the block to open its setup page.
 3. **Set the block title:** In the **Title** field, enter the name this block shows on the storefront (default: "About Us").
-4. **Choose the menu to show:** In the **Select Menu** drop-down, choose the menu you created in step 1. Its items then appear in the footer.
+4. **Choose the menu to show:** In the **Select Menu** dropdown, choose the menu you created in step 1. Its items then appear in the footer.
 
 ![Footer - menu](../../../assets/images/ec-網站外觀-套版主題管理-網站設定-頁腳-選單.en.png){ title="Footer - menu" }
 
@@ -262,7 +262,7 @@ The footer's "Menu" block only **chooses which menu to show**. The menu's items 
 
 Besides menus, footer blocks can also include contact information and custom text:
 
-- **Contact information:** Shows your store's contact details. You can customize the title (default: "Contact Information") and choose whether to show each
+- **Contact information:** Shows your store's contact details. You can customize the title (default: "Contact Information") and select whether to show each
 **phone number, fax number, business hours, email, address, and tax ID number** field. Each field has its own display toggle and input box.
 
 - **Custom text:** Enter your own description or copyright information. You can set a title and body, and the body supports text formatting.
@@ -339,7 +339,7 @@ If you have multiple languages turned on, you edit the item names of both the **
     !!! info ""Footer Menu" ≠ the Footer Block in Theme Management"
         The "Footer" here is a **list of menu links**. To control how it appears on the storefront, go to the [footer's menu block](#operate-menus-nav-footer-menu) and choose it in the "Menu" block. This section covers only **the multilingual wording of menu items**.
 
-### Important Notes { #prerequisites-menus-nav-i18n }
+### Notes { #prerequisites-menus-nav-i18n }
 
 - **Multilingual schedule settings**: You can't set a separate schedule for each language. A schedule saved in any language applies to all languages.
 
@@ -448,7 +448,7 @@ If you have multiple languages turned on, you edit the item names of both the **
     We recommend putting high-value pages (main categories, campaign pages) in the first menu level.
 
 ??? quote "Do one-page stores update automatically after I change the menu?"
-    No. A one-page store uses the menu as it was when the store was created. If your website menu changes later, go back to that one-page store and update it manually.
+    No. A one-page store uses the menu as it was when the store was created. If your storefront menu changes later, go back to that one-page store and update it manually.
 
 ??? quote "I don't want my products to expand under the default "All Products" menu. I want to set up my own categories with levels, without the products expanding"
     The system default "All Products" `collections/all` shows every product collection in the admin, displays products in the menu by default, and can't be customized. If you don't want this display, we recommend deleting this item. Then create your own [custom product categories](../../products/categories-and-tags/custom-collections.md){ title="Set Up Custom Product Category Collections" }/[conditional product categories](../../products/categories-and-tags/smart-collections.md){ title="Set Up Conditional Product Category Collections" }, and add them to the navigation bar with levels.

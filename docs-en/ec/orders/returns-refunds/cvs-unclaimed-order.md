@@ -72,7 +72,7 @@ When a customer doesn't pick up an order at a convenience store before the deadl
 
 ## Overview { #intro-overdue-cvs-orders }
 
-For convenience store logistics integrated with CYBERBIZ (7-Eleven, FamilyMart, Hi-Life, EZCAT Quick Store Delivery), the convenience store reports back when a customer doesn't pick up in time, and the CYBERBIZ
+For convenience store logistics integrated with CYBERBIZ (7-11, FamilyMart, Hi-Life, T-CAT Rapid-to-Store Delivery), the convenience store reports back when a customer doesn't pick up in time, and the CYBERBIZ
 system automatically moves the order to "Unclaimed" and triggers a refund and invoice allowance if conditions are met. Items are returned to the logistics warehouse or the original sending store, depending on the shipping method (B2C bulk shipping or C2C store-to-store).
 
 **What the system does automatically**:
@@ -85,7 +85,7 @@ system automatically moves the order to "Unclaimed" and triggers a refund and in
 **What you need to do**:
 
 * Collect the items at the logistics warehouse or original sending store, depending on the logistics type
-* For orders the system can't refund automatically, enter the customer's refund information on the order details page and issue a manual refund
+* For orders the system can't refund automatically, fill in the customer's refund information on the order detail page and issue a manual refund
 * Tell customers that if they still want to buy, they need to place a new order; unclaimed orders **can't** be shipped again
 
 !!! info "Tip"
@@ -97,16 +97,16 @@ system automatically moves the order to "Unclaimed" and triggers a refund and in
 
 Automatic "Unclaimed" status only applies to **convenience store logistics integrated with CYBERBIZ**:
 
-* 7-Eleven standard pickup / cash on pickup (B2C bulk shipping)
-* 7-Eleven Delivery Service (C2C store-to-store)
+* 7-11 standard pickup / cash on pickup (B2C bulk shipping)
+* 7-11 Delivery Service (C2C store-to-store)
 * FamilyMart standard pickup / cash on pickup (B2C bulk shipping)
 * FamilyMart store-to-store (C2C)
 * FamilyMart Cold Chain
 * Hi-Life standard pickup / cash on pickup (B2C bulk shipping)
 * Hi-Life store-to-store (C2C)
-* EZCAT Quick Store Delivery (room temperature / refrigerated / frozen)
+* T-CAT Rapid-to-Store Delivery (room temperature / refrigerated / frozen)
 
-The system doesn't automatically change orders to "Unclaimed" if they use a "Custom Shipping Method" or regular home delivery (EZCAT, Pelican Express, HCT Logistics, SF Express).
+The system doesn't automatically change orders to "Unclaimed" if they use a "Custom Shipping Method" or regular home delivery (T-CAT, Pelican, HCT Logistics, SF Express).
 
 ---
 
@@ -116,9 +116,9 @@ CYBERBIZ sets the number of days before an order is considered unclaimed for eac
 
 | Logistics Type | Days Before Unclaimed |
 | :-- | :-- |
-| 7-Eleven Delivery Service (C2C) | 7 days |
+| 7-11 Delivery Service (C2C) | 7 days |
 | FamilyMart store-to-store (C2C) | 6 days |
-| EZCAT Quick Store Delivery (room temperature / refrigerated / frozen) | 4 days |
+| T-CAT Rapid-to-Store Delivery (room temperature / refrigerated / frozen) | 4 days |
 | Other convenience store logistics | Determined by each convenience store's system |
 
 ---
@@ -143,18 +143,18 @@ For detailed conditions, see [Return and Refund Statuses](../references/return-r
 
 ### B2C Bulk Shipping: Items Return to the Logistics Warehouse { #operate-overdue-cvs-orders-b2c-return }
 
-Unclaimed items from 7-Eleven standard pickup / cash on pickup, FamilyMart standard pickup / cash on pickup, FamilyMart Cold Chain, and Hi-Life standard pickup / cash on pickup are returned by the convenience store to the corresponding logistics warehouse.
+Unclaimed items from 7-11 standard pickup / cash on pickup, FamilyMart standard pickup / cash on pickup, FamilyMart Cold Chain, and Hi-Life standard pickup / cash on pickup are returned by the convenience store to the corresponding logistics warehouse.
 
 **Return locations**:
 
-* 7-Eleven items return to Uni-President Distribution (PCSC Logistics)
+* 7-11 items return to Uni-President Distribution (PCSC Logistics)
 * FamilyMart items return to FamilyMart Riyi Culture
 * Hi-Life items return to the HiLife Logistics Center
 
 **How you collect them** (based on the "return cycle" and "return method" you set with CYBERBIZ **when enabling convenience store logistics**):
 
 1. **Return cycle:** The system returns items together on the cycle you agreed on: "Weekly"[^fn-every-week], "Next Day"[^fn-next-day], or "Same Day"[^fn-same-day].
-2. **Return method:** A designated carrier (such as EZCAT) picks up the items at the warehouse and delivers them to your return address, or you pick them up at the logistics center yourself.
+2. **Return method:** A designated carrier (such as T-CAT) picks up the items at the warehouse and delivers them to your return address, or you pick them up at the logistics center yourself.
 3. **If no pickup carrier is designated:** The warehouse sends the items back to your return address by **freight-collect home delivery**, and you pay the shipping fee.
 
 !!! note "Note"
@@ -164,7 +164,7 @@ Unclaimed items from 7-Eleven standard pickup / cash on pickup, FamilyMart stand
 
 ### C2C Store-to-Store: Items Return to the Original Sending Store { #operate-overdue-cvs-orders-c2c-return }
 
-Unclaimed items from 7-Eleven Delivery Service, FamilyMart store-to-store, and Hi-Life store-to-store are first returned to the **original sending store** for you to collect.
+Unclaimed items from 7-11 Delivery Service, FamilyMart store-to-store, and Hi-Life store-to-store are first returned to the **original sending store** for you to collect.
 
 **Collection process**:
 
@@ -194,15 +194,15 @@ On the order list page, you can see the delivery status change to "Unclaimed" an
 
 ---
 
-### Manual Refunds: Enter Refund Information { #operate-overdue-cvs-orders-manual-refund }
+### Manual Refunds: Fill In Refund Information { #operate-overdue-cvs-orders-manual-refund }
 
 If the order doesn't meet the automatic refund requirements (for example, the payment method isn't on the automatic card refund list, or you've enabled "No Automatic Refund for Unclaimed Convenience Store Orders"), the system sets the payment status to **Pending Refund**, and you issue the refund manually.
 
-1. **Open the order details page:** Go to "Orders" > "All Orders" in the admin and click the order number of an order with delivery status "Unclaimed" and payment status "Pending Refund."
-2. **Enter refund information:** Find the **Enter Refund Information** section on the order details page (titled **Manual Refund**, with the message "The automatic refund period has passed. A manual refund will be issued.").
+1. **Open the order detail page:** Go to "Orders" > "All Orders" in the admin and click the order number of an order with delivery status "Unclaimed" and payment status "Pending Refund."
+2. **Fill in refund information:** Find the **Enter Refund Information** section on the order detail page (titled **Manual Refund**, with the message "The automatic refund period has passed. A manual refund will be issued.").
 3. **Enter the customer's bank information:** Select or enter the following:
-    * **Bank:** Choose the customer's bank from the drop-down
-    * **Branch:** Choose the branch from the drop-down
+    * **Bank:** Choose the customer's bank from the dropdown
+    * **Branch:** Choose the branch from the dropdown
     * **Account name:** The customer's account name
     * **Account number:** The customer's bank account number
     * **Refund reason:** Optional, up to 250 characters
@@ -299,12 +299,12 @@ If a package isn't returned to the logistics center or original sending store wi
     [](){ #faq-overdue-cvs-orders-bank-info }
     There are two ways:
 
-    - **Contact the customer:** Ask the customer for their bank / branch / account name / account number, and enter them in the "Enter Refund Information" section on the order details page
+    - **Contact the customer:** Ask the customer for their bank / branch / account name / account number, and enter them in the "Enter Refund Information" section on the order detail page
     - **Have the customer fill it in:** Guide the customer to sign in to their member account and fill in the "Refund Information" page themselves
 
 ??? quote "How many days of shipping fees are charged for unclaimed EZCAT Quick Store Delivery orders?"
     [](){ #faq-overdue-cvs-orders-tcat-fee }
-    For EZCAT Quick Store Delivery, if the customer **doesn't pick up within 4 days** (the system marks it unclaimed), a **return shipping fee** is charged (based on volume and temperature zone). For the actual amount, see [EZCAT Quick Store Delivery Overdue Rules](../tcat-quick-store/tcat-quick-store-overdue.md){ title="EZCAT Quick Store Delivery Overdue Rules" } and your contract terms.
+    For T-CAT Rapid-to-Store Delivery, if the customer **doesn't pick up within 4 days** (the system marks it unclaimed), a **return shipping fee** is charged (based on volume and temperature zone). For the actual amount, see [T-CAT Rapid-to-Store Delivery Overdue Rules](../tcat-quick-store/tcat-quick-store-overdue.md){ title="EZCAT Quick Store Delivery Overdue Rules" } and your contract terms.
 
 ??? quote "What does discarding mean, and when are items discarded?"
     [](){ #faq-overdue-cvs-orders-discard }

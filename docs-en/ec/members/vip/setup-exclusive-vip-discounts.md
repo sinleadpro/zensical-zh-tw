@@ -66,7 +66,7 @@ hide: []
 
 The core appeal of a VIP program lies in its sense of exclusivity and tangible rewards. The new VIP system provides a variety of offer combinations to help you design differentiated benefits that members value.
 
-## Before You Begin { #prerequisites-vip-discounts }
+## Before You Start { #prerequisites-vip-discounts }
 
 - **Login Requirement**: Customers must log in as members to get VIP offers at checkout.
 
@@ -95,7 +95,7 @@ When setting up each offer, select the appropriate combination rule whenever the
 
 ## 1. Discount Offer { #operate-vip-discounts-order }
 
-1. Enter the **Specified Discount**. When a member in this VIP tier places an order, the specified discount applies to the entire order.
+1. Enter the **Specified Discount**. When a member in this VIP tier submits an order, the specified discount applies to the entire order.
 
     > Set the discount value from 1 to 99. For example, 90 means 9% of list price, and 70 means 7% of list price.
 
@@ -135,14 +135,14 @@ When setting up each offer, select the appropriate combination rule whenever the
 
 ## 3. Bonus Multiplier Settings { #operate-vip-discounts-bonus }
 
-### Before You Begin { #operate-vip-discounts-bonus-notes }
+### Before You Start { #operate-vip-discounts-bonus-notes }
 
-*   **Stacking per:** If you set both the "Store-Wide Bonus per" and "Additional VIP Bonus," members receive **both** when they place an order.
+*   **Stacking per:** If you set both the "Store-Wide Bonus per" and "Additional VIP Bonus," members receive **both** when they submit an order.
 
 
 ### Setup { #operate-vip-discounts-bonus-setup }
 
-Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a member in this VIP tier places an order, the member receives additional bonus points.
+Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a member in this VIP tier submits an order, the member receives additional bonus points.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/VIP優惠03.png){ .screenshot }
 
@@ -202,12 +202,12 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
             - Amount **(Expert, PLUS, and Enterprise Plans Only)**
             - Percentage **(Expert, PLUS, and Enterprise Plans Only)**
-            - Gift **(Enterprise Plan Only)**
+            - Free gift **(Enterprise Plan Only)**
 
                 !!! info "VIP Gift Voucher Rules"
                     1. **Product Binding Rule**: Each gift voucher can be linked to only one product, and a variant cannot be specified.
                     2. **Setting Up Multiple Gifts**: To per multiple different items at once, create a separate gift voucher for each item.
-                    3. **Send Mechanism**: The system sends all linked gift vouchers. Customers cannot select one gift to claim on the storefront.
+                    3. **Send Mechanism**: The system sends all linked gift vouchers. Customers cannot select one free gift to claim on the storefront.
 
                     → See the [complete gift voucher specifications](../../marketing/coupon/gift-coupon-spec/#prerequisites-coupon).
 
@@ -234,7 +234,7 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
 ## 5. Member Day Settings { #operate-vip-discounts-member-day }
 
-### Before You Begin { #operate-vip-discounts-member-day-notes }
+### Before You Start { #operate-vip-discounts-member-day-notes }
 
 *   **Valid Date Restriction**: If a Member Day falls outside the valid date range for a month, the Member Day feature is not enabled for that month.
 
@@ -259,7 +259,7 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
     === "Order Discount"
 
-        1. Enter the **Specified Discount**. When a member in this VIP tier places an order, the specified discount applies to the entire order.
+        1. Enter the **Specified Discount**. When a member in this VIP tier submits an order, the specified discount applies to the entire order.
 
             > Set the discount value from 1 to 99. For example, 90 means 9% of list price, and 70 means 7% of list price.
 
@@ -312,12 +312,12 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
             - Amount **(Expert, PLUS, and Enterprise Plans Only)**
             - Percentage **(Expert, PLUS, and Enterprise Plans Only)**
-            - Gift **(Enterprise Plan Only)**
+            - Free gift **(Enterprise Plan Only)**
 
                 !!! info "VIP Gift Voucher Rules"
                     1. **Product Binding Rule**: Each gift voucher can be linked to only one product, and a variant cannot be specified.
                     2. **Setting Up Multiple Gifts**: To per multiple different items at once, create a separate gift voucher for each item.
-                    3. **Send Mechanism**: The system sends all linked gift vouchers. Customers cannot select one gift to claim on the storefront.
+                    3. **Send Mechanism**: The system sends all linked gift vouchers. Customers cannot select one free gift to claim on the storefront.
 
                     → See the [complete gift voucher specifications](../../marketing/coupon/gift-coupon-spec/#prerequisites-coupon).
 
@@ -345,7 +345,7 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
 ## 6. Upgrade Gift Settings { #operate-vip-discounts-upgrade }
 
-### Before You Begin { #operate-vip-discounts-upgrade-notes }
+### Before You Start { #operate-vip-discounts-upgrade-notes }
 
 *   **Send Quantity:** The Upgrade gift for each tier can only be per once during the membership validity period.
 *   **Switching Between the Old and New Versions:** Applying the new VIP version to members from the old VIP version does not trigger the Upgrade gift.
@@ -369,12 +369,12 @@ Enter the **Spending Threshold, per Bonus Amount, and Validity Period**. After a
 
             - Amount **(Expert, PLUS, and Enterprise Plans Only)**
             - Percentage **(Expert, PLUS, and Enterprise Plans Only)**
-            - Gift **(Enterprise Plan Only)**
+            - Free gift **(Enterprise Plan Only)**
 
                 !!! info "VIP Gift Voucher Rules"
                     1. **Product Binding Rule**: Each gift voucher can be linked to only one product, and a variant cannot be specified.
                     2. **Setting Up Multiple Gifts**: To per multiple different items at once, create a separate gift voucher for each item.
-                    3. **Send Mechanism**: The system sends all linked gift vouchers. Customers cannot select one gift to claim on the storefront.
+                    3. **Send Mechanism**: The system sends all linked gift vouchers. Customers cannot select one free gift to claim on the storefront.
 
                     → See the [complete gift voucher specifications](../../marketing/coupon/gift-coupon-spec/#prerequisites-coupon).
 

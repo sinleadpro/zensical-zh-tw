@@ -78,10 +78,10 @@ For exceptions during Quick Delivery (such as wrong addresses, unreachable custo
 ## Before You Start { #prerequisites-pandago-exception }
 
 - **Scope**: All exceptions in this article are cases where **the shopper didn't receive the order**.
-- **Delivery address can't be changed**: Quick Delivery orders connect to the delivery system in real time and are limited by area, so **the address can't be changed after the order is placed**.
+- **Delivery address can't be changed**: Quick Delivery orders integrate with the delivery system in real time and are limited by area, so **the address can't be changed after the order is placed**.
 - **Cancellation**: If the delivery status shows **Order Canceled** and the return status is **No Return Needed**, the delivery platform canceled the order.
 - **Shipping fee refunds**: The system charges the first-leg shipping fee in advance. If the platform is later found responsible and no fee is due, the delivery platform refunds CYBERBIZ in the next billing cycle, and CYBERBIZ then refunds you (shown on the Enterprise statement).
-- **Reverse logistics cost**: If products return to the store because of the shopper (reverse logistics), you usually pay double shipping (original delivery fee + reverse logistics fee).
+- **Reverse logistics cost**: If products return to the store because of the customer (reverse logistics), you usually pay double shipping (original delivery fee + reverse logistics fee).
 - **Compensation limit**: If products are damaged or lost because of the delivery platform, compensation is usually capped at **NT$5,000** per order (subject to each platform's final decision).
 - **Monthly summary**: During monthly reconciliation, CYBERBIZ summarizes exception reasons and adjusts the charges on your statement.
 
@@ -92,7 +92,7 @@ For exceptions during Quick Delivery (such as wrong addresses, unreachable custo
 
 ## Exception Responsibility and Shipping Fee Matrix { #specs-pandago-exception-matrix }
 
-When the shopper doesn't receive the order, use the following table to determine who pays shipping and how to refund:
+When the customer doesn't receive the order, use the following table to determine who pays shipping and how to refund:
 
 | Exception | Platform Charges Shipping | Products Returned to Store | Reverse Logistics Fee Paid By | Recommended Refund to Customer |
 | :--- | :---: | :---: | :---: | :--- |
@@ -116,15 +116,15 @@ When the shopper doesn't receive the order, use the following table to determine
 
 These are the most common exceptions. Handle them as follows:
 
-1. **Confirm the exception**: Check **Logistics Messages** on the order details page to see whether it shows **Recipient Unreachable** or **Delivery Error**.
-2. **Reach out**: Store staff should call the shopper to confirm the address or remind them to receive the order.
+1. **Confirm the exception**: Check **Logistics Messages** on the order detail page to see whether it shows **Recipient Unreachable** or **Delivery Error**.
+2. **Reach out**: Store staff should call the customer to confirm the address or remind them to receive the order.
 3. **Close out**: If the driver has brought the order back to the store, mark the order as **Returned**.
 
 
 ### Task 2: Handle "Damaged Products" or "Delivery Delays" { #operate-pandago-exception-damage }
 
-1. **Collect evidence**: If the shopper reports damaged products, ask for photos.
-2. **Issue a full refund**: Because the delivery platform is responsible in these cases, give the shopper a **full order refund** (including shipping).
+1. **Collect evidence**: If the customer reports damaged products, ask for photos.
+2. **Issue a full refund**: Because the delivery platform is responsible in these cases, give the customer a **full order refund** (including shipping).
 3. **Report to the platform**: Record the tracking number and the damage.
 
 ---
@@ -138,6 +138,6 @@ These are the most common exceptions. Handle them as follows:
     Quick Delivery uses an on-demand delivery service. The driver taking products from the store to the customer counts as one trip. If the order can't be delivered and must go back to the original store, the driver spends the same time and effort, so the delivery platform charges for the return trip (the reverse logistics fee).
 
 ??? quote "How do I know if I'll get order compensation?"
-    If the driver becomes unreachable, spills the order, or has an accident, the delivery platform sends a specific status code to the admin. You can see the details in "Activity Log" or "Logistics Messages" on the order details page. Compensation appears on your monthly statement rather than being paid out immediately.
+    If the driver becomes unreachable, spills the order, or has an accident, the delivery platform sends a specific status code to the admin. You can see the details in "Activity Log" or "Logistics Messages" on the order detail page. Compensation appears on your monthly statement rather than being paid out immediately.
 
 

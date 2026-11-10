@@ -73,7 +73,7 @@ hide:
 
 ## About Site Search { #intro-site-search }
 
-On the CYBERBIZ storefront, the **search (magnifier) feature** is a key tool that helps shoppers find products quickly.
+On the CYBERBIZ storefront, the **search (magnifier) feature** is a key tool that helps customers find products quickly.
 
 ## Search Basics { #specs-site-search }
 
@@ -115,7 +115,7 @@ Depending on your brand's needs, you can choose whether to show the search featu
 
 ## Site Search Data Tracking <small>GA4</small> { #specs-site-search-ga4 }
 
-You can monitor shopper search behavior with **Google Analytics 4 (GA4)** to improve product selection or SEO:
+You can monitor customer search behavior with **Google Analytics 4 (GA4)** to improve product selection or SEO:
 
 <div class="grid cards" markdown>
 
@@ -137,7 +137,7 @@ You can monitor shopper search behavior with **Google Analytics 4 (GA4)** to imp
 
 ??? quote "Does the CYBERBIZ APP have a search feature too?"
 
-    Yes. If you use the CYBERBIZ APP mobile app (iOS/Android), its home page also has a search bar so shoppers can find products anytime, anywhere.
+    Yes. If you use the CYBERBIZ APP mobile app (iOS/Android), its home page also has a search bar so customers can find products anytime, anywhere.
 
 ??? quote "How do I keep specific products out of search?"
 

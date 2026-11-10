@@ -64,7 +64,7 @@ hide: []
 
 **Google Quick Login** lets customers sign up or log in to their member accounts with one click using their Google account. The system automatically creates a member profile based on the email address the customer enters, or links the customer's Google account to an existing member profile.
 
-## Setup Steps { #operate-google-login }
+## Steps { #operate-google-login }
 
 ### Google Cloud Platform Setup { #operate-google-login-google-cloud-platform }
 
@@ -123,7 +123,7 @@ Once setup is complete, customers can sign up or log in to the storefront using 
 *   **Redirect error troubleshooting**: If a customer encounters an error when logging in, check that the **Authorized redirect URLs** in Google Cloud Platform contain the complete store URL in the correct format.
 
 
-## Frequently Asked Questions { #faq-google-login }
+## FAQ { #faq-google-login }
 
 ??? quote "How long does it take for the setup to take effect?"
 

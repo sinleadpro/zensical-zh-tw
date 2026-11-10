@@ -86,7 +86,7 @@ Learn how to connect external systems (such as ERP or CRM) through API and Webho
 ## Before You Start { #prerequisites-api-webhook }
 
 - **Technical Requirements**: API and Webhook integration must be developed by engineers. CYBERBIZ provides only the interfaces and documentation, not coding or other technical implementation services.
-- **Activation Request**: If the feature does not appear in your admin, contact customer service to request activation.
+- **Activation Request**: If the feature does not appear in your admin, contact customer support to request activation.
 - **Rate Limits**:
     - **Request Rate**: Up to 5 requests per second.
     - **Data Size**: Each request is limited to 2 MB.
@@ -129,7 +129,7 @@ Create an app in the admin to get the credentials needed for integration.
 
 To receive real-time notifications, set up Webhook subscriptions.
 
-1. On the app settings page, find the **Webhook Events** field.
+1. On the app setup page, find the **Webhook Events** field.
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/自訂擴充服務-串接-API-Webhook08.png){ .screenshot }
 

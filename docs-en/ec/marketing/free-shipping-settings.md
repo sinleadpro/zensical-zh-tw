@@ -76,7 +76,7 @@ hide: []
 
 ## About Free Shipping { #intro-free-shipping }
 
-Free shipping is a key marketing tool for getting customers to order and raising order value. Choose the free shipping method that fits your goal:
+Free shipping is a key marketing tool for getting customers to order and raising AOV. Choose the free shipping method that fits your goal:
 
 - **Encourage bigger orders**: "Storewide Shipping Fee Threshold Free Shipping"
 - **Promote specific products**: "Free Shipping for Specific Products"
@@ -92,7 +92,7 @@ You can use each method alone or together.
 | :-- | :-- |
 | [Storewide Shipping Fee Threshold Free Shipping](#operate-free-shipping-home-threshold) | Encourage customers to reach a set amount or weight for free shipping |
 | [Free Shipping for Convenience Store Pickup](#operate-free-shipping-cvs) | Free shipping above a set amount for convenience store pickup |
-| [Free Shipping for Integrated Carriers](#operate-free-shipping-integrated) | Free shipping above a set amount for carriers such as T-Cat, Hsinchu Logistics, and Pelican |
+| [Free Shipping for Integrated Carriers](#operate-free-shipping-integrated) | Free shipping above a set amount for carriers such as T-CAT, HCT Logistics, and Pelican |
 | [Free Shipping for Specific Products](#operate-free-shipping-product) | The whole order ships free when it includes specific products |
 
 
@@ -111,7 +111,7 @@ Free shipping settings are spread across the "Payment and Logistics" and "Produc
 ### Storewide Shipping Fee Threshold Free Shipping { #operate-free-shipping-home-threshold }
 
 ??? info "Not Available for Integrated Carriers"
-    The "Order Amount / Order Weight" switch below only appears on the edit page for **custom Delivery Settings**. Integrated carriers (T-Cat, Hsinchu Logistics, Pelican, and others) **don't** have these options and use a single order amount threshold. See [Set Up Free Shipping for Integrated Carriers](#operate-free-shipping-integrated).
+    The "Order Amount / Order Weight" switch below only appears on the edit page for **custom Delivery Settings**. Integrated carriers (T-CAT, HCT Logistics, Pelican, and others) **don't** have these options and use a single order amount threshold. See [Set Up Free Shipping for Integrated Carriers](#operate-free-shipping-integrated).
 
 For Delivery Settings, give customers storewide free shipping when their order reaches a set amount or weight.
 
@@ -176,9 +176,9 @@ Set free shipping above a set amount for customers who pick up at convenience st
 
 ### Free Shipping For Integrated Carriers { #operate-free-shipping-integrated }
 
-Set free shipping above a set amount for each carrier integrated with CYBERBIZ, such as T-Cat, Hsinchu Logistics, and Pelican.
+Set free shipping above a set amount for each carrier integrated with CYBERBIZ, such as T-CAT, HCT Logistics, and Pelican.
 
-> In the admin, go to "Payment and Logistics" "Delivery Settings" > "Integrated Carriers" and click "Edit" for the carrier (such as T-Cat Cash on Delivery):
+> In the admin, go to "Payment and Logistics" "Delivery Settings" > "Integrated Carriers" and click "Edit" for the carrier (such as T-CAT Cash on Delivery):
 
 1. **Turn on free shipping:** Enter the threshold amount in "Free Shipping."
 
@@ -252,7 +252,7 @@ Free shipping coupons can be limited to specific shipping methods, products, or 
 4. **Link shipping methods (optional):** Use **"Linked Shipping"** to limit free shipping to specific methods. Leave it blank for all methods.
 5. **Save and share:** Save, then share the code with customers or give it out in a promotion.
 
-!!! tip "Tip"
+!!! tip "Tips"
     On Expert PLUS or Enterprise, you can also turn on "Auto-Apply Free Shipping Coupons." The system applies storewide free shipping coupons at checkout, so customers don't need to enter a code. This setting is in the checkout settings under "Payment and Logistics."
 
 ---

@@ -78,7 +78,7 @@ Link your LINE Official Account to CHAT BOX to sync conversations in real time a
 
 !!! tip "Use Cases"
     - **Manage Conversations in One Place**: Reply to LINE customers directly in the CYBERBIZ admin without logging in to LINE Manager.
-    - **Identify LINE Members**: The system automatically matches LINE accounts with store members so customer service can see each customer's background.
+    - **Identify LINE Members**: The system automatically matches LINE accounts with store members so customer support can see each customer's background.
     - **Reply Faster**: Real-time Webhook pushes make sure you never miss a LINE inquiry.
 
 
@@ -88,7 +88,7 @@ Link your LINE Official Account to CHAT BOX to sync conversations in real time a
 
 CHAT BOX uses **automatic import**. The system automatically pulls the official account you linked in **Third-Party Integration > LINE OA Settings**.
 
-- **LINE OA Already Connected**: Just turn on the sync switch in CHAT BOX.
+- **LINE OA Already Connected**: Just turn on the sync toggle in CHAT BOX.
 - **LINE OA Not Yet Connected**: Complete the Messaging API connection first.
 
 ### Permission Requirements { #prerequisites-chat-line-permissions }
@@ -107,7 +107,7 @@ CHAT BOX uses **automatic import**. The system automatically pulls the official 
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-設定01.png){ .screenshot }
 
-### 2. Turn on LINE Sync { #operate-chat-line-2-enable-line }
+### 2. Enable LINE Sync { #operate-chat-line-2-enable-line }
 
 Follow the steps for the status shown in your LINE section:
 
@@ -116,7 +116,7 @@ Follow the steps for the status shown in your LINE section:
 The system has connected to your LINE Official Account.
 
 1. Click **Settings** in the LINE section.
-2. Turn on the official account's **Enable switch**. The system starts syncing conversations after you turn it on.
+2. Enable the official account's **Enable switch**. The system starts syncing conversations after you turn it on.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/EC-後台-APPMARKET-CHATBOX-line啟用01.png){ .screenshot }
 
@@ -126,7 +126,7 @@ You have not linked a LINE Official Account in the admin yet.
 
 1. Click **設定 > 新增官方帳號**.
 2. The system takes you to **Third-Party Integration > LINE OA Settings**.
-3. Follow [LINE Official Account Connection Settings](../../integrations/line/account-integration/connect-line-messaging-api.md) to complete the Messaging API connection.
+3. Follow [LINE Official Account Integration Settings](../../integrations/line/account-integration/connect-line-messaging-api.md) to complete the Messaging API integration.
 
 
 ## FAQ { #faq-chat-line }

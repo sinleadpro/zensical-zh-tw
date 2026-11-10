@@ -60,7 +60,7 @@ comments: false
 
 The **Member Registration** setting sits at the top of the Member Registration Setting page. It decides if customers must sign up before they can order. You can pick one of two modes.
 
-| Mode | Add to cart | When customers register | When to use |
+| Mode | Add to cart | When customers register | Use cases |
 |:--|:--|:--|:--|
 | **Fast checkout with registration** | No login needed; customers can add items anonymously | At checkout (customers can log in, or become members after checkout) | General online stores that want an easier checkout |
 | **Registration required** | Customers must log in or register first | Customers must register before adding items to the cart | Membership stores, wholesale websites, and stores that need strict control over who can buy |

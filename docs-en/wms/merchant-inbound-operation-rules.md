@@ -162,7 +162,7 @@ Before any goods are received, you must [create a receipt order](inbound-orders.
 
 ### 1. Acceptance Standards { #specs-inbound-rules-standard }
 
-To keep receiving efficient and stock accurate, the warehouse inspects goods by these standards:
+To keep receiving efficient and inventory accurate, the warehouse inspects goods by these standards:
 
 - **Default storage and counting**:
     - **Storage**: If you do not specify how goods should be stored, the CYBERBIZ e-commerce warehouse assigns storage based on available space.

@@ -165,7 +165,7 @@ Customers can choose one of the following invoice types at checkout, and the sys
 
 ### For Merchants { #operate-consumer-invoice-admin }
 
-1. Log in to the CYBERBIZ admin panel and go to **Orders > All Orders**.
+1. Log in to the CYBERBIZ admin and go to **Orders > All Orders**.
 2. In the order list, click the **invoice number** link to see the invoice details.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/發票相關資訊16.png){ .screenshot }
@@ -173,11 +173,11 @@ Customers can choose one of the following invoice types at checkout, and the sys
 
 ## Change Invoice Information { #operate-consumer-invoice-edit }
 
-If a customer needs to add a tax ID number or correct invoice information, you must submit a request to CYBERBIZ, and the platform asks the value-added service center (Wixtar) to make the change.
+If a customer needs to add a tax ID number or correct invoice information, you must submit a request to CYBERBIZ, and the platform asks the value-added service center (WiXtar) to make the change.
 
 ### Request Process and Deadline { #operate-consumer-invoice-apply }
 
-- **How to request**: Contact Customer Service and provide the order and invoice information to change.
+- **How to request**: Contact Customer Support and provide the order and invoice information to change.
 - **Deadline**: Submit the request **by the 7th of the month after the invoice was issued** (earlier if that day is a holiday).
 
     > Example: For a July invoice, submit the request by August 7 at the latest.
@@ -199,11 +199,11 @@ The system chooses the notification channel and sender based on the contact info
 
 | **Member information** | **Notification channel** | **Sender** |
 | :--- | :--- | :--- |
-| Email address on file | **Email** | Wixtar |
+| Email address on file | **Email** | WiXtar |
 | Mobile number only | **SMS** | CYBERBIZ |
 
 !!! tip "SMS Notification Settings"
-    If your store requires a mobile number and makes email optional, go to **Push Notifications > 簡訊通知樣板** and turn on **Invoice issued notification**. The system then notifies customers by SMS when they win.
+    If your store requires a mobile number and makes email optional, go to **Push Notifications > SMS Notification Template** and turn on **Invoice issued notification**. The system then notifies customers by SMS when they win.
 
 
 ### Claiming Prizes and Printing { #operate-consumer-invoice-claim }

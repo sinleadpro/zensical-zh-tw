@@ -91,7 +91,7 @@ hide:
 ### View Order Count and Total Sales Trends { #operate-basic-chart-trend }
 
 1. **Open the report page:** In the admin, go to "Charts" > "Base Chart."
-2. **Select a period:** In the drop-down menu in the upper-right corner of the page, select "6 months," "1 year," "3 years," or "5 years" (the default is 6 months).
+2. **Select a period:** In the dropdown menu in the upper-right corner of the page, select "6 months," "1 year," "3 years," or "5 years" (the default is 6 months).
 
     ![Select a period](../../assets/images/ec-business-intelligence-basic-chart-date-range.en.png){ title="Select a Period" }
 
@@ -184,7 +184,7 @@ How each report is calculated is summarized in [Calculation Rules for Each Repor
 
 ---
 
-## References { #reference-basic-chart }
+## See Also { #reference-basic-chart }
 
 - [Calculation Rules for Each Report](references/basic-chart-metrics-reference.md#reference-basic-chart-metrics)
 

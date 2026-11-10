@@ -97,7 +97,7 @@ After setup, you can use **Google Tag Assistant** (Chrome extension or web versi
 *   **Chrome extension**: Useful for quickly checking whether the code has loaded successfully.
 *   **Web version**: Fully records your actions and verifies whether specific tags fire correctly.
 
-## Frequently Asked Questions { #faq-tag-manager }
+## FAQ { #faq-tag-manager }
 
 ??? quote "Where do I find the GTM container ID?"
 
@@ -105,7 +105,7 @@ After setup, you can use **Google Tag Assistant** (Chrome extension or web versi
 
 ??? quote "Which tools should not be set up through GTM?"
 
-    We recommend connecting the following three tools directly through the CYBERBIZ admin to avoid tag conflicts or double counting:
+    We recommend integrating the following three tools directly through the CYBERBIZ admin to avoid tag conflicts or double counting:
 
     * Google Analytics (GA4)
     * Google Ads conversion tracking
@@ -118,7 +118,7 @@ After setup, you can use **Google Tag Assistant** (Chrome extension or web versi
     * **Chrome extension**: Quickly check whether the code has loaded successfully.
     * **Web version**: Fully records your actions and verifies whether specific tags fire correctly.
 
-## References { #reference-tag-manager }
+## See Also { #reference-tag-manager }
 
 ### GTM Core Glossary { #reference-tag-manager-gtm }
 

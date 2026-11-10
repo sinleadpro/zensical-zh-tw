@@ -67,7 +67,7 @@ hide: []
 ---
 # Interactive Games (EC)
 
-Give out coupons, bonus points, or gifts through fun games like spin wheels, red envelopes, and treasure chests to boost member engagement and conversions.
+Give out coupons, bonus points, or free gifts through fun games like spin wheels, red envelopes, and treasure chests to boost member engagement and conversions.
 { .subtitle }
 
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | All PLUS / Enterprise
@@ -76,7 +76,7 @@ Give out coupons, bonus points, or gifts through fun games like spin wheels, red
 ![](../../../assets/images/EC-後台-行銷活動-互動遊戲-畫面總覽01.en.png){ .hero-page }
 
 
-!!! info "Version Differences"
+!!! info "Plan Differences"
     - Both **Online Store (EC)** and **Retail Store (POS)** support Interactive Games. This article covers only **Online Store (EC)** Interactive Games settings.
     - On PLUS plans, Interactive Games is part of the Marketing B add-on module (choose 2 of 11). Make sure you have selected this module before using it. Enterprise includes it by default.
 
@@ -96,7 +96,7 @@ Interactive Games is a powerful marketing tool that gives out rewards through ga
 - **Editing limits**: Once a game's Status is "In Progress," you can't change the **pricing rules, play frequency, play count, or prizes**. You can still shorten or extend the end time.
 - **Ending a game**: Games can't be deleted after they're created. To end a game now, set its end time to a time before now.
 - **Extending a game**: If a game is about to end and prizes are left, change the end time to extend it.
-- **Login required**: Interactive Games is for online store members only. Members must log in to play.
+- **Login required**: Interactive Games is for storefront members only. Members must log in to play.
 - **Instant credit**: Prizes are credited to the member's account right away and can be used immediately.
 - **Prizes run out**: When a prize runs out, it still appears in the game, but landing on it counts as "No Prize."
 
@@ -110,11 +110,11 @@ Interactive Games is a powerful marketing tool that gives out rewards through ga
     - **Wheel Lottery**: A classic wheel. The prize is wherever the pointer stops.
     - **Red Envelope Lottery**: Click a red envelope or treasure chest to reveal a prize.
 4. **Play frequency and count**: Set the period (every 1, 7, 30, or 90 days) and the number of plays.
-5. **Start and end time**: Set the dates the game appears in the online store or retail store.
-6. **Pop-up settings**: Set the background color and button text of the prize pop-up.
+5. **Start and end time**: Set the dates the game appears in the storefront or retail store.
+6. **Pop-up settings**: Set the background color and button text of the prize dialog.
 
 !!! info "Prize Links"
-    Set a prize link and turn on UTM tracking to measure how many winners click "Go Shopping."
+    Set a prize link and enable UTM tracking to measure how many winners click "Go Shopping."
 
 ![](../../../assets/images/EC-後台-行銷活動-互動遊戲-基本設定01.en.png)
 
@@ -156,7 +156,7 @@ Click **Add Prize** and set up each prize:
 1. **Preview**: Click **Preview** to check that the game and prizes display correctly.
 2. **Publish on the storefront**:
     - **Option 1: Automatic pop-up**: Go to **Website Appearance > Theme Setting > 網站設定 > 彈窗廣告**, add a block, and select the Interactive Games.
-    - **Option 2: Embed on a page**: Click **iframe Grammar** at the top of the game settings page, copy it, and paste it into the source editor of a custom page, blog post, or product description.
+    - **Option 2: Embed on a page**: Click **iframe Grammar** at the top of the game setup page, copy it, and paste it into the source editor of a custom page, blog post, or product description.
 3. **Save and publish**: Click **Save**. If the Status is "Public," the game goes live at the set time.
 
 ## Multi-Language Settings { #operate-interactive-games-multilingual }

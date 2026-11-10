@@ -83,7 +83,7 @@ Go to **Payment and Logistics > Payment Settings**. Click :lucide-file-pen-line:
 
 ![](../../assets/images/日本站-後台-金物流-金流設定-啟用金流01.en.png)
 
-- **Enable Feature**: Turn on **Credit Card**.
+- **Enable Feature**: Enable **Credit Card**.
 - **3D Verification Threshold**: Set the order amount above which 3D verification is required.
 - **Payment Threshold Settings**: Set the **Minimum Amount** and **Maximum Amount** for credit card payments.
 
@@ -93,7 +93,7 @@ Go to **Payment and Logistics > Payment Settings**. Click :lucide-file-pen-line:
 
 Go to **Payment and Logistics > Payment Settings**. Click :lucide-file-pen-line: **Settings** to the right of Pay-Easy.
 
-- **Enable Feature**: Turn on **Pay-Easy Payment**.
+- **Enable Feature**: Enable **Pay-Easy Payment**.
 - **Payment Threshold Settings**: Set the **Minimum Amount** and **Maximum Amount** for Pay-Easy payments.
 
 ![](../../assets/images/日本站-後台-金物流-金流設定-設定Pay-easy01.en.png)

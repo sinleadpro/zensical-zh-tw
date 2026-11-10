@@ -21,7 +21,7 @@ hide:
 
     ---
 
-    Set up Facebook Quick Login to let shoppers register or sign in to their member accounts with one click using their Facebook account, and automatically pull the email address linked to Facebook as the account email.
+    Set up Facebook Quick Login to let customers register or sign in to their member accounts with one click using their Facebook account, and automatically pull the email address linked to Facebook as the account email.
 
     [:octicons-arrow-right-24: Go](setup-facebook-quick-login.md)
 
@@ -37,7 +37,7 @@ hide:
 
     ---
 
-    Use the CYBERBIZ back office to create Meta ad accounts, set up campaigns, define ad strategies, and analyze performance.
+    Use the CYBERBIZ admin to create Meta ad accounts, set up campaigns, define ad strategies, and analyze performance.
 
     [:octicons-arrow-right-24: Go](meta-ads/index.md)
 

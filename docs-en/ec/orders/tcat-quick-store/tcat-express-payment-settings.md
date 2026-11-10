@@ -75,9 +75,9 @@ tags:
 
 ![EZCAT Quick Store Delivery payment](../../../assets/images/ec-金物流-超商物流-黑貓快速到店.en.png){ title="EZCAT Quick Store Delivery Payment" .hero-page }
 
-## About EZCAT Quick Store Delivery Payment { #intro-tcat-express-pay }
+## About T-CAT Rapid-to-Store Delivery Payment { #intro-tcat-express-pay }
 
-You can offer two options, "Cash on Delivery" and "Pickup Without Payment." An EZCAT driver picks up packages at your specified location and delivers them to the **7-Eleven store** the shopper chose.
+You can offer two options, "Cash on Delivery" and "Pickup Without Payment." A T-CAT driver picks up packages at your specified location and delivers them to the **7-Eleven store** the customer chose.
 
 ## Step 1: Go to the Settings { #operate-tcat-express-pay-admin-path }
 
@@ -97,8 +97,8 @@ You can offer two options, "Cash on Delivery" and "Pickup Without Payment." An E
 
 3. **Shipping and handling fees:**
 
-	- Set shipping fee ranges and free shipping thresholds for each temperature zone (Ambient, Refrigerated, Frozen).
-	- **Note:** With cash on delivery, EZCAT charges an extra collection fee based on the amount collected. The shipping fee is the same as the regular delivery fee.
+	- Set shipping fee ranges and free shipping thresholds for each temperature zone (Room-temperature, Refrigerated, Frozen).
+	- **Note:** With cash on delivery, T-CAT charges an extra collection fee based on the amount collected. The shipping fee is the same as the regular delivery fee.
 
 4. Click **Save** to apply the changes.
 
@@ -112,7 +112,7 @@ You can offer two options, "Cash on Delivery" and "Pickup Without Payment." An E
 2. **Turn it on:** Switch "Pickup Without Payment" to **"ON"**.
 3. **Shipping fee:** Set the base shipping fee and free shipping amount for each temperature zone. To not offer free shipping, select "Off."
 4. Click **Save** to apply the changes.
-5. **On the storefront:** Shoppers can choose this delivery type after paying online (such as by credit card) on the checkout page.
+5. **On the storefront:** Customers can choose this delivery type after paying online (such as by credit card) on the checkout page.
 
 ![EZCAT Quick Store Delivery - pickup without payment](../../../assets/images/ec-金物流-超商物流-黑貓快速到店-取貨不付款.en.png){ title="EZCAT Quick Store Delivery - Pickup Without Payment" }
 
@@ -120,15 +120,15 @@ You can offer two options, "Cash on Delivery" and "Pickup Without Payment." An E
 
 - On your website's checkout page, customers **don't see** the words "EZCAT Quick Store Delivery."
 
-- The system shows a **7-Eleven store map** provided by EZCAT. After the shopper selects a store, you ship through EZCAT Quick Store Delivery.
+- The system shows a **7-Eleven store map** provided by T-CAT. After the customer selects a store, you ship through T-CAT Rapid-to-Store Delivery.
 
-- If you turn on both ambient and frozen delivery, customers see the matching 7-Eleven delivery options based on the temperature zone of the products they buy.
+- If you turn on both room-temperature and frozen delivery, customers see the matching 7-11 delivery options based on the temperature zone of the products they buy.
 
 <div class="grid" markdown>
 
 ![EZCAT Quick Store Delivery ambient](../../../assets/images/ec-金物流-超商物流-黑貓快速到店-常溫.en.png){ title="EZCAT Quick Store Delivery Ambient" }
 /// caption
-Ambient
+Room-temperature
 ///
 
 ![EZCAT Quick Store Delivery frozen](../../../assets/images/ec-金物流-超商物流-黑貓快速到店-冷凍.en.png){ title="EZCAT Quick Store Delivery Frozen" }
@@ -149,9 +149,9 @@ Frozen
 
 - **Delivery area:** Delivers only to Taiwan's main island (**On shore of Taiwan**).
 
-- **Return fees:** If the shopper doesn't pick up the package in time and it's returned to you, EZCAT charges **shipping twice** (outbound shipping + return shipping). For cash on delivery, the collection fee is charged separately.
+- **Return fees:** If the customer doesn't pick up the package in time and it's returned to you, T-CAT charges **shipping twice** (outbound shipping + return shipping). For cash on delivery, the collection fee is charged separately.
 
-- **Pre-chilling:** Before shipping chilled packages, pre-chill them (6+ hours for refrigerated, 12+ hours for frozen) to keep delivery quality.
+- **Pre-chilling:** Before shipping refrigerated packages, pre-chill them (6+ hours for refrigerated, 12+ hours for frozen) to keep delivery quality.
 
 
 
@@ -165,8 +165,8 @@ Frozen
 <div class="grid cards" markdown>
 
 - :lucide-zap:{ .lg }  
-  [__Ship with EZCAT Quick Store Delivery__](tcat-quick-store-shipping.md){ title="Ship with EZCAT Quick Store Delivery" }  
-  Ship orders with EZCAT Quick Store Delivery.
+  [__Ship with T-CAT Rapid-to-Store Delivery__](tcat-quick-store-shipping.md){ title="Ship with EZCAT Quick Store Delivery" }  
+  Ship orders with T-CAT Rapid-to-Store Delivery.
 
 - :lucide-ban:{ .lg }  
   [__Logistics Restrictions and Exclusions__](../../products/shipping/cvs-shipping-restrictions-exclusions.md){ title="Set Up Convenience Store Delivery Restrictions and Logistics Exclusions" }  
@@ -178,13 +178,13 @@ Frozen
 ## FAQ { #faq-tcat-express-pay }
 
 ??? quote "Can I turn on both EZCAT Quick Store Delivery and 7-Eleven pickup with payment?"
-	Yes. But customers see two 7-Eleven options on the checkout page. To avoid confusion, we recommend turning on only one delivery type per convenience store.
+	Yes. But customers see two 7-11 options on the checkout page. To avoid confusion, we recommend turning on only one delivery type per convenience store.
 
 ??? quote "How do customers choose EZCAT Quick Store Delivery at checkout?"
-	Customers **don't see** a delivery option named **EZCAT Quick Store Delivery** on the storefront. They see the **7-Eleven store map** provided by EZCAT. For customers, the process is the same as regular convenience store pickup. The only difference is that you deliver products to the chosen store through EZCAT.
+	Customers **don't see** a delivery option named **EZCAT Quick Store Delivery** on the storefront. They see the **7-Eleven store map** provided by T-CAT. For customers, the process is the same as regular convenience store pickup. The only difference is that you deliver products to the chosen store through T-CAT.
 
 ??? quote "Can I turn on both ambient and frozen EZCAT Quick Store Delivery?"
-	Yes. If the customer buys products in both ambient and frozen temperature zones, the checkout page shows a separate EZCAT Quick Store Delivery option for each (both shown as 7-Eleven delivery), and customers choose based on the temperature zone.
+	Yes. If the customer buys products in both room-temperature and frozen temperature zones, the checkout page shows a separate T-CAT Rapid-to-Store Delivery option for each (both shown as 7-11 delivery), and customers choose based on the temperature zone.
 
 ??? quote "Are the store maps the same for ambient and frozen EZCAT Quick Store Delivery?"
-	**Not necessarily**. The store map customers see at checkout is provided directly by EZCAT. Based on **ambient or frozen** delivery needs, the system automatically filters and shows stores that support delivery in that temperature zone.
+	**Not necessarily**. The store map customers see at checkout is provided directly by T-CAT. Based on **ambient or frozen** delivery needs, the system automatically filters and shows stores that support delivery in that temperature zone.

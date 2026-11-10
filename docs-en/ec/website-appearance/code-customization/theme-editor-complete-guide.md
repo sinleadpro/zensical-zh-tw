@@ -173,7 +173,7 @@ Fine-tune how products and media are shown to better guide shoppers.
     
 - :lucide-shuffle:{ .lg }  
   [__Recipient Information First__](../checkout-and-shopping-flow/priority-recipient-info-checkout.md){ title="Change Checkout to Collect Recipient Information First" }  
-  In `js/main.js`, turn on `exchangeShippingAndPurchaserLocation` to show recipient fields first.
+  In `js/main.js`, enable `exchangeShippingAndPurchaserLocation` to show recipient fields first.
 
 - :lucide-component:{ .lg }  
   [__Customize Order Confirmation / Payment Complete Pages__](../../integrations/line/marketing/line-friend-link-order-payment-pages.md){ title="Show a LINE Add Friend Link on the Order Confirmation and Payment Complete Pages" }  
@@ -191,7 +191,7 @@ Fine-tune how products and media are shown to better guide shoppers.
 - **Theme limitations**:
     - **Default Themes**: Full HTML/CSS/JS customization is available.
     - **Drag-and-drop themes**: Support only **a few** admin CSS/HTML editor features. Some code changes may not take effect.
-- **Responsibility**: CYBERBIZ gives you open code editing access, but **does not provide editing guidance, syntax tutorials, or coding services beyond the existing docs**.
+- **Responsibility**: CYBERBIZ gives you open code editing permission, but **does not provide editing guidance, syntax tutorials, or coding services beyond the existing docs**.
 - **At your own risk**: If code you change yourself breaks your layout or features, you are responsible for the outcome. If something goes wrong, use the recovery feature to restore the file first.
 - **Protect variables**: When editing email or SMS templates, never change system parameters inside `{{ }}` or `%{ }}` (such as `{{shop_name}}`). Otherwise, the system can't fetch the data and messages fail to send.
 

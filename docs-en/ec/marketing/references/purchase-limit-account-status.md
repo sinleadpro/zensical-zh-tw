@@ -61,7 +61,7 @@ Whether a customer can buy products in a purchase limit group depends on whether
 | Not logged in (guest) | ❌ | Your cart contains limited products. Please log in to purchase. |
 | Account active | ✅ | — (normal checkout) |
 | Flagged as warning account | ✅ | — (normal checkout) |
-| Account disabled | ❌ | Your account has been disabled. Please contact customer service if you have any questions. |
+| Account disabled | ❌ | Your account has been disabled. Please contact customer support if you have any questions. |
 | Account not activated | ❌ | Your account isn't activated, so you can't buy limited products. |
 | Account not verified | ❌ | Your account isn't activated, so you can't buy limited products. |
 | Activation invite sent | ❌ | Your account isn't activated, so you can't buy limited products. |

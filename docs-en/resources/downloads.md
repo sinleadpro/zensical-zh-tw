@@ -62,7 +62,7 @@ plan_options: []
 
     ---
 
-    A beginner guide to CYBERBIZ and LINE integrations so you can connect them quickly.
+    A beginner guide to CYBERBIZ and LINE integrations so you can integrate them quickly.
 
     [:lucide-download: Download PDF](https://drive.google.com/file/d/1DxbJDYoTFF1xKljcUFLoGVLnmJoLQZRi/view)
 
@@ -70,7 +70,7 @@ plan_options: []
 
     ---
 
-    Setup guide for LINE online-offline integration to connect online and offline channels.
+    Setup guide for LINE online-offline integration to integrate online and offline channels.
 
     [:lucide-download: Download PDF](https://drive.google.com/file/d/1mOPY3hZorS99_cjPCZMy_zIEUUGrZTqf/view)
 

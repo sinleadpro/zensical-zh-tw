@@ -96,7 +96,7 @@ Go to **Customer Management > VIP Settings** in the admin panel, then click **Ne
 
     1. Set the **Upgrade Condition Calculation Period**
 
-        - **Limited Period (Default)**: Select the number of days from the drop-down menu.
+        - **Limited Period (Default)**: Select the number of days from the dropdown menu.
         - **Unlimited**: Use the member's complete history as the calculation period for the Upgrade requirements.
 
     2. Set the **Upgrade Requirement Threshold**
@@ -133,7 +133,7 @@ Go to **Customer Management > VIP Settings** in the admin panel, then click **Ne
 
         The **Membership Tier Validity Period** is the tier's **Membership Period**. The system also uses purchase records from this period to determine whether the member meets the **Renewal Eligibility** requirements.
 
-        - **Limited Period (Default)**: Select the number of membership days from the drop-down menu.
+        - **Limited Period (Default)**: Select the number of membership days from the dropdown menu.
         - **Unlimited**: The membership period does not expire, and the system does not check Renewal eligibility. `
 
     2.  Set the **Renewal Requirement Threshold**

@@ -100,7 +100,7 @@ Build a member rewards program with bonus points to win first purchases and brin
 ### Order Bonus Point Crediting Rules { #prerequisites-bonus-points-order-bonus-rules }
 
 
-Purchase reward points are credited only when the order is **Completed** and the return status is **Return Not Needed**. They aren't credited when a return is in progress, under review, or rejected.
+Purchase bonus points are credited only when the order is **Completed** and the return status is **Return Not Needed**. They aren't credited when a return is in progress, under review, or rejected.
 
 For full conditions and scenarios, see [coupon and Bonus Point Crediting Rules](../references/coupon-and-bonus-credit-rules.md).
 
@@ -147,7 +147,7 @@ Go to **Customer Management > All Customers**.
 
 === "Filtered Members"
 
-    Use filters to select a group (such as VIP members) and add points in bulk.
+    Use filters to select a group (such as VIP members) and add points in batch.
 
     <div class="grid cards borderless two-columns" markdown>
 
@@ -157,11 +157,11 @@ Go to **Customer Management > All Customers**.
     </div>
 
 
-### D. Bulk Send With Excel { #operate-bonus-points-bonus-send-d-excel-send }
+### D. Batch Send With Excel { #operate-bonus-points-bonus-send-d-excel-send }
 
 !!! info "Before You Start"
     - This feature is available on **Enterprise Plan** only.
-    - If **external bonus points** are turned on, you can't bulk import bonus points. Send them from your external system instead.
+    - If **external bonus points** are turned on, you can't batch import bonus points. Send them from your external system instead.
 
 
 1. Download the template and fill in the fields as specified.
@@ -184,7 +184,7 @@ You can set a Credit(s) cap for each product. **To allow Credit(s) on a product,
 2. In **Manage Variants**, enter the maximum "points" for the variant in the **Credit(s)** field.
 > **System logic**: When both a storewide redemption cap and a product redemption cap exist, the **stricter** (lower) limit applies.
 
-!!! tip "How to Edit This Field in Bulk"
+!!! tip "How to Edit This Field in Batch"
     [Export products to Excel](../../products/bulk-operations/batch-update-product-descriptions-shipping.md#operate-batch-update-export), edit the `商品款式紅利最高折抵` column, then [import the Excel file](../../products/bulk-operations/batch-update-product-descriptions-shipping.md#operate-batch-update-upload).
 
 === "Admin Settings"
@@ -237,7 +237,7 @@ You can choose how bonus points are handled for returns:
 | **Returned order** | Choose whether to return them (not returned by default) | Not sent when completed |
 | **Partially returned order** | Choose whether to return them (not returned by default) | Choose whether to send them (not sent by default) |
 
-!!! info "Plan Availability"
+!!! info "Available Plans"
     - The return toggle for **returned orders** is available on **PLUS and Enterprise** only.
     - The return toggle for **partially returned orders** is available on **Enterprise Plan** only.
 

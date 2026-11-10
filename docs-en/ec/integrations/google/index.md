@@ -45,7 +45,7 @@ hide:
 
     ---
 
-    Set up Google Quick Login so shoppers can register or log in to their member accounts with one click using their Google account.
+    Set up Google Quick Login so customers can register or log in to their member accounts with one click using their Google account.
 
     [:octicons-arrow-right-24: Go to](setup-google-quick-login.md)
 
@@ -61,7 +61,7 @@ hide:
 
     ---
 
-    Connect Google Merchant Center and sync product data to Google Search and Shopping Ads.
+    Integrate Google Merchant Center and sync product data to Google Search and Shopping Ads.
 
     [:octicons-arrow-right-24: Go to](setup-google-merchant-center.md)
 
@@ -69,7 +69,7 @@ hide:
 
     ---
 
-    Connect Google Shopping Ads and use the CYBERBIZ automated ad system to run ads, manage budgets, and track performance.
+    Integrate Google Shopping Ads and use the CYBERBIZ automated ad system to run ads, manage budgets, and track performance.
 
     [:octicons-arrow-right-24: Go to](automated-ads-system.md)
 
@@ -125,7 +125,7 @@ hide:
 
     ---
 
-    Connect Google Analytics 4 (GA4), including creating the Google account, getting the measurement ID, and entering the tracking ID in the CYBERBIZ admin, step by step.
+    Integrate Google Analytics 4 (GA4), including creating the Google account, getting the measurement ID, and entering the tracking ID in the CYBERBIZ admin, step by step.
 
     [:octicons-arrow-right-24: Go to](ga/setup-google-analytics.md)
 
@@ -149,7 +149,7 @@ hide:
 
     ---
 
-    Use the GA4 enhanced measurement feature to track shoppers' on-site search behavior and analyze their information needs and search intent.
+    Use the GA4 enhanced measurement feature to track customers' on-site search behavior and analyze their information needs and search intent.
 
     [:octicons-arrow-right-24: Go to](ga/setup-ga4-site-search-tracking.md)
 

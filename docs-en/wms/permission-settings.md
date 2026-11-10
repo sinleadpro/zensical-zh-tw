@@ -71,7 +71,7 @@ Create custom job roles and assign module-based permissions to control exactly w
 
 !!! tip "Use Cases"
     - **Separate duties**: Let warehouse staff work only with receipt orders and inventory management, and keep them out of sensitive areas such as Account Management.
-    - **Data security**: Give junior store staff Read permission only, so they cannot delete product data by mistake or export order lists that contain personal data.
+    - **Data security**: Give junior store clerks Read permission only, so they cannot delete product data by mistake or export order lists that contain personal data.
     - **Team operations**: Create a manager role with full Write permission to review and correct documents.
 
 
@@ -93,7 +93,7 @@ Create custom job roles and assign module-based permissions to control exactly w
 ### Step 2: Set Role Details and Permissions { #operate-permissions-configure }
 
 1. Enter the job title in the **Role Name** field (such as Warehouse Staff or Operations Manager).
-2. In the **Assign accounts with this role** drop-down list, select the staff accounts to assign.
+2. In the **Assign accounts with this role** dropdown list, select the staff accounts to assign.
 3. In the **Permission List**, select the permission types for each feature based on the job's duties.
 
 ![](../assets/images/WMS-後台-設定-權限設定-編輯角色01.en.png){ .screenshot }

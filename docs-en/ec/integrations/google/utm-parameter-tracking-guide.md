@@ -136,7 +136,7 @@ After you publish your links, check their performance in the GA4 dashboard:
 
 </div>
 
-## Frequently Asked Questions { #faq-utm-tracking }
+## FAQ { #faq-utm-tracking }
 
 ??? quote "Can UTM parameters use Chinese names?"
     We do not recommend using Chinese. UTM parameters should use English letters only to prevent encoding errors that cause garbled URLs, which can affect the accuracy of GA4 data statistics.

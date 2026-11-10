@@ -72,12 +72,12 @@ Learn how to sync EC website products to POS stores, or create exclusive product
 { .doc-badge }
 
 
-## Usage Notes { #prerequisites-pos-products }
+## Before You Start { #prerequisites-pos-products }
 
 - **Image importance**: POS product images appear directly on the POS front-end screen, helping staff quickly identify products. We recommend turning on **Copy all product images** when copying.
 
 
-## Workflow { #operate-pos-products }
+## Steps { #operate-pos-products }
 
 ### Create the Product in the EC Admin Panel { #operate-pos-products-ec-admin-create }
 
@@ -91,11 +91,11 @@ Learn how to sync EC website products to POS stores, or create exclusive product
 
 ### Copy EC Products to POS Store { #operate-pos-products-ec-product-pos }
 
-Sync existing website products to the specified store.
+Sync existing storefront products to the specified store.
 
 1. Log in to the CYBERBIZ admin panel, go to **Products > All Products**, and select the products to sync. To select all products for batch operations, click **Select All**.
 2. Click **Copy products to POS stores**.
-3. In the pop-up window, complete the following settings:
+3. In the dialog, complete the following settings:
     - **Select Store**: Select the POS stores to copy to (multiple selections allowed).
     - **Copy Images**: We recommend turning on **Copy all product images**.
 

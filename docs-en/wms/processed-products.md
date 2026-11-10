@@ -68,7 +68,7 @@ hide: []
 ---
 
 # Bundle Products
-A bundle product is what online stores usually call a combo product. You bind several single products into one new sales unit. When an order is placed, the system deducts stock from each component product automatically.
+A bundle product is what online stores usually call a combo product. You bind several single products into one new sales unit. When an order is placed, the system deducts inventory from each component product automatically.
 { .subtitle }
 
 [:lucide-layers:{ title="Applicable Products" }](../../resources/conventions#適用產品) | Smart Warehousing
@@ -78,15 +78,15 @@ A bundle product is what online stores usually call a combo product. You bind se
 
 ## Before You Start { #prerequisites-processed-products }
 
-- **CYBERBIZ online store inventory link**: If your warehouse system is connected to your CYBERBIZ online store (EC), follow these rules:
+- **CYBERBIZ online store inventory link**: If your warehouse system is connected to your CYBERBIZ storefront (EC), follow these rules:
     - **Order of setup**: After you create the **bundle product** in WMS, [create a matching product](../ec/products/create-and-manage/create-update-products.md) in the online store admin panel.
-    - **Key match**: The online store product's **SKU** must exactly match the **Product Uid** in WMS.
-    - **Automatic sync**: Once the details match, the system keeps stock in sync between both sides in real time.
+    - **Key match**: The storefront product's **SKU** must exactly match the **Product Uid** in WMS.
+    - **Automatic sync**: Once the details match, the system keeps inventory in sync between both sides in real time.
 - **Bundle stock logic**
-    - **Formula**: Available stock of a bundle product = **the lowest sellable quantity among all its component products**.
+    - **Formula**: Available inventory of a bundle product = **the lowest sellable quantity among all its component products**.
     - **Example**: Bundle A+B. Component A has 100 units in stock, and component B has 80 units.
     - **Result**: The bundle can sell at most 80 sets.
-    - **Linked stock**: If 30 units of component B sell (on their own or in another bundle), this bundle's stock drops to 50 sets automatically.
+    - **Linked stock**: If 30 units of component B sell (on their own or in another bundle), this bundle's inventory drops to 50 sets automatically.
 
 
 ## Apply and Prepare { #prerequisites-processed-products-setup }
@@ -107,13 +107,13 @@ After preparation, bind single products into a bundle product in the WMS admin p
 2. Click **Add Bundle Product** in the upper-right corner.
 3. Fill in the basic information:
     - **Name**: Enter the bundle product's name.
-    - **International barcode**: Enter the new outer-carton barcode if the bundle has one (optional).
-    - **Product Uid (Required)**: If the warehouse system is connected to your CYBERBIZ online store, enter the **product SKU** used in the online store (EC) admin panel.
+    - **International barcode**: Fill in the new outer-carton barcode if the bundle has one (optional).
+    - **Product Uid (Required)**: If the warehouse system is connected to your CYBERBIZ storefront, enter the **product SKU** used in the online store (EC) admin panel.
 4. **Add items**:
     - Click **Add Item**.
     - Search by keyword or SKU and select the component products.
     - Enter the **Quantity** of each in the bundle.
-5. **Add processing items**: Select the processing service the warehouse set up from the drop-down list.
+5. **Add processing items**: Select the processing service the warehouse set up from the dropdown list.
 6. Click **Add** to finish.
 
 ![](../assets/images/WMS-後台-商品-加工商品-單筆新增加工品01.en.png){ .screenshot }
@@ -139,7 +139,7 @@ If you need many bundles, use an Excel batch import.
 
 - :lucide-chart-bar-increasing:{ .lg }
   [__Check Data in the Inventory Summary__](single-items/#operate-single-items-export)
-  Download the product inventory summary to make sure records match physical stock.
+  Download the product inventory summary to make sure records match physical inventory.
 
 - :lucide-square-chart-gantt:{ .lg }
   [__Manage Single Products__](single-items.md)

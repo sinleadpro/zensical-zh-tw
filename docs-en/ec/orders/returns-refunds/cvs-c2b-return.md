@@ -73,7 +73,7 @@ hide:
 
 ## About Convenience Store Pickup Return Service (C2B) { #intro-cvs-c2b-return }
 
-**Convenience store pickup Return Service (C2B)** lets shoppers send return packages back to you through **7-Eleven stores**.
+**Convenience store pickup Return Service (C2B)** lets customers send return packages back to you through **7-Eleven stores**.
 
 !!! info-clean "Return Service Process Overview"
 
@@ -95,9 +95,9 @@ hide:
 ## Prerequisites and Limitations { #prerequisites-cvs-c2b-return }
 
 - [x] **Plan limits:** This feature is mainly for **Enterprise** or **Expert PLUS** merchants.
-- [x] **Requirements:** To use 7-Eleven C2B Return Service, you must first [apply for Convenience Store B2C Bulk Shipping](../../payments-and-logistics/setup-cvs-b2c-bulk-shipping.md).
+- [x] **Requirements:** To use 7-11 C2B Return Service, you must first [apply for Convenience Store B2C Bulk Shipping](../../payments-and-logistics/setup-cvs-b2c-bulk-shipping.md).
 - [x] **Original order:** The **original order doesn't need to have shipped by convenience store** to use Return Service. Whatever the original delivery type, you can use convenience store reverse logistics.
-- [x] **Service fee:** Return Service currently costs a flat **NT$40** (whether you or the shopper pays). If you send the code by text message, an extra text message is sent.
+- [x] **Service fee:** Return Service currently costs a flat **NT$40** (whether you or the customer pays). If you send the code by SMS message, an extra SMS message is sent.
 - [x] **Code validity:** A Return Service code is valid for **the day it's requested plus six days (7 days total)**[^code-valid] and expires after that.
 
 [^code-valid]: For example, if you create a Return Service code on July 1, it's valid through July 7 (7 days including the request day).
@@ -110,9 +110,9 @@ First decide who pays the return shipping fee. To set it:
 
 1. Sign in to the CYBERBIZ admin and go to **Payment and Logistics > Convenience Store Logistics**.
 2. In the **7-ELEVEN Convenience Store Return Service** section, click the edit :material-file-document-edit-outline: button to open the edit page.
-3. Select **Merchant Pays** or **Shopper Pays**:
+3. Select **Merchant Pays** or **Customer Pays**:
 	- **Merchant Pays:** When you create a code, the system automatically deducts the fee from your **CYBER Coins**. If the code isn't used within 14 days, the coins are returned automatically.
-	- **Shopper Pays:** The shopper pays the NT$40 shipping fee to the clerk when sending the package at a 7-Eleven store.
+	- **Customer Pays:** The customer pays the NT$40 shipping fee to the clerk when sending the package at a 7-11 store.
 
 ![Convenience store Return Service settings](../../../assets/images/ec-金物流-超商物流-超商退貨便-設定.en.gif){ title="Convenience Store Return Service Settings" }
 
@@ -128,7 +128,7 @@ After a customer requests a return, create a code as follows:
 
     ![Send C2B convenience store Return Service code](../../../assets/images/ec-orders-cvs-c2b-return-send-code.en.png){ title="Send C2B Convenience Store Return Service Code" }
 
-4. In the pop-up, choose whether to send the code to the shopper by **text message** or **email**, and then click **Confirm**.
+4. In the pop-up, choose whether to send the code to the customer by **text message** or **email**, and then click **Confirm**.
 
     ![C2B convenience store Return Service send method pop-up](../../../assets/images/ec-orders-cvs-c2b-return-send-method-dialog.en.png){ title="C2B Convenience Store Return Service Send Method Pop-up" }
 
@@ -136,10 +136,10 @@ After a customer requests a return, create a code as follows:
 
 ---
 
-### Step 3: Shopper Sends the Package { #operate-cvs-c2b-return-customer }
+### Step 3: Customer Sends the Package { #operate-cvs-c2b-return-customer }
 
-1. After receiving the Return Service code, the shopper packs the items.
-2. At a 7-Eleven store, the shopper uses the **ibon kiosk** and enters the code to print the Return Service form (shipping label).
+1. After receiving the Return Service code, the customer packs the items.
+2. At a 7-11 store, the shopper uses the **ibon kiosk** and enters the code to print the Return Service form (shipping label).
 3. The shopper sticks the shipping label on the package and hands it to the store clerk.
 
 !!! info "For details, see the [official Return Service guide :lucide-external-link:](https://www.7-11.com.tw/service/return.aspx)."
@@ -171,7 +171,7 @@ After a customer requests a return, create a code as follows:
 ## FAQ { #faq-cvs-c2b-return }
 
 ??? quote "How do shoppers request convenience store Return Service?"  
-	After the shopper requests a return from you, you create a Return Service code in the admin and notify the shopper.
+	After the customer requests a return from you, you create a Return Service code in the admin and notify the customer.
 
 ??? quote "How long is a Return Service code valid?"  
 	A Return Service code is valid for 7 days from the day it's created, and expires after that.

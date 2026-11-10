@@ -72,13 +72,13 @@ Precisely target customer segments with multidimensional criteria and create seg
 
 !!! tip "Use Cases"
     - **Targeted Marketing**: Filter members who have saved specific products and send an exclusive coupon.
-    - **Re-Engage Lost Customers**: Identify inactive members who have not placed an order for more than 90 days and send an SMS or email reminder.
-    - **VIP Management**: Filter members whose cumulative spending meets the threshold, then manually upgrade their membership level or send a gift.
+    - **Re-Engage Lost Customers**: Identify inactive members who have not submitted an order for more than 90 days and send an SMS or email reminder.
+    - **VIP Management**: Filter members whose cumulative spending meets the threshold, then manually upgrade their membership level or send a free gift.
     - **Event Segmentation**: Send invitations to offline events to members in a specific area, such as those whose shipping address contains "Taipei."
 
 
 
-## Important Notes { #prerequisites-member-filters }
+## Before You Start { #prerequisites-member-filters }
 
 - **Valid Order Calculation**: When filtering member purchase records by criteria such as "Shopping Behavior" or "Purchase History," calculations always use historical data from **valid orders**.
 - **Filter Logic**:
@@ -97,13 +97,13 @@ Go to **Customer Management > All Customers** and click **Add Filter** in the to
 
 ### 2. Configure And Apply Criteria { #operate-member-filters-apply }
 
-1. Select a filter category in the pop-up window, such as Member Status or Shopping Behavior.
+1. Select a filter category in the dialog, such as Member Status or Shopping Behavior.
 2. Set specific parameters, such as registration date or cumulative purchase amount.
 3. Click **Apply**. The list below immediately displays members who meet the criteria.
 
-### 3. Perform Bulk Actions { #operate-member-filters-batch }
+### 3. Perform Batch Actions { #operate-member-filters-batch }
 
-Select members, then perform bulk actions such as **Send coupon**, **Export Report**, or **Edit Tags**.
+Select members, then perform batch actions such as **Send coupon**, **Export Report**, or **Edit Tags**.
 
 ![](https://www.cyberbiz.io/support/wp-content/uploads/會員-會員篩選器02.png){ .screenshot }
 
@@ -127,7 +127,7 @@ After creating a member group, perform the following operational tasks directly 
 Targeted Marketing Campaign Delivery:
 - **coupon Distribution**: Send win-back coupon in bulk to the "Inactive Members" group, or automatically sent an exclusive gift to the "Birthday" group.
 - **Bonus Mall Traffic Generation**: Filter members whose points will expire soon and save them as a group. Send regular redemption reminders to increase point usage.
-Performance Tracking and Strategy Analysis: Monitor changes in purchase frequency and average order value for a specific segment, such as members interested in a particular product. Use these insights to evaluate conversion performance and optimize future segmented marketing strategies.
+Performance Tracking and Strategy Analysis: Monitor changes in purchase frequency and AOV for a specific segment, such as members interested in a particular product. Use these insights to evaluate conversion performance and optimize future segmented marketing strategies.
 
 
 
@@ -176,7 +176,7 @@ Filter members by historical transaction data.
 | :--- | :--- | :--- | :--- |
 | **Cumulative Purchase Amount** | Members whose cumulative purchase amount reached the threshold during a specified period | ✓ | ✓ |
 | **Number of Orders** | Members whose cumulative number of orders reached the threshold during a specified period | ✓ | ✓ |
-| **Average spending** | Members whose average order value reached the threshold during a specified period | ✕ | ✓ |
+| **Average spending** | Members whose AOV reached the threshold during a specified period | ✕ | ✓ |
 | **Purchase Quantity** | Members who purchased a specified quantity or amount of specific products or groups | ✕ | ✓ |
 | **Payment and Logistics** | Members who have used LINE Pay, JKOPay, or convenience store pickup | ✕ | ✓ |
 | **Channel Source** | Members who have made purchases on the official website or at specific physical stores (POS) | ✕ | ✓ |
@@ -216,12 +216,12 @@ Use a big data model to automatically analyze member value.
 
 If you [add a custom field](../website-management/customer-registration-flow-and-fields.md#operate-customer-reg-custom) in **Website Management > Member Registration Setting**, filter entries by their field values in this section.
 
-- Supported field formats: text input, checkbox, drop-down list, and date.
+- Supported field formats: text input, checkbox, dropdown list, and date.
 - Unsupported field format: image upload.
 
 
 
-## Frequently Asked Questions { #faq-member-filters }
+## FAQ { #faq-member-filters }
 
 ??? quote "Why does the number of filtered members differ from what I expected?"
     Check the following:

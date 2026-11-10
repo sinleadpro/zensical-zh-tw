@@ -1,6 +1,6 @@
 ---
 title: "Set up Product Shipping Conditions (Logistics, Temperature Zone, and Fulfillment Channel)"
-description: "Set up a product's shipping temperature zone and logistics. Using standard home delivery and cash on delivery as examples, this guide explains shipping fee settings, product binding, and order splitting at checkout."
+description: "Set up a product's shipping temperature zone and logistics. Using standard home delivery and cash on delivery as examples, this guide explains shipping fee settings, product linking, and order splitting at checkout."
 created: 2026-01-06 00:00
 last_modified: 2026-07-22 17:40
 lang: en-US
@@ -82,21 +82,21 @@ hide: []
 
 ![Product shipping condition settings](../../../assets/images/ec-product-temp-logistics-settings.zh-tw.en.png){ title="Product Shipping Condition Settings" .hero-page }
 
-## About Binding Delivery Conditions { #intro-ship-conditions }
+## About Linking Delivery Conditions { #intro-ship-conditions }
 
-Binding delivery conditions means explicitly setting a product so that it "can use" or "can only use" specific logistics, delivery temperature zones, or fulfillment channels.
+Linking delivery conditions means explicitly setting a product so that it "can use" or "can only use" specific logistics, delivery temperature zones, or fulfillment channels.
 Based on these bindings, the system determines and displays the available delivery options when customers check out.
 
 !!! example "Use Cases"
 
-    - **Logistics binding**: When a product can only be delivered by specific logistics (such as T-Cat, Pelican Express, or Chunghwa Post), set the product to use only those logistics.
+    - **Logistics binding**: When a product can only be delivered by specific logistics (such as T-CAT, Pelican, or Chunghwa Post), set the product to use only those logistics.
     - **Delivery temperature zone binding**: For products that need special temperature zone delivery (such as room temperature, refrigerated, or frozen), set one or more applicable temperature zones.
     - **Fulfillment channel binding**: When products ship from different locations (such as different warehouses, stores, or vendors), set the fulfillment channel each product belongs to.
 
 ## Set Shipping Fees by Temperature Zone { #operate-ship-conditions-temp-fee }
 
 Before you set product delivery conditions, create each **logistics method** in the admin and set shipping fee rules for each **delivery temperature zone**.  
-After setup, the logistics options appear on the product edit page for binding.
+After setup, the logistics options appear on the product edit page for linking.
 
 ### Standard Home Delivery <small>Custom Logistics</small> { #operate-ship-conditions-custom }
 
@@ -119,16 +119,16 @@ The following explains how to create a home delivery logistics method that charg
 
 4. Click **Save** to apply the settings.
 
-After that, the logistics method appears on the **Settings** tab of the product edit page, where you can set up [delivery temperature zone binding](#operate-ship-conditions-temp) and [delivery method binding](#operate-ship-conditions-method).
+After that, the logistics method appears on the **Settings** tab of the product edit page, where you can set up [delivery temperature zone linking](#operate-ship-conditions-temp) and [delivery method linking](#operate-ship-conditions-method).
 
 ![Custom logistics settings](../../../assets/images/ec-product-custom-logistics-settings.zh-tw.en.png){ title="Custom Logistics Settings" }
 
 !!! warning "Bind New Logistics Manually for Logistics-Restricted Products"
-	If a product is set to "specific logistics only", logistics methods you add later **are not bound automatically** to it. Bind the product to the new logistics manually, or the logistics method **won't appear in the delivery options at checkout**. [Learn more](#specs-ship-conditions-add-ship).
+	If a product is set to "specific logistics only", logistics methods you add later **are not bound automatically** to it. Link the product to the new logistics manually, or the logistics method **won't appear in the delivery options at checkout**. [Learn more](#specs-ship-conditions-add-ship).
 
-[^1]: Don't use the same names as built-in system logistics (for example, T-Cat Cash on Delivery or Pelican Express Cash on Delivery), or checkout errors or logistics detection issues may occur.
-[^2]: If you change a logistics name, products bound to the original name are unbound, and you must set their delivery methods again.
-[^3]: Even for the same carrier, different delivery temperature zones **must use different logistics names**, for example: T-Cat (Room Temperature) / T-Cat (Refrigerated) / T-Cat (Frozen).
+[^1]: Don't use the same names as built-in system logistics (for example, T-CAT Cash on Delivery or Pelican Cash on Delivery), or checkout errors or logistics detection issues may occur.
+[^2]: If you change a logistics name, products linked to the original name are unbound, and you must set their delivery methods again.
+[^3]: Even for the same carrier, different delivery temperature zones **must use different logistics names**, for example: T-CAT (Room Temperature) / T-CAT (Refrigerated) / T-CAT (Frozen).
 
 ---
 
@@ -160,7 +160,7 @@ The following explains how to set cash on delivery and shipping fee rules for di
 
 ## Set Product Delivery Temperature Zone { #operate-ship-conditions-temp }
 
-After you complete the [logistics shipping fee settings](#operate-ship-conditions-temp-fee), you can set the delivery temperature zone and corresponding logistics available to each product. To understand how binding works, see [What binding delivery conditions means](#intro-ship-conditions) first.
+After you complete the [logistics shipping fee settings](#operate-ship-conditions-temp-fee), you can set the delivery temperature zone and corresponding logistics available to each product. To understand how linking works, see [What linking delivery conditions means](#intro-ship-conditions) first.
 
 1. Log in to the CYBERBIZ admin and go to **Products > All Products**.
 2. Click the product to set up to open its edit page.
@@ -174,7 +174,7 @@ After you complete the [logistics shipping fee settings](#operate-ship-condition
 [:lucide-tag:{ title="Applicable Plans" }](../../../resources/conventions.md#conventions-plans){ title="Icon Conventions" } |
 Expert / PLUS / Enterprise
 
-You can set the delivery logistics methods available to each product. To understand how binding works, see [What binding delivery conditions means](#intro-ship-conditions) first.
+You can set the delivery logistics methods available to each product. To understand how linking works, see [What linking delivery conditions means](#intro-ship-conditions) first.
 
 1. Log in to the CYBERBIZ admin and go to **Products > All Products**.
 2. Click the product to set up to open its edit page.
@@ -183,13 +183,13 @@ You can set the delivery logistics methods available to each product. To underst
     - **Logistics binding status**:
         - `ON`: This product *can* be delivered with that logistics method.
         - `OFF`: This product *cannot* be delivered with that logistics method.
-    - **Default behavior**: When a product is created, the system binds all available logistics methods by default.  
-    - **Requirement**: Each product *must be bound to at least one delivery logistics method*, or it can't be delivered.
+    - **Default behavior**: When a product is created, the system links all available logistics methods by default.  
+    - **Requirement**: Each product *must be linked to at least one delivery logistics method*, or it can't be delivered.
         
     ![Logistics binding toggles](../../../assets/images/ec-logistics-toggle.zh-tw.en.png){ title="Logistics Binding Toggles" }
     
 4. **Confirm the change reminder**: The first time you change a logistics binding, the system shows a reminder. Read the notes carefully, then check the box and click **Confirm**.
-    !!! info "If you don't confirm, the system shows the reminder again every time you change a logistics binding."
+    !!! info "If you don't confirm, the system shows the reminder again every time you change a logistics linking."
 
 ### Notes on Changing Logistics Shipping Fee Settings { #prerequisites-ship-conditions-fee }
 When you change logistics shipping fee settings, keep the following in mind:
@@ -219,7 +219,7 @@ If you change the basis for calculating shipping fees, you must reset the logist
     
     - The default is "Select a channel (no channel)", which means the product **applies to all channels**.  
     - Apart from "no channel", each product **can be bound to only one product channel**.  
-    - If no matching channel is in the drop-down menu, type text to add a new channel name.
+    - If no matching channel is in the dropdown menu, enter text to add a new channel name.
         
 5. After entering the channel name, click **Add** to finish.
   
@@ -257,19 +257,19 @@ If you change the basis for calculating shipping fees, you must reset the logist
 
 ---
 
-### Add Logistics After Binding Products { #specs-ship-conditions-add-ship }
+### Add Logistics After Linking Products { #specs-ship-conditions-add-ship }
 
-After products are bound to delivery logistics, *if you add a new delivery logistics method*, the system decides whether to apply it based on each product's existing logistics binding:
+After products are linked to delivery logistics, *if you add a new delivery logistics method*, the system decides whether to apply it based on each product's existing logistics linking:
 
 - Products set to "all delivery logistics" > The system **automatically applies and binds** the new delivery logistics.
-- Products set to "specific delivery logistics only" > The system **does not automatically bind** the new delivery logistics. To use it, bind it manually on the product settings page.
+- Products set to "specific delivery logistics only" > The system **does not automatically bind** the new delivery logistics. To use it, link it manually on the product setup page.
 
 Example
 
 |Product|Existing Delivery Logistics|Original Product Logistics Setting|Result After Adding Delivery Logistics|
 |---|---|---|---|
-|Product A|T-Cat, Pelican Express|All delivery logistics|:material-check: Hsinchu Logistics bound automatically|
-|Product B|T-Cat, Pelican Express|Specific delivery logistics only (T-Cat)|:material-close: Hsinchu Logistics not bound automatically (still T-Cat only)|
+|Product A|T-CAT, Pelican|All delivery logistics|:material-check: HCT Logistics linked automatically|
+|Product B|T-CAT, Pelican|Specific delivery logistics only (T-CAT)|:material-close: HCT Logistics not linked automatically (still T-CAT only)|
 
 ---
 
@@ -281,10 +281,10 @@ This section explains the admin settings and storefront checkout behavior when p
 
 Delivery settings in the admin have three levels, which together affect the delivery options available to products and how checkout is split.
 
-- Logistics shipping fee settings: After setup, the corresponding logistics appear on the product settings page for binding.
+- Logistics shipping fee settings: After setup, the corresponding logistics appear on the product setup page for linking.
    > For example, set up two logistics methods: *T-Cat home delivery* and *Pelican Express*.
     
-- Delivery temperature zone settings: The system has three built-in delivery temperature zones: **room temperature, refrigerated, and frozen**. On the product settings page, select the temperature zones that apply to the product (you can select more than one).
+- Delivery temperature zone settings: The system has three built-in delivery temperature zones: **room temperature, refrigerated, and frozen**. On the product setup page, select the temperature zones that apply to the product (you can select more than one).
 - Product channel (fulfillment channel) settings: Different channels are treated as different shipping sources, which affects checkout and cart splitting.
   > For example, set two product channels (shipping locations), *Taipei Store* and *Taichung Store*, on the product edit page.
 
@@ -321,7 +321,7 @@ When a customer's cart contains products with different *delivery logistics, del
 ## FAQ { #faq-ship-conditions }
 
 ??? quote "If I change a logistics name, will product bindings stop working?"
-    Yes. If you change the name of a logistics method, products bound to it are unbound. Go to the product pages and bind the delivery logistics again.
+    Yes. If you change the name of a logistics method, products linked to it are unbound. Go to the product pages and link the delivery logistics again.
 
 ??? quote "Can I set multiple temperature zones for one product?"
     Yes. On the "Settings" tab of the product edit page, you can select multiple temperature zones for the product.

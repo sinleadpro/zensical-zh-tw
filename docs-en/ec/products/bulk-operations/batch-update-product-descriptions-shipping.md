@@ -71,7 +71,7 @@ hide: []
 
 ![Bulk update product descriptions and shipping settings](../../../assets/images/ec-export-product-hero.zh-tw.en.png){ title="Bulk Update Product Descriptions and Shipping Settings" .hero-page }
 
-## About Bulk Updating Product Descriptions and Shipping { #intro-batch-update }
+## About Batch Updating Product Descriptions and Shipping { #intro-batch-update }
 
 Export, edit, and upload an Excel file to update the descriptions, temperature zones, shipping methods, and sales channels of many products at once, without opening each product page. This saves a lot of manual maintenance time. Suitable scenarios include:
 
@@ -79,7 +79,7 @@ Export, edit, and upload an Excel file to update the descriptions, temperature z
 - Shipping methods or channels change
 - Adding temperature zone settings to many products, and so on.
 
-The process has three stages: **Export the product Excel** > **Edit the Excel** > **Upload the Excel file**. After upload, the system processes the file on a schedule and emails you the result.
+The steps has three stages: **Export the product Excel** > **Edit the Excel** > **Upload the Excel file**. After upload, the system processes the file on a schedule and emails you the result.
 
 !!! info "Before You Update"
     - Once added, a product channel **cannot be deleted**. Make sure the channel name is correct before entering it.
@@ -164,13 +164,13 @@ Open the downloaded product export Excel file and enter or change the product de
 
 === ":material-check-circle-outline: Product Data Imported Successfully"
 
-    When the import is complete, you receive a "Product data imported successfully" email notification, which means the bulk update is done.
+    When the import is complete, you receive a "Product data imported successfully" email notification, which means the batch update is done.
 
     ![Product data imported successfully](https://www.cyberbiz.io/helpcenter/wp-content/uploads/批次修改商品資料6.png){ title="Product Data Imported Successfully" .screenshot }
 
 ## Next Steps { #next-steps-batch-update }
 
-After the bulk update, we recommend reading the following documents to understand product description and shipping settings more fully:
+After the batch update, we recommend reading the following documents to understand product description and shipping settings more fully:
 
 <div class="grid cards" markdown>
 

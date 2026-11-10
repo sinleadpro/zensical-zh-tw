@@ -88,7 +88,7 @@ CYBERBIZ currently has two interfaces: the **new text editor** and the **legacy 
 - [x] **Version availability**: The new text editor is being rolled out gradually. Stores that don't have it yet see the legacy editor. This does not affect existing content. Both versions produce the same web page content.
 
 !!! info "How to Tell Which Version You Use"
-    In the new editor, typing "/" in the body opens a shortcut menu, and a toolbar floats up when you select text. The legacy editor has a fixed row of toolbar buttons above the content area. To switch versions, contact CYBERBIZ customer service.
+    In the new editor, typing "/" in the body opens a shortcut menu, and a toolbar floats up when you select text. The legacy editor has a fixed row of toolbar buttons above the content area. To switch versions, contact CYBERBIZ customer support.
 
 ---
 
@@ -106,7 +106,7 @@ CYBERBIZ currently has two interfaces: the **new text editor** and the **legacy 
 
 === "Legacy Text Editor"
     1. **Type directly:** Click in the editing area and start typing.
-    2. **Apply paragraph formats:** Use the "Format" drop-down menu in the toolbar to apply heading or paragraph styles, and adjust the font and font size.
+    2. **Apply paragraph formats:** Use the "Format" dropdown menu in the toolbar to apply heading or paragraph styles, and adjust the font and font size.
     3. **Apply text styles:** Select text, and then click the toolbar's **bold**, **italic**, **strikethrough**, text color, or background color button.
     4. **Adjust alignment, lists, and indentation:** The toolbar has buttons for left, center, right, and justified alignment, numbered lists, bulleted lists, and indentation.
 
@@ -118,9 +118,9 @@ CYBERBIZ currently has two interfaces: the **new text editor** and the **legacy 
 
 === "New Text Editor"
     1. **Place the cursor:** Move the cursor to where you want the image.
-    2. **Open the image window:** Click the **Image** button in the toolbar, or type "/" and choose "Image."
+    2. **Open the image window:** Click the **Image** button in the toolbar, or enter "/" and choose "Image."
     3. **Choose a source:** In the "Image Properties" window, switch to the **Upload** tab to upload a local file, paste an online image link in the **URL** field, or click **Browse Server** to pick an image you uploaded before.
-    4. **Fill in image details:** As needed, enter "Alternative text"[^alt-new], set the alignment, and select "Add caption."
+    4. **Fill in image details:** As needed, fill in "Alternative text"[^alt-new], set the alignment, and select "Add caption."
     5. **Insert it:** Click **OK** to insert the image into the content.
 
     [^alt-new]: "Alternative text" (ALT) is the text description shown when an image can't be displayed. It also helps search engines understand the image, which is good for SEO.
@@ -131,7 +131,7 @@ CYBERBIZ currently has two interfaces: the **new text editor** and the **legacy 
     1. **Place the cursor:** Move the cursor to where you want the image.
     2. **Open the image window:** Click the image button in the toolbar. To edit an image you already inserted, right-click it and choose image properties.
     3. **Choose a source:** In the image window, use the upload tab to upload a local file, paste an image link in the URL field, or click browse server to pick an existing image.
-    4. **Enter alternative text:** Enter an image description in the "Alternative text" (ALT) field[^alt-old].
+    4. **Enter alternative text:** Fill in an image description in the "Alternative text" (ALT) field[^alt-old].
     5. **Insert it:** Confirm to insert the image into the content.
 
     [^alt-old]: "Alternative text" (ALT) is the text description shown when an image can't be displayed. It also helps search engines understand the image, which is good for SEO.
@@ -149,7 +149,7 @@ CYBERBIZ currently has two interfaces: the **new text editor** and the **legacy 
 
 === "New Text Editor"
     1. **Place the cursor:** Move the cursor to where you want the video.
-    2. **Open the video window:** Click the **YouTube Video** button in the toolbar, or type "/" and choose "YouTube Video."
+    2. **Open the video window:** Click the **YouTube Video** button in the toolbar, or enter "/" and choose "YouTube Video."
     3. **Paste the video URL:** Paste the YouTube link in the "Paste YouTube video URL" field[^yturl-new].
     4. **Set playback options:** As needed, select options such as responsive sizing, autoplay, loop, and mute[^ytopts].
     5. **Insert it:** Click **OK** to embed the video in the content.
@@ -198,11 +198,11 @@ When you need advanced formatting, or need to fix layout problems caused by past
 
 These features are available only in the new text editor:
 
-- **Slash commands (/):** Type "/" in the body to open a shortcut menu and quickly insert headings, lists, tables, horizontal lines, images, YouTube videos, special characters, or emojis. For the full list, see the [Slash Commands Reference](../references/text-editor-toolbar.md#reference-text-editor-slash-commands){ data-preview }.
+- **Slash commands (/):** Enter "/" in the body to open a shortcut menu and quickly insert headings, lists, tables, horizontal lines, images, YouTube videos, special characters, or emojis. For the full list, see the [Slash Commands Reference](../references/text-editor-toolbar.md#reference-text-editor-slash-commands){ data-preview }.
 
     ![Slash command shortcut menu](../../../assets/images/ec-website-appearance-text-editor-slash-command.en.png)
 
-- **Markdown syntax:** Type `#` plus a space to create a heading, `-` plus a space to create a bulleted list, and `---` to insert a horizontal line.
+- **Markdown syntax:** Enter `#` plus a space to create a heading, `-` plus a space to create a bulleted list, and `---` to insert a horizontal line.
 - **Floating toolbar:** When you select text, a toolbar floats up so you can quickly adjust bold, italic, underline, color, and links.
 - **Create anchors:** Create an anchor on a paragraph or image and copy the anchor link. Paste it onto other text or images to jump within the page.
 
@@ -255,7 +255,7 @@ These features are available only in the new text editor:
     [](){ #faq-text-editor-preview-broken }
     If you copied content from another website, it may have brought in CSS code such as `white-space: pre-wrap;`. Switch to **Source** mode, find and delete that code, and the page returns to normal.
 
-## References { #reference-text-editor }
+## See Also { #reference-text-editor }
 
 - [Slash Commands Reference](../references/text-editor-toolbar.md#reference-text-editor-slash-commands)
 - [YouTube Video Settings Reference](../references/text-editor-toolbar.md#reference-text-editor-youtube-options)

@@ -1,6 +1,6 @@
 ---
 title: "EZWAY Subscription Service"
-description: "Turn on the EZWAY subscription service to track customs declaration progress for cross-border orders. Set up automated SMS reminders that guide customers through real-name verification, and track customs status and sending records in the admin in real time."
+description: "Enable the EZWAY subscription service to track customs declaration progress for cross-border orders. Set up automated SMS reminders that guide customers through real-name verification, and track customs status and sending records in the admin in real time."
 created: 2026-07-23 17:45
 last_modified: 2026-07-23 17:45
 lang: en-US
@@ -61,7 +61,7 @@ icon: lucide/shield-check
 hide: []
 ---
 # EZWAY Subscription Service
-Turn on the EZWAY subscription service to track declaration progress for cross-border orders. Set up automated SMS reminders that guide customers through real-name verification, and track customs status and message history in the admin in real time.
+Enable the EZWAY subscription service to track declaration progress for cross-border orders. Set up automated SMS reminders that guide customers through real-name verification, and track customs status and message history in the admin in real time.
 { .subtitle }
 
 [:lucide-layers:{ title="Applicable Products" }](../../resources/conventions#適用產品) | Cross-Border E-Commerce (Japan to Taiwan)<br>
@@ -80,9 +80,9 @@ Turn on the EZWAY subscription service to track declaration progress for cross-b
 Customs procedures for **Japan-to-Taiwan** cross-border e-commerce can be complicated, so CYBERBIZ provides an automated EZWAY management tool. With it, you can track each parcel's declaration confirmation progress in one place and remind customers automatically at key moments, greatly reducing the risk of parcels getting stuck in customs.
 
 
-- **Automatic Declaration Tracking**: The system syncs with Trade-Van and customs systems and turns complex customs procedures into easy-to-understand status labels.
+- **Automatic Declaration Tracking**: The system syncs with TRADE-VAN and customs systems and turns complex customs procedures into easy-to-understand status labels.
 - **Two-Step Reminders**: For customers who have not completed **declaration confirmation**, the system can send reminder SMS messages automatically, guiding them to confirm in the EZWAY app and speeding up clearance.
-- **Lower Customer Service Costs**: With real-time update times and declaration stages in the admin, your customer service team can quickly see why a parcel is held and answer customer questions accurately.
+- **Lower Customer Service Costs**: With real-time update times and declaration stages in the admin, your customer support team can quickly see why a parcel is held and answer customer questions accurately.
 
 ## EZWAY Pricing { #specs-ezway }
 
@@ -91,7 +91,7 @@ This feature combines a subscription with pay-as-you-go fees:
 | Item | Type | When Charged | Billing Model | Payment Method |
 | ---- | ---- | ------- | ------- | -------- |
 | **Monthly Fee** | Fixed fee | First subscription/resubscribing after expiration: When you subscribe<br>Auto-renewal/resubscribing before expiration: On the expiration date | Monthly | Included on your statement |
-| **Order Lookup Fee** | Variable fee | When Trade-Van successfully receives the order data | Per order | CYBER Coins |
+| **Order Lookup Fee** | Variable fee | When TRADE-VAN successfully receives the order data | Per order | CYBER Coins |
 | **SMS Notification Fee** | Variable fee | When an SMS is sent | Per message sent | CYBER Coins |
 
 > For detailed pricing plans, contact your CYBERBIZ store consultant.
@@ -140,7 +140,7 @@ To restore the service, click **Resubscribe**. When you are charged depends on y
 
 
 *   **Resume Before Expiration (Service Not Yet Ended)**: The original subscription cycle continues. You are not charged again now, and normal charges resume at the next renewal.
-*   **Restart After Expiration (Service Ended)**: This counts as a new subscription. Features turn on immediately, and the monthly fee for the current period is charged.
+*   **Restart After Expiration (Service Ended)**: This counts as a new subscription. Features enable immediately, and the monthly fee for the current period is charged.
 
 ![](../../../assets/images/EC-後台-APPMARKET-我的擴充服務-重新訂閱EZWAY01.en.png){ .screenshot }
 
@@ -157,11 +157,11 @@ After an order is placed, if the customer has not confirmed the declaration, the
 | **Item** | **How It Is Sent** | **When It Is Sent** |
 | -------- | ----------- | ----------- |
 | **First Message** | Sent automatically | When the customs broker uploads documents to the customs system (parcels without declaration confirmation cannot clear customs at this point) |
-| **Second Message** | Optional, turned on by you | Sent at your chosen interval after the first message |
+| **Second Message** | Optional, enabled by you | Sent at your chosen interval after the first message |
 
 ### Send a Second Message { #operate-compliance-sms-send-sms }
 
-To turn on the second reminder, select "Enable second SMS reminder" and choose the interval between the two messages.
+To enable the second reminder, select "Enable second SMS reminder" and choose the interval between the two messages.
 
 ![](../../../assets/images/EC-後台-APPMARKET-我的擴充服務-開啟第二次通知功能01.en.png){ .screenshot }
 
@@ -209,9 +209,9 @@ On the **Tracking Number** tab, track parcel declaration progress with these fie
 
 | **Option** | **Customs Step** | **Customs Process/Description** |
 | ----------- | ------------ | ---------------- |
-| **Order Not Uploaded** | 1 | The order was placed; the system will upload the order information to Trade-Van shortly |
-| **Order Uploaded** | 2 | The order data was sent to Trade-Van and is waiting for a response |
-| **Confirmed by Trade-Van** | 3 | Trade-Van received the order data; waiting for the EZWAY declaration status to update |
+| **Order Not Uploaded** | 1 | The order was placed; the system will upload the order information to TRADE-VAN shortly |
+| **Order Uploaded** | 2 | The order data was sent to TRADE-VAN and is waiting for a response |
+| **Confirmed by Trade-Van** | 3 | TRADE-VAN received the order data; waiting for the EZWAY declaration status to update |
 | **Declaration Not Confirmed** | 4 | The customs broker uploaded the pre-authorization data, but the recipient has not tapped "Confirm Declaration" in the EZWAY app. Customs declaration can proceed only after this is done |
 | **Declaration Confirmed** | 5 | The recipient tapped "Confirm Declaration" in EZWAY; waiting for customs review |
 | **Authorization Confirmed by Customs** | 6 | Customs approved the pre-authorization; the customs broker can upload the formal declaration data |

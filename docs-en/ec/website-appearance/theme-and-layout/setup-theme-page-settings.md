@@ -93,7 +93,7 @@ Drag-and-drop themes use the **page drop-down menu** in the top toolbar to switc
 You set up each page in the drag-and-drop theme editor. To learn how to open the editor, see [Drag-and-Drop Theme Site Settings](theme-editor.md){ title="Drag-and-Drop Theme Site Settings" }.
 
 !!! note "Note"
-    The pages that actually appear in the drop-down menu vary with the theme you installed and the features you have turned on. Go by what the editor shows.
+    The pages that actually appear in the dropdown menu vary with the theme you installed and the features you have turned on. Go by what the editor shows.
 
 !!! example "Use Cases"
     | Scenario | Block to use |
@@ -111,14 +111,14 @@ Before you start, make sure that:
 
 - [x] **The drag-and-drop theme editor is open:** Open the drag-and-drop theme editor first. See [Open the Drag-and-Drop Theme Editor](theme-editor.md#operate-theme-editor-enter){ title="Open the Drag-and-Drop Theme Editor" }.
 - [x] **You're using a drag-and-drop theme:** The settings in this article apply only to themes labeled "draggable."
-- [x] **Some pages need setup first:** For example, multi-level categories, customer service features, or store location settings. Check the section for each page.
+- [x] **Some pages need setup first:** For example, multi-level categories, customer support features, or store location settings. Check the section for each page.
 
 !!! plan "Differences by Plan"
      The pages and blocks you can edit depend on your plan and the features you have turned on.
 
 ## Steps { #operate-page-settings }
 
-Jump to the page type you need: [Homepage](#operate-page-settings-homepage), [Product Page](#operate-page-settings-product), [Product Collection Page](#operate-page-settings-group), [Multi-Level Product Categories](#operate-page-settings-category), [Blog Page](#operate-page-settings-blog), [Blog Post Page](#operate-page-settings-article), [Customer Service Page](#operate-page-settings-contact), [404 Page](#operate-page-settings-not-found), [Express Delivery Page](#operate-page-settings-express), [Search Page](#operate-page-settings-search).
+Jump to the page type you need: [Homepage](#operate-page-settings-homepage), [Product Page](#operate-page-settings-product), [Product Collection Page](#operate-page-settings-group), [Multi-Level Product Categories](#operate-page-settings-category), [Blog Page](#operate-page-settings-blog), [Blog Post Page](#operate-page-settings-article), [Customer Support Page](#operate-page-settings-contact), [404 Page](#operate-page-settings-not-found), [Express Delivery Page](#operate-page-settings-express), [Search Page](#operate-page-settings-search).
 
 ### Homepage { #operate-page-settings-homepage }
 
@@ -140,7 +140,7 @@ You can add the following 13 block types to the homepage. Most blocks' settings 
 
 General steps:
 
-1. Choose "Homepage" in the page drop-down menu. To learn about previewing, see [Switch Pages and Preview](theme-editor.md#operate-theme-editor-preview){ title="Switch Pages and Preview" data-preview }.
+1. Choose "Homepage" in the page dropdown menu. To learn about previewing, see [Switch Pages and Preview](theme-editor.md#operate-theme-editor-preview){ title="Switch Pages and Preview" data-preview }.
 2. In the block list on the left, click "Add Block" and choose the block type to add.
 3. Click a block and edit its content and settings in the panel on the right.
 4. When you finish, click "Save" to save your changes.
@@ -197,10 +197,10 @@ A hero block that holds multiple carousel "slides."
         ![Carousel - image link](../../../assets/images/ec-website-appearance-image-link.en.png){ title="Carousel - image link" }
 
         ??? info "Where Image Links Can Go"
-            **Image link** is a drop-down menu. Choose a destination type first, and then the target: store homepage, all products, a specific product, a product collection (custom/conditional category, pick-any discount), blog, other pages, the lookup page, the customer service form, or choose **external link** and paste an outside URL.
+            **Image link** is a dropdown menu. Choose a destination type first, and then the target: store homepage, all products, a specific product, a product collection (custom/conditional category, pick-any discount), blog, other pages, the lookup page, the customer support form, or choose **external link** and paste an outside URL.
 
             !!! warning-clean "Prerequisites"
-                Options such as multi-level product categories, Mix & Match bundle campaigns, and Bonus Mall appear in the drop-down menu only after you turn on the matching feature.
+                Options such as multi-level product categories, Mix & Match bundle campaigns, and Bonus Mall appear in the dropdown menu only after you turn on the matching feature.
 
 4. Set the **slide text** (also set separately for each slide):
 
@@ -225,10 +225,10 @@ A hero block that holds multiple carousel "slides."
         ![Carousel - button link](../../../assets/images/ec-slider-button-link.en.png){ title="Carousel - button link" }
 
         ??? info "Where Button Links Can Go"
-            The button link is a drop-down menu. Choose a destination type first, and then the target: store homepage, all products, a specific product, a product collection (custom/conditional category, pick-any discount), blog, other pages, the lookup page, the customer service form, or choose **external link** and paste an outside URL.
+            The button link is a dropdown menu. Choose a destination type first, and then the target: store homepage, all products, a specific product, a product collection (custom/conditional category, pick-any discount), blog, other pages, the lookup page, the customer support form, or choose **external link** and paste an outside URL.
 
             !!! warning "Prerequisites"
-                Options such as multi-level product categories, Mix & Match bundle campaigns, and Bonus Mall appear in the drop-down menu only after you turn on the matching feature.
+                Options such as multi-level product categories, Mix & Match bundle campaigns, and Bonus Mall appear in the dropdown menu only after you turn on the matching feature.
 
     - **Text Color**: Set the color of each of the four elements separately (click a swatch to pick a color).
 
@@ -276,7 +276,7 @@ A single banner image, often used as a campaign entry point.
 A list block that pulls in products from a specific product collection.
 
 1. Add a "Product Collection" block.
-2. Enter a **title**, and click **Select Product Collection** to choose the collection to show.
+2. Fill in a **title**, and click **Select Product Collection** to choose the collection to show.
 3. Set the **maximum number of products** (products shown at a time, default 12) and how **products expand**.
 
     === "Swipe Left and Right"
@@ -376,7 +376,7 @@ A list block that pulls in products from a specific product collection.
 Embed a single video.
 
 1. Add a "Video Settings" block.
-2. Enter a **title** and **video link**.
+2. Fill in a **title** and **video link**.
 
     ![Video settings - title and link](../../../assets/images/ec-website-appearance-video-title-link.en.png){ title="Video title and link" }
 
@@ -402,7 +402,7 @@ Embed a single video.
 Shows posts from multiple blogs in tabs.
 
 1. Add a "Tabs" block.
-2. In **Other Layout Settings**, enter a title, adjust the layout margins, and set the number of post columns.
+2. In **Other Layout Settings**, fill in a title, adjust the layout margins, and set the number of post columns.
 
     ![Tabs - basic settings](../../../assets/images/ec-website-appearance-blog-tabs-basic.en.png)
 
@@ -430,7 +430,7 @@ A flexible layout that combines different sub-blocks freely.
     === "Image"
 
         1. Upload desktop/tablet/mobile images (if you upload only the desktop image, it's used for the others).
-        2. Enter the **image title, image description (advanced text), image link (can open in a new tab), and image alt text**.
+        2. Fill in the **image title, image description (advanced text), image link (can open in a new tab), and image alt text**.
         3. Set the **screen width share**.
 
         ![Custom layout design - image](../../../assets/images/ec-website-appearance-custom-blocks-image.en.png)
@@ -600,15 +600,15 @@ An introduction block with an image, text, and a button.
     === "Button"
 
         - **Button text**: Enter the text shown on the button (default "Learn More"), and then press Enter to apply. Click the swatches to set the button's **background color** and **text color**.
-        - **Button link**: Choose a link target from the drop-down menu. You can select **Open link in new tab**.
+        - **Button link**: Choose a link target from the dropdown menu. You can select **Open link in new tab**.
 
         ![Button settings](../../../assets/images/ec-website-appearance-graphic-intro-button.en.png)
 
         ??? info "Where Button Links Can Go"
-            The button link is a drop-down menu. Choose a destination type first, and then the target: store homepage, all products, a specific product, a product collection (custom/conditional category, pick-any discount), blog, other pages, the lookup page, the customer service form, or choose **external link** and paste an outside URL.
+            The button link is a dropdown menu. Choose a destination type first, and then the target: store homepage, all products, a specific product, a product collection (custom/conditional category, pick-any discount), blog, other pages, the lookup page, the customer support form, or choose **external link** and paste an outside URL.
 
             !!! warning "Prerequisites"
-                Options such as multi-level product categories, Mix & Match bundle campaigns, and Bonus Mall appear in the drop-down menu only after you turn on the matching feature.
+                Options such as multi-level product categories, Mix & Match bundle campaigns, and Bonus Mall appear in the dropdown menu only after you turn on the matching feature.
 
 ---
 
@@ -676,7 +676,7 @@ Highlights a single product and lets customers buy it.
 
         ![Featured product - tablet and mobile - layout margins](../../../assets/images/ec-website-appearance-flagship-margins-mobile.en.png)
 
-3. Click the **Product Settings** drop-down and set the following:
+3. Click the **Product Settings** dropdown and set the following:
 
     - **Select Products**: Click **Add Product** to choose the product to show.
     - **Product image position**: Place the image on the left or right.
@@ -753,17 +753,17 @@ A content block that expands and collapses. It's the main tool for building an *
 
 The product page has four main sections. Turn them on or reorder them as needed.
 
-Choose "Product Page" in the page drop-down menu to set the following:
+Choose "Product Page" in the page dropdown menu to set the following:
 
 === "Basic Settings"
 
-    Controls the stock status, price label logic, and purchase behavior shown on the storefront.
+    Controls the inventory status, price label logic, and purchase behavior shown on the storefront.
 
     - Set whether to **show the product SKU**.
 
         ![Product SKU setting](../../../assets/images/ec-product-page-basic-sku.en.png)
 
-    - Turn on **member-exclusive price labels**: When a product has a member-exclusive price, this label appears next to the price for visitors who aren't signed in. After you turn it on, set the following:
+    - Enable **member-exclusive price labels**: When a product has a member-exclusive price, this label appears next to the price for visitors who aren't signed in. After you turn it on, set the following:
 
         - **Description label**: Enter the label text, and then press Enter to apply.
         - **Description label link**: Enter a URL and press Enter to apply. Clicking the label goes to that page.
@@ -806,7 +806,7 @@ Choose "Product Page" in the page drop-down menu to set the following:
 
             ![Show promotions section](../../../assets/images/ec-product-page-basic-promo-area.en.png)
 
-        - **Show product stock**: Select this to show the product stock quantity on the storefront.
+        - **Show product stock**: Select this to show the product inventory quantity on the storefront.
 
             ![Show product stock](../../../assets/images/ec-product-page-basic-stock.en.png)
 
@@ -848,7 +848,7 @@ Choose "Product Page" in the page drop-down menu to set the following:
 
 For collection pages, you can choose which navigation menu to use (set it up first in [Menu Setting](../navigation/setup-menus-navigation.md){ title="Set Up Menus and the Navigation Bar" }).
 
-1. Choose "Product Collection Page" in the page drop-down menu, and click **Product Collection Settings** to open the settings page.
+1. Choose "Product Collection Page" in the page dropdown menu, and click **Product Collection Settings** to open the setup page.
 
     ![Product collection page - open settings](../../../assets/images/ec-collection-page-enter-settings.en.png){ title="Product collection page - open settings" }
 
@@ -856,7 +856,7 @@ For collection pages, you can choose which navigation menu to use (set it up fir
 
     === "Left Menu"
 
-        - **Left menu link**: Choose the menu to show from the drop-down, or choose "Don't show menu" to hide the left menu. Set it up first in [Menu Setting](../navigation/setup-menus-navigation.md){ title="Set Up Menus and the Navigation Bar" }.
+        - **Left menu link**: Choose the menu to show from the dropdown, or choose "Don't show menu" to hide the left menu. Set it up first in [Menu Setting](../navigation/setup-menus-navigation.md){ title="Set Up Menus and the Navigation Bar" }.
 
             === "With Main Menu"
 
@@ -870,7 +870,7 @@ For collection pages, you can choose which navigation menu to use (set it up fir
 
     === "Product Settings"
 
-        - **Product columns (desktop)**: Choose how many products to show per row (drop-down).
+        - **Product columns (desktop)**: Choose how many products to show per row (dropdown).
         - **Maximum number of products**: Set how many products to show per page.
         - **How more products load**: Choose pagination or infinite scroll.
 
@@ -882,7 +882,7 @@ For collection pages, you can choose which navigation menu to use (set it up fir
 
 Fine-tune how multi-level category pages look. First [create your multi-level product category structure](../../products/categories-and-tags/multi-level-category-setup.md){ title="Set Up Multi-Level Product Categories" }.
 
-1. Choose "Multi-Level Product Categories" in the page drop-down menu, and click **Multi-Level Product Category Settings** to open the settings page.
+1. Choose "Multi-Level Product Categories" in the page dropdown menu, and click **Multi-Level Product Category Settings** to open the setup page.
 
     ![Multi-level product categories - open settings](../../../assets/images/ec-multi-level-category-page-enter-settings.en.png){ title="Multi-level product categories - open settings" }
 
@@ -901,7 +901,7 @@ Fine-tune how multi-level category pages look. First [create your multi-level pr
 
 Shows a list of post summaries.
 
-1. Choose "Blog Page" in the page drop-down menu, and click **Blog Settings** to open the settings page.
+1. Choose "Blog Page" in the page dropdown menu, and click **Blog Settings** to open the setup page.
 
     ![Blog page - open settings](../../../assets/images/ec-blog-page-enter-settings.zh-tw.en.png)
 
@@ -919,7 +919,7 @@ Shows a list of post summaries.
 
 Shows the full content of a single post.
 
-1. Choose "Blog Post Page" in the page drop-down menu, and click **Blog Post Settings** to open the settings page.
+1. Choose "Blog Post Page" in the page dropdown menu, and click **Blog Post Settings** to open the setup page.
 
     ![Blog post page - open settings](../../../assets/images/ec-blog-article-page-enter-settings.zh-tw.en.png)
 
@@ -933,11 +933,11 @@ Shows the full content of a single post.
 
 ---
 
-### Customer Service Page <small>Contact Us Form</small> { #operate-page-settings-contact }
+### Customer Support Page <small>Contact Us Form</small> { #operate-page-settings-contact }
 
-On the storefront, the customer service page is mainly a "Contact Us" form where visitors can leave inquiries.
+On the storefront, the customer support page is mainly a "Contact Us" form where visitors can leave inquiries.
 
-1. Choose "Customer Service Page" in the page drop-down menu.
+1. Choose "Customer Service Page" in the page dropdown menu.
 2. We recommend also setting your full company phone number, address, and email in the [**footer**](../navigation/setup-menus-navigation.md#operate-menus-nav-footer-content){ title="Set Up Footer Content" } block to build brand trust.
 3. To block bot attacks, [enable reCAPTCHA for comments](../customer-interaction/enable-comment-recaptcha.md){ title="Enable reCAPTCHA for Comments" }.
 
@@ -949,7 +949,7 @@ On the storefront, the customer service page is mainly a "Contact Us" form where
 
 The page shown when customers visit a broken link. Customize its look to soften the bad experience.
 
-1. Choose "404 Page" in the page drop-down menu.
+1. Choose "404 Page" in the page dropdown menu.
 2. Upload a custom image. We recommend an on-brand or playful image that guides visitors.
 3. Set the **title** and the **back to homepage button text**.
 
@@ -961,7 +961,7 @@ The page shown when customers visit a broken link. Customize its look to soften 
 
 Customize the look of the Express Delivery section and make its entry stand out.
 
-1. Choose "Express Delivery Page" in the page drop-down menu, and click **Express Delivery Settings** to open the settings page.
+1. Choose "Express Delivery Page" in the page dropdown menu, and click **Express Delivery Settings** to open the setup page.
 
     ![Express Delivery page - open settings](../../../assets/images/ec-express-delivery-page-enter-settings.zh-tw.en.png)
 
@@ -985,7 +985,7 @@ Customize the look of the Express Delivery section and make its entry stand out.
 
 ### Search Page <small>Site Search Results</small> { #operate-page-settings-search }
 
-1. Choose "Search Page" in the page drop-down menu.
+1. Choose "Search Page" in the page dropdown menu.
 2. Choose the **menu** to use on the left of the search page ([create a menu](../navigation/setup-menus-navigation.md){ title="Set Up Menus and the Navigation Bar" } first).
 3. Products in search results follow the display rules in "[Global Settings](setup-global-theme-settings.md#operate-global-settings-shop-product){ title="Global Settings" }" (price range, product taglines, quantity sold, and more).
 4. The search results page can show subscription, sale, out of stock, and custom labels.
@@ -1013,7 +1013,7 @@ Customize the look of the Express Delivery section and make its entry stand out.
 
 </div>
 
-## References { #reference-page-settings }
+## See Also { #reference-page-settings }
 
 - [Block Types You Can Add Reference](../references/theme-editor-sections.md)
 - [Drag-and-Drop Editable Pages Reference](../references/theme-editor-pages.md)

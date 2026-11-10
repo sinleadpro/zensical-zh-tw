@@ -1,6 +1,6 @@
 ---
 title: "Set up ECPay E-Invoices"
-description: "Learn how to connect CYBERBIZ to the ECPay e-invoice service, set when invoices are issued automatically, and manage invoice void rules."
+description: "Learn how to integrate CYBERBIZ with the ECPay e-invoice service, set when invoices are issued automatically, and manage invoice void rules."
 created: 2026-06-26 18:40
 last_modified: 2026-09-18 17:50
 lang: en-US
@@ -64,7 +64,7 @@ hide: []
 ---
 
 # Set up ECPay E-Invoices
-Learn how to connect CYBERBIZ to the ECPay e-invoice service, set when invoices are issued automatically, and manage invoice void rules.
+Learn how to integrate CYBERBIZ with the ECPay e-invoice service, set when invoices are issued automatically, and manage invoice void rules.
 { .subtitle }
 
 [:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | Advanced / Expert / all PLUS plans
@@ -79,7 +79,7 @@ Learn how to connect CYBERBIZ to the ECPay e-invoice service, set when invoices 
 ## Before You Start { #prerequisites-ecpay-notes }
 
 - **Invoice number tracks**: Check the invoice number tracks in the ECPay dashboard regularly to make sure you have enough. If they run out, the system can't issue invoices automatically.
-- **Customer support**: For questions about ECPay account permissions or uploading invoice number tracks, contact ECPay Customer Service: 02-2655-1775.
+- **Customer support**: For questions about ECPay account permissions or uploading invoice number tracks, contact ECPay Customer Support: 02-2655-1775.
 
 
 
@@ -89,7 +89,7 @@ Learn how to connect CYBERBIZ to the ECPay e-invoice service, set when invoices 
 1. First [apply for the ECPay service](https://member.ecpay.com.tw/MemberReg/MerchantRegister). For the application process, see the [ECPay instructions](https://www.ecpay.com.tw/Business/einvoice_knowledge_flow).
 2. After you register and confirm that e-invoicing is active, complete the following settings.
 
-## How to Connect { #operate-ecpay-invoice }
+## How to Integrate { #operate-ecpay-invoice }
 
 ### Step 1: Get Your ECPay Integration Information { #operate-ecpay-invoice-keys }
 
@@ -101,11 +101,11 @@ Before you start, have your ECPay key information ready.
 
 ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-綠界02.png){ .screenshot }
 
-### Step 2: Enter the Integration Information in the Admin Panel { #operate-ecpay-invoice-bind }
+### Step 2: Enter the Integration Information in the Admin { #operate-ecpay-invoice-bind }
 
 Enter the information you got into CYBERBIZ.
 
-1. Log in to the CYBERBIZ admin panel and go to **Website Management > Invoices**.
+1. Log in to the CYBERBIZ admin and go to **Website Management > Invoices**.
 2. In the ECPay Invoice Settings section, enter the **ECPay vendor number**, **HashKey**, and **HashIV**.
 
     ![](https://www.cyberbiz.io/helpcenter/wp-content/uploads/電子發票-綠界01.png){ .screenshot }
@@ -117,7 +117,7 @@ Enter the information you got into CYBERBIZ.
 
 ### Step 3: Set When Invoices Are Issued { #operate-ecpay-invoice-timing }
 
-In the **Invoice issuance time** section, select one or more invoice issuance times. For the trigger conditions and limits of each option, see [About invoice issuance times](#specs-invoice-issuance-timing).
+In the **Invoice issuance time** section, select one or more invoice issuance times. For the trigger conditions and limits of each option, see also [About invoice issuance times](#specs-invoice-issuance-timing).
 
 ## How the System Works { #specs-ecpay-invoice }
 
@@ -166,4 +166,4 @@ The system automatically updates the invoice with ECPay based on the order statu
 
     Common reasons:
     - **No invoice number track available**: Upload more invoice number tracks in the ECPay dashboard, and then go back to the CYBERBIZ order and issue the invoice manually.
-    - **Incorrect keys**: Check and update the merchant ID and HashKey/IV entered in the admin panel.
+    - **Incorrect keys**: Check and update the merchant ID and HashKey/IV filled in in the admin.

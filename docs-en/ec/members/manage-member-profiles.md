@@ -78,7 +78,7 @@ hide: []
 ---
 # Manage Member Profiles
 
-When a member's information or permissions change, their points or coupon allocation needs adjustment, or they need help placing an order, administrators can use the Member Details page for one-stop customer service and data maintenance.
+When a member's information or permissions change, their points or coupon allocation needs adjustment, or they need help submitting an order, administrators can use the Member Details page for one-stop customer support and data maintenance.
 { .subtitle }
 
 ![](../../assets/images/EC-後台-會員-所有會員-會員明細頁畫面總覽01.en.png){ .hero-page }
@@ -87,10 +87,10 @@ When a member's information or permissions change, their points or coupon alloca
     - **Routine Data Maintenance**: Correct a member's incorrectly entered name, phone number, or birthday.
     - **Complaint Compensation and Rewards**: Manually reissue bonus points or coupon for a specific order dispute.
     - **Risk Control and Segmentation**: Suspend members who maliciously abandon orders, or manually add a VIP tag to high-value members.
-    - **Advanced Customer Support**: Place orders on behalf of members who are unfamiliar with the website, or guide them through resetting their password.
+    - **Advanced Customer Support**: Submit orders on behalf of members who are unfamiliar with the website, or guide them through resetting their password.
 
 
-## Before You Begin { #prerequisites-member-profiles }
+## Before You Start { #prerequisites-member-profiles }
 
 Before managing member information, understand the following system behavior:
 
@@ -123,7 +123,7 @@ Data is more than a static record. It guides marketing decisions. The following 
 | **Valid coupon Held** | Final Purchase Driver | Send limited-time order reminders to members who claimed a coupon but did not make a purchase |
 
 !!! tip "From Data Insights to Precision Marketing"
-    In addition to viewing detailed data for an individual member here, use the member filter to select members in bulk based on specific metrics. This enables more precise broadcast notifications and marketing strategies.
+    In addition to viewing detailed data for an individual member here, use the member filter to select members in batch based on specific metrics. This enables more precise broadcast notifications and marketing strategies.
 
 ![](../../assets/images/EC-後台-會員-所有會員-查看會員數據指標01.en.png)
 
@@ -142,7 +142,7 @@ Use the **Account Settings** section to control permissions based on member beha
 
 - **Account Status**:
     - `禁用帳號`: The member cannot log in (for malicious users).
-    - `Set as Warning Account`: The member can still place orders, but a prominent marker appears in the admin order list to alert fulfillment staff.
+    - `Set as Warning Account`: The member can still submit orders, but a prominent marker appears in the admin order list to alert fulfillment staff.
 - **Account Type**:
     - **Identify Registration Source**: Check whether the member used a third-party platform such as LINE, Google, or Facebook for quick registration.
     - **Quick Login Support**: Recorded sources include LINE, Google, and Facebook. If the field is **blank**, the account was registered with a standard email address.
@@ -150,7 +150,7 @@ Use the **Account Settings** section to control permissions based on member beha
     - **View Unclaimed Pickup Records**: Review the member's previous **number of unclaimed paid orders** as a reference when evaluating shipping permissions.
     - **Control Convenience Store Pickup Permissions**: For members with repeated unclaimed pickups, switch `CVS Pickup` or `CVS COD` to **Disabled**.
 - **Notifications and Push Messages**:
-    - **Manage Marketing Subscription Status**: Confirm whether the member agrees to receive promotions and newsletters from the merchant.
+    - **Manage Marketing Subscription Status**: Confirm whether the member agrees to receive promotions and EDMs from the merchant.
     - **Set System Notification Permissions**: Confirm whether the member agrees to receive automatically sent emails about order status, returns, shipping progress, and other updates.
 
     !!! info "Important Notes on Notification and Push Settings"
@@ -172,9 +172,9 @@ Use the **Account Settings** section to control permissions based on member beha
 
 To help merchants accurately assess member value, the system consolidates **real-time online store and retail store orders** with **manually added orders from external channels**. This provides a comprehensive overview of spending data and ensures that VIP tiers and benefits continue seamlessly wherever the member shops.
 
-### 1. Online Store And Retail Store Purchases { #operate-member-profiles-store-orders }
+### 1. Storefront And Retail Store Purchases { #operate-member-profiles-store-orders }
 
-Scroll to the **Orders** section. This section automatically consolidates valid spending totals from the online store (EC) and POS retail stores as the primary basis for assessing member contribution.
+Scroll to the **Orders** section. This section automatically consolidates valid spending totals from the storefront (EC) and POS retail stores as the primary basis for assessing member contribution.
 
 -   **Use Case**: Click the **Order Number** to view the transaction's item details and shipping status.
 -   **Data Update**: The amount is added to the **Online Store and Retail Store Spending Total** as soon as the order is placed.
@@ -195,7 +195,7 @@ The following two management methods are available depending on your plan:
         1. Scroll to the **Other Channels Accumulated Amount** section and click **Edit**.
         2. Enter the member's historical **Total Amount** and **Created At** time.
         3. Click **Confirm** to add the entry.
-    -   **Limitation**: Only the total amount is recorded. Individual order details cannot be traced.
+    -   **Limitation**: Only the total amount is recorded. Single order details cannot be traced.
 
     ![](../../assets/images/EC-後台-會員-所有會員-查看會員其他通路訂單-一般版01.png)
 
@@ -215,7 +215,7 @@ The following two management methods are available depending on your plan:
 
             ![](../../assets/images/EC-前台-會員中心-其他通路訂單備註01.png)
 
-    -   **Limitation**: Individual records can be edited or deleted, but the **Order Source** cannot be changed after confirmation.
+    -   **Limitation**: Single records can be edited or deleted, but the **Order Source** cannot be changed after confirmation.
 
     ![](../../assets/images/EC-後台-會員-所有會員-查看會員其他通路訂單-企業版01.en.png)
 
@@ -321,7 +321,7 @@ Use tags to categorize individual members in greater detail:
     ![](../../assets/images/EC-後台-會員-所有會員-批次綁定會員標籤01.en.png)
 
 
-## Task 6: Place Orders On Behalf Of Members { #operate-member-profiles-proxy-order }
+## Task 6: Submit Orders On Behalf Of Members { #operate-member-profiles-proxy-order }
 
 Use this feature to help members complete an order or place a new order when a shipping label has expired.
 
@@ -359,7 +359,7 @@ For security reasons, administrators cannot directly view or change member passw
 
 ![](../../assets/images/EC-前台-會員登入-忘記密碼01.png)
 
-## Frequently Asked Questions { #faq-member-profiles }
+## FAQ { #faq-member-profiles }
 
 ??? quote "Why Didn't the Recipient Information on an Existing Order Change After I Updated the Member's Phone Number?"
     Changes to member information affect only **future** orders. Recipient information for **existing** orders is fixed in the order record.

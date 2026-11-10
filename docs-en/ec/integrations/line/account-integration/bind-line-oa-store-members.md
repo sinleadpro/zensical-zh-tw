@@ -92,21 +92,21 @@ hide: []
 
 ![](../../../../assets/images/ec-第三方整合-line 註冊登入.en.png){ .hero-page }
 
-## What Is LINE Official Account and Website Member Binding? { #operate-bind-line }
+## What Is LINE Official Account and Website Member Linking? { #operate-bind-line }
 
-**LINE OA Website Member Binding** is the core feature for integrating online and offline member data and running targeted marketing. Through binding, merchants can collect members' **LINE UID**, which enables them to send automated order and shipping notifications.
+**LINE OA Website Member Binding** is the core feature for integrating online and offline member data and running targeted marketing. Through linking, merchants can collect members' **LINE UID**, which enables them to send automated order and shipping notifications.
 
-The following provides a detailed explanation and tutorial on LINE OA website member binding:
+The following provides a detailed explanation and tutorial on LINE OA website member linking:
 
 ## Prerequisites { #prerequisites-bind-line }
 
 Merchants must first complete the following system integration settings before data can be shared:
 
-- [x] [**Create and Connect the Messaging API**](connect-line-messaging-api.md){ title="Connect the LINE Messaging API" }  : Complete the API connection between the LINE Official Account and the CYBERBIZ admin backend.
+- [x] [**Create and Connect the Messaging API**](connect-line-messaging-api.md){ title="Connect the LINE Messaging API" }  : Complete the API integration between the LINE Official Account and the CYBERBIZ admin backend.
 
 - [x] [**Set Up LINE Login (Quick Login)**](setup-line-quick-login.md){ title="Set up LINE Quick Login" }  : Be sure to configure "LINE Login" and "Messaging API" under the **same LINE Developers Provider (service provider)**.
 
-- [x] **Enable LINE Quick Login**: Consumers must register or log in through LINE Quick Login to complete the binding process.
+- [x] **Enable LINE Quick Login**: Customers must register or log in through LINE Quick Login to complete the linking process.
 
 ## Admin Backend Setup Methods { #operate-bind-line-backend-settings }
 
@@ -120,7 +120,7 @@ This is the most commonly used guidance method.
 
 - **Set up the link**: We recommend using the "Member Profile" page as the redirect page. The link format is: `https://your-domain/customer/auth/line?line_action=line_login`.
 
-- **Effect**: Customers who have not yet bound their account are prompted to bind when they click the link. Customers who are already bound go directly to the designated page in a logged-in state.
+- **Effect**: Customers who have not yet linked their account are prompted to link when they click the link. Customers who are already linked go directly to the designated page in a logged-in state.
 
 !!! info "For detailed setup steps, see [LINE Rich Menu Setup](../marketing/setup-line-rich-menu.md){ title="Set Up LINE Rich Menu" }  or view the [LINE official documentation :lucide-external-link:](https://tw.linebiz.com/manual/line-official-account/oa-manager-richmenu/)."
 
@@ -142,7 +142,7 @@ This is the most commonly used guidance method.
 
 ### Auto-Bind Using LIFF <small>Recommended Method</small> { #operate-bind-line-backend-settings-use-liff-bind }
 
-- **Key features**: Once enabled, when consumers click the URL, their LINE account information is applied automatically. If a customer is not a friend or member, clicking the link can **add the friend, register as a website member, and complete binding at the same time**.
+- **Key features**: Once enabled, when customers click the URL, their LINE account information is applied automatically. If a customer is not a friend or member, clicking the link can **add the friend, register as a website member, and complete binding at the same time**.
 
 - **Path**: Admin backend **Third-Party Integration > LINE Login > Turn on Auto-Generate LIFF URL**.
 
@@ -152,7 +152,7 @@ This is the most commonly used guidance method.
 
 ![](../../../../assets/images/ec-第三方整合-line 註冊登入-liff 網址.en.png)
 
-## Customer-Side Binding Process { #operate-bind-line-bind-flow }
+## Customer-Side Linking Process { #operate-bind-line-bind-flow }
 
 1. Click the **binding link** or **LIFF URL** provided by the merchant.
 
@@ -160,11 +160,11 @@ This is the most commonly used guidance method.
 
 3. The system performs a **quick redirect** (a loading screen appears) and redirects to the website homepage or the designated page.
 
-4. Finally, the customer is redirected to the destination page. At this point, the customer is **logged in as a member** and binding is complete.
+4. Finally, the customer is redirected to the destination page. At this point, the customer is **logged in as a member** and linking is complete.
 
 ![](../../../../assets/images/ec-第三方整合-line liff 會員綁定.en.gif)
 
-## Advanced Features and Benefits After Binding { #operate-bind-line-bind-advanced }
+## Advanced Features and Benefits After Linking { #operate-bind-line-bind-advanced }
 
 <div class="grid cards" markdown>
 
@@ -174,7 +174,7 @@ This is the most commonly used guidance method.
 
 - :lucide-ticket-percent:{ .lg }  
   [__Bind-and-Send coupon__](setup-line-binding-coupon-gift.md){ title="Set up LINE binding member gifts coupon" }  
-  Set up the "LINE @ binding gift coupon feature" to encourage customers to bind.
+  Set up the "LINE @ binding gift coupon feature" to encourage customers to link.
 
 - :lucide-scan-barcode:{ .lg }  
   [__Display Member Barcode (OMO Use Case)__](../marketing/setup-line-rich-menu.md#operate-line-rich-menu-settings-omo-store){ title="Set up LINE Rich Menu" }
@@ -182,7 +182,7 @@ This is the most commonly used guidance method.
 
 - :lucide-user-round:{ .lg }  
   [__Audience Integration and Push Messaging__](../marketing/setup-line-oa-audience.md){ title="Set up LINE OA audience integration" }  
-  Merchants can filter members who have completed LINE binding in the admin backend, upload the audience to the LINE OA backend, and send targeted marketing messages.
+  Merchants can filter members who have completed LINE linking in the admin backend, upload the audience to the LINE OA backend, and send targeted marketing messages.
 
 </div>
 
@@ -190,9 +190,9 @@ This is the most commonly used guidance method.
 
 - **Non-friend restriction**: Customers who sign in with LINE Quick Login **may not necessarily be bound to LINE OA**. Only accounts that have added the LINE OA as a friend and have not blocked it can receive LINE push messages.
 
-- **One-account-per-binding rule**: A customer's LINE account must first **bind an email address** in the LINE app before LINE Quick Login and binding can be completed.
+- **One-account-per-binding rule**: A customer's LINE account must first **bind an email address** in the LINE app before LINE Quick Login and linking can be completed.
 
-- **Link accuracy**: If the URL includes the `/customer/auth/line?line_action` parameter, the binding screen appears every time the link is clicked. If you do not want repeated redirects, you only need to configure the "first-time binding" feature.
+- **Link accuracy**: If the URL includes the `/customer/auth/line?line_action` parameter, the linking screen appears every time the link is clicked. If you do not want repeated redirects, you only need to configure the "first-time binding" feature.
 
 ## FAQ { #faq-bind-line }
 
@@ -210,16 +210,16 @@ This is the most commonly used guidance method.
 	2. **Callback URL setting**: Check that the `Callback URL` in the LINE Developers console has been filled in with the full path provided by CYBERBIZ.
 	3. **SSL certificate**: Make sure the HTTPS protocol on the website is working properly.
 
-??? quote "Can One LINE Account Be Bound to Multiple Website Member Accounts?"
-	No. To ensure data uniqueness and security, **one LINE account can only be bound to one website member account**. If a customer tries to bind a second account, the system shows that binding is already complete or redirects to the original bound account.
+??? quote "Can One LINE Account Be Linked to Multiple Website Member Accounts?"
+	No. To ensure data uniqueness and security, **one LINE account can only be bound to one website member account**. If a customer tries to link a second account, the system shows that linking is already complete or redirects to the original linked account.
 
-??? quote "How to Check Whether a Member Has Completed LINE Binding "
+??? quote "How to Check Whether a Member Has Completed LINE Linking "
 
-	**Admin view**: Merchants can go to the "Member Management" section of the CYBERBIZ admin backend and check the member data fields. If the member has **LINE UID** information, the binding was completed successfully.
+	**Admin view**: Merchants can go to the "Member Management" section of the CYBERBIZ admin backend and check the member data fields. If the member has **LINE UID** information, the linking was completed successfully.
 
 	**Member view**: After a member logs in to the website, the "Personal Information" page should show that LINE is connected.
 
-??? quote "Why Is a LIFF URL Recommended over a Regular URL Link for Binding?"
+??? quote "Why Is a LIFF URL Recommended over a Regular URL Link for Linking?"
 
 	**Technical advantages**:
 

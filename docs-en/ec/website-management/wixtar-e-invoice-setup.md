@@ -1,6 +1,6 @@
 ---
-title: "Wixtar E-Invoice Setup"
-description: "Learn how to buy Wixtar e-invoices, connect and turn on the service, share it across multiple stores, and set up reconciliation invoices in the CYBERBIZ admin panel."
+title: "WiXtar E-Invoice Setup"
+description: "Learn how to buy WiXtar e-invoices, integrate and enable the service, share it across multiple stores, and set up reconciliation invoices in the CYBERBIZ admin."
 created: 2025-11-19 15:07
 last_modified: 2026-07-03 11:44
 lang: en-US
@@ -73,24 +73,24 @@ search:
 icon: lucide/receipt
 hide:
 ---
-# Wixtar E-Invoice Setup
+# WiXtar E-Invoice Setup
 
-Learn how to buy Wixtar e-invoices, connect and turn on the service, share it across multiple stores, and set up reconciliation invoices in the CYBERBIZ admin panel.
+Learn how to buy WiXtar e-invoices, integrate and enable the service, share it across multiple stores, and set up reconciliation invoices in the CYBERBIZ admin.
 { .subtitle }
 
 [:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | Advanced / Expert / all PLUS plans / Enterprise
 { .doc-badge }
 
-## About Wixtar E-Invoices { #intro-wixtar-invoice }
+## About WiXtar E-Invoices { #intro-wixtar-invoice }
 
-This guide shows you how to set up Wixtar e-invoices in the CYBERBIZ admin panel, including buying a plan, connecting and turning on the service, sharing it across multiple stores, setting up reconciliation invoices, and renewing your account.
+This guide shows you how to set up WiXtar e-invoices in the CYBERBIZ admin, including buying a plan, integrating and enabling the service, sharing it across multiple stores, setting up reconciliation invoices, and renewing your account.
 
-!!! info "Meili Technology Has Merged with Wixtar"
-	Meili Technology has merged with Wixtar, so this guide refers to the related services as Wixtar. For Wixtar settings, follow the [announcements on the Wixtar website :lucide-external-link:](https://www.wixtar.com/product/e-invoice), or call 02-2711-9528 ext. 240. To import invoice tracks into the Wixtar admin panel, see the [invoice track import guide](https://www.cyberbiz.io/helpcenter/wp-content/uploads/美麗科技-增加字軌數量_匯入教學使用手冊-20230511.pdf).
+!!! info "Meili Technology Has Merged with WiXtar"
+	Meili Technology has merged with WiXtar, so this guide refers to the related services as WiXtar. For WiXtar settings, follow the [announcements on the WiXtar website :lucide-external-link:](https://www.wixtar.com/product/e-invoice), or call 02-2711-9528 ext. 240. To import invoice tracks into the WiXtar admin panel, see also the [invoice track import guide](https://www.cyberbiz.io/helpcenter/wp-content/uploads/美麗科技-增加字軌數量_匯入教學使用手冊-20230511.pdf).
 
 ## Requirements and Limits { #prerequisites-wixtar-invoice }
 
-After you buy a plan, the system creates a Wixtar account automatically based on your tax ID number. **The account is bound to that tax ID number, and all invoices are issued under it.** The account supports the following invoicing cases:
+After you buy a plan, the system creates a WiXtar account automatically based on your tax ID number. **The account is bound to that tax ID number, and all invoices are issued under it.** The account supports the following invoicing cases:
 
 - [x] Invoices for multiple EC websites
 - [x] Invoices for offline POS systems
@@ -100,18 +100,18 @@ After you buy a plan, the system creates a Wixtar account automatically based on
 ??? note "Invoicing Cases in Detail"
 	|Case|Where to issue|Notes|
 	|---|---|---|
-	|**Multiple EC websites**|CYBERBIZ EC admin panel|See the section on sharing an account across stores to learn how to connect an existing Wixtar account.|
-	|**Offline POS system**|CYBERBIZ EC admin panel|The account supports issuing invoices from 2 POS devices. For more POS devices, see the [POS guide](../../pos/third-party/wixtar-e-invoice.md){ title="Set Up Wixtar E-Invoices for POS" } for sub-device pricing and how to apply.|
-	|**Billing invoices for Enterprise EC websites**|CYBERBIZ EC admin panel|Enterprise merchants whose consumer invoices are issued by CYBERBIZ can issue the billing invoices needed for reconciliation. See the section on connecting and turning on reconciliation invoices.|
-	|**Other channels (third-party platforms)**|Wixtar admin panel|Merchants can work in the Wixtar admin panel. CYBERBIZ does not provide a guide for that process.|
+	|**Multiple EC websites**|CYBERBIZ EC admin|See the section on sharing an account across stores to learn how to integrate an existing WiXtar account.|
+	|**Offline POS system**|CYBERBIZ EC admin|The account supports issuing invoices from 2 POS devices. For more POS devices, see the [POS guide](../../pos/third-party/wixtar-e-invoice.md){ title="Set Up Wixtar E-Invoices for POS" } for sub-device pricing and how to apply.|
+	|**Billing invoices for Enterprise EC websites**|CYBERBIZ EC admin|Enterprise merchants whose consumer invoices are issued by CYBERBIZ can issue the billing invoices needed for reconciliation. See the section on integrating and enabling reconciliation invoices.|
+	|**Other channels (third-party platforms)**|WiXtar admin|Merchants can work in the WiXtar admin panel. CYBERBIZ does not provide a guide for that process.|
 
 !!! warning "All of the cases above use the same tax ID number. To issue invoices under a different tax ID number, buy a separate plan for each."
 
 ## Steps { #operate-wixtar-invoice }
 
-### Buy a Wixtar Plan { #operate-wixtar-invoice-buy }
+### Buy a WiXtar Plan { #operate-wixtar-invoice-buy }
 
-1. In the CYBERBIZ e-commerce admin panel, go to **Website Management > Invoices**.
+1. In the CYBERBIZ e-commerce admin, go to **Website Management > Invoices**.
 2. Enter your tax ID number to verify the account.
 
 	![Enter the tax ID number](../../assets/images/ec-e-invoices-wixtar.zh-tw.en.png){ title="Enter the Tax ID Number" }
@@ -120,7 +120,7 @@ After you buy a plan, the system creates a Wixtar account automatically based on
 
 	![Choose a plan and buy](../../assets/images/ec-e-invoice-wixtar-02-buy-plan.en.png){ title="Choose a Plan and Buy" .screenshot }
 
-4. After you pay, CYBERBIZ sends your contact information to a Wixtar specialist, who helps activate your account.
+4. After you pay, CYBERBIZ sends your contact information to a WiXtar specialist, who helps activate your account.
 
     <div class="grid cards" markdown>
 
@@ -129,15 +129,15 @@ After you buy a plan, the system creates a Wixtar account automatically based on
 
     </div>
 
-    !!! tip "The system sends a notification email with the contact information, and the related information appears in the admin panel."
+    !!! tip "The system sends a notification email with the contact information, and the related information appears in the admin."
 
-5. After your account is activated, fill in the connection information to turn on the service.
+5. After your account is activated, fill in the integration information to enable the service.
 
 ---
 
-### Connect and Turn on the Service { #operate-wixtar-invoice-bind }
+### Integrate and Enable the Service { #operate-wixtar-invoice-bind }
 
-1. Log in to the Wixtar admin panel and go to **營業人資訊 > 選擇 POS 機 > 下載**.
+1. Log in to the WiXtar admin panel and go to **營業人資訊 > 選擇 POS 機 > 下載**.
 
     ![Download POS device information](../../assets/images/ec-e-invoice-wixtar-07-download-pos-info.en.png){ title="Download POS Device Information" .screenshot }
 
@@ -152,17 +152,17 @@ After you buy a plan, the system creates a Wixtar account automatically based on
 
     ![Copy the connection information](../../assets/images/ec-e-invoice-wixtar-08-copy-credentials.en.png){ title="Copy the Connection Information" .screenshot }
 
-3. Paste it into the matching fields in the CYBERBIZ admin panel: **Website Management > Invoices > 星益欣電子發票設定**.
+3. Paste it into the matching fields in the CYBERBIZ admin: **Website Management > Invoices > 星益欣電子發票設定**.
 
     ![Paste the connection information](../../assets/images/ec-e-invoice-wixtar-06-paste-credentials.en.png){ title="Paste the Connection Information" .screenshot }
 
-4. In the **Checkout page invoice settings** section, turn on **Show invoice on checkout page** :lucide-toggle-right:. For **Invoice issuing vendor**, select **WiXtar E-Invoice**.
+4. In the **Checkout page invoice settings** section, enable **Show invoice on checkout page** :lucide-toggle-right:. For **Invoice issuing vendor**, select **WiXtar E-Invoice**.
 
     ![Turn on checkout page invoices](../../assets/images/ec-e-invoice-wixtar-09-enable-invoice.en.png){ title="Turn On Checkout Page Invoices" .screenshot }
 
-5. In the **Invoice issuance time** section, select one or more invoice issuance times. For the trigger conditions and limits of each option, see [Invoice issuance times](#specs-invoice-issuance-timing).
+5. In the **Invoice issuance time** section, select one or more invoice issuance times. For the trigger conditions and limits of each option, see also [Invoice issuance times](#specs-invoice-issuance-timing).
 
-6. In the Wixtar admin panel, upload an image of your company invoice stamp. The stamp is then added to issued invoices automatically.
+6. In the WiXtar admin panel, upload an image of your company invoice stamp. The stamp is then added to issued invoices automatically.
 
     ![Set up the company invoice stamp](../../assets/images/ec-e-invoice-wixtar-11-invoice-stamp.en.png){ title="Set Up the Company Invoice Stamp" .screenshot }
 
@@ -198,12 +198,12 @@ Choose **When paying**, **When shipping**, or **When picking up the goods** as t
 
 ### Share an Account Across Multiple EC Stores { #operate-wixtar-invoice-multi }
 
-!!! warning "When stores share one Wixtar account, invoices for all of them are issued **under that account's tax ID number**."
+!!! warning "When stores share one WiXtar account, invoices for all of them are issued **under that account's tax ID number**."
 
-If you have several EC stores and want to issue invoices with one Wixtar account, first buy a plan and finish connecting and turning on the service in one of the stores.
+If you have several EC stores and want to issue invoices with one WiXtar account, first buy a plan and finish integrating and enabling the service in one of the stores.
 
-1. In that store, finish [buying a plan](#operate-wixtar-invoice-buy) and [connecting and turning on the service](#operate-wixtar-invoice-bind).
-2. Go to each other EC store, enter the same tax ID number and connection information as the main store, and turn on the checkout page invoice settings.
+1. In that store, finish [buying a plan](#operate-wixtar-invoice-buy) and [integrating and enabling the service](#operate-wixtar-invoice-bind).
+2. Go to each other EC store, enter the same tax ID number and integration information as the main store, and enable the checkout page invoice settings.
 
     ![Shared multi-store settings](../../assets/images/ec-e-invoice-wixtar-12-multi-site-creds.en.png){ title="Shared Multi-Store Settings" .screenshot }
 
@@ -216,17 +216,17 @@ If you have several EC stores and want to issue invoices with one Wixtar account
 If each store needs to issue invoices under a different tax ID number, do the following:
 
 1. Enter a different tax ID number in each store, *buy a separate plan*, and complete a *separate connection* for each.
-2. The system automatically creates a Wixtar account for each tax ID number.
+2. The system automatically creates a WiXtar account for each tax ID number.
 
 !!! example "Examples"
-    - Several EC stores each issue invoices under a different tax ID number → Each store buys its own plan and completes its own connection.
-    - You run both EC and POS → Set a different tax ID number for each channel, buy separate plans, and complete each connection.
+    - Several EC stores each issue invoices under a different tax ID number → Each store buys its own plan and completes its own integration.
+    - You run both EC and POS → Set a different tax ID number for each channel, buy separate plans, and complete each integration.
 
 ---
 
 ### Renew the Plan { #operate-wixtar-invoice-renew }
 
-1. In the CYBERBIZ e-commerce admin panel, go to **Website Management > Invoices**.
+1. In the CYBERBIZ e-commerce admin, go to **Website Management > Invoices**.
 2. Click **Renew** and fill in the checkout information to extend the service period.
 
     ![Renew the plan](../../assets/images/ec-e-invoice-wixtar-15-renewal.en.png){ title="Renew the Plan" .screenshot }
@@ -235,8 +235,8 @@ If each store needs to issue invoices under a different tax ID number, do the fo
 
 ## FAQ { #faq-wixtar-invoice }
 
-??? quote "Can one Wixtar account issue invoices under different tax ID numbers?"
-    No. Each account is bound to one tax ID number. Buy a separate plan for each.
+??? quote "Can one WiXtar account issue invoices under different tax ID numbers?"
+    No. Each account is linked to one tax ID number. Buy a separate plan for each.
 
 ## Next Steps { #next-steps-wixtar-invoice }
 
@@ -244,18 +244,18 @@ If each store needs to issue invoices under a different tax ID number, do the fo
 
 -   :lucide-file-check:{ .lg .middle }
     [__One-Click Invoice Issuance__](one-click-invoice-issuance.md)
-    Enterprise merchants who connect a Wixtar account can issue invoices with one click in the Reconciliation Center.
+    Enterprise merchants who integrate a WiXtar account can issue invoices with one click in the Reconciliation Center.
 
 -   :lucide-store:{ .lg .middle }
     [__POS Guide__](../../pos/third-party/wixtar-e-invoice.md)
-    Learn about sub-device pricing and how to apply for Wixtar e-invoices on POS.
+    Learn about sub-device pricing and how to apply for WiXtar e-invoices on POS.
 
 -   :lucide-file-input:{ .lg .middle }
     [__Invoice Track Import Guide__](https://www.cyberbiz.io/helpcenter/wp-content/uploads/美麗科技-增加字軌數量_匯入教學使用手冊-20230511.pdf)
-    A guide to importing invoice tracks into the Wixtar admin panel.
+    A guide to importing invoice tracks into the WiXtar admin panel.
 
 </div>
 
-## References { #reference-wixtar-invoice }
+## See Also { #reference-wixtar-invoice }
 
-- [Wixtar website](https://www.wixtar.com/product/e-invoice)
+- [WiXtar website](https://www.wixtar.com/product/e-invoice)

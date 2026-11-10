@@ -90,7 +90,7 @@ Here's how to set up and use LINE OA message reminder templates:
 
 Complete the following setup before you use templates:
 
-- [x] [**Connect the Messaging API**](../integrations/line/account-integration/connect-line-messaging-api.md){ title="串接 LINE Messaging API" }  : Connect your LINE Official Account to the admin through the API.
+- [x] [**Connect the Messaging API**](../integrations/line/account-integration/connect-line-messaging-api.md){ title="串接 LINE Messaging API" }  : Integrate your LINE Official Account to the admin through the API.
 
 - [x] **Collect LINE UIDs**: Turn on **LINE Login** or guide members through [**linking their LINE Official Account to their website membership**](../integrations/line/account-integration/bind-line-oa-store-members.md){ title="綁定 LINE 官方帳號與官網會員" }  , so the system can collect their LINE UIDs and send them messages.
 
@@ -102,11 +102,11 @@ Complete the following setup before you use templates:
 
 1. **Open the page**: Log in to the admin and go to **Push Notifications > LINE OA Message Templates**.
 
-2. **Choose a template**: In the list, click the title of the reminder template you want to turn on to open its editor.
+2. **Choose a template**: In the list, click the title of the reminder template you want to enable to open its editor.
 
 3. **Set the content**:
 
-	- **Status**: Switch the toggle to **ON** to turn on the template.
+	- **Status**: Switch the toggle to **ON** to enable the template.
 
 	- **Notification type**: Choose a **Flex Message template** (rich format) or **Text**.
 
@@ -122,11 +122,11 @@ Complete the following setup before you use templates:
 
 The system supports many automated notification scenarios, including:
 
-- **Shipment reminder**: Sent when the order's delivery status changes to "**Shipped (in transit)**" (only for orders that use integrated shipping and a downloaded shipping label).
+- **Shipment reminder**: Sent when the order's delivery status changes to "**Shipped (in transit)**" (only for orders that use integrated logistics and a downloaded shipping label).
 
-- **Arrival-at-store reminder**: Sent when the package arrives at a convenience store (such as FamilyMart, Hi-Life, or T-Cat store pickup).
+- **Arrival-at-store reminder**: Sent when the package arrives at a convenience store (such as FamilyMart, Hi-Life, or T-CAT Rapid-to-Store).
 
-- **7-Eleven arrival reminder**: Sent when the package arrives at a 7-Eleven store.
+- **7-11 arrival reminder**: Sent when the package arrives at a 7-11 store.
 
 - **Subscription order notifications**: A confirmation when the first "parent order" is placed, and a shipping reminder each time a "child order" is created after that.
 
@@ -140,8 +140,8 @@ The system supports many automated notification scenarios, including:
 |**Message type**|**When it's sent**|**Taiwan site**|**Japan site**|
 |---|---|---|---|
 |**Shipment reminder**|Order status changes to "Shipped".<br>_(only for orders with system shipping labels)_|:lucide-check:|:lucide-check:|
-|**Standard arrival reminder**|Package arrives at a FamilyMart, Hi-Life, or T-Cat pickup store.|:lucide-check:|:lucide-x:|
-|**7-Eleven arrival reminder**|Package arrives at a 7-Eleven store.|:lucide-check:|:lucide-x:|
+|**Standard arrival reminder**|Package arrives at a FamilyMart, Hi-Life, or T-CAT Rapid-to-Store store.|:lucide-check:|:lucide-x:|
+|**7-Eleven arrival reminder**|Package arrives at a 7-11 store.|:lucide-check:|:lucide-x:|
 |**Store arrival reminder**|Sent when the package arrives at your own physical store.|:lucide-check:|:lucide-x:|
 |**Subscription order confirmation**|Sent when a member places the first "parent order".|:lucide-check:|:lucide-x:|
 |**Subscription order shipment**|Sent each time a "child order" is created.|:lucide-check:|:lucide-x:|
@@ -154,9 +154,9 @@ The system supports many automated notification scenarios, including:
 
 - **Billing**: LINE push messages are paid (charged by LINE), including manual pushes and automatic order notifications. Only messages that are **sent successfully** are charged.
 
-- **Tracking limits**: If you don't ship with system-generated shipping labels (for example, with custom shipping), the system can't track the shipment and won't send shipping-related LINE notifications.
+- **Tracking limits**: If you don't ship with system-generated shipping labels (for example, with custom logistics), the system can't track the shipment and won't send logistics-related LINE notifications.
 
-- **Timing**: Shipping notifications aren't sent when you download the shipping label. The LINE message goes out only after the carrier **reports the "In transit" status**.
+- **Timing**: Logistics notifications aren't sent when you download the shipping label. The LINE message goes out only after the carrier **reports the "In transit" status**.
 
 <!--
 ## Next Steps
@@ -182,19 +182,19 @@ The system supports many automated notification scenarios, including:
 	1. **Linking**: Has the customer [linked their LINE Official Account to their website membership](../integrations/line/account-integration/bind-line-oa-store-members.md){ title="綁定 LINE 官方帳號與官網會員" }? The system needs their LINE UID to send messages.
 	2. **Friend status**: Has the customer blocked your official account?
 	3. **Message quota**: Has your LINE Official Account (Manager) reached its message quota?
-	4. **Sending conditions**: Does the order meet the sending conditions (for example, did it use integrated shipping and generate a shipping label)?
+	4. **Sending conditions**: Does the order meet the sending conditions (for example, did it use integrated logistics and generate a shipping label)?
 
 ??? quote "Can I customize the variables in a message (such as {{order_number}})?"
 	**No.** Variables inside `{{ }}` are fixed system variables that fill in order information automatically. You can change the text around them, but don't change the spelling or format inside the braces, or the variable will stop working and the message will show the raw code or fail to send.
 
 ??? quote "Is the "Shipping notification" sent as soon as I click Ship?"
-	**No.** To keep the information accurate, the system doesn't send it when you click "Ship" or "Print shipping label". It waits until the carrier (such as 7-Eleven, FamilyMart, or T-Cat) reports the **"In transit"** status.
+	**No.** To keep the information accurate, the system doesn't send it when you click "Ship" or "Print shipping label". It waits until the carrier (such as 7-11, FamilyMart, or T-CAT) reports the **"In transit"** status.
 
 ??? quote "If I manually change an order's status to "Shipped", is a notification sent?"
 	It depends on how you ship:
 
-	- **Integrated shipping**: Notifications are triggered by the carrier's actual tracking status, so changing the status manually usually doesn't send shipping notifications.
-	- **Custom shipping**: The system can't track third-party shipments, so automatic shipping notifications aren't supported for these orders.
+	- **Integrated logistics**: Notifications are triggered by the carrier's actual delivery status, so changing the status manually usually doesn't send logistics notifications.
+	- **Custom logistics**: The system can't track third-party shipments, so automatic logistics notifications aren't supported for these orders.
 
 ??? quote "Do LINE notifications use up my message quota?"
 	**Yes.** All notifications sent through the Messaging API (including automated template messages) count toward your LINE Official Account's monthly message quota, and fees follow your LINE Official Account plan.

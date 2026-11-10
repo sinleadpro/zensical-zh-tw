@@ -84,8 +84,8 @@ The page has three tabs: **Order Overview Analysis** (overall sales trends and h
 
 | Tab | What You Can See |
 | :-- | :-- |
-| Order Overview Analysis | Store-wide order volume, average order value, distribution of order amount and item count per order, and health metrics such as cancellation rate and return rate. |
-| Order Payment and Shipping Analysis | Order count trends, shares, average order value, and return rate broken down by payment method, shipping method, and third-party referral. |
+| Order Overview Analysis | Store-wide order volume, AOV, distribution of order amount and item count per order, and health metrics such as cancellation rate and return rate. |
+| Order Payment and Shipping Analysis | Order count trends, shares, AOV, and return rate broken down by payment method, shipping method, and third-party referral. |
 | Order Reports | Three tables you can download as Excel: date range comparison, sales by time slot, and daily sales. |
 
 
@@ -128,8 +128,8 @@ For detailed definitions of each metric, see the [Order Overview Analysis Metric
     | Orders (Monthly Trend) | Orders per shipping method per month. | [Go](#overview-order-analysis-shipping) |
     | Share (Monthly Trend) | Recognized order share of each shipping method per month. | [Go](#overview-order-analysis-shipping) |
     | Share (Period) | Recognized order share of each shipping method within the period. | [Go](#overview-order-analysis-shipping) |
-    | Average Order Value (Monthly Trend) | Average order value of each shipping method per month. | [Go](#overview-order-analysis-shipping) |
-    | Average Order Value (Period) | Average order value of each shipping method within the period. | [Go](#overview-order-analysis-shipping) |
+    | Average Order Value (Monthly Trend) | AOV of each shipping method per month. | [Go](#overview-order-analysis-shipping) |
+    | Average Order Value (Period) | AOV of each shipping method within the period. | [Go](#overview-order-analysis-shipping) |
     | Return Rate (Monthly Trend) | Return rate of each shipping method per month. | [Go](#overview-order-analysis-shipping) |
     | Return Rate (Period) | Return rate of each shipping method within the period. | [Go](#overview-order-analysis-shipping) |
 
@@ -138,15 +138,15 @@ For detailed definitions of each metric, see the [Order Overview Analysis Metric
     | :-- | :-- | :-- |
     | Orders (Monthly Trend) | Orders per source per month. | [Go](#overview-order-analysis-third-party) |
     | Share (Period) | Recognized order share of each source within the period. | [Go](#overview-order-analysis-third-party) |
-    | Average Order Value (Monthly Trend) | Average order value of each source per month. | [Go](#overview-order-analysis-third-party) |
-    | Average Order Value (Period) | Average order value of each source within the period. | [Go](#overview-order-analysis-third-party) |
+    | Average Order Value (Monthly Trend) | AOV of each source per month. | [Go](#overview-order-analysis-third-party) |
+    | Average Order Value (Period) | AOV of each source within the period. | [Go](#overview-order-analysis-third-party) |
     | Return Rate (Monthly Trend) | Return rate of each source per month. | [Go](#overview-order-analysis-third-party) |
     | Return Rate (Period) | Return rate of each source within the period. | [Go](#overview-order-analysis-third-party) |
 
 For detailed definitions of each chart, see the [Order Payment and Shipping Analysis Chart Reference](references/order-analysis-finance-logistics-reference.md#reference-order-analysis-finance-logistics){ title="Order Payment and Shipping Analysis Chart Reference" data-preview }.
 
 !!! note "Different Bases"
-    Payment method shares use **total orders** as the base. Shipping method and third-party referral shares and average order value use [recognized orders](#prerequisites-order-analysis-recognized-order){ title="Recognized Order Definition" } as the base. For return rate in every dimension, the denominator is always "non-canceled orders."
+    Payment method shares use **total orders** as the base. Shipping method and third-party referral shares and AOV use [recognized orders](#prerequisites-order-analysis-recognized-order){ title="Recognized Order Definition" } as the base. For return rate in every dimension, the denominator is always "non-canceled orders."
 
 <!---->
 <!-- ### Order Overview Analysis Charts -->
@@ -217,10 +217,10 @@ The "Order Payment and Shipping Analysis" and "Order Reports" tabs are available
 
 ### Display Conditions for Third-Party Referral Charts { #prerequisites-order-analysis-third-party }
 
-The **Third-Party Referral** charts in "Order Payment and Shipping Analysis" appear only if your store is connected to a referral platform. They appear if any of the following conditions is met:
+The **Third-Party Referral** charts in "Order Payment and Shipping Analysis" appear only if your store is integrated with a referral platform. They appear if any of the following conditions is met:
 
 * "Market America Partner Store" is set up
-* "LINE Shopping" is connected
+* "LINE Shopping" is integrated
 
 If none of these are enabled, the whole set of third-party referral charts isn't shown.
 
@@ -406,7 +406,7 @@ All three tables on the "Order Reports" tab can be downloaded as Excel for furth
 
 [:lucide-tag:{ title="Available Plans" }](../../../resources/conventions#適用方案) | Enterprise
 
-"Order Payment and Shipping Analysis" breaks down orders by three dimensions, **payment method, shipping method, and third-party referral**, and looks at them in terms of order count, share, average order value, and return rate. For the full formulas of each chart, see the [Order Payment and Shipping Analysis Chart Reference](references/order-analysis-finance-logistics-reference.md#reference-order-analysis-finance-logistics){ title="Order Payment and Shipping Analysis Chart Reference" }.
+"Order Payment and Shipping Analysis" breaks down orders by three dimensions, **payment method, shipping method, and third-party referral**, and looks at them in terms of order count, share, AOV, and return rate. For the full formulas of each chart, see the [Order Payment and Shipping Analysis Chart Reference](references/order-analysis-finance-logistics-reference.md#reference-order-analysis-finance-logistics){ title="Order Payment and Shipping Analysis Chart Reference" }.
 
 ### Payment Method { #overview-order-analysis-payment }
 
@@ -466,7 +466,7 @@ All three tables on the "Order Reports" tab can be downloaded as Excel for furth
 
 === "Orders (Monthly Trend)"
 
-    Orders per shipping method per month. For example, in May 2020, Black Cat had 751 orders.
+    Orders per shipping method per month. For example, in May 2020, T-CAT had 751 orders.
 
     Hover over a data point to see the order count for that month. Click an item name to hide or show its data.
 
@@ -474,7 +474,7 @@ All three tables on the "Order Reports" tab can be downloaded as Excel for furth
 
 === "Share (Monthly Trend)"
 
-    The ratio of each shipping method's recognized orders to all recognized orders in the month. For example, in May 2020, Black Cat accounted for 62.6%.
+    The ratio of each shipping method's recognized orders to all recognized orders in the month. For example, in May 2020, T-CAT accounted for 62.6%.
 
     Hover over a data point to see the share for that month. Click an item name to hide or show its data.
 
@@ -482,7 +482,7 @@ All three tables on the "Order Reports" tab can be downloaded as Excel for furth
 
 === "Share (Period)"
 
-    Recognized order ratio of each shipping method in the time range. For example, Black Cat had 4845 orders, 62%.
+    Recognized order ratio of each shipping method in the time range. For example, T-CAT had 4845 orders, 62%.
 
     Hover over a slice to see the share of that shipping method. Click an item name to hide or show its data.
 
@@ -490,7 +490,7 @@ All three tables on the "Order Reports" tab can be downloaded as Excel for furth
 
 === "Average Order Value (Monthly Trend)"
 
-    Average order value of each shipping method per month (based on the shipping method's recognized orders). For example, Black Cat: NT$3575.96.
+    Average order value of each shipping method per month (based on the shipping method's recognized orders). For example, T-CAT: NT$3575.96.
 
     Hover over a data point to see the average order value for that month. Click an item name to hide or show its data.
 
@@ -498,7 +498,7 @@ All three tables on the "Order Reports" tab can be downloaded as Excel for furth
 
 === "Average Order Value (Period)"
 
-    Average order value of each shipping method in the time range. For example, Black Cat: NT$3799.98.
+    Average order value of each shipping method in the time range. For example, T-CAT: NT$3799.98.
 
     Hover over a bar to see the average order value of that shipping method.
 
@@ -525,7 +525,7 @@ All three tables on the "Order Reports" tab can be downloaded as Excel for furth
 ### Third-Party Referral { #overview-order-analysis-third-party }
 
 !!! plan "Display Conditions"
-    These charts appear only if a referral platform is connected, and they show each source based on the platforms actually connected. See [Display Conditions for Third-Party Referral Charts](#prerequisites-order-analysis-third-party){ title="Display Conditions for Third-Party Referral Charts" data-preview }.
+    These charts appear only if a referral platform is integrated, and they show each source based on the platforms actually integrated. Details in [Display Conditions for Third-Party Referral Charts](#prerequisites-order-analysis-third-party){ title="Display Conditions for Third-Party Referral Charts" data-preview }.
 
 === "Orders (Monthly Trend)"
 
@@ -605,7 +605,7 @@ All three tables on the "Order Reports" tab can be downloaded as Excel for furth
 
 ??? quote "Why can't I see the "Third-Party Referral" charts?"
     [](){ #faq-order-analysis-no-third-party }
-    Third-party referral charts appear only if your store is connected to a referral platform. Check whether "Market America Partner Store" or "LINE Shopping" is set up. See [Display Conditions for Third-Party Referral Charts](#prerequisites-order-analysis-third-party){ title="Display Conditions for Third-Party Referral Charts" }.
+    Third-party referral charts appear only if your store is integrated with a referral platform. Check whether "Market America Partner Store" or "LINE Shopping" is set up. Details in [Display Conditions for Third-Party Referral Charts](#prerequisites-order-analysis-third-party){ title="Display Conditions for Third-Party Referral Charts" }.
 
 ??? quote "Can I export Order Analysis data?"
     [](){ #faq-order-analysis-export }
@@ -613,7 +613,7 @@ All three tables on the "Order Reports" tab can be downloaded as Excel for furth
 
 ---
 
-## References { #reference-order-analysis }
+## See Also { #reference-order-analysis }
 
 * [Order Overview Analysis Metrics Reference](references/order-analysis-overview-metrics-reference.md)
 * [Order Payment and Shipping Analysis Chart Reference](references/order-analysis-finance-logistics-reference.md)

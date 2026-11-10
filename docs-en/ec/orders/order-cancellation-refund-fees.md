@@ -66,7 +66,7 @@ The tables below apply to order cancellations and return refunds (full refunds /
 
 ### Standard Plan Without CYBERBIZ PAYMENTS { #operate-cancel-fees-no-payments }
 
-> **Applicable payment providers**: LINE Pay / PayPal / JKOPAY / iPASS / **ECPay** / **NewebPay**
+> **Applicable payment providers**: LINE Pay / PayPal / JKOPay / iPASS / **ECPay** / **NewebPay**
 
 | Refund Scenario | Refund Method | System Maintenance Fee | Payment Processing Fee | Manual Refund Fee |
 | ------- | -------- | -------- | ---------- | ------------- |
@@ -91,7 +91,7 @@ The tables below apply to order cancellations and return refunds (full refunds /
 
 === "Other Payment Providers"
 
-    > **Applicable payment providers**: LINE Pay / PayPal / JKOPAY / iPASS
+    > **Applicable payment providers**: LINE Pay / PayPal / JKOPay / iPASS
 
     | Refund Scenario | Refund Method | System Maintenance Fee | Payment Processing Fee | Manual Refund Fee |
     | ------- | -------- | -------- | ---------- | ------------ |
@@ -121,7 +121,7 @@ The tables below apply to order cancellations and return refunds (full refunds /
 
 === "Other Payment Providers"
 
-    > **Applicable payment providers**: LINE Pay / PayPal / JKOPAY / iPASS
+    > **Applicable payment providers**: LINE Pay / PayPal / JKOPay / iPASS
 
     | Refund Scenario | Refund Method | System Maintenance Fee | Payment Processing Fee | Manual Refund Fee |
     | ------- | -------- | -------- | ---------- | ------------- |
@@ -164,7 +164,7 @@ The tables below apply to order cancellations and return refunds (full refunds /
     |  | **Merchant bank transfer** | Refunded in proportion to the refund amount | Not refunded / Handled by the third-party payment provider :lucide-info: | **Not charged** |
 
     !!! info "How Payment Processing Fees Are Handled"
-        Refunds of payment processing fees depend on how your site is connected to payment providers:
+        Refunds of payment processing fees depend on how your site is integrated with payment providers:
 
         - **CYBERBIZ collects payments**: CYBERBIZ payment processing fees aren't refunded.
         - **Third-party provider pays out directly**: Payment processing fees follow that provider's refund policy.

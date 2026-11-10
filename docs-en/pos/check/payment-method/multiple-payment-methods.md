@@ -79,7 +79,7 @@ When a transaction requires multiple payment methods, such as cash plus a gift v
 	- **Voucher redemption**: The customer holds store gift vouchers, 5x vouchers, or Dongzi vouchers. The voucher face value is deducted first, and then the customer pays the difference.
 	- **Bonus control**: For specific payment methods, such as gift vouchers, set them so they do not earn bonus points.
 
-## Usage Notes { #prerequisites-multi-payment }
+## Before You Start { #prerequisites-multi-payment }
 
 - **Manual recording only**: Multiple payment methods only provide **payment records**, and they **cannot connect automatically** to physical card readers or mobile payment devices. For card payments, staff must enter the amount manually on the card reader.
 - **Bonus calculation logic**: The system automatically calculates the final bonus points the order can earn, based on the **Accumulate Bonus** setting of each payment item.
@@ -142,7 +142,7 @@ Select whether to issue an invoice for the amount paid with each payment method:
 
 1. On the POS front-end checkout page, click **Other Payment Methods**.
 2. Select **Multiple Payment Methods**.
-3. Click **Add Payment Item**, then select a configured payment tool from the drop-down list.
+3. Click **Add Payment Item**, then select a configured payment tool from the dropdown list.
 4. Enter the deduction amount for each payment tool.
     - **Tip**: Click the **Fill Balance** button, and the system automatically fills in the remaining amount to be paid.
 5. After confirming the total is correct, click **Confirm**.

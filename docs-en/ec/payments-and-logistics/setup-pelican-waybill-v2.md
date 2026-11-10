@@ -63,16 +63,16 @@ hide: []
 
 ![Pelican waybill page](../../assets/images/EC-金物流-宅配通託運單-hero.en.png){ title="Pelican waybill page" .hero-page }
 
-## Pelican Waybill Setup Guide { #intro-pelican-shipping-note }
+## Pelican Shipping Label Setup Guide { #intro-pelican-shipping-note }
 
-The Pelican Waybill page is located at **the left menu **Payment and Logistics > Pelican Express Shipping Label****. This page handles Pelican operations **outside of the daily shipping workflow**:
+The Pelican Shipping Label page is located at **the left menu **Payment and Logistics > Pelican Shipping Label****. This page handles Pelican operations **outside of the daily shipping workflow**:
 
-* **Pelican Settings**: Sender name, phone number, address, and other details used when printing additional waybills and creating reverse logistics.
-* **Print Additional Waybills**: Generates **new waybill numbers** for the same order, suited to splitting one order into multiple boxes.
-* **Pelican Reverse Logistics**: Creates a return waybill so Pelican can pick up the item from the customer and deliver it to your reverse logistics address.
+* **Pelican Settings**: Sender name, phone number, address, and other details used when printing additional shipping labels and creating reverse logistics.
+* **Print Additional Shipping Labels**: Generates **new waybill numbers** for the same order, suited to splitting one order into multiple boxes.
+* **Pelican Reverse Logistics**: Creates a return shipping label so Pelican can pick up the item from the customer and deliver it to your reverse logistics address.
 * **Transfer Records and Waybill Number Usage Records**: Review the charges, status, and reconciliation information for all waybill numbers.
 
-For the standard shipping workflow (batch downloads, single shipments, partial shipments, and waybill reprints), see [How to Ship with Pelican](../orders/home-delivery/pelican-shipping-v2.md).
+For the standard shipping workflow (batch downloads, single shipments, partial shipments, and shipping label reprints), see [How to Ship with Pelican](../orders/home-delivery/pelican-shipping-v2.md).
 
 !!! info "Tip"
     At the top of the page, billing information is displayed. Standard merchants see "Current CYBER Coin Balance." PLUS and Enterprise merchants see reconciliation statement text instead.
@@ -84,31 +84,31 @@ For the standard shipping workflow (batch downloads, single shipments, partial s
 Before you first use "Print Additional Waybills" or "Pelican Reverse Logistics," set up your sender information. If your company address or contact person changes later, return here to update it.
 
 1. **Go to the page: ** Go to **Payment and Logistics > Pelican Express Shipping Label**, scroll to the top ** "Pelican Settings"** section.
-2. **Enter the default item name:** Enter the text to print in the item name field on the waybill, up to **8 Chinese characters**.
-3. **Enter sender information:** Enter the sender Name, **Phone**, and **Address** in order. For reverse logistics (returns), the name entered here appears as the **recipient** of the returned item.
-4. **Enter the reverse logistics address:** Returned parcels are sent to this address. If left blank, reverse logistics uses the "Sender Address" entered above.
+2. **Enter the default item name:** Enter the text to print in the item name field on the shipping label, up to **8 Chinese characters**.
+3. **Fill in sender information:** Fill in the sender Name, **Phone**, and **Address** in order. For reverse logistics (returns), the name filled in here appears as the **recipient** of the returned item.
+4. **Fill in the reverse logistics address:** Returned parcels are sent to this address. If left blank, reverse logistics uses the "Sender Address" filled in above.
 5. **Save settings:** Click **Confirm**. The system displays "Settings updated successfully."
 
 ![Pelican Settings](../../assets/images/EC-金物流-宅配通託運單-宅配通設定.en.png){ title="Pelican Settings" }
 
 ---
 
-### Print Additional Waybills <small>Multi-Box Shipments for the Same Order</small> { #operate-pelican-shipping-note-add-print }
+### Print Additional Shipping Labels <small>Multi-Box Shipments for the Same Order</small> { #operate-pelican-shipping-note-add-print }
 
-If an order needs to be split into multiple parcels (for example, when the items do not fit in one box), use "Print Additional Waybills" to create **additional waybill numbers for the same order**, and attach one waybill to each box.
+If an order needs to be split into multiple parcels (for example, when the items do not fit in one box), use "Print Additional Waybills" to create **additional waybill numbers for the same order**, and attach one shipping label to each box.
 
 1. **Go to the page: ** Go to **Payment and Logistics > Pelican Express Shipping Label**, scroll to ** "Print Additional Waybills"** section.
 2. **Enter the order number:** In the "Order No." field, enter the order number to print additional waybills for. **No order prefix needed**; the system fills in the prefix automatically.
-3. **Select the item size:** Choose the size that matches this new waybill from the drop-down menu. The CYBER coin amount for each size is shown next to the option.
-4. **Select the number of additional waybills:** From the "Additional Waybill Quantity" drop-down, select how many to print.[^1] Each waybill is **charged separately** and generates a **unique waybill number**.
+3. **Select the item size:** Choose the size that matches this new waybill from the dropdown menu. The CYBER coin amount for each size is shown next to the option.
+4. **Select the number of additional waybills:** From the "Additional Waybill Quantity" dropdown, select how many to print.[^1] Each waybill is **charged separately** and generates a **unique waybill number**.
 5. **Agree to the terms:** Select **"I agree to the CYBERBIZ Logistics Integration Service Terms and the Pelican Contract Terms"**. The **Confirm Download** button is enabled only after you select this option.
 6. **Confirm download:** Click **Confirm Download**. The system displays a confirmation window showing the total CYBER coins to be deducted.
-7. **Submit the additional waybill request:** Click **Confirm** in the confirmation window. The system creates the waybill numbers and automatically downloads the PDF.
+7. **Submit the additional shipping label request:** Click **Confirm** in the confirmation window. The system creates the waybill numbers and automatically downloads the PDF.
 
 !!! info "Tip"
-    * Additional waybills only print **"delivery-only"** waybills. Even if the original order is cash on delivery, the additional waybills do not include a collection amount.
+    * Additional shipping labels only print **"delivery-only"** shipping labels. Even if the original order is cash on delivery, the additional shipping labels do not include a collection amount.
     * To split a cash-on-delivery order into multiple boxes with collection, contact CYBERBIZ customer support for help.
-    * Printing additional waybills **always** creates a new waybill number and incurs a charge. If you only need to reprint the same waybill because the print was damaged, use [Reprint Waybill](../orders/home-delivery/pelican-shipping-v2.md#operate-pelican-reprint){ title="Ship with Pelican" } (performed from the order list, no charge).
+    * Printing additional shipping labels **always** creates a new waybill number and incurs a charge. If you only need to reprint the same shipping label because the print was damaged, use [Reprint Shipping Label](../orders/home-delivery/pelican-shipping-v2.md#operate-pelican-reprint){ title="Ship with Pelican" } (performed from the order list, no charge).
 
 [^1]: For example, select 3 for a 3-box shipment.
 
@@ -116,12 +116,12 @@ If an order needs to be split into multiple parcels (for example, when the items
 
 ### Create Pelican Reverse Logistics <small>Returns</small> { #operate-pelican-shipping-reverse }
 
-When a customer needs to return an item and you want Pelican to pick it up at the customer's home, create a reverse logistics waybill here.
+When a customer needs to return an item and you want Pelican to pick it up at the customer's home, create a reverse logistics shipping label here.
 
 1. **Go to the page: ** Go to **Payment and Logistics > Pelican Express Shipping Label**, scroll to ** "Pelican Reverse Logistics"** section.
 2. **Enter the order number:** In the "Order No." field, enter the order number for the return (no order prefix needed).
-3. **Enter the pickup address:** Use the drop-down menus to select the county/city, district, and postal code, then enter the full address in the address field.[^2]
-4. **Enter the return reason (optional):** Enter a note in the "Return Reason" field. Leave it blank if you do not need one.
+3. **Fill in the pickup address:** Use the dropdown menus to select the county/city, district, and postal code, then fill in the full address in the address field.[^2]
+4. **Fill in the return reason (optional):** Fill in a note in the "Return Reason" field. Leave it blank if you do not need one.
 5. **Agree to the terms:** Select **"I agree to the CYBERBIZ Logistics Integration Service Terms and the Pelican Contract Terms"**.
 6. **Submit the create request:** Click **Confirm Submission**. The system displays a confirmation window showing the CYBER coins to be **pre-deducted** at the lowest rate for "Ambient 60cm."
 7. **Confirm creation:** Click **Confirm** in the window. The information is sent directly to Pelican, and **Pelican prints the waybill** and hands it to the customer.
@@ -130,7 +130,7 @@ When a customer needs to return an item and you want Pelican to pick it up at th
 ![Pelican Reverse Logistics](../../assets/images/EC-金物流-宅配通託運單-宅配通逆物流.en.png){ title="Pelican Reverse Logistics" }
 
 !!! note "Note"
-    * Pelican prints the waybill and hands it to the customer. The merchant back office **does not** receive the PDF directly.
+    * Pelican prints the shipping label and hands it to the customer. The merchant admin **does not** receive the PDF directly.
     * Returned parcels are sent to the "Reverse Logistics Address" entered in [Pelican Settings](#operate-pelican-sender-settings) (if left blank, they are sent to the sender address).
 
 [^2]: If left blank, the system automatically uses the original order's delivery address.
@@ -154,7 +154,7 @@ Shows waybill numbers that have used the transfer mechanism, for reconciliation 
     | Time | Date and time when the transfer occurred |
     | Original Order No. | Order originally linked to this waybill number |
     | Pelican Waybill No. | Pelican waybill number that was transferred |
-    | Customer-Selected CYBER Coin Amount | Deduction amount selected when the waybill was downloaded |
+    | Customer-Selected CYBER Coin Amount | Deduction amount selected when the shipping label was downloaded |
     | Transfer Message | System note from the transfer process |
 
 
@@ -170,13 +170,13 @@ Shows waybill numbers that have used the transfer mechanism, for reconciliation 
 
     | Field | Description |
     | :-- | :-- |
-    | Time | Waybill creation time |
-    | Order No. | Corresponding order number. Click to open the order details page |
+    | Time | Shipping label creation time |
+    | Order No. | Corresponding order number. Click to open the order detail page |
     | Pelican Waybill No. | Waybill number assigned by Pelican |
-    | Delivery Plan | Package dimensions of the waybill |
+    | Delivery Plan | Package dimensions of the shipping label |
     | Customer-Selected CYBER Coin Amount | Deduction amount selected at the time of download |
     | Confirmed CYBER Coin Deduction | Final CYBER coin amount deducted after settlement |
-    | Waybill Status | Current waybill status (such as In Use or Shipment Canceled). "Shipment Canceled" means the waybill was unused for 14 days and automatically refunded |
+    | Shipping Label Status | Current shipping label status (such as In Use or Shipment Canceled). "Shipment Canceled" means the shipping label was unused for 14 days and automatically refunded |
     | Transfer Status | Shows whether this waybill number has used the transfer mechanism |
 
 
@@ -189,7 +189,7 @@ Shows waybill numbers that have used the transfer mechanism, for reconciliation 
 
 - :lucide-package:{ .lg }  
   [__Ship with Pelican__](../orders/home-delivery/pelican-shipping-v2.md)  
-  Daily shipping workflows, including batch waybill downloads, single and partial shipments, and waybill reprints.
+  Daily shipping workflows, including batch shipping label downloads, single and partial shipments, and shipping label reprints.
 
 - :lucide-undo-2:{ .lg }  
   [__Pelican Reverse Logistics__](#operate-pelican-shipping-reverse)  
@@ -197,11 +197,11 @@ Shows waybill numbers that have used the transfer mechanism, for reconciliation 
 
 - :lucide-wallet:{ .lg }  
   [__Top Up CYBER Coins__](../website-management/points-deposits.md#operate-cyber-coin-deposit){ title="CYBER Coin Top-Up Center Guide" }  
-  Additional waybills deduct CYBER coins immediately. If your balance is insufficient, top up in the top-up center first.
+  Additional shipping labels deduct CYBER coins immediately. If your balance is insufficient, top up in the top-up center first.
 
 </div>
 
-## Frequently Asked Questions { #faq-pelican-management }
+## FAQ { #faq-pelican-management }
 
 ??? quote "Why doesn't the **Confirm Download** button respond?"
     [](){ #faq-pelican-management-disabled-button }
@@ -221,11 +221,11 @@ Shows waybill numbers that have used the transfer mechanism, for reconciliation 
 ??? quote "Will downloaded waybills change if I update the sender information?"
     [](){ #faq-pelican-management-sender-update }
 
-    No. Sender information only affects waybills **created after the change** (additional or reverse logistics). **Downloaded** waybills keep the sender information from the time of download and cannot be changed afterward.
+    No. Sender information only affects shipping labels **created after the change** (additional or reverse logistics). **Downloaded** shipping labels keep the sender information from the time of download and cannot be changed afterward.
 
 ??? quote "Can the new waybill still collect payment after additional waybills are printed for a cash-on-delivery order?"
 
     [](){ #faq-pelican-management-cod-print }
 
-    No. The additional waybill feature **only prints "delivery-only" waybills**. Even if the original order is cash on delivery, the new waybill does not include a collection amount. If you need to split a cash-on-delivery order into multiple boxes and keep the collection feature, contact CYBERBIZ customer support for help.
+    No. The additional shipping label feature **only prints "delivery-only" waybills**. Even if the original order is cash on delivery, the new shipping label does not include a collection amount. If you need to split a cash-on-delivery order into multiple boxes and keep the collection feature, contact CYBERBIZ customer support for help.
 

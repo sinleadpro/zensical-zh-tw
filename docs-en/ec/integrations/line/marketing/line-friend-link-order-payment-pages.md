@@ -68,17 +68,17 @@ hide:
 
 ## Guide to Displaying the LINE Friend Link on Order-Related Pages { #overview-line-order-link }
 
-Merchants can edit the code to add a LINE friend link or image to the **Order Confirmation Page** and the **Order Payment Completed Page** after a customer places an order.
+Merchants can edit the code to add a LINE friend link or image to the **Order Confirmation Page** and the **Order Payment Completed Page** after a customer submits an order.
 
 ## Prerequisite: Request Activation { #prerequisites-line-order-link }
 
-- [x] **Request from Customer Service:** This feature is not enabled by default. Go to the back office and request activation from **CYBERBIZ Customer Service**.
-- [x] **Theme Restriction:** After activation, this feature applies only to themes that are **currently published**. If you switch to a new theme in the future, you must request activation again from Customer Service.
+- [x] **Request from Customer Service:** This feature is not enabled by default. Go to the admin and request activation from **CYBERBIZ Customer Service**.
+- [x] **Theme Restriction:** After activation, this feature applies only to themes that are **currently published**. If you switch to a new theme in the future, you must request activation again from Customer Support.
 - [x] **Supported Themes:** This feature supports **drag-and-drop themes**.
 
-## Back Office Steps { #operate-line-order-link }
+## Admin Steps { #operate-line-order-link }
 
-1. **Open the Editor:** Log in to the back office and go to **Website Appearance > Theme Setting**.
+1. **Open the Editor:** Log in to the admin and go to **Website Appearance > Theme Setting**.
 2. **Actions** On the theme you are currently using, click "**Actions** > ** CSS/HTML Editor**".
 3. **Search for the File:** In the editor search bar, enter the file name: **`order_done_extra_content.liquid`**.
 
@@ -111,7 +111,7 @@ Merchant engineers must write their own HTML/CSS code to design the page. To sho
 
 - **Recovery:** If an issue occurs after you make changes, see [Restore Template Editor](../../../website-appearance/code-customization/restore-code-theme-editor.md){ title="Restore web code with the template editor" }  Restores the file to a previous version.
 
-!!! warning "Important Notes"
+!!! warning "Notes"
 	- **No Code Writing Services:** CYBERBIZ **does not provide syntax tutorials or code writing services**. Merchants must assign this work to their in-house engineers or an external design firm.
 	- **Use at Your Own Risk:** Merchants are responsible for any system issues or errors caused by code changes, and must bear all related risks and consequences.
 
@@ -121,7 +121,7 @@ Merchant engineers must write their own HTML/CSS code to design the page. To sho
 ??? quote "Why don't I see changes on the page after editing `order_done_extra_content.liquid`?"
 
 	- **Clear the Cache:** Try opening an incognito window, or clear your browser cache and refresh the page.
-	- **Check Your Plan and Permissions:** Confirm that your plan is **Expert PLUS** or **Enterprise**, and that you have contacted Customer Service to activate this feature.
+	- **Check Your Plan and Permissions:** Confirm that your plan is **Expert PLUS** or **Enterprise**, and that you have contacted Customer Support to activate this feature.
 	- **Check Your Theme Type:** This feature only supports drag-and-drop themes. If you use a traditional legacy theme (not drag-and-drop), this feature will not work properly."
 
 ??? quote "Will my settings be kept after I change the theme?"

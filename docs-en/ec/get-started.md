@@ -175,7 +175,7 @@ Payments & logistics > Checkout & shipping settings
 </div>
 
 !!! tip "What is shipping?"
-    Shipping is how you deliver goods to shoppers—home delivery, convenience-store pickup, and more. Choose carriers such as Tcat, Pelican, 7-ELEVEN, and FamilyMart.
+    Shipping is how you deliver goods to shoppers—home delivery, convenience-store pickup, and more. Choose carriers such as Tcat, Pelican, 7-11, and FamilyMart.
 
 ---
 
@@ -242,7 +242,7 @@ Payments & logistics > Checkout & shipping settings
 
 ---
 
-### Step 8: Connect Third-Party Services { #operate-get-started-integrations }
+### Step 8: Integrate Third-Party Services { #operate-get-started-integrations }
 
 Integrations: choose what to set up:
 
@@ -348,4 +348,4 @@ Open Reports and analytics to understand store performance by metric:
 </div>
 
 !!! tip "Profit sharing use cases"
-    When you work with influencers or group-buy leaders, create unique links and discount codes; partners can check performance and earnings with a password. You can also reward members or staff with bonuses or points for orders they help create.
+    When you work with influencers or group-buy leaders, create unique links and discount codes; partners can check performance and earnings with a password. You can also reward members or staff with bonuses or bonus points for orders they help create.

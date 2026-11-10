@@ -119,8 +119,8 @@ To learn more about the text editor, see [Edit Content with the Text Editor](../
 
 ### Advanced Settings { #operate-product-desc-settings-advanced }
 
-- **Customized collections**: Add the product to existing collections. For details, see [Set Up Customized Collections](../categories-and-tags/custom-collections.md){ title="Set Up Customized Collections" }.
-- **Buy X Get Y Discount Collection**: Add the product to an existing Buy X Get Y discount collection. For details, see [Buy X Get Y Discount](../../marketing/discounts/mix-and-match-discounts.md){ title="Buy X Get Y Discount" }.
+- **Customized collections**: Add the product to existing collections. Details in [Set Up Customized Collections](../categories-and-tags/custom-collections.md){ title="Set Up Customized Collections" }.
+- **Buy X Get Y Discount Collection**: Add the product to an existing Buy X Get Y discount collection. Details in [Buy X Get Y Discount](../../marketing/discounts/mix-and-match-discounts.md){ title="Buy X Get Y Discount" }.
 - **Tags**: Add tags to the product for marketing campaigns (for example, a product-specific coupon). Learn [how to set product tags](../categories-and-tags/manage-product-tags.md){ title="Manage Product Tags" }.
 - **Product Type**: Set a type label for the product for management and filtering. This information also appears on the storefront, and the label content can be customized.
 - **Product distribution channel**: Set the channels where the product can be sold. Products from different channels (pre-order, in stock, room temperature) are automatically [split into multiple carts](../checkout/checkout-split-multi-cart.md#intro-split-cart){ title="Set Up Automatic Checkout Splitting into Multiple Carts" } at checkout.
@@ -137,7 +137,7 @@ To learn more about the text editor, see [Edit Content with the Text Editor](../
 
 Set the product's shipping temperature zone and available logistics methods.
 
-- **Shipping Temperature**: Specify the shipping temperature zone the product accepts. For details, see [standard home delivery](../shipping/setup-product-shipping-conditions.md){ title="Set Up Product Shipping Conditions (Logistics, Temperature Zone, and Fulfillment Channel)" } and [home delivery cash on delivery](../../payments-and-logistics/home-delivery-cash-on-delivery.md){ title="Home Delivery Cash on Delivery Logistics (T-Cat/Pelican/Hsinchu Logistics)" } for binding a product's logistics, temperature zone, and sales channels.
+- **Shipping Temperature**: Specify the shipping temperature zone the product accepts. Details in [standard home delivery](../shipping/setup-product-shipping-conditions.md){ title="Set Up Product Shipping Conditions (Logistics, Temperature Zone, and Fulfillment Channel)" } and [home delivery cash on delivery](../../payments-and-logistics/home-delivery-cash-on-delivery.md){ title="Home Delivery Cash on Delivery Logistics (T-Cat/Pelican/Hsinchu Logistics)" } for linking a product's logistics, temperature zone, and sales channels.
 - **Logistics link status**: Specify the logistics methods available for the product. For details, see how to [set up convenience store delivery restrictions and logistics exclusions](../shipping/cvs-shipping-restrictions-exclusions.md){ title="Set Up Convenience Store Delivery Restrictions and Logistics Exclusions" }
 
 ![Temperature zone and logistics settings](../../../assets/images/ec-shipping-temperature-logistics-setting.zh-tw.en.png){ title="Temperature Zone Logistics Settings" }

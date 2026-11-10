@@ -78,7 +78,7 @@ Go to **Payment and Logistics > Delivery Settings**, and then create the shippin
     - **Warehouse-shipped items**: Set them all up on the **Custom Logistics** tab.
     - **Self-shipped items**: If they support **cash on delivery**, set them up on the **Connect Logistics** tab. If they use **no payment on delivery**, keep them on the **Custom Logistics** tab.
 
-## References { #reference-logistics }
+## See Also { #reference-logistics }
 
 - [Warehouse Integration Application and Activation](application-process-and-activation.md)
 - [Enable Partial Warehouse Integration and Mixed Orders](enable-partial-warehouse-integration-and-mixed-orders.md)

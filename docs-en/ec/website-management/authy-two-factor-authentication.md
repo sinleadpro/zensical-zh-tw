@@ -83,8 +83,8 @@ There are many authenticator apps on the market (such as Google Authenticator), 
 ### Step 2: Add Your CYBERBIZ Account { #operate-authy-add-account }
 
 1.  Open the Authy app and tap **+ Add Account**.
-2.  **Scan the code**: Use your phone camera to scan the **QR code** shown on the [Security Setting](setup-manage-two-factor-auth.md){ title="Set up and manage two-step verification" } page in the CYBERBIZ admin panel.
-3.  **Enter the key manually**: If you can't scan the code, tap Enter key manually and enter the key shown in the admin panel.
+2.  **Scan the code**: Use your phone camera to scan the **QR code** shown on the [Security Setting](setup-manage-two-factor-auth.md){ title="Set up and manage two-step verification" } page in the CYBERBIZ admin.
+3.  **Enter the key manually**: If you can't scan the code, tap Enter key manually and enter the key shown in the admin.
 4.  **Save the account**: When you finish, the website's verification account appears at the bottom of the app.
 
 ![Authy add account](../../assets/images/ec-管理中心-安全性設定-二階段驗證-authy-add-cyb-account.en.png){ title="Authy add account" }
@@ -122,7 +122,7 @@ There are many authenticator apps on the market (such as Google Authenticator), 
 
 ??? quote "How do I log in if I lose my phone?"
 
-    When you turn on 2FA, the system provides 10 backup codes. Use a backup code to log in in an emergency. Keep your backup codes in a safe place.
+    When you enable 2FA, the system provides 10 backup codes. Use a backup code to log in in an emergency. Keep your backup codes in a safe place.
 
 ??? quote "How long is a verification code valid?"
 

@@ -41,11 +41,11 @@ The "Member Status" section on the "Member Overview" tab groups members by regis
 | New Members | Members who joined during the reporting period |
 | Existing Members | Members who joined before the reporting period and are still on the list in this period |
 | Registered Members | Customers who completed registration and left member information |
-| Unregistered Members | Customers who placed orders without completing registration (their information was left as a guest or through quick checkout) |
+| Unregistered Members | Customers who submitted orders without completing registration (their information was left as a guest or through quick checkout) |
 | FB Sign-In Members | Members who joined through Facebook quick sign-in |
 | LINE Sign-In Members | Members who joined through LINE quick sign-in |
 | Linked LINE@ Members | Members who have linked their account to your store's official LINE account |
 
 !!! note "Note"
-    * Customers are counted under "FB Sign-In Members," "LINE Sign-In Members," and "Linked LINE@ Members" only if your store has turned on the matching third-party sign-in or LINE linking feature. If it is off, the count is 0.
+    * Customers are counted under "FB Sign-In Members," "LINE Sign-In Members," and "Linked LINE@ Members" only if your store has enabled the matching third-party sign-in or LINE linking feature. If it is off, the count is 0.
     * One member may match more than one source (for example, signing in with LINE and also linking to your official LINE@ account). Refer to the description of each section for how it counts.

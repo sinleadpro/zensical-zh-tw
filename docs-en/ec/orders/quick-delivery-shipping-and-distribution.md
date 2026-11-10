@@ -137,10 +137,10 @@ Quick Delivery statuses update automatically based on information from the deliv
     If the driver is already on the way to the store, canceling the dispatch may incur a cancellation fee (depending on the delivery platform's rules). Unless necessary (for example, if items are damaged or seriously out of stock), we recommend not canceling matched orders.
 
 ??? quote "What if a customer says they didn't receive the tracking link text?"
-    Have store staff copy the order's **delivery tracking link** from the **Logistics Information** section of the order details page and send it to the customer manually or through the admin's messaging tools.
+    Have store staff copy the order's **delivery tracking link** from the **Logistics Information** section of the order detail page and send it to the customer manually or through the admin's messaging tools.
 
 ??? quote "What is the Uber Direct PIN, and where can I find it?"
-    The PIN is a verification step to make sure the delivery is accurate. It's usually **the last four digits of the customer's order phone number**. The driver asks the customer for it on delivery, and you can also see the phone number in the customer information on the order details page in the admin.
+    The PIN is a verification step to make sure the delivery is accurate. It's usually **the last four digits of the customer's order phone number**. The driver asks the customer for it on delivery, and you can also see the phone number in the customer information on the order detail page in the admin.
 
 
 

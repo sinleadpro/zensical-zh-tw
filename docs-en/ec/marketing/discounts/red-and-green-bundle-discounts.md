@@ -61,13 +61,13 @@ hide: []
 ---
 # Bundle Discounts
 
-Bundle products from different Collections (such as Collections A + Collections B) and set fixed price, percentage, or amount-off rules to raise order value and cross-category sales.
+Bundle products from different Collections (such as Collections A + Collections B) and set fixed price, percentage, or amount-off rules to raise AOV and cross-category sales.
 { .subtitle }
 
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | All PLUS / Enterprise
 { .doc-badge }
 
-!!! info "Version Differences"
+!!! info "Plan Differences"
     On PLUS plans, Bundle Discounts is part of the "Marketing A" add-on module (choose 2 of 11). Make sure you have selected this module before using it. Enterprise includes it by default.
 
 ![](../../../assets/images/EC-後台-行銷活動-紅配綠多組合優惠-畫面總覽01.png){ .hero-page }
@@ -126,9 +126,9 @@ In the "Pricing Rule" section of the promotion page, choose a discount method:
     *   **Added to these Collections**: Can be removed at any time.
     *   **Added to other Collections**: Can't be added again.
 
-### Step 5: Bulk Import Products (Optional) { #operate-discount-import-product }
+### Step 5: Batch Import Products (Optional) { #operate-discount-import-product }
 
-For many products, use Excel to import them in bulk:
+For many products, use Excel to import them in batch:
 
 1. On the promotion page, download the **Bundle Discounts Template**.
 2. Fill in the Excel sheet. Key fields:
@@ -139,7 +139,7 @@ For many products, use Excel to import them in bulk:
     - **SKU**: Enter the correct variant SKU.
     - **All Stores**: Enter "是" or "true" to apply to all stores. Blank or any other value counts as "No."
     - **Store Name**: If not all stores apply, enter the exact "Website Name" or "POS store name."
-    - **Run in Online Store**: Set to "Yes" to show and apply the promotion in the online store.
+    - **Run in Online Store**: Set to "Yes" to show and apply the promotion in the storefront.
 
 3. Back in the admin, click **No file selected** and import the file.
 4. You'll get the import results by email.

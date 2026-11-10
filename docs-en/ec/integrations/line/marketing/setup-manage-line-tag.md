@@ -199,7 +199,7 @@ In the analytics feature of LINE OA Manager, use Broadcast Message - Custom Conv
 
 </div>
 
-## Frequently Asked Questions { #faq-line-tag }
+## FAQ { #faq-line-tag }
 
 ??? quote "Why does my LINE Tag status keep showing 'Waiting for data' or 'No activity'?"
     There are usually three possible causes:
@@ -209,7 +209,7 @@ In the analytics feature of LINE OA Manager, use Broadcast Message - Custom Conv
     3. **Tag ID entered in the wrong place**: Make sure the IDs for `account` (OA) and `lap` (Ad) are not swapped.
 
 ??? quote "Does LINE Tag data differ from Google Analytics (GA4) data?"
-    Yes, that is normal. The two use different **attribution models**. For example, LINE may count conversions within 30 days after a click, while GA4 uses its own definition. Also, if a shopper opens a link in the LINE in-app browser and then switches to Safari or Chrome to complete a purchase, tracking may be lost.
+    Yes, that is normal. The two use different **attribution models**. For example, LINE may count conversions within 30 days after a click, while GA4 uses its own definition. Also, if a customer opens a link in the LINE in-app browser and then switches to Safari or Chrome to complete a purchase, tracking may be lost.
 
 ??? quote "Do I need to manually embed the `ViewContent` code on each product page?"
     No. CYBERBIZ is already fully integrated. As long as you enter the correct Tag ID in the backend, the system automatically sends the `ViewContent`, `AddToCart`, and `Purchase` events on the corresponding pages. The events include the amount and product information.

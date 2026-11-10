@@ -65,7 +65,7 @@ hide: []
 ---
 # Apply for ECPay Payments and CVS Cash on Delivery
 
-ECPay is a widely used third-party payment provider in Taiwan. It offers a range of payment methods, including credit cards, ATM transfers, and convenience store payment codes, along with convenient CVS cash-on-delivery (logistics) service. This guide walks you through account registration, service applications, and back-office integration.
+ECPay is a widely used third-party payment provider in Taiwan. It offers a range of payment methods, including credit cards, ATM transfers, and convenience store payment codes, along with convenient convenience store cash-on-delivery (logistics) service. This guide walks you through account registration, service applications, and back-office integration.
 { .subtitle }
 
 [:lucide-tag:{ title="Applicable Plans" }](../../resources/conventions#適用方案) | Professional / Advanced / Expert
@@ -74,16 +74,16 @@ ECPay is a widely used third-party payment provider in Taiwan. It offers a range
 ![](../../assets/images/綠界-後台-註冊綠界帳號01.en.png){ .hero-page }
 
 !!! info "Plan Applicability"
-    ECPay payment and CVS logistics integration is available only to merchants on the **Professional, Advanced, and Expert plans** who have **not enabled CYBERBIZ PAYMENTS**. If you already use CYBERBIZ PAYMENTS, its system includes full payment and CVS logistics features, so you do not need to connect ECPay separately.
+    ECPay payment and convenience store logistics integration is available only to merchants on the **Professional, Advanced, and Expert plans** who have **not enabled CYBERBIZ PAYMENTS**. If you already use CYBERBIZ PAYMENTS, its system includes full payment and convenience store logistics features, so you do not need to integrate ECPay separately.
 
 
 ## Usage Notes { #prerequisites-ecpay-cvs }
 
 Before you start, choose the path that matches your service needs:
 
-- **Online payments only (no CVS pickup)**: Skip step 2. Complete only step 1 and step 3-1.
-- **Full payments and logistics (including CVS pickup)**: Complete all settings in steps 1 to 3, in order.
-  > If your store needs both payment and CVS pickup services, we recommend that you **apply for both** when you register your account. Doing so avoids repeated document submissions or paper-based processes later and shortens the activation timeline.
+- **Online payments only (no convenience store pickup)**: Skip step 2. Complete only step 1 and step 3-1.
+- **Full payments and logistics (including convenience store pickup)**: Complete all settings in steps 1 to 3, in order.
+  > If your store needs both payment and convenience store pickup services, we recommend that you **apply for both** when you register your account. Doing so avoids repeated document submissions or paper-based processes later and shortens the activation timeline.
 - **Existing ECPay members (upgrading to a contracted merchant)**: See step 2-2 to complete the contract negotiation process.
 
 
@@ -121,7 +121,7 @@ Make sure the information matches your CYBERBIZ General Settings to speed up rev
 ### 3. Fill in Website Information { #operate-ecpay-cvs-site }
 
 - **Contact Information**: Contact details such as **email, phone number, and address** must match the **Contact Information** shown on the storefront.
-- **Website URL**: Enter your official CYBERBIZ domain. It must match the **Domain Name** in **Website Management > Domain**, and your website must have at least one product listed.
+- **Website URL**: Fill in your official CYBERBIZ domain. It must match the **Domain Name** in **Website Management > Domain**, and your website must have at least one product listed.
 
     > Do not set product text for items prohibited from online sale, such as circle lenses, pupil lenses, or EYES, etc.
 
@@ -134,7 +134,7 @@ Make sure the information matches your CYBERBIZ General Settings to speed up rev
     After you submit your application, ECPay typically needs **3-5 business days** to review it. You will receive the result by email.
 
 
-## Step 2: Apply for CVS Logistics Service (Optional) { #operate-ecpay-cvs-logistics }
+## Step 2: Apply for Convenience Store Logistics Service (Optional) { #operate-ecpay-cvs-logistics }
 
 If you need the "CVS cash on delivery" feature, complete logistics activation before the account is approved or before contract negotiations begin.
 
@@ -151,10 +151,10 @@ If you need the "CVS cash on delivery" feature, complete logistics activation be
 
 1. Go to the [ECPay back office](https://vendor.ecpay.com.tw/User/LogOn_Step1) and click **Contract Negotiation** in the upper-right corner.
     ![](../../assets/images/綠界-後台-申請超商物流-合約商議01.en.png)
-2. Enter contact information.
+2. Fill in contact information.
   -  For **Sales Contact Information**, select **Same as Accounting Contact**.
       ![](../../assets/images/綠界-後台-申請超商物流-合約商議03.en.png)
-  -  Enter `5468` in the **Sales Code** field, or enter `順立智慧` in the **Promoter** field.
+  -  Fill in `5468` in the **Sales Code** field, or fill in `順立智慧` in the **Promoter** field.
       ![](../../assets/images/綠界-後台-申請超商物流-合約商議04.en.png)
 3. Upload at least 3 images of your business premises.
     ![](../../assets/images/綠界-後台-申請超商物流-合約商議05.en.png)
@@ -172,7 +172,7 @@ If you need the "CVS cash on delivery" feature, complete logistics activation be
 
     - **Service Fee Rate**: Should show the actual rate for your plan.
         ![](../../assets/images/綠界-後台-檢核申請通過02.en.png)
-    - **CVS Pickup Service**: Should be **Activated**.
+    - **Convenience Store Pickup Service**: Should be **Activated**.
 
         > Complete the logistics application before contract negotiations. If you apply after negotiations, you must follow the paper application process.
 
@@ -182,7 +182,7 @@ If you need the "CVS cash on delivery" feature, complete logistics activation be
 
 ## Step 3: Set up CYBERBIZ Back-Office Integration { #operate-ecpay-cvs-bind }
 
-After you get your ECPay vendor number, you can complete the binding in the CYBERBIZ back office.
+After you get your ECPay vendor number, you can complete the linking in the CYBERBIZ admin.
 
 ### 1. Enable the Payment Service { #operate-ecpay-cvs-enable-pay }
 
@@ -198,23 +198,23 @@ After you get your ECPay vendor number, you can complete the binding in the CYBE
 !!! info "Credit Card Installment Feature Overview"
     Credit card installment payments are usually available only to **ECPay contracted merchants**. Confirm that you have completed **Contract Negotiation** and that ECPay has approved the installment feature.
 
-### 2. Enable the CVS Logistics Service (Optional) { #operate-ecpay-cvs-enable-logistics }
+### 2. Enable the Convenience Store Logistics Service (Optional) { #operate-ecpay-cvs-enable-logistics }
 
 1. Go to **Payment and Logistics > Convenience Store Logistics > ECPay CVS**.
 2. After you fill in the basic information, turn on the **Cash on Delivery / Pickup without Payment** toggles for **7-11/FamilyMart**, and set the amount threshold.
 
 
 
-## Frequently Asked Questions { #faq-ecpay-cvs }
+## FAQ { #faq-ecpay-cvs }
 
 ??? quote "Are the review processes for ECPay payments and CVS logistics separate?"
     Yes. After the basic account is approved, payment services usually activate first. Logistics services and contracted merchant negotiations require additional review time. We recommend submitting all information at once to speed up the process.
 
 ??? quote "Who should I contact if I run into problems during the application?"
-    For questions about ECPay account review, rates, or contracts, contact ECPay customer service directly:
+    For questions about ECPay account review, rates, or contracts, contact ECPay customer support directly:
 
-    - **Customer Service Hotline**: (02) 2655-1775 (24-hour service).
-    - **Online Inquiry**: Use the customer service widget in the lower-right corner of the ECPay website.
+    - **Customer Support Hotline**: (02) 2655-1775 (24-hour service).
+    - **Online Inquiry**: Use the customer support widget in the lower-right corner of the ECPay website.
 
 
 ## Next Steps { #next-steps-ecpay-cvs }

@@ -81,7 +81,7 @@ Install the Posiflex invoice printer, including driver installation, hardware co
 
 - **Software environment**: The CYBERBIZ POS driver must stay open. **Do not close the window** (you can minimize it).
 - **Hardware time**: Invoice issue times follow the **POS computer's hardware clock**. Make sure the computer's time zone and time are correct.
-- **Key requirement**: If you use the Mengli e-invoice service, provide the **Mengli channel key** to CYBERBIZ customer service before you install the invoice printer.
+- **Key requirement**: If you use the Mengli e-invoice service, provide the **Mengli channel key** to CYBERBIZ customer support before you install the invoice printer.
 
 
 ## Setup Procedure { #operate-posiflex-printer }
@@ -116,7 +116,7 @@ Install the Posiflex invoice printer, including driver installation, hardware co
 
     ![](../../assets/images/POS-安裝-Posiflex有線發票機-開機01.en.jpg){ .small-image }
 
-### Step 2: Connect and Bind the System { #operate-posiflex-printer-step-b-connection }
+### Step 2: Connect and Link the System { #operate-posiflex-printer-step-b-connection }
 
 1. **USB connection**: Connect the invoice printer to the computer with a USB cable.
 
@@ -190,7 +190,7 @@ If you bought the invoice printer from CYBERBIZ, the machine includes two test r
 
 ![](../../assets/images/POS-裝置-有線發票機紙捲01.en.png){ .screenshot }
 
-## Frequently Asked Questions { #faq-posiflex-printer }
+## FAQ { #faq-posiflex-printer }
 
 ??? quote "Why does the driver show 'Registered devices: 0, 1 issue to fix'?"
     ![](../../assets/images/POS-驅動程式-疑難排解1-1.en.png){ .screenshot }
@@ -250,7 +250,7 @@ If you bought the invoice printer from CYBERBIZ, the machine includes two test r
             ![](../../assets/images/POS-驅動程式-疑難排解3-2.en.png){ .screenshot }
         3. After installation, the following shortcut appears on the desktop.
             ![](../../assets/images/POS-驅動程式-疑難排解3-3.en.png){ .screenshot }
-        4. Click the shortcut to open the software and check whether the following screen appears. If the screen does not match the image below, contact CYBERBIZ customer service.
+        4. Click the shortcut to open the software and check whether the following screen appears. If the screen does not match the image below, contact CYBERBIZ customer support.
             ![](../../assets/images/POS-驅動程式-疑難排解3-4.en.png){ .screenshot }
 
 ??? quote "What should I do if all basic checks are complete but the hardware (invoice printer / card reader) still fails to connect?"

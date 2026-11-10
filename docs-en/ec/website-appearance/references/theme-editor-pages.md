@@ -65,7 +65,7 @@ Pages in a drag-and-drop theme fall into three groups based on how much you can 
 | Blog post page | Fixed layout that follows the overall style | — |
 | Cart page | Fixed layout that follows the overall style | — |
 | Quick delivery page | Fixed layout that follows the overall style | — |
-| Customer service page | Fixed layout that follows the overall style | — |
+| Customer support page | Fixed layout that follows the overall style | — |
 | Search page | Fixed layout that follows the overall style | — |
 | 404 page | Fixed layout that follows the overall style | — |
 
@@ -73,4 +73,4 @@ Pages in a drag-and-drop theme fall into three groups based on how much you can 
     * **Add, reorder, and delete blocks freely**: Add blocks from the "Add Block" list, drag to reorder them, and remove blocks.
     * **Reorder or edit existing blocks only**: You cannot add new blocks, but you can change the content and order of existing blocks (for example, product information, product description, recommended products, and product reviews on the product page).
     * **Fixed layout**: The system sets the page structure, so you cannot adjust it block by block. The theme's overall style (colors, fonts, and so on) still applies.
-    * The pages you can edit vary slightly depending on the drag-and-drop theme you installed. The page drop-down menu at the top of the editor shows what is available.
+    * The pages you can edit vary slightly depending on the drag-and-drop theme you installed. The page dropdown menu at the top of the editor shows what is available.

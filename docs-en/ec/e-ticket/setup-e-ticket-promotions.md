@@ -88,7 +88,7 @@ Create mix-and-match discount promotions for e-tickets, set discount tiers and p
 If your e-ticket involves any of these situations, clearly state the validity period and redemption rules in the product description:
 
 - Seasonal events, or a price difference is due after expiry
-- Stock or quota limits
+- Inventory or quota limits
 - Redeemable items have a price cap
 
 !!! tip "Suggested Text Template"
@@ -215,7 +215,7 @@ The system calculates the price difference payout with this formula:
 	- **Discount campaign URL**
 	- **Campaign period**
 4. [Set pricing and discount rules](#operate-ticket-promos-pricing)
-5. Enter the discount description and click **Save**.
+5. Fill in the discount description and click **Save**.
 
 ![](../../assets/images/ec-電子票券-基本設定.en.png)
 

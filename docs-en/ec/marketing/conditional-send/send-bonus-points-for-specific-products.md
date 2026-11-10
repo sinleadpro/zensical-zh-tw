@@ -57,7 +57,7 @@ icon: lucide/coins
 hide: []
 ---
 # Bonus Points For Specific Products
-Create Bonus Points for Specific Products Collections that give bonus points when spending on selected products reaches a threshold, boosting repeat purchases and average order value.
+Create Bonus Points for Specific Products Collections that give bonus points when spending on selected products reaches a threshold, boosting repeat purchases and AOV.
 { .subtitle }
 
 [:lucide-tag:{ title="適用方案" }](../../../resources/conventions#適用方案) | All PLUS / Enterprise

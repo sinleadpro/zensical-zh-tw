@@ -72,7 +72,7 @@ hide: []
 
 ## SHOP.COM Integration Guide { #intro-setup-shop-com }
 
-Connect your CYBERBIZ website with **SHOP.COM** to boost brand exposure and sell products through its active dealer member channel.
+Integrate your CYBERBIZ website with **SHOP.COM** to boost brand exposure and sell products through its active dealer member channel.
 
 ## Prerequisites and Restrictions { #prerequisites-setup-shop-com }
 
@@ -87,13 +87,13 @@ Connect your CYBERBIZ website with **SHOP.COM** to boost brand exposure and sell
     - **Consecutive orders in the same browser**: All orders are successfully attributed.
     - **After the browser is closed**: Tracking expires, and the customer must click the referral link again to be attributed.
 
-## Setup Steps { #operate-shop-com }
+## Steps { #operate-shop-com }
 
-### Back-Office Settings { #operate-shop-com-backend-settings }
+### Admin Settings { #operate-shop-com-backend-settings }
 
-!!! warning "If you integrated with SHOP.COM before 2022, contact CYBERBIZ Customer Service to enable the **SHOP.COM API** feature before it can work."
+!!! warning "If you integrated with SHOP.COM before 2022, contact CYBERBIZ Customer Support to enable the **SHOP.COM API** feature before it can work."
 
-1.  **Enter the identifiers**: Go to **Third-Party Integration > SHOP.COM Settings** in the CYBERBIZ back office, and enter the OFFER_ID and Advertiser_id you received.
+1.  **Enter the identifiers**: Go to **Third-Party Integration > SHOP.COM Settings** in the CYBERBIZ admin, and enter the OFFER_ID and Advertiser_id you received.
 
     ![SHOP.COM ID](../../assets/images/ec-第三方整合-美安-offer-advertiser-ids.en.png){ title="SHOP.COM ID" }
 
@@ -102,7 +102,7 @@ Connect your CYBERBIZ website with **SHOP.COM** to boost brand exposure and sell
     *   **URL rules**: URLs may contain only **English letters and numbers**. Chinese characters are not allowed.
     *   **Image rules**: Images must be **JPG files in RGB mode**.
     !!! info "For field settings, see [Basic Product Settings](../products/create-and-manage/create-update-products.md#operate-product-create-basic){ title="Add and Update Products" } or [Bulk Product Import from Excel](../products/bulk-operations/excel-import-products.md){ title="Bulk Product Import from Excel" }."
-3.  **Provide the XML file**: On the same back-office page, copy the **Product Data XML Table** URL and provide it to SHOP.COM.
+3.  **Provide the XML file**: On the same admin page, copy the **Product Data XML Table** URL and provide it to SHOP.COM.
 
     ![SHOP.COM Product XML](../../assets/images/ec-第三方整合-美安-productxml.en.png){ title="SHOP.COM Product XML" }
 
@@ -118,7 +118,7 @@ Connect your CYBERBIZ website with **SHOP.COM** to boost brand exposure and sell
 
 ### Exclude Products from Upload { #operate-shop-com-upload-product }
 
-If you do not want certain products (such as gifts or items not suitable for SHOP.COM) to appear on SHOP.COM, enter **贈品** (gift) in the product tags field. This has the following effects:
+If you do not want certain products (such as free gifts or items not suitable for SHOP.COM) to appear on SHOP.COM, enter **贈品** (free gift) in the product tags field. This has the following effects:
 
 - The product will not appear on SHOP.COM and will not affect the CYBERBIZ website.
 - When an order is placed, the amount of products tagged **贈品** will not sync to SHOP.COM.
@@ -136,7 +136,7 @@ Learn [How to Exclude Products from Third-Party Platform Uploads](../products/ca
 Before going live, SHOP.COM will run order tests:
 
 1.  **Place test orders**: SHOP.COM will place three orders under the name "SHOP.COM Test" (usually two are attributed and one is not) and notify the merchant by email.
-2.  **Return the report**: Log in to the CYBERBIZ back office, go to **SHOP.COM Settings**, export the order report for that period, and send it to SHOP.COM. The report must include RID, Click ID, and other information.
+2.  **Return the report**: Log in to the CYBERBIZ admin, go to **SHOP.COM Settings**, export the order report for that period, and send it to SHOP.COM. The report must include RID, Click ID, and other information.
 
     ![SHOP.COM export order date](../../assets/images/ec-第三方整合-美安-日期設定.en.png){ title="SHOP.COM Order Export Date" }
 
@@ -152,7 +152,7 @@ Before going live, SHOP.COM will run order tests:
     * **Customer service phone**: 02-87125598
     * **Service hours**: Monday to Friday, 09:30 – 18:30 (closed on weekends and national holidays)
 
-## Frequently Asked Questions { #faq-shop-com }
+## FAQ { #faq-shop-com }
 
 ??? quote "Integration testing is complete, but later orders are not being counted"
     [](){ #faq-shop-com-attribution }
@@ -182,7 +182,7 @@ Before going live, SHOP.COM will run order tests:
 
     Recurring billing orders do not qualify. One-page store orders do.
 
-??? quote "Are there any restrictions on order numbers sent from the back office to SHOP.COM?"
+??? quote "Are there any restrictions on order numbers sent from the admin to SHOP.COM?"
 
     Currently, order numbers are checked as follows: If an order number contains only a-z, A-Z, #, and similar marks, the full order name is sent to SHOP.COM. If it contains any other characters, only the numeric part of the order number is sent.
 

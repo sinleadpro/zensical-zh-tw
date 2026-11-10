@@ -81,7 +81,7 @@ icon: lucide/receipt
 
 ## Order Settings Overview { #intro-order-settings }
 
-The “Order Settings” section is in the middle of the Checkout & Logistics Settings page (“Payments & Logistics” > “Checkout & Logistics Settings”) in the back office. It covers the automated rules for orders, from creation and reminders to closing and printing. With these settings, you can control minimum order amounts, reduce lost unpaid orders, have the system automatically close and cancel overdue orders, and choose which fields appear on printed documents.
+The “Order Settings” section is in the middle of the Checkout & Logistics Settings page (“Payments & Logistics” > “Checkout & Logistics Settings”) in the admin. It covers the automated rules for orders, from creation and reminders to closing and printing. With these settings, you can control minimum order amounts, reduce lost unpaid orders, have the system automatically close and cancel overdue orders, and choose which fields appear on printed documents.
 
 !!! info "Tip"
     Settings are grouped into “sections,” and each section is collapsed by default. Click a section title to expand it, then make your changes and save them. Settings take effect only after you save.
@@ -115,7 +115,7 @@ The “Order Settings” section is in the middle of the Checkout & Logistics Se
 
 ## Steps { #operate-order-settings }
 
-Entry path: In the back office, go to “Payments & Logistics” > “Checkout & Logistics Settings,” then scroll down to the “Order Settings” section.
+Entry path: In the admin, go to “Payments & Logistics” > “Checkout & Logistics Settings,” then scroll down to the “Order Settings” section.
 
 ### Set a Minimum Order Amount { #operate-order-settings-amount-threshold }
 
@@ -157,7 +157,7 @@ The system automatically closes orders after a specified number of days based on
 
 1. **Expand the section:** Click the section title “Order Auto-Close Settings” to expand it.
 2. **Turn on auto-closing:** Turn on the **“Turn On Order Auto-Closing”** toggle. Closing condition options appear below it.
-3. **Choose a closing condition:** Choose one: **“Automatically close the order ___ days after the customer picks up”** (for integrated logistics such as convenience stores and Black Cat) or **“Automatically close the order ___ days after the order ships”** (for custom logistics). Then enter the number of days.
+3. **Choose a closing condition:** Choose one: **“Automatically close the order ___ days after the customer picks up”** (for integrated logistics such as convenience stores and T-CAT) or **“Automatically close the order ___ days after the order ships”** (for custom logistics). Then enter the number of days.
 4. **(Ticket orders)** If the ticket feature is enabled, you can also turn on **“Turn On Ticket Order Auto-Closing”** and set automatic closing for “___ days after the customer pays.”
 
 For the trigger conditions and order status requirements for each closing type, see [Order Auto-Close Type Reference](../../orders/references/order-auto-close-types-reference.md#reference-order-auto-close-types){ data-preview }.
@@ -202,7 +202,7 @@ If you also use the POS system, you can set overdue rules for POS store pickup o
 3. **Set the overdue days:** In “Automatically mark as overdue ___ days after the package arrives at the store,” enter the number of days. The default is **1** day. Only orders with the status “Payment Received, Arrived at Store” are included in the calculation.
 4. **Finish:** Click **“Submit”** to apply the settings.
 
-After you turn on this feature, the system changes uncollected orders to overdue based on the number of days you set[^pos-store-overdue].
+After you enable this feature, the system changes uncollected orders to overdue based on the number of days you set[^pos-store-overdue].
 
 [^pos-store-overdue]: Example: If set to 7 days and the order status changes to Arrived at Store on January 1 at 00:00, the order changes to overdue after January 8 at 00:00.
 
@@ -218,7 +218,7 @@ If you also use the POS system, you can require that POS storefront pickup be co
 2. **Turn on the setting:** Turn on the **“Turn On/Off POS Storefront Member Barcode-Only Pickup”** toggle.
 3. **Finish:** Click **Save** to apply the settings.
 
-After you turn on “Member Barcode-Only Pickup Settings,” the POS storefront pickup pop-up accepts only the app member barcode to complete pickup.
+After you turn on “Member Barcode-Only Pickup Settings,” the POS storefront pickup dialog accepts only the app member barcode to complete pickup.
 
 ![Member barcode-only pickup settings](../../../assets/images/ec-order-settings-pos-member-barcode.en.png){ title="Member Barcode-Only Pickup Settings" }
 
@@ -242,7 +242,7 @@ For orders that remain unpaid beyond a specified number of days, the system can 
 Decide whether to show the “Cancel Order” and “Request Return” buttons in the storefront member center so customers can handle these requests themselves.
 
 1. **Expand the section:** Click the section title “Customer Order Cancellation and Return Request Settings” to expand it.
-2. **Set permissions:** Select **“Customers can cancel orders”** or **“Customers can request returns”** to let shoppers take these actions on the storefront.
+2. **Set permissions:** Select **“Customers can cancel orders”** or **“Customers can request returns”** to let customers take these actions on the storefront.
 3. **Finish:** Click **Save**.
 
 ![Allow storefront cancellations and returns](../../../assets/images/ec-order-settings-customer-cancel.en.png){ title="Allow Storefront Cancellations and Returns" }
@@ -259,7 +259,7 @@ Decide whether to show the “Cancel Order” and “Request Return” buttons i
 When an order is returned or canceled, decide whether the system automatically returns the bonus the customer redeemed, or issues the bonus the customer is entitled to.
 
 1. **Expand the section:** Click the section title “Order Cancellation and Return Bonus Settings” to expand it.
-2. **Turn on the toggles you need:** You will see the following options (shown based on the features you have enabled)[^bonus-options]:
+2. **Enable the toggles you need:** You will see the following options (shown based on the features you have enabled)[^bonus-options]:
     * **Turn on “Return Redeemed Bonus for Returned Orders”**: For a full return, returns the bonus the customer redeemed on the order.
     * **Turn on “Return Redeemed Bonus for Partially Returned Orders” `Enterprise Plan`**: For a partial return, returns the bonus redeemed for the returned products.
     * **Turn on “Issue Bonus for Partially Returned Orders” `Enterprise Plan`**: After a partial return is closed, issues the bonus the customer is entitled to.
@@ -300,7 +300,7 @@ Customize the format shown when picking lists are printed.
 ![Picking list print document settings](../../../assets/images/ec-order-settings-print-picking.en.png){ title="Picking List Print Document Settings" }
 
 !!! tip "Tip"
-    If you usually ship based on the shipment details on the waybill, see “Shipment Detail Print Settings” in the logistics section. For details, see [Logistics Settings](logistics-settings.md#operate-logistics-settings-fulfillment-print).
+    If you usually ship based on the shipment details on the shipping label, see “Shipment Detail Print Settings” in the logistics section. Details in [Logistics Settings](logistics-settings.md#operate-logistics-settings-fulfillment-print).
 
 ---
 
@@ -320,7 +320,7 @@ Customize the format shown when picking lists are printed.
 
 ??? quote "Should I choose “Received” or “Shipped” for automatic closing?"
     [](){ #faq-order-settings-close-type }
-    If you use integrated logistics such as convenience stores or Black Cat, we recommend “N days after the customer picks up” (closes based on the received status). If you use custom logistics, the system cannot tell whether the customer has received the order, so choose “N days after the order ships” (closes based on the shipped status). For details, see [Order Auto-Close Type Reference](../../orders/references/order-auto-close-types-reference.md#reference-order-auto-close-types){ data-preview }.
+    If you use integrated logistics such as convenience stores or T-CAT, we recommend “N days after the customer picks up” (closes based on the received status). If you use custom logistics, the system cannot tell whether the customer has received the order, so choose “N days after the order ships” (closes based on the shipped status). Details in [Order Auto-Close Type Reference](../../orders/references/order-auto-close-types-reference.md#reference-order-auto-close-types){ data-preview }.
 
 ---
 
@@ -342,7 +342,7 @@ After you complete the order settings, continue with the following:
 
 ---
 
-## References { #reference-order-settings }
+## See Also { #reference-order-settings }
 
 * [Order Auto-Close Type Reference](../../orders/references/order-auto-close-types-reference.md)
 

@@ -21,7 +21,7 @@ hide:
 
     ---
 
-    Set up the basics of your store. This covers website info, company contact details, shipping address, and admin panel language.
+    Set up the basics of your store. This covers website info, company contact details, shipping address, and admin language.
 
     [:octicons-arrow-right-24: Go](setup-store-basic-info.md)
 
@@ -29,7 +29,7 @@ hide:
 
     ---
 
-    Build a store for shoppers abroad. Show them their own language and a currency they know. This makes your brand look global and makes shopping easier for overseas customers.
+    Build a store for customers abroad. Show them their own language and a currency they know. This makes your brand look global and makes shopping easier for overseas customers.
 
     [:octicons-arrow-right-24: Go](setup-multi-language-and-multi-currency.md)
 
@@ -37,7 +37,7 @@ hide:
 
     ---
 
-    Bought a custom domain from another provider? Point it to your CYBERBIZ store with DNS settings. Then finish binding it in the CYBERBIZ admin panel.
+    Bought a custom domain from another provider? Point it to your CYBERBIZ store with DNS settings. Then finish linking it in the CYBERBIZ admin.
 
     [:octicons-arrow-right-24: Go](domain-management.md)
 
@@ -118,7 +118,7 @@ hide:
 
     ---
 
-    See all the ways to keep your site safe. Find where each setting is in the admin panel, and what to do if something goes wrong. This helps protect your website and your customers' data.
+    See all the ways to keep your site safe. Find where each setting is in the admin, and what to do if something goes wrong. This helps protect your website and your customers' data.
 
     [:octicons-arrow-right-24: Go](security-best-practices.md)
 
@@ -126,7 +126,7 @@ hide:
 
     ---
 
-    Turn on and manage two-step verification (2FA). Link an authenticator app, use backup codes, and reset or require verification for staff.
+    Enable and manage two-step verification (2FA). Link an authenticator app, use backup codes, and reset or require verification for staff.
 
     [:octicons-arrow-right-24: Go](setup-manage-two-factor-auth.md)
 
@@ -150,7 +150,7 @@ hide:
 
     ---
 
-    Buy Wixtar e-invoices and connect the service. Share it across stores, and set up reconciliation invoices in the CYBERBIZ admin panel.
+    Buy WiXtar e-invoices and integrate the service. Share it across stores, and set up reconciliation invoices in the CYBERBIZ admin.
 
     [:octicons-arrow-right-24: Go](wixtar-e-invoice-setup.md)
 
@@ -166,7 +166,7 @@ hide:
 
     ---
 
-    Turn on and use one-click billing invoice issuance. Enterprise merchants with a Wixtar account can issue invoices with one click in the Reconciliation Center. This speeds up billing and payouts.
+    Enable and use one-click billing invoice issuance. Enterprise merchants with a WiXtar account can issue invoices with one click in the Reconciliation Center. This speeds up billing and payouts.
 
     [:octicons-arrow-right-24: Go](one-click-invoice-issuance.md)
 
@@ -174,7 +174,7 @@ hide:
 
     ---
 
-    With CYBERBIZ PAYMENTS, you must confirm each statement by hand before you get paid. Turn on automatic statement confirmation and the system does it for you on the closing date, once the total reaches your threshold. Your payouts keep coming on time.
+    With CYBERBIZ PAYMENTS, you must confirm each statement by hand before you get paid. Enable automatic statement confirmation and the system does it for you on the closing date, once the total reaches your threshold. Your payouts keep coming on time.
 
     [:octicons-arrow-right-24: Go](auto-confirm-reconciliation-accounts.md)
 
@@ -230,7 +230,7 @@ hide:
 
     ---
 
-    Not getting the verification email when you log in to the admin panel? Follow this guide to fix it fast.
+    Not getting the verification email when you log in to the admin? Follow this guide to fix it fast.
 
     [:octicons-arrow-right-24: Go](not-receiving-backend-login-verification-email.md)
 

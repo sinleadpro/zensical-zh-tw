@@ -51,8 +51,8 @@ hide:
 
 | Status | Description |
 | :-- | :-- |
-| Pending Activation | The first top-up is complete. CYBERBIZ is creating your account and setting up the GMC connection, which takes about 3 to 5 business days. |
-| Activated | Your account and GMC connection are set up. You can start configuring and running ads. |
+| Pending Activation | The first top-up is complete. CYBERBIZ is creating your account and setting up the GMC integration, which takes about 3 to 5 business days. |
+| Activated | Your account and GMC integration are set up. You can start configuring and running ads. |
 
 !!! note "Note"
     * Activation progress is sent by email, and you can also check it in the activation prompt at the top of the page.

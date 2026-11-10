@@ -77,7 +77,7 @@ hide:
 
 ## About Chart Overview { #intro-chart-overview }
 
-Chart Overview (admin path: "Charts" > "Summary Chart") organizes your store's core metrics, such as traffic, conversion rate, average order value, repurchase rate, and revenue, into trend charts and metric cards. Enterprise merchants also see a **"Benchmark Reference Range"** that compares your metrics with statistics from similar merchants with comparable performance in similar categories, so you can tell which metrics still have room to grow.
+Chart Overview (admin path: "Summary Charts" > "Summary Chart") organizes your store's core metrics, such as traffic, conversion rate, average order value, repurchase rate, and revenue, into trend charts and metric cards. Enterprise merchants also see a **"Benchmark Reference Range"** that compares your metrics with statistics from similar merchants with comparable performance in similar categories, so you can tell which metrics still have room to grow.
 
 !!! tip "One Formula to Find Your Optimization Priorities"
     A common e-commerce formula for breaking down revenue is: **Revenue = traffic × conversion rate × average order value × repurchase rate**. When a metric is below its benchmark reference range, improving it usually pays off the most, so make it a priority.
@@ -130,7 +130,7 @@ For the definition and calculation of each metric on the page, see [Chart Overvi
 Chart Overview is part of the "Charts" feature. Some advanced content appears only if the corresponding conditions are met:
 
 - [x] **Benchmark reference range**: Shown only to **Enterprise** merchants, and the merchant's industry must be a supported category.
-- [x] **POS Overview tab**: Appears only if you have connected the CYBERBIZ POS system.
+- [x] **POS Overview tab**: Appears only if you have integrated the CYBERBIZ POS system.
 - [x] **Industry category assignment**: The benchmark reference range automatically determines your industry from your product attributes. You can't set it manually.
 
 !!! plan "Plan Differences"
@@ -143,7 +143,7 @@ Chart Overview is part of the "Charts" feature. Some advanced content appears on
 1. **Open the page:** In the left menu of the admin, click "Charts" > "Summary Chart."
 2. **Switch tabs:** At the top of the page there are two tabs, **"EC Overview"** and **"POS Overview"**[^pos]. EC Overview is shown by default.
 
-[^pos]: The POS Overview tab appears only if the merchant has connected the CYBERBIZ POS system.
+[^pos]: The POS Overview tab appears only if the merchant has integrated the CYBERBIZ POS system.
 
 ---
 
@@ -212,7 +212,7 @@ For Enterprise merchants in a supported industry, the following four metric card
 ### View the POS Overview { #operate-chart-overview-pos }
 
 !!! plan "Plan / Feature Requirements"
-    The POS Overview tab appears only if the merchant has connected the CYBERBIZ POS system.
+    The POS Overview tab appears only if the merchant has integrated the CYBERBIZ POS system.
 
 1. **Switch tabs:** Click the "POS Overview" tab at the top of the page.
 2. **View the store summary metric cards:** "This Month's POS Overview" at the top shows physical store summary figures such as revenue, orders, number of customers, and average spend per customer as metric cards.
@@ -318,7 +318,7 @@ After you find metrics to improve with the benchmark reference range, use the fo
     - Your industry is a supported category (food and beverages, health and beauty, apparel and accessories, home and garden).
     - The system has determined your industry from your product attributes.
 
-    If it still doesn't appear, contact your store consultant or customer service.
+    If it still doesn't appear, contact your store consultant or customer support.
 
 ??? quote "Where do the benchmark reference range numbers come from?"
     [](){ #faq-chart-overview-benchmark-source }
@@ -339,9 +339,9 @@ After you find metrics to improve with the benchmark reference range, use the fo
 
 ??? quote "Can't find the POS Overview tab?"
     [](){ #faq-chart-overview-no-pos }
-    The POS Overview tab appears only if the merchant has connected the CYBERBIZ POS system. If you don't use POS yet, the page shows only EC Overview.
+    The POS Overview tab appears only if the merchant has integrated the CYBERBIZ POS system. If you don't use POS yet, the page shows only EC Overview.
 
-## References { #reference-chart-overview }
+## See Also { #reference-chart-overview }
 
 - [Chart Overview Metrics Reference](references/bi-overview-metrics-reference.md)
 - [Benchmark Reference Range Status Reference](references/benchmark-reference-range-status-reference.md)

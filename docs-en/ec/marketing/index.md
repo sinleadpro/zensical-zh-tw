@@ -44,7 +44,7 @@ hide:
 
     ---
 
-    Bundle products from different groups (such as group A + group B) and set fixed price, percentage, or amount-off rules to raise order value and cross-category sales.
+    Bundle products from different groups (such as group A + group B) and set fixed price, percentage, or amount-off rules to raise AOV and cross-category sales.
 
     [:octicons-arrow-right-24: Go](discounts/red-and-green-bundle-discounts.md)
 
@@ -52,7 +52,7 @@ hide:
 
     ---
 
-    Create spend-threshold and quantity-threshold gift promotions. Set amount or item-count thresholds for orders or tagged products, have gifts automatically sent, and manage gift rules.
+    Create spend-threshold and quantity-threshold free gift promotions. Set amount or item-count thresholds for orders or tagged products, have free gifts automatically sent, and manage free gift rules.
 
     [:octicons-arrow-right-24: Go](discounts/threshold-gifts-and-quantity-gifts.md)
 
@@ -164,7 +164,7 @@ hide:
 
     ---
 
-    Create a "Send Bonus Points for Specific Products" group to give bonus points for specific products above a spend threshold, boosting repeat purchases and order value.
+    Create a "Send Bonus Points for Specific Products" group to give bonus points for specific products above a spend threshold, boosting repeat purchases and AOV.
 
     [:octicons-arrow-right-24: Go](conditional-send/send-bonus-points-for-specific-products.md)
 
@@ -261,7 +261,7 @@ hide:
 
     ---
 
-    Give out coupons, bonus points, or gifts through fun games like spin wheels, red envelopes, and treasure chests to boost engagement and conversions. Works on both EC and POS.
+    Give out coupons, bonus points, or free gifts through fun games like spin wheels, red envelopes, and treasure chests to boost engagement and conversions. Works on both EC and POS.
 
     [:octicons-arrow-right-24: Go](other-tools/interactive-games.md)
 
@@ -285,7 +285,7 @@ hide:
 
     ---
 
-    Set up free shipping that fits your marketing strategy, using storewide thresholds, specific products, and more, to boost orders and order value.
+    Set up free shipping that fits your marketing strategy, using storewide thresholds, specific products, and more, to boost orders and AOV.
 
     [:octicons-arrow-right-24: Go](free-shipping-settings.md)
 
@@ -293,7 +293,7 @@ hide:
 
     ---
 
-    Create a special cart link that adds preset products and quantities to the cart. Great for social media and email marketing.
+    Create a special cart link that adds default products and quantities to the cart. Great for social media and email marketing.
 
     [:octicons-arrow-right-24: Go](references/create-cart-link-specific-products.md)
 

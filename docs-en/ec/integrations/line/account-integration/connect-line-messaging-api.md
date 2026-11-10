@@ -76,12 +76,12 @@ hide: []
 
 ![LINE OA integration](../../../../assets/images/ec-第三方整合-line oa.en.png){ title="LINE OA integration" .hero-page }
 
-## Connect LINE OA Messaging API Guide { #operate-line-messaging }
+## Integrate LINE OA Messaging API Guide { #operate-line-messaging }
 
 Integrate the LINE Official Account (OA) with the CYBERBIZ system to enable automated customer communication, including order status notifications, precise audience messaging, and product keyword search within LINE.
 
 !!! info "What is the Messaging API?"
-	 The Messaging API is a technical interface that LINE provides to developers. Through this integration, the CYBERBIZ system **automatically** sends personalized messages based on specific events (such as a customer placing an order or a payment reminder), without manual action.
+	 The Messaging API is a technical interface that LINE provides to developers. Through this integration, the CYBERBIZ system **automatically** sends personalized messages based on specific events (such as a customer submitting an order or a payment reminder), without manual action.
 
 ## Prerequisites and Limitations { #prerequisites-line-messaging }
 
@@ -102,7 +102,7 @@ Complete the following steps in order to make sure the system connects correctly
 2. **Enable Messaging API** In the admin dashboard, select the account you want to set up. After you open it, click the icon in the top-right corner **Settings > Messaging API > Enable Messaging API**.
 3. **Configure Service Provider** Select an existing Provider[^provider] or create a new one.
 
-    !!! warning "Once a LINE Messaging API channel is bound to a Provider, it cannot be changed. Make sure it is linked to the correct Provider."
+    !!! warning "Once a LINE Messaging API channel is linked to a Provider, it cannot be changed. Make sure it is linked to the correct Provider."
 
 4. **Basic information:** As needed, enter the URLs for your website's Privacy Policy and Terms of Service.
 
@@ -146,7 +146,7 @@ Complete the following steps in order to make sure the system connects correctly
 
     - **Response mode:** Be sure to set it to **Chatbot**.
 
-    - **Auto-response messages:** We recommend setting this to **Disabled**, so that messages are sent consistently by CYBERBIZ or your customer service system, which avoids duplicate replies.
+    - **Auto-response messages:** We recommend setting this to **Disabled**, so that messages are sent consistently by CYBERBIZ or your customer support system, which avoids duplicate replies.
 
 ![Set Up Webhook Connection](../../../../assets/images/ec-第三方整合-line-webhook-copy-past-line-dev.en.gif){ title="Set Up Webhook Connection" }
 
@@ -156,7 +156,7 @@ After you complete the basic integration, you can further configure the followin
 
 ### LINE Keyword Product Search { #intro-line-messaging-line-search-product }
 
-- **Feature description:** When enabled, customers can enter keywords in the LINE chat window (for example, necklace or coffee beans), and the system automatically replies with a list of related products from your online store.
+- **Feature description:** When enabled, customers can enter keywords in the LINE chat window (for example, necklace or coffee beans), and the system automatically replies with a list of related products from your storefront.
 
 - **Value:** Shorten the shopping path and turn your LINE Official Account into a mobile product discovery entry point.
 
@@ -166,7 +166,7 @@ After you complete the basic integration, you can further configure the followin
 
 ### Third-Party System Data Forwarding <small>Webhook Relay</small> { #intro-line-messaging-data-webhook-relay }
 
-- **Feature description:** If your LINE OA is also connected to other third-party platforms (for example, **Omnichat**, **Smarter**, or **Easychat**), you can set up a forwarding system in CYBERBIZ.
+- **Feature description:** If your LINE OA is also integrated to other third-party platforms (for example, **Omnichat**, **Smarter**, or **Easychat**), you can set up a forwarding system in CYBERBIZ.
 
 - **Technical specifications:** The system forwards the events it receives from LINE to the URLs you specify.
 
@@ -186,7 +186,7 @@ After you complete the basic integration, you can further configure the followin
 
 	- **Customer:** Registration successful, birthday gift, and bonus points updates.
 
-- **Prerequisite:** Consumers must first complete **LINE account binding** so the system can identify the UID and send personalized notifications.
+- **Prerequisite:** Customers must first complete **LINE account binding** so the system can identify the UID and send personalized notifications.
 
 For instructions, see [**LINE OA Message Template Setup**](../../../notifications/manage-line-oa-templates.md){ title="Set Up and Manage LINE OA Notification Templates" }.
 
@@ -200,21 +200,21 @@ For instructions, see [**LINE OA Message Template Setup**](../../../notification
 
 - :lucide-link-2:{ .lg }  
   [**Link LINE Account to Website Member**](bind-line-oa-store-members.md){ title="Link LINE Official Account to Website Member" }    
-  Learn how members complete LINE binding to receive notifications.
+  Learn how members complete LINE linking to receive notifications.
 
 </div>
 
-## Frequently Asked Questions { #faq-line-messaging }
+## FAQ { #faq-line-messaging }
 
 ??? quote "Why does an error appear when I click “Verify” to validate the Webhook?"
 	Check whether the **Webhook URL** contains `https` and whether there is a space at the beginning. LINE requires the Webhook to use the encrypted `https` protocol. Also, make sure the **Use webhook** toggle is set to **On**, and that the Webhook URL path is complete (for example: `/line_chat_bots/send_event`).
 
 ??? quote "After setup, why are order notifications still not sent?"
-	The main cause is usually that **the member has not completed LINE binding.** The Messaging API relies on the consumer's `UID` to identify the recipient. If a customer only follows the OA but has not bound their website member account, the system cannot retrieve the UID. We recommend placing a **LINE Quick Login** option in a prominent spot on your online store to improve binding rates.
+	The main cause is usually that **the member has not completed LINE binding.** The Messaging API relies on the customer's `UID` to identify the recipient. If a customer only follows the OA but has not linked their website member account, the system cannot retrieve the UID. We recommend placing a **LINE Quick Login** option in a prominent spot on your storefront to improve linking rates.
 
 ??? quote "Can Chat mode and Webhook coexist in LINE's response settings?"
-	To have CYBERBIZ send automatic notifications, you must set the mode to **Chatbot (Webhook)**. Once this mode is enabled, LINE's standard chat features are limited. If you need both manual customer service chat and automatic notifications, we recommend using the **Webhook Relay** feature to route messages to a customer service platform (for example, Omnichat).
+	To have CYBERBIZ send automatic notifications, you must set the mode to **Chatbot (Webhook)**. Once this mode is enabled, LINE's standard chat features are limited. If you need both manual customer support chat and automatic notifications, we recommend using the **Webhook Relay** feature to route messages to a customer support platform (for example, Omnichat).
 
 ??? quote "Do I need to reconfigure when I switch LINE Official Accounts?"
-	Yes. **Credentials are unique.** The Channel ID, Secret, and Token are all bound to a single LINE Channel. If you change accounts, you must re-enter the new credentials in the CYBERBIZ admin and update the Webhook URL to make sure data is routed correctly.
+	Yes. **Credentials are unique.** The Channel ID, Secret, and Token are all linked to a single LINE Channel. If you change accounts, you must re-enter the new credentials in the CYBERBIZ admin and update the Webhook URL to make sure data is routed correctly.
 

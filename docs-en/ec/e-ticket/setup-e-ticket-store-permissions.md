@@ -67,7 +67,7 @@ icon: lucide/user-check
 hide: []
 ---
 # Set up E-Ticket Store Permissions
-Set e-ticket redemption permissions and binding rules for different stores and partner brands, and manage store staff accounts.
+Set e-ticket redemption permissions and linking rules for different stores and partner brands, and manage store clerk accounts.
 { .subtitle }
 
 [:lucide-tag:{ title="Available Plans" }](../../../resources/conventions#適用方案) | All PLUS / Enterprise
@@ -88,8 +88,8 @@ E-ticket store management mainly supports OMO setups between a merchant and its 
 **Partner brand definition**:  
 If you work with other brands, you can create store accounts for each partner brand in the admin and limit their user permissions, so they can only operate on ticket products related to their own brand.
 
-**Store staff permissions**:  
-Accounts assigned as store staff have the following permissions:
+**Store clerk permissions**:  
+Accounts assigned as store clerks have the following permissions:
 
 - View ticket orders **bound to that store**.  
 - Redeem tickets bound to that store.
@@ -187,18 +187,18 @@ When you unbind, the system asks whether sold tickets can still be redeemed at t
 
 1. Log in to the CYBERBIZ admin and go to **Payment and Logistics > Store Pickup Settings**.
 2. Select the store you want to edit and click **Edit**.
-3. Switch to the **Eticket Binding Setting** tab and turn on **ETicket management store**.
+3. Switch to the **Eticket Binding Setting** tab and enable **ETicket management store**.
 
 ![](../../assets/images/ec-所有門市-電子票券管理門市.en.png)
 
-## Create E-Ticket Store Staff Accounts { #operate-ticket-permissions-staff-account }
+## Create E-Ticket Store Clerk Accounts { #operate-ticket-permissions-staff-account }
 
 !!! info "Store staff can only use the **E-Ticket Redemption List** and the **Redemption Page**. They can't change ticket settings or other permissions."
 
 1. Log in to the CYBERBIZ admin and go to **Website Management > User Account Settings > Manager List**.
 2. Click **New Branch Store Manager**.
-3. Under the **Branch Store** type, select **E-Ticket Store**. E-ticket store staff permissions are system defaults and can't be changed[^1].
-4. Enter the store staff member's user information. **Store staff** and **e-ticket store staff** are different roles and need separate accounts[^2].
+3. Under the **Branch Store** type, select **E-Ticket Store**. E-ticket store clerk permissions are system defaults and can't be changed[^1].
+4. Enter the store clerk's user information. **Store staff** and **e-ticket store staff** are different roles and need separate accounts[^2].
 5. Click **Add** to finish.
 
 [^1]: If you try to change them, the system shows the message "Branch store user permissions cannot be changed".
@@ -270,7 +270,7 @@ When unbinding, the merchant can choose one of these options:
 - **Option B: Allow sold tickets to still be redeemed at the originally bound store** (recommended)
 
     - Sold tickets can still be redeemed at store X-1.
-    - Newly sold tickets no longer apply to store X-1. This reduces disputes and the customer service workload.
+    - Newly sold tickets no longer apply to store X-1. This reduces disputes and the customer support workload.
 
 ## FAQ { #faq-ticket-permissions }
 

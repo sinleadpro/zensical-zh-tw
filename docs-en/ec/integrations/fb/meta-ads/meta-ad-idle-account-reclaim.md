@@ -111,7 +111,7 @@ Once an account enters the release process and is reclaimed:
 *   **Loss of access**: The original merchant **permanently loses operating access to the ad account**.
 *   **Reapplication**: If you still need to run ads later, you must **repeat the application process** to create a new ad account. For details, see the "[Create a Meta Ad Account and Complete a Top-Up](create-meta-ad-account-top-up.md){ title="Create a Meta ad account and top up" }" tutorial.
 
-!!! warning "Important Notice"
+!!! warning "Important"
     We recommend that merchants complete the minimum-threshold top-up soon after creating the account to keep the ad account stable and avoid losing account assets and permissions due to expiration.
 
 ## Next Steps { #next-steps-meta-reclaim }
@@ -128,7 +128,7 @@ Once an account enters the release process and is reclaimed:
 
 </div>
 
-## Frequently Asked Questions { #faq-meta-reclaim }
+## FAQ { #faq-meta-reclaim }
 
 ??? quote "How can I prevent my ad account from being released?"
 

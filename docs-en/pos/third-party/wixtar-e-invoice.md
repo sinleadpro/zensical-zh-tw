@@ -70,7 +70,7 @@ Learn how CYBERBIZ POS connects with Wixtar e-invoicing. This covers plan fee ca
 { .doc-badge }
 
 
-## Usage Notes { #prerequisites-wixtar-einvoice }
+## Before You Start { #prerequisites-wixtar-einvoice }
 
 - **Name change**: Meili Technology was renamed **Wixtar** in May 2024. The system interface and this document both use the new name.
 - **Payment restriction**: Only **credit card payment** is supported.
@@ -96,13 +96,13 @@ Learn how CYBERBIZ POS connects with Wixtar e-invoicing. This covers plan fee ca
 
 !!! info "Calculating Remaining Months Until UBN Expiry"
     - **Billing end date**: Billing always runs until the expiry date of the original verified UBN.
-    - **No charge for partial months**: If a terminal is activated in the middle of a month and the month is not fully used (for example, activated mid-month or at month end), that month is not charged. Remaining months start counting from the first day of the next month.
+    - **No charge for partial months**: If a terminal is enabled in the middle of a month and the month is not fully used (for example, enabled mid-month or at month end), that month is not charged. Remaining months start counting from the first day of the next month.
     - **Example**: Suppose your UBN verification expires on **Dec 31**:
 
         - **Scenario A (activated mid-month)**:
-          If you activate a terminal on **Aug 15**, August is not fully used, so the system will **not charge for August**. Billing starts on Sep 1 and runs through Dec 31. The remaining months are **4 months** (Sep, Oct, Nov, Dec).
+          If you enable a terminal on **Aug 15**, August is not fully used, so the system will **not charge for August**. Billing starts on Sep 1 and runs through Dec 31. The remaining months are **4 months** (Sep, Oct, Nov, Dec).
         - **Scenario B (activated at the start of the month)**:
-          If you activate a terminal on **Aug 1**, the full month of August is used, so billing starts in August. Billing runs from Aug 1 through Dec 31, and the remaining months are **5 months**.
+          If you enable a terminal on **Aug 1**, the full month of August is used, so billing starts in August. Billing runs from Aug 1 through Dec 31, and the remaining months are **5 months**.
 
 ### Checkout Amount Calculation { #specs-wixtar-einvoice-fees-checkout-total }
 
@@ -123,11 +123,11 @@ Learn how CYBERBIZ POS connects with Wixtar e-invoicing. This covers plan fee ca
 
 2. **Expansion within the same tier** (adding terminal 4 within the invoice validity period)
 
-    - **Merchant scenario**: After operating for a while, the store decides to officially activate POS terminal 4 for a holiday promotion.
+    - **Merchant scenario**: After operating for a while, the store decides to officially enable POS terminal 4 for a holiday promotion.
     - **Billing logic**:
         - Because terminals 3 and 4 were bundled into the same pricing tier and unlocked during the first purchase, and the merchant already paid that tier's fee.
     - **Formula**: Checkout amount = NT$0
-    - **Access granted**: The merchant does not need to pay extra. You can go directly to the back office to activate and bind POS terminal 4.
+    - **Access granted**: The merchant does not need to pay extra. You can go directly to the admin to activate and link POS terminal 4.
 
 3. **Adding across tiers again** (later store expansion requires terminal 5)
 
@@ -135,12 +135,12 @@ Learn how CYBERBIZ POS connects with Wixtar e-invoicing. This covers plan fee ca
     - **Billing logic**:
         - Terminal 5 exceeds the capacity of the previous tier (terminals 3-4), so the system automatically moves up and triggers billing for the next tier.
     - **Formula**: Checkout amount = terminal 5 POS fee (second-tier fee × remaining months until UBN expiry)
-    - **Access granted**: After payment, the system unlocks terminals 5 and 6 together, so the merchant gets access to both.
+    - **Access granted**: After payment, the system unlocks terminals 5 and 6 together, so the merchant gets permission to both.
 
 
 ## Operating Procedure { #operate-wixtar-einvoice }
 
-### Step 1: Set up POS Invoice Settings in the Back Office { #operate-wixtar-einvoice-step-a-admin }
+### Step 1: Set up POS Invoice Settings in the Admin { #operate-wixtar-einvoice-step-a-admin }
 
 Before purchasing a plan, you must first complete the initial setup of the invoice machine and service provider on the designated POS host.
 
@@ -161,18 +161,18 @@ After completing the initial setup, purchase the corresponding terminal licenses
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技02.png){ .screenshot }
 
-3. On the **Select POS Terminal** page, check the POS terminals you want to purchase.
+3. On the **Select POS Terminal** page, select the POS terminals you want to purchase.
 
     ![](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技03.png){ .screenshot }
 
-4. Go to the **Purchase Checkout** page and enter the contact and company invoice information.
+4. Go to the **Purchase Checkout** page and fill in the contact and company invoice information.
 
     - **Plan selection**: Choose a 1-year or 2-year term (first purchase includes 2 extra months).
     - **Payment method**: Complete payment with a credit card.
 
 	  ![](https://www.cyberbiz.io/support/wp-content/uploads/POS美麗科技04.png){ .screenshot }
 
-### Step 3: Connect and Activate { #operate-wixtar-einvoice-step-c-enable }
+### Step 3: Integrate and Enable { #operate-wixtar-einvoice-step-c-enable }
 
 After payment, get the authentication information from Wixtar and enter it in the CYBERBIZ admin panel.
 

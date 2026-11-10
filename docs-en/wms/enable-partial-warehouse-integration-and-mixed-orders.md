@@ -105,7 +105,7 @@ Customers add warehouse products and non-warehouse products to the same cart and
 
 ### Step 1: Activation and System Setup { #operate-partial-mixed-init }
 
-1. **Request the feature**: To use this feature, ask your store consultant or customer service to turn it on.
+1. **Request the feature**: To use this feature, ask your store consultant or customer support to turn it on.
 2. **Automatic changes**: When the feature is turned on, the system makes these changes:
     - All existing shipping fee settings change to **warehouse integration (warehouse shipping)**.
     - The default shipping method of all products changes to **warehouse shipping**.
@@ -156,7 +156,7 @@ Mixed logistics defines the rules for **orders that contain both warehouse and s
 
         - Self-shipped orders do not support cash on delivery.
 
-    4. **Warehouse-shipped orders**: The system sends the orders to WMS automatically. You only need to watch for shipping status updates.
+    4. **Warehouse-shipped orders**: The system sends the orders to WMS automatically. You only need to watch for delivery status updates.
 
 ### See Who Ships an Order { #operate-partial-mixed-source }
 
@@ -194,7 +194,7 @@ Because a mixed order has two shippers, its delivery status updates based on **h
 
 | Order Status | Return Allowed | Description |
 | :--- | :--- | :--- |
-| **Partially Shipped** | **No** | Mixed order returns all go back to the merchant. To avoid errors in refund amounts and shipping status from partial shipments, returns are blocked in this status |
+| **Partially Shipped** | **No** | Mixed order returns all go back to the merchant. To avoid errors in refund amounts and delivery status from partial shipments, returns are blocked in this status |
 | **Shipped** | **商家可<br>顧客否** | Only the merchant can start a return. Customers cannot request one on the storefront yet |
 | **Received** | **Both** | Both the merchant and the customer can start a return |
 

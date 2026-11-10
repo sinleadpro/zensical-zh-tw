@@ -65,7 +65,7 @@ hide: []
 
 When only some items in an order are in stock, "partial shipment" lets you ship those items to the customer first and ship the rest later under the same order, so the customer waits less.
 
-In the "Shipping" section of the order details page, select only **the items you're shipping now** instead of all items. The system automatically changes the order's delivery status to "Partially Shipped" and keeps the unshipped items for you to handle later.
+In the "Shipping" section of the order detail page, select only **the items you're shipping now** instead of all items. The system automatically changes the order's delivery status to "Partially Shipped" and keeps the unshipped items for you to handle later.
 
 !!! info "Tip"
     Each time you ship, the system sends the customer a shipping notification email **based on your selection** (selected by default), so the customer may receive several notifications.
@@ -84,7 +84,7 @@ Before a partial shipment, check the following requirements. If any isn't met, t
 
 ??? info "When Partial Shipment Isn't Supported"
 
-    In these cases, the "Shipping" section is hidden, or the drop-down doesn't list the matching logistics option.
+    In these cases, the "Shipping" section is hidden, or the dropdown doesn't list the matching logistics option.
 
     * **B2C bulk shipping orders** (convenience store orders through ECPay B2C bulk shipping logistics)
     * **Hi-Life B2C orders** (Hi-Life standard pickup / Cash on Delivery, not store-to-store)
@@ -96,9 +96,9 @@ Before a partial shipment, check the following requirements. If any isn't met, t
 
 ## Steps { #operate-partial-shipment }
 
-The following uses "EZCAT Shipping Label" as an example. The steps for other carriers (such as Pelican Express, SF Express, HCT Logistics, or custom shipping) are largely the same.
+The following uses "EZCAT Shipping Label" as an example. The steps for other carriers (such as Pelican, SF Express, HCT Logistics, or custom logistics) are largely the same.
 
-1. **Open the order details page:** Go to "Orders" > "All Orders" in the admin and click the "Order Number" of the order to partially ship.
+1. **Open the order detail page:** Go to "Orders" > "All Orders" in the admin and click the "Order Number" of the order to partially ship.
 2. **Select the items to ship now:** In the "Shipping" section, select the items to send first. To select all items at once, click "Select All"; to start over, click "Deselect All."
 
     ![Order details page - partial shipment](../../../assets/images/EC-訂單-訂單詳情頁-部分出貨.en.png){ title="Order Details Page: Partial Shipment" }
@@ -106,11 +106,11 @@ The following uses "EZCAT Shipping Label" as an example. The steps for other car
     !!! warning "Home Delivery Cash on Delivery (COD) Limitation"
           For "Cash on Delivery" orders, the partial shipment option isn't shown. To ship in multiple boxes, use "Print Extra Shipping Labels" instead so the collected amount is correctly split across tracking numbers.
 
-3. **Choose a shipping method:** In the "Select Shipping Method" drop-down below, choose the logistics service to use (such as "EZCAT Shipping Label").
+3. **Choose a shipping method:** In the "Select Shipping Method" dropdown below, choose the logistics service to use (such as "EZCAT Shipping Label").
 
     !!! note "The drop-down shows only activated logistics methods and options available for this order."
 
-4. **Choose a shipping fee option:** In the "Select a fee" drop-down, choose the matching shipping label option (such as a weight or size range).
+4. **Choose a shipping fee option:** In the "Select a fee" dropdown, choose the matching shipping label option (such as a weight or size range).
 
     !!! note "After the shipping label is created, the system automatically deducts the matching logistics points."
 
@@ -128,7 +128,7 @@ The following uses "EZCAT Shipping Label" as an example. The steps for other car
       ![Order list - delivery status - partially shipped](../../../assets/images/EC-訂單-所有訂單-配送狀態-部分出貨.en.png){ title="Order List: Delivery Status Partially Shipped" }
 
     !!! info "Cancellation Limitation"
-        You can't delete created shipping labels yourself in the admin. If you make a mistake (such as the wrong logistics service or items), contact CYBERBIZ customer service to cancel it.
+        You can't delete created shipping labels yourself in the admin. If you make a mistake (such as the wrong logistics service or items), contact CYBERBIZ customer support to cancel it.
 
 ## Ship the Remaining Items { #operate-partial-shipment-resume }
 
@@ -152,7 +152,7 @@ When the out-of-stock items are restocked, go back to the same order and [repeat
 
 When you use a third-party carrier you work with or deliver orders yourself (for details, see [How to Ship with Custom Logistics](custom-logistic-shipping.md){ title="How to Ship with Custom Logistics" }):
 
-1. In the "Select Shipping Method" drop-down, choose "Custom Shipping Method."
+1. In the "Select Shipping Method" dropdown, choose "Custom Shipping Method."
 2. The system shows a "Tracking Number" field and a carrier menu.
 3. Enter the "Tracking Number" for these items and choose the matching carrier.
 4. Click "Confirm Shipment."
@@ -162,7 +162,7 @@ When you use a third-party carrier you work with or deliver orders yourself (for
 ### CYBERBIZ NOW Quick Delivery <small>Store Fulfillment</small> { #operate-partial-shipment-cyberbiz-now }
 
 - **Where to go**: Quick Delivery orders are handled in "Store Orders." Don't process them in the "All Orders" list.
-- **Out-of-stock handling**: If the store doesn't have enough stock, select the items actually in stock and ship them first. For details, see [Partial Delivery or Cancellation for Out-of-Stock Orders](../../orders/out-of-stock-partial-shipping-or-cancellation.md){ title="Partial Delivery or Cancellation for Out-of-Stock Orders" }.
+- **Out-of-stock handling**: If the store doesn't have enough inventory, select the items actually in stock and ship them first. For details, see [Partial Delivery or Cancellation for Out-of-Stock Orders](../../orders/out-of-stock-partial-shipping-or-cancellation.md){ title="Partial Delivery or Cancellation for Out-of-Stock Orders" }.
 
 !!! warning "Shipment Limit"
     By default, Quick Delivery orders **can ship only once per order**. After you select items and confirm the shipment, the remaining items can't ship, and they must go through the **return and refund** process. Contact the customer and agree on a plan first, so repeated refunds don't hurt their experience.
@@ -194,7 +194,7 @@ If you're splitting a shipment **not because items are out of stock**, but becau
 
 ??? quote "Can I cancel after shipping?"
 
-    You **can't cancel** created shipping labels yourself in the admin. If you selected the wrong items or logistics service, or shipping points were deducted incorrectly, contact CYBERBIZ customer service.
+    You **can't cancel** created shipping labels yourself in the admin. If you selected the wrong items or logistics service, or shipping points were deducted incorrectly, contact CYBERBIZ customer support.
 
 ??? quote "Does the order change to "Shipped" automatically after a partial shipment?"
 
@@ -210,7 +210,7 @@ If you're splitting a shipment **not because items are out of stock**, but becau
 
 ??? quote "How do I ship the remaining items after a partial shipment?"
 
-    Go back to the same order details page and repeat the partial shipment steps:
+    Go back to the same order detail page and repeat the partial shipment steps:
 
     1. Go to "Orders" > "All Orders" and click the order number of an order with status "Partially Shipped."
     2. Select the remaining items to ship now.

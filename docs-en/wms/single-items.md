@@ -88,12 +88,12 @@ Before a new product enters the warehouse, create its record in the WMS admin pa
 2. Click **Add Product** in the upper-right corner.
 
 3. **Basic settings**:
-    - **Product name (required)**: We recommend using the same name as on your online store.
+    - **Product name (required)**: We recommend using the same name as on your storefront.
     - **Barcode (Required)**: Enter the barcode on the product packaging (letters and numbers only, no symbols).
     - **Product Uid (Required)**: Enter the product's unique ID code.
 
         !!! info "Online Store Integration Tip"
-            If your warehouse system is connected to a CYBERBIZ online store, this field must match the **product SKU** in the online store admin panel.
+            If your warehouse system is connected to a CYBERBIZ storefront, this field must match the **product SKU** in the online store admin panel.
             To find the SKU, log in to the online store admin panel, go to **Products > All Products**, and open the product details page. The SKU is shown in the variant information.
 
     - **Storage temperature zone**: Choose the temperature at which the product is stored.
@@ -108,7 +108,7 @@ Before a new product enters the warehouse, create its record in the WMS admin pa
 5. **Advanced settings**:
       - **Valid Period**: Enter the number of valid days (for example, 1095 days for three years).
       - **Expiration Action**: Choose what the system does after the product expires (keep or destroy).
-      - **Low Stock Threshold**: Set a threshold. When stock falls below it, the system sends a reminder email every day.
+      - **Low Stock Threshold**: Set a threshold. When inventory falls below it, the system sends a reminder email every day.
       - **Shortest shelf life of good products**: Set the shortest remaining shelf life allowed for shipping, to help you plan for near-expiry stock.
       - **Air transport restricted goods**: Select this if the product contains batteries, sprays, or similar items, to meet carrier rules.
       - **Vendor**: Choose the product's vendor. To add a vendor, go to **Vendors** and [create the vendor record](suppliers.md).
@@ -125,14 +125,14 @@ Before a new product enters the warehouse, create its record in the WMS admin pa
 ![](../assets/images/WMS-後台-商品-單一品項-單筆新增品項01.en.png){ .screenshot }
 
 
-## Check Product Stock { #operate-single-items-query }
+## Check Product Inventory { #operate-single-items-query }
 
-After you create a product, check its real-time stock in the **Product Stock List**.
+After you create a product, check its real-time inventory in the **Product Stock List**.
 
 
 - **Batch management**: To track manufacturing batches closely, view the receiving details of each batch here.
 - **Key numbers**:
-    - **Pcs**: Total physical stock minus **defective units** and units **reserved for shipping (allocated to orders)**.
+    - **Pcs**: Total physical inventory minus **defective units** and units **reserved for shipping (allocated to orders)**.
     - **Locked Pcs**: Units locked by orders that have not physically left the warehouse yet.
     - **Shipped**: The total number of units shipped since the product entered the warehouse.
 
@@ -158,7 +158,7 @@ Export the summaries regularly for stocktaking and data updates.
 1. Go to **Products > 單一品項** and click **Export** in the upper-right corner.
 2. Choose an export type:
     - **Product Information List**: Contains the basic product master data. Edit it and import it again to update existing products in batches.
-    - **Product Inventory List**: Contains the real-time total stock and reserved quantities in the warehouse, so you can reconcile your records.
+    - **Product Inventory List**: Contains the real-time total inventory and reserved quantities in the warehouse, so you can reconcile your records.
 
 ## FAQ { #faq-single-items }
 

@@ -73,23 +73,23 @@ Send shipping instructions straight to the warehouse when you need to ship order
 ## Use Cases { #intro-manual-order }
 
 - **Multi-channel shipping**: Ship orders from channels not integrated with CYBERBIZ (such as Shopee or momo).
-- **Warehouse returns to you**: Move stock from the warehouse back to your business for business changes or trade shows.
+- **Warehouse returns to you**: Move inventory from the warehouse back to your business for business changes or trade shows.
 - **Urgent shipping**: In special cases, skip the system's automatic order pickup and create a shipping task manually.
 
 
 ## Steps { #operate-manual-order }
 
-### Step 1: Enter Basic Order Information { #operate-manual-order-basic }
+### Step 1: Fill in Basic Order Information { #operate-manual-order-basic }
 
 Go to **Orders > 手動建單** and enter the order's source and schedule.
 
-1. **Basic data**: Enter the **order number** and **recipient information**.
+1. **Basic data**: Fill in the **order number** and **recipient information**.
 2. **Choose a channel**: Select the order's sales channel. If you have not added it yet, [create the channel](channels.md) first.
 3. **Scheduled Shipping Date**:
     - This is the **date the warehouse plans to ship**, not the delivery date. Allow time for delivery.
     - To schedule shipping for a future date, choose **the day before** the **expected delivery date**.
 4. **Notes**:
-    - **Note**: This text is printed on the waybill and **is visible to the customer and the courier**. Use it for special delivery requests.
+    - **Note**: This text is printed on the shipping label and **is visible to the customer and the courier**. Use it for special delivery requests.
 
 
 ### Step 2: Set Delivery Information { #operate-manual-order-delivery }
@@ -107,15 +107,15 @@ Fill in the recipient details for the shipping method the customer chose.
 
 #### 2. Convenience Store Pickup { #operate-manual-order-cvs }
 
-- **Supported stores**: 7-ELEVEN, FamilyMart, and Hi-Life.
+- **Supported stores**: 7-11, FamilyMart, and Hi-Life.
 - **Required fields**: **Convenient Store Id** and order total.
-- **COD**: Choose whether the store collects payment.
+- **COD**: Select whether the store collects payment.
 
 #### 3. Warehouse Pickup { #operate-manual-order-pickup }
 
-- **Address**: Enter the **warehouse address** in the address field.
-- **Note**: In the **Shipping Note** field, be sure to enter **Self Pickup**.
-- **Optional fields**: Enter the order total if needed.
+- **Address**: Fill in the **warehouse address** in the address field.
+- **Note**: In the **Shipping Note** field, be sure to fill in **Self Pickup**.
+- **Optional fields**: Fill in the order total if needed.
 
 !!! tip "How Can I Keep an Order Editable?"
     If you expect changes after you create the order, select **Pending** when you create it. The order then stays **Pending** until you confirm the details and start shipping manually.
@@ -151,9 +151,9 @@ When you create an order for a product with expiry management, choose an allocat
 
 === "Shortest Single Expiry"
 
-    - **How the system allocates**: Starting from the date you set, it finds one expiry batch with enough stock and ships it all from that batch.
+    - **How the system allocates**: Starting from the date you set, it finds one expiry batch with enough inventory and ships it all from that batch.
     - **What your date means**: The earliest expiry date you accept (inclusive).
-    - **When stock is short**: It moves to the next expiry batch with enough stock. Once allocated, it does not switch back even if the original batch is restocked later.
+    - **When stock is short**: It moves to the next expiry batch with enough inventory. Once allocated, it does not switch back even if the original batch is restocked later.
 
 
 === "Specific Expiry"

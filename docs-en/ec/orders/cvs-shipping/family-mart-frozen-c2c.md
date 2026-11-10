@@ -75,13 +75,13 @@ hide:
 
 ## About FamilyMart Frozen C2C Store-to-Store Shipping { #intro-fm-frozen-c2c }
 
-FamilyMart frozen store-to-store (C2C) lets you easily manage frozen product sales and inventory, receive and ship orders from the admin, and deliver quickly to the store the shopper chose, boosting sales and customer satisfaction.
+FamilyMart frozen store-to-store (C2C) lets you easily manage frozen product sales and inventory, receive and ship orders from the admin, and deliver quickly to the store the customer chose, boosting sales and customer satisfaction.
 
 With FamilyMart frozen store-to-store (C2C), you can:
 
 - Manage frozen product inventory and orders
 - Complete store-to-store delivery quickly
-- Give shoppers more pickup options
+- Give customers more pickup options
 - Grow frozen product sales and revenue
 
 ## Prerequisites and Limitations { #prerequisites-fm-frozen-c2c }
@@ -118,11 +118,11 @@ Frozen packages have strict size and temperature limits. If they don't meet the 
 
 ### Set Up in the Admin { #operate-fm-frozen-c2c-admin-setup }
 
-Before shipping, turn on the service in the system.
+Before shipping, enable the service in the system.
 
-1. **Open the settings page**: Sign in to the CYBERBIZ admin, go to **Payment and Logistics > Convenience Store Logistics**, and click **FamilyMart Frozen Store-to-Store**.
+1. **Open the setup page**: Sign in to the CYBERBIZ admin, go to **Payment and Logistics > Convenience Store Logistics**, and click **FamilyMart Frozen Store-to-Store**.
 2. **Accept the terms**: Read and agree to the "CYBERBIZ Logistics Integration Terms of Service" and "FamilyMart Contract Terms."
-3. **Enter sender information**: Enter the **sender's real name and mobile number** correctly, because if a package is returned, store staff check ID before releasing it.
+3. **Fill in sender information**: Fill in the **sender's real name and mobile number** correctly, because if a package is returned, store staff check ID before releasing it.
 4. **Set fees and payment**: Enter the shipping fee and free shipping threshold, and turn on "Cash on Delivery" (only for merchants with CYBERBIZ PAYMENTS) or "Pickup Without Payment" as needed.
 
 ![Frozen store-to-store settings](../../../assets/images/ec-金物流-超商物流-全家冷凍店到店設定.en.gif){ title="Frozen Store-to-Store Settings" }
@@ -140,10 +140,10 @@ Before shipping, turn on the service in the system.
 
 ## Exceptions and Special Cases { #operate-fm-frozen-c2c-exceptions }
 
-- **Store closure**: If the pickup store closes, contact the shopper within **6 days** of the notice and choose a new store in the admin.
-- **Unclaimed packages**: If the shopper doesn't pick up within 4 days, the package goes back to the original sender store. Pick it up within **4 days** at no extra shipping cost. If you don't pick it up after 4 days, it goes back to the logistics center and is sent to your address by **home delivery, freight collect**.
+- **Store closure**: If the pickup store closes, contact the customer within **6 days** of the notice and choose a new store in the admin.
+- **Unclaimed packages**: If the customer doesn't pick up within 4 days, the package goes back to the original sender store. Pick it up within **4 days** at no extra shipping cost. If you don't pick it up after 4 days, it goes back to the logistics center and is sent to your address by **home delivery, freight collect**.
 - **Prohibited items**: Cash, securities, fragile items, electronics (computers, phones, and so on), live animals and plants, or products worth more than NT$5,000.
-- **Shipping exceptions**: For shipping exceptions, first [check the package status on the convenience store site :lucide-external-link:](https://fmec.famiport.com.tw/FP_Entrance/QueryBox). If you still have questions, ask through the customer service system in the CYBERBIZ admin.  
+- **Shipping exceptions**: For shipping exceptions, first [check the package status on the convenience store site :lucide-external-link:](https://fmec.famiport.com.tw/FP_Entrance/QueryBox). If you still have questions, ask through the customer support system in the CYBERBIZ admin.  
 
 !!! info "**Important:** The **maximum compensation for a lost or damaged frozen store-to-store package is NT$5,000**."
 
@@ -152,7 +152,7 @@ Before shipping, turn on the service in the system.
 If a label is lost or damaged, you can reprint it in the admin within the deadline.
 
 1. In the order list, select the orders to reprint.
-2. Open the **More Actions** drop-down and select **Reprint Shipping Label**.
+2. Open the **More Actions** dropdown and select **Reprint Shipping Label**.
 3. The system downloads the PDF with the same tracking number again. **Shipping isn't charged again**, and the order status doesn't change.
 
 <div class="grid cards" markdown>
@@ -172,7 +172,7 @@ If a label is lost or damaged, you can reprint it in the admin within the deadli
 ??? quote "What happens if the shopper doesn't pick up the package in time?"  
 	- The package goes back to the original sender store. Pick it up within **4 days** at no extra shipping cost.  
 	- If you don't pick it up after 4 days, the package goes back to the logistics center and is sent to your address by **home delivery, freight collect**.  
-	- The shopper receives a system notification reminding them to pick up or about the return.
+	- The customer receives a system notification reminding them to pick up or about the return.
 
 ??? quote "Are there size or weight limits for frozen products?"  
 	- **S60 size**: Each side ≤ 45 cm, total weight ≤ 5 kg.  
@@ -186,4 +186,4 @@ If a label is lost or damaged, you can reprint it in the admin within the deadli
 	If the store closes or pickup isn't possible, sign in to the admin within **6 days** of the notice and choose a new store for pickup.
 
 ??? quote "What if there's a shipping exception with a tracking number?"  
-	Use [FamilyMart FamiPort to check the package status](https://fmec.famiport.com.tw/FP_Entrance/QueryBox). If you still have problems, contact CYBERBIZ admin customer service.
+	Use [FamilyMart FamiPort to check the package status](https://fmec.famiport.com.tw/FP_Entrance/QueryBox). If you still have problems, contact CYBERBIZ admin customer support.

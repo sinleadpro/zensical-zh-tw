@@ -75,7 +75,7 @@ hide: []
 
 ## About SF Express Shipping { #intro-sf }
 
-In the CYBERBIZ admin, you can download **S.F. Express shipping labels** for orders with the "SF Express" delivery method, in bulk or one at a time, and change their delivery status to "Shipped" at the same time. The system gets tracking numbers from SF Express in real time, so you don't need handwritten labels or to sign in to the SF Express system separately.
+In the CYBERBIZ admin, you can download **S.F. Express shipping labels** for orders with the "SF Express" delivery method, in batches or one at a time, and change their delivery status to "Shipped" at the same time. The system gets tracking numbers from SF Express in real time, so you don't need handwritten labels or to sign in to the SF Express system separately.
 
 The downloaded ZIP archive contains shipping labels you can stick directly on packages. International shipments also include a **commercial invoice** for export customs declaration.
 
@@ -103,17 +103,17 @@ Before using SF Express shipping labels for the first time, complete the followi
 ### Payment Status Requirements { #prerequisites-sf-payment }
 
 * The order's payment status must be **Paid**.
-* **SF Express doesn't support Cash on Delivery**. For Cash on Delivery, use [EZCAT, Pelican Express, or HCT Logistics Cash on Delivery](../../payments-and-logistics/home-delivery-cash-on-delivery.md).
+* **SF Express doesn't support Cash on Delivery**. For Cash on Delivery, use [T-CAT, Pelican, or HCT Logistics Cash on Delivery](../../payments-and-logistics/home-delivery-cash-on-delivery.md).
 
 ## Steps { #operate-sf }
 
-### Download SF Express Shipping Labels in Bulk { #operate-sf-bulk-shipping }
+### Download SF Express Shipping Labels in Batch { #operate-sf-bulk-shipping }
 
 Process multiple SF Express orders at once, printing shipping labels and updating the delivery status to "Shipped."
 
 1. **Go to the order list**: Go to "Orders" > "All Orders" in the admin.
 2. **Select orders**: Select the orders to ship. **All selected orders must use SF Express as the delivery method[^2]**.
-3. **Choose an action**: Open the **"Actions"** drop-down above the list and select **"Download SF Express Shipping Labels and Change Delivery Status to 'Shipped'"**.
+3. **Choose an action**: Open the **"Actions"** dropdown above the list and select **"Download SF Express Shipping Labels and Change Delivery Status to 'Shipped'"**.
 
     ![Download SF Express shipping labels](../../../assets/images/ec-orders-sf-waybill-download.en.png){ title="Download SF Express Shipping Labels"}
 
@@ -128,7 +128,7 @@ Process multiple SF Express orders at once, printing shipping labels and updatin
 5. **Read the notes**: The window lists shipping reminders[^5]. Read them before continuing.
 6. **Agree to the terms**: Select **"I have read and agree to the CYBERBIZ Logistics Integration Terms of Service and SF Express contract terms"** (selected by default) to enable the confirm button.
 7. **Click "Download"**: The system calls SF Express to get a tracking number for each selected order and downloads a ZIP [archive](#reference-sf-bulk-shipping-files).
-8. **Check the results**: After the download, the delivery status of those orders in the order list changes to **"[Shipped (Awaiting Carrier Pickup)](shipping-status-tooltip.md#reference-shipping-status){ title="Shipment Status Tooltip Text" data-preview }"**, and the tracking number is recorded on the order details page.
+8. **Check the results**: After the download, the delivery status of those orders in the order list changes to **"[Shipped (Awaiting Carrier Pickup)](shipping-status-tooltip.md#reference-shipping-status){ title="Shipment Status Tooltip Text" data-preview }"**, and the tracking number is recorded on the order detail page.
 
 [^2]: Otherwise, the system blocks the action and shows "Order X doesn't support SF Express shipping labels."
 [^3]: The system determines the size to charge automatically from the volume of the order items; you don't need to choose it.
@@ -157,7 +157,7 @@ After a successful download, the ZIP contains the following:
 
 ### Partial Shipment { #operate-sf-partial-shipping }
 
-When only some items in an order can ship first, open the **order details page**, select the items to ship in the "Shipping" section, choose **SF Express shipping label** in the "Select Shipping Method" drop-down, and click "Confirm Shipment."
+When only some items in an order can ship first, open the **order details page**, select the items to ship in the "Shipping" section, choose **SF Express shipping label** in the "Select Shipping Method" dropdown, and click "Confirm Shipment."
 
 For the full partial shipment process (shared by all logistics services), see [Partial Shipment for Orders](partial-shipment-v2.md){ title="Set Up Partial Shipment for Orders" }.
 
@@ -232,7 +232,7 @@ If a customer refuses the package, SF Express **collects the return shipping fee
 ??? quote "Can I ship international and domestic orders together?"
     [](){ #faq-sf-mixed-shipment }
 
-    We recommend **handling them separately**. International and domestic shipments have different sizes in the "Select a fee" drop-down. The system shows size options based on the selected orders' recipient addresses, so mixed selections may have no common size.
+    We recommend **handling them separately**. International and domestic shipments have different sizes in the "Select a fee" dropdown. The system shows size options based on the selected orders' recipient addresses, so mixed selections may have no common size.
 
 ??? quote "Can I print the downloaded shipping labels on A4 paper, or do I need special stickers?"
     [](){ #faq-sf-paper-type }

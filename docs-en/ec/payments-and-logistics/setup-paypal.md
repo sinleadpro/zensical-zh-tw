@@ -68,7 +68,7 @@ hide:
 
 ## About PayPal { #intro-paypal }
 
-PayPal is a globally recognized online payment platform that lets consumers pay with credit cards, debit cards, or their PayPal balance. With PayPal, merchants can receive payments securely and quickly, and accept transactions in multiple currencies.
+PayPal is a globally recognized online payment platform that lets customers pay with credit cards, debit cards, or their PayPal balance. With PayPal, merchants can receive payments securely and quickly, and accept transactions in multiple currencies.
 
 !!! example "Use Cases"
 
@@ -79,7 +79,7 @@ PayPal is a globally recognized online payment platform that lets consumers pay 
 
 - **Regulatory restrictions**: Taiwan merchants can only process cross-border transactions. Domestic transactions within Taiwan are not supported. Customers with foreign credit cards can pay with PayPal.
 - **Automatic refunds**: The system supports automatic refunds within **180 days** of payment. After this period, merchants must process refunds manually.
-- **Transaction fees**: Fees vary by the consumer's card-issuing country (domestic or international transactions). For exact amounts, see your PayPal statement.
+- **Transaction fees**: Fees vary by the customer's card-issuing country (domestic or international transactions). For exact amounts, see your PayPal statement.
 - **Threshold**: Set minimum and maximum PayPal transaction amounts to avoid high fees on small orders.
 
 ## Setup Steps { #operate-paypal }
@@ -133,7 +133,7 @@ PayPal is a globally recognized online payment platform that lets consumers pay 
 
 3. **Link Shipping Methods**  
 	- Go to **Payment and Logistics > Delivery Settings**
-	- Edit the related shipping methods, check the newly added PayPal payment option, and make sure it is available on the storefront
+	- Edit the related shipping methods, select the newly added PayPal payment option, and make sure it is available on the storefront
 
 	!!! warning "If the new payment option is not linked to a shipping method, the storefront will not display this payment method."
 
