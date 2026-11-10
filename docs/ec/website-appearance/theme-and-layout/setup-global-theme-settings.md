@@ -292,31 +292,87 @@ hide:
 !!! plan "功能限制"
     部分功能需特定方案方可使用，已標示於各項目標題。
 
-此區設定會 **套用到全站所有商品列表與商品頁**（首頁商品區塊、商品群組頁、多層級分類、搜尋頁、商品詳情頁等），統一商品卡片與價格的呈現方式，不需逐一設定每件商品。相關設定請分別參閱：[基本顯示選項](#operate-global-settings-product-display-basic)、[版面與樣式設定](#operate-global-settings-product-layout)、[圖片與懸停效果](#operate-global-settings-product-image-effects)。
+此區一次設定前台商品的顯示方式。依要調整的內容，往下查看：
+
+- [基本顯示選項](#operate-global-settings-product-display-basic)
+- [版面與樣式設定](#operate-global-settings-product-layout)
+- [圖片與懸停效果](#operate-global-settings-product-image-effects)
+- [商品標籤貼紙](#operate-global-settings-product-labels)
 
 #### 基本顯示選項 { #operate-global-settings-product-display-basic }
 
 依需求啟用以下項目：
 
-- **顯示商品標語：** 在商品圖／名稱下方顯示商品特色或促銷標語。[查看設定教學](../../products/create-and-manage/edit-product-slogan-and-description.md){ title="編輯商品簡述與商品標語" }
+=== "顯示商品標語"
 
-    ![顯示商品標語](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-顯示商品標語.png)
+    - **顯示商品標語：** 在商品圖／名稱下方顯示商品特色或促銷標語。[查看設定教學](../../products/create-and-manage/edit-product-slogan-and-description.md){ title="編輯商品簡述與商品標語" }
 
-- **顯示商品色票小圖 `企業版`：** 在商品群組頁與多層級分類頁顯示款式顏色小圖。[查看設定教學](../../products/create-and-manage/product-swatches-variant-images-drag-drop.md){ title="設定商品色票與款式圖片-拖拉版型" }
+        ![顯示商品標語](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-顯示商品標語.png)
 
-    ![顯示商品色票小圖](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-顯示商品色票小圖.png)
+        顯示位置：
 
-- **顯示已銷售數量：** 在商品名稱下方顯示累計銷售數量，營造熱銷感。
+        * 首頁商品分類區塊的商品圖下方
+        * 商品群組頁
+        * 商品頁面
+        * 搜尋頁
+        * 任選折扣頁
+        * 紅配綠活動頁
 
-    ![商品顯示行為-已銷售數量](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-顯示商品已銷售數量.png)
 
-- **顯示商品開賣時間 `PLUS版 / 企業版`：** 商品已設定上架時間但尚未開賣時，前台顯示開賣倒數（紅利商城頁除外）。
+=== "顯示商品色票小圖"
 
-    ![商品顯示行為-開賣時間](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-顯示商品開賣時間.png)
+    - **顯示商品色票小圖 `企業版`：** 在商品群組頁與多層級分類頁顯示款式顏色小圖。[查看設定教學](../../products/create-and-manage/product-swatches-variant-images-drag-drop.md){ title="設定商品色票與款式圖片-拖拉版型" }
 
-- **顯示商品價格區間：** 多款式不同價時，以「最低～最高」區間顯示售價並隱藏定價；未開啟則顯示最低售價＋定價。
+        ![顯示商品色票小圖](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-顯示商品色票小圖.png)
 
-    ![商品顯示行為-價格區間](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-顯示商品價格區間.png)
+        顯示位置：
+
+        * 商品群組頁
+        * 商品多層級分類頁
+
+=== "顯示已銷售數量"
+
+    - **顯示已銷售數量：** 在商品名稱下方顯示累計銷售數量，營造熱銷感。
+
+        ![商品顯示行為-已銷售數量](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-顯示商品已銷售數量.png)
+
+        顯示位置：
+
+        * 首頁商品分類區塊的商品圖下方
+        * 商品群組頁
+        * 商品頁面
+        * 搜尋頁
+
+=== "顯示商品開賣時間"
+
+    - **顯示商品開賣時間 `PLUS版 / 企業版`：** 商品已設定上架時間但尚未開賣時，前台顯示開賣倒數（紅利商城頁除外）。
+
+        ![商品顯示行為-開賣時間](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-顯示商品開賣時間.png)
+
+        顯示位置：
+
+        * 首頁
+        * 商品群組頁
+        * 商品頁面
+        * 商品頁相關商品區域
+        * 商品多層級分類頁
+        * 搜尋頁
+        * 任選折扣頁面
+
+
+=== "顯示商品價格區間"
+
+    - **顯示商品價格區間：** 多款式不同價時，以「最低～最高」區間顯示售價並隱藏定價；未開啟則顯示最低售價＋定價。
+
+        ![商品顯示行為-價格區間](../../../assets/images/ec-網站外觀-拖拉版型編輯器-全站設定-顯示商品價格區間.png)
+
+        **顯示位置** ：  
+
+        * 商品群組頁
+        * 商品頁面
+        * 商品彈窗
+        * 搜尋頁
+
 
     !!! warning "注意"
         已開啟「預設點選第一個款式」的商品頁、商品彈窗、首頁主打商品不適用。
@@ -381,7 +437,7 @@ hide:
 
 ---
 
-### 商品標籤貼紙 { #operate-global-settings-product-labels }
+#### 商品標籤貼紙 { #operate-global-settings-product-labels }
 
 === "專業（含PLUS）、進階（含PLUS）、高手"
 
@@ -395,7 +451,7 @@ hide:
 === "高手PLUS、企業"
 
 
-    #### 標籤類型與適用版本 { #specs-global-settings-product-labels-types }
+    ##### 標籤類型與適用版本 { #specs-global-settings-product-labels-types }
 
     | 標籤類型 | 適用版本 | 可設定數量 | 樣式選項 | 
     | ------- | ------- | ---------- | ------- | 
@@ -404,7 +460,7 @@ hide:
     | **定期定額標籤** | 高手PLUS<br>企業 | 1 個 | 圖片<br>文字 | 
     | **自定義標籤** | 企業 | 至多 30 個<br>每個商品至多貼 5 個標籤[^2] | 圖片<br>文字 | 
 
-    #### 套用規則 { #specs-global-settings-product-labels-rules }
+    ##### 套用規則 { #specs-global-settings-product-labels-rules }
 
     | 標籤類型 | 套用規則 | 標籤類型 | 說明 | 
     | ------- | ------- | ------- | ------- |
@@ -414,7 +470,7 @@ hide:
     | **自定義標籤** | 自定義標籤需與後台商品標籤進行綁定，綁定完成後，該自定義標籤將自動套用至所有包含此商品標籤的商品<br> [查看設定教學](../../products/categories-and-tags/manage-product-tags.md){ title="管理商品標籤" } | 自訂標籤 | 可設定公開 / 不公開<br>可新增或刪除 |
 
 
-    #### 操作步驟 { #operate-global-settings-product-labels-step }
+    ##### 操作步驟 { #operate-global-settings-product-labels-step }
 
     1. 在「全站設定」中點擊 **「商品標籤列表」** 進入設定頁。
 
