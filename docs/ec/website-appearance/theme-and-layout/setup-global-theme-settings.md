@@ -389,7 +389,7 @@ hide:
     - **折扣貼紙(特價標籤)**：當商品任一款式售價小於定價，則自動顯示。若勾起 **顯示定期定額活動標籤**，則不套用此處設定。
     - **圖片寬長比例**：請依照您上傳的商品圖片來選擇呈現比例。(若有商品上下留有空白，建議可先更換呈現比例)
 
-    ![折扣貼紙](https://www.cyberbiz.io/support/wp-content/uploads/拖拉版型-功能介紹13.png)
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/拖拉版型-功能介紹13.png)
 
 
 === "高手PLUS、企業"
