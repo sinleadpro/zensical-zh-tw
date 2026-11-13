@@ -109,37 +109,8 @@ hide: []
 
 ![指標卡基準參考範圍](../../assets/images/ec-bi-overview-metric-cards-small.png){ title="指標卡基準參考範圍" }
 
-!!! tip "提升各指標的線上課程"
-    可前往 [CYBERBIZ 商學院](https://tutorcyb.cyberbiz.co/) 尋找流量、轉換率、客單價、回購率相關的學習資源。
 
 !!! info "數據更新時間"
     - 流量與轉換率數據於隔日下午 17:30 更新。
     - 其餘數據（訂單、營業額等）則於隔日凌晨 00:00 更新並排除取消或退貨訂單。
     - 若商家有串接 POS 系統，可切換至「POS 總覽」頁籤查看實體店面的相關分析。
-
-## 後續操作 { #next-steps-benchmarking }
-
-當您找出待優化的指標後，可參考以下資源加強對應能力：
-
-!!! tip "最新課程"
-    歡迎報名最新[線上課程](https://calendar.google.com/calendar/embed?src=c_dcbc263418b00a759f10a7e6e5af98bbbed5686e86ae96ac333b17739c3f08a2%40group.calendar.google.com&ctz=Asia%2FTaipei)！
-
-<div class="grid cards" markdown>
-
-- :lucide-mouse-pointer-click:{ .lg }  
-  [__提升流量__](https://tutorcyb.cyberbiz.co/search?tab=programs&tag=流量篇)  
-  學習 SEO、廣告與社群導流，把更多顧客帶進商店。
-
-- :lucide-percent:{ .lg }  
-  [__提升轉換率__](https://tutorcyb.cyberbiz.co/search?tab=programs&tag=轉換率)  
-  優化商品頁與結帳流程，讓更多流量轉為訂單。
-
-- :lucide-receipt:{ .lg }  
-  [__提升客單價__](https://tutorcyb.cyberbiz.co/search?tab=programs&tag=AOV)  
-  運用加價購、組合銷售等方式提高每筆訂單金額。
-
-- :lucide-repeat:{ .lg }  
-  [__提升回購率__](https://tutorcyb.cyberbiz.co/search?tab=programs&tag=回購率)  
-  透過會員經營與再行銷，讓顧客回頭再次下單。
-
-</div>
