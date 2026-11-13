@@ -92,7 +92,7 @@ hide: []
 - **推薦人綁定總覽**：依門市顯示所有門市人員的總綁定會員數。
 - **綁定會員的詳細資料**：依門市人員顯示所有與其有綁定關係的會員。
     - 綁定店員、姓名、手機號碼、email、綁定時間以及綁定類型。
-![推薦人報表](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-業績報表02.png)
+![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-業績報表02.png)
 
 > 報表內容將視綁定歸因層級，呈現方式略有不同。
 
@@ -111,7 +111,7 @@ hide: []
         -  **官網消費歸因**：綁定有效期間內，會員自主於官方網站上的消費金額歸因。
         -  **推薦商品歸因**：指定期間內，透過推薦商品連結產生的消費金額歸因。
   
-    ![業績歸因報表-門市業績](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-業績報表03.png)
+    ![](https://www.cyberbiz.io/support/wp-content/uploads/門市助理-業績報表03.png)
 
 
 

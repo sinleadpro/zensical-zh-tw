@@ -175,7 +175,6 @@ copyright = """
                 {"配送狀態對照表" = "ec/orders/references/fulfillment-statuses.md"},
                 {"付款狀態對照表" = "ec/orders/references/payment-statuses.md"},
                 {"C2C 退貨便條件" = "ec/orders/references/c2c-return-conditions.md"},
-                {"自動刷退時效" = "ec/orders/references/auto-refund-timeline.md"},
                 {"超商部分出貨支援表" = "ec/orders/references/cvs-partial-shipping-support.md"},
                 {"退貨退款狀態(超商逾期)" = "ec/orders/references/return-refund-status-reference.md"},
                 {"列表操作功能" = "ec/orders/references/order-list-features.md"},
@@ -329,12 +328,12 @@ copyright = """
         { "訊息推播" = [
             {"訊息推播總覽" = "ec/notifications/index.md" },
             {"Email 樣板管理" = "ec/notifications/manage-email-templates.md"},
+            {"發送 EDM" = "ec/notifications/send-edm-newsletters-v2.md"},
             {"簡訊通知樣板" = "ec/notifications/manage-sms-templates-v2.md" },
             {"簡訊發送" = "ec/notifications/send-sms-notifications-v2.md"},
             {"簡訊發送紀錄" = "ec/notifications/track-sms-records.md"},
             {"LINE OA 樣板管理" = "ec/notifications/manage-line-oa-templates.md"},
             {"LINE 加入好友邀請" = "ec/notifications/send-line-friend-invitation.md" },
-            {"發送 EDM" = "ec/notifications/send-edm-newsletters-v2.md"}
         ]},
         { "金物流" = [
             {"金物流總覽" = "ec/payments-and-logistics/index.md"},
@@ -482,12 +481,15 @@ copyright = """
                 { "官網整合對話入口" = "ec/app-market/chatbox/integrated-chat-widget.md" },
             ]},
             {"CHANNEL BRIDGE" = [
-                { "安裝啟用" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md" },
-                { "導入商品與建立關聯" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step2-import-products-and-link.md" },
-                { "商品庫存同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee.md" },
-                { "官網商品建立為蝦皮商品" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step4-create-shopee-products-from-site.md" },
-                { "商品資訊同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step5-sync-product-info-with-shopee.md" },
-                { "訂單同步與出貨" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/sync-shopee-orders.md" },
+                {"蝦皮與官網共庫" = [
+                    { "安裝啟用" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step1-install-and-activate.md" },
+                    { "導入商品與建立關聯" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step2-import-products-and-link.md" },
+                    { "商品庫存同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step3-sync-inventory-with-shopee.md" },
+                    { "官網商品建立為蝦皮商品" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step4-create-shopee-products-from-site.md" },
+                    { "商品資訊同步" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/step5-sync-product-info-with-shopee.md" },
+                    { "訂單同步與出貨" = "ec/app-market/cyberbiz-channel-bridge/shopee-integration/sync-shopee-orders.md" },
+                ]},
+                { "POS 與官網共庫" = "ec/app-market/cyberbiz-channel-bridge/sync-inventory-with-pos.md" },
             ]},
             {"CYBERBIZ EXPRESS " = [
                 {"日到台宅配" = "ec/app-market/express/cyberbiz-express-japan-to-taiwan-delivery.md"},
@@ -614,6 +616,7 @@ copyright = """
             { "資安防護" = [
                 { "資安防護總覽" = "ec/website-management/security-best-practices.md" },
                 { "會員安全" = "ec/website-management/member-security-settings.md" },
+                { "跳轉至其他國家官網" = "ec/website-management/setup-country-site-redirect.md" },
                 { "管理者登入" = "ec/website-management/admin-security-settings.md" },
                 { "機器人防護" = "ec/website-management/bot-protection-settings.md" },
                 { "二階段驗證 (2FA)" = "ec/website-management/setup-manage-two-factor-auth.md" },
@@ -718,6 +721,7 @@ copyright = """
             { "overview" = "pos/hardware/index.md" },
             { "台新有線刷卡機" = "pos/hardware/taishin-wired-credit-card-machine.md" },
             { "MYPAY 無線刷卡機" = "pos/hardware/mypay-wireless-credit-card-machine.md" },
+            { "A910S 刷卡機" = "pos/hardware/a910s-credit-card-machine.md" },
             { "Posiflex 有線發票機" = "pos/hardware/posiflex-wired-invoice-printer.md" },
             { "EPSON TM-T82III 發票機" = "pos/hardware/epson-tm-t82iii-invoice-printer.md" },
             { "EPSON TM-M30III 發票機" = "pos/hardware/epson-tm-m30iii-invoice-printer.md" },
@@ -822,9 +826,10 @@ copyright = """
             { "2026年7月" = "resources/new-release/2026-07.md" },
             { "2026年8月" = "resources/new-release/2026-08.md" },
             { "2026年9月" = "resources/new-release/2026-09.md" },
+            { "2026年10月" = "resources/new-release/2026-10.md" },
         ]},
     ]}
- ]
+]
 # With the "extra_css" option you can add your own CSS styling to customize
 # your Zensical project according to your needs. You can add any number of
 # CSS files.
