@@ -284,29 +284,6 @@ hide:
 - 流量、轉換率數據於隔日下午五點半更新。
 - 其餘數據於隔日凌晨零點更新(取消及退貨訂單會定時更新排除)。
 
-## 後續操作 { #next-steps-chart-overview }
-
-當您透過基準參考範圍找到待優化的指標後，可參考以下資源加強對應能力：
-
-<div class="grid cards" markdown>
-
-- :lucide-mouse-pointer-click:{ .lg }  
-  [__提升流量__](https://tutorcyb.cyberbiz.co/search?tab=programs&tag=流量篇)  
-  學習 SEO、廣告與社群導流，把更多顧客帶進商店。
-
-- :lucide-percent:{ .lg }  
-  [__提升轉換率__](https://tutorcyb.cyberbiz.co/search?tab=programs&tag=轉換率)  
-  優化商品頁與結帳流程，讓更多流量轉為訂單。
-
-- :lucide-receipt:{ .lg }  
-  [__提升客單價__](https://tutorcyb.cyberbiz.co/search?tab=programs&tag=AOV)  
-  運用加價購、組合銷售等方式提高每筆訂單金額。
-
-- :lucide-repeat:{ .lg }  
-  [__提升回購率__](https://tutorcyb.cyberbiz.co/search?tab=programs&tag=回購率)  
-  透過會員經營與再行銷，讓顧客回頭再次下單。
-
-</div>
 
 ## 常見問題 { #faq-chart-overview }
 
@@ -345,5 +322,4 @@ hide:
 
 - [圖表總覽指標對照表](references/bi-overview-metrics-reference.md)
 - [基準參考範圍狀態對照表](references/benchmark-reference-range-status-reference.md)
-- 提升各指標的線上課程：[CYBERBIZ 商學院](https://tutorcyb.cyberbiz.co/)
 
